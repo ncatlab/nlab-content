@@ -36,9 +36,30 @@ The construction of $tmf$ has motivation from [[physics]] ([[string theory]]) an
 1. **from [[chromatic homotopy theory]].** The [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[stable (∞,1)-category|stable]] [[(∞,1)-category of spectra]] ([[finite spectra]]) has its [[prime spectrum of a symmetric monoidal stable (∞,1)-category|prime spectrum]] parameterized by [[prime numbers]] $p$ and [[Morava K-theory]] spectra $K(n)$ at these primes, for natural numbers $n$. The level $n$ here is called the _[[chromatic level]]_. In some sense the part of this prime spectrum at chromatic level 0 is [[ordinary cohomology]] and that at level 1 is [[topological K-theory]]. Therefore an obvious question is what the part at level 2 would be, and in some sense the answer is $tmf$. (This point of view has been particularly amplified in the review ([Mazel-Gee 13](#MazelGee13)) of the writeup of the construction in ([Behrens 13](#Behrens13)), which in turn is based on unpublished results based on ([Hopkins 02](#Hopkins02))). For purposes of [[stable homotopy theory]] this means for instance that $tmf$ provides new tools for computing more [[homotopy groups of spheres]] via an [[Adams-Novikov spectral sequence]].
 
 
-## Definition and construction
+## Definition 
 
-> under construction
+Write 
+
+* $\mathcal{M}_{cub}$ for the [[moduli stack of curves]] for [[cubic curves]];
+
+* $\mathcal{M}_{ell}$ for the [[moduli stack of elliptic curves]];
+
+* $\mathcal{M}_{\overline{ell}}$ for its [[Deligne-Mumford compactification]] obtained by adding the [[nodal cubic curve]].
+
+(Here $\mathcal{M}_{cub}$ is obatined by furthermor adding also the [[cuspidal cubic curve]], hence we have canonical maps $\mathcal{M}_{ell}\to \mathcal{M}_{\overline{ell}}\to \mathcal{M}_{cusp} \to \mathcal{M}_{FG}$).
+
+The [[Goerss-Hopkins-Miller theorem]] equips these three moduli stacks with [[E-∞ ring]]-valued [[structure sheaves]] $\mathcal{O}^{top}$ (and by [[A Survey of Elliptic Cohomology|Lurie (Survey)]] that makes them into [[spectral Deligne-Mumford stacks]] which are moduli spaces for [[derived elliptic curves]] etc.)
+
+The _$tmf$-spectrum_ is defined to be the $E_\infty$-ring of [[global sections]] of $\mathcal{O}^{op}$ (in the sense of [[derived algebraic geometry]], hence the [[homotopy limit]] of $\mathcal{O}^{top}$ over the [[etale site]] of $\mathcal{M}$). More precisely one sets
+
+* $TMF \coloneqq \Gamma(\mathcal{M}_{ell}, \mathcal{O}^{top})$;
+
+* $Tmf \coloneqq \Gamma(\mathcal{M}_{\overline{ell}}, \mathcal{O}^{top})$;
+
+* $tmf \coloneqq$ the [[connective cover]] of $Tmf$ (also $\simeq \Gamma(\mathcal{M}_{\overline{cub}}, \mathcal{O}^{top})$ ([Hill-Lawson 13, p. 2](#HillLawson13}) (?)).
+
+##Constructions
+
 
 ### Decomposition via Arithmetic fracture squares
  {#DecomopositionViaArithmeticSquares}
@@ -184,6 +205,7 @@ $$
 where the [[smash product]] $\wedge$ of ring spectra over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
 
 
+
 As a [[groupoid object in an (∞,1)-category|groupoid object]] this is still equivalent to just $Spec(tmf)$.
 
 
@@ -269,16 +291,64 @@ in the $tmf$-[[generalized cohomology]] of its base space $X$.
 
 =--
 
-### Map to Tate K-theory
+### Maps to K-theory and to Tate K-theory
  {#MapToTateKTheory}
 
-There is a canonical map of $E_\infty$-rings
+
+The inclusion of the compactification point (representing the [[nodal curve]] but being itself the [[cusp]] of $\mathcal{M}_{\overline{ell}}$) into the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]] $\mathcal{M}_{\overline{ell}}$ is equivalently the inclusion of the "moduli stack of 1-dimensional tori" ([Lawson-Naumann 12, Appendix A](#LawsonNaumann12))
+
+$$
+  \mathcal{M}_{\mathbb{G}_m}
+  \simeq \mathbf{B}\mathbb{Z}_2
+ \longrightarrow 
+  \mathcal{M}_{\overline{ell}}
+  \to
+  \mathcal{M}_{FG}
+$$
+
+and pullback of [[global sections]] of [[Goerss-Hopkins-Miller-Lurie theorem]]-wise $E_\infty$-ring valued structure sheaves yields maps
+
+$$
+  KO \longleftarrow \longleftarrow \mathbb{S}
+$$
+
+exhibiting [[KO]] $= \Gamma(\mathcal{M}_{\mathbb{G}_m}, \mathcal{O}^{top})$.
+
+At least after [[localization of a ring|2-localization]] the canonical [[double cover]] of the compactification of $\mathcal{M}_{\mathbb{G}_m} \simeq \mathbf{B}\mathbb{Z}_2$ similarly yields under $\Gamma(-,\mathcal{O}^{top})$ the inclusion of $ko$ as the $\mathbb{Z}_2$-[[homotopy fixed points]] of $ku$ (see at _[[KR-theory]]_ for more on this)
+
+$$
+  \array{
+    ku_{(2)}
+    \\
+    \uparrow
+    \\
+    ko_{(2)}
+  }  
+$$
+
+and combined with the above this comes with maps from $tmf$ by restriction along the inclusion of the [[nodal curve]] [[cusp]] as
+
+$$
+  \array{
+    ku_{(2)} & \longleftarrow & tmf_1(3)_{(2)}
+    \\
+    \uparrow && \uparrow
+    \\
+    ko_{(2)} & \longleftarrow & tmf_{(2)}
+  }  
+  \,,
+$$
+
+([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)), where $tmf_1(3)$ denotes [[topological modular forms]] with level-3 structure ([Mahowald-Rezk 09](#MahowaldRezk09)).
+
+
+Moreover, including not just the nodal curve cusp but its [[formal neighbourhood]] which is the [[Tate curve]], there is analogously a canonical map of $E_\infty$-rings
 
 $$
   tmf \longrightarrow KO[ [ q ] ]
 $$
 
-to [[Tate K-theory]]. ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), with details in [Hill-Lawson 13, appendix A](#HillLawson13)).
+to [[Tate K-theory]] (this is originally asserted in [Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), details are in [Hill-Lawson 13, appendix A](#HillLawson13)).
 
 ### Witten genus and string orientation
 
@@ -397,7 +467,7 @@ is in section 8 of
 
 Topological modular forms with _level $N$-structure_ -- $tmf(N)$ -- is discussed in 
 
-* [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+* {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
 * {#DavisMahowald10} [[Donald Davis]], [[Mark Mahowald]], _Connective versions of $TMF(3)$_ ([arXiv:1005.3752](http://arxiv.org/abs/1005.3752))
 
@@ -405,7 +475,7 @@ Topological modular forms with _level $N$-structure_ -- $tmf(N)$ -- is discussed
 * {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 
-* [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
+* {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 * {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
 
