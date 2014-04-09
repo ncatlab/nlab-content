@@ -220,6 +220,8 @@ $$
 
 =--
 
+See e.g. ([Hain 08, section 5](#Hain08)) on how complex elliptic curves are expressed in this algebraic geometric fashion.
+
 ### Over the complex numbers
  {#OverTheComplexNumbers}
 
@@ -267,6 +269,9 @@ Over the [[p-adic integers]], see ([Conrad 07](#Conrad07)).
 
 Over the [[p-adic numbers]]. see ([Winter 11](#Winter11)).
 
+## Level structures
+
+(...) [[level structure on an elliptic curve]]
 
 ## Properties
 
@@ -364,7 +369,7 @@ Classical accounts of the general case include
 
 Introductory lecture notes for elliptic curves over the complex numbers include
 
-* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+* {#Hain08} Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 and for the general case
 
