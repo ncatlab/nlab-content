@@ -200,6 +200,7 @@ which by formal duality is
 
 $$
   \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (tmf \wedge MU \wedge MU) \stackrel{\to}{\to} Spec ( tmf \wedge MU)
+
 $$
 
 where the [[smash product]] $\wedge$ of ring spectra over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
@@ -291,6 +292,7 @@ in the $tmf$-[[generalized cohomology]] of its base space $X$.
 
 =--
 
+
 ### Maps to K-theory and to Tate K-theory
  {#MapToTateKTheory}
 
@@ -339,7 +341,7 @@ $$
   \,,
 $$
 
-([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)), where $tmf_1(3)$ denotes [[topological modular forms]] with level-3 structure ([Mahowald-Rezk 09](#MahowaldRezk09)).
+([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)), where $tmf_1(3)$ denotes [[topological modular forms]] with [[level structure on an elliptic curve|level-3 structure]] ([Mahowald-Rezk 09](#MahowaldRezk09)).
 
 
 Moreover, including not just the nodal curve cusp but its [[formal neighbourhood]] which is the [[Tate curve]], there is analogously a canonical map of $E_\infty$-rings
@@ -465,7 +467,7 @@ is in section 8 of
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
 
-Topological modular forms with _level $N$-structure_ -- $tmf(N)$ -- is discussed in 
+Topological modular forms with _[[level N-structure]]_ -- $tmf(N)$ -- is discussed in 
 
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
