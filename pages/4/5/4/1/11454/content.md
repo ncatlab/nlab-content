@@ -50,9 +50,12 @@ There is an eight-fold cover of $\mathcal{M}_{cub}$ [[localization of a ring|loc
 
 Reviews for the case that 2 and 3 are invertible include
 
-
-
 * [[Balázs Szendrői]], _Cubic curves: a short survey_  ([pdf](http://people.maths.ox.ac.uk/szendroi/cubic.pdf))
+
+and specifically over the complex numbers:
+
+* {#Hain08} Richard Hain, section 5 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
 
 Discussion of the general case in the context of the construction of [[tmf]] is in
 
