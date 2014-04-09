@@ -22,6 +22,8 @@ Deligne and Mumford have found a nontrivial [[compactification]] of a moduli spa
 There is also a decorated version of curves with marked points, and
 of the corresponding compactified moduli space of stable curves of genus $g$ with $n$ marked points $\mathcal{M}_{g,n}$ which plays an important role in the mathematical study of [[Gromov-Witten invariants]] and of [[conformal blocks]].
 
+The special case of $g = 1$, $n =1$ is the [[moduli stack of elliptic curves]] $\mathcal{M}_{1,1}= \mathcal{M}_{ell}$.
+
 ## Properties
 
 ### Orbifold Euler characteristic
@@ -88,3 +90,6 @@ Reviews include
 
 [[!redirects moduli stack of Riemann surfaces]]
 [[!redirects moduli stacks of Riemann surfaces]]
+
+[[!redirects moduli stack of algebraic curves]]
+[[!redirects moduli stacks of algebraic curves]]
