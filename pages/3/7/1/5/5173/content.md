@@ -1,6 +1,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Eugene_Wigner)
 
+## Writings
+
+* _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
+
+
 ## Related entries
 
 * [[Wigner classification]]
