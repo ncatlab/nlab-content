@@ -48,6 +48,11 @@ $$
 
 ## References
 
+An introductory review is in 
+
+* {#Hain08} Richard Hain, section 5.1 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+
 A textbook account includes for instance
 
 * Joseph Silverman, _The arithmetic of elliptic curves_, volume 106 of Graduate Texts in Mathematics. Springer, 1986
