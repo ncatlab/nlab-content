@@ -425,7 +425,7 @@ Introductory lecture notes on the moduli space of elliptic curves over the [[com
 
 * {#IntroOrbifolds} section 4 of _Introduction to Orbifolds_ ([[IntroductionToOrbifolds.pdf:file]])
 
-Account of the general case include
+Accounts of the general case include
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves_, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
 
@@ -433,6 +433,8 @@ Account of the general case include
 
 
 Lecture notes/talk notes reviewing this include
+
+* James Parson, _Moduli of elliptic curves_  ([pdf](http://math.stanford.edu/~conrad/vigregroup/vigre03/moduli.pdf))
 
 * {#Mathew} [[Akhil Mathew]], section 3 of _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
