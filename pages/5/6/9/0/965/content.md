@@ -17,8 +17,10 @@ Dually, an __inflattice__ is a poset which has all [[meets]], and an __inflattic
 
 A __[[frame]]__ (dual to a [[locale]]) is a suplattice in which finitary meets distrubute over arbitrary joins.  (Frame homomorphisms preserve all joins and finitary meets.)
 
-The [[category]] [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of [[truth-values]].  A [[monoid object|monoid]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case.
+The [[category]] [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of [[truth-values]].  A [[semigroup object|semigroup]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case when the quantale
+is idempotent and unital. Modules over them are [[modules over quantales]] (quantic modules with special case of localic modules, used in the localic analogue of the Grothendieck's descent theory in Joyal and Tierney). 
 
+* [[André Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp.
 
 [[!redirects suplattice]]
 [[!redirects sup lattice]]
