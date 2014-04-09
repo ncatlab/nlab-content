@@ -1,0 +1,9 @@
+
+Keith Hardie is a South African mathematician, who has published work on homotopy theory and category theory.
+
+* [Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=42132)
+
+category:people
+[[!redirects K.A. Hardie]]
+
+[[!redirects K. A. Hardie]]
