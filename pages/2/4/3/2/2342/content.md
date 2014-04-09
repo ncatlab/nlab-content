@@ -84,7 +84,7 @@ Elliptic curves are examples of solutions to [[Diophantine equations]] of degree
 +-- {: .num_defn #GeneralWeierstrassCubic}
 ###### Definition
 
-Let $R$ be a [[commutative ring]], then [[Zariski topology|Zariski locally]] over $Spec(R)$ a [[cubic curve]] is a solution to an [[equation]] of the form
+Let $R$ be a [[commutative ring]], then [[Zariski topology|Zariski locally]] over $Spec(R)$ a [[cubic curve]] is a solution in the corresponding [[projective space]] to an [[equation]] of the form
 
 $$
   y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
@@ -167,6 +167,7 @@ Over $R = \mathbb{C}$ the [[complex numbers]] the quantities $c_4$ and $c_6$ in 
 =--
 
 ##### Elliptic curves, Nodal curves, Cuspidal curves
+ {#EllipticCurvesNodalCurvesCuspidalCurves}
 
 The following is a definition if one takes the coordinate-description as fundamental. If one takes the more abstract characterization of def. \ref{EllipticCurve} as fundamental then the following is a proposition.
 
@@ -177,9 +178,9 @@ A solution to the Weierstrass cubic, def. \ref{GeneralWeierstrassCubic}, with mo
 
 1. an _elliptic curve_ iff $\Delta \neq 0$;
 
-1. a _nodal curve_ or _[[cubic curve]] with nodal [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 \neq 0$;
+1. a _[[nodal curve]]_ or _[[cubic curve]] with nodal [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 \neq 0$;
 
-1. a _cuspidal curve_ or _[[cubic curve]] with cusp [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 = 0$ (which by remark \ref{RelationBetweenDiscriminantAndTheModularInvariants} is equivalent to $c_4 = 0$ and $c_6 = 0$)
+1. a _[[cuspidal curve]]_ or _[[cubic curve]] with [[cusp]] [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 = 0$ (which by remark \ref{RelationBetweenDiscriminantAndTheModularInvariants} is equivalent to $c_4 = 0$ and $c_6 = 0$)
 
 =--
 
