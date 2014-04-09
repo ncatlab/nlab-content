@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[singular point in an algebraic variety|singularity]].
+
+For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
+
+## Related concepts
+
+* [[nodal curve]]
+
+[[!redirects cusps]]
+
+[[!redirects cuspidal curve]]
+[[!redirects cuspidal curves]]
