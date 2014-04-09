@@ -1,0 +1,6 @@
+* [webpage at Sussex University](http://www.maths.sussex.ac.uk/Staff/CJM/)
+
+category:people
+
+[[!redirects Christopher J. Mulvey]]
+[[!redirects C. J. Mulvey]]
