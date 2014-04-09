@@ -134,6 +134,10 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 
 ## References
 
+Related entries: [[locale]], [[quantaloid]], [[module over a quantale]]
+
+* [[eom]]: [quantale](http://www.encyclopediaofmath.org/index.php/Quantale)
+
 Discussion of how quantales serve as a model for [[linear logic]] and [[quantum logic]] is in 
 
 * [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
@@ -148,7 +152,8 @@ Connections to operator algebras and etale groupoids is discussed in
 * [[Pedro Resende]], _&#201;tale groupoids and their quantales_, Adv. Math. __208__ (2007) 147-209; also published electronically: [doi](http://dx.doi.org/10.1016/j.aim.2006.02.004); [math/0412478](http://arxiv.org/abs/math/0412478)
 * M.C. Protin, P. Resende, _Quantales of open groupoids_, J. Noncommut. Geom. __6__ (2012) 199&#8211;247.
 * P. Resende, Lectures on  &#769;tale groupoids, inverse semigroups and quantales, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4&#8211;18 September, 2006, 115 pp.; [pdf](http://www.math.ist.utl.pt/&#8764;pmr/poci55958/gncg51gamap-version2.pdf)
-* P. Resende, _Groupoid sheaves as quantale sheaves_, J. Pure Appl. Algebra 216 (2012), 41&#8211;70.
+* P. Resende, _Groupoid sheaves as quantale sheaves_, J. Pure Appl. Algebra 216 (2012), 41&#8211;70; [arxiv/0807.4848](http://arxiv.org/abs/0807.4848v3)
+[doi](http://dx.doi.org/10.1016/j.jpaa.2011.05.002)
 * D. Kruml, J.W. Pelletier, P. Resende, J. Rosick&#253;, _On quantales and spectra of $C^\ast$-algebras_, Appl. Categ. Structures __11__ (2003) 543&#8211;560.
 * D. Kruml, P. Resende, _On quantales that classify $C^\ast$-algebras_, Cah. Topol. Geom. Differ. Categ. __45__ (2004) 287&#8211;296.
 * [[F. Borceux]], [[J. Rosický]], G. Van den Bossche, _Quantales and $C^\ast$-algebras, J. London Math. Soc. __40__ (1989) 398&#8211;404 [doi](http://dx.doi.org/10.1112/jlms/s2-40.3.398)
@@ -157,6 +162,8 @@ Connections to operator algebras and etale groupoids is discussed in
  Sheaves on a quantale
 
 * [[Francis Borceux]], Rosanna Cruciani, Sheaves on a quantale, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1993) 34:3, page 209-228 [pdf](http://archive.numdam.org/article/CTGDC_1993__34_3_209_0.pdf)
+
+category: order, noncommutative geometry
 [[!redirects quantale]]
 [[!redirects quantales]]
 [[!redirects *-quantale]]
