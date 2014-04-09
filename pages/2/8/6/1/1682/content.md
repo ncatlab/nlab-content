@@ -295,7 +295,7 @@ in the $tmf$-[[generalized cohomology]] of its base space $X$.
  {#MapToTateKTheory}
 
 
-The inclusion of the compactification point (representing the [[nodal curve]] but being itself the [[cusp]] of $\mathcal{M}_{\overline{ell}}$) into the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]] $\mathcal{M}_{\overline{ell}}$ is equivalently the inclusion of the "moduli stack of 1-dimensional tori" ([Lawson-Naumann 12, Appendix A](#LawsonNaumann12))
+The inclusion of the compactification point (representing the [[nodal curve]] but being itself the [[cusp]] of $\mathcal{M}_{\overline{ell}}$) into the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]] $\mathcal{M}_{\overline{ell}}$ is equivalently the inclusion of the [[moduli stack of 1-dimensional tori]] $\mathcal{M}_{1dtori} = \mathcal{M}_{\mathbb{G}_m}$ ([Lawson-Naumann 12, Appendix A](#LawsonNaumann12))
 
 $$
   \mathcal{M}_{\mathbb{G}_m}
