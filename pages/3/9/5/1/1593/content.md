@@ -29,6 +29,12 @@ An explicit models for [[B-fields]] for the [[bosonic string]]  on orientifolds 
 
 That for the [[superstring]] the B-field is more generally a cocycle with coefficients in the [[Picard infinity-group]] of [[complex K-theory]] ([[super line 2-bundles]]) and a detailed discussion of the orientifold version of this is ([Distler-Freed-Moore 09](#Precis), [Distler-Freed-Moore 10](#DistlerFreedMooreII)) with details in ([Freed 12](#Freed)).
 
+## Properties
+
+### Lift to F-theory
+
+Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](Sen96), [Sen 97](#Sen97)).
+
 ## Related concepts
 
 * [[O-plane]]
@@ -93,6 +99,12 @@ More on this in section 3.3.10 of
 The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bundles replaced by the [[circle n-bundle with connection|circle 3-bundles]] of the [[supergravity C-field]] is discussed towards the end of
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
+
+Lifts of type II orientifolds to [[F-theory]] were first discussed in
+
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+
+* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
 [[!redirects orientifolds]]
 
