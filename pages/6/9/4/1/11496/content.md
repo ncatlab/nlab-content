@@ -41,13 +41,13 @@ $$
   \,.
 $$
 
-There is then a moduli stack of complex elliptic curves with level $n$-structure
+There is then a [[moduli space]] of complex elliptic curves equipped with level $n$-structure
 
 $$
-  \mathcal{M}_{ell}[n](\mathbb{C}) \simeq \mathfrak{h}//\Gamma_n
+  \mathcal{M}_{ell}(\mathbb{C})[n] \simeq \mathfrak{h}//\Gamma_n
 $$
 
-and this is now a finite cover (of rank the [[order of a group|order]] of the [[finite group]] $SL_2(\mathbb{Z}/n\mathbb{Z})$) of the actual moduli stack of complex elliptic curves
+called the _[[modular curve]]_, and this is now a finite cover (of rank the [[order of a group|order]] of the [[finite group]] $SL_2(\mathbb{Z}/n\mathbb{Z})$) of the actual [[moduli stack of elliptic curves|moduli stack of complex elliptic curves]]
 
 $$
   \mathcal{M}_{ell}[n](\mathbb{C})
@@ -56,6 +56,36 @@ $$
   \simeq
   \mathcal{M}_{ell}(\mathbb{C})
   \,.
+$$
+
+## Definition
+
+### Congruence groups
+
+Let $n \in \mathbb{N}$ be a [[natural number]]. Write
+
+$$
+  p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/\mathbb{Z}_n)
+$$
+
+for the projection from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group]].
+
+The [[congruence subgroups]] of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are defined as follows.
+
+The **principal congruence subgroup** is
+
+$$
+  \Gamma(n) \coloneqq ker(p_n) = p_n^{-1}\left(\left\{\array{ 1 & 0 \\ 0 & 1}\right\}\right)
+$$
+
+The other two are
+
+$$
+  \Gamma_0(n) \coloneqq p_n^{-1}\left(\left\{\array{ \ast & \ast \\ 0 & \ast}\right\}\right)
+$$
+
+$$
+  \Gamma_1(n) \coloneqq p_n^{-1}\left(\left\{\array{ 1 & \ast \\ 0 & \ast}\right\}\right)
 $$
 
 
@@ -83,6 +113,12 @@ Over general base rings:
 [[!redirects level N-structures]]
 [[!redirects level N structures]]
 
+[[!redirects level-n structure]]
+[[!redirects level-n structures]]
+
+[[!redirects level-n structure]]
+[[!redirects level-n structures]]
+
 [[!redirects level n-structure]]
 [[!redirects level n structure]]
 [[!redirects level n-structures]]
@@ -96,3 +132,6 @@ Over general base rings:
 
 [[!redirects level n-structure on an elliptic curve]]
 [[!redirects level n-structure on elliptic curves]]
+
+[[!redirects elliptic curve with level-n structure]]
+[[!redirects elliptic curves with level-n structure]]
