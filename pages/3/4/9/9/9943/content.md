@@ -79,6 +79,9 @@ where on the left we have maps of [[structured (∞,1)-toposes]] and on the righ
 
 This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
 
+## Related concepts
+
+[[!include moduli stack of curves -- table]]
 
 ## References
 
