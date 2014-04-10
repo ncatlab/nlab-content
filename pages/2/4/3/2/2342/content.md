@@ -217,11 +217,11 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-If the [[ring]] $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to the [[Weierstrass equation]] as in prop. \ref{WeierstrassEquationLocalAt2And3},  parameterized by a [[torus]] $z \in \mathbb{C}/\Lambda$ (as discussed in the section [in terms of complex geometry](#InTermsOfCpomplexGeometry)) via the [[Weierstrass elliptic function]] $p$ as
-$(x = p(z), y = p'(z), )$ in the form
+If the [[ring]] $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to the [[Weierstrass equation]] as in prop. \ref{WeierstrassEquationLocalAt2And3},  parameterized by a [[torus]] $z \in \mathbb{C}/\Lambda$ (as discussed in the section [in terms of complex geometry](#InTermsOfCpomplexGeometry)) via the [[Weierstrass elliptic function]] $\wp$ as
+$(x = \wp(z), y = \wp'(z), )$ in the form
 
 $$
-  p'(z)^2 + 4 p(z)^3 - g_2 p(z) - g_3
+  \wp'(z)^2 + 4 \wp(z)^3 - g_2 p(z) - g_3
   \,.
 $$
 
@@ -286,9 +286,21 @@ Over the [[p-adic numbers]]. see ([Winter 11](#Winter11)).
 
 ## Level structures
 
-(...) [[level structure on an elliptic curve]]
+In the case over the [[complex numbers]] an elliptic curve $\Sigma$ is equivalently the [[quotient]] of the [[complex plane]] by a framed [[lattice]]. If here one remembers the structure given by that framed lattice, this means equivalently to remember an ordered basis
+
+$$
+  (a_1, a_2)\in H_1(\Sigma, \mathbb{Z})
+$$
+
+of the [[ordinary homology]] group of $\Sigma$ with [[coefficients]] in the [[integers]].
+
+If here one replaces the integers by a [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ then one obtains what is called a
+_[[level structure on an elliptic curve|level-n structure on an elliptic curve]]_. Level-$n$ structures on elliptic curves may also be defined over general rings. 
+
+These structures are useful in that the [[moduli stack]] of [[elliptic curves with level-n structure]] (a _[[modular curve]]_ in the case over the complex numbers) orivides a finite [[covering]] of the full [[moduli stack of elliptic curves]].
 
 ## Properties
+
 
 ### Group law 
 
