@@ -1,3 +1,8 @@
+
+# Linear topological rings
+* table of contents
+{: toc}
+
 ##Idea
 
 A [[topological ring]] $R$ is said to have a _(left) linear topology_ if it has a [[topological base]] of neighbourhoods of 0 consisting of (left) ideals.
@@ -23,14 +28,24 @@ is open.
 
 =--
 
-##Examples
+
+## Examples
+
+...
 
 
-
-##References
+## References
 
 * related ideas include [[pseudocompact ring]], [[Gabriel filter]], [[topologizing subcategory]]
 
 *  [[Pierre Gabriel]],  __Des cat&#233;gories ab&#233;liennes__, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
-*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, []()
+*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, (link needed).
+
+
+[[!redirects linear topological ring]]
+[[!redirects linear topological rings]]
+[[!redirects linear topologizing ring]]
+[[!redirects linear topologizing rings]]
+[[!redirects linear topologising ring]]
+[[!redirects linear topologising rings]]
