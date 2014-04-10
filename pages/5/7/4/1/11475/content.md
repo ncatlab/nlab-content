@@ -1,4 +1,6 @@
-This notion is a variant of a notion of a compact space (every cover has a finite subcover).
+This notion is a variant of a notion of a compact space (every cover has a finite subcover) and more specifically a special case of [[compact element]] for orders.
+However this entry is written in parallel and with a view toward
+another generalization -- compact elements in [[quantale]]s. 
 
 Let $L$ be a [[complete lattice]]. An element $c\in L$ is __compact__ iff any of the following equivalent conditions hold:
 
@@ -8,8 +10,9 @@ Let $L$ be a [[complete lattice]]. An element $c\in L$ is __compact__ iff any of
 there is $s\in S$ with $c\leq s$
 
 A [[frame]] $L$ is __algebraic__ if every element of $L$ is the sup of some set
-of compact elements. In that case, one can take the set of all elements below or
-equal the given element. The latter definition is accepted also for [[quantale]]s.
+of compact elements. (Cf. also entry [[algebraic lattice]]). 
+In that case, one can take the set of all elements below or
+equal the given element.  The latter definition is accepted also for [[quantale]]s.
 
 $L$ is __coherent__ if it is algebraic and the finite inf of a set of compact elements
 is compact. 
@@ -24,3 +27,4 @@ A [[quantale]] is __precoherent__ if it is algebraic and binary products of comp
 
 [[!redirects coherent frame]]
 [[!redirects algebraic frame]]
+[[!redirects coherent quantale]]
