@@ -253,6 +253,8 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[enriched bicategory]]
 
+* [[model structure on enriched categories]]
+
 * [[enriched (∞,1)-category]]
 
 ## References
