@@ -1,4 +1,6 @@
 
+* [[Weierstrass elliptic function]]
+
 
 ## References
 
