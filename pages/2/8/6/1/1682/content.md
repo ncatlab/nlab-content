@@ -381,6 +381,8 @@ The [[spectrum]] $tmf$ is self-dual under [[Anderson duality]], more precisley $
 
 * [[taf]]
 
+[[!include moduli stack of curves -- table]]
+
 ## References ##
 
 The idea of a [[generalized cohomology theory]] with [[coefficients]] the ring of [[topological modular forms]] providing a home for the refined [[Witten genus]] of
