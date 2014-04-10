@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,6 +12,25 @@
 =--
 =--
 
+## Statement
+
+For $U$ an open subset of the complex line $\mathbb{C}$ and $C$ a [[Jordan curve]] in $U$, a holomorphic function $f$ of $U$ sends a point $\zeta$ interior to $C$ to the [[contour integral]]
+$$ \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.$$
+
+## Proof in sythetic differential geometry
+
+Here is a proof of written in [[synthetic differential geometry]]: 
+
+Let $\epsilon$ be a nilpotent. Let $S_\epsilon$ denote the circle of radius $\epsilon$ centered at $\zeta$. By the holomorphicity of $f$, the differential form $f(z)/(z-\zeta) \,\mathrm{d}z$ is closed in the region bounded by $C$ and $S_\epsilon$. By the Stokes theorem,  
+$$\frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z = \frac{1}{2\pi\mathrm{i}}\oint_{S_\epsilon} \frac{f(z)}{z - \zeta} \,\mathrm{d}z.$$
+Parametrize $S_\epsilon$ by 
+$(t\mapsto \zeta + \epsilon \,\exp(2\pi\mathrm{i}t))$ 
+to transform the above integral to
+$$\frac{1}{2\pi\mathrm{i}}\int_0^1 \frac{f(\zeta + \epsilon\, \exp(2\pi\mathrm{i}t))}{\epsilon \,\exp(2\pi\mathrm{i}t))} \,\mathrm{d}(\zeta + \epsilon\, \exp(2\pi\mathrm{i}t)) = \int_0^1 f(\zeta + \epsilon\, \exp(2\pi\mathrm{i}t)) \, \mathrm{d}t$$
+By the infinitesimal [[Taylor series|Taylor formula]] and the [[holomorphic function|holomorphicity]] of $f$, 
+$$f(\zeta + \epsilon\exp(2\pi\mathrm{i}t)) = f(\zeta) + \epsilon\,\exp(2\pi\mathrm{i}t) \frac{\partial f(\zeta)}{\partial z}.$$
+Hence the above integral is equal to
+$$\int_0^1 \left[f(\zeta) + \epsilon\,\exp(2\pi\mathrm{i}t) \frac{\partial f(\zeta)}{\partial z}\right] \, \mathrm{d}t = \left[f(\zeta) + \epsilon\frac{\partial f(\zeta)}{\partial z} \int_0^1 \exp(2\pi\mathrm{i}t)  \, \mathrm{d}t\right] = f(\zeta).$$
 
 ## Related concepts
 
