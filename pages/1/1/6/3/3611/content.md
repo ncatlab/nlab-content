@@ -404,9 +404,11 @@ and independently in
 
 * [[Marcy Robertson]], _The Homotopy Theory of Simplicially Enriched Multicategories_ ([arXiv](http://arxiv.org/abs/1111.4146))
 
-More on this is in 
+The generalization of this to [[colored operads]] is in
 
 * Giovanni Caviglia, _A Model Structure for Enriched Coloured Operads_ ([arXiv:1401.6983](http://arxiv.org/abs/1401.6983))
+
+(generalizing acorresponding [[model structure on enriched categories]]).
 
 An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon of the [[Boardman-Vogt resolution]] is in
 
