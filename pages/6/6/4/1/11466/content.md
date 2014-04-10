@@ -7,6 +7,8 @@
 
 A [[topological ring]] $R$ is said to have a _(left) linear topology_ if it has a [[topological base]] of neighbourhoods of 0 consisting of (left) ideals.
 
+Taking this apart we have a **definition/proposition** of such a topology, given by a left uniform filter:
+
 +-- {: .num_prop}
 ###### Proposition (Gabriel)
 A nonempty family of left ideals in $R$ is a left [[uniform filter]] (=[[topologizing filter]]) of left ideals iff it is a basis of neighborhood of $0$ of some
@@ -40,7 +42,7 @@ is open.
 
 *  [[Pierre Gabriel]],  __Des cat&#233;gories ab&#233;liennes__, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
-*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, (link needed).
+*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, ([pdf](http://www.sciencedirect.com/science/article/pii/0021869370900517)).
 
 
 [[!redirects linear topological ring]]
