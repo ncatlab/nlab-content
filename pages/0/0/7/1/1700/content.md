@@ -17,6 +17,7 @@
 
 Classical Galois theory classifies [[field extensions]]. It is a special case of a classification of [[locally constant sheaves]] in a [[topos]] by [[permutations representations]] of the [[fundamental groupoid]]/[[fundamental group]].
 
+Even more generally one can define a [[Galois group]] associated to a [[presentable (infinity,1)-category|presentable]] [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[stable (infinity,1)-category]].  There is an analogue of the Galois correspondence in this setting, see [Mathew 14](#Mathew14).
 
 ## Classical Galois theory for fields 
   {#ClassicalGaloisTheory}
@@ -437,6 +438,11 @@ A comprehensive textbook is
 The locally simply connected case is discussed for instance in 
 
 * Marco Robalo, _Galois Theory towards Dessins d'Enfants_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf))
+
+Galois theory in a [[presentable (infinity,1)-category|presentable]] [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[stable (infinity,1)-category]] is developed in
+
+* [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
+{#Mathew14}
 
 See also
 
