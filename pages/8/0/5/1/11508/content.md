@@ -19,7 +19,9 @@
 
 ## Idea
 
-The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)).
+The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)).
+
+The way this works is roughly indicated in the following table:
 
 [[!include moduli stack of curves -- table]]
 
