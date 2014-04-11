@@ -97,6 +97,12 @@ Restricted to [[FinSet]] this equivalence restricts to an equivalence with finit
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In constructive mathematics, $\mathcal{P}$ defines an equivalence of $\Set$ with the opposite category of that of [[complete lattice|complete]] [[atom|atomic]] [[Heyting algebras]]. In fact, for any elementary [[topos]] $\mathcal{E}$, the [[power object]] functor defines an equivalence of $\mathcal{E}$ with the opposite category of that of internal complete atomic Heyting algebras. (This phrase can be interpreted using the [[internal language]] of $\mathcal{E}$.)
+
+=--
 
 ## Related categories
 
