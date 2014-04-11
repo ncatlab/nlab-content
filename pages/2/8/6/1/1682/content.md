@@ -374,6 +374,10 @@ The original Witten genus is the value of the composite of this with the [map to
 The [[spectrum]] $tmf$ is self-dual under [[Anderson duality]], more precisley $tmf[1/2]$ is Anderson-dual to $\Sigma^{21} tmf[1/2]$ ([Stojanoska 11, theorem 13.1](#Stojanoska11))
 
 
+### Modular equivariant versions
+
+See at _[[modular equivariant elliptic cohomology]]_
+and at _[[Tmf(n)]]_.
 
 
 
@@ -488,6 +492,9 @@ The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojano
 
 
 
+[[!redirects Tmf]]
 [[!redirects TMF]]
 
+
 [[!redirects tmf spectrum]]
+
