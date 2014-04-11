@@ -1,0 +1,19 @@
+
+
+The [[profinite completion of a group|profinite completion]] of the [[integers]] is
+
+$$
+  \widehat {\mathbb{Z}} 
+    \coloneqq 
+  \underset{\leftarrow}{\lim}_{n \in \mathbb{N}} (\mathbb{Z}/n\mathbb{Z})
+  \,.
+$$
+
+This is [[isomorphism|isomorphic]] to the [[product]] of the [[p-adic integers]] for all [[prime numbers]] $p$
+
+$$
+  \widehat{\mathbb{Z}} \simeq \underset{p\; prime}{\prod} \mathbb{Z}_p
+  \,.
+$$
+
+
