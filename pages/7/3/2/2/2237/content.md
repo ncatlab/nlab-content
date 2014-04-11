@@ -177,9 +177,11 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivariant stable homotopy theory]]_.
 
-## Examples
+### Examples
 
 * $\mathbb{Z}_2$-equivariant cohomology theories: [[KR-theory]], [[MR-theory]]
+
+* [[modular group]]-equivariance: [[modular equivariant elliptic cohomology]]
 
 ## Related concepts
 
