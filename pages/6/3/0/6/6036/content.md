@@ -58,6 +58,10 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
   * [[string]], [[spinning string]], [[superstring]]
 
+    * [[type II superstring]], [[(p,q)-string]]
+
+    * [[heterotic string]]
+
   * [[membrane]]
 
 * [[string theory]]
