@@ -89,6 +89,9 @@ $$
 $$
 
 
+### Over general rings
+
+(e.g [Hill-Lawson 13, section 3.6](#HillLawson13))
 
 ## References
 
