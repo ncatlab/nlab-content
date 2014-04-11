@@ -41,6 +41,10 @@ Next, there are various hints ([Kriz-Sati 04a](#KrizSati04a), [Kriz-Sati 04b](#K
 [[elliptic cohomology]] ([Sati 10](#Sati10))).
 
 Finally, the [[M-theory]]-lift of [[type II string theory]] is (or is naturally identified as) _[[F-theory]]_, which describes the [[axio-dilaton]] of the type II string [[vacua]] including the [[modular group|modular]] [[S-duality]]/[[U-duality]] acting on this as an [[elliptic fibration]] over [[spacetime]] (whose [[monodromy]] "homology invariant" is hence an $SL_2(\mathbb{Z})$-[[local system]]). It is hence natural to suspect that the combined [[worldsheet]]/[[target space]] $\mathbb{Z}_2$-equivariance of [[orientifold]] [[type II superstring]] backgrounds which is captured by [[KR-theory]] lifts in [[F-theory]] to some combined worldsheet/target space [[modular group]]-action. This is excatly what would be captured by modular invariant $tmf$ as indicated above, and and it is what is conjectured in ([Kriz-Sati 05](#KrizSati05)).
+
+## Related concepts
+
+* related but different: [[equivariant elliptic cohomology]]
  
 ## References
 
