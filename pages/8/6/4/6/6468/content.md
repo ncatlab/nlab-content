@@ -34,11 +34,20 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$. This means th
 
 * Over the [[complex numbers]] they are all [[Kähler manifold|Kähler]].
 
+## Related concepts
+
+* [[F-theory]],
+
+* [[elliptic fibration]]
+
 ## References
 
 * [[Claire Voisin]], _<a href="http://www.ams.org/mathscinet-getitem?mr=2487743">Geometry of the Moduli Space of K3 surfaces</a>_ 
 
 * David Morrison, _[The geometry of K3 surfaces](http://www.cgtp.duke.edu/ITP99/morrison/cortona.pdf)_ Lecture notes (1988)
+
+* Viacheslav Nikulin, _Elliptic fibrations on K3 surfaces_ ([arXiv:1010.3904](http://arxiv.org/abs/1010.3904))
+
 
 [[!redirects K3 surfaces]]
 
