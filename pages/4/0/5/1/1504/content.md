@@ -523,17 +523,16 @@ These two approaches are based on the small Hilbert space, the state space inclu
 * [[Nathan Berkovits]], _Super-Poincare Invariant Superstring Field Theory_, ([hep-th/9503099](http://arxiv.org/abs/hep-th/9503099))
 
 In contrast to bosonic string field theory, [[BV quantization]] of this theory is more intricate than simply relaxing the ghost number
-constraint for the elds of the classical action
+constraint for the fields of the classical action
 
 * [[Nathan Berkovits]], _Constrained BV description of string field theory_, Journal of High Energy Physics, Volume 2012, Issue 3.
 
 
 * M. Kroyter, Y. Okawa, M. Schnabl, S. Torii, [[Barton Zwiebach]], _Open superstring eld theory I: gauge xing, ghost structure, and propagator, Journal of High Energy Physics, Volume 2012, Issue 3.
 
-Finally, there is a formulation of open superstring field theory that diers from all other approaches in not fixing the picture of
-classical fields 
+Finally, there is a formulation of open superstring field theory that differs from all other approaches in not fixing the picture of classical fields 
 
-* M. Kroyter, _Superstring eld theory in the democratic picture_, Advances in Theoretical and Mathematical Physics, Volume 15, Number 3.
+* M. Kroyter, _Superstring field theory in the democratic picture_, Advances in Theoretical and Mathematical Physics, Volume 15, Number 3.
 
 On the other hand, the construction of bosonic closed string field theory ([Zwiebach 92](#Zwiebach)) takes its origin in the [[moduli space]] of closed [[Riemann surfaces]]. Vertices represent a subspace of the moduli space, such that the moduli space decomposes uniquely into vertices and graphs,and do not apriori require a background. Graphs are constructed from the vertices by sewing together punctures along prescribed local coordinates around the punctures. But an assignment of local coordinates around the punctures, globally on the moduli space, is possible only up to rotations. This fact implies the level matching condition and via gauge
 invariance also the $b_0^- = 0$ constraint.
@@ -543,17 +542,17 @@ in the bosonic case, but a Ramond puncture describes a divisor on a super Rieman
 
 A given background provides forms on super moduli space 
 
-* A. Belopolsky, _New Geometrical Approach to Superstrings_, hep-th/9703183.
+* A. Belopolsky, _New Geometrical Approach to Superstrings_ ([arXiv:hep-th/9703183](http://arxiv.org/abs/hep-th/9703183))
 
 * L. Alvarez-Gaume, P. Nelson, C. Gomez, G. Sierra, C. Vafa, _Fermionic strings in the operator formalism_, Nuclear Physics B, Volume 311, Issue 2.
 
 in the sense of [[integration over supermanifolds|geometric integration theory on supermanifolds]], and in particular the geometric meaning
-of picture changing operators has been claried 
+of picture changing operators has been clarified 
 
 * [[Alexander Belopolsky]], _Picture changing operators in supergeometry and superstring theory_ ([arXiv:hep-th/9706033](http://arxiv.org/abs/hep-th/9706033)).
 
 Integrating along an odd direction in moduli space inevitably generates a picture changing operator. Thus, the ambiguity of defining local coordinates around Ramond punctures produces a picture changing operator
-associated with the vector field generating translations in the Ramond divisor. The bpz inner product plus the additional insertions originating from the sewing dene the symplectic form relevant for 
+associated with the vector field generating translations in the Ramond divisor. The bpz inner product plus the additional insertions originating from the sewing define the [[symplectic form]] relevant for 
 [[BV quantization]]. As in the bosonic case, we require that the symplectic form has to be non-degenerate, but the fact that the picture changing operator present in the Ramond sector has a non-trivial kernel, forces to impose additional restrictions besides the level matching and $b_0^- = 0$ constraint on the state space.
 The purpose of ([Jurco-Muenster 13](#JurcoMuenster13)) is to describe the construction of type II superstring field theory in the geometric approach. 
 
@@ -700,3 +699,5 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 
 [[!redirects closed bosonic string field theory]]
 [[!redirects open bosonic string field theory]]
+
+[[!redirects superstring field theory]]
