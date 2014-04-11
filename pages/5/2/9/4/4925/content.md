@@ -161,7 +161,7 @@ An _$n$-colouring_ of a knot diagram, $D$, is an assignment to each arc of an el
          sodipodi:role="line"
          id="tspan2395"
          x="176.42857"
-         y="175.52306">b</tspan></text>
+         y="175.52306">c</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -172,11 +172,11 @@ An _$n$-colouring_ of a knot diagram, $D$, is an assignment to each arc of an el
          sodipodi:role="line"
          id="tspan2399"
          x="146.42857"
-         y="178.73734">c</tspan></text>
+         y="178.73734">b</tspan></text>
   </g>
 </svg>
 
-with $a+b \equiv_n 2c$.
+with $a+c \equiv_n 2b$.
 
 =--
 What, of course, needs to be checked (left to 'the reader') is
@@ -187,6 +187,13 @@ What, of course, needs to be checked (left to 'the reader') is
 
 and then to find some examples of, say, 5-colourability. What knots are 5-colourable? Which $(2,k)$-[[torus knots]] are 5-colorable, and so on.  This is not important mathematically, but is quite fun and, in fact, does give insight and experience in working with the Reidemeister moves.
 
+## Coloring by a quandle
+
+There is an even more general notion of coloring a knot $K$ by the elements of a [[quandle]] $(Q,\rhd : Q \times Q \to Q)$.  Formally, a coloring of $K$ by $Q$ corresponds to a quandle homomorphism from the fundamental quandle $Q(K)$ of $K$ to $Q$.  Concretely, this says that at each crossing with arcs labelled $a$, $b$, and $c$ (as in the above diagram), the identity $c = a \rhd b$ must be respected.  In particular, $n$-coloring corresponds to coloring by the set $\mathbb{Z}_n$ equipped with the quandle operation $a \rhd b = 2b - a\,(mod\,n)$, known as the dihedral quandle.
+
+## References
+
+* Wikipedia articles on [tricolorability](http://en.wikipedia.org/wiki/Tricolorability) and [Fox n-coloring](http://en.wikipedia.org/wiki/Fox_n-coloring)
 
 [[!redirects colorable knot]]
 [[!redirects colorable knots]]
@@ -195,4 +202,7 @@ and then to find some examples of, say, 5-colourability. What knots are 5-colour
 
 [[!redirects colorability]]
 [[!redirects colourability]]
+
+[[!redirects coloring knots]]
+[[!redirects knot coloring]]
 category: knot theory
