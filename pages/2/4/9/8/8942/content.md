@@ -60,3 +60,5 @@ Discussion of open [[M5-branes]] ending on the M9 is in
 
 [[!redirects M9-branes]]
 
+[[!redirects O9 plane]]
+[[!redirects O9 planes]]
