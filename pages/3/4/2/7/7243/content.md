@@ -51,7 +51,7 @@ The ring of $p$-adic integers has the following properties:
 +-- {: .num_example #ProfCompletionOfIntegers}
 ###### Example
 
-The [[profinite completion of a group|profinite completion]] of the [[integers]] is
+The [[profinite completion of the integers]] is
 
 $$
   \widehat {\mathbb{Z}} 
@@ -141,4 +141,3 @@ Introductions and surveys include
 [[!redirects adic integer]]
 [[!redirects adic integers]]
 
-[[!redirects profinite completion of the integers]]
