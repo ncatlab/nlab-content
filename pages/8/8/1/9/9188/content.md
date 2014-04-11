@@ -3,6 +3,8 @@
 
 * [[electric charge]], [[magnetic charge]]
 
+* [[D-brane charge]], [[M5-brane charge]]
+
 * [[central charge]]
 
 [[!redirects charges]]
