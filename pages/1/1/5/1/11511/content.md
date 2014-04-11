@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+=--
+=--
+
+
+
+## Idea
+
+In [[type II string theory]]: a [[bound state]] of $p$-[[F1-branes]] and $q$ [[D1-branes]].
+
+Under [[S-duality]] the [[modular group]] $SL_2(\mathbb{Z})$ acts on these $(p,q)$-tuples and mixes the $F1$- and the $D1$-brane states.
+
+## Related concepts
+
+* [[S-duality]]
+
+* [[F-theory]]
+
+[[!redirects (p,q)-strings]]
