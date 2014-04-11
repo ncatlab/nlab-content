@@ -479,6 +479,7 @@ bundle on the moduli space has the structure of a $K((q))$-[[∞-module]], hence
 
 * [[equivariant elliptic genus]]
 
+* related but different: [[modular equivariant elliptic cohomology]]
 
 ## References
 
