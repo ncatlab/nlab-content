@@ -35,6 +35,8 @@ A _super Riemann surface_ is the analog of a [[Riemann surface]] in [[supergeome
 
 * [[string scattering amplitude]]
 
+* [[picture changing operator]]
+
 ## References
 
 * [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
