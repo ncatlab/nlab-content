@@ -133,6 +133,13 @@ At least part of the S-duality in [[type II string theory]] can be seen as a sys
 
   * [[AdS/CFT correspondence]]
 
+* [[type II string theory]], [[F-theory]]
+
+  * [[(p,q)-string]]
+
+  * [[modular equivariant elliptic cohomology]]
+  
+
 
 ## References
 
@@ -145,6 +152,10 @@ The understanding of Montonen-Olive duality as a remnant conformal transformatio
   _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
+
+S-duality acting on [[(p,q)-strings]] is discussed for instance in 
+
+* [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
 
 S-duality in [[type II string theory]] as an operation on the [[extended super spacetime]] [[super L-infinity algebra]] is in section 4.3 of
 
