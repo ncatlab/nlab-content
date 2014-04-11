@@ -17,6 +17,7 @@
 | [[D5-brane]]   |        $\,$                     | $\,$ |          $\,$
 | [[D7-brane]]   |        $\,$                     | $\,$ |          $\,$
 | [[D9-brane]]   |        $\,$                     | $\,$ |          $\,$
+| [[(p,q)-string]]   |        $\,$                     | $\,$ |          $\,$
 | ([[D25-brane]])  | ([[bosonic string theory]]) | |  |
 |**[[NS-brane]]**|[[supergravity|type I, II, heterotic]]|[[circle n-bundle with connection|circle n-connection]] |          $\,$
 |  [[string]]    |           $\,$                  |[[B2-field]]|  [[2d SCFT]]
