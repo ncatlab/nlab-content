@@ -10,20 +10,26 @@
 Let $n \in \mathbb{N}$ be a [[natural number]]. Write
 
 $$
-  p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/\mathbb{Z}_n)
+  p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/n\mathbb{Z})
 $$
 
-for the projection from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group]].
+for the [[projection]] from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group]].
 
-The _congruence subgroups_ of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are defined as follows.
+The _mod-$n$ congruence subgroups_ of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are the [[preimages]] under $p_n$ of [[subgroups]] of $SL_2(\mathbb{Z}/n\mathbb{Z})$.
 
-The **principal congruence subgroup** is
+Some of these have traditional names and symbols;
+
+The **principal congruence subgroup** is the preimage of the trivial group:
 
 $$
   \Gamma(n) \coloneqq ker(p_n) = p_n^{-1}\left(\left\{\array{ 1 & 0 \\ 0 & 1}\right\}\right)
+  \,.
 $$
 
-The other two are
+This is the origin of the term: the elements of $\Gamma(n)$ are _congruent [[modular arithmetic|modulo]] $n$_ to the identity. 
+
+
+The other two congruence subgroups having special symbols are
 
 $$
   \Gamma_0(n) \coloneqq p_n^{-1}\left(\left\{\array{ \ast & \ast \\ 0 & \ast}\right\}\right)
@@ -40,6 +46,8 @@ $$
 ## Related concepts
 
 * [[modular curve]]
+
+* [[modular equivariant elliptic cohomology]]
 
 ## References
 
