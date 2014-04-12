@@ -19,7 +19,7 @@
 
 ## Idea
 
-The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)).
+The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12)). This construction extends to equip [[tmf]] with essentially the structure of a _[[Bredon cohomology|genuine]]_ [[modular group]]-[[equivariant cohomology]] theory ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
 
 ### General
 
@@ -39,13 +39,20 @@ A relevant role of some modular equivariant elliptic cohomology theory in [[stri
 
 First of all, $\mathbb{Z}_2$-equivariant [[topological K-theory]], hence [[KR-theory]], is what controls the [[D-brane charges]] in general [[orientifold]] [[vacua]] of [[type II superstring theory]] (hence also of [[type I superstring theory]], which is thereby a special case). 
 
-Next, there are various hints ([Kriz-Sati 04a](#KrizSati04a), [Kriz-Sati 04b](#KrizSati04b) [Kriz-Sati 05](#KrizSati05), [Sati 05](#Sati05)) that lifting [[string theory]] to "[[M-theory]]" involves replacing K-theory by [[elliptic cohomology]]. Not the least of these is the [[String orientation of tmf]] ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)), which shows that where the [[partition function]] of a [[superparticle]] (such as that at the end of the [[type II superstring]] ending on a [[D-brane]]) is give by the [[Todd genus]] in [[KU-theory]], so the partition function of the [[superstring]] itself (possibly itself being the boundary of the [[M2-brane]] ending on a [[O9 plane]] ([[heterotic string]]) or on an [[M5-brane]] (self-dual "M-string")) is given by the refined [[Witten genus]] in [[elliptic cohomology]]/[[tmf]] (thus yielding "O9-plane charge" and [[M5-brane charge]] in 
+Next, there are various hints ([Kriz-Sati 04a](#KrizSati04a), [Kriz-Sati 04b](#KrizSati04b) [Kriz-Sati 05](#KrizSati05), [Sati 05](#Sati05)) that lifting [[string theory]] to "[[M-theory]]" involves replacing K-theory by [[elliptic cohomology]]. Not the least of these is the [[String orientation of tmf]] ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)), which shows that where the [[partition function]] of a [[superparticle]] (such as that at the end of the [[type II superstring]] ending on a [[D-brane]]) is given by the [[Todd genus]] in [[KU-theory]], so the partition function of the [[superstring]] itself (possibly itself being the boundary of the [[M2-brane]] ending on a [[O9 plane]] ([[heterotic string]]) or on an [[M5-brane]] (self-dual "M-string")) is given by the refined [[Witten genus]] in [[elliptic cohomology]]/[[tmf]] (thus yielding "O9-plane charge" and [[M5-brane charge]] in 
 [[elliptic cohomology]] ([Sati 10](#Sati10))).
 
-Finally, the [[M-theory]]-lift of [[type II string theory]] is (or is naturally identified as) _[[F-theory]]_, which describes the [[axio-dilaton]] of the type II string [[vacua]] including the [[modular group|modular]] [[S-duality]]/[[U-duality]] acting on this as an [[elliptic fibration]] over [[spacetime]] (whose [[monodromy]] "homology invariant" is hence an $SL_2(\mathbb{Z})$-[[local system]]). It is hence natural to suspect that the combined [[worldsheet]]/[[target space]] $\mathbb{Z}_2$-equivariance of [[orientifold]] [[type II superstring]] backgrounds which is captured by [[KR-theory]] lifts in [[F-theory]] to some combined worldsheet/target space [[modular group]]-action. This is excatly what would be captured by modular invariant $tmf$ as indicated above, and and it is what is conjectured in ([Kriz-Sati 05](#KrizSati05)).
+[[!include genera and partition functions - table]]
 
+Finally, the [[M-theory]]-lift of [[type II string theory]] is (or is naturally identified as) _[[F-theory]]_, which describes the [[axio-dilaton]] of the type II string [[vacua]] including the [[modular group|modular]] [[S-duality]]/[[U-duality]] acting on this as an [[elliptic fibration]] over [[spacetime]] (whose [[monodromy]] "homology invariant" is hence an $SL_2(\mathbb{Z})$-[[local system]]). It is hence natural to suspect that the combined [[worldsheet]]/[[target space]] $\mathbb{Z}_2$-equivariance of [[orientifold]] [[type II superstring]] backgrounds which is captured by [[KR-theory]] lifts in [[F-theory]] to some combined worldsheet/target space [[modular group]]-action. This is excatly what would be captured by modular [[equivariant cohomology|equivariant]] $tmf$ as indicated above (and as realized by theorem \ref{TheEquivariantConstruction} below), and and it is what is conjectured in ([Kriz-Sati 05, p.3](#KrizSati05)) (there the group $SL_2(\mathbb{Z}/2\mathbb{Z})$ is mentioned, the explicit construction [below](#Definition) does capture this but also includes equivariance under all other $SL_2(\mathbb{Z}/n\mathbb{Z})$).
 
-## Definition
+So by extrapolation from the case of [[orientifolds]], where the [[target space]] $\mathbb{Z}_2$-[[involution]] (the "[[real space]]"-structure) is accompanied by a $\mathbb{Z}_2$-action on the [[worldsheet]] (the [[worldsheet parity operator]]), this would suggest that in modular equivariant F-theory [[S-duality]] operations on the target space background would be accompanied by certain modular action on the worldsheet. 
+
+Mathematically this is precisely what happens in the equivariant version of [[tmf]] established by theorem \ref{TheEquivariantConstruction} below, which by prop. \ref{SystemOfModuliStacks} has the modular group action on the [[spectrum]] induced from the canonical action of the [[modular group]] on moduli of [[elliptic curves]] (hence: [[genus of a surface|genus]]-1 [[worldsheets]]).
+
+Physically such an effect seems not to have been discussed much, but at least the following is knonw: first of all, under [[S-duality]] the [[worldsheet]] theory of the [[type IIB superstring]] certainly is affected: the superstring here is generally a [[(p,q)-string]], being a [[bound state]] of $p$ actual fundamental strings ([[F1-branes]]) with $q$ [[D1-branes]], and the [[S-duality]] [[modular group]] $SL_2(\mathbb{Z})$ does act canonically on these pairs of [[integers]]. Now, that this operation has to be accompanied with a worldsheet [[conformal transformation]] as the above mathematical story would suggest has been highlighted for instance in ([Bandos 00](#Bandos00)).
+
+## Definition and construction
  {#Definition}
 
 Write $\hat {\mathbb{Z}}$ for the [[profinite completion of the integers]].
@@ -53,47 +60,47 @@ Write $\hat {\mathbb{Z}}$ for the [[profinite completion of the integers]].
 Write 
 
 $$
-  G \coloneqq SL_2(\hat {\mathbb{Z}})
+  G \coloneqq GL_2(\hat {\mathbb{Z}})
 $$
 
-for the [[special linear group]] in [[dimension]] 2 with [[coefficients]] in $\hat{\mathbb{Z}}$.
+for the [[general linear group]] in [[dimension]] 2 with [[coefficients]] in $\hat{\mathbb{Z}}$.
 
 Write
 
 $$
-  p \;\colon\; SL_2(\mathbb{Z}) \longrightarrow G
+  p \;\colon\; GL_2(\mathbb{Z}) \longrightarrow G
 $$
 
-for the canonical projection from (the $\mathbb{Z}_2$-[[central extension]] $SL_2(\mathbb{Z}) \to PSL_2(\mathbb{Z})$ of) the [[modular group]].
+for the canonical projection from (the $\mathbb{Z}_2$-[[central extension]] $GL_2(\mathbb{Z}) \to PSL_2(\mathbb{Z})$ of) the [[modular group]].
 
 For $n \in \mathbb{N}$ any [[natural number]] write
 
 $$
-  p_n \;\colon\; G \longrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})
+  p_n \;\colon\; G \longrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})
 $$
 
 for the corresponding [[projection]] to [[coefficients]] in the [[cyclic group]] of [[order of a group|order]] $n$.
 
 Notice that for $\Gamma \hookrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})$ then its [[preimage]] under $p_n$ is a "profinite [[congruence subgroup]]".
 
-The following is a variant of the [[orbit category]] of $G$ which remembers the stage $n$ and consists only of orbits of the form of such [[congruence subgroups]].
+The following is a variant of the [[orbit category]] of $G = GL_2(\hat {\mathbb{Z}})$ which remembers the stage $n$ and consists only of orbits of the form of [[cosets]] by such [[congruence subgroups]].
 
 +-- {: .num_defn #LevelledOrbitCategory}
 ###### Definition
 
-Write $\widetilde{Orb}_{SL_2(\hat{\mathbb{Z}})}$
+Write $\widetilde{Orb}_{GL_2(\hat{\mathbb{Z}})}$
 for the [[category]] whose
 
-* [[objects]] are [[pairs]] $(n,\Gamma)$ with $n \in \mathbb{N}$ a [[natural number]] and $\Gamma \hookrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})$ a [[subgroup]];
+* [[objects]] are [[pairs]] $(n,\Gamma)$ with $n \in \mathbb{N}$ a [[natural number]] and $\Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$ a [[subgroup]];
 
 * [[morphisms]] are  given by
 
   $$
-    Hom((n_1,\Gamma_1), (n_2,\Gamma_2))
+    Hom\left(\left(n_1,\Gamma_1\right), \left(n_2,\Gamma_2\right)\right)
     \coloneqq
     \left\{
       \array{
-        Hom_G(G/(p_{n_1}^{-1}(\Gamma_1)), G/(p_{n_2}^{-1}(\Gamma_2)))
+ Hom_{GL_2\left(\hat{\mathbb{Z}}\right)}\left(GL_2\left(\hat{\mathbb{Z}}\right)/(p_{n_1}^{-1}\left(\Gamma_1\right)\right), GL_2\left(\hat{\mathbb{Z}}\right)/(p_{n_2}^{-1}\left(\Gamma_2\right)\right)\right)
         & if \; n'|n
         \\
         \emptyset & otherwise
@@ -106,35 +113,81 @@ for the [[category]] whose
 
 This is ([Hill-Lawson 13, def. 3.15](#HillLawson13)).
 
++-- {: .num_prop #SystemOfModuliStacks}
+###### Proposition
+
+The construction for each $(n,\Gamma) \in \widetilde{Orb}_{GL_2(\hat{\mathbb{Z}})}$ of the [[Deligne-Mumford compactification|compactified]] [[moduli stack]] $\mathcal{M}_{\overline{ell}}(\Gamma)$ over $Spec(\mathbb{Z}[\frac{1}{n}])$ of [[elliptic curves with level structure]]determined by $\Gamma$ extends to a (lax) [[2-functor]] 
+
+$$
+  \mathcal{M}_{\overline{ell}}(-)
+  \;\colon\;
+  \widetilde{Orb}_{GL_2(\hat{\mathbb{Z}})}
+  \longrightarrow
+  DMStack
+$$
+
+from the levelled orbit category of def. \ref{LevelledOrbitCategory} to the [[2-category]] of [[Deligne-Mumford stacks]],such that 
+
+1.  $\mathcal{M}_{\overline{ell}}(1,1) \simeq \mathcal{M}_{\overline{ell}}$ is the standard compactified [[moduli stack of elliptic curves]] over $Spec(\mathbb{Z})$
+
+1. for each morphism $(n_1,\Gamma_1)\to (n_2,\Gamma_2)$ the induced morphism 
+
+   $$
+     \mathcal{M}_{\overline{ell}}(n_2,\Gamma_2)\to \mathcal{M}_{\overline{ell}}(n_1,\Gamma_1)
+   $$ 
+
+   is a [[log-etale morphism]] [[covering]];
+
+1. for each $n$ and each [[normal subgroup]] inclusion $K \hookrightarrow \Gamma \hookrightarrow GL_2(\,mathbb{Z}/n\mathbb{Z})$ the induced map exhibits the [[homotopy quotient]] [[projection]] by $\Gamma/K$
+
+   $$
+     \mathcal{M}_{\overline{ell}}(n,\Gamma)\to \mathcal{M}_{\overline{ell}}(n,K)
+     \simeq 
+     \mathcal{M}_{\overline{ell}}(n,\Gamma)//(\Gamma/K)
+     \,.
+   $$ 
+
+
+=--
+
+This is ([Hill-Lawson 13, prop. 3.16, prop. 3.17](#HillLawson13)).
+
+
 +-- {: .num_theorem #TheEquivariantConstruction}
 ###### Theorem 
 
-It is possible to apply a [[Goerss-Hopkins-Miller theorem]] to the [[Deligne-Mumford compactification|compactified]] [[moduli stacks]] of [[elliptic curves with level-n structure]] $\mathcal{M}_{\overline{ell}}[n]$ after [[localization of a spectrum|localization]] at $n$, such that taking [[global sections]] produces a [[functor]]
+It is possible to extend the [[Goerss-Hopkins-Miller theorem]] to the [[Deligne-Mumford compactification|compactified]] [[moduli stacks]] of [[elliptic curves with level-n structure]] $\mathcal{M}_{\overline{ell}}[n]$ in prop. \ref{SystemOfModuliStacks}, such that taking [[global sections]] produces an [[(∞,1)-presheaf]] on the levelled [[orbit category]] of def. \ref{LevelledOrbitCategory} with values in [[E-∞ rings]] 
 
 $$
   Tmf
   \;\colon\;
-  \widetilde{Orb}_{SL_2(\hat{\mathbb{Z}})}
+  (\widetilde{Orb}_{SL_2(\hat{\mathbb{Z}})})^{op}
   \longrightarrow
   CRing_\infty
 $$
+which is such that
 
-from the "levelled [[orbit category]]" of def. \ref{LevelledOrbitCategory}
-to [[E-∞ rings]] which is such that
+1. for $n = 1$ (where $SL_2(\mathbb{Z}/\mathbb{Z}) = 1$ and hence $\Gamma = 1$ necessarily) one recovers 
 
-1. $Tmf(1)\simeq $ [[Tmf]];
+   $Tmf(1,1)\simeq $ [[Tmf]];
 
-1. for every [[normal subgroup]]  $K \hookrightarrow \Gamma$ there is an [[equivalence]]
+1. for any $n \in \mathbb{N}$ and every [[normal subgroup]]  $K \hookrightarrow \Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$, the induced morphism
 
    $$
-     Tmf(K)  \simeq Tmf(\Gamma)^{(\Gamma/K)} 
+     Tmf(n,K) \longrightarrow Tmf(n,\Gamma) 
    $$
 
-   between the value on $K$ and the $\Gamma/K$-[[homotopy fixed points]] of the value on $\Gamma$.
+   exhibits the inclusion of the $(\Gamma/K)$-[[homotopy fixed points]] of $Tmf(n,\Gamma)$ (induced by action of $\Gamma/K$ on $\mathcal{M}_{\overline{ell}}(\Gamma)$ given by prop. \ref{SystemOfModuliStacks}): 
+
+   $$
+     Tmf(\Gamma)^{(\Gamma/K)} \simeq Tmf(n,\Gamma)^{\Gamma/K}
+     \,.
+   $$
+
 
 =--
 
-This is part of ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
+This is ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -170,4 +223,58 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 * {#Sati05} [[Hisham Sati]], _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
 
-* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
+* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020)
+
+* {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
+
+[[!redirects modular equivariant tmf]]
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
