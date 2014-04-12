@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -57,6 +59,8 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 
 
 ## Definition
+ {#Definition}
+
 
 We follow ([Rezk 14](#Rezk14)). Beware that the terminology there differs slightly but crucially in some places from ([Henriques-Gepner 07](#HenriquesGepner07)). Whatever terminology one uses, the following are the key definitions.
 
@@ -67,9 +71,9 @@ The following is the _global indexing category_.
 
 Write $Glo$  for the [[(∞,1)-category]] whose
 
-* [[objects]] are [[compact topological groups]]; 
+* [[objects]] are [[compact Lie groups]]; 
 
-* [[hom-spaces]] $Glo(G,H)$ are the [[geometric realizations]] of the [[topological groupoid]] of continuous functors and continous [[natural transformations]] $Top\infty Grpd(\mathbf{B}G, \mathbf{B}H)$.
+* [[(∞,1)-categorical hom-spaces]] $Glo(G,H)$ are the [[geometric realizations]] of the [[Lie groupoid]] of smooth functors and smooth [[natural transformations]] $Top\infty Grpd(\mathbf{B}G, \mathbf{B}H)$.
 
 =--
 
@@ -102,8 +106,9 @@ for the non-full [[sub-(∞,1)-category]] of the global indexing category, def. 
 
 ([Rezk14, 4.5](#Rezk14))
 
+The following defines the _global equivariant homotopy theory_ $PSh_\infty(Glo)$.
 
-+-- {: .num_defn }
++-- {: .num_defn #GlobalEquivariantHomotopyTopos}
 ###### Definition
 
 Write
@@ -112,7 +117,7 @@ $$
   Top_{Glo} \coloneqq PSh_\infty(Glo)
 $$
 
-for the [[(∞,1)-category of (∞,1)-presheaves]] on the global indexing category $Glo$ of def. \ref{GlobalIndexingCategory}, and write
+for the [[(∞,1)-category of (∞,1)-presheaves]] (an [[(∞,1)-topos]]) on the global indexing category $Glo$ of def. \ref{GlobalIndexingCategory}, and write
 $$
   \mathbb{B} \;\colon\; Glo \longrightarrow PSh_\infty(Glo)
 $$
@@ -125,19 +130,152 @@ $$
   Top_{Orb} \coloneqq PSh_\infty(Orb)
 $$
 
-for the [[(∞,1)-category of (∞,1)-presheaves]] on the global [[orbit category]] $Orb$ of def. \ref{GlobalOrbitCategory}, and write
+for the [[(∞,1)-category of (∞,1)-presheaves]] on the global [[orbit category]] $Orb$ of def. \ref{GlobalOrbitCategory}, and write again
 
 $$
-  \mathbb{B}_{Orb} \;\colon\; Orb \longrightarrow PSh_\infty(Orb)
+  \mathbb{B} \;\colon\; Orb \longrightarrow PSh_\infty(Orb)
 $$
 
 for its [[(∞,1)-Yoneda embedding]].
-
 
 =--
 
 ([Rezk 14, 3.1 and 4.5](#Rezk14))
 
+The following recovers the ordinary ("local") [[equivariant homotopy theory]] of a given [[topological group]] $G$ ("of $G$-spaces").
+
++-- {: .num_defn #LocalEquivariantHomotopyTheory}
+###### Definition
+
+For $G$ a [[topological group]], write 
+
+$$
+  G Top \coloneqq PSh_\infty(Orb)/\mathbb{B}G
+$$
+
+for the [[slice (∞,1)-topos]] of $PSh_\infty(Orb)$ over the image of $G$ under the [[(∞,1)-Yoneda embedding]], as in def. \ref{GlobalEquivariantHomotopyTopos}.
+
+=--
+
+This is ([Rezk 14, 1.5](#Rezk14)). Depending on axiomatization this is either a definition or [[Elmendorf's theorem]], see at _[[equivariant homotopy theory]]_ for more on this.
+
+
+## Properties
+
+### Cohesion
+
++-- {: .num_prop #CohesionOfGlobalEquivariantHomotopyTheory}
+###### Proposition
+
+The global equivariant homotopy theory $PSh_\infty(Glo)$ of def. \ref{GlobalEquivariantHomotopyTopos} is a [[cohesive (∞,1)-topos]] over the canonical [[base (∞,1)-topos]] [[∞Grpd]]:
+
+the [[global section geometric morphism]]
+
+$$
+  (\Delta \dashv \Gamma)
+  \;\colon\;
+  PSh_\infty(Glo)
+  \longrightarrow
+  \infty Grpd
+$$
+
+is given (as for all (∞,1)-presheaf (∞,1)-toposes) by the [[direct image]]/[[global section]] functor being the [[homotopy limit]] over the opposite [[(∞,1)-site]]
+
+$$
+  \Gamma X \simeq \underset{\leftarrow}{\lim}(Glo^{op}\stackrel{X}{\to} \infty Grpd)
+$$
+
+and the [[inverse image]]/[[constant ∞-stack]] functor literally assigning constant presheaves:
+
+$$
+  \Delta S \colon G \mapsto S
+ \,.
+$$
+
+This is a [[full and faithful (∞,1)-functor]].
+
+Moreover,  $\Delta$ has a further [[left adjoint]] $\Pi$ which preserves [[finite products]], and $\Gamma$ has a furhter [[right adjoint]] $\nabla$.
+
+=--
+
+([Rezk 14, 5.1](#Rezk14))
+
+More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]] of this [[cohesion]] of the global equivarint homotopy theory has the followign description.
+
+
+### Relation between global and local equivariant homotopy theory
+
+
+
++-- {: .num_defn #InclusionOfGSpacesInTheGlobalTheory}
+###### Definition
+
+For $G$ a [[compact Lie group]] define an [[(∞,1)-functor]]
+
+$$
+  \delta_G \;\colon\; G Top \longrightarrow PSh_\infty(Glo)
+$$
+
+sending a [[topological space]] with $G$-[[action]] $X$ to the [[geometric realization]] of the presheaf which sends a group $H$ to the topoligical groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
+
+$$
+  \delta_G(X)\;\colon\; H \mapsto \Pi( [\mathbf{B}H, X//G] )  
+  \,.
+$$
+
+Observe that by def. \ref{GlobalEquivariantHomotopyTopos} this gives $\delta_G(\ast) \simeq \mathbb{B}G$ and so $\delta_G$ induces a functor
+
+$$
+  \Delta_G \;\colon\; G Top \simeq G Top/\ast \simeq PSh_\infty(Orb)/\mathbb{B}G \stackrel{\delta_G}{\longrightarrow} PSh_\infty(Glo)/\mathbb{B}G
+ \,.
+$$
+
+=--
+
+([Rezk 14, 3.2](#Rezk14))
+
++-- {: .num_prop }
+###### Proposition
+
+On a $G$-space $X \in G Top$ include via def. \ref{InclusionOfGSpacesInTheGlobalTheory} into to the global equivariant homotopy theory, 
+
+* the [[shape modality]] of def. \ref{CohesionOfGlobalEquivariantHomotopyTheory} produces the [[homotopy type]] of the ordinary [[quotient]] of the $G$-[[action]]
+
+  $$
+    \Pi(\delta_G(X)) \simeq \vert X/G \vert
+    \,,
+  $$
+
+* the [[flat modality]] of def. \ref{CohesionOfGlobalEquivariantHomotopyTheory} produces the [[homotopy type]] of the [[homotopy quotient]]/[[homotopy coinvariants]] of the $G$-[[action]] ([[∞-action]])
+
+  $$
+    \Gamma(\delta_G(X)) \simeq \vert X//G \vert
+    \,,
+  $$
+
+=--
+
+([Rezk 14, 5.1](#Rezk14))
+
++-- {: .num_prop }
+###### Proposition
+
+For $G$ any [[compact Lie group]], the [[cohesion]] of the global equivariant homotopy theory, prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, desecends to the [[slice (∞,1)-toposes]]
+
+$$
+  PSh_\infty(Glo)/\mathbb{B}G
+  \longrightarrow
+  PSh_\infty(Orb)/\mathbb{B}G \simeq G Top
+  \,,
+$$
+
+hence to cohesion over the "local" $G$-[[equivariant homotopy theory]].
+
+The inclusion $\Delta_G$ is that of def. \ref{InclusionOfGSpacesInTheGlobalTheory}.
+
+=--
+
+([Rezk 14, 5.3](#Rezk14))
 
 ## Related concepts
 
