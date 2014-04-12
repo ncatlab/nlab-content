@@ -80,3 +80,6 @@ Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.m
 
 [[!redirects real-oriented cohomology]]
 [[!redirects real oriented cohomology]]
+
+[[!redirects real-oriented generalized cohomology theory]]
+[[!redirects real oriented generalized cohomology theory]]
