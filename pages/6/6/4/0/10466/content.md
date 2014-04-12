@@ -32,7 +32,6 @@ More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-cate
 
 Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
 
-## Properties
 
 ### Relation to $G$-CW-complexes
 
@@ -52,10 +51,92 @@ $$
   \,.
 $$
 
-(As such that global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
+(As such the global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
 
 The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
 
+
+## Definition
+
+We follow ([Rezk 14](#Rezk14)). Beware that the terminology there differs slightly but crucially in some places from ([Henriques-Gepner 07](#HenriquesGepner07)). Whatever terminology one uses, the following are the key definitions.
+
+The following is the _global indexing category_.
+
++-- {: .num_defn #GlobalIndexingCategory}
+###### Definition
+
+Write $Glo$  for the [[(∞,1)-category]] whose
+
+* [[objects]] are [[compact topological groups]]; 
+
+* [[hom-spaces]] $Glo(G,H)$ are the [[geometric realizations]] of the [[topological groupoid]] of continuous functors and continous [[natural transformations]] $Top\infty Grpd(\mathbf{B}G, \mathbf{B}H)$.
+
+=--
+
+([Rezk 14, 2.1](#Rezk14))
+
++-- {: .num_defn}
+###### Remark
+
+Equivalent models for the global indexing category, def. \ref{GlobalIndexingCategory} include the category "$O_{gl}$" of ([May 90](#May90)).
+Another variant is $\mathbf{O}_{gl}$ of ([Schwede 13](#Schwede13)).
+
+=--
+
+([Rezk 14, 2.4, 2.5](#Rezk14))
+
+The following is the _global [[orbit category]]_.
+
++-- {: .num_defn #GlobalOrbitCategory}
+###### Definition
+
+Write 
+
+$$
+  Orb \longrightarrow Glo
+$$
+
+for the non-full [[sub-(∞,1)-category]] of the global indexing category, def. \ref{GlobalIndexingCategory}, on the [[injection|injective]] group homomorphisms.
+
+=--
+
+([Rezk14, 4.5](#Rezk14))
+
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  Top_{Glo} \coloneqq PSh_\infty(Glo)
+$$
+
+for the [[(∞,1)-category of (∞,1)-presheaves]] on the global indexing category $Glo$ of def. \ref{GlobalIndexingCategory}, and write
+$$
+  \mathbb{B} \;\colon\; Glo \longrightarrow PSh_\infty(Glo)
+$$
+
+for the [[(∞,1)-Yoneda embedding]].
+
+Similarly write 
+
+$$
+  Top_{Orb} \coloneqq PSh_\infty(Orb)
+$$
+
+for the [[(∞,1)-category of (∞,1)-presheaves]] on the global [[orbit category]] $Orb$ of def. \ref{GlobalOrbitCategory}, and write
+
+$$
+  \mathbb{B}_{Orb} \;\colon\; Orb \longrightarrow PSh_\infty(Orb)
+$$
+
+for its [[(∞,1)-Yoneda embedding]].
+
+
+=--
+
+([Rezk 14, 3.1 and 4.5](#Rezk14))
 
 
 ## Related concepts
@@ -68,10 +149,13 @@ The global orbit category $Orb$ is considered in
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
   
-
 Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in chapter I of
 
-* [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+* {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+
+see also 
+
+* {#May90} [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Asterisque 191 (1990), 7, 239-253. International Conference on Homotopy Theory (Marseille-Luminy, 1988).
 
 Discussion of the global equivariant homotopy theory as a [[cohesive (∞,1)-topos]] is in 
 
