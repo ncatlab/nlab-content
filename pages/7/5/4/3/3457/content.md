@@ -64,6 +64,8 @@ The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This ide
 
 * [[formally étale morphism]]
 
+* [[log-étale morphism]]
+
 ## References
 
 Axiomatizations of the notion of &#233;tale maps in general [[toposes]] are discussed in 
