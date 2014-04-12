@@ -78,7 +78,7 @@ Related lecture notes / slides include
 
 * [[Greg Moore]], _The RR-charge of an orientifold_ ([ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
 
-* {#Freed} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_ ([[FreedESI2012.pdf:file]])
+* {#Freed} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI 2012 ([[FreedESI2012.pdf:file]])
  
 
 A detailed list of examples of [[KR-theory]] of orientifolds and their [[T-duality]] is in 
