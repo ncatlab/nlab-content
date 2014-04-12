@@ -274,7 +274,7 @@ is analogous to the inclusion of [[KO]] into [[KU]]
 
 ## Related concepts
 
-* [[real oriented generalized cohomology theory]]
+* [[real-oriented generalized cohomology theory]]
 
 * related but different: _[[equivariant elliptic cohomology]]_
  
