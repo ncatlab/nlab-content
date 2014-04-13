@@ -1,0 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of _$G$-spectrum_ (or $G$-equivariant spectrum) is the generalization of that of [[spectrum]] as one passes from [[stable homotopy theory]] to [[equivariant stable homotopy theory]], or more generally, as $G$ is allow to vary, of [[global equivariant stable homotopy theory]]. See there for more details.
+
+Where the ordinary concept of [[spectrum]] is given in terms of [[looping and delooping]] by ordinary [[spheres]], a $G$-spectrum for $G$ a suitable [[topological group]] is instead given by looping and delooping with respect to [[representation spheres]] of $G$, namely [[one-point compactifications]] of linear $G$-[[representations]].
+
+Equivalently, $G$-spectra are expressed by _[[Mackey functors]]_.
+
+Such $G$-spectra (or "genuine $G$-spectra", for emphasis) are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. The latter appear as the special case of $G$-spectra "for the trivial universe" and are also called _[[naive G-spectra]]_. To distinguish from that case for emphasis $G$-spectra are also called _genuine $G$-spectra_.
+
+## Properties
+
+### Relation to Mackey functors
+
+see at _[[Mackey functor]]_
+
+### Relation to spectra with $G$-action
+
+(e.g. [Carlsson 92, p. 14](#Carlsson92))
+
+ 
+## References
+
+A survey is in
+
+* {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+
+For more references see at _[[equivariant stable homotopy theory]]_.
+
+[[!redirects G-spectra]]
+
+[[!redirects genuine G-spectrum]]
+[[!redirects genuine G-spectra]]
