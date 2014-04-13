@@ -198,6 +198,7 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 * [[effective topological space]], [[equilogical space]]
 
+* [[topological G-space]]
 
 ## References
 
