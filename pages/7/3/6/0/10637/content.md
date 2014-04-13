@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called the _$j$-invariant_is an invariant of [[cubic curves]] and hence of [[elliptic curves]], partly characterizing them. 
+What is called the _$j$-invariant_ is an invariant of [[cubic curves]] and hence of [[elliptic curves]], partly characterizing them. 
 
 Over the [[complex numbers]] the _$j$-invariant_ is a [[modular function]] on the [[upper half plane]] which serves to characterize most of the properties of the [[moduli stack of elliptic curves]] in this case.
 
@@ -28,7 +28,7 @@ Over the [[complex numbers]] the _$j$-invariant_ is a [[modular function]] on th
 
 ### Over a general ring
 
-With the Weierstrass parameterization discussed at _[elliptic curve -- Over general Rings -- As solution to the Weierstrass equation](elliptic%20curve#OverGeneralRingAsSolutionsToEquations)_ $j$-inavariant is the combination
+With the Weierstrass parameterization discussed at _[elliptic curve -- Over general Rings -- As solution to the Weierstrass equation](elliptic%20curve#OverGeneralRingAsSolutionsToEquations)_, the $j$-invariant is the combination
 
 
 $$
@@ -140,9 +140,9 @@ $$
 
 * [[elliptic genus]]
 
-## Referemces
+## References
 
-* Wikipediam _[j-invariant](http://en.wikipedia.org/wiki/J-invariant)_
+* Wikipedia _[j-invariant](http://en.wikipedia.org/wiki/J-invariant)_
 
 * {#Miranda88} [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
 
