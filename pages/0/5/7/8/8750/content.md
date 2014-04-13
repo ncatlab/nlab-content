@@ -37,7 +37,11 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 * For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the $2$-category of [[strict 2-categories]].
 
 ## Structure of the category of $\mathcal{V}$-enriched categories for various contexts
-*
+* If $\mathcal{V}$ is a category $V_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and an association sending every $1$-morphism $\mathcal{A}\stackrel{F}{\to}\mathcal{B}$ to the a $1$-morphism in the lax [[slice $2$-category|slice 2-category]] **Cat**//$V_0$:
+$$ \array{   [\mathcal{I},\mathcal{A}]^{op}\times[\mathcal{I},\mathcal{A}]&\stackrel{[\mathcal{I},F]^{op}\times[\mathcal{I},F]}{\to}&[\mathcal{I},\mathcal{B}]^{op}\times[\mathcal{I},\mathcal{B}]\\
+&\mathcal{A}(-,-}\swarrow&\searrow\mathcal{B}(-,-)
+&V_0
+}$$
 *
 *
 
