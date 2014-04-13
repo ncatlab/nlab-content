@@ -19,7 +19,13 @@
 
 ## Idea
 
-Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]] $G$ acts on all the [[topological space]]s  or other objects involved.
+Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]] $G$ [[action|acts]] on all the [[topological space]]s  or other objects involved, hence the homotopy theory of [[G-spaces]].
+
+The union of $G$-equivariant homotopy theories as $G$ is allowed to vary is _[[global equivariant homotopy theory]]_.
+
+
+The direct [[stabilization]] of equivariant homotopy theory is the theory of [[spectra with G-action]]. More generally there is a concept of [[G-spectra]] and they are the subject of [[equivariant stable homotopy theory]].
+
 
 ## In topological spaces
 
@@ -255,6 +261,18 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
   (Actually here one localizes moreover at [[hypercovers]] and at [[A1-homotopy theory|A1-homotopies]].)
 
 
+## Properties
+ {#Properties}
+
+### $(\infty,1)$-topos
+
+By [[Elmendorf's theorem]] the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
+
+By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohesion]] of the [[global equivariant homotopy theory]] [[slice (∞,1)-topos|sliced]] over $\mathbf{B}G$.
+
+### Stabilization
+
+The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[naive G-spectra]].
 
 
 
@@ -279,3 +297,7 @@ see also
 * Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, [arXiv:1308.0856](http://arxiv.org/abs/1308.0856), also Masters Thesis E.T.H., 2010.
 
 * {#MorelVoevodsky03} [[F. Morel]], [[V. Voevodsky]], _$A^1$-homotopy theory of schemes_, 2003 ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+
+Discussion in the context of [[global equivariant homotopy theory]] is in 
+
+* {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
