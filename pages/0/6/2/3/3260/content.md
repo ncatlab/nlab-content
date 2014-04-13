@@ -280,9 +280,8 @@ The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ 
 
 Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[homotopy theory]] is to [[stable homotopy theory]].
 
-See also
+[[!include equivariant homotopy theory -- table]]
 
-* [[G-CW complex]]
 
 ## References
 
