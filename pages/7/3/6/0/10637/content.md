@@ -127,7 +127,7 @@ $$
 from the [[plane]] with two points removed or equivalently 
 
 $$
-  \pi_1(\mathbb{C}-\{0.1728\}) \longrightarrow PSL_2(\mathbb{Z})
+  \pi_1(\mathbb{C}-\{0,1728\}) \longrightarrow PSL_2(\mathbb{Z})
   \,.
 $$
 
