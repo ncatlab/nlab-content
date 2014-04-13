@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] (notbaly: for $\mathcal{V}$ a [[cosmos]]) there is a $2$-[[2-category|category]] $\mathcal{V} Cat$ whose
+For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] there is a $2$-[[2-category|category]] $\mathcal{V} Cat$ whose
 
 * [[objects]] are $V$-[[enriched categories]];
 
@@ -25,6 +25,10 @@ For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] 
 
 Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by dropping the $2$-morphisms (and using enriched [[strict categories]]).
 
+## Possible Contexts
+* $\mathcal{V}$ can be a [[monoidal category|monoidal structure]] on a category $\mathcal{V}_0$
+* $\mathcal{V}$ can be a [[closed category|closed structure]] on a category $\mathcal{V}_0$
+* $\mathcal{V}$ can be the structure of a [[cosmos]] on a category $\mathcal{V}_0$
 
 ## Examples
 
@@ -32,6 +36,10 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 
 * For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the $2$-category of [[strict 2-categories]].
 
+## Structure of the category of $\mathcal{V}$-enriched categories for various contexts
+*
+*
+*
 
 ## Related concepts
 
