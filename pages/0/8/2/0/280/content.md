@@ -5,9 +5,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
 =--
 =--
 =--
@@ -96,6 +100,8 @@ As an example, within the category of [[profinite group]]s, not all objects have
 * A [[representation]] is a "linear action".
 
 * In [[symplectic geometry]] one considers [[Hamiltonian actions]].
+
+* In [[topology]]: [[topological G-space]]
 
 (...)
 
