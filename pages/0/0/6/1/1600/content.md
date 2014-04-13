@@ -51,7 +51,7 @@ The central theorem of ([Rezk 14](#Rezk14))  is that $PSh_\infty(Orb)$ is the [[
 of the [[global equivariant homotopy theory]] $PSh_\infty(Glo)$ over the terminal orbispace $\mathcal{N}$ ([Rezk 14, p. 4 and section 7](#Rezk14))
 
 $$
- (\Pi \dashv \Delta \dashv \Gamma \dashv \Nabla)
+ (\Pi \dashv \Delta \dashv \Gamma \dashv \nabla)
   \;\colon\; 
   PSh_\infty(Glo)/\mathcal{N} \longrightarrow PSh_\infty(Orb)
  \,.
@@ -60,6 +60,9 @@ $$
 ## Related concepts
 
 * [[Elmendorf's theorem]]
+
+[[!include equivariant homotopy theory -- table]]
+
 
 ## References
 
