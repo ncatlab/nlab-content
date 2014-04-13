@@ -27,11 +27,13 @@ There one typically considers a richer concept of _[[G-spectra]]_. In that conte
 
 ### Relation to $G$-spectra
 
-(e.g. [Carlsson 92, p. 14](#Carlsson92))
+(e.g. [Carlsson 92, p. 14](#Carlsson92), [Greenlees May, p. 16](#GreenleesMay))
 
 ## References
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 
 [[!redirects spectra with G-action]]
