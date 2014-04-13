@@ -27,7 +27,7 @@ Let $G$ be a discrete [[group]].
 
 ### $G$-Homotopy
 
-A **$G$-space** is a [[topological space]] equipped with a $G$-[[action]].
+A **[[G-space]]** is a [[topological space]] equipped with a $G$-[[action]].
 
 Let $I = \mathbb{R}$ be the [[interval object]] $({*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*})$ regarded as a $G$-space by equipping it with the trivial $G$-[[action]].
 
