@@ -1,5 +1,5 @@
 
-> under construction
+> under construction (some more harmonization needed)
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -30,32 +30,12 @@ What is called _global equivariant homotopy theory_ is a variant of [[equivarian
 
 Sometimes this is referred to just as "global homotopy theory", leaving the equivariance implicit. There is also a [[stabilization|stable]] version involving [[spectra]] equipped with [[infinity-actions]], see at _[[global equivariant stable homotopy theory]]_.
 
-More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] $PSh_\infty(Orb)$ on the global [[orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
+More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] $PSh_\infty(Orb)$ on the  [[global orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
 
 Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
 
 
-### Relation to $G$-CW-complexes
 
-[[Elmendorf's theorem]] says that for fixed [[topological group]] $G$ we have 
-
-$$
-  PSh_\infty(Orb_G) \simeq Top^G([weak\; G-homotopy\,\, equivalences]^{-1})
-  \,.
-$$
-
-### Relation to topological stacks
-
-By the main theorem of ([Henriques-Gepner 07](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the global [[orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
-
-$$
-  ETopGrpd^{cell} = PSh_\infty(Orb)
-  \,.
-$$
-
-(As such the global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
-
-The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
 
 
 ## Definition
@@ -89,7 +69,7 @@ Another variant is $\mathbf{O}_{gl}$ of ([Schwede 13](#Schwede13)).
 
 ([Rezk 14, 2.4, 2.5](#Rezk14))
 
-The following is the _global [[orbit category]]_.
+The following is the _ [[global orbit category]]_.
 
 +-- {: .num_defn #GlobalOrbitCategory}
 ###### Definition
@@ -130,7 +110,7 @@ $$
   Top_{Orb} \coloneqq PSh_\infty(Orb)
 $$
 
-for the [[(∞,1)-category of (∞,1)-presheaves]] on the global [[orbit category]] $Orb$ of def. \ref{GlobalOrbitCategory}, and write again
+for the [[(∞,1)-category of (∞,1)-presheaves]] on the  [[global orbit category]] $Orb$ of def. \ref{GlobalOrbitCategory}, and write again
 
 $$
   \mathbb{B} \;\colon\; Orb \longrightarrow PSh_\infty(Orb)
@@ -277,6 +257,22 @@ The inclusion $\Delta_G$ is that of def. \ref{InclusionOfGSpacesInTheGlobalTheor
 
 ([Rezk 14, 5.3](#Rezk14))
 
+### Relation to topological stacks and orbispaces
+
+> under construction
+
+By the main theorem of ([Henriques-Gepner 07](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the  [[global orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
+
+$$
+  ETopGrpd^{cell} = PSh_\infty(Orb)
+  \,.
+$$
+
+(As such the global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
+
+The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
+
+
 ## Related concepts
 
 * [[global equivariant stable homotopy theory]]
@@ -285,7 +281,7 @@ The inclusion $\Delta_G$ is that of def. \ref{InclusionOfGSpacesInTheGlobalTheor
 
 ## References
 
-The global orbit category $Orb$ is considered in 
+The [[global orbit category]] $Orb$ is considered in 
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
   
