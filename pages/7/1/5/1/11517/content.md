@@ -1,4 +1,3 @@
-[[!redirects spectra with G-action]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +19,9 @@
 
 ## Idea
 
-For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum object]] in the [[category]] of [[topological G-spaces]] ([e.g. Carlsson 92, def. 3.1](#Carlsson92)). The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. But there one typically considers a richer concept of _[[G-spectra]]_.
+For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum object]] in the [[category]] of [[topological G-spaces]] ([e.g. Carlsson 92, def. 3.1](#Carlsson92)). The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. 
+
+There one typically considers a richer concept of _[[G-spectra]]_. In that context a specturm with $G$-action is a [[G-spectrum]] for the "trivial universe" and is called a _naive G-spectrum_.
 
 ## Properties
 
@@ -32,3 +33,8 @@ For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum ob
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
+
+[[!redirects spectra with G-action]]
+
+[[!redirects naive G-spectrum]]
+[[!redirects naive G-spectra]]
