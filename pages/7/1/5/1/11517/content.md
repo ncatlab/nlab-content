@@ -27,7 +27,45 @@ There one typically considers a richer concept of _[[G-spectra]]_. In that conte
 
 ### Relation to $G$-spectra
 
+For $U$ a universe of $G$-[[representations]] in the sense of [[genuine G-spectra]],there is the inclusion
+
+$$
+  i \;colon\; U^G \longrightarrow U
+$$
+
+of the [[fixed points]]. A [[genuine G-spectrum]] modeled on $U^G$ is a [[spectrum with G-action]] ("[[naive G-spectrum]]"). The induced [[adjunction]]
+
+$$
+  (i_\ast \dashv i^\ast) \;\colon\; G Spectra \longrightarrow Spectra(PSh_\infty(Org_B))
+$$
+
+has [[unit]] and [[counit]] which are [[equivalences]] on the underlying bare [[spectra]].
+
 (e.g. [Carlsson 92, p. 14](#Carlsson92), [Greenlees May, p. 16](#GreenleesMay))
+
+### Relation to equivariant cohomology
+ {#RelationToEquivariantCohomology}
+
+Spectra with $G$-action [[Brown representability theorem|represent]] $\mathbb{Z}$-graded [[cohomology]] on [[G-spaces]].
+
+For $X$ a [[G-space]] and $E$ a spectrum with $G$-action, then the corresponding cohomology is
+
+$$
+  E^\bullet(X) \coloneqq \pi_\bullet(Hom(X,E)^G)
+  \,,
+$$
+
+where on the right we have the [[homotopy fixed points]] of the [[mapping spectrum]], which inherits a [[conjugation action]] by $G$ from the $G$-action on $X$ and $E$.
+
+More abstractly, in terms of the [[tangent cohesive (∞,1)-topos]] $T PSh_\infty(Orb)_{/\mathbf{B}G}$ of the [[slice (∞,1)-topos]] of [[orbispaces]] over $\mathbf{B}G$, this means that
+
+$$
+  E(X) = \underset{\mathbf{B}G}{\prod} [X,E]
+$$
+
+is the [[dependent product]] over $\mathbf{B}G$ of the intrinsic [[cohomology]] of the tangent slice topos. See at _[[∞-action]]_ for more on this.
+
+Notice here [[Elmendorf's theorem]] which identifies [[G-spaces]] with [[(∞,1)-presheaves]] over the [[orbit category]] $Orb_G$. It is via this equivalence that spectra with $G$-action represent [[Bredon cohomology]].
 
 ## References
 
