@@ -11,6 +11,8 @@ M&#246;bius inversion and M&#246;bius function
 
 * Joachim Kock, _Incidence Hopf algebras_, [pdf](http://mat.uab.es/~kock/seminars/incidence-algebras.pdf)
 
+* Imma G&#225;lvez-Carrillo, Joachim Kock, Andrew Tonks, _Decomposition spaces, incidence algebras and M&#246;bius inversion_, [arxiv/1404.3202](http://arxiv.org/abs/1404.3202)
+
 * Metropolis, N.; Rota, Gian-Carlo, _Witt vectors and the algebra of necklaces_, Advances in Mathematics __50__ (2): 95&#8211;125 (1983) [doi](http://dx.doi.org/10.1016%2F0001-8708%2883%2990035-X)
 
 [[!redirects Möbius function]]
