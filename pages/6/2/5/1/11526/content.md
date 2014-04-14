@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[equivariant stable homotopy theory]] over a [[compact Lie group]] $G$, a _$G$-universe_ is a $G$-[[representation]] that contains "all" representations of $G$ of sorts. 
+
+This is used in one definition of [[G-spectra]] via [[looping and delooping]] by [[representation spheres]].
+
+## Definition
+
+A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of countably many copies of a given [[set]] of (finite dimensional? -DMR) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
+
+
+## References
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+
+[[!redirects G-universes]]
