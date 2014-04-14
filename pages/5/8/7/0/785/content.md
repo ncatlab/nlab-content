@@ -140,20 +140,12 @@ This can be explained in model-categorical terms by the fact that the category o
 
 Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
 
-If all objects involved are already fibrant, then such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), there is a canonical fibrant resolution
-  $$ C^I \times_C B \twoheadrightarrow C $$
-
-where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path object]] for the [[fibrant object]] $C$ (For instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$.)
-
-Then by prop. \ref{HomotopyPullbackByOrdinaryPullback} we have
-
 +-- {: .num_cor #HomotopyPullbackByFactorizationLemma}
 ###### Corollary
 
 If in $A \stackrel{f}{\to} C \stackrel{g}{\leftarrow} B$ 
 all three objects are [[fibrant objects]], then
-the homotopy pullback of this diagram is presented by the ordinary [[limit]] 
-in 
+the homotopy pullback of this diagram is presented by the ordinary [[pullback]]
 
 $$
   \array{
@@ -166,7 +158,7 @@ $$
   \,.
 $$
 
-or, which is the same up to [[isomorphism]], as the ordinary [[pullback]]
+or, equivalently up to [[isomorphism]], as the ordinary [[pullback]]
 
 $$
   \array{
@@ -179,24 +171,15 @@ $$
   \,.
 $$
 
-
-
 =--
 
-
-The canonical morphism $A \times_{C} B \to A \times_C^h B$ here is induced by the canonical [[section]] $s : C \to C^I$ into the [[path space object]], hence by the commutativity of the diagram
-
-$$
-  \array{
-     A\times_C B &\to& C & \stackrel{s}{\to} & C^I
-    \\
-    \downarrow &&&{}_{\mathllap{\Delta}}\searrow& \downarrow 
-    \\
-     A\times B && \to && C\times C
-  }
-  \,.
-$$
-
++-- {: .proof}
+###### Proof
+Since the objects are already fibrant, prop. \ref{HomotopyPullbackByOrdinaryPullback} implies that it is sufficient to replace one of the morphisms by a fibrant resolution.
+Such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), $B \to C$ admits a canonical fibrant resolution
+  $$ C^I \times_C B \twoheadrightarrow C $$
+where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path space object]] for $C$ (for instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$).
+=--
 
 The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
 
