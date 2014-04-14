@@ -854,7 +854,7 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
   * [[∞-Lie groupoid cohomology]]
 
-
+* [[equivariant cohomology]]
 
 ## References 
 
