@@ -93,5 +93,9 @@ There is also a deformed noncommutative version of Pfaffian related to [[quantum
 
 * Naihuan Jing, Jian Zhang, _Quantum Pfaffians and hyper-Pfaffians_, [arxiv/1309.5530](http://arxiv.org/abs/1309.5530)
 
+Pfaffian variety is subject of 4.4 in
+
+* Alexander Kuznetsov, _Semiorthogonal decompositions in algebraic geometry_, [arxiv/1404.3143](http://arxiv.org/abs/1404.3143)
+
 [[!redirects Pfaffians]]
 [[!redirects pfaffian]]
