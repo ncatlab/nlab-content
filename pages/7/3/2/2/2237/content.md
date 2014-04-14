@@ -100,7 +100,7 @@ $$
 
 to the [[homotopy fixed points]] $A^G$ of the coefficients. 
 
-Together with the above statement about Borel-equivariance this means (by the [[(∞,1)-Yoneda lemma]] and using that $(G/H)//G \simeq \ast//H$) that what a [[spectrum with G-action]] , regarded, by the above, as a [[spectral presheaf]] $E \colon Orb_G^{op} \to Spectra$ on the [[orbit category]] $Orb_G$ assigns to a coset space $G/H$ is (since $$) the $H$-homotopy fixed points of the $G$-action on $E$:
+Together with the above statement about Borel-equivariance this means (by the [[(∞,1)-Yoneda lemma]] and using that $(G/H)//G \simeq \ast//H$) that what a [[spectrum with G-action]] , regarded, by the above, as a [[spectral presheaf]] $E \colon Orb_G^{op} \to Spectra$ on the [[orbit category]] $Orb_G$ assigns to a [[coset space]] $G/H$ is the $H$-homotopy fixed points of the $G$-action on $E$:
 
 $$
   E(-) \;\colon\; G/H \mapsto E^H
