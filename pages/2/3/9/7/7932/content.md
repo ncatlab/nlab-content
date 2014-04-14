@@ -742,7 +742,9 @@ For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]]
 
 * [[induced representation]]
 
-* [[group cohomology]]
+* [[equivariant cohomology]]
+
+  * [[group cohomology]]
 
 [[!include homotopy type representation theory -- table]]
 
@@ -777,7 +779,26 @@ Closely related discussion of homotopy fiber sequences and homotopy action but i
 
 There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
 
+### For actions of topological groups
+ {#ForActionsOfTopologicalGroups}
 
+That $G$-actions for $G$ a [[topological group]] in the sense of [[G-spaces]] in [[equivariant homotopy theory]] (and hence with $G$ _not_ regarded as the geometrically discrete [[∞-group]] of its underying [[homotopy type]] ) are equivalently objects in the [[slice (∞,1)-topos]] over $\mathbf{B}G$ is [[Elmendorf's theorem]] together with the fact, highlighted in this context in 
+
+* {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014
+
+that 
+
+$$
+  G Space \simeq PSh_\infty(Orb_G) \simeq PSh_\infty(Orb_{/\mathbf{B}G})
+  \simeq
+  PSh_\infty(Orb)_{/\mathbf{B}G}
+$$
+
+is therefore the slice of the $\infty$-topos over the [[global orbit category]] by $\mathbf{B}G$.
+
+[[!include equivariant homotopy theory -- table]]
+
+See at _[[equivariant homotopy theory]]_ for more references along these lines.
 
 [[!redirects ∞-action]]
 
