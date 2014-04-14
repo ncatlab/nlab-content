@@ -336,13 +336,15 @@ The [[twisted cohomology]] with respect to the Chern character is **differential
 
 #### Equivariant cohomology
 
-Various related but different variations of cohomology are obtained by domain objects, or coefficient objects or both with [[action groupoid]]s of [[action]]s  by some [[groupoid object in an (infinity,1)-category|group object]], or by more general groupoids ("[[orbifold]]s").
+All flavors of $G$-[[equivariant cohomology]]
+are obtained from the cohomology of the [[slice (∞,1)-topos]]
+$\mathbf{H}_{\mathbf{B}G}$ (which encapsulates [[∞-actions]])
 
-For the moment see
+[[!include homotopy type representation theory -- table]]
 
-* [[equivariant cohomology]]
+under [[base change]] down to the [[base (∞,1)-topos]] $\mathbf{H}$:
 
-for more details.
+[[!include equivariant cohomology -- table]]
 
 #### Relative cohomology
 
