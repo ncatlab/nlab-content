@@ -116,6 +116,7 @@ If all objects in $\mathcal{X}$ and $\mathcal{Y}$ are [[dualizable object|dualiz
  {#Properties}
 
 ### The comparison maps
+ {#TheComparisonMaps}
 
 +-- {: .num_remark #QuasiMonoidalnessOfLeftAdjoint}
 ###### Remark
