@@ -54,7 +54,7 @@ $$
 More concisely this means that an equivariant cocycle is a [[homotopy fixed point]] of the non-equivariant [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X,A)$:
 
 $$
-  H^G(X,A) \simeq \pi_0(\mathbf{H}(X,G)^G)
+  H^G(X,A) \simeq \pi_0(\mathbf{H}(X,A)^G)
   \,.
 $$
 
