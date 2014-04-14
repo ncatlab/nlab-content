@@ -120,7 +120,7 @@ Such a lift is given by
 
 $$
   \array{
-     \hat c_1 &\stackrel{Id}{\to}& \hat c
+     \hat c_1 &\stackrel{Id}{\to}& \hat c_1
      \\
      \downarrow && \downarrow
      \\
@@ -221,7 +221,7 @@ $$
   }
 $$
 
-any commuting trigangle in $C$, and for
+any commuting triangle in $C$, and for
 
 $$
   \array{
