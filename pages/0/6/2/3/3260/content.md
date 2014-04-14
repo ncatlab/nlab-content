@@ -25,7 +25,9 @@ The union of $G$-equivariant homotopy theories as $G$ is allowed to vary is _[[g
 
 The direct [[stabilization]] of equivariant homotopy theory is the theory of [[spectra with G-action]]. More generally there is a concept of [[G-spectra]] and they are the subject of [[equivariant stable homotopy theory]].
 
-The concept of [[cohomology]] of equivariant homotopy theory is _[[equivariant cohomology]]_.
+The concept of [[cohomology]] of equivariant homotopy theory is _[[equivariant cohomology]]_:
+
+[[!include equivariant cohomology -- table]]
 
 
 ## In topological spaces
@@ -254,6 +256,7 @@ This is example 4.4 in [Guillou](http://www.math.uiuc.edu/~bertg/EquivModels.pdf
 For $A = \{C(\{U_i\}) \to X\}$ the collection of [[Cech cover]]s for all [[sieve|covering families]] of a [[Grothendieck topology]] on $D$, this are the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$.
 
 This way the above theorem provides a model for $G$-equivariant refinements of [[∞-stack]] [[(∞,1)-topos]]es.
+
 
 * For instance, in [[motivic homotopy theory]] one considers cohomology in a [[homotopy localization]] of the [[∞-stack]] [[(∞,1)-topos]] on the [[Nisnevich site]], presented by $C := L_{Cech} SPSh(Nis)$ . Its $G$-equivariant version as above should be the right context for the [[Bredon cohomology|Bredon]] $G$-[[equivariant cohomology]] refinement of such cohomology theories, such as [[motivic cohomology]].
 
