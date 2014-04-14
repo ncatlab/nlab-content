@@ -56,6 +56,15 @@ For more technical details see there the section [Bredon equivariant cohomology]
 
 ## References
 
+The original text is
+
+* {#Bredon67} [[Glen Bredon]], _Equivariant cohomology theories_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
+
+A quick review is in
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+
 There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
 
 * [[Ieke Moerdijk|I. Moerdijk]], J-A. Svensson, _The equivariant Serre spectral sequence_, Proc. Amer. Math. Soc. __118__ (1993), no. 1, 263--278 [doi:10.2307/2160037](http://dx.doi.org/10.2307/2160037)
