@@ -1,5 +1,5 @@
 
-## Related concdets
+## Related concepts
 
 * [[Weil conjecture on Tamagawa numbers]]
 
