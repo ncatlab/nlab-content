@@ -97,9 +97,17 @@ Introductions and surveys include
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-A comprehensive textbook account is in 
+A comprehensive textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
 
 * L.G. Lewis, [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
+
+* [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
+
+An alternative perspective on this is in 
+
+* [[Mark Hovey]], [[David White]], _An alternative approach to equivariant stable homotopy theory_ ([arXiv:1312.3846](http://arxiv.org/abs/1312.3846))
 
 The [[May recognition theorem]] for [[G-spaces]] and [[genuine G-spectra]] is discussed in 
 
