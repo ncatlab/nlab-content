@@ -33,7 +33,7 @@ The concept of [[cohomology]] in equivariant stable homotopy theory is _[[equiva
 
 The definition of _[[G-spectrum]]_ is typically given in generalization of the definition of [[coordinate-free spectrum]].
 
-A **$G$-universe** in this context is a infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of countably many copies of a given [[set]] of (finite dimensional? -DMR) [[representation]]s of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
+A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of countably many copies of a given [[set]] of (finite dimensional? -DMR) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
 
 Each such subspace of $U$ (representation contained in $U$? -DMR) is called an _indexing space_ . For $V \subset W$ indexing spaces, write $W-V$ for the orthogonal complement of $V$ in $W$. Write $S^V$ for the [[one-point compactification]] of $V$ and for $X$ any (pointed) [[topological space]] write $\Omega^V := [S^V,X]$ for the corresponding (based) sphere space.
 
@@ -97,13 +97,22 @@ Introductions and surveys include
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
+A comprehensive textbook account is in 
+
+* L.G. Lewis, [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+The [[May recognition theorem]] for [[G-spaces]] and [[genuine G-spectra]] is discussed in 
+
+* Costenoble and Warner, _Fixed set systems of equivariant infinite loop spaces_ Transactions of the American mathematical society, volume 326, Number 2 (1991) ([JSTOR](http://www.jstor.org/pss/2001770))
+
+Characterization of [[G-spectra]] [via excisive functors](spectrum+object#ViaExcisiveFunctors) on [[G-spaces]] is in 
+
+* [[Andrew Blumberg]], _Continuous functors as a model for the equivariant stable homotopy category_ ([arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
+
+
 The characterization of $G$-equivariant functors in terms of topological [[Mackey functors]] is discussed in example 3.4 (i) of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
-
-Something on modelling the equivariant stable category using functors on _all_ (nice) $G$-spaces (instead of on just the [[orbit category]]) is in 
-
-* [[Andrew Blumberg]], _Continuous functors as a model for the equivariant stable homotopy category_ ([(arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
 
 A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
 
@@ -114,8 +123,3 @@ A comprehensive construction of equivariant stable homotopy theory in terms of [
 A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation is i 
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
-
-
-The [[May recognition theorem]] for $G$-spaces and genuine $G$-spectra is discussed in 
-
-* Costenoble and Warner, _Fixed set systems of equivariant infinite loop spaces_ Transactions of the American mathematical society, volume 326, Number 2 (1991) ([JSTOR](http://www.jstor.org/pss/2001770))
