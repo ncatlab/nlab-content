@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Glen_Bredon)
+
+## related $n$Lab entries
+
+* [[Bredon cohomology]]
+
+category: people
