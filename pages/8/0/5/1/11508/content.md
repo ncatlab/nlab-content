@@ -203,8 +203,8 @@ This is ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
 +-- {: .num_remark}
 ###### Remark
 
-For each $n\in \mathbb{N}$ theorem \ref{TheEquivariantConstruction} gives a genuine $GL_2(\mathbb{Z}/n\mathbb{Z})$-[[equivariant cohomology]] refinement of [[Tmf]]$[\frac{1}{n}]$ (at least for orbits which are [[cosets]] by [[congruence subgroups]]...).
-In total $Tmf(-)$ defines a "levelled" kind of genuine $GL_2(\hat {\mathbb{Z}})$-[[equivariant cohomology]] version of [[Tmf]].
+The system of spectra in theorem \ref{TheEquivariantConstruction} is essentially a [[spectrum with G-action]] (see there) for $G$ the "[[profinite completion of the integers|profinite]] [[modular group]]" $GL_2(\hat {\mathbb{Z}})$, except that the parameterization is not quite over the [[orbit category]] of this $G$, but just to the subcategory on objects which are [[coset spaces]] just by [[congruence subgroups]] and subject to that divisibility constraint on the $n$s, the "levelling".
+So $Tmf(-)$ defines a "levelled" kind of genuine $GL_2(\hat {\mathbb{Z}})$-[[equivariant cohomology]] version of [[Tmf]].
 
 =--
 
