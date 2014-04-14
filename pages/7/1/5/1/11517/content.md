@@ -21,22 +21,22 @@
 
 For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum object]] in the [[category]] of [[topological G-spaces]] ([e.g. Carlsson 92, def. 3.1](#Carlsson92)). The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. 
 
-There one typically considers a richer concept of _[[G-spectra]]_. In that context a specturm with $G$-action is a [[G-spectrum]] for the "trivial universe" and is called a _naive G-spectrum_.
+There one typically considers a richer concept of _[[G-spectra]]_. In that context a spectrum with $G$-action is a [[G-spectrum]] for the "trivial universe" and is called a _naive G-spectrum_.
 
 ## Properties
 
 ### Relation to $G$-spectra
 
-For $U$ a universe of $G$-[[representations]] in the sense of [[genuine G-spectra]],there is the inclusion
+For $U$ a universe of $G$-[[representations]] in the sense of [[genuine G-spectra]], there is the inclusion
 
 $$
-  i \;colon\; U^G \longrightarrow U
+  i \;\colon\; U^G \longrightarrow U
 $$
 
 of the [[fixed points]]. A [[genuine G-spectrum]] modeled on $U^G$ is a [[spectrum with G-action]] ("[[naive G-spectrum]]"). The induced [[adjunction]]
 
 $$
-  (i_\ast \dashv i^\ast) \;\colon\; G Spectra \longrightarrow Spectra(PSh_\infty(Org_B))
+  (i_\ast \dashv i^\ast) \;\colon\; G Spectra \longrightarrow Spectra(PSh_\infty(Orb_G))
 $$
 
 has [[unit]] and [[counit]] which are [[equivalences]] on the underlying bare [[spectra]].
