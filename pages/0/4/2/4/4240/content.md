@@ -5,7 +5,7 @@
 
 ##The Idea##
 
-A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].  .
+A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].
 
 While mainly used to obtain invariants of [[knot|knots]], quandles are interesting algebraic structures in their own right. In particular, the definition of a quandle axiomatizes the properties of conjugation in a group.  More abstractly, we can say that a quandle is an algebraic structure where every element acts as an automorphism of that structure, fixing that element.
 
@@ -53,6 +53,12 @@ Less powerful but more easily computable invariants of knots may be obtained by 
 The Alexander quandles are also important, since they can be used to compute the [[Alexander polynomial]] of a knot.  Let $A$ be a module over the ring  $\mathbb{Z}[t, t^{-1}]$ of [[Laurent polynomial|Laurent polynomials]] in one variable. Then the **Alexander quandle** consists of $A$ made into a quandle with the left action given by
 
 $$a \triangleright b = t a + (1-t)b $$
+
+The _determinant_ of a knot is defined as the absolute value of the Alexander polynomial evaluated at $t = -1$, and similarly, instantiating the Alexander quandle at $t = -1$ gives rise to the **dihedral quandle**
+
+$$a \triangleright b = 2b - a $$
+
+Interpreted as an action on the ring $\mathbb{Z}_n$ of integers modulo $n$, the dihedral quandle is used in defining the [[colorable knot|n-colorability]] of a knot.
 
 [[rack|Racks]] are a useful generalization of quandles in topology, since while quandles can represent knots on a round linear object (such as rope or a thread), racks can represent ribbons, which may be twisted as well as knotted.
 
