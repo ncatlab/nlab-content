@@ -22,7 +22,7 @@
 
 ## Idea
 
-The immediate notion of  [[cohomology]] of [[topological spaces]] which are equipped with a $G$-[[action]] for some [[topological group]] $G$ (often: "$G$-spaces", for short) is the ordinary [[equivariant cohomology]] 
+The immediate notion of  [[cohomology]] of [[topological spaces]] which are equipped with a $G$-[[action]] for some [[topological group]] $G$ (often: "[[G-spaces]]", for short) is the ordinary [[equivariant cohomology]] 
 $H^*_G(X) \coloneqq H^\bullet(X//G)$ of the [[Borel construction]]/[[homotopy quotient]] of $X$ by $G$. 
 
 In contrast to this, _Bredon cohomology_ is another notion of cohomology of $G$-spaces, defined via the [[orbit category]] $Orb_G$ of $G$: its [[coefficients]] are [[presheaves]] (of [[abelian groups]]) on the [[orbit category]]. 
@@ -35,19 +35,23 @@ $$
 
 from the [[orbit category]] of $G$ into [[Ab]].
 
-More details are for the moment at [[equivariant cohomology]] in the section [Bredon equivariant cohomology](equivariant+cohomology#Bredon).
+This may be understood as a presentation of general [[equivariant cohomology]] in view of [[Elmendorf's theorem]]:
 
-For a more general abstract characterization of Bredon cohomology see at _[[global equivariant homotopy theory]]_.
+[[!include equivariant cohomology -- table]]
+
+For more technical details see there the section [Bredon equivariant cohomology](equivariant+cohomology#Bredon).
+
 
 ## Related concepts
 
-* [[equivariant cohomology]]
+* [[equivariant cohomology]], [[equivariant homotopy theory]]
 
 * [[Elmendorf's theorem]]
 
 * [[global equivariant homotopy theory]]
 
 * [[global equivariant stable homotopy theory]]
+
 
 
 ## References
