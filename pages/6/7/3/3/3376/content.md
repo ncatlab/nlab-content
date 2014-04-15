@@ -5,5 +5,7 @@
 
 * [[equivariant homotopy theory]]
 
+* [[Borel model structure]]
+
 
 category: people
