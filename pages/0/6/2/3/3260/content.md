@@ -307,9 +307,11 @@ The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theor
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
-see also 
+and further discussed in
 
 * Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, [arXiv:1308.0856](http://arxiv.org/abs/1308.0856), also Masters Thesis E.T.H., 2010.
+
+See also
 
 * {#MorelVoevodsky03} [[F. Morel]], [[V. Voevodsky]], _$A^1$-homotopy theory of schemes_, 2003 ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
 
