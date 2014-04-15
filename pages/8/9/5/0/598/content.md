@@ -336,7 +336,7 @@ An explicit construction of $\mathbf{B}G$ from $G$ goes traditionally by the sym
 It is immediate to deloop the simplicial group $G$ to the [[simplicial groupoid]] that in degree $k$ is the 1-[[groupoid]] with a single object and $G_k$ as its collection of morphisms. 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathcal{G}$ a [[simplicial groupoid]] that on objects is a constant simplicial set, define a [[simplicial set]] $\bar W \mathcal{G}$ as follows.
@@ -375,7 +375,7 @@ and,
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $G$ a simplicial group and $\mathcal{G}$ the corresponding one-object [[simplicial groupoid]], one writes
@@ -388,7 +388,7 @@ $$
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The above construction has a straightforward [[internalization]] to contexts other than [[Set]]. For instance if $G$ is a [[simplicial object]] in [[topological group]]s or in [[Lie group]]s, then $\overline{W}G$ with
@@ -477,7 +477,7 @@ $$
 Simplicial groups model all [[∞-group]]s in [[∞Grpd]]. Accordingly all [[principal ∞-bundle]]s in [[∞Grpd]] should be modeled by [[simplicial principal bundle]]s.
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(principal action)**
 
@@ -492,7 +492,7 @@ is called **principal** if it is degreewise principal, i.e. if for all $n \in \m
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 The canonical action 
@@ -505,7 +505,7 @@ of any simplicial group on itself is principal.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(simplicial principal bundle)**
 
@@ -523,7 +523,7 @@ For $G$ a simplicial group, a morphism $P \to X$ of [[Kan complex]]es equipped w
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A simplicial $G$-principal bundle $P \to X$ is necessarly a [[Kan fibration]].
@@ -540,7 +540,7 @@ This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
 
 #### Universal simplicial $G$-principal bundle {#UniversalSimplicialBundle}
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
@@ -580,14 +580,14 @@ $$
 
 i.e. as the [[homotopy fiber]] of the cocycle $g$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We call $P_\bullet := X_\bullet \times^g W G$ the simplicial $G$-[[principal bundle]] corresponding to $g$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\{\phi : X_n \to G_{(n-1)}\}$ be the [[twisting function]] corresponding to $g : X_\bullet \to \overline{W}G$ by the above discussion.
@@ -664,6 +664,8 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 * [[n-group]]
 
 * [[∞-group]], **simplicial group**, [[crossed complex]], [[hypercrossed complex]]
+
+* [[Borel model structure]]
 
 
 
