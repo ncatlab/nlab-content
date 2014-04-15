@@ -131,6 +131,10 @@ A standard textbook written from the perspective of [[effective field theory]] i
 * [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
 Press,Cambridge,1995). 
 
+A review of rigorous aspects and [[AQFT]]-like formulations is in
+
+* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+
 An extensive compilation of material on QFT aiming for mathematical precision is
 
 * [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete)), _III: Gauge theory_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1228.81005&format=complete)).
