@@ -279,6 +279,12 @@ By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohe
 The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[naive G-spectra]].
 
 
+## Examples
+
+### $S^1$-Equivariance
+
+[[circle group]]-equivariant homotopy theory may be presented by [[cyclic sets]].
+
 
 ## Related concepts
 
