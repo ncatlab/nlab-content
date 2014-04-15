@@ -204,12 +204,17 @@ The Wightman axioms have been established for the following theories.
 
 
 ## References
-The classic reference already listed by Wikipedia is of course:
+
+The original reference is
 
 * Raymond F. Streater and Arthur S. Wightman: "PCT, spin and statistics, and all that." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1026.81027&format=complete) of the newest edition).
 
-
 Raymond Streater relates some historical background about the book and the approach [on his webpage] (http://www.mth.kcl.ac.uk/~streater/wightman.html).
+
+A review of [[QFT]] via Wightman axioms and [[AQFT]] is in 
+
+* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+
 
 The list of examples above draws from
 
