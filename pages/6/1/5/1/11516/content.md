@@ -29,6 +29,15 @@ In the context of [[homotopy theory]], the [[category]] of topological $G$-space
 
 In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces is given by [[spectra with G-action]]; these lead to [[equivariant stable homotopy theory]]. See there for more details. (But beware that in this context one considers the richer concept of [[G-spectra]], which have a [[forgetful functor]] to [[spectra with G-action]] but better homotopy theoretic properties. ) The uniomn of this as $G$ is allowed to vary is the [[global equivariant stable homotopy theory]].
 
+## Properties
+
+### Model structure and homotopy theory
+
+The standard [[homotopy theory]] on $G$-spaces used in [[equivariant homotopy theory]] considers [[weak equivalences]] which are [[weak homotopy equivalence]] on all (ordinary) [[fixed point]] spaces for all suitable [[subgroups]]. By [[Elmendorf's theorem]], this is equivalent to [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.
+
+On the other hand there is also the standard homotopy theory of [[infinity-actions]], presented by the [[Borel model structure]], in this context also called the "coarse" equivariant model structure ([Guillou](#Guillou)).
+
+
 ## Examples
 
 * [[G-CW complex]]
@@ -38,12 +47,16 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 
 ## Related concepts
 
+* [[G-set]]
+
 [[!include equivariant homotopy theory -- table]]
 
 
 ## References
 
 See the references at _[[equivariant homotopy theory]]_.
+
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
 [[!redirects topological G-spaces]]
 
