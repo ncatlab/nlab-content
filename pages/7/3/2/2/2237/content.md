@@ -105,6 +105,13 @@ Hence we have in summary:
 
 [[!include equivariant cohomology -- table]]
 
+
+## Presentations
+
+> under construction
+
+(...) [[Elmendorf theorem]] (...) [[Borel model structure]] (...)
+
 ## Borel equivariant cohomology 
  {#Borel}
 
@@ -196,11 +203,6 @@ This is therefore an example of equivariance which is not with respect to a glob
 When pairing equivariant cohomology with other variants of cohomology such as [[twisted cohomology]] or [[differential cohomology]] one has to exercise a bit of care as to what it really is that one wants to consider. A discussion of this is (beginning to appear) at [[schreiber:differential equivariant cohomology]].
 
 
-## Equivariant abelian multiplicative cohomology {#Multiplicative}
-
-A refinement of Borel equivariant cohomology. For the moment see
-
-* [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant)
 
 
 
@@ -235,6 +237,16 @@ For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivaria
 * $\mathbb{Z}_2$-equivariant cohomology theories: [[KR-theory]], [[MR-theory]]
 
 * [[modular group]]-equivariance: [[modular equivariant elliptic cohomology]]
+
+
+## Multiplicative equivariant cohomology
+
+For [[multiplicative cohomology theorie]] there is a further refinement of equivariance where the equivariant cohomology groups are built from global sections on a [[sheaf]] over cerain systems of [[moduli spaces]]. For more on this see at 
+
+* [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant)
+
+* [[equivariant elliptic cohomology]]
+
 
 ## Related concepts
 
