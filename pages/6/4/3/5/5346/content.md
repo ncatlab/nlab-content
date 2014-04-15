@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -35,6 +39,11 @@ $$
 $$
 
 with the [[model structure on reduced simplicial sets]].
+
+
+## Related concepts
+
+* [[Borel model structure]] (presenting [[infinity-actions]] of simplicial groups)
 
 ## References
 
