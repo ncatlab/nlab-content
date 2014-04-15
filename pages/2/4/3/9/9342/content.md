@@ -9,11 +9,21 @@ Full [[quantum field theory]] is sometimes called -- for emphasis and in contras
 
 ## Related concepts
 
-* [[instanton]]
 
 * [[non-perturbative effect]]
 
+* [[instanton]]
+
+* [[superselection sector]]
+
 * [[non-perturbative string theory]]
+
+## References
+
+A textbook account in the school of [[AQFT]] is in 
+
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+
 
 [[!redirects non-perturbative QFT]]
 
