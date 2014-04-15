@@ -308,8 +308,8 @@ Now, just because a real number has an expansion as a continued fraction, that d
 * [[Louis Kauffman]] and Sofia Lambropoulou, _On the classification of rational tangles_, arXiv ([web](http://arxiv.org/pdf/math/0311499.pdf)). 
  {#KL} 
 
-Dan Piponi wrote a series of blog posts using the programming language Haskell to illustrate some of the connections between continued fractions, rational tangles and linear operators. The first and final articles are here:
+Dan Piponi wrote a series of posts on his blog "A Neighborhood of Infinity", using the programming language Haskell to illustrate some of the connections between continued fractions, rational tangles and linear operators:
 
-* Dan Piponi, [Untangling with Continued Fractions: Part 0](http://blog.sigfpe.com/2008/08/untangling-with-continued-fractions.html) and [Part 5](http://blog.sigfpe.com/2008/10/untangling-with-continued-fractions.html).
+* Dan Piponi, "Untangling with Continued Fractions" ([Part 0](http://blog.sigfpe.com/2008/08/untangling-with-continued-fractions.html), [Part 1](http://blog.sigfpe.com/2008/08/untangling-with-continued-fractions_16.html), [Part 2](http://blog.sigfpe.com/2008/08/untangling-with-continued-fractions_23.html), [Part 3](http://blog.sigfpe.com/2008/08/untangling-with-continued-fractions_31.html), [Part 4](http://blog.sigfpe.com/2008/09/untangling-with-continued-fractions.html), [Part 5](http://blog.sigfpe.com/2008/10/untangling-with-continued-fractions.html)).
 
 [[!redirects continued fractions]] 
