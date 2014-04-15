@@ -122,7 +122,7 @@ Further discussion is for instance in
 ### In AQFT
  {#ReferencesInAQFT}
 
-Perturbation theory in the context of [[AQFT]] is discussed in the following articles.
+Perturbation theory in the context of [[AQFT]] (or at least in the spirit) is discussed in the following articles.
 
 The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
 
@@ -152,6 +152,10 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[gauge theory]] and [[QED]])
 
+Lecture notes reviewing this are in 
+
+* [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_ ([arXiv:1208.1428](http://arxiv.org/abs/1208.1428))
+
 ### In BV-BRST formalism
 
 Perturbative quantization in [[BV-BRST formalism]] is nicely systematically discussed in section 5 of 
@@ -164,4 +168,3 @@ in the broad context of _[[factorization algebras]]_ (see there for further refe
 
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
-
