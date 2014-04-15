@@ -174,6 +174,8 @@ $$
 
 This is a [[full and faithful (∞,1)-functor]].
 
+
+
 Moreover,  $\Delta$ has a further [[left adjoint]] $\Pi$ which preserves [[finite products]], and $\Gamma$ has a furhter [[right adjoint]] $\nabla$.
 
 =--
@@ -298,6 +300,10 @@ see also
 Discussion of the global equivariant homotopy theory as a [[cohesive (∞,1)-topos]] is in 
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
+
+Discussion of a model structure for global equivariance with respect to [[geometrically discrete ∞-groupoid|geometrically discrete]] [[simplicial groups]]/[[∞-group]] (globalizing the [[Borel model structure]] for [[∞-actions]]) is in 
+
+* [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
 
 [[!redirects global homotopy theory]]
 
