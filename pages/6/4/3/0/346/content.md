@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -20,23 +19,27 @@ A [[category]] $C$ is _closed_ if for any pair $a, b$ of [[objects]] the collect
 
 This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addressed as the _internal [[hom-object]]_ or simply the [[internal hom]].
 
-A familiar kind of closed categories are [[closed monoidal category|closed monoidal categories]]. However, there is also a definition of **closed category** that does not require the category to already be monoidal.  A monoidal structure $\otimes$, if it exists, can then be universally characterized as a _left_ adjoint to the internal-hom, dual to the above characterization of internal-homs as right adjoints to $\otimes$.  See Eilenberg-Kelly, referenced below.
+A familiar kind of closed categories are [[closed monoidal category|closed monoidal categories]]. However, there is also a definition of _closed category_ that does not require the category to already be monoidal.  A monoidal structure $\otimes$, if it exists, can then be universally characterized as a _left_ adjoint to the internal-hom, dual to the above characterization of internal-homs as right adjoints to $\otimes$.  See [Eilenberg--Kelly (1965)](#EK65).
 
-In fact, the notion of a closed structure on $C$ is more natural than the notion of a monoidal structure on $C$ if we consider them from the point of view of the categories enriched in $C$. For monoidal $C$, we can express the definition of a $C$-enriched category for monoidal $C$ (or rather, we can characterize the $2$-category of $C$-enriched categories) by a (strict) $2$-functor from a $2$-category with a [[unit enriched category|unit object]] $\mathcal{I}$ to the lax [[slice 2-category|slice $2$-category]] **Cat**//$C$ satisfying certain conditions. We cannot, however, recover the monoidal structure of $C$ from this characterization of the $2$-categories of $C$-enriched categories.
+In fact, the notion of a closed structure on $C$ is more natural than the notion of a monoidal structure on $C$ if we consider them from the point of view of the categories enriched in $C$. For monoidal $C$, we can express the definition of a $C$-enriched category for monoidal $C$ (or rather, we can characterize the $2$-category of $C$-enriched categories) by a (strict) $2$-functor from a $2$-category with a [[unit enriched category|unit object]] $\mathcal{I}$ to the lax [[slice 2-category]] $\mathbf{Cat}//C$ satisfying certain conditions. We cannot, however, recover the monoidal structure of $C$ from this characterization of the $2$-categories of $C$-enriched categories.
 
 On the other hand, for a closed $C$, that is, $C$ isomorphic to $[\mathcal{I},\mathcal{C}]$ for some $C$-enriched $\mathcal{C}$, we can express the same by a [[lax natural transformation]] ${}^-L$ from the $2$-functor $[\mathcal{I},-]^{op}$ to the $2$-functor $[-,\mathcal{C}]$, satisfying certain conditions. This recovers the closed structure of $C$ as the family of transformations $L^X_{Y,Z}$ below are exactly the data defining the component ${}^{\mathcal{C}}L$ of the lax natural transformation ${}^-L$. See [[category of V-enriched categories]] for details.
 
-Although it may seem that in general the closed structure is less intuitive to work with than the monoidal structure, in some cases it is in fact more obvious what the correct internal-homs are than what the correct tensor product is, so the latter was originally defined as an adjoint to the former.  This is the case for the [[Gray tensor product]] and was probably the case for [[abelian group]]s as well.
+Although it may seem that in general the closed structure is less intuitive to work with than the monoidal structure, in some cases it is in fact more obvious what the correct internal-homs are than what the correct tensor product is, so the latter was originally defined as an adjoint to the former.  This is the case for the [[Gray tensor product]] and the [[projective tensor product]], for example, and was probably the case for [[abelian groups]] (the original notion of [[tensor product]]) as well.
 
 
 ## Definition
 
-A **closed category** is a [[category]] $C$ together with the following data:
+A __closed category__ is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
+
 * An [[object]] $I\in C$ called the *[[unit object]]*.
+
 * A [[natural isomorphism]] $i\colon Id_C \cong [I,-]$.
+
 * A transformation $j_X\colon I \to [X,X]$, [[extranatural]] in $X$.
+
 * A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
 which is required to satisfy the following axioms.
@@ -98,6 +101,7 @@ By a result due to Miguel LaPlaza, every closed category embeds [[full and faith
 
 Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms, the [[core]] of [[Cat]].  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
 
+
 ## Related concepts
 
 * [[closed functor]]
@@ -106,13 +110,14 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 * [[dualizing object in a closed category]]
 
-* [[Kelly-Mac Lane graph]]
+* [[Kelly–Mac Lane graph]]
+
 
 ## References 
 
 Closed categories were first defined here:
 
-* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  (Please don\'t put a link to unauthorised copies here, since this may put the nLab, whose servers are located within the United States, at legal liability.  See [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2048).)
+* {#EK65} [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  (Please don\'t put a link to unauthorised copies here, since this may put the nLab, whose servers are located within the United States, at legal liability.  See [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2048).)
 
 Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]] in 
 
