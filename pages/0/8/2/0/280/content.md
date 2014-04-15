@@ -125,6 +125,11 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 * [[representation theory]], [[invariant theory]]
 
+* [[equivariant homotopy theory]]
+
+  * [[Borel model structure]]
+
+
 ## References
 
 * [[Patrick Morandi]], _Group actions_ ([pdf](http://sierra.nmsu.edu/morandi/notes/groupactions.pdf))
