@@ -162,7 +162,7 @@ this is the content of _[[global equivariant homotopy theory]]_.
 
 ## In more general model categories
 
-Let $G$ be a finite [[group]] as above. We describe the generalizaton of the above story as [[Top]] is replaced by a more general [[model category]] $C$.
+Let $G$ be a finite [[group]] as above. We describe the generalizaton of the above story as [[Top]] is replaced by a more general [[model category]] $C$ ([Guillou](#Guillou)).
 
 +-- {: .num_defn}
 ###### Definition and proposition
@@ -276,8 +276,11 @@ By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohe
 
 ### Stabilization
 
-The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[naive G-spectra]].
+The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[spectra with G-action]] ("[[naive G-spectra]]").
 
+### Relation to ∞-Actions (fine and coarse equivariance)
+
+For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometrically discrete]]) the homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]] is different (finer) than the standard homotopy theory of $G$-[[∞-actions]], which is presented by the [[Borel model structure]] (see there for more).
 
 ## Examples
 
@@ -299,7 +302,7 @@ Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[ho
 
 The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
 
-* [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
 see also 
 
