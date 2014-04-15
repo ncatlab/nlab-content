@@ -61,7 +61,7 @@ $$
 
 for the [[quotient]] ([[coinvariants]]) functor.
 
-Write $E G$, as usual, for a [[contractible topological space|contractible]] [[topological G-space]] whose $G$-[[action]] is [[free action|free]]. Write $E G_+$ for this regarded as apointed $G$-space with a point freely adjoined.
+Write $E G$, as usual, for a [[contractible topological space|contractible]] [[topological G-space]] whose $G$-[[action]] is [[free action|free]]. Write $E G_+$ for this regarded as a pointed $G$-space with a point freely adjoined.
 
 Then there are two functor
 
@@ -69,7 +69,7 @@ $$
   EG_+ \wedge (-) , [EG_+,-] \;\colon\;  Spectra(G Top) \to Spectra(G Top)
 $$
 
-given by forming [[smash product]] with $E G_+$ and formin the [[internal hom]] out of $E G_+$.
+given by forming [[smash product]] with $E G_+$ and forming the [[internal hom]] out of $E G_+$.
 
 Then the [[homotopy fixed point]] functor is
 
