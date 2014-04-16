@@ -179,7 +179,7 @@ Recent account of the principle of locality in AQFT from the point of view of tr
 * [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi]
 (http://dx.doi.org/10.1063/1.3276100)
 
-* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
 
 Talk slides include
