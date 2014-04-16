@@ -17,7 +17,7 @@
 
 The _Hitchin connection_ is a [[projectively flat connection]] over the [[moduli space of Riemann surfaces]] whose [[fiber]] of a [[conformal structure]] $\Sigma$ is the [[space of quantum states]] with [[geometric quantization]] assigns to the induced [[Kähler polarization]] on the [[moduli space of flat connection]] on $\Sigma$.
 
-Hence this is a flat connection that exhibits the relative indepdence of the [[geometric quantization]] of [[Chern-Simons theory]] from the choice of [[polarization]]. It is akin to the _[[Knizhnik-Zamolodchikov connection]]_, which serves the same purpose.
+Hence this is a flat connection that exhibits the relative independence of the [[geometric quantization]] of [[Chern-Simons theory]] from the choice of [[polarization]]. It is akin to the _[[Knizhnik-Zamolodchikov connection]]_, which serves the same purpose.
 
 A review is in ([Lauridsen 10, section 2](#Lauridsen10)).
 
@@ -26,6 +26,7 @@ A review is in ([Lauridsen 10, section 2](#Lauridsen10)).
 * [[Narasimhan–Seshadri theorem]]
 
 ## References
+
 
 The original article is 
 
