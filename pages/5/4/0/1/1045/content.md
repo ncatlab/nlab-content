@@ -54,6 +54,8 @@ $$
   \,.
 $$
 
+This is in fact a [[left adjoint]] to the [[direct image]] or restriction functor $F_* : [D^{op}, Set] \to [C^{op}, Set]$ which maps $H \mapsto H \circ F$; see [[restriction and extension of sheaves]].
+
 ### Formula ###
 
 Recalling the general formula for the left [[Kan extension]] of a functor $F : C \to D$ through a functor $p : C  \to C'$ 
