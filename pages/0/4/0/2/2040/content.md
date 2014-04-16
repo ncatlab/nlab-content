@@ -32,13 +32,13 @@ We follow the modern account in ([Barwick 14](#Barwick14)).
 
 Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $Corr_1(\mathcal{C})^\otimes$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$, regarded as a [[symmetric monoidal (∞,1)-category]] with respect to its [[coproduct]] (which is a [[biproduct]] by disjunctiveness of $\mathcal{C}$).
 
-Write $\mathcal{C} = $[[Spectra]]${}^\otimes$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to the [[smash product of spectra]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]} [[stable (∞,1)-category]]
+Write $\mathcal{C} = $[[Spectra]]${}^\otimes$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to the [[smash product of spectra]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[stable (∞,1)-category]]
 
 Then a (spectral) _Mackey functor_ on $\mathcal{C}$ is a [[monoidal (∞,1)-functor]] of the form
 
 
 $$
-  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{otimes}
+  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{\otimes}
   \,.
 $$
 
