@@ -52,9 +52,9 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 ### Relation to F-theory
 
-By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
-
-To obtain type IIB sugra in noncompact 10 dimensions this way, also $S^1_B$ is to be compactified (since [[T-duality]] sends the radius $r_A$ of $S^1_A$ to the inverse radius $r_B = \ell_s^2 / R_A$ of $S^1_B$).
+The [[KK-compactification|compactification]] of M-theory on a torus yields [[type II string theory]] -- directly type IIA, and then type IIB after [[T-duality|T-dualizing]]. It turns out that the [[axio-dilaton]] of the resulting type II-B string theory is equivalently the [[complex structure]]-[[moduli|modulus]] of this [[elliptic fibration]] by the compactification torus. This gives a description of [[non-perturbative quantum field theory|non-perturbative]] aspects of type II which has come to be known as _[[F-theory]]_ (see e.g. [Johnson 97](#Johnson97)).
+ 
+In slightly more detail, write, topologically, $T^2 = S^1_A\times S^1_B$ for the compactification torus of M-theory, where contracting the first $S^1_A$-factor means passing to type IIA. To obtain type IIB in noncompact 10 dimensions from M-theory,  also the second $S^1_B$ is to be compactified (since [[T-duality]] sends the radius $r_A$ of $S^1_A$ to the inverse radius $r_B = \ell_s^2 / R_A$ of $S^1_B$).
 Therefore type IIB sugra in $d = 10$ is obtained from 11d sugra compactified on the [[torus]] $S^1_A \times S^1_B$. More generally, this torus may be taken to be an [[elliptic curve]] and this may vary over the 9d base space as an [[elliptic fibration]]. 
 
 Applying T-duality to one of the compact direction yields a 10-dimensional theory which may now be thought of as encoded by a 12-dimensional elliptic fibration. This 12d elliptic fibration encoding a 10d type II supergravity [[vacuum]] is the input data that [[F-theory]] is concerned with.
@@ -146,6 +146,9 @@ An early popular account for a general audience is
 
 * [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.sns.ias.edu/~witten/papers/mmm.pdf))
 
+An early survey on the relations of M-theory to [[type II string theory]] now known as [[F-theory]] is in 
+
+* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
 More technical surveys include
 
