@@ -78,6 +78,8 @@ $$
 
 where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the orbit $G/H$ to $E$.
 
+(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11))
+
 (...)
 
 
