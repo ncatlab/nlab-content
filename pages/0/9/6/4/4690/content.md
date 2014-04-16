@@ -82,8 +82,16 @@ $$
   \,.
 $$
 
-(...)
+To derive the [Einstein Field equations](http://nlab.mathforge.org/nlab/show/Einstein+equation) from this, we will look at the Einstein-Hilbert action action in its usual form ($c$, the speed of light, is set to unity), in spacetime with no matter fields (i.e., matter Lagrangian $\mathcal{L}_M=0$):
 
+$$S = \frac{1}{16\pi G} \int \operatorname{tr}_g(R) \sqrt{-g} \, \mathrm{d}^4x \;,$$
+The variation of this action can be performed:
+$$\frac{\delta S}{\delta g}=0$$
+The [Wikipedia Page](http://en.wikipedia.org/wiki/Einstein%E2%80%93Hilbert_action) shows how to vary the action (with matter fields) through components, giving us the famed [Einstein field equations](http://nlab.mathforge.org/nlab/show/Einstein+equation):
+$$R-\frac{1}{2}g\operatorname{tr}_g(R)=T$$
+Here, $T$ is the [energy-momentum tensor](http://nlab.mathforge.org/nlab/show/stress-energy+tensor).
+
+(...)
 ## History
  {#History}
 
