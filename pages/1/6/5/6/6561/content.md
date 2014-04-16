@@ -151,6 +151,8 @@ Relation to [[extended TQFT]] is discussed in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
+* [[David Ben-Zvi]], _Algebraic geometry of topological field theories_, talk at _[Reimagining the Foundations of Algebraic Topology
+April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web video](https://www.msri.org/workshops/689/schedules/18216))
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
