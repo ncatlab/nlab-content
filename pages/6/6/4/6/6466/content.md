@@ -10,7 +10,7 @@
 =--
 
 # Real numbers object
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -102,7 +102,7 @@ An object satisfying all but the last axiom of a field object is precisely a [[l
 ...
 =--
 
-It would be nice to say that a Heyting category with an RNO must have an NNO; after all, $\mathbb{N}$ is contained in $\mathbb{R}$.  However, my only argument is impredicative; although I don't know a specific example, there could be a $\Pi$-pretopos with an RNO but no NNO.  However, the argument works for a [[infinitary coherent category|geometric]] Heyting category or a [[topos]].  (In light of the constructions below, the existence of an RNO is therefore equivalent to the existence of an NNO in a topos.)
+It would be nice to say that a Heyting category with an RNO must have an NNO; after all, $\mathbb{N}$ is contained in $\mathbb{R}$.  However, my only argument is impredicative; although I don't know a specific example, there could be a [[Π-pretopos]] with an RNO but no NNO.  However, the argument works for a [[infinitary coherent category|geometric]] Heyting category or a [[topos]].  (In light of the constructions below, the existence of an RNO is therefore equivalent to the existence of an NNO in a topos.)
 +-- {: .num_thm}
 ###### Theorem
 If $R$ is an RNO in an infinitary Heyting category or topos, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
@@ -140,7 +140,7 @@ Let $\mathcal{E}$ be an [[elementary topos]] with a natural numbers object $\mat
 
 We first construct an integers object as follows. Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of $(\pi_1 \circ a, \pi_2 \circ b), (\pi_2 \circ a, \pi_1 \circ b)\colon E \to \mathbb{N}$. A similar construction yields a rational numbers object $\mathbb{Q}$. 
 
-We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **Dedekind cut** is a [[generalized element]] $(L, U)$ of $\mathcal{P}(\mathbb{Q}) \times \mathcal{P}(\mathbb{Q})$, satisfying the following conditions, expressed in the [[Mitchell–Bénabou language]] of $\mathcal{E}$ and interpreted under [[Kripke-Joyal semantics|Kripke–Joyal semantics]]:
+We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **Dedekind cut** is a [[generalized element]] $(L, U)$ of $\mathcal{P}(\mathbb{Q}) \times \mathcal{P}(\mathbb{Q})$, satisfying the following conditions, expressed in the [[Mitchell?Bénabou language]] of $\mathcal{E}$ and interpreted under [[Kripke-Joyal semantics|Kripke?Joyal semantics]]:
 
 1. Non-degenerate:
    $$ \exists q\colon \mathbb{Q}.\, q \in L ;$$
@@ -179,7 +179,7 @@ Summary: modify the construction of a [[Cauchy real numbers]] object to use [[mu
 
 ### In $Set$
 
-The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO (or more generally a $\Pi$-pretopos with NNO and either WCC or subset collection).
+The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO (or more generally a [[Π-pretopos]] with [[natural numbers object|NNO]] and either WCC or subset collection).
 
 
 ### In sheaves on a topological space
@@ -227,9 +227,11 @@ Section D4.7 of
 
 See also
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-  {#MM94}
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+Discussion in [[homotopy type theory]] is in section 11 of of 
+
+* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 [[!redirects real numbers objects]]
 [[!redirects real number object]]
