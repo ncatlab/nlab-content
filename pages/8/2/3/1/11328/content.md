@@ -7,4 +7,6 @@
 
 * [[equivariant elliptic cohomology]]
 
+* [[modular functor]], [[Hitchin connection]]
+
 category: people
