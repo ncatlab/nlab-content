@@ -74,7 +74,7 @@ Ours is the age to figure this out.
 
 * [[free field theory]]
 
-* [[phi^4 theory]]
+* [$\phi^4$ theory](http://ncatlab.org/nlab/show/phi%5E4+theory)
 
 * [[topological quantum field theory]]
 
