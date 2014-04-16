@@ -36,6 +36,11 @@ More explicit expressions are discussed in
 
 * Bert van Geemen, [[Aise Johan de Jong]], _On Hitchin's Connection_ ([arXiv:alg--geom/9701007](http://arxiv.org/abs/alg--geom/9701007))
 
+A nice review and new concise account is in 
+
+* {#Looijenga10} [[Eduard Looijenga]], _From WZW models to Modular Functors_ ([arXiv:1009.2245](http://arxiv.org/abs/1009.2245))
+
+
 Discussion for [[deformation quantization]] instead of [[geometric quantization]] is in 
 
 * Jorgen Ellegaard Andersen, _Hitchin's connection, Toeplitz operators and symmetry invariant deformation quantization_ ([arXiv:math/0611126](http://arxiv.org/abs/math/0611126))
