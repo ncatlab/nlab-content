@@ -2,6 +2,7 @@ Robert (Bob) W. Thomason (5 Nov 1952-Nov 1995) was an American mathematician. To
 
 * [here](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Thomason.html)
 
+* [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
 
  A CatLab entry is [here](http://ncatlab.org/joyalscatlab/published/Thomason%2C+Robert)
 category:people
