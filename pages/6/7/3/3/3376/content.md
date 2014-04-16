@@ -5,6 +5,8 @@
 
 * [[equivariant homotopy theory]]
 
+* [[Mackey functor]]
+
 * [[Borel model structure]]
 
 
