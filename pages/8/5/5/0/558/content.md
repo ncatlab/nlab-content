@@ -487,7 +487,10 @@ This is lemma 6.3.21 and corollary 6.3.24 in ([Pellissier](#Pellissier))
  {#ForStrictOmegaCategoriesWithWeakInverses}
 
 While [[strict omega-groupoids]] in the sense of 
-[[strict omega-categories]] with _strict_ inverses are far from modelling all homotopy types, strict $\omega$-categories with all _weak_ inverses come closer. In ([Kapranov-Voevodsky](#KapranovVoevodsky)) it was argued that these are in fact sufficient, but a mistake in the argument is claimed in ([Simpson, cor. 5.2](#Simpson)).
+[[strict omega-categories]] with _strict_ inverses are far from modelling all homotopy types, strict $\omega$-categories with all _weak_ inverses come closer. In ([Kapranov-Voevodsky](#KapranovVoevodsky)) it was argued that these are in fact sufficient, but a mistake in the argument is claimed in ([Simpson, cor. 5.2](#Simpson)) (see also [here](Simpson%27s+conjecture#History)).
+
+The issue however is somewhat subtle, as very much highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
+For more on this see at _[[Simpson's conjecture]]_.
 
 
 ## References
