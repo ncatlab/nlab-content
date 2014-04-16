@@ -31,6 +31,21 @@ For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutatio
 
 For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
+## Properties
+
+### Relation to genuine $G$-spectra
+
+For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor us given by the assignment
+
+$$
+  G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
+  \,,
+$$
+
+where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the orbit $G/H$ to $E$.
+
+(...)
+
 ## References
 
 The original article is
