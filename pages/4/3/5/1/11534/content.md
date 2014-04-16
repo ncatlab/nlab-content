@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Burnside category_ of a [[finite group]] $G$ is essentially the [[category of correspondences]] in [[G-sets]],equipped with its evident [[monoidal category]] structure.
+
+## Related concepts
+
+* [[Burnside ring]]
+
+* [[Mackey functor]], [[equivariant stable homotopy theory]]
+
+## References
+
+* {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
