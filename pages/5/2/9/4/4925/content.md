@@ -41,7 +41,7 @@ A [[knot diagram]] is _$3$-colourable_ if we can assign colours to its arcs such
 
 +--{: .un_theorem}
 ######Theorem
-$3$-colourability is a knot  invariant.
+$3$-colourability is a [[knot  invariant]].
 
 =--
 
