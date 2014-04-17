@@ -58,7 +58,7 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
   * [[string]], [[spinning string]], [[superstring]]
 
-    * [[type II superstring]], [[(p,q)-string]]
+    * [[type II superstring]], [[F1-brane]], [[D1-brane]], [[(p,q)-string]]
 
     * [[heterotic string]]
 
@@ -123,14 +123,10 @@ and the appearance of the [[string Lie 2-algebra]] as the [[Heisenberg Lie 2-alg
 
 
 [[!redirects strings]]
-[[!redirects F1-brane]]
 
 [[!redirects fundamental string]]
 [[!redirects fundamental strings]]
-[[!redirects F-string]]
-[[!redirects F1-brane]]
-[[!redirects F-strings]]
-[[!redirects F1-branes]]
+
 
 [[!redirects bosonic string]]
 [[!redirects bosonic strings]]
