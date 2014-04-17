@@ -173,6 +173,7 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 
 [[!redirects type IIA string theory]]
 [[!redirects type IIB string theory]]
+[[!redirects Type IIB string theory]]
 
 [[!redirects type IIA superstring theory]]
 [[!redirects type IIB superstring theory]]
