@@ -146,7 +146,9 @@ An early popular account for a general audience is
 
 * [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.sns.ias.edu/~witten/papers/mmm.pdf))
 
-An early survey on the relations of M-theory to [[type II string theory]] now known as [[F-theory]] is in 
+Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]] include
+
+* {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys.Lett. B367 (1996) 97-103 ([arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086))
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
