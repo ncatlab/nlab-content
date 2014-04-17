@@ -54,11 +54,11 @@ The Alexander quandles are also important, since they can be used to compute the
 
 $$a \triangleright b = t a + (1-t)b $$
 
-The _determinant_ of a knot is defined as the absolute value of the Alexander polynomial evaluated at $t = -1$, and similarly, instantiating the Alexander quandle at $t = -1$ gives rise to the **dihedral quandle**
+Analogous to how evaluating the Alexander polynomial at $t = -1$ (and then taking absolute value) defines the _determinant_ of a knot, similarly, instantiating the Alexander quandle at $t = -1$ gives rise to the **dihedral quandle**
 
 $$a \triangleright b = 2b - a $$
 
-Interpreted as an action on the ring $\mathbb{Z}_n$ of integers modulo $n$, the dihedral quandle is used in defining the [[colorable knot|n-colorability]] of a knot.
+which, when interpreted as an action on the ring $\mathbb{Z}_n$ of integers modulo $n$, may be used to define the classical notion of [[colorable knot|n-colorability]] of a knot.
 
 [[rack|Racks]] are a useful generalization of quandles in topology, since while quandles can represent knots on a round linear object (such as rope or a thread), racks can represent ribbons, which may be twisted as well as knotted.
 
