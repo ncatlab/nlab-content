@@ -1,0 +1,5 @@
+## Statement
+
+For $x$ an [[integer]] and $p$ a [[prime number]], if $x \nequiv 0 \pmod{p}$, then 
+$x^{p-1} \equiv 1 \pmod{p}$.
+ 
