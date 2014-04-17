@@ -3,6 +3,14 @@
 For $x$ an [[integer]] and $p$ a [[prime number]], if $x \nequiv 0 \pmod{p}$, then 
 $x^{p-1} \equiv 1 \pmod{p}$.
 
-This useful result is in a sense trivial, since the [[ring]] $\mathbb{Z}/(p)$ is a finite [[field]], with [[group of units]] $G$ of order $p-1$; it is just a matter of recalling $x^{ord(G)} = 1$ for all $x$ in a [[finite group]] $G$. 
+This useful result is in a sense trivial, since the [[ring]] $\mathbb{Z}/(p)$ is a finite [[field]], with [[group of units]] $G$ of order $p-1$; it is just a matter of recalling $x^{ord(G)} = 1$ for all $x$ in a [[finite group]] $G$. For the same reason, $a^{q-1} = 1$ for any nonzero $a$ in a finite field with $q$ elements. 
 
-A stronger result is that the group of units of a finite field with $q$ elements is _[[cyclic group|cyclic]]_ of order $q-1$. A proof may be found [here](/nlab/show/root#rootsunity). 
+## Refinements 
+
+A stronger result is that the group of units of a finite field with $q$ elements is _[[cyclic group|cyclic]]_ of order $q-1$, or indeed that every finite subgroup of the group of units of any field is cyclic. A proof may be found [here](/nlab/show/root#rootsunity). 
+
+If $A$ is a commutative $\mathbb{F}_p$-algebra, then the map $a \mapsto a^p$ is an algebra endomorphism $\sigma: A \to A$ (this follows easily from the [[binomial theorem]] and the fact that $\binom{p}{k} \equiv 0 \pmod{p}$ when $0 \lt k \lt p$). It follows that $\sigma: \mathbb{F}_q \to \mathbb{F}_q$ is a field _automorphism_ on a field with $q = p^k$ elements, since after all 
+
+$$\sigma^k(a) = a^{p^k} = a^q = a^{q-1}a = a$$ 
+
+for any $a \in \mathbb{F}_q$. See also [[Frobenius automorphism]]. 
