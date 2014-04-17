@@ -185,6 +185,6 @@ In fact, much of the broad structure of M-theory and its relation to the various
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
  {#FSS13}
 
-By passing to [[automorphism]] algebras this reproduces the polyvector extensions of the [[super Poincaré Lie algebra]], which enter the traditional discussin of M-theoy, such as the [[M-theory super Lie algebra]] (which arises as the symmetries of the [[M5-brane]] [[schreiber:∞-Wess-Zumino-Witten theory]]). 
+By passing to [[automorphism]] algebras, this reproduces the polyvector extensions of the [[super Poincaré Lie algebra]], which enter the traditional discussion of M-theory, such as the [[M-theory super Lie algebra]] (which arises as the symmetries of the [[M5-brane]] [[schreiber:∞-Wess-Zumino-Witten theory]]). 
 
 [[!redirects non-perturbative string theory]]
