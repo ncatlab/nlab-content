@@ -1,0 +1,49 @@
+# Contents #
+* table of contents 
+{: toc}
+
+## Statement 
+
+For $k$ a [[natural number]] and $r$ a [[complex number]], define the _falling factorial_ by 
+
+$$r^{\underline{k}} = r(r-1)\ldots (r-k+1),$$ 
+
+a polynomial of degree $k$ evaluated at $r$. If $r$ is a natural number, this expression vanishes for $k \gt r$. 
+
+The binomial theorem may be stated thus: if $r$ is any complex number and ${|x|} \lt 1$, then 
+
+$$(1 + x)^r = \sum_{k \geq 0} \frac{r^{\underline{k}} x^k}{k!}$$ 
+
+where the left side may be formally defined as $\exp(r \cdot \log (1+x))$, taking the principal branch of the [[logarithm]] as defined by the power series 
+
+$$\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots .$$ 
+
+Thus, if we define the binomial coefficient $\binom{r}{k}$ by the formula 
+
+$$\binom{r}{k} \coloneqq \frac{r^{\underline{k}}}{k!},$$ 
+
+then we have 
+
+$$(y + x)^r = \sum_{k \geq 0} \binom{r}{k} y^{r-k}x^k$$ 
+
+whenever ${|y|} \gt {|x|}$. 
+
+## Combinatorial interpretation 
+
+The special finitary case in which $i, j, n$ are positive integers, 
+
+$$(i + j)^n = \sum_{0 \leq k \leq n} \binom{n}{k} i^k j^{n-k}$$ 
+
+may be established combinatorially (or in "bijective fashion") as follows. Start by interpreting $(i + j)^n$ as the number of functions $f: N \to I \sqcup J$ from an $n$-element set, where $I, J$ have cardinalities $i, j$ respectively. By pulling back $f$ along each the inclusions of $I, J$ into $I \sqcup J$, we get functions $f_I: f^{-1}(I) \to I$, $f_J: f^{-1}(J) \to J$. Here $f^{-1}(I)$ and $f^{-1}(J)$ are complementary subsets of $N$, say of cardinalities $k$ and $n-k$ respectively. (In effect, we are using the fact that the category of finite sets is an [[extensive category]].) Thus, $f$ determines and is uniquely determined by the following data 
+
+* A subset $K (= f^{-1}(I))$ of $N$, 
+* A function $g (= f_I)$ of the form $K \to I$, 
+* A function $h (= f_J)$ of the form $N-K \to J$ 
+
+and by counting the number of such triplets $(K, g, h)$, we are led to the right-hand side of the previous displayed equation. 
+
+Notice this gives a rigorous proof for the polynomial identity 
+
+$$(x+y)^n = \sum_{0 \leq k \leq n} \binom{n}{k} x^k y^{n-k}$$ 
+
+since a polynomial in $\mathbb{Z}[x, y]$ is the zero polynomial if it vanishes for all positive integer values substituted for $x$ and $y$. 
