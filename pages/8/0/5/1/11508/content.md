@@ -65,6 +65,17 @@ $$
 
 for the [[general linear group]] in [[dimension]] 2 with [[coefficients]] in $\hat{\mathbb{Z}}$.
 
+Notice that this is the [[profinite group]] obtained as the [[limit]] over all general linear groups with coefficients in the [[cyclic groups]] (e.g.[Greicius 09, (1.1)](#Greicius09))
+
+$$
+  GL_2(\widehat{\mathbb{Z}})
+  \coloneqq
+  GL_2(\underset{\leftarrow}{\lim})_n GL_2(\mathbb{Z}/n\mathbb{Z})
+  \simeq
+  \underset{\leftarrow}{\lim}_n GL_2(\mathbb{Z}/n\mathbb{Z})
+  \,.
+$$
+
 Write
 
 $$
@@ -282,6 +293,7 @@ is analogous to the inclusion of [[KO]] into [[KU]]
 
 ## References
 
+
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
 * {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_, Int. Math.
@@ -306,6 +318,9 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020)
 
 * {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
+
+* {#Greicius09} Aaron Greicius, _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+
 
 [[!redirects modular equivariant tmf]]
 
