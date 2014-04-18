@@ -12,7 +12,7 @@ This useful result is in a sense trivial, since the [[ring]] $\mathbb{Z}/(p)$ is
 
 A stronger result is that the group of units of a finite field with $q$ elements is _[[cyclic group|cyclic]]_ of order $q-1$, or indeed that every finite subgroup of the group of units of any field is cyclic. A proof may be found [here](/nlab/show/root#rootsunity). 
 
-If $A$ is a commutative $\mathbb{F}_p$-[[associative unital algebra|algebra]], then the map $a \mapsto a^p$ is an algebra endomorphism $\sigma: A \to A$ (this follows easily from the [[binomial theorem]] and the fact that $\binom{p}{k} \equiv 0 \pmod{p}$ when $0 \lt k \lt p$). It follows that $\sigma: \mathbb{F}_q \to \mathbb{F}_q$ is a field _automorphism_ on a field with $q = p^k$ elements, since after all 
+If $A$ is a commutative $\mathbb{F}_p$-[[associative unital algebra|algebra]], then the map $a \mapsto a^p$ is an algebra endomorphism $\sigma: A \to A$ (the preservation of addition follows easily from the [[binomial theorem]] and the fact that $\binom{p}{k} \equiv 0 \pmod{p}$ when $0 \lt k \lt p$; apparently this is also known as the [[freshman's dream]]). It follows that $\sigma: \mathbb{F}_q \to \mathbb{F}_q$ is a field _automorphism_ on a field with $q = p^k$ elements, since after all 
 
 $$\sigma^k(a) = a^{p^k} = a^q = a^{q-1}a = a$$ 
 
@@ -22,7 +22,7 @@ for any $a \in \mathbb{F}_q$. See also [[Frobenius automorphism]].
 
 Fermat's little theorem says that in order for a positive integer $p$ to be prime, it is necessary that $a^p \equiv a \pmod{p}$ for any integer $a$ (one may as well assume $0 \leq a \lt p$). This gives a way of showing that an integer $n$ is _not_ prime (by finding an $a$ less than $n$ such that $a^{n-1} \nequiv 1 \pmod{n}$) that, especially for large $n$, is more efficient than  actually factoring $n$. 
 
-One type of (probabilistic) primality test for $p$ is to take a base, for example $a = 2$, and check whether $a^{p-1} = 1 \pmod{p}$. Chances are good that $p$ is in fact prime if this is satisfied, although there certainly exist composite numbers which pass this test (called pseudoprimes base $a$). The smallest pseudoprime base $2$ is $341 = 11 \cdot 31$. One effective primality test for "small" $p$ (e.g., less than $10^{15}) is to use such a primality test coupled with a table of pseudoprimes. 
+One type of (probabilistic) primality test for $p$ is to take a base, for example $a = 2$, and check whether $a^{p-1} = 1 \pmod{p}$. Chances are good that $p$ is in fact prime if this is satisfied, although there certainly exist composite numbers which pass this test (called pseudoprimes base $a$). The smallest pseudoprime base $2$ is $341 = 11 \cdot 31$. One effective primality test for "small" $p$ (e.g., less than $10^{15}$) is to use such a primality test coupled with a table of pseudoprimes. 
 
 There are numbers such as $n = 561 = 3 \cdot 11 \cdot 17$ which are pseudoprimes in any base; these are called _Carmichael numbers_. A positive integer $n$ is Carmichael iff it is square-free and for each prime divisor $p$ of $n$, we have that $p-1$ is a divisor of $n-1$. They are comparatively rare, but it is known there are infinitely many (for sufficiently large $n$, there are at least $n^{2/7}$ Carmichael numbers between $1$ and $n$). 
 
