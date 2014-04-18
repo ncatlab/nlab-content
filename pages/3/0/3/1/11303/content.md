@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 =--
 =--
 
