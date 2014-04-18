@@ -18,7 +18,7 @@ where the left side may be formally defined as $\exp(r \cdot \log (1+x))$, takin
 
 $$\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots .$$ 
 
-Thus, if we define the binomial coefficient $\binom{r}{k}$ by the formula 
+Thus, if we define the **binomial coefficient** $\binom{r}{k}$ by the formula 
 
 $$\binom{r}{k} \coloneqq \frac{r^{\underline{k}}}{k!},$$ 
 
@@ -47,3 +47,19 @@ Notice this gives a rigorous proof for the polynomial identity
 $$(x+y)^n = \sum_{0 \leq k \leq n} \binom{n}{k} x^k y^{n-k}$$ 
 
 since a polynomial in $\mathbb{Z}[x, y]$ is the zero polynomial if it vanishes for all positive integer values substituted for $x$ and $y$. 
+
+## Pascal's triangle
+
+The binomial coefficient polynomials $\binom{x}{k}$ (here $x$ is an indeterminate) satisfy the recurrence 
+
+$$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \equiv 1.$$ 
+
+The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
+
+$$\frac{d}{d x} \frac{x^k}{k!} = \frac{x^{k-1}}{(k-1)!}.$$ 
+
+The more familiar form of this recurrence, 
+
+$$\binom{x+1}{k} = \binom{x}{k} + \binom{x}{k-1},$$ 
+
+may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is either entirely contained in $X$, or is determined by the $(k-1)$-element subset of $X$ that is $K \cap X$. 
