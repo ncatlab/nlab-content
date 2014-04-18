@@ -65,5 +65,5 @@ Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841.
 * [[D. C. Isaksen]], Completions of pro-spaces , Math. Z., 250, (2005), 113 
 &#8211; 143. 
 
-* {#FauskIsaksen07} [[Halvard Fausk]] [[D.C. Isaksen]], _Model structures on pro&#8211;categories_, Homology, Homotopy and Applications, Vol. 9 (2007), 367&#8211;398.
+* {#FauskIsaksen07} [[Halvard Fausk]] [[D. C. Isaksen]], _Model structures on pro&#8211;categories_, Homology, Homotopy and Applications, Vol. 9 (2007), 367&#8211;398.
 
