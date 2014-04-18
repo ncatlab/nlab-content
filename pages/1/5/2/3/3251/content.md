@@ -109,6 +109,10 @@ An alternative perspective on this is in
 
 * [[Mark Hovey]], [[David White]], _An alternative approach to equivariant stable homotopy theory_ ([arXiv:1312.3846](http://arxiv.org/abs/1312.3846))
 
+Generalization from equivariance under [[compact Lie groups]] to [[compact topological groups]] (Hausdorff) and in particular to [[profinite groups]] and [[pro-homotopy theory]] is in  
+
+* {#Fausk06} [[Halvard Fausk]], _Equivariant homotopy theory for pro-spectra_ ([arXiv:math/0609635](http://arxiv.org/abs/math/0609635))
+
 The [[May recognition theorem]] for [[G-spaces]] and [[genuine G-spectra]] is discussed in 
 
 * Costenoble and Warner, _Fixed set systems of equivariant infinite loop spaces_ Transactions of the American mathematical society, volume 326, Number 2 (1991) ([JSTOR](http://www.jstor.org/pss/2001770))
