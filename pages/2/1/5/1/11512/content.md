@@ -1,5 +1,30 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Compact objects
++-- {: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 The [[profinite completion of a group|profinite completion]] of the [[integers]] is
 
 $$
@@ -9,6 +34,10 @@ $$
   \,.
 $$
 
+## Properties
+
+### Relation to the $p$-adic integers
+
 This is [[isomorphism|isomorphic]] to the [[product]] of the [[p-adic integers]] for all [[prime numbers]] $p$
 
 $$
@@ -16,4 +45,11 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* the [[modular group]]/[[general linear group]] with profinite integer coefficients $GL_2(\widehat{\mathbb{Z}})$ appears as the symmetry group in [[modular equivariant elliptic cohomology]].
+
+## References
+
+* Groupprops, _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
