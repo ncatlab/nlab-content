@@ -67,7 +67,7 @@ $$\exp(x + y) = \exp(x) \cdot \exp(y)$$
 
 +-- {: .proof} 
 ###### Proof 
-A number of proofs may be given. One rests on the combinatorial binomial identity 
+A number of proofs may be given. One rests on the combinatorial [[binomial theorem|binomial identity]]  
 
 $$(x + y)^n = \sum_{j + k = n} \frac{n!}{j! k!} x^j y^k$$ 
 
