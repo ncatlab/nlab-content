@@ -95,11 +95,16 @@ $$
 
 ## References
 
-Over the complex numebers:
+### Over the complex numbers
 
 * {#Hain08} Richard Hain, section 4.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
-Over general base rings:
+### Over general base rings
+
+* {#Greicius09} Aaron Greicius, _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+
+
+* David Zywina, _Elliptic curves with maximal Galois action on their torsion points_ ([arXiv:0809.3482](http://arxiv.org/abs/0809.3482))
 
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
