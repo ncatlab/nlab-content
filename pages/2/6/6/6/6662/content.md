@@ -180,5 +180,8 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 [[!redirects Frobenius endomorphism]]
 [[!redirects Frobenius endomorphisms]]
 
+[[!redirects Frobenius automorphism]]
+[[!redirects Frobenius automorphisms]]
+
 [[!redirects Frobenius map]]
 [[!redirects Frobenius maps]]
