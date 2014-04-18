@@ -12,7 +12,7 @@ $$
   \,,
 $$
 
-because all the non-trivial [[binomial coefficients]] are multiples of $p$-
+because all the non-trivial [[binomial theorem|binomial coefficients]] are multiples of $p$. 
 
 ## References
 
