@@ -168,7 +168,7 @@ Examples from algebraic geometry are given here:
 
 * Mitya Boyarchenko and Vladimir Drinfeld, A duality formalism in the spirit of Grothendieck and Verdier, arXiv:1108.6020 ([pdf](http://arxiv.org/pdf/1108.6020v2.pdf))
 
-These authors call $*$-autonomous categories "Grothendieck-Verdier categories".
+These authors call any closed monoidal category with a [[dualizing object in a closed category|dualizing object]] a **Grothendieck-Verdier category**, thanks to the examples coming from [[Verdier duality]].
 
 A description of $*$-autonomous categories in terms of Frobenius pseudomonads is given here:
 
