@@ -1,4 +1,6 @@
-Fermat's curve is a projective algebraic curve over a ground field $k$ given by the Fermat equation $x^n + y^n = z^n$ where $n$ is a positive integer greater or equal $2$. Fermat's last theorem is the theorem, by Andrew Wiles with aid of Richard Taylor, that for $n\gt 2$ this equation has no solutions in rationals (or, equivalently, has no solutions in integers). In other words, the Fermat's curve has no $\mathbf{Q}$-rational points. 
+Fermat's curve is a projective algebraic curve over a ground field $k$ given by the Fermat equation $x^n + y^n = z^n$ where $n$ is a positive integer greater or equal $2$. Fermat's last theorem is the theorem, by Andrew Wiles with aid of Richard Taylor, that for $n\gt 2$ this equation has no solutions in rationals (or, equivalently, has no solutions in integers). In other words, the Fermat's curve has no $\mathbf{Q}$-[[rational points]]. 
+
+## References
 
 * wikipedia: [Fermat curve](http://en.wikipedia.org/wiki/Fermat_curve), [Fermat's last theorem](http://en.wikipedia.org/wiki/Fermat%27s_last_theorem)
 * [[eom]]: [Fermat's last theorem](http://www.encyclopediaofmath.org/index.php?title=p/f110070)
