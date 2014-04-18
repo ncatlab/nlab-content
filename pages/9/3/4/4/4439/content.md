@@ -82,7 +82,7 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 * [[Clifford Johnson]], _D-Brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
 
-
+* [[Michael Douglas]], [[Elias Kiritsis]] et. al. (eds.), _[[String theory and the real world]]_, Les Houches  Session LXXXVII 2007
 
 ## Popular level books and string propaganda
 
