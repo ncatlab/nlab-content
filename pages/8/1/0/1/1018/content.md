@@ -33,11 +33,11 @@ FX&\stackrel{Ff}{\rightarrow}&FY&&FX&\stackrel{Ff}{\rightarrow}&FY&&FX&\stackrel
 \alpha_X\downarrow&&\alpha_Y\downarrow&&
 \alpha_X\downarrow&&\alpha_Y\downarrow
 \\GX&\stackrel{Gf}{\rightarrow}&GY&&GX&\stackrel{Gf}{\leftarrow}&GY&&GX&\stackrel{Gf}{\rightarrow}&GY&&GX&\stackrel{Gf}{\leftarrow}&GY
-}
-
+}$$
 It is clear that (vertical) composition of $2$-morphisms makes sense, and that furthermore natural transformations between functors of different variance should be graded _odd_, while natural transformation between functors of the same variance should be graded _even_.
 
-4. It is less clear that (but true!) that [[horizontal composition]] and [[whiskering]] also make sense. We thus have a (strict) $2$-category, although the actions of whiskering by an odd functor (or more generally of horizontally composing with an odd natural transformation) act _contravariantly_ on vertical composition, so perhaps this is a slightly more general notion of a $2$-category.
+4. It is less clear that (but true!) that [[horizontal composition]] and [[whiskering]] also make sense. We thus have almost (strict) $2$-category, if it were not for the fact that the actions of whiskering by an odd functor act _contravariantly_ on vertical composition (so horizontal composition itself does not behave as usual), so perhaps this is a slightly more general notion of a $2$-category.
+
 +-- {: .query}
 What kind of notion of $2$-category is this? I've been using the phrase $\mathbb{Z}/2$-graded $2$-category, but this structure is not exactly a $2$-category because of the allowed contravariance in the whiskering/horiztonal composition. 
 --Vladimir_Sotirov
@@ -48,7 +48,7 @@ In this context, the structure of the $\cdot^{op}$ operation becomes interesting
 ##$2$-Categorical contravariance
 As mentioned in [[opposite 2-category]], a $2$-category can have three different duals, depending on whether we formally flip only the $1$-morphisms, only the $2$-morphisms, or both. From the perspective in this article, however, it is better to say that $2$-functors have three different kinds of contravariance (hence there are four kinds of $2$-functors). Consequently, there should be two  $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-categories (or maybe slightly more general structures since again how horizontal composition distributes over vertical composition will depend on the associated variances: 
 
-1. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations]]. Instead of giving each commutativity condition for the sixteen kinds of lax natural transformations, let us write down the one that a [[category of V-enriched categories]] comes equipped with: a lax natural transformation $F\stackrel{\alpha}\Rrightarrow G\colon**C**\to**D**$, where $F$ is a $2$-functor flipping $2$-morphisms, and $G$ is $2$-functor flipping $1$-morphisms, consists of an $\ob(\mathbf{C})$-indexed family of $1$-morphisms $FX\stackrel{\alpha_X}{\to} GX$ in **D**, and for each two objects $X,Y$ of **C**, an $\ob[X,Y]$-indexed family of $2$-morphisms $\alpha_f$, so that for every $2$-morphism $f\stackrel{\gamma}{\Rightarrow} g$, we have the commutative diagram of $2$-moprhisms in **D**:
+1. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations]]. Instead of giving each commutativity condition for the sixteen kinds of lax natural transformations, let us write down the one that a [[category of V-enriched categories]] comes equipped with: a lax natural transformation $F\stackrel{\alpha}\Rrightarrow G\colon$**C**$\to$**D**, where $F$ is a $2$-functor flipping $2$-morphisms, and $G$ is $2$-functor flipping $1$-morphisms, consists of an $\ob(\mathbf{C})$-indexed family of $1$-morphisms $FX\stackrel{\alpha_X}{\to} GX$ in **D**, and for each two objects $X,Y$ of **C**, an $\ob[X,Y]$-indexed family of $2$-morphisms $\alpha_f$, so that for every $2$-morphism $f\stackrel{\gamma}{\Rightarrow} g$, we have the commutative diagram of $2$-moprhisms in **D**:
 $$
 \array{
 &&FX&\stackrel{Ff}{\rightarrow}&FY\\
@@ -56,13 +56,12 @@ $$
 &&GX&\stackrel{Gf}{\leftarrow}&GY&&\downarrow Ff\\
 FX&\stackrel{id}{\neArrow}&&&& \stackrel{G\gamma.(\alpha_Y\circ Ff)}{\seArrow}&FY\\
 \alpha_X\downarrow&&&&&&\downarrow\alpha_Y\\
-FY&\stackrel{id}{\seArrow}&&&& \stackrel{(Gg\circ\alpha_Y).F\gamma}{\neArrow}&GY\\
+FY&\stackrel{id}{\seArrow}&&&&\stackrel{(Gg\circ\alpha_Y).F\gamma}{\neArrow}&GY\\
 &&FX&\stackrel{Fg}{\rightarrow}&FY&&\downarrow Gg\\
 &&\alpha_X\downarrow&\stackrel{\alpha_g}{\Rightarrow}&\downarrow\alpha_Y&&GX\\
 &&GX&\stackrel{Gg}{\leftarrow}&GY
-}
-$$ (where . is whiskering/horizontal composition)
-
+}$$
+(where . is whiskering/horizontal composition)
 
 2. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations|oplax natural transformations]].
 
