@@ -28,7 +28,7 @@
 The [[profinite completion of a group|profinite completion]] of the [[integers]] is
 
 $$
-  \widehat {\mathbb{Z}} 
+  \widehat{\mathbb{Z}} 
     \coloneqq 
   \underset{\leftarrow}{\lim}_{n \in \mathbb{N}} (\mathbb{Z}/n\mathbb{Z})
   \,.
@@ -51,5 +51,7 @@ $$
 
 ## References
 
+* {#Lenstra} [[Hendrik Lenstra]], example 2.2 in _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
+ 
 * Groupprops, _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
