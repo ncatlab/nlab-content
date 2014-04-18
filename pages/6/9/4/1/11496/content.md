@@ -101,7 +101,7 @@ $$
 
 ### Over general base rings
 
-* {#Greicius09} Aaron Greicius, _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+* {#Greicius09} [[Aaron Greicius]], _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
 
 
 * David Zywina, _Elliptic curves with maximal Galois action on their torsion points_ ([arXiv:0809.3482](http://arxiv.org/abs/0809.3482))
