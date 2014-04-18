@@ -38,7 +38,11 @@ The term _S-duality_ can mean two different things:
 
 ## Idea
 
-In the restricted sense, _S-duality_ refers to a conjecture auto-[[equivalence]] of [[Yang-Mills theory]] in 4 dimensions under which the [[coupling constant]] is inverted. At least for [[super Yang-Mills theory]] this conjecture can be argued for in detail. Moreover, here it is a special case of a [[duality in string theory]] also called S-duality.
+In the original and restricted sense, _S-duality_ refers to the conjectured [[Montonen-Olive duality|Montonen-Olve]] auto-[[equivalence]] of ([[super Yang-Mills theory|super]]) [[Yang-Mills theory]] in 4 dimensions under which the [[coupling constant]] is inverted, and more generally under which the combined [[coupling constant]] and [[theta angle]] tranform under an action of the [[modular group]]. At least for [[super Yang-Mills theory]] this conjecture can be argued for in detail. 
+
+There is also a [[duality in string theory]] called _S-duality_. Specifically in [[type IIB superstring theory]]/[[F-theory]] this is given by an action of the [[modular group]] on the [[axio-dilaton]], hence is, via the proportionality of the dilatorn to the string coupling constant, again a weak-strong coupling duality.
+
+Indeed, at least for [[super Yang-Mills theory]] Montonen-Olive S-duality may be understood as a special case of the [[duality in string theory|string duality]] ([Witten 95a](#Witten95a), [Witten 95b](#Witten95b)): one may understand [[N=2 D=4 super Yang-Mills theory]] as the [[KK-compactification]] of the [[M5-brane]] [[6d (2,0)-superconformal QFT]] on the [[F-theory]] torus ([Johnson 97](#Johnson97)) to get the [[D3-brane]] worldvolume theory, and the remnant [[modular group]] action on the compactified torus is supposed to be the 4d Montonen-Olive S-duality ([Witten 07](#Witten07)).
 
 ### In (super) Yang-Mills theory
 
@@ -162,15 +166,16 @@ This indicates that it is sensible to identify the strong coupling limit of the 
 
 The geometric understanding of S-duality in [[type II superstring theory]] via [[M-theory]]/[[F-theory]] goes back to
 
+
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
-The understanding of Montonen-Olive duality as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
+The understanding of [[Montonen-Olive duality]] as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
 
-* [[Edward Witten]], 
+* {#Witten95a} [[Edward Witten]], pages 4-5 of _Some Comments On String Dynamics_, Proceedings of _String95_ ([arXiv:hepth/9507121](http://arxiv.org/abs/hepth/9507121))
 
-  _On S-Duality in Abelian Gauge Theory_ ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
+* {#Witten95b} [[Edward Witten]], _On S-Duality in Abelian Gauge Theory_ ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
 
-  _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+* {#Witten07} [[Edward Witten]],_Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
