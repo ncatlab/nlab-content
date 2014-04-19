@@ -84,11 +84,10 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
   $$
     |\mathbf{B}^n A| = 
-    \left\{
-     \array{ k & if n is \; even
-          \\ \frac{1}{k} & if n is \; odd
-       }
-    \right.
+    \begin{cases}
+       k           & \text{if }\; n \;\text{ is even} \\
+       \frac{1}{k} & \text{if }\; n \;\text{ is odd}
+    \end{cases}
   $$
 
 * Let $E = core(FinSet)$ be the groupoid of finite sets and bijections -- the [[core]] of [[FinSet]]. Its groupoid cardinality is the [[Euler number]]
