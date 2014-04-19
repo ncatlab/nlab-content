@@ -16,7 +16,7 @@ because all the non-trivial [[binomial theorem|binomial coefficients]] are multi
 
 ## Primality 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #primality} 
 ###### Lemma 
 An integer $n \geq 2$ is prime if and only if the binomial coefficients satisfy 
 
