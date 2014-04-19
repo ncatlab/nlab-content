@@ -38,7 +38,7 @@ is open.
 
 ## References
 
-* related ideas include [[pseudocompact ring]], [[Gabriel filter]], [[topologizing subcategory]]
+* related ideas include [[pseudocompact ring]], [[Gabriel filter]], [[topologizing subcategory]], [[Gabriel-Oberst duality]]
 
 *  [[Pierre Gabriel]],  __Des cat&#233;gories ab&#233;liennes__, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
