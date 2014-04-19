@@ -9,7 +9,7 @@ In Gabriel's thesis
 the dual of any locally finite Grothendieck category has been found. Roos has
 generalized this to locally noetherian Grothendieck categories in
 
-* J. E. Roos, _Locally noetherian categories and generalized strictly linearly compact rings. Applications._, in: Cat. theory homology theory and their appl., "Battelle Institute Conference 1968", vol. 2, Springer 1969, pp. 197-227
+* [[Jan Erik Roos|J. E. Roos]], _Locally noetherian categories and generalized strictly linearly compact rings. Applications._, in: Cat. theory homology theory and their appl., "Battelle Institute Conference 1968", vol. 2, Springer 1969, pp. 197-227
 
 The case of (dual of) a general Grothendieck category is found in
 
