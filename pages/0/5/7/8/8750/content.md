@@ -46,26 +46,29 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 
 ## Structure of the category of $\mathcal{V}$-enriched categories for various contexts
 
-* If $\mathcal{V}$ is a category $V_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and an association sending every $1$-morphism $\mathcal{A}\stackrel{F}{\to}\mathcal{B}$ to the a $1$-morphism in the lax [[slice 2-category]] $\mathbf{Cat}//V_0$:
-$$ \array{   [\mathcal{I},\mathcal{A}]^{op}\times[\mathcal{I},\mathcal{A}]&\stackrel{[\mathcal{I},F]^{op}\times[\mathcal{I},F]}{\to}&[\mathcal{I},\mathcal{B}]^{op}\times[\mathcal{I},\mathcal{B}]\\
-\mathcal{A}(-,-)\searrow&\bar{F}\neArrow&\swarrow\mathcal{B}(-,-)\\
-&V_0
+* If $\mathcal{V}$ is a category $\mathcal{V}_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and a designated lax natural transformation $[\mathcal{I},-]^{op}\stackrel{{}^-_0L}{\Rightarrow}[[\mathcal{I},-],\mathcal{V}_0]\colon\mathcal{V}$Cat$\to$Cat, where the former is a $2$-functor flipping $2$-morphisms, and the latter is a $2$-functor flipping $1$-morphisms (c.f. [[contravariant functor]]). For the sake of simplicity, we note that $[\mathcal{I},-]$ is simply the forgetful $2$-functor from $\mathcal{V}$Cat to Cat, and hence abbreviate it as $(-)_0$. Then the above lax natural transformation is given by the following data:
+
+1. For every object (i.e. $\mathcal{V}$-enriched category) $\mathcal{A}$ of $\mathcal{V}$Cat, we have to give a functor $\mathcal{A}_0^{op}\stackrel{{}^{\mathcal{A}}_0L}{\rightarrow}[\mathcal{A}_0,\mathcal{V}_0]$. By the cartesian closed structure of the $1$-category Cat, we define these to be the hom-functors $\mathcal{A}_0^{op}\times\mathcal{A}\stackrel{\mathcal{A}(-,-)}{\rightarrow}\mathcal{V}_0$ which are defined in terms of the monoidal structure $\mathcal{V}$ and the $\mathcal{V}$-enrichment data of $\mathcal{A}$ by setting $\mathcal{A}(B,C)\stackrel{\mathcal{A}(f,g)}{\rightarrow}\mathcal{A}(A,D)$ to be the composites $\mathcal{A}(B,C)\stackrel{l^{-1}r^{-1}}{\to}I\otimes\mathcal{A}(B,C)\otimes I\stackrel{f\otimes id\otimes g}{\to}\mathcal{A}(C,D)\otimes\mathcal{A}(B,C)\otimes\mathcal{A}(A,B)\stackrel{(\circ^{\mathcal{A}})^2}{\to}\mathcal{A}(A,D)$ in $\mathcal{V}_0$.
+
+2. For every $1$-morphism (i.e. $\mathcal{V}$-enriched functor}) $\mathcal{A}\stackrel{F}{\rightarrow}\mathcal{B}$, we have to give a natural transformation ${}^F_0L$:
+$$
+\array{
+\mathcal{A}_0^{op}&\stackrel{F_0^{op}}{\rightarrow}&\mathcal{B}_0^{op}\\
+{}_0^{\mathcal{A}}L\downarrow&\stackrel{{}^F_0L}{\Rightarrow}&\downarrow{}^{\mathcal{B}}L\\
+[\mathcal{A}_0,\mathcal{V}_0]&\stackrel{[F_0,\mathcal{V}_0]}{\leftarrow}&[\mathcal{B}_0,\mathcal{V}_0]
 }$$
-where
+Since we have defined ${}_0^{\mathcal{A}}L$ to be the hom-functor $\mathcal{A}(-,-)$, to give a natural transformation ${}^F_0L$ is to give a natural transformation $\mathcal{A}(-,-)\Rightarrow\mathcal{B}(F_0^{op}-,F_0-)\colon\mathcal{A}_0^{op}\times\mathcal{A}\to\mathcal{V}_0$. We thus define the $ob(\mathcal{A}_0)$-indexed family of morphisms $\mathcal{A}(A,B)\stackrel{{}_0^FL_{A,B}}{\rightarrow}\mathcal{B}(F_0A,F_0B)$ in $\mathcal{V}_0$ to be simply the family of morphisms $\mathcal{A}(A,B)\stackrel{F_{A,B}}{\rightarrow}\mathcal{B}(F_0A,F_0B)$ in $\mathcal{V}_0$ defining the $\mathcal{V}$-enriched functor $\mathcal{A}\stackrel{F}{\rightarrow}\mathcal{B}$.
 
-1. $[\mathcal{I},\mathcal{A}]$ is really just the underlying category with hom-collections given by $A_0(A,B)=V_0(I,\mathcal{A}(A,B))$.
+3. The lax naturality of ${}^-_0L$ says that for every $2$-morphism (i.e. a $\mathcal{V}$-enriched natural transformation) $F\stackrel{\alpha}{\Rightarrow} G\colon\mathcal{A}\to\mathcal{B}$ in $\mathcal{V}$Cat, the natural transformations ${}_0^{\mathcal{A}}L\stackrel{{}^F_0L}{\Rightarrow}[F_0,\mathcal{V}_0]\circ{}_0^{\mathcal{B}}L\circ F_0^{op}$ and ${}_0^{\mathcal{A}}L\stackrel{{}^G_0L}{\Rightarrow}[G_0,\mathcal{V}_0]\circ{}_0^{\mathcal{B}}L\circ G_0$ have to satisfy a compatibility condition with the natural transformations $G_0^{op}\stackrel{\alpha_0^{op}}{\Rightarrow}F_0^{op}$ and $[F_0,\mathcal{V}_0]\stackrel{[\alpha_0,\mathcal{V}_0]}{\Rightarrow}[G_0,\mathcal{V}_0]$. Explicitly, the condition is that the composite natural transformation ${}_0^{\mathcal{A}}L\stackrel{{}^F_0L}{\Rightarrow}[F_0,\mathcal{V}_0]\circ{}^{\mathcal{B}}_0L\circ F_0^{op}\stackrel{[\alpha_0,\mathcal{V}_0].({}^{\mathcal{B}}_0L\circ F_0)}{\Rightarrow}[G_0,V_0]\circ{}^{\mathcal{B}}_0L\circ F_0^{op}\colon\mathcal{A}_0^{op}\to[\mathcal{A}_0,\mathcal{V}_0]$ is the same as the composite natural transformation ${}_0^{\mathcal{A}}L\stackrel{{}^G_0L}{\Rightarrow}[G_0,\mathcal{V}_0]\circ{}^{\mathcal{B}}_0L\circ G_0^{op}\stackrel{([G_0,\mathcal{V}_0]\circ{}^{\mathcal{B}}_0L).\alpha_0^{op}}{\Rightarrow}[G_0,V_0]\circ{}^{\mathcal{B}}_0L\circ F_0^{op}\colon\mathcal{A}_0^{op}\to[\mathcal{A}_0,\mathcal{V}_0]$. Unraveling the condition leaves us with the requirement that for every pair of objects $A,B$ of $\mathcal{A}_0$ the following diagram in $\mathcal{V}_0$ must commute:
+$$
+\array{
+\mathcal{A}(A,B)&\stackrel{F_{A,B}}{\rightarrow}&\mathcal{B}(F_0A,F_0B)\\
+G_{A,B}\downarrow&&\downarrow\mathcal{B}(F_0A,(\alpha_0)_{B})\\
+\mathcal{B}(G_0A,G_0B)&\stackrel{\mathcal{B}((\alpha_0)_A,G_0B)}{\rightarrow}&\mathcal{B}(F_0A,G_0B)
+}$$ 
+But a $\mathcal{V}$-enriched natural transformation $\alpha$ is by definition a collection of morphisms $\alpha_0$ in $\mathcal{B}_0$ such that the above diagram commutes.
 
-2. $\mathcal{A}(-,-)$ is the fully faithful two-variable hom-functor from $A_0^{op}\times A_0\to V_0$, with $\mathcal{A}(f,g)$ defined as the composite $\mathcal{A}(B,C)\stackrel{l^{-1}r^{-1}}{\to}I\otimes\mathcal{A}(B,C)\otimes I\stackrel{f\otimes id\otimes g}{\to}\mathcal{A}(C,D)\otimes\mathcal{A}(B,C)\otimes\mathcal{A}(A,B)\stackrel{(\circ^{\mathcal{A}})^2}{\to}\mathcal{A}(A,D)$ in $V_0$
-
-3. $[\mathcal{I},F]$ is the functor $F_0$ from $A_0$ to $B_0$ underlying the enriched functor $F$. This is defined by letting $F_0f$ be the composite $I\stackrel{f}{\to}\mathcal{A}(A,B)\stackrel{F_{A,B}}{\to}\mathcal{B}(FA,FB)$ where $F_{A,B}$ is the family of morphisms in $V_0$ defining the enriched functor $F$.
-
-4. The natural transformation $\bar F\colon\cat A(-,-)\to\cat B(F_0-,F_0-)$ has for its components exactly the maps $F_{A,B}$ above: i.e. $\bar F_{A,B}=F_{A,B}$.
-
-5. In particular, we recover $j_A\colon I\to\mathcal{A}(A,A)$ as $\bar{A}$ when we consider $A$ an enriched functor of $[\mathcal{I},\mathcal{A}]$. The unit identities $F_{A,A}\circ j_A=j_{FA}$ then hold automatically.
-
-This is in fact a $1$-functor from $\mathcal{V}$Cat to $\mathbf{Cat}//V_0$. It is not a $2$-functor since if $\alpha$ is an enriched natural transformations from an enriched functor $F$ to an enriched functor $G$, then $\alpha_0$, the underlying natural transformation from $F_0$ to $G_0$ satisfies $\mathcal{B}(id,\alpha_0)\bar F=\mathcal{B}(\alpha_0,id)\bar G$ instead of $\mathcal{B}(\alpha_0^{op},\alpha_0)\circ\bar F=\bar G$ that the definition of $\mathbf{Cat}//V_0$ requires. Nevertheless, if we do define the codomain of the association to have only the objects and $1$-morphisms as in the above triangles, and define $2$-morphisms to satisfy the correct naturality condition (rather than the lax slice 2-category condition), then we still have a $2$-category and the association is a $2$-functor that is fully faithful on $2$-morphisms, and faithful on $1$-morphisms.
-
-Two remarks are in order. First, something is deeply wrong here since this $2$-category we have had to define arises out of the desire to make things easy and understandable, as opposed to natural. Second, the failure of the association to be faithful on $1$-morphisms means that  an enrichment of a functor $F_0\colon A_0\to B_0$ consists of more than just giving a natural transformation from $\mathcal{A}(-,-)$ to $\mathcal{B}(F_0-,F_0-)$. But more significantly, this seems to suggest that the monoidal structure on $V_0$ is not captured by any structure on the $2$-category $\mathcal{V}$Cat. This state of affairs is remedied in any closed category context.
+* Supposing that $\mathcal{V}_0$ was a self-enriched category, i.e. isomorphic to the underlying category $\mathcal{V}^e_0$ of a $\mathcal{V}$-enriched category $\mathcal{V}^e$, then it is natural to require that the above lax natural transformation $[\mathcal{I},-]\stackrel{{}^-_0L}{\Rightarrow}[(-)_0,\mathcal{V}_0]$ is in fact the whiskering of a lax natural transformation $[\mathcal{I},-]\stackrel{{}^-L}{\Rightarrow}[-,\mathcal{V}^e]$ with the forgetful $2$-functor $(-)_0=[\mathcal{I},-]$. Such a lax natural transformation should give us most (if not all) of the closed structure on $\mathcal{V}^e_0\cong\mathcal{V}_0$...
 
 ...
 
