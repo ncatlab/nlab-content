@@ -338,8 +338,3 @@ Discussion of differential forms as functions on infinitesimal simplices is in
  {#Stel13}
 
 [[!include infinitesimal and local - table]]
-
-
-[[!redirects differentiation]]
-[[!redirects derivative]]
-[[!redirects derivatives]]
