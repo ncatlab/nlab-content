@@ -170,12 +170,11 @@ Examples from algebraic geometry are given here:
 
 These authors call any closed monoidal category with a [[dualizing object in a closed category|dualizing object]] a **Grothendieck-Verdier category**, thanks to the examples coming from [[Verdier duality]].
 
-A description of $*$-autonomous categories in terms of Frobenius pseudomonads is given here:
+Here it is explained how $*$-autonomous categories give Frobenius pseudomonads in the 2-category where morphisms are [[profunctors]]:
 
 *  Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45 (2004) 3930-3948. ([pdf](http://www.math.mq.edu.au/~street/Frob.pdf))
 
 [[!redirects star-autonomous categories]]
-
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
 
