@@ -91,9 +91,36 @@ Let $S : A \rightleftarrows C : T$ be an [[adjunction]], and assume that $A$ is 
 ###### Proof
 First of all, since $M_S$ belongs to a prefactorization system, it is closed under composites, pullbacks, and any intersections which exist.  Therefore, if we define $M' \coloneqq M \cap M_S$, then $M'$ satisfies the hypotheses of Theorem \ref{ConstructingOFS}, and so we have an OFS $(E',M')$.
 
-Now suppose given $f\colon A\to B$; we want to construct an $(E_S,M_S)$-factorization.  Let $v$ be the pullback of $T S f$ along the [[unit of an adjunction|unit]] $\eta_B \colon B \to T S B$.  The naturality square for $\eta$ at $f$ shows that $f$ factors through $v$, say $f = v w$.  Since $T S f$ is evidently in $M_S$, so is $v$; thus it suffices to find an $(E_S,M_S)$-factorization of $w$.
+Moreover, it is useful to notice that $E_S=$: this is an easy consequence of the fact that if $S\dashv T$, then $S a\perp b\iff a\perp T b$, since $f\perp T u\iff S f\perp u$ for each $u\in\hom(C)$, so that $S f $ is an isomorphism.
 
-Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, it suffices to show that $g\in E_S$.  Note also that since $w$ is a first factor of the unit $\eta_A$, by passing to adjuncts we find that $S w$ is [[split monic]]; hence so also is $S g$.  But $T S g$ is then also split monic, hence belongs to $M$ and thus also to $M'$.  Therefore, since $g\in E'$, the naturality square for $\eta$ at $g$ contains a lift.  Passing to adjuncts again, we find that $S g$ is also [[split epic]], hence an isomorphism; thus $g\in E_S$ as desired.
+Now suppose given $f\colon A\to B$; we want to construct an $(E_S,M_S)$-factorization.  Let $v$ be the pullback of $T S f$ along the [[unit of an adjunction|unit]] $\eta_B \colon B \to T S B$.  The naturality square for $\eta$ at $f$ shows that $f$ factors through $v$, say $f = v w$.
+$$\begin{array}{ccccc}
+A & \\
+ &\overset{w}\searrow\\
+ && P &\overset{u}\to& T S A \\
+ && {}^v\downarrow  && \downarrow^{T S f}\\
+ && B &\underset{\eta_B}\to& T S B
+\end{array}
+$$ 
+Since $T S f$ is evidently in $M_S=({}^\perp T(\hom(C)))^\perp\supseteq T(\hom (C))$, so is $v$; thus it suffices to find an $(E_S,M_S)$-factorization of $w$.
+
+Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, it suffices to show that $g\in E_S$.  Note also that since $w$ is a first factor of the unit $\eta_A$, by passing to adjuncts we find that $S w$ is [[split monic]]: in the former diagram we have $u w=\eta_A$, so that the adjunct $\epsilon_{S A} \cdot S u\cdot  S n\cdot  S g=1$, hence also $S g$ is a split monic.  But $T S g$ is then also split monic, hence belongs to $M$ and thus also to $M'$ (since it obviously belong to $M_S=({}^\perp T(\hom(C)))^\perp\supseteq T(\hom (C))$).  Therefore, since $g\in E'$, the naturality square for $\eta$ at $g$ contains a lift: there is an $\alpha\colon X\to T S A$ such that in the diagram
+$$\begin{array}{ccc}
+A & \overset{\eta_A}\to & T S A \\
+{}^g\downarrow && \downarrow^{T S g} \\
+X &\overset{\eta_X}\to& T S X 
+\end{array}$$
+$\alpha\cdot g=\eta_A$ and $T S g \cdot \alpha=\eta_X$. Passing to adjuncts again, we find that $S g$ is also [[split epic]], since we can consider the diagram
+$$\begin{array}{ccccc}
+S A & \overset{S\eta_A}\longrightarrow & S T S A &\overset{\epsilon_{S A}}\longrightarrow & S A\\
+{}^{S g}\downarrow && \phantom{aaa}\downarrow_{S T S g} &&\downarrow^{S g}\\
+S X &\underset{S\eta_X}\longrightarrow & S T S X &\underset{\epsilon_{S X}}\longrightarrow & S X
+\end{array}$$
+and the commutativity
+$$
+S g \cdot \epsilon_{S A} \cdot S\alpha = \epsilon_{S X} \cdot  S T S g \cdot S\alpha = \epsilon_{S X}\cdot S\eta_X = 1
+$$
+Hence $S g$ is an isomorphism; thus $g\in E_S$ as desired.
 =--
 
 This is useful in the construction of [[reflective factorization systems]].
