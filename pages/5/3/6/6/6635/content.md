@@ -91,7 +91,7 @@ Let $S : A \rightleftarrows C : T$ be an [[adjunction]], and assume that $A$ is 
 ###### Proof
 First of all, since $M_S$ belongs to a prefactorization system, it is closed under composites, pullbacks, and any intersections which exist.  Therefore, if we define $M' \coloneqq M \cap M_S$, then $M'$ satisfies the hypotheses of Theorem \ref{ConstructingOFS}, and so we have an OFS $(E',M')$.
 
-Moreover, it is useful to notice that $E_S=$: this is an easy consequence of the fact that if $S\dashv T$, then $S a\perp b\iff a\perp T b$, since $f\perp T u\iff S f\perp u$ for each $u\in\hom(C)$, so that $S f $ is an isomorphism.
+Moreover, it is useful to notice that $E_S={}^\perp T(\hom(C))$: this is an easy consequence of the fact that if $S\dashv T$, then $S a\perp b\iff a\perp T b$, since $f\perp T u\iff S f\perp u$ for each $u\in\hom(C)$, so that $S f $ is an isomorphism.
 
 Now suppose given $f\colon A\to B$; we want to construct an $(E_S,M_S)$-factorization.  Let $v$ be the pullback of $T S f$ along the [[unit of an adjunction|unit]] $\eta_B \colon B \to T S B$.  The naturality square for $\eta$ at $f$ shows that $f$ factors through $v$, say $f = v w$.
 $$\begin{array}{ccccc}
