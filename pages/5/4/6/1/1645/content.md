@@ -86,7 +86,7 @@ $$
 
 for the BV-action functional, both as given by [[BRST-BV formalism]].
 
-If the action functional is local (comes from a [[Lagrangian]] on [[jet space]]) the [[covariant phase space]] $P$ a priori only carries a [[presymplectic structure]]. But by BV-theory there exists an equivalent (homotopical) derived action functional $S_\Psi^{BV} : P \to \mathbb{R}$ such that $S_\Psi^{BV}$ does induce a genuine [[symplectic structure]] on the [[derived geometry|derived]] space $P$.
+If the action functional is local (comes from a [[Lagrangian]] on a [[jet bundle]]) the [[covariant phase space]] $P$ a priori only carries a [[presymplectic structure]]. But by BV-theory there exists an equivalent (homotopical) derived action functional $S_\Psi^{BV} : P \to \mathbb{R}$ such that $S_\Psi^{BV}$ does induce a genuine [[symplectic structure]] on the [[derived geometry|derived]] space $P$.
 
 For ordinary [[Poisson manifold]]s and hence [[symplectic manifold]]s [[Maxim Kontsevich]]'s theorem says that their [[deformation quantization]] always exist. But if $S$ is the [[action functional]] of a [[gauge theory]] then $P$ is in general a nontrivial derived [[infinity-Lie algebroid]] (its function algebra has "ghosts" and "ghosts of ghost": the [[Chevalley-Eilenberg algebra]] generators) and the theorem does not apply. Instead, the quantization of the derived symplectic space $P$ exists only if the first and second [[infinity-Lie algebroid cohomology]] of $P$ vanishes:
 
