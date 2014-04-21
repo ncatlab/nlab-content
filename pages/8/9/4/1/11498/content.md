@@ -13,7 +13,7 @@ $$
   p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/n\mathbb{Z})
 $$
 
-for the [[projection]] from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group]].
+for the [[projection]] from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group|cyclic ring]].
 
 The _mod-$n$ congruence subgroups_ of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are the [[preimages]] under $p_n$ of [[subgroups]] of $SL_2(\mathbb{Z}/n\mathbb{Z})$.
 
