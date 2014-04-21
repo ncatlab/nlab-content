@@ -137,7 +137,7 @@ known as the **Atiyah sequence**.
 
 * Each [[Poisson manifold]] $(X,\pi)$ defines and is defined by a [[Poisson Lie algebroid]] $T^* X \stackrel{\pi}{\to} t X$. This is the degree-1 example of a more general structure described at [[n-symplectic manifold]].
 
-* If $E\to X$ is a Lie algebroid with bracket $[,]$ and anchor $\rho:E\to TX$ then it induces a Lie algebroid structure on the $k$-th [[jet space|jet]] bundle $j^k E\to X$, called the **jet Lie algebroid**. More precisely, if $s\in\Gamma_X E$ then call by $j^k s$ the induced section in $\Gamma_X j^k E$. Then there is a unique Lie algebroid structure on the bundle $j^k E\to X$ such that the following two properties hold: $[j^k s, j^k t] = j^k [s,t]$ and $\rho(j^k s) = \rho(s)$ for all $s,t\in\Gamma_X E$ (see [pdf](http://www.math.ist.utl.pt/~rfern/Meus-papers/HTML/jets.pdf)).
+* If $E\to X$ is a Lie algebroid with bracket $[,]$ and anchor $\rho:E\to TX$ then it induces a Lie algebroid structure on the $k$-th [[jet bundle|jet]] bundle $j^k E\to X$, called the **jet Lie algebroid**. More precisely, if $s\in\Gamma_X E$ then call by $j^k s$ the induced section in $\Gamma_X j^k E$. Then there is a unique Lie algebroid structure on the bundle $j^k E\to X$ such that the following two properties hold: $[j^k s, j^k t] = j^k [s,t]$ and $\rho(j^k s) = \rho(s)$ for all $s,t\in\Gamma_X E$ (see [pdf](http://www.math.ist.utl.pt/~rfern/Meus-papers/HTML/jets.pdf)).
 
 * A [[BRST complex]] is a [[Chevalley-Eilenberg algebra]] of a Lie algebroid which corresponds to the [[action groupoid]] of a Lie group acting on a space.
 
