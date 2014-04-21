@@ -272,6 +272,10 @@ The discrete quantum subgroups were discussed in
 
 which also introduced the term "U-duality".
 
+Review and further discusssion is in 
+
+* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
+
 A careful discussion of the topology of the U-duality groups is in 
 
 * [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_ ([arXiv:hep-th/0309106](http://arxiv.org/abs/hep-th/0309106))
@@ -352,4 +356,3 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
 
 [[!redirects super-gravity]]
 [[!redirects super-gravities]]
-
