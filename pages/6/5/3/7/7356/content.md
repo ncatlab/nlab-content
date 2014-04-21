@@ -79,9 +79,21 @@ An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory d
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
 
-### Relation to the heterotic string
+### Relation to heterotic string theory
 
-F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] compactified on a 2-[[torus]] (e.g. [Sen 96](#Sen96)).
+The [[duality between F-theory and heterotic string theory]]:
+
+F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
+
+More generally, heterotic string theory on an eliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
+
+A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
+
+### Model building and phenomenology
+
+For F-theory a fairly advanced model building and [[string phenomenology]] has been developed. A detailed review is in ([Denef 08](#Denef08)).
+
+See also at _[[flux compactification]]_ and _[[landscape of superstring vacua]]_.
 
 ## References
 
@@ -123,10 +135,18 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
+### Relation to the heterotic string
+
+* {#FriedmanMorganWitten97} Robert Friedman, [[John Morgan]], [[Edward Witten]], _Vector Bundles And F Theory_ ([arXiv:hep-th/9701162](http://arxiv.org/abs/hep-th/9701162))
+
+* {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
 
 ### Phenomenology and model building
 
 A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory.
+
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
+
 
 * Chris Beasley, Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
