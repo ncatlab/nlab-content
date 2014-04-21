@@ -28,7 +28,7 @@
 
 ## Idea
 
-The _Whitney $C^k$ topology_ is a [[topology]] on the set $C^\infty(X,Y)$ of [[smooth function]]s between two [[smooth manifold]]s, induced from the natural topology of the order-$k$ [[jet space]] of maps from $X$ to $Y$. 
+The _Whitney $C^k$ topology_ is a [[topology]] on the set $C^\infty(X,Y)$ of [[smooth function]]s between two [[smooth manifold]]s, induced from the natural topology of the order-$k$ [[jet spaces]] of maps from $X$ to $Y$. 
 
 Often, and espcially for $k = \infty$ this is just called the _$C^k$-topology_ .
 
