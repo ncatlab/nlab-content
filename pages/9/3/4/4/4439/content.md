@@ -21,6 +21,11 @@ This page lists literature on _[[string theory]]_.
 
 There is to date no textbook on string theory genuinely digestible by the standard pure mathematician. Even those that claim to be are not, as experience shows. But here are some books that make a strong effort to go beyond the vagueness of the "mainstream" books, which are listed further below.
 
+* {#Cheng13} Miranda Cheng, _Mathematical tools for string theorists_, lecture notes 2013 ([pdf](http://www.math.jussieu.fr/~chengm/lecture_notes/Thalys_School.pdf))
+
+  This is an elementary set of lecture notes introducing the required basics of [[differential geometry]] ending with [[2d CFT]], the [[Witten genus]] and [[orbifolds]].
+
+
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]] (eds).  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
   This is a long collection of (in parts) long lectures by many top string theorists and also by some genuine top mathematicians. Correspondingly it covers a lot of ground, while still being introductory. Especially towards the beginning there is a strong effort towards trying to formalize or at least systematize much of the standard lore. But one can see that eventually the task of doing that throughout had been overwhelming. Nevertheless, this is probably the best source that there is out there. If you only ever touch a single book on string theory, touch this one.
