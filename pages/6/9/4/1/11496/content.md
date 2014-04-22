@@ -60,7 +60,7 @@ $$
 
 ## Definition
 
-### Congruence groups
+### Congruence subgroups
 
 Let $n \in \mathbb{N}$ be a [[natural number]]. Write
 
@@ -93,11 +93,32 @@ $$
 
 (e.g [Hill-Lawson 13, section 3.6](#HillLawson13))
 
+
+## Properties
+
+### Relation to spin structures on elliptic curves
+ {#RelationToSpinStructures}
+
+For [[elliptic curves]] over the [[complex numbers]] ([[complex manifold|complex]] oriented pointed [[tori]]) the congruence subgroup $\Gamma_0(2)$ has the interpretation as being precisely the subgroup of the [[modular group]] which preserves one of the "NS-R" [[spin structures]].
+
+In detail, the elliptic curve $\Sigma$, being [[framed manifold|framed]] has a canonical [[spin structure]]  given by the trivial [[double cover]]. The space of all spin structures is a [[torsor]] over $H^1(\Sigma, \mathbb{Z}/2\mathbb{Z}) \simeq [\pi_1(\sigma), \mathbb{Z}/2\mathbb{Z}] \simeq [\mathbb{Z} \times \mathbb{Z}, \mathbb{Z}/2\mathbb{Z}] \simeq (\mathbb{Z}/2\mathbb{Z})^2$. In terms of this action the canonical one is labeled $(0,0)$ and then there are three more, labeled $(1,0)$, $(0,1)$ and $(1,1)$. The [[modular group]] acts on these via the quotient map $p_2 \;\colon\;  SL_2(\mathbb{Z}) \to SL_{2}(\mathbb{Z}/2\mathbb{Z})$. Hence it preserves $(0,0)$ and mixes the other three spin structures. Precisely $\Gamma_0(2)$ preserves $(1,0)$ (and an isomorphic subgroup of course preserves $(0,1)$). The principal congruence subgroup $\Gamma(2)$ is the one which preserves all four spin structures jointly.
+
+In terms of [[type II string theory]] the spin structure $(1,0)$ is called the "NS-R boundary condition" for the spinors. The [[partition function]] of the [[type II superstring]] "in the NS-R sector" is therefore (at best, indeed it is, being the universal Ochanine [[elliptic genus]]) a [[modular form]] not for the full [[modular group]], but for $\Gamma_0(2)$ ([Witten 87a, below (13)](Witten87a)). For more on this see at _[Witten genus -- Modularity -- For the type II string](Witten+genus#ModularityForTypeIISuperstring)_.
+
 ## References
 
 ### Over the complex numbers
 
+The principal congruence subgroups are discussed for instance in
+
 * {#Hain08} Richard Hain, section 4.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+The relation of $\Gamma_1(2)$ to [[spin structures]] is discussed for instance in 
+
+* {#Freed87} [[Daniel Freed]], pages 24-25 of _On determinant line bundles_, 1987 ([pdf](http://www.ma.utexas.edu/users/dafr/detsur.pdf))
+
+* {#Witten87a} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
+
 
 ### Over general base rings
 
@@ -143,6 +164,9 @@ $$
 
 [[!redirects elliptic curve with level-n structure]]
 [[!redirects elliptic curves with level-n structure]]
+
+[[!redirects elliptic curve with level structure]]
+[[!redirects elliptic curve with level structures]]
 
 [[!redirects elliptic curves with level structure]]
 [[!redirects elliptic curves with level structures]]
