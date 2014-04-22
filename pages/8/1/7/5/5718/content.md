@@ -31,17 +31,19 @@ Let
 
 * $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] 
 
-* equipped with [[infinitesimal cohesion]] 
+* equipped with [[differential cohesion]] 
 
   $$
     \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Pi_{inf}}{\leftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
   $$ 
 
+  with [[infinitesimal shape modality]] $\Pi_{inf}$
+
 * and equipped with an [[(∞,2)-sheaf]] 
 
   [[Mod]]  $ \colon \; \mathbf{H}^{op} \to $ [[Stab(∞,1)Cat]] 
 
-  of [[quasicoherent (∞,1)-sheaves]]s.
+  of [[quasicoherent (∞,1)-sheaves]].
 
 
 For $X \in \mathbf{H}$, write $\mathbf{\Pi}_{inf}(X)$ for the corresponding [[de Rham space]] object.
@@ -62,20 +64,20 @@ Write
 
 $$
   Jet 
-   :
-  \mathbf{H}/X 
+   \;\colon\;
+  \mathbf{H}_{/X}
    \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
-  \mathbf{H}_{\mathbf{\Pi}_{inf}}(X)
+  \mathbf{H}_{/\mathbf{\Pi}_{inf}}(X)
 $$
 
 for the corresponding [[base change geometric morphism]].
 
-Its [[direct image]] we call the _jet bundle [[(∞,1)-functor]]_ . 
+Its [[direct image]] may be called the _jet bundle [[(∞,1)-functor]]_ . Or rather, if one regards the jet bundle again as a bundle over $X$, then the jet construction is the [[(∞,1)-comonad]] $i^\ast i_\ast$.
 
 =--
 
-In the context of [[D-scheme]]s this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). See ([Paugam, section 2.3](#Paugam)) for a review.
-There this is expressed dually in terms of algebras in [[D-module]]s. We indicate how the translation works
+In the context of [[D-schemes]] this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). The abstract formulation as used here appears in ([Lurie, prop. 0.9](#Lurie)). See also ([Paugam, section 2.3](#Paugam)) for a review.
+There this is expressed dually in terms of algebras in [[D-modules]]. We indicate how the translation works
 
 +-- {: .num_remark}
 ###### Remark
@@ -162,7 +164,7 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
 
 The explicit description in terms of formal duals of [[commutative monoid]]s in [[D-module]]s is in
 
