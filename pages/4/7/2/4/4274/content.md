@@ -217,6 +217,13 @@ As highlighted in ([Cheung 10, p. 2](#Cheung10)), there is a [[resolution]]  by 
 The _[[Stolz conjecture]]_ due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its Witten genus vanishes.
 
 
+### Relation to BPS state counting on target space
+ {#RelationToBPSStateCounting}
+
+By [[supersymmetry]] and by the same argument that controls the expression of the [[index of a Dirac operator]] in terms of [[supersymmetric quantum mechanics]], the Witten genus may be thought of as counting those string states on which the left moving [[supercharge]] acts trivially. In terms of the [[target space]] theory these are the [[BPS states]]. (reviews include [Dijkgraaf 98](#Dijkgraaf98)).
+
+Therefore the Witten genus may also be used as a generating function for BPS state counting. As such it has for instance been used in the microscopic explanation of [[Bekenstein-Hawking entropy]] of [[black holes]], see at _[[black holes in string theory]]_.
+
 
 
 ## Related concepts
@@ -421,6 +428,12 @@ and with more emphasis on [[equivariant elliptic cohomology]] in
 An explicit computation for an [[E8]]-gauge bundle is in section 4 of 
 
 * {#Harris12} [[Chris Harris]], _The Index Bundle for a Family of Dirac-Ramond Operators_ ([arXiv:1202.2049](http://arxiv.org/abs/1202.2049))
+
+### Relation to BPS state counting on target space
+
+A survey of elliptic string genera with more context within [[string theory]] and in particular with discussion of the relation to [[BPS state]] counting is
+
+* {#Dijkgraaf98} [[Robbert Dijkgraaf]], _Fields, strings, matrices and symmetric products_, lecture notes 1998 ([pdf](http://www.cgtp.duke.edu/ITP99/dijkgraaf/sym.pdf))
 
 
 [[!redirects Witten genera]]
