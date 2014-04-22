@@ -4,7 +4,7 @@ Hofer's theory of _polyfolds_ may be viewed a certain kind of [[generalized smoo
 
 ####Reviews
 
-* Katrin Werheim's [quick introduction](http://math.mit.edu/~katrin/papers/slides_polyfolds.pdf).
+* Katrin Werheim's [quick introduction](http://math.mit.edu/~katrin/slides/slides_polyfolds.pdf).
 
 * Hofer's [lectures at Stanford on polyfolds](http://www.cims.nyu.edu/~hofer/stanford/lecture-1-5.pdf)
 (a  more complete version is [here](http://www.cims.nyu.edu/~hofer/stanford/lecture-1-6.pdf) but for the time being (?) it's password protected).
