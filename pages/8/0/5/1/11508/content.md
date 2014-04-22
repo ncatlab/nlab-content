@@ -52,6 +52,12 @@ Mathematically this is precisely what happens in the equivariant version of [[tm
 
 Physically such an effect seems not to have been discussed much, but at least the following is knonw: first of all, under [[S-duality]] the [[worldsheet]] theory of the [[type IIB superstring]] certainly is affected: the superstring here is generally a [[(p,q)-string]], being a [[bound state]] of $p$ actual fundamental strings ([[F1-branes]]) with $q$ [[D1-branes]], and the [[S-duality]] [[modular group]] $SL_2(\mathbb{Z})$ does act canonically on these pairs of [[integers]]. Now, that this operation has to be accompanied with a worldsheet [[conformal transformation]] as the above mathematical story would suggest has been highlighted for instance in ([Bandos 00](#Bandos00)).
 
+Generally, notice that the [[elliptic genus]] for [[type II superstrings]] lands in [[modular forms]] for the [[congruence subgroup]] $\Gamma_0(2) \hookrightarrow SL_2(\mathbb{Z})$ inside the full [[modular group]] (see at [Witten genus -- Modularity -- For type II superstring](Witten+genus#ModularityForTypeIISuperstring)), the subgroup which fixes one of the NS-R [[spin structures]]. Therefore if this [[elliptic genus]] does have a "topological" (homotopy theoretic) lift to [[elliptic cohomology]] (as is known for the [[heterotic string]] via the [[string orientation of tmf]]) then not to plain [[TMF]], but to $TMF_0(2) \simeq \Gamma(\mathcal{M}_{ell}(2)_0,\mathcal{O}^{top})$ (this is implified for instance in [Stojanoska 11, remark 6.2](#Stojanoska11)), where $\mathcal{M}_{ell}(2)_0$ is the moduli stack of [[elliptic curves with level structure]] for $\Gamma_0(2)$.
+
+
+
+ 
+
 ## Definition and construction
  {#Definition}
 
@@ -146,24 +152,24 @@ $$
   DMStack
 $$
 
-from the levelled orbit category of def. \ref{LevelledOrbitCategory} to the [[2-category]] of [[Deligne-Mumford stacks]],such that 
+from the levelled orbit category of def. \ref{LevelledOrbitCategory} to the [[2-category]] of [[Deligne-Mumford stacks]], such that 
 
 1.  $\mathcal{M}_{\overline{ell}}(1,1) \simeq \mathcal{M}_{\overline{ell}}$ is the standard compactified [[moduli stack of elliptic curves]] over $Spec(\mathbb{Z})$
 
 1. for each morphism $(n_1,\Gamma_1)\to (n_2,\Gamma_2)$ the induced morphism 
 
    $$
-     \mathcal{M}_{\overline{ell}}(n_2,\Gamma_2)\to \mathcal{M}_{\overline{ell}}(n_1,\Gamma_1)
+     \mathcal{M}_{\overline{ell}}(n_1,\Gamma_1)\to \mathcal{M}_{\overline{ell}}(n_2,\Gamma_2)
    $$ 
 
    is a [[log-etale morphism]] [[covering]];
 
-1. for each $n$ and each [[normal subgroup]] inclusion $K \hookrightarrow \Gamma \hookrightarrow GL_2(\,mathbb{Z}/n\mathbb{Z})$ the induced map exhibits the [[homotopy quotient]] [[projection]] by $\Gamma/K$
+1. for each $n$ and each [[normal subgroup]] inclusion $K \hookrightarrow \Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$ the induced map exhibits the [[homotopy quotient]] [[projection]] by $\Gamma/K$
 
    $$
-     \mathcal{M}_{\overline{ell}}(n,\Gamma)\to \mathcal{M}_{\overline{ell}}(n,K)
+     \mathcal{M}_{\overline{ell}}(n,K)\to \mathcal{M}_{\overline{ell}}(n,\Gamma)
      \simeq 
-     \mathcal{M}_{\overline{ell}}(n,\Gamma)//(\Gamma/K)
+     \mathcal{M}_{\overline{ell}}(n,K)//(\Gamma/K)
      \,.
    $$ 
 
@@ -193,17 +199,10 @@ which is such that
 
 1. the morphism induced by any morphism of the form $(n k ,P_k(\Gamma))\to (n,\Gamma)$ is $k$-[[localization of a spectrum|localization]];
 
-1. for any $n \in \mathbb{N}$ and every [[normal subgroup]]  $K \hookrightarrow \Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$, the induced morphism
+1. for any $n \in \mathbb{N}$ and every [[normal subgroup]]  $K \hookrightarrow \Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$, we have the $(\Gamma/K)$-[[homotopy fixed points]] of $Tmf(n,\Gamma)$ (induced by action of $\Gamma/K$ on $\mathcal{M}_{\overline{ell}}(\Gamma)$ given by prop. \ref{SystemOfModuliStacks}): 
 
    $$
-     Tmf(n,K) \longrightarrow Tmf(n,\Gamma) 
-   $$
-
-   exhibits the inclusion of the $(\Gamma/K)$-[[homotopy fixed points]] of $Tmf(n,\Gamma)$ (induced by action of $\Gamma/K$ on $\mathcal{M}_{\overline{ell}}(\Gamma)$ given by prop. \ref{SystemOfModuliStacks}): 
-
-   $$
-     Tmf(\Gamma)^{(\Gamma/K)} \simeq Tmf(n,\Gamma)^{\Gamma/K}
-     \,.
+     Tmf(n,\Gamma) \stackrel{\simeq}{\longrightarrow} Tmf(K)^{(\Gamma/K)}      \,.
    $$
 
 
@@ -219,7 +218,15 @@ So $Tmf(-)$ defines a "levelled" kind of genuine $GL_2(\hat {\mathbb{Z}})$-[[equ
 
 =--
 
-The following proposition says how the modular equivariance of [[tmf]] as in theorem \ref{} (which, recall, is conjectured to be a precise form of [[F-theory]]'s [[S-duality]]) restricts to the $\mathbb{Z}_2$-equivariance of [[KU]] (hence [[KR-theory]], which is known to be the precise form of [[type II string theory]] [[orientifolds]]):
+The following proposition gives one way how the modular equivariance of [[tmf]] as in theorem \ref{TheEquivariantConstruction}  restricts to the $\mathbb{Z}_2$-equivariance of [[KU]] (hence [[KR-theory]], which is known to be the precise form of [[type II string theory]] [[orientifolds]]).
+
+First observe (see also ([Mahowald-Rezk 09, section 2](#MahowaldRezk09))) that for [[elliptic curve with level structure|level 3 structure]] we have [[congruence subgroups]]
+
+$$
+  \Gamma_1(3) \hookrightarrow \Gamma_0(3) \hookrightarrow GL(2,\matzhbb{Z}/3\mathbb{Z})
+$$
+
+where the first inclusion is a [[normal subgroup]] of [[index of a subgroup|index]] 2.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -232,11 +239,11 @@ $$
     \\
     \downarrow^{\mathrlap{\mathbb{Z}/2\mathbb{Z}}}
     &&
-    \downarrow^{\mathrlap{SL}}
+    \downarrow^{\mathbb{Z}/2\mathbb{Z}}
     \\
     \ast//(\mathbb{Z}/2\mathbb{Z})
     &\hookrightarrow&
-    \mathcal{M}_{\overline{ell}}(3,\Gammma_0)
+    \mathcal{M}_{\overline{ell}}(3,\Gamma_0)
   }
 $$
 
@@ -295,6 +302,8 @@ is analogous to the inclusion of [[KO]] into [[KU]]
 
 
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+
+* {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 * {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_, Int. Math.
 Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
