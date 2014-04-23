@@ -146,7 +146,7 @@ Discussion of the corresponding [[moduli stack]] and its [[tmf]]$(n)$-spectrum i
 * {#Ando00} [[Matthew Ando]], section 1.4 of _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
 Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
 
-* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], part 3 of _The sigma orientation is an H-infinity map_ ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053))
+* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], part 3 of _The sigma orientation is an H-infinity map_. American Journal of Mathematics Vol. 126, No. 2 (Apr., 2004), pp. 247-334 ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053))
 
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
