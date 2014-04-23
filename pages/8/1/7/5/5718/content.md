@@ -15,13 +15,14 @@
 
 ## Idea
 
-A jet can be thought of as the infinitesimal germ of a section of some bundle. Jets are a coordinate free version of Taylor-polynomials and Taylor series.
+A jet can be thought of as the infinitesimal germ of a section of some bundle or of a map between spaces. Jets are a coordinate free version of Taylor-polynomials and Taylor series.
 
 ## Definition
 
 ### Concrete
 
-For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in \mathbb{N}$, the order $k$- **jet bundle** $J^k P \to X$ is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$ at $x$ where two germs are considered equivalent if their first $k$ [[derivative]]s coincide.
+For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in \mathbb{N}$, the bundle $J^k P \to X$ of **$k$- order jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ [[derivative]]s at $x$ coincide.
+
 
 
 ### The infinite order jet bundle as the cofree $J^1$-coalgebra
@@ -33,9 +34,9 @@ In the particular case when $q:Q\to X$ is the identity $X\to X$ with its canonic
 When the the functor $J^1$ preserves sequential limits and the category of bundles over $X$ has equalizers, the cofree $J^1$-coalgebra can be constructed as a sequential limit:
 
 $$ \cdots \to J^3 P \to J^2 P \to J^1 P \to J^0 P = P $$
-where  $J^{n+1} P$ is recursively defined as the equalizer between $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ and $J^1 (J^n P) \to J^1 (J^{n-1} P)$, where the first arrow in $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ is the standard projection and the second one is the previously obtained equalizer (starting the induction with the identity $J^1 P \to J^1 P$), while the arrow  $J^1(J^n P ) \to J^1( J^{n-1} P)$ is just the map obtained applying the functor $J^1$ to $J^n P \to J_{n-1} P$.
+where  $J^{n+1} P$ is recursively defined as the equalizer between $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ and $J^1 (J^n P) \to J^1 (J^{n-1} P)$, where the first arrow in $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ is the standard projection and the second one is the previously obtained equalizer (starting the induction with the identity $J^1 P \to J^1 P$), while the arrow  $J^1(J^n P ) \to J^1( J^{n-1} P)$ is just the map obtained applying the functor $J^1$ to $J^n P \to J^{n-1} P$.
 
-This construction should be a special case (and dual) to the one described in [[transfinite construction of free algebras]].
+This sequantial limit construction should be a special case (and dual) to the one described in [[transfinite construction of free algebras]].
 
 
 ### other definitions 
