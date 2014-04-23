@@ -1,0 +1,8 @@
+
+* [Mathematics genealogy page](http://www.genealogy.ams.org/id.php?id=65752)
+
+## related $n$Lab entries
+
+* [[elliptic cohomology]]
+
+category: people
