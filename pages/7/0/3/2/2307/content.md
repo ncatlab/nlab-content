@@ -156,6 +156,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## Related concepts
 
+* [[cobordism theory determining homology theory]]
+
 * [[MR-theory]]
 
 * [[algebraic cobordism]], [[algebraic cobordism spectrum]]
