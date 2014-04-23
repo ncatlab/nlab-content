@@ -24,7 +24,7 @@
 
 ## Idea
 
-Every [[complex oriented cohomology theory]] induces a [[formal group]]. The _Landweber exact functor theorem_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
+Every [[complex oriented cohomology theory]] induces a [[formal group]]. The _Landweber exact functor theorem_ ([Landweber 76](#Landweber76)) says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
 
 By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie lect 17, p.2](#Lurie17)).
 
@@ -43,19 +43,26 @@ $$
 
 By construction this is such that $E_\bullet(\ast) \simeq R$. But this functor may fail to satisfy the axioms of a [[generalized homology theory]], hence may fail to be [[Brown representability theorem|Brown represented]] by an actual [[spectrum]] $E$.
 
-Landwever exactness is a sufficient condition on $R$ for $MU_\bullet(-)\otimes_L R$ to be indeed a generalized homology theory
+Landwever exactness is a sufficient condition on $R$ for $E \coloneqq MU_\bullet(-)\otimes_L R$ to be indeed a [[generalized homology theory]]
+(e. g. [Lurie, lect 15, theorem 9](#LurieLecture15)).
 
-(...)
+Notice that if it is, then the canonical map
 
-([Lurie, lect 15, theorem 9](#LurieLecture15))
+$$
+  MU_\bullet(X) \otimes_{MU_\bullet} E_\bullet \stackrel{}{\longrightarrow} E_\bullet(X)
+$$
 
-(...)
+is an [[equivalence]]. (For $E = $ [[KU]] this was originally proven in [Connor-Floyd 66](#ConnorFloyd66).) In this form the statement has generalizations beyond [[complex oriented cohomology theory|complex orientation]]. See at _[[cobordism theory determining homology theory]]_.
+
+
 
 ## Properties of Landweber-exact spectra
 
 ### Phantom maps
 
 Between Landweber exact spectra, every [[phantom map]] is already null-homotopic. (e.g. [Lurie lect 17, corollary 7](#Lurie)).
+
+
 
 ## Related theorems
 
@@ -69,8 +76,16 @@ Between Landweber exact spectra, every [[phantom map]] is already null-homotopic
 
 ## References
 
-* Wikipedia, _[Landweber exact functor theorem](http://en.wikipedia.org/wiki/Landweber_exact_functor_theorem)_
+For the special case of [[KU]] the statement is originally due to
 
+* {#ConnorFloyd66} P. Connor, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
+
+The general result for complex orientation originates in 
+
+* {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610.
+
+
+Lecture notes include
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
 Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
@@ -80,6 +95,10 @@ Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
  {#Lurie17}
+
+See also
+
+* Wikipedia, _[Landweber exact functor theorem](http://en.wikipedia.org/wiki/Landweber_exact_functor_theorem)_
 
 
 [[!redirects Landweber exact spectrum]]
