@@ -25,9 +25,32 @@
 
 What is called _$MR$ cohomology theory_ or _real cobordism_ ([Landweber 68](#Landweber68), [Landweber 69](#Landweber69)) is the $\mathbb{Z}_2$-[[equivariant cohomology theory]] version of [[complex cobordism]] $MU$. 
 
-There is an evident [[action]] of $\mathbb{Z}_2$ on [[formal group laws]] given by negation in the formal group, and this lifts to an [[involution|involutive]] [[automorphism]] $MU \stackrel{\simeq}{\to} MU$ of the [[spectrum]] [[MU]]. This induces an $\mathbb{Z}_2$-[[equivariant spectrum]] $M\mathbb{R}$, and real cobordism is the [[cohomology theory]] that it [[Brown representability theorem|represents]].  This is directly analogous to how [[complex K-theory]] [[KU]] gives $\mathbb{Z}_2$-equivariant [[KR-theory]], both are examples of _[[real-oriented cohomology theories]]_.
+There is an evident [[action]] of $\mathbb{Z}_2$ on [[formal group laws]] given by negation in the formal group (the [[inversion involution]]), and this lifts to an [[involution|involutive]] [[automorphism]] $MU \stackrel{\simeq}{\to} MU$ of the [[spectrum]] [[MU]]. This induces an $\mathbb{Z}_2$-[[equivariant spectrum]] $M\mathbb{R}$, and real cobordism is the [[cohomology theory]] that it [[Brown representability theorem|represents]].  This is directly analogous to how [[complex K-theory]] [[KU]] gives $\mathbb{Z}_2$-equivariant [[KR-theory]], both are examples of _[[real-oriented cohomology theories]]_.
 
 A modern review in in ([Kriz 01, section 2](#Kriz01)).
+
+## Properties
+
+### Relation to real manifolds
+
+While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real manifolds]], still every [[real manifold]] does give a class in $M \mathbb{R}$ ([Kriz 01, p. 13](#Kriz01)). For details see here: [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm161/fm16115.pdf).
+
+### $E_\infty$-structure
+
+$M \mathbb{R}$ is naturally an [[E-∞ ring]] spectrum. (reviewed as [Kriz 01, prop. 3.1](#Kriz01))
+
+### Universal real orientation
+
+In direct analogy with the situation for [[complex cobordism theory]] in [[complex oriented cohomology theory]], $M \mathbb{R}$ is the univeral [[real oriented cohomology theory]]:
+
+Equivalence classes of [[real oriented cohomology theory|real orientations]] of a $\mathbb{Z}/2\mathbb{Z}$-[[equivariant spectrum|equivariant]] [[E-∞ ring]] $E$ are in [[bijection]] to equivalence classes of [[E-∞ ring]] homomorphisms
+
+$$
+  M \mathbb{R}\longrightarrow E
+  \,.
+$$
+
+([Kriz 01, theorem 2.25](#Kriz01))
 
 
 ## Related concepts
