@@ -270,7 +270,11 @@ The concept of elliptic cohomology originates around
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
-motivated by [[Serge Ochanine]]'s concept of [[elliptic genus]] and by [[Edward Witten]]'s [[QFT]]/[[string theory|string theoretic]] explanation of the universal elliptic genus, the [[Witten genus]].
+motivated by [[Serge Ochanine]]'s concept of [[elliptic genus]] and by [[Edward Witten]]'s [[QFT]]/[[string theory|string theoretic]] explanation of the [[Ochanine genus]] and of the [[Witten genus]] (as the [[partition functions]] of the [[type II superstring]] and the [[heterotic superstring]], respectively).
+
+Accounts include
+
+* {#Thomas02} [[Charles Thomas]], _Elliptic cohomology_, Kluwer Academic, 2002 
 
 The concept of an [[elliptic spectrum]] [[Brown representability theorem|representing]] an elliptic cohomology theory is due to
 
