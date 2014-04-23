@@ -234,3 +234,5 @@ For general discussion of equivariant complex oriented cohomology see at _[equiv
 [[!redirects complex cobordism cohomology theory]]
 
 [[!redirects MU]]
+
+[[!redirects complex cobordism theory]]
