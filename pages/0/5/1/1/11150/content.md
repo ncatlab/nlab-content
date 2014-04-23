@@ -33,11 +33,16 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
 Surveys include
 
-* Wikipedia, _[Liouville field theory](http://en.wikipedia.org/wiki/Liouville_field_theory)_
+* Wikipedia, _[Liouville field theory](http://en.wikipedia.org/wiki/Liouville_field_theory)
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
 
 * {#CoussaertHenneauxvanDriel95} O. Coussaert, [[Marc Henneaux]], P. van Driel, _The asymptotic dynamics of three-dimensional Einstein gravity with a negative cosmological constant_, Class. Quant. Grav. 12 (1995) 2961-2966 ([arXiv:gr-qc/9506019](http://arxiv.org/abs/gr-qc/9506019))
+
+* Leon A. Takhtajan, Lee-Peng Teo, _Liouville action and Weil-Petersson metric on deformation spaces, global Kleinian reciprocity and holography_, Commun.Math.Phys. 239 (2003) 183-240 ([arXiv:math/0204318](http://arxiv.org/abs/math/0204318))
+
+  **Abstract**: We rigorously define the Liouville action functional for finitely generated, purely loxodromic quasi-Fuchsian group using homology and cohomology double complexes naturally associated with the group action. We prove that the classical action - the critical point of the Liouville action functional, considered as a function on the quasi-Fuchsian deformation space, is an antiderivative of a 1-form given by the difference of Fuchsian and quasi-Fuchsian projective connections. This result can be considered as global quasi-Fuchsian reciprocity which implies McMullen's quasi-Fuchsian reciprocity. We prove that the classical action is a Kahler potential of the Weil-Petersson metric. We also prove that Liouville action functional satisfies holography principle, i.e., it is a regularized limit of the hyperbolic volume of a 3-manifold associated with a quasi-Fuchsian group. We generalize these results to a large class of Kleinian groups including finitely generated, purely loxodromic Schottky and quasi-Fuchsian groups and their free combinations.
+
 
 The relation to [[quantum Teichmüller theory]] is discussed/reviewed in
 
