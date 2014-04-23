@@ -39,6 +39,12 @@ $$
   \Gamma_1(n) \coloneqq p_n^{-1}\left(\left\{\array{ 1 & \ast \\ 0 & \ast}\right\}\right)
 $$
 
+## Properties
+
+### Relation to spin structures
+
+See at _[level structure -- relation to spin structure](level%20structure%20on%20an%20elliptic%20curve#RelationToSpinStructures)_.
+
 ## Examples
 
 * [[level n subgroup]] of the [[modular group]]
