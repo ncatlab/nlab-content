@@ -21,11 +21,11 @@
 
 ## Idea
 
-A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobjects]] turns out to the a coincidence of low dimensions: subobjects are [[(-1)-truncated]] morphisms. 
+A crucial ingredient in a [[topos]] is a [[subobject classifier]]. From the point of view of [[homotopy theory]], that this has to do with [[subobjects]] turns out to be a coincidence of low dimensions: subobjects are [[(-1)-truncated]] morphisms. 
 
 As discussed also at [[stuff, structure, property]], the classifying objects in [[higher topos theory]] classify more general morphisms.
 
-When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms, subject to some bound on size. This is made precise in the context of [[(∞,1)-topos theory]].
+When one passes all the way to [[∞-toposes]], there should be objects that classify _all_ morphisms, subject to some bound on size. This is made precise in the context of [[(∞,1)-topos theory]].
 
 One way to characterize an [[(∞,1)-topos]] is as 
 
@@ -35,13 +35,13 @@ One way to characterize an [[(∞,1)-topos]] is as
 
 * such that for all sufficiently large [[regular cardinal]]s $\kappa$ there is a **classifying object** for the class of all $\kappa$-compact morphisms in $X$.
 
-This statement is originally due to [[Charles Rezk]]. It is reproduced as theorem 6.1.6.8 in
+This statement is originally due to [[Charles Rezk]]. It is reproduced as ([[Higher Topos Theory|Lurie HTT, theorem 6.1.6.8]]).
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-In terms of [[homotopy type theory]] these object classifiers are _[[types of types]]_.
+In terms of [[homotopy type theory]] these object classifiers are _[[types of types]]_. See there for more details and see at _[[relation between category theory and type theory]]_.
 
 ## Definition
+
 For simplicity, the following is phrased in classical categorical terms. Of course, it can be translated into "$\infty$"-language by prefixing every word by "$\infty$-". We leave this translation to the reader.
 
 Let $C$ be a category, and let $S$ be a class of morphisms of $C$ which is stable under pullback. Then an **$S$-classifier** is a terminal object in the category of arrows of $S$ are objects and pullback squares in $C$ are morphisms.
@@ -303,7 +303,64 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 ## References
 
-* [[Higher Topos Theory]] Section 6.1.6
+
+
+* [[Jacob Lurie]],  section 6.1.6 of _[[Higher Topos Theory]]_ 
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
 
 
 [[!redirects object classifier]]
