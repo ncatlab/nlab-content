@@ -1,0 +1,73 @@
+[[!redirects Sheaves as Presheaves]]
+I will devote this page to writing down a few ideas of mine, inspired from extended TQFTs. ([[Sanath Devalapurkar]]). It'll be constantly updated (I hope).
+
+##An idea - Sheaves as Presheaves##
+Let us recap a few basic definitions:
+
+**Definition:** An **extended topological quantum field theory** (extended TQFT) is a symmetric monoidal functor $Z:n\mathbf{Cob}\longrightarrow n\mathbf{Vect}$.
+
+**Definition:** A **$B$-cobordism from $(X,g)$ to $(Y,h)$** is a cobordism $W:X\longrightarrow Y$ with a homotopy class of maps $F:W\longrightarrow B$ such that $F|_{X}=g,F|_{Y}=h$.
+
+Let us define $\mathcal{M}$, a cobordism $\mathcal{M}:(\Lambda,g)\longrightarrow(\Lambda,g)$. Then, a $\mathcal{M}$-cobordism is the cobordism $\mathcal{M}:\Lambda\longrightarrow\Lambda$ with a homotopy class of maps $F:\mathcal{M}\longrightarrow \mathcal{M}$ (i.e., $F\in\mathrm{End}(\mathcal{M})$) such that $F|_{\Lambda}=g$. Such a homotopy class of maps can easily be found, and is a basic differential geometry exercise.
+
+**Definition:** A **homotopy quantum field theory** (homotopy QFT) with background $B$ is a symmetric monoidal functor $\tau:\mathbf{HCobord}(n,B)\longrightarrow n\mathbf{Vect}$.
+
+
+##A Study of Cobordisms as Presheafs##
+We know that $\bigcup\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset n\mathbf{Cob}$. This is a union over all $n$-cobordisms of locally constant $\infty$-stackes over $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. Let us define an $(\infty,1)$-sheaf $(\infty,1)$-topos $\mathbf{H}$ such that $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\in\mathbf{H}$. Define $\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))$. We see that
+$$\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right),\mathrm{LConst}(\mathbf{Core(Fin\infty Grpd)})\right)$$
+Here, $\mathrm{LConst}$ denotes the constant $\infty$-stack functor. The $\infty$-groupoid of locally constant $\infty$-stacks on $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is $\mathrm{LConst}(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset n\mathbf{Cob}$.
+
+
+
+From ArXiv:0007157, Theorem 2.13., we know that
+$$\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathbf{KanFib}\mathrm{Fun}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)$$
+Thus, $\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathrm{Fun}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right),\infty\mathbf{-Grpd}\right)$ by the Grothendieck construction. The homotopy QFT restricted to $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is the codomain of the functor:
+$$\tau:\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow n\mathbf{Vect}$$
+We may therefore look at a cobordism as a rule that assigns each $\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ an $\infty$ groupoid. The homotopy hypothesis then tells us that a cobordism hence assigns each $\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ a _topological space_. This allows us to write:
+
+
+
+**Theorem 1:** A cobordism is a presheaf on the opposite category $\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$. Thus,
+$$\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$$
+
+
+
+Let $\mathcal{Y}_{(\infty,1)}:\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow \mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ be the $(\infty,1)$ Yoneda embedding. Then, the restriction of $n\mathbf{Cob}\longrightarrow n\mathbf{Cob}$ to $\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is the left $(\infty,1)$ Kan extension of $\mathcal{Y}_{(\infty,1)}$ along itself. (See http://ncatlab.org/nlab/show/Higher+Topos+Theory, Lemma 5.1.5.3.) Let us write the Yoneda lemma: _$\mathcal{Y}_{(\infty,1)}:\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow \mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a fully faithful $(\infty,1)$-functor._
+
+
+Hence, let us consider the bijective functor induced by $\mathcal{Y}_{(\infty,1)}:\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow \mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$:
+$$\mathcal{Y}_{(\infty,1)}^{X,Y\text{ }(\in \left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))}:\mathbf{Hom}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}(X,Y)\longrightarrow \mathbf{Hom}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}(\mathcal{Y}_{(\infty,1)}(X),\mathcal{Y}_{(\infty,1)}(Y))$$
+This makes $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ a full $(\infty,1)$ subcategory of $\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. From Mixed Motives, by Marc Levine, p.482 we see that we may define the category of sheaves $\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$ as a full $(\infty,1)$ subcategory of $\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}=\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. However, the Yoneda lemma says that $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a full $(\infty,1)$ subcategory of $\mathrm{LConst}\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$. Hence, we see that there must exist an equivalence of categories, since the full subcategory is unique.
+
+
+
+**Theorem 2:** _There exists the following equivalence of categories:
+$$\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$$
+This means that every map $S^n\to\mathcal{M}$ is equivalent to some sheaf over $\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$.
+$$\mathrm{LConst}\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}=\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$$
+I.e.:
+
+* $\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$ is $\mathbf{H}\left(\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathrm{LConst}\mathbf{Core(Fin\infty Grpd)}\right)$, where $\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\in\mathbf{H}$, with $\mathbf{H}$ an $(\infty,1)$-sheaf $(\infty,1)$-topos:
+
+$$  \mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}=\mathbf{H}\left(\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathrm{LConst}\mathbf{Core(Fin\infty Grpd)}\right)=$$
+$$\mathbf{Fib}(\Pi\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}})=\mathrm{Fun}_{(\infty,1)}\left(\Pi\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\infty\mathbf{Grpd}\right)
+$$
+These imply that $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is an $(\infty,1)$ topos - it is an $(\infty,1)$ category of $(\infty,1)$-sheaves. Thus, $\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\to\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$ is a topological localization. Thus, $\mathbf{H}$ is $(\infty,1)\mathbf{Topos}$, the category of $(\infty,1)$ topoi._
+
+
+We propose the following theorem:
+
+**Theorem 2:** _$\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a total category._
+
+**Proof 1:** Consider:
+$$
+\mathrm{Fun}_{(\infty,1)}\left(\mathrm{LConst}\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\right)
+$$
+Since $\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\in \mathbf{H}$,
+
+$$
+\mathrm{Fun}_{(\infty,1)}\left(\mathrm{LConst}\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\right)=$$
+$$\mathrm{Fun}_{(\infty,1)}\left(\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\right)
+$$
+This is the left adjoint of $\mathcal{Y}_{(\infty,1)}$. Thus, $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a total category.
