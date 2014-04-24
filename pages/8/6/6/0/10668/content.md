@@ -19,13 +19,15 @@
 
 ## Idea
 
-The [[higher geometry]] in the [[(∞,1)-topos]] over the [[(∞,1)-site]] of [[Isbell duality|formal duals]] of [[E-∞ rings]], equipped with an [[etale topology]], might be called _$E_\infty$-geometry_.
+**$E_\infty$-geometry**, or **spectral algebraic geometry**, is the "full" version of [[derived algebraic geometry]] where the spaces are locally modelled on [[E-infinity rings]] (as opposed to [[simplicial commutative rings]] or [[dg-algebras]]).
 
-This is the "full" version of [[derived algebraic geometry]] (as opposed to less refined versions where instead of genuine [[E-∞ rings]] one uses just [[simplicial rings]] and/or just [[dg-algebras]]).
+That is to say, it is the [[higher geometry]] in the [[(∞,1)-topos]] over the [[(∞,1)-site]] of [[Isbell duality|formal duals]] of [[E-∞ rings]], equipped with the [[etale topology]].
 
-In ([[Spectral Schemes|Lurie, Spectral Schemes]]) this is called "[[spectral geometry]]", but see the possible terminology clash discussed there.
+An [[E-∞ scheme]] (_spectral scheme_) in this sense is a [[structured (∞,1)-topos]] in $E_\infty$-geometry.
 
-An [[E-∞ scheme]] in this sense is a [[structured (∞,1)-topos]] in $E_\infty$geometry.
+## Terminology
+
+The term _spectral algebraic geometry_ is used in the literature.  On the [[nLab]] we use the term _$E_\infty$-geometry_ due to a possible terminology clash discussed at [[spectral geometry]].
 
 ## References
 
@@ -48,3 +50,4 @@ and the Grothendieck Existence Theorem]]_
 * [[Jacob Lurie]], _[[Representability Theorems]]_
 
 [[!redirects E-infinity geometry]]
+[[!redirects spectral algebraic geometry]]
