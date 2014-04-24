@@ -71,10 +71,13 @@ $$
 is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
 
 
+### For congruence subgroups
+
+Similarly one considers modular forms for [[congruence subgroups]] of the full [[modular group]].
 
 ## Properties
 
-### Relation to the elliptic genus
+### Relation of $MF_0(2)$ to the elliptic genus
 
 Write $\Gamma_0(2) \hookrightarrow SL_2(\mathbb{Z})$ for the [[subgroup]] of the [[modular group]] on those elements $\left(\array{a & b \\ c & d}\right)$ for which $c = 0\, mod\, 2$.
 
