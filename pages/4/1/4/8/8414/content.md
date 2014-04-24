@@ -37,6 +37,11 @@ $$i(s_1, \ldots, s_k) = (s_1, s_2, \ldots, s_k, e, e, e, \ldots).$$
 
 Then the lexicographic order on $S^\ast$ is the one inherited from its embedding into the lexicographically ordered set $(1 + S)^\mathbb{N}$. 
 
++-- {: .num_remark #antidictionary} 
+###### Remark 
+The decision to freely adjoin a _bottom_ element $e$ is of course purely a convention, based on the ordinary dictionary convention that the Scrabble word AAH should come after AA. Alternatively, we could equally well deem that $e$ is a freely adjoined top element, so that AA comes after AAH; this might be called the "anti-dictionary" convention. 
+=-- 
+
 ### Corecursive definition 
 
 if $L$ is linearly ordered and the underlying set $C = L^\mathbb{N}$ is regarded as the [[terminal coalgebra]] for the functor $L \times - \colon Set \to Set$, with coalgebra structure $\langle h, t \rangle \colon C \to L \times C$, then the lexicographic order on $C$ may be defined [[corecursion|corecursively]]: 
