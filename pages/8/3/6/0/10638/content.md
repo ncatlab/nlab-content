@@ -38,6 +38,9 @@ Physically, Witten obtained this as the [[partition function]] of the [[heteroti
 
 Formally this is given by the homotopy groups of the [[String orientation of tmf]] $M String \to tmf$ followed by the map to [[Tate K-theory]] [above](#RelationToTateKTheory), discussed [here](tmf#MapToTateKTheory).
 
+[[!include moduli stack of curves -- table]]
+
+
 ## Related concepts
 
 * [[spin orientation of Tate K-theory]]
