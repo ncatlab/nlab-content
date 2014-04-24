@@ -26,7 +26,34 @@ _under construction_
 The Gelfand--Naimark--Segal (GNS) construction establishes a correspondence between cyclic $*$-[[representation]]s of $C^*$-[[C*-algebra|algebras]] and certain linear functionals (usually called _states_) on those same $C^*$-algebras.  The correspondence comes about from an explicit construction of the [[star-representation|*-representation]] from one of the [[linear functionals|linear functionals]] (states).
 
 
-## GNS construction
+## The nPOV
+
+The GNS construction (as outlined above) is a special case of a more general construction of Ghez, Lima and Roberts applied to $C^\ast$-categories (horizontal categorification of $C\ast$-algebras).
+
++--{: .un_theorem}
+###### Theorem
+
+Let $\mathcal{C}$ be a $C*$-category. Fix an object $A \in \operatorname{Ob}\mathcal{C}$ and let $\sigma$ be a state on the $C*$-algebra $\mathcal{C}(A,A)$. Then there exists a $*$-representation
+$$
+\rho_\sigma \colon \mathcal{C} \to \mathbf{Hilb}
+$$
+together with a cyclic vector $\xi \in \rho_\sigma(A)$ such that for all $x \in \mathcal{C}(A,A)$,
+$$
+\sigma(x) = \langle \xi, \rho_\sigma(x)\xi \rangle.
+$$
+=--
+
+## Construction
+
+...
+
+## Proof of Theorem
+
+...
+
+## The Classical Case
+
+A $C*$-algebra $A$ is a $C*$-category $\mathcal{A}$ with one object $\bullet$, where we make the identification $A = \mathcal{A}(\bullet,\bullet)$. In this case the theorem reduces to the classical GNS construction.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -40,7 +67,7 @@ $$
 for every $x$ in $A$.
 =--
 
-_and this needs to be finished.  I don't have the head for this right now._
+
 
 
 ## Applications
