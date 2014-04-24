@@ -60,10 +60,13 @@ The original computations are due to
 
 * [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
 
-
 * {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
 * Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
+
+and a particularly clear account is in 
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Andrew Strominger]], _Counting BPS Blackholes in Toroidal Type II String Theory_ ([arXiv:hep-th/9903163](http://arxiv.org/abs/hep-th/9903163))
 
 Reviews include
 
