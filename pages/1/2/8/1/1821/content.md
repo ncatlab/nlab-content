@@ -142,6 +142,10 @@ This is spelled out for instance as ([Hopkins-Mathew , prop. 23.1](#HopkinsMathe
     \,.
   $$
 
+* [[Koszul homology]]
+
+* [[Ext]], [[Tor]]
+
 
 ## In the context of homotopy theory
  {#InTheContextOfHomotopyTheory}
