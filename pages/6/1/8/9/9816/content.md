@@ -108,11 +108,12 @@ This is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). See at _[[cobordism theory
 
 ## Related concepts
 
-* [[spin orientation of Tate K-theory]]
 
 * [[spin^c structure]]
 
 * [[Grothendieck-Riemann-Roch theorem]]
+
+[[!include genera and partition functions - table]]
 
 ## References
 
