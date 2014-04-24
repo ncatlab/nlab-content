@@ -222,7 +222,7 @@ The hypotheses of the theorem are a bit restrictive, but they include both the u
 
 The continuity requirement in (3) is just to ensure that the integral exists, and the homogeneity requirement in (3) can be regarded as a strengthening of (2), weaker than requiring differentiability with respect to $\mathrm{d}\mathbf{x}$ (which would require the derivative to be a *linear* function of $\mathrm{d}\mathbf{x}$).
 
-### Integrals in $\mathbb{R}^n$
+### Integrals in affine space
 
 When $X$ is a finite-dimensional real [[affine space]], regarded as a smooth manifold, there is an equivalent definition of the genuine integral of a 1-cojet differential 1-form that is more obviously parametrization-invariant.  It relies on the fact that in this case, we can canonically identify all the tangent spaces of $X$ with the same vector space $V$.
 
