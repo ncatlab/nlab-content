@@ -1,0 +1,13 @@
+[[!redirects Kozsul homology]]
+
+
+
+## Idea
+
+The _Koszul homology_ of an [[ideal]] in some algebra is the [[chain homology]] of its [[Koszul complex]]
+
+
+## References
+
+* Lecture notes on Koszul homology [pdf](http://www.math.lsa.umich.edu/~hochster/711F07/L10.03.pdf)
+
