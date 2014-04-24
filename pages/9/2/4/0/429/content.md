@@ -15,7 +15,7 @@
 
 ## Idea
 
-Universal algebra is the study of [[algebraic theories]] and their models or algebras.  Whereas abstract algebra studies groups, rings, modules and so on --- that is, models of particular theories --- universal algebra is about algebraic or __equational__ theories in general.
+Universal algebra (also _[[categorical algebra]]_) is the study of [[algebraic theories]] and their models or algebras.  Whereas abstract algebra studies groups, rings, modules and so on --- that is, models of particular theories --- universal algebra is about algebraic or __equational__ theories in general.
 
 Traditionally, the subject studies models of algebraic theories in the [[category]] of [[Set|sets]].  The category-theoretic approach abstracts the traditional notions, to study models in more general categories.  There are two ways of doing this: by using [[monads]] and by using [[Lawvere theories]].
 
