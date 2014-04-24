@@ -96,6 +96,7 @@ More recent big success of derived algebraic geometry locally modeled on $E_\inf
 * [[homotopical algebraic geometry]]
 * [[E-∞ geometry]]
 * [[dg-geometry]]
+* [[spectral algebraic geometry]]
 * [[brave new algebraic geometry]]
 * [[higher stacks]]
 * [[higher differential geometry]]
