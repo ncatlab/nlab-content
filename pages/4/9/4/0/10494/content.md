@@ -331,7 +331,7 @@ We have the following special cases of prop. \ref{InternalHomGeneral}.
 ### Cohesive and differential refinement
  {#CohesiveAndDifferentialRefinement}
 
-Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \mathbf{H}$ for the [[stable (∞,1)-category]] of [[spectrum objects]] inside it.
+Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \mathbf{H}$ for the [[stable (∞,1)-category]] of [[spectrum objects]] inside it. We discuss how every [[stable homotopy type]] here canonically sits in the middle of a _[[differential cohomology diagram]]_.
 
 +-- {: .num_prop}
 ###### Proposition
