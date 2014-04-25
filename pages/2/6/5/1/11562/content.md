@@ -4,7 +4,9 @@
 
 ## Idea
 
-The _Koszul homology_ of an [[ideal]] in some algebra is the [[chain homology]] of its [[Koszul complex]]
+The _Koszul homology_ of an [[ideal]] in some algebra is the [[chain homology]] of its [[Koszul complex]]. 
+
+The linear dual of the Koszul homology of the symmetric algebra over the tangent space of a manifold is known as [[Spencer cohomology]].
 
 
 ## References
