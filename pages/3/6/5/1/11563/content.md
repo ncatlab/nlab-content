@@ -1,0 +1,43 @@
+
+
+## References
+
+* Wikipedia, _[Spencer cohomology](http://en.wikipedia.org/wiki/Spencer_cohomology)_
+
+
+---
+## Spencer cohomology
+
+[MathSciNet](http://www.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=&co4=AND&pg5=TI&s5=&co5=AND&pg6=PC&s6=&co6=AND&pg7=ALLF&s7=%22Spencer+cohomology%22&co7=AND&Submit=Search&dr=all&yrop=eq&arg3=&yearRangeFirst=&yearRangeSecond=&pg8=ET&s8=All)
+
+[Google Scholar](http://scholar.google.co.uk/scholar?q=%22Spencer+cohomology%22&hl=en&lr=&btnG=Search)
+
+[Google](http://www.google.com/search?hl=en&q=%22Spencer+cohomology%22&btnG=Search)
+
+[arXiv: Experimental full text search](http://search.arxiv.org:8081/?query=%22Spencer+cohomology%22&in=)
+
+[arXiv: Abstract search](http://front.math.ucdavis.edu/search?a=&t=&q=%22Spencer+cohomology%22&c=&n=25&s=Abstracts)
+
+category: Search results
+---
+## Spencer cohomology
+
+GM (Other, not algebraic, areas of geometry)?
+
+category: World [private]
+---
+## Spencer cohomology
+
+Related to differential equations.
+
+Also nonabelian Spencer cohomology.
+
+category: [Private] Notes
+---
+## Spencer cohomology
+
+[Kruglikov and Lychagin](http://inc.web.ihes.fr/prepub/PREPRINTS/2007/M/M-07-04.pdf)
+
+category: Online References
+
+nLab page on [[nlab:Spencer cohomology]]
