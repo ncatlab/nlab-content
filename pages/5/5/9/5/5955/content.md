@@ -73,7 +73,7 @@ This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#
 +-- {: .num_remark}
 ###### Remark
 
-This is a stable version of the [[Dold-Kan correspondence]]. 
+This is a stable version of the [[Dold-Kan correspondence]]. See at _[[stable Dold-Kan correspondence]]_ for more.
 
 =--
 
