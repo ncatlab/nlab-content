@@ -251,7 +251,7 @@ This is shown in ([BashirVelebil](#BashirVelebil)).
 
 Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are objects of $D$ with some extra [[property, structure, stuff|property]].  But if $C$ is reflective in $D$, then we can turn this around and (by thinking of the left adjoint as a [[forgetful functor]]) think of objects of $D$ as objects of $C$ with (if we\'re lucky) some [[extra structure]] or (in any case) some [[extra stuff]].
 
-This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
+This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, an [[integral domain]] is a [[field]] equipped with numerator and denominator functions.
 
 
 
