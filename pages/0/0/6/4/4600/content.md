@@ -106,6 +106,8 @@ The first sequence (eq:CurvatureSequence) says in words: two circle $(n-1)$-bund
 
 The second sequence (eq:CharacteristicClassSequence) says in words: two connections on the same circle $(n-1)$-bundle differ by a globally defined connection $(n-1)$-form, well defined up to addition of a form with integral periods. 
 
+More is true: both these sequences interlock to form the hexagonal _[[differential cohomology diagram]]_ of ordinary differential cohomology. See there for more.
+
 ### Models
   {#Models}
 
