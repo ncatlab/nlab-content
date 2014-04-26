@@ -403,6 +403,12 @@ As described in some detail at [[electromagnetic field]] in abelian higher [[gau
   * In formal high energy physics degree 4 Deligne classes model the [[supergravity C-field]].
 
 
+## Related concepts
+
+* [[circle n-bundle with connection]]
+
+* [differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)
+
 ## References
 
 Deligne cohomology was introduced in 
