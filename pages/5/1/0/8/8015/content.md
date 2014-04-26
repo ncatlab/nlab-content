@@ -33,8 +33,17 @@ spectra.
 
 This may be [[presentable (infinity,1)-category|presented]] by a [[model structure on presheaves of spectra]].
 
+## Properties
 
+### Relation to sheaves of chain complexes and abelian sheaf cohomology
 
+The [[stable Dold-Kan correspondence]]
+
+$$
+  DK \;\colon\; Ch_\bullet(R) \stackrel{\simeq}{\longrightarrow} H R Mod(Spectra) \stackrel{U}{\longrightarrow} Specta
+$$
+
+is an [[(∞,1)-limits]]-preserving [[(∞,1)-functor]] from the [[(∞,1)-category of chain complexes]] (over a given [[commutative ring]]) to the [[(∞,1)-category of spectra]]. Hence every [[(∞,1)-sheaf]]/[[∞-stack]] of chain complexes (as it appears (maybe implicitly) in [[abelian sheaf cohomology]]/[[hypercohomology]] canonically incarnates as an $(\infty,1)$-sheaf of spectra).
 
 ## Examples
 
@@ -91,3 +100,10 @@ Plenty of further discussion is in
 
 [[!redirects presheaf of spectra]]
 [[!redirects presheaves of spectra]]
+
+[[!redirects (∞,1)-sheaf of spectra]]
+[[!redirects (∞,1)-sheaves of spectra]]
+
+[[!redirects ∞-stack of spectra]]
+[[!redirects ∞-stacks of spectra]]
+
