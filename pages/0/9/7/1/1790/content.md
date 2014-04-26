@@ -1,11 +1,16 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -14,7 +19,6 @@ The **&#268;ech model structure on simplicial presheaves** on a [[site]] $C$ is 
 
 It is obtained from the the [[global model structure on simplicial presheaves]] on $C$ by [[Bousfield localization of model categories|left Bousfield localization]]s at [[Cech cover]]s:  its fibrant objects are [[∞-stack]]s that satisfy [[descent]] over [[?ech cover]]s but not necessarily over [[hypercover]]s.
 
-Accordingly, the [[(∞,1)-topos]] [[presentable (infinity,1)-category|presented]] by the &#268;ech model structure has as its [[cohomology]] theory [[?ech cohomology]].
 
 Further [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s leads from the &#268;ech model structure to the Joyal-Jardine [[local model structure on simplicial presheaves]] that presents the [[hypercomplete (∞,1)-topos]] which is the [[hypercompletion]] of that presented by the &#268;ech model structure.
 
