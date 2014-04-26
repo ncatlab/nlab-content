@@ -1498,6 +1498,8 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 ## Related concepts
 
+* [differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)
+
 * [[contact geometry]]
 
 * [[higher U(1)-gauge theory]]
