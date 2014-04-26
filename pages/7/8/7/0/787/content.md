@@ -155,7 +155,7 @@ $$
   \right]
 $$
 
-for the [[smooth ∞-groupoid]] which is presented under the [[Dold-Kan correspondence]] by the [[sheaf]] of [[chain complexes]], as indicated. This is such that for $k = n$ we have the [[Deligne complex]], representing the [[moduli ∞-stack]] of [[circle n-bundles with connection]]
+for the [[smooth ∞-groupoid]] which is presented under the [[Dold-Kan correspondence]] by the [[sheaf]] of [[chain complexes]], as indicated (see also at _[differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_). This is such that for $k = n$ we have the [[Deligne complex]], representing the [[moduli ∞-stack]] of [[circle n-bundles with connection]]
 
 $$
   \mathbf{B}^n U(1)_{conn^n} \simeq \mathbf{B}^n U(1)_{conn}
