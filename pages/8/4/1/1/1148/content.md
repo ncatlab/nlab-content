@@ -66,9 +66,9 @@ This, then, is the definition of sheaf cohomology as usually presented: the coho
  {#AsIntrinsicInfinityToposCohomology}
 
 
-Under the [[Dold-Kan correspondence]] we have the following
-identification of sheaves taking values in [[chain complex]]es
-with sheaves taking values in [[infinity-groupoid]]s and
+Under the ([[stable Dold-Kan correspondence|stable]]) [[Dold-Kan correspondence]] we have the following
+identification of sheaves taking values in [[chain complexes]]
+with sheaves taking values in [[infinity-groupoids]] and
 [[spectrum|spectra]], crucial for a conceptual understanding of
 abelian sheaf cohomology:
 
