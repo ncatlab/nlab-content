@@ -545,6 +545,7 @@ $$
 =--
 
 ### Hopkins-Singer coefficients
+ {#HopkinsSingerCoefficients}
 
 We discuss how the [[differential function complexes]] of ([[Quadratic Functions in Geometry, Topology,and M-Theory|Hopkins-Singer 05]]), providing differential refinements of geometrically discrete [[spectra]], fit into theor differential cohomology hexagon (following [Bunke-Nikolaus-V&#246;lkl 13, section 4.4.](#BunkeNikolausVoelkl13)).
 
