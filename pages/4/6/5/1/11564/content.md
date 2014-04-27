@@ -543,6 +543,58 @@ $$
   \,.
 $$
 
+The differential cohomology hexagon obtained from this is on cohomology classes for each [[smooth manifold]] $X$ and each $n \in \mathbb{N}$
+
+$$
+  \array{
+    && \Omega^{n}(X)/im(\mathbf{d}) && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
+    \\
+    & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
+    \\
+    H^{n}(X)
+    && &&
+    H^0(X,\mathbf{B}^n U(1)_{conn})
+    && &&
+    H^{n+1}(X,\mathbb{R})
+    \\
+    & \searrow && \nearrow && \searrow && \nearrow
+    \\
+    && H^{n}(X,U(1)) && \underset{}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+  }
+$$
+
+It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of closed differential forms with integral periods), which is such as to make the top-left to bottom-right diagona sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
+
+$$
+  \array{
+    0 & && && && & 0
+    \\
+    & \searrow && && &&  \nearrow 
+    \\
+    && \Omega^{n}(X)/\Omega^n(X)_{\mathbb{Z}} && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
+    \\
+    & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
+    \\
+    H^{n}(X)
+    && &&
+    H^0(X,\mathbf{B}^n U(1)_{conn})
+    && &&
+    H^{n+1}(X,\mathbb{R})
+    \\
+    & \searrow && \nearrow && \searrow && \nearrow
+    \\
+    && H^{n}(X,U(1)) && \underset{}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+    \\
+    & \nearrow && && &&  \searrow 
+    \\
+    0 & && && && & 0
+  }
+  \,.
+$$
+
+Here the diagonals are now the "curvature exact sequence" and the "charscteristic class exact sequence" as discuss at _[ordinary differential cohomology -- Properties -- curvature and characteristic class](ordinary+differential+cohomology#CurvatureAndCharClass)_.
+
+
 =--
 
 ### Hopkins-Singer coefficients
@@ -575,6 +627,7 @@ a [[spectrum]],
 1. $n \in \mathbb{N}$
 
 write $E_{conn_c,-n}$ for the [[homotopy fiber product]] in
+
 
 $$
   \array{
@@ -632,7 +685,7 @@ then for each [[smooth manifold]] $X$ (indeed for each [[smooth ∞-groupoid]] $
 
 $$
   \array{
-    && (\Omega(X) \otimes_{\mathbb{R}})^{-1}/{im(\mathbf{d})}
+    && (\Omega(X) \otimes_{\mathbb{R}} C)^{-1}/{im(\mathbf{d})}
     && \stackrel{\mathbf{d}}{\longrightarrow} && 
     (\Omega(X)\otimes_{\mathbb{R}} C)^0_{cl}
     \\
