@@ -81,6 +81,8 @@ $$
 
 * [[spectral sequence of a simplicial stable homotopy type]]
 
+* [[stable Dold-Kan correspondence]]
+
 
 ## References
 
