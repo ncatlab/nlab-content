@@ -114,7 +114,7 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 ### For cobordisms with extra topological structure
  {#CobsWithExtraTopStructure}
 
-We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[stuff, structure, property|structure]] of maps into some [[topological space]] equipped with a [[vector bundle]].
+We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[structure]] of maps into some [[topological space]] equipped with a [[vector bundle]]. This is the case for which an [[extended TQFT]] is (the local refinement of) what has also been called an _[[HQFT]]_.
 
 +-- {: .num_defn }
 ###### Definition
