@@ -261,6 +261,8 @@ See also [[(eso+full, faithful) factorization system]].
 
 * [[Eilenberg subcomplex]]
 
+* [[connective spectrum]], [[connective cover]]
+
 ## References
 
 Section 6.5.1 of 
