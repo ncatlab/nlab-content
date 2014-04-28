@@ -68,7 +68,16 @@ $$
 
 So it is the homologically nontrivial parts of the chain complexes in negative degree that corresponds to the non-connectiveness of a spectrum.
 
+## Properties
+
+### Connective cover
+
+Connective spectra form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
+
+
 ## Related concepts
+
+* [[connective cover]]
 
 [[!include k-monoidal table]]
 
