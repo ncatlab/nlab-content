@@ -1,0 +1,42 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[forgetful functor]] $U$ from [[abelian groups]] to [[commutative monoids]] has a [[left adjoint]] $G$. This is called _group completion_.
+
+A standard presentation of the group completion is the [[Grothendieck group]] construction.
+
+Group completion plays a central role in the definition of [[K-theory]].
+
+More generally, there is 
+
+$$
+  K \;\colon\;  CMon_\infty(\infty Grpd) \longrightarrow AbGrp_\infty(\infty Grpd)
+$$
+
+the [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the inclusion of [[abelian ∞-groups]] ([[connective spectra]]) into [[commutative monoid object in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in [[∞Grpd]] ([[E-∞ spaces]]). This may be called _$\infty$-group completion_.
+
+This serves to define [[algebraic K-theory of symmetric monoidal (∞,1)-categories]].
+
+[[!redirects group completions]]
+
+[[!redirects ∞-group completion]]
+[[!redirects ∞-group completions]]
