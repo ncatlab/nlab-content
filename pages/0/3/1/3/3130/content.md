@@ -19,17 +19,17 @@
 
 ## Idea
 
-Traditionally, in the strict sense of the word, the _Chern character_ is a [[universal characteristic class]] of [[vector bundles]] or equivalently of their [[topological K-theory]] classes, which is a [[rational number|rational]] combination of all [[Chern classes]].
+Traditionally, in the strict sense of the term, the _Chern character_ is a [[universal characteristic class]] of [[vector bundles]] or equivalently of their [[topological K-theory]] classes, which is a [[rational number|rational]] combination of all [[Chern classes]].
 
 This is a special case of the following more general construction ([[Quadratic Functions in Geometry, Topology,and M-Theory|Hopkins-Singer 02, section 4.8]]):
 
-for $E$ a [[spectrum]] [[Brown representability theorem|represening]] a [[generalized (Eilenberg-Steenrod) cohomology theory]] there is a canonical [[localization of spectra|localization]] map
+for $E$ a [[spectrum]] [[Brown representability theorem|representing]] a [[generalized (Eilenberg-Steenrod) cohomology theory]] there is a canonical [[localization of spectra|localization]] map
 
 $$
   ch_E \;\colon\; E \longrightarrow E \wedge H\mathbb{R}
 $$
 
-to the [[smash product]] with the the [[Eilenberg-MacLane spectrum]] over the [[real numbers]]. This represents the $E$-Chern character (see also [Bunke-Gepner 13, around def. 2.1](#BunkeGepner13)).
+to the [[smash product]] with the [[Eilenberg-MacLane spectrum]] over the [[real numbers]]. This represents the $E$-Chern character (see also [Bunke-Gepner 13, around def. 2.1](#BunkeGepner13)).
 
 In the case that $E = $ [[KU]] this reproduces the traditional Chern character. (In which case this is a map from a [[complex oriented cohomology theory]] of [[chromatic level]] 1 to chromatic level 0. More generally one can also consider [[higher chromatic Chern characters]] that take values not in [[ordinary cohomology]] but in some cohomology theory of higher [[chromatic level]]. See at _[[higher chromatic Chern character]]_ for more on this.)
 
@@ -55,7 +55,7 @@ There are analogues in algebraic geometry (e.g. a Chern character between [[Chow
 ### For vector bundles and topological K-theory 
  {#KTheory}
 
-The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$. In this case, the Chern character is made up from Chern classes: each characteristic class is by Chern-Weil theory in image of certain element in the Weil algebra via taking the class of evaluation at the [[curvature]] operator for some choice of a connection. Consider the symmetric functions in $n$ variables $t_1,\ldots, t_n$ and let the Chern classes of a complex vector bundle $\xi$ (representing a complex K-theory class) are $c_1,\ldots, c_n$. Define the formal power series 
+The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$. In this case, the Chern character is made up from Chern classes: each characteristic class is by Chern-Weil theory in  the image of a certain element in the Weil algebra via taking the class of evaluation at the [[curvature]] operator for some choice of a connection. Consider the symmetric functions in $n$ variables $t_1,\ldots, t_n$ and let the Chern classes of a complex vector bundle $\xi$ (representing a complex K-theory class) be $c_1,\ldots, c_n$. Define the formal power series 
 
 $$
 \phi = \phi^n(t_1,\ldots, t_n) = e^{t_1}+\ldots+e^{t_n}= \sum_{k=0}^\infty \frac{1}{k!} (t_1^k+\ldots+t_n^k)
