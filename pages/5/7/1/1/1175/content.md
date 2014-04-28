@@ -27,7 +27,7 @@
 
 ## Idea
 
-A _von Neumann algebra_ or _$W^*$-algebra_ is an important and special kind of [[operator algebra]], relevant in particular to [[measure theory]] and [[quantum mechanics]]/[[quantum field theory]] in its algebraic formulation as [[AQFT]]. Specifically, (non-commutative) von Neumann algebras can be understood as the [[Isbell duality|formal duals]] of ([[non-commutative geometry|non-commutative]]) [[localisable measurable spaces]] (or [[measurable locales]]); see the section _[Relation to measurable spaces](#RelationToMeasureSpaces)_ below.  
+A _von Neumann algebra_ or _$W^*$-algebra_ is an important and special kind of [[operator algebra]], relevant in particular to [[measure theory]] and [[quantum mechanics]]/[[quantum field theory]] in its algebraic formulation as [[AQFT]]. Specifically, (non-commutative) von Neumann algebras can be understood as the [[Isbell duality|formal duals]] of ([[non-commutative geometry|non-commutative]]) [[localizable measurable spaces]] (or [[measurable locales]]); see the section _[Relation to measurable spaces](#RelationToMeasureSpaces)_ below.  
 
 
 ## History and terminology
@@ -148,7 +148,7 @@ of [[trace class operator|trace class operators]].
 Any $C^*$-subalgebra of $B(H)$ closed in the ultraweak topology
 is again a von Neumann algebra. 
 
-Another example is $L^\infty(X)$ under pointwise almost everywhere multiplication, where $X$ is a [[measure space]] or even just a [[localizable measurable space]]. These are essentially all the _commutative_ von Neumann algebras, according to a specialized version of the [[Gelfand-Naimark theorem]]. In the case where $X$ is a finite measure space, where we have $L^\infty(X) \subset L^2(X)$, a concrete realization $L^\infty(X) \hookrightarrow B(L^2(X))$ is given by considering $L^2(X)$ as an $L^\infty(X)$-module given by pointwise almost everywhere multiplication. 
+Another example is $L^\infty(X)$ under pointwise almost everywhere multiplication, where $X$ is a [[measure space]] or a [[localizable measurable space]]. These are (up to isomorphism) all of the _commutative_ von Neumann algebras, according to a specialized version of the [[Gelfand–Naimark theorem]]. In the case where $X$ is a finite measure space, where we have $L^\infty(X) \subset L^2(X)$, a concrete realization $L^\infty(X) \hookrightarrow B(L^2(X))$ is given by considering $L^2(X)$ as an $L^\infty(X)$-module given by pointwise almost everywhere multiplication. 
 
 
 ## Properties of morphisms of von Neumann algebras
