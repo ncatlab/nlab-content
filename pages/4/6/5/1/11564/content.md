@@ -801,7 +801,7 @@ Then $ku_{conn_ch}$ (def. \ref{HopkinsSingerPullback}) is the Hopkins-Singer ver
 Write
 
 $$
-  K \;\colon\;  CMon_\infty(\infty Grpd) \longrightarrow CGrpd_\infty(\infty Grpd)
+  K \;\colon\;  CMon_\infty(\infty Grpd) \longrightarrow AbGrp_\infty(\infty Grpd)
 $$
 
 for [[∞-group completion]], the [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the inclusion of [[abelian ∞-groups]] ([[connective spectra]]) into [[commutative monoid object in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in [[∞Grpd]].
@@ -860,6 +860,7 @@ following
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 where in section 4.1.2 a fully general abstract account is given.
+
 
 See also
 
