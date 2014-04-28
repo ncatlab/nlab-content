@@ -44,9 +44,9 @@ $$
 
 where $\Pi$ is the [[shape modality]] and $\theta_E$ the [[Maurer-Cartan form]] of $E$. This reproduces the above definition for ordinary differential form models, see at _[differential cohomology diagram -- Hopkins-Singer coefficients](#differential+cohomology+diagram#HopkinsSingerCoefficients)_. 
 
-But more generally, given for instance a [[K(n)-local spectrum|K(n)-localization]] $E \longrightarrow L_{K(n)} E$ then any choice of [[cohesion|cohesive]] refinement of $L_{K(n)} E$ (i.e. lift through the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$) which is in the kernel of $\flat$ yields a generalized differential cohomology theory $\hat E$ whose intrinsic Chern-character $\Pi \theta_{\hat E}$ is the $K(n)$-localization.
+But more generally, given for instance a [[K(n)-local spectrum|K(n)-localization]] $E \longrightarrow L_{K(n)} E$ then any choice of [[cohesion|cohesive]] refinement of $L_{K(n)} E$ (i.e. lift through the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$) which is in the kernel of $\flat$ yields a generalized differential cohomology theory $\hat E$ whose intrinsic Chern-character $\Pi \theta_{\hat E}$ is the $K(n)$-localization. See at _[differential cohomology diagram -- Chern character and differential fracture](differential+cohomology+diagram#ChernCharacterAndFractureSquares)_.
 
-In words this is summarized succintly as: _The Chern characer is the [[shape modality|shape]] of the [[Maurer-Cartan form]]._
+In words this is summarized succintly as: _The Chern character is the [[shape modality|shape]] of the [[Maurer-Cartan form]]._
 
 There are analogues in algebraic geometry (e.g. a Chern character between [[Chow groups]] and [[algebraic K-theory]]) and in [[noncommutative geometry]] (Chern-Connes character) where the role of usual cohomology is taken by some variant of cyclic cohomology.  
 
@@ -115,6 +115,7 @@ $$
 
 For more on this see at _[[differential cohomology diagram]]_.
 
+
 ## Properties
 
 ### Push-forward and Grothhendieck-Riemann-Roch theorem
@@ -169,3 +170,6 @@ See also
 
 
 [[!redirects Chern characters]]
+
+[[!redirects Chern character map]]
+[[!redirects Chern character maps]]
