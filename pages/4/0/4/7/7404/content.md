@@ -5,7 +5,7 @@
 
 ## Definition
 
-An _$E_\infty$-space_ is an [[E-∞ algebra]] in [[Top]].
+An _$E_\infty$-space_ is an [[commutative ∞-monoid]] in [[Top]].
 
 ## Properties
 
@@ -14,6 +14,9 @@ Grouplike $E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there
 ## Related concepts
 
 * [[model structure for dendroidal left fibrations]]
+
+* [[∞-group completion]]
+
 
 [[!include k-monoidal table]]
 
