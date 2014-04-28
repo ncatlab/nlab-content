@@ -351,13 +351,23 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 8.1 Structured ring spectra
 
-* [[ring spectrum]]
+#### 8.1.1 $\mathbb{E}_1$-rings and their modules
 
-* [[module spectrum]]
+* [[A-∞ ring]], [[ring spectrum]], [[algebra spectrum]]
 
-* [[algebra spectrum]]
+* [[∞-module]]. [[module spectrum]]
 
-* stable [[monoidal Dold-Kan correspondence]]
+
+#### 8.1.2 Recognition principle
+
+#### 8.1.3 Change of ring
+
+* [[connective cover]]
+
+#### 8.1.4 Algebras over Commutative Rings
+
+* [[A-∞ algebra]]
+
 
 ### 8.2 Properties of rings and modules
 
