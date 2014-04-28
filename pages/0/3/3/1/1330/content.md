@@ -60,11 +60,13 @@ This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
 
 * Localizations of $(\infty,1)$-categories are modeled by the notion of left [[Bousfield localization of model categories]]. 
 
-  One precise statement is: localizations of [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K)$ are [[presentable (∞,1)-category|presented]] by the left Bousfield localizations of the global projectibe [[model structure on simplicial presheaves]] on the [[simplicial category]] incarnation of $K$.
+  One precise statement is: localizations of [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K)$ are [[presentable (∞,1)-category|presented]] by the left Bousfield localizations of the global projective [[model structure on simplicial presheaves]] on the [[simplicial category]] incarnation of $K$.
 
-* [[∞-stackification]] is the localization of an [[(∞,1)-category]] of [[(∞,1)-presheaves]] to the $(\infty,1)$-subcategory [[(infinity,1)-category of (infinity,1)-sheaves|of (∞,1)-sheaves]].
+* [[∞-stackification]] (or [[(∞,1)-sheafification]]) is the localization of an [[(∞,1)-category]] of [[(∞,1)-presheaves]] to the $(\infty,1)$-subcategory [[(infinity,1)-category of (infinity,1)-sheaves|of (∞,1)-sheaves]].
 
 * [[cohomology localization]]
+
+* [[homotopy localization]]
 
 ## References
 
