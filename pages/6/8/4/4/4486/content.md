@@ -19,12 +19,12 @@ A map is *differentiable* at some point if it can be well approximated by a [[li
 
 One can then ask whether the derivative itself is differentiable, and so on.  This leads to a hierarchy of ever more differentiable maps, starting with [[continuous maps]] and progressing through maps that are $n$ times (continuously) differentiable to those that are infinitely differentiable, and finally to those that are [[analytic map|analytic]].  Infinitely differentiable maps are sometimes called *smooth*.
 
-Differentiability is first defined directly for maps between (open subsets of) [[Euclidean space]].  These differentiable maps can then be used to define the notion of [[differentiable manifold]], and then a more general notion of differentiable map *between* differentiable manifolds, forming a [[category].  We have a parallel hierarchy of ever more differentiable manifolds and ever more differentiable maps between them.  Since every more differentiable manifold has an [[underlying]] less differentiable manifold, we may always consider maps that are less differentiable than the manifolds between which they run.
+Differentiability is first defined directly for maps between (open subsets of) a [[Cartesian space]].  These differentiable maps can then be used to define the notion of [[differentiable manifold]], and then a more general notion of differentiable map *between* differentiable manifolds, forming a [[category]].  We have a parallel hierarchy of ever more differentiable manifolds and ever more differentiable maps between them.  Since every more differentiable manifold has an [[underlying]] less differentiable manifold, we may always consider maps that are less differentiable than the manifolds between which they run.
 
 
 ## Definitions
 
-### From Euclidean space to the real numbers
+### From a Cartesian space to the real numbers
 
 Let $f:U\to \mathbb{R}$ be a function, where $U\subseteq \mathbb{R}^n$ is an [[open subset]].  We say that $f$ is **differentiable** at $x\in U$ if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that
 
@@ -46,17 +46,17 @@ where $E_i$ are functions such that $\lim_{h\to 0}E_i(h) = 0$.  For if this is t
 
 ### Partial and directional derivatives
 
-A weaker notion of differentiability is the following: given any $v\in \mathbb{R}^n$, the **directional deriative** of $f:U\to \mathbb{R}$ at $x\in U$ in the direction of $v$ is the limit
+A weaker notion of differentiability is the following: given any $v\in \mathbb{R}^n$, the **directional derivative** of $f:U\to \mathbb{R}$ at $x\in U$ in the direction of $v$ is the limit
 
-$$ \lim_{h\to 0} \frac{f(x+h v}- f(x)}{h}$$
+$$ \lim_{h\to 0} \frac{f(x+h v)- f(x)}{h}$$
 
-if this exists.  In this case, $h$ is just a real number.  If $v$ is a unit vector $e_i$, then the directional derivative is called a **[[partial derivative]]** with respect to the corresponding coordinate, and often written $\frac{\partial f}{\partial x_i}$ or $f_{x_i}$.
+if this exists.  In this case, $h$ is just a real number.  Historically, the term 'directional derivative' was reserved for when $v$ is a [[unit vector]] (or divide the derivative above by $\|v\|$), but the general concept involves less structure and is more important but has no other established name.  If $v$ is a standard basis vector $e_i$, then the directional derivative is called a **[[partial derivative]]** with respect to the corresponding coordinate, and often written $\frac{\partial f}{\partial x_i}$ or $f_{x_i}$.
 
 If $f$ is differentiable at $x$ in the above sense, then $d f_x(v)$ is its directional derivative along $v$.  In particular, the coordinates of $d f_x$ are the partial derivatives of $f$.
 
-In general, $f$ may have all partial derivatives, and even all directional derivatives, without being differentiable; see the examples below.  However, if $f$ has all partial derivatives and they are *continuous* as functions of $x$, then in fact $f$ is differentiable.
+In general, $f$ may have all partial derivatives, and even all directional derivatives, without being differentiable; see the examples below.  However, if $f$ has all partial derivatives and they are *continuous* as functions of $x$, then in fact $f$ is differentiable (and indeed continuously differentiable).
 
-### Maps between Euclidean spaces
+### Maps between Cartesian spaces
 
 For $U\subseteq \mathbb{R}^n$, a map $f:U\to \mathbb{R}^m$ is differentiable if each component $f_i : U \to \mathbb{R}$ is differentiable.  In this case, the derivatives of the $f_i$ assemble into a linear map $d f_x: \mathbb{R}^n \to \mathbb{R}^m$.
 
@@ -84,9 +84,9 @@ If $X$ and $Y$ are $C^k$-[[manifolds]], then we can define what it means for a m
 
 A differentiable map between manifolds induces a map between their [[tangent bundles]] $d f : T X \to T Y$; this operation extends to a [[functor]] from $C^{k+1}$ manifolds and $C^{k+1}$ maps to $C^k$ manifolds and $C^k$ maps.  See [[differentiation]] for more.
 
-## Examples
+## Examples and non-examples
 
-### Differentiability versus partial derivatives
+### Differentiability versus partial differentiability
 
 The function $f:\mathbb{R}^2 \to \mathbb{R}$ defined by
 
@@ -109,7 +109,7 @@ has all directional derivatives at $(0,0)$ equaling $0$, so that in particular t
 [[Mike Shulman]]: Is there a function that is continuous in a neighborhood of $(0,0)$ *and* has all directional derivatives there equaling $0$, but is not differentiable?
 =--
 
-### Differentiability versus continuity
+### Differentiability versus continuous and higher differentiability
 
 Let $k$ be a [[natural number]], and consider the function
 $$ f_k(x) \coloneqq x^k \sin(1/x) $$
