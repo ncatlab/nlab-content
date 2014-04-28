@@ -23,7 +23,7 @@
 
 The term _Grothendieck group_ has a restricted and a more general meaning.
 
-In its restricted sense the _Grothendieck group_ of an abelian [[monoid]] $A$ is a spacific presentation of its [[group completions]], given as a certain [[group]] structure on a quotient of $A \times A$. This is such that applied to the additive monoid of [[natural number]]s $\mathbb{N}$ it produces the additive group of [[integer]]s $\mathbb{Z}$.
+In its restricted sense the _Grothendieck group_ of an abelian [[monoid]] $A$ is a specific presentation of its [[group completions]], given as a certain [[group]] structure on a quotient of $A \times A$. This is such that applied to the additive monoid of [[natural number]]s $\mathbb{N}$ it produces the additive group of [[integer]]s $\mathbb{Z}$.
 
 The same procedure applied to [[decategorification|isomorphism classes]] of certain [[Quillen exact category|Quillen exact categories]] happens to compute a group that is called the [[algebraic K-theory]] of these categories. There is a very simple very general nonsense behind this, that is described at [[K-theory]].
 
