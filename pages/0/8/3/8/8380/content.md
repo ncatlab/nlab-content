@@ -58,7 +58,7 @@ on the [[syntactic category]]. This [[functor]]
 
 1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a component [[morphism]] $pure_X : X \to T(X)$;
 
-1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow X$ which induces the [[Kleisli composition]] by the formula
+1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow T(X)$ which induces the [[Kleisli composition]] by the formula
 
   $$
     \begin{aligned}
