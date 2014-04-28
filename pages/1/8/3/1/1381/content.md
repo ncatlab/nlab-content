@@ -127,6 +127,8 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
+* [[[[K-theory of a symmetric monoidal (∞,1)-category]]]]
+
 * [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
 
 ## References
