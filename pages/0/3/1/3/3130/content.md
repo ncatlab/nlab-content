@@ -14,46 +14,31 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The **Chern character** of a [[generalized (Eilenberg-Steenrod) cohomology]] theory is a canonical morphism from the generalized cohomology to [[ordinary cohomology]]. When thought of in the refinement to [[differential cohomology]] and thinking of a cocycle in differential cohomology as a generalization of a [[connection on a bundle]], the Chern-character is the map that sends a generalized connection to its [[curvature characteristic form]].
+Traditionally, in the strict sense of the word, the _Chern character_ is a [[universal characteristic class]] of [[vector bundles]] or equivalently of their [[topological K-theory]] classes, which is a [[rational number|rational]] combination of all [[Chern classes]].
 
-The archetypical example is the Chern-character from [[complex K-theory]] to [[ordinary cohomology]]. (This is a map from a [[complex oriented cohomology theory]] of [[chromatic level]] 1 to chromatic level 0. More generally one can also consider [[higher chromatic Chern characters]] that take values not in [[ordinary cohomology]] but in some cohomology theory of higher [[chromatic level]]. See at _[[higher chromatic Chern character]]_ for more on this.)
+(This is a map from a [[complex oriented cohomology theory]] of [[chromatic level]] 1 to chromatic level 0. More generally one can also consider [[higher chromatic Chern characters]] that take values not in [[ordinary cohomology]] but in some cohomology theory of higher [[chromatic level]]. See at _[[higher chromatic Chern character]]_ for more on this.)
 
-More in detail, for every [[generalized (Eilenberg-Steenrod) cohomology]] theory given by a [[spectrum]] $E$, there is a canonical [[natural isomorphism]] from the rationalized $E$-cohomology to ordinary (Eilenberg-MacLane) cohomology with coefficients in the rationalized [[homotopy group]]s of $E$:
 
-$$
-  H(-,E)\otimes \mathbb{R}
-  \;\;
-  \stackrel{\simeq}{\to}
-  \;\;
-  H(-,(\pi_* E)\otimes \mathbb{R})
-  \,.
-$$
+This is a special case of the following more general construction ([[Quadratic Functions in Geometry, Topology,and M-Theory|Hopkins-Singer 02, section 4.8]]):
 
-So rationally, every generalized (Eilenberg-Steenrod) cohomology is ordinary (Eilenberg-MacLane) cohomology. Hence every generalized (ES-)cohomology theory has a canonical morphism to ordinary real cohomology
+for $E$ a [[spectrum]] [[Brown representability theorem|represening]] a [[generalized (Eilenberg-Steenrod) cohomology theory]] there is a canonical [[localization of spectra|localization]] map
 
 $$
-  ch
-  :
-  H(-,E) 
-  \;\;
-  \to 
-  \;\;
-  H(-,E)\otimes \mathbb{R} 
-  \;\;
-  \stackrel{\simeq}{\to} 
-  \;\;
-  H(-,\pi_* E \otimes \mathbb{R})
-  \,.
+  ch_E \;\colon\; E \longrightarrow E \wedge H\mathbb{R}
 $$
 
-In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the term "Chern character" is sometimes used also for the general case. 
+to the [[smash product]] with the the [[Eilenberg-MacLane spectrum]] over the [[real numbers]]. This represents the $E$-Chern character.
 
-There are analogues in algebraic geometry (e.g. a Chern character between the Chow groups and the algebraic K-theory) and noncommutative geometry (Chern-Connes character) where the role of usual cohomology is taken by some variant of cyclic cohomology.  
+
+
+In the case that $E = $ [[KU]] this reproduces the traditional Chern character.
+
+There are analogues in algebraic geometry (e.g. a Chern character between [[Chow groups]] and [[algebraic K-theory]]) and in [[noncommutative geometry]] (Chern-Connes character) where the role of usual cohomology is taken by some variant of cyclic cohomology.  
 
 
 ## For vector bundles and K-theory {#KTheory}
@@ -131,6 +116,10 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 The universal Chern character for [[generalized (Eilenberg-Steenrod) cohomology theory]] is discussed in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, ([math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)).
+
+See also around def. 2.1 in 
+
+* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
 A characterization of Chern-character maps for [[K-theory]] is in
 
