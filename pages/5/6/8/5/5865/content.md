@@ -1453,6 +1453,7 @@ Using this and that $\Pi$ preserves the
 [[terminal object in an (∞,1)-category|terminal object]], so that the [[adjunct]] of
 $(* \to X \to Disc Core \infty Grpd_\kappa)$ is
 $(* \to \Pi(X) \to \infty Grpd_\kappa)$
+
 the second statement follows with an iterated application of the [[(∞,1)-Yoneda lemma]] (this is pure [[Tannaka duality]] as discussed there):
 
 The fiber functor $x^* : Func(\Pi(X), \infty Grpd) \to \infty Grpd$ evaluates an $(\infty,1)$-presheaf on $\Pi(X)^{op}$ at $x \in \Pi(X)$. By the [[(∞,1)-Yoneda lemma]] this is the same as homming out of $j(x)$, where $j : \Pi(X)^{op} \to Func(\Pi(X), \infty Grpd)$ is the [[(∞,1)-Yoneda embedding]]:
@@ -2908,6 +2909,9 @@ on the $\infty$-group $G$, discussed [above](#CurvatureCharacteristics).
 ### Differential cohomology 
  {#DifferentialCohomology}
 
+
+#### Ordinary differential cohomology
+
 In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos]] there is an intrinsic notion of [[ordinary differential cohomology]].
 
 Fix a 0-[[truncated]] [[abelian group|abelian]] [[group object]] $A \in \tau_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$. For all $n \in \mathbf{N}$ we have then the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$.
@@ -3316,6 +3320,7 @@ is itself an [[effective epimorphism in an (∞,1)-category|effective epimorphis
 
 A morphism of $\infty$-groupoids is an effective epimorphism precisely if it is surjective on $\pi_0$ (see [here](http://ncatlab.org/nlab/show/effective+epimorphism+in+an+%28infinity%2C1%29-category#EffectiveEpisOfInfinityGroupoids)). Since $\Omega^{n+1}_{cl}(-,A)$ is assumed to be [[0-truncated]], also 
 
+
 $$
   \Omega^{n+1}_{cl}(X,A) := \mathbf{H}(X, \Omega^{n+1}_{cl}(-,A))
 $$ 
@@ -3415,6 +3420,10 @@ monomorphism of $\infty$-groupoids. These are stable under $\infty$-pullback,
 which proves the claim.
 
 =--
+
+#### Generalized differential cohomology
+
+For cohesive [[stable homotopy types]] the above discussion may be refined and stream-lined considerably. For more on this see at _[[differential cohomology diagram]]_.
 
 
 ### Chern-Weil homomorphism and $\infty$-connections 
