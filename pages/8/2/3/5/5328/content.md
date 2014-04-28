@@ -36,7 +36,7 @@ For $C$ a [[symmetric monoidal (∞,1)-category]] write $CMon(C)$ for the $(\inf
 
 ### Properties
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 * $CMon(C)$ has all [[(∞,1)-coproduct]]s and these are computed as [[tensor product]]s in $C$.
@@ -49,7 +49,7 @@ For $C$ a [[symmetric monoidal (∞,1)-category]] write $CMon(C)$ for the $(\inf
 
 This is ([Lurie, section 4](#Lurie)).
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Corollary
 
 $(\infty,1)$-Colimits over simplicial diagrams exists in $CMon(C)$ and are computed in $C$ if they exist in $C$ and a preserved by tensor products.
@@ -58,14 +58,34 @@ $(\infty,1)$-Colimits over simplicial diagrams exists in $CMon(C)$ and are compu
 
 Because the [[simplex category]] is a [[sifted (infinity,1)-category]] (as discussed there).
 
+## Examples
+
+* In [[∞Grpd]]: [[E-∞ spaces]]
+
+## Related concepts
+
+* [[∞-group completion]]
+
 
 ## References
 
+* {#Lurie} [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
 
-* [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
-{#Lurie}
 
 [[!redirects commutative monoid in a symmetric monoidal (∞,1)-category]]
 
 [[!redirects commutative monoids in a symmetric monoidal (∞,1)-category]]
 [[!redirects commutative monoids in a symmetric monoidal (infinity,1)-category]]
+
+
+[[!redirects commutative ∞-monoid]]
+[[!redirects commutative ∞-monoids]]
+
+[[!redirects commutative ∞-monoid]]
+[[!redirects commutative ∞-monoids]]
+
+[[!redirects commutative ∞-monoid]]
+[[!redirects commutative ∞-monoids]]
+
+[[!redirects commutative infinity-monoid]]
+[[!redirects commutative infinity-monoids]]
