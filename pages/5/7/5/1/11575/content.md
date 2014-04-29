@@ -28,17 +28,18 @@ This usually goes just by "the comparison map". (e.g. [Rosenberg, theorem 2.1](#
 
 ### For complex K-theory
 
-There is a natural [[homomorphism]] of [[spectra]]
+There is a canonical [[homomorphism]] of [[spectra]]
 
 $$
   K \mathbb{C} \longrightarrow KU
 $$
 
-from the [[algebraic K-theory]] of the [[complex numbers]] to [[KU]].
+from the [[algebraic K-theory]] spectrum of the [[complex numbers]] to [[KU]] (e.g. [Paluch 01, lemma 2.6](#Paluch01)). 
 
-(e.g. [Paluch 01, lemma 2.6](#Paluch01))
+In fact in terms of [[cohesion]] of [[smooth spectra]], this is a component of a [[natural transformation]], this we discuss [below](#FormulationInCohesion).
 
 ### Formulation in cohesive homotopy-type theory
+ {#FormulationInCohesion}
 
 Given a [[cohesive (infinity,1)-topos]] and a [[symmetric monoidal (∞,1)-category]] $V\in CMon_\infty(Cat_\infty(\mathbf{H}))$, [[internal (∞,1)-category|internal]] to $\mathbf{H}$ write
 
@@ -50,10 +51,10 @@ for its [[K-theory of a symmetric monoidal (∞,1)-category]] (formed locally an
 
 The [[flat modality]] part $\flat \mathcal{K}(V)$ is the [[algebraic K-theory]] of $\flat V \in CMon_\infty(Cat_\infty)$. The [[shape modality]] part on the other hand is a "topological" version of this
 
-The [[points-to-pieces transform]] $\flat \to \Pi$ provides a canonical comparison map
+The [[points-to-pieces transform]] $\flat \to \Pi$ provides a [[natural transformation|natural]] comparison map
 
 $$
-  \flat \mathcal{K}(V) \longrightarrow \Pi \mathcal{K}(V)
+  \flat (\mathcal{K}(V)) \longrightarrow \Pi (\mathcal{K}(V))
   \,.
 $$
 
