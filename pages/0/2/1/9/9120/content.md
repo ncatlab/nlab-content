@@ -8,7 +8,13 @@
 
   * [[discrete object]],  [[codiscrete object]], [[concrete object]]
 
+  * [[points-to-pieces transform]]
+
   * [[cohesive (infinity,1)-topos -- structures|structures in cohesion]]
+
+**[[tangent cohesive (∞,1)-topos|tangent cohesion]]**
+
+* [[differential cohomology diagram]]
 
 **[[differential cohesion]]**
 
