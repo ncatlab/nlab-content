@@ -163,6 +163,10 @@ There are in turn different ways to make that last statement precise:
 
   For more on this see [[differential forms in synthetic differential geometry]].
 
+### More general kinds of forms
+
+While differential forms are usually restricted to the linear case, there are also more general kinds of "differential forms" which can be integrated.  See for instance [[absolute differential form]] and [[cogerm differential form]].
+
 ## Operations on differential forms
 
 ### Pulling back forms
