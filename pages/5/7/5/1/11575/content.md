@@ -59,7 +59,7 @@ $$
 
 For instance for $\mathbf{H}= $ [[Smooth∞Grpd]] and $V = \mathbf{Vect}^{\oplus}$ the [[stack]] of smooth [[vector bundles]] with [[direct sum]] monoidal structure, then $\flat \mathcal{K}(V)\simeq K \mathbb{C}$ is the [[algebraic K-theory]] of the [[complex numbers]] and $\Pi \mathcal{K}(V)\simeq $ [[KU]] is complex [[topological K-theory]].
 
-See at _[[differential cohomology diagram]]_ for more on thios 
+See at _[[differential cohomology diagram]]_ for more on this.
 
 ## References
 
