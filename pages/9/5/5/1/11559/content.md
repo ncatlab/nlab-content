@@ -129,7 +129,7 @@ Analysis of $Ell$ is in
 
 * {#Baker97} [[Andrew Baker]], The homotopy type of the spectrum representing elliptic cohomology,  Proceedings of the American Mathematical Society 107.2 (1989): 537-548. ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/homell.pdf))
 
-* [[Andrew Baker]], _On the Adams $E_2$-term for elliptic cohomology_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/ell-ext.pdf))
+* [[Andrew Baker]], _On the Adams $E_2$-term for elliptic cohomology_, 1997 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/ell-ext.pdf))
 
 The interpretation of $Ell$ in terms of [[tmf0(2)|TMF0(2)]] is discussed in
 
