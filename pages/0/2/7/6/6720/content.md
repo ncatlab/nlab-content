@@ -19,6 +19,6 @@ _Comparing algebraic and topological K-theory_, in _Higher Algebraic K-Theory: a
 
 ## Related entries
 
-* [[comparison of algebraic and topological K-theory]]
+* [[comparison between algebraic and topological K-theory]]
 
 [[!redirects H. Gillet]]
