@@ -299,6 +299,7 @@ where
 
 1. the bottom morphism is the canonical [points-to-pieces transform](cohesive%20topos#CanonicalComparison)
 
+
 1. the top and bottom outer sequences are long [[homotopy fiber sequences]].
 
 =--
@@ -917,6 +918,7 @@ related to the [[Adams e-invariant]] via ([Bunke 11, section 5.3](#Bunke11)).
 
 
 #### Via smooth Snaith's theorem
+ {#ViaSmoothSnaithTheorem}
 
 (...)
 
