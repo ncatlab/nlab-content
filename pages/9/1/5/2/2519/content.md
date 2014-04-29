@@ -31,23 +31,10 @@ There is a standard definition  and various straightforward variations.
 
 ## standard definition ##
 
+For $(\mathcal{T},R)$ a [[lined topos]] there is the notion of an $R$-algebra object in $\mathcal{T}$. For $A$ and $B$ any two $R$-algebra objects, let $R Alg_\mathcal{T}(A,B)$ denote the [[subobject]] of $B^A$ consisting of morphisms $A \to B$ which are algebra homomorphisms. Let $Spec(A)$ denote the algebra spectrum $R Alg_\mathcal{T}(A,R)$ of $A$ in $\mathcal{T}$.
 
 +-- {: .un_defn }
 ###### Definition
-
-For $(\mathcal{T},R)$ a [[lined topos]] there is the obvious notion of $R$-algebra objects $A$
-in $T$.  
-
-For $A$ and $B$ any two $R$-algebra objects, there is the [[subobject]] $R Alg_T(A,B) \subset B^A$ of morphisms $A \to B$ that are algebra homomorphisms.
-
-Write
-
-$$
-  Spec(A) := R Alg_{\mathcal{T}}(A,R) 
-$$
-
-for the algebra spectrum of $A$ in $\mathcal{T}$.
-
 An **$R$-[[infinitesimal object|Weil algebra]]** $W$ is an $R$-algebra of the form $W = R \oplus J$, 
 where $J$ is an $R$-finite-dimensional nilpotent ideal.
 
@@ -56,26 +43,16 @@ where $J$ is an $R$-finite-dimensional nilpotent ideal.
 
 +-- {: .un_defn }
 ###### Definition
-**(smooth topos)**
-
-A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if 
-
-* the algebra spectra $Spec(W)$ of all [[infinitesimal object|Weil algebras]] $W$
-  in $\mathcal{T}$  are [[infinitesimal object]]s in that
-  the functor $(-)^{Spec W} : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (the "[[amazing right adjoint]]");
-
-* it satisfies the [[Kock-Lawvere axiom]] in that for all $R$-Weil algebra objects $W$ the canonical morphism
+A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if, for each $R$-[[infinitesimal object|Weil algebras]] $W$, the functor $(-)^{Spec W} : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] and the canonical morphism
 
   $$
     W \to R^{Spec(W)}
   $$
 
-  is an [[isomorphism]] in $\mathcal{T}$.
-
+  is an [[isomorphism]] in $\mathcal{T}$
 =--
 
-
-
+That is to say, each $R$-Weil algebra in a lined topos is [[infinitesimal object|infinitesimal]] and satisfies the [[Kock-Lawvere axiom]]. The right adjoint of $(-)^{Spec W}$ is [[amazing right adjoint|amazing]]. 
 
 # Examples #
 
