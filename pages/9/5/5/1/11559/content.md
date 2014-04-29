@@ -28,6 +28,8 @@ $$
 
 ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). Here $Ell[\tfrac{1}{6}]$ is equivalently [[tmf0(2)]] ([Behrens 05](#Behrens05)) and as such this lift is analogous to the [[string orientation of tmf]] $M String \to tmf$.
 
+> hm, check how much structure the map really preserves...
+
 ## Definition
 
 After inversion of the [[prime number]] 2, the oriented [[cobordism ring]] is a [[polynomial ring]] over $\mathbb{Z}[\tfrac{1}{2}]$ on generators in degrees $4k$
@@ -114,7 +116,7 @@ $$
 
 ## References
 
-The constructin is due to 
+The construction is due to 
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
