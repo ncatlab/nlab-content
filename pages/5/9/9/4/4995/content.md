@@ -146,7 +146,7 @@ Sometimes it is desireable to add further axioms, such as the following.
 
 We say that **pieces have points** for an object
 $X$ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
-if the morphism
+if the [[points-to-pieces transform]]
 
 $$
   \Gamma X \to \Gamma Disc \Pi X \simeq \Pi X
@@ -684,6 +684,7 @@ The base $\mathbf{B}$ of cohesion has all [[(∞,1)-limits]] and [[(∞,1)-colim
 =--
 
 +-- {: .proof}
+
 ###### Proof
 
 This is a general property of a reflectively and coreflectively embedded subcategory. The limits are computed by computing them in $\mathbf{H}$ and then applying $\Gamma$ and the colimits are computed by computing them in $\mathbf{H}$ and then applying $\Pi$. For $X : I \to \mathbf{B}$ any [[diagram]] we have
@@ -1325,6 +1326,7 @@ Exposition is at
 
 [[!redirects cohesive ∞-groupoid]]
 [[!redirects cohesive ∞-groupoids]]
+
 [[!redirects cohesive infinity-groupoid]]
 [[!redirects cohesive infinity-groupoids]]
 
