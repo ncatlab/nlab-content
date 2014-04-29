@@ -429,6 +429,6 @@ A type-theoretic formalization of the rationals in [[Coq]] based on the Stern-Br
 
 The paper also describes algorithms for performing arithmetic directly with continued fractions, which are originally due to Gosper:
 
-* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEN, 1972.  See also [this note](http://perl.plover.com/classes/cftalk/INFO/gosper.txt).
+* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEM, 1972.  See also [this note](http://perl.plover.com/classes/cftalk/INFO/gosper.txt).
 
 [[!redirects continued fractions]] 
