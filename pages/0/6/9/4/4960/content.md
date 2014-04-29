@@ -189,7 +189,7 @@ $$
   \flat X \longrightarrow X \longrightarrow &#643; X 
 $$
 
-(given by the [[composition]] of the $\flat$-[[counit of a comonad|counit]] followed by the $&#643;$-[[unit of a monad|unit]]) may be called the transformation **from points to their pieces** or the **points-to-pieces-transformation**, for short.
+(given by the [[composition]] of the $\flat$-[[counit of a comonad|counit]] followed by the $&#643;$-[[unit of a monad|unit]]) may be called the transformation **from points to their pieces** or the **[[points-to-pieces transformation]]**, for short.
 
 =--
 
@@ -232,19 +232,19 @@ Observe then finally that since $f^\ast$ is a [[full and faithful functor|full a
 
 Below in [Further axioms](#FurtherAxioms) we discuss further axioms that one may want to impose on the points-to-pieces transform.
 
-Below in [Properties -- Adjoint quadruples](#AdjointQuadruples) we discuss further properties of the points-top-pieces transformation
+Below in [Properties -- Adjoint quadruples](#AdjointQuadruples) we discuss further properties of the [[points-to-pieces transform]]
 
 +-- {: .num_example }
 ###### Example
 
-In [[infinitesimal cohesion]] the points-to-pieces-transform, def. \ref{TransformationFromPointsToPieces}, is required to be an [[equivalence]].
+In [[infinitesimal cohesion]] the [[points-to-pieces transform]], def. \ref{TransformationFromPointsToPieces}, is required to be an [[equivalence]].
 
 =--
 
 +-- {: .num_example }
 ###### Example
 
-In [[tangent cohesion]] the points-to-pieces transform, def. \ref{TransformationFromPointsToPieces}, is part of the canonical [differential cohomology diagram](tangent+cohesion#TheDifferentialDiagram).
+In [[tangent cohesion]] the [[points-to-pieces transform]], def. \ref{TransformationFromPointsToPieces}, is part of the canonical [[differential cohomology diagram]].
 
 =--
 
@@ -260,7 +260,7 @@ In addition to the fundamental axioms of cohesion above, there are several furth
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
 
-For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points**  in $\mathcal{E}$ (or that the cohesion "verifies the [[Nullstellensatz]]") if the points-to-pieces [[natural transformation]] from def. \ref{TransformationFromPointsToPieces}
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points**  in $\mathcal{E}$ (or that the cohesion "verifies the [[Nullstellensatz]]") if the [[points-to-pieces transformation]] from def. \ref{TransformationFromPointsToPieces}
 
 $$
   f_* X \stackrel{}{\longrightarrow} f_* f^* f_! X \stackrel{\simeq}{\longrightarrow} f_! X 
@@ -385,7 +385,7 @@ For more structure available with a few more axioms see at
 ### Adjoint quadruples and points-to-pieces
   {#AdjointQuadruples}
 
-Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup, in particular concerning the induced points-to-pieces transforms, def. \ref{TransformationFromPointsToPieces}.
+Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup, in particular concerning the induced [[points-to-pieces transforms]], def. \ref{TransformationFromPointsToPieces}.
 
 We write 
 
@@ -438,7 +438,7 @@ $$
   \theta_X : p_* X \to p_! X
 $$
 
-(the points-to-pieces transform, def. \ref{TransformationFromPointsToPieces}) and 
+(the [[points-to-pieces transform]], def. \ref{TransformationFromPointsToPieces}) and 
 
 $$
   \phi_S : p^* S \to p^! S
