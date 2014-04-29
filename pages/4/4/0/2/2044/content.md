@@ -1,1 +1,8 @@
-A (left) [[ideal]] $I$ in a [[ring]] $R$ is __nilpotent__ if the ideal $I^n$ consisting of all $n$-tuple products $i_1\cdots i_n$ of elements in $I$ is the zero ideal. 
+For $n$ a positive integer and $I$ a (left) [[ideal]] of a [[ring]] $R$, let $I^n$ denote the ideal of $R$ consisting of all $n$-tuple products $i_1\cdots i_n$ of elements in $I$. 
+
++-- {: .un_defn }
+###### Definition
+A (left) [[ideal]] $I$ of a [[ring]] $R$ is __nilpotent__ if there exists a positive integer $n$ such that $I^n$ is the zero ideal of $R$. 
+
+=--
+
