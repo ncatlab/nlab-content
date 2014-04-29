@@ -1,4 +1,5 @@
-Let $k$ be a [[commutative unital ring]], usually a [[field]].
+
+Let $k$ be a [[commutative unital ring]], usually a [[field]] (but conceivably even a commutative [[rig]]).
 
 A __nonassociative $k$-algebra__ is a $k$-[[module]] $V$ equipped with a bilinear product $V\otimes V\to V$.
 
