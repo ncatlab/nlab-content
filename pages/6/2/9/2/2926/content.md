@@ -191,7 +191,7 @@ This includes then for instance Maurer-Cartan forms in higher [[supergeometry]] 
 
 #### Relation to the Chern character
 
-Given a [[stable homotopy type]] $\hat E$ in [[cohesion]], then the [[shape modality|shape]] of the Maurer-Cartan form plays the role of the _[[Chern character]]_ on $E \coloneqq \Pi(E)$-cohomology.
+Given a [[stable homotopy type]] $\hat E$ in [[cohesion]], then the [[shape modality|shape]] of the Maurer-Cartan form plays the role of the _[[Chern character]]_ on $E \coloneqq \Pi(\hat E)$-cohomology.
 
 See at _[[Chern character]]_ for more on this, and see at _[[differential cohomology diagram]]_.
 
