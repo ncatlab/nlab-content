@@ -42,18 +42,18 @@ $$
   \infty Grpd
 $$
 
-be the [[terminal object|terminal]] [[(∞,1)-geometric morphism]], where $\Gamma$ is the [[global section]] [[(∞,1)-functor]] and $LConst$ the [[constant ∞-stack]]-functor.
+for the [[terminal object|terminal]] [[(∞,1)-geometric morphism]], where $\Gamma$ is the [[global section]] [[(∞,1)-functor]] and $LConst$ the [[constant ∞-stack]]-functor.
 
 Write $\mathcal{S} := core(Fin \infty Grpd) \in $ [[∞Grpd]] for the [[core]] [[∞-groupoid]] of the [[(∞,1)-category]] of finite $\infty$-groupoids. (We can drop the finiteness condition by making use of a higher [[universe]].) This is canonically a [[pointed object]] $* \to \mathcal{S}$, with points the terminal groupoid.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-For $X \in \mathbf{H}$ an [[object]], a **local system** of [[locally constant ∞-stack]] on $X$ is a morphism
+For $X \in \mathbf{H}$ an [[object]], a **local system** or _[[locally constant ∞-stack]]_ on $X$ is a morphism
 
 $$
-  \tilde \nabla : X \to LConst \mathcal{S}
+  \tilde \nabla \colon X \longrightarrow LConst \mathcal{S}
 $$
 
 in $\mathbf{H}$ or equivalently the object in the [[over-(∞,1)-topos]]
@@ -74,16 +74,16 @@ $$
   }
 $$
 
-In other words, local systems are [[locally constant ∞-stack]]s or [[cocycle]]s for [[cohomology with constant coefficients]].
+In other words, local systems are [[locally constant ∞-stacks]] or equivalenlty their classifying [[cocycles]] for [[cohomology with constant coefficients]].
 
 =--
 
-See [[principal ∞-bundle]] for discussion of how [[cocycle]]s $\tilde \nabla : X \to LConst \mathcal{S}$ classiy morphisms $P \to X$.
+(See [[principal ∞-bundle]] for discussion of how [[cocycle]]s $\tilde \nabla : X \to LConst \mathcal{S}$ classify morphisms $P \to X$.)
 
-+-- {: .un_remark}
++-- {: num_remark}
 ###### Remark
 
-If $\mathbf{H}$ happens to be a [[locally ∞-connected (∞,1)-topos]] in that there is the further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$
+If $\mathbf{H}$ happens to be a [[locally ∞-connected (∞,1)-topos]] in that there is the further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ 
 
 $$
   (\Pi \dashv LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd
@@ -98,14 +98,21 @@ $$
   \,.
 $$
 
-This means that local systems are naturally identified with [[representation]]s ($\infty$-[[permutation representation]]s, as it were) of the fundamental $\infty$-groupoid.
+This means that local systems are naturally identified with [[representations]] ($\infty$-[[permutation representation]]s, as it were) of the [[fundamental ∞-groupoid]] $\Pi(X)$:
+
+$$
+  Maps(X, LConst \mathcal{S}) \simeq Maps(\Pi(X), \mathcal{S})
+  \,.
+$$
+
+This is essentially the basic statement around which [[Galois theory]] revolves.
 
 The [[(∞,1)-sheaf (∞,1)-topos]] over a [[locally contractible space]] is locally $\infty$-connected, and many authors identify local systems on such a topological space with representations of its [[fundamental groupoid]].
 
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a local system $\tilde \nabla : X \to LConst \mathcal{S}$, the cohomology of $X$ with this **local system of coefficients** is 
@@ -122,7 +129,7 @@ where $P_{\tilde\nabla}$ is the [[homotopy fiber]] of $\tilde \nabla$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Unwinding the definitions and using the universality of the [[(∞,1)-pullback]], one sees that a [[cocycle]] $c \in \mathbf{H}(X,\tilde \nabla)$ is a [[diagram]]
@@ -146,7 +153,7 @@ in $\mathbf{H}$. This is precisely a [[section]] of the [[locally constant ∞-s
 
 Local systems can also be considered in abelian contexts. One finds the following version of a local system
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **linear local system** is a [[locally constant sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional [[vector space]]. 
@@ -155,7 +162,7 @@ A **linear local system** is a [[locally constant sheaf]] on a [[topological spa
 
 Regarded as a sheaf $F$ with values in [[abelian group]]s, such a linear local system serves as the coefficient for [[abelian sheaf cohomology]]. As discussed there, this is in degree $n$ nothing but the intrinsic cohomology of the $\infty$-topos with coefficients in the [[Eilenberg-MacLane object]] $\mathbf{B}^n F$.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 On a connected topological space this is the same as a sheaf of sections of a finite-dimensional [[vector bundle]] equipped with flat [[connection on a bundle]]; and it also corresponds to the [[representations]] of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
