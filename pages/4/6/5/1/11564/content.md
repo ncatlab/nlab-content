@@ -963,7 +963,7 @@ which both are differential refinements, def. \ref{DifferentialCoefficients}, of
 
 The differential cohomology hexagon was maybe first highlighted in the context of [[ordinary differential cohomology]]
 
-* {#SimonsSullivan07} [[James Simons]], [[Dennis Sullivan]], _Axiomatic Characterization of Ordinary Differential Cohomology_ ([arXiv:math/0701077](http://arxiv.org/abs/math/0701077))
+* {#SimonsSullivan07} [[James Simons]], [[Dennis Sullivan]], _Axiomatic Characterization of Ordinary Differential Cohomology_,  Journal of Topology 1.1 (2008): 45-56. ([arXiv:math/0701077](http://arxiv.org/abs/math/0701077))
 
 and in the context of [[differential K-theory]] in 
 
