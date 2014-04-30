@@ -316,7 +316,7 @@ A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' i
 
 ### For the homotopy coherent nerve
 
-*  Any [[2-category]] gives a simplcially enriched category using the embedding of [[Cat]] into [[sSet]] via the usual [[nerve]] functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a [[bicategory]] is an extension of this construction. 
+*  Any [[2-category]] gives a simplicially enriched category using the embedding of [[Cat]] into [[sSet]] via the usual [[nerve]] functor. The homotopy coherent nerve of a 2-category considered in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a [[bicategory]] is an extension of this construction. 
 
    A particular case of this nerve is the nerve of a [[2-group]] [[delooping|considered as]] a 2-category.
 
