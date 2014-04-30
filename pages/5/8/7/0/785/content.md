@@ -302,21 +302,22 @@ $$
 
 ## Properties
 
-### Homotopy fiber characterization
+### Fiber-wise characterization
  {#HomotopyFiberCharacterization}
 
-In plain [[homotopy types]]:
 
-+-- {: .num_prop }
++-- {: .num_prop #FiberwiseCharacterizationInInfinityGrpds}
 ###### Proposition
 
-A [[diagram]] 
+In plain [[homotopy types]] (i.e. in [[∞-groupoids]], in the standard [[model structure on simplicial sets]] etc.) the following holds:
+
+a [[diagram]] 
 
 $$
   \array{
     A &\stackrel{f}{\longrightarrow}& B
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{p}}
     \\
     C &\stackrel{g}{\longrightarrow}& D
   }
@@ -326,18 +327,61 @@ is a homotopy pullback diagram precisely if it induces a [[weak equivalence]] on
 
 $$
   \array{
-    hfib(f) &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
+    hfib_b(f) &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
     \\
     \downarrow^{\mathrlap{\simeq}}  && \downarrow && \downarrow
     \\
-    hfib(g) &\longrightarrow& C &\stackrel{g}{\longrightarrow}& D
+    hfib_{p(b)}(g) &\longrightarrow& C &\stackrel{g}{\longrightarrow}& D
   }
 $$
 
+for all elements $b \in B$.
 
 =--
 
-e.g. ([CPS 05, 5.2](#CPS05))
+ (e.g. [CPS 05, 5.2](#CPS05))
+
++-- {: .num_remark }
+###### Remark
+
+For the analog of prop. \ref{FiberwiseCharacterizationInInfinityGrpds} to hold in [[(∞,1)-categories]] more general than [[∞-groupoids]] one would need either "enough [[global elements]]" of the object $B$ to detect all homotopy fibers, or else one would need a suitable "[[internal logic|internal]]" formulation of the statement. 
+
+=--
+
+On the other hand in [[stable homotopy theory]] the statement holds generally:
+
++-- {: .num_prop #FiberwiseRecognitionInStableCase}
+###### Proposition
+
+For $\mathcal{C}$ a [[stable model category]], then for a diagram
+
+$$
+  \array{
+    A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    C &\stackrel{g}{\longrightarrow}& D
+  }
+$$
+
+the following are equivalent
+
+1. the square is a homotopy pullback square;
+
+1. the square is a [[homotopy pushout]] squre;
+
+1. the induced morphism on the homotopy fiber over the [[zero object]] 0 is a weak equivalence
+
+   $$
+      hfib_0(f) \stackrel{\simeq}{\longrightarrow} hfib_0(g)
+      \,.
+   $$
+
+=--
+
+A proof is spelled out for instance in ([Hovey 07, remark 7.1.12](#Hovey07)). (Beware: this is not in the original volume from 1999, but is in the version "reprinted with corrections" from 2007.)
+
 
 ### Pasting law
 
@@ -364,14 +408,16 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 See the references at _[[homotopy limit]]_ .
 
-A fairly comprehensive resource is the appendix of 
+Fairly comprehensive resources are
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-  {#Lurie}
+* {#Hovey07} [[Mark Hovey]], _Model categories_, Mathematical Surveys and Monographs, vol 63, 1999,reprinted 2007
 
+* {#Lurie} [[Jacob Lurie]], appendix of _[[Higher Topos Theory]]_
+  
 See also
 
 * {#CPS05} [[Wojciech Chacholski]], Wolfgang Pitsch, and [[Jerome Scherer]], _Homotopy pullback squares up to localization_ ([arXiv:math/0501250](http://arxiv.org/abs/math/0501250), [pdf](http://sma.epfl.ch/~jscherer/articles/hopullbacks2.pdf))
+
  
 
 ### In terms of homotopy type theory
