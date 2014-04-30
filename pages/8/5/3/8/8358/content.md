@@ -72,7 +72,7 @@ The following is a statement characterizing realizability toposes which is analo
 +-- {: .num_theorem}
 ###### Theorem
 
-A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equivalent]] to) a realizability topos procisely if
+A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equivalent]] to) a realizability topos precisely if
 
 1. $\mathcal{E}$ is [[exact category|exact]] and [[locally cartesian closed category|locally cartesian closed]];
 
@@ -82,11 +82,11 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
 1. there exists an object $D \in \mathcal{E}$ such that
 
-   1. its $(\Gamma \dashv \Delta)$-[[unit of a monad|unit]] is a [[monomorphism]];
+   1. its $(\Gamma \dashv \nabla)$-[[unit of a monad|unit]] is a [[monomorphism]];
 
-   1. all $\Delta \Gamma$-[closed morphisms](closure+operator#InducedClosureOnSlices) have the [[left lifting property]] against $D\to \ast$;
+   1. all $\nabla \Gamma$-[closed regular epis](closure+operator#InducedClosureOnSlices) have the [[left lifting property]] against $D\to \ast$;
 
-   1. for every [[projective object]] $P$ there is a $\Delta \Gamma$-[closed morphism](closure+operator#InducedClosureOnSlices) $P \to D$.
+   1. for every [[projective object]] $P$ there is a $\nabla \Gamma$-[closed morphism](closure+operator#InducedClosureOnSlices) $P \to D$.
 
 =--
 
