@@ -161,7 +161,7 @@ $$
  \,.
 $$
 
-Therefore a chain map $(f,g,\psi) :  C_\bullet \otimes I_\}bullet \to D_\bullet$ that restricted to the two copies of $C_\bullet$ is $f$ and $g$, respectively,  is characterized by a collection of commuting diagrams
+Therefore a chain map $(f,g,\psi) :  C_\bullet \otimes I_\bullet \to D_\bullet$ that restricted to the two copies of $C_\bullet$ is $f$ and $g$, respectively,  is characterized by a collection of commuting diagrams
 
 $$
   \array{
