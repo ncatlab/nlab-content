@@ -18,7 +18,6 @@ This is an instance of a general construction which, given a [[2-category]], or 
 
 It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms (by [[localization|localizing]]).  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  Indeed, a [[cylinder object]] for a category $C$ is the [[product category]] $C \times I$ where $I$ is the category with two objects 0 and 1 and an isomorphism $0 \to 1$.  It is not difficult to see that an isomorphism of functors is the same as a [[homotopy]] of functors with the respect to the [[canonical model structure]] on $Cat$.
 
-
 # Subcategories of Ho(Cat)
 
 Some notable full subcategories of $Ho(Cat)$ include
