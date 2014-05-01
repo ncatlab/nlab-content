@@ -3,6 +3,8 @@
 * table of contents
 {: toc}
 
+The "rising sea" is a metaphor invented by Grothendieck; it is also the name of a website of Daniel Murfet with notes on algebraic geometry as developed in the school of Grothendieck. 
+
 ## Idea
 
 As a metaphor for his approach of problem solving via theory building, [[Alexander Grothendieck]] once referred to the how the rising sea slowly but eventually surrounds solid land masses. This metaphor became more or less proverbial as "The Rising Sea" analogy.
@@ -11,7 +13,13 @@ As a metaphor for his approach of problem solving via theory building, [[Alexand
 
 ## Website 
 
-Daniel Murfet has collected many useful notes on fundamentals of [[algebraic geometry]], [[commutative algebra]], and [[category theory]], which can be found at his website [The Rising Sea](http://therisingsea.org/). 
+Daniel Murfet has written a body of useful notes on fundamentals of [[algebraic geometry]], [[commutative algebra]], and [[category theory]], which can be found at his website [The Rising Sea](http://therisingsea.org/). 
+
+## Related entries 
+
+Grothendieck's metaphor was also discussed at 
+
+* [[nPOV]] 
 
 
 ## References
