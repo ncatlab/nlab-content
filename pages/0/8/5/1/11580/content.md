@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -18,5 +18,9 @@ Daniel Murfet has collected many useful notes on fundamentals of [[algebraic geo
 
 * [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/mclarty1.pdf))
 
-[[!redirects the rising sea]] 
-[[!redirects la mer qui monte]] 
+
+category: reference
+
+[[!redirects The Rising Sea]]
+[[!redirects the rising sea]]
+[[!redirects la mer qui monte]]
