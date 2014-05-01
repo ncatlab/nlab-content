@@ -5,28 +5,25 @@
 
 ## Idea
 
-+-- {: .standout}
 
-Maarten Bergvelt: Moonshine usually refers to the mysterious connections between the Monster simple group and the modular function j. There were a bunch of conjectures about this connection that were proved by Borcherds, en passant mentioning the existence of the Moonshine Vertex Algebra (constructed then later by FLM). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. So I think there shoould be an entry for the general moonshine phenomenon, and then a link to the Moonshine Vertex algebra.
+Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later by FLM). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Everntually there shoould be an entry for the general moonshine phenomenon.
 
-
-Alex Nelson: I agree. The whole idea of moonshine began with John McKay's observation that the Monster group's first nontrivial irreducible representation has 196883 dimensions, and the elliptic modular function $j(\tau)$ has the Fourier series expansion
+The whole idea of moonshine began with [[John McKay]]'s observation that the [[Monster group]]'s first nontrivial [[irreducible representation]] has [[dimension]] 196883, and the [[j-invariant]] $j(\tau)$ has the [[Fourier series]] expansion
 $$
-j(\tau) = q^{-1} + 744 + 196884q + 21493760q^{2} + \dots
+  j(\tau) = q^{-1} + 744 + 196884q + 21493760q^{2} + \dots
 $$
-where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson (1979) that the rest other coefficients are obtained from the dimensions of Monster's irreducible representations. 
+where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson observed in (1979) that the other coefficients are obtained from the dimensions of Monster's irreducible representations. 
 
-But please remember: the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
+But the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
 
-Frenkel, Lepowsky, Meurman (1984) construct an infinite-dimensional module for the Monster. This is by a generalized Kac-Moody algebra via bosonic string theory and the Goddard--Thorn "No Ghost" theorem. The Monster acts naturally on this "Moonshine Module" (denoted by $V\natural$). (I hope that's mildly coherent, I lost track of time and it got later than I imagined...)
+Frenkel, Lepowsky, Meurman (1984) construct an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
 
-Alex Nelson: Well, the long story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular $j$ function). The idea Gannon pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
-=--
+To cut the story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular $j$ function). The idea [[Terry Gannon]] pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
+
 
 ## Related concepts
 
 * [[Monster]]
-
 
 
 ## References
