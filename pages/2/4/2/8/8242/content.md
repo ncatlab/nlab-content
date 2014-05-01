@@ -11,7 +11,19 @@ A [[unimodular integral lattice]] in $\mathbb{R}^{24}$. Related to the [[monster
 
 * [[E8 lattice]]
 
+* [[bosonic string theory]]
+
 ## References
 
+### General
+
+* {#Borcherds99} [[Richard Borcherds]], _The Leech lattice and other lattices_ ([arXiv:math.NT/9911195](http://arxiv.org/abs/math.NT/9911195))
+
 * Wikipedia, _[Leech lattice](http://en.wikipedia.org/wiki/Leech_lattice)_
+
+### Relation to string theory
+
+Relation to [[heterotic string theory]]
+
+* {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
 
