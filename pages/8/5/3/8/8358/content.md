@@ -80,7 +80,7 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
 1. the [[global section]] [[functor]] $\Gamma \coloneqq \mathcal{E}(\ast,-) \colon \mathcal{E}\longrightarrow $ [[Set]] 
 
-   1. has a [[right adjoint]]  $\nabla \colon Set \hookrightarrow \mathcal{E}$ (which is necessarily a [[reflective subcategory|reflective inclusion]] making $\nabla \Gamma$ an [[idempotent monad]]/[[closure operator]]);
+   1. has a [[right adjoint]]  $\nabla \colon Set \hookrightarrow \mathcal{E}$ (which is necessarily a [[reflective subcategory|reflective inclusion]] making $\nabla \Gamma$ a finite-limit preserving [[idempotent monad]]/[[closure operator]]);
 
    1. $\nabla$ factors through $Proj(\mathcal{E})$;
 
