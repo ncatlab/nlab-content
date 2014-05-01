@@ -48,6 +48,22 @@ After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman
 [[David Roberts]]: wasn't there some discussion on the cafe about the sporadic groups potentially being part of more systematic families of weaker structures? (monoids or something) If there are any references in that discussion they could perhaps be pulled in here and at [[classification of finite simple groups]] and/or [[sporadic finite simple group]].
 =--
 
+## Presentation 
+
+The Monster admits a reasonably succinct description in terms of [[Coxeter groups]]. Let $[n]$ denote the linear [[graph]] with vertices $0, 1, \ldots, n$ with an edge between adjacent numbers $i, i+1$ and no others. If $1$ is the terminal (1-element) graph, there is a map $0: 1 \to [n]$, mapping the vertex of $1$ to the vertex $0$. Regarding this as an object in the [[undercategory]] $1 \downarrow Graph$, let $Y_{443}$ be the [[coproduct]] of the three objects $0: 1 \to [4]$, $0: 1 \to [4]$, $0: 1 \to [3]$ in $1 \downarrow Graph$. This (pointed) graph has 12 elements and is shaped like a $Y$, with arms of length 4, 4, 3 emanating from a central vertex of valence $3$. 
+
+Regard $Y_{443}$ as a Coxeter diagram. The associated Coxeter group $C_{443}$ is given by a [[group presentation]] with 12 generators (represented by the vertices) of order $2$ (so 12 relators of the form $x^2 = 1$), with a relation $(x y)^3 = 1$ if $x, y$ are adjacent vertices (so 11 relators, one for each edge), and $x y = y x$ if $x, y$ are non-adjacent (55 more relators). This Coxeter group (12 generators, 78 relators) is infinite, but by modding out by another strange 'spider' relator 
+
+$$(a b_1 c_1 a b_2 c_2 a b_3 c_3)^{10} = 1$$ 
+
+the resulting quotient $N$ turns out to be a [[finite group]]. Here $a$ is the central vertex of valence $3$, $b_1, c_1$ are on an arm of length $4$ with $b_1$ adjacent to $a$ and $c_1 \neq a$ adjacent to $b_1$; similarly for $b_2, c_2$ on the other arm of length $4$, and for $b_3, c_3$ on the arm of length $3$. See [here](http://www.maths.qmul.ac.uk/~jnb/web/Pres/Mnst.html) if this is not clear. 
+
+It turns out that $N$ has a [[center]] $C$ of order $2$, and the Monster $M$ is the quotient, i.e. the indicated term in the exact sequence  
+
+$$1 \to C \to N \to M \to 1.$$ 
+
+This implicitly describes the Monster in terms of 12 generators and 80 relators. 
+
 
 ## Related concepts
 
@@ -59,6 +75,10 @@ After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
+
+## References 
+
+* Adam P. Goucher (http://mathoverflow.net/users/39521/adam-p-goucher), _Presentation of the Monster Group_, URL (version: 2013-09-15): http://mathoverflow.net/q/142216
 
 
 [[!redirects Monster]]
