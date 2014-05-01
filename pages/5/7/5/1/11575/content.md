@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Higher spin geometry
-+-- {: .hide}
-[[!include higher spin geometry - contents]]
-=--
 =--
 =--
 
@@ -70,6 +66,10 @@ See at _[[differential cohomology diagram]]_ for more on this.
 Discussion relating [[algebraic K-theory]] of [[varieties]] to complex topological K-theory is in 
 
 * {#Paluch01} Michael Paluch, _Algebraic $K$-theory and topological spaces_, K-theory 471 (2001) ([web](http://www.math.uiuc.edu/K-theory/0471/))
+
+and for [[sheaves of spectra]] of [[twisted K-theory]] in 
+
+* {#AntieuWilliams11} [[Benjamin Antieau]], [[Ben Williams]], section 2.3 of _The period-index problem for twisted topological K-theory_, Geometry & Topology ([arXiv:1104.4654](http://arxiv.org/abs/1104.4654))
 
 Discussion in terms of [[Banach algebras]] is in 
 
