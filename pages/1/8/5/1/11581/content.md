@@ -1,0 +1,30 @@
+[[!redirects monster vertex algebra]]
+
+## Idea
+
+A [[vertex operator algebra]] naturally acted on by the [[monster group]].
+
+## Related entries
+
+* [[Moonshine]]
+
+## References
+
+* Wikipedia, _[Monster vertex algebra](http://en.wikipedia.org/wiki/Monster_vertex_algebra)_
+
+
+[[!redirects monster vertex operator algebra]]
+[[!redirects Monster vertex operator algebra]]
+
+
+[[!redirects monster VOA]]
+[[!redirects Monster VOA]]
+
+
+
+[[!redirects Moonshine vertex operator algebra]]
+[[!redirects Moonshine VOA]]
+
+[[!redirects moonshine vertex operator algebra]]
+[[!redirects moonshine VOA]]
+
