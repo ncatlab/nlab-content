@@ -238,6 +238,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
     * [[6d (2,0)-supersymmetric QFT]]
 
 
+
 [[!include table of branes]]
 
 
@@ -333,16 +334,37 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
 ### Fields medal work induced by string theory
+ {#FieldMedalWork}
 
 Pure [[mathematics]] work which came out of string theory and was awared with a [[Fields medal]] includes the following.
 
-* [[Edward Witten]]'s medal in 1990
+[[Richard Borcherds]], 1998
 
-* [[Maxim Kontsevich]]'s medal in 1998
+* [[vertex algebras]]
 
-(...)
+  * [[monster vertex algebra]], [[Goddard-Thorn theorem]]
 
-(see behind the name links for more...)
+[[Maxim Kontsevich]], 1998
+
+* [[homological mirror symmetry]],
+
+* [[Gromov-Witten theory]]
+
+* [[Kontsevich formality|formality theorem]] and  [[formal deformation quantization]] via [[holographic principle|holography]] of [[Poisson sigma-model]] string.
+
+[[Edward Witten]], 1990
+
+* [[knot invariants]] via [[WZW model]]-string/[[Chern-Simons theory]] [[AdS3-CFT2 and CS-WZW correspondence|holography]];
+
+* [[elliptic genus]], [[Witten genus]] and rigidity via [[superstring]] [[partition functions]];
+
+* [[mirror symmetry]] via [[A-model]]/[[B-model]] [[topological string]])
+
+[[Grigori Perelman]], 2006
+
+* [[Ricci flow]] for string [[sigma-model]] in [[dilaton gravity]] background
+
+
 
 [[!redirects string theories]]
 
