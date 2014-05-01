@@ -23,6 +23,10 @@ For more see at _[[string theory]]_.
 
 ## Properties
 
+### Leech lattice compactification
+
+* [[Leech lattice]]
+
 ### D25 brane decay and true tachyon vacuum
 
 See at _[[Sen's conjecture]]_ on the [[D25-brane]] decay.
