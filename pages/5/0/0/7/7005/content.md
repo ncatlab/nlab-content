@@ -284,7 +284,7 @@ A discussion of univalence in categories of [[diagrams]] over an [[inverse categ
 
 This discusses [[canonicity]] of univalence in its section 13. Another approach to showing canonicity is (via [[cubical sets]]) in 
 
-* [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Coq code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY))
+* [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Haskell code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY))
   {#CoquandHuber13}
 
 
