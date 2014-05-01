@@ -429,8 +429,8 @@ A type-theoretic formalization of the rationals in [[Coq]] based on the Stern-Br
 
 * Milad Niqui and Yves Bertot, _QArith: Coq Formalisation of Lazy Rational Arithmetic_, INRIA report RR-5004, November 2003. ([web](http://hal.inria.fr/inria-00077041/))
 
-The paper also describes algorithms for performing arithmetic directly with continued fractions, which are originally due to Gosper:
+Their library includes two implementations of the field operations: 1. a "strict" implementation (in the programming languages sense) in which the operations are performed by first converting continued fractions to ordinary fractions, applying the usual algorithms for arithmetic, and then converting back, and 2. a "lazy" implementation operating directly on continued fractions, in which the operations only need to inspect a portion of the input stream in order to determine a portion of the output stream.  This latter approach is based on ideas originally due to Gosper:
 
-* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEM, 1972.  See also [this note](http://perl.plover.com/classes/cftalk/INFO/gosper.txt).
+* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEM, 1972.  (Also described in more detail in [this unpublished note](http://www.tweedledum.com/rwg/cfup.htm).)
 
 [[!redirects continued fractions]] 
