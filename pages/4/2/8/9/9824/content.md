@@ -4,4 +4,8 @@
 
 * Russian translation, _&#1059;&#1088;&#1086;&#1078;&#1072;&#1080; &#1080; &#1087;&#1086;&#1089;&#1077;&#1074;&#1099;_.  [url](http://www.mccme.ru/free-books/grothendieck/RS.html)
 
+## Related entries
+
+* [[The Rising Sea]]
+
 [[!redirects Recoltes et Semailles]]
