@@ -263,7 +263,7 @@ Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logic
   {#CCGP09}
 
 
-* Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+* [[Ugo Dal Lago]], Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
 
 Discussion of linear type theory without [[units]] is in 
