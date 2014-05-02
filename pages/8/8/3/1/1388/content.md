@@ -65,3 +65,8 @@ Another version of the $A_\infty$-ring is simply what is usually called the $A_\
 [[!redirects ∞-rings]]
 [[!redirects infinity-ring]]
 [[!redirects infinity-rings]]
+
+[[!redirects A-∞ ring spectrum]]
+[[!redirects A-infinity ring spectrum]]
+[[!redirects A-∞ ring spectra]]
+[[!redirects A-infinity ring spectra]]
