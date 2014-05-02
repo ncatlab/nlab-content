@@ -27,7 +27,7 @@ $$
  \end{aligned}
 $$
 
-and contains all but six of the other 25 [[sporadic finite simple groups]] as 
+and contains all but six, the 'pariahs', of the other 25 [[sporadic finite simple groups]] as 
 [[subquotient]]s. 
 
 See also [[Moonshine]].
