@@ -108,6 +108,10 @@ The idea of topological twisting of [[supersymmetry|supersymmetric]] quantum fie
 
 * [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
+often referred to as "[[cohomological field theory]]"
+
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
+
 where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted and related to [[Donaldson theory]]. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
 
 * [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77,1994 ([arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074))
