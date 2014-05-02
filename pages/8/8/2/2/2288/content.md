@@ -82,6 +82,9 @@ A survey of formalisms used in stable homotopy theory -- tools to present the [[
 
 * [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+* Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
+
+
 An account in terms of [[(∞,1)-category theory]] is in section 1 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
