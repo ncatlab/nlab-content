@@ -27,7 +27,7 @@ In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[mono
 
 For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity rings]] as ordinary [[monoids]] and [[E-infinity rings]] as ordinary [[commutative monoids]] in a suitable ordinary [[category]].
 
-Historically, this had been desired but out of reach for a long time. When the relevant [[highly structure ring spectra]] were finally found, the relief was substantial and led to terminology such as "[[brave new algebra]]".
+Historically, this had been desired but out of reach for a long time. When the relevant [[highly structured ring spectra]] were finally found, the relief was substantial and led to terminology such as "[[brave new algebra]]".
 
 ## Prehistory
 
