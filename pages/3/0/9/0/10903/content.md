@@ -154,7 +154,11 @@ A [[syntax]] extending [[LF]] with linear dependent types was first published in
  
 * {#Pfenning96} Iliano Cervesato, [[Frank Pfenning]], _A Linear Logical Framework_, 1996, ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.1152))
 
-and followed up on 
+Note that this framework was restricted to the _negative_ fragment of intuitionistic linear logic and dependent type theory (i.e., $\multimap$, $\&$ and $\Pi$).  The problem of extending LF to positive connectives ($\otimes,1,!,\exists$) while retaining a reasonable notion of [[canonical form]] was later addressed by
+
+* Kevin Watkins, Iliano Cervesato, Frank Pfenning, David Walker, _A concurrent logical framework I: Judgments and properties_, CMU technical report CMU-CS-02-101, revised May 2003 ([web](http://www.cs.cmu.edu/~fp/papers/CMU-CS-02-101.pdf))
+
+More recent work in the type-theoretic literature includes:
 
 * [[Ugo Dal Lago]], _Linear Dependent Types in a Subrecursive Setting_, in _Bounded Linear Logic Workshop_ Fontainebleau, 2013.
 
