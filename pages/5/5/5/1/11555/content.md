@@ -42,7 +42,7 @@ wich, after inversion of 2, surjects onto the ring $\mathbb{Z}[\tfrac{1}{2}][\de
 
 This is [Kreck-Stolz 93, theorem 1](#KreckStolz93) (while we follow in notation [Hovey 95, page 2](#Hovey95)), which is a kind of refinement of the [[SO orientation of elliptic cohomology]] due to  ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)).
 
-> hm, check how much structure the map really preserves...
+If this map of [[ring spectra]] could be shown to be "highly structured" in that it preserves [[E-∞ ring]] structure, then it would equivalently be a universal [[orientation in generalized cohomology|orientation]]  (see at [relation between orientations and genera](orientation+in+generalized+cohomology#RelationToGenera)).
 
 
 ## Properties
