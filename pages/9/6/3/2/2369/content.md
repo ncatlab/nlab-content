@@ -21,9 +21,15 @@
 
 ## Idea
 
-A _ring spectrum_ is a model for an [[A-∞ ring]].
+In older literature, the term  _(commutative) ring spectrum_ refers to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]], hence to a [[spectrum]] equipped with a product operation, which is associative (and commutative) up to unspecified [[homotopy]].
 
-The notion of [[spectrum]] is the generalization of the notion of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The notion of **ring spectrum** is the corresponding generalization of the notion of [[ring]].
+Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
+
+In terms of modern [[homotopy theory]] the monoid structure alone is in general not quite appropriate, since one really needs [[A-∞ ring]] struture or even [[E-∞ ring]] structure. On the other hand, with a suitably [[symmetric monoidal smash product of spectra]] on the given category of spectra, this does follow. 
+
+For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
+
+
 
 ## Definition
 
@@ -31,7 +37,7 @@ A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathc
 
 This means that a ring spectrum is a monoid in the category $\mathcal{S}$ of [[spectrum|spectra]] up to not-necessarily coherent [[homotopy]].
 
-A monoid-up-to-homotopy in the category of spectra for which the homotopies are coherent is called an $A_\infty$-[[A-infinity ring specturm|ring spectrum]] or just an $A_\infty$-[[A-∞ ring|ring]]. These may be modeled as [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
+A monoid-up-to-homotopy in the category of spectra for which the homotopies are coherent is called an $A_\infty$-[[A-infinity ring spectrum|ring spectrum]] or just an $A_\infty$-[[A-∞ ring|ring]]. These may be modeled as [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
 
 Abstractly these are [[En-algebra|E1-algebras]] in the [[symmetric monoidal (∞,1)-category]] [[Spec]] of [[spectra]].
 
@@ -57,6 +63,7 @@ An account in terms of [[model categories]] is in
 
 See also the references at [[stable homotopy theory]].
 
+* Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
 
 [[!redirects ring spectra]]
 
