@@ -6,32 +6,32 @@ Let us recap a few basic definitions:
 
 **Definition:** An **extended topological quantum field theory** (extended TQFT) is a symmetric monoidal functor $Z:n\mathbf{Cob}\longrightarrow n\mathbf{Vect}$.
 
-**Definition:** A **$B$-cobordism from $(X,g)$ to $(Y,h)$** is a cobordism $W:X\longrightarrow Y$ with a homotopy class of maps $F:W\longrightarrow B$ such that $F|_{X}=g,F|_{Y}=h$.
+**Definition:** A **$B$-cobordism, where $B$ is a path-connected space with basepoint $*$, from $(X,g)$ to $(Y,h)$** is a cobordism $W:X\longrightarrow Y$ with a homotopy class of maps $F:W\longrightarrow B$ such that $F|_{X}=g,F|_{Y}=h$.
 
-Let us define $\mathcal{M}$, a cobordism $\mathcal{M}:(\Lambda,g)\longrightarrow(\Lambda,g)$. Then, a $\mathcal{M}$-cobordism is the cobordism $\mathcal{M}:\Lambda\longrightarrow\Lambda$ with a homotopy class of maps $F:\mathcal{M}\longrightarrow \mathcal{M}$ (i.e., $F\in\mathrm{End}(\mathcal{M})$) such that $F|_{\Lambda}=g$. Such a homotopy class of maps can easily be found, and is a basic differential geometry exercise.
+Let us consider the case where $B$ itself is an $X$-cobordism, where $X$ is a path-connected space with basepoint $*$.
 
 **Definition:** A **homotopy quantum field theory** (homotopy QFT) with background $B$ is a symmetric monoidal functor $\tau:\mathbf{HCobord}(n,B)\longrightarrow n\mathbf{Vect}$.
 
-It follows that an extended TQFT is a special case of homotopy QFTs, i.e.,_an $(n+1)$-dimensional homotopy QFT with background $\mathcal{M}$ is an extended $n$-dimensional TQFT._
+_It follows that an extended TQFT is a special case of homotopy QFTs, i.e.,_an $(n+1)$-dimensional homotopy QFT with background $B$ is an extended $n$-dimensional TQFT._
 
 We have the category of homotopy QFTs:
 $$\mathbf{HQFT}(n,B)=\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,B),R\mathbf{Mod}\right)$$
 We can write:
-$$\mathbf{TQFT}_{\mathcal{M}}(n)=\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,\mathcal{M}),R\mathbf{Mod}\right)$$
-For every continuous $f:\mathcal{M}^\prime\longrightarrow \mathcal{M}$, there exists a functor $F:\mathbf{HQFT}(n,\mathcal{M})\longrightarrow\mathbf{HQFT}(n,\mathcal{M}^\prime)$. This in turn induces a functor:
+$$\mathbf{TQFT}_{B}(n)=\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,B),R\mathbf{Mod}\right)$$
+For every continuous $f:B^\prime\longrightarrow B$, there exists a functor $F:\mathbf{HQFT}(n,B)\longrightarrow\mathbf{HQFT}(n,B^\prime)$. This in turn induces a functor:
 $$
-F:\mathbf{TQFT}_{\mathcal{M}}(n)\longrightarrow\mathbf{TQFT}_{\mathcal{M}^\prime}(n)\implies F\in\mathbf{Morph}(\mathbf{TQFT}(n))
+F:\mathbf{TQFT}_{B}(n)\longrightarrow\mathbf{TQFT}_{B^\prime}(n)\implies F\in\mathbf{Morph}(\mathbf{TQFT}(n))
 $$
-The functor $F$ induced by the continuous $f:\mathcal{M}^\prime\longrightarrow \mathcal{M}$ is hence a morphism in the category of $n$-dimensional TQFTs, $\mathbf{TQFT}(n)$. The objects in $\mathbf{TQFT}(n)$ are:
-$$\mathbf{Ob}(\mathbf{TQFT}(n))=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,\mathcal{M}),R\mathbf{Mod}\right)$$
-Let $\Pi\mathcal{A}=S^n$, i.e., the fundamental groupoid of $\mathcal{A}\in\mathbf{Top}$ is $S^n$, and $\Pi\mathcal{B}=\mathcal{M}$[^This implies that $\mathcal{M}$ is path-connected.]. Then, let us denote the comma category between $\Pi\mathcal{A}$ and $\Pi\mathcal{B}$ as $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. There exists an inclusion functor $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,\mathcal{M})$. Thus, we may write local systems on the $n$-th loop space $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ of $\mathcal{M}$ as elements of $\mathbf{HCobord}(n,\mathcal{M})$. We know that $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,\mathcal{M})$ is an inclusion functor. Let us restrict $\tau$ to $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$, giving us a subcategory of $\mathbf{TQFT}_{\mathcal{M}}(n)$:
-$$\mathbf{TQFT}_{\mathcal{M}}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset\mathbf{TQFT}_\mathcal{M}(n)$$
+The functor $F$ induced by the continuous $f:B^\prime\longrightarrow B$ is hence a morphism in the category of $n$-dimensional TQFTs, $\mathbf{TQFT}(n)$. The objects in $\mathbf{TQFT}(n)$ are:
+$$\mathbf{Ob}(\mathbf{TQFT}(n))=\bigcup_{B\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,B),R\mathbf{Mod}\right)$$
+Let $\Pi\mathcal{A}=S^n$, i.e., the fundamental groupoid of $\mathcal{A}\in\mathbf{Top}$ is $S^n$, and $\Pi\mathcal{B}=B$[^This implies that $B$ is path-connected.]. Then, let us denote the comma category between $\Pi\mathcal{A}$ and $\Pi\mathcal{B}$ as $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. There exists an inclusion functor $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,B)$. Thus, we may write local systems on the $n$-th loop space $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ of $B$ as elements of $\mathbf{HCobord}(n,B)$. We know that $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,B)$ is an inclusion functor. Let us restrict $\tau$ to $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$, giving us a subcategory of $\mathbf{TQFT}_{B}(n)$:
+$$\mathbf{TQFT}_{B}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset\mathbf{TQFT}_B(n)$$
 This category consists of all symmetric monoidal functors $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow n\mathbf{Vect}$. We may choose a locally constant sheaf $\mathcal{F}$ on $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. Then,
-$$\mathbf{TQFT}_{\mathcal{M}}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathcal{F},n\mathbf{Vect}\right)\subset\mathbf{TQFT}_\mathcal{M}(n)$$
+$$\mathbf{TQFT}_{B}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))=\bigcup_{B\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathcal{F},n\mathbf{Vect}\right)\subset\mathbf{TQFT}_B(n)$$
 
 ##A Study of Cobordisms as Presheafs##
 We know that $\bigcup\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset n\mathbf{Cob}$. This is a union over all $n$-cobordisms of locally constant $\infty$-stackes over $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. Let us define an $(\infty,1)$-sheaf $(\infty,1)$-topos $\mathbf{H}$ such that $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\in\mathbf{H}$. Define $\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))$. We see that
-$$\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right),\mathrm{LConst}(\mathbf{Core(Fin\infty Grpd)})\right)$$
+$$\bigcup_{B\in n\mathbf{Cob}}\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\bigcup_{B\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right),\mathrm{LConst}(\mathbf{Core(Fin\infty Grpd)})\right)$$
 Here, $\mathrm{LConst}$ denotes the constant $\infty$-stack functor. The $\infty$-groupoid of locally constant $\infty$-stacks on $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is $\mathrm{LConst}(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset n\mathbf{Cob}$.
 
 
@@ -60,7 +60,7 @@ This makes $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ a full $(\infty
 
 **Theorem 2:** _There exists the following equivalence of categories:
 $$\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)=\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$$
-This means that every map $S^n\to\mathcal{M}$ is equivalent to some sheaf over $\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$.
+This means that every map $S^n\to B$ is equivalent to some sheaf over $\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$.
 $$\mathrm{LConst}\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}=\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}$$
 I.e.:
 
@@ -86,4 +86,4 @@ $$
 \mathrm{Fun}_{(\infty,1)}\left(\mathrm{LConst}\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\right)=$$
 $$\mathrm{Fun}_{(\infty,1)}\left(\mathbf{PSh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}},\mathbf{Sh}_{(\infty,1)}\left(\Pi\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\right)^{\mathrm{op}}\right)
 $$
-This is the left adjoint of $\mathcal{Y}_{(\infty,1)}$. Thus, $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a total category.
+This is the left adjoint of $\mathcal{Y}_{(\infty,1)}$. Thus, $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ is a total category. 
