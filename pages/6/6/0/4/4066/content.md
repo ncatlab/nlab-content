@@ -44,9 +44,7 @@ Griess proved the existence of the largest simple sporadic group. The author con
 After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman and/or Borcherds showed that the Griess algebra is just the degree 2 part of the infinite dimensional [[Moonshine vertex algebra]].
 
 
-+--{: .query}
-[[David Roberts]]: wasn't there some discussion on the cafe about the sporadic groups potentially being part of more systematic families of weaker structures? (monoids or something) If there are any references in that discussion they could perhaps be pulled in here and at [[classification of finite simple groups]] and/or [[sporadic finite simple group]].
-=--
+There is a school of thought, going back to at least [[Israel Gelfand]], that sporadic groups are really members of some other infinite families of algebraic objects, but due to numerical coincidences or the like, just happen to be groups (see [this nCafe post](http://golem.ph.utexas.edu/category/2006/09/mathematical_kinds.html)). One version of this, in the case of the Monster (and perhaps for other sporadic groups via [[Moonshine]] phenomena) is that what we know as the Monster is just a shadow of a [[2-group]], as the Monster can be constructed as an automorphism group of a [[conformal field theory]], a structure rich enough to have a automorphism 2-group(oid) (see [this nCafe discussion](http://golem.ph.utexas.edu/category/2008/10/john_mckay_visits_kent.html#c019440)).
 
 ## Presentation 
 
