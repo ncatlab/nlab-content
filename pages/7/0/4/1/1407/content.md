@@ -333,7 +333,7 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
-### Fields medal work induced by string theory
+### Fields medal work related to string theory
  {#FieldMedalWork}
 
 Pure [[mathematics]] work which is closely related string theory and was awared with a [[Fields medal]] includes the following.
