@@ -168,6 +168,9 @@ Random useful discussion is in
 
 * [[Jon Beardsley]], _[Chromotopy](http://chromotopy.org/)_
 
+* Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
+
+
 Discussion of generalization of [[elliptic cohomology]] to higher chromatic homotopy theory is discussed in
 
 * [[Doug Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
