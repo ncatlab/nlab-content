@@ -336,7 +336,7 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 ### Fields medal work induced by string theory
  {#FieldMedalWork}
 
-Pure [[mathematics]] work which came out of string theory and was awared with a [[Fields medal]] includes the following.
+Pure [[mathematics]] work which is closely related string theory and was awared with a [[Fields medal]] includes the following.
 
 [[Richard Borcherds]], 1998
 
