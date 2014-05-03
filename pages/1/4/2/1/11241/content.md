@@ -59,7 +59,7 @@ General reviews include
 A discussion well-informed by theoretical [[computability]], [[realizability]] and [[intuitionistic mathematics|intuitionistic]](/[[constructive mathematics]] is in 
 
 
-* {#Waaldijk03} [[Frank Waaldijk]], section 7 of _On the foundations of constructive mathematics -- especially to the theory of continuous functions_, 2003  ([pdf](http://www.fwaaldijk.nl/foundations+of+constructive+mathematics.pdf), [web discussion](http://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
+* {#Waaldijk03} [[Frank Waaldijk]], section 7 of _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_, 2003  ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf), [web discussion](http://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
 
 
 Discussion of physical processes which are not type-I computable by [[partial recursive functions]] are found in
