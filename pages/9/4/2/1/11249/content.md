@@ -1,9 +1,10 @@
 
-* [webpage](http://fwaaldijk.wordpress.com)
+* [webpage](http://www.fwaaldijk.nl/mathematics.html)
+* [math science philosophy blog](http://fwaaldijk.wordpress.com)
 
 ## some writings
 
-* _On the foundations of constructive mathematics &#8211; especially to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations+of+constructive+mathematics.pdf))
+* _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
 ## Related $n$Lab entries
 
