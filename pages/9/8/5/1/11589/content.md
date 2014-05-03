@@ -1,0 +1,5 @@
+Hirota equations are certain bilinear equations related to integrable hierarchies.
+The dependent variables can be identified with $\tau$-[[tau-function|functions]].
+
+[[!redirects Hirota bilinaer equation]]
+[[!redirects Hirota equations]]
