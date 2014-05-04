@@ -49,7 +49,7 @@ Every [[pretopological space]] is also a pseudotopological space; these may be c
 
 ## References
 
-*  [[Mike Shulman]] (2008); Ultrafilters, Pseudotopological spaces, and [[Stone-∞ech compactification]]; [pdf](http://www.math.ucsd.edu/~mshulman/papers/pstonecech/pstonecech.pdf)
+*  [[Mike Shulman]] (2008); Ultrafilters, Pseudotopological spaces, and [[Stone-∞ech compactification]]; [pdf](http://home.sandiego.edu/~shulman/papers/pstonecech.pdf)
 
 
 [[!redirects pseudotopological space]]
