@@ -30,7 +30,7 @@ The [[Bousfield localization of spectra|localization]] $MU_{(p)}$ of [[complex c
 +-- {: .num_theorem}
 ###### Theorem
 
-For each [[prime]] $p$ there is an unique [[E-∞ ring]] [[spectrum]] $B P$ which is a [[retract]] of $M U_{(p)}$ such that the map $MU_{(p)} \to B P$ is multiplicative and such that
+For each [[prime]] $p$ there is an unique commutative ring [[spectrum]] $B P$ which is a [[retract]] of $M U_{(p)}$ such that the map $MU_{(p)} \to B P$ is multiplicative and such that
 
 1. (...)
 
