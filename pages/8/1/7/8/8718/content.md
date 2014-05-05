@@ -1,4 +1,3 @@
 [[!redirects amacfie]]
-[Home page](http://andrewmacfie.com)
 
 category:people
