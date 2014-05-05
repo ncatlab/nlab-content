@@ -76,7 +76,7 @@ $$  S V = \bigoplus_{n \ge 0} S^n V $$
 
 becomes a monoid object called the **symmetric algebra** of $V$.
 
-If $C$ is a more general sort of symmetric monoidal category, then we need a different construction of $S^n V$.  For example, if $C$ is a symmetric monoidal category with finite colimits, we can simply define $S^n V$ to be the coequalizer of the action of the symmetric group $S_n$ on $V^{\otimes n}$.  And if $C$ also has countable coproducts, we can define 
+If $C$ is a more general sort of symmetric monoidal category, then we need a different construction of $S^n V$.  For example, if $C$ is a symmetric monoidal category with finite colimits, we can simply define $S^n V$ to be the [[coequalizer]] of the action of the symmetric group $S_n$ on $V^{\otimes n}$.  And if $C$ also has countable coproducts, we can define 
 
 $$  S V = \coprod_{n \ge 0} S^n V $$
 
