@@ -24,7 +24,7 @@
 For $\Delta$ the [[simplex category]] write $\Delta_{\leq n}$ for its [[full subcategory]] on the objects $[0], [1], \cdots, [n]$. The inclusion $\Delta|_{\leq n} \hookrightarrow \Delta$ induces a truncation functor
 
 $$
-  tr_n : sSet = [\Delta^{op}, Set] \to [\Delta_{\leq n},Set]
+  tr_n : sSet = [\Delta^{op}, Set] \to [\Delta_{\leq n}^{op},Set]
 $$ 
 
 that takes a [[simplicial set]] and restricts it to its degrees $\leq n$.
