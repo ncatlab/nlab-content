@@ -81,7 +81,7 @@ A semi-Segal space is **quasiunital** if (...)
 
 =--
 
-([Harpaz, p. 38](#Harpaz))
+([Harpaz 12, p. 38](#Harpaz12))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -90,7 +90,7 @@ A complete semi-Segal space, def. \ref{Completeness} is quasi-unital, def. \ref{
 
 =--
 
-([Harpaz, Cor 4.1.11](#Harpaz)).
+([Harpaz 12, Cor 4.1.11](#Harpaz12)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -124,8 +124,52 @@ The notion is mentioned in
 
 More details are spelled out in
 
-* [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
- {#Harpaz}
+* {#Harpaz12} [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
+ 
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 [[!redirects semiSegal space]]
 [[!redirects semi Segal space]]
