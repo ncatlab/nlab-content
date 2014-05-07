@@ -377,3 +377,8 @@ Extensionality and intensionality isses are studied in
 [[!redirects principle of substitution]]
 [[!redirects principle of substitution of equals for equals]]
 [[!redirects principle of substituting equals for equals]]
+
+[[!redirects intensional identity type]]
+[[!redirects intensional identity types]]
+[[!redirects extensional identity type]]
+[[!redirects extensional identity types]]
