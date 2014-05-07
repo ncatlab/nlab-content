@@ -54,6 +54,10 @@ All this is due to ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [And
 See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
 
 
+## Cubical sttructure
+
+(...)
+
 ## Related concepts
 
 * [[spin orientation of Tate K-theory]]
