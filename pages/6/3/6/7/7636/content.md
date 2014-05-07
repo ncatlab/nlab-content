@@ -105,7 +105,7 @@ $$
 
 =--
 
-This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)); see _[[categorical model of dependent types]]_ for the latter.  However, the full equivalence of categories was not recovered until ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]], see also ([Curien-Garner-Hofmann](#CurienGarnerHofmann)).
+This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)); see _[[categorical model of dependent types]]_ for the latter.  However, the full equivalence of categories was not recovered until ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]], see also ([Curien-Garner-Hofmann](#CurienGarnerHofmann)). Another approach to this which also works with [[intensional identity types]] and hence with [[homotopy type theory]] is in ([Lumsdaine-Warren 13](#LumsdaineWarren13)).
 
 We now indicate some of the details.
 
@@ -425,6 +425,9 @@ and
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
 
+Another version of this which also applie to [[intensional identity types]] and hence to [[homotopy type theory]] is in
+
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 ([[LumsdaineWarren2013.pdf:file]])
 
 
 The analogous statement relating [[homotopy type theory]] and [[locally cartesian closed (infinity,1)-categories]] was fromally conjectured around
