@@ -13,7 +13,7 @@ We have given the definition for topological spaces, but it also makes sense as 
 
 ## Weak Hausdorffification
 
-(this is a [[right adjoint]] ...)
+(this is a [[left adjoint]] ...)
 
 
 [[!redirects weak Hausdorff space]]
