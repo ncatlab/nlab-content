@@ -116,9 +116,9 @@ Y & = & \lambda y. (s I I)(s(k y)(s I I)) \\
 }$$ 
 
 
-## Examples of PCA's
+## Examples of PCAs
 
-1. (Kleene's first algebra.) Suppose given a coding of all [[partial recursive functions]] of the form  $$\mathbb{N}^k \to \mathbb{N}$$ 
+1. (Kleene's first algebra.) Suppose given a coding of all [[partial recursive functions]] of the form  $\mathbb{N}^k \to \mathbb{N}$ 
 (ranging over $k = 0, 1, 2, \ldots$) by elements of $\mathbb{N}$, and a coding of elements of $\mathbb{N}^k$ over all $k$ by elements of $\mathbb{N}$. Define a partial applicative structure  
 $$\mathbb{N} \times \mathbb{N} \to \mathbb{N}$$ 
 where $p q = \{p\}([q])$ whenever the right side is defined, where $\{p\}$ is the $p^{th}$ partial recursive function and $[q]$ is the $q^{th}$ tuple. It may be checked that $k$ and $s$, defined extensionally in the obvious way, are partial recursive functions, so we get in this way a PCA. 
