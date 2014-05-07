@@ -54,7 +54,10 @@ Hence $S g$ is an isomorphism; thus $g\in E_S$ as desired. $\blacksquare$
 4. The natural transformation $\bar F\colon\cat A(-,-)\to\cat B(F-,F-)$ has for its components exactly the maps $F_{A,B}$ above: i.e. $\bar F_{A,B}=F_{A,B}$.
 *
 *
+
+
 category: meta
+
 
 [[!redirects Sandbox]]
 [[!redirects SandBox]]
