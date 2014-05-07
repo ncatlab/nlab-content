@@ -23,6 +23,8 @@ _F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_
 ### Relation to (or motivation from) 11d supergravity
  {#From11dSupergravity}
 
+The following line of argument shows why first compactifiying M-theory on a torus $S_1^A \times S_1^B$ to get tyoe IIA on a circle and then T-dualizing that circle to get type IIB indeed only dependends on the shape $\frac{R_A}{R_B}$ of the torus, but not on its other geometry.
+
 By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
 
 To obtain type IIB sugra in noncompact 10 dimensions this way, also $S^1_B$ is to be compactified (since [[T-duality]] sends the radius $r_A$ of $S^1_A$ to the inverse radius $r_B = \ell_s^2 / R_A$ of $S^1_B$).
@@ -93,7 +95,7 @@ A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]]
 
 For F-theory a fairly advanced model building and [[string phenomenology]] has been developed. A detailed review is in ([Denef 08](#Denef08)).
 
-See also at _[[flux compactification]]_ and _[[landscape of superstring vacua]]_.
+See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]]_.
 
 ## References
 
