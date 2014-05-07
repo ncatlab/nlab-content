@@ -12,6 +12,7 @@
 | [[D6-brane]]   |        $\,$                     | $\,$ |   |
 | [[D8-brane]]   |        $\,$                     | $\,$ |   |
 |**$(D = 2n+1)$**|[[type IIB supergravity|type IIB]]| $\,$ |          $\,$
+| [[D(-1)-brane]]   |        $\,$                     | $\,$ | $\,$
 | [[D1-brane]]   |        $\,$                     | $\,$ | 2d [[CFT]] with [[BH entropy]]
 | [[D3-brane]]   |        $\,$                     | $\,$ | [[N=4 D=4 super Yang-Mills theory]]
 | [[D5-brane]]   |        $\,$                     | $\,$ |          $\,$
