@@ -41,20 +41,20 @@ $$
   R\epsilon . \eta R = 1_R
   \qquad \text{i.e.} \qquad
   \array{\arrayopts{ \padding{0} }
-    &&&&1_C& 
+    &&1_C& 
     \\
     &&\cellopts{\colspan{5}}\begin{svg}
        [[!include adjunction > zigzageta]]
        \end{svg}\\
     D
-    & \stackrel{R}{\to}&
+     \overset{R}{\to}&
     C
-    & \stackrel{L}{\to}&
+    \stackrel{L}{\to}&
     D
-    & \stackrel{R}{\to}&
+     \stackrel{R}{\to}&
     C
     \\
-    \cellopts{\colspan{4}}\begin{svg}
+    &\cellopts{\colspan{4}}\begin{svg}
        [[!include adjunction > zigzagepsilon]]
        \end{svg}
     \\
@@ -84,7 +84,7 @@ $$
        [[!include adjunction > zigzagepsilon]]
        \end{svg}
     \\
-    &&&&1_D&
+    &&1_D&
   }
   \quad = \quad C \stackrel{L}{\to} D
 $$
