@@ -139,7 +139,7 @@ Let $((T, \leq), L)$ be a tree.
 
 * An edge which is either a leaf or the root is called an **outer edge**.
 
-* An edge which is neither a lead nor the root is called an **inner edge**.
+* An edge which is neither a leaf nor the root is called an **inner edge**.
 
 * Given a non-leaf edge $e$, another edge $e'$ is called an **incoming edge** of $e$ if it is a direct succesor of $e$, hence if
 
