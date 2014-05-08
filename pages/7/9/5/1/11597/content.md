@@ -1,0 +1,6 @@
+
+* [[cubical structure on a line bundle]]
+
+category: disambiguation
+
+[[!redirects cubical structures]]
