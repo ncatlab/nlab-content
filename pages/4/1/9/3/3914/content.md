@@ -98,6 +98,7 @@ $$
   Top
 $$
 
+
 the associated bundle is the [[smash product]] over $\Sigma^\infty GL_1(R)$
 
 $$
@@ -303,7 +304,14 @@ If here $G \to GL_1(\mathbb{S})$ is the $\Omega^\infty$-component of a map of [[
 
 The latter, on passing to [[homotopy groups]], are [[genera]] on manifolds with [[G-structure]].
 
+### Relation to cubical structures
 
+For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly perioduc]] [[complex orientable cohomology theory]] then $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of [[cubical structure on a line bundle|cubical structures]] on the trivial line bundle over the [[formal group]] of $E$.
+
+In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\angle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
+
+See at _[[cubical structure]]_ for more details and references.
+This way for instance the [[string orientation of tmf]] has been constructed. See there for more.
 
  
 ## Examples
