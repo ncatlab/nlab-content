@@ -198,3 +198,6 @@ See also the references at _[equivariant cohomology -- References -- Complex ori
 
 [[!redirects complex-oriented cohomology theory]]
 [[!redirects complex-oriented cohomology theories]]
+
+[[!redirects complex orientable cohomology theory]]
+[[!redirects complex orientable cohomology theories]]
