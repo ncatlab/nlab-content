@@ -122,6 +122,15 @@ T^h_{F1} = \frac{1}{2\pi\left(l^h_s\right)^2}.
 $$
 This indicates that it is sensible to identify the strong coupling limit of the type-I D1 brane with the heterotic string.
 
+#### For type IIA
+
+A priori [[type IIA superstring theory]] does not have S-duality, but by compactifying [[M-theory]] on a torus one can sort of read off what the non-perturbative additions to type IIA should be that make it have S-duality after all, see
+
+* Gottfried Curio, Boris Kors, [[Dieter Lüst]], _Fluxes and Branes in Type II Vacua and M-theory Geometry with G(2) and Spin(7) Holonomy_, Nucl.Phys.B636:197-224,2002 ([arXiv:hep-th/0111165](http://arxiv.org/abs/hep-th/0111165))
+
+
+
+
 ## Overview
 
 [[!include heterotic S-duality -- table]]
