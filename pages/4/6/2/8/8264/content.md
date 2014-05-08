@@ -46,7 +46,12 @@ More recent experiments ([[BICEP2]]) seem to favor the variant known as [[chaoti
 
 The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. See below at _[References -- Higgs inflation](#ReferencesHiggsInflation)_.
 
+### Axion inflation
+
+see _[[axion inflation]]_
+
 ## Related concepts
+
 
 * [[eternal cosmic inflation]]
 
