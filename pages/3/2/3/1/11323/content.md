@@ -32,7 +32,7 @@ Mizar is a [[proof assistant]] system. It is based on [[Tarski–Grothendieck se
 
 ## References
 
-* Wikipedia, _[Mizar system](http://www.cs.uwyo.edu/~ruben/itp-2014/)_
+* Wikipedia, _[Mizar system](http://en.wikipedia.org/wiki/Mizar_system)_
 
 * [[Freek Wiedijk]], _[Mizar](http://www.cs.ru.nl/~freek/mizar/)_
 
