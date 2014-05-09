@@ -72,9 +72,13 @@ which is the [[inversion involution]] (given by sending any element to its [[inv
 
 ## Related concepts
 
+* [[complex torus]]
+
 * [[elliptic curve]]
 
 * [[toric variety]]
+
+
 
 ## References
 
