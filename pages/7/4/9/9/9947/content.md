@@ -48,7 +48,11 @@ Projects for formalization of mathematics
 
 * [[Freek Wiedijk]], _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
 
-* [[Carlson Simpson]], _[Verification and creation of proofs by computer](http://math.unice.fr/~carlos/themes/verif.html)_
+* [[Carlos Simpson]], _[Verification and creation of proofs by computer](http://math.unice.fr/~carlos/themes/verif.html)_
+
+
+* {#Avigad12} [[Jeremy Avigad]], _Interactive Theorem Proving,
+Automated Reasoning, and Mathematical Computation_, 2012 [pdf slides](http://www.andrew.cmu.edu/user/avigad/Talks/icerm.pdf)
 
 
 * _[Conference Series on Intelligent Computer Mathematics](http://www.cicm-conference.org/)_
