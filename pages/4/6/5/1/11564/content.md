@@ -790,6 +790,7 @@ Throughout, we leave notationally implicit
 
 1. the inclusion $Spectra \stackrel{Stab}{\hookrightarrow} Stab(\mathbf{H})$;
 
+
 hence always regard a [[chain complex]] as the corresponding [[spectrum]] and regard any bare spectrum always as a [[geometrically discrete infinity-groupoid|geometrically discrete]] [[smooth spectrum]].
 
 
