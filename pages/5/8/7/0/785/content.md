@@ -380,7 +380,7 @@ the following are equivalent
 
 =--
 
-A proof is spelled out for instance in ([Hovey 07, remark 7.1.12](#Hovey07)). (Beware: this is not in the original volume from 1999, but is in the version "reprinted with corrections" from 2007.)
+A proof in terms of [[stable model categories]] including the third item is spelled out for instance in ([Hovey 07, remark 7.1.12](#Hovey07)). (Beware: this is not in the original volume from 1999, but is in the version "reprinted with corrections" from 2007.) A proof in terms of [[stable (∞,1)-categories]] of the first two items is in ([[Higher Algebra|Lurie HA, prop. 1.1.3.4 (2)]]).
 
 
 ### Pasting law
