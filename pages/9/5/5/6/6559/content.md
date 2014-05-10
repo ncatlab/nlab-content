@@ -37,6 +37,8 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[false vacuum]], [[tachyon]]
 
+* [[Coleman-De Luccia instanton]]
+
 * [[vacuum expectation value]], [[vacuum fluctuation]]
 
 
