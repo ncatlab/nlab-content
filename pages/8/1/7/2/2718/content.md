@@ -1,4 +1,4 @@
-Pavol &#352;evera is a mathematical physicist from Bratislava.
+Pavol &#352;evera is a mathematical physicist originally from Bratislava.
 
 * [website](http://fyzikus.fmph.uniba.sk/typo/index.php?id=433)
 
@@ -6,6 +6,7 @@ Pavol &#352;evera is a mathematical physicist from Bratislava.
 
 * Pavol &#352;evera, _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
+There are many, many more
 ## related entries
 
 
