@@ -27,9 +27,9 @@
 
 ## Idea
 
-In _synthetic differential geometry_ one formulates [[differential geometry]] axiomatically in [[topos]]es -- called [[smooth topos]]es --  of [[generalized smooth space]]s. 
+In _synthetic differential geometry_ one formulates [[differential geometry]] [[axiom|axiomatically]] in [[toposes]] -- called [[smooth toposes]] --  of [[generalized smooth spaces]]. 
 
-The main point of the axioms is to ensure that a well defined notion of [[infinitesimal space]]s exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
+The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
 
 In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context literally is an _infinitesimal path_ in $X$.
 
@@ -157,6 +157,8 @@ This is discussed at
 
 
 ## Related concepts
+
+* [[synthetic mathematics]]
 
 * [[differential geometry]]
 
