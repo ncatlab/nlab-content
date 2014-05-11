@@ -38,6 +38,20 @@ Specifically in [[superstring theory]] BPS states in [[target space]] correspond
 
 The degeneracy of BPS states in string theory has been used to provide a microscopic interpretation of [[Bekenstein-Hawking entropy]] of [[black holes]], see at _[[black holes in string theory]]_.
 
+## Examples
+
+### In 11d Supergravity 
+
+In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds ofBPS states:
+
+* the [[M2-brane]];
+
+* the [[M5-brane]];
+
+* the [[M-wave]];
+
+* the [[Kaluza-Klein monopole]].
+
 ## Related concepts
 
 * [[supermultiplet]]
