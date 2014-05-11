@@ -100,7 +100,7 @@ See for instance sections 7.19.1--3 in
 To check conventions at least, see Wikipedia:
 
 * [Heisenberg picture](http://en.wikipedia.org/wiki/Heisenberg_picture),
-* [Schr&#246;dinger picture](http://en.wikipedia.org/wiki/Sch%C3%B6dinger_picture).
+* [Schr&#246;dinger picture](http://en.wikipedia.org/wiki/Schr%C3%B6dinger_picture).
 
 A note on how the Schr&#246;dinger picture in the form of [[extended quantum field theory|extended]] [[FQFT]] on [[Lorentzian manifold]]s is related to the Heisenberg picture in the form of [[AQFT]] is in 
 
