@@ -19,7 +19,7 @@
 
 ## Idea
 
-In "synthetic" approaches to formulation of [[theories]] in [[mathematics]] the emphasis is on [[axioms]] that directly capture the core aspects of the intended [[structures]], in contrast to more traditional "analytic" approaches where axioms are used to encode some basic substrate out of which everything else is then built analytically.
+In "synthetic" approaches to the formulation of [[theories]] in [[mathematics]] the emphasis is on [[axioms]] that directly capture the core aspects of the intended [[structures]], in contrast to more traditional "analytic" approaches where axioms are used to encode some basic substrate out of which everything else is then built analytically.
 
 
 | analytic | synthetic |
@@ -39,7 +39,7 @@ With the advent of [[homotopy type theory]], which may be regarded to some exten
 
 ## Relation to constructivism 
 
-Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but syntehtic mathematics is about a different issue than constructivism. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts,such as manifolds, in the traditional analytic way.
+Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but synthetic mathematics is about a different issue than constructivism. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts,such as manifolds, in the traditional analytic way.
 
 ## Relation to computer science
 
@@ -48,4 +48,3 @@ There is at least some similarity between synthetic mathematics and [[domain spe
 
 
 [[!redirects synthetic homotopy theory]]
-
