@@ -82,9 +82,75 @@ We can then iterate, obtaining the following hierarchy of differentiability.  Be
 
 ### Symmetry of higher derivatives
 
-If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative $d^2 f : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$ is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.  In general, it need not be *symmetric*, i.e. $d^2 f_x(v,w)$ may not equal $d^2f_x(w,v)$.  In terms of partial derivatives, this means that the *mixed partials* $\frac{\partial^2 f}{\partial x_i \partial x_j}$ and $\frac{\partial^2 f}{\partial x_j \partial x_i}$ may not be equal; see below for a counterexample.
+If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative
+$$d^2 f : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$$
+is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.  In general, it need not be *symmetric*, i.e. $d^2 f_x(v,w)$ may not equal $d^2f_x(w,v)$.  In terms of partial derivatives, this means that the *mixed partials* $\frac{\partial^2 f}{\partial x_i \partial x_j}$ and $\frac{\partial^2 f}{\partial x_j \partial x_i}$ may not be equal; see below for a counterexample.
 
 It is true, however, that if $f$ is twice *continuously* differentiable, then $d^2f$ is a *symmetric* bilinear map, and the mixed partials are equal.
+
+### Strong higher differentiability
+
+It is possible to define a notion of higher differentiability that implies symmetry of the mixed partials but does not require their continuity.  Given a function $f:U \to \mathbb{R}^m$ which is differentiable in a neighborhood of $x$, say that $f$ is **strongly twice differentiable** at $x$ if there is a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
+
+$$f(x+v+w) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + E(v,w) {|v|}{|w|} $$
+
+where $\lim_{v,w\to 0} E(v,w) = 0$.  The usual proof of symmetry of the mixed partials shows that if $f$ is $C^2$ in a neighborhood of $x$, then it is strongly twice differentiable at $x$.  On the other hand, since the LHS of the equation above is manifestly symmetric in $v$ and $w$, it follows that if $f$ is strongly twice differentiable at $x$ then the bilinear map $\partial^2 f_x$ is also symmetric.  It's easy to see that its matrix consists of the second partial derivatives of $f$, so this implies the mixed partials are symmetric.
+
+Finally, as explained [here](http://mathoverflow.net/a/165733/49), if $f$ is differentiable in a neighborhood of $x$ and strongly twice differentiable at $x$, then it is in fact twice differentiable at $x$ in the sense that $d f: U \to L (\mathbb{R}^n,\mathbb{R}^m)$ is differentiable at $x$, with derivative $\partial^2 f_x$.  It suffices to show that each coordinate of $d f$ is differentiable, so let $w=\delta e_i$, with $e_i$ a unit basis vector and $\delta$ a real number $\neq 0$.  Then we have
+
+$$ E(v,\delta e_i) = \frac{f(x+v+\delta e_i) - f(x+v) - f(x+\delta e_i) + f(x) - \partial^2 f_x(v,\delta w)}{{|v|}{\delta}}$$
+
+Taking the limit as $\delta\to 0$ and using differentiability of $f$ at $x$ and $x+v$ (for sufficiently small $v$), we get
+
+$$ \lim_{\delta \to 0} E(v,\delta e_i) = \frac{d f_{x+v}(e_i) - d f_x(e_i) - \partial^2 f_x(v,e_i)}{{|v|}}. $$
+
+Now take the limit as $v\to 0$; on the left we get $0$ by assumption, so the function $y\mapsto d f_y(e_i)$ is differentiable at $x$ with derivative $\partial^2 f_x(-,e_i)$.  Thus, $d f$ is differentiable at $x$.
+
+### Extra-strong higher differentiability and the chain rule
+
+The condition $f(x+v+w) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + E(v,w) {|v|}{|w|}$ does not, however, imply that $f$ is differentiable or even continuous at $x$.  For instance, it is satisfied by any $\mathbb{Q}$-linear (or even $\mathbb{Z}$-linear) map $\mathbb{R}\to \mathbb{R}$, since then the LHS vanishes identically.  However, by strengthening it a bit we can incorporate single differentiability as well.
+
+Say that $f$ is **extra-strongly twice differentiable** at $x$ if there exists a linear map $d f_x : \mathbb{R}^n \to \mathbb{R}^m$ and a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
+
+$$f(x+v+w+h) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + d f_x(h) + E(v,w,h) \sqrt{{|v|}^2{|w|}^2 + {|h|}^2}.$$
+
+where $\lim_{v,w,h \to 0} E(v,w,h) = 0$.  Setting $v=w=0$ in this equation, we find that $f$ is differentiable at $x$ with derivative $d f_x$.  And setting $h=0$, we find that $f$ is strongly twice differentiable at $x$ in the above sense.  It seems that it might not be differentiable in a neighborhood of $x$, but if it is, then the above argument shows that it is also twice differentiable at $x$ in the usual sense.
+
+Moreover, we can still say that that if $f$ is $C^2$ in a neighborhood of $x$, then it is extra-strongly twice differentiable at $x$.  For then we can write
+
+$$
+\begin{aligned}
+  f(x+v+w+h) &= f(x+v+w) + d f_{x+v+w}(h) + E {|h|}\\
+  &= f(x+v+w) + d f_x(h) + d(d f)_x(v+w,h) + E {|v+w|}{|h|} + E{|h|}
+\end{aligned}
+$$
+
+and $d(d f)_x(v+w,h)$ can also be incorporated into the error term.
+
+This may seem like a somewhat *ad hoc* modification.  However, the formal sum $\partial^2 f_x + d f_x$ is what should be regarded as the **second differential** of $f$.  We write it like this:
+
+$$d^2f = \partial^2 f + d f = \sum_{i,j} \frac{\partial^2f}{\partial x_i \partial x_j} d x_i \, d x_j + \sum_i \frac{\partial f}{\partial x_i} d^2 x_i. $$
+
+The virtue of this expression is that like the first differential $d f$, but unlike the bilinear map $\partial^2 f$, it satisfies [[Cauchy's invariant rule]].  This means that we can express the [[chain rule]] for second differentials of composite maps simply by substitution: if $y = f(u)$ and $u = g(x)$, then finding $d^2 y$ in terms of $d u$ and $d^2 u$, and $d u$ and $d^2 u$ in terms of $d x$ and $d^2 x$, and substituting, gives the correct expression for $d^2 y$ in terms of $d x$ and $d^2 x$.
+
+In fact, this can be proven using the definition of extra-strong twice differentiability, in essentially exactly the same way that we prove the ordinary chain rule for first derivatives.  We sketch the proof, omitting the explicit error terms.  We can write
+
+$$g(f(x+v+w+h)) - g(f(x+v)) - g(f(x+w)) + g(f(x)) $$
+
+as
+
+$$ g(f(x) + v' + w' + h') - g(f(x) + v') - g(f(x) + w') + g(f(x)) $$
+
+where $v' = f(x+v) - f(x)$ and $w' = f(x+w) - f(x)$ and $h' = f(x+v+w+h) - f(x+v) - f(x+w) + f(x)$.  Now by extra-strong twice differentiability of $g$, this is approximately equal to
+
+$$ \partial^2 g_{f(x)}(v',w') + d g_{f(x)}(h'). $$
+
+But by differentiability of $f$, we have $v' \approx d f_x(v)$ and $w' \approx d f_x(w)$, while by extra-strong twice differentiability of $f$ we have $h' \approx \partial^2 f_x(v,w) + d f_x(h)$.  Thus, we obtain approximately
+
+$$ \partial^2 g_{f(x)}(d f_x(v), d f_x(w)) + d g_{f(x)}(\partial^2 f_x(v,w) + d f_x(h)) $$
+
+which is exactly what we would get by substitution.
+
 
 ### For maps between manifolds
 
@@ -133,6 +199,17 @@ $$ f(x,y) = \frac{xy(x^2-y^2)}{x^2+y^2}$$
 
 plus $f(0,0) = 0$, has partial derivatives $\frac{\partial^2f}{\partial x \partial y}$ and $\frac{\partial^2f}{\partial y \partial x}$ that both exist but are not equal at $(0,0)$ (nor are they continuous at $(0,0)$).
 
+### Twice differentiability versus quadratic approximation
+
+While differentiability means approximability by a linear function, twice differentiability does *not* mean approximability by a quadratic function.  For example, the function
+
+$$ f(x) = x^3 \sin(1/x) $$
+
+is not twice differentiable at $x=0$, but it is well-approximated by the quadratic polynomial $p(x) = 0$ in the sense that their difference is $o(x^2)$ as $x\to 0$.  Even worse, the function
+
+$$ f(x) = e^{-1/x^2} \sin(e^{1/x^2}) $$
+
+is not twice differentiable at $x=0$, but it is well-approximated by a polynomial of *any* finite degree $n$ (namely, the zero polynomial), in the sense that their difference is $o(x^n)$ as $x\to 0$.
 
 ## Related concepts
 
