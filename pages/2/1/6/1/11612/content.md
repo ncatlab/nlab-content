@@ -1,0 +1,42 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+One of the types of [[BPS states]] of [[11-dimensional supergravity]] is called the _M-wave_ ([Hull 84](#Hull84)). Since a single M-wave is effectively the [[superparticle]] in 11d, this is also called the _M0-brane_. A survey is in ([Bandos 12](#Bandos12)).
+
+Under the [[duality in string theory|duality between M-theory and type IIA string theory]] the M0-brane maps to the [[D0-brane]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
+
+Bound statesof M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
+
+
+## Related concepts
+
+[[!include table of branes]]
+
+## References
+
+* {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39.
+
+* {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
+
+* {#Bandos12} [[Igor Bandos]], _Action for the eleven dimensional multiple M-wave system_, 2012 ([pdf](http://strings.na.infn.it/files/Igor.pdf))
+
+* {#ChuIsono13} Chong-Sun Chu, Hiroshi Isono, _Instanton String and M-Wave in Multiple M5-Branes System_ ([arXiv:1305.6808](http://arxiv.org/abs/1305.6808), slides: [[IsonoSlides.pdf:file]])
+
+
+[[!redirects M-waves]]
