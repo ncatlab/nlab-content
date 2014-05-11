@@ -31,3 +31,5 @@ introduction rule for [[implication]]              |   [[unit]] for hom-tensor a
  [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]]
  [[proof net]] | [[string diagram]] | [[quantum circuit]]
  (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
+    |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]]  |
+ 
