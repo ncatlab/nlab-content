@@ -111,6 +111,10 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 * [[effects of foundations on "real" mathematics]]
 
+## Related concepts
+
+* [[synthetic mathematics]]
+
 ## References
 
 * L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
