@@ -19,7 +19,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -237,6 +237,8 @@ Many model structures, including those for complete Segal spaces, simplicial pre
 and applying a general technique called [[Bousfield localization]] which forces a certain class of morphisms to become weak equivalences.  It can also be thought of as forcing a certain class of objects to become fibrant.
 
 ## Related concepts
+
+* [[synthetic homotopy theory]]
 
 * [[localization of model categories]]
 
