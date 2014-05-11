@@ -84,6 +84,8 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 ## Related concepts 
 
+* [[synthetic homotopy theory]]
+
 * [[simplicial homotopy theory]]
 
 * [[stable homotopy theory]]
