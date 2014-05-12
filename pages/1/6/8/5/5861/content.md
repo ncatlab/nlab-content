@@ -21,11 +21,11 @@
 
 A [[cohesive (∞,1)-topos]] is a context of [[∞-groupoid]]s that are equipped with a [[geometry|geometric]] notion of _cohesion_ on their collections of [[object]]s and [[k-morphism]]s, for instance [[Euclidean-topological ∞-groupoid|topological cohesion]] or [[smooth ∞-groupoid|smooth cohesion]].
 
-While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal space]]s, they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension. 
+While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal spaces]], they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension. 
 
-Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of _infinitesimal cohesion_ .
+Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of _differential cohesion_ .
 
-In a cohesion $(\infty,1)$-topos with infinitesimal cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
+In a cohesion $(\infty,1)$-topos with differential cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
 
 ## Differential cohesion
 
@@ -303,6 +303,7 @@ This shows that the [[right adjoint]] to $(-)\circ i$ is itself given by precomp
 $$
   [C^{op}, sSet]  
     \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}}}
+
   [C_{th}^{op}, sSet]
   \,.
 $$
@@ -442,6 +443,7 @@ It remains to see that $i_!$ is full and faithful.
 For that notice the general fact that left 
 [[Kan extension]] (see the properties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
 
+
 =--
 
 
@@ -464,7 +466,7 @@ $$
  {#StructuresInDifferentialCohesion}
 
 We discuss structures that are canonically present in 
-a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
+a cohesive $(\infty,1)$-topos equipped with differential cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
 
 
 
@@ -472,7 +474,7 @@ a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These struct
 #### Infinitesimal paths and de Rham spaces
   {#InfinitesimalPaths}
  
-In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
+In the presence of [differential cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
 ##### Infinitesimal path $\infty$-groupoid
 
@@ -539,7 +541,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 
 In traditional contexts see ([SimpsonTeleman, p. 7](#SimpsonTeleman)) the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
-Here we may tend to avoid this terminology, since by the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
+Here we may tend to avoid this terminology, since by the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with differential cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
 
 =--
 
