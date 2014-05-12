@@ -15,7 +15,7 @@
 
 ## Idea
 
-A jet can be thought of as the infinitesimal germ of a section of some bundle or of a map between spaces. Jets are a coordinate free version of Taylor-polynomials and Taylor series.
+A jet can be thought of as the infinitesimal germ of a [[section]] of some [[bundle]] or of a map between spaces. Jets are a coordinate free version of Taylor-polynomials and Taylor series.
 
 ## Definition
 
