@@ -37,7 +37,25 @@ While the definition above follows how a well-founded relation is generally *use
 
 In [[classical mathematics]], both of these conditions are equivalent to being well-founded.  Constructively, we may prove that a well-founded relation has no infinite descent, but not the converse; and we may prove that a classically well-founded relation is well-founded, but not the converse.  (In fact, if there exists an [[inhabited subset|inhabited]] relation that is classically well-founded, then [[excluded middle]] follows.)  In [[predicative mathematics]], however, the definition of well-founded may be impossible to even state, and so either of these alternative definitions would be preferable (if classical logic is used).
 
-Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]] (when applied to [[linear orders]]).  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler.
+Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]] (when applied to [[linear orders]]).  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler. 
+
+We do have the following result, valid in intuitionistic mathematics: 
+
++-- {: .num_prop} 
+###### Proposition 
+If $(X, \prec)$ is a well-founded relation and $A \subseteq X$ has no minimal element, then $A$ is empty. 
+=-- 
+
+This result makes it trivial to infer (under classical logic) that classical well-foundedness is a consequence of well-foundedness. 
+
++-- {: .proof} 
+###### Proof 
+Let $U = \{u \in X: u \notin A\; \wedge \; (\forall x: X),\; x \prec u \Rightarrow x \notin U\}$. Clearly $U \cap A = \emptyset$. We show $U$ is inductive, so that under well-foundedness $U = X$ and $A = X \cap A = U \cap A = \emptyset$, as desired. 
+
+So, suppose $z$ is an element such that $y \in U$ whenever $y \prec z$. We must show $z \in U$. Claim: $z \notin A$. For if $z \in A$, then $z$ would be a minimal element of $A$ (as $y \prec z \Rightarrow y \in U \Rightarrow y \notin A$). But this negates the assumption that $A$ has no minimal element. 
+
+Thus $z \notin A$, and $y \prec z \Rightarrow y \in Y \Rightarrow y \notin A$, so that $z \in U$. This completes the proof. 
+=-- 
 
 
 ### Coalgebraic formulation 
