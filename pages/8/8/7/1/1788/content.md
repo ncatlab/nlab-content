@@ -55,7 +55,6 @@ Hence $S g$ is an isomorphism; thus $g\in E_S$ as desired. $\blacksquare$
 *
 *
 
-
 category: meta
 
 
