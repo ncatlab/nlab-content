@@ -112,7 +112,8 @@ An early survey of its relation to [[M-theory]] with [[M5-branes]] is in
 
 Lecture notes include
 
-* Timo Weigand, _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+* [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+
 
 ### Relation to orientifolds
 
@@ -154,10 +155,20 @@ A large body of literature is concerned with particle physics [[string phenomeno
 
 (...)
 
-### 4-Form flux
+### 4-Form flux and instantons
 
 The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] to F-theory yields the _$G_4$-flux_.
 
 * Andres Collinucci, Raffaele Savelli, _On Flux Quantization in F-Theory_ (2010) ([arXiv:1011.6388](http://arxiv.org/abs/1011.6388))
 
-* Sven Krause, Christoph Mayrhofer, Timo Weigand, _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
+* Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _$G_4$ flux, chiral matter and singularity resolution in F-theory compactifications_ ([arXiv:1109.3454](http://arxiv.org/abs/1109.3454))
+
+* Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
+
+and with [[M5-brane]] [[instanton]] contrubitions:
+
+* Max Kerstan, [[Timo Weigand]], _Fluxed M5-instantons in F-theory_ ([arXiv:1205.4720](http://arxiv.org/abs/1205.4720))
+
+Reviewed in
+
+* {#Weigand12} [[Timo Weigand]], _Fluxes and M5-instantons in F-theory_, 2012 ([pdf slides](http://people.physik.hu-berlin.de/~ahoop/weigand.pdf))
