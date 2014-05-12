@@ -55,7 +55,7 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 ## References
  {#References}
 
-### In quanutm field theory and specifically Yang-Mills theory
+### In quantum field theory and specifically Yang-Mills theory
 
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
@@ -88,6 +88,12 @@ Expositions and summaries of this are in
 
 ### In string theory
 
+In [[string theory]] (for [[D-branes]]).
+
+* {#Witten00} [[Edward Witten]], _World-Sheet Corrections Via D-Instantons_, JHEP 0002:030, 2000 ([arXiv:hep-th/9907041](http://arxiv.org/abs/hep-th/9907041))
+
+* Albion Lawrence, [[Nikita Nekrasov]], _Instanton sums and five-dimensional gauge theories_, Nucl.Phys. B513 (1998) 239-265 ([arXiv:hep-th/9706025](http://arxiv.org/abs/hep-th/9706025))
+
 The study of M-brane instantons originates around
 
 * {#BeckerBeckerStrominger95} [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Fivebranes, Membranes and Non-Perturbative String Theory_, Nucl.Phys.B456:130-152,1995 ([arXiv:hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
@@ -96,6 +102,9 @@ Specifically [[membrane]]/[[M2-brane]] instantons are further discussed in
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
 
+In the context of [[F-theory]] and [[M5-brane]] instantons:
+
+* Max Kerstan, [[Timo Weigand]], _Fluxed M5-instantons in F-theory_ ([arXiv:1205.4720](http://arxiv.org/abs/1205.4720))
 
 [[!redirects instanton]]
 [[!redirects instantons]]
