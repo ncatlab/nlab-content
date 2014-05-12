@@ -39,7 +39,7 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] $X$ is called a **good co
 
 For $X$ a [[topological manifold]] one often needs that the non-empty finite intersections are [[homeomorphism|homeomorphic]] to an [[open ball]] and for   [[smooth manifolds]] often one needs that the finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]].
 
-In the literature this is traditionally glossed over, but it is in fact a subtle point, see the discussion at [[open ball]] and see below at _[Existence on paracompact manifolds](#ExistenceOnParacompactManifolds)_. 
+In the literature this is traditionally glossed over, but it is in fact a subtle point, see the discussion at [[open ball]] and see below at _[Existence on paracompact smooth manifolds](#ExistenceOnParacompactManifolds)_. 
 
 =--
 
@@ -55,34 +55,34 @@ Given a [[smooth manifold]] $X$ a _differentiably good open cover_ is a good ope
 
 ## Properties {#Properties}
  
-### Exsistence on paracompact manifold
+### Exsistence on paracompact smooth manifolds
  {#ExistenceOnParacompactManifolds}
 
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[paracompact manifold]] admits a good open cover, def. \ref{GoodOpenCover}.
+Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a good open cover, def. \ref{GoodOpenCover}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 ([Milnor](#Milnor)) page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 ([Milnor](#Milnor)) page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-It is apparently a folk theorem that every geodesically convex neighbourhood in a Riemannian manifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
+It is apparently a folk theorem that every [[geodesic convexity|geodesically convex]] [[open neighbourhood]] in a Riemannian manifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[paracompact manifold]] of [[dimension]] $d$ admits a differentiably good open cover, def. \ref{DifferentiablyGoodOpenCover}, hence an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
+Every [[smooth manifold|smooth]] [[paracompact manifold]] of [[dimension]] $d$ admits a differentiably good open cover, def. \ref{DifferentiablyGoodOpenCover}, hence an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
 
 =--
 
@@ -90,9 +90,9 @@ Every [[paracompact manifold]] of [[dimension]] $d$ admits a differentiably good
 +-- {: .proof}
 ###### Proof
 
-By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the [[geodesic flow]] around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
+By ([Greene](#Greene)) every paracompact smooth manifold admits a [[Riemannian metric]] with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an [[open cover]] consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the [[geodesic flow]] around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
 
-Moreover, the preimage of the intersection region under the geometric flow is a [[star-shaped]] region in the tangent space $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
+Moreover, the [[preimage]] of the intersection region under the geometric flow is a [[star-shaped]] region in the [[tangent space]] $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
 
 So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited at [[ball]] (e.g. theorem 237 of ([Ferus](#Ferus))) this star-shaped region is diffeomorphic to an $\mathbb{R}^n$.
 
@@ -103,11 +103,9 @@ So we have that every finite non-empty intersection of the $U_p$ is diffeomorphi
 +-- {: .num_cor }
 ###### Corollary
 
-The [[category]] $ParaMfd$ of paracompact manifolds admits a [[coverage]] whose covering families are good open covers.
+The [[category]] $ParaSmMfd$ of paracompact smooth manifolds admits a [[coverage]] whose covering families are good open covers.
 
 The same holds true for [[subcategories]] such as
-
-* [[Diff]] -- paracompact [[smooth manifolds]];
 
 * [[CartSp]] -- [[Cartesian spaces]].
 
@@ -117,7 +115,7 @@ The same holds true for [[subcategories]] such as
 +-- {: .proof}
 ###### Proof
 
-It is sufficient to check this in $ParaMfd$.
+It is sufficient to check this in $ParaSmMfd$.
 We need to check that for $\{U_i \to U\}$ a good open cover and $f : V \to U$ any morphism, we get commuting squares
 
 $$  
@@ -132,7 +130,7 @@ $$
 
 such that the $\{V_i \to V\}$ form a good open cover of $V$. 
 
-Now, while $ParaMfd$ does not have all [[pullback]]s, the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
+Now, while $ParaSmMfd$ does not have all [[pullbacks]], the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
 
 Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good open cover of $V$.
 
