@@ -286,6 +286,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[HoTT methods for homotopy theorists]]
 
+* [[Homotopy Type System]]
+
 * [[modal homotopy type theory]]
 
 * [[geometric homotopy type theory]]
