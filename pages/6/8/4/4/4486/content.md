@@ -191,6 +191,10 @@ from the [[real line]] to itself, with $f(0) \coloneqq 0$.  Away from $0$, $f_k$
 *  If $k = 2 n$ is even, then $f_k$ is differentiable $n$ times but not continuously differentiable $n$ times;
 *  If $k = 2 n + 1$ is odd, then $f_k$ is continuously differentiable $n$ times but not differentiable $n + 1$ times.
 
+Similarly, in two dimensions we can consider functions such as
+$$ f(x,y) = (x^2+y^2)\sin(\frac{1}{\sqrt{x^2+y^2}}).$$
+together with $f(0,0) = 0$.  This is smooth away from $0$, and once differentiable at $0$, even in the strong sense that it is well-approximated by a linear function near $0$.  However, its derivative is not continuous at $0$.  In particular, this shows that the converse of the theorem "if the partial derivatives exist and are continuous at a point, then the function is differentiable there" fails.
+
 ### Symmetry of the second derivative
 
 The function $f:\mathbb{R}^2 \to \mathbb{R}$ defined by 
@@ -205,11 +209,27 @@ While differentiability means approximability by a linear function, twice differ
 
 $$ f(x) = x^3 \sin(1/x) $$
 
-is not twice differentiable at $x=0$, but it is well-approximated by the quadratic polynomial $p(x) = 0$ in the sense that their difference is $o(x^2)$ as $x\to 0$.  Even worse, the function
+(with $f(0) =0$, to make it continuous there) is not twice differentiable at $x=0$, but it is well-approximated by the quadratic polynomial $p(x) = 0$ in the sense that their difference is $o(x^2)$ as $x\to 0$.  Even worse, the function
 
 $$ f(x) = e^{-1/x^2} \sin(e^{1/x^2}) $$
 
 is not twice differentiable at $x=0$, but it is well-approximated by a polynomial of *any* finite degree $n$ (namely, the zero polynomial), in the sense that their difference is $o(x^n)$ as $x\to 0$.
+
+### The second derivative as a quadratic form
+
+In the definition of strong twice-differentiability, we cannot replace the symmetric [[bilinear map]] $\partial^2 f_x(v,w)$ by the corresponding [[quadratic form]] $Q_x(v) = \partial^2f_x(v,v)$.  In other words, if we suppose that
+
+$$f(x+2v) - 2 f(x+v) + f(x) = Q_x(v) + E(v) {|v|}^2 $$
+
+where $\lim_{v\to 0} E(v) = 0$, for some quadratic form $Q_x$, it does not follow that $f$ is twice differentiable at $x$, even in one dimension.  The same old counterexample
+
+$$ f(x) = x^3 \sin(1/x) $$
+
+(with $f(0)=0$) works: we have
+
+$$f(0+2v) - 2 f(0+v) + f(0)= 2v^3(4\sin(\frac{1}{2v}) - \sin(\frac{1}{v}))$$
+
+so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 ## Related concepts
 
