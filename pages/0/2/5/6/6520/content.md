@@ -15,9 +15,15 @@
 
 ## Idea
 
-In [[physics]] an _instanton_ is a [[configuration space|field configuration]] with a "topological twist": not in the connected component of the trivial field configurations.
+### In quantum field theory
+
+In [[quantum field theory]] an _instanton_ is a [[configuration space|field configuration]] with a "topological twist": not in the connected component of the trivial field configurations.
 
 The term derives from the special case of instantons on a [[sphere]] but modeled as field configurations on a [[Euclidean space]] constrained to vanish asymptotically. These look like solutions localized in [[spacetime]]: "at an instant".
+
+### In string theory
+
+More generally, in [[string theory]] a [[brane]] which wraps a completely [[spacelike]] cycle in [[target space]] is called an _instanton_, since the [[worldvolume]] of such a brane is localized in the [[time]]-direction of target space. Under passing to the [[effective quantum field theory]] of the string theory, this reproduces many instantons in the sense of quantum field theory above.
 
 
 ## Examples
@@ -49,6 +55,8 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 ## References
  {#References}
 
+### In quanutm field theory and specifically Yang-Mills theory
+
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 
@@ -77,6 +85,17 @@ Expositions and summaries of this are in
 * [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](http://arxiv.org/abs/hep-th/0702137))
 
 * [[Jacques Distler]], _Localized_ (2006) ([blog](Localized))
+
+### In string theory
+
+The study of M-brane instantons originates around
+
+* {#BeckerBeckerStrominger95} [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Fivebranes, Membranes and Non-Perturbative String Theory_, Nucl.Phys.B456:130-152,1995 ([arXiv:hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+
+Specifically [[membrane]]/[[M2-brane]] instantons are further discussed in
+
+* [[Jeffrey Harvey]], [[Gregory Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
+
 
 [[!redirects instanton]]
 [[!redirects instantons]]
