@@ -18,7 +18,9 @@
 
 The notion of _topological space_ aims to axiomatize the idea of a _[[space]]_ as a collection of [[points]] that hang together ("[[cohesive topos|cohere]]") in a _[[continuous function|continuous]]_ way.
 
-The proverbial motivating example is the surface of a [[torus]] and that of a mug: these are [[isomorphism|isomorphic]] as topological spaces, because, abstractly, the surface of the mug can be deformed _continuously_ to become the standard torus: the continuous cohesion among the collections of points of the two surfaces is the same.
+Some one-dimensional shapes with different topologies: the Mercedes-Benz symbol, a line, a circle, a complete graph with 5 nodes, the skeleton of a cube, and an asterisk (or, if you'll permit the one-dimensional approximation, a starfish). A circle has the same topology as a line segment [0,1] with 0 and 1 identified. You can see this by putting overlapping open intervals over each of the shapes: you'll see that they respond to this the same way, so they're equivalent in this sense.
+
+The surface of a [[torus]] is also topologically equivalent as the surface of a mug. You can see this by putting open circles or slightly looser loops all over each surface: you'll see that they also respond in the same way. Abstractly, the surface of the mug can be deformed _continuously_ to become the standard torus: the continuous cohesion among the collections of points of the two surfaces is the same.
 
 There is a slight generalization of the notion of topological space to that of a _[[locale]]_, which consists of dropping the assumption that all [[neighbourhoods]] are explicitly or even necessarily supported by points. In this form the definition is quite fundamental and can be naturally motivated from just pure [[logic]] -- as the formal dual of _[[frames]]_ --  as well as, and [[duality|dually]], from [[category theory]] in its variant as [[topos theory]] -- by the notion of _[[(0,1)-toposes]]_. 
 
