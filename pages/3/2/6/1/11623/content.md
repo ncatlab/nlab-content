@@ -1,0 +1,5 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Z._Freedman)
+
+category: people
