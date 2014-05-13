@@ -24,6 +24,7 @@ Physically this result is understood by observing that $\mathcal{D}^{ch}_X$is th
 See ([Cheung 10](#Cheung10)) for a brief review (where the problem of generalizing of this construction to [[sheaves of vertex operator algebras]] over more general [[string structure]] manifolds is addressed.)
 
 ### Relation to formal loop space
+ {#RelationToFormalLoopSpace}
 
 With $X$ a suitable scheme, its [[formal loop space]] $L_inf X$ in the sense of ([Kapranov-Vasserot I](#KapranovVasserotI)) has a [[Tate structure]] and hence an associated [[determinantal gerbe]] $Det_{L_{inf} X}$ with [[band]] $\mathcal{O}^\ast_{L_{inf} X}$. According to 
 ([Kapranov-Vasserot IV](#KapranovVasserotIV)) this [[gerbe]] is essentially identified with the [[gerbe]] $CDO_X$ of chiral differential operators on $X$. 
