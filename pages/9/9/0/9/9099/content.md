@@ -89,7 +89,7 @@ $$
 where in the [[exponent]] we have the [[integration of differential forms]] over the [[wedge product]] of $C$ with its [[de Rham differential]]. On general field configurations the action functional is the suitable globalization of this expression.
 
 
-In ([Witten 96](#WittenI)), ([Witten 98](#Witten98)) a slight refinement of this construction (a  [[quadratic refinement]] induced by an [[integral Wu structure]]) was argued to be the [[holographic principle|holographic dual]] to the [[self-dual higher gauge theory]] of the abelian self-dual 2-form gauge field in the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]]. The issue of the quadratic refinement was discussed in more detail in ([HopkinsSinger](#HopkinsSinger)). A refinement to [[extended Lagrangians]] as above is discussed in ([FSSII](#FSSII)).
+In ([Witten 97](#Witten97)), ([Witten 98](#Witten98)) a slight refinement of this construction (a  [[quadratic refinement]] induced by an [[integral Wu structure]]) was argued to be the [[holographic principle|holographic dual]] to the [[self-dual higher gauge theory]] of the abelian self-dual 2-form gauge field in the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]]. The issue of the quadratic refinement was discussed in more detail in ([HopkinsSinger](#HopkinsSinger)). A refinement to [[extended Lagrangians]] as above is discussed in ([FSSII](#FSSII)).
 
 By the argument in ([Witten98](#Witten98)) the above relation holds when we interpret the fields $\phi \colon : \Sigma_7 \to \mathbf{B}^3 U(1)_{conn}$ as the [[supergravity C-field]] after [[Kaluza-Klein mechanism|compactification]] on a 4-[[sphere]] in the [[AdS-CFT|AdS7-CFT6]] setup. By the discussion at [[11-dimensional supergravity]] this field is in general not simply a 3-connection as above but receives corrections by a [[Green-Schwarz mechanism]] and "flux quantization" which give it non-abelian components. This, and the resulting non-abelian generalization of the above extended Lagrangian is discussed in ([FSSI](#FSSI), [FSSII](#FSSII)).
 
@@ -265,11 +265,11 @@ This arises from [[Freund-Rubin compactifications]] with [[cosmological constant
 
 The abelian 7d [[higher dimensional Chern-Simons theory]] of a [[circle n-bundle with connection|circle 3-bundle with connection]] was considered in 
 
-* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
- {#WittenI}
+* {#Witten97} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ 
 
-* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
- {#Witten98}
+* {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ 
 
 and argued to be the [[holographic principle|holographic dual]] to the [[self-dual higher gauge theory]] of an abelian 2-form connection on a _single_ [[M5-brane]] in its [[6d (2,0)-supersymmetric QFT]] on the worldvolume.
 
@@ -289,7 +289,7 @@ In
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ 
  {#FSSII}
 
-the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten](#WittenI)-functional as another.
+the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten 97](#Witten97)-functional as another.
 
 Further discussion of [[extended Lagrangians]] for 7d CS theories is in 
 
