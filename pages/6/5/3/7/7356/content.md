@@ -156,6 +156,7 @@ A large body of literature is concerned with particle physics [[string phenomeno
 (...)
 
 ### 4-Form flux and instantons
+ {#FluxAndInstantons}
 
 The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] to F-theory yields the _$G_4$-flux_.
 
@@ -163,7 +164,9 @@ The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] t
 
 * Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _$G_4$ flux, chiral matter and singularity resolution in F-theory compactifications_ ([arXiv:1109.3454](http://arxiv.org/abs/1109.3454))
 
-* Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
+* {#GKP12} Thomas W. Grimm, Denis Klevers, Maximilian Poretschkin, _Fluxes and Warping for Gauge Couplings in F-theory_ ([arXiv:1202.0285](http://arxiv.org/abs/1202.0285))
+
+* {#KMW12} Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
 
 and with [[M5-brane]] [[instanton]] contrubitions:
 
