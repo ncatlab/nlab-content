@@ -101,6 +101,12 @@ $$
 $$
 
 
+### Cohomological properties
+
+A derivations of [[D-brane charge]], [[RR-fields]] and other [[K-theory]] structure in [[type II superstring theory]] from M-theory was argued in ([FMW 00](#FMW00)).
+
+Seet also at _[[cubical structure in M-theory]]_.
+
 
 ### Many more
 
@@ -169,6 +175,12 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 * Sophie de Buyl, _Kac-Moody Algebras in M-theory_, PhD thesis ([pdf](http://theses.ulb.ac.be/ETD-db/collection/available/ULBetd-06072006-153117/unrestricted/kmalgebrasinmth.pdf))
 
 * Paul Cook, _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+### Cohomological considerations
+
+* {#FMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+
+See also at _[[supergravity C-field]]_.
 
 ### Relation to D0-brane mechanics
 
