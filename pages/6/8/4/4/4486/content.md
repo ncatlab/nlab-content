@@ -215,6 +215,12 @@ $$ f(x) = e^{-1/x^2} \sin(e^{1/x^2}) $$
 
 is not twice differentiable at $x=0$, but it is well-approximated by a polynomial of *any* finite degree $n$ (namely, the zero polynomial), in the sense that their difference is $o(x^n)$ as $x\to 0$.
 
+In some contexts, it is useful to say that functions such as these have "pointwise second derivatives".  More precisely, we say that a function $f$ has a **pointwise $k^{th}$ derivative** at $a$ if there exists a polynomial $p$ of degree $k$ such that 
+
+$$ \lim_{x\to a} \frac{f(x) - p(x)}{(x-a)^k} = 0. $$
+
+In this case, the pointwise $k^{th}$ derivative is $f^{(k)}_{pt}(a) = p^{(k)}(a)$.  Thus we would say that while $ f(x) = x^3 \sin(1/x) $ does not have a second derivative at $0$, it does have a *pointwise* second derivative at $0$, and $f''_{pt}(0) = 0$.  See e.g. [this MSE answer](http://math.stackexchange.com/a/160383/91608).
+
 ### The second derivative as a quadratic form
 
 In the definition of strong twice-differentiability, we cannot replace the symmetric [[bilinear map]] $\partial^2 f_x(v,w)$ by the corresponding [[quadratic form]] $Q_x(v) = \partial^2f_x(v,v)$.  In other words, if we suppose that
@@ -267,3 +273,6 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 [[!redirects derivative]]
 [[!redirects derivatives]]
+
+[[!redirects pointwise derivative]]
+[[!redirects pointwise derivatives]]
