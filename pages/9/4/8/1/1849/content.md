@@ -752,3 +752,5 @@ A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- 
 
 [[!redirects C3-field]]
 [[!redirects C-field]]
+
+[[!redirects supergravity C-fields]]
