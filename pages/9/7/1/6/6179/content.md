@@ -78,37 +78,47 @@ In [[string theory]], S-duality is supposed to apply to whole string theories an
 #### Type IIB S-duality
  {#InTypeIIB}
 
-[[Type IIB string theory]] is obtained by [[KK-compactification]] of [[M-theory]] on a [[torus]] bundle and [[T-duality|T-dualizing]] one of the torus cycles. This perspective -- referred to as [[F-theory]] -- exhibits the [[axio-dilaton]] of type IIB string theory as the fiber of an [[elliptic fibration]] (essentially the torus bundle that M-theory was compactified on ([Johnson 97](#Johnson97))).
+##### General idea
+
+[[Type IIB string theory]] is obtained by [[KK-compactification]] of [[M-theory]] on a [[torus]] bundle followed by [[T-duality|T-dualizing]] one of the torus cycles. This perspective -- referred to as [[F-theory]] -- exhibits the [[axio-dilaton]] of type IIB string theory as the fiber of an [[elliptic fibration]] (essentially the torus bundle that M-theory was compactified on ([Johnson 97](#Johnson97))).
 
 The [[modular group]] acts on this [[elliptic fibration]], and this is S-duality for type IIB-strings. In particular the transformation $\tau \mapsto - \frac{1}{\tau}$ inverts the type II coupling constant.  See at _[[F-theory]]_ for more.
 
-The type IIB [[F1-string]] and the [[D1-brane]] appear by [[double dimensional reduction]] from the [[M2-brane]] wrapping (either) one of the two cycles of the compactifying torus. S-duality mixes these strings by the evident [[modular group]] action on the $(p,q)\in \mathbb{Z}^2$ labels of the [[(p,q)-strings]].
+The type IIB [[F1-string]] and the [[D1-brane]] appear this way by [[double dimensional reduction]] from the [[M2-brane]] wrapping (either) one of the two cycles of the compactifying torus. S-duality mixes these strings by the evident [[modular group]] action on the $(p,q)\in \mathbb{Z}^2$ labels of the 
+[[(p,q)-strings]]. Here at least part of the S-duality action on $(p,q)$-strings may be seen as a system of autoequivalences of the [[super L-infinity algebras]] which defines the [[extended super spacetime]] constituted by the type II superstring ([Bandos 00](Bandos00), [FSS 13, section 4.3](#FSS13)).
 
 Similarly the [[D5-brane]] and the [[NS5-brane]] are the [[double dimensional reduction]] of the [[M5-brane]] wrapping one of the two cycles of the compactifying torus, and hence the S-duality modular group also acts on $(p,q)$-5-branes, exchanging them.
 
 Finally, the [[D3-brane]] is instead the [[double dimensional reduction]] of the [[M5-brane]], wrapping _both_ compactifying dimensions. Accordingly the worldvolume theory of the D3, which is [[super Yang-Mills theory]] in $d = 4$ has an S-self-duality. That is supposed to be the [[Montonen-Olive duality]] discussed above, which is thereby unified with type IIB S-duality. 
 
-In ([KrizSati 05](#KrizSati05)) it was conjectured that the right mathematical framework to capture type IIB S-duality is [[modular equivariant elliptic cohomology]].
+##### Cohomological nature of type II fields under S-duality
+ {#CohomologicalNatureOfTypeIIFieldsUnderSDuality}
 
-At least part of the S-duality in [[type II string theory]] can be seen as a system of autoequivalences of the [[super L-infinity algebras]] which defines the [[extended super spacetime]] constituted by the type II superstring ([Bandos 00](Bandos00), [FSS 13, section 4.3](#FSS13)).
+While [[F-theory]] does capture much of this [[non-perturbative effect|non-perturbative]] S-duality, there currently remains a puzzle as to the correct [[differential cohomology]] nature of all the fields under S-duality: by the above S-duality mixes the [[Kalb-Ramond field]] $\hat B_[NS}$ with the degree-3 component $\hat B_{RR}$ of the [[RR-field]]. But the best available description of the fine-structure of these fields is (see also at _[[orientifold]]_) that $\hat B_{NS}$ is a [[cocycle]] in ([[twisted cohomology|twisted]]) [[ordinary differential cohomology]] while $\hat B_{RR}$ is (only) one component of a cocycle in ([[twisted cohomology|twisted]]) [[KU]] (or really: [[KR-theory]]). 
+
+This issue was first highlighted in ([DMW 00, section 11](#DMW00)). In ([DFM 03, section 9](supergravity+C-field#DFM)) it was observed that taking into account the [[cubical structure in M-theory]] on the [[higher dimensional Chern-Simons theory|11-dimensional Chern-Simons term]] of the [[supergravity C-field]] the conceptual mismatch is alleviated, but not quite resolved. See also ([BEJVS 05](#BEJVS05))
+
+On the other hand, as discussed at _[[cubical structure in M-theory]]_, this structure plausibly relates to a [[generalized cohomology theory]] beyond [[ordinary cohomology]] and beyond [[K-theory]], namely to [[elliptic cohomology]]/[[tmf]]. Hints like this led in
+([KrizSati 05](#KrizSati05)) to the [[conjecture]] that the right [[cohomology theory]] to capture the S-duality of [[type II superstring theory|type IIB]]/[[F-theory]] is [[modular equivariant elliptic cohomology]].
+
 
 #### Heterotic/type I duality
 
 > Something substantial should go here, for the moment the following is copied from a discussion forum comment by some Olof [here](http://physics.stackexchange.com/a/65546/5603):
 
 For the Het/I relation, the first observation is that the massless spectra of the two models agree. Moreover, if we make the identification
-$$\tag{1}
+$$
 G^I_{\mu\nu} = e^{-\Phi_h} G^h_{\mu\nu} , \qquad
 \Phi^I = - \Phi^h , \qquad
 \tilde{F}^I_3 = \tilde{H}^h_3 , \qquad
 A^I_1 = A^h_1
 $$
 the low energy effective supergravity actions of the two models match. Since the string coupling constants $g_s^I$ and $g_s^h$ are given as the expectation values of the exponentials of the dilatons $\exp(\Phi^I)$ and $\exp(\Phi^h)$, respectively, the above equations relates the type-I theory at strong coupling to the heterotic theory at weak coupling:
-$$\tag{2}
+$$
 g^I_s = \frac{1}{g^h_s} .
 $$
 From the relative scaling of the metric in (1) we also see that the string length in the two theories are related by
-$$\tag{3}
+$$
 l^I_s = l^h_s \sqrt{g^h_s}.
 $$
 
@@ -173,13 +183,7 @@ A priori [[type IIA superstring theory]] does not have S-duality, but by compact
 
 ## References
 
-The geometric understanding of S-duality in [[type II superstring theory]] via [[M-theory]]/[[F-theory]] goes back to
-
-* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
-
-A 2-loop test is in 
-
-* [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
+### In Super-Yang-Mills theory
 
 The understanding of [[Montonen-Olive duality]] as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
 
@@ -191,21 +195,48 @@ The understanding of [[Montonen-Olive duality]] as a remnant conformal transform
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
+See also the references at _[[electro-magnetic duality]]_.
+
+
+### In type II superstring theory
+
+The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type II superstring theory]] goes back to
+
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+* [[John Schwarz]], _An $SL(2,\mathbb{Z})$ Multiplet of Type IIB Superstrings_, Phys.Lett. B360 (1995) 13-18; Erratum-ibid. B364 (1995) 252 ([arXiv:hep-th/9508143](http://arxiv.org/abs/hep-th/9508143))
+
+The geometric understanding of S-duality in [[type II superstring theory]] via [[M-theory]]/[[F-theory]] goes maybe back to
+
+* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
+
+A 2-loop test is in 
+
+* [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
+
+
 S-duality acting on the [[worldsheet]] theory if [[(p,q)-strings]] is discussed for instance in 
 
 * {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
 
-A conjecture that with such combined targetspace/worldsheet modular transformations the type IIB S-duality is reflected in [[modular equivariant elliptic cohomology]] is in 
+Closely related to this, S-duality in [[type II string theory]] as an operation on the [[extended super spacetime]] [[super L-infinity algebra]] is 
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 4.3 of _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
+
+The cohomological problem of the type II S-duality action on the 3-form flux was originally highlighted in
+
+* {#DMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134 2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090))
+
+The conjecture that with combined targetspace/worldsheet modular transformations the type IIB S-duality is reflected in [[modular equivariant elliptic cohomology]] is due to 
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
-S-duality in [[type II string theory]] as an operation on the [[extended super spacetime]] [[super L-infinity algebra]] is 
+See also
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 4.3 of _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
-  {#FSS13}
+* {#BEJVS05} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Branislav Jurco]], [[Mathai Varghese]], [[Hisham Sati]], _Flux Compactifications on Projective Spaces and The S-Duality Puzzle_, Adv.Theor.Math.Phys. 10 (2006) 345-394 ([arXiv:hep-th/0501110](http://arxiv.org/abs/hep-th/0501110))
 
 
-See also the references at _[[electro-magnetic duality]]_.
 
 
 [[!redirects Montonen-Olive duality]]
