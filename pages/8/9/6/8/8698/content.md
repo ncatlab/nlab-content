@@ -68,5 +68,7 @@ The $(\mathfrak{A},\mathcal{D})$-systems were partly motivated by the [[calculus
 
 * [[Hasse local-global principle]]
 
+* [[formal Picard group]], [[formal Brauer group]]
+
 [[!include infinitesimal and local - table]]
 
