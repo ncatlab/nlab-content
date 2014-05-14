@@ -20,9 +20,11 @@
 
 ## Idea
 
-A [[duality in string theory]].
+U-duality is a kind of [[duality in string theory]].
 
-The [[compact space|compact]] [[exceptional Lie groups]] form a series [[E8]],[[E7]], [[E6]]
+The [[KK-compactifications]] of [[11-dimensional supergravity]] to lower dimensional [[gauged supergravity]] theories have global/local [[gauge groups]] given by [[split real forms]] of the $E$-series of the [[exceptional Lie groups]].
+
+Here the [[compact space|compact]] [[exceptional Lie groups]] form a series [[E8]],[[E7]], [[E6]]
 
 $$
   E_8, E_7, E_6
@@ -35,12 +37,13 @@ $$
   \,.
 $$
 
-Supergravity theories are controled by the corresponding
-[[split real forms]]
+The [[split real forms]] of this are traditionally writte
 
 $$
   E_{8(8)}, E_{7(7)}, E_{6(6)}
 $$
+
+and one sets
 
 $$
   E_{5(5)} := Spin(5,5), E_{4(4)} := SL(5, \mathbb{R}), 
@@ -99,11 +102,22 @@ See the references ([below](#UDualityReferences)).
 ## References
  {#References}
 
-Surveys include
+Quick surveys include
 
 * [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
 
+A review focusing on [[gauged supergravity]] is
+
+* {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
+
+with slides in
+
 * {#Samtleben07} [[Henning Samtleben]], _Gauged supergravity and U-duality_, 2007  ([pdf](http://www.desy.de/uni-th/stringth/ggfl/talks/Samtleben.pdf))
+
+and a review with more [[M-theory]] lore is
+
+* N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+
 
 The $E_{7(7)}$-symmetry was first discussed in 
 
