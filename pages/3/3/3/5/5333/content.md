@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vaccuum]] is encoded by a [[sigma-model]] 2-dimensional [[SCFT]]. In _heterotic string theory_ that SCFT is assumed to be the sum of a supersymmetric chiral piece and a  non-supersymmetric piece (therefore "heterotic").
+In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vacuum]] is encoded by a [[sigma-model]] 2-dimensional [[SCFT]]. In _heterotic string theory_ that SCFT is assumed to be the sum of a supersymmetric chiral piece and a  non-supersymmetric piece (therefore "heterotic").
 
 ## Properties
 
