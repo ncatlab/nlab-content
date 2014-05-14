@@ -33,7 +33,8 @@ More recently the [[BICEP2]]-experiment claims to have detected the imprint of a
 * Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
 
 
-
+[[!redirects gravitational waves]]
 
 [[!redirects gravitational wave spacetime]]
+
 
