@@ -23,9 +23,13 @@
 
 ## Idea
 
-The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ 
+The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  (from which the [[super Yang-Mills theory]] is obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
 
-(from which the [[super Yang-Mills theory]] is obtained by [[Kaluza-Klein mechanism|compactifying]] the [[M5-brane]] [[6d (2,0)-supersymmetric QFT]] on it, see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
+More generally, this construction yields something like a decomposition of the [[6d (2,0)-superconformal QFT]] into a [[2d SCFT]] "with values in [[super Yang-Mills theory|4d SYM field theory]]" (e.g. [Tachikawa 10, slide 25 (33 of 54)](#Tachikawa10)). Hence composition with any kind of suitable invariant of the 4d field theories yields an actual [[2d SCFT]], for instance taking the superconformal index in 4d yields a [[2d TQFT]] ([GPRR 10](#GPRR10)). In this picture of "4d-SYM field theory-valued [[2d SCFT]]" one has the following correspondences:
+
+* the [[complex structure]] in 2d is the [[coupling constants]] and [[theta angles]] etc in the 4d [[super Yang-Mills theory]];
+
+* the [[mapping class group]] (large conformal transformations) in 2d is the (generalized) [[S-duality]] of the 4d theory.
 
 ## Related concepts
 
@@ -35,16 +39,35 @@ The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition fun
 
 ## References
 
-The original article is
+The original articles are
 
-* Luis F. Alday, [[Davide Gaiotto]], Yuji Tachikawa, _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
- {#AGT}
+* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
+
+* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+
+The [[2d TQFT]] obtained from this by forming the 4d index is discussed in 
+
+* {#GPRR10} Abhijit Gadde, Elli Pomoni, Leonardo Rastelli, Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
+
+ 
+Brief surveys include
+
+* {#Tachikawa10} [[Yuji Tachikawa]], _M5-branes, 4d gauge theory and 2d CFT_, 2010 ([pdf](http://member.ipmu.jp/yuji.tachikawa/transp/4d-2d-caltech.pdf))
+
+* Abhijit Gadde, _$\mathcal{N}= 2$ Dualities and 2d TQFT_ 2012 ([[Gadde2dTQFT.pdf:file]])
+
+* Nikolay Bovev, _New SCFTs from wrapped branes_, 2013 ([pdf](http://ipht.cea.fr/Meetings/Itzykson2013/Talks/bobev-Itzykson-july2013.pdf))
+
+A detailed review is in
+
+* Rober Rodger, _A pedagogical introduction to the AGT conjecture_, Master Thesis Utrecht (2013) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2013/R.J.Rodger.pdf))
+
 
 See also
 
 * A. A. Belavin, M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_, [http://arxiv.org/abs/1111.2803](arxiv/1111.2803)
 
-* Volker Schomerus, Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
+* [[Volker Schomerus]], Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
 
 * A.Mironov, A.Morozov, _The power of Nekrasov functions_, [arxiv/0908.2190](http://arxiv.org/abs/0908.2190)
 
@@ -66,5 +89,4 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 
 * G. Vartanov, J. Teschner, _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
  
-
 [[!redirects AGT conjecture]]
