@@ -22,7 +22,9 @@ There are two types of [[black brane]] solutions in [[11-dimensional supergravit
 
 * [[M5-brane]]
 
-* [[M9-brane]]
+* [[O9-plane]]
+
+* [[M-wave]]
 
 The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The M5-brane is the dual magnetic charge.
 
@@ -35,6 +37,15 @@ Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 an
 ## Related concepts
 
 [[!include table of branes]]
+
+
+## References
+
+See the references at _[[M-theory]]_ and thos at the separate M-brane entries.
+
+Further references include
+
+* Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
 
 [[!redirects M-branes]]
