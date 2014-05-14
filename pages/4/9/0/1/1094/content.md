@@ -299,7 +299,7 @@ $$
   X \to L X
 $$
 
-in $PSh(C)$, from any presheaf into its sheafification. By general properties of [[reflective subcategories]] these morphisms are mapped to [[isomorphism]]s by $L : PSh(C) \to Sh_(C)$. Therefore these are [[local isomorphism]]s. 
+in $PSh(C)$, from any presheaf into its sheafification. By general properties of [[reflective subcategories]] these morphisms are mapped to [[isomorphism]]s by $L : PSh(C) \to Sh(C)$. Therefore these are [[local isomorphism]]s. 
 
 So every presheaf is related by a [[local isomorphism]] to its sheafification.
 
