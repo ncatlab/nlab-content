@@ -271,6 +271,8 @@ $$
 
 ## Related concepts
 
+* [[formal Brauer group]]
+
 * [[group of units]]/[[multiplicative group]], [[Picard group]]
 
 * [[Azumaya algebra]]
@@ -332,5 +334,6 @@ Refinement to [[stable homotopy theory]] and [[Brauer ∞-groups]] is discussed 
 Related MO discussion includes 
 
 * [Brauer groups and K-theory](http://mathoverflow.net/questions/87345/brauer-groups-and-k-theory)
+
 
 [[!redirects Brauer groups]]
