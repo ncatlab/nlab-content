@@ -218,6 +218,11 @@ The geometric understanding of S-duality in [[type II superstring theory]] via [
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
+A textbook account is in 
+
+* {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
+
+
 A 2-loop test is in 
 
 * [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
