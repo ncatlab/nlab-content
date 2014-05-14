@@ -86,7 +86,7 @@ Vol. I (Beijing, 2002), pages 291&#8211;317, Beijing, 2002. Higher Ed. Press ([a
 
 which in turn follows the general program outlined in
 
-* [[Michael Hopkins]], _Topological modular forms, the Witten genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994) (Basel), Birkh&#228;user, 1995, 554&#8211;565. MR 97i:11043
+* [[Michael Hopkins]], _Topological modular forms, the Witten genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994) (Basel), Birkh&#228;user, 1995, 554&#8211;565. MR 97i:11043 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
 
 An alternative construction using the [[derived algebraic geometry]] of the [[moduli stack of elliptic curves]] is sketched in
 
