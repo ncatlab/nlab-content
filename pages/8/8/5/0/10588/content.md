@@ -35,6 +35,8 @@ between the algebraic spectrum of the $E$-[[cohomology ring]] over the [[classif
 
 * [[Eilenberg-MacLane spectrum]]
 
+* [[K3-spectrum]]
+
 [[!include moduli stack of curves -- table]]
 
 ## References
