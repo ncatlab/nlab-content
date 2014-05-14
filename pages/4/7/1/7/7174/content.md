@@ -1,6 +1,10 @@
 
 * [webpage](http://rg.kcl.ac.uk/staffprofiles/staffprofile.php?pid=1240)
 
+## Writings
+
+* _[[Introduction to Strings and Branes]]_
+
 category: people
 
 [[!redirects Pete West]]
