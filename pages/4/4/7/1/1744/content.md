@@ -96,7 +96,7 @@ $$
 $$
 
 
-Simplicial sets isomorphic to objects in the image of $cosk_n$ are called **coskeletal** simplicial sets.
+Simplicial sets isomorphic to objects in the image of $cosk_n$ are called **$n$-coskeletal** simplicial sets.
 
 
 ## Properties {#Properties}
