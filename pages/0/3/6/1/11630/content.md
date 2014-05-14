@@ -1,0 +1,156 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A [[duality in string theory]].
+
+The [[compact space|compact]] [[exceptional Lie groups]] form a series [[E8]],[[E7]], [[E6]]
+
+$$
+  E_8, E_7, E_6
+$$
+
+which is usefully thought of to continue as
+
+$$
+  E_5 := Spin(10), E_4 := SU(5), E_3 := SU(3) \times SU(2)
+  \,.
+$$
+
+Supergravity theories are controled by the corresponding
+[[split real forms]]
+
+$$
+  E_{8(8)}, E_{7(7)}, E_{6(6)}
+$$
+
+$$
+  E_{5(5)} := Spin(5,5), E_{4(4)} := SL(5, \mathbb{R}), 
+  E_{3(3)} := SL(3, \mathbb{R}) \times SL(2, \mathbb{R})
+  \,.
+$$
+
+For instance the [[scalar fields]] in the field [[supermultiplet]] of $3 \leq d \leq 11$-dimensional supergravity have [[moduli spaces]] parameterized by the [[homogeneous spaces]] 
+
+$$
+  E_{n(n)}/ K_n
+$$
+
+for 
+
+$$
+  n = 11 - d
+  \,,
+$$
+
+where $K_n$ is the [[maximal compact subgroup]] of $E_{n(n)}$:
+
+$$
+  K_8 \simeq Spin(16), K_7 \simeq SU(8), K_6 \simeq Sp(4)
+$$
+
+$$
+  K_5 \simeq Spin(5) \times Spin(5), 
+  K_4 \simeq Spin(5),
+  K_3 \simeq SU(2) \times SO(2)
+  \,.
+$$
+
+Therefore $E_{n(n)}$ acts as a [[global symmetry]] on the supergravity fields. 
+
+This is no longer quite true for their [[UV-completion]] by the corresponding [[Kaluza-Klein mechanism|compactifications]] of [[string theory]] (e.g. [[type II string theory]] for [[type II supergravity]], etc.). Instead, on these a [[discrete group|discrete subgroup]]
+
+$$
+  E_{n(n)}(\mathbb{Z}) \hookrightarrow E_{n(n)}
+$$
+
+acts as global symmetry. This is called the **U-duality** group of the supergravity theory.
+
+It has been argued that this pattern should continue in some way further to the remaining values $0 \leq d \lt 3$,
+with "[[Kac-Moody groups]]" [[E9]]. [[E10]], [[E11]] corresponding to the [[Kac-Moody algebras]]
+
+$$
+  \mathfrak{e}_9, \mathfrak{e}_10, \mathfrak{e}_{11}
+  \,.
+$$
+
+Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-duality]] group $O(d,d,\mathbb{Z})$ of [[type II string theory]].
+
+See the references ([below](#UDualityReferences)).
+
+## References
+ {#References}
+
+Surveys include
+
+* [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
+
+* {#Samtleben07} [[Henning Samtleben]], _Gauged supergravity and U-duality_, 2007  ([pdf](http://www.desy.de/uni-th/stringth/ggfl/talks/Samtleben.pdf))
+
+The $E_{7(7)}$-symmetry was first discussed in 
+
+* [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys.
+B 274, 363 (1986)
+
+and $E_{8(8)}$ in 
+
+* [[Hermann Nicolai]], _$D = 11$ Supergravity with Local $SO(16)$ Invariance_ , Phys. Lett. B 187, 316 (1987).
+
+* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for $d = 11$
+supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
+
+The discrete quantum subgroups were discussed in 
+
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+which also introduced the term "U-duality".
+
+Review and further discusssion is in 
+
+* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
+
+A careful discussion of the topology of the U-duality groups is in 
+
+* [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_ ([arXiv:hep-th/0309106](http://arxiv.org/abs/hep-th/0309106))
+
+* [[Arjan Keurentjes]], _U-duality (sub-)groups and their topology_ ([arXiv:hep-th/0312134](http://arxiv.org/abs/hep-th/0312134))
+
+A discussion in the context of [[generalized complex geometry]] / [[exceptional generalized complex geometry]] is in 
+
+* Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+
+* Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
+
+The case of "$E_{10}$" is discussed in 
+
+* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
+theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
+041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
+
+and that of "$E_{11}$" in 
+
+* [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
+
+General discussion of the [[Kac-Moody groups]] arising in this context is for instance in 
+
+* Philipp Fleig, [[Axel Kleinschmidt]], _Eisenstein series for infinite-dimensional U-duality groups_ ([arXiv:1204.3043](http://arxiv.org/abs/1204.3043))
