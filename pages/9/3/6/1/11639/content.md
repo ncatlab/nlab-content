@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In higher dimensional analogy of how the [[formal Picard group]] of an [[elliptic curve]] gives the [[formal group]] of an [[elliptic spectrum]] representing an [[elliptic cohomology theory]], so the [[formal Brauer group]] of a [[K3 surface]] gives the formal group of an [[complex oriented cohomology theory]] given by a [[spectrum]] hence called a _K3-spectrum_ [[Brown representability theorem|representing]] _K3-cohomology_ ([Szymik, section 4.2](#Szymik)).
+
+## Related concepts
+
+[[!include chromatic tower examples - table]]
+
+## References
+
+* {#Szymik} [[Markus Szymik]], _K3 spectra_ ([pdf](http://www.math.ku.dk/~xvd217/szymik.K3spectra.pdf))
+
+[[!redirects K3-spectra]]
+
+[[!redirects K3 spectrum]]
+[[!redirects K3 spectra]]
+
+
+[[!redirects K3-cohomology]]
+[[!redirects K3 cohomology]]
