@@ -5,7 +5,11 @@
 
 ## Idea
 
-For a [[ringed space]] $(X, \mathcal{O}_X)$ there is its [[Picard group]] of [[invertible objects]] in the category of $\mathcal{O}_X$-[[modules]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme. This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
+For a [[ringed space]] $(X, \mathcal{O}_X)$ there is its [[Picard group]] of [[invertible objects]] in the category of $\mathcal{O}_X$-[[modules]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme, this is the _Picard scheme_ $Pic_X$.
+This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
+
+Often one considers just the connected component $Pic_X^0$ of the neutral element in $Pic_X$, and often (such as in the discussion below, beware) it is that connected component (only) which is referred to by "Picard scheme". The [[quotient]] $Pic_X/Pic_X^0$ is called the _[[Néron-Severi group]]_ of $X$.
+
 
 ## Definition
 
@@ -43,6 +47,12 @@ This gives us an obstruction theory lying in $H^2(T, \mathbb{G}_m)$ for a point 
 
 The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]. But isomorphism classes of $\mathbb{G}_m$-gerbes over $T$ are in bijective correspondence with $H^2(T, \mathbb{G}_m)$ and so the above map could be thought of as a geometric realization of the universal obstruction class.
 
+## Related concepts
+
+* [[dual abelian group scheme]]
+
+* [[Poincaré line bundle]]
+
 
 ## References
 
@@ -51,6 +61,8 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 * [[Steven Kleiman|Steven L. Kleiman]], _The Picard scheme_, pp. 235--321 in [[FGA explained]], MR2223410 (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s6t3&ifd=15022&down=1&type=lecture_notes)), [arxiv](http://arxiv.org/abs/math/0504020)
 
 * [[The Stacks Project]], _[The Picard stack](http://stacks.math.columbia.edu/tag/0372)_
+
+* [[Akhil Mathew]], _[The Picard Scheme I](http://amathew.wordpress.com/2013/03/19/the-picard-scheme-i/)_, _[The Picard Scheme II: deformation theory](http://amathew.wordpress.com/2013/03/19/the-picard-scheme-ii-deformation-theory/)_
 
 category: algebraic geometry
 
