@@ -39,6 +39,15 @@ Over any [[manifold]] there is canonically the _[[density line bundle]]_ which i
 
 =--
 
+See also at _[[canonical line bundle]]_.
+
++-- {: .num_example}
+###### Example
+
+The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line bundles over it (its [[Picard stack]]) carries a tautological line bundle. This is called the _[[Poincaré line bundle]]_ of $X$.
+
+=--
+
 ## Related concepts
 
 * [[complex vector space]]
@@ -63,5 +72,4 @@ Over any [[manifold]] there is canonically the _[[density line bundle]]_ which i
 
 [[!redirects complex line bundle]]
 [[!redirects complex line bundles]]
-
 
