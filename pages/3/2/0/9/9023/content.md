@@ -24,11 +24,20 @@ One of the affine [[Kac-Moody groups]] in the E-series.
 
 * [[E6]], [[E7]],  [[E8]], **E9**, [[E10]], [[E11]], $\cdots$
 
+## Properties
+
+### As U-duality group of 2d supergravity
+
+$E_9$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 2 dimensions.
+
+
 ## Related concepts
 
 * [[exceptional Lie group]]
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
+
+* [[U-duality]] group of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 2 dimensions.
 
 ## References
 
