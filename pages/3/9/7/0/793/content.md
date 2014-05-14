@@ -260,6 +260,11 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
+Textbook accounts include
+
+* {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
+
+
 ### Worldsheet
 
 A review of T-duality from the [[worldsheet]] perspective is in 
