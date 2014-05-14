@@ -46,6 +46,8 @@ Indeed, at least for [[super Yang-Mills theory]] Montonen-Olive S-duality may be
 
 ### In (super) Yang-Mills theory
 
+#### General idea
+
 In its original form, S-duality refers to **Montonen-Olive duality** , which is about the following phenomenon:
 
 The [[Lagrangian]] of [[Yang-Mills theory]] has two summands, 
@@ -65,11 +67,17 @@ $$
 
 Montonen-Olive duality asserts that the quantum field theories induced from one such parameter value and another one obtained from it by an action of $SL(2,\mathbb{Z})$ on the upper half plane are equivalent.
 
-This is actually not quite true for ordinary Yang-Mills theory, but seems to be true for [[super Yang-Mills theory]].
+This is actually not quite true for ordinary Yang-Mills theory, but seems to be true for [[N=2 D=4 super Yang-Mills theory]].
 
-[[Edward Witten]] has suggested that this is to be understood geometrically by understand Yang-Mills theory as a [[compactification]] of a conformal quantum field theory in 6-dimensions -- that instead of a [[gauge field]] given by a [[principal bundle]] with [[connection on a bundle|connection]] involves a [[principal 2-bundle]] with [[connection on a 2-bundle|2-connection]] -- on a [[torus]]. The $SL(2,\mathbb{Z})$-invariance of the resulting 4-dimensional theory is then the remnant of the invariance of the 6-dimensional theory under conformal transformations of that torus.
 
-Moreover, Witten has suggested that this S-duality secretly drives a host of other subtle phenomena, notably that the [[geometric Langlands duality]] is just an aspect of a special case of this.
+#### From compactification of the 6d (2,0)-SCFT and AGT correspondence
+ {#ForSYMFromCompactification}
+
+In ([Witten 95a](#Witten95a), [Witten 95b](#Witten95b), [Witten 07](#Witten07)) it was suggested that the above S-duality of [[N=2 D=4 super Yang-Mills theory]] may be understood geometrically by regarding the super Yang-Mills theory as the [[Kaluza-Klein compactification]] of the [[6d (2,0)-superconformal QFT]] -- that instead of a [[gauge field]] given by a [[principal bundle]] with [[connection on a bundle|connection]] involves a [[principal 2-bundle]] with [[connection on a 2-bundle|2-connection]] -- on a [[complex torus]]. The $SL(2,\mathbb{Z})$-invariance of the resulting 4-dimensional theory is then the [[modular group]] remnant of the conformal invariance of the 6-dimensional theory under conformal transformations of that torus.
+
+Moreover, Witten has suggested that this S-duality secretly drives a host of other subtle phenomena, notably that the [[geometric Langlands duality]] (see there for more) is just an aspect of a special case of this.
+
+The [[AGT correspondence]] refines this further and regards the [[6d (2,0)-superconformal QFT]] as something like a "[[2d SCFT]] with values in 4d super-Yang-Mills theories". This way the whole [[mapping class group]] of general 2d [[Riemann surfaces]] acts as a generalized S-duality on 4d super-Yang-Mills theory
 
 ### In string theory
 
