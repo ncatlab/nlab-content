@@ -120,6 +120,12 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 ## References
  {#References}
 
+A textbook account is in 
+
+* {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
+
+
+
 Quick surveys include
 
 * [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
@@ -134,7 +140,6 @@ with slides in
 
 and reviews with more [[M-theory]] lore include also
 
-* {#West12} [[Peter West]], section 17.5.4 _Introduction to Strings and Branes_, Cambridge University Press 2012
 
 * N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
 
