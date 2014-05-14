@@ -28,6 +28,12 @@ For related texts see at _[[books about string theory]]_
 
 ## ...
 
+## 16 String theory and Lie algebras
+
+### 16.7 The Kac-Moody algebra $E_{11}$
+
+* [[E11]]
+
 ## 17 Symmetries of string theory
 
 ### 17.1 T-duality
