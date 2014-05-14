@@ -163,10 +163,10 @@ $$
   E_{n(n)}(\mathbb{Z}) \hookrightarrow E_{n(n)}
 $$
 
-acts as global symmetry. This is called the **[[U-duality]]** group of the supergravity theory.
+acts as global symmetry. This is called the **[[U-duality]]** group of the supergravity theory (see there for more).
 
 It has been argued that this pattern should continue in some way further to the remaining values $0 \leq d \lt 3$,
-with "groups" corresponding to the [[Kac-Moody algebras]]
+with "[[Kac-Moody groups]]" corresponding to the [[Kac-Moody algebras]]
 
 $$
   \mathfrak{e}_9, \mathfrak{e}_10, \mathfrak{e}_{11}
@@ -344,15 +344,13 @@ A canonical textbook reference for the role of Calabi-Yau manifolds in compactif
 
 Discussion of solutions with $N = 1$ global supersymmetry left and their relation to Calabi-Yau compactifications are for instance in 
 
-* [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_, [arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
-  {#GMPT}
+* {#GMPT} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_, [arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
+  
 
 
 [[!redirects supergravity]]
 [[!redirects supergravities]]
 
-[[!redirects U-duality]]
-[[!redirects U-dualities]]
 
 [[!redirects super-gravity]]
 [[!redirects super-gravities]]
