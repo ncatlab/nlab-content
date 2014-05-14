@@ -10,7 +10,19 @@ Given an [[abelian group scheme]] $A$, its _dual_ $A^\vee$ is essentially the [[
 
 ## Related concepts
 
+* [[Picard scheme]]
+
 * [[Cartier duality]]
+
+## References
+
+A standard textbook is 
+
+* Mumford, _Abelian varieties_
+
+A review of some basics is in
+
+* [[Akhil Mathew]], _[Duality for abelian varieties](http://amathew.wordpress.com/2013/03/21/duality-for-abelian-varieties/)_
 
 
 [[!redirects dual abelian group schemes]]
