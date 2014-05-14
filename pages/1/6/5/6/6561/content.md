@@ -37,11 +37,14 @@ See [[AdS/CFT correspondence]] for more on this.
 
 The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the point of view of the ambient [[11-dimensional supergravity]] these are the boundaries of [[M2-branes]] ending on the [[M5-branes]]. ([GGT](#GGT))
 
-### Compactification on a Riemann surface
+### Compactification on a Riemann surface and AGT correspondence
+ {#CompactificationOnARiemannSurface}
 
 The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann surface]] yields as [[worldvolume]] [[theory (physics)|theory]] [[N=2 D=4 super Yang-Mills theory]]. See at _[N=2 D=4 SYM -- Construction by compactification of 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
 The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
+
+More generally, this kind of construction allows todescrive the 6d (2,0)-theory as a "[[2d SCFT]] with values in [[super Yang-Mills theory|4d SYM]]". See at _[[AGT correspondence]]_ for more on this.
 
 ### Twistor space description
 
