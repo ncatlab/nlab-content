@@ -22,6 +22,13 @@
 
 One of the [[exceptional Lie groups]].
 
+## Properties
+
+### As U-duality group of5d SuGra
+
+$E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 5 dimensions.
+
+
 ## Related concepts
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
