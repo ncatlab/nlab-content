@@ -8,7 +8,7 @@
 For a [[ringed space]] $(X, \mathcal{O}_X)$ there is its [[Picard group]] of [[invertible objects]] in the category of $\mathcal{O}_X$-[[modules]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme, this is the _Picard scheme_ $Pic_X$.
 This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
 
-Often one considers just the connected component $Pic_X^0$ of the neutral element in $Pic_X$, and often (such as in the discussion below, beware) it is that connected component (only) which is referred to by "Picard scheme". The [[quotient]] $Pic_X/Pic_X^0$ is called the _[[Néron-Severi group]]_ of $X$.
+Often one considers just the connected component $Pic_X^0$ of the neutral element in $Pic_X$, and often (such as in the discussion below, beware) it is that connected component (only) which is referred to by "Picard scheme". The [[quotient]] $Pic_X/Pic_X^0$ is called the _[[Néron-Severi group]]_ of $X$. The [[completion]] of the Picard scheme at its neutral element is the _[[formal Picard group]]_.
 
 
 ## Definition
@@ -29,7 +29,7 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 
 * If $Pic_{X/S}$ is representable then a universal sheaf $\mathcal{P}$ on $X\times Pic_{X/S}$ is called a [[Poincaré sheaf]]. It is universal in the following sense: if $T\to S$ and $\mathcal{L}$ is invertible on $X_T$, then there is a unique $h:T\to Pic_{X/S}$ such that for some $\mathcal{N}$ invertible on $T$ we get $\mathcal{L}\simeq (1\times h)^*\mathcal{P}\otimes f_T^*\mathcal{N}$.
 
-* If $f$ is (Zariski) [[projective]], [[flat morphism|flat]] with [[integral scheme|integral]] geometric fibers then $Pic_{X/S, et}$ is representable by a [[separated scheme|separated]] and [[morphism of finite type|locally of finite type]] scheme over $S$.
+* If $f$ is (Zariski) [[projective morphism|projective]], [[flat morphism|flat]] with [[integral scheme|integral]] geometric fibers then $Pic_{X/S, et}$ is representable by a [[separated scheme|separated]] and [[morphism of finite type|locally of finite type]] scheme over $S$.
 
 * Grothendieck's Generic Representability: If $f$ is [[proper morphism|proper]] and $S$ is [[integral scheme|integral]], then there is a nonempty open $V\subset S$ such that $Pic_{X_V/V, fppf}$ is representable and is a disjoint union of open [[quasi-projective scheme| quasi-projective]] subschemes.
 
