@@ -103,7 +103,7 @@ $$
 
 ### Cohomological properties
 
-A derivations of [[D-brane charge]], [[RR-fields]] and other [[K-theory]] structure in [[type II superstring theory]] from M-theory was argued in ([FMW 00](#FMW00)).
+A derivation of [[D-brane charge]], [[RR-fields]] and other [[K-theory]] structure in [[type II superstring theory]] from M-theory was argued in ([FMW 00](#FMW00)).
 
 Seet also at _[[cubical structure in M-theory]]_.
 
