@@ -71,7 +71,7 @@ We first discuss in [Field strength as a closed 2-form](#FieldStrengthAsClosed2F
 #### Field strength is a closed 2-form
  {#FieldStrengthAsClosed2Form}
 
-In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, when physical [[spacetime]] is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional [[Minkowski space]] $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
+In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, when physical [[spacetime]] is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional [[Minkowski space]] $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]] -- the **Faraday tensor**
 
 $$
   \begin{aligned}
@@ -385,3 +385,6 @@ For undergraduate lectures including experimental material see
 [[!redirects electromagnetic field]]
 [[!redirects electromagnetic fields]]
 
+
+[[!redirects Faraday tensor]]
+[[!redirects Faraday tensors]]
