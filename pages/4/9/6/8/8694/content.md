@@ -42,6 +42,10 @@ Here
 
 (for this choice of [[coordinates]]).
 
+## Related concepts
+
+* [[Aharonov-Bohm effect]]
+
 ## References
 
 Section 5 of
