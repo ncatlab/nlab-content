@@ -659,6 +659,42 @@ as discussed above.
 
 =--
 
+The construction above builds the mapping cone explicitly via the standard formula for [[homotopy pushouts]]. Often however other presentations are more convenient:
+
+
++-- {: .num_prop #ConeViaDoubleComplex}
+###### Proposition
+
+For $f_\bullet \colon X_\bullet \to Y_\bullet$ a [[chain map]], 
+consider the [[double complex]] $D_{\bullet,\bullet}$ concentrated 
+in degrees $D_{1,\bullet} \coloneqq X_\bullet$ and 
+$D_{0,\bullet} \coloneqq Y_\bullet$ with 
+$\partial_{0,\bullet} \coloneqq f_\bullet \colon D_{1,\bullet} \to D_{0,\bullet}$.
+
+Then the [[total complex]] of $D_{\bullet, \bullet}$ is also
+a model for the mapping cone of $f$:
+
+$$
+ Cone(f) \simeq tot(D_{\bullet,\bullet})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks by inspection that 
+$tot(D_{\bullet,\bullet}) = Cone(\tilde f)$
+for $\tilde f\colon X_\bullet \to Y_\bullet$
+for which there is a [[chain homotopy]] $f \Rightarrow f'$
+(given only by multiplication by signs).
+
+=--
+
+This appears for instance as ([Weibel, Exercise 1.2.8](#Weibel)).
+
+
 
 ### For cochain complexes
  {#InCochainComplexes}
@@ -1373,6 +1409,6 @@ section 3.2 and section 7 of
 
 in section 1.5 of 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
+* {#Weibel} [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
 
 [[!redirects mapping cones]]
