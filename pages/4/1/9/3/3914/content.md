@@ -132,7 +132,7 @@ This appears as ([Hopkins, bottom of p. 6](#Hopkins)).
 
 #### $R$-Orientations
 
-For $X \stackrel{\zeta}{\to} B GL_1(\mathbb{S})$ a sphere bundle, an **$E$-orientation** on $X^\zeta$ is a trivialization of the associated $R$-bundle $X^\zeta \wedge R$, hence a trivialization (null-homotopy) of the classifying morphism
+For $X \stackrel{\zeta}{\to} B GL_1(\mathbb{S})$ a sphere bundle, an **$R$-orientation** on $X^\zeta$ is a trivialization of the associated $R$-bundle $X^\zeta \wedge R$, hence a trivialization (null-homotopy) of the classifying morphism
 
 $$
   X \stackrel{\zeta}{\to} B GL_1(\mathbb{S})
