@@ -9,9 +9,9 @@
 --------------------------------|-------------------------------------------|--------------------------------
  [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[h-level 0]]-[[type]]/[[unit type]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
- [[proposition]]                |   [[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] 
- [[proof]]                      |   [[generalized element]]                  | [[program]]
- [[cut rule]]                   |   [[composition]]                         |   [[substitution]]
+ [[proposition]]                |   [[(-1)-truncated object]]               | [[h-proposition]], [[mere proposition]] 
+ [[proof]]                      |   [[generalized element]]                 | [[program]]
+ [[cut rule]]                   |   [[composition]]/[[pullback]][^1]        |   [[substitution]]
  [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
 introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
@@ -32,4 +32,6 @@ introduction rule for [[implication]]              |   [[unit]] for hom-tensor a
  [[proof net]] | [[string diagram]] | [[quantum circuit]]
  (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
     |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]]  |
+
+[^1]: "[Substitution is pullback](http://math.andrej.com/2012/09/28/substitution-is-pullback/)"
  
