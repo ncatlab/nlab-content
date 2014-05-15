@@ -230,6 +230,11 @@ from which a series of others follow:
 
 * [[horseshoe lemma]] .
 
+## Relation to homotopy colimits
+
+The total complex of the double complex induced by a [[chain map]]
+is a model for the [[mapping cone]] of that map, see at _[mapping cone -- via double comples](mapping+cone#ConeViaDoubleComplex) for more.
+
 [[!redirects double complexes]]
 
 [[!redirects bicomplex]]
@@ -239,4 +244,3 @@ from which a series of others follow:
 
 [[!redirects double chain complex]]
 [[!redirects double chain complexes]]
-
