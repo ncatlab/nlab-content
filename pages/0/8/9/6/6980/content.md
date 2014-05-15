@@ -79,6 +79,9 @@ Further discussion of formal proofs includes the following
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
+* Jeremy Avigad, Kevin Donnelly, David Gray, Paul Raff, _A formally verified proof of the prime number theorem_ ([arXiv:cs/0509025](http://arxiv.org/abs/cs/0509025))
+
+
 A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
 
 * [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
