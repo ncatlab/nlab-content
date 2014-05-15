@@ -144,7 +144,7 @@ says in words:
 +-- {: .num_remark #NaiveDescentMorphism}
 ###### Remark
 
-For each differentially good open cover $\{U_i \to X\}_{i \in I}$ and each smooth pre-space $X$, def. \ref{SmoothPreSpace}, there is a canonical [[function]]
+For each differentially good open cover $\{U_i \to \mathbb{R}^n\}_{i \in I}$ and each smooth pre-space $X$, def. \ref{SmoothPreSpace}, there is a canonical [[function]]
 
 $$
   X(\mathbb{R}^n) \to GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
@@ -228,6 +228,7 @@ for the smooth space whose set of $U$-plots for every $U \in CartSp$ is always $
 $$
   Disc S \colon U \mapsto S
 $$
+
 
 and which sends every coordinate transformation $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ to the identity function on $S$.
 
