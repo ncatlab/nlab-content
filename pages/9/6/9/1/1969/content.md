@@ -559,6 +559,9 @@ and section 3.6.2 of
 [[!redirects derived hom spaces]]
 [[!redirects derived hom-spaces]]
 
+[[!redirects hom-space]]
+[[!redirects hom-spaces]]
+
 
 [[!redirects hom-∞-groupoid]]
 [[!redirects hom-infinity-groupoid]]
