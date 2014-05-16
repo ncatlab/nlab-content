@@ -8,7 +8,9 @@
 For a [[ringed space]] $(X, \mathcal{O}_X)$ there is its [[Picard group]] of [[invertible objects]] in the category of $\mathcal{O}_X$-[[modules]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme, this is the _Picard scheme_ $Pic_X$.
 This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
 
-Often one considers just the connected component $Pic_X^0$ of the neutral element in $Pic_X$, and often (such as in the discussion below, beware) it is that connected component (only) which is referred to by "Picard scheme". The [[quotient]] $Pic_X/Pic_X^0$ is called the _[[Néron-Severi group]]_ of $X$. The [[completion]] of the Picard scheme at its neutral element is the _[[formal Picard group]]_.
+Often one considers just the connected component $Pic_X^0$ of the neutral element in $Pic_X$, and often (such as in the discussion below, beware) it is that connected component (only) which is referred to by "Picard scheme". The difference between the two is measured by the [[quotient]] $Pic_X/Pic_X^0$, which is called the _[[Néron-Severi group]]_ of $X$. Though at least for $X$ an [[algebraic curve]], $Pic_X^0$ goes by a separate name: it is the _[[Jacobian variety]]_ of $X$.
+
+The [[completion]] of the Picard scheme at its neutral element (hence either of $Pic_X$ or $Pic_X^0$) is the _[[formal Picard group]]_.
 
 
 ## Definition
