@@ -78,6 +78,8 @@ See at _[[super line 2-bundle]]_.
 
 * [[line n-bundle with connection]]
 
+[[!include moduli of higher lines -- table]]
+
 ## References
 
 Line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orientifolds]] are discussed (even if not quite explicitly in the language of higher bundles) in 
@@ -114,5 +116,4 @@ The above higher supergeometric story is made explicit in
 [[!redirects line 2-bundles]]
 [[!redirects 2-line bundle]]
 [[!redirects 2-line bundles]]
-
 
