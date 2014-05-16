@@ -162,6 +162,7 @@ Given a [[monoidal category]] $C$, one may define a _line object in $C$_ to be a
 
 * [[2-line]]
 
+[[!include moduli of higher lines -- table]]
 
 [[!redirects line object]]
 [[!redirects line objects]]
