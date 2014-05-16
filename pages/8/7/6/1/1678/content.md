@@ -19,7 +19,7 @@ The notion of  _lax natural transformation_ is a generalization of the notion of
 
 As a natural transformation is a [[morphism]] between two [[functor]]s between [[categories]], a lax natural transformation is a morphism between [[2-functor]]s between [[2-categories]]:
 
-Where a natural transfomation has a [[commutative square|commuting]] naturality square, a lax natural transformation has a [[2-morphism]] filling that square.  If that 2-morphism is required to be invertible, one speaks of a [[pseudonatural transformation]], and if it is required to be an identity (which implies that the square commutes), then one speaks of a [[strict 2-natural transformation]] (this latter notion only really makes sense for [[strict 2-functors]] between [[strict 2-categories]]).
+Where a natural transformation has a [[commutative square|commuting]] naturality square, a lax natural transformation has a [[2-morphism]] filling that square.  If that 2-morphism is required to be invertible, one speaks of a [[pseudonatural transformation]], and if it is required to be an identity (which implies that the square commutes), then one speaks of a [[strict 2-natural transformation]] (this latter notion only really makes sense for [[strict 2-functors]] between [[strict 2-categories]]).
 
 In the general terminology of [[higher category theory]], a lax natural transformation may equivalently be called a (lax) [[k-transfor|1-transfor]].
 
