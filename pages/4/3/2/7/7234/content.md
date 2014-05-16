@@ -28,6 +28,8 @@ One of the [[exceptional Lie groups]].
 
 $E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 5 dimensions.
 
+[[!include U-duality -- table]]
+
 
 ## Related concepts
 
