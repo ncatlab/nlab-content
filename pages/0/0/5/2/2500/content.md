@@ -194,6 +194,8 @@ is the highest dimension possible. All lower dimensional theories in this class 
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
+* [[9-dimensional supergravity]]
+
 * [[8-dimensional supergravity]]
 
 * [[7-dimensional supergravity]]
