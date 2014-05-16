@@ -177,6 +177,9 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 
 See the references ([below](#UDualityReferences)).
 
+[[!include U-duality -- table]]
+
+
 ### Exceptional geometry
 
 For the moment see the remarks/references on supergravity at _[[exceptional geometry]]_ and _[[exceptional generalized  geometry]]_.
@@ -194,6 +197,8 @@ is the highest dimension possible. All lower dimensional theories in this class 
 * [[8-dimensional supergravity]]
 
 * [[7-dimensional supergravity]]
+
+* [[6-dimensional supergravity]]
 
 * [[5-dimensional supergravity]]
 
