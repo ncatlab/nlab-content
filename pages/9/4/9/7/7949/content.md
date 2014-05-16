@@ -215,7 +215,7 @@ where (up to [[equivalence of groupoids]])
 
 * $im_1(f) \to Y$ is the [[full subcategory|full subgroupoid]] of $Y$ on those objects $y$ such that there is an object $x \in X$ with $f(x) \simeq y$;
 
-* $im_2(f)$ is the gorupoid whose objecs are those of $X$ and whose morphisms are equivalence classes of morphisms in $X$ where $\alpha,\beta \in Mor(X)$ are equivalent if they have the same domain and codomain in $X$ and if $f(\alpha) = f(\beta)$
+* $im_2(f)$ is the groupoid whose objecs are those of $X$ and whose morphisms are equivalence classes of morphisms in $X$ where $\alpha,\beta \in Mor(X)$ are equivalent if they have the same domain and codomain in $X$ and if $f(\alpha) = f(\beta)$
 
   * $im_2(f)\to im_1(f)$ is the identity on objects and the canonical inclusion on sets of morphisms;
 
