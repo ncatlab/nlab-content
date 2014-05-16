@@ -66,6 +66,7 @@ The fundamental result of ([Artin_mazur 77](#ArtinMazur77)) is that under the ab
 
 * [[height of a variety]]
 
+[[!include moduli of higher lines -- table]]
 
 ## References
 
