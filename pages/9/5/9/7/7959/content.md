@@ -72,7 +72,7 @@ the addition of [[Wilson lines]] and a final breakdown of $D = 4$, $N = 1$ super
 
 See at _[References - Models in heterotic string theory](#ReferencesHeteroticModels)_
 
-### Models in type II string theory
+### Models in type II string theory / F-theory
  {#ModelsInTypeIIWithIntersectingBranes}
 
 In contrast to the construction of "heterotic standard models" [above](#HeteroticStandardModels), which are basically plain variants of the old [[Kaluza-Klein compactification]] mechanism where the effective [[gauge fields]] in 4-dimensional [[spacetime]] arise as components of the field of [[gravity]] in higher dimensions, in [[type II string theory]] with [[D-branes]] there are [[open strings]] whose massless excitations yield [[gauge fields]] "directly". The precise nature of these gauge fields and their couplings depends on the precise [[boundary conditions]] of these open strings, hence on the choice of [[D-branes]] that they end on.
@@ -81,11 +81,13 @@ Therefore in what are called "intersecting D-brane models" one considers [[Kaluz
 
 One way to neatly reorganize the required data for such type II compactifications is to formulate them in terms of "[[F-theory]]", which is why some of this type II model building now goes by names like "F-theory phenomenology" or similar.
 
-The [[moduli stabilization]] in these type of models can be achieved by choosing the [[RR-field]] [[field strength]] (the "flux") on the compactification space such that its [[curvature]] forms have certain specified [[periods]] on non-trivial [[singular cohomology|singular cycles]] of the compactification space. 
+The [[moduli stabilization]] in these type of models can be achieved by choosing the various [[RR-field]] and [[B-field]] [[field strength]] (the "fluxes") on the compactification space such that its [[curvature]] forms have certain specified [[periods]] on non-trivial [[singular cohomology|singular cycles]] of the compactification space. See ([Denef 08](#Denef08)) for introduction and review of such type IIB [[flux compactification]].
 
 Since there are only finitely many -- but many -- such choices, it is in this context that people first tried to count the number of possibilities of building models (under all these assumptions, though) and found these large finite numbers such as the meanwhile proverbial number $10^{500}$ (coming from an estimate of the number of non-tivial cycles in a generic Calabi-Yau and the number of choices of periods of the "flux" fields) which then led them to speak of the "[[landscape of string theory vacua]]". (Which of course without making a bunch of assumptions is vastly bigger, even.)
 
-See at _[References - Models in type II string theory](#ReferencesTypeIIModels)_
+Due to the relation between [[supersymmetry and Calabi-Yau manifolds]], of particular interest is the case of [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]], see there for more.
+
+For references see below at _[References - Models in type II string theory](#ReferencesTypeIIModels)_
 
 
 ### Models in M-theory
@@ -200,9 +202,10 @@ List of models are discussed in
 
 * Yang-Hui He, Seung-Joo Lee, Andre Lukas, Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
 
-#### Type II models
+#### Type II / F-theory models
  {#ReferencesTypeIIModels}
 
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
 Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[orientifold]] [[flux compactifications]]) include
 
