@@ -1531,8 +1531,12 @@ The above discussion is from
 [[!redirects circle n-bundles]]
 
 [[!redirects line bundle with connection]]
-[[!redirects circle bundle with connection]]
 [[!redirects line bundles with connection]]
+[[!redirects line n-bundle with connection]]
+[[!redirects line n-bundles with connection]]
+
+
+[[!redirects circle bundle with connection]]
 [[!redirects circle bundles with connection]]
 
 [[!redirects circle 2-bundle with connection]]
