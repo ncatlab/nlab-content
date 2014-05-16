@@ -2260,7 +2260,7 @@ $$
   Hom_{Set}(U(G)^{\times n}, U(A))
 $$
 
-is the set of [[functions]] from $n$-tuples of elements of $G$ to elements of $A$. It is immediate to check that these are in the [[kernel]] of $Hom_{\mathbb{Z}[G]}(\partial_{n}, A)$ precisely if they are [[cocycles]] in the [[group cohomology]] (by comparison with the explicit formulas there) and that they are gorup cohomology [[coboundaries]] precisely if they are in the [[image]] of $Hom_{\mathbb{Z}[G]}(\partial_{n-1}, A)$. This establishes the first equivalences.
+is the set of [[functions]] from $n$-tuples of elements of $G$ to elements of $A$. It is immediate to check that these are in the [[kernel]] of $Hom_{\mathbb{Z}[G]}(\partial_{n}, A)$ precisely if they are [[cocycles]] in the [[group cohomology]] (by comparison with the explicit formulas there) and that they are group cohomology [[coboundaries]] precisely if they are in the [[image]] of $Hom_{\mathbb{Z}[G]}(\partial_{n-1}, A)$. This establishes the first equivalences.
 
 Similarly one finds that $H^n(Hom(F_n, A)))$ is the sub-group of _normalized_ cocycles. By the discussion at _[[group cohomology]]_ these already support the entire group cohomology (every cocycle is comologous to a normalized one).
 
