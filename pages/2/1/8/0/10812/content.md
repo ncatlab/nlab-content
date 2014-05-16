@@ -1,6 +1,10 @@
 
 * [[zero divisor]]
 
-* [[Weil divisor]], [[Cariter divisor]]
+* [[divisor (algebraic geoemetry)]]
+
+  * [[Weil divisor]], [[Cartier divisor]]
+
+category: dismabiguation
 
 [[!redirects divisors]]
