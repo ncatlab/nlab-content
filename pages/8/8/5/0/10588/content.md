@@ -49,13 +49,13 @@ This is due to ([Ando-Hopkins-Strickland01, def. 1.2](AndoHopkinsStrickland01)).
 +-- {: .num_remark}
 ###### Remark
 
-Originally and still in many (most) references, def. \ref{EllipticSpectrum} is stated with the [[formal Picard group]] $Pic_A^0$ replaced by the [[formal completion]] $\hat A$ of $A$ at its neutral element.
+Originally (and still in many or even most references), def. \ref{EllipticSpectrum} is stated with the [[formal Picard group]] $Pic_A^0$ replaced by the [[formal completion]] $\hat A$ of $A$ at its neutral element.
 
-These two versions of the definition in itself are equivalent, since [[elliptic curves]] are self-[[dual abelian varieties]] equipped with a canonical [[isomorphism]] $A\simeq Pic_X^0$exhibited by the [[Poincare line bundle]].
+These two versions of the definition in itself are equivalent, since [[elliptic curves]] are self-[[dual abelian varieties]] equipped with a canonical [[isomorphism]] $A\simeq Pic_X^0$exhibited by the [[Poincaré line bundle]].
 
-But for the development of the theory, notably for application to [[equivariant elliptic cohomology]], for the relation of [[elliptic cohomology]] to [[loop group representations]] etc., it is crucial to understand that $E^\bullet(B U(1))$ is the space of section of a line bundle over a (formal) [[moduli space]] of [[line bundles]] on the elliptic curve, instead of on the elliptic curve itself.
+But for the development of the theory, notably for application to [[equivariant elliptic cohomology]], for the relation of [[elliptic cohomology]] to [[loop group representations]] etc., it is crucial to understand that $E^\bullet(B U(1))$ is the space of [[sections]] of a [[line bundle]] over a (formal) [[moduli space]] of [[line bundles]] on the elliptic curve, instead of on the elliptic curve itself.
 
-Indeed, generally for $G$ a [[compact Lie group]], then $E^\bullet(B G)$ is that of sections of the [[WZW model]]-[[line bundle]] on the (formal) [[moduli space of flat connections]] on $G$-[[principal bundles]] over the elliptic curve. This is the central statement at _[[equivariant elliptic cohomology]]_. As the appearabce of the [[WZW model]] here shows, this is also crucial for understanding the role of elliptic spectra in [[quantum field theory]]/[[string theory]], see at _[equivariant elliptic cohomology -- Interpretation in Quantum field theory/String theory](equivariant%20elliptic%20cohomology#InterpretationInQuantumFieldTheory)_ for more on this.
+Indeed, generally for $G$ a [[compact Lie group]], then $E^\bullet(B G)$ is the space of sections of the [[WZW model]]-[[line bundle]] on the (formal) [[moduli space of flat connections]] on $G$-[[principal bundles]] over the elliptic curve. This is the central statement at _[[equivariant elliptic cohomology]]_. As the appearance of the [[WZW model]] here shows, this is also crucial for understanding the role of elliptic spectra in [[quantum field theory]]/[[string theory]], see at _[equivariant elliptic cohomology -- Interpretation in Quantum field theory/String theory](equivariant%20elliptic%20cohomology#InterpretationInQuantumFieldTheory)_ for more on this.
 
 Moreover, understanding $Spec E^\bullet(BU(1))$ as being about [[moduli space of (higher) line bundles|moduli of line bundles]] on the elliptic curve is crucial for understanding the generalization of the concept of elliptic spectra, for instance to [[K3-spectra]]. This is indicated in the following table
 
