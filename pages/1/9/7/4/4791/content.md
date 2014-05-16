@@ -56,7 +56,7 @@ $E_8$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 
 ## Related entries
 
-The gorup $E_8$ plays a role in some exceptional [[differential geometry]]/[[differential cohomology]]. See for instance
+The group $E_8$ plays a role in some exceptional [[differential geometry]]/[[differential cohomology]]. See for instance
 
 * [[exceptional generalized geometry]], [[supergravity C-field]], [[Hořava-Witten theory]], [[heterotic string theory]]
 
