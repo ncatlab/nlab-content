@@ -71,7 +71,7 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 * [[Picard scheme]]
 
 
-
+[[!include moduli of higher lines -- table]]
 
 
 
