@@ -51,6 +51,8 @@ By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]
 
 $E_8$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 3 dimensions.
 
+[[!include U-duality -- table]]
+
 
 ## Related entries
 
