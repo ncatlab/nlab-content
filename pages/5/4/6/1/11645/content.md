@@ -1,0 +1,6 @@
+
+
+a [[moduli space]] of [[circle n-bundle with connection|higher line bundles (with connection)]]
+
+
+[[!include moduli of higher lines -- table]]
