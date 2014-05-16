@@ -45,7 +45,7 @@ In traditional literature this is mostly considered for [[Lie groupoids]]. Speci
 
 ### Twisted convolution algebra and twisted K-theory
 
-A central extension of a Lie groupoid induces a [[twisted groupoid convolution algebra]]. The corresponding [[operator K-theory]] is the [[twisted K-theory]] of the [[differentiable stack]] of the base gorupoid. See at _[[KK-theory]]_ for more on this.
+A central extension of a Lie groupoid induces a [[twisted groupoid convolution algebra]]. The corresponding [[operator K-theory]] is the [[twisted K-theory]] of the [[differentiable stack]] of the base groupoid. See at _[[KK-theory]]_ for more on this.
 
 ## Related concepts
 
