@@ -40,6 +40,8 @@ With due technical care, this data uniquely characterizes the elliptic fibration
 
 * [[F-theory]]
 
+  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+
 * [[K3]]
 
 ## References
