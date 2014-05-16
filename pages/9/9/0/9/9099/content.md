@@ -228,6 +228,13 @@ $$
 This arises from [[Freund-Rubin compactifications]] with [[cosmological constant]] $\lambda$ ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)). 
 
 
+## Properties
+
+### Moduli of fields (abelian case)
+
+[[!include moduli of higher lines -- table]]
+
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
@@ -266,6 +273,7 @@ This arises from [[Freund-Rubin compactifications]] with [[cosmological constant
 The abelian 7d [[higher dimensional Chern-Simons theory]] of a [[circle n-bundle with connection|circle 3-bundle with connection]] was considered in 
 
 * {#Witten97} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+
  
 
 * {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
