@@ -90,11 +90,11 @@ We list examples of local gauge groups and -[[∞-groups]] for various higher [[
 
 * the local gauge group of [[gravity]] on a [[manifold]] $X$ is the [[Poincare group]];
 
-* the gauge [[2-group]] of the [[Kalb-Ramond field]] is the [[circle n-group|circle 2-gorup]] $\mathbf{B} U() = (U(1) \to 1)$;
+* the gauge [[2-group]] of the [[Kalb-Ramond field]] is the [[circle n-group|circle 2-group]] $\mathbf{B} U() = (U(1) \to 1)$;
 
 * the gauge [[3-group]] of the [[supergravity C-field]] is the [[circle n-group|circle 3-group]] $\mathbf{B}^2 U(1) = (U(1) \to 1 \to 1)$;
 
-* the gauge group of abelial [[higher dimensional Chern-Simons theory]] in dimension $4 k+3$ is the [[circle n-group|circle (2k+1)-group]] $\mathbf{B}^{2k} U(1)$;
+* the gauge group of abelian [[higher dimensional Chern-Simons theory]] in dimension $4 k+3$ is the [[circle n-group|circle (2k+1)-group]] $\mathbf{B}^{2k} U(1)$;
 
 * the 7-dimensional "[[differential fivebrane structure|fivebrane Chern-Simons theory]]" has as gauge 2-group the [[string 2-group]];
 
