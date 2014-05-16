@@ -98,6 +98,8 @@ Hence we arrive at a refinement of the above **slogan**:
 
 > A formal systematic discussion of this story in [[schreiber:Quantization via Linear homotopy types|cohomological quantization]] is going to be in ([Nuiten-S.](#NS)). It essentially amounts to the discussion of diagram ([0.0.4 b)](#ESI14).
 
+[[!include moduli of higher lines -- table]]
+
 
 
 ## Definition 
@@ -498,6 +500,7 @@ In
 
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, PhD thesis, University of Illinois at Urbana-Champaign, 2005.
  {#Gepner05}
+
 
 the proposal of [Ginzburg-Kapranov-Vasserot 95](#GinzburgKapranovVasserot95) was formalized in terms of [[geometric morphisms]] of [[(infinity,1)-toposes]].
 
