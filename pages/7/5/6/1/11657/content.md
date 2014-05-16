@@ -1,0 +1,11 @@
+| [[U-duality]] groups | [[split real form]] |  maximal [[gauged supergravity]] |  | |
+|--------|---------------|---------------------|---|
+| [[special unitary group|SU]](3)$\times$ SU(2) | [[special linear group|SL]]$(3,\mathbb{R}) \times SL(2,\mathbb{R})$ | [[8d supergravity]] |  |
+| [[special unitary group|SU]](5) | $SL(5,\mathbb{R})$ | [[7d supergravity]] |  |
+| [[spin group|Spin]](10)| $Spin(5,5)$ | [[6d supergravity]] |  |
+| [[E6]]  |  $E_{6(6)}$ | [[5d supergravity]] | |
+| [[E7]]  |  $E_{7(7)}$ | [[4d supergravity]] | |
+| [[E8]]  |  $E_{8(8)}$ | [[3d supergravity]] | |
+| [[E9]]  |  $E_{9(9)}$ | [[2d supergravity]] | [[E8]]-[[equivariant elliptic cohomology]] |
+| [[E10]]  |  $E_{10(10)}$ |  | |
+| [[E11]]  |  $E_{11(11)}$ |  | |
