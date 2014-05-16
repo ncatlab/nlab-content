@@ -199,6 +199,8 @@ The Kontsevich and Soibelman references below are also good.
 
 * [[Kodaira-Spencer theory]]
 
+* [[Artin-Mazur formal group]]
+
 * [[deformation context]], [[formal moduli problem]], [[Lie differentiation]]
 
 * [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
