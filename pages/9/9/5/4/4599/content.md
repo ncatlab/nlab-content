@@ -1496,6 +1496,13 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 * [[Chern-Simons circle 7-bundle]].
 
+## Properties
+
+### Moduli
+
+[[!include moduli of higher lines -- table]]
+
+
 ## Related concepts
 
 * [differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)
