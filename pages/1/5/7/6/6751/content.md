@@ -894,7 +894,7 @@ Introductions and surveys include
 
   [[David Vogan]], _Review of: Lectures on the orbit method_ ([pdf](http://www.ams.org/journals/bull/2005-42-04/S0273-0979-05-01065-7/S0273-0979-05-01065-7.pdf))
 
-* [[David Vogan]], _Geometry and representations of reductive gorups_ (2007) ([pdf](http://www-math.mit.edu/~dav/rittC.pdf))
+* [[David Vogan]], _Geometry and representations of reductive groups_ (2007) ([pdf](http://www-math.mit.edu/~dav/rittC.pdf))
 
 * J. Maes, _An introduction to the orbit method_, Master thesis (2011) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2011/Jeroen%20Maes.pdf), [pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
 
