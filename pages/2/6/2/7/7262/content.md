@@ -30,6 +30,8 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 
 $E_{10}$ is conjectured (e.g. [Nicolai 08](#Nicolai08)) to be the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 1 dimension.
 
+[[!include U-duality -- table]]
+
 
 ## References
 
