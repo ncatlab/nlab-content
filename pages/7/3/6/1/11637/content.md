@@ -28,6 +28,10 @@ if the connected component $Pic_X^0$ is a [[smooth scheme]] then the [[completio
 This construction is the special case of the general construction of [[Artin-Mazur formal groups]] for $n = 1$. The next case is called the _[[formal Brauer group]]_. 
 
 
+## Related concepts
+
+[[!include moduli of higher lines -- table]]
+
 
 ## References
 
