@@ -23,7 +23,7 @@ A review of intermediate Jacobians of [[Calabi-Yau varieties]] of ([[complex man
 The (real) dimensional of the intermediate Jacobian of a CY3 $X$ is 
 
 $$
-  dim (J(X)) = 2(+ h^{1,2})
+  dim (J(X)) = 2(1+ h^{1,2})
 $$
 
 (e.g. [Baarsma 11, (2.21)](#Baarsma11))
