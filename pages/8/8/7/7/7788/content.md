@@ -51,7 +51,7 @@ Reviews include
 
 * [[Peter West]], section 17.5 of _[[Introduction to Strings and Branes]]_
 
-* [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://www.ift.uam.es/strings07/040_scientific07_contents/transparences/riccioni.pdf))
+* [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://www.ift.uam-csic.es/strings07/040_scientific07_contents/transparences/riccioni.pdf))
 
 * [[Fabio Riccioni]], _The $E_{11}$ origin of gauge maximal supergravities_ ([pdf](http://ggi-www.fi.infn.it/talks/talk71.pdf))
 
