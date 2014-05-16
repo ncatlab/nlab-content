@@ -17,7 +17,7 @@
 
 In [[set theory]],  an **inhabited set** or **occupied set** is a [[set]] that contains an [[element]].
 
-More generally, in [[type theory]] an **inhabited type** is a [[type]] that has a [[term]].
+More generally, in [[type theory]] an **inhabited type** is a [[type]] that has a [[term]]. 
 
 At least assuming [[classical logic]], this is the same thing as a set that is [[negation|not]] [[empty set|empty]]. Usually inhabited sets are simply called 'non-empty', but the positive word 'inhabited' reminds us that this is the simpler notion, which emptiness is defined as the [[negation]] of.
 
@@ -26,6 +26,24 @@ The terms 'inhabited' and 'occupied' come from [[constructive mathematics]]. In 
 There is a distinction between 'inhabited' and 'occupied' spaces in [[Abstract Stone Duality]] (which probably corresponds to something about [[locales]], should explain that here).
 
 An inhabited set is the special case of an [[inhabited object]] in the [[topos]] [[Set]].
+
+## Internal and external notions 
+
+In [[topos theory]], one should distinguish two notions of "inhabited". An object $X$ is _internally inhabited_ if the unique morphism $X \to 1$ to a [[terminal object]] is an [[epimorphism]]. It is _externally inhabited_ if there exists a [[global element]], i.e., a morphism $1 \to X$; such forces $X \to 1$ to be a retraction and hence epic, i.e., forces $X$ to be internally inhabited. The two notions coincide if the terminal object is [[projective object|projective]]. 
+
+A generally useful principle in formulating appropriate categorical properties of [[Set]] is that external and internal notions should coincide. A general default understanding across the nLab is that $Set$ is a [[well-pointed topos]] whose terminal object $1$ is projective and [[indecomposable object|indecomposable]]. These latter properties of the terminal object hold for any well-pointed topos if the metalogic is classical; for purposes of constructive mathematics, we usually agree to add them in. In any event, we present a constructive/intuitionistic proof of the following result. 
+
++-- {: .num_prop} 
+###### Proposition 
+In a well-pointed topos, an object $X$ which is _not_ internally inhabited is empty (is an initial object). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $X \to U \hookrightarrow 1$ be the epi-mono factorization of the unique map $X \to 1$. Here $m: U \hookrightarrow 1$ is monic but not epic if $X \to 1$ is not epic, and we use this to prove $U \cong 0$. In that case, we have a map $X \to 0$, whence $X \cong 0$ since in a topos initial objects are strict. (For given $X \to 0$, the projection $\pi_1: X \times 0 \to X$ has a section, and it follows that $X \cong 0$ since $X \times 0 \cong 0$ and retracts of initial objects are initial. This also implies that for any $V$ the map $i: 0 \to V$ is monic: for it is obviously true that for any pair of maps $h, k: A \to 0$ we have that $i h = i k$ implies $h = k$, as $A$ is initial by strictness and this makes $h = k$ automatic.) 
+
+Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let $g: U \to \Omega$ be the classifying map of the mono $0 \to U$. There is no map $1 \to U$, else $m: U \to 1$ would retract it and hence be epic. Hence it is vacuously true that $f x = g x$ for all $x: 1 \to U$, and so $f = g$ by well-pointedness. Hence the subobjects $1_U$ and $0$ coincide, forcing $U \cong 0$. 
+=-- 
 
 ## Related concepts
 
