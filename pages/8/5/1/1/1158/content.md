@@ -386,6 +386,11 @@ low dimensional proofs have obvious generalizations.
 
 See [[Beilinson-Deligne cup-product]].
 
+### Moduli and deformation theory
+
+[[!include moduli of higher lines -- table]]
+
+
 ## Examples 
 
 As described in some detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Čech cohomology|Čech]]--Deligne cocycle, i.e. a [[Čech cohomology|Čech cocycle]] representative with values in the Deligne complex.
