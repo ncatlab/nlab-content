@@ -15,8 +15,16 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]]. See also at _[[duality in string theory]]_
+_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]]. See also at _[[duality in string theory]]_.
+
+More technically, F-theory is what results when [[KK-compactification|KK-compactifying]] [[M-theory]] on a [[elliptic fibration]] (which yields [[type IIA superstring theory]] compactified on a [[circle]] bundle) followed by [[T-duality]] with respect to one of the two cycles of the elliptic fiber. The result is (uncompactified) [[type IIB superstring theory]] with [[axio-dilaton]] given by the moduli of the original elliptic fibration. 
+
+Or rather, this is type IIB string theory with some [[non-perturbative effects]] included. With a full description of [[M-theory]] available also F-theory should be a full non-perturbative description of type IIB string theory, but absent that it is some kind of approximation. For instance while the [[modular group|modular]] [[structure group]] of the [[elliptic fibration]] in principle encodes (necessarily non-perturbative) [[S-duality]] effects, it is presently not actually known in full detail how this affects the full theory, notably the proper charge quantization law of the 3-form fluxes, see at _[S-duality -- Cohomological nature of the fields under S-duality](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_  for more on that.
+
+
+
 
 ## Properties
 
@@ -78,6 +86,9 @@ The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal 
 
 An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
 
+The degeneration locus of the elliptic fibration is that of [[D7-branes]] and [[O-planes|O7-planes]].
+
+
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
 
@@ -93,7 +104,9 @@ A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]]
 
 ### Model building and phenomenology
 
-For F-theory a fairly advanced model building and [[string phenomenology]] has been developed. A detailed review is in ([Denef 08](#Denef08)).
+For F-theory a fairly advanced [[model (physics)|model]] building and [[string phenomenology]] has been developed. A detailed review is in ([Denef 08](#Denef08)).
+
+Via the relation between [[supersymmetry and Calabi-Yau manifolds]] there is particular interest in F-theory compactied on [[Calabi-Yau variety|Calabi-Yau spaces]] of ([[complex manifold|complex]]) [[dimension]] 4. For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
 
 See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]]_.
 
@@ -175,3 +188,6 @@ and with [[M5-brane]] [[instanton]] contributions:
 Reviewed in
 
 * {#Weigand12} [[Timo Weigand]], _Fluxes and M5-instantons in F-theory_, 2012 ([pdf slides](http://people.physik.hu-berlin.de/~ahoop/weigand.pdf))
+
+For more on this see also at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
+
