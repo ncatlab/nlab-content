@@ -24,6 +24,9 @@ In higher dimensional analogy of how the [[formal Picard group]] of an [[ellipti
 
 ## Related concepts
 
+[[!include moduli of higher lines -- table]]
+
+
 [[!include chromatic tower examples - table]]
 
 ## References
