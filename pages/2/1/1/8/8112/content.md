@@ -1,4 +1,11 @@
 
+## Idea
+
+(...)
+
+## Application in string theory
+
+In [[string theory]] [[partition functions]] tend to be automorphic forms for [[U-duality]] groups. See the [references below](#ReferencesInStringTheory)
 ## Related entries
 
 * [[modular form]], [[topological automorphic form]]
@@ -7,12 +14,20 @@
 
 ## References
 
+### General
+
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
 
 The relatin between [[string theory]] on [[Riemann surfaces]] and automorphic forms was first highlighted in
 
 * {#Witten88} [[Edward Witten]], _Quantum field theory, Grassmannians, and algebraic curves_, Comm. Math. Phys. Volume 113, Number 4 (1988), 529-700 ([Euclid](http://projecteuclid.org/euclid.cmp/1104160350))
+
+### In string theory
+  {#ReferencesInStringTheory}
+
+* {#GRV10} [[Michael Green]], Jorge G. Russo, Pierre Vanhove, _Automorphic properties of low energy string amplitudes in various dimensions_ ([arXiv:1001.2535](http://arxiv.org/abs/1001.2535))
+
 
 [[!redirects automorphic forms]]
 
