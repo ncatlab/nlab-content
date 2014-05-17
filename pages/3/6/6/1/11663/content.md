@@ -31,8 +31,8 @@ As special cases this includes:
 
 The general idea of [[Calabi-Yau cohomology]] apparently appears in 
 
-* [[Michael Hopkins]], lectures at Midwest Topology Seminar, 1992
+* {#Hopkins92} [[Michael Hopkins]], lectures at Midwest Topology Seminar, 1992
 
 The suggestion that from the point of view of [[string theory]]/[[F-theory]] K3-cohomology and further Calabi-Yau cohomology this is the required generalization of [[elliptic cohomology]] appears in 
 
-* [[Hisham Sati]], p. 18 of _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
+* {#Sati05} [[Hisham Sati]], p. 18 of _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
