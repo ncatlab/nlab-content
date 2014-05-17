@@ -15,7 +15,7 @@
 
 ## Idea
 
-Syntactic _substitution_ for [[variables]] is one of the basic operations in formal mathematics, such as symbolic [[logic]] and [[type theories]]. 
+Syntactic _substitution_ for [[variables]] is one of the basic operations in formal mathematics, such as symbolic [[logic]] and [[type theory|type theories]]. 
 
 
 ## Syntactic substitution
@@ -78,6 +78,7 @@ is now actually itself a string of the language under consideration.  One then n
 
 
 ## Categorical semantics
+ {#CategoricalSemantics}
 
 ### Definition
 
@@ -89,7 +90,9 @@ In the [[categorical semantics]] of [[type theory]]:
 
 * Recalling that [[dependent types]] are interpreted by [[display maps]], substitution of a term $t$ into a dependent type $B$ is interpreted by [[pullback]] of the display map interpreting $B$ along the morphism interpreting $t$.
 
-In the third case, there is a coherence issue: syntactic substitution in the usual approach is strictly associative, whereas pullback in a category is not.  One way to deal with this is by using explicit substitution as described above.  Another way is to strictify the category before modeling type theory; see [[categorical model of dependent types]].
+* Or else, since [[dependent types]] are also given by [[classifying morphisms]] into a [[type of types]], substitution corresponds to [[composition]] of these classifying morphisms with the given morphism.
+
+In the third case, there is a [[coherence]] issue: syntactic substitution in the usual approach is strictly [[associativity|associative]], whereas pullback in a category is not.  One way to deal with this is by using explicit substitution as described above.  Another way is to strictify the category before modeling type theory; see _[[categorical model of dependent types]]_. For literature see ([Curien-Garner-Hofmann](#CurienGarnerHofmann), [Lumsdaine-Warren 13](#LumsdaineWarren13)).
 
 
 ### Examples
@@ -187,6 +190,15 @@ and further developed in
 * [[Bill Lawvere]], _Equality in hyperdoctrines and
 comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
+Exposition of the interpretation of substitution as pullback is in 
+
+* [[Andrej Bauer]], _[Substitution is pullback](http://math.andrej.com/2012/09/28/substitution-is-pullback/)_, 2012
+
+The [[coherence]] issue involved in making this precise is discussed in 
+
+* {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
+
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013  ([[LumsdaineWarren2013.pdf:file]])
 
 [[!redirects substitution]]
 [[!redirects substitutions]]
