@@ -89,7 +89,7 @@ Lecture notes touching on the cases $n = 1$ and $n = 2$ include
 
 * {#Liedtke14} Christian Liedtke, example 6.13 in _Lectures on Supersingular K3 Surfaces and the Crystalline Torelli Theorem_ ([arXiv.1403.2538](http://arxiv.org/abs/1403.2538))
 
-Discussion of Artin-Mazur formal group for all $n$ of [[Calabi-Yau varieties]] of positive [[characteristic]] in dimension $n$ is in 
+Discussion of Artin-Mazur formal groups for all $n$ and of [[Calabi-Yau varieties]] of [[positive number|positive]] [[characteristic]] in [[dimension]] $n$ is in 
 
 * {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
 
