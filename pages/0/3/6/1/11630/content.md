@@ -122,17 +122,24 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 ## References
  {#References}
 
+### General
+
+The concept originates in 
+
+* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+which also introduced the term "U-duality".
+
 A textbook account is in 
 
 * {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
-
 
 
 Quick surveys include
 
 * [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
 
-Reviews focusing on [[gauged supergravity]] include
+Reviews focusing on [[gauged supergravity]] and the non-discrete duality groups include
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
@@ -140,47 +147,39 @@ with slides in
 
 * {#Samtleben07} [[Henning Samtleben]], _Gauged supergravity and U-duality_, 2007  ([pdf](http://www.desy.de/uni-th/stringth/ggfl/talks/Samtleben.pdf))
 
-and reviews with more [[M-theory]] lore include also
-
+Reviews with more [[M-theory]] lore include
 
 * N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
 
+* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
+
 * {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
+Discussion in line with the [[F-theory]] perspective on the $SL(2,\mathbb{Z})$-[[S-duality]] is in 
+
+* {#KumarVafa96} Alok Kumar, [[Cumrun Vafa]], _U-Manifolds_, Phys.Lett. B396 (1997) 85-90 ([arXiv:hep-th/9611007](http://arxiv.org/abs/hep-th/9611007))
+
+### In various dimensions
+
+The case of $SL(3,\mathbb{Z}) \times SL(2,\mathbb{Z})$ in [[8d supergravity]] is discussed in 
+
+* {#LiuMinasian97} James T. Liu, [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
+
+The case of $SL(5,\mathbb{Z})$ in [[7d supergravity]] from [[M-theory]] is discussed in
+
+* {#Rozali97} [[Moshe Rozali]], _Matrix Theory and U-Duality in Seven Dimensions_, Phys.Lett. B400 (1997) 260-264 ([arXiv:hep-th/9702136](http://arxiv.org/abs/hep-th/9702136))
 
 The $E_{7(7)}$-symmetry was first discussed in 
 
-* [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys.
-B 274, 363 (1986)
+* [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986)
 
-and $E_{8(8)}$ in 
+The case of $E_{8(8)}$ is discussed in
 
 * [[Hermann Nicolai]], _$D = 11$ Supergravity with Local $SO(16)$ Invariance_ , Phys. Lett. B 187, 316 (1987).
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for $d = 11$
 supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
 
-The discrete quantum subgroups were discussed in 
-
-* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
-
-which also introduced the term "U-duality".
-
-Review and further discusssion is in 
-
-* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
-
-A careful discussion of the topology of the U-duality groups is in 
-
-* [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_ ([arXiv:hep-th/0309106](http://arxiv.org/abs/hep-th/0309106))
-
-* [[Arjan Keurentjes]], _U-duality (sub-)groups and their topology_ ([arXiv:hep-th/0312134](http://arxiv.org/abs/hep-th/0312134))
-
-A discussion in the context of [[generalized complex geometry]] / [[exceptional generalized complex geometry]] is in 
-
-* Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
-
-* Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
 
 The case of [[E9]] is discussed in
 
@@ -198,6 +197,28 @@ and that of [[E11]] in
 
 * [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
 
+
+### Further details
+
+A careful discussion of the [[topology]] of the [[Kac-Moody group|Kac-Moody]] U-duality groups is in 
+
+* [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_ ([arXiv:hep-th/0309106](http://arxiv.org/abs/hep-th/0309106))
+
+* [[Arjan Keurentjes]], _U-duality (sub-)groups and their topology_ ([arXiv:hep-th/0312134](http://arxiv.org/abs/hep-th/0312134))
+
+A discussion in the context of [[generalized complex geometry]] / [[exceptional generalized complex geometry]] is in 
+
+* Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+
+* Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
+
+
 General discussion of the [[Kac-Moody groups]] arising in this context is for instance in 
 
 * Philipp Fleig, [[Axel Kleinschmidt]], _Eisenstein series for infinite-dimensional U-duality groups_ ([arXiv:1204.3043](http://arxiv.org/abs/1204.3043), [[Kleinschmidt12.pdf:file]])
+
+### Relation to automorphic forms
+
+String theory [[partition functions]] as [[automorphic forms]] for U-duality groups are discussed in 
+
+* {#GRV10} [[Michael Green]], Jorge G. Russo, Pierre Vanhove, _Automorphic properties of low energy string amplitudes in various dimensions_ ([arXiv:1001.2535](http://arxiv.org/abs/1001.2535))
