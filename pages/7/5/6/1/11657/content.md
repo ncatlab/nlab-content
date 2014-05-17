@@ -3,8 +3,8 @@
 |   | $SL(2,\mathbb{R})$  | 1  |  $SL(2,\mathbb{Z})$ [[S-duality]]   |   10d [[type IIB supergravity]]  |  |
 |   |    [[special linear group|SL]]$(2,\mathbb{R}) \times$ [[orthogonal group|O]](1,1) | $\mathbb{Z}_2$  |  $SL(2,\mathbb{Z}) \times \mathbb{Z}_2$ |  [[9d supergravity]] |  |
 | [[special unitary group|SU]](3)$\times$ SU(2) |    [[special linear group|SL]]$(3,\mathbb{R}) \times SL(2,\mathbb{R})$ | $O(2,2;\mathbb{Z})$  | $SL(3,\mathbb{Z})\times SL(2,\mathbb{Z})$ |  [[8d supergravity]] |  |
-| [[spin group|Spin]](10)  | $Spin(5,5)$| $O(3,3;\mathbb{Z})$ | $O(5,5,\mathbb{Z})$  | [[7d supergravity]] |    |
-| [[special unitary group|SU]](5) | $SL(5,\mathbb{R})$  | $O(4,4;\mathbb{Z})$  | $SL(5,\mathbb{Z})$ |  [[6d supergravity]] |  |
+| [[spin group|Spin]](10)  | $SL(5,\mathbb{R})$ | $O(3,3;\mathbb{Z})$ | $SL(5,\mathbb{Z})$  | [[7d supergravity]] |    |
+| [[special unitary group|SU]](5) | $Spin(5,5)$  | $O(4,4;\mathbb{Z})$  | $O(5,5,\mathbb{Z})$ |  [[6d supergravity]] |  |
 | [[E6]]  |  $E_{6(6)}$ | $O(5,5;\mathbb{Z})$  | $E_{6(6)}(\mathbb{Z})$  |  [[5d supergravity]] | |
 | [[E7]]  |  $E_{7(7)}$ | $O(6,6;\mathbb{Z})$  | $E_{7(7)}(\mathbb{Z})$ |  [[4d supergravity]] | |
 | [[E8]]  |  $E_{8(8)}$ | $O(7,7;\mathbb{Z})$ | $E_{8(8)}(\mathbb{Z})$ |  [[3d supergravity]] | |
