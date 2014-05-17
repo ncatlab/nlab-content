@@ -27,6 +27,11 @@
 
 ## Properties
 
+### U-duality
+
+Maximal 7d supergravity has $SL(5,\mathbb{Z})$-[[U-duality]]
+([Kumar-Vafa 96, section 3.4](KumarVafa96), [Rozali 97](#Rozali97)).
+
 ### Holography
 
 The [[AdS/CFT|AdS7/CFT6-correspondence]] relates
@@ -61,7 +66,7 @@ There are also gaugings for non-compact groups
 
 The $N=2$ $Sp(1)$-gauged theory was described in
 
-* [[Pete Townsend]] and [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41.
+* [[Paul Townsend]] and [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41.
 
 See also
 
@@ -87,6 +92,14 @@ That their Ansatz is indeed consistent has been shown in
 
 * [[Ali Chamseddine]], W.A. Sabra, _$D=7$ $SU(2)$ gauged supergravity from $D=10$ supergravity_ Physics Letters B
 Volume 476, Issues 3-4, 16 (2000), Pages 415-419 
+
+The $SL(5,\mathbb{Z})$-[[U-duality]] in 7d is discussed in 
+
+* {#KumarVafa96} Alok Kumar, [[Cumrun Vafa]], section 3.4 of _U-Manifolds_, Phys.Lett. B396 (1997) 85-90 ([arXiv:hep-th/9611007](http://arxiv.org/abs/hep-th/9611007))
+
+
+* {#Rozali97} [[Moshe Rozali]], _Matrix Theory and U-Duality in Seven Dimensions_, Phys.Lett. B400 (1997) 260-264 ([arXiv:hep-th/9702136](http://arxiv.org/abs/hep-th/9702136))
+
 
 #### Solutions
 
