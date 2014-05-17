@@ -110,6 +110,10 @@ Via the relation between [[supersymmetry and Calabi-Yau manifolds]] there is par
 
 See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]]_.
 
+## Related concepts
+
+* [[F'-theory]]
+
 ## References
 
 ### General
