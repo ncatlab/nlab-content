@@ -59,7 +59,7 @@ in dimension $4k+3$ (for $k \in \mathbb{N}$) is [[holographic principle|holograp
 
 * $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
 
-* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its boundary (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
 
 
 #### Conformal structure from polarization
