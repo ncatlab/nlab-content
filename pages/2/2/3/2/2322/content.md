@@ -301,6 +301,8 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 * [[type of types]], [[univalence]]
 
+* [[classifying morphism]]
+
 ## References
 
 
