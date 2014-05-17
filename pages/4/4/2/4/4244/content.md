@@ -51,6 +51,8 @@ If the base field is $\mathbb{C}$, then one can form the analyticification of $X
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
+* [[Calabi-Yau cohomology]]
+
 [[!redirects Calabi-Yau]]
 [[!redirects Calabi–Yau]]
 [[!redirects Calabi--Yau]]
