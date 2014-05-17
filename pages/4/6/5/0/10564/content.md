@@ -23,7 +23,7 @@ As usual in [[equivariant cohomology]], there is a "naive" version and refinemen
 
 * _[Motivation from algebraic topology](#MotivationFromAlgebraicTopology)_
 
-Despite that motivation, the precise nature of the resulting "genuine" equivariant elliptic cohomology may tend to seem a bit mysterious and also a bit baroque in its technical ingredients, some of which may appear a bit unexpected in the literature. A clear conceptual picture of what equivariant elliptic cohomology is about is obtained by regarding it as encoding aspects of low dimemsional [[quantum field theory]] and [[worldsheet]] [[string theory]]; this is indicated further below in 
+Despite that motivation, the precise nature of the resulting "genuine" equivariant elliptic cohomology may tend to seem a bit mysterious and also a bit baroque in its technical ingredients, some of which may appear a bit unexpected in the literature. A clear conceptual picture of what equivariant elliptic cohomology is about is obtained by regarding it as encoding aspects of low dimensional [[quantum field theory]] and [[worldsheet]] [[string theory]]; this is indicated further below in 
 
 * _[Interpretation in Quantum field theory/String theory](#InterpretationInQuantumFieldTheory)_.
 
@@ -62,7 +62,7 @@ While this can be made to work, it remains maybe unclear what these spaces $M_G$
 ### Interpretation in Quantum field theory/String theory
  {#InterpretationInQuantumFieldTheory}
 
-We now try to give a maybe more conceptual explanation of what genuine equivariant (and [[twisted cohomology|twisted]]) elliptic cohomology is about, when regarded over all [[elliptic curves]] (hencde: "genuine equivariant twisted [[tmf]]").
+We now try to give a maybe more conceptual explanation of what genuine equivariant (and [[twisted cohomology|twisted]]) elliptic cohomology is about, when regarded over all [[elliptic curves]] (hence: "genuine equivariant twisted [[tmf]]").
 
 
 The conceptual role of plain [[elliptic cohomology]] (not equivariant) was considerably clarified when ([Witten 87](Witten+genus#Witten87)) identified the  [[elliptic genus]] (an element in the elliptic cohomology of a point) with the ([[large volume limit]] of) the [[partition function]] of a [[2d superconformal field theory]] -- the [[worldsheet]] [[quantum field theory]] of the "[[superstring]]" -- where the [[worldsheet]] [[Riemann surface]] of the string is identified with the given [[elliptic curve]].
