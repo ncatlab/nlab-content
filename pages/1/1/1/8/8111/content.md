@@ -47,7 +47,7 @@ By construction, these modular curves provide [[covers]] ([[atlases]]) for the [
 
 ## Related concepts
 
-* [[Shimura variety]]
+* The analog of a modular curve with [[elliptic curves]] generalized to more general [[abelian varieties]] are _[[Shimura varieties]]_.
 
 ## References
 
