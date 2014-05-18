@@ -27,13 +27,17 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 
 ## References
 
-### Original articles
 
-* [[Mark Behrens]], [[Tyler Lawson]], _Topological automorphic forms_, Mem. Amer. Math. Soc. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/taf.pdf))
+The definition is due to
 
-* [[Tyler Lawson]], _An overview of abelian varieties in homotopy theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/tafoverview.pdf))
+* {#BehrensLawson07} [[Mark Behrens]], [[Tyler Lawson]], _Topological automorphic forms_, Mem. Amer. Math. Soc. ([arXiv:math/0702719](http://arxiv.org/abs/math/0702719))
 
-### Lectures
+An introductory survey is in 
+
+* {#Lawson08} [[Tyler Lawson]], _An overview of abelian varieties in homotopy theory_ ([arXiv:0810.0507](http://arxiv.org/abs/0810.0507))
+
+Lecture notes include
+
 
 * [[Mark Behrens]], _Topological Automorphic Forms_, Lecture series (2011) ([lecture notes](http://www.math.ist.utl.pt/~ggranja/SummerLect11_files/abstractmark.html))
 
