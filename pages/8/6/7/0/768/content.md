@@ -178,8 +178,6 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
 
-* [[classifying topos]]
-
 * [[subobject classifier]]
 
 * [[classifying morphism]]
