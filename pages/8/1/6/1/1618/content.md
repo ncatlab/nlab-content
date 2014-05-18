@@ -39,7 +39,7 @@ If $x$ is given by an [[essential geometric morphism]] we say that it is an **es
 
 Since [[Set]] is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $\mathcal{E}$ a [[sheaf topos]] this is a [[global element]] of the topos.
 
-Since $Set \sime Sh(*)$ is the [[category of sheaves]] on the one-point [[locale]], the notion of point of a topos is indeed the direct analog of a point of a [[locale]] (under [[localic reflection]]).
+Since $Set = Sh(*)$ is the [[category of sheaves]] on the one-point [[locale]], the notion of point of a topos is indeed the direct analog of a point of a [[locale]] (under [[localic reflection]]).
 
 =--
 
@@ -81,7 +81,7 @@ This appears for instance as ([MacLaneMoerdijk, theorem VII 2](#MacLaneMoerdijk)
 
 ### In localic sheaf toposes
 
-For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ the notion of topos pointscomes from the ordinary notion of points of $X$.
+For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ the notion of topos points comes from the ordinary notion of points of $X$.
 
 For notice that
 
@@ -91,20 +91,20 @@ For notice that
 
 It follows that for $E = Sh(X)$ points of $E$ in the sense of points of topoi are in bijection with the ordinary points of $X$.
 
-The action of the [[direct image]] $x^* : Set \to Sh(X)$ and the [[inverse image]] $x_* : Sh(X) \to Set$ of a point $x : Set \to Sh(X)$ of a sheaf topos have special interpretation and relevance:
+The action of the [[direct image]] $x_* : Set \to Sh(X)$ and the [[inverse image]] $x^* : Sh(X) \to Set$ of a point $x : Set \to Sh(X)$ of a sheaf topos have special interpretation and relevance:
 
 * The [[direct image]] of a set $S$ under the point $x : {*} \to X$ is, by definition of [[direct image]] the sheaf
   $$
     x_*(S) : (U \subset X) \mapsto S(x^{-1}(U)) = 
     \left\{
       \array{
-        S & if x \in U
+        S & \text{ if } x \in U
         \\
-        {*} & otherwise
+        {*} & \text{otherwise}
       }
     \right.
   $$
- This is the [[skyscraper sheaf]] $skysc_x(S)$ with value $S$ supported at $X$. (In the first line on the right in the above we identify the set $S$ with the unique sheaf on the point it defines. Notice that $S(\emptyset) = pt$).
+ This is the [[skyscraper sheaf]] $skysc_x(S)$ with value $S$ supported at $x$. (In the first line on the right in the above we identify the set $S$ with the unique sheaf on the point it defines. Notice that $S(\emptyset) = pt$).
 
 * The [[inverse image]] of a sheaf $A$ under the point $x : {*} \to X$ is by definition of [[inverse image]] (see the [[Kan extension]] formula discussed there), the set
   $$
@@ -117,7 +117,7 @@ The action of the [[direct image]] $x^* : Set \to Sh(X)$ and the [[inverse image
     \end{aligned}
     \,.
   $$
-  This is the [[stalk]] of $A$ at he point $x$,
+  This is the [[stalk]] of $A$ at the point $x$,
   $$
     x^*(-) = stalk_x(-)
     \,.
@@ -202,7 +202,7 @@ This is due to ([Butz](#Butz)) and ([Moerdijk]{#Moerdijk}).
 
 ### Of a local topos
 
-A [[local topos]] $(\Delta \dashv \Gamma \dahv coDisc) : E \to Set$ has a canonical point, $(\Gamma \dashv coDisc) : Set \to E$. Morover, this point is an [[initial object]] in the category of all points of $E$ (see _[Equivalent characterizations](local+geometric+morphism#EquivalentCharacterizations)_ at _[[local topos]]_.)
+A [[local topos]] $(\Delta \dashv \Gamma \dashv coDisc) : E \to Set$ has a canonical point, $(\Gamma \dashv coDisc) : Set \to E$. Morover, this point is an [[initial object]] in the category of all points of $E$ (see _[Equivalent characterizations](local+geometric+morphism#EquivalentCharacterizations)_ at _[[local topos]]_.)
 
 ### Over $\infty$-cohesive sites
 
