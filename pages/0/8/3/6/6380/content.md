@@ -51,7 +51,7 @@ $$
   \,.
 $$ 
 
-The fundamental result of ([Artin_mazur 77](#ArtinMazur77)) is that under the above hypotheses this presheaf if [[prorepresentable functor|pro-representable]] by a one-dimensional [[formal group]], which we may hence also denote by $\Phi_X^n$. This is called the **Artin-Mazur formal group** of $X$ in degree $n$.
+The fundamental result of ([Artin-Mazur 77](#ArtinMazur77)) is that under the above hypotheses this presheaf if [[prorepresentable functor|pro-representable]] by a one-dimensional [[formal group]], which we may hence also denote by $\Phi_X^n$. This is called the **Artin-Mazur formal group** of $X$ in degree $n$.
 
 ### Deformations of higher line bundles with connection
 
