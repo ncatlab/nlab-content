@@ -232,6 +232,8 @@ is mostly used for in the literature.
 
   * [[7d Chern-Simons theory]]
 
+  * [[11d Chern-Simons theory]]
+
   * [[string field theory]]
 
   * [[infinite-dimensional Chern-Simons theory]]
