@@ -178,9 +178,15 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 
 ### Cohomological considerations
 
+Discussion of the [[cohomology|cohomological]] charge quantization in type II ([[RR-fields]] as cocycles in [[KR-theory]]) in relation to the M-theory [[supergravity C-field]] is in
+
 * {#FMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
 
-See also at _[[supergravity C-field]]_.
+For more on this perspective as 10d type II as a [[self-dual higher gauge theory]] in the boudnary of a kind of [[higher dimensional Chern-Simons theory|11-d Chern-Simons theory]] is in
+
+* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+
+
 
 ### Relation to D0-brane mechanics
 
