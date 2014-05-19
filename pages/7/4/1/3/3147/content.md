@@ -25,7 +25,7 @@ For a modern perspective on this see at _[differential cohomology diagram-- Hopk
 
 The connecton of this work to the physics of the [[electromagnetic field]] and of higher [[gauge field]]s in  [[string theory]] was later developed further notably in
 
-* [[Dan Freed]], _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220)).
+* [[Daniel Freed]], _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220)).
 
 To this date generalized [[differential cohomology]] theories keep being studied mostly with motivation from [[string theory]], but the work of Hopkins and Singer has put this subject on solid mathematical ground, and an independent mathematical field of differential cohomology is developing since then. See the list of references at [[differential cohomology]].
 
