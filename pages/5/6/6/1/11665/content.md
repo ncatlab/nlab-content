@@ -41,4 +41,8 @@ However, for applications in [[string theory]] more refined versions of these th
 
 * {#BelovMoore06} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
+Review and further discussion of the induced K-theoretic [[self-dual higher gauge theory]] in 10d is in 
+
+* {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
+
 [[!redirects 11d Chern-Simons theory]]
