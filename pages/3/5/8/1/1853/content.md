@@ -305,6 +305,10 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
 * [[Massey product]]
 
+* [[cup product in differential cohomology]]
+
+  * [[cup product in ordinary differential cohomology]]
+
 ## References 
 
 The cup product in &#268;ech cohomology is discussed for instance in section 1.3 of
