@@ -15,8 +15,9 @@ We keep these lists:
 
 * [[math blogs]] -- list of online communities like blogs and wikis ("Online Resources")
 * [[math institutions]] -- links to main institutions and societies and to lists of more institutions
-* [[math archives]] -- links to archives of writings in areas of relevance to the $n$lab
+* [[math archives]] -- links to archives of writings and video lectures in areas of relevance to the $n$lab (including physics, philosophy)
 * [[math resources by individuals]] -- links to math resource webpages of individuals in areas of importance to the $n$lab
+* [[list of mathematics software]]
 
 Some other lists are:
 
