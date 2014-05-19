@@ -38,11 +38,13 @@ A generally useful principle in formulating appropriate categorical properties o
 In a well-pointed topos, an object $X$ which is _not_ internally inhabited is empty (is an initial object). 
 =-- 
 
+Note that the negation "not" in this statement is an *external* one, which is what makes it nontrivial.  If an object is *internally* "not inhabited", then it is empty essentially by definition.
+
 +-- {: .proof} 
 ###### Proof 
 Let $X \to U \hookrightarrow 1$ be the epi-mono factorization of the unique map $X \to 1$. Here $m: U \hookrightarrow 1$ is monic but not epic if $X \to 1$ is not epic, and we use this to prove $U \cong 0$. In that case, we have a map $X \to 0$, whence $X \cong 0$ since in a topos initial objects are strict. (For given $X \to 0$, the projection $\pi_1: X \times 0 \to X$ has a section, and it follows that $X \cong 0$ since $X \times 0 \cong 0$ and retracts of initial objects are initial. This also implies that for any $V$ the map $i: 0 \to V$ is monic: for it is obviously true that for any pair of maps $h, k: A \to 0$ we have that $i h = i k$ implies $h = k$, as $A$ is initial by strictness and this makes $h = k$ automatic.) 
 
-Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let $g: U \to \Omega$ be the classifying map of the mono $0 \to U$. There is no map $1 \to U$, else $m: U \to 1$ would retract it and hence be epic. Hence it is vacuously true that $f x = g x$ for all $x: 1 \to U$, and so $f = g$ by well-pointedness. Hence the subobjects $1_U$ and $0$ coincide, forcing $U \cong 0$. 
+Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let $g: U \to \Omega$ be the classifying map of the mono $0 \to U$. There is no map $1 \to U$, else $m: U \to 1$ would retract it and hence be epic. Hence it is vacuously true that $f x = g x$ for all $x: 1 \to U$, and so $f = g$ by well-pointedness. Hence the subobjects $1_U$ and $0$ coincide, forcing $U \cong 0$.   (In other words, the presence of a [[subobject classifier]] causes any [[generator]] to be a [[strong generator]].)
 =-- 
 
 ## Related concepts
