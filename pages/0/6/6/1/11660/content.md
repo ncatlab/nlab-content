@@ -1,2 +1,1 @@
-[[!redirects Klein-Gordon equation]]
-[[!redirects Klein-Gordon equation]]
+category: empty
