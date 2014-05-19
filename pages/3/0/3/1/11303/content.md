@@ -50,3 +50,5 @@ Further developments are in
 
 
 [[!redirects geometric engineering]]
+
+[[!redirects geometric engineering of quantum field theories]]
