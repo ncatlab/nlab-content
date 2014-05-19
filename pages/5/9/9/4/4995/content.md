@@ -639,6 +639,7 @@ Finally this implies the claim using [this proposition](http://ncatlab.org/nlab/
 
 =--
 
+
 With this lemma we can now give the proof
 of prop. \ref{PiPreservesPullbacksOverDiscretes}.
 
@@ -1219,6 +1220,12 @@ of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in
 
 This leads to [[differential algebraic K-theory]]. See there for details.
 
+### Smooth cohesion over arbitrary base $\infty$-toposes
+
+The above examples relativize to [arbitrary bases](#OverArbitraryBases).
+
+For instance [[smooth infinity-groupoid|smooth cohesion]] over an [[(∞,1)-topos]] over a suitable [[site]] of [[schemes]] is the natural context for [[differential algebraic K-theory]]. See there for more.
+
 ## Applications
 
 
@@ -1227,6 +1234,7 @@ As a context for geometric spaces and paths in geometric spaces, cohesive $(\inf
 See also
 
 * [[∞-Chern-Weil theory]]
+
 
 * [[schreiber:∞-Chern-Simons theory]]
 
