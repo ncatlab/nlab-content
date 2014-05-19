@@ -2,6 +2,8 @@
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
 
+In earlier work \cite{chacaltana:2010ks, fubar, MR3046557}, we actually did stuff.
+
 # Sandbox
 * table of contents
 {: toc}
