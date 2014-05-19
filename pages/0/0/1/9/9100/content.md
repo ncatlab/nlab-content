@@ -62,6 +62,8 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
   * [[7d Chern-Simons theory]]
 
+  * [[11d Chern-Simons theory]]
+
   * [[infinite-dimensional Chern-Simons theory]]
 
 * [[string field theory]]
