@@ -54,6 +54,9 @@ For $R$ a [[commutative ring]], and $R$[[Mod]] its [[category of modules]](proje
 More generally this reproduces the [[K-theory of a permutative category]] etc. ([Nikolaus 13, section 6](#Nikolaus13)).
 
 
+## Related concepts
+
+* [[regulator in algebraic K-theory]]
 
 ## References
 
