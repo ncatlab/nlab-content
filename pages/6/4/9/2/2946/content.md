@@ -182,7 +182,7 @@ Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equ
 
 * [[sifted colimit]], [[sifted (∞,1)-colimit]]
 
-* [[filtered (∞,1)-colimit]]
+* [[filtered (∞,1)-colimit]], [[filtered homotopy colimit]]
 
 Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
 
@@ -190,8 +190,8 @@ Filtered colimits are also important in the theory of [[locally presentable cate
 
 Section 2.13 in part I of 
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
-  {#Borceux}
+* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
+  
 
 
 [[!redirects filtered limit]]
