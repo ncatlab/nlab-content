@@ -52,6 +52,8 @@ Differential algebraic K-theory is the [[homotopy pullback]] of that along a sui
 
 * [[differential K-theory]]
 
+* [[differential form with logarithmic singularities]]
+
 ## References
 
 * [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
