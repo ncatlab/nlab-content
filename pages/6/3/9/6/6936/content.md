@@ -214,7 +214,7 @@ Expositions include
 
 * [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
 
-* [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+* [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
 
 * [[UF-IAS-2012]], _[Higher Inductive Types](http://uf-ias-2012.wikispaces.com/Higher+Inductive+Types)_
 
