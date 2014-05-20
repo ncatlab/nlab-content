@@ -91,7 +91,7 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 * 2014
 
-  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor [[davidroberts:Maths 1A Algebra 2014 semester 1|page]]
+  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor ([[davidroberts:Maths 1A Algebra 2014 semester 1|page]])
 
 * 2013 
 
