@@ -16,7 +16,7 @@
 
 ## Idea
 
-In the context of [[arithmetic geometry]] a _regulator_ is a certain map from [[algebraic K-theory]] to suitable [[ordinary cohomology]].
+In the context of [[arithmetic geometry]] a _regulator_ is a [[homomorphism]] from an [[algebraic K-theory]] to a suitable [[ordinary cohomology]] theory. (It "regulates" [[cocycles]] in [[algebraic K-theory]], which tend to be hard to analyze, to become cocycles in ordinary cohomology, about which typically more may be said).
 
 Regulators are used in the study of [[L-functions]] for instance in the context of the [[Bloch-Kato conjecture]].
 
@@ -28,8 +28,7 @@ The simplest example of such regulators are
 
 * the Dirichlet regulator map, discussed below.
 
-
-These regulators can be understood to be essentially the [[Chern characters]] in [[algebraic K-theory]] ([Tamme 12](#Tamme12)), which has a particularly natural construction in [[differential algebraic K-theory]] ([Bunke-Tamme 12](#BunkeTamme12))
+These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)).
 
 ## Definition
 
@@ -92,6 +91,35 @@ $$
 
 In [[differential algebraic K-theory]] this construction can be refined from landing in [[de Rham cohomology]] to landing in genuine [[ordinary differential cohomology]] ([[higher prequantization]]), hence with $CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})$ itself realized as the [[curvature]] of a [[circle n-bundle with connection|circle (p-1)-bundle with connection]].
 
+### Regulators of generalized algebraic K-theories
+ {#ForGeneralizedAlgebraicKTheories}
+
+Based on the [above](#BorelRegulator) abstract formulation of 
+the classical Beilinson- and Borel-regulators, the following
+general definition suggests itsef:
+
++-- {: .num_defn}
+###### Definition
+
+Consider the following data:
+
+1. For $\mathcal{C}^\otimes$ a [[symmetric monoidal (∞,1)-category]] write $\mathcal{K}(\mathcal{V})$ for its [[algebraic K-theory of a symmetric monoidal (∞,1)-category]]. 
+
+1. For $A \in Ch_\bullet(Ab)$ any [[chain complex]] write $H A$ for its [[Eilenberg-MacLane spectrum]] given by the [[stable Dold-Kan correspondence]].
+
+Then a _regulator_ with [[coefficients]] in $A$ of the [[algebraic K-theory]] [[Brown representability theorem|represented]] by $\mathcal{K}(\mathcal{C})$ is a [[homomorphism]] of [[spectra]] (hence a [[cohomology operation]])
+
+$$
+  r \;\colon\; \mathcal{K}(\mathcal{C}) \longrightarrow H A
+  \,.
+$$
+
+Accordingly the [[spectrum]] of $A$-regulators of $\mathcal{K}(\mathcal{C})$ is the [[mapping spectrum]] $[\mathcal{K}(\mathcal{C}), H A]$.
+ 
+=--
+
+([Bunke-Tamme 12, def. 23](#BunkeTamme12)).
+
 ## Properties
 
 ### Becker-Gottlieb transfer and GRR for algebraic K-theory
@@ -149,18 +177,18 @@ The relation to [[Chern characters]] is made very explicit in
 The interpretation of these regulator Chern characters in [[differential algebraic K-theory]] is due to
 
 
-* [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
- {#BunkeGepner13}
+* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
+ 
 
-* [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
- {#BunkeTamme12}
+* {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
+ 
 
 based on 
 
 
-* [[Jean-Michel Bismut]], [[John Lott]], _Flat vector bundles, direct images and
+* {#BismutLott95} [[Jean-Michel Bismut]], [[John Lott]], _Flat vector bundles, direct images and
 higher real analytic torsion_, J. Amer. Math. Soc. 8 (1995), no. 2, 291-363.
- {#BismutLott95}
+ 
 
 See also
 
@@ -169,54 +197,6 @@ See also
 * {#Suslin84} A.A. Suslin, _On the K-theory of local fields_, In Proceedings of the Luminy conference on algebraic K-theory (Luminy, 1983), volume 34, pages 301-318, 1984.
 
 * Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 
@@ -234,3 +214,8 @@ $\,$
 
 [[!redirects regulator]]
 [[!redirects regulators]]
+
+[[!redirects regulator in algebraic K-theory]]
+[[!redirects regulators in algebraic K-theory]]
+
+
