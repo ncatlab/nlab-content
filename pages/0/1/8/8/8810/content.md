@@ -39,7 +39,7 @@ The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vec
 
 The notion was introduced in 
 
-* D. Mumford, _Geometric invariant theory_, Ergebnisse Math. Vol 34 Springer (1965)
+* [[David Mumford]], _Geometric invariant theory_, Ergebnisse Math. Vol 34 Springer (1965)
 
 and
 
@@ -47,12 +47,13 @@ and
 
 A textbook account is in
 
-* [[Daniel Huybrechts]], Lehn, _The Geometry of the Moduli Space of Sheaves_ 
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
 
 See also
 
 * Paolo de Bartolomeis, Gang Tian, _Stability of complex vector bundles_, Journal of Differential Geometry, Vol. 43, No. 2 (1996) ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-231.pdf))
 
 * Wei-Ping Li, Zhenbo Qin, _Stable vector bundles on algebraic surfaces_ ([pdf](http://arxiv.org/pdf/math/9411233.pdf))
+
 
 [[!redirects stable vector bundles]]
