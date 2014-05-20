@@ -74,6 +74,7 @@ $$
   \,.
 $$
 
+
 Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. 
 
 =--
@@ -419,7 +420,7 @@ This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar
 
 ### Homotopy colimits {#hocolims}
 
-+-- {: .num_prop }
++-- {: .num_prop #CharacterizationOfFilteredHomotopyColimits}
 ###### Proposition
 
 In a combinatorial model category, for every sufficiently large regular [[cardinal number|cardinal]] $\kappa$ the following holds:
@@ -430,6 +431,8 @@ In a combinatorial model category, for every sufficiently large regular [[cardin
 
 
 =--
+
+See also at _[[filtered homotopy colimit]]_.
 
 +-- {: .proof}
 ###### Proof
