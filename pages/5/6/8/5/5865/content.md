@@ -488,6 +488,7 @@ etc. in [[∞Grpd]] at each stage of the fiber sequence. The statement then foll
 
 To every cocycle $g : X \to \mathbf{B}G$ is canonically associated its [[homotopy fiber]] $P \to X$, the [[(∞,1)-pullback]]
 
+
 $$
   \array{
     P &\to& {*}
@@ -1094,6 +1095,7 @@ where the right vertical morphism in any section of the projection from $C$-cocy
 ###### Note
 
 When the [[(∞,1)-topos]] $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[model structure on simplicial presheaves]] and model for $X$ and $C$ is chosen, then the cocycle [[∞-groupoid]] $\mathbf{H}(X,C)$ is presented by an explicit [[simplicial presheaf]] $\mathbf{H}(X,C)_{simp} \in sSet$. Once these choices are made, there is therefore the inclusion of simplicial presheaves
+
 
 $$
   const (\mathbf{H}(X,C)_{simp})_0 \to \mathbf{H}(X,C)_{simp}
@@ -2010,6 +2012,7 @@ The following lists some basic properties of objects of the form $\mathbf{\flat}
 +-- {: .num_prop}
 ###### Proposition
 
+
 For $G := Disc G_0 \in \mathbf{H}$ a [[discrete ∞-groupoid|discrete ∞-group]] the canonical morphism $\mathbf{H}_{flat}(X,\mathbf{B}G) \to \mathbf{H}(X,\mathbf{B}G)$ is an [[equivalence in an (∞,1)-category|equivalence]].
 
 =--
@@ -2470,6 +2473,10 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 
 =--
 
+### Integration of differential forms and Stokes lemma
+ {#IntegrationOfDifferentialForms}
+
+See at _[integration of differential forms -- In cohosive homotopy-type theory](integration%20of%20differential%20forms#InCohesiveHomotopyTypeTheory)_
 
 ### Exponentiated $\infty$-Lie algebras 
  {#LieAlgebras}
