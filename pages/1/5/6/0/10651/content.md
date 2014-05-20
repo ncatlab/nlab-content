@@ -103,7 +103,7 @@ general definition suggests itsef:
 
 Consider the following data:
 
-1. For $\mathcal{C}^\otimes$ a [[symmetric monoidal (∞,1)-category]] write $\mathcal{K}(\mathcal{V})$ for its [[algebraic K-theory of a symmetric monoidal (∞,1)-category]]. 
+1. For $\mathcal{C}^\otimes$ a [[symmetric monoidal (∞,1)-category]] write $\mathcal{K}(\mathcal{C})$ for its [[algebraic K-theory of a symmetric monoidal (∞,1)-category]]. 
 
 1. For $A \in Ch_\bullet(Ab)$ any [[chain complex]] write $H A$ for its [[Eilenberg-MacLane spectrum]] given by the [[stable Dold-Kan correspondence]].
 
