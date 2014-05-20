@@ -126,7 +126,7 @@ The original articles are
 
 Exposition in the context of [[homotopy type theory]] is in 
 
-* [[Mike Shulman]], _Minicourse on homotopy type theory_ (2012) ([web](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/))
+* [[Mike Shulman]], _Minicourse on homotopy type theory_ (2012) ([web](http://www.sandiego.edu/~shulman/hottminicourse2012/))
  {#Shulman}
 
 Formalization in the context of homotopy type theory is in 
