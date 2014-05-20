@@ -1,1 +1,32 @@
-*This is some filler text - I have no idea what Hodge cohomology is - I'm creating this to test something; hopefully it will be filled with some real content soon.*
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Hodge cohomology is a variant of [[de Rham cohomology]] for [[complex varieties]] induced by a canonical [[Hodge filtration]] on [[differential forms]].
+
+## References
+
+The definition of absolute Hodge cohomology originates around
+
+* [[Alexander Beilinson]], _Notes on absolute Hodge cohomology_, Applications of algebraic K-theory to algebraic geometry and number theory, Part I, II (Boulder, Colo., 1983), Contemp. Math., vol. 55, Amer. Math. Soc., Providence, RI, 1986, pp. 35-68. MR 862628 (87m:14019)
+
+see also the references at _[[Hodge theory]]_ for background.
+
+A review with an eye towards [[differential algebraic K-theory]] and in terms of [[differential forms with logarithmic singularities]] is in 
+
+* {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 3.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
+ 
