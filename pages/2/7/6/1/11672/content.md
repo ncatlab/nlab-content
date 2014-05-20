@@ -40,7 +40,7 @@ In a [[combinatorial model category]], for every sufficiently large  [[regular c
 
 =--
 
-This appears as ([Dugger 00, prop 7.3]{#Dugger00}).
+This appears as ([Dugger 00, prop 7.3](#Dugger00)).
 
 +-- {: .proof}
 ###### Proof
