@@ -103,6 +103,8 @@ See at _[[Deligne complex]]_
 
 * [[crystalline cohomology]], [[comparison theorem (crystalline cohomology)]]
 
+* [[Hodge cohomology]]
+
 ## References
 
 ### In differential geometry
