@@ -71,7 +71,6 @@ for the [[chain complex]] of [[abelian sheaves]] (regarded as a [[sheaf of spect
 +-- {: .num_defn #HodgeComplexOverIntegers}
 ###### Definition
 
-
 Write 
 
 $$
@@ -89,10 +88,26 @@ $$
   \,.
 $$
 
+
 =--
 
 ([Bunke-Tamme 12, section 3.2](#BunkeTamme12))
 
+There is a resolution of 
+$\Omega^\bullet_{\mathbb{Z}} \in Stab(\mathbf{B}) \stackrel{Disc}{\hookrightarrow} Stab(\mathbf{H})$ by a sheaf of complexes of differential forms on smooth manifolds tensored with $\Omega^\bullet_{\mathbb{Z}}$
+
+$$
+  \Omega^\bullet \in Stab(\mathbf{H})
+$$
+
+([Bunke-Tamme 12, (47)](#BunkeTamme12)).
+
++-- {: .num_defn #CyclesForHodgeComplexOverComplexNumbers}
+###### Definition
+
+While $\Omega^\bullet \simeq \Omega^\bullet_{\mathbb{Z}}$ below we use the chain-level truncation $\Omega^{\bulleq \geq 0}$ which is no longer in the image of $Disc$, hence no longer a [[flat modality]]-[[modal type]].
+
+=--
 
 ### Algebraic K-theory of schemes
 
@@ -146,18 +161,18 @@ As a homomorphism of [[spectrum objects]] this is ([Bunke-Tamme 12, def. 4.26](#
 _Differential algebraic K-theory_ is the [[homotopy fiber product]]
 
 $$
-  \hat K \coloneqq K \underset{\Omega^\bullet_{\mathbb{Z}}}{\times} \Omega^{\bullet \geq 0}_{\mathbb{Z}}  \in Stab(\mathbf{H})
+  \hat K \coloneqq K \underset{\Omega^\bullet}{\times} \Omega^{\bullet \geq 0}  \in Stab(\mathbf{H})
 $$
 
-of the inclusion of the non-negative degree truncation of the absolute Hodge complex, def. \ref{HodgeComplexOverIntegers}, with the refined Beilinson regulator, def. \ref{TheBeilinsonRegulator}
+of the inclusion of the non-negative degree truncation of the de Rham resolution of the absolute Hodge complex, def. \ref{CyclesForHodgeComplexOverComplexNumbers}, with the refined Beilinson regulator, def. \ref{TheBeilinsonRegulator}
 
 $$
   \array{
-    \hat K &\longrightarrow& \Omega^{\bullet \geq 0}_{\mathbb{Z}}
+    \hat K &\longrightarrow& \Omega^{\bullet \geq 0}
     \\
     \downarrow &(pb)& \downarrow
     \\
-    K &\underset{r^{Beil}}{\longrightarrow}& \Omega^\bullet_{\mathbb{Z}}
+    K &\underset{r^{Beil}}{\longrightarrow}& \Omega^\bullet
   }
   \,.
 $$
@@ -191,7 +206,7 @@ Differential algebraic K-theory as above is introduced and studied in
 
 Relevant references in ordinary [[algebraic K-theory]] include
 
-* {ThomasonTrobaugh90} [[Robert Thomason]] and Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, The Grothendieck Festschrift, Vol. III, Progr. Math., vol. 88, Birkhauser Boston, Boston, MA, 1990, pp. 247-435. MR 1106918 (92f:19001)
+* {#ThomasonTrobaugh90} [[Robert Thomason]] and Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, The Grothendieck Festschrift, Vol. III, Progr. Math., vol. 88, Birkhauser Boston, Boston, MA, 1990, pp. 247-435. MR 1106918 (92f:19001)
  
 
 [[!redirects differential algebraic K-theory]]
