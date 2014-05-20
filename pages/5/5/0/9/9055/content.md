@@ -10,6 +10,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A [[variety]] over the [[complex numbers]].
@@ -17,6 +21,8 @@ A [[variety]] over the [[complex numbers]].
 ## Related concepts
 
 * [[complex analytic variety]]
+
+* [[Hodge cohomology]]
 
 [[!redirects complex varieties]]
 
