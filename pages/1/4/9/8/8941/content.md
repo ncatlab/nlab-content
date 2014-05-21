@@ -10,6 +10,13 @@ $$
 = \sum (b_{(2)}\blacktriangleright m)_{(0)}
 \otimes (b_{(2)}\blacktriangleright m)_{(1)} b_{(1)}
 $$
+or equivalently, if $B$ is a Hopf algebra with invertible antipode $S$ (or instead just with the
+[[skew-antipode]] denoted $S^{-1}$)
+$$
+\sum (b_{(2)}\blacktriangleright m_{(0)})\otimes b_{(3)} m_{(1)} S^{-1}(b_{(1)})
+= \sum (b\blacktriangleright m)_{(0)}
+\otimes (b\blacktriangleright m)_{(1)}
+$$
 
 ### The category of Yetter-Drinfeld modules
 
