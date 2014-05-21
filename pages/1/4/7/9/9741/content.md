@@ -27,9 +27,9 @@ If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then
 
 ### Over complex manifolds / complex varieties
 
-Over a [[complex manifold]]/[[complex variety]], the [[Koszul-Malgrange theorem]] identifies holomorphic [[flat connections]] on [[complex vector bundles]] with [[holomorphic vector bundles]].
+Over a [[complex manifold]]/[[complex variety]], the [[Koszul-Malgrange theorem]] identifies holomorphic [[flat connections]] on [[complex vector bundles]] with [[holomorphic vector bundles]]. This identifies the moduli space of flat connections as a [[complex manifold]] with the [[intermediate Jacobian]].
 
-More specifically _[[Narasimhan–Seshadri theorem]]_ identifies the [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[complex manifold|complex]] spaces of [[stable vector bundle|stable]] [[holomorphic vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
+More specifically over a [[Riemann surface]] _[[Narasimhan–Seshadri theorem]]_ identifies the [[moduli spaces of flat connections]] with that of certain [[complex manifold|complex]] spaces of [[stable vector bundle|stable]] [[holomorphic vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
 
 ## Examples
 
