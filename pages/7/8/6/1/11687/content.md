@@ -1,0 +1,4 @@
+
+
+Given a [[ringed topos]] $(\mathcal{X}, \mathcal{O}_X)$, then a [[chain complex]] $V_\bullet$ of [[modules]] over the [[structure sheaf]] is said to have _coherent cohomology_ if all its [[chain homology]] [[groups]]  are [[coherent objects]] ([[coherent sheaves]]).
+
