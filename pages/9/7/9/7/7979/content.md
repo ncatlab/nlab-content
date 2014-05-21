@@ -142,6 +142,8 @@ $d \star F = 0$ gives Gauss's law and Amp&#232;re-Maxwell law
 
 ## Related concepts
 
+* [[Hodge-Maxwell theorem]]
+
 * [[Kirchhoff's laws]]
 
 * [[Yang-Mills equations]]
