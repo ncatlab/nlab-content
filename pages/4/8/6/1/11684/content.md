@@ -3,6 +3,10 @@
 
 The _Newlander-Nirenberg theorem_ states that an [[almost complex structure]] comes from a [[complex structure]] precisely if its [[Nijenhuis tensor]] vanishes.
 
+## Related concepts
+
+* [[Koszul-Malgrange theorem]]
+
 ## References
 
 Reviews include
