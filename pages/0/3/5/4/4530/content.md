@@ -25,6 +25,9 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 ## Properties
 
+### GAGA principle and relation to algebraic geometry
+
+[[complex analytic geometry]] is closely related to [[algebraic geometry]] over the [[complex numbers]]. See at _[[GAGA]]_ for more on this. 
 
 ## Related entries
 
