@@ -42,6 +42,10 @@ In geometry one says instead of flat connection, **integrable connection**. The 
 
 The condition of flatness is usually expressed via the [[Maurer-Cartan equation]], which is in integrable systems theory often called *zero curvature equation*. For example, the Lax equations can always be written in the form of the zero curvature equation. 
 
+### Over a complex manifold
+
+Over a [[complex manifold]]/[[complex variety]] the [[Koszul-Malgrange theorem]] identifies holomorphic flat connections on [[complex vector bundles]] with [[holomorphic vector bundles]]. See there for more
+
 ### Over a Riemann surface
 
 #### Existence
