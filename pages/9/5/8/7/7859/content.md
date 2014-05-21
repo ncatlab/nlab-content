@@ -271,6 +271,8 @@ $$
 
 ## Related concepts
 
+* [[Brauer stack]]
+
 * [[formal Brauer group]]
 
 * [[group of units]]/[[multiplicative group]], [[Picard group]]
@@ -332,6 +334,10 @@ Refinement to [[stable homotopy theory]] and [[Brauer ∞-groups]] is discussed 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
+
+See also
+
+* [[Jochen Heinloth]], [[Marc Levine]], Stefan Scr&#246;er, _Forschungsseminar: Brauer groups and Artin stack_, 07 ([pdf](https://www.uni-due.de/~mat903/sem/brauer.pdf))
 
 
 Related MO discussion includes 
