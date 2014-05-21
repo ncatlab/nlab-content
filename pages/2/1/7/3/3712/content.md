@@ -21,11 +21,11 @@
 
 ## Definition 
 
-A [[connection on a bundle|connectiojn]] on a [[fibre bundle]] is **flat** if its [[curvature]] is zero. 
+A [[connection on a bundle|connection]] on a [[fibre bundle]] is **flat** if its [[curvature]] is zero. 
 
 The same definition of flatness holds for connections in various algebraic setups and for connections on [[quasicoherent sheaves]]. 
 
-The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles are also refereed to as [[local systems]] (by the _Riemann-Hilbert correspondence_ discussed [below](#RiemannHilbertCorrespondence)).
+The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles are also referred to as [[local systems]] (by the _Riemann-Hilbert correspondence_ discussed [below](#RiemannHilbertCorrespondence)).
 
 ## Properties
 
