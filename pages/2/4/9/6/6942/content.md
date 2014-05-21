@@ -78,6 +78,10 @@ The statement immediately generalizes to higher degrees and to other notions of 
 
 A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of elliptic curves]]_ for more on this.
 
+### Of Line bundles
+
+* [[Picard stack]]
+
 ## Related concepts
 
 * [[moduli]], [[moduli problem]]
