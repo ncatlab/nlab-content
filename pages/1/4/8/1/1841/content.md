@@ -351,6 +351,8 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 * [[Dirac charge quantization]]
 
+* [[Hodge-Maxwell theorem]]
+
 * [[Yang-Mills field]]
 
 * [[B-field]], [[C-field]]
