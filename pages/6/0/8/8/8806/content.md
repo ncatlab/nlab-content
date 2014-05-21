@@ -30,6 +30,11 @@ A omplex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line
 
 The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the holomorphic and the topological classification of [[complex vector bundles]] on $X$ coincide. The original reference is ([Grauert 58](#Grauert58)).
 
+
+### Relation to holomorphic vector bundles
+
+* [[Koszul-Malgrange theorem]]
+
 ## Related concepts
 
 * [[complex vector space]]
@@ -48,4 +53,7 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
 
 * Emery Thomas, _Complex structures on real vector bundles_ ([JSTOR]( http://www.jstor.org/stable/2373409))
 
+In the context of [[GAGA]]:
+
+* {#Demailly09} [[Jean-Pierre Demailly]], section 3 of _Analytic methods in algebraic geometry_, lecture notes 2009  ([pdf](http://www-fourier.ujf-grenoble.fr/~demailly/manuscripts/analmeth.pdf))
 [[!redirects complex vector bundles]]
