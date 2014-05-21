@@ -55,6 +55,7 @@ In total this gives an [[adjoint quadruple]]
 
 A cohesive topos is a topos whose terminal [[geometric morphism]] admits an extenson to such a quadruple of adjoints, satisfying some further properties.
 
+
 Notice that most objects in a cohesive topos are far from being just sets with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $E$ that we may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
 
 $$
@@ -1469,8 +1470,11 @@ where (on p. 9) it is suggested that "almost any" [[extensive category]]  may be
 
 An analysis of the interdependency of the axioms on a cohesive topos is in
 
-* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
-{#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
+Discussion of "sufficient cohesion" is in 
+
+* [[Matías Menni]], _Continuous Cohesion over sets_ ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
 A good deal of the structure of cohesive toposes is also considered in 
 
