@@ -325,6 +325,12 @@ We discuss now $(\infty,1)$-vector bundles in more general [[(∞,1)-toposes]].
      \,.
   $$
 
+## Related concepts
+
+* [[twisted cohomology]]
+
+* [[Picard ∞-stack]]
+
 ## References
  {#References}
 
