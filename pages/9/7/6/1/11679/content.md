@@ -1,0 +1,16 @@
+
+
+## Definition
+
+e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
+
+## Related concepts
+
+* [[degree of a coherent sheaf]]
+
+* [[stable vector bundle]]
+
+## References
+
+
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
