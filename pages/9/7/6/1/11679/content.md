@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
 ## Definition
 
@@ -8,7 +21,9 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 
 * [[degree of a coherent sheaf]]
 
-* [[stable vector bundle]]
+* [[rank of a coherent sheaf]]
+
+* [[stable coherent sheaf]]
 
 ## References
 
