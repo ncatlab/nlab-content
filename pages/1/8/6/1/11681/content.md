@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,9 +23,9 @@ The [[Hodge theorem]] in the language of [[electromagnetism]]. Over a [[Riemann 
 
 ## Statement
 
-Let $(X,g)$ be a [[compact topological space|compact]] [[orientation|oriented]] [[Riemannian manifold]] of [[dimension]] $n$. Write $\ast$ for the corresponding [[Hodge star]] operator.
+Let $(X,g)$ be a [[compact topological space|compact]] [[orientation|oriented]] [[Riemannian manifold]] of [[dimension]] $n$. Write $\star$ for the corresponding [[Hodge star]] operator.
 
-Then for every exact [[differential n-form]] $j$ of degree $n-k-1$ there is in each [[de Rham cohomology]] of degree 2 a unique closed 2-form $F$
+Then for every exact [[differential n-form]] $j$ of degree $n-k-1$ there is in each [[de Rham cohomology]] ckass of degree 2 a unique representative closed 2-form $F$
 
 $$
   \mathbf{d} F = 0
@@ -20,11 +34,11 @@ $$
 such that
 
 $$
-  \mathbd{d}\ast F = j
+  \mathbf{d}\star F = j
   \,.
 $$
 
-Reading this as [[Maxwell's equations]] on $(X,g)$ then $g$ is the [[field (physics)]] of [[gravity]], $F$ is the [[Faraday tensor]] measuring the [[field strength]] of the [[electromagnetic field]] and $j$ is the [[electric current]].
+Reading this as [[Maxwell's equations]] on $(X,g)$ then $g$ is the [[field (physics)|field]] of [[gravity]], $F$ is the [[Faraday tensor]] measuring the [[field strength]] of the [[electromagnetic field]] and $j$ is the [[electric current]].
 
 ## References
 
