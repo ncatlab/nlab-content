@@ -55,7 +55,8 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-If an antipode exists then it is unique, just the way that if inverses exist in a [[monoid]] then they are unique.
+If an antipode exists then it is unique, just the way that if inverses exist in a [[monoid]] then they are unique. One sometimes prefers to have a __skew-antipode__ $\tilde{S}$ such that $h_{(2)}\tilde{S}(h_{(1)}) = \tilde{S}(h_{(2)}) h_{(1)} = 
+(\eta\circ\epsilon) (h)$. If $S$ is an invertible antipode then $\tilde{S} - S^{-1}$ is a skew-antipode. $H$ is a bialgebra with a skew-antipode iff $H^{op}$ (the same vector space, opposite product, the same coproduct) is a Hopf algebra.
 
 The unit of a Hopf algebra is a [[grouplike element]],  hence $S(1)1=1$, therefore $S(1)=1$. By linearity of $S$ this implies that $S\circ\eta\circ\epsilon = \eta\circ\epsilon$.
 
@@ -239,4 +240,5 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 * [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 [[!redirects antipode]]
+[[!redirects skew-antipode]]
 [[!redirects Hopf algebras]]
