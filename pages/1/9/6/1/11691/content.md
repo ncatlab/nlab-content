@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Phillip_Griffiths)
+
+## Related entries
+
+* [[intermediate Jacobian]]
+
+category: people
