@@ -52,6 +52,9 @@ Therefore separated schemes are analogous to [[Hausdorff space|Hausdorff topolog
 * [[Hausdorff topos]], [[Hausdorff topological space]]
 
 category: algebraic geometry
+
 [[!redirects separated morphisms of schemes]]
 [[!redirects separated scheme]]
 [[!redirects separated schemes]]
+
+[[!redirects locally separated]]
