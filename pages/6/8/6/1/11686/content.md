@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Mean value theorem](http://en.wikipedia.org/wiki/Mean_value_theorem)_
+
