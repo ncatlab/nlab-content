@@ -64,9 +64,11 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 
 ## Related concepts
 
-* [[group of units]], **Picard group**, [[Brauer group]], [[Azumaya algebra]]
+* [[group of units]], **Picard group**, [[Picard stack]]
 
-* [[Picard 2-group]], [[Picard ∞-group]]
+  * [[Brauer group]], [[Azumaya algebra]]
+
+* [[Picard 2-group]], [[Picard ∞-group]], [[Picard ∞-stack]]
 
 * [[Picard scheme]]
 
