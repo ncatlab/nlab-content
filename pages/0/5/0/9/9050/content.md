@@ -127,6 +127,8 @@ See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
 
 ## Related concepts
 
+* [[Hodge-Maxwell theorem]]
+
 * [[Hodge theory]], [[Hodge structure]]
 
 * [[nonabelian Hodge theorem]]
