@@ -1,3 +1,4 @@
+[[!redirects Harder-Narasimhan filtration]]
 
 ## Related concepts
 
