@@ -49,7 +49,9 @@ $$
   \,.
 $$
 
-This is the canonical group object in $\mathbf{B}$.
+This is the canonical group object in $\mathbf{B}$. The [[mapping stacks]] into it are the [[Picard ∞-stacks]].
+
+(...)
 
 
 For [[E-∞ rings]] over the [[complex numbers]], hence [[E-∞ algebras]] over $\mathbb{C}$, the [[multiplicative group]]
