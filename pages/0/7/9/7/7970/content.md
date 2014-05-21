@@ -23,6 +23,10 @@ A [[complex numbers|complex]] [[vector bundle]] over a [[complex manifold]] such
 
 ## Properties
 
+### As complex algebraic vector bundles
+
+By the [[GAGA]]-principle holomorphic vector bundles and more generally analytic [[coherent sheaves]] over a [[projective variety|projetive]] [[smooth variety|smooth]] [[complex variety]] coincide with complex [[algebraic vector bundles]]/[[coherent sheaves]].
+
 ### As complex vector bundles with flat holomorphic connection
  {#AsComplexVectorBundlesWithHolomorphicFlatConnection}
 
