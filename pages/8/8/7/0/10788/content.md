@@ -39,6 +39,7 @@ For more along such lines see at _[[GAGA]]_.
 
 * [[étale topology]]
 
+* [[analytification]], [[GAGA]]
 
 ## References
 
