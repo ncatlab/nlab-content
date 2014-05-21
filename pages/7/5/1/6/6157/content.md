@@ -204,6 +204,7 @@ This is ([ABG, def. 4.1](#ABG)) and ([ABG, p. 15](#ABG)), ([ABG11, remark 10.16]
 +-- {: .num_remark}
 ###### Remark
 
+
 For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR 08, def. 7.27, remark 7.28](#ABGHR08)) the **[[Thom spectrum|Thom A-module]]** of $f$ and written $M f$. 
 
 =--
@@ -379,3 +380,8 @@ Lecture notes on these articles are in
 [[!redirects (∞,1)-line bundles]]
 [[!redirects (infinity,1)-line bundle]]
 [[!redirects (infinity,1)-line bundles]]
+
+[[!redirects ∞-line bundle]]
+[[!redirects ∞-line bundles]]
+[[!redirects infinity-line bundle]]
+[[!redirects infinity-line bundles]]
