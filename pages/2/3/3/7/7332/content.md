@@ -3,6 +3,8 @@
 
 ## Related entries
 
+* [[Koszul-Malgrange theorem]]
+
 * [[Koszul duality]]
 
 * [[Koszul algebra]]
