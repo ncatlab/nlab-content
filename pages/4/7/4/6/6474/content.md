@@ -52,6 +52,7 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 * If $f$ is a flat, cohomologically flat in dimension 0, proper, [[finitely presented]] map of of [[algebraic space]]s, then $Pic_{X/S}$ is representable by an algebraic space locally of finite presentation over $S$.
 
 ## Picard Stack
+ {#PicardStack}
 
 The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the [[groupoid]] of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid]] equipped with geometric structure). 
 
