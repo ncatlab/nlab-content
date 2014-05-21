@@ -181,7 +181,7 @@ which may be thought of as the dual of the representation morphism (see the exam
 
 ### dg-Category of representations 
 
-In [Block](#Block) the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
+In ([Block 05](#Block05)) the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
 $(g,A)$ in the above sense -- called dg-algebra modules there -- is defined.
 
 **Definition**
@@ -214,17 +214,18 @@ with Lie representations of $(g,A)$ as objects and chain comoplexes as above as 
 
 ### Relation to coherent complexes of sheaves 
 
-**Theorem**
++-- {: .num_theorem}
+###### Theorem
 
-For $X$ a smooth complex manifold and $(g,A) = T_{hol} X$ the holomorphic tangent Lie algebroid
-of $X$ (so that $CE_A(g) = \Omega^\bullet_{hol}(X)$ the holomorphic deRham complex of $X$), and for 
-$Rep(T_{hol} X)$ taken to have as objects complexes of _finitely generated_ and _projective_ $C^\infty(X)$-modules (i.e. complexes of smooth vector bundles)
+For $X$ a [[smooth manifold|smooth]] [[complex manifold]] and $(g,A) = T_{hol} X$ the holomorphic [[tangent Lie algebroid]]
+of $X$ (so that $CE_A(g) = \Omega^\bullet_{hol}(X) = \Omega^{\bullet,0}(X)$ the holomorphic part of the [[Dolbeault complex]] of $X$), and for 
+$Rep(T_{hol} X)$ taken to have as objects complexes of _finitely generated_ and _projective_ $C^\infty(X)$-modules (i.e. complexes of [[smooth vector bundles]]) 
 the [[homotopy category of an (infinity,1)-category|homotopy category]]
 $Ho Rep(T_{hol} X)$ of the [[dg-category]] $Rep(T_{hol} X)$ is [[equivalence of categories|equivalent]]
-to the _bounded derived category of complexes of sheaves with coherent cohomology_ on $X$
+to the _bounded [[derived category]] of [[complexes of sheaves]] with [[coherent cohomology]]_ on $X$
 (see [[coherent sheaf]]).
 
-This is [Block, theorem 2.22](#Block).
+This is [Block 05, theorem 2.22](#Block05).
 
 The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles that are equipped with "half a flat connection", namely with a flat covariant derivative only along holomorphic tangent vectors. It is an old result that holomorphic vector bundles are equivalent to such smooth vector bundles with "half a flat connection". This is what the theorem is based on.
 
@@ -260,9 +261,9 @@ The general definition of representation of $\infty$-Lie algebroids as above app
 
 The definition of the dg-category of representation of a tangent Lie algebroid and its equivalence in special cases to derived categories of complexes of coherent sheaves is in
 
-* [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry I_
-([arXiv](http://arxiv.org/abs/math/0509284))
-{#Block}
+* {#Block05} [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry I_
+([arXiv:0509284](http://arxiv.org/abs/math/0509284))
+
 
 For the case of Lie 1-algebroids essentially the same definition appears also in
 
