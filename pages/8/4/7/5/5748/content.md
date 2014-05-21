@@ -101,7 +101,7 @@ A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[compl
 
 ### Characterizations of integrability
 
-The _[[Newlander-Nierenberg theorem]]_ states that an almost complex structure $J$ on a smooth manifold is integrable (see also at _[[integrability of G-structures]]_) precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
+The _[[Newlander-Nirenberg theorem]]_ states that an almost complex structure $J$ on a smooth manifold is integrable (see also at _[[integrability of G-structures]]_) precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
 
 
 
