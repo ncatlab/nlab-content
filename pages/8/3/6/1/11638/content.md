@@ -25,6 +25,8 @@ In higher dimensional analogy of how the [[formal Picard group]] of an [[ellipti
 
 ## Related concepts
 
+* [[Brauer stack]]
+
 [[!include moduli of higher lines -- table]]
 
 
