@@ -23,7 +23,12 @@ In **complex geometry** one studies _[[complex manifolds]]_ as a special case of
 
 In _complex [[analytic geometry]]_ one studies, more generally, [[complex analytic spaces]].
 
+## Properties
+
+
 ## Related entries
+
+* [[analytic geometry]], [[GAGA]]
 
 * [[complex analytic topology]]
 
