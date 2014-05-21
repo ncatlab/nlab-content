@@ -33,6 +33,7 @@ If $\mathcal{E}$ is of [[coherent sheaf|finite type]], then the rank at $x$ can 
 
 In the [[internal logic|internal language]] of the sheaf topos $\mathrm{Sh}(X)$, the rank of $\mathcal{E}$ can internally quite simply be defined as the minimal number of elements needed to generate $\mathcal{E}$ (taken as an element of the suitably completed natural numbers, i.e. the poset of inhabited upper sets). Under the correspondence of internal inhabited upper sets in $\mathrm{Sh}(X)$ and upper semicontinuous functions $X \to \mathbb{N}$ (details at _[[one-sided real number]]_), this definition coincides with the usual one if $\mathcal{E}$ is of finite type; see [this MathOverflow question](http://mathoverflow.net/questions/34412/the-upper-semi-continuous-rank-of-a-module-sheaf).
 
+See also _[[rank of a coherent sheaf]]_.
 
 ## Hereditary rank of a pure set
 
