@@ -37,6 +37,8 @@ More concrete implementations of the main theorem appear in
 
 ## 1. Cotangent complex
 
+* [[cotangent complex]]
+
 ## 2. Properties of moduli functors
 
 ### 2.1 Nilcomplete, Cohesive, and Integrable Functors
@@ -48,6 +50,8 @@ More concrete implementations of the main theorem appear in
 ### 2.3 Finiteness conditions on functors
 
 ### 2.4 Moduli of spectral Deligne-Mumford stacks
+
+* [[spectral Deligne-Mumford stack]]
 
 ## 3. Representability theorems
 
