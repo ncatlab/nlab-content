@@ -1,4 +1,7 @@
 
+> This entry is about a refinement of the concept of [[cohesive topos]]. The definition here expresses an intuition not unrelated to that at [[cohesive (∞,1)-presheaf on E-∞ rings]] but the definitions are unrelated and apply in somewhat disjoint contexts.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -180,6 +183,7 @@ induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1
 
 We reformulate the [above axioms](#ExternalDefinition) for a cohesive $(\infty,1)$-topos without references to functors _on_ it, and instead entirely in terms of structures _in_ it.
 
+
 +-- {: .num_lemma #ReflectiveEmbeddingInternally}
 ###### Lemma
 
@@ -360,6 +364,7 @@ $$
 
 exhibiting $(\mathbf{\Pi} \dashv \flat)$
 is given by the composite of natural equivalences
+
 
 $$
     \mathbf{H}(\mathbf{\Pi}X, A)
