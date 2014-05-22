@@ -24,7 +24,7 @@ In [[algebraic geometry]] one can glue [[affine schemes]] in various topologies;
 
 Write $C_{fppf}$ for the [[fppf-site]] (over some [[scheme]], as desired). 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **algebraic space** is 
@@ -42,6 +42,12 @@ An **algebraic space** is
 =--
 
 In this form this appears as [de Jong, def. 35.6.1](#deJong).
+
+## Properties
+
+### Characterization as presheaf on affine schemes
+
+* [[Artin representability theorem]]
 
 ## References
 
