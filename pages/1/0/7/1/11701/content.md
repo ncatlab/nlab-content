@@ -1,0 +1,10 @@
+
+* [webpage](http://www.math.uni-bielefeld.de/~gstevens/)
+
+## writings
+
+* _Tensor actions and locally complete intersection_ PhD thesis 2011 ([pdf](http://www.math.uni-bielefeld.de/~gstevens/Stevenson_thesis.pdf))
+
+ on [[actions]] of [[tensor trinagulated categories]]
+
+category: people
