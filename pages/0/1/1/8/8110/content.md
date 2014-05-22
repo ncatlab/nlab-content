@@ -9,11 +9,18 @@ A Shimura variety is a higher-dimensional analog of a [[modular curve]].
 
 ## References
 
+Surveys include
+
 * Wikipedia, _[Shimura variety](http://en.wikipedia.org/wiki/Shimura_variety)_
 
 Introductory discussion of PEL Shimura varieties with an eye towards the definition of [[topological automorphic forms]] is in 
 
 * {#Lawson08} [[Tyler Lawson]], _An overview of abelian varieties in homotopy theory_ ([arXiv:0810.0507](http://arxiv.org/abs/0810.0507))
+
+Discussion in [[GAGA]] include
+
+* Kai-Wen Lan, _Comparison between analytic and algebraic constructions of toroidal compactifications of PEL-type Shimura varieties_ [pdf](http://math.umn.edu/~kwlan/articles/cpt-ana-alg.pdf)
+
 
 [[!redirects Shimura varieties]]
 
