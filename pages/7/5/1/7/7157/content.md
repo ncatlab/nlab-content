@@ -56,7 +56,7 @@ Under some conditions DW 2-Segal spaces $X_\bullet$ induce [[Hall algebra]] stru
 
 ## References
 
-The notion of higher Segal space as a modl for [[(∞,n)-categories]] is discussed in
+The notion of higher Segal space as a model for [[(∞,n)-categories]] is discussed in
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
   {#Lurie}
