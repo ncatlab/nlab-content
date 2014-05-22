@@ -51,7 +51,7 @@ h\triangleright (k\triangleright u) = \sum \sigma(h_{(1)},k_{(1)})
 $$
 
 $$
-\sum [h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)}k_{(2)},m_{(2)})=\sum \sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m)
+\sum [h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)},k_{(2)}m_{(2)})=\sum \sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m)
 \,.
 $$
 
@@ -61,7 +61,7 @@ Define the **cocycled crossed product** on $U\otimes H$ by
 
 $$
 (u \sharp h)(v\sharp k) = \sum u (h_{(1)}\triangleright v)
-\sigma(h_{(2)}k_{(1)})\sharp h_{(3)} k_{(2)}
+\sigma(h_{(2)},k_{(1)})\sharp h_{(3)} k_{(2)}
 $$
 
 for all $h,k\in H$, $u,v\in U$. The cocycled crossed product is an associative algebra iff $\sigma$ is a cocycle. 
