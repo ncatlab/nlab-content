@@ -1,4 +1,7 @@
 
+> This entry is about a variant of the concept of [[cohesive (∞,1)-topos]]. The definition here expresses an intuition not unrelated to that at [[infinitesimally cohesive (∞,1)-presheaf on E-∞ rings]] but the definitions are unrelated and apply in somewhat disjoint contexts.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
