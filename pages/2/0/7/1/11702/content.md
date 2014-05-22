@@ -1,0 +1,56 @@
+[[!redirects cohesive ∞-presheaf on E-∞ rings]]
+
+> This entry is about a weak representability condition on [[(∞,1)-presheaves]] in [[E-∞ geometry]]. Intuitively this expresses similar behaviour as discussed at _[[cohesion]]_ and _[[infinitesimal cohesion]]_, but the definitions themselves are independent and unrelated and apply in somewhat disjoint contexts.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Write $CRing_\infty^{cn}$ for the [[(∞,1)-category]] of connective [[E-∞ rings]]. An [[(∞,1)-functor]]
+
+$$
+  X \;\colon\; CRing_\infty^{cn}\longrightarrow \infty Grpd
+$$
+
+([[(∞,1)-presheaf]] on $(CRing_\infty^{cn})^{op}$) is called _cohesive_ ([Lurie Rep, def. 2.1.1](#LurieRep)) if it sends [[(∞,1)-fiber products]] of [[morphisms]] which are [[surjection|surjective]] on $\pi_0$ to [[(∞,1)-fiber products]].
+
+If at least fiber products of morphisms as above whose [[kernels]] are [[nilpotent ideals]] are preserved, then $X$ is called _infinitesimally cohesive_ ([Lurie Rep, def. 2.1.9](#LurieRep)).
+
+Infinitesimal cohesion implies one of the conditions on a [[formal moduli problem]]. It is also one of the sufficient conditions in the [[Artin-Lurie representability theorem]].
+
+
+## References
+
+* {#LurieRep} [[Jacob Lurie]], section 2.1 of _[[Representability theorems]]_
+
+[[!redirects cohesive (∞,1)-presheaves on E-∞ rings]]
+
+[[!redirects cohesive (infinity,1)-presheaf on E-infinity rings]]
+[[!redirects cohesive (infinity,1)-presheaves on E-infinity rings]]
+
+[[!redirects infinitesimally cohesive (∞,1)-presheaf on E-∞ rings]]
+[[!redirects infinitesimally cohesive (∞,1)-presheaves on E-∞ rings]]
+[[!redirects infinitesimally cohesive (infinity,1)-presheaf on E-infinity rings]]
+[[!redirects infinitesimally cohesive (infinity,1)-presheaves on E-infinity rings]]
+
