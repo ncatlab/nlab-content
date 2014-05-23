@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]]/[[syntax]]. While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusci-Pistone 12](#AbrusciPistone12), [Rouleau 13](#Rouleau13)). According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but "exercises in trascendental syntax".
+
+## References
+
+* {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](http://iml.univ-mrs.fr/~girard/TS2.pdf))
+
+* {#AbrusciPistone12} V. M. Abrusci, P. Pistone, _Transcendental Syntax and GoI: interplays between logic and philosophy_, 2012  ([GoogleScholar](http://scholar.googleusercontent.com/scholar?q=cache:478L1dYoWicJ:scholar.google.com/&hl=en&as_sdt=0,5))
+
+* {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhdD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
+
+[[!redirects Transcendental Syntax]]
+[[!redirects Transcendental syntax]]
