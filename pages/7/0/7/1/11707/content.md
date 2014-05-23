@@ -5,15 +5,24 @@
 
 ## Idea
 
-"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]]/[[syntax]]. While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusci-Pistone 12](#AbrusciPistone12), [Rouleau 13](#Rouleau13)). According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but "exercises in trascendental syntax".
+"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]], of [[syntax]]/[[semantics]]. According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but exercises in trascendental syntax ([Girard 13b](#Girard13b)).
+
+While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusci-Pistone 12](#AbrusciPistone12), [Rouleau 13](#Rouleau13)). 
+
+> Girard describes four levels of [[semantics]]: alethic, functional, interactive, and deontic. They descend into the depths of meaning, and thus are numbered from -1 to -4. The negatively first, alethic, is the layer of truth or models. The negatively second, functional, is the layer of functions or categories. The negatively third, interaction, is the layer of games or game semantics. The negatively fourth, deontic, is the layer of normativity or formatting. ([Equivalent eXchange](http://equivalentexchange.wordpress.com/2012/03/07/j-y-girards-transcendental-syntax/))
 
 ## References
 
 * {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](http://iml.univ-mrs.fr/~girard/TS2.pdf))
 
+* {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013
+
+
 * {#AbrusciPistone12} V. M. Abrusci, P. Pistone, _Transcendental Syntax and GoI: interplays between logic and philosophy_, 2012  ([GoogleScholar](http://scholar.googleusercontent.com/scholar?q=cache:478L1dYoWicJ:scholar.google.com/&hl=en&as_sdt=0,5))
 
 * {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhdD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
+
+
 
 [[!redirects Transcendental Syntax]]
 [[!redirects Transcendental syntax]]
