@@ -338,6 +338,8 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 
 * The [[string Lie 2-algebra]] is the $b \mathbb{R}$-extension of a semisimple [[Lie algebra]] $\mathfrak{g}$ with bilinear [[invariant polynomial]] $\langle -,-\rangle$ corresponding to the 3-cocycle $\langle -,[-,-]\rangle \in CE(\mathfrak{g})$.
 
+* Similarly for the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]] and all the other extensions in [[schreiber:The brane bouquet]].
+
 ## Related concepts
 
 A comprehensive discusson of an ambient $\infty$-topos in which $\infty$-Lie algebroid cohomology lives is at
