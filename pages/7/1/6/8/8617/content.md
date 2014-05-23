@@ -56,6 +56,8 @@ Generalization of smooth complex analytic spaces to smooth $p$-adic analytic spa
 
 Discussion in [[higher geometry]]/[[higher algebra]] ([[derived complex analytic spaces]]) is in 
 
+* {#Lurie08} [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_, 2008
+
 * [[Jacob Lurie]], sections 11 and 12 of _[[Closed Immersions]]_
 
 
