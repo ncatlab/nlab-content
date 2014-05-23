@@ -76,6 +76,10 @@ Subcategories (non-full) of $Int(\mathcal{C})$ consisting of morphisms of this f
 Now the $CPM(-)$ construction requires and assumes that $\mathcal{C}$ has all [[dual objects]] (which in the standard model means to restrict to [[Hilbert spaces]] of [[quantum states]] with are of [[finite]] [[dimension]]). To generalize away from this requirement a more general definition of quantum operations in $\mathcal{C}$ is given in  ([Coecke-Heunen 11, def. 1](#CoeckeHeunen11)), there denoted $CP(\mathcal{C})$. Direct inspection shows that $CP(\mathcal{C})$ is still a (non-full) subcategory of $Int(\mathcal{C})$. 
 
 
+## Related concepts
+
+* [[transcendental syntax]]
+
 
 ## References
 
