@@ -70,7 +70,7 @@ The complete list of un-gauged supergravituies in 3 dimensions was given in
 
 * B. de Wit, A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](http://xxx.lanl.gov/abs/hep-th/9208074))
 
-The maximally supersymmetric gauged 3d supergravitites are listed in
+The maximally supersymmetric gauged 3d supergravitites (and their [exceptional gaugings](#PossibleGaugings)) are listed in
 
 * {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys.Rev.Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](http://xxx.lanl.gov/abs/hep-th/0010076))
 
@@ -95,4 +95,3 @@ See also
 
 [[!redirects 3d supergravity]]
 [[!redirects 3d supergravities]]
-
