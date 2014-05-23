@@ -400,9 +400,14 @@ Introductory lecture notes for elliptic curves over the complex numbers include
 
 * {#Hain08} Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
+* {#Neeman07} [[Amnon Neeman]], section 1.2 of _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, 2007 ([publisher](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry))
+
+
 and for the general case
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
+
+* R. Sujahta, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
 
 In the context of [[elliptic fibrations]]:
 
