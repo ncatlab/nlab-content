@@ -13,6 +13,8 @@
 
 * [[Geometry of Interaction]]
 
+* [[transcendental syntax]]
+
 category: people
 
 [[!redirects Girard]]
