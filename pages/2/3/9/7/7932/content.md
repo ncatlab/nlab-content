@@ -730,6 +730,10 @@ For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]]
 
 =--
 
+### Infinitesimally: actions of $L_\infty$-algebroids
+
+See _[[Lie infinity-algebroid representation]]_.
+
 ## Properties
 
 ### Model category presentation
@@ -769,7 +773,7 @@ Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] ar
 
 Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[associated ∞-bundles]] are discussed in section I 4.1 of 
 
-* {#NSS} _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures 2013
  
 
 ### For discrete geometry
