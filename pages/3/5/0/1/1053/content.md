@@ -323,6 +323,8 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 * [[proof net]]
 
+* [[transcendental syntax]]
+
 
 ## References
 
