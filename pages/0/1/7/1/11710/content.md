@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[ring]] $R$, a _maximal ideal_ is an [[ideal]] which is maximal among [[proper ideals]].
+
+
+## Properties
+
+### Relation to points in the spectrum
+
+Maximal ideals correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on the [[prime spectrum]] $Spec(R)$.
+
+[[!redirects maximal ideals]]
