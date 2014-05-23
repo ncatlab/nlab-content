@@ -66,3 +66,5 @@ Introductory disucssoon over the [[complex numbers]] (with an eye towards [[GAGA
 
 [[!redirects scheme of finite type]]
 [[!redirects schemes of finite type]]
+
+[[!redirects locally finite type]]
