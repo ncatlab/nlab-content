@@ -283,6 +283,7 @@ We do not consider the standard [[model structure on dg-algebras]] and do not co
 =--
 
 
+
 ## Properties
 
 ### General
@@ -347,6 +348,7 @@ Now the [[coend]] over the [[tensoring]]
 
 $$
   \int^{[k] \in \Delta}
+
   (-)\cdot (-)
   : 
   [\Delta, sSet_{Quillen}]_{proj} 
@@ -1266,6 +1268,8 @@ The infinitesimal reasoning involved in this proof is discussed in ([Kock, secti
 
 ## Related concepts
 
+* [[Lie infinity-algebroid representation]]
+
 * [[sheaf of L-∞ algebras]]
 
 * [[∞-Lie algebroid cohomology]]
@@ -1335,3 +1339,6 @@ The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in s
 
 [[!redirects Lie n-algebroid]]
 [[!redirects Lie n-algebroids]]
+
+[[!redirects Lie-infinity algebroids]]
+
