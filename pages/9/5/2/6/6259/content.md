@@ -40,7 +40,7 @@ $$
   \,.
 $$
 
-With this duality constraint imposed, one speaks of **self-dual higher gauge fields** or **chiral higher gauge fields** or **higher gauge fields with self-dual curvature**. (These are a higher degree/dimensional generalization of what in [[Yang-Mills theory]] are called [[Yang-Mills instanton]] field configruations.)
+With this duality constraint imposed, one speaks of **self-dual higher gauge fields** or **chiral higher gauge fields** or **higher gauge fields with self-dual curvature**. (These are a higher degree/dimensional generalization of what in [[Yang-Mills theory]] are called [[Yang-Mills instanton]] field configurations.)
 
 Since imposing the self-duality constraint on the fields that enter the above [[action functional]] makes that functional vanish identically, self-dual higher gauge theory is notorious for being subtle in that either it does not have a [[Lagrangian]] field theory description, or else a somewhat intricate indirect one (e.g. [Belov-Moore 06I](#BelovMooreI)). But instead one may regard the self-duality condition rsther as part of the quantum theory ([FMW 00b, page 3](#FMW00)), namely as a choice of [[polarization]] of the [[phase space]] of an unconstrained theory in one dimension higher. By such as "[[holographic principle]]" the [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[higher dimensional Chern-Simons theory]] in dimension $4 k + 3$.
 
