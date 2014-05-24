@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+> The authors of ([Brown-Szczarba 95](#BrownSzczarba95)) show how the Bousfield-Gugenheim approach to [[rational homotopy theory]] may be extended to the framework of [[continuous cohomology]]. In the usual theory, the extension from the [[rational numbers|rationals]] to the [[real numbers|reals]] has always been effected by a formal tensoring with the reals. While this allows a connection to [[de Rham complex|de Rham theory]], it has always been preferable to have a direct construction of real homotopy theory akin to the [[Postnikov tower]]-like construction of [[rational homotopy theory]]. Unfortunately, in the usual situation, such a construction is impossible due to the incompatibility of the algebra of $\mathbb{R}$ (as an [[abelian group]]) with its natural [[topology]]. The authors of ([Brown-Szczarba 95](#BrownSzczarba95)) remedy this problem by creating a theory of [[minimal models]] which incorporates the usual topology of the reals and a generalization of [[van Est's theorem]] saying that $H^*(K(\mathbb{R},n); \mathbb{R})$ is a freely generated algebra on one generator (a result which is not true in the discrete topology case). By using the natural topology of $\mathbb{R}$, there is an immediate connection to [[continuous cohomology]] and applications such as [[characteristic classes]] of [[foliations]]. 
+
+> (from the [Zentralblatt review](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009) of ([Brown-Szczarba 95](#BrownSzczarba95)))
+
+In ([Brown-Szczarba 90](#BrownSzczarba90)) is established an equivalence between the [[localization of a category|localization]] of [[simplicial topological spaces]] at the real numbers and [[dg-algebra|differential graded commutative algebras]] in the context of _[[topological ring|topological algebras]]_.
+
+## Related concepts
+
+* [[p-adic homotopy theory]]
+
+## References
+
+* {#BrownSzczarba95} [[Edgar Brown]], Robert Szczarba, _Real and Rational Homotopy Theory_, in Handbook of Algebraic Topology. Elsevier, 1995 ([Zentralblatt](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
+
+* [[Edgar Brown]], Robert Szczarba, _Real and rational homotopy theory for spaces with arbitrary fundamental group_ Duke Mathematical Journal 71. (1993): 229-316.
+
+* {#BrownSzczarba90} [[Edgar Brown]], Robert Szczarba, _Continuous cohomology and Real homotopy type II_ Asterisque 191, Societe Mathematique De France (1990) ([JSTOR](http://www.jstor.org/stable/2001017))
+
