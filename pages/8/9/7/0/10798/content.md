@@ -31,6 +31,7 @@ In this way $p$-adic homotopy theory is directly analogous to _[[rational homoto
 
 * [[p-adic physics]]
 
+* [[rational homotopy theory]], [[real homotopy theory]]
 
 ## References
 
