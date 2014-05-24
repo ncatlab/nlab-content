@@ -165,6 +165,21 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 In other words, a space is totally disconnected if its coreflection into $LocConn$ is discrete. Such spaces recur in the study of [[Stone spaces]]. 
 
+### Quotients of locally connected spaces 
+
+For future reference, we record the following result. 
+
++-- {: .num_lemma #quot} 
+###### Lemma 
+A quotient space of a locally connected space $X$ is also locally connected. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and $q(U_x) \subseteq q(q^{-1}(V)) = V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $y$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
+=-- 
+
+
 ## Path-connectedness 
 
 An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
@@ -204,20 +219,38 @@ A refinement of the notion of path-connected space is that of arc-connected (or 
 A space $X$ is **arc-connected** if for any two distinct $x, y \in X$ there exists an _injective_ continuous map $\alpha: I \to X$ such that $\alpha(0) = x$ and $\alpha(1) = y$. 
 =-- 
 
-Arc-connected spaces are of course path-connected, but there are trivial examples (using an [[indiscrete topology]]) that the converse fails to hold. A rather non-trivial theorem is the following: 
+Arc-connected spaces are of course path-connected, but there are trivial examples (using an [[indiscrete topology]]) that the converse fails to hold. A rather nontrivial theorem is the following: 
 
 +-- {: .num_theorem #arc} 
 ###### Theorem 
 A path-connected [[Hausdorff space]] $X$ is arc-connected. 
 =-- 
 
-This immediately generalizes to the statement that in a Hausdorff space $X$, any two points that can be connected by a path $\alpha: I \to X$ can be connected by an arc: just apply the theorem to the image $\alpha(I)$. For a proof of this theorem, see [Willard](#Willard), theorem 31.2. 
+This immediately generalizes to the statement that in a Hausdorff space $X$, any two points that can be connected by a path $\alpha: I \to X$ can be connected by an arc: just apply the theorem to the image $\alpha(I)$. 
 
-This result is a key step toward the celebrated Hahn-Mazurkiewicz theorem: 
+For a proof of this theorem, see [Willard](#Willard), theorem 31.2. More precisely, that result states that a _Peano space_, i.e., a [[compact space|compact]], connected, locally connected, and [[metrizable space]], is arc-connected if it is path-connected. It then suffices to observe that the continuous image $\alpha(I) \subseteq X $ of a path is in fact a Peano space, so that the path $\alpha: I \to \alpha(I)$ can be replaced by an arc. 
+
++-- {: .num_lemma} 
+###### Lemma 
+If $X$ is Hausdorff and there is a continuous surjection $f: I \to X$, then $X$ is a Peano space. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Obviously $X$ is compact (Hausdorff) and connected. We have that $X$ is a quotient space of $I$, since $f$ is a closed surjection (using compactness of $I$), and therefore $X$ is locally connected by Lemma \ref{quot}. Being compact Hausdorff, $X$ is [[separation axiom|regular]], so to show metrizability it suffices to show $X$ is second-countable. 
+
+Let $\mathcal{B}$ be a countable base for $I$ and let $\mathcal{C}$ be the collection consisting of finite unions of elements of $\mathcal{B}$. We claim $\{\neg f(\neg C): C \in \mathcal{C}\}$ is an (evidently countable) base for $X$. Indeed, suppose $U \subseteq X$ is open and $p \in X$; then $f^{-1}(p)$ is compact, so there exist finitely many $B_1, \ldots, B_n \in \mathcal{B}$ with $f^{-1}(p) \subseteq B_1 \cup \ldots \cup B_n \subseteq f^{-1}(U)$. Put $C = B_1 \cup \ldots \cup B_n$; then 
+
+$$f^{-1}(\neg U) \subseteq \neg C \subseteq f^{-1}(\neg \{p\}).$$ 
+
+The second inclusion yields $f(\neg C) \subseteq \neg \{p\}$ or $p \in \neg f(\neg C)$. The first inclusion yields $\neg U = f(f^{-1}(\neg U)) \subseteq f(\neg C)$, or $\neg f(\neg C) \subseteq U$. Thus we have shown $\mathcal{C}$ is a base. 
+=-- 
+
+The converse of this lemma is the celebrated Hahn-Mazurkiewicz theorem: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $X$ be a nonempty Hausdorff space. Then there exists a continuous surjection $\alpha: [0, 1] \to X$ if and only if $X$ is a **Peano space**, i.e., a [[compact space|compact]], connected, locally connected, and [[metrizable space]]. 
+Let $X$ be a nonempty Hausdorff space. Then there exists a continuous surjection $\alpha: [0, 1] \to X$ if $X$ is a Peano space. 
 =-- 
 
 (The terminology "Peano space" is given in recognition of Peano's discovery of space-filling curves, as for example the unit square.)  
@@ -263,7 +296,21 @@ A _pseudo-arc_ is a [[continuum|metric continuum]] with more than one point such
 
 A pseudo-arc $X$ is necessarily totally path-disconnected: two distinct points $x, y$ of $X$ cannot be connected by a path in $X$. Indeed, the image of such a path would be a path-connected Hausdorff space, hence arc-connected by Theorem \ref{arc}. Letting $\alpha: [0, 1] \to X$ be an arc from $x$ to $y$, we have that the continuum $\alpha([0, 1])$ is a union of proper subcontinua $\alpha([0, 1/2])$ and $\alpha([1/2, 1])$, a contradiction. Thus, a pseudo-arc is an example of a compact connected metrizable space that is not path-connected. 
 
-Remarkably, all pseudo-arcs are homeomorphic, and a pseudo-arc is a [[homogeneous space]]. Perhaps also remarkable is the fact that the collection of pseudo-arcs in the [[Hilbert cube]] (or in any Euclidean space) is a dense $G_\delta$ set (see [[G-delta set]]) in the [[Polish space]] of all nonempty compact subsets under the [[Hausdorff metric]]; see [Bing2](#Bing2), theorem 2. 
+Remarkably, all pseudo-arcs are homeomorphic, and a pseudo-arc is a [[homogeneous space]]. Perhaps also remarkable is the fact that the collection of pseudo-arcs in the [[Hilbert cube]] $Q$ (or in any Euclidean space) is a dense $G_\delta$ set (see [[G-delta set]]) in the [[Polish space]] of all nonempty compact subsets of $Q$ under the [[Hausdorff metric]]; see [Bing2](#Bing2), theorem 2. 
+
+A typical way in which pseudo-arcs arise is through [[inverse limits]] of [[dynamical systems]]. One of the original constructions is due to Henderson: 
+
++-- {: .num_theorem} 
+###### Theorem 
+There is a $C^\infty$ function $f: I \to I$ such that the limit of the diagram 
+
+$$\ldots \stackrel{f}{\to} I \stackrel{f}{\to} I \stackrel{f}{\to} I$$ 
+
+is a pseudo-arc. 
+=-- 
+
+Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squaring function $[0, 1] \to [0, 1]: x \mapsto x^2$, as illustrated on page 38 (of 58) [here](http://www.akasimikrasna.sk/uploads/1/4/1/0/14106449/spitalsky2014.pdf). 
+
 
 ## Related concepts
 
