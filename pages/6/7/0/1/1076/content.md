@@ -29,6 +29,7 @@ More precisely, a _triangulated category_ is a [[category]] that behaves like th
 
 Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow (the _[[decategorification]]_) of the corresponding properties of [[stable (∞,1)-categories]].  
 
+
 A central class of examples of triangulated categories are the [[derived categories]] $D(\mathcal{A})$ of [[abelian categories]] $\mathcal{A}$. These are the [[homotopy category of an (∞,1)-category|homotopy categories]] of the [[(∞,1)-categories of chain complexes]] in $\mathcal{A}$.
 
 Triangulated categories are sufficient for some purposes, and can be easier to work with than the [[stable (∞,1)-categories]] that they come from, but -- as with every [[quotient]] construction -- often one needs more information than is present in the triangulated category, especially  concerning the computation of [[homotopy limits]] and [[homotopy colimits]]: the ordinary [[limits]] and [[colimits]] and other [[universal constructions]] in a triangulated category generally have no useful interpretation.
@@ -259,6 +260,8 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 * [[exact triangle]], [[distinguished triangle]]
 
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (∞,1)-category]]
+
+* [[tensor triangulated category]]
 
 * [[derived category]]
 
