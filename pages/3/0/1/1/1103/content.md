@@ -115,7 +115,7 @@ A morphism of pre-dgas (or pre-$\varepsilon$-dgas) is a morphism which is both o
 #### Commutative graded algebras (CGA)
 
 
-A pre-ga $A$ is said to be _commutative_ if $ab = (-1)^{|a||b|}ba$ for each pair, $a, b$, of homogeneous elements of $A$.
+A pre-ga $A$ is said to be _[[graded commutative algebra|graded commutative]]_ if $ab = (-1)^{|a||b|}ba$ for each pair, $a, b$, of elements of $A$ of homogeneous degree.
  
 Commutativity is preserved by tensor product. 
 
