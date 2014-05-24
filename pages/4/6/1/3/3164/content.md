@@ -36,14 +36,17 @@ Textbook accounts include
 
 * Dino Lorenzini, _An Invitation to Arithmetic Geometry_ (Graduate Studies in Mathematics, Vol 9) GSM/9
 
-Surveys include
+Lecture notes include
 
-* Wikipedia: [glossary of arithmetic and Diophantine geometry](http://en.wikipedia.org/wiki/Glossary_of_arithmetic_and_Diophantine_geometry), [Arakelov geometry](http://en.wikipedia.org/wiki/Arakelov_theory)
+* {#Sutherland13} [[Andrew Sutherland]], _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/))
 
 * [[Christophe Soulé|C. Soulé]], D. Abramovich, J. F. Burnol, J. K. Kramer, _Lectures on Arakelov Geometry_, Cambridge Studies in Advanced Mathematics __33__, 188 pp.
 
 
 Further resources include
+
+* Wikipedia: [glossary of arithmetic and Diophantine geometry](http://en.wikipedia.org/wiki/Glossary_of_arithmetic_and_Diophantine_geometry), [Arakelov geometry](http://en.wikipedia.org/wiki/Arakelov_theory)
+
 
 * _Arakelov geometry preprint arxiv_, list of [links](http://people.math.jussieu.fr/~vmaillot/Arakelov)
 
