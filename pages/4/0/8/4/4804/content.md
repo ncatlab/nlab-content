@@ -48,12 +48,17 @@ In [[supergravity]] this is accompanied by the [[gravitino]].
 
   * [[gauge boson]]
 
-    * [[photon]], [[gluon]], **graviton**
+    * [[photon]], [[gluon]], 
+
+    * **graviton**,
+ 
+      * [[dual graviton]]
 
 * [[fermion]] 
 
   * [[electron]], [[quark]],
 
   * [[gravitino]], [[gaugino]] , [[dilatino]]
+
 
 [[!redirects gravitons]]
