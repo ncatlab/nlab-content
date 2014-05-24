@@ -36,7 +36,7 @@ The anayltification of the [[projective space]] $\mathbb{P}^1$ is the [[complex 
 
 The analytification of an [[elliptic curve]] is the [[complex torus]].
 
-see e.g. ([Danilov 91, example in chapter 3, paragraph 1, section 1.1. (p. 61])(#Danilov91))
+see e.g. ([Danilov 91, example in chapter 3, paragraph 1, section 1.1. (p. 61)](#Danilov91))
 
 
 ## Properties
