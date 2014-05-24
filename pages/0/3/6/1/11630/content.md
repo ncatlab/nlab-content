@@ -155,9 +155,13 @@ Reviews with more [[M-theory]] lore include
 
 * {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
-Discussion in line with the [[F-theory]] perspective on the $SL(2,\mathbb{Z})$-[[S-duality]] -- namely "[[F'theory]]" -- is in 
+Discussion in line with the [[F-theory]] perspective on the $SL(2,\mathbb{Z})$-[[S-duality]] -- namely "[[F'-theory]]" -- is in 
 
 * {#KumarVafa96} Alok Kumar, [[Cumrun Vafa]], _U-Manifolds_, Phys.Lett. B396 (1997) 85-90 ([arXiv:hep-th/9611007](http://arxiv.org/abs/hep-th/9611007))
+
+Discussion of [[11-dimensional supergravity]] in a form that exhibits the higher U-duality groups already before [[KK-compactification]], via a kind of [[exceptional generalized geometry]],is in 
+
+* {#HohmSamtleben13} Olaf Hohm, [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
 
 ### In various dimensions
 
