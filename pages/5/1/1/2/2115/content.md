@@ -30,6 +30,7 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 
 * [[commutative C-star-algebra]]
 
+* [[graded commutative algebra]]
 
 ## References
 
