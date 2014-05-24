@@ -22,7 +22,7 @@ Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, 
 
 * [HAP](http://hamilton.nuigalway.ie/Hap/www/SideLinks/About/aboutContents.html) --  although primarily concerned with Homological Algebra Programming, (whence HAP), this library of GAP based programs includes some of relevance to topology. (See also [CHA](http://hamilton.nuigalway.ie/CHA/).
 
-*  [Zenzo](http://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/) -- effective algebraic topology as viewed by Francis Sergeraert (Grenoble).
+*  [Kenzo](http://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/) -- effective algebraic topology as viewed by Francis Sergeraert (Grenoble).
 
 
 
