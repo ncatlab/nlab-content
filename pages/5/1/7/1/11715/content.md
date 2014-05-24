@@ -1,0 +1,14 @@
+
+## Idea
+
+A _graded commutative algebra_ is an [[commutative algebra]] [[internalization|internal to]] the [[category]] of [[super vector spaces]]. Commutative [[superalgebra]].
+
+## Examples
+
+* [[Grassmann algebra]]
+
+* [[commutative differential graded algebra]]
+
+[[!redirects graded-commutative algebra]]
+
+[[!redirects graded commutative algebras]]
