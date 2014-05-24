@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -27,7 +26,7 @@ $$
   \,.
 $$
 
-Notice that in terms of [[n-truncated]] morphisms, if presheaf is
+Notice that in terms of [[n-truncated]] morphisms, a presheaf is
 
 * separated precisely if every [[descent morphism]] is [[(-1)-truncated]], namely a [[monomorphism]];
 
