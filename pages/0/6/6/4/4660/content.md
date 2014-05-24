@@ -62,12 +62,13 @@ $$
 has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
 
 ### Topological group cohomology
+ {#TopologicalGroupCohomology}
 
 In
 
 * [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
 
-$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
+$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as [[continuous functions]] $G^{\times n}\to A$ (p. 3 ). ("[[continuous cohomology]]")
 
 A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
 
