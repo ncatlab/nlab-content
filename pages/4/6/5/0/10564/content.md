@@ -268,8 +268,8 @@ $$
   \right)
   \;\colon\;
   [E, \mathbf{B}G_{conn}]
-   \stackrel{[E, k \mathbf{c}]}{\longrightarrow}
-  [E, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{[E, k \mathbf{L}]}{\longrightarrow}
+  [E, \mathbf{B}^3 \mathbb{C}^\times_{conn}]
    \stackrel{\exp\left(\tfrac{i}{\hbar} \int_{E}(-)\right)}{\longrightarrow}
   \mathbf{B}\mathbb{C}^\times_{conn}
 $$ 
@@ -288,7 +288,7 @@ Then the above yields
 $$
   [(\Pi E) \times B, \mathbf{B}G]
    \stackrel{}{\longrightarrow}
-  \mathbf{B}[B,\mathbb{C}]^\times
+  \mathbf{B}[B,\mathbb{C}^\times]
 $$
 
 hence yields a $[B,\mathbb{C}^\times]$-bundle over the [[moduli space]] of $B$-collections of flat connections on $E$.
