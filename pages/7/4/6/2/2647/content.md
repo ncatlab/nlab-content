@@ -33,7 +33,10 @@ It may mean:
 
 * [[fusion category]]
 
+* [[tensor triangulated category]]
+
 * [[tensor (∞,1)-category]]
+
 
 ## References
 
