@@ -31,7 +31,7 @@
  {#PossibleGaugings}
 
 The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersymmetric]] 3d supergravity is [[E8]] (its [[split real form]] $E_{8(8)}$). Various [[subgroups]] of this may be promoted to [[local gauge groups]] (with [[gauge fields]] in [[gauged supergravity]]), which may be obtained via (fluxed) [[KK-compactification]] of [[11-dimensional supergravity]]. However, 3d supergravity also admits a maximal gauging where all of $E_{8(8)}$ is promoted to a local gauge group
-([Nicolai-Samtleben 00](#NicolaiSamtleben00), [Nicolai-Samtleben 01, table 1](#NicolaiSamtleben01))). This maximal gauging in 3d supergravity is not obtained by reduction from standard [[11-dimensional supergravity]], see the remarks in ([Nicolai-Samtleben 01, section 7](#NicolaiSamtleben01)) and see the followup ([Hohm-Samtleben 13](#HohmSamtleben13)).
+([Nicolai-Samtleben 00](#NicolaiSamtleben00), [Nicolai-Samtleben 01, table 1](#NicolaiSamtleben01))). This maximal gauging in 3d supergravity is not obtained by reduction from standard [[11-dimensional supergravity]], see the remarks in ([Nicolai-Samtleben 01, section 7](#NicolaiSamtleben01)) and see the followup ([Hohm-Samtleben 13](#HohmSamtleben13)). In ([de Wit-Nicolai 13, section 13](#deWitNicolai13)) it is suggested that the seemingly missing degrees of freedom necessary to accomplish for [[U-duality]]-gauge enhancement after reduction may be sitting in a non-perturvative dual (in the general sense of [[electric-magnetic duality]]) of the [[graviton]].
 
 
 ## Related concepts
@@ -80,7 +80,9 @@ with details in
 
 * {#HohmSamtleben13} [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
 
-  (see also at _[[exceptional generalized geometry]]_)
+* {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
+ 
+(see also at _[[exceptional generalized geometry]]_).
 
 See also
 
