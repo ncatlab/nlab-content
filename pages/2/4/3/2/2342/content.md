@@ -38,7 +38,7 @@ Elliptic curves over the complex numbers are also interpreted as those [[worldsh
 ### Over a general ring
  {#DefinitionOverGeneralRing}
 
-Elliptic curves over a general [[commutative ring]] $R$ are the well-behaved 1-dimensional [[group objects]] parameterized over the [[space]] $Spec(R)$ (the [[prime spectrum of a commutative ring|prime spectrum]] of $R$). (Notice the count of dimension: over the complex numbers a torus is complex 1-dimensional and in this sense one is looking at 1-dimensional group schemes here.) This we discuss below in 
+Elliptic curves over a general [[commutative ring]] $R$ (hence in [[arithmetic geometry]]) are the well-behaved 1-dimensional [[group objects]] parameterized over the [[space]] $Spec(R)$ (the [[prime spectrum of a commutative ring|prime spectrum]] of $R$). (Notice the count of dimension: over the complex numbers a torus is complex 1-dimensional and in this sense one is looking at 1-dimensional group schemes here.) This we discuss below in 
 
 * [Conceptual definition](#OverGeneralRingConceptualDefinition)
 
@@ -402,12 +402,15 @@ Introductory lecture notes for elliptic curves over the complex numbers include
 
 * {#Neeman07} [[Amnon Neeman]], section 1.2 of _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, 2007 ([publisher](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry))
 
-
 and for the general case
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
 
 * R. Sujahta, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
+
+* {#Sutherland13} [[Andrew Sutherland]], _Elliptic curves and abelian varieties_, lecture 23 in _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/), [lecture 23 pdf](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf))
+
+For more along these lines see also at _[[arithmetic geometry]]_.
 
 In the context of [[elliptic fibrations]]:
 
