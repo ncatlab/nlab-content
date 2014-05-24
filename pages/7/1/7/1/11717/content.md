@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A dual of the [[graviton]] under [[electric-magnetic duality]] ([Bekaert-Boulanger-Henneaux 02](#BekaertBoulangerHenneaux02)).
+
+Dual gravitons have been considered in particular for manifestly EM-duality-symmetric formulations of [[supergravity]] [[Lagrangians]]. See for instance ([de Wit-Nicolai 13, section 6](#deWitNicolai13)) and see at _[3-d supergravity -- possible gaugings](3-dimensional+supergravity#PossibleGaugings)_.
+
+## References
+
+* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], Nicolas Boulanger, [[Marc Henneaux]], _Consistent deformations of dual formulations of linearized gravity: A no-go result_, Phys.Rev. D67 (2003) 044010 ([arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278))
+
+* {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
+
+[[!redirects dual gravitons]]
