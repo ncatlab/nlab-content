@@ -291,6 +291,10 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 * [[analytification]]
 
+* [[spectrum of a tensor triangulated category]]
+
+* [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
+
 * [[Tannaka duality for Lie groupoids]]
 
 * [[Bondal-Orlov reconstruction theorem]]
