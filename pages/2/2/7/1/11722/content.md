@@ -1,1 +1,12 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context###
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 The Urysohn metrization theorem states that a [[second-countable space|second-countable]] [[separation axiom|regular Hausdorff]] [[topological space|space]] $X$ is [[metrizable space|metrizable]].  
