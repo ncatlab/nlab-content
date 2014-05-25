@@ -1,5 +1,5 @@
 
-Joachim Lambek (usually called Jim) is a mathematician, logician, language theoretician, ..., who is based in McGill university.
+Joachim Lambek (usually called Jim) is a mathematician, logician, theoretical linguist, ..., who is based in McGill university.
 
 * [wikipedia page](http://en.wikipedia.org/wiki/Joachim_Lambek)
 
