@@ -33,7 +33,7 @@ It looks something like [[warsaw.pdf|this:file]].
 
 ## Properties
 
-The Warsaw circle is a [[compact space|compact]] [[metric space]], but is not [[locally connected space|locally connected]] along the line  corresponding to $\{(0,y) \mid -1 \leq y \leq 1\} $, so is not a [[manifold]], nor for that matter a [[polyhedron]].  It is [[connected space|connected]], but not [[pathwise connected space|pathwise connected]] as no path can get out from the 'line'. We note
+The Warsaw circle is a [[compact space|compact]] [[metric space]], but is not [[locally connected space|locally connected]] along the line  corresponding to $\{(0,y) \mid -1 \leq y \leq 1\} $, so is not a [[manifold]], nor for that matter a [[polyhedron]].  It is [[connected space|connected]], but not [[pathwise connected space|pathwise connected]] as no path can get out from the 'line'. (The variant version noted above _is_ pathwise connected.) We note
 
 * $\pi_0(S_W)$ is two points;
 
