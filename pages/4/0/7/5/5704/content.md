@@ -40,7 +40,7 @@ Obviously, up to [[homeomorphism]], all that matters is the surjective function 
 
 1. Nor is it the case that a quotient map is necessarily a closed map; the classic example is the projection map $\pi_1 \colon \mathbb{R}^2 \to \mathbb{R}$, which projects the closed locus $x y = 1$ onto a non-closed subset of $\mathbb{R}$. (This is a quotient map, by the next remark.) 
 
-1. It is easy to prove that a continuous open surjection $p \colon X \to Y$ is a quotient map. For instance, projection maps $\pi \colon X \times Y \to Y$ are quotient maps, provided that $X$ is inhabited. 
+1. It is easy to prove that a continuous open surjection $p \colon X \to Y$ is a quotient map. For instance, projection maps $\pi \colon X \times Y \to Y$ are quotient maps, provided that $X$ is inhabited. Likewise, a continuous closed surjection $p: X \to Y$ is a quotient map: $p^{-1}(U)$ is open $\Rightarrow$ $p^{-1}(\neg U)$ is closed $\Rightarrow$ $p(p^{-1}(\neg U)) = \neg U$ is closed $\Rightarrow$ $U$ is open. For example, a continuous surjection from a compact space to a Hausdorff space is a quotient map. 
 
 ### In $Loc$
 
