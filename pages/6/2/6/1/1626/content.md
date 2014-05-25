@@ -176,8 +176,10 @@ A quotient space of a locally connected space $X$ is also locally connected.
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and $q(U_x) \subseteq q(q^{-1}(V)) = V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $y$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
+Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and the subset $q(U_x) \subseteq V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $y$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
 =-- 
+
+The conclusion does not follow if $q: X \to Y$ is merely surjective. For example, there is a surjective (continuous) map from $\mathbb{R}$ to the [[Warsaw circle]], but the latter is not locally connected. 
 
 
 ## Path-connectedness 
@@ -250,7 +252,7 @@ The converse of this lemma is the celebrated Hahn-Mazurkiewicz theorem:
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $X$ be a nonempty Hausdorff space. Then there exists a continuous surjection $\alpha: [0, 1] \to X$ if $X$ is a Peano space. 
+Let $X$ be a nonempty Hausdorff space. Then there exists a continuous surjection $\alpha: [0, 1] \to X$ if $X$ is a Peano space. In particular, a nonempty Peano space is path-connected. 
 =-- 
 
 (The terminology "Peano space" is given in recognition of Peano's discovery of space-filling curves, as for example the unit square.)  
