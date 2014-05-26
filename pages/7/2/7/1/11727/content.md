@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The analog of [[complex analytic space]] with the [[complex numbers]] replaced by the [[real numbers]].
+
+## Related concepts
+
+* [[GAGA]]
+
+## References
+
+* {#Huisman02} [[Johannes Huisman]], _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([pdf](http://pageperso.univ-brest.fr/~huisman/rech/publications/exphi.pdf))
+
+[[!redirects real analytic spaces]]
+
+[[!redirects real analytic geometry]]
