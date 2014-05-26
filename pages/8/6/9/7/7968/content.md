@@ -93,6 +93,12 @@ $$
 
 This is the source of the ubiquity of the expression  $\exp(\tfrac{i}{\hbar} (-))$ in [[quantum physics]], say in the [[path integral]], where the exponentiated [[action functional]] appears as $\exp(\tfrac{i}{\hbar} S)$.
 
+The resulting [[short exact sequence]] is the real [[exponential exact sequence]]
+
+$$
+  0 \to \mathbb{Z} \longrightarrow \mathbb{R} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} U(1) \to 0
+  \,.
+$$
 
 ### In relation to the symplectic form
 
