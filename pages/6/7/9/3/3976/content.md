@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Definition
@@ -22,8 +33,10 @@ For general abstract properties usually the first characterization is the most i
 
 $$
   0 \to \mathbb{Z} \to \mathbb{R} \to \mathbb{T} \to 0
-  \,.
+  \,,
 $$
+
+the "real [[exponential exact sequence]]".
 
 (On the other hand, the last characterization is usually preferred when one wants to be concrete.)
 
