@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In the context of [[algebraic geometry]] over the [[complex numbers]], and hence (by [[GAGA]]) in the context of [[complex analytic geometry]], the term "exponential exact sequence" typically referes to the [[short exact sequence]]
+
+$$
+  0 \to ker(\exp) \longrightarrow \mathbb{G}_{a} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} \mathbb{G}_m \to 0
+$$
+
+given by the [[exponential map]] $\exp(\tfrac{i}{\hbar}(-))$ from the [[additive group]] to the [[multiplicative group]]. Here $\hbar$ is any element of $\mathbb{R}^\times$ ("[[Planck's constant]]") but is traditionally set either to $1$ or to $1/2 \pi$. 
+
+Hence more explicitly over the [[complex numbers]] this is 
+
+$$
+  0 \to \mathbb{Z} \longrightarrow \mathbb{C} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} \mathbb{C}^\times \to 0
+  \,,
+$$
+
+where $\mathbb{C}$ denotes the complex numbers as the additive [[abelian group]] and where $\mathbb{C}^\times = \mathbb{C} - \{0\}$ is the [[group of units]] of the [[ring]] structure of the complex numbers.
+
+Often this is considered and displayed [[slice topos|relative]] to a $\mathbb{C}$-[[scheme]] and/or [[complex analytic space]] $X$, where in terms of the [[structure sheaf]] $\mathcal{O}_{X}$ it reads
+
+$$
+  0 \to Lconst(\mathbb{Z}) \longrightarrow \mathcal{O}_X \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} \mathcal{O}_X^\times \to 0
+  \,.
+$$
+
+In this form the sequence is then also called the _exponential sheaf sequence_.
+
+## Related concepts
+
+* [[Kummer sequence]]
+
+## References
+
+* Wikipedia, _[Exponential sheaf sequence](http://en.wikipedia.org/wiki/Exponential_sheaf_sequence)_
+
+Discussion in [[real analytic geometry]]:
+
+* {#Huisman02} [[Johannes Huisman]], _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([pdf](http://pageperso.univ-brest.fr/~huisman/rech/publications/exphi.pdf))
+
+
+[[!redirects exponential exact sequences]]
+
+[[!redirects exponential sequence]]
+[[!redirects exponential sequences]]
+
+[[!redirects exponential short exact sequence]]
+[[!redirects exponential short exact sequences]]
