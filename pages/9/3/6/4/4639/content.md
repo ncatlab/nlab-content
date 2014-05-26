@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -141,6 +145,8 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 * [[function algebra]]
 
 * [[formal multiplicative group]]
+
+* [[exponential exact sequence]]
 
 * [[affine modality]]
 
