@@ -30,7 +30,7 @@ What is called _global equivariant homotopy theory_ is a variant of [[equivarian
 
 Sometimes this is referred to just as "global homotopy theory", leaving the equivariance implicit. There is also a [[stabilization|stable]] version involving [[spectra]] equipped with [[infinity-actions]], see at _[[global equivariant stable homotopy theory]]_.
 
-More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] $PSh_\infty(Orb)$ on the  [[global orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
+More precisely, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] $PSh_\infty(Orb)$ on the  [[global orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
 
 Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
 
@@ -69,7 +69,7 @@ Another variant is $\mathbf{O}_{gl}$ of ([Schwede 13](#Schwede13)).
 
 ([Rezk 14, 2.4, 2.5](#Rezk14))
 
-The following is the _ [[global orbit category]]_.
+The following is the _[[global orbit category]]_.
 
 +-- {: .num_defn #GlobalOrbitCategory}
 ###### Definition
