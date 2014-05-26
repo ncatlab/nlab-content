@@ -76,6 +76,9 @@ $$
   \mu_n \longrightarrow \mathbb{G}_m \stackrel{(-)^n}{\longrightarrow} \mathbb{G}_m
 $$
 
+## Related concepts
+
+* [[Tate twist]]
 
 ## References
 
