@@ -75,7 +75,9 @@ To see that with this choice $Spec(B) \to Spec(A)$ is indeed an [[étale morphis
 
 * [[Kummer sequence]]
 
+* [[Kummer-Artin-Schreier-Witt exact sequence]]
 
+* [[exponential exact sequence]]
 
 ## References
 
@@ -86,5 +88,6 @@ To see that with this choice $Spec(B) \to Spec(A)$ is indeed an [[étale morphis
 
 [[!redirects Artin-Schreier sequences]]
 
-[[!redirects Artin-Schreiber exact sequence]]
-[[!redirects Artin-Schreiber exact sequences]]
+[[!redirects Artin-Schreier exact sequence]]
+[[!redirects Artin-Schreier exact sequences]]
+
