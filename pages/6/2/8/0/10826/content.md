@@ -81,7 +81,7 @@ To see that with this choice $Spec(B) \to Spec(A)$ is indeed an [[étale morphis
 
 ## References
 
-* [[Günter Tamme]], section II 4.2_[[Introduction to Étale Cohomology]]_
+* [[Günter Tamme]], section II 4.2 _[[Introduction to Étale Cohomology]]_
 
 * [[James Milne]], example 7.9 of _[[Lectures on Étale Cohomology]]_
 
