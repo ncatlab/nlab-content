@@ -33,7 +33,7 @@ $$
   \underset{\leftarrow}{\lim}_{n \in \mathbb{N}} (\mathbb{Z}/n\mathbb{Z})
 $$
 
-over all the [[cyclic groups]] over their canonical [[filtered diagram]].
+of all the [[cyclic groups]] over their canonical [[filtered diagram]].
 
 ## Properties
 
