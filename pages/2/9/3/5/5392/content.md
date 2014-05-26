@@ -70,6 +70,10 @@ For a strongly [[thick subcategory]] (i.e. weakly [[Serre subcategory]]) $T$ in 
 
 There is a canonical correspondence between [[topologizing filter]]s of a unital ring and localizing subcategories in the category $R$[[Mod]] of (say left) unital [[modules]] of the ring.
 
+## Related concepts
+
+* [[anti-modal type]]
+
 ## Literature
 
 The notion is introduced by Gabriel:
