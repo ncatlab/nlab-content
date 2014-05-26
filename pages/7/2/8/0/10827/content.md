@@ -26,7 +26,7 @@ $$
   \,,
 $$
 
-where $\mu_n$ is the [[group of units]] of order $n$.
+where $\mu_n$ is the [[group of units]] of order $n$, the group of $n$th [[roots of unity]].
 
 This is called the _Kummer sequence_.
 
@@ -41,6 +41,8 @@ The analog for the [[additive group]] is the _[[Artin-Schreier sequence]]_. Both
 * [[Kummer-Artin-Schreier-Witt exact sequence]]
 
 ## References
+
+Named after [[Ernst Kummer]].
 
 * [[Günter Tamme]], section II 4.4 of _[[Introduction to Étale Cohomology]]_
 
