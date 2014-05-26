@@ -48,7 +48,11 @@ In this form the sequence is then also called the _exponential sheaf sequence_.
 
 ## Related concepts
 
-* [[Kummer sequence]]
+* [[Kummer exact sequence]]
+
+* [[Artin-Schreier exact sequence]]
+
+* [[Kummer-Artin-Schreier-Witt exact sequence]]
 
 ## References
 
