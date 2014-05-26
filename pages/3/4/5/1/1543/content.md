@@ -869,7 +869,7 @@ Extensions of principal bundles are discussed for instance in
 
 The [[automorphism groups]] of principal bundles are discussed for instance in 
 
-* M.C. Abbati, R. Cirelli, A. Mania, _The Lie group of automorphisms of a principal bundle_ ([pdf](http://www.mat.univie.ac.at/~michor/AutomorphismPrincipleBundle.pdf))
+* M.C. Abbati, R. Cirelli, A. Mania, P. Michor _The Lie group of automorphisms of a principal bundle_ 1989 JGP **6** 215 ([pdf](http://www.mat.univie.ac.at/~michor/AutomorphismPrincipleBundle.pdf), [doi](http://dx.doi.org/10.1016/0393-0440%2889%2990015-6))
 
 
 [[!redirects principal bundles]]
