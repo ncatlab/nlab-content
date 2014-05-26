@@ -77,4 +77,8 @@ The group of units of the [[ring of adeles]] is the [[group of ideles]].
 
 * [[∞-group of units]]
 
+* [[multiplicative group]]
+
+* [[exponential sequence]], [[Kummer sequence]]
+
 [[!redirects groups of units]]
