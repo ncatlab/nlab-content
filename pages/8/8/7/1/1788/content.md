@@ -5,9 +5,9 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-<table><tr><td align="right">225</td></tr>
-<tr><td align="right">&minus;<u>&ensp;&ensp;7</u></td></tr>
-<tr><td align="right">218</td></tr></table>
+
+No sand in this box.
+
 
 ***
 
