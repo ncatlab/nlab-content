@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry]
+
+## related $n$Lab entries
+
+* [[Arakelov geometry]]
+
+category: people
