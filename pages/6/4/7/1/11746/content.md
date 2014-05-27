@@ -1,0 +1,10 @@
+
+## Related concepts
+
+[[!include F-theory compactifications -- table]]
+
+## References
+
+
+* Gabriella Martini, [[Washington Taylor]], _6D F-theory models and elliptically fibered Calabi-Yau threefolds over semi-toric base surfaces_ ([arXiv:1404.6300](http://arxiv.org/abs/1404.6300))
+
