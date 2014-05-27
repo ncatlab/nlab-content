@@ -184,6 +184,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[Gribov ambiguity]]
 
+* [[quiver gauge theory]]
+
 [[!include gauge field - table]]
 
 
