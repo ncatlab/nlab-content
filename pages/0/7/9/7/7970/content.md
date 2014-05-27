@@ -66,6 +66,8 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 
 * [[stable vector bundle]]
 
+* [[moduli space of bundles]]
+
 ## References
 
 ### General
