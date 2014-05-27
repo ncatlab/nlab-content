@@ -41,6 +41,10 @@ From the abstract of ([Donagi 98](#Donagi98)).
 
 Moreover, the description of the [[supergravity C-field]] (in the physics literature: the "4-form flux", see at _[[flux compactification]]_), being (up to various twists and subtleties, see there) a [[cocycle]] in degree-4 [[ordinary differential cohomology]] on the [[Calabi-Yau variety]]  involves the [[moduli spaces of (higher) line bundles]] on the $CY_4$ which under decomposition of the C-field into various [[cup product in ordinary differential cohomology|cup-product]] factors associated with the various [[divisor (algebraic geometry)|divisor]] of the $CY_4$ involves [[intermediate Jacobians]] and [[Artin-Mazur formal groups]] in degrees 0,1,2 with rich theory.
 
+## Related concepts
+
+[[!include F-theory compactifications -- table]]
+
 ## References
 
 Reviews of the general setup include
