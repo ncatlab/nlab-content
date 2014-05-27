@@ -31,6 +31,9 @@ From the abstract of ([Donagi 98](#Donagi98)).
 
 ## Related concepts
 
+[[!include F-theory compactifications -- table]]
+
+
 ## References
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
@@ -47,3 +50,5 @@ with more details in
 
 * {#DonagiMarkman95} [[Ron Donagi]], [[Eyal Markman]], _Spectral curves, algebraically completely integrable Hamiltonian systems, and moduli of bundles_ ([arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017))
 
+
+[[!redirects F/M-theory on elliptically fibered Calabi-Yau 2-folds]]
