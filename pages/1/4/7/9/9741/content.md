@@ -84,6 +84,8 @@ In this form the moduli space of flat connections appears prominently for instan
 
 * [[Hitchin connection]]
 
+* [[moduli space of bundles]]
+
 ## References
 
 Original articles include 
