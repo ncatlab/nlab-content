@@ -3,9 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
 =--
 =--
 =--
@@ -18,6 +22,8 @@
 
 In an [[Ab]]-[[enriched category]] an [[endomorphism monoid]] is a [[monoid]] in [[Ab]] and hence a [[ring]]: the **endomorphism ring**.
 
+In a [[linear category]] this is an [[associative algebra]] over the ground ring, the _endomorphism algebra_.
+
 ## Related concepts
 
 * [[endomorphism]]
@@ -27,3 +33,6 @@ In an [[Ab]]-[[enriched category]] an [[endomorphism monoid]] is a [[monoid]] in
 * [[endomorphism operad]]
 
 [[!redirects endomorphism rings]]
+
+[[!redirects endomorphism algebra]]
+[[!redirects endomorphism algebras]]
