@@ -176,13 +176,13 @@ This is a [[full and faithful (∞,1)-functor]].
 
 
 
-Moreover,  $\Delta$ has a further [[left adjoint]] $\Pi$ which preserves [[finite products]], and $\Gamma$ has a furhter [[right adjoint]] $\nabla$.
+Moreover,  $\Delta$ has a further [[left adjoint]] $\Pi$ which preserves [[finite products]], and $\Gamma$ has a further [[right adjoint]] $\nabla$.
 
 =--
 
 ([Rezk 14, 5.1](#Rezk14))
 
-More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]] of this [[cohesion]] of the global equivarint homotopy theory has the followign description.
+More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]] of this [[cohesion]] of the global equivariant homotopy theory has the followign description.
 
 
 ### Relation between global and local equivariant homotopy theory
@@ -242,7 +242,7 @@ On a $G$-space $X \in G Top$ include via def. \ref{InclusionOfGSpacesInTheGlobal
 +-- {: .num_prop }
 ###### Proposition
 
-For $G$ any [[compact Lie group]], the [[cohesion]] of the global equivariant homotopy theory, prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, desecends to the [[slice (∞,1)-toposes]]
+For $G$ any [[compact Lie group]], the [[cohesion]] of the global equivariant homotopy theory, prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, descends to the [[slice (∞,1)-toposes]]
 
 $$
   PSh_\infty(Glo)/\mathbb{B}G
