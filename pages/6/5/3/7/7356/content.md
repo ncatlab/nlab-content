@@ -114,6 +114,9 @@ See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]
 
 * [[F'-theory]]
 
+[[!include F-theory compactifications -- table]]
+
+
 ## References
 
 ### General
