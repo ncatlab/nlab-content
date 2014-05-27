@@ -140,6 +140,10 @@ If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in stu
 
 [[Gabriel's theorem]] says that connected quivers of finite type are precisely those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the ADE series, and that the indecomposable [[quiver representations]] are in [[bijection]] with the positive roots in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
 
+## Related concepts
+
+* [[quiver gauge theory]]
+
 ## References
 
 Some general-purpose references include
