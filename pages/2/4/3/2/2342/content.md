@@ -2,13 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Elliptic cohomology
 +-- {: .hide}
 [[!include elliptic cohomology -- contents]]
-=--
-#### Geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
 =--
 =--
 =--
