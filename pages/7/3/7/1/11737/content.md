@@ -1,0 +1,33 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[branes]]  of the [[B-model]] [[topological string]], hence a [[TQFT]]-shadow of the [[D-branes]] of the [[superstring]]. Form the [[derived category]] of [[coherent sheaves]] on the [[target space|target]] [[spacetime]].
+
+## Related concepts
+
+* [[A-brane]], [[homological mirror symmetry]]
+
+* [[TCFT]]
+
+* [[quiver gauge theory]]
+
+## References
+
+A classical review is
+
+* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166))
+
+Further surveys of the literature include
+
+* [[Kevin H. Lin]], MO comment on _[Matrix factorization and physics](http://mathoverflow.net/a/9748/381), 2009
+
+Formulation of the [[chain complexes]] of [[holomorphic vector bundles]] on the B-branes via [[Lie infinity-algebroid representation]] (see there) of the holomorphic [[tangent Lie algebroid]] is discussed in
+
+* {#Bergman08} [[Aaron Bergman]], _Topological D-branes from Descent_ ([arXiv:0808.0168](http://arxiv.org/abs/0808.0168))
+
+[[!redirects B-branes]]
+
