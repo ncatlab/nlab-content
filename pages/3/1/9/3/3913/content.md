@@ -96,7 +96,7 @@ point freely adjoined (the $n$-fold [[suspension]]).
 ###### Remark
 
 This implies that for every vector bundle $V$ the sequence of spaces
-$Th(\mathbb{R}^n \oplus V)$ forms an [[Omega-spectrum]]: this is called the [[Thom spectrum]] of $V$.
+$Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is called the [[Thom spectrum]] of $V$.
 
 =--
 
