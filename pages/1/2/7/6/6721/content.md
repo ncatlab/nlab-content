@@ -27,7 +27,7 @@
 
 Seiberg duality (named after ([Seiberg](#Seiberg))) is a version of [[electric-magnetic duality]] in [[supersymmetry|supersymmetric]] [[gauge theory]]. 
 
-For supersymmetric [[QCD]] it identifies in the infrared (long distance limit, and only there) the [[quark]]s and [[gluon]]s in a theory with $N_f$ quark falvors and $SU(N_c)$ [[gauge group]] for 
+For supersymmetric [[QCD]] it identifies in the infrared (long distance limit, and only there) the [[quarks]] and [[gluons]] in a theory with $N_f$ quark falvors and $SU(N_c)$ [[gauge group]] for 
 
 $$
   N_f \gt N_c +1
@@ -44,7 +44,7 @@ $$
 
 ### Realization in string theory
 
-Seiberg duality follows from phenomena in [[string theory]], where gauge theories arise as the [[worldvolume]] theories of [[D-brane]]s. Seiberg duality is obtained for gauge theories of [[D-branes]] that stretch between two [[NS5-brane]]s. The duality operation corresponds to exchanging the two NS5-branes.
+Seiberg duality follows from phenomena in [[string theory]], where gauge theories arise as the [[worldvolume]] theories of [[D-branes]] ([[geometric engineering of quantum field theory]]). Seiberg duality is obtained for gauge theories of [[D-branes]] that stretch between two [[NS5-brane]]s. The duality operation corresponds to exchanging the two NS5-branes.
 
 * A. Hanany and [[Edward Witten]], _Type-IIB superstrings, BPS monopoles and three-dimensional gauge dynamics_ , Nucl. Phys. B 492 (1997) 152 ([hep-th/9611230]()).
 
@@ -136,6 +136,8 @@ in Gauge Theories With Less Than Four Supercharges_ ([pdf](http://pyweb.swan.ac.
 
 
 ## Related entries
+
+* [[quiver gauge theory]]
 
 [[duality in physics]]
 
