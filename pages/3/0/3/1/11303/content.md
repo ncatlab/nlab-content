@@ -29,6 +29,10 @@ The investigation specifically of [[N=2 D=4 super Yang-Mills theory]] and [[N=1 
 
 For more relations between QFTs found via string theory see at _[[string theory results applied elsewhere]]_.
 
+## Related concepts
+
+* [[quiver gauge theory]]
+
 ## References
 
 The original articles are
