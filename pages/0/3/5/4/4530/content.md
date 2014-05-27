@@ -43,6 +43,8 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 * [[Hodge theory]]
 
+* [[Arakelov geometry]]
+
 ## References
 
 * [[Daniel Huybrechts]], _Complex Geometry_
