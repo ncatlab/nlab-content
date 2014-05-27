@@ -89,6 +89,8 @@ _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. 
 
 ### Relation to stable branes in string theory
 
+Relation to stable [[B-branes]]:
+
 * [[Aaron Bergman]], _Stability Conditions and Branes at Singularities_ ([arXiv:hep-th/0702092](http://arxiv.org/abs/hep-th/0702092))
 
 ### Relation to moduli space theory
