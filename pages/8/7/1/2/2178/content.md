@@ -1,5 +1,6 @@
-The material previously on this page referred to the [Online Encyclopedia of Integer Sequences Wiki](http://oeis.org/wiki/Riffs_and_Rotes)
+The material previously on this page can now be found at the [Online Encyclopedia of Integer Sequences Wiki](http://oeis.org/wiki/Riffs_and_Rotes)
 
-[[!redirects Riffs & Rotes]]
-[[!redirects riffs & rotes]]
+[[!redirects riff]]
 [[!redirects rote]]
+[[!redirects riffs & rotes]]
+[[!redirects Riffs & Rotes]]
