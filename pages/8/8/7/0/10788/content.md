@@ -41,6 +41,8 @@ For more along such lines see at _[[GAGA]]_.
 
 * [[analytification]], [[GAGA]]
 
+* [[higher complex analytic geometry]]
+
 ## References
 
 * [[Brian Osserman]], _Complex varieties and the analytic topology_ ([pdf](http://www.math.ucdavis.edu/~osserman/math/analytic.pdf))
