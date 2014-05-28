@@ -164,7 +164,7 @@ See at _[[Becker-Gottlieb transfer]]_.
 
 ## References
 
-The Bott regulator is due to 
+The Borel regulator is due to 
 
 * [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
   {#Borel74}
