@@ -9,4 +9,12 @@
 =--
 =--
 
-The [[Pavel Urysohn|Urysohn]] [[metrization theorem]] states that a [[second-countable space|second-countable]] [[regular Hausdorff space|regular Hausdorff]] [[topological space|space]] $X$ is [[metrizable space|metrizable]].
+The [[Pavel Urysohn|Urysohn]] [[metrization theorem]] states that a [[second-countable space|second-countable]] [[regular Hausdorff space|regular Hausdorff]] [[topological space|space]] $X$ is [[metrizable space|metrizable]]. 
+
+The proof can be divided into three parts. Recall that "second-countable" means having a countable base. All spaces considered are assumed to be $T_1$ (points are closed), so that "regular" means regular Hausdorff. 
+
+* A regular space with a countable basis is normal. 
+
+* (See [[Urysohn lemma]]) A normal space $X$ is completely regular, i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(x) = 0$ for $x \notin U$. 
+
+* A completely regular space $X$ with a countable basis can be embedded in $[0, 1]^\mathbb{N}$. Since $[0, 1]^\mathbb{N}$ is metrizable, so is $X$. 
