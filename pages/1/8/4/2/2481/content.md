@@ -39,6 +39,10 @@ See also
 
 * [[sheaf of spectra]]
 
+* [stabilization via sheaves of spectra](stable+%28infinity%2C1%29-category#StabilizationBySheavesOfSpectra)
+
+* [inclusion of sheaves of connective spectra](connective+spectrum#InclusionIntoAllSpectra)
+
 ## **2.** Spectral schemes
 
 * [[E-infinity scheme]]
@@ -59,7 +63,7 @@ See also
 
 ## **8.** Spectral Deligne-Mumford stacks
 
-* [[Deligne-Mumford stack]]
+* [[spectral Deligne-Mumford stack]]
 
 ## **9.** Comparison results
 
