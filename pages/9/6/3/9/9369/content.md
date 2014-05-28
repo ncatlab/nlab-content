@@ -22,7 +22,7 @@
 
 A _Stein manifold_ is a [[complex manifold]] satisfying some niceness condition generalizing the concept of a [[domain of holomorphy]]. From the point of view of [[cohomology]] Stein manifolds are to [[complex manifolds]] as [[Cartesian spaces]] are to [[smooth manifolds]]: 
 
-every [[complex manifold]] has a "good [[cover]]" by Stein manifolds and the positive-degree [[abelian sheaf cohomology]] with values in any analytic [[coherent sheaf]] on any Stein manifold vanishes (this is _[[Cartan's theorem B]]_, see [below](#CartanTheoremB)). This implies for instance that with respect to [[covers]] of complex manifolds by Stein manifolds usual [[Cech cohomology]] techniques work for for analytic coherent sheaves (such as the [[structure sheaf]] of [[holomorphic functions]]).
+every [[complex manifold]] has a "good [[cover]]" by Stein manifolds and the positive-degree [[abelian sheaf cohomology]] with values in any analytic [[coherent sheaf]] on any Stein manifold vanishes (this is _[[Cartan's theorem B]]_, see [below](#CartanTheoremB)). This implies for instance that with respect to [[covers]] of complex manifolds by Stein manifolds usual [[Cech cohomology]] techniques work for analytic coherent sheaves (such as the [[structure sheaf]] of [[holomorphic functions]]).
 
 Accoringly, Stein spaces are close to being the [[affine varieties]] over the [[complex numbers]], but not quite, see [below](#RelationToAffineVarieties).
 
