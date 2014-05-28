@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Hans_Grauert)
+
+## related $n$Lab entries
+
+* [[Stein manifold]]
+
+category: people
