@@ -19,11 +19,11 @@
 
 Given some [[category]] ([[site]]) $S$ of test spaces, suppose one fixes some  category $Corr_p(S)$ of [[correspondences]] in $S$ equipped with certain cohomological data on their correspondence space. Then a _sheaf with transfer_ on $S$ is a contravariant functor on $Corr_p(S)$ such that the restriction along the canonical embedding $S \to Corr_p(S)$ makes the resulting [[presheaf]] a [[sheaf]].
 
-Traditionally this is considered for $S$ the [[Nisnevich site]] and $Corr_p(S)$ constructed from correspondences equipped with algebraic cycles as discussed at _[[pure motive]]_, (e.g. [Voevodsky, 2.1 and def. 3.1.1](#Voevodsky)).
+Traditionally this is considered for $S$ the [[Nisnevich site]] and $Corr_p(S)$ constructed from correspondences equipped with algebraic cycles as discussed at _[[pure motive]]_, (e.g. [Voevodsky 00, 2.1 and def. 3.1.1](#Voevodsky00)).
 
 The idea is that, looking at it the other way around, the extension of a sheaf to a sheaf with transfer defines a kind of [[Umkehr map]]/[[fiber integration]] by which the sheaf is not only pulled back along maps, but also pushed forward, hence "transferred" (this concept of course makes sense rather generally in [[cohomology]], see e.g. [Piacenza 84, 1.1](#Piacenza84)).
 
-The [[derived categories]] those [[abelian sheaves]] with transfers for the [[Nisnevich site]] with are [[A1-homotopy theory|A1-homotopy invariant]] provides a model for [[motives]] known as _[Voevodsky motives](motive#VoevodskyMotives)_ or similar ([Voevodsky, p. 20](#Voevodsky)).
+The [[derived categories]] of those [[abelian sheaves]] with transfers for the [[Nisnevich site]] with are [[A1-homotopy theory|A1-homotopy invariant]] provides a model for [[motives]] known as _[Voevodsky motives](motive#VoevodskyMotives)_ or similar ([Voevodsky 00, p. 20](#Voevodsky00)).
 
 ## Definition
 
@@ -60,7 +60,7 @@ for all $X \in \Sm_S$.
 
 * {#Deglise} [[Frédéric Déglise]], _Finite correspondences and transfers over a regular base_, [pdf](http://www.math.uiuc.edu/K-theory/0765/regular_base.pdf).
 
-* {#Voevodsky} [[Vladimir Voevodsky]], section 3.1 of _Triangulated categories of motives over a field_, K-Theory, 74 (2000) ([pdf](http://math.illinois.edu/K-theory/0368/s5.pdf), [web](http://www.math.uiuc.edu/K-theory/0074/))
+* {#Voevodsky00} [[Vladimir Voevodsky]], section 3.1 of _Triangulated categories of motives over a field_, K-Theory, 74 (2000) ([pdf](http://math.illinois.edu/K-theory/0368/s5.pdf), [web](http://www.math.uiuc.edu/K-theory/0074/))
 
 * {#Levine06} [[Marc Levine]], section 3.2 of _Six lectures on motives_, ICTP lectures 2006 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Levine/Levine.pdf))
 
