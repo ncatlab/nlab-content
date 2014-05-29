@@ -38,3 +38,9 @@ Its [[homotopy category of an (∞,1)-category]] is the [[derived category]] of 
 [[!redirects (infinity,1)-category of unbounded chain complexes]]
 [[!redirects (∞,1)-categories of unbounded chain complexes]]
 [[!redirects (infinity,1)-categories of unbounded chain complexes]]
+
+[[!redirects stable (∞,1)-category of chain complexes]]
+[[!redirects stable (∞,1)-categories of chain complexes]]
+
+[[!redirects stable (infinity,1)-category of chain complexes]]
+[[!redirects stable (infinity,1)-categories of chain complexes]]
