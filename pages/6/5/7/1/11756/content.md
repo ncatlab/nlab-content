@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A tool for producing the [[algebraic K-theory]] of a [[Quillen exact category]].
+
+
+## Related concepts
+
+* [[Waldhausen S-construction]]
+
+[[!redirects Q-construction]]
+
+[[!redirects Q-constructions]]
