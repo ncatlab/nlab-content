@@ -84,6 +84,10 @@ Because the [[simplex category]] is a [[sifted (infinity,1)-category]] (as discu
 [[!redirects commutative ∞-monoid]]
 [[!redirects commutative ∞-monoids]]
 
+
+[[!redirects commutative ∞-monoid]]
+[[!redirects commutative ∞-monoids]]
+
 [[!redirects commutative ∞-monoid]]
 [[!redirects commutative ∞-monoids]]
 
