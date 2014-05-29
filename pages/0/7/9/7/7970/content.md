@@ -68,6 +68,8 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 
 * [[moduli space of bundles]]
 
+* [[holomorphic line 2-bundle]]
+
 ## References
 
 ### General
