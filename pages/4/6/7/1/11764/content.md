@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Over a [[site]] of [[complex analytic spaces]], where the [[multiplicative group]] $\mathbb{G}_m$ classifies non-vanishing [[holomorphic functions]] and $\mathbf{B}\mathbb{G}_m$ classifies [[holomorphic line bundles]], then a _holomorphic line 2-bundle_ is a $\mathbb{G}_m$-[[principal 2-bundle]], modulated by maps to $\mathbf{B}^2 \mathbb{G}_m$.
+
+Discussion in terms of [[bundle gerbes]] is in ([Mathai-Stevenson 02, section 7](#MathaiStevenson02)).
+
+## References
+
+* {#MathaiStevenson02} [[Varghese Mathai]], [[Danny Stevenson]], _Chern character in twisted K-theory: equivariant and holomorphic cases_, Commun.Math.Phys. 236 (2003) 161-186 ([arXiv:hep-th/0201010v5](http://lanl.arxiv.org/abs/hep-th/0201010v5))
+
+[[!redirects holomorphic line 2-bundles]]
+
