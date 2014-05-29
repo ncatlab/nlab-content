@@ -27,13 +27,17 @@ For more on the history of the subject see ([Arlettaz 04](#Arlettaz04)) and see 
 
 There are two ways to think of the traditional algebraic K-theory of a commutative ring more conceptually: on the one hand this construction is the [[group completion]] of the [[direct sum]] [[symmetric monoidal category|symmetric monoidal]]-structure on the [[category of modules]], on the other hand it is the group completion of the addition operation expressed by [[short exact sequences]] in that category. This leads to the two modern ways of expresing and viewing algebraic K-theory:
 
-1. the [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
+1. **monoidal.** The [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
 
-1. analogously, inverting the addition operation expressed by the [[exact sequences]] in an [[abelian category]] or more generally in a [[stable (∞,1)-category]] yields the [[algebraic K-theory of a stable (∞,1)-category]]. Explicit ways to express this are known as the  _[[Waldhausen S-construction]]_ and the _[[Quillen Q-construction]]_. This turns out to be a universal construction in the context of [[non-commutative motives]].
+1. **exact/stable.** Analogously, inverting the addition operation expressed by the [[exact sequences]] in an [[abelian category]] or more generally in a [[stable (∞,1)-category]] yields the [[algebraic K-theory of a stable (∞,1)-category]]. Explicit ways to express this are known as the  _[[Waldhausen S-construction]]_ and the _[[Quillen Q-construction]]_. This turns out to be a universal construction in the context of [[non-commutative motives]].
 
 Both of these constructions produce a [[spectrum]] (hence [[Brown representability theorem|representing]] a [[generalized (Eilenberg-Steenrod) cohomology theory]]) -- called the _[[K-theory spectrum]]_ -- and the algebraic K-theory groups are the [[homotopy groups]] of that spectrum.
 
+Typically the first construction here contains more information but is harder to compute, and vice versa (see also MO-discussion [here](http://mathoverflow.net/a/98602/381) and [here](http://mathoverflow.net/a/102583/381)).
+
+
 The classical case of the algebraic K-theory of a commutative ring $R$ is a special case of this general concept of algebraic K-theory by either forming the [[symmetric monoidal category]] $(Mod(R), \oplus)$ and applying the [[abelian ∞-group]]-completion to that, or else forming the [[stable (∞,1)-category of chain complexes]] of $R$-modules and applyong the [[Waldhausen S-construction]] to that. In both cases the result is a [[spectrum]] whose degree-0 [[homotopy group]] is the ordinary algebraic K-theory of $R$ as given by the [[Grothendieck group]] and whose higher homotopy groups are its _higher algebraic K-theory_ groups.
+
 
 
 
