@@ -205,7 +205,7 @@ The perspective of [[algebraic K-theory of a symmetric monoidal (∞,1)-category
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], def. 6.1 in  _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-
+* {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, [arXiv:1305.4550](http://arxiv.org/abs/1305.4550).
 
 [[!redirects algebraic K-theory of a stable (∞,1)-category]]
 [[!redirects algebraic K-theory of a stable (infinity,1)-category]]
