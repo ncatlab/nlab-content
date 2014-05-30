@@ -119,7 +119,7 @@ $$
   \,.
 $$
 
-(notice the exachange of the role of $p$ and $q$). See e.g. ([BiquerdH&#246;ring 08, p. 79](#BiquerdHoering08)).
+(notice the exachange of the role of $p$ and $q$). See e.g. ([Biquerd-H&#246;ring 08, p. 79](#BiquerdHoering08)).
 
 ## Generalisations
 
