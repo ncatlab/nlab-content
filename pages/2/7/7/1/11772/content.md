@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Polarization (waves)](http://en.wikipedia.org/wiki/Polarization_(waves))_
+
