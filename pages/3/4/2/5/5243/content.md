@@ -105,6 +105,8 @@ Some other articles on Oka principle:
 * Tyson Ritter, _A strong Oka principle for embeddings of some planar domains into $C\times C^*$_, [arxiv/1011.4116](http://arxiv.org/abs/1011.4116)
 
 
+Related MO discussion: [by Georges Elencwajg](http://mathoverflow.net/a/60053/381)
+
 [[!redirects Oka theory]]
 [[!redirects Oka's theory]]
 [[!redirects Oka's principle]]
