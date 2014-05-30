@@ -367,7 +367,7 @@ Surveys of the resulting modern application of twistors in field theory include
 ### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
 
-A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the description of the [[6d (2,0)-superconformal QFT]]) is in 
+A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] ([[holomorphic line 2-bundles]]) on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the description of the [[6d (2,0)-superconformal QFT]]) is in 
 
 * [[David Chatterjee]], sections 4 and 8 of _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
 
@@ -395,6 +395,10 @@ The idea of generalizing the Penrose-Ward transform to one that takes nonabelian
 
 [[!redirects Penrose transform]]
 [[!redirects Penrose transforms]]
+
+[[!redirects twistor transform]]
+[[!redirects twistor transforms]]
+
 
 [[!redirects Penrose transformation]]
 [[!redirects Penrose transformations]]
