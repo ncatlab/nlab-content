@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Geometric quantization
++-- {: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _polarization_ on an [[algebraic variety]] is a choice of [[line bundle]] on it whose [[Chern class]] is analogous to the class represented by a [[Kähler form]] in [[complex analytic geometry]].
+
+In other words, the concept of polarized algebraic variety is the generalization of that of _[[Kähler polarization]]_ from [[symplectic geometry]]/[[complex geometry]] to more general [[algebraic geometry]]. In fact it is the generalization of the concept of a [[holomorphic line bundle|holomorphic]] [[prequantum line bundle]] compatible with a [[Kähler polarization]]. 
+
+(Notice however the reversion of the logic: in [[symplectic geometry]] the symplectic form is given and then a [[complex structure]] is chosen to match it, whereas here in [[algebraic geometry]] the analog of the complex structure exists beforehand, given by the algebraic structure, and now a polarization conversely asks for the analog of a compatible symplectic form (and for its [[prequantization]])).
+
+## Definition
+
+A _polarization_ of an [[algebraic variety]] $X$ over an [[algebraically closed field]] $k$ is a choice of [[ample sheaf|ample]] element in its [[Néron-Severi group]] $Pic_X/Pic_X^0$. In other words, a polarization is the choice of an [[equivalence class]] of an [[ample sheaf|ample]] alegbraic [[line bundle]] over $X$ (e.g. [[holomorphic line bundles]] if $k$ is the [[complex numbers]]) where two such are regarded as equivalent if they differ by tensoring with one whose underlying topological [[Chern class]] is trivial.
+
+## References
+
+* [[eom]], _[Polarized algebraic variety](http://www.encyclopediaofmath.org/index.php/Polarized_algebraic_variety)_
+
+* Jeroen Sisling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
+
+[[!redirects polarited algebraic varieties]]
+
+[[!redirects polarized variety]]
+[[!redirects polarized varieties]]
