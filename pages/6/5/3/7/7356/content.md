@@ -178,7 +178,7 @@ A large body of literature is concerned with particle physics [[string phenomeno
 ### 4-Form flux and instantons
  {#FluxAndInstantons}
 
-The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] to F-theory yields the _$G_4$-flux_.
+The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] to F-theory yields the _$G_4$-[[flux compactification|flux]]_.
 
 * Andres Collinucci, Raffaele Savelli, _On Flux Quantization in F-Theory_ (2010) ([arXiv:1011.6388](http://arxiv.org/abs/1011.6388))
 
