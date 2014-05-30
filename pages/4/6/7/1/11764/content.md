@@ -30,3 +30,5 @@ Discussion in terms of [[bundle gerbes]] is in ([Mathai-Stevenson 02, section 7]
 
 [[!redirects holomorphic line 2-bundles]]
 
+[[!redirects holomorphic bundle gerbe]]
+[[!redirects holomorphic bundle gerbes]]
