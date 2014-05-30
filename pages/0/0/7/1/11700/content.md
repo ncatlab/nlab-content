@@ -32,7 +32,7 @@ Generalization to [[structured (infinity,1)-toposes]] is in ([Lurie 08, remark 4
 
 ## Examples
 
-The anayltification of the [[projective space]] $\mathbb{P}^1$ is the [[complex projective space]] $(\mathbb{P}^1)^{an} \simeq \mathbb{C}P^1$, hence the [[Riemann sphere]].
+The analytification of the [[projective space]] $\mathbb{P}^1$ is the [[complex projective space]] $(\mathbb{P}^1)^{an} \simeq \mathbb{C}P^1$, hence the [[Riemann sphere]].
 
 The analytification of an [[elliptic curve]] is the [[complex torus]].
 
