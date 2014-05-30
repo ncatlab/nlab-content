@@ -353,3 +353,5 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 [[!redirects representation up to homotopy]]
 [[!redirects representations up to homotopy]]
 
+[[!redirects ∞-Lie algebroid representation]]
+[[!redirects ∞-Lie algebroid representations]]
