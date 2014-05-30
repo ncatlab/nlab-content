@@ -24,13 +24,24 @@ Over a [[site]] of [[complex analytic spaces]], where the [[multiplicative group
 
 This means that the [[moduli stack]] of holomorphic line 2-bundles on a [[complex analytic space]] or more generally on a [[complex analytic ∞-groupoid]] $X$  is the [[Brauer stack]]  $\mathbf{Br}(X) \coloneqq [X,\mathbf{B}^2 \mathbb{G}_m]$ (the line 2-bundle itself is the [[associated ∞-bundle]] to the $\mathbf{B}\mathbb{G}_m$-[[principal ∞-bundle]] which is the [[homotopy fiber]] of a given map $X \to \mathbf{B}^2 \mathbb{G}_m$). In particular [[equivalence classes]] of holomorphic line 2-bundles form the elements of the [[bigger Brauer group]] of $X$ (the [[Brauer group]] proper if they are torsion).
 
-Discussion in terms of [[bundle gerbes]] includes ([Brylinski 00](#Brylinski00) [Mathai-Stevenson 02, section 7](#MathaiStevenson02)).
+Discussion in terms of [[bundle gerbes]] includes ([Chatterjee 98](#Chatterjee98),[Brylinski 00](#Brylinski00) [Mathai-Stevenson 02, section 7](#MathaiStevenson02)).
 
+## Properties
+
+### Relation to higher twistor transforms
+ {#RelationToHigherTwistorTransforms}
+
+Holomorphic line 2-bundles appear in the higher degree analogs of [[twistor transforms]]. See ([Chatterjee 98](#Chatterjee98)) and see [twistor -- References -- Application to self-dual 2-forms](twistor%20space#ReferencesApplicationToSelfDual2FormField)
 ## Related concepts
 
 * [[higher complex analytic geometry]]
 
 ## References
+
+Early discussion in terms of [[bundle gerbes]] includes
+
+* {#Chatterjee98} [[David Chatterjee]], section 5 of _On Gerbs_, 1998  ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
+
 
 Explicit examples of holomorphic line 2-bundles over complex [[reductive groups]] are discussed in
 
@@ -40,6 +51,12 @@ Explicit examples of holomorphic line 2-bundles over complex [[reductive groups]
 Discussion with an eye towards of holomorphic [[twisted K-theory]] is in
 
 * {#MathaiStevenson02} [[Varghese Mathai]], [[Danny Stevenson]], _Chern character in twisted K-theory: equivariant and holomorphic cases_, Commun.Math.Phys. 236 (2003) 161-186 ([arXiv:hep-th/0201010v5](http://lanl.arxiv.org/abs/hep-th/0201010v5))
+
+Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
+
+* {#BenBassat08} [[Oren Ben-Bassat]], _Gerbes and the Holomorphic Brauer Group of Complex Tori_, Journal of Noncommutative Geometry, Volume 6, Issue 3 (2012) 407-455 ([arXiv:0811.2746](http://arxiv.org/abs/0811.2746))
+
+* Edoardo Ballico, [[Oren Ben-Bassat]], _Meromorphic Line Bundles and Holomorphic Gerbes_, Math. Res. Lett. 18 (2011), 6, 1-14 ([arXiv:1101.2216](http://arxiv.org/abs/1101.2216))
 
 
 [[!redirects holomorphic line 2-bundles]]
