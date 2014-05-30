@@ -154,21 +154,20 @@ By the above discussion (...) the [[partition function]] of self-dual higher gau
 
 ## Examples
 
-### Chiral boson in 2d
+### Chiral boson in 2d (on the string)
 
-(...)
+For $k = 0$ the self-dual theory abelian is that of a [[scalar field]] $\phi$ on a real-2-dimensional surface $\Sigma$ such that $\mathbf{d}\phi$ is self-dual. For any [[complex structure]] on $\Sigma$, making it a [[complex torus]], this makes $\phi$ a "chiral" boson, in the sense of a chiral half of the $U(1)$-[[WZW model]].
 
-The simplest case. A review is for instance in 
-([Witten I, section 2](#WittenI)). A detailed discussion is in ([GBMNV](#GBMNV)).
+A quick review is as a warm-up for the higher dimensional case is in 
+([Witten I, section 2](#WittenI)). A detailed discussion is in ([GBMNV](#GBMNV)) and see the references at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
-(...)
 
-### Fivebrane in 11-dimensional supergravity
+### Chiral 2-form in 6d (on the M5-brane)
 
 The [[worldvolume]] theory of the [[M5-brane]], the
 [[6d (2,0)-superconformal QFT]], contains a self-dual 2-form field. Its [AdS7-CFT6 holographic](AdS-CFT#AdS7CFT6) description by 7-dimensional Chern-Simons theory is due to ([Witten I](#WittenI)).
 
-### RR-Fields in type II supergravity
+### RR-Fields in 10d (on the "9-brane")
 
 The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)) based on ([FMW 00](#FMW00)). A refined discussion of the required quadratic pairing is in ([DFM 09](#DFM09)). 
 
