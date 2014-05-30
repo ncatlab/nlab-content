@@ -371,6 +371,8 @@ This section is at
 
   * [[synthetic differential super ∞-groupoid]]
 
+  * [[complex analytic ∞-groupoid]]
+
 
 Smooth $\infty$-groupoids and related cohesive structures play a central role in the discussion at 
 
@@ -471,4 +473,3 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 
 [[!redirects smooth homotopy type]]
 [[!redirects smooth homotopy types]]
-
