@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,14 @@
 
 ## Idea
 
-For $X$ a [[space]] of [[dimension]] $2k$ and $H^k(X)$ a [[cohomology group]] on a space $X$ equipped with [[orientation in generalized cohomology|H-orientation]] in degree $k$ with coefficients in some $A$, the **intersection pairing** on [[cohomology]] is the map
+On a [[space]] of suitable even [[dimension]] the _[[cup product]]_ on suitable mid-dimensional [[cohomology]] is often called the _intersection product_ -- this, or its evaluation on the [[fundamental class]] of the whole space.
+
+Under [[Poincaré duality]] these cohomology classes may corrrespond to [[cycles]] and then under suitable conditions or in a suitable sense, the cup product dually counts (or otherwise detects) literally the [[intersection]] points of the two subspaces, whence the name. It is the topic of _[[intersection theory]]_ to make this statement precise, classical results to this extent include [[Bézout's theorem]] and its refinement to the [[Serre intersection formula]].
+
+If here [[cohomology]] is replaced by [[differential cohomology]] then [[quadratic refinements]] of the intersection product provide the [[Lagrangians]] for [[higher dimensional Chern-Simons theory]] and govern the structure of [[self-dual higher gauge theory]]. See there for more.
+
+
+In a little more detail:  For $X$ a [[space]] of [[dimension]] $2k$ and $H^k(X)$ a [[cohomology group]] on a space $X$ equipped with [[orientation in generalized cohomology|H-orientation]] in degree $k$ with coefficients in some $A$, the **intersection pairing** on [[cohomology]] is the map
 
 $$
   H^k(X) \times H^k(X) \to A
@@ -76,6 +87,12 @@ Its [[quadratic refinement]] is discussed in
 
 ## References
 
+Introductions and surveys include
+
+* [[Akhil Mathew]], _Intersection theory on surfaces_, 2013 ([web](http://amathew.wordpress.com/2013/01/27/intersection-theory-on-surfaces/))
+
+* Wikipedia, _[Intersection theory](http://en.wikipedia.org/wiki/Intersection_theory)_
+
 Discussion of the intersection pairing in [[ordinary differential cohomology]] and especially its [[quadratic refinement]] is in 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
@@ -85,3 +102,6 @@ Discussion of the intersection pairing in [[ordinary differential cohomology]] a
 
 [[!redirects secondary intersection pairing]]
 [[!redirects secondary intersection pairings]]
+
+[[!redirects intersection product]]
+[[!redirects intersection products]]
