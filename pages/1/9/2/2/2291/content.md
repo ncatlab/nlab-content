@@ -58,6 +58,8 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 
   * [[complex line bundle]]
 
+* [[holomorphic line bundle]], [[algebraic line bundle]]
+
 * [[theta characteristic]]
 
 * [[cubical structure on a line bundle]]
