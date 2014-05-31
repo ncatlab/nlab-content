@@ -9,7 +9,9 @@
 =--
 =--
 
-
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
@@ -36,3 +38,9 @@ The generator of this corresponding to the choice of [[orientation]] is called t
 * [[Poincaré duality complex]]
 
 * [[Poincaré duality algebra]]
+
+* [[intersection theory]]
+
+
+[[!redirects fundamental classes]]
+
