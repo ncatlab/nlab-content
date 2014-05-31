@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
-
 
 # Contents
 * table of contents
@@ -20,7 +19,7 @@ Classically, the **fundamental theorem of algebra** states that
 
 * The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every nonconstant [[polynomial]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
-Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a classical consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
+Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
 
 
@@ -107,17 +106,17 @@ In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (su
 
 Most varieties of [[constructive mathematics]] (including that in [[Errett Bishop]]\'s book) nevertheless accept the FTA, because the needed square roots follow from [[weak countable choice]] ($WCC$, which is a consequence of either excluded middle or [[countable choice]]).  A fully choice-free constructive proof also exists for the [[Cauchy real number|Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by $WCC$).
 
-[[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interepreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
+[[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
+
 
 ## History
  {#History}
 
-The proof was attempted many times before Gauss gave what is accepted as the first proof in his dissertation ([Gauss 1799](#Gauss1799)), although this was not without issues (Gauss 'fixed' this proof almost 50 years later, but the gap was not filled until the 20th century).
+The proof was attempted many times before Gauss gave what is accepted as the first proof in his dissertation ([Gauss 1799](#Gauss1799)), although this was not without issues (Gauss 'fixed' this proof almost 50 years later, but the last gap was not filled until the 20th century).
 
-All proofs of this fact (of which there are many) require something analytic, in the sense that ordinary algebra will not suffice: one needs to know that the real numbers (or the complex numbers) 'have no algebraic gaps'. For instance, the rational numbers famously don't contain the square root of 2. The cleanest proof I know, due to Artin, that isolates this analytic germ, uses the step-ladder result that the real numbers form what is called a [[real closed field]]. This is essentially saying that non-negative real numbers have square roots, and odd degree polynomials have roots (anyone who has plotted a cubic can appreciate this fact). Alternatively, one can characterise real closed fields as those for whom the Intermediate Value Theorem (IVT) holds for polynomials. Accepting this result (which does need proof), the FTA follows using pure algebra (although not of the high-school sort).
+All proofs of this fact (of which there are many) require something analytic, in the sense that ordinary algebra will not suffice: one needs to know that the real numbers (or the complex numbers) 'have no algebraic gaps'. For instance, the rational numbers famously don't contain the square root of $2$. The cleanest proof I know, due to Artin, that isolates this analytic germ, uses the step-ladder result that the real numbers form what is called a [[real closed field]]. This is essentially saying that non-negative real numbers have square roots, and odd degree polynomials have roots (anyone who has plotted a cubic can appreciate this fact). Alternatively, one can characterise real closed fields as those for whom the Intermediate Value Theorem (IVT) holds for polynomials. Accepting this result (which does need proof), the FTA follows using pure algebra (although not of the high-school sort).
 
-However, it is of interest, partly theoretical, partly for the sake of finding
-the bare minimum needed to prove the FTA, to know an elementary proof, namely one that minimises the use of analytic techniques (for instance, the IVT for polynomials follows from the IVT for continuous functions, but that is like killing a mosquito with a bazooka ). Gauss' second proof ([Gauss 1866](#Gauss1866)) is elementary (and predates Artin's by a long time). Since Gauss lacked modern algebraic techniques, some of his proof is laborious, but ([Taylor 85](#Taylor85)) gives a modern gloss. (With some amusing side notes: as Taylor puts it -- 'Gauss takes the opportunity [to] be rude to his inferior contemporaries'.) Gauss' proof, in modern language, takes up less than a page and a half, but this presupposes familiarity with some of the theory of fields (but which is pure algebra). Artin's proof, by comparison, drawing on major theorems can be given in half a page.
+However, it is of interest, partly theoretical, partly for the sake of finding the bare minimum needed to prove the FTA, to know an elementary proof, namely one that minimises the use of analytic techniques (for instance, the IVT for polynomials follows from the IVT for continuous functions, but that is like killing a mosquito with a bazooka). Gauss' second proof ([Gauss 1866](#Gauss1866)) is elementary (and predates Artin's by a long time). Since Gauss lacked modern algebraic techniques, some of his proof is laborious, but ([Taylor 85](#Taylor85)) gives a modern gloss. (With some amusing side notes: as Taylor puts it -- 'Gauss takes the opportunity [to] be rude to his inferior contemporaries'.) Gauss' proof, in modern language, takes up less than a page and a half, but this presupposes familiarity with some of the theory of fields (but which is pure algebra). Artin's proof, by comparison, drawing on major theorems can be given in half a page.
 
 It should be noted, in the context of the last statement, that proofs of the FTA can be given, relying on analytic 'bazooka' theorems, that are one sentence. However, to spell out the proofs of the necessary theorems, one needs a course in analysis, of some variety, so one is merely sweeping a lot under a very small rug. 
 
@@ -136,6 +135,8 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 *  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/HTML/DOCS.HTM)
 {#Richman}
 
+* Michael Eisermann. _An Elementary Real-Algebraic Proof via Sturm Chains_. [pdf](http://www.jon-arny.com/httpdocs/Gauss/Constructive%20roots-annotated.pdf)
+
 A full formalization in the [[Coq]] [[proof assistant]] is in
 
 * Herman Geuvers, [[Freek Wiedijk]], Jan Zwanenburg, A Constructive Proof of the Fundamental Theorem of Algebra without Using the Rationals ([web](http://dl.acm.org/citation.cfm?id=696038))
@@ -143,6 +144,7 @@ A full formalization in the [[Coq]] [[proof assistant]] is in
 See also
 
 * MathOverflow, _[Ways to prove the fundamental theorem of algebra](http://mathoverflow.net/questions/10535/ways-to-prove-the-fundamental-theorem-of-algebra)_
+
 
 [[!redirects fundamental theorem of algebra]]
 [[!redirects FTA]]
