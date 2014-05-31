@@ -83,7 +83,7 @@ naive counts like the above.  More formally it can be computed as dim
 $H^0(C,N_f)$, where $f:C\to P^2$ is a moduli point (with [[normal bundle]]
 $N_f$) such that $H^1(C,N_f)=0$ (this is to say that the first order [[infinitesimal space|infinitesimal]] deformations are unobstructed).)
 
-The situation is analogous (possibly in fact a special case of) the standard situation in intersection theory when a section of a [[vector bundle]] is not regular: its zero locus is then of too high dimension
+The situation is analogous (possibly in fact a special case of) the standard situation in [[intersection theory]] when a section of a [[vector bundle]] is not regular: its zero locus is then of too high dimension
 and is of little use to intersect against.  The correct class to work with is then the top [[Chern class]] of the vector bundle (cf.
 [Fulton] ch.14), which could be called the virtual class of the zero locus.
 
@@ -112,7 +112,11 @@ degree-2 maps, so $M_{0,0}(Q,2)$ contains 2875 components of dimension 2, in con
 
 * [[Poincaré duality algebra]]
 
+* [[intersection theory]]
+
 * Virtual fundamental classes play a central role in the theory of [[Gromov-Witten invariants]].
+
+
 
 ## References
 
