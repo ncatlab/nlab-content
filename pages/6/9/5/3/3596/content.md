@@ -382,3 +382,4 @@ Extensionality and intensionality isses are studied in
 [[!redirects intensional identity types]]
 [[!redirects extensional identity type]]
 [[!redirects extensional identity types]]
+[[!redirects identical]]
