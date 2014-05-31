@@ -1,18 +1,24 @@
 
-
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss)
 
 ## Related $n$Lab entries
 
 * [[fundamental theorem of algebra]]
 
+
 category: people
 
 [[!redirects Gauss]]
-[[!redirects Carl Friedrich Gauss]]
-[[!redirects Johann Carl Friedrich Gauss]]
-
 [[!redirects Gauß]]
+[[!redirects Carl Gauss]]
 [[!redirects Carl Gauß]]
+[[!redirects Karl Gauss]]
+[[!redirects Karl Gauß]]
+[[!redirects Carl Friedrich Gauss]]
 [[!redirects Carl Friedrich Gauß]]
+[[!redirects Karl Friedrich Gauss]]
+[[!redirects Karl Friedrich Gauß]]
+[[!redirects Johann Carl Friedrich Gauss]]
 [[!redirects Johann Carl Friedrich Gauß]]
+[[!redirects Johann Karl Friedrich Gauss]]
+[[!redirects Johann Karl Friedrich Gauß]]
