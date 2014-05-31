@@ -160,12 +160,15 @@ Reviews and surveys include
 
 * {#Brylinski07} [[Jean-Luc Brylinski]], around theorem I 1.5.11 of _Loop Spaces, Characteristic Classes and Geometric Quantization_ Springer, 2007
 
+
 ### For Calabi-Yau 3-folds
 
 * C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
 
-
 * [[Claire Voisin]] ([pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/griffithsgroup.pdf))
+
+* [[Andreas Höring]], _Minimal classes on the intermediate Jacobian of a generic cubic threefold_, 2008 ([pdf](http://math.unice.fr/~hoering/articles/a5-intermediate.pdf))
+
 
 In [[positive number|positive]] [[characteristic]]:
 
