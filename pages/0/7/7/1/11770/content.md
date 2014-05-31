@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Geometric quantization
-+-- {: .hide}
-[[!include geometric quantization - contents]]
-=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
+=--
+#### Geometric quantization
++-- {: .hide}
+[[!include geometric quantization - contents]]
 =--
 =--
 =--
@@ -24,6 +24,8 @@ A _polarization_ on an [[algebraic variety]] is a choice of [[line bundle]] on i
 In other words, the concept of polarized algebraic variety is the generalization of that of _[[Kähler polarization]]_ from [[symplectic geometry]]/[[complex geometry]] to more general [[algebraic geometry]]. In fact it is the generalization of the concept of a [[holomorphic line bundle|holomorphic]] [[prequantum line bundle]] compatible with a [[Kähler polarization]]. 
 
 (Notice however the reversion of the logic: in [[symplectic geometry]] the symplectic form is given and then a [[complex structure]] is chosen to match it, whereas here in [[algebraic geometry]] the analog of the complex structure exists beforehand, given by the algebraic structure, and now a polarization conversely asks for the analog of a compatible symplectic form (and for its [[prequantization]])).
+
+Therefore a polarized variety together with a choice of [[Theta characteristic]] on it is the algebraic geometry version of a polarized [[phase space]] with [[metaplectic correction]]. See at _[[geometric quantization]]_ for more on this.
 
 ## Definition
 
