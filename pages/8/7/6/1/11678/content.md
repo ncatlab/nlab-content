@@ -1,7 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+The concpet of _degree_ of a [[coherent sheaf]] is a generalization of the concept of [[first Chern class]] of a [[line bundle]] (to which it reduces for coherent sheaves of [[sections]] of [[holomorphic line bundles]] over [[Riemann surfaces]] in [[complex analytic geometry]], see at _[first Chern class -- In complex analytic geometry](first+Chern+class#InComplexAnalyticGeometry)_).
+
 ## Definition
 
 e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
+
+## In complex analytic geometry
+
+
 
 ## Related concepts
 
