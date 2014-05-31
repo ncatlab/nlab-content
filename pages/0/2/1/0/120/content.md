@@ -65,6 +65,8 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[identity type]]
 
+* [[identity of indiscernibles]]
+
 * [[equality]]
 
 * [[isomorphism]], [[natural isomorphism]]
