@@ -15,15 +15,19 @@ I have my PhD in theoretical [[physics]] but have worked in math departments eve
 
 ## my research {#myresearch}
 
-My research is about mathematical model building in theoretical physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
+My research is about mathematical theory building in theoretical fundamental physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
 * _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
 
-I have also written a technical book about this question:
+Concretely the questions that I am thinking about myself are laid out a bit in my
+
+* _[Research Statement (pdf)](http://ncatlab.org/schreiber/files/SchreiberStatement.pdf)_
+
+I have written a technical book about this question:
 
 * _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
 
-See the exposition at 
+See maybe the exposition at 
 
 * _[[schreiber:Synthetic Quantum Field Theory|Synthetic quantum field theory]]_.
 
