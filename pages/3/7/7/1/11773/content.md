@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[quantum field theory]]_ which arises via [[quantization]] from a [[Lagrangian]]/an [[action functional]], hence from a [[prequantum field theory]].
+
+## Examples and counter examples
+
+By far most QFTs that appear in textbooks are Lagrangian.
+
+But not all QFTs are Lagrangian, for instance [[self-dual higher gauge theory]] is not Lagrangian, but is defined via a [[holographic principle]] as the holographic boundary of a QFT that is Lagrangian: [[higher dimensional Chern-Simons theory]].
+
+[[!redirects Lagrangian quantum field theories]]
+
+[[!redirects Lagrangian field theory]]
+[[!redirects Lagrangian field theories]]
