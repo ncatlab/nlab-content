@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+
 Alias "[[Leibniz]]'s Law"
 
 This states that two objects are [[identical]] if they have all the same [[properties]].
