@@ -31,13 +31,28 @@ Therefore a polarized variety together with a choice of [[Theta characteristic]]
 
 A _polarization_ of an [[algebraic variety]] $X$ over an [[algebraically closed field]] $k$ is a choice of [[ample sheaf|ample]] element in its [[Néron-Severi group]] $Pic_X/Pic_X^0$. In other words, a polarization is the choice of an [[equivalence class]] of an [[ample sheaf|ample]] alegbraic [[line bundle]] over $X$ (e.g. [[holomorphic line bundles]] if $k$ is the [[complex numbers]]) where two such are regarded as equivalent if they differ by tensoring with one whose underlying topological [[Chern class]] is trivial.
 
+The polarization is called _principal_ if it is of [[degree of a coherent sheaf|degree]] 1.
+
+## Examples
+
+### Jacobians
+
+The [[Jacobian variety]] of an algebraic variety is principally polarized by the [[theta divisor]].
+
+See also [this MO discussion](http://mathoverflow.net/q/95288/381).
+
 ## References
 
 * [[eom]], _[Polarized algebraic variety](http://www.encyclopediaofmath.org/index.php/Polarized_algebraic_variety)_
 
 * Jeroen Sisling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
 
-[[!redirects polarited algebraic varieties]]
+[[!redirects polarized algebraic varieties]]
 
 [[!redirects polarized variety]]
 [[!redirects polarized varieties]]
+
+[[!redirects principally polarized algebraic variety]]
+[[!redirects principally polarized algebraic varieties]]
+[[!redirects principally polarized variety]]
+[[!redirects principally polarized varieties]]
