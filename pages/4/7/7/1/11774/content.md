@@ -1,0 +1,4 @@
+
+* [webpage](http://www.mathematik.uni-kl.de/agag/mitglieder/professoren/prof-em-dr-guenther-trautmann/)
+
+category: people
