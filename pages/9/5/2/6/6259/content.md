@@ -46,6 +46,45 @@ Since imposing the self-duality constraint on the fields that enter the above [[
 
 The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([FMW 00](#FMW00), [Belov-Moore II](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
 
+## Definition (outline)
+ {#Definition}
+
+The [[holographic principle|holographic]] definition of self-dual abelian higher gauge field theory in dimension $4k+2$ given in ([Witten 96](#Witten96)) is in outline the following.
+
+Imagine the self-dual $2k$-form [[field (physics)|field]] on $\Sigma$ to be coupled to [[sources]] given by $(2k+1)$-form gauge fields, hence by [[cocycles]] in [[ordinary differential cohomology]] $[\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]$ of degree $(2k+2)$. One may try to write down a [[Lagrangian]] for this coupling (and that is what is discussed in ([Belov-Moore 06I](#BelovMooreI))) and the resulting [[partition function]] is then locally a function of the [[source fields]], hence a function on the [[intermediate Jacobian]] $[\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]$ and globally (since the [[action functional]] will not be strictly [[gauge invariance|gauge invariant]]) a holomorphic [[section]] of a certain [[holomorphic line bundle]] on that space.
+
+However, no choice of [[Lagrangian]] will enforce a strictly self-dual gauge field (the anti-self dual component will remain in the space of fields, hence the partition function will depend on it). Therefore the idea is to turn this around, reject the idea that self-dual higher gauge theory is directly itself a [[Lagrangian quantum field theory]], and instead _define_ the partition function of the self-dual higher gauge theory (and thereby, indirectly, the self-dual higher gauge theory itself!) as being a certain section of a certain line bundle on the [[intermediate Jacobian]].
+
+The question then is: which line bundle? Some plausibility arguments show that it must be a [[Theta characteristic]] bundle, hence a [[square root]] of the [[canonical bundle]] on the [[intermediate Jacobian]].  These have 1-dimensional spaces of holomorphic sections and hence any choice of that already uniquely fixes the would-be [[partition function]], too, up to a choice of global factor. (For that reason later authors often regard the partition function as a line bundle, somewhat abusing the terminology.)
+
+The claim then is that the correct choice of [[Theta characteristic]] to use is a [[quadratic refinement]] of the [[intersection pairing]] (the [[Beilinson-Deligne cup-product]])
+
+$$
+  [\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]
+  \times
+  [\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]
+  \stackrel{\cup}{\longrightarrow}
+  [\Sigma, \mathbf{B}^{4k+3}\mathbb{G}^\times_{conn}]
+  \stackrel{\int}{\longrightarrow}
+  \mathbf{B}\mathbb{G}^\times_{conn}
+  \,.
+$$
+
+Such [[quadratic refinement]] turns out to be given for $k = 0$ by a [[Spin structure]] and for $k =1$ by a [[Wu structure]] (and the latter case is the actual example of interest in ([Witten 96](#Witten96))). This is what the central theorem of ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]) establishes rigorously.
+
+One notices now that while the self-dual $(4k+2)$-dimensional gauge field theory thus itself is not a [[Lagrangian quantum field theory]], it arises [[holographic principle|holographically]] form a field theory in dimension $4k+3$ that is, namely the [[intersection pairing]] above is the [[Lagrangian]] for [[higher dimensional Chern-Simons theory]] and the [[holomorphic line bundle]] which it gives rise to on the [[intermediate Jacobian]], is the [[prequantum line bundle]] of Chern-Simons theory, whose holomorphic sections are its [[quantum states]] (see at _[[quantization of Chern-Simons theory]]_). From this perspective the [[square root]] [[quadratic refinement]] is the [[metaplectic correction]] in the [[geometric quantization]] of Chern-Simobs theory.
+
+This kind of relation
+
+| self-dual $(4k+2)$d gauge theory |   | $(4k+3)$d Chern-Simons theory |
+|---|---|---|
+| [[sources]] | $\leftrightarrow$ |  [[field (physics)|fields]] |
+| [[partition function]]/[[correlator]] | $\leftrightarrow$ | [[wavefunction]]/[[quantum state]] |
+| [[conformal blocks]] | $\leftrightarrow$ | [[space of quantum states]] |
+
+is the hallmark of the [[holographic principle]].
+
+
 ## Properties
 
 ### Holographic relation to higher Chern-Simons theory
