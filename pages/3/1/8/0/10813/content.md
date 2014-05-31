@@ -5,7 +5,7 @@
 
 ## Idea
 
-An [[algebraic cycle]] of [[codimension]] 1.
+An [[algebraic cycle]] of [[codimension]] 1. For more see at _[[divisor (algebraic geometry)]]_.
 
 ## References
 
