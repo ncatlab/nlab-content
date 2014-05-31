@@ -99,8 +99,8 @@ which has as special cases the formulas $\pi^2 = 6\zeta(2)$, $\pi^4 = 90\zeta(4)
 
 * Continued fractions: the regular [[continued fraction]] expansion of $\pi$ is highly irregular, but several generalized continued fraction expansions listed in [Wikipedia](http://en.wikipedia.org/wiki/Pi#Continued_fractions) include 
 $$\pi=\textstyle \frac{4}{1+\textstyle \frac{1^2}{2+\textstyle \frac{3^2}{2+\textstyle \frac{5^2}{2+\textstyle \frac{7^2}{2+\textstyle \frac{9^2}{2+\ddots}}}}}}
-=3+\textstyle \frac{1^2}{6+\textstyle \frac{3^2}{6+\textstyle \frac{5^2}{6+\textstyle \frac{7^2}{6+\textstyle \frac{9^2}{6+\ddots}}}}}
-=\textstyle \cfrac{4}{1+\textstyle \frac{1^2}{3+\textstyle \frac{2^2}{5+\textstyle \frac{3^2}{7+\textstyle \frac{4^2}{9+\ddots}}}}}$$ 
+$$ 
+
 
 ## Irrationality and transcendence 
 
