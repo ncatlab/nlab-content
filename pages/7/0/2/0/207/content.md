@@ -96,6 +96,10 @@ By contrast, in a [[definitional set theory]], an equality relation is *structur
 
 * **equality**, [[equation]]
 
+* [[identity type]], 
+
+* [[identity of indiscernibles]]
+
 * [[inequality]]
 
   * [[denial inequality]] 
@@ -174,3 +178,5 @@ which makes a distinction between definitional equality and "book" equality.
 [[!redirects intensional equalities]]
 [[!redirects extensional equality]]
 [[!redirects extensional equalities]]
+
+
