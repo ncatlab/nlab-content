@@ -1,5 +1,5 @@
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://qph.is.quoracdn.net/main-thumb-38770669-200-dytxvyjxkubghswliwmwavdsixlbzegq.jpeg" alt="Sanath Devalapurkar" /></div>
-I work on mathematical physics. I am interested in TQFTs. More specifically, I am interested in the application of Chern-Simons theory to quantum gravity. I am also interested in an extended TQFT formalism of quantum gravity, and hence am interested in [Chern-Simons as an extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended). I sometimes dab into plain general relativity (no quantum!) in the context of twistor theory, too (just for the fun of it).
+<div style="float:left;margin:0 10px 10px 0;"><img src="https://lh4.googleusercontent.com/-Y3_sV_ks7a8/U4PWQ4BtYVI/AAAAAAAAAp0/coMxk-fGceo/w140-h139-p/IMG_20140524_120431.jpg" alt="Sanath Devalapurkar" /></div>
+I work on algebraic geometry. I am interested in sheaf theory, specifically vector bundles on sites, as the below section titled "Ideas" shows.
 <br><br><br><br>
 ##Websites##
 
@@ -7,5 +7,31 @@ I work on mathematical physics. I am interested in TQFTs. More specifically, I a
 
 * [Math Stackexchange page](http://math.stackexchange.com/users/122283/sanath-devalapurkar/).
 
+##Ideas##
+###The Sheaf of Images of Sections of a Vector Bundle on a CW Complex###
+Define a CW complex as a topological space for which there exists a choice of CW decomposition. Let $X$ be a CW complex. Denote the category of CW complexes as $\text{CW}$. Define also a category $\mathcal{C}(X)\to\text{Bund}$, i.e., a subcategory of $\text{Bund}$, with objects as vector bundles on the CW complex $X$, with morphisms as maps of $\mathcal{O}_X$-modules. Define the objects of a category $\mathcal{D}(\mathcal{A})$. with $\mathcal{A}$ a category, as sequences of objects and morphisms in $\mathcal{A}$, with a morphism in $\mathcal{D}(\mathcal{A})$, i.e., $f:(A_\bullet,\delta_\bullet)\to(B_\bullet,\Delta_\bullet)$, as $f:A_i\to B_i$.
+
+Let $\mathcal{B}$ be an object of $\mathcal{C}(X)$, so that there exists a projection $p:\mathcal{B}\to X$. Let $X_0\subseteq X_1\subseteq\cdots\subseteq X_n=X$ be the skeleton of a CW structure on $X$. There is the restricted bundle $p_i:p^{-1}(X_i)\to X_i$, where, by definition, $p_i(y):=p(y)$ for all $y\in X_i$. There is a section $s_0:X_0\to p^{-1}(X_0)$. Let $H^{i+1}(X_{i+1},X_i; \pi_i(F))$, where $F$ is a fiber $p^{-1}(x)$, vanish for all $i$. It is possible to extend $s_{n}$ to $s_{n+1}$, allowing us to inductively define an extended section, $s:X\to\mathcal{B}$. The images of the extended sections are CW complexes. The space of all images of the extended sections of $\mathcal{B}$ is denoted $\Pi_\mathcal{B}$.
+
+The functor $F:\mathcal{C}(X)\to\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\mathcal{C}(X))}\Pi_\mathcal{B})$ assigns each vector bundle $\mathcal{B}$ a sequence of images of the extended sections of $\mathcal{B}$, where each image of the extended section appears at least once in the sequence.
+
+We may take $\Pi_\mathcal{B}$ to be the sheaf of images of sections of $\mathcal B$, in which case $F$ defines the construction of the sheaf of images of sections given the vector bundle. It is easy to see that $F$ has a right adjoint functor: $\text{Hom}_{\mathcal{C}(X)}(F\mathcal{B},\text{Seq}(\mathcal{B}))$ is in bijection with $\text{Hom}_{\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\mathcal{C}(X))}\Pi_\mathcal{B})}(\mathcal{B},G\text{Seq}(\mathcal{B}))$, which defines the construction of the vector bundle given its sheaf of images of sections.
+
+$\mathcal{C}(X)$ is the category of locally free sheaves on $X$, and hence is not Abelian. There is a geometric embedding $\mathcal{C}(X)\hookrightarrow\text{PSh}(X)$ induced by the inclusion functor $I:\mathcal{C}(X)\to\text{Sh}(X)$: $\mathcal{C}(X)\hookrightarrow\text{Sh}(X)\hookrightarrow \text{PSh}(X)$.
+###The Sheaf of Codomains of Sections of a Vector Bundle on a Site###
+Consider a bundle of categories ([http://sma.epfl.ch/~hessbell/seca4.pdf](http://sma.epfl.ch/~hessbell/seca4.pdf)) $\mathcal{E}$ over a category $\mathbf{B}$, i.e., there exists a split opfibration $p:\mathcal{E}\to\mathcal{B}$ with small fibers and functors $s:\mathcal{B}\to\mathcal{E}$. Let $X$ be a site. Then, $\mathcal{C}(X)$ has as objects vector bundles of categories over $X$, while the morphisms are functors.
+
+The codomains of the functors $s:X\to\mathcal{B}$ are categories, where $\mathcal{B}$ is an object of $\mathcal{C}(X)$. The category of codomains of all functors $s:X\to\mathcal{B}$ is denoted $\Pi_{\mathcal{B},\text{site}}$. The functor $F_{\text{site}}:\mathcal{C}(X)\to\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\mathcal{C}(X))}\Pi_{\mathcal{B},\text{site}})$ assigns each vector bundle $\mathcal{B}$ over categories a sequence of the codomains of the sections of $\mathcal{B}$, where each codomain of the sections appears at least once in the sequence.
+
+$\Pi_{\mathcal{B},\text{site}}$ is the sheaf of codomains of sections of the vector bundle $\mathcal{B}$ over categories. There are geometric embeddings $\mathcal{C}(X)\hookrightarrow\text{PSh}(X)$ and $\mathcal{C}(X)\hookrightarrow X$ given by the following: $\mathcal{C}(X)\hookrightarrow\text{Sh}(X)\hookrightarrow X\stackrel{\text{Yoneda}}{\hookrightarrow} \text{PSh}(X)$. Let $X$ be endowed with the indiscrete topology. Then, $\text{Sh}(X)=\text{PSh}(X)$, so $\text{Sh}(X)\hookrightarrow X\stackrel{\text{Yoneda}}{\hookrightarrow}\text{Sh}(X)$.
+
+We conjecture that there exists a (split) cofibration $p_{\mathrm{op}}:(\mathcal{C}(X))^{\mathrm{op}}\to X^{\mathrm{op}}$ with small fibres. This would imply that $(\mathcal{C}(X))^{\mathrm{op}}$ is an object of $\mathcal{C}(X^{\mathrm{op}})$.
+
+##References##
+1. Private Communication with Todd Trimble.
+
+1. [http://sma.epfl.ch/~hessbell/seca4.pdf](http://sma.epfl.ch/~hessbell/seca4.pdf).
+
+1. [Stacks Project, Modules](http://stacks.math.columbia.edu/download/modules.pdf).
 
 Category: people
