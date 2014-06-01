@@ -1,5 +1,5 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="https://lh4.googleusercontent.com/-Y3_sV_ks7a8/U4PWQ4BtYVI/AAAAAAAAAp0/coMxk-fGceo/w140-h139-p/IMG_20140524_120431.jpg" alt="Sanath Devalapurkar" /></div>
-I work on algebraic geometry. I am interested in sheaf theory, specifically vector bundles on sites, as the below section titled "Ideas" shows.
+I am a $14$-year old student aspiring to be a mathematician. I work on algebraic geometry. I am interested in sheaf theory, specifically vector bundles on sites, as the below section titled "Ideas" shows. Feel free to email to me at devalapurkarsanath at gmail dot com (devalapurkarsanath@gmail.com).
 <br><br><br><br>
 ##Websites##
 
@@ -18,19 +18,10 @@ The functor $F:\mathcal{C}(X)\to\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\
 We may take $\Pi_\mathcal{B}$ to be the sheaf of images of sections of $\mathcal B$, in which case $F$ defines the construction of the sheaf of images of sections given the vector bundle. It is easy to see that $F$ has a right adjoint functor: $\text{Hom}_{\mathcal{C}(X)}(F\mathcal{B},\text{Seq}(\mathcal{B}))$ is in bijection with $\text{Hom}_{\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\mathcal{C}(X))}\Pi_\mathcal{B})}(\mathcal{B},G\text{Seq}(\mathcal{B}))$, which defines the construction of the vector bundle given its sheaf of images of sections.
 
 $\mathcal{C}(X)$ is the category of locally free sheaves on $X$, and hence is not Abelian. There is a geometric embedding $\mathcal{C}(X)\hookrightarrow\text{PSh}(X)$ induced by the inclusion functor $I:\mathcal{C}(X)\to\text{Sh}(X)$: $\mathcal{C}(X)\hookrightarrow\text{Sh}(X)\hookrightarrow \text{PSh}(X)$.
-###The Sheaf of Codomains of Sections of a Vector Bundle on a Site###
-Consider a bundle of categories ([http://sma.epfl.ch/~hessbell/seca4.pdf](http://sma.epfl.ch/~hessbell/seca4.pdf)) $\mathcal{E}$ over a category $\mathbf{B}$, i.e., there exists a split opfibration $p:\mathcal{E}\to\mathcal{B}$ with small fibers and functors $s:\mathcal{B}\to\mathcal{E}$. Let $X$ be a site. Then, $\mathcal{C}(X)$ has as objects vector bundles of categories over $X$, while the morphisms are functors.
 
-The codomains of the functors $s:X\to\mathcal{B}$ are categories, where $\mathcal{B}$ is an object of $\mathcal{C}(X)$. The category of codomains of all functors $s:X\to\mathcal{B}$ is denoted $\Pi_{\mathcal{B},\text{site}}$. The functor $F_{\text{site}}:\mathcal{C}(X)\to\mathcal{D}(\bigsqcup_{\mathcal{B}\in\text{Ob}(\mathcal{C}(X))}\Pi_{\mathcal{B},\text{site}})$ assigns each vector bundle $\mathcal{B}$ over categories a sequence of the codomains of the sections of $\mathcal{B}$, where each codomain of the sections appears at least once in the sequence.
-
-$\Pi_{\mathcal{B},\text{site}}$ is the sheaf of codomains of sections of the vector bundle $\mathcal{B}$ over categories. There are geometric embeddings $\mathcal{C}(X)\hookrightarrow\text{PSh}(X)$ and $\mathcal{C}(X)\hookrightarrow X$ given by the following: $\mathcal{C}(X)\hookrightarrow\text{Sh}(X)\hookrightarrow X\stackrel{\text{Yoneda}}{\hookrightarrow} \text{PSh}(X)$. Let $X$ be endowed with the indiscrete topology. Then, $\text{Sh}(X)=\text{PSh}(X)$, so $\text{Sh}(X)\hookrightarrow X\stackrel{\text{Yoneda}}{\hookrightarrow}\text{Sh}(X)$.
-
-We conjecture that there exists a (split) cofibration $p_{\mathrm{op}}:(\mathcal{C}(X))^{\mathrm{op}}\to X^{\mathrm{op}}$ with small fibres. This would imply that $(\mathcal{C}(X))^{\mathrm{op}}$ is an object of $\mathcal{C}(X^{\mathrm{op}})$.
-
+My research focuses on generalizing this to the sheaf of codomains of sections of a vector bundle on a site.
 ##References##
 1. Private Communication with Todd Trimble.
-
-1. [http://sma.epfl.ch/~hessbell/seca4.pdf](http://sma.epfl.ch/~hessbell/seca4.pdf).
 
 1. [Stacks Project, Modules](http://stacks.math.columbia.edu/download/modules.pdf).
 
