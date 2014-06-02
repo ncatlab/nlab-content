@@ -25,6 +25,8 @@ A _coherent sheaf of modules_ is a geometric globalization of the notion of [[co
 
 ## Definition
 
+### Over a ringed topos
+
 Let $(X,\mathcal{O})$ be a [[ringed space]] or, more generally, a [[ringed site]]. 
 
 A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
@@ -62,6 +64,12 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
   $$
 
   where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
+
+### Over a structured $(\infty,1)$-topos
+
+Over a [[spectral Deligne-Mumford stack]]:
+
+([[Quasi-Coherent Sheaves and Tannaka Duality Theorems|Lurie QCoh, def. 2.6.20]])
 
 ## Properties
 
@@ -113,5 +121,10 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 
 Categories of ind-coherent sheaves on schemes and stacks are studied  in [[Dennis Gaitsgory]], _Notes on Geometric Langlands: ind-coherent sheaves_, [arxiv/1105.4857](http://arxiv.org/abs/1105.4857)
 
+Discussion in [[(∞,1)-topos theory]]
+
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 category: sheaf theory, algebraic geometry
+
 [[!redirects coherent sheaves]]
