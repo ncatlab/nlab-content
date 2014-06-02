@@ -66,4 +66,11 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
 * {#CarterKauffmanSaito96} [[Scott Carter]], [[Louis Kauffman]], Masahico Saito, _Diagrams, Singularities, and Their Algebraic Interpretations_, in "10th Brazilian Topology Meeting, S. Carlos, July 22 26, 1996 ([pdf](http://homepages.math.uic.edu/~kauffman/cksBrasil.pdf))
 
+Discussion via the [[cobordism hypothesis]] with [[fusion categories]] as [[fully dualizable objects]] is in 
+
+* {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
+ 
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
+
+
 [[!redirects 3d TQFTs]]
