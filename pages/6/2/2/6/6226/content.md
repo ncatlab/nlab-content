@@ -27,6 +27,18 @@ On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in th
 
 ## 1. Generalities on spectral Deligne-Mumford stacks
 
+### 1.4 Quasi-compactness of Spectral Deligne-Mumford stacks
+
++-- {: .num_example }
+###### Example
+**cor. 1.4.3**
+
+A [[spectral scheme]] or [[spectral Deligne-Mumford stack]], regarded as a [[structured (∞,1)-topos]] is locally coherent.
+
+=--
+
+
+
 ## 2. Quasi-coherent sheaves
 
 ### 2.1 Sheaves on a spectrally ringed $\infty$-topos
@@ -50,6 +62,8 @@ On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in th
 * [[Grothendieck context]] [[six operations]]
 
 ### 2.6 Local properties of quasi-coherent sheaves
+
+* [[coherent sheaf]]
 
 ### 2.7 Quasi-coherent sheaves on a functor
 
