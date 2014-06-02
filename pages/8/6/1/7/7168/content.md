@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $V$ a [[vector space]] or $k$-[[module]], a _quadratic form_ on $V$ is a [[function]]
+For $V$ a [[vector space]] or more generally a $k$-[[module]], then a _quadratic form_ on $V$ is a [[function]]
 
 $$
   q\colon V \to k
@@ -43,27 +43,36 @@ Let
 
 $$
   \langle -,-\rangle
-  : 
+  \colon
   V \otimes V \to k
 $$ 
 
-be a [[bilinear form]]. We say a function $q : V \to k$ is a **quadratic refinement** of $\langle -,-\rangle$ if
+be a [[bilinear form]]. A [[function]] 
 
 $$
-  \langle v,w\rangle = 
-  q(v + w) - q(v) - q(w)
+  q \colon V \to k
+
+$$ 
+
+is called a **[[quadratic refinement]]** of $\langle -,-\rangle$ if
+
+$$
+  \langle v,w\rangle 
+    = 
+  q(v + w) - q(v) - q(w) + q(0)
 $$
 
 for all $v,w \in V$.
 
-If this exists, then 
+
+If such $q$ is indeed a [[quadratic form]] in that $q(t v) = t^2 q(v)$ then $q(0) = 0$ and
 
 $$
   \langle v , v \rangle = 2 q(v)
   \,.
 $$
 
-So a quadratic refinement always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
+This means that a quadratic refinement by a [[quadratic form]] always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
 
 
 ## Related concepts
@@ -86,8 +95,6 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 [[!redirects quadratic form]]
 [[!redirects quadratic forms]]
 
-[[!redirects quadratic refinement]]
-[[!redirects quadratic refinements]]
 
 [[!redirects signature of a quadratic form]]
 
