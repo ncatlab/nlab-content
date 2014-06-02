@@ -31,7 +31,7 @@ for the [[Stiefel-Whitney classes]] of $X$. Moreover, write
 $$
   \cup : H^k(X, \mathbb{Z}_2) \times H^l(X, \mathbb{Z}_2)
   \to 
-  H^{k+1}(X, \mathbb{Z}_2)
+  H^{k+l}(X, \mathbb{Z}_2)
 $$
 
 for the [[cup product]] on $\mathbb{Z}_2$-[[cohomology groups]] and write 
@@ -62,6 +62,7 @@ $$
 
 =--
 
+e.g. [Milnor-Stasheff 74, p. 131-133](#MilnorStasheff74)
 
 ## Properties
 
@@ -238,7 +239,7 @@ The original reference is
 
 See also around p. 228 of
 
-* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton University Press (1974)
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton University Press (1974)
 
 and section 2 of 
 
