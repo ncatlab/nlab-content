@@ -39,3 +39,9 @@ The connection to biclosed monoidal categories is made explicit in:
 ## Related Concepts
 
 *  [[context-free grammar]]
+* [[lambda calculus]]
+* [[type theory]]
+* [[monad (in computer science)]]
+* [[continuation-passing style]]
+* [[linear logic]]
+* [[modal logic]]
