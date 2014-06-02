@@ -27,3 +27,5 @@ Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.
 * A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
 
 * [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845&#8211;4854, [arXiv:0909.3769](http://arxiv.org/abs/0909.3769), [doi](http://dx.doi.org/10.1142/S0217751X11054772) 
+
+* Daniele Rosso, Alistair Savage, _Twisted Heisenberg doubles_, [arxiv/1405.7889](http://arxiv.org/abs/1405.7889)
