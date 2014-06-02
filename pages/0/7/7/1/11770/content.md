@@ -47,6 +47,11 @@ See also [this MO discussion](http://mathoverflow.net/q/95288/381).
 
 * Jeroen Sisling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
 
+Polarization specifically of [[Jacobian varieties]] is discussed for instance in 
+
+* {#Polsihchuk03} [[Alexander Polishchuk]], section 17 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
+
+
 [[!redirects polarized algebraic varieties]]
 
 [[!redirects polarized variety]]
