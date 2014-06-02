@@ -23,6 +23,7 @@ $$
   \,.
 $$
 
+These are the [[characteristic element of a bilinear form|characteristic elements]] of the [[intersection product]] on [[ordinary cohomology]]/[[ordinary differential cohomology]], inducing its [[quadratic refinements]].
 
 ## Related concepts
 
