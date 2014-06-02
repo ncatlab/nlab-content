@@ -190,7 +190,7 @@ If a [[sheaf topos]] $E$ has _enough points_ then
 
 =--
 
-This is due to ([Butz](#Butz)) and ([Moerdijk]{#Moerdijk}).
+This is due to ([Butz](#Butz)) and ([Moerdijk](#Moerdijk)).
 
 ## Examples 
 
@@ -218,7 +218,7 @@ The following classes of topos have enough points.
 
 * every [[presheaf topos]];
 
-* every [[coherent topos]];
+* every [[coherent topos]] (due to the [[Deligne completeness theorem]]);
 
 * every [[Galois topos]] (see ([Zoghaib](#Zoghaib))).
 
@@ -267,3 +267,5 @@ Points of the sheaf topos over the category of [[manifold]]s are discussed in
 
 [[!redirects topos point]]
 [[!redirects topos points]]
+
+[[!redirects enough points]]
