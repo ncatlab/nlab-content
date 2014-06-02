@@ -21,11 +21,16 @@
 
 ## Idea
 
-A _theta function_ ($\vartheta$-function, $\Theta$-function) is a [[holomorphic section]] of a [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]]. 
+### General
 
-Expressed in local [[coordinates]] $\mathbb{C}^g$ it becomes an actual function, satisfying certain transformation properties. 
+A _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|prinicpally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
+(e.g. [Polishchuk 03, section 17](#Polishchuk03)). The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
 
-Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instace ([Tyurin](#Tyurin)).
+Expressed in local [[coordinates]] $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
+
+### In quantization
+
+Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instace ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]].See there for more.
 
 ## Examples
 
@@ -55,13 +60,13 @@ Introductions to the traditional notion include
 
 A modern textbook account is
 
-* {#Polsihchuk03} [[Alexander Polishchuk]], _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
+* {#Polishchuk03} [[Alexander Polishchuk]], section 17 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
 
 Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
 
 * Arnaud Beuville, _Theta functions, old and new_ ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
 
-* [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+* {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
 
 * Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  {#Nohara}
