@@ -55,7 +55,7 @@ Introductions to the traditional notion include
 
 A modern textbook account is
 
-* [[Alexander Polishchuk]], _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003)
+* {#Polsihchuk03} [[Alexander Polishchuk]], _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
 
 Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
 
