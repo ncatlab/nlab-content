@@ -9,11 +9,9 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -48,6 +46,7 @@ is divisible by $2\in \mathbb{Z}$.
 Often this is considered for the bilinear form being an [[intersection product]] in which case $A$ is a [[cohomology group]] and so in this case one also often speaks of _characteristic cohomology classes_.
 
 =--
+
 
 ## Properties
 
@@ -102,12 +101,13 @@ the only point being that the prefactor $\tfrac{1}{2}$ indeed makes sense, by de
 
 ## Examples
 
-+-- {: .num_exmple #WuClassForIntersectionPairing}
++-- {: .num_example #WuClassForIntersectionPairing}
 ###### Example
 
 Characteristic elements for the [[intersection pairing]] on integral [[ordinary cohomology]] are integral lifts of the [[Wu classes]], hence [[integral Wu structures]]. 
 
 =--
+
 
 ## References
 
@@ -120,4 +120,6 @@ Further discussion of the use of characteristic elements in the construction of 
 * {#PoonenRains11} Bjorn Poonen, Eric Rains, _Self cup products and the theta characteristic torsor_ ([arXiv:1104.2105](http://arxiv.org/abs/1104.2105))
 
 
+[[!redirects characteristic element of a bilinear form]]
 [[!redirects characteristic elements of a bilinear form]]
+[[!redirects characteristic elements of bilinear forms]]
