@@ -392,9 +392,13 @@ A classical textbook reference is
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
-References for the description of connections in terms of their parallel transport are collected at 
+The formulation of connections in terms of their smooth [[parallel transport]] [[functors]] is in 
 
-* [[Urs Schreiber]], _<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">differential cohomology in a cohesive topos -- References -- Connections -- In terms of parallel transport</a>_
+* {#SchreiberWaldorf07} [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,  J. Homotopy Relat. Struct. 4, 187-244 (2009) ([arXiv:0705.0452](http://arxiv.org/abs/0705.0452))
+
+based on a series of classical observations. I farily comprehensive commented list of related references is here:
+
+* _<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">differential cohomology in a cohesive topos -- References -- Connections -- In terms of parallel transport</a>_
 
 Basic facts about connections, such as the existence proof in terms of Cech cocycles, are collected in the brief lecture note
 
