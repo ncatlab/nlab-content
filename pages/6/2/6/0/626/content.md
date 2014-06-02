@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -70,6 +69,8 @@ See the article by Selinger below for more examples.
 * [[proof net]]
 
 * [[Feynman diagram]]
+
+* [[linguistics|natural language syntax]]
 
 ## References
 
