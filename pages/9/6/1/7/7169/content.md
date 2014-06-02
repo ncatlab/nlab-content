@@ -54,6 +54,10 @@ $$
 
 The [[signature of a quadratic form]] of the [[quadratic form]] induced by the intersection pairing in [[integral cohomology]] is the _[[signature genus]]_.
 
+In dimension 4, see also:
+
+* Wikipedia, _[Intersection form (4-manifold)](http://en.wikipedia.org/wiki/Intersection_form_(4-manifold))_
+
 ### In $\mathbb{Z}_2$-cohomology
 
 Over a [[Riemann surface]] $X$, the intersection pairing on $H^1(X, \mathbb{Z}_2)$ has a [[quadratic refinement]] by the function that sends a [[Theta characteristic]] to the mod 2-dimension of its space of sections. See _[Theta characteristic -- Over Riemann surfaces](Theta+characteristic#OverRiemannSurfaces)_.
