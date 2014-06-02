@@ -261,7 +261,7 @@ In this case one has:
 There is a [[natural isomorphism]] 
 
 $$
-  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{n,0}}_X
+  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{n,0}_X}
 $$ 
 
 of the [[sheaf]] of [[sections]] of the [[spinor bundle]] $S_X$ on $X$ with the [[tensor product]] of the  [[Dolbeault complex]] with the corresponding [[Theta characteristic]];
