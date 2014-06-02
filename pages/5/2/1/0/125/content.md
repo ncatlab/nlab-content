@@ -103,3 +103,4 @@ In some older category theory papers, arrows were written pointing from right to
 [[!redirects diagrammatic order]]
 
 [[!redirects compositions]]
+[[!redirects compose]]
