@@ -39,6 +39,8 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 * [[quadratic form]], [[polarization identity]]
 
+* [[characteristic element of a bilinear form]]
+
 * [[symplectic form]], [[Kähler form]]
 
 * [[Riemannian metric]]
