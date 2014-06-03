@@ -84,7 +84,21 @@ There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k
 
 At least for the plain [[Jacobian]] of a [[curve]] $\Sigma$ one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
 
-first of all the canonical map $H^1(\Sigma,\mathbb{R})\longrightarrow H^1(\Sigma, \mathcal{O}_{\Sigma})$ is an isomorphism. second, by the [[long exact sequence in cohomology]] of the [[exponential exact sequence]] we have that
+Notice that the canonical map 
+
+$$
+  H^1(\Sigma,\mathbb{R})
+  \hookrightarrow 
+  H^1(\Sigma, \mathbb{C})
+  \to
+  H^{0,1}(\Sigma)
+  \stackrel{\simeq}{\to} H^1(\Sigma, \mathcal{O}_{\Sigma})
+$$ 
+
+is an [[isomorphism]]. (The first map is induced by the splitting $H^1(\Sigma, \mathbb{C}) \simeq H^1(\Sigma,\mathbb{R})\oplus i H^1(\Sigma,\mathbb{R})$ given by [[complexification]] and the second by the splitting $H^1(\Sigma,\mathbb{C}) \simeq H^{0,1}(\Sigma)\oplus H^{1,0}(\Sigma)$ of [[Dolbeault cohomology]], the last map is the [[Dolbeault isomorphism]]).
+
+
+Now by the [[long exact sequence in cohomology]] of the [[exponential exact sequence]] we have that
 
 $$
   H^1(\Sigma,\mathcal{O}_{\Sigma})/H^1(\Sigma, \mathbb{Z}) 
