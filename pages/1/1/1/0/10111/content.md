@@ -112,6 +112,10 @@ Discussion of the relation between Hermitian metrics and almost K&#228;hler metr
 [[!redirects Hermitean manifold]]
 [[!redirects Hermitean manifolds]]
 
+[[!rediredcts hermitian manifold]]
+[[!rediredcts hermitian manifolds]]
+
+
 [[!redirects Hermitian structure]]
 [[!redirects Hermitian structures]]
 [[!redirects Hermitean structure]]
