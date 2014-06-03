@@ -76,7 +76,7 @@ $$
   J^k(X)\simeq H^{2k-1}(X,\mathbb{C})/(F^k H^{2k-1}(X) \oplus H^{2k-1}(X,\mathbb{Z}))
 $$
 
-exhibits a [[complex torus]], and this is the _$k$th intermediate Jacobian_ proper as originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_. 
+exhibits a [[complex torus]], and this is the _$k$th intermediate Jacobian_ proper as originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls 12](#Walls12)).
 
 There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k-1}(X, \mathbb{Z})$, equipped with that it is called the _Weil intermediate Jacobian_.
 
@@ -180,7 +180,7 @@ Reviews and surveys include
 
 * Wikipedia, _[Intermediate Jacobian](http://en.wikipedia.org/wiki/Intermediate_Jacobian)_
 
-* [[Patrick Walls]], _Intermediate Jacobians and Abel-Jacobi maps_, 2012 ([[WallsJacobian.pdf:file]])
+* {#Walls12} [[Patrick Walls]], _Intermediate Jacobians and Abel-Jacobi maps_, 2012 ([[WallsJacobian.pdf:file]])
 
 * {#Brylinski07} [[Jean-Luc Brylinski]], around theorem I 1.5.11 of _Loop Spaces, Characteristic Classes and Geometric Quantization_ Springer, 2007
 
