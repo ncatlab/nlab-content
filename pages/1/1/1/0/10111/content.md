@@ -108,7 +108,13 @@ Discussion of the relation between Hermitian metrics and almost K&#228;hler metr
 * Vestislav Apostolov, Tedi Draghici, _Hermitian conformal classes and almost K&#228;hler structures on 4-manifolds_ ([pdf](http://www2.fiu.edu/~draghici/research/paperfiles/dga.pdf))
 
 
+[[!redirects Hermitian manifolds]]
+
+
 [[!redirects almost Hermitian manifold]]
+[[!redirects almost Hermitian manifolds]]
+
+
 [[!redirects Hermitean manifold]]
 [[!redirects Hermitean manifolds]]
 
