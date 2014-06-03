@@ -98,6 +98,6 @@ and sections 1.2.4 ([[geometry of physics -- smooth homotopy types]]) as well as
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-This goes on to discuss [[differential cohomology]] and of the [[differential cohomology diagram]] formulated in stable objects in [[smooth ∞-groupoids]] (hence in [[sheaves of spectra]] on the [[site]] of [[smooth manifolds]]/[[Cartesian spaces]]) in higher differential geometry, see 
+This goes on to discuss [[differential cohomology]] and the [[differential cohomology diagram]] formulated in [[stable homotopy type|stable]] objects in [[smooth ∞-groupoids]] (hence in [[sheaves of spectra]] on the [[site]] of [[smooth manifolds]]/[[Cartesian spaces]]) in higher differential geometry, see 
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
