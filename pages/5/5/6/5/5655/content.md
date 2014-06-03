@@ -36,3 +36,6 @@ For more on this see [[Cahiers topos]]
 
 
 [[!redirects formal smooth manifolds]]
+
+[[!redirects formal manifold]]
+[[!redirects formal manifolds]]
