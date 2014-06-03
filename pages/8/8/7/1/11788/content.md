@@ -45,12 +45,12 @@ Let $C$ be a [[topos]].
 
 +-- {: .num_defn}
 ###### Definition
-An object $X$ of $C$ is called **compact** if the top element of $Sub(X)$ is a [[compact element]].
+An object $X$ of $C$ is called **compact** if the [[top]] element of the [[poset of subobjects]] $Sub(X)$ is a [[compact element]].
 =--
 
 +-- {: .num_defn}
 ###### Definition
-An object $X$ of $C$ is called **stable** if for all morphisms $Y \to X$ from a compact object $Y$, the [[domain]] of the [[kernel pair]] $R \rightrightarrows Y$ of $f$ is also a compact object.
+An [[object]] $X$ of $C$ is called **stable** if for all morphisms $Y \to X$ from a compact object $Y$, the [[domain]] of the [[kernel pair]] $R \rightrightarrows Y$ of $f$ is also a compact object.
 =--
 
 +-- {: .num_defn}
