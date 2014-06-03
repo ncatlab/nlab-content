@@ -82,7 +82,7 @@ There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k
 
 ### Algebraically
 
-At least for the plain [[Jacobian]] of a [[curve]] $\Sigma$ one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
+At least for the plain [[Jacobian]] of a [[curve]] $\Sigma$ (hence $dim_{\mathbb{C}}(\Sigma) = 1$) one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
 
 Notice that the canonical map 
 
@@ -101,14 +101,23 @@ is an [[isomorphism]]. (The first map is induced by the splitting $H^1(\Sigma, \
 Now by the [[long exact sequence in cohomology]] of the [[exponential exact sequence]] we have that
 
 $$
+  \begin{aligned}
+  J^1(\Sigma)
+  & \coloneqq
+  H^1(\Sigma, \mathbb{R})/H^1(\Sigma, \mathbb{Z})
+  \\
+  & \simeq
   H^1(\Sigma,\mathcal{O}_{\Sigma})/H^1(\Sigma, \mathbb{Z}) 
-  \simeq
+  \\
+  & \simeq
   ker(H^1(\Sigma, \mathcal{O}^\times_{\Sigma})\to H^2(\Sigma, \mathbb{Z}))
-  = 
+  \\
+  & = 
   Pic_0(\Sigma)
+  \end{aligned}
 $$
 
-is the connected component of the [[Picard variety]] of $\Sigma$
+is the connected component of the [[Picard variety]] of $\Sigma$.
 
 
 
