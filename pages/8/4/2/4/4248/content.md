@@ -5,17 +5,17 @@
 
 ## Idea
 
-The _Hodge numbers_ $h^{p,q}(X)$ of a [[compact space|compact]] [[complex manifold]] $X$ are the dimensions of certain [[cohomology]] spaces of $X$. 
+The _Hodge numbers_ $h^{p,q}(X)$ of a [[compact space|compact]] [[complex manifold]] $X$ are the complex [[dimensions]] of the [[Dolbeault cohomology]] groups of $X$; the [[complex geometry]]-analog of the [[Betti numbers]].
 
-## Defition
+## Definition
 
-The $(p,q)$-Hodge number of a [[compact space|compact]] [[complex manifold]] $X$ is
+Via the [[Dolbeault theorem]], the $(p,q)$-Hodge number of a [[compact space|compact]] [[complex manifold]] $X$ is
 
 $$
 h^{p,q}(X) := dim_\mathbb{C}H^q(X;\Omega^p),
 $$
 
-where $\Omega^p$ is the [[sheaf]] of holomorphic $p$-[[differential form|forms]] on $X$ and $H^q(X; \Omega^p)$ is the corresponding [[abelian sheaf cohomology]]. 
+where $\Omega^p$ is the [[sheaf]] of [[holomorphic p-forms]] on $X$ and $H^q(X; \Omega^p)$ is the corresponding [[abelian sheaf cohomology]]. 
 
 ## Properties
 
@@ -28,5 +28,9 @@ When $X$ is a [[Kähler manifold]], then Hodge numbers have a number of addition
 * $h^{p,p}\geq 1$ for any $p=1,\dots,n$; 
 
 * $b_k(X)=\sum_{p+q=k}h^{p,q}(X)$, where $b_k$ is the $k$-th [[Betti number]] of $X$.
+
+## Related concepts
+
+* [[Betti number]]
 
 [[!redirects Hodge numbers]]
