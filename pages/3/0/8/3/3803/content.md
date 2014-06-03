@@ -211,6 +211,7 @@ Another generalization, for singular spaces, is with help of stratifications and
 
 * [[KO-dimension]]
 
+* [[Serre duality]]
 
 ## References
 
