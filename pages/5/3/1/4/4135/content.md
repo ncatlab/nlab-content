@@ -99,7 +99,8 @@ $$
 where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
 
 
-### Basis-independent formulas
+### Basic properties (Basis-independent formulas)
+ {#BasicProperties}
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
