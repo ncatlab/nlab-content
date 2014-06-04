@@ -14,7 +14,10 @@ An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic
 ## References
 
 
-* {#Burgos} [[José Ignacio Burgos]], _A $C^\infty$-logarithmic Dolbeault complex_, Compositio Math. 92 (1994), no. 1, 61{86. MR 1275721 (95g:32056)
+* {#Burgos} [[José Ignacio Burgos]], _A $C^\infty$-logarithmic Dolbeault complex_, Compositio Math. 92 (1994), no. 1, 61-86. MR 1275721 (95g:32056)
+
+* {#Voisin02} [[Claire Voisin]], section 8.2.2 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
 
 In the context of [[differential algebraic K-theory]]
 
