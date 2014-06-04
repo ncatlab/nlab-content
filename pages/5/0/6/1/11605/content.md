@@ -31,54 +31,113 @@ In [[differential geometry]] these appear as [[moduli spaces]] of [[flat infinit
 ### In complex geometry
  {#InComplexGeometry}
 
-Let $X$ be a [[projective variety|projective]] [[smooth variety|smooth]] [[complex variety]] (see at _[[GAGA]]_). 
+#### The underlying real manifold
 
-For $k \in \mathbb{N}$ the _$k$th intermediate Jacobian_ of $X$ is, as a [[real manifold]], the [[quotient]]
+Let $\Sigma$ be a [[projective variety|projective]] [[smooth variety|smooth]] [[complex variety]] (see at _[[GAGA]]_). 
+
+For $k \in \mathbb{N}$ the _$k$th intermediate Jacobian_ of $\Sigma$ is, as a [[real manifold]], the [[quotient]]
 
 $$
-  J^k(X) \coloneqq H^{2k-1}(X,\mathbb{R})/H^{2k-1}(X,\mathbb{Z})
+  J^{k+1}(\Sigma) 
+    \coloneqq 
+  H^{2k+1}(\Sigma,\mathbb{R})/H^{2k+1}(\Sigma,\mathbb{Z})
 $$
 
 of the [[ordinary cohomology|ordinary]] [[cohomology groups]] of $X$ with [[coefficients]] in the [[abelian groups]] of [[real numbers]] and of [[integers]], respectively, induced by the canonical inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$.
 
-Here $H^{2k-1}(X,\mathbb{R})$ is naturally a [[vector space]] over the [[real numbers]] and this is what induces the [[manifold]]-structure on the quotient. 
+Here $H^{2k+1}(\Sigma,\mathbb{R})$ is naturally a [[vector space]] over the [[real numbers]] and this is what induces the [[smooth manifold]]-structure on the quotient. 
 
-But in fact $J^k(X)$ canonically carries the structure of a [[complex manifold]], too, and this is the intermediate Jacobian proper:
+For eventually equipping this with the structure of a [[complex manifold]] one realizes this as the quotient of the [[complex vector space]] of cohomology with complex coefficients as follows:
 
-Namely since a real [[differential form]] 
-
-$$
-  \alpha \in \Omega^{2k-1}_{\mathbb{R}}(X)
-$$
-
-is, by the [[Hodge theorem]], a sum of forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the form
+Notice that a real [[differential form]] 
 
 $$
-  \alpha = \alpha^{2k-1,0}+ \alpha^{2k-2,1} + \cdots + \overline{\alpha^{1,2k-2}} + \overline{\alpha^{0,2k-1}}
+  \alpha \in \Omega^{2k+1}_{\mathbb{R}}(\Sigma)
 $$
 
-it follows with the [[de Rham theorem]] that there is a canonical [[isomorphism]] of real vector spaces
+is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the kind
 
 $$
-  H^{2k-1}(X, \mathbb{R}) \simeq H^{2k-1}(X,\mathbb{C})/(F^k H^{2k-1}(X))
+  \alpha = \alpha^{2k+1,0}+ \alpha^{2k,1} + \cdots + \overline{\alpha^{1,2k}} + \overline{\alpha^{0,2k+1}}
+  \,.
+$$
+
+It follows with the [[de Rham theorem]] that there is a canonical [[isomorphism]] of real vector spaces
+
+$$
+  H^{2k+1}(\Sigma, \mathbb{R}) \simeq H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma))
  \,,
 $$
 
 where 
 
 $$
-  F^k H^{2k-1}(X) \coloneqq \underset{p \geq k}{\oplus} H^{p,2k-1-p}(X)
+  F^{k+1} H^{2k+1}(\Sigma) \coloneqq \underset{p \geq k}{\oplus} H^{p,2k+1-p}(\Sigma)
 $$
 
-is the $k$th stage in the [[Hodge filtration]] of $H^{2k-1}(X,\mathbb{C})$. But since the latter is naturally in fact a [[vector space]] over the [[complex numbers]], the presentation
+is the $k$th stage in the [[Hodge filtration]] of $H^{2k+1}(\Sigma,\mathbb{C})$. 
+
+Hence an equivalent way to write the intermediate Jacobian (still asa realmanifold) as the quotient of the real manfifold underlying a complex vector space is
 
 $$
-  J^k(X)\simeq H^{2k-1}(X,\mathbb{C})/(F^k H^{2k-1}(X) \oplus H^{2k-1}(X,\mathbb{Z}))
+  J^{k+1}(\Sigma)
+   \simeq 
+   H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma) \oplus H^{2k+1}(\Sigma,\mathbb{Z}))
+  \,.
 $$
 
-exhibits a [[complex torus]], and this is the _$k$th intermediate Jacobian_ proper as originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls 12](#Walls12)).
+There are two canonical way to equip $H^{2k+1}(\Sigma,\mathbb{C})$, and hence the above quotient, with the structure of a [[complex manifold]]. Sometimes these agree, but in general they do not, and hence they go by different names,the 
+
+* [Griffith intermediate Jacobian](#GriffithIntermediateJacobian)
+
+and the
+
+
+* [Weil intermediate Jacobian](#WeilIntermediateJacobian)
+
+
+#### The Griffith complex structure
+ {#GriffithIntermediateJacobian}
+
+The [[isomorphism]]
+
+$$
+  H^{2k+1}(\Sigma , \mathbb{C})
+  \simeq 
+  H^{2k+1}(\Sigma , \mathbb{R})\otimes_{\mathbb{R}} (\mathbb{C})
+$$
+
+induces a [[complex manifold]] structure on $H^{2k+1}(\Sigma , \mathbb{C})$ and hence the structure of a [[complex torus]] on $k$th intermediate Jacobian as defined above. This is the structure originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls 12](#Walls12)).
+
+
+#### Weil complex structure
+ {#WeilIntermediateJacobian}
 
 There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k-1}(X, \mathbb{Z})$, equipped with that it is called the _Weil intermediate Jacobian_.
+
+We describe it in mid dimension, where it is most interesting.
+
+Let 
+
+$$
+  n \coloneqq dim_{\mathbb{C}}(\Sigma) = 2k+1
+  \,.
+$$
+
+Choose a [[Hermitian manifold]] structure on $\Sigma$. Then [[Serre duality]] on mid-dimensional forms 
+
+$$
+  \bar \star \;\colon\; \Omega^{p,n-p}(\Sigma) \longrigtharrow \Omega^{n-p,p}(\Sigma)
+$$
+
+is an [[antilinear function]] which squares to -1. Therefore
+
+$$
+ i \bar \star \;\colon\;  H^{2k+1}(\Sigma,\mathbb{C}) \to  H^{2k+1}(\Sigma,\mathbb{C})
+$$
+
+is...
+
 
 ### Algebraically
 
