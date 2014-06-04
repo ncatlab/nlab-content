@@ -18,6 +18,10 @@
 
 Hodge cohomology is a variant of [[de Rham cohomology]] for [[complex varieties]] induced by a canonical [[Hodge filtration]] on [[differential forms]].
 
+## Related concepts
+
+* [[holomorphic de Rham complex]]
+
 ## References
 
 The definition of absolute Hodge cohomology originates around
