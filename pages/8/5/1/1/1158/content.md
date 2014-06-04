@@ -449,6 +449,9 @@ A detailed reviwe with more emphasis on [[complex analytic geometry]] and the th
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
 
+* {#Voisin02} [[Claire Voisin]], section 12 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+
 See also the references given at _[differential cohomology hexagon -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_.
 
 [[!redirects Deligne complex]]
