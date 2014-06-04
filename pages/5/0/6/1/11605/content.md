@@ -110,24 +110,16 @@ $$
 induces a [[complex manifold]] structure on $H^{2k+1}(\Sigma , \mathbb{C})$ and hence the structure of a [[complex torus]] on $k$th intermediate Jacobian as defined above. This is the structure originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls 12](#Walls12)).
 
 
-#### Weil complex structure
+#### The Weil complex structure
  {#WeilIntermediateJacobian}
 
 There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k-1}(X, \mathbb{Z})$, equipped with that it is called the _Weil intermediate Jacobian_.
 
-We describe it in mid dimension, where it is most interesting.
-
-Let 
-
-$$
-  n \coloneqq dim_{\mathbb{C}}(\Sigma) = 2k+1
-  \,.
-$$
-
-Choose a [[Hermitian manifold]] structure on $\Sigma$. Then [[Serre duality]] on mid-dimensional forms 
+Let as before $n \coloneqq dim_{\mathbb{C}}(\Sigma) $.
+Choose a [[Hermitian manifold]] structure on $\Sigma$. Then [[Serre duality]] on forms of total odd degree
 
 $$
-  \bar \star \;\colon\; \Omega^{p,n-p}(\Sigma) \longrigtharrow \Omega^{n-p,p}(\Sigma)
+  \bar \star \;\colon\; \Omega^{p,2k+1-p}(\Sigma) \longrightarrow \Omega^{n-p-2k-1,p}(\Sigma)
 $$
 
 is an [[antilinear function]] which squares to -1. Therefore
@@ -136,7 +128,43 @@ $$
  i \bar \star \;\colon\;  H^{2k+1}(\Sigma,\mathbb{C}) \to  H^{2k+1}(\Sigma,\mathbb{C})
 $$
 
-is...
+is a [[real structure]] on $H^{2k+1}(\Sigma,\mathbb{C})$. This hence defines a [[complex manifold]] structure on $H^{2k+1}(\Sigma,\mathbb{C})$ and hence on the above [[quotient]] which is the intermediate Jacobian $J^{k+1}(\Sigma)$. As such this is the _Weil intermediate Jacobian_.
+
+#### The polarized mid-dimensional Weil intermediate Jacobian
+ {#MidDimensionalWeilIntermediateJacobian}
+
+The Weil intermediate Jacobian is particularly interesting in mid degree, hence if
+
+$$
+  n =dim_{\mathbb{C}}(\Sigma) = 2k+1
+$$
+
+then for $J^{k+1}(\Sigma)$.
+
+In this case the [[intersection pairing]] 
+
+$$
+  (\alpha, \beta) \mapsto \int_{\Sigma}\alpha \wedge \beta
+$$
+
+defines a [[symplectic form]], for which the [[Hodge star]] operator is a compatible [[complex structure]] and hence the [[Serre duality]]-pairing
+
+$$
+  (\alpha, \beta) \mapsto \int_{\Sigma}\alpha \wedge \star \beta
+$$
+
+is the corresponding [[Kähler manifold|Kähler]]. This makes the Weil intermediate Jacobian a [[polarized variety]].
+
+Notice that the holomorphic coordinates in
+
+$$
+  ker \tfrac{1}{2}( 1 + i \bar \star  ) \in H^{2k+1}(\Sigma, \mathbb{C})
+$$
+
+may be thought of as the mid-degree [[self-dual higher gauge fields]] on $\Sigma$. From this point of view the above is the [[Kähler polarization]] of the [[prequantum line bundle]] on [[higher dimensional Chern-Simons theory]] in dimension $4k+3$.
+
+
+
 
 
 ### Algebraically
