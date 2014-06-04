@@ -42,9 +42,9 @@ $$
 
 With this duality constraint imposed, one speaks of **self-dual higher gauge fields** or **chiral higher gauge fields** or **higher gauge fields with self-dual curvature**. (These are a higher degree/dimensional generalization of what in [[Yang-Mills theory]] are called [[Yang-Mills instanton]] field configurations.)
 
-Since imposing the self-duality constraint on the fields that enter the above [[action functional]] makes that functional vanish identically, self-dual higher gauge theory is notorious for being subtle in that either it does not have a [[Lagrangian]] field theory description, or else a somewhat intricate indirect one (e.g. [Witten 96, p. 7](#Witten96), [Belov-Moore 06I](#BelovMooreI)). But instead one may regard the self-duality condition rather as part of the quantum theory ([Witten 96, p.8](#Witten96), [FMW 00b, page 3](#FMW00)), namely as a choice of [[polarization]] of the [[phase space]] of an unconstrained theory in one dimension higher. By such as "[[holographic principle]]" the [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[higher dimensional Chern-Simons theory]] in dimension $4 k + 3$.
+Since imposing the self-duality constraint on the fields that enter the above [[action functional]] makes that functional vanish identically, self-dual higher gauge theory is notorious for being subtle in that either it does not have a [[Lagrangian]] field theory description, or else a somewhat intricate indirect one (e.g. [Witten 96, p. 7](#Witten96), [Belov-Moore 06I](#BelovMooreI)). But instead one may regard the self-duality condition rather as part of the quantum theory ([Witten 96, p.8](#Witten96), [DMW 00b, page 3](#MW00)), namely as a choice of [[polarization]] of the [[phase space]] of an unconstrained theory in one dimension higher. By such as "[[holographic principle]]" the [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[higher dimensional Chern-Simons theory]] in dimension $4 k + 3$.
 
-The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([FMW 00](#FMW00), [Belov-Moore II](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
+The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([DMW 00](#MW00), [Belov-Moore II](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
 
 ## Definition (outline)
  {#Definition}
@@ -210,7 +210,7 @@ The [[worldvolume]] theory of the [[M5-brane]], the
 
 ### RR-Fields in 10d (on the "9-brane")
 
-The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)) based on ([FMW 00](#FMW00)). A refined discussion of the required quadratic pairing is in ([DFM 09](#DFM09)). 
+The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)) based on ([DMW 00](#MW00)). A refined discussion of the required quadratic pairing is in ([DFM 09](#DFM09)). 
 
 ## Related concepts
 
@@ -319,7 +319,7 @@ for [[type I superstring theory]], and for [[type II superstring theory]] in
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
-* {#FMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+* {#MW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
 
 with more refined discussion in [[twisted differential K-theory|twisted differential]] [[KR-theory]] in
 
