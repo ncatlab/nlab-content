@@ -70,6 +70,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[complex geometry]]
 
+* [[polydisc]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
@@ -77,6 +79,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[Tom Leinster]], _Objects of categories as complex numbers_, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
 
+
+[[!redirects complex planes]]
 
 [[!redirects complex numbers]]
 [[!redirects complex number system]]
