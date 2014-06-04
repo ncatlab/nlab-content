@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[differential form]] with certain [[logarithm|logarithmic]] [[singularities]].
+An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic]] [[singularities]]. Appears in the logarithmic [[holomorphic de Rham complex]].
 
 ## Related concepts
 
