@@ -270,6 +270,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[horizontal differential form]]
 
+* [[harmonic differential form]]
+
 * [[differential form on a supermanifold]]
 
 * [[Kähler differential form]]
