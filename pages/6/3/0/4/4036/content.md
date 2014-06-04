@@ -235,6 +235,9 @@ Notice that the [[descent]] condition for simplicial presheaves on [[CartSp]] at
 
 We can turn this around and speak for any [[site]] $C$ of a covering family $\{U_i \to X\}$ as being _good_ if the corresponding [[Cech nerve]] is degreewise a coproduct of representables. In the projective model structure on simplicial presheaves on $C$ such good covers will enjoy the central properties of good covers of topological spaces.
 
+## Related concepts
+
+* [good covers by Stein manifolds](Stein+manifold#GoodCoversBySteinManifolds)
 
 ## References
 
