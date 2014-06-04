@@ -9,6 +9,11 @@ The _Newlander-Nirenberg theorem_ states that an [[almost complex structure]] co
 
 ## References
 
+Textbook accounts include
+
+* {#Voisin02} [[Claire Voisin]], section 2.3.3 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+
 Reviews include
 
 * Ben McMillan, _The Newlander-Nirenbeg theorem_ ([[McMillanNNTheorem.pdf:file]])
