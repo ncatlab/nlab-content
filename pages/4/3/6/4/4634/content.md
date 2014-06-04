@@ -93,7 +93,7 @@ The localization property here (be additive, invert Morita, preserve split seque
 For $\mathcal{A}, \mathcal{B} \in Cat_\infty^{stab}$ with $\mathcal{B}$ smooth and proper, hence a [[compact object in an (infinity,1)-category|compact object]], then the hom-[[spectrum]] in $Mot_{loc}$ between $\mathcal{A}$ and $\mathcal{B}$ is given by the [[non-connective algebraic K-theory]] $\mathbb{K}$ of the tensor product in that there is a [[natural equivalence]]
 
 $$
-  Hom_{Mot_{loc}}(\mathcal{U}_{loc}(\mathcal{B}), \mathcal{U}_{loc}(\mathcal{K}))
+  Hom_{Mot_{loc}}(\mathcal{U}_{loc}(\mathcal{B}), \mathcal{U}_{loc}(\mathcal{A}))
   \simeq
   \mathbb{K}(\mathcal{B}^{op}\widehat \otimes \mathcal{A})
   \,.
