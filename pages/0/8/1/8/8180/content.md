@@ -11,4 +11,9 @@ A kind of [[spectral sequence]] for the computation of the algebraic [[de Rham c
 
 * [[degeneration of Hodge to de Rham spectral sequence]]
 
+* [[Frölicher spectral sequence]]
+
 [[!redirects Hodge to de Rham spectral sequence]]
+
+
+[[!redirects Hodge-de Rham spectral sequence]]
