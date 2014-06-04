@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -27,6 +27,13 @@ The basic properties of harmonic forms are described by [[Hodge theory]]. See th
 
 ## References
 
+* {#Voisin02} [[Claire Voisin]], section 5 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
 * Springer Online Dictionary, _Harmonic form_ ([web](http://eom.springer.de/h/h046460.htm))
 
+[[!redirects harmonic differential forms]]
+
+[[!redirects harmonic form]]
 [[!redirects harmonic forms]]
+
+
