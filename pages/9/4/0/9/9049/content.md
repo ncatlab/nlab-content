@@ -1,8 +1,32 @@
 
 This is about the book
 
-* [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+* [[Chris Peters]], [[Jozef Steenbrink]], 
+
+  _Mixed Hodge Structures_, 
+
+  Ergebisse der Mathematik (2008) 
+
+  ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
 
 on [[Hodge theory]] in general and [[mixed Hodge structures]] in particular.
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## 7 Applications to algebraic cycles and to Singularities
+
+### 7.1 The Hodge conjectures
+
+### 7.2 Deligne cohomology
+
+* [[Deligne cohomology]]
+
+* [[intermediate Jacobian]]
+
+### 7.2 The filtered de Rham complex and applications
 
 category: reference
