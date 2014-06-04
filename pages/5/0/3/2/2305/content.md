@@ -97,6 +97,8 @@ See at _[[Deligne complex]]_
 
 * [[Dolbeault complex]], [[Dolbeault cohomology]]
 
+* [[holomorphic de Rham complex]]
+
 * [[Hodge-de Rham spectral sequence]]
 
 * [[chiral de Rham complex]]
