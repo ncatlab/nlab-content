@@ -1,3 +1,7 @@
+
+> This needs to be merged with _[[filtered chain complex]]_
+
+
 ### Idea
 
 It's easy to say what chain complex and homology mean (that is, these notions are definable); where things get tricky is, when calculating them, to figure out what the modules and differentials, kernels and images actually _are_.  Sometimes there's extra structure, e.g. a further hierarchy beyond the usual grading, that lets us figure these things out one layer at a time.  Then we have to glue the layers back together, and that's one place a [[spectral sequence]] is handy
