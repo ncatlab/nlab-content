@@ -28,7 +28,7 @@ The Artin-Mazur formal group in dimension $n$ is a [[formal group]] version of t
 ## Definition
  {#Definition}
 
-### Deformations of higher line bundles
+### Deformations of higher line bundles (of $H^n(-,\mathbb{G}_m)$-cohomology)
 
 Let $X$ be a [[smooth scheme|smooth]] [[proper scheme|proper]] $n$ [[dimension|dimensional]] [[variety]] over an [[algebraically closed field]] $k$ of [[positive number|positive]] [[characteristic]] $p$. 
 
@@ -92,10 +92,12 @@ $$
 ([Artin-Mazur 77, II.4](#ArtinMazur77)).
 
 
-### Deformations of higher line bundles with connection
+### Deformations of higher line bundles with connection (of Deligne cohomology)
+ {#DeformationsOfDeligneCohomology}
 
-In ([Artin-Mazur 77, section III](#ArtinMazur77)) is also discussed the formal deformation theory of [[line n-bundles with connection]] (classified by [[ordinary differential cohomology]], being [[hypercohomology]] with [[coefficients]] in the [[Deligne complex]]). Under suitable conditions this yields a [[formal group]], too.
+In ([Artin-Mazur 77, section III](#ArtinMazur77)) is also discussed the formal [[deformation theory]] of [[line n-bundles with connection]] (classified by [[ordinary differential cohomology]], being [[hypercohomology]] with [[coefficients]] in the [[Deligne complex]]). Under suitable conditions this yields a [[formal group]], too.
 
+Notice that by the discussion at _[intermediate Jacobian -- Characterization as Hodge-trivial Deligne cohomology](http://ncatlab.org/nlab/show/intermediate%20Jacobian#CharacterizationAsHodgeTrivialDeligneCohomology)_ the formal deformation theory of Deligne cohomology yields the formal completion of [[intermediate Jacobians]] (all in suitable degree).
 
 ## Examples
 
@@ -154,7 +156,7 @@ Lecture notes touching on the cases $n = 1$ and $n = 2$ include
 
 Discussion of Artin-Mazur formal groups for all $n$ and of [[Calabi-Yau varieties]] of [[positive number|positive]] [[characteristic]] in [[dimension]] $n$ is in 
 
-* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
+* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_, Documenta Math. 8. 97-113 (2003) ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
 
 
 
