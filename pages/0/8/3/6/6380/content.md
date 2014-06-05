@@ -120,7 +120,7 @@ Notice that by the discussion at _[intermediate Jacobian -- Characterization as 
 ###### Example
 
 Let $X$ be a strict [[Calabi-Yau variety]] of  [[dimension]] $n$
-(strict meaning that $h^{0,r} = 0$ for $0 \lt r \lt n$, i.e. over the [[complex numbers]] that the [[holonomy group]] exhausts $SU(n)$, this is for instance the case of relevance for [[supersymmetry]], see at _[[supersymmetry and Calabi-Yau manifolds]]_). 
+(strict meaning that the [[Hodge numbers]] $h^{0,r} = 0$ vanish for $0 \lt r \lt n$, i.e. over the [[complex numbers]] that the [[holonomy group]] exhausts $SU(n)$, this is for instance the case of relevance for [[supersymmetry]], see at _[[supersymmetry and Calabi-Yau manifolds]]_). 
 
 By prop. \ref{SufficientConditionsForRepresentability} this means that
 the Artin-Mazur formal group $\Phi^n_X$ exists. 
