@@ -216,7 +216,11 @@ Geometric Variations_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf)
 [[!redirects Hodge decomposition]]
 [[!redirects Hodge decompositions]]
 
+[[!redirects Hodge filtering]]
+[[!redirects Hodge filterings]]
+
 [[!redirects variation of Hodge structure]]
 [[!redirects variation of Hodge structures]]
 [[!redirects variations of Hodge structure]]
 [[!redirects variations of Hodge structures]]
+
