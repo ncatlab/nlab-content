@@ -1,4 +1,17 @@
-Absolute de Rham cohomology is a de Rham cohomology theory for arithmetic motives which provides a spectral interpretation of L-functions. It is viewed as a phenomenon in hypothetical "absolute" geometry "over a field of one element". It is hoped by some that it may help to approach Riemann hypothesis. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Absolute de Rham cohomology is a [[de Rham cohomology]] theory for [[arithmetic motives]] which provides a spectral interpretation of [[L-functions]]. It is viewed as a phenomenon in hypothetical "absolute" geometry "over a field of one element". It is hoped by some that it may help to approach [[Riemann hypothesis]]. 
+
+## Related concepts
+
+* [[absolute cohomology]]
+
+## References
 
 * Nagoya conference [Witt vectors, foliations, and absolute de Rham cohomology](http://www-math.mit.edu/~kedlaya/conference2010), 2010, [participants](http://www-math.mit.edu/~kedlaya/conference2010/participants.html), [schedule](http://www-math.mit.edu/~kedlaya/conference2010/schedule.html)
 
