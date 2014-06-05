@@ -423,7 +423,7 @@ The category of _stable simplices_ has integer numbers as objects.
 Given two objects $k$ and $l$, the set of morphisms
 from $k$ to $l$ is the set of order-preserving maps $h$
 from the set of natural numbers to itself
-such that $h(k+1)=h(k)+1$ for all but a finite number of $k$.
+such that $h(n)=n+l-k$ for all but a finite number of $n$.
 Morphisms are composed by composing the corresponding maps.
 =--
 
