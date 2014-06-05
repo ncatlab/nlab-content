@@ -23,7 +23,14 @@ A [[differential form]] $\omega \in \Omega^n(X)$ on a [[Riemannian manifold]] $(
 
 ## Properties
 
-The basic properties of harmonic forms are described by [[Hodge theory]]. See there for details.
+### Relation to Dolbeault cohomology
+
+On a compact [[Kähler manifold]] the _[[Hodge isomorphism]]_ (see there)
+identifies harmonic differential forms  with [[Dolbeault cohomology]] classes.
+
+### Relation to Hodge theory
+
+For the moment see at _[[Hodge theory]]_
 
 ## References
 
