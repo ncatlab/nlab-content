@@ -77,6 +77,8 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * **pro-object** / [[pro-object in an (∞,1)-category]]
 
+* [[pro-left adjoint]]
+
 * [[pro-homotopy theory]]
 
 ## References
