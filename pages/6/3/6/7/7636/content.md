@@ -464,6 +464,8 @@ Categorical semantics of [[univalence|univalent]] [[type universes]] is discusse
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed ∞-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
 
 A discussion of the correspondence between type theories and categories of various sorts, from lex categories to toposes is in
 
