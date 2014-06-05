@@ -1,5 +1,5 @@
 
-* [website](http://de.wikipedia.org/wiki/Benutzer:Torsten_Asselmeyer-Maluga)
+* [website](https://www.researchgate.net/profile/Torsten_Asselmeyer-Maluga)
 
 ## related $n$Lab entries
 
