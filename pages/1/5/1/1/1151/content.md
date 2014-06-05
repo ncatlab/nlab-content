@@ -436,6 +436,7 @@ Classes of special cases of cohomologies with their own entries include
 
 * [[cohomology with a local system of coefficients]]
 
+
 * [[cohomology of operads]]
 
 * [[Hochschild cohomology]] / [[cyclic cohomology]]
@@ -857,6 +858,9 @@ For more on the pre-history of the notion of cohomology see
 
 * MO entry, <a href="http://mathoverflow.net/questions/39597/timeline-of-cohomology-1935-to-1938">Timeline of cohomology (1935 to 1938)</a>
 
+A bunch of survey information on types of cohomoloy theories is kept here:
+
+* [[Andreas Holmstrom]], _[[Cohomology Theory Database]]_
 
 
 
