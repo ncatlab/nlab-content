@@ -53,6 +53,8 @@ An exposition is in
 
 * {#Shulman12a} [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](http://www.math.ias.edu/~mshulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
 
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
 
 Similar conisderations (using the term "typos" for something similar to a type-theoretic model category) are presented in
 
