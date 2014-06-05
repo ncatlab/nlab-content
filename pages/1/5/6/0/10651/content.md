@@ -160,7 +160,9 @@ where the hats denote the [[differential cohomology]] refinement.
 See at _[[Becker-Gottlieb transfer]]_.
 
 
+## Related concepts
 
+* [[Beilinson conjecture]]
 
 ## References
 
