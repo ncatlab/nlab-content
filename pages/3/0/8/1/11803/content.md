@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-Notice here that since $\Omega^k$ denotes the holomorphic forms, this is the [[kernel]] of the [[Dolbeault operator]] $\par \partial$ and hence the [[de Rham differential]] $\mathbf{d} = \partial + \bar \partial$ restricts to the holomorphic component $\partial$ as above.
+Notice here that since $\Omega^k$ denotes the holomorphic forms, this is the [[kernel]] of the [[Dolbeault operator]] $\bar \partial$ and hence the [[de Rham differential]] $\mathbf{d} = \partial + \bar \partial$ restricts to the holomorphic component $\partial$ as above.
 
 Often considered is a version of this with singularities ("logarithmic de Rham complex") where one consideres instead meromorphic differential forms which are holomorphic in the bulk with logarithmic singularities towards compactification boundaries of $X$.
 
@@ -97,7 +97,7 @@ If $X$ happens to be a [[Kähler manifold]] then the [[Frölicher spectral seque
 * {#Voisin02} [[Claire Voisin]], section 8.2 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
 
-* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88)) ([doi](http://dx.doi.org/10.1007/BF02105861))
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], section 2.5 of _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
 
