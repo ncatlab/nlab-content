@@ -499,6 +499,13 @@ For a [[Hodge manifold]] the intermediate Jacobian canonically inherits the stru
 A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians -- hence a [[Theta characteristic]] -- in dimension $2k+1$ thought of as [[moduli spaces]] of (flat) [[circle n-bundles with connection|circle (2k+1)-bundles with connection]] yields the [[partition function]] of [[self-dual higher gauge theory]].  ([Witten 96](#Witten96), [Hopkins-Singer 02](#HopkinsSinger02)).
 
 
+### Relation to Artin-Matur formal groups
+ {#RelationToArtinMazurFormalGroups}
+
+By theorem \ref{DeligneTheorem} the [[formal geometry]]
+of intermediate Jacobians around their canonical point is equivalently the [[deformation theory]] of [[Deligne cohomology]]/[[line n-bundles with connection]]. This is given by (when it exists) the [[Artin-Mazur formal group]]
+for [deformations of Deligne cohomology](Artin-Mazur+formal+group#DeformationsOfDeligneCohomology) (see there).
+
 ## Examples
 
 The two extreme cases of intermediate Jacobians $J^k(\Sigma)$ with minimal $k = 0$ and maximal $k = dim_{\mathbb{C}}(\Sigma)= 1$ go by special names, the
