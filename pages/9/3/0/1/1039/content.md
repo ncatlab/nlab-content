@@ -49,7 +49,6 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 
 [[!include homotopy n-types - table]]
 
-
 [[!redirects contractible]]
 
 [[!redirects contractible space]]
@@ -60,3 +59,6 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 
 [[!redirects contractible object]]
 [[!redirects contractible objects]]
+
+[[!redirects contractible homotopy type]]
+[[!redirects contractible homotopy types]]
