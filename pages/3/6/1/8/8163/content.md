@@ -17,6 +17,10 @@
 
 A _filtered chain complex_ is a [[filtered object]] in a [[category of chain complexes]].
 
+## Examples
+
+* [[Hodge filtration]]
+
 ## Related concepts
 
 * [[associated graded]]
