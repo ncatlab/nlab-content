@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # The characteristic of a field (etc)
 * table of contents
 {: toc}
@@ -37,6 +49,8 @@ For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the p
 ## Related concepts
 
 * [[freshman's dream]]
+
+* [[positive characteristic]]
 
 [[!redirects characteristic]]
 [[!redirects characteristics]]
