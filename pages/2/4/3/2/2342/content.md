@@ -71,7 +71,7 @@ This implies that an elliptic curve has [[arithmetic genus]] $1$ (by a direct ar
 +-- {: .num_defn}
 ###### Definition
 
-An elliptic curve over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group|height]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
+An elliptic curve over a [[field]] of [[positive characteristic]] whose [[formal group law]] has [[height of a formal group|height]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
 
 =--
 
