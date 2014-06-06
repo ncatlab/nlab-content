@@ -1,24 +1,32 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 _Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a a [[scheme]].
 
-It is closely related to the [[crystalline cohomology]] of that scheme.
+It is closely related to the [[crystalline cohomology]] of that scheme. It may be regarded as an example of an [[absolute cohomology]] theory.
+
+
 
 ## References
 
 The syntomic site was introduced in
 
-* [[Jean-Marc Fontaine]] and [[William Messing]], _$p$-Adic periods and $p$-adic etale cohomology_ ([pdf](http://www.ams.org/publications/online-books/conm67-conm67-ch4.pdf))
+* Jean-Marc Fontaine and [[William Messing]], _$p$-Adic periods and $p$-adic etale cohomology_ ([pdf](http://www.ams.org/publications/online-books/conm67-conm67-ch4.pdf))
 
 Further developments are in
 
-* [[Amnon Besser]], _Syntomic regulators and $p$-adic integration I: rigid syntomic regulators_ ([pdf](http://www.math.uiuc.edu/K-theory/0298/reg.pdf))
+* Amnon Besser, _Syntomic regulators and $p$-adic integration I: rigid syntomic regulators_ ([pdf](http://www.math.uiuc.edu/K-theory/0298/reg.pdf))
