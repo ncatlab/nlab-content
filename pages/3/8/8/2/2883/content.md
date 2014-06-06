@@ -296,9 +296,9 @@ The following are the main theorems characterizing properties of &#233;tale coho
 
 * [[étale homotopy]]
 
-
 * [[Weil conjecture]]
 
+* [[continuous étale cohomology]]
 
 ## References
 
