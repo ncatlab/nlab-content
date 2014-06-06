@@ -74,6 +74,8 @@ Let $k$ be an [[algebraically closed field]] of [[positive number|positive]] [[c
 
 ## References
 
+### General
+
 Original articles include
 
 * [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
@@ -102,10 +104,15 @@ Discussion from the point of view of [[(∞,1)-topos theory]] is in
 
 * {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
 
-Discussion in [[positive number|positive]] [[characteristic]] is in 
+### Examples and applications
+
+Discussion in [[positive characteristic]] is in 
 
 * {#HSS13} Armin Holschbach, Johannes Schmidt, [[Jakob Stix]], _&#201;tale contractible varieties in positive characteristic_ ([arXiv:1310.2784](http://arxiv.org/abs/1310.2784))
 
+&#201;tale homotopy type of [[moduli stacks of curves]] is discussed in
+
+* Paola Frediani, Frank Neumann, _&#201;tale homotopy types of moduli stacks of algebraic curves with symmetries_, K-Theory 30: 315-340, 2003 ([arXiv:math/0404387](http://arxiv.org/abs/math/0404387))
 
 [[!redirects étale homotopy theory]]
 
