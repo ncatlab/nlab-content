@@ -21,9 +21,9 @@
 
 _Baer's criterion_ is a criterion for detecting [[injective objects]] in a [[category]] of [[modules]]: [[injective modules]].
 
-## Statemen
+## Statement
 
-Let $R$ be a [[commutative ring]] and  $C = R $[[Mod]] the category of $R$-[[modules]].
+Let $R$ be a [[ring]] and  $C = R $[[Mod]] the category of $R$-[[modules]].
 
 +-- {: .num_theorem}
 ###### Proposition 
