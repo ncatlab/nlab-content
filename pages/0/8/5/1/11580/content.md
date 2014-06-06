@@ -17,9 +17,9 @@ Daniel Murfet has written a body of useful notes on fundamentals of [[algebraic 
 
 ## Related entries 
 
-Grothendieck's metaphor was also discussed at 
+Grothendieck's metaphor is also discussed at 
 
-* [[nPOV]] 
+* [[nPOV]], [[applications of (higher) category theory]]
 
 
 ## References
