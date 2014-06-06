@@ -34,6 +34,8 @@ The generators of the BRST complex are called
 
  * etc.
 
+The [[cochain cohomology]] of the BRST complex is called, of course, _BRST cohomology_.
+
 ## Examples
  {#Example}
 
