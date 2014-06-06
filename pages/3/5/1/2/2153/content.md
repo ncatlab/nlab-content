@@ -46,6 +46,9 @@ Other terms which depend on a ground ring/field include:
 
 This list is very incomplete, made mostly by searching for 'ground ring', 'base field', etc.
 
+## Related concepts
+
+* [[psotive characteristic]]
 
 [[!redirects ground field]]
 [[!redirects base ring]]
