@@ -16,7 +16,7 @@
 
 ## Idea
 
-Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] $Spec(\mathbb{Z})$ of the [[commutative ring]] of [[integers]]. More generally often [[algebraic geometry]] over non-[[algebraically closed fields]] or fields not of [[characteristic]] 0 is also referred to as "arithmetic algebraic geometry".
+Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] $Spec(\mathbb{Z})$ of the [[commutative ring]] of [[integers]]. More generally often [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
 
 An archetypical application of arithmetic geometry is the study of [[elliptic curves]] over the [[integers]] and the [[rational numbers]].
 
