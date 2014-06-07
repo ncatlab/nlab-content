@@ -58,6 +58,21 @@ This is a classical result due to ([Artin 70, theorem 7.3](#Artin70)). A textboo
 
 Generalization to [[algebraic stacks]]/[[Deligne-Mumford stacks]]/[[geometric stacks]] is in ([Lurie 04](#Lurie04), [Hall 11](#Hall11), [Geraschenko & Zureick-Brown 12](#GeraschenkoZureickBrown12)).
 
+### As geometric realization in $\mathbb{A}^1$-homotopy theory
+
+The functor that takes a smooth complex scheme to the the [[homotopy type]]
+underlying its analytifcation induces [[geometric realization]]
+
+$$
+  Sh_\infty(Sch^{sm}_{\mathbb{C}})
+  \to 
+  Sh_\infty(Sch^{sm}_{\mathbb{C}})^{\mathbb{A}^1}
+  \to 
+  \infty Grpd
+$$
+
+([Dugger-Isaksen 05, theorem 5.2](#DuggerIsaksen05))
+
 ## Related concepts
 
 * [[GAGA]]
@@ -101,5 +116,10 @@ Generalizations to [[higher geometry]] are in
 See also
 
 * [[Walter Gubler]]. _Forms and currents on the analytification of an algebraic variety (after Chambert-Loir and Ducros)_ ([arXiv:1303.7364](http://arxiv.org/abs/1303.7364))
+
+Discussion in the context of [[hypercovers]] and [[A1-homotopy theory]] is in 
+
+
+* {#DuggerIsaksen05} [[Daniel Dugger]] and [[Daniel Isaksen]], _Hypercovers in topology_, 2005 ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf), [K-Theory archive](http://www.math.uiuc.edu/K-theory/0528/))
 
 [[!redirects analytifications]]
