@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -85,13 +96,13 @@ An exposition of examples of Berkovich spectra is in
 
 ### Lecture notes
 
-Course notes are around definition 4 of 
+Introductory exposition of the Berkovich [[analytic spectrum]] includes
 
-* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+* {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
 
-and section 1 of 
+* [[Frédéric Paugam]], section 2.1.4 of_Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
-* [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+* [[Vladimir Berkovich]], section 1 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
 
 [[!redirects analytic spectra]]
