@@ -3,12 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Analytic geometry
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include analytic geometry -- contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -147,11 +148,13 @@ A more detailed set of lecture notes along these lines is
 
 * [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
-The Berkovich spectrum is discussed around section 2.1.4 in the course notes
+Introductory exposition of the Berkovich [[analytic spectrum]] is 
 
-* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+* {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
 
-A exposition of examples of Berkovits spectra is in 
+* [[Frédéric Paugam]], section 2.1.4 of_Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+
+A exposition of examples of Berkovich spectra is in 
 
 * [[Scott Carnahan]], _Berkovich spaces I_ ([web](http://sbseminar.wordpress.com/2007/09/18/berkovich-spaces-i/))
 
