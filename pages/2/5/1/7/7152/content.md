@@ -106,6 +106,11 @@ Discussion from the point of view of [[(∞,1)-topos theory]] is in
 
 ### Examples and applications
 
+
+
+* {#Isaksen01} [[Daniel Isaksen]], _&#201;tale realization of the $\mathbb{A}^1$-homotopy theory of schemes_, 2001 ([K-theory archive](http://www.math.uiuc.edu/K-theory/0495/))
+
+
 Discussion in [[positive characteristic]] is in 
 
 * {#HSS13} Armin Holschbach, Johannes Schmidt, [[Jakob Stix]], _&#201;tale contractible varieties in positive characteristic_ ([arXiv:1310.2784](http://arxiv.org/abs/1310.2784))
