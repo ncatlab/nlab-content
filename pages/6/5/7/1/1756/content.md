@@ -137,7 +137,7 @@ This is proposition 5.2.4.6 in [[Higher Topos Theory|HTT]].
 The following proposition states conditions under which a Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunctions}
 ###### Proposition
 
 If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then an [[sSet]]-enriched adjunction
