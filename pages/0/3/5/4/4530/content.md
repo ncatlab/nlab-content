@@ -6,12 +6,17 @@
 +--{: .hide}
 [[!include complex geometry - contents]]
 =--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
