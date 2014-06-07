@@ -1,4 +1,9 @@
 
+> This entry is about pretopologies on [[sites]]. For a similarly-named generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
+
+***
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,9 +14,6 @@
 =--
 =--
 
-> This entry is about pretopologies on [[sites]]. For a similarly-named generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
-
-***
 
 # Contents
 * automatic table of contents goes here
@@ -19,16 +21,16 @@
 
 ## Idea
 
-A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a collection of families of [[morphism]]s in a [[category]] which can be considered as [[cover|covers]].  
+A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a collection of families of [[morphisms]] in a [[category]] which can be considered as [[cover|covers]].  
 
-Every Grothendieck pretopology generates a Grothendieck topology. Different pretopologies may give rise to the same topology.
+Every Grothendieck pretopology generates a genuine _[[Grothendieck topology]]_. Different pretopologies may give rise to the same topology.
 
 An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck topology, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.  (Note that it is coverages, not pretopologies, that most directly corresponds to [[bases of topological spaces]].
 
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or **basis (for a [[Grothendieck topology]])** on $C$ is an assignment to each [[object]] $U$ of $C$ of a collection of families $\{U_i \to U\}$ of morphisms, called **[[covering]] families** such that
@@ -44,7 +46,7 @@ Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or 
 If we drop the first and third conditions, we obtain the notion of a [[coverage]] on a category with pullbacks; conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -60,7 +62,8 @@ Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which g
 
 ## Examples 
 
-The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$, consisting of [[open cover]]s of $X$. 
+
+The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$, consisting of [[open covers]] of $X$. 
 
 Notice that a **[[basis for the topology]]** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
 
@@ -73,7 +76,7 @@ Grothendieck pretopologies on [[Top]] include:
 
 An example for the category [[Diff]] of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single morphisms. Such a pretopology is called a *singleton* pretopology (and, in particular, it is a *singleton coverage*).
 
-An example of a coverage that is not a pretopology is the coverage of [[good open cover]]s, say on [[Diff]]. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
+An example of a [[coverage]] that is not a pretopology is the coverage of [[good open covers]], say on [[Diff]]. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
 
 
 ## References
