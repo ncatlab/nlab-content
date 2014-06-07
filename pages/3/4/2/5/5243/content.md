@@ -25,6 +25,7 @@ The _Oka-Grauert principle_ states that for any [[Stein manifold]] $X$ the holom
 The principle should maybe better be called the _Oka-Grauert-Gromov principle/theory_. Gromov viewed it in his book on partial differential relations as one of the examples of [[h-principle]]. 
 
 ## Statement in higher complex analytic geometry
+ {#StatementInComplexAnalyticGeometry}
 
 In ([Larussen 01](#Larussen01), [Larussen 03](#Larussen03)) this is formulated in terms of [[higher complex analytic geometry]] of [[complex analytic infinity-groupoids]].
 
