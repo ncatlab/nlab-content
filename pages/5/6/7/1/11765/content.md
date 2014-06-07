@@ -14,8 +14,13 @@
 +--{: .hide}
 [[!include complex geometry - contents]]
 =--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
