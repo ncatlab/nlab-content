@@ -105,7 +105,7 @@ While this numbering is very nice for augmented simplicial sets, it is not stand
 
 Anything that applies to [[simplicial sets]] should also apply to augmented simplicial sets, if one properly takes care of the [[negative thinking]] necessary to deal with $X_{-1}$.
 
-Every augmented simplicial set has an underlying unaugmented simplicial set found by forgetting $X_{-1}$ (and $d^{-1}_0$).  Conversely, every unaugmented simplicial set gives rise to a [[free object|free]] augmented simplicial set by augmentation over $\pi_0(X_0)$ (the set of [[connected component]]s of $X_0$) and a [[cofree object|cofree]] augmented simplicial set by augmentation over the [[point]] (the [[singleton set]]).  This defines [[adjunctions]]:
+Every augmented simplicial set has an underlying unaugmented simplicial set found by forgetting $X_{-1}$ (and $d^{-1}_0$).  Conversely, every unaugmented simplicial set gives rise to a [[free object|free]] augmented simplicial set by augmentation over $\pi_0(X)$ (the set of [[connected component]]s of $X$) and a [[cofree object|cofree]] augmented simplicial set by augmentation over the [[point]] (the [[singleton set]]).  This defines [[adjunctions]]:
 $$
 \vdash\mathclap{\underoverset{\textsize{\operatorname{AugSimpSet}}}{\textsize{\operatorname{SimpSet}}}{\begin{matrix}\begin{svg}
 <svg width="47" height="66" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="12691">
