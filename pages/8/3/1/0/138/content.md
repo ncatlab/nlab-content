@@ -220,7 +220,7 @@ In the [[local model structure on simplicial presheaves]] $PSh(C)^{\Delta^{op}}$
 
 =--
 
-This is the central theorem in ([Dugger-Hollander-Isaksen](#DuggerHollanderIsaksen)).
+This is the central theorem in ([Dugger-Hollander-Isaksen 02](#DuggerHollanderIsaksen02)).
 
 The following theorem is a corollary of this theorem, using the discussion at [[abelian sheaf cohomology]]. But historically it predates the above theorem.
 
@@ -245,7 +245,7 @@ A proof of this result in terms of the structure of a [[category of fibrant obje
 ### Over Verdier sites
  {#OverVerdierSites}
 
-The following definitions and statements capture the fact that over certain nice [[site]]s it is sufficient to consider certain nice hypercovers. This is due to ([Dugger-Hollander-Isaksen, section 8](#DuggerHollanderIsaksen)).
+The following definitions and statements capture the fact that over certain nice [[site]]s it is sufficient to consider certain nice hypercovers. This is due to ([Dugger-Hollander-Isaksen 02, section 8](#DuggerHollanderIsaksen02)).
 
 +-- {: .num_defn}
 ###### Definition
@@ -283,7 +283,7 @@ Over a Verdier site, every hypercover may be refined by a split and basal hyperc
 
 =--
 
-This is ([Dugger-Hollander-Isaksen, theorem 8.6](#DuggerHollanderIsaksen)).
+This is ([Dugger-Hollander-Isaksen 02, theorem 8.6](#DuggerHollanderIsaksen02)).
 
 ### Verdier hypercovering theorem
 
@@ -317,8 +317,8 @@ A discussion in a topos with enough points in in
 
 A thorough discussion of hypercovers over representables and their role in [[descent]] for simplicial presheaves is in
 
-* [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/))
-{#DuggerHollanderIsaksen}
+* {#DuggerHollanderIsaksen02} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([arXiv:0205027](http://arxiv.org/abs/math/0205027), [K-theory archive](http://www.math.uiuc.edu/K-theory/0563/))
+
 
 On the Verdier hypercovering theorem see
 
