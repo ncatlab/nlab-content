@@ -1,6 +1,8 @@
 
-> In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); it is usually combined with linear algebra taught in a geometric way. Analytic there pertains to the usage of coordinates. 
-Here instead we use _analytic_ for kinds of [[geometry]] based on the study of _[[analytic functions]]_. 
+> This entry is about [[geometry]] based on the study of _[[analytic functions]]_, hence about [[analytic varieties]]. 
+
+> This is unrelated to "analytic geometry" in the sense of methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); which is usually combined with linear algebra taught in a geometric way. For this latter meaning see at _[[coordinate system]]_.
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -8,6 +10,10 @@ Here instead we use _analytic_ for kinds of [[geometry]] based on the study of _
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
 =--
 =--
 =--
@@ -21,12 +27,15 @@ Here instead we use _analytic_ for kinds of [[geometry]] based on the study of _
 
 ## Idea
 
-In research mathematics, when one says analytic geometry, analytic refers to [[analytic function]]s in the sense of [[Taylor expansion]] and by __analytic geometry__ one usually means the study of geometry of complex (holomorphic) [[manifold]]s, their analytic subsets, [[Stein domain]]s and related notions. Similarly to an [[algebraic variety]], an [[analytic variety]] is locally given as a locus of a set of zeros of a finite family of holomorphic functions. A short survey can be found in a chapter of Dieudonne's _Panorama of pure mathematics_. 
+In research mathematics, when one says _analytic geometry_, then "analytic" refers to [[analytic functions]] in the sense of [[Taylor expansion]] and by __analytic geometry__ one usually means the study of geometry of [[complex manifolds]]/[[complex analytic spaces]], as well as their analytic subsets, [[Stein domains]] and related notions. More generally one may replace the complex numbers by [[non-archimedean fields]] in which case one speaks of _[[rigid analytic geometry]]_.
 
-In addition to analytic geometry over complex numbers, there is also another formalism which allows for [[archimedean field|nonarchimedean]] ground fields. This is the subject of [[rigid analytic geometry]] or [[global analytic geometry]]. Similarly to [[scheme]]s, rigid analytic varieties are glued from [[Bercovich spectrum|Bercovich spectra]] of certain commutative Banach algebras, so-called [[affinoid]]s, in a certain [[Grothendieck topology]]. (See _[[analytic space]]_.) There are several variants of the formalism (e.g. due Huber). The subject is closely related to [[formal geometry]] and has its main applications in [[arithmetic geometry]] and [[representation theory]]. 
+Similarly to an [[algebraic variety]], an [[analytic variety]] is locally given as a [[zero locus]] of a [[finite set]] of [[analytic functions]], i.e. of [[holomorphic functions]] in complex analytic geometry. 
 
-It is an open problem to find an appropriate analogue of rigid analytic geometry in [[noncommutative geometry]], which is supposed to play an important role in 
-[[mirror symmetry]].
+A short survey can be found in a chapter of Dieudonne's _Panorama of pure mathematics_. 
+
+In addition to analytic geometry over complex numbers, there is also another formalism which allows for [[archimedean field|nonarchimedean]] [[ground fields]]. This is the subject of [[rigid analytic geometry]] or [[global analytic geometry]]. Similarly to [[schemes]], rigid analytic varieties are glued from [[Bercovich spectrum|Bercovich spectra]] of certain commutative Banach algebras, so-called [[affinoid]]s, in a certain [[Grothendieck topology]]. (See _[[analytic space]]_.) There are several variants of the formalism (e.g. due Huber). The subject is closely related to [[formal geometry]] and has its main applications in [[arithmetic geometry]] and [[representation theory]]. 
+
+It is an open problem to find an appropriate analogue of rigid analytic geometry in [[noncommutative geometry]], which is supposed to play an important role in [[mirror symmetry]].
 
 Local properties of analytic manifolds and spaces are studied in [[local analytic geometry]]. 
 
