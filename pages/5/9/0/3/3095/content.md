@@ -29,7 +29,7 @@ The connection to biclosed monoidal categories is made explicit in:
 
 * Lambek, J. (1988). Categorial and categorical grammars. In Categorial grammars and natural language structures (pp. 297-317). Springer Netherlands.
 
-**Pregroup grammar** ([Wikipedia](http://en.wikipedia.org/wiki/Pregroup_grammar)) is in the same vein, and categorifies to (non-symmetric) [[compact closed categories]].
+**Pregroup grammar** ([Wikipedia](http://en.wikipedia.org/wiki/Pregroup_grammar)) is a refinement of this, and categorifies to (non-symmetric) [[rigid monoidal categories]]. 
 
 * Preller, A. (2005). Category theoretical semantics for pregroup grammars. In Logical aspects of computational linguistics (pp. 238-254). Springer Berlin Heidelberg.
 
