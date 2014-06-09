@@ -57,5 +57,7 @@ _Simplicial homotopy theory_ is the study of [[homotopy theory]] by means of [[s
 
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
+* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
+
 
 
