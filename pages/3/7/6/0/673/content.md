@@ -19,25 +19,16 @@ You may also find me on
 
 ## Papers ##
 
-* _Strict 2-sites, $J$-spans and localisations_, in preparation.
-
-* _A relative smooth fundamental groupoid_, joint with Andrew Stacey, in preparation.
-
-* _A relative topological fundamental groupoid_, in preparation.
-
-* _Mapping groupoids of Lie groupoids and the bundle 
-gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
-
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Submitted for publication 6 March 2014.
+  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted for publication 6 March 2014, rejected 2 April 2014.
 
 * _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication 13 Jan 2014.
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014.
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted 10 June 2014.
 
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
 
-* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication November 2012.
+* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication 6 November 2012, rejected 14 November 2012. Resubmitted for publication 15 November 2012, rejected 16 February 2014.
 
 * _On the existence of bibundles_, [Proc. London Math. Soc.](http://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, [journal version](http://plms.oxfordjournals.org/content/105/6/1290), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
@@ -50,10 +41,21 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 * _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](http://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, [journal version](http://dx.doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](http://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
+## In preparation ##
+
+* _Strict 2-sites, $J$-spans and localisations_.
+
+* _A relative smooth fundamental groupoid_, joint with Andrew Stacey.
+
+* _A relative topological fundamental groupoid_.
+
+* _Mapping groupoids of Lie groupoids and the bundle 
+gerbe caloron transform_, joint with Raymond Vozzo.
+
 
 ## Talks ##
 
-* _TBC_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014.
+* _Explicit string bundles_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014.
 
 * _An explicit string bundle_, [Algebra/Geometry/Topology seminar](http://www.ms.unimelb.edu.au/research/seminars.php?id=1653) University of Melbourne, 22 November 2013.
 
