@@ -37,7 +37,7 @@ An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected
    equal to or below degree $n$ are trivial.
 
    $$
-     \pi_k(X) = * \;\;\; for k \leq n
+     \pi_k(X) = * \;\;\; for \; k \leq n
      \,.
    $$
   
