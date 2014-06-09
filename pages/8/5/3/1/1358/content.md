@@ -35,7 +35,8 @@ Let $E$ be a [[DG category]].
 The **$n$-translation** of an object $X \in E$ is an object $X[n] \in E$ representing the functor
   $$ \Hom(\cdot, X)[n]. $$
 The **cone** of a closed morphism $f : X \to Y$ of degree zero is an object $\Cone(f) \in E$ representing the functor
-  $$ \Cone(\Hom(\cdot, X) \stackrel{f_*}{\to} \Hom(\cdot, Y)). $$
+  $$ \Cone(\Hom(\cdot, X) \stackrel{f_*}{\to} \Hom(\cdot, Y)), $$
+which is a [[mapping cone]] in [[category of chain complexes|chain complexes]].
 =--
 
 +-- {: .un_defn}
