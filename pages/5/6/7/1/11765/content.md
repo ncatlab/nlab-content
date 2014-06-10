@@ -31,7 +31,7 @@
 
 ## Idea
 
-A _complex analytic $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[higher geometry|geometric]] structure in the sense of [[complex analytic geometry]], such that [[complex analytic spaces]] [[full subcategory]] of the [[n-truncated object in an (∞,1)-topos|0-truncated]] complex analytic $\infty$-groupoids. Hence a complex analytic $\infty$-groupoid is an [[(∞,1)-sheaf]]/[[∞-stack]] on the [[site]] of [[complex manifolds]] (or some of its [[dense subsites]]). This is directly analogous to how [[(∞,1)-sheaves]] over the [[site]] of [[smooth manifolds]] may be regarded as _[[smooth ∞-groupoids]]_.
+A _complex analytic $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[higher geometry|geometric]] structure in the sense of [[complex analytic geometry]], such that [[complex analytic spaces]] constitute a [[full subcategory]] of the [[n-truncated object in an (∞,1)-topos|0-truncated]] complex analytic $\infty$-groupoids. Hence a complex analytic $\infty$-groupoid is an [[(∞,1)-sheaf]]/[[∞-stack]] on the [[site]] of [[complex manifolds]] (or some of its [[dense subsites]]). This is directly analogous to how [[(∞,1)-sheaves]] over the [[site]] of [[smooth manifolds]] may be regarded as _[[smooth ∞-groupoids]]_.
 
 
 ## Definition
@@ -71,12 +71,23 @@ for the [[hypercomplete (∞,1)-topos|hypercomplete]] [[(∞,1)-sheaf (∞,1)-to
 
 =--
 
++-- {: .num_remark } 
+###### Remark
+
+By the discussion at _[[model structure on simplicial presheaves]]_ 
+this means that $\mathbb{C}Analytic\infty Grpd$ is equivalently the [[simplicial localization]] of any of the hypercomplete local model structures on simplicial (pre-)sheaves, such as the Joyal [[model structure on simplicial sheaves]].
+
+=--
+
+
+This is considered in ([Hopkins-Quick 12, section 2.1](#HopkinsQuick12)).
+
 ## Properties
 
 ### Cohesion
  {#Cohesion}
 
-+-- {: .num_prop } 
++-- {: .num_prop #Cohesion} 
 ###### Proposition
 
 The [[global section geometric morphism]]
@@ -150,17 +161,28 @@ $$
   \end{aligned}
 $$
 
-Therefore the [[descent]] condition for $\Delta S$ is satisfied.
+Therefore the [[descent]] condition for $\Delta S$ is satisfied. (This is also the statement of ([Hopkins-Quick 12, lemma 2.3, prop. 2.4, lemma 2.5, prop. 2.6](#HopkinsQuick12))).
 
 From here on the argument for the [[cohesion]] of $\mathbb{C}Analytic \infty Grpd$ proceeds as at _[[∞-cohesive site]]_ (which might just as well be adapted to the hyper-discussion here).
 
 =--
 
++-- {: .num_cor #ShapeOfComplexManifold} 
+###### Corollary
+
+For $X\in \mathbb{CMfd} \hookrightarrow \mathbb{C}Analytic\infty Grpd$ a [[complex manifold]], then the [[shape modality|shape]] $\Pi(X)$ is the [[homotopy type]] of its underlying [[topological space]].
+
+=--
+
+In ([Hopkins-Quick 12](#HopkinsQuick12))) this is part of prop. 2.6.
 
 ### Oka principle
  {#OkaPrinciple}
 
 Discussion of the [[Oka principle]] in terms of $\mathbb{C}Analytic\infty Grpd$ is in ([Larusson 01](#Larusson01)).
+
++-- {: .num_defn #OkaManifold}
+###### Definition
 
 Say that a [[complex manifold]] $X$ is an _[[Oka manifold]]_ if for every [[Stein manifold]] $\Sigma$ the canonical inclusion
 
@@ -170,6 +192,8 @@ $$
 
 from the [[mapping space]] of [[holomorphic functions]] to that of [[continuous functions]] (both equipped with the [[compact-open topology]]) is a [[weak homotopy equivalence]].
 
+=--
+
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -178,6 +202,27 @@ This is the case precisely if $Maps_{hol}(-,X) \in Psh_\infty(SteinSp)$ satisfie
 =--
 
 ([Larusson 01, theorem 2.1](#Larusson01))
+
++-- {: .num_remark}
+###### Remark
+
+By corollary \ref{ShapeOfComplexManifold}, in terms of [[cohesion]], prop. \ref{Cohesion}, definition \ref{OkaManifold} should (...check...) read
+
+$$
+  \Pi[\Sigma,X] \simeq \flat [\Pi(\Sigma), \Pi(X)]
+  \,.
+$$
+
+=--
+
+
+### Complex analytic differential generalized cohomology
+ {#DifferentialCohomology}
+
+By prop. \ref{Cohesion} $\mathbb{C}Analytic \infty Grpd$ is [[cohesive (infinity,1)-topos|cohesive]] and hence by the discussion at
+_[[differential cohomology hexagon]]_ the objects  $\hat E \in Stab(\mathbb{C}Analytic \infty Grpd)$ (hence the [[sheaves of spectra]] on $\mathbb{C}Mfd$ ) qualify as [[differential cohomology]] refinements of the  [[cohomology theories]] [[Brown representability theorem|represented]] by the [[shape modality|shapes]] $E\coloneqq \Pi \hat E \in $ [[Spectra]].
+
+Discussion of such complex analytic differential generalized cohomology isn in ([Hopkins-Quick 12, section 4](#HopkinsQuick12)),.
 
 ## Examples
 
@@ -210,8 +255,12 @@ The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
 
-
+* {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
+ 
 [[!redirects complex analytic ∞-groupoids]]
 
 [[!redirects complex analytic infinity-groupoid]]
 [[!redirects complex analytic infinity-groupoids]]
+
+[[!redirects ComplexAnalytic∞Grpd]]
+[[!redirects ComplexAnalyticInfinityGrpd]]
