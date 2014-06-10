@@ -4,6 +4,8 @@
 
 * [[profinite homotopy theory]]
 
+* [[intermediate Jacobian]], [[complex analytic infinity-groupoid]]
+
 category: people
 
 [[!redirects G. Quick]]
