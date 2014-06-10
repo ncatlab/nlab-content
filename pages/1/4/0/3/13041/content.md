@@ -14,3 +14,5 @@ This page is for general thoughts and notes on the mathematics literature as a w
 * [The European Digital Mathematics Library](https://eudml.org)
 * More sites listed at [Motivic Stuff](http://homotopical.wordpress.com/links/journals/)
 * Some sites listed in this [MathOverflow question](http://mathoverflow.net/questions/87053/papers-archives-especially-not-indexed-by-google)
+
+category:reference
