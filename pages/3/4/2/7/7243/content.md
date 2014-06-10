@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include formal geometry -- contents]]
 =--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 =--
 =--
 
