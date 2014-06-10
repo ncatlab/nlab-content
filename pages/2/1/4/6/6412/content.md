@@ -53,20 +53,20 @@ is an [[exact sequence]] of [[abelian groups]], hence also $\mathbf{Z}_p/p^n\mat
 
 An element $u$ in $\mathbf{Z}_p$ is invertible (and called a $p$-adic unit) iff $u$ is not divisible by $p$. 
 
-Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic [[valuation]] and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The [[metric]] induced by the valuation is (up to equivalence) given by
+Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic [[valuation]] and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The [[norm]] induced by the valuation is (up to equivalence) given by ${|x|}_p = p^{-v_p(x)}$, and this in turn induces a metric 
 
 $$
-d(x,y) = e^{-v_p(x-y)},
+d(x,y) = {|x-y|}_p,
 $$
 
-ring $\mathbf{Z}_p$ is a [[complete metric space]] in that $d$ is a [[metric]], and $\mathbf{Z}$ is dense in it.
+making the ring $\mathbf{Z}_p$ a [[complete metric space]] and in fact a completion of $\mathbf{Z}$, in that $d$ is a complete [[metric]], and $\mathbf{Z}$ is dense in it.
 
-### The $p$-adic numers proper
+### The $p$-adic numbers proper
  {#PAdicNumbersProper}
 
 The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] of the [[p-adic integers]] $\mathbf{Z}_p$. The $p$-adic valuation $v_p$ extends to a discrete valuation, also denoted $v_p$ on $\mathbf{Q}_p$. Indeed, it is still true for all $x\in \mathbf{Q}_p$ that they can be uniquely written in the form $p^n u$ where $u\in U$ (the same group $U$ as before), but now one needs to allow $n\in \mathbf{Z}$. One defines the metric on $\mathbf{Q}_p$ by the same formula as for $\mathbf{Z}_p$. It appears that $\mathbf{Q}_p$ is a [[complete field]] (in particular locally compact Hausdorff) and that $\mathbf{Z}_p$ is an *open* subring. 
 
-The distance $d$ satisfies the "utrametric" inequality
+The distance $d$ satisfies the "ultrametric" inequality
 
 $$
 d(x,z) \leq sup\{d(x,y),d(y,z)\}
@@ -85,7 +85,31 @@ $$
 
 Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard real absolute value, or to the $p$-adic absolute value.
 
-=--
+=-- 
+
+### Duality and Euler factors 
+
+As an additive compact Hausdorff [[topological group]], the inverse limit $\mathbf{Z}_p = \lim_{\leftarrow n} \mathbb{Z}/(p^n)$ is [[Pontryagin duality|dual]] to the discrete [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$ that is isomorphic to a direct limit of finite cyclic groups $\lim_{\to n} \mathbb{Z}/(p^n)$. The canonical inclusion $\mathbb{Z}[1/p] \to \mathbf{Q}_p$ induces an isomorphism $\mathbf{Z}(p^\infty) \to \mathbf{Q}_p/\mathbf{Z}_p$, so there is an exact sequence 
+
+$$0 \to \mathbf{Z}_p \stackrel{i}{\hookrightarrow} \mathbf{Q}_p \stackrel{q}{\to} \mathbf{Z}(p^\infty) \to 0.$$ 
+
+This exact sequence is Pontrjagin self-dual in the sense that the map $\mathbf{Q}_p \to \mathbf{Q}_p^\ast$ induced from the pairing 
+
+$$\mathbf{Q}_p \times \mathbf{Q}_p \to \mathbb{R}/\mathbb{Z}$$ 
+$$\,$$ 
+$$(x, y) \mapsto {|x y|_p}$$ 
+
+fits into an isomorphism of exact sequences 
+
+$$\array{
+0 & \to & \mathbf{Z}_p & \stackrel{i}{\to} & \mathbf{Q}_p & \stackrel{q}{\to} & \mathbf{Z}(p^\infty) & \to & 0 \\ 
+ & & \downarrow & & \downarrow & & \downarrow & & \\ 
+0 & \to & (\mathbf{Z}(p^\infty))^\ast & \stackrel{q^\ast}{\to} & \mathbf{Q}_p^\ast & \stackrel{i^\ast}{\to} & \mathbf{Z}_p^\ast & \to & 0
+}$$ 
+
+where the vertical isomorphisms on left and right come from [[Pontrjagin duality]], and the middle arrow can then be shown to be an isomorphism by invoking the [[short five lemma]] for topological groups. 
+
+This self-duality figures into the local $p$-adic analysis initiated in [[Tate's thesis]]. (To be continued) 
 
 
 ## Related concepts
