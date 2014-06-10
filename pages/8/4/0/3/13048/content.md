@@ -1,0 +1,29 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $p\geq 2$ a [[prime number]], the [[field]] of _complex $p$-adic numbers_ $\mathbb{C}_p$ is to the [[complex numbers]] as the [[p-adic numbers]] $\mathbb{Q}_p$ are to the [[rational numbers]].
+
+## Definition
+
+First observe that the ordinary [[complex numbers]] $\mathbb{C}$ may be characterized as follows:
+
+the standard [[absolute value]] (norm) on the [[rational numbers]] $\mathbb{Q}$ uniquely extends to an [[algebraic closure]] $\bar \mathbb{Q}$, and the [[complete field|completion]] is the complex numbers.
+
+In direct analogy with this:
+
+for $p \geq 2$ a [[prime number]] and $\mathbb{Q}_p$ the corresponding [[non-archimedean field]] of [[p-adic numbers]], then the [[complete field|completion]] of any [[algebraic closure]] $\bar \mathbb{Q}_p$ is the field of complex $p$-adic numbers $\mathbb{C}_p$.
+
+## References
+
+* L. C. Washington, _Introduction to Cyclotomic Fields_, Springer-Verlag, New York.
+
+* PlanetMath, _[complex p-adic numbers](http://planetmath.org/complexpadicnumbers)_
+
+[[!redirects p-adic complex numbers]]
+
+[[!redirects complex p-adic number]]
+[[!redirects complex p-adic numbers]]
