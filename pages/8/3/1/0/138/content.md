@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -24,8 +28,6 @@ A _hypercover_ is the generalization of a [[Cech nerve]] of a [[cover]]: it is a
 
 ## Definition
 
-
-
 Let 
 
 $$
@@ -35,7 +37,7 @@ $$
 
 be the [[geometric embedding]] defining a [[sheaf topos]] $Sh(C)$ into a [[presheaf topos]] $PSh(C)$. 
 
-+-- {: .num_defn}
++-- {: .num_defn #CoskeletonDefinition}
 ###### Definition
 
 A morphism
@@ -50,24 +52,50 @@ $$
   Y_{n} \to (\mathbf{cosk}_{n-1} Y)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
 $$
 
-in $PSh(C)$ are [[local epimorphism]]s (in other words, $f$ is a "[[Reedy model structure|Reedy]] local-epimorphism").  
+in $PSh(C)$ are [[local epimorphisms]] (in other words, $f$ is a "[[Reedy model structure|Reedy]] local-epimorphism").  
 
 
-Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
+Here this morphism into the [[fiber product]] is that 
+induced from the [[naturality square]] 
+
+$$
+  \array{
+    Y &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{cosk}_{n-1} Y &\longrightarrow& \mathbf{cosk}_{n-1} Y
+  }
+$$
+
+of the [[unit of a monad|unit]] of the [[coskeleton functor]] $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$.
 
 
 A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ the morphisms $Y_{k} \to (\mathbf{cosk}_{k-1} Y)_k \times_{(\mathbf{cosk}_{k-1} X)_k} X_k$ are [[isomorphism]]s.
 
 The smallest $n$ for which this holds is called the **height** of the hypercover.
 
-A hypercover that also satisfies a cofibrancy condition in the projective [[local model structure on simplicial presheaves]] (being locally a coproduct of representables with degenerate cells splitting off as a direct summand) is called a **[[split hypercover]]
+=--
+
++-- {: .num_defn #SplitHypercover}
+###### Definition
+
+A hypercover that also satisfies the [cofibrancy condition](model+structure+on+simplicial+presheaves#CofibrantObjects) in the projective [[local model structure on simplicial presheaves]] in that 
+
+1. it is simplicial-degree wise a [[coproduct]] of [[representable functor|representables]];
+
+1.  degenerate cells split off as a [[coproduct|direct summand]]) 
+
+is called a **[[split hypercover]]**.
 
 =--
+
+([Dugger-Hollander-Isaksen 02, def. 4.13](#DuggerHollanderIsaksen02)) see also ([Low, 8.2.15](#Low))
 
 +-- {: .num_remark}
 ###### Remark
 
-This is equivalent to saying that $f : Y \to X$ is a _local_ acyclic fibration: for all $U \in C$ and $n \in \mathbb{N}$ every lifting problem
+Definition \ref{CoskeletonDefinition} is equivalent to saying that $f : Y \to X$ is a _local_ acyclic fibration: for all $U \in C$ and $n \in \mathbb{N}$ every lifting problem
 
 $$
   \left(
@@ -110,6 +138,8 @@ $$
 
 =--
 
+([Dugger-Hollander-Isaksen 02](#DuggerHollanderIsaksen02), reviewed as [Low, theorem 8.2.14](#Low))
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -117,7 +147,7 @@ If the [[topos]] $Sh(C)$ has [[point of a topos|enough points]] a morphism $f : 
 
 =--
 
-In this form the notion of hypercover appears for instance in ([Brown](#Brown)).
+In this form the notion of hypercover appears for instance in ([Brown 73](#Brown73)).
 
 In some situations, we may be interested primarily in hypercovers that are built out of data entirely in the site $C$.  We obtain such hypercovers by restricting $X$ to be a discrete simplicial object which is representable, and each $Y_n$ to be a coproduct of representables.  This notion can equivalently be formulated in terms of diagrams $(\Delta/A) \to C$, where $A$ is some simplicial set and $(\Delta/A)$ is its [[category of simplices]].
 
@@ -177,12 +207,113 @@ Consider the case that $X = const X_0$ is simplicially constant. Then the condit
 ## Properties
 
 
+### Existence and refinements
+
+
+#### Cech nerves
+
 +-- {: .num_prop}
 ###### Proposition
 
 For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
 
 =--
+
+#### Over general sites
+ {#OverGeneralSites}
+
+
+
++-- {: .num_prop #ExistenceOfSplitRefinements}
+###### Proposition
+
+Given any [[site]] $(\mathcal{C},J)$ and given a diagram of simplicial presheaves 
+
+$$
+  \array{
+    && Y
+    \\
+    && \downarrow^{\mathrlap{hcov}}
+    \\
+    X' &\longrightarrow& X
+  }
+$$
+
+where the vertical morphism is a hypercover, then there exists a completion to a [[commuting diagram]]
+
+$$
+  \array{
+    Y' &\longrightarrow& Y
+    \\
+    \downarrow^{\mathrlap{hcov}} && \downarrow^{\mathrlap{hcov}}
+    \\
+    X' &\longrightarrow& X
+  }
+$$
+
+where the left vertical morphism is a split hypercover, def. \ref{SplitHypercover}. 
+
+Moreover, if $(\mathcal{D}, K)\to (\mathcal{C},J)$ is a [[dense subsite]] then $Y'$ as above exists such that it is simplicial-degree wise a [[coproduct]] of ([[representable functor|representables]] by) objects of $\mathcal{D}$.
+
+=--
+
+(e.g. [Low, lemma 8.2.20](#Low))
+
++-- {: .num_remark}
+###### Remark
+
+In particular taking $X'\to X$ in prop. \ref{ExistenceOfSplitRefinements} to be an identity, the proposition says that every hypercover may be refined by a split hypercover.
+
+=--
+
+(see also [Low, lemma 8.2.23](#Low))
+
+
+#### Over Verdier sites
+ {#OverVerdierSites}
+
+
++-- {: .num_defn}
+###### Definition
+
+A **[[Verdier site]]** is a [[small category]] with finite [[pullbacks]] equipped with a [[basis for a Grothendieck topology]] such that the generating [[covering]] maps $U_i \to X$ all have the property that their [[diagonal]]
+
+$$
+  U_i \to U_i \times_X U_i
+$$
+
+is also a generating covering. We say that $U_i \to X$ is **basal**.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+It is sufficient that all the $U_i \to X$ are [[monomorphism]]s. 
+
+Examples include the standard [[open cover]]-topology on [[Top]]. 
+
+=--
+
++-- {: .num_defn #BasalHypercover}
+###### Definition
+
+A **basal hypercover** over a [[Verdier site]] is a hypercover $U \to X$ such that for all $n \in \mathbb{N}$ the components of the maps into the matching object $U_n \to M U_n$ are basal maps, as above.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+Over a Verdier site, every hypercover may be refined by a split (def. \ref{SplitHypercover}) and basal hypercover (def. \ref{BasalHypercover}).
+
+=--
+
+This is ([Dugger-Hollander-Isaksen 02, theorem 8.6](#DuggerHollanderIsaksen02)).
+
+
+
+
 
 ### Hypercover homology {#HypercoverHomology}
 
@@ -223,7 +354,7 @@ In the [[local model structure on simplicial presheaves]] $PSh(C)^{\Delta^{op}}$
 
 This is the central theorem in ([Dugger-Hollander-Isaksen 02](#DuggerHollanderIsaksen02)).
 
-The following theorem is a corollary of this theorem, using the discussion at [[abelian sheaf cohomology]]. But historically it predates the above theorem.
+The following theorem is a corollary of this theorem, using the discussion at [[abelian sheaf cohomology]]. But historically it predates the above- theorem.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -239,56 +370,9 @@ by computing for each hypercover $Y \to X$ the [[cochain cohomology]] of the [[M
 
 =--
 
-A proof of this result in terms of the structure of a [[category of fibrant objects]] on the category of simplicial presheaves appears in ([Brown, section 3](#Brown)).
+A proof of this result in terms of the structure of a [[category of fibrant objects]] on the category of simplicial presheaves appears in ([Brown 73, section 3](#Brown73)).
 
 
-
-### Over Verdier sites
- {#OverVerdierSites}
-
-The following definitions and statements capture the fact that over certain nice [[site]]s it is sufficient to consider certain nice hypercovers. This is due to ([Dugger-Hollander-Isaksen 02, section 8](#DuggerHollanderIsaksen02)).
-
-+-- {: .num_defn}
-###### Definition
-
-A **[[Verdier site]]** is a [[small category]] with finite [[pullback]]s equipped with a [[basis for a Grothendieck topology]] such that the generating [[covering]] maps $U_i \to X$ all have the property that their [[diagonal]]
-
-$$
-  U_i \to U_i \times_X U_i
-$$
-
-is also a generating covering. We say that $U_i \to X$ is **basal**.
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-It is sufficient that all the $U_i \to X$ are [[monomorphism]]s. 
-
-Examples include the standard [[open cover]]-topology on [[Top]]. 
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-A **basal hypercover** over a [[Verdier site]] is a hypercover $U \to X$ such that for all $n \in \mathbb{N}$ the components of the maps into the matching object $U_n \to M U_n$ are basal maps, as above.
-
-=--
-
-+-- {: .num_theorem}
-###### Theorem
-
-Over a Verdier site, every hypercover may be refined by a split and basal hypercover.
-
-=--
-
-This is ([Dugger-Hollander-Isaksen 02, theorem 8.6](#DuggerHollanderIsaksen02)).
-
-### Verdier hypercovering theorem
-
-(...)
 
 ## Reference
 
@@ -313,19 +397,22 @@ A discussion of hypercovers of [[topological spaces]] and relation to [[étale h
 
 A discussion in a topos with enough points in in 
 
-* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_
-{#Brown}
+* {#Brown73} [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_, 1973
+
 
 A thorough discussion of hypercovers over representables and their role in [[descent]] for simplicial presheaves is in
 
 * {#DuggerHollanderIsaksen02} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 136. No. 1., 2004. ([arXiv:0205027](http://arxiv.org/abs/math/0205027), [K-theory archive](http://www.math.uiuc.edu/K-theory/0563/))
-
 
 On the Verdier hypercovering theorem see
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_
 
 * [[John Frederick Jardine]], _The Verdier hypercovering theorem_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/Verdier4.pdf))
+
+Split hypercover refinement over general sites is discussed in 
+
+* {#Low} [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 [[!redirects hypercovers]]
 
