@@ -21,6 +21,8 @@ Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]], then a [[differ
 
 ## Related concepts
 
+* [[vertical differential form]]
+
 * [[variational bicomplex]]
 
 [[!redirects horizontal differential forms]]
