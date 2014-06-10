@@ -28,7 +28,7 @@ The _Velo-Zwanziger problem_ is is a phenomenon in theoretical [[physics]]: the 
 
 1. have [[spin]] higher than 1 
 
-1. are [[mass|massive]]
+1. are in an irreducible [[mass|massive]] representation of the Lorentz group
 
 1. have [[minimal coupling]] to [[electromagnetism]]
 
