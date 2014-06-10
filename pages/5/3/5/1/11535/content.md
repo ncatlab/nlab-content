@@ -11,42 +11,8 @@ I am a $14$-year old student aspiring to be a mathematician. I work on algebraic
 * [Math Stackexchange page](http://math.stackexchange.com/users/122283/sanath-devalapurkar/).
 
 ##Ideas##
-##Bundles on Topoi and Sections##
-Let $\mathcal{C}$ be a flasque sheaf of structures on a smooth topos $\mathbf{H}$. We call the pair $(\mathbf{H},\mathcal{C})$ a $\mathcal{C}$-topos. Let $\otimes$ be the product on $\mathrm{Sh}(\mathbf{H})$. Define $\left.\mathcal{C}\right|_{\mathbf{T}}$ denote the sheaf of the same structures over the subtopos $\mathbf{T}\hookrightarrow\mathbf{H}$. Define a $\mathcal{C}$-module $\mathcal{F}$ as an object of $\mathrm{Sh}(\mathbf{H})$, such that for subtopoi $\mathbf{X}\hookrightarrow\mathbf{T}\hookrightarrow\mathbf{H}$, the following diagram commutes:
-\begin{equation}
-\begin{matrix}
-\left.\mathcal{C}\right|_{\mathbf{T}}\otimes\left.\mathcal{F}\right|_{\mathbf{T}} \rightarrow & \left.\mathcal{F}\right|_{\mathbf{T}} \\
-\downarrow & \downarrow \\             \left.\mathcal{C}\right|_{\mathbf{X}}\otimes\left.\mathcal{F}\right|_{\mathbf{X}} \rightarrow & \left.\mathcal{F}\right|_{\mathbf{X}}
-\end{matrix} 
-\end{equation}
-It is not hard to see that if $\mathcal{F}$ is flasque, then the maps $\left.\mathcal{C}\right|_{\mathbf{T}}\otimes\left.\mathcal{F}\right|_{\mathbf{T}}\to\left.\mathcal{C}\right|_{\mathbf{X}}\otimes\left.\mathcal{F}\right|_{\mathbf{X}}$ and $\left.\mathcal{F}\right|_{\mathbf{T}}\to\left.\mathcal{F}\right|_{\mathbf{X}}$ are surjections.
 
-**Theorem (Flasque):** _When the sheaf $\mathcal{F}$ is flasque, the diagram $(1)$ commutes, i.e., any flasque sheaf $\mathcal{F}$ is a $\mathcal{C}$-module for any flasque sheaf $\mathcal{C}$._
+Under Construction.
 
-Denote by $\mathcal{G}$ a sheaf of $\mathcal{C}$-modules. $\mathcal{G}$ is locally free if there exists a set $I$ and a subtopos $\mathbf{T}$ such that $\left.\mathcal{G}\right|_{\mathbf{T}}$ is isomorphic to $\bigoplus_{i\in I}\left.\mathcal{C}\right|_{\mathbf{T}}$.
-
-**Definition:** A smooth bundle on $(\mathbf{H},\mathcal{C})$ with fiber $x^{*}\mathbf{H}$ is a smooth $\mathcal{C}^\prime$-topos $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ such that there are morphisms $f:\mathbf{H}^\prime\to\mathbf{H}$ _and_ $f^\prime:\mathcal{C}^\prime\to\mathcal{C}$, where $x$ is a generalized element of $\mathbf{H}$, and $x^{*}\mathbf{H}$ is the pullback.
-
-**Definition:** A section of a smooth bundle $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ over $(\mathbf{H},\mathcal{C})$ is a right inverse of $f$ such that $\mathbf{H}\to\mathbf{H}^\prime\to\mathbf{H}$ and $\mathcal{C}\to\mathcal{C}^\prime\to\mathcal{C}$ are the identity on $\mathbf{H}$ and $\mathcal{C}$.
-
-The space of sections $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},\mathbf{H}^\prime)$ is a $\mathbf{C}$-valued (pre)sheaf, where $\mathbf{C}$ is an $n$-category: $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},-):\mathbf{Topos}\to\mathbf{C}$, with restrictions the natural restriction of the $2$-morphisms of $\mathbf{Topos}$.
-
-**Theorem:** _Let $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},\mathbf{H}^\prime)$ is a $\mathcal{C}$-module over the $\mathcal{C}$-topos $(\mathbf{H},\mathcal{C})$._
-
-_Proof:_ Let $\Gamma(\mathcal{C})$ denote the space of sections of $\mathcal{C}$, with a similar meaning for $\Gamma(\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},\mathbf{H}^\prime))$. Then, the set of sections of $\left.\left(\mathcal{C}\otimes\mathcal{F}\right)\right|_{\mathbf{T}}$ is $\left.\Gamma(\mathcal{C})\right|_{\mathbf{T}}\times\left.\Gamma(\mathcal{F})\right|_{\mathbf{T}}$, where $\times$ denotes the Cartesian product. $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H,H}^\prime)$ is flasque (trivial proof); hence, diagram $(1)$ is commutative by theorem flasque.
-
-Let $\mathbf{H}^\prime=\mathbf{H}$. Then, $\mathbf{H}^\prime$ is called the trivial bundle. The sheaf of sections $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H,H})$ of the trivial bundle is called the principal sheaf.
-
-Consider the topos $\mathbf{H}$. Define an $n$-cell as the image of the functor $\mathbf{C}\to\mathbf{H}$, where $\mathbf{C}$ is the $n$-category mentioned above. Define an $n$-skeleton as $\mathbf{H}_n=\bigcup_{i=0}^n\mathrm{Im}(\mathbf{C}\to\mathbf{H})$. Then, the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ as the skeleton of $\mathbf{H}$. The value of $n$ in the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ is called the dimension of the topos $\mathbf{H}$.
-
-**Theorem:** _If $H^n(\mathbf{H}_n,\pi_{n-1}(x^{*}\mathbf{H})):=\pi_0\mathbf{Topos}(\mathbf{H}_n,\mathbf{B}^n(\pi_{n-1}(x^{*}\mathbf{H})))$ does not vanish for all $n$, then the sheaf of sections $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},\mathbf{H}^\prime)$ does not exist._
-
-**Definition:** Let $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ be a smooth bundle over $(\mathbf{H},\mathcal{C})$. $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ is a principal bundle if $x^{*}\mathbf{H}$ is a groupoid.
-
-Let $\mathbf{\Pi}:x^{*}\mathbf{H}\to\mathbf{Vect}$. Define $\mathbf{\Pi}(\mathbf{H}^\prime)$ as $(\mathbf{H}^\prime\otimes\mathrm{Im}\mathbf{\Pi})/x^{*}\mathbf{H}$, the quotient category.
-
-In analogy with [2, p.352], define a $\mathcal{D}$-valued $k$-form as a functor $\bigotimes_k\left([\mathbf{H},\mathbf{D}]\right)\to\mathcal{D}$, where $\mathbf{D}$ is an infinitesimal cohesive $(\infty,1)$-topos. Let the space of $k$-forms on $\mathbf{H}$ with values in $\mathbf{\Pi}(\mathbf{H}^\prime)$ be $\mathcal{A}^k$. Write $\mathcal{A}^\bullet=\bigoplus_k\mathcal{A}^k$. Define $\mathbf{LieAlg}([\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H})$ as a Lie algebroid structure on $[\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H}$. Write $\mathbf{Conn}=[[\mathbf{H,D}],\mathbf{LieAlg}([\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H})]$. Let $\mathcal{C}^\infty(\mathbf{H})$ denote the category of smooth functors/morphisms from $\mathbf{H}$ to objects of $\mathbf{Topos}$. Define functors $L_i:\mathbf{Conn}\oslash\mathcal{A}^\bullet\to\mathcal{C}^\infty(\mathbf{H})$, where $\oslash$ is the direct product. Then, let $\mathcal{L}$ denote a linear combination of the functors $L_i$. This is called the _Lagrangian_ on the smooth bundle $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ over $(\mathbf{H},\mathcal{C})$.
-##References##
-1. _Curvature in Mathematics and Physics (Dover Books on Mathematics)_, Shlomo Sternberg.
 
 Category: people
