@@ -1,11 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-For $p\geq 2$ a [[prime number]], the [[field]] of _complex $p$-adic numbers_ $\mathbb{C}_p$ is to the [[complex numbers]] as the [[p-adic numbers]] $\mathbb{Q}_p$ are to the [[rational numbers]].
+For $p$ a [[prime number]], the [[field]] of _complex $p$-adic numbers_ $\mathbb{C}_p$ is to the [[complex numbers]] as the [[p-adic rational numbers]] $\mathbb{Q}_p$ are to the [[rational numbers]].
 
 ## Definition
 
@@ -15,7 +29,7 @@ the standard [[absolute value]] (norm) on the [[rational numbers]] $\mathbb{Q}$ 
 
 In direct analogy with this:
 
-for $p \geq 2$ a [[prime number]] and $\mathbb{Q}_p$ the corresponding [[non-archimedean field]] of [[p-adic numbers]], then the [[complete field|completion]] of any [[algebraic closure]] $\bar \mathbb{Q}_p$ is the field of complex $p$-adic numbers $\mathbb{C}_p$.
+for $p$ a [[prime number]] and $\mathbb{Q}_p$ the corresponding [[non-archimedean field]] of [[p-adic rational numbers]], then the [[complete field|completion]] of any [[algebraic closure]] $\bar \mathbb{Q}_p$ is the field of complex $p$-adic numbers $\mathbb{C}_p$.
 
 ## References
 
