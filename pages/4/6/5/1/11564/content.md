@@ -938,6 +938,7 @@ hence always regard a [[chain complex]] as the corresponding [[spectrum]] and re
 
 
 
+
 +-- {: .num_defn #HopkinsSingerPullback}
 ###### Definition
 
@@ -1196,8 +1197,8 @@ which both are differential refinements, def. \ref{DifferentialCoefficients}, of
 
 The above examples all take place in the $T$[[Smooth∞Grpd]], modelling [[higher differential geometry]]. Another fundamental example of a [[cohesive (∞,1)-topos]] is [[ComplexAnalytic∞Grpd]], modelling [[complex analytic higher geometry]].
 
-For differential cohomology in that context is discussed in ([Hopkins-Quick 12](#HopkinsQuick12)), see at
-_[complex analytic ∞-groupoid -- Properties -- Differential cohomology](complex+analytic+∞-groupoid#DifferentialCohomology))_ for more.
+Differential cohomology in the complex-analytic context is discussed in ([Hopkins-Quick 12](#HopkinsQuick12)), see at
+_[complex analytic ∞-groupoid -- Properties -- Differential cohomology](complex+analytic+∞-groupoid#DifferentialCohomology)_ for more.
 
 
 ## Related concepts
