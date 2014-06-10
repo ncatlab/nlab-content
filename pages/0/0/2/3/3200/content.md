@@ -41,3 +41,5 @@ is called the **fundamental solution** for $P$; alternative names like __Green f
 [[!redirects function of influence]]
 [[!redirects functions of influence]]
 
+[[!redirects Green operator]]
+[[!redirects Green operators]]
