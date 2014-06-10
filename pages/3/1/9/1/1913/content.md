@@ -268,7 +268,7 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[integration of differential forms]]
 
-* [[horizontal differential form]]
+* [[horizontal differential form]], [[vertical differential form]]
 
 * [[harmonic differential form]]
 
