@@ -134,6 +134,7 @@ Discussion in the context of [[hypercovers]] and [[A1-homotopy theory]] is in
 * {#DuggerIsaksen05} [[Daniel Dugger]] and [[Daniel Isaksen]], _Hypercovers in topology_, 2005 ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf), [K-Theory archive](http://www.math.uiuc.edu/K-theory/0528/))
 
 ### Non-archimedean analytification
+ {#ReferencesNonArchimedeanAnalytification}
 
 Discussion in more general [[rigid analytic geometry]] is in
 
