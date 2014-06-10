@@ -85,12 +85,13 @@ S\eta_A &= S \alpha_A \circ  S\sigma_A \\
 &= S\alpha_A \circ \sigma_{S A}\\
 &= \sigma_{T A}\circ \alpha_A
 \end{array}$$
-by naturality of the transformations involved. Now, it suffices to show that $\eta T \circ \alpha = T\eta \circ \alpha$, and since $\alpha$ is an epimorphism we can conclude. This follows, again, from a naturality diagram plus the previous argument:
+by naturality of the transformations involved. Now, it suffices to show that $\eta T \circ \alpha = T\eta \circ \alpha$: this follows, again, from
 $$\begin{array}{ccc} 
 (\eta T \circ \alpha)_A &=& \alpha_{T A}\circ \sigma_{T A}\circ \alpha_A \\
 &=& \alpha_{T A} \circ S \eta_A\\
 &=& T \eta_A \circ \alpha_A \\
 &=& (T\eta \circ\alpha)_A\end{array}$$
+Now since $\alpha$ is an epimorphism, we can conclude.
 =--
 +-- {: .num_lemma #WellPointedCointersection}
 ###### Lemma
