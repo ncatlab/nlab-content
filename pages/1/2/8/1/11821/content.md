@@ -10,4 +10,5 @@ This page contains pointers to the text
 
 collecting fundamental material in [[simplicial homotopy theory]], [[(∞,1)-category theory]] and [[(∞,1)-topos theory]].
 
+
 category: reference
