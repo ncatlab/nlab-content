@@ -76,7 +76,10 @@ for the [[hypercomplete (∞,1)-topos|hypercomplete]] [[(∞,1)-sheaf (∞,1)-to
 ### Cohesion
  {#Cohesion}
 
-We want to claim that  the [[global section geometric morphism]]
++-- {: .num_prop } 
+###### Proposition
+
+The [[global section geometric morphism]]
 
 $$
   \Gamma
@@ -88,7 +91,14 @@ $$
 
 exhibits a [[cohesive (∞,1)-topos]]. 
 
-Since the [[hypercompletion]] depends only on the underlying [[sheaf topos]] of a site we may represent
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the existence of the extra left adjoint $\Pi$ (the [[shape modality]]). This proceeds essentially as in the discussion of the [[cohesion]] of [[Smooth∞Grpd]] (see there) only that where there one may choose [[good open covers]] here we have to choose genuine [[split hypercovers]] by [[polydiscs]]. The rest of the proof is verbatim as for [[Smooth∞Grpd]].
+
+To start with, since the [[hypercompletion]] depends only on the underlying [[sheaf topos]] of a site we may represent
 
 $$
   \mathbb{C}Analytic\infty Grpd
@@ -97,7 +107,6 @@ $$
 $$
 
 by the [[simplicial localization]] of the [[local model structure on simplicial presheaves]] over $\mathbb{C}Disc$, [[Bousfield localization of model categories|localized]] (by the [theorem of descent recognition along hypercovers](hypercover#DescentFromDescentAlongHypercovers)) at the [[hypercovers]] $U_\bullet\to X$ as seen over $CplxMfd$ restricted to $X$ a [[polydisc]] (this roundabout way since $\mathbb{C}Disc$ does not carry a [[Grothendieck topology]] but just a [[coverage]]).
-
 
 Now before [[Bousfield localization of model categories|Bousfield localization]] we have a simplicially enriched [[Quillen adjunction]]
 
@@ -119,7 +128,7 @@ $$
 
 in the global [[model structure on simplicial presheaves]] is a [[weak equivalence]]. This $RHom$ in turn may be computed as the $sSet$-enriched [[hom object]] out of a cofibrant resolution $\hat X \to X$ and $\hat U_\bullet \to U_\bullet$, respectively. By the [recognition of cofibrant objects in the projective model structure](model%20structure%20on%20simplicial%20presheaves#CofibrantObjects) the [[representable functor|representable]] $X$ is already cofibrant and a sufficient condition for a resolution $\hat U_\bullet \to U_\bullet$ to be cofibrant is that it is a [[split hypercover]].
 
-Since $\mathbb{C}Disc \hookrightarrow CplxMfd$ is a [[dense subsite]], we may always choose such a split hypercover such that $\hat U_\bullet$ consists simplicial-degreewise of [[coproducts]] of [[polydiscs]] -- by an argument as spelled out for instance as ([[Notes on homotopical algebra|Low, lemma 8.2.20]]).
+Since $\mathbb{C}Disc \hookrightarrow CplxMfd$ is a [[dense subsite]], we may always choose such a split hypercover such that $\hat U_\bullet$ consists simplicial-degreewise of [[coproducts]] of [[polydiscs]]: by the proposition at _[hypercover -- Existence of split refinements](hypercover#ExistenceOfSplitRefinements)_
 
 Since the [[colimit]] of a [[representable functor]] is the point, this means that with such a choice $\underset{\to}{\lim} \hat U_\bullet$ is the [[simplicial set]] obtained by replacing in the hypercover by polydiscs each polydisc by a point. Forgetting the [[complex structure]] on all manifolds involved, one sees that this is precisely the "[[etale homotopy type]]" of $X$ as seen by the site [[CartSp]] of [[Cartesian spaces]], by the discussion at _[[Smooth∞Grpd]]_, and this comes out as the ordinary [[homotopy type]] of the underlying [[topological space]] of $X$. But this is of course [[contractible homotopy type|contractible]]. 
 
@@ -145,6 +154,7 @@ Therefore the [[descent]] condition for $\Delta S$ is satisfied.
 
 From here on the argument for the [[cohesion]] of $\mathbb{C}Analytic \infty Grpd$ proceeds as at _[[∞-cohesive site]]_ (which might just as well be adapted to the hyper-discussion here).
 
+=--
 
 
 ### Oka principle
