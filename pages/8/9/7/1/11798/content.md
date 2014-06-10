@@ -48,6 +48,8 @@ on [[Hodge theory]] and [[GAGA]].
 
 #### 6. The case of K&#228;hler manifolds
 
+* [[hard Lefschetz theorem]]
+
 * [[Lefschetz decomposition]]
 
 #### 7. Hodge structures and polarization
