@@ -68,7 +68,7 @@ $$
   }
 $$
 
-of the [[unit of a monad|unit]] of the [[coskeleton functor]] $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$.
+of the [[unit of a monad|unit]] of the [[coskeleton]] [[functor]] $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$.
 
 
 A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ the morphisms $Y_{k} \to (\mathbf{cosk}_{k-1} Y)_k \times_{(\mathbf{cosk}_{k-1} X)_k} X_k$ are [[isomorphism]]s.
@@ -90,7 +90,7 @@ is called a **[[split hypercover]]**.
 
 =--
 
-([Dugger-Hollander-Isaksen 02, def. 4.13](#DuggerHollanderIsaksen02)) see also ([Low, 8.2.15](#Low))
+([Dugger-Hollander-Isaksen 02, def. 4.13](#DuggerHollanderIsaksen02)) see also ([Low 14-05-26, 8.2.15](#Low))
 
 +-- {: .num_remark}
 ###### Remark
@@ -138,7 +138,7 @@ $$
 
 =--
 
-([Dugger-Hollander-Isaksen 02](#DuggerHollanderIsaksen02), reviewed as [Low, theorem 8.2.14](#Low))
+([Dugger-Hollander-Isaksen 02, prop. 7.2](#DuggerHollanderIsaksen02)
 
 +-- {: .num_remark}
 ###### Remark
@@ -257,7 +257,7 @@ Moreover, if $(\mathcal{D}, K)\to (\mathcal{C},J)$ is a [[dense subsite]] then $
 
 =--
 
-(e.g. [Low, lemma 8.2.20](#Low))
+(e.g. [Low 14-05-26, lemma 8.2.20](#Low))
 
 +-- {: .num_remark}
 ###### Remark
@@ -266,7 +266,7 @@ In particular taking $X'\to X$ in prop. \ref{ExistenceOfSplitRefinements} to be 
 
 =--
 
-(see also [Low, lemma 8.2.23](#Low))
+(see also [Low 14-05-26, lemma 8.2.23](#Low))
 
 
 #### Over Verdier sites
