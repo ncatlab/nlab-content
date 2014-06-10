@@ -132,6 +132,8 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * [[symplectic manifold]]
 
+* [[Lefschetz decomposition]]
+
 * [[Kähler polarization]]
 
 * [[Hodge manifold]]
