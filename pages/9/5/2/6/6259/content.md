@@ -224,9 +224,11 @@ $$
 (where the action is via the [[Chern character]]/realification $K \to K \otimes \mathbb{R}$).
 
 
-This is proposed and discussed in ([Witten 99, section 4.3](#Witten99), [Moore-Witten 99, section 3](#MooreWitten99), [DMW 00, section 7.1](#MW00), [Belov-Moore 06b, section 5](#BelovMooreII)): 
+This is proposed and discussed in ([Witten 99, section 4.3](#Witten99), [Moore-Witten 99, section 3](#MooreWitten99), [DMW 00, section 7.1](#MW00), [Belov-Moore 06b, section 5](#BelovMooreII), [MPS 11](#MSP11)): 
 
 where for ordinary cohomology the ([[quadratic refinement]] of the) [[intersection product]] (= [[Deligne-Beilinson cup product]] followed by [[fiber integration in ordinary differential cohomology]]) provided the [[symplectic structure]]/[[polarized variety|polarization]] of the intermediate Jacobian, here it is tensoring of [[Dirac operators]] followed by [[fiber integration in differential K-theory]], hence the [[index of a Dirac operator|index]] map in K-theory.
+
+See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#ForComplexKTheory)_.
 
 
 ## Related concepts
@@ -337,6 +339,9 @@ for [[type I superstring theory]], and for [[type II superstring theory]] in
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
 * {#MW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+
+* {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_ ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
+
 
 with more refined discussion in [[twisted differential K-theory|twisted differential]] [[KR-theory]] in
 
