@@ -75,7 +75,7 @@ It is well known that [[extensional type theory|extensional]] [[dependent type t
 
 The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theory have models in certain [[(∞,1)-categories]].  This connection is usually shown by means of a presentation of the $(\infty,1)$-category using a [[weak factorization system]], a [[category of fibrant objects]], a [[model category]], or other similar structure.
 
-It is conjectured (see for instance [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal)) that
+It is conjectured (see for instance [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal11)) that
 
 * intensional dependent type theory with dependent sums and products and [[function extensionality]] (a form of homotopy type theory) is an internal language for [[locally cartesian closed (∞,1)-categories]]; and
 
@@ -425,7 +425,7 @@ Discussion of univalence in various other [[model category]] presentations for [
 
 The conjecture that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]] is explicitly stated in
 
-* [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+* {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
 See also the references at _[[relation between type theory and category theory]]_.
 
