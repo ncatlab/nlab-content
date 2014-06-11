@@ -120,7 +120,7 @@ If the complex analytic space $X$ happens to carry the structure of a  [[Kähler
 The map from integral cohomology to complex cohomology factors through that of real cohomology via
 
 $$
-  \mathbb{Z} \hookrightarrow \mathbb{R}\hookrightarrow \mathbb{Z}
+  \mathbb{Z} \hookrightarrow \mathbb{R}\hookrightarrow \mathbb{C}
 $$
 
 and by [[Hodge symmetry]] the real cohomology classes are precisely thos represented by elements of the form $\alpha + \overline{\alpha}$, where
