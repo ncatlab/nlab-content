@@ -167,6 +167,8 @@ More details are in &#167;4 of
 
 ## Related concepts
 
+* [[Beilinson conjectures]]
+
 * [[algebraic K-theory]]
 * [[algebraic cobordism]]
 * [[étale cohomology]]
