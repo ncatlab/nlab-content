@@ -52,7 +52,7 @@ $$
     \\
     H^{2p}(X,\mathbb{Z}) && && H^{p,p}(X)
     \\
-    & {}_{\mathllap{H^{2p}(X,\mathbb{Z} \hookrightarrow \mathbb{R})}}\searrow && \swarrow_{\mathrlap{\iota}_{p,p}}
+    & {}_{\mathllap{H^{2p}(X,\mathbb{Z} \hookrightarrow \mathbb{C})}}\searrow && \swarrow_{\mathrlap{\iota}_{p,p}}
     \\ 
     && H^{2p}(X,\mathbb{C})
   }
@@ -63,7 +63,7 @@ where
 
 * $\iota_{p,p}$ is the inclusion of the [[direct sum|direct summand]] given by the [[Hodge decomposition]];
 
-* $H^{2p}(X,\mathbb{Z} \hookrightarrow \mathbb{R})$ is the morphism on cohomology groups induced by the canonical inclusion of [[coefficients]] ([[integers]] into [[complex numbers]]) as indicated.
+* $H^{2p}(X,\mathbb{Z} \hookrightarrow \mathbb{C})$ is the morphism on cohomology groups induced by the canonical inclusion of [[coefficients]] ([[integers]] into [[complex numbers]]) as indicated.
 
 =--
 
