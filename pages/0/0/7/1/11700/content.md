@@ -104,7 +104,7 @@ Textbook accounts include
 
 * {#Danilov91} [[Vladimir Danilov]], chapter 3 of _Cohomology of algebraic varieties_, in I. Shafarevich (ed.), _Algebraic Geometry II_, volume 35 of _Encyclopedia of mathematical sciences_, Springer 1991 ([GoogleBooks](http://books.google.de/books?id=ZhzXJHUgcRUC&lpg=PA67&ots=aVQoeMkBwc&dq=analytification&pg=PA61&redir_esc=y#v=onepage&q=analytification&f=false)))
 
-Discusison for [[real analytic spaces]] includes
+Discussion for [[real analytic spaces]] includes
 
 * {#Huisman02} [[Johannes Huisman]], section 2 of _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([pdf](http://pageperso.univ-brest.fr/~huisman/rech/publications/exphi.pdf))
 
