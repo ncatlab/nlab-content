@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -30,7 +29,7 @@ If instead of considering a single [[cohomology group]] one considers the cohomo
 
 By a central theorem of Hodge theory (recalled as theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} below) the traditional (and original) [[filtered complex|filtration]] on the complex cohomology of a [[Kähler manifold]] induced by the [[harmonic differential forms]] generalizes to a [[filtered complex|filtration]] of the complex-valued [[ordinary cohomology]] of any [[complex analytic space]] which is simply given by the canonical degree-filtration of the [[holomorphic de Rham complex]].
 
-This means that [[ordinary differential cohomology]] in the guise of [[Deligne cohomology]] is nothing but the [[homotopy pullback]] of a stage of the Hodge filtration along the "[[Chern character]]" map from integral to complex cohomology. (A point of view highlighted for instance in [Peters-Steenbrink 08, section 7.2](#PetersSteenbrink08)). Viewed this way Hodge structures are filtrations of stages of differential form cycle refinements of [[Chern characters]] that appear in the general definition/characterization of [[differential cohomology]], as discussed at  _[[differential cohomology hexagon]]_ starting around the section _[de Rham coefficients](differential+cohomology+diagram#DeRhamCoefficients)_
+This means that [[ordinary differential cohomology]] in the guise of [[Deligne cohomology]] is nothing but the [[homotopy pullback]] of a stage of the Hodge filtration along the " [[Chern character]] " map from integral to complex cohomology. (A point of view highlighted for instance in [Peters-Steenbrink 08, section 7.2](#PetersSteenbrink08)). Viewed this way Hodge structures are filtrations of stages of differential form cycle refinements of [[Chern characters]] that appear in the general definition/characterization of [[differential cohomology]], as discussed at  _[[differential cohomology hexagon]]_ starting around the section _[de Rham coefficients](differential+cohomology+diagram#DeRhamCoefficients)_
 
 This modern point of view is also crucial for instance in the characterization of an [[intermediate Jacobian]] (see there) as the subgroup of [[Deligne cohomology]] that is in the [[kernel]] of the map to Hodge-filtering stage of ordinary cohomology. See at _[intermediate Jacobian -- characterization as Hodge-trivial Deligne cohomology](intermediate+Jacobian#CharacterizationAsHodgeTrivialDeligneCohomology)_.
 
@@ -203,6 +202,8 @@ When the [[complex manifold]] $X$ happens to be a [[Kähler manifold]] then the 
 * [[Hodge theory]], 
 
   [[nonabelian Hodge theory]], [[noncommutative Hodge theory]]
+
+* [[Hodge symmetry]]
 
 * [[Hodge cohomology]]
 
