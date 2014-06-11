@@ -46,6 +46,8 @@ Holomorphic line 2-bundles appear in the higher degree analogs of [[twistor tran
 
 * [[higher complex analytic geometry]]
 
+* [[holomorphic line n-bundle]]
+
 ## References
 
 Early discussion in terms of [[bundle gerbes]] includes
