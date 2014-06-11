@@ -133,7 +133,7 @@ Warning: Elsewhere we often write $\flat_{dR} \Sigma$ for $\flat_{dR}$ above and
 +-- {: .num_remark}
 ###### Remark
 
-As discussed at _[structures in a cohesive ∞-topos -- de Rham cohomology](cohesive+(infinity,1)-topos+--+structures#deRhamCohomology)_ there (and as is discussed below at [de Rham coefficients](#DeRhamCoefficients)) for $A \in \mathbf{T}_\ast H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR} A$ and of  $\flat_{dR}  A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncated to negative degree and to non-negative degree, respectively; the canonical map
+As discussed at _[structures in a cohesive ∞-topos -- de Rham cohomology](cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology)_ there (and as is discussed below at [de Rham coefficients](#DeRhamCoefficients)) for $A \in \mathbf{T}_\ast H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR} A$ and of  $\flat_{dR}  A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncated to negative degree and to non-negative degree, respectively; the canonical map
 
 $$
   \array{
