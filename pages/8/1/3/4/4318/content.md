@@ -8,9 +8,9 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Differential geometry
+#### Complex geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
+[[!include complex geometry - contents]]
 =--
 =--
 =--
@@ -66,14 +66,14 @@ is an isomorphism
 [[Serre duality]]: On a [[Hermitian manifold]] $X$ of complex dimension $dim_{\mathbb{C}}(X) = n$ the [[Hodge star operator]] induces [[isomorphisms]]
 
 $$
-  \mathcal{H}^{p,q}(X)\simeq \mathcal{H}^{n-p, n-q}
+  \mathcal{H}^{p,q}(X)\simeq \mathcal{H}^{n-p, n-q}(X)
   \,.
 $$
 
 (e.g. [Maddock,  prop. 4.2.8](#Maddock))
 
 
-### Properties of Hodge numbers
+### Hodge decomposition
 
 If $X$ is a [[compact topological space|compact]] [[Kähler manifold]] then 
 
@@ -82,6 +82,20 @@ $$
 $$
 
 (e.g. [Maddock,  prop. 4.2.9](#Maddock))
+
+This is called the _[[Hodge decomposition]]_.
+
+### Hodge symmetry
+
+Over [[complex manifolds]] $X$, _[[Hodge symmetry]]_ is the property that the [[Dolbeault cohomology]] groups $H^{p,q}(X)$ are taken into each other under [[complex conjugation]] followed by switching the bidegree:
+
+$$
+  H^{p,q}(X) \simeq \overline{H^{q,p}(X)}
+  \,.
+$$
+
+In particular this means that the [[dimension]] of the cohomology groups in degree $(p,q)$ coincides with that in bidegree $(q,p)$.
+
 
 
 ### Dolbeault resolution
