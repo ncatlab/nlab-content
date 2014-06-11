@@ -222,7 +222,7 @@ A theorem due to [[Pierre Deligne]] says that this $J^k(\Sigma)$ is characterise
 +-- {: .num_defn #HodgeCohomologyClasses}
 ###### Definition
 
-The group $Hdg^{k+1}(\Sigma)$ of _Hodge cohomology classes_ is the subgroup of $\mathbb{Z}(k+1)$-cohomology classes whose image in complex cohomology is in the $(k+1)$st stage of the [[Hodge filtration]], hence the group sitting in a [[pullback]] diagram
+The group $Hdg^{k+1}(\Sigma)$ of _[[Hodge cocycle|Hodge cohomology classes]]_ is the subgroup of $\mathbb{Z}(k+1)$-cohomology classes whose image in complex cohomology is in the $(k+1)$st stage of the [[Hodge filtration]], hence the group sitting in a [[pullback]] diagram
 
 $$
   \array{
