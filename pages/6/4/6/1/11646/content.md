@@ -31,6 +31,8 @@ For $\mathbb{G}_m$ the [[multiplicative group]], a $\mathbf{B}^{n-1}\mathbb{G}_m
 
 * [[circle n-bundle with connection]]
 
+* [[holomorphic line n-bundle]]
+
 [[!include moduli of higher lines -- table]]
 
 
