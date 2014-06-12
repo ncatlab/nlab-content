@@ -1,10 +1,11 @@
-# Heap
+
+# Heaps
 * table of contents
 {: toc}
 
 ## Idea
 
-A heap is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], principal homogeneous space and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
+A _heap_ is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], [[principal homogeneous space]] and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
 
 Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term "heap;" below we consider "torsor" in this light.  In Russian one term for a heap is "gruda" meaning a 'heap of soil'; this is a pun as it is parallel to the russian word "gruppa" meaning a 'group': forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'.
 
@@ -22,15 +23,16 @@ More generally, a ternary operation in some [[variety of algebras]] satisfying t
 
 A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines a category $Heap$ of heaps.
 
+
 ## Automorphism group
 
 As suggested above, if $G$ is a group and we define $t(a,b,c) = a b^{-1} c$, then $G$ becomes a heap.  This construction defines a functor $Prin:Grp\to Heap$.  In fact, up to isomorphism, all heaps arise in this way; to every heap is associated a group $Aut(H)$ called its _automorphism group_, unique up to isomorphism.  There are a number of ways to define $Aut(H)$ from $H$.
 
 1. If we choose an arbitrary element $e\in H$, then we can define a multiplication on $H$ by $a b = t(a,e,b)$.  It is straightforward to verify that this defines a group structure on $H$, whose underlying heap structure is the original one.
 
-1. We can define $Aut(H)$ to be the set of pairs $(a,b)\in H\times H$, modulo the [[equivalence relation]] $(a,b)\sim (a',b')$ iff $t(a,a',b')=b$.  (We think of $(a,b)$ as representing $a^{-1} b$.)  We then define multiplication by $(c,d)(a,b) = (c,t(d,a,b))$; the inverse of (the [[equivalence class]] of) $(a,b)$ is (the equivalence class of) $(b,a)$ and the identity element is (the equivalence class of) $(a,a)$ (for any $a$).
+2. We can define $Aut(H)$ to be the set of pairs $(a,b)\in H\times H$, modulo the [[equivalence relation]] $(a,b)\sim (a',b')$ iff $t(a,a',b')=b$.  (We think of $(a,b)$ as representing $a^{-1} b$.)  We then define multiplication by $(c,d)(a,b) = (c,t(d,a,b))$; the inverse of (the [[equivalence class]] of) $(a,b)$ is (the equivalence class of) $(b,a)$ and the identity element is (the equivalence class of) $(a,a)$ (for any $a$).
 
-1. We can also define $Aut(H)$ as an actual subgroup of the symmetric group of $H$, analogously to [Cayley's theorem](http://en.wikipedia.org/wiki/Cayley's_theorem) for groups.  We take the elements of $Aut(H)$ to be set bijections
+3. We can also define $Aut(H)$ as an actual subgroup of the [[symmetric group]] of $H$, analogously to [[Cayley's theorem]] (see [Wikipedia](http://en.wikipedia.org/wiki/Cayley's_theorem)) for groups.  We take the elements of $Aut(H)$ to be set bijections
 of the form $t(-,a,b): H \rightarrow H$
 where $a,b \in H$, with composition as the group operation.  Note that
 \[ t(-,c,d) \cdot_{Aut(H)} t(-, a,b) =
@@ -70,13 +72,28 @@ The composition laws are also easily seen to agree, so the second two constructi
 The second two constructions are clearly functorial, so we have a functor $Aut:Heap\to Grp$.  Note that we have $Aut(Prin(G))\cong G$ for any group $G$, and $Prin(Aut(H))\cong H$ for any heap $H$, but while the first isomorphism is natural, the second is not.  In particular, the categories $Heap$ and $Grp$ are not [[equivalence of categories|equivalent]].
 
 
-## Heaps and Torsors
+## Heaps and torsors
 
 Note that $Aut(H)$ comes equipped with a canonical action on $H$ (this is most clear from the third definition).  This action is transitive
 (by $t(a,a,b) = b$) and  free (if $t(a,b,c) = a$ then
 by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,c) = b$ and also $t(b,b,c) = c$).  Therefore, $H$ is an $Aut(H)$-[[torsor]] (over a point).  Conversely, a torsor $H$ over any group $G$ can be made into a heap, by defining $t(a,b,c) = g\cdot c$, where $g\in G$ is the unique group element such that $g\cdot b = a$.
 
 In fact, the category $Heap$ is equivalent to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
+
+
+## The empty heap
+
+If we wish $Heap$ to be an [[algebraic category]], then we must remove the clause the underlying set of a heap must be nonempty.  Then the [[empty set]] becomes a heap in a unique way.  However, in this case, the various theorems relating heaps to groups above all break down.  For this reason, one usually requires a heap to be inhabited.
+
+On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as a (traditionally nonempty) set equipped with a binary operation (to be thought of as $a, b \mapsto a/b \coloneqq a b^{-1}$) satisfying these laws:
+
+* $a/a = b/b$,
+* $(a/a)/((a/a)/a) = a$,
+* $a/(b/c) = (a/((c/c)/c))/b$.
+
+Then any possibly-empty-group is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possible-empty-groups equipped with torsors over the point; etc.
+
+This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by the (rather trivial) method of treating the empty and nonempty cases separately.
 
 
 ## References and remarks
@@ -96,5 +113,8 @@ There is an oidification ([[horizontal categorification]]) of a heap, sometimes 
 
 [[!redirects groud]]
 [[!redirects grouds]]
+
 [[!redirects heap]]
 [[!redirects heaps]]
+
+[[!redirects Heap]]
