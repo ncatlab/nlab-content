@@ -642,3 +642,5 @@ A more detailed tour of monoidal categories, also using string diagrams, and inc
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
+[[!redirects monoidal structure]]
+[[!redirects monoidal structures]]
