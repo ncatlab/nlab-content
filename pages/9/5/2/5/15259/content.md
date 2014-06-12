@@ -1,0 +1,6 @@
+
+
+A _[[mixed Hodge structure]]_ consists of a [[filtration]] of [[cohomology groups]] which in addition to the [[Hodge filtration]] has a filtration by "weight" (...).
+
+[[!redirects weight filtrations]]
+
