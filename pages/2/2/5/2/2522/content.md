@@ -244,6 +244,17 @@ A nontechnical survey of the idea of supersymmetry in the
 
 * [[Matthew Strassler]], _[5. Supersymmetry?](http://profmattstrassler.com/articles-and-posts/the-higgs-particle/taking-stock-of-the-higgs-jan-2013/5-supersymmetry/)_
 
+### Supersymmetry in the standard model of cosmology
+
+The observation that the lightest supersymmetric particle is a natural [[dark matter]] candidate goes back to 
+
+* {#EHNOS84} [[John Ellis]],  J.S. Hagelin, Dimitri V. Nanopoulos, [[Keith Olive]], M. Srednicki  _Supersymmetric relics from the Big Bang_, Nuclear Physics B 238[2]: 453-76, 1984 ([SPIRE](http://inspirehep.net/record/191839?ln=en))
+
+with review in 
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+
+
 
 ### Supersymmetry breaking
 
