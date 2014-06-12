@@ -13,5 +13,7 @@ Algebraic line bundles on some [[variety]]/[[scheme]] form its [[Picard group]]/
 
 * [[divisor (algebraic geometry)]]
 
+* [[algebraic line n-bundle]]
+
 [[!redirects algebraic line bundles]]
 
