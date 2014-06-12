@@ -40,9 +40,14 @@ on [[spacetime]] with values in the [[super Poincare Lie algebra]]. Its componen
 
 The name derives from the fact that the other two comonents are identified in [[gravity]] with the [[graviton]] field.
 
-## Related concepts
+## References
 
-[[!include fields and quanta - table]]
+Discussion of the gravitiono as a [[dark matter]] candidate is in  
+
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+
+
 
 
 [[!redirects gravitinos]]
