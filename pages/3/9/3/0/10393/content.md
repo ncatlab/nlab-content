@@ -1,4 +1,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Ellis_%28physicist%29)
 
+## Interviews
+
+On [[phenomenology]] of [[supersymmetry]]:
+
+* [JOHN ELLIS ON THE SYMBIOSIS BETWEEN PARTICLE PHYSICS & ASTROPHYSICS](http://archive.sciencewatch.com/ana/st/super/12janSTSuperElli/)
+SPECIAL TOPIC OF SUPERSYMMETRY INTERVIEW, JANUARY 2012
+
 category: people
