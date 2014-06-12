@@ -140,6 +140,6 @@ Lecture notes include
 
 * {#Bobenko} [[Alexander Bobenko]], _Compact Riemann Surfaces_ lecture notes ([pdf](http://page.math.tu-berlin.de/~bobenko/Lehre/Skripte/RS.pdf))
 
-*  Eberhard Freitag, _Riemnann surfaces -- Sheaf theory, Riemann Surfaces, Automorphic forms_, 2013 ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/riemfl.pdf))
+*  Eberhard Freitag, _Riemann surfaces -- Sheaf theory, Riemann Surfaces, Automorphic forms_, 2013 ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/riemfl.pdf))
 
 [[!redirects Riemann surfaces]]
