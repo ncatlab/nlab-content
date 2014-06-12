@@ -25,9 +25,9 @@ There are mainly two astronomical observations that suggest the existence of dar
 
 1. galaxy rotation curves -- the speed of rotation of [[galaxies]] as a function of the distance from their center cannot be explained by the observed visible matter, but an explanation of this dependence by gravitating matter requires the presence of plenty of dark matter;
 
-1. cosmic microwave background fluctuations -- the measured fluctuations in the [[cosmic microwave background]] are very well fitted by the [[standard model of cosmology]] with dark matter included. (see also [Resonaances, 18 Jan 2013](#Resonaances)).
+1. cosmic microwave background fluctuations -- the measured fluctuations in the [[cosmic microwave background]] are very well fitted by the [[standard model of cosmology]] with cold dark matter (CDM) included. (see also [Resonaances, 18 Jan 2013](#Resonaances)).
 
-Any further details about the nature of this hypothetical dark matter remains elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
+Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
 
 
 ## Related concepts
@@ -45,8 +45,15 @@ Any further details about the nature of this hypothetical dark matter remains el
 
 * [[Matthew Strassler]], _[Current hints of dark matter](http://profmattstrassler.com/articles-and-posts/relativity-space-astronomy-and-cosmology/dark-matter/current-hints-of-dark-matter-413/)_
 
-* Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
- {#Resonaances}
+* {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
+ 
+The observation that the lightest supersymmetric particle is a natural dark matter candidate goes back to 
+
+* {#EHNOS84} [[John Ellis]],  J.S. Hagelin, Dimitri V. Nanopoulos, [[Keith Olive]], M. Srednicki  _Supersymmetric relics from the Big Bang_, Nuclear Physics B 238[2]: 453-76, 1984 ([SPIRE](http://inspirehep.net/record/191839?ln=en))
+
+with review in 
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
 [[!redirects WIMP]]
 [[!redirects WIMPs]]
