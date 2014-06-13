@@ -66,6 +66,12 @@ $$
 
 making the ring $\mathbf{Z}_p$ a [[complete metric space]] and in fact a completion of $\mathbf{Z}$, in that $d$ is a complete [[metric]], and $\mathbf{Z}$ is dense in it. 
 
+Concretely, a $p$-adic integer $x$ may be written as a base-$p$ expansion 
+
+$$x = \sum_{n \geq 0} a_n p^n$$ 
+
+with $a_n \in \{0, 1, \ldots, p-1\}$. Addition and multiplication are performed with [[carrying]] as in ordinary base-$p$ arithmetic, carried infinitely far to the left if $x$ is written as $\ldots a_n a_{n-1} \ldots a_1 a_0$. 
+
 #### As an endomorphism ring 
 
 Algebraically, the ring of $p$-adic integers is isomorphic to the endomorphism ring $\hom(\mathbf{Z}(p^\infty), \mathbf{Z}(p^\infty))$ where $\mathbf{Z}(p^\infty)$ is the [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$. In particular, $\mathbf{Z}(p^\infty)$ is tautologically a $\mathbf{Z}_p$-module. 
@@ -81,7 +87,13 @@ The distance $d$ satisfies the "ultrametric" inequality
 
 $$
 d(x,z) \leq sup\{d(x,y),d(y,z)\}
-$$
+$$ 
+
+Concretely, a $p$-adic number $x$ may be written as $\sum_{n \geq k} a_n p^n$, with only finitely many negative powers of $p$ occurring. If $k \lt 0$, the expansion is conventionally displayed as 
+
+$$x = \ldots a_1 a_0.a_{-1} \ldots a_k$$ 
+
+with finitely many terms to the "right" of the "decimal" point. Again such expressions are added and multiplied with carrying as in ordinary arithmetic. 
 
 ## Properties
 
