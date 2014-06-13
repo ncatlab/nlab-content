@@ -64,27 +64,27 @@ It may be shown that
 
 $$\widehat{\mathcal{O}} \cong \prod_{p \notin S} \mathcal{O}_v$$ 
 
-where each non-archimedean place may be identified with a prime ideal $p$. Now, if we view $k$ as the localization of $\mathcal{O}$ obtained by inverting all prime ideals $p$, then $k$ may be written as a filtered colimit 
+where each non-archimedean place may be identified with a prime ideal $p$. Now, if we view $k$ as the localization of $\mathcal{O}$ obtained by inverting all nonzero elements $x \in \mathcal{O}$, then $k$ may be written as a filtered colimit of a system of inclusions of localizations:  
 
-$$k \cong colim_{fin.\; T \subset P\backslash\; S}\; \mathcal{O}[p^{-1}]_{p \in T}.$$ 
+$$k \cong colim_x \; \mathcal{O}[x^{-1}].$$ 
 
 Componentwise, we may calculate 
 
 $$\array{
-\mathcal{O}[p^{-1}]_{p \in T} \otimes_\mathcal{O} \mathcal{O}_q & = & k_q & \text{if}\; q \in T \\ 
- & = & \mathcal{O}_q & \text{if}\; q \notin T
+\mathcal{O}[x^{-1}] \otimes_\mathcal{O} \mathcal{O}_p & = & k_p & \text{if}\; x \in p \\ 
+ & = & \mathcal{O}_p & \text{if}\; x \notin p
 }$$ 
 
 and so 
 
 $$\array{
-\mathcal{O}[p^{-1}]_{p \in T} \otimes_\mathcal{O} \widehat{\mathcal{O}} & \cong & \mathcal{O}[p^{-1}]_{p \in T} \otimes_\mathcal{O} \prod_{q \in P \backslash\; S} \mathcal{O}_q \\ 
- & \cong & (\prod_{q \in T} k_q) \times (\prod_{q \notin T} \mathcal{O}_q)
+\mathcal{O}[x^{-1}] \otimes_\mathcal{O} \widehat{\mathcal{O}} & \cong & \mathcal{O}[x^{-1}] \otimes_\mathcal{O} \prod_{p \in P \backslash\; S} \mathcal{O}_p \\ 
+ & \cong & (\prod_{x \in p} k_p) \times (\prod_{x \notin p} \mathcal{O}_p)
 }$$ 
 
 Putting these facts together, 
 
-$$k \otimes_\mathcal{O} \widehat{\mathcal{O}} \cong colim_{fin.\; T \subset P \backslash\; S}\; (\prod_{q \in T} k_q) \times (\prod_{q \notin T} \mathcal{O}_q)$$ 
+$$k \otimes_\mathcal{O} \widehat{\mathcal{O}} \cong colim_x\; (\prod_{x \in p} k_p) \times (\prod_{x \notin p} \mathcal{O}_p)$$ 
 
 where each component of the filtered diagram is locally compact in the product topology. Taking the filtered colimit in $Top$ over the resulting diagram of open inclusions, the result is again a locally compact ring. In this way the ring of adeles $\mathbb{A}_k$ is topologized. 
 
@@ -119,7 +119,17 @@ and indeed the idele topology coincides with the filtered colimit topology.
 Under the natural inclusion $k \to \mathbb{A}_k$, the subspace topology on $k$ is discrete, and the quotient topology on $\mathbb{A}_k/k$ is compact. 
 =-- 
 
-To be continued. 
+As an additive topological group, there is a natural pairing on $\mathbb{A}_k$: 
+
+$$\langle -, - \rangle: \mathbb{A}_k \times \mathbb{A}_k \to \mathbb{R}/\mathbb{Z} \cong S^1.$$ 
+
+If $x = (x_v)_{v \in P}$ and $y = (y_v)_{v \in P}$, then 
+
+$$\langle x, y \rangle \coloneqq \prod_v \langle x_v, y_v \rangle_v$$ 
+
+is given by a product of local pairings ... (to be continued). 
+
+
 
 ## Related concepts
 
