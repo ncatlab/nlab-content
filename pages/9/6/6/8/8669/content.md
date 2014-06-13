@@ -44,6 +44,8 @@ The __[[Abel-Jacobi map]]__ $C\to J(C)$ is defined with help of [[periods]] ...)
 
 * [[Albanese variety]]
 
+* [[Prym variety]]
+
 [[!include moduli of higher lines -- table]]
 
 
