@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[homomorphism]] between [[algebraic groups]] that is a [[surjection]] and has a finite [[kernel]].
+A [[homomorphism]] between [[algebraic groups]] that is a [[surjection]] and has a [[finite set|finite]] [[kernel]].
 
 ## References
 
