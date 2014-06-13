@@ -50,6 +50,8 @@ The statement of [[Tannaka duality]] for associative algebras says that rigid mo
 
 * [[(∞,n)-category with duals]]
 
+* [[linguistics|natural language syntax]]
+
 [[!redirects rigid monoidal category]]
 [[!redirects rigid monoidal categories]]
 [[!redirects rigid category]]
