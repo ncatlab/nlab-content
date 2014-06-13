@@ -70,7 +70,6 @@ The original articles include
 
 * [[Brian Greene]], [[Calin Lazaroiu]], Mark Raugas, _D-branes on Nonabelian Threefold Quotient Singularities_, Nucl.Phys. B553 (1999) 711-749 ([arXiv:hep-th/9811201](http://arxiv.org/abs/hep-th/9811201))
 
-
 * Andrea Cappelli, Jean-Bernard Zuber, _A-D-E Classification of Conformal Field Theories_ ([arXiv:0911.3242](http://arxiv.org/abs/0911.3242))
 
 
@@ -79,5 +78,12 @@ Surveys include
 * MO discussion [ADE classification from string theory](http://mathoverflow.net/a/34680/381)
 
 * [[José Figueroa-O'Farrill]], _Supersymmetric M2-branes and ADE_, 2010 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+
+Specifically the ADE classficaiton of the [[(2,0)-superconformal field theory]] on the [[M5-brane]] is discussed in 
+
+* {#Witten95} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
+
+
+* {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
 
 [[!redirects A-D-E classification]]
