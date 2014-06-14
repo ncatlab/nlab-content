@@ -43,4 +43,8 @@ Technically, this works for any four-vector comparison between Minkowski space a
 
 ## References
 
-See at _[[Osterwalder-Schrader theorem]]_.
+
+See also at _[[Osterwalder-Schrader theorem]]_.
+
+* [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
+
