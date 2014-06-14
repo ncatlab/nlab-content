@@ -37,6 +37,8 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
   * [[Dijkgraaf-Witten theory]]
 
+  * [[analytically continued Chern-Simons theory]]
+
   * [[Courant sigma-model]]
 
 * [[Levin-Wen model]]
