@@ -1,0 +1,28 @@
+
+
+## Related concepts
+
+* [[analytically continued Chern-Simons theory]]
+
+## References
+
+Original articles include
+
+* R. M. Kashaev, _The Hyperbolic Volume Of Knots From The Quantum Dilogarithm_ Lett. Math. Phys. 39 (1997) 269-275.
+
+* H. Murakami and J. Murakami, _The Colored Jones Polynomial And The Simplicial Volume Of A Knot_, Acta Math. 186 (2001) 85-104.
+
+* H. Murakami, J. Murakami, M. Okamoto, T. Takata, and Y. Yokota, _Kashaev's Conjecture And The Chern-Simons Invariants Of Knots And Links_, Experiment. Math. 11 (2002) 427-435.
+
+* R. M. Kashaev, O. Tirkkonen, _Proof of the volume conjecture for torus knots_ ([arXiv:math/9912210](http://arxiv.org/abs/math/9912210))
+
+* [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627.
+
+* H. Murakami, _Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot_, Internat. J. Math. 15 (2004) 547-555.
+
+Review includes
+
+* {#Witten14} [[Edward Witten]], pp. 4 of _Two Lectures On The Jones Polynomial And Khovanov Homology_ ([arXiv:1401.6996](http://arxiv.org/abs/1401.6996))
+
+* Wikipedia, _[Volume conjecture](H. Murakami, \Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot,"
+Internat. J. Math. 15 (2004) 547-555.)_
