@@ -76,10 +76,10 @@ In other words this says that the lifts of Wu classes to [[integral cohomology]]
 
 ### Relation to Stiefel-Whitney classes
 
-The total [[Stiefel-Whitney class]] $w$ is the [[Steenrod square]] of the total Wu class $\nu$.
+The total [[Stiefel-Whitney class]] $w$ is the total [[Steenrod square]] of the total Wu class $\nu$.
 
 $$
-  w = Sq^2(\nu)
+  w = Sq(\nu)
   \,.
 $$
 
