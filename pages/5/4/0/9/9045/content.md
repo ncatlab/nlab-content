@@ -221,7 +221,10 @@ $$
 
 (e.g. [Voisin 02, remark 8.29](#Voisin02), [Voisin, 1.1.2](#Voisin) [Peters-Steenbrink 08, prop 2.22](#PetersSteenbrink08)).
 
-The equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} is induced as follows
++-- {: .num_remark #FrolicherEquivalenceInComponents}
+###### Remark
+
+The equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} is exhibited by the following morphism.
 
 Write  
 
@@ -229,7 +232,7 @@ $$
   tot(\Omega^{\bullet \geq p, \bullet}, \mathbf{d}= \partial + \bar \partial)
 $$ 
 
-for the holomorphically truncated [[de Rham complex]], as indicated, thought of as the [[total complex]] of the [[Dolbeaul complex|Dolbeault]] [[double complex]]
+for the holomorphically truncated [[de Rham complex]], as indicated, thought of as the [[total complex]] of the [[Dolbeault complex|Dolbeault]] [[double complex]]
 
 $$
   \array{
@@ -262,6 +265,73 @@ $$
   H^0(X,tot(\Omega^{\bullet\geq p, \bullet}, \mathbf{d} = \partial + \bar \partial)[-k])
   \,.
 $$
+
+Therefore given a representative $\alpha \in \Omega^{p,q}_{cl}(X)$ of $[\alpha] \in H^{p,q}(X)$ it is canonically sent along
+
+$$
+  \underset{k-q\geq p}{\oplus} \Omega^{p,q}_{cl}(X)
+  \simeq
+  \underset{k-q\geq p}{\oplus} 
+   H^0(X, \Omega^{p,q}_{cl})
+  \to
+  H^0(X,tot(\Omega^{\bullet\geq p, \bullet}, \mathbf{d} = \partial + \bar \partial)[-k])
+  \,.
+$$
+
+This map exhibits the equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} (e.g. [Voisin, section 1.1.2](#Voisin)).
+
+Dually, 
+
+$$
+  \Omega_{hol}^{\leq k}
+  \simeq
+  tot(  \Omega^{\bullet \leq k, \bullet})
+  \,.
+$$
+
+This plays a role in the discussion of [[intermediate Jacobians]], 
+where for $dim_{\mathbb{C}}(X)= k+1$ we have
+
+$$
+  H^{2k+1}(X,\mathbb{R})
+  \simeq
+  H^{2k+1}(X,\mathbb{C}) / F^{k+1} H^{2k+1}(X,\mathbb{C})
+  \simeq
+  H^{2k+1}(X, \Omega_{hol}^{\bullet \leq k})
+  \,.
+$$
+
+Here a real differential $(2k+1)$-form
+
+$$
+  \alpha 
+  = 
+  \overline{\alpha^{0,2k+1}}
+  +
+  \overline{\alpha^{1, 2k}}
+  + 
+  \cdots
+  +
+  \alpha^{1, 2k}
+  + 
+  \alpha^{0,2k+1}
+$$
+
+injects via its pieces in 
+
+$$
+  \Omega^{p \leq k, 2k+1-p}(X)
+  \simeq
+  H^0(X, \Omega^{p \leq k, 2k+1-p})
+  \to
+  H^0(X, tot(\Omega^{\bullet \leq k, \bullet})[-k])
+  \simeq
+  H^k(\Omega_{hol}^{\bullet\leq k})
+  \,.
+$$
+
+
+=--
 
 ### Generally on an abelian group
  {#OnAnAbelianGroup}
