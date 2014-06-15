@@ -205,7 +205,7 @@ and such that $p_1, p_2$ are diffeomorphisms by the [[implicit function theorem|
 
 1. Letting $q: g^{-1}(0) \cap V' \to g^{-1}(0) \cap V''$ denote the smooth inverse to $p_2$, we calculate $i' = p \circ i'' \circ q$, and 
 $$i p_1 = p i' = p p i''q = p i'' q = i',$$ 
-so that $p_1(x) = x$ for every $x \in V'$. Hence $g^{-1}(0) \cap V' \subseteq Fix(p)$. 
+so that $p_1(x) = x$ for every $x \in g^{-1}(0) \cap V'$. Hence $g^{-1}(0) \cap V' \subseteq Fix(p)$. 
 
 From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
