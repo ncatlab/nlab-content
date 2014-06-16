@@ -1,5 +1,24 @@
-Given indeterminates $t_1,\ldots, t_k$ a Laurent polynomial over a field $F$ is a polynomial in $t_1,\ldots,t_k,t_1^{-1},\ldots,t_k^{-1}$ over $F$. 
 
-Compare [[Laurent series]]. 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given indeterminates $t_1,\ldots, t_k$ a _Laurent polynomial_ over a [[field]] or [[ring]] $F$ is a [[polynomial]] in $t_1,\ldots,t_k,t_1^{-1},\ldots,t_k^{-1}$ over $F$. 
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## Related concepts
+
+* [[Laurent series]]. 
+
+## References
+
+* Wikipedia, _[Laurent polynomial](http://en.wikipedia.org/wiki/Laurent_polynomial)_
 
 [[!redirects Laurent polynomials]]
