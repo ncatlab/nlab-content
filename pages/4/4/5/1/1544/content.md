@@ -163,6 +163,7 @@ $$
   \mathbf{H}(X,\mathbf{B}G) \simeq G Bund(X)
 $$
 
+
 taken in the [[(2,1)-topos]] of [[(2,1)-sheaves]] on [[CartSp]]${}_{smooth}$.
 
 =---
@@ -248,6 +249,7 @@ holds, where on the right we have the pullback $g^* \theta$ of the [[Maurer-Cart
  {#Properties}
 
 ### Existence of connections
+ {#ExistenceOfConnections}
 
 +-- {: .num_defn}
 ###### Definition
