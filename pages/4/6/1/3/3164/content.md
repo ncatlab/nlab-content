@@ -24,6 +24,13 @@ For [[number theory|number theoretic]] purposes, i.e. in actual [[arithmetic]]; 
 
 The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geometry]]).
 
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy]]
+
+
 ## Related concepts
 
 * [[arithmetic scheme]]
@@ -35,6 +42,7 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 * [[Weil-étale topology for arithmetic schemes]]
 
 * [[absolute cohomology]]
+
 
 ## References
 
