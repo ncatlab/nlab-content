@@ -114,6 +114,10 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 * The [[uniformization theorem]], which partially classifies Riemann surfaces.
 
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
 ## Related concepts
 
 * [[Teichmüller space]]
