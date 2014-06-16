@@ -136,6 +136,8 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * [[Kähler polarization]]
 
+* [[Hodge filtration]], [[Frölicher spectral sequence]]
+
 * [[Hodge manifold]]
 
 [[!include special holonomy table]]
