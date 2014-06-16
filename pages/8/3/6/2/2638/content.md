@@ -115,6 +115,10 @@ If $K$ is [[algebraically closed field|algebraically closed]] and has [[characte
 
 Here "restricted" refers to Remark \ref{restrict}. See _[[Puiseux series]]_ for more details on this result.
 
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
 
 ## References 
 
