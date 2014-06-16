@@ -3,7 +3,7 @@
 | [[number field]]  |  [[function field]]  |
 |-------------------|----------------------|
 | $\mathbb{Z}$ ([[integers]]) | $k[t]$ ([[polynomial ring]]) |
-| $\mathbb{G}$ ([[rational numbers]]) | $k(t)$ ([[Laurent polynomials]])  |
+| $\mathbb{Q}$ ([[rational numbers]]) | $k(t)$ ([[Laurent polynomials]])  |
 | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $k((t))$ ([[Laurent series]]) |
 | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] over $k$ | 
 | [[spectrum of a commutative ring|spectrum]] with archimedean valuation [[places]] | $X$ |
