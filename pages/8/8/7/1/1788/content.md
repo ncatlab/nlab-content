@@ -5,7 +5,12 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-No sand in this box.
+| | [[arithmetic geometry]] | -[[field of fractions]]$\to$ | [[algebraic geometry]] | -[[algebraic closure]]$\to$ | [[absolute Galois theory]] | -[[complete field|analytic completion]]$\to$ |  [[analytic geometry]] |
+|--|------------|------------|-------------|----------|----------|------------|---|
+| globally | $\mathbb{Z}$ ([[integers]]) | | $\mathbb{Q}$ ([[rational numbers]]) |  | $\overline{\mathbb{Q}}$  |  | $\mathbb{C}$ ([[complex numbers]]) |
+| [[formal geometry|formally]] at $p$ | $\mathbb{Z}_p$ ([[p-adic integers]]) |  | $\mathbb{Q}_p$ ([[p-adic rational numbers]]) |  | $\overline{\mathbb{Q}_p}$  |  | $\mathbb{C}_p$ ([[p-adic complex numbers]]) |
+
+
 
 
 ***
