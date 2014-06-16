@@ -159,7 +159,13 @@ Finally, for $C_{\bullet, \bullet}$ concentrated in $0 \leq p,q$ the correspondi
 
 ## Examples
 
-A plethora of types of spectral sequences are special cases of the spectral sequence of a double complex. For the moment see at _[[spectral sequence]]_ for a list.
+A plethora of types of spectral sequences are special cases of the spectral sequence of a double complex, for instance
+
+* [[Frölicher spectral sequence]].
+
+For the moment see at _[[spectral sequence]]_ for a list.
+
+
 
 
 ## References
