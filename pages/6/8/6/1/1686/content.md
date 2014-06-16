@@ -577,7 +577,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Federer spectral sequence]] converging to [[homotopy groups]] of a function space
 
-* [[Frölicher spectral]] sequence starting from the [[Dolbeault cohomology]] and converging to the algebraic [[de Rham cohomology]] of a [[variety]]
+* [[Frölicher spectral sequence]] starting from the [[Dolbeault cohomology]] and converging to the algebraic [[de Rham cohomology]] of a [[variety]]
 
 * [[Green's spectral sequence]] for [[Koszul cohomology]]
 
