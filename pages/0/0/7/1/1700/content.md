@@ -218,10 +218,10 @@ Recall the notion of [separable elements](#separable)
 +-- {: .num_defn #SeparableClosure}
 ###### Definition
 
-Let $K$ be a [[field]] and $\bar K$ an [[algebraic closure]] of $K$. The **separable closure**  $K_S$ of $K$ is defined by
+Let $K$ be a [[field]] and $\bar K$ an [[algebraic closure]] of $K$. The [[separable closure]]  $K_S$ of $K$ is defined by
 
 $$
-  K_S \simeq \{x \in \bar K | x is separable over K\}
+  K_S \simeq \{x \in \bar K | x \; is \; separable \; over \; K\}
   \,.
 $$
 
