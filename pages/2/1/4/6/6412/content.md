@@ -130,7 +130,11 @@ $$\array{
 
 where the commutativity of the squares can be traced to the fact that $q$ is a $\mathbf{Z}_p$-module homomorphism, and where the vertical isomorphisms on left and right come from [[Pontrjagin duality]]. The middle arrow is then an isomorphism by the [[short five lemma]] for [[topological groups]], which holds by protomodularity of topological groups. 
 
-This self-duality figures in Tate's thesis; for more, see [[ring of adeles]]. 
+This self-duality figures in Tate's thesis; for more, see [[ring of adeles]].
+
+### Function field analogy
+
+[[!include function field analogy -- table]] 
 
 ## Related concepts
 
@@ -139,6 +143,8 @@ This self-duality figures in Tate's thesis; for more, see [[ring of adeles]].
 * [[carrying]]
 
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]]
+
+
 
 * [[p-adic integer]], [[p-adic complex number]]
 
