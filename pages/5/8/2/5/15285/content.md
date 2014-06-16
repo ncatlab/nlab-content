@@ -1,14 +1,17 @@
 
 
-| [[number field]]  |  [[function field]]  |
-|-------------------|----------------------|
-| $\mathbb{Z}$ ([[integers]]) | $k[t]$ ([[polynomial ring]]) |
-| $\mathbb{Q}$ ([[rational numbers]]) | $k(t)$ ([[Laurent polynomials]])  |
-| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $k((t))$ ([[Laurent series]]) |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] over $k$ | 
-| [[spectrum of a commutative ring|spectrum]] with archimedean valuation [[places]] | $X$ |
+| [[number fields]] ([[function fields]] of [[curves]] over [[F1]])  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_p$  | [[Riemann surfaces]]/[[algebraic curves]] over $\mathbb{C}$ |  |
+|-------------------|----------------------|----|
+| $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_p[t]$ ([[polynomials]]) |   |
+| $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_p(t)$ ([[rational functions]])  |  |
+| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) |   |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] $X$ over $k$ | [[structure sheaf]] $\mathcal{O}_\Sigma$ (?)  |
+| [[spectrum of a commutative ring|spectrum]] of $K$ together with archimedean valuation [[places]] | $X$ |  [[Riemann surface]] $\Sigma$ |
+| [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
 
 
 * [[Barry Mazur]], [[Andrew Wiles]], _Analogies between function fields and number fields_, American Journal of Mathematics Vol. 105, No. 2 (Apr., 1983), pp. 507-521 ([JStor](http://www.jstor.org/stable/2374266))
 
 * [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
+
+* [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
