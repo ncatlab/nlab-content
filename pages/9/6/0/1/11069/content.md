@@ -23,7 +23,7 @@ Traditionally this is considered for $S$ the [[Nisnevich site]] and $Corr_p(S)$ 
 
 The idea is that, looking at it the other way around, the extension of a sheaf to a sheaf with transfer defines a kind of [[Umkehr map]]/[[fiber integration]] by which the sheaf is not only pulled back along maps, but also pushed forward, hence "transferred" (this concept of course makes sense rather generally in [[cohomology]], see e.g. [Piacenza 84, 1.1](#Piacenza84)).
 
-The [[derived categories]] of those [[abelian sheaves]] with transfers for the [[Nisnevich site]] with are [[A1-homotopy theory|A1-homotopy invariant]] provides a model for [[motives]] known as _[Voevodsky motives](motive#VoevodskyMotives)_ or similar ([Voevodsky 00, p. 20](#Voevodsky00)).
+The [[derived categories]] of those [[abelian sheaves]] with transfers for the [[Nisnevich site]] with are [[A1-homotopy theory|A1-homotopy invariant]] provides a model for [[motive|motives]] known as _[Voevodsky motives](motive#VoevodskyMotives)_ or similar ([Voevodsky 00, p. 20](#Voevodsky00)).
 
 ## Definition
 
