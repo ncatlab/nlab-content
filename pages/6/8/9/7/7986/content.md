@@ -9,6 +9,8 @@ A kind of [[algebraic variety]] generalizing a [[torus]] with its [[abelian grou
 
 ## References
 
+* Ezra Miller, _What is... a toric variety?_, Notices of the AMS, volume 55, number 5 ([pdf](http://www.ams.org/notices/200805/tx080500586p.pdf?q=toric))
+
 * Pavel Dimitrov, _Toric varieties, a short introduction_ ([pdf](http://www.cim.mcgill.ca/~pdimit/math707-talk.pdf))
 
 * Stephan Fischli, _On Toric Varieties_ ([pdf](http://www.sws.bfh.ch/~fischli/thesis.pdf))
