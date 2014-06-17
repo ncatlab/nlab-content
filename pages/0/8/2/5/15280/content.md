@@ -1,11 +1,11 @@
 
-__Albert Lautman__ was a French mathematical philosopher.
+__Albert Lautman__ was a French [[philosophy of mathematics|mathematical philosopher]].
 
 He was interested in the structure of advanced mathematics and its creativity and critiziced the [[analytic philosophy|analytic philosophers]] like [[Bertrand Russell|Russell]] and [[Gottlob Frege|Frege]] from the early 20th century who dealt mainly with the issues of a particular logical [[foundation]] and formal aspects and not much on the nature of doing mathematics and its meaning. 
 
 As a member of the Resistance, a former prisoner of war and also of Jewish origin, he was killed by a German squad on August 1, 1944.
 
-He influenced the French philosophers Gilles Deleuze and Alain Badiou, the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]], and the philosopher [[David Corfield]].
+He influenced the French philosophers [[Gilles Deleuze]] and [[Alain Badiou]], the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]], and the philosopher [[David Corfield]].
 
 ### Lautman on effective and advanced mathematics
 
