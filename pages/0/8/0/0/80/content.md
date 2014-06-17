@@ -100,6 +100,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * wikipedia: [philosophy of mathematics](http://en.wikipedia.org/wiki/Philosophy_of_mathematics); wikipedia.ru [&#1060;&#1080;&#1083;&#1086;&#1089;&#1086;&#1092;&#1080;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;](http://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8)
 
 * Stanford Encyclopaedia of Philosophy [online](http://plato.stanford.edu), [contents](http://plato.stanford.edu/contents.html)
+* Stewart Shapiro, _[[The Oxford handbook of philosophy of mathematics and logic]]_, Oxford University Press 2005
 
 ### Books
 
