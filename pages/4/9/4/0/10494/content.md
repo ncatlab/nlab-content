@@ -522,6 +522,8 @@ This kind of diagram under forming $\pi_0$ has been traditionally known from [[o
 
 * [[twisted bivariant cohomology]]
 
+* [[twisted differential cohomology]]
+
 * [[twisted smooth cohomology in string theory]]
 
 ## References
