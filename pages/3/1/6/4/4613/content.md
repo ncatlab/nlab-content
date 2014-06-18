@@ -101,10 +101,10 @@ The special meaning in the context of [[Chern-Weil theory]] in [[differential ge
 * Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
 {#Karlsson}
 
-Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills]] prequantum field theory is in
+Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory is in
 
-* [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
-  {#lpqft}
+* {#lpqft} [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
+  
 
 Specifically the secondary Chern-Simons and quternary WZW invariants in this context are discussed in 
 
