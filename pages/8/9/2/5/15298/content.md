@@ -27,6 +27,6 @@ A definition in terms of [[smooth spectra]] (such as discussed at _[[differentia
 
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_ ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231))
 
-For discussion of twisted differential cohomology as the intrinsic [[cohomology]]_ of [[tangent cohesive (∞,1)-topos|Goodwillie-tangent spaces of cohesive (∞,1)-topos]]_ see there.
+For discussion of twisted differential cohomology as the intrinsic [[cohomology]] of _[[tangent cohesive (∞,1)-topos|Goodwillie-tangent spaces of cohesive (∞,1)-topos]]_ see there.
 
 [[!redirects differential twisted cohomology]]
