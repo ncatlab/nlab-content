@@ -403,6 +403,8 @@ See [[differential cobordism cohomology theory]]
 
 * [[differential orientation]]
 
+* [[twisted differential cohomology]]
+
 [[!include gauge field - table]]
 
 
