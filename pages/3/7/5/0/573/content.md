@@ -788,6 +788,7 @@ discussed _[below](#ByEnrichedModelCategories)_
 #### General
 
 
+
 There is a general notion of _[[internal category in an (∞,1)-category]]_ $\mathcal{C}$ provided that
 
 1. $\mathcal{C}$ has [[finite limit|finite]] [[(∞,1)-limits]] -- in order to formulate the [[Segal condition]];
@@ -1088,28 +1089,29 @@ Definition in terms of [[n-fold complete Segal spaces]] and [[Segal n-categories
 
 The definition in terms of [[Theta spaces]] is due to
 
-* [[Charles Rezk]], _A cartesian presentation of weak n-categories_ ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
- {#Rezk}
+* {#Rezk} [[Charles Rezk]], _A cartesian presentation of weak n-categories_ ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+ 
 
 An iterartive definition in terms of [[n-fold complete Segal spaces]] is given in
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
 
 A summary of definitions and some known comparison results can be found in
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Urs Schreiber]], [[Hisham Sati]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, volume 83 
  AMS (2011) ([arXiv:1011.0110](http://arxiv.org/abs/1011.0110))
 
-An axiomatic characterization is in 
+One axiomatic characterization is in 
 
-* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
- {#BarwickSchommerPries}
+* {#BarwickSchommerPries}[[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+ 
 
-Comparison of models is in 
+Comparison of models ($\Theta_{n+1}$-spaces and [[enriched (infinity,1)-categories]] in $\Theta_n$-spaces) is in 
 
-* [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
- {#BergnerRezk}
+* {#BergnerRezk} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
+ 
+* {#BergnerRezk14} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories II_ ([arXiv:1406.4182](http://arxiv.org/abs/1406.4182))
 
 A model for $(\infty,n)$-categories in terms of [[(∞,1)-sheaves]] on variant of a [[site]] of $n$-[[dimension|dimensional]] [[manifolds]] with [[embeddings]] between them is discussed in 
 
