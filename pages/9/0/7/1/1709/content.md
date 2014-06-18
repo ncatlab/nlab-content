@@ -601,6 +601,8 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 * [[twisted Umkehr map]]
 
+* [[twisted differential cohomology]]
+
 * [[relative cohomology]]
 
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
@@ -671,6 +673,7 @@ Searching MathSciNet for _twisted cohomology_ led to the following chronology: I
 Most notably missing are
 
 * [[Kurt Reidemeister]] (1938) Topologie der Polyeder und kombinatorische 
+
 Topologie der Komplexe_, Mathematik und ihre Anwendungen in 
 Physik und Technik,_(But note that reprints appear, sans reviews. There is a short English and longer German review on Zentralblatt)
 
