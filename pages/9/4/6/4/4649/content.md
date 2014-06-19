@@ -43,6 +43,7 @@ The concept of reductive is not quite the same for [[Lie groups]] as it is for [
 
 * [[semisimple Lie group]]
 
+* [[relation between compact Lie groups and reductive algebraic groups]]
 
 ## References
 
