@@ -31,4 +31,4 @@ Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was o
 [[!redirects Charles Peirce]]
 [[!redirects Charles S. Peirce]]
 
-category: people
+category: people, philosophy
