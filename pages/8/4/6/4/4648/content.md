@@ -85,6 +85,10 @@ Another set of lecture notes on geometric Langlands and [[nonabelian Hodge theor
 * [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
 conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
 
+More exposition of the relation to [[string theory]] and [[S-duality]] is in
+
+* {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
+
 
 Collections of resources are here;
 
