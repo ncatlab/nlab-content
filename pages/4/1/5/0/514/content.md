@@ -5,7 +5,7 @@
 
 ## Definition
 
-A category is (sometimes) called __pointed__ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s (but not necessarily the other way around).
+A category is (sometimes) called __pointed__ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s using the [[smash product]] as tensor, (but not necessarily the other way around).
 
 
 ## Remarks
