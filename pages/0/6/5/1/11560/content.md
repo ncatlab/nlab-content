@@ -24,7 +24,7 @@
 ## See also
 
 * [[derived algebraic geometry]]
-* [[brave new algebraic geometry]]
+* [[brave new algebra]]
 * [[E-infinity ring]]
 
 ## References
