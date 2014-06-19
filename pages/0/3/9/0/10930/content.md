@@ -28,6 +28,11 @@ The discussion in the article is apparently motivated as part of what it takes t
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ in P. R. Kotiuga (ed.) A celebration of the mathematical legacy of Raoul Bott AMS (2010) ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
 
+For the 2014 installment of UOregon's Moursund Lecture Series, Jacob Lurie gave three (video recorded) lectures on [[spectral algebraic geometry]], one of which is
+
+* [[Jacob Lurie]], [Ambidexterity](http://media.uoregon.edu/channel/2014/05/23/moursund-mathematics-lecture-series-dr-jacob-lurie-lecture-2-ambidexterity/)
+
+
 #Contents#
 * table of contents
 {:toc}
