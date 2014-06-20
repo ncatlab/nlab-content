@@ -132,7 +132,7 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 
 ### Special cases
 
-* If one of the two [[adjoint pairs]] induced form an adjoint triple involves identities, then the other exhibits an _[[adjoint cylinder]]_ / _[[unity of opposites]]_.
+* If one of the two [[adjoint pairs]] induced form an adjoint triple involving identities, then the other exhibits an _[[adjoint cylinder]]_ / _[[unity of opposites]]_.
 
 * An adjoint triple $F\dashv G\dashv H$ is **Frobenius** if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
 
