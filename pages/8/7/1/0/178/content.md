@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -151,7 +150,7 @@ This is discussed in detail at [[good open cover]].
 +-- {: .num_prop #SmoothManifoldEmbeds}
 ###### Proposition
 
-The [[(∞,1)-topos]] $Smooth \infty Grpd$ is equivalent to the [[hypercompletion]] $\hat Sh_{(\infty,1)}(SmoothMfg)$ of the [[(∞,1)-category of (∞,1)-sheaves]] on the large site [[SmoothMfd]]
+The [[(∞,1)-topos]] $Smooth \infty Grpd$ is equivalent to the [[hypercompletion]] $\hat Sh_{(\infty,1)}(SmoothMfd)$ of the [[(∞,1)-category of (∞,1)-sheaves]] on the large site [[SmoothMfd]]
 
 $$
   Smooth \infty Grpd \simeq \hat Sh_{(\infty,1)}(SmoothMfd)
