@@ -105,7 +105,7 @@ For $f : C_\bullet \to D_\bullet$ a [[chain map]],
 +-- {: .num_remark #ShortExactSequencesDegreewise}
 ###### Remark
 
-A sequence of chain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$ is a [[short exact sequence]] in $Ch_\bullet(\mathcal{A})$ precisely if each component $0 \to A_n \to B_n \to C_n \to 0$ is a short exact in $\mathcal{A}$.
+A sequence of chain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$ is a [[short exact sequence]] in $Ch_\bullet(\mathcal{A})$ precisely if each component $0 \to A_n \to B_n \to C_n \to 0$ is a short exact sequence in $\mathcal{A}$.
 
 =--
 
