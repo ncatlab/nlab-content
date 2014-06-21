@@ -56,7 +56,7 @@ Relative to a nondegenerate notion of volume given by another density $vol$, the
 
 In the context of [[geometric quantization]] one considers spaces of [[sections]] of [[line bundles]] ("[[prequantum line bundles]]") and tries to equip these with an [[inner product]] given by pointwise pairing followed by [[integration]] over the base such as to then [[completion|complete]] to a [[Hilbert space]]. 
 
-One can define the [[integration]] against a fixed chosen [[measure]], but more canonical is to instead form the [[tensor product]] of the prequanutm line bundle with the bundle of half-densities. The compactly supported sections of that tensor bundle can thne naturally be integrated. This is sometimes called the "canonical Hilbert space" construction (e.g. ([Bates-Weinstein](#BatesWeinstein))).
+One can define the [[integration]] against a fixed chosen [[measure]], but more canonical is to instead form the [[tensor product]] of the prequantum line bundle with the bundle of half-densities. The compactly supported sections of that tensor bundle can then naturally be integrated. This is sometimes called the "canonical Hilbert space" construction (e.g. ([Bates-Weinstein](#BatesWeinstein))).
 
 
 ## Related concepts
