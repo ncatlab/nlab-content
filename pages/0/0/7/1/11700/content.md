@@ -67,13 +67,14 @@ Generalization to [[algebraic stacks]]/[[Deligne-Mumford stacks]]/[[geometric st
 ### As geometric realization in $\mathbb{A}^1$-homotopy theory
  {#GeometricRealizationInA1Homotopy}
 
-The functor that takes a smooth complex scheme to the the [[homotopy type]]
+For $k \hookrightarrow \mathbb{C}$ a field, then 
+the functor that takes a smooth complex scheme to the the [[homotopy type]]
 underlying its analytifcation induces [[geometric realization]]
 
 $$
-  Sh_\infty(Sch^{sm}_{\mathbb{C}})
+  Sh_\infty(Sch^{sm}_k)
   \to 
-  Sh_\infty(Sch^{sm}_{\mathbb{C}})^{\mathbb{A}^1}
+  Sh_\infty(Sch^{sm}_k)^{\mathbb{A}^1}
   \to 
   \infty Grpd
 $$
