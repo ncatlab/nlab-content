@@ -43,7 +43,7 @@ For $X$ of [[genus of a surface|genus]] $g$, there are $2^{2g}$ many choices of 
 +-- {: .num_remark }
 ###### Remark
 
-The first statement remains true in higher dimensions over [[Kähler manifolds]], see at  _[Spin structure -- On K&#228;her manifolds](spin%20structure#OverAKahlerManifold)_.
+The first statement remains true in higher dimensions over [[Kähler manifolds]], see at  _[Spin structure -- On K&#228;hler manifolds](spin%20structure#OverAKahlerManifold)_.
 
 =--
 
