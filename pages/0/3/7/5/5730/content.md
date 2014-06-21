@@ -23,11 +23,13 @@
 
 ## Idea
 
-A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex $n$-dimensional [[complex line]]):
+A **complex manifold** is a [[manifold]] modeled on ([[polydisc|poly]]-)[[discs]] in $\mathbb{C}^n$ (the complex $n$-dimensional [[complex line]]):
 
-* a [[smooth manifold]] locally isomorphic to $\mathbb{C}^n$ whose transition functions are [[holomorphic function]]s.
+* a [[smooth manifold]] locally isomorphic to $D^n \hookrightarrow \mathbb{C}^n$ whose transition functions are [[holomorphic functions]];
 
-* equivalently: a [[smooth manifold]] equipped with an integrable [[almost complex structure]] 
+* equivalently: a [[smooth manifold]] equipped with an integrable [[almost complex structure]];
+
+* equivalently a smooth [[complex analytic space]].
 
 ## Properties
 
