@@ -28,13 +28,15 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 In fact, there is a [[completion]] of any [[ordered field]] to a real closed field, in the following sense: 
 
-+-- {: .un_thm} 
-######Theorem 
++-- {: .un_theorem}
+###### Theorem
+
 The full inclusion of the category of real closed fields and field homomorphisms to the category of ordered fields and ordered field homomorphisms has a left adjoint. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof
+
 We give a brief sketch of proof, referring to Lang's _Algebra_ ($3^{rd}$ edition), section IX.2, for more details. 
 
 First, for each ordered field $F$, there is a real closed algebraic extension $F \to R$ that is order-preserving (theorem 2.11). This is called a **real closure** of the ordered field $F$. 
