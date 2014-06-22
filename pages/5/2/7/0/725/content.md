@@ -59,3 +59,4 @@ As a poset is a special kind of [[category]], a meet is simply a [[product]] in 
 [[!redirects infimums]]
 [[!redirects infima]]
 [[!redirects inf]]
+[[!redirects infs]] 
