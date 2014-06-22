@@ -66,7 +66,7 @@ Discussion with an eye towards of holomorphic [[twisted K-theory]] is in
 
 An equivariant example arising from more algebro-geometric origin is in
 
-* Giovanni Felder, [[Andre Henriques]], Carlo A. Rossi, [[Chenchang Zhu]], _ A gerbe for the elliptic gamma function_, Duke Math. J. 141(2008), 1-74 [arXiv:math/0601337](http://arxiv.org/abs/math/0601337) ([doi](http://dx.doi.org/10.1215/S0012-7094-08-14111-0))
+* Giovanni Felder, [[Andre Henriques]], Carlo A. Rossi, [[Chenchang Zhu]], _A gerbe for the elliptic gamma function_, Duke Math. J. 141(2008), 1-74 [arXiv:math/0601337](http://arxiv.org/abs/math/0601337) ([doi](http://dx.doi.org/10.1215/S0012-7094-08-14111-0))
 
 Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
 
@@ -74,6 +74,9 @@ Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
 
 * Edoardo Ballico, [[Oren Ben-Bassat]], _Meromorphic Line Bundles and Holomorphic Gerbes_, Math. Res. Lett. 18 (2011), 6, 1-14 ([arXiv:1101.2216](http://arxiv.org/abs/1101.2216))
 
+See also 
+
+* {#BenBassat11} [[Oren Ben-Bassat]], _Equivariant Gerbes on Complex Tori_ ([arXiv:1102.2312](http://arxiv.org/abs/1102.2312))
 
 [[!redirects holomorphic line 2-bundles]]
 
