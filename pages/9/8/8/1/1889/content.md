@@ -27,7 +27,7 @@ This is to distinguish from [[pseudofunctor]] for which all these cells are requ
 
 This means that the definition of lax functor involves a choice of orientation of these structural cells which is not visible for pseudofunctors. The choice is such that the first example below comes out as stated. With the opposite choice one speaks of an **oplax functor**.
 
-Often the term lax functor is often used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
+Often the term lax functor is used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
 
 
 ## Definition
