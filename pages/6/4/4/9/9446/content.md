@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -10,7 +10,7 @@ Given a [[monoid]] (or [[semigroup]]) $S$, a __left ideal__ in $S$ is [[subset]]
 Given a [[monoidal category]] $C$ and a [[monoid object]] (or semigroup object) $S$ of $C$, we can [[internalisation|internalise]] the above.  
 Note that we require $A$ to be a [[subobject]] of $S$ in $C$, even though it is not necessarily a [[submonoid]].
 
-In particular for $C = $ [[Ab]] a monoid in $C$ is a [[ring]] and the corresponding notion of _ideal in a ring_ is the most common notion of ideal.
+In particular for $C = $ [[Ab]], a monoid in $C$ is a [[ring]] and the corresponding notion of _[[ideal in a ring]]_ is the most common notion of ideal.
 
 See [[ideal]] for ideals in more well known contexts: commutative idempotent monoids ([[semilattices]]) and monoids in [[Ab]] ([[rings]]).
 
@@ -18,6 +18,7 @@ See [[ideal]] for ideals in more well known contexts: commutative idempotent mon
 ## Properties
 
 An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[submonoid]] iff $1 \in A$, in which case $A = S$.
+
 
 ## Related concepts
 
@@ -30,6 +31,7 @@ An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[s
 [[!redirects ideal in a monoid]]
 [[!redirects ideals in a monoid]]
 [[!redirects ideals in monoids]]
+
 [[!redirects ideal of a semigroup]]
 [[!redirects ideals of a semigroup]]
 [[!redirects ideals of semigroups]]
