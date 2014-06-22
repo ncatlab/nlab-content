@@ -46,7 +46,7 @@ The [[base change]] formulas for [[cohomology]] for proper and for smooth morphi
 
 ## Between locales
 
-Recall that a [[locale]] $L$ is given by a [[frame]] $O(L)$, its [[frame of opens]], and that a [[continuous map]] $f$ from $K$ to $L$ is given by an [[adjunction]] $f_* \dashv f^*\colon O(K) \rightleftarrows O(L)$ such that the [[inverse image]] function $f^*$ preserves finitary [[meets]] (or equivalently is a frame [[homomorphism]], since it must preserve all [[joins]]).
+Recall that a [[locale]] $L$ is given by a [[frame]] $O(L)$, its [[frame of opens]], and that a [[continuous map]] $f$ from $K$ to $L$ is given by an [[adjunction]] $f^* \dashv f_* \colon O(K) \rightleftarrows O(L)$ such that the [[inverse image]] function $f^*$ preserves finitary [[meets]] (or equivalently is a frame [[homomorphism]], since it must preserve all [[joins]]).
 
 Such a map $f$ is __proper__ iff the [[direct image]] function $f_*$ preserves [[directed joins]] (or equivalently is [[Scott-continuous function|Scott-continuous]]).
 
