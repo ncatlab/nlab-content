@@ -30,6 +30,6 @@ $\,$
 | $\;\;\;\;\; \downarrow$ [[topological twist]] |
 | [[topologically twisted N=4 D=4 super Yang-Mills theory]] |
 | $\;\;\;\; \downarrow$ [[KK-compactification]] on [[Riemann surface]] |
-| [[A-model]] on $Bun_G$ and [[B-model]] on $Log_G$, [[geometric Langlands correspondence]] |
+| [[A-model]] on $Bun_G$ and [[B-model]] on $Loc_G$, [[geometric Langlands correspondence]] |
 
 [[!redirects gauge theory from AdS7-CFT6 -- table]]
