@@ -3,67 +3,86 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
 
-
-
-
 # Continuous posets
-
 * table of contents
 {: toc}
 
-## Definition
+## Definitions
 
 Let $P$ be a [[poset]] with [[directed joins]].
 
+### Elementary definition
+
 +-- {: .un_defn}
 ###### Definition
-For $a,b\in P$, we say that $a$ is **way below** $b$ and write $a\ll b$ if whenever $S\subseteq P$ is a directed subset and $b\le \bigvee S$ (where $\bigvee S$ denotes the join of $S$), then there exists $s\in S$ with $a\le s$.
+For $a, b \in P$, we say that $a$ is **way below** $b$ and write $a \ll b$ if whenever $S \subseteq P$ is a [[directed subset]] and $b \leq \bigvee S$ (where $\bigvee S$ denotes the [[join]] of $S$), then there exists $s \in S$ with $a \leq s$.
 =--
 
 +-- {: .un_defn}
 ###### Definition
-We say that $P$ is **continuous** if for every $a\in P$, the set $\Downarrow (a) = \{ b\in P | b\ll a \}$ is directed and has join $a$.
+We say that $P$ is **continuous** if for every $a\in P$, the subset
+$$ \Downarrow (a) \coloneqq \{ b \in P | b \ll a \} $$
+is directed and has join $a$.
 =--
 
-If $P$ also has finite joins, hence is a [[complete lattice]], then $\Downarrow(a)$ is automatically directed, so the condition reduces to $\bigvee (\Downarrow(a))=a$; in this case $P$ is called a **continuous lattice**.
+If $P$ also has finite joins, hence is a [[suplattice]], then $\Downarrow(a)$ is automatically directed, so the condition reduces to $\bigvee (\Downarrow(a)) = a$; in this case $P$ is called a **continuous lattice**.
 
-## Adjoint characterization
 
-Let $Idl(P)$ denote the poset of [[ideals]] in $P$, i.e. subsets that are downward-closed and upwards-directed.  To say that $P$ has directed joins is exactly to say that the principal-ideal map $\downarrow : P \to Idl(P)$, defined by $\downarrow(a)=\{b\in P | b\le a\}$, has a left adjoint $\bigvee$.
+### Adjoint characterization
+
+Let $Idl(P)$ denote the poset of [[ideals]] in $P$, i.e. subsets that are downward-closed and upwards-directed.
+
++-- {: .un_prop}
+###### Proposition
+
+A poset $P$ has directed joins if and only if the [[principal-ideal]] map $\downarrow : P \to Idl(P)$, defined by
+$$ \downarrow(a) \coloneqq \{ b \in P | b \leq a \} ,$$
+has a [[left adjoint]], which must be $\bigvee$.
+=--
 
 +-- {: .un_theorem}
 ###### Theorem
-A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \to P$ has a left adjoint.  In this case, the left adjoint is $\Downarrow$.
+A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \to P$ has its own left adjoint, which must be $\Downarrow$.
 =--
+
+This characterization generalizes directly to the notion of [[continuous category]].
+
+
+## Morphisms
+
+...
+
 
 ## Properties
 
-* Continuous lattices are those complete lattices for which taking [[suprema]] of directed subsets commutes with taking [[infima]] of arbitrary subsets. 
+* Continuous lattices are those [[complete lattices]] for which taking [[suprema]] of directed subsets commutes with taking [[infima]] of arbitrary subsets. 
 
-* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale]], hence [[exponentiable object|exponentiable]].
+* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale|locally compact]], or equivalently [[exponentiable object|exponentiable]] in the [[category of locales]].
 
-* The forgetful functor from the category of continuous lattices (with morphisms those maps preserving directed joins and arbitrary meets) to sets is a [[monadic functor]]. Here the left adjoint takes a set $X$ to the lattice of filters in the power set Boolean algebra $P X$. 
+* The [[forgetful functor]] $U$ from the category of continuous lattices (with morphisms those maps preserving directed joins and arbitrary meets) to the [[category of sets]] is a [[monadic functor]]. Here the left adjoint of $U$ takes a set $X$ to the lattice of [[filters]] on $X$ (that is filters in the [[power set]] Boolean algebra $P X$). 
 
-* The category of continuous lattices, with morphisms those maps which preserve directed joins (aka Scott-continuous maps), is a [[cartesian closed category]]. This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
+* The category of continuous lattices, with morphisms those maps which preserve directed joins (aka [[Scott-continuous function]]s), is a [[cartesian closed category]]. This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
+
 
 ## Related pages
 
 * [[continuous category]]
 * [[locally compact locale]]
 
-* Continuous posets can be generalized to [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+* Continuous posets can be generalized to [[continuous algebras]] for any [[lax-idempotent 2-monad]].
 
 
 [[!redirects continuous poset]]
 [[!redirects continuous posets]]
 [[!redirects continuous lattice]]
 [[!redirects continuous lattices]]
+
 [[!redirects way-below relation]]
 [[!redirects way below relation]]
 [[!redirects way-below containment]]
