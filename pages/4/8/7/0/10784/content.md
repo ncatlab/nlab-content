@@ -128,7 +128,7 @@ $\nu$ is a [[surjective geometric morphism]] with [[full and faithful functor|fu
 
 ## Examples
 
-Given a [[field]] $k$ with separable [[algebraic closure]] $\overline{k}$, then the pro-etale site of $Spec(\overline{k})$ is equivalently the category of [[profinite sets]]. ([Bhatt-Scholze 13, example 4.1.10](#BhattScholze13)).
+Given a [[field]] $k$ with [[separable closure]] $\overline{k}$, then the pro-etale site of $Spec(\overline{k})$ is equivalently the category of [[profinite sets]]. The pro-etale site of $Spec(k)$ identifies with the category of profinite continuous $G$-sets. ([Bhatt-Scholze 13, example 4.1.10](#BhattScholze13)).
 
 
 
