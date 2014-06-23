@@ -255,7 +255,7 @@ such that for each $n \in \mathbb{N}$ the component $Q_{n,\bullet} \to C_n$ is a
 +-- {: .num_remark }
 ###### Remark
 
-A projective resolution as above may in partoicular also be regarded as a [[double complex]] $Q_{\bullet, \bullet}$ equipped with a morphism of double complex to $C_\bullet$ regarded as a vertically constant double complex.
+A projective resolution as above may in particular also be regarded as a [[double complex]] $Q_{\bullet, \bullet}$ equipped with a morphism of double complex to $C_\bullet$ regarded as a vertically constant double complex.
 
 In other words, a projective resolution of a chain complex in an [[abelian category]] $\mathcal{A}$ is a projective resolution of an object in a [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$.
 
@@ -1910,7 +1910,7 @@ $$
   \,.
 $$
 
-Here the top right is indeed $G$, by the [[pasting law]] for pushouts and using that the left vertical composite is the [[zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[injection]]. Similarly the top right morphism is an epimorphism. 
+Here the bottom right is indeed $G$, by the [[pasting law]] for pushouts and using that the left vertical composite is the [[zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[injection]]. Similarly the bottom right morphism is an epimorphism. 
 
 Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which we assign to $c$.
 
