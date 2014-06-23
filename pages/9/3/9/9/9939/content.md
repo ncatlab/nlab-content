@@ -149,11 +149,13 @@ $$
 
 be the corresponding [[Eilenberg-MacLane spectrum]]. Then a spectrum which corresponds to a [[chain complex]] under the [stable Dold-Kan corespondence](module+spectrum#StableDoldKanCorrespondence) is $E$-local, def. \ref{AcyclicAndLocal}, if that chain complex has [[chain homology]] groups being $\mathbb{Z}[p^{-1}]$-modules.
 
-The $E$-localization of a spectrum in this case is called _[[p-localization]]_.
+The $E$-localization of a spectrum in this case is called _[[p-localization|localization away from p]]_.
 
 =--
 
 (e.g. [Lurie, Lecture 20, example 8](#LurieLecture))
+
+Conversely, localization az $H \mathbb{Z}_{(p)}$ is [[p-localiization|localization at p]].
 
 
 ### Telescopic localization
