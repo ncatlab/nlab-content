@@ -72,7 +72,7 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 ## References
 
 
-* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springe ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
