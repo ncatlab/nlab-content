@@ -199,43 +199,10 @@ A [[HoTT]]-[[Coq]]-formalization of left-exact [[reflective sub-(∞,1)-categori
 
 * {#Shulman} [[Mike Shulman]], _[HoTT/Coq/Subcategories/LexReflectiveSubcategory.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/LexReflectiveSubcategory.v)_
  
-$\, $
+An original account of [[localization of commutative rings]] and of [[p-localization|p-local]] [[homotopy theory]] is 
 
-$\, $
+* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
-
-$\, $
 
 
 
