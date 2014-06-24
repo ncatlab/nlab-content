@@ -380,15 +380,18 @@ For discussion of [[motive|motivic structures]] in [[geometric quantization]] se
 
 ## References
 
-Deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in 
+The concept of algebraic deformation quantization originates around
 
-* [[Boris Fedosov]], _Formal quantization_, Some Topics of Modern Mathematics and their Applications to Problems of Mathematical Physics (in Russian), Moscow (1985), 129-
-136.
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation Theory and Quantization_, Annals of Physics (N.Y.) 111, 61, 111 (1978)
+
+A prescription for deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in 
+
+* [[Boris Fedosov]], _Formal quantization_, Some Topics of Modern Mathematics and their Applications to Problems of Mathematical Physics (in Russian), Moscow (1985), 129-136.
 
 * [[Boris Fedosov]], _Index theorem in the algebra of quantum observables_, Sov. Phys. Dokl. 34 (1989), 318-321.
 
-* [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_  J. Differential Geom. Volume 40, Number 2 (1994), 213-238. ([EUCLID](http://projecteuclid.org/euclid.jdg/1214455536))
- {#Fedosov94}
+* {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_  J. Differential Geom. Volume 40, Number 2 (1994), 213-238. ([EUCLID](http://projecteuclid.org/euclid.jdg/1214455536))
+ 
 
 For algebraic forms this is discussed in
 
