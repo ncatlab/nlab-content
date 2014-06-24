@@ -16,22 +16,31 @@
 
 ## Idea
 
+### $\mathbb{Z}[p^{-1}]$-local, local away from $p$ and $\mathbb{Z}/p\mathbb{Z}$-acyclic
 
-For $p$ a [[prime number]], a **$p$-acyclic** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
+For $p$ a [[prime number]], a [[topological space]]/[[homotopy type]] or [[spectrum]] $X$ is called equivalently **$\mathbb{Z}[p^{-1}]$-local** or **localized away from $p$**  or else **$\mathbb{Z}/p\mathbb{Z}$-acyclic** if 
 
-* admit the [[structure]] of [[modules]] over the $p$-[[localization of a ring|localized ring]] of [[integers]]  $\mathbb{Z}[p^{-1}]$;
+* its [[homotopy groups]] admit the [[structure]] of [[modules]] over the [[localization of a ring|localized away from p]] ring of [[integers]]  $\mathbb{Z}[p^{-1}]$;
 
 equivalently:
 
 * are such that the [[tensor product]] with the $p$-[[cyclic group]] vanishes: $\pi_\bullet(X) \otimes \mathbb{Z}/p\mathbb{Z} \simeq 0$.
 
-$X$ is **$p$-local** if every map $Y \to X$ out of a $p$-acyclic $Y$ is [[homotopy|homotopic]] to the [[zero morphism]].
+### $\mathbb{Z}/p\mathbb{Z}$-local and $p$-complete
 
-(e.g. [Lurie, example 8](#Lurie))
+A [[spectrum]] $X$ is **$\mathbb{Z}/p\mathbb{Z}$-local** if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].
 
-The _$p$-localization_ is the [[localization]] that makes the $p$-local homotopy types/spectra be the [[local objects]]. 
+The _$\mathbb{Z}/p\mathbb{Z}$-localization_ is the [[localization]] that makes the $\mathbb{Z}/p\mathbb{Z}$-local homotopy types/spectra be the [[local objects]].  This is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$. 
 
-Specifically for [[spectra]] this is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_p$.
+This $\mathbb{Z}/p\mathbb{Z}$-localization is _$p$-[[completion]]_.
+
+(e.g. [May-Ponto, example 19.2.3](#MayPonto) [Lurie, example 8](#Lurie))
+
+### $\mathbb{Z}_{(p)}$-local and  local at $p$ 
+
+Conversely, with $\mathbb{Z}_{(p)}$ the ring of integers [[localization of a ring|localized at]] $p$, hence with all primes except $p$ inverted, then localization of spaces/spectra at $p$ is similarly localization by $H \mathbb{Z}_{(p)}$
+
+(e.g. [May-Ponto 5.2 and example 19.2.3](#MayPonto)).
 
 ## Properties
 
@@ -61,48 +70,10 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
-* [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
+* {#MayPonto} [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects p-localizations]]
