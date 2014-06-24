@@ -36,6 +36,11 @@ where the first sum is the [[perturbation series]] itself and where the terms wi
 
 See at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
 
+## Examples
+
+### Confinement and the mass gap
+
+A central example of a non-perturbative effect is [[confinement]] (hence the "mass gap") in [[Yang-Mills theory]]. Perturbation theory is not suited to explain this (e.g [Espiru 94, section 7](http://arxiv.org/abs/hep-ph/9410287)).
 
 
 ## Related concepts
@@ -68,4 +73,3 @@ A review specifically in [[type II string theory]] is in
 
 [[!redirects nonperturbative effect]]
 [[!redirects nonperturbative effects]]
-
