@@ -134,6 +134,10 @@ is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mat
 
 Introductions and surveys include
 
+* {#Sullivan70} [[Dennis Sullivan]], pp. 9 of _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+
+
+
 * Bernard Le Stum, _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
 
 
