@@ -15,7 +15,7 @@
 
 ## Idea
 
-The **localization of a space** or spectrum with respect to some [[primes]] is a homotopical analogue of the notion of [[localization of a commutative ring]], specifically the ring $\mathbb{Z}$ of integers, with respect to some primes.  In good cases, at least, this localization acts on the homotopy and/or homology groups as algebraic localization.  (For spaces, there are multiple inequivalent notions of localization, although all agree on [[nilpotent spaces]].)
+The **localization of a space** or spectrum with respect to some [[primes]] is a homotopical analogue of the notion of [[localization of a commutative ring]], specifically the ring $\mathbb{Z}$ of [[integers]], with respect to some primes.  In good cases, at least, this localization acts on the [[homotopy groups|homotopy]] and/or [[homology groups]] as algebraic localization.  (For spaces, there are multiple inequivalent notions of localization, although all agree on [[nilpotent spaces]].)
 
 Localization in this sense is closely related to [[Bousfield localization]].  The localization of spectra is a [[Bousfield localization of spectra]], while one of the constructions of localization of spaces is a Bousfield localization of model categories.  The present notion of localization should not be confused with the [[completion of a space]], which is a different sort of Bousfield localization.
 
@@ -33,7 +33,7 @@ For all of this page, let $T$ be a set of primes, with $\neg T$ the set of prime
 
 In general, let $\mathbb{Z}_T$ denote the ring of integers [[localization of a commutative ring|localized]] by inverting all primes in $\neg T$, i.e. the subring of $\mathbb{Q}$ whose denominators are products of primes in $\neg T$.  Thus, $\mathbb{Z}_\emptyset = \mathbb{Q}$ while $\mathbb{Z}_{\neg\{p\}} = \mathbb{Z}[\frac{1}{p}]$, and $\mathbb{Z}_{\{p\}} = \mathbb{Z}_{(p)}$ is the integers localized at the [[prime ideal]] $(p)$.
 
-Note that the analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ (sometimes written $\mathbb{F}_p$) and/or the [[p-adic integers]] $\mathbb{Z}_p$ insteaf of $\mathbb{Z}_T$.
+Note that the analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ (sometimes written $\mathbb{F}_p$) and/or the [[p-adic integers]] $\mathbb{Z}_p$ instead of $\mathbb{Z}_T$.
 
 ### Local groups
 
