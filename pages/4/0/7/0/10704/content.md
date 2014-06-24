@@ -41,7 +41,7 @@ This $\mathbb{Z}/p\mathbb{Z}$-localization is _$p$-[[p-completion|completion]]_.
 
 Conversely, with $\mathbb{Z}_{(p)}$ the ring of integers [[localization of a ring|localized at]] $p$, hence with all primes except $p$ inverted, then localization of spaces/spectra at $p$ is similarly localization by $H \mathbb{Z}_{(p)}$
 
-(e.g. [May-Ponto 5.2 and example 19.2.3](#MayPonto)).
+(e.g. [Sullivan 70, def. 2.1](#Sullivan70), [May-Ponto 5.2 and example 19.2.3](#MayPonto)).
 
 
 ## Properties
@@ -71,7 +71,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 ## References
 
-* Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
+
+* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springe ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
@@ -79,6 +80,10 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+
+See also
+
+* Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
 
 
 [[!redirects p-localization]]
