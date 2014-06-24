@@ -134,5 +134,11 @@ However, there are other sorts of completions in mathematics, such as:
 
 * [[analytic completion]]
 
+## References
+
+* {#Sullivan70} [[Dennis Sullivan]], pp.9 in _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+
+
+
 [[!redirects completion]]
 [[!redirects completions]]
