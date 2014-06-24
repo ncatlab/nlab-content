@@ -120,7 +120,7 @@ According to E. Burroni (2009, see below) the 'Giry' monad appears also in
 
 K.Sturtz discusses the Giry monad as codensity monad:
 
-* Sturtz, _The Giry monad as a codensity monad_, arXiv140.6030 (2014), [pdf](http://arxiv.org/pdf/1406.6030.pdf)
+* Sturtz, _The Giry monad as a codensity monad_, arXiv1406.6030 (2014), [pdf](http://arxiv.org/pdf/1406.6030.pdf)
 
 Apart from these papers, there are similar developments in
 
