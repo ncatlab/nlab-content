@@ -86,15 +86,15 @@ For a general nilpotent space $X$, the following properties of a map $\phi:X\to 
 
 ### Localization of non-nilpotent spaces
 
-For non-nilpotent spaces, there are multiple inequivalent definitions of localization.  For instance:
+For non-nilpotent spaces, there are multiple inequivalent definitions of localization (see [May-Ponto, Remark 19.3.11](#MayPonto)).  For instance:
 
-* One can do a [[Bousfield localization of model categories]] with respect to the class of $\mathbb{Z}_T$-homology equivalences.
+* One can do a [[Bousfield localization of model categories]] with respect to the class of $\mathbb{Z}_T$-homology isomorphisms.  In this case, the "$T$-local spaces" are those $Z$ such that $[Y,Z] \to [X,Z]$ is an isomorphism for all $\mathbb{Z}_T$-homology isomorphisms $X\to Y$ (the first characterization of $T$-local nilpotent spaces above).
 
 * One can construct a [[totalization]] of the [[cosimplicial object]] induced by the "free simplicial $\mathbb{Z}_T$-module" monad.  This construction is due to [Bousfield-Kan](#BousfieldKan72).
 
-* One can do a [[Bousfield localization of model categories]] with respect to the maps $p:S^1\to S^1$ for all $p\in \neg T$.  This construction is due to [Casacuberta-Peschke](#CasacubertaPeschke).
+* One can do a [[Bousfield localization of model categories]] with respect to the maps $p:S^1\to S^1$ for all $p\in \neg T$.  This construction is due to [Casacuberta-Peschke](#CasacubertaPeschke).  In this case, the "$T$-local spaces" are those such that $\pi_1(X)$ is a $T$-local group and acts "$T$-[[p-local module|locally]]" on each $\pi_n(X)$.
 
-In most or all cases, it is not clear how to characterize the non-nilpotent local spaces homotopically or homologically, see e.g. [May-Ponto, Remark 19.3.11](#MayPonto).  On the other hand, one can of course state (one of) the above definitions of "$T$-local space" even in the non-nilpotent case, as is done by [Sullivan](#Sullivan70), but it is not clear whether a corresponding "localization" exists.
+One can of course state the other two characterizations of "$T$-local space" from the nilpotent case even in the non-nilpotent case, as is done by [Sullivan](#Sullivan70), but these characterizations are no longer equivalent to the first one, and it is not clear whether corresponding "localizations" exist.
 
 ## Properties
 
