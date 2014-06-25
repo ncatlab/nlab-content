@@ -1,8 +1,99 @@
-A [[group]] is __nilpotent__ if its [[lower central series]] terminates with the trivial subgroup after finitely many steps. Cf. [[nilpotent Lie algebra]]. 
+# Nilpotent groups
+* table of contents
+{: toc}
+
+## Idea
+
+A [[group]] is __nilpotent__ if it can be built up by [[central extensions]] from [[abelian groups]].  A __central series__ for a group is a witness to its nilpotency.
+
+More generally, we may speak about $\mathcal{A}$-nilpotent $\pi$-groups, for any class $\mathcal{A}$ of abelian groups and any group $\pi$ acting on our groups.  A group $G$ is equivalently an [[Ab]]-nilpotent $G$-group for its [[adjoint action]].
+
+## Definition
+
+### Nilpotent groups and central series
+
++-- {: .un_defn}
+###### Definition
+The class of **nilpotent groups** is defined [[inductive definition|inductively]] by the following clauses:
+
+1. The trivial group $1$ is $\mathcal{A}$-nilpotent.
+
+2. If $1\to G' \to G \to G''\to 1$ is a [[central extension]] (so that in particular, $G'$ is abelian) and $G''$ is nilpotent, then $G$ is nilpotent.
+=--
+
+Phrased in this way, nilpotency is an inductive [[predicate]] on the class of groups.  If we regard the same clauses as defining an inductive [[family]] indexed over the class of groups, then we obtain the definition of a central series.
+
++-- {: .un_defn}
+###### Definition
+The set of **central series** for of group $G$ is defined [[inductive definition|inductively]] by the following clauses:
+
+1. The trivial group $1$ has a specified central series, called the "trivial" one.
+
+2. From any central extension $1\to G' \to G \to G''\to 1$ and any central series of $G''$, we obtain a central series of $G$, called an "extension" of the given one.
+=--
+
+Thus, central series are "witnesses" to nilpotency: a group is nilpotent if and only if it has some central series.
+
+If we "expand out" the inductive definition of central series, and use the [[isomorphism theorems]], we see that it consists of a sequence of central extensions
+$$ 1 \to G_1 \to G \to G/G_1 \to 1 $$
+$$ 1 \to G_2/G_1 \to G/G_1 \to G/G_2 \to 1$$
+$$ 1 \to G_3/G_2 \to G/G_2 \to G/G_2 \to 1$$
+$$ \dots $$
+$$ 1 \to G/G_{n-1} \to G/G_{n-1} \to 1 \to 1$$
+and therefore a sequence of [[normal subgroups]]
+$$ 1 = G_0 \trianglelefteq G_1 \trianglelefteq G_2 \trianglelefteq \dots \trianglelefteq G_{n-1} \trianglelefteq G_0 = G $$
+such that each $G_i/G_{i-1}$ is central in $G/G_{i-1}$.
+This is the "usual" definition of central series.
+
+
+### Nilpotency class
+
+Every central series has a *length*, defined recursively by saying that the length of the trivial central series is $0$ and the length of an extension is one more than the length of the original.  The **nilpotency class** of a nilpotent group is the minimum length of all of its central series.
+
+Proofs about nilpotent groups are often most naturally phrased using induction over the inductive definition of nilpotency.  However, probably due to widespread ignorance about inductive definitions, it is common to find them phrased instead using ordinary natural-number induction over the nilpotency class.
+
+### Co-nilpotent groups and central streams
+
+If we interpret the same defining clauses of nilpotent groups and central series [[coinductive definition|coinductively]] rather than inductively, we obtain notions that might be called *co-nilpotent groups* and *central streams* ("stream" being the standard name for the coinductive counterpart of a list).  Explicitly, a central stream is a descending countable sequence of normal subgroups, such that each successive quotient is central in the corresponding quotient of the whole group, that may or may not ever terminate with the trivial group.
+
+In fact, *every* group admits some central stream and hence is co-nilpotent.  Two canonical central streams associated to any group are its  [[lower central series]] and its [[upper central series]].  Despite the names, these two central streams are actually central series (i.e. they terminate at the trivial group) if and only if the group is nilpotent.
+
+
+### $\mathcal{A}$-nilpotent $\pi$-groups
+
+The following generalization of nilpotent groups is sometimes useful.  Let $\mathcal{A}$ be any class of [[abelian groups]] containing $0$, and let $\pi$ be any group.  By a *$\pi$-group* we mean a group with an action of $\pi$ (through group automorphisms, of course).
+
++-- {: .un_defn}
+###### Definition
+The class of **$\mathcal{A}$-nilpotent** $\pi$-groups is defined [[inductive definition|inductively]] by the following clauses:
+
+1. The trivial group $1$ is $\mathcal{A}$-nilpotent.
+
+2. If $1\to G' \to G \to G''\to 1$ is a [[central extension]] of $\pi$-groups (i.e. a central extension whose maps are $\pi$-equivariant), and $G''$ is $\mathcal{A}$-nilpotent while $G'\in \mathcal{A}$ and $\pi$ acts trivially on $G'$, then $G$ is $\mathcal{A}$-nilpotent.
+=--
+
+A group $G$ is nilpotent in the original sense if and only if it is an $Ab$-nilpotent $G$-group with its [[adjoint action]].  If $\pi$ is nontrivial and/or $\mathcal{A}$ is strictly smaller than $Ab$, then the notion of $\mathcal{A}$-nilpotency can be nontrivial even for abelian groups (whereas every abelian group is obviously nilpotent in the ordinary sense).
+
+
+## Properties
 
 Every nilpotent group is an example of a [[solvable group]] (indeed, the groups in the [[lower central series]] of any group can be term-wise included into its [[derived series]]).
 
+## Related pages
+
+* [[localization of a space]]
+* [[nilpotent Lie algebra]]
+
+## References
+
 * eom [nilpotent group](http://eom.springer.de/n/n066720.htm)
+
 * wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
 
+* [[Peter May]] and [[Kate Ponto]], *More Concise Algebraic Topology*
+
 [[!redirects nilpotent groups]]
+[[!redirects central series]]
+[[!redirects lower central series]]
+[[!redirects upper central series]]
+[[!redirects characteristic series]]
