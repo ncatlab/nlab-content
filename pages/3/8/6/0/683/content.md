@@ -267,7 +267,7 @@ $$
 For details on this see [[Quillen bifunctor]] or around page 9 of ([Gambino 10](#Gambino10)).
 
 
-From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
+From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the weighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
 
 
@@ -277,7 +277,7 @@ From the fact that this is a Quillen bifunctor and using the observation that fo
  {#BarConstruction}
 
 
-A general way of obtaining resoltions that compute homotopy (co)limits involves [[bar construction]]s. (...)
+A general way of obtaining resolutions that compute homotopy (co)limits involves [[bar construction]]s. (...)
 
 ## Homotopy limits versus higher categorical limits
 
@@ -317,9 +317,9 @@ Let
 
 * let $D$ be a [[small category|small]] [[simplicially enriched category]] 
 
-  (possibly an ordinary [[locally small category]] regarded as a [[SSet]]-[[enriched category]] in the tautological way) 
+  (possibly an ordinary [[locally small category]] regarded as a [[sSet]]-[[enriched category]] in the tautological way) 
 
-* and let $F : D \to C$ be an [[SSet]]-[[enriched functor]].
+* and let $F : D \to C$ be an [[sSet]]-[[enriched functor]].
 
 There is a general formula for the homotopy colimit over $F$ in terms of a [[coend]] or [[weighted colimit]] in $C$, using the following ingredients:
 
@@ -344,22 +344,22 @@ $$
   \,.
 $$
 
-That $C$ is a [[simplicial model category]] implies in particular that it is [[copower|tensored]] over [[SSet]] and that the tensoring functor
+That $C$ is a [[simplicial model category]] implies in particular that it is [[copower|tensored]] over [[sSet]] and that the tensoring functor
 
 $$
-  \otimes : C \times SSet \to C
+  \otimes : C \times sSet \to C
 $$
 
 is a left [[Quillen bifunctor]]. By the properties of Quillen bifunctors discussed there, it follows that the [[coend]]s over the [[copower|tensor]] in the form
 
 $$
-  \int^D (-) \otimes (-) : [D^{op},SSet]_{proj} \times [D,C]_{inj} \to C
+  \int^D (-) \otimes (-) : [D^{op},sSet]_{proj} \times [D,C]_{inj} \to C
 $$
 
 and in the form
 
 $$
-  \int^D (-) \otimes (-) : [D^{op},SSet]_{inj} \times [D,C]_{proj} \to C
+  \int^D (-) \otimes (-) : [D^{op},sSet]_{inj} \times [D,C]_{proj} \to C
 $$
 
 both themselves left [[Quillen bifunctor]]s. 
@@ -367,10 +367,10 @@ both themselves left [[Quillen bifunctor]]s.
 Write
 
 $$
-  {*} : D^{op} \to SSet
+  {*} : D^{op} \to sSet
 $$
 
-for the functor that sends everything to the identity on the singleton set. This is the tensor unit in the [[monoidal category]] $[D^{op},SSet]$.
+for the functor that sends everything to the identity on the singleton set. This is the tensor unit in the [[monoidal category]] $[D^{op},sSet]$.
 
 
 #### General formula
@@ -413,10 +413,10 @@ Let $D = \Delta^{op}$ be the [[opposite category]] of the [[simplex category]].
 +-- {: .num_prop }
 ###### Proposition
 
-A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, SSet]$ is the the [[fat simplex]]-functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta^{op}$ under $[n]$
+A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, sSet]$ is the the [[fat simplex]]-functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta^{op}$ under $[n]$
 
 $$
-  N(-/\Delta^{op})^{op} : \Delta \to SSet
+  N(-/\Delta^{op})^{op} : \Delta \to sSet
   \,.
 $$
 
@@ -449,7 +449,7 @@ In this simple case, we have the following simple observation:
 +-- {: .num_lemma }
 ###### Observation
 
-For $D$ as above, the terminal functor ${*} : D \to SSet$ is already cofibrant in $[D,SSet]_{inj}$.
+For $D$ as above, the terminal functor ${*} : D \to sSet$ is already cofibrant in $[D,sSet]_{inj}$.
 
 =--
 
