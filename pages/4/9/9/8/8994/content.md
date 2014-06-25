@@ -6,7 +6,7 @@ and the obvious six pentagon equations and four triangle equations that make the
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
 
-**Warning:** a linearly distributive category is *not* a [[distributive category]].
+**Warning:** a linearly distributive category *cannot* be a [[distributive category]], unless it is a partial order.
 
 ## Related pages
 
