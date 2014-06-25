@@ -30,6 +30,9 @@ If the field of [[electromagnetism]] serves as a [[background gauge field]] for 
 
 On the locus of the magnetic charge itself the situation is more complex. There the [[magnetic current]] is given by a cocycle in [[ordinary differential cohomology]] of degree 3 (with compact support) and now the electromagnetic field is a connection on a [[twisted bundle]].
 
+See at _[electromagnetic field -- charge quantization](electromagnetic+field#DiracArgument)_.
+
+
 ## Related concepts
 
 * [[monopole]]
@@ -38,5 +41,5 @@ On the locus of the magnetic charge itself the situation is more complex. There 
 
 ## Reference
 
-* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+* [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
