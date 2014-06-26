@@ -28,7 +28,7 @@ A _topological category_ is a [[concrete category]] with nice features matching 
 
 Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$. Sometimes, when $D$ is in fact [[Set]], the category $C$ satisfying the properties described belows is called a _topological construct_ (Preuss). Usually $C$ and $D$ will be [[large categories]].  Let a _space_ be an object of $C$, an _algebra_ be an object of $D$, a _map_ be a morphism in $C$, and a _homomorphism_ be a morphism in $D$.  (The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
 
-Then $C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists a unique [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
+Then $C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists an [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
 *  a space $T$, an [[isomorphism]] $g\colon U(T) \to X$, and maps $m_i\colon T \to S_i$ such that each [[composite]] $g ; f_i$ equals $U(m_i)$ and,
 *  given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each composite $g' ; f_i$ equals $U(m'_i)$, then there exist
    *  a map $n\colon T' \to T$ such that $U(n) ; g = g'$ and
@@ -48,6 +48,11 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
 
 
 It follows by a clever argument that $U\colon C \to D$ must be [[faithful functor|faithful]]; see Theorem 21.3 of [ACC][acc].  That is also often included in the definition, in which case the uniqueness of $n$ can be left out.  Thus we may think of objects of $C$ as objects of $D$ equipped with [[extra structure]].  The idea is then that $T$ is $X$ equipped with the __initial structure__ or __[[weak structure]]__ determined by the requirement that the homomorphisms $f_i$ be structure-preserving maps.
+
++-- {: .num_remark} 
+###### Remark 
+Another condition often considered traditional in the definition of topological concrete category is _uniqueness_ of initial lifts (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]]. A drawback (from an [[nPOV]]) is that this condition violates the [[evil|principle of equivalence]], and arguably doesn't add anything mathematically important. Thus, although it occurs in the literature, here we will consider it purely optional. 
+=--
 
 The dual concept could be called a _cotopological category_.  However, this is not actually anything new; $U\colon C \to D$ is topological if and only if $U^op\colon C^op \to D^op$ is.  This is a [[categorification]] of the theorem that any complete [[semilattice]] is a [[complete lattice]].  Thus, every topological category also has __final__ (not usually called _terminal_) or __[[strong structure|strong]]__ structures, each determined by a family of homomorphisms $f_i\colon U(S_i) \to X$ (a $U$-structured [[sink]] to $X$).
 
