@@ -1,3 +1,4 @@
+
 # Nilpotent groups
 * table of contents
 {: toc}
@@ -8,6 +9,7 @@ A [[group]] is __nilpotent__ if it can be built up by [[central extensions]] fro
 
 More generally, we may speak about $\mathcal{A}$-nilpotent $\pi$-groups, for any class $\mathcal{A}$ of abelian groups and any group $\pi$ acting on our groups.  A group $G$ is equivalently an [[Ab]]-nilpotent $G$-group for its [[adjoint action]].
 
+
 ## Definition
 
 ### Nilpotent groups and central series
@@ -16,9 +18,9 @@ More generally, we may speak about $\mathcal{A}$-nilpotent $\pi$-groups, for any
 ###### Definition
 The class of **nilpotent groups** is defined [[inductive definition|inductively]] by the following clauses:
 
-1. The trivial group $1$ is $\mathcal{A}$-nilpotent.
+1. The [[trivial group]] $1$ is nilpotent.
 
-2. If $1\to G' \to G \to G''\to 1$ is a [[central extension]] (so that in particular, $G'$ is abelian) and $G''$ is nilpotent, then $G$ is nilpotent.
+2. If $1\to G' \to G \to G''\to 1$ is a [[central extension]] (so that in particular, $G'$ is [[abelian group|abelian]]) and $G''$ is nilpotent, then $G$ is nilpotent.
 =--
 
 Phrased in this way, nilpotency is an inductive [[predicate]] on the class of groups.  If we regard the same clauses as defining an inductive [[family]] indexed over the class of groups, then we obtain the definition of a central series.
@@ -52,11 +54,12 @@ Every central series has a *length*, defined recursively by saying that the leng
 
 Proofs about nilpotent groups are often most naturally phrased using induction over the inductive definition of nilpotency.  However, probably due to widespread ignorance about inductive definitions, it is common to find them phrased instead using ordinary natural-number induction over the nilpotency class.
 
+
 ### Co-nilpotent groups and central streams
 
 If we interpret the same defining clauses of nilpotent groups and central series [[coinductive definition|coinductively]] rather than inductively, we obtain notions that might be called *co-nilpotent groups* and *central streams* ("stream" being the standard name for the coinductive counterpart of a list).  Explicitly, a central stream is a descending countable sequence of normal subgroups, such that each successive quotient is central in the corresponding quotient of the whole group, that may or may not ever terminate with the trivial group.
 
-In fact, *every* group admits some central stream and hence is co-nilpotent.  Two canonical central streams associated to any group are its  [[lower central series]] and its upper central series (for now see [Wikipedia](http://en.wikipedia.org/wiki/Central_series#Upper_central_series)). Despite the names, these two central streams are actually central series (i.e. they terminate at the trivial group) if and only if the group is nilpotent.
+In fact, *every* group admits some central stream and hence is co-nilpotent.  Two canonical central streams associated to any group are its [[lower central series]] and its [[upper central series]] (for now see [Wikipedia](http://en.wikipedia.org/wiki/Central_series#Upper_central_series)). Despite the names, these two central streams are actually central series (i.e. they terminate at the trivial group) if and only if the group is nilpotent.
 
 
 ### $\mathcal{A}$-nilpotent $\pi$-groups
@@ -79,10 +82,12 @@ A group $G$ is nilpotent in the original sense if and only if it is an $Ab$-nilp
 
 Every nilpotent group is an example of a [[solvable group]] (indeed, the groups in the [[lower central series]] of any group can be term-wise included into its [[derived series]]).
 
+
 ## Related pages
 
 * [[localization of a space]]
 * [[nilpotent Lie algebra]]
+
 
 ## References
 
@@ -92,8 +97,8 @@ Every nilpotent group is an example of a [[solvable group]] (indeed, the groups 
 
 * [[Peter May]] and [[Kate Ponto]], *More Concise Algebraic Topology*
 
+
+[[!redirects nilpotent group]]
 [[!redirects nilpotent groups]]
+
 [[!redirects central series]]
-[[!redirects lower central series]]
-[[!redirects upper central series]]
-[[!redirects characteristic series]]
