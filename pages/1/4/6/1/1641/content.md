@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Topological categories
 * table of contents
 {: toc}
@@ -51,7 +50,7 @@ It follows by a clever argument that $U\colon C \to D$ must be [[faithful functo
 
 +-- {: .num_remark} 
 ###### Remark 
-Another condition often considered traditional in the definition of topological concrete category is _uniqueness_ of initial lifts (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]]. A drawback (from an [[nPOV]]) is that this condition violates the [[evil|principle of equivalence]], and arguably doesn't add anything mathematically important. Thus, although it occurs in the literature, here we will consider it purely optional. 
+Another condition often considered traditional in the definition of topological concrete category is _uniqueness_ of initial lifts (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]]. A drawback (from an [[nPOV]]) is that this condition violates the [[evil|principle of equivalence]], and arguably doesn't add anything mathematically important. Thus, although it occurs in the literature, here we will consider it purely optional. (It is possible that some results recorded here about topological categories will depend on this assumption, but only 'evil' results could be affected.)
 =--
 
 The dual concept could be called a _cotopological category_.  However, this is not actually anything new; $U\colon C \to D$ is topological if and only if $U^op\colon C^op \to D^op$ is.  This is a [[categorification]] of the theorem that any complete [[semilattice]] is a [[complete lattice]].  Thus, every topological category also has __final__ (not usually called _terminal_) or __[[strong structure|strong]]__ structures, each determined by a family of homomorphisms $f_i\colon U(S_i) \to X$ (a $U$-structured [[sink]] to $X$).
