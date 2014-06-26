@@ -47,7 +47,16 @@ The concept of reductive is not quite the same for [[Lie groups]] as it is for [
 
 ## References
 
+Review includes
+
 * Wikipedia, _[Reductive group](http://en.wikipedia.org/wiki/Reductive_group)_
+
+Discussion of the "basic" [[holomorphic line 2-bundle]] on complex reductive groups is in 
+
+The actual construction appears in
+
+* {#Brylinski00} [[Jean-Luc Brylinski]], _Gerbes on complex reductive Lie groups_ ([arXiv:math/0002158](http://arxiv.org/abs/math/0002158))
+
 
 
 [[!redirects reductive groups]]
