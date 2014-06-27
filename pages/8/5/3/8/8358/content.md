@@ -84,7 +84,7 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
    1. $\nabla$ factors through $Proj(\mathcal{E})$;
 
-1. there exists an object $D \in \mathcal{E}$ such that
+1. there exists an object $D \in Proj(\mathcal{E})$ such that
 
    1. $D$ is $\nabla\Gamma$-[[separated presheaf|separated]] (in that its $(\Gamma \dashv \nabla)$-[[unit of a monad|unit]] is a [[monomorphism]]);
 
