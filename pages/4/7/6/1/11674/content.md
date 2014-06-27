@@ -15,6 +15,8 @@ An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic
 
 ## References
 
+* {#Ogus01} [[Arthur Ogus]], Chapter IV of _Lectures on logarithmic algebraic geometry_, TeXed notes, 2001, [pdf](http://math.berkeley.edu/~ogus/preprints/log_book/logbook.pdf)
+
 * [[Arthur Ogus]], slides 31 ff in _Logarithmic geometry_, talk slides 2009 ([pdf](http://math.berkeley.edu/~ogus/preprints/colloqhandout.pdf))
 
 * {#Burgos} [[José Ignacio Burgos]], _A $C^\infty$-logarithmic Dolbeault complex_, Compositio Math. 92 (1994), no. 1, 61-86. MR 1275721 (95g:32056)
