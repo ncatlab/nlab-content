@@ -9,10 +9,13 @@ An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic
 
 ## Related concepts
 
+* [[logarithmic geometry]]
+
 * [[differential algebraic K-theory]]
 
 ## References
 
+* [[Arthur Ogus]], slides 31 ff in _Logarithmic geometry_, talk slides 2009 ([pdf](http://math.berkeley.edu/~ogus/preprints/colloqhandout.pdf))
 
 * {#Burgos} [[José Ignacio Burgos]], _A $C^\infty$-logarithmic Dolbeault complex_, Compositio Math. 92 (1994), no. 1, 61-86. MR 1275721 (95g:32056)
 
@@ -25,4 +28,3 @@ In the context of [[differential algebraic K-theory]]
  
 
 [[!redirects differential forms with logarithmic singularities]]
-
