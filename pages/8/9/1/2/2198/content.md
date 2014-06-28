@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -28,51 +28,46 @@ A __proximity space__ is a kind of [[structured set]]: it consists of a [[set]] 
 *  The __apartness relation__ $\bowtie$; $A$ and $B$ are __apart__ if $A \bowtie B$.
 *  The __neighbourhood relation__ $\ll$; $A$ is a __neighbourhood__ of $B$ if $B \ll A$.
 
+The conditions required of these relations are given below in the Definitions.
 
-In [[classical mathematics]], these are all interdefinable:
+
+In [[classical mathematics]], these relations are all interdefinable:
 
 *  $A \;\delta\; B \;\iff\; \neg(A \bowtie B) \;\iff\; \neg(A \ll B')$;
 *  $A \bowtie B \;\iff\; \neg(A \;\delta\; B) \;\iff\; A \ll B'$;
 *  $A \ll B \;\iff\; \neg(A \;\delta\; B') \;\iff\; A \bowtie B'$.
 
-In [[constructive mathematics]], one of these may be taken as primary and the others defined using it; this we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
+(Here, $\neg$ indicates [[negation]] of truth values, while $B'$ is the [[complement]] of $B$ in $X$.)
+
+In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
 
 
 ## Definitions
 
-A __proximity structure__ (or set--set __nearness structure__) on a [[set]] $X$, or a __proximity relation__ (or __nearness relation__) on the [[power set]] $P(X)$ of subsets of $X$, is a binary [[relation]] $\delta$ on $P(X)$ such that 
+From the previous section, we have a [[set]] $X$ and we are discussing [[binary relations]] $\delta, \bowtie, \ll$ on $X$.  These are required to satisfy the following conditions; in each row, the conditions for the various relations are all equivalent (classically).  In these conditions, $x, y$ are points, while $A, B, C$ are subsets, and we require them for all points or subsets.
 
-1. _symmetry_:  $A\;\delta\;B$ iff $B\;\delta\;A$;
+| Name | Condition for nearness | Condition for apartness | Condition for neighbourhoods |
+| - | - | - | - |
+| Symmetry | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B' \ll A'$ |
+| Additivity (left, binary) | $A \cup B \;\delta\; C$ iff $A \;\delta\; C$ or $B \;\delta\; C$ | $A \cup B \bowtie C$ iff $A \bowtie C$ and $B \bowtie C$ | $A \cup B \ll C$ iff $A \ll C$ and $B \ll C$ |
+| Additivity (right, binary) | $A \;\delta\; B \cup C$ iff $A \;\delta\; B$ or $A \;\delta\; C$ | $A \bowtie B \cup C$ iff $A \bowtie B$ and $A \bowtie C$ | $A \ll B \cap C$ iff $A \ll B$ and $A \ll C$ |
+| Additivity (left, nullary) | It is false that $\emptyset \;\delta\; A$ | $\emptyset \bowtie A$ | $\emptyset \ll A$ |
+| Additivity (right, nullary) | It is false that $A \;\delta\; \emptyset$ | $A \bowtie \emptyset$ | $A \ll X$ |
+| Isotony | If $A \subseteq C$ and $B \subseteq D$, then $C \;\delta\; D$ if $A \;\delta\; B$ | If $A \subseteq C$ and $B \subseteq D$, then $A \bowtie B$ if $C \bowtie D$ | If $A \subseteq C$ and $B \subseteq D$, then $A \ll D$ if $C \ll B$ |
+| Reflexivity | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
+| Regularity | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
+| Separation | $x = y$ if $\{x\} \;\delta\; \{y\}$ | $x = y$ unless $\{x\} \bowtie \{y\}$ | $x = y$ unless $\{x\} \ll \{y\}'$ |
 
-2. _binary additivity_:  $A\;\delta\;B\cup C$ iff either $A\;\delta\;B$ or $A\;\delta\;C$;
+Separation should *not* be required by default; a proximity, proximity space, set--set apartness space, etc is __separated__ if it satisfies this axiom.
 
-3. _nullary additivity_:  it is never true that $A\;\delta\;\emptyset$;
+In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, it is sufficient to state Reflexivity only for [[singleton subset|singletons]] (where $B$ in the axiom for neighbourhoods is the complement of a singleton instead, which is inappropriate in constructive mathematics); this is not common, but it allows us to see Separation as a converse of Reflexivity for singletons.  Similarly, Isotony allows us to assume that $D$ and $E$ are complements in Regularity (or that $D = E$ in the axiom for neighbourhoods), which is usually done (although this is inappropriate in constructive mathematics, except for neighbourhoods).  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
 
-4. $\{x\}\;\delta\;\{y\}$ if $x=y$
-
-5. if for every $C,D\subset X$ such that $C\cup D=X$, either $A\;\delta\;C$ or $B\;\delta\;D$, then $A\;\delta\;B$.
-
-Another axiom one may require is the converse of (4):
-
-*  _separation_:  $x=y$ if $\{x\}\;\delta\;\{y\}$
-
-In general, we say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delta\;B$, and __apart__ otherwise.  We also write $A \ll B$ if not $A\;\delta\;(X \setminus B)$.
-
-A __proximity space__ (or set--set __nearness space__) is a set $X$ equipped with a proximity structure $\delta$.  The proximity structure or proximity space is __separated__ if it satisfies the separation axiom (the converse of 4); note that many authors require this by default.
-
-
-### Variations
-
-There are many variations possible in the list of axioms; one important consequence of the above (sometimes listed separately, allowing additivity to be weakened) is this:
-
-*  _isotony_:  if $A\subset C$ and $B\subset D$, then $C\;\delta\;D$ if $A\;\delta\;B$.
-
-It is also possible to write the definition in terms of the apartness relation or the relation $\ll$.  In particular, a (set--set) __apartness space__ is a set $X$ equipped with a binary relation $\bowtie$ on $P(X)$ such that the [[negation]] of $\bowtie$ is a proximity relation.  This is the preferred formulation in [[constructive mathematics]] (although you\'ll want to rephrase the definition axiom by axiom to remove spurious [[double negations]]).
+On the other hand, we have a __quasiproximity__ (etc) if Symmetry is allowed to fail; then both left and right Additivity must be stated.  (Symmetry for neighbourhood spaces is particularly tricky in constructive mathematics.)
 
 
 ## The category $Prox$
 
-If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **proximally continuous** if $A\;\delta\;B$ implies $f(A)\;\delta\;f(B)$.  In this way we obtain a [[category]] $Prox$, whose evident forgetful functor $Prox \to Set$ makes it into a [[topological concrete category]].
+If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $A \ll B$ whenever $f_*(A) \ll f_!(B)$.  In this way we obtain a [[category]] $Prox$, whose evident forgetful functor $Prox \to Set$ makes it into a [[topological concrete category]].
 
 
 ## Relation to other topological structures
@@ -131,6 +126,7 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 
 [[!redirects proximity]]
 [[!redirects proximities]]
+[[!redirects proximity space]]
 [[!redirects proximity spaces]]
 [[!redirects proximity structure]]
 [[!redirects proximity structures]]
@@ -145,14 +141,40 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 [[!redirects nearness relations]]
 
 [[!redirects set-set nearness space]]
-[[!redirects set-set nearness structure]]
-[[!redirects set-set nearness relation]]
+[[!redirects set-set nearness spaces]]
 [[!redirects set–set nearness space]]
-[[!redirects set–set nearness structure]]
-[[!redirects set–set nearness relation]]
+[[!redirects set–set nearness spaces]]
 [[!redirects set--set nearness space]]
+[[!redirects set--set nearness spaces]]
+[[!redirects set-set nearness structure]]
+[[!redirects set-set nearness structures]]
+[[!redirects set–set nearness structure]]
+[[!redirects set–set nearness structures]]
 [[!redirects set--set nearness structure]]
+[[!redirects set--set nearness structures]]
+[[!redirects set-set nearness relation]]
+[[!redirects set-set nearness relations]]
+[[!redirects set–set nearness relation]]
+[[!redirects set–set nearness relations]]
 [[!redirects set--set nearness relation]]
+[[!redirects set--set nearness relations]]
+
+[[!redirects quasiproximity]]
+[[!redirects quasiproximities]]
+[[!redirects quasi-proximity]]
+[[!redirects quasi-proximities]]
+[[!redirects quasiproximity space]]
+[[!redirects quasiproximity spaces]]
+[[!redirects quasi-proximity space]]
+[[!redirects quasi-proximity spaces]]
+[[!redirects quasiproximity structure]]
+[[!redirects quasiproximity structures]]
+[[!redirects quasi-proximity structure]]
+[[!redirects quasi-proximity structures]]
+[[!redirects quasiproximity relation]]
+[[!redirects quasiproximity relations]]
+[[!redirects quasi-proximity relation]]
+[[!redirects quasi-proximity relations]]
 
 [[!redirects proximally continuous function]]
 [[!redirects proximally continuous functions]]
