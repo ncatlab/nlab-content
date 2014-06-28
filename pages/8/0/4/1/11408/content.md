@@ -17,9 +17,9 @@
 
 The _L&#246;wenheim-Skolem theorem_ is one of the basic results of _[[model theory]]_ about the characterization of [[models]] over [[first-order theories]].
 
-The theorem is part of a family of theorems that concern the relation between structures and models of different cardinality. Historically it was one of the first results in model theory with papers published by L&#246;wenheim (1912) and Skolem (1920).
+The theorem is part of a family of closely related theorems that concern the relation between structures and models of different cardinality. Historically it was one of the first results in model theory with papers published by L&#246;wenheim (1912) and Skolem (1920) which helped establishing first-order logic in the center of mathematical logic.
 
-Variants of the theorem hold in infinitary logic with countably infinite disjunctions and in categorical logic for [[sketches]]. The theorem plays a key role in [[abstract model theory]] e.g. in Lindstr&#246;m's characterization of [[first-order logic]].
+Although the theorem fails in second-order logic variants hold in infinitary logic with countably infinite disjunctions and in categorical logic for [[sketches]]. The theorem plays an important role in [[abstract model theory]] e.g. in Lindstr&#246;m's characterization of [[first-order logic]].
 
 ## Related concepts
 
