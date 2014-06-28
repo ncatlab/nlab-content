@@ -55,18 +55,18 @@ From the previous section, we have a [[set]] $X$ and we are discussing [[binary 
 | Additivity (right, nullary) | It is false that $A \;\delta\; \emptyset$ | $A \bowtie \emptyset$ | $A \ll X$ |
 | Isotony | If $A \subseteq C$ and $B \subseteq D$, then $C \;\delta\; D$ if $A \;\delta\; B$ | If $A \subseteq C$ and $B \subseteq D$, then $A \bowtie B$ if $C \bowtie D$ | If $A \subseteq C$ and $B \subseteq D$, then $A \ll D$ if $C \ll B$ |
 | Reflexivity (general) | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
-| Reflexivity (simplified) | $\{x\} \;\delta\; \{y\}$ | It is false that $\{x\} \bowtie \{y\}$ | If $\{x\} \ll A$, then $x \in A$ |
+| Reflexivity (for singletons) | $\{x\} \;\delta\; \{y\}$ | It is false that $\{x\} \bowtie \{y\}$ | If $\{x\} \ll A$, then $x \in A$ |
 | Regularity (constructive) | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
 | Regularity (simplified) | If for every $D \subseteq X$, either $A \;\delta\; D$ or $D' \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D$ and $D' \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
 
-In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, we are able to simplify Reflexivity as shown, although this is often not done (to avoid mentioning points).  Similarly, Isotony allows us to assume to simplify Regularity as shown (which is usually done), although this simplification is appropriate for constructive mathematics only when axiomatizing proximal neighbourhoods.  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
+In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, we need Reflexivity only for singletons, although this is often not done (to avoid mentioning points).  Similarly, Isotony allows us to simplify Regularity as shown (which is usually done), although this simplification is appropriate for constructive mathematics only when defining neighbourhood spaces.  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
 
 On the other hand, we have a __quasiproximity__ (etc) if Symmetry is allowed to fail; then both left and right Additivity must be stated.  (Symmetry for neighbourhood spaces is particularly tricky in constructive mathematics.)
 
 
 ## The category $Prox$
 
-If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $A \ll B$ whenever $f_*(A) \ll f_!(B)$.  In this way we obtain a [[category]] $Prox$, whose evident forgetful functor $Prox \to Set$ makes it into a [[topological concrete category]].
+If $X$ and $Y$ are (quasi)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $A \ll B$ whenever $f_*(A) \ll f_!(B)$.  In this way we obtain a [[category]] $Prox$; the [[forgetful functor]] $Prox \to Set$ (taking a space to its set of points) makes it into a [[topological concrete category]].  The same goes for the category $QProx$ of quasiproximity spaces.
 
 
 ## Relation to other topological structures
@@ -79,25 +79,29 @@ If the quasiproximity satisfies Symmetry, then this preorder is [[symmetric rela
 
 Regardless of Symmetry, we say that a (quasi)-proximity space is __separated__ if this preorder is the [[equality relation]].  That is, $x = y$ if $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently if every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, or equivalently if $\{x\}$ is near $\{y\}$, or equivalently if $\{x\}$ is not apart from $\{y\}$.  This may be viewed as a converse of simplified Reflexivity, which states that $\{x\} \;\delta\; \{y\}$ whenever $x = y$.
 
+Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if $x \leq y$ for some $x \in A$ and some $y \in B$, or equivalently let $A \bowtie B$ if $x \leq y$ for no $x \in A$ and no $y \in B$, or equivalently let $A \ll B$ if $x \leq y$ for $x \in A$ implies $y \in B$.  The we have a quasiproximity space which is symmetric iff $\leq$ is.
+
+In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $Setoid$ of [[setoids]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
+
 
 ### Topological spaces
 
-Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A\subset X$ iff $\{x\}\;\delta\;A$.  This topology is always [[completely regular space|completely regular]], and [[Hausdorff space|Hausdorff]] (hence [[Tychonoff space|Tychonoff]]) iff the proximity space is separated; see [[separation axiom]].  Proximally continuous functions are continuous for the induced topologies, so we have a functor $Prox \to Top$ over $Set$.
+Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A \subseteq X$ iff $\{x\} \;\delta\; A$, or equivalently let $x$ belong to the interior of $A$ iff $\{x\} \ll A$.  This topology is always [[completely regular space|completely regular]], and [[Hausdorff space|Hausdorff]] (hence [[Tychonoff space|Tychonoff]]) iff the proximity space is separated; see [[separation axiom]].  Proximally continuous functions are [[continuous map|continuous]] for the induced topologies, so we have a functor $Prox \to Top$ over $Set$.
 
-Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A,B\subset X$ let $A\;\delta\;B$ iff $A\neq \emptyset\neq B$ and there is no continuous function $f:X\to I=[0,1]$ such that $f(x)=0$ on $A$ and $f(x)=1$ on $B$. This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdorff (hence Tychonoff) topology.
+Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A, B \subseteq X$ let $A \bowtie B$ iff there is a continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdorff (hence Tychonoff) topology.
 
-In general, a completely regular topology may be induced by more than one proximity.  However, if it is moreover [[compact topological space|compact]], then it has a unique compatible proximity.
+In general, a completely regular topology may be induced by more than one proximity.  However, if it is moreover [[compact topological space|compact]], then it has a unique compatible proximity, given above.  In the case of a [[compact Hausdorff space]] (or more generally any [[normal regular space]]), we then have $A \ll B$ iff $Cl(A) \subseteq Int(B)$.
 
 
 ### Uniform spaces
 
-If $U$ is a [[uniformity]] on $Y$ (making it into a [[uniform space]]), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every [[entourage]] (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$.
+If $U$ is a [[uniformity]] on $Y$ (making it into a [[uniform space]]), then for all $A, B \subseteq Y$ let $A \;\delta\; B$ iff $V \cap (A \times B)$ is [[inhabited set|inhabited]] for every [[entourage]] (aka vicinity) $V$. This also defines a proximity structure on $Y$.
 
-Uniformly continuous functions are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
+[[uniformly continuous map|Uniformly continuous functions]] are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
 Conversely, if $X$ is a proximity space, consider the family of sets of the form
-$$ \bigcup_{k=1}^n (A_k \times A_k)$$
-where $(A_k)$ is a finite family of sets such that there exists a finite family of sets $(B_k)$ with $B_k \ll A_k$ and $X = \bigcup_{k=1}^n B_k$.  These sets form a base for a [[totally bounded uniformity]] on $X$, which induces the given proximity.
+$$ \bigcup_{k=1}^n (A_k \times A_k) $$
+where $(A_k)_k$ is a [[list]] (a finite family) of sets such that there exists a same-length list of sets $(B_k)_k$ with $B_k \ll A_k$ and $X = \bigcup_{k=1}^n B_k$.  These sets form a base for a [[totally bounded uniformity]] on $X$, which induces the given proximity.
 
 In fact, this is the *unique* totally bounded uniformity which induces the given proximity: every proximity-class of uniformities contains a unique totally bounded member.  Moreover, a proximally continuous function between uniform spaces with totally bounded [[codomain]] is automatically uniformly continuous.  Therefore, the forgetful functor $Unif \to Prox$ is a left adjoint, whose right adjoint also lives over $Set$, is [[fully faithful functor|fully faithful]], and has its [[essential image]] given by the totally bounded uniform spaces.
 
@@ -111,16 +115,16 @@ A proximity space can be identified with a [[syntopogenous space]] which is both
 
 ### Compactifications
 
-The (separated) proximities inducing a given (Hausdorff) completely regular topology can be identified with (Hausdorff) compactifications of that topology.  The compactification corresponding to a proximity on $X$ is called its *Smirnov compactification*.  The points of this compactification can be taken to be *clusters* in $X$, which are defined to be collections $\sigma$ of subsets of $X$ such that
+The (separated) proximities inducing a given (Hausdorff) completely regular topology can be identified with (Hausdorff) [[compactifications]] of that topology.  The compactification corresponding to a proximity on $X$ is called its __Smirnov compactification__.  The points of this compactification can be taken to be __clusters__ in $X$, which are defined to be collections $\sigma$ of subsets of $X$ such that
 
-1. If $A\in\sigma$ and $B\in\sigma$, then $A\;\delta\;B$.
-2. If $A\;\delta\;C$ for all $C\in\sigma$, then $A\in\sigma$.
-3. If $(A\cup B)\in\sigma$, then $A\in\sigma$ or $B\in\sigma$.
+1. If $A \in \sigma$ and $B \in \sigma$, then $A \;\delta\; B$.
+2. If $A \;\delta\; C$ for all $C \in \sigma$, then $A \in \sigma$.
+3. If $(A \cup B) \in \sigma$, then $A \in \sigma$ or $B \in \sigma$.
 
 
 ## Related concepts
 
-* [[uniform space]], [[syntopogenous space]]
+* [[uniform space]], [[syntopogenous space]], [[apartness relation]], [[pretopological space]]
 
 
 ## References
