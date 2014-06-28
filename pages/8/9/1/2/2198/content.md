@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -16,12 +15,30 @@
 
 ## Idea
 
-In addition to the well-known [[topological spaces]], many other structures can be used to found topological reasoning on sets, including [[uniform spaces]] and _proximity spaces_.  Proximity spaces provide a level of structure in between topologies and uniformities; in fact a proximity is equivalent to an equivalence class of uniformities with the same [[totally bounded space|totally bounded]] reflection.
+In addition to the well-known [[topological spaces]], many other structures can be used to found topological reasoning on sets, including [[uniform spaces]] and _proximity spaces_.  Proximity spaces provide a level of structure in between topologies and uniformities; in fact a proximity is equivalent to an equivalence class of uniformities with the same [[totally bounded space|totally bounded]] [[reflection]].
 
 Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.
 
 
-## Definition
+## Notation and terminology
+
+A __proximity space__ is a kind of [[structured set]]: it consists of a [[set]] $X$ (the set of __[[points]]__ of the space) and a __proximity structure__ on $X$.  This proximity structure is given by any of various [[binary relations]] between the [[subsets]] of $X$:
+
+*  The __proximity relation__ or __nearness relation__ $\delta$; subsets $A$ and $B$ are __proximal__  or __near__ if $A \;\delta\; B$;
+*  The __apartness relation__ $\bowtie$; $A$ and $B$ are __apart__ if $A \bowtie B$.
+*  The __neighbourhood relation__ $\ll$; $A$ is a __neighbourhood__ of $B$ if $B \ll A$.
+
+
+In [[classical mathematics]], these are all interdefinable:
+
+*  $A \;\delta\; B \;\iff\; \neg(A \bowtie B) \;\iff\; \neg(A \ll B')$;
+*  $A \bowtie B \;\iff\; \neg(A \;\delta\; B) \;\iff\; A \ll B'$;
+*  $A \ll B \;\iff\; \neg(A \;\delta\; B') \;\iff\; A \bowtie B'$.
+
+In [[constructive mathematics]], one of these may be taken as primary and the others defined using it; this we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
+
+
+## Definitions
 
 A __proximity structure__ (or set--set __nearness structure__) on a [[set]] $X$, or a __proximity relation__ (or __nearness relation__) on the [[power set]] $P(X)$ of subsets of $X$, is a binary [[relation]] $\delta$ on $P(X)$ such that 
 
@@ -43,6 +60,7 @@ In general, we say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delt
 
 A __proximity space__ (or set--set __nearness space__) is a set $X$ equipped with a proximity structure $\delta$.  The proximity structure or proximity space is __separated__ if it satisfies the separation axiom (the converse of 4); note that many authors require this by default.
 
+
 ### Variations
 
 There are many variations possible in the list of axioms; one important consequence of the above (sometimes listed separately, allowing additivity to be weakened) is this:
@@ -50,6 +68,7 @@ There are many variations possible in the list of axioms; one important conseque
 *  _isotony_:  if $A\subset C$ and $B\subset D$, then $C\;\delta\;D$ if $A\;\delta\;B$.
 
 It is also possible to write the definition in terms of the apartness relation or the relation $\ll$.  In particular, a (set--set) __apartness space__ is a set $X$ equipped with a binary relation $\bowtie$ on $P(X)$ such that the [[negation]] of $\bowtie$ is a proximity relation.  This is the preferred formulation in [[constructive mathematics]] (although you\'ll want to rephrase the definition axiom by axiom to remove spurious [[double negations]]).
+
 
 ## The category $Prox$
 
@@ -81,6 +100,7 @@ In fact, this is the *unique* totally bounded uniformity which induces the given
 
 In general, proximally continuous functions need not be uniformly continuous, but in addition to total boundedness of the codomain, a different sufficient condition is that the domain be a [[metric space]].
 
+
 ### Syntopogenous spaces
 
 A proximity space can be identified with a [[syntopogenous space]] which is both *simple* and *symmetric*; see [[syntopogenous space]].
@@ -91,27 +111,39 @@ A proximity space can be identified with a [[syntopogenous space]] which is both
 The (separated) proximities inducing a given (Hausdorff) completely regular topology can be identified with (Hausdorff) compactifications of that topology.  The compactification corresponding to a proximity on $X$ is called its *Smirnov compactification*.  The points of this compactification can be taken to be *clusters* in $X$, which are defined to be collections $\sigma$ of subsets of $X$ such that
 
 1. If $A\in\sigma$ and $B\in\sigma$, then $A\;\delta\;B$.
-1. If $A\;\delta\;C$ for all $C\in\sigma$, then $A\in\sigma$.
-1. If $(A\cup B)\in\sigma$, then $A\in\sigma$ or $B\in\sigma$.
+2. If $A\;\delta\;C$ for all $C\in\sigma$, then $A\in\sigma$.
+3. If $(A\cup B)\in\sigma$, then $A\in\sigma$ or $B\in\sigma$.
+
 
 ## Related concepts
 
 * [[uniform space]], [[syntopogenous space]]
 
+
 ## References
 
 *  R. Engelking, _General topology_, chapter 8.
+
 *  [[Douglas Bridges]] et al, _Apartness, topology, and uniformity: a constructive view_, [pdf](http://www.math.canterbury.ac.nz/mathlsv/dagstuhl01.pdf)
+
 *  S. A. Naimpally and B. D. Warrack, _Proximity spaces_, Cambridge University Press 1970
+
 
 [[!redirects proximity]]
 [[!redirects proximities]]
 [[!redirects proximity spaces]]
 [[!redirects proximity structure]]
+[[!redirects proximity structures]]
 [[!redirects proximity relation]]
+[[!redirects proximity relations]]
+
 [[!redirects nearness space]]
+[[!redirects nearness spaces]]
 [[!redirects nearness structure]]
+[[!redirects nearness structures]]
 [[!redirects nearness relation]]
+[[!redirects nearness relations]]
+
 [[!redirects set-set nearness space]]
 [[!redirects set-set nearness structure]]
 [[!redirects set-set nearness relation]]
@@ -121,8 +153,9 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 [[!redirects set--set nearness space]]
 [[!redirects set--set nearness structure]]
 [[!redirects set--set nearness relation]]
+
 [[!redirects proximally continuous function]]
 [[!redirects proximally continuous functions]]
+
 [[!redirects Smirnov compactification]]
-[[!redirects cluster]]
-[[!redirects clusters]]
+[[!redirects Smirnov compactifications]]
