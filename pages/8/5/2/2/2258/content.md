@@ -1,3 +1,4 @@
+[[!redirects Gonzalo E. Reyes]]
 
 
 * [blog](http://po-start.com/reyes/)
@@ -5,9 +6,12 @@
 
 ## Publications
 
-* (with [[Ieke Moerdijk]]), _[[Models for Smooth Infinitesimal Analysis]]_
+* (with [[Michael Makkai]]), _First Order Categorical Logic_ , LNM 611, Springer Berlin 1977.
 
-  on [[synthetic differential geometry]]
+* (with [[Ieke Moerdijk]]), _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Berlin 1991.      (on [[synthetic differential geometry]])
+
+* (with Marie La Palme Reyes and Houman Zolfaghari), _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+
 
 
 category: people
