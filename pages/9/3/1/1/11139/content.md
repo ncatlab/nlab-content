@@ -1,4 +1,4 @@
-[[!redirects I. Barnea]]
+
 Ilan Barnea is a postdoc at the university of Muenster, Germany, in the research team of Prof. [[Michael Weiss]]. He is interested in abstract homotopy theory, category theory and their applications. 
 
 ##Papers and preprints
@@ -15,3 +15,5 @@ Categories_, [arXiv:1305.4607](http://arxiv.org/abs/1305.4607).
 
 
 category:people
+[[!redirects I. Barnea]]
+[[!redirects ilan barnea]]
