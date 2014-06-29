@@ -612,7 +612,7 @@ The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, wh
 
 ## Existence of localizations for combinatorial model categories {#Existence}
 
-We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the slightly more general context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
+We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
 
 By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category. 
 
@@ -683,8 +683,6 @@ In particular, in a locally presentable category the [[small object argument]] f
 #### Combinatorial model categories
 
 A [[combinatorial model category]] is a [[locally presentable category]] that is equipped with a [[cofibrantly generated model category]] structure. So in particular there is a set of generating (acyclic) cofibrations that map between [[small object]]s. 
-
-(If we'd require smallness of the domains of the generating cofibrations only with respect to these cofibrations themselves, we have instead the notion of [[cellular model category]].)
 
 [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) says that a [[locally presentable category]] has a combinatorial model category structure already if it has weak equivalences and generating cofibrations satisfying a simple condition and if weak equivalences form an [[accessible category|accessible]] [[subcategory]] of the [[arrow category]]. This means that only two thirds of the data for a generic combinatorial model category needs to be checked and greatly facilitates checking model category structures.
 
