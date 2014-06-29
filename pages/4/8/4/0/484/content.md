@@ -27,7 +27,7 @@ An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S
 
 A __[[setoid]]__ is a set equipped with an equivalence relation.
 
-Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth values]].  Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].  Then the equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid. Equivalently, a setoid is a [[(0,1)-category]] whose each morphism is iso. 
+Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth values]].  Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].  Then the equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid. Equivalently, a setoid is a [[(0,1)-category]] whose each morphism is iso, or a [[symmetric relation|symmetric]] [[preordered set]]. 
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/{\equiv}$ and use that instead.  As a groupoid, any setoid is [[equivalence of categories|equivalent]] to a [[set]] in this way (although in the absence of the [[axiom of choice]], it is only a "weak" or [[anafunctor|ana-equivalence]]).
 
