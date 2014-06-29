@@ -58,6 +58,13 @@ Next, define $D$ to be the category of triples $(a,b,\phi)$ where $\phi\colon f(
 This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization system]]s produced from Richard Garner's modified small object argument).
 
 
+#### Relation with bisimplicial sets
+
+Recall that Rezk's classifying diagram for a (small) category $C$ is the [[bisimplicial set]] $N (C)$ defined by $N (C)_{n, m} = Fun ([n] \times \mathbf{I}[m], C)$, where $[n]$ is the standard $n$-[[simplex]] considered as a category and $\mathbf{I}$ is the [[localization|groupoid completion]] functor (i.e. $D \mapsto D [D^{-1}]$). There is then an [[adjunction]]
+$$\tau_1 \dashv N : Cat \to ssSet$$
+and it can be shown that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$.
+
+
 ### Without choice
 
 In the absence of the axiom of choice, one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
