@@ -60,6 +60,8 @@ We may without restriction assume that every hom-$\infty$-groupoid is in fact a 
 
 * A $(0,1)$-category with the structure of a [[Grothendieck topos]] is a [[Grothendieck (0,1)-topos]]: a [[frame]] or [[locale]].
 
+* A $(0,1)$-category with the property of whose each morphism is iso (that is, a $(0,1)$-groupoid) is a [[setoid]].
+
 
 ## Related concepts
 
