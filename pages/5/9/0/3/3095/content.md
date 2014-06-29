@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [wikipedia](http://en.wikipedia.org/wiki/Linguistics). 
+**Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [Wikipedia](http://en.wikipedia.org/wiki/Linguistics). 
 
 In [[mathematics]] and [[computer science]], we are however also interested in artificial analogues of natural languages: [[formal language|formal]] and [[computer language|computer]] [[language]]s. 
 
@@ -15,9 +15,12 @@ In [[mathematics]] and [[computer science]], we are however also interested in a
 Linguists often attempt to specify formal grammars (such as [[context free grammar]]s) which generate exactly the strings of a human language. The derivation trees of such strings are often interpreted in a formal system such as [[typed lambda calculus]], which is taken to represent a high level description of the meaning the speaker intends. Such a "semantics" should ideally assign meanings to the smallest meaningful subparts of a sentence such that these submeanings [[compose]] to assign meanings to sentences. 
 
 
-## Categorial Grammar
- 
-**Categorial grammar** ([Wikipedia](http://en.wikipedia.org/wiki/Categorial_grammar)) is a tradition in formal syntax which draws inspiration from [[category theory]]. 
+## Categorial Grammar/Typelogical Grammar
+
+* [SEP](plato.stanford.edu/entries/typelogical-grammar/
+)
+
+**[[Categorial grammar]]** ([Wikipedia](http://en.wikipedia.org/wiki/Categorial_grammar)) is a tradition in formal syntax which draws inspiration from [[category theory]]. 
 
 Derivation trees categorify to [[string diagrams]].
 
@@ -38,9 +41,10 @@ The connection to biclosed monoidal categories is made explicit in:
 
 ## Related Concepts
 
-*  [[context-free grammar]]
+* [[categorial grammar]]
 * [[lambda calculus]]
 * [[type theory]]
+* [[context-free grammar]]
 * [[monad (in computer science)]]
 * [[continuation-passing style]]
 * [[linear logic]]
