@@ -15,7 +15,7 @@
 
 ## Definition
 
-A __$0$-category__ (or __$(0,0)$-category__) is simply a [[set]] (or [[class]]).
+A __$0$-category__ (or __$(0,0)$-category__) is simply a same as a [[setoid]] (or large setoid). Up to equivalence, a $0$-cateogry is a [[set]] (or [[class]]).
 
 This terminology may seem strange at first, it simply follows the logic of $n$-[[n-category|categories]] (and $(n,r)$-[[(n,r)-category|categories]]).  To understand these, it is very helpful to see sets as the beginning of a sequence of concepts: sets, [[category|categories]], [[2-category|2-categories]], [[3-category|3-categories]], etc.  Doing so reveals patterns such as the [[periodic table]]; it also sheds light on the theory of [[homotopy group]]s and [[n-stuff]].
 
