@@ -37,4 +37,4 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 * {#AtiyahBott83} [[Michael Atiyah]], [[Raoul Bott]], section 7 of _The Yang-Mills equations over Riemann surfaces_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences
 Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/stable/37156), [lighning summary](http://math.stackexchange.com/a/295505/58526))
 
-* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Manfred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
