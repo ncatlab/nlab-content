@@ -1,5 +1,5 @@
 
-A [[complex number]] $z$ is __imaginary__ if it is not [[real number|real]]; it is __purely imaginary__ if its [[real part]] $\Re{z}$ is [[zero]].  For purposes of [[constructive mathematics]], we only accept a number as imaginary if its [[imaginary part]] $\Im{z}$ is [[apartness|apart from]] zero, or equivalently if $z$ is apart from $\Re{z}$.  This all generalizes to other kinds of [[hypercomplex numbers]].
+A [[complex number]] $z$ is __imaginary__ if it is not [[real number|real]]; it is __purely imaginary__ if its [[real part]] $\Re{z}$ is [[zero]].  For purposes of [[constructive mathematics]], we only accept $z$ as imaginary if its [[imaginary part]] $\Im{z}$ is [[apartness|apart from]] zero, or equivalently if $z$ is apart from $\Re{z}$.  This all generalizes to other kinds of [[hypercomplex numbers]].
 
 People often get these two notions mixed up.  (For example, $2 + 3\mathrm{i}$ is imaginary but not purely imaginary; while $0$ is the unique purely imaginary number that is not imaginary.)  This may be because the imaginary numbers, as is typical for things defined by an [[inequality]], do not form an interesting collection as a whole (for example, they are not even closed under addition).
 
