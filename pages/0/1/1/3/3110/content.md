@@ -23,6 +23,8 @@ The **canonical model structure** on [[Cat]] is a [[model structure]] which enca
 _[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory 
 of this structure. 
 
+Assuming the [[axiom of choice]], the canonical model is the _unique_ model structure on $Cat$ such that the weak equivalences are categorical equivalences (thus justifying the word 'canonical'). 
+
 On this page we give a concise construction of the canonical model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
 
 * toc
@@ -62,8 +64,15 @@ This completes the proof.  Note that the two factorizations constructed above ar
 
 Recall that Rezk's classifying diagram for a (small) category $C$ is the [[bisimplicial set]] $N (C)$ defined by $N (C)_{n, m} = Fun ([n] \times \mathbf{I}[m], C)$, where $[n]$ is the standard $n$-[[simplex]] considered as a category and $\mathbf{I}$ is the [[localization|groupoid completion]] functor (i.e. $D \mapsto D [D^{-1}]$). There is then an [[adjunction]]
 $$\tau_1 \dashv N : Cat \to ssSet$$
-and it can be shown that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$.
+and it can be shown (see the following subsection) that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$. 
 
+#### Uniqueness of model structure (assuming choice) 
+
+A remarkable and perhaps surprising result (and surprisingly not better known!) is that there is just one model structure on $Cat$[^fine] whose equivalences are the usual categorical equivalences, _if_ we assume [[AC]]. 
+
+For now, see this [proof](http://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/) by [[Chris Schommer-Pries]]. See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
+
+[^fine]: Along similar lines, one can [prove](http://www.math.harvard.edu/~oantolin/notes/modelcatsets.html) (again under AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
 
 ### Without choice
 
