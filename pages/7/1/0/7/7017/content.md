@@ -17,7 +17,7 @@
 
 ## Idea
 
-Syntax is the formal specification of a [[theory]] if [[formal logic]], as opposed to [[semantics]].
+Syntax is the formal specification of a [[theory]] of [[formal logic]], as opposed to [[semantics]].
 
 ## Related concepts
 
