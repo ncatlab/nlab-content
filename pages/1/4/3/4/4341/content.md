@@ -22,7 +22,7 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 In other words, the structured category $[X]$ equipped with its canonical type $X$ is initial among such structured categories that come equipped with such types $X$. A fancier expression is that $[X]$ 'coclassifies' such types: this is analogous to how a [[classifying space]] $B G$ for a [[topological group]] $G$ classifies $G$-[[bundles]], in that every $G$-bundle $p: E \to X$ over a suitable space $X$ has a classifying map $\chi_p: X \to B G$ (unique up to homotopy) such that pulling back the canonical $G$-bundle type $\pi: E G \to B G$ along $\chi_p$ reproduces the type $p$. Only here we say 'coclassifies' (as for example in this [comment](http://nforum.mathforge.org/discussion/1529/walking-structures/#Item_5)), since here we instead "push forward" the canonical type $X$ of $[X]$ along a structured-category morphism $[X] \to C$ to obtain a given type of $C$. 
 =-- 
 
-Pronunciation is just as in 'John is a walking almanac' or 'David is a walking encyclopedia'.
+Pronunciation is just as in 'John is a walking almanac' or 'Eugene Levy is a walking pair of eyebrows'.
 
 
 ## Examples
