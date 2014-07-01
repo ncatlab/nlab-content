@@ -42,6 +42,8 @@ This equivalence is a certain limit of the more general [[quantum geometric Lang
 
 The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is supposed to exhibit geometric Langlands duality as a special case of [[S-duality]]. 
 
+See also at _[KK-compactification -- Formalization](http://ncatlab.org/nlab/show/Kaluza-Klein+mechanism#Formalization)_
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 
