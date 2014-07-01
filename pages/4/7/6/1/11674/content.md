@@ -5,11 +5,15 @@
 
 ## Idea
 
-An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic]] [[singularities]]. Appears in the logarithmic [[holomorphic de Rham complex]].
+A _differential form with logarithmic singularities_ is a [[meromorphic function|meromorphic]] [[differential form]] on some space $X$ which is a [[holomorphic differential form]] on a suitably dense open subspace with at most [[logarithm|logarithmic]] [[singularities]] at the boundary. 
+
+These are the differential forms on spaces in [[logarithmic geometry]]. They form the logarithmic generalization of the [[holomorphic de Rham complex]].
 
 ## Related concepts
 
 * [[logarithmic geometry]]
+
+* [[logarithmic connection]]
 
 * [[differential algebraic K-theory]]
 
