@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/David_Olive)
+
+## related $n$Lab entries
+
+* [[Montonen-Olive duality]] ([[S-duality]])
+
+category: people
