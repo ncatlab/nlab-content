@@ -9,6 +9,11 @@ A _differential form with logarithmic singularities_ is a [[meromorphic function
 
 These are the differential forms on spaces in [[logarithmic geometry]]. They form the logarithmic generalization of the [[holomorphic de Rham complex]].
 
+## Examples
+
+The [[moduli spaces of connection]] with logarithmic singularity at prescribed points are for instance the object of interest in "ramified" [[geometric Langlands duality]]. (e.g. [Witten 08, section 4](#Witten08))
+
+
 ## Related concepts
 
 * [[logarithmic geometry]]
@@ -34,9 +39,16 @@ Further details are discussed in
 * {#Voisin02} [[Claire Voisin]], section 8.2.2 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
 
+Discussion in the context of [[geometric Langlands duality]] includes
+
+* {#Witten08} [[Edward Witten]], _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+
+
 In the context of [[differential algebraic K-theory]]
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 3.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
  
+
+
 
 [[!redirects differential forms with logarithmic singularities]]
