@@ -259,7 +259,7 @@ Concrete applications of $\sigma$-models with target [[stacks]] (typically smoot
 
 Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on stacks ([[moduli stacks]] of [[Higgs bundles]] over a given [[algebraic curve]]) is in 
 
-* {#Witten08} [[Edward Witten]], section 6 of _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+* {#Witten08} [[Edward Witten]], section 6 of _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_, in Oscar Garcia-Prada, Jean Pierre Bourguignon, and Simon Salamon, _The many faces of geoemtry: A tribute to Nigel Hitchin_, Oxford Scholarship Online ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
 
 
 
