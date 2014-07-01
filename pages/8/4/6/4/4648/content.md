@@ -22,7 +22,7 @@
 
 The _geometric Langlands program_ is the analogue of the [[Langlands program]] with [[number fields]] replaced by [[function fields]]. 
 
-The conjectured _geometric Langlands correspondence_ asserts that for $G$ a  [[reductive group]] there is an equivalence of [[derived categories]] of [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over a given curve, and [[quasi-coherent sheaves]] on the moduli space of ${}^L G$-[[local system]]s 
+The conjectured _geometric Langlands correspondence_ asserts that for $G$ a  [[reductive group]] there is an equivalence of [[derived categories]] of [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over a given [[curve]], and [[quasi-coherent sheaves]] on the moduli space of ${}^L G$-[[local system]]s 
 
 $$
   \mathcal{D} Mod( Bun_G)
