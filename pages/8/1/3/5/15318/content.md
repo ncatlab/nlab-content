@@ -1,0 +1,8 @@
+
+* [Mathematics Genealogy Project page](http://genealogy.math.ndsu.nodak.edu/id.php?id=52885)
+
+## related $n$Lab entries
+
+* [[Montonen-Olive duality]] ([[S-duality]])
+
+category: people
