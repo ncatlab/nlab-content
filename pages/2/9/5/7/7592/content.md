@@ -5,17 +5,17 @@
 
 ## Idea
 
-The **Regular Extension Axiom** is a foundational axiom which asserts the existence of arbitrarily large [[regular cardinal]]-like sets.  It has several variants, some of which are provable in [[ZF]], some of which are provable  from the [[axiom of choice]] or weaker variants thereof such as [[SVC]], and some of which are not even provable in ZFC.
+The **Regular Extension Axiom** (REA) is a foundational axiom which asserts the existence of arbitrarily large [[regular cardinal]]-like sets.  It has several variants, some of which are provable in [[ZF]], some of which are provable  from the [[axiom of choice]] or weaker variants thereof such as [[SVC]], and some of which are not even provable in ZFC. REA is usually considered in the context of [[CZF]].
 
 
 ## Variants
 
-...
+There is some discussion [here](http://golem.ph.utexas.edu/category/2012/04/pssl_93_trip_report.html#c041293).
 
 
 ## References
 
-* [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www.amsta.leeds.ac.uk/Pure/staff/rathjen/REA.pdf) -- broken link
+* [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www1.maths.leeds.ac.uk/~rathjen/REA.pdf)
 
 
 category: foundational axiom
