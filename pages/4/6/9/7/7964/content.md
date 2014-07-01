@@ -48,6 +48,8 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
 
 * [[higgsino]]
 
+* [[Higgs bundle]]
+
 [[!include standard model of fundamental physics - table]]
 
 
