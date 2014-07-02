@@ -25,6 +25,8 @@ The concept of Hecke category is a [[categorification]] of that of _[[Hecke alge
 
 * [[Hecke correspondence]]
 
+* [[Hecke eigensheaf]]
+
 ## References
 
 * {#BenZviNadler09} [[David Ben-Zvi]], [[David Nadler]], section 5.1 of _The Character Theory of a Complex Group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
