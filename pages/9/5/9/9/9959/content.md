@@ -34,4 +34,6 @@ See at _[[Dirac charge quantization]]_.
 
 * [[fiber bundles in physics]]
 
+* [['t Hooft operator]]
+
 [[!redirects Dirac monopoles]]
