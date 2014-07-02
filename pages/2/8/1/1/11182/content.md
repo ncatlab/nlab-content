@@ -56,7 +56,7 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
 * A somewhat better way to represent the [[Dirac delta function]] as a cogerm differential form is
   $$ \delta =
   \begin{cases}
-    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0
+    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0\\
     0 &\qquad otherwise.
   \end{cases}
   $$
@@ -265,7 +265,7 @@ In the list of examples above, we denoted $f(x+\mathrm{d}x)-f(x)$ by $\Delta f$.
 We can, at least, show that the second definition of the [[Dirac delta function]] has its expected properties.  Recall that this was
 $$ \delta =
   \begin{cases}
-    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0
+    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0\\
     0 &\qquad otherwise.
   \end{cases}
 $$
