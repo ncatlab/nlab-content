@@ -26,6 +26,8 @@ A _higher-order logic_ is any [[logic]] which features _higher-order predicates_
 
 * [[predicate logic]] (1st order)
 
+* [[second-order logic]]
+
 * **higher order logic**
 
   * [[Isabelle]]
