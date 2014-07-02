@@ -92,14 +92,18 @@ The notion of [[Chern-Simons form]]s originates in
 
 The special meaning in the context of [[Chern-Weil theory]] in [[differential geometry]] was established by the introduction of [[Cheeger-Simons differential character]]s. Reviews of that include
 
-* [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
-{#FreedCSII}
+* {#FreedCSII} [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
 
-* [[Johan Dupont]], Franz Kamber, _Gerbes, Simplicial forms and Invariants for Families of Foliated Bundles_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1375&rep=rep1&type=pdf))
-{#Kamber}
 
-* Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
-{#Karlsson}
+* {#Kamber} [[Johan Dupont]], Franz Kamber, _Gerbes, Simplicial forms and Invariants for Families of Foliated Bundles_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1375&rep=rep1&type=pdf))
+
+
+* {#Karlsson} Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
+
+
+Discussion in complex [[algebraic geometry]] is in 
+
+* {#BlochEsnault97} [[Spencer Bloch]], [[Hélène Esnault]], _Algebraic Chern-Simons theory_, American Journal of Mathematics, Volume 119, Number 4, August 1997, pp. 903-952 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/39-algebraic-chern-simons.pdf))
 
 Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory is in
 
