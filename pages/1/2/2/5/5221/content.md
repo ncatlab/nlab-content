@@ -61,6 +61,8 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 
 * [[Penrose transform]]
 
+* [[Hecke transform]]
+
 * [[Harish Chandra transform]]
 
 ## History
