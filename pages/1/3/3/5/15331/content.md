@@ -1,0 +1,8 @@
+
+## Idea
+
+[[higher-order logic]] of stage 2.
+
+## References
+
+* Wikipedia, _[Second-order logic](http://en.wikipedia.org/wiki/Second-order_logic)_
