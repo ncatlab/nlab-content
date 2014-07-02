@@ -26,6 +26,7 @@ The _compactness theorem_ is one of the basic results of _[[model theory]]_ abou
 
 * [[Skolem's paradox]]
 
+* [[Lindström's theorem]]
 
 ## References
 
