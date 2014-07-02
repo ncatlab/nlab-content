@@ -52,7 +52,7 @@ Say a class $W \in Mor(\mathcal{T})$ is a **[[localizer]]** on $\mathcal{T}$ if 
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[small set]] of [[morphisms]] $\Sigma in Mor(\mathcal{T})$ is contained in a smallest localizer, def. \ref{Localizer}, $W(\Sigma)$. 
+Every [[small set]] of [[morphisms]] $\Sigma \in Mor(\mathcal{T})$ is contained in a smallest localizer, def. \ref{Localizer}, $W(\Sigma)$. 
 
 =--
 
