@@ -56,6 +56,7 @@ $$
     X
     \\
     \downarrow^{\mathrlap{\nabla}}
+
     \\
     \mathbf{B}U(1)_{conn}
   }
@@ -164,10 +165,11 @@ and this program was set out more formally
 
 Lecture notes reviewing these developments include
 
-* [[Alan Weinstein]], _Symplectic Categories_, proceedings of Geometry Summer School, Lisbon, July 2009 ([arXiv:0911.4133](http://arxiv.org/abs/0911.4133))
- {#Weinstein09}
+* {#Weinstein09} [[Alan Weinstein]], _Symplectic Categories_, proceedings of Geometry Summer School, Lisbon, July 2009 ([arXiv:0911.4133](http://arxiv.org/abs/0911.4133))
+ 
+from the introduction of which parts of the commented list of references above is taken. Further review includes
 
-from the introduction of which parts of the commented list of references above is taken.
+* {#Canez11} Santiago Canez, _Double Groupoids, Orbifolds, and the Symplectic Category_ ([arXiv:1105.2592](http://arxiv.org/abs/1105.2592))
 
 
 Further refinements in [[higher category theory]] are discussed in
