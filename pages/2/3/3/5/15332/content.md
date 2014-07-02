@@ -1,0 +1,12 @@
+
+
+## Idea
+
+Study of the general properties of [[model theory]] for [[first-order logic]].
+
+Originally motivated by _[[Lindström's theorem]]_.
+
+## References
+
+* Wikipedia, _[Abstract model theory](http://en.wikipedia.org/wiki/Abstract_model_theory)_
+
