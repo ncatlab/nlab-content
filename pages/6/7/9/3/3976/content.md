@@ -42,6 +42,8 @@ the "real [[exponential exact sequence]]".
 
 A [[character]] of an [[abelian group]] $A$ is simply a [[homomorphism]] from $A$ to the circle group.
 
+$U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_m = \mathbb{C}^\times$ over the [[complex numbers]], see at _[form of an algebraic group -- Circle group and multiplicative group](form+of+an+algebraic+group#MultiplicativeAndCircleGroup)_.
+
 
 ## Related concepts
 
@@ -54,4 +56,3 @@ A [[principal bundle]] with structure group the circle group is a [[circle bundl
 [[!redirects SO(2)]]
 
 [[!redirects circle Lie group]]
-
