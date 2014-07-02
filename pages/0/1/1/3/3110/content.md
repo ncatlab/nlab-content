@@ -66,13 +66,117 @@ Recall that Rezk's classifying diagram for a (small) category $C$ is the [[bisim
 $$\tau_1 \dashv N : Cat \to ssSet$$
 and it can be shown (see the following subsection) that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$. 
 
-#### Uniqueness of model structure (assuming choice) 
+### Uniqueness of model structure 
 
-A remarkable and perhaps surprising result (and surprisingly not better known!) is that there is just one model structure on $Cat$[^fine] whose equivalences are the usual categorical equivalences, _if_ we assume [[AC]]. 
+A remarkable and perhaps surprising result (and surprisingly not better known!) is that there is just one model structure on $Cat$[^fine] whose equivalences are the usual categorical equivalences. This result justifies the term "canonical". 
 
-For now, see this [proof](http://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/) by [[Chris Schommer-Pries]]. See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
+The proof we present below is adapted (with minor changes) from a [proof](http://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/) given by [[Chris Schommer-Pries]]. See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
 
-[^fine]: Along similar lines, one can [prove](http://www.math.harvard.edu/~oantolin/notes/modelcatsets.html) (again under AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
+[^fine]: Along similar lines, one can [prove](http://www.math.harvard.edu/~oantolin/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
+
+#### Proof 
+
+Let $\mathbf{M}$ denote any model structure on $Cat$ whose weak equivalences are categorical equivalences. We will prove that $\mathbf{M}$-fibrations are exactly canonical fibrations and that $\mathbf{M}$-cofibrations are exactly canonical cofibrations. 
+
++-- {: .num_lemma} 
+###### Lemma 
+The terminal object $1$ is $\mathbf{M}$-cofibrant, i.e., the inclusion $0 \to 1$ in $Cat$ is an $\mathbf{M}$-cofibration. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $C$ be any noninitial category; by a standard result of model category theory, there is an $\mathbf{M}$-cofibrant replacement $\tilde{C} \to C$, a weak equivalence such that $0 \to \tilde{C}$ is a cofibration. This $\tilde{C}$ is noninitial and therefore has $1$ as a retract; thus $1$ is $\mathbf{M}$-cofibrant since cofibrant objects are closed under retracts. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Each acyclic $\mathbf{M}$-fibration is a canonical acyclic fibration. 
+=-- 
+
++-- {: .proof} 
+Each acyclic $\mathbf{M}$-fibration $f: E \to X$ has the right lifting property with respect to $\mathbf{M}$-cofibrations. The right lifting property with respect to the $\mathbf{M}$-cofibration $0 \to 1$ is exactly the condition of being surjective on objects. Thus acyclic $\mathbf{M}$-fibrations are necessarily categorical equivalences that are surjective on objects, i.e., are necessarily canonical acyclic fibrations. 
+=-- 
+
+Before giving the next result, we recall that the lifting relation on morphisms gives a [[Galois connection]]. Specifically, suppose $c: A \to B$ and $f: c \to d$ are functors, and define $c \perp f$ if for every morphism from $c$ to $f$ in the arrow category $Cat^\mathbf{2}$, i.e., for every commutative diagram 
+
+$$\array{
+A & \to & C \\ 
+_\mathllap{c} \downarrow & & \downarrow_\mathrlap{f} \\ 
+B & \to & D
+}$$ 
+
+of functors, there is a lifting $B \to C$ filling in to make two commutative triangles. As any relation does, this lifting relation $\perp$ gives a Galois connection on subclasses of $Mor(Cat)$. General facts about Galois connections may then be applied. 
+
++-- {: .num_cor #sub} 
+###### Corollary 
+Every canonical cofibration is an $\mathbf{M}$-cofibration. Every $\mathbf{M}$-fibration is a canonical fibration. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By the Galois connection induced by the lifting relation, the previous proposition implies that canonical cofibrations form a subset of $\mathbf{M}$-cofibrations, and therefore that canonical acyclic cofibrations are a subset of acyclic $\mathbf{M}$-cofibrations. Again by the Galois connection, this in turn implies that $\mathbf{M}$-fibrations form a subset of canonical fibrations. 
+=-- 
+
+At this point, we would like to show conversely that every $\mathbf{M}$-cofibration is a canonical cofibration (i.e., is injective on objects); another appeal to Galois connections would then allow us to deduce that every canonical fibration is an $\mathbf{M}$-fibration, and we would be done. Let us suppose otherwise, that there exists an $\mathbf{M}$-cofibration that is not injective on objects, and derive a contradiction. 
+
+For a set $S$, let $K(S)$ be the category whose objects are the elements of $S$, with exactly one morphism $x \to y$ for any $x, y \in S$. This gives the _codiscrete_ (or *chaotic*) functor 
+$K: Set \to Cat$, which is right adjoint to the forgetful functor $U: Cat \to Set$ that takes a category to its underlying set of objects. For each inhabited set $S$, we have that $K(S)$ is equivalent to $1$, and conversely any category equivalent to $1$ is isomorphic to some $K(S)$. 
+
++-- {: .num_prop #key} 
+###### Proposition 
+If there is any $\mathbf{M}$-cofibration $f: A \to B$ that is not injective on objects, then the map $K(2) \to 1$ ($2 = \{0, 1\}$) is an (acyclic) $\mathbf{M}$-cofibration. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+First we observe that for any category $E$, the unit map $\eta_E: E \to K U(E)$ for the adjunction $U \dashv K$ is an $\mathbf{M}$-cofibration. For, the map $\eta_E$ is an isomorphism on objects and therefore a canonical cofibration; it is an $\mathbf{M}$-cofibration by Corollary \ref{sub}. 
+
+By hypothesis, $f$ maps two objects $a, a'$ of $A$ to the same object $b$ of $B$, so there is a commutative diagram 
+
+$$\array{
+2 & \stackrel{(a, a')}{\hookrightarrow} & U A \\ 
+\downarrow & & \downarrow_\mathrlap{f} \\ 
+1 & \underset{b}{\to} & U B.
+}$$ 
+
+Let $r: U A \to 2$ be a retraction of the injection $2 \to U A$. By the adjunction $U \dashv K$, the map $r$ corresponds to a map $s: A \to K(2)$. We form a pushout square 
+
+$$\array{
+A & \stackrel{s}{\to} & K(2) & & \\ 
+_\mathllap{f} \downarrow & & \downarrow_\mathrlap{g} & & \\ 
+B & \underset{h}{\to} & E & \underset{\eta_E}{\to} & K U(E)
+}$$ 
+
+where $g$ is an $\mathbf{M}$-cofibration (being the pushout of a cofibration $f$). Thus we have a composite cofibration $t \coloneqq \eta_E \circ g: K(2) \to K U(E)$. It may be verified that $K(2) \to 1$ is a retract of $t$, i.e., there is a commutative square 
+
+$$\array{
+K(2) & \stackrel{id}{\to} & K(2) \\ 
+_\mathllap{t} \downarrow & & \downarrow \\ 
+K U(E) & \underset{j}{\leftarrow} & 1
+}$$ 
+
+where $j = \eta_E \circ h \circ b$; this diagram commutes on objects by construction, and it commutes on morphisms because all diagrams commute in $K U(E)$. Thus $K(2) \to 1$, being a retract of an $\mathbf{M}$-cofibration, is also an $\mathbf{M}$-cofibration. 
+=-- 
+
+The conclusion of Proposition \ref{key} now leads to a contradiction: 
+
++-- {: .num_prop} 
+###### Proposition 
+If $K(2) \to 1$ is an acyclic $\mathbf{M}$-cofibration, then for any category $C$, every isomorphism of $C$ is an identity (which is absurd!). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The object $C$ of $Cat$ has an $\mathbf{M}$-fibrant replacement $\hat{C}$ equivalent to $C$. For any isomorphism $\phi$ of $\hat{C}$, let $e: K(2) \to \hat{C}$ by the unique functor taking $0 \to 1$ in $K(2)$ to $\phi$. Then we have a commutative diagram 
+
+$$\array{
+K(2) & \stackrel{e}{\to} & \hat{C} \\ 
+_\mathllap{acyc.\; cof.} \downarrow & & \downarrow _\mathrlap{fib.} \\ 
+1 & \to & 1
+}$$ 
+
+and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $\phi$ is an identity. 
+=-- 
 
 ### Without choice
 
