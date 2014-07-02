@@ -1,5 +1,8 @@
 
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -12,6 +15,9 @@ For $G$ as in this equivalence, then the [[complex Lie group]] $G(\mathbb{C})$ i
 
 (from ([Conrad 10](#Conrad10)))
 
+## Related concepts
+
+* [[form of an algebraic group]]
 
 ## References
 
