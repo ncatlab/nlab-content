@@ -21,6 +21,10 @@ For $X\to Y$ the inclusion $\mathbf{B}B \to \mathbf{B}G$ of the [[delooping]] of
 
 The concept of Hecke category is a [[categorification]] of that of _[[Hecke algebra]]_.
 
+## Related concepts
+
+* [[Hecke correspondence]]
+
 ## References
 
 * {#BenZviNadler09} [[David Ben-Zvi]], [[David Nadler]], section 5.1 of _The Character Theory of a Complex Group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
