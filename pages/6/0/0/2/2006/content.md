@@ -86,6 +86,24 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof of equivalence
+
+The equivalence between both presentations amounts to the functor $C_{T} \to C^{T}$ being full and faithful. This functor maps any object $X$ to $T(X)$, and any morphism $f \colon X \to T(Y)$ to
+$T(X) \stackrel{T(f)}{\to} T^2(Y) \stackrel{\mu_Y}{\to} T(Y)$. 
+
+Fullness holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has 
+as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
+Indeed, the latter is mapped by the functor into
+$\mu_Y \circ T(g) \circ T(\eta_X)$, which because $g$ is a morphism of algebras
+is equal to 
+$g \circ \mu_X \circ T(\eta_X)$, i.e., $g$.
+
+Faithfulness holds as follows: if $\mu_Y \circ T(f) = \mu_Y \circ T(g)$,
+then precomposing by $\eta_X$ yields $\mu_Y \circ T(f) \circ \eta_X =
+\mu_Y \circ \eta_{T(Y)} \circ f = f$ and similarly for $g$, hence $f = g$.
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
