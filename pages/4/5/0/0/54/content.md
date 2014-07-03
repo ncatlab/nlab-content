@@ -51,11 +51,13 @@ See specifically:
 
 ## $n$Lab
 
+<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
+
 I like to put information into context. For that purpose I had started the 
 
 * [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) 
 
-in November 2008. At the moment it has a nominal page count of almost 10,000 entries (some very short, but some very long). 
+in November 2008. It has now more than 10,000 pages (some very short, but some very long). 
 
 For more on what this is see also
 
