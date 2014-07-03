@@ -83,7 +83,7 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
 A classical survey is
 
-* [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
 Another set of lecture notes on geometric Langlands and [[nonabelian Hodge theory]] is
 
