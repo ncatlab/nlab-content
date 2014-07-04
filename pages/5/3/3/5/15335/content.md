@@ -1,6 +1,6 @@
 Let $SemiLat$ be the category of meet-[[semilattices]] (i.e., [[posets]] admitting finite meets). Regarding $\mathbf{2} = \{0 \leq 1\}$ ambimorphically either as a set or as a meet-semilattice, i.e., as a [[dualizing object]], there is a pair of adjoint functors given by homming into $\mathbf{2}$, 
 
-$$Set \stackrel{Set(-, \mathbf{2})^{op}}{\to} SemiLat^{op} \;\; \dashv SemiLat^{op} \stackrel{SemiLat(-, \mathbf{2})}{\to} Set,$$ 
+$$Set \stackrel{Set(-, \mathbf{2})^{op}}{\to} SemiLat^{op} \;\; \dashv \;\; SemiLat^{op} \stackrel{SemiLat(-, \mathbf{2})}{\to} Set,$$ 
 
 and the **filter monad** is the monad $Filt$ induced by this adjunction. (Compare [[ultrafilter monad]].) 
 
@@ -16,7 +16,7 @@ $$\mu_X(\Phi) = \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}.$$
 
 +-- {: .proof} 
 ###### Proof 
-To see $\bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\} \subseteq \mu_X(\Phi)$, suppose $A \in \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, i.e., suppose there is $\mathcal{U}$ with \mathcal{U} \in \Phi$ and $A \in \bigcap \mathcal{U}$. Then $A \in F$ for all $F \in \mathcal{U}$, and since 
+To see $\bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\} \subseteq \mu_X(\Phi)$, suppose $A \in \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, i.e., suppose there is $\mathcal{U}$ with $\mathcal{U} \in \Phi$ and $A \in \bigcap \mathcal{U}$. Then $A \in F$ for all $F \in \mathcal{U}$, and since 
 already $\mathcal{U} \in \Phi$, we see $\{F \in Filt(X): A \in F\} \in \Phi$ by upward closure of $\Phi$. Hence $A \in \mu_X(\Phi)$. 
 
 To see $\mu_X(\Phi) \subseteq \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, 
