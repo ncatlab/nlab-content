@@ -1,13 +1,17 @@
 
+# Abstract model theory
+* table of contents
+{: toc}
 
 ## Idea
 
-_Abstract model theory_ is the study of the general properties of the [[model theory]] of extensions of (standard) [[first-order logic]].
+_Abstract model theory_ is the study of the general properties of the [[model theory]] of extensions of (classical untyped) [[first-order logic]].
 
 Originally motivated by _[[Lindström's theorem]]_ that characterizes first-order logic, the field has subsequently been extended to provide alternative characterizations and include different logics within its range.
 
 The basic concept of abstract model theory is that of an _abstract logic_
 which is  a triple $\mathcal{L}=(S, \Phi ,\models)$ where $\models$ is a binary relation between the class of $\mathcal{L}$-'structures' $S$ and the class of $\mathcal{L}$-'sentences' $\Phi$ to be thought of as minimalistic version of the  _satisfaction_ relation.
+
 
 ## References
 
