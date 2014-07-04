@@ -435,8 +435,12 @@ $$
 
 ## Related concepts
 
-* [[path integral as a pull-push transform]]
+* [[integral transform]]
+
+  * [[Fourier-Mukai transform]], [[Hecke transform]]
 
 * [[polynomial functor]]
 
 * [[pure motives]], [[motives in physics]], [[motivic quantization]]
+
+* [[path integral as a pull-push transform]]
