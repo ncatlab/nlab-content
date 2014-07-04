@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Motivic cohomology
 +--{: .hide}
 [[!include motivic cohomology - contents]]
@@ -19,7 +23,40 @@
 
 ## Idea
 
-The _Fourier-Mukai transform_ is a [[categorification|categorified]] [[integral transform]] analogous to the standard [[Fourier transform]].
+The _Fourier-Mukai transform_ is a [[categorification|categorified]] [[integral transform]] roughly similar to the standard [[Fourier transform]].
+
+Generally, for $X,Y$ two suitably well-behaved [[schemes]] (e.g. affine, smooth, complex) and with $D(X)$, $D(Y)$ their [[derived categories]] of [[quasicoherent sheaves]], then a _Fourier-Mukai transform_ with [[integral kernel]] $P \in D(X\times Y)$ is a [[functor]] (of [[triangulated categories]]/[[stable (infinity,1)-categories]])
+
+$$
+  \Phi \colon D(X)\longrightarrow D(Y)
+$$
+
+which is given as the composite of the ([[derived functor|derived]])  operations of 
+
+1. pull ([[inverse image]]) along the [[projection]] $p_X\colon X\times Y \to X$ 
+
+1. [[tensor product]] with $E$;
+
+1. push ([[direct image]]) along the other projection $p_Y \colon X\times Y \to Y$
+
+i.e.
+
+$$
+  \Phi(A) \coloneqq (p_Y)_\ast (E\otimes p_X^\ast A)
+$$
+
+(where here we implicitly understand all operations as [[derived functors]]). (e.g. [Huybrechts 08, page 4](#Huybrechts08))
+
+Such concept of [[integral transform]] is rather general and may be considered also in [[derived algebraic geometry]] (e.g. [BenZvi-Nadler-Preygel 13](#BenZviNadlerPreygel13)) and lots of other contexts.
+
+As discussed at _[[integral transforms on sheaves]]_ this kind of [[integral transform]] is a [[categorification]] of an integral transform/[[matrix multiplication]] of functions induced by an [[integral kernel]], the role of which here is played by $E\in D(X \times Y)$.
+
+Indeed, the central kind of result of the theory (theorem \ref{OrlovTheorem}) says that every suitable linear functor $D(X)\to D(Y)$ arises as a Fourier-Mukai transform for some $E$, a statement which is the [[categorification]] of the standard fact from [[linear algebra]] that every [[linear function]] between finite dimensional [[vector spaces]] is represented by a [[matrix]].
+
+The original Fourier-Mukai transform proper is the special case of the above where $X$ is an [[abelian variety]], $Y = A^\vee$ its [[dual abelian variety]] and $E$ is the corresponding [[Poincaré line bundle]].
+
+If $X$ is a [[moduli space of bundles|moduli space of line bundles]] over a suitable [[algebraic curve]], then a slight variant of the Fourier-Mukai transform is the [[geometric Langlands correspondence]] in the abelian case ([Frenkel 05, section 4.4, 4.5](#Frenkel05)).
+
 
 ## Definition
 
@@ -36,14 +73,28 @@ When $F : D(QCoh(O_X)) \to D(QCoh(O_Y))$ is isomorphic to $\Phi(E)$ for some $E 
 
 The key fact is as follows
 
-+-- {: .num_theorem}
++-- {: .num_theorem #OrlovTheorem}
 ###### Theorem ([[Orlov]])
+
 Let $X$ and $Y$ be smooth projective [[varieties]] over a [[field]] $K$.  Let $F : D(X) \to D(Y)$ be a [[triangulated functor|triangulated]] [[fully faithful functor]].  Then $F$ is represented by some object $E \in D(X \times Y)$ which is unique up to isomorphism.
+
 =--
 
-See [Orlov 2003, 3.2.1](#OrlovSurvey) for a proof.  Though the theorem is stated there for $F$ admitting a [[right adjoint]], it follows from [Bondal-van den Bergh 2002](#BondalBergh2002) that every [[triangulated functor|triangulated]] [[fully faithful functor]] admits a [[right adjoint]] automatically.
+See [Orlov 2003, 3.2.1](#OrlovSurvey) for a proof.  
 
-It is generally believed that this theorem should be true for _all_ [[triangulated functors]].
++-- {: .num_remark}
+###### Remark
+
+Though theorem \ref{OrlovTheorem} is stated there for $F$ admitting a [[right adjoint]], it follows from [Bondal-van den Bergh 2002](#BondalBergh2002) that every [[triangulated functor|triangulated]] [[fully faithful functor]] admits a [[right adjoint]] automatically (see e.g. [Huybrechts 08, p. 6](#Huybrechts08)).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It is generally believed that theorem \ref{OrlovTheorem} should be true for _all_ [[triangulated functors]] (e.g. [Huybrechts 08, p. 5](#Huybrechts08)).
+
+=--
 
 ## Enhancements
 
@@ -51,19 +102,24 @@ On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[
 
 =--
 
-## See also
+## Related concepts
 
 * [[triangulated categories of sheaves]]
 
+* [[Grothendieck duality]]
+
 ## References
 
-* [[Dmitri Orlov]], _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys, 58 (2003), 3, 89-172, [translation](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf).
- {#OrlovSurvey}
+* {#BondalBergh2002} [[Alexei Bondal]], [[Michel van den Bergh]].  _Generators and representability of functors in commutative and noncommutative geometry_, 2002, [arXiv](http://arxiv.org/abs/math/0204218)
 
-* Lutz Hille, Michel van den Bergh, _Fourier-Mukai transforms_ ([arXiv](http://arxiv.org/abs/math/0402043))
+* {#OrlovSurvey} [[Dmitri Orlov]], _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys, 58 (2003), 3, 89-172, [translation](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf).
 
-* [[Alexei Bondal]], [[Michel van den Bergh]].  _Generators and representability of functors in commutative and noncommutative geometry_, 2002, [arXiv](http://arxiv.org/abs/math/0204218)
- {#BondalBergh2002}
+*  Lutz Hille, Michel van den Bergh, _Fourier-Mukai transforms_ ([arXiv:0402043](http://arxiv.org/abs/math/0402043))
+ 
+
+* {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_, 2008 ([pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf))
+
+* {#Belmans} [[Pieter Belmans]], section 2.2 of _Grothendieck duality: lecture 3_, 2014 ([[BelmansDuality.pdf:file]])
 
 Banerjee and Hudson have defined Fourier-Mukai functors analogously on [[algebraic cobordism]].
 
@@ -75,9 +131,15 @@ Discussion of [[internal homs]] of [[dg-categories]] in terms of refined Fourier
 
 * Alberto Canonaco, Paolo Stellari, _Internal Homs via extensions of dg functors_ ([arXiv:1312.5619](http://arxiv.org/abs/1312.5619))
 
+Discussion in the context of [[geometric Langlands duality]] is in 
+
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
+
+
 For a discussion of Fourier-Mukai transforms in the setting of $(\infty,1)$-enhancements, see
 
-* [[David Ben-Zvi]], David Nadler, Anatoly Preygel.  Integral transforms for coherent sheaves.  [arXiv](http://arxiv.org/abs/1312.7164v1)
+* {#BenZviNadlerPreygel13} [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel.  _Integral transforms for coherent sheaves_,  [arXiv:1312.7164](http://arxiv.org/abs/1312.7164)
+
 
 [[!redirects Fourier-Mukai transforms]]
 [[!redirects Fourier-Mukai functor]]
