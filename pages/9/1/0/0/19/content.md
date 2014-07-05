@@ -384,6 +384,9 @@ The [[foundation]] of category theory in [[homotopy type theory]] (via the notio
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
+* {#LaGatta} [[Tom LaGatta]], _Category theory_ ([video](http://www.youtube.com/watch?v=o6L6XeNdd_k))
+
+
 ### Relation to philosophy
  {#ReferencesRelationToPhilosophy}
 
