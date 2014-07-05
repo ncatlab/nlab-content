@@ -1,0 +1,3 @@
+The Isle of Thorns was a conference centre owned and run by the University of Sussex.  It was situated in the Ashdown Forest not far from Gatwick Airport. During the 1970s it was the venue for regular informal meetings on category theory organised by [[Gavin Wraith]] and [[Chris Mulvey]].
+
+(Ironically, or appropriately, when the university sold the centre in 2002 it was bought by the Cats Protection League!)
