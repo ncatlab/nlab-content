@@ -11,3 +11,4 @@ category: people
 [[!redirects GavinWraith]]
 [[!redirects Gavin W]]
 [[!redirects GavinW]]
+[[!redirects Gavin C. Wraith]]
