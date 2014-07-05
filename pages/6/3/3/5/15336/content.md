@@ -6,7 +6,7 @@ The _generic interval_ is the standard 1-simplex $\Delta_1$ in $sSet$.
 
 What makes this interval 'generic' is the following result of [[Joyal]][^fine]:
 
-[^fine]: The result was announced by Joyal in 1974 at the Isle of Thorns, the first published proof appears in Johnstone (1979) and in book form in MacLane-Moerdijk (1994, sec. VIII.8).
+[^fine]: The result was announced by Joyal in 1974 at the [[Isle of Thorns]], the first published proof appears in Johnstone (1979) and in book form in MacLane-Moerdijk (1994, sec. VIII.8).
 
 **Theorem**. _The tops $sSet$ of [[simplicial sets]] is the [[classifying topos]] for linear orders with distinct top and bottom elements, i.e. intervals (aka nontrivial totally [[distributive lattices]]) with generic interval $\Delta_1=Hom_{\Delta}(\quad,[1])$.
 
