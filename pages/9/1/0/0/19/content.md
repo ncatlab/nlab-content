@@ -336,6 +336,8 @@ The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from 
 * [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
   {#Freyd64}
 
+* [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: a first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009. 
+
 #### Topos theory
 
 The standard monographs on [[topos theory]] are
