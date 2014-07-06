@@ -2,10 +2,10 @@
 
 **[[moduli spaces]] of [[line n-bundles with connection]] on $n$-[[dimension|dimensional]] $X$**
 
-| $n$ | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] | [[modular functor]]/[[self-dual higher gauge theory]] of [[higher dimensional Chern-Simons theory]] |
-|-----|---|-----|------|-----|----|----|
-| $n = 0$ | [[unit]] in [[structure sheaf]] | [[multiplicative group]]/[[group of units]] |  |  [[formal multiplicative group]]  | [[complex K-theory]] |  |
-| $n = 1$ | [[line bundle]] |  [[Picard group]]/[[Picard scheme]] | [[Jacobian]]  |  [[formal Picard group]] | [[elliptic cohomology]] | [[3d Chern-Simons theory]]/[[WZW model]]  |
-| $n = 2$ |[[line 2-bundle]] |  [[Brauer group]] | [[intermediate Jacobian]] | [[formal Brauer group]] |  [[K3 cohomology]] |  |
-| $n = 3$ |[[line 3-bundle]] |   | [[intermediate Jacobian]] |  | [[Calabi-Yau cohomology|CY3 cohomology]]  | [[7d Chern-Simons theory]]/[[M5-brane]] |
-| $n$   |    |  |     [[intermediate Jacobian]]  |   |   |  |
+| $n$ | [[Calabi-Yau object|Calabi-Cau n-fold]] | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] | [[modular functor]]/[[self-dual higher gauge theory]] of [[higher dimensional Chern-Simons theory]] |
+|-----|---|---|-----|------|-----|----|----|
+| $n = 0$ |   | [[unit]] in [[structure sheaf]] | [[multiplicative group]]/[[group of units]] |  |  [[formal multiplicative group]]  | [[complex K-theory]] |  |
+| $n = 1$ | [[elliptic curve]] | [[line bundle]] |  [[Picard group]]/[[Picard scheme]] | [[Jacobian]]  |  [[formal Picard group]] | [[elliptic cohomology]] | [[3d Chern-Simons theory]]/[[WZW model]]  |
+| $n = 2$ | [[K3 surface]] |  [[line 2-bundle]] |  [[Brauer group]] | [[intermediate Jacobian]] | [[formal Brauer group]] |  [[K3 cohomology]] |  |
+| $n = 3$ | [[Calabi-Yau 3-fold]] |  [[line 3-bundle]] |   | [[intermediate Jacobian]] |  | [[Calabi-Yau cohomology|CY3 cohomology]]  | [[7d Chern-Simons theory]]/[[M5-brane]] |
+| $n$   |  |  |  |     [[intermediate Jacobian]]  |   |   |  |
