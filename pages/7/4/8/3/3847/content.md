@@ -34,6 +34,16 @@ admit pull-push [[integral transforms]] in some given [[cohomology theory]] $h$.
 
 This is the perspective of [Dyckerhoff-Kapranov 12, def. 8.1.8](#DyckerhoffKapranov12).
 
+### Motivic Hall algebra
+
+Specifically for a given [[algebraic stack]] $X$ and with 
+
+$$
+  X \leftarrow X^{(2)} \rightarrow X\times X
+$$ 
+
+denoting the moduli stack of 2-flags of coherent sheaves on $X$, then the coresponding pull-push multiplication on the motivic Grothendieck ring $K(X)$ is called the _motivic Hall algebra_ of $X$ (due to [[Dominic Joyce]] reviewed e.g. in [Bridgeland 10, 4.2](#Bridgeland10)).
+
 ### In terms of constructible sheaves
 
 The _Hall algebra_ of an [[abelian category]] is the [[Grothendieck group]] of [[constructible sheaves]]/[[perverse sheaves]] on the [[moduli stack]] of [[object]]s in the category. The Hall algebra is an algebra because the constructible derived category of the moduli stack of objects in an [[abelian category]] is [[monoidal category|monoidal]] in a canonical way.
@@ -73,5 +83,7 @@ Canonical references on Hall algebras include the following.
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 * David Hernandez, Bernard Leclerc, _Quantum Grothendieck rings and derived Hall algebras_, [arxiv/1109.0862](http://arxiv.org/abs/1109.0862)
 * Parker E. Lowrey, _The moduli stack and motivic Hall algebra for the bounded derived category_, [arxiv/1110.5117](http://arxiv.org/abs/1110.5117)
+
+* {#Bridgeland10} [[Tom Bridgeland]], _An introduction to motivic Hall algebra_ ([arXiv:1002.4372](http://arxiv.org/abs/1002.4372))
 
 [[!redirects Hall algebras]]
