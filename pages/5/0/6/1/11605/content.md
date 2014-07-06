@@ -772,7 +772,7 @@ Discussion of the generalization to [[Hodge structures]] includes
 
 #### For Calabi-Yau 3-folds
 
-Discussion of intermediate Jacobians of [[Calabi-Yau variety|Calabi-Yau]] 3-forms includes
+Discussion of intermediate Jacobians of [[Calabi-Yau 3-folds]] includes
 
 * C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
 
