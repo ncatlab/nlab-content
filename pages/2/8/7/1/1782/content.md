@@ -233,5 +233,9 @@ The system of [[infinite loop spaces]] of the algebraic K-theory spectrum regard
 
 * {#Saito14} [[Sho Saito]], _Higher Tate central extensions via K-theory and infinity-topos theory_ ([arXiv:1405.0923](http://arxiv.org/abs/1405.0923))
 
+implementing a suggestion stated in 
+
+* {#Drinfeld03} [[Vladimir Drinfeld]], _Infinite-dimensional vector bundles in algebraic geometry (an introduction)_ ([arXiv:math/0309155](http://arxiv.org/abs/math/0309155))
+
 [[!redirects algebraic K-theory of a stable (∞,1)-category]]
 [[!redirects algebraic K-theory of a stable (infinity,1)-category]]
