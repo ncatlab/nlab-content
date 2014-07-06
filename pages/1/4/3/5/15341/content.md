@@ -1,0 +1,45 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[Calabi-Yau object]] ([[Calabi-Yau manifold]], [[Calabi-Yau category]]) of (complex) [[dimension]] 3.
+
+## Properties
+
+[[!include moduli of higher lines -- table]]
+
+
+## Related concepts
+
+* [[Calabi-Yau cohomology]]
+
+## References
+
+### Intermediate Jacobian
+
+Discussion of [[intermediate Jacobians]] of Calabi-Yau 3-folds includes
+
+* C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
+
+* [[Claire Voisin]] ([pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/griffithsgroup.pdf))
+
+* [[Andreas Höring]], _Minimal classes on the intermediate Jacobian of a generic cubic threefold_, 2008 ([pdf](http://math.unice.fr/~hoering/articles/a5-intermediate.pdf))
+
+Discussion of the [[Artin-Mazur groups]] of CY3s in [[positive number|positive]] [[characteristic]]:
+
+* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
+
+
+### Hall algebra
+
+Discussion of [[motivic Hall algebras]] of CY 3-folds is in
+
+* {#KontsevichSoibelman08} [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_ ([arXiv:0811.2435](http://arxiv.org/abs/0811.2435))
+
+[[!redirects 3d Calabi-Yau space]]
+
+[[!redirects Calabi-Yau 3-fold]]
+[[!redirects Calabi-Yau 3-folds]]
