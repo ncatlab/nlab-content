@@ -31,6 +31,8 @@ Although the theorem fails in [[second-order logic]], variants hold in infinitar
 
 * [[Lindström's theorem]]
 
+* [[Craig interpolation theorem]]
+
 ## References
 
 * Wikipedia, _[L&#246;wenheim-Skolem theorem](https://en.wikipedia.org/wiki/L&#246;wenheim&#8211;Skolem_theorem)_
