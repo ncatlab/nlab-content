@@ -31,6 +31,8 @@ The [[derived category]] of a category [[quasi-coherent sheaves]].
 * L.Katzarkov, M.Kontsevich, T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
 {#KatzarkovKontsevichPantev}
 
+* [[Valery Lunts]], Olaf M. Schnuerer, _New enhancements of derived categories of coherent sheaves and applications_, [arXiv](http://arxiv.org/abs/1406.7559).
+
 
 [[!redirects derived categories of coherent sheaves]]
 [[!redirects derived category of quasi-coherent sheaves]]
