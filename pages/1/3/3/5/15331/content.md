@@ -4,7 +4,7 @@
 
 ## Idea
 
-_Second-order logic_ , abbr. SOL, is an extension of [[first-order logic]] with quantifiers and variables that range over subsets of the universe of discourse, and hence is a [[higher-order logic]] of stage 2.
+_Second-order logic_(SOL) is an extension of [[first-order logic]] with quantifiers and variables that range over subsets of the universe of discourse, and hence is a [[higher-order logic]] of stage 2.
 
 An important fragment is _Monadic Second-order logic_  (MSOL), where second-order quantification is restricted to second-order unary relations between subsets i.e. MSOL quantifies only over set predicates e.g. $\forall X.\varphi(X)$ but not $\forall X\forall Y .\varphi(X,Y)$.
 
