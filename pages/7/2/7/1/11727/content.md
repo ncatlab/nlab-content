@@ -7,6 +7,16 @@
 
 The analog of [[complex analytic space]] with the [[complex numbers]] replaced by the [[real numbers]].
 
+## Properties
+
+Whitney: every [[paracompact topological space|paracompact]] [[smooth manifold]] admits a real analytic structure.
+
+Use the [[Whitney embedding theorem]] to realize the smooth manifold as the [[zero locus]] of non-degenerate [[smooth functions]], then use the [[Weierstrass approximation theorem]] to replace these by [[polynomials]]. The resulting zero locus gives the desired real-analytic version of the manifold.
+
+([from here](http://www.math.niu.edu/~rusin/known-math/95/real.anal)):
+ 
+One can also use Whitney's methods to show that two diffeomorphic real analytic manifolds are real-analytic equivalent provided that they both admit embeddings in Euclidean space, equivalently provided that global, real-valued, real analytic functions distinguish points.  This preliminary result also holds true for any other category of functions and manifolds, or Nash category, with an implicit and inverse function theorem and a few other features.  For example, it's true for Nash manifolds.  The hard part is then showing that every real analytic manifold does indeed embed in Euclidean space.  This is the Morrey-Grauert theorem.  Grauert's proof, the more sophisticated one, takes as its starting point a complex analytic manifold which is a tubular neighborhood of the real analytic manifold.  It then applies some hard stuff in several complex variables to prove the existence of many global, complex analytic functions on the complex manifold.
+
 ## Related concepts
 
 * [[GAGA]]
@@ -18,3 +28,6 @@ The analog of [[complex analytic space]] with the [[complex numbers]] replaced b
 [[!redirects real analytic spaces]]
 
 [[!redirects real analytic geometry]]
+
+[[!redirects real-analytic manifold]]
+[[!redirects real-analytic manifolds]]
