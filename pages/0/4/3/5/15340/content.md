@@ -1,0 +1,6 @@
+
+## References
+
+* Wikipedia, _[Automorphic L-function](http://en.wikipedia.org/wiki/Automorphic_L-function)_
+
+[[!redirects automorphic L-functions]]
