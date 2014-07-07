@@ -10,6 +10,8 @@ A **J&#243;nsson-Tarski algebra**, also called a _Cantor algebra_, is a [[set]] 
 
 * The category of J&#243;nsson-Tarski algebras is  a [[topos]], the so called [[Jónsson-Tarski topos]] $\mathcal{J}_2$, and hence is an example for an [[algebraic variety]] that is also a topos (cf. Johnstone 1985).
 
+* The [[Thompson Group]] F is the group of order-preserving automorphisms of the free J&#243;nsson-Tarski algebra on one generator.
+
 ##References
 
 * Wikipedia, [J&#243;nsson-Tarski algebra](http://en.wikipedia.org/wiki/J&#243;nsson&#8211;Tarski_algebra)
