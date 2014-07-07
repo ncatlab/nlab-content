@@ -1,0 +1,25 @@
+
+
+This page records material related to the talk
+
+* [[Robert Langlands]]
+
+  _Problems in the theory of automorphic forms: 45 years later_
+
+  at 
+
+  _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_
+
+  Oxford, July 5 - July 8, 2014
+
+  [survey text pdf](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-oxford.pdf)
+
+  [lecture video 1](http://video.ias.edu/files/ams/2014/LanglandsEdit.mp4), [video 2](http://video.ias.edu/files/ams/2014/LanglandsP1.mp4), [video 3](http://video.ias.edu/files/ams/2014/LanglandsP2.mp4)
+
+  [technical remarks pdf](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-comments.pdf)
+ 
+on the state of the art of the [[Langlands program]].
+
+category: reference
+
+[[!redirects LanglandsOxford2014]]
