@@ -3,8 +3,13 @@
 
 ## Related entries
 
-* [[Langlands program]]
+* [[Langlands program]], [[geometric Langlands correspondence]]
 
-* [[geometric Langlands correspondence]]
+  [[automorphic representation]]
+
+  [[Langlands dual group]]
+
+* _[[Problems in the theory of automorphic forms -- 45 years later]]_
+
 
 category: people
