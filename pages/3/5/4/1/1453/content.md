@@ -2,4 +2,8 @@ I am a post-doc at the University of Toronto working on derived and non-commutat
 
 You may email me at brav?@?math?.?toronto?.?edu, with the ?s removed.
 
+* [webpage](http://people.maths.ox.ac.uk/brav/)
+
 category: people
+
+[[!redirects Christopher Brav]]
