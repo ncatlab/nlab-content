@@ -14,6 +14,12 @@ In particular for $(X, \omega)$ a [[symplectic manifold]] there are local charts
 * Wikipedia, _[Darboux theorem](http://en.wikipedia.org/wiki/Darboux%27s_theorem)_
 
 
+"Higher" Darboux' theorems for [[shifted symplectic structures]] ([[BV-BRST complex|BV-brackets]]) on [[stacks]] are discussed in 
+
+* [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux theorem' for derived schemes with shifted symplectic structure_ ([arXiv:1305.6302](http://arxiv.org/abs/1305.6302))
+
+* [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_ ([arXiv:1312.0090](http://arxiv.org/abs/1312.0090))
+
 [[!redirects Darboux theorem]]
 
 [[!redirects Darboux coordinate chart]]
