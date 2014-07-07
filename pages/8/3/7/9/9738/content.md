@@ -1,3 +1,8 @@
+## Idea
+
+Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on an [[algebraic group]].  (Recall that the latter is well-defined only up to scalar multiplication.)
+
+The **Tamagawa number** of $G$ is the Tamagawa measure of $G(\mathbf{Q})\backslash G(\mathbf{A})$, where $\mathbf{A}$ is the ring of [[adeles]].
 
 ## Related concepts
 
@@ -18,3 +23,5 @@ Some other relation to [[quantum mechanics]] and maybe to the [[Witten genus]] (
 * M. A. Olshanetsky, _Quantum-mechanical calculations in the algebraic group theory_, Comm. Math. Phys. Volume 132, Number 2 (1990), 441-459. ([Euclid](http://projecteuclid.org/euclid.cmp/1104201160))
 
 [[!redirects Tamagawa numbers]]
+[[!redirects Tamagawa measure]]
+[[!redirects Tamagawa measures]]
