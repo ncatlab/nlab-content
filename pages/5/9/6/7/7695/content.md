@@ -9,13 +9,17 @@ Non-archimedean geometry is geometry over [[non-archimedean field]]s. While the 
 
 ### Literature
 
-For literature on specific approaches see the $n$Lab entries [[Berkovich analytic space]], [[adic space]], [[global analytic geometry]], [[rigid analytic geometry]]. For comparison see
+For literature on specific approaches see the $n$Lab entries [[Berkovich analytic space]], [[adic space]], [[global analytic geometry]], [[rigid analytic geometry]], [[Huber space]], [[perfectoid space]]. 
 
-* Brian Conrad, _Several approaches to non-archimedean geometry_, lectures at Arizona winter school 2007, [pdf](http://www.wstein.org/swc/aws/07/ConradNotes11Mar.pdf)
+For comparison see
+
+* [[Brian Conrad]], _Several approaches to non-archimedean geometry_, lectures at Arizona winter school 2007, [pdf](http://www.wstein.org/swc/aws/07/ConradNotes11Mar.pdf)
 
 * Kiran S. Kedlaya, _Reified valuations and (re)adic spectra _, [arxiv/1309.0574](http://arxiv.org/abs/1309.0574)
 
 * Kazuhiro Fujiwara, Fumiharu Kato, _Foundations of Rigid Geometry I_, [arxiv/1308.4734](http://arxiv.org/abs/1308.4734)
+
+* [[Oren Ben-Bassat]], [[Kobi Kremnizer]], _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
 category: geometry
 [[!redirects non-Archimedean analytic geometry]]
