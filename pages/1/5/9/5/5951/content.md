@@ -33,3 +33,4 @@ Available material includes:
 category: reference
 
 [[!redirects Cohesive Toposes: Combinatorial and Infinitesimal Cases]]
+[[!redirects Como lectures]]
