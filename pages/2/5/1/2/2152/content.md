@@ -129,10 +129,12 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[B1-homotopy theory]]
 
+* [[global analytic geometry]]
+
 ## References
  {#References}
 
-Course notes on analytic geometry are in 
+Course notes on ([[global analytic geometry|global]]) analytic geometry are in 
 
 * [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
