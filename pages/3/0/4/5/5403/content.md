@@ -8,7 +8,7 @@ A **J&#243;nsson-Tarski algebra**, also called a _Cantor algebra_, is a [[set]] 
 
 * The structure of a J&#243;nsson-Tarski algebra can be described by an [[algebraic theory]], with one binary operation $\mu$ and two unary operations $\lambda$ and $\rho$ such that $\mu(\lambda(x),\rho(x)) = x$, $\lambda(\mu(x,y))=x$, and $\rho(\mu(x,y))=y$.
 
-* The category of J&#243;nsson-Tarski algebras is a [[topos]], the so called [[Jónsson-Tarski topos]]. As this not generally the case for algebraic varieties, this is somewhat surprising.
+* The category of J&#243;nsson-Tarski algebras is  a [[topos]], the so called [[Jónsson-Tarski topos]] $\mathcal{J}_2$, and hence is an example for an [[algebraic variety]] that is also a topos (cf. Johnstone 1985).
 
 ##References
 
