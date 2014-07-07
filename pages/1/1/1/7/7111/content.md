@@ -138,6 +138,8 @@ for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean 
 
 * [[Huber space]], [[perfectoid space]]
 
+* [[global analytic geometry]]
+
 ## References
 
 ### Introductions and reviews
