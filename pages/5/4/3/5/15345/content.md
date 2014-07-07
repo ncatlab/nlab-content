@@ -7,6 +7,8 @@ A variant of the theory of [[Huber spaces]]
 
 * [[Berkovich space]]
 
+* [[global analytic geometry]]
+
 ## References
 
 * [[Peter Scholze]], _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
