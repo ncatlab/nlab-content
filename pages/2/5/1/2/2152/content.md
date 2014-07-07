@@ -1,7 +1,7 @@
 
 > This entry is about [[geometry]] based on the study of _[[analytic functions]]_, hence about [[analytic varieties]]. 
 
-> This is unrelated to "analytic geometry" in the sense of methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); which is usually combined with linear algebra taught in a geometric way. For this latter meaning see at _[[coordinate system]]_.
+> This is unrelated to "analytic geometry" in the sense of methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); which is usually combined with linear algebra taught in a geometric way. For Bassthis latter meaning see at _[[coordinate system]]_.
 
 
 +-- {: .rightHandSide}
@@ -151,7 +151,7 @@ A gentle and modern introduction to [[complex manifolds]] that starts with an ex
 
 Discussion of [[Berkovich space]] analytic geometry as [[algebraic geometry]] in the general sense of [[Bertrand Toën]] and [[Gabriele Vezzosi]] is in 
 
-* Oren Ben-Bassat, Kobi Kremnizer, _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+* [[Oren Ben-Bassat]], [[Kobi Kremnizer]], _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
 For more see the references at [[rigid analytic geometry]] and at [[analytic space]].
 
