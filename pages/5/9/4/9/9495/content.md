@@ -16,4 +16,5 @@ category: people
 
 [[!redirects Verdier]]
 [[!redirects J.-L. Verdier]]
+[[!redirects J. L. Verdier]]
 [[!redirects Verdier, Jean-Louis]]
