@@ -49,3 +49,6 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 * Wikipedia, _[Weil conjectures](http://en.wikipedia.org/wiki/Weil_conjectures)_
 
 [[!redirects Weil conjectures]]
+
+[[!redirects Weil's conjecture]]
+[[!redirects Weil's conjectures]]
