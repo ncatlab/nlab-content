@@ -1,6 +1,6 @@
 ## Idea
 
-Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on an [[algebraic group]].  (Recall that the latter is well-defined only up to scalar multiplication.)
+Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on $G$.  (Recall that the latter is well-defined only up to scalar multiplication.)
 
 The **Tamagawa number** of $G$ is the Tamagawa measure of $G(\mathbf{Q})\backslash G(\mathbf{A})$, where $\mathbf{A}$ is the ring of [[adeles]].
 
