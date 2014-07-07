@@ -41,5 +41,7 @@ For every point $x \in X$ there is a canonical isomorphism between the stalk $\m
 
 * [[Alexander Grothendieck]], [[Jean Dieudonné]], _[[EGA]]_ (IV, 20.1).
 
+* [[Stacks Project]], [sheaf of meromorphic functions and sections](http://stacks.math.columbia.edu/tag/01X1), tag 01X1.
+
 category: sheaf theory, algebraic geometry
 [[!redirects sheaf of germs of meromorphic functions]]
