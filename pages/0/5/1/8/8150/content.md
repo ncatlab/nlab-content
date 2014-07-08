@@ -149,7 +149,7 @@ $$
   \begin{aligned}
     S_0 
     &=  
-    I_0 \oplus I_0 
+    I_0 \otimes I_0 
     \\
     & =
     (R \oplus R) \otimes (R \oplus R)
