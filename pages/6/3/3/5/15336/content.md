@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ##Idea##
 
@@ -8,13 +22,18 @@ What makes this interval 'generic' is the following result of [[Joyal]][^fine]:
 
 [^fine]: The result was announced by Joyal in 1974 at the [[Isle of Thorns]], the first published proof appears in Johnstone (1979) and in book form in MacLane-Moerdijk (1994, sec. VIII.8).
 
-**Theorem**. _The tops $sSet$ of [[simplicial sets]] is the [[classifying topos]] for linear orders with distinct top and bottom elements, i.e. intervals (aka nontrivial totally [[distributive lattices]]) with generic interval $\Delta_1=Hom_{\Delta}(\quad,[1])$.
+**Theorem**. _The topos $sSet$ of [[simplicial sets]] is the [[classifying topos]] for linear orders with distinct top and bottom elements, i.e. intervals (aka nontrivial totally [[distributive lattices]]) with generic interval $\Delta_1=Hom_{\Delta}(\quad,[1])$.
 
-If $I$ is an interval in a topos $\mathcal{E}$, then it corresponds to a [[geometric morphism]] $S_I:\mathcal{E}\rightarrow sSet$ with direct image part $S_I_*:\mathcal{E}\rightarrow sSet$ the singular functor and inverse image part the [[geometric realization]] functor $|_|_I:sSet\rightarrow \mathcal{E}$.
-> The classifying topos point of view is helpful, because it is the choice of an algebraic structure, of the kind classified, in a topological topos that gives rise to an exact singular/realization pair.  (Lawvere 2013, [link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
+If $I$ is an interval in a topos $\mathcal{E}$, then it corresponds to a [[geometric morphism]] $S_I:\mathcal{E}\rightarrow sSet$ with direct image part $S_I_*:\mathcal{E}\rightarrow sSet$ the singular functor and inverse image part the [[geometric realization]] functor $|\quad|_I:sSet\rightarrow \mathcal{E}$.
+> The classifying topos point of view is helpful, because it is the choice of an algebraic structure, of the kind classified, in a [[topological topos]] that gives rise to an exact singular/realization pair.  (Lawvere 2013, [link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 ##Remark##
-The generic interval and the results of Wraith (1993) play a role in Lawvere's attempt to view classical combinatorial topology as part of greater landscape situated in the [[presheaf topos]] on the category of nonempty finite sets, which is the classifying topos for nontrivial [[Boolean algebras]] and contains $sSet$ and $Grpd$ the category of [[groupoids]] as reflective subcategories  (cf. Lawvere 1989, pp.273-275).
+The generic interval and the results of Wraith (1993) play a role in Lawvere's attempt to view classical combinatorial topology as part of greater landscape situated in the [[presheaf topos]] on the category of nonempty finite sets, which is the classifying topos for nontrivial [[Boolean algebras]] and contains $sSet$ and the category of [[groupoids]] $Grpd$ as reflective subcategories  (cf. Lawvere 1989, pp.273-275).
+
+##Related Concepts
+* [[topological topos]]
+* [[interval object]]
+* [[sSet]]
 
 ##References##
 
