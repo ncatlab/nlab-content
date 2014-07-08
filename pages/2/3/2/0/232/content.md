@@ -281,3 +281,6 @@ Change of base is discussed in
 [[!redirects enriched categories]]
 [[!redirects category enriched]]
 [[!redirects categories enriched]]
+
+[[!redirects enriched groupoid]]
+[[!redirects enriched groupoids]]
