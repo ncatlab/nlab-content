@@ -21,7 +21,8 @@
 
 ### Geometric
 
-For $n \in \mathbb{N}$ a [[natural number]], the $n$-[[dimension]]al **ball** or **$n$-disk** is the [[topological space]]
+
+For $n \in \mathbb{N}$ a [[natural number]], the $n$-[[dimension|dimensional]] **ball** or **$n$-disk** in $\mathbb{R}^n$ is the [[topological space]]
 
 $$
   D^n := \{ \vec x \in \mathbb{R}^n | \sum_{i} (x^i)^2 \leq 1\}
@@ -39,6 +40,16 @@ $$
 $$ 
 
 Its [[boundary]] is the $(n-1)$-[[sphere]].
+
+More generally, for $(X,d)$ a [[metric space]] then an open ball in $X$ is a subset of the form
+
+$$
+  B(x,r) \coloneqq \{x \in X \;|\; d(x,y) \lt r \}
+$$
+
+for $x \in X$ and $r \in (0,\infty) \subset \mathbb{R}$.
+(The collection of all open balls in $X$ form the [[basis of a topology|basis]] of the [[metric topology]] on $X$.)
+
 
 ### Combinatorial
 
