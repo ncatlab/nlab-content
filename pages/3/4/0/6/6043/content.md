@@ -118,6 +118,8 @@ This is a semi-norm on $V$.
 
 * [[metric]]
 
+* [[normed group]], [[normed ring]], [[normed algebra]]
+
 ## References
 
 * [pdf](http://www.maths.uq.edu.au/courses/MATH3402/Lectures/normls.pdf)
