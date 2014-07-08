@@ -21,18 +21,24 @@
 [[!redirects idempotent object]]
 [[!redirects Cantor algebra]]
 
+##Idea
+
+
+Loosely speaking, a _J&#243;nsson-Tarski algebra_ is a Cantorian '[[countable set|Abzählung]]' of $\mathbf{N}^2$ gone algebra.
 
 ## Definition
 
-A **J&#243;nsson-Tarski algebra**, also called a _Cantor algebra_, is a [[set]] $A$ together with an [[isomorphism]] $A\cong A\times A$.
+A **J&#243;nsson-Tarski algebra**, also called a [[Georg Cantor|Cantor]] algebra, is a [[set]] $A$ together with an [[isomorphism]] $A\cong A\times A$.
 
-More generally, an object $A$ in a [[symmetric monoidal category]] $\mathcal{M}$ together with an isomorphism $\alpha:A\otimes A\rightarrow A$ is called a _J&#243;nsson-Tarski object_, or an _idempotent_ object (Fiore&Leinster 2010).
+More generally, an object $A$ in a [[symmetric monoidal category]] $\mathcal{M}$ together with an isomorphism $\alpha:A\otimes A\rightarrow A$ is called a **J&#243;nsson-Tarski object**, or an _idempotent_ object (Fiore&Leinster 2010).
 
 ## Properties
 
 * Clearly (at least in [[classical mathematics]]), any J&#243;nsson-Tarski algebra is either [[empty set|empty]], a [[singleton]], or [[infinite set|infinite]].
 
 * The structure of a J&#243;nsson-Tarski algebra can be described by an [[algebraic theory]], with one binary operation $\mu$ and two unary operations $\lambda$ and $\rho$ such that $\mu(\lambda(x),\rho(x)) = x$, $\lambda(\mu(x,y))=x$, and $\rho(\mu(x,y))=y$.
+
+* Any two J&#243;nsson-Tarski algebras freely generated from finite non empty sets are isomorphic. It was this property they owe their introduction to (J&#243;nsson&Tarski 1961).
 
 * The category of J&#243;nsson-Tarski algebras is a [[topos]], the so called [[Jónsson-Tarski topos]] $\mathcal{J}_2$, and hence is an example for an [[algebraic variety]] that is also a topos (cf. Johnstone 1985).
 
