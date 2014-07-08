@@ -225,6 +225,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
  
     * [[topological ring]]
 
+    * [[normed ring]]
+
   * [[localization of a ring]]
 
   * [[filtered ring]], [[associated graded ring]]
