@@ -101,7 +101,7 @@ Note, though, that geometric morphisms are generally considered as pointing in t
 
 In particular, we can apply the "exact completion" operation to the syntactic category $G_T$ of a geometric theory to obtain an infinitary pretopos $Set[T]$.  As long as the theory $T$ was itself small, $Set[T]$ will have a generating set, and therefore will be a Grothendieck topos.  The universal property of the syntactic category, combined with that of the exact completion, implies that for any Grothendieck topos $E$, geometric morphisms $E\to Set[T]$ are equivalent to $T$-models in $E$.  This topos $Set[T]$ is called the **[[classifying topos]]** of $T$.
 
-In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
+In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos]], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
 
 
 ### Functorial definition
@@ -186,7 +186,6 @@ For additional background on (finitary) geometric formulas consider:
 * Karel Stokkermans, [[Bill Lawvere]], and [[Steve Vickers]]: _Catlist discussion March 1999_ . ([link](http://comments.gmane.org/gmane.science.mathematics.categories/1058))
 
 * H.J. Keisler: _Theory of models with generalized atomic formulas_ , JSL 25 (1960), pp.1-26.
-
 
 Discussion in the context of [[computer science]] is in
 
