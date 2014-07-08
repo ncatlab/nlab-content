@@ -72,6 +72,12 @@ This reverses: from a [[metric space]], say $X$, we get a normed groupoid by tak
 
 * [[Banach space]]
 
+* [[normed ring]]
+
+## References
+
+* N. Bingham, A. Ostaszewski, _Normed groups: dichotomy and duality_ ([pdf](http://www.maths.lse.ac.uk/Personal/adam/BOst12-rev.pdf), [pdf](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf))
+
 
 [[!redirects normed groups]]
 
