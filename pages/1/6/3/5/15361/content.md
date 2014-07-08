@@ -1,0 +1,15 @@
+
+This page collects links related to 
+
+* [[Gregory Moore]]
+
+  _Physical Mathematics and the Future_
+
+  talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
+
+  ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf))
+
+
+on the [[mathematical physics]] of [[string theory]].
+
+category: reference
