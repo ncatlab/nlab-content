@@ -228,6 +228,8 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 * [[pseudo-abelian category]]
 
+* [[quasi-abelian category]]
+
 ## References
 
 Maybe the first reference on abelian categories, then still called _exact categories_ is 
