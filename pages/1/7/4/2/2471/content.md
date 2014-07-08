@@ -47,6 +47,11 @@ Affinoid algebras were introduced in
 
 See the references at _[[analytic geometry]]_ for more details.
 
-Discussion of ffinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geoemtry]] is in 
+Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geoemtry]] is in 
 
 * [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+
+See also 
+
+* {#Bambozzi14} [[Federico Bambozzi]], _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
+
