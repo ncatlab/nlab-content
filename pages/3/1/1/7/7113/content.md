@@ -50,6 +50,8 @@ Non-archimean fields include
 
 * [[archimedean valued field]]
 
+* [[non-archimedean analytic geometry]]
+
 [[!redirects archimedean field]]
 [[!redirects archimedean fields]]
 [[!redirects non-archimedean field]]
