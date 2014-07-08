@@ -1,10 +1,27 @@
-A __normed algebra__ $A$ over a field $k$ of real or complex numbers is a [[normed vector space]] such that the algebra multiplication is continuous with respect to the norm, i.e. there is a positive real constant $C\gt 0$ such that 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A __normed algebra__ $A$ over a field $k$ of real or complex numbers is a [[normed vector space]] such that the algebra multiplication is [[continuous function|continuous]] with respect to the norm, i.e. there is a positive real constant $C\gt 0$ such that 
 
 $$
 \|ab\| \leq C \|a\| \|b\|, 
 $$
 
 for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$. A normed algebra whose underlying normed space is complete is called a __Banach algebra__.
+
+## Related concepts
+
+* [[normed ring]]
+
+* [[Banach algebra]]
+
+* [[normed division algebra]]
+
+## References
 
 * M. A. Naimark, _Normed rings_
 * R. Kadison, _Introduction to operator algebras_
