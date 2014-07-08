@@ -28,7 +28,7 @@ For $C$ a [[monoidal category]], the **category of [[monoids]]** $Mon(C)$  in th
 
 * [[morphism]]s are morphisms in $C$ of the underlying objects that respect the monoid structure.
 
-Similarly for the **category of [[commutative monoids]]** $CMon(C)$.
+Similarly for the **category of [[commutative monoids]]** $CMon(C)$, if $C$ is symmetric monoidal.
 
 =--
 
