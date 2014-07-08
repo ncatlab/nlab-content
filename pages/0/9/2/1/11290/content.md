@@ -1,3 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A __quasi-abelian category__ is an [[additive category]] admitting
 the kernels and the cokernels which satisfies the following conditions:
 
@@ -5,8 +30,28 @@ the kernels and the cokernels which satisfies the following conditions:
 
 (ii) the strict monomorphisms are stable by co-base changes
 
-This is definition 2.1.1 in 
+This is definition 2.1.1 in ([Kashiwara](#Kashiwara)).
 
-* Masaki Kashiwara, _Equivariant derived category and
+## Examples
+
+* The category of [[bornological vector spaces]] over the [[complex numbers]] is quasi-abelian ([Prosmans-Schneiders 00](#ProsmansSchneiders00))
+
+* The category of [[bornological abelian groups]] is quasi-abelian ([Bambozzi 14](#Bambozzi14)).
+
+## Related concepts
+
+* [[abelian category]]
+
+* [[pseudo-abelian category]]
+
+## References
+
+* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and
 representation of real semisimple Lie groups_, 
 [pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)
+
+* {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_, December 2000, Prepublications Mathematiques de l'Universite Paris 13, 46 ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
+
+
+* {#Bambozzi14} [[Federico Bambozzi]], section 1 of _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
+
