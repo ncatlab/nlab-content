@@ -67,6 +67,9 @@ I suspect that here I mean something like a strict monomorphism in the category 
 =--
 However, this is not a characterization of Arens regularity; Young also observed that for any locally compact group $G$ one may build a reflexive Banach space $E$ and construct an injective homomorphism of topological algebras $L^1(G)\to B(E)$ which has closed range.
 
+## Related concepts
+
+* [[normed group]], [[normed ring]], [[normed algebra]]
 
 ## References
 
