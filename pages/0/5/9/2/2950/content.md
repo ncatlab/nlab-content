@@ -2,6 +2,10 @@
 
 * [website](http://www.physics.rutgers.edu/~gmoore/)
 
+## Writings
+
+* _[[Physical Mathematics and the Future]]_
+
 ## related $n$Lab entries
 
 * [[Kalb-Ramond field]]
