@@ -29,14 +29,16 @@ $$ d\colon X \times X \to [0, \infty) $$
 * Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
 * Symmetry: $d(x, y) = d(y, x)$.
 
-Given a metric space $(X, d)$ and a point $x \in X$, the __open [[ball]]__ centered at $x$ of radius $r$ is 
-$$ B_r(x) \coloneqq \{y \in X : d(x, y) \lt r\} ,$$ 
-and it may be shown that the open balls form a basis for a [[topological structure|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of [[complete space|completion]] of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
+Given a metric space $(X, d)$ and a point $x \in X$, the __[[open ball]]__ centered at $x$ of radius $r$ is  
+$$ 
+  B_r(x) \coloneqq \{y \in X : d(x, y) \lt r\}
+$$ 
+and it may be shown that the open balls form a [[basis for a topology|basis]] for a [[topological structure|topology]] on $X$, the _[[metric topology]]_. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of [[complete space|completion]] of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
 
 ### Metrizable spaces
 
-A **metrizable space** is a [[topological space]] $X$ which admits a metric such that the metric topology agrees with the topology on $X$. In general, many different metrics (even ones giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
+A **metrizable space** is a [[topological space]] $X$ which admits a metric such that the  [[metric topology]] agrees with the topology on $X$. In general, many different metrics (even ones giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
 
 Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], [[regular space|regular]], and even [[normal space|normal]]. They are also [[paracompact space|paracompact]]. 
 
