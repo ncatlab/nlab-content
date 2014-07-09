@@ -23,17 +23,17 @@
 An **&#233;tendue** (also 'etendue', or 'etendu'; from French '&#233;tendue' (fem.)- _extent_) is a [[topos]] $\mathcal{Y}$ that locally looks like the category of sheaves on a space:
 >Briefly, the slogan is that $\mathcal{Y}$ is locally a topological space. (Lawvere 1976, p.129)
 
-Originally defined by [[A. Grothendieck]] in ([[SGA4]], p.482) as a topos $\mathcal{Y}$ that has a well-supported object $X$ such that the slice $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
+Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [[SGA4]] (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the slice $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
-Several site characterizations of &#233;tendues are known which come in two flavors, the first being the cancellation property of having an 'all monic' site betraying the origin of the concept as a mild generalization of the concept of space, the second is tied to the 'groupoidalness' of the site. Both ideas were already present in SGA4.
+Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one rather directly: it has a site where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and the like.
 
 &#201;tendues play an important role in Lawvere's approach to [[cohesion]] and the distinction between [[petit and gros toposes]] where they provide one of the classes of **petit** toposes (generalized spaces). In this context, Lawvere (1989,1991) interprets the cancellative property of the site as enabling an interpretation of &#233;tendues as _categories of processes_. 
 
 ##Definition##
 
-A topos $\mathcal{E}$ is called an _&#233;tendue_ if there is an object $X\in|\mathcal{E}|$ such that the (unique) $X\rightarrow 1$ is epic and the [[slice topos]] $\mathcal{E}/X$  is a [[localic topos]].[^fine]
+A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\mathcal{Y}|$ such that the unique $X\rightarrow 1$ is epic and the [[slice topos]] $\mathcal{Y}/X$  is a [[localic topos]].[^fine]
 
-[^fine]:  An epic $k:X\rightarrow Y$ induces a [[geometric morphism]] $k_\ast:\mathcal{E}/X\rightarrow \mathcal{E}/Y$ whose inverse image part, the change of base functor, $k^\ast:\mathcal {E}/Y\rightarrow\mathcal{E}/X$ is faithful, which says by definition that $k_\ast$ is a surjection, and in case $Y=1$, one says that $\mathcal{E}/X$ _covers_ $\mathcal{E}$.
+[^fine]:  An epic $k:X\rightarrow Y$ induces a [[geometric morphism]] $k_\ast:\mathcal{Y}/X\rightarrow \mathcal{Y}/Y$ whose inverse image part, the change of base functor, $k^\ast:\mathcal {Y}/Y\rightarrow\mathcal{Y}/X$ is faithful, which says by definition that $k_\ast$ is a surjection, and in case $Y=1$, one says that $\mathcal{Y}/X$ _covers_ $\mathcal{Y}$.
 
 ##Examples##
 
@@ -43,13 +43,15 @@ A topos $\mathcal{E}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * The topos  $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ of _irreflexive [[graphs]]_ is an &#233;tendue, as it is locally equivalent to the sheaf topos on a three point space  (Lawvere 1986). The contrast between $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ and the topos  $\mathcal{S}^{\Delta_1^{op}}$ of _reflexive graphs_ is a paradigmatic example of the distinction between a _petit_ and a _gros_ topos.
 
-* The [[Jónsson-Tarski topos]] $\mathcal{J}_2$ is an &#233;tendue, as it is locally equivalent to the sheaf topos on the [[Cantor space]]. It has been discussed as a petit topos for _labeled graphs_ in (Lawvere 1989).
+* The [[Jónsson-Tarski topos]] $\mathcal{J}_2$ is an &#233;tendue, as it is locally equivalent to the sheaf topos on the [[Cantor space]]. It is discussed as a petit topos for _labeled graphs_ in (Lawvere 1989).
  
 ##Properties##
 
 * **Proposition**. A Grothendieck topos $\mathcal{Y}$ is an &#233;tendue iff there exists a [[site]] $(\mathcal{C}, J)$ for $\mathcal{Y}$ such that every morphism of $\mathcal{C}$ is monic.
 
-* A Grothendieck topos is a Boolean &#233;tendue precisely if it satisfies the _internal [[axiom of choice]]_ (i.e. $(\quad)^X$ preserves epics for all objects $X$ ). An example of such a Boolean &#233;tendue would be $\mathcal{S}^G$ for $G$ a group.
+* A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (i.e. $(\quad)^X$ preserves epics for all objects $X$ ). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
+
+
 
 ##Related Concepts##
 * [[localic topos]]
@@ -57,9 +59,10 @@ A topos $\mathcal{E}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 
 
+
 ##References
 
-* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas (SGA 4)_, Springer LNM vol.269 (1972).
+* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas (SGA4)_, Springer LNM vol.269 (1972), pp.479-484.
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
 
@@ -85,6 +88,11 @@ A topos $\mathcal{E}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * [[Dorette A. Pronk]] , _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
+* [[Pedro Resende]], _Groupoid Sheaves as Quantale Modules_ , arXiv.0807.4848v3 (2011). ([pdf](http://arxiv.org/pdf/0807.4848v3.pdf))
+
 * [[Kimmo I. Rosenthal]], _&#201;tendues and Categories with Monic Maps_ , JPAA **22** (1981) pp.193-212.
+
+* [[Kimmo I. Rosenthal]], _Sheaves and Local Equivalence Relations_ 
+, Cah.Top.G&#233;om.Diff.Cat. **XXV** 2 (1984) pp.179-206. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1984__25_2/CTGDC_1984__25_2_179_0/CTGDC_1984__25_2_179_0.pdf))
 
 * [[Kimmo I. Rosenthal]], _Covering &#201;tendues and Freyd's Theorem_ , Proc. AMS **99** 2 (1987) pp.221-222. ([pdf](http://www.ams.org/journals/proc/1987-099-02/S0002-9939-1987-0870775-X/S0002-9939-1987-0870775-X.pdf))
