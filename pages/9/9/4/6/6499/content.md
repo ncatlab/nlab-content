@@ -74,6 +74,6 @@ For more see
 
   (on the coherence of the sheaf of analytic functions on higher dimensional affine spaces)
 
-* [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+* {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
 [[!redirects global analytic geometries]]
