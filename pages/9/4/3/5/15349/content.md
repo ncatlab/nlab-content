@@ -49,7 +49,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * **Proposition**. A Grothendieck topos $\mathcal{Y}$ is an &#233;tendue iff there exists a [[site]] $(\mathcal{C}, J)$ for $\mathcal{Y}$ such that every morphism of $\mathcal{C}$ is monic.
 
-* A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (i.e. $(\quad)^X$ preserves epics for all objects $X$ ). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
+* A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (Freyd&Scedrov 1990). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
 
 
 
@@ -63,6 +63,8 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 ##References
 
 * [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas (SGA4)_, Springer LNM vol.269 (1972), pp.479-484.
+
+* [[Peter Freyd|P. J. Freyd]], A. Scedrov , _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
 
