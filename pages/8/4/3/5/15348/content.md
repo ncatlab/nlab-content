@@ -28,7 +28,7 @@ The category of [[Jónsson-Tarski algebras]] $\mathcal{J}_2$ is called the **J&#
 
 * $\mathcal{J}_2=Sh(M_2,J)$ where $M_2$ is the free monoid on two generators $a, b$ and $J$ is the [[coverage]] whose only covering family on the unique object $\cdot$ of $M_2$ is $\{a:\cdot\rightarrow \cdot ,b:\cdot\rightarrow\cdot\}$. So $\mathcal{J}_2$ is in a fact a [[Grothendieck topos]].
 
-* $\mathcal{J}_2$ is an [[étendue]] ([[Peter Freyd]]) and is discussed in this [[étendue|perspective]] as a [[petit topos]] in (Lawvere 1989).
+* $M_2$, as a free monoid, is cancellative and, accordingly, $\mathcal{J}_2$ is an [[étendue]] ([[Peter Freyd]]). It is discussed from this [[étendue|perspective]] as a [[petit topos]] for _labeled graphs_ in (Lawvere 1989).
 
 ##Generalizations
 The idea to consider $\mathcal{J}_2$ as part of a family of _generalized J&#243;nsson-Tarski toposes_ seems to have originated with Lawvere (1989, p.298).
