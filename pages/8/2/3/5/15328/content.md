@@ -34,7 +34,7 @@ The _second_ Lindstr&#246;m theorem is of a more proof-theoretic nature and invo
 ##Discussion##
 These results are sometimes viewed as an explanation of the privileged role that standard first-order logic plays in mathematical logic.
 
-In the end, what lesson one draws from them (once the classical background assumptions accepted), largely hinges upon how one assesses the role of the _[[Löwenheim-Skolem theorem]]_ in mathematical logic, which enjoys a rather controversial status and has encountered skepticism already by _Thoralf Skolem_, the man himself. This scepticism is clearly present in the following comment by _Hao Wang_ (1974, quoted after Flum(1985), pp.77-78):
+In the end, what lesson one draws from them (once the classical background assumptions accepted), largely hinges on how one assesses the role of the _[[Löwenheim-Skolem theorem]]_ in mathematical logic, which enjoys a rather controversial status and has encountered skepticism already by _Thoralf Skolem_, the man himself. This scepticism is clearly present in the following comment by _Hao Wang_ (1974, quoted after Flum(1985), pp.77-78):
 
 >..what is established (by Lindstr&#246;m's theorem) is not that first-order logic is the only possible logic but rather that is the only possible logic when we in a sense deny the reality to the concept of uncountability ... 
 
