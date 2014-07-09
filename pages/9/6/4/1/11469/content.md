@@ -101,4 +101,20 @@ The proof is outlined in the lecture notes
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality (282y)_, lecture notes, 2014 ([web](http://www.math.harvard.edu/~lurie/282y.html))
 
+The idea of the relationship between [[Tamagawa numbers]] and [[moduli spaces]] of [[vector bundles]] goes back to [[Günter Harder]], who primarily considered the case $G = SL_n$.
+
+* [[Günter Harder]], _Eine Bemerkung zu einer Arbeit von P. E. Newstead._, Journal f&#252;r die reine und angewandte Mathematik, 242 (1970): 16-25, [eudml](http://eudml.org/doc/151010).
+
+* [[Günter Harder]], M. S. Narasimhan, _On the cohomology groups of moduli spaces of vector bundles on curves_, Mathematische Annalen, 212 (1975), Issue 3, pp 215-248.
+
+The [[moduli stack]] of [[principal bundles]] was studied in more generality in
+
+* [[Kai Behrend]], Ajneet Dhillon, _On the Motive of the Stack of Bundles_, 2005,  [arXiv](http://arxiv.org/abs/math/0512640).
+
+* [[Kai Behrend]], Ajneet Dhillon, _Connected components of moduli stacks of torsors via Tamagawa numbers._, Canad. J. Math, 2009, [arXiv](http://arxiv.org/abs/math/0503383).
+
+See also
+
+* Aravind Asok, Brent Doran, Frances Kirwan. _Yang&#8211;Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics._ Bulletin of the London Mathematical Society (2008), [arXiv](http://arxiv.org/abs/0801.4733).
+
 [[!redirects Weil conjecture on Tamagawa number]]
