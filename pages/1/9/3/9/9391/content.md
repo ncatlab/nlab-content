@@ -46,7 +46,7 @@ $$
 
 The former is left invariant, the latter right invariant.
 
-Note that a normed group is not necessarily a topological group.  [This paper](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf) discusses the issue.
+Note that a normed group is not necessarily a [[topological group]], see ([Bingham-Ostaszweszki](#BinghamOstaszweszki)).
 
 ### Normed groupoids
 
@@ -76,7 +76,8 @@ This reverses: from a [[metric space]], say $X$, we get a normed groupoid by tak
 
 ## References
 
-* N. Bingham, A. Ostaszewski, _Normed groups: dichotomy and duality_ ([pdf](http://www.maths.lse.ac.uk/Personal/adam/BOst12-rev.pdf), [pdf](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf))
+* {#BinghamOstaszweszki} N. Bingham, A. Ostaszewski, _Normed groups: dichotomy and duality_ (, [pdf](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf), [pdf](http://www.maths.lse.ac.uk/Personal/adam/BOst12-rev.pdf))
+
 
 
 [[!redirects normed groups]]
