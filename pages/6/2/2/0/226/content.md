@@ -21,10 +21,10 @@
 
 ## Definition
 
-A for $k$ a [[field]], a __vector space__ over $k$ is [[module]] over the [[ring]] $k$.  Sometimes a vector space over $k$ is called a __$k$-linear space__.  (Compare '$k$-[[linear map]]'.)
+For $k$ a [[field]], a __vector space__ over $k$ is [[module]] over the [[ring]] $k$.  Sometimes a vector space over $k$ is called a __$k$-linear space__.  (Compare '$k$-[[linear map]]'.)
 
 The [[category]] of vector spaces is typically denoted [[Vect]], or 
-$Vect_k$ if we wish to make the field $k$ explicit. So
+$Vect_k$ if we wish to make the field $k$ (the *ground field*) explicit. So
 
 $$
   Vect_k \coloneqq k Mod
@@ -32,6 +32,12 @@ $$
 $$
 
 This category has vector spaces over $k$ as objects, and $k$-linear maps between these as morphisms.
+
+### Multisorted notion 
+
+Alternatively, one sometimes defines "vector space" as a two-sorted notion; taking the field $k$ as one of the sorts and a module over $k$ as the other. More generally, the notion of "module" can also be considered as two-sorted, involving a ring and a module over that ring. 
+
+This is occasionally convenient; for example, one may define the notion of [[topological vector space]] or topological module as an [[internalization]] in $Top$ of the multisorted notion. This procedure is entirely straightforward for topological modules, as the notion of module can be given by a two-sorted Lawvere theory $T$, whence a topological module (for instance) is just a product-preserving functor $T \to Top$. One may then define a topological vector space as a topological module whose underlying (discretized) ring sort is a field. 
 
 
 ## Properties
