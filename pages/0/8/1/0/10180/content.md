@@ -16,15 +16,20 @@
 
 ## Idea
 
-The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the [[classifying topos]] for the [[theory of objects]], sometimes called the "object classifier".[^fine]
+The [[classifying topos]] for the [[theory of objects]], or the _object classifier_[^fine], as it is traditionally called, is  the [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]].
 
-[^fine]: This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _classifying topos for the theory of objects_.
+[^fine]: As this is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]], we prefer to call it in full the _classifying topos for the theory of objects_.
 
-For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$. The _generic object_ $U$ is the inclusion $FinSet\hookrightarrow Set$.[^fine]
+What motivates the terminology, is that for any [[topos]] $E$, [[geometric morphisms]] $E \to [FinSet,Set]$ correspond to [[objects]] of $E$.
 
-[^fine]: Incidentally, $U$ has the [[ultrafilter monad]] as [[codensity monad]], and, so we may say that the concept of an object leads naturally to the concept of a [[compact Hausdorff space]]. 
+The _generic_ or _universal object_ $U$ is the inclusion $FinSet\hookrightarrow Set$: every object $X$ of $E$ arises from some geometric morphism $f$ as $X\cong f^\ast(U)$ . (For another remarkable property of this inclusion functor see [[ultrafilter monad]].)
 
-Similarly, the presheaf topos $[FinSet_*, Set]$ (where $FinSet_*$ is the category of finite [[pointed sets]]) classifies pointed objects; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.  This is the topos of "$\Gamma$-sets"; see [[Gamma-space]].
+Similarly, the presheaf topos $[FinSet_\ast, Set]$ (where $FinSet_\ast$ is the category of finite [[pointed sets]]) classifies pointed objects; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.  This is the topos of "$\Gamma$-sets"; see [[Gamma-space]].
+
+As the role of the object classifier bears some ressemblance to the role of the [[polynomial ring]] $k[x]$ over a ground ring $k$ that 'classifies' elements of k-algebras $A$ via $A\cong Hom_k(k[x], A)$, it is traditionally denoted $\mathcal{S}[U]$, the 'adjunction' of the free (=generic) object to the base topos $\mathcal{S}$, in our case $Set$.
+
+The analogy between topos theory and algebra is pursued further in Bunge&Funk (2006) where, in the context of topos [[distributions]] and the '[[symmetric algebra]]' of a topos (aka the _symmetric topos_), $\mathcal{S}[U]$ is shown to play the role of the real line $\mathbf R$ in [[functional analysis]].
+
 
 ## Properties
 
@@ -58,7 +63,7 @@ A related point of view is that $FinSet^{op}$ is the [[free construction|free]] 
 =--
 
 ###Remark
-What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Blass]] that $\mathcal{S}$ has an object classifier $\mathcal{S}(U)$ precisely if $\mathcal{S}$ has a [[natural number object]]. A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the object classifier $\mathcal{S}(U)$ exists.
+What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Blass]] that $\mathcal{S}$ has an object classifier $\mathcal{S}[U]$ precisely if $\mathcal{S}$ has a [[natural number object]]. A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the object classifier $\mathcal{S}[U]$ exists.
 
 ## References
 
@@ -68,6 +73,8 @@ What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Bl
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]]: _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994. (sec.VIII.4)
 
 * [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
+
+* [[Marta Bunge]], [[Jonathon Funk]], _Singular Coverings of Toposes_ , Springer LNM **1890** Heidelberg 2006.
 
 * [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
  {#Garner13}
