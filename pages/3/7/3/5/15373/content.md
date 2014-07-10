@@ -1,0 +1,8 @@
+
+* [webpage](http://aix1.uottawa.ca/~rlucyshy/)
+
+## related $n$Lab entries
+
+* [[idempotent monad]]
+
+category: people
