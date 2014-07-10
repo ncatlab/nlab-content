@@ -25,6 +25,7 @@ A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|disc
 
 * [[torus]], [[elliptic curve]]
 
+* [[genus of a lattice]]
 
 ## References
 
