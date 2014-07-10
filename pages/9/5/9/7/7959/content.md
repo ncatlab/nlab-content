@@ -134,6 +134,8 @@ Technical surveys on particle physics string phenomenology include
  
 * {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
+* E. Palti _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
+
 Technical surveys on cosmological string phenomenology include
 
 * S. F. King, J. P. Roberts, _Natural Dark Matter from Type I String Theory_ ([arXiv:hep-ph/0608135](http://arxiv.org/abs/hep-ph/0608135))
@@ -291,6 +293,10 @@ A newer observation that received much more attention is
 * String Phenomenology 2012 ([home page](http://www.newton.ac.uk/programmes/BSM/bsmw05.html), [talks](http://www.newton.ac.uk/programmes/BSM/bsmw05p.html))
 
 * String Phenomenology 2013 ([home page](http://stringpheno2013.desy.de/))
+
+* String Phenomenology 2014 ([home page](http://stringpheno2014.ictp.it))
+
+
 
 ### String cosmic inflation
 
