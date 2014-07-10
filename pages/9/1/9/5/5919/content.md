@@ -19,7 +19,7 @@ The _theory of objects_ is the [[theory]] with no axioms over the [[signature (i
 
 So a [[model]] for this theory in a [[topos]] (or more generally a category) $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
 
-In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the theory of objects corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]] section 'functorial definition').
+In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the theory of objects corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]], section 'Functorial definition').
 
 ## Properties
 
