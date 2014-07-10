@@ -25,6 +25,13 @@
 * table of contents
 {: toc}
 
+## Idea
+ {#Idea}
+
+An _idempotent monad_ is a [[monad]] that "squares to the identity" in the evident [[category theory|category-theoretic]] sense. Idempotent monads hence serve as [[categorification|categorified]] [[projection]] operators, in that they encode [[reflective subcategories]] and the reflection/[[localization]] onto these. 
+
+In terms of [[type theory]] idempotent monads interpret (co-)[[modal operators]].
+
 ## Definition 
 
 
@@ -167,11 +174,14 @@ In [[modal type theory]] one thinks of a (idempotent) (co-)monad as a (co-)[[mod
 =--
 
 ### The associated idempotent monad of a monad
+ {#AssociatedIdemopotentMonad}
+
+We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is  [[right adjoint]] to the inclusion of idempotent monads into all monads, exhibiting idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](Lucyshyn-Wright14)).
 
 +-- {: .num_theorem}
-###### Theorem (Fakir) 
+###### Theorem ([Fakir 70](#Fakir70)) 
 
-Let $C$ be a complete, [[well-powered category]], and let $M\colon C \to C$ be a [[monad]] with [[unit of a monad|unit]] $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a [[right adjoint]] to the inclusion
+Let $C$ be a [[complete category|complete]], [[well-powered category]], and let $M\colon C \to C$ be a [[monad]] with [[unit of a monad|unit]] $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a [[right adjoint]] to the inclusion
 
 $$IdempotentMonad(C) \hookrightarrow Monad(C)$$ 
 
@@ -180,17 +190,17 @@ $$IdempotentMonad(C) \hookrightarrow Monad(C)$$
 +-- {: .proof} 
 ###### Proof
 
-Given a monad $M$, define a functor $M'$ as the equalizer of $M u$ and $u M$:  
+Given a [[monad]] $M$, define a [[functor]] $M'$ as the [[equalizer]] of $M u$ and $u M$:  
 
-$$M' \hookrightarrow M \stackrel{\overset{u M}{\to}}{\underset{M u}{\to}} M M.$$ 
+$$M' \hookrightarrow M \stackrel{\overset{u M}{\longrightarrow}}{\underset{M u}{\longrightarrow}} M M.$$ 
 
-This $M'$ acquires a monad structure. It might not be an idempotent monad (although it will be if $M$ is left exact). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
+This $M'$ acquires a monad structure. It might not be an idempotent monad (although it will be if $M$ is [[left exact functor|left exact]]). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
 
 $$\ldots \hookrightarrow M_{\alpha} \hookrightarrow \ldots \hookrightarrow M$$
 
-where $\alpha$ ranges over ordinals less than $\beta$. This defines the monad $M_\alpha$ inductively; below, we let $u_\alpha$ denote the unit of this monad. 
+where $\alpha$ ranges over ordinals less than $\beta$. This defines the monad $M_\alpha$ inductively; below, we let $u_\alpha$ denote the [[unit of a monad|unit]] of this monad. 
 
-Since $C$ is well-powered (i.e., since each object has only a small number of subobjects), the large limit 
+Since $C$ is [[well-powered category|well-powered]] (i.e., since each object has only a small number of [[subobjects]]), the large limit 
 
 $$E(M)(c) = \underset{\alpha \in Ord}{\lim} M_\alpha(c)$$ 
 
@@ -265,6 +275,9 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 * [[idempotent (∞,1)-monad]]
 
 ## References
+ {#References}
+
+General discussion includes
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
  {#Borceux}
@@ -272,6 +285,25 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 * [[Pierre Gabriel]] and [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, A.4.3.11, p.194, B1.1.9, p.249
+
+The idempotent monad which exhibits the [[localization]] at the $T$-equivalences for a given monad $T$ is discussed in 
+
+* {#ApplegateTierney70} H. Applegate and [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
+
+* {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101.
+
+* {#Day74} [[Brian Day]], _On adjoint-functor factorisation_, Lecture Notes in Math. 420 (1974), 1-19.
+
+* {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999), 25-33 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+
+and for [[enriched category theory]] in 
+
+* {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_ ([arXiv:1406.2361](http://arxiv.org/abs/1406.2361))
+
+Extension of idempotent monads along subcategory inclusions is discussed in
+
+* [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_, . Journal of Pure and Applied Algebra 103 (1995), 149-165. ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
+
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
