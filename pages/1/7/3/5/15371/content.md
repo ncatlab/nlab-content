@@ -1,17 +1,21 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A Banach ring is a a complete [[normed ring]], hence a [[commutative monoid]] in complete [[normed groups]].
+A Banach ring is a [[complete space|complete]] [[normed ring]], hence a [[commutative monoid]] in complete [[normed groups]].
 
 If not just in complete normed groups but in complete [[normed vector spaces]] ([[Banach spaces]]), then this is a [[Banach algebra]].
 
+
 ## Examples
 
-* The [[integers]] $\mathbb{Z}$ equipped with their [[absolute value]] [[norm]] ${\vert- \vert}_\infty$ are a Banach ring.
+* The [[integers]] $\mathbb{Z}$ equipped with their [[absolute value]] [[norm]] ${\vert- \vert_\infty}$ are a Banach ring.
+
+* The integers with the $p$-adic norm ${|-|_p}$ are an incomplete normed ring whose completion is the Banach ring $\mathbb{Z}_p$ of $p$-[[adic integers]].
+
 
 ## References
 
@@ -19,6 +23,8 @@ If not just in complete normed groups but in complete [[normed vector spaces]] (
 
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
+
 category: analysis
 
+[[!redirects Banach ring]]
 [[!redirects Banach rings]]
