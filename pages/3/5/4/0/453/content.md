@@ -100,7 +100,7 @@ Examples of categories which are **not regular** include
 
 The following example proves failure of regularity in all three cases: let $A$ be the poset $\{a, b\} \times (0 \to 1)$; let $B$ be the poset $(0 \to 1 \to 2)$, and let $C$ be the poset $(0 \to 2)$. There is a regular epi $p: A \to B$ obtained by identifying $(a, 1)$ with $(b, 0)$, and there is the evident inclusion $i: C \to B$. The pullback of $p$ along $i$ is the inclusion $\{0, 2\} \to (0 \to 2)$, which is certainly an epi but not a regular epi. Hence regular epis in $Pos$ are not stable under pullback. 
 
-Interpreting the posets as categories, the same example works for $Cat$, and also for preorders. On the other hand, the category of finite preorders is equivalent to the category finite topological spaces, so this example serves to show also that $Top$ is not regular. 
+Interpreting the posets as categories, the same example works for $Cat$, and also for preorders. On the other hand, the category of finite preorders is equivalent to the category of finite topological spaces, so this example serves to show also that $Top$ is not regular. 
 
 However: 
 
