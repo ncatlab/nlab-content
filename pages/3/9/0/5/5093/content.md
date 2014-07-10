@@ -4,6 +4,10 @@
 
 ## related $n$Lab entries
 
+* [[cohomology localization]]
+
 * [[Vopěnka's principle]]
+
+* [[idempotent monad]]
 
 category: people
