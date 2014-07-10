@@ -322,7 +322,7 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 * {#ApplegateTierney70} H. Applegate and [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
 
-* {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101.
+* {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101. ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f103.image), Biblioth&#232;que nationale de France)
 
 * {#Day74} [[Brian Day]], _On adjoint-functor factorisation_, Lecture Notes in Math. 420 (1974), 1-19.
 
