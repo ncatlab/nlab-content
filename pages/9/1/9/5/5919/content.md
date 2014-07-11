@@ -9,6 +9,9 @@
 =--
 =--
 
+[[!redirects theory of pointed objects]]
+[[!redirects theory of inhabited objects]]
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,22 +23,29 @@ The _theory of objects_ is the logical theory whose models in a category $\mathc
 
 The _theory of objects_ $O$ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
 
-Of course, $O$ is a [[geometric theory]], and as [[models]] for $O$ in a [[topos]] $\mathcal{E}$ correspond to [[objects]] of $\mathcal{E}$, we can use its [[classifying topos]] to get a representation of the objects of $\mathcal{E}$.
-
-In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the theory of objects corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]], section 'Functorial definition').
-
 ## Properties
+
+Of course, $O$ is a [[geometric theory]], and as [[models]] for $O$ in a [[topos]] $\mathcal{E}$ correspond to [[objects]] of $\mathcal{E}$, we can use its [[classifying topos]] to get a representation of the objects of $\mathcal{E}$.
 
 +-- {: .num_prop}
 ###### Proposition
 
 The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[FinSet, Set]$ over the [[opposite category]] of the category [[FinSet]] of [[finite sets]].
-
 =--
 
-For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
-
 See at _[[classifying topos for the theory of objects]]_.
+
+##Further Remarks
+
+* For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
+
+* Closely related to $O$ is the **theory of pointed objects** $O_\ast$ which is the empty theory over a signature with of a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the following MO discussion [link](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify).)
+
+* The next step up on the ladder of logical complexity is **theory of inhabited objects** $O_\exists$ that adds to $O$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[FinSet_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[FinSet_\exists]$.[^fine] 
+
+[^fine]: cf. Johnstone (2002 II, p.773) and [[Andre Joyal|Joyal-Tierney (1984)]]. For some further information on $FinSet_\exists$ see the references at [[generic interval]].
+
+* In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]], section 'Functorial definition').
 
 ## References
 
