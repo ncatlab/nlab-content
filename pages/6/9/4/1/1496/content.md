@@ -213,6 +213,21 @@ If the uniformly bounded sequence $\{f_n\}$ of complex Borel functions converges
 See Dunford, Schwartz II, chapter X, corollary 8.
 =--
 
+## Properties
+
+### Relation to bornological spaces
+
+Every [[inductive limit]] of [[Banach spaces]] is a [[bornological vecotr space]]. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
+
+Conversely, every [[bornological vector space]] is an inductive limit of [[normed spaces]], and of [[Banach spaces]] if it is quasi-complete ([Schaefer-Wolff 99](#SchaeferWolff99))
+
+## Related concepts
+
+* [[reflexive Banach space]]
+* [[projective Banach space]]
+
+* [[Banach analytic space]]
+
 
 ## References
 
@@ -221,13 +236,11 @@ See Dunford, Schwartz II, chapter X, corollary 8.
 
 * Z. Semadeni, _Banach spaces of continuous functions_, vol. I, Polish scientific publishers. Warszawa 1971
 
+* {#AlpaySalomon13} Daniel Alpay, Guy Salomon, _On algebras which are inductive limits of Banach spaces_ ([arXiv:1302.3372](http://arxiv.org/abs/1302.3372))
 
-### Related concepts
+* {#SchaeferWolff99} H. H. Schaefer with M. P. Wolff, _Topological vector spaces_, Springer 1999
 
-* [[reflexive Banach space]]
-* [[projective Banach space]]
 
-* [[Banach analytic space]]
 
 category: analysis
 [[!redirects Banach space]]
