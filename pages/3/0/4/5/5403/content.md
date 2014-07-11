@@ -24,7 +24,7 @@
 ##Idea
 
 
-Loosely speaking, a _J&#243;nsson-Tarski algebra_ is a Cantorian '[[countable set|Abzählung]]' of $\mathbf{N}^2$ gone algebra.
+Loosely speaking, a _J&#243;nsson-Tarski algebra_ is Cantor's isomorphism $2^\mathbf{N}\cong 2^\mathbf{N}\times 2^\mathbf{N} $ gone algebra.
 
 ## Definition
 
