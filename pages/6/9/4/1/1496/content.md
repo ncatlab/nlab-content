@@ -266,3 +266,6 @@ category: analysis
 [[!redirects norm isomorphism]]
 [[!redirects norm-isomorphic]]
 [[!redirects norm isomorphic]]
+
+[[!redirects Banach vector space]]
+[[!redirects Banach vector spaces]]
