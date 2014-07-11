@@ -9,6 +9,11 @@ __Mikhail Gromov__ (&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1051;&#1077;&#1
 * related entries: [[symplectic topology]], [[Gromov-Witten invariant]] 
 category: people
 
+Gromov also researches connections between mathemtatics, [[biology]], and sees [[n-categories]] as the structures in mathematics closest to what is going on in the mind. see:
+
+* [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
+* [Structures, Learning and Ergosystems: Chapters 1-4, 6](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
+
 [[!redirects Mikhail Gromov]]
 [[!redirects Mikhael Gromov]]
 [[!redirects Mikhail Leonidovich Gromov]]
