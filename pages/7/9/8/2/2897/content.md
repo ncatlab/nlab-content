@@ -39,7 +39,11 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 A general introduction to and discussion of algebraic periods is in 
 
-* [[Maxim Kontsevich]], [[Don Zagier]], _Periods_ ([pdf](http://193.51.104.7/~maxim/TEXTS/Periods.pdf))
+* [[Maxim Kontsevich]], [[Don Zagier]], _Periods_, [pdf](http://193.51.104.7/~maxim/TEXTS/Periods.pdf)
+
+and a popularization in 
+
+* Stefan M&#252;ller-Stach, _What is a period ?_, to appear in the Notices of the AMS, [arxiv/1407.2388](http://arxiv.org/abs/1407.2388)
 
 See also
 
