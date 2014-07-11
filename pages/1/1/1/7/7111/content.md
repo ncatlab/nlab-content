@@ -144,6 +144,10 @@ for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean 
 
 ### Introductions and reviews
 
+A good introduction to the general idea is at the beginning of
+
+* {#Payne13} [[Sam Payne]], _Topology of nonarchimedean analytic spaces and relations to complex algebraic geometry_ ([arXiv:1309.4403](http://arxiv.org/abs/1309.4403))
+
 Basic notions are listed in 
 
 * M. Temkin, _Non-archimedean analytic spaces_ ([pdf slides](http://www.math.huji.ac.il/~temkin/lectures/Non-Archimedean_Analytic_Spaces.pdf))
