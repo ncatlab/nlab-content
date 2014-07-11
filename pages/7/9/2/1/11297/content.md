@@ -42,6 +42,10 @@ One part of the reasoning that motivates the conjecture is the idea that [[strin
 
 The [[Witten genus]] is by construction the [[partition function]] of the [[heterotic string]], in the [[large volume limit]]. One may further approximate this in [[perturbation theory]]. Working equivalently with the [[2d (2,0)-superconformal QFT]] in perturbation theory, one may say something. A decent review is in ([Yagi 10](#Yagi10)).
 
+## Related concepts
+
+* [[p-curvature]]
+
 ## References
 
 The original article is
