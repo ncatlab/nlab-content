@@ -17,6 +17,7 @@
 
 
 ## Idea ##
+
 Linear operators on [[Hilbert spaces]] are continuous precisely iff they are bounded. A bornological space retains this property by definition.
 
 +-- {: .standout}
@@ -32,7 +33,10 @@ The **bornology** of a given [[TVS]] is the family of bounded subsets.
 Given a locally convex [[TVS]] $E$ with initial topology $T_0$, there is a finest topology $T$ such that the family of bounded subsets of $T$ coincides with $T_0$. The space $E$ equipped with the topology $T$ is called the **bornologification** of $E$, or the **bornological space associated with** $(E, T_0)$
 
 ## Properties ##
-+-- {: .un_theorem}
+
+### Maps on bornological spaces
+
++-- {: .num_theorem}
 ###### Theorem
 Let $U$ be a linear map from a bornological space $E$ to any locally convex [[TVS]], then the following statements are equivalent:
 
@@ -43,7 +47,15 @@ Let $U$ be a linear map from a bornological space $E$ to any locally convex [[TV
 * $U$ maps [[null sequence|null sequences]] to null sequences.
 =--
 
+### Relation to Banach spaces
+
+Every [[inductive limit]] of [[Banach spaces]] is a bornological vecotr space. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
+
+Conversely, every bornological vector space is an inductive limit of [[normed spaces]], and of [[Banach spaces]] if it is quasi-complete ([Schaefer-Wolff 99](#SchaeferWolff99))
+
+
 ## Examples ##
+
 Every metrizible locally convex space is bornological, that is every [[Fréchet space]] and thus every [[Banach space]].
 
 ## Related conceots
@@ -58,7 +70,10 @@ Every metrizible locally convex space is bornological, that is every [[Fréchet 
 
 * Wikipedia about [bornological spaces] (http://en.wikipedia.org/wiki/Bornological_space)
 
-* Helmut Sch&#228;fer: _Topological Vector Spaces_, chapter 8. 
+* {#SchaeferWolff99} H. H. Schaefer with M. P. Wolff, section 8 of _Topological vector spaces_, Springer 1999
+
+* {#AlpaySalomon13} Daniel Alpay, Guy Salomon, _On algebras which are inductive limits of Banach spaces_ ([arXiv:1302.3372](http://arxiv.org/abs/1302.3372))
+
 
 Discussion of bornological vector spaces forming a [[quasi-abelian category]] is in 
 
