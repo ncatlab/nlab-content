@@ -1,0 +1,27 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[normed algebra]] that is a [[field]].
+
+If [[complete space|complete]] then: a _complete normed field_.
+
+## Related concepts
+
+* [[normed division algebra]]
+
+* [[valued field]]
+
+[[!include analytic geometry ingredients -- table]]
+
+## References
+
+* {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
+
+[[!redirects normed fields]]
+
+[[!redirects complete normed field]]
+[[!redirects complete normed fields]]
