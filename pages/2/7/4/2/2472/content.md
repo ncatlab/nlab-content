@@ -58,6 +58,11 @@ Introductions are in
 * [[Brian Conrad]], _Several approaches to non-Archimedean geometry_, [pdf](http://math.stanford.edu/~conrad/papers/aws.pdf)
 * Peter Schneider, _Basic notions of rigid analytic geometry_, in: Galois representations in arithmetic algebraic geometry (Durham, 1996), 369&#8211;378, London Math. Soc. Lecture Note Ser. __254__, Cambridge Univ. Press 1998, [doi](http://dx.doi.org/10.1017/CBO9780511662010.010)
 
+A comprehensive textbook account is in 
+
+* S. Bosch, U.  G&#252;ntzer, R. Remmert, _Non-archimedean analysis_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961)
+
+
 Comparison of various spectra and topologies is in
 
 * M. van der Put, P. Schneider, _Points and topologies in rigid geometry_, Math. Ann. 302 (1995), no. 1, 81&#8211;103, [MR96k:32070](http://www.ams.org/mathscinet-getitem?mr=1329448), [doi](http://dx.doi.org/10.1007/BF01444488)
@@ -65,7 +70,7 @@ Comparison of various spectra and topologies is in
 Other accounts include
 
 * Ahmed Abbes, _&#201;l&#233;ments de G&#233;om&#233;trie Rigide_, vol. I. _Construction et &#233;tude g&#233;om&#233;trique des espaces rigides_, Progress in Mathematics __286__, Birkh&#228;user 2011, 496 p.[book page](http://perso.univ-rennes1.fr/ahmed.abbes/egr.html)
-* S. Bosch, U.  G&#252;ntzer, R. Remmert, _Non-archimedean analysis_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961)
+
 * Siegfried Bosch, _Lectures on formal and rigid geometry_, Preprints of SFB Geom. Struk. Math. Heft 378, [pdf](http://wwwmath.uni-muenster.de/sfb/about/publ/heft378.pdf) (revised 2008)
 * J. Fresnel, M. van der Put, _Rigid geometry and applications_, Birkh&#228;user (2004) [MR2014891](http://www.ams.org/mathscinet-getitem?mr=2014891)
 * F. Denef, L. van den Dries, _$p$-adic and real subanalytic sets_, Ann. of Math. __128__ (1988) no. 1, 79&#8211;138 [MR951508](http://www.ams.org/mathscinet-getitem?mr=951508), [doi](http://dx.doi.org/10.2307/1971463)
