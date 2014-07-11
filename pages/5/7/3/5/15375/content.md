@@ -1,19 +1,24 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A [[normed algebra]] that is a [[field]].
+A [[normed ring]] that is a [[field]].
 
 If [[complete space|complete]] then: a _complete normed field_.
 
 
 ## Examples
 
-* Every [[field]] carries the trivial norm constant on 1 (which is [[non-archimedean]]) and is complete with respect to this norm 
+* Every [[field]] carries the trivial norm (which is [[non-archimedean field|non-archimedean]]), whose value is always $1$ (except that the norm of $0$ is $0$) and is complete with respect to this norm.  (In [[constructive mathematics]], either the field must be a [[discrete field]] or the norm must be allowed to take values in the [[lower real numbers]].)
 
+* The field $\mathbb{R}$ of [[real numbers]] and the field $\mathbb{C}$ of [[complex numbers]], with their usual [[absolute value]] as the norm, are complete [[archimedean field|archimedian]] normed fields.
+
+* For each [[prime number]] $p$, the field $\mathbb{Q}_p$ of $p$-[[adic numbers]] is a complete non-archimedean normed field.
+
+* The field $\mathbb{Q}$ of [[rational numbers]], with any of the norms in the two previous entries, is an incomplete normed field whose completion is $\mathbb{R}$ or $\mathbb{Q}_p$.
 
 
 ## Properties
@@ -25,6 +30,7 @@ The norm of a [[non-archimedean field]] extends uniquely to its [[algebraic clos
 
 For example the [[p-adic complex numbers]] $\mathbb{C}_p$ arise this way from the [[p-adic rational numbers]] $\mathbb{Q}_p$.
 
+
 ## Related concepts
 
 * [[normed division algebra]]
@@ -33,14 +39,15 @@ For example the [[p-adic complex numbers]] $\mathbb{C}_p$ arise this way from th
 
 [[!include analytic geometry ingredients -- table]]
 
+
 ## References
-
-
 
 * {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
 
 * {#BoschGuntzerRemmert84} S. Bosch, U. Guntzer, and R. Remmert, _Non-Archimedean analysis_, Grundlehren der Mathematischen Wissenschaften, vol. 261, Springer-Verlag, Berlin, 1984.
 
+
+[[!redirects normed field]]
 [[!redirects normed fields]]
 
 [[!redirects complete normed field]]
