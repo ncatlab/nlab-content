@@ -1,0 +1,5 @@
+
+|  [[algebra|algebraic structure]] | [[group]] | [[ring]]  | [[field]] | [[vector space]]  |  [[associative algebra|algebra]] | 
+|---|-----------|-----------|-------------------|--------------|---|
+| [[norm]]  | [[normed group]]  | [[normed ring]] | [[normed field]] | [[normed vector space]] |  [[normed algebra]]  | 
+| [[complete space|completeness]]  | [[complete normed group]] | [[Banach ring]] | [[complete normed field]] | [[Banach vector space]] | [[Banach algebra]] |  
