@@ -113,6 +113,9 @@ Reviews include
 
 * Linear Logic Wiki, _[Geometry of Interaction](http://llwiki.ens-lyon.fr/mediawiki/index.php/Geometry_of_interaction)_
 
+* {#Murfet14} [[Daniel Murfet]], section 5 of _Logic and linear algebra: an introduction_ ([arXiv:1407.2650](http://arxiv.org/abs/1407.2650))
+
+
 The operational categorical semantics in [[traced monoidal categories]] is due to 
 
 * [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf))
