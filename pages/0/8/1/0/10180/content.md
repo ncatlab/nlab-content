@@ -21,9 +21,9 @@ The [[classifying topos]] for the [[theory of objects]], or the _object classifi
 
 What motivates the terminology, is that for any [[topos]] $E$, [[geometric morphisms]] $E \to [FinSet,Set]$ correspond to [[objects]] of $E$.
 
-The _generic_ or _universal object_ $U$ is the inclusion $FinSet\hookrightarrow Set$: every object $X$ of $E$ arises from some geometric morphism $f$ as $X\cong f^\ast(U)$ . (For another remarkable property of this inclusion functor see [[ultrafilter monad]].)
+Similarly, the _theory of pointed objects_ $O_\ast$  is classified by the presheaf topos $[FinSet_\ast, Set]$ on the opposite $FinSet_\ast^{op}$ of the category of finite [[pointed sets]] whose skeleton is [[Segal's category]], hence $[FinSet_\ast, Set]$ is equivalent to the topos of "$\Gamma$-sets" (cf. [[Gamma-space]] and for its role as a classifying space the following MO-discussion: [link](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify)) . More generally, classifying toposes of [[Horn theory|universal Horn theories]] $T$ correspond to the respective toposes of covariant set-valued functors on the category of finitely presentable models of $T$ (Blass&Scedrov (1984)).
 
-Similarly, the presheaf topos $[FinSet_\ast, Set]$ (where $FinSet_\ast$ is the category of finite [[pointed sets]]) classifies pointed objects; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.  This is the topos of "$\Gamma$-sets"; see [[Gamma-space]].
+The _generic_ or _universal object_ $U$ is the inclusion $FinSet\hookrightarrow Set$: every object $X$ of $E$ arises from some geometric morphism $f$ as $X\cong f^\ast(U)$ . (For another remarkable property of this inclusion functor see [[ultrafilter monad]].)
 
 As the role of the object classifier bears some ressemblance to the role of the [[polynomial ring]] $k[x]$ over a ground ring $k$ that 'classifies' elements of k-algebras $A$ via $A\cong Hom_k(k[x], A)$, it is traditionally denoted $\mathcal{S}[U]$, the 'adjunction' of the free (=generic) object to the base topos $\mathcal{S}$, in our case $Set$.
 
@@ -76,6 +76,8 @@ What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Bl
 
 * [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
 
+* [[Andreas Blass]], Andrej Scedrov, _Classifying topoi and finite forcing_ , JPAA **28** (1983) pp.111-140.
+
 * [[Marta Bunge]], [[Jonathon Funk]], _Singular Coverings of Toposes_ , Springer LNM **1890** Heidelberg 2006.
 
 * [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
@@ -83,4 +85,4 @@ What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Bl
 
 
 [[!redirects classifying topos for the theory of objects]]
-[[!redirects classifying topos of the theory of objects]]
+[[!redirects classifying topos for the theory of pointed objects]]
