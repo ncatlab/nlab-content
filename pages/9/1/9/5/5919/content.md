@@ -39,9 +39,9 @@ See at _[[classifying topos for the theory of objects]]_.
 
 * For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
 
-* Closely related to $O$ is the **theory of pointed objects** $O_\ast$ which is the empty theory over a signature with of a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the following MO discussion [link](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify).)
+* Closely related to $O$ is the **theory of pointed objects** $O_\ast$ which is the empty theory over a signature with of a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
 
-* The next step up on the ladder of logical complexity is **theory of inhabited objects** $O_\exists$ that adds to $O$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[FinSet_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[FinSet_\exists]$.[^fine] 
+* The next step up on the ladder of logical complexity is the **theory of inhabited objects** $O_\exists$ that adds to $O$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[O_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[O_\exists]$.[^fine] 
 
 [^fine]: cf. Johnstone (2002 II, p.773) and [[Andre Joyal|Joyal-Tierney (1984)]]. For some further information on $FinSet_\exists$ see the references at [[generic interval]].
 
