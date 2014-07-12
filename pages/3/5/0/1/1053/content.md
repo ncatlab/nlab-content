@@ -337,9 +337,10 @@ Reviews include
 
 * [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ ([pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf))
 
+* {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
+ 
 
-* [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
- {#Girard11}
+* {#Murfet14} [[Daniel Murfet]], _Logic and linear algebra: an introduction_ ([arXiv:1407.2650](http://arxiv.org/abs/1407.2650))
 
 The [[categorical semantics]] of linear logic in [[star-autonomous categories]] originally appeared in
 
