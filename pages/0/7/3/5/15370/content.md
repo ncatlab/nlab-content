@@ -70,7 +70,7 @@ see e.g. ([Bassat-Kremnitzer 13, remark 6.32](#BassatKremnitzer13))
 
 * [[division ring]]
 
-* [[valued field]]
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
