@@ -1,6 +1,34 @@
 
 
-One of the conditions in the definition of _[[metric]]_ and _[[norm]]_.
+One of the conditions in the definition of _[[metric]]_ and _[[norm]]_ say that the norm of the sum of any two elements $f$ and $g$ is smaller than or equal to the sum of their norms:
+
+$$
+  {\vert f + g \vert} \leq {\vert f\vert} + {\vert g\vert }
+  \,.
+$$
+
+For the usual metric/norm on [[Euclidean space]] and $f$ and $g$ two edges of a triangle
+
+$$
+  \array{
+    && y
+    \\
+    {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+    \\
+    x && \underset{f + g}{\longrightarrow} && z
+  }
+$$
+
+then this [[inequality]] expresses that the straight path from $x$ to $z$ is always shorter or at worst as long as the path from $x$ to $z$ via $y$.
+
+However, [[normed fields]] and hence [[normed vector spaces]] for which this example gives the correct intuition are rare among all normed fields and vector spaces, they are called the _[[archimedean]]_ such cases. Most norms instead satisfy the stronger [[ultrametric]] triangle inequality which says that
+
+$$
+  {\vert f + g \vert} \leq may({\vert f\vert}, {\vert g\vert })
+  \,.
+$$
+
+These are called [[non-archimedean]].
 
 [[!redirects triangle inequalities]]
 
