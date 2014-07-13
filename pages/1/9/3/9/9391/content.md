@@ -13,17 +13,16 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
-
 
 A **normed group** is to a [[group]] what a [[normed vector space]] is to a [[vector space]].  It consists of a group together with a length function (a [[norm]]) and, as for normed vector spaces, gives rise to a [[metric space]].
 
 A [[complete space|complete]] normed group is a _[[complete normed group]]_.
+
 
 ## Definition
 
@@ -40,13 +39,17 @@ A **normed group** is a pair $(G,\rho)$ where $G$ is a [[group]] and $\rho \colo
 
 =--
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_defn #homomorphisms}
+###### Definitions
 
-A [[homomorphism]] $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups, def. \ref{NormedGroup},  is a [[homomorphism]] $f \colon G_1 \to G_2$
+There are a few different senses of [[homomorphism]] between normed groups; the first is usually taken as the default but the second fits in better with [[normed rings]] and the obvious notion of [[isomoprhism]] as two structures\' being 'the same'.
+
+A __bounded homomorphism__ $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups, def. \ref{NormedGroup}, is a group homomorphism $f \colon G_1 \to G_2$
 of the underlying groups such that there is $C \in \mathbb{R}_{\geq 0} $
 such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq C\cdot\rho_1(g)$.
 
+A __short homomorphism__ $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups is a group homomorphism $f \colon G_1 \to G_2$
+of the underlying groups such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq \cdot\rho_1(g)$.
 =--
 
 +-- {: .num_remark }
@@ -105,10 +108,11 @@ This reverses: from a [[metric space]], say $X$, we get a normed groupoid by tak
 
 [[!include analytic geometry ingredients -- table]]
 
+
 ## References
 
 * {#BinghamOstaszweszki} N. Bingham, A. Ostaszewski, _Normed groups: dichotomy and duality_ (, [pdf](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf), [pdf](http://www.maths.lse.ac.uk/Personal/adam/BOst12-rev.pdf))
 
 
-
+[[!redirects normed group]]
 [[!redirects normed groups]]
