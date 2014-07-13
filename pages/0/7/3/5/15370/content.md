@@ -65,6 +65,26 @@ see e.g. ([Bassat-Kremnitzer 13, remark 6.32](#BassatKremnitzer13))
 
 =--
 
+## Examples
+
+A [[normed field]] is of course in particular a [[normed ring]].
+
++-- {: .num_example #MatrixRing}
+###### Example
+
+For $R$ a normed commutative ring, then for each $n \in \mathbb{N}$ the [[matrix algebra]] $Mat_n(R)$ becomes a normed ring with norm
+
+$$
+ {\vert A\vert} \coloneqq max_{1 \leq i,j \leq n}({\vert A_{i,j}\vert})
+ \,.
+$$
+
+Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute value]]) that on $Mat_n(R)$ is not in general. If $R$ is a [[Banach ring]], then so is $Mat_n(R)$.
+
+=--
+
+(e.g. [Jarden 11](#Jarden11)).
+
 
 ## Related concepts
 
@@ -77,12 +97,17 @@ see e.g. ([Bassat-Kremnitzer 13, remark 6.32](#BassatKremnitzer13))
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
 Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.kmj/1138833472))
 
-* ProofWiki, _[Norm (Division ring)](https://proofwiki.org/wiki/Definition:Norm_(Division_Ring))_
+* {#Naimark59} [[Mark Naimark]],  _Normed Rings_, Groningen, Netherlands: P. Noordhoff N. V., 1959.
+
+* {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of  _Algebraic patching_, Springer Monographs in Mathematics, 2011 ([[JardenNormedRings.pdf:file]])
 
 * {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
 
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
+* ProofWiki, _[Norm (Division ring)](https://proofwiki.org/wiki/Definition:Norm_(Division_Ring))_
+
 For more see the references at _[[Banach ring]]_.
+
 [[!redirects normed rings]]
