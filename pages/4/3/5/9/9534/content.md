@@ -13,4 +13,8 @@ The [[associative algebra]] of [[matrices]] over some [[ring]] under [[matrix mu
 
 The algebra of $n \times n$-matrices is equivalently the [[groupoid convolution algebra]] of the [[pair groupoid]] on the set with $n$-elements.
 
+### Norms
+
+The matrix algebra over a [[normed ring]] is naturally itself a normed ring. See at _[normed ring -- Examples -- matrix ring](http://ncatlab.org/nlab/show/normed+ring#MatrixRing)_.
+
 [[!redirects matrix algebras]]
