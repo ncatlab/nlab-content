@@ -11,7 +11,7 @@ A variant of the theory of [[Huber spaces]]
 
 ## References
 
-* [[Peter Scholze]], _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
+* {#Scholze11} [[Peter Scholze]], _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
 
 [[!redirects perfectoid spaces]]
 
