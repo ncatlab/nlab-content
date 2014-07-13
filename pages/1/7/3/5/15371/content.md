@@ -33,6 +33,9 @@ The [[Berkovich spectrum]] of a Banach ring $R$ is the set of multiplicative [[s
 
 * The integers with the $p$-adic norm ${|-|_p}$ are an incomplete normed ring whose completion is the Banach ring $\mathbb{Z}_p$ of $p$-[[adic integers]].
 
+## Related concepts
+
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
