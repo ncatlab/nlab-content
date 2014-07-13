@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -94,9 +93,9 @@ The [[action]] $\rho$ of a [[monoid]] $A$ in a [[closed monoidal category]] $V$ 
 
    from the [[delooping]] one-object $V$-[[enriched category]] $\mathbf{B}A$ corresponding to $A$ to $V$ itself. 
 
-   This means that more generally it makes sense to replace $\mathbf{B}A$ by any $V$-[[enriched category]] $C$ -- regarded as the [[horizontal categorification]] of a monoid, a "monoid-oid" -- and think of $V$-enriched functors $\rho : C \to V$ -- $V$-[[presheaf|presheaves]] -- as modules for $C$. 
+   This means that more generally it makes sense to replace $\mathbf{B}A$ by any $V$-[[enriched category]] $C$ -- regarded as the [[horizontal categorification]] of a monoid, a "monoid-oid" -- and think of a $V$-enriched functor $\rho : C \to V$ -- a $V$-[[presheaf]] on $C$ -- as a __module over the category__ $C$. 
 
-   From this perspective a $C$-$D$-[[bimodule]] is a $V$-[[enriched functor]] $C^{op}\times D \to V$, which is in this context known as a [[profunctor]] from $C$ to $D$. The notion of the [[bicategory]] $V Mod$ of $V$-enriched categories, $V$-profunctors between these and transformations between those is then a generalization of the 
+   From this perspective a $C$-$D$-[[bimodule]] is a $V$-[[enriched functor]] $C^{op}\times D \to V$, which is in this context known as a [[profunctor]] from $C$ to $D$. The notion of the [[bicategory]] $V Mod$ of $V$-enriched categories, $V$-profunctors between these and transformations between those is then a generalization of the category of monoids in $V$ and bimodules between them.
 
 
 #### Stabilized overcategories
