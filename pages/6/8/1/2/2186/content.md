@@ -58,7 +58,7 @@ which makes $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$ a [[monotone function]]
 Unlike in the real numbers, positive infinitesimal numbers exist: for example the class $f_F$ where $f:n\mapsto 1/n$ is such and $g_F$ for $g:n\mapsto 1/n^2$ is a different one. 
 
 
-Let $n$ be a nonnegative integer and $u:\mathbb{R}^n\to\mathbb{R}$ a function. Then there is a nonstandard extension $^* u:({}^*\mathbb{R})^n\to{}^*\mathbb{R}$ of $f$; it is defined by
+Let $n$ be a nonnegative integer and $u:\mathbb{R}^n\to\mathbb{R}$ a function. Then there is a nonstandard extension $^* u:({}^*\mathbb{R})^n\to{}^*\mathbb{R}$ of $u$; it is defined by
 
 $$
 ^*u(f^1_F,\ldots, f^n_F) = g \;\Leftrightarrow\; \{i\in\mathbb{N}| u(f^1(i),\ldots,f^n(i))=g(i) \}\in F.
