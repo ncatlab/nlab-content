@@ -87,9 +87,7 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 ## Related concepts
 
-* [[Banach ring]]
-
-* [[normed group]], [[normed ring]], [[normed algebra]]
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
