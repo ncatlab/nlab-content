@@ -58,7 +58,7 @@ is an [[exact sequence]] of [[abelian groups]], hence also $\mathbf{Z}_p/p^n\mat
 
 An element $u$ in $\mathbf{Z}_p$ is invertible (and called a $p$-adic unit) iff $u$ is not divisible by $p$. 
 
-Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic [[valuation]] and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The [[norm]] induced by the valuation is (up to equivalence) given by ${|x|}_p = p^{-v_p(x)}$, and this in turn induces a metric 
+Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= u p^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the  [[p-adic valuation]] and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The [[norm]] induced by the valuation is (up to equivalence) given by ${|x|}_p = p^{-v_p(x)}$, and this in turn induces a metric 
 
 $$
 d(x,y) = {|x-y|}_p,
@@ -183,6 +183,7 @@ Review of the use of $p$-adic numbers in [[arithmetic geometry]] includes
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 
 * &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
+
 
 
 $p$-adic [[differential equations]] are discussed in 
