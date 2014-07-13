@@ -18,7 +18,7 @@ A [[functor]] $F : C \to D$ is **final** (often called **cofinal**), if we can r
 
 Dually, a functor is **initial** (sometimes called **co-cofinal**) if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
 
-Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.
+Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d:1\to D$ is initial (resp. final).
 
 ## Definition
 
