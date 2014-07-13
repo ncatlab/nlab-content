@@ -29,18 +29,38 @@ A [[complete space|complete]] normed group is a _[[complete normed group]]_.
 
 ### Normed groups
 
-+-- {: .num_defn }
++-- {: .num_defn #NormedGroup}
 ###### Definition
-A **normed group** is a pair $(G,\rho)$ where $G$ is a [[group]] and $\rho \colon G \to [0,\infty)$ is a function satisfying the following conditions:
+
+A **normed group** is a pair $(G,\rho)$ where $G$ is a [[group]] and $\rho \colon G \to [0,\infty) \subset \mathbb{R}$ is a [[function]], the _norm_, satisfying the following conditions:
 
 1. $\rho(g) = 0$ if and only if $g$ is the identity element in $G$,
 2. $\rho(g^{-1}) = \rho(g)$,
 3. $\rho(g h) \le \rho(g) + \rho(h)$.
+
 =--
 
-If $G$ is a [[vector space]] (viewed as an [[abelian group]]) the conditions on $\rho$ almost correspond to the axioms for a [[norm]] in the context of a [[normed vector space]].  The difference is that homogeneity is only assumed for $-1$ instead of for all elements of the coefficient field.
++-- {: .num_defn }
+###### Definition
 
-A norm on a group defines two [[metrics]]:
+A [[homomorphism]] $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups, def. \ref{NormedGroup},  is a [[homomorphism]] $f \colon G_1 \to G_2$
+of the underlying groups such that there is $C \in \mathbb{R}_{\geq 0} $
+such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq C\cdot\rho_1(g)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If $G$ is a [[vector space]] (viewed as an [[abelian group]]) the conditions on $\rho$ in def. \ref{NormedGroup} almost correspond to the [[axioms]] for a [[norm]] in the context of a [[normed vector space]].  The difference is that homogeneity is only assumed for $-1$ instead of for all elements of the coefficient field.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A norm on a group in def. \ref{NormedGroup}
+defines two [[metrics]]:
 
 $$
 d_L(g,h) = \rho(g^{-1} h), \qquad d_R(g,h) = \rho(g h^{-1})
@@ -48,7 +68,14 @@ $$
 
 The former is left invariant, the latter right invariant.
 
-Note that a normed group is not necessarily a [[topological group]], see ([Bingham-Ostaszweszki](#BinghamOstaszweszki)).
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A normed group is not necessarily a [[topological group]], see ([Bingham-Ostaszweszki](#BinghamOstaszweszki)).
+
+=--
 
 ### Normed groupoids
 
@@ -85,4 +112,3 @@ This reverses: from a [[metric space]], say $X$, we get a normed groupoid by tak
 
 
 [[!redirects normed groups]]
-
