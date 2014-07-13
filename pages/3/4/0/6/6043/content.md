@@ -62,7 +62,7 @@ If the triangle identity is strengthened to
 
 * ${\vert v + w\vert } \leq max ({\vert v\vert}, {\vert w\vert})$
 
-one speaks of a **non-archimedean** seminorm.
+one speaks of a **[[non-archimedean]]** seminorm, otherwise of an [[archimedean]] one.
 
 A vector space equipped with a norm is a **normed vector space**. 
 
