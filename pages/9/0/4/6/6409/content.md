@@ -20,7 +20,12 @@ Wikipedia says very succinctly
 
 > A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
-Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized [[absolute value]]s) which look more like norms, and their equivalence classes, [[place]]s. See [[discrete valuation]] and [[valuation ring]].
+Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized [[absolute values]]) which look more like norms, and their equivalence classes, [[place]]s. See at _[[absolute value]]_ for more on this common sense.
+
+
+See also [[discrete valuation]] and [[valuation ring]].
+
+
 
 ## Definition
 
@@ -43,9 +48,7 @@ In [[algebraic geometry]] there are very important theorems due Chevalley, [[val
 
 ## Related concepts
 
-* [[normed ring]]
-
-* [[normed field]]
+[[!include analytic geometry ingredients -- table]]
 
 ## Literature 
 
@@ -54,6 +57,8 @@ In [[algebraic geometry]] there are very important theorems due Chevalley, [[val
 * Serge Lang, _Algebraic number theory_, GTM __110__, Springer 1970, 2000
 * [[Ehud Hrushovski]], [[David Kazhdan]], _The value ring of geometric motivic integration and the Iwahori Hecke algebra of $SL 2$_, [math.LO/0609115](http://arxiv.org/abs/math/0609115); _Integration in valued fields_, in Algebraic geometry and number theory, 261&#8211;405, Progress. Math. __253__, Birkh&#228;user Boston, [pdf](http://math.huji.ac.il/~ehud/papers/intv-060428.pdf)
 * A H Lightstone, Abraham Robinson, _Nonarchimedean fields and asymptotic expansions_, North-Holland Publ. 1976
+
+check out ([Scholze 11, def. 22, remark 2.3](perfectoid%20space#Scholze11))
 
 [[!redirects valuations]]
 [[!redirects valued field]]
