@@ -1,4 +1,19 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -20,6 +35,8 @@ The [[Berkovich spectrum]] of a Banach ring $R$ is the set of multiplicative [[s
 
 
 ## References
+
+* [[Vladimir Berkovich]], section 1.2 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
 * Sarah  Brodsky, _Non-archimedean geometry_ ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
 
