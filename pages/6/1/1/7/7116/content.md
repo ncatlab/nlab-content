@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -29,9 +44,9 @@ to the [[real numbers]] such that for all $x, y \in k$
 4. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ (the [[triangle inequality]]).
 
 
-If the last condition is strengthened to
+If the last trinagle inequality is strengthened to
 
-* ${\vert x + y\vert} \leq max({\vert x \vert}, {\vert y \vert})$
+* ${\vert x + y\vert} \leq max({\vert x \vert}, {\vert y \vert})$ 
 
 then ${\vert -\vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value. Otherwise it is called **archimedean**.
 
@@ -59,7 +74,7 @@ $$
   {\vert x \vert}_0 = 
   \left\{
     \array{
-       0 & if x = 0
+       0 & if\; x = 0
        \\
        1 & otherwise
     }
@@ -137,3 +152,6 @@ The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete
 [[!redirects Archimedean absolute value]]
 [[!redirects archimedean absolute values]]
 [[!redirects Archimedean absolute values]]
+
+[[!redirects archimedean]]
+[[!redirects non-archimedean]]
