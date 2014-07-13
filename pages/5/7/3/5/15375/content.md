@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -21,9 +21,9 @@
 
 A _normed field_ $K$ is a [[normed ring]] whose underlying [[ring]] is a [[field]].
 
-If the product preserves the [[norm]] strictly (in that for all $f,g \in K$ we have the [[equality]] ${\vert f \cdot g\vert} = {\vert f\vert} \cdot {\vert g\vert}$ instead of just the [[inequality]] ${\vert f \cdot g\vert} \leq {\vert f\vert} \cdot {\vert g\vert}$) then one speaks of a _[[valued field]]_ (e.g. [Berkovich 09, def. 1.1.1](#Berkovich09)).
+If the product preserves the [[norm]] strictly (so that one has a _multiplicative norm_  or [[absolute value]] in that for all $f,g \in K$ we have the [[equality]] ${\vert f \cdot g\vert} = {\vert f\vert} \cdot {\vert g\vert}$ instead of just the [[inequality]] ${\vert f \cdot g\vert} \leq {\vert f\vert} \cdot {\vert g\vert}$) then one speaks of a _[[valued field]]_  (e.g. [Berkovich 09, def. 1.1.1](#Berkovich09)).
 
-If the underlying [[normed group]] is a [[complete topological space]] then one speaks of a _complete normed field_.
+If the underlying [[normed group]] is a [[complete topological space]] then one speaks of a _[[complete field|complete normed field]]_.
 
 
 ## Examples
@@ -42,7 +42,7 @@ If the underlying [[normed group]] is a [[complete topological space]] then one 
 ### Relation to algebraic closure
  {#RelationToAlgebraicClosure}
 
-The norm of a [[non-archimedean field]] extends uniquely to its [[algebraic closure]] and the completion of that with respect to this norm is still algebraically closed ([Bosch-Guntzer-Remmert 84, prop. 3.4.1.3](#BoschGuntzerRemmert84)).
+The norm of a [[non-archimedean field]] extends uniquely to its [[algebraic closure]] and the completion of that with respect to this norm is still algebraically closed ([Bosch-Guntzer-Remmert 84, prop. 3.4.1.3](#BoschGuntzerRemmert84), [Berkovich 09, fact 1.1.4](#Berkovich09)).
 
 For example the [[p-adic complex numbers]] $\mathbb{C}_p$ arise this way from the [[p-adic rational numbers]] $\mathbb{Q}_p$.
 
