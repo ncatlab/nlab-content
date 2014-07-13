@@ -42,7 +42,7 @@ A **normed group** is a pair $(G,\rho)$ where $G$ is a [[group]] and $\rho \colo
 +-- {: .num_defn #homomorphisms}
 ###### Definitions
 
-There are a few different senses of [[homomorphism]] between normed groups; the first is usually taken as the default but the second fits in better with [[normed rings]] and the obvious notion of [[isomoprhism]] as two structures\' being 'the same'.
+There are a few different senses of [[homomorphism]] between normed groups; the first is usually taken as the default but the second fits in better with [[normed rings]] and the obvious notion of [[isomorphism]] as two structures\' being 'the same'.
 
 A __bounded homomorphism__ $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups, def. \ref{NormedGroup}, is a group homomorphism $f \colon G_1 \to G_2$
 of the underlying groups such that there is $C \in \mathbb{R}_{\geq 0} $
