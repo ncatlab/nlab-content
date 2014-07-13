@@ -119,6 +119,21 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 3. If $(A \cup B) \in \sigma$, then $A \in \sigma$ or $B \in \sigma$.
 
 
+## Proximities as profunctors {#profunctors}
+
+As a [[poset]], the [[power set]] $\mathcal{P}X$ of $X$ may be regarded as a [[category]] [[enriched category|enriched]] over [[truth values]].  There is a notion of a [[bimodule]] over a category, also called (more specifically) a distributor or [[profunctor]].
+
+Then a profunctor from $\mathcal{P}X$ to itself is precisely a binary relation $\ll$ on subsets of $X$ that satisfies Isotony.  Adding Reflexivity makes it a co-[[pointed object|pointed]] profunctor, and Regularity morally makes it a [[coassociative coalgebra]] with Reflexivity as counit.  (Actually, coassociativity is trivial when enriched over truth values, as is the claim that Reflexivity, once it exists, is a counit, but we say 'coassociative' to clarify which sense of 'coalgebra' we mean.)
+
+The sense in which Regularity makes this a coalgebra is actually a bit involved, and it only quite works because of Additivity.  A coalgebra with a given profunctor $\ll$ as its underlying bimodule has the *structure* of an operation that, given $x \ll z$, takes this to an equivalence class of $y$ such that $x \ll y \ll z$, where $y$ is equivalent to $y'$ if $y \subseteq y'$ (or by any equivalence that follows).  By Isotony and left binary Additivity, $x \ll y \cup y' \ll z$ (or use right Additivity and $y \cap y'$); since $y, y' \subseteq y \cup y'$, we have the desired equivalence.
+
+This suggests that if we want a notion of proximity *without* Additivity, then Regularity must become more complicated, being a [[extra structure|structure]] rather than just a property (and a structure that should be preserved by proximal maps).
+
+As for Additivity itself, this presumably corresponds to something more general in the world of profunctors related to [[limits]] and [[colimits]], but I haven\'t figured it out yet.
+
+Symmetry probably doesn\'t fit into this picture very well, but who knows?
+
+
 ## Related concepts
 
 * [[uniform space]], [[syntopogenous space]], [[apartness relation]], [[pretopological space]]
