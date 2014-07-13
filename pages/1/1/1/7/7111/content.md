@@ -28,13 +28,13 @@ Let $k$ be a [[non-archimedean field]].
 +-- {: .num_defn}
 ###### Definition
 
-Given $n \in \mathbb{N}$  and positive elements $\{r_1, \cdots, r_n \in k\}$, consider the sub-[[power series]] [[associative algebra|algebra]] over $k$ defined by
+Given $n \in \mathbb{N}$  and positive elements $\{r_1, \cdots, r_n \in k\}$, consider the sub-[[power series]] [[associative algebra|algebra]] over $k$ of those series which [[convergence|converge]] inside the radii $k_i$, i.e. the algebra defined by
 
 $$
   \{\frac{1}{r_1} T_1 , \cdots, \frac{1}{r_n}T_n\}
   :=
   \left\{
-    \sum_\nu a_\nu T^\nu | \lim_{{\vert \nu\vert} \to 0} {\vert a_\nu \vert} r^\nu = 0
+    \sum_\nu a_\nu T^\nu | \lim_{{\vert \nu\vert} \to \infty} {\vert a_\nu \vert} r^\nu = 0
   \right\}
   \,.
 $$
@@ -49,7 +49,7 @@ $$
   A
 $$
 
-such that the norm on $A$ is the quotient norm.
+such that the [[norm]] on $A$ is the [[quotient norm]].
 
 If one can choose here $r_i = 1$ for all $i$ then $A$ is called **strictly $k$-affinoid**.
 
@@ -76,11 +76,11 @@ for some $A_V$, whose [[image]] is $V$, and such that every other morphism of $k
 ###### Definition
 
 A **$k$-analytic space** is a [[topological space]] 
-equipped with an [[atlas]] by affinoid domains.
+equipped with an [[atlas]] by affinoid domains (...).
 
 =--
 
-See [Berkovich 98, paragraph 2](#BerkovichReview).
+See e.g. ([Berkovich 98, paragraph 2](#Berkovich98), [Berkovich 09, def. 3.1.4](#Berkovich09))
 
 ## Properties
 
@@ -136,6 +136,8 @@ for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean 
 
 * [[p-adic geometry]]
 
+* [[G-topology]]
+
 * [[Huber space]], [[perfectoid space]]
 
 * [[global analytic geometry]]
@@ -160,11 +162,11 @@ See also the references at [[rigid analytic geometry]].
 
 A review of definitions and results on  $k$-analytic spaces is in 
 
-* [[Vladimir Berkovich]], _$p$-Adic analytic spaces_, in Proceedings of the International Congress of Mathematicians, Berlin, August 1998, Doc. Math. J. DMV, Extra Volume ICM II (1998), 141-151 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/ICM98_1998.pdf)) 
+* {#Berkovich98} [[Vladimir Berkovich]], _$p$-Adic analytic spaces_, in Proceedings of the International Congress of Mathematicians, Berlin, August 1998, Doc. Math. J. DMV, Extra Volume ICM II (1998), 141-151 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/ICM98_1998.pdf)) 
 
 A more detailed set of lecture notes along these lines is
 
-* [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+* {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
 Introductory exposition of the Berkovich [[analytic spectrum]] is 
 
