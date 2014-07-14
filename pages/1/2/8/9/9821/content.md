@@ -47,6 +47,7 @@ where the sum goes over closed integral subschemes $Z$ of codimension 1 and with
 
 * [[Abel-Jacobi map]]
 
+* [[standard conjectures]]
 
 ## References
 
