@@ -27,9 +27,11 @@ If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then
 
 ### Over complex manifolds / complex varieties
 
-Over a [[complex manifold]]/[[complex variety]], the [[Koszul-Malgrange theorem]] identifies holomorphic [[flat connections]] on [[complex vector bundles]] with [[holomorphic vector bundles]]. This identifies the moduli space of flat connections as a [[complex manifold]] with the [[intermediate Jacobian]].
+Over a [[complex manifold]]/[[complex variety]], the [[Koszul-Malgrange theorem]] identifies holomorphic [[flat connections]] on [[complex vector bundles]] with [[holomorphic vector bundles]]. This identifies the moduli space of flat connections as a [[complex manifold]] with (a non-abelian version of) the first Griffiths [[intermediate Jacobian]]. 
 
 More specifically over a [[Riemann surface]] _[[Narasimhan–Seshadri theorem]]_ identifies the [[moduli spaces of flat connections]] with that of certain [[complex manifold|complex]] spaces of [[stable vector bundle|stable]] [[holomorphic vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
+
+More generally, the [[Donaldson-Uhlenbeck-Yau theorem]] similarly gives a [[Kähler structure]] on the moduli space of flat connections also over higher dimensional K&#228;hler manifolds ([Scheinost-Schottenloher 96, corollary 1.16](#ScheinostSchottenloher96)).
 
 ## Examples
 
@@ -80,6 +82,8 @@ In this form the moduli space of flat connections appears prominently for instan
 
 ## Related concepts
 
+* [[Donaldson-Uhlenbeck-Yau theorem]]
+
 * [[Tamagawa numbers]]
 
 * [[Hitchin connection]]
@@ -104,6 +108,11 @@ Reviews and lecture notes include, for the case of flat connections
 and for the case of general and [[logarithmic connections]]
 
 * {#BiswasMunoz} Indranil Biswas, V.Munoz, _Moduli spaces of connections on a Riemann surface_  ([pdf](http://www.mat.ucm.es/~vmunozve/Moduli.pdf))
+
+Detailed discussion of moduli space of flat connections also on higher dimensional base spaces is in
+
+* {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], pp. 154 (11 of 76) of _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753)) 
+
 
 For more references see at _[[Hitchin connection]]_.
 
