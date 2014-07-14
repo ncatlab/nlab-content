@@ -50,6 +50,8 @@ There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G
 
 * [[orbifold]], [[Deligne-Mumford stack]]
 
+* [[geometric invariant theory]]
+
 
 ## References
 
