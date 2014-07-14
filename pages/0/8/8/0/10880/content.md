@@ -481,7 +481,7 @@ In [[equivariant stable homotopy theory]], see ([May 05b](#May05b)).
 ### For quasicoherent sheaves (in $E_\infty$-geometry)
  {#ForQuasicoherentSheaves}
 
-Pull-push of [[quasicoherent sheaves]] is usually discussed as a [[Grothendieck context]] of [[six operatioons]], but under some conditions it also becomes a Wirthm&#252;ller context.
+Pull-push of [[quasicoherent sheaves]] is usually discussed as a [[Grothendieck context]] of [[six operations]], but under some conditions it also becomes a Wirthm&#252;ller context.
 
 Using results of Lurie this follows in the full generality of [[E-∞ geometry]] ([[spectral geometry]]).
 
