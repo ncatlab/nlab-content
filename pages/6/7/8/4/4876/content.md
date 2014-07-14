@@ -119,7 +119,45 @@ $$
 ## Properties
  {#Properties}
 
+### Equations of motion
+ {#EquationsOfMotion}
+
+The [[variational calculus|variational derivative]] of the WZW [[action functional]] is
+
+$$
+  \delta S_{WZW}(g)
+  =
+  -\frac{k}{2 \pi i }
+ \int_\Sigma \langle (g^{-1}\delta g), \partial (g^{-1}\bar \partial g)  \rangle 
+  \,.
+$$
+
+Therefore the classical [[equations of motion]] for function $g \colon \Sigma \to G$ are
+
+$$
+  \partial(g^{-1}\bar \partial g)
+  = 0
+  \;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;
+  \bar \partial(g \partial g^{-1}) = 0
+ \,.
+$$
+
+The space of solutions to these equations is small. However, discussion of the [[quantization]] of the theory ([below](#HolographyAndRigorousConstruction)) suggests to consider these equations with the real [[Lie group]] $G$ replaced by its [[complexification]] to the  [[complex Lie group]] $G({\mathbb{C}})$. Then the general solution to the equations of motion above has the form
+
+$$
+  g(z,\bar z) 
+  =
+  g_{\ell}(z) g_r(\bar z)^{-1}
+$$
+
+where hence $g_{\ell} \colon \Sigma \to G(\mathbb{C})$ is any [[holomorphic function]] and $g_r$ similarly any anti-holomorphic function.
+
+(e.g. [Gawedzki 99 (3.18), (3.19)](#Gawedzki99))
+
 ### Holography and Rigorous construction
+ {#HolographyAndRigorousConstruction}
 
 By  the [[AdS3-CFT2 and CS-WZW correspondence]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
 
@@ -198,8 +236,8 @@ The WZ term on $\Sigma_2$ was understood in terms of an integral of a 3-form ove
 
 for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally, in terms of [[surface holonomy]] of [[bundle gerbes]]/[[circle 2-bundles with connection]] in
 
-* [[Krzysztof Gaw?dzki]] _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
-  {#Gawedzki87}
+* {#Gawedzki87} [[Krzysztof Gaw?dzki]] _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
+  
 
 * [[Giovanni Felder]] , [[Krzysztof Gaw?dzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
 
@@ -226,7 +264,7 @@ A basic introduction also to the super-WZW model (and with an eye towards the co
 
 A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
 
-* [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
 This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. The [[Hilbert space]] of [[states]] is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
 
@@ -373,4 +411,3 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 
 [[!redirects WZW gerbe]]
 [[!redirects WZW gerbes]]
-
