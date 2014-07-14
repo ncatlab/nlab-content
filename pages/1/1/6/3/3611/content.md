@@ -392,35 +392,35 @@ Bielefeld SB 343 (1999), to appear in Topology Appl.
 
 A systematic study of [[model category]] structures on monochromatic [[symmetric operads]] and their algebras is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
-{#BergerMoerdijkHomotopy}
+* {#BergerMoerdijkHomotopy} [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
 
-The generalization to a model structure on coloured symmetric operads ([[symmetric multicategories]]) is discussed in 
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_ ([arXiv:1109.1004](http://arxiv.org/abs/1109.1004))
- {#CisinskiMoerdijk11}
+The generalization to a model structure on [[coloured operads|coloured symmetric operads]] ([[symmetric multicategories]]) is discussed in 
+
+* {#CisinskiMoerdijk11} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_ ([arXiv:1109.1004](http://arxiv.org/abs/1109.1004))
+ 
 
 and independently in 
 
 * [[Marcy Robertson]], _The Homotopy Theory of Simplicially Enriched Multicategories_ ([arXiv](http://arxiv.org/abs/1111.4146))
 
-The generalization of this to [[colored operads]] is in
+And the generalization to [[colored operads]] over more general suitable enriching categories is in
 
-* Giovanni Caviglia, _A Model Structure for Enriched Coloured Operads_ ([arXiv:1401.6983](http://arxiv.org/abs/1401.6983))
+* {#Caviglia14} Giovanni Caviglia, _A Model Structure for Enriched Coloured Operads_ ([arXiv:1401.6983](http://arxiv.org/abs/1401.6983))
 
 (generalizing acorresponding [[model structure on enriched categories]]).
 
 An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon of the [[Boardman-Vogt resolution]] is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
-{#BergerMoerdijkResolution}
+* {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
+
 
 The induced model structures and their properties on [[algebras over operads]] are discussed in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
-{#BergerMoerdijkAlgebras}
+* {#BergerMoerdijkAlgebras} [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
+
 
 The [[model structure on dg-operads]] is discussed in
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+* {#BergerMoerdijkAlgebras} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 {#Hinich}
