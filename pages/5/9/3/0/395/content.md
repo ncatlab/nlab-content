@@ -1210,12 +1210,13 @@ in the closely related work
 
 
 ### Homotopy fiber product 
+ 
 
 Using the existence of [[path object|path space objects]] one can construct specific [[homotopy pullback]]s
 called  _homotopy fiber products_ .
 
 
-+-- {: .num_defn}
++-- {: .num_defn #HomotopyFiberProducts}
 ###### Definition
 
 A **homotopy fiber product** 
@@ -2180,6 +2181,62 @@ Any loop object $\Omega B$ becomes a group object in $Ho_C$, i.e. a group [[inte
 There is an explicit simplicial construction of the [[derived hom spaces]] for a homotopical category that is equipped with the structure of a category of fibrant objects.
 This is described in ([Cisinksi 10](#Cisinski10)) and ([Nikolaus-Schreiber-Stevenson 12, section 3.6.2](#NSS12)).
 
++-- {: .num_defn #CocycleCategories}
+###### Definition 
+
+For $\mathcal{C}$ a category of fibrant objects, write for any $X, A \in Obj(\mathcal{C})$
+
+$$
+  Cocycle(X,A) , wCocycle(X,A) \in Cat
+$$
+
+for the [[categories]] ("categories of [[cocycles]] on $X$ with [[coefficients]] in $A$") whose [[objects]] are [[correspondences]]
+
+$$
+  X \stackrel{\simeq}{\longleftarrow}
+  \hat X
+  \stackrel{}{\longrightarrow}
+  A
+$$
+
+with the left leg an acyclic fibration (for $Cocycle(X,A)$) or just a weak equivalence (for $wCocycle(X,A)$); and whose morphisms are morphisms of spans
+
+$$
+  \array{
+    && \hat X
+    \\
+    & \swarrow && \searrow
+    \\
+    X && \downarrow && A
+    \\
+    & \nwarrow && \nearrow
+    \\
+    && \hat X'
+  }
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Write $L^H_{we} \mathcal{C}$ for the [[simplicial localization]] of the category of fibrant objects $\mathcal{C}$ at its weak equivalences (hence essentially the [[(infinity,1)-category]] that it presents). Then for all objects $X,A \in Obj(\mathcal{C})$ the canonical maps
+
+$$
+  N Cocycle(X,A)
+  \to
+  N wCocycle(X,A)
+  \to 
+  L^H_{we} \mathcal{C}(X,A)
+$$
+
+of [[simplicial sets]] (on the left the [[nerves]] of the cocycle categories of def. \ref{CocycleCategories}, on the right the [[derived hom space]] given by the [[simplicial localization]]) are [[weak homotopy equivalences]].
+
+=--
+
+In other words, $N Cocycle(X,A) \simeq_{whe} N wCocycle(X,A)$ is a model for the correct [[derived hom space]].
+
+From this it follows for instance that the [[homotopy fiber products]] in $\mathcal{C}$ as defined in def. \ref{HomotopyFiberProducts} present indeed the correct [[(infinity,1)-limits]]. (...)
 
 
 ## Application in cohomology theory 
