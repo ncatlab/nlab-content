@@ -367,8 +367,8 @@ A general discussion of the [[model structure on operads]] is in
 
 The concrete construction of the specific cofibrant resolutions in these structures going by the name [[Boardman-Vogt resolution]] is in 
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
-{#BergerMoerdijkResolution}
+* {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
+
 
 The discussion of the model structure on algebras over a suitable operad is in
 
@@ -382,4 +382,3 @@ More discussion on the transport of operad algebra structures along [[Quillen ad
 * [[Javier Gutiérrez]], _Transfer of algebras over operads along derived Quillen adjunctions_, Journal of the London Mathematical Society 86 (2012), 607-625 ([arXiv:1104.0584](http://arxiv.org/abs/1104.0584))
 
 [[!redirects model structures on algebras over an operad]]
-
