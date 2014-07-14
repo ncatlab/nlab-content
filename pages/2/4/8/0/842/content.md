@@ -273,7 +273,7 @@ This is [[Higher Topos Theory|HTT, prop. 4.4.3.2]].
 
 ### In terms of homotopy limits {#TermsOfHomotopy}
 
-The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]} functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
+The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]] functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
 
 
 +-- {: .num_prop}
