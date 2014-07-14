@@ -155,7 +155,7 @@ Essentially the authors say that an $A_\infty$-category should be a non(-graded-
 
 More [[category theory]] and [[homotopy theory]] of $A_\infty$-categories is discussed in
 
-* Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
+* {#LefevreHasegawa03} Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
 
 * [[Bruno Valette]], _Homotopy theory of homotopy algebras_ ([pdf](http://math.unice.fr/~brunov/HomotopyTheory.pdf))
 
