@@ -18,7 +18,7 @@
 
 In the context of [[arithmetic geometry]] a _regulator_ is a [[homomorphism]] from an [[algebraic K-theory]] to a suitable [[ordinary cohomology]] theory. (It "regulates" [[cocycles]] in [[algebraic K-theory]], which tend to be hard to analyze, to become cocycles in ordinary cohomology, about which typically more may be said).
 
-Regulators are used in the study of [[L-functions]] for instance in the context of the [[Bloch-Kato conjecture]].
+Regulators are used in the study of [[L-functions]] for instance in the context of the [[Beilinson conjectures]] and the [[Bloch-Kato conjecture]].
 
 The simplest example of such regulators are
 
@@ -178,6 +178,8 @@ The Beilinson regulator (with values in [[Deligne cohomology]]) is due to
 
 reviewed in
 
+* {#Soule84} [[Christophe Soulé]], _R&#233;gulateurs_ S&#233;minaire Bourbaki, 27 (1984-1985), Exp. No. 644, 17 p. ([Numdam](http://www.numdam.org/item?id=SB_1984-1985__27__237_0))
+
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
 
 See also
@@ -214,7 +216,7 @@ See also
 
 * Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
 
-
+Formore references see also at _[[Beilinson conjecture]]_.
 
 
 [[!redirects Beilinson regulators]]
