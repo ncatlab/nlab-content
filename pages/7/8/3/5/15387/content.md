@@ -36,7 +36,7 @@ The original articles are
 
 * {#Donaldson85} [[Simon Donaldson]], _Anti-self-dual Yang-Mills connections over complex algebraic surfaces and stable vector bundles_, Proc. LMS 50 (1985) 1-26 
 
-* {#UhlenbeckYau86} [[Karen Uhlenbeck]], [[Shing-Tung Yau]], _The existence of Hermitean Yang-Mills-connections on stable bundles over K&#228;hler manifolds_, Comm. Pure Appl. Math. 39 (1986)  257-293
+* {#UhlenbeckYau86} [[Karen Uhlenbeck]], [[Shing-Tung Yau]], _On the existence of Hermitean Yang-Mills-connections on stable bundles over K&#228;hler manifolds_, Comm. Pure Appl. Math. 39 (1986)  257-293
 
 Reviews in the context of discussion of [[Kähler polarization]] of [[moduli spaces of connections]] is in 
 
