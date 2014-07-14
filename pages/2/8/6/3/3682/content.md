@@ -262,7 +262,7 @@ The above characterization of homotopy Kan extensions in simplicial combinatoria
 Accordingly, this characterization makes sense for $A$ any locally fibrant $sSet_{Quillen}$-enriched category, i.e. for every Kan-complex-enriched category:
 
 
-+-- {: .num_definition}
++-- {: .num_defn}
 ###### Definition
 
 For $A$ a [[Kan complex]]-[[enriched category]] and $f : C \to C'$ an [[enriched functor]] of small [[sSet]]-[[enriched categories]], 
