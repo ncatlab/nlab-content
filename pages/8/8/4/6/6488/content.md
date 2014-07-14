@@ -8,6 +8,6 @@ Stability is a highly overloaded word in mathematics.
 
 * in [[model theory]] there is another [[stability in model theory|theory of stability]] including a more recent [[geometric stability theory]]
 
-* in geometry, in the construction of moduli spaces there is a notion of stable and semistable objects (e.g. __Mumford stability__ in [[geometric invariant theory]]); they can be taken with respect to some stability data; more recently those are important in physical applications and abstract versions appeared in the context of triangulated categories, most notably [[Bridgeland stability conditions]]. 
+* in [[geometry]], specifically in the construction of [[moduli spaces]] there is a notion of stable and semistable objects (e.g. __[[GIT-stable point|Mumford stability]]__ in [[geometric invariant theory]]); they can be taken with respect to some stability data; more recently those are important in physical applications and abstract versions appeared in the context of triangulated categories, most notably [[Bridgeland stability conditions]]. 
 
   See also _[[stable vector bundle]]_
