@@ -49,6 +49,8 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * **Proposition**. A Grothendieck topos $\mathcal{Y}$ is an &#233;tendue iff there exists a [[site]] $(\mathcal{C}, J)$ for $\mathcal{Y}$ such that every morphism of $\mathcal{C}$ is monic.
 
+* In particular for small $\mathcal{C}$, the presheaf topos $\mathcal{S}^{\mathcal{C}^{op}}$ is an &#233;tendue iff all morphisms in $\mathcal{C}$ are monic. For monoids this amounts to being cancellative: $m_1m=m_2m$ implies $m_1=m_2$ and includes all free monoids.
+
 * A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (Freyd&Scedrov 1990). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
 
 
