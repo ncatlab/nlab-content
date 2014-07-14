@@ -1,14 +1,13 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Analysis
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
@@ -20,7 +19,7 @@
 
 ## Idea
 
-A Banach ring is a [[complete space|complete]] [[normed ring]], hence a [[commutative monoid]] in complete [[normed groups]].
+A Banach ring is a [[complete space|complete]] [[normed ring]], hence a [[commutative monoid]] in the [[monoidal category]] of complete [[normed groups]] (with [[short map|short]] group homomorphisms and the [[projective tensor product]]).
 
 If not just in complete normed groups but in complete [[normed vector spaces]] ([[Banach spaces]]), then this is a [[Banach algebra]].
 
@@ -33,9 +32,11 @@ The [[Berkovich spectrum]] of a Banach ring $R$ is the [[topological space]] of 
 
 * The integers with the $p$-adic norm ${|-|_p}$ are an incomplete normed ring whose completion is the Banach ring $\mathbb{Z}_p$ of $p$-[[adic integers]].
 
+
 ## Related concepts
 
 [[!include analytic geometry ingredients -- table]]
+
 
 ## References
 
@@ -50,3 +51,6 @@ category: analysis
 
 [[!redirects Banach ring]]
 [[!redirects Banach rings]]
+
+[[!redirects complete normed ring]]
+[[!redirects complete normed rings]]
