@@ -39,6 +39,8 @@ For an exact sequence $0 \to X' \to X \to X'' \to 0$ in an AB5 category the foll
 
 For a module $M$ over a ring $R$ this is equivalent to $M$ being finitely generated $R$-module. It is finitely presented if it is finitely presented in the usual sense of existence of short exact sequence of the form $R^I \to R^J \to M \to 0$ where $I$ and $J$ are finite. 
 
+An AB5-category is __locally coherent__ if it has a [[generator|generating set]] of coherent objects. If it is such, than every finitely presented object is coherent, and the full subcategory of finitely presented objects is therefore abelian. 
+
 ### In 1-topos theory
 
 Let $C$ be a [[topos]].
@@ -115,9 +117,11 @@ A coherent object which is also [[n-truncated object of an (∞,1)-category|n-tr
 
 * {#Lurie} [[Jacob Lurie]], section 3 of _[[Spectral Schemes]]_ 
 
+* Ivo Herzog, _Contravariant functors on the category of finitely presented modules_,  Israel J. Math. [pdf](http://lima.osu.edu/people/iherzog/contra.pdf):
+_The Ziegler spectrum of a locally coherent Grothendieck category_, Proc. London Math. Soc. 74(3) (1997), 503-558 [pdf](http://lima.osu.edu/people/iherzog/Ziegler%20spec.pdf)
 
 [[!redirects coherent objects]]
-
+[[!redirects locally coherent category]]
 [[!redirects n-coherent object]]
 [[!redirects n-coherent objects]]
 
