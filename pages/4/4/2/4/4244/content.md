@@ -71,6 +71,12 @@ See also ([Geer-Katsura 03](#GeerKatsura03)).
 
 ## References
 
+The original articles are
+
+* [[Shing-Tung Yau]], ...
+
+(...)
+
 Surveys and reviews include
 
 * Scholarpedia, _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
