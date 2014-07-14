@@ -34,6 +34,8 @@ _[[l-adic cohomology]]_ or better _[[pro-étale cohomology]]_.
 
 * [[motive]], [[motivic cohomology]]
 
+* [[Weil conjecture]], [[standard conjectures on algebraic cycles]]
+
 ## References
 
 Reviews are in
