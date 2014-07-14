@@ -74,6 +74,8 @@ An important source of DM-stacks are [[moduli space|moduli]] problems, resulting
 
     * **Deligne-Mumford stack**
 
+      [[GIT-stable point]], [[geometric invariant theory]]
+
     * [[Artin stack]]
 
 ## References
