@@ -40,7 +40,7 @@ $$
 
 a **local homeomorphism of toposes** or **&#233;tale geometric morphism** if it factors as an equivalence followed by a projection out of an overcategory topos.
 
-If the topos is a locally ringed topos, or moro generally a [[structured (∞,1)-topos]], it makes sense to require additionally that the local homeomorphism is compatible with the extra structure.
+If the topos is a locally ringed topos, or more generally a [[structured (∞,1)-topos]], it makes sense to require additionally that the local homeomorphism is compatible with the extra structure.
 
 ## Definition
 
