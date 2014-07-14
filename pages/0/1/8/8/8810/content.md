@@ -64,9 +64,13 @@ e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 The slope-(semi-)stable vector bundles are essentially the [[stable point|(semi-)stable points]] in the sense of [[geometric invariant theory]] in the [[moduli space of bundles]]. The precise statement is reviewed for instance in ([Saiz 09, section 2.3](#Saiz09).
 
 
-### Narasimhan-Seshadri theorem
+### Relation to connections
 
-The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vector bundles with those of certain [[flat connections]].
+The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vector bundles over [[complex curves]] with those of certain [[flat connections]].
+
+The [[Donaldson-Uhlenbeck-Yau theorem]] relates semi-stable vector bundles over [[Kähler manifolds]] to [[Hermite-Einstein connections]].
+
+Still more generally, the [[Kobayashi-Hitchin correspondence]] relates semi-stable vector bundles over [[complex manifolds]] to Hermite-Einstein connections.
 
 ## Related concepts
 
@@ -83,9 +87,11 @@ The concept was introduced in
 
 * [[David Mumford]], _Geometric invariant theory_, Ergebnisse Math. Vol 34 Springer (1965)
 
-and
-
 * F. Takemoto, _Stable vector bundles on algebraic surfaces_, Nagoya Math. J.  47 (1972) 29-48 ([euclid](http://projecteuclid.org/euclid.nmj/1118798682)); _II_, 52 (1973) ([euclid](http://projecteuclid.org/euclid.nmj/1118794885))
+
+*  {#MumfordFogartyKirwan65} [[David Mumford]], John Fogarty, Frances Clare Kirwan, _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag (1965)
+
+
 
 Review is in 
 
