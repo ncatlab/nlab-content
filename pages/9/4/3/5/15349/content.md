@@ -23,7 +23,7 @@
 An **&#233;tendue** (also 'etendue', or 'etendu'; from French '&#233;tendue' (fem.)- _extent_) is a [[topos]] $\mathcal{Y}$ that locally looks like the category of sheaves on a space:
 >Briefly, the slogan is that $\mathcal{Y}$ is locally a topological space. (Lawvere 1976, p.129)
 
-Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [[SGA4]] (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the slice $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
+Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [[SGA4]] (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
 Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one rather directly: it has a site where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and the like.
 
@@ -33,7 +33,7 @@ Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-exa
 
 A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\mathcal{Y}|$ such that the unique $X\rightarrow 1$ is epic and the [[slice topos]] $\mathcal{Y}/X$  is a [[localic topos]].[^fine]
 
-[^fine]:  An epic $k:X\rightarrow Y$ induces a [[geometric morphism]] $k_\ast:\mathcal{Y}/X\rightarrow \mathcal{Y}/Y$ whose inverse image part, the change of base functor, $k^\ast:\mathcal {Y}/Y\rightarrow\mathcal{Y}/X$ is faithful, which says by definition that $k_\ast$ is a surjection, and in case $Y=1$, one says that $\mathcal{Y}/X$ _covers_ $\mathcal{Y}$.
+[^fine]:  An epic $k:X\rightarrow Y$ induces a [[geometric morphism]] $k_\ast:\mathcal{Y}/X\rightarrow \mathcal{Y}/Y$ whose inverse image part, the change of base functor, $k^\ast:\mathcal {Y}/Y\rightarrow\mathcal{Y}/X$ is faithful, which says by definition that $k_\ast$ is a surjection, and in case $Y=1$, one says that $\mathcal{Y}/X$ _covers_ $\mathcal{Y}$. $k_\ast$ is an [[étale geometric morphism]].
 
 ##Examples##
 
