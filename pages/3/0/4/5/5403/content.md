@@ -24,7 +24,7 @@
 ##Idea
 
 
-Loosely speaking, a _J&#243;nsson-Tarski algebra_ is Cantor's isomorphism $2^\mathbf{N}\cong 2^\mathbf{N}\times 2^\mathbf{N} $ gone algebra.
+Loosely speaking, a _J&#243;nsson-Tarski algebra_ is an isomorphism $2^{\aleph_0}\cong 2^{\aleph_0}\times 2^{\aleph_0} $ gone algebra.
 
 ## Definition
 
