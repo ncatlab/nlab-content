@@ -42,9 +42,10 @@ The original articles are
 
 Reviews include
 
+* {#Soule84} [[Christophe Soulé]], _R&#233;gulateurs_ S&#233;minaire Bourbaki, 27 (1984-1985), Exp. No. 644, 17 p. ([Numdam](http://www.numdam.org/item?id=SB_1984-1985__27__237_0))
 
+* {#Schneider} [[Peter Schneider]], _Introduction to the Beilinson conjectures_ ([[SchneiderBeilinsonConjectures.pdf:file]])
 * Jan Nekovar, section 3 of _Beilinson's Conjectures_ ([pdf](http://people.math.jussieu.fr/~nekovar/pu/mot.pdf))
-
 * Christopher Deninger, Anthony Scholl, _The Beilinson conjectures_ ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/d-s.pdf))
 
 * {#BrylinskiZucker91} [[Jean-Luc Brylinski]], Steven Zucker, conjecture 5.20,5.21 in _An overview of recent advances in Hodge theory_, 
