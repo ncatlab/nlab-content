@@ -66,7 +66,9 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * [[orbifold Euler characteristic]]
 
-Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. In [[topology]] one also speaks of _[[orbispaces]]_.
+Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. See also at _[[geometric invariant theory]]_ and _[[GIT-stable point]]_.
+
+If the finiteness condition is dropped one also speaks of _[[orbispaces]] and generally of [[stacks]].
 
 Orbifolds may be regarded as a kind of _[[stratified spaces]]_.
 
