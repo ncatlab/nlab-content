@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -11,13 +11,15 @@ $$
 \|ab\| \leq C \|a\| \|b\|, 
 $$
 
-for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$. A normed algebra whose underlying normed space is complete is called a __Banach algebra__.
+for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$. A normed algebra whose underlying normed space is [[complete space|complete]] is called a __[[Banach algebra]]__.
+
 
 ## Related concepts
 
 * [[normed division algebra]]
 
 [[!include analytic geometry ingredients -- table]]
+
 
 ## References
 
@@ -27,4 +29,6 @@ for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$. A n
 * Marco Thill, _Introduction to normed $\ast$-algebras and their representations_, Kassel Univ. Press, [pdf](http://www.uni-kassel.de/upress/online/frei/978-3-933146-82-3.volltext.frei.pdf)
 * [[I. M. Gel'fand]], M. A. Naimark, _Normed rings with involutions and their representations_, Izv. Akad. Nauk SSSR Ser. Mat., 12:5 (1948), 445&#8211;480, Russian orig. [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=3092&volume=12&year=1948&issue=5&fpage=445&what=fullt&option_lang=eng)
 
+
+[[!redirects normed algebra]]
 [[!redirects normed algebras]]
