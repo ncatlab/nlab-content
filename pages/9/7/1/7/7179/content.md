@@ -1,37 +1,60 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-_Geometric invariant theory_ studies the construction of [[moduli spaces]] / [[moduli stacks]] in terms of [[quotients]] / [[action groupoids]]. 
+_Geometric invariant theory_ studies the construction of [[moduli spaces]] / [[moduli stacks]] in terms of [[quotients]] / [[action groupoids]].  (This may be thought of as the geometric aspect ([[Isbell duality|Isbell dual]] aspect) of [[invariant theory]].)
 
-(This may be thought of as the geometric aspect ([[Isbell duality|Isbell dual]] aspect) of [[invariant theory]].)
+A central aspect of the theory of ([Mumford-Fogarty-Kirwan 65](MumfordFogartyKirwan65), [Mumford 77](#Mumford77)) is -- given the [[action]] of a [[reductive group]] on a [[projective variety]] -- to characterize those points in the variety -- called the [[GIT-stable point|GIT-(semi-)stable points]] -- such that the [[quotient stack]] on these is "close" to being represented by another projective variety (in that it is for instance just an [[orbifold]]/[[Deligne-Mumford stack]]). The precise statement is recalled for instance as ([Saiz 09, theorem 2.3.6](#Saiz09)).
 
-A central aspect of the theory of ([Mumford 77](#Mumford77)) is --given then [[action]] of a [[reductive group]] on a [[projective variety]] -- to characterize those points in the variety -- called the [[GIT-stable point|GIT-(semi-)stable points]] -- such that the [[quotient stack]] on these is close to being represented by another projective variety (...). The precise statement is recalled for instance as ([Saiz 09, theorem 2.3.6](#Saiz09)).
-
+A standard application of this is to the discussion of [[moduli spaces of bundles]], where [[action]] is that of the [[gauge group]] and where the (semi-)stable points correspond to the (semi-)(slope-)[[stable vector bundles]] ([Saiz 09, section 2.3](#Saiz09))..
 
 
 ## Related concepts
 
 * [[stability]], [[stable vector bundle]]
 
+* [[Deligne-Mumford stack]]
+
 ## References
+
+The original texts are
+
+*  {#MumfordFogartyKirwan65} [[David Mumford]], John Fogarty, Frances Clare Kirwan, _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag (1965)
 
 
 * {#Mumford77} [[David Mumford]], _Stability of projective varieties_, L'Enseignement Math&#233;matique __23__ (1977) [doi](http://dx.doi.org/10.5169/seals-48919)
 
 
-*  [[David Mumford]], John Fogarty, Frances Clare Kirwan, _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag
 
+A good detailed review is in 
+
+* {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
+
+Further surveys include
+
+* Atanas Atanasov, _Geometric invariant theory_, 2011 ([pdf slides](http://www.math.harvard.edu/~nasko/documents/git-slides.pdf))
+
+Further developments include
 
 * David J. Swinarski, _Geometric Invariant Theory
 and Moduli Spaces of Maps_ ([pdf](http://www.math.uga.edu/~davids/DSMScthesis.pdf))
 
 * J&#252;rgen Hausen, _A generalization of Mumford's geometric invariant theory_ ([pdf](http://www.math.uiuc.edu/documenta/vol-06/22.pdf))
-
-A good review is in 
-
-* {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
 
