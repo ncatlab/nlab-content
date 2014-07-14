@@ -17,11 +17,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[vector bundle]] (typically considered in [[complex-analytic geometry]] or [[algebraic geometry]]) is _(semi-)stable_ if it is a _[[GIT-stable point|(semi-)stable point]]_ in the [[moduli space of bundles]]. Under suitable conditions this is equivalent to a certain [[inequality]] on the [[slope of a coherent sheaf|slopes]] of the sub-bundles, and this inequality is what tends to be stated as the definition of stability of vector bundles. 
+
 ## Definition
 
 ### Over a Riemann surface / over an algebraic curve
 
-For $\Sigma$ a [[Riemann surface]], a [[complex vector bundle]] $E \to \Sigma$ over $\Sigma$ is called **stable** if for all non-trivial subbundles $K \hookrightarrow E$ the [[inequality]]
+For $\Sigma$ a [[Riemann surface]], a [[complex vector bundle]] $E \to \Sigma$ over $\Sigma$ is called **(slope-)stable** if for all non-trivial subbundles $K \hookrightarrow E$ the [[inequality]]
 
 $$
   \mu(K) \lt \mu(E)
@@ -44,6 +48,8 @@ e.g. ([Huybrechts-Lehn 96, bottom of p. 24](#HuybrechtsLehn96))
 
 e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12](#HuybrechtsLehn96))
 
+
+
 ## Examples
 
 Every [[line bundle]] is stable. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable.
@@ -51,6 +57,12 @@ Every [[line bundle]] is stable. The [[extension]] of a degree-0 line bundle by 
 e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 
 ## Properties
+
+### Relation to GIT-stability 
+ {#RelationToGITStability}
+
+The slope-(semi-)stable vector bundles are essentially the [[stable point|(semi-)stable points]] in the sense of [[geometric invariant theory]] in the [[moduli space of bundles]]. The precise statement is reviewed for instance in ([Saiz 09, section 2.3](#Saiz09).
+
 
 ### Narasimhan-Seshadri theorem
 
@@ -91,6 +103,7 @@ See also
 
 * Wei-Ping Li, Zhenbo Qin, _Stable vector bundles on algebraic surfaces_ ([pdf](http://arxiv.org/pdf/math/9411233.pdf))
 
+* {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
 
 [[!redirects stable vector bundles]]
 
