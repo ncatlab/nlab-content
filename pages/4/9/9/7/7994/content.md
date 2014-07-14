@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -21,7 +26,12 @@ An _almost Hermitian structure_ on an [[almost complex manifold]] is a further [
 
 * [[Kähler manifold]]
 
+* [[Hermitean Yang-Mills connection]]
+
 [[!redirects almost Hermitian structures]]
 
 [[!redirects Hermitean structure]]
 [[!redirects Hermitean structures]]
+
+[[!redirects almost Hermitean structure]]
+[[!redirects almost Hermitean structures]]
