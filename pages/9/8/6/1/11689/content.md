@@ -92,6 +92,12 @@ between the [[homotopy category]] of the [[dg-category]] of complexes of holomor
 
 ([Block 05, theorem 4.1.3](#Block05)).
 
+## Related theorems
+
+* [[Narasimhan-Seshadri theorem]]
+
+* [[Donaldson-Uhlenbeck-Yau theorem]]
+
 
 ## References
 
