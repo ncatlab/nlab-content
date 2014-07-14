@@ -32,7 +32,7 @@ The category of [[Jónsson-Tarski algebras]] $\mathcal{J}_2$ is called the **J&#
 * Actually, Freyd showed that $\mathcal{J}_2/F(1)\cong Sh(\mathcal{X})$ with $F(1)$ the free J&#243;nsson-Tarski algebra on one generator and $\mathcal{X}$ the [[Cantor space]] - this motivates the above quote from Bunge&Funk: $\mathcal{J}_2$ looks locally like (the sheaf topos on) $\mathcal{X}$ !
 
 ##Generalizations
-The idea to consider $\mathcal{J}_2$ as part of a family of _generalized J&#243;nsson-Tarski toposes_ seems to have originated with Lawvere (1989, p.298).
+The idea to consider generalizations of $\mathcal{J}_2$ seemed to have appeared first in the context of work on &#233;tendues (Rosenthal 1981, Lawvere 1989).
 
 +-- {: .query}
 Caveat: this entry is still in progress!
@@ -53,6 +53,8 @@ Caveat: this entry is still in progress!
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
 * [[Tom Leinster]], _J&#243;nsson-Tarski toposes_, Talk Nice 2007 ([slides](http://www.maths.ed.ac.uk/~tl/nice/jt.pdf))
+
+* [[Kimmo I. Rosenthal]], _&#201;tendues and Categories with Monic Maps_ , JPAA **22** (1981) pp.193-212.
 
 * James Worrell, _A Note on Coalgebras and Presheaves_ , Electronic Notes in Theoretical Computer Science **65** no.3 (2003) pp.1-10.
 
