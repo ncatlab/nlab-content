@@ -21,11 +21,11 @@
 ##Idea##
 
 An **&#233;tendue** (also 'etendue', or 'etendu'; from French '&#233;tendue' (fem.)- _extent_) is a [[topos]] $\mathcal{Y}$ that locally looks like the category of sheaves on a space:
->Briefly, the slogan is that $\mathcal{Y}$ is locally a topological space. (Lawvere 1976, p.129)
+>Briefly, the slogan is that $\mathcal{Y}$ is locally a topological space. ([Lawvere 1976](#Lawvere76), p.129)
 
-Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [[SGA4]] (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
+Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [SGA4](#SGA4) (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
-Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one rather directly: it has a site where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and the like.
+Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one rather directly: it has a site where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and [[stacks]], which are instrumental for the generalization to _$\infinity$-&#233;tendues_ (cf. [Carchedi 2013](#Carchedi13)).
 
 &#201;tendues play an important role in Lawvere's approach to [[cohesion]] and the distinction between [[petit and gros toposes]] where they provide one of the classes of **petit** toposes (generalized spaces). In this context, Lawvere (1989,1991) interprets the cancellative property of the site as enabling an interpretation of &#233;tendues as _categories of processes_. 
 
@@ -37,7 +37,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 ##Examples##
 
-> The first example of an &#233;tendue seems to have been the [[space of moduli]] of algebraic curves, which is prevented from being globally a space due to the action of the [[Galois groups]] within each point. Yes, something vaguely reminiscent of particle spin is going on in such spaces, and the most naked form is that for any group G, the category $\mathcal{S}^G$ is an &#233;tendue with only one point! This is easily seen from the observations that $\mathcal{S}^G/G\cong\mathcal{S}^G$ and that $G\twoheadrightarrow 1$ where the last two $G$'s denote the regular representation.      (Lawvere 1976, pp.129-130)
+> The first example of an &#233;tendue seems to have been the [[space of moduli]] of algebraic curves, which is prevented from being globally a space due to the action of the [[Galois groups]] within each point. Yes, something vaguely reminiscent of particle spin is going on in such spaces, and the most naked form is that for any group G, the category $\mathcal{S}^G$ is an &#233;tendue with only one point! This is easily seen from the observations that $\mathcal{S}^G/G\cong\mathcal{S}^G$ and that $G\twoheadrightarrow 1$ where the last two $G$'s denote the regular representation.      ([Lawvere 1976](#Lawvere76), pp.129-130)
 
 * The [[Sierpinski topos]] $\mathcal{S}^{\cdot\rightarrow\cdot}$, as the sheaf topos on the [[Sierpinski space]], is an &#233;tendue.
 
@@ -58,13 +58,15 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 ##Related Concepts##
 * [[localic topos]]
 * [[petit topos]]
-
+* [[Deligne-Mumford stack]]
 
 
 
 ##References
 
-* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas (SGA4)_, Springer LNM vol.269 (1972), pp.479-484.
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM vol.269 (1972), pp.479-484.
+
+* {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
 
 * [[Peter Freyd|P. J. Freyd]], A. Scedrov , _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
@@ -78,7 +80,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * [[F. William Lawvere]], _Variable sets etendu and variable structure in topoi_ , Lecture notes University of Chicago 1975.
 
-* [[F. William Lawvere]], _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), Algebra, Topology and Category Theory, Academic Press New York 1976. 
+* {#Lawvere76}[[F. William Lawvere]], _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), Algebra, Topology and Category Theory, Academic Press New York 1976. 
 
 * [[F. William Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
 
