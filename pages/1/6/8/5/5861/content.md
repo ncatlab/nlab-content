@@ -1725,7 +1725,7 @@ An ordinary [[topological groupoid|topological]]/[[Lie groupoid|Lie]] [[étale g
 Let $i : \mathbf{H} \hookrightarrow \mathbf{H}_{th}$
 be an infinitesimal cohesive neighbourhood for differential cohesion.
 
-An object $X \in \mathbf{H}$ is called a **cohesive &#233;tale $\infty$-groupoid** if there exists an [[atlas]] $X_0 \to X$ -- an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] out of a [[0-truncated]] object -- which is also a [[formally étale morphism]] def. \ref{FormalRelativeSmoothnessByCanonicalMorphism}.
+An object $X \in \mathbf{H}$ is called a **cohesive [[étale ∞-groupoid]]** if there exists an [[atlas]] $X_0 \to X$ -- an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] out of a [[0-truncated]] object -- which is also a [[formally étale morphism]] def. \ref{FormalRelativeSmoothnessByCanonicalMorphism}.
 
 
 =--
