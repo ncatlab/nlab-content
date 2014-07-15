@@ -78,6 +78,32 @@ In the literature one finds, roughly speaking, two different approaches to the s
 The [[groupoid convolution algebra]] $C^\ast(\mathcal{G}_\bullet)$ of a [[Lie groupoid]] with its canonical [[atlas]] remembered has the structure of a [[Hopf algebroid]]. 
 In ([Mr&#269;un 99](#Mrcun99), [Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun07)) &#233;tale Lie groupoids are characterized dually by their Hopf algebroids  (a refinement of [[Gelfand duality]] to [[noncommutative topology]]).
 
+### Characterization by site of manifolds and &#233;tale maps
+
++-- {: .num_prop}
+###### Proposition
+
+The [[2-category]] of [[étale stacks]] with [[étale maps]] between them is equivalent to the [[2-topos]] over the [[site]] of [[smooth manifolds]] with [[local diffeomorphisms]] between them
+
+=--
+
+([Carchedi 12, therem 3.4, corollary 3.3](Carchedi12))
+
++-- {: .num_prop}
+###### Proposition
+
+A [[smooth stack]] is an &#233;tale stack precisely if it is in the [[essential image]] of the [[left Kan extension]] along the non-full inclusion of [[sites]]
+
+$$
+  SmthMfd^{et} \to SmthMfd
+$$
+
+of [[smooth manifolds]], with [[local diffeomorphisms]] on the left and all [[smooth functions]] on the right.
+
+=--
+
+([Carchedi 12, therem 3.5, corollary 3.4](Carchedi12))
+
 
 
 ## Examples
@@ -119,11 +145,14 @@ The relation between &#233;tale groupoid and [[foliations]] is analyzed in detai
 
 See also at _[[orbifold]]_ for basic and introductory literature. 
 
-Further discussion of &#233;tale groupoids and their properties is for instance in
+Further discussion of &#233;tale groupoids and their properties includes
 
 * [[Marius Crainic]], [[Ieke Moerdijk]], _A Homology Theory for &#201;tale groupoids_ ([journal](http://www.math.uiuc.edu/K-theory/0284/))
 
 * [[David Carchedi]], _Sheaf Theory for &#201;tale Geometric Stacks_ ([arXiv:1011.6070](http://arxiv.org/abs/1011.6070))
+
+* {#Carchedi12} [[David Carchedi]], section 2.2, section 3 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
   
 
 The [[groupoid convolution algebra|convolution]]-[[Hopf algebroids]] of &#233;tale Lie groupoids have been characterized in
@@ -155,6 +184,4 @@ The [[groupoid convolution algebra|convolution]]-[[Hopf algebroids]] of &#233;ta
 
 [[!redirects etale stack]]
 [[!redirects etale stacks]]
-
-
 
