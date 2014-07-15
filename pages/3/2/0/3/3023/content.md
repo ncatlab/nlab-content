@@ -114,6 +114,14 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 * The [[uniformization theorem]], which partially classifies Riemann surfaces.
 
+### Homotopy type
+
+A [[compact topological space|compact]] Riemann surface is a [[homotopy 1-type]].
+
+([MO discussion](http://mathoverflow.net/a/93340/381))
+
+The [[fundamental groupoid]] of a hyperbolic Riemann surface is a [[Fuchsian group]].
+
 ### Function field analogy
 
 [[!include function field analogy -- table]]
