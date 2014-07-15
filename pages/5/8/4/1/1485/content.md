@@ -31,7 +31,7 @@ To give a reasonably general notion of manifold, we first specify the kinds of c
 +-- {: .num_defn #Pseudogroup}
 ###### Definition
 
-A **pseudogroup** on a [[topological space]] (or [[locale]]) $X$ is a [[groupoid]] $G$ each of whose [[objects]] is an [[open subset]] of $X$, and whose [[morphisms]] are [[homeomorphisms]] between such open sets, satisfying the following conditions:
+A **[[pseudogroup]]** on a [[topological space]] (or [[locale]]) $X$ is a [[groupoid]] $G$ each of whose [[objects]] is an [[open subset]] of $X$, and whose [[morphisms]] are [[homeomorphisms]] between such open sets, satisfying the following conditions:
 
 * The objects [[cover]] $X$. (Equivalently, in light of the last axiom, every open set of $X$ is an object of $G$.)
 * If $g: V \to W$ belongs to $G$ and $U \subseteq V$ is an open set, then the restriction $g|_U: U \to g(U)$ belongs to $G$. (Equivalently, in light of the other axioms, every inclusion map $id|_U: U \to V$ belongs to $G$.)
@@ -58,7 +58,7 @@ For the sake of concreteness, the reader may as well focus on the case $X = \mat
 
 ### Charts
 
-Let $G$ be a pseudogroup on $X$. 
+Let $G$ be a [[pseudogroup]] on $X$. 
 
 +-- {: .num_defn #Chart}
 ###### Definition
