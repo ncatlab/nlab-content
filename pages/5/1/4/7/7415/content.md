@@ -10,7 +10,9 @@ This was a document produced by [[Alexander Grothendieck]] that outline a series
 
 1. The Proposal and enterpise ("Envoi").
 
-1.     "Teichm&#252;ller's Lego-game and the Galois group of Q over Q" ("Un jeu de "Lego-Teichm&#252;ller" et le groupe de Galois de Q sur Q").
+1.     "Teichm&#252;ller's Lego-game and the [[Galois group]] of Q over Q" ("Un jeu de "Lego-Teichm&#252;ller" et le groupe de Galois de Q sur Q").
+
+       (on the relation between the [[absolute Galois group]] and the [[Grothendieck-Teichmüller group]])
 
 1.    Number fields associated with "[[children's drawings]]". ("Corps de nombres associ&#233;s &#224; un [[dessin d'enfant]]").
 
@@ -38,3 +40,7 @@ towards a so-called "tame" topology.
 * A copy of the original version is [here](http://people.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf).
 
 * An English translation is [here](http://matematicas.unex.es/~navarro/res/esquisseeng.pdf).
+
+
+* [MO discussion](http://mathoverflow.net/q/24900/381)
+
