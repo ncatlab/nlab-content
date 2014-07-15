@@ -101,6 +101,8 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
   * [[differentiable stack]]
 
+  * [[complex analytic stack]]
+
 * [[geometric ∞-stack]]
 
 ## References
