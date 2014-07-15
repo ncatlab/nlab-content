@@ -22,7 +22,7 @@
 The _Narasimhan&#8211;Seshadri theorem_ ([Narasimhan-Seshadri 65](#NarasimhanSeshadri65)) identifies certain 
 [[moduli spaces of flat connections]] over a ([[compact topological space|compact]]) [[Riemann surface]] $\Sigma$ with ([[compact topological space|compact]]) [[complex manifolds]] of [[stable vector bundles|stable]] [[holomorphic vector bundles]] over $\Sigma$.
 
-For the special case of [[line bundles]] this may be viewed as a special case of the _[[Hodge-Maxwell theorem]]_.
+For the special case of [[line bundles]] this may be viewed as a special case of the _[[Hodge-Maxwell theorem]]_, also of Deligne's characterization of the [[intermediate Jacobian]], see there at _[Examples -- Picard variety](intermediate+Jacobian#ExamplePicard)_. The analogue of the theorem for higher dimensional [[complex manifolds]] is the _[[Kobayashi-Hitchin correspondence]]_. The special case of that for [[Kähler manifolds]] is the _[[Donaldson-Uhlenbeck-Yau theorem]]_.
 
 ## Statement
 
@@ -72,6 +72,7 @@ The original article is
 and another proof appeared in 
 
 * [[Simon Donaldson]], _A new proof of a theorem of Narasimhan and Seshadri_,  J. Differential Geom. Volume 18, Number 2 (1983), 269-277. ([EUCLID](http://projecteuclid.org/euclid.jdg/1214437664))
+
 
 A good general survey and re-discussion is in 
 
