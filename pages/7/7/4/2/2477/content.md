@@ -33,6 +33,8 @@ Geometric stacks for the following choices of sites $C$ are called
 
 * for $C = $ [[CRing]]${}^{op}$ -- [[algebraic stack]];
 
+* for $C = $ [[complex manifold|CplxMfd]] -- [[complex analytic stack]];
+
 
 ## Definition
 
