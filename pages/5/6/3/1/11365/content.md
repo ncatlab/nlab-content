@@ -30,6 +30,8 @@ The _projective linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some 
 
 * [[special linear group]]
 
+* [[Fuchsian group]]
+
 ## References
 
 Wikipediam _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
