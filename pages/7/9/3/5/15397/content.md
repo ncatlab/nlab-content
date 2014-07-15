@@ -40,10 +40,19 @@ Commonly used choices for $X$ in def. \ref{Pseudogroup} include
 
 The concept was introduced in
 
-* [[Élie Cartan]], _Sur la structure des groupes infinis de transformation (suite)_ Ann. Sci. &#201;cole Norm. Sup. (3), 22:219&#8211;308, 1905.
+* {#Cartan05} [[Élie Cartan]], _Sur la structure des groupes infinis de transformation (suite)_ Ann. Sci. &#201;cole Norm. Sup. (3), 22:219&#8211;308, 1905 ([Numdam](http://www.numdam.org/item?id=ASENS_1904_3_21__153_0))
 
-Discussion in a context of [[étale groupoids]]/[[étale stacks]] is in 
+* {#Cartan09} [[Élie Cartan]], _Les groupes de transformations continus, infinis, simples_. Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure 26: 93&#8211;161, 1909 ([Numdam](http://www.numdam.org/item?id=ASENS_1909_3_26__93_0))
+
+
+* {#Golab39} St. Golab, _&#220;ber den Begriff der "Pseudogruppe von Transformationen"_ Mathematische Annalen 116: 768&#8211;780 (1939)
+
+Discussion in the broader context of [[étale groupoids]]/[[étale stacks]] is in 
 
 * {#Carchedi12} [[David Carchedi]], _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
+See also
+
+* Wikipedia, _[Pseudogroup](http://en.wikipedia.org/wiki/Pseudogroup)_
 
 [[!redirects pseudogroups]]
