@@ -190,6 +190,7 @@ $$
   Maps_{hol}(\Sigma, X) \longrightarrow Maps_{top}(\Sigma, X)
 $$
 
+
 from the [[mapping space]] of [[holomorphic functions]] to that of [[continuous functions]] (both equipped with the [[compact-open topology]]) is a [[weak homotopy equivalence]].
 
 =--
@@ -248,12 +249,18 @@ The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for
 
 * [[smooth ∞-groupoid]]
 
+* [[complex analytic stack]]
+
+* [[holomorphic line n-bundle]]
+
 ## References
 
 
 * {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
+
+* [[Jacob Lurie]], sections 11 and 12 of _[[Closed Immersions]]_
 
 * {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
  
@@ -264,3 +271,9 @@ The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for
 
 [[!redirects ComplexAnalytic∞Grpd]]
 [[!redirects ComplexAnalyticInfinityGrpd]]
+
+
+[[!redirects complex analytic ∞-stack]]
+[[!redirects complex analytic ∞-stacks]]
+[[!redirects complex analytic infinity-stack]]
+[[!redirects complex analytic infinity-stacks]]
