@@ -1,11 +1,13 @@
 
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Grothendieck-Teichm&#252;ller tower_ construction involves [[moduli spaces]] outlined in [[Grothendieck]]'s _Esquisse d'un programme_ and then developed by [[Vladimir Drinfel'd]] and others. It involves the [[Teichmüller groupoids]] which are the [[fundamental groupoids]] of [[moduli stacks]] of [[genus]] $g$ [[curves]] with $n$ points removed. It is a basis for the definition of the _Grothendieck-Teichm&#252;ller group_ which is by the definition inertia-preserving [[automorphism group]] of the Grothendieck-Teichm&#252;ller tower. 
+The _Grothendieck-Teichm&#252;ller tower_ construction involves [[moduli spaces]] outlined in [[Grothendieck]]'s _[[Esquisse d'un programme]]_ and then developed by [[Vladimir Drinfel'd]] and others. It involves the [[Teichmüller groupoids]] which are the [[fundamental groupoids]] of [[moduli stacks]] of [[genus]] $g$ [[curves]] with $n$ points removed. It is a basis for the definition of the _Grothendieck-Teichm&#252;ller group_ which is by the definition inertia-preserving [[automorphism group]] of the Grothendieck-Teichm&#252;ller tower. 
 
 ## Properties
 
