@@ -46,8 +46,11 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 The [[syntax - semantics duality]] in first order logic is discussed in 
 
-* [[Steve Awodey]], [[Henrik Forssell]], _First-Order Logical Duality_ ([arXiv:1008.3145](http://arxiv.org/abs/1008.3145))
+* [[Steve Awodey]], [[Henrik Forssell]], _First-Order Logical Duality_ .([arXiv:1008.3145](http://arxiv.org/abs/1008.3145))
 
+On the historical development:
+
+* Jos&#233; Ferreir&#243;s, _The Road to Modern Logic - An Interpretation_ , The Bulletin of Symbolic Logic **7** no. 4 (2001) pp.441-484. ([draft](http://personal.us.es/josef/BSL0704-001.pdf))
 
 [[!redirects Predicate logic]]
 [[!redirects predicate logic]]
