@@ -31,6 +31,46 @@ The Haefliger groupoid is naturally a [[topological groupoid]]. As such it is an
 
 The Haefliger groupoid classifies [[foliations]]. See at _[[Haefliger theorem]]_.
 
+### Universal characterization
+
+Consider in the following the union $\mathcal{H}$ of Haefliger groupoids over all $n$.
+
++-- {: .num_prop #HIsTerminalInEtaleEtale}
+###### Proposition
+
+The Haefliger stack is a [[terminal object]] in the [[2-category]] of [[étale stacks]] on the site of [[smooth manifolds]] with [[étale morphisms]] between them. 
+
+=--
+
+([Carchedi 12, theorem 3.3.](#Carchedi12))
+
+### Sheaves and stacks on the Haefliger groupoid.
+
+Consider in the following the union $\mathcal{H}$ of Haefliger groupoids over all $n$.
+
++-- {: .num_prop #HIsTerminalInEtaleEtale}
+###### Proposition
+
+The [[category of sheaves]] over $\mathcal{H}$ is equivalently the category of sheaves on the [[site]] of [[smooth manifolds]] with [[local diffeomorphism]] between them. 
+
+=--
+
+([Carchedi 12, theorem 3.1](#Carchedi12)).
+
++-- {: .num_prop }
+###### Proposition
+
+The [[2-topos]] over the Haefliger stack is equivalent to the 2-topos over the site $SmthMfd^{et}$ of smooth manifolds with local diffeomorphisms between them:
+
+$$
+  St(\mathcal{H}) \simeq St(SmthMfd^{et})
+$$
+
+=--
+
+([Carchedi 12, 3.2](#Carchedi12)).
+
+
 ## References
 
 Original articles include
@@ -42,6 +82,11 @@ Original articles include
 A textbook account is in 
 
 * [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+
+Discussion in a broader context of [[étale stacks]] is in
+
+* {#Carchedi12} [[David Carchedi]], section 2.2, section 3 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
 
 See also
 
