@@ -9,7 +9,7 @@
 +-- {: .num_defn #Pseudogroup}
 ###### Definition
 
-A **[[pseudogroup]]** on a [[topological space]] (or [[locale]]) $X$ is a [[groupoid]] $G$ each of whose [[objects]] is an [[open subset]] of $X$, and whose [[morphisms]] are [[homeomorphisms]] between such open sets, satisfying the following conditions:
+A **[[pseudogroup]]** (also called transformation pseudogroup) on a [[topological space]] (or [[locale]]) $X$ is a [[groupoid]] $G$ each of whose [[objects]] is an [[open subset]] of $X$, and whose [[morphisms]] are [[homeomorphisms]] between such open sets, satisfying the following conditions:
 
 * The objects [[cover]] $X$. (Equivalently, in light of the last axiom, every open set of $X$ is an object of $G$.)
 * If $g: V \to W$ belongs to $G$ and $U \subseteq V$ is an open set, then the restriction $g|_U: U \to g(U)$ belongs to $G$. (Equivalently, in light of the other axioms, every inclusion map $id|_U: U \to V$ belongs to $G$.)
@@ -32,9 +32,12 @@ Commonly used choices for $X$ in def. \ref{Pseudogroup} include
 
 =--
 
+More generally, an abstract pseudogroup is a sub-[[inverse semigroup]] of the inverse semigroup of partial bijections of a set (or, even more generally, local automorphisms of an object in more general context).
+
 ## Related concepts
 
 * [[manifold]]
+* [[inverse semigroup]]
 
 ## References
 
@@ -55,4 +58,9 @@ See also
 
 * Wikipedia, _[Pseudogroup](http://en.wikipedia.org/wiki/Pseudogroup)_
 
+Abstract pseudogroups are studied in [[inverse semigroup]] literature, e.g.
+
+* [[Mark V. Lawson]], _Inverse semigroups: the theory of partial symmetries_, World Scientific, 1998.
+
 [[!redirects pseudogroups]]
+[[!redirects pseudogroup of transformations]]
