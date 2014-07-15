@@ -104,7 +104,7 @@ In particular, we can apply the "exact completion" operation to the syntactic ca
 In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos]], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
 
 
-### Functorial definition
+### Functorial definition {#FunctorialDefinition}
 
 We can approach the same idea by starting instead from the notions of [[Grothendieck topos]] and [[geometric morphism]].  The following approach is described in B4.2 of the [[Elephant]].
 
