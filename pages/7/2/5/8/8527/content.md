@@ -46,11 +46,20 @@ Review includes ([Schumacher, section 2](#Schumacher))
 
 ## References
 
+The original articles are
+
+* {#Teichmuller39} [[Oswald Teichmüller]], _Extremale quasikonforme Abbildungen und quadratische Differentiale_, Preu&#223;ische Akademie der Wissenschaften, nat. Kl. 22 1-197 (1939)
+
+
 * {#Teichmuller44} [[Oswald Teichmüller]], _Ver&#228;nderliche Riemannsche Fl&#228;chen_, Deutsche Math. 7 344-359 (1944)
+
+The complexstructure on Teichm&#252;ller spaces was fully established in
 
 * {#Ahlfors60} L. Ahlfors, _The complex analytic structure of the space of closed Riemann surfaces_, in _Analytic Functions_, Princeton University Press (1960)
 
 * {#Bers60} L. Bers, _Spaces of Riemann surfaces_, Proc. Int. Cong. of Mathematics 1958, Cambridge 1960
+
+Reviews include
 
 * {#Schumacher} Georg Schumacher, _The theory of Teichm&#252;ller spaces -- A view towards moduli spaces of K&#228;hler manifolds_ ([pdf](http://www.mathematik.uni-marburg.de/~schumac/ges.pdf))
 
@@ -69,5 +78,4 @@ Review includes ([Schumacher, section 2](#Schumacher))
 
 [[!redirects Teichmüller groupoid]]
 [[!redirects Teichmüller groupoids]]
-
 
