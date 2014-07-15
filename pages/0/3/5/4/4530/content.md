@@ -50,7 +50,7 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 * [[Arakelov geometry]]
 
-* [[higher complex analytic geometry]]
+* [[higher complex analytic geometry]], [[derived complex analytic space]]
 
 ## References
 
