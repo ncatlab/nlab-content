@@ -1265,6 +1265,17 @@ $$
 $$
 commute up to [[homotopy]] 
 (see the section on homotopies for more on that).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+These homotopy pullbacks present indeed the correct 
+[[(infinity,1)-limits]], this is the content of 
+prop. \ref{PullbacksAlongFibrationsAreCorrectHomotopyPullbacks}
+below.
+
 =--
 
 +-- {: .num_lemma }
@@ -2217,7 +2228,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CocycleCategoriesPresentDerivedHomSpaces}
 ###### Proposition
 
 Write $L^H_{we} \mathcal{C}$ for the [[simplicial localization]] of the category of fibrant objects $\mathcal{C}$ at its weak equivalences (hence essentially the [[(infinity,1)-category]] that it presents). Then for all objects $X,A \in Obj(\mathcal{C})$ the canonical maps
@@ -2236,8 +2247,22 @@ of [[simplicial sets]] (on the left the [[nerves]] of the cocycle categories of 
 
 In other words, $N Cocycle(X,A) \simeq_{whe} N wCocycle(X,A)$ is a model for the correct [[derived hom space]].
 
-From this it follows for instance that the [[homotopy fiber products]] in $\mathcal{C}$ as defined in def. \ref{HomotopyFiberProducts} present indeed the correct [[(infinity,1)-limits]]. (...)
+From this it follows for instance that 
 
++-- {: .num_prop #PullbacksAlongFibrationsAreCorrectHomotopyPullbacks}
+###### Proposition
+
+The [[homotopy fiber products]] in $\mathcal{C}$ as defined in def. \ref{HomotopyFiberProducts} present indeed the correct [[(infinity,1)-limits]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that for each object $X$ the 2-functor $N Cocycle(X,-) \colon \mathcal{C} \to sSet$ of def. \ref{CocycleCategories} sends fibrations
+to [[Kan fibrations]] of simplicial sets (the [[horn]]-filling condition comes down to factoring maps through the given fibration, which is possible by pullback along the fibration). Moreover, it is evident that $N Cocycle(X,-)$ preserves ordinary [[pullbacks]]. This means that $N Cocycle(X,-)$ takes pullbacks along a fibration in $\mathcal{C}$ to pullbacks in [[sSet]] one of whose maps is a [[Kan fibration]]. Since the standard [[model structure on simplicial sets]] $sSet_{Quillen}$ is a [[right proper model category]], this means that these are [[homotopy pullbacks]] (as discussed there) in $sSet_{Quillen}$. Finally by prop. \ref{CocycleCategoriesPresentDerivedHomSpaces} this means that the [[derived hom-space]] functor $\mathbb{R}Hom(X,-)$ sends pullbacks along fibrations to [[homotopy pullbacks]] of the correct derived hom-spaces. This means (as discussed for instance at _[[homotopy Kan extension]]_) that the original pullbacks in $\mathcal{C}$ are the correct homotopy pullbacks.
+
+=--
 
 ## Application in cohomology theory 
 
