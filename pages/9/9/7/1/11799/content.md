@@ -1,6 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
 
-A  _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection]] and whose set-theoretic [[inverse]] is also holomorphic.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A  _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection]] on the underlying [[sets]] and whose set-theoretic [[inverse]] is also holomorphic.
+
+## Properties
+
+### Between complex manifolds
+
+Any non-constant [[surjection|surjective]] [[holomorphic map]] between [[connected topological space|connected]] [[compact topological space|compact]] [[complex manifolds]] of equal [[dimension]] is a ramified finite-sheet [[covering space|covering]]. If this map is in particular [[bijection|bijective]], then there is only one sheet, and thus it is a biholomorphism.
+
+([MO discussion](http://mathoverflow.net/a/44950/381))
+
+## References
+
+* Eric Bedford, _What is... a Biholomorphic Mapping_, Notices of the AMS,volume 59, number 6 ([pdf](http://www.ams.org/notices/201206/rtx120600812p.pdf))
 
 [[!redirects biholomorphic functions]]
 
@@ -18,4 +46,3 @@ A  _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection
 
 [[!redirects bi-holomorphism]]
 [[!redirects bi-holomorphisms]]
-
