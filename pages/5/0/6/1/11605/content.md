@@ -675,7 +675,7 @@ is the connected component of the [[Picard variety]] of $\Sigma$.
 =--
 
 Alternatively, prop. \ref{J1IsPicard}
-follows with theorem \ref{DeligneTheorem} as follows:
+derives from theorem \ref{DeligneTheorem} as follows:
 
 +-- {: .proof}
 ###### Proof
@@ -687,7 +687,7 @@ Since $k = 0$ then $\mathbf{B}^2\mathbb{Z}(k+1)_D\simeq \mathbf{B}\mathbb{G}_m$ 
 +-- {: .num_remark #GeneralizationToModuliOfGPrincipalConnections}
 ###### Remark
 
-There is a [[non-abelian cohomology|non-abelian]] generalization of this statement that the [[moduli space of flat connections|moduli space of]] real bundles with flat connections is equivalently a moduli space of complex-analytic bundles, but without connection. This is a corollary of the [[Donaldson-Uhlenbeck-Yau theorem]], stated as ([Scheinost-Schottenloher 96, corollary 1.16](#ScheinostSchottenloher96)):
+There is a [[non-abelian cohomology|non-abelian]] generalization of this statement that the [[moduli space of flat connections|moduli space of]] real bundles with flat connections is equivalently a moduli space of complex-analytic bundles, but without connection. This is a corollary of the [[Narasimhan-Seshadri theorem]] (for $dim_{\mathbb{C}}\Sigma = 1$) or of the [[Donaldson-Uhlenbeck-Yau theorem]] (for [[Kähler manifolds]] $\Sigma$) and generally of the [[Kobayashi-Hitchin correspondence]] (for arbitrary complex $\Sigma$), stated for instance as ([Scheinost-Schottenloher 96, corollary 1.16](#ScheinostSchottenloher96)):
 
 the moduli space of [[flat connection|flat]] [[special unitary group|SU(n)]]-[[principal connections]] on $\Sigma$ is equivalently the moduli space of [[special linear group|SL(n,C)]]-[[holomorphic vector bundles]] which have vanishing [[Chern classes]] and are [[stable vector bundle|semi-stable]].
 
