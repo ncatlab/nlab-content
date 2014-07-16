@@ -338,7 +338,7 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
-### Fields medal work related to string theory
+### Fields medal (and other) work related to string theory
  {#FieldMedalWork}
 
 Pure [[mathematics]] work which is closely related string theory and was awared with a [[Fields medal]] includes the following.
@@ -368,6 +368,10 @@ Pure [[mathematics]] work which is closely related string theory and was awared 
 [[Grigori Perelman]], 2006
 
 * [[Ricci flow]] for string [[sigma-model]] in [[dilaton gravity]] background
+
+In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proof]] ([Madsen-Weiss 02](Mumford+conjecture#MadsenWeiss02)) of the [[Mumford conjecture]]:
+
+> These tools $[$ used in the proof $]$ are all rather old, known for at least twenty years, and one may wonder why they have not before been put to use in connection with the Riemann moduli space. Maybe we lacked the inspiration that comes from the renewed interaction with physics, exemplified in conformal field theories.
 
 
 
