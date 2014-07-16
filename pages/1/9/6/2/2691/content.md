@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -220,8 +220,8 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 
 #### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
 
-+-- {: .un_prop }
-###### Observation
++-- {: .num_prop }
+###### Proposition
 
 
 The [[stuff, structure, property|forgetful functor]]
@@ -234,7 +234,7 @@ from (graded-)commutative [[dg-algebra]]s to dg-algebras is the [[right adjoint]
 
 $$
   Ab
-  :
+  \colon
   dgAlg 
    \stackrel{\leftarrow}{\to}
   CdgAlg
@@ -252,10 +252,10 @@ The forgetful functor clearly preserves fibrations and cofibrations. It has a [[
 =--
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
-Let the ground [[ring]] $k$ be a [[field]] of characteristic 0. Then every [[dg-algebra]] $A$ which has the structure of an [[algebra over an operad|algebra over]] the [[E-k-operad|E-∞ operad]] has a [[dg-algebra]] morphism $A \to A_c$ to a commutative dg-algebra $A_c$  which is
+Let the ground [[ring]] $k$ be a [[field]] of [[characteristic zero]]. Then every [[dg-algebra]] $A$ which has the structure of an [[algebra over an operad|algebra over]] the [[E-k-operad|E-∞ operad]] has a [[dg-algebra]] morphism $A \to A_c$ to a commutative dg-algebra $A_c$  which is
 
 * a morphism of [[E-k-operad|E-∞ algebras]] (where $A_c$ has the obvious [[E-k-operad|E-∞ algebras]] structure)
 
@@ -263,16 +263,17 @@ Let the ground [[ring]] $k$ be a [[field]] of characteristic 0. Then every [[dg-
 
 =--
 
+This is in ([Kriz-May 95, II.1.5](#KrizMay95)).
+
 So this says that the weak equivalence classes of the commutative dg-algebras in the model category of all dg-algebras already exhaust the most general non-commutative but  homotopy-commutative dg-algebras.
 
-+-- {: .proof}
-###### Proof
++-- {: .num_remark #HomotopyFaithfulnessOfforgettingCommutativity}
+###### Remark
 
-This is in II.1.5 of 
-
-* [[Igor Kriz]] and [[Peter May]], _Operads, algebras, modules and motives_ , Ast&#233;risque No 233 (1995)
+Discussion of a restricted kind of homotopy-faithfulness of the forgetful functor from the homotopy theory of commutative to not-necessarily commutative dg-algebras is in ([Amrani 14](#Amrani14)).
 
 =--
+
 
 
 ## Unbounded dg-algebras {#Unbounded}
@@ -1086,13 +1087,20 @@ The _commutative_ product on the dg-algebra of the higher order Hochschild compl
 * [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _A Chen model for mapping spaces and the surface product_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.2231v1.pdf))
 {#GinotTradlerZeinalianChenModel}
 
-The relation to [[E-infinity algebras]] is discussed in section 7.1 of 
+The relation to [[E-infinity algebras]] is discussed in  
 
-* [[Jacob Lurie]], _Higher algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf))
- {#Lurie}
+* {#KrizMay95} [[Igor Kriz]] and [[Peter May]], _Operads, algebras, modules and motives_ , Ast&eacute;risque No 233 (1995)
 
+* {#Lurie} [[Jacob Lurie]], section 7.1 of _Higher algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf))
+ 
 
-For more see [[model structure on dg-algebras over an operad]].
+The relation between commutative and non-commutative dgas is further discussed in 
+
+* {#Amrani14} [[Ilias Amrani]], _Comparing commutative and associative unbounded differential graded algebras over Q from homotopical point of view_ ([arXiv:1401.7285](http://arxiv.org/abs/1401.7285))
+
+* {#Amrani14b} [[Ilias Amrani]], _Rational homotopy theory of function spaces and Hochschild cohomology_ ([arXiv:1406.6269](http://arxiv.org/abs/1406.6269))
+
+For more see also at _[[model structure on dg-algebras over an operad]]_.
 
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
