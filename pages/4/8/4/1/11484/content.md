@@ -69,6 +69,8 @@ The [[formal group]] associated with a nodal cubic curve is of [[height of a for
 
 * [[cusp]]
 
+* [[augmented Teichmüller space]]
+
 ## References
 
 Discussion over the [[complex numbers]] is in 
