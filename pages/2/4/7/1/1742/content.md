@@ -53,6 +53,7 @@ $
 
 +-- {: .query}
 The RHS of the above diagrams have L and R interchanged.
+Furthermore, the LHS has C as target of L instead of D.
 =--
 
 
