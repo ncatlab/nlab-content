@@ -17,15 +17,15 @@
 
 A _modular tensor category_ is roughly a [[category]] that encodes the _topological_ structure underlying a rational 2-dimensional [[conformal field theory]]. In other words, it is a basis-independent formulation of _Moore-Seiberg data_.
 
-It is in particular a [[fusion category]] this is also a [[ribbon category]] and such that "modularity operation" is non-degenerate (this is what the name "modular tensor category" comes from):
+It is in particular a [[fusion category]] that is also a [[ribbon category]] such that the "modularity operation" is non-degenerate (this is what the name "modular tensor category" comes from):
 
-this means that for $i,j \in I$ indices for representative of simple objects $U_i$, $U_j$, the matrix 
+this means that for $i,j \in I$ indices for representatives of simple objects $U_i$, $U_j$, the matrix 
 $$
   (s^{i j}) = (U_i-circle threading through the U_j-circle)
 $$
 is non-degenerate.
 
-Here on the right what is means is the diagram in the modular tensor category made from the identityie morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks lik a fuigure-8 with one circle threading through the other, and this diagram is interpreted as an element in the endormorphism space of the tensor unit object, which in turn is canonically identified with the [[ground field]].
+Here on the right what is meant is the diagram in the modular tensor category made from the identity morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks like a figure-8 with one circle threading through the other, and this diagram is interpreted as an element in the endormorphism space of the tensor unit object, which in turn is canonically identified with the [[ground field]].
 
 In the description of 2-dimensional [[conformal field theory]] in the [[FFRS-formalism]] it is manifestly this kind of modular diagram that encodes the torus partition function of the CFT. This explains the relevance of modular tensor categories in the description of [[conformal field theory]].
 
@@ -65,7 +65,7 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 ## Examples
 
-Modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] (see there for more details). A databas of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
+Modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] (see there for more details). A database of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
 
 ## References
 
