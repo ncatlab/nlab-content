@@ -130,10 +130,6 @@ There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]
 
 * [[rigidification of a stack]]
 
-[[!redirects outer automorphism group]]
-[[!redirects outer automorphism groups]]
-
-[[!redirects outer automorphisms]]
 [[!redirects automorphism ∞-group]]
 [[!redirects automorphism ∞-groups]]
 
