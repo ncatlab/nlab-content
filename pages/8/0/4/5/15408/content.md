@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[Riemannian geometry]] of (usually 2-[[dimension|dimensional]]) [[manifolds]] with constant negative [[scalar curvature]].
+
+## Related concepts
+
+* [[Euclidean geometry]]
+
+* [[Riemannian geometry]]
+
+## References
+
+* [[James Cannon]], William Floyd, Richard Kenyon, Water Parry, _Hyperbolic geometry_, in _Flavors of geometry_, MSRI Publications Volume 31, 1997 ([pdf](http://www.math.ecnu.edu.cn/~lfzhou/others/cannon.pdf))
+
+* Wikipedia, _[Hyperbolic geometry](http://en.wikipedia.org/wiki/Hyperbolic_geometry)_
+
+[[!redirects hyperbolic metric]]
+[[!redirects hyperbolic metrics]]
