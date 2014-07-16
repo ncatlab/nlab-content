@@ -53,7 +53,7 @@ An _almost complex structure_ on a [[smooth manifold]] $X$ of [[dimension]] $2 n
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #InTermsOfSmoothStacks}
 ###### Remark
 
 In terms of modulating maps of bundles into their [[smooth infinity-groupoid|smooth]] [[moduli stacks]], this means that an almost complex structure is a lift in the following [[diagram]] in [[Smooth∞Grpd]]:
@@ -154,7 +154,10 @@ and in
 * Yurii M. Burman, _Relative moduli spaces of complex structures: an example_ ([arXiv:math/9903029](http://arxiv.org/abs/math/9903029))
 
 [[!redirects complex structures]]
+
 [[!redirects almost complex structure]]
+[[!redirects almost complex structures]]
+
 
 [[!redirects almost complex manifold]]
 [[!redirects almost complex manifolds]]
