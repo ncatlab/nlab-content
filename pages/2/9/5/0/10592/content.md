@@ -7,6 +7,8 @@
 
 * [[Beilinson conjecture]]
 
+* [[Mumford conjecture]]
+
 ## Related concepts
 
 * [[folklore]]
