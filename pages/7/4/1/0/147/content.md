@@ -199,7 +199,7 @@ Other classes of sites are listed in the following.
 
   * [[model site]], [[simplicial site]]
 
-* [[morphism of sites]]
+* [[morphism of sites]], [[covering lifting property]]
 
 
 ## References 
