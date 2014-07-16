@@ -96,12 +96,32 @@ A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[compl
 
 =--
 
+
 ## Properties
 
 ### Characterizations of integrability
 
 The _[[Newlander-Nirenberg theorem]]_ states that an almost complex structure $J$ on a smooth manifold is integrable (see also at _[[integrability of G-structures]]_) precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
 
+
+### On 2-dimensional manifolds
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[Riemannian metric]] on am [[orientation|oriented]] 2-[[dimension|dimensional]] [[manifold]] induces an almost complex structure given by forming orthogonal tangent vectors.
+
+=--
+
++-- {: .num_prop #In2dAnyAlmostComplexStructureIsIntegrable}
+###### Proposition
+
+Every almost complex structure on a 2-[[dimension|dimensional]] [[manifold]] is integrable, hence is a complex structure.
+
+=--
+
+In the special case of [[real analytic manifolds]] this fact was known to [[Carl Friedrich Gauss]]. For the general case see for instance [Audin, remark 3 on p. 47](#Audin).
 
 
 ### Relation to $Spin^c$-structures
@@ -131,6 +151,10 @@ See at _[[spin^c-structure]]_ for more.
 |--|--|--|
 [[complex structure]] | [[Hermitian structure]] | [[Kähler structure]] |
 
+### Moduli stacks of complex structrues
+
+One may consider the [[moduli stack of complex structures]] on a given manifold. For 2-dimensional manifolds these are famous as the Riemann [[moduli stacks of complex curves]]. They may also be expressed as moduli stacks of almost complex structures, see [here](moduli+space+of+curves#OverTheComplexNumbers).
+
 ## Related concepts
 
 * [[stable complex structure]]
@@ -140,6 +164,9 @@ See at _[[spin^c-structure]]_ for more.
 * [[quaternionic structure]]
 
 ## References
+
+* {#Audin} Mich&#232;le Audin, _Symplectic and almost complex manifolds_ ([pdf](http://www-irma.u-strasbg.fr/~maudin/HolomorphicChapII.pdf))
+
 
 A discussion of deformations of complex structures is in
 
