@@ -43,7 +43,7 @@ $2$-dimensional conformal field theories have two major applications:
 
 In the former application it is mostly the _local_ behaviour of the CFT that is relevant. This is encoded in [[vertex operator algebra]]s.
 
-In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d conformal cobordism category is crucial. This extension is called _solving the sewing constraints_ .
+In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d [[conformal cobordism category]] is crucial. This extension is called _solving the sewing constraints_ .
 
 ## Abstract ##
 
@@ -270,7 +270,7 @@ with some constant $C_{ij} \in \mathbb{C}$.
 
 ## Conformal anomaly
 
-The [[Liouville cocycle]] appears when one moves from genuine [[representation]]s of 2-dimensional conformal [[cobordism]]s to [[projective representation|projective representations]]. The obstruction for such a projective representation to be a genuine representation is precisely given by the central charge $c$; when $c\neq 0$, one says that the conformal field theory has a _conformal [[quantum anomaly|anomaly]]_.
+The [[Liouville cocycle]] appears when one moves from genuine [[representation]]s of 2-dimensional [[conformal cobordisms]] to [[projective representation|projective representations]]. The obstruction for such a projective representation to be a genuine representation is precisely given by the central charge $c$; when $c\neq 0$, one says that the conformal field theory has a _conformal [[quantum anomaly|anomaly]]_.
 
 ...
 
@@ -450,7 +450,7 @@ For further references see [[conformal net]].
  {#FQFTReferences}
 
 The idea that CFT should have an axiomatization
-as [[FQFT]] -- representations of [[cobordism categories]] for cobordisms equipped with [[conformal structure]] -- was promoted in
+as [[FQFT]] -- representations of [[conformal cobordism categories]] for cobordisms equipped with [[conformal structure]] -- was promoted in
 
 * [[Graeme Segal]], 
 
