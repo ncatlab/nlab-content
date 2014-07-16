@@ -66,7 +66,7 @@ The original articles are
 
 * {#Teichmuller44} [[Oswald Teichmüller]], _Ver&#228;nderliche Riemannsche Fl&#228;chen_, Deutsche Math. 7 344-359 (1944)
 
-The complexstructure on Teichm&#252;ller spaces was fully established in
+The complex structure on Teichm&#252;ller spaces was fully established in
 
 * {#Ahlfors60} L. Ahlfors, _The complex analytic structure of the space of closed Riemann surfaces_, in _Analytic Functions_, Princeton University Press (1960)
 
