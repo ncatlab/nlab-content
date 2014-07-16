@@ -31,3 +31,7 @@ One can also use Whitney's methods to show that two diffeomorphic real analytic 
 
 [[!redirects real-analytic manifold]]
 [[!redirects real-analytic manifolds]]
+
+[[!redirects real analytic manifold]]
+[[!redirects real analytic manifolds]]
+
