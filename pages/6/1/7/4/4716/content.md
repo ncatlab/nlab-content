@@ -47,12 +47,18 @@ If $X$ is a manifold with boundary $\partial X$, then it is usual to consider au
 
 ### For 2-dimensional surfaces
 
-The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] are encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
+The mapping class group for 2-dimensional manifolds controls the [[moduli stack of complex curves]]. 
+
+The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] may also be encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
 
 One of the classical results is that the mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to $SL_2(\mathbb{Z}$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
 
 Another example is a 2-disk with $n$ punctures. The group of diffeomorphisms (fixing the boundary pointwise) modulo isotopy is the [[braid group]] $B_n$. 
 
+
+### Rational cohomology
+
+The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of the stable mapping class group of 2-dimensional manifolds (hence essentially the [[orbifold cohomology]] of the [[moduli stack of complex curves]]) is the content of [[Mumford's conjecture]], proven in ([Madsen-Weiss 02](#MadsenWeiss02)).
 
 ## References
 
@@ -72,7 +78,7 @@ See also
 
 * wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
 
-* Ib Madsen, Michael Weiss, _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843), [math.AT/0212321](http://arxiv.org/abs/math.AT/0212321)
+* {#MadsenWeiss02} [[Ib Madsen]], [[Michael Weiss]], _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843), [math.AT/0212321](http://arxiv.org/abs/math.AT/0212321)
 
 * John Harer, _The second homology group of the mapping class group
 of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomology of the moduli space of curves_ in: Theory of moduli (Montecatini Terme, 1985), Lecture Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
