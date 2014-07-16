@@ -57,6 +57,7 @@ Hence the Riemann moduli space is the [[orbifold quotient]] of Teichm&#252;ller 
 
 * [[inter-universal Teichmüller theory]]
 
+* [[Outer space]]
 
 ## References
 
