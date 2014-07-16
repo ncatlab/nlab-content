@@ -30,6 +30,12 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 ## Related concepts
 
+* [[hyperbolic geometry]]
+
+* [[Riemannian geometry]]
+
+## Related concepts
+
 [[!include local and global geometry - table]]
 
 [[!redirects Euclidean geometry]]
