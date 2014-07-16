@@ -78,6 +78,8 @@ An important source of DM-stacks are [[moduli space|moduli]] problems, resulting
 
     * [[Artin stack]]
 
+* [[Deligne-Mumford compactification]]
+
 ## References
 
 DM-stacks are introduced in
