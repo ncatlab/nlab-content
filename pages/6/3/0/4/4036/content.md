@@ -29,7 +29,7 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] $X$ is called a **good co
 
 1. an [[open cover]];
 
-1. such that all the $U_i$ and all their nonempty finite intersections are [[contractible topological spaces]].
+1. such that all the $U_i$ and all their inhabited finite intersections are [[contractible topological spaces]].
 
 =--
 
@@ -37,13 +37,13 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] $X$ is called a **good co
 ###### Remark
 
 
-For $X$ a [[topological manifold]] one often needs that the non-empty finite intersections are [[homeomorphism|homeomorphic]] to an [[open ball]] and for   [[smooth manifolds]] often one needs that the finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]].
+For $X$ a [[topological manifold]] one often requires that the inhabited finite intersections are [[homeomorphism|homeomorphic]] to an [[open ball]]. Similarly, for $X$ a [[smooth manifold]] one often requires that the finite inhabited intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]].
 
-In the literature this is traditionally glossed over, but it is in fact a subtle point, see the discussion at [[open ball]] and see below at _[Existence on paracompact smooth manifolds](#ExistenceOnParacompactManifolds)_. 
+In the literature this is traditionally glossed over, but this is in fact a subtle point, see the discussion at [[open ball]] and see below at _[Existence on paracompact smooth manifolds](#ExistenceOnParacompactManifolds)_. 
 
 =--
 
-Therefore it makes sense to explicitly say:
+Due to this subtly, it is instructive to make explicit the following definition:
 
 +-- {: .num_defn #DifferentiablyGoodOpenCover}
 ###### Definition
@@ -200,6 +200,14 @@ $$
 $$ 
 
 For $p \in \mathbb{N}$ such that $p(q+1) \gt n$ then $X$ admits a cover by $p$ open balls and such that all nonempty intersections of the covering cells are [[n-connected space|(q−1)-connected]].
+
+=--
+
+### Refining covers
+
+A cover $\{U_i\to X\}_{i\in I}$ refines another cover $\{V_j\to X\}_{j\in J}$ if each map $V_j\to X$ is some $U_i\to X$.
+
+Each differentially good cover has a unique smallest refinement to a differentially good cover which is closed under intersection.
 
 ## $n$POV
 
