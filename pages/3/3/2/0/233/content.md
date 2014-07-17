@@ -820,7 +820,7 @@ $$
 
 * [[projective module]], [[injective module]], [[free module]], [[flat module]]
 
-
+* [[Banach module]]
 
 
 ## References
