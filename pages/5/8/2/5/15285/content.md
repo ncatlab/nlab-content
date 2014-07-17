@@ -1,19 +1,18 @@
+**[[function field analogy]]**
 
-
-| [[number fields]] ([[function fields]] of [[curves]] over [[F1]])  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_p$  | [[Riemann surfaces]]/[[algebraic curves]] over $\mathbb{C}$ |  |
+| [[number fields]] ([[function fields]] of [[curves]] over [[F1]])  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_p$ ([[arithmetic curves]])  | [[Riemann surfaces]]/[[algebraic curves]] over $\mathbb{C}$ |  |
 |-------------------|----------------------|----|
 | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_p[t]$ ([[polynomials]]) |   |
 | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_p(t)$ ([[rational functions]])  |  |
-| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) |   |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] $X$ over $k$ | [[sheaf of rational functions]] $K_\Sigma$   |
-| [[spectrum of a commutative ring|spectrum]] of $K$ together with archimedean valuation [[places]] | $X$ |  [[Riemann surface]] $\Sigma$ |
+| $p$ ([[prime number]]) |  | $x \in \Sigma$  |
+| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) | $\mathbb{C}((t_x))$  |
+|  |  $\mathcal{O}_p$  |  $\mathbb{C}[ [ t_x ] ]$ |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] $F$ of an [[algebraic curve]] $X$ over $k$ | [[sheaf of rational functions]] $K_\Sigma$   |
+| [[spectrum of a commutative ring|spectrum]] of $K$ together with [[archimedean valuation]] [[places]] | $X$ |  [[Riemann surface]] $\Sigma$ |
+| $\mathbb{A}$ ([[adeles]]) | $\mathbb{A}$ |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$  | 
+| $\mathcal{O}$ | $\mathcal{O}$ | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ |
 | [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
+|  |   $GL_n(F) \backslash GL_n(\mathbb{A})//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([[moduli stack of bundles]] on $\Sigma$) | 
+|  |  [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 
 
-* [[Barry Mazur]], [[Andrew Wiles]], _Analogies between function fields and number fields_, American Journal of Mathematics Vol. 105, No. 2 (Apr., 1983), pp. 507-521 ([JStor](http://www.jstor.org/stable/2374266))
-
-* [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
-
-* {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
-
-[[!redirects function field analogy]]
