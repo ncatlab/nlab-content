@@ -17,7 +17,7 @@ $$
   skysc_x(S) : (U \subset X) \mapsto
   \left\{
     \array{
-      S & if x \in U
+      S & if \; x \in U
       \\
       {*} & otherwise
     }
@@ -34,3 +34,5 @@ $$
 
 
 category: sheaf theory
+
+[[!redirects skyscraper sheaves]]
