@@ -50,5 +50,7 @@ The relation to [[quantum Teichmüller theory]] is discussed/reviewed in
 
 * {#Allegretti} [[Dylan Allegretti]], _Notes on Quantum Teichm&#252;ller theory_ ([pdf](http://users.math.yale.edu/~dga4/TeichmullerNotes.pdf))
 
+* {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
+
 
 [[!redirects Liouville field theory]]
