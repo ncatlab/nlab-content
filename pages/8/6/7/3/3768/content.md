@@ -20,7 +20,7 @@
 
 ## Examples
 
-### Over curves and the Langlands correspondence
+### Bundles over curves and the Langlands correspondence
  {#OverCurvesAndTheLanglandsCorrespondence}
 
 For $G$ some [[complex Lie group]] and $\Sigma$ some [[complex curve]], then the [[moduli stack]] of $G$-[[principal bundles]] on $\Sigma$ (which are equivalently [[holomorphic vector bundles]] when $G = \coprod_{n} GL(n,\mathbb{C})$) has a standard description as a double [[coset space|coset]] [[quotient stack]] of the collection of [[formal power series]] around finitely many points in $\Sigma$. 
@@ -98,6 +98,10 @@ This parallel or analogy between the moduli stack of $G$-bundles over curves in 
 of G-bundles on a curve_, Ann. Math. __170__, 2, 495&#8211;527 (2009) [pdf](http://annals.princeton.edu/annals/2009/170-2/annals-v170-n2-p01-p.pdf)
 
 * References for moduli spaces of bundles over *singular* curves are discussed at MathOverflow [here](http://mathoverflow.net/questions/20702/reference-request-moduli-spaces-of-bundles-over-singular-curves/)
+
+### Over arithmetic curves
+
+* {#Hoffmann02} Norbert Hoffmann, _On vector bundles over algebraic and arithmetic curves_, 2002 ([pdf](http://www.maths.mic.ul.ie/hoffmann/diss.pdf))
 
 Review in the context of [[geometric Langlands duality]] is in
 
