@@ -162,6 +162,9 @@ A slightly alternative proof of sufficiency uses the theory of well-founded coal
 
 ## Examples
 
+### In a sheaf topos
+ {#ExamplesInASheafTopos}
+
 In any [[Grothendieck topos]] $E = Sh(C)$ the natural numbers object is given by the [[constant sheaf]] on the [[set]] of ordinary natural numbers, i.e. by the [[sheafification]] of the [[presheaf]] $C^{op} \to Set$ that is constant on the set $\mathbb{N}$.
 
 There are interesting cases in which such sheaf toposes contain objects that look like they ought to be natural numbers objects but do not satisfy the above axioms: for instance some of the models described at [[Models for Smooth Infinitesimal Analysis]] are sheaf toposes that contain besides the standard natural number object a larger object of **[[smooth natural numbers]]** that has [[generalized element]]s which are "infinite natural numbers" in the sense of [[nonstandard analysis]].
