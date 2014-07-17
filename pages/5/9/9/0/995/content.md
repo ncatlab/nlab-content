@@ -63,7 +63,7 @@ A filterbase $F$ of sets is proper (that is, it generates a proper filter of set
 
 ## Application to analysis and topology
 
-Every [[net]] $\nu: I \to S$ defines an __eventuality filter__ $E_\nu$: let $A$ belong to $E_\nu$ if, for some index $k$, for every $l \geq k$, $\nu_l \in A$.  (That is, $\nu$ is eventually in $A$.)  Note that $E_\nu$ is proper; conversely, any proper filter $F$ has a net whose eventuality filter is $F$ (as described at [[net]]).  Everything below can be done for nets as well as for (proper) filters, but filters often lead to a cleaner theory.
+Every [[net]] $\nu: I \to S$ defines an __[[eventuality filter]]__ $E_\nu$: let $A$ belong to $E_\nu$ if, for some index $k$, for every $l \geq k$, $\nu_l \in A$.  (That is, $\nu$ is eventually in $A$.)  Note that $E_\nu$ is proper; conversely, any proper filter $F$ has a net whose eventuality filter is $F$ (as described at [[net]]).  Everything below can be done for nets as well as for (proper) filters, but filters often lead to a cleaner theory.
 
 In a [[topological space]] $S$, a filter $F$ on $S$ __[[convergence|converges]]__ to a point $x$ of $S$ if every [[neighbourhood]] of $x$ belongs to $F$.  A filter $F$ __clusters__ at a point $x$ if every neighbourhood of $x$ intersects every element of $F$.  With these definitions, the improper filter converges to every point and clusters at no point; a proper filter, however, clusters at every point that it converges to.
 
