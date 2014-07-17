@@ -105,6 +105,9 @@ Reviews and lecture notes include, for the case of flat connections
 
 * Daan Michiels, _Moduli spaces of flat connections_, Master Thesis Leuven 2013 ([pdf](http://www.staff.science.uu.nl/~Schat001/Daan_thesis.pdf))
 
+* {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
+
+
 and for the case of general and [[logarithmic connections]]
 
 * {#BiswasMunoz} Indranil Biswas, V.Munoz, _Moduli spaces of connections on a Riemann surface_  ([pdf](http://www.mat.ucm.es/~vmunozve/Moduli.pdf))
