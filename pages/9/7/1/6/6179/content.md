@@ -206,7 +206,7 @@ This led to the electric/magnetic duality conjecture formulation in
 
 According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton that the Montonen-Olive dual charge group coincides with the [[Langlands dual group]] is due to 
 
-* [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
+* {#Atiyah77} [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
 
 See also the references at _[[electro-magnetic duality]]_.
 
