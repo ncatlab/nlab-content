@@ -27,7 +27,7 @@ Later, more general framework of motivic integration in model theory has been pu
 
 ## References
 
-* Jan Denef, Fran&#231;ois  Loeser, _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
+* Jan Denef, [[François  Loeser]], _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
 
 * Jan Denef, Fran&#231;ois  Loeser, _Motivic integration and the Grothendieck group of pseudo-finite fields_ Proc. ICM, Vol. II (Beijing, 2002), 13--23, Higher Ed. Press, Beijing, 2002. 
 
