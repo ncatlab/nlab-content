@@ -25,6 +25,10 @@ Typically one takes an arithmetic scheme to be ([[regular scheme|regular]]) [[se
 
 A [[differential algebraic K-theory]] over arithmetic schemes is considered in ([Bunke-Tamme 12](#BunkeTamme12)).
 
+## Related concepts
+
+* [[arithmetic curve]]
+
 ## References
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
