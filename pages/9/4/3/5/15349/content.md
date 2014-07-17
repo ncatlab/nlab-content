@@ -58,6 +58,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 ##Related Concepts##
 * [[localic topos]]
 * [[petit topos]]
+* [[locally decidable topos]]
 * [[Deligne-Mumford stack]]
 
 
@@ -86,7 +87,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* [[F. William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM vol. 1488 (1991).
+* [[F. William Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM vol. 1488 (1991).
 
 * [[F. William Lawvere]], _Axiomatic Cohesion_ , TAC **19** no. 3 (2007) pp.41-49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
