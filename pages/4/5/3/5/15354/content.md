@@ -18,7 +18,7 @@ This page records material related to the talk
 
   [technical remarks pdf](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-comments.pdf)
  
-on the state of the art of the [[Langlands program]].
+on the state of the art of the [[Langlands program]], including some cautionary remarks on the [[geometric Langlands correspondence]].
 
 category: reference
 
