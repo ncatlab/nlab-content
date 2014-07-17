@@ -99,12 +99,16 @@ The notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff top
 
 The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
 
+## Related concepts
+
+* [[locally Hausdorff topological space]]
+
 
 ## References
 
 Comments on the relation to [[topos theory]] are for instance in
 
-* [[S. Niefield]], _A note on the locally Hausdorff property_, Cahiers TGDC (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
+* S. Niefield, _A note on the locally Hausdorff property_, Cahiers TGDC (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
 
 
 [[!redirects Hausdorff]]
