@@ -50,3 +50,6 @@ See also
 * the [digital archive](http://sunsite.ubc.ca/DigitalMathArchive/Langlands/bibliography/bibliography.html) of [[Robert Langlands]]' articles at sunsite.ubc.ca
 
 [[!redirects Langlands duality]]
+
+[[!redirects Langlands correspondence]]
+[[!redirects Langlands correspondences]]
