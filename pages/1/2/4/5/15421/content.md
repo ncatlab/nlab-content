@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+An **[[affinoid domain]]** in an [[affinoid space]] $X = Spec_{an} A$ is a [[closed subset]] $V \subset X$ such that there is a [[homomorphism]] of $k$-affinoid spaces 
+
+$$
+  \phi : Spec_{an} A_V \to X
+$$
+
+for some $A_V$, whose [[image]] is $V$, and such that every other morphism of $k$-affinoid spaces into $X$ whose image is contained in $V$ uniquely factors through this morphism.
+
+=--
+
+([Berkovich 09, def. 3.1.4](#Berkovich09))
+
+## Related concepts
+
+* [[closed cover]]
+
+* [[Berkovich space]]
+
+## References
+
+* {#Berkovich09} [[Vladimir Berkovich]], section 2.2 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+
+
+
+[[!redirects affinoid domains]]
