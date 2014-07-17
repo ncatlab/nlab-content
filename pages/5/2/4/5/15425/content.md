@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+Let $X = Spec_{an}(A)$ be an [[affinoid space]] with [[affinoid algebra]] $A$.
+
+Then for every [[finite cover]] of $X$ by [[affinoid domains]], the corresponding [[Cech cohomology]] with [[coefficients]] in the [[structure sheaf]] $A$, or with coefficients in any finite [[Banach module]] over $A$, is concentrated in degree 0.
+
+([Berkovich 09, fact 2.2.6](#Berkovich09))
+
+## References
+
+* {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+
+* [pdf](http://www.math.polytechnique.fr/~chenevier/coursIHP/chenevier_lecture5.pdf)
+
+* [[Doosung Park]], _Affinoid domains_, lecture notes ([pdf](http://math.berkeley.edu/~sstich/MAT_274/03-07.pdf))
+
+[[!redirects Tate acyclicity]]
