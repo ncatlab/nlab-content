@@ -244,6 +244,12 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
+Perspecive on the role of D-branes in [[mathematical physics]] and [[mathematics]] is in 
+
+
+* [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
+
+
 ### As higher super-GS-WZW type $\sigma$-models
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
