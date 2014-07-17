@@ -43,6 +43,8 @@ Since [[D-modules]] on [[moduli stacks of G-principal bundles]] play a central r
 
 The geometric Langlands conjecture has been motivated from the [[number theory|number theoretic]] [[Langlands correspondence]] via the [[function field analogy]] and some educated guessing, but there is to date no formalization of this analogy that would allow to regard number-theoretic and the geometric correspondence as two special cases of one "global" [[arithmetic geometry]]/[[global analytic geometry]] statement. Cautioning remarks on the accuracy of the analogy and on the rigour of the mirror-symmetric proposals may be found in ([Langlands 14](#Langlands14)).
 
+[[!include function field analogy -- table]]
+
 
 ## Properties 
  {#Properties}
