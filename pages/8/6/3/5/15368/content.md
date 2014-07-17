@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+## Idea
 
 One of the conditions in the definition of _[[metric]]_ and _[[norm]]_ say that the norm of the sum of any two elements $f$ and $g$ is smaller than or equal to the sum of their norms:
 
@@ -13,7 +24,7 @@ $$
   \array{
     && y
     \\
-    {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+    & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
     \\
     x && \underset{f + g}{\longrightarrow} && z
   }
@@ -31,4 +42,3 @@ $$
 These are called [[non-archimedean]].
 
 [[!redirects triangle inequalities]]
-
