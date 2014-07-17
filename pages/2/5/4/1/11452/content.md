@@ -39,6 +39,21 @@ Accordingly [[real-oriented cohomology theory]] is bigraded in a way modeled on 
 
 (This is standard notation, but maybe $S^{1,0}$, $S^{\tfrac{1}{2}, \tfrac{1}{2}}, S^{0,1}$ would be more suggestive. Indeed the quotients in the first and the last case are actually circles, while in the second case it is the semi-circle.)
 
+### Complexified cartesian spaces
+
+The complex $n$-dimensional complexified cartesian space ${\mathbb{C}}^n$ equipped with its conjugative involution is a real space. Explicitly, this involution sends $(z^1,\ldots, z^n)$ to $(\bar{z^1},\ldots, \bar{z^n})$.
+
+### Complex projective spaces.
+
+The complex $n$-dimensional complex projective space ${\mathbb{P}}^n_{\mathbb{C}}$ equipped with a conjugation involution is a real space. For each choice of affine chart, the conjugation involution of this chart (which is biholomorphic to ${\mathbb{C}}^n$) extends to a conjugation involution on ${\mathbb{P}}^n_{\mathbb{C}}$. Any two conjugation involutions are ${\mathbb{Z}}/2$-equivariantly diffeomorphic.
+
+For example, the Riemann surface ${\mathbb{P}}^1_{\mathbb{C}}$ is diffeomorphic to the 2-sphere $S^2$ and its conjugation involution is the antipodal action.
+
+### Complex general and special linear groups.
+
+For $A$ a square matrix, the determinant of its conjugation transpose equals the conjugate of its determinant. In symbols, ${\mathrm{det}} A^* = \overline{{\mathrm{det}} A}$. Hence sending a square matrix to its conjugate transpose is an involution on the complex general $GL(n,{\mathbb{C}})$ and special $SL(n,{\mathbb{C}})$.
+
+In particular, the real space $SL(1,{\mathbb{C}})$ equipped with this conjugate transpose involution is equivariantly diffeomorphic to $S^{0,2}$, the circle equipped with its antipodal action (dicussed above).
 
 ## Properties
 
