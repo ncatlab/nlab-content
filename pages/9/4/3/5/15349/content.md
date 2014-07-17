@@ -53,7 +53,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (Freyd&Scedrov 1990). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
 
-
+* &#201;tendues are 'locally co-decidable' in the sense that for a small $\mathcal{C}$ the functor category $[\mathcal{C},Set]$ is a [[locally decidable topos]] precisely if $[\mathcal{C}^{op},Set]$ is an [[étendue]]. Also the all-monic-site property is dual to the all-epic-site property of locally decidable toposes. Both concepts are subsumed under the notion of having a (sub canonical) site representation with no (non-trivial) [[idempotents]] (McLarty 2006, Lawvere 2007).
 
 ##Related Concepts##
 * [[localic topos]]
@@ -69,7 +69,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
 
-* [[Peter Freyd|P. J. Freyd]], A. Scedrov , _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
+* [[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
 
@@ -93,7 +93,9 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * [[F. William Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
 
-* [[Dorette A. Pronk]] , _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
+* [[Colin McLarty]], _Every Grothendieck Topos has a One-Way Site_ , TAC **16** no. 5 (2006) pp.123-126. ([pdf](http://www.tac.mta.ca/tac/volumes/16/5/16-05.pdf))
+
+* [[Dorette A. Pronk]], _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
 * [[Pedro Resende]], _Groupoid Sheaves as Quantale Modules_ , arXiv.0807.4848v3 (2011). ([pdf](http://arxiv.org/pdf/0807.4848v3.pdf))
 
