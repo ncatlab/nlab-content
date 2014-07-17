@@ -53,7 +53,7 @@ such that the [[norm]] on $A$ is the [[quotient norm]].
 
 If one can choose here $r_i = 1$ for all $i$ then $A$ is called **strictly $k$-affinoid**.
 
-The [[category]] of **$k$-affinoid spaces** is the [[opposite category]] of the category of $k$-affinoid algebras and bounded [[homomorphisms]] between them.
+The [[category]] of **$k$-[[affinoid spaces]]** is the [[opposite category]] of the category of $k$-[[affinoid algebras]] and bounded [[homomorphisms]] between them.
 
 =--
 
@@ -62,7 +62,7 @@ Via the [[analytic spectrum]] $Spec_{an}$ there is a [[topological space]] assoc
 +-- {: .num_defn}
 ###### Definition
 
-An **affinoid domain** in an affoinoid space $X = Spec_{an} A$ is a [[closed subset]] $V \subset X$ such that there is a [[homomorphism]] of $k$-affinoid spaces 
+An **[[affinoid domain]]** in an [[affinoid space]] $X = Spec_{an} A$ is a [[closed subset]] $V \subset X$ such that there is a [[homomorphism]] of $k$-affinoid spaces 
 
 $$
   \phi : Spec_{an} A_V \to X
