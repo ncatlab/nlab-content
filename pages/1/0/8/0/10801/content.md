@@ -17,7 +17,7 @@
 ## Idea
 
 
-Some flavor of [[algebraic geometry]], [[arithmetic geometry]], [[analytic geometry]] based on [[p-adic numbers]].
+The special case of [[non-archimedean analytic geometry]] based on [[p-adic numbers]].
 
 ## Examples
 
@@ -35,4 +35,4 @@ Some flavor of [[algebraic geometry]], [[arithmetic geometry]], [[analytic geome
 
 ## References
 
-* Bernard Le Stum, _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
+* [[Bernard Le Stum]], _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
