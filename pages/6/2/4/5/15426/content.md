@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[cover]] by a [[finite set]] of patches
+
+## Related concepts
+
+* [[locally finite cover]]
+
+* [[compact topological space]]
+
+[[!redirects finite covers]]
