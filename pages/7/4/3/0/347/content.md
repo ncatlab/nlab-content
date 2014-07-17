@@ -89,6 +89,8 @@ of a topological space or manifold. This is a priori an independent notion of co
 
 * [[covering]]
 
+* [[finite cover]], [[locally finite cover]]
+
 [[!redirects covers]]
 [[!redirects covering family]]
 [[!redirects covering families]]
