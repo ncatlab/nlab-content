@@ -81,9 +81,9 @@ by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,
 In fact, the category $Heap$ is equivalent to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
 
 
-## The empty heap
+## The empty heap {#empty}
 
-If we wish $Heap$ to be an [[algebraic category]], then we must remove the clause the underlying set of a heap must be nonempty.  Then the [[empty set]] becomes a heap in a unique way.  However, in this case, the various theorems relating heaps to groups above all break down.  For this reason, one usually requires a heap to be inhabited.
+If we wish $Heap$ to be an [[algebraic category]], then we must remove the clause that the underlying set of a heap must be nonempty.  Then the [[empty set]] becomes a heap in a unique way.  However, in this case, the various theorems relating heaps to groups above all break down.  For this reason, one usually requires a heap to be inhabited.
 
 On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as a (traditionally nonempty) set equipped with a binary operation (to be thought of as $a, b \mapsto a/b \coloneqq a b^{-1}$) satisfying these laws:
 
@@ -91,7 +91,7 @@ On the other hand, we could generalize the notion of [[group]] to allow for an e
 * $(a/a)/((a/a)/a) = a$,
 * $a/(b/c) = (a/((c/c)/c))/b$.
 
-Then any possibly-empty-group is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possible-empty-groups equipped with torsors over the point; etc.
+Then any possibly-empty-group is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possibly-empty-groups equipped with torsors over the point; etc.
 
 This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by the (rather trivial) method of treating the empty and nonempty cases separately.
 
