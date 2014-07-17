@@ -25,7 +25,7 @@ It is also common to work with compact subsets of a topological space.  These ar
 There are many ways to say that a space $X$ is compact. The first is perhaps the most common: 
 +-- {: .num_defn #hb}
 ###### Definition
-For every collection of open sets whose [[union]] is $X$ (which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$.
+For every collection of open sets whose [[union]] is $X$ (which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (a [[finite cover|finite sub-cover]]).
 =--
 If [[excluded middle]] is assumed, this is easily equivalent to: 
 +-- {: .num_defn #fip}
@@ -107,7 +107,9 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 * The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
 
-* In constructive mathematics, a [[discrete object|discrete space]] is compact iff its underlying set is [[finite set|Kuratowski-finite]].
+* In a [[Hausdorff topological space]], [[compact subsets]] are in particular [[closed subsets]] ([proof](http://planetmath.org/acompactsetinahausdorffspaceisclosed))
+
+* In [[constructive mathematics]], a [[discrete object|discrete space]] is compact iff its underlying set is [[finite set|Kuratowski-finite]].
 
 * A topological space $X$ is compact precisely if for all topological spaces $Y$ the [[projection]] $X \times Y \to Y$ out of their [[Cartesian product]] is a [[closed map]]. (see e.g. [Milne, section 17](#Milne))
 
