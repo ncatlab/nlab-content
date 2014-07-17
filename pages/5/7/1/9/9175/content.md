@@ -68,3 +68,5 @@ There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G
 
 [[!redirects quotient orbifold]]
 [[!redirects quotient orbifolds]]
+
+[[!redirects stacky quotient]]
