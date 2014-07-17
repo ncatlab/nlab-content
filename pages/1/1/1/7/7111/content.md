@@ -75,12 +75,11 @@ for some $A_V$, whose [[image]] is $V$, and such that every other morphism of $k
 +-- {: .num_defn}
 ###### Definition
 
-A **$k$-analytic space** is a [[topological space]] 
-equipped with an [[atlas]] by affinoid domains (...).
+A **$k$-analytic space** is a [[locally Hausdorff topological space|locally Hausforf]] [[topological space]] $X$ equipped with an [[atlas]] by $k$-[[affinoid domains]] and [[affinoid domain embeddings]], such that their underlying [[analytic spectra]] [[topological spaces]] form a [[quasinet|net]] of [[compact subsets]] on $X$. 
 
 =--
 
-See e.g. ([Berkovich 98, paragraph 2](#Berkovich98), [Berkovich 09, def. 3.1.4](#Berkovich09))
+([Berkovich 09, def. 3.1.4](#Berkovich09))
 
 ## Properties
 
@@ -221,7 +220,7 @@ Relation to [[formal schemes]]:
 
 Discussion of Berkovich analytic geometry as [[algebraic geometry]] in the general sense of [[Bertrand Toën]] and [[Gabriele Vezzosi]] is in 
 
-* Oren Ben-Bassat, Kobi Kremnizer, _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+* [[Oren Ben-Bassat]], [[Kobi Kremnizer]], _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
 
 [[!redirects Berkovich analytic space]]
