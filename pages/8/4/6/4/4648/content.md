@@ -19,26 +19,37 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The _geometric Langlands program_ is the analogue of the [[Langlands program]] with [[number fields]] replaced by [[function fields]]. 
+The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to be an analog of the [[number theory|number theoretic]] [[Langlands correspondence]] under the [[function field analogy]], hence with [[number fields]] replaced by [[function fields]] and further replaced by [[rational functions]] on [[complex curves]].  The key to this analogy is the expression of the [[moduli stack of G-principal bundles]] over an [[algebraic curve]] as a double [[coset space|coset]] of various function rings (as discussed at _[Moduli of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_) of just the kind as they appear in the number-theoretic Langlands program.
 
-The conjectured _geometric Langlands correspondence_ asserts that for $G$ a  [[reductive group]] there is an equivalence of [[derived categories]] of [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over a given [[curve]], and [[quasi-coherent sheaves]] on the moduli space of ${}^L G$-[[local system]]s 
+The conjectured statement asserts roughly that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the [[moduli stack]] of ${}^L G$-[[local systems]] on $\Sigma$:
 
 $$
-  \mathcal{D} Mod( Bun_G)
-  \simeq
-  \mathcal{O}Mod(Loc_{{}^L G})
+  \mathcal{O}Mod(Loc_{{}^L G}(\Sigma))
+    \stackrel{\simeq}{\longrightarrow}
+  \mathcal{D} Mod( Bun_G(\Sigma))
 $$
 
-for ${}^L G$ the [[Langlands dual group]].
+for ${}^L G$ the [[Langlands dual group]]. Moreover, the conjecture asserts that there is canonical such an equivalence which is a [[non-abelian cohomology|non-abelian]] analogue of the [[Fourier-Mukai transform|Fourier-Mukai]] [[integral transform]] and takes [[skyscraper sheaves]] on the left ([[categorification|categorified Dirac distributions]]) to what are called "[[Hecke eigensheaves]]" on the right.
+This equivalence is in turn supposed to be a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies [[twisted D-modules]] on both sides.
 
-This equivalence is a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies twisted $D$-modules on both sides.
+Review of this idea includes ([Frenkel 05](#Frenkel05)).
+A refined formulation replaces plain quasicoherent sheaves with certain Ind-coherent sheaves and refines [[derived categories]] to [[stable (∞,1)-categories]], see ([Arinkin-Gaitsgory 12](#ArinkinGaitsgory12)).
+The geometric Langlands correspondence [[conjecture]] is a [[theorem]] in the abelian case, as discussed [below](#AbelianCase). 
+
+Since [[D-modules]] on [[moduli stacks of G-principal bundles]] play a central role in [[gauge theory|gauge]] [[quantum field theory]] (in particular as [[prequantum line bundles]] on the [[phase space]] of $G$-[[Chern-Simons theory]] [[holographic principle|holographically]] dual to the [[WZW model]] [[2d conformal field theory]]) and since the [[Langlands dual group]] also appears in [[electric-magnetic duality]], it has long been suggested ([Atiyah 77](S-duality#Atiyah77)) that geometric Langlands duality has a distinguished meaning also in [[mathematical physics]] in general and in [[string theory]] in particular. One proposal for a realization of the correspondence as an incarnation of [[mirror symmetry]]/[[S-duality]] is due to ([Kapustin-Witten 06](#KapustinWitten06)), which however has not been turned into [[theorems]] yet. Another proposal for realizing the [[local Langlands correspondence|local]] correspondence via another incarnation of [[mirror symmetry]] is due to ([Gerasimov-Lebedev-Oblezin 09](#GerasimovLebedevOblezin09)).
+
+
+The geometric Langlands conjecture has been motivated from the [[number theory|number theoretic]] [[Langlands correspondence]] via the [[function field analogy]] and some educated guessing, but there is to date no formalization of this analogy that would allow to regard number-theoretic and the geometric correspondence as two special cases of one "global" [[arithmetic geometry]]/[[global analytic geometry]] statement. Cautioning remarks on the accuracy of the analogy and on the rigour of the mirror-symmetric proposals may be found in ([Langlands 14](#Langlands14)).
+
 
 ## Properties 
  {#Properties}
 
 
 ### Abelian case
+ {#AbelianCase}
 
 In the case where $G$ is the [[multiplicative group]], hence where all bundles in question are [[line bundles]], geometric Langlands duality is well understood and is in fact a slight variant of a [[Fourier-Mukai transform]] ([Frenkel 05, section 4.4, 4.5](#Frenkel05)).
 
@@ -50,7 +61,7 @@ The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten06)) is suppo
 
 See also at _[KK-compactification -- Formalization](http://ncatlab.org/nlab/show/Kaluza-Klein+mechanism#Formalization)_
 
-[[!include geometric Langlands QFT -- table -- table]]
+[[!include geometric Langlands QFT -- table]]
 
 
 [[!include gauge theory from AdS-CFT -- table]]
@@ -95,16 +106,22 @@ Discussion of what the geometric theory ultimately should be from the point of v
 
 * {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _Notes on Geometric Langlands -- A study in derived algebraic geometry_ ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
+* {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
+
+
 and in less category-theoretic terms in 
 
 * {#Langlands13} [[Robert Langlands]], _The Search for a Mathematically Satisfying Geometric Theory of Automorphic Forms_, Notes for a lecture at Mostow-Fest, Yale 2013 ([IAS page](http://publications.ias.edu/rpl/paper/2578), [video](http://www.youtube.com/watch?v=pfpzET8UkF4), [pdf](http://publications.ias.edu/sites/default/files/lecture_6.pdf))
 
+See also
+
+* {#Langlands14} [[Robert Langlands]], _[[Problems in the theory of automorphic forms -- 45 years later]]_, talk at [Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html), Oxford, July 5 - July 8, 2014
 
 ### Surveys and reviews
 
 A classical survey is
 
-* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 
 Another set of lecture notes on geometric Langlands and [[nonabelian Hodge theory]] is
@@ -163,7 +180,7 @@ An interpretation of the global geometric Langlands correspondence as describing
  
 * {#Witten08} [[Edward Witten]], _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
 
-and discussed in bigger picture of [[S-duality]] arising as the conformal invariance of the [[6d (2,0)-superconformal QFT]] in 
+and discussed in the bigger picture of [[S-duality]] arising as the conformal invariance of the [[6d (2,0)-superconformal QFT]] in 
 
 * {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
 
@@ -191,7 +208,7 @@ Discussion from the point of view of [[M-theory]] is in
 
 A relation to [[T-duality]] (of the group manifolds!) is discussed in
 
-* {#DaenzerErp} Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
+* {#DaenzerErp} [[Calder Daenzer]], [[Erik van Erp]], _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
 
 #### Local
  
