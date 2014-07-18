@@ -52,6 +52,9 @@ In [[algebraic geometry]] there are very important theorems due Chevalley, [[val
 
 ## Literature 
 
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
+
 * wikipedia [valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965. (Especially chapters 1,2)
 * Serge Lang, _Algebraic number theory_, GTM __110__, Springer 1970, 2000
