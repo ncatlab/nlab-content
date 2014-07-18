@@ -24,16 +24,18 @@ In Lawvere's approach to cohesion locally decidable toposes are one of the princ
 In the 1991 paper Lawvere also hypothesizes the discrete base topos $\mathcal{S}$ that he contrasts with the cohesive topos of spaces, to be locally decidable.[^fine]
 
 [^fine]: Lawvere uses the term 'QD'-topos ( _quotient of decidable_) for 'locally
-decidable topos' in this paper. He also uses 'SUD'-object (from _seperable-unramified-decidable_ to indicate equivalent concepts in algebra-topology-logic) for what we call a locally decidable object.
+decidable topos' in this paper. He also uses 'SUD'-object (from _seperable-unramified-decidable_ to indicate equivalent concepts in algebra-topology-logic) for what we call a locally decidable object. The idea to take a locally decidable base topos is probably suggested by Galois theory where 'locally decidable' corresponds to 'seperable field extension'.
 
 ##Definition
 An object $X$ in a topos $\mathcal{E}$ is called _locally decidable_ (or, a _quotient of a decidable object_) iff there is an epimorphism $Y\twoheadrightarrow X$ such that $Y$ is a [[decidable object]]. $\mathcal{E}$ is called _locally decidable_ iff every object $X$ is locally decidable.
 
 ##Examples
 
-* The [[classifying topos]] $Set[\mathbf{D}]=[FinSet_{mono},Set]$ for the theory of decidable objects $\mathbf{D}$ is locally decidable. Here $FinSet_{mono}$ is the category of finite sets and monomorphisms, whose opposite category is the carrier of the site for the so called (Myhill-) _Schanuel topos_.
+* The [[classifying topos]] $Set[\mathbf{D}]=[FinSet_{mono},Set]$ for the [[theory of decidable objects]] $\mathbf{D}$ is locally decidable. Here $FinSet_{mono}$ is the category of finite sets and monomorphisms, whose opposite category is the carrier of the site for the so called (Myhill-) _[[Schanuel topos]]_.
 
 * Every [[localic topos]] is locally decidable.
+
+* For every [[Grothendieck topos]] $\mathcal{E}$ the full subcategory $\mathcal{E}_{QD}$ of locally decidable objects is a locally decidable topos.
 
 ##Properties
 
@@ -47,6 +49,7 @@ An object $X$ in a topos $\mathcal{E}$ is called _locally decidable_ (or, a _quo
 * [[petit topos]]
 * [[étendue]]
 * [[decidable object]]
+* [[theory of decidable objects]]
 
 
 ##References
