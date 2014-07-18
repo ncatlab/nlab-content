@@ -31,6 +31,8 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[natural number]], [[rational number]], [[real number]]
 
+* [[ring of integers]]
+
 ## References
 
 A formalization in terms of [[homotopy type theory]], using a unary notation, is in 
@@ -42,7 +44,7 @@ A formalization in terms of [[homotopy type theory]], using a unary notation, is
 
 [[!redirects integer]]
 [[!redirects integers]]
-[[!redirects ring of integers]]
+
 
 [[!redirects integer number]]
 [[!redirects integer numbers]]
