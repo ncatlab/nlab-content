@@ -17,11 +17,18 @@
 
 _Rigid analytic geometry_ (often just "rigid geometry" for short) is a form of [[analytic geometry]] over a [[nonarchimedean field]] $K$ which considers [[spaces]] glued from [[polydiscs]], hence from [[maximal spectra]] of [[Tate algebras]] (quotients of a $K$-algebra of [[convergence|converging]] [[power series]]). This is in contrast to some modern approaches to [[non-Archimedean analytic geometry]] such as [[Berkovich spaces]] which are glued from Berkovich's [[analytic spectra]] and more recent Huber's [[adic spaces]].
 
-The idea goes back to [[John Tate]]. According to [Kedlaya, p. 18](#Kedlaya), the terminology "rigid" is because...
+The issue is that while the [[p-adic numbers]] are [[complete topological space|complete]] in the [[p-adic norm]], that [[topology]] is exotic: $\mathbb{Q}_p$ is a [[Stone space]], hence in particular a [[totally disconnected topological space]].
+
+For that reason the naive idea of formulating [[p-adic geometry|p-adic]] analytic geoemtry in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails, as also all these domains are totally disconnected.
+
+Instead there is ([Tate 71](#Tate71)) a suitable [[Grothendieck topology]] on uch [[affinoid domains]] -- the _[[G-topology]]_ -- with respect to which there is a good theory of [[non-archimedean analytic geometry]] ("[[rigid analytic geometry]]") and hence in particular of [[p-adic geometry]]. Moreover, one may sensibly assign to an $p$-adic domain a [[topological space]] which _is_ well behaved (in particular locally connected and even locally contractible), this is the _[[analytic spectrum]]_ construction. The resulting topological spacs equipped with covers by [[affinoid domain]] under the [[analytic spectrum]] are called [[Berkovich spaces]].
+
+
+According to [Kedlaya, p. 18](#Kedlaya), the terminology "rigid" is because...
 
 > ... one develops everything "rigidly" by imitating the theory of [[schemes]] in [[algebraic geometry]], but using rings of [[convergence|convergent]] [[power series]] instead of [[polynomials]].
 
-See also [[global analytic geometry]]. 
+See also _[[global analytic geometry]]_. 
 
 ## Cohomology
 
@@ -45,7 +52,7 @@ complex-analytic case).
 
 An original article is
 
-* [[John Tate]], _Rigid analytic spaces_, Invent. Math. __12__:257&#8211;289, 1971.
+* {#Tate71} [[John Tate]], _Rigid analytic spaces_, Invent. Math. __12__:257&#8211;289, 1971.
 
 and for the construction of the generic fiber of formal schemes over the ring of integers of $K$
 
