@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Analysis
@@ -15,7 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
@@ -37,7 +37,7 @@ Given a net $(x_{\alpha})$ with index set $A$, and a net $(y_{\beta})$ with an i
 
 +-- {.num_defn #Willard}
 ###### Definition
-**(Willard, 1970)**
+(Willard, 1970).
 
 We have a function $f\colon B \to A$ such that
 
@@ -94,11 +94,7 @@ We say that $\nu$ is __[[eventually]]__ in $S$ if for some index $i$, $\nu_j \in
 ###### Remark
 
 Sometimes one says 'infinitely often' in place of 'frequently' and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
-
 =--
-
-+-- {.num_remark}
-###### Remark
 
 Being eventually in $S$, def. \ref{EventuallyAndFrequently}, is a weakening of being always in $S$ (given by Lawvere\'s [[universal quantifier]] $\forall_\nu$), while being frequently in $S$ is a strengthening of being sometime in $S$ (given by the [[particular quantifier]] $\exists_\nu$).  Indeed we can build a [[formal logic]] out of these.  Use $\ess\forall i, p[\nu_i]$ or $\ess\forall_\nu p$ to mean that a predicate $p$ in $X$ is eventually true, and use $\ess\exists i, p[\nu_i]$ or $\ess\exists_\nu p$ to mean that $p$ is frequently true.  Then we have:
 $$\forall_\nu p \;\Rightarrow\; \ess\forall_\nu p \;\Rightarrow\; \ess\exists_\nu p \;\Rightarrow\; \exists_\nu p$$
@@ -111,7 +107,6 @@ and other analogues of theorems from [[predicate logic]].  Note that the last it
 
 A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almost nowhere' or 'somewhere significant') in [[measure spaces]].
 
-=--
 
 ## Nets and filters 
 
@@ -129,6 +124,7 @@ A net $\nu$ in a [[topological space]] __[[convergence|converges]]__ to a point 
 By keeping only the simple conditions, one gets the definition of a [[convergence space]]; this is a more general concept than a topological space and includes many non-topological situations where we want to say that a sequence converges to some value (such as convergence in measure).  It is also very nice to describe [[compact space|compact]] and [[Hausdorff space|Hausdorff]] spaces in terms of the convergence relation.
 
 Although nets are perhaps more familiar, due to their similarity to sequences, one gets a cleaner theory by talking about filters, since equivalent filters are equal and (as long as one is not a [[predicative mathematics|predicativist]]) the set of filters on a set $X$ is small (not a proper class).
+
 
 ## Related concepts
 
