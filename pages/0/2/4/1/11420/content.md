@@ -61,3 +61,6 @@ of the [[quotients]] of $R$ by all the powers of this ideal, $I$,  is the comple
 
 [[!redirects completion of a commutative ring]]
 [[!redirects completion of commutative rings]]
+
+[[!redirects formal completion]]
+[[!redirects formal completions]]
