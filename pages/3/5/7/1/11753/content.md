@@ -2,6 +2,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Reinhold_Remmert)
 
+## Writings
+
+* _[[Non-Archimedean Analysis]]_
+
 ## Related $n$Lab entries
 
 * [[analytic space]], [[complex analytic space]], [[Stein manifold]]
