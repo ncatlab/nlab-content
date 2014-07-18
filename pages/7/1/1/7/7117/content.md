@@ -95,20 +95,17 @@ If $k = \mathbb{C}$, then $\mathbb{A}_k = \mathbb{C}$ is the ordinary [[complex 
 The notion originates in 
 
 * {#Berkovich90} [[Vladimir Berkovich]], _Spectral theory and analytic geometry over non-Archimedean fields_, Mathematical Surveys and Monographs, vol. 33, American Mathematical Society, Providence, RI, (1990) 169 pp.
-  
+ 
 
 
+### Expositions and Lecture notes
 
-### Expositions
+Introductory exposition of the Berkovich analytic spectrum includes
 
-An exposition of examples of Berkovich spectra is in
+* [[Sarah  Brodsky]], _Non-archimedean geometry_, brief lecture notes, 2012 ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
 
 * [[Scott Carnahan]], _Berkovich spaces I_ ([web](http://sbseminar.wordpress.com/2007/09/18/berkovich-spaces-i/))
 
-
-### Lecture notes
-
-Introductory exposition of the Berkovich [[analytic spectrum]] includes
 
 * {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
 
