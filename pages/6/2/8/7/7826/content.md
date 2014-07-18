@@ -20,3 +20,8 @@ A (topological) space whose only connected subspaces are the subspaces with at m
 ## Related concepts
 
 * [[extremally disconnected topological space]]
+
+[[!redirects totally disconnected spaces]]
+
+[[!redirects totally disconnected topological space]]
+[[!redirects totally disconnected topological spaces]]
