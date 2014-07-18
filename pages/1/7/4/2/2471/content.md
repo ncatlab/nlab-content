@@ -47,6 +47,11 @@ Affinoid algebras were introduced in
 
 * [[John Tate]], (1961)
 
+A standard textbookaccount is
+
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], part B of  _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
+
 See the references at _[[analytic geometry]]_ for more details.
 
 Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geoemtry]] is in 
