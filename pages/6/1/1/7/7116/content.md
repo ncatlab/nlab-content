@@ -144,6 +144,11 @@ This is called the **$p$-adic** absolute value. It is non-archimedean. The [[com
 
 The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete field]] with respect to the absolute value that sends a series to $\epsilon^n$ for a fixed $0 \lt \epsilon \lt 1$ and with $n$ the lowest integer such that the $n$th coefficient of the series is not $0$.
 
+## References
+
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
+
 
 [[!redirects absolute value]]
 [[!redirects absolute values]]
