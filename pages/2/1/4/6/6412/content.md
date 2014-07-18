@@ -46,7 +46,7 @@ Let $\mathbf{Z}$ be the [[ring]] of [[integers]] and for every $q\neq 0$, $q\mat
 
 Let now $p\in \mathbf{Z}_+$ be a [[prime number]]. Then for any two positive integers $n\geq m$ there is an inclusion $p^m \mathbf{Z}\subset p^n\mathbf{Z}$ which induces the canonical homomorphism of quotients $\phi_{n,m}:\mathbf{Z}/p^n\mathbf{Z}\to \mathbf{Z}/p^m\mathbf{Z}$. These homomorphism for all pairs $n\geq m$ form a family closed under composition, and in fact a category, which is in fact a poset, and moreover a directed system of (commutative unital) rings. The __ring of [[p-adic integers]]__ $\mathbf{Z}_p$ is the (inverse) [[limit]] of this directed system (inside the category of rings).
 
-Regarding that the rings in the system are finite, it is clear that the underlying set of $\mathbf{Z}_p$ has a natural topology as a profinite (Stone) space and it is in particular a [[compact space|compact]] [[Hausdorff topological space|Hausdorff topological ring]]. More concretely, $\mathbf{Z}_p$ is the closed (hence compact) subspace of the cartesian product $\prod_{n} \mathbf{Z}/p^n\mathbf{Z}$ of discrete topological spaces $\mathbf{Z}/p^n\mathbf{Z}$ (which is by the [[Tihonov theorem]] compact Hausdorff) consisting of [[thread]]s, i.e. sequences of the form $x = (...,x_n,...,x_2,x_1)$ with $x_n\in p^n\mathbf{Z}$ and satisfying $\phi_{n,m}(x_n) = x_m$.
+Regarding that the rings in the system are finite, it is clear that the underlying set of $\mathbf{Z}_p$ has a natural topology as a [[profinite space|profinite]] ([[Stone space|Stone]]) space and it is in particular a [[compact space|compact]] [[Hausdorff topological space|Hausdorff topological ring]]. More concretely, $\mathbf{Z}_p$ is the closed (hence compact) subspace of the cartesian product $\prod_{n} \mathbf{Z}/p^n\mathbf{Z}$ of discrete topological spaces $\mathbf{Z}/p^n\mathbf{Z}$ (which is by the [[Tihonov theorem]] compact Hausdorff) consisting of [[thread]]s, i.e. sequences of the form $x = (...,x_n,...,x_2,x_1)$ with $x_n\in p^n\mathbf{Z}$ and satisfying $\phi_{n,m}(x_n) = x_m$.
 
 The kernel of the projection $pr_n: \mathbf{Z}_p\to\mathbf{Z}/p^n\mathbf{Z}$, $x\mapsto x_n$ to the $n$-th component (which is the corresponding projection of the limiting cone) is $p^n\mathbf{Z}_p\subset\mathbf{Z}_p$, i.e. the sequence
 
@@ -104,13 +104,23 @@ with finitely many terms to the "right" of the "decimal" point. Again such expre
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Ostrowski)**
+**([[Ostrowwski's theorem]])**
 
 Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard real absolute value, or to the $p$-adic absolute value.
 
 =-- 
 
-### Duality 
+### Topological disconnectedness and G-topology
+ {#Disconnectedness}
+
+While the $p$-adic numbers are complete in the [[p-adic norm]], that [[topology]] is exotic: $\mathbb{Q}_p$ is a [[Stone space]], hence in particular a [[totally disconnected topological space]].
+
+For that reason the naive idea of formulating [[p-adic geometry]] in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails, as also all these domains are totally disconnected.
+
+Instead there is ([Tate 71](#Tate71)) a suitable [[Grothendieck topology]] on uch [[affinoid domains]] -- the _[[G-topology]]_ -- with respect to which there is a good theory of [[non-archimedean analytic geometry]] ("[[rigid analytic geometry]]") and hence in particular of [[p-adic geometry]]. Moreover, one may sensibly assign to an $p$-adic domain a [[topological space]] which _is_ well behaved (in particular locally connected and even locally contractible), this is the _[[analytic spectrum]]_ construction. The resulting topological spacs equipped with covers by [[affinoid domain]] under the [[analytic spectrum]] are called [[Berkovich spaces]].
+
+
+### Pontryagin duality 
 
 Earlier we observed that as an additive compact Hausdorff [[topological group]], the inverse limit $\mathbf{Z}_p = \lim_{\leftarrow n} \mathbb{Z}/(p^n)$ is [[Pontryagin duality|dual]] to the discrete [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$ that is isomorphic to a direct limit of finite cyclic groups $\lim_{\to n} \mathbb{Z}/(p^n)$. The canonical inclusion $\mathbb{Z}[1/p] \to \mathbf{Q}_p$ induces an isomorphism $\mathbf{Z}(p^\infty) \to \mathbf{Q}_p/\mathbf{Z}_p$, in fact an isomorphism of $\mathbf{Z}_p$-modules, so there is an exact sequence 
 
@@ -192,6 +202,9 @@ $p$-adic [[differential equations]] are discussed in
 
 * [[Gilles Cristol]], _Exposants $p$-adiques et solutions dans les couronnes_ ([pdf](http://www.math.jussieu.fr/~christol/exposants.pdf))
 
+The development of [[rigid analytic geometry]] starts with
+
+* {#Tate71} [[John Tate]], _Rigid analytic spaces_, Invent. Math. __12__:257&#8211;289, 1971.
 
 [[p-adic homotopy theory]] is discussed in 
 
@@ -212,6 +225,10 @@ $p$-adic [[differential equations]] are discussed in
 
 [[!redirects p-adic valuation]]
 [[!redirects p-adic valuations]]
+
+[[!redirects p-adic norm]]
+[[!redirects p-adic norms]]
+
 
 [[!redirects p-adic rational number]]
 [[!redirects p-adic rational numbers]]
