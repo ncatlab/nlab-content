@@ -104,7 +104,7 @@ with finitely many terms to the "right" of the "decimal" point. Again such expre
 
 +-- {: .num_theorem}
 ###### Theorem
-**([[Ostrowwski's theorem]])**
+**([[Ostrowski's theorem]])**
 
 Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard real absolute value, or to the $p$-adic absolute value.
 
@@ -115,7 +115,7 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 While the $p$-adic numbers are complete in the [[p-adic norm]], that [[topology]] is exotic: $\mathbb{Q}_p$ is a [[Stone space]], hence in particular a [[totally disconnected topological space]].
 
-For that reason the naive idea of formulating [[p-adic geometry]] in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails, as also all these domains are totally disconnected.
+For that reason the naive idea of formulating [[p-adic geometry]] in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails (for instance there would be no [[analytic continuation]]), as also all these domains are totally disconnected. 
 
 Instead there is ([Tate 71](#Tate71)) a suitable [[Grothendieck topology]] on uch [[affinoid domains]] -- the _[[G-topology]]_ -- with respect to which there is a good theory of [[non-archimedean analytic geometry]] ("[[rigid analytic geometry]]") and hence in particular of [[p-adic geometry]]. Moreover, one may sensibly assign to an $p$-adic domain a [[topological space]] which _is_ well behaved (in particular locally connected and even locally contractible), this is the _[[analytic spectrum]]_ construction. The resulting topological spacs equipped with covers by [[affinoid domain]] under the [[analytic spectrum]] are called [[Berkovich spaces]].
 
