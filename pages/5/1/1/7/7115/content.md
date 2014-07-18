@@ -21,7 +21,7 @@
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Ostrowski)**
+**([[Alexander Ostrowski]])**
 
 Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard [[real numbers|real]] absolute value, or to the [[p-adic numbers|p-adic]] absolute value.
 
