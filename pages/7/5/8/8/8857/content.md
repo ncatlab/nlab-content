@@ -21,7 +21,7 @@ In specific contexts, like real Lie groups, there are specifical versions like [
 
 ## Related concepts
 
-* [[Zuckermann induction]]
+* [[Zuckerman induction]]
 
 ## Literature
 
