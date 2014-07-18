@@ -1,3 +1,5 @@
+[[!redirects decidable objects]]
+
 ##Idea
 A _decidable object_ is the categorical rendering of the notion of a decidable set from [[computability theory]].
 
