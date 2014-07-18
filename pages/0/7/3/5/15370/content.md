@@ -94,6 +94,9 @@ Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute v
 
 ## References
 
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
+
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
 Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.kmj/1138833472))
 
