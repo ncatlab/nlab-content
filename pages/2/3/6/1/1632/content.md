@@ -108,9 +108,9 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 Discussion in the context of ([[global analytic geometry]]) [[analytic geometry]] is in the following articles.
 
-Lecture notes on the concept of the [[spectrum (geometry)]] of a Banach ring include
+Lecture notes on the concept of the [[analytic spectrum]] of a Banach ring include
 
-* Sarah  Brodsky, _Non-archimedean geometry_ ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
+* {#Brodsky12} [[Sarah  Brodsky]], _Non-archimedean geometry_, 2012 ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
 
 A more [[topos theory|topos-theoretic]] perspective:
 
