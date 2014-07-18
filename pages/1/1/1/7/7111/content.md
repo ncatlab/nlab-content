@@ -145,9 +145,15 @@ for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean 
 
 ### Introductions and reviews
 
+A nice survey is in
+
+* {#LeStum12} [[Bernard Le Stum]], _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_, talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
+
 A good introduction to the general idea is at the beginning of
 
 * {#Payne13} [[Sam Payne]], _Topology of nonarchimedean analytic spaces and relations to complex algebraic geometry_ ([arXiv:1309.4403](http://arxiv.org/abs/1309.4403))
+
+
 
 Basic notions are listed in 
 
