@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Non-archimedean geometry is geometry over [[non-archimedean field]]s. While the concrete results are quite different, the basic formalism of algebraic [[scheme]]s and [[formal scheme]]s over a non-archimedean field $K$ is the special case of the standard formalism over any field. The "correct" [[analytic geometry]] over non-archimedean field, however, is _not_ a straightforward analogue of the complex analytic case. As Tate noticed, the sheaf of $K$-valued functions which can be locally written as converging power series over the affine space $K^n$ is too big  (too many analytic functions) due to the fact that the underlying topological space is totally disconnected. Also there are very few $K$-analytic manifolds. This naive approach paralleling the [[complex analytic geometry]] is called by Tate _wobbly $K$-analytic varieties_ an, apart from the case of non-archimedean _local_ fields it is of little use. For this reason Tate introduced a better $K$-algebra of analytic functions, locally takes its maximal spectrum and made a Grothendieck topology which takes into account just a certain _smaller_ set of open covers; this topology is viewed as _rigidified_, hence the varieties based on gluing in this approach is called [[rigid analytic geometry]]. Raynaud has shown how some classes of rigid $K$-varieties can be realized as generic fibers of formal schemes over the ring of integers of $K$; this is called a _formal model_ of a rigid variety. Different formal models are birationally equivalent, more precisely they are related via _admissible blow-ups_. Later more sophisticated approaches appeared: 
@@ -7,9 +22,17 @@ Non-archimedean geometry is geometry over [[non-archimedean field]]s. While the 
 * Fujiwara-Kato's approach ('rigid geometry') which takes a limit over all formal models; this has spirit of [[birational geometry]]  
 * [[global analytic geometry]]. 
 
-### Literature
+## Literature
 
 For literature on specific approaches see the $n$Lab entries [[Berkovich analytic space]], [[adic space]], [[global analytic geometry]], [[rigid analytic geometry]], [[Huber space]], [[perfectoid space]]. 
+
+A nice survey is in 
+
+* {#LeStum12} [[Bernard Le Stum]], _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_, talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
+
+A standard textbook on [[rigid analytic geometry]] is
+
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
 
 For comparison see
 
@@ -21,7 +44,10 @@ For comparison see
 
 * [[Oren Ben-Bassat]], [[Kobi Kremnizer]], _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
 category: geometry
+
 [[!redirects non-Archimedean analytic geometry]]
 [[!redirects nonarchimedean analytic geometry]]
 [[!redirects non-archimedean geometry]]
