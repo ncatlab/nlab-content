@@ -60,7 +60,8 @@ Introductions are in
 
 A comprehensive textbook account is in 
 
-* S. Bosch, U.  G&#252;ntzer, R. Remmert, _Non-archimedean analysis_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961)
+* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 ([MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
 
 
 Comparison of various spectra and topologies is in
