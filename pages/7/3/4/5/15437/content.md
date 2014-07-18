@@ -16,7 +16,7 @@
 {:toc}
 
 [[!redirects theory of infinite decidable object]]
-
+[[!redirects theory of infinite decidable objects]]
 
 ##Idea##
 The _theory of decidable objects_ $D$ is the logical [[theory]] whose models in a [[coherent category]] are precisely the [[decidable objects]].
