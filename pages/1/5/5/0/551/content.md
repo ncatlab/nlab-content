@@ -10,7 +10,7 @@ This means that in the [[internal logic]] of the category, it is true that "for 
 
 ##Properties
 
-$0$ and $1$ are always decidable, and so is any subobject of a decidable object.
+$0$ and $1$ are always decidable, and so is every [[natural numbers object]] $N$ in a topos. A subobject of a decidable object is decidable.
 
 Of course, in a [[Boolean category]], every object is decidable. Conversely in a [[topos]] $\mathcal{E}$, or more generally a coherent category with a [[subobject classifier]], every object is decidable precisely if $\mathcal{E}$ is Boolean.
 
@@ -19,6 +19,8 @@ In [[constructive mathematics]], where [[Set]] is not assumed Boolean, one says 
 A _decidable subobject_ simply means a [[complemented subobject]].  Again, in constructive mathematics, a decidable subobject in $\Set$ is called a _[[decidable subset]]_.
 
 ##Related concepts
+
+*[[theory of decidable objects]]
 
 *[[locally decidable topos]]
 
