@@ -29,6 +29,23 @@ The impact here is that by [[rational homotopy theory]] the rationalization $X_{
 
 Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer, section 2](#Bauer)).
 
+So here we have a diagram
+
+$$
+  \array{
+    && && X_p^{\wedge}
+    \\
+    && & \nearrow && \searrow
+    \\
+    && X && \Downarrow && (X_p^\wedge)_{\mathbb{Q}}
+    \\
+    & \nearrow & & \searrow && \nearrow
+    \\
+    G_{\mathbb{Z}/p\mathbb{Z}}(X) && && X_{\mathbb{Q}}
+  }
+$$
+
+where the square is a [[homotopy pullback]] (and hence, by stability, also a [[homotopy pushout]]), and where the diagonal is a [[homotopy cofiber sequence]] (hence a [[homotopy fiber sequence]]), see e.g. [Lurie 10, lecture 20](http://ncatlab.org/nlab/show/localization+of+a+space#Lurie).
 
 
 ## Variants
