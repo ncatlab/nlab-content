@@ -1,0 +1,9 @@
+
+
+* [Mathematics Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=35709)
+
+## related $n$Lab entries
+
+* [[rigid analytic geometry]]
+
+category: people
