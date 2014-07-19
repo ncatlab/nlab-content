@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 If $S\subset R$ is a left [[Ore set]] in a monoid (or a ring) $R$, then we call the pair $(j,S^{-1}R)$ where $j:R\to S^{-1}R$ is a morphism of monoids (rings) the __left Ore localization__ of $R$ with respect to $S$ if it is the  universal object in the category $C = C(R,S)$
 whose objects are the pairs $(f,Y)$ where $f : R \rightarrow Y$ is a morphism of rings from $R$ into a
 ring $Y$ such that the image $f(S)$ of $S$ consists of units (=multiplicatively invertible elements), and
@@ -40,6 +47,14 @@ At the end, one shows that the map $j = j_S : R \rightarrow S^{-1}R$ given by $i
 Basic property of Ore localization is flatness: $S^{-1}R$ is flat $R$-bimodule. 
 The left Ore localization $j : R\to S^{-1}R$ induced a flat localization functor for the category of left $R$-modules or the category of right $R$-modules. The localization functor is the extension of scalars along $l_S: R\to S^{-1}R$, that is (in the case of left $R$-modules) $M\mapsto S^{-1}R\otimes_R M$ is the flat localization functor $Q^*_S:{}_R Mod\to {}_{S^{-1}R}Mod$ and the restriction of scalars is its right adjoint $Q_{S*}$ which is fully faithful and it has its own right adjoint (the localization functor is affine).
 
+## Related concepts
+
+* [[Ore domain]]
+
+## References
+
 * K. R. Goodearl, Robert B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or __61__ (2nd ed.), 2004, xxiv+344 pp.
 
-* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
+* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
+
+[[!redirects Ore localizations]]
