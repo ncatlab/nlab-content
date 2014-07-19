@@ -112,7 +112,9 @@ $$\mathbb{I}_k = colim_T \; \mathbb{I}_{k, T}$$
 
 and indeed the idele topology coincides with the filtered colimit topology. 
 
-## Basic results 
+## Properties
+
+### Basic results 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -156,7 +158,16 @@ $$\mathbb{A}_k \stackrel{\phi}{\to} \mathbb{A}_k^\wedge \stackrel{i^\wedge}{\to}
 The map $\pi \circ i: k \to k^\wedge$ vanishes. The map $\mathbb{A}_k/k \to k^\wedge$ induced by $\pi: \mathbb{A}_k \to k^\wedge$ is an isomorphism of topological groups, so that $\mathbb{A}_k/k$ is Pontrjagin dual to $k$. 
 =-- 
 
+### Function field analogy
+ {#FunctionFieldAnalogy}
 
+Via the [[function field analogy]] one may understand any [[number field]] or [[function field]] $F$ as being the [[rational functions]] on an [[arithmetic curve]] $\Sigma$. Under this identification the  ring of adeles $\mathbb{A}_F$ of $F$ has the interpretation of being the ring of functions on all punctured [[formal disks]] around all points of $\Sigma$, such that only finitely many of them do not extend to the given point. ([Frenkel 05, section 3.2](#Frenkel05)). 
+
+This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ with [[coefficients]] in the ring of adeles has the interpretation as being the [[Cech cohomology|Cech cocycles]] for [[algebraic vector bundles]] of [[rank]] $n$ on an [[algebraic curve]] with respect to any [[cover]] of that curve by the complement of a finite number of points together with the [[formal disks]] around these points. (Notice that for $n = 1$ then $GL_1(\mathbb{A}_F)$ is the [[group of ideles]]). This is part of a standard construction of the [[moduli stack of bundles]] on algebraic curves, see at _[Moduli space of bundles and the Langlands correspondence](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_.
+
+
+
+[[!include function field analogy -- table]]
 
 
 ## Related concepts
@@ -173,6 +184,10 @@ The map $\pi \circ i: k \to k^\wedge$ vanishes. The map $\mathbb{A}_k/k \to k^\w
 
 * {#Weston} Tom Weston, _The idelic approach to number theory_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  
+Discussion in the context of the [[function field analogy]] and the [[geometric Langlands correspondence]] is in
+
+
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 [[!redirects rings of adeles]]
 
@@ -181,4 +196,3 @@ The map $\pi \circ i: k \to k^\wedge$ vanishes. The map $\mathbb{A}_k/k \to k^\w
 
 [[!redirects adele ring]]
 [[!redirects adele rings]]
-
