@@ -28,7 +28,7 @@ In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with
 
 ### Automorphic representation in number theory
 
-For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\nathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
+For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\mathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
 
 1. **finiteness** -- the functions [[invariant]] under the [[action]] of the [[maximal compact subgroup]] [[span]] a [[finite number|finite]] [[dimension|dimensional]] [[vector space]];
 
