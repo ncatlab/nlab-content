@@ -26,4 +26,6 @@ The sociology of folklore theorems can be subtle. In semi-formalized areas such 
 
 ## Related concepts
 
+* [[analogy]]
+
 * [[conjecture]], [[theorem]], [[proposition]]
