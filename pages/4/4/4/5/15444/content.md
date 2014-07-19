@@ -1,0 +1,16 @@
+
+## Examples
+
+* [[function field analogy]]
+
+## Related entries
+
+* [[folklore]]
+
+* [[conjecture]], [[theorem]]
+
+## References
+
+* Wikipedia, _[Analogy](http://en.wikipedia.org/wiki/Analogy)_
+
+[[!redirects analogies]]
