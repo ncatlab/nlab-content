@@ -21,7 +21,7 @@ Quite generally, _automorphic forms_ are [[functions]] on [[coset spaces]] $G/K$
 
 For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](http://ncatlab.org/nlab/show/modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates.
 
-In [[harmonic analysis]] one typically considers [[topoligical groups]] and [[discrete subgroups]].
+In [[harmonic analysis]] one typically considers [[topological groups]] and [[discrete subgroups]].
 
 For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then the automorphic functions form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. See at _[[Langlands correspondence]]_ for more on this. 
 
