@@ -43,3 +43,6 @@ Sending [[spaces]] to their suitable algebras of functions constitutes a basic [
 [[!redirects algebras of functions]]
 [[!redirects function algebra]]
 [[!redirects function algebras]]
+
+[[!redirects function ring]]
+[[!redirects function rings]]
