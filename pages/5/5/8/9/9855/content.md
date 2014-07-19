@@ -30,6 +30,7 @@ $$
 
 In [[constructive mathematics]], it is necessary that $I$ have [[decidable equality]]; alternatively, one could let the Kronecker delta take values in the [[lower reals]].
 
+The Kronecker delta is the [[characteristic map]] of the [[diagonal function]] into $I \times I$. More generally, we may call the [[characteristic morphism]] of a [[diagonal morphism]] in any [[topos]] a "Kronecker delta".
 
 ## Related concepts
 
