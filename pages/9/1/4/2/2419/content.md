@@ -59,7 +59,7 @@ such that
 
 =--
 
-### Abstractly in terms of sections of a line bundle over the moduli stack
+### As sections of a line bundle over the moduli stack
  {#AsSections}
 
 More abstractly, for $\mathcal{M}_{ell}$ the [[moduli stack of elliptic curves]] (or rather its [[Deligne-Mumford compactification]]) and $A \to \mathcal{M}_{ell}$ the corresponding universal bundle, write $\Omega^1_{A/S}$ for the [[line bundle]] of fiberwise [[Kähler differential forms]]. Write $e$ for the 0-[[section]] of this line bundle. Then
@@ -72,8 +72,19 @@ is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular for
 
 
 ### For congruence subgroups
+ {#ForCongruenceSubgroups}
 
-Similarly one considers modular forms for [[congruence subgroups]] of the full [[modular group]].
+Similarly one considers modular forms for [[congruence subgroups]] of the full [[modular group]], hence on the space of [[elliptic curves with level structure]].
+
+### As automorphic forms
+ {#AsAutomorphicForms}
+
+Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the [[special linear group]] $SL(2,\mathbb{R})$. (e.g.[this MO comment](http://mathoverflow.net/a/124790/381), better reference to be added...).
+
+As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$. 
+
+This generalizes to the case of other [[congruence subgroups]] (as [above](ForCongruenceSubgroups)). Generally such functions on [[coset spaces]] like this are called _[[automorphic forms]]_. See there for more.
+
 
 ## Properties
 
