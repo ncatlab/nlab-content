@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,16 +15,13 @@
 
 ## Definition
 
-A  _biholomorphic function_ is a [[holomorphic function]] between complex manifolds such that there exists an inverse holomorphic function (a function which is a set-theoretic inverse and at the same time holomorphic).
+A _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection]] on the underlying sets and whose set-theoretic inverse is also holomorphic.
 
 ## Properties
 
-### Between complex manifolds
- {#BetweenComplexManifolds}
+If $f:U\to V$ is a bijective holomorphic map of open subsets of complexfied [[Cartesian space]] ${\mathbb{C}}^n$, then the [[determinant]] of the [[Jacobian]] $J(f)$ is nowhere $0$, that is $f^{-1}$ is holomorphic.
 
-Any non-constant [[surjection|surjective]] [[holomorphic map]] between [[connected topological space|connected]] [[compact topological space|compact]] [[complex manifolds]] of equal [[dimension]] is a ramified finite-sheet [[covering space|covering]]. If this map is in particular [[bijection|bijective]], then there is only one sheet, and thus it is a biholomorphism.
-
-([MO discussion](http://mathoverflow.net/a/44950/381))
+(See this [MO discussion](http://mathoverflow.net/a/44950/381) and also this other [MO discussion](http://mathoverflow.net/questions/147100/any-non-constant-surjective-holomorphic-map-between-connected-compact-complex-ma?lq=1))
 
 ## References
 
