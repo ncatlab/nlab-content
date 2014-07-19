@@ -25,7 +25,7 @@
 
 There is a noticeable [[analogy]] between phenomena ([[theorems]]) in the theory of [[number fields]] and those in the theory of [[function fields]] ([Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)). When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include in [[complex analytic geometry]] the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). 
 
-For instance ([Weil 39](#Weil39)) defined an invariant of a [[number field]] which is analogous to the [[genus]] of the [[algebraic curve]] on which a given [[function field]] is the rational functions, the _[[genus of a number field]]_. This is such as to make the statement of the [[Riemann-Roch theorem]] extend to [[arithmetic geometry]] ([Neukirch 92, chapter II, prop.(3.6)](#Neukirch92)).
+For instance ([Weil 39](#Weil39)) defined an invariant of a [[number field]] -- the _[[genus of a number field]]_-- which is analogous to the [[genus of a curve|genus]] of the [[algebraic curve]] on which a given [[function field]] is the [[rational functions]]. This is such as to make the statement of the [[Riemann-Roch theorem]] for [[algebraic curves]] extend to [[arithmetic geometry]] ([Neukirch 92, chapter II, prop.(3.6)](#Neukirch92)).
 
 It is also the function field analogy which induces the conjecture of the [[geometric Langlands correspondence]] by analogy from the the number-theoretic [[Langlands correspondence]]. Here one finds that the [[moduli stack of bundles]] over a [[complex curve]] is analogous in absolute [[arithmetic geometry]] to the [[coset space]] of the [[general linear group]] with coefficients in the [[ring of adeles]] of a number field, on which [[unramified]] [[automorphic representations]] are functions. Under this analogy the [[Weil conjecture on Tamagawa numbers]] may be regarded as giving the [[groupoid cardinality]] of the [[moduli stack of bundles]] in [[arithmetic geometry]].
 
@@ -54,4 +54,3 @@ In summary then the analogy says that the theory of [[function fields]] looks mu
 
 
 * {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
-
