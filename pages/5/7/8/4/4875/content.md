@@ -73,6 +73,8 @@ The [[site]] of definition for the [[Cahiers topos]] is the category of spaces t
 
 * [[superpoint]]
 
+* [[formal disk]]
+
 * [[infinitesimal extension]]
 
 [[!include cohesion - table]]
