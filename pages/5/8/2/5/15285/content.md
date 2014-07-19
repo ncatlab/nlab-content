@@ -1,14 +1,15 @@
 **[[function field analogy]]**
 
-| [[number fields]] ("[[function fields]] of [[curves]] over [[F1]]")  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_p$ ([[arithmetic curves]])  | [[Riemann surfaces]]/[[algebraic curves]] over $\mathbb{C}$ |  |
+| [[number fields]] ("[[function fields]] of [[curves]] over [[F1]]")  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_q$ ([[arithmetic curves]])  | [[Riemann surfaces]]/[[complex curves]] |  
 |-------------------|----------------------|----|
 |  |  |  |
-| $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_p[t]$ ([[polynomials]]) |   |
-| $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_p(t)$ ([[rational functions]])  |  |
-| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) |  $\mathbb{C}((t))$ (functions on punctured [[formal disk]]) |
-| $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_p[ [ t ] ]$ ([[power series]])  |  $\mathbb{C}[ [t] ]$ (functions on [[formal disk]])  |
+| $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[t]$ ([[polynomials]], [[function algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |   |
+| $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(t)$ ([[rational functions]])  |  |
+| $p$ ([[prime number]])  |  $x \in \mathbb{F}_p$  |   |
+| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
+| $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ (functions on [[formal disk]] around $x$)  |
 |  |  |  |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $X$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] in [[complex curve]] $\Sigma$)  |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $X$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
 | $Spec(\mathcal{O}_K)$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $X$ ([[arithmetic curve]]) |   $\Sigma$ ([[complex curve]]) 
 | $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ |  | $x \in \Sigma$ |
