@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 # Contents
 * table of contents
 {: toc}
@@ -21,7 +34,7 @@ The group of natural numbers is naturally even a [[rig]] -- in fact the [[initia
 
 The underlying [[sets]] $\mathbb{Z}$ and $\mathbb{N}$ are [[isomorphic]]. Some subcultures of mathematics (and not only [[set theory|set theorists]]) use the term 'integer' synonymously for a natural number.  Computer scientists distinguish between 'unsigned integers' (natural numbers) and 'signed integers' (integers as described here).  Translations can also cause confusion with the term 'whole number'.
 
-In [[number theory]], one generalises integers to [[algebraic integers]], an instance of the [[red herring principle]].  Accordingly, some number theorists will call the integers 'rational integers' to clarify; $\mathbb{Z}$ is the [[ring of integers]] in the [[number field]] $\mathbb{Q}$ of [[rational numbers]].  (Compare, for example, [[Gaussian integers]] and [[Gaussian numbers]].)
+In [[number theory]], one generalises integers to [[algebraic integers]], an instance of the [[red herring principle]].  Accordingly, some number theorists will call the integers '[[rational integers]]' to clarify; $\mathbb{Z}$ is the [[ring of integers]] in the [[number field]] $\mathbb{Q}$ of [[rational numbers]].  (Compare, for example, [[Gaussian integers]] and [[Gaussian numbers]].)
 
 The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a generic word for 'numbers'.  (Compare [[Richard Dedekind|Dedekind]]\'s use of that word in the title of his famous book on the [[foundations]] of [[real numbers]].)
 
