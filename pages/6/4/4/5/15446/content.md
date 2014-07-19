@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _global field_ is either
+
+
+* a [[number field]]
+
+* or a [[function field]] over a [[finite field]];
+
+and hence is a [[finite number|finite]]-[[dimension|dimensional]] [[field extension]] of either
+
+* the [[rational number]] $\mathbb{Q}$;
+
+* the [[rational functions]] $\mathbb{F}_q(t)$ with [[coefficients]] in the [[finite field]] $\mathbb{F}_q$.
+
+The [[function field analogy]] says how both these kinds of global fields are indeed analogous. In particular for both types there is a concept of [[ring of adeles]], [[group of ideles]], etc.
+
+
+
+## References
+
+* Wikipedia, _[Global field](http://en.wikipedia.org/wiki/Global_field)_
+
+[[!redirects global fields]]
