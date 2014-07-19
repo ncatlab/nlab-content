@@ -56,6 +56,8 @@ Under the [[relation between category theory and type theory]] products in a cat
 
 * [[external product]]
 
+* [[restricted product]]
+
 * [[product type]]
 
 * [[base change]]
