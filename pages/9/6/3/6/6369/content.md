@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 =--
 =--
 
@@ -63,7 +67,11 @@ The circle of $n$Lab entries belonging or related closely to algebraic number th
 
 ### Literature
 
-* A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
+
+* Albrecht Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
+
+
+* {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
 
 * Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics 27, 1993
 
@@ -71,6 +79,7 @@ The following survey of Connes-Marcolli work has an accessible quick introductio
 
 * P. Almeida, _Noncommutative geometry and arithmetics_, Russian Journal of Mathematical Physics 16, No. 3, 2009, pp. 350&#8211;362, [doi](http://dx.doi.org/10.1134/S1061920809030030), see also nLab:arithmetic and noncommutative geometry
 
+See also
 
 * Alexander Schmidt, _Higher dimensional class field theory from a topological point of view_, [page](http://www.mathi.uni-heidelberg.de/~schmidt/papers/schmidt21-en.html)
   
