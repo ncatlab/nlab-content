@@ -27,7 +27,9 @@ When considering the adeles and ideles, it is their [[topology]] as much as thei
 
 ## Definition
 
-We start off very simply with the algebraic description of the adele ring over the rational numbers. 
+### For the rational numbers
+
+We start off very simply with the algebraic description of the adele ring over the [[rational numbers]]. 
 
 +-- {: .num_defn }
 ###### Definition
@@ -43,26 +45,67 @@ $$
 $$
 
 The _adele ring_ is the tensor product $\mathbb{A}_\mathbb{Q} \coloneqq \mathbb{Q} \otimes_\mathbb{Z} \mathbb{A}_\mathbb{Z}$. 
+
 =--
 
 e.g. section 3 [here](http://wiki.epfl.ch/gant/). 
 
-This definition generalizes to any [[number field]] $k$. Let $\mathcal{O} = \mathcal{O}_k$ be the ring of algebraic integers in $k$, and let $P$ be its set of [[places]] (equivalence classes of [[valuations]] of $\mathcal{O}$). Furthermore, let $S$ be the set of archimedean places. 
++-- {: .num_remark }
+###### Remark
 
-The completion $k_v$ at each archimedean place $v \in S$ is isomorphic to one of the local fields $\mathbb{R}$ or $\mathbb{C}$. The completion $k_v$ for $v \notin S$ is a [[local field]] with an open compact subring $\mathcal{O}_v$ consisting of elements of norm $1$ or less. 
+By [this proposition](profinite+completion+of+the+integers#AsProductOverAlsoPAdicIntegers) we have $\hat \mathbb{Z} \simeq \underset{p\;prime}{\prod} \mathbb{Z}_p$ and hence
+
+$$
+  \mathbb{A}_{\mathbb{Z}} \simeq \mathbb{R} \times
+  \underset{p\;prime}{\prod} \mathbb{Z}_p
+  \,.
+$$
+
+=--
+
+This definition generalizes to any [[number field]] $k$. 
+
+### For any number field
+ {#ForAnyNumberField}
+
+Let 
+
+* $k$ be a [[number field]];
+
+* $\mathcal{O} = \mathcal{O}_k$ the [[ring of integers|ring of]] [[algebraic integers]] in $k$: 
+
+* $P$ be its [[set]] of [[places]] (equivalence classes of [[absolute values]] on $\mathcal{O}$); 
+
+* $S\subset P$ be the set of [[archimedean valuation|archimedean]] places;
+
+* $k_v$ the [[formal completion]] of $k$ at $v\in P$. 
+
+Notice that
+
+* for $v \in S$ then $k_v$ is isomorphic to one of the [[local fields]] $\mathbb{R}$ or $\mathbb{C}$;
+
+* for $v \notin S$ then $k_v$ is a [[local field]] with an open compact subring $\mathcal{O}_v$ consisting of elements of [[norm]] $1$ or less. 
+
 
 +-- {: .num_defn} 
 ###### Definition 
-The ring of _integral adeles_ $\mathbb{A}_\mathcal{O}$ is the product of the profinite completion $\widehat{\mathcal{O}}$ with the archimedean completions, 
 
-$$\mathbb{A}_\mathcal{O} \coloneqq \widehat{\mathcal{O}} \times \prod_{v \in S} k_v,$$ 
+For $k$ a [[number field]], the ring of _integral adeles_ $\mathbb{A}_{\mathcal{O}}$ is the [[product]] of the [[profinite completion]] $\widehat{\mathcal{O}}$ with all the archimedean completions, 
 
-and the _ring of adeles_ over $k$ is the tensor product $\mathbb{A}_k \coloneqq k \otimes_\mathcal{O} \mathbb{A}_\mathcal{O}$. 
+$$
+  \mathbb{A}_\mathcal{O} 
+   \coloneqq 
+  \widehat{\mathcal{O}} \times \prod_{v \in S} k_v 
+  \,,
+$$ 
+
+and the _ring of adeles_ over $k$ is the [[tensor product]] $\mathbb{A}_k \coloneqq k \otimes_\mathcal{O} \mathbb{A}_\mathcal{O}$. 
+
 =-- 
 
 It may be shown that 
 
-$$\widehat{\mathcal{O}} \cong \prod_{p \notin S} \mathcal{O}_v$$ 
+$$\widehat{\mathcal{O}} \cong \prod_{v \notin S} \mathcal{O}_v$$ 
 
 where each non-archimedean place may be identified with a prime ideal $p$. Now, if we view $k$ as the localization of $\mathcal{O}$ obtained by inverting all nonzero elements $x \in \mathcal{O}$, then $k$ may be written as a filtered colimit of a system of inclusions of localizations:  
 
