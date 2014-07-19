@@ -17,6 +17,8 @@
 
 * [[theorem]], [[proof]]
 
+* [[analogy]]
+
 ## References
 
 * Wikipedia, _[Conjecture](http://en.wikipedia.org/wiki/Conjecture)_
