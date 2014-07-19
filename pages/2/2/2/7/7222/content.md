@@ -38,6 +38,8 @@ $$
 
 where...
 
+If $X$ is an [[algebraic curve]], then the Riemann-Roch theorem reduces to a statement about the [[Euler characteristic]]/[[genus of a curve|curve]]. This generalizes to [[arithmetic geometry]] with the notion of [[genus of a number field]].
+
 ## Related concepts
  
 * [[Hirzebruch-Riemann-Roch theorem]]
@@ -60,6 +62,13 @@ For a general survey see
 
 * Wikipedia, _[Grothendieck-Riemann-Roch theorem](http://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem)_
 
+* Wikipedia, _[Riemann-Roch theorem for surfaces](http://en.wikipedia.org/wiki/Riemann&#8211;Roch_theorem_for_surfaces)_
+
+Discussion of Riemann-Roch over [[arithmetic curves]] is in 
+
+* {#Neukirch92} [[Jürgen Neukirch]], chapter III, section 3 of _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
+
+
 The refinement to [[differential cohomology]], hence [[differential K-theory]],  is discussed in section 6.2 of 
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663))
@@ -74,4 +83,3 @@ Over [[algebraic stacks]]/[[Deligne-Mumford stacks]] the GRR theorem is discusse
 * Dan Edidin, _Riemann-Roch for Deligne-Mumford stacks_ ([arXiv:1205.4742v1](http://arxiv.org/abs/1205.4742v1))
 
 [[!redirects Riemann-Roch theorem]]
-
