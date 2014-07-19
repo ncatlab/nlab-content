@@ -75,7 +75,62 @@ In [[homotopy type theory]], this can be formalized as a [[higher inductive type
 
 The topological circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. 
 
-The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Equivalently, the loop space of the circle is the free group on one generator. (A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).) This fact encodes all (except the zeroth) the [[homotopy group]]s of the circle. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). 
+The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Equivalently, the loop space of the circle is the free group on one generator. A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).
+
+We present a proof below. Let $\infty Grpd_*$ denote the [[(∞,1)-category]] of pointed [[infinity-groupoids]].
++-- {: .num_lemma #leftAdjoint}
+###### Lemma
+The $(\infty,1)$-functor $-_1:Grp(\infty Grpd)\to \infty Grpd_*$ which sends a group object internal to $\infty Grpd$ to its object in degree 1 has left adjoint $J:\infty Grpd_* \to Grp(\infty Grpd)$ characterized by the formula ${\mathbf{B}}J(X) \simeq \Sigma X$.
+=--
+
++-- {: .proof}
+###### Proof
+Recall that, for $G$ a group object internal to $\infty Grpd$, there is a natural homotopy equivalence $G_1\simeq \Omega {\mathbf{B}}G$. For $X$ a a pointed space, let $i_X: X\to \Omega \Sigma X$ denote the [[adjunct]] to the identity map $id_{\Sigma X}:\Sigma X\to\Sigma X$ under the suspending-looping adjunction. 
+
+We have to check the universal property
+$$
+  \array{
+    && X 
+    \\
+    & {}^{\mathllap{i_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    \Omega\Sigma X &&\underset{\Omega {\mathbf{B}}\tilde f}{\to}&& \Omega {\mathbf{B}} G
+    \\
+    \\
+    J(X) &&\underset{\tilde f}{\to}&& G
+  }
+$$
+Indeed, the unique $(\infty,1)$-group homomorphism $\tilde{f}$ which fits into the above diagram is characterized by the property that ${\mathbf{B}}\tilde{f}:\Sigma X \to {\mathbf{B}} G$ is adjunct to $f: X\to \Omega {\mathbf{B}} G$.
+ =--
+
++-- {: .num_theorem #loopingTheCirle}
+###### Theorem
+The loop space $\Omega S^1$ of the circle is 1-truncated with $\pi_0(\Omega S^1)$ the free group ${\mathbb{Z}}$ of [[integer]]s.
+=--
+
++-- {: .proof}
+###### Proof
+Since $S^1$ is homotopy equivalent to the suspension $\Sigma S^0$ of the two-point space, for $J$ denote the left adjoint described in the previous lemma, it suffices to show that the group object $H$ internal to $\infty Grpd$ such that $H_1$ is the discrete group ${\mathbb{Z}}$ of [[integer]]s has the universal property of $J(S^0)$.  
+
+Indeed, regard $S^0$ as a based subspace of ${\mathbb{Z}}$ by sending the nonbasepoint of $S^0$ to a generator of ${\mathbb{Z}}$. Then, for $G$ a group object, let a based map $f:S^0\to \Omega {\mathbf{B}} G$ be given
+$$
+  \array{
+    && S^0 
+    \\
+    & {}^{\mathllap{inc}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    {\mathbb{Z}} &&\underset{\Omega {\mathbf{B}}\tilde f}{\to}&& \Omega {\mathbf{B}} G
+    \\
+    \\
+    H &&\underset{\tilde f}{\to}&& G
+  }
+$$
+The unique $(\infty,1)$-group homomorphism $\tilde{f}$ which fits into the above diagram is characterized by the property that ${\mathbf{B}}\tilde{f}:H \to {\mathbf{B}} G$ is adjunct to $(t^n\mapsto \ast_n f(t)): {\mathbb{Z}}\to \Omega {\mathbf{B}} G$. Here, we denote the generator of ${\mathbb{Z}}$ by $t$ and $\ast_n f(t)$ denotes the (equivalence class of) n-fold self-concatenation of a loop whose equivalence class is $f(t)$.
+
+Hence, by abstract nonsense, $J(S^0)$ and $H$ are equivalent as groups. Therefore $\Omega {\mathbf{B}} J(S^0)\simeq \Omega {\mathbf{B}} H \simeq H_1 := {\mathbf{Z}}$, which is the assertion.   
+ =--
+
+This theorems encodes all (except the zeroth) [[homotopy group]]s of the circle. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). 
 
 The [[product]] of the circle with itself is the ($2$)-[[torus]]
 
