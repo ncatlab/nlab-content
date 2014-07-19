@@ -17,7 +17,16 @@
 
 ## Idea
 
-In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. However, it was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation was improved somewhat if the number field is embedded in the cartesian product of its completions at all of its absolute values. With a few additional restrictions, these objects are known as the _[[adeles]]_, and the [[group of units|units]] of this ring are called the _ideles_.
+The _group of ideles_ $\mathbb{I}$ is the [[group of units]] in the [[ring of adeles]] $\mathbb{A}$:
+
+$$
+  \mathbb{I} = \mathbb{A}^\times \coloneqq GL_1(\mathbb{A})
+  \,.
+$$
+
+In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. However, it was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation was improved somewhat if the number field is embedded in the cartesian product of its [[formal completions]] at all of its [[absolute values]]. With a few additional restrictions, these objects are known as the _[[adeles]]_, and the [[group of units|units]] of this ring are called the _ideles_.
+
+
 When considering the adeles and ideles, it is their [[topology]] as much as their algebraic structure that is of interest. Many important results in [[number theory]] translate into simple statements about the topologies of the adeles and ideles. For example, the finiteness of the [[ideal class group]] and the [[Dirichlet unit theorem]] are equivalent to a certain quotient of the ideles being compact and discrete.
 
 ([Weston, p. 1](#Weston))
@@ -51,6 +60,22 @@ The [[group of units]] of the ring of adeles is called the _group of ideles_.
 
 =--
 
+## Properties
+
+### Function field analogy
+ {#FunctionFieldAnalogy}
+
+Via the [[function field analogy]] one may understand any [[number field]] or [[function field]] $F$ as being the [[rational functions]] on an [[arithmetic curve]] $\Sigma$. Under this identification the [[ring of adeles]] $\mathbb{A}_F$ of $F$ has the interpretation of being the [[ring of functions]] on all punctured [[formal disks]] around all points of $\Sigma$, such that only finitely many of them do not extend to the given point. ([Frenkel 05, section 3.2](#Frenkel05)). 
+
+This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ with [[coefficients]] in the [[ring of adeles]] has the interpretation as being the [[Cech cohomology|Cech cocycles]] for [[algebraic vector bundles]] of [[rank]] $n$ on an [[algebraic curve]] with respect to any [[cover]] of that curve by the complement of a finite number of points together with the [[formal disks]] around these points. Here for $n = 1$ then $GL_1(\mathbb{A}_F)$ is the group of ideles. 
+
+This is part of a standard construction of the [[moduli stack of bundles]] on algebraic curves, see at _[Moduli space of bundles and the Langlands correspondence](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_.
+
+
+
+[[!include function field analogy -- table]]
+
+
 
 ## References
 
@@ -64,6 +89,9 @@ The [[group of units]] of the ring of adeles is called the _group of ideles_.
 * Tom Weston, _The idelic approach to number theore_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  {#Weston}
  
+Discussion in the context of the [[geometric Langlands correspondence]] is in 
+
+* {#Frenkel05} [[Edward Frenkel]], section 3.2 of _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 [[!redirects idele]]
 [[!redirects ideles]]
