@@ -21,8 +21,17 @@ $$ \array {
 } $$
 is a [[pullback]] square.
 
+### See also
+* [[classifying morphism]]
+* [[subobject classifier]]
 
 [[!redirects characteristic functions]]
 [[!redirects characteristic morphism]]
 [[!redirects indicator functions]]
 [[!redirects indicator function]]
+
+[[!redirects characteristic map]]
+[[!redirects characteristic function]]
+
+[[!redirects characteristic maps]]
+[[!redirects characteristic morphisms]]
