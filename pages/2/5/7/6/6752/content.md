@@ -70,7 +70,8 @@ See also
 
 * Stephen Gelbart, _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219; Edward Frenkel, _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, [abstract](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01345-3/home.html), [pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf) 
 * the [digital archive](http://sunsite.ubc.ca/DigitalMathArchive/Langlands/bibliography/bibliography.html) of [[Robert Langlands]]' articles at sunsite.ubc.ca
-
+* Michael Harris, Automorphic Galois representations and Shimura varieties, to appear in Proceedings of the ICM 2014 ([pdf](https://www.imj-prg.fr/~michael.harris/2014.pdf)).
+* Richard Taylor, Galois Representations, ICM 2002 ([long version](http://www.math.ias.edu/~rtaylor/longicm02.pdf)).
 [[!redirects Langlands duality]]
 
 [[!redirects Langlands correspondence]]
