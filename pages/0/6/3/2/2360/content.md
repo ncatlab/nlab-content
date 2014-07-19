@@ -46,6 +46,10 @@ A formal spectrum is an example of a [[formal scheme]]. Formal schemes in genera
 
 The formal spectrum of a separated complete topological $I$-adic ring $R$ depends just on the underlying topology on $R$ and not on a choice of the ideal $I$ generating this topology.
 
+## Related concepts
+
+* [[formal disk]]
+
 ## References
 
 * _[[A Survey of Elliptic Cohomology - formal groups and cohomology]]_
