@@ -1,3 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
 
 Pro-homotopy theory involves the study of [[model category]] and other abstract homotopy theoretic structure on pro-categories of spaces or simplicial sets. (The term can also be used for any extension of homotopical structures for a category $C$ to the corresponding $Pro(C)$.)
@@ -17,6 +31,8 @@ and is closely related to [[profinite homotopy theory]].
 * [[profinite space]]
 
 * [[simplicial profinite space]]
+
+* [[pro-left adjoint]]
 
 The homotopy theory of simplicial profinite spaces has been explored by [[Fabien Morel]] and [[Gereon Quick]]. 
 
