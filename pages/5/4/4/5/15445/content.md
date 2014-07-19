@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _restricted product_ $\prod^\prime_{s\in S} X_s$ indexed by a [[set]] $S$ is the [[subobject]] of the genuine [[product]] on those elements  which are "trivial" for all but a [[finite number]] of indices $s\in S$.
+
+Here what "trivial" means depends on the context. Often the $X_s$ are [[groups]] with specified [[subgroups]] $K_s \subset X_s$ and "is trivial" is taken to be "is in $K_s$". If $K_s$ is the [[trivial group]] then "is trivial" means "is the neutral element".
+
+## References
+
+* Wikipedia _[Restricted product](http://en.wikipedia.org/wiki/Restricted_product)_
+
+[[!redirects restricted product]]
