@@ -64,7 +64,7 @@ The $(\mathfrak{A},\mathcal{D})$-systems were partly motivated by the [[calculus
 
 * [[formal dg-algebra]]
 
-* [[formal neighbourhood]]
+* [[formal neighbourhood]], [[formal disk]]
 
 * [[Hasse local-global principle]]
 
