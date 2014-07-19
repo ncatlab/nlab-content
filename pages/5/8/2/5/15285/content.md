@@ -9,10 +9,12 @@
 | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
 | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ (functions on [[formal disk]] around $x$)  |
 |  |  |  |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $X$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
-| $Spec(\mathcal{O}_K)$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $X$ ([[arithmetic curve]]) |   $\Sigma$ ([[complex curve]]) 
-| $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ |  | $x \in \Sigma$ |
+| $Spec(\mathcal{O}_K)$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $\Sigma$ ([[arithmetic curve]]) |   $\Sigma$ ([[complex curve]])  |
+| [[genus of a number field]] |  [[genus of an algebraic curve]] | [[genus of a surface]] | 
+|   |    |    |
+| $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ | $x \in \Sigma$ | $x \in \Sigma$ |
 | $K_v$ ([[formal completion]] at $v$)  |   | $\mathbb{C}((t_x))$ ([[function algebra]] on punctured [[formal disk]] around $x$) |
 | $\mathcal{O}_{K_v}$ ([[ring of integers]] of [[formal completion]]) |    |  $\mathbb{C}[ [ t_x ] ]$ ([[function algebra]] on [[formal disk]] around $x$) |
 | $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$  | 
