@@ -16,7 +16,7 @@
 
 ## Definition
 
-A  _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection]] on the underlying [[sets]] and whose set-theoretic [[inverse]] is also holomorphic.
+A  _biholomorphic function_ is a [[holomorphic function]] between complex manifolds such that there exists an inverse holomorphic function (a function which is a set-theoretic inverse and at the same time holomorphic).
 
 ## Properties
 
