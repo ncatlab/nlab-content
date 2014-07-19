@@ -32,7 +32,7 @@ Let $k$ be a [[ring]], and $T$ the [[Lawvere theory]] of [[associative algebra]]
 The canonical $T$-[[line object]] is the **affine line**
 
 $$
-  \mathbb{A}_k := Spec(F_T(*))  = Spec k[t]
+  \mathbb{A}_k := Spec(F_T(*))  = Spec (k[t])
   \,.
 $$
 
