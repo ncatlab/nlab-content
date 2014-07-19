@@ -1,5 +1,5 @@
 
-> this entry is about the notion of _genus_ in [[algebraic topology]]/[[cohomology]]. For classification of [[surfaces]] see instead the (related) entry _[[genus of a surface]]_. There is also [[genus of a lattice]].
+> this entry is about the notion of _genus_ in [[algebraic topology]]/[[cohomology]]. For classification of [[surfaces]] see instead the (related) entry _[[genus of a surface]]_, _[[genus of a curve]]_. There is also [[genus of a lattice]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
