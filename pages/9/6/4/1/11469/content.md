@@ -90,17 +90,23 @@ This was proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].  They reformulated 
 +-- {: .num_remark #RelationToModuliStack}
 ###### Remark
 
-Under the [[function field analogy]], a [[global field]] $K_X$ such as a [[function field]] or a [[number field]] is interpreted as the field of [[global sections]] of the [[rational functions]] on an [[arithmetic curve]] $\Sigma$ over a [[finite field]] $\mathbb{F}_q$ or "over $\mathbb{F}_1$" (the would-be [[field with one element]]), respectively. Moreover, under this [[analogy]]
+Under the [[function field analogy]], a [[global field]] $K_X$ such as a [[function field]] or a [[number field]] is interpreted as the field of [[global sections]] of the [[rational functions]] on an [[arithmetic curve]] $X$ over a [[finite field]] $\mathbb{F}_q$ or "over $\mathbb{F}_1$" (the would-be [[field with one element]]), respectively. Moreover, under this [[analogy]]
 
-* the [[ring of adeles]] $\mathbb{A}_X$ is the ring of functions on all punctured [[formal disks]] in $X$ subject to the condition that all but at most finitely many of them extended to the un-punctured disk;
+* the [[ring of adeles]] $\mathbb{A}_X$ is the ring of functions on all punctured [[formal disks]] in $X$ subject to the condition that all but at most finitely many of them extend to the un-punctured disk;
 
 * accordingly $G(\mathbb{A}_X)$ is the group of $G$-valued such functions;
 
-* the quotient $K_X\backslash \mathbb{A}_X$ is hence the quotient of such functions on punctured formal disks around finitely many points by the functions on $\Sigma$ with these finitely many points removed; and similarly $G(K_X)\backslash G(\mathbb{A}_X)$ is the quotient of group-valued such function;
+* the [[quotient]] $K_{X}\backslash \mathbb{A}_{X}$ is hence the quotient of such functions on punctured formal disks around finitely many points by the functions on $\Sigma$ with these finitely many points removed; and similarly $G(K_X)\backslash G(\mathbb{A}_X)$ is the quotient of group-valued such function;
 
 * the ring $\mathcal{O}$ is the ring of functions on all formal disks in $\Sigma$;
 
-* hence the further double [[quotient stack]] $G(K_X)\backslash G(\mathbb{A}_X)//G(\mathcal{O})$ is the [[groupoid]] of [[Cech cohomology|Cech cocycles]] with Cech coboundaries between them for $G$-[[principal bundles]] relative to [[covers]] of $\Sigma$ with patches being the complement of finitely many points and the formal disks around these points.
+* hence the further double [[quotient stack]] 
+
+  $$
+    Bun_G(X) = G(K_X)\backslash G(\mathbb{A}_X)//G(\mathcal{O})
+  $$ 
+  
+  is the [[groupoid]] of [[Cech cohomology|Cech cocycles]] with Cech coboundaries between them for $G$-[[principal bundles]] relative to [[covers]] of $\Sigma$ with patches being the complement of finitely many points and the formal disks around these points.
 
 For more on this see at _[moduli space of bundles -- over curves](http://ncatlab.org/nlab/show/moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_.
 
