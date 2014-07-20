@@ -29,7 +29,7 @@ In the [[relative point of view]] the $S$-schemes are schemes with a morphism of
 
 After the very first observations by Tits, pioneers were Soul&#233; and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], James Borger and Oliver Lorscheid. 
 
-#References and links#
+## References and links
 
 See also [[Lambda-ring]], [[blue scheme]] and [[tropical geometry]].
 
