@@ -17,7 +17,7 @@
 
 A semigroup is like a [[monoid]] where there might not be an [[identity element]].  
 
-The term "semigroup" is standard, but _semi-monoid_ would be more sytematic.
+The term "semigroup" is standard, but _semi-monoid_ would be more systematic.
 
 ## Definition
 
