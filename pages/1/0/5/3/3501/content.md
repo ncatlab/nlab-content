@@ -5,7 +5,7 @@
 
 ## Idea
 
-To a space (typically with singularities) of certain kind (there are variants) one associates category whose objects are called **perverse sheaves**. They are neither perverse nor sheaves; but they are related to some sheaf categories and notably generalize the [[intersection cohomology]]. Perversity is there a parameter involved in grading of intersection cohomology groups. Another feature similar to sheaves is that they are somehow determined by the local data; there is a famous gluing due [[Sasha Beilinson]]. In one of the approaches (see MacPherson's notes) there are even modified Steenrod-Eilenberg axioms stated for intersection cohomology. 
+To a space (typically with singularities) of a certain kind (there are variants) one associates a category whose objects are called **perverse sheaves**. They are neither perverse nor sheaves, but they are related to some sheaf categories and notably generalize the [[intersection cohomology]]. Perversity is there a parameter involved in the grading of intersection cohomology groups. Another feature similar to sheaves is that they are somehow determined by the local data; there is a famous gluing due to [[Sasha Beilinson]]. In one of the approaches (see MacPherson's notes) there are even modified Steenrod-Eilenberg axioms stated for intersection cohomology. 
 
 ## Terminology
  {#Terminology}
