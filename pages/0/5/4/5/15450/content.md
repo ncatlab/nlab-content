@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The analog of the [[Riemann zeta function]] for _[[number fields]]_.
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## References
+
+* Wikipedia, _[Goss zeta function](http://en.wikipedia.org/wiki/Goss_zeta_function)_
+
+[[!redirects Goss zeta functions]]
