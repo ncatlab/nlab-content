@@ -16,7 +16,7 @@
 
 ## Idea
 
-Under the [[function field analogy]] it makes sense to regard a [[number field]] as the [[rational function]] on an "[[arithmetic curve]] over [[F1]]". Accoridngly, there is a sensible version of the concept of [[genus of a curve]] for number fields. 
+Under the [[function field analogy]] it makes sense to regard a [[number field]] as the [[rational function|rational functions]] on an "[[arithmetic curve]] over [[F1]]". Accoridngly, there is a sensible version of the concept of [[genus of a curve]] for number fields. 
 
 This _genus of a number field_ was originally introduced in ([Weil 39](#Weil39)) in a maybe somewhat ad hoc way. It is derived as being that definition which makes the [[Riemann-Roch theorem]] come out right in ([Neukirch 92, chapter III, def. (3.5)](#Neukirch92)).
 
