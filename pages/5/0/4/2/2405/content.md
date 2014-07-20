@@ -41,6 +41,8 @@ Arakelov complemented the algebraic geometry at finite primes with a holomorphic
 
 * [[global analytic geometry]]
 
+* [[function field analogy]]
+
 ## References 
 
 ### Introductions and surveys
