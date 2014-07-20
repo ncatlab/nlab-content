@@ -43,6 +43,8 @@ The generic interval and the results of Wraith (1993) play a role in Lawvere's a
 
 * [[F. William Lawvere]], [[Ross Street]], [[Todd Trimble]], _catlist exchange October 2011_ , ([link](http://comments.gmane.org/gmane.science.mathematics.categories/6980)) .
 
+* [[F. William Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
+
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_, Contemporary Mathematics **92** (1989) pp.261-299. 
 
 * [[F. William Lawvere]], _Core Varieties, Extensivity, and Rig Geometry_, TAC  **20** no.14 (2008) pp.497-503. ([pdf](ftp://ftp.tac.mta.ca/pub/tac/html/volumes/20/14/20-14.pdf))
