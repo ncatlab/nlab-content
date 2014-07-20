@@ -117,12 +117,26 @@ Hence $\Omega (X\wedge {\mathbf{B}}G)$ has the universal property of the tensor 
 
 +-- {: .num_lemma #FreeGroupAsTensor}
 ###### Lemma
- For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence $F[X]\simeq X\otimes {\mathbb{Z}}$, where ${\mathbb{Z}}$ is the discrete group of integers. 
+ For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence $F[X]\simeq X\otimes Z$, where $Z$ is the group object whose delooping object is $B {\mathbb{Z}}$, the classifying space of the discrete group of integers. 
  =--
 
 +-- {: .proof}
 ###### Proof
-Present, in the complete Segal style (see the definition at [[groupoid object in an (∞,1)-category]]), a group object as a simplicial object such that its object of 0-simplexes is contractible and which satisfies some coherence conditions. Then, by the effectiveness of group(oid) objects in a Grothendieck (∞,1)-topos, for $H$ a group object, we have $Grp(\mathcal{H})({\mathbb{Z}},H) \simeq {\mathcal{H}}_*({\mathbb{Z}}_1,H_1) \simeq H_1\simeq\Omega {\mathbf{B}} H$. Hence, there are the following natural equivalences:
+Since ${\mathcal{H}}$ is a Grothedieck $(\infty,1)$-topos, the $(\infty,1)$-functor $*\to {\mathbf{B}}-:Group(\mathcal{H})\to Func(\Delta^1,\mathcal{H})$ which sends a group object to the map from the terminal object to its delooping object is a $(\infty,1)$-categorial equivalence onto its image, which is the full subcategory of $Func(\Delta^1,\mathcal{H})$ spanned by the effective epimorphisms from the terminal object. Hence, for $H$ a group object, we have 
+$$
+  \begin{aligned}
+    Grp(\mathcal{H})(Z,H)
+    &  \simeq
+    Func(\Delta^1,{\mathcal{H}})(*\to B{\mathbb{Z}},*\to {\mathbf{B}}H)
+    \\
+    & \simeq
+    {\mathcal{H}}_*(B{\mathbb{Z}},{\mathbf{B}}H)
+    \,,
+  \end{aligned}
+$$
+This latter based mapping object is equivalent to the based object of deloopable maps from ${\mathbb{Z}}$ to $\Omega{\mathbf{B}}H$, which is just $\Omega{\mathbf{B}}H$, since ${\mathbb{Z}}$ is the discrete free group on one generator.
+
+Hence, there are the following natural equivalences:
 $$
   \begin{aligned}
     Grp({\mathcal{H}})(F[X], H)
@@ -130,11 +144,11 @@ $$
     PathConn({\mathcal{H}}_*)(X, \Omega{\mathbf{B}}H)
     \\
     & \simeq
-    PathConn({\mathcal{H}}_*)(X, Grp({\mathbf{Z}}, H)
+    PathConn({\mathcal{H}}_*)(X, Grp(Z, H)
     \,,
   \end{aligned}
 $$
-Therefore $F[X]$ has the universal property of the tensor product $X\otimes {\mathbb{Z}}$. The required natural equivalence follows by abstract nonsense.
+Therefore $F[X]$ has the universal property of the tensor product $X\otimes Z$. The required natural equivalence follows by abstract nonsense.
 =--
 
 +-- {: .num_theorem #SuspendingAsSmashProd}
@@ -145,7 +159,7 @@ Therefore $F[X]$ has the universal property of the tensor product $X\otimes {\ma
 
 +-- {: .proof}
 ###### Proof
-Deloop the natural equivalence in Lemma \ref{FreeGroupAsTensor} and apply propositions \ref{ConstructionOfFreeGroup} and \ref{ConstructionOfTensorProduct}.
+Deloop the natural equivalence in Lemma \ref{FreeGroupAsTensor} to obtain the natural equivalence ${\mathbf{B}}F[X]\simeq {\mathbf{B}}(X\otimes Z)$. By propositions \ref{ConstructionOfFreeGroup} and \ref{ConstructionOfTensorProduct}, this gives the required natural equivalence. 
  =--
 
 ### As an ordinary functor
