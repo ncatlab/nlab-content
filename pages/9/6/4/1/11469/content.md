@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,11 +18,14 @@
 
 Let $q$ be a positive-definite [[quadratic form]] over the ring of [[integers]] $\mathbf{Z}$.  The **mass** of $q$ is a weighted count of the number of quadratic forms in the [[genus]] of $q$, up to isomorphism (weighted by multiplicity).  The [[Smith-Minkowski-Siegel mass formula]] gives a (complicated but computable) formula for the mass of $q$.
 
-Over number fields, ideas of Tamagawa and Weil allow a reformulation of this formula as the statement that the [[Tamagawa number]] of a certain [[algebraic group]] associated to $q$ is equal to 1.  _Weil's conjecture_ is then the statement, now a theorem of [[Robert Langlands]], K. F. Lai and Robert Kottwitz, that the [[Tamagawa number]] of any semisimple simply-connected [[algebraic group]] is equal to 1.
+Over [[number fields]], ideas of Tamagawa and Weil allow a reformulation of this formula as the statement that the [[Tamagawa number]] of a certain [[algebraic group]] associated to $q$ is equal to 1.  _Weil's conjecture_ is then the statement, now a theorem of [[Robert Langlands]], K. F. Lai and Robert Kottwitz, that the [[Tamagawa number]] of any semisimple simply-connected [[algebraic group]] is equal to 1.
 
-There is analogue of the conjecture for [[function fields]], and it has been proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].
+There is [[function field analogy|analogue]] of the conjecture for [[function fields]], and it has been proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].
 
-## The conjecture (number field case)
+## The statement 
+
+### Number field case
+ {#NumberFieldCase}
 
 Let $q$ be a positive-definite [[quadratic form]] over the ring of [[integers]] $\mathbf{Z}$.
 
@@ -48,13 +62,14 @@ Let $G$ be a semisimple simply-connected [[algebraic group]] over $\mathbf{Q}$. 
   \[ \mu_{\mathrm{Tam}}(G(\mathbf{Q})\backslash G(\mathbf{A})) = 1. \]
 =--
 
-## Function field case
+### Function field case
+ {#FunctionFieldCase}
 
 Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[finite field]] $F_q$, for some prime $q$.  Let $K_X$ denote the [[function field]] of $X$.  For $x \in X$, write $O_x$ for the [[completion]] of the [[local ring]] at $x$ and $K_x$ for its [[fraction field]].
 
 +-- {: .num_defn}
 ###### Definition
-The **ring of adeles of $K_X$** is defined as
+The **[[ring of adeles]] of $K_X$** is defined as
   \[ \mathbf{A}_X = \prod^{res}_x K_x \subset \prod_x K_x, \]
 i.e. the subgroup consisting of elements $\{g_x\}_{x \in X}$ such that $g \in G(O_x)$ for all but finitely many $x$.
 =--
@@ -70,10 +85,33 @@ Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[f
   \[ \mu_{\mathrm{Tam}}(G_0(K_X)\backslash G_0(\mathbf{A}_X)) = 1. \]
 =--
 
-This was proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].  They reformulated the conjecture as a statement about the [[cohomology]] of the [[moduli stack]] $Bun_G(X)$ of $G$-bundles on $X$.  First they proved a [[Grothendieck-Lefschetz trace formula]] for $Bun_G(X)$, generalizing work of [[Kai Behrend]]:
+This was proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].  They reformulated the conjecture as a statement about the [[cohomology]] of the [[moduli stack of G-principal bundles]] $Bun_G(X)$ on $X$, in view of the [[function field analogy]]:
+
++-- {: .num_remark #RelationToModuliStack}
+###### Remark
+
+Under the [[function field analogy]], a [[global field]] $K_X$ such as a [[function field]] or a [[number field]] is interpreted as the field of [[global sections]] of the [[rational functions]] on an [[arithmetic curve]] $\Sigma$ over a [[finite field]] $\mathbb{F}_q$ or "over $\mathbb{F}_1$" (the would-be [[field with one element]]), respectively. Moreover, under this [[analogy]]
+
+* the [[ring of adeles]] $\mathbb{A}_X$ is the ring of functions on all punctured [[formal disks]] in $X$ subject to the condition that all but at most finitely many of them extended to the un-punctured disk;
+
+* accordingly $G(\mathbb{A}_X)$ is the group of $G$-valued such functions;
+
+* the quotient $K\backslash \mathbb{A}_K$ is hence the quotient of such functions on punctured formal disks around finitely many points by the functions on $\Sigma$ with these finitely many points removed; and similarly $G(K_X)\backslash G(\mathbb{A}_X)$ is the quotient of group-valued such function;
+
+* the ring $\mathcal{O}$ is the ring of functions on all formal disks in $\Sigma$;
+
+* hence the further double [[quotient stack]] $G(K_X)\backslash G(\mathbb{A}_X)//G(\mathcal{O})$ is the [[groupoid]] of [[Cech cohomology|Cech cocycles]] with Cech coboundaries between them for $G$-[[principal bundles]] relative to [[covers]] of $\Sigma$ with patches being the complement of finitely many points and the formal disks around these points.
+
+For more on this see at _[moduli space of bundles -- over curves](http://ncatlab.org/nlab/show/moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_.
+
+=-- 
+
+
+First they proved a [[Grothendieck-Lefschetz trace formula]] for $Bun_G(X)$, generalizing work of [[Kai Behrend]]:
 
 +-- {: .num_theorem}
 ###### Theorem
+
 **(Gaitsgory-Lurie, "Grothendieck-Lefschetz trace formula for $Bun_G(X)$")**.
 Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[finite field]] $F_q$, for some prime $q$.  Then
   \[ \frac{|Bun_G(X)(\mathbf{F}_q)|}{q^{\dim(Bun_G(X))}} = \sum_{i \ge 0} (-1)^i \mathrm{Tr}(Frob^{-1} \mid H^i(\overline{Bun}_G(X) ; \mathbf{Q}_\ell)  \]
