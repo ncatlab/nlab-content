@@ -58,6 +58,8 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 * **vector space**, [[dual vector space]], 
 
+  * [[finite-dimensional vector space]]
+
   * [[topological vector space]], [[convenient vector space]]
 
 * [[2-vector space]]
