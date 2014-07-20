@@ -45,6 +45,10 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 * [[absolute cohomology]]
 
+* [[function field analogy]]
+
+* [[Weil conjecture on Tamagawa numbers]]
+
 
 ## References
 
