@@ -21,8 +21,8 @@
 | $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
 | $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((t_x)))$ |
 |  |  |  |
-| [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
+|  [[Dedekind zeta function]] ([[Riemann zeta function]] for $K = \mathbb{Q}$) | [[Goss zeta function]] | [[zeta function of a Riemann surface]] |
 |  |  |  |
-|  |  [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
-|  |   $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([[moduli stack of bundles]] on $\Sigma$) | 
-
+|  |   $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$) | 
+| number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
+| [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
