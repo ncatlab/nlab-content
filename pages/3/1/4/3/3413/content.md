@@ -1,6 +1,6 @@
 
 
-**John Michael Boardman** is an American mathematician specialised in algebraic and differential [[topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was C. T. C. Wall. He was formerly at the University of Cambridge, England; he is currently a full professor at Johns Hopkins University in Baltimore, USA.
+**John Michael Boardman** is a British-born mathematician, specialised in algebraic and differential [[topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was C. T. C. Wall. He was formerly at the University of Cambridge, England; he is currently a full professor at Johns Hopkins University in Baltimore, USA.
 
 * [homepage](http://www.math.jhu.edu/~jmb/)
 
@@ -33,7 +33,9 @@ See also: _Homotopy invariant algebraic structures_: _a conference in honor of J
 
 ## References
 
-Some of the above material is taken from [[joyalscatlab:Michael Boardman|Joyal's CatLab -- Michael Boardman]]
+Some of the above material is taken from [[joyalscatlab:Michael Boardman|Joyal's CatLab -- Michael Boardman]]. 
+
+* Tribute to Mike Boardman from [[Peter May]], [web](http://hopf.math.purdue.edu/May/boardman.txt). 
 
 category:people
 
