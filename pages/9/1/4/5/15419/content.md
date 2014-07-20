@@ -32,7 +32,7 @@ It is also the function field analogy which induces the conjecture of the [[geom
 In summary then the analogy says that the theory of [[function fields]] looks much like a [[global analytic geometry]]-version of the theory [[complex curves]], and moreover the theory of [[number fields]] looks much like further globalizing this to the "absolute base field" [[F1]].
 
 
-To date the function field analogy remains just that, an [[analogy]], though various research programs may be thought of as trying to provide a context in which the analogy would become a consequence of a systematic theory (see e.g. the introduction of [v.d. Geer et al 05](#vdgeer05)). This includes 
+To date the function field analogy remains just that, an [[analogy]], though various research programs may be thought of as trying to provide a context in which the analogy would become a consequence of a systematic theory (see e.g. the introduction of [v.d. Geer et al 05](#vdGeer05)). This includes 
 
 * [[Arakelov geometry]];
 
@@ -68,4 +68,4 @@ Reviews include
 
 * {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
 
-* {vdGeer05} van der Geer et al (eds.) _Number Fields and Function Fields &#8211; Two Parallel Worlds_, Birkh&#228;user 2005 ([publisher page](http://www.springer.com/birkhauser/mathematics/book/978-0-8176-4397-3))
+* {#vdGeer05} van der Geer et al (eds.) _Number Fields and Function Fields &#8211; Two Parallel Worlds_, Birkh&#228;user 2005 ([publisher page](http://www.springer.com/birkhauser/mathematics/book/978-0-8176-4397-3))
