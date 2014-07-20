@@ -3,15 +3,15 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -19,12 +19,20 @@ A _restricted product_ $\prod^\prime_{s\in S} X_s$ indexed by a [[set]] $S$ is t
 
 Here what "trivial" means depends on the context. Often the $X_s$ are [[groups]] with specified [[subgroups]] $K_s \subset X_s$ and "is trivial" is taken to be "is in $K_s$". If $K_s$ is the [[trivial group]] then "is trivial" means "is the neutral element".
 
+
 ## Examples
 
 * The [[ring of adeles]] of a [[global field]] $k$ is the restricted product of the [[formal completions]] $k_v$ at all its [[places]] $v$, with the restriction being that only finitely many components have [[norm]] greater than unity.
+
+* A [[weak direct product]] is a restricted product whose trivial subobjects are specified [[global elements]].
+
 
 ## References
 
 * Wikipedia _[Restricted product](http://en.wikipedia.org/wiki/Restricted_product)_
 
+
 [[!redirects restricted product]]
+[[!redirects restricted products]]
+[[!redirects restricted direct product]]
+[[!redirects restricted direct products]]
