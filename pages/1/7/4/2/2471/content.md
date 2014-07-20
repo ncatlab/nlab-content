@@ -47,14 +47,14 @@ Affinoid algebras were introduced in
 
 * [[John Tate]], (1961)
 
-A standard textbookaccount is
+A standard textbook account is
 
 * {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], part B of  _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
 
 
 See the references at _[[analytic geometry]]_ for more details.
 
-Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geoemtry]] is in 
+Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geometry]] is in 
 
 * {#BenBassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
