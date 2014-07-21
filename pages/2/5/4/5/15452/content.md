@@ -1,3 +1,3 @@
-??Esok kali dia berangkat. Bilangnya, dia mahu pulang sehari dua saja. Kemudian kembali semula ke sini,?? terang Yanti.
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=95" >Mercurial Vapor superfly 8 FG Mujeres Vino</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=95]Mercurial Vapor superfly 8 FG Mujeres Vino[/url]
+"Nia jom kita realisasikan kesalahfahaman Cikgu Tehran". Bupp!
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=120" >retro Jordan Retro 1 High OG Mujeres Blanco</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=120]retro Jordan Retro 1 High OG Mujeres Blanco[/url]
