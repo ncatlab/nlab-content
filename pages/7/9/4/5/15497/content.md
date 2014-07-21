@@ -1,2 +1,2 @@
-The appy Diamonds?choice is what started out their go up to acceptance within diamond jewelry world, and these styles are even now as clean and fascinating these times as they experienced been decades ago. This easy idea has carried through Chopard watches.
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc160.html" title="BIRKENSTOCK">BIRKENSTOCK</a>
+SIGI (authorized body) is of the view that, if any fashionista wants to keep up with the trend he/she must not simply surf through the list of global fashion brands, but must keep a close eye on Indian fashion brands. It further added that the local Indian brands are at par with their international counterparts in terms of the quality of their offerings.Wednesday, August 21, 2013
+ <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/0188.html" title="CHANEL">CHANEL</a>
