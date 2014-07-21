@@ -1,3 +1,3 @@
-Until recently,Michael Kors Handbags, companies stuck close to home for new recruits, but thats changing, said Campbell-Ott, pointing out that Calgary Economic Development went to Ireland last year to talk about the benefits of working in Alberta.
- <a href="http://www.enjoyecommerce.co.uk/RayBannunique.asp?unique=collections-2" >Collections</a>
-[url=http://www.enjoyecommerce.co.uk/RayBannunique.asp?unique=collections-2]Collections[/url]
+hop over to San Jos
+ <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-justin-7" >Ray Ban Justin</a>
+[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-justin-7]Ray Ban Justin[/url]
