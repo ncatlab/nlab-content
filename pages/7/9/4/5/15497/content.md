@@ -1,2 +1,2 @@
-These are some of the well-known brands that offer shoes, jewelries, watches, cosmetics, fashion apparels and many more. India being a developing country, most of these top fashion brands offer a vast range of products that are sold at affordable prices to get the require volume.
- <a href="http://www.mikes-den.com/jponlines.asp?cheap=products-c301.html" title="YVES SAINT LAURENT">YVES SAINT LAURENT</a>
+Some suggestions might be Aristotle, Plato, or Descartes. Although there are no photographs to pattern your costume after, you probably have a pretty good idea in your mind of how these great minds might have looked. You'll probably want to wear a long tunic with sandals and sport a gray beard.Tuesday, September 10, 2013
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso135.html" title="JACA">JACA</a>
