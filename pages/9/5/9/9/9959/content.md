@@ -36,4 +36,11 @@ See at _[[Dirac charge quantization]]_.
 
 * [['t Hooft operator]]
 
+## References
+
+For instance 
+
+* [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+
+
 [[!redirects Dirac monopoles]]
