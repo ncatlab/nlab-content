@@ -1,2 +1,2 @@
-For example, if your breasts peek out the top or sides of the bra, it's time to go up at least one cup size. If the cups dimple at all, this is an indication that the bra cup is too large. If you're not sure which bra is best for you &#8212; including a minimizing bra that makes your breasts appear smaller &#8212; have your measurements taken at an intimates or department store..Wednesday, October 16, 2013
- <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c22.html" title="NIKE">NIKE</a>
+This is a sample entry, posted to show you some of the features of .
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c173.html" title="Air Jordan 10">Air Jordan 10</a>
