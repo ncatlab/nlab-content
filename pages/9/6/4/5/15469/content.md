@@ -1,2 +1,2 @@
-Be present when you're not working
- <a href="http://www.canyonlakepoa.com/nikefreeau.asp?Running_Shoes=salomon-swind-inca-c-77.html" title="Salomon S-Wind Inca">Salomon S-Wind Inca</a>
+Even Prime Minister David Cameron - who is a friend - found himself sucked into the controversy.
+ <a href="http://www.apartments-mravak.com/nike_shoes.asp?Running_Shoes=nike-free-free-run-30-men-c-5_70.html" title="Free Run 3.0 Men">Free Run 3.0 Men</a>
