@@ -1,3 +1,3 @@
-"Alahai, mana pulak abang aku pergi ni, janji nak ambik aku pukul 1, tapi sekarang ni dah pukul 2, batang hidung dia pun aku tak nampak. Ni memang nak kena siku dengan aku ni."bebel Athirah.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1816" >Nike Air Max 90 Hyperfuse pink uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1816]Nike Air Max 90 Hyperfuse pink uk[/url]
+kepada nana,
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=300" >Nike Air Max Structure Triax 91 metallic sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=300]Nike Air Max Structure Triax 91 metallic sale[/url]
