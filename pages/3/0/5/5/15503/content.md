@@ -1,2 +1,2 @@
-l& perdre du poids en 1 mois ; Mentaire trop & perdre rapidement
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c82.html" title="ALPHA BY ANS">ALPHA BY ANS</a>
+I got a solid gold Armani wrist watch - no massively expensive, about ?500 at today values, paid ?100 for it a few years ago. Problem is the battery has run down. To change the battery costs ?40. Obiang to hide his identity from the banks by, among other things, setting up shell companies for Mr. Obiang and failing to disclose to the banks that Mr. Obiang was the beneficial owner of those companies.
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c39.html" title="MICHEL KLEIN">MICHEL KLEIN</a>
