@@ -1,2 +1,2 @@
-A number of years ago, grocery stores introduced products that used the private label branding strategy. For a range of products including cereal, medicine, canned soups, and other items, they began using their own store brand or a brand that the consumer knew was associated with the store rather than a leading consumer brand. Priced much lower than leading brands, these products gave the customer a choice of a more value-oriented product. The question so many consumers have asked since seeing these private-label products is: what's the difference     between the brand I know and this private-label brand?
- <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c36.html" title="CONVERSE">CONVERSE</a>
+Levis
+ <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc229.html" title="PARAJUMPERS">PARAJUMPERS</a>
