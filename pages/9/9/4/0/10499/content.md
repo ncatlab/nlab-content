@@ -15,7 +15,64 @@
 
 ## Idea
 
-The classical _fracture theorem_ is a fundamental result in [[homotopy theory]] which says that the study of [[homotopy types]] may be decomposed into that of [[rational homotopy types]] and [[p-complete homotopy types]] of [[p-local homotopy types]].
+The classical _fracture theorem_ is a basic fact in [[number theory]] and derived from this a fundamental result in  [[homotopy theory]], which says how working over the [[integers]] may be decomposed into working over the [[rational numbers]] and over the [[p-adic integers]], for all primes $p$.
+
+### Arithmetic fracture square
+ {#ArithmeticFractureSquare}
+
+The number theoretic statement is the following:
+
++-- {: .num_prop #ArithmeticFractureSquare}
+###### Proposition
+
+The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over all the [[p-adic rational numbers]] $\underset{p\;prime}{\prod}\mathbb{Q}_p$, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \underset{p\;prime}{\prod} \mathbb{Q}_p && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \underset{p\;prime}{\prod} \mathbb{Z}_p
+  }
+  \,.
+$$
+
+=--
+
+In the context of a modern account of categorical homotopy theory this appears for instance as ([Riehl 14, lemma 14.4.2](#Riehl14)).
+
++-- {: .num_remark}
+###### Remark
+
+Under the [[function field analogy]] we may think of 
+
+* $Spec(\mathbb{Z})$ as an [[arithmetic curve]] over [[F1]];
+
+* $\underset{p\;prime}{\prod} \mathbb{Z}_p$ as the [[ring of functions]] on the [[formal disks]] around all the points in this curve;
+
+* $\mathbb{Q}$ as the ring of functions on the complement of a finite number of points in the curve.
+
+Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a [[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
+
+This kind of cover plays a central role in [[number theory]], see for instance thr following discussions:
+
+* _[Moduli stack of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_;
+
+* _[[geometric Langlands correspondence]]_;
+
+* _[[Weil conjecture on Tamagawa numbers]]_.
+
+
+=--
+
+### In homotopy theory
+
+In [[homotopy theory]] the corresponding statement is that [[homotopy types]] may be decomposed into that of [[rational homotopy types]] and [[p-complete homotopy types]] of [[p-local homotopy types]].
 
 More precisely, for $p$ a [[prime number]] and $X$ a [[p-local homotopy type]], then $X$ is the [[homotopy fiber product]]
 
@@ -58,6 +115,10 @@ $$
 
 See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)_ and at _[[differential cohomology hexagon]]_.
 
+## Examples
+
+* [tmf -- Decomposition via arithmetic fracture squares](tmf#DecomopositionViaArithmeticSquares)
+
 ## Related concepts
 
 * [[p-localization]]
@@ -72,6 +133,8 @@ See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohes
 by [[Andrew Ranicki]].
 
 * {#Bauer} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+
+* {#Riehl14} [[Emily Riehl]], _Categorical homotopy theory_, new mathematical monographs 24, Cambridge University Press 2014 (published version)
 
 
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], chapters 7 and 8 of _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
@@ -89,4 +152,3 @@ Related MO-discussion:
 
 [[!redirects fracture square]]
 [[!redirects fracture squares]]
-
