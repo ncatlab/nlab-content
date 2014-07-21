@@ -34,6 +34,10 @@ Analogues of the Riemann hypothesis can be considered for many analogues of zeta
 * [[Terence Tao]], _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_
 * Wikipedia, _[Riemann hypothesis](http://en.wikipedia.org/wiki/Riemann_hypothesis)_
 
+The suggestion that the Riemann hypothesis might have a proof that is an analogue of Weil's proof for [[arithmetic curves]] over [[finite fields]] $\mathbb{F}_q$ but generalized to the [[field with one element]] is due to
+
+* {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
+
 
 [[!redirects Riemann hypothesis]]
 [[!redirects Riemann conjecture]]
