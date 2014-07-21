@@ -1,2 +1,2 @@
-Some of these include;
- <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c143.html" title="Jordan 8">Jordan 8</a>
+Some suggestions might be Aristotle, Plato, or Descartes. Although there are no photographs to pattern your costume after, you probably have a pretty good idea in your mind of how these great minds might have looked. You'll probably want to wear a long tunic with sandals and sport a gray beard.Tuesday, August 27, 2013
+ <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/0191.html" title="PRADA">PRADA</a>
