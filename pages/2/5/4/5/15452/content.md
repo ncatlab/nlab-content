@@ -1,3 +1,3 @@
-Lee Hanah (18 tahun):
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=934" >NIKE Mercurial Vapor IX AG Mujeres Gym/Rojo</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=934]NIKE Mercurial Vapor IX AG Mujeres Gym/Rojo[/url]
+"No but!"
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=174" >Jordan 3 Hombres Blanco</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=174]Jordan 3 Hombres Blanco[/url]
