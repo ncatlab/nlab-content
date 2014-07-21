@@ -1,2 +1,2 @@
-In addition to industrial gloves, Asian companies also manufacture high-quality safety vests, hard hats, safety glasses,      and a range of other safety supplies that are required by OSHA and other regulators in the United States. Like cereal or canned soup, these safety products can be a great substitute when a company places more emphasis on cost than on brand name.Tuesday, September 10, 2013
- <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c247.html" title="991">991</a>
+Have fun! :)
+ <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c26.html" title="CLARKS">CLARKS</a>
