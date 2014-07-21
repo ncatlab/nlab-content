@@ -1,2 +1,2 @@
-Nike
- <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c119.html" title="lip">lip</a>
+If you work from home, you credibility is suspect. While more than 90% of the population worked from home prior to the industrial revolution, people who work from home today are viewed as less serious than their commuting counterparts. Even with the number of home-based businesses expanding at an incredible rate, the question of legitimacy still remains..
+ <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c291.html" title="rubin rosa">rubin rosa</a>
