@@ -1,3 +1,3 @@
-Passionate collectors like Dimas and Wiltshire say they enjoy art collecting as a lifestyle, not necessarily an investment. To that end, the pair opened to help develop Sydneys street art scene.
- <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb3484-25" >RB3484</a>
-[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb3484-25]RB3484[/url]
+wrote: "My personal opinion is that the best possible job for someone who is intelligent but lazy would be to be a professional expert at something,Michael Kors Wallet, to get paid to just share your thoughts and opinions about things with people who will do the heavy lifting."
+ <a href="http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-sandals-c-11.html" >Christian Louboutin Sandals</a>
+[url=http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-sandals-c-11.html]Christian Louboutin Sandals[/url]
