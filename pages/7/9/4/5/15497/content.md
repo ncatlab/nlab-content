@@ -1,2 +1,2 @@
-In my quest to make the fashion section of this blog a bit more gender balanced I have been keeping an eye out for interesting men fashion and found exactly that with Savvy Row. It an online vintage store based in the UK that specialises in vintage British men tailoring, including Saville Row suits, morning coats, tuxedo jackets and trench coats. I even spied a rare Tommy Nutter suit on the site.
- <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c256.html" title="SB">SB</a>
+Chanel
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c300.html" title="Vivienne Westwood">Vivienne Westwood</a>
