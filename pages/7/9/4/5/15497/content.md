@@ -1,2 +1,2 @@
-Bracelets are the hottest thing now to show off as a fashion statement and all women are choosing elegant and beautiful bracelets as fashion accessories. What makes bracelets and charm bracelets so popular is the sheer variety to     choose from. The most popular among them is the truth charm bracelet that is also a great gift option. By gifting your near and dear ones a      personalized truth charm bracelet, you will be sending the message that you care for them and will always be there for any need of theirs.
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c108.html" title="DOLCE SEGRETO">DOLCE SEGRETO</a>
+Styling
+ <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c31.html" title="WHITE'S BOOTS">WHITE'S BOOTS</a>
