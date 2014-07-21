@@ -1,3 +1,3 @@
-Teenage kicks
- <a href="http://www.enviro-clean-services.co.uk/christianlouboutinneww.asp?new=christian-louboutin/christian-louboutin-sandals" >2014 Christian Louboutin</a>
-[url=http://www.enviro-clean-services.co.uk/christianlouboutinneww.asp?new=christian-louboutin/christian-louboutin-sandals]2014 Christian Louboutin[/url]
+If you think its a challenge trying to spend down points and get the best value theres a reason for that. Because it is. While youre accumulating and planning for a points splurge, the airlines and hotels are very focused on eliminating your balance in the most efficient and profitable way (for them) possible. Thats because, like debt and other bills, customer miles and pre-sold points sit on company balance sheets as a liability yet to be paid.
+ <a href="http://www.dhfireconsultancy.co.uk/RayBannunique.asp?unique=ray-ban-wayfarer7" >Ray Ban Wayfarer</a>
+[url=http://www.dhfireconsultancy.co.uk/RayBannunique.asp?unique=ray-ban-wayfarer7]Ray Ban Wayfarer[/url]
