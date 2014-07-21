@@ -123,6 +123,7 @@ For this to hold constructively, [[filtered categories]] (appearing in the defin
 
 * Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.)
 
+* A [[finite-dimensional vector space]] is compact in [[Vect]], see [here](finite-dimensional+vector+space#CompactClosure).
 
 ## Subtleties and different meanings 
  {#SubtletiesAndDifferentMeanings}
