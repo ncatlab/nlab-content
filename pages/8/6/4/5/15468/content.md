@@ -1,3 +1,3 @@
-"Cancel!!!" jerit Rauf.
- <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=545" >Air Max Excellerate Verde Baratos</a>
-[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=545]Air Max Excellerate Verde Baratos[/url]
+"Tunggu gelap, baru jatuh. Takde lah, akak nak pi bandar jap. Jomlah join sekaki." Erk&#8230;sekaki je? Aku masih cukup 2 kaki.
+ <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2261" >nike air Jordan Phase 23 Trek Mujeres Blanco</a>
+[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2261]nike air Jordan Phase 23 Trek Mujeres Blanco[/url]
