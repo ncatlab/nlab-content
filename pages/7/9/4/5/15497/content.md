@@ -1,2 +1,2 @@
-l& perdre du poids en 1 mois ; T& perdre r??sultat dont j?ai quantit??.
- <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/01110.html" title="ASICS GEL LYTE">ASICS GEL LYTE</a>
+The train stops. The doors open. The Woman and her friend stand and begin to exit. To choose a suitable cocktail dress is really important while attending the cocktail parties which intends to be an important social event at present. There are different kinds of cocktails parties, for example, companies usually hold the cocktail parties for their clients; celebrities hold such parties as socializing occasions; and couples throw such parties before or after the wedding day. While how should you to choose the right dress for the cocktail parties? For women, such parties mean much more than a birthday party, a festival occasion or even a business party..
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c15.html" title="D&amp;G">D&amp;G</a>
