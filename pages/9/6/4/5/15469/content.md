@@ -1,2 +1,2 @@
-"Pain is a distraction, and you absolutely can't allow it to affect your       focus," says Costa. "You can apply RockTape yourself and it stays on       through intense physical activity. You're not bothered by muscle pain or       soreness ? you don't even think about it anymore."
- <a href="http://www.accommodationauctions.com/nikefreerun.asp?Running_Shoes=nike-free-70-nike-free-70-women-c-16_18.html" title="Nike Free 7.0 Women">Nike Free 7.0 Women</a>
+Socca
+ <a href="http://www.accommodationauctions.com/nikefreerun.asp?Running_Shoes=nike-air-presto-shoes-c-43.html" title="Nike Air Presto Shoes">Nike Air Presto Shoes</a>
