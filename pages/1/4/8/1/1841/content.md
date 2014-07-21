@@ -387,9 +387,14 @@ Which implies that with the magnetic charge being quantized, also the electric c
 * [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
  {#Maxwell}
 
-Dirac's quantization argument appeared in
+[[Dirac's charge quantization]] argument appeared in
 
 * [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+
+Review is for instance in
+
+* [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+
 
 Discussions of the basic geometry behind Maxwell equations can be found in 
 
