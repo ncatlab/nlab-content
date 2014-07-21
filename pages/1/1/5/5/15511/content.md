@@ -1,3 +1,3 @@
-****
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2186" >Nike Air Max 1 red uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2186]Nike Air Max 1 red uk[/url]
+Bagaimana aku harus hidup dalam keadaan seperti ini?
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2216" >Nike Air Max BW VT red uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2216]Nike Air Max BW VT red uk[/url]
