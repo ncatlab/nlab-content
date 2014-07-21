@@ -1,3 +1,3 @@
-Terima kasih tuhan, berikan aku kebahagiaan.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=68" >Jordan CP3.VII ARGYLE iD yellow</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=68]Jordan CP3.VII ARGYLE iD yellow[/url]
+Bulan berikutnya hari dan waktu yang sama aku terlihat Airil lagi untuk kedua kalinya di tempat yang sama. Namun kali ni aku lebih berhati-hati. Mendengar satu-persatu pesanan nurse itu membuatkan aku terkejut. Sempat aku mencapai tangan Airil sebelum dia beredar dari tempat itu.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1363" >Air Griffey Max 360 white uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1363]Air Griffey Max 360 white uk[/url]
