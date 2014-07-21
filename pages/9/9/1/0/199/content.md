@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,9 +28,14 @@ The study of $Vect$ is called [[linear algebra]].
 
 ## Related categories
 
-The [[full subcategory]] of Vect consisting of finite-dimensional vector spaces is denoted **$\Fin Vect$**.
+The [[full subcategory]] of Vect consisting of [[finite-dimensional vector spaces]] is denoted **$\Fin Vect$**.
 
-$\Fin Vect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  On the other hand, anything involving transposes or inner products really takes place in $Fin$ [[Hilb]].
+This is a [[compact closed category]] (see [here](finite-dimensional+vector+space#CompactClosure)).
+
+$\Fin Vect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  See also at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
+ 
+
+On the other hand, anything involving transposes or [[inner products]] really takes place in $Fin$ [[Hilb]].
 
 
 category: category
