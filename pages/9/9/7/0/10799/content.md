@@ -293,3 +293,6 @@ Discussion in the context of the [[function field analogy]] and the [[geometric 
 
 [[!redirects adele ring]]
 [[!redirects adele rings]]
+
+[[!redirects integral adele]]
+[[!redirects integral adeles]]
