@@ -3,7 +3,7 @@
 [[!redirects separable objects]]
 
 ##Idea
-A _decidable object_ is the categorical rendering of the notion of a decidable set from [[computability theory]]. This corresponds to the algebraic and topological, concepts _separable_ , respectively _unramified_ object, as pointed out by Lawvere.
+A _decidable object_ is the categorical rendering of the notion of a decidable set from [[computability theory]]. This corresponds to the algebraic and topological concepts _separable_ , respectively _unramified_ object, as pointed out by Lawvere.
 
 ##Definition
 
@@ -31,9 +31,11 @@ An object $X$ of a [[coherent category]] $\mathcal{C}$ is called _decidable_ if 
 
 * [[locally decidable topos]]
 
+* [[finite object]]
+
 ##References
 
-* B. P. Chisala, M.-M. Mawanda, _Counting Measure for Kuratowski Finite Parts and Decidability_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** 4 (1991) pp.345-353. 
+* B. P. Chisala, M.-M. Mawanda, _Counting Measure for Kuratowski Finite Parts and Decidability_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** 4 (1991) pp.345-353. ([pdf](archive.numdam.org/article/CTGDC_1991__32_4_345_0.pdf))
 
 * [[Aurelio Carboni|A. Carboni]], [[G. Janelidze]], _Decidable (=separable) objects and morphisms in lextensive categories_ , JPAA **110** (1996) pp.219-240.
 
