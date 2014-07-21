@@ -1,3 +1,3 @@
-Bulan berikutnya hari dan waktu yang sama aku terlihat Airil lagi untuk kedua kalinya di tempat yang sama. Namun kali ni aku lebih berhati-hati. Mendengar satu-persatu pesanan nurse itu membuatkan aku terkejut. Sempat aku mencapai tangan Airil sebelum dia beredar dari tempat itu.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1363" >Air Griffey Max 360 white uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1363]Air Griffey Max 360 white uk[/url]
+"Yelah tu ingat, entah-entah makin tak ingat lagi adalah." Perli Athirah pada abangnya.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2245" >nike air Jordan RCVR Slide gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2245]nike air Jordan RCVR Slide gold[/url]
