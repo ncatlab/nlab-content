@@ -1,2 +1,2 @@
-Widgets
- <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/01126.html" title="Dior">Dior</a>
+The shopping experience of Willemstad on the Caribbean island of Curacao is world renowned among visitors to this exotic part of the world. The island itself is a shopping enthusiast's paradise, but the capital of Willemstad boasts more than 200 shops lining the main streets. The main shopping district is that of the Punda, which extends for five blocks in the heart of the city.
+ <a href="http://www.eltratec.com/japanonline.asp?cheap=products-c232.html" title="G&#12471;&#12519;&#12483;&#12463; (G-SHOCK)">G&#12471;&#12519;&#12483;&#12463; (G-SHOCK)</a>
