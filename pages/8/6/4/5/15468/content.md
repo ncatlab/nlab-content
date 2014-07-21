@@ -1,3 +1,3 @@
-Oleh : Nurul
- <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1079" >Air Max 2009 Rosa Baratos</a>
-[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1079]Air Max 2009 Rosa Baratos[/url]
+"Kau fikir tak apa yang aku fikir?" tanya Erin.
+ <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2341" >nike air Jordan Retro 1 94 Mujeres Blanco</a>
+[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2341]nike air Jordan Retro 1 94 Mujeres Blanco[/url]
