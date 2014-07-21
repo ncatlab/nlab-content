@@ -1,3 +1,3 @@
-hop over to San Jos
- <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-justin-7" >Ray Ban Justin</a>
-[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-justin-7]Ray Ban Justin[/url]
+In some cases, a one-time event may have caused the PE to fall in the short term, making the stock appear cheap, said Safa Muhtaseb, a portfolio manager with New Yorks ClearBridge Investments. For example, if a company has a surprising one-time boost in quarterly earnings while the stock price doesnt budge, the PE ratio will decline.
+ <a href="http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-men-shoes-c-2/" >Christian Louboutin Wedges</a>
+[url=http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-men-shoes-c-2/]Christian Louboutin Wedges[/url]
