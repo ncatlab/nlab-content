@@ -1,3 +1,3 @@
-Lisa terus naik ke atas untuk mandi. Selepas mandi, dia mengenakan t-shirt GAP dan seluar pendek, stail yang ringkas tapi bergaya walaupun hanya di rumah. Lisa memang pandai bergaya, ditambah memiliki paras rupa seperti orang putih dan rambut panjang berwarna perang asli mungkin factor genetic ibunya. Ramai yang menganggap dia orang British, tetapi seperti biasa Lisa akan menidakkannya. Bagi Lisa, dia orang Melayu. Dia segera turun ke ruang tamu untuk berjumpa papanya.
- <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=1134" >air Jordan 1 Retro 97 Blanco</a>
-[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=1134]air Jordan 1 Retro 97 Blanco[/url]
+Oleh : Nurul
+ <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1079" >Air Max 2009 Rosa Baratos</a>
+[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1079]Air Max 2009 Rosa Baratos[/url]
