@@ -1,3 +1,3 @@
-"Ayang, balik nanti  kalau abang lambat, ayang balik sendiri ya. Tak pun tumpang abah ya"
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=283" >Nike Air Max Terra Ninety metallic sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=283]Nike Air Max Terra Ninety metallic sale[/url]
+Di dalam sampul ini ada boring keizinan berpoligami. Telah siap Aliyah tandatangan. Juga sekeping tiket penerbangan MAS ke Sarawak . Jika munajat Abg di Masjid Putra
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1" >Jordan Jeter Lux Metal yellow</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1]Jordan Jeter Lux Metal yellow[/url]
