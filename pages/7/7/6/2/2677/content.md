@@ -15,9 +15,14 @@
 
 ## Overview
 
-Various identities coming from [[algebraic geometry]] (and particularly [[algebraic groups]]) over  [[finite fields]] $\mathbb{F}_q$ turn out to make perfect sense _as expressions in $q$_ when extrapolated to the case $q=1$, and to reflect interesting (combinatorial, representation theoretical...) facts, even though, of course, there is no actual [[field]] with a single element (since in a field by definition the elements 1 and 0 are distinct).
+Various phenomena in the context of  [[algebraic geometry]]/[[arithmetic geometry]] (and particularly in the context of [[algebraic groups]]) over  [[finite fields]] $\mathbb{F}_q$ turn out to make perfect sense _as expressions in $q$_ when extrapolated to the case $q=1$, and to reflect interesting (combinatorial, representation theoretical...) facts, even though, of course, there is no actual [[field]] with a single element (since in a field by definition the elements 1 and 0 are distinct).
 
-Motivated by such observations, [[Jacques Tits]] envisioned a new kind of geometry adapted to the explanation of these identities. [[Christophe Soulé]] then expanded on Tits' ideas by introducing the notion of _field with one element_ and studying its fine arithmetic invariants. While there is no field with a single element in the standard sense of _[[field]]_, the idea is that there is some other object, denoted $\mathbb{F}_1$, such that it makes sense to speak of "geometry over $\mathbb{F}_1$". Following the French pronunciation one also writes $F_{un}$ (and is thus led to the inevitable pun).
+Motivated by such observations, [[Jacques Tits]] envisioned in ([Tits 57](#Tits57)) a new kind of geometry adapted to the explanation of these identities. [[Christophe Soulé]] then expanded on Tits' ideas by introducing the notion of _field with one element_ and studying its fine arithmetic invariants. While there is no field with a single element in the standard sense of _[[field]]_, the idea is that there is some other object, denoted $\mathbb{F}_1$, such that it does make sense to speak of "geometry over $\mathbb{F}_1$". Following the French pronunciation one also writes $F_{un}$ (and is thus led to the inevitable pun).
+
+A central motivation has been the suggestion in ([Manin 95](#Manin95)) that the [[Riemann hypothesis]] might be solved by finding an $\mathbb{F}_1$-[[analogy|analogue]] of [[André Weil]]'s proof for the case of [[arithmetic curves]] over the [[finite fields]] $\mathbb{F}_q$
+
+A first proposal for what a [[variety]] "over $\mathbb{F}_1$" ought to be is due to ([Soul&#233; 04](#Soule)).  
+
 
 In the [[relative point of view]] the $S$-schemes are schemes with a morphism of schemes over a base scheme $S$; but every $S$-scheme is a scheme over $Spec(\mathbb{Z})$. In __absolute algebraic geometry__ all "generalized schemes" should live over $Spec(F_1)$ and $Spec(F_1)$ should live **below** $Spec(\mathbb{Z})$; this is similar to the fact that the quotient stacks like $[*/G]$ live below the single point $*$ (there is a direct image functor from sheaves on a point to sheaves over $[*/G]$). One of the principal and very bold hopes is that the study of $F_{un}$ should lead to a natural proof of [[Riemann conjecture]]; namely some attractive strategies to such a proof already exist (see MathOverflow [here](http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry)).
 
@@ -27,13 +32,15 @@ In the [[relative point of view]] the $S$-schemes are schemes with a morphism of
 
 ## Contributors
 
-After the very first observations by Tits, pioneers were Soul&#233; and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], James Borger and Oliver Lorscheid. 
+After the very first observations by Tits, pioneers were [[Christophe Soulé]] and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], [[James Borger]] and [[Oliver Lorscheid]]. 
 
 ## References and links
 
+
 See also [[Lambda-ring]], [[blue scheme]] and [[tropical geometry]].
 
-###expositions ###
+
+### Expositions 
 
 * [[Lieven Le Bruyn]], _Looking for $F_{un}$_, [blog](http://www.neverendingbooks.org/index.php/looking-for-f_un.html)
 
@@ -48,13 +55,24 @@ A survey of the various competing theories is
 * [[Lieven Le Bruyn]], _The field with one element_, 3 lectures at the Seminar of Algebra and Geometry group at Antwerp, pdfs: [1](http://matrix.cmi.ua.ac.be/fun/DATA/halloweennotes.pdf), [2](http://matrix.cmi.ua.ac.be/fun/DATA/nov21.pdf), [3](http://matrix.cmi.ua.ac.be/DATA2/f120maart.pdf)
 * [[Vladimir Berkovich]], _Algebraic geometry over $\mathbf{F}_1$_, [video](http://www.diffusion.ens.fr/index.php?res=conf&idconf=2843)
 
+* {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
+
 ### more details ###
 
+* {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques,
+pages 261{289. Etablissements Ceuterick, Louvain, 1957.
+
+* {#Soule04} [[Christophe Soulé]], _Les varietes sur le corps a un element_ Mosc. Math. J., 4(1):217-244, 312, 2004.
+
+* {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
+
 * [[Yuri Manin]], _Cyclotomy and analytic geometry over $F_1$_, [arxiv/0809.1564](http://arxiv.org/abs/0809.1564)
+
 * [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Fun with $\mathbf{F}_1$_, [arxiv/0806.2401](http://arxiv.org/abs/0806.2401)
 
 * [[Alain Connes]], [[Caterina Consani]], _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, in: Noncommutative Geometry, Arithmetic, and Related Topics, 21st Meeting of the Japan-U.S. Math. Inst., Baltimore 2009, JHUP (2012), pp. 75&#8211;139, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [arxiv/1006.4810](http://arxiv.org/abs/1006.4810); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672); _Projective geometry in characteristic one and the epicyclic category_, [arxiv/1309.0406](http://arxiv.org/abs/1309.0406)
-* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/1108.2874)
+
+* [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/1108.2874)
 * Bora Yalkinoglu, _On Endomotives, Lambda-rings and Bost-Connes systems_,  With an appendix by Sergey Neshveyev, [arxiv/1105.5022](http://arxiv.org/abs/1105.5022)
 
 An approach in terms of [[Lambda-ring]]s is
