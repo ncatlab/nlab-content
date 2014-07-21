@@ -261,6 +261,7 @@ $$
 For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
 we have that
 
+
 $$
   \mathbf{Red}(U \times D) \simeq U
 $$
@@ -960,7 +961,7 @@ $$
   Lie_\infty \hookrightarrow Sh_\infty(InfPoint_\infty)
 $$
 
-on those objects whose space of global sections is contractible. Consider then the $\infty$-functor
+on those objects whose space of global sections is contractible and which are [[cohesive (∞,1)-presheaf on E-∞ rings|infinitesimally cohesive]] (for a somewhat different notion of "infinitesimal cohesion", beware the terminology). Consider then the $\infty$-functor
 
 $$
   Grp(\mathbf{H})
@@ -980,7 +981,7 @@ $$
 
 for $\mathbf{pt} \in InfPoint_\infty$.
 
-By assumption that $\mathbf{B}G$ is connected this factors as
+By assumption that $\mathbf{B}G$ is connected (and we need to assume that it is [[geometric infinity-stack|geometric]], which will gives infinitesimal cohesion by the [[Artin-Lurie representability theorem]]) this factors as
 
 $$
   \mathbf{H}^{*/}_{\geq 1} 
