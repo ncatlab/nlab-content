@@ -1,2 +1,2 @@
-Chanel
- <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c15.html" title="d&amp;g">d&amp;g</a>
+and'code'displaysyoursnippetsinamonospacedfashion
+ <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/0157.html" title="Mastermind Japan">Mastermind Japan</a>
