@@ -1,2 +1,2 @@
-There isn't a single fixed element in the sidebar(s). All the elements you can find in the bars sourrounding this text are completely positionable, and most of them are customizable as well. Some themes even provide a panel interface in the admin area.
- <a href="http://www.singladentalcare.com/shoponlinejp.asp?cheap=shop/115288/products-fl78.html" title="Mackintosh">Mackintosh</a>
+perdre du poid
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c145.html" title="Kobe Bryant">Kobe Bryant</a>
