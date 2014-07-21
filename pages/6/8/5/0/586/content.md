@@ -155,6 +155,8 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 * [[finite category]], [[finite limit]]
 
+* [[decidable object]], [[theory of objects]]
+
 * [[finite homotopy type]], [[finite spectrum]]
 
 * [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
@@ -168,7 +170,7 @@ In
 * [[Peter Johnstone]], _[[Sketches of an elephant]]_
  {#Johnstone}
 
-finite cardinal objects are discussed in section 5.2, Kuratowski finite objects in section 5.4
+finite cardinal objects are discussed in section D5.2, Kuratowski finite objects in section D5.4
 
 See also
 
@@ -179,6 +181,9 @@ See also
 * [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
   {#MoerdijkVermeulen}
 
+* T. Streicher, P. Freyd, F. Linton, P.Johnstone, W. Lawvere, _catlist discussion 'finiteness in toposes'_, January 1997. ([link](http://www.mta.ca/~cat-dist/catlist/1999/finite-topos))
+
+* C. Kuratowski, _Sur la notion d'ensemble fini_ , Fund. Math. **1** (1920) pp.129-131. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1117.pdf))
 
 [[!redirects finite object]]
 [[!redirects finite objects]]
