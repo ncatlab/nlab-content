@@ -1,2 +1,2 @@
-Always keep a budget in mind for your bridesmaids gowns. It's very unfair to expect your bridesmaids to buy overly expensive dresses, and it may damage your relationship with some of the most important women in your life. Around $100-250 each dress is generally considered a reasonable cost.
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c31.html" title="VAGARY">VAGARY</a>
+l& perdre du poids en 1 mois ; Mentaire trop & perdre rapidement
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c82.html" title="ALPHA BY ANS">ALPHA BY ANS</a>
