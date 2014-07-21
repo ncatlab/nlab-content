@@ -1,3 +1,3 @@
-Tiba-tiba???
- <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=387" >Air Max 90 VT Mujeres Azul Baratos</a>
-[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=387]Air Max 90 VT Mujeres Azul Baratos[/url]
+"a'arh.tapi sekarang dah lama x tengok diorang perform.loque x balik lg dr us so cam x best arh coz guitarist bukan loque yg main kalau perform"-gelas berisi susu sudah bertukar tangan.
+ <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=420" >nike air Jordan Hydro V Premier Hombres Amarillo</a>
+[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=420]nike air Jordan Hydro V Premier Hombres Amarillo[/url]
