@@ -1,3 +1,3 @@
-The film has also been criticised for bringing stylised violence into mainstream moviemaking. But Tarantinos fans certainly dont see him as a prime offender.
- <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-vintage-2128-c-20.html" >Ray Ban Vintage 2128</a>
-[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-vintage-2128-c-20.html]Ray Ban Vintage 2128[/url]
+Those results match an earlier Manpower study of more than 28,000 employers in 25 countries. The 2007 report revealed that only 14% of employers had strategies to recruit older workers and only 21% had developed retention policies. There were exceptions. Encouraged by government legislation and incentive programs, companies in Japan and Singapore were far ahead of employers in other countries in trying to keep older workers.
+ <a href="http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html" >Ray Ban 3483 Sunglasses</a>
+[url=http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html]Ray Ban 3483 Sunglasses[/url]
