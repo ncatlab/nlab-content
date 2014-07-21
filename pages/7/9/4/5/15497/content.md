@@ -1,2 +1,2 @@
-Park Avenue
- <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c268.html" title="folli follie">folli follie</a>
+Usually do not wear jeans, work-out attire or sneakers even though those will be the belongings you normally wear throughout the day. Prevent the funny Santa hats, reindeer antlers and ties that play "Jingle Bells". That's not the way you want the boss - and her boss to remember you..
+ <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc144.html" title="WHITE'S">WHITE'S</a>
