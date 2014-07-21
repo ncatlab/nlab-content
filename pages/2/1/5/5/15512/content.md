@@ -1,3 +1,3 @@
-"Awak jangan salah anggap. Saya tak pernah bosan dengan hubungan kita. Saya tak lupa impian saya dan tak lupa janji saya. Saya tak boleh jelaskan apa-apa sekarang. Cuma saya harapkan awak faham kehendak saya sekarang". Jelas Airil. Aku terdiam kaku lalu berlalu pergi tanpa sebarang kata. Lemah. Seakan jantung terhempas ke bumi. Sakitnya hanya Tuhan sahaja yang tahu.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1990" >Air Max 91 Classic BW blue uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1990]Air Max 91 Classic BW blue uk[/url]
+Seminggu kemudian&#8230;..aku kini duduk di rumah untuk beberapa bulan menunggu result STPM ku&#8230;tiba-tiba..
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2460" >Nike Air Max 91 Classic BW green uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2460]Nike Air Max 91 Classic BW green uk[/url]
