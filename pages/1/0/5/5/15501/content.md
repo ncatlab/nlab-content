@@ -1,3 +1,3 @@
-The College of Journalism provides a single integrated home for BBC journalism training and development,Michael Kors Handbags. It delivers editorial standards and legal training as well as core journalist craft skills and leading international training. The college also offers informal learning through its free public-facing website,Michael Kors.
- <a href="http://www.easyusbooks.co.uk/RayBannunique.asp?unique=ray-ban-clubmaster3" >Ray Ban Clubmaster</a>
-[url=http://www.easyusbooks.co.uk/RayBannunique.asp?unique=ray-ban-clubmaster3]Ray Ban Clubmaster[/url]
+No need for cash
+ <a href="http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=dhl-shipping-fee-c-15.html" >DHL Shipping Fee</a>
+[url=http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=dhl-shipping-fee-c-15.html]DHL Shipping Fee[/url]
