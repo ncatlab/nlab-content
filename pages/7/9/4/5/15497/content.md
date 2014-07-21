@@ -1,2 +1,2 @@
-It makes your wrist look awesome. With stunning designs one can get attention of many. Just think about a bracelet with a pink crystal heart or with diamonds at the end or a cubic zirconia or 9 ct gold. Feeling excited? Not to worry. There are lots of online websites that provide jewellery. Mens silver bracelets are also available with easy deals. There is a long listing and one can find out many deals according to their need. The price of the bracelet is awesome. The designer bracelets are breath taking. It has become very easy to mesmerize people with these astonishing designs.
- <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed115.html" title="Mastermind Japan">Mastermind Japan</a>
+The more tag allows you to create a "jump" between an excerpt and the complete article.
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c196.html" title="Nike shox">Nike shox</a>
