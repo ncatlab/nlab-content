@@ -1,2 +1,2 @@
-India also has a formidable and a significant list of fashion brands that are highly profitable, fashionable and popular with the masses.
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c44.html" title="PRIVATE LABEL">PRIVATE LABEL</a>
+* Online Wedding Stores Online wedding stores can be  a great way to buy red wedding dresses. Buying red wedding dresses is much easier, and you have a bigger selection. If one store does not have the kind of red wedding dress you want to buy, there are many other stores.
+ <a href="http://www.accommodationauctions.com/shoesonlinejp.asp?cheap=shop/jp/p/soabed23.html" title="SUPREME">SUPREME</a>
