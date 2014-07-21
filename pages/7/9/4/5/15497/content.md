@@ -1,2 +1,2 @@
-FlatPress is very customizable, and supports  to extend its power. BBCode is itself a plugin!
- <a href="http://www.accommodationauctions.com/shoesonlinejp.asp?cheap=shop/jp/p/soabed169.html" title="OMEGA">OMEGA</a>
+Online shopping for cosmetic products in India is presently the most favored system as while shopping, you can surf as many cosmetic products  as you like just by making few clicks. Also  online shopping will save you from the hassles of searching for Inglot cosmetics products from store to store and sparing your precious time for cosmetic shopping. While shopping online you can choose your stuff at your own pace as there you will not found any pushy salesperson.
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso133.html" title="G.H.BASS">G.H.BASS</a>
