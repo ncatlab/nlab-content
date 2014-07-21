@@ -1,2 +1,2 @@
 Some suggestions might be Aristotle, Plato, or Descartes. Although there are no photographs to pattern your costume after, you probably have a pretty good idea in your mind of how these great minds might have looked. You'll probably want to wear a long tunic with sandals and sport a gray beard.Tuesday, September 10, 2013
- <a href="http://www.quantifyingoutsourcingbenefits.com/uggaustraliasales.asp?cheap=products-c42.html" title="UGG &#12525;&#12461;&#12471;&#12540;&#12471;&#12519;&#12540;&#12488; 5828">UGG &#12525;&#12461;&#12471;&#12540;&#12471;&#12519;&#12540;&#12488; 5828</a>
+ <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c121.html" title="Air Max">Air Max</a>
