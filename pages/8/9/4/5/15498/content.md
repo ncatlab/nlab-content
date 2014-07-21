@@ -1,3 +1,3 @@
-Recent news around  and the "Occupy" Movement on university campuses has thrown the role of the college and university trustee into the headlines and it is worth having a closer look at the role of the board of trustees and what it means to sit on the board of a higher education institution.
- <a href="http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=homme-christian-louboutin-chaussures-c-4.html" >Homme Christian Louboutin Chaussures</a>
-[url=http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=homme-christian-louboutin-chaussures-c-4.html]Homme Christian Louboutin Chaussures[/url]
+All that said, the fiscal situation facing the states is pretty bad. Fiscal transfers are certainly going away for the next couple of years, and expenditures are growing even as revenues aren't. The figures for a state like, say, New Jersey are alarming indeed: a 2011 deficit of more than $10 billion, unemployment of 9.2%, and a debt-to-gross-state-product ratio of 11.8%. There will be cuts, and they will be harsh.
+ <a href="http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-pumps-c-32.html" >Christian Louboutin Pumps</a>
+[url=http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-pumps-c-32.html]Christian Louboutin Pumps[/url]
