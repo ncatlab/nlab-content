@@ -1,3 +1,3 @@
-Source:Pennsylvania's Department of?Community and Economic Development . The funds, which are to be distributed as grants and project loans, are meant to help leverage some $40 million in private investments statewide.
- <a href="http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Kristin-c-87.html" >Kristin</a>
-[url=http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Kristin-c-87.html]Kristin[/url]
+"What these activists have accomplished is really impressive," said Jess Leber, a senior organizer for Change.org, the world's fastest-growing platform for social change. "In just a few weeks, the Ecology Center has inspired thousands of University of Michigan community members to make their voices heard on solar energy. Change.org is about empowering anyone, anywhere to demand action on the issues that matter to them, and it has been incredible to watch the Ecology Center's campaign take off."
+ <a href="http://www.care-mates.com/Coachhandbagdiscount.asp?discount=accessories-business-bags-c-3_72.html" >Business bags</a>
+[url=http://www.care-mates.com/Coachhandbagdiscount.asp?discount=accessories-business-bags-c-3_72.html]Business bags[/url]
