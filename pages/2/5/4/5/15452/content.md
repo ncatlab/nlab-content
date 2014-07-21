@@ -1,3 +1,3 @@
-??Siapa dia? Manusia atau hantu??? Melihat keadaan gadis tersebut membuatkan kepala Ameer memikirkan perkara yang bukan-bukan. Apatah lagi gadis berambut panjang itu berpakaian serba putih dan sedang tajam merenung ke arahnya. Kulit wajahnya yang putih gebu dan nampak pucat itu jelas ketara kerana lampu kereta Ameer sedang menyorot ke arahnya. Melihat keadaan gadis itu Ameer jadi serba salah. Dia tidak patut membiarkan gadis itu terus berdiri di situ.
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1597" >Mercurial Vapor VII FG Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1597]Mercurial Vapor VII FG Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
+??Esok kali dia berangkat. Bilangnya, dia mahu pulang sehari dua saja. Kemudian kembali semula ke sini,?? terang Yanti.
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=95" >Mercurial Vapor superfly 8 FG Mujeres Vino</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=95]Mercurial Vapor superfly 8 FG Mujeres Vino[/url]
