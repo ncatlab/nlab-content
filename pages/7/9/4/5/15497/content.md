@@ -1,2 +1,2 @@
-This is an entry, while  is a static page. A static page is an entry (a post) which cannot be commented, and which does not appear together with the normal posts of the blog.
- <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01145.html" title="HERMES">HERMES</a>
+and the FlatPress TeamWednesday, August 21, 2013
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso131.html" title="DR.MARTEN">DR.MARTEN</a>
