@@ -1,2 +1,2 @@
-ainsi que des fruits et poids rapidement Acheter de r??ve!
- <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/01122.html" title="Moro Jenny">Moro Jenny</a>
+Make sure you take into account the watch case used to hold the watch. Although it is common that some are manufactured from plastic and stainless steel, there are those which are manufactured from silver, gold or even platinum but of course you can expect a much higher quality and price for these cases. The cheaper quality products which have their case made from lower quality materials may not be as durable.
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c145.html" title="ANDRE MOUCHE">ANDRE MOUCHE</a>
