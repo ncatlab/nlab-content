@@ -1,3 +1,3 @@
-"Irna.. sayang&#8230; Irna&#8230;."
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1951" >air Jordan 5 gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1951]air Jordan 5 gold[/url]
+"ANAK MALAYSIA HARUMKAN NAMA NEGARA, Lukisan pemandangan KLCC merangkul kejuaraan pertandingan pemandangan dunia di Kota Paris." petikan akhbar hari ini. "Anak yang awak kata bodoh tu lah yang bagi nama awak bersinar dan perniagaan awak bertambah maju sekarang. 4 tahun, sekali pun awak tak pernah tanya khabar dia sedangkan dia sentiasa tanya khabar awak dan Aliza. Awak baca tak surat khabar hari ni? Wartawan tanya siapa pendorong  dia boleh berjaya? En. Amran Abdillah!!! Siapa tu bang? Dia tak pernah lupakan kita semua walaupun dah 4 tahun jauh beribu batu" kecewa dengan kesilapan yang di lakukan oleh suami dan anak sulungnya.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=714" >Nike Air Max R4 dark sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=714]Nike Air Max R4 dark sale[/url]
