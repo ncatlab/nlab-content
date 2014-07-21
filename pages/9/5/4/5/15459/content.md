@@ -1,3 +1,3 @@
-Akhirnya teriakkan aku memecah kesunyian.  Aku meraung sekuat hati. Tangan ku gengam sekuat hati.  Tanpa ku sedar kini aku tidak mampu bergerak lagi. Sehinggakan mereka terpaksa menenangkan aku dengan pelukan.  Aku rasa yang mereka keluarkan memang betul-betul tak masuk akal.  Inilah yang kami nak.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2183" >nike air Jordan 7 gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2183]nike air Jordan 7 gold[/url]
+Terima kasih tuhan, berikan aku kebahagiaan.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=68" >Jordan CP3.VII ARGYLE iD yellow</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=68]Jordan CP3.VII ARGYLE iD yellow[/url]
