@@ -1,2 +1,2 @@
-3. Slight of Hand. Divide team into groups of 4 to 6. Though the essence remains; the options have expanded. Chaniya Choli has become more royal than traditional. "People tend to go for more expensive Chaniya Choli's because they know that what they purchase won't be confined to Navratri alone, but used in other festivals or wedding functions as well.
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc232.html" title="STUSSY">STUSSY</a>
+These are some of the well-known brands that offer shoes, jewelries, watches, cosmetics, fashion apparels and many more. India being a developing country, most of these top fashion brands offer a vast range of products that are sold at affordable prices to get the require volume.
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso247.html" title="DANTON">DANTON</a>
