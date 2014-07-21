@@ -1,3 +1,3 @@
-"Ameer pilihan awak sebenarnya, kan? Beritahu saya dengan jujur, Hakimi. Siapa Ameer yang lebih penting berbanding saya tu?"
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1745" >Nike The Premier FG Boots Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1745]Nike The Premier FG Boots Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
+Tubuhnya direbahkan kembali di atas katil itu. Maya memandang Megat Andrian dengan rasa tidak percaya.
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=2230" >Jordan Spizike CHROMA iD Mujeres Oscuro</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=2230]Jordan Spizike CHROMA iD Mujeres Oscuro[/url]
