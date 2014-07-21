@@ -22,7 +22,7 @@
 A (left/right) _dual_ to an [[object]] in a [[monoidal category]] $\mathcal{C}$ is a [[left adjoint|left]]/[[right adjoint|right]] [[adjoint]] to the object regarded as a [[morphism]] in the [[delooping]] [[2-category]] $\mathbf{B}\mathcal{C}$. If a dual exists, the object is called _dualizable_.
 
 
-Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] just when it has [[finite number|finite]] [[dimension]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a [[finite spectrum]].
+Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] just when it is a [[finite-dimensional vector space]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a [[finite spectrum]].
 
 A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
@@ -94,7 +94,7 @@ is the one obtained by $f$ by composing the duality unit, the counit and the [[b
 +-- {: .num_example}
 ###### Example
 
-Let $V$ be a finite-dimensional [[vector space]] over a field $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
+Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
 
 =--
 
