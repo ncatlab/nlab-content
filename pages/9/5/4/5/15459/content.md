@@ -1,3 +1,3 @@
-Sejak anaknya menjadi mangsa kerakusan lelaki tidak berhati perut, sejak itulah hidup anaknya seakan gelap. Tiada lagi senyum dan tawa yang menghiasi satu-satunya anak perempuan kesayangannya. Tercabar jua naluri keibuannya. Entah apa lagi yang harus dilakukan untuk mengembalikan semangat puteri kesayangannya. Pujukan dengan kata-kata seakan lemah buat Damia. Hanya doa yang mampu Faridah titipkan agar Damia kembali positif dalam hidupnya.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2049" >Nike Air Max 91 Classic BW VT blue uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2049]Nike Air Max 91 Classic BW VT blue uk[/url]
+"Baik Boss!"
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1144" >Air Max 91 Classic BW black uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1144]Air Max 91 Classic BW black uk[/url]
