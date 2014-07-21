@@ -1,3 +1,3 @@
-Non-profits come in all shapes and sizes. Some are small niche organizations that come from the passion of one or two people and have limited resources. Others are large, complex organizations with significant donations and operating costs that rival many global corporations. No matter the size or scope, the principles behind the board's responsibilities are the same: Donors give money to an organization in the belief that their money will be used for a specific cause. The organization and the cause are at stake, and the ethical imperative behind the organization goes beyond the bottom line.
- <a href="http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=talons-compens&#233;s-christian-louboutin-c-2.html" >Talons compens&#233;s Christian Louboutin</a>
-[url=http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=talons-compens&#233;s-christian-louboutin-c-2.html]Talons compens&#233;s Christian Louboutin[/url]
+Update 3:  has a very smart take on all this, and some more information from the NYT:
+ <a href="http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-nouvelle-collection-c-1.html" >louboutin nouvelle collection</a>
+[url=http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-nouvelle-collection-c-1.html]louboutin nouvelle collection[/url]
