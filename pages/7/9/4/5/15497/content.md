@@ -1,2 +1,2 @@
-Because then, it continues with the omega seamaster deville. omega seamaster replica watches are really flexible. As its name, this watch can be worn on the drinking water sports occasions. A reference to mountaineering is made when Obelix is tied and dragged by Asterix up a mountain. When Asterix and Obelix slide downwards through the snow they resemble a sled. These jokes about typical Swiss sports are referenced once more when a Roman    complains: "Swimming, climbing mountains,.," whereupon their centurion exclaims that they "aren't taking a holiday.".
- <a href="http://www.accommodationauctions.com/shoesonlinejp.asp?cheap=shop/jp/p/soabed160.html" title="piaget">piaget</a>
+Avon
+ <a href="http://www.afsupercell.com/shopoutletjp.asp?cheap=products-c157.html" title="WHITE'S">WHITE'S</a>
