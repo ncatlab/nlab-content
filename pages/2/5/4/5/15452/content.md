@@ -1,3 +1,3 @@
-"Bieyla.." Hakim memanggil nama seseorang..Tapi matanya memberi tumpuan kepada memandu. Jap-jap! 'Bieyla'?? Hakim panggil aku ke? Tak pernah-pernah dia panggil aku dengan panggilan camtu? Seriau pulak bulu roma aku..Ngeee&#8230;
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=214" >Jordan Prime 5 Hombres Blanco</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=214]Jordan Prime 5 Hombres Blanco[/url]
+"Ameer pilihan awak sebenarnya, kan? Beritahu saya dengan jujur, Hakimi. Siapa Ameer yang lebih penting berbanding saya tu?"
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1745" >Nike The Premier FG Boots Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1745]Nike The Premier FG Boots Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
