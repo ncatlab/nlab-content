@@ -1,3 +1,3 @@
-And beyond that, it's just intuitive. If you take the average person, ask them what will cause them to spend more money: A policy announcement from Bernanke, or the promise of a well-paying job for years to come. The answer is obvious.
- <a href="http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-daffodile-femme-c-14_15.html" >Femme</a>
-[url=http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-daffodile-femme-c-14_15.html]Femme[/url]
+Daniel Altman's "single bottom line"  &#8212; that by maximizing profits companies also maximize social welfare &#8212; falls squarely into this tradition. Far from being new, it was old even in the 1930s.
+ <a href="http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-sandales-c-11.html" >Louboutin Sandales</a>
+[url=http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-sandales-c-11.html]Louboutin Sandales[/url]
