@@ -1,2 +1,2 @@
-perdre du poid
- <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c145.html" title="Kobe Bryant">Kobe Bryant</a>
+and the FlatPress TeamWednesday, August 21, 2013
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c200.html" title="Air Jordan 19">Air Jordan 19</a>
