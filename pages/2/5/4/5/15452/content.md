@@ -1,3 +1,3 @@
-"untuk aku ke untuk kau??"duga irfan sambil menahan tawa.
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=232" >Jordan Court Vision 99 Hombres Blanco</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=232]Jordan Court Vision 99 Hombres Blanco[/url]
+"Hari tu masa pergi pejabat pos, inei adalah ternampak dia di kem.Baik-baik saja nampaknya. Agaknya tak lama lagi berlakilah dia tu."
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=320" >NIKE Mercurial Vapor VI FG Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=320]NIKE Mercurial Vapor VI FG Gym/Rojo[/url]
