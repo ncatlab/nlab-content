@@ -1,3 +1,3 @@
-45. Assi, Georges: $8,500,000 (MD, Tradlng &#8211; Collaterallzed Debt)
- <a href="http://reubenstein.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-ballerines-c-2/" >Christian Louboutin Ballerines</a>
-[url=http://reubenstein.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-ballerines-c-2/]Christian Louboutin Ballerines[/url]
+Some of the improvement in sentiment indicated by these surveys is clearly tied to a better housing market, with prices increasing across the country. Some of it can probably be explained by just how pessimistic people have been over the past few years. These reports cannot compare how people felt in 1984 with how they feel now. The scores are based on purely subjective questions about how people feel (??Do you think that a year from now you will be better off financially, worse off, or just about the same???). The change in scores is reflected month by month, but the surveys say nothing about the quality of those feelings over time.
+ <a href="http://muglauzunogluemlak.com/images/ChristianLouboutinnrepandun.asp?repandu=2014-christian-louboutin-c-1.html" >2014 Christian Louboutin</a>
+[url=http://muglauzunogluemlak.com/images/ChristianLouboutinnrepandun.asp?repandu=2014-christian-louboutin-c-1.html]2014 Christian Louboutin[/url]
