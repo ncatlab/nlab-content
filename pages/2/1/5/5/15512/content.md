@@ -1,3 +1,3 @@
-"tadi malam bulan purnama menyaksikan api yang berkobar-kobar membakar rumah wanitaku."Cerpen : Cahaya nur
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1463" >nike air Jordan Trunner Dominate 1.5 silver</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1463]nike air Jordan Trunner Dominate 1.5 silver[/url]
+"Dah Lisya yang ada kat sini, abang tanya Lisya lah, tanya siapa lagi," katanya sambil gelak. Ada ke patut gelakkan aku, nasib baik aku suka tengok dia gelak. Sejuk mata memandang.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=798" >Nike Air Griffey Max 360 beige sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=798]Nike Air Griffey Max 360 beige sale[/url]
