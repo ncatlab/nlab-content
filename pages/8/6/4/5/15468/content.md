@@ -1,3 +1,3 @@
-"Eh, nanti jap. Hah, aku baru ingat something bila korang sebut nama Danisya," ujar Safwan.
- <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2203" >Air Max Lunar Gym Baratos</a>
-[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2203]Air Max Lunar Gym Baratos[/url]
+Intan Maisara: Macam nak balik jek dorang nih? Biar betul?? Aku dah lah datang lambat. Takkan cancel sebab aku kot..mustahil..mustahil.
+ <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2291" >nike air Jordan 1 Retro 89 Mujeres Blanco</a>
+[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2291]nike air Jordan 1 Retro 89 Mujeres Blanco[/url]
