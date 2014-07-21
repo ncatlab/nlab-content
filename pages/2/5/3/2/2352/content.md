@@ -146,8 +146,6 @@ and in this context $Graph(f) \to C^{op} \times D$ is the
 
 ## Related concepts
 
-* **graph of a functor**
-
 * [[cograph of a functor]], [[cograph of a profunctor]]
 
 [[!redirects graph of a profunctor]]
