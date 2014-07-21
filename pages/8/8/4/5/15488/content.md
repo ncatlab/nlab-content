@@ -1,3 +1,3 @@
-7. Strong
- <a href="http://www.poopada.com/Coachhandbagcharming.asp?charming=coach-luggage.html" >Coach Luggage</a>
-[url=http://www.poopada.com/Coachhandbagcharming.asp?charming=coach-luggage.html]Coach Luggage[/url]
+Interestingly enough, Jack Nicklaus went through similar droughts in his career as well. He went for 20 straight seasons without a win between 1980 PGA and 1986 Masters whereas Nicklaus pulled out off 1983 Master just after he played the very first round. Another drought happened for Nicklaus between 1967 and 1970 when he went for 12 straight seasons without a win.
+ <a href="http://www.recoildoors.com/Raybansunglassessales.asp?sales=ray-ban-junior-sunglasses-c-7.html" >Ray Ban Junior Sunglasses</a>
+[url=http://www.recoildoors.com/Raybansunglassessales.asp?sales=ray-ban-junior-sunglasses-c-7.html]Ray Ban Junior Sunglasses[/url]
