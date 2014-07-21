@@ -1,3 +1,3 @@
-There is an opportunity for a demographic dividend for developing countries if they address this issue. In my country, about 70 percent of the citizens are 30 years old or younger, and there are similar demographics in many other developing countries. The rest of the developed world is looking at a gerontocracy, but we're looking at a youth bulge.
- <a href="http://londonfilmacademy.com/ChristianLouboutinnpascher.asp?pascher=femme-flat-sandales-c-1_6.html" >Flat Sandales</a>
-[url=http://londonfilmacademy.com/ChristianLouboutinnpascher.asp?pascher=femme-flat-sandales-c-1_6.html]Flat Sandales[/url]
+The irony is that this subject has already been explored in a one-man theatrical performance &#8212; one , no less. Daisey, you won't be surprised to hear, is gentler on James Frey and JT Leroy than Shafer is on Daisey, blaming in significant part "the demands of personal storytelling" for their sins.
+ <a href="http://maltaingilizcedilokulu.com/images/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-ankle-bottes-c-8.html" >Christian Louboutin Ankle bottes</a>
+[url=http://maltaingilizcedilokulu.com/images/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-ankle-bottes-c-8.html]Christian Louboutin Ankle bottes[/url]
