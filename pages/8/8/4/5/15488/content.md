@@ -1,3 +1,3 @@
-"I tried to save Reeva. But she died in my arms. I can't stand how much hurt I've caused.
- <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Poppy-c-48.html" >Poppy</a>
-[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Poppy-c-48.html]Poppy[/url]
+Get a glimpse of the new exclusive 50thanniversary collection in the images given below:The watch, which features a 41.50 mm brushed and polished stainless steel case and a polished bezel, has a black dial with the vertical lines that define Omega's popular Aqua Terra Collection. The indexes are crafted from brushed and polished 18 Ct white gold and there is a date window at 3 o'clock.
+ <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=waverly-c-1_6/" >Waverly</a>
+[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=waverly-c-1_6/]Waverly[/url]
