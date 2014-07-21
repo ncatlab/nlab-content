@@ -26,7 +26,7 @@
 
 ## Idea
 
-Central aspects of _finite_ [[quantum mechanics]] (with finite-dimensional [[space of states|state space]], notably for [[tensor products]] of [[qbit]] states) and [[quantum computation]] follow formally from the formal properties of the [[category]] [[Hilb|FinHilb]] of finite-dimensional [[Hilbert spaces]]. These properties are axomatized by saying that [[Hilb]] is an example of a _[[†-compact category]]_.
+Central aspects of _finite_ [[quantum mechanics]] (with finite-dimensional [[space of states|state space]], notably for [[tensor products]] of [[qbit]] states) and [[quantum computation]] follow formally from the formal properties of the [[category]] [[Hilb|FinHilb]] of [[finite-dimensional vector space|finite-dimensional]] [[Hilbert spaces]]. These properties are axomatized by saying that [[Hilb]] is an example of a _[[†-compact category]]_.
 
 Conversely, much of finite quantum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
 
