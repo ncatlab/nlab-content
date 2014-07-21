@@ -1,3 +1,3 @@
-"Hei! Dah gila ke?" Jerit mamanya semula cuba memanggil Hanah untuk masuk ke dalam kereta kembali. Dia tidak menjangka yang Hanah akan betul-betul turun dari kereta. Hanah tidak mempedulikan mamanya Lantas dia menahan sebuah kereta yang bertentangan dengan haluan mereka lalu masuk ke perut kereta tersebut.Novel : A.B.C 1
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1417" >air Jordan IX Retro Oscuro</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1417]air Jordan IX Retro Oscuro[/url]
+Lamunan Qistina mati apa bunyi ketukan pintu.Belum sempat dia memberi arahan pintu sudah terkuak.Wajah papanya terjengul.
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=336" >NIKE Mercurial Vapor superfly II Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=336]NIKE Mercurial Vapor superfly II Gym/Rojo[/url]
