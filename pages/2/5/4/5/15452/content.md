@@ -1,3 +1,3 @@
-"Nia jom kita realisasikan kesalahfahaman Cikgu Tehran". Bupp!
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=120" >retro Jordan Retro 1 High OG Mujeres Blanco</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=120]retro Jordan Retro 1 High OG Mujeres Blanco[/url]
+Lee Hanah (18 tahun):
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=934" >NIKE Mercurial Vapor IX AG Mujeres Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=934]NIKE Mercurial Vapor IX AG Mujeres Gym/Rojo[/url]
