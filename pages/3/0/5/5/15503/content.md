@@ -1,2 +1,2 @@
-Entries (posts) and Static pages
- <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c131.html" title="Women">Women</a>
+Avon
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso231.html" title="REPETTO">REPETTO</a>
