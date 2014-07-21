@@ -1,3 +1,3 @@
-Dengan nada menyesal Tsabit bertanya lagi, "Dimana rumah pemiliknya? Aku hendak menemuinya dan meminta agar dihalalkan epal yang telah ku makan ini." Pengurus kebun itu memberitahukan, "Apabila engkau ingin pergi kesana maka engkau harus menempuh perjalan sehari semalam".
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=270" >air Jordan Black Cat Metal yellow</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=270]air Jordan Black Cat Metal yellow[/url]
+Aku kembali mencari ayah keesokan harinya di bandar. Penat mencari, akhirnya pandanganku tertangkap kelibat ayah yang sedang minum pagi di sebuah warung.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2116" >Air Max 24-7 red uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2116]Air Max 24-7 red uk[/url]
