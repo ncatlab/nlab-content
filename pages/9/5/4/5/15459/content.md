@@ -1,3 +1,3 @@
-"Baik Boss!"
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1144" >Air Max 91 Classic BW black uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1144]Air Max 91 Classic BW black uk[/url]
+Masa aku tengah jalan-jalan tu kan, aku terlanggarlah sorang awek ni. Nasib baiklah tak tersungkur. Kalau tak, hilang macho aku! Tapi, ada benda lain pula yang tersungkur. Tau apa? Hati aku! Mak&#8230; aku dah jatuh cinta ke? Awek tu&#8230; memang cun! Tak kelip mata aku tengok dia. Tapi, dia jeling aku macam nak telan! Apasal? Aku ni tak hensem ke di mata dia? Hisy&#8230; mustahil tu! Aku kan memang jejaka hensem? Awek tu blah macam tu je! Frust betul!
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2247" >Nike Air Max Structure Triax Hoop red uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2247]Nike Air Max Structure Triax Hoop red uk[/url]
