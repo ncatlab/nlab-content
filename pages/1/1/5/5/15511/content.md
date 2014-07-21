@@ -1,3 +1,3 @@
-Raja cendana ceri dan tentera masuk ke istana.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1577" >Nike Air Max 90 VT purple uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1577]Nike Air Max 90 VT purple uk[/url]
+Dengan nada menyesal Tsabit bertanya lagi, "Dimana rumah pemiliknya? Aku hendak menemuinya dan meminta agar dihalalkan epal yang telah ku makan ini." Pengurus kebun itu memberitahukan, "Apabila engkau ingin pergi kesana maka engkau harus menempuh perjalan sehari semalam".
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=270" >air Jordan Black Cat Metal yellow</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=270]air Jordan Black Cat Metal yellow[/url]
