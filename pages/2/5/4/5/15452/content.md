@@ -1,3 +1,3 @@
-Ginetik ini bakal menjadikan dua orang bayi ini  genius yang tidak dimiliki oleh orang lain .  Saintis tersebut tidak dapat mengesan punca kepada kesan sampingan kedua-dua orang bayi ini . Seorang memiliki anak mata bewarna merah dan seorang lagi memiliki rambut bewarna perak .
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1030" >retro Jordan AJ 1 93 Hombres Blanco</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1030]retro Jordan AJ 1 93 Hombres Blanco[/url]
+"Entahla..Ibu aku dan kawan aku yang belikan..Tapi,ibu aku lupa siapa kawan aku tu.." jawab aku.
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1687" >Nike CTR360 Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1687]Nike CTR360 Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
