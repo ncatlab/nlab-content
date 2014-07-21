@@ -1,2 +1,2 @@
-Tous les volailles, buzz, bons perdre du poids en 1 semaine des fruits et
- <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso161.html" title="G.H.BASS">G.H.BASS</a>
+Before buying fashion bracelets, you should keep few things in your mind. Nowadays, there are lots of online jewellery that provide jewellery but not all websites are trustworthy. There are plenty of online fake stores offering low quality and fake fashion bracelets. Therefore before buying fashion bracelets, you should check the trustworthiness of the store.Friday, September 13, 2013
+ <a href="http://www.quantifyingoutsourcingbenefits.com/uggaustraliasales.asp?cheap=products-c32.html" title="UGG &#12506;&#12452;&#12488;&#12531; 5654">UGG &#12506;&#12452;&#12488;&#12531; 5654</a>
