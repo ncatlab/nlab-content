@@ -51,7 +51,7 @@ The resulting map $j:\Omega\to\Omega$ is a topology.
 
 For $\mathcal{C}^{op}=\mathcal{M}_2$, the free monoid on two generators, and $H(X)=2^N$, the functor constantly the Cantor set, this yields $\mathcal{J}_2$.
 
-The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on countably infinite many generators, and $H=N^N$ exhibits the **infinite J&#243;nsson-tarski topos** $\mathcal{J}_\infty$, i.e. the category of sets $A$ with an isomorphism to $A^N$, as $Sh(N^N)$ locally.
+The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on countably infinite many generators, and $H=N^N$ exhibits the **infinite J&#243;nsson-Tarski topos** $\mathcal{J}_\infty$, i.e. the category of sets $A$ with an isomorphism to $A^N$, as $Sh(N^N)$ locally.
 
 +-- {: .query}
 Caveat: this entry is still in progress!
