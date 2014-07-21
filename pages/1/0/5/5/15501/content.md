@@ -1,3 +1,3 @@
-Negative perceptions
- <a href="http://www.doordefender.co.uk/christianlouboutinattractive.asp?attractive=christian-louboutin-boots2" >Christian Louboutin Boots</a>
-[url=http://www.doordefender.co.uk/christianlouboutinattractive.asp?attractive=christian-louboutin-boots2]Christian Louboutin Boots[/url]
+Sid Vicious of Sex Pistols on a boat on the river Thames during Queen Elizabeth Silver Jubilee celebrations in 1977 (Elisa Leonelli/REX)
+ <a href="http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3016-sunglasses-outlet-221.html" >Ray Ban 3016 Sunglasses</a>
+[url=http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3016-sunglasses-outlet-221.html]Ray Ban 3016 Sunglasses[/url]
