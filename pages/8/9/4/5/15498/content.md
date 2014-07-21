@@ -1,3 +1,3 @@
-On the other hand, if Stray agrees with Siegler, that doesn't mean that Siegler agrees with Stray. Siegler cited no source at all, named or anonymous, for his scoop that Apple had bought Chomp: he simply asserted the fact. "Apple has bought the app search and discovery platform , we've learned." If every statement in news writing needs to be attributed, then Siegler just failed that test.
- <a href="http://muglauzunogluemlak.com/images/ChristianLouboutinnrepandun.asp?repandu=bottes-christian-louboutin-c-2.html" >Bottes Christian Louboutin</a>
-[url=http://muglauzunogluemlak.com/images/ChristianLouboutinnrepandun.asp?repandu=bottes-christian-louboutin-c-2.html]Bottes Christian Louboutin[/url]
+*A word about this transcript. Cooper Union spokesman Lloyd Kaplan told me that board meetings are not officially recorded or transcribed in any way, which is consistent with what my sources are telling me &#8212; which is that the meeting was recorded without the knowledge or consent of the board members.
+ <a href="http://shafstoncollegeavustralya.edabroad.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-bottes-c-3.html" >Christian Louboutin Bottes</a>
+[url=http://shafstoncollegeavustralya.edabroad.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-bottes-c-3.html]Christian Louboutin Bottes[/url]
