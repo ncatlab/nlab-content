@@ -1,2 +1,2 @@
-SIGI (authorized body) is of the view that, if any fashionista wants to keep up with the trend he/she must not simply surf through the list of global fashion brands, but must keep a close eye on Indian fashion brands. It further added that the local Indian brands are at par with their international counterparts in terms of the quality of their offerings.Wednesday, August 21, 2013
- <a href="http://www.giftelliott.com/jponlines.asp?cheap=products-c49.html" title="adidas(&#12450;&#12487;&#12451;&#12480;&#12473;)">adidas(&#12450;&#12487;&#12451;&#12480;&#12473;)</a>
+Cartier
+ <a href="http://www.singladentalcare.com/shoponlinejp.asp?cheap=shop/115288/products-fl58.html" title="Duvetica THIA-ERRE">Duvetica THIA-ERRE</a>
