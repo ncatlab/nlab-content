@@ -1,3 +1,3 @@
-"Wow&#8230; bestnya" suara Zatul mencelah disusuli bisikan teman &#8211; teman yang tidak tentu butirannya.
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1329" >NIKE Mercurial Vapor III Hombres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1329]NIKE Mercurial Vapor III Hombres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
+"Hei! Dah gila ke?" Jerit mamanya semula cuba memanggil Hanah untuk masuk ke dalam kereta kembali. Dia tidak menjangka yang Hanah akan betul-betul turun dari kereta. Hanah tidak mempedulikan mamanya Lantas dia menahan sebuah kereta yang bertentangan dengan haluan mereka lalu masuk ke perut kereta tersebut.Novel : A.B.C 1
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1417" >air Jordan IX Retro Oscuro</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1417]air Jordan IX Retro Oscuro[/url]
