@@ -1,3 +1,3 @@
-Sudah cukup sudah Aimy ! Kau jangan nak berangan sampai ke situ sebab perkara itu tak kan mungkin terjadi kerana si Fareeq hanya melihat kau sebagai seorang teman sahaja. Bukan teman tapi mesra tapi teman biasa. Titik ! Noktah !Novel : 5 Hari Bersama Cinta 6
- <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2490" >Nike Air Max 2014 Hombres Gym Baratos</a>
-[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2490]Nike Air Max 2014 Hombres Gym Baratos[/url]
+"ha??"soal min sambil memusingkn badan ke arah suara yg mengejutkannya.gadis yang bersila di atas kerusi menangkap matanya,rambut tocang dua,pyjamas mickey mouse,i-pod di tangan.
+ <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=1092" >air Jordan X Retro Blanco</a>
+[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=1092]air Jordan X Retro Blanco[/url]
