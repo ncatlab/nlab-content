@@ -1,2 +1,2 @@
-3 perdre du poids Manger votre IMG. Que vous avez aussi avant de
- <a href="http://www.mikes-den.com/jponlines.asp?cheap=products-c252.html" title="POLICE">POLICE</a>
+For example, if your breasts peek out the top or sides of the bra, it's time to go up at least one cup size. If the cups dimple at all, this is an indication that the bra cup is too large. If you're not sure which bra is best for you &#8212; including a minimizing bra that makes your breasts appear smaller &#8212; have your measurements taken at an intimates or department store..Wednesday, October 16, 2013
+ <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/0134.html" title="Chrome Hearts">Chrome Hearts</a>
