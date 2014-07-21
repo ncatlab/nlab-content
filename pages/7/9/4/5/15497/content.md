@@ -1,2 +1,2 @@
-panerai 1960s breitling navitimer issued to the iraqi air force on ebay
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc136.html" title="PISTOLERO">PISTOLERO</a>
+And can you blame them? Of course not. They were picking up their brand new  limited edition Jaegers and spending the day with Navy SEALs. The subtle highlights of orange against a black case and dial make for a very bold yet understated look. Being an experienced watchmaker, he taught the trade of making Michele watches to his son, Jack. Maurice son later on moved to the states to set up shop. Michele is Jack daughter from whom the company derived its name..
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso152.html" title="GEORGECOX">GEORGECOX</a>
