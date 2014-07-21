@@ -1,3 +1,3 @@
-Tiba-tiba aku terdengar ibu memanggil aku. Dengan pantas aku berlari menuju ibu. Ibu menceritakan segalanya.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=800" >Jordan 4 silver</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=800]Jordan 4 silver[/url]
+"Maaf Mak, saya tidak membantu,"Buat kesekian kalinya saya menangis lagi.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2377" >Nike Air Max 2013 green uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2377]Nike Air Max 2013 green uk[/url]
