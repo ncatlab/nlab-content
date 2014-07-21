@@ -25,7 +25,7 @@ An **&#233;tendue** (also 'etendue', or 'etendu'; from French '&#233;tendue' (fe
 
 Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [SGA4](#SGA4) (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
-Several ([[site]]) characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one rather directly: it has a site where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and [[stacks]], which are instrumental for the generalization to _$\infinity$-&#233;tendues_ (cf. [Carchedi 2013](#Carchedi13)).
+Several characterizations of &#233;tendues are known and the _Ur_-example of an &#233;tendue, the presheaf topos $\mathcal{S}^G$ of group actions, exhibits one in terms of sites rather directly: it has a [[site]] where every morphism is monic. Other characterizations involve (local) [[equivalence relations]] and yield connections to [[orbifolds]], [[foliations]], and [[stacks]], which are instrumental for the generalization to _$\infinity$-&#233;tendues_ (cf. [Carchedi 2013](#Carchedi13)).
 
 &#201;tendues play an important role in Lawvere's approach to [[cohesion]] and the distinction between [[petit and gros toposes]] where they provide one of the classes of **petit** toposes (generalized spaces). In this context, Lawvere (1989,1991) interprets the cancellative property of the site as enabling an interpretation of &#233;tendues as _categories of processes_. 
 
@@ -50,6 +50,8 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 * **Proposition**. A Grothendieck topos $\mathcal{Y}$ is an &#233;tendue iff there exists a [[site]] $(\mathcal{C}, J)$ for $\mathcal{Y}$ such that every morphism of $\mathcal{C}$ is monic.
 
 * In particular for small $\mathcal{C}$, the presheaf topos $\mathcal{S}^{\mathcal{C}^{op}}$ is an &#233;tendue iff all morphisms in $\mathcal{C}$ are monic. For monoids this amounts to being cancellative: $m_1m=m_2m$ implies $m_1=m_2$ and includes all free monoids.
+
+* [[Subtoposes]] of &#233;tendues are &#233;tendues . K. Rosenthal uses this together with the preceding remark on $\mathcal{S}^{\mathcal{C}^{op}}$ for all-monic $\mathcal{C}$ in order to construct further &#233;tendues $Sh_j(\mathcal{S}^{\mathcal{C}^{op}})$ via a topology $j$ from a suitable functor $H:\mathcal{C}\to\mathcal{S}$ (for further details see [[Jónsson-Tarski topos]] or Rosenthal(1981)).
 
 * A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (Freyd&Scedrov 1990). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
 
