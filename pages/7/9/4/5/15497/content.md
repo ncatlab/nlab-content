@@ -1,2 +1,2 @@
-* Online Wedding Stores Online wedding stores can be  a great way to buy red wedding dresses. Buying red wedding dresses is much easier, and you have a bigger selection. If one store does not have the kind of red wedding dress you want to buy, there are many other stores.
- <a href="http://www.accommodationauctions.com/shoesonlinejp.asp?cheap=shop/jp/p/soabed23.html" title="SUPREME">SUPREME</a>
+Take into account the cut of the gown to consider what jewelry to use. If  you have a good looking, open neckline, why not let a necklace be focused on? If you want to wear a sleeveless evening dress, a more delicate bracelet would be a good choice. If you make yourself an elegant chignon, a well-chosen crystal hairpin may go well with it..
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso122.html" title="ALDEN">ALDEN</a>
