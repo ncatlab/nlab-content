@@ -44,6 +44,12 @@ More generally, an object $A$ in a [[symmetric monoidal category]] $\mathcal{M}$
 
 * The [[Thompson Group]] F is the group of order-preserving automorphisms of the free J&#243;nsson-Tarski algebra on one generator.
 
+##Related concepts
+
+* [[Jónsson-Tarski topos]]
+
+* [[idempotent]]
+
 ##References
 
 * Wikipedia, [J&#243;nsson-Tarski algebra](http://en.wikipedia.org/wiki/J&#243;nsson&#8211;Tarski_algebra)
