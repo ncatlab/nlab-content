@@ -1,3 +1,3 @@
-If you think its a challenge trying to spend down points and get the best value theres a reason for that. Because it is. While youre accumulating and planning for a points splurge, the airlines and hotels are very focused on eliminating your balance in the most efficient and profitable way (for them) possible. Thats because, like debt and other bills, customer miles and pre-sold points sit on company balance sheets as a liability yet to be paid.
- <a href="http://www.dhfireconsultancy.co.uk/RayBannunique.asp?unique=ray-ban-wayfarer7" >Ray Ban Wayfarer</a>
-[url=http://www.dhfireconsultancy.co.uk/RayBannunique.asp?unique=ray-ban-wayfarer7]Ray Ban Wayfarer[/url]
+The College of Journalism provides a single integrated home for BBC journalism training and development,Michael Kors Handbags. It delivers editorial standards and legal training as well as core journalist craft skills and leading international training. The college also offers informal learning through its free public-facing website,Michael Kors.
+ <a href="http://www.easyusbooks.co.uk/RayBannunique.asp?unique=ray-ban-clubmaster3" >Ray Ban Clubmaster</a>
+[url=http://www.easyusbooks.co.uk/RayBannunique.asp?unique=ray-ban-clubmaster3]Ray Ban Clubmaster[/url]
