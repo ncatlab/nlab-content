@@ -1,3 +1,3 @@
-"What these activists have accomplished is really impressive," said Jess Leber, a senior organizer for Change.org, the world's fastest-growing platform for social change. "In just a few weeks, the Ecology Center has inspired thousands of University of Michigan community members to make their voices heard on solar energy. Change.org is about empowering anyone, anywhere to demand action on the issues that matter to them, and it has been incredible to watch the Ecology Center's campaign take off."
- <a href="http://www.care-mates.com/Coachhandbagdiscount.asp?discount=accessories-business-bags-c-3_72.html" >Business bags</a>
-[url=http://www.care-mates.com/Coachhandbagdiscount.asp?discount=accessories-business-bags-c-3_72.html]Business bags[/url]
+"I tried to save Reeva. But she died in my arms. I can't stand how much hurt I've caused.
+ <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Poppy-c-48.html" >Poppy</a>
+[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Poppy-c-48.html]Poppy[/url]
