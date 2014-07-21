@@ -1,2 +1,2 @@
-Chanel
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c300.html" title="Vivienne Westwood">Vivienne Westwood</a>
+This is a sample entry, posted to show you some of the features of .
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c151.html" title="Free Run">Free Run</a>
