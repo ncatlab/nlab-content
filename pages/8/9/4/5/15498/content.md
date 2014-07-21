@@ -1,3 +1,3 @@
-*A word about this transcript. Cooper Union spokesman Lloyd Kaplan told me that board meetings are not officially recorded or transcribed in any way, which is consistent with what my sources are telling me &#8212; which is that the meeting was recorded without the knowledge or consent of the board members.
- <a href="http://shafstoncollegeavustralya.edabroad.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-bottes-c-3.html" >Christian Louboutin Bottes</a>
-[url=http://shafstoncollegeavustralya.edabroad.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-bottes-c-3.html]Christian Louboutin Bottes[/url]
+And beyond that, it's just intuitive. If you take the average person, ask them what will cause them to spend more money: A policy announcement from Bernanke, or the promise of a well-paying job for years to come. The answer is obvious.
+ <a href="http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-daffodile-femme-c-14_15.html" >Femme</a>
+[url=http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-daffodile-femme-c-14_15.html]Femme[/url]
