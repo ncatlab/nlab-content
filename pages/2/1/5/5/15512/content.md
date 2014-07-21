@@ -1,3 +1,3 @@
-"Maaf Mak, saya tidak membantu,"Buat kesekian kalinya saya menangis lagi.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2377" >Nike Air Max 2013 green uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2377]Nike Air Max 2013 green uk[/url]
+"umi, disini masih ada lagi yang sudi ???membelaiku???. Walau belainya menyakitkan ku. Menyebabkan kulitku yang masih lembut ini berdarah dan menanah. Namun, kuterima andai itu sahaja yang mampu kumiliki.. terima kasih semut-semut yang sudi menemaniku disini??? "
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1407" >nike air Jordan TR '97 Mid silver</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1407]nike air Jordan TR '97 Mid silver[/url]
