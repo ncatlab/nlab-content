@@ -1,3 +1,3 @@
-The world's largest economy will run out of cash to pay its bills on 17 October if the government's borrowing limit is not raised. The country's laws limit its borrowing to $16.7tn (10.4tn, 12.3tn). Market analysts say that the Treasury would probably not be able to pay its bills if the ceiling is not raised.
- <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=luggage-bags-c-30/" >Luggage Bags</a>
-[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=luggage-bags-c-30/]Luggage Bags[/url]
+The Asian giant's central bank Vice Governor Yi Gang said China would use the upcoming G20 summit in St Petersburg, Russia, to discuss "how to minimize the external impact when major developed countries exit or gradually exit quantitative easing, especially causing volatile capital flows in emerging markets and putting pressures on emerging-market currencies."
+ <a href="http://www.recoildoors.com/Raybansunglassessales.asp?sales=ray-ban-folding-sunglasses-c-4.html" >Ray Ban Folding Sunglasses</a>
+[url=http://www.recoildoors.com/Raybansunglassessales.asp?sales=ray-ban-folding-sunglasses-c-4.html]Ray Ban Folding Sunglasses[/url]
