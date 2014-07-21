@@ -61,7 +61,7 @@ Lecture notes include
  {#Kumar12}
 
 
-* P. Woit, _Topics in representation theory: the Borel-Weil theorem_, ([pdf](www.math.columbia.edu/~woit/notes16.pdf)), _Quantum field theory and representation theory: A sketch_ ([pdf](http://www.math.columbia.edu/~woit/sketch.pdf))
+* P. Woit, _Topics in representation theory: the Borel-Weil theorem_, ([pdf](http://www.math.columbia.edu/~woit/notes16.pdf)), _Quantum field theory and representation theory: A sketch_ ([pdf](http://www.math.columbia.edu/~woit/sketch.pdf))
 
 * Lisa Jeffrey, _Remarks on geometric quantization and representation theory_ [pdf](http://www.math.toronto.edu/~jeffrey/mat1312/lec14.gq.pdf)
 
