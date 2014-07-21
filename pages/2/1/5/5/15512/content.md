@@ -1,3 +1,0 @@
-Saya rakan kuliah..
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=285" >air Jordan Dominate Shark yellow</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=285]air Jordan Dominate Shark yellow[/url]
