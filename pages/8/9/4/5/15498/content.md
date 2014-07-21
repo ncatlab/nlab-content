@@ -1,3 +1,3 @@
-I started off by asking Orman about an  she had last week with Marketplace Money's Tess Vigeland.
- <a href="http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-baskets-couple-c-4.html" >Louboutin Baskets Couple</a>
-[url=http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-baskets-couple-c-4.html]Louboutin Baskets Couple[/url]
+Is it reasonable for the federal government to effectively prevent the recipients of federal benefits from getting those benefits deposited directly onto their Bluebird cards? I suspect it probably isn't. American Express is a trusted vendor: the money on your Bluebird card is just as safe as the money in your American Express travelers checks &#8212; and that money has been perfectly safe since they were first introduced in 1891. What's more, under current money-transmitter regulations, Amex keeps all the money on Bluebird cards in highly liquid form, ringfenced so that it can't be used for anything else. There are perfectly reasonable reasons not to get a Bluebird card, but lack of FDIC insurance really isn't one of them.
+ <a href="http://londonfilmacademy.com/ChristianLouboutinnpascher.asp?pascher=homme-sandales-c-14_17.html" >Sandales</a>
+[url=http://londonfilmacademy.com/ChristianLouboutinnpascher.asp?pascher=homme-sandales-c-14_17.html]Sandales[/url]
