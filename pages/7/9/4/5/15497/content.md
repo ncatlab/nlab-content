@@ -1,2 +1,2 @@
-Some suggestions might be Aristotle, Plato, or Descartes. Although there are no photographs to pattern your costume after, you probably have a pretty good idea in your mind of how these great minds might have looked. You'll probably want to wear a long tunic with sandals and sport a gray beard.Tuesday, August 27, 2013
- <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/0191.html" title="PRADA">PRADA</a>
+In addition to industrial gloves, Asian companies also manufacture high-quality safety vests, hard hats, safety glasses,      and a range of other safety supplies that are required by OSHA and other regulators in the United States. Like cereal or canned soup, these safety products can be a great substitute when a company places more emphasis on cost than on brand name.Tuesday, September 10, 2013
+ <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c247.html" title="991">991</a>
