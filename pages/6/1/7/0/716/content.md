@@ -35,6 +35,10 @@ the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal
 
 A compact closed category is a [[star-autonomous category]] with the [[tensor unit]] as [[dualizing object]].
 
+## Examples
+
+* The category [[FinVect]] of [[finite-dimensional vector spaces]] is compact closed, see [here](finite-dimensional+vector+space#CompactClosure).
+
 ## Related concepts
 
 * [[compact closed 2-category]]
