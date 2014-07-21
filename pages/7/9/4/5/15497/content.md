@@ -1,2 +1,2 @@
-Then he said "ask your baby board people". So I am. And a poll even! Help convince him that I need this dress.. Built-In BrasIf you are relatively small busted (approximately a C-cup or less), you can have a bra sewn directly into your dress. Your seamstress or bridal shop can provide this service; however, it works best if you have a very sturdily made dress with a built-in corset, rather than one that is simply boned. You can also consider having a strapless bra sewn into your dress to prevent any wardrobe mishaps.
- <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/01140.html" title="Calvin Klein">Calvin Klein</a>
+recette pour perdre du poids
+ <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc171.html" title="999">999</a>
