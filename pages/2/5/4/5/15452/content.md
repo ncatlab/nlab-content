@@ -1,3 +1,3 @@
-Perlahan-lahan Elisya merapatkan kepalanya ke meja. Pen masih di tangan. Matanya terus tertutup apabila kepalanya mencecah ke atas buku catatan yang masih terbuka.
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1989" >retro Jordan Trunner Dominate 1.5 Oscuro</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1989]retro Jordan Trunner Dominate 1.5 Oscuro[/url]
+"Selamat pagi Yana," sapa Nazrul Alimi.
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1466" >NIKE Mercurial Vapor superfly IX AG Hombres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1466]NIKE Mercurial Vapor superfly IX AG Hombres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
