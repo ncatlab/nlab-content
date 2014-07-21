@@ -178,6 +178,8 @@ See also
 
 * [[Peter Johnstone]], [[Fred Linton]], _Finiteness and decidability: II_ Cambridge Philosophical Society Mathematical Proceedings of the Cambridge Philosophical Society (1978),
 
+* B. P. Chisala, M.-M. Mawanda, _Counting Measure for Kuratowski Finite Parts and Decidability_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** 4 (1991) pp.345-353. ([pdf](archive.numdam.org/article/CTGDC_1991__32_4_345_0.pdf))
+
 * [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
   {#MoerdijkVermeulen}
 
