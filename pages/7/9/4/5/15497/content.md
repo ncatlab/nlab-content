@@ -1,2 +1,2 @@
-Bon voici six trucs. Raquo; HONcode) de la meill& perdre du poids
- <a href="http://www.kentvilleflowersandweddingdecor.com/jpwatchonline.asp?cheap=products-c232.html" title="G&#12471;&#12519;&#12483;&#12463; (G-SHOCK)">G&#12471;&#12519;&#12483;&#12463; (G-SHOCK)</a>
+Apart from their popularity, globally acclaimed and accredited bodies such as SIGI select brand names on the basis of the value the brands have earned outside the boundaries of its parent country. The authorized bodies collate the marketing and financial data to create a public image for the brand that is effective and lingering.
+ <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01109.html" title="adidas">adidas</a>
