@@ -1,2 +1,2 @@
-Take into account the cut of the gown to consider what jewelry to use. If  you have a good looking, open neckline, why not let a necklace be focused on? If you want to wear a sleeveless evening dress, a more delicate bracelet would be a good choice. If you make yourself an elegant chignon, a well-chosen crystal hairpin may go well with it..
- <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso122.html" title="ALDEN">ALDEN</a>
+In addition to industrial gloves, Asian companies also manufacture high-quality safety vests, hard hats, safety glasses,      and a range of other safety supplies that are required by OSHA and other regulators in the United States. Like cereal or canned soup, these safety products can be a great substitute when a company places more emphasis on cost than on brand name.Tuesday, September 10, 2013
+ <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c125.html" title="LONGINES">LONGINES</a>
