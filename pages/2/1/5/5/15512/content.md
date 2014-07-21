@@ -1,3 +1,3 @@
-"Aku memang seronok keluar dengan dia. Dengan dia saja yang aku rasa selesa. Dia buat aku rasa comfort dan lupa semua masalah aku. He treats me like an angel. But it does not mean I love him. Because my heart was filled by someone else.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2056" >air Jordan Flight Luminary gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2056]air Jordan Flight Luminary gold[/url]
+"Ayish, ibu tak halang Ayish nak berkawan dengan siapa pun. Tapi satu je ibu nak, tolong jangan ada apa-apa hubungan dengan Danish tu. Ya, dia memang pelajar lepasan tahfiz, tapi tak semua pelajar tahfiz tu baik Ayish. Ibu tak sedap hati sangat bila tengok Ayish dengan Danish."
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=78" >Nike Air Max 97 Hyperfuse gold sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=78]Nike Air Max 97 Hyperfuse gold sale[/url]
