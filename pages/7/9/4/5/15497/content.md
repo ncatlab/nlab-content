@@ -1,2 +1,2 @@
-Have fun! :)
- <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed132.html" title="supreme">supreme</a>
+Of course tactical watches have the date and time. Sometimes the watch will give more than one time zone, and has an alarm, as well as a stopwatch, a second hand, and a back light for night viewing. All of these features come in handy for many of the military and police who use the tactical watches.Friday, September 13, 2013
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c169.html" title="Air Jordan 6">Air Jordan 6</a>
