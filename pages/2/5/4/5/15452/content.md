@@ -1,3 +1,3 @@
-"Entahla..Ibu aku dan kawan aku yang belikan..Tapi,ibu aku lupa siapa kawan aku tu.." jawab aku.
- <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1687" >Nike CTR360 Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo</a>
-[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=1687]Nike CTR360 Mujeres Blanco/Amarillo/Negro/Oscuro/Naranja/Azul/Verde/Rosa/Vino/Gym/Rojo[/url]
+"untuk aku ke untuk kau??"duga irfan sambil menahan tawa.
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=232" >Jordan Court Vision 99 Hombres Blanco</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=232]Jordan Court Vision 99 Hombres Blanco[/url]
