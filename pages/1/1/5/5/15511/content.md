@@ -1,3 +1,3 @@
-'Yana' sapa seseorang dibelakangku..
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2094" >air Jordan Hydro 2 Premier gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2094]air Jordan Hydro 2 Premier gold[/url]
+Paling seronok, bila aku dah selesai tugas membasuh tayar, aku akan tolong bahagian dalam bas dengan memberus lantai dan membersihkan ruang depan dan stereng bas. Terbahak2 kami ketawa adik beradik, saling simbah menyimbah..Abah tumpang sekaki kejar kami dengan air pancut???Terkekek-kekek kami adik beradik. Basah lenjun.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=851" >Nike Air Max 95-360 beige sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=851]Nike Air Max 95-360 beige sale[/url]
