@@ -1,3 +1,3 @@
-"umi, disini masih ada lagi yang sudi ???membelaiku???. Walau belainya menyakitkan ku. Menyebabkan kulitku yang masih lembut ini berdarah dan menanah. Namun, kuterima andai itu sahaja yang mampu kumiliki.. terima kasih semut-semut yang sudi menemaniku disini??? "
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1407" >nike air Jordan TR '97 Mid silver</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1407]nike air Jordan TR '97 Mid silver[/url]
+Aku tahu, lailee sering bergaduh dengan keluarganya semata-mata kerana ingin membela maruah ku. Aku benci menjadi seorang pendatang. Kerana aku pendatang la, maruah ku d injak2 manusia yg perasan baik hanya kerana mereka orang tempatan. Yg jahat hanya pendatang, dan yg baik hanya orang tempatan. Aku hanya seorang manusia biasa seperti anda semua. Ingin d cintai dan mencintai. Adakah hanya kerana aku seorang pendatang aku tidak berhak merasa kebahagiaan?
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2061" >Nike Air Max TN blue uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2061]Nike Air Max TN blue uk[/url]
