@@ -1,3 +1,3 @@
-This service will complement public transport and taxis. "Our aim is  to widen the range of available transport," deputy Paris mayor Annick  Lepetit said at the launch.
- <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Crossbody-Bags-c-27.html" >Crossbody Bags</a>
-[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Crossbody-Bags-c-27.html]Crossbody Bags[/url]
+Billionaire Mukesh Ambani's Reliance, which has seen a slump in gas output from its KG D6 gas fields, has said gas prices need to be increased in order to encourage further investment.
+ <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=classic-c-38_40/" >Classic</a>
+[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=classic-c-38_40/]Classic[/url]
