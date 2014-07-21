@@ -1,3 +1,3 @@
-"Kau suruh jer Amri beritahu dia.Aku tunggu depan kelas dia dekat Blok C lepas ni." Tambah Kamal Adli mesra.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1455" >nike air Jordan Flight Club 90s silver</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1455]nike air Jordan Flight Club 90s silver[/url]
+ade berape bilion orang kat dunia nih, aku ttp ske kat kow,huh,dah 3 bulan ak x tgok mke dye, ak rindu plak, x sangke ak leyh tahan x tgok mke dye slame 3 bulan,hah..esok bufday aku dowh, ak tgok dye cam x de pape jek, huh, baru ary nih aku tgok mke dye..huhu..
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2123" >Air Max Light red uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2123]Air Max Light red uk[/url]
