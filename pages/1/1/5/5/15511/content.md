@@ -1,3 +1,3 @@
-kepada nana,
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=300" >Nike Air Max Structure Triax 91 metallic sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=300]Nike Air Max Structure Triax 91 metallic sale[/url]
+"Bella dah cakap dia kawan Bella!"
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1423" >nike air Jordan Hydro 2 silver</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1423]nike air Jordan Hydro 2 silver[/url]
