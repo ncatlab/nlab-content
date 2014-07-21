@@ -1,3 +1,3 @@
-Ira nak minta maaf banyak-banyak pada abang dan mama
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1737" >Air Max 1 Hyperfuse pink uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1737]Air Max 1 Hyperfuse pink uk[/url]
+Suamiku&#8230;. tiada lagi.. anak yang bakal lahir??? Bagimana??
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=264" >air Jordan Retro 6 yellow</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=264]air Jordan Retro 6 yellow[/url]
