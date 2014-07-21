@@ -1,2 +1,2 @@
-If you are only concerned with the happenings of Asia, then also lots of mediums are present to      deliver all kinds of Asia news. There was a time when people were unable to be updated about all the news. With the advancement of science and technology, lots of new machines and devices have invented with which people can get all kinds of news. Now it does not matter if it is Africa news or Europe news, you can be able to be updated with news.
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc152.html" title="GEORGECOX">GEORGECOX</a>
+One incident stands out in her mind in which she feels her guides helped the group remain safe. Castleton says a climber got too close to the rim and accidentally knocked a protective snow cornice down toward the crater. He lost his footing and began to fall.
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c182.html" title="Woman">Woman</a>
