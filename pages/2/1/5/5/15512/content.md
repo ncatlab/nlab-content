@@ -1,3 +1,3 @@
-"Ayish, ibu tak halang Ayish nak berkawan dengan siapa pun. Tapi satu je ibu nak, tolong jangan ada apa-apa hubungan dengan Danish tu. Ya, dia memang pelajar lepasan tahfiz, tapi tak semua pelajar tahfiz tu baik Ayish. Ibu tak sedap hati sangat bila tengok Ayish dengan Danish."
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=78" >Nike Air Max 97 Hyperfuse gold sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=78]Nike Air Max 97 Hyperfuse gold sale[/url]
+Tiba-tiba aku terdengar ibu memanggil aku. Dengan pantas aku berlari menuju ibu. Ibu menceritakan segalanya.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=800" >Jordan 4 silver</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=800]Jordan 4 silver[/url]
