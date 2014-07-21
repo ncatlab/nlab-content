@@ -1,3 +1,3 @@
-"Aku juga sudah lama meminati kamu, kamu saja yang tidak tahu.." hatinya berbisik sayu. Hatinya sebak. Wanita ini sebenarnya sudah lama menghiasi hatinya, sejak dari kali pertama dia melihatnya.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=173" >Air Max Excellerate gold sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=173]Air Max Excellerate gold sale[/url]
+Hendak dipengapakan apakah buah hatinya itu? Namun, tanpa sedar dia menganguk, tanda setuju. Sebab, dia yakin isterinya tidak akan melakukan perkara yang bukan-bukan.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2418" >retro Jordan 12 gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2418]retro Jordan 12 gold[/url]
