@@ -1,2 +1,2 @@
-This Jaeger was actually one of my favorite watches of SIHH. It    is a simple Master Ultra Thin case (same as used in last year's awesome 39mm moonphase) and is the only of the four toubillons we are showing here that is automatic. It is also the least expensive of the four time-only tourbillons at around 50,000 euro.Saturday, September 14, 2013
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c11.html" title="CASIO">CASIO</a>
+Entries (posts) and Static pages
+ <a href="http://www.friarwood.com/shoponlinejp.asp?cheap=products-c131.html" title="Women">Women</a>
