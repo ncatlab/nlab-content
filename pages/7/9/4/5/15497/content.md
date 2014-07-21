@@ -1,2 +1,2 @@
-As more and more manufacturing has shifted from the United States to Asian countries, work glove manufacturers have followed that trend as well and moved manufacturing to lower-cost countries in order to effectively compete on cost. Many of these factories now produce leather work gloves, knit work gloves, kevlar gloves, and other types of gloves with precision standards and quality that are then imported into the United States.
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c42.html" title="agnes b.">agnes b.</a>
+Like choosing a dress, shoes for ballroom dancing should not be based on appearance alone. Again, you will have to jump, twirl, and kick in these shoes, so you need them to be comfortable and supportive of your feet. Most ballroom dance shoes are open-toed, although this may not be the best choice.
+ <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c81.html" title="romago design">romago design</a>
