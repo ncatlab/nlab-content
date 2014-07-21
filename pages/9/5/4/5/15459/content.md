@@ -1,3 +1,3 @@
-"Yelah tu ingat, entah-entah makin tak ingat lagi adalah." Perli Athirah pada abangnya.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2245" >nike air Jordan RCVR Slide gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2245]nike air Jordan RCVR Slide gold[/url]
+"Aku juga sudah lama meminati kamu, kamu saja yang tidak tahu.." hatinya berbisik sayu. Hatinya sebak. Wanita ini sebenarnya sudah lama menghiasi hatinya, sejak dari kali pertama dia melihatnya.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=173" >Air Max Excellerate gold sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=173]Air Max Excellerate gold sale[/url]
