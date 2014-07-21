@@ -1,2 +1,2 @@
-Casio watches were not the company's first product range. In 1946 Kashio Todao founded the company, and produced a ring mounted cigarette holder. They then went on to produce a very successful range of pocket calculators, and it wasn't until 1974 that the first Casio watch, the Casiotron Electronic, was produced. Since then they have produced some of the world's most innovative and stylish watches. Their wide range means that they have remained as firm favourite with all ages and for all occasions.
- <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01141.html" title="LOEWE">LOEWE</a>
+panerai attached with spare leather strap
+ <a href="http://www.mikes-den.com/jponlines.asp?cheap=products-c155.html" title="BOTTEGA VENETA">BOTTEGA VENETA</a>
