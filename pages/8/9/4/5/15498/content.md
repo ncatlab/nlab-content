@@ -1,3 +1,0 @@
-Here's how it works. Right now, shares issued by a company represent the permanent equity capital of that company. If a company raises new equity capital, then the people buying that stock will have an ownership interest in that company in perpetuity. Under Keen's proposal, none of that changes. But when those shares get sold, things start getting interesting.
- <a href="http://www.altavillamilicia.com/public/ChristianLouboutinnlaventeenligne.asp?laventeenligne=" >Contact E-mail:</a>
-[url=http://www.altavillamilicia.com/public/ChristianLouboutinnlaventeenligne.asp?laventeenligne=]Contact E-mail:[/url]
