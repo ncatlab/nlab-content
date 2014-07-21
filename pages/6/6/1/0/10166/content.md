@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a $G$-_equivariant bundle_ on $X$ is a [[bundle]] on the [[action groupoid]] $X//G$ of $X$.
+For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a _$G$-equivariant bundle_ on $X$ is a [[bundle]] on the [[action groupoid]] $X//G$ of $X$.
 
 ## Related concepts
 
