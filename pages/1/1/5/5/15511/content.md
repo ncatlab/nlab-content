@@ -1,3 +1,3 @@
-Bingung aku memikirkan hubungan dengan ipin. Aku sering marah dia, sikap aku tidak lagi seperti dulu ketika bersama wan, aku tidak lagi manja, aku menjadi gadis yang cepat marah dan hanya tau pentingkan diri sendiri. Setiap kali aku gaduh dengan ipin sudah pasti aku akan ingat akan wan, wan dulu tidak pernah membangkitkan kemarahan aku.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=371" >nike air Jordan Phase 23 HOOPS yellow</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=371]nike air Jordan Phase 23 HOOPS yellow[/url]
+"Alahai, mana pulak abang aku pergi ni, janji nak ambik aku pukul 1, tapi sekarang ni dah pukul 2, batang hidung dia pun aku tak nampak. Ni memang nak kena siku dengan aku ni."bebel Athirah.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1816" >Nike Air Max 90 Hyperfuse pink uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1816]Nike Air Max 90 Hyperfuse pink uk[/url]
