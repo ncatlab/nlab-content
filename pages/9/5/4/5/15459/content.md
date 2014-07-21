@@ -1,3 +1,3 @@
-"Kalau macam tu saya pergi dulu," kata Ekin dan terus mengatur langkah berlalu pergi. Aku berharap agar Ekin tidak lupa menyampaikan pesanan aku itu.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2324" >nike air Jordan Hydro 2 Premier gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2324]nike air Jordan Hydro 2 Premier gold[/url]
+Saya sering mengatakan, saya tidak senang dengan sifat  Mak yang garang. Saya tidak sedar, sedikit sebanyak saya mewarisi sifat Mak. Garang, ego dan suka membentak.Pada masa yang sama, tabah, cekal dan bersemangat.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2313" >nike air Jordan Hydro 5 Premier gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2313]nike air Jordan Hydro 5 Premier gold[/url]
