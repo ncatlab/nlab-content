@@ -1,3 +1,3 @@
-To threaten BNY Mellon with contempt in this instance would unhinge this extraordinary power from its Constitutional moorings.
- <a href="http://reubenstein.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-evening-c-7.html" >Christian Louboutin Evening</a>
-[url=http://reubenstein.com/ChristianLouboutinnredduction.asp?redduction=christian-louboutin-evening-c-7.html]Christian Louboutin Evening[/url]
+All of which is to say that in this lawsuit, Mirvish has taken the idea of art-as-an-investment to a particularly bonkers extreme. In Mirvish's world, it seems, artworks have no inherent value, just by dint of being beautiful or genuine or unique. Instead, an artwork is only an investment if it's being shopped around &#8212; if someone's trying to make a profit on it, by selling it.
+ <a href="http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-pumps-femme-c-32_33.html" >Femme</a>
+[url=http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-pumps-femme-c-32_33.html]Femme[/url]
