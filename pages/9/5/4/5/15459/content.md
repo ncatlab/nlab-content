@@ -1,3 +1,3 @@
-Aku mendongak. Lamunanku terhenti. Kata-kata itu tidak mampu kujawab. Mati.Buntu. Tidak mungkin aku mampu berkata sebegitu anakku. Aku tidak pernah memberontak. Tidak pernah meminta selain fucuk. Fucuk yang dibeli ayahmu. Fucuk lah yang ibu masak.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1731" >Jordan 15 gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1731]Jordan 15 gold[/url]
+Sejak anaknya menjadi mangsa kerakusan lelaki tidak berhati perut, sejak itulah hidup anaknya seakan gelap. Tiada lagi senyum dan tawa yang menghiasi satu-satunya anak perempuan kesayangannya. Tercabar jua naluri keibuannya. Entah apa lagi yang harus dilakukan untuk mengembalikan semangat puteri kesayangannya. Pujukan dengan kata-kata seakan lemah buat Damia. Hanya doa yang mampu Faridah titipkan agar Damia kembali positif dalam hidupnya.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2049" >Nike Air Max 91 Classic BW VT blue uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2049]Nike Air Max 91 Classic BW VT blue uk[/url]
