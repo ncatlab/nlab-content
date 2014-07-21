@@ -1,2 +1,2 @@
-The author enjoys collecting .would suggest you to find good      quality atThursday, August 22, 2013
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c106.html" title="TECHNOS">TECHNOS</a>
+If you work from home, you credibility is suspect. While more than 90% of the population worked from home prior to the industrial revolution, people who work from home today are viewed as less serious than their commuting counterparts. Even with the number of home-based businesses expanding at an incredible rate, the question of legitimacy still remains..
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c181.html" title="Air Jordan 2011">Air Jordan 2011</a>
