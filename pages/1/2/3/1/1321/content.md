@@ -23,7 +23,7 @@ object of **morphisms** from $x$ to $y$ in $D$;
 
 * for each [[natural number]] $n$ and each sequence $x_0, x_1, \cdots, x_n$
 of objects of $D_0$ a morphism
-$$ comp_{(x_0, \cdots, x_n} : \left(D(x_0,x_1) \otimes D(x_1,x_2) 
+$$ comp_{(x_0, \cdots, x_n)} : \left(D(x_0,x_1) \otimes D(x_1,x_2) 
 \otimes \cdots \otimes D(x_{n-1},x_n) \right) \otimes O(n) \to D(x_0, x_n)$$
 called the **$n$-ary composition** operation;
 
@@ -34,7 +34,7 @@ directly analogous to those for $O$-algebras.
 
 ## Examples
 
-* Let $Associative$ be the ordinary associtive operad in [[Set]].
+* Let $Associative$ be the ordinary associative operad in [[Set]].
 An $Associative$-category is an ordinary [[Set]]-[[enriched category]]
 i.e. a [[locally small category]].
 
