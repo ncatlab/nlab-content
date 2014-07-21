@@ -6,8 +6,8 @@
 | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[t]$ ([[polynomials]], [[function algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |   |
 | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(t)$ ([[rational functions]])  |  |
 | $p$ ([[prime number]])  |  $x \in \mathbb{F}_p$  |   |
+| $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
 | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
-| $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ (functions on [[formal disk]] around $x$)  |
 |  |  |  |
 | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
