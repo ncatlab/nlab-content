@@ -1,3 +1,3 @@
-There is nothing inherently wrong,Michael Kors, in artistic terms, in presenting Mapplethorpe or any other controversial artist in a depoliticised, formalist framework. The question is: are museum directors and curators intentionally choosing such a framework over a more political one or, more chillingly, is it their only option? Mapplethorpe himself preferred the mysteries of form to the push-and-pull of politics, and thats fine. But curators have a responsibility to history as well as art, and the best exhibitions recognise that one never makes complete sense without the other.
- <a href="http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html" >Ray Ban 3483 Sunglasses</a>
-[url=http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html]Ray Ban 3483 Sunglasses[/url]
+(Graphic by Catalyst.org)
+ <a href="http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-pumps-c-1_2.html" >Women's Pumps</a>
+[url=http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-pumps-c-1_2.html]Women's Pumps[/url]
