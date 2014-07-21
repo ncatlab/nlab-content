@@ -1,2 +1,2 @@
-Bon voici six trucs. Raquo; HONcode) de la meill& perdre du poids
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c144.html" title="ARMANI EXCHANGE">ARMANI EXCHANGE</a>
+The default way to style and format your content is  (bulletin board code). BBCode is an easy way to style your posts. Most common codes are allowed. Like [b] for bold (html: strong), [i] for italics (html: em), etc.
+ <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c231.html" title="zeppelin">zeppelin</a>
