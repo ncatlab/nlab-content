@@ -1,2 +1,2 @@
-Widgets
- <a href="http://www.quantifyingoutsourcingbenefits.com/uggaustraliasales.asp?cheap=products-c25.html" title="UGG &#12488;&#12540;&#12523;&#12514;&#12459; 5163">UGG &#12488;&#12540;&#12523;&#12514;&#12459; 5163</a>
+Rep. Wilson is the most serious of the infractions, however. Whether you like or hate the President as a person, calling him a liar during a special joint session of Congress being televised world wide is NOT correct behavior. Maslow said that the level of needs of an individual govern their outward motivation. For someone who does not yet have all his or her survival needs met, this is where their motivation will remain. This is also why they will act towards the world and others in a manner that reflects this inner need..Friday, September 13, 2013
+ <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01123.html" title="Aape">Aape</a>
