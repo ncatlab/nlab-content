@@ -1,3 +1,3 @@
-"dah, jangan korang nak mengada-ngada dengan kakak aku ni. Kita berkumpul nak study, bukan makan free".piirahhh. ade hati nak buli kakak aku. Langkah mayat aku dulu beb.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=844" >Jordan 6 Rings silver</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=844]Jordan 6 Rings silver[/url]
+Hey Kamal, kau nak bergurau pasal benda lain aku tak kisah, tapi jangan melibatkan Nur. Dia baru jer hantar mesej kata nak jumpa, macam mana pula boleh terlibat dengan kemalangan. Kau tengok tak mayat Nur dengan mata kau sendiri?
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2280" >Air Max 1 green uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2280]Air Max 1 green uk[/url]
