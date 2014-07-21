@@ -1,2 +1,2 @@
-Always keep a budget in mind for your bridesmaids gowns. It's very unfair to expect your bridesmaids to buy overly expensive dresses, and it may damage your relationship with some of the most important women in your life. Around $100-250 each dress is generally considered a reasonable cost.
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c243.html" title="NIXON">NIXON</a>
+This is a latest and the improved version of the Embroidery Designs. In this type the Embroidery Designs are created with the use of computer softwares. The Embroidery Designs created with the use of computer technology is much more stable than the above two and gives a  greater area for the creation of the Embroidery Designs..
+ <a href="http://www.markenbuilders.com/jpbagsonline.asp?cheap=products-c165.html" title="COACH&#12304;&#12467;&#12540;&#12481;&#12305;">COACH&#12304;&#12467;&#12540;&#12481;&#12305;</a>
