@@ -19,7 +19,7 @@
 
 An **ind-object** of a category $C$ is a **formal [[filtered colimit]]** of objects of $C$.  The category of ind-objects of $C$ is written $ind$-$C$.
 
-Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
+Here, "ind" is short for "[[inductive system]]", as in the inductive systems used to define [[directed colimits]], and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
 
 Recalling the nature of [[filtered colimits]], this means that in particular chains of inclusions 
 
@@ -155,7 +155,7 @@ $$
 
 ## Examples 
 
-* Let $FinVect$ be the category of finite-dimensional [[vector space]]s (over some field). Let $V$ be an infinite-dimensional vector space. Then $V$ can be regarded as an object of $ind-FinVect$ as the colimit $colim_{V' \hookrightarrow V} Y(V')$ over the [[filtered category]] whose objects are inclusions $V' \hookrightarrow V$ of finite dimensional vector spaces $V'$ into $V$ of the representables $Y(V') : FinVect^{op} \to Set$ ($Y$ is the [[Yoneda embedding]]).
+* Let [[FinVect]] be the category of [[finite-dimensional vector spaces]] (over some [[field]]). Let $V$ be an infinite-dimensional vector space. Then $V$ can be regarded as an object of $ind-FinVect$ as the colimit $colim_{V' \hookrightarrow V} Y(V')$ over the [[filtered category]] whose objects are inclusions $V' \hookrightarrow V$ of finite dimensional vector spaces $V'$ into $V$ of the representables $Y(V') : FinVect^{op} \to Set$ ($Y$ is the [[Yoneda embedding]]).
 
 * For $C$ the category of finitely presented objects of some equationally defined structure, $ind\text{-}C$ is the category of all these structures.
 
