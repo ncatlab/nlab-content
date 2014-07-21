@@ -1,2 +1,2 @@
-panerai attached with spare leather strap
- <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c160.html" title="Air Presto">Air Presto</a>
+panerai if it is just an adjunct device for the iphone
+ <a href="http://www.accommodationauctions.com/shoesonlinejp.asp?cheap=shop/jp/p/soabed195.html" title="DIESEL">DIESEL</a>
