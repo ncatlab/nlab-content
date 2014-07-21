@@ -8,7 +8,7 @@
 | $p$ ([[prime number]])  |  $x \in \mathbb{F}_p$  |   |
 | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
 | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
-| $\mathbb{Z} \simeq \mathbb{Q} \underset{\underset{p}{\prod} \mathbb{Q}_p }{\times} \underset{p}{\prod} \mathbb{Z}_p$  ([[fracture square]]) |   | [[cover]] of $\mathbb{C}P^1$ by complement of points and [[formal disks]] around these points  |
+| $\mathbb{Z} \simeq \mathbb{Q} \underset{\mathbb{A}_{\mathbb{Q}}}{\times} \mathbb{A}_{\mathbb{Z}}$  ([[fracture square]]) |   | [[cover]] of $\mathbb{C}P^1$ by complement of points and [[formal disks]] around these points  |
 |  |  |  |
 | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
