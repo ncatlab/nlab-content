@@ -1,2 +1,2 @@
-Fashion bracelets are great option for gifts to family or your beloved. You can get the designs etched, the name or favorite symbol of your friend or beloved designed within the bracelet or just choose a bracelet with a message that shows your sincere feelings. Thus, you can opt for a precious, personalized gold or silver charm bracelet which can also be worn as a piece of beautiful jewelry. Apart from gold and silver bracelets, the other popular options are those of beaded bracelets, enameled beaded charms and glass beads in bracelets.
- <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01135.html" title="LONGINES">LONGINES</a>
+panerai 1960s breitling navitimer issued to the iraqi air force on ebay
+ <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c30.html" title="RED WING">RED WING</a>
