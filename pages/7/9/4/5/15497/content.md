@@ -1,2 +1,2 @@
-3. Slight of Hand. Divide team into groups of 4 to 6. Though the essence remains; the options have expanded. Chaniya Choli has become more royal than traditional. "People tend to go for more expensive Chaniya Choli's because they know that what they purchase won't be confined to Navratri alone, but used in other festivals or wedding functions as well.
- <a href="http://www.afsupercell.com/shopoutletjp.asp?cheap=products-c156.html" title="HATHORN">HATHORN</a>
+Tiffany
+ <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso134.html" title="HATORN">HATORN</a>
