@@ -1,3 +1,3 @@
-Here's one particularly striking chart:
- <a href="http://www.alvinproducts.com/ChristianLouboutinnvvente.asp?vente=christian-louboutin-pompes-c-4.html" >Christian Louboutin Pompes</a>
-[url=http://www.alvinproducts.com/ChristianLouboutinnvvente.asp?vente=christian-louboutin-pompes-c-4.html]Christian Louboutin Pompes[/url]
+Recent news around  and the "Occupy" Movement on university campuses has thrown the role of the college and university trustee into the headlines and it is worth having a closer look at the role of the board of trustees and what it means to sit on the board of a higher education institution.
+ <a href="http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=homme-christian-louboutin-chaussures-c-4.html" >Homme Christian Louboutin Chaussures</a>
+[url=http://stgilesingilizcedilokullari.edabroad.com/ChristianLouboutinnredduction.asp?redduction=homme-christian-louboutin-chaussures-c-4.html]Homme Christian Louboutin Chaussures[/url]
