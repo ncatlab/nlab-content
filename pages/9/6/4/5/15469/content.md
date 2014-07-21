@@ -1,2 +1,0 @@
-Akin stressed that the campaign had been riddled in recent days with "too much attention to politics and not enough attention to principle," but maintained that he would be running "the same as we have in the past" despite the recent uproar.
- <a href="http://www.apartments-mravak.com/nike_shoes.asp?Running_Shoes=women-air-max-nike-air-max-97-c-22_35.html" title="Nike Air Max 97">Nike Air Max 97</a>
