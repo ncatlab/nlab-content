@@ -1,3 +1,3 @@
-Daniel Altman's "single bottom line"  &#8212; that by maximizing profits companies also maximize social welfare &#8212; falls squarely into this tradition. Far from being new, it was old even in the 1930s.
- <a href="http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-sandales-c-11.html" >Louboutin Sandales</a>
-[url=http://kajfilters.com/ChristianLouboutinnvvente.asp?vente=louboutin-sandales-c-11.html]Louboutin Sandales[/url]
+You fund architecture.
+ <a href="http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-bianca-c-6.html" >Christian Louboutin Bianca</a>
+[url=http://noosfere.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-bianca-c-6.html]Christian Louboutin Bianca[/url]
