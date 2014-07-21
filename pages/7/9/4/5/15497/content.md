@@ -1,2 +1,2 @@
-This is a latest and the improved version of the Embroidery Designs. In this type the Embroidery Designs are created with the use of computer softwares. The Embroidery Designs created with the use of computer technology is much more stable than the above two and gives a  greater area for the creation of the Embroidery Designs..
- <a href="http://www.markenbuilders.com/jpbagsonline.asp?cheap=products-c165.html" title="COACH&#12304;&#12467;&#12540;&#12481;&#12305;">COACH&#12304;&#12467;&#12540;&#12481;&#12305;</a>
+Park Avenue
+ <a href="http://www.singladentalcare.com/shoponlinejp.asp?cheap=shop/115288/products-fl66.html" title="Duvetica ACCA">Duvetica ACCA</a>
