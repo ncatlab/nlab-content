@@ -1,3 +1,3 @@
-There is no doubt that subprime lending and speculation fueled demand for housing assets. But these are uniquely American phenomena. The housing boom and bust is not. A similarly volatile cycle was observed in Britain, Spain, France, and Ireland, among other countries that while not exposed to the aggressive lending in the U.S. would have been affected by global energy market dynamics.
- <a href="http://www.bitterwisdom.com/ChristianLouboutinnrepandun.asp?repandu=louboutin-sandales-c-26.html" >Louboutin Sandales</a>
-[url=http://www.bitterwisdom.com/ChristianLouboutinnrepandun.asp?repandu=louboutin-sandales-c-26.html]Louboutin Sandales[/url]
+45. Assi, Georges: $8,500,000 (MD, Tradlng &#8211; Collaterallzed Debt)
+ <a href="http://reubenstein.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-ballerines-c-2/" >Christian Louboutin Ballerines</a>
+[url=http://reubenstein.com/ChristianLouboutinnpascher.asp?pascher=christian-louboutin-ballerines-c-2/]Christian Louboutin Ballerines[/url]
