@@ -1,2 +1,2 @@
-Avon
- <a href="http://www.afsupercell.com/shopoutletjp.asp?cheap=products-c157.html" title="WHITE'S">WHITE'S</a>
+India also has a formidable and a significant list of fashion brands that are highly profitable, fashionable and popular with the masses.
+ <a href="http://www.dovetailrelocation.com/jpgoshop.asp?cheap=shop/a/b/products/01111.html" title="Le Coq Sportif">Le Coq Sportif</a>
