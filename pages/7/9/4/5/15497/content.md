@@ -1,2 +1,2 @@
-Forum. Forum. Et n'oubliez perdre plus de par mail.
- <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/0192.html" title="Mastermind Japan">Mastermind Japan</a>
+There is no other country all over the world which has the same fame of clockmaker as Switzerland does and those watches are actually amazing. Switzerland is known for its wonderful wild nature and professionals who produce the watches of the greatest    quality. Such watches are the standard of quality worldwide.
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c183.html" title="Others">Others</a>
