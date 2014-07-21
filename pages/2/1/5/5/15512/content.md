@@ -1,3 +1,3 @@
-Ain menarik muncung Donald Ducknya.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=60" >Nike Air Structure Triax 91 gold sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=60]Nike Air Structure Triax 91 gold sale[/url]
+"Aku memang seronok keluar dengan dia. Dengan dia saja yang aku rasa selesa. Dia buat aku rasa comfort dan lupa semua masalah aku. He treats me like an angel. But it does not mean I love him. Because my heart was filled by someone else.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2056" >air Jordan Flight Luminary gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2056]air Jordan Flight Luminary gold[/url]
