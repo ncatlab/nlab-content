@@ -1,3 +1,3 @@
-Hey Kamal, kau nak bergurau pasal benda lain aku tak kisah, tapi jangan melibatkan Nur. Dia baru jer hantar mesej kata nak jumpa, macam mana pula boleh terlibat dengan kemalangan. Kau tengok tak mayat Nur dengan mata kau sendiri?
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2280" >Air Max 1 green uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2280]Air Max 1 green uk[/url]
+'Yana' sapa seseorang dibelakangku..
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2094" >air Jordan Hydro 2 Premier gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2094]air Jordan Hydro 2 Premier gold[/url]
