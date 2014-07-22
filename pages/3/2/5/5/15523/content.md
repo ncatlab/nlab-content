@@ -30,6 +30,9 @@ Notably under the [[function field analogy]] one may also understand [[ramificat
 
 * Wikipedia, _[Branched covering](http://en.wikipedia.org/wiki/Branched_covering)_
 
+* {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
+
+
 [[!redirects branched covers]]
 
 [[!redirects branched covering]]
