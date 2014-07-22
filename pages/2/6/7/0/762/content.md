@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -18,11 +19,11 @@ A **filtered topological space** $X_*$ is a [[filtered object]] in [[Top]], henc
 
 1. a [[topological space]] $X=X_\infty$ 
 
-1. equipped with a [[sequence]] of [[subspaces]] 
+2. equipped with a [[sequence]] of [[subspaces]] 
 
    $$X_*:= \quad X_0 \subseteq X_1 \subseteq \cdots \subseteq X_n \subseteq \cdots \subseteq X_\infty. $$
 
-A filtered space $X_*$ is called a **[[connected filtered space]]**  if it satisfies the following condition:
+A filtered space $X_*$ is called a **[[connected filtered space]]** if it satisfies the following condition:
 
 $(\phi)_0$: The function $\pi_0X_0  \to \pi_0 X_r$ induced by  inclusion is surjective for all $r \geq 0$; and, for all $i \geq 1$, $(\phi_i): \pi_i(X_r,X_i,v)=0$   for all $r \gt i$  and $ v \in X_0$.
 
@@ -33,63 +34,63 @@ There are two other forms of this condition which are useful under different cir
 
 1. A [[CW-complex]] $X$ with its filtration by [[simplicial skeleton|skeleta]] $X^n$.
 
-1. The free topological monoid $F X$ on a space $X$ filtered by the length of words. Given a based space $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the James construction $J(X,x)$, after Ioan James. 
+2. The free topological monoid $F X$ on a space $X$ filtered by the length of words. Given a based space $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the James construction $J(X,x)$, after Ioan James. 
 
-James construction $J(X,x)$ can be constructed homotopy-theoretically, following ideas of Brunerie. Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ is $\{x\in X^{V(K)}| \, \forall v\in V(K) (v\notin\sigma \implies proj_v x\in A)\}$. 
+   The James construction $J(X,x)$ can be constructed homotopy-theoretically, following ideas of Brunerie. Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ is $\{x\in X^{V(K)}| \, \forall v\in V(K) (v\notin\sigma \implies proj_v x\in A)\}$. 
 
-+-- {: .un_defn}
-###### Definition
-For $X$ a space equipped with basepoint $x$, define a filtered space $fil_\bullet$ as follows. 
-Set $\fil_0$ as $\{x\}$.
-For $k\ge 1$, require that the following square is homotopy pushout:
-$$
-  \array{
- &&&&
-     (X,x)^{\partial \Delta[k-1]}
-     &&&&
-      \\
-      & 
-      && inc \swarrow
-       &
-       & \searrow 
-      && 
-     \\
-&& X^k &&&& fil_{k-1}
-\\
-      & 
-      && {}_{p_k}\searrow
-       &
-       & \swarrow_{j_k}
-      && 
-     \\
-&&&&
-     fil_s
-     &&&&
-  }
-$$
-where the unlabeled arrow is induced by 
-$$(X,x)^\sigma \xrightarrow{\sim} X^{\dim(\sigma)+1} \xrightarrow{p_{\dim(\sigma)+1}} fil_{\dim(\sigma)+1}\xrightarrow{j_{s-1}\circ\cdots\circ j_{\dim(\sigma)+2}}\fil_{s-1}$$
-=-- 
+   +-- {: .un_defn}
+   ###### Definition
+   For $X$ a space equipped with basepoint $x$, define a filtered space $fil_\bullet$ as follows. 
+   Set $\fil_0$ as $\{x\}$.
+   For $k\ge 1$, require that the following square is homotopy pushout:
+   $$
+     \array{
+    &&&&
+        (X,x)^{\partial \Delta[k-1]}
+        &&&&
+         \\
+         & 
+         && inc \swarrow
+          &
+          & \searrow 
+         && 
+        \\
+   && X^k &&&& fil_{k-1}
+   \\
+         & 
+         && {}_{p_k}\searrow
+          &
+          & \swarrow_{j_k}
+         && 
+        \\
+   &&&&
+        fil_s
+        &&&&
+     }
+   $$
+   where the unlabeled arrow is induced by 
+   $$(X,x)^\sigma \xrightarrow{\sim} X^{\dim(\sigma)+1} \xrightarrow{p_{\dim(\sigma)+1}} fil_{\dim(\sigma)+1}\xrightarrow{j_{s-1}\circ\cdots\circ j_{\dim(\sigma)+2}}\fil_{s-1}$$
+   =-- 
 
-+-- {: .num_prop #TypeOfJames}
-###### Proposition
- For $(X,x)$ a pointed space, if $(X,x)$ is path-connected, then $fil_\infty \simeq \Omega\Sigma X$.
-=--
+   +-- {: .num_prop #TypeOfJames}
+   ###### Proposition
+    For $(X,x)$ a pointed space, if $(X,x)$ is path-connected, then $fil_\infty \simeq \Omega\Sigma X$.
+   =--
 
-1. A similar example to the last using free groups instead of free monoids. 
+3. A similar example to the last using free groups instead of free monoids. 
 
-1. A similar example to the last using free groupoids on topological graphs. 
+4. A similar example to the last using free groupoids on topological graphs. 
 
-1. A similar example to the last using the universal topological groupoid $U_\sigma(G)$ induced from a topological groupoid $G$ by a continuous function $f: Ob(G) \to Y$ to a space $Y$. 
+5. A similar example to the last using the universal topological groupoid $U_\sigma(G)$ induced from a topological groupoid $G$ by a continuous function $f: Ob(G) \to Y$ to a space $Y$. 
 
 
-Examples of connected filtered spaces are:
+Examples of [[connected filtered spaces]] are:
 
 1. The skeletal filtration of a CW-complex. 
 
-1. The word length filtration of the James construction for a space with base point such that $\{x\} \to X$ is a closed cofibration. 
+2. The word length filtration of the James construction for a space with base point such that $\{x\} \to X$ is a closed cofibration. 
 
-1. The filtration $(B C)_*$ of the classifying space of a crossed complex, filtered using skeleta of $C$. 
+3. The filtration $(B C)_*$ of the classifying space of a crossed complex, filtered using skeleta of $C$. 
 
 This condition occurs in the [[higher homotopy van Kampen theorem]] for [[crossed complex]]es.
 
@@ -101,9 +102,12 @@ It is  therefore interesting that one can define strict higher homotopy groupoid
 
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
+
 ## References
-Guillaume Brunerie gave a talk entitled "The James Construction and $\pi_4(S^3)$" at the Insitute of Advanced Studies on March 27, 2013. In this talk, he described James construction in homotopy type theory. 
+
+Guillaume Brunerie gave a talk entitled "The James Construction and $\pi_4(S^3)$" at the Institute of Advanced Studies on March 27, 2013. In this talk, he described James construction in homotopy type theory. 
 * [https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie)
+
 
 [[!redirects filtered topological space]]
 [[!redirects filtered topological spaces]]
