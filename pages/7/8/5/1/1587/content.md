@@ -1,10 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -389,6 +396,9 @@ This indeed is then the usual construction of the universal covering space in te
 * [[Karl Dahlke]], _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
 
 
+## Related concepts
+
+* [[branched covering space]]
 
 ## References
 
