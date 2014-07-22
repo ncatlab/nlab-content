@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
 #Contents#
 *  table of contents
 {:toc}
@@ -44,8 +58,11 @@ Notably under the [[function field analogy]] one may also understand [[ramificat
 [[!redirects ramified cover]]
 [[!redirects ramified covers]]
 
+[[!redirects ramified]]
+
 [[!redirects ramification]]
 [[!redirects ramifications]]
 
 [[!redirects branch point]]
 [[!redirects branch points]]
+
