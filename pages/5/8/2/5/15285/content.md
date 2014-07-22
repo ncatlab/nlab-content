@@ -32,4 +32,4 @@
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
-|   |  [[Dedekind zeta function]] ([[Riemann zeta function]] for $K = \mathbb{Q}$) | [[Goss zeta function]] | [[zeta function of a Riemann surface]] |
+|   |  [[Dedekind zeta function]] ([[Riemann zeta function]] for $K = \mathbb{Q}$) | [[Weil zeta function]], [[Goss zeta function]] | [[zeta function of a Riemann surface]] |
