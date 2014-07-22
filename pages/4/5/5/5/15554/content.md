@@ -1,2 +1,0 @@
-http://www.landtrustepwv.org/jordan6sportblue.htm/ nczjca <a href="http://www.landtrustepwv.org/jordan6sportblue.htm">Jordan 6 Sport Blue</a> uumztje
- <a href="http://www.brickish.org/airjordan6sportblue.htm" >Jordan 6 Sport Blue</a>
