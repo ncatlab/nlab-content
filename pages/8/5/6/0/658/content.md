@@ -69,7 +69,7 @@ $$
   \,.
 $$
 
-This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediate implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
+This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediately implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
 
 Now, profunctors $D^{op} \otimes C \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, profunctors are equivalent to colimit-preserving functors
 
@@ -80,7 +80,7 @@ $$
 
 Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformation between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$.
 
-An explicit statement of this can be found for instance as prop. 4.2.4
+An explicit statement of this can be found for instance as prop. 4.2.4 in
 
 * Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.html))
 
@@ -119,7 +119,7 @@ If $C \overset{g}{\to} \bar{H} \overset{f}{\leftarrow} D$ is a codiscrete cofibr
 
 Dually, if $C \overset{p}{\leftarrow} E \overset{q}{\to} D$ is a two-sided discrete fibration representing a profunctor from $C$ to $D$, then the codiscrete cofibration representing the same profunctor can be obtained as the [[cocomma object]] $(q\uparrow p)$ with the two inclusions of $C$ and $D$.
 
-In fact, in any 2-category with comma and cocomma objects,we have an [[adjunction]]
+In fact, in any 2-category with comma and cocomma objects, we have an [[adjunction]]
 $$ cocomma: Span(C,D) \;\rightleftarrows\; Cospan(C,D) : comma. $$
 One can show that comma objects are always discrete fibrations, and dually cocomma objects are always codiscrete cofibrations.  In $Cat$ and other similar 2-categories, this adjunction is [[idempotent adjunction|idempotent]] and restricts to an equivalence between the categories of discrete fibrations and codiscrete cofibrations (both of which are of course equivalent to the category of profunctors from $C$ to $D$).  This is a two-sided version of the [[Grothendieck construction]].
 
@@ -153,7 +153,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
   \,.
   $$
 
-* for [[enriched category|enrichment]] over a [[category of chain complexes]] an [[enriched category]] is a [[dg-category]] and a profunctor is now a dg-[[bimodule]] of dg-categories. This appears notably in the definiition of [[noncommutative motives]].
+* for [[enriched category|enrichment]] over a [[category of chain complexes]] an [[enriched category]] is a [[dg-category]] and a profunctor is now a dg-[[bimodule]] of dg-categories. This appears notably in the definition of [[noncommutative motives]].
 
 ## Related entries ##
 
@@ -185,6 +185,10 @@ Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes 
 
 ### More recent accounts
 
+A standard reference is 
+
+* [[Francis Borceux]], _Handbook of Categorical Algebra I_, Oxford UP 1994. sec. 7.7.
+
 Excellent  notes from a course on distributors given by 
 Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher.
 
@@ -192,13 +196,21 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
-See the [[joyalscatlab:HomePage|Joyal's CatLat]] for the theory of [[Set]]-valued distributors:
+See the [[joyalscatlab:HomePage|Joyal's CatLab]] for the theory of [[Set]]-valued distributors:
 
 * [[Andre Joyal]], _[[joyalscatlab:Distributors and barrels]]_
 
-There is a discussion of profunctors in the recently republished:
+Profunctors play an important in categorical [[shape theory]]. The original source is 
+
+* D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah.Top.G&#233;om.Diff.Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+
+The material together with a general discussion of profunctors is also available in English in the recently republished standard reference
 
 * J.-M. Cordier and [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+M. Batanin discusses simplicial enriched profunctors in the context of strong shape theory in
+
+* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997). ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
 
 ### Expositions
 
