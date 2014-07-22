@@ -169,7 +169,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 The original published source for profunctors is
 
-* [[Jean Bénabou]], _Les distributeurs_, Univesit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
+* [[Jean Bénabou]], _Les distributeurs_, Universit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
 
 based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. Much (if not most) of the existing work on profunctors has been developed by B&#233;nabou.
 
@@ -181,16 +181,16 @@ based on suggestions by [[Bill Lawvere]], including the monograph
 
 * [[Michel Andre]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
 
-Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by Bill Lawvere, but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix  multiplication'.
+Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by Bill Lawvere, but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix multiplication'.
 
 ### More recent accounts
 
 A standard reference is 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra I_, Oxford UP 1994. sec. 7.7.
+* [[Francis Borceux]], _Handbook of Categorical Algebra I_, Cambridge UP 1994. sec. 7.7.
 
-Excellent  notes from a course on distributors given by 
-Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher.
+Excellent notes from a course on distributors given by 
+Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher:
 
 * [[Jean Bénabou]], _Distributors at work_, (2000), [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
 
@@ -204,13 +204,13 @@ Profunctors play an important in categorical [[shape theory]]. The original sour
 
 * D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah.Top.G&#233;om.Diff.Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
-The material together with a general discussion of profunctors is also available in English in the recently republished standard reference
+The material together with a general discussion of profunctors is also available in English in the recently reprinted standard reference
 
 * J.-M. Cordier and [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 M. Batanin discusses simplicial enriched profunctors in the context of strong shape theory in
 
-* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997)pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
+* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997) pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
 
 ### Expositions
 
