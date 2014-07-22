@@ -1,0 +1,20 @@
+
+## Related concepts
+
+* [[covering space]]
+
+## Examples
+
+* [[branched cover of Riemann sphere]]
+
+## References
+
+* Wikipedia, _[Branched covering](http://en.wikipedia.org/wiki/Branched_covering)_
+
+[[!redirects branched covers]]
+
+[[!redirects branched covering]]
+[[!redirects branched coverings]]
+
+[[!redirects branched covering space]]
+[[!redirects branched covering spaces]]
