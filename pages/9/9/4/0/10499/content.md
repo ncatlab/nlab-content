@@ -15,17 +15,17 @@
 
 ## Idea
 
-The classical _fracture theorem_ is a basic fact in [[number theory]] and derived from this a fundamental result in  [[homotopy theory]], which says how working over the [[integers]] may be decomposed into working over the [[rational numbers]] and over the [[p-adic integers]], for all primes $p$.
+The classical _fracture theorem_ is a basic fact in [[number theory]]/[[arithmetic geometry]] and derived from this a fundamental result in  [[homotopy theory]], which says how working over the [[integers]] may be decomposed into working over the [[rational numbers]] and over the [[p-adic integers]], for all primes $p$.
 
-### Arithmetic fracture square
- {#ArithmeticFractureSquare}
+### In number theory and arithmetic geometry
+ {#ArithmeticFractureSquares}
 
 The number theoretic statement is the following:
 
 +-- {: .num_prop #ArithmeticFractureSquare}
 ###### Proposition
 
-The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over the rationalization of the former, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
+The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over the [[rationalization]] of the former, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
 
 $$
   \array{
@@ -56,15 +56,17 @@ $$
      \\
      && \mathbb{A}_{\mathbb{Z}}
   }
-  \,.
+  \,,
 $$
 
+Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{A}_{\mathbb{Z}}$, this is also (by the discussion [here](category+of+monoids#PushoutOfCommutativeMonoids)) a [[pushout]] diagram in [[CRing]], and in fact in topological [[commutative rings]] (for $\mathbb{Q}$ with the [[discrete topology]] and $\mathbb{A}_{\mathbb{Z}}$ with its profinite/[[completion of a ring|completion]] topology).
 
 =--
 
-In the context of a modern account of categorical homotopy theory this appears for instance as ([Riehl 14, lemma 14.4.2](#Riehl14)).
+This is of course elementary in itself, but is conceptually important (see remark \ref{GeometricMeaning} below).
+One place where the first pullback square above appears explicitly in relation to fracture theorems in homotopy theory (see [below](#InHomotopyTheory)) is in ([Riehl 14, lemma 14.4.2](#Riehl14)).
 
-+-- {: .num_remark}
++-- {: .num_remark #GeometricMeaning}
 ###### Remark
 
 Under the [[function field analogy]] we may think of 
@@ -90,7 +92,8 @@ This kind of cover plays a central role in [[number theory]], see for instance t
 
 =--
 
-### In homotopy theory
+### In (stable) homotopy theory
+ {#InHomotopyTheory}
 
 In [[homotopy theory]] the corresponding statement is that [[homotopy types]] may be decomposed into that of [[rational homotopy types]] and [[p-complete homotopy types]] of [[p-local homotopy types]].
 
@@ -125,7 +128,7 @@ $$
 where the square is a [[homotopy pullback]] (and hence, by stability, also a [[homotopy pushout]]), and where the diagonal is a [[homotopy cofiber sequence]] (hence a [[homotopy fiber sequence]]), see e.g. [Lurie 10, lecture 20](http://ncatlab.org/nlab/show/localization+of+a+space#Lurie).
 
 
-## Variants
+### In cohesive (stable) homotopy theory
 
 In an [[tangent cohesive (∞,1)-topos]] every [[stable homotopy type]] is canonically a cohesive/differential extension of its [[geometric realization of a cohesive homotopy type|geometric realization]] by way of a kind of fracture theorem involving the localizations induced by the [[shape modality]] and the [[flat modality]]: 
 
@@ -133,7 +136,31 @@ $$
   X \simeq \flat_{dR}\Sigma X   \underset{\Pi \flat_{dR}\Sigma X}{\times}  \Pi X
 $$
 
-See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)_ and at _[[differential cohomology hexagon]]_.
+See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)_.
+
+More generally, the statement of the
+_[[differential cohomology hexagon]]_ is that for every stable cohesive homotopy type the canonical hexagon
+
+$$
+  \array{
+    &&  \Pi_{dR} X && \stackrel{}{\longrightarrow} && \flat_{dR}X
+    \\
+    & \nearrow & & \searrow & & \nearrow_{} && \searrow
+    \\
+    \flat \Pi_{dR} X  && && X && && \Pi \flat_{dR}  X
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{}
+    \\
+    && \flat X  && \longrightarrow && \Pi X
+  }
+$$
+
+is homotopy exact, in that both squares are both [[homotopy pullback]] as well as [[homotopy pushout]] squares and the two boundary sequences are long [[homotopy fiber sequences]]/[[homotopy cofiber sequences]].
+
+Notice that for instance for [[synthetic differential infinity-groupoids]] regarded as cohesive over their [[formal moduli problems]], then the [[flat modality]] $\flat$ sends each space $X$ to the collection $\flat X$ of all its formal disks. Also notice that by the discussion [here](differential+cohomology+diagram#OrdinaryDifferentialCohomology) the [[cocycles]] on $\Pi_{dR} X$ are equivalently the rationalized (de Rham) cocycles on $X$.
+
+Hence under [[Isbell duality|algebra/geometry duality]] and in view of the [[function field analogy]], then in this case the left square in the above behaves indeed as a geometric dual to the classical arithmetic fracture squares above.
+
 
 ## Examples
 
