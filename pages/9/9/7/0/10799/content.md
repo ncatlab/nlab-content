@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _ring of adeles_ $\mathbb{A}_k$ of any [[global field]] $k$ -- in particular of the [[rational numbers]] $\mathbb{Q}$ -- is the [[restricted product]] of all [[formal completions]] $k_v$ of $k$ at all its [[places]] $v$, where the restriction is such that only a [[finite number]] of components have [[norm]] greater than 1.
+The _ring of adeles_ $\mathbb{A}_k$ of any [[global field]] $k$ -- in particular of the [[rational numbers]] $\mathbb{Q}$ -- is the [[restricted product]] of all [[formal completions]] $k_v$ of $k$ at all its [[places]] $v$, where the restriction is such that only a [[finite number]] of components have [[norm]] greater than 1. (This has a useful geometric interpretation and motivation by the [[function field analogy]], more on which [below](#FunctionFieldAnalogy)).
 
 In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completion of a ring|completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. For example, the [[algebraic integers]] in the number field embed discretely and co-compactly into this [[cartesian product]], i.e., as a [[lattice in a vector space|lattice]], and this opens the way for example to the concrete realization of the [[group of units]] (modulo [[torsion subgroup|torsion]]) as a [[lattice]], and also to the technique of [[Fourier analysis]] where Poisson summation applied to the lattice has classical implications for [[theta functions]] and [[zeta functions]]. 
 
@@ -47,7 +47,7 @@ and finally in full generality
 
 We start off very simply with the algebraic description of the adele ring over the [[rational numbers]]. 
 
-+-- {: .num_defn }
++-- {: .num_defn #RingOfAdeles}
 ###### Definition
 
 The ring of _integral adeles_ $\mathbb{A}_{\mathbb{Z}}$ is the [[product]]
@@ -60,26 +60,101 @@ $$
   \,.
 $$
 
-The _adele ring_ is the tensor product $\mathbb{A}_\mathbb{Q} \coloneqq \mathbb{Q} \otimes_\mathbb{Z} \mathbb{A}_\mathbb{Z}$. 
-
-=--
-
-e.g. section 3 [here](http://wiki.epfl.ch/gant/). 
-
-+-- {: .num_remark }
-###### Remark
-
-By [this proposition](profinite+completion+of+the+integers#AsProductOverAlsoPAdicIntegers) we have $\hat \mathbb{Z} \simeq \underset{p\;prime}{\prod} \mathbb{Z}_p$ and hence
+The _ring of adels_ $\mathbb{A}_{\mathbb{Q}}$ (or just $\mathbb{A}$, for short) itself is the [[rationalization]] of the ring of integral adeles, hence its [[tensor product]] with the [[rational numbers]] 
 
 $$
-  \mathbb{A}_{\mathbb{Z}} \simeq \mathbb{R} \times
-  \underset{p\;prime}{\prod} \mathbb{Z}_p
+  \mathbb{A}_\mathbb{Q} 
+    \coloneqq 
+  \mathbb{Q} 
+    \otimes_\mathbb{Z} 
+  \mathbb{A}_\mathbb{Z}
   \,.
 $$
 
 =--
 
-This definition generalizes to any [[number field]] $k$. 
+This definition has various equivalent reformulations which are often useful.
+
++-- {: .num_remark #ProfiniteIntegersAsProductOverpAdics}
+###### Remark
+
+By [this proposition](profinite+completion+of+the+integers#AsProductOverAlsoPAdicIntegers) we have that the [[profinite completion of the integers]] is equivalently the [[product]] of all [[p-adic integers]] as $p$ ranges over all [[prime numbers]] 
+
+$$
+  \hat \mathbb{Z} \simeq \underset{p\;prime}{\prod} \mathbb{Z}_p
+$$ 
+
+Using this in def. \ref{RingOfAdeles} says that the ring of integral adeles is the product
+
+$$
+  \mathbb{A}_{\mathbb{Z}} 
+    \simeq 
+   \mathbb{R} \times
+  \underset{p\;prime}{\prod} \mathbb{Z}_p
+  \,.
+$$
+
+
+=--
+
+From this one obtains the following equivalent characterization:
+
++-- {: .num_prop #RationalRingOfAdelesAsRestrictedProduct}
+###### Proposition
+
+The ring of adeles $\mathbb{A}$, def. \ref{RingOfAdeles}, is equivalently the [[restricted product]] $\prod^\prime$ of the [[p-adic rational numbers]], the restriction being along the inclusion $\mathbb{Z}_p \to \mathbb{Q}_p$:
+
+$$
+  \mathbb{A}_{\mathbb{Q}} 
+    =
+  \mathbb{R} \times \underset{p \; prime}{\prod^\prime} \mathbb{Q}_p
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By remark \ref{ProfiniteIntegersAsProductOverpAdics} the 
+[[tensor product]] to be computed is equivalently
+
+$$
+  \mathbb{A}_{\mathbb{Q}}
+  \simeq
+  \mathbb{Q}\otimes_{\mathbb{Z}}
+   \left(
+     \mathbb{R} \times
+    \underset{p \; prime}{\prod} \mathbb{Z}_p
+   \right)
+  \,.
+$$
+
+Now notice that a [[natural number]] $n$ is a [[group of units|unit]] in $\mathbb{Z}_p$ if $p$ is not a [[prime factor]] of $n$. 
+Therefore for $(a_p) \in \underset{p}{\prod} \mathbb{Z}_p$ and $\frac{c}{d} \in \mathbb{Q}$, then for each of the [[finite number]] of [[prime factors]] $p$ of $d$ the tensor product
+element $\frac{c}{d} \otimes_{\mathbb{Z}} a_p \in \mathbb{Q}_p$ contains a non-vanishing negative power of $p$ and is hence not in $\mathbb{Z}_p$, whereas for all $p$ that do not appear as prime factors in $d$ it is.
+
+=--
+
+Finally notice:
+
++-- {: .num_prop }
+###### Remark
+
+The [[prime numbers]] correspond to the non-archimedean [[places]] of $\mathbb{Z}$, and under this identification there is one more real [[place at infinity]], "$p = \infty$", the [[completion of a ring|completion]] of $\mathbb{Q}$ at which is the real numbers $\mathbb{R}$, which one may therefore write $\mathbb{R} = \mathbb{Q}_\infty$. Using this the characterization of the ring of adeles from prop. \ref{RationalRingOfAdelesAsRestrictedProduct} is equivalently the [[restricted product]] over all real places of the [[formal completion]] of $\mathbb{Q}$ at this place
+
+$$
+  \mathbb{A}_{\mathbb{Z}} 
+    \simeq 
+  \underset{p \in Places(\mathbb{Z})}{\prod^{\prime}} \mathbb{Q}_p
+  \,.
+$$
+
+
+=--
+
+All of this generalizes to any [[number field]] $k$. 
+
+
 
 ### For a number field
  {#ForAnyNumberField}
