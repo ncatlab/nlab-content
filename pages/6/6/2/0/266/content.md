@@ -747,7 +747,7 @@ which is a sheaf, and one can analyze this construction to show that $f^{-1}$ is
 
 We list here some occurences of Kan extensions in [[physics]].
 
-Notice that since, by the above discussion, Kan extensions are ubiquitous in [[category theory]] and are essentially equivalent to other standard [[universal constructions]] such as notably [[colimit|co]]/[[limits]], to the extenent that there is a relation between [[higher category theory and physics|category theory and physics]] at all, it necessarily also involves Kan extensions, in some guise. But here is a list of some example where they appear rather explicitly.
+Notice that since, by the above discussion, Kan extensions are ubiquitous in [[category theory]] and are essentially equivalent to other standard [[universal constructions]] such as notably [[colimit|co]]/[[limits]], to the extent that there is a relation between [[higher category theory and physics|category theory and physics]] at all, it necessarily also involves Kan extensions, in some guise. But here is a list of some example where they appear rather explicitly.
 
 * In [[extended quantum field theory]] on open and closed manifolds, usually the theory "in the bulk" (on closed manifolds) is induced by "extending" that "[[boundary field theory|on the boundary]]", and in good cases this extension is explicitly a ([[homotopy Kan extension|homotopy]])-Kan extension. This is the case notably for [[2d TQFT]] in the form of [[TCFT]] ([Costello 04](TCFT#Costello04)), see at _[TCFT -- Classification](TCFT#Classification)_ for details.
 
