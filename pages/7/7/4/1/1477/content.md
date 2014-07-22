@@ -1,5 +1,5 @@
 
-<div class="rightHandSide toc">
+<div markdown="1" class="rightHandSide toc">
 [[!include higher category theory - contents]]
 </div>
 
