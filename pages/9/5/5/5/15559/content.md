@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The _Dedekind zeta function_ is a generalization of the [[Riemann zeta function]] from the [[rational numbers]]/[[integers]] to [[number fields]]/their [[rings of integers]].
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## References
+
+* Wikipedia, _[Dedekind zeta function](http://en.wikipedia.org/wiki/Dedekind_zeta_function)_
+
+[[!redirects Dedekind zeta functions]]
+
+[[!redirects Dedekind zeta-function]]
+[[!redirects Dedekind zeta-functions]]
