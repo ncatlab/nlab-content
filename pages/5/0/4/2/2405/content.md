@@ -21,7 +21,7 @@
 
 The aim of _Arakelov geometry_ is to extend [[intersection theory]] to the case of [[algebraic curves]] over $Spec(\mathbb{Z})$, hence in [[arithmetic geometry]].
 
-Arakelov complemented the algebraic geometry at finite primes with a holomorphic piece at a point at infinity. Then using complex analytic geometry and Green functions he defined the intersections numbers using the complementary piece at infinity. 
+Arakelov complemented the algebraic geometry at finite primes with a holomorphic piece at a [[place at infinity]]. Then using [[complex analytic geometry]] and [[Green's functions]] he defined the [[intersections numbers]] using the complementary piece at infinity. 
 
 ## Definitions
 
