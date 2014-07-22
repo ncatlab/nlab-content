@@ -23,7 +23,7 @@ $$
   \,.
 $$ 
 
-If we think of $\Sigma$ as retrievable from its field of [[meromorphic functions]], then each such map $\phi$ is dual to a [[field]] extension $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing finitely many points of ramification of $\phi$. 
+If we think of $\Sigma$ as retrievable from its field of [[meromorphic functions]] (see for example [Mumford](#Mum)), then each such map $\phi$ is dual to a [[field]] extension $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing all the (finitely many) ramification points of $\phi$. 
 
 ## Properties
 
@@ -32,6 +32,9 @@ By the [[Riemann existence theorem]], every connected compact [[Riemann surface]
 ## References
 
 * Brian Ossermann, _Branched covers of the Riemann sphere_ ([pdf](https://www.math.ucdavis.edu/~osserman/rfg/290W/branched-covers.pdf))
+
+* David Mumford, _Curves and their Jacobians_, U. Michigan Press (1977). 
+ {#Mum} 
 
 [[!redirects branched covers of Riemann sphere]]
 
