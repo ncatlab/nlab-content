@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Ramification of [[ideals]] through [[ring]]/[[algebra]] [[homomorphisms]] is the [[Isbell duality|dual]] incarnation of [[branch points]] of [[branched covering spaces]].
+
+## Definition
+
+Given a [[ring]] [[injection]] $i \colon B \to A$ (for instance a [[field extension]]), then a [[prime ideal]] $J \subset B$ is said to be _ramified in $A$_ if $\iota(J) A\subset A$ is not a prime ideal anymore. 
+
+HEre $\iota(J)A$ will be a product of powers of [[prime ideals]] of $A$, and the _ramification index_ of $J$ at a prime ideal of $A$ is the power with which this appears.
+
+## Examples
+
+* Under the [[function field analogy]] ramifications of [[algebraic number fields]] as [[field extensions]] of the [[rational numbers]] are [[analogy|analogous]] to [[branched covers of the Riemann sphere]] in [[complex geometry]].
+
+[[!redirects ramified ideal]]
+[[!redirects ramified ideals]]
+
+
+[[!redirects ramified extension]]
+[[!redirects ramified extensions]]
