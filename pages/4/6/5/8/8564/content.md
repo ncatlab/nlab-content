@@ -33,7 +33,9 @@ Often _pid_ is used as an abbreviation of "principal ideal domain".
 
 * a [[valuation ring|discrete valuation ring]] (for example, a ring of formal power series over a field) 
 
-* the ring of entire [[holomorphic functions]] on $\mathbb{C}$ 
+* in the ring of [[entire function|entire]] [[holomorphic functions]] on $\mathbb{C}$ every finitely generated ideal is principal  ([Helmer 40](#Helmer40)), but the ring is only a [[Bézout domain]].
+
+That both the [[integers]] and the [[polynomial rings]] $\mathbb{F}_q[x]$ over [[finite fields]] are principal integral domains with [[finite group|finite]] [[group of units]] is one aspect of the close similarity between the two that is the topic of the [[function field analogy]]. That also the [[holomorphic functions]] on the [[complex plane]] form a [[Bézout domain]] may then be viewed as part of the further similarity that relates the previous two to topics such as [[geometric Langlands duality]]. See at _[[function field analogy -- table]]_ for more on this.
 
 ## Structure theory of modules 
  {#StructureTheoryOfModules}
@@ -133,6 +135,16 @@ In the other direction, suppose $M$ is torsionfree. Any module is the filtered c
 ### Structure theory of finitely generated modules 
 
 ...
+
+## References
+
+* {#Helmer40} O. Helmer, _Divisibility properties of integral functions_, Duke Math. J.
+6 (1940), 345-356.
+
+* Wikipedia, _[Principal ideal domain](http://en.wikipedia.org/wiki/Principal_ideal_domain)_
+
+* [pdf](http://www.math.harvard.edu/~waffle/pids.pdf)
+
 
 
 [[!redirects principal ideal domain]]
