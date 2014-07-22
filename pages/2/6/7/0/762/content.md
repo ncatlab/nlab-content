@@ -107,6 +107,7 @@ Note also that it is standard to be able to replace, using mapping cylinders, a 
 ## References
 
 Guillaume Brunerie gave a talk entitled "The James Construction and $\pi_4(S^3)$" at the Institute of Advanced Studies on March 27, 2013. In this talk, he described James construction in homotopy type theory. 
+
 * [https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie)
 
 
