@@ -21,7 +21,7 @@
 
 If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a [[functor]] $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
 
-Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). 
+Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is called *corepresentable*). 
 
 In particular the [[identity]] profunctor $Id \colon  C &#8696; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
 
@@ -69,7 +69,7 @@ $$
   \,.
 $$
 
-This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediately implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
+This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is a colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediately implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
 
 Now, profunctors $D^{op} \otimes C \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, profunctors are equivalent to colimit-preserving functors
 
@@ -78,7 +78,7 @@ $$
   \,.
 $$
 
-Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformation between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$.
+Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformations between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$.
 
 An explicit statement of this can be found for instance as prop. 4.2.4 in
 
@@ -210,7 +210,7 @@ The material together with a general discussion of profunctors is also available
 
 M. Batanin discusses simplicial enriched profunctors in the context of strong shape theory in
 
-* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997). ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
+* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997)pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
 
 ### Expositions
 
