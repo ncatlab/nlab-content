@@ -25,11 +25,19 @@
 
 There is a noticeable [[analogy]] between phenomena ([[theorems]]) in the theory of [[number fields]] and those in the theory of [[function fields]] over [[finite fields]] ([Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)), hence between the theories of the two kinds of _[[global fields]]_. When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include [[complex analytic geometry]], the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). 
 
+At a very basic level the analogy may be plausible from the fact that both the [[integers]] $\mathbb{Z}$ as well as well as the [[polynomial rings]] $\mathbb{F}_q[x]$ (over [[finite fields]] $\mathbb{F}_q$) are [[principal ideal domains]] with [[finite group|finite]] [[group of units]], which already implies that a lot of [[arithmetic]] over these rings is similar. Since [[number fields]] are the [[finite number|finite]] [[dimension|dimensional]] [[field extensions]] of the [[field of fractions]] of $\mmathbb{Z}$, namely the [[rational numbers]] $\mathbb{Q}$, and since [[function fields]] are just the finite-dimensional field extensions of the fields of fractions $\mathbb{F}_q(x)$ of $\mathbb{F}_q[x]$, this similarity plausibly extends to these extensions. (Also the [[entire function|entire]] [[holomorphic functions]] on the [[complex plane]] are, while not quite an principal ideal domain still a [[Bézout domain]]. )
+
+
+But the analogy ranges much deeper than this similarity alone might suggest.
 For instance ([Weil 39](#Weil39)) defined an invariant of a [[number field]] -- the _[[genus of a number field]]_-- which is analogous to the [[genus of a curve|genus]] of the [[algebraic curve]] on which a given [[function field]] is the [[rational functions]]. This is such as to make the statement of the [[Riemann-Roch theorem]] for [[algebraic curves]] extend to [[arithmetic geometry]] ([Neukirch 92, chapter II, prop.(3.6)](#Neukirch92)).
+
+Another notable part of the analogy is the fact that there are natural analogs of the [[Riemann zeta function]] in all three columns of the analogy. This aspect has found attention notably through the lens of regarding [[number fields]] as [[rational functions]] on "[[arithmetic curves]] over the would-be [[field with one element]] $\mathbb{F}_1$".
 
 It is also the function field analogy which induces the conjecture of the [[geometric Langlands correspondence]] by analogy from the the number-theoretic [[Langlands correspondence]]. Here one finds that the [[moduli stack of bundles]] over a [[complex curve]] is analogous in absolute [[arithmetic geometry]] to the [[coset space]] of the [[general linear group]] with coefficients in the [[ring of adeles]] of a number field, on which [[unramified]] [[automorphic representations]] are functions. Under this analogy the [[Weil conjecture on Tamagawa numbers]] may be regarded as giving the [[groupoid cardinality]] of the [[moduli stack of bundles]] in [[arithmetic geometry]].
 
-In summary then the analogy says that the theory of [[function fields]] looks much like a [[global analytic geometry]]-version of the theory [[complex curves]], and moreover the theory of [[number fields]] looks much like further globalizing this to the "absolute base field" [[F1]].
+In summary then the analogy says that the theory of [[number fields]]and of [[function fields]] both looks much like a [[global analytic geometry]]-version of the theory [[complex curves]], 
+
+
 
 
 To date the function field analogy remains just that, an [[analogy]], though various research programs may be thought of as trying to provide a context in which the analogy would become a consequence of a systematic theory (see e.g. the introduction of [v.d. Geer et al 05](#vdGeer05)). This includes 
@@ -42,6 +50,7 @@ To date the function field analogy remains just that, an [[analogy]], though var
 
 
 ## Overview
+ {#Overview}
 
 [[!include function field analogy -- table]]
 
@@ -58,14 +67,18 @@ Original articles includes
 
 * {#MazurWiles83} [[Barry Mazur]], [[Andrew Wiles]], _Analogies between function fields and number fields_, American Journal of Mathematics Vol. 105, No. 2 (Apr., 1983), pp. 507-521 ([JStor](http://www.jstor.org/stable/2374266))
 
+Textbook accounts include
+
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
 
+* {#Roosen02} Michael Roosen, _Number theory in function fields_, Graduate texts in mathematics, 2002
 
-Reviews include
-
+Reviews and lecture notes include
 
 * {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
 * {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
+
+A collection of more recent developments is in
 
 * {#vdGeer05} van der Geer et al (eds.) _Number Fields and Function Fields &#8211; Two Parallel Worlds_, Birkh&#228;user 2005 ([publisher page](http://www.springer.com/birkhauser/mathematics/book/978-0-8176-4397-3))
