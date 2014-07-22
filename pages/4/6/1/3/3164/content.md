@@ -28,12 +28,12 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 ### Function field analogy
 
-[[!include function field analogy]]
+[[!include function field analogy -- table]]
 
 
 ## Related concepts
 
-* [[arithmetic scheme]]
+* [[arithmetic variety]], [[arithmetic scheme]]
 
   * [[arithmetic curve]]
 
