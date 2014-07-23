@@ -66,3 +66,10 @@ Notably under the [[function field analogy]] one may also understand [[ramificat
 [[!redirects branch point]]
 [[!redirects branch points]]
 
+[[!redirects ramified extension]]
+[[!redirects ramified extensions]]
+
+[[!redirects unramified extension]]
+[[!redirects unramified extensions]]
+
+
