@@ -5,14 +5,14 @@
 
 ## Idea
 
-$\zeta$-functions are [[function]] on parts of [[complex plane]], which look like [[generating functions]] for the counting of points in [[spaces]] in [[algebraic geometry]]. The archetypical and historically first example is the _[[Riemann zeta function]]_, which is 
+$\zeta$-functions are [[functions]] on parts of the [[complex plane]], which look like [[generating functions]] for the counting of points in [[spaces]] in [[algebraic geometry]]. The archetypical and historically first example is the _[[Riemann zeta function]]_, which is 
 
 $$
    \zeta \colon s \mapsto \underset{n = 1}{\sum}^\infty \frac{1}{n^s}
   \,.
 $$
 
-Under the [[function field analogy]] one may understnd this function in terms of couunting of points in $Spec(\mathbb{Z})$. This induces a plethora of generalizations: the _[[Dedekind zeta function]]_ generalizes this from [[integers]]/[[rational numbers]]  to [[number fields]]/their [[rings of integers]], the [[Goss zeta function]] to [[function fields]], the [[Weil zeta function]] (which is the topic of the famous [[Weil conjectures]]) to more general [[varieties]] over [[finite fields]], and the [[Selberg zeta function]] to [[complex curves]]([[Riemann surfaces]]). How all this hangs together is surveyes below in _[function field analogy](#FunctionFieldAnalogy)_.
+Under the [[function field analogy]] one may understand this function in terms of the counting of points in $Spec(\mathbb{Z})$. This induces a plethora of generalizations: the _[[Dedekind zeta function]]_ generalizes this from [[integers]]/[[rational numbers]]  to [[number fields]]/their [[rings of integers]], the [[Goss zeta function]] to [[function fields]], the [[Weil zeta function]] (which is the topic of the famous [[Weil conjectures]]) to more general [[varieties]] over [[finite fields]], and the [[Selberg zeta function]] to [[complex curves]]([[Riemann surfaces]]). How all this hangs together is surveyed below in _[function field analogy](#FunctionFieldAnalogy)_.
 
 
 This way many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]].  There are several articles trying to attach zeta functions attached to [[triangulated categories]] (and [[stable model categories]]...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for [[motives]]. 
@@ -24,7 +24,7 @@ This way many fields of [[mathematics]] have their own versions of _zeta functio
 ### Function field analogy
  {#FunctionFieldAnalogy}
 
-One way to understand the plethora of different zea functions is to see them as the incarnation of the same general concept in different flavors of [[geometry]]. This is expressed at least in parts by the
+One way to understand the plethora of different zeta functions is to see them as the incarnation of the same general concept in different flavors of [[geometry]]. This is expressed at least in parts by the
 
 [[!include function field analogy -- table]]
 
