@@ -25,8 +25,11 @@ In [[nonstandard analysis]], the __monad__ of a standard point $p$ in a [[topolo
 
 Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ringed space]]s for which the corresponding map $\bar{F}^\sharp:f^*\mathcal{O}_X\to\mathcal{O}_Y$ of sheaves on $Y$ is surjective. Let $\mathcal{I} = \mathcal{I}_f = Ker\bar{f}^\sharp$, then $\mathcal{O}_Y = f^\sharp(\mathcal{O}_X)/\mathcal{I}_f$. The ring $f^*(\mathcal{O}_Y)$ has the $\mathcal{I}$-preadic filtration which has the associated graded ring $Gr_\bullet =\oplus_{n} \mathcal{I}_f^n/\mathcal{I}^{n+1}_f$ which in degree $1$ gives the [[conormal sheaf]] $Gr_1 = \mathcal{I}_f/\mathcal{I}^2_f$ of $f$. The $\mathcal{O}_Y$-augmented ringed space $(Y,f^\sharp(\mathcal{O}_X)/\mathcal{I}^{n+1})$ is called the $n$-th __infinitesimal neighborhood__ of $Y$ along morphism $f$. Its structure sheaf is called the $n$-th normal invariant of $f$. 
 
+## Related concepts
 
-### References
+[[!include infinitesimal and local - table]]
+
+## References
 
 * [[A. Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique (r&#233;dig&#233;s avec la collaboration de Jean Dieudonn&#233;) : IV. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas, Quatri&#232;me partie_, Publications Math&#233;matiques de l'IH&#201;S __32__ (1967), p. 5-361, [numdam](http://www.numdam.org/item?id=PMIHES_1967__32__5_0)
 
