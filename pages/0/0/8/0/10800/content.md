@@ -65,7 +65,7 @@ $$
 
 =--
 
-The same definition holds for the [[[ring of adeles]] of any other [[global field]] $K$, here one writes
+The same definition holds for the [[ring of adeles]] of any other [[global field]] $K$, here one writes
 
 $$
   \mathbb{I}_K \coloneqq GL_1(\mathbb{A}_K)
