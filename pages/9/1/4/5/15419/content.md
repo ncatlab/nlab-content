@@ -73,7 +73,7 @@ Textbook accounts include
 
 * {#Roosen02} Michael Roosen, _Number theory in function fields_, Graduate texts in mathematics, 2002
 
-Tables showing the parallels between number fields and funciton fields are in
+Tables showing the parallels between number fields and function fields are in
 
 * {#Goss92} [[David Goss]] _Dictionary_, in David Goss, David R. Hayes, Michael Rosen (eds.) _The Arithmetic of Function Fields_, Ohio State Univ. Math. Res. Inst. Publ., 2, de Gruyter, Berlin, 1992,  pp. 475-482, 
 
@@ -81,11 +81,15 @@ Tables showing the parallels between number fields and funciton fields are in
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
-Discussion including also the complex-analytic side include
-
-* {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
-
-
 A collection of more recent developments is in
 
 * {#vdGeer05} van der Geer et al (eds.) _Number Fields and Function Fields &#8211; Two Parallel Worlds_, Birkh&#228;user 2005 ([publisher page](http://www.springer.com/birkhauser/mathematics/book/978-0-8176-4397-3))
+
+Discussion including also the complex-analytic side includes
+
+* {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
+
+and a comparison of the number theory to that of [[foliations]] is in 
+
+* {#Deninger07} [[Christopher Deninger]], _Analogies between analysis on foliated spaces and arithmetic geometry_ ([arXiv:0709.2801](http://arxiv.org/abs/0709.2801))
+
