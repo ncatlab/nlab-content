@@ -49,6 +49,7 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 * [[Weil conjecture on Tamagawa numbers]]
 
+* [[Borger's absolute geometry]]
 
 ## References
 
