@@ -19,12 +19,26 @@ Various phenomena in the context of  [[algebraic geometry]]/[[arithmetic geometr
 
 Motivated by such observations, [[Jacques Tits]] envisioned in ([Tits 57](#Tits57)) a new kind of geometry adapted to the explanation of these identities. [[Christophe Soulé]] then expanded on Tits' ideas by introducing the notion of _field with one element_ and studying its fine arithmetic invariants. While there is no field with a single element in the standard sense of _[[field]]_, the idea is that there is some other object, denoted $\mathbb{F}_1$, such that it does make sense to speak of "geometry over $\mathbb{F}_1$". Following the French pronunciation one also writes $F_{un}$ (and is thus led to the inevitable pun).
 
-A central motivation has been the suggestion in ([Manin 95](#Manin95)) that the [[Riemann hypothesis]] might be solved by finding an $\mathbb{F}_1$-[[analogy|analogue]] of [[André Weil]]'s proof for the case of [[arithmetic curves]] over the [[finite fields]] $\mathbb{F}_q$
+In the [[relative point of view]] the $S$-schemes are schemes with a morphism of schemes over a base scheme $S$; but every $S$-scheme is a scheme over $Spec(\mathbb{Z})$. In __absolute algebraic geometry__ all "generalized schemes" should live over $Spec(F_1)$ and $Spec(F_1)$ should live **below** $Spec(\mathbb{Z})$; this is similar to the fact that the quotient stacks like $[*/G]$ live below the single point $*$ (there is a direct image functor from sheaves on a point to sheaves over $[*/G]$). One of the principal and very bold hopes is that the study of $F_{un}$ should lead to a natural proof of [[Riemann conjecture]] (see also MathOverflow [here](http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry)). It was originally suggested by ([Manin 95](#Manin95)) that the [[Riemann hypothesis]] might be solved by finding an $\mathbb{F}_1$-[[analogy|analogue]] of [[André Weil]]'s proof for the case of [[arithmetic curves]] over the [[finite fields]] $\mathbb{F}_q$.
 
-A first proposal for what a [[variety]] "over $\mathbb{F}_1$" ought to be is due to ([Soul&#233; 04](#Soule)).  
+A first proposal for what a [[variety]] "over $\mathbb{F}_1$" ought to be is due to ([Soul&#233; 04](#Soule)).  After that a plethora of further proposals appeared,including ([Connes-Consani 08](#ConnesConsani08)). 
 
+## Borger's absolute geometry
+ {#BorgerAbsoluteGeometry}
 
-In the [[relative point of view]] the $S$-schemes are schemes with a morphism of schemes over a base scheme $S$; but every $S$-scheme is a scheme over $Spec(\mathbb{Z})$. In __absolute algebraic geometry__ all "generalized schemes" should live over $Spec(F_1)$ and $Spec(F_1)$ should live **below** $Spec(\mathbb{Z})$; this is similar to the fact that the quotient stacks like $[*/G]$ live below the single point $*$ (there is a direct image functor from sheaves on a point to sheaves over $[*/G]$). One of the principal and very bold hopes is that the study of $F_{un}$ should lead to a natural proof of [[Riemann conjecture]]; namely some attractive strategies to such a proof already exist (see MathOverflow [here](http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry)).
+Maybe an emerging consensus is that the preferred approach is [[Borger's absolute geometry]] ([Borger 09](#Borger09)). Here the structure of a [[Lambda-rings]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined therby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+
+$$
+  Et(Spec(\mathbb{Z}))
+   \stackrel{\overset{}{\longrightarrow}}{\stackrel{\overset{}{\longleftarrow}}{\underset{}{\longrightarrow}}}
+  Et(Spec(\mathbb{F}_1))
+  \,,
+$$
+
+where on the right the notation is just suggestive, the [[topos]] is a suitable one over [[Lambda-rings]]. Here the middle [[inverse image]] is the [[forgetful functor]] which forgets the Lambda structure, and its [[right adjoint]] [[direct image]] is given by the [[ring of Witt vectors]] construction.
+
+This proposal seems subsume many aspects of other existing prposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
+
 
 ## Function field analogy
 
@@ -69,14 +83,25 @@ pages 261{289. Etablissements Ceuterick, Louvain, 1957.
 
 * [[Alain Connes]], [[Caterina Consani]], [[Matilde Marcolli]], _Fun with $\mathbf{F}_1$_, [arxiv/0806.2401](http://arxiv.org/abs/0806.2401)
 
-* [[Alain Connes]], [[Caterina Consani]], _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, in: Noncommutative Geometry, Arithmetic, and Related Topics, 21st Meeting of the Japan-U.S. Math. Inst., Baltimore 2009, JHUP (2012), pp. 75&#8211;139, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [arxiv/1006.4810](http://arxiv.org/abs/1006.4810); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672); _Projective geometry in characteristic one and the epicyclic category_, [arxiv/1309.0406](http://arxiv.org/abs/1309.0406)
+* {#ConnesConsani08} [[Alain Connes]], [[Caterina Consani]], _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, in: Noncommutative Geometry, Arithmetic, and Related Topics, 21st Meeting of the Japan-U.S. Math. Inst., Baltimore 2009, JHUP (2012), pp. 75&#8211;139, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [arxiv/1006.4810](http://arxiv.org/abs/1006.4810); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672); _Projective geometry in characteristic one and the epicyclic category_, [arxiv/1309.0406](http://arxiv.org/abs/1309.0406)
 
 * [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/1108.2874)
 * Bora Yalkinoglu, _On Endomotives, Lambda-rings and Bost-Connes systems_,  With an appendix by Sergey Neshveyev, [arxiv/1105.5022](http://arxiv.org/abs/1105.5022)
 
-An approach in terms of [[Lambda-ring]]s is
+The approach in terms of [[Lambda-rings]] due to
 
-* [[James Borger]], _Lambda-rings and the field with one element_, [arXiv/0906.3146](http://arxiv.org/abs/0906.3146)
+* {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
+
+with details in
+
+* {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
+
+* {#Borger10} [[James Borger]], _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+
+More discussion relating to this includes
+
+* {#LeBruyn13} [[Lieven Le Bruyn]], _Absolute geometry and the Habiro topology_ ([arXiv:1304.6532](http://arxiv.org/abs/1304.6532))
+
 
 [[!redirects field of one element]]
 [[!redirects Fun]]
