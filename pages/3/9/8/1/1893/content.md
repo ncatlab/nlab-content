@@ -121,25 +121,81 @@ sending a commutative ring to the set of power series with constant term $1$ is 
 
 b) There is an [[adjunction]] $(forget\, \lambda\dashv \Lambda)$ where $forget\,\lambda: \lambda Ring\to CRing$ is the forgetful functor assigning to a $\lambda$-ring its underlying commutative ring.
 
-The left inverse $\g_{S,A}$ of the natural isomorphism $q_{S,A}:hom(forget\,\lambda,A)\to hom(S,\Lambda(A))$ is given by the [[ghost component]] $s_1$.
+The left inverse $\g_{S,A}$ of the natural isomorphism $q_{S,A}:hom(forget\,\lambda,A)\to hom(S,\Lambda(A))$ is given by the ghost component $s_1$.
+
+(see also ([Borger 08, section 1.8](#Borger08)))
+
 =--
 
 An instructive introduction to the "orthodox"- and preparation for the "heterodox" view (described below) on $\lambda$-rings is Hazewinkel's survey article on [[Witt vectors]], ([Hazewinkel](#Hazewinkel)). There is also a [[Hazewinkel, Witt vectors|reading guide]] to that article.
 
 
 ### The "heterodox" definition
+ {#HeterodoxDefinition}
 
-There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] used by [[James Borger]] in his paper [$\Lambda$-rings and the field with one element](http://arxiv.org/abs/0906.3146).  Quoting the abstract:
+There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] discussed in detail in ([Borger 08, section 1](#Borger08)). An survey is in ([Borger 09](#Borger09)) where it says in the abstract:
+
 
 >The theory of $\Lambda$-rings, in the sense of Grothendieck's Riemann--Roch theory, is an enrichment of the theory of commutative rings. In the same way, we can enrich usual [[algebraic geometry]] over the ring $\mathbf{Z}$ of integers to produce $\Lambda$-algebraic geometry. We show that $\Lambda$-algebraic geometry is in a precise sense an algebraic geometry over a deeper base than $\mathbf{Z}$ and that it has many properties predicted for algebraic geometry over the mythical [[field with one element]]. Moreover, it does this in a way that is both formally robust and closely related to active areas in arithmetic algebraic geometry.
 
-Let $p$ be a prime number. Recall that for any commutative ring $R$  the [[Frobenius morphism]] is defined by $F_R:x\mapsto x^p$.
 
-+-- {: .num_defn}
-###### Defiition
-Let $A$ be a commutative ring or a [[lambda ring]].
-A morphism $Fl:A\to A$ is called a *Frobenis lift* if the restriction $Fl \,|_{A/pA}$ of $Fl$ to the quotient ring is the [[Frobenius morphism]] $F_{A/pA}$.
+
+First some standard notation:
+
++-- {: .num_defn #FrobeniusMorphism}
+###### Definition
+
+For $p$ a [[prime number]] write $\mathbb{F}_p$ for the [[finite field]] whose underlying [[abelian group]] is the [[cyclic group]] $\mathbb{Z}/p\mathbb{Z}$.
+
+For $A$ an $\mathbb{F}_p$-[[associative algebra|algebra]], then the [[Frobenius endomorphism]] 
+
+$$
+  F_p \colon A \longrightarrow A
+$$
+
+is that given by taking each element to its $p$th power
+
+$$
+  F_p \colon x \mapsto x^p
+  \,.
+$$
+
 =--
+
+
++-- {: .num_defn #LambdaRingByFrobeniusLifts}
+###### Definition
+
+For $p$ a [[prime number]], then a _$p$-typical $\Lambda$-ring_ is 
+
+* a [[commutative ring]] $R$ 
+
+* equipped with an [[endomorphism]] $F_A \colon A \to A$
+
+such that under [[tensor product]] with $\mathbb{F}_p$ it becomes the [[Frobenius morphism]], def.\ref{FrobeniusMorphism}:
+
+$$
+  \mathbb{F}_p \otimes_{\mathbb{Z}} F_A
+  =
+  F_p 
+  \;
+   \colon 
+  \;
+  \mathbb{F}_p \otimes_{\mathbb{Z}} A
+   \longrightarrow  
+  \mathbb{F}_p \otimes_{\mathbb{Z}} A
+  \,.
+$$
+
+A _big $\Lambda$-ring_ is a commutative ring equipped with commuting endomorphisms, one for each prime number $p$, such that each of them makes the ring $p$-typical, respectively, as above.
+
+=--
+
+This is def. 1.7 in ([Borger 08](Borger08)), formulated for the special case of example 1.15 there (which is stated in terms of Witt vectors) and translated to $\Lambda$-rings in view of prop. 1.10 c) (see [the adjunction](#AdjointTriple)) there.
+
+
+> the following originates from revision 19 but needs attention
+
 
 +-- {: .num_example}
 ###### Example
@@ -200,7 +256,7 @@ The "heterodox" generalizes to arbitrary [[Dedekind domain|Dedekind domains]] wi
  {#FreeAndCofreeLambdaRings}
 
 
-+-- {: .num_prop}
++-- {: .num_prop #AdjointTriple}
 ###### Proposition
 
 The [[forgetful functor]]
@@ -228,15 +284,16 @@ Hence
 
 =--
 
-This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)). 
+This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)). The right adjoint in a more general context is in ([Borger 08, prop. 1.10 (c)](#Borger08)).
+
+
 
 +-- {: .num_remark}
 ###### Remark
 
-On the level of [[toposes]] over these [[sites]] of rings, this
-statement reappears as an [[essential geometric morphism]]
+On the level of [[toposes]] ([[etale toposes]]) over these [[sites]] of rings, this statement reappears as an [[essential geometric morphism]]
 from the [[etale topos]] of [[Spec(Z)]] to that over "[[F1]]"
-in [[Borger's absolute geometry]]. 
+in [[Borger's absolute geometry]] ([Borger 08](#Borger08), exposition in [Borger 09](#Borger09)).
 
 =--
 
@@ -261,10 +318,10 @@ in [[Borger's absolute geometry]].
 ## References
 
 
-* Hazewinkel, formal groups and applications
+* [[Michiel Hazewinkel]], _Formal groups and applications_
 
-* [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
-  {#Hazewinkel08}
+* {#Hazewinkel08} [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+  
 
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 
@@ -288,9 +345,17 @@ school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009
 
 * [[James Borger]]: Lambda-algebraic geometry 
 
+
 [conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
 
 [participants](http://www.lorentzcenter.nl/lc/web/2009/342/participants.php3?wsid=342)
+
+Discussion in the context of [[Borger's absolute geometry]] is in
+
+* {#Borger08} [[James Borger]], section 1 of _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
+
+
+* {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
 
 
 [[!redirects Lambda-ring]]
