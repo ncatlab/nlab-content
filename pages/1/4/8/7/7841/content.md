@@ -343,7 +343,7 @@ The [[Lubin-Tate ring]] in [[Lubin-Tate theory]]  is a [[power series]] ring ove
 
 As an Abelian group $W(A)$ is isomorphic to the group of curves in the one-dimensional [[multiplicative group|multiplicative formal group]]. In this way there is a Witt-vector-like Abelian-group-valued functor associated to every one-dimensional formal group. For special cases, such as the Lubin&#8211;Tate formal groups, this gives rise to ring-valued functors called ramified Witt vectors. ([eom](#eom))
 
-## Related Concepts
+## Related concepts
 
 * [[Witt Cohomology]]
 
@@ -352,6 +352,8 @@ As an Abelian group $W(A)$ is isomorphic to the group of curves in the one-dimen
 * [[Hochschild-Witt complex]] and Kaledin's non-commutative Witt vectors
 
 * [[Lubin-Tate ring]]
+
+* [[Borger's absolute geometry]]
 
 ## References
 
