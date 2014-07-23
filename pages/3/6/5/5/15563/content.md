@@ -3,9 +3,9 @@
 * table of contents
 {:toc}
 
-## IDea
+## Idea
 
-One proposal for a precise relaization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-rings]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined therby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+One proposal for a precise realization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
 
 $$
   Et(Spec(\mathbb{Z}))
@@ -16,7 +16,7 @@ $$
 
 where on the right the notation is just suggestive, the [[topos]] is a suitable one over [[Lambda-rings]]. Here the middle [[inverse image]] is the [[forgetful functor]] which forgets the Lambda structure, and its [[right adjoint]] [[direct image]] is given by the [[ring of Witt vectors]] construction.
 
-This proposal seems subsume many aspects of other existing prposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
+This proposal seems to subsume many aspects of other existing proposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
 
 ## References
 
