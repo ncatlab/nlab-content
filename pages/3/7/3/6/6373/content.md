@@ -1,4 +1,23 @@
-__Class field theory__ studies finite abelian extensions of [[number field]]s and of [[function field]]s. It clarifies the origin of various reciprocity laws in number theory. The basic (one dimensional) class field theory stems from the ideas of Kronecker and Weber, and results of Hilbert soon after them. Main results of the theory belong to the first half of the 20th century (Hilbert, Artin, Tate, Hasse...) and are quite different for the [[local field]] from the [[global field]] case. One of the basic objects the class group, is related to the [[Picard group]] in algebraic geometry. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+__Class field theory__ studies finite-dimensional abeliean [[field extensions]] of [[number fields]] and of [[function fields]], hence of [[global fields]] by relating them to the [[idele class group]].
+
+Class field theory clarifies the origin of various [[reciprocity]] laws in [[number theory]]. The basic (one dimensional) class field theory stems from the ideas of Kronecker and Weber, and results of Hilbert soon after them. Main results of the theory belong to the first half of the 20th century (Hilbert, Artin, Tate, Hasse...) and are quite different for the [[local field]] from the [[global field]] case. One of the basic objects the class group, is related to the [[Picard group]] in algebraic geometry. 
 Generalizations for higher dimensional fields came later under now active higher class field theory, which is usually formulated in terms of algebraic K-theory and is closely related to deep questions of algebraic geometry (Par&#353;in, Tate, Kato, Saito etc.).
 
 Given an algebraic [[number field]] $k$ one defines a (congruence divisor) class field group $A/H$ in $k$; according to Weber
@@ -6,6 +25,12 @@ Given an algebraic [[number field]] $k$ one defines a (congruence divisor) class
 > An algebraic extension $K/k$ is called a __class field__ to $A/H$, if exactly those prime divisors in $k$ of first degree which belong to the principal class $H$ split completely in $K$
 
 Some of the basic results of the class field theory are the Artin reciprocity theorem, existence theorem, uniqueness theorem, ordering theorem, Weber isomorphy theorem and the decomposition law of class field theory. 
+
+## Related concepts
+
+* [[Langlands correspondence]]
+
+## References
 
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
 
