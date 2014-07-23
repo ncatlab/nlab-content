@@ -1,0 +1,24 @@
+
+#Contents#
+* table of conntents
+{:toc}
+
+## Idea
+
+The [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]].
+
+The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1]]-[[topos]]:
+
+$$
+  Et(Spec(\mathbb{Z}))\longrightarrow Et(Spec(\mathbb{F}_1))
+$$
+
+## Properties
+
+### Function field anlogy
+
+
+[[!include function field analogy -- table]]
+
+[[!redirects Et(Spec(Z))]]
+
