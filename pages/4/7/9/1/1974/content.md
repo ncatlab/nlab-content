@@ -256,5 +256,8 @@ see
 
 * section 2: _The Grothendieck group $K_0$_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf))
 
+See also
+
+* [The Grothendieck Construction](http://online.itp.ucsb.edu/online/ktheory/wu/) (UCSB ITP Seminar)
 
 [[!redirects Grothendieck groups]]
