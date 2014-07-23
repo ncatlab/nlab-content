@@ -1,0 +1,39 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## IDea
+
+One proposal for a precise relaization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-rings]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined therby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+
+$$
+  Et(Spec(\mathbb{Z}))
+   \stackrel{\overset{}{\longrightarrow}}{\stackrel{\overset{}{\longleftarrow}}{\underset{}{\longrightarrow}}}
+  Et(Spec(\mathbb{F}_1))
+  \,,
+$$
+
+where on the right the notation is just suggestive, the [[topos]] is a suitable one over [[Lambda-rings]]. Here the middle [[inverse image]] is the [[forgetful functor]] which forgets the Lambda structure, and its [[right adjoint]] [[direct image]] is given by the [[ring of Witt vectors]] construction.
+
+This proposal seems subsume many aspects of other existing prposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
+
+## References
+
+* {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
+
+with details in
+
+* {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
+
+* {#Borger10} [[James Borger]], _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+
+More discussion relating to this includes
+
+* {#LeBruyn13} [[Lieven Le Bruyn]], _Absolute geometry and the Habiro topology_ ([arXiv:1304.6532](http://arxiv.org/abs/1304.6532))
+
+
+[[!redirects Borger absolute geometry]]
+
+[[!redirects Borger geometry]]
+[[!redirects Borger geometries]]
