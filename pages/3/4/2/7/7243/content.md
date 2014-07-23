@@ -114,8 +114,8 @@ $$
 
 is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mathbb{Z}\to \mathbb{Z}_p\to \mathbb{Z}/(p)$.
 
-This plays a central role for instance in the [[fucntion field analogy]].
-It is highlighted for instance in ([Buium 13, section 1.1.3](#Buium13)). 
+This plays a central role for instance in the [[function field analogy]].
+It is highlighted for instance in ([Hartl 06, 1.1](Hartl06), [Buium 13, section 1.1.3](#Buium13)). See also at _[[arithmetic jet space]]_ and at _[[ring of Witt vectors]]_.
 
 [[!include infinitesimal and local - table]]
 
@@ -154,6 +154,8 @@ Introductions and surveys include
 * {#Lenstra} [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  
 The [[synthetic differential geometry]]-aspect of the $p$-adic numbers is highlighted for instance in 
+
+* {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
 * {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194))
 
