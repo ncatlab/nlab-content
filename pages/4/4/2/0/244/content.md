@@ -155,6 +155,10 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 [[!include structure on algebras and their module categories - table]]
 
+### Grothendieck ring
+
+The [[Grothendieck group]] of a [[monoidal category]] naturally has the structure of a [[monoid]], of an [[abelian category|abelian]] monoidal category that of a [[ring]], of an abelian [[braided monoidal category]] that of a [[commutative ring]] and, finally, of an abelian symmetric monoidal category that of a _[[Lambda-ring]]_. See there for more.
+
 ### Internal logic
 
 The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoidal categories is called _[[linear logic]]_. This notably contains [[quantum logic]].
