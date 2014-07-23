@@ -16,7 +16,7 @@
 
 ## Idea
 
-Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] $Spec(\mathbb{Z})$ of the [[commutative ring]] of [[integers]]. More generally often [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
+Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] [[Spec(Z)]] of the [[commutative ring]] of [[integers]]. More generally often [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
 
 An archetypical application of arithmetic geometry is the study of [[elliptic curves]] over the [[integers]] and the [[rational numbers]].
 
@@ -25,6 +25,15 @@ For [[number theory|number theoretic]] purposes, i.e. in actual [[arithmetic]]; 
 The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geometry]]).
 
 ## Properties
+
+### Base over $\mathbb{F}_1$
+
+Arithmetic geometry naturally has as [[base topos]] the topos over [[F1]] in the sense of [[Borger's absolute geometry]], which gives an [[essential geometric morphism]] of [[etale toposes]]
+
+$$
+  Et(Spec(\mathbb{Z}))  \longrightarrow Et(Spec(\mathbb{F}_1))
+  \,.
+$$
 
 ### Function field analogy
 
@@ -50,6 +59,8 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 * [[Weil conjecture on Tamagawa numbers]]
 
 * [[Borger's absolute geometry]]
+
+* [[arithmetic jet space]]
 
 ## References
 
