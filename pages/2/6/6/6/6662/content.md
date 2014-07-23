@@ -1,11 +1,43 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
-## Frobenius morphism of fields
 
-Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by 
+## Idea 
+
+In [[number theory]], [[Galois theory]] and [[arithmetic geometry]] in [[prime number|prime]] [[characteristic]] $p$, the _Frobenius morphism_ is the [[endomorphism]] acting on [[algebras]], [[function algebras]], [[structure sheaves]] etc., which takes each [[ring]]/[[associative algebra|algebra]]-element $x$ to its $p$th power 
+
+$$
+  x^p = \underbrace{x \cdot x \cdots x}_{p \; factors}
+  \;.
+$$
+
+It is precisely in [[characteristic]] $p$ that this operation is indeed an algebra [[homomorphism]]
+
+The presence of the Frobenius endomorphism in characteristic $p$ is a fundamental property in [[arithmetic geometry]] that controls many of its deep aspects. Notably [[zeta functions]] are typically expressed in terms of the [[action]] of the Frobenius endomorphisms on [[cohomology groups]] and so it features prominently for instance in the [[Weil conjectures]].
+
+In [[Borger's absolute geometry]] lifts of Frobenius endomorphisms through [[base change]] for all primes at once -- in the sense of _[Lambda-ring structure](Lambda-ring#LambdaRingByFrobeniusLifts)_ -- is interpreted as encoding [[descent]] data from traditional [[arithmetic geometry]] over [[Spec(Z)]] down to the "absolute" geometry over "[[F1]]".
+ 
+
+
+## Definition
+
+> this entry may need attention
+
+## For fields
+
+Let $k$ be a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F \colon k \to k$ defined by 
 
 $$
   F(a) \coloneqq  a^p
@@ -14,17 +46,8 @@ $$
 
 Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a^p b^p$ evidently holds for all $a,b\in k$ and the [[characteristic]] of the field is used to show $(a+b)^p=a^p+b^p$. 
 
-### Properties
+### Of schemes
 
-* Frobenius is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
-
-* The [[image]] of Frobenius is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
-
-* Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
-
-## Frobenius morphism of schemes
-
-### In terms of schemes as locally ringed spaces
 
 Suppose $(X,\mathcal{O}_X)$ is an $S$-[[scheme]] where $S$ is a [[scheme]] over $k$. The **absolute Frobenius** is the map $F^{ab}:(X,\mathcal{O}_X)\to (X,\mathcal{O}_X)$ which is the identity on the [[topological space]] $X$ and on the structure sheaves $F_*:\mathcal{O}_X\to \mathcal{O}_X$ is the $p$-th power map. This is not a map of $S$-schemes in general since it doesn't respect the structure of $X$ as an $S$-scheme, i.e. the diagram:
 
@@ -36,15 +59,7 @@ so in order for the map to be an $S$-scheme morphism, $F^{ab}$ must be the ident
 
 Now we can form the [[fiber product]] using this square: $X^{(p)}:=X\times_{S} S$. By the universal property of [[pullback]]s there is a map $F^{rel}:X\to X^{(p)}$ so that the composition $X\to X^{(p)}\to X$ is $F^{ab}$. This is called the **relative Frobenius**. By construction the relative Frobenius is a map of $S$-schemes.
 
-### Properties
-
-For the purposes below $k$ will be a [[perfect field]] of [[characteristic]] $p$>$0$.
-
-* $X$ is [[smooth scheme|smooth]] over $k$ if and only if $F$ is a [[vector bundle]], i.e. $F_*\mathcal{O}_X$ is a free $\mathcal{O}_X$-module of rank $p$. One can study singularities of $X$ by studying properties of $F_*\mathcal{O}_X$.
-
-* If $X$ is [[smooth scheme|smooth]] and [[proper scheme| proper]] over $k$, the sequence $0\to \mathcal{O}_X\stackrel{F^{ab}}{\to} F_*\mathcal{O}_X \to d\mathcal{O}_X\to 0$ is exact and if it [[split exact sequence|splits]] then $X$ has a lifting to $W_2(k)$.
-
-### In terms of schemes as sheaves on $C Ring ^{op}$
+### For sheaves on $C Ring ^{op}$
 
 Let $p$ be a prime number, let $k$ be a field of characteristic $p$. For a $k$-ring $A$ we define
 
@@ -79,7 +94,7 @@ If $X$ is a $k$-scheme $X^{(p)}$ is a $k$-scheme, too.
 
 Since the completion functor ${}^\hat\;:Sch_k\to fSch_k$ commutes with the above constructions the Frobenius morphism can be defined for [[formal scheme|formal k-schemes]], too.
 
-#### In terms of symmetric products
+### In terms of symmetric products
 
 We give here another characterization of the [[Frobenius morphism]] in terms of symmetric products.
 
@@ -125,7 +140,25 @@ X^p
 &\stackrel{can}{\to}& S^p X
 }$$
 
-### Properties
+## Properties
+
+### For fields
+
+* Frobenius is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
+
+* The [[image]] of Frobenius is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
+
+* Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
+
+
+### For schemes
+
+For the purposes below $k$ will be a [[perfect field]] of [[characteristic]] $p$>$0$.
+
+* $X$ is [[smooth scheme|smooth]] over $k$ if and only if $F$ is a [[vector bundle]], i.e. $F_*\mathcal{O}_X$ is a free $\mathcal{O}_X$-module of rank $p$. One can study singularities of $X$ by studying properties of $F_*\mathcal{O}_X$.
+
+* If $X$ is [[smooth scheme|smooth]] and [[proper scheme| proper]] over $k$, the sequence $0\to \mathcal{O}_X\stackrel{F^{ab}}{\to} F_*\mathcal{O}_X \to d\mathcal{O}_X\to 0$ is exact and if it [[split exact sequence|splits]] then $X$ has a lifting to $W_2(k)$.
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -143,15 +176,6 @@ $$\hat D(V_G)=F_{\hat D(G)}$$
 
 For a more detailed account of the relationship of Frobenius-, [[Verschiebung morphism|Verschiebung-]] and [[homothety morphism]] see [Hazewinkel](#Hazewinkel)
 
-## Frobenius morphism of $\lambda$-rings
-
-### Examples
-
-If $X=Sp_k A$ is a $k$-ring spectrum we have $X^{(p)}=Sp_k A^{(p)}$ and $F_X=Sp_k F_A$.
-
-If $k=\mathbb{F}$ is a finite field we have $X^{(p)}=X$ however $F_X$ will not equal $id_X$ in general.
-
-If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\prime}=F_X\otimes_k k^\prime$.
 
 ## Related concepts
 
@@ -165,7 +189,7 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 * Michel Demazure, [[lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
-* Michiel Hazewinkel, witt vectors. part 1, [arXiv:0804.3888v1](http://arxiv.org/abs/0804.3888v1){#Hazewinkel}
+* [[Michiel Hazewinkel]], witt vectors. part 1, [arXiv:0804.3888v1](http://arxiv.org/abs/0804.3888v1){#Hazewinkel}
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
