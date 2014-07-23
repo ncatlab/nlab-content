@@ -56,7 +56,7 @@ For $X \in \mathbf{H}_{th}$ any object in a [[differential cohesion|differential
 
 1. the [[structure (∞,1)-sheaf]] $\mathcal{O}_{X}$ of $X$.
 
-The resulting structure is essentially that discussed ([Lurie, Structured Spaces](#Lurie)) if we regard $\mathbf{H}_{th}$ equipped with its formally &#233;tale morphisms, def. \ref{FormallyEtaleInHTh}, as a ([[large category|large]]) [[geometry for structured (∞,1)-toposes]]. 
+The resulting structure is essentially that discussed ([Lurie, Structured Spaces](#Lurie)) if we regard $\mathbf{H}_{th}$ equipped with its formally &#233;tale morphisms, ([def.](differential+cohesive+%28infinity%2C1%29-topos#FormallyEtaleInHTh)), as a ([[large category|large]]) [[geometry for structured (∞,1)-toposes]]. 
 
 One way to motivate this is to consider structure sheaves of flat differential forms. To that end, let $G \in Grp(\mathbf{H}_{th})$ a differential cohesive [[∞-group]] with [de Rham coefficient object](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology) $\flat_{dR}\mathbf{B}G$ and for $X \in \mathbf{H}_{th}$ any differential homotopy type, the product projection 
 
