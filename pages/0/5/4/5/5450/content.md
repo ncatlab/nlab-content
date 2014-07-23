@@ -74,7 +74,7 @@ $$
   (\mathbf{H}_{th})_{/X}^{fet} \hookrightarrow (\mathbf{H}_{th})_{/X}
 $$
 
-of the formally &#233;tale maps of def. \ref{FormallyEtaleInHTh} into $X$. Since on formally &#233;tale covers the sections should be those given by $\flat_{dR}\mathbf{B}G$, one finds that the corresponding "cotangent bundle" must be the [[coreflective subcategory|coreflection]] along this inclusion. The following proposition establishes that this coreflection indeed exists.
+of the formally &#233;tale maps (see [def.](differential+cohesive+%28infinity%2C1%29-topos#FormallyEtaleInHTh)) into $X$. Since on formally &#233;tale covers the sections should be those given by $\flat_{dR}\mathbf{B}G$, one finds that the corresponding "cotangent bundle" must be the [[coreflective subcategory|coreflection]] along this inclusion. The following proposition establishes that this coreflection indeed exists.
 
 
  
@@ -87,7 +87,7 @@ $$
   (\mathbf{H}_{th})^{fet}_{/X} \hookrightarrow (\mathbf{H}_{th})_{/X}
 $$ 
 
-for the full [[sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] over $X$ on those maps into $X$ which are formally &#233;tale, def. \ref{FormallyEtaleInHTh}.
+for the full [[sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] over $X$ on those maps into $X$ which are formally &#233;tale, (see [def.](differential+cohesive+%28infinity%2C1%29-topos#FormallyEtaleInHTh)).
 
 We also write $FEt_{\mathbf{X}}$ or $Sh_{\mathbf{H}}(X)$ for $(\mathbf{H}_{th})_{/X}^{fet}$.
 
