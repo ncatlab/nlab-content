@@ -15,6 +15,8 @@
 |   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
 |   | $\mathbb{A}_{\mathbb{Q}} = \underset{p\; place}{\prod^\prime}\mathbb{Q}_p$ ([[ring of adeles]])  | $\mathbb{A}_{\mathbb{F}_q((t))}$  ( [adeles of function field](ring%20of%20adeles#ForAGlobalField) ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} \mathbb{C}((t-x))$ ([[restricted product]] of holomorphic functions on all punctured formal disks, finitely of which do not extend to the unpunctured disks) |
 |   | $\mathbb{I}_{\mathbb{Q}} = GL_1(\mathbb{A}_{\mathbb{Q}})$ ([[group of ideles]])  | $\mathbb{I}_{\mathbb{F}_q((t))}$  ( [[group of ideles|ideles of function field]] ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} GL_1(\mathbb{C}((t-x)))$   |
+| **zeta functions**  |  |  |  |
+|   |  [[Riemann zeta function]] | [[Goss zeta function]] | |
 | **branched covering curves**  |  |  |  |
 |   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a possibly [[ramified]] [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 |   | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
@@ -32,4 +34,4 @@
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
-|   |  [[Dedekind zeta function]] ([[Riemann zeta function]] for $K = \mathbb{Q}$) | [[Weil zeta function]], [[Goss zeta function]] | [[zeta function of a Riemann surface]] |
+|   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]] |
