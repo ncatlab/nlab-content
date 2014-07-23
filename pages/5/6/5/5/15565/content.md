@@ -1,0 +1,71 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An analog of [[jet spaces]] in [[arithmetic geometry]].
+
+## Definition
+ {#Definition}
+
+Notice that, by the discussion there, the [[p-adic integers]] $\mathbb{Z}_p$ are the analog in [[arithmetic geometry]] of a [[formal power series]] ring (around the point $p \in$ [[Spec(Z)]]), hence their [[formal spectrum]] $Spf(\mathbb{Z}_p)$ is an incarnation in [[arithmetic geometry]] of an abstract [[formal disk]]. Therefore in the sense of [[synthetic differential geometry]] the $p$-[[formal neighbourhood]] of any [[arithmetic scheme]] $X$ around a global point $x \colon Spec(\mathbb{Z}) \to X$ is the space of lifts
+
+$$
+  \array{
+    Spf(\mathbb{Z}_p)  && \stackrel{\hat x}{\longrightarrow}&& X
+    \\
+    & \searrow &&  \swarrow
+    \\
+    && Spec(\mathbb{Z})
+  }
+  \,.
+$$
+
+The following definition says essentially this, but further sends the resulting space to [[F1]]-geometry in the sense of [[Borger's absolute geometry]]:
+ 
+For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is
+
+$$
+  J(X)= (W_n)_\ast( X \underset{Spec(\mathbb{Z})}{\times} Spec(\mathbb{Z}_p) )
+  \,,
+$$
+
+where $(W_n)_\ast$ is the [[ring of Witt vectors]]-construction, the [[direct image]] of [[Borger's absolute geometry]] $Et(Spec(\mathbb{Z})) \to Et(Spec(\mathbb{F}_1))$.
+
+The definition is originally due to ([Buium 96, section 2](#Buium96), [Buium 05](#Buium05)). The above formulation is in ([Borger 10, (12.8.2)](#Borger10)).
+
+
+## References
+
+The original articles are
+
+* {#Buium96} [[Alexandru Buium]], _Geometry of $p$-jets. Duke Math. J., 82(2):349&#8211;367, 1996.
+
+* {#Buium05} [[Alexandru Buium]], _Arithmetic differential equations_, volume 118 of Mathematical Surveys and Monographs. American Mathematical Society, Providence, RI, 2005.
+
+Introduction and survey is in 
+
+* {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slighly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
+
+Discussion in the context of [[Borger's absolute geometry]] over [[F1]] is in 
+
+* {#Borger10} [[James Borger]],  _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+
+
+[[!redirects arithmetic jet spaces]]
