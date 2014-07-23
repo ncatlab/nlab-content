@@ -44,7 +44,9 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[natural number]], [[rational number]], [[real number]]
 
-* [[ring of integers]]
+* [[algebraic integer]], [[ring of integers]]
+
+* [[Spec(Z)]]
 
 ## References
 
