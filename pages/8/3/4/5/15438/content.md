@@ -54,4 +54,6 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). pp.298f.
 
+* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. pp.155, 158.
+
 * Sam Staton, _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
