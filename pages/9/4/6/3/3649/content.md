@@ -29,6 +29,8 @@ The notion of jet space or _[[jet bundle]]_ is a generalization of the notion of
 
 * [[h-principle]]
 
+* &#237;n [[arithmetic geometry]]: [[arithmetic jet space]]
+
 ## References
 
 Jet bundles were first introduced by [[Charles Ehresmann]].
