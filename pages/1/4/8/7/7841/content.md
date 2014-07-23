@@ -408,6 +408,13 @@ Review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in
 
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
+In the context of [[Borger's absolute geometry]]:
+
+* {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
+
+* {#Borger10} [[James Borger]], _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+
+
 [[!redirects rings of Witt vectors]]
 [[!redirects rings of Witt-vectors]]
 
