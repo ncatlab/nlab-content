@@ -28,6 +28,88 @@ where on the right the notation is just suggestive, the [[topos]] is a suitable 
 
 This proposal seems to subsume many aspects of other existing proposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
 
+## Definition
+
+> under construction
+
+Write [[CRing]] for the [[category]] of (finitely generated) [[commutative rings]]and $\Lambda Ring$ for that of [[Lambda-rings]].
+
+By the discussion at _[here](Lambda-ring#FreeAndCofreeLambdaRings)_
+the [[forgetful functor]]
+$U \;\colon\; \Lambda Ring \longrightarrow CRing$
+from [[Lambda-rings]] to [[commutative rings]] has 
+
+* a [[left adjoint]], given by forming the ring $Symm$ of [[symmetric functions]];
+
+* a [[right adjoint]] given by forming the [[ring of Witt vectors]] $W$.
+
+$$
+  (Symm \dashv U \dashv W)
+  \;\colon\;
+  \Lambda Ring
+   \stackrel{\overset{Symm}{\leftarrow}}{\stackrel{\overset{U}{\longrightarrow}}{\underset{W}{\leftarrow}}}
+  CRing
+  \,.
+$$
+
+Hence 
+
+* [[rings of Witt vectors]] are the _[[co-free functors|co-free]] Lambda-rings;
+
+* rings of [[symmetric functions]] are the [[free construction|free]] Lambda-rings.
+
+Write $Spec(\mathbb{Z})_{et}$ for $CRing^{op}$ equipped with the [[etale topology]]. Hence
+
+$$
+  Et(Spec(\mathbb{Z}))
+  \coloneqq
+  Sh(Spec(\mathbb{Z})_{et})
+$$
+
+is the [[gros topos|gros]] [[etale topos]] of [[arithmetic geometry]]. 
+
+Put a compatible [[Grothendieck topology]] on $\Lambda Ring^{op}$(...) and write the resulting [[site]] $Spec(\mathbb{F}_1)_{et}$.
+
+In analogy we write
+
+$$
+  Et(Spec(\mathbb{F}_1))
+  \coloneqq
+  Sh(Spec(\mathbb{F}_1)_{et})
+$$
+
+and speak of the "[[etale topos]] over $Spec(\mathbb{F}_1)$", or the "absolute [[base topos]]" or something like this. 
+
+> ah, maybe this differs from what Borger does. Check.
+
+
+
+
+The above [[adjoint triple]] induces an adjoint quadruple of functions on the [[categories of presheaves]]
+
+$$
+  PSh(Spec(\mathbb{Z})_{et})
+  \stackrel{\longleftarrow}\stackrel{\longrightarrow}{\stackrel{\longleftarrow}{\stackrel{\longrightarrow}{\longleftarrow}}}
+  PSh(Spec(\mathbb{F}_1)_{et})
+$$
+
+The middle three of these restrict to sheaves, Borger shows. 
+But then so will the top one (...)
+
+$$
+  Et(Spec(\mathbb{Z}))
+  =
+  Sh(Spec(\mathbb{Z})_{et})
+  \stackrel{\longleftarrow}\stackrel{\longrightarrow}{\stackrel{\longleftarrow}{\stackrel{\longrightarrow}{}}}
+  Sh(Spec(\mathbb{F}_1)_{et})
+  =
+  Et(Spec(\mathbb{F}_1))
+$$
+
+
+
+
+
 ## References
 
 * {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
