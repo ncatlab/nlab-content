@@ -1,14 +1,11 @@
 
-# General Discussion #
+# General Discussion
 
-Below we used to discuss general issues concerning the $n$Lab. But it seems that we found a consensus that _discussion_ (as opposed to incremenetal work on entries) is best hosted at the blog, not the wiki. So now you are encouraged to post any messages concerning the $n$Lab community to:
+Below we used to discuss general issues concerning the $n$Lab. But it seems that we found a consensus that _discussion_ (as opposed to incremental work on entries) is best hosted at the blog, not the wiki. So now you are encouraged to post any messages concerning the $n$Lab community to:
 * the blog entry [nLab -- General Discussion](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html), or
 * the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)
 
 This probably means that you should **not edit this page here** any further. If you want to follow up on a discussion that started below, consider summarizing the state of the discussion at the above blog entry and then post your contribution there.
-
-
-(Note that in 2014 this page was spammed, and its name may have been accidently changed in the clean up.)
 
 -----------------------
 
@@ -128,7 +125,7 @@ Please settle on something that everyone likes and the (and only then) add it to
 
 I'm quite fond of messing around with colours, etc. and without this feature I feel a bit deflated :-)
 
-For instance, I think it would be great to use CSS so as to style downloadable documents correctly, as [explained here](http://senetico.pl). The idea is that every pdf link will have a tiny pdf icon next to it, and more importantly every n-category cafe link will have a tiny n-category cafe logo next to it; the same for arXiv links, etc.
+For instance, I think it would be great to use CSS so as to style downloadable documents correctly, as [explained here](http://reference.sitepoint.com/css/css3attributeselectors). The idea is that every pdf link will have a tiny pdf icon next to it, and more importantly every n-category cafe link will have a tiny n-category cafe logo next to it; the same for arXiv links, etc.
 
 Another thing I'd like to try in CSS is to set Georga (a serif font) as the main text (and math) font for the $n$Lab. Try it for a few days and see. 
 
@@ -176,7 +173,7 @@ But, you know. This requires work. And time. We'll get there.
 +-- {: commentbruce}
 _Bruce says:_ Ok I've uploaded the new stylesheet tweaks. Now if you link to an arXiv, n-category cafe, pdf, or a _page_ inside a pdf file, a little icon will appear, like this:
 
- [arXiv link](http://arxiv.org/abs/q-alg/9503002), [n-category caf&#233; link](http://golem.ph.utexas.edu/category/2008/11/tom_leinster_in_the_reasoner.html#c020641), [pdf file](http://dieta-dukanaa.pl), [_page_ in pdf file](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf#page=4). 
+ [arXiv link](http://arxiv.org/abs/q-alg/9503002), [n-category caf&#233; link](http://golem.ph.utexas.edu/category/2008/11/tom_leinster_in_the_reasoner.html#c020641), [pdf file](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf), [_page_ in pdf file](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf#page=4). 
 
 If you _don't_ want that icon to appear (I can imagine a number of reasons why not), there is a temporary workaround: capitalize one of the important letters:
 
@@ -911,13 +908,17 @@ As far as the level of discussion, my opinion is that we should avoid duplicatin
 
 Now that I think of it, there already is an nLab article on the nCafe which is suitable as a General Discussion and some questions I asked here should have probably been asked there. Sorry about that. This page could serve as a summary of anything there worth keeping.
 
-+--{.query}
-This very discussion is [schudnac](http://dieta-na-mase.in/jak-szybko-schudnac)!
++-- {: .query}
+This very discussion is [now at the Caf&#233;](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html)!
 =--
 
 _[[John Baez|John]] says:_ Okay, good: move most of the General Discussion to the $n$Caf&eacute;!  
 
-This General Discussion page has, embedded in the general discussion, a number of important how-to tips and useful conventions (like how to spell $n$-category).  <i>This</i> stuff deserves a page or two here at the $n$Lab.  Maybe some energetic young person can create that.   
+This General Discussion page has, embedded in the general discussion, a number of important how-to tips and useful conventions (like how to spell $n$-category).  *This* stuff deserves a page or two here at the $n$Lab.  Maybe some energetic young person can create that.  [[HowTo]] 
+
 
 category: meta
 
+[[!redirects general discussion]]
+[[!redirects General discussion]]
+[[!redirects General Discussion]]
