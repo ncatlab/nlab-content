@@ -1,4 +1,4 @@
-I am a C.L.E. Moore instructor and NSF postdoc at MIT. I study the interactions of topology, higher category theory, and quantum field theory. Preprints,  papers, and more details can be found on my [website](http://sites.google.com/site/chrisschommerpriesmath/Home).
+I am an advanced researcher at the Max Planck Institute for Mathematics, Bonn. I study the interactions of topology, higher category theory, and quantum field theory. Preprints,  papers, and more details can be found on my [website](http://sites.google.com/site/chrisschommerpriesmath/Home).
 
 
 ## Slides and talks
