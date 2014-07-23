@@ -29,4 +29,7 @@ Like the [[Weil zeta function]].
 
 * Wikipedia, _[Goss zeta function](http://en.wikipedia.org/wiki/Goss_zeta_function)_
 
+* Jeffrey T. Sheats, _The Riemann Hypothesis for the Goss zeta function for $\mathbb{F}_q[T]$_ ([arXiv:math/9801158](http://arxiv.org/abs/math/9801158))
+
+
 [[!redirects Goss zeta functions]]
