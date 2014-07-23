@@ -2003,6 +2003,12 @@ $$
 
 (...)
 
+The discussion at _[synthetic differential ∞-groupoid -- Lie differentiation](synthetic+differential+infinity-groupoid#LieDifferentiation)_ immediately generalizes to produce a concept of Lie differentiation in any differentially cohesive context. This Lie differentiation is just the flat modality of the differential cohesion but regarded as cohesive over its induced [[infinitesimal cohesion]]. As such, there is a left adjoint to Lie differentiation, given by the corresponding shape modality. However, the substance of Lie theory here will be to restrict this adjunction to [[geometric ∞-stacks]]. On the geometric $\infty$-stacks the Lie differentiation via passage to inffinitesimal cohesion will yield actual $L_\infty$-algebras, but some structure is required to make the formal [[Lie integration]] of these lang indeed in [[geometric ∞-stacks]].
+
+
+(...)
+
+
 
 #### Deformation theory 
  {#StrucDeformationTheory}
@@ -2033,7 +2039,12 @@ $$
 
 (...)
 
-(...)
+#### Idelic structure
+
+
+See at _[[differential cohesion and idelic structure]]_.
+
+
 
 ## Examples
 
