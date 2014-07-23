@@ -73,11 +73,18 @@ Textbook accounts include
 
 * {#Roosen02} Michael Roosen, _Number theory in function fields_, Graduate texts in mathematics, 2002
 
-Reviews and lecture notes include
+Tables showing the parallels between number fields and funciton fields are in
+
+* {#Goss92} [[David Goss]] _Dictionary_, in David Goss, David R. Hayes, Michael Rosen (eds.) _The Arithmetic of Function Fields_, Ohio State Univ. Math. Res. Inst. Publ., 2, de Gruyter, Berlin, 1992,  pp. 475-482, 
+
+* {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
+
+* {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
+
+Discussion including also the complex-analytic side include
 
 * {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
-* {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
 
 A collection of more recent developments is in
 
