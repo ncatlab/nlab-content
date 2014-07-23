@@ -129,7 +129,7 @@ An instructive introduction to the "orthodox"- and preparation for the "heterodo
 
 ### The "heterodox" definition
 
-There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] used by James Borger in his paper [$\Lambda$-rings and the field with one element](http://arxiv.org/abs/0906.3146).  Quoting the abstract:
+There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] used by [[James Borger]] in his paper [$\Lambda$-rings and the field with one element](http://arxiv.org/abs/0906.3146).  Quoting the abstract:
 
 >The theory of $\Lambda$-rings, in the sense of Grothendieck's Riemann--Roch theory, is an enrichment of the theory of commutative rings. In the same way, we can enrich usual [[algebraic geometry]] over the ring $\mathbf{Z}$ of integers to produce $\Lambda$-algebraic geometry. We show that $\Lambda$-algebraic geometry is in a precise sense an algebraic geometry over a deeper base than $\mathbf{Z}$ and that it has many properties predicted for algebraic geometry over the mythical [[field with one element]]. Moreover, it does this in a way that is both formally robust and closely related to active areas in arithmetic algebraic geometry.
 
@@ -246,6 +246,8 @@ This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)).
 
 * [[Witt vector]]
 
+* [[Borger's absolute geometry]]
+
 
 ## References
 
@@ -268,14 +270,14 @@ This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)).
 
 school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009 featuring 
 
-* Pierre Cartier: Lambda-rings and Witt vectors
+* [[Pierre Cartier]]: Lambda-rings and Witt vectors
 
 
-* Lars Hesselholt: The de Rham-Witt complex
+* [[Lars Hesselholt]]: The de Rham-Witt complex
 
 * Alexandru Buium: Arithmetic differential equations
 
-* James Borger: Lambda-algebraic geometry 
+* [[James Borger]]: Lambda-algebraic geometry 
 
 [conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
 
