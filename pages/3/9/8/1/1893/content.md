@@ -230,6 +230,15 @@ Hence
 
 This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)). 
 
++-- {: .num_remark}
+###### Remark
+
+On the level of [[toposes]] over these [[sites]] of rings, this
+statement reappears as an [[essential geometric morphism]]
+from the [[etale topos]] of [[Spec(Z)]] to that over "[[F1]]"
+in [[Borger's absolute geometry]]. 
+
+=--
 
 
 
