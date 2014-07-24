@@ -523,3 +523,6 @@ and further discussion, including also that of [[(infinity,1)-monads]] is in
 
 [[!redirects (∞,1)-adjunction]]
 [[!redirects (∞,1)-adjunctions]]
+
+[[!redirects adjoint infinity-functor]]
+[[!redirects adjoint infinity-functors]]
