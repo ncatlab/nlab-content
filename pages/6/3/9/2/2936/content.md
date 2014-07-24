@@ -37,7 +37,7 @@ In particular, the [[Hilbert cube]] $[0, 1]^\mathbb{N}$ is Polish.
 Any Polish space is homeomorphic to a subspace of the Hilbert cube. 
 =-- 
 
-In fact, this is true of any [[separable space]]. What distinguishes Polish spaces is that they are, up to homeomorphism, precisely the _$G_\delta$ subsets_ of the Hilbert cube. 
+In fact, this is true of any [[separable space|separable metrizable space]]. Note that mere separability does not suffice, as there are separable spaces that are not first-countable, such as the Stone-&#268;ech compactification of $\N$, and hence cannot be subspaces of any metrizable space. What distinguishes Polish spaces is that they are, up to homeomorphism, precisely the _$G_\delta$ subsets_ of the Hilbert cube. 
 
 +-- {: .num_lemma #baire} 
 ###### Lemma 
