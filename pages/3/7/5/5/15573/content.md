@@ -1,0 +1,7 @@
+
+**[[Bousfield localization of spectra|localization]] [[localization of a space|of spaces/spectra]] at $E$**
+
+|  $E$  |  $E$-acyclic  |  $E$-local | 
+|-------|------------|-----------|
+| $H \mathbb{Z}_{(p)}$ |   |  $p$-local |
+| $H \mathbb{F}_p$ |  $\not\{p\}$-local |  $p$-complete |
