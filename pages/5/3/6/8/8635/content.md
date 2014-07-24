@@ -71,6 +71,12 @@ In these cases there are also direct constructions of $Q^*(M)$ (not using to $Q^
 
 ## Literature
 
+Standard discussion over [[commutative rings]] is for instance in 
+
+* {#Gathmann} Andreas Gathmann, _Localization_ ([[GathmannLocalization.pdf:file]])
+
+Discussion in the general case of [[noncommutative geometry]] is in
+
 * [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
 
 [[!redirects localizations of a module]]
