@@ -10,11 +10,11 @@ In 2002, he received the Fields Medal together with [[Vladimir Voevodsky]].  He 
 construction pour des correspondances du type
 de celle de Langland_, Notes 2013, [IHES](http://www.ihes.fr/~lafforgue/math/TheorieCaramello.pdf)
 
-* [Webpgae on seminar](https://sites.google.com/site/logiquecategorique/Contenus/20130227_Lafforgue).
+* [Webpage on seminar](https://sites.google.com/site/logiquecategorique/Contenus/20130227_Lafforgue).
 
 ###References
 
-* [Homepage0(http://www.ihes.fr/~lafforgue/)
+* [Homepage](http://www.ihes.fr/~lafforgue/)
 
-* {Wikipedia (English)](http://en.wikipedia.org/wiki/Laurent_Lafforgue)
+* [Wikipedia (English)](http://en.wikipedia.org/wiki/Laurent_Lafforgue)
 category:people
