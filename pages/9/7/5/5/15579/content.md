@@ -10,7 +10,7 @@ A basic fact of [[p-adic homotopy theory]], roughly analogous to the plain [[Whi
 
 Let $p$ be a [[prime number]] and write $\mathbb{F}_p \coloneqq \mathbb{Z}/(p)$ for its [[cyclic group]]/[[finite field]] and $\mathbb{Z}_p$ for the [[p-adic integers]].
 
-**Statement** Ffor $X$ and $Y$ [[simply connected]] [[finite homotopy types]], them a morphism $f \colon X \longrightarrow Y$ between then the following are equivalent:
+**Statement** For $X$ and $Y$ [[simply connected]] [[finite homotopy types]] and a morphism $f \colon X \longrightarrow Y$ between them, the following are equivalent:
 
 1. $f$ is an $\mathbb{F}_p$-[[homology equivalence]], i.e. $H_\ast(f,\mathbb{F}_p)$ is an equivalence;
 
