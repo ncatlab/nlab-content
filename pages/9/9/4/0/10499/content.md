@@ -97,37 +97,77 @@ This kind of cover plays a central role in [[number theory]], see for instance t
 
 In [[homotopy theory]] the corresponding statement is that [[homotopy types]] may be decomposed into that of [[rational homotopy types]] and [[p-complete homotopy types]] of [[p-local homotopy types]].
 
-More precisely, for $p$ a [[prime number]] and $X$ a [[p-local homotopy type]], then $X$ is the [[homotopy fiber product]]
++-- {: .num_remark #FractureForSpectra}
+###### Proposition
+
+Let $p$ be a [[prime number]]. Let $X$ be a [[homotopy type]]/[[∞-groupoid]] satisfying at least one of the following sufficient conditions 
+
+* $X$ is a [[connected]], [[nilpotent space]] with finitely generated [[homotopy groups]];
+
+* $X$ is [[p-local homotopy type]];
+
+Then $X$ is the [[homotopy fiber product]]
 
 $$
   X \simeq X_{\mathbb{Q}} \underset{(X_p^\wedge)_{\mathbb{Q}}}{\times} X_p^\wedge
 $$
 
-of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedge$ over the rationalization $(X_p^\wedge)_{\mathbb{Q}}$of the $p$-completions. This originates around ([Bousfield-Kan 72](#BousfieldKan72)), for a modern review see ([May-Ponto, theorem 13.1.4](#MayPonto)).
+of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedge$ over the rationalization $(X_p^\wedge)_{\mathbb{Q}}$of the $p$-completions. 
 
-The impact here is that by [[rational homotopy theory]] the rationalization $X_{\mathbb{Q}}$ is typically comparatively easy to understand, and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces "one prime at a time".
+=--
+
+This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick sruvey is in [Riehl 14, theorem 14.4.14](#Riehl14).
 
 Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer, section 2](#Bauer)).
 
-So here we have a diagram
+
++-- {: .num_remark }
+###### Remark
+**("one prime at a time")**
+
+The impact of prop. \ref{FractureForSpectra} is that it decomposes the study of ([[stable homotopy theory|stable]]) [[homotopy theory]] into that of 
+
+1. [[rational homotopy theory]]  and
+
+1. [[p-adic homotopy theory]] for each prime $p$.
+
+Both the [[rationalization]] $X_{\mathbb{Q}}$ and the [[p-completion]] $X_{p}^\\wedge$ are typically much easier to analyze than $p$ itself and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces. 
+This procedure is known in homotopy theory as working "one prime at a time".
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+By the discussion at _[[Bousfield localization of spectra]]_ and at _[[localization of a space]]_, the [[rationalization]] and the [[p-completion]] maps on spectra are [[homotopy cofibers]] of $E$-acyclifications $G_E(X) \to X$, for $E = H\mathbb{Q}$ and $E = H \mathbb{F}_p$  the [[Eilenberg-MacLane spectra]] of $\mathbb{Q}$ and of the [[cyclic group]]/[[finite field]] $\mathbb{F}_p = \mathbb{Z}/(p)$, respectively (e.g. [Lurie 10, lecture 20](localization+of+a+space#Lurie)).
+
+Including this into the statement of of prop. \ref{FractureForSpectra} says that for spectra $X$ satisfying sufficient conditions as above, then the canonical diagram
 
 $$
   \array{
-    && X_{\mathbb{Q}} && && G_{H\mathbb{F}_p}(X)
+    && X_{\mathbb{Q}} && \longleftarrow && G_{H\mathbb{F}_p}(X)
     \\
     & \swarrow && \nwarrow && \swarrow
     \\
-    (X_p^\wedge)_{\mathbb{Q}} && && X
+    (\prod_p X_p^\wedge)_{\mathbb{Q}} && && X
     \\
-    & \nwarrow && \swarrow
+    & \nwarrow && \swarrow && \nwarrow
     \\
-    && X_p^\wedge
+    && \prod_p X_p^\wedge && \longleftarrow && G_{H\mathbb{Q}}(X)
   }
 $$
 
-where the square is a [[homotopy pullback]] (and hence, by stability, also a [[homotopy pushout]]), and where the diagonal is a [[homotopy cofiber sequence]] (hence a [[homotopy fiber sequence]]), see e.g. ([Lurie 10, lecture 20](http://ncatlab.org/nlab/show/localization+of+a+space#Lurie)). As in the notation there $G_{H \mathbb{F}_p}(X)$ is the $H \mathbb{F}_p$-acyclic spectrum corresponding to $X$. Geometrically this is like the restriction to the complement of all formal disks in [[Spec(Z)]]. (...)
+has the following exactness properties:
+
+1. the square is a [[homotopy pullback]] and hence also a [[homotopy pushout]];
+
+1. the diagonals are [[homotopy cofiber sequences]] and hence also [[homotopy fiber sequences]].
 
 
+Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{H\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
+
+
+=--
 
 
 ### In cohesive (stable) homotopy theory
@@ -193,6 +233,10 @@ by [[Andrew Ranicki]].
 Related MO-discussion:
 
 * _[Fracture squares of Bousfield Localizations of Spectra](http://mathoverflow.net/a/91057/381)_
+
+Discussion of rational functions as functions on the [[Ran space]] is in 
+
+* {#Gaitsgory11} [[Dennis Gaitsgory]], _Contractibility of the space of rational maps_ ([arXiv:1108.1741](http://arxiv.org/abs/1108.1741))
 
 [[!redirects fracture theorems]]
 
