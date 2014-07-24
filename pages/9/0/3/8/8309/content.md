@@ -64,6 +64,15 @@ We could conceivably have the notion of binary function *without* the notion of 
 In particular, a binary function [[internalisation|internal to]] a [[multicategory]] is simply a [[binary morphism]] in that multicategory.  This is most like a binary function between sets in the case of a [[cartesian multicategory]].  But even so, there may be no [[tensor product]] in the multicategory, and then a binary morphism cannot be understood as a special case of a [[morphism]].
 
 
+## Special cases
+
+A binary function to the set of [[truth values]] is a [[binary relation]].
+
+A binary function from $A$ and $A$ to $C$ may be simply called a __binary function__ from $A$ to $C$.
+
+A binary function $f$ from $A$ to $C$ is __symmetric__ if $f(a,b) = f(b,a)$ always.
+
+
 ## Related concepts
 
 * **binary function**, [[bilinear map]], [[multilinear map]]
@@ -84,3 +93,7 @@ In particular, a binary function [[internalisation|internal to]] a [[multicatego
 [[!redirects binary maps]]
 [[!redirects binary mapping]]
 [[!redirects binary mappings]]
+
+[[!redirects symmetric binary function]]
+[[!redirects symmetric binary functions]]
+
