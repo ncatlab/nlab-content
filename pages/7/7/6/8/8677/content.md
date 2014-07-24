@@ -78,6 +78,8 @@ $$
 
 * [[Cohn localization]], [[Ore localization]].
 
+* [[localization of a space]] (and of a [[spectrum]])
+
 * [[completion of a ring]]
 
 ## References
