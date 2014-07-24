@@ -45,11 +45,11 @@ In particular, if $R$ is elegant, then every codegeneracy map is a [[split epimo
 +-- {: .num_theorem}
 ###### Theorem
 
-If $R$ is an elegant Reedy category and $M$ is a [[model category]] in which the [[cofibrations]] are exactly the [[monomorphisms]], then the [[Reedy model structure]] and the [[injective model structure]] on $M^{R^{op}}$ coincide.
+If $R$ is an elegant Reedy category, then the [[Reedy model structure]] and the [[injective model structure]] on $SSet^{R^{op}}$ coincide.
 
 =--
 
-In particular, this implies that every $M$-valued presheaf on an elegant Reedy category is Reedy cofibrant.
+In particular, this implies that every simplicial presheaf on an elegant Reedy category is Reedy cofibrant.
 
 
 ## Examples
