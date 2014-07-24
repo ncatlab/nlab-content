@@ -150,10 +150,59 @@ It is useful to iterate this and hence to identify cohesion of slices over objec
 +-- {: .num_lemma }
 ###### Lemma
 
-In examples ref. \ref{ComplexAnalyticDifferentialCohesion},
-for any $X \in ClpMfd \hookrightarrow \mathbf{H}$ then $\mathbf{H}_{/\flat_{rel}X}$ is cohesive over $\infty Grpd_{/\flat X}$.
+Given $X \in \mathbf{H}$ such that $\flat X$ is 0-truncated, then $\mathbf{H}_{/\flat_{rel}X}$ is strongly $\infty$-connected over $(\mathbf{H}_{inf})_{/\flat_{rel}X}$.
 
 =--
 
++-- {: .proof}
+###### Proof
 
-See at [tiny object -- In a cohesive topos](tiny+object#AtomsInACohesiveTopos).
+We have an essential geometric morphism given by a composite of [[adjoint
+triples]]
+
+$$
+  \array{
+     \mathbf{H}_{/\flat_{rel}X}
+     &
+       \stackrel{\overset{\Pi_{rel}}{\longrightarrow}}{\stackrel{\overset{Disc_{rel}}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
+     &
+     (\mathbf{H}_{inf})_{/\flat_{rel} X}
+       \stackrel{\overset{\Pi \simeq \Gamma}{\longrightarrow}}{\stackrel{\overset{\eta_X^\ast \circ Disc}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
+  }
+  \infty Grpd_{/\flat X}
+  \,,
+$$
+
+where the top pairs come from the formula 
+([here](adjoint+infinity-functor#OnSlices)) for localization of adjunctions to slices, and the bottom one exists in each case by the [[adjoint (∞,1)-functor theorem]],
+since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq ast$ that the composite right adjoint is fully faihful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
+
+=--
+
+## Fracture squares and ideles
+
++-- {: .num_lemma}
+###### Lemma
+
+The canononical maps between the [[commutative rings]] of [[integers]] $\mathbb{Z}$, of [[rational numbers]] $\mathbb{Q}$ of [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ and of [[adeles]] $\mathbb{A}_{\mathbb{Q}}$ form a square [[commuting diagram]]
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \mathbb{A}_{\mathbb{Z}}
+  }
+$$
+
+in [[CRing]] which is both a [[pullback]] as well as a [[pushout]] square.
+
+
+=--
+
+(...)
