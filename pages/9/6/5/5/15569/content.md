@@ -22,7 +22,13 @@ We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele c
 
 ## Preliminaries on differential cohesion
 
-Consider [[homotopy cofiber sequence]] of  [[cohesive (∞,1)-toposes]] 
+
+The synthetic axiomatics which we consider here is the following.
+
++-- {: .num_defn }
+###### Definition
+
+We say that a context of _differential cohesion with compatible infinitesimals_ is a [[homotopy cofiber sequence]] of  [[cohesive (∞,1)-toposes]] 
 
 $$
   \mathbf{H}_{red}
@@ -32,10 +38,24 @@ $$
   \mathbf{H}_{inf}
 $$
 
-where the inclusion on the left exhibits [[differential cohesion]] and where $\mathbf{H}_{inf}$ has [[infinitesimal cohesion]].
+such that 
+
+1. the inclusion on the left exhibits [[differential cohesion]] 
+
+1. $\mathbf{H}_{inf}$ has [[infinitesimal cohesion]] (over the [[base (∞,1)-topos]]).
+
+=--
+
++-- {: .num_remark }
+###### Remark
 
 
-+-- {: .num_example }
+We will mostly just say "differential cohesion" for short. Given any differential cohesion $H_{red} \hookrightarrow \mathbf{H}$ then of course the homotopy cofiber $\mathbf{H}_{inf}$ of the inclusion always exists as an [[(∞,1)-topos]], but conditions under which this is itself cohesive haven't been discussed yet.
+
+=--
+
+
++-- {: .num_example #ComplexAnalyticDifferentialCohesion}
 ###### Example
 
 Let
@@ -74,5 +94,66 @@ from left to right
 
 Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
 
+=--
+
+This is ([[schreiber:differential cohomology in a cohesive topos|dcct, section 4.5.1.4]]).
+
+In a context of differential cohesion there are three [[adjoint triples]] of [[modalities]] on $\mathbf{H}$, interlocking with each other. 
+
++-- {: .num_defn }
+###### Definition
+
+We write
+
+*  $\Pi \dashv \flat \dashv \sharp$ for the global [[shape modality]]$\dashv$[[sharp modality]]$\dashv$[[flat modality]] of the [[cohesion]] of $\mathbf{H}$;
+
+* $Red \dashv \Pi_{inf} \dashv \flat_{inf}$ for the [[reduction modality]]$\dashv$[[infinitesimal shape modality]]$\dashv$[[infinitesimal flat modality]] of the [[differential cohesion]] of $\mathbf{H}$;
+
+* $\Pi_{rel} \dashv \flat_{rel} \dashv \sharp_{rel}$ for the corresponding modalities of the cohesion of $\mathbf{H}$ over $\mathbf{H}_{inf}$.
 
 =--
+
+The main reason why we are interested in cohesion in the present context is that every cohesive stable homotopy type is canonically decomposed into two [[fracture squares]], which we are going to relate to traditional fracture squares and to idelic structures.
+
++-- {: .num_prop }
+###### Proposition
+
+For $\hat E$ a cohesive [[stable homotopy type]], then it sits in an hexagonal diagram (the _[[differential cohomology hexagon]]_)
+
+$$
+  \array{
+    &&  \Pi_{dR} {\hat E} && \stackrel{\mathbf{d}}{\longrightarrow} && \flat_{dR}{\hat E}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\hat E}}} && \searrow
+    \\
+    \flat \Pi_{dR} {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_E}}
+    \\
+    && \flat {\hat E} && \longrightarrow && \Pi \hat E
+  }
+$$
+
+where 
+
+1. the diagonals are [[homotopy fiber sequences]] and [[homotopy cofiber sequences]];
+
+1. both squares are [[homotopy pullback]] and [[homotopy pushout]] squares;
+
+1. the two boundary sequences ate long [[homotopy fiber sequences]] and [[homotopy cofiber sequences]].
+
+=--
+
+The fracture squares allow to decompose complicated objects into their components.
+It is useful to iterate this and hence to identify cohesion of slices over objects appearing in the hexagon.
+
++-- {: .num_lemma }
+###### Lemma
+
+In examples ref. \ref{ComplexAnalyticDifferentialCohesion},
+for any $X \in ClpMfd \hookrightarrow \mathbf{H}$ then $\mathbf{H}_{/\flat_{rel}X}$ is cohesive over $\infty Grpd_{/\flat X}$.
+
+=--
+
+
+See at [tiny object -- In a cohesive topos](tiny+object#AtomsInACohesiveTopos).
