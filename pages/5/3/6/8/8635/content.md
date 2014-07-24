@@ -62,7 +62,11 @@ In these cases there are also direct constructions of $Q^*(M)$ (not using to $Q^
 ## Related concepts
 
 * [[localization of a ring]], [[Ore localization]], [[Gabriel localization]], [[Cohn localization]]
+
+* [[localization of a space]] (and of a [[spectrum]])
+
 * [[localization of a category]] (= localization functor)
+
 * [[locally free module]]
 
 ## Literature
