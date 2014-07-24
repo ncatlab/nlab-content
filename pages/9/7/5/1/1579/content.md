@@ -1,6 +1,9 @@
-[[!redirects prometric]]
 
-# Definition
+# Prometric spaces
+* table of contents
+{: toc}
+
+## Definitions
 
 A **prometric** on a set $X$ is a family $G$ of functions $d:X\times X\to [0,\infty)$ such that
 
@@ -24,14 +27,14 @@ A **base** for a prometric is a collection satisfying all these axioms except $\
 Of course a **prometric space** is a space equipped with a prometric, and likewise for a **quasi-prometric space**.
 
 
-# Morphisms
+## Morphisms
 
-A **short map** between prometric spaces $X$ and $Y$ is a function $f:X\to Y$ such that for every $d\in G_Y$, we have $d\circ (f\times f) \in G_X$.  We write $ProMet$ for the category of prometric spaces and short maps.
+A **[[short map]]** between prometric spaces $X$ and $Y$ is a function $f:X\to Y$ such that for every $d\in G_Y$, we have $d\circ (f\times f) \in G_X$.  We write $ProMet$ for the category of prometric spaces and short maps.
 
 If the prometrics of $X$ and $Y$ are presented by bases, then this is equivalent to saying that for any basic $d$ on $Y$, there is a basic $e$ on $X$ such that $d(f(x),f(x'))\le e(x,x')$ for all $x,x'\in X$.  Thus, for metric spaces and gauge spaces considered as prometric spaces, this reduces to the usual notion of short map (i.e. distance-decreasing map).  Hence the category $Gau$ of gauge spaces and short maps is included as a full subcategory of $ProMet$.
 
 
-# Subcategories
+## Subcategories
 
 Since $Gau$ includes the categories of metric spaces and uniform spaces (disjointly), so does $ProMet$.  Likewise, since $QGau$ includes the category of topological spaces (disjointly from metric and uniform spaces), so does $QProMet$.
 
@@ -50,7 +53,7 @@ $$U_{d,\epsilon} = \{(x,y) | d(x,y)\lt\epsilon\}.$$
 In this way every short map induces a uniformly continuous map as well.  This operation is compatible with the above inclusion of $Unif$, as well as with the inclusion of $Gau$.
 
 
-# Categorical interpretation
+## Categorical interpretation
 
 As observed by Lawvere, an (extended quasi pseudo) metric space is a category enriched over $([0,\infty],\ge,+,0)$.  In other words, it is a monoid (or monad) in the [[bicategory]] $[0,\infty] Mat$ of matrices with values in this monoidal category.  Analogously, an (extended quasi) prometric space is a monoid in the bicategory $Pro [0,\infty] Mat$ whose hom-categories are the categories of [[pro-object]]s in the hom-categories of $[0,\infty] Mat$.
 
@@ -59,8 +62,15 @@ Note that if $Rel = \{0,1\} Mat$ denotes the bicategory of [[relation]]s in $Set
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
 
 
-# References
+## References
 
 * Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen.  "One Setting for All: Metric, Topology, Uniformity, Approach Structure." ([pdf](http://www.math.yorku.ca/~tholen/ProMat_V_.pdf)) 
 
+[[!redirects prometric]]
+[[!redirects prometrics]]
+[[!redirects prometric space]]
 [[!redirects prometric spaces]]
+[[!redirects quasiprometric]]
+[[!redirects quasiprometrics]]
+[[!redirects quasiprometric space]]
+[[!redirects quasiprometric spaces]]
