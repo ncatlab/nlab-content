@@ -33,7 +33,7 @@ For $S$ a set of [[primes]], "localize at $S$" means "invert what is not divisib
 
 Adjoining inverses $[S^{-1}]$ is pronounced "localized away from $S$". Inverting a [[prime]] $p$ is localizing away from $p$, which means ignoring $p$-torsion.
 
-See at _[[localization of a space]]_ for more discussion of this.
+See also lecture notes such as ([Gathmann](#Gathmann)) and see at _[[localization of a space]]_ for more discussion of this.
 
 Evidently, this conflicts with more-categorial uses of "localized"; "inverting weak equivalences" is called localization, by obvious analogy, and is written as "localizing at weak equivalences". This is confusing! It's also weird: since a ring is a one-object Ab-enriched category with morphisms "multiply-by", the localization-of-the-category $R$ "at $p$" (or its Ab-enriched version, if saying that is necessary) really means the localization-of-the-ring R "away from p".
 
@@ -86,6 +86,11 @@ $$
 
 ## References
 
+Basics of [[localizations of commutative rings]] are reviewed for instance in
+
+* {#Gathmann} Andreas Gathmann, _Localization_ ([[GathmannLocalization.pdf:file]])
+
+Discusison of the general concept in [[noncommutative geometry]] is in
 
 * [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
 
