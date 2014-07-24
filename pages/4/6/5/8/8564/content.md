@@ -159,7 +159,7 @@ On the other hand, if we modify the concept of principal ideal domain, we can re
 
 * Wikipedia, _[Principal ideal domain](http://en.wikipedia.org/wiki/Principal_ideal_domain)_
 
-* [pdf](http://www.math.harvard.edu/~waffle/pids.pdf)
+* Eric Wofsey, _Principal Ideal Domains_, (written for Mathcamp 2009) [pdf](http://www.math.harvard.edu/~waffle/pids.pdf)
 
 
 
