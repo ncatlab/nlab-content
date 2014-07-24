@@ -178,6 +178,8 @@ A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**
 
 $\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$.  
 
+This is a consequence of the [[mod p Whitehead theorem]].
+
 =--
 
 See ([May-Ponto, example 19.2.3](#MayPonto), [Lurie, example 8](#Lurie)).
@@ -228,8 +230,11 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[p-completion]]
 
-* [[finite spectrum]]
+* [[finite homotopy type]], [[finite spectrum]]
 
+* [[nilpotent homotopy type]]
+
+* [[rational homotopy type]]
 
 ## References
 
