@@ -16,9 +16,9 @@
 
 ## Idea
 
-The _localization_ of a  [[commutative ring]] $R$ at a [[set]] $S$ of its [[elements]] is a new ring $R[S]^{-1}$ in which the elements of $S$ become invertible ([[unit|units]]) and which is [[universal property|universal]] with this property. 
+The _[[localization of a ring|localization]]_ of a  [[commutative ring]] $R$ at a [[set]] $S$ of its [[elements]] is a new ring $R[S]^{-1}$ in which the elements of $S$ become invertible ([[unit|units]]) and which is [[universal property|universal]] with this property. 
 
-When interpreting a ring under [[Isbell duality]] as the ring of functions on some [[space]] $X$ (its [[spectrum of a commutative ring|spectrum]]), then localizing it at $S$ corresponds to restricting to the subspace $Y \hookrightarrow X$ on which the elements in $S$ vanish.
+When interpreting a ring under [[Isbell duality]] as the [[ring of functions]] on some [[space]] $X$ (its [[spectrum of a commutative ring|spectrum]]), then localizing it at $S$ corresponds to restricting to the complement of the subspace $Y \hookrightarrow X$ on which the elements in $S$ vanish.
 
 See also _[[commutative localization]]_ and _[[localization of a ring]] (noncommutative)_. 
 
@@ -88,8 +88,13 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 
 ## References
 
+A classical set of lecture notes is
+
 * {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
+Other accounts of the basics include
+
+* {#Gathmann} Andreas Gathmann, _Localization_ ([[GathmannLocalization.pdf:file]])
 
 * [[The Stacks Project]], 10.9. _Localization_
 
