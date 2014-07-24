@@ -72,6 +72,71 @@ $$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$
 which says the functional relation is _well-defined_. 
 
 
+## Limits and Colimits
+
+$Rel$ does have [[products]] and [[coproducts]]; they coincide (by
+self-duality) and are just [[disjoint unions]] of sets. However, otherwise
+$Rel$ has very few (co)limits; it doesn't even have
+splittings of all idempotents. All symmetric idempotents have splittings, but the
+order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
+split. It follows that it can't have (co)equalisers.
+
+However, $Rel$ has _weak_ [[equalizers]], therefore one can take its
+[[exact completion]]. This happens to be the category of complete
+sup-lattices and sup-preserving maps. And the tensor product on $Rel$
+extends to the [[exact completion]]. 
+
+Since $Rel$ is the category of _free algebras_ ([[Kleisli
+category]]) for the powerset monad, there is, indeed, very little chance
+of a limit of such algebras being free again. To get decent limits,
+one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
+viz., the category of complete [[suplattices]].
+
+### In the Double Category of Relations###
+If you insert the category $Rel$ into the [[double category]]
+$\mathrm{RRel}$ of sets, mappings and relations, one has a double
+category with all [[double limits]] and colimits. For instance, the
+obvious cartesian product $a \times b : X \times Y \to X' \times Y'$ (resp. sum
+$a+b : X + Y \to X' + Y'$) of two relations is indeed a product
+(resp. a sum) in the double category.
+
+Similarly, many bicategories of spans, cospans, relations,
+profunctors, etc. have poor (co)limits, but can be usefully embedded in
+weak double categories (with the same objects, "strict morphisms",
+"same morphisms", suitable double cells) that have all limits and
+colimits.
+
+### As an enriched category###
+Writing $\mathcal{V}$ for the category of [[suplattices]], $Rel$ is a
+$\mathcal{V}$-category (see [[enriched category]]). With that in mind, the parallel:
+
+* in [[additive categories]] with [[zero object]], \emph{finitary} (co)[[products]]
+  are [[biproducts]]
+* $\mathcal{V}$-categories with [[zero object]], \emph{arbitrary}
+  (co)[[products]] are [[biproducts]]
+
+is remarkable. This was probably first noticed by Dana May Latch, in
+the 20th century, for the category of $\mathcal{V}$ of complete
+[[suplattices]]. 
+
+The [[matrix algebra]] for maps to products, from coproducts, and most
+especially, from coproducts to products, works just as it does in the
+case of [[additive categories]], when it comes to these
+$\mathcal{V}$-categories. 
+
+
+###In Spans###
+See [[van Kampen colimit]].
+
+##Mono/Epimorphisms##
+It is not hard to see that a relation $R \subseteq A \times B$ is a
+[[monomorphism]] $A \to B$ iff the map $\mathcal{P}A \to \mathcal{P}B$
+sending a subset of A to the set of all R-relatives of its members is
+injective; dually for [[epimorphisms]].
+
+
+
+
 ## Related categories
 
 * [[Set]]
@@ -83,6 +148,13 @@ For generalizations of $Rel$ see
 * [[allegory]], [[cartesian bicategory]]
 
 * [[bicategory of relations]]
+
+
+## References ##
+
+* Grandis, M., Pare, R. :Limits in double categories. Cahiers Topologie Ge &#769;om. Diffe &#769;rentielle Cate &#769;g. 40(3), 162&#8211;220 (1999)
+* [categories: Limits and colimits in Rel?](http://thread.gmane.org/gmane.science.mathematics.categories/8027), [categories: Limits in REL](http://thread.gmane.org/gmane.science.mathematics.categories/8186)
+
 
 
 category: category
