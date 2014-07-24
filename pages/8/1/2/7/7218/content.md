@@ -21,6 +21,10 @@ An object is cofibrant in the mixed model structure if and only if it has the $h
 
   On the other hand, $T Alg_s$ has its own 2-trivial model structure.  Since the forgetful functor $T Alg_s \to K$ preserves equivalences and isofibrations (the latter since it has a strict left 2-adjoint), we can mix these two model structures to obtain one whose weak equivalences are the equivalences in $K$ (which are also the equivalences in the category $T Alg$ of $T$-algebras and [[pseudo morphisms]]), but whose fibrations are the isofibrations in $T Alg_s$.
 
+## See also
+
+* [[intermediate model structure]]
+
 ## References
 
 The original paper is
