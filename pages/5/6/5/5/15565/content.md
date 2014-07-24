@@ -43,12 +43,8 @@ Moreover the map that sends an commutative ring, hence an [[arithmetic variety]]
 
 The following definition says essentially this, but further sends the resulting space to [[F1]]-geometry in the sense of [[Borger's absolute geometry]]:
  
-For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is
+For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is $(W_n)_\ast$ applied to the $p$-adic completion of $X$.
 
-$$
-  J(X)= (W_n)_\ast( X \underset{Spec(\mathbb{Z})}{\times} Spec(\mathbb{Z}_p) )
-  \,,
-$$
 
 where $(W_n)_\ast$ is the [[ring of Witt vectors]]-construction, the [[direct image]] of [[Borger's absolute geometry]] $Et(Spec(\mathbb{Z})) \to Et(Spec(\mathbb{F}_1))$.
 
