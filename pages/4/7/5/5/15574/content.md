@@ -29,6 +29,10 @@ _Aufhebung_ (sublation) is a central concept in the dialectical logic of the Ger
 
 In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]]. It is the mathematical concept that will constitute the primary subject in the following.
 
+##The Road to _Aufhebung_
+
+>In early 1985, while I was studying the foundations of homotopy theory, it ocurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
+
 ##Related Concepts
 
 * [[graphic monoid]]
@@ -64,7 +68,7 @@ In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]]
 
 * F. W. Lawvere, _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
 
-*  F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Lawvere96} F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
 
 * F. W. Lawver, _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
