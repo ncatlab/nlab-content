@@ -155,7 +155,7 @@ The $E$-localization of a spectrum in this case is called _[[p-localization|loca
 
 (e.g. [Lurie, Lecture 20, example 8](#LurieLecture))
 
-Conversely, localization az $H \mathbb{Z}_{(p)}$ is [[p-localiization|localization at p]].
+Conversely, localization at $H \mathbb{Z}_{(p)}$ is [[p-localiization|localization at p]].
 
 
 ### Telescopic localization
