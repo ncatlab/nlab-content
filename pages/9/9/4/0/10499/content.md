@@ -113,15 +113,15 @@ So here we have a diagram
 
 $$
   \array{
-    && && X_p^{\wedge}
+    && X_{\mathbb{Q}} && && G_{\mathbb{Z}/p\mathbb{Z}}(X)
     \\
-    && & \nearrow && \searrow
+    & \swarrow && \nwarrow && \swarrow
     \\
-    && X && \Downarrow && (X_p^\wedge)_{\mathbb{Q}}
+    X_p^\wedge && && X
     \\
-    & \nearrow & & \searrow && \nearrow
+    & \nwarrow && \swarrow
     \\
-    G_{\mathbb{Z}/p\mathbb{Z}}(X) && && X_{\mathbb{Q}}
+    && X_p^\wedge
   }
 $$
 
