@@ -80,9 +80,14 @@ $$
 
 * [[Cohn localization]], [[Ore localization]].
 
-* [[localization of a space]] (and of a [[spectrum]])
+* [[Bousfield localization of spectra]]
+
+  * [[localization of a space]] (and of a [[spectrum]])
+
+  * [[p-localization]], [[p-completion]]
 
 * [[completion of a ring]]
+
 
 ## References
 
