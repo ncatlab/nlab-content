@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 =--
 =--
 
@@ -14,8 +18,19 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The classical _fracture theorem_ is a basic fact in [[number theory]]/[[arithmetic geometry]] and derived from this a fundamental result in  [[homotopy theory]], which says how working over the [[integers]] may be decomposed into working over the [[rational numbers]] and over the [[p-adic integers]], for all primes $p$.
+A basic fact in [[number theory]] is that the [[natural numbers]] may be decomposed into the [[rational numbers]] and the [[p-adic integers]] for all [[prime numbers]] $p$. Dually  in [[arithmetic geometry]] this says that [[Spec(Z)]] has a [[cover]] by all its [[formal disks]] and the complements of finitely many points, a fact that is crucial in the geometric interpretation of the [[function field analogy]] and which motivates for instance the [[geometric Langlands correspondence]]. (See [below](#ArithmeticFractureSquares).)
+
+Lifting this statement to [[stable homotopy theory]] and "[[higher arithmetic geometry]]" the _arithmetic fracture theorem_ says that [[stable homotopy types]] (and suitably tame plain [[homotopy types]]) canonically decompose into their [[rationalization]] and their [[p-completion]] for all primes $p$, hence into their images in [[rational homotopy theory]] and [[p-adic homotopy theory]]. Since these images are typically simpler than the original homotopy type itself, this decomposition is a fundamental computational tool in stable homotopy theory, often known under the slogan of "working one prime at a time". (See [below](#TheArithmeticFractureSquare).)
+
+One finds that this arithmetic fracturing in stable homotopy theory is really a statement about the [[Bousfield localization of spectra]] with respect to the [[Moore spectrum]] for $\mathbb{Q}$ and that of $\mathbb{Q}/\mathbb{Z}$. Viewed this way there is a a more general fracture theorem which says that for any suitable pair $E,F$ of [[spectra]]/[[homology theories]] the [[Bousfield localization of spectra|Bousfield localization]] at their [[coproduct]] decomposes into the separate Bousfield localizations. This generalized fracture theorem appears for instance in [[chromatic homotopy theory]] for localization at [[Morava K-theory]] and [[Morava E-theory]]. (See [below](#GeneralFractureSquares).)
+
+In [[cohesive homotopy theory]] every [[stable homotopy type]] canonically sits in a fracture square formed from the localizaitons exhibited by the [[shape modality]] and the [[flat modality]]. For [[differential cohesion]] over [[infinitesimal cohesion]] this is a [[higher geometry|higher geometric]] analog of the classical artihmetic fracture. (See [below](#InCohesiveHomotopyTheory).)
+
+
+## Statement
+ {#Statement}
 
 ### In number theory and arithmetic geometry
  {#ArithmeticFractureSquares}
@@ -79,7 +94,7 @@ Under the [[function field analogy]] we may think of
 
 * $\mathbb{A}_{\mathbb{Q}}$ is the ring of functions on punctured formal disks around all points, at most finitely many of which do not extend to the unpunctured disk.
 
-Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a [[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
+Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a f[[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
 
 This kind of cover plays a central role in [[number theory]], see for instance the following discussions:
 
@@ -116,11 +131,23 @@ of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedg
 
 =--
 
-This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick survey is in [Riehl 14, theorem 14.4.14](#Riehl14).
+This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick survey is in ([Riehl 14, theorem 14.4.14](#Riehl14)).
 
 ### In stable homotopy theory
+ {#InStableHomotopyTheory}
 
-Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer 11, section 2](#Bauer11)).
+Similar statements hold in [[stable homotopy theory]] for [[spectra]]. There is a stable version of 
+
+* [The arithmetic fracture square](#TheArithmeticFractureSquare)
+
+but more generally there are fracture squares for the [[coproduct]] homology theory $E \vee F$ whenever $F$-localization is $E$-acyclic:
+
+* [General fracture squares](#GeneralFractureSquares)
+
+#### The arithmetic fracture square
+ {#TheArithmeticFractureSquare}
+
+
 
 For $p$ a [[prime number]] write
 
@@ -128,7 +155,7 @@ For $p$ a [[prime number]] write
 
 * $L_{\mathbb{Q}}$ for the [[Bousfield localization of spectra]] at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q} \simeq H \mathbb{Q}$, hence for [[rationalization]].
 
-+-- {: .num_prop }
++-- {: .num_prop #SullivanArithmeticFracture}
 ###### Proposition
 **(Sullivan arithmetic square)**
 
@@ -157,24 +184,6 @@ $$
 
 This is originally due to ([Sullivan 05](#Sullivan05), it is recalled for instance as ([Bauer 11, lemma 2.1](#Bauer11)).
 
-More generally
-
-+-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
-###### Proposition
-
-Since $S (\mathbb{Q}/\mathbb{Z}) = \vee_p S \mathbb{F}_p$, then the product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at
-
-$$
-  \prod_p L_p X
-  \simeq
-   L_{S (\mathbb{Q}/\mathbb{Z})} X
-  \,.
-$$
-
-=--
-
-(e.g. [Bauer 11, below prop. 2.2](#Bauer11), [Strickland 12](http://mathoverflow.net/a/91057/381)).
-
 +-- {: .num_remark }
 ###### Remark
 **("one prime at a time")**
@@ -190,6 +199,41 @@ This procedure is known in homotopy theory as working "one prime at a time".
 
 =--
 
+
+More generally:
+
++-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
+###### Proposition
+
+The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[coproduct]] $\vee_p S \mathbb{F}_p$ if all [[Moore spectra]]
+
+$$
+  \prod_p L_p X
+  \simeq
+   L_{\vee_p S \mathbb{F}_p} X
+  \,.
+$$
+
+Moreover there is a  [[Bousfield equivalence]] 
+
+$$
+  S (\mathbb{Q}/\mathbb{Z}) \simeq_{Bousf} \vee_p S \mathbb{F}_p
+  \,,
+$$ 
+
+and therefore also an equivalence
+
+$$
+  \prod_p L_p X
+  \simeq
+   L_{S (\mathbb{Q}/\mathbb{Z})} X
+  \,.
+$$
+
+
+=--
+
+The first statement appears for instance as ([Bauer 11, below prop. 2.2](#Bauer11)), the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
 
 +-- {: .num_remark }
@@ -222,54 +266,118 @@ has the following exactness properties:
 
 Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{H\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
 
+=--
+
+#### General fracture squares
+ {#GeneralFractureSquares}
+
+
+By prop. \ref{ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
+the artihmetic fracture square of prop. \ref{SullivanArithmeticFracture} is equivalently of the form
+
+$$
+  \array{
+    && L_{H\mathbb{Q}}X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_{H\mathbb{Q}}
+    L_{S \mathbb{Q}/\mathbb{Z}} X
+    &&  &&
+    X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_{S \mathbb{Q}/\mathbb{Z}} X
+  }
+  \,.
+$$
+
+In this form the statement holds much more generally:
+
++-- {: .num_prop #GeneralFractureSquare}
+###### Proposition
+
+Let $E, F, X$ be [[spectra]] such that the $F$-[[Bousfield localization of spectra|localization]] of $X$ is $E$-acyclic, i.e.  $E_\bullet(L_F X) \simeq 0$, then the canonical square [[diagram]]
+
+$$
+  \array{
+    && L_F X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_F
+    L_E X
+    &&  &&
+    L_{E\vee F}
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_E
+  }
+$$
+
+is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
+
+
+=--
+
+e.g. ([Bauer 11, prop. 2.2](#Bauer11))
+
++-- {: .num_remark}
+###### Remark
+
+This general version is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. In paticular it is used for instance in the construction of [[tmf]], see example \ref{ConstructionOfTmf} below.
 
 =--
 
 
 ### In cohesive (stable) homotopy theory
+ {#InCohesiveHomotopyTheory}
 
-In an [[tangent cohesive (∞,1)-topos]] every [[stable homotopy type]] is canonically a cohesive/differential extension of its [[geometric realization of a cohesive homotopy type|geometric realization]] by way of a kind of fracture theorem involving the localizations induced by the [[shape modality]] and the [[flat modality]]: 
-
-$$
-  X \simeq \flat_{dR}\Sigma X   \underset{\Pi \flat_{dR}\Sigma X}{\times}  \Pi X
-$$
-
-
-See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)_.
-
-More generally, the statement of the
-_[[differential cohomology hexagon]]_ is that for every stable cohesive homotopy type the canonical hexagon
+In [[cohesive homotopy theory]] every [[stable homotopy type]] $X$ sits in a fracture square of the form
 
 $$
   \array{
-    &&  \Pi_{dR} X && \stackrel{}{\longrightarrow} && \flat_{dR}X
+    &&  \Pi_{dR} X &&  \longrightarrow && \flat_{dR} X
     \\
-    & \nearrow & & \searrow & & \nearrow_{} && \searrow
+    & \nearrow & & \searrow  && \nearrow
     \\
-    \flat \Pi_{dR} X  && && X && && \Pi \flat_{dR}  X
+    \flat \Pi_{dR} X  && && X 
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow_{}
+    & \searrow &  & \nearrow && \searrow
     \\
-    && \flat X  && \longrightarrow && \Pi X
+    && \flat X   && \longrightarrow && \Pi X
   }
 $$
 
-is homotopy exact, in that both squares are both [[homotopy pullback]] as well as [[homotopy pushout]] squares and the two boundary sequences are long [[homotopy fiber sequences]]/[[homotopy cofiber sequences]].
+where $\flat$ is the [[flat modality]] and $\Pi_{dR}$ the [[homotopy fiber]] of the [[unit of a monad|unit]] $X\to \Pi X$ of the [[shape modality]]. This is the left part of the [[differential cohomology hexagon]] for $X$, see there for details.
 
-Notice that for instance for [[synthetic differential infinity-groupoids]] regarded as cohesive over their [[formal moduli problems]], then the [[flat modality]] $\flat$ sends each space $X$ to the collection $\flat X$ of all its formal disks. Also notice that by the discussion [here](differential+cohomology+diagram#OrdinaryDifferentialCohomology) the [[cocycles]] on $\Pi_{dR} X$ are equivalently the rationalized (de Rham) cocycles on $X$.
+Here $\Pi_{dR} X$ is such that for any other stable cohesive homotopy type $\hat E$ then functions $\Pi_{dR} X \to \hat E$ are equivalent to functions $X \to \flat_{dR} \hat E$, where $\hat E \to \flat_{dR} \hat E$ is a generalized form of rationalization in the sense discussed at _[[differential cohomology hexagon]]_. In particular if $\hat E$ is a [Hopkins-Singer-type](differential%20cohomology%20diagram#HopkinsSingerCoefficients) [[differential cohomology]] refinement of a plain [[spectrum]] $E$, then $E\to \flat_{dR} E$ is its ordinary [[rationalization]] given by the [[Chern character]] and $\hat E \to \flat_{dR} \hat E$ is the corresponding map on Chern [[curvature forms]].
 
-Hence under [[Isbell duality|algebra/geometry duality]] and in view of the [[function field analogy]], then in this case the left square in the above behaves indeed as a geometric dual to the classical arithmetic fracture squares above.
+Moreover, if the ambient [[cohesion]] is [[differential cohesion]] over a base of [[infinitesimal cohesion]], then the [[flat modality]] $\flat$ takes any space $X$ to the union of all its [[formal disks]]. (See at _[[differential cohesion and idelic structure]]_.) Accordingly the collection of functions $\flat X \to \hat E$ in this case behave like the product of all [[formal power series]] of $\hat E$-vallued functions around all global points of $X$, analogous to remark \ref{GeometricMeaning}.
+
+An example of this are [[synthetic differential ∞-groupoids]] regarded as cohesive over their [[formal moduli problems]], as its its complex analytic incarnation by synthetic differential [[complex analytic ∞-groupoids]]. In this context if $X = \Sigma$ is a [[complex curve]] then $\flat \Sigma$ is precisely the analog of the [[integral adeles]] as it is predicted by the [[function field analogy]].
 
 
 ## Examples
+ {#Examples}
 
-* [tmf -- Decomposition via arithmetic fracture squares](tmf#DecomopositionViaArithmeticSquares)
++-- {: .num_example #ConstructionOfTmf}
+###### Example
+
+The construction of the [[tmf]]-spectrum -- the spectrum of [[global sections]] of the [[derived Deligne-Mumford stack]] of [[derived elliptic curves]] --  as described in ([Behrens 13](tmf#Behrens13)) proceeds by first applying the arithmetic fracture square of prop. \ref{#ArithmeticFractureSquare} to decompose the [[moduli stack of elliptic curves]] into rational and $p$-adic curves, and then in a second step in applying in turn the general fracture square of prop. \ref{GeneralFractureSquare} for [[Morava K-theory]] to the remaining $p$-adic pieces.
+
+See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#DecomopositionViaArithmeticSquares)_ for more on this.
+
+=--
 
 ## Related concepts
 
-* [[p-localization]]
+* [[p-adic homotopy theory]], [[p-completion]]
 
-* [[p-completion]]
+* [[rational homotopy theory]], [[rationalization]]
+
 
 ## References
 
