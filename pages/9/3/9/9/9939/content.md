@@ -90,6 +90,12 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 
 =--
 
+## Properties
+
+### Fracture theorem
+
+The [[fracture theorem]] says how Bousfield localization at [[coproduct]] of spectra is a [[homotopy pullback]] of Bousfield localization separately. See at _[[fracture theorem]]_ for more on this.
+
 
 ## Examples
 
@@ -132,16 +138,50 @@ $$
 
 Under suitable condition the second map here is indeed an [[equivalence]], in which case the [[totalization]] of the dual [[Cech nerve]] exhibits the $E$-localization. This happens for instance in the discussion of the [[Adams spectral sequence]], see the examples given there.
 
-(see also e.g. [Bauer, p. 2](#Bauer))
+(see also e.g. [Bauer 11, p. 2](#Bauer11))
 
 =--
 
-### $p$-Localization
+### Rationalization
 
 +-- {: .num_example}
 ###### Example
 
-For $p \in \mathbb{N}$ a [[prime number]], let 
+Bousfield locaization at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q}\simeq H\mathbb{Q}$ of the [[rational numbers]] is [[rationalization]] to [[rational homotopy theory]].
+
+=--
+
+([Bauer 11, example 1.7](#Bauer11))
+
+### $p$-Localization
+
+For $p$ a [[prime number]] write $\mathbb{Z}_{(p)}$ for the  [[localization of a ring|localization]] of the [[integers]] _at_ $(p)$,  for the ring of integers with all primes _except_ $p$ inverted. The subring of the [[rational numbers]] with denominator not divisible by $p$.
+
++-- {: .num_example}
+###### Example
+
+The Bousfiled localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p-localization]]. 
+
+=--
+
+E.g. ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for details in this.
+
+### $p$-Completion
+
+For $p \in \mathbb{N}$ a [[prime number]], 
+write 
+
+$$
+  \mathbb{F}_p = \mathbb{Z}/(p)
+$$
+
+for the [[cyclic group]]/[[finite field]] of [[order of a group|order]] $p$.
+
+
++-- {: .num_example}
+###### Example
+
+Let 
 
 $$
   E \coloneqq H \mathbb{Z}/p\mathbb{Z}
@@ -149,13 +189,22 @@ $$
 
 be the corresponding [[Eilenberg-MacLane spectrum]]. Then a spectrum which corresponds to a [[chain complex]] under the [stable Dold-Kan corespondence](module+spectrum#StableDoldKanCorrespondence) is $E$-local, def. \ref{AcyclicAndLocal}, if that chain complex has [[chain homology]] groups being $\mathbb{Z}[p^{-1}]$-modules.
 
-The $E$-localization of a spectrum in this case is called _[[p-localization|localization away from p]]_.
+The $E$-localization of a spectrum in this case is  _[[p-completion]]_.
 
 =--
 
 (e.g. [Lurie, Lecture 20, example 8](#LurieLecture))
 
-Conversely, localization at $H \mathbb{Z}_{(p)}$ is [[p-localiization|localization at p]].
+More generally
+
++-- {: .num_example}
+###### Example
+
+Bousfield localization at the [[Moore spectrum]] $S \mathbb{F}_p$ is [[p-completion]] to [[p-adic homotopy theory]].
+
+=--
+
+E.g. ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for more on this.
 
 
 ### Telescopic localization
@@ -187,8 +236,8 @@ Lecture notes include
 
 * N. Aramian, _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
 
-* [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
- {#Bauer}
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+ 
 
 Lecture notes in the general context of [[higher algebra]]/[[stable homotopy theory]] include
 
