@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Definition
 
@@ -21,5 +25,22 @@ For $G$ an [[abelian group]], then the _Moore spectrum_ $S G$ (often $M G$) of $
 1. $H_{\gt 0}(S G,\mathbb{Z}) = \pi_{\gt 0}(S G \wedge H \mathbb{Z}) = 0$.
 
 Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]].
+
+## Properties
+
+### Serre's theorem
+  {#SerreTheorem}
+
+* For $\mathbb{Q}$ the [[rational numbers]] there is an equivalence $S \mathbb{Q} \stackrel{\simeq}{\longrightarrow} H \mathbb{Q}$ between the Moore spectrum and the [[Eilenberg-MacLane spectrum]]. (e.g. [Banagl 10, p. 6](#Banagl10))
+
+## References
+
+Lecture notes include 
+
+* {#Strickland} [[Neil Strickland]], p. 9 of _An introduction to the category of spectra_ ([pdf](https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
+
+See also 
+
+* {#Banagl10} [[Markus Banagl]], _Rational generalized intersection homology theories_, Homology, Homotopy and Applications, vol. 0(0), 2010, pp.1{28  ([pdf](http://www.mathi.uni-heidelberg.de/~banagl/pdfdocs/spectrumqih.pdf))
 
 [[!redirects Moore spectra]]
