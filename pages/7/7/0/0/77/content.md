@@ -52,21 +52,14 @@ hold. If $k$ is the ring $\mathbb{Z}$ of [[integer]]s, then we say (internal) __
 
 Alternatively, Lie algebras are the algebras over certain quadratic [[operad]], called the [[Lie operad]], which is the [[Koszul dual]] of the [[commutative algebra]] operad.  
 
-## Cohomology
+### General abstract perspective
+ {#GeneralAbstractPerspective}
 
-See [[Lie algebra cohomology]].
+Lie algebras are equivalently groups in "[[infinitesimal space|infinitesimal]] geometry".
 
+For instance in [[synthetic differential geometry]] then a Lie algebra of a [[Lie group]] is just the first-order infinitesimal neighbourhood of the unit element (e.g. [Kock 09, section 6](#Kock09)). 
 
-## Lie theory
-
-See
-
-* [[Lie theory]]
-
-  * [[Lie integration]]
-
-  * [[Lie's three theorems]]
-
+More generally in geometric [[homotopy theory]], Lie algebras, being 0-truncated [[L-∞ algebras]] are equivalently "infinitesimal [[∞-group]] [[geometric ∞-stacks]]" (e.g. [here](infinitesimal+cohesive+(infinity,1)-topos#FormalModuliProblems)), also called [[formal moduli problems]] (see there for more). 
 
 ## Extra stuff, structure, properties
 
@@ -96,7 +89,26 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 ## Properties
 
+### General
+
 * [[PBW theorem]]
+
+### Cohomology
+
+See [[Lie algebra cohomology]].
+
+
+### Lie theory
+
+See
+
+* [[Lie theory]]
+
+  * [[Lie integration]]
+
+  * [[Lie's three theorems]]
+
+
 
 ## Examples
 
@@ -152,6 +164,11 @@ Discussion with a view towards [[Chern-Weil theory]] is in
 chapter IV in vol III of 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+Discussion in [[synthetic differential geometry]] is in 
+
+*  {#Kock09} [[Anders Kock]], section 6 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
 
 [[!redirects Lie algebras]]
 
