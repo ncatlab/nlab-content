@@ -25,15 +25,29 @@
 [[!redirects Aufhebungs relation]]
 
 ##Idea
-_Aufhebung_ (sublation) is a central concept in the dialectical logic of the German philosopher G. W. F. Hegel. The German expression has several meanings for which _tollere, elevare, preservare_ would be Latin equivalents. As this polysemy is important for the concept and difficult to perserve in translation we will use the German term.
+_Aufhebung_ (sublation) is a central concept in the dialectical logic of the German philosopher G. W. F. Hegel. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents. As this polysemy is important for the concept and difficult to preserve in translation we will use the German term.
 
 In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]]. It is the mathematical concept that will constitute the primary subject in the following.
+
+##Aufhebung in Hegel's 'Wissenschaft der Logik'
+
+Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as main texts of Hegel's philosophy they fell into disfavour in the second halve of the 19th century and most of the 20th century and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from philological interest was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectic in nature thereby seriously severing the social thought from its broad foundation in ontology and logic. 
+
+The 'Wissenschaft der Logik' has to be considered against the background of philosophy at the early 18th century: Kant had embarked on a project of refunding metaphysics from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these idealist systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
+
+Heavily influenced by the transcendental deductions and the chapters on dialectical paralogisms in Kant's 'Kritik der reinen Vernunft' he intends to start from nothing and justify the autonomous development of the system of categories. Here dialectic and Aufhebung enter the picture as Hegel conceives the categories not only as not given apriorily but actually as becoming: logic ceases to be an inventory of categories but becomes a system of transformations of categories. (Had Eilenberg and MacLane in 1945 considered their terminological loans from philosophy as a kind of joke, Lawvere would 25 years later take this terminological proximity at face value.)
+
+Hegels parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as C.S. Peirce would later put it), and it reassesses the status of negativity or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic identity of being and nothingness in the idea of becoming. It is precisely this 'positively being negative' that finds it expression in the concept of 'Aufhebung'. 
+
+A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of 'being', 'nothingness', and their unity in 'becoming' Hegel determines **dialectic** as 'the higher rational movement... in which the preconditions of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)). He goes on to explicate _Aufheben_ as one of the most important concepts in all of philosophy that constantly recurs everywhere. The sublated - _das Aufgehobene_ is not nothing which is an _unmediated_, but is a mediated - _ein Vermitteltes_, it is nothing - _das Nichtseinde_, but as a result that originated from a being and therefore still carries with it the determination from which it derives. We see here how Hegel tries to combine Leibniz' identification of being with being determinate with Spinoza's 'omni determinatio est negatio': Aufhebung is the mode of this coexistence of negation-affirmation.
 
 ##The Road to _Aufhebung_
 
 >In early 1985, while I was studying the foundations of homotopy theory, it ocurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
 
 ##Related Concepts
+
+* [[Science of Logic]]
 
 * [[graphic monoid]]
 
@@ -45,6 +59,7 @@ In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]]
 &#8206;
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
+* {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I, Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
 * [[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
