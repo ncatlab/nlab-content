@@ -3,5 +3,5 @@
 
 |  $E$  |  $E$-acyclic  |  $E$-local | 
 |-------|------------|-----------|
-| $H \mathbb{Z}_{(p)}$ |   |  $p$-local |
-| $H \mathbb{F}_p$ |  $\not\{p\}$-local |  $p$-complete |
+| $S \mathbb{Z}_{(p)}$ |   |  $p$-local |
+| $S \mathbb{F}_p$ |  $\not\{p\}$-local |  $p$-complete |
