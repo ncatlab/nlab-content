@@ -1,7 +1,23 @@
 
-(...)
 
-The Ran space is defined, in topological and algebro-geometric contexts, in lectures 7-9 of [Lurie 14](#LurieTamagawaNumbers).
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Ran space_ $Ran X$ of a [[space]] is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about points merging to a single point
+
+The Ran space is defined, in topological and algebro-geometric contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
+
+## Properties
+
+* [[nonabelian Poincaré duality]]
+
+
+## Related concepts
+
+* [[factorization algebra]]
 
 
 ## References
@@ -10,9 +26,9 @@ Apparently first introduced in
 
 * [[Alexander Beilinson]] [[Vladimir Drinfeld]], _Chiral algebras_, American Mathematical Society Colloquium Publications *51* (2004)
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
+Reviews include
 
-(...)
+* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
 
 Rational functions as functions on the Ran space in the sense of functions on the complement of finitely many points as these range over all points, is discussed in
 
@@ -22,7 +38,9 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 
 * {#LurieTamagawaNumbers} [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality (282y)_, lecture notes, 2014, ([website](http://www.math.harvard.edu/~lurie/282y.html))
 
-(...)
+Discussion in the context of [[conformal field theory]] includes
+
+* [[Pierre Deligne]], John Morgan, et. al., volumme II, part III of _[[Quantum Fields and Strings]]_
 
 
 [[!redirects Ran spaces]]
