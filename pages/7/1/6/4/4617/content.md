@@ -29,7 +29,7 @@
 
 ## Abstract
 
-For $T$ any abelian [[Lawvere theory]], here we discuss -- in a variation of the theme of [[Isbell conjugation]], in generalization of ([To&#235;n](#Toen)) and following ([Stel](#Stel)) --  a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the left adjoint of the Quillen adjunction is given by sending $\infty$-stacks to their cosimplicial $T$-algebras of functions with values in the canonical $T$-[[line object]], and the adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
+For $T$ any abelian [[Lawvere theory]], here we discuss -- in a variation of the theme of [[Isbell conjugation]], in generalization of ([To&#235;n](#Toen)) and following ([Stel](#Stel)) --  a [[simplicial Quillen adjunction]] between [[model category]] structures on cosimplicial $T$-algebras and on [[simplicial presheaves]] over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models [[∞-stacks]] over duals of $T$-algebras. In these cases the left adjoint of the Quillen adjunction is given by sending $\infty$-stacks to their cosimplicial $T$-algebras of functions with values in the canonical $T$-[[line object]], and the adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
 
 $$
   \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C )
@@ -37,9 +37,9 @@ $$
 
 of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-[[line object]]. 
 
-For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. In these cases, in as far as objects in $\mathbf{H}$ may be understood as [[∞-Lie groupoid]]s, the objects in $\mathbf{L}$ may be understood as [[∞-Lie algebroid]]s. 
+For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. In these cases, in as far as objects in $\mathbf{H}$ may be understood as [[∞-Lie groupoids]], the objects in $\mathbf{L}$ may be understood as [[∞-Lie algebroids]]. 
 
-As an application, we show how Anders Kock's simplicial model for synthetic combinatorial differential forms finds a natural interpretation as the differentiable $\infty$-stack of infinitesimal paths of a manifold. This construction is an $\infty$-categorical and synthetic differential resolution of the _de Rham space_ functor introduced by Grothendieck for the cohomological description of flat connections. We observe that also the construction of the $\infty$-stack of modules lifts to the synthetic differential setup and thus obtain a notion of synthetic $\infty$-vector bundles with flat connection.
+As an application, we show how [[Anders Kock]]'s simplicial model for synthetic combinatorial [[differential forms]] finds a natural interpretation as the differentiable $\infty$-stack of infinitesimal paths of a manifold. This construction is an $\infty$-categorical and synthetic differential resolution of the _de Rham space_ functor introduced by Grothendieck for the cohomological description of flat connections. We observe that also the construction of the $\infty$-stack of modules lifts to the synthetic differential setup and thus obtain a notion of synthetic $\infty$-vector bundles with flat connection.
 
 
 ## Models for $\infty$-stacks and their function algebras {#Models}
@@ -203,13 +203,14 @@ factors the digonal, and the morphism on the left is a weak equivalence, since i
 
 ### Simplicial presheaves on duals of $T$-algebras
 
-A good notion of a generalized [[space]] modeled on objects in a category $C$ is a [[nLab:sheaf]] on $C$. A good notion of an [[nLab:∞-groupoid]] in such generalized spaces is an [[nLab:(∞,1)-sheaf]] on $C$. Such objects are modeled by the [[nLab:model structure on simplicial presheaves]] on $C$.
+A good notion of a generalized [[space]] modeled on objects in a category $C$ is a [[nLab:sheaf]] on $C$. A good notion of an [[nLab:∞-groupoid]] in such generalized spaces is an [[(∞,1)-sheaf]] on $C$. Such objects are modeled by the [[model structure on simplicial presheaves]] on $C$.
 
 We are interested here in that case that 
 
 $$
   T \subset C \hookrightarrow T Alg^{op}
 $$ 
+
 
 is a [[small category|small]] [[full subcategory]] of the [[nLab:opposite category]] of $T$-algebras, for $T$ an abelian Lawvere theory. In the remainder of this section we assume such a choice to be fixed. Below in the section on [Examples and applications](#Examples) we discuss concrete choices of interest.
 
@@ -929,6 +930,7 @@ This is considered in ([Ben-Zvi/Nadler, prop. 3.1](#BenZviNadler)).
 The above [Yoneda-Quillen adjunction](#YonedaQuillenAdjunction) for $T$ the theory of commutative $k$-algebras is compatible with this in that it also does  model the $(\infty,1)$-Yoneda extension of the inclusion
 
 $$
+
   T Alg_k^{op} \hookrightarrow (T Alg_k^{\Delta})^{op}
 $$
 
@@ -1166,31 +1168,6 @@ The model structure is described in detail at <a href="http://ncatlab.org/nlab/s
 
 The structure of a [[simplicial model category]] is described in detail at [[model structure on cosimplicial abelian groups]].
 
-## Further questions
-
-+-- {: .query}
-
-[[Urs Schreiber]]: want to work out the following:
-
-if $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]] we have the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor $\Pi$
-
-$$
-  \Pi : Sh_{(\infty,1)}(C) \to \infty Grpd \simeq Top
-$$
-
-which forms geometric realization of simplicial spaces. In its kernel (preimage of contractible spaces) sit objects such as $\mathbf{B}^n R$ that have nontrivial homotopy groups in $Sh_{(\infty,1)}(C)$ but which nevertheless become contractibe in $\infty Grpd$ under $\Pi$.
-
-We can think of this kernel of $\Pi$ hence as being smooth objects that have "no topology". These should at least include the $\infty$-Lie algebroids. So it ought to be true that the inclusion
-
-$$
-  ((T Alg^{\Delta})^{op})^\circ \hookrightarrow Sh_{(\infty,1)}(C)
-$$
-
-lands in the kernel of $\Pi$. Now, by statement discussed at [[∞-Lie groupoid]], $\Pi$ does not in general preserve [[(∞,1)-limit]]s, but it does preserve [[homotopy fiber]]s. So every object that is successively built form extensions classified by maps $A \to \mathbf{B}^n R$ will be sent by $\Pi$ to a contractible space.
-
-But at least if $T$ is the theory of ordinary $k$-algebras, it is true that the objects in the image of the inclusion are of this form, since in terms of the [[derived functor]] of the inclusion 1-functor those are duals of [[Sullivan algebra]]s. 
-
-=--
 
 
 ## Related concepts
@@ -1201,29 +1178,30 @@ But at least if $T$ is the theory of ordinary $k$-algebras, it is true that the 
 
 The Quillen adjunction over abelian $T$-algebras that we consider generalizes that discussed in 
 
-* [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
-{#Toen}
+* {#Toen}[[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+
 
 over ordinary commutative $k$-algebras. See also [[rational homotopy theory in an (infinity,1)-topos]].
 
 The generalization to arbitrary abelian $T$-algebras and the application to synthetic differential geometry is the content of 
 
-* [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
-{#Stel}
+* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+
+* {#Stel13} [[Herman Stel]], _Cosimplicial $C^\infty$-rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
 
 on which this entry here is based.
 
 The considerations in 
 
-* [[David Spivak]], _Derived smooth manifolds_  Duke Math. J. Volume 153, Number 1 (2010), 55-128. ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf))
-{#Spivak}
+* {#Spivak} [[David Spivak]], _Derived smooth manifolds_  Duke Math. J. Volume 153, Number 1 (2010), 55-128. ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf))
+
 
 on [[derived smooth manifold]]s may be considered as complementary to the approach taken here: there simplicial $C^\infty$-rings are considered, instead of cosimplicial ones. A fully comprehensive treatment of _derived synthetic differential geometry_ would consider the combination of both aspects: simplicial presheaves on duals of simplicial $C^\infty$-rings with a functor $\mathcal{O}$ taking them to cosimplicial-simplicial $C^\infty$-rings. 
 
 For ordinary commutative algebras the generalizaton of Toen's setup to geometry over duals of simplicial algebras is used for instance in
 
-* [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
-{#BenZviNadler}
+* {#BenZviNadler} [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
+
 
 
 [[!redirects function algebras on ∞-stacks]]
