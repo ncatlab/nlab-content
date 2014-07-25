@@ -20,7 +20,7 @@ The classical _fracture theorem_ is a basic fact in [[number theory]]/[[arithmet
 ### In number theory and arithmetic geometry
  {#ArithmeticFractureSquares}
 
-The number theoretic statement is the following:
+The  statement in [[number theory]]/[[arithmetic geometry]] is the following:
 
 +-- {: .num_prop #ArithmeticFractureSquare}
 ###### Proposition
@@ -92,7 +92,7 @@ This kind of cover plays a central role in [[number theory]], see for instance t
 
 =--
 
-### In (stable) homotopy theory
+### In homotopy theory
  {#InHomotopyTheory}
 
 In [[homotopy theory]] the corresponding statement is that [[homotopy types]] may be decomposed into that of [[rational homotopy types]] and [[p-complete homotopy types]] of [[p-local homotopy types]].
@@ -118,8 +118,62 @@ of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedg
 
 This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick survey is in [Riehl 14, theorem 14.4.14](#Riehl14).
 
-Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer, section 2](#Bauer)).
+### In stable homotopy theory
 
+Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer 11, section 2](#Bauer11)).
+
+For $p$ a [[prime number]] write
+
+* $L_p$ for [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{F}_p}$, hence for [[p-completion]] $(-)_p^\wedge$;
+
+* $L_{\mathbb{Q}}$ for the [[Bousfield localization of spectra]] at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q} \simeq H \mathbb{Q}$, hence for [[rationalization]].
+
++-- {: .num_prop }
+###### Proposition
+**(Sullivan arithmetic square)**
+
+For every [[spectrum]] $X$ the canonical square
+
+$$
+  \array{
+    && L_{\mathbb{Q}}X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_{\mathbb{Q}}
+    \left(
+      \prod_p L_p X
+    \right)
+    &&  &&
+    X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && \prod_p L_p X
+  }
+$$
+
+=--
+
+This is originally due to ([Sullivan 05](#Sullivan05), it is recalled for instance as ([Bauer 11, lemma 2.1](#Bauer11)).
+
+More generally
+
++-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
+###### Proposition
+
+Let $S (\mathbb{Q}/\mathbb{Z}) = \vee_p S \mathbb{F}_p$, then the product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at
+
+$$
+  \prod_p L_p X
+  \simeq
+   L_{S (\mathbb{Q}/\mathbb{Z})} X
+  \,.
+$$
+
+=--
+
+(e.g. [Bauer 11, below prop. 2.2](#Bauer11), [Strickland 12](http://mathoverflow.net/a/91057/381)).
 
 +-- {: .num_remark }
 ###### Remark
@@ -136,6 +190,8 @@ This procedure is known in homotopy theory as working "one prime at a time".
 
 =--
 
+
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -145,7 +201,7 @@ Including this into the statement of of prop. \ref{FractureForSpectra} says that
 
 $$
   \array{
-    && X_{\mathbb{Q}} && \longleftarrow && G_{H\mathbb{F}_p}(X)
+    && X_{\mathbb{Q}} && \longleftarrow && G_{S (\mathbb{Q}/\mathbb{Z})}(X)
     \\
     & \swarrow && \nwarrow && \swarrow
     \\
@@ -177,6 +233,7 @@ In an [[tangent cohesive (∞,1)-topos]] every [[stable homotopy type]] is canon
 $$
   X \simeq \flat_{dR}\Sigma X   \underset{\Pi \flat_{dR}\Sigma X}{\times}  \Pi X
 $$
+
 
 See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)_.
 
@@ -221,7 +278,7 @@ Hence under [[Isbell duality|algebra/geometry duality]] and in view of the [[fun
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]].
 
-* {#Bauer} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011 ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 * {#Riehl14} [[Emily Riehl]], _Categorical homotopy theory_, new mathematical monographs 24, Cambridge University Press 2014 (published version)
 
