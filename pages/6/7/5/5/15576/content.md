@@ -1,7 +1,7 @@
 
 **Generalized uniform structures**
 
-| object | [[monoid]] | [[promonoid]] | symmetric versions | | |
+| object | [[monoid]] | [[pro-object|pro]]-monoid | symmetric versions | | |
 | - | - | - | - | - | - |
 | [[binary relation]] | [[preorder]] | [[quasiuniformity]] | [[symmetric relation]] | [[equivalence relation]] | [[uniformity]] |
 | [[binary function]] to $[0,\infty)$ | [[quasipseudometric]] | [[quasiprometric]] | [[symmetric binary function]] | [[pseudometric]] | [[prometric]] |
