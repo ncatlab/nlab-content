@@ -207,7 +207,7 @@ More in detail: this is a long collection of (in parts) long lectures by many to
 
 * [[BRST complex]]
 
-##### Chapter 5. Further construcitons 
+##### Chapter 5. Further constructons 
 
 * [[Ran space]]
 
