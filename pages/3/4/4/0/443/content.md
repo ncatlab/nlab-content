@@ -81,16 +81,21 @@ splittings of all idempotents. All symmetric idempotents have splittings, but th
 order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
 split. It follows that it can't have (co)equalisers.
 
-However, $Rel$ has _weak_ [[equalizers]], therefore one can take its
-[[exact completion]]. This happens to be the category of complete
-sup-lattices and sup-preserving maps. And the tensor product on $Rel$
-extends to the [[exact completion]]. 
-
 Since $Rel$ is the category of _free algebras_ ([[Kleisli
 category]]) for the powerset monad, there is, indeed, very little chance
 of a limit of such algebras being free again. To get decent limits,
 one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
 viz., the category of complete [[suplattices]].
+
+### Weak equalizers and completion
+As $Rel$ has _weak_ [[equalizers]], one can take its
+[[exact completion]]. This happens to be the category of complete
+sup-lattices and sup-preserving maps. And the tensor product on $Rel$
+extends to the [[exact completion]]. 
+
+The Freyd completion of REL, which is equivalent to the category of basic pairs which appear in formal topology, has all limits exactly because REL has products and weak equalizers. The Freyd completion adds freely a strong factorization system to a(ny) category C and it has products if C has products, it has equalizers if C has weak equalizers.
+
+
 
 ### In the Double Category of Relations###
 If you insert the category $Rel$ into the [[double category]]
@@ -153,7 +158,9 @@ For generalizations of $Rel$ see
 ## References ##
 
 * Grandis, M., Pare, R. :Limits in double categories. Cahiers Topologie Ge &#769;om. Diffe &#769;rentielle Cate &#769;g. 40(3), 162&#8211;220 (1999)
-* [categories: Limits and colimits in Rel?](http://thread.gmane.org/gmane.science.mathematics.categories/8027), [categories: Limits in REL](http://thread.gmane.org/gmane.science.mathematics.categories/8186)
+* Bucalo, A., Rosolini, G., Completions, comonoids, and topological spaces
+Annals of Pure and Applied Logic 137, 104-125 (2006) 
+* _Credits for the section on limits go to the contributors of the following threads on the categories list:_ [categories: Limits and colimits in Rel?](http://thread.gmane.org/gmane.science.mathematics.categories/8027), [categories: Limits in REL](http://thread.gmane.org/gmane.science.mathematics.categories/8186)
 
 
 
