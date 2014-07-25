@@ -1,6 +1,8 @@
 
 ## Related concepts
 
+* [[Ran space]]
+
 * [[factorization algebra]], [[topological chiral homology]]
 
 * [[Weil conjecture on Tamagawa numbers]]
