@@ -25,9 +25,14 @@ Accordingly, there are [[model category]] structures on [[sSet-categories]] that
 
 * there is a model structure on $SSet$-enriched categories whose fibrant objects are [[∞-groupoid]]/[[Kan complex]]-enriched categories and which models [[(∞,1)-categories]];
 
-* there is another model structure on [[sSet-categories]] whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]].
+ This we discuss [below](ModelForInfinityCategories).
+
+* there is another model structure on [[sSet-categories]] whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]]. 
+
+  For more on this see [elsewhere](%28infinity%2C2%29-category#TotMod)
 
 Both are special cases of a [[model structure on enriched categories]].
+
 
 ## Model for $(\infty,1)$-categories
  {#ModelForInfinityCategories}
@@ -35,7 +40,10 @@ Both are special cases of a [[model structure on enriched categories]].
 Here we describe the model category structure on [[SSet Cat]] that 
 makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
-**Definition** An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is called a **weak equivalence** precisely if
++-- {: .num_defn}
+###### Definition
+
+An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is called a **weak equivalence** precisely if
 
 * it is **essentially surjective** in that the induced functor of [[homotopy categories]] is an ordinary [[essentially surjective functor]];
 
@@ -49,9 +57,20 @@ makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
 Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work by Dwyer-Kan on [[simplicial localization]]. 
 
-**Proposition** A [[Quillen equivalence]] $C \stackrel{\leftarrow}{\to} D$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
+=--
 
-**Proposition** The category [[SSet Cat]] of [[small category|small]] [[simplicially enriched categories]] carries the structure of a [[model category]] with
+
++-- {: .num_prop}
+###### Proposition
+
+A [[Quillen equivalence]] $C \stackrel{\leftarrow}{\to} D$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
+
+=--
+
++-- {: .num_prop #BergnerModelStructure}
+###### Proposition
+
+The category [[SSet Cat]] of [[small category|small]] [[simplicially enriched categories]] carries the structure of a [[model category]] with
 
 * weak equivalences the Dwyer-Kan equivalences;
 
@@ -62,15 +81,44 @@ Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work b
 
   1. the induced functor $\pi_0(F) : Ho(C) \to Ho(D)$ on [[homotopy categories]] is an [[isofibration]].
 
+=--
+
+([Bergner 04](#Bergner04))
+
++-- {: .num_remark}
+###### Remark
 
 In particular, the fibrant objects in this structure are the [[Kan complex]]-enriched categories, i.e. the strictly [[∞-groupoid]]-enriched ones (see [[(n,r)-category]]).
 
-### Related concepts
+=--
+
+
+
+## Properties
+
+
++-- {: .num_prop #RightProperness}
+###### Proposition
+
+The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[right proper model category]].
+
+
+=--
+
+([Bergner 04, prop. 3.5](#Bergner04))
+
+
+## Related concepts
+
+* [[model structure for quasi-categories]]
+
+* [[relation between quasi-categories and simplicial categories]]
 
 [[!include table - models for (infinity,1)-operads]]
 
 
-### References
+## References
+
 
 A model category structure on the category of $sSet$-categories with a fixed set of objects was first given in 
 
@@ -78,7 +126,7 @@ A model category structure on the category of $sSet$-categories with a fixed set
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
-* [[Julie Bergner]], _A model category structure on the category of simplicial categories_ , Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
+* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_ , Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
 
 A survey is in section 3 of
 
@@ -88,29 +136,12 @@ See also section A.3.2 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-
-## Model for $(\infty,2)$-categories
-
-> for the moment see [[(∞,2)-category]] for more on this
-
-## Related concepts
-
-* [[model structure for quasi-categories]]
-
-* [[relation between quasi-categories and simplicial categories]]
-
-## References
-
-Section A.3 of 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-Also
+and
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
-Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] sturcture which presents [[(infinity,1)-categories]], see
 
+Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] structure which presents [[(infinity,1)-categories]], see
 
 * {#Horel14} Geoffroy Horel, _A model structure on internal categories_ ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
 
