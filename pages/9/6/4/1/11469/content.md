@@ -146,6 +146,10 @@ The proof is outlined in the lecture notes
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality (282y)_, lecture notes, 2014 ([web](http://www.math.harvard.edu/~lurie/282y.html))
 
+See also the lecture notes
+
+* [[Jacob Lurie]], _Tamagawa numbers via nonabelian Poincare duality_, 5 lectures at [Young Topologists Meeting 2014](http://www.math.ku.dk/english/research/conferences/2014/ytm2014), notes taken by [[Aaron Mazel-Gee]], [pdf](http://math.berkeley.edu/~aaron/livetex/lurie-tamagawa-poincare.pdf).
+
 The idea of the relationship between [[Tamagawa numbers]] and [[moduli spaces]] of [[vector bundles]] goes back to [[Günter Harder]], who primarily considered the case $G = SL_n$.
 
 * [[Günter Harder]], _Eine Bemerkung zu einer Arbeit von P. E. Newstead._, Journal f&#252;r die reine und angewandte Mathematik, 242 (1970): 16-25, [eudml](http://eudml.org/doc/151010).
