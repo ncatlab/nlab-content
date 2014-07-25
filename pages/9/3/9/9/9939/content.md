@@ -92,6 +92,54 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 
 ## Properties
 
+### At Moore spectra of abelian groups
+
+An basic special case of $E$-localization of spectra is given by $E = S A$ the [[Moore spectrum]] of an [[abelian group]] $A$. For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]], see examples \ref{pLocalization} and \ref{pCompletion} below for more.
+
++-- {: .num_prop}
+###### Proposition
+
+For $A_1$ and $A_2$ two [[abelian groups]] then the following are equivalent
+
+1. the Bousfield localizations at their [[Moore spectra]] are equivalent 
+
+   $$
+     L_{S A_1} \simeq L_{S A_2}
+     \,;
+   $$
+
+1. $A_1$ and $A_2$ have the same _type of acyclicity_, meaning that 
+ 
+   1. every [[prime number]] $p$ is invertible in $A_1$ precisely if it is in $A_2$;
+
+   1. $A_1$ is a [[torsion group]] precisely if $A_2$ is.
+
+=--
+
+recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
+
+This means that given an abelian group $A$ then 
+
+* either $A$ is torsion, then 
+
+  $$
+    L_{S A} \simeq L_{S \mathbb{Z}[I^{-1}]}
+    \,,
+  $$ 
+
+  where $I$ is the set of primes invertible in $A$ and $\mathbb{Z}[I^{-1}] \hookrightarrow \mathbb{Q}$ is the [[localization of a ring|localization]] at these primes of the [[integers]];
+
+* or $A$ is torsion, then 
+    
+  $$
+   L_{S A }\simeq L_{S(\oplus_q \mathbb{F}_q )  }
+   \,,
+  $$
+
+  where the [[direct sum]] is over all [[cyclic groups]] of order $q$ for $q$ a prime not invertible in $A$.
+
+
+
 ### Fracture theorem
 
 The [[fracture theorem]] says how Bousfield localization at [[coproduct]] of spectra is a [[homotopy pullback]] of Bousfield localization separately. See at _[[fracture theorem]]_ for more on this.
@@ -157,7 +205,7 @@ Bousfield locaization at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $
 
 For $p$ a [[prime number]] write $\mathbb{Z}_{(p)}$ for the  [[localization of a ring|localization]] of the [[integers]] _at_ $(p)$,  for the ring of integers with all primes _except_ $p$ inverted. The subring of the [[rational numbers]] with denominator not divisible by $p$.
 
-+-- {: .num_example}
++-- {: .num_example #pLocalization}
 ###### Example
 
 The Bousfiled localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p-localization]]. 
@@ -197,7 +245,7 @@ The $E$-localization of a spectrum in this case is  _[[p-completion]]_.
 
 More generally
 
-+-- {: .num_example}
++-- {: .num_example #pCompletion}
 ###### Example
 
 Bousfield localization at the [[Moore spectrum]] $S \mathbb{F}_p$ is [[p-completion]] to [[p-adic homotopy theory]].
@@ -238,6 +286,8 @@ Lecture notes include
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
  
+* {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
+
 
 Lecture notes in the general context of [[higher algebra]]/[[stable homotopy theory]] include
 
