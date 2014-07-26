@@ -59,7 +59,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 * [[Science of Logic]]
 
-* [[graphic monoid]]
+* [[graphic category]]
 
 * [[generic interval]]
 
@@ -67,7 +67,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 The book by La Palme-Reyes-Zolfaghari (2004) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-The known mathematical results on the Aufhebungs relation is contained in the paper by Kennett-Riehl-Roy-Zaks (2010) which is based on older phd-works by some of the authors.
+The known mathematical results on the Aufhebungs relation are contained in the paper by Kennett-Riehl-Roy-Zaks (2010) which is based on older phd-works by some of the authors.
 
 Further results on essential localizations can be found in the papers by Johnstone (1996) and Lucyshyn-Wright (2011).
 
