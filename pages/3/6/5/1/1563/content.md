@@ -130,7 +130,7 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
 
 (Various of Lawvere's writing don't exist as published articles, but circulate in some form or other. Notably the "[[Archive for Mathematical Sciences & Philosophy]]" run by [[Michael Wright]] has a lot of recordings or lectures by Lawvere, though presently few or none of the files in the archive are available online.)
 
-* _Functorial Semantics of algebraic theories_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
+* _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
