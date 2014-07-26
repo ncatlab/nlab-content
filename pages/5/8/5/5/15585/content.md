@@ -1,0 +1,5 @@
+This page is about [[William Lawvere]]'s Ph.D. thesis:
+
+* _Functorial Semantics of Algebraic Theories_. Originally published as: Ph.D. thesis, Columbia University, 1963 and in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in: Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
+
+In the thesis, Lawvere introduces [[Lawvere theories]] and the [[categorical semantics|functorial perspective]] into model theory. He takes steps towards axiomatizing the category of categories as a foundation for mathematics. This  includes introducing the notion of [[comma category]] as an auxiliary to a definition of [[adjoint functors|adjunction]] implicitly involving an isomorphism of [[2-sided discrete fibrations]].
