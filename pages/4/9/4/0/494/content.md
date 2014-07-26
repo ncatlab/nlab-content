@@ -219,6 +219,25 @@ $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
 
 
+### In terms of graphs/2-sided discrete fibrations
+
+Functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if we have a commutative diagram
+
+$$
+    \array{
+       (L \downarrow Id_D) &&\stackrel{\cong}{\to}&& (Id_C \downarrow R)
+       \\
+       & \searrow && \swarrow
+       \\   
+       && C \times D
+    }
+$$
+
+where the downwards arrows are the maps induced by the projections of the comma categories. This definition of adjoint functors was introduced by [[Lawvere]] in his [[Functorial Semantics of Algebraic Theories|Ph.D. thesis]], and was the original motivation for [[comma categories]].
+
+This diagram can be recovered directly from the image under the equivalence $[C^{op} \times D, Set] \stackrel{\simeq}{\to} DFib(D,C) $ described at [[2-sided fibration]] of the isomorphism of induced [[profunctors]] $C^{op} \times D \to Set$ (see above at "In terms of Hom isomorphism"). Its relation to the hom-set definition of adjoint functors can thus be understood within the general paradigm of [[Grothendieck construction]]-like correspondences.
+
+
 ### For $(\infty,1)$-functors 
 
 
