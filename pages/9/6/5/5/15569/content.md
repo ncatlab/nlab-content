@@ -20,7 +20,59 @@ Notice that the idea of "inter-geometric theory" is ancient, it originates with 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
 
 
-## Preliminaries on differential cohesion
+## Fracture squares
+
+Suppose one studies [[loop spaces]], say the [[Witten genus]]. Then one studies the [[moduli stack of elliptic curves]] $\bar\mathcal{M}_{ell}$. If one is sambitious and considers not just [[modular forms]] but [[topological modular forms]] here, then this is to be taken over [[Spec(Z)]], hence is the stack of solutions of the [[Weierstrass equation]] 
+
+$$
+  y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
+  \,.
+$$
+
+This stack may be hard to analyze. A common approach is to consider elliptic curves over the [[rational numbers]] and over the [[p-adic integers]] and re-built the general case from this.
+
+* p-adic integers
+
+* integral adeles
+
+* adeles
+
+* ...
+
+This underlies the following fact
+
++-- {: .num_lemma}
+###### Lemma
+
+The canononical maps between the [[commutative rings]] of [[integers]] $\mathbb{Z}$, of [[rational numbers]] $\mathbb{Q}$ of [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ and of [[adeles]] $\mathbb{A}_{\mathbb{Q}}$ form a square [[commuting diagram]]
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \mathbb{A}_{\mathbb{Z}}
+  }
+$$
+
+in [[CRing]] which is both a [[pullback]] as well as a [[pushout]] square.
+
+
+=--
+
+(...)
+
+## Ideles
+
+(...)
+
+
+## Differential cohesion
 
 
 The synthetic axiomatics which we consider here is the following.
@@ -178,31 +230,3 @@ where the top pairs come from the formula
 since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq \ast$ that the composite right adjoint is fully faithful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
 
 =--
-
-## Fracture squares and ideles
-
-+-- {: .num_lemma}
-###### Lemma
-
-The canononical maps between the [[commutative rings]] of [[integers]] $\mathbb{Z}$, of [[rational numbers]] $\mathbb{Q}$ of [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ and of [[adeles]] $\mathbb{A}_{\mathbb{Q}}$ form a square [[commuting diagram]]
-
-$$
-  \array{
-     && \mathbb{Q}
-     \\
-     & \swarrow && \nwarrow
-     \\
-     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
-     \\
-     & \nwarrow && \swarrow
-     \\
-     && \mathbb{A}_{\mathbb{Z}}
-  }
-$$
-
-in [[CRing]] which is both a [[pullback]] as well as a [[pushout]] square.
-
-
-=--
-
-(...)
