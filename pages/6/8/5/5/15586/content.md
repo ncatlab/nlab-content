@@ -39,7 +39,7 @@ A revised version of the axioms appears as
 
 * F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
-Important reviews of the paper appeared here
+Important reviews of the paper pointing out technical problems appeared here
 
 * J. R. Isbell, _Review of Lawvere 1966_ , Mathematical Reviews **34** (1967) #7332.
 
@@ -61,6 +61,6 @@ See also
 
 * C. McLarty, [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
 
-* mathoverflow, _Category of categories as a foundation for mathematic_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
+* mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
 
 [[!redirects elementary theory of the 2-category of categories]]
