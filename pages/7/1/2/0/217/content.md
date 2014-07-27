@@ -63,11 +63,15 @@ For more details see
 
 ## References
 
-ETCS grow out of Lawvere's experiences of teaching undergraduate set theoretic foundations at Reed college in 1963 and was originally published in 
+ETCS grew out of Lawvere's experiences of teaching undergraduate set theoretic foundations at Reed college in 1963 and was originally published in 
 
 * {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965). ([pdf](http://www.pnas.org/content/50/5/869.full.pdf))
 
-A longer version appears in
+More or less contemporary review is
+
+* C.C. Elgot , _Review_,  JSL **37** no.1 (1972) pp.191-192.
+
+A longer version of Lawvere's 1965 paper appears in
 
 * [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
