@@ -410,3 +410,6 @@ Discussion of rational functions as functions on the [[Ran space]] is in
 
 [[!redirects fracture square]]
 [[!redirects fracture squares]]
+
+[[!redirects arithmetic fracture square]]
+[[!redirects arithmetic fracture squares]]
