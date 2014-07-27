@@ -36,8 +36,8 @@
 |   |  [[Galois representation]] |  " | [[flat connection]] ("[[local system]]") on $\Sigma$ |
 || **automorphy and bundles**  |  |  |  |
 |  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)$ ([[idele class group]]) | " |   | 
-|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)/GL_1(\mathbb{O})$  | " |  [[Cech cohomology|Cech]] [[cocycles]] mod [[coboundaries]] for [[holomorphic line bundles]] with respect to cover by formal disks = [[moduli stack of bundles|moduli stack of line bundles]] $Bun_{GL_1}(\Sigma)$  | 
-|   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$)   | 
+|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)/GL_1(\mathcal{O})$  | " |  $Bun_{GL_1}(\Sigma)$ ([[moduli stack of bundles|moduli stack of line bundles]], by [[Weil uniformization theorem]])  | 
+|   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$, by [[Weil uniformization theorem]])   | 
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
