@@ -1,0 +1,29 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the spirit of the [[function field analogy]], _geometric class field theory_ is analogous to [[class field theory]], but where the latter studies finite abelian extensions of [[global fields]], geometric class field theory studies finite [[covering spaces]] of suitable [[algebraic curves]] over any constant [[perfect field]] $k$, not necessarily a [[finite field]] and possibly of [[characteristic zero]]. In particular $k$ may be the [[complex numbers]] $\mathbb{C}$, in which case the theory is about covering of [[complex|curves]].
+
+As such, geometric class field theory has become part of the [[geometric Langlands program]] and of higher dimensional class field theory.
+
+## References
+
+A brief survey of classical results is in 
+
+* [[Brian Conrad]], _Geometric global class field theory_ ([pdf](http://math.stanford.edu/~conrad/249BPage/handouts/geomcft.pdf))
+
+A fairly comprehensive review of the theory is in the thesis
+
+* {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
+
+Discussion in the context of the [[geometric Langlands correspondence]] includes
+
+* {#BenZvi02} [[David Ben-Zvi]], _Geometric class field theory_, 2002 ([MSRI notes](http://www.msri.org/realvideo/ln/msri/2002/introstacks/ben-zvi/1/index.html))
+
+See also 
+
+* [MO discussion](http://mathoverflow.net/q/73054/381)
