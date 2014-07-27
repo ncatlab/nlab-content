@@ -1,6 +1,74 @@
-Emil Artin's reciprocity law is a reciprocity law in [[class field theory]] for [[global field]]s.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[Emil Artin]]'s reciprocity law is a [[reciprocity law]] in [[class field theory]] for [[global fields]].
+
+For $K$ a [[global field]] there is a canonical map
+
+
+$$
+  \mathbb{I}_K \longrightarrow Gal(K^{ab}/K)
+$$
+
+from its [[group of ideles]] to the [[abelianization]] of its [[Galois group]], given by
+
+$$
+  (\cdots, a_v, \cdots) \mapsto \prod_v Frob_v^{ord_v(a_v)}
+  \,.
+$$
+
+For $K$ a [[number field]], _Artin's reciprocity law_ says that this map is surjective, that it factors through the [[idele class group]] $K^\times \backslash \mathbb{I}_K$ and moreover that further quotienting this by the connected component $\mathcal{O}$ of 1 in the idele class group yields an [[isomorphism]]
+
+$$
+  K^\times \backslash \mathbb{I}_K / \mathcal{O}
+  \stackrel{\simeq}{\longrightarrow}
+  Gal(K^{ab}/K)
+  \,.
+$$
+
+For $K = \mathbb{Q}$ this is also the statement of the [[Kronecker-Weber theorem]], and together this is a starting point of the [[Langlands correspondence]] [[conjecture]], see there for more.
+
+For $K$ a [[function field]] the map is no longer surjective, but yields on the quotient by the [[restricted product]]  $\prod_v \mathcal{O}_v^\times$ an injection with dense image
+
+$$
+  K^\times \backslash \mathbb{I}_K / \prod_v \mathcal{O}_v^\times
+  \hookrightarrow
+  Gal(K^{ab}/K)
+  \,.
+$$
+
+([e.g. Toth 11, p. 3](#Toth11))
+
+Notice that the double quotients appearing here are by the [[Weil uniformization theorem]] analogous to [[moduli stacks of bundles]] on the [[arithmetic curve]] on which $K$ is the field of [[rational functions]]. Under this [[function field analogy]] the analog of Artin's reciprocity law plays a central role in the [[geometric Langlands correspondence]].
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## References
 
 * wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
 * [[Serge Lang]], _Algebraic number theory_, GTM 110, Springer 1970, 1986, 1994, 2000
+
+Disucssion with an eye towards [[geometric class field theory]] is in 
+
+* {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
 [[!redirects Artin's reciprocity law]]
