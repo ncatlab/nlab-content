@@ -42,6 +42,6 @@
 | **non-abelian class field theory and automorphy**  |   |  |  |  |
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$, by [[Weil uniformization theorem]])   | 
-|   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
+|   | [Tamagawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
 |   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]] |
