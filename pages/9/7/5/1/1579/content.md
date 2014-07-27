@@ -62,9 +62,15 @@ Note that if $Rel = \{0,1\} Mat$ denotes the bicategory of [[relation]]s in $Set
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
 
 
+## Related concepts
+
+[[!include generalized uniform structures - table]]
+
+
 ## References
 
 * Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen.  "One Setting for All: Metric, Topology, Uniformity, Approach Structure." ([pdf](http://www.math.yorku.ca/~tholen/ProMat_V_.pdf)) 
+
 
 [[!redirects prometric]]
 [[!redirects prometrics]]
