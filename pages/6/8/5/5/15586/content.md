@@ -41,13 +41,13 @@ A revised version of the axioms appears as
 
 Important reviews of the paper pointing out technical problems appeared here
 
-* J. R. Isbell, _Review of Lawvere 1966_ , Mathematical Reviews **34** (1967) #7332.
+* [[John Isbell|J. R. Isbell]], _Review of Lawvere 1966_ , Mathematical Reviews **34** (1967) #7332.
 
 * G. Blanc. A. Preller, _Lawvere's basic theory of the category of categories_ , JSL **40** (1975) pp.14-18.
 
 A more recent view of Lawvere exposing in particular his 'M&#252;nchhausen' approach to set-theoretic 'foundations' is in
 
-* F. W. Lawvere, _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224.
+* [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224.
 
 Alternative or complementary approaches are
 
@@ -59,7 +59,7 @@ Alternative or complementary approaches are
 
 See also
 
-* C. McLarty, [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
+* [[Colin McLarty|C. McLarty]], [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
 
 * mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
 
