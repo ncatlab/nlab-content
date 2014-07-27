@@ -122,6 +122,8 @@ of G-bundles on a curve_, Ann. Math. __170__, 2, 495&#8211;527 (2009) [pdf](http
 
 * {#Hoffmann02} Norbert Hoffmann, _On vector bundles over algebraic and arithmetic curves_, 2002 ([pdf](http://www.maths.mic.ul.ie/hoffmann/diss.pdf))
 
+* {#Sorger99} [[Christoph Sorger]], _Lectures on moduli  of principal $G$-bundles over algebraic curves_, 1999 ([pdf](http://users.ictp.it/~pub_off/lectures/lns001/Sorger/Sorger.pdf))
+
 Review in the context of [[geometric Langlands duality]] is in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
