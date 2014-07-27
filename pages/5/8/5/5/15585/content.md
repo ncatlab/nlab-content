@@ -12,4 +12,4 @@ It got finally published together with an author's comment and a supplement in:
 
 * Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
 
-In the thesis, Lawvere introduces [[Lawvere theories]] and the [[categorical semantics|functorial perspective]] into model theory. He takes steps towards axiomatizing the [[category of categories]] as a foundation for mathematics. This  includes introducing the notion of [[comma category]] as an auxiliary to a definition of [[adjoint functors|adjunction]] implicitly involving an isomorphism of [[2-sided discrete fibrations]] (cf. Lawvere 2004 pp.12-13).
+In the thesis, Lawvere introduces [[Lawvere theories]] and the [[categorical semantics|functorial perspective]] into model theory. He takes steps towards axiomatizing the [[ETCC|category of categories]] as a foundation for mathematics. This  includes introducing the notion of [[comma category]] as an auxiliary to a definition of [[adjoint functors|adjunction]] implicitly involving an isomorphism of [[2-sided discrete fibrations]] (cf. Lawvere 2004 pp.12-13).
