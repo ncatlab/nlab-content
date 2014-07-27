@@ -39,8 +39,8 @@ A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called 
 
 ##References
 
-* N. Kimura _The structure of idempotent semigroups I_ , Pacific
-Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
+* N. Kimura, _The structure of idempotent semigroups I_ , Pacific
+Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
 
 * F. W. Lawvere, _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
