@@ -51,7 +51,7 @@ A more recent view of Lawvere exposing in particular his 'M&#252;nchhausen' appr
 
 Alternative or complementary approaches are
 
-* [[J. Bénabou]], _Fibered Categories and the foundations of naive category theory_ , JSL **50** (1985) pp.10-37. ([preprint](www.cwru.edu/artsci/phil/Benabou%20Fibered.pdf))
+* [[J. Bénabou]], _Fibered Categories and the foundations of naive category theory_ , JSL **50** (1985) pp.10-37. ([preprint](http://www.cwru.edu/artsci/phil/Benabou%20Fibered.pdf))
 
 * G. Blanc, M. R. Donnadieu, _Axiomatisation de la cat&#233;gorie des cat&#233;gories_ , Cah.Top.G&#233;om.Diff.Cat. **XVII** no. 2 (1976) pp.1-35. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_2/CTGDC_1976__17_2_135_0/CTGDC_1976__17_2_135_0.pdf))
 
