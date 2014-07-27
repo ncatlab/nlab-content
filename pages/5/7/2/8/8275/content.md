@@ -150,6 +150,13 @@ It is straightforward to verify the following.
 3. When applied to any syntopogenous space, the coreflection $(-)^{t b}$ computes the [[specialization order]] of its underlying topology (i.e. its image under $(-)^{t p}$).  In particular, this is the case for topological spaces, proximity spaces, and uniform spaces.
 
 
+## Related concepts
+
+* [[funcoid]]
+
+[[!include generalized uniform structures - table]]
+
+
 ## References
 
 * &#193;kos Cs&#225;sz&#225;r, *Foundations of General Topology*, 1963
@@ -163,6 +170,13 @@ Cs&#225;sz&#225;r uses topogenous orders $\ll$.  Cs&#225;sz&#225;r also defines 
 [[!redirects syntopogenous structures]]
 [[!redirects syntopogeny]]
 [[!redirects syntopogenies]]
+
+[[!redirects symmetric syntopogenous space]]
+[[!redirects symmetric syntopogenous spaces]]
+[[!redirects symmetric syntopogenous structure]]
+[[!redirects symmetric syntopogenous structures]]
+[[!redirects symmetric syntopogeny]]
+[[!redirects symmetric syntopogenies]]
 
 [[!redirects topogenous relation]]
 [[!redirects topogenous relations]]
