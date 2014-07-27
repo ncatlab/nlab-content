@@ -37,32 +37,62 @@ Here we will not present solutions to these rather deep questions. But we do wan
 
 Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
 
-Differential cohesion is a geometric homotopy theory hence a context for [[higher geometry]] $\mathb{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
+A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathb{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
 
 | $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
 |---------|---|-------------------|---|------------------|
 | [[cohesion]] | [[differential cohesion]] | [[infinitesimal cohesion]] |
 | [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
 
-This means that $\mathbf{H}$ is a geometric homotopy theory equipped with a triple of triples of operations, some of which are the following:
+The cohesive structure is reflected in the existence of a 
+triple of triples of operations that naturally exist on all objects in $\mathbf{H}$:
 
 1. [[cohesion]]
 
-   * [[shape modality]] $\Pi$ creates [[geometric realization]]/[[classifying spaces]];
+   * [[shape modality]] $\Pi$ gives [[geometric realization]]/[[classifying spaces]];
 
-   * [[flat modality]] $\flat$ creates underlying point sets/moduli for [[flat connections]]/[[local systems]];
+   * [[flat modality]] $\flat$ gives underlying point sets and moduli for [[flat ∞-connections]]/[[local systems]];
 
-   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat connections
+   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat [[∞-connections]];
 
 1. [[infinitesimal cohesion]]
 
-   * $\flat_{rel}$ creates collection of [[formal disks]]
+   * relative shape modality $\Pi^{rel}$ has as homotopy fibers over $X$ spaces $\Pi^{rel}_{dR}(X)$ whose function spaces are [[rationalizations]] of function spaces on $X$.
+
+   * relative flat modality $\flat^{rel}$ creates collections of [[formal disks]];
+
+   * relative sharp modality $\sharp^{rel}$ induces synthetic differential moduli stacks of non-flat [[∞-connections]]
 
 1. [[differential cohesion]]
 
-   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+   * [[reduction modality]] $\Re$ removes infinitesimal dimensions;
+
+   * [[infinitesimal shape modality]] $\Pi^{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+
+   * [[infinitesimal flat modality]] $\flat^{inf}$ 
 
 
+
+Notice that this is an axiomatics with many different geometric incarnations. For instance there is an incrnation in [[higher differential geometry]] and one in [[higher complex analytic geometry]]. The point of the axiomatics is that all statements derivable from it at "inter-geometric" in that they hold for all these geometries.
+
+One such fact is the following: every $X$ in $\mathbf{H}$ sits in a canonical square
+
+$$
+  \array{
+    && \Pi_{dR} X &&  & && rationalization\;of\;X
+    \\
+    & \nearrow && \searrow && &
+    \\
+    \flat^{rel} \Pi^{rel}_{dR}  X
+    && &&
+    X 
+    & 
+    \\
+    & \searrow && \nearrow && &
+    \\
+    && \flat^{rel} X && & && formal\;disks\;in\;X
+  }
+$$
 
 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
