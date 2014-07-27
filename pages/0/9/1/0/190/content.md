@@ -22,7 +22,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -77,6 +77,7 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
+
 * [[Pos]]
 
 * [[Set]]
@@ -86,6 +87,8 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 * [[Grpd]], [[∞Grpd]]
 
 * **$Cat$**, 
+
+  * [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
   * [[Operad]]
 
