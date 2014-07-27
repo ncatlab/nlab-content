@@ -34,6 +34,7 @@
 | **Galois and class field theory** |   |   |   |
 |   |  [[Galois group]] |  " | $\pi_1(\Sigma)$ [[fundamental group]]  |
 |   |  [[Galois representation]] |  " | [[flat connection]] ("[[local system]]") on $\Sigma$ |
+|    | [[Hilbert reciprocity law]] | [[Artin reciprocity law]] | [[Weil reciprocity law]] |
 || **automorphy and bundles**  |  |  |  |
 |  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)$ ([[idele class group]]) | " |   | 
 |  | [[class field theory]] | " | [[geometric class field theory]] |
