@@ -39,7 +39,7 @@ The 'Wissenschaft der Logik' has to be viewed against the background of philosop
 
 Heavily influenced by the transcendental deductions and the chapters on dialectical paralogisms in Kant's 'Kritik der reinen Vernunft' he intends to start from nothing and justify the autonomous development of the system of categories. Here dialectics and Aufhebung enter the picture as Hegel conceives the categories not only as not given apriorily but as actually  becoming: _logic ceases to be an inventory of categories but becomes a system of transformations of categories!_ (Had Eilenberg and MacLane in 1945 intended their terminological loans from philosophy as a kind of joke, Lawvere would 25 years later take this terminological proximity at face value.)
 
-Hegels parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as C.S. Peirce would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic identity of being and nothingness in the idea of becoming. It is precisely this 'positively being negative' that finds it expression in the concept of 'Aufhebung'. 
+Hegels parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as C.S. Peirce would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic identity of being and nothingness in the idea of becoming. It is precisely this 'positively being negative' that finds its expression in the concept of 'Aufhebung'. 
 
 A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of 'being', 'nothingness', and their unity in 'becoming' Hegel determines **dialectics** as 'the higher rational movement... in which the precondition of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)).
 
@@ -69,11 +69,13 @@ The book by La Palme-Reyes-Zolfaghari (2004) provides a good entry to the mathem
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by Kennett-Riehl-Roy-Zaks (2010) which is based on older phd-works by some of the authors.
 
-Further results on essential localizations can be found in the papers by Johnstone (1996) and Lucyshyn-Wright (2011).
+Further results on essential localizations can be found in the papers by Johnstone (1996), Vitale (2001) and Lucyshyn-Wright (2011).
+
 
 ##References
 
-* [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]] , _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](math.ucr.edu/home/baez/cohomology.pdf))
+
+* [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]] , _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
@@ -111,10 +113,12 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * F. W. Lawvere, _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-* F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+* F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
 
 * [[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
+
+* [[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
