@@ -205,11 +205,13 @@ The idea that a uniformity is an "approximate equivalence relation" can be made 
 
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
 
+
 ## Related concepts
 
-* [[proximity space]], [[syntopogenous space]]
-
 * [[equicontinuous family of functions]]
+
+[[!include generalized uniform structures - table]]
+
 
 ## References
 
@@ -224,10 +226,14 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 * I.M. James, _Topologies and Uniformities_, Springer
 
 * Norman Howes, _Modern analysis and topology_, Springer
+
 * P. Samuel, _Ultrafilters and compactifications of uniform spaces_, Trans. Amer. Math. Soc. __64__ (1948) 100-132
+
 * J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
 
+
 category: topology
+
 [[!redirects uniform space]]
 [[!redirects uniform spaces]]
 [[!redirects uniform structure]]
