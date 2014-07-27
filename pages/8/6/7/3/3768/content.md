@@ -35,8 +35,11 @@
 ### Bundles over curves and the Langlands correspondence
  {#OverCurvesAndTheLanglandsCorrespondence}
 
-For $G$ some [[complex Lie group]] and $\Sigma$ some [[complex curve]], then the [[moduli stack]] of $G$-[[principal bundles]] on $\Sigma$ (which are equivalently [[holomorphic vector bundles]] when $G = \coprod_{n} GL(n,\mathbb{C})$) has a standard description as a double [[coset space|coset]] [[quotient stack]] of the collection of [[formal power series]] around finitely many points in $\Sigma$. 
-This we discuss below in the section
+For $G$ some [[complex Lie group]] and $\Sigma$ some [[complex curve]], then the [[moduli stack]] of $G$-[[principal bundles]] on $\Sigma$ (which are equivalently [[holomorphic vector bundles]] when $G = \coprod_{n} GL(n,\mathbb{C})$) has a standard description as a double [[coset space|coset]] [[quotient stack]] of the collection of [[formal power series]] around finitely many points in $\Sigma$ --  the _[[Weil uniformization theorem]]_. We frist disucss an easy toplogical version of this statement in 
+
+* [Over smooth real surfaces](#OverRealSurfaces)
+
+and then we discuss the complex-analytic version 
 
 * [Over complex curves](#OverComplexCurves)
 
@@ -52,19 +55,99 @@ In summary/preview, the analogy is this:
 
 [[!include function field analogy -- table]]
 
+#### Over smooth real surfaces
+ {#OverRealSurfaces}
+
+Let 
+
+* $\Sigma$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] 2 -- a real [[surface]];
+
+* $G$ a [[connected topological space|connected]] [[topological group]].
+
+* $x \in X$ any point;
+
+* $X^\ast \coloneqq X - \{x\}$
+
+* $D \subset X$ a [[neighbourhood]] of $x$ [[homeomorphism|homeomorphic]] to a [[disk]];
+
+* $D^\ast \coloneqq D - \{x\}$ the corresponding punctured disk around $x$.
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[bijection]] between 
+
+$$
+   [X^\ast,G] \backslash [D^\ast,G] / [D,G]
+   \simeq
+    G Bund(X)_{\sim}
+$$
+
+between the double [[coset space]] of [[topological groups]] as shown on the left and the set of [[equivalence classes]] of topological $G$-[[principal bundles]] on $X$.
+
+=--
+
+e.g. ([Sorger 99, prop. 4.1.1](#Sorger99))
+
++-- {: .proof}
+###### Proof
+
+The key observation is that in $X^\ast$ every $G$-bundle trivializes. Therefore 
+
+$$
+  X^\ast \coprod D \longrightarrow X
+$$
+
+is a [[cover]] of $X$ which is good enough in that degree-1 [[nonabelian cohomology|nonabelian]] [[Cech cohomology]] on this cover with [[coefficients]] in $G$ classifies $G$-[[principal bundles]].
+
+For this cover the group $[D^\ast, G]$ is precisely that of Cech cocycles, and $[D \coprod X^\ast, G]$ that of Cech coboundaries.
+
+=--
+
 #### Over complex curves 
  {#OverComplexCurves}
 
 (...)
 
-[Frenkel 05, section 3.2](#Frenkel05)
+e.g. [Frenkel 05, section 3.2](#Frenkel05)
 
 (...)
 
 #### Over algebraic curves
  {#OverAlgebraicCurves}
 
-(...)
+Let 
+
+* $k$ an [[algebraically closed field]];
+
+* $G$ an [[affine variety|affine]] [[algebraic group]];
+
+* $x\in X$ a [[closed point]];
+
+* $X^\ast = X- \{x\}$;
+
+* $D \coloneqq Spf(k[ [t_x] ])$;
+
+* $D^\ast = \coloneqq Spf(k( (t_x)) )$;
+
++-- {: .num_prop}
+###### Proposition
+**(Weil uniformization theorem)**
+
+There is an Equivalence of [[stacks]]
+
+$$
+   [X^\ast] \backslash [D^\ast,G]/[D,G]
+   \simeq
+   Bun_G(X)
+$$
+
+between the double [[quotient stack]] as shown on the left and the stack of algebraic $G$-[[principal bundles]] on $X$.
+
+=--
+
+e.g. ([Sorger 99, theorem 5.1.1](#Sorger99))
+
 
 
 ## Related concepts
@@ -116,13 +199,17 @@ In summary/preview, the analogy is this:
 * [[Constantin Teleman]], C. T. Woodward, _The index formula for the moduli
 of G-bundles on a curve_, Ann. Math. __170__, 2, 495&#8211;527 (2009) [pdf](http://annals.princeton.edu/annals/2009/170-2/annals-v170-n2-p01-p.pdf)
 
+* {#Sorger99} [[Christoph Sorger]], _Lectures on moduli  of principal $G$-bundles over algebraic curves_, 1999 ([pdf](http://users.ictp.it/~pub_off/lectures/lns001/Sorger/Sorger.pdf))
+
+* {#Heinloth09} [[Jochen Heinloth]], _Uniformization of $\mathcal{G}$-bundles_ ([pdf](http://staff.science.uva.nl/~heinloth/Uniformization_17-8-09.pdf))
+
+
 * References for moduli spaces of bundles over *singular* curves are discussed at MathOverflow [here](http://mathoverflow.net/questions/20702/reference-request-moduli-spaces-of-bundles-over-singular-curves/)
 
 ### Over arithmetic curves
 
 * {#Hoffmann02} Norbert Hoffmann, _On vector bundles over algebraic and arithmetic curves_, 2002 ([pdf](http://www.maths.mic.ul.ie/hoffmann/diss.pdf))
 
-* {#Sorger99} [[Christoph Sorger]], _Lectures on moduli  of principal $G$-bundles over algebraic curves_, 1999 ([pdf](http://users.ictp.it/~pub_off/lectures/lns001/Sorger/Sorger.pdf))
 
 Review in the context of [[geometric Langlands duality]] is in
 
@@ -143,4 +230,3 @@ Review in the context of [[geometric Langlands duality]] is in
 [[!redirects moduli spaces of principal bundles]]
 [[!redirects moduli stack of principal bundles]]
 [[!redirects moduli stacks of principal bundles]]
-
