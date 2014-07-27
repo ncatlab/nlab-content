@@ -684,8 +684,13 @@ A more comprehensive account is in sections 3.9.6, 3.9.7 of
 [[!redirects connections on smooth principal ∞-bundles]]
 [[!redirects connection on a principal infinity-bundle]]
 
+[[!redirects ∞-connection]]
+[[!redirects ∞-connections]]
+
+
 [[!redirects principal ∞-connection]]
 [[!redirects principal ∞-connections]]
+
 [[!redirects principal infinity-connection]]
 [[!redirects principal ∞-connections]]
 [[!redirects principal infinity-connections]]
