@@ -30,6 +30,11 @@ Some of the basic results of the class field theory are the Artin reciprocity th
 
 * [[Langlands correspondence]]
 
+* [[geometric class field theory]]
+
+* [[Artin reciprocity law]]
+
+
 ## References
 
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
