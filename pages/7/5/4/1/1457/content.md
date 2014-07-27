@@ -108,9 +108,12 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
   If the manifold might not be connected, then it still becomes an extended metric space.
 
-## Related pages
+## Related concepts
 
 * [[metric jet]] -- a notion of "tangency" for maps of metric spaces
+
+[[!include generalized uniform structures - table]]
+
 
 [[!redirects metric space]]
 [[!redirects metric spaces]]
