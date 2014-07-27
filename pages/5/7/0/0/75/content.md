@@ -135,7 +135,7 @@ Under [[computational trinitarianism]] this corresponds to a practical foundatio
 *  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 {#Harper}
 
-A foundation for [[algebraic topology]] is this practical spirit is laid out in 
+A foundation for [[algebraic topology]] in this practical spirit is laid out in 
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
   {#EilenbergSteenrod}
