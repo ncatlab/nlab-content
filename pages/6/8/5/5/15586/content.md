@@ -47,7 +47,7 @@ Important reviews of the paper pointing out technical problems appeared here
 
 A more recent view of Lawvere exposing in particular his 'M&#252;nchhausen' approach to set-theoretic 'foundations' is in
 
-* [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224.
+* [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
 
 Alternative or complementary approaches are
 
