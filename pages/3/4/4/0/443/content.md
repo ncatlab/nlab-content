@@ -115,9 +115,9 @@ colimits.
 Writing $\mathcal{V}$ for the category of [[suplattices]], $Rel$ is a
 $\mathcal{V}$-category (see [[enriched category]]). With that in mind, the parallel:
 
-* in [[additive categories]] with [[zero object]], \emph{finitary} (co)[[products]]
+* in [[additive categories]] with [[zero object]], _finitary_ (co)[[products]]
   are [[biproducts]]
-* $\mathcal{V}$-categories with [[zero object]], \emph{arbitrary}
+* $\mathcal{V}$-categories with [[zero object]], _arbitrary_
   (co)[[products]] are [[biproducts]]
 
 is remarkable. This was probably first noticed by Dana May Latch, in
