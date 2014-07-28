@@ -51,7 +51,7 @@ As pointed out by [[John Isbell|J. Isbell]] in 1967, one of Lawvere's results wa
 
 As ETCC also lacked the simplicity of [[ETCS]], it rarely played a role in the practice of category theory in the following and was soon eclipsed by [[topos theory]] in the attention of the research community that generally preferred to hedge their foundations with appeals to G&#246;del-Bernays set-theory or Grothendieck universes.
 
-Nevertheless, the axiomatic treatment of 1963/66 contained also the seminal idea to internally define discrete set-theoretic 'foundations' within a bigger category, that will later on play a central role in Lawvere's aprroach to [[cohesion]]. So when one can view the 1964 ETCS as a forerunner of the Lawvere-Tierney axioms for an elementary topos, one could view ETCC as an anticipation of the 2007 axioms for a [[cohesive topos]].
+Nevertheless, the axiomatic treatment of 1963/66 contained also the seminal idea to internally define discrete set-theoretic 'foundations' within a bigger category, that will later on play a central role in Lawvere's approach to [[cohesion]]. So when one can view the 1964 ETCS as a forerunner of the Lawvere-Tierney axioms for an elementary topos, one could view ETCC as an anticipation of the 2007 axioms for a [[cohesive topos]].
 
 
 ## ET2CC: an elementary theory of the 2-category of categories{#ET2CC}
