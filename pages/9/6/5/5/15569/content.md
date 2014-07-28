@@ -29,7 +29,7 @@ The construction of the bottom right items here is a ground-breaking accomplishm
 | 1  | [[7d Chern-Simons theory]] |  |  self-2-2form on [[M5-brane]] |
 | 2  | [[11d Chern-Simons theory]] |  | [[RR-fields]] in [[type II string theory]] |
 
-In all of these higher dimensional cases the inter-geometric aspect appears. Where one assigned an [[elliptic cohomology theory]] to [[worldsheets]] equipped with polarization structure, it is only the [[arithmetic geometry]]  cases of [[supersingular elliptic curves]] which contribute; similarly in the higher dimensioan case it is the [[Artin-Mazur formal groups]] in positive [[characteristic]] which induce at the given height to the [[Calabi-Yau cohomology]].
+In all of these higher dimensional cases the inter-geometric aspect appears. Where one assigned an [[elliptic cohomology theory]] to [[worldsheets]] equipped with polarization structure, it is only the [[arithmetic geometry]]  cases of [[supersingular elliptic curves]] which contribute; similarly in the higher dimensional cases it is the [[Artin-Mazur formal groups]] in positive [[characteristic]] which induce at the given height to the [[Calabi-Yau cohomology]].
 
 Finding the higher analog of the [[string orientation of tmf]] for these higher dimensional cases is as desirable as it seems to be intractable without some more inter-geometric theory to guide one.
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
@@ -39,7 +39,7 @@ Here we will not present solutions to these rather deep questions. But we do wan
 
 Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
 
-A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathb{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
+A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathbf{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
 
 | $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
 |---------|---|-------------------|---|------------------|
@@ -74,7 +74,7 @@ triple of triples of operations that naturally exist on all objects in $\mathbf{
    * [[infinitesimal flat modality]] $\flat^{inf}$ 
 
 
-Notice that this is an axiomatics with many different geometric incarnations. For instance there is an incrnation in [[higher differential geometry]] and one in [[higher complex analytic geometry]]. The point of the axiomatics is that all statements derivable from it at "inter-geometric" in that they hold for all these geometries.
+Notice that this is an axiomatics with many different geometric incarnations. For instance there is an incarnation in [[higher differential geometry]] and one in [[higher complex analytic geometry]]. The point of the axiomatics is that all statements derivable from it at "inter-geometric" in that they hold for all these geometries.
 
 One such fact is the following: every $X$ in $\mathbf{H}$ sits in a canonical square
 
@@ -95,7 +95,7 @@ $$
   }
 $$
 
-and the [[stabilization]] of this, equivalently the result of passinng [[mapping spectrum|spectrum-valued functions]] on this yields
+and the [[stabilization]] of this, equivalently the result of passing [[mapping spectrum|spectrum-valued functions]] on this yields
 
 $$
   \array{
@@ -135,7 +135,7 @@ We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele c
 
 ### In arithmetic geometry
 
-Suppose one studies [[loop spaces]], say the [[Witten genus]]. Then one studies the [[moduli stack of elliptic curves]] $\bar\mathcal{M}_{ell}$. If one is sambitious and considers not just [[modular forms]] but [[topological modular forms]] here, then this is to be taken over [[Spec(Z)]], hence is the stack of solutions of the [[Weierstrass equation]] 
+Suppose one studies [[loop spaces]], say the [[Witten genus]]. Then one studies the [[moduli stack of elliptic curves]] $\bar\mathcal{M}_{ell}$. If one is ambitious and considers not just [[modular forms]] but [[topological modular forms]] here, then this is to be taken over [[Spec(Z)]], hence is the stack of solutions of the [[Weierstrass equation]] 
 
 $$
   y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
