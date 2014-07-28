@@ -98,3 +98,7 @@ The additive and multiplicative unit and counit may be similarly defined.  Note 
 ## References
 
 * D. Tall and [[Gavin Wraith|G. Wraith]], Representable functors and operations on rings, _Proc. London Math. Soc._ **3** (1970), 619--643.
+
+[[!redirects birings]] 
+[[!redirects bi-ring]] 
+[[!redirects bi-rings]] 
