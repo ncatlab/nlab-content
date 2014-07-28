@@ -19,24 +19,26 @@
 
 [[!redirects category of categories]]
 
+
 ## Idea
 
 The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for describing the [[Cat|(2-)category of categories]], in view of a categorical [[foundation of mathematics|foundation for mathematics]].
 
 The set of axioms proposed could be thought of as a first step toward refining or [[categorification|categorifying]] the _elementary theory of the category of sets_ ([[ETCS]]). Where the latter axiomatizes a [[base topos]], a fully satisfactory future form of ETCC would axiomatize a base [[2-topos]].
 
-## Idea
-In a broad sense, **elementary theory of the category of categories**, or _ETCC_for short, is an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]].
 
-Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966) and is this system that is sometimes referred to as _the_ ETCC. In the following we will discuss it and the subsequent attempts to repair its technical flaws under this heading in the next [section](#ETCC).
+##  Overview
+In a broad sense, **elementary theory of the category of categories**, or _ETCC_ for short, is an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]].
 
-Taking into account that the intuitively given category of categories is a 2-category, from an n-categorical perspective one would prefer to axiomatize CAT directly as a 2-category and the resulting _elementary theory of the 2-category of categories_, or **ET2CC**, is the subject of section(#ET2CC).
+Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966) and is this system that is sometimes referred to as _the_ ETCC. In the following we will discuss it and the subsequent attempts to repair its technical flaws under this heading in the next section.
 
-### ETCC: Lawvere (1966) and beyond. {#ETCC}
+Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category and the resulting **elementary theory of the 2-category of categories**, or ET2CC, is the subject of section [ET2CC](#ET2CC).
+
+## ETCC: Lawvere (1966) and beyond. {#ETCC}
 
 In his 1963 dissertation launched a life-time project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
 
-The text takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely as a foundational level.
+The 1963 text takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely at a foundational level.
 
 The system of axiom that he proposes in a more elaborate form in 1966 is layered in three parts:
 
@@ -46,9 +48,14 @@ The system of axiom that he proposes in a more elaborate form in 1966 is layered
 
 * The _stronger theory_ then adds two further axioms to the basic theory concerning existence of completions and an 'inaccessible' category (p.18).
 
+As pointed out by Isbell in 1967 one of Lawvere's results was mistaken which left the axiomatics dangling with insufficient power to construct models for categories. Several ways to overcome these problems where suggested in the following but no system achieved univocal approval (cf. Blanc-Preller(1975), Blanc-Donnadieu(1976), McLarty(1991)).
+
+As ETCC also lacked the simplicity of [[ETCS]], it rarely played a role in the practice of category theory in the following and was soon eclipsed by [[topos theory]] in the attention of the research community that generally preferred to hedge their foundations with appeals to G&#246;del-Bernays set-theory or Grothendieck universes.
+
+Nevertheless, the axiomatic treatment of 1963/66 contained also the germ of an idea that will later on play an important role in Lawvere's attempt to axiomatize the concept of [[cohesion]], namely the idea to internally define discrete set-theoretic 'foundations' within a bigger category. So when one can view the 1964 ETCS as a forerunner of the Lawvere-Tierney axioms for an elementary topos, one could view ETCC as an anticipation for the 2007 axioms for a [[cohesive topos]].
 
 
-### ET2CC{#ET2CC}
+## ET2CC: Towards an elementary theory of the 2-category of categories{#ET2CC}
 
 ## Related Pages
 
