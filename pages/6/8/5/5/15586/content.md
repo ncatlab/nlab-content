@@ -9,6 +9,11 @@
 #### Topos Theory
 +-- {: .hide}
 [[!include topos theory - contents]]
+
+The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for describing the [[Cat|(2-)category of categories]], in view of a categorical [[foundation of mathematics|foundation for mathematics]].
+
+##  Overview
+
 =--
 =--
 =--
@@ -22,30 +27,27 @@
 
 ## Idea
 
-The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for describing the [[Cat|(2-)category of categories]], in view of a categorical [[foundation of mathematics|foundation for mathematics]].
-
-##  Overview
-In a broad sense, **elementary theory of the category of categories**, or _ETCC_ for short, is an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]].
+**Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]] with view to a categorical [[foundations of mathematics]].
 
 Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966), and is this system that is sometimes referred to as _the_ ETCC. We will discuss it together with subsequent attempts to repair its technical flaws under this heading in the next section.
 
-Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting **elementary theory of the 2-category of categories**, or ET2CC, is the subject of section [ET2CC](#ET2CC).
+Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting **elementary theory of the 2-category of categories**, or ET2CC, is the subject of a subsequent [section](#ET2CC).
 
 ## ETCC: Lawvere (1966) and beyond {#ETCC}
 
-In his 1963 dissertation Lawvere launched an ambitious long-term project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
+W. Lawvere launched in the early 60s an ambitious long-term project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
 
-The dissertation takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely at a foundational level.
+His 1963 [[Functorial Semantics of Algebraic Theories|dissertation]] takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely at a foundational level.
 
-The system of axiom that he publishes in a more elaborate form in 1966 is layered in three parts:
+The system of axioms that he published in a more elaborate form in 1966, is layered in three parts:
 
 * The _elementary theory of abstract categories_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc.
 
-* The _basic theory_(BT) adds axioms for **1**, **2** and various exactness properties among which is existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$. The final axiom of the basic theory tries to express the _density-adequacy_ of the simple categories like **1** etc. within the metacategory.
+* The _basic theory_ (BT) adds axioms for **1**, **2** and various exactness properties among which is existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$. The final axiom of the basic theory tries to express the _density-adequacy_ of the simple categories like **1** etc. within the metacategory.
 
-* The _stronger theory_(ST) then adds two further axioms to the basic theory concerning existence of completions and an 'inaccessible' category (p.18).
+* The _stronger theory_ (ST) then adds two further axioms to the basic theory concerning existence of completions and an 'inaccessible' category (p.18).
 
-As pointed out by Isbell in 1967, one of Lawvere's results was mistaken, which left the axiomatics dangling with insufficient power to construct models for categories. Several ways to overcome these problems where suggested in the following but no system achieved univocal approval (cf. Blanc-Preller(1975), Blanc-Donnadieu(1976), McLarty(1991)).
+As pointed out by [[John Isbell|J. Isbell]] in 1967, one of Lawvere's results was mistaken, which left the axiomatics dangling with insufficient power to construct models for categories. Several ways to overcome these problems where suggested in the following but no system achieved univocal approval (cf. Blanc-Preller(1975), Blanc-Donnadieu(1976), McLarty(1991)).
 
 As ETCC also lacked the simplicity of [[ETCS]], it rarely played a role in the practice of category theory in the following and was soon eclipsed by [[topos theory]] in the attention of the research community that generally preferred to hedge their foundations with appeals to G&#246;del-Bernays set-theory or Grothendieck universes.
 
@@ -54,24 +56,25 @@ Nevertheless, the axiomatic treatment of 1963/66 contained also the germ of a se
 
 ## ET2CC: an elementary theory of the 2-category of categories{#ET2CC}
 
-For Lawvere ETCS and ETCC have different status, the first provides abstract constant sets as convenient carriers for structured objects, whereas the latter provides the overall ontology of concepts, the intellectual working space.
+For Lawvere ETCS and ETCC have a different status, the first provides abstract constant sets as convenient carriers for structured objects, whereas the latter provides the overall ontology of concepts, the intellectual working space.
 
-Yet from a n-categorical perspective, the categories they axiomatize differ in level only and so it is tempting to think of the second as a sort of [[categorification]] of the first: this suggests to posit an abstract concept 'foundation' that at the level of ETCS shows up as set theory, gets refined to 'category theory' one step higher, then as 2-category theory, and so on.
+Yet from an **n-categorical perspective**, the categories they axiomatize differ in level only and so it is tempting to think of the second as a sort of [[categorification]] of the first: this suggests to posit an abstract concept 'foundation' that at the level of ETCS shows up as set theory, gets refined to 'category theory' one step higher, then as 2-category theory, and so on.
 
-Now what comes closest to such a vision at the moment is probably [[Homotopy type theory]] but truncating such a tower of 'foundations' might be still relevant for applications where concepts of [[2-topos|2-toposes]] are considered and it would also provide an axiomatisation for the meta 2-category CAT suggestive for the generalization to n-CAT.
+Now what comes closest to such a vision at the moment is probably [[homotopy type theory]] but truncating such a tower of 'foundations' might be still relevant for applications where concepts of [[2-topos|2-toposes]] are considered. It would also provide an axiomatisation for the 'familiar' meta 2-category CAT suggestive for the generalization to n-CAT.
 
-At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of how such an **elemenatary theory of the 2-category of categories** (ET2CC) should look like:
+At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of how such an **elementary theory of the 2-category of categories** (ET2CC) should look like:
 
 > Firstly, some exactness axioms amounting to its being a "2-pretopos" in the sense I described here:[[2-categorical logic]] . This gives you an "internal logic" like that of an ordinary (pre)topos.
   
 > Secondly, the existence of certain exponentials (this is optional).
 
-> Thirdly, the existence of a "classifying discrete opfibration" el&#8594;set in the sense introduced by Mark Weber ("Yoneda structures from 2-toposes") which serves as "the category of sets," and internally satisfies some suitable axioms.
+> Thirdly, the existence of a "classifying discrete opfibration" el&#8594;set in the sense introduced by [[Mark Weber]] ("Yoneda structures from 2-toposes") which serves as "the category of sets," and internally satisfies some suitable axioms.
 
 > Finally, a "well-pointedness" axiom saying that the terminal object is a generator, as is the case one level down with in ETCS. This is what says you have a 2-category of categories, rather than (for instance) a 2-category of stacks.
 
 > Once you have all this, you can use finite 2-categorical limits and the "internal logic" to construct all the usual concrete categories out of the object "set".      ([Shulman 2009](#MO-CC))
 
+We can see here how at the end Lawvere's idea of internal set-theoretic 'foundations' resurfaces. Such a level of _discreteness_ seems to be pervasive in this context and e.g. the approach of Przybylek (2014) to the concept of internal 2-cartesian closure takes discreteness as a starting point.
 
 ## Related Pages
 
@@ -85,7 +88,7 @@ At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulm
 
 A revised version of the axioms appears as
 
-* F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+* F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
 
 Important reviews of the paper pointing out technical problems appeared here
 
@@ -109,6 +112,8 @@ See also
 
 * [[Colin McLarty|C. McLarty]], [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
 
-*{#MO-CC} mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
+* {#MO-CC}mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
+
+* M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
 
 [[!redirects elementary theory of the 2-category of categories]]
