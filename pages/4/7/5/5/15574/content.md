@@ -85,7 +85,7 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * [[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
-*  C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1063.5944))
+*  C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/pdf/1063.5944))
 
 * M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
