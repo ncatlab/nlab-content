@@ -27,7 +27,7 @@ The **elementary theory of the 2-category of categories**, or _ETCC_ for short, 
 
 ## Idea
 
-**Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]] with view to a categorical [[foundations of mathematics]].
+**Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]] with a view to the categorical [[foundations of mathematics]].
 
 Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966), and is this system that is sometimes referred to as _the_ ETCC. We will discuss it together with subsequent attempts to repair its technical flaws under this heading in the next section.
 
@@ -51,7 +51,7 @@ As pointed out by [[John Isbell|J. Isbell]] in 1967, one of Lawvere's results wa
 
 As ETCC also lacked the simplicity of [[ETCS]], it rarely played a role in the practice of category theory in the following and was soon eclipsed by [[topos theory]] in the attention of the research community that generally preferred to hedge their foundations with appeals to G&#246;del-Bernays set-theory or Grothendieck universes.
 
-Nevertheless, the axiomatic treatment of 1963/66 contained also the germ of a seminal idea that will later on play a central role in Lawvere's attempt to axiomatize the concept of [[cohesion]], namely the idea to internally define discrete set-theoretic 'foundations' within a bigger category. So when one can view the 1964 ETCS as a forerunner of the Lawvere-Tierney axioms for an elementary topos, one could view ETCC as an anticipation of the 2007 axioms for a [[cohesive topos]].
+Nevertheless, the axiomatic treatment of 1963/66 contained also the seminal idea to internally define discrete set-theoretic 'foundations' within a bigger category, that will later on play a central role in Lawvere's aprroach to [[cohesion]]. So when one can view the 1964 ETCS as a forerunner of the Lawvere-Tierney axioms for an elementary topos, one could view ETCC as an anticipation of the 2007 axioms for a [[cohesive topos]].
 
 
 ## ET2CC: an elementary theory of the 2-category of categories{#ET2CC}
@@ -108,11 +108,13 @@ Alternative or complementary approaches are
 
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
 
+The above remarks from M. Shulman come from the following MO discussion that also offers additional perspectives on ETCC and ET2CC:
+
+* {#MO-CC}mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
+
 See also
 
 * [[Colin McLarty|C. McLarty]], [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
-
-* {#MO-CC}mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
 
 * M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
 
