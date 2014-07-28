@@ -25,7 +25,7 @@ Very generally,
 
   $A : C \to Set$:
 
-  we think of each such copreasheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", this are generalized quantities.
+  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", this are generalized quantities.
 
 Typically the admissible (co)presheaves that are regarded as generalized spaces and quantities modeled on $C$ are required to respect certain properties of $C$:
 
@@ -36,7 +36,7 @@ Typically the admissible (co)presheaves that are regarded as generalized spaces 
   is the [[topos]] of spaces modeled on objects in $C$. More details on how to think of sheaves as generalized spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
 
-* Given any generalized spaces, funcions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in coprosheaves that preserve at least [[product]]
+* Given any generalized spaces, functions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in coprosheaves that preserve at least [[product]]
 
   $CoSh(C) \hookrightarrow CoPSh(C)$.
 
@@ -137,7 +137,7 @@ the **Isbell adjunction**. Here
 
 * $\mathcal{O} := [C^{op},V](j(-), -)$ sends a presheaf $X$ to the copresheaf $U \mapsto [C^{op},V](X,j(U))$;
 
-* $Spec := [C,V]^{op}(j(-),-)$ sends a copresheaf $A$ to the preseheaf $U \mapsto [C,V](A, j^{op}(U))$.
+* $Spec := [C,V]^{op}(j(-),-)$ sends a copresheaf $A$ to the presheaf $U \mapsto [C,V](A, j^{op}(U))$.
 
 If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object]]s in the [[enriched functor category]] as follows. We compute
 
