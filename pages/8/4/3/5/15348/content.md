@@ -53,6 +53,10 @@ For $\mathcal{C}^{op}=\mathcal{M}_2$, the free monoid on two generators, and $H(
 
 The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on countably infinite many generators, and $H=N^N$ exhibits the **infinite J&#243;nsson-Tarski topos** $\mathcal{J}_\infty$, i.e. the category of sets $A$ with an isomorphism to $A^N$, as $Sh(N^N)$ locally.
 
+### J&#243;nsson-Tarski toposes and self-similarity
+
+Work on a categorical concept of self-similarity led [[Tom Leinster|T. Leinster]] to another generalization of the J&#243;nsson-Tarski topos.
+
 +-- {: .query}
 Caveat: this entry is still in progress!
 =--
