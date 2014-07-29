@@ -1,2 +1,2 @@
-[[!redirects justin biber]]
-category: empty
+[[!redirects empty 27]]
+category:empty
