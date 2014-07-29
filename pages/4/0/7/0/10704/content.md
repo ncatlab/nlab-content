@@ -67,7 +67,7 @@ The analogous theory of the [[completion of a space]] involves the [[cyclic grou
 
 For the relation of that to completion see remark \ref{RelationToCompletion} below.
 
-Hence beware the subtle but crucial difference in what a subscript means, depending on wich symbol is being subscriped and whether there are parenthesis or not:
+Hence beware the subtle but crucial difference in what a subscript means, depending on which symbol is being subscribed and whether there are parenthesis or not:
 
 * $\mathbb{Z}_{(p)}$: inverting all primes except $p$;
 
