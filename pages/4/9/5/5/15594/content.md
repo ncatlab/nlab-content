@@ -1,0 +1,12 @@
+See:
+
+* [[empty category]]
+* [[empty context]]
+* [[empty family]]
+* [[empty function]]
+* [[empty set]]
+* [[empty space]]
+* [[empty subset]]
+* [[empty type]]
+
+category:adjective
