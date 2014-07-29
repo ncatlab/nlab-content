@@ -1,20 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Definition
 
@@ -428,12 +425,12 @@ Discussion of respect of $\bar W$ for fibrant objects is discussed in fact 2.8 o
 
 * [[Antonio M. Cegarra]], Benjam&#237;n A. Heredia, Josu&#233; Remedios, _Double groupoids and homotopy 2-types_ ([arXiv:1003.3820](http://arxiv.org/abs/1003.3820))
 
+
+[[!redirects bisimplicial set]]
 [[!redirects bisimplicial sets]]
 
-[[!redirects total decalage]]
-[[!redirects total décalage]]
+[[!redirects simplicial simplicial set]]
+[[!redirects simplicial simplicial sets]]
 
 [[!redirects total simplicial set]]
 [[!redirects total simplicial sets]]
-
-[[!redirects simplicial simplicial set]]
