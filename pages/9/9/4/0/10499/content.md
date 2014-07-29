@@ -309,11 +309,11 @@ $$
     L_F
     L_E X
     &&  &&
-    L_{E\vee F}
+    L_{E\vee F} X
     \\
      & \nwarrow && \swarrow
     \\
-    && L_E
+    && L_E X
   }
 $$
 
@@ -327,7 +327,26 @@ e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 +-- {: .num_remark}
 ###### Remark
 
-This general version is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. In paticular it is used for instance in the construction of [[tmf]], see example \ref{ConstructionOfTmf} below.
+This general version is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. There is a **chromatic** fracture square.
+
+$$
+  \array{
+    && L_{E(n-1)} X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_{E(n-1)}
+    L_{K(n)} X
+    &&  &&
+    L_{E(n)} X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_{K(n)} X
+  }
+$$
+
+In particular it is used for instance in the construction of [[tmf]], see example \ref{ConstructionOfTmf} below.
 
 =--
 
