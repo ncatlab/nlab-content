@@ -55,7 +55,10 @@ The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on 
 
 ### J&#243;nsson-Tarski toposes and self-similarity
 
-Work on a categorical concept of self-similarity led [[Tom Leinster|T. Leinster]] to another generalization of the J&#243;nsson-Tarski topos.
+Work on a categorical concept of self-similarity led [[Tom Leinster|T. Leinster]] (2007) to another generalization of the J&#243;nsson-Tarski topos.
+
+The first hint to a connection stems from the self-similarity system
+$M:\mathbf{1}&#8696;  \mathbf{1}$ with $M=\{0,1\}$ which is just a profunctorial instruction to paste two copies of a space $X$ together and the universal solution none other than the [[Cantor space]] $2^N$.
 
 +-- {: .query}
 Caveat: this entry is still in progress!
