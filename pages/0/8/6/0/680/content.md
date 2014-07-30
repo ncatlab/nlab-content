@@ -588,7 +588,7 @@ Historical references for the Dold--Kan correspondence are
 
 which considers the correspondence for categories of [[modules]], and
 
-* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendugen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
+* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
 
 that generalizes the result to arbitrary [[abelian category|abelian categories]].
 
@@ -640,7 +640,9 @@ The discussion of Dold--Kan in the general context of [[semi-abelian category|se
 Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 
 105--124, Amer. Math. Soc., Providence, RI. (2007)
 
+The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]] here:
 
+* [[Stephen Lack]], [[Ross Street]], _Combinatorial Categorical Equivalences_ , arxiv:1402.7151 (2014).  ([pdf](http://arxiv.org/pdf/1402.715v1.pdf))
 
 [[!redirects Dold--Kan correspondence]]
 [[!redirects Dold?Kan correspondence]]
