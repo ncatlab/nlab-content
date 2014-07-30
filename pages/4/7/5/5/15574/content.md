@@ -33,7 +33,7 @@ In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]]
 
 ##Aufhebung in Hegel's 'Wissenschaft der Logik'
 
-Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectic in nature thereby seriously severing the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
+Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby seriously severing the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
 
 The 'Wissenschaft der Logik' has to be viewed against the background of philosophy in the early 19th century: **Kant** had embarked on a project of 'refoundation', or rather demolition, of metaphysics from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these idealist systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
 
@@ -81,7 +81,7 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
-* {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I, Suhrkamp Frankfurt 1986[1812/13; revised 1831].
+* {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
 * [[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
