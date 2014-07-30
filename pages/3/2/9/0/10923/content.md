@@ -1,1 +1,1 @@
-I'm a postdoc in [G&#246;ttingen](http://www.uni-math.gwdg.de/rbentma/). So far, my only contribution to the nlab has been to correct typos.
+I'm a postdoc in [G&#246;ttingen](http://www.uni-math.gwdg.de/rbentma/). So far, my only contribution to the nlab has been to correct typos and small errors.
