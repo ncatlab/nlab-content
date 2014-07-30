@@ -77,6 +77,8 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]] , _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
+* [[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
 * {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I, Suhrkamp Frankfurt 1986[1812/13; revised 1831].
