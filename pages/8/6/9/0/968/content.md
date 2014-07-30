@@ -46,7 +46,9 @@ in addition, $t_n^{n+1} = 1$
 
 ### As a classifying topos
 
-The [[category]] of cyclic sets, being a [[presheaf category]] is a [[topos]], and hence is the [[classifying topos]] for some [[geometric theory]]. This turns out to be the theory of [[abstract circles]]. ([Moerdijk 96](#Moerdijk96)). Accordingly there is an [[infinity-action]] of the [[circle group]] on the [[geometric realization]] of a cyclic set (see also [Drinfeld 03](#Drinfeld03)).
+The [[category]] of cyclic sets, being a [[presheaf category]] is a [[topos]], and hence is the [[classifying topos]] for some [[geometric theory]]. This turns out to be the theory of [[abstract circles]] ([Moerdijk 96](#Moerdijk96)). 
+A further analysis can be found in ([Caramello Wentzlaff 14](#CaramelloWentzlaff14)).
+Accordingly there is an [[infinity-action]] of the [[circle group]] on the [[geometric realization]] of a cyclic set (see also [Drinfeld 03](#Drinfeld03)).
 
 ### Model category structure and $S^1$-equivariant homotopy theory
  {#ModelCategoryStructure}
@@ -74,6 +76,8 @@ Connections to [[simplicial sets]] are in:
 The identification of the category of cyclic sets as the [[classifying topos]] for [[abstract circles]] is due to 
 
 * {#Moerdijk96} [[Ieke Moerdijk]], _Cyclic sets as a classifying topos_, 1996 ([[MoerdijkCyclic.pdf:file]])
+
+* {#CaramelloWentzlaff14} Olivia Caramello, Nicholas Wentzlaff, _Cyclic theories_, 2014 ([arXiv:1406.5479](http://arxiv.org/abs/1406.5479))
 
 The resulting circle-action on the ([[geometric realization]] of) cyclic sets is also discussed in 
 
