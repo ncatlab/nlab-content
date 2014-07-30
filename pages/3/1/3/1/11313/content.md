@@ -37,7 +37,7 @@ A _stable complex structure_ in a [[manifold]] is an _[[almost complex structure
 
 ## References
 
-* _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
+* _Stable complex and $Spin^c$-structures_  (Appendix D in "Moment maps, Cobordisms, and Hamiltonian Group Actions" V. L. Ginzburg, V. Guillemin, and Y. Karshon.)([[StableComplexSpinC.pdf:file]])
 
 [[!redirects stable complex structures]]
 
