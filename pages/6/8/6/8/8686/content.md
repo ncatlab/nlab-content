@@ -25,7 +25,7 @@ The __Poincar&#233;&#8211;Birkhoff&#8211;Witt theorem__ (often abbreviated to PB
 
 The fact that associated graded algebra is isomorphic to the symmetric algebra is a weak form of the theorem and it is usually proved either by very explicit and long calculation constructing certain representation or by application of the [[zoranskoda:diamond lemma]]. The induced Poisson structure on $Sym(g)$ is the linear Poisson structure for the corresponding $g$. 
 
-The notions of Lie algebra, symmetric algebra, enveloping algebra, etc. can also be formulated in the context of a $k$-linear [[tensor category]] (with countable coproducts over which the tensor product distributes, if one wants to work with ungraded objects), and the PBW theorem remains valid in that context. In particular, the PBW theorem may be formulated and proven for [[superalgebra|super Lie algebras]]. Details may be found in [Deligne-Morgan](#DM).  
+The notions of Lie algebra, symmetric algebra, enveloping algebra, etc. can also be formulated in the context of a $k$-linear [[tensor category]] (with finite direct sums and split idempotents, and also with countable coproducts over which the tensor product distributes in case one wants to work with ungraded objects), and the PBW theorem remains valid in that context. In particular, the PBW theorem may be formulated and proven for [[superalgebra|super Lie algebras]]. Details may be found in [Deligne-Morgan](#DM).  
 
 ## References
 
