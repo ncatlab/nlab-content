@@ -33,7 +33,7 @@ the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal
 
 ### Relation to star-autnomous categories
 
-A compact closed category is a [[star-autonomous category]] with the [[tensor unit]] as [[dualizing object]].
+A compact closed category is a [[star-autonomous category]]: the [[tensor unit]] is a [[dualizing object]].
 
 ## Examples
 
