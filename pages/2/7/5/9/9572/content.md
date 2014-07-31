@@ -137,7 +137,7 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
   $$
     \Phi_{Y \otimes Z}
     =
-    (id \otimes \Phi_Z) \circ (\Phi_Y \otimes id)
+    (\Phi_Y \otimes id) \circ (id \otimes \Phi_Z)
   $$
 
 * [[morphisms]] are given by
