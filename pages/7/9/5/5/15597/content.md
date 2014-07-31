@@ -14,7 +14,7 @@
 
 
 ##Idea
-In 1961 G. Higman proved an important result in [[group theory]] that brings together in an intriguing way concepts from [[computability theory]] and [[finite presentability]].
+In 1961 G. Higman proved an important result in [[group theory]] that brings together in an intriguing way concepts from [[computability theory]] and [[finitely presentable object|finite presentability]].
 
 ##The results
 
@@ -44,6 +44,10 @@ Of course, it is non-trivial that this argument actually works.  ([Lawvere 2002]
 
 
 ##References
+
+* W. Craig, R.L. Vaught, _Finite axiomatizability using additional predicates_ , JSL **23** (1958) pp.269-285.
+
+* M. H&#233;bert, _Finitely presentable morphisms in exact sequences_ , TAC **24** no.9 (2010) pp.209-220.([pdf](http://www.tac.mta.ca/tac/volumes/24/9/24-09.pdf))
 
 * G. Higman, _Subgroups of finitely presented groups_ , Proc.Royal.Soc. London Ser.A (1961) pp.455-475.
 
