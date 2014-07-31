@@ -18,7 +18,10 @@ A functor $i:S\to C$ is __dense__ if it satisfies the following equivalent condi
 
 ##Terminology and History##
  
-Dense functors were defined in [MR0175954](#MR0175954) under the name *left adequate* (the name was actually applied to the subcategory).  The dual notion of *right adequate* was also introduced and subcategories satisfying both were called *adequate*.  It was also shown that while the relation of being left (or right) adequate is not transitive, being adequate is transitive.
+[[John Isbell]] introduced [[dense subcategory|dense subcategories]] in a seminal paper [(Isbell 1960)](#MR0175954) under the name *left adequate*.  The dual notion of *right adequate* was also introduced and subcategories satisfying both were called *adequate*. It was also shown that while the relation of being left (or right) adequate is not transitive, being adequate is transitive.
+
+Later F. Ulmer considered the concept for more general functors $F:C\to D$, not only inclusions $I:C\hookrightarrow D$, and introduced the name _dense_ for them.
+
 
 
 Also, in arXiv v4 of [[Higher Topos Theory|HTT]] this notion (for [[(∞,1)-categories]]) is referred to as *strongly generating*, but that term actually means [[strong generator|something different]].
@@ -44,7 +47,7 @@ an abstract shape category $\mathrm{Sh}(C,D)$ which has the same objects as $C$,
 
 ## References
 
-* {: #MR0175954 } Isbell, J. R. (1960). Adequate subcategories. _Illinois J. Math._, _4_, 541&#8211;552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954)
+* {: #MR0175954 } [[John Isbell|J. R. Isbell]] (1960). Adequate subcategories. _Illinois J. Math._, _4_, 541&#8211;552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954)
 
 [[!redirects adequate subcategory]]
 [[!redirects left adequate subcategory]]
