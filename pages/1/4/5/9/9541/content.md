@@ -26,7 +26,7 @@ For $A$ a [[C-star algebra]], an _odd Fredholm module_ over $A$ is a [[represent
 
 (Here $\mathcal{B}(-)$ denotes [[bounded operators]] and $\mathcal{K}(-)$ denotes [[compact operators]]).
 
-A Fredhom module defines a class in [[K-homology]], hence in [[KK-theory]].
+A Fredholm module defines a class in [[K-homology]], hence in [[KK-theory]].
 
 ## Related concepts
 
