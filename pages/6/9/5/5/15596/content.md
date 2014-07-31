@@ -45,4 +45,10 @@ The following has links to a lot of interesting material on the Thompson groups 
 
 * M. Brin's [Reading list](http://www.math.binghamton.edu/matt/thompson/index.html) on the Thompson groups.
 
+* M. Brin, _Higher dimensional Thompson groups_ , Geom. Ded. **108** no.1 (2004) pp.163-192. ([preprint](http://www.math.binghamton.edu/matt/thompson/hd3a.pdf))
+
 * [[Marcelo Fiore]], [[Tom Leinster]], _An abstract characterization of Thompson's group F_ , arXiv.math/0508617 (2010). ([pdf](http://arxiv.org/pdf/math/0508617v2.pdf))
+
+The following brings out connections between monoidal categories and the higher dimensional Thompson groups:
+
+* J. A. Cohen, _Coherence for rewriting 2-theories_, Phd. Macquarie University 2008. ([arxiv:0904.0125v1](http://arxiv.org/pdf/0904.0125.pdf)) 
