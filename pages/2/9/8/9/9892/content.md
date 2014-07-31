@@ -69,7 +69,7 @@ Other contributions to the issue include the following
 
 * [[Don Page]], _Excluding Black Hole Firewalls with Extreme Cosmic Censorship_ 2013 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
 
-* [[Raphael Bousso]], _Complementarity Is Not Enough_ 2012 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
+* [[Raphael Bousso]], _Complementarity Is Not Enough_ 2012 ([arXiv:1207.5192](http://arxiv.org/abs/1207.5192))
 
 * [[Tom Banks]], W. Fischler, _No Firewalls in Holographic Space-Time or Matrix Theory_ 2013 ([arXiv:1305.3923](http://arxiv.org/abs/1305.3923))
 
