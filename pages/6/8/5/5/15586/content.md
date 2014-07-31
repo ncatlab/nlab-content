@@ -31,19 +31,19 @@ The **elementary theory of the 2-category of categories**, or _ETCC_ for short, 
 
 Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966), and is this system that is sometimes referred to as _the_ ETCC. We will discuss it together with subsequent attempts to repair its technical flaws under this heading in the next section.
 
-Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting **elementary theory of the 2-category of categories**, or ET2CC, is the subject of a subsequent [section](#ET2CC).
+Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting _elementary theory of the 2-category of categories_, or **ET2CC**, is the subject of a subsequent [section](#ET2CC).
 
-## ETCC: Lawvere (1966) and beyond {#ETCC}
+## ETCC: Lawvere (1963) and beyond {#ETCC}
 
 W. Lawvere launched in the early 60s an ambitious long-term project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
 
-His 1963 [[Functorial Semantics of Algebraic Theories|dissertation]] takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely at a foundational level.
+His 1963 [[Functorial Semantics of Algebraic Theories|dissertation]] takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass [[set theory]] completely at a foundational level.
 
 The system of axioms that he published in a more elaborate form in 1966, is layered in three parts:
 
-* The _elementary theory of abstract categories_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc.
+* The _elementary theory of [[category|abstract categories]]_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc.
 
-* The _basic theory_ (BT) adds axioms for **1**, **2** and various exactness properties among which is existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$. The final axiom of the basic theory tries to express the _density-adequacy_ of the simple categories like **1** etc. within the metacategory.
+* The _basic theory_ (BT) adds axioms for **1**, **2** and various exactness properties among which is existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$. The final axiom of the basic theory tries to express the _[[dense subcategory|density]]-adequacy_ of the simple categories like **1** etc. within the metacategory.
 
 * The _stronger theory_ (ST) then adds two further axioms to the basic theory concerning existence of completions and an 'inaccessible' category (p.18).
 
@@ -108,7 +108,7 @@ Alternative or complementary approaches are
 
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
 
-The above remarks from M. Shulman come from the following MO discussion that also offers additional perspectives on ETCC and ET2CC:
+The above remarks from [[Mike Shulman|M. Shulman]] come from the following MO discussion that also offers additional perspectives on ETCC and ET2CC:
 
 * {#MO-CC}mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
 
