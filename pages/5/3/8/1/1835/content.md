@@ -116,7 +116,7 @@ The category of $k$-schemes is closed under finite limits, forming open- and clo
 
 ### Translation between the two approaches
 
-The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to the category $Aff:=Psh(C Ring^{op})$ of [[presheaf|presheaves]] on the opposite category of commutative rings
+The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to $Psh(Aff) \equiv Psh(CRing^{op}) $,  the category of [[presheaf|presheaves]] on the category of affine schemes, or equivalently on the opposite of the category of commutative rings,
 given by
 
 $$(X,\mathcal{O}_X)\mapsto Sch((|Spec (-)|,\mathcal{O}_{Spec(-)}),(X,\mathcal{O}_X))$$
