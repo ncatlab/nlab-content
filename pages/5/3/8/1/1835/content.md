@@ -137,7 +137,7 @@ Demazure-Gabriel steer a middle course involving [[universes]]: assuming two uni
 
 ## Generalizations
 
-In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like [[relative schemes]] (which are just objects in a [[slice category]] $Sch/S$), relative [[noncommutative scheme]]s in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc.
+In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like [[relative schemes]] (which are just objects in a [[slice category]] $Sch/S$), relative [[noncommutative scheme]]s in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc. See also [[generalized scheme]].
 
 ### Underlying topological space vs. underlying locale 
 
@@ -177,7 +177,7 @@ Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says
 ### Other references
 
 * Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
-* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]  -- at the beginning one fins a quick introduction in the light of its higher categorical generalizations 
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]  -- at the beginning one finds a quick introduction in the light of its higher categorical generalizations 
 
 * Wikipedia: [scheme (mathematics)](http://en.wikipedia.org/wiki/Scheme_%28mathematics%29). 
 
