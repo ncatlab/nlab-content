@@ -32,6 +32,7 @@ The generic interval and the results of Wraith (1993) play a role in Lawvere's a
 
 ##Related Concepts
 * [[topological topos]]
+* [[Aufhebung]]
 * [[interval object]]
 * [[sSet]]
 
