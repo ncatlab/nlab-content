@@ -21,9 +21,12 @@ An __$(\infty,2)$-category__ is the special case of $(\infty,n)$-[[(infinity,n)-
 
 It is best known now through a [[geometric definition of higher category]].
 
-Models include 
+Models include:
+ 
 * the definition by [[Carlos Simpson]] and Tamsamani;
+
 * the definition in terms of [[n-fold Segal spaces]];
+
 * a definition in terms of scaled simplicial sets, following Verity's [[simplicial model for weak omega-categories]] by Jacob Lurie (see reference below)
 
 See also the list of all definitions of higher categories at [[(∞,n)-category]].
