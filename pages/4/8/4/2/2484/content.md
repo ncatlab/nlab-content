@@ -10,6 +10,6 @@ $$
 Hom_{schemes}(Spec(R), X).
 $$
 
-Example of nonrepresentable functor of points...
+The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_R$ corresponds to a non-affine scheme.
 
 [[!redirects functors of points]]
