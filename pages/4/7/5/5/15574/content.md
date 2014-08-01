@@ -51,9 +51,11 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 * Aufhebung unites _determinatedness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheave, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
 
-##Lawvere's Path to _Aufhebung_
+##Lawvere's path to _Aufhebung_
 
 >In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
+
+##The mathematics of _Aufhebung_
 
 ##Related Concepts
 
@@ -65,9 +67,9 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 ##A Guide to the Literature
 
-The book by La Palme-Reyes-Zolfaghari (2004) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
+The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-The known mathematical results on the Aufhebungs relation are contained in the paper by Kennett-Riehl-Roy-Zaks (2010) which is based on older phd-works by some of the authors.
+The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10) which is based on older phd-works by some of the authors.
 
 Further results on essential localizations can be found in the papers by Johnstone (1996), Vitale (2001) and Lucyshyn-Wright (2011).
 
@@ -83,39 +85,41 @@ Further results on essential localizations can be found in the papers by Johnsto
 &#8206;
 * {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
-* [[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
+* {JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 * [[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
-*  C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
-* M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
-* F. W. Lawvere, _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+* {#Law89a} F. W. Lawvere, _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
+* {#Law89b} F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* F. W. Lawvere, _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} F. W. Lawvere, _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
 * F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
-* F. W. Lawvere, _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
+* {#Law92} F. W. Lawvere, _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
 
-* F. W. Lawvere, _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+* {#Law94a} F. W. Lawvere, _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
 
-* F. W. Lawvere, _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
+* {#Law94b} F. W. Lawvere, _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
 
-* {#Lawvere96} F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Law96} F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
 
-* F. W. Lawver, _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
+* {#Law99}F. W. Lawvere, _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* F. W. Lawvere , _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
+* {#Law00} F. W. Lawvere , _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
 
-* F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
+* {#Law02} F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
 
-* F. W. Lawvere, _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* {#Law07} F. W. Lawvere, _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
 * F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+
+* {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 * [[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
