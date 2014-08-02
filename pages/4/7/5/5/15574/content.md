@@ -31,7 +31,7 @@ _Aufhebung_ (sublation) is a central concept in the dialectical logic of the Ger
 
 In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]]. It is the mathematical concept that will constitute the primary subject in the following.
 
-##Aufhebung in Hegel's 'Wissenschaft der Logik'
+##_Aufhebung_ in Hegel's 'Wissenschaft der Logik'
 
 Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby seriously severing the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
 
@@ -43,7 +43,7 @@ Hegels parts with the traditional conception mainly in two points: the foundatio
 
 A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of 'being', 'nothingness', and their unity in 'becoming' Hegel determines **dialectics** as 'the higher rational movement... in which the precondition of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)).
 
-He goes on to explicate _Aufheben_ as one of the most important concepts in all of philosophy that constantly recurs everywhere. The sublated - _das Aufgehobene_ is not nothing which is an _unmediated_, but is a mediated - _ein Vermitteltes_; it is nothing - _das Nichtseiende_, but as a result that originated from a being and therefore still carries with it the determination from which it derives. We see here how Hegel tries to combine Leibniz' identification of being with being determinate with Spinoza's 'omni determinatio est negatio': **Aufhebung** is the mode of this coexistence of negation-affirmation.
+He goes on ([p.113](#WdL)) to explicate _Aufheben_ as one of the most important concepts in all of philosophy that constantly recurs everywhere. The sublated - _das Aufgehobene_ is not nothing which is an _unmediated_, but is a mediated - _ein Vermitteltes_; it is nothing - _das Nichtseiende_, but as a result that originated from a being and therefore still carries with it the determination from which it derives. We see here how Hegel tries to combine Leibniz' identification of being with being determinate with Spinoza's 'omni determinatio est negatio': **Aufhebung** is the mode of this coexistence of negation-affirmation.
 
 Clearly, these remarks can not do justice to the richness and subtlety of Hegel's logic and should only serve as canvas against which to get a better grasp of Lawvere's conceptual translation. The points to keep in mind from this view are:
 
@@ -57,7 +57,24 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 ##The mathematics of _Aufhebung_
 
-##Related Concepts
+So now let's get down to business and do some mathematics!
+
+### The mathematics of Ying and Yang
+
+In ([Lawvere 2000](#Law00)) a particular simple example of the adjoint cylinder was suggested that we use in the following as a running thread.
+
+Let $N$ be the natural numbers $\{0, 1,\dots\}$ viewed as a category via their usual ordering. Let $L,R:N\to N$ be the two parallel functors '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
+
+Both are full and faithful, hence candidates for an adjoint cylinder, and so we look now for a third functor $N\to N$ which we will call $T$ in a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_, such that $L\dashv T\dashv R$.
+
+For our simple poset example these adjunctions amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ R \cong id\cong T\circ L$ which in our case just gives $T\circ R = id = T\circ L$, i.e. the thirdness $T$ mediates the _identity_ of $R$ and $S$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as definition for $T$.
+
+Here we also see how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint subcategories_ e.g. for $L(n)=2n$ and $G(n):=3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
+
+The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories of even and odd numbers.
+
+
+##Related pages
 
 * [[Science of Logic]]
 
@@ -65,31 +82,36 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 * [[generic interval]]
 
+* [[Pursuing stacks]]
+
 ##A Guide to the Literature
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
+Lawvere introduced the Hegelian concepts in Lawvere ([1989a](#Lawv89a),[1989b](#Law89b)). They get some attention in Lawvere ([1991](#Lawv91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Lawv89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10) which is based on older phd-works by some of the authors.
 
-Further results on essential localizations can be found in the papers by Johnstone (1996), Vitale (2001) and Lucyshyn-Wright (2011).
+Further results on essential localizations can be found in the papers by [Borceux-Korotenski (1991)](#BK91), [Johnstone (1996)](#JS96), [Vitale (2001)](#VT01) and [Lucyshyn-Wright (2011)](#LW11) or in [SGA 4](#SGA4).
 
 
 ##References
 
+* {#SGA4} M.Artin, A.Grothendieck, J. L. Verdier (eds.) , _Th&#233;orie des Topos et Cohomolgie Etale des Sch&#233;mas - SGA 4_ , Springer LNM **269** Heidelberg 1972. (sec. IV 7.6., pp.414-416)
 
 * [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]] , _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
-* [[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
 * {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
-* {JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
+* {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* [[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
-* {KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
@@ -99,7 +121,7 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * {#Law91a} F. W. Lawvere, _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
-* F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* {#Law91b} F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
 * {#Law92} F. W. Lawvere, _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
 
@@ -121,10 +143,12 @@ Further results on essential localizations can be found in the papers by Johnsto
 
 * {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
-* [[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
+* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
-* [[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
+* {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
+
+* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
