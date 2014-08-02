@@ -59,7 +59,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 So now let's get down to business and do some mathematics!
 
-### The mathematics of Ying and Yang
+### The mathematics of Yin and Yang
 
 In ([Lawvere 2000](#Law00)) a particular simple example of the adjoint cylinder was suggested that we use in the following as a running thread.
 
