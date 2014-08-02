@@ -27,18 +27,17 @@ More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a 
 
 ### $COSHEP$ & $DC$
 
-Unlike the full axiom of choice, countable choice is often considered to be a [[constructive mathematics|constructively]] acceptable principle.  In particular, it does not imply the principle of [[excluded middle]].  It is a consequence of [[COSHEP]].  A stronger version of countable choice, also a consequence of $COSHEP$, is the axiom of [[dependent choice]] ($DC$). $DC$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true); more generally, it is enough to justify sequential reasoning in [[constructive analysis]].
+Unlike the full axiom of choice, countable choice is often considered to be a [[constructive mathematics|constructively]] acceptable principle.  In particular, it does not imply the principle of [[excluded middle]].  It is a consequence of [[COSHEP]].  A stronger version of countable choice, also a consequence of $COSHEP$, is the axiom of [[dependent choice]] ($DC$).  In general, $DC$ is enough to justify results in [[analysis]] involving [[sequences]].
 
 
 ### $AC_{00}$
 
-Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation from $\mathbf{N}$ to itself contains a functional entire relation.  In terms of surjections, this states that any surjection $p\colon X \to \mathbf{N}$ has a section if $X$ is a [[subset]] of $\mathbf{N} \times \mathbf{N}$ and $p$ is the [[restriction]] to $X$ of a product projection.
+Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation from $\mathbf{N}$ to itself contains a functional entire relation.  In terms of surjections, this states that any surjection $p\colon X \to \mathbf{N}$ has a section if $X$ is a [[subset]] of $\mathbf{N} \times \mathbf{N}$ and $p$ is the [[restriction]] to $X$ of a product projection.  $AC_{00}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
 
 
 ### Weak countable choice {#WCC}
 
-The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the fundamental theorem of algebra, i.e., every complex polynomial has a root.
-See [Bridges et al (1998)](#BRS). 
+The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the [[fundamental theorem of algebra]] in the sense that every non-constant complex polynomial has a root; see [Bridges et al (1998)](#BRS). 
 
 
 ## References
