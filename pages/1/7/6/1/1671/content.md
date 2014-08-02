@@ -15,7 +15,7 @@
 
 ## Idea
 
-The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.) All the reasoning in this page is constructive.
+The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.)  All the reasoning in this page is [[constructive mathematics|constructive]].
 
 
 ## Definition
@@ -34,15 +34,17 @@ Unlike the full axiom of choice, countable choice is often considered to be a [[
 
 Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation from $\mathbf{N}$ to itself contains a functional entire relation.  In terms of surjections, this states that any surjection $p\colon X \to \mathbf{N}$ has a section if $X$ is a [[subset]] of $\mathbf{N} \times \mathbf{N}$ and $p$ is the [[restriction]] to $X$ of a product projection.
 
-### Weak countable choice{#WCC}
 
-The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the fundamental theorem of algebra, i.e.\ every complex polynomial has a root.
+### Weak countable choice {#WCC}
+
+The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the fundamental theorem of algebra, i.e., every complex polynomial has a root.
 See [Bridges et al (1998)](#BRS). 
 
 
 ## References
 
 *  {#BRS}Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. [PDF](http://math.fau.edu/richman/Docs/wcc.pdf) [AMS PDF](http://www.ams.org/proc/2000-128-09/S0002-9939-00-05327-2/)
+
 
 category: foundational axiom
 
