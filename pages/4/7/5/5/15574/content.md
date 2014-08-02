@@ -24,6 +24,7 @@
 [[!redirects aufhebung]]
 [[!redirects Aufhebungs relation]]
 
+
 ##Idea
 _Aufhebung_ (sublation) is a central concept in the dialectical logic of the German philosopher G. W. F. Hegel. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
 
@@ -65,14 +66,16 @@ In ([Lawvere 2000](#Law00)) a particular simple example of the adjoint cylinder 
 
 Let $N$ be the natural numbers $\{0, 1,\dots\}$ viewed as a category via their usual ordering. Let $L,R:N\to N$ be the two parallel functors '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
 
-Both are full and faithful, hence candidates for an adjoint cylinder, and so we look now for a third functor $N\to N$ which we will call $T$ in a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_, such that $L\dashv T\dashv R$.
+Both are full and faithful, hence candidates for an adjoint cylinder, and so we look now for a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we will call $T$ , such that $L\dashv T\dashv R$.
 
-For our simple poset example these adjunctions amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ R \cong id\cong T\circ L$ which in our case just gives $T\circ R = id = T\circ L$, i.e. the thirdness $T$ mediates the _identity_ of $R$ and $S$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as definition for $T$.
+For our simple poset example these adjunctions amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$ - the thirdness $T$ mediates the _identity_ of $L$ and $R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as the definition for $T$.
 
-Here we also see how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint subcategories_ e.g. for $L(n)=2n$ and $G(n):=3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
+We also see here how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint_ subcategories e.g. for $L(n)=2n$ and $G(n):=3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
 
-The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories of even and odd numbers.
+The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories $E$ and $O$ of even and odd numbers,  respectively.
 
+Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an idempotent comonad $sk:N\to N$ and an idempotent monad $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
+ 
 
 ##Related pages
 
@@ -84,7 +87,7 @@ The _unity_ of the opposites is finally provided by the encompassing $N$ where t
 
 * [[Pursuing stacks]]
 
-##A Guide to the Literature
+##A guide to the literature
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
@@ -97,9 +100,9 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 ##References
 
-* {#SGA4} M.Artin, A.Grothendieck, J. L. Verdier (eds.) , _Th&#233;orie des Topos et Cohomolgie Etale des Sch&#233;mas - SGA 4_ , Springer LNM **269** Heidelberg 1972. (sec. IV 7.6., pp.414-416)
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , Springer LNM **269** Heidelberg 1972. (sec. IV 7.6., pp.414-416)
 
-* [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]] , _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
+* [[John Baez|J.C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in: J.C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
