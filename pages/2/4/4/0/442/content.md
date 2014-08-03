@@ -147,7 +147,7 @@ in the generic group
 $$m: x^2 \to x^1$$ 
 corresponds to a homomorphism 
 $$F(1) \to F(2)$$
-which by freeness corresponds to an element $1 \to F(2)$, and the element we are after should the product $a b$ of the generators $a, b$ of the free group $F(2) = F(a, b)$. The generators $a, b$ themselves correspond to the two coproduct inclusions 
+which by freeness corresponds to an element $1 \to F(2)$, and the element we are after should be the product $a b$ of the generators $a, b$ of the free group $F(2) = F(a, b)$. The generators $a, b$ themselves correspond to the two coproduct inclusions 
 $$i_1: F(1) \to F(1) + F(1) = F(2) \qquad i_2: F(1) \to F(1) + F(1) = F(2)$$ 
 
 Then, since $M$ is assumed to [[exact functor|preserve products]], we obtain a map 
@@ -348,7 +348,7 @@ This one checks is  $f_* A$.
 
 Here is a more high-powered way to obtain this using the [[monad]]s $K_i$ whose algebras are $T_i$-algebras:
 
-for $A$ a $T_1$-algebra let $f_* A  := K_2 \circ_{K_1} A$ the the evident reflexive [[coequalizer]} 
+for $A$ a $T_1$-algebra let $f_* A  := K_2 \circ_{K_1} A$ the the evident reflexive [[coequalizer]] 
 
 $$
   K_2 K_1 A \stackrel{\to}{\to} K_2 A \to K_2 \circ_{K_1} A
