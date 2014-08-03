@@ -38,7 +38,7 @@ Geometric stacks for the following choices of sites $C$ are called
 
 ## Definition
 
-There are slight variations in the literature on what precisely is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcabonical topology]] in order that it qualifies as **geometric**. 
+There are slight variations in the literature on what precisely is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcanonical topology]] in order that it qualifies as **geometric**. 
 
 A general requirement is that
 
