@@ -35,11 +35,13 @@ In the 1960s R. Thompson introduced three finitely presented [[group|groups]] wi
 
 * [[Jónsson-Tarski topos]]
 
-* [[Higman's theorem]]
+* [[Higman's embedding theorem]]
 
 ##References
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Thompson_groups): Thompson groups.
+
+* [n-caf&#233; blog](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html): _T. Leinster - F and the Shibboleth_, January 2010. 
 
 The following has links to a lot of interesting material on the Thompson groups among them scans of handwritten notes by Thompson:
 
