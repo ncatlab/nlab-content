@@ -24,7 +24,7 @@ Nowadays, the term is applied in a wide range of mathematical fields, and one sp
 
 Typically, such Morita situations involve three ingredients: a 'syntactic' ground level to which the concept Morita equivalence applies, a 'hypersyntactic' level that obtains from an 'idempotent' completion, and a second process of completion to a 'semantic' level where the equivalence relation for the syntactic ground level is defined by plain categorical equivalence e.g. _Morita equivalence_ for small categories is defined as equivalence of their presheaf categories with [[Cauchy completion]] as intermediate hypersyntactic level.
 
-So the broad intuition is that _Morita equivalence_ is a coarse grained semantic equivalence that obtains between syntactic gadgets - basically two theories that have the same category of models. The role of the intermediate hypersyntactic level in this analogy is that of an 'ideal syntax' that already reflects the relations at the semantic level. The categorical equivalence (bimodule) at the semantic level then shows up the intermediate level as a ('Cauchy convergent') bidirectional _translation_ from one syntax into another.
+So the broad intuition is that Morita equivalence is a _coarse grained semantic equivalence that obtains between syntactic gadgets_ - basically two [[theory|theories]] that have the same category of [[model|models]]. The role of the intermediate hypersyntactic level in this analogy is that of an 'ideal syntax' (syntax classifier) that already reflects the relations at the semantic level. The categorical equivalence (bimodule) at the semantic level then shows up at the intermediate level as a ('Cauchy convergent') bidirectional _translation_ from one syntax into another.
 
 ## Classical Morita theorem
 
@@ -78,9 +78,11 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 ## References
 
+* wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
 
-* wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
+* [[Ross Street]], _Quantum Groups - A Path to Current Algebra_, Cambridge UP 2007. ([ps-draft](http://www-texdev.ics.mq.edu.au/Quantum/Quantum.ps))
+
 
 [[!redirects Morita equivalences]]
