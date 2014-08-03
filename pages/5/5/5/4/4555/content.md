@@ -26,7 +26,7 @@ The definition of CS-differential characters encodes rather directly the higher 
 
 Since Cheeger-Simons characters enocde information beyond the [[curvature characteristic form]] which represents the underlying [[characteristic class]] in de Rham cohomology, they are frequently called [[secondary characteristic class]]es, in particular if the curvature characteristic form vanishes so that the corresponding [[Chern-Simons form]] becomes exact.
 
-## Relatet concepts
+## Related concepts
 
 * [[Chern-Simons form]]
 
