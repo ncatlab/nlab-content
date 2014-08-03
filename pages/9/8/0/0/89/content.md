@@ -37,13 +37,8 @@ are equivalent;
 1. The ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules;
 1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
 
-+-- {: .query}
-[[Dmitri Pavlov]]: Tsit-Yuen Lam in his book "Lectures on modules and rings" on pages 488 and 489 states the Morita equivalence theorem using progenerators (i.e., finitely generated projective generators) instead of just generators.  Are these two versions equivalent?
-=--
-
-+-- {: .query}
-[[Dmitri Pavlov]]: I would like to state the Morita equivalence theorem as a 2-equivalence between two bicategories: The bicategory of rings, bimodules and their intertwiners and the bicategory of abelian categories that are equivalent to the category of modules over some ring (i.e., abelian categories that have all small coproducts and a compact projective generator), Eilenberg-Watts functors between these categories (i.e., right exact functors that commute with direct sums) and natural transformations.  Is it possible to do this and what is the precise statement then?
-=--
+An important weakening of the Morita equivalence is [[Morita context]] (in older
+literature sometimes called prequivalence).
 
 ## Definitions
 
@@ -83,9 +78,15 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 ## References
 
+Related $n$Lab entries include [[Morita context]], [[Eilenberg-Watts theorem]], [[generator]], [[bimodule]], [[projective module]], [[Picard group]], [[bicategory]]
+
 * wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
 
-* P. M. Cohn, _Further Algebras and Applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
+A beautiful classical exposition is in the chapter II of 
+
+* [[Hyman Bass]], _Algebraic K-theory_, Benjamin 1968
+
+* P. M. Cohn, _Further algebras and applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
 
