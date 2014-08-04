@@ -114,7 +114,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#KL89}[[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
-* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no. 5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
@@ -124,7 +124,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law91a} F. W. Lawvere, _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
-* {#Law91b} F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* {#Law91b} F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
 * {#Law92} F. W. Lawvere, _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
 
