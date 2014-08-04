@@ -31,7 +31,7 @@ Let $X \in $ [[sSet]] be a [[simplicial set]].
 +-- {: .num_defn}
 ###### Definition
 
-The **category of simplices** of is equivalently (in increasing order of explicitness)
+The **category of simplices** of $X$ is equivalently (in increasing order of explicitness)
 
 * the [[category of elements]] of the [[presheaf]] $X_\bullet : \Delta^{op} \to Set$;
 
