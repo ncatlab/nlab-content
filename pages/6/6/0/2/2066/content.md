@@ -268,7 +268,11 @@ The proof that idempotents split in the category of manifolds was adapted from t
 
 * Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
 
-The accompanying remark of Lawvere appears on page 267 of 
+Which provides a solution to exercise 3.21 in
+
+* F. W. Lawvere, _Perugia Notes - Theory of Categories over a Base Topos_ , Ms. Universit&#224; di Perugia 1973.
+
+The accompanying above remark of Lawvere appears on page 267 of 
 
 * [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
  {#Law} 
