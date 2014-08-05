@@ -31,7 +31,7 @@ There  is an
 
 * _[Abstract definition](#AbstractDefinition)_
 
-that characterizes idempotent completions. In particular the idempotent completion always exists is unique up to [[equivalence of categories]]. Explicit constructions include:
+that characterizes idempotent completions. In particular the idempotent completion always exists and is unique up to [[equivalence of categories]]. Explicit constructions include:
 
 * _[Construction in components](#InComponents)_
 
