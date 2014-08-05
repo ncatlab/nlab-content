@@ -14,7 +14,13 @@ There are also some noncommutative versions which are still purely understood.
 
 * P. Painlev&#233;, _Sur les &#233;quations differentielles du second ordre et d'ordre superieur, dont l'integrale g&#233;nerale est uniforme_, Acta Math. __25__ (1902), pp. 1&#8211;86.
 
+* Richard Fuchs, Comptes Rendus de l'Acad&#233;mie des Sciences Paris 1905 __141__, 555&#8211;558
+  
 * wikipedia: [Painlev&#233; transcendents](http://en.wikipedia.org/wiki/Painlev%C3%A9_transcendents)
+
+* _One hundred years of PVI, the Fuchs&#8211;Painlev&#233; equation_, J. Phys. A, special 
+issue, Preface, 
+[pdf](http://www.researchgate.net/profile/Marta_Mazzocco2/publication/243413584_One_hundred_years_of_PVI_the_FuchsPainlev_equation/links/00b495315eb2aa177d000000)
 
 * Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
 
