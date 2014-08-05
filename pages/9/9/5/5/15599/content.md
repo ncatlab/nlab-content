@@ -24,6 +24,11 @@ Related entries include [[monodromy]], [[holomorphic function]], [[Riemann-Hilbe
 * Vladimir V. Golubev, _Lekcii po analiti&#269;eskoi teorii differencial'nyh uravnenii_. 1ed 1941, 2nd ed. Moscow-Leningrad. 1950; German transl. _Vorlesungen ueber
 Differentialgleichungen im Komplexen_, Deutsche Verlag Wissenschaft., 1958
 
+As a possible generalization for PDEs,
+one can consider _analytic movable singularity manifolds_ as in 
+
+* J. Weiss, M. Tabor, G. Carnevale, _The Painlev&#233;  property
+for partial differential equations_, J. Math. Phys. __24__, 522&#8211;526 (1983)
 
 category: analysis
 
