@@ -146,7 +146,17 @@ $$T Mod(E) \simeq Top_S(E,S[T])$$
 
 ## Morphisms of theories
 
-Since a Grothendieck topos is the "extensional essence" of a geometric theory, it makes sense to define a **map of theories** $T \to T'$ to be a morphism of $S$-toposes $h: S[T'] \to S[T]$.   Equivalently, of course, this is a $T$-model in $S[T']$.  Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos.
+Since a Grothendieck topos is the "extensional essence" of a geometric theory, it makes sense to define a **map of theories** $T \to T'$ to be a morphism of $S$-toposes $h: S[T'] \to S[T]$. Equivalently, of course, this is a $T$-model in $S[T']$.  Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos.
+
++-- {: .query}
+
+Thomas Holder: I guess 'h' is supposed to be a _geometric_ morphism here?
+
+Wouldn't it be better to define a morphism of geometric theories as appropriate morphism between the above [theory 2-functors](#FunctorialDefinition) ? This would also work for non geometric theories and wouldn't require neither existence of nor any information on the classifying topos !?
+
+Shouldn't the beginning of the section read 'Since its _classifying_ topos encodes the essence of a geometric theory ... ?
+
+=--
 
 ## Gros categories of models
 
@@ -173,7 +183,7 @@ deducible from it in [[constructive mathematics]].
 
 Standard references are 
 
-* [[Peter Johnstone]], section D1.1 of _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], sections B4.2, D1.1 of _[[Sketches of an Elephant]]_
 
 * [[Michael Makkai]], [[Gonzalo E. Reyes]], _First Order Categorical Logic_ , LNM 611, Springer Berlin 1977.
 
@@ -181,7 +191,7 @@ A textbook account of (finitary) geometric logic can be found in
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-A systematic introduction to topos theory and geometric logic can be found in the following draft of chapter of a book in progress by O. Caramello:
+A systematic introduction to topos theory and geometric logic can be found in the following draft by O. Caramello:
 
 * [[Olivia Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
 
@@ -199,7 +209,9 @@ Discussion with an eye towards [[geometric type theory]] is in
 
 * [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
+A nice short exposition together with an unorthodox proposal to expand geometric logic with fix point operators can be found here:
 
+* [[Andreas Blass]], _Topoi and Computation_, Bull. European Assoc.Theoret. Comp.Sci. **36** (1988) pp.57-65. ([draft](http://www.math.lsa.umich.edu/~ablass/eatcs.pdf))
 
 [[!redirects geometric theory]]
 [[!redirects geometric theories]]
