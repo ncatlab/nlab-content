@@ -1,14 +1,24 @@
 ## Painlev&#233; transcendents
 
-In the study of ordinary differential equations one of the important things is the behaviour of [[monodromies]] and closely related singularities of solutions. In the linear case, the poles possibly appear just at the poles of coefficients of the solutions. In the nonlinear case the solutions can appear elsewhere and propagate with change of parameters involved in coefficients. Very important is if the singularities do not move and or monodromies don't change with change of parameters. A class of such "good" nonlinear equations has been defined by __Paul Painlev&#233;__ ([wikipedia](http://en.wikipedia.org/wiki/Paul_Painlev%C3%A9)) who discovered at the end of 19th century a truly remarkable fact that all such equations have solutions which can be expressed in terms of well known functions like elementary and hypergeometric functions and only 6 new kinds of *transcendental functions* called _Painlev&#233; I-VI_. Furthermore he obtained a complete classification of such equations (of second order?) in 50 classes up to a number of standard transformations. Painlev&#233; transcendents are now of central importance in the study of [[integrable systems]]. 
+In the study of ordinary differential equations one of the important things is the behaviour of [[monodromies]] and closely related singularities of solutions. In the linear case, the poles possibly appear just at the poles of coefficients of the solutions. In the nonlinear case the solutions can appear elsewhere and generally propagate with change of initial conditions. Very important is if the singularities do not move or monodromies don't change with change of parameters. 
+An [[ordinary differential equation]] (ODE) satisfies the __Painlev&#233; property__ if all solutions are single valued around every movable singularity. A class of such "good" nonlinear equations has been defined by __Paul Painlev&#233;__ ([wikipedia](http://en.wikipedia.org/wiki/Paul_Painlev%C3%A9)), who discovered at the end of 19th century a truly remarkable fact that all second order ODEs of the form
+$$
+u'' = F (z; u, u'),
+$$
+where $F$ is rational in $u,u'$ and analytic in $z$ and which satisfy the 
+Painlev&#233; property have solutions which can be expressed in terms of well known functions like elementary and hypergeometric functions and only 6 new kinds of *transcendental functions* called _Painlev&#233; I-VI_. Furthermore he obtained a complete classification of such equations (of second order?) in 50 classes (44+6) up to a number of standard transformations. Painlev&#233; transcendents are now of central importance in the study of [[integrable systems]]. 
 
-There are also noncommutative versions. 
+There are also some noncommutative versions which are still purely understood. 
 
 ## Literature and links
 
 * P. Painlev&#233;, _Sur les &#233;quations differentielles du second ordre et d'ordre superieur, dont l'integrale g&#233;nerale est uniforme_, Acta Math. __25__ (1902), pp. 1&#8211;86.
 
 * wikipedia: [Painlev&#233; transcendents](http://en.wikipedia.org/wiki/Painlev%C3%A9_transcendents)
+
+* Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
+
+* Henryk &#379;o&#322;&#261;dek, _The monodromy group_, Monografie Matematyczne __67__, 588 pp. Birkh&#228;user 2006
 
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
@@ -20,3 +30,7 @@ Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentatio
 [[!redirects Painlev%C3%A9 transcendents]]
 [[!redirects Painlevé transcendents]]
 [[!redirects Painlevé transcendent]]
+[[!redirects Painlevé property]]
+[[!redirects Painlevé equation]]
+[[!redirects Painlevé equations]]
+[[!redirects Painleve equation]]
