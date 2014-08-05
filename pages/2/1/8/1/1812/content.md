@@ -40,6 +40,7 @@ In his paper "Elementary cosmoi," Street defined a **(fibrational) cosmos** to b
 ## Street's second definition
 
 In his paper "Cauchy characterization of enriched categories," Street instead defined a "cosmos" to be a [[2-category]] that behaves like the 2-category $V$-$Mod$ of enriched categories and [[profunctors]].  The precise definition: a cosmos is a 2-category (or [[bicategory]]) such that:
+
 * Small ([[2-limit|weak, or bi-]]) [[coproduct]]s exist.
 * Each [[monad]] admits a [[Kleisli construction]] (analogous to the [[exact category|exactness]] of a topos).
 * It is locally small-[[cocomplete category|cocomplete]], i.e. its hom-categories have small colimits that are preserved by composition on each side.
