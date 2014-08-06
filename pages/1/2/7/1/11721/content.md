@@ -1,6 +1,6 @@
-I am a first-year grad student in [[linguistics]] at Stanford University interested in categorical logic, applications of category theory to linguistics, philosophy of math/language...
+I am a visiting grad student in the philosophy department at Carnegie Mellon University interested in categorical logic, applications of category theory to [[linguistics]], philosophy of math/language...
 
-Contact: &lt;zwanzig@stanford.edu> 
+Contact: &lt;zwanzig@post.harvard.edu> 
 
 
 category:people
