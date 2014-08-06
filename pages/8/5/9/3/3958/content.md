@@ -59,12 +59,71 @@ A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X
 
 =--
 
+### Patching as Idempotent Splitting
+
+In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation: In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
+
+Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
+
++-- {: .num_theorem} 
+###### Theorem 
+The subcategory $i: Open \hookrightarrow Man$ exhibits $Man$ as an idempotent-splitting completion of $Open$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By a general [[Karoubi envelope#def2|lemma]] for idempotent splittings, it suffices to prove that 
+
+* Every smooth manifold is a smooth retract of an open set in Euclidean space; 
+
+* If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an embedded submanifold. 
+
+For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
+
+For the second statement, assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
+
+$$U \stackrel{f}{\to} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\to} \ker\; d p(0).$$ 
+
+Now we make some easy observations: 
+
+1. $Fix(p) \subseteq g^{-1}(0)$. 
+
+1. The map $p: U \to U$ restricts to a map $p: g^{-1}(0) \to g^{-1}(0)$, by idempotence of $p$. 
+
+1. The derivative $d g(0): T_0(U) \to T_0(\ker \; d p(0)) \cong \ker \; d p(0)$ is $\pi$ again since $Id - d p(0)$ is idempotent. Thus $d g(0)$ has full rank ($m$ say), and so the restriction of $g$ to some neighborhood $V$ has $0$ as a regular value, and $g^{-1}(0) \cap V$ is a manifold of dimension $m$ by the [[implicit function theorem]]. The tangent space $T_0(g^{-1}(0) \cap V)$ is canonically identified with $im(d p(0))$. 
+
+
+1. There are smaller neighborhoods $V'' \subseteq V' \subseteq V$ so that $p$ restricts to maps $p_1, p_2$ as in the following diagram ($i, i', i''$ are inclusion maps, all taking a domain element $x$ to itself): 
+$$\array{
+g^{-1}(0) \cap V'' & \stackrel{i''}{\hookrightarrow} & g^{-1}(0) \\ 
+ _\mathllap{p_2} \downarrow & & \downarrow _\mathrlap{p} \\ 
+g^{-1}(0) \cap V' & \stackrel{i'}{\hookrightarrow} & g^{-1}(0) \\ 
+ _\mathllap{p_1} \downarrow & & \downarrow _\mathrlap{p} \\ 
+g^{-1}(0) \cap V & \stackrel{i}{\hookrightarrow} & g^{-1}(0)
+}$$ 
+and such that $p_1, p_2$ are diffeomorphisms by the [[implicit function theorem|inverse function theorem]] (noting here that $d p_i(0): im(d p(0)) \to im(d p(0))$ is the identity map, by idempotence of $p$). 
+
+1. Letting $q: g^{-1}(0) \cap V' \to g^{-1}(0) \cap V''$ denote the smooth inverse to $p_2$, we calculate $i' = p \circ i'' \circ q$, and 
+$$i p_1 = p i' = p p i''q = p i'' q = i',$$ 
+so that $p_1(x) = x$ for every $x \in g^{-1}(0) \cap V'$. Hence $g^{-1}(0) \cap V' \subseteq Fix(p)$. 
+
+From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
+=--
+
++-- {: .num_remark #LawRem}
+###### Remark
+
+[[F. William Lawvere|Lawvere]] comments on this fact as follows:
+ 
+>"This powerful theorem justifies bypassing the complicated considerations of charts, coordinate transformations, and atlases commonly offered as a "basic" definition of the concept of manifold. For example the 2-sphere, a manifold but not an open set of any Euclidean space, may be fully specified with its smooth structure by considering any open set $A$ in 3-space $E$ which contains it but not its center (taken to be $0$) and the smooth idempotent endomap of $A$ given by $e(x) = x/{|x|}$. All general constructions (i.e., functors into categories which are Cauchy complete) on manifolds now follow easily (without any need to check whether they are compatible with coverings, etc.) provided they are known on the opens of Euclidean spaces: for example, the tangent bundle on the sphere is obtained by splitting the idempotent $e'$ on the tangent bundle $A \times V$ of $A$ ($V$ being the vector space of translations of $E$) which is obtained by differentiating $e$. The same for cohomology groups, etc."  ([Lawvere 1989](#Law89), p.267)
+
+=--
 
 
 ### General abstract geometric definition
  {#GeneralAbstractCharacterization}
 
-There is a more fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. 
+There is a fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. 
 
 In this context one specifies for instance $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
 
@@ -258,5 +317,19 @@ The general abstract framework of [[higher geometry]] referred to above is discu
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
 {#StrSp}
+
+The proof that idempotents split in the category of smooth manifolds was adapted from this MO answer: 
+
+* Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
+
+Which provides a solution to exercise 3.21 in
+
+* F. W. Lawvere, _Perugia Notes - Theory of Categories over a Base Topos_ , Ms. Universit&#224; di Perugia 1973.
+
+The above comment by Lawvere is taken from 
+
+* [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
+ {#Law89} 
+
 
 [[!redirects smooth manifolds]]
