@@ -271,11 +271,14 @@ so that $p_1(x) = x$ for every $x \in g^{-1}(0) \cap V'$. Hence $g^{-1}(0) \cap 
 From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
 
-### Remark 
++-- {: .num_remark #LawRem}
+###### Remark
+
 [[F. William Lawvere|Lawvere]] comments on this fact as follows:
  
 >"This powerful theorem justifies bypassing the complicated considerations of charts, coordinate transformations, and atlases commonly offered as a "basic" definition of the concept of manifold. For example the 2-sphere, a manifold but not an open set of any Euclidean space, may be fully specified with its smooth structure by considering any open set $A$ in 3-space $E$ which contains it but not its center (taken to be $0$) and the smooth idempotent endomap of $A$ given by $e(x) = x/{|x|}$. All general constructions (i.e., functors into categories which are Cauchy complete) on manifolds now follow easily (without any need to check whether they are compatible with coverings, etc.) provided they are known on the opens of Euclidean spaces: for example, the tangent bundle on the sphere is obtained by splitting the idempotent $e'$ on the tangent bundle $A \times V$ of $A$ ($V$ being the vector space of translations of $E$) which is obtained by differentiating $e$. The same for cohomology groups, etc."  ([Lawvere 1989](#Law89), p.267)
 
+=--
 
 ## The Tangent Bundle
 
@@ -291,7 +294,7 @@ $$(p \in U_\alpha, v) \sim (p \in U_\beta, g_{\alpha\beta}(p) v)$$
 
 where $p \in U_\alpha \cap U_\beta$, and $g_{\alpha\beta}(p) \in GL(\mathbb{R}^n)$ is the result of differentiating the transition function $\phi_{\alpha\beta}$ at the point $\phi_\alpha(p)$. We thus obtain a covering $U_\alpha \times \mathbb{R}^n$ of $T M$, and these form coordinate charts of a smooth manifold structure on $T M$ in a more or less evident way. There is an obvious projection map $\pi: T M \to M$, called the _tangent bundle_; the fiber $\pi^{-1}(p)$ over a point $p \in M$ is called the _tangent space_ at $p$, denoted $T_p M$. Elements $v \in T_p M$ are called _tangent vectors_ at $p$.
 
-* It is not immediately apparent that this construction yields the same manifold (in the sense described earlier) independent of the atlas chosen. To make this manifest, it is preferable to deal with coordinate-free expressions, defining for example tangent vectors with reference to the sheaf of smooth functions on $M$. We discuss this below.
+* It is not immediately apparent that this construction yields the same manifold (in the sense described earlier) independent of the atlas chosen. To make this manifest, it is preferable to deal with coordinate-free expressions, defining for example tangent vectors with reference to the sheaf of smooth functions on $M$. We discuss this below (see also the [above remark](#LawRem)).
 
 The functions
 
