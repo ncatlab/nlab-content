@@ -1,4 +1,4 @@
-
+This page is a link to Lurie's paper, _Noncommutative Algebra_.
 
 * [[Jacob Lurie]], _Noncommutative Algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
