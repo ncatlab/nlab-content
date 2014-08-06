@@ -146,15 +146,8 @@ $$T Mod(E) \simeq Top_S(E,S[T])$$
 
 ## Morphisms of theories
 
-Since a Grothendieck topos is the "extensional essence" of a geometric theory, it makes sense to define a **map of theories** $T \to T'$ to be a morphism of $S$-toposes between their classifying toposes $h: S[T'] \to S[T]$. Equivalently, of course, this is a $T$-model in $S[T']$.  Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos.
+Since the classifying topos encodes the "extensional essence" of a geometric theory, it makes sense to define a **map of theories** $T \to T'$ to be a morphism of $S$-toposes $h: S[T'] \to S[T]$. Equivalently, of course, this is a $T$-model in $S[T']$.  Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos.
 
-+-- {: .query}
-
-Thomas Holder: Wouldn't it be better to define a morphism of geometric theories as appropriate morphism between the above [theory 2-functors](#FunctorialDefinition) ? This would also work for non geometric theories and wouldn't require neither existence of nor any information on the classifying topos !?
-
-Shouldn't the beginning of the section read 'Since its _classifying_ topos encodes the essence of a geometric theory ... ?
-
-=--
 
 ## Gros categories of models
 
