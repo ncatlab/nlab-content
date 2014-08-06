@@ -99,5 +99,5 @@ If the Yoneda embedding of a category has a [[left adjoint]], then that category
 * A [[category]] is a _[[total category]]_ if its Yoneda embedding has a [[left adjoint]].
 
 * [[(infinity,1)-Yoneda embedding]]
-
+* [[singleton]] injection, the Yoneda embedding for 0-category theory.
 [[!redirects Yoneda embeddings]]
