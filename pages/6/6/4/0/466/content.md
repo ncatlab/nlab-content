@@ -48,7 +48,7 @@ $$
 
 in the [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] of categories.
 
-Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $c$ the set of morphisms from $d$ into $c$:
+Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $C$ the set of morphisms from $d$ into $c$:
 
 $$
   Y(c) : C^{op} \stackrel{C(-,c)}{\to} Set
