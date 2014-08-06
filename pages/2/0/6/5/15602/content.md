@@ -1,4 +1,9 @@
-##Definition
+
+# Properads
+* table of contents
+{: toc}
+
+## Definition
 
 A __properad__ in a [[symmetric monoidal
 category]]&#160;$C$ is a [[monoid]] in the [[monoidal
@@ -16,7 +21,8 @@ than a [[prop]], because a prop also
 allows nonconnected graphs in the definition
 of the substitution product.
 
-##References
+
+## References
 
 * [1] [[Bruno Vallette]], A Koszul duality for props.
 [arXiv:math/0411542](http://arxiv.org/abs/math/0411542)
