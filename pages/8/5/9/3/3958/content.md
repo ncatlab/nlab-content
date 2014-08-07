@@ -59,9 +59,11 @@ A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X
 
 =--
 
-### Patching as Idempotent Splitting
+### Patching as idempotent splitting
 
-In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation: In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
+In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation:
+
+In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
 
 Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
 
@@ -72,7 +74,7 @@ The subcategory $i: Open \hookrightarrow Man$ exhibits $Man$ as an idempotent-sp
 
 +-- {: .proof} 
 ###### Proof 
-By a general [[Karoubi envelope#def2|lemma]] for idempotent splittings, it suffices to prove that 
+By a general [[Karoubi envelope#def2|lemma for idempotent splittings]], it suffices to prove that 
 
 * Every smooth manifold is a smooth retract of an open set in Euclidean space; 
 
@@ -110,14 +112,9 @@ so that $p_1(x) = x$ for every $x \in g^{-1}(0) \cap V'$. Hence $g^{-1}(0) \cap 
 From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
 
-+-- {: .num_remark #LawRem}
-###### Remark
-
 [[F. William Lawvere|Lawvere]] comments on this fact as follows:
  
 >"This powerful theorem justifies bypassing the complicated considerations of charts, coordinate transformations, and atlases commonly offered as a "basic" definition of the concept of manifold. For example the 2-sphere, a manifold but not an open set of any Euclidean space, may be fully specified with its smooth structure by considering any open set $A$ in 3-space $E$ which contains it but not its center (taken to be $0$) and the smooth idempotent endomap of $A$ given by $e(x) = x/{|x|}$. All general constructions (i.e., functors into categories which are Cauchy complete) on manifolds now follow easily (without any need to check whether they are compatible with coverings, etc.) provided they are known on the opens of Euclidean spaces: for example, the tangent bundle on the sphere is obtained by splitting the idempotent $e'$ on the tangent bundle $A \times V$ of $A$ ($V$ being the vector space of translations of $E$) which is obtained by differentiating $e$. The same for cohomology groups, etc."  ([Lawvere 1989](#Law89), p.267)
-
-=--
 
 
 ### General abstract geometric definition
