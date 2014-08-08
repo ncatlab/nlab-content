@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -41,21 +41,20 @@ A **uniform structure**, or **uniformity**, on a set $X$ consists of a collectio
 5. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
 6. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
 
-In [[constructive mathematics]], we also need this condition:
+In [[constructive mathematics]], it is often very useful to assume that a uniform structure is __located__:
 
 * For every entourage $U$, there exists an entourage $V$ such that $\neg{V} \cup U = X \times X$, where $\neg{V}$ is the [[complement]] of $V$. That is,
   $$ \forall U,\; \exists V,\; \forall x, y,\; x \approx_U y \;\vee\; x &#8777;_V y .$$
 
-We will call this axiom (0) when convenient.  (With [[excluded middle]], we can take $V$ to be $U$ itself, so this is classically trivial.)
+(With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is located in classical mathematics.)
 
 A set equipped with a uniform structure is called a **uniform space**.
 
 
-A collection of entourages satisfying (0--5) is a **[[base]]** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (0--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **[[subbase]]** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
+A collection of entourages satisfying (1--5) is a **[[base]]** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (1--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **[[subbase]]** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
 
 
-### Covering uniformities
-{#ucov}
+### Covering uniformities {#ucov}
 
 An equivalent way to characterize a uniform space is by its collection of *[[uniform covers]]*.  Here a **cover** of a set $X$ is a collection $C \subseteq P(X)$ with [[union]] $X$.  For covers $C_i$, we define:
 
@@ -79,7 +78,7 @@ We now define a **covering uniformity** on $X$ to be a collection of covers, cal
 
 The axioms (2--4) here roughly correspond (respectively) to the axioms (4--6) in the entourage definition.  Axiom (1) takes on all of the real work; any collection of covers that satisfies it may be called a __[[subbase]]__ (but not corresponding directly to a subbase in the previous definition).
 
-In [[constructive mathematics]], we also want to add an axiom (0):
+In [[constructive mathematics]], a covering uniformity is __located__ iff:
 
 *  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \in B$ for no $B \in C'$.
 
@@ -132,9 +131,9 @@ Uniform spaces can also be identified with [[syntopogenous spaces]] that are bot
 
 ## Examples
 
-Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, for example by using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (3) may be proved by using $\epsilon/2$; axiom (0) may be proved constructively by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  (The other axioms are easy.)  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
+Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, for example by using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (3) may be proved by using $\epsilon/2$; similarly, every metric space is located in constructive mathematics, which may be proved by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  (The other axioms are easy.)  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
 
-Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with [[Haar measure]]?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (3) may be proved by invoking the continuity of multiplication; axiom (0) cannot be proved constructively in general, although it can be proved for the classical examples of Lie groups and [[topological vector spaces]] (TVSs).
+Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with [[Haar measure]]?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (3) may be proved by invoking the continuity of multiplication; constructively, we cannot prove that every topological group is located, although this can be proved for the classical examples of Lie groups and [[topological vector spaces]] (TVSs).
 
 These are in a way the motivating examples.  The theory of uniformly continuous maps was developed first for metric spaces, but it was noticed that, for a metrisable TVS, it could be described entirely in terms of the topology and the addition, which immediately generalised to non-metrisable TVSs.  The theory of uniform spaces covers both of these (and their generalisations to pseudometric spaces and topological groups) at once.
 
@@ -174,9 +173,9 @@ This makes the discussion of completions slightly simpler.
 
 If the symmetry axiom (2) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (There does not seem to be a way to define quasiuniform spaces in terms of (quasi)uniform covers.)
 
-A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
+A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space (necessarily located) by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
 
-In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you leave out axiom 0).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
+In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you don\'t require the uniform space to be located).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
 
 There is also a "pointless" notion of uniform space, called a [[uniform locale]].
 
@@ -187,16 +186,18 @@ The really critical axioms are (1--3): a collection of binary relations which sa
 
 We draw particular attention to axiom (3), which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
 
-For full power in [[constructive mathematics]], we also need axiom (0), which may similarly be called a "something less than $\varepsilon$" principle.  (That is, for any $\varepsilon$ there is an $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far; classically we may take $\varepsilon'$ to be $\varepsilon$, but constructively it\'s better to think of $\varepsilon' \lt \varepsilon$.)  Axioms (0) and (3) can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \varepsilon$, but that makes the intuition less clear.
+For full power in [[constructive mathematics]], we also need locatedness, which may similarly be called a "something less than $\varepsilon$" principle.  (That is, for any $\varepsilon$ there is an $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far; classically we may take $\varepsilon'$ to be $\varepsilon$, but constructively it\'s better to think of $\varepsilon' \lt \varepsilon$.)  This can actually be combined with axiom (3) into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \varepsilon$, but that makes the intuition less clear.
 
 Axiom (1) is a nullary version of axiom (3); together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom then allows one to take the opposite of $V$ at any point in the composite as well.
 
 Altogether, these may be seen as axiomatising the notion of *approximate* [[equivalence relation|equivalence]].  If $\approx$ is an approximate equivalence relation, then we might expect it to be
+
 *  [[reflexive relation|reflexive]]: $x \approx x$ and
 *  [[symmetric relation|symmetric]]: $x \approx y$ iff $y \approx x$, but
 *  NOT [[transitive relation|transitive]]: $x \approx y \approx z$ does not necessarily mean that $x \approx z$.
 
-One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the axiom (1) states precisely that each entourage is reflexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of its symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformaly continuous either way) to be equal.
+
+One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the axiom (1) states precisely that each entourage is reflexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of its symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformly continuous either way) to be equal.
 
 
 ## Categorical interpretation
@@ -227,7 +228,7 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * Norman Howes, _Modern analysis and topology_, Springer
 
-* P. Samuel, _Ultrafilters and compactifications of uniform spaces_, Trans. Amer. Math. Soc. __64__ (1948) 100-132
+* P. Samuel, _Ultrafilters and compactifications of uniform spaces_, Trans. Amer. Math. Soc. __64__ (1948) 100--132
 
 * J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
 
