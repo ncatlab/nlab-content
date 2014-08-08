@@ -21,13 +21,16 @@ A _filter_ is [[duality|dual]] to an [[ideal]].
 ## Definitions
 
 A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
+
 1. If $A \leq B$ in $L$ and $A \in F$, then $B \in F$;
 2. for some $A$ in $L$, $A \in F$;
 3. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
 
-Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of 'ideal' in [[monoid]] theory.)
+Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of '[[ideal in a monoid|ideal]]' in [[monoid]] theory.)
+
 
 In a [[lattice]], one can use these alternative axioms:
+
 1. If $A \in F$ and $B$ in $L$, then $A \vee B \in F$;
 2. $\top \in F$;
 3. if $A \in F$ and $B \in F$, then $A \wedge B \in F$.
@@ -35,6 +38,7 @@ In a [[lattice]], one can use these alternative axioms:
 Here, (1) is equivalent to the previous version; the others, which here say that the lattice is closed under finite [[meets]], are equivalent given (1).  (These axioms look more like the axioms for an ideal of a ring.)
 
 You can also interpret these axioms to say that, if you think of $F$ as a function from $L$ to the set $TV$ of [[truth values]], then $F$ is a homomorphism of meet-semilattices.
+
 
 A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $S$.  One also sees filters of open subsets, filters of compact subsets, etc, especially in topology.
 
