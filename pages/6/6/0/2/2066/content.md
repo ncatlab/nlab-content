@@ -119,7 +119,9 @@ $$F(c)_{F(e)} \overset{F(j_{F(e)})}{\to} F(c) \overset{F(\phi)}{\to} F(c') \over
 Then $\bar{F}$ is the unique extension of $F$ which preserves chosen splittings. Thus the Karoubi envelope is universal among functors from $C$ into categories $D$ in which every idempotent has a chosen splitting. 
 
 
-If $D$ is a category in which every idempotent splits, then we can choose a splitting for each idempotent using the [[axiom of choice]] (AC); the extension $\bar{F}$ depends on how we do this but is unique up to unique [[natural isomorphism]].  Alternatively, we can define $\bar{F}$ as an [[anafunctor]]; then no AC is needed, and we still have $\bar{F}$ unique up to unique natural isomorphism.  (It is key here that a splitting of an idempotent is unique up to a coherent isomorphism.)
+If $D$ is a category in which every idempotent splits, then we can choose a splitting for each idempotent using the [[axiom of choice]] (AC); the extension $\bar{F}$ depends on how we do this but is unique up to unique [[natural isomorphism]].  Alternatively, we can define $\bar{F}$ as an [[anafunctor]]; then no AC is needed, and we still have $\bar{F}$ unique up to unique natural isomorphism.  (It is key here that a splitting of an idempotent is unique up to a coherent isomorphism.) 
+
+Essentially the same argument shows that for any $D$ in which idempotents split, the restriction functor $[E, D]: [\bar{C}, D] \to [C, D]$ is an equivalence. The details are spelled out [here](http://ncatlab.org/toddtrimble/published/Karoubi+envelope). 
 
 
 ### Under the Yoneda embedding
