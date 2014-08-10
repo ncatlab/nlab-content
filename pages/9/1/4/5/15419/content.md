@@ -81,6 +81,10 @@ Tables showing the parallels between number fields and function fields are in
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
+See also
+
+* M. Blickle,[[Hélène Esnault]], K. R&#252;lling, _Characteristic $0$ and $p$ analogies, and somemotivic cohomology_ ([[EsnaultAnalogy.pdf:file]])
+
 A collection of more recent developments is in
 
 * {#vdGeer05} van der Geer et al (eds.) _Number Fields and Function Fields &#8211; Two Parallel Worlds_, Birkh&#228;user 2005 ([publisher page](http://www.springer.com/birkhauser/mathematics/book/978-0-8176-4397-3))
@@ -92,4 +96,3 @@ Discussion including also the complex-analytic side includes
 and a comparison of the number theory to that of [[foliations]] is in 
 
 * {#Deninger07} [[Christopher Deninger]], _Analogies between analysis on foliated spaces and arithmetic geometry_ ([arXiv:0709.2801](http://arxiv.org/abs/0709.2801))
-
