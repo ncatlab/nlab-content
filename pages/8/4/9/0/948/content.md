@@ -108,6 +108,7 @@ A constructive mathematician can be even subtler. If you belong to the Bishop sc
 This way of talking has even been formalised in (Bishop, 1967) with a convention adopted by many (but not all) of his followers. In this convention, the word 'not', used normally in a vernacular sentence whose mathematical content would otherwise be the proposition $p$, changes to the content to $\neg p$, or $p \to \bot$, as usual. (This follows all of the rules of [[intuitionistic logic]]; in particular, any statement that is 'not' true is false (just as in [[classical logic]]).) However, the word '<i>not</i>', in italics as shown here, changes the content to $p \to x$, where $x$ is some statement that is known (although not proved!), according to Bishop, to be false. Now a statement that is '<i>not</i>' true may be false, but this may be unknown, and it is even possible that it is also '<i>not</i>' false (so $\neg p \to x$, possibly for a different $x$).
 
 Bishop gives in his introduction several statements, suitable for use as $x$ above, including:
+
 * excluded middle itself, which Bishop call the 'principle of omniscience';
 * the '[[limited principle of omniscience]]': any infinite sequence in $\{0,1\}^N$ is either all $0$ or has at least one $1$;
 * the '[[lesser limited principle of omniscience]]': for any two infinite sequence in $\{0,1\}^N$ that do not both have at least one $1$, at least one of these sequences does not have at least one $1$;
