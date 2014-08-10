@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f)
 
+* [collection of articles on github](https://github.com/michaelt/martin-lof)
+
 ## Related entries
 
 * [[type theory]]
