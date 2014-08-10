@@ -1,0 +1,1 @@
+An **amenable category** is an [[additive category]] in which all [[idempotent]]s split.
