@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 # Apartness relations
 * table of contents
 {: toc}
@@ -33,7 +31,8 @@ A set $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as
 
 ### Concrete
 
-Of course, nobody but a category-theorist would use the above as a *definition* of an apartness relation. Normally, one defines an apartness relation on $S$ as a binary relation $\#$ satisyfing these three properties:
+Of course, nobody but a category-theorist would use the above as a *definition* of an apartness relation. Normally, one defines an apartness relation on $S$ as a binary relation $\#$ satisfying these three properties:
+
 * [[irreflexive relation|irreflexivity]]: for all $x: S$, $x \# x$ is false;
 * [[symmetric relation|symmetry]]: for all $x, y: S$, if $y # x$, then $x # y$;
 * [[comparison]]: for all $x, y, z: S$, if $x # z$, then $x # y$ or $y # z$.
