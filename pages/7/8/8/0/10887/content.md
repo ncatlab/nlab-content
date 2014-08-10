@@ -8,3 +8,7 @@ category:analysis
 
 [[!redirects entire function]]
 [[!redirects entire functions]]
+
+
+[[!redirects entire holomorphic function]]
+[[!redirects entire holomorphic functions]]
