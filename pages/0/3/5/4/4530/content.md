@@ -46,6 +46,8 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
   [[Calabi-Yau manifold]]
 
+* [[Picard-Lefschetz theory]]
+
 * [[Hodge theory]]
 
 * [[Arakelov geometry]]
