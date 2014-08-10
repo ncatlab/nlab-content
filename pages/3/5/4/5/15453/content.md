@@ -1,2 +1,14 @@
-[[!redirects empty  57]]
-category:empty
+
+Given a [[metric space]] $M$, a [[subspace]] $S$ of $M$, and a [[point]] $x$ of $M$, we commonly define the __distance__ from $x$ to $S$ (or from $S$ to $x$) as an [[infimum]]:
+$$ d(x,S) \coloneqq \inf_{y \in S} d(x,y) .$$
+In [[constructive mathematics]], this infimum is generally an [[upper real number]], even if (as is usual) we require $d(x,y)$ to always be a [[located real number]].
+
+The subspace $S$ is __located__ (or __metrically located__ to be specific) if, for each point $x$, $d(x,S)$ is located.  (Although we are defining located subspaces in terms of located real numbers, this is backwards historically; the term was first used, by [[Jan Brouwer]], to refer to subsets.)
+
+This is only the beginning of the subject; one can also speak of (uniformly?) located subsets of [[uniform spaces]], topologically located subsets of [[topological spaces]], and so on.
+
+
+[[!redirects located subset]]
+[[!redirects located subsets]]
+[[!redirects located subspace]]
+[[!redirects located subspaces]]
