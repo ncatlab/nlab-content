@@ -27,7 +27,7 @@ It is precisely in [[characteristic]] $p$ that this operation is indeed an algeb
 
 The presence of the Frobenius endomorphism in characteristic $p$ is a fundamental property in [[arithmetic geometry]] that controls many of its deep aspects. Notably [[zeta functions]] are typically expressed in terms of the [[action]] of the Frobenius endomorphisms on [[cohomology groups]] and so it features prominently for instance in the [[Weil conjectures]].
 
-In [[Borger's absolute geometry]] lifts of Frobenius endomorphisms through [[base change]] for all primes at once -- in the sense of _[Lambda-ring structure](Lambda-ring#LambdaRingByFrobeniusLifts)_ -- is interpreted as encoding [[descent]] data from traditional [[arithmetic geometry]] over [[Spec(Z)]] down to the "absolute" geometry over "[[F1]]".
+In [[Borger's absolute geometry]] lifts of Frobenius endomorphisms through [[base change]] for all primes at once -- in the sense of _[Lambda-ring structure](Lambda-ring#LambdaRingByFrobeniusLifts)_ -- is interpreted as encoding [[descent]] data from traditional [[arithmetic geometry]] over [[Spec(Z)]] down to the "absolute" geometry over "[[F1]]". See at _[Borger's absolute geometry -- Motivation](Borger%27s+absolute+geometry#Motivation)_ for more on this.
  
 
 
@@ -201,6 +201,10 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 [[!redirects Frobenius morphisms]]
 
+[[!redirects Frobenius homomorphism]]
+[[!redirects Frobenius homomorphisms]]
+
+
 [[!redirects Frobenius endomorphism]]
 [[!redirects Frobenius endomorphisms]]
 
@@ -209,3 +213,6 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 [[!redirects Frobenius map]]
 [[!redirects Frobenius maps]]
+
+
+
