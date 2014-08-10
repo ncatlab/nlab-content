@@ -49,6 +49,7 @@ This is a special case of forming the [[projective line]] of a [[field]], in thi
 We can put a [[linear order]] on $\overline{\mathbb{R}}$ by setting $-\infty \lt x \lt \infty$ for any real number $x$.  In terms of Dedekind cuts, this is the straightforward extension of the usual definition of $\lt$ on such cuts.
 
 We can put a [[cyclic order]] $R$ on $\mathbb{P}\mathbb{R}^1$ by setting $R(x,y,z)$ true if any of the following hold:
+
 *  $x \lt y \lt z$ are all real numbers,
 *  $y \lt z \lt x$ are all real numbers,
 *  $z \lt x \lt y$ are all real numbers,
