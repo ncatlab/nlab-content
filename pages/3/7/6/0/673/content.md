@@ -55,6 +55,8 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 ## Talks ##
 
+* _TBA_, [Algebra and Topology seminar](http://maths.anu.edu.au/events/algebra-and-topology-seminar-0), Australian National University, 23 September 2014.
+
 * _Explicit string bundles_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014. ([notes from talk](https://www.dropbox.com/s/3f0beiksla65j5n/HW_talk_notes_Roberts.pdf))
 
 * _An explicit string bundle_, [Algebra/Geometry/Topology seminar](http://www.ms.unimelb.edu.au/research/seminars.php?id=1653) University of Melbourne, 22 November 2013.
