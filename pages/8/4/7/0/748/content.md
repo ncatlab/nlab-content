@@ -17,7 +17,9 @@
 ## Definition
 
 The **slice category** or **over category** $\mathbf{C}/c$ of a [[category]] $\mathbf{C}$ over an object $c \in \mathbf{C}$ has 
+
 * objects that are all arrows $f \in \mathbf{C}$ such that $cod(f) = c$, and
+
 * morphisms $g: X \to X' \in \mathbf{C}$ from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$.
 
 $$
