@@ -3,6 +3,14 @@
 * [Wikipedia](http://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Esnault)
 * [Mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=68523)
 
+## related $n$Lab entries
+
+* [[Deligne cohomology]]
+
+* [[Beilinson regulator]]
+
+* [[function field analogy]]
+
 category: people
 
 [[!redirects Helene Esnault]]
