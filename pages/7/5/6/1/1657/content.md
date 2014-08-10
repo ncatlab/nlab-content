@@ -69,28 +69,32 @@ It is sometimes stated (but in fact follows from the above) that:
 
 The first of these conditions will follow for all of the generalised notions of measure below, but the others usually will not. Related query discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2829&Focus=28141#Comment_28141).
 
-### Generalisations
 
-From now on, we drop (2); the next step is to generalise the [[target]] of $\mu$, as follows:
-*  Use $\mathbf{R} = ]-\infty,\infty[$ for a __finite measure__.
+### Generalizations
+
+From now on, we drop (2); the next step is to generalize the [[target]] of $\mu$, as follows:
+
 *  Use $[0,\infty]$ (instead of $[0,1]$) for a __positive measure__.
+*  Use $\mathbf{R} = ]-\infty,\infty[$ for a __finite measure__.
 *  Use $]-\infty,\infty]$ for a __signed measure__.
 *  Use $\mathbf{C}$ for a __complex-valued measure__.
 *  Use an arbitrary [[topological vector space]] $V$ for a __vector-valued measure__.
 *  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of infinitary sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
 
 Some futher terms:
+
 *  We can combine conditions; for example a __finite positive measure__ takes values in $[0,\infty[$.
 *  A measure is __bounded__ if, for some (finite) real number $M$, $-M \leq \mu(S) \leq M$ for every measurable set $S$.
 *  A measure is __$\sigma$-finite__ if every measurable set is a union of countably many sets with finite measure.
 
 Remarks:
+
 *  The property that $\mu$ is increasing holds for all positive measures in the name but may fail for others.
 *  A positive measure that satisfies (2) must be a probability measure as defined earlier; that is, it satisfies $\mu(S) \leq 1$ for all $S$.
 *  When $\infty$ is allowed as a value of $\mu$, then the requirement in (3) that the sum converges should be interpreted in this light; that is, the sum may diverge to infinity.  (For a positive measure, therefore, the convergence criterion is vacuous in [[classical mathematics]].)
 *  Notice that $-\infty$ is not allowed as a value for a signed measure.  It works just as well to allow $-\infty$ and forbid $\infty$.  It is even possible to allow both, but this is a little trickier, so we deal with it later.
 
-Another possibility is to generalise the [[source]] of $\mu$; instead of using a $\sigma$-algebra on $X$, we could use a $\sigma$-ring or even a $\delta$-ring.  These versions are mostly more about changing the definition of [[measurable space]], so refer there for details of the definition; however, we note that (3), when $\Sigma$ is a $\delta$-ring, should state that the left-hand side exists (that is, the union is measurable) if the right-hand side converges.  Generalising $\Sigma$ in this way is complementary to generalising the target above; in particular it may allow one to avoid dealing with $\infty$.  For example, while Lebesgue measure is only a positive measure on a $\sigma$-algebra, it is a *finite* positive measure on the $\delta$-ring of bounded measurable sets.  Indeed, every signed measure gives rise to finite measure on its $\delta$-ring of finitely measurable sets (defined below); conversely, every $\sigma$-finite measure can be recovered from this by imposing (3) in all cases.
+Another possibility is to generalize the [[source]] of $\mu$; instead of using a $\sigma$-algebra on $X$, we could use a $\sigma$-ring or even a $\delta$-ring.  These versions are mostly more about changing the definition of [[measurable space]], so refer there for details of the definition; however, we note that (3), when $\Sigma$ is a $\delta$-ring, should state that the left-hand side exists (that is, the union is measurable) if the right-hand side converges.  Generalizing $\Sigma$ in this way is complementary to generalizing the target above; in particular it may allow one to avoid dealing with $\infty$.  For example, while Lebesgue measure is only a positive measure on a $\sigma$-algebra, it is a *finite* positive measure on the $\delta$-ring of bounded measurable sets.  Indeed, every signed measure gives rise to finite measure on its $\delta$-ring of finitely measurable sets (defined below); conversely, every $\sigma$-finite measure can be recovered from this by imposing (3) in all cases.
 
 Yet another possibility is to drop countable additivity, replacing it with finite additivity.  The result is a __finitely additive measure__, sometimes called a __charge__ to avoid the [[red herring principle]]; in contrast, the usual sort of measure may be called __countably additive__.  For a charge, one could replace $\Sigma$ with an algebra (or even a ring) of sets; again see [[measurable space]] for these definitions.
 
