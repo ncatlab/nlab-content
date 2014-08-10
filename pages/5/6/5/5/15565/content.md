@@ -74,3 +74,6 @@ Discussion in the context of [[Borger's absolute geometry]] over [[F1]] is in
 
 
 [[!redirects arithmetic jet spaces]]
+
+[[!redirects arithmetic differential equation]]
+[[!redirects arithmetic differential equations]]
