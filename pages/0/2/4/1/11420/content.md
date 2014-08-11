@@ -150,3 +150,6 @@ for more on this see also at _[fracture theorem -- Arithmetic fracturing for cha
 
 [[!redirects formal completion]]
 [[!redirects formal completions]]
+
+[[!redirects adic completion]]
+[[!redirects adic completions]]
