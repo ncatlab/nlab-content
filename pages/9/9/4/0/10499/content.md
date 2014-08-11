@@ -144,7 +144,7 @@ but more generally there are fracture squares for the [[coproduct]] homology the
 
 * [General fracture squares](#GeneralFractureSquares)
 
-#### The arithmetic fracture square
+#### The arithmetic fracture square for spectra
  {#TheArithmeticFractureSquare}
 
 
@@ -265,13 +265,31 @@ is homotopy exact, in that
 
 1. the top and bottom outer composite sequences are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]) (by applying the [[pasting law]] to the previous two items).
 
-Together this is like two-thirds of a [[differential cohomology hexagon]], this we come back to [below](#InCohesiveHomotopyTheory).
+Together this is like two-thirds of a [[differential cohomology hexagon]] -- or would be to the extent that $p$-completion is adjoint to $p$-torsion, as for chain complexes [below](#CompletionAndTorsionOnDerivedCategories) -- this we come back to [below](#InCohesiveHomotopyTheory).
 
 Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{S\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
 
 
 
 =--
+
+#### Arithmetic fracturing for chain complexes
+ {#CompletionAndTorsionOnDerivedCategories}
+
+> under construction
+
+
+Remark \ref{TwoThirdHexagon} suggests that arithmetic fracturing naturally goes along with [[adjoint pairs]] of ([[derived functor|derived]]/[[(∞,1)-functor|(∞,1)-functorial]]) [[idempotent monads|idempotent (co-)-monads]] given by [[formal completion]] and by taking [[torsion subgroups]], respectivly. 
+
+Whether such [[adjoint modalities]] exist for [[spectra]]..., but in ([Porta-Shaul-Yekutieli 10](#PortaShaulYekutieli10)) they are essentially shown to exist on [[chain complexes]] (hence, by the [[stable Dold-Kan correspondence]], at least for $H A$-[[module spectra]] ).
+
+([Porta-Shaul-Yekutieli 10, corollary 3.30, prop. 6.10](#PortaShaulYekutieli10)) says that for [[commutative rings]] $A$ with suitable (namely "weakly pro-regular") ideals $\mathfrak{a}$, then the [[derived functor|derived]] $\mathfrak{a}$-[[torsion subgroup]]-functor and the derived $\mathfrak{a}$-completion functor on the [[derived category]] of $A$-modules are idempotent via their unit/counit maps, respectively. Moreover, ([Porta-Shaul-Yekutieli 10, theorem 6.12](#PortaShaulYekutieli10)) says that the sub-categories of [[modal types]] are canonically equivalent, as befits an [[adjoint modality]]
+
+$\mathfrak{a}$-completion $\dashv$ $\mathfrak{a}$-torsion
+
+(...)
+
+
 
 #### General fracture squares
  {#GeneralFractureSquares}
@@ -414,7 +432,6 @@ by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
 * {#Riehl14} [[Emily Riehl]], _Categorical homotopy theory_, new mathematical monographs 24, Cambridge University Press 2014 (published version)
 
-
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], chapters 7 and 8 of _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 * [[Michael Shulman]], _The Propositional Fracture Theorem_, ([blog post](http://golem.ph.utexas.edu/category/2013/05/the_propositional_fracture_the.html))
@@ -426,6 +443,18 @@ Related MO-discussion:
 Discussion of rational functions as functions on the [[Ran space]] is in 
 
 * {#Gaitsgory11} [[Dennis Gaitsgory]], _Contractibility of the space of rational maps_ ([arXiv:1108.1741](http://arxiv.org/abs/1108.1741))
+
+Discussion of $\mathfrak{a}$-completion and $\mathfrak{a}$-torsion as derived idempotent (co-)monads on a [[derived category]] of chain complexes of modules -- _Greenlees-May duality_ -- is in 
+
+* {#PortaShaulYekutieli10} Marco Porta, Liran Shaul, [[Amnon Yekutieli]], _On the Homology of Completion and Torsion_ ([arXiv:1010.4386](http://arxiv.org/abs/1010.4386))
+
+building on
+
+* {#GreenlessMay92} [[John Greenlees]], [[Peter May]], _Derived functors of I-adic completion and local homology_, J. Algebra 149 (1992), 438&#8211;453 ([pdf](http://math.uchicago.edu/~may/PAPERS/73.pdf))
+
+* Leovigildo Alonso, Ana Jerem&#237;as, [[Joseph Lipman]], _Local Homology and Cohomology on Schemes_ ([arXiv:alg-geom/9503025](http://arxiv.org/abs/alg-geom/9503025))
+
+
 
 [[!redirects fracture theorems]]
 
