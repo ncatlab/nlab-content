@@ -60,7 +60,7 @@ Say that a morphism $f \colon X \to Y$ is an **$E$-equivalence** if it becomes a
 +-- {: .num_prop #LocalizationCofiber}
 ###### Proposition
 
-For $E$ a [[spectrum]], every other spectrum sits in an essentially unique [[homotopy cofiber sequence]]
+For $E$ a [[spectrum]], every spectrum sits in an essentially unique [[homotopy cofiber sequence]]
 
 $$
   G_E(X) \to X \to L_E(X)
@@ -80,6 +80,13 @@ according to def. \ref{AcyclicAndLocal}.
 =--
 
 (e.g. [Lurie, Lecture 20, example 4](#LurieLecture))
+
++-- {: .num_remark #Acyclification}
+###### Remark
+
+Hence where $L_E$ is traditionally called "$E$-localization", $G_E$ might be called "$E$-acyclification", though that terminology is not used very commonly. 
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
@@ -192,16 +199,18 @@ Under suitable condition the second map here is indeed an [[equivalence]], in wh
 
 ### Rationalization
 
-+-- {: .num_example}
++-- {: .num_example #Rationalization}
 ###### Example
 
 Bousfield localization at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q}\simeq H\mathbb{Q}$ of the [[rational numbers]] is [[rationalization]] to [[rational homotopy theory]].
 
+The corresponding $\mathbb{Q}$-acyclification (remark \ref{Acyclification}) is _[[torsion approximation]]_.
+
+
 =--
 
+e.g. ([Bauer 11, example 1.7](#Bauer11))
 
-
-([Bauer 11, example 1.7](#Bauer11))
 
 
 ### $p$-Localization
