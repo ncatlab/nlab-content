@@ -5,7 +5,21 @@
 
 ## Idea
 
-A [[Bousfield localization of spectra]] which preserves [[direct sums]].
+If a  [[Bousfield localization of spectra]] $L_E$ at a spectrum $E$ preserves all [[direct sums]], then it is given by [[smash product]] with the $E$-localization of the [[sphere spectrum]]
+
+$$
+  L_E X \simeq X \wedge L_E S
+$$
+
+and is hence called a _smashing localization_.
+
+## Examples
+
+* For $G$ a [[group]] without [[torsion subgroup|torsion]], then localization at the [[Moore spectrum]] $E = S G$ (in particular [[p-localization]]) is smashing (see at _[[Bousfield localization of spectra]]_ [here](Bousfield+localization+of+spectra#pLocalizationIsSmashing)).
+
+* Localization with respect to [[Morava E-theory]] is smashing (Hopkins-Ravenel).
+
+* "finite localizations" are smashing ([Miller 92](#Miller92))
 
 ## Related concepts
 
@@ -13,5 +27,11 @@ A [[Bousfield localization of spectra]] which preserves [[direct sums]].
 
 ## References
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf)), Lecture 22 _Morava E-theory and Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
- {#LurieLect22}
+* {#LurieLect22} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, Lecture 22 _Morava E-theory and Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+
+* {#Miller92} Miller, _Finite localizations_, Boletin de la Sociedad Matematica Mexicana 37 (1992), 383&#8211;390 ([HopfArchive](http://hopf.math.purdue.edu/cgi-bin/generate?/MillerH/finite-localization))
+ 
+[[!redirects smashing localizations]]
+
+[[!redirects smashing localization of spectra]]
+[[!redirects smashing localizations of spectra]]
