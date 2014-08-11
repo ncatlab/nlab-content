@@ -38,13 +38,13 @@ are equivalent;
 1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
 
 An important weakening of the Morita equivalence is [[Morita context]] (in older
-literature sometimes called prequivalence).
+literature sometimes called pre-equivalence).
 
 ## Definitions
 
 ### In algebra
 
-Two rings are **Morita equivalent** if the equivalent statements in Morita theorem above are true. A **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
+Two rings are **Morita equivalent** if the equivalent statements in the Morita theorem above are true. A **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
 morphisms of bimodules.
 
 A theorem in ring theory says that the [[center]] of a ring is isomorphic to the center of its category of modules and that Morita equivalent rings have isomorphic centers. Especially, two _commutative_ rings are Morita equivalent precisely when they are isomorphic!
@@ -86,7 +86,7 @@ A beautiful classical exposition is in the chapter II of
 
 * [[Hyman Bass]], _Algebraic K-theory_, Benjamin 1968
 
-* P. M. Cohn, _Further algebras and applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
+* P. M. Cohn, _Further algebra and applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
 
