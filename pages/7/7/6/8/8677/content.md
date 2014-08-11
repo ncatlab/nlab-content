@@ -91,11 +91,17 @@ $$
 
 ## References
 
-Basics of [[localizations of commutative rings]] are reviewed for instance in
+A classical account of [[localization of commutative rings]] is in section 1 of
+
+* {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
+by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
+
+
+Further reviews include
 
 * {#Gathmann} Andreas Gathmann, _Localization_ ([[GathmannLocalization.pdf:file]])
 
-Discusison of the general concept in [[noncommutative geometry]] is in
+Discussion of the general concept in [[noncommutative geometry]] is in
 
 * [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
 
