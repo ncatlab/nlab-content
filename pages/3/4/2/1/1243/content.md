@@ -60,6 +60,8 @@ This is a special case of a [more general result](http://ncatlab.org/nlab/show/p
 
 * [[p-torsion]]
 
+* [[torsion approximation]]
+
 ## References
 
 * S. E. Dickson, _Torsion theories for abelian categories_,
