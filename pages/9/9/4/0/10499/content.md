@@ -78,8 +78,8 @@ Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $
 
 =--
 
-This is of course elementary in itself, but is conceptually important (see remark \ref{GeometricMeaning} below).
-One place where the first pullback square above appears explicitly in relation to fracture theorems in homotopy theory (see [below](#InHomotopyTheory)) is in ([Riehl 14, lemma 14.4.2](#Riehl14)).
+An original discussion is ([Sullivan 05, prop. 1.18](#Sullivan05)). Review includes ([Riehl 14, lemma 14.4.2](#Riehl14)).
+
 
 +-- {: .num_remark #GeometricMeaning}
 ###### Remark
@@ -183,7 +183,7 @@ $$
 
 =--
 
-This is originally due to ([Sullivan 05](#Sullivan05), it is recalled for instance as ([Bauer 11, lemma 2.1](#Bauer11)).
+Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13), [Bauer 11, lemma 2.1](#Bauer11)). 
 
 +-- {: .num_remark }
 ###### Remark
@@ -234,7 +234,7 @@ $$
 
 =--
 
-The first statement appears for instance as ([Bauer 11, below prop. 2.2](#Bauer11)), the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
+The first statement originates around ([Bousfield 79, prop. 2.6](Bousfield+localization+of+spectra#Bousfield79)), review includes ([van Koughnett 13, prop. 4.4](Bousfield+localization+of+spectra#VanKoughnett13), [Bauer 11, below prop. 2.2](#Bauer11)); the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
 
 +-- {: .num_remark #TwoThirdHexagon}
@@ -463,19 +463,24 @@ See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#Decomopositio
 
 ## Related concepts
 
+
 * [[p-adic homotopy theory]], [[p-completion]]
 
 * [[rational homotopy theory]], [[rationalization]]
 
 
 ## References
-
+ 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
 
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011 ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+
+* {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
 * {#Riehl14} [[Emily Riehl]], _Categorical homotopy theory_, new mathematical monographs 24, Cambridge University Press 2014 (published version)
 
