@@ -78,7 +78,7 @@ By a general [[Karoubi envelope#def2|lemma for idempotent splittings]], it suffi
 
 * Every smooth manifold is a smooth retract of an open set in Euclidean space; 
 
-* If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an embedded submanifold. 
+* If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an [[embedding of smooth manifolds|embedded]] submanifold. 
 
 For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
 
@@ -295,6 +295,8 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 =--
 
 ## Related concepts
+
+* [[embedding of smooth manifolds]]
 
 * [[infinite dimensional smooth manifold]]
 
