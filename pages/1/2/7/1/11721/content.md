@@ -1,6 +1,6 @@
 I am a visiting grad student in the philosophy department at Carnegie Mellon University interested in categorical logic, applications of category theory to [[linguistics]], philosophy of math/language...
 
-Contact: &lt;zwanzig@post.harvard.edu> 
+Contact: &lt;zwanzig@cmu.edu> 
 
 
 category:people
