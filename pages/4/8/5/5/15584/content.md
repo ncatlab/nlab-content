@@ -13,7 +13,7 @@
 [[!redirects graphics]]
 
 ##Idea
-A simple class of finite monoids and categories that permit an effective graphic display via their presheaf categories.
+A simple class of finite [[monoids]] and [[categories]] that permit an effective graphic display via their [[presheaf]] categories.
 
 
 ##Definition
@@ -21,7 +21,7 @@ A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called 
 
 ##Example
 
-* The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its Cauchy completion $\overline\Delta_1$. The presheaf topos $\mathcal{S}^{\Delta_1^{op}}$ is the topos of reflexive **graphs**.
+* The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $\mathcal{S}^{\Delta_1^{op}}$ is the topos of reflexive **graphs**.
 
 ##Properties
 
