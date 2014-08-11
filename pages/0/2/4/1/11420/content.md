@@ -27,7 +27,7 @@
 
 Quite generally, the _completion of a ring_ is a [[completion]] of a [[topological ring]] to a [[complete space|complete]] [[topological ring]], when possible, for instance of a [[normed ring]] to a [[Banach ring]]. 
 
-### Formal completion and formal neighbourhoods
+### Formal/adic completion and formal neighbourhoods
 
 A special case of ring completion is the _formal completion_ or _adic completion_ of a [[commutative ring]] $R$, whichh is its topological completion with respect to the [[adic topology]] induced by a [[maximal ideal]] $I\subset R$ ([Sullivan 05, definition 1.3](#Sullivan05)). 
 
@@ -51,6 +51,10 @@ $$
   Spec(R)
   \,.
 $$
+
+### Derived completion functor
+
+The [[derived functor]] of adic completion was originally discussed in ([Greenless-May 92](#GreenlessMay92) ("Greenlees-May duality"). For discussion of its relation to derived [[torsion subgroup]] functor see ([Porta-Shaul-Yekutieli 10](#PortaShaulYekutieli10)) and see at _[fracture theorem -- Arithmetic fracturing for chain complexes](http://ncatlab.org/nlab/show/fracture+theorem#CompletionAndTorsionOnDerivedCategories)_.
 
 
 ## Examples
@@ -119,12 +123,21 @@ A classical account is in section 1 of
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
-
-See also
+Brief surveys include
 
 * Wikipedia, _[Completion (ring theory)](https://en.wikipedia.org/wiki/Completion_%28ring_theory%29)_
 
 * {#Bridges11} Brett Bridges, _An introduction to ring completions_, lecture notes 2011 ([pdf](http://www.math.uwo.ca/~srankin/courses/4123/2011/brett_presentation.pdf))
+
+Discussion of the [[derived functor]] of adic completion ("Greenless-May duality") is in 
+
+* {#GreenlessMay92} [[John Greenlees]], [[Peter May]], _Derived functors of I-adic completion and local homology_, J. Algebra 149 (1992), 438&#8211;453 ([pdf](http://math.uchicago.edu/~may/PAPERS/73.pdf))
+
+* Leovigildo Alonso, Ana Jerem&#237;as, [[Joseph Lipman]], _Local Homology and Cohomology on Schemes_ ([arXiv:alg-geom/9503025](http://arxiv.org/abs/alg-geom/9503025))
+
+* {#PortaShaulYekutieli10} Marco Porta, Liran Shaul, [[Amnon Yekutieli]], _On the Homology of Completion and Torsion_ ([arXiv:1010.4386](http://arxiv.org/abs/1010.4386))
+
+for more on this see also at _[fracture theorem -- Arithmetic fracturing for chain complexes](http://ncatlab.org/nlab/show/fracture+theorem#CompletionAndTorsionOnDerivedCategories)_
 
 [[!redirects completion of a ring]]
 [[!redirects completion of rings]]
