@@ -99,6 +99,10 @@ $$G_1\stackrel{i_1}{\to}G_2\stackrel{i_2}{\to}\dots$$
 
 satisfying (1)(2)(3).
 
+## Related concepts
+
+* [[torsion approximation]]
+
 ## References
 
 * see the references at [[nLab:p-divisible group]], in particular the notes by Richard Pink.
