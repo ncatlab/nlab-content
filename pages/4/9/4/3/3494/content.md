@@ -195,7 +195,134 @@ If we think of hc diagrams as algebras over an operad, then this rectification i
 
 1.  A diagram indexed by the small category, $[2]$.
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26X(1)\ar[dr]^{X(12)}%26\\X(0)\ar[rr]_{\hspace{.5cm}X(02)}\ar[ur]^{X(01)}_{X(012)}%26%26X(2)}"/>
+$$
+\begin{svg}<svg width="167" height="103" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="36876">
+ <g>
+  <title>Layer 1</title>
+  <foreignObject height="24" width="32" font-size="16" id="svg_36876_1" y="67" x="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>X</mi>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">X(0)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_36876_2" height="24" width="32" font-size="16" y="0" x="67">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>X</mi>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">X(1)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_36876_11" height="24" width="32" font-size="16" y="67" x="134.5">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>X</mi>
+      <mo stretchy="false">(</mo>
+      <mn>2</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">X(2)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="32" font-size="16" id="svg_36876_20" y="29" x="18">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mstyle scriptlevel="1">
+       <mrow>
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <mn>01</mn>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mstyle>
+     </mrow>
+     <annotation encoding="application/x-tex">\scriptsize{X(01)}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_36876_21" height="20" width="32" font-size="16" y="82.5" x="67">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mstyle scriptlevel="1">
+       <mrow>
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <mn>02</mn>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mstyle>
+     </mrow>
+     <annotation encoding="application/x-tex">\scriptsize{X(02)}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_36876_32" height="20" width="32" font-size="16" y="29.5" x="118.5">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mstyle scriptlevel="1">
+       <mrow>
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <mn>12</mn>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mstyle>
+     </mrow>
+     <annotation encoding="application/x-tex">\scriptsize{X(12)}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_36876_43" height="20" width="36" font-size="16" y="49.5" x="61.5">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mstyle scriptlevel="1">
+       <mrow>
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <mn>012</mn>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mstyle>
+     </mrow>
+     <annotation encoding="application/x-tex">\scriptsize{X(012)}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_marker_end_svg_36876_54)" id="svg_36876_54" y2="24.5" x2="72.5" y1="72.5" x1="29.5" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_36876_55)" id="svg_36876_55" y2="69.5" x2="132.5" y1="22.5" x1="89.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_36876_56)" id="svg_36876_56" y2="80.5" x2="127.5" y1="80" x1="33" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="none"/>
+ </g>
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_36876_54">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_36876_55">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_36876_56">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+</svg>\end{svg}
+$$
 
 is h.c. if there is specified a homotopy 
 
@@ -204,7 +331,7 @@ $$X(012) : X(0)\times I \to X(2),$$
 $$X(012) : X(02) \simeq X(12)X(01).$$
 
 1. For a diagram indexed by $[3]$: Draw a 3-simplex, marking the vertices
-$X(0)$, \ldots, $X(3)$, the edges $X(ij)$, etc., the faces $X(ijk)$, etc.  The 
+$X(0), \ldots, X(3)$, the edges $X(ij)$, etc., the faces $X(ijk)$, etc.  The 
 homotopies $X(ijk)$ fit together to make the sides of a square
 
 $$
