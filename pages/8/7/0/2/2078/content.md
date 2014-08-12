@@ -17,3 +17,4 @@ category: people
 
 [[!redirects P. Johntsone]]
 [[!redirects P. T. Johnstone]]
+[[!redirects P. Johnstone]]
