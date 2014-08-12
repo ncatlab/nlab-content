@@ -264,21 +264,89 @@ is homotopy exact, in that
 
 1. the top and bottom outer composite sequences are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]) (by applying the [[pasting law]] to the previous two items).
 
-Together this is like two-thirds of a [[differential cohomology hexagon]] -- or would be to the extent that $p$-[[adic completion]] is adjoint to $p$-[[torsion approximation]], as for chain complexes [below](#CompletionAndTorsionOnDerivedCategories) -- this we come back to [below](#InCohesiveHomotopyTheory).
+Together this is like two-thirds of a [[differential cohomology hexagon]] -- to the extent that $p$-[[adic completion]] is adjoint to $p$-[[torsion approximation]]. This is indeed the case, as the next proposition asserts
+
 
 Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{S\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
 
 =--
 
-In fact we have ([Lurie "Proper morphisms", section 4](#LurieProper))...
+In view of remark \ref{TwoThirdHexagon} we may regard the following fact as an refinement of the traditional arithmetic fracture theorem.
 
-#### Arithmetic fracturing for chain complexes
++-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
+###### Proposition
+
+Let $A$ be an [[E-∞ ring]] and let $\mathfrak{a} \subset \pi_0 A$ be a [[generators and relations|finitely generated]] ideal in its underlying [[commutative ring]].
+
+Then there is an [[adjoint triple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \array{
+    \underoverset{
+      A Mod_{\mathfrak{a}comp}^{op}}
+    {A Mod_{\mathfrak{a}tors}^{op}}
+    {\simeq}
+    &\stackrel{\overset{\Pi_{\mathfrak{a}}}{\longleftarrow}}{\stackrel{\hookrightarrow}{\underset{\flat_{\mathfrak{a}}}{\longleftarrow}}}&
+    A Mod^{op}
+  }
+$$
+
+where
+
+* $A Mod$ is the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]], i.e. of [[∞-modules]] over $A$;
+
+* $A Mod_{\mathfrak{a}tor}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
+
+* $(-)^{op}$ denotes the [[opposite (∞,1)-category]];
+
+* the [[equivalence of (∞,1)-categories]] on the left is induced by the restriction of $\Pi_{\mathfrak{a}}$ and $\flat_{\mathfrak{a}}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is effectively the content of ([Lurie "Proper morphisms", section 4](#LurieProper)):
+
+* the existence of $\Pi_{\mathfrak{a}}$ is corollary 4.1.16 and remark 4.1.17
+
+* the existence of $\flat_{\mathfrak{a}}$ is lemma 4.2.2 there;
+
+* the equivalence of sub-$\infty$-categories is proposition 4.2.5 there.
+
+=--
+
++-- {: .num_cor #FractureFromCohesion}
+###### Corollary
+
+The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture}, regarded as in remark \ref{TwoThirdHexagon}, is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $A = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
+
+$$
+  \array{
+    &&  \Pi_{\mathfrak{a}dR} X && \stackrel{\mathbf{d}}{\longrightarrow} && \flat_{\mathfrak{a}dR} X 
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && \flat_{\mathfrak{a}} A && \longrightarrow && \Pi_{\mathfrak{a}} A
+  }
+  \,,
+$$
+
+
+=--
+
+The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a lonnger tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
+
+
+#### The arithmetic fracture square for chain complexes
  {#CompletionAndTorsionOnDerivedCategories}
 
 
-Remark \ref{TwoThirdHexagon} suggests that arithmetic fracturing naturally goes along with [[adjoint pairs]] of ([[derived functor|derived]]/[[(∞,1)-functor|(∞,1)-functorial]]) [[idempotent monads|idempotent (co-)-monads]] given by [[formal completion]] and by [[torsion approximation]], respectivly. 
-
-Indeed that is the case see [Rezk, MO comment](http://mathoverflow.net/a/178316/381), [Lurie "Proper morphisms", section 4](#LurieProper). For the case of chain complexes instead of spectra, this is in the literature often known as _Greenlees-May duality_ ([Dwyer-Greenlees 99](#DwyerGreenlees99), [Porta-Shaul-Yekutieli 10](#PortaShaulYekutieli10)).
+We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under the [[stable Dold-Kan correspondence]] this is a special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, but this special case has a longer tradition in the literature -- often called _Greenlees-May duality_ due to ([Greenlees-May 92](#GreenlessMay92)) -- and we point to these original proofs spring.
 
 
 +-- {: .num_defn}
@@ -336,7 +404,7 @@ This adjoint triple is stated more explicitly in ([Dwyer-Greenlees 99, section 4
 
 =--
 
-
+Therefore arithmetic fracture squares in the homotopy theory of chain complexes are induced by this as in corollary \ref{FractureFromCohesion} above.
 
 #### General fracture squares
  {#GeneralFractureSquares}
@@ -462,6 +530,7 @@ See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#Decomopositio
 =--
 
 ## Related concepts
+
 
 
 * [[p-adic homotopy theory]], [[p-completion]]
