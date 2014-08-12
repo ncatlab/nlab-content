@@ -148,8 +148,6 @@ but more generally there are fracture squares for the [[coproduct]] homology the
  {#TheArithmeticFractureSquare}
 
 
-
-
 For $p$ a [[prime number]] write
 
 * $L_p$ for [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{F}_p$, hence for [[p-completion]] $(-)_p^\wedge$;
@@ -270,18 +268,17 @@ Together this is like two-thirds of a [[differential cohomology hexagon]] -- or 
 
 Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{S\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
 
-
-
 =--
+
+In fact we have ([Lurie "Proper morphisms", section 4](#LurieProper))...
 
 #### Arithmetic fracturing for chain complexes
  {#CompletionAndTorsionOnDerivedCategories}
 
-> under construction
 
 Remark \ref{TwoThirdHexagon} suggests that arithmetic fracturing naturally goes along with [[adjoint pairs]] of ([[derived functor|derived]]/[[(∞,1)-functor|(∞,1)-functorial]]) [[idempotent monads|idempotent (co-)-monads]] given by [[formal completion]] and by [[torsion approximation]], respectivly. 
 
-Whether such [[adjoint modalities]] exist for [[spectra]]..., but in ([Dwyer-Greenlees 99](#DwyerGreenlees99), [Porta-Shaul-Yekutieli 10](#PortaShaulYekutieli10)) they are shown to exist on [[chain complexes]] (hence, by the [[stable Dold-Kan correspondence]], at least for $H A$-[[module spectra]] ).
+Indeed that is the case see [Rezk, MO comment](http://mathoverflow.net/a/178316/381), [Lurie "Proper morphisms", section 4](#LurieProper). For the case of chain complexes instead of spectra, this is in the literature often known as _Greenlees-May duality_ ([Dwyer-Greenlees 99](#DwyerGreenlees99), [Porta-Shaul-Yekutieli 10](#PortaShaulYekutieli10)).
 
 
 +-- {: .num_defn}
@@ -313,6 +310,7 @@ for the [[full (∞,1)-subcategories]] of objects $X$ for which, $\epsilon_{\mat
 
 
 =--
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -510,9 +508,11 @@ building on
 
 * {#HoveyPalieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610, x+114.
 
-
 * {#DwyerGreenlees99} [[William Dwyer]], [[John Greenlees]], _Complete modules and torsion modules_, Amer. J. Math. 124, No. 1, (1999)  ([pdf](https://www3.nd.edu/~wgd/Dvi/Complete.And.Torsion.pdf))
 
+Discussion of this in [[stable homotopy theory]] and the full generality of [[higher algebra]] is in 
+
+* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
 [[!redirects fracture theorems]]
 
