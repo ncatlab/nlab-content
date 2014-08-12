@@ -282,6 +282,7 @@ Then there is an [[adjoint triple]] of [[adjoint (∞,1)-functors]]
 
 $$
   \array{
+
     \underoverset{
       A Mod_{\mathfrak{a}comp}^{op}}
     {A Mod_{\mathfrak{a}tors}^{op}}
@@ -336,17 +337,54 @@ $$
   \,,
 $$
 
+$$
+  \array{
+    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && \mathfrak{a}\;completion && \longrightarrow && \mathfrak{a}\;torsion\;approximation
+  }
+  \,,
+$$
+
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
 The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a longer tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
 
+=--
+
++-- {: .num_remark #FracturingOnEInfinityAlgebras}
+###### Remark
+
+By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is by [[monoidal (∞,1)-functors]] on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to [[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]], hence to affine [[spaces]] in [[E-∞ geometry]]
+
+$$
+  (\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )  \colon
+  E_\infty Alg_A^{op} \to E_\infty Alg_A^{op}
+  \,.
+$$
+
+Notice that in addition $\Pi_{\mathfrak{a}}$ here preserves [[finite products]]. (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
+[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing} finite coproducts in $CRing(A Mod)$ are computed in the underlying $A Mod$.
+
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine $E_\infty$-[[arithmetic geometry]].
+
+=--
 
 #### The arithmetic fracture square for chain complexes
  {#CompletionAndTorsionOnDerivedCategories}
 
 
-We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under the [[stable Dold-Kan correspondence]] this is a special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, but this special case has a longer tradition in the literature -- often called _Greenlees-May duality_ due to ([Greenlees-May 92](#GreenlessMay92)) -- and we point to these original proofs spring.
+We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under the [[stable Dold-Kan correspondence]] this is a special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, but this special case has a longer tradition in the literature -- often called _Greenlees-May duality_ due to ([Greenlees-May 92](#GreenlessMay92)) -- and we point to these original proofs.
 
 
 +-- {: .num_defn}
