@@ -213,11 +213,55 @@ characteristic of a [[cohesive topos]].
 ### Formal completion $\dashv$ Torsion approximation
  {#FormalCompletionAndTorsionApproximation}
 
-For $A$ a [[commutative ring]] and $\mathfrak{a}\subset A$ a suitable ideal, then $\mathfrak{a}$-[[adic completion]] and $\mathfrak{a}$-[[torsion approximation]] form an adjoint modality on $A MMod$ the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]] $A Mod_\infty$ over $A$. 
+For $A$ a [[commutative ring]] or more generally an [[E-∞ ring]] and $\mathfrak{a}\subset \pi_0 A$ a suitable ideal, then $\mathfrak{a}$-[[adic completion]] and $\mathfrak{a}$-[[torsion approximation]] form an adjoint modality on $A MMod$ the [[stable (∞,1)-category|stable]] [[(∞,1)-category of ∞-modules]] $A Mod_\infty$ over $A$. 
 
   ($\mathfrak{a}$-adic completion) $\dashv$ ($\mathfrak{a}$-torsion approximation)
 
-See at _[arithmetic fracturing for chain complexes](fracture%20theorem#CompletionAndTorsionOnDerivedCategories)_.
++-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
+###### Proposition
+
+Let $A$ be an [[E-∞ ring]] and let $\mathfrak{a} \subset \pi_0 A$ be a [[generators and relations|finitely generated]] ideal in its underlying [[commutative ring]].
+
+Then there is an [[adjoint triple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \array{
+    \underoverset{
+      A Mod_{\mathfrak{a}comp}^{op}}
+    {A Mod_{\mathfrak{a}tors}^{op}}
+    {\simeq}
+    &\stackrel{\overset{\Pi_{\mathfrak{a}}}{\longleftarrow}}{\stackrel{\hookrightarrow}{\underset{\flat_{\mathfrak{a}}}{\longleftarrow}}}&
+    A Mod^{op}
+  }
+$$
+
+where
+
+* $A Mod$ is the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]], i.e. of [[∞-modules]] over $A$;
+
+* $A Mod_{\mathfrak{a}tor}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
+
+* $(-)^{op}$ denotes the [[opposite (∞,1)-category]];
+
+* the [[equivalence of (∞,1)-categories]] on the left is induced by the restriction of $\Pi_{\mathfrak{a}}$ and $\flat_{\mathfrak{a}}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is effectively the content of ([Lurie "Proper morphisms", section 4](#LurieProper)):
+
+* the existence of $\Pi_{\mathfrak{a}}$ is corollary 4.1.16 and remark 4.1.17
+
+* the existence of $\flat_{\mathfrak{a}}$ is lemma 4.2.2 there;
+
+* the equivalence of sub-$\infty$-categories is proposition 4.2.5 there.
+
+=--
+
+
+See at _[[fracture theorem]]_ for more.
 
 ### Totally distributive categories
 
@@ -265,6 +309,9 @@ with further developments in
 
 * {#DJK14} Wojciech Dzik, Jouni J&#228;rvinen, Michiro Kondo, _Characterising intermediate tense logics in terms of Galois connections_ ([arXiv:1401.7646](http://arxiv.org/abs/1401.7646))
 
+### Examples
+
+* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
 [[!redirects adjoint cylinders]]
 
