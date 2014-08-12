@@ -421,6 +421,7 @@ and by [[cohesion]] the bottom horizontal morphism is an [[equivalence in an (in
 =--
 
 ### The hexagon diagram
+ {#TheHexagonDiagram}
 
 
 Combining these two statements yields the following ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
@@ -428,8 +429,7 @@ Combining these two statements yields the following ([Bunke-Nikolaus-V&#246;lkl 
 +-- {: .num_theorem #TheDifferentialDiagram}
 ###### Theorem
 
-For $\mathbf{H}$ a [[cohesive (∞,1)-topos]]
-every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}$ sits inside a hexagonal [[diagram]] -- the _differential cohomology hexagon_ -- of the form
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] with [[shape modality]] $\Pi$ and [[flat modality]] $\flat$, then for every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}$ the canonical hexagon diagram 
 
 $$
   \array{
@@ -446,14 +446,13 @@ $$
   \,,
 $$
 
-where 
+formed from the $\Pi$-[[unit of a monad|unit]] and $\flat$-counit  -- the "differential cohomology hexagon" -- is homotopy exact in that
 
-1. the two squares are [[homotopy pullback]] squares, 
+1. the two squares are [[homotopy pullback]] squares ("[[fracture squares]]");
 
-1. the two diagonals are the [[homotopy fiber sequences]] of the [[Maurer-Cartan form]] $\theta_A$ and its dual 
+1. the two diagonals are the [[homotopy fiber sequences]] of the [[Maurer-Cartan form]] $\theta_A$ and its dual; 
 
-1. the bottom morphism is the canonical [[points-to-pieces transform]]
-
+1. the bottom morphism is the canonical [[points-to-pieces transform]];
 
 1. the top and bottom outer sequences are long [[homotopy fiber sequences]].
 
