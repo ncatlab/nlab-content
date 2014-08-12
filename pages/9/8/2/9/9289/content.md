@@ -1,10 +1,15 @@
-[[!redirects monoidal (∞,1)-functor]]
 
 
 
 ## Idea
 
 An [[(∞,1)-functor]] that is a [[homomorphism]] of [[monoidal (∞,1)-categories]].
+
+## Examples
+
+* [[smashing localization]]
+
+* [[completion of a module]]
 
 ## Related concepts
 
@@ -17,3 +22,5 @@ An [[(∞,1)-functor]] that is a [[homomorphism]] of [[monoidal (∞,1)-categori
 
 [[!redirects monoidal (∞,1)-functors)]]
 [[!redirects monoidal (infinity,1)-functors]]
+
+[[!redirects monoidal (∞,1)-functor]]
