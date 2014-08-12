@@ -36,7 +36,7 @@ For $C$ a [[symmetric monoidal (∞,1)-category]] write $CMon(C)$ for the $(\inf
 
 ### Properties
 
-+-- {: .num_theorem }
++-- {: .num_theorem #LimitsInCRing}
 ###### Theorem
 
 * $CMon(C)$ has all [[(∞,1)-coproduct]]s and these are computed as [[tensor product]]s in $C$.
