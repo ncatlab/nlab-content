@@ -63,7 +63,7 @@ In these cases:
 ###### Remark
 
 
-The analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ -- written $\mathbb{F}_p$ when regarded as a [[finite field]] -- and/or the [[p-adic integers]] $\mathbb{Z}_p$ instead of $\mathbb{Z}_T$.
+The analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ -- written $\mathbb{F}_p$ when regarded as a [[finite field]] -- and/or the [[p-adic integers]] $\mathbb{Z}_p$ instead of $\mathbb{Z}_T$ (e.g. [Lurie "Proper morphisms", section 4](#LurieProper)).
 
 For the relation of that to completion see remark \ref{RelationToCompletion} below.
 
@@ -178,11 +178,11 @@ A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**
 
 $\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{Z}/p\mathbb{Z}$ (e.g. [Bauer 11, Example 1.7](#Bauer11)).  
 
-This is a consequence of the [[mod p Whitehead theorem]].
+This may be regarded as a consequence of the [[mod p Whitehead theorem]].
 
 =--
 
-See ([May-Ponto, example 19.2.3](#MayPonto), [Lurie, example 8](#Lurie)).
+See ([May-Ponto, example 19.2.3](#MayPonto), [Lurie, example 8](#Lurie),[Lurie "Proper morphisms", section 4](#LurieProper)).
 
 In summary:
 
@@ -250,7 +250,11 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
 
+
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+
+* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
+
 
 See also
 
