@@ -50,6 +50,12 @@ is said to have **positive energy** or to be a **positive energy representation*
 =--
 
 
+## Properties
+
+### Relation to quantum group representations
+
+See [this MO discussion](http://mathoverflow.net/q/178113/381).
+
 ## Related concepts
 
 * [[quantization of loop groups]]
