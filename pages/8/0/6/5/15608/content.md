@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[stable homotopy theory]] the [[rational homotopy theory|rational]] [[Bousfield localization of spectra]], hence $\mathbb{Q}$-localization $L_{S\mathbb{Q}}$, is accompanied dually by "$\mathbb{Q}$-acyclification" $G_{S\mathbb{Q}}$, forming a natural [[homotopy fiber sequence]]
+
+$$
+  G_{S \mathbb{Q}} X \longrightarrow X \longrightarrow L_{S\mathbb{Q}} X
+$$
+
+(by [this proposition](Bousfield+localization+of+spectra#LocalizationCofiber)).
+
+This $G_{S\mathbb{Q}}$ is the operation of _universal torsion approximation_.
+In the special case of [[chain complexes]] it corresponds to the [[derived functor]] that forms [[torsion subgroups]] (see the discussion at _[fracture theorem -- Arithmetic fracturing of chain complexes](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_).
+
+Similarly, if one already looks at [[p-local spectra]] then torsion approximation is the homotopy fiber of $S\mathbb{Z}[p^{-1}]$-localization.
+
+
+## Properties
+
+Under suitable conditions, torsion approximation forms an [[adjoint modality]] with [[adic completion]]. See at _[[fracture theorem]]_ for more on this.
+
+## References
+
+For instance
+
+* {#DwyerGreenlees99} [[William Dwyer]], [[John Greenlees]], section 4.1 of _Complete modules and torsion modules_, Amer. J. Math, 1999  ([pdf](https://www3.nd.edu/~wgd/Dvi/Complete.And.Torsion.pdf))
+
+[[!redirects torsion approximations]]
