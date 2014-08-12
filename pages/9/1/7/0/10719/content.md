@@ -13,6 +13,14 @@ $$
 
 and is hence called a _smashing localization_.
 
+Smashing localizations hence in particular
+
+1. preserve [[(∞,1)-colimits]];
+
+1. are [[monoidal (∞,1)-functors]].
+
+see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
+
 ## Examples
 
 * For $G$ a [[group]] without [[torsion subgroup|torsion]], then localization at the [[Moore spectrum]] $E = S G$ (in particular [[p-localization]]) is smashing (see at _[[Bousfield localization of spectra]]_ [here](Bousfield+localization+of+spectra#pLocalizationIsSmashing)).
@@ -31,6 +39,8 @@ and is hence called a _smashing localization_.
 
 * {#Miller92} Miller, _Finite localizations_, Boletin de la Sociedad Matematica Mexicana 37 (1992), 383&#8211;390 ([HopfArchive](http://hopf.math.purdue.edu/cgi-bin/generate?/MillerH/finite-localization))
  
+* {#GGN13} [[David Gepner]], Moritz Groth, [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_ ([arXiv:1305.4550](http://arxiv.org/abs/1305.4550))
+
 [[!redirects smashing localizations]]
 
 [[!redirects smashing localization of spectra]]
