@@ -810,6 +810,8 @@ $$
 
   * [[Fredholm module]]
 
+  * [[completion of a module]]
+
 * [[representation]], [[∞-representation]]
 
 * [[linear combination]]
