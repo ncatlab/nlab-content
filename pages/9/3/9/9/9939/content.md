@@ -314,6 +314,9 @@ $$
 
 ([Bousfield 79, prop. 2.5](#Bousfield79))
 
+
+Fact: $\mathbb{F}_p$-localizaton is [[p-completion]], e.g. [Lurie "Proper Morphisms...", section 4](#LurieProper).
+
 +-- {: .num_example}
 ###### Example
 
@@ -377,10 +380,11 @@ Lecture notes include
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
 
-Lecture notes in the general context of [[higher algebra]]/[[stable homotopy theory]] include
+Discussion the general context of [[higher algebra]]/[[stable homotopy theory]] includes
 
 * {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
- 
+
+* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
 Discussion specifically of [[K(n)-local spectra]] includes
 
