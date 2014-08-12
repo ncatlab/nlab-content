@@ -60,6 +60,8 @@ on basic properties of [[E-∞ geometry]]
 
 ## 4. Completions of modules
 
+* [[completion of a module]]
+
 ## 5. Completions of spectral Deligne-Mumford stacks
 
 ### 5.1 Formal completions
