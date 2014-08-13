@@ -3,6 +3,8 @@
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and otherwise don\'t worry about messing things up.
 =--
 
+$\hookleftarrow$
+
 editing test
 
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="1102">
