@@ -25,9 +25,9 @@
 
 ## Idea
 
-A _synthetic differential $\infty$-groupoid_ is an [[∞-groupoid]] equipped with a [[cohesive (∞,1)-topos|cohesive structure]] that subsumes that of [[smooth ∞-groupoid]]s as well as of [[infinitesimal object|infinitesimal]] $\infty$-groupoids: [[∞-Lie algebroid]]s.
+A _formal smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with a [[cohesive (∞,1)-topos|cohesive structure]] that subsumes that of [[smooth ∞-groupoid]]s as well as of [[infinitesimal object|infinitesimal]] $\infty$-groupoids -- [[∞-Lie algebroids]], hence equipped with "[[differential cohesion]]".
 
-In the [[cohesive (∞,1)-topos]] of synthetic differential $\infty$-groupoids the canonical [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\mathbf{\Pi}(X)$ factors through a version relative to [[Smooth∞Grpd]]: the [[infinitesimal singular simplicial complex|infinitesimal path ∞-functor]] $\mathbf{\Pi}_{inf}(X)$. In traditional terms this is the object modeled by the [[tangent Lie algebroid]] and the [[de Rham space]] of $X$. The [[quasicoherent ∞-stack]]s on $\mathbf{\Pi}_{inf}(X)$ are [[D-module]]s on $X$.
+In the [[cohesive (∞,1)-topos]] of formal smooth $\infty$-groupoids the canonical [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\mathbf{\Pi}(X)$ factors through a version relative to [[Smooth∞Grpd]]: the [[infinitesimal singular simplicial complex|infinitesimal path ∞-functor]] $\mathbf{\Pi}_{inf}(X)$. In traditional terms this is the object modeled by the [[tangent Lie algebroid]] and the [[de Rham space]] of $X$. The [[quasicoherent ∞-stack]]s on $\mathbf{\Pi}_{inf}(X)$ are [[D-module]]s on $X$.
 
 
 ## Definition
@@ -47,6 +47,7 @@ we consider the 1-site, then in
 * [∞-localic definition](#DerivedDefinition)
 
 we consider the $(\infty,1)$-site.
+
 
 
 
@@ -84,7 +85,7 @@ be the [[full subcategory]] on the [[infinitesimally thickened point]]s: this sm
 Let 
 
 $$
-  CartSp_{synthdiff} \hookrightarrow SmoothLoc
+  CartSp_{formalsmooth} \hookrightarrow SmoothLoc
 $$ 
 
 be the [[full subcategory]] of the category of [[smooth loci]] on the objects of the form 
@@ -105,20 +106,20 @@ This appears as ([Kock 86, (5.1)]{#Kock86}).
 +-- {: .num_remark}
 ###### Note
 
-The [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]]. See at _[[Cahiers topos]]_ for further references.
+The [[sheaf topos]] over [[CartSp]]${}_{formalsmooth}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]]. See at _[[Cahiers topos]]_ for further references.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-We say the [[(∞,1)-topos]] of **synthetic differential $\infty$-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
+We say the [[(∞,1)-topos]] of **formal smooth $\infty$-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
 
 $$
-  SynthDiff \infty Grpd := Sh_{(\infty,1)}(CartSp_{synthdiff})
+  FormalSmooth \infty Grpd := Sh_{(\infty,1)}(CartSp_{formalsmooth})
 $$
 
-on $CartSp_{synthdiff}$. 
+on $CartSp_{formalsmooth}$. 
 
 =--
 
@@ -136,14 +137,14 @@ We now generalize the 1-category $InfPoint$ of [[infinitesimally thickened point
 +-- {: .num_prop}
 ###### Proposition
 
-$SynthDiff \infty Grpd$ is a [[cohesive (∞,1)-topos]].
+FormalSmooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for details.
+Because [[CartSp]]${}_{formalsmooth}$ is an [[∞-cohesive site]]. See there for details.
 
 =--
 
@@ -151,14 +152,14 @@ Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for de
 ###### Definition
 
 Write $FSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on the 
- **[[formal smooth manifold]]s**: those modeled on [[CartSp]]${}_{synthdiff}$ equipped with the evident [[coverage]].
+ **[[formal smooth manifold]]s**: those modeled on [[CartSp]]${}_{formalsmooth}$ equipped with the evident [[coverage]].
 
 =--
 
 +-- {: .num_prop #CartSpAsDenseSubOfFSmoothMfd}
 ###### Observation
 
-$CartSp_{synthdiff}$ is a [[dense sub-site]] of $FSmoothMfd$.
+$CartSp_{formalsmooth}$ is a [[dense sub-site]] of $FSmoothMfd$.
 
 =--
 
@@ -168,7 +169,7 @@ $CartSp_{synthdiff}$ is a [[dense sub-site]] of $FSmoothMfd$.
 There is an [[equivalence of (∞,1)-categories]]
 
 $$
-  SynthDiff\infty Grpd \simeq \hat Sh_{(\infty,1)}(FSmoothMfd)
+  FormalSmooth\infty Grpd \simeq \hat Sh_{(\infty,1)}(FSmoothMfd)
 $$
 
 with the [[hypercomplete (∞,1)-topos]] over $FSmoothMfd$.
@@ -187,7 +188,7 @@ With the [above observation](#CartSpAsDenseSubOfFSmoothMfd) this is directly ana
 +-- {: .num_defn}
 ###### Definition
 
-Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical [[full subcategory|embedding]].
+Write $i : CartSp_{smooth} \hookrightarrow CartSp_{formalsmooth}$ for the canonical [[full subcategory|embedding]].
 
 =--
 
@@ -196,7 +197,7 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 ###### Proposition
 
 The functor $i^*$ given by restriction along $i$ exhibits 
-$SynthDiff\infty Grpd$ as an 
+$FormalSmooth\infty Grpd$ as an 
 <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieTheory">infinitesimal cohesive neighbourhood</a>
 of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
@@ -205,7 +206,7 @@ $$
   :
   Smooth \infty Grpd
   \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
-  SynthDiff \infty Grpd
+  FormalSmooth \infty Grpd
   \,,
 $$
 
@@ -218,16 +219,16 @@ such that $i_!$ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-Since $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ is an [infinitesimally ∞-cohesive site](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) this follows with [a proposition](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) discussed at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_.
+Since $i : CartSp_{smooth} \hookrightarrow CartSp_{formalsmooth}$ is an [infinitesimally ∞-cohesive site](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) this follows with [a proposition](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) discussed at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_.
 
 =--
 
 
 ## Structures
 
-We discuss the realization of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> in $SynthDiff \infty Grpd$.
+We discuss the realization of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> in $FormalSmooth \infty Grpd$.
 
-Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
+Since by the [above discussion](#RelativeInftyConnectedness) $FormalSmooth\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
 ### $\infty$-Lie algebroids and deformation theory   
  {#StrucLieTheory}
@@ -240,16 +241,16 @@ This subsection is at
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
 
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic infinitesimal path adjunction</a> realized in $SynthDiff\infty Grpd$.
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">intrinsic infinitesimal path adjunction</a> realized in $FormalSmooth\infty Grpd$.
 
 $$
   (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) 
    :=
   (i \circ \Pi_{inf} \dashv Disc_{inf} \Pi_{inf} \dashv Disc_{inf} \circ \Gamma_{inf})
   :
-  SynthDiff \infty Grpd
+  FormalSmooth \infty Grpd
   \to 
-  SynthDiff \infty Grpd
+  FormalSmooth \infty Grpd
   \,.
 $$
 
@@ -258,7 +259,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
+For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{formalsmooth} \hookrightarrow FormalSmooth\infty Grpd$
 we have that
 
 
@@ -304,7 +305,7 @@ $$
 ###### Proposition
 
 
-For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the object
+For $X \in SmoothAlg^{op}  \to FormalSmooth \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the object
 in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent, characterized by
 
 $$
@@ -323,13 +324,13 @@ $$
   \begin{aligned}
     \mathbf{\Pi}_{inf}(X)(U \times D)
     & =
-    SynthDiff \infty Grpd(U \times D, \mathbf{\Pi}_{inf}(X))
+    FormalSmooth \infty Grpd(U \times D, \mathbf{\Pi}_{inf}(X))
     \\
     & \simeq 
-    SynthDiff \infty Grpd( \mathbf{Red}(U \times D), X)
+    FormalSmooth \infty Grpd( \mathbf{Red}(U \times D), X)
     \\
     & \simeq
-     SynthDiff \infty Grpd( U, X )
+     FormalSmooth \infty Grpd( U, X )
   \end{aligned}
   \,.
 $$
@@ -342,7 +343,7 @@ $$
 
 ### Cohomology and principal $\infty$-bundles {#StrucCohomology}
 
-We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $SynthDiff\infty Grpd$.
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#Cohomology">intrinsic cohomology in a cohesive (∞,1)-topos</a> realized in $FormalSmooth\infty Grpd$.
 
 #### Cohomology localization
 
@@ -425,14 +426,14 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
      \hookrightarrow
      \mathbf{L}_{sdiff}
      \hookrightarrow
-     SynthDiff\infty Grpd
+     FormalSmooth\infty Grpd
    $$
 
 
-1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in SynthDiff\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group of the image under the left [[derived functor]]$(\mathbb{L}\mathcal{O})(X)$ under the [[Dold-Kan correspondence]]:
+1. The intrinsic $\mathbb{R}$-cohomology of any object $X \in FormalSmooth\infty Grpd$ is computed by the ordinary [[cochain cohomology]] of the [[Moore complex|Moore cochain complex]] underlying the cosimplicial abelian group of the image under the left [[derived functor]]$(\mathbb{L}\mathcal{O})(X)$ under the [[Dold-Kan correspondence]]:
 
    $$
-      H_{synthdiff}^n(X) 
+      H_{fSmooth}^n(X) 
        \simeq 
       H^n_{cochain}(N^\bullet(\mathbb{L}\mathcal{O})(X))
       \,.
@@ -444,7 +445,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
 ###### Proof
 
 First a remark on the sites. By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
-$SynthDiff\infty Grpd$ is equivalent to the [[hypercomplete (∞,1)-topos]] over [[formal smooth manifold]]s. This is [[presentable (∞,1)-category|presented]] by the [[nLab:Bousfield localization of model categories|left Bousfield localization]] of $[FSmoothMfd^{op}, sSet]_{proj,loc}$ at the [[∞-connected]] morphisms. But a fibrant object in $[FSmoothMfd^{op}, sSet]_{proj,loc}$ that is also [[n-truncated]] for $n \in \mathbb{N}$ is also fibrant in the hyperlocalization (only for the untruncated object there is an additional condition). Therefore the right Quillen functor claimed above indeed lands in truncated objects in $SynthDiff \inftyGrpd$.
+$FormalSmooth\infty Grpd$ is equivalent to the [[hypercomplete (∞,1)-topos]] over [[formal smooth manifold]]s. This is [[presentable (∞,1)-category|presented]] by the [[nLab:Bousfield localization of model categories|left Bousfield localization]] of $[FSmoothMfd^{op}, sSet]_{proj,loc}$ at the [[∞-connected]] morphisms. But a fibrant object in $[FSmoothMfd^{op}, sSet]_{proj,loc}$ that is also [[n-truncated]] for $n \in \mathbb{N}$ is also fibrant in the hyperlocalization (only for the untruncated object there is an additional condition). Therefore the right Quillen functor claimed above indeed lands in truncated objects in $FormalSmooth \inftyGrpd$.
 
 The proof of the above statements is given in ([Stel](#Stel)), following ([To&#235;n](#Toen)). Some details are spelled out at 
 [[function algebras on ∞-stacks]].
@@ -456,14 +457,14 @@ The proof of the above statements is given in ([Stel](#Stel)), following ([To&#2
 +-- {: .num_prop #RealCohomologyOfCompactLieGroup}
 ###### Proposition
 
-Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow SynthDiff\infty Grpd $ be a [[Lie group]]. 
+Let $G \in SmoothMfd \hookrightarrow Smooth\infty Grpd \hookrightarrow FormalSmooth\infty Grpd $ be a [[Lie group]]. 
 
-Then the intrinsic group cohomology in [[Smooth∞Grpd]] and in $SynthDiff\infty Grpd$ of $G$ with coefficients in $\mathbb{R}$ coincides with [[Graeme Segal|Segal]]'s refined [[Lie group cohomology]] ([Segal](#Segal), [Brylinski](#Brylinski)).
+Then the intrinsic group cohomology in [[Smooth∞Grpd]] and in $FormalSmooth\infty Grpd$ of $G$ with coefficients in $\mathbb{R}$ coincides with [[Graeme Segal|Segal]]'s refined [[Lie group cohomology]] ([Segal](#Segal), [Brylinski](#Brylinski)).
 
 $$
   H^n_{smooth}(\mathbf{B}G, \mathbb{R})
   \simeq
-  H^n_{synthdiff}(\mathbf{B}G, \mathbb{R})
+  H^n_{fsmooth}(\mathbf{B}G, \mathbb{R})
   \simeq
   H^n_{Segal}(G,\mathbb{R})
   \,.
@@ -497,7 +498,7 @@ This follows from applying the [above result](#RealCohomologyOfCompactLieGroup) 
 +-- {: .num_note }
 ###### Note
 
-This means that the intrinsic cohomology of [[compact topological space|compact]] [[Lie group]]s in [[Smooth∞Grpd]] and $SynthDiff\infty Grpd$ coincides for these coefficients with the Segal-Blanc-Brylinski refined Lie group cohomology ([Brylinski](#Brylinski)).
+This means that the intrinsic cohomology of [[compact topological space|compact]] [[Lie group]]s in [[Smooth∞Grpd]] and $FormalSmooth\infty Grpd$ coincides for these coefficients with the Segal-Blanc-Brylinski refined Lie group cohomology ([Brylinski](#Brylinski)).
 
 =--
 
@@ -508,12 +509,12 @@ This means that the intrinsic cohomology of [[compact topological space|compact]
 ###### Proposition
 
 Let $\mathfrak{a} \in L_\infty \mathrm{Algd}$ be an [[L-∞ algebroid]]. 
-Then its intrinsic real cohomoloogy in $\mathrm{SynthDiff}\infty \mathrm{Grpd}$
+Then its intrinsic real cohomoloogy in $\mathrm{FormalSmooth}\infty \mathrm{Grpd}$
 
 $$
   H^n(\mathfrak{a}, \mathbb{R})
   :=
-  \pi_0 \mathrm{SynthDiff}\infty \mathrm{Grpd}(\mathfrak{a}, \mathbf{B}^n \mathbb{R})
+  \pi_0 \mathrm{FormalSmooth}\infty \mathrm{Grpd}(\mathfrak{a}, \mathbf{B}^n \mathbb{R})
 $$
 
 coincides with its ordinary [[∞-Lie algebroid cohomology|L-∞ algebroid cohomology]]: 
@@ -612,10 +613,10 @@ $$
 > under construction
 
 
-We consider the [[de Rham theorem]] in $SynthDiff \infty Grpd$, with respect to the infinitesimal de Rham cohomology
+We consider the [[de Rham theorem]] in $FormalSmooth \infty Grpd$, with respect to the infinitesimal de Rham cohomology
 
 $$
-  H_{dR,inf}^n(X) := \pi_0 SynthDiff \infty Grpd(X, \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R})
+  H_{dR,inf}^n(X) := \pi_0 FormalSmooth \infty Grpd(X, \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R})
   \,.
 $$
 
@@ -688,7 +689,7 @@ This kind of argument is indicated in ([Simpson-Teleman, prop. 3.4](#SimpsonTele
 ###### Proposition
 
 Let $X \in $ [[SmoothMfd]] and write 
-$X^{\Delta^\bullet_{inf}} \in [CartSp_{synthdiff}^{op}, sSet]$
+$X^{\Delta^\bullet_{inf}} \in [CartSp_{formalsmooth}^{op}, sSet]$
 for the [[tangent Lie algebroid]] regarded as a simplicial object (see [[L-infinity algebroid]] for the details). 
 
 Then there is a morphism
@@ -705,7 +706,7 @@ $X^{\Delta^\bullet_{inf}} \to \mathbf{\Pi}_{inf}(X)$ which is an equivalence in 
 
 We discuss [formally &#233;tale morphisms](#http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#FormallySmoothEtaleUnramified) and [&#233;tale objects](#)
 with respect to the cohesive infinitesimal neighbourhood
-$i :$ [[Smooth∞Grpd]] $\hookrightarrow SynthDiff\infty Grpd$.
+$i :$ [[Smooth∞Grpd]] $\hookrightarrow FormalSmooth\infty Grpd$.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -714,7 +715,7 @@ Let $X_\bullet$ be a degreewise smooth [[paracompact topological space|paracompa
 canonically regarded as an object of [[Smooth∞Grpd]]. 
 
 Then
-$j_! X_\bullet$ in $SynthDiff \infty Grpd$ is presented by the
+$j_! X_\bullet$ in $FormalSmooth \infty Grpd$ is presented by the
 same simplicial manifold. 
 
 
@@ -737,7 +738,8 @@ $$
    : 
   [CartSp_{smooth}^{op}, sSet]_{proj, loc}
     \to
-  [CartSp_{synthdiff}^{op}, sSet]_{proj, loc}
+
+  [CartSp_{formalsmooth}^{op}, sSet]_{proj, loc}
 $$
 
 is a [[left adjoint]] (indeed a [[left Quillen functor]]) it preserves the [[coproducts]] and [[coend]] that the Cech nerve is built from:
@@ -763,7 +765,7 @@ $$
 Here we used that, by assumption on a [[good open cover]], all the 
 $U_{i_0, \cdots, i_n}$ are [[Cartesian spaces]], and that 
 $j_!$ coincides on [[representable functor|representables]] with the inclusion 
-$CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$.
+$CartSp_{smooth} \hookrightarrow CartSp_{formalsmooth}$.
 
 Let now $X_\bullet$ be a general simplicial manifold. Assume that in each degree there is a [[good open cover]] $\{U_{p,i} \to X_p\}$ such that these fit into a simplicial system giving a bisimplicial Cech nerve such that there is a morphism of [[bisimplicial object|bisimplicial presheaves]]
 
@@ -795,7 +797,7 @@ above in prop. \ref{RealCohomologyOfCompactLieGroup}.
 +-- {: .num_prop #RecoveringLocalDiffeomorphisms}
 ###### Proposition
 
-A morphism in $SynthDiff\infty Grpd$, is a [[formally étale morphism]] with respect to the [[infinitesimal cohesion]] $i \colon Smooth \infty Grpd \hookrightarrow SynthDiff\infty Grpd$ precisely if for all [[infinitesimally thickened points]] $D$ the diagram
+A morphism in $FormalSmooth\infty Grpd$, is a [[formally étale morphism]] with respect to the [[infinitesimal cohesion]] $i \colon Smooth \infty Grpd \hookrightarrow FormalSmooth\infty Grpd$ precisely if for all [[infinitesimally thickened points]] $D$ the diagram
 
 $$
   \array{
@@ -814,10 +816,10 @@ is an $\infty$-pullback under $i^*$.
 +-- {: .num_remark}
 ###### Remark
 
-Since $i^*$ preserves $\infty$-limits, this is the case in particular if the diagram is an $\infty$-pullback already in $SynthDiff\infty Grod$. In this form, restricted to 0-truncated objects, hence to the 
+Since $i^*$ preserves $\infty$-limits, this is the case in particular if the diagram is an $\infty$-pullback already in $FormalSmooth\infty Grod$. In this form, restricted to 0-truncated objects, hence to the 
 [[Cahiers topos]], this characterization of formally &eacute;tale morphisms appears axiomatized around p. 82 of ([Kock 81, p. 82](#Kock)).
 
-In particular, a [[smooth function]] $f : X \to Y$ in [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] between [[smooth manifolds]] is a [[formally étale morphism]] with respect to the [[infinitesimal cohesion]] $Smooth \infty Grpd \hookrightarrow SynthDiff\infty Grpd$ precisely if it is a [[local diffeomorphism]] in the traditional sense.
+In particular, a [[smooth function]] $f : X \to Y$ in [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] between [[smooth manifolds]] is a [[formally étale morphism]] with respect to the [[infinitesimal cohesion]] $Smooth \infty Grpd \hookrightarrow FormalSmooth\infty Grpd$ precisely if it is a [[local diffeomorphism]] in the traditional sense.
 
 =--
 
@@ -837,7 +839,7 @@ $$
   }
 $$
 
-is a [[pullback]] in $Sh(CartSp_{synthdiff})$ precisely if $f$ is a local diffeomorphism. This is a pullback precisely if for all $U \times D \in CartSp_{smooth} \ltimes InfPoint \simeq CartSp_{synthdiff}$ the diagram of sets of plots
+is a [[pullback]] in $Sh(CartSp_{formalsmooth})$ precisely if $f$ is a local diffeomorphism. This is a pullback precisely if for all $U \times D \in CartSp_{smooth} \ltimes InfPoint \simeq CartSp_{formalsmooth}$ the diagram of sets of plots
 
 $$
   \array{
@@ -880,7 +882,7 @@ To see that this is also sufficient notice that this is evident for the case tha
 +-- {: .num_prop }
 ###### Proposition
 
-A [[Lie groupoid]] $\mathcal{G}$ is an [[étale groupoid]] in the traditional sense, precisely if regarded as an object in $i :$ [[Smooth∞Grpd]] $\hookrightarrow$ [[SynthDiff∞Grpd]] it is an [cohesive &#233;tale ∞-groupoid](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#EtaleObjects).
+A [[Lie groupoid]] $\mathcal{G}$ is an [[étale groupoid]] in the traditional sense, precisely if regarded as an object in $i :$ [[Smooth∞Grpd]] $\hookrightarrow$ [[FormalSmooth∞Grpd]] it is an [cohesive &#233;tale ∞-groupoid](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#EtaleObjects).
 
 =--
 
@@ -919,7 +921,7 @@ As a direct consequence of prop. \ref{RecoveringLocalDiffeomorphisms} we have th
 
 A [[smooth function]] $f : X \to Y$ between [[smooth manifolds]], 
 is a [[submersion]] or [[immersion]], respectively, precisely
-if, when canonically regarded as a morphism in $SynthDiff \infty Grpd$, it is a [[formally smooth morphism]] or [[formally unramified morphism]], respectively.
+if, when canonically regarded as a morphism in $FormalSmooth \infty Grpd$, it is a [[formally smooth morphism]] or [[formally unramified morphism]], respectively.
 
 =--
 
@@ -947,7 +949,7 @@ $$
 ### Lie differentiation
  {#LieDifferentiation}
 
-We sketch how to formalize [[Lie differentiation]] in the context of synthetic differential $\infty$-groupoids. 
+We sketch how to formalize [[Lie differentiation]] in the context of formal smooth $\infty$-groupoids. 
 
 Let
 
@@ -973,7 +975,7 @@ $$
   PSh_\infty(InfPoint_\infty)
 $$
 
-which sends a pointed connected synthetic differential $\infty$-groupoid $\mathbf{B}G$ to the $(\infty,1)$-presheaf of pointed morphisms
+which sends a pointed connected formal smooth $\infty$-groupoid $\mathbf{B}G$ to the $(\infty,1)$-presheaf of pointed morphisms
 
 $$
   \mathbf{pt} \to \mathbf{B}G
@@ -1018,7 +1020,7 @@ $$
 
   * [[smooth ∞-groupoid]]
 
-  * **synthetic differential ∞-groupoid**
+  * **formal smooth ∞-groupoid**
 
   * [[super ∞-groupoid]]
 
@@ -1030,20 +1032,20 @@ $$
 
 The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 
-* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ , Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
- {#Kock86}
+* {#Kock86} [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ , Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
+ 
 
 For more on this see at _[[Cahiers topos]]_.
 
 The notion of formally &eacute;tale maps as obtained here from the general abstract definition in [[differential cohesion]] coincided on 0-truncated objects with that defined on p. 82 of 
 
-* [[Anders Kock]], _Synthetic Differential Geometry_ (1981) ([pdf](http://home.imf.au.dk/kock/sdg99.pdf)) 
- {#Kock81}
+* {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_ (1981) ([pdf](http://home.imf.au.dk/kock/sdg99.pdf)) 
+ 
 
 The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ and the de Rham theorem for $\infty$-stacks is discussed at the level of [[homotopy categories]] in section 3 of 
 
-* [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
- {#SimpsonTeleman}
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+ 
 
 
 The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 4.4 of 
@@ -1052,13 +1054,13 @@ The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 4.4 of
 
 The [[cohomology localization]] of $SynthDiff\infty Grpd$ and the infinitesimal singular simplicial complex as a presentation for infinitesimal paths objects in $SynthDiff\infty Grpd$ is discussed in
 
-* [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
-{#Stel}
+* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+
 
 The discussion of the cohomology localization of $SynthDiff\infty Grpd$ follows that in another context in
 
-* [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
-{#Toen}
+* {#Toen} [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+
 
 The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name _combinatorial differential forms_, for instance in
 
@@ -1070,29 +1072,34 @@ The discussion that the normalized [[cosimplicial algebra]] of functions on the 
 
 The results on differentiable [[Lie group cohomology]] used above is in 
 
-* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
-{#Blanc}
+* {#Blanc} P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
+
 
 recalled in 
 
-* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
-{#Brylinski}
+* {#Brylinski} [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
+
 
 which parallels 
 
-* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
-{#Segal}
+* {#Segal} [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+
 
 The $(\infty,1)$-site of derived infinitesimal points is discussed in 
 
-* [[Jacob Lurie]], _[[Formal moduli problems]]_ 
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_ 
+ 
 
 following
 
-* [[Vladimir Hinich]], _DG coalgebras as formal stacks_, J. Pure Appl. Algebra, 162 (2001), 209-250  ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
- {#Hinich}
+* {#Hinich} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, J. Pure Appl. Algebra, 162 (2001), 209-250  ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+ 
+[[!redirects formal smooth infinity-groupoids]]
 
+[[!redirects formal smooth ∞-groupoid]]
+[[!redirects formal smooth ∞-groupoids]]
+
+[[!redirects synthetic differential infinity-groupoid]]
 [[!redirects synthetic differential infinity-groupoids]]
 
 [[!redirects synthetic differential ∞-groupoid]]
