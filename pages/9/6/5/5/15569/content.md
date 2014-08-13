@@ -123,7 +123,7 @@ This is analogous to two situations in arithmetic geometry:
 1. in [[geometric Langlands duality]] and [[Weil conjecture on Tamagawa numbers]] the moduli of bundles $[X,C]$ are similarly decomposed into bundles on formal disks and complements of points
 
    $$
-     GL_n(\mathbb{Q})\backslash GL_n(\mathbb{A})/GL_n(\mathbb{A})
+     GL_n(\mathbb{Q})\backslash GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{A}_{\mathbb{Z}})
    $$
 
 (...)
