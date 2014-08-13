@@ -230,3 +230,6 @@ Review in the context of [[geometric Langlands duality]] is in
 [[!redirects moduli spaces of principal bundles]]
 [[!redirects moduli stack of principal bundles]]
 [[!redirects moduli stacks of principal bundles]]
+
+[[!redirects moduli stack of vector bundles]]
+[[!redirects moduli stacks of vector bundles]]
