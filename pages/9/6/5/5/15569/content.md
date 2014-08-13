@@ -1,9 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 > under construction
 
 #Contents#
 * table of contents
 {:toc}
+
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides the theory of [[bundles]] and [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
 
 ## Motivation
 
@@ -34,10 +47,154 @@ In all of these higher dimensional cases the inter-geometric aspect appears. Whe
 Finding the higher analog of the [[string orientation of tmf]] for these higher dimensional cases is as desirable as it seems to be intractable without some more inter-geometric theory to guide one.
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
 
+Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+
 
 ## Overview
 
-Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+### Langlands correspondence, function field analogy and Weil uniformization
+
+The central idea of the [[Langlands correspondence]] is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
+
+$$
+  GL_n(K)\backslash GL_n(\mathbb{A}_{K})/GL_n(\mathcal{O}_K)
+  \,,
+$$
+
+where $\mathbb{O}_K$ denotes the ring of [[integral adeles]]. In particular for the "absolute" case that $K = \mathbb{Q}$ is the [[rational numbers]], this is
+
+
+$$
+  GL_n(\mathbb{Q})\backslash GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{A}_{\mathbb{Z}})
+$$
+
+where 
+
+* $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]];
+
+* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]].
+
+For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
+
+The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_(\Sigma)(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. This says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then $(D \coprod (\Sigma-\{x\}) \to \Sigma$ is a "good enough [[cover]]", hence by [[Cech cohomology]] we have
+
+$$
+  \begin{aligned}
+    Bung_X(GL_n)
+      \simeq
+    [X-\{x\}, GL_n] \backslash [D-\{x\}, GL_n] / [D,GL_n]
+      =
+    \mathbb{O}_{\Sigma}[(z-x)^{-1}]  \backslash GL_n(\mathbb{C}((z-x))) / GL_n(\mathbb{C}[ [(z-x)] ])
+  \end{aligned}
+ \,.
+$$
+
+This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands program]] because under the [[function field analogy]] and the [[F1]]-geometry-analogy
+
+* the [[ring of p-adic integers]]
+
+  $$
+    \mathbb{Z}_p = \{ a_0 + a_1 p + a_2 p^2 + \cdots \}
+  $$
+
+  is analogous to the [[ring of functions]] on the [[formal disk]] $D$ at $x$, namley the [[power series]] ring
+
+  $$
+    \mathbb{C}[ [ (z-x) ] ] = \{ a_0 + a_1 (z-x) + a_2 (z-x)^2 + \cdots \}
+  $$
+
+* the [[ring of p-adic numbers]]
+
+  $$
+    \mathbb{Q}_p = \{ a_{-k} p^{-k} + \cdots + a_{-1} p^{-1} + a_0 + a_1 p + a_2 p^2 + \cdots  \}
+  $$
+
+  is analogous to the [[ring of functions]] on the pointed formal disk $D - \{x\}$, namely the [[Laurent series]] ring
+
+  $$
+    \mathbb{C}((z-x)) = \{ a_{-k} (z-x)^{-k} + \cdots + a_{-1} (z-x)^{-1} + a_0 + a_1 (z-x) + a_2 (z-x)^2 + \cdots  \};
+  $$ 
+
+* the subring $\mathbb{Z}[p^{-1}] \subset \mathbb{Q}$ of [[rational numbers]] with denominator a power of $p$  is analogous to the subring or [[meromorphic functions]] on $\Sigma$ with possible poles at $x$.
+
+### Arithmetic fracture squares
+
+Indeed, in further support of this [[analogy]] one may see that also the [[p-adic integers]] together with the [[rational functions]] form a "good enough cover" of the "[[F1]]-[[arithmetic curve]]" [[Spec(Z)]]. This is the statement of the [[arithmetic fracture square]]:
+
++-- {: .num_prop #ArithmeticFractureSquare}
+###### Proposition
+
+The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over the [[rationalization]] of the former, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{Q}\otimes_{\mathbb{Z}}\left(\underset{p\;prime}{\prod} \mathbb{Z}_p \right) && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \underset{p\;prime}{\prod} \mathbb{Z}_p
+  }
+  \,.
+$$
+
+Equivalently this is the [[fiber product]] of the rationals with the [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ over the [[ring of adeles]] $\mathbb{A}_{\mathbb{Q}}$
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \mathbb{A}_{\mathbb{Z}}
+  }
+  \,,
+$$
+
+Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{A}_{\mathbb{Z}}$, this is also (by the discussion [here](category+of+monoids#PushoutOfCommutativeMonoids)) a [[pushout]] diagram in [[CRing]], and in fact in topological [[commutative rings]] (for $\mathbb{Q}$ with the [[discrete topology]] and $\mathbb{A}_{\mathbb{Z}}$ with its profinite/[[completion of a ring|completion]] topology).
+
+=--
+
+This statement immediately lifts to flat finitely generated torsion free [[modules]], involving now the rationalization and the [[completion of modules]].
+This statement lifts to [[stable homotopy theory]], with [[spectra]] regarded as [[∞-modules]] over the [[sphere spectrum]] $\mathbb{S}$:
+
++-- {: .num_prop #SullivanArithmeticFracture}
+###### Proposition
+**(Sullivan arithmetic square)**
+
+For every [[spectrum]] $X$ the canonical square
+
+$$
+  \array{
+    && X_{\mathbb{Q}}
+    \\
+    & \swarrow && \nwarrow
+    \\
+    \left(
+      \prod_p X_p^{\wedge}
+    \right)_{\mathbb{Q}}
+    &&  &&
+    X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && \prod_p X_p^\wedge
+  }
+  \,.
+$$
+
+=--
+
+
+
+### Differential cohesion, Axiomatic differential generalized cohomology
 
 A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathbf{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
 
@@ -45,6 +202,14 @@ A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- he
 |---------|---|-------------------|---|------------------|
 | [[cohesion]] |  | [[differential cohesion]] |  | [[infinitesimal cohesion]] |
 | [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
+
+$$
+  \mathbf{H}_{reduced}
+    \stackrel{\hookrightarrow}{\stackrel{\longleftarrow}{\stackrel{\overset{}{\hookrightarrow}}{\longleftarrow}}}
+  \mathbf{H}
+   \stackrel{\longrightarrow}{\stackrel{\hookleftarrow}{\stackrel{\longrightarrow}{\hookleftarrow}}}
+  \mathbf{H}_{infinitesimal}
+$$
 
 The cohesive structure is reflected in the existence of a 
 triple of triples of operations that naturally exist on all objects in $\mathbf{H}$:
@@ -62,6 +227,7 @@ triple of triples of operations that naturally exist on all objects in $\mathbf{
    * relative shape modality $\Pi^{rel}$ has as homotopy fibers over $X$ spaces $\Pi^{rel}_{dR}(X)$ whose function spaces are [[rationalizations]] of function spaces on $X$.
 
    * relative flat modality $\flat^{rel}$ creates collections of [[formal disks]];
+
 
    * relative sharp modality $\sharp^{rel}$ induces synthetic differential moduli stacks of non-flat [[∞-connections]]
 
@@ -116,19 +282,47 @@ $$
 
 which is homotopy cartesian.
 
-This is analogous to two situations in arithmetic geometry:
 
-1. in [[arithmetic fracture squares]] ...
-
-1. in [[geometric Langlands duality]] and [[Weil conjecture on Tamagawa numbers]] the moduli of bundles $[X,C]$ are similarly decomposed into bundles on formal disks and complements of points
-
-   $$
-     GL_n(\mathbb{Q})\backslash GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{A}_{\mathbb{Z}})
-   $$
 
 (...)
 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
+
+### $E_\infty$-Arithmetic differential cohesion
+
++-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
+###### Proposition
+
+Let $A$ be an [[E-∞ ring]] and let $\mathfrak{a} \subset \pi_0 A$ be a [[generators and relations|finitely generated]] ideal in its underlying [[commutative ring]].
+
+Then there is an [[adjoint triple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \array{
+
+    \underoverset{
+      A Mod_{\mathfrak{a}comp}^{op}}
+    {A Mod_{\mathfrak{a}tors}^{op}}
+    {\simeq}
+    &\stackrel{\overset{\Pi_{\mathfrak{a}}}{\longleftarrow}}{\stackrel{\hookrightarrow}{\underset{\flat_{\mathfrak{a}}}{\longleftarrow}}}&
+    A Mod^{op}
+  }
+$$
+
+where
+
+* $A Mod$ is the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]], i.e. of [[∞-modules]] over $A$;
+
+* $A Mod_{\mathfrak{a}tor}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
+
+* $(-)^{op}$ denotes the [[opposite (∞,1)-category]];
+
+* the [[equivalence of (∞,1)-categories]] on the left is induced by the restriction of $\Pi_{\mathfrak{a}}$ and $\flat_{\mathfrak{a}}$.
+
+=--
+
+
+This is effectively the content of ([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|Lurie "Completions", section 4]]):
 
 
 ## Fracture squares
@@ -231,6 +425,7 @@ such that
 
 +-- {: .num_remark }
 ###### Remark
+
 
 
 We will mostly just say "differential cohesion" for short. Given any differential cohesion $H_{red} \hookrightarrow \mathbf{H}$ then of course the homotopy cofiber $\mathbf{H}_{inf}$ of the inclusion always exists as an [[(∞,1)-topos]], but conditions under which this is itself cohesive haven't been discussed yet.
