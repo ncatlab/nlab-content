@@ -26,7 +26,7 @@
 
 +-- {: bluebox}
 
-**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher complex analytic geometry]] and moreover in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|generaized]]/[[nonabelian cohomology|nonabelian]] _[[differential cohomology]]_ which has realizations not just in [[higher differential geometry]] but also notably in [[higher complex analytic geometry]] and moreover in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
 
 =--
 
@@ -81,7 +81,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 ## **1)** Langlands correspondence and Weil uniformization
  {#LanglandsAndWeil}
 
-The central idea of the [[Langlands correspondence]] is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
+The central idea of the [[Langlands correspondence]] (see for instance ([Frenkel 05](#Frenkel05)) for a review of the basic aspects that we refer to) is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
 
 $$
   GL_n(K) \;\backslash\; GL_n(\mathbb{A}_{K}) \;/\; GL_n(\mathcal{O}_K)
@@ -275,7 +275,9 @@ for modern applications we need a systematic dictionary of the form
 | [[higher complex analytic geometry]]       |
 | [[higher arithmetic geometry]]             |
 
-To that end, consider the following flavors of geometry.
+We will discuss here how this may be done via the axiomatics called _[[cohesive homotopy theory]]_ and _[[differential cohesion]]_ in ([Schreiber 13](#Schreiber13)).
+
+To that end, first consider the following flavors of geometry.
 
 +-- {: .num_example #TheSites}
 ###### Example
@@ -345,7 +347,7 @@ Following [[William Lawvere]], we call homotopy theories with the properties as 
 
 It is commonplace that a single [[idempotent (∞,1)-monad]] such as $\Pi$ is equivalently a [[localization of an (∞,1)-category|localization]] of a homotopy theory, and that a sincle idempotent co-monad such as $\flat$ is equivalently a co-localization.
 
-Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that the presence of [[adjoint pairs]] and more so of [[adjoint triples]] of these on a category -- "[[adjoint modalities]]" -- is a remarkably expressive structure for axiomatizing [[synthetic differential geometry]]. What [[schreiber:differential cohomology in a cohesive topos|dcct]] observes is that in [[homotopy theory]] this is even more so the case:
+Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that the presence of [[adjoint pairs]] and more so of [[adjoint triples]] of these on a category -- "[[adjoint modalities]]" -- is a remarkably expressive structure for axiomatizing [[synthetic differential geometry]]. What ([Schreiber 13](#Schreiber13)) observes is that in [[homotopy theory]] this is even more so the case:
 
 +-- {: .num_prop #Structures}
 ###### Claim
@@ -393,7 +395,7 @@ $$
   \,.
 $$
 
-In ([Bunke-Nikolaus-V&#246;lkl 13](differential+cohomology+diagram#BunkeNikolausVoelkl13)) it was observed that:
+In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -561,7 +563,7 @@ Moreover, $\mathbf{H}_{infinitesimal}$ satisfies _[[infinitesimal cohesion]]_ in
 | $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
 |---------|---|-------------------|---|------------------|
 | [[cohesion]] |  | [[differential cohesion]] |  | [[infinitesimal cohesion]] |
-| [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
+| [[moduli ∞-stacks]] |  | [[fornal smooth ∞-groupoids]] |  |  [[formal moduli problems]] |
 
 Since by prop. \ref{TheDifferentialCohesion} $\mathbf{H}$ is cohesive also over $\mathbf{H}_{infinitesimal}$, this gives _relative_ modalities
 
@@ -584,6 +586,7 @@ $$
 is the [[disjoint union]] of all [[formal disks]] $D_x \hookrightarrow \Sigma$ around points $x \in \Sigma$.
 
 =--
+
 
 
 
@@ -701,7 +704,7 @@ where
 =--
 
 
-This is effectively the content of ([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|Lurie "Completions", section 4]]):
+This is effectively the content of ([Lurie "Completions", section 4](#LurieProper)):
 
 +-- {: .num_cor #FractureFromCohesion}
 ###### Corollary
@@ -766,4 +769,15 @@ Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\
 
 =--
 
-***
+## References
+
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
+
+* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+
+
+* {#Schreiber13} [[Urs Schreiber]], _[[Differential cohomology in a cohesive ∞-topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+
