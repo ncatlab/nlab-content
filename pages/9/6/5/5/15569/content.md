@@ -66,6 +66,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 
 
 ## **1)** Langlands correspondence and Weil uniformization
+ {#LanglandsAndWeil}
 
 The central idea of the [[Langlands correspondence]] is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
 
@@ -206,7 +207,7 @@ $$
 
 ## **2)** Axiomatic twisted differential generalized cohomology
 
-The above [[analogy]] calls for being formalized. We need an axiomatics that allows to implement differential geometry in systematic analogy. Just as back in the old days there was established a systematic analogy
+The [above](LanglandsAndWeil) [[analogy]] calls for being formalized. We need an axiomatics that allows to implement differential geometry in systematic analogy. Just as back in the old days there was established a systematic analogy
 
 | [[synthetic geometry]]  |
 |-------------------------|
@@ -221,6 +222,172 @@ for modern applications we need a systematic dictionary of the form
 | [[higher differential geometry]]           |
 | [[higher complex analytic geometry]]       |
 | [[higher arithmetic geometry]]             |
+
+To that end, consider the following flavors of geometry.
+
++-- {: .num_defn #TheSites}
+###### Definition
+
+Let $S$ denote either of the following [[sites]]:
+
+* $SmoothhMfd$ [[smooth manifolds]];
+
+* $ComplexAnalyticMfd$ [[complex analytic manifolds]];
+
+* $SuperMfd$ [[supermanifolds]];
+
+* $FormalSmoothhMfd$, $FormalComplexAnalyticMfd$, $FormalSuperMfd$ [[formal manifolds]];
+
+* any [[site]] such that 
+
+  1. it has [[finite products]];
+
+  1. every object is locally of [[contractible space|contractible]] [[etale homotopy type]];
+
+  1. $Hom(\ast, -)$ preserves [[split hypercovers]].
+
+Write
+
+$$
+  \mathbf{H} \coloneqq Sh_\infty(S) \simeq L_{lwhe} sPSh(S)
+$$
+
+for the [[homotopy theory]] obtained from the [[category]] of [[simplicial presheaves]] on $S$ by universally turning local (stalkwise) [[weak homotopy equivalences]] into actual [[homotopy equivalences]] (i.e. the [[hypercomplete (∞,1)-topos|hypercomplete]] [[(∞,1)-category of (∞,1)-sheaves]] over this site.
+
+Write specifically
+
+* $Smooth \infty Grpd\coloneqq Sh_\infty(SmoothMfd)$ -- [[smooth ∞-groupoids]];
+
+* $ComplexAnalytic \infty Grpd\coloneqq Sh_\infty(ComplexAnalyticMfd)$ -- [[complex analytic ∞-groupoids]];
+
+* $SmoothSuper \infty Grpd\coloneqq Sh_\infty(SmoothSuperMfd)$ -- [[smooth super ∞-groupoids]];
+
+* $FormalSmooth\infty Grpd \coloneqq Sh_\infty(FormalSmoothMfd)$ -- [[synthetic differential ∞-groupoid|formal smooth ∞-groupoids]].
+
+=--
+
++-- {: .num_prop #TheHomotopyTheoriesAreCohesive}
+###### Proposition
+
+The [[homotopy theories]] $\mathbf{H}$ from def. \ref{TheSites} have the property that there is an [[adjoint quadruple]] of [[derived functors]] ([[(∞,1)-functors]])
+
+$$
+  \mathbf{H} \stackrel{\longrightarrow}{\stackrel{\hookleftarrow}{\stackrel{\longrightarrow}{\hookleftarrow}}}
+  \infty Grpd \simeq L_{whe} Top
+$$
+
+such that the top [[left adjoint]] preserves [[finite products]] and the bottom [[right adjoint]] is a [[full and faithful (∞,1)-functor|fully faithful embedding]].
+
+By going back and forth this induces an [[adjoint triple]] of [[idempotent (∞,1)-monads|(∞,1)-comonads]] on $\mathbf{H}$ which we write
+
+$$
+  (\Pi \dashv \flat \dashv \sharp) \colon \mathbf{H} \to \mathbf{H}
+$$
+
+and call, respectively: _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dashv$ _[[sharp modality]]_.
+
+
+=--
+
+Following [[William Lawvere]], we call homotopy theories with the properties as in prop. \ref{TheHomotopyTheoriesAreCohesive} _[[cohesive homotopy theories]]_ ([[cohesive (∞,1)-toposes]]).
+
+It is commonplace that a single [[idempotent (∞,1)-monad]] such as $\Pi$ is equivalently a [[localization of an (∞,1)-category|localization]] of a homotopy theory, and that a sincle idempotent co-monad such as $\flat$ is equivalently a co-localization.
+
+Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that the presence of [[adjoint pairs]] and more so of [[adjoint triples]] of these on a category -- "[[adjoint modalities]]" -- is a remarkably expressive structure for axiomatizing [[synthetic differential geometry]]. What [[schreiber:differential cohomology in a cohesive topos|dcct]] observes is that in [[homotopy theory]] this is even more so the case:
+
++-- {: .num_prop #Structures}
+###### Claim
+
+
+* the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its [[fundamental ∞-groupoid]] $\Pi X$ of geometric paths inside it, equivalently to its [[geometric realization]];
+
+* the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbbf{B}G$ of $G$-[[flat ∞-connections|principal flat ∞-connections]];
+
+* the [[homotopy fiber]] $\flat_{\mathrm{dR}}G$ of the [[counit of a comonad|counit]] $\flat \mathbf{B}G \to \mathbf{B}G$ is naturally thought of as sending the moduli $\infty$-stack of $\mathfrak{g}$-[[L-∞ algebra valued differential forms]];
+
+* the canonical map $\theta \colon G \longrightarrow \flat_{dR} G$ is naturally thought of as the $G$-[[Maurer-Cartan form]]
+
+* for [[braided ∞-groups]] $G$ the various [[homotopy fibers]] of $\theta \colon G \longrightarrow \flat_{dR} G$ are moduli $\infty$-stacks $\mathbf{B}G_{conn}$ of non-flat $G$-[[principal ∞-connections]];
+
+* given a [[Hodge filtration]] on $\flat_{dR} G$ then the [[sharp modality]] $\sharp$ serves to produce moduli $\infty$-stacks $BunConn_\Sigma(G)$ of [[principal ∞-connections]] on a given base space $\Sigma$.
+
+=--
+
+This is quite a bit of structure, concisely axiomatized by the presence of the [[adjoint modalities]] $\Pi \dashv \flat \dashv \sharp$. And more is implied:
+
++-- {: .num_prop }
+###### Proposition
+
+For any [[cohesive (∞,1)-topos]] $\mathbf{H}$ over [[∞Grpd]], then its _Goodwillie tangent space_, the [[tangent (∞,1)-category]] $T \mathbf{H}$ of [[parametrized spectrum|parameterized spectrum objects]] in $\mathbf{H}$ is itself a cohesive $(\infty,1)$-topos over bare [[parameterized spectra]], the [[tangent cohesive (∞,1)-topos]]
+
+$$
+  T \mathbf{H}
+   \stackrel{\longrightarrow}{\stackrel{\hookleftarrow}{\stackrel{\longrightarrow}{\hookleftarrow}}}  
+  T \infty Grpd
+  \,.
+$$
+
+=--
+
+This is an extension of $\mathbf{H}$ by [[stable homotopy theory]]
+
+$$
+  \array{
+    Spectra(\mathbf{H}) &\hookrightarrow& T \mathbf{H}
+    \\
+    && \downarrow 
+    \\
+    && \mathbf{H}
+  }
+  \,.
+$$
+
+In ([Bunke-Nikolaus-V&#246;lkl 13](differential+cohomology+diagram#BunkeNikolausVoelkl13)) it was observed that:
+
++-- {: .num_prop }
+###### Proposition
+
+For $\hat E \in Spectra(\mathbf{H})$ a [[stable homotopy type|stable]] [[cohesive homotopy type]], then the canonical [[diagram]] formed from the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$ and the [[counit]] of the [[flat modality]] $\flat$
+
+$$
+  \array{
+    &&  \Pi_{dR} {\hat E} && \stackrel{\mathbf{d}}{\longrightarrow} && \flat_{dR}{\hat E}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\hat E}}} && \searrow
+    \\
+    \flat \Pi_{dR} {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_E}}
+    \\
+    && \flat {\hat E} && \longrightarrow && \Pi \hat E
+  }
+$$
+
+is homotopy exact in that
+
+1. both squares are [[homotopy pullback]] (and hence [[homotopy pushout]]) squares;
+
+1. the diagonals are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]);
+
+1. as are the long top and bottom sequences.
+
+=--
+
+In view of claim \ref{Structures}:
+
+$$
+  \array{
+    &&  connection\;forms\;on\;trivial\;bundles && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
+    \\
+    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && geometric\;bundles\;with\;flat\;connection && \underset{comparison/regulator\;map}{\longrightarrow} && shape\;of\;bundle
+  }
+$$
 
 
 +-- {: .num_example #ComplexAnalyticDifferentialCohesion}
@@ -264,6 +431,7 @@ from left to right
 Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
 
 =--
+
 
 
 
