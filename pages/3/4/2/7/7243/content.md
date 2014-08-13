@@ -164,3 +164,6 @@ The [[synthetic differential geometry]]-aspect of the $p$-adic numbers is highli
 
 [[!redirects adic integer]]
 [[!redirects adic integers]]
+
+[[!redirects ring of p-adic integers]]
+[[!redirects rings of p-adic integers]]
