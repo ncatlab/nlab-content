@@ -23,7 +23,11 @@
 
 ## Related concepts
 
-* [[Euclidean geometry]]
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
 
 * [[Riemannian geometry]]
 
