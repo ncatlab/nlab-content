@@ -3,90 +3,41 @@
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and otherwise don\'t worry about messing things up.
 =--
 
-$\hookleftarrow$
-
-editing test
-
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="1102">
- <g>
-  <title>Layer 1</title>
-  <foreignObject height="20" width="48" font-size="16" id="svg_1102_1" y="68.54544" x="97.54544">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi mathvariant="normal">&#934;</mi>
-      <mo>&#8746;</mo>
-      <mi>&#8499;</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">\Phi \union \mathcal{M}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_1102_2" y="79.54544" x="129.54544">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi mathvariant="normal">&#934;</mi>
-      <mo>&#8746;</mo>
-      <mi>&#8499;</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">\Phi \union \mathcal{M}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_1102_3" y="109.54544" x="108.54544">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi mathvariant="normal">&#934;</mi>
-      <mo>&#8746;</mo>
-      <mi>&#8499;</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">\Phi \union \mathcal{M}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject id="svg_1102_4" height="20" width="48" font-size="16" y="129.54544" x="128.54544">
-   <math id="svg_1102_5" display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics id="svg_1102_6">
-     <mrow id="svg_1102_7">
-      <mi id="svg_1102_8" mathvariant="normal">&#934;</mi>
-      <mo id="svg_1102_9">&#8746;</mo>
-      <mi id="svg_1102_10">&#8499;</mi>
-     </mrow>
-     <annotation id="svg_1102_11" encoding="application/x-tex">\Phi \union \mathcal{M}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_1102_12" y="118.54544" x="201.54544">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi mathvariant="normal">&#934;</mi>
-      <mo>&#8746;</mo>
-      <mi>&#8499;</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">\Phi \union \mathcal{M}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
- </g>
-</svg>
-
-***
-
-$$ \array { 
-   & & \mathbb{N} & \overset{\text{localize at }\,p}\rightarrow \\
-   & & \text{complete to ring}\downarrow & & \mathbb{Z}_p \\
-   & & \mathbb{Z} & \overset{\text{localize at }\,p}\rightarrow \\
-   & & \text{complete to field}\downarrow & & \text{complete to field}\downarrow \\
-   \mathbb{R} & \overset{\text{complete in absolute-value metric}}\leftarrow & \mathbb{Q} & \overset{\text{complete in }\,p\text{-adic metric}}\rightarrow & \mathbb{Q}_p \\
-   \text{algebraic completion}\downarrow & & \text{algebraic completion}\downarrow & & \text{algebraic completion}\downarrow \\
-   \mathbb{C} & \overset{\text{complete in absolute-value metric}}\leftarrow & \bar{\mathbb{Q}} & & \overline{\mathbb{Q}_p} & \overset{\text{complete in }\,p\text{-adic metric}}\rightarrow & \mathbb{C}_p
-} $$
+## Stuff
 
 
-***
++-- {: .num_lemma }
+###### Lemma
+
+Given $X \in \mathbf{H}$ such that $\flat X$ is 0-truncated, then $\mathbf{H}_{/\flat_{rel}X}$ is strongly $\infty$-connected over $(\mathbf{H}_{inf})_{/\flat_{rel}X}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have an essential geometric morphism given by a composite of [[adjoint
+triples]]
+
+$$
+  \array{
+     \mathbf{H}_{/\flat_{rel}X}
+     &
+       \stackrel{\overset{\Pi_{rel}}{\longrightarrow}}{\stackrel{\overset{Disc_{rel}}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
+     &
+     (\mathbf{H}_{inf})_{/\flat_{rel} X}
+       \stackrel{\overset{\Pi \simeq \Gamma}{\longrightarrow}}{\stackrel{\overset{\eta_X^\ast \circ Disc}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
+  }
+  \infty Grpd_{/\flat X}
+  \,,
+$$
+
+where the top pairs come from the formula 
+([here](adjoint+infinity-functor#OnSlices)) for localization of adjunctions to slices, and the bottom one exists in each case by the [[adjoint (∞,1)-functor theorem]],
+since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq \ast$ that the composite right adjoint is fully faithful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
+
+
+=--
 
 
 category: meta
@@ -110,7 +61,7 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects ??? ????]]
 [[!redirects Featured math : Quora]]
 [[!redirects test4535]]
 [[!redirects empty32]]
