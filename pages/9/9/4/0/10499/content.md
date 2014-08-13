@@ -179,6 +179,8 @@ $$
   }
 $$
 
+is a [[homotopy pushout]] (hence also a [[homotopy pullback]]).
+
 =--
 
 Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13), [Bauer 11, lemma 2.1](#Bauer11)). 
