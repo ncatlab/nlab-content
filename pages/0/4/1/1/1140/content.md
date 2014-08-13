@@ -51,7 +51,7 @@ $$(v_1\otimes \ldots \otimes v_p)\star (v_{p+1}\otimes\ldots \otimes v_n) = \sum
 
 where the sum is over all $(p,n-p)$ [[shuffles]], $\varepsilon(\sigma)$ is the Koszul sign of $\sigma$  and the elements $v_i$ of $V$ are all homogeneous.
 
-###The commutative graded Hopf algebra structure on $T(V)$.
+###The commutative graded Hopf algebra structure on $T(V)$
 
 The underlying algebra structure is $T(V)$ with the shuffle product.  The reduced diagonal is given by 
 
