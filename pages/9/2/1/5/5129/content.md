@@ -68,9 +68,9 @@ Shuffles are used in defining the pre-cgc structure on $\bigwedge V$ in the theo
 ###Differential graded Hopf algebras
 Shuffles are also used for defining the shuffle product on $T(V)$, see [[differential graded Hopf algebra]].
 
-### In $L_\infty$- and $A_\infty$-algebras [[L-infinity algebras]]
+### In $L_\infty$-algebras ###
 
-In the definitions of [[A-∞ algebras]] and [[L-∞ algebras]]
+In the definition of [[L-∞ algebras]]
 the _unshuffle_ side of shuffles is used.
 
 [[!redirects shuffles]]
