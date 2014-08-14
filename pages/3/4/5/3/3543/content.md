@@ -229,7 +229,7 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 
 ## Related concepts
 
-* [[p-localization]]
+* [[p-localization]], [[p-completion]]
 
 * [[fracture square]]
 
