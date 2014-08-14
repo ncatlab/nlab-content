@@ -22,7 +22,7 @@ Equivalent forms:
 Note that the contrapositives of these are all valid regardless of Markov\'s principle.
 
 The other major school of constructivism, Brouwer\'s intuitionism, rejects Markov\'s principle. Brouwer\'s viewpoint has since his time been formalized, and via this formalization Markov\'s principle can be proved false. Namely, Kripke\'s schema with MP proves Excluded Middle, and Excluded Middle is incompatible with continuity. Several models have been built satisfying Kripke\'s schema and continuity, thereby falsifying MP. These include topological models (e.g. M. Krol, ``A Topological model for intuitionistic analysis with Kripke's
-Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978), Beth models (e.g. D. van Dalen, ``An interpretation of intuitionistic analysis," Annals of Mathematical Logic 13(1), p. 1-43), and realizability models (e.g. J. van Oosten, Realizability, Elsevier, 2008).
+Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978), Beth models (e.g. D. van Dalen, ``An interpretation of intuitionistic analysis," Annals of Mathematical Logic 13(1), p. 1-43), realizability models (e.g. J. van Oosten, Realizability, Elsevier, 2008), and a [[Kripke model]] [BridgesRichman, p138](#BridgesRichman)
 
 ## Weak Markov\'s Principle
 More recently, a weakened form of Markov\'s principle has been identified (first in M. Mandelkern, "Constructively complete finite sets," Zeitschr. f. math. Logic und Grundlagen d. Math. 34, p. 97-103, 1988) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
@@ -35,6 +35,7 @@ $
 For a recent comparison see:
 
 * Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, to appear.
+* Douglas Bridges and Fred Richman, _Varieties of Constructive Mathematics_.{#BridgesRichman}
 
 category: foundational axiom
 
