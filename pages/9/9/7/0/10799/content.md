@@ -374,3 +374,7 @@ Discussion in the context of the [[function field analogy]] and the [[geometric 
 
 [[!redirects integral adele]]
 [[!redirects integral adeles]]
+
+[[!redirects ring of integral adeles]]
+[[!redirects rings of integral adeles]]
+
