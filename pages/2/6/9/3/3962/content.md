@@ -15,7 +15,7 @@ This article concerns the notion of "local field" as it is commonly used in [[al
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -64,6 +64,10 @@ $$\ldots R/m^{n+1} \stackrel{proj}{\to} R/m^n \to \ldots \to R/m$$
 is typically not compact (and its field of fractions is not locally compact). It is of course compact if each $R/m^n$ is finite with the discrete topology. 
 
 In any case, the second meaning certainly occurs in the literature, as in the famous text _Corps Loceaux_ by Serre. For more on this, see [[local field (commutative algebra)]]. 
+
+## Related concepts
+
+* [[higher local field]]
 
 [[!redirects local field]]
 [[!redirects local fields]]
