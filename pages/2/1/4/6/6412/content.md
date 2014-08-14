@@ -161,6 +161,8 @@ This self-duality figures in Tate's thesis; for more, see [[ring of adeles]].
 
 * [[carrying]]
 
+* [[p-adic integration]]
+
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]]
 
 
