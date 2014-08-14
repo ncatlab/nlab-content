@@ -277,6 +277,8 @@ for modern applications we need a systematic dictionary of the form
 
 We will discuss here how this may be done via the axiomatics called _[[cohesive homotopy theory]]_ and _[[differential cohesion]]_ in ([Schreiber 13](#Schreiber13)).
 
+### Differential generalized cohomology
+
 To that end, first consider the following flavors of geometry.
 
 +-- {: .num_example #TheSites}
@@ -343,11 +345,20 @@ and call, respectively: _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dash
 
 =--
 
-Following [[William Lawvere]], we call homotopy theories with the properties as in prop. \ref{TheHomotopyTheoriesAreCohesive} _[[cohesive homotopy theories]]_ ([[cohesive (∞,1)-toposes]]).
+Following 1-categorical terminology proposed by [[William Lawvere]] (see at _[[cohesive topos]]_) we say:
+
+
++-- {: .num_defn}
+###### Definition
+
+[[homotopy theory|Homotopy theories]] with the properties as in prop. \ref{TheHomotopyTheoriesAreCohesive} we call _[[cohesive homotopy theories]]_ ([[cohesive (∞,1)-toposes]]).
+
+=--
+
 
 It is commonplace that a single [[idempotent (∞,1)-monad]] such as $\Pi$ is equivalently a [[localization of an (∞,1)-category|localization]] of a homotopy theory, and that a sincle idempotent co-monad such as $\flat$ is equivalently a co-localization.
 
-Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that the presence of [[adjoint pairs]] and more so of [[adjoint triples]] of these on a category -- "[[adjoint modalities]]" -- is a remarkably expressive structure for axiomatizing [[synthetic differential geometry]]. What ([Schreiber 13](#Schreiber13)) observes is that in [[homotopy theory]] this is even more so the case:
+Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that the presence of [[adjoint pairs]] and more so of [[adjoint triples]] of these on a category -- "[[adjoint modalities]]" -- is a remarkably expressive structure for axiomatizing [[synthetic differential geometry]]. What ([Schreiber 13](#Schreiber13)) observes is that in [[homotopy theory]] this is considerably more so the case:
 
 +-- {: .num_prop #Structures}
 ###### Claim
@@ -397,7 +408,7 @@ $$
 
 In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that:
 
-+-- {: .num_prop }
++-- {: .num_prop  #HexagonExactness}
 ###### Proposition
 
 For $\hat E \in Spectra(\mathbf{H})$ a [[stable homotopy type|stable]] [[cohesive homotopy type]], then the canonical [[diagram]] formed from the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$ and the [[counit]] of the [[flat modality]] $\flat$
@@ -422,11 +433,14 @@ is homotopy exact in that
 
 1. the diagonals are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]);
 
-1. as are the long top and bottom sequences.
+1. also the long top and bottom sequences are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]).
 
 =--
 
-In view of claim \ref{Structures} the hexagon has the following interpretation:
++-- {: .num_remark }
+###### Remark
+
+In view of claim \ref{Structures} the [[differential cohomology hexagon]] of prop. \ref{HexagonExactness} has the following interpretation:
 
 $$
   \array{
@@ -438,35 +452,47 @@ $$
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
     \\
-    && geometric\;bundles\;with\;flat\;connection && \underset{comparison/regulator\;map}{\longrightarrow} && shape\;of\;bundle
+    && geometric\;bundles\;with\;flat\;connection && \underset{comparison}{\longrightarrow} && shape\;of\;bundle
   }
 $$
 
-Hence via the axiomatics of cohesion we recognize _every_ stable cohesive homotopy type as a [[generalized (Eilenberg-Steenrod) cohomology theory|generalized]] [[differential cohomology]] theory. 
+In particular, when applied to sheaves of spectra of the form considered in ([Bunke-Gepner 13](#BunkeGepner13)), which effectively embody the construction of [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[differential cohomology]] that was proposed in ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), then the right part of the hexagon reproduces their defining decomposition as [[homotopy pullbacks]] of [[L-∞ algebra valued differential form]] along the [[Chern character]] map $E \to E \wedge H \mathbb{R}$ of plain  [[spectra]] $E$ (see at _[differential cohomology diagram -- Hopkins-Singer coefficients](differential+cohomology+diagram#HopkinsSingerCoefficients)_).
 
-More generally:
+In view of this it is natural to ask if there are more general sheaves of spectra than those proposed in ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]], [Bunke-Gepner 13](#BunkeGepner13)) which could still be sensibly regarded as encoding a kind of [[differential cohomology]]. Proposition \ref{HexagonExactness} in view of claim \ref{Structures} answers this in the most encompassing way: _every_ sheaf of spectra on smooth manifolds, and in fact more generally every [[stable homotopy type|stable]] [[cohesive homotopy type]] is meaningfully regarded as a [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[differential cohomology]] theory, in that the axiomatics of [[cohesion]] provides a detailed decomposition of any such into data which behaves just right.
+
+It may therefore be useful to regard prop. \ref{HexagonExactness} as the differential refinement of the [[Brown representability theorem]]:
+
+| [[Brown representability theorem]] | $\;\;\;$ proposition \ref{HexagonExactness} |
+|------------------------------------|-------------------------------------|
+| [[cohomology theory]] = [[spectrum]] | [[differential cohomology|differential cohomology theory]] = [[cohesive homotopy type|cohesive]] spectrum |  
+
+=--
+
+### Twisted differential cohomology
+
+More is true, also [[twisted cohomology]] is naturally encoded by the axiomatics of [[cohesive homotopy theory]], as we pass from the fiber $Spectra(\mathbf{H})$ of the [[tangent cohesive (∞,1)-topos]] $T\mathbf{H}$ over the point to general cohesive [[parameterized spectrum]] objects:
 
 +-- {: .num_prop }
 ###### Proposition
 
 
-Let 
+Let $$
 
 $$
   \left[
    \array{
-    \hat E
+    \hat E &\to& \hat E//GL_1(\hat E)
     \\
-    \downarrow
+    && \downarrow
     \\
-    Pic(\hat E)
+    && \mathbf{B}Aut(\hat E)
    }
   \right]
   \in 
    T \mathbf{H}
 $$
 
-be a parameterized spectrum object, and 
+be an [[E-∞ ring]]-spectrum object universally [[parameterized spectrum|parameterized]] over $\mathbf{B}GL_1(\hhat E)$, hence exhibiting the [[∞-action]] of its [[∞-group of units]], and let
 
 $$
   \left[
@@ -482,7 +508,7 @@ $$
    T \mathbf{H}
 $$
 
-an unstable homotopy type, then the [[mapping stack]]
+be any unstable [[cohesive homotopy type]], then the [[mapping stack]]
 
 $$
   \array{
@@ -495,11 +521,13 @@ $\tau \colon X \to Pic(\hat E)$ is the $\tau$-twisted $\hat E$-cohomology of $X$
 
 =--
 
-See [here](tangent+cohesion#Cohomology).
+See [here](tangent+cohesion#Cohomology) for details and further discussion.
 
-So [[cohesion]] faithfully axiomatizes twisted differential generalized cohomology. 
+So the [[axiom]] of [[cohesion]] faithfully axiomatizes "inter-geometric" twisted differential generalized cohomology. 
+In order to find also an "inter-geometric" [[Weil uniformization theorem]] for this we need however to add another axiom, one that makes [[infinitesimal objects]] such as [[formal disks]] appear explicitly. 
 
-In order to find an "inter-geometric" [[Weil uniformization theorem]] for this we need however to add another axiom, one that makes [[infinitesimal objects]] such as [[formal disks]] appear explicitly. 
+
+### Weil uniformization for differential cohomology
 
 To that end, consider again first an example
 
@@ -563,9 +591,40 @@ Moreover, $\mathbf{H}_{infinitesimal}$ satisfies _[[infinitesimal cohesion]]_ in
 | $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
 |---------|---|-------------------|---|------------------|
 | [[cohesion]] |  | [[differential cohesion]] |  | [[infinitesimal cohesion]] |
-| [[moduli ∞-stacks]] |  | [[fornal smooth ∞-groupoids]] |  |  [[formal moduli problems]] |
+| [[moduli ∞-stacks]] |  | [[formal smooth ∞-groupoids]] |  |  [[formal moduli problems]] |
+
++-- {: .num_prop #PiInf}
+###### Claim
+
+The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as producing [[de Rham space]] objects. In particular: 
+
+1. for $G \in Grp(\mathbf{H})$ an [[∞-group]] object then the [[mapping stack]]
+
+   $$
+     Log_G(\Sigma) \coloneqq [\Pi_{inf} \Sigma, \mathbf{B}G]
+   $$
+
+   is the [[moduli ∞-stack]] of $G$-[[local systems]] on any $\Sigma \in \mathbf{H}$;
+
+1. [[quasicoherent sheaves]] on $\Pi_{inf} X$ are [[D-modules]] on $X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In terms of claim \ref{PiInf} then the statement of the [[geometric Langlands correspondence]] is that there is a natural [[correspondence]] between
+
+$\Pi_{inf}[\Sigma, \mathbf{B}G]$ and $[\Pi_{inf}\Sigma, \mathbf{B}G]$.
+
+
+=--
+
+
+
 
 Since by prop. \ref{TheDifferentialCohesion} $\mathbf{H}$ is cohesive also over $\mathbf{H}_{infinitesimal}$, this gives _relative_ modalities
+
 
 $$
   (\Pi^{rel} \dashv \flat^{rel} \dashv \sharp^{rel})
@@ -588,10 +647,11 @@ is the [[disjoint union]] of all [[formal disks]] $D_x \hookrightarrow \Sigma$ a
 =--
 
 
++-- {: .num_remark }
+###### Remark
 
 
-In summary, the [[differential cohesion|differential cohesive]] structure is reflected in the existence of a 
-triple of triples of operations that naturally exist on all objects in $\mathbf{H}$:
+In summary, the [[differential cohesion|differential cohesive]] structure is reflected in the existence of a  triple of triples of operations that naturally exist on all objects in $\mathbf{H}$:
 
 1. [[cohesion]]
 
@@ -618,6 +678,7 @@ triple of triples of operations that naturally exist on all objects in $\mathbf{
 
    * [[infinitesimal flat modality]] $\flat_{inf}$ 
 
+=--
 
 +-- {: .num_example }
 ###### Example
@@ -641,24 +702,24 @@ $$
   }
 $$
 
-and the [[stabilization]] of this, equivalently the result of passing [[mapping spectrum|spectrum-valued functions]] on this yields
+and the [[stabilization]] of this, equivalently the result of passing to $\hat E$-[[mapping spectrum|spectrum-valued functions]] on this yields
 
 $$
   \array{
-    && [\Pi_{dR} X, C] &&  & && rational\;functions
+    && [\Pi_{dR} X, \hat E] &&  & && rational\;functions
     \\
     & \swarrow && \nwarrow && &
     \\
-    [\flat^{rel} \Pi^{rel}_{dR}  X, C]
+    [\flat^{rel} \Pi^{rel}_{dR}  X, \hat E]
     && &&
-    [X,C] 
+    [X,\hat E] 
     & 
     \\
     & \nwarrow && \swarrow && &
     \\
-    && [\flat^{rel} X, C] && & && C-adeles
+    && [\flat^{rel} X, \hat E] && & && "\hat-adeles"
   }
-+$$
+$$
 
 which is homotopy cartesian.
 
@@ -771,13 +832,12 @@ Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\
 
 ## References
 
+* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
+
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
-
-* {#Schreiber13} [[Urs Schreiber]], _[[Differential cohomology in a cohesive ∞-topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
-
-
+* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:Differential cohomology in a cohesive ∞-topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
