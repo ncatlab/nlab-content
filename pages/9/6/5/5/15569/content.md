@@ -18,7 +18,7 @@
 
 
 
-> under construction -- this page originates in notes prepared for a talk at _[CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, 2014
+> This page originates in notes prepared for a talk "Fractures, Ideles and the Differential Hexagon" at _[CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, 2014.
 
 #Contents#
 * table of contents
@@ -36,7 +36,9 @@ A fruitful approach to mathematical theory is what might be called "inter-geomet
 
 This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" theory from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow systematically.
 
-Another example, which maybe hasn't been duly recognized as such yet, is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] (closed string theory!) appearing here, which is however not of the kind that existing literature with such title would shed any light on.
+More generally, inter-geometric theory is relevant in [[higher geometric quantization]], where choices of [[polarizations]] correspond to descending to more rigid geometries (for introduction and review see [Schreiber 14](#Schreiber14)).
+
+A noteworthy example in this context is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] (closed string theory!) appearing here, which is however not of the kind that existing literature with such title would shed any light on.
 
 
 **[[quantization of 3d Chern-Simons theory]] and [[holographic principle|holographically]] of the [[WZW-model]]/the [[string]] **
@@ -56,6 +58,7 @@ The construction of the bottom right items here is a ground-breaking accomplishm
 | 2  | [[11d Chern-Simons theory]] |  | [[RR-fields]] in [[type II string theory]] |
 
 In all of these higher dimensional cases the inter-geometric aspect appears. Where one assigned an [[elliptic cohomology theory]] to [[worldsheets]] equipped with polarization structure, it is only the [[arithmetic geometry]]  cases of [[supersingular elliptic curves]] which contribute; similarly in the higher dimensional cases it is the [[Artin-Mazur formal groups]] in positive [[characteristic]] which induce at the given height to the [[Calabi-Yau cohomology]].
+
 
 Finding the higher analog of the [[string orientation of tmf]] for these higher dimensional cases is as desirable as it seems to be intractable without some more inter-geometric theory to guide one.
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
@@ -101,9 +104,9 @@ $$
 
 where 
 
-* $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]];
+* $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]] -- the _[[ring of integral adeles]]_;
 
-* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]].
+* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]] -- the _[[ring of adeles]]_.
 
 For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
 
@@ -137,7 +140,7 @@ $$
  \,.
 $$
 
-This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands program]] because under the [[function field analogy]] and the [[F1]]-geometry-analogy
+This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands program]] because the [[function field analogy]] and the [[F1]]-geometry-analogy say that:
 
 * the [[ring of p-adic integers]]
 
@@ -232,9 +235,9 @@ This statement lifts to [[stable homotopy theory]], with [[spectra]] regarded as
 
 +-- {: .num_prop #SullivanArithmeticFracture}
 ###### Proposition
-**(Sullivan arithmetic square)**
+**(Sullivan [[arithmetic fracture square]])**
 
-For every [[spectrum]] $X$ the canonical square
+For every [[spectrum]] $X$ the canonical square diagram
 
 $$
   \array{
@@ -252,10 +255,26 @@ $$
     \\
     && \prod_p X_p^\wedge
   }
-  \,.
 $$
 
+formed by [[p-completion]] and [[rationalization]] of spectra is a [[homotopy pullback]] square (hence a [[homotopy pushout]] square).
+
 =--
+
+Moreover, the [[geometric Langlands correspondence]] eventually relates the [[moduli stack of bundles]]  $Bun_{\Sigma}(G)$ realized via [[Weil uniformization]] with respect to such "fracture cover" to a [[moduli stack of local systems]] ([[flat connections]]) by identifying [[quasicoherent sheaves]] on one side with [[D-modules]] on the other
+
+"$ \mathcal{O}Mod(Loc_{\Sigma}({{}^L G}))
+    \stackrel{\simeq}{\longrightarrow}
+  \mathcal{D} Mod( Bun_{\Sigma}(G)) $"
+
+Hence in order to systematize the implementation of such consideration in various flavors of [[geometry]], we need an "inter-geometric" axiomatics that incorporates these ingredients, notably
+
+1. [[differential cohomology]];
+
+1. [[D-geometry]].
+
+This we turn to now.
+
 
 ## **2)** Axiomatic twisted differential generalized cohomology
 
@@ -334,11 +353,13 @@ $$
 
 such that the top [[left adjoint]] preserves [[finite products]] and the bottom [[right adjoint]] is a [[full and faithful (∞,1)-functor|fully faithful embedding]].
 
+
 By going back and forth this induces an [[adjoint triple]] of [[idempotent (∞,1)-monads|(∞,1)-comonads]] on $\mathbf{H}$ which we write
 
 $$
   (\Pi \dashv \flat \dashv \sharp) \colon \mathbf{H} \to \mathbf{H}
 $$
+
 
 and call, respectively: _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dashv$ _[[sharp modality]]_.
 
@@ -363,23 +384,41 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 +-- {: .num_prop #Structures}
 ###### Claim
 
-* the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its [[fundamental ∞-groupoid]] $\Pi X$ of geometric paths inside it, equivalently to its [[geometric realization]];
+* the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its **[[fundamental ∞-groupoid]]** $\Pi X$ of geometric paths inside it, equivalently to its **[[geometric realization]]**;
 
-* the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbf{B}G$ of $G$-[[flat ∞-connections|principal flat ∞-connections]];
+* the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbf{B}G$ of **$G$-[[flat ∞-connections|principal flat ∞-connections]]**;
 
-* the [[homotopy fiber]] $\flat_{\mathrm{dR}}G$ of the [[counit of a comonad|counit]] $\flat \mathbf{B}G \to \mathbf{B}G$ is naturally thought of as sending the moduli $\infty$-stack of $\mathfrak{g}$-[[L-∞ algebra valued differential forms]];
+* the [[homotopy fiber]] $\flat_{\mathrm{dR}}G$ of the [[counit of a comonad|counit]] $\flat \mathbf{B}G \to \mathbf{B}G$ is naturally thought of as sending the moduli $\infty$-stack of **$\mathfrak{g}$-[[L-∞ algebra valued differential forms]]**;
 
-* the canonical map $\theta \colon G \longrightarrow \flat_{dR} G$ is naturally thought of as the $G$-[[Maurer-Cartan form]]
+* the canonical map $\theta \colon G \longrightarrow \flat_{dR} G$ is naturally thought of as the **$G$-[[Maurer-Cartan form]]**;
 
-* for [[braided ∞-groups]] $G$ the various [[homotopy fibers]] of $\theta \colon G \longrightarrow \flat_{dR} G$ are moduli $\infty$-stacks $\mathbf{B}G_{conn}$ of non-flat $G$-[[principal ∞-connections]];
+* for [[braided ∞-groups]] $G$ the various [[homotopy fibers]] of $\theta \colon G \longrightarrow \flat_{dR} G$ are moduli $\infty$-stacks $\mathbf{B}G_{conn}$ of non-flat **$G$-[[principal ∞-connections]]**;
 
-* given a [[Hodge filtration]] on $\flat_{dR} G$ then the [[sharp modality]] $\sharp$ serves to produce moduli $\infty$-stacks $BunConn_\Sigma(G)$ of [[principal ∞-connections]] on a given base space $\Sigma$.
+* the [[sharp modality]] $\sharp$ serves to produce various more suble **[[moduli ∞-stacks]]**, for instance:
+
+  * given a [[Hodge filtration]] on $\flat_{dR} G$ then $BunConn_\Sigma(G)$ -- the **moduli $\infty$-stack  of all [[principal ∞-connections]]** on a given base space $\Sigma$ -- is obtained by "[[differential concretification]]" (see [[schreiber:Differential cohomology is Cohesive homotopy theory|Schreiber 14]] for more);
+
+  * for $Type_{\mathbf{H}}$ the [[object classifier]] of $\mathbf{H}$, then for any bare [[homotopy type]] $\Sigma \in \infty Grpd \hookrightarrow \mathbf{H}$ the [[homotopy pullback]] $\mathcal{M}_{\Sigma}$ in 
+
+    $$
+      \array{
+        \mathcal{M}_{\Sigma} &\longrightarrow& &\longrightarrow& \ast
+        \\
+        \downarrow && && \downarrow^{\mathrlap{\dashv \Sigma}}
+        \\
+        Type_{\mathbf{H}} &\stackrel{}{\to}& \sharp Type_{\mathbf{H}} & \stackrel{\Pi}{\longrightarrow} & \sharp Type_{\mathbf{H}}
+      }
+    $$
+
+    For instance for $\mathbf{H} = ComplexAnalytic\infty Gprd$ then this is a **[[moduli stack of complex structures]]** on $\Sigma$.
+    
 
 =--
 
 This is quite a bit of structure, concisely axiomatized by the presence of the [[adjoint modalities]] $\Pi \dashv \flat \dashv \sharp$. And more is implied:
 
 +-- {: .num_prop }
+
 ###### Proposition
 
 For any [[cohesive (∞,1)-topos]] $\mathbf{H}$ over [[∞Grpd]], then its _Goodwillie tangent space_, the [[tangent (∞,1)-category]] $T \mathbf{H}$ of [[parametrized spectrum|parameterized spectrum objects]] in $\mathbf{H}$ is itself a cohesive $(\infty,1)$-topos over bare [[parameterized spectra]] $T \infty Grpd$ -- the _[[tangent cohesive (∞,1)-topos]]_:
@@ -411,7 +450,7 @@ In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that
 +-- {: .num_prop  #HexagonExactness}
 ###### Proposition
 
-For $\hat E \in Spectra(\mathbf{H})$ a [[stable homotopy type|stable]] [[cohesive homotopy type]], then the canonical [[diagram]] formed from the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$ and the [[counit]] of the [[flat modality]] $\flat$
+For $\hat E \in Spectra(\mathbf{H}) \hookrightarrow T \mathbf{H}$ a [[stable homotopy type|stable]] [[cohesive homotopy type]], then the canonical [[diagram]] formed from the [[unit of a monad|unit]] of the [[shape modality]] $\Pi$ and the [[counit]] of the [[flat modality]] $\flat$
 
 $$
   \array{
@@ -468,20 +507,19 @@ It may therefore be useful to regard prop. \ref{HexagonExactness} as the differe
 
 =--
 
-### Twisted differential cohomology
+### Twisted differential generalized cohomology
 
 More is true, also [[twisted cohomology]] is naturally encoded by the axiomatics of [[cohesive homotopy theory]], as we pass from the fiber $Spectra(\mathbf{H})$ of the [[tangent cohesive (∞,1)-topos]] $T\mathbf{H}$ over the point to general cohesive [[parameterized spectrum]] objects:
 
 +-- {: .num_prop }
 ###### Proposition
 
-
-Let $$
+For $\hat E \in Spectra(\mathbf{H}) \hookrightarrow T\mathbf{H}$ a spectrum object, the canonical [[∞-action]] of its [[automorphism ∞-group]] is exhibited by the universal $\hat E$-[[fiber ∞-bundle]]
 
 $$
   \left[
    \array{
-    \hat E &\to& \hat E//GL_1(\hat E)
+    \hat E &\to& \hat E//Aut(\hat E)
     \\
     && \downarrow
     \\
@@ -490,44 +528,36 @@ $$
   \right]
   \in 
    T \mathbf{H}
+  \,.
 $$
 
-be an [[E-∞ ring]]-spectrum object universally [[parameterized spectrum|parameterized]] over $\mathbf{B}GL_1(\hhat E)$, hence exhibiting the [[∞-action]] of its [[∞-group of units]], and let
+=--
+
+[NSS 12](#NSS12)
+
++-- {: .num_prop }
+###### Proposition
+
+For any unstable [[cohesive homotopy type]] $X \in \mathbh{H} \hookrightarrow T \mathbf{H}$ the [[mapping stack]]
 
 $$
-  \left[
-   \array{
-    0
-    \\
-    \downarrow
-    \\
-    X
-    }
-  \right]
+  [X,\hat E//Aut(\hat E)]
   \in 
-   T \mathbf{H}
+  T \mathbf{H}
 $$
 
-be any unstable [[cohesive homotopy type]], then the [[mapping stack]]
-
-$$
-  \array{
-    [X,\hat E]
-  }
-$$
-
-is the bundle of spectra which over a twist 
+is the [[parameterized spectrum|bundle of spectra]] which over a twist 
 $\tau \colon X \to Pic(\hat E)$ is the $\tau$-twisted $\hat E$-cohomology of $X$.
 
 =--
 
 See [here](tangent+cohesion#Cohomology) for details and further discussion.
 
-So the [[axiom]] of [[cohesion]] faithfully axiomatizes "inter-geometric" twisted differential generalized cohomology. 
+So [[cohesion]] faithfully axiomatizes "inter-geometric" twisted differential generalized cohomology. 
 In order to find also an "inter-geometric" [[Weil uniformization theorem]] for this we need however to add another axiom, one that makes [[infinitesimal objects]] such as [[formal disks]] appear explicitly. 
 
 
-### Weil uniformization for differential cohomology
+### Weil uniformization for twisted differential generalized cohomology
 
 To that end, consider again first an example
 
@@ -557,6 +587,7 @@ $$
 $$
 
 Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
+
 
 =--
 
@@ -601,7 +632,7 @@ The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as prod
 1. for $G \in Grp(\mathbf{H})$ an [[∞-group]] object then the [[mapping stack]]
 
    $$
-     Log_G(\Sigma) \coloneqq [\Pi_{inf} \Sigma, \mathbf{B}G]
+     Loc_\Sigma(G) \coloneqq [\Pi_{inf} \Sigma, \mathbf{B}G]
    $$
 
    is the [[moduli ∞-stack]] of $G$-[[local systems]] on any $\Sigma \in \mathbf{H}$;
@@ -659,6 +690,7 @@ In summary, the [[differential cohesion|differential cohesive]] structure is ref
 
    * [[flat modality]] $\flat$ gives underlying point sets and moduli for [[flat ∞-connections]]/[[local systems]];
 
+
    * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat [[∞-connections]];
 
 1. [[infinitesimal cohesion]]
@@ -683,6 +715,7 @@ In summary, the [[differential cohesion|differential cohesive]] structure is ref
 +-- {: .num_example }
 ###### Example
 
+
 Every $X$ in $\mathbf{H}$ sits in a canonical square
 
 $$
@@ -706,7 +739,7 @@ and the [[stabilization]] of this, equivalently the result of passing to $\hat E
 
 $$
   \array{
-    && [\Pi_{dR} X, \hat E] &&  & && rational\;functions
+    && [\Pi_{dR} X, \hat E] &&  & && rational\;\hat E-functions
     \\
     & \swarrow && \nwarrow && &
     \\
@@ -717,7 +750,7 @@ $$
     \\
     & \nwarrow && \swarrow && &
     \\
-    && [\flat^{rel} X, \hat E] && & && "\hat-adeles"
+    && [\flat^{rel} X, \hat E] && & && \hat E-adeles
   }
 $$
 
@@ -778,7 +811,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \flat \Pi_{\mathfrak{a}dR} X  &&  && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
@@ -789,11 +822,11 @@ $$
 
 $$
   \array{
-    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
+    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \flat \Pi_{\mathfrak{a}dR} X  && && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
@@ -836,8 +869,13 @@ Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
+
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
-* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:Differential cohomology in a cohesive ∞-topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+
+* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive ∞-topos]]_, based on Habilitation thesis, Hamburg 2011 ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+* {#Schreiber14} [[Urs Schreiber]], _[[schreiber:What, and for what is Higher geometric quantization]]_, notes for a talk given at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford, July 5-8 2014
