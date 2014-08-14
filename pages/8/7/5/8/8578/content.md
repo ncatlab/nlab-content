@@ -244,9 +244,11 @@ $$
 
 * [[absolute differential form]], [[cogerm differential form]]
 
+* [[motivic integration]], [[p-adic integration]]
+
 ## References
 
-An exposition with an eye towards applications in [[physics]] is section 3 of 
+An exposition with an eye towards applications in [[physics]] is in section 3 of 
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
