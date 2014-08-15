@@ -108,6 +108,10 @@ Alternative or complementary approaches are
 
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
 
+A critical view of purely categorical foundations can be found in a series of [papers](http://math.stanford.edu/~feferman/papers.html) by S. Feferman e.g. :
+
+* [[Solomon Feferman|S. Feferman]], _Categorical Foundations and Foundations of Category Theory_ , pp.149-169 in Butts&Hintikka (eds.), _Logic, Foundations of Mathematics, and Computability Theory_, Reidel Dordrecht 1977. ([pdf](http://math.stanford.edu/~feferman/papers/Cat_founds.pdf))
+
 The above remarks from [[Mike Shulman|M. Shulman]] come from the following MO discussion that also offers additional perspectives on ETCC and ET2CC:
 
 * {#MO-CC}mathoverflow, _Category of categories as a foundation for mathematics_ , December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
