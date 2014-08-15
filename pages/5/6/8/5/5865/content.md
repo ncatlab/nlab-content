@@ -2121,6 +2121,8 @@ $$
 
 =--
 
+We also say $\flat_{dR}$ is the _[[dR-flat modality]]_ and $\Pi_{dR}$ is the _[[dR-shape modality]]_.
+
 
 +-- {: .num_prop #DeRhamAdjunction}
 ###### Proposition
@@ -3537,6 +3539,7 @@ Under the [[curvature]] projection $[F] : H_{diff}^n (X,A) \to H_{dR}^{n+1}(X,A)
 =--
 
 +-- {: .proof}
+
 ###### Proof
 
 This is due to the existence of the pasting composite
@@ -3928,3 +3931,5 @@ For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms 
 [[!redirects structures in a cohesive (∞,1)-topos]]
 
 [[!redirects structures in a cohesive infinity-topos]]
+
+[[!redirects cohesive topos -- structures]]
