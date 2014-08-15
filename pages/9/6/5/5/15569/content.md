@@ -568,9 +568,9 @@ To that end, consider again first an example
 
 Let $S_{reduced} \hookrightarrow S \longleftarrow S_{infinitesimal}$ be one of the following cospans of [[sites]]
 
-* $SmoothMfd \hookrightarrow FormalSmoothMfd \longleftarrow FormalPts$ 
+* $SmoothMfd \hookrightarrow FormalSmoothMfd \hookleftarrow FormalPts$ 
 
-* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \longleftarrow FormalPts$ 
+* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \hookleftarrow FormalPts$ 
 
 where $FormalPts$ is the site of [[infinitesimally thickened points]] with the trivial topology;
  
@@ -824,21 +824,7 @@ $$
   \,,
 $$
 
-$$
-  \array{
-    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;residual
-    \\
-    & \nearrow & & \searrow & & \nearrow && \searrow
-    \\
-    \flat \Pi_{\mathfrak{a}dR} X  && && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
-    \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow
-    \\
-    && \mathfrak{a}\;completion && \longrightarrow && \mathfrak{a}\;torsion\;approximation
-  }
-  \,,
-$$
-
+[[!include arithmetic cohesion -- table]]
 
 =--
 
