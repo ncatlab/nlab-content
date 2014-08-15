@@ -1,4 +1,3 @@
-[[!redirects power operations]]
 
 > under construction
 
@@ -19,6 +18,8 @@
 ## Idea
 
 Power operations are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup products]]-squares [[symmetric algebra|symmetrized]] in the right [[homotopy theory|homotopy-theoretic sense]].
+
+Power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] ([Lurie, remark 2.2.7](#Lurie)).
 
 For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), then a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[cohomology]] of $X$ with [[coefficients]] in $E$. 
 
@@ -77,3 +78,9 @@ The original articles are
 * [[Charles Rezk]], _Power operations for Morava E-theory of height 2 at the prime 2_ ([arXiv:0812.1320](http://arxiv.org/abs/0812.1320))
 
 * [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_ ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
+
+Discussion in the generality of [[E-infinity arithmetic geometry]] is in 
+
+* {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
+
+[[!redirects power operations]]
