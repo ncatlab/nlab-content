@@ -143,6 +143,7 @@ non-existent field $\mathbb{F}_1$ of a map to "$\mathrm{Spec}(\mathbb{F}_1)$".
 This should be one way to think of how $\Lambda$-rings
 embody "geometry over $\mathbb{F}_1$" as proposed in ([Borger 09](#Borger09)).
 
+Finally notice that the refinement of the $(-)^p$-operation from [[arithmetic geometry]] to [[E-infinity arithmetic geometry]] is given by the [[power operations]] in [[multiplicative cohomology theory]] ([Lurie, remark 2.2.9](#Lurie))
 
 ## Definition
 
@@ -245,6 +246,10 @@ Related discussion of [[arithmetic jet spaces]] is in
 * {#Buium05} [[Alexandru Buium]], _Arithmetic differential equations_, volume 118 of Mathematical Surveys and Monographs. American Mathematical Society, Providence, RI, 2005.
 
 * {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slighly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
+
+Related discussion of [[power operations]] in [[E-infinity arithmetic geometry]] is around remark 2.2.9 of  
+
+* {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
 
 [[!redirects Borger absolute geometry]]
