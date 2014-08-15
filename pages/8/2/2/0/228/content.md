@@ -19,7 +19,7 @@ An apartness relation is a [[binary relation]] that, instead of saying when two 
 
 Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
 
-The apartness relations that we discuss here are sometimes called _point-point_ apartness, to distinguish this from the _set-set_ apartness relation between [[subsets]] of an [[apartness space]] (which is related).
+The apartness relations that we discuss here are sometimes called _point--point_ apartness, to distinguish this from the _set--set_ apartness relation between [[subsets]] of an [[apartness space]] (which is related).
 
 
 ## Definitions
@@ -63,17 +63,17 @@ If you generalise from inequality spaces to allow non-tight apartness relations,
 
 Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
-If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-__[[neighbourhood]]__ (or $\ne$-__neighborhood__) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neigbhourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
+If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-**[[neighbourhood]]** (or $\ne$-**neighborhood**) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neigbhourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
 
-A subset $G$ is $\ne$-__[[open subset|open]]__ if it\'s a neighbourhood of all of its members. The open subsets form a [[topological space|topology]] (in the sense of Bourbaki): any union of open subsets is open, and the intersection of $0$ or $2$ (hence of any finite number) of open subsets is open.
+A subset $G$ is $\ne$-**[[open subset|open]]** if it\'s a neighbourhood of all of its members. The open subsets form a [[topological space|topology]] (in the sense of Bourbaki): any union of open subsets is open, and the intersection of $0$ or $2$ (hence of any finite number) of open subsets is open.
 
-The $\ne$-__complement__ of $x$ is the subset $\{y\colon S \;|\; x \ne y\}$; this is open by comparison. More generally, the $\ne$-__[[complement]]__ of any subset $A$ is the set $\tilde{A}$, defined as:
+The $\ne$-**complement** of $x$ is the subset $\{y\colon S \;|\; x \ne y\}$; this is open by comparison. More generally, the $\ne$-**[[complement]]** of any subset $A$ is the set $\tilde{A}$, defined as:
 $$ \tilde{A} \coloneqq \{y \;|\; \forall{x} \in A,\; x \ne y\} .$$
 This is not in general open, but you would use it where you would classically use the set-theoretic complement. However, if $A$ is open to begin with, then $\tilde{A}$ equals the set-theoretic complement.
 
 If $x \ne y$, then $x \in \tilde{y}$ and $y \in \tilde{x}$, which shows that $(S, \ne)$ satisfies the $T_1$ [[separation axiom]]. Symmetry is important here; if we removed symmetry from the axioms of apartness, then we would still get a $T_0$ topology, but it would not be $T_1$. This is a version of the fact that failure of $T_1$ is given by a [[partial order]] (or a [[preorder]] if $T_0$ might also fail).
 
-The $\ne$-__[[closure]]__ $\bar{A}$ of a subset $A$ is the complement of its complement. This closure is a [[closure operator]]: $A \subset \bar{A}$, $\overline{\bar{A}} = \bar{A}$ (in fact, $\overline{\tilde{A}} = \tilde{A}$), $\bar{A} \subset \bar{B}$ whenever $A \subset B$, $\overline{S} = S$ (in fact, $\bar{\empty} = \empty$ too), and $\overline{A \cap B} = \bar{A} \cap \bar{B}$ (but *not* $\overline{A \cup B} = \bar{A} \cup \bar{B}$).
+The $\ne$-**[[closure]]** $\bar{A}$ of a subset $A$ is the complement of its complement. This closure is a [[closure operator]]: $A \subset \bar{A}$, $\overline{\bar{A}} = \bar{A}$ (in fact, $\overline{\tilde{A}} = \tilde{A}$), $\bar{A} \subset \bar{B}$ whenever $A \subset B$, $\overline{S} = S$ (in fact, $\bar{\empty} = \empty$ too), and $\overline{A \cap B} = \bar{A} \cap \bar{B}$ (but *not* $\overline{A \cup B} = \bar{A} \cup \bar{B}$).
 
 The __antigraph__ of a function $f\colon S \to T$ is
 $$ \{(x,y) \;|\; x\colon S, y\colon T \;|\; f(x) \ne y\} .$$
