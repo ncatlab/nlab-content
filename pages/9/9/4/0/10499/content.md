@@ -339,21 +339,7 @@ $$
   \,,
 $$
 
-$$
-  \array{
-    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;residual
-    \\
-    & \nearrow & & \searrow & & \nearrow && \searrow
-    \\
-    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
-    \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow
-    \\
-    && \mathfrak{a}\;completion && \longrightarrow && \mathfrak{a}\;torsion\;approximation
-  }
-  \,,
-$$
-
+[[!include arithmetic cohesion -- table]]
 
 =--
 
