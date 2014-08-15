@@ -37,8 +37,7 @@ are equivalent;
 1. The ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules;
 1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
 
-An important weakening of the Morita equivalence is [[Morita context]] (in older
-literature sometimes called pre-equivalence).
+An important weakening of the Morita equivalence is [[Morita context]] (in older literature sometimes called pre-equivalence).
 
 ## Definitions
 
@@ -91,6 +90,8 @@ A beautiful classical exposition is in the chapter II of
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
 
 * [[Ross Street]], _Quantum Groups - A Path to Current Algebra_, Cambridge UP 2007. ([ps-draft](http://www-texdev.ics.mq.edu.au/Quantum/Quantum.ps))
+
+* I. Dell'Ambrogio, G. Tabuada, _A Quillen Model Structure for Classical Morita Theory and a Tensor Categorification of the Brauer Group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
 
 
 [[!redirects Morita equivalences]]
