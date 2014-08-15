@@ -1200,6 +1200,9 @@ The above examples all take place in the $T$[[Smooth∞Grpd]], modelling [[highe
 Differential cohomology in the complex-analytic context is discussed in ([Hopkins-Quick 12](#HopkinsQuick12)), see at
 _[complex analytic ∞-groupoid -- Properties -- Differential cohomology](complex+analytic+∞-groupoid#DifferentialCohomology)_ for more.
 
+### $E_\infty$-Arithmetic geometry
+
+[[!include arithmetic cohesion -- table]]
 
 ## Related concepts
 
