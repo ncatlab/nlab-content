@@ -116,6 +116,10 @@ The phenonemon of example \ref{AtiyahSegalTheorem} appears for other [[generaliz
 For suitable ideals $\mathfrak{a}\subset A$ of a commutative ring $A$, then the [[derived functor]] of $\mathfrak{a}$-adic [[completion of a module|completion of A-modules]] forms together with $\mathfrak{a}$-[[torsion approximation]] an [[adjoint modality]] on the  
 [[(∞,1)-category of modules]] over $A$. See at _[arithmetic fracturing for chain complexes](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_ for details.
 
+### As modality in arithmetic cohesion
+
+[[!include arithmetic cohesion -- table]]
+
 ## Related concepts
 
 * [[analytic completion]]
