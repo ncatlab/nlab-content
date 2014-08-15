@@ -12,6 +12,10 @@
 
   * [[cohesive (infinity,1)-topos -- structures|structures in cohesion]]
 
+* [[dR-shape modality]] $\dashv$ [[dR-flat modality]]
+
+  $&#643;_{dR}\dashv \flat_{dR}$
+
 **[[tangent cohesive (∞,1)-topos|tangent cohesion]]**
 
 * [[differential cohomology diagram]]
