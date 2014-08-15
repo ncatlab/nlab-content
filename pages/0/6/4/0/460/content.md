@@ -56,7 +56,7 @@ The last (non-)example shows that sobriety is not a hereditary separation proper
 
 ## References
 
-For instance around definition IX.3. 2 of
+For instance around definition IX.3.2 of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 {#MacLaneMoerdijk}
