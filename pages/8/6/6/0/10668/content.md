@@ -39,6 +39,10 @@ The term _spectral algebraic geometry_ is used in the literature.  On the [[nLab
 
 ## Properties
 
+### Higher analogs of Fermat derivations and Frobenius maps
+
+The refinement to $E_\infty$-arithmetic geometry of the power map $(-)^p$ which gives the [[Fermat quotient]] [[p-derivation]] and the [[Frobenius homomorphism]] in plain [[arithmetic geometry]] is the [[power operations]] on [[multiplicative cohomology theory]] ([Lurie "Adic", remark 2.2.9](#LurieAdic)).
+
 ### Cohesion
 
 see at _[[differential cohesion and idelic structure]]_
@@ -64,6 +68,9 @@ Fundamental properties of $E_\infty$-geometry are discussed in
 and the Grothendieck Existence Theorem]]_
 
 * [[Jacob Lurie]], _[[Representability Theorems]]_
+
+* {#LurieAdic} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
+
 
 [[!redirects E-infinity geometry]]
 [[!redirects spectral algebraic geometry]]
