@@ -126,13 +126,19 @@ The associated-sheaf functor sends $g$ to a monomorphism in the Cohen topos.
 If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of choice]] both hold in G&#246;del's [[constructible universe]] $L$ built from $V$.
 
 
-## References
+## Links
 
 * Stanford Encyclopedia of Philosophy, _[The Continuum Hypothesis](http://plato.stanford.edu/entries/continuum-hypothesis/)_
+
+## References
 
 * [[John Bell|J. L. Bell]], _Set Theory - Boolean-Valued Models and Independence Proofs_ , Oxford Logic Guides **47** 3rd ed. Oxford UP 2005.
 
 * [[Alonzo Church|A. Church]], _Paul J. Cohen and the Continuum Problem_, pp.15-20 in Proceedings ICM Moscow 1966. ([pdf](http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0015.0020.ocr.pdf))
+
+* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis I_, Proc.Nat.Acad.Sci. **50** (1963) pp.1143-1148. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC221287/pdf/pnas00240-0135.pdf))
+
+* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis II_, Proc.Nat.Acad.Sci. **51** (1963) pp.105-110. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/pdf/pnas00175-0117.pdf))
 
 * [[Paul J. Cohen|P. J. Cohen]], _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
 
