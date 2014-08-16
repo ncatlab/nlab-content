@@ -27,7 +27,7 @@ The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set 
 
 The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for further axioms of set theory.
 
-[[William Lawvere|W. Lawvere]] in 2003 reinterpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in P. Dehornoy's 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
+[[William Lawvere|W. Lawvere]] in 2003 reinterpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
 
 The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], Lawvere and later Scedrov. The following exposition follows this categorical  approach.
 
