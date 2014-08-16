@@ -28,7 +28,7 @@ An $E_1$ algebra in the [[symmetric monoidal (∞,1)-category]] [[Spec]] of [[sp
 
 ### $E_2$-algebras
 
-The [[homology]] of an $E_2$-algebra in [[chain complex]]es is a [[BV-algebra]].
+The [[homology]] of an $E_2$-algebra in [[chain complex]]es is a [[Gerstenhaber algebra]].
 
 ### $E_\infty$-algebra
 
@@ -99,7 +99,6 @@ some summary of which is at _[[Ek-Algebras]]_.
 
 [[!redirects E-n algebra]]
 [[!redirects E-n algebras]]
-
 
 
 
