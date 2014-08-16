@@ -1,3 +1,6 @@
+[[!redirects K. Gödel]]
+[[!redirects Kurt Godel]]
+[[!redirects Kurt Goedel]]
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Kurt_G&#246;del)
 
@@ -6,6 +9,8 @@
 * [[completeness theorem]]
 
 * [[incompleteness theorem]]
+
+* [[continuum hypothesis]]
 
 category: people
 
