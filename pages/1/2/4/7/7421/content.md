@@ -67,7 +67,7 @@ This construction of $E(G)$ is exactly that of the nerve of the [[action groupoi
 We put ourselves in the context of a group, $G$, and a family, $\mathcal{H}$, of subgroups of $G$ as in the context of [[higher generation by subgroups]].  We suppose that $\mathcal{H}= \{H_i\mid i\in I\}$ for some indexing set, $I$. 
 +--{.un_defn}
 (cf. Suslin-Wodzicki, (ref. below) p. 65.) 
-We denote by $V(G,\mathcal{H})$, or $V(\mathfrak{H})$, the simplicial subset of $E(G)$ formed by simplices, $(g_0,\ldots,g_p)$, that satisfy the condition that there is some $i\in I$ such that, for all $0\leq j,k\leq p$, $g_jg_k^{-1}\in H_i$.
+We denote by $V(G,\mathcal{H})$, or $V(\mathfrak{H})$, the simplicial subset of $E(G)$ formed by simplices, $(g_0,\ldots,g_p)$, that satisfy the condition that there is some $i\in I$ such that, for all $0\leq j,k\leq p$, $g_j g_k^{-1}\in H_i$.
 
 The simplicial set, $V(G,\mathcal{H})$, will be called the _Volodin space_ of $(G,\mathcal{H})$.
 =--
