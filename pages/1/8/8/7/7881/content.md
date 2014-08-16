@@ -17,19 +17,19 @@
 
 > Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del (1947, p.515)
 
-The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] ("the [[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[David Hilbert|Hilbert's]] millenium list of open problems in mathematics in 1900.
+The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's millenium list]] of open problems in mathematics in 1900.
 
-In concise form the continuum hypothesis (CH) reads $2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
+In concise form the continuum hypothesis ($CH$) reads $2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
 
-The *generalized continuum hypothesis* (GCH) states more generally: $2^{\aleph_k}=\aleph _{k+1}\quad$.
+The *generalized continuum hypothesis* ($GCH$) states more generally: $2^{\aleph_k}=\aleph _{k+1}\quad$.
 
-The **independence of the continuum hypothesis** from the axioms of set theory has been established in landmark papers by G&#246;del and Cohen, the former proving the consistency of $ZFC+CH$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ in 1963.
+The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|Gödel]] and Cohen, the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
 
-The broader implications of the independence results for set theory in general and ZFC in particular are somewhat controversial. They are widely viewed as a pointer towards the deficiency of ZFC and the need for further axioms of set theory.
+The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for further axioms of set theory.
 
-Whereas Lawvere in 2003 reinterpreted Cantor's original point of view as saying that CH holds for 'sufficiently structureless' sets and accordingly viewed G&#246;del's 1938 result as a proof of CH, in Dehornoy's 2003 reinterpretation based on results of Woodin, CH is actually conjectured to be false.
+[[William Lawvere|W. Lawvere]] in 2003 reinterpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in P. Dehornoy's 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
 
-The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the early development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], and [[William Lawvere|Lawvere]]. The following exposition follows this categorical  approach.
+The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], Lawvere and later Scedrov. The following exposition follows this categorical  approach.
 
 
 ## Statement
@@ -130,20 +130,21 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 
 * Stanford Encyclopedia of Philosophy, _[The Continuum Hypothesis](http://plato.stanford.edu/entries/continuum-hypothesis/)_
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], sections VI.2, VI.3 of _[[Sheaves in geometry and logic]]_ , Springer Heidelberg 1994.
+* [[John Bell|J. L. Bell]], _Set Theory - Boolean-Valued Models and Independence Proofs_ , Oxford Logic Guides **47** 3rd ed. Oxford UP 2005.
 
-* M.C. Fitting, _Intuitionistic logic, model theory and forcing_, North-Holland (1969). 
+* [[Alonzo Church|A. Church]], _Paul J. Cohen and the Continuum Problem_, pp.15-20 in Proceedings ICM Moscow 1966. ([pdf](http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0015.0020.ocr.pdf))
 
 * P. J. Cohen, _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
 
-* A. Church, _Paul J. Cohen and the Continuum Problem_, pp.15-20 Proceedings ICM Moscow 1966. ([pdf](http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0015.0020.ocr.pdf))
+* [[Patrick Dehornoy|P. Dehornoy]], _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](http://www.math.unicaen.fr/~dehornoy/Surveys/DgtUS.pdf))
 
-* P. Dehornoy, _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](http://www.math.unicaen.fr/~dehornoy/Surveys/DgtUS.pdf))
+* M.C. Fitting, _Intuitionistic Logic, Model Theory and Forcing_, North-Holland Amsterdam 1969. 
 
-* K. G&#246;del, _What is Cantor's continuum problem?_ , Am. Math. Monthly **54** no. 9 (1947) pp.515-25. ([pdf](http://www.personal.psu.edu/ecb5/Courses/M475W/Readings/Week06-Sep30-IntoTheTwentiethCentury/01-WhatisCantorsContinuumProblembyKurtGodel.pdf))
+* [[K. Gödel]], _What is Cantor's continuum problem?_ , Am. Math. Monthly **54** no. 9 (1947) pp.515-25. ([pdf](http://www.personal.psu.edu/ecb5/Courses/M475W/Readings/Week06-Sep30-IntoTheTwentiethCentury/01-WhatisCantorsContinuumProblembyKurtGodel.pdf))
 
 * [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
 
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (sections VI.2, VI.3)
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
