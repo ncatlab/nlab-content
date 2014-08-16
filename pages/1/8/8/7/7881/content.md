@@ -23,7 +23,7 @@ In concise form the continuum hypothesis ($CH$) reads $2^{\aleph_0}=\aleph _1\qu
 
 The *generalized continuum hypothesis* ($GCH$) states more generally: $2^{\aleph_k}=\aleph _{k+1}\quad$.
 
-The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|Gödel]] and Cohen, the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
+The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|Gödel]] and [[Paul J. Cohen|Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
 
 The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for further axioms of set theory.
 
@@ -134,7 +134,7 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 
 * [[Alonzo Church|A. Church]], _Paul J. Cohen and the Continuum Problem_, pp.15-20 in Proceedings ICM Moscow 1966. ([pdf](http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0015.0020.ocr.pdf))
 
-* P. J. Cohen, _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
+* [[Paul J. Cohen|P. J. Cohen]], _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
 
 * [[Patrick Dehornoy|P. Dehornoy]], _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](http://www.math.unicaen.fr/~dehornoy/Surveys/DgtUS.pdf))
 
