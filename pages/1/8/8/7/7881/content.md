@@ -19,15 +19,15 @@
 
 The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's millenium list]] of open problems in mathematics in 1900.
 
-In concise form the continuum hypothesis ($CH$) reads $2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
+In concise form the continuum hypothesis ($CH$) reads: $\quad 2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
 
-The *generalized continuum hypothesis* ($GCH$) states more generally: $2^{\aleph_k}=\aleph _{k+1}\quad$.
+The *generalized continuum hypothesis* ($GCH$) states more generally: $\quad 2^{\aleph_k}=\aleph _{k+1}\quad$.
 
-The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|Gödel]] and [[Paul J. Cohen|Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
+The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|K. Gödel]] and [[Paul J. Cohen|P. J. Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
 
 The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for further axioms of set theory.
 
-[[William Lawvere|W. Lawvere]] in 2003 reinterpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
+[[William Lawvere|W. Lawvere]] in 2003 interpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
 
 The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], Lawvere and later Scedrov. The following exposition follows this categorical  approach.
 
