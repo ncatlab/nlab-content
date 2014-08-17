@@ -28,7 +28,7 @@ The [[coset]] of a super Poincar&#233; group by the [[orthogonal group]]/[[Loren
 
 ## Related concepts
 
-* [[Poincaré group]]
+* [[Poincaré group]], [[Poincaré spinor group]]
 
 * [[R-symmetry group]]
 
