@@ -68,6 +68,9 @@ $$v \mapsto \sinh(\beta)u_t + \cosh(\beta)v$$
 for some parameter $\beta$ (called the **rapidity**), and acting as the identity on the spatial plane orthogonal to $v$. Thus a boost is described by a pair $(v, \beta)$, involving 3 parameters. (Warning: boosts do not compose to form a subgroup.) A boost can be thought of as a relativistic coordinate change from a "laboratory" frame of reference to the frame of reference of an observer moving inertially in the direction $v$ with speed $\tanh(\beta)$ (relative to the speed of light $c = 1$), as measured in the laboratory frame. 
 
 ## Universal spin covering 
+ {#UniversalSpinCovering}
+
+We discuss aspects of the [[Poincaré spinor group]].
 
 The universal cover of $SO^+(1, 3)$ is a double cover (the **spin double cover**) 
 
@@ -243,3 +246,4 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
 [[!redirects Poincare group]]
 [[!redirects Poincaré group]]
+
