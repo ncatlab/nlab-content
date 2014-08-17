@@ -1,4 +1,6 @@
-[[!redirects quantization of Chern-Simons theory]]
+
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -30,27 +32,30 @@ It was long expected that the resulting [[3d TQFT]] is that given by the [[Reshe
 More recently all the ingredients of a proof that this is indeed equivalently the result of the [[geometric quantization]] are appearing ([Andersen 12](#Andersen12)). See also ([MO discussion](#MODiscussion)).
 
 ## General idea
+ {#GeneralIdea}
 
 > under construction
 
-Chern-Simons functional
+### Space of Chern-Simons quantum states 
+
+Chern-Simons [[action functional]]
 
 $$
-  \exp(\tfrac{i}{\hbar}S_{CS}) \colon \mathbf{Fields} \longrightarrow \mathbf{B}^{n+1} U(1)_{conn}
+  \exp(\tfrac{i}{\hbar}S_{CS}) \colon \mathbf{Fields}_{CS} \longrightarrow \mathbf{B}^{n+1} U(1)_{conn}
 $$
 
-given [[closed manifold]] $\Sigma_n$ then choice of [[complex structure]] on $\Sigma_n$ supposed to naturally induced complex structure on space of (on-shell) fields over $\Sigma_n$
+given a [[closed manifold]] $\Sigma_n$ then choice of [[complex structure]] $\mathbf{\Sigma}_n$ on $\Sigma_n$ is supposed to naturally induce a [[complex structure]] on the space of (on-shell) fields over $\Sigma_n$
 
 $$
-  \mathbf{Fields}(\Sigma_n)
+  \mathbf{Fields}_{CS}(\mathbf{\Sigma}_n)
 $$
 
-Moreover, [[transgression]] of $\exp(\tfrac{i}{\hbar}S)$ to $\mathbf{Fields}(\Sigma)$ is supposed to yield a [[holomorphic line bundle]] with connection with respect to that complex structure
+Moreover, [[transgression]] of $\exp(\tfrac{i}{\hbar}S)$ to $\mathbf{Fields}_{CS}(\Sigma)$ is supposed to yield a [[holomorphic line bundle]] with connection with respect to that complex structure
 
 $$
-  \exp(\tfrac{i}{\hbar}S(\Sigma_n))
+  \exp(\tfrac{i}{\hbar}S(\mathbf{\Sigma}_n))
   \colon
-  \mathbf{Fields}(\Sigma_n)
+  \mathbf{Fields}_{CS}(\mathbf{\Sigma}_n)
   \longrightarrow
   \mathbf{B}U(1)_{conn} 
   \,.
@@ -58,25 +63,63 @@ $$
 
 This is the [[prequantum line bundle]] of the Chern-Simons theory, already equipped with a [[Kähler polarization]].
 
-Accordingly, the [[geometric quantization]] of the CS action functional assigns to $\Sigma_n$ the [[Hilbert space]] of holomorphic sections of $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$.
+Accordingly, the [[geometric quantization]] of the CS action functional assigns to $\Sigma_n$ the [[Hilbert space]] $\mathcal{H}_{\mathbf{\Sigma}}$ of holomorphic sections of $\exp(\tfrac{i}{\hbar}S(\mathbf{\Sigma}_n))$.
 
-One such section $\Psi$ is to be singled out. For instance if $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$ is a [[theta characteristic]] then there is up to scale a unique holomorphic section.
-
-Holographic interpretation:
-
-the [[field (physics)|fields]] $\mathbf{Fields}(\Sigma_n)$ may also be thought of as the [[sources]] of a (higher) [[gauged WZW model]] on $\Sigma$. The [[holographic principle]] says that $\Psi$ is also the [[generating function]] of the [[WZW model]], meaning that the [[functional derivatives]]
+As the complex structure $\mathbf{\Sigma}_n$ on $\Sigma_n$ varies over the [[moduli stack of complex structures]] $\mathcal{M}_{\Sigma}$, these vector spaces $\mathcal{H}_{\mathbf{\Sigma}_n}$ form a [[vector bundle]] with projective flat connection (the _[[Hitchin connection]]_) on the moduli stack
 
 $$
-  \frac{\delta}{\delta A^{i_1}(x_1)}
+  \array{
+    \mathcal{H}_{\Sigma}
+    \\
+    \downarrow
+    \\
+    \mathcal{M}_{\Sigma}
+  }
+$$
+
+The assignment
+
+$$
+  \Sigma_n \mapsto \mathcal{H}_{\Sigma}
+$$
+
+natural in [[diffeomorphisms]] of $\Sigma$ is called the _[[modular functor]]_.
+
+Side remark: discussion of [[equivariant elliptic cohomology]] (see there ar _[interpretation in QFT](equivariant+elliptic+cohomology#InterpretationInQuantumFieldTheory)_) says that this construction refines from equipping $\Sigma$ with [[complex structure]] to equipping it with [[arithmetic geometry|arithmetic structure]]. Hence for $\Sigma$ a [[torus]] it refines from structures of [[elliptic curves]] over the complex numbers to general arithmetic elliptic curves (over the [[integers]]) and in fact to [[derived elliptic curves]] (over the [[sphere spectrum]]). Hence eventually the theory of [[geometric quantization]] needs to be refined to admit [[polarizations]] in [[arithmetic geometry]]. See at _[[differential cohesion and idelic structure]]_ for more on this.
+
+One such section $\Psi$ is to be singled out. For instance if $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$ is a [[theta characteristic]] then there is up to scale a unique holomorphic section. This singling-out is formalized by the [[FRS-formalism]]. See there for more.
+
+### Space of WZW pre-correlators
+
+Under the [[AdS3-CFT2 and CS-WZW correspondence]] the states of Chern-Simons theory also correspond to [[partition functions]] of the [[gauged WZW model]] and hence to [[generating functions]] for [[correlation functions]] of the actual [[WZW model]].
+
+The [[field (physics)|fields]] $\mathbf{Fields}(\Sigma_n)$ may also be thought of as the [[sources]] of a (higher) [[gauged WZW model]] on $\Sigma$. 
+
+The [[holographic principle]] says that the [[quantum state]]/[[wavefunction]] 
+
+$$
+  \Psi \in \Gamma(\mathbf{Fields}_{CS}(\mathbf{\Sigma}_n), L)
+$$ 
+
+is also the [[generating function]] for the [[correlators]] of the [[WZW model]] on $\Sigma_n$, meaning that its [[functional derivatives]] 
+
++-- {: bluebox}
+
+$$
+  \frac{\delta}{\delta A^{a_1}(z_1)}
   \cdots 
-  \frac{\delta}{\delta A^{i_n}(x_n)}
+  \frac{\delta}{\delta A^{a_n}(z_n)}
   \Psi
   =
-  \langle \phi_{i_1}(x_1) \cdots \phi_{i_n}(x_n) \rangle
+  \langle J^{a_1}(z_1) \cdots J^{a_n}(z_n) \rangle
 $$
 
-are the [[n-point functions]] of the WZW model.
+=--
 
+with respect to the Chern-Simons-[[field (physics)|fields]], hence the WZW [[sources]],  are the [[n-point functions]] of the WZW model for [[current algebra]] insertions, as indicated
+
+
+(e.g. [Gaw&#281;dzki 99 (4.23), 5.1](#Gawedzki99))
 
 
 
@@ -93,6 +136,10 @@ are the [[n-point functions]] of the WZW model.
 * [[equivariant elliptic cohomology]]
 
 ## References
+
+Basics are recalled for instance in
+
+* {#Gawedzki99} [[Krzysztof Gaw?dzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
 Explicit proof that in particular the [[modular functor]] in the [[Reshetikhin-Turaev model]] is equivalent to that induced from [[geometric quantization]] is at least partially in
 
@@ -120,3 +167,4 @@ Another approach is
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], _[TQFT from compact Lie groups -- 3d Chern-Simons as a fully extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)_.
 
+[[!redirects quantization of Chern-Simons theory]]
