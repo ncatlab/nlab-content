@@ -50,3 +50,7 @@ Specific examples include:
 
 * [[Rick Jardine]], *Intermediate model structures for simplicial presheaves*, Canad. Math. Bull. 49(3) (2006), 407&#8211;413.
  {#Jardine}
+
+* a review is on [p. 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12) of [Field Lectures: Simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
+
+[[!redirects intermediate model structures]]
