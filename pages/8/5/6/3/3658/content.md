@@ -43,7 +43,7 @@ Note: the numbering - and indeed the actual number - of axioms varies depending 
 
 +-- {.num_defn}
 ###### Axiom
-There is a physical Hilbert space $\mathcal{H}$ in which a unitary representation $U(a,\Lambda)$ of the [[Poincare spinor group|Poincaré spinor group]], $P_{0}$ acts.
+There is a physical Hilbert space $\mathcal{H}$ in which a unitary representation $U(a,\Lambda)$ of the [[Poincaré spinor group]], $P_{0}$ acts.
 =--
 
 +-- {.num_defn}
@@ -53,7 +53,7 @@ The spectrum of the energy-momentum operator P is concentrated in the closed upp
 
 +-- {.num_defn}
 ###### Axiom
-There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (vacuum), which is invariant with respect to the space-time translations $U(a,1)$. 
+There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (the _[[vacuum]] state_), which is invariant with respect to the space-time translations $U(a,1)$. 
 =--
 
 +-- {.num_defn}
@@ -82,7 +82,7 @@ The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i_1}
 
 ### The Wightman Reconstruction Theorem
 
-The **vacuum expectation values** of the theory are all (tempered, by the axioms) distributions of the form 
+The **[[vacuum expectation values]]** ([[n-point functions]]) of the theory are all (tempered, by the axioms) distributions of the form 
 $$ 
 \langle0| \phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle 
 $$
