@@ -164,6 +164,12 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 
 * {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
 
+### Relation to the 6d superconformal theory
+
+Realization to the [[6d (2,0)-supersymmetric QFT]] is discussed in
+
+* {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
+
 ### Phenomenology and model building
 
 A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory.
