@@ -15,11 +15,15 @@
 
 ## Idea
 
-The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal blocks]] $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**. ([Segal 89](#Segal89), [Segal 04, def. 5.1](#Segal04))
+The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension|dimensional]] [[cobordism]] $\Sigma$ a [[vector space]] of "possible [[correlators]]": those functions on the space of [[conformal structures]] on $\Sigma$ that have the correct behaviour (satisfy the conformal [[Ward identities]]) to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of _[[conformal blocks]]_ $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**. ([Segal 89](#Segal89), [Segal 04, def. 5.1](#Segal04))
 
 To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraints]], see for instance at _[[FRS-theorem on rational 2d CFT]]_.
 
 Dually, under a [[holographic principle]] such as [[AdS3-CFT2 and CS-WZW correspondence|CS3/WZW2]] the space of [[conformal blocks]] on $\Sigma$ is equivalently the [[space of quantum states]] of the [[TQFT]] on $\Sigma$. See at _[[quantization of 3d Chern-Simons theory]]_ for more on this.
+
+## Related concepts
+
+* [[quantization of Chern-Simons theory]]
 
 ## Properties
 
