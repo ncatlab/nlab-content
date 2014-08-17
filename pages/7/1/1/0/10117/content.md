@@ -48,19 +48,19 @@ Discussion for [[deformation quantization]] instead of [[geometric quantization]
 
 This also reproduces the original construciton in the context of [[Chern-Simons theory]] in 
 
-* [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
- {#AxelrodPietraWitten91}
+* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
+ 
 
 More details (on [[metaplectic correction]]) and generalization to connections over more general manifolds are in 
 
-* Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
- {#ScheinostSchottenloher96}
+* {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+ 
 
 
 
 Similar generalization away from [[moduli spaces of flat connections]] to general [[symplectic manifolds]] with [[Kähler structure]] on them is also in
 
-* Lauridsen, _Aspects of quantum mathematics  -- Hitchin connections and the AJ conjecture_, PhD thesis Aarhus 2010 ([pdf](http://pure.au.dk/portal/files/41741925/imf_phd_2010_mrl.pdf))
- {#Lauridsen10}
+* {#Lauridsen10} Lauridsen, _Aspects of quantum mathematics  -- Hitchin connections and the AJ conjecture_, PhD thesis Aarhus 2010 ([pdf](http://pure.au.dk/portal/files/41741925/imf_phd_2010_mrl.pdf))
+ 
 
 [[!redirects Hitchin connections]]
