@@ -126,7 +126,7 @@ for the [[de Rham differential]] incarnated as a [[homomorphism]] of [[smooth sp
 +-- {: .num_defn}
 ###### Definition
 
-The **functional derivative** 
+The **[[functional derivative]]** 
 
 $$
   \mathbf{d}S
