@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -49,11 +48,14 @@ If $J$ is a [[quiver]], then a __diagram__ in $C$ of shape $J$ is a functor $D\c
 
 Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a quiver and $U\colon Cat \to Quiv$ the underlying quiver of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a quiver, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
 
+
 ## Remarks
 
 * For either sort of diagram, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
 
 * Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$, even if $J$ is itself a category.  This is because the functor $F$ could identify objects of $J$, thereby producing new potential composites which do not exist in $J$.  (Sometimes one talks about the "image" of a functor as a subcategory, but this really means the subcategory *generated* by the image in the literal objects-and-morphisms sense.)
+
+* $C$ must be a [[strict category]] to make sense of $U(C)$; however, $F(J)$ always makes sense.
 
 
 ## Commutative diagrams
@@ -212,11 +214,13 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
 * [[tower diagram]]
 
+
 ## Related concepts
 
 * [[commuting diagram]]
 
 * [[internal diagram]]
+
 
 [[!redirects diagram]]
 [[!redirects diagrams]]
