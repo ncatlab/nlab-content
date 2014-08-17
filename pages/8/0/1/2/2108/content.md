@@ -297,11 +297,11 @@ which is the alternating [[direct sum]] of the [[Dolbeault cohomology]] space of
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #SectionsAndEulerQuantizationCoincidesOnPositiveBundles}
 ###### Remark
 
 The [[Kodaira vanishing theorem]] asserts that if $L_\omega \sqrt{\Omega^{n,0}}^{-1}$ is a [[positive line bundle]] 
-then all the higher [[cohomology groups]] in the above expression vanish. Therefore in this case the definition coincides with that vai polarizations in def. \ref{PolarizedQuantumStates} above.
+then all the higher [[cohomology groups]] in the above expression vanish. Therefore in this case the definition coincides with that via polarizations in def. \ref{PolarizedQuantumStates} above.
 
 $$
   \left(
