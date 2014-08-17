@@ -95,6 +95,11 @@ For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the sec
 ### Models and special properties
  {#ModelsAndSpecialProperties}
 
+Realization of the 6d theory in [[F-theory]] is discussed in 
+
+* {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
+
+
 A proposal for related higher nonabelian differential form data is made in 
 
 * [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
