@@ -248,11 +248,7 @@ $$
   \,.
 $$
 
-For general $C$, there is still a whole family of model structures on $[C^{op}, sSet]$ that interpolates between the injective and the projective model structure. This is discussed in
-
-* [[Rick Jardine]], _Intermediate model structures for simplicial presheaves_ , Canad. Math. Bull. 49(3) (2006), 407&#8211;413.
-
-  a review in on [p. 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12) of [Field Lectures: Simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
+For general $C$, there is still a whole family of model structures on $[C^{op}, sSet]$ that interpolates between the injective and the projective model structure.  See [[intermediate model structure]].
 
 
 ### Dependency on the underlying site {#DependencyOnSite}
