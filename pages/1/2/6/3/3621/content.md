@@ -6,6 +6,9 @@ Pronounciation note: the Polish '&#281;' (cf. [wikipedia](http://en.wikipedia.or
 
 * _Lectures on CFT_ (from Park City, published in QFT and strings for mathematicians, Dijkgraaf at al editors, [site](http://www.math.ias.edu/qft)) [source](http://www.math.ias.edu/QFT/fall/NewGaw.tex), [dvi](http://www.math.ias.edu/QFT/fall/NewGaw.dvi), [ps](http://www.math.ias.edu/QFT/fall/NewGaw.ps)
 
+## Related nLab entries
+
+* [[2d CFT]], [[WZW model]], [[quantization of Chern-Simons theory]]
 
 category: people
 
