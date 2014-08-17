@@ -287,9 +287,7 @@ _DHI04_, theorem 1.3
 
 ## Intermediate model structures ##
 
-One can regard the projective and the injective model structure as two extrema of a poset of model structures on simplicial presheaves.
-
-See _Jardine07_ [page 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12)
+One can regard the projective and the injective model structure as two extrema of a poset of model structures on simplicial presheaves; see [[intermediate model structure]].
 
 #References#
 
