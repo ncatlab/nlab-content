@@ -29,6 +29,57 @@ It was long expected that the resulting [[3d TQFT]] is that given by the [[Reshe
 
 More recently all the ingredients of a proof that this is indeed equivalently the result of the [[geometric quantization]] are appearing ([Andersen 12](#Andersen12)). See also ([MO discussion](#MODiscussion)).
 
+## General idea
+
+> under construction
+
+Chern-Simons functional
+
+$$
+  \exp(\tfrac{i}{\hbar}S_{CS}) \colon \mathbf{Fields} \longrightarrow \mathbf{B}^{n+1} U(1)_{conn}
+$$
+
+given [[closed manifold]] $\Sigma_n$ then choice of [[complex structure]] on $\Sigma_n$ supposed to naturally induced complex structure on space of (on-shell) fields over $\Sigma_n$
+
+$$
+  \mathbf{Fields}(\Sigma_n)
+$$
+
+Moreover, [[transgression]] of $\exp(\tfrac{i}{\hbar}S)$ to $\mathbf{Fields}(\Sigma)$ is supposed to yield a [[holomorphic line bundle]] with connection with respect to that complex structure
+
+$$
+  \exp(\tfrac{i}{\hbar}S(\Sigma_n))
+  \colon
+  \mathbf{Fields}(\Sigma_n)
+  \longrightarrow
+  \mathbf{B}U(1)_{conn} 
+  \,.
+$$
+
+This is the [[prequantum line bundle]] of the Chern-Simons theory, already equipped with a [[Kähler polarization]].
+
+Accordingly, the [[geometric quantization]] of the CS action functional assigns to $\Sigma_n$ the [[Hilbert space]] of holomorphic sections of $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$.
+
+One such section $\Psi$ is to be singled out. For instance if $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$ is a [[theta characteristic]] then there is up to scale a unique holomorphic section.
+
+Holographic interpretation:
+
+the [[field (physics)|fields]] $\mathbf{Fields}(\Sigma_n)$ may also be thought of as the [[sources]] of a (higher) [[gauged WZW model]] on $\Sigma$. The [[holographic principle]] says that $\Psi$ is also the [[generating function]] of the [[WZW model]], meaning that the [[functional derivatives]]
+
+$$
+  \frac{\delta}{\delta A^{i_1}(x_1)}
+  \cdots 
+  \frac{\delta}{\delta A^{i_n}(x_n)}
+  \Psi
+  =
+  \langle \phi_{i_1}(x_1) \cdots \phi_{i_n}(x_n) \rangle
+$$
+
+are the [[n-point functions]] of the WZW model.
+
+
+
+
 ## Related concepts
 
 * [[Donaldson-Uhlenbeck-Yau theorem]]
@@ -68,5 +119,4 @@ For discussion of the state of the proof see also
 Another approach is
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], _[TQFT from compact Lie groups -- 3d Chern-Simons as a fully extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)_.
-
 
