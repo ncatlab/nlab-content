@@ -386,6 +386,7 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 
 * the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its **[[fundamental ∞-groupoid]]** $\Pi X$ of geometric paths inside it, equivalently to its **[[geometric realization]]**;
 
+
 * the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbf{B}G$ of **$G$-[[flat ∞-connections|principal flat ∞-connections]]**;
 
 
@@ -566,11 +567,11 @@ To that end, consider again first an example
 +-- {: .num_example #ComplexAnalyticDifferentialCohesion}
 ###### Example
 
-Let $S_{reduced} \hookrightarrow S \longleftarrow S_{infinitesimal}$ be one of the following cospans of [[sites]]
+Let $S_{reduced} \longleftarrow S \longleftarrow S_{infinitesimal}$ be one of the following fiber sequence of [[sites]]
 
-* $SmoothMfd \hookrightarrow FormalSmoothMfd \hookleftarrow FormalPts$ 
+* $SmoothMfd \longleftarrow FormalSmoothMfd \hookleftarrow FormalPts$ 
 
-* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \hookleftarrow FormalPts$ 
+* $ComplexAnalyticMfd \longleftarrow FormalComplexAnalyticMfd \hookleftarrow FormalPts$ 
 
 where $FormalPts$ is the site of [[infinitesimally thickened points]] with the trivial topology;
  
