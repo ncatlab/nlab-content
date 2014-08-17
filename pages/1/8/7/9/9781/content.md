@@ -5,9 +5,9 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
 =--
 #### Manifolds and cobordisms
 +--{: .hide}
@@ -22,7 +22,9 @@
 
 ## Idea
 
-There are various ways to set up differentiation in finite dimensions, the most common being the *total derivative* and the *directional derivatives*.  In infinite dimensions, these become the *Fr&#233;chet derivative* and the *[[Gâteaux derivative]]* respectively.
+The _Fr&#233;chet derivative_ is a kind of [[functional derivative]].
+
+There are various ways to set up [[differentiation]] in finite dimensions, the most common being the *total derivative* and the *directional derivatives*.  In [[infinite-dimensional manifold|infinite dimensions]], these become the *Fr&#233;chet derivative* and the *[[Gâteaux derivative]]* respectively.
 
 The definition of the **Fr&#233;chet derivative** of a function is a generalisation of the notion of the *total derivative* of a function in finite dimensions.  In finite dimensions, the total derivative of a function $f \colon \mathbb{R}^n \to \mathbb{R}$ at a point $x \in \mathbb{R}^n$ is defined to be (assuming that it exists) the unique linear operator $D f_x \colon \mathbb{R}^n \to \mathbb{R}$ such that:
 
