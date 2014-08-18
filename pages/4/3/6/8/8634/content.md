@@ -24,6 +24,8 @@ See also _[[commutative localization]]_ and _[[localization of a ring]] (noncomm
 
 ## Definition
 
+### For commutative rings
+
 Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[multiplicative subset]] of the underlying [[set]].
 
 The following gives the [[universal property]] of the localization.
@@ -73,6 +75,12 @@ $$
 The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of the localization maps $R \longrightarrow R[S^{-1}]$ (under forming [[spectrum of a commutative ring|spectra]]) serve as the standard [[open immersion of schemes|open immersions]] that define the [[Zariski topology]] on [[algebraic varieties]].
 
 =--
+
+### For $E_\infty$-rings
+ {#ForEInfinityRings}
+
+(...) By the lifting property of etale morphisms for $E_\infty$-rings, see [here](&#233;tale+morphism+of+E-∞+rings#LocalizationOfRings). (...)
+
 
 ## Examples
 
