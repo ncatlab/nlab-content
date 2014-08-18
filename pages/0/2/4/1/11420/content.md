@@ -110,6 +110,7 @@ The phenonemon of example \ref{AtiyahSegalTheorem} appears for other [[generaliz
 
 ## Properties
 
+
 ### Relation of formal completion to torsion approximation
  {#RelationToTorsionApproximation}
 
@@ -150,6 +151,10 @@ Discussion of the [[derived functor]] of adic completion ("Greenless-May duality
 * {#PortaShaulYekutieli10} Marco Porta, Liran Shaul, [[Amnon Yekutieli]], _On the Homology of Completion and Torsion_ ([arXiv:1010.4386](http://arxiv.org/abs/1010.4386))
 
 for more on this see also at _[fracture theorem -- Arithmetic fracturing for chain complexes](http://ncatlab.org/nlab/show/fracture+theorem#CompletionAndTorsionOnDerivedCategories)_
+
+Discussion of interrelation between completion and [[etale morphisms]] is in 
+
+* Leovigildo Alonso, Ana Jeremias, Marta Perez, _Local structure theorems for smooth maps of formal schemes_ ([arXiv:math/0605115](http://arxiv.org/abs/math/0605115))
 
 [[!redirects completion of a ring]]
 [[!redirects completion of rings]]
