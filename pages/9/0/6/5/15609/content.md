@@ -33,7 +33,7 @@ In particular the [[formal completion]] or _adic completion_ of a ring $A$ at an
 
 ### For modules over a commutative ring
 
-+-- {: .num_defn}
++-- {: .num_defn #TraditionalDefinition}
 ###### Definition
 
 For $A$ a [[commutative ring]], $\mathfrak{a} \subset A$ an ideal in $A$ and for $N$ an $A$-[[module]], then the _$\mathfrak{a}$-adic completion_ or _formal completion at $\mathfrak{a}$_ of $N$ is the [[filtered limit]]
@@ -110,6 +110,16 @@ is called _$\mathfrak{a}$-completion_.
 
 ([Lurie "Completions", def. 4.2.1, lemma 4.2.2](#LurieCompletions)).
 
+Definition \ref{InfinityCompletion} relates to the traditional definition, def. \ref{TraditionalDefinition}, as follows
+
++-- {: .num_prop}
+###### Proposition
+
+Let $N$ a homotopically discrete [[∞-module]] over the [[E-∞ ring]] $A$ which is a [[Noetherian module]] in that all its submodules are finitely [[generators and relations|finitely generated]]. Then the $\mathfrak{a}$-completion of $N$ in the sense of def. \ref{InfinityCompletion} coincides with the traditional definition def. \ref{TraditionalDefinition}.
+
+=--
+
+([Lurie "Completions", prop. 4.3.6](#LurieCompletions))
 
 
 ## Properties
