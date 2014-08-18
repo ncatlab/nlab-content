@@ -12,7 +12,6 @@
 =--
 =--
 =--
-=--
 
 
 #Contents#
@@ -38,6 +37,10 @@ An &#233;tale map between [[smooth spaces]] is a  [[local diffeomorphisms]], whi
 For an &#233;tale map between [[schemes]] see _[[étale morphism of schemes]]_.
 
 Restricted to [[affine schemes]], this yields, [[Isbell duality|dually]], a notion of &#233;tale morphisms between [[rings]]. &#201;tale maps between noncommutative [[rings]] have also been considered.
+
+### Between $E_\infty$-rings
+
+* [[étale morphism of E-∞ rings]]
 
 
 ### Between analytic spaces
