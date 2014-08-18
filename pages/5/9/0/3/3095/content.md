@@ -41,6 +41,7 @@ The connection to biclosed monoidal categories is made explicit in:
 
 ## Related Concepts
 
+* [[syntax]], [[semantics]]
 * [[categorial grammar]]
 * [[lambda calculus]]
 * [[type theory]]
