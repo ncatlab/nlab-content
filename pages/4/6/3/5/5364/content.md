@@ -36,7 +36,7 @@ Its underlying [[(∞,1)-category]] is the [[opposite (∞,1)-category]] $sCAlg_
 
 Let $k$ be a commutative ring. Let $T$ be the [[Lawvere theory]] of commutative [[associative algebra]]s over $k$. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let 
@@ -49,7 +49,7 @@ be the [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|�
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $sCAlg_k = (T Alg)^{\Delta^{op}}$ be the [[sSet]]-[[enriched category]] of [[simplicial algebra|simplicial commutative associative k-algebras]] equipped with the standard [[model structure on simplicial T-algebras]]. Write $sCAlg_k^\circ$ for the $(\infty,1)$-category [[presentable (∞,1)-category]]. Then we have an [[equivalence of (∞,1)-categories]]
@@ -63,7 +63,7 @@ $$
 
 This is a special case of the general statement discussed at [[(∞,1)-algebraic theory]]. See also ([Lurie, remark 4.1.2](#Lurie)).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Notation
 
 
@@ -169,6 +169,8 @@ This is ([Lurie, prop. 4.3.15](#Lurie)).
 ## Related concepts
 
 * [[étale morphism]], [[étale site]], [[étale cohomology]]
+
+* [[étale morphism of E-∞ rings]]
 
 * **&#233;tale $(\infty,1)$-site**
 
