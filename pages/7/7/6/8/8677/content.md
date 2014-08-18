@@ -39,6 +39,8 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
+### Ordinary
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -68,6 +70,10 @@ $$
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
+
+### For $E_k$-rings
+
+(...) By the lifting property of etale morphisms for $E_k$-rings, see [here](&#233;tale+morphism+of+E-∞+rings#LocalizationOfRings). (...)
 
 ## Properties
 
@@ -111,6 +117,9 @@ Further reviews include
 
 Discussion of the general concept in [[noncommutative geometry]] is in
 
-* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
+* [[Zoran ?koda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
 
 [[!redirects localizations of a ring]]
+
+[[!redirects localization of rings]]
+[[!redirects localizations of rings]]
