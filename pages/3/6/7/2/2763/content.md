@@ -48,7 +48,7 @@ $$
 
 where on the left we have maps of [[structured (∞,1)-toposes]] and on the right the [[∞-groupoid]] of derived elliptic curves over $A$.
 
-This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
+This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]). An ingredient in the proof is the [essential uniqueness of lifts of etale morphisms](&#233;tale+morphism+of+E-∞+rings#EssentiallyUniqueLiftsFromOrdinaryRings) from commutative rings to $E_\infty$-rings.
 
 
 ## References
