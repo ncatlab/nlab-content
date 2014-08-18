@@ -5,7 +5,14 @@
 
 ## Definition
 
-(...)
++-- {: .num_defn}
+###### Definition
+
+A morphism $f \colon \mathbf{A} \to \mathbf{B}$ of [[E-∞ rings]] is an _ _&#233;tale morphism_ if the underlying homomorphism of [[commutative rings]] $\pi_0 f\colon \pi_0 \mathbf{A}\to \pi_0 \mathbf{B}$ is an [[étale morphism]] or rings.
+
+=--
+
+([Lurie, def.8.5.0.4](#Lurie))
 
 ## Properties
 
