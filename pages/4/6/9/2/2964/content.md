@@ -1,17 +1,28 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorification
++-- {: .hide}
 [[!include categorification - contents]]
-</div>
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 
- * automatic table of contents goes here
- {:toc}
+#Contents#
+* table of contents
+{:toc}
+
+## General case
+
+On this page, we explain a connection between [[decategorification]] and [[degroupoidification]], which appears when one considers [[groupoids internal]] to [[scheme]]s.  One can construct a category of sheaves attached to such a groupoid, and a sequence of finite groups, given by points over a [[finite field]].  This connection has been exploited quite widely within [[arithmetic geometry]], but has not really been stated in the context of categorification.
 
 
-#General case
-
-On this page, we explain a connection between [[decategorification]] and [[degroupoidification]], which appears when one considers [[groupoids internal]] to [[scheme]]s.  One can construct a category of sheaves attached to such a groupoid, and a sequence of finite groups, given by points over a [[finite field]].  This connection has been exploited quite widely within arithmetic geometry, but has not really been stated in the context of categorification.
-
-
-##Basic data
+### Basic data
 
 Let $X\rightrightarrows Y$ be a groupoid internal to the category of schemes ($Y$ is the scheme of [[object]]s and $X$ the scheme of [[morphism]]s) where both schemes are of finite type.
 
@@ -26,7 +37,7 @@ Then we can make two constructions from this scheme:
   * More generally, but for this notational clash, $Y//X$ could denote the nerve. Another option is $\mathcal{N}Y$, where $Y$ denotes the whole groupoid, rather than just the scheme of arrows.
 
 
-##Linearization, and the function sheaf correspondence
+### Linearization, and the function sheaf correspondence
 
 The latter construction can be "linearized" in an analogous way to [[geometric function theory]], except using the [[constructible derived category|derived category of sheaves with finite rank constructible cohomology]] with coefficients in the $\ell$-[[adic number|adics]] $\mathbb{Q}_\ell$ for some prime $\ell$ of $N(X\rightrightarrows Y)$.  Let $D(N(X\rightrightarrows Y))$ denote this category.  In fact, we will require the graded version of this category, provided by [[mixed sheaf|mixed sheaves]].  We denote this graded category $D_{mix}(N(X\rightrightarrows Y))$  
 
@@ -43,7 +54,7 @@ Furthermore, there is an induced span of groupoids on this set of $\mathbb{F}_q$
 
 The content of the [[Grothendieck trace formula]] connects these two constructions. 
 
-+--{: .un_theorem}
++--{: .num_theorem}
 ###### Theorem
 
 The functor  $g_!f^*:D_{mix}(N(X_1\rightrightarrows Y_1))\to D_{mix}(N(X_1\rightrightarrows Y_1))$ induces a map $(gf)_\dagger:K^0(D_{mix}(N(X_1\rightrightarrows Y_1)))\to K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))$ such that the diagram
@@ -66,10 +77,10 @@ The [[decategorification]] of the mixed derived category and [[degroupoidificati
 We note that in many examples of geometric [[categorification]], the fact that the decategorification is correct is checked by   understanding the degroupoidification  and using this theorem, though it is typically not stated this explicitly.
 
 
-#Examples
+## Examples
 Since all groupoids appearing below are action groupoids, I'll denote them $X/G$ in place of $G\times X\rightrightarrows X$.
 
-##The Hecke algebra
+### The Hecke algebra
 
 If one takes the span of groupoids 
 $$\array{B\backslash G/B &&&&\\
@@ -80,17 +91,17 @@ B\backslash G/B &&&&\\}$$
 over the action groupoid for $B\times B$ acting on the left and right on $G$ for a simple algebraic group, then the resulting monoidal category is the [[Hecke category]] of G.  Its decategorification is the [[Hecke algebra]] of G, which is checked by showing the Hecke algebra is groupoidified 
 by the F_q points of this, a result which was proved [Iwahori in 1964](http://www.ams.org/mathscinet-getitem?mr=165016).
 
-##Geometric Satake
+### Geometric Satake
 
 Considers the groupoid given by the action of $G(\mathbb{Z}[t])\times G(\mathbb{Z}[t])$ on the left and right on $G(\mathbb{Z}(t))$ considered as as pro-ind-schemes over $\mathbb{Z}$.  The derived category of this groupoid scheme is monoidal by the analogous diagram to that above.
 
 The groupoidification of the $\mathbb{F}_q$ points was shown by Satake to be the representation ring
-of ${^L G}$, the Langlands dual group.  Thus, $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t)/ G(\mathbb{Z}[t])$ also contains a categorification of the representation ring of ${^L G}$.  
+of ${^L G}$, the [[Langlands dual group]].  Thus, $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t)/ G(\mathbb{Z}[t])$ also contains a categorification of the representation ring of ${^L G}$.  
 
 In fact, Mirkovi&#263; and Vilonen showed that the subcategory of $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t))/ G(\mathbb{Z}[t])$ consisting of perverse sheaves is equivalent to the category of representations of ${^L G}\times_{\mathrm{Spec}\mathbb{Z}} \mathrm{Spec}\overline{\mathbb{Q}_\ell}$ as an algebraic group.  In fact, if one replaces $\mathbb{Q}_\ell$ by any other ring both in the coefficient of the sheaves, and the base of the algebraic group, the result still holds.
 
 
-##The Hall algebra and Lusztig's categorification
+### The Hall algebra and Lusztig's categorification
 
 If one takes the groupoid of representations of a Dynkin quiver with fixed dimension vector and basis $E_d$ (with each vector only having components over one dot), with the morphisms given by isomorphisms of representations (note, this is the action groupoid for a product of general linear groups $GL_d$ acting on a finite dimensional vector space), the resulting simplicial scheme is the fine moduli space of representations of that quiver.
 
@@ -107,3 +118,8 @@ where the span in the middle is the set of short exact sequences of representati
 It was proved by Ringel that the $\mathbb{F}_q$ points of this variety groupoidify the upper half of the quantum group (of course, not in that language).  The natural resulting categorification was described by Lusztig and used to construct the canonical basis of $U_q(\mathfrak{g})$ where $ \mathfrak{g}$ is the simple Lie algebra associated to this quiver.
 
 This categorification was described independently by Rouquier and Khovanov--Lauda combinatorially.
+
+## References
+
+* Wikipedia, _[Satake isomorphism](http://en.wikipedia.org/wiki/Satake_isomorphism)_
+
