@@ -41,6 +41,12 @@ In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinar
 
 * [[logarithmic cohomology operation]]
 
+* [[étale morphism of E-∞ rings]]
+
+* [[higher algebra]]
+
+* [[E-∞ arithmetic geometry]]
+
 [[!include k-monoidal table]]
 
 
