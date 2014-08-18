@@ -24,7 +24,7 @@
 
 * ([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]) 
 
-  $(Red \dashv &#643;_{inf} \dashv \flat_{inf})$
+  $(\Re \dashv &#643;_{inf} \dashv \flat_{inf})$
 
   * [[reduced object]], [[coreduced object]], [[formally smooth object]]
 
