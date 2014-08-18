@@ -61,7 +61,7 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 
    1. [[locally of finite presentation]]
 
-=---
+=--
 
 (A number of other equivalent definitions are listed at [wikipedia](http://en.wikipedia.org/wiki/Etale_morphism).)  
 
@@ -299,9 +299,12 @@ Now by the [[universal property]] of the [[localization of a commutative ring|lo
 
   * [[étale (∞,1)-site]]
 
+  * [[étale morphism of E-∞ rings]]
+
 ## References
 
 The classical references are
+
 
 * [[Pierre Deligne]] et al., _Cohomologie &#233;tale_ , Lecture Notes in Mathematics, no. 569, Springer-Verlag, 1977.
 {#Deligne}
