@@ -36,6 +36,8 @@ More recently all the ingredients of a proof that this is indeed equivalently th
 
 > under construction
 
+There are plenty of technical details involved in the quantization of Chern-Simons theory and all that is subsumed by it (such as the [[Wilson loop]] [[quantum observables]] and the [[Jones polynomial]] [[knot invariants]] they gives rise to, and such as the [[WZW model]], its [[modular functor]] and the [[equivariant elliptic cohomology]] that it induces), but there is also a neat general story controlling it. Here we try to sketch that general story at a rough level in order to provide orientation.
+
 ### Space of Chern-Simons quantum states 
 
 Chern-Simons [[action functional]]
@@ -83,13 +85,12 @@ $$
   \Sigma_n \mapsto \mathcal{H}_{\Sigma}
 $$
 
-natural in [[diffeomorphisms]] of $\Sigma$ is called the _[[modular functor]]_.
+natural in [[diffeomorphisms]] of $\Sigma$ is called the _[[modular functor]]_, this we focus on more [below](#ModularFunctorAndEquivariantEllipticCohomology)
 
-Side remark: discussion of [[equivariant elliptic cohomology]] (see there ar _[interpretation in QFT](equivariant+elliptic+cohomology#InterpretationInQuantumFieldTheory)_) says that this construction refines from equipping $\Sigma$ with [[complex structure]] to equipping it with [[arithmetic geometry|arithmetic structure]]. Hence for $\Sigma$ a [[torus]] it refines from structures of [[elliptic curves]] over the complex numbers to general arithmetic elliptic curves (over the [[integers]]) and in fact to [[derived elliptic curves]] (over the [[sphere spectrum]]). Hence eventually the theory of [[geometric quantization]] needs to be refined to admit [[polarizations]] in [[arithmetic geometry]]. See at _[[differential cohesion and idelic structure]]_ for more on this.
 
 One such section $\Psi$ is to be singled out. For instance if $\exp(\tfrac{i}{\hbar}S(\Sigma_n))$ is a [[theta characteristic]] then there is up to scale a unique holomorphic section. This singling-out is formalized by the [[FRS-formalism]]. See there for more.
 
-### Space of WZW pre-correlators
+### Space of WZW-model pre-correlators 
 
 Under the [[AdS3-CFT2 and CS-WZW correspondence]] the states of Chern-Simons theory also correspond to [[partition functions]] of the [[gauged WZW model]] and hence to [[generating functions]] for [[correlation functions]] of the actual [[WZW model]].
 
@@ -111,7 +112,7 @@ $$
   \frac{\delta}{\delta A^{a_n}(z_n)}
   \Psi
   =
-  \langle J^{a_1}(z_1) \cdots J^{a_n}(z_n) \rangle
+  \left\langle J^{a_1}(z_1) \cdots J^{a_n}(z_n) \right\rangle
 $$
 
 =--
@@ -120,6 +121,11 @@ with respect to the Chern-Simons-[[field (physics)|fields]], hence the WZW [[sou
 
 
 (e.g. [Gaw&#281;dzki 99 (4.23), 5.1](#Gawedzki99))
+
+### Modular functor and equivariant elliptic cohomology
+ {#ModularFunctorAndEquivariantEllipticCohomology}
+
+Side remark: discussion of [[equivariant elliptic cohomology]] (see there ar _[interpretation in QFT](equivariant+elliptic+cohomology#InterpretationInQuantumFieldTheory)_) says that this construction refines from equipping $\Sigma$ with [[complex structure]] to equipping it with [[arithmetic geometry|arithmetic structure]]. Hence for $\Sigma$ a [[torus]] it refines from structures of [[elliptic curves]] over the complex numbers to general arithmetic elliptic curves (over the [[integers]]) and in fact to [[derived elliptic curves]] (over the [[sphere spectrum]]). Hence eventually the theory of [[geometric quantization]] needs to be refined to admit [[polarizations]] in [[arithmetic geometry]]. See at _[[differential cohesion and idelic structure]]_ for more on this.
 
 
 
