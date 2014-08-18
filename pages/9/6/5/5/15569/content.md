@@ -540,7 +540,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For any unstable [[cohesive homotopy type]] $X \in \mathbh{H} \hookrightarrow T \mathbf{H}$ the [[mapping stack]]
+For any unstable [[cohesive homotopy type]] $X \in \mathbf{H} \hookrightarrow T \mathbf{H}$ the [[mapping stack]]
 
 $$
   [X,\hat E//Aut(\hat E)]
@@ -575,7 +575,7 @@ Let $S_{reduced} \longleftarrow S \longleftarrow S_{infinitesimal}$ be one of th
 
 where $FormalPts$ is the site of [[infinitesimally thickened points]] with the trivial topology;
  
-Under forming [[hypercomplete (∞,1)-topos|hypercomple]] [[(∞,1)-sheaf (∞,1)-topos]] this yields
+Under forming [[hypercomplete (∞,1)-topos|hypercomplete]] [[(∞,1)-sheaf (∞,1)-topos]] this yields
 
 $$ 
   \array{
