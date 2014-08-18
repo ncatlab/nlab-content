@@ -39,7 +39,7 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
-### Ordinary
+### For noncommutative rings
 
 +-- {: .num_defn }
 ###### Definition
@@ -70,6 +70,11 @@ $$
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
+
+
+### For commutative rings
+
+See _[[localization of a commutative ring]]_.
 
 ### For $E_k$-rings
 
