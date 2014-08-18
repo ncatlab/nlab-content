@@ -71,7 +71,7 @@ As the complex structure $\mathbf{\Sigma}_n$ on $\Sigma_n$ varies over the [[mod
 
 $$
   \array{
-    \mathcal{H}_{\Sigma}
+    \mathcal{H}
     \\
     \downarrow
     \\
@@ -144,6 +144,8 @@ Side remark: discussion of [[equivariant elliptic cohomology]] (see there ar _[i
 ## References
 
 Basics are recalled for instance in
+
+* Fernando Falceto, [[Krzysztof Gaw?dzki]], _Chern-Simons States at Genus One_, Commun.Math.Phys. 159 (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
 
 * {#Gawedzki99} [[Krzysztof Gaw?dzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
