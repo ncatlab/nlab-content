@@ -63,7 +63,7 @@ An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-torsion module_ if for all eleme
 
 =--
 
-([Lurie "Completions", def. 4.1.n3](#LurieCompletions)).
+([Lurie "Completions", def. 4.1.3](#LurieCompletions)).
 
 +-- {: .num_defn #LocalInfinityModule}
 ###### Definition
@@ -80,6 +80,26 @@ is contractible.
 
 ([Lurie "Completions", def. 4.1.9](#LurieCompletions)).
 
++-- {: .num_prop #LocalizationAwayByColimit}
+###### Proposition
+
+For $\mathfrak{a} = (a)$ generated from a single element, then the localization map $A \to A[a^{-1}]$ is given by the [[(∞,1)-colimit]] over the sequence of right-multiplication with $a$
+
+$$
+  A[a^{-1}]
+  \simeq
+  \underset{\rightarrow}{\lim}
+  (
+    A \stackrel{\cdot a}{\longrightarrow} A
+    \stackrel{\cdot a}{\longrightarrow} A
+    \stackrel{\cdot a}{\longrightarrow}  \cdots
+  )
+  \,.
+$$
+
+=--
+
+([Lurie "Completions", remark 4.1.11](#LurieCompletions))
 
 +-- {: .num_defn #InfinityCompletion}
 ###### Definition/Proposition
@@ -123,6 +143,12 @@ Let $N$ a homotopically discrete [[∞-module]] over the [[E-∞ ring]] $A$ whic
 
 
 ## Properties
+
+### General properties
+
+The [[full sub-(∞,1)-category]] $A Mod_{\mathfrak{a} comp}$ is a [[locally presentable (∞,1)-category]].
+
+([Lurie "Completions", prop. 4.1.17](#LurieCompletions))
 
 ### Monoidalness
  {#Monoidalness}
@@ -182,11 +208,25 @@ The completion reflection $\flat_{\mathfrak{a}}$, def. \ref{InfinityCompletion},
 ([Lurie "Completions", remark 4.2.6](#LurieCompletions)).
 
 
+### Relation to localization
+
+The [[homotopy cofiber]] of $\mathfrak{a}$-completion $\Pi_{\mathfrak{a}}$ is [[localization of a module|localization]] away from $\mathfrak{a}$, in that there is a [[homotopy fiber sequence]]
+
+$$
+  (-)_{\mathfrak{a}}^{\wedge} \to id \to (-)[\mathfrak{a}^{-1}]
+$$
+
+with the completion functor of def. \ref{InfinityCompletion} on the left and the localization functor of prop. \ref{LocalizationAwayByColimit} on the right.
+
+([Lurie "Completions", example 4.1.14, remark 4.1.20](#LurieCompletions))
+
 ### Relation of formal completion to torsion approximation
  {#RelationToTorsionApproximation}
 
 For suitable ideals $\mathfrak{a}\subset A$ of a commutative ring $A$ or more generally of an [[E-∞ ring]], then the [[derived functor]] of $\mathfrak{a}$-adic [[completion of a module|completion of A-modules]] forms together with $\mathfrak{a}$-[[torsion approximation]] an [[adjoint modality]] on the  
 [[(∞,1)-category of modules]] over $A$. See at _[[fracture square]]_ for details.
+
+[[!include arithmetic cohesion -- table]]
 
 
 ## References
