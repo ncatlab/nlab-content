@@ -22,6 +22,8 @@ When $R$ is a [[commutative ring]] of functions, and under the [interpretation o
 
 ## Definition
 
+### For modules over rings
+
 For $R$ a (possibly noncommutative) unital ring, let $\mathcal{A} = R$[[Mod]] be the [[category]] $R$-[[modules]]. Here $R$ may be the [[structure sheaf]] of some [[ringed topos]] and accordingly the modules may be [[sheaves of modules]].
 
 Consider a [[reflective localization]] functor 
@@ -36,8 +38,85 @@ The __localization map__ is the component of the [[unit of an adjunction|unit of
 
 Depending on an author or a context, we say that a (reflective) localization functor of category of modules is __flat__ if either $Q^*$ is also left [[exact functor]], or more strongly that the composed endofunctor $Q_* Q^*$ is exact. For example, [[Gabriel localization]] is flat in the first, weak sense, and left or right Ore localization is flat in the second, stronger, sense. 
 
+### For $\infty$-modules over $E_\infty$-rings
+
+Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators and relations|finitely generated]] ideal of its underlying [[commutative ring]]. 
+
++-- {: .num_defn #LocalInfinityModule}
+###### Definition
+
+An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-local module_ if for every $\mathfrak{a}$-[[torsion module]] $T$ (def. \ref{TorsionInfinityModule}), the [[derived hom space]]
+
+$$
+ Hom_A(T,N) \simeq \ast
+$$
+
+is contractible.
+
+=--
+
+([Lurie "Completions", def. 4.1.9](#LurieCompletions)).
+
++-- {: .num_prop #LocalizationAwayByColimit}
+###### Proposition
+
+For $\mathfrak{a} = (a)$ generated from a single element, then the [localization of an (∞,1)-ring](localization+of+a+commutative+ring#ForEInfinityRings)-map $A \to A[a^{-1}]$ is given by the [[(∞,1)-colimit]] over the sequence of right-multiplication with $a$
+
+$$
+  A[a^{-1}]
+  \simeq
+  \underset{\rightarrow}{\lim}
+  (
+    A \stackrel{\cdot a}{\longrightarrow} A
+    \stackrel{\cdot a}{\longrightarrow} A
+    \stackrel{\cdot a}{\longrightarrow}  \cdots
+  )
+  \,.
+$$
+
+=--
+
+([Lurie "Completions", remark 4.1.11](#LurieCompletions))
+
++-- {: .num_prop}
+###### Proposition
+
+The [[full sub-(∞,1)-category]]
+
+
+$$
+  A Mod_{\mathfrak{a}loc}
+  \hookrightarrow
+  A Mod
+$$
+
+of [[∞-modules]] [[localization of a module|local]] away from $\mathfrak{a}$ is [[reflective sub-(∞,1)-category|reflective]]. The reflector
+
+
+$$
+  \Pi_{\mathfrak{a}dR} \colon A Mod \longrightarrow A Mod_{\mathfrak{a}loc}
+$$
+
+is called _localization_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[natural transformation|natural]] [[homotopy fiber sequence]]
+
+$$
+  &#643;_{\mathfrak{a}} \longrightarrow id \longrightarrow &#643;_{\mathfrak{a}dR}
+$$
+
+relating $\mathfrak{a}$-[[torsion approximation]] on the left with $\mathfrak{a}$-localization on the right.
+
+=--
 
 ## Properties
+
+### Eilenberg-Watts theorem
 
 By the [[Eilenberg-Watts theorem]], if $\mathcal{A}= R$[[Mod]] then the localization of a module
 
@@ -58,6 +137,9 @@ is given by [[extension of scalars]] along the localization map $R \to S^{-1}R$ 
 
 In these cases there are also direct constructions of $Q^*(M)$ (not using to $Q^*(R)$) which give an isomorphic result, also denoted by $S^{-1}M$. 
 
+### Relation with torsion approximation and completion
+
+[[!include arithmetic cohesion -- table]]
 
 ## Related concepts
 
@@ -77,7 +159,11 @@ Standard discussion over [[commutative rings]] is for instance in
 
 Discussion in the general case of [[noncommutative geometry]] is in
 
-* [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
+* [[Z. ?koda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
+
+Discussion in the context of [[higher algebra]] is in 
+
+* {#LurieCompletions} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
 [[!redirects localizations of a module]]
 [[!redirects localizations of modules]]
