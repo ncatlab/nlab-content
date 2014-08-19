@@ -81,6 +81,7 @@ We note that in many examples of geometric [[categorification]], the fact that t
 Since all groupoids appearing below are action groupoids, I'll denote them $X/G$ in place of $G\times X\rightrightarrows X$.
 
 ### The Hecke algebra
+ {#TheHeckeAlgebra}
 
 If one takes the span of groupoids 
 $$\array{B\backslash G/B &&&&\\
@@ -92,13 +93,14 @@ over the action groupoid for $B\times B$ acting on the left and right on $G$ for
 by the F_q points of this, a result which was proved [Iwahori in 1964](http://www.ams.org/mathscinet-getitem?mr=165016).
 
 ### Geometric Satake
+ {#GeometricSatake}
 
-Considers the groupoid given by the action of $G(\mathbb{Z}[t])\times G(\mathbb{Z}[t])$ on the left and right on $G(\mathbb{Z}(t))$ considered as as pro-ind-schemes over $\mathbb{Z}$.  The derived category of this groupoid scheme is monoidal by the analogous diagram to that above.
+Consider the groupoid given by the [[action]] of $G(\mathbb{Z}[t])\times G(\mathbb{Z}[t])$ (for $\mathbb{Z}[t]$ the [[polynomial ring]]) on the left and right on $G(\mathbb{Z}(t))$ considered as as [[pro-object|pro-]][[formal schemes|ind-schemes]] over $\mathbb{Z}$.  The [[derived category]] of this groupoid scheme is monoidal by the analogous diagram to that [above](#TheHeckeAlgebra).
 
-The groupoidification of the $\mathbb{F}_q$ points was shown by Satake to be the representation ring
+The groupoidification of the $\mathbb{F}_q$ points was shown by Satake (see at _[[Satake equivalence]]_) to be the [[representation ring]]
 of ${^L G}$, the [[Langlands dual group]].  Thus, $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t)/ G(\mathbb{Z}[t])$ also contains a categorification of the representation ring of ${^L G}$.  
 
-In fact, Mirkovi&#263; and Vilonen showed that the subcategory of $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t))/ G(\mathbb{Z}[t])$ consisting of perverse sheaves is equivalent to the category of representations of ${^L G}\times_{\mathrm{Spec}\mathbb{Z}} \mathrm{Spec}\overline{\mathbb{Q}_\ell}$ as an algebraic group.  In fact, if one replaces $\mathbb{Q}_\ell$ by any other ring both in the coefficient of the sheaves, and the base of the algebraic group, the result still holds.
+In fact, Mirkovi&#263; and Vilonen showed that the subcategory of $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t))/ G(\mathbb{Z}[t])$ consisting of [[perverse sheaves]] is equivalent to the category of representations of ${^L G}\times_{\mathrm{Spec}\mathbb{Z}} \mathrm{Spec}\overline{\mathbb{Q}_\ell}$ as an [[algebraic group]].  Moreover, if one replaces $\mathbb{Q}_\ell$ by any other ring both in the [[coefficient]] of the sheaves, and the base of the algebraic group, the result still holds.
 
 
 ### The Hall algebra and Lusztig's categorification
