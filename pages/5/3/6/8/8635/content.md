@@ -38,6 +38,88 @@ The __localization map__ is the component of the [[unit of an adjunction|unit of
 
 Depending on an author or a context, we say that a (reflective) localization functor of category of modules is __flat__ if either $Q^*$ is also left [[exact functor]], or more strongly that the composed endofunctor $Q_* Q^*$ is exact. For example, [[Gabriel localization]] is flat in the first, weak sense, and left or right Ore localization is flat in the second, stronger, sense. 
 
+### For chain complexes
+
+... Greenlees-May duality...
+
+### For spectra ($\mathbb{S}$-modules)
+ {#ForSpectra}
+
+
++-- {: .num_prop}
+###### Claim
+
+Suppose that $L \colon Spectra \to Spectra$ is a [[smashing localization]] given by [[smash product]] with some [[spectrum]] $T$. Write $F$ for the [[homotopy fiber]]
+
+$$
+  F \longrightarrow \mathbb{S} \longrightarrow T
+  \,.
+$$
+
+Then there is a [[fracture diagram]] of operations
+
+$$
+  \array{
+    T \wedge (-) && \longleftarrow  &&  [T,-]
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && \mathbb{S}
+    \\
+    & \swarrow & & \nwarrow
+    \\
+    [F,-] && \longleftarrow && F \wedge (-)
+  }
+$$
+
+where $[F,-]$ and $T \wedge (-) \colon Spectr \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $[F,-]$ are idempotent $\infty$-comonad, the diagonals are [[homotopy fiber sequences]].
+
+=--
+
+([[Charles Rezk]], [MO comment,August 2014](http://mathoverflow.net/a/178316/381))
+
++-- {: .num_example}
+###### Example
+
+For $T = S \mathbb{Z}[p^{-1}]$ the [[Moore spectrum]] of the [[integers]] [[localization of a ring|localized away from]] $p$, then 
+
+$$
+  F = \Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z})
+   \to 
+  \mathbb{S}
+   \to
+  S \mathbb{Z}[p^{-1}]
+$$
+
+and hence
+
+* $\Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z}) \wedge (-)$ is $p$-[[torsion approximation]];
+
+* $[\Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z}),-]$ is $p$-[[completion of a module|completion]];
+
+* $S \mathbb{Z}[p^{-1}] \wedge (-)$ is localization away from $p$ ($p$-[[rationalization]])
+
+* $[T,-]$ is forming $p$-[[adic residual]].
+
+$$
+  \array{
+    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;adic\;residual
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    && && X &&  &&  
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && formal\;completion\;at\;\mathfrak{a}\; && \longrightarrow && \mathfrak{a}\;torsion\;approximation
+  }
+  \,,
+$$
+
+=--
+
+With ([Bousfield 79, prop.2.5](#Bousfield79))
+
 ### For $\infty$-modules over $E_\infty$-rings
 
 Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators and relations|finitely generated]] ideal of its underlying [[commutative ring]]. 
@@ -161,7 +243,17 @@ Discussion in the general case of [[noncommutative geometry]] is in
 
 * [[Z. ?koda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
 
+Discussion in the context of [[spectra]] originates in
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
+* {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
+by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf)) 
+
 Discussion in the context of [[higher algebra]] is in 
+
 
 * {#LurieCompletions} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
