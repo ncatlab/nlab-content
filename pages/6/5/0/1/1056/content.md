@@ -70,6 +70,11 @@ A useful review of the Thomason model structure and a generalization of the mode
 
 * Thomas M. Fiore, [[Simona Paoli]], _A Thomason Model Structure on the Category of Small n-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
 
+The following article gives a large class of categories which are [[fibrant]] in the Thomason model structure.
+
+* [[Lennart Meier]], [[Viktoriya Ozornova]], _Fibrancy of partial model categories_,
+[pdf](http://people.virginia.edu/~flm5z/PartialModCats.pdf), [slides](http://people.virginia.edu/~flm5z/Kopenhagen2014.pdf).
+
 The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
 
 * [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
