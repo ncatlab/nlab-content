@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Rngs
 * table of contents
 {: toc}
@@ -18,11 +17,13 @@
 
 A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without identity' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
 
-## Definition
+
+## Definitions
 
 ### Explicit definition
 
-Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that
+Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that:
+
 *  $R$ is a [[semigroup]] under multiplication;
 *  $R$ is an [[abelian group]] under addition;
 *  multiplication distributes over addition.
@@ -32,20 +33,23 @@ Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multipl
 
 More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[Ab]], so a rng is a [[semigroup]] object in $Ab$.
 
+
 ## Related concepts
 
 * [[unitisation of C*-algebras]]
 
 * [[rig]]
 
+
 ## References
  {#References}
 
 ### Nonunital ring theory
 
-A survey of commutative rng-theory is in 
+A survey of commutative rng theory is in 
 
 * D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
+
 
 ### Terminology
 
@@ -66,7 +70,3 @@ where the term is attributed to Louis Rowen.
 
 [[!redirects non-unital ring]]
 [[!redirects non-unital rings]]
-
-[[!redirects non-unital ring]]
-[[!redirects non-unital rings]]
-
