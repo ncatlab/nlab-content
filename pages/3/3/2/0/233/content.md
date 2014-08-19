@@ -46,9 +46,9 @@ A classical situation where this correspondence holds precisely is [[topology]],
 
 In fact, as this example already shows, modules faithfully subsume vector bundles, but are in fact more general. In many contexts one regard modules as the canonical generalization of the notion of vector bundles, with better formal properties.
 
-This identification of vector bundles with $R$-modules being the spaces of sections of a vector bundle on the space whose ring of functions is $R$ is can then taken as the very _definition_: notably in [[algebraic geometry]] Gelfand duality is taken to "hold by definition" in that an [[algebraic variety]] is essentially by defintion the formal dual of a given ring, and the Serre-Swan theore similarly becomes the statement that the space of section of a vector bundle over a variety is equivalently given by a module over that ring. (See also at [[quasicoherent module]] for more on this).
+This identification of vector bundles with $R$-modules being the spaces of sections of a vector bundle on the space whose ring of functions is $R$ can be taken then as the very _definition_: notably in [[algebraic geometry]] Gelfand duality is taken to "hold by definition" in that an [[algebraic variety]] is essentially by definition the formal dual of a given ring, and the Serre-Swan theorem similarly becomes the statement that the space of sections of a vector bundle over a variety is equivalently given by a module over that ring. (See also at [[quasicoherent module]] for more on this.)
 
-This [[Isbell duality|duality]] between geometry and algebra allows to re-interpret many statement about modules in terms of vector bundles. For instance 
+This [[Isbell duality|duality]] between geometry and algebra allows us to re-interpret many statement about modules in terms of vector bundles. For instance 
 
 * the [[direct sum]] of modules corresponds to fiberwise direct sum of vector bundles;
 
@@ -56,7 +56,7 @@ This [[Isbell duality|duality]] between geometry and algebra allows to re-interp
 
 * etc.
 
-Using this disctionary for instance the notion of [[descent]] of vector bundles can be expressed in terms of [[monadic descent]], see at _[[Sweedler coring]]_ for discussion of this point.
+Using this dictionary for instance the notion of [[descent]] of vector bundles can be expressed in terms of [[monadic descent]], see at _[[Sweedler coring]]_ for discussion of this point.
 
 
 ### More general perspectives
@@ -682,6 +682,7 @@ $$
 
 Even more generally, for $I \in $ [[Set]] any [[set]], the direct sum
 $\oplus_{i \in I} R$ is an $R$-module.
+
 
 This is the **[[free module]]** (over $R$) on the set $S$.
 
