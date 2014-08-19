@@ -3,11 +3,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher algebra
+#### Algebra
 +-- {: .hide}
 [[!include higher algebra - contents]]
 =--
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
@@ -89,7 +89,7 @@ A **commutative** (unital) ring is an [[commutative monoid]] object in $(Ab, \ot
 +-- {: .num_remark}
 ###### Remark
 
-In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroups]] with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
+In usual ring theory people often talk about **[[nonunital rings]]**  as well: multiplicative [[semigroups]] with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
 
 =--
 
@@ -212,6 +212,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 ## Related concepts
 
 * [[monoid]], [[monoid object]]
+
+* [[nonunital ring]]
 
 * [[group]], [[group object]]
 
