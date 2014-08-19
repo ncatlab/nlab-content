@@ -51,7 +51,7 @@ So a [[differential cohomology]] theory would be one whose [[cocycles]]/[[cohomo
 
 The characterization/construction of [[differential cohomology]] via [[homotopy fiber products]] (of [[mapping spectra]] with [[differential form]] data) due to ([Hopkins-Singer 02](#HopkinsSinger02)) provides an incarnation of this kind of diagram genuinely in [[stable homotopy theory]], so that the outer parts are indeed [[homotopy fiber sequences]] and the two squares are homotopy cartesian (are [[homotopy pullbacks]]/[[homotopy pushouts]]).
 
-In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed (see [Schreiber 13, section 4.1.2](#Schreiber13) for the generality in which we present this here) that every [[stable homotopy type]] $\hat E$ in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ canonically sits inside a diagram of this form, being formed from the [[fracture squares]] of the units and counits of the [[shape modality]] $\Pi$ and the [[flat modality]] $\flat$, which in the right part interpret as the [[Maurer-Cartan form]] $\theta_E$ and the [[Chern character]] $ch_E$:
+In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed (see [Schreiber 13, section 4.1.2](#Schreiber13) for the generality in which we present this here) that every [[stable homotopy type]] $\hat E$ in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ canonically sits inside a diagram of this form, being formed from the [[fracture squares]] of the units and counits of the [[shape modality]] $\Pi$ and the [[flat modality]] $\flat$, which in the right part are interpreted as the [[Maurer-Cartan form]] $\theta_E$ and the [[Chern character]] $ch_E$:
 
 $$
   \array{
@@ -59,7 +59,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\hat E}}} && \searrow
     \\
-    \flat \Pi_{dR} {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
+    \Pi_{dR} \flat  {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_E}}
     \\
@@ -189,11 +189,26 @@ $$
   }
 $$
 
-(of the [[shape modality]] applied to the [[homotopy cofiber]] of the [[counit of a comonad|counit]] of the [[flat modality]]) is an [[(∞,1)-pullback]] square.
+(of the [[shape modality]] applied to the [[homotopy cofiber]] of the [[counit of a comonad|counit]] of the [[flat modality]]) is an [[(∞,1)-pullback]] square (hence also an [[(∞,1)-pushout]]).
+
+Dually, also the square
+
+$$
+  \array{   
+    \Pi_{dR} \flat \hat E &\longrightarrow& \Pi_{dR} \hat E 
+    \\
+    \downarrow && \downarrow 
+    \\
+    \flat \hat E & \longrightarrow & \hat E 
+  }
+$$
+
+is homotopy cartesian.
+
 
 =--
 
-This was observed in ([Bunke-Nikolaus-V&#246;lkl 13, prop. 3.5](#BunkeNikolausVoelkl13)). This may be thought of as an incarnation of the concept of a _[[fracture theorem]]_.
+This fact was observed in ([Bunke-Nikolaus-V&#246;lkl 13, prop. 3.5](#BunkeNikolausVoelkl13)). It may be thought of as an incarnation of the concept of a _[[fracture theorem]]_.
 
 +-- {: .proof}
 ###### Proof 
@@ -211,6 +226,19 @@ $$
 $$
 
 where both rows are [[homotopy fiber sequences]]. By [[cohesion]] the left vertical map is an [[equivalence in an (infinity,1)-category|equivalence]]. The claim now follows with the [homotopy fiber characterization](homotopy+pullback#HomotopyFiberCharacterization) of [[homotopy pullbacks]].
+
+The second statement follows dually: 
+
+$$
+  \array{   
+    \Pi_{dR} \flat \hat E &\longrightarrow& \Pi_{dR} \hat E &\longrightarrow& \Pi_{dR} \flat_{dR} \hat E
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \flat \hat E & \longrightarrow & \hat E &\longrightarrow&\flat_{dR} \hat E
+  }
+  \,.
+$$
 
 =--
 
@@ -465,7 +493,7 @@ Only the last statement remains to be shown, for that use the [[pasting law]]: t
 
 $$
   \array{
-    \flat \Pi_{dR} A  &\to & \flat A  &\to& 0
+    \Pi_{dR} \flat A  &\to & \flat A  &\to& 0
     \\
     \downarrow^{\mathrlap{f_1}} &\swArrow_{\mathrlap{a^{-1}}}& \downarrow && \downarrow
     \\
