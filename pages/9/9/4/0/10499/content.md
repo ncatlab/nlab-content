@@ -208,6 +208,7 @@ More generally:
 
 The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[coproduct]] $\vee_p S \mathbb{F}_p$ of all [[Moore spectra]]
 
+
 $$
   \prod_p L_p X
   \simeq
@@ -432,7 +433,7 @@ This adjoint triple is stated more explicitly in ([Dwyer-Greenlees 99, section 4
 
 Therefore arithmetic fracture squares in the homotopy theory of chain complexes are induced by this as in corollary \ref{FractureFromCohesion} above.
 
-#### General fracture squares
+#### General fracture squares of spectra
  {#GeneralFractureSquares}
 
 
@@ -513,6 +514,83 @@ $$
 In particular it is used for instance in the construction of [[tmf]], see example \ref{ConstructionOfTmf} below.
 
 =--
+
+From another perspective:
+
++-- {: .num_prop}
+###### Claim
+
+Suppose that $L \colon Spectra \to Spectra$ is a [[smashing localization]] given by [[smash product]] with some [[spectrum]] $T$. Write $F$ for the [[homotopy fiber]]
+
+$$
+  F \longrightarrow \mathbb{S} \longrightarrow T
+  \,.
+$$
+
+Then there is a [[fracture diagram]] of operations
+
+$$
+  \array{
+    T \wedge (-) && \longleftarrow  &&  [T,-]
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && \mathbb{S}
+    \\
+    & \swarrow & & \nwarrow
+    \\
+    [F,-] && \longleftarrow && F \wedge (-)
+  }
+$$
+
+where $[F,-]$ and $T \wedge (-) \colon Spectr \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $[F,-]$ are idempotent $\infty$-comonad, the diagonals are [[homotopy fiber sequences]].
+
+=--
+
+([[Charles Rezk]], [MO comment,August 2014](http://mathoverflow.net/a/178316/381))
+
++-- {: .num_example}
+###### Example
+
+For $T = S \mathbb{Z}[p^{-1}]$ the [[Moore spectrum]] of the [[integers]] [[localization of a ring|localized away from]] $p$, then 
+
+$$
+  F = \Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z})
+   \to 
+  \mathbb{S}
+   \to
+  S \mathbb{Z}[p^{-1}]
+$$
+
+and hence
+
+* $\Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z}) \wedge (-)$ is $p$-[[torsion approximation]];
+
+* $[\Sigma^{-1} S (\mathbb{Z}[p^{-1}]/\mathbb{Z}),-]$ is $p$-[[completion of a module|completion]];
+
+* $S \mathbb{Z}[p^{-1}] \wedge (-)$ is $p$-[[rationalization]];
+
+* $[T,-]$ is forming $p$-[[adic residual]].
+
+$$
+  \array{
+    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;adic\;residual
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    && && X &&  && 
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && formal\;completion\;at\;\mathfrak{a}\; && \longrightarrow && \mathfrak{a}\;torsion\;approximation
+  }
+  \,,
+$$
+
+=--
+
+With ([Bousfield 79, prop.2.5](#Bousfield79))
+
 
 
 ### In cohesive (stable) homotopy theory
@@ -619,3 +697,7 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 [[!redirects arithmetic fracture square]]
 [[!redirects arithmetic fracture squares]]
+
+[[!redirects fracture diagram]]
+[[!redirects fracture diagrams]]
+
