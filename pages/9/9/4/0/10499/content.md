@@ -592,6 +592,43 @@ $$
 With ([Bousfield 79, prop.2.5](#Bousfield79))
 
 
+#### For $E_\infty$-modules
+
++-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
+###### Proposition
+
+Let $A$ be an [[E-∞ ring]] and let $\mathfrak{a} \subset \pi_0 A$ be a [[generators and relations|finitely generated]] ideal in its underlying [[commutative ring]].
+
+Then there is an [[adjoint triple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \array{
+
+    \underoverset{
+      A Mod_{\mathfrak{a}comp}^{op}}
+    {A Mod_{\mathfrak{a}tors}^{op}}
+    {\simeq}
+    &\stackrel{\overset{\Pi_{\mathfrak{a}}}{\longleftarrow}}{\stackrel{\hookrightarrow}{\underset{\flat_{\mathfrak{a}}}{\longleftarrow}}}&
+    A Mod^{op}
+  }
+$$
+
+where
+
+* $A Mod$ is the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]], i.e. of [[∞-modules]] over $A$;
+
+* $A Mod_{\mathfrak{a}tor}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
+
+* $(-)^{op}$ denotes the [[opposite (∞,1)-category]];
+
+* the [[equivalence of (∞,1)-categories]] on the left is induced by the restriction of $\Pi_{\mathfrak{a}}$ and $\flat_{\mathfrak{a}}$.
+
+=--
+
+
+This is effectively the content of ([Lurie "Completions", section 4](#LurieProper)):
+
+
 
 ### In cohesive (stable) homotopy theory
  {#InCohesiveHomotopyTheory}
@@ -604,7 +641,7 @@ $$
     \\
     & \nearrow & & \searrow  && \nearrow
     \\
-    \flat \Pi_{dR} X  && && X 
+    \Pi_{dR} \flat X  && && X 
     \\
     & \searrow &  & \nearrow && \searrow
     \\
@@ -700,4 +737,3 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 [[!redirects fracture diagram]]
 [[!redirects fracture diagrams]]
-
