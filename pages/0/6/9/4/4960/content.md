@@ -1476,6 +1476,8 @@ Discussion of "sufficient cohesion" is in
 
 * {#Menni14} [[Matías Menni]], _Continuous Cohesion over sets_ ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
+* [[Matías Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
+
 A good deal of the structure of cohesive toposes is also considered in 
 
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
