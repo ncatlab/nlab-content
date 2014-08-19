@@ -249,7 +249,7 @@ $$
  \,.
 $$
 
-Moreover, the coreflector $\Pi_{\mathfrak{a}}$ is "[[smashing localization|smashing]]", in that there is $V \in A Mod$ such that $\Pi_{\mathfrak{a}}(-) \simeq \wedge (-)$ is given by the [[smash product]] with $V$. If $\mathfrak{a} = (x_i)_i $ then $V$ is the tensor product $V =\underset{i}{\otimes} V_i$ over all the [[homotopy fibers]]
+Moreover, the coreflector $\Pi_{\mathfrak{a}}$ is "[[smashing localization|smashing]]", in that there is $V \in A Mod$ such that $\Pi_{\mathfrak{a}}(-) \simeq V \wedge (-)$ is given by the [[smash product]] with $V$. If $\mathfrak{a} = (\{x_i\}_i) $ then $V$ is the [[tensor product]] $V =\underset{i}{\otimes} V_i$ over all the [[homotopy fibers]]
 
 $$
   \Omega (A[x_i^{-1}]/A) \longrightarrow A \longrightarrow A[x_i^{-1}]
@@ -275,7 +275,7 @@ The coreflection $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$
 
 See also ([Lurie "Completions", cor. 4.1.16](#LurieCompletions)).
 
-Also
+Also:
 
 +-- {: .num_prop}
 ###### Proposition
