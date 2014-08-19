@@ -21,7 +21,7 @@
 
 ## Idea
 
-The generalization of the process of [[one-point compactification]] of possibly non-[[compact topological space|compact]] [[topological spaces]] from [[topology]] to [[non-commutative topology]] is the process of adding units to possibly non-unital [[C*-algebras]], thought of as formal duals of non-commutative spaces in [[noncommutative topology]].
+The generalization of the process of [[one-point compactification]] of possibly non-[[compact topological space|compact]] [[topological spaces]] from [[topology]] to [[non-commutative topology]] is the process of adding units to possibly [[non-unital ring|non-unital]] [[C*-algebras]], thought of as formal duals of non-commutative spaces in [[noncommutative topology]].
 
 ## Definition
 
