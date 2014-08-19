@@ -59,6 +59,7 @@ Arakelov complemented the algebraic geometry at finite primes with a holomorphic
 * Alberto Camara, _Notes on Arakelov theory_, 2011 ([[CamaraOnArakelov11.pdf:file]])
 
 ### Original articles
+ {#ReferencesOriginal}
 
 The theory originates in 
 
@@ -79,5 +80,11 @@ In a recent Bonn thesis under Faltings' supervision,
 * {#Durov07} [[Nikolai Durov]], _A new approach to Arakelov geometry_, [arxiv/0704.2030](http://arxiv.org/abs/0704.2030)
 
 a completely algebraic replacement (using generalized [[schemes]] whose local models are spectra of commutative [[algebraic monad]]s) for the original mixed approach is proposed; it is not known if that approach can be closely and precisely compared with the traditional.
+
+See also
+
+* [[Jean-Benoit Bost]], [[Klaus Künnemann]], _Hermitian vector bundles and extension groups on arithmetic schemes. I. Geometry of numbers_ ([arXiv:math/0701343](http://arxiv.org/abs/math/0701343))
+
+* [[Jean-Benoit Bost]], [[Klaus Künnemann]], _Hermitian vector bundles and extension groups on arithmetic schemes. II. The arithmetic Atiyah extension_ ([arXiv:0807.4374](http://arxiv.org/abs/0807.4374))
 
 [[!redirects Arakelov theory]]
