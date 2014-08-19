@@ -182,6 +182,8 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 ## Related concepts
 
+* [[non-unital ring]]
+
 * [[semi-simplicial set]]
 
 * [[semi-Segal space]]
