@@ -17,7 +17,7 @@ Smashing localizations hence in particular
 
 1. preserve [[(∞,1)-colimits]];
 
-1. are [[monoidal (∞,1)-functors]].
+1. are [[monoidal (∞,1)-functors]] except possibly for preservation of the [[tensor unit]].
 
 see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
 
