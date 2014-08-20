@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -22,9 +26,9 @@ Power operations are [[cohomology operations]] in [[multiplicative cohomology th
 +-- {: .num_remark #AsPDerivations}
 ###### Remark
 
-Power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] 
+At least to some extent, power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] 
 
-See [Lurie, from remark 2.2.7 on](#Lurie)) and see the example [below](#OnK1LocalKUAlgebras).
+See for instance [Lurie, from remark 2.2.7 on](#Lurie)) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See ([Guillot 06](#Guillot06), [Morava-Santhanam](#MoravaSanthanam)) for further discussion and speculation in this direction.
 
 =--
 
@@ -131,5 +135,11 @@ and discussion of power operations in [[Morava E-theory]] is in
 * [[Matthew Ando]], _Isogenies of formal group laws and power operations in the cohomology theories $E_n$_, Duke Math. J. Volume 79, Number 2 (1995), 423-485 ([Euclid](http://projecteuclid.org/euclid.dmj/1077285158))
 
 * {#Strickland98} [[Neil Strickland]], _Morava E-theory of symmetric groups_ ([arXiv:math/9801125](http://arxiv.org/abs/math/9801125))
+
+Comments on the analogy between power operations in homotopy theory and [[Lambda ring]] structure in [[Borger's absolute geometry]] are in
+
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
+
+* {#MoravaSanthanam} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_ ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
 
 [[!redirects power operations]]
