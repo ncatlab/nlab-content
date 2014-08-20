@@ -1,3 +1,4 @@
+[[!redirects rng]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,13 +10,26 @@
 =--
 =--
 
-# Rngs
+# Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without [[identity]] element' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but outside of traditional ring theory we more often require our rings to be unital (have identities).
+The concept of _nonunital ring_ is like that of [[ring]] but without the requirement of the existence of an [[identity]] element ("unit" element). 
+
+Historically, this was in fact the original meaning of "ring", and while mostly "ring" has come to mean by default the version with identity element, nonunital rings still play a role (see e.g. the review in [Anderson 06](#Anderson06)) and in some areas of mathematics "nonunital ring" is still the default meaning of "ring". In particular, non-unital rings may naturally be identified with $\mathbb{Z}$-[[augmented algebra|augmented]] unital rings, see the discussion [below](#AsSlicesOfRings).
+  
++-- {: .num_remark}
+###### Remark on terminology
+
+The term "non-unital ring" may be regarded as an example of the "[[red herring principle]]", as a non-unital ring is not a ring in the modern sense of the word. 
+
+In [[Bourbaki|Bourbaki 6, chapter 1]] the term _pseudo-ring_ is used, but that convention has not become established.
+
+Another terminology that has been suggested for "nonunital ring", and which is in use in part of the literature (e.g. [Anderson 06](#Anderson06)) is "rng", where dropping the "i" in "ring" is meant to be alluding to the absence of _i_dentity elements. This terminology appears in print first in ([Jacobson](#Jacobson)), where it is attributed to Louis Rowen. Similarly there is, for whatever it's worth, the suggestion that a ring without negatives, hence a [[semiring]], should be called a _[[rig]]_. 
+
+=--
 
 
 ## Definitions
@@ -26,7 +40,7 @@ Specifically:
 ###### Definition
 
 
-A __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that:
+A __nonunital ring__ or _rng_ is a [[set]] $R$ with operations of addition and multiplication, such that:
 
 *  $R$ is a [[semigroup]] under multiplication;
 *  $R$ is an [[abelian group]] under addition;
@@ -39,7 +53,7 @@ More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in 
 +-- {: .num_defn}
 ###### Definition
 
-A rng is a [[semigroup]] object in [[Ab]].
+A _nonuntial ring_ or _rng_ is a [[semigroup]] object in [[Ab]].
 
 =--
 
@@ -98,7 +112,7 @@ This is because the definition of any ring [[homomorphism]] out of $F(A)= (\math
 
 =--
 
-### Rngs as slices of rings
+### Nonuntial rings as slices of rings
  {#AsSlicesOfRings}
 
 +-- {: .num_defn #AugmentationIdealFunctor}
@@ -174,7 +188,7 @@ In terms of [[arithmetic geometry]], the [[Isbell duality|formally dual]]  state
 
 A survey of commutative rng theory is in 
 
-* D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
+* {#Anderson06} D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
 
 Discussion of [[module]] theory over rngs is in 
 
@@ -209,4 +223,3 @@ where the term is attributed to Louis Rowen.
 
 [[!redirects unitisations of commutative rings]]
 [[!redirects unitizations of commutative rings]]
-
