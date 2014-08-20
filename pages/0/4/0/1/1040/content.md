@@ -54,6 +54,8 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 =--
 
+e.g. ([Borceux, prop. 4.3.2](#Borceux)).
+
 +-- {: .proof}
 ###### Proof of equivalence (in more than one way).
 
@@ -336,8 +338,8 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 General discussion includes
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
- {#Borceux}
+* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
+ 
 
 * [[Pierre Gabriel]] and [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
