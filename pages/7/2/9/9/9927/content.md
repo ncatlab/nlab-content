@@ -39,7 +39,8 @@ This follows with the [[nilpotence theorem]].
 
 ## Examples
 
-The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are the basic $A_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_, where $K(0) \simeq H \mathbb{Q}$ and we define $K(\infty)$ as $H \mathbb{F}_p$.
+* For $k$ an ordinary [[field]], the [[Eilenberg-Mac Lane spectrum]] of $k$, $H k$, is an $A_\infty$-field.
+* The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are the basic $A_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_, where $K(0) \simeq H \mathbb{Q}$ and we define $K(\infty)$ as $H \mathbb{F}_p$.
 
 ## Related concepts
 
