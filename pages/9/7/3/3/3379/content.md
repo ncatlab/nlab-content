@@ -36,7 +36,7 @@ Let $F: C \rightleftarrows D : G$ be an [[adjunction]] with unit $\eta$ and coun
 1. $F G \varepsilon F = \varepsilon F G F$.
 1. The adjunction can be factored as a composite $C \underoverset{G_1}{F_1}{\rightleftarrows} E \underoverset{G_2}{F_2}{\rightleftarrows} D$ where $F_2$ and $G_1$ are [[fully faithful functor|fully faithful]], i.e. $F_1\dashv G_1$ is a [[reflective subcategory|reflection]] and $F_2 \vdash G_2$ is a coreflection.
 
-When these conditions hold, the adjunction is said to be **idempotent**.  It then follows that $F$ and $G$ restrict to an [[equivalence of categories]] between the [[full images]] of $F$ and of $G$ (which are, respectively, a [[reflective subcategory]] of $D$ and a coreflective subcategory of $C$).
+When these conditions hold, the adjunction is said to be **idempotent**.  It then follows that $F$ and $G$ restrict to an [[equivalence of categories]] between the [[full images]] of $F$ and of $G$ (which are, respectively, a [[coreflective subcategory]] of $D$ and a [[reflective subcategory]] of $C$).
 
 Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equivalence) it consists of the inclusion and reflection of a [[reflective subcategory]] (i.e. the algebras for an [[idempotent monad]]).  Dually, if it is [[comonadic adjunction|comonadic]], it consists of the inclusion and coreflection of a [[coreflective subcategory]].  Thus, the primary interest in isolating the notion of *idempotent adjunction* is when considering adjunctions which are neither monadic nor comonadic.
 
