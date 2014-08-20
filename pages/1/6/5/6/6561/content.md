@@ -40,11 +40,18 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 ### Compactification on a Riemann surface and AGT correspondence
  {#CompactificationOnARiemannSurface}
 
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "600" src="http://www.math.northwestern.edu/~celliott/workshop/6d_qft_graph.gif" alt="Compactification diagram" /></div>
+
+
+> (graphics taken from ([Workshop 14](#Workshop14)))
+
+
 The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann surface]] yields as [[worldvolume]] [[theory (physics)|theory]] [[N=2 D=4 super Yang-Mills theory]]. See at _[N=2 D=4 SYM -- Construction by compactification of 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
 The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
 
 More generally, this kind of construction allows todescrive the 6d (2,0)-theory as a "[[2d SCFT]] with values in [[super Yang-Mills theory|4d SYM]]". See at _[[AGT correspondence]]_ for more on this.
+
 
 ### Twistor space description
 
@@ -74,6 +81,12 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www.physics.rut
   {#Moore}
 
 * [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
+
+Workshops include
+
+* {#Workshop14} _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, December 8th-12th, 2014
+
+at the University of California, Berkeley
 
 See also the references and discussion at _[[M5-brane]]_.
 
