@@ -67,6 +67,7 @@ In [[K(n)-local stable homotopy theory]]:
 
 * [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
 
+* [pdf](http://math.univ-lille1.fr/~fresse/Bar-StructureUniqueness.pdf)
 
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
