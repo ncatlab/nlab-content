@@ -5,7 +5,9 @@ An [[algebra]] which is not commutative.
 
 ## Related concepts
 
-* [[associative algebra]]
+* [[associative algebra]], [[nonassociative algebra]]
+
+* [[nonunital algebra]]
 
 * [[Lie algebra]]
 
