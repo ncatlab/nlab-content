@@ -1,13 +1,26 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 Let $k$ be a [[commutative unital ring]], usually a [[field]] (but conceivably even a commutative [[rig]]).
 
 A __nonassociative $k$-algebra__ is a $k$-[[module]] $V$ equipped with a bilinear product $V\otimes V\to V$.
 
 This product is typically neither associative nor unital, although it can be (an example of the [[red herring principle]]).
 
+Mathematicians working in the field of nonassociative algebras often say simply 'algebra' meaning a nonassociative algebra.
+
+## Examples
+
 Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[Leibniz algebra]], [[alternative algebra]], [[associative unital algebra]], [[composition algebra]]...
 
-Mathematicians working in the field of nonassociative algebras often say simply 'algebra' meaning a nonassociative algebra.
+
+## Related concepts
+
+* [[noncommutative algebra]], [[nonunital algebra]]
 
 
 [[!redirects nonassociative algebra]]
