@@ -18,6 +18,7 @@ A class of 2d [[conformal field theories]] which are not rational conformal fiel
 * B L Feigin, A M Gainutdinov, A M Semikhatov, I Yu Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303-343,2006 [hep-th/0606196](http://arxiv.org/abs/hep-th/0606196); _Modular group representations and fusion in logarithmic conformal field theories
 and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93; _Kazhdan&#8211;Lusztig correspondence for the representation category of the triplet $W$-algebra in logarithmic CFT_, Theor. Math. Phys. 148 (2006) 1210&#8211;1235; _Kazhdan&#8211;Lusztig-dual quantum group for logarithmic extensions of Virasoro minimal models_, J. Math. Phys. __48__ (2007) 032303
 * Philippe Ruelle, _Logarithmic conformal invariance in the Abelian sandpile model_, [arxiv/1303.4310](http://arxiv.org/abs/1303.4310)
+* David Ridout, Simon Wood, _Bosonic ghosts at $c=2$ as a logarithmic CFT_, [arxiv/1408.4185](http://arxiv.org/abs/1408.4185)
 
 category: physics
 [[!redirects logarithmic CFTs]]
