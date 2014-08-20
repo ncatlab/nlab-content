@@ -1,3 +1,10 @@
+
+## Related concepts
+
+* [[braid group statistics]]
+
+## References
+
 * H.S. Green, _A generalized method of field quantization_,  Phys. Rev. __90__, 270&#8211;273 (1953)
 * wikipedia: [parastatistics](http://en.wikipedia.org/wiki/Parastatistics), [Klein transformation](http://en.wikipedia.org/wiki/Klein_transformation)
 * Y. Ohnuki, S. Kamefuchi, _Quantum field theory and parastatistics paperback_, Springer 2011, 508 pp.
