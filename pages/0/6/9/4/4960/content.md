@@ -1333,7 +1333,7 @@ $$
   \,.
 $$
 
-In ([Lawvere 07, def. 1](#LawvereAxiomatic)) this situation is said to exhibit $\mathcal{E}$ as a _quality type_ over $\mathcal{S}$.
+In ([Lawvere 07, def. 1](#LawvereAxiomatic)) this situation is said to exhibit $\mathcal{E}$ as a _[[quality type]]_ over $\mathcal{S}$.
 
 It follows that there is an infinite sequence of adjoints, in particular that there is $coDisc^{\mathcal{P}} \coloneqq Disc^{\mathcal{P}}$ [[right adjoint]] to $\Gamma^{\mathcal{P}}$, which by the discussion at [[adjoint triple]] is also a [[full and faithful functor]], and that $\Pi_0^{\mathcal{P}}$ preserves [[finite products]] (in fact all [[limits]]). 
 
@@ -1487,7 +1487,7 @@ under the name _[[Q-categories]]_ .
 
 The [[internal logic]] of [[local toposes]] is discussed in 
 
-* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ , Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
   {#AwodeyBirkedal}
 
 
