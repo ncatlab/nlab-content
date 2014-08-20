@@ -48,10 +48,12 @@ This proposal seems to subsume many aspects of other existing proposals (see e.g
 
 After the very first observations by Tits, pioneers were [[Christophe Soulé]] and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], [[James Borger]] and [[Oliver Lorscheid]]. 
 
-## References and links
-
+## Related concepts
 
 See also [[Lambda-ring]], [[blue scheme]] and [[tropical geometry]].
+
+
+## References
 
 
 ### Expositions 
@@ -70,7 +72,7 @@ A survey of the various competing theories is
 
 * {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
 
-### more details ###
+### Original articles ###
 
 * {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques,
 pages 261{289. Etablissements Ceuterick, Louvain, 1957.
@@ -79,9 +81,11 @@ pages 261{289. Etablissements Ceuterick, Louvain, 1957.
 
 * {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
 
-* [[Yuri Manin]], _Cyclotomy and analytic geometry over $F_1$_, [arxiv/0809.1564](http://arxiv.org/abs/0809.1564)
+* {#ToenVaquie05} [[Bertrand Toen]], [[Michel Vaquie]], _Under Spec Z_ ([arXiv:math/0509684](http://arxiv.org/abs/math/0509684))
 
 * [[Alain Connes]], [[Caterina Consani]], [[Matilde Marcolli]], _Fun with $\mathbf{F}_1$_, [arxiv/0806.2401](http://arxiv.org/abs/0806.2401)
+
+* [[Yuri Manin]], _Cyclotomy and analytic geometry over $F_1$_, [arxiv/0809.1564](http://arxiv.org/abs/0809.1564)
 
 * {#ConnesConsani08} [[Alain Connes]], [[Caterina Consani]], _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, in: Noncommutative Geometry, Arithmetic, and Related Topics, 21st Meeting of the Japan-U.S. Math. Inst., Baltimore 2009, JHUP (2012), pp. 75&#8211;139, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [arxiv/1006.4810](http://arxiv.org/abs/1006.4810); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672); _Projective geometry in characteristic one and the epicyclic category_, [arxiv/1309.0406](http://arxiv.org/abs/1309.0406)
 
