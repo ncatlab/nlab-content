@@ -91,7 +91,7 @@ The first, _isomorphism_, comes from viewing $Cat$ as a mere category; it is too
 It\'s also possible to define 'category' in such a way that only a correct definition can be stated, but here we use the usual algebraic definitions of category, [[functor]], and [[natural isomorphism]].
 
 
-### Isomorphism
+### Isomorphism {#Isomorphism}
 
 Two [[strict categories]] $C$ and $D$ are __isomorphic__ if there exist [[strict functors]] $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each [[equality|equal]] to the appropriate [[identity functor]].  In this case, we say that $F$ is an __isomorphism__ from $C$ to $D$ (so $G$ is an isomorphism from $D$ to $C$) and call the pair $(F,G)$ an __isomorphism__ between $C$ and $D$.  The functor $G$ is called the __strict inverse__ of $F$ (so $F$ is the strict inverse of $G$).
 
@@ -115,7 +115,7 @@ If possible, use or modify the counterexample to isomorphism to show how choice 
 =--
 
 
-### Weak equivalence
+### Weak equivalence {#WeakEquivalence}
 
 Two strict categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and strict functors $F\colon X \to D$ and $G\colon X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
 
@@ -124,7 +124,7 @@ A functor with a weak inverse is necessarily essentially surjective and fully fa
 If you think of $Cat$ as the model category of categories and functors with the [[canonical model structure]], then this is the usual notion of [[weak equivalence]] in a model category.
 
 
-### Anaequivalence
+### Anaequivalence {#Anaequivalence}
 
 Two categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctors]] $F\colon C \to D$ and $G\colon D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$). See also _[[weak equivalence of internal categories]]_.
 
@@ -141,7 +141,7 @@ Note that *weak* inverses go with *strong* equivalences.  The terminology isn\'t
 
 If you accept the axiom of choice, then you don\'t have to worry about the different kinds of equivalence (as long as you don\'t use isomorphism).  This is not just a question of [[foundations]], however, since the axiom of choice usually fails in [[internalization|internal contexts]].
 
-It\'s also possible to use foundations (such as [[type theory]] or [[FOLDS]]) in which isomorphism and strong equivalence are impossible to state.  In such a case, one usually drops the prefixes 'weak' and 'ana&#8209;'.  In the $n$-Lab, we prefer to remain agnostic about foundations but usually drop these prefixes as well, leaving it up to the reader to insert them if necessary.
+It\'s also possible to use foundations (such as [[homotopy type theory]], some other forms of [[type theory]], or [[FOLDS]]) in which isomorphism and strong equivalence are impossible to state.  In such a case, one usually drops the prefixes 'weak' and 'ana&#8209;'.  In the $n$-Lab, we prefer to remain agnostic about foundations but usually drop these prefixes as well, leaving it up to the reader to insert them if necessary.
 
 
 ## Adjoint equivalence
@@ -173,6 +173,7 @@ For example, assuming choice, a [[strict 2-functor]] between strict $2$-categori
 
 As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
 
+
 ## Related concepts
 
 * [[equality]], [[isomorphism]], [[equivalence]]
@@ -185,7 +186,7 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 
 * **equivalence of categories**, [[weak equivalence of internal categories]]
 
-  [[adjoint functor]]
+* [[adjoint functor]]
 
 * [[equivalence of 2-categories]], [[2-adjunction]]
 
@@ -231,4 +232,3 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 [[!redirects equivalences of infinity-groupoids]]
 [[!redirects equivalence of higher groupoids]]
 [[!redirects equivalences of higher groupoids]]
-
