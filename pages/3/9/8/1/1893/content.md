@@ -10,7 +10,9 @@
 
 ## Idea
 
-A _$\lambda$-ring_ is a [[commutative ring]] which is in addition equipped with operations that behave as the operations of forming [[exterior powers]] (of [[vector spaces]]/[[representations]]) in a [[representation ring]]. The name derives from the common symbol $\Lambda^n$ for the $n$th [[exterior power]].
+A _$\lambda$-ring_ is a [[commutative ring]] which is in addition equipped with operations that behave as the operations of forming [[exterior powers]] (of [[vector spaces]]/[[representations]]) in a [[representation ring]]. The name derives from the common symbol $\Lambda^n$ for the $n$th [[exterior power]]. Hence $\lambda$-rings are one incarnation of the [[representation theory]] of the [[symmetric groups]].
+
+Equivalently, it turns out ([Wilkerson 82](#Wilkerson82)) that a $\lambda$-ring is a commutative ring equipped with an [[endomorphism]] that lifts the [[Frobenius endomorphism]] after reduction mod $p$ at each [[prime number]] $p$. As such $\lambda$-rings appear in [[Borger's absolute geometry]] and are related, in some way, to [[power operations]] (see there for more) in [[stable homotopy theory]].
 
 ### Motivation from representation theory
 
@@ -206,7 +208,8 @@ The following two theorems are crucial for the "heterodox" point of view. We wil
 
 +-- {: .num_theorem}
 ###### Theorem
-(Wilkerson's theorem)
+([Wilkerson 82](#Wilkerson82))
+
 Let $A$ be an additively torsion-free commutative ring. Let $\{\psi_p\}$ be a commuting family of Frobenius lifts.
 
 Then there is a unique $\lambda$-ring structure on $A$ whose [[Adams operations]] are the given Frobenius lifts $\{\psi_p\}$.
@@ -249,6 +252,28 @@ The "heterodox" generalizes to arbitrary [[Dedekind domain|Dedekind domains]] wi
 
  For instance over $F_p[x]$ (instead of $\mathbb{Z}$), we would look at families of $\psi$-operators indexed by the irreducible monic polynomials $f(x)$, and each $\psi_{f(x)}$ would have to be congruent to the $q$-th power map modulo $f(x)$, where $q$ is the size of $F_p[x]/(f(x))$.
 =--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The [[topological K-theory]] ring $K(X)$ of any [[topological space]] carries the structure of a $\lambda$-ring with operations induced from (skew-)symmetrized [[tensor products]] of [[vector bundles]].
+
+=--
+
+This is originally due to [[Alexander Grothendieck]].
+
++-- {: .num_example}
+###### Example
+
+The [[equivariant elliptic cohomology]] at the [[Tate curve]]
+$Ell_[Tate}(X//G)$ is a $\lambda$-ring (and even an "elliptic $\lamnda$-ring").
+
+=--
+
+
+([Ganter 07](#Ganter07), [Ganter 13](#Ganter13))
 
 ## Properties
 
@@ -317,11 +342,19 @@ in [[Borger's absolute geometry]] ([Borger 08](#Borger08), exposition in [Borger
 
 ## References
 
+The $\lambda$-ring structure on [[topological K-theory]] goes back to [[Alexander Grothendieck]] in the 1960s.
+
+The relation to lifts of [[Frobenius homomorphisms]] is due to
+
+* {#Wilkerson82} Wilkerson 1982
+
+Modern accounts include
 
 * [[Michiel Hazewinkel]], _Formal groups and applications_
 
 * {#Hazewinkel08} [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
   
+See also
 
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 
@@ -349,6 +382,13 @@ school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009
 [conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
 
 [participants](http://www.lorentzcenter.nl/lc/web/2009/342/participants.php3?wsid=342)
+
+The $\lambda$-ring structure on [[equivariant elliptic cohomology]] is due to
+
+* {#Ganter07} [[Nora Ganter]], _Stringy power operations in Tate K-theory_, Homology, Homotopy, Appl., 2013; arXiv:math/0701565
+
+
+* {#Ganter13} [[Nora Ganter]], \Power operations in orbifold Tate K-theory"; arXiv:1301.2754
 
 Discussion in the context of [[Borger's absolute geometry]] is in
 
