@@ -18,7 +18,7 @@
 
 The concept of _nonunital ring_ is like that of [[ring]] but without the requirement of the existence of an [[identity]] element ("unit" element). 
 
-Historically, this was in fact the original meaning of "ring", and while mostly "ring" has come to mean by default the version with identity element, nonunital rings still play a role (see e.g. the review in [Anderson 06](#Anderson06)) and in some areas of mathematics "nonunital ring" is still the default meaning of "ring". In particular, non-unital rings may naturally be identified with $\mathbb{Z}$-[[augmented algebra|augmented]] unital rings, see the discussion [below](#AsSlicesOfRings).
+Historically, this was in fact the original meaning of "ring", and while mostly "ring" has come to mean by default the version with identity element, nonunital rings still play a role (see e.g. the review in [Anderson 06](#Anderson06)) and in some areas of mathematics "nonunital ring" is still the default meaning of "ring". In particular, non-unital rings may naturally be identified with the [[augmentation ideals]] of $\mathbb{Z}$-[[augmented algebra|augmented]] unital rings, see the discussion [below](#AsSlicesOfRings).
   
 +-- {: .num_remark}
 ###### Remark on terminology
@@ -86,7 +86,7 @@ In the unitization $\mathbb{Z} \oplus A$ we have $(n,0) + (0,a) = (n,a)$ and hen
 +-- {: .num_remark}
 ###### Remark
 
-Similar [[unitisation]] prescriptions work for non-commutative rings and for [[associative algebras]] over a fixed base ring, see also at
+Similar [[unitisation]] prescriptions work for non-commutative rings and for [[nonunital algebras]] over a fixed base ring, see also at
 
 * _[[unitisation of C*-algebras]]_.
 
@@ -166,9 +166,10 @@ is uniquely fixed by its restriction to the augmentation ideal $ker(\phi_1)$, wh
 
 =--
 
+The identification of non-unital algebras as augmentation ideals of augmented unital algebras is used for instance in ([Fresse 06](#Fresse06)).
+
 +-- {: .num_remark}
 ###### Remark
-
 
 In terms of [[arithmetic geometry]], the [[Isbell duality|formally dual]]  statement of prop. \ref{AugmentationIdealFunctor} is that arithmetic geometry induced by non-unital rings is equivalently ordinary arithmetic geometry _under_ [[Spec(Z)]].
 
@@ -193,6 +194,10 @@ A survey of commutative rng theory is in
 Discussion of [[module]] theory over rngs is in 
 
 * {#Quillen96} [[Daniel Quillen]], _Module theory over nonunital rings_, August 1996 ([[QuillenModulesOverRngs.pdf:file]])
+
+Discussion of non-unital rings as [[augmentation ideals]] of augmented unital rings includes
+
+* {#Fresse06} [[Benoit Fresse]], _The Bar Complex of an E-infinity Algebra_, Adv. Math.  223 (2010), pages 2049-2096 ([arXiv:math/0601085](http://arxiv.org/abs/math/0601085))
 
 ### Terminology
 
