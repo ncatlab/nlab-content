@@ -30,11 +30,16 @@
 
 ## Idea
 
-A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of quantitative variation via its qualitative aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in ][[geometry]] and [[dynamics]] that problems permit only a qualitative analysis. More geometrically, a [[cohesive topos]] which is a "quality type" exhibits [[infinitesimal cohesion]] (see there for more) in that the [[points-to-pieces transform]] for each object is an [[isomorphism]].
+A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of quantitative variation via its qualitative aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in [[geometry]] and [[dynamics]] that problems permit only a qualitative analysis.
 
 The primary example that Lawvere had in mind is the **[[homotopy category]]**.
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a _quintessential localization_  in [Johnstone (1996)](#JS96).
+
+In typical (topos) cases this says that the [[connected components]] and the [[section functor]] coincide: $\Pi\cong\Gamma$ and hence a quality type is particular simple kind of space with 'degenerate' components. 
+
+Another more geometrical way to view this particular spatial property is that, a [[cohesive topos]] which is a "quality type" exhibits [[infinitesimal cohesion]] (see there for more) in that the [[points-to-pieces transform]] for each object is an [[isomorphism]].
+
 
 Quality types are basically together with the _contuinity axiom_ (2b) the essential new ingredients in Lawvere's [2007 axioms](#Law07) for geometry wheras all the other axioms for a [[gros topos]] are actually around since the 80s in one form or another. In particular, the other axioms are tuned to yield homotopic qualities of spaces, or in other words, cohesive spaces are those that admit qualitative analysis!
 
