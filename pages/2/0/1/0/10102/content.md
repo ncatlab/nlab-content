@@ -28,7 +28,7 @@ The generalization of the process of [[one-point compactification]] of possibly 
 +-- {: .num_defn}
 ###### Definition
 
-For $(A, {\Vert -\Vert_A})$ a not necessarily [[unital algebra|unital]] [[C*-algebra]], its **unitisation** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
+For $(A, {\Vert -\Vert_A})$ a not necessarily [[unital algebra|unital]] [[C*-algebra]], its **[[unitisation]]** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
 
 $$
   A^+ \coloneqq A \oplus \mathbb{C}
