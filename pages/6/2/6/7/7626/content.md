@@ -21,6 +21,8 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 * [[boson]], [[fermion]], **anyon**
 
+* [[parastatistics]]
+
 ## References
 
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, Bert Schroer, _Superselection sectors with braid group statistics and exchange algebras_ 
