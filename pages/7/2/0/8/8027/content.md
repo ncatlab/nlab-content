@@ -87,8 +87,12 @@ See also
 
 * {#ChacaltanaDistler10} [[Oscar Chacaltana]], [[Jacques Distler]], _Tinkertoys for Gaiotto Duality_, JHEP 1011:099,2010, ([arXiv:1008.5203](http://arxiv.org/abs/arXiv:1008.5203), \cite{chacaltana:2010ks, MR3046557})
 
+* Satoshi Nawata, _Givental J-functions, Quantum integrable systems, AGT relation with surface operator_, [arXiv/1408.4132](http://arxiv.org/abs/1408.4132)
+
 The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]] in 
 
 * G. Vartanov, J. Teschner, _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
  
+category: physics
+
 [[!redirects AGT conjecture]]
