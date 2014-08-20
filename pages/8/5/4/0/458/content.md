@@ -164,7 +164,7 @@ $$
   )
   \colon
   Top
-    \stackrel{\overset{(-)_L}{\rightarrow}}{\underset{(-)_P}{\leftarrow}}
+    \stackrel{\overset{(-)_L}{\longrightarrow}}{\underset{(-)_P}{\longleftarrow}}
   Locale
   \,.
 $$
