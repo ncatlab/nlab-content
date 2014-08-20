@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _nonunital algebra_ is like an [[associative algebra]] but without specified [[identity]] element. The associative algebra version of _[[nonunital ring]]_, see there for more.
+
+## Related concepts
+
+* [[unitisation of C*-algebras]].
+
+* [[noncommutative algebra]], [[nonassociative algebra]]
+
+[[!redirects nonunital algebras]]
+
+[[!redirects non-unital algebra]]
+[[!redirects non-unital algebras]]
