@@ -94,7 +94,7 @@ we can derive the terminology in the above table as indicated now.
   $$
 
   for $KU$ the [[complex K-theory spectrum]] [[E-∞ ring]], and
-  hence the characteristic twists are in degree 2 of the group of units, hence of the graded group of units
+  hence the characteristic twists are in degree 2 of the group of units, hence of the [graded ∞-group of units](infinity-group%20of%20units#AugmentedDefinition)
 
   $$
     gl^{gr}_1(KU) \to \mathbb{S}
