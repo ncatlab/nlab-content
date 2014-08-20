@@ -15,24 +15,150 @@
 
 ## Idea
 
-A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without identity' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
+A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without [[identity]] element' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
 
 
 ## Definitions
 
-### Explicit definition
+Specifically:
 
-Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that:
++-- {: .num_defn}
+###### Definition
+
+
+A __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that:
 
 *  $R$ is a [[semigroup]] under multiplication;
 *  $R$ is an [[abelian group]] under addition;
 *  multiplication distributes over addition.
 
+=--
 
-### Fancy definition
+More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[Ab]], so 
 
-More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[Ab]], so a rng is a [[semigroup]] object in $Ab$.
++-- {: .num_defn}
+###### Definition
 
+A rng is a [[semigroup]] object in [[Ab]].
+
+=--
+
+## Properties
+
+### Unitization
+
++-- {: .num_defn #Unitisation}
+###### Definition
+
+Given a non-unital commutative ring $A$, then its _[[unitisation]]_ is the [[commutative ring]] $F(A)$ obtained by [[free construction|freely]] adjoining an [[identity]] element, hence the ring whose underlying [[abelian group]] is the [[direct sum]] $\mathbb{Z} \oplus A$ of $A$ with the [[integers]], and whose product operation is defined by
+
+$$
+  (n_1, a_1) (n_2, a_2) \coloneqq (n_1 n_2, n_1 a_2 + n_2 a_1 + a_1 a_2)
+  \,,
+$$
+
+where for $n \in \mathbb{Z}$ and $a \in A$ we set $n a \coloneqq \underset{n\;summands}{\underbrace{a + a + \cdots + a}}$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the unitization $\mathbb{Z} \oplus A$ we have $(n,0) + (0,a) = (n,a)$ and hence it makes sense to abbreviate $(n,a)$ simply to $n+a$.  The product in the [[unitisation]] is then fixed by the defining requirement that $1 \cdot a = a$ and by the [[distributivity law]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Similar [[unitisation]] prescriptions work for non-commutative rings and for [[associative algebras]] over a fixed base ring, see also at
+
+* _[[unitisation of C*-algebras]]_.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Unitisation in def. \ref{Unitisation} extends to a [[functor]] from $CRng$ to [[CRing]] which is [[left adjoint]] to the [[forgetful functor]] from [[commutative rings]] to non-unital commutative rings.
+
+$$
+  F \colon CRng \leftrightarrow CRing \colon U
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is because the definition of any ring [[homomorphism]] out of $F(A)= (\mathbb{Z} \oplus A, \cdot)$ is uniquely fixed on the $\mathbb{Z}$-summand.
+
+=--
+
+### Rngs as slices of rings
+ {#AsSlicesOfRings}
+
++-- {: .num_defn #AugmentationIdealFunctor}
+###### Definition
+
+
+Write $CRing_{/\mathbb{Z}}$ for the [[slice category]] of [[CRing]] over the ring of [[integers]] ([[augmented algebra|augmented commutative rings]]). Write
+
+$$
+  CRing_{/\mathbb{Z}} \longrightarrow CRng
+$$
+
+for the [[functor]] to commutative non-unital rings which sends any $(R \stackrel{\phi}{\to} \mathbb{Z})$ to its _[[augmentation ideal]]_, hence to the [[kernel]] of $\phi$
+
+$$
+  (R \stackrel{\phi}{\to} \mathbb{Z}) \mapsto ker(\phi)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #AugmentationIdealFunctor}
+###### Proposition
+
+The [[augmentation ideal]]-functor in def. \ref{AugmentationIdealFunctor} is an [[equivalence of categories]] whose inverse is given by [[unitisation]], def. \ref{Unitisation}, remembering the [[projection]] $(\mathbb{Z} \oplus A) \to \mathbb{Z}$:
+
+$$
+  CRng \simeq CRing_{/\mathbb{Z}}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the functor is [[fully faithful]] is to observe that for a ring $R \stackrel{\phi}{\to} \mathbb{Z}$ the [[fiber]] $R_{n}$ over $n \in \mathbb{Z}$ is a [[torsor]] over the additive group underlying the [[augmentation ideal]] $A = R_0 = ker(\phi)$, and moreover it is a pointed torsor, the point being $n$ itself, hence is canonically equivalent to the [[augmentation ideal]] $A$, the equivalence being addition by $n$ in $R$. Hence any homomrphism of rings with identity over $\mathbb{Z}$
+
+$$
+  \array{
+    R_1 && \stackrel{f}{\longrightarrow} && R_2
+    \\
+    & {}_{\mathllap{\phi_1}}\searrow && \swarrow_{\mathrlap{\phi_2}}
+    \\
+    && \mathbb{Z}
+  }
+$$
+
+is uniquely fixed by its restriction to the augmentation ideal $ker(\phi_1)$, whose image, moreover, has to be in the augmentation ideal $ker(\phi_2)$. 
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+In terms of [[arithmetic geometry]], the [[Isbell duality|formally dual]]  statement of prop. \ref{AugmentationIdealFunctor} is that arithmetic geometry induced by non-unital rings is equivalently ordinary arithmetic geometry _under_ [[Spec(Z)]].
+
+=--
 
 ## Related concepts
 
@@ -50,6 +176,9 @@ A survey of commutative rng theory is in
 
 * D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
 
+Discussion of [[module]] theory over rngs is in 
+
+* {#Quillen96} [[Daniel Quillen]], _Module theory over nonunital rings_, August 1996 ([[QuillenModulesOverRngs.pdf:file]])
 
 ### Terminology
 
@@ -70,3 +199,16 @@ where the term is attributed to Louis Rowen.
 
 [[!redirects non-unital ring]]
 [[!redirects non-unital rings]]
+
+[[!redirects unitisation of rings]]
+[[!redirects unitization of rings]]
+
+[[!redirects unitisations of rings]]
+[[!redirects unitizations of rings]]
+
+[[!redirects unitisation of commutative rings]]
+[[!redirects unitization of commutative rings]]
+
+[[!redirects unitisations of commutative rings]]
+[[!redirects unitizations of commutative rings]]
+
