@@ -79,6 +79,10 @@ For $A_\infty$-algebras in [[characteristic]] 0 (in chain complexes) augmentatio
 
 * Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
 
+augmentation of $\mathbb{F}_p$ [[E-∞ algebras]] is considered in definition 7.1 of
+
+* [[Michael Mandell]], _$E_\infty$-Algebras and $p$-adic homotopy theory_ ([pdf](hopf.math.purdue.edu/Mandell/einffinal.pdf))
+
 
 The following articles discuss (just) [[augmented ∞-groups]].
 
@@ -90,6 +94,12 @@ Augmentation over the [[Eilenberg-MacLane spectrum]] $H\mathbb{Z}$ appears in
 
 * Gregory Arone, Kathryn Lesh, _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
  {#AroneLesh}
+
+See also 
+
+* {#Fresse06} [[Benoit Fresse]], _The Bar Complex of an E-infinity Algebra_, Adv. Math.  223 (2010), pages 2049-2096 ([arXiv:math/0601085](http://arxiv.org/abs/math/0601085))
+
+with comments on the relation to [[nonunital algebras]].
 
 [[!redirects augmented A-infinity-algebras]]
 
