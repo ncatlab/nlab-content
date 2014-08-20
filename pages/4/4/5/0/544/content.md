@@ -179,6 +179,7 @@ A brief survey is in section 1.8 of
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
+* [pdf](http://math.bnu.edu.cn/~ccxi/Notes/notes-lu.pdf)
 
 [[!redirects A-infinity-algebras]]
 [[!redirects A-infinity algebra]]
@@ -188,6 +189,7 @@ A brief survey is in section 1.8 of
 [[!redirects A? algebra]]
 [[!redirects A? algebras]]
 [[!redirects A-∞-algebra]]
+
 [[!redirects A-∞-algebras]]
 
 
