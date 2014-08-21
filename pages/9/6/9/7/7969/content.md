@@ -73,8 +73,10 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 
 * {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
 
-* {#Nohara} Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant2007.mi.ras.ru/nohara.pdf))
- 
+* Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
+ {#Nohara}
+
+* Gerard Lion, Michele Vergne, _The Weil representation, Maslov index and theta series_
 
 Relation to [[conformal blocks]]:
 
@@ -97,7 +99,7 @@ Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 
 [[!redirects Riemann theta function]]
 [[!redirects Riemann theta functions]]
-
-
+[[!redirects Jacobi theta function]]
+[[!redirects Jacobi theta functions]]
 [[!redirects Ramanujan theta function]]
 [[!redirects Ramanujan theta functions]]
