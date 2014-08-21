@@ -358,6 +358,9 @@ This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ w
 
 ## References
 
+* D. Goldfeld, J. Hundley, chapter 1 of _Automorphic Representations and L-functions for the General Linear Group_, vol. 1, Cambridge University 
+Press, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl1.pdf))
+
 * {#Mathew10} [[Akhil Mathew]], _[The adele ring](http://amathew.wordpress.com/2010/05/21/the-adele-ring/)_, 2010 
 
 * _Adeles_ [pdf](http://wiki.epfl.ch/gant/documents/lecture2-cib2011.pdf)
