@@ -19,8 +19,11 @@ The (proof of the) [[Weil conjectures]] concerns the properties of the Weil zeta
 
 Introductions and lecture notes include
 
-* [[Marc Hindry]], section 2.3 of_Introduction to zeta and $L$-functions from arithmetic geometry and some applications_  ([pdf](http://www.math.jussieu.fr/~hindry/Notes_rev_Brasilia.pdf))
+* [[Marc Hindry]], section 2.3 of _Introduction to zeta and $L$-functions from arithmetic geometry and some applications_  ([pdf](http://www.math.jussieu.fr/~hindry/Notes_rev_Brasilia.pdf))
 
 * Daqing Wan, _Lectures on zeta functions over finite fields_, 2007 ([pdf](http://www.math.uci.edu/~dwan/gottingen.pdf))
+
+* E. Kowalski, section 1.6 in _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
+
 
 [[!redirects Weil zeta functions]]
