@@ -294,6 +294,7 @@ for modern applications we need a systematic dictionary of the form
 | [[higher complex analytic geometry]]       |
 | [[E-∞ arithmetic geometry|higher arithmetic geometry]]             |
 
+
 We will discuss here how this may be done via the axiomatics called _[[cohesive homotopy theory]]_ and _[[differential cohesion]]_ in ([Schreiber 13](#Schreiber13)).
 
 ### Differential generalized cohomology
@@ -370,6 +371,7 @@ and call, respectively: _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dash
 Following 1-categorical terminology proposed by [[William Lawvere]] (see at _[[cohesive topos]]_) we say:
 
 
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -436,6 +438,7 @@ $$
 =--
 
 This is an extension of $\mathbf{H}$ by [[stable homotopy theory]]
+
 
 $$
   \array{
@@ -844,7 +847,7 @@ By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](
 Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite products]] (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
 [this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRng(A Mod)$ are computed in the underlying $A Mod$.
 
-Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine "non-compact"-[[E-∞ geometry|E-∞]]-[[arithmetic geometry]] (over "$E_\infty$-[[rngs]]").
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on pointed affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]], which by [this proposition](nonunital+Ek-algebra#RelationToAugmentedEkAlgebras) ([Lurie "Algebra", prop. 5.2.3.15](#LurieAlgebra)) are equivalent to [[augmented E-∞ rings]] over the [[sphere spectrum]].
 
 =--
 
@@ -864,3 +867,5 @@ Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive ∞-topos]]_, based on Habilitation thesis, Hamburg 2011 ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:What, and for what is Higher geometric quantization]]_, notes for a talk given at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford, July 5-8 2014
+
+* {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
