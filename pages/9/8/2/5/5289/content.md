@@ -61,6 +61,8 @@ See there for more.
 
 * [[A-n algebra]]
 
+* [[nonunital Ek-algebra]]
+
 ## References
 
 Section 5 of
@@ -100,7 +102,8 @@ some summary of which is at _[[Ek-Algebras]]_.
 [[!redirects E-n algebra]]
 [[!redirects E-n algebras]]
 
-
+[[!redirects Ek-algebra]]
+[[!redirects Ek-algebras]]
 
 
 
