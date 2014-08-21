@@ -24,15 +24,49 @@
 ### General
 
 Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|prinicpally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
-(e.g. [Polishchuk 03, section 17](#Polishchuk03)). The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
+(e.g. [Polishchuk 03, section 17](#Polishchuk03)) and in particular over a [[Jacobian variety]] ([Beauville](#Beauville)) such as [[prequantum line bundles]] for (abelian) [[gauge theory]]. The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
 Expressed in local [[coordinates]] on $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
 
-Specifically in a context of [[arithmetic]] by _the_ theta function one usually means the _[[Jacobi theta function]]_, see there for more.
+Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more), which is the historically first and archetypical function from which all modern generlizations derive their name.
 
+Certain integrals of theta functions yield [[zeta functions]], see also at _[[function field analogy]]_.
 
 ### In quantization
 
 Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instace ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
+
+## Definition
+ {#Definition}
+
+Consider a [[complex torus]] $T \simeq V/\Gamma$ for given [[finite group]] $\Gamma$. 
+
+Say that a _system of multipliers_ is a system of invertible [[holomorphic functions]] 
+
+$$
+  e_\gamma \colon V \longrightarrow \mathbb{C}^\times \hookrightarrow \mathbb{C}
+$$
+
+satisfying the cocycle condition
+
+$$
+  e_{\gamma + \delta}(z) = e_\gamma(z + \delta) e_\delta(z)
+  \,.
+$$
+
+Then a _theta function_ is a [[holomorphic function]]
+
+$$
+  \theta \colon V \longrightarrow \mathbb{C}
+$$
+
+for which there is a system of multipliers $\{e_\gamma\}$ satisfying the [[functional equation]] which says that for each $z \in V$ and $\gamma \in \Gamma \hookrightarrow V$ we have
+
+$$
+  \theta(z + \gamma) = e_\gamma(z) \theta(z)
+  \,.
+$$
+
+e.g. ([Beauville, above prop. 2.2](#Beauville))
 
 ## Examples
 
@@ -69,7 +103,7 @@ A modern textbook account is
 
 Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
 
-* Arnaud Beuville, _Theta functions, old and new_ ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
+* {#Beauville} [[Arnaud Beuville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
 
 * {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
 
