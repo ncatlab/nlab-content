@@ -5,10 +5,10 @@
 
 ## Idea
 
-The archetypical exmaple of a [[zeta function]]:
+The archetypical example of a [[zeta function]]:
 
 $$
-   \zeta \colon s \mapsto \underset{n = 1}{\sum}^\infty \frac{1}{n^s}
+   \zeta \colon s \mapsto \underoverset{n = 1}{\infty}{\sum} \frac{1}{n^s}
   \,.
 $$
 
@@ -41,6 +41,12 @@ $$
 $$
 
 e.g. ([Fesenko 08, section 0.1](#Fesenko08), [Kowalski, example 2.2.5 ](#Kowalski))
+
+### Analogs over number fields, function fields and complex curves
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+See also at _[[function field analogy]]_.
 
 ## References
 
