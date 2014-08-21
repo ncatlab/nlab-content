@@ -1,0 +1,8 @@
+[[!redirects zeta-functions and eta-functions and L-functions -- table]]
+
+
+|   | [[zeta function]] | [[eta function]] | [[theta function]] |
+|---|-----|-----------|-----|
+| [[differential geometry]]/[[analysis]] | [[zeta function of an elliptic differential operator]] | [[eta function of a self-adjoint operator]] | [[section]] of [[line bundle]] over [[complex torus]] |
+| [[number theory]] over a [[number field]] | [[Dedekind zeta function]] | [[Dirichlet L-function]] | [[Hecke theta function]] |
+| [[number theory]] over $\mathbb{Q}$ | [[Riemann zeta function]] |  | [[Jacobi theta function]] |
