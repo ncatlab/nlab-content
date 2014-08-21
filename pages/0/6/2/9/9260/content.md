@@ -1,35 +1,45 @@
-This entry (apart from few remarks) will be mainly about the general statistics and mathematical statistics. More about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]] see there. There is also a technical notion of [[statistic]] (singular). 
+
+# Statistics
+* table of contents
+{: toc}
+
+This entry (apart from a few remarks) will be mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of [[statistic]] (singular). 
+
 
 ## Idea
 
-Statistics studies analysis of collections of 
-random or sample data, and probabilistic 
+Statistics studies the [[analysis]] of collections of 
+random or sample data, and the probabilistic 
 likelihood of various inferences
-on the basis of these data, as well as the mathematical regularities in large ensembles of occurences of such data.
+on the basis of these data, as well as the mathematical regularities in large [[ensemble]]s of occurrences of such data.
 
 In physics, statistics also pertains to the behaviour of 
-large ensembles of particles. For identical particles 
+large ensembles of particles. For identical particles, 
 this is the subject of [[particle statistics]] and for
 general systems the subject of [[statistical mechanics]].
 
-Mathematical statistics is based on probability theory. 
-Most of the standard formalism uses measure theory as used in probability. Statistical mechanics in addition heavily uses [[ergodic theory]]. 
+Mathematical statistics is based on [[probability theory]]. 
+Most of the standard formalism uses [[measure theory]] as used in probability. Statistical mechanics in addition heavily uses [[ergodic theory]]. 
 
 
-### Definitions
+## Definitions
 
-A statistical model is a measurable function $P : \Theta \to \Delta(X)$, where $X$ and $\Theta$ are [[measurable spaces]] and $\Delta(X)$ is the [[simplex]] of [[probability measures]] over $X$.
+A __statistical model__ is a [[measurable function]] $P : \Theta \to \Delta(X)$, where $X$ and $\Theta$ are [[measurable spaces]] and $\Delta(X)$ is the [[simplex]] of [[probability measures]] over $X$.
 
 
-### To do 
+## To do 
 
 statistical methods
+
 
 ## Literature
 
 * Related $n$Lab entries include [[probability]], [[stochastic process]], [[statistical mechanics]], [[statistical significance]],
+
 * wikipedia: [statistics](http://en.wikipedia.org/wiki/Statistics), [statistic](http://en.wikipedia.org/wiki/Statistic) (singular!), [list of statistical packages](http://en.wikipedia.org/wiki/List_of_statistical_packages), 
 [descriptive statistics](http://en.wikipedia.org/wiki/Descriptive_statistics), [inferential statistics](http://en.wikipedia.org/wiki/Inferential_statistics), [data mining](http://en.wikipedia.org/wiki/Data_mining), [statistical theory](http://en.wikipedia.org/wiki/Statistical_theory), [estimation theory](http://en.wikipedia.org/wiki/Estimation_theory), [statistical significance](http://en.wikipedia.org/wiki/Statistical_significance), [regression analysis](http://en.wikipedia.org/wiki/Regression_analysis), [time series analysis](http://en.wikipedia.org/wiki/Time_series_analysis), [misuse of statistics](http://en.wikipedia.org/wiki/Misuse_of_statistics), [applied statistics](http://en.wikipedia.org/wiki/Applied_statistics)
+
 * [[Peter McCullagh]], _What is a statistical model?_,      Ann. Statist. __30__:5 (2002), 1225-1310 [euclid](http://projecteuclid.org/euclid.aos/1035844977) [MR1936320](http://www.ams.org/mathscinet-getitem?mr=1936320) [doi](http://dx.doi.org/10.1214/aos/1035844977) -- on applying category theory to describe statistical models. 
+
 
 category: physics
