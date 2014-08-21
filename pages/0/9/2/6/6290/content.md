@@ -8,9 +8,13 @@
 _$L$-functions_ are certain [[meromorphic functions]] generalizing the 
 [[Riemann zeta function]]. They are typically defined by what is called an _$L$-series_ which is then meromorphically extended to the [[complex plane]]. 
 
-Many L-functions have mutually similar deep features like satisfaction of a functional equation etc. The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dirichlet zeta function]]_ for which the L-series is complicated from the classical Riemann case by the presence of the additional parameter, the Dirichlet character. 
+Many L-functions have mutually similar deep features like satisfaction of a functional equation etc. The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dirichlet zeta function]]_ for which the L-series (the [[Dirichlet L-function]]) is complicated from the classical Riemann case by the presence of the additional parameter, the Dirichlet character. 
 
 ## Examples
+
+* [[Dirichlet L-function]]
+
+* [[Hecke L-function]]
 
 * [[Hasse-Weil L-function]]
 
