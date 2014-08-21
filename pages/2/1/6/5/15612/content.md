@@ -27,7 +27,7 @@ the study of [[arithmetic geometry]] which concentrates on arithmetic schemes of
 
 * [[Ivan Fesenko]], M. Kurihara (eds.), _Invitation to Higher Local Fields_, Geometry and Topology Monographs vol 3, Warwick 2000, 304 pp. ([web](https://www.maths.nottingham.ac.uk/personal/ibf/volume.html))
 
-* [[Ivan Fesenko]], _Analysis on arithmetic schemes. I_,  Docum. Math. Extra Volume Kato (2003) 261--284 ([pdf] (http://www.mathematik.uni-bielefeld.de/documenta/vol-kato/fesenko.dm.html)
+* [[Ivan Fesenko]], _Analysis on arithmetic schemes. I_,  Docum. Math. Extra Volume Kato (2003) 261--284 ([web] (http://www.mathematik.uni-bielefeld.de/documenta/vol-kato/fesenko.dm.html))
 
 * [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
 
