@@ -341,7 +341,7 @@ For these to be equal for all $a \in A$, $\rho(g)$ has to be the identity. Since
 +-- {: .num_prop}
 ###### Remark
 
-This means in particular that split central extensions are product groups $A \to G$. If all groups involved are [[abelian groups]], then these are equivalently the [[direct sums]] $A \otimes G$ of abelian groups. In this way the notion of split group extension reduces to that of [[split short exact sequences]] of abelian groups.
+This means in particular that split central extensions are product groups $A \to G$. If all groups involved are [[abelian groups]], then these are equivalently the [[direct sums]] $A \oplus G$ of abelian groups. In this way the notion of split group extension reduces to that of [[split short exact sequences]] of abelian groups.
 
 =--
 
