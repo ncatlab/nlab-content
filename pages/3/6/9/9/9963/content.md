@@ -99,6 +99,11 @@ See also
 
 * {#Fresse06} [[Benoit Fresse]], _The Bar Complex of an E-infinity Algebra_, Adv. Math.  223 (2010), pages 2049-2096 ([arXiv:math/0601085](http://arxiv.org/abs/math/0601085))
 
+and 
+
+* {#Schwede01} [[Stefan Schwede]], section 7.8 of _Stable Homotopy of Algebraic Theories_, 2001 ([pdf](http://www.math.uni-bonn.de/people/schwede/stable.pdf))
+
+
 with comments on the relation to [[nonunital algebras]].
 
 [[!redirects augmented A-infinity-algebras]]
