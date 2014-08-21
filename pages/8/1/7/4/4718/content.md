@@ -1,4 +1,3 @@
-[[!redirects rng]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,7 +26,9 @@ The term "non-unital ring" may be regarded as an example of the "[[red herring p
 
 In [[Bourbaki|Bourbaki 6, chapter 1]] the term _pseudo-ring_ is used, but that convention has not become established.
 
-Another terminology that has been suggested for "nonunital ring", and which is in use in part of the literature (e.g. [Anderson 06](#Anderson06)) is "rng", where dropping the "i" in "ring" is meant to be alluding to the absence of _i_dentity elements. This terminology appears in print first in ([Jacobson](#Jacobson)), where it is attributed to Louis Rowen. Similarly there is, for whatever it's worth, the suggestion that a ring without negatives, hence a [[semiring]], should be called a _[[rig]]_. 
+Another terminology that has been suggested for "nonunital ring", and which is in use in part of the literature (e.g. [Anderson 06](#Anderson06)) is "rng", where dropping the "i" in "ring" is meant to be alluding to the absence of _i_dentity elements. This terminology appears in print first in ([Jacobson](#Jacobson)), where it is attributed to Louis Rowen.
+
+Similarly there is, for whatever it's worth, the suggestion that a ring without negatives, hence a [[semiring]], should be called a _[[rig]]_ (although here one may make a technical distinction about the _additive_ identity). 
 
 =--
 
@@ -66,9 +67,11 @@ A non-unital ring may well contain an element that behaves as the [[identity]] e
 
 =--
 
+
 ### For $\mathbb{E}_k$-algebras
 
 [[nonunital Ek-algebras]] are discussed in ([Lurie, section 5.2.3](#Lurie)).
+
 
 ## Properties
 
@@ -195,6 +198,7 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 
 =--
 
+
 ## Related concepts
 
 * [[unitisation of C*-algebras]]
@@ -203,11 +207,16 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 
 * [[nonunital Ek-algebra]]
 
+
 ## References
  {#References}
 
 ### Nonunital ring theory
  {#ReferencesTheory}
+
+The terminology "rng" originates in
+
+* {#Jacobson} Nathan Jacobson _Basic Algebra_.  
 
 A survey of commutative rng theory is in 
 
@@ -233,32 +242,25 @@ Discussion in the context of [[higher algebra]] ([[nonunital Ek-algebras]]) is i
 
 * {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
 
-### Terminology
 
-The notation "rng" originates in
-
-* {#Jacobson} Nathan Jacobson _Basic Algebra_,  
-
-where the term is attributed to Louis Rowen.
-
-([[Bourbaki|Bourbaki 6, chapter 1]]) uses the term "pseudo-ring" instead, which however has not caught on and even if more sane, will be understood less than "rng".
-
+[[!redirects rng]]
 [[!redirects rngs]]
 
 [[!redirects nonunital ring]]
 [[!redirects nonunital rings]]
-
 [[!redirects non-unital ring]]
 [[!redirects non-unital rings]]
 
-[[!redirects unitisation of rings]]
+[[!redirects unitization of a ring]]
 [[!redirects unitization of rings]]
-
-[[!redirects unitisations of rings]]
 [[!redirects unitizations of rings]]
+[[!redirects unitisation of a ring]]
+[[!redirects unitisation of rings]]
+[[!redirects unitisations of rings]]
 
-[[!redirects unitisation of commutative rings]]
+[[!redirects unitization of a commutative ring]]
 [[!redirects unitization of commutative rings]]
-
-[[!redirects unitisations of commutative rings]]
 [[!redirects unitizations of commutative rings]]
+[[!redirects unitisation of a commutative ring]]
+[[!redirects unitisation of commutative rings]]
+[[!redirects unitisations of commutative rings]]
