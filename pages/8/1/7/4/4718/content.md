@@ -34,6 +34,8 @@ Another terminology that has been suggested for "nonunital ring", and which is i
 
 ## Definitions
 
+### For rings
+
 Specifically:
 
 +-- {: .num_defn}
@@ -64,6 +66,9 @@ A non-unital ring may well contain an element that behaves as the [[identity]] e
 
 =--
 
+### For $\mathbb{E}_k$-algebras
+
+[[nonunital Ek-algebras]] are discussed in ([Lurie, section 5.2.3](#Lurie)).
 
 ## Properties
 
@@ -142,7 +147,7 @@ $$
 
 =--
 
-+-- {: .num_defn #AugmentationIdealFunctor}
++-- {: .num_defn #EquivalenceOfNonunitalAndSliced}
 ###### Proposition
 
 The [[augmentation ideal]]-functor in def. \ref{AugmentationIdealFunctor} is an [[equivalence of categories]] whose inverse is given by [[unitisation]], def. \ref{Unitisation}, remembering the [[projection]] $(\mathbb{Z} \oplus A) \to \mathbb{Z}$:
@@ -183,12 +188,20 @@ In terms of [[arithmetic geometry]], the [[Isbell duality|formally dual]]  state
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital Ek-algebras]] is ([Lurie, prop. 5.2.3.15](#Lurie)).
+
+=--
+
 ## Related concepts
 
 * [[unitisation of C*-algebras]]
 
 * [[rig]]
 
+* [[nonunital Ek-algebra]]
 
 ## References
  {#References}
@@ -215,6 +228,10 @@ A definition of [[algebraic K-theory]] for nonunital rings is due to
 with further developments (in [[KK-theory]]) including
 
 * [[Snigdhayan Mahanta]], _Higher nonunital Quillen K'-theory, KK-dualities and applications to topological T-dualities_,  J. Geom. Phys., 61 (5), 875-889, 2011. ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
+
+Discussion in the context of [[higher algebra]] ([[nonunital Ek-algebras]]) is in 
+
+* {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
 
 ### Terminology
 
