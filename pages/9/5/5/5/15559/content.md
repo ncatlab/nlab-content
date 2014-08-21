@@ -10,6 +10,13 @@ The _Dedekind zeta function_ is a generalization of the [[Riemann zeta function]
 
 ## Properties
 
+### Relation to Hecke theta functions
+ {#RelationToThetaFunctions}
+
+The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
+
+
+
 ### Function field analogy
 
 [[!include function field analogy -- table]]
@@ -17,6 +24,9 @@ The _Dedekind zeta function_ is a generalization of the [[Riemann zeta function]
 ## References
 
 * Wikipedia, _[Dedekind zeta function](http://en.wikipedia.org/wiki/Dedekind_zeta_function)_
+
+* E. Kowalski, section 1.4 of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
+
 
 [[!redirects Dedekind zeta functions]]
 
