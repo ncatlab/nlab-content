@@ -7,21 +7,20 @@
 [[!include AQFT and operator algebra contents]]
 =--
 #### Noncommutative geometry
-+--{: .hide}
++-- {: .hide}
 [[!include noncommutative geometry - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The generalization of the process of [[one-point compactification]] of possibly non-[[compact topological space|compact]] [[topological spaces]] from [[topology]] to [[non-commutative topology]] is the process of adding units to possibly [[non-unital ring|non-unital]] [[C*-algebras]], thought of as formal duals of non-commutative spaces in [[noncommutative topology]].
+
 
 ## Definition
 
@@ -54,6 +53,7 @@ $$
 $$
 
 =--
+
 
 ## Examples
 
@@ -152,5 +152,22 @@ where on the right we [[homotopy classes]] of maps of [[compact support]] into t
 * [[Heath Emerson]], _Equivariant representable K-theory_ ([arXiv:0710.1410](http://arxiv.org/abs/0710.1410))
  {#Emerson07}
 
-[[!redirects unitisation of C-star algebras]]
 
+[[!redirects unitization of a C*-algebra]]
+[[!redirects unitization of C*-algebras]]
+[[!redirects unitizations of C*-algebras]]
+[[!redirects unitisation of a C*-algebra]]
+[[!redirects unitisation of C*-algebras]]
+[[!redirects unitisations of C*-algebras]]
+[[!redirects unitization of a C-star algebra]]
+[[!redirects unitization of C-star algebras]]
+[[!redirects unitizations of C-star algebras]]
+[[!redirects unitisation of a C-star algebra]]
+[[!redirects unitisation of C-star algebras]]
+[[!redirects unitisations of C-star algebras]]
+[[!redirects unitization of a C-star-algebra]]
+[[!redirects unitization of C-star-algebras]]
+[[!redirects unitizations of C-star-algebras]]
+[[!redirects unitisation of a C-star-algebra]]
+[[!redirects unitisation of C-star-algebras]]
+[[!redirects unitisations of C-star-algebras]]
