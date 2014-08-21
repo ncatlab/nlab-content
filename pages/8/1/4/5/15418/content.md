@@ -9,6 +9,10 @@
 
 [[!include function field analogy -- table]]
 
+## Related concepts
+
+[[!include zeta-functions and eta-functions and L-functions -- table]]
+
 ## References
 
 * Wikipedia, _[Selberg zeta function](http://en.wikipedia.org/wiki/Selberg_zeta_function)_
