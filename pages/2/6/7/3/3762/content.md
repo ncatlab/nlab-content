@@ -41,6 +41,8 @@ One way to understand the plethora of different zeta functions is to see them as
 
 * [[Beilinson regulator]]
 
+* [[zeta function of a Riemann surface]]
+
 ## References
 
 ### General
@@ -49,7 +51,9 @@ A general review is in
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter II of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
+Discussion in the more general context of [[higher arithmetic geometry]] is in 
 
+* {#Fesenko08} [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
 
 ### In algebraic geometry
 
@@ -67,6 +71,5 @@ A general review is in
 
 [[!redirects zeta functions]]
 
-[[!redirects Riemann zeta function]]
 
 
