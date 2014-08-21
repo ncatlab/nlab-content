@@ -26,6 +26,8 @@ See at _[Riemann zeta function -- Relation to Jacobi theta function](http://ncat
 
 * [[Poisson summation formula]], [[functional equation]]
 
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
 ## References
 
 * Wikipedia, _[Jacobi theta-function](http://en.wikipedia.org/wiki/Theta_function#Jacobi_theta_function)_
