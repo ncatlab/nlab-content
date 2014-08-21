@@ -302,6 +302,28 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[little cubes operad]]
 
+### 5.1 Definitions and basic properties
+
+### 5.2 Little cubes and manifold topology
+
+#### 5.2.1 Embeddings of topological manifolds
+
+#### 5.2.2 Variations on the little cubes operad
+
+#### 5.2.3 Nonunital $\mathbb{E}_k$-Algebras
+
+* [[nonunital ring]]
+
+* [[nonunital Ek-algebra]]
+
+* [[unitalization]]
+
+* [[augmented A-∞ algebra]]
+
+#### 5.2.4 Little cubes in a manifold
+
+### 5.3 Topological chiral homology
+
 * [[topological chiral homology]]
 
 ## 6. Algebraic structures on $\infty$-categories
@@ -400,6 +422,7 @@ The following is (or will eventually be) a linked list of keywords.
 
 
 * [[deformation theory]]
+
 
 
 ### 8.5 &#201;tale morphisms
