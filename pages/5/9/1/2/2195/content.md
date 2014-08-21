@@ -23,9 +23,8 @@ $$c_n := \hat{f}(\chi_n) = \int_0^1 f(t) e^{-2\pi i n t} d t,$$
 
 for $n\in\mathbb{Z}$, where the functions $\chi_n(t)= e^{2\pi i n t}$ form an orthonormal basis of $L_2(S^1,d t)$. The Fourier transform $\hat{\chi_n}$ is then viewed as the  $\mathbb{Z}$-series $\delta_n$ which in the $n$-th place has $1$ and elsewhere $0$. The Fourier transform replaces the operator of differentiation $d/d t$ by the operator of multiplication by the series $\{2\pi i n\}_{n\in\mathbb{Z}}$.
 
-### 
 
-In general, if $G$ is a [[compact space|compact]] abelian group (whose Pontrjagin dual is [[discrete space|discrete]]), one can normalize the invariant measure by $\mu(G)=1$ and $\hat{\mu}(X)=card(X)$ for $X\subset\hat{G}$. Then the Fourier transform restricts to a unitary operator from $L_2(X,\mu)$ to $L_2(\hat{G},\hat{\mu})$. 
+In general, if $G$ is a [[compact space|compact]] abelian group (whose [[Pontrjagin dual]] is [[discrete space|discrete]]), one can normalize the invariant measure by $\mu(G)=1$ and $\hat{\mu}(X)=card(X)$ for $X\subset\hat{G}$. Then the Fourier transform restricts to a unitary operator from $L_2(X,\mu)$ to $L_2(\hat{G},\hat{\mu})$. 
 
 A Fourier transform of a function on the real line $\mathbb{R}$ is called its __Fourier integral__:
 $$\hat{f}(\lambda)=\int_{-\infty}^\infty f(x) e^{-2\pi i\lambda x} d x.$$
@@ -43,15 +42,22 @@ For noncommutative topological groups, instead of continuous characters one shou
 
 * [[pseudodifferential operator]]
 
+* [[Poisson summation formula]]
+
 ## References
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 
 category: analysis
+
+[[!redirects Fourier transforms]]
+
+
 [[!redirects Fourier series]]
 [[!redirects Fourier integral]]
 [[!redirects Fourier analysis]]
 
 [[!redirects Fourier mode]]
 [[!redirects Fourier modes]]
+
 
