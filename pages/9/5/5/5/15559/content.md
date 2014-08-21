@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,6 +25,7 @@ The _Dedekind zeta function_ is a generalization of the [[Riemann zeta function]
 
 The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
 
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
 ### Function field analogy
