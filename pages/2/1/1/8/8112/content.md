@@ -73,6 +73,9 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
 
+* E. Kowalski, section 3 of  _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
+
+
 * D. Goldfeld, J. Hundley, chapter 2 of _Automorphic Representations and L-functions for the General Linear Group_, vol. 1, Cambridge University 
 Press, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
