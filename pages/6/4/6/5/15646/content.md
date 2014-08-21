@@ -4,5 +4,5 @@
 |   | [[zeta function]] | [[eta function]] | [[theta function]] |
 |---|-----|-----------|-----|
 | [[differential geometry]]/[[analysis]] | [[zeta function of an elliptic differential operator]] | [[eta function of a self-adjoint operator]] | [[section]] of [[line bundle]] over [[complex torus]] |
-| [[number theory]] over a [[number field]] | [[Dedekind zeta function]] | [[Dirichlet L-function]] | [[Hecke theta function]] |
-| [[number theory]] over $\mathbb{Q}$ | [[Riemann zeta function]] |  | [[Jacobi theta function]] |
+| [[arithmetic geometry]] for a [[number field]] | [[Dedekind zeta function]] | [[Hecke L-function]] | [[Hecke theta function]] |
+| [[arithmetic geometry]] for $\mathbb{Q}$ | [[Riemann zeta function]] | [[Dirichlet L-function]] | [[Jacobi theta function]] |
