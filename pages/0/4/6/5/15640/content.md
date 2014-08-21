@@ -40,7 +40,7 @@ $$
  \,.
 $$
 
-e.g. ([Fesenko 08, section 0.1](#Fesenko08))
+e.g. ([Fesenko 08, section 0.1](#Fesenko08), [Kowalski, example 2.2.5 ](#Kowalski))
 
 ## References
 
@@ -48,5 +48,8 @@ e.g. ([Fesenko 08, section 0.1](#Fesenko08))
 Discussion in the more general context of [[higher arithmetic geometry]] is in 
 
 * {#Fesenko08} [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
+
+* {#Kowalski} E. Kowalski, first part of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
+
 
 [[!redirects Riemann zeta-function]]
