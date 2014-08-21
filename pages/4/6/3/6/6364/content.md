@@ -9,17 +9,16 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-The _unitalization of a  non-unital [[algebra]] is a unital algebra with a "unit" (an [[identity]] element) [[free construction|freely]] adjoined.
+The _unitalization_ of a non-unital [[algebra]] is a unital algebra with a "unit" (an [[identity]] element) [[free construction|freely]] adjoined.
 
 
-## Definition
+## Definitions
 
 ### For (non)associative algebras
 
@@ -37,6 +36,7 @@ We often write $(a, r)$ as $a + r$ or $a \oplus r$, which makes the above formul
 
 If $A$ is an [[associative algebra]], then $A^+$ will also be associative; if $A$ is a [[commutative algebra]], then $A^+$ will also be commutative.
 
+
 ### For other (special) cases
 
 See 
@@ -45,15 +45,18 @@ See
 
 * _[[unitisation of C*-algebras]]_.
 
+
 ### For $\mathbb{E}_k$-algebra
 
 Unitisation in the generality of [[Ek-algebra]] -- hence for [[nonunital Ek-algebras]] -- unitalization is the content of ([Lurie, prop. 5.2.3.13](#Lurie)).
+
 
 ## Related concepts
 
 * [[unit]]
 
 * [[unitality]]
+
 
 ## References
 
@@ -64,9 +67,7 @@ Unitisation in the generality of [[Ek-algebra]] -- hence for [[nonunital Ek-alge
 [[!redirects unitalizations]]
 [[!redirects unitalisation]]
 [[!redirects unitalisations]]
-
 [[!redirects unitization]]
 [[!redirects unitizations]]
-
 [[!redirects unitisation]]
 [[!redirects unitisations]]
