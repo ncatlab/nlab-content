@@ -25,9 +25,9 @@
 
 Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|prinicpally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
 (e.g. [Polishchuk 03, section 17](#Polishchuk03)). The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
-Expressed in local [[coordinates]] $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
+Expressed in local [[coordinates]] on $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
 
-Specifically in a context of [[arithmetic]] by _the_ theta function one usually means the _[[Jacobi theta function]]_, see there for more
+Specifically in a context of [[arithmetic]] by _the_ theta function one usually means the _[[Jacobi theta function]]_, see there for more.
 
 
 ### In quantization
@@ -80,7 +80,7 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 
 Relation to [[conformal blocks]]:
 
-* Arnaud Beauville, Yves Laszlo, _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
+* [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
  {#BeauvilleLaszlo93}
 
 Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
