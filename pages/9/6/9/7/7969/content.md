@@ -31,6 +31,8 @@ Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _th
 
 Certain integrals of theta functions yield [[zeta functions]], see also at _[[function field analogy]]_.
 
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
 ### In quantization
 
 Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
@@ -86,6 +88,8 @@ e.g. ([Beauville, above prop. 2.2](#Beauville)), also ([Beauville, section 3.4](
 
 * [[mock theta function]]
 
+* [[elliptic function]]
+
 [[!include square roots of line bundles - table]]
 
 
@@ -97,13 +101,16 @@ Introductions to the traditional notion include
 
 * M. Bertola, _Riemann surfaces and theta  functions_ ([pdf](http://www.mathstat.concordia.ca/faculty/bertola/ThetaCourse/ThetaCourse.pdf))
 
-A modern textbook account is
+Modern textbook accounts include
+
+* {#Mumford83} [[David Mumford]], _Tata Lectures on Theta_, Birkh&#228;user 1983
 
 * {#Polishchuk03} [[Alexander Polishchuk]], section 17 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
 
+
 Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
 
-* {#Beauville} [[Arnaud Beuville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
+* {#Beauville} [[Arnaud Beauville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
 
 * {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
 
