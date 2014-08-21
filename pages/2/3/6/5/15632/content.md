@@ -32,7 +32,7 @@
 
 A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of _quantitative_ variation via its _qualitative_ aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in [[geometry]] or [[dynamics]] that problems permit (only) a qualitative analysis.
 
-A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in broad a sense, quality types are intended as ingredients to a _synthetic homotopy theory_ where the (homotopy) contraction of a space (the collapsing of a cylinder/two idempotents) is extracted as essence of the concept of a spatial 'attribute'. 
+A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in broad a sense, quality types are intended as ingredients to a _synthetic homotopy theory_[^SHT] where the (homotopy) contraction of a space (the collapsing of a cylinder/two idempotents) is extracted as essence of the concept of a spatial 'attribute'. 
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in [Johnstone (1996)](#JS96).
 
@@ -94,3 +94,6 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A fully faithful func
 * {#Menni14a} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , ms. (2014). ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
+
+
+[^SHT]: Meanwhile, in an alternative direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
