@@ -26,7 +26,7 @@ $$
 
 ## Related concepts
 
-[[!include zeta-functions and eta-functions and L-functions -- table]]
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
