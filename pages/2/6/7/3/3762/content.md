@@ -12,12 +12,13 @@ $$
   \,.
 $$
 
-Under the [[function field analogy]] one may understand this function in terms of the counting of points in $Spec(\mathbb{Z})$. This induces a plethora of generalizations: the _[[Dedekind zeta function]]_ generalizes this from [[integers]]/[[rational numbers]]  to [[number fields]]/their [[rings of integers]], the [[Goss zeta function]] to [[function fields]], the [[Weil zeta function]] (which is the topic of the famous [[Weil conjectures]]) to more general [[varieties]] over [[finite fields]], and the [[Selberg zeta function]] to [[complex curves]]([[Riemann surfaces]]). How all this hangs together is surveyed below in _[function field analogy](#FunctionFieldAnalogy)_.
+Under the [[function field analogy]] one may understand this function in terms of the counting of points in $Spec(\mathbb{Z})$. This induces a plethora of generalizations: the _[[Dedekind zeta function]]_ generalizes this from [[integers]]/[[rational numbers]]  to [[number fields]]/their [[rings of integers]], the [[Goss zeta function]] to [[function fields]], the [[Weil zeta function]] (which is the topic of the famous [[Weil conjectures]]) to more general [[varieties]] over [[finite fields]], and the [[Selberg zeta function]] to [[complex curves]]([[Riemann surfaces]]). How all this hangs together is surveyed below in _[function field analogy](#FunctionFieldAnalogy)_. 
+
+Finally in [[analysis]] there is the [[zeta function of an elliptic differential operator]], which is the sum over given powers of all its [[eigenvalues]]. 
 
 
 This way many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]].  There are several articles trying to attach zeta functions attached to [[triangulated categories]] (and [[stable model categories]]...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for [[motives]]. 
 
-(...)
 
 ## Properties
 
@@ -32,7 +33,6 @@ One way to understand the plethora of different zeta functions is to see them as
 
 * [[multiple zeta values]], [[motivic multiple zeta values]], [[motivic integration]], [[motive]]
 
-
 * [[Weil conjecture]]
 
 * [[Riemann hypothesis]]
@@ -42,6 +42,8 @@ One way to understand the plethora of different zeta functions is to see them as
 * [[Beilinson regulator]]
 
 * [[zeta function of a Riemann surface]]
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
@@ -72,6 +74,5 @@ Discussion in the more general context of [[higher arithmetic geometry]] is in
 * [[John Baez]], _[[johnbaez:Zeta functions]]_
 
 [[!redirects zeta functions]]
-
 
 
