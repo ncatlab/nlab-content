@@ -20,6 +20,10 @@ A certain [[integral]] over a kernel involving the Hecke theta function gives th
 
 [[!include function field analogy -- table]]
 
+## Related concepts
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
 ## References
 
 * {#Kowalski} E. Kowalski, first part of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
