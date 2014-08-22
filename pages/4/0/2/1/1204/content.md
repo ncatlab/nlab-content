@@ -64,7 +64,7 @@ Notes from an introductory survey talk are in
 
 Other references include
 
-* [[Ronnie Brown]], _The twisted Eilenberg-Zilber Theorem_,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
+* [[Ronnie Brown]], _The twisted Eilenberg-Zilber Theorem_,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio. ([pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf))
 
 * Donald W. Barnes, (5-SYD-PM); [[Larry Lambe|Larry A. Lambe]], (5-SYD-PM)
 A fixed point approach to homological perturbation theory.
@@ -85,6 +85,12 @@ Discussion in the context of [[BV-quantization]] is in section 2.5 of
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
+
+### For applications to  "make computable" a bicategory 
+
+of isolated hypersurface singularities and matrix factorisations comp that has been studied in the context of [[topological field theory]], using the Barnes-Lambe formulation,  see: 
+
+* Daniel Murfet, Computing with cut systems, arXiv:1402.4541
 
 
 
