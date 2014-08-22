@@ -97,10 +97,6 @@ The original connectivity  statement of the theorem is due to
 * [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
   {#BlakersMassey51}
 
-and the algebraic statement and proof is in 
-
-* [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
-
 This is reviewed for instance as Theorem 4.23 in the textbook
 
 * {#Hatcher} [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
@@ -109,22 +105,37 @@ and as Theorem 6.4.1 in
 
 * {#tomDiek08} [[Tammo tom Dieck]],  _Algebraic Topology_, EMS Textbooks in Mathematics, (2008). 
 
+The algebraic statement and proof is in 
+
+* [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
+
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
-* R. Brown and J.-L. Loday, Homotopical excision, and Hurewicz
+* [[Ronnie Brown|R. Brown]] and J.-L. Loday, Homotopical excision, and Hurewicz
 theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
 (3) 54 (1987) 176-192.
 
 which relies essentially on the paper 
 
-* R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of
+* [[Ronnie Brown| R. Brown]] and J.-L. Loday, Van Kampen theorems for diagrams of
 spaces,  _Topology_ 26 (1987) 311-334, 
 
-for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 128 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
+for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 131 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
 
-Also relevant to $n$-ad connectivity is 
+Further applications are explained in 
+
+[[Ronnie Brown|R. Brown]],  Triadic Van Kampen theorems and Hurewicz theorems, _
+Algebraic  Topology, Proc. Int. Conf. March 1988_, Edited
+M.Mahowald and S.Priddy,  Cont. Math. 96 (1989) 39-57.
+
+The following paper  applies the methods of the above two Brown-Loday papers to the well known problem of $n$-ad connectivity and to determination of the critical group, see Theorem 3.8 of: 
 
 * Ellis, G.J. and Steiner, R. Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$-ads. _J. Pure Appl. Algebra_ 46 (1987) 117--136. 
+
+The methods work because of their equivalence between cat$^n$-groups and crossed $n$-cubes of groups. This can be explained by saying that wee need two kinds of algebraic categories for calculations with $(n+1)$-types: _broad_ categories for conjecturing and proving theorems, and _narrow_ algebraic categories for calculations and relations with classical ideas. In this case the broad category is that of cat$^n$-groups, and the narrow category is that of crossed $n$-cubes of groups, which are related geometrically to the homotopy groups of $r$-ads and to generalised Whitehead products. The tricky equivalence between the two kinds of categories is one of the engines behind the results, since it enables the use of whichever category is most convenient at any given time. Note also these two categories model weak, pointed, homotopy $(n+1)$-types, as shown by Loday in his paper
+
+* J.-L. Loday,  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
+
 
 Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
 
