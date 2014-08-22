@@ -24,6 +24,8 @@ $$
   \,.
 $$
 
+e.g. ([Duistermaat-Guillemin 75 (2.13)](#DuistermaatGuillemin75))
+
 ## Related concepts
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
@@ -31,6 +33,12 @@ $$
 ## References
 
 * Wikipedia, _[Functional determinant -- Zeta function version](http://en.wikipedia.org/wiki/Functional_determinant#Zeta_function_version)_
+
+
+* {#DuistermaatGuillemin75} [[Hans Duistermaat]], [[Victor Guillemin]], _The Spectrum of Positive Elliptic Operators and Periodic Bicharacteristics_,Inventiones mathematicae (1975) Volume: 29, page 39-80 ([EuDML](https://eudml.org/doc/142329))
+
+ (see also at _[[Duistermaat-Guillemin trace formula]]_)
+
 
 * {#Richardson} [[Ken Richardson]], section 3 of _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
