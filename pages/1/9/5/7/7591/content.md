@@ -126,7 +126,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-It ought to be true that the non-connective delooping $bgl_1^\ast(E)$ is equivalent to or at least closely related to the [[Picard ∞-group]] of $E Mod$. ([Sagave 11, remark 4.11](#Sagave11)).
+It ought to be true that the non-connective delooping $bgl_1^\ast(E)$ sits inside the full [[Picard ∞-group]] of $E Mod$. ([Sagave 11, remark 4.11](#Sagave11)). (Apparently it's the full inclusion on those degree-0 twists which are grading twists, i.e. on the elements $(-)\wedge\Sigma^n E$.)
 
 See also at _[twisted cohomology -- by R-module bundles](twisted+cohomology#InfSections)_.
 
@@ -378,6 +378,7 @@ A refinement of the construction of $\infty$-groups of units to [[augmented ∞-
 based on ([Schlichtkrull 04](#Schlichtkrull04)). See also
 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
+
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
 
