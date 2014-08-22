@@ -11,6 +11,8 @@ A certain identity for cetain [[Fourier transforms]].
 
 * [[functional equation]]
 
+* A nonabelian version of the Poisson summation formula is the [[Selberg trace formula]].
+
 ## References
 
 Reviews include
