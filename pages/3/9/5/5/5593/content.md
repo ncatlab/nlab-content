@@ -38,7 +38,7 @@ We now define a **covering uniformity** on a locale $X$ to be a collection of co
 5. For any open part $A\in Op(X)$, we have
    $$ A = \bigvee \{ B | \exists \;\text{ a uniform cover }\; C \;\text{ such that }\; C[B] \le A \} $$
 
-The last condition is the one saying that "the induced topology is again the topology of $X$."; the other conditions correspond precisely to the [uniform-cover definition](uniform+space#ucover) of a uniform topological space.
+The last condition is the one saying that "the induced topology is again the topology of $X$."; the other conditions correspond precisely to the [uniform-cover definition](uniform+space#ucov) of a uniform topological space.
 
 
 ### Entourage uniformities
