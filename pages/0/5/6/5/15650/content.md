@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,14 +24,14 @@ The nonunital variant of _[[Ek-algebra]]_, hence the generalization of the conce
 
 Nonunital $\mathbb{E}_k$-algebras are equivalent to unital $\mathbb{E}_k$-algebras sliced over the free $\mathbb{E}_k$-algebra on a single generator.
 
-In particular nonunital [[E-∞ algebras]] are equivalent to unital $E_\infty$-algebras sliced over the [[sphere spectrum]]:
+In particular nonunital [[E-∞ algebras]] are [[equivalence of (∞,1)-categories|equivalent]] to unital $E_\infty$-algebras sliced over the [[sphere spectrum]]:
 
 $$
-  E_\infty ring^{nu} \simeq E_\infty Ring_{/\mathbb{S}}
+  E_\infty Ring^{nu} \simeq E_\infty Ring_{/\mathbb{S}}
   \,,
 $$ 
 
-where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]].
+where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]] and the converse by forming [[augmentation ideals]].
 
 ([Lurie, prop. 5.2.3.15](#Lurie))
 
@@ -52,5 +62,4 @@ where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]].
 
 [[!redirects nonunital E-infinity ring]]
 [[!redirects nonunital E-infinity rings]]
-
 
