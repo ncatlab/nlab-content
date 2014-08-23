@@ -77,6 +77,9 @@ Regarding the last point, in particular [[Borger's absolute geometry]] ([Borger 
 
 [[!include function field analogy -- table]]
 
+$\,$
+
+[[!include Langlands analogies -- table]]
 
 ## References
 
