@@ -89,4 +89,8 @@ More discussion of all this is at [[schreiber:differential cohomology in a cohes
 
 18 years later at the same place, Lawvere gives a lecture series on this topic: _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_.
 
+## References
+
+* A sequence of videos covering the talk in Como is available [on YouTube](http://www.youtube.com/playlist?list=PLRIsuk3ZOitzDqeVKOZhe0MrzEUtRNAh5)
+
 category: reference
