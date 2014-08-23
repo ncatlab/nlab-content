@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -20,82 +19,71 @@
 
 ## Idea
 
+_Stable dg-categories_ over a [[commutative ring]] $k$ (often referred to as _pretriangulated dg-categories_) are, roughly speaking, [[dg-categories]] whose [[homotopy category of a dg-category|homotopy category]] is canonically [[triangulated category|triangulated]].  These form a model for [[stable (∞,1)-category|stable]] [[k-linear (∞,1)-categories]], in a sense which is made precise below (at least in [[characteristic zero]]).  In other words stable dg-categories can be viewed as [[enhanced triangulated categories]].
 
-Pretriangulated dg-categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(∞,1)-category|(∞,1)-categories]] (see ([Cohn 13](#Cohn13))).
+## History
 
-The zeroth cohomology category of a pretriangulated dg-category is an ordinary [[triangulated category]], hence a morphism from $H^0(C)\to D$ where $C$ is a pretriangulated dg-category and $D$ a triangulated category is called an [[enhanced triangulated category|enhanced triangulated categories]].
+The notion of stable dg-category goes back to [(Bondal-Kapranov 1990)](#BondalKapranov90), where they were called pretriangulated dg-categories.  Here we prefer to use the term _stable_ in order to agree with the terms [[stable (infinity,1)-category]] and [[stable model category]].
 
+[[Goncalo Tabuada]] demonstrated the existence of a [[model structure]] on the category of small [[dg-categories]], the [[quasi-equiconic model structure on dg-categories]], where the [[fibrant objects]] are the stable dg-categories.  See [(Tabuada 07, Theorem 2.2 and Proposition 2.10)](#Tabuada07).  This model structure can be [[left Bousfield localization|Bousfield localized]] to the [[Morita model structure on dg-categories]], where the [[fibrant objects]] are the [[idempotent complete (infinity,1)-category|idempotent complete]] stable dg-categories.  In [(Cohn 13)](#Cohn13) it is shown that the associated [[(infinity,1)-category]] is equivalent to the [[(infinity,1)-category]] of [[stable (infinity,1)-category|stable]] [[k-linear (∞,1)-categories]].
 
 ## Definition
 
-Let $E$ be a [[DG category]].
+Let $A$ be a [[dg-category]] and $P(A)$ the dg-category of [[dg-presheaves]] or right [[dg-modules]] over $A$.  The [[Yoneda embedding]] induces a [[fully faithful functor]] $h : ho(A) \hookrightarrow ho(P(A))$ on the [[homotopy category of a dg-category|homotopy categories]].  The category $ho(P(A))$ has a canonical [[triangulated structure]] (which can be written down directly).
 
 +-- {: .un_defn}
 ###### Definition
-The **$n$-translation** of an object $X \in E$ is an object $X[n] \in E$ representing the functor
+The dg-category $A$ is called **stable** if the functor $h$ is stable under the [[suspension functor]] (and its [[loop space functor|inverse]]), and under taking [[mapping cones]] in $ho(P(A))$.
+=--
+
++-- {: .un_prop}
+###### Proposition
+A dg-category $A$ is stable if and only if it is a [[fibrant object]] in the [[quasi-equiconic model structure on dg-categories]].
+=--
+
+See [(Tabuada 07, Proposition 2.10)](#Tabuada07).
+
+### Strongly stable dg-categories
+
+Let $A$ be a [[dg-category]].
+
++-- {: .un_defn}
+###### Definition
+The **$n$-translation** of an object $X \in A$ is an object $X[n] \in A$ representing the functor
   $$ \Hom(\cdot, X)[n]. $$
-The **cone** of a closed morphism $f : X \to Y$ of degree zero is an object $\Cone(f) \in E$ representing the functor
+The **cone** of a closed morphism $f : X \to Y$ of degree zero is an object $\Cone(f) \in A$ representing the functor
   $$ \Cone(\Hom(\cdot, X) \stackrel{f_*}{\to} \Hom(\cdot, Y)), $$
 which is a [[mapping cone]] in [[category of chain complexes|chain complexes]].
 =--
 
 +-- {: .un_defn}
 ###### Definition
-$E$ is called **strongly pretriangulated** if it admits a [[zero object]], all translations of all objects, and all cones of all morphisms.
+The dg-category $A$ is called **strongly stable** if it admits a [[zero object]], all translations of all objects, and all cones of all morphisms.
 =--
-
-+-- {: .num_prop}
-###### Proposition
-For every DG category $E$, there exists a strongly pretriangulated DG category $\PreTr(E)$ and a [[fully faithful]] DG functor $E \hookrightarrow \PreTr(E)$ such that for any DG functor $F: E \to E'$ to a strongly pretriangulated DG category $E'$, there exists a unique lift $\hat F : \PreTr(E) \to E'$.
-=--
-
-See below for a construction of $\PreTr(E)$.
 
 +-- {: .un_defn}
 ###### Definition
-The DG category $E$ is called **pretriangulated** if the induced functor $\H^0(E) \to \H^0(\PreTr(E))$ is an [[equivalence]].
+Let $A$ be a dg-category.  A **strongly stable envelope** of $A$ is the data of a strongly stable dg-category $tri(A)$ and a [[fully faithful]] functor $A \hookrightarrow tri(A)$ such that any functor $u: A \to B$ to a strongly stable dg-category $B$ factors uniquely through a functor $tri(A) \to B$.
 =--
+
+A strongly stable envelope $A \hookrightarrow tri(A)$ always exists, and may be constructed by taking $tri(A)$ to be the [[full subcategory|full]] [[triangulated subcategory]] of $ho(P(A))$ generated by the [[representable presheaves]], and $A \hookrightarrow tri(A)$ to be the functor induced by the Yoneda embedding.  Here $P(A)$ denotes the [[dg-category]] of [[dg-presheaves]] on $A$.  There is also another construction using twisted complexes, see [Bondal-Kapranov](#BondalKapranov90).
+
+Now we have the following characterization of stability.
 
 +-- {: .num_prop}
 ###### Proposition
-For $E$ a pretriangulated dg-category, the homotopy category $H^0(E)$ is naturally a [[triangulated category]].
+Let $A$ be a dg-category and $A \hookrightarrow tri(A)$ be a strongly stable envelope of $A$.
+$A$ is stable if and only if the induced fully faithful functor $ho(A) \hookrightarrow ho(tri(A))$ is [[essentially surjective]] (and hence an [[equivalence of categories]]).
 =--
+
+As an immediate corollary, note that for a stable dg-category $A$, its [[homotopy category of a dg-category|homotopy category]] $ho(A)$ inherits a canonical triangulated structure.
+
+### Properties
 
 +-- {: .num_prop}
 ###### Proposition
-The morphism
-
-$$
-  H^0(PreTr(E)) \to H^0(E)
-$$
-
-is an [[equivalence of categories|equivalence]] of [[triangulated category|triangulated categories]].
+Let $u : A \to B$ be a functor between two dg-categories.  If $A$ and $B$ are stable then the induced functor $ho(u): ho(A) \to ho(B)$ is [[triangulated functor|triangulated]].  Further, $u$ is a [[quasi-equivalence of dg-categories|quasi-equivalence]] if and only if $ho(u)$ is a triangulated equivalence.
 =--
-
-+-- {: .num_prop}
-###### Proposition
-If $F : E \to E'$ is a DG functor between two pretriangulated DG categories, then
-
-* $F$ commutes with translation and preserves cones;
-* the induced functor $H^0(F)$ is a [[triangulated category|triangulated functor]] on the [[homotopy category|homotopy categories]];
-* $F$ is a [[quasi-equivalence of DG categories|quasi-equivalence]] if and only if $H^0(F)$ is a triangulated equivalence.
-=--
-
-
-## Definition using twisted complexes
-
-For $E$ a [[differential graded category|dg-category]] let $PreTr(E)$ be its dg-category of [[twisted complex]]es.
-
-$E$ is **pretriangulated** if for every [[twisted complex]] $K \in PreTr(E)$ the corresponding dg-functor
-
-$$
-  PreTr(-,K) : E^{op} \to C(Ab)
-$$
-
-is [[representable functor|representable]].
-
-In other words, twisted complexes in $PreTr(E)$ have representatives in $E$.
-
 
 ## Related concepts
 
@@ -109,13 +97,22 @@ In other words, twisted complexes in $PreTr(E)$ have representatives in $E$.
 
 ## References
 
-* A. I. Bondal, [[Mikhail Kapranov]], Enhanced triangulated categories, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
+* {#BondalKapranov90} [[Alexei Bondal]], [[Mikhail Kapranov]], Enhanced triangulated categories, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
-See _[[enhanced triangulated category]]_ for more links to references.
+The [[model structure]] presenting stable dg-categories is discussed in
+
+* {#Tabuada07} [[Goncalo Tabuada]], _Theorie homotopique des DG-categories_, Ph.D. thesis, Universite Denis Diderot - Paris 7, [arXiv:0710.4303](http://arxiv.org/abs/0710.4303).
+
+For a clear overview of the various [[model structures on dg-categories]], see Section 2 of the paper
+
+* {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Non-connective K-theory via universal invariants_, Compositio Math. 147 (2011), 1281-1320, [arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf).
 
 The relation to [[stable (infinity,1)-categories]] is discussed in
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
-[[!redirects pre-triangulated dg-category]]
+[[!redirects stable dg-categories]]
+[[!redirects pretriangulated dg-category]]
 [[!redirects pretriangulated dg-categories]]
+[[!redirects pre-triangulated dg-category]]
+[[!redirects pre-triangulated dg-categories]]
