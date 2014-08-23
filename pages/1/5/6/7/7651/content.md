@@ -135,6 +135,8 @@ vector fields and flows)
 
 * [[cohomological integration]]
 
+* [[adelic integration]]
+
 [[!include infinitesimal and local - table]]
 
 
