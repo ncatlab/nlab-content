@@ -99,6 +99,11 @@ The idele class group is a key object in _[[class field theory]]_.
 
 ## Properties
 
+### Automorphic forms and Relation to Dirichlet characters
+
+The [[automorphic forms]] of the idele group areessentially
+[[Dirichlet characters]] in disguise ([Goldfeld-Hundley 11, below def. 2.1.4](#GoldfeldHundley11))
+
 ### Function field analogy
  {#FunctionFieldAnalogy}
 
@@ -130,6 +135,7 @@ Basics are recalled in
 
 * {#Weston} Tom Weston, _The idelic approach to number theore_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  
+* {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
  
 Discussion in the context of the [[geometric Langlands correspondence]] is in 
@@ -141,3 +147,5 @@ Discussion in the context of the [[geometric Langlands correspondence]] is in
 
 [[!redirects idele class group]]
 [[!redirects idele class groups]]
+
+[[!redirects idele group]]
