@@ -32,13 +32,13 @@
 
 A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of _quantitative_ variation via its _qualitative_ aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in [[geometry]] or [[dynamics]] that problems permit (only) a qualitative analysis.
 
-A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in broad a sense, quality types are intended as ingredients to a  _synthetic homotopy theory_[^SHT] where the (homotopy) contraction of a space (the collapsing of a cylinder/two [[idempotents]]) is extracted as essence of the concept of a spatial 'attribute'. 
+A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in a very broad sense, quality types are intended as ingredients to a  _synthetic homotopy theory_[^SHT] where the (homotopy) contraction of a space (the collapsing of a [[cylinder object|cylinder]]/two [[idempotents]]) is extracted as essence of the concept of a spatial 'attribute'. 
 
-Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in [Johnstone (1996)](#JS96).
+Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in ([Johnstone 1996](#JS96)).
 
-In typical (topos) cases these come in the form of [[adjoint modalities]] or [[adjoint triples|adjoint strings]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[section|section functor]] coincide: $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for the domain space of the functors that  every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces** in ([Lawvere 2008](#Law08)).
+In typical (topos) cases these come in the form of [[adjoint modalities|adjoint cylinders]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[section|section functor]] coincide (="collapse"): $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for the domain space of the functors that  every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces** in ([Lawvere 2008](#Law08)).
 
-Hence from a more _geometrical point of view_, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' points which in turn can be viewed as a 'minimal' vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion. (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
+Hence from a more _geometrical point of view_, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' or 'coarse' points which in turn can be viewed as a minimal vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion.[^GoC] (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
 Quality types together with the _continuity axiom_ are an essential ingredient to Lawvere's [2007 axioms](#Law07) for geometry. ([Lawvere 2008](#Law08)) points to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
@@ -54,7 +54,7 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 
 * Kan complexes over $Set$ (...)
 
-* Galois theory - presheaves on the opposite of the category of finite-diemnsional local k-algebras (Lawvere 2004) (...)
+* Galois theory - presheaves on the opposite of the category of finite-dimensional local k-algebras (Lawvere 2004) (...)
 
 * First example of quality type over topos of reflexive graphs (...)
 
@@ -72,7 +72,7 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 
 ## Remarks on the literature
 
-The definition of quality types occurs in ([Lawvere 2007](#Law07)) with important additional remarks in ([Lawvere 2008](#Law08)). The first occurrence of a quality type is in the work of the 1980s in the context of the gros topos of graphs: a discussion of this example is in ([Lawvere 1989](#Law89a)) where already the contrast to sufficient cohesion is observed. They resurface without an explicit definition in the [2004 paper](Law04) on data types.
+The definition of quality types occurs in ([Lawvere 2007](#Law07)) with important additional remarks in ([Lawvere 2008](#Law08)). The first occurrence of a quality type is in the work of the 1980s in the context of the gros topos of graphs: a discussion of this example is in ([Lawvere 1989](#Law89a),  p.277) where already the contrast to sufficient cohesion is observed. They resurface without an explicit definition in the [2004 paper](Law04) on data types.
 
 Under the name of quintessential localization they are the focus of ([Johnstone 1996](JS96)) where the characterization via central idempotents is given. Some additional results occur in the context of the [[Nullstellensatz]] in ([Johnstone 2011](#JS11)). ([Menni 2014](#Menni14b)) attends to the contrast between quality types and sufficient cohesion.
 
@@ -92,7 +92,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of Mathematics_ , de Gruyter Berlin 1992.
 
-* {#Law96} F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Law96} [[F. W. Lawvere]], _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
 
 * {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
@@ -107,4 +107,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
 
-[^SHT]: Meanwhile, in an alternative direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
+[^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's reflections don't provide a fully fledged homotopy theory but are rather observations or meditations on the role of the cylinder configuration in the analysis of space. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
+In a complementary direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
+
+[^GoC]: From another perspective, one could view a quality type as a set with germs of cohesion.
