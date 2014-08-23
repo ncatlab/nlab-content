@@ -62,6 +62,8 @@ $$
 
 * [[arithmetic jet space]]
 
+* [[adelic integration]]
+
 * [[higher arithmetic geometry]]
 
 * [[E-∞ arithmetic geometry]]
