@@ -21,31 +21,15 @@
 
 ## Idea
 
-Triangulated categories were introduced by [[Jean-Louis Verdier]] under the supervision of [[Grothendieck]], motivated by the triangulated structure on [[derived categories]].
+Any [[(infinity,1)-category]] $C$ can be flattened, by ignoring higher morphisms, into a [[1-category]] $ho(C)$ called its [[homotopy category of an (∞,1)-category|homotopy category]].  The notion of a _triangulated structure_ is designed to capture the additional structure canonically existing on $ho(C)$ when $C$ has the property of being [[stable (infinity,1)-category|stable]].  This structure can be described roughly as the data of an invertible [[suspension functor]], together with a collection of sequences called _distinguished triangles_, which behave like [[decategorification|shadows]] of [[homotopy cofibre sequence|homotopy (co)fibre sequences]] in [[stable (infinity,1)-categories]], subject to various axioms.
 
-A _triangulated category_ is a [[category]] equipped with a notion of [[suspension objects]]/[[loop space objects]] for all of its objects such that in terms of these every [[morphism]] fits into a sequence that behaves like a [[homotopy fiber sequence]].
+A central class of examples of triangulated categories are the [[derived categories]] $D(\mathcal{A})$ of [[abelian categories]] $\mathcal{A}$. These are the [[homotopy category of an (∞,1)-category|homotopy categories]] of the stable [[(∞,1)-categories of chain complexes]] in $\mathcal{A}$.  However the notion also encompasses important examples coming from [[nonabelian]] contexts, like the [[stable homotopy category]], which is the [[homotopy category]] of the [[stable (infinity,1)-category|stable]] [[(infinity,1)-category of spectra]].  Generally, it seems that all triangulated categories appearing in nature arise as [[homotopy categories]] of [[stable (infinity,1)-categories]] (though examples of "exotic" triangulated categories probably exist).
 
-More precisely, a _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (∞,1)-category|homotopy category]] of a [[stable (∞,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way, and in fact often from [[stable model categories]]. Notice that the definition of _[[stable (∞,1)-category]]_ is very simple and much simpler than the definition of triangulated category, def. \ref{TriangulatedCategory} below.
+By construction, passing from a [[stable (infinity,1)-category]] to its [[homotopy category]] represents a serious loss of information.  In practice, endowing the homotopy category with a triangulated structure is often sufficient for many purposes.  However, as soon as one needs to remember the [[homotopy colimits]] and [[homotopy limits]] that existed in the [[stable (infinity,1)-category]], a triangulated structure is not enough.  For example, even the [[mapping cone]] in a triangulated category is not functorial.  Hence it is often necessary to work with some [[enhanced triangulated category|enhanced]] notion of triangulated category, like [[stable derivators]], [[pretriangulated dg-categories]], [[stable model categories]] or [[stable (infinity,1)-categories]].  See [[enhanced triangulated category]] for more details.
 
-Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow (the _[[decategorification]]_) of the corresponding properties of [[stable (∞,1)-categories]].  
+## History
 
-
-A central class of examples of triangulated categories are the [[derived categories]] $D(\mathcal{A})$ of [[abelian categories]] $\mathcal{A}$. These are the [[homotopy category of an (∞,1)-category|homotopy categories]] of the [[(∞,1)-categories of chain complexes]] in $\mathcal{A}$.
-
-Triangulated categories are sufficient for some purposes, and can be easier to work with than the [[stable (∞,1)-categories]] that they come from, but -- as with every [[quotient]] construction -- often one needs more information than is present in the triangulated category, especially  concerning the computation of [[homotopy limits]] and [[homotopy colimits]]: the ordinary [[limits]] and [[colimits]] and other [[universal constructions]] in a triangulated category generally have no useful interpretation.
-
-Accordingly, there is a series on notions that refine that of a triangulated category, approximating more and more of the full structure of a [[stable (∞,1)-category]]:
-
-* triangulated category
-
-* [[pretriangulated dg-category]]
-
-* [[enhanced triangulated category]]
-
-* [[stable derivator]]
-
-* [[stable (∞,1)-category]]
-
+The notion of triangulated category was developed by [[Jean-Louis Verdier]] in his 1963 thesis under [[Alexandre Grothendieck]].  His motivation was to axiomatize the structure existing on the [[derived category]] of an [[abelian category]].  Axioms similar to Verdier's were given by [[Albrecht Dold]] and [[Dieter Puppe]] in a 1961 paper.  A notable difference is that Dold-Puppe did not impose the octahedral axiom (TR4).
 
 ## Definition
 
@@ -284,6 +268,10 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 The original reference is the thesis of [[Verdier]]:
 
 * Verdier, Jean-Louis, _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
+
+Similar axioms were already given in
+
+* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren_, Annales de l'Institut Fourier (Universit&#233; de Grenoble) 11: 201&#8211;312, 1961, [eudml](https://eudml.org/doc/73776).
 
 A comprehensive monograph is 
 
