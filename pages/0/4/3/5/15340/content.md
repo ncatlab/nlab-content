@@ -1,6 +1,18 @@
 
+## Idea
+
+An [[L-function]] associated to an [[automorphic form]], in nonabelian generalization of how the [[Dirichlet L-function]] is associated to an automorphic form on the [[idele group]], namely a [[Dirichlet character]].
+
+## Related concepts
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+
 ## References
 
 * Wikipedia, _[Automorphic L-function](http://en.wikipedia.org/wiki/Automorphic_L-function)_
+
+* {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
+
 
 [[!redirects automorphic L-functions]]
