@@ -233,3 +233,6 @@ Review in the context of [[geometric Langlands duality]] is in
 
 [[!redirects moduli stack of vector bundles]]
 [[!redirects moduli stacks of vector bundles]]
+
+[[!redirects moduli stack of line bundles]]
+[[!redirects moduli stacks of line bundles]]
