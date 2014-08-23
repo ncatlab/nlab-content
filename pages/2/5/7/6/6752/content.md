@@ -42,6 +42,8 @@ In particular, interpretation of the above story dually in [[arithmetic geometry
 
 * while that curious double quotient $GL_n(F) \backslash GL_n(\mathbb{A}_F)/GL_n(\mathcal{O}_F)$ is just the canonical [[Cech cohomology|Cech]]-realization of the [[moduli stack of bundles]] (see there for details) on that curve.
 
+[[!include Langlands analogies -- table]]
+
 From this [[arithmetic geometry]] point of view the Langlands conjecture seems to speak of a correspondence that sends [[Dirac distributions]] on the [[moduli space of flat connections]] over an [[algebraic curve]] to certain "automorphic" functions on the [[moduli stack of bundles]] on the same curve. This suggests that the Langlands correspondence should be understood as a nonabelian version of a [[Fourier-Mukai transform|Fourier-Mukai]]-type [[integral transform]]. This version of the conjecture is known as the _[[geometric Langlands correspondence]]_. See there for more details.
 
 
