@@ -304,3 +304,5 @@ category: triangulated categories
 [[!redirects triangulated categories]]
 [[!redirects distinguished triangle]]
 [[!redirects distinguished triangles]]
+[[!redirects triangulated structure]]
+[[!redirects triangulated structures]]
