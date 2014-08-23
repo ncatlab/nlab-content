@@ -23,6 +23,10 @@ The _Veneziano amplitude_ is the 1-loop [[string scattering amplitude]] for the 
 
 Historically, this amplitude first arose in [[dual resonanace models]] and the realization that it has a natural interpretation as the scattering of [[strings]] was one of the main original motivations for the development of [[string theory]].
 
+## Related concepts
+
+* In [[p-adic string theory]] (see there) one considers [[adelic integral]]-variants of the Veneziano amplitude.
+
 ## References
 
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 1.1 of _Superstring theory_ Volume 1, Cambridge Monographs on Mathematical Physics, 1987
