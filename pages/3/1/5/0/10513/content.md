@@ -29,6 +29,9 @@ The analog in [[(∞,1)-category]] theory of the notion of [[additive category]]
 
 * [[stable (∞,1)-category]]
 
+## References
+
+* {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, [arXiv:1305.4550](http://arxiv.org/abs/1305.4550).
 [[!redirects additive (infinity,1)-categories]]
 
 [[!redirects additive (∞,1)-category]]
