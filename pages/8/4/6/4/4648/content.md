@@ -25,7 +25,7 @@ The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to 
 
 [[!include Langlands analogies -- table]]
 
-The original version of the conjectured statement of _geometric Langlands duality_ (reviewed for instance in [Frenkel 05](#Frenkel05)) asserts that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the  ${}^L G$-[[moduli stack of local systems]] on $\Sigma$:
+The original version of the conjectured statement of _geometric Langlands duality_ (going back to [Beilinson-Drinfeld 9x](#BeilinsonDrinfeld9x) and reviewed for instance in [Frenkel 05](#Frenkel05)) asserts that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the  ${}^L G$-[[moduli stack of local systems]] on $\Sigma$:
 
 $$
   \mathcal{O}Mod(Loc_{{}^L G}(\Sigma))
@@ -38,7 +38,7 @@ This equivalence is in turn supposed to be a certain limit of the more general [
 
 For the abelian case that $G$ is a [[torus]] the abive equivalence has indeed been proven, given by a [[Fourier-Mukai transform]]  ([Laumon 85](#Laumon85), [Laumon 96](#Laumon96), [Rothstein 96](#Rothstein96)), see also [below](#AbelianCase).
 
-However, in general the above version of the conjecture is false. For instance it fails in the case $G = SL_2$ and $\Sigma= \mathbb{P}^1$ ([Lafforgue](#Lafforgue)).
+However, in general the above version of the conjecture is false. For instance it fails in the case $G = SL_2$ and $\Sigma= \mathbb{P}^1$ ([Lafforgue 09](#Lafforgue09)).
 
 A refined formulation of the conjecture due to ([Arinkin-Gaitsgory 12](#ArinkinGaitsgory12)), meant to fix this failure, replaces plain quasicoherent sheaves with certain "nilpotent" [[ind-objects]] of quasicoherent sheaves and refines [[derived categories]] to [[stable (∞,1)-categories]], to make the conjecture read
 
@@ -117,7 +117,15 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 ### Original
  {#ReferencesOriginal}
 
-* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _Quantization of the Hitchin system and Hecke eigensheaves_, draft, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
+The conjecture goes back to 
+
+* {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of_Quantization of the Hitchin system and Hecke eigensheaves_, draft, ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
+
+based on
+
+* {#Laumon87} G&#233;rard Laumon, sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309{359
+
+Proof in the abelian case is due to
 
 * {#Laumon85} G&#233;rard Laumon, _Transformation de Fourier g&#233;om&#233;trique_ Preprint IHES/85/M/52 (1985)
 
@@ -125,26 +133,23 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
 * G&#233;rard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
 
-
 * {#Rothstein96} M. Rothstein. _Sheaves with connection on abelian varieties_, Duke Math. J., 84(3):565&#8211;598, 1996
 
   _Correction to: "Sheaves with connection on abelian varieties." Duke Math. J., 87(1):205&#8211;211, 1997.
 
-* {#Lafforgue} V. Lafforgue, _Quelques calculs reli&#233;s &#224; la correspondance de Langlands g&#233;om&#233;trique pour $\mathbb{P}^1$ (version provisoire) ([web](http://www.math.jussieu.fr/~vlafforg/))
+Proof that the original version of the conjecture is false in general is due to
 
+* {#Lafforgue09} [[Vincent Lafforgue]], _Quelques calculs reli&#233;s &#224; la correspondance de Langlands g&#233;om&#233;trique pour $\mathbb{P}^1$ (version provisoire)_ 2009 ([web](http://www.math.jussieu.fr/~vlafforg/), [pdf](http://vlafforg.perso.math.cnrs.fr/geom.pdf))
 
-Discussion of what the geometric theory ultimately should be from the point of view of [[derived algebraic geometry]] are in
+The refined version of the conjecture stated in [[derived algebraic geometry]] is due to
 
 * {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _Notes on Geometric Langlands -- A study in derived algebraic geometry_ ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
 * {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
 
-
-and in less category-theoretic terms in 
+Comments on the development of the geometric duality by R. Langlands himself include
 
 * {#Langlands13} [[Robert Langlands]], _The Search for a Mathematically Satisfying Geometric Theory of Automorphic Forms_, Notes for a lecture at Mostow-Fest, Yale 2013 ([IAS page](http://publications.ias.edu/rpl/paper/2578), [video](http://www.youtube.com/watch?v=pfpzET8UkF4), [pdf](http://publications.ias.edu/sites/default/files/lecture_6.pdf))
-
-See also
 
 * {#Langlands14} [[Robert Langlands]], _[[Problems in the theory of automorphic forms -- 45 years later]]_, talk at [Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html), Oxford, July 5 - July 8, 2014
 
