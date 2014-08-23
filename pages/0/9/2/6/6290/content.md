@@ -35,8 +35,7 @@ Many L-functions have mutually similar deep features like satisfaction of a func
 * E. Kowalski, first part of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
 
 
-* D. Goldfeld, J. Hundley, chapter 2 of _Automorphic Representations and L-functions for the General Linear Group_, vol. 1, Cambridge University 
-Press, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
+* {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
 
 * wikipedia [L-function](http://en.wikipedia.org/wiki/L-function), [Dirichlet L-function](http://en.wikipedia.org/wiki/Dirichlet_L-function), [special values of L-function](http://en.wikipedia.org/wiki/Special_values_of_L-functions), [generalized Riemann hypothesis](http://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis), [Artin L-function](http://en.wikipedia.org/wiki/Artin_L-function), [equivariant L-function](http://en.wikipedia.org/wiki/Equivariant_L-function), [functional equation](en.wikipedia.org/wiki/Functional_equation_(L-function)), [modularity theorem](http://en.wikipedia.org/wiki/Modularity_theorem)
