@@ -21,11 +21,11 @@
 ## Idea
  {#Idea}
 
-The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to be an analog of the [[number theory|number theoretic]] [[Langlands correspondence]] under the [[function field analogy]], hence with [[number fields]] replaced by [[function fields]] and further replaced by [[rational functions]] on [[complex curves]].  The key to this analogy is the [[Weil uniformization theorem]] which expresses the [[moduli stack of G-principal bundles]] over an [[algebraic curve]] as a double [[coset space|coset]] of various function rings (as discussed at _[Moduli of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_) of just the kind as they appear in the number-theoretic [[Langlands correspondence]] (for instance in the [[Artin reciprocity law]] and in the definition of [[automorphic representations]]).
+The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to be an [[analogy|analog]] of the [[number theory|number theoretic]] [[Langlands correspondence]] under the [[function field analogy]], hence with [[number fields]] replaced by [[function fields]] and further replaced by [[rational functions]] on [[complex curves]].  The key to this analogy is the [[Weil uniformization theorem]] which expresses the [[moduli stack of G-principal bundles]] over an [[algebraic curve]] as a double [[coset space|coset]] of various function rings (as discussed at _[Moduli of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_) of just the kind as they appear in the number-theoretic [[Langlands correspondence]] (for instance in the [[Artin reciprocity law]] and in the definition of [[automorphic representations]]).
 
 [[!include Langlands analogies -- table]]
 
-The conjectured statement asserts roughly that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the  ${}^L G$-[[moduli stack of local systems]] on $\Sigma$:
+The original version of the conjectured statement of _geometric Langlands duality_ (reviewed for instance in [Frenkel 05](#Frenkel05)) asserts that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the  ${}^L G$-[[moduli stack of local systems]] on $\Sigma$:
 
 $$
   \mathcal{O}Mod(Loc_{{}^L G}(\Sigma))
@@ -36,14 +36,24 @@ $$
 for ${}^L G$ the [[Langlands dual group]]. Moreover, the conjecture asserts that there is canonical such an equivalence which is a [[non-abelian cohomology|non-abelian]] analogue of the [[Fourier-Mukai transform|Fourier-Mukai]] [[integral transform]] and takes [[skyscraper sheaves]] on the left ([[categorification|categorified Dirac distributions]]) to what are called "[[Hecke eigensheaves]]" on the right.
 This equivalence is in turn supposed to be a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies [[twisted D-modules]] on both sides.
 
-Review of this idea includes ([Frenkel 05](#Frenkel05)).
-A refined formulation replaces plain quasicoherent sheaves with certain Ind-coherent sheaves and refines [[derived categories]] to [[stable (∞,1)-categories]], see ([Arinkin-Gaitsgory 12](#ArinkinGaitsgory12)).
-The geometric Langlands correspondence [[conjecture]] is a [[theorem]] in the abelian case, as discussed [below](#AbelianCase). 
+For the abelian case that $G$ is a [[torus]] the abive equivalence has indeed been proven, given by a [[Fourier-Mukai transform]]  ([Laumon 85](#Laumon85), [Laumon 96](#Laumon96), [Rothstein 96](#Rothstein96)), see also [below](#AbelianCase).
 
-Since [[D-modules]] on [[moduli stacks of G-principal bundles]] play a central role in [[gauge theory|gauge]] [[quantum field theory]] (in particular as [[prequantum line bundles]] on the [[phase space]] of $G$-[[Chern-Simons theory]] [[holographic principle|holographically]] dual to the [[WZW model]] [[2d conformal field theory]]) and since the [[Langlands dual group]] also appears in [[electric-magnetic duality]], it has long been suggested ([Atiyah 77](S-duality#Atiyah77)) that geometric Langlands duality has a distinguished meaning also in [[mathematical physics]] in general and in [[string theory]] in particular. One proposal for a realization of the correspondence as an incarnation of [[mirror symmetry]]/[[S-duality]] is due to ([Kapustin-Witten 06](#KapustinWitten06)), which however has not been turned into [[theorems]] yet. Another proposal for realizing the [[local Langlands correspondence|local]] correspondence via another incarnation of [[mirror symmetry]] is due to ([Gerasimov-Lebedev-Oblezin 09](#GerasimovLebedevOblezin09)).
+However, in general the above version of the conjecture is false. For instance it fails in the case $G = SL_2$ and $\Sigma= \mathbb{P}^1$ ([Lafforgue](#Lafforgue)).
+
+A refined formulation of the conjecture due to ([Arinkin-Gaitsgory 12](#ArinkinGaitsgory12)), meant to fix this failure, replaces plain quasicoherent sheaves with certain "nilpotent" [[ind-objects]] of quasicoherent sheaves and refines [[derived categories]] to [[stable (∞,1)-categories]], to make the conjecture read
+
+$$
+  (Ind(\mathcal{O}Mod(Loc_{{}^L G}(\Sigma))))_{Nilp_{Glob}}
+    \stackrel{\simeq}{\longrightarrow}
+  \mathcal{D} Mod( Bun_G(\Sigma))
+$$
+
+([Arinkin-Gaitsgory 12, conjecture 0.1.6](#ArinkinGaitsgory12)).
 
 
-The geometric Langlands conjecture has been motivated from the [[number theory|number theoretic]] [[Langlands correspondence]] via the [[function field analogy]] and some educated guessing, but there is to date no formalization of this analogy that would allow to regard number-theoretic and the geometric correspondence as two special cases of one "global" [[arithmetic geometry]]/[[global analytic geometry]] statement. Cautioning remarks on the accuracy of the analogy and on the rigour of the mirror-symmetric proposals may be found in ([Langlands 14](#Langlands14)).
+Since [[D-modules]] on [[moduli stacks of G-principal bundles]] play a central role in [[gauge theory|gauge]] [[quantum field theory]] (in particular as [[Hitchin connections]] on bundles of [[conformal blocks]] of $G$-[[Chern-Simons theory]] [[holographic principle|holographically]] dual to the [[WZW model]] [[2d conformal field theory]]) and since the [[Langlands dual group]] also appears in [[electric-magnetic duality]], it has long been suggested ([Atiyah 77](S-duality#Atiyah77)) that geometric Langlands duality has a distinguished meaning also in [[mathematical physics]] in general and in [[string theory]] in particular. One proposal for a realization of the correspondence as an incarnation of [[mirror symmetry]]/[[S-duality]] is due to ([Kapustin-Witten 06](#KapustinWitten06)), which however has not been turned into [[theorems]] yet. Another proposal for realizing the [[local Langlands correspondence|local]] correspondence via another incarnation of [[mirror symmetry]] is due to ([Gerasimov-Lebedev-Oblezin 09](#GerasimovLebedevOblezin09)).
+
+The geometric Langlands conjecture has been motivated from the [[number theory|number theoretic]] [[Langlands correspondence]] via the [[function field analogy]] and some educated guessing, but there is to date no formalization of this analogy that would allow to regard number-theoretic and the geometric correspondence as two special cases of one "global" [[arithmetic geometry]]/[[global analytic geometry]] statement. Cautioning remarks on the accuracy of the analogy and on the rigour of the mirror-symmetric proposals may be found in ([Langlands 14](#Langlands14)). Some discussion of how to possibly start to go about making the analogy more systematic are at _[[differential cohesion and idelic structure]]_.
 
 [[!include function field analogy -- table]]
 
@@ -108,7 +118,20 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
  {#ReferencesOriginal}
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _Quantization of the Hitchin system and Hecke eigensheaves_, draft, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
-* Gerard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
+
+* {#Laumon85} G&#233;rard Laumon, _Transformation de Fourier g&#233;om&#233;trique_ Preprint IHES/85/M/52 (1985)
+
+* {#Laumon96} G&#233;rard Laumon, _Transformation de Fourier g&#233;n&#233;ralis&#233;e_ ([arXiv:alg-geom/9603004](http://arxiv.org/abs/alg-geom/9603004))
+
+* G&#233;rard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
+
+
+* {#Rothstein96} M. Rothstein. _Sheaves with connection on abelian varieties_, Duke Math. J., 84(3):565&#8211;598, 1996
+
+  _Correction to: "Sheaves with connection on abelian varieties." Duke Math. J., 87(1):205&#8211;211, 1997.
+
+* {#Lafforgue} V. Lafforgue, _Quelques calculs reli&#233;s &#224; la correspondance de Langlands g&#233;om&#233;trique pour $\mathbb{P}^1$ (version provisoire) ([web](http://www.math.jussieu.fr/~vlafforg/))
+
 
 Discussion of what the geometric theory ultimately should be from the point of view of [[derived algebraic geometry]] are in
 
@@ -160,6 +183,7 @@ See also
 
 
 * Ng&#244; B&#7843;o Ch&#226;u, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](http://arxiv4.library.cornell.edu/abs/0806.4566)
+
 
 * James Arthur, _The Work of Ng&#244; B&#7843;o Ch&#226;u_, Proc. ICM Hyderabad 2010, [pdf](http://www.icm2010.org.in/wp-content/icmfiles/laudaions/fields2.pdf)
 
