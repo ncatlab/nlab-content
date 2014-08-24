@@ -18,6 +18,8 @@
 
 The _Dedekind zeta function_ is a generalization of the [[Riemann zeta function]] from the [[rational numbers]]/[[integers]] to [[number fields]]/their [[rings of integers]].
 
+The analog for [[function fields]] is the [[Weil zeta function]], while the generalization to [[higher dimensional arithmetic geometry]] are the [[arithmetic zeta functions]].
+
 ## Properties
 
 ### Adelic integral expression
