@@ -32,15 +32,15 @@ This conjecture is motivated from the following special case, which is fully und
 
 For $n = 1$ then an $n$-dimensional representation of the [[Galois group]] factors through $GL_1$ and hence through an [[abelian group]]. Therefore, by [[adjunction]], it is equivalently a representation of the [[abelianization]] of the Galois group. The [[Kronecker-Weber theorem]] says that for $F = \mathbb{Q}$, then the abelianized Galois group is the [[idele class group]] $GL_1(\mathbb{Q}) \backslash GL_1(\mathbb{A})$, and hence 1-dimensional representations of the Galois group are equivalently representations of this. Moreover, one finds that for any [[prime number]] $p$, then those representations which are "unramified at $p$" are invariant under the subring of [[p-adic integers]], hence are representations of the double quotient group $GL_1(\mathbb{Q}) \backslash GL_1(\mathbb{A})/GL_1(\mathbb{Z}_p)$. More generally, the [[Artin reciprocity law]] says that for [[number fields]] there is an [[isomorphism]] between $GL_1(K) \backslash GL_1(\mathbb{A}_K)/GL_1(\mathcal{O}_K)$ and the [[abelianization|abelianized]] [[Galois group]].
 
-Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)).
+Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)). Notably the "localization" of the program to [[local fields]] leads to the conjecture of _[[local Langlands correspondences]]_.
 
-In particular, interpretation of the above story dually in [[arithmetic geometry]] has led to some developments. Namely under the [[function field analogy]] we have that 
+Interpretation of the above story dually in [[arithmetic geometry]] has led to some developments. Namely under the [[function field analogy]] we have that 
 
 * the [[Galois group]] is essentially the [[fundamental group]] of an [[algebraic curve]];
 
 * hence a [[representation]] of it is a [[principal bundle|principal]]/[[vector bundle]] with [[flat connection]] on this curves;
 
-* while that curious double quotient $GL_n(F) \backslash GL_n(\mathbb{A}_F)/GL_n(\mathcal{O}_F)$ is just the canonical [[Cech cohomology|Cech]]-realization of the [[moduli stack of bundles]] (see there for details) on that curve.
+* while that curious double quotient $GL_n(F) \backslash GL_n(\mathbb{A}_F)/GL_n(\mathcal{O}_F)$ is, in view of the [[Weil uniformization theorem]], analogous to the canonical [[Cech cohomology|Cech]]-realization of the [[moduli stack of bundles]] (see there for details) on that curve.
 
 [[!include Langlands analogies -- table]]
 
@@ -74,6 +74,7 @@ Discussion with an eye towards [[geometric class field theory]] and [[geometric 
 
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
+
 * {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
 
 More resources are at
@@ -86,3 +87,6 @@ More resources are at
 
 [[!redirects Langlands correspondence]]
 [[!redirects Langlands correspondences]]
+
+[[!redirects Langlands conjecture]]
+[[!redirects Langlands conjectures]]
