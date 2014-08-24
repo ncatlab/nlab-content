@@ -34,7 +34,7 @@ $
 # References
 For a recent comparison see:
 
-* Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, to appear.
+* Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, [PDF](http://math.fau.edu/lubarsky/Separating%20LLPO.pdf).
 * Douglas Bridges and Fred Richman, _Varieties of Constructive Mathematics_.{#BridgesRichman}
 
 category: foundational axiom
