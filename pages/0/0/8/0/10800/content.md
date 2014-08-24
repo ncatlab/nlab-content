@@ -73,7 +73,7 @@ $$
 
 or similar.
 
-+-- {: .num_defn }
++-- {: .num_defn #IdeleClassGroup}
 ###### Definition
 
 The [[quotient]]
@@ -91,13 +91,82 @@ is called the _idele class group_ of $K$.
 +-- {: .num_remark }
 ###### Remark
 
-The idele class group appears prominently in the description of the [moduli space of line bundles](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) over the [[arithmetic curve]] on which $K$ is the [[rational functions]]. From there it appears in the abelian [[Langlands correspondence]] and in the abelian case of [[Tamagawa measures]].
+The idele class group, def. \ref{IdeleClassGroup}, appears prominently in the description of the [moduli space of line bundles](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) over the [[arithmetic curve]] on which $K$ is the [[rational functions]]. From there it appears in the abelian [[Langlands correspondence]] and in the abelian case of [[Tamagawa measures]].
 
 =--
 
 The idele class group is a key object in _[[class field theory]]_.
 
 ## Properties
+
+### Product formula
+ {#ProductFormula}
+
+Recall the [[p-adic norm]] ${\vert -\vert}_p$ on $\mathbb{Q}$ for $p$ a [[prime number]], given by
+
+$$
+  {\left \vert \frac{a}{b}p^\ell \right \vert}_p
+  \coloneqq
+  p^{-\ell}
+$$
+
+for $a,b$ coprime to $p$. The usual [[absolute value]] [[norm]] one writes
+
+$$
+  {\vert -\vert}_\infty
+$$
+
+and associates with the "[[place at infinity|prime at infinity]]". When an index runs over the set of all primes ("finite primes") union with the "prime at infinity" one usually writes it "$v$" instead of $p$. 
+
+This induces:
+
++-- {: .num_defn #IdeleNorm}
+###### Definition
+
+The _idele norm_
+
+$$
+  {\vert -\vert} \colon \mathbb{I}_{\mathbb{Q}} \longrightarrow \mathbb{C}^\times
+$$
+
+is the function given by
+
+$$
+  {\vert \alpha\vert} \coloneqq \underset{v}{\prod} {\vert \alpha_v\vert}_v
+  \,.
+$$
+
+=--
+
+Notice that by construction there is a [[diagonal]] map $\mathbb{Q}^\times \to \mathbb{I}_{\mathbb{Q}}$.
+
++-- {: .num_prop #ProductFormula}
+###### Proposition
+**(product formula)**
+
+The idele norm, def. \ref{IdeleNorm}, is trivial on the diagonal of $\mathbb{Q}^\times$ inside the ideles, in that
+
+$$
+  (\alpha \in \mathbb{Q}^\times \to \mathbb{I}_{\mathbb{Q}})
+  \;\Rightarrow\;
+  {\vert \alpha\vert}
+  \coloneqq 
+  \underset{v}{\prod} {\vert \alpha_v\vert}_v
+  = 1
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The product formula, prop. \ref{ProductFormula}, says that the idele norm descends to the idele class group, def. \ref{IdeleClassGroup}.
+
+=--
+
+(e.g. [Garrett 11, section 1](#Garrett11))
 
 ### Strong approximation theorem for the idele class group
  {#StrongApproximationTheorem}
@@ -107,7 +176,7 @@ The idele class group is a key object in _[[class field theory]]_.
 ###### Proposition
 **(strong approximation form ideles)**
 
-The idele class group may be expressed as
+The idele class group, def. \ref{IdeleClassGroup}, may be expressed as
 
 $$
   \mathbb{Q}^\times \backslash \mathbb{A}_{\mathbb{Q}}^\times
@@ -184,6 +253,8 @@ Basics are recalled in
  
 * {#GoldfeldHundley11} {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+* {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
+[[!redirects Poisson formula]]
  
 Discussion in the context of the [[geometric Langlands correspondence]] is in 
 
