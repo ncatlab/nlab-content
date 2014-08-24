@@ -23,7 +23,7 @@
 
 The concept of _adelic integration_ is a concept of [[integration]] in [[arithmetic geometry]] over [[rings of adeles]].
 
-This was introduced for [[arithmetic curves]] in ([Tate 50](#Tate50), [Iwasawa 52](#Iwasawa52), [Iwasawa 92](#Iwasawa92)) and used to establish [[analytic continuation]] and [[functional equations]] of [[L-functions]] and [[zeta functions]], see [below](#ZetaFunctions).  Here one speaks of _[[Iwasawa-Tate theory]]_. In ([Fesenko 08, chapter 3](#Fesenko08)) adelic integration is generalized to [[higher arithmetic geometry]]. A textbook account is in  ([Goldfeld-Hundley 11, section 2,2](#GoldfeldHundley11))).
+This was introduced for [[arithmetic curves]] in ([Tate 50](#Tate50), [Iwasawa 52](#Iwasawa52), [Iwasawa 92](#Iwasawa92)) and used to establish [[analytic continuation]], [[functional equations]] and [[Euler product]]-form of [[L-functions]] and [[zeta functions]], see [below](#ZetaFunctions).  Here one speaks of _[[Iwasawa-Tate theory]]_. In ([Fesenko 08, chapter 3](#Fesenko08)) adelic integration is generalized to [[higher arithmetic geometry]]. A textbook account is in  ([Goldfeld-Hundley 11, section 2,2](#GoldfeldHundley11))).
 
 
 ## Examples
