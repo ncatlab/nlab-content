@@ -32,8 +32,11 @@ and hence is a [[finite number|finite]]-[[dimension|dimensional]] [[field extens
 
 * the [[rational functions]] $\mathbb{F}_q(t)$ with [[coefficients]] in the [[finite field]] $\mathbb{F}_q$.
 
-The [[function field analogy]] says how both these kinds of global fields are indeed analogous. In particular for both types there is a concept of [[ring of adeles]], [[group of ideles]], etc.
+The [[function field analogy]] says how both these kinds of global fields are indeed analogousm in that they behave have as rings of [[rational functions]] on [[arithmetic curves]] over $\mathbb{F}_q$ and "over [[F1]]", respectively. In particular for both types there is a concept of [[ring of adeles]], [[group of ideles]], etc.
 
+The [[Langlands conjectures]] concern the [[arithmetic geometry]] of global fields.
+
+The "local" version of a global field in the sense of [[formal geometry]] is a [[local field]]. The corresponding version of the Langlands program are the _[[local Langlands correspondences]]_.
 
 
 ## References
