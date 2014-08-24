@@ -15,44 +15,105 @@
 
 ## Idea
 
-The archetypical example of a [[zeta function]]:
+The _Riemann zeta function_ is the archetypical example of a [[zeta function]], defined by the formula
 
 $$
-   \zeta \colon s \mapsto \underoverset{n = 1}{\infty}{\sum} \frac{1}{n^s}
+  \zeta \colon s \mapsto \underoverset{n = 1}{\infty}{\sum} \frac{1}{n^s}
   \,.
 $$
 
+From the point of view of [[arithmetic geometry]] and the [[function field analogy]], the Riemann zeta function is the basic case "over [[F1]]" of a tower of [[zeta functions]] for [[arithmetic curves]] given by more general [[number fields]] -- the [[Dedekind zeta functions]] -- and over [[function fields]] -- the [[Weil zeta function]] -- and for [[complex curves]] -- the Selberg [[zeta function of a Riemann surface]] -- and in another direction for higher dimensional [[arithmetic schemes]] -- the [[arithmetic zeta functions]].
 
 ## Properties
 
 ### The completed zeta function
  {#TheCompletedZetaFunction}
 
+The following slight variant of the actual Riemann zeta function typically exhibits its special properties more explicitly.
+
++-- {: .num_defn #CompletedRiemannZetaFunction}
+###### Definition
+
 The _completed_ Riemann zeta function is 
 
 $$
   \hat \zeta(s) \coloneqq \pi^{-s/2}\Gamma(s/2)\zeta(s)
- \,.
+ \,,
 $$
 
-This may be viewed as the [[adelic integral]]
+where $\Gamma(-)$ denotes the [[Gamma function]].
+
+=--
+
++-- {: .num_prop #AdelicIntegralIncarnationOfCompletedZeta}
+###### Proposition
+
+
+The completed Riemann zeta function, def. \ref{CompletedRiemannZetaFunction}, is the [[adelic integral]]
 
 $$
   \hat \zeta(s) 
    = 
   \int_{\mathbb{A}_{\mathbb{Q}}^\times } 
-    f(x) {\vert x\vert}^s 
+    \exp(-S(x))
+    \;
+    {\vert x\vert}^s 
+    \;
    d \mu_{\mathbb{A}_{\mathbb{Q}}^\times}(x) 
 $$
 
-with respect to a suitable [[Haar measure]] $d \mu_{\mathbb{A}_{\mathbb{Q}}^\times}$ on the [[group of ideles]] and where $f(x)$ is the [[tensor product]] of the [[characteristic functions]] of the [[p-adic integers]] and of $\exp(-\pi x^2)$ at the [[place at infinity]] ([Fesenko 08 0.1](#Fesenko08), [Goldfeld-Hundley 11 (2.2.6)](#GoldfeldHundley11)).
+where
+
+* $\exp(-S(-))\colon \mathbb{A}_{\mathbb{Q}}^\times$ denotes the function which sends an [[idele]] $x \in \mathbb{A}_{\mathbb{Q}}^\times$ with canonical components $x = (x_\infty, x_2, \cdots, x_p, \cdots)$
+ 
+  to the product
+
+  $$
+    \exp(-S(x)) \coloneqq \exp(-\pi x_\infty^2)\prod_{p \; prime} \chi_{\mathbb{Z}_p}(x_p)
+    \,,
+  $$
+ 
+  where $\chi_{\mathbb{Z}_p}$ denotes the [[characteristic function]] of the [[p-adic integers]] inside the [[ring of adeles]];
+
+  ([Goldfeld-Hundley 11, def. 2.2.5](#GoldfeldHundley11)).
+
+
+* the [[measure]] is essentially the [[Haar measure]] on the [[idele group]]
+
+  $$
+    d \mu_{\mathbb{A}_{\mathbb{Q}}^\times}
+    \coloneqq
+    \underset{p \leq \infty}{\prod}
+    d^\times x_p
+  $$ 
+
+  $$
+    d^\times x_p 
+      \coloneqq
+    \left\{
+       \array{
+           \frac{d x_\infty}{{\vert x_\infty\vert}_\infty} & if \; p = \infty
+           \\
+           \frac{1}{1-p^{-1}}\frac{d x_p}{{\vert x_p\vert}_p} & if\; p \; finite \; prime
+       }
+    \right.
+  $$
+
+  ([Goldfeld-Hundley 11, def. 2.2.3](#GoldfeldHundley11))
+
+=--
+
+([Fesenko 08 0.1](#Fesenko08), [Goldfeld-Hundley 11 (2.2.6)](#GoldfeldHundley11)).
 
 
 ### Relation to the Jacobi theta function
  {#RelationToThetaFunctions}
 
 
-The completed zeta function from [above](#TheCompletedZetaFunction) has an [[integral]]-representation in terms of the [[Jacobi theta function]]
++-- {: .num_prop }
+###### Proposition
+
+The completed zeta function, def. \ref{CompletedRiemannZetaFunction}, has an [[integral]]-representation in terms of the [[Jacobi theta function]]
 
 $$
   \theta(x)\coloneqq \underset{n \in \mathbb{Z}}{\sum} \exp(- \pi n ^2 x)
@@ -69,14 +130,16 @@ $$
 
 e.g. ([Fesenko 08, section 0.1](#Fesenko08), [Kowalski, example 2.2.5 ](#Kowalski))
 
-In terms of the [above](#TheCompletedZetaFunction) [[idelic integral]] expression for the complete zeta-function, this comes out as follows.
+=--
+
+In terms of [[idelic integral]] expression for the complete zeta-function of prop. \ref{AdelicIntegralIncarnationOfCompletedZeta}, this comes out as follows:
 
 We start to compute this integral $\int_{\mathbb{A}^\times} f(\alpha) |\alpha|^s d\mu_{\mathbb{A}^\times}(\alpha)$ -- as in ([Goldfeld-Hundley 11, pages 47-50](#GoldfeldHundley11)) and the remarks by [[Ivan Fesenko]] in ([Goldfeld-Hundley 11, pages 51-51](#GoldfeldHundley11)). First we use a filtration on $\mathbb{A}^\times$ which we know from [[class field theory]] (but no class field theory is used anywhere in this computation): $\mathbb{A}^\times \gt \mathbb{Q}^\times$, so we write $\alpha=x n$ where $x$ runs through representatives of $\mathbb{A}^\times/\mathbb{Q}^\times$ and can be chosen as [[ideles]]  $x=(x_2,x_3,...x_\infty)$ with non-archimedean coordinates being units in $\mathbb{Z}_p$ and $x_\infty$ a [[positive number|positive]] [[real number]], and $n$ is a non-zero [[rational number]],  and the computation is reduced to the internal integral  $\int_{\mathbb{Q}^\times} f(x n)  d n$. Due to the definition of  $f$, we have $x n\in \mathbb{Z}_p$ for all $p$, and since  $x_p\in  \mathbb{Z}_p^\times$ we deduce $n\in \mathbb{Z}_p$ for all $p$. Since $\mathbb{Q}$ intersected with all $\mathbb{Z}_p$ is $\mathbb{Z}$, the last integral is just the series $\sum_{n\in \mathbb{Z}\setminus 0} exp(-\pi n^2 x_\infty^2)$, i.e. $\theta(x_\infty^2)-1$, and the original zeta integral becomes $\int_{\mathbb{R}_{\gt 0}}( \theta(y^2)-1) y^s \frac{d y}{y}$ with $y=x_\infty$.  
 
 
 ### Functional equation
 
-The [above](#RelationToThetaFunctions) integral representation now directly implies the [[functional equation]] 
+The [[adelic integral]] representation of prop. \ref{AdelicIntegralIncarnationOfCompletedZeta} directly implies the [[functional equation]] 
 
 $$
  \hat \zeta(1-s) = \hat \zeta(s)
@@ -117,3 +180,6 @@ Discussion in the context of [[adelic integration]] and [[higher arithmetic geom
 
 
 [[!redirects Riemann zeta-function]]
+
+[[!redirects complete Riemann zeta function]]
+[[!redirects complete Riemann zeta-function]]
