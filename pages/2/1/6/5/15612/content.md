@@ -35,6 +35,9 @@ The [[zeta functions]] in higher dimensional arithmetic geometry are called _[[a
 
 * [[Ivan Fesenko]], _Geometric adeles and the Riemann&#8211;Roch theorem for 1-cycles on surfaces_ ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ar.pdf))
 
+* {#Fesenko06} [[Ivan Fesenko]], _Measure, integration and elements of harmonic analysis on generalized loop spaces_, Proc. of
+St Petersburg Math. Soc. 12(2005), 179&#8211;199; English transl. in AMS Transl. Series 2, 219 (2006), 149&#8211;164 ([pdf](http://www.maths.nott.ac.uk/personal/ibf/aoh.pdf))
+
 * [[Ivan Fesenko]],  G. Ricotta,  M. Suzuki, _Mean-periodicity and zeta functions_, Ann. L'Inst. Fourier, 62(2012), 1819-1887 ([pdf] (https://www.maths.nottingham.ac.uk/personal/ibf/m-p.pdf))
 
 * K. Kato, Sh. Saito, Two-dimensional class field theory,
