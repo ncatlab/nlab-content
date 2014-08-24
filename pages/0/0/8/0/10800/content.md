@@ -99,6 +99,53 @@ The idele class group is a key object in _[[class field theory]]_.
 
 ## Properties
 
+### Strong approximation theorem for the idele class group
+ {#StrongApproximationTheorem}
+
+
++-- {: .num_prop #StrongApproximationTheorem}
+###### Proposition
+**(strong approximation form ideles)**
+
+The idele class group may be expressed as
+
+$$
+  \mathbb{Q}^\times \backslash \mathbb{A}_{\mathbb{Q}}^\times
+  \simeq
+  (0,\infty)
+   \times
+  \underset{p}{\prod}
+  \mathbb{Z}_p^\times
+  \,.
+$$
+
+=--
+
+(e.g. [Goldfeld-Hundley 11, prop. 1.4.5 and below (2.2.7)](#GoldfeldHundley11))
+
+This implies that the [[ring of adeles]] may be decomposed into a rational and an idele class factor as:
+
+
+$$
+  \begin{aligned}
+    \mathbb{A}_{\mathbb{Q}}^\times
+     & \simeq
+    \mathbb{Q}^\times
+    \times
+    (\mathbb{Q}^\times \backslash \mathbb{A}_{\mathbb{Q}}^\times)
+    \\
+    & \coloneqq
+    \underset{n \in \mathbb{Q}^\times}{\cup}
+    n \cdot 
+    (\mathbb{Q}^\times \backslash \mathbb{A}_{\mathbb{Q}}^\times)
+ \end{aligned}
+  \,.
+$$
+
+(e.g. [Goldfeld-Hundley 11, prop. 1.4.6 and below (2.2.7)](#GoldfeldHundley11))
+
+This decomposition is crucial in the discussion of the [[Riemann zeta function]] (see there) as an [[adelic integral]].
+
 ### Automorphic forms and Relation to Dirichlet characters
 
 The [[automorphic forms]] of the idele group areessentially
@@ -135,7 +182,7 @@ Basics are recalled in
 
 * {#Weston} Tom Weston, _The idelic approach to number theore_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  
-* {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
+* {#GoldfeldHundley11} {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
  
 Discussion in the context of the [[geometric Langlands correspondence]] is in 
@@ -149,3 +196,6 @@ Discussion in the context of the [[geometric Langlands correspondence]] is in
 [[!redirects idele class groups]]
 
 [[!redirects idele group]]
+
+[[!redirects idèle group]]
+[[!redirects group of idèles]]
