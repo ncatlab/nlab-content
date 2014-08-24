@@ -21,7 +21,7 @@
 
 ## Idea
 
-What has come to be called _Iwasaw-Tate theory_ is a method of expressing [[zeta functions]], [[L-functions]] and [[theta functions]] as [[adelic integrals]] over [[idele groups]] and deriving this way their fundamental properties such as [[analytic continuation]] and their [[functional equation]].
+What has come to be called _Iwasaw-Tate theory_ is a method of expressing [[zeta functions]], [[L-functions]] and [[theta functions]] as [[adelic integrals]] over [[idele groups]] and deriving this way their fundamental properties such as their [[analytic continuation]], their [[functional equation]] and their [[Euler product]] form.
 
 [[John Tate]] in his thesis ([Tate 50](#Tate50)) had generalized the notion of [[zeta function]] according to his advisor [[Emil Artin]] from "the sum over integral ideals of certain type of ideal character" to
 
