@@ -134,7 +134,40 @@ e.g. ([Fesenko 08, section 0.1](#Fesenko08), [Kowalski, example 2.2.5 ](#Kowalsk
 
 In terms of [[idelic integral]] expression for the complete zeta-function of prop. \ref{AdelicIntegralIncarnationOfCompletedZeta}, this comes out as follows:
 
-We start to compute this integral $\int_{\mathbb{A}^\times} f(\alpha) |\alpha|^s d\mu_{\mathbb{A}^\times}(\alpha)$ -- as in ([Goldfeld-Hundley 11, pages 47-50](#GoldfeldHundley11)) and the remarks by [[Ivan Fesenko]] in ([Goldfeld-Hundley 11, pages 51-51](#GoldfeldHundley11)). First we use a filtration on $\mathbb{A}^\times$ which we know from [[class field theory]] (but no class field theory is used anywhere in this computation): $\mathbb{A}^\times \gt \mathbb{Q}^\times$, so we write $\alpha=x n$ where $x$ runs through representatives of $\mathbb{A}^\times/\mathbb{Q}^\times$ and can be chosen as [[ideles]]  $x=(x_2,x_3,...x_\infty)$ with non-archimedean coordinates being units in $\mathbb{Z}_p$ and $x_\infty$ a [[positive number|positive]] [[real number]], and $n$ is a non-zero [[rational number]],  and the computation is reduced to the internal integral  $\int_{\mathbb{Q}^\times} f(x n)  d n$. Due to the definition of  $f$, we have $x n\in \mathbb{Z}_p$ for all $p$, and since  $x_p\in  \mathbb{Z}_p^\times$ we deduce $n\in \mathbb{Z}_p$ for all $p$. Since $\mathbb{Q}$ intersected with all $\mathbb{Z}_p$ is $\mathbb{Z}$, the last integral is just the series $\sum_{n\in \mathbb{Z}\setminus 0} exp(-\pi n^2 x_\infty^2)$, i.e. $\theta(x_\infty^2)-1$, and the original zeta integral becomes $\int_{\mathbb{R}_{\gt 0}}( \theta(y^2)-1) y^s \frac{d y}{y}$ with $y=x_\infty$.  
+We compute the integral $\int_{\mathbb{A}^\times} \exp(-S(\alpha))) |\alpha|^s d\mu_{\mathbb{A}^\times}(\alpha)$ -- as in ([Goldfeld-Hundley 11, pages 47-50](#GoldfeldHundley11)) and the remarks by [[Ivan Fesenko]] in ([Goldfeld-Hundley 11, pages 51-51](#GoldfeldHundley11)). 
+
+We decompose by the [strong approximation theorem for ideles](group+of+ideles#StrongApproximationTheorem) the integration domain into the [[idele class group]]
+
+$$
+  \mathbb{Q}^\times \backslash \mathbb{A}_{\mathbb{Q}}^\times
+  =
+  (0,\infty)
+  \times
+  \underset{p}{\prod} \mathbb{Z}_p^\times
+$$
+
+and a factor of the non-zero [[rational numbers]]: so we write 
+
+$$
+  \alpha=x n
+$$ 
+
+where $x$ runs through representatives of $\mathbb{A}^\times/\mathbb{Q}^\times$ and can be chosen as [[ideles]]  $x=(x_2,x_3,...x_\infty)$ with non-archimedean coordinates being units in $\mathbb{Z}_p$ and $x_\infty$ a [[positive number|positive]] [[real number]], and $n$ is a non-zero [[rational number]].  
+
+This way the inner integration is $\int_{\mathbb{Q}^\times} \exp(-S(x n))  d n$. Due to the definition of  $\exp(-S(-))$ in prop. \ref{AdelicIntegralIncarnationOfCompletedZeta}, the integrand here is supported on elements $x n\in \mathbb{Z}_p$ for all $p$, and since  $x_p\in  \mathbb{Z}_p^\times$ we deduce $n\in \mathbb{Z}_p$ for all $p$. Since $\mathbb{Q}$ intersected with all $\mathbb{Z}_p$ is $\mathbb{Z}$ (by the [arithmetic fracture square](fracture+theorem#ArithmeticFractureSquares)),
+we have
+
+$$
+  \begin{aligned}
+     \int_{\mathbb{Q}^\times}\exp(-S(x n))  d n
+     & = 
+     \sum_{n\in \mathbb{Z}^\times} exp(-\pi n^2 x_\infty^2)
+     \\
+     & = \theta(x_\infty^2)-1
+  \end{aligned}
+$$
+
+Therefore the full integral becomes $\int_{\mathbb{R}_{\gt 0}}( \theta(y^2)-1) y^s \frac{d y}{y}$ with $y=x_\infty$.  
 
 
 ### Functional equation
