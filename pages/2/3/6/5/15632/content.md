@@ -36,7 +36,7 @@ A primary example for that kind of deferred analysis is the study of [[topologic
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in ([Johnstone 1996](#JS96)).
 
-In typical (topos) cases these come in the form of [[adjoint modalities|adjoint cylinders]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[section|section functor]] coincide (="collapse"): $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for the domain space of the functors that  every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces** in ([Lawvere 2008](#Law08)).
+In typical (topos) cases these come in the form of [[adjoint modalities|adjoint cylinders]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[section|section functor]] coincide (="collapse"): $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for the domain space of the functors that  every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces**[^Inf] in ([Lawvere 2008](#Law08)).
 
 Hence from a more _geometrical point of view_, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' or 'coarse' points which in turn can be viewed as a minimal vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion.[^GoC] (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
@@ -72,7 +72,7 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 
 ## Remarks on the literature
 
-The definition of quality types occurs in ([Lawvere 2007](#Law07)) with important additional remarks in ([Lawvere 2008](#Law08)). The first occurrence of a quality type is in the work of the 1980s in the context of the gros topos of graphs: a discussion of this example is in ([Lawvere 1989](#Law89a),  p.277) where already the contrast to sufficient cohesion is observed. They resurface without an explicit definition in the [2004 paper](Law04) on data types.
+The definition of quality types occurs in ([Lawvere 2007](#Law07)) with important additional remarks in ([Lawvere 2008](#Law08)). The first occurrence of a quality type is in the work of the 1980s in the context of the gros topos of graphs: a discussion of this example is in ([Lawvere 1989](#Law89a),  p.277) where already the contrast to sufficient cohesion is observed. ([Lawvere 1991](Law91a), pp.9-10) has a short but suggestive discussion in the context of [[synthetic differential geometry]]. They resurface without an explicit definition in the [2004 paper](Law04) on data types.
 
 Under the name of quintessential localization they are the focus of ([Johnstone 1996](JS96)) where the characterization via central idempotents is given. Some additional results occur in the context of the [[Nullstellensatz]] in ([Johnstone 2011](#JS11)). ([Menni 2014](#Menni14b)) attends to the contrast between quality types and sufficient cohesion.
 
@@ -107,7 +107,9 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
 
-[^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's reflections don't provide a fully fledged homotopy theory but are rather observations or meditations on the role of the cylinder configuration in the analysis of space. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
+[^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's ideas don't provide a fully fledged homotopy theory but are rather observations or meditations on the role of the cylinder configuration in the analysis of space and spatial dimension. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
 In a complementary direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
+
+[^Inf]: A motivation for this terminology from [[synthetic differential geometry|SDG]] can be found in an intriguing remark in ([Lawvere 1991](Law91a), pp.9-10) in the context of his _theory of dimension_. See also at [[infinitesimal cohesion]].
 
 [^GoC]: From another perspective, one could view a quality type as a set with germs of cohesion.
