@@ -103,7 +103,7 @@ where
 
 =--
 
-([Fesenko 08 0.1](#Fesenko08), [Goldfeld-Hundley 11 (2.2.6)](#GoldfeldHundley11)).
+(reviewed e.g. in [Fesenko 08 0.1](#Fesenko08), [Garrett 11, section 1](#Garrett11), [Goldfeld-Hundley 11 (2.2.6)](#GoldfeldHundley11)).
 
 
 ### Relation to the Jacobi theta function
@@ -206,6 +206,10 @@ Discussion in the context of [[adelic integration]] and [[higher arithmetic geom
 * {#Tate50} [[John Tate]], _Fourier analysis in number fields, and Hecke's zeta-functions_, Algebraic Number Theory (Proc. Instructional Conf., Brighton, 1965), Thompson, Washington, D.C., pp. 305&#8211;34 1950
 
 * {#Fesenko08} [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
+
+with review including 
+
+* {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
 
 * {#Kowalski} E. Kowalski, first part of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
 
