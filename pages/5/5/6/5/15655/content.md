@@ -47,9 +47,13 @@ The original articles are
 
 * {#Iwasawa92} Iwasawa 1992
 
-The generalization to [[higher arithmetic geometry]] is due to
+The generalization to [[higher arithmetic geometry]] and hence to [[arithmetic zeta functions]] is due to
 
 * {#Fesenko08} [[Ivan Fesenko]], chaper 3 of _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
+
+* {#FesenkoAnalysisI} [[Ivan Fesenko]], _Analysis on arithmetic schemes I_ ([pdf](http://www.math.uiuc.edu/documenta/vol-kato/fesenko.dm.pdf))
+
+* {#Fesenko10} [[Ivan Fesenko]], _Analysis on arithmetic schemes II_, Journal of K-theory 5: 437&#8211;557, 2010 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/a2.pdf))
 
 A textbook account is in 
 
