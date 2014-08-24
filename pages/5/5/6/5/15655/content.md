@@ -28,26 +28,38 @@ This was introduced for [[arithmetic curves]] in ([Tate 50](#Tate50), [Iwasawa 5
 
 ## Examples
 
-### Zeta functions
+### Zeta functions and L-functions
  {#ZetaFunctions}
 
 * The [completed Riemann zeta function](Riemann+zeta+function#TheCompletedZetaFunction) (see there) is naturally an adelic integral (reviewed e.g. in [Goldfeld-Hundley 11, (2.2.6)](#GoldfeldHundley11)).
+
+For L-functions: [Wikipedia Rankin-Selberg method -- Modern adelic theory](http://en.wikipedia.org/wiki/Rankin&#8211;Selberg_method#Modern_adelic_theory)
 
 ### $p$-Adic string scattering amplitudes
 
 In the context of [[p-adic string theory]] (see there) one considers adelic integral version of the [[Veneziano amplitude]] and of some further [[string scattering amplitudes]] for the [[open string]].
 
+### Adelic path integral
+
+Analogies with the [[Feynman path integral]] are pointed out in ([Fesenko 06, section 18](#Fesenko06))...
+
+## Related entries
+
+* [[Iwasawa-Tate theory]]
+
 ## References
 
 The original articles are
 
-* {#Tate50} [[John Tate]], _Fourier analysis in number fields, and Hecke's zeta-functions_, Algebraic Number Theory (Proc. Instructional Conf., Brighton, 1965), Thompson, Washington, D.C., pp. 305&#8211;34 1950
+* {#Tate50} [[John Tate]], _[[Fourier analysis in number fields, and Hecke's zeta-functions]]_, Algebraic Number Theory (Proc. Instructional Conf., Brighton, 1965), Thompson, Washington, D.C., pp. 305&#8211;34 1950
 
-* {#Iwasawa52} Iwasawa 1952
+* {#Iwasawa52} {#Iwasawa92} [[Kenkichi Iwasawa]], _A note on functions_, Proc. ICM 1950, [link](http://www.mathunion.org/ICM/ICM1950.1) [MR0044534](http://www.ams.org/mathscinet-getitem?mr=0044534); _On the rings of valuation vectors_, Ann. Math. (II) 57:2 (Mar., 1953), pp. 331-356 [jstor](http://www.jstor.org/stable/1969863); Letter to [[Jean Dieudonne]] [link](http://books.google.com/books?ei=jyALTq-_L4nkiAL6zrHXAQ)
 
-* {#Iwasawa92} Iwasawa 1992
 
 The generalization to [[higher arithmetic geometry]] and hence to [[arithmetic zeta functions]] is due to
+
+* {#Fesenko06} [[Ivan Fesenko]], _Measure, integration and elements of harmonic analysis on generalized loop spaces_, Proc. of
+St Petersburg Math. Soc. 12(2005), 179&#8211;199; English transl. in AMS Transl. Series 2, 219 (2006), 149&#8211;164 ([pdf](http://www.maths.nott.ac.uk/personal/ibf/aoh.pdf))
 
 * {#Fesenko08} [[Ivan Fesenko]], chaper 3 of _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
 
