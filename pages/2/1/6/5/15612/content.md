@@ -1,3 +1,4 @@
+[[!redirects higher arithmetic geometry]]
 
 > This entry is about traditional [[arithmetic geometry]] over [[higher local fields]]. For "[[E-∞ arithmetic geometry]]" see there.
 
@@ -19,11 +20,12 @@
 
 the study of [[arithmetic geometry]] which concentrates on arithmetic schemes of higher dimensions and uses associated higher structures such as  [[higher local fields]], higher adelic structures, (commutative) higher class field theory and hence Milnor K-theory is often called higher arithmetic geometry.
 
+The [[zeta functions]] in higher dimensional arithmetic geometry are called _[[arithmetic zeta functions]]_.
 
 
 ## References
 
-* Alexander Beilinson, Residues and adeles, Funct. Anal. and Appl. 14(1980), 34-35
+* [[Alexander Beilinson]], _Residues and adeles_, Funct. Anal. and Appl. 14(1980), 34-35
 
 * [[Ivan Fesenko]], M. Kurihara (eds.), _Invitation to Higher Local Fields_, Geometry and Topology Monographs vol 3, Warwick 2000, 304 pp. ([web](https://www.maths.nottingham.ac.uk/personal/ibf/volume.html))
 
@@ -33,7 +35,7 @@ the study of [[arithmetic geometry]] which concentrates on arithmetic schemes of
 
 * [[Ivan Fesenko]], _Geometric adeles and the Riemann&#8211;Roch theorem for 1-cycles on surfaces_ ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ar.pdf))
 
-* I. Fesenko,  G. Ricotta,  M. Suzuki, _Mean-periodicity and zeta functions_, Ann. L'Inst. Fourier, 62(2012), 1819-1887 ([pdf] (https://www.maths.nottingham.ac.uk/personal/ibf/m-p.pdf))
+* [[Ivan Fesenko]],  G. Ricotta,  M. Suzuki, _Mean-periodicity and zeta functions_, Ann. L'Inst. Fourier, 62(2012), 1819-1887 ([pdf] (https://www.maths.nottingham.ac.uk/personal/ibf/m-p.pdf))
 
 * K. Kato, Sh. Saito, Two-dimensional class field theory,
 Adv. Stud. Pure Math., vol. 2, 1983, 103-152
@@ -49,7 +51,7 @@ Adv. Stud. Pure Math., vol. 2, 1983, 103-152
 
 * M. Suzuki, Two dimensional adelic analysis and cuspidal automorphic representations of $GL(2)$,  In Multiple Dirichlet Series, L-functions and automorphic forms, D. Bump, S. Friedberg, D. Goldfeld,  eds., Progress in Math. 300, pp.339-361, Birkhaeuser 2012
 
-* A.Yekutieli, An explicit construction of the Grothendieck residue complex, Asterisque 208, 1992.
+* [[Amnon Yekutieli]], _An explicit construction of the Grothendieck residue complex_, Asterisque 208, 1992.
 
 See also the conference webpage
 
