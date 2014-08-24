@@ -1,4 +1,8 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/John_Tate)
 
+## related $n$Lab entries
+
+* [[Iwasawa-Tate theory]]
+
 category: people
