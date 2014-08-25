@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,7 +37,10 @@ $$
 
 for its [[eigenvalues]].
 
-Then the _zeta function_ of $H$ is
++-- {: .num_defn #ZetaBySeries}
+###### Definition
+
+The _zeta function_ of $H$ is the [[holomorphic]] function defined by the [[series]]
 
 $$
   \begin{aligned}
@@ -33,7 +54,10 @@ $$
   \,.
 $$
 
-where the [[series]] converges and then extended by [[analytic continuation]] 
+where this [[convergence|converges]] and then extended by [[analytic continuation]].
+
+=--
+
 (e.g. ([Duistermaat-Guillemin 75 (2.13)](#DuistermaatGuillemin75))).
 
 ### Functional determinant and zeta-function regularization
@@ -73,6 +97,104 @@ $$
 
 See at _[eta invariant -- Relation to zeta function](eta+invariant#RelationToTheZetaFunction)_ for more on this.
 
+### Analogy with number-theoretic zeta functions and theta functions
+ {#AnalogyWithNumberTheoreticZetaFunctions}
+
+By basic [[integration]] identities we have that
+
++-- {: .num_prop #IntegralKernelExpression}
+###### Proposition
+
+The series expression in def. \ref{ZetaBySeries} is equal to
+
+$$
+  \begin{aligned}
+     \zeta_H(s)
+     & =
+     \int_{(0,\infty)}
+     t^{s-1}
+     \left(
+        \underset{\lambda_k \neq 0}{\sum}
+        \exp(-t \lambda_k)
+     \right)
+     d t
+     \\
+     & \overset{(t \coloneqq x^2)}{=}
+     2
+     \int_{(0,\infty)}
+     x^{2s-1}
+     \left(
+        \underset{\lambda_k \neq 0}{\sum}
+        \exp(- x^2 \lambda_k)
+     \right)
+      d x      
+  \end{aligned}
+ \,.
+$$
+
+In particular if $H = D^2$ is the square of a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-type square root operator $D$ with [[eigenvalues]] $\pm \alpha_k$,then $\lambda_k = \alpha_k^2$ and hence in this case the series is
+
+$$
+  \begin{aligned}
+     \zeta_H(s)
+     & =
+     2
+     \int_{(0,\infty)}
+     x^{2s-1}
+     \left(
+        \underset{\alpha_k \neq 0}{\sum}
+        \exp(- (x \alpha_k)^2)
+     \right)
+      d x      
+  \end{aligned}
+ \,.
+$$
+
+
+=--
+
+(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson)).
+
+By comparison one observes:
+
++-- {: .num_remark}
+###### Remark
+
+
+The integral expression in prop. \ref{AnalogyWithNumberTheoreticZetaFunctions}
+is analogous to the expression of [[zeta functions]] in [[number theory]]/[[arithmetic geometry]] as integrals of a [[theta function]] (for instance discussed [here](Riemann%20zeta%20function#RelationToThetaFunctions) for the [[Riemann zeta function]])
+
+$$
+  \hat\zeta_f(s)
+  = 
+  \int_{(0,\infty)} (\theta(x^2) - 1) x^{s-1} d x
+  \,.
+$$
+
+Under this analogy the [[theta function]] in the case of the differential operator $H$ is
+
+$$
+  \theta_H(x)
+   \coloneqq  
+   \underset{\lambda_k \neq 0}{\sum}
+        \exp(- x \lambda_l)
+   \,.
+$$
+
+This is formally the same definition as that of adelic theta functions (e.g.[Garrett 11, section 1.8](Iwasawa-Tate%20theory#Garrett11))
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The [[determinant line bundle]] of the [[functional determinant]] of the [[Dirac operator]] on a [[complex torus]] is a complex-analytic [[theta function]] as above, quotiented by the [[Dedekind eta function]]. 
+
+Early references explaining this include [Alvarez-Gaum&#233; & Moore & Vafa 86](#AlvaresGaumeMooreVafa86), [Alvarez-Gaum&#233; & Bost & Moore & Nelson & Vafa 87](#AlvaresGaumeBostMooreNelsonVafa87). In a bigger perspective, this relation plays a central role in the general discussion of [[self-dual higher gauge theory]] ([Witten 96](self-dual%20higher%20gauge%20theory#Witten96)).
+
+=--
+
 ## Examples
 
 ### Analytic torsion
@@ -91,7 +213,6 @@ The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]
 
 * Wikipedia, _[Zeta function regularization](http://en.wikipedia.org/wiki/Zeta_function_regularization)_
 
-
 * {#DuistermaatGuillemin75} [[Hans Duistermaat]], [[Victor Guillemin]], _The Spectrum of Positive Elliptic Operators and Periodic Bicharacteristics_,Inventiones mathematicae (1975) Volume: 29, page 39-80 ([EuDML](https://eudml.org/doc/142329))
 
  (see also at _[[Duistermaat-Guillemin trace formula]]_)
@@ -99,11 +220,21 @@ The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]
 
 * {#Richardson} [[Ken Richardson]], section 3 of _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
+* {#QuineHeydariSong93} J. R. Quine, S. H. Heydari, R. Y. Song, _Zeta regularized products_, Transactions of the AMS volume 338, number 1, 1993 ([[QuineZetaRegularization.pdf:file]])
+
+
 ### Functional determinant
+
+The definition of a _[[functional determinant]]_ via the exponential of the derivative of the zeta function at 0 originates in
 
 * {#RaySinger71} D. Ray,  B.; [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
 
 
+Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) is in 
+
+* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
+
+* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]] ,Jean-Benooit Bost, [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Communications in Mathematical Physics_, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
 [[!redirects functional determinant]]
 [[!redirects functional determinants]]
