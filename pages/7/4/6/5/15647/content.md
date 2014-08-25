@@ -97,7 +97,7 @@ $$
 
 See at _[eta invariant -- Relation to zeta function](eta+invariant#RelationToTheZetaFunction)_ for more on this.
 
-### Analogy with number-theoretic zeta functions and theta functions
+### Relation to parition functions and number-theoretic zeta/theta functions 
  {#AnalogyWithNumberTheoreticZetaFunctions}
 
 By basic [[integration]] identities we have that
@@ -108,9 +108,8 @@ By basic [[integration]] identities we have that
 The series expression in def. \ref{ZetaBySeries} is equal to
 
 $$
-  \begin{aligned}
-     \zeta_H(s)
-     & =
+    \zeta_H(s)
+     =
      \int_{(0,\infty)}
      t^{s-1}
      \left(
@@ -118,8 +117,56 @@ $$
         \exp(-t \lambda_k)
      \right)
      d t
-     \\
-     & \overset{(t \coloneqq x^2)}{=}
+  \,.
+$$
+
+=--
+
+(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson), [Connes-Marcolli 06, theorem 13.11](#ConnesMarcolli06)).
+
++-- {: .num_remark}
+###### Remark
+
+If one thinks of the operation $H$ as a [[Hamiltonian]] of a [[quantum mechanical system]], then the term
+
+$$
+  Tr(\exp(-\beta H))
+  \coloneqq
+   \underset{\lambda_k \neq 0}{\sum}
+        \exp(-\beta \lambda_k)
+   + 1
+$$
+
+is the _[[partition function]]_ of this system. Accordingly, prop. \ref{IntegralKernelExpression} says that the zeta function of $H$ is obatined from its partition function by
+
+$$
+  \zeta_H(s)
+  =
+   \int_{(0,\infty)}
+     \beta^{s-1}
+     \;
+     \left(Tr(\exp(-\beta H)) - 1 \right)
+     \;
+   d \beta 
+   \,.
+$$
+
+=--
+
+
+Further, by a change of integration variable $t\coloneqq x^2$ 
+in the expression in prop. \ref{IntegralKernelExpression} 
+one obtains
+
++-- {: .num_prop #IntegralKernelExpressionInSquares}
+###### Proposition
+
+The series expression in def. \ref{ZetaBySeries} is equal to
+
+$$
+  \begin{aligned}
+     \zeta_H(s)
+     & =
      2
      \int_{(0,\infty)}
      x^{2s-1}
@@ -153,7 +200,6 @@ $$
 
 =--
 
-(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson), [Connes-Marcolli 06, theorem 13.11](#ConnesMarcolli06)).
 
 By comparison one observes:
 
@@ -161,7 +207,7 @@ By comparison one observes:
 ###### Remark
 
 
-The integral expression in prop. \ref{AnalogyWithNumberTheoreticZetaFunctions}
+The integral expression in prop. \ref{IntegralKernelExpressionInSquares}
 is analogous to the expression of [[zeta functions]] in [[number theory]]/[[arithmetic geometry]] as integrals of a [[theta function]] (for instance discussed [here](Riemann%20zeta%20function#RelationToThetaFunctions) for the [[Riemann zeta function]])
 
 $$
@@ -202,6 +248,8 @@ Early references explaining this include [Alvarez-Gaum&#233; & Moore & Vafa 86](
 The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
 
 ## Related concepts
+
+* [[partition function]]
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
