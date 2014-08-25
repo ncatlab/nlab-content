@@ -33,33 +33,15 @@ When considering the adeles and ideles, it is their [[topology]] as much as thei
 
 ## Definition
 
-+-- {: .num_defn }
-###### Definition
-
-The ring of _integral [[adeles]]_ $\mathbb{A}_{\mathbb{Z}}$ is the [[product]]
-of the [[profinite completion of the integers]] $\widehat{\mathbb{Z}}$, with the [[real numbers]]
-
-$$
-  \mathbb{A}_{\mathbb{Z}}
-  \coloneqq
-  \mathbb{R} \times \widehat{\mathbb{Z}}
-  \,.
-$$
-
-(...)
-
-=--
-
-e.g. section 3 [here](http://wiki.epfl.ch/gant/).
 
 
 +-- {: .num_defn }
 ###### Definition
 
-The [[group of units]] of the ring of adeles is called the _group of ideles_
+The [[group of units]] of the ring of adeles $\mathbb{A}_{\mathbb{Q}}$ is called the _group of ideles_
 
 $$
-  \mathbb{I} \coloneqq GL_1(\mathbb{A}) = \mathbb{A}^\times
+  \mathbb{I}_{\mathbb{Q}} \coloneqq GL_1(\mathbb{A}_{\mathbb{Q}}) = \mathbb{A}_{\mathbb{Q}}^\times
   \,.
 $$
 
