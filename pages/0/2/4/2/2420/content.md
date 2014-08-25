@@ -45,9 +45,6 @@ This involves, conversely, counting for each fixed energy $E_\Psi$ the number of
 
 In fact, the common letter $Z$ uses to denote QFTs (or at least [[TQFT]]s) also derives from this: in German the partition function is called _Zustandssumme_ --- from German _Zustand_ for "state" .
 
-## Related concepts
-
-[[!include genera and partition functions - table]]
 
 ## Examples 
 
@@ -61,6 +58,12 @@ Parition function for the [[heterotic string]]: [[Witten genus]].
 For some discussion of partition functions of 1-dimensional QFTs see [[(1,1)-dimensional Euclidean field theories and K-theory]].
 
 For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+## Related concepts
+
+* [[functional determinant]], [[zeta function of an elliptic differential operator]]
+
+[[!include genera and partition functions - table]]
 
 
 ## References
