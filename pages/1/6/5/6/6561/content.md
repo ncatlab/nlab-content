@@ -105,6 +105,10 @@ and the resulting relation to the [[geometric Langlands correspondence]] is disu
 For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the section _[References - Constructions from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
 
+Relation to [[BFSS matrix model]] on tori:
+
+* Micha Berkooz, Moshe Rozali, Nathan Seiberg, _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
+
 ### Models and special properties
  {#ModelsAndSpecialProperties}
 
