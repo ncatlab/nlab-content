@@ -1,0 +1,5 @@
+( _Shtuka_ is a Russian word colloquially meaning "thing".)
+
+##References
+
+* David Goss, [What is ... a Shtuka?](http://www.ams.org/notices/200301/what-is.pdf), Notices of the AMS 50(1), pp. 36-37.
