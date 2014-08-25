@@ -47,6 +47,7 @@ Trivial consequence of the axioms.
 
 =--
 
+[[shtuka]], [[Rapoport-Zink space]]
 
 category: meta
 
