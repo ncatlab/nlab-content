@@ -3,7 +3,15 @@
 
 ## Related entries
 
+* [[local Langlands correspondence]]
+
 * [[pro-étale morphism]]
+
+* [[perfectoid space]]
+
+* [[Rapoport-Zink space]]
+
+* [[shtuka]]
 
 category: people
 
