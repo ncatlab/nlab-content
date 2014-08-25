@@ -1,3 +1,4 @@
+[[!redirects Beilinson regulator]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,7 @@
 
 ## Idea
 
-In the context of [[arithmetic geometry]] a _regulator_ is a [[homomorphism]] from an [[algebraic K-theory]] to a suitable [[ordinary cohomology]] theory. (It "regulates" [[cocycles]] in [[algebraic K-theory]], which tend to be hard to analyze, to become cocycles in ordinary cohomology, about which typically more may be said).
+In the context of [[arithmetic geometry]] a _higher regulator_, or just _regulator_ for short, is a [[homomorphism]] from [[algebraic K-theory]] to a suitable [[ordinary cohomology]] theory. (It makes sense to think that it "regulates" [[cocycles]] in [[algebraic K-theory]], which tend to be hard to analyze, to become cocycles in ordinary cohomology, about which typically more may be said.) This generalizes the original concept of a [[regulator of a number field]] which is a measure for the [[group of units]] of the [[ring of integers]] of the number field, in view of the fact that the [[determinant]] function provides a canonical homomorphism $K_1 \to GL_1$ from the first [[algebraic K-theory]] to the [[group of units]].
 
 Regulators are used in the study of [[L-functions]] for instance in the context of the [[Beilinson conjectures]] and the [[Bloch-Kato conjecture]].
 
@@ -235,4 +236,6 @@ Formore references see also at _[[Beilinson conjecture]]_.
 
 [[!redirects regulator in algebraic K-theory]]
 [[!redirects regulators in algebraic K-theory]]
+
+[[!redirects higher regulators]]
 
