@@ -62,7 +62,7 @@ $$
   \,.
 $$
 
-The _ring of adels_ $\mathbb{A}_{\mathbb{Q}}$ (or just $\mathbb{A}$, for short) itself is the [[rationalization]] of the ring of integral adeles, hence its [[tensor product]] with the [[rational numbers]] 
+The _ring of adeles_ $\mathbb{A}_{\mathbb{Q}}$ (or just $\mathbb{A}$, for short) itself is the [[rationalization]] of the ring of integral adeles, hence its [[tensor product]] with the [[rational numbers]] 
 
 $$
   \mathbb{A}_\mathbb{Q} 
