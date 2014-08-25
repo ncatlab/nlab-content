@@ -1,9 +1,12 @@
 [[!redirects analytic class number formula]]
 
+## Related concepts
+
+* [[regulator of a number field]]
 
 ## References
 
-* Wikipedia, _[Class number form](http://en.wikipedia.org/wiki/Class_number_formula)_
+* Wikipedia, _[Class number formula](http://en.wikipedia.org/wiki/Class_number_formula)_
 
 [[!redirects class number formulas]]
 
