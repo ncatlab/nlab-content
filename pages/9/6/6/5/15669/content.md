@@ -1,0 +1,5 @@
+Local analogs of [[Shimura varieties]].
+
+##References
+
+* [KIAS Intensive Lecture Series on Shimura varieties and Rapoport-Zink spaces](http://home.kias.re.kr/MKG/h/ILSSRZ2014/)
