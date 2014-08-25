@@ -95,6 +95,10 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[higher gauge transformation]]
 
+* [[gauge invariance]]
+
+* [[group averaging]]
+
 * [[Haag?Lopuszanski?Sohnius theorem]] on symmetries of an [[S-matrix]]
 
 * [[spontaneously broken symmetry]]
