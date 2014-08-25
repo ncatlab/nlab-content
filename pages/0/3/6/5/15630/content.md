@@ -7,4 +7,6 @@
 
 * [[Arakelov geometry]]
 
+* [[Bost-Connes system]]
+
 category: people
