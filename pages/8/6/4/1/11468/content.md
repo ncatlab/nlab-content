@@ -26,7 +26,32 @@ What is called _$p$-adic string theory_ is the study of a variant of [[scatterin
 
 The original observation is that of ([Volovich 87](#Volovich87), reviewed in [VVZ 95, section XIV](#VVZ95)) that the [[integral]] expression for the [[Veneziano amplitude]] of the [[open string|open]] [[bosonic string]] naturally generalizes from an integral over the [[real numbers]] (which in this case parameterize the [[boundary]] of the [[open string]] [[worldsheet]]) to the [[p-adic numbers]] by _[[adelic integration]]_.
 
-The main result here is ([Freund-Witten 87](#FreundWitten87)) that the ordinary [[Veneziano amplitude]] equals the inverse of the product of its $p$-adic versions, for all primes $p$. With due regularization this result carries over to other [[string scattering amplitudes]], too. When forming these products one also speaks of _[[ring of adeles|adelic]] string theory_.
+The standard [[Veneziano amplitude]] has the expression
+
+$$
+  \int_{\mathbb{R}}
+  {\vert x\vert}^{a-1}
+  \cdot
+  {\vert 1-x\vert}^{b-1}
+  d x
+$$
+
+where the [[norm]] involved is the usual [[absolute value]], and the proposed $p$-adic version is hence
+
+$$
+  \int_{\mathbb{Q}_p}
+  {\vert x\vert}_p^{a-1}
+  \cdot
+  {\vert 1-x\vert}_p^{b-1}
+  d x
+$$
+
+with the [[p-adic norm]] instead.
+
+
+The main result here is ([Freund-Witten 87](#FreundWitten87)) that the ordinary [[Veneziano amplitude]] equals the inverse of the product of its $p$-adic versions, for all primes $p$, apparently a version of the [idelic product formula](group%20of%20ideles#ProductFormula).
+
+With due regularization this result carries over to other [[string scattering amplitudes]], too. When forming these products one also speaks of _[[ring of adeles|adelic]] string theory_.
 
 Since the [[Veneziano amplitude]] concerns the [[bosonic string]] [[tachyon]] [[state]], [[p-adic string theory]] has been discussed a lot in the context of [[tachyon condensation]] and [[Sen's conjecture]] ([Cottrell 02](#Cottrell02)).
 
