@@ -21,13 +21,13 @@
 
 ## Idea
 
-What has come to be called _Iwasaw-Tate theory_ is a method of expressing [[zeta functions]], [[L-functions]] and [[theta functions]] as [[adelic integrals]] over [[idele groups]] and deriving this way their fundamental properties such as their [[analytic continuation]], their [[functional equation]] and their [[Euler product]] form.
+What has come to be called _Iwasawa-Tate theory_ is a method of expressing [[zeta functions]], [[L-functions]] and [[theta functions]] as [[adelic integrals]] over [[idele groups]] and deriving this way their fundamental properties such as their [[analytic continuation]], their [[functional equation]] and their [[Euler product]] form.
 
 [[John Tate]] in his thesis ([Tate 50](#Tate50)) had generalized the notion of [[zeta function]] according to his advisor [[Emil Artin]] from "the sum over integral ideals of certain type of ideal character" to
 
 > the [[adelic integral]] over the [[idèle group]] of a rather general weight function times the id&#232;le character which is trivial on field elements. The role of Hecke's complicated theta-formulas for [[theta functions]] formed over a lattice in $n$-dimensional space of classical number theory can be played by a simple [[Poisson formula]] for general function of valuation vectors, summed over the discrete subgroup of field elements
 
-[[Kenkichi Iwasawa]] in [Iwasawa 5x](#Iwasawa50) has rediscovered and extended this approach using the wider study of [[invariant integration]] on locally compact groups over ideles. Distinguish from related but different subject of Iwasawa theory (cf. [wikipedia](http://en.wikipedia.org/wiki/Iwasawa_theory))
+[[Kenkichi Iwasawa]] in [Iwasawa 5x](#Iwasawa50) has rediscovered and extended this approach using the wider study of [[invariant integration]] on locally compact groups over ideles. It is distinguished from the related but different subject of Iwasawa theory (cf. [wikipedia](http://en.wikipedia.org/wiki/Iwasawa_theory))
 
 ## Related entries
 
@@ -46,7 +46,7 @@ The original articles are
 Reviews include
 
 * {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011
-([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
+([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf))
 
 
 * cyclopaedia.info, _[Iwasawa-Tate theory](http://www.cyclopaedia.info/wiki/Iwasawa-Tate-theory-1)_
