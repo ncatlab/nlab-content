@@ -30,6 +30,17 @@ The Dedekind zeta function has an [[adelic integral]] expression in direct analo
 
 The [[functional equation]] of the Dedekind zeta function follows from its [[adelic integral]] representation in direct analogy to how this works for the [[Riemann zeta function]]. This is due to ([Tate 50](#Tate50)), highlighted by [[Ivan Fesenko]] in ([Goldfeld-Hundley 11, Interlude remark (1)](#GoldfeldHundley11)).
 
+### The pole and the class number formula
+
+The Dedekind zeta function $\zeta_K$ of $K$ has a [[simple pole]] at $s = 1$. The _[[class number formula]]_ says that its [[residue]] there is proportional the the product of the [[regulator of a number field|regulator]] of $K$ with the [[class number]] of $K$
+
+$$
+  \underset{s\to 1}{\lim} (s-1) \zeta_K(s)
+  \propto
+  ClassNumber_K \cdot Regulator_K
+  \,.
+$$
+
 
 ### Relation to Hecke theta functions
  {#RelationToThetaFunctions}
