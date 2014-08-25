@@ -3,6 +3,7 @@
 
 |   | [[zeta function]] | [[eta function]] | [[theta function]] |
 |---|-----|-----------|-----|
+| gives [[functional determinant]] from: | [[Laplace operator]] | [[Dirac operator]] |  |
 | [[differential geometry]]/[[analysis]] | [[zeta function of an elliptic differential operator]] | [[eta function of a self-adjoint operator]] | [[section]] of [[line bundle]] over [[complex torus]] |
 | [[arithmetic geometry]] for a [[number field]] | [[Dedekind zeta function]] | [[Hecke L-function]] | [[Hecke theta function]] |
 | [[arithmetic geometry]] for $\mathbb{Q}$ | [[Riemann zeta function]] | [[Dirichlet L-function]] | [[Jacobi theta function]] |
