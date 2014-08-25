@@ -138,15 +138,15 @@ There is a specific version called **Quillen's determinant line bundle** which i
 If we had a trivialization of the Quillen's determinant line bundle, then we could identify every section with a holomorphic function on the base space, hence a holomorphic rule giving a number to a Cauchy-Riemann operator. For this one restricts first to the component consisting of the operators with the zero Fredholm index. Next, one considers the corresponding [[Laplace operator]] $D^* D$ and its [[functional determinant]] related to the [[zeta function of an elliptic differential operator]]. (This is related to the [[analytic torsion]]).
 
 
-### Determinant bundle on the Grassmanian
+### Determinant bundle on the Grassmannian
 
-Let $Gr_k(V)$ be the [[Grassmanian]] of $k$-dimensional subspaces of a finite dimensional vector space $V$. Let $W\subset V$ be a point in $Gr_k(V)$ and $\Lambda^k(W)$ its top exterior power; it is a fiber of the bundle $Det$ over $Gr_k(V)$. The determinant bundle $Det$ has no non-zero holomorphic global sections. Consider its dual $Det^*$ with fiber $\Lambda^k(W)^*$ over $W$. Then the space of of global holomorphic sections $\Gamma_{hol}(Det^*) \cong \Lambda^k(V^*)$. This construction can be suitably extended for the Segal Grassmanian, where $V= V_+\oplus V_-$ is a separable Hilbert space equipped with a polarization, see chapter 7 and especially 7.7 in the Pressley-Segal book listed below.
+Let $Gr_k(V)$ be the [[Grassmannian]] of $k$-dimensional subspaces of a finite dimensional vector space $V$. Let $W\subset V$ be a point in $Gr_k(V)$ and $\Lambda^k(W)$ its top exterior power; it is a fiber of the bundle $Det$ over $Gr_k(V)$. The determinant bundle $Det$ has no non-zero holomorphic global sections. Consider its dual $Det^*$ with fiber $\Lambda^k(W)^*$ over $W$. Then the space of of global holomorphic sections $\Gamma_{hol}(Det^*) \cong \Lambda^k(V^*)$. This construction can be suitably extended for the Segal Grassmannian, where $V= V_+\oplus V_-$ is a separable Hilbert space equipped with a polarization, see chapter 7 and especially 7.7 in the Pressley-Segal book listed below.
 
 
 
 ### Comparing Quillen's and Segal's determinant line bundles
 
-The determinant line bundle of Quillen is in fact related to a variant of Segal's determinant bundle on the "semiinfinite" Grassmanian. Namely one considers instead $Gr_{cpt}(H)$ which is the set (space eventually) of closed supspaces $W\subset H$ where the projection $W\to H_+$ is [[Fredholm operator|Fredholm]] and $W\to H_-$ is [[compact operator|compact]]; then one follows the Segal's prescription to define $Det$ on $Gr_{cpt}(H)$. Notice that $Gr_{cpt}(H)$ is not a homogeneous space. Now there is a span of maps with contractible fibers
+The determinant line bundle of Quillen is in fact related to a variant of Segal's determinant bundle on the "semiinfinite" Grassmannian. Namely one considers instead $Gr_{cpt}(H)$ which is the set (space eventually) of closed supspaces $W\subset H$ where the projection $W\to H_+$ is [[Fredholm operator|Fredholm]] and $W\to H_-$ is [[compact operator|compact]]; then one follows the Segal's prescription to define $Det$ on $Gr_{cpt}(H)$. Notice that $Gr_{cpt}(H)$ is not a homogeneous space. Now there is a span of maps with contractible fibers
 
 $$
 Gr_{cpt}(H)\leftarrow \mathcal{B}\to Fred(H_+).
