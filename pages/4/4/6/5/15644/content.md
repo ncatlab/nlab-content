@@ -1,11 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-A kind of [[L-function]] with respect to [[Dirichlet characters]].
+The _Dirichlet L-functions_ are a kind of [[L-function]] with induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)).
 
-([Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11))
+In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theore]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
 
+$$
+  s \mapsto \int_{\mathbb{I}} \chi(x) \;f(x)\; {\vert x\vert}^s
+$$
+
+for suitable Schwartz functions $f$ on the [[idele group]].
 Where [[Dirichlet characters]] (see there) are essentially [[automorphic forms]] for the [[idele group]] (hence for $n = 1$) the generalization to automorphic forms for $n \geq 1$ is the concept of _[[automorphic L-function]]_.
 
 ## Related concepts
@@ -20,7 +28,10 @@ Where [[Dirichlet characters]] (see there) are essentially [[automorphic forms]]
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+* {#Garrett11} [[Paul Garrett]], section 1.6 _Iwasawa-Tate on &#950;-functions and L-functions_
+([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf))
 
 [[!redirects Dirichlet L-functions]]
 
 [[!redirects Dirichlet L-series]]
+
