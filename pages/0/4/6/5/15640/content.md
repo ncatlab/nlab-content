@@ -187,9 +187,13 @@ $$
 which in turn follows from the [[Poisson summation formula]].
 
 In terms of the adelic integral expression, the functional equation of the theta function (and of the zeta integral)
-corresponds to the analytic duality furnished by Fourier transform on the adelic spaces and its subspaces. ([Tate 50](#Tate50), [Fesenko 08 0.1](#Fesenko08), [Goldfeld-Hundley 11 theorem 2.2.12](#GoldfeldHundley11))
+corresponds to the analytic duality furnished by Fourier transform on the adelic spaces and its subspaces. (due to [Tate 50](#Tate50), reviewed for instance in [Fesenko 08 0.1](#Fesenko08), [Garrett 11, section 1.9](#Garrett11), [Goldfeld-Hundley 11 theorem 2.2.12](#GoldfeldHundley11))
 
 This [[adelic integral]]-method generalizes to [[Dedekind zeta functions]] for any [[algebraic number field]]. This is due to ([Tate 50](#Tate50)), highlighted in ([Goldfeld-Hundley 11, Remark (1) by Ivan Fesenko](#GoldfeldHundley11)).
+
+### Euler product form
+
+...[[Euler product]]...
 
 
 ### Analogs over number fields, function fields and complex curves
