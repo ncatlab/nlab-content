@@ -45,7 +45,7 @@ The original articles are
 
 Reviews include
 
-* [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_
+* {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011
 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
 
 
