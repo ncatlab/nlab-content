@@ -5,7 +5,11 @@
 
 ## Idea
 
-A Shimura variety is a higher-dimensional analog of a [[modular curve]].
+A _Shimura variety_ is a higher-dimensional analog of a [[modular curve]].
+
+## Related concepts
+
+* [[Rapoport-Zink space]]
 
 ## References
 
