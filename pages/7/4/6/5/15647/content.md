@@ -11,7 +11,7 @@ For a suitable [[linear operator]] (say on [[section]] of a [[line bundle]] over
 
 ### The zeta function
 
-Given an [[elliptic differential operator]] with positive lower bound $c$,  write $D$ for its [[self-adjoint extension]] and write 
+Given an [[elliptic differential operator]] with positive lower bound $c$,  write $H$ for its [[self-adjoint extension]] and write 
 
 $$
   0 \lt \lambda_1 \leq \lambda_2 \leq \cdots
@@ -19,13 +19,13 @@ $$
 
 for its [[eigenvalues]].
 
-Then the _zeta function_ of $D$ is
+Then the _zeta function_ of $H$ is
 
 $$
   \begin{aligned}
-    \zeta_D(s) 
+    \zeta_H(s) 
     & \coloneqq 
-    tr( D^{-s} )
+    tr( H^{-s} )
     \\
     & \coloneqq
     \underoverset{n = 1}{\infty}{\sum} \frac{1}{(\lambda_n)^s}
@@ -38,10 +38,10 @@ where the [[series]] converges and then extended by [[analytic continuation]]
 
 ### Functional determinant and zeta-function regularization
 
-Notice that the first [[derivative]] $\zeta^\prime_D$ of this zeta function is, where the original series converges, given by
+Notice that the first [[derivative]] $\zeta^\prime_H$ of this zeta function is, where the original series converges, given by
 
 $$
-  \zeta_D^\prime(s)
+  \zeta_H^\prime(s)
   =
   \sum_{n = 1}^\infty \frac{- \ln \lambda_n}{ (\lambda_n)^s}
   \,.
@@ -52,13 +52,26 @@ $$
 Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _functional determinant_ of $D$ is the exponential of the zeta function of $D$ at 0:
 
 $$
-  det D
+  det H
   \coloneqq
-  \exp(- \zeta_D^\prime(0))
+  \exp(- \zeta_H^\prime(0))
   \,.
 $$
 
-Via the [[analytic continuation]] involved in defining $\eta_D(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "prod_n \lambda^n" of the [[determinant]] of $D$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
+Via the [[analytic continuation]] involved in defining $\eta_H(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "prod_n \lambda^n" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
+
+If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalies, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
+
+$$
+  det H 
+  =
+  det (D^2) 
+   = 
+  \exp( \frac{\partial}{\partial s}\frac{\partial}{\partial c} \eta_{D}(0))
+  \,.
+$$
+
+See at _[eta invariant -- Relation to zeta function](eta+invariant#RelationToTheZetaFunction)_ for more on this.
 
 ## Examples
 
