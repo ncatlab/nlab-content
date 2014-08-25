@@ -162,6 +162,8 @@ For references concerning [[Witt rings]] and [[Dieudonné modules]] see there.
 
 * Jacob Lurie, [[A Survey of Elliptic Cohomology]], section 4.2, [pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf){#pLurie}
 
+* Peter Scholze, Moduli of p-divisible groups, [arxiv](http://arxiv.org/abs/1211.6357)
+
 * Thomas Zink, a dieudonn&#233; theory for p-divisible groups, [pdf](http://www.math.uni-bielefeld.de/~zink/CFTpaper.pdf)
 
 * Thomas Zink, list of publications and preprints, [web](http://www.math.uni-bielefeld.de/~zink/z_publ.html)
