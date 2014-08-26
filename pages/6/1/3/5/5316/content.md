@@ -401,7 +401,7 @@ $$
 ### Euler characteristic
  {#EulerCharacteristic}
 
-The [[orbifold Euler characteristic]] of the moduli space of complex elliptic curves is given by the [[Riemann zeta function]]
+The [[orbifold Euler characteristic]] of the moduli space of complex elliptic curves is given by the [[special values of L-functions|special value]] of the [[Riemann zeta function]] at $s= -1$
 
 $$
   \chi(\mathcal{M}_{1,1}) = \zeta(-1) = - \frac{1}{12}
