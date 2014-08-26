@@ -59,6 +59,30 @@ From this perspective the concept of the [[ring of adeles]] is natural, see ther
 
 =--
 
+## Properties
+
+### Pontryagin duality
+
+Under [[Pontryagin duality]], $\hat \mathbb{Z}$ maps to $\mathbb{Q}/\mathbb{Z}$, see at _[[Pontryagin duality for torsion abelian groups]]_.
+
+$$
+  \array{
+     &\mathbb{Z}[p^{-1}]/\mathbb{Z}
+     &\hookrightarrow&
+     \mathbb{Q}/\mathbb{Z}
+     &\hookrightarrow&
+     \mathbb{R}/\mathbb{Z}
+     \\
+     {}^{\mathllap{hom(-,\mathbb{R}/\mathbb{Z})}}\downarrow
+     \\
+     &\mathbb{Z}_p
+     &\leftarrow&
+     \hat \mathbb{Z}
+     &\leftarrow&
+     \mathbb{Z}
+  }
+$$
+
 ## Related concepts
 
 * the [[modular group]]/[[general linear group]] with profinite integer coefficients $GL_2(\widehat{\mathbb{Z}})$ appears as the symmetry group in [[modular equivariant elliptic cohomology]].
