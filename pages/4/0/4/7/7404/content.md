@@ -17,6 +17,7 @@ Grouplike $E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there
 
 * [[∞-group completion]]
 
+* [[very commutative object]]
 
 [[!include k-monoidal table]]
 
