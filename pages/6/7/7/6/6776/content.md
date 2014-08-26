@@ -36,6 +36,8 @@ J. Reine Angew. Math. 482 (1997), 177&#8211;189, [doi](http://dx.doi.org/10.1515
 * Anatol Kirillov Jr., _Traces of intertwining operators and Macdonald's polynomials_, [q-alg/9503012](http://arxiv.org/abs/q-alg/9503012)
 * Anton Gerasimov, Dimitri Lebedev, Sergey Oblezin, _Baxter operator formalism for Macdonald polynomials_. [arxiv/1204.0926](http://arxiv.org/abs/1204.0926)
 * Persi Diaconis, [[Arun Ram]], _A probabilistic interpretation of the Macdonald polynomials_, [arxiv/1007.4779](http://arxiv.org/abs/1007.4779)
+* Anton Khoroshkin, _Highest weight categories and Macdonald polynomials_, [arxiv/1312.7053](http://arxiv.org/abs/1312.7053)
+
 
 category: algebra, combinatorics
 [[!redirects Macdonald polynomials]]
