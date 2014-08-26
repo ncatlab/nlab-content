@@ -38,6 +38,7 @@ _Geometric measure theory_ and _geometric integration theory_ studies various [[
 * H. Federer, W. H. Fleming, _Normal and integral currents_, Ann. of Math. (2) __72__ 1960 458&#8211;520, [MR123260](http://www.ams.org/mathscinet-getitem?mr=123260), [doi](http://dx.doi.org/10.2307/1970227)
 * Stephen H. Schanuel, _What is the length of a potato? An introduction to geometric measure theory_, in: Categories in continuum physics (Buffalo, N.Y., 1982), 118&#8211;126,
 Lecture Notes in Math. __1174__, Springer 1986, [MR842922](http://www.ams.org/mathscinet-getitem?mr=842922),[doi](http://dx.doi.org/10.1007/BFb0076939)
-
+* Rodolfo Rios-Zertuche, _The variational structure of the space of holonomic measures_, [arxiv1408.5785](http://arxiv.org/abs/1408.5785)
+ 
 
 [[!redirects geometric integration theory]]
