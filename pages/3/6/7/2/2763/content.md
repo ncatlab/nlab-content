@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-A _derived elliptic curve_ is an object in [[higher geometry]] that is to an [[E-∞ ring]] as an ordinary [[elliptic curve]] is to an ordinary [[ring]].
+A _derived elliptic curve_ is an object in [[higher geometry]] that is to an [[E-∞ ring]] as an ordinary [[elliptic curve]] is to an ordinary [[commutative ring]].
 
 The ordinary [[moduli stack of elliptic curves]] when equipped with the [[structure sheaf]] of [[E-∞ rings]] which assigns to each elliptic curve its [[elliptic spectrum]] becomes a [[spectral Deligne-Mumford stack]] which as such is what modulates derived elliptic curves (see [below](#ModuliStack)). 
 
