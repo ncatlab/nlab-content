@@ -62,6 +62,7 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 
 ### Quality types as localizations
 
+**Theorem** ([Johnstone 1996](#JS96)) . Let $\mathcal{E}$ be a [[Cauchy completion|Cauchy- complete category]]. The quintessential localizations of $\mathcal{E}$ correspond precisely to idempotent endomorphisms of the identity functor on $\mathcal{E}$. Moreover, quintessential subcategories of $\mathcal{E}$ form a semilattice under intersection.
 
 
 ## Related entries
@@ -110,7 +111,8 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
-* {#PRW89} [[Robert Paré|R. Paré]], [[Robert Rosebrugh|R. Rosebrugh]], [[R. J. Wood]] , _Idempotents in Bicategories_ , Bull.Austr.Math.Soc. **39** (1989) pp.421-434.
+
+* {#PRW89} [[Robert Paré|R. Paré]], [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood , _Idempotents in Bicategories_ , Bull.Austr.Math.Soc. **39** (1989) pp.421-434.
 
 [^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's ideas don't provide a fully fledged homotopy theory but are rather observations or meditations on the role of the cylinder configuration in the analysis of space and spatial dimension. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
 In a complementary direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
