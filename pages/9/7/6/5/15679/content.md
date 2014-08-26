@@ -55,6 +55,8 @@ However ([Scholl 91](#Scholl91)) observed that also these [[Beilinson regulators
 
 * [[Beilinson conjectures]]
 
+* [[zeta function regularization]]
+
 ## References
 
 Original article on the main conjectures are
