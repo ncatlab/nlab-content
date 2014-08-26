@@ -99,6 +99,29 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 =--
 
+### Pontrajgin duality to Pr&#252;fer $p$-group
+
+Under [[Pontryagin duality]], the [[abelian group]] underlying $\mathbb{Z}_p$ maps to the [[Prüfer p-group]] $\mathbb{Z}[p^{-1}]/\mathbb{Z}$, see at _[[Pontryagin duality for torsion abelian groups]]_.
+
+$$
+  \array{
+     &\mathbb{Z}[p^{-1}]/\mathbb{Z}
+     &\hookrightarrow&
+     \mathbb{Q}/\mathbb{Z}
+     &\hookrightarrow&
+     \mathbb{R}/\mathbb{Z}
+     \\
+     {}^{\mathllap{hom(-,\mathbb{R}/\mathbb{Z})}}\downarrow
+     \\
+     &\mathbb{Z}_p
+     &\leftarrow&
+     \hat \mathbb{Z}
+     &\leftarrow&
+     \mathbb{Z}
+  }
+$$
+
+
 ### As the formal neighbourhood of a prime
  {#AsFormalNeighbourhoodOfPrime}
 
