@@ -24,11 +24,13 @@ _Beilinson's conjectures_ ([Beilinson 85](#Beilinson85)) [[conjecture]] for [[ar
 
 1. that the realification of the [[Beilinson regulator]] exhibits an [[isomorphism]] between the relevant [[algebraic K-theory]]/[[motivic cohomology]] groups and [[Deligne cohomology]] ([[ordinary differential cohomology]]) groups;
 
-   (recalled e.g. as [Brylinski-Zucker 91, conjecture 5.20](#BrylinskiZucker91), [Deninger-Scholl (3.1.1)](#DeningerScholl), [Nekovar (6.1 (1))](#Nekovar)). 
+   (recalled e.g. as [Schneider 88, p. 30](#Schneider88), [Brylinski-Zucker 91, conjecture 5.20](#BrylinskiZucker91), [Deninger-Scholl (3.1.1)](#DeningerScholl), [Nekovar (6.1 (1))](#Nekovar)). 
 
 1. induced by this that [[special values of L-functions|special values]] of the ([[Hasse-Weil L-function|Hasse-Weil]]-type) [[L-function]] are proportional to the [[Beilinson regulator]], in analogy with the [[class number formula]] and the [[Birch and Swinnerton-Dyer conjecture]]
 
-   (recalled e.g. as [Brylinski-Zucker 91, conjecture 5.21](#BrylinskiZucker91), [Deninger-Scholl (3.1.2)](#DeningerScholl), [Nekovar (6.1 (2))](#Nekovar))).
+   (recalled e.g. as [Schneider 88, p. 31](#Schneider88) [Brylinski-Zucker 91, conjecture 5.21](#BrylinskiZucker91), [Deninger-Scholl (3.1.2)](#DeningerScholl), [Nekovar (6.1 (2))](#Nekovar))).
+
+The Beilinson conjecture for [[special values of L-functions]] follows the [[Birch and Swinnerton-Dyer conjecture]] and [[Pierre Deligne]]'s conjecture on special value of L-functions. 
 
 ## Related concepts
 
@@ -48,11 +50,15 @@ The original articles are
 
 * {#Beilinson87} [[Alexander Beilinson]], _Height pairing between algebraic cycles_, in _K-Theory, Arithmetic and Geometry_, Lecture Notes in Mathematics Volume 1289, 1987, pp 1-26
 
+
 Reviews include
+
+* {#RapoportSchappacherSchneider88} [[Michael Rapoport]], N. Schappacher, [[Peter Schneider]] (eds), _Beilinson's conjectures on special values of L-functions_, Perspectives in mathematics 4, Academic Press 1988
+
 
 * {#Soule84} [[Christophe Soulé]], _R&#233;gulateurs_ S&#233;minaire Bourbaki, 27 (1984-1985), Exp. No. 644, 17 p. ([Numdam](http://www.numdam.org/item?id=SB_1984-1985__27__237_0))
 
-* {#Schneider} [[Peter Schneider]], _Introduction to the Beilinson conjectures_ ([[SchneiderBeilinsonConjectures.pdf:file]])
+* {#Schneider88} [[Peter Schneider]], _Introduction to the Beilinson conjectures_, in [Rapoport-Schappacher-Schneider 88](#RapoportSchappacherSchneider88) ([[SchneiderBeilinsonConjectures.pdf:file]])
 
 * {#Nekovar} [[Jan Nekovar]], section 3 of _Beilinson's Conjectures_ ([pdf](http://people.math.jussieu.fr/~nekovar/pu/mot.pdf))
 
