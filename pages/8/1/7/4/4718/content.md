@@ -222,7 +222,7 @@ A survey of commutative rng theory is in
 
 * {#Anderson06} D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
 
-Discussion of [[module]] theory over rngs is in 
+Discussion of [[module]] theory over rngs (with close relation to [[torsion modules]]) is in 
 
 * {#Quillen96} [[Daniel Quillen]], _Module theory over nonunital rings_, August 1996 ([[QuillenModulesOverRngs.pdf:file]])
 
