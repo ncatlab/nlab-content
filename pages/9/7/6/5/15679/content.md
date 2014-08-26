@@ -40,7 +40,7 @@ Notice that under the [[function field analogy]] these arithmetic $L$-functions 
 
 Another kind of special value is given by the classical [[class number formula]] which says that the [[residue]] of the [[Dedekind zeta function]] $\zeta_K$ of a [[number field]] $K$ at $n = 1$ is proportional to the [[regulator of a number field|regulator of the number field]].
 
-Also the [[Birch and Swinnerton-Dyer conjecture]] relates expresses the first non-vanishing [[derivative]] of the $L$-series of an [[elliptic curve]] over $\mathbb{Q}$ at $s= 1$ in terms of the [[regulator of a number field|regulator]].
+Also the [[Birch and Swinnerton-Dyer conjecture]] expresses the first non-vanishing [[derivative]] of the $L$-series of an [[elliptic curve]] over $\mathbb{Q}$ at $s= 1$ in terms of the [[regulator of a number field|regulator]].
 
 Motivated by this ([Beilinson 85](#Beilinson85)) generalized both Deligne's conjecture and the statements about regulators by defining [[higher regulators]] ("Beilinson regulators") and conjecturing a general statement that expresses special values of $L$-function in terms of these, now known as _[[Beilinson's conjectures]]_.
 
