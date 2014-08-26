@@ -102,6 +102,10 @@ Under suitable conditions, torsion approximation forms an [[adjoint modality]] w
 
 [[!include arithmetic cohesion -- table]]
 
+## Related concepts
+
+* [[Pontryagin duality for torsion abelian groups]]
+
 ## References
 
 Discussion for [[chain complexes]] is in 
