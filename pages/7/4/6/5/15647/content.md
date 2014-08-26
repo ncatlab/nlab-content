@@ -298,7 +298,7 @@ Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) 
 
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
 
-* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Communications in Mathematical Physics_, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
+* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
 [[!redirects zeta functions of elliptic differential operators]]
 
