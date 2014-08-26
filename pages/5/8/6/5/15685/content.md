@@ -1,0 +1,11 @@
+
+
+## Idea
+
+The _Siegel upper half space_ is the generalization of the [[upper half-plane]] as one passes from the description of complex [[elliptic curves]] to that of [[Riemann surfaces]] of higher [[genus]].
+
+## References
+
+* Wikipedia, _[Siegel upper half-space](http://en.wikipedia.org/wiki/Siegel_upper_half-space)_
+
+[[!redirects Siegel upper half space]]
