@@ -22,7 +22,7 @@
 For $X$ a [[space]] equipped with a notion of [[dimension]] $dim X \in \mathbb{N}$ and a notion of [[Kähler differential forms]], 
 a _$\Theta$-characteristic of $X$ is a choice of [[square root]] of the [[canonical characteristic class]] of $X$. See there for more details.
 
-In [[complex analytic geometry]] and at least if the Theta characteristic is [[polarized variety|principally polarizing]] then its [[holomorphic sections]] are called [[theta functions]].
+In [[complex analytic geometry]] and at least if the Theta characteristic is [[polarized variety|principally polarizing]] then its [[holomorphic sections]] are called [[theta functions]]. In particular for line bundles over the [[Jacobian variety]] of a [[Riemann surface]] they are called _[[Riemann theta functions]]_.
 
 ## Examples
 
@@ -55,7 +55,7 @@ The function that sends a square root line bundle to the [[dimension]] of its sp
 
 =--
 
-This is due to ([Atiyah, theorem 2](#Atiyah)). Re motivational survey in broader context of quadratic refinementes of the intersection pairing in higher dimensions in in ([Hopkins-Singer 02, section 2.1](#HopkinsSinger02)).
+This is due to ([Atiyah, theorem 2](#Atiyah)). A motivational survey in broader context of [[quadratic refinements]] of the [[intersection pairing]] in higher dimensions is in ([Hopkins-Singer 02, section 2.1](#HopkinsSinger02)).
 
 
 ### As metaplectic and Spin structure over (K&#228;hler-)polarized varieties
