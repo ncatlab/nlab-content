@@ -110,6 +110,12 @@ For the [[model structure]] on $Mod(O_X)$, see [[model structure on chain comple
 * [[Denis-Charles Cisinski]], F. D&#233;glise, _Local and stable homologial algebra in Grothendieck abelian categories_, Homology, Homotopy and Applications, vol. 11 (1) (2009)  ([url](http://www.intlpress.com/HHA/v11/n1/a11/))
 {#CisinskiDeglise}
 
+### Derived categories of quasi-coherent sheaves
+
+* [[R. Thomason]], T. Trobaugh. _Higher algebraic K-theory of schemes and of derived categories_. The Grothendieck Festschrift, Vol. III Birkh&#168;auser, Boston (1990), 247-436.
+
+* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc., vol. 9, no. 1, 1996, pp. 205-236, [doi](http://dx.doi.org/10.1090/S0894-0347-96-00174-9).
+
 ### Bounded derived category of coherent sheaves
 
 For a summary of the results of [[Bondal]]-[[Orlov]], see
@@ -137,8 +143,6 @@ For the derived invariance of $Pic^0 \rtimes Aut^0$, see
 ### Triangulated category of perfect complexes
 
 * [[Luc Illusie]]. _Le complexe cotangent I et II_, Lecture Notes in Math. 239, 283, Springer-Verlag, Berlin (1971,1972).
-
-* [[R. Thomason]], T. Trobaugh. _Higher algebraic K-theory of schemes and of derived categories_. The Grothendieck Festschrift, Vol. III Birkh&#168;auser, Boston (1990), 247-436.
 
 * [[Andre Hirschowitz]], [[Carlos Simpson]].  _Descente pour les n-champs_, [arXiv:math/9807049](http://arxiv.org/abs/math/9807049)
 
