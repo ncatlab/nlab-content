@@ -38,7 +38,7 @@ Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators 
 +-- {: .num_defn #TorsionInfinityModule}
 ###### Definition
 
-An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-torsion module_ if for all elements $n \in \pi_k N$ and all elements $a \in \mathfrak{a}$ there is $k \in \mathbb{N}$ such that $a^k n = 0$.
+An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-[[torsion module]]_ if for all elements $n \in \pi_k N$ and all elements $a \in \mathfrak{a}$ there is $k \in \mathbb{N}$ such that $a^k n = 0$.
 
 =--
 
@@ -117,5 +117,3 @@ Discussion in the generality of [[E-∞ rings]] and [[∞-modules]] is in
 
 [[!redirects torsion approximations]]
 
-[[!redirects torsion module]]
-[[!redirects torsion modules]]
