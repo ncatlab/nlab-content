@@ -1,19 +1,41 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on $G$.  (Recall that the latter is well-defined only up to scalar multiplication.)
+Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$ or more generally over a [[global field]] $K$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on $G$.  (Recall that the latter is well-defined only up to scalar multiplication.)
 
-The **Tamagawa number** of $G$ is the Tamagawa measure of the [[quotient]] [[coset space]]$G(\mathbf{Q})\backslash G(\mathbf{A})$, where $\mathbf{A}$ is the ring of [[adeles]].
+The **Tamagawa number** of $G$ is essentially the Tamagawa measure of the [[quotient]] [[coset space]] $G(K)\backslash G(\mathbf{A}_K)$, where $\mathbf{A}$ is the ring of [[adeles]] of $K$. 
 
-A further [[stacky quotient]] of this quotient may be identified, under the [[function field analogy]], with an incarnation of the [[moduli stack of bundles|moduli stack of G-principal bundles]] over a [[curve]]. A relation of the Tamagawa numbers to the properties of this stack is the content of the [[Weil conjecture on Tamagawa numbers]].
+This is [[conjecture|conjectured]] and known in many cases to be a [[rational number]], the quotient $Pic/Sha$ of the [[order of a group|order]] of the [[Picard group]] divided by that of the [[Tate-Shafarevich group]]. ([MO comment](http://mathoverflow.net/q/44184/381))
 
++-- {: .num_remark}
+###### Remark
+For $G= GL_1 = \mathbb{G}_m$ the [[multiplicative group]] then the quotient $G(\mathbf{Q})\backslash G(\mathbf{A})$ is the [[idele class group]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The further [[stacky quotient]] of G(\mathbf{Q})\backslash G(\mathbf{A}) by $G(\mathbb{A}_[\mathbb{Z}})$ is [[analogy|analogous]], under the [[function field analogy]] and in view of the [[Weil uniformization theorem]], with an incarnation of the [[moduli stack of bundles|moduli stack of G-principal bundles]] over a [[curve]]. A relation of the Tamagawa numbers to the properties of this stack is the content of the [[Weil conjecture on Tamagawa numbers]].)
+
+=--
 
 ## Related concepts
 
 * [[Weil conjecture on Tamagawa numbers]]
 
+* [[Birch and Swinnerton-Dyer conjecture]]
+
 ## References
 
 * Wikipedia, _[Tamagawa numbers](http://en.wikipedia.org/wiki/Tamagawa_number#Tamagawa_numbers)_, _[Weil conjecture on Tamagawa numbers](http://en.wikipedia.org/wiki/Weil_conjecture_on_Tamagawa_numbers)_
+
+* {#Bloch80} [[Spencer Bloch]], _A note on height pairings, Tamagwawa numbers, and the Birch and Swinnerton-Dyer conjecture_, Inventiones math. 58, 65-76 (1980) ([[BlochTamagawa.pdf:file]])
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/283.html))
 
