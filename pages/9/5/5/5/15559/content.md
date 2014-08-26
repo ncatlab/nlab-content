@@ -22,6 +22,12 @@ The analog for [[function fields]] is the [[Weil zeta function]], while the gene
 
 ## Properties
 
+### Special values
+
+For $K$ a [[number field]] then all [[special values of L-functions|special values]] of the Dedekind zeta function $\zeta_K(n)$ for integer $n$ happen to be [[periods]] ([MO comment](http://mathoverflow.net/a/54244/381)).
+
+Based on this ([Deligne 79](#Deligne79)) identified _critical values_ of $L$-functions (at certain integers) and conjectured that these are all these are algebraic multiples of [[determinants]] of [[matrices]] whose entries are [[periods]]. For more on this see at _[[special values of L-functions]]_.
+
 ### Adelic integral expression
 
 The Dedekind zeta function has an [[adelic integral]] expression in direct analogy to that of the [[Riemann zeta function]]. This is due to ([Tate 50](#Tate50)), highlighted by [[Ivan Fesenko]] in ([Goldfeld-Hundley 11, Interlude remark (1)](#GoldfeldHundley11)).
