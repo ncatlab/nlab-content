@@ -25,7 +25,7 @@ $$
   (a_1,a_2)\in H_1(\Sigma,\mathbb{Z})
 $$
 
-of the first [[ordinary homology]] of $\Sigma$ with [[integer]] [[coefficients]] (and vanishing [[intersection number]]).  The [[special linear group]] $SL_2(\mathbb{Z})$ naturally acts on this data (by [[Möbius transformations]] on $\tau$) and the [[quotient]] [[projection]] exhibits an infinite [[covering]] ([[atlas]]) of the  [[moduli stack of elliptic curves]] over the complex numebrs
+of the first [[ordinary homology]] of $\Sigma$ with [[integer]] [[coefficients]] (and vanishing [[intersection number]]).  The [[special linear group]] $SL_2(\mathbb{Z})$ naturally acts on this data (by [[Möbius transformations]] on $\tau$) and the [[quotient]] [[projection]] exhibits an infinite [[covering]] ([[atlas]]) of the  [[moduli stack of elliptic curves]] over the complex numbers
 
 $$
   \mathfrak{h} \longrightarrow \mathfrak{h}//SL_2(\mathbb{C}) \simeq \mathcal{M}_{ell}(\mathbb{C})
@@ -91,7 +91,7 @@ $$
 
 ### Over general rings
 
-(e.g [Ando 00, section 1.4](#Ando00), [Ando-Hopkins-Strickland 02, section 15.2](#AndoHopkinsStrickland02), [Hill-Lawson 13, section 3.6](#HillLawson13))
+(e.g [Voloch, def. 1.1](#Voloch)  [Ando 00, section 1.4](#Ando00), [Ando-Hopkins-Strickland 02, section 15.2](#AndoHopkinsStrickland02), [Hill-Lawson 13, section 3.6](#HillLawson13))
 
 
 ## Properties
@@ -134,6 +134,10 @@ The concept of level structure on an elliptic curve is due to
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves_, Princeton University Press, Princeton, NJ, 1985
 
+Review of the definition includes
+
+* {#Voloch} [[Felipe Voloch]], _Modular curves -- 1. Level structures_ ([pdf](https://www.ma.utexas.edu/users/voloch/Ellnotes/feb23.pdf
+))
 
 General discussion is in 
 
