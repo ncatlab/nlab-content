@@ -39,7 +39,7 @@ expression where this [[convergence|converges]], and extended by [[analytic cont
 
 If the operator is an [[elliptic differential operator]] then this is a [[holomorphic function]] in $s$ for large $\Re(s)$. One defines $\eta$ on the rest of the [[complex plane]] by [[analytic continuation]].
 
-The _eta invariant_ of the operator finally is $\eta(0)$.
+The _eta invariant_ of the operator finally is the [[special values of L-functions|special value]] $\eta(0)$.
 
 (e.g. [Richardson, first page](#Richardson))
 
