@@ -25,6 +25,8 @@ See at _[[Pontrjagin dual]]_.
 
 * [[character group]]
 
+* [[Pontryagin duality for torsion abelian groups]]
+
 ## References
 
 ### For higher groups
