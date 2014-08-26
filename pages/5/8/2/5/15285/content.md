@@ -51,4 +51,7 @@
 |  |  [[Hecke theta function]]  |  | [[functional determinant]] [[determinant line bundle|line bundle]] of [[Dirac operator]]/chiral [[Laplace operator]] on $\Sigma$ |    
 | **[[zeta functions]]**  |  |  |  |
 |   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]]/[[zeta function of an elliptic differential operator|of the Laplace operator]] on $\Sigma$ |
+|   |   |  |  |  |
+| **[[higher dimensional arithmetic geometry|higher dimensional spaces]]**  |   |  |  |  |
+| **[[zeta functions]]**  | [[Hasse-Weil zeta function]]  |  |  |  |
 
