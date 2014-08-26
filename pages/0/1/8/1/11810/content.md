@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Beilinson's conjectures_ ([Beilinson 85](#Beilinson85)) [[conjecture]] [[isomorphisms]] between certain [[motivic cohomology]] groups and certain [[Deligne cohomology]] ([[ordinary differential cohomology]]) groups (recalled as [Brylinski-Zucker 91, conjecture 5.20](#BrylinskiZucker91)). Induced by this in turn are conjectures on [[special values of L-functions]] (recalled as [Brylinski-Zucker 91, conjecture 5.21](#BrylinskiZucker91)).
+_Beilinson's conjectures_ ([Beilinson 85](#Beilinson85)) [[conjecture]] [[isomorphisms]] between certain [[motivic cohomology]] groups and certain [[Deligne cohomology]] ([[ordinary differential cohomology]]) groups (recalled as [Brylinski-Zucker 91, conjecture 5.20](#BrylinskiZucker91)). Induced by this in turn are conjectures on [[special values of L-functions]] (see there for more, recalled as [Brylinski-Zucker 91, conjecture 5.21](#BrylinskiZucker91)).
 
 ## Related concepts
 
@@ -53,3 +53,5 @@ Reviews include
 
 
 [[!redirects Beilinson conjectures]]
+
+[[!redirects Beilinson's conjectures]]
