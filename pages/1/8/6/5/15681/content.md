@@ -9,6 +9,19 @@ The _Birch and Swinnerton-Dyer conjecture_ is a [[conjecture]] about the form of
 
 This is hence a conjecture about [[special values of L-functions]]. It influenced the more far-reaching [[Beilinson conjectures]].
 
+## Related concepts
+
+* [[Picard group]], [[Tate-Shafarevich group]]
+
+* [[Tamagawa number]]
+
 ## References
 
 * Wikipedia, _[Birch and Swinnerton-Dyer conjecture](http://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture)_
+
+* Frank Gounelas, _The BSD cconjecture, regulators and special values of L-functions_ ([[GounelasBSD.pdf:file]])
+
+* {#Bloch80} [[Spencer Bloch]], _A note on height pairings, Tamagwawa numbers, and the Birch and Swinnerton-Dyer conjecture_, Inventiones math. 58, 65-76 (1980) ([[BlochTamagawa.pdf:file]])
+
+[[!redirects BSD conjecture]]
+[[!redirects BSD-conjecture]]
