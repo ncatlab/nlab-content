@@ -41,7 +41,9 @@ A general introduction to and discussion of algebraic periods is in
 
 * [[Maxim Kontsevich]], [[Don Zagier]], _Periods_, [pdf](http://193.51.104.7/~maxim/TEXTS/Periods.pdf)
 
-and a popularization in 
+which in section 3 discusses the appearance of periods as [[special values of L-functions]].
+
+A popularization is in 
 
 * Stefan M&#252;ller-Stach, _What is a period ?_, to appear in the Notices of the AMS, [arxiv/1407.2388](http://arxiv.org/abs/1407.2388)
 
