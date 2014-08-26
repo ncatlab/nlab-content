@@ -29,7 +29,7 @@ The simplest example of such regulators are
 
 * the Dirichlet regulator map, discussed below.
 
-These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)).
+These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Deninger Scholl (2.6)](#DeningerScholl), [Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)).
 
 ## Definition
 
@@ -124,6 +124,7 @@ Accordingly the [[spectrum]] of $A$-regulators of $\mathcal{K}(\mathcal{C})$ is 
 ## Properties
 
 ### Becker-Gottlieb transfer and GRR for algebraic K-theory
+
  {#BeckerGottliebTransfer}
 
 For $\pi \colon X \to B$ a [[proper map|proper]] [[submersion]] of [[smooth manifolds]], there is a variant of [[fiber integration in generalized cohomology]] given by the [[Becker-Gottlieb transfer]] in some $E$-[[cohomology theory]]
@@ -191,7 +192,10 @@ See also
 The relation to [[Chern characters]] is made very explicit in
 
 * {#Tamme12} [[Georg Tamme]], _Karoubi's relative Chern character and Beilinson's regulator_, Ann. Sci. Ec. Norm. Super. (4) 45 (2012), no. 4, 601-636. ([[TammeRegulator.pdf:file]])
- 
+
+see also
+
+* {#DeningerScholl} [[Christopher Deninger]], [[Anthony Scholl]], section 2.6 of _The Beilinson conjectures_ ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/d-s.pdf)) 
 
 The interpretation of these regulator Chern characters in [[differential algebraic K-theory]] is due to
 
