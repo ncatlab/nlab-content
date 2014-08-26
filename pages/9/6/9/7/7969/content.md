@@ -25,9 +25,11 @@
 
 Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|principally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
 (e.g. [Polishchuk 03, section 17](#Polishchuk03)) and in particular over a [[Jacobian variety]] ([Beauville](#Beauville)) such as [[prequantum line bundles]] for (abelian) [[gauge theory]]. The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
-Expressed in local [[coordinates]] on $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
+Expressed in [[coordinates]] $\mathbf{z}$ on the [[covering]] $\mathbb{C}^g$ of the [[complex torus]] $\mathbb{C}^g/\mathbb{Z}^g$, a $\theta$-function appears as an actual function $\mathbf{z} \mapsto \theta(\mathbf{z})$ satisfying certain transformation properties, and this is how theta functions are considered.
 
-Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more), which is the historically first and archetypical function from which all modern generalizations derive their name.
+Those theta functions encoding line bundles on a [[Jacobian variety]] $J(\Sigma)$ of a [[Riemann surface]] $\Sigma$ typically vary in a controlled way with the [[complex structure]] modulus $\mathbf{\tau}$ of $\Sigma$ and are hence really functions also of this variable $(\mathbf{z},\mathbf{\tau}) \mapsto \theta(\mathbf{z}, \mathbf{\tau})$ with certain transformation properties. These are the _[[Riemann theta functions]]_. If here $\Sigma$ is complex 1-dimensional of [[genus]] $g = 1$ (hence a complex [[elliptic curve]]) then such a function $(z,\tau) \mapsto \theta(z,\tau)$ of two variables with the pertinent transformation properties is properly called a _[[Jacobi form]]_. Nevertheless the principal examples here are called _[[Jacobi theta functions]]_.
+
+Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more) for $z = 0$. While this is the historically first and archetypical function from which all modern generalizations derive their name, notice that at fixed $z$ as a function in $\tau$ the "theta function" is not actually a section of a line bundle anymore.
 
 Certain integrals of theta functions yield [[zeta functions]], see also at _[[function field analogy]]_.
 
@@ -36,6 +38,19 @@ Certain integrals of theta functions yield [[zeta functions]], see also at _[[fu
 ### In quantization
 
 Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
+
+Specifically the fact that in [[geometric quantization|geometric]] [[quantization of Chern-Simons theory]] in the abelian case, and the [[holographic principle|holographically]] dual [[partition functions]] of the [[WZW model]] the choice of polarization is induced from the choice of [[complex structure]] $\mathbf{\tau}$ on a given [[Riemann surface]] $\Sigma$ and for each such choice there is then a section/[[partition function]] depending on a coordinte $\mathbf{z}$ in the  [[Jacobian]] $J(\Sigma)$ is reflected in the double coordinate dependence of the theta function:
+
+$$
+  \theta(\mathbf{z},\mathbf{\tau})
+  = 
+  \theta\left(gauge\;field\;configuration\;on\;\Sigma\;, \; complex\;structure\;on\;\Sigma\right)
+  \,.
+$$
+
+see e.g. ([AlvaresGaume-Moore-Vafa 86](#AlvaresGaumeMooreVafa86)).
+
+Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
 ## Definition
  {#Definition}
@@ -142,9 +157,4 @@ Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 [[!redirects Theta-function]]
 [[!redirects Theta-functions]]
 
-[[!redirects Riemann theta function]]
-[[!redirects Riemann theta functions]]
-[[!redirects Jacobi theta function]]
-[[!redirects Jacobi theta functions]]
-[[!redirects Ramanujan theta function]]
-[[!redirects Ramanujan theta functions]]
+
