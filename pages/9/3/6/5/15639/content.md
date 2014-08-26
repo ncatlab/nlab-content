@@ -5,7 +5,7 @@
 
 ## Idea
 
-The fundamental example of [[theta functions]].
+The fundamental example of [[theta functions]], in fact of [[Jacobi forms]]:
 
 $$
   \vartheta(z,\tau)
