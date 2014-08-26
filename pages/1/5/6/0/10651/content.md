@@ -188,6 +188,7 @@ See also
 
 * {#Brylinski94} [[Jean-Luc Brylinski]], _Holomorphic gerbes and the Beilinson regulator_, Ast&#233;risque 226 (1994): 145-174 ([[Brylinski94.pdf:file]])
 
+* [[Christophe Soulé]], _On higher p-adic regulators_, Algebraic K-Theory Evanston 1980 Lecture Notes in Mathematics Volume 854, 1981, pp 372-401_ ([publisher page](http://link.springer.com/chapter/10.1007%2FBFb0089530))
 
 The relation to [[Chern characters]] is made very explicit in
 
