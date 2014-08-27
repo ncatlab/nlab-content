@@ -22,7 +22,7 @@ For a fiber surface $T$, the translation of the fibre around the base-space circ
 
 ([Stallings 87](#Stallings87))
 
-> (that is simialry to how the [[Artin L-function]] is defined...)
+> (that is similar to how the [[Artin L-function]] is defined... see also  [Sikora 01, analogy 2.2 (10)](#Sikora01))
 
 ## References
 
@@ -35,6 +35,12 @@ Various approaches to the Alexander polynomial are described in introductory tex
 
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
+* [[Barry Mazur]], _Remarks on the Alexander polynomial_ ([pdf](http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf))
+
 * {#Stallings87} John Stallings, _Constructions of fibered knots and links_, Proceedings of Symposia in Pure Mathematics, Volume 32,1987 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallfib2.pdf))
+
+
+* {#Sikora01} Adam S. Sikora, _Analogies between group actions on 3-manifolds and number fields_ ([arXiv:0107210](http://arxiv.org/abs/math/0107210))
+
 
 category:knot theory
