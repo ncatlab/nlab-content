@@ -27,7 +27,7 @@ What has come to be called _Iwasawa-Tate theory_ is a method of expressing [[zet
 
 > the [[adelic integral]] over the [[idèle group]] of a rather general weight function times the id&#232;le character which is trivial on field elements. The role of Hecke's complicated theta-formulas for [[theta functions]] formed over a lattice in $n$-dimensional space of classical number theory can be played by a simple [[Poisson formula]] for general function of valuation vectors, summed over the discrete subgroup of field elements
 
-[[Kenkichi Iwasawa]] in [Iwasawa 5x](#Iwasawa50) has rediscovered and extended this approach using the wider study of [[invariant integration]] on locally compact groups over ideles. It is distinguished from the related but different subject of Iwasawa theory (cf. [wikipedia](http://en.wikipedia.org/wiki/Iwasawa_theory))
+[[Kenkichi Iwasawa]] in [Iwasawa 5x](#Iwasawa50) has rediscovered and extended this approach using the wider study of [[invariant integration]] on locally compact groups over ideles. It is distinguished from the related but different subject of [[Iwasawa theory]] (cf. [wikipedia](http://en.wikipedia.org/wiki/Iwasawa_theory))
 
 ## Related entries
 
