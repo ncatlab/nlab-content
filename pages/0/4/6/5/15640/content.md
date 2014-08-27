@@ -133,9 +133,14 @@ $$
 in the form
 
 $$
-  \hat \zeta(s)
-  = 
-   \int_0^\infty (\theta(x^2)-1) x^s  \frac{d x}{x}
+  \begin{aligned}
+    \hat \zeta(s)
+    &= 
+    \int_0^\infty (\theta(x^2)-1) x^s  \frac{d x}{x}
+    \\
+    & \stackrel{\tau := x^2}{=} 
+    \frac{1}{2} \int_0^\infty (\theta(\tau)-1) \tau^{s/2}  \frac{d \tau}{\tau}  
+  \end{aligned}
  \,.
 $$
 
