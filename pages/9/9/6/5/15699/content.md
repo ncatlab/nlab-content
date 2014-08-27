@@ -1,0 +1,20 @@
+
+## Examples
+
+### Zeta functions
+
+* [[zeta function of an elliptic differential operator]]
+
+* [[Riemann zeta function]]
+
+## Related concepts
+
+* [[Laplace transform]]
+
+* [[Fourier transform]]
+
+## References
+
+* Wikipedia, _[Mellin transform](http://en.wikipedia.org/wiki/Mellin_transform)_
+
+[[!redirects Mellin transforms]]
