@@ -1,0 +1,12 @@
+
+e.g.
+
+* [[zeta function regularization]]
+
+## Related concepts
+
+* [[renormalization]]
+
+* [[Feynman propagator]]
+
+
