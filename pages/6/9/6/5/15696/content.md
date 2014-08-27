@@ -1,0 +1,104 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In the context of [[regularization (physics)|regularization in physics]] a method/prescription for extracing finite values for [[traces]] of powers of [[Laplace operators]]/[[Dirac operators]] by considering $s$-powers for all values of $s$ in the [[complex plane]] where the naive trace does make sense and then using [[analytic continuation]] to obtain the desired [[special values of L-functions|special value]] at $s = 1$ -- as for [[zeta functions]].
+
+
+### Analytic regularization of propagators
+
+One speaks of _analytic regularization_ ([Speer 71](#Speer71)) if a [[Feynman propagator]] for a [[boson|bosonic]] [[field (physics)|field]], which is naively given by the expression
+"$Tr\left(\frac{1}{H}\right)$" (for $H$ the given [[wave operator]]/[[Laplace operator]]) is made well defined by interpreting it as the [[principal value]] of the [[special values of L-functions|special value]] at $s= 1$ 
+
+$$
+  Tr_{reg}
+  \left(\frac{1}{H}\right)
+  \coloneqq
+  pv\, \zeta_H(1)
+$$
+
+of the [[zeta function of an elliptic differential operator|zeta function]] which is given by the expression
+
+
+$$
+  \zeta_H(s) 
+    \coloneqq 
+  Tr\left(
+    \frac{1}{H}
+  \right)^s
+$$ 
+
+for all values of $s \in \mathbb{C}$ for which the right hand side exists, and is defined by [[analytic continuation]] elsewhere.
+
+
+Analogously the zeta function regularization of the [[Dirac propagator]] for a [[fermion]] [[field (physics)|field]] with [[Dirac operator]] $D$ is defined by
+
+$$
+  Tr_{reg}
+  \left(\frac{D}{D^2} \right)
+  \coloneqq
+  pv\, \eta_D(1)
+$$
+
+where $\eta$ is the [[eta function]] of $D$.
+
+### Functional determinants
+
+Notice that the first [[derivative]] $\zeta^\prime_H$ of this [[zeta function of an elliptic differential operator|zeta function]] is, where the original series converges, given by
+
+$$
+  \zeta_H^\prime(s)
+  =
+  \sum_{n = 1}^\infty \frac{- \ln \lambda_n}{ (\lambda_n)^s}
+  \,.
+$$
+
+
+Therefore the _[[functional determinant]]_ of $H$ ([Ray-Singer 71](#RaySinger71)) is the exponential of the zeta function of $H$ at 0:
+
+$$
+  Det_{reg} H
+  \coloneqq
+  \exp(- \zeta_H^\prime(0))
+  \,.
+$$
+
+Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _[[zeta function regularization]]_.
+
+## Examples
+
+### Analytic torsion
+
+The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
+
+
+## Related concepts
+
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+## References
+
+* {#Speer71} [[Eugene Speer]], _On the structure of Analytic Renormalization_, Comm. Math. Phys. 23, 23-36 (1971) ([Euclid](http://projecteuclid.org/euclid.cmp/1103857549))
+
+* {#RaySinger71} D. Ray, [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
+
+* {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
+
+* A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]] and S. Zerbini, _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
+
+
