@@ -59,7 +59,9 @@ When $F$ is not $Set$, we just have to replace ordinary coproducts with "$F$-ind
 =--
 
 Strengthenings of this condition include
+
 * a [[strongly connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite products, and
+
 * a [[totally connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite limits.
 
 
