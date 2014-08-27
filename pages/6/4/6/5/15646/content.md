@@ -1,9 +1,12 @@
+
+
+| context/[[function field analogy]]  | [[theta function]] | [[zeta function]] | [[eta function]] |  [[special values of L-functions]]
+|---|-----|-----------|-----|----|
+| [[physics]]/[[2d CFT]] | [[partition function]] $\theta(\mathbf{z},\mathbf{\tau}) = Tr(\exp(-\mathbf{\tau} \cdot (D_\mathbf{z})^2))$ as function of [[complex structure]] $\mathbf{\tau}$ of [[worldsheet]] $\Sigma$ (hence [[polarization]] of [[phase space]])  and [[background field|background]] [[gauge field]]/[[source]] $\mathbf{z}$  | analytically continued [[Feynman propagator]] $\zeta(s) = Tr_{reg}(\frac{1}{(D_{\mathbf{z}})^2})^s = \int_{0}^\infty \tau^{s-1} \,\theta(0,\tau)\, d\tau$  | analytically continued [[Dirac propagator]] $\eta(s) = Tr_{reg} \left(\frac{sgn(D_{\mathbf{z}})}{ D_{\mathbf{z}} }\right)^s $  | [[regularization (physics)|regularized]] [[Feynman propagator]] $\zeta(1) = Tr_{reg}\left(\frac{1}{(D_{\mathbf{z}})^2}\right)$ / [[regularization (physics)|regularized]] [[Dirac propagator]] $\eta(1)= Tr_{reg} \left( \frac{D_{\mathbf{z}}}{(D_{\mathbf{z}})^2} \right)$ |
+| [[complex analytic geometry]]/[[analysis]] | [[section]] $\theta(\mathbf{z},\mathbf{\tau})$ in terms of covering coordinates $\mathbf{z}$ on $\mathbb{C}^g \to J(\Sigma_{\mathbf{\tau}})$  of [[line bundle]] over [[Jacobian variety]] $J(\Sigma_{\mathbf{\tau}})$  | [[zeta function of an elliptic differential operator]] | [[eta function of a self-adjoint operator]] |   |
+| [[arithmetic geometry]] for a [[function field]] |   | [[Weil zeta function]] |  |  |
+| [[arithmetic geometry]] for a [[number field]] | [[Hecke theta function]] | [[Dedekind zeta function]] |   [[Hecke L-function]] | [[class number]] $\cdot$ [[regulator]]  |
+| [[arithmetic geometry]] for $\mathbb{Q}$ | [[Jacobi theta function]] | [[Riemann zeta function]] | [[Dirichlet L-function]] | | 
+
+
 [[!redirects zeta-functions and eta-functions and L-functions -- table]]
-
-
-|   | [[zeta function]] | [[eta function]] | [[theta function]] |
-|---|-----|-----------|-----|
-| gives [[functional determinant]] from: | [[Laplace operator]] | [[Dirac operator]] |  |
-| [[differential geometry]]/[[analysis]] | [[zeta function of an elliptic differential operator]] | [[eta function of a self-adjoint operator]] | [[section]] of [[line bundle]] over [[complex torus]] |
-| [[arithmetic geometry]] for a [[number field]] | [[Dedekind zeta function]] | [[Hecke L-function]] | [[Hecke theta function]] |
-| [[arithmetic geometry]] for $\mathbb{Q}$ | [[Riemann zeta function]] | [[Dirichlet L-function]] | [[Jacobi theta function]] |
