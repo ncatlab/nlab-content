@@ -16,6 +16,8 @@ Many L-functions have mutually similar deep features like satisfaction of a func
 
 * [[Dirichlet L-function]]
 
+* [[Artin L-function]]
+
 * [[Hecke L-function]]
 
 * [[Hasse-Weil L-function]]
