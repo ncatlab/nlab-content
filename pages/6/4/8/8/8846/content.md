@@ -1,6 +1,11 @@
-Characteristic polynomial and Cayley-Hamilton theorem. See also [[determinant]].
 
-+-- {: .num_lem}
+
+
+## Characteristic polynomial and Cayley-Hamilton theorem. 
+
+See also _[[determinant]]_.
+
++-- {: .num_lemma}
 ###### Lemma 
 Let $R$ be a commutative ring, and let $A$ be an $n \times n$ matrix with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$ such that $A \tilde{A} = \tilde{A} A = \det(A) \cdot I_n$. 
 =-- 
@@ -19,7 +24,7 @@ Indeed, we can interpret this as a polynomial equation in $\mathbb{C}[a_{i j}]$ 
 =-- 
 
 
-+-- {: .num_thm}
++-- {: .num_theorem}
 ###### Theorem 
 (**Cayley-Hamilton**) 
 Let $V$ be a finitely generated free module over a commutative ring $R$, and let $f \colon V \to V$ be an $R$-module map. Let $p(t) \in R[t]$ be the **characteristic polynomial** $\det(t \cdot 1_V - f)$ of $f$, and let $\phi_f \colon R[t] \to Mod_R(V, V)$ be the unique $R$-algebra map sending $t$ to $f$. Then $p(f) \coloneqq \phi_f(p)$ is the zero map $0 \colon V \to V$. 
@@ -51,7 +56,7 @@ Write $P(t) = \sum_i a_i t^i$. We already know $P(A) = 0$. From $f \circ \pi = \
 
 We give an interesting and perhaps surprising consequence of the Cayley-Hamilton theorem below, after establishing a lemma close in spirit to [[Nakayama's lemma]]. 
 
-+-- {: .num_lem} 
++-- {: .num_lemma} 
 ###### Lemma 
 Suppose $V$ is a finitely generated $R$-module, and $g \colon V \to V$ is a module map such that $g(V) \subseteq I V$ for some ideal $I$ of $R$. Then there is a polynomial $p(t) = t^n + a_1 t^{n-1} + \ldots + a_n$, with all $a_i \in I$, such that $p(g) = 0$. 
 =-- 
@@ -89,10 +94,16 @@ $$1_V(v) = -(\sum_i b_i(t)) t \cdot v$$
 for all $v \in V$, which translates into saying that $1_V = -\sum_i b_i(f) f$, i.e., that $-\sum_i b_i(f)$ is a retraction of $f$. Since $f$ is epic, we now see $f$ is an isomorphism. 
 =-- 
 
-### Literature
+## Examples
+
+* Characteristoc polynomials of [[Frobenius homomorphisms]] acting via [[Galois representations]] constitute [[Artin L-functions]].
+
+## Referemces
 
 The proof of the Cayley-Hamilton theorem follows the treatment in 
 
 * Serge Lange, _Algebra_ ($3^{rd}$ edition), Addison-Wesley, 1993. 
 
 [[!redirects Cayley-Hamilton theorem]]
+
+[[!redirects characteristic polynomials]]
