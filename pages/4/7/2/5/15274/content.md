@@ -27,6 +27,9 @@ In particular it often refers to the extension of an analytic function on the [[
 
 * [[analytically continued Chern-Simons theory]]
 
+* [[zeta function]]
+
+* [[zeta function regularization]]
 
 ## References
 
