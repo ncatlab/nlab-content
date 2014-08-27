@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -16,12 +21,16 @@
 
 ## Idea
 
-In the context of [[regularization (physics)|regularization in physics]] a method/prescription for extracing finite values for [[traces]] of powers of [[Laplace operators]]/[[Dirac operators]] by considering $s$-powers for all values of $s$ in the [[complex plane]] where the naive trace does make sense and then using [[analytic continuation]] to obtain the desired [[special values of L-functions|special value]] at $s = 1$ -- as for [[zeta functions]].
+In the context of [[regularization (physics)|regularization in physics]], _zeta function regularization_ is a method/prescription for extracing finite values for [[traces]] of powers of [[Laplace operators]]/[[Dirac operators]] by 
+
+1. considering $s$-powers for all values of $s$ in the [[complex plane]] where the naive trace does make sense and then 
+
+1. using [[analytic continuation]] to obtain the desired [[special values of L-functions|special value]] at $s = 1$ -- as for [[zeta functions]].
 
 
 ### Analytic regularization of propagators
 
-One speaks of _analytic regularization_ ([Speer 71](#Speer71)) if a [[Feynman propagator]] for a [[boson|bosonic]] [[field (physics)|field]], which is naively given by the expression
+One speaks of _analytic regularization_ ([Speer 71](#Speer71)) or _zeta function regularization_ (e.g. [BCEMZ 03, section 2](#BCEMZ03)) if a [[Feynman propagator]]/[[Green's function]] for a [[boson|bosonic]] [[field (physics)|field]], which is naively given by the expression
 "$Tr\left(\frac{1}{H}\right)$" (for $H$ the given [[wave operator]]/[[Laplace operator]]) is made well defined by interpreting it as the [[principal value]] of the [[special values of L-functions|special value]] at $s= 1$ 
 
 $$
@@ -77,6 +86,8 @@ $$
   \,.
 $$
 
+(see also [BCEMZ 03, section 2.3](#BCEMZ03))
+
 Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _[[zeta function regularization]]_.
 
 ## Examples
@@ -99,6 +110,8 @@ The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]
 
 * {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
 
-* A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]] and S. Zerbini, _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
+* {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
 
 
+[[!redirects functional determinant]]
+[[!redirects functional determinants]]
