@@ -32,7 +32,7 @@ $$
 of the $-s$ power of $H$, which, if $H$ is suitably self-adjoint, is
 the [[sum]] of the $-s$-powers of all its [[eigenvalues]], as a function of $s$. This is analogous to the _[[Riemann zeta function]]_ and the [[Dedekind zeta function]] (or would be if there were something like a [[Laplace operator]] on [[Spec(Z)]] or more generally on an [[arithmetic curve]], see at _[[function field analogy]]_).
 
-The exponential of the derivative of the zeta function at $n = 0$ also encodes the [[functional determinant]] of $H$, a [[regularization (physics)|regularized]] version ("zeta function regularization") of the naive and generally ill-defined product of all eigenvalues. As such, zeta functions play a central role in [[quantum field theory]].
+The exponential of the derivative of the zeta function at $n = 0$ also encodes the [[functional determinant]] of $H$, a [[regularization (physics)|regularized]] version ("[[zeta function regularization]]") of the naive and generally ill-defined product of all eigenvalues. As such, zeta functions play a central role in [[quantum field theory]].
 
 Generally, the values of $\zeta_H(s)$ of interest in [[physics]] (when regarding $H$ as a [[Hamilton operator]]) are those for (low) integral $s$. These are just the _[[special values of L-functions]]_.
 
@@ -69,7 +69,7 @@ where this [[convergence|converges]] and then extended by [[analytic continuatio
 
 =--
 
-(e.g. ([Duistermaat-Guillemin 75 (2.13)](#DuistermaatGuillemin75))).
+(e.g. ([Duistermaat-Guillemin 75 (2.13)](#DuistermaatGuillemin75), [Berline-Getzler-Vergne 04, section 9.6](#BerlineGetzlerVergne04) ) ).
 
 ### Functional determinant and zeta-function regularization
 
@@ -84,7 +84,7 @@ $$
 
 
 
-Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _functional determinant_ of $D$ is the exponential of the zeta function of $D$ at 0:
+Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _[[functional determinant]]_ of $H$ is the exponential of the zeta function of $H$ at 0:
 
 $$
   det H
@@ -93,7 +93,7 @@ $$
   \,.
 $$
 
-Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
+Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _[[zeta function regularization]]_.
 
 If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalues, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
 
@@ -116,7 +116,7 @@ By basic [[integration]] identities we have that
 +-- {: .num_prop #IntegralKernelExpression}
 ###### Proposition
 
-The series expression in def. \ref{ZetaBySeries} is equal to
+The series expression in def. \ref{ZetaBySeries} is equal to the [[Mellin transform]] of the [[partition function]]
 
 $$
     \zeta_H(s)
@@ -133,7 +133,7 @@ $$
 
 =--
 
-(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson), [Connes-Marcolli 06, theorem 13.11](#ConnesMarcolli06)).
+(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson), [BCEMZ 03, section A.2](#BCEMZ03), [Connes-Marcolli 06, theorem 13.11](#ConnesMarcolli06)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -274,6 +274,10 @@ An early reference is
 
  (see also at _[[Duistermaat-Guillemin trace formula]]_)
 
+Textbook accounts include
+
+* {#BerlineGetzlerVergne04} [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], section 9.6 of _Heat Kernels and Dirac Operators_
+
 Review includes
 
 * {#Richardson} [[Ken Richardson]], section 3 of _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
@@ -284,13 +288,19 @@ Review includes
 
 * Wikipedia, _[Zeta function regularization](http://en.wikipedia.org/wiki/Zeta_function_regularization)_
 
-* {#ConnesMarcolli06} [[Alain Connes]], [[MatildeMarcolli]], _A walk in the noncommutative garden_ ([arXiv:0601054](http://arxiv.org/abs/math/0601054))
+* {#ConnesMarcolli06} [[Alain Connes]], [[Matilde Marcolli]], _A walk in the noncommutative garden_ ([arXiv:0601054](http://arxiv.org/abs/math/0601054))
+
+### Zeta function regularization
+
+* {#Speer71} [[Eugene Speer]], _On the structure of Analytic Renormalization_, Comm. math. Phys. 23, 23-36 (1971) ([Euclid](http://projecteuclid.org/euclid.cmp/1103857549))
+
+* {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
 
 ### Functional determinant
 
 The definition of a _[[functional determinant]]_ via the exponential of the derivative of the zeta function at 0 originates in
 
-* {#RaySinger71} D. Ray,  B.; [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
+* {#RaySinger71} D. Ray, [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
 
 
 Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) is in 
@@ -302,10 +312,3 @@ Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) 
 
 
 [[!redirects zeta functions of elliptic differential operators]]
-
-[[!redirects functional determinant]]
-[[!redirects functional determinants]]
-
-[[!redirects zeta function regularization]]
-[[!redirects zeta function regularizations]]
-
