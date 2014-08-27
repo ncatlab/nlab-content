@@ -15,6 +15,10 @@ The Cauchy principal value is a way to assign finite values to divergent integra
 ## Examples ##
 ...
 
+## Related concepts
+
+* [[zeta function regularization]]
+
 ## References ##
 
 * Wikipedia: [Cauchy principal value](http://en.wikipedia.org/wiki/Cauchy_principal_value)
@@ -22,3 +26,5 @@ The Cauchy principal value is a way to assign finite values to divergent integra
 and
 
 * Wikipedia: [Hadamard principal value](http://en.wikipedia.org/wiki/Hadamard_finite_part_integral)
+
+[[!redirects principal value]]
