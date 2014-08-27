@@ -1,6 +1,28 @@
 
-In 1928, [[J. W. Alexander]] published a paper "Topological Invariants of Knots and Links" in which he defined a polynomial invariant of [[knots]] and developed new insights including the braid relations.  There are several ways to look at these invariants, some of these use the [[knot group]] previously defined by [[Max Dehn]], but there are also various combinatorial methods derived from Alexander's original one. One of the best known methods is via [[Fox derivatives]] and is described in the classical text by [[Richard Crowell]] and [[Ralph Fox]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
+
+In 1928, [[J. W. Alexander]] published a paper "Topological Invariants of Knots and Links" in which he defined a polynomial [[knot invariant|invariant]] of [[knots]] and developed new insights including the braid relations.  There are several ways to look at these invariants, some of these use the [[knot group]] previously defined by [[Max Dehn]], but there are also various combinatorial methods derived from Alexander's original one. One of the best known methods is via [[Fox derivatives]] and is described in the classical text by [[Richard Crowell]] and [[Ralph Fox]].
+
+(...)
+
+For a fiber surface $T$, the translation of the fibre around the base-space circle determines an element in the mapping-class group of $T$, a homeomorphism $h\colon T \to T$ well defined up to isotopy; this element is called the _holonomy_ of the fiber surface; the _Alexander polynomial_ is the [[characteristic polynomial]] of the map the holonomy  induces on $H_1(T)$.
+
+([Stallings 87](#Stallings87))
+
+> (that is simialry to how the [[Artin L-function]] is defined...)
 
 ## References
 
@@ -13,6 +35,6 @@ Various approaches to the Alexander polynomial are described in introductory tex
 
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
-
+* {#Stallings87} John Stallings, _Constructions of fibered knots and links_, Proceedings of Symposia in Pure Mathematics, Volume 32,1987 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallfib2.pdf))
 
 category:knot theory
