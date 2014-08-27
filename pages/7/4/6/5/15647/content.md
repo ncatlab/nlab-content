@@ -254,6 +254,35 @@ Early references explaining this include [Alvarez-Gaum&#233; & Moore & Vafa 86](
 
 ## Examples
 
+### Of Laplace operator on complex torus and Dedekind eta function
+
+For $\mathbb{C}/(\mathbb{Z}\oplus \tau \mathbb{Z})$
+a [[complex torus]] (complex [[elliptic curve]]) equipped with its
+standard flat [[Riemannian metric]], then the [[zeta function of an elliptic differential operator|zeta function]] of the corresponding [[Laplace operator]] $\Delta$ is
+
+$$
+  \zeta_{\Delta} = (2\pi)^{-2 s} E(s)
+   \coloneqq
+   (2\pi)^{-2 s} \underset{(k,l)\in \mathbb{Z}\times\mathbb{Z}-(0,0)}{\sum}
+  \frac{1}{{\vert k +\tau l\vert}^{2s}}
+  \,.
+$$
+
+The corresponding [[functional determinant]] is
+
+$$
+  \exp(
+    E^\prime_{\Delta}(0)
+  )
+  = (Im \tau)^2 {\vert \eta(\tau)\vert}^4
+  \,,
+$$
+
+where $\eta$ is the [[Dedekind eta function]]. 
+
+(recalled e.g. in [Todorov 03, page 3](#Todorov03))
+
+
 ### Analytic torsion
 
 The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
@@ -309,6 +338,8 @@ Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) 
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
 
 * {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
+
+* {#Todorov03} [[Andrey Todorov]], _The analogue of the Dedekind eta function for CY threefolds_, 2003 [pdf](http://www.ma.huji.ac.il/conf/crelle.pdf)
 
 
 [[!redirects zeta functions of elliptic differential operators]]
