@@ -55,7 +55,8 @@ However ([Scholl 91](#Scholl91)) observed that also these [[Beilinson regulators
 
 * [[Beilinson conjectures]]
 
-* [[zeta function regularization]]
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
