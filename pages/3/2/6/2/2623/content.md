@@ -51,7 +51,7 @@ There are different procedures of renormalization
 
 #### The phenomenon 
 
-In the study of [[perturbative quantum field theory]] one is concerned with functions -- called _amplitudes_ -- that take a collection of graphs -- called [[Feynman graph]]s -- to [[Laurent polynomial]]s in a complex variable $z$ -- called the **(dimensional) regularization parameter** --
+In the study of [[perturbative quantum field theory]] one is concerned with functions -- called _amplitudes_ -- that take a collection of graphs -- called [[Feynman graph]]s -- to [[Laurent polynomial]]s in a complex variable $z$ -- called the **(dimensional) [[regularization (physics)|regularization]] parameter** --
 
 $$
   Amplitude : CertainGraphs \to LaurentPolynomials
@@ -587,6 +587,8 @@ holds.
 * [[renormalization scheme]]
 
 * [[renormalon]]
+
+* [[regularization (physics)]]
 
 * [[perturbation theory]]
 
