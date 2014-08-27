@@ -24,9 +24,11 @@
 
 What is called the _Langlands correspondence_ in [[number theory]] ([Langlands 67](#Langlands67)) is a [[conjecture|conjectural]] correspondence (a [[bijection]] subject to various conditions) between 
 
-1. $n$-[[dimensional]] [[representations]] of the [[Galois group]] $Gal(\bar F/F)$ of a given [[number field]] $F$, and
+1. $n$-[[dimensional]] complex [[linear representations]] of the [[Galois group]] $Gal(\bar F/F)$ of a given [[number field]] $F$, and
 
 1. certain [[representations]] -- called _[[automorphic representations]]_ -- of the $n$-dimensional [[general linear group]] $GL_n(\mathbb{A}_F)$ with [[coefficients]] in the [[ring of adeles]] of $F$, arising within the representations given by [[functions]] on the double [[coset space]] $GL_n(F) \backslash GL_n(\mathbb{A}_F)/GL_n(\mathcal{O})$ (where $\mathcal{O} = \prod_v \mathcal{O}_p$ is the [[ring of integers]] of all [[formal completions]] of $F$).
+
+Moreover, to each such [[automorphic representation]] is associated an [[L-function]] -- the _[[automorphic L-function]]_ -- and in generalization of [[Artin reciprocity]] the conjecture is that the [[Artin L-function]] associated with the given [[Galois representation]] is equal to the [[automorphic L-function]] of the corresponding automorphic representation.
 
 This conjecture is motivated from the following special case, which is fully understood:
 
