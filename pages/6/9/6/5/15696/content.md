@@ -104,13 +104,19 @@ The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]
 
 ## References
 
+Original articles include
+
 * {#Speer71} [[Eugene Speer]], _On the structure of Analytic Renormalization_, Comm. Math. Phys. 23, 23-36 (1971) ([Euclid](http://projecteuclid.org/euclid.cmp/1103857549))
 
 * {#RaySinger71} D. Ray, [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
 
+Modern accounts and reviews include
+
 * {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
 
 * {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
+
+* {#Robles09} [[Nicolas Robles]], _Zeta function regularization_, 2009 ([[RoblesZetaRegularization.pdf:file]])
 
 
 [[!redirects functional determinant]]
