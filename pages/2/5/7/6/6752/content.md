@@ -32,9 +32,8 @@ This conjecture is motivated from the following special case, which is fully und
 
 For $n = 1$ then an $n$-dimensional representation of the [[Galois group]] factors through $GL_1$ and hence through an [[abelian group]]. Therefore, by [[adjunction]], it is equivalently a representation of the [[abelianization]] of the Galois group. The [[Kronecker-Weber theorem]] says that for $F = \mathbb{Q}$, then the abelianized Galois group is the [[idele class group]] $GL_1(\mathbb{Q}) \backslash GL_1(\mathbb{A})$, and hence 1-dimensional representations of the Galois group are equivalently representations of this. Moreover, one finds that for any [[prime number]] $p$, then those representations which are "unramified at $p$" are invariant under the subring of [[p-adic integers]], hence are representations of the double quotient group $GL_1(\mathbb{Q}) \backslash GL_1(\mathbb{A})/GL_1(\mathbb{Z}_p)$. More generally, the [[Artin reciprocity law]] says that for [[number fields]] there is an [[isomorphism]] between $GL_1(K) \backslash GL_1(\mathbb{A}_K)/GL_1(\mathcal{O}_K)$ and the [[abelianization|abelianized]] [[Galois group]].
 
-Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)). Notably the "localization" of the program to [[local fields]] leads to the conjecture of _[[local Langlands correspondences]]_.
+Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)). On the one hand the "localization" of the program to [[local fields]] leads to the conjecture of _[[local Langlands correspondences]]_. On the other hand, the interpretation of the above story dually in [[arithmetic geometry]] in view of the [[function field analogy]] motivates the conjectural _[[geometric Langlands correspondence]]_, based on the following [[analogy]]:
 
-Interpretation of the above story dually in [[arithmetic geometry]] has led to some developments. Namely under the [[function field analogy]] we have that 
 
 * the [[Galois group]] is essentially the [[fundamental group]] of an [[algebraic curve]];
 
@@ -66,7 +65,9 @@ Surveys of the state of the program include
 
 Introductions and expository surveys include
 
-* Stephen Gelbart, _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219; Edward Frenkel, _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, [abstract](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01345-3/home.html), [pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf) 
+* [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+
+  [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
 
 * Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
 
