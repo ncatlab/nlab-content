@@ -12,4 +12,4 @@ e.g.
 
 ## References
 
-* Wikipedia, _[Regularization (physics)](http://en.wikipedia.org/wiki/Regularization_(physics))_
+* Wikipedia, _[Regularization (physics)](http://en.wikipedia.org/wiki/Regularization_(physics)_
