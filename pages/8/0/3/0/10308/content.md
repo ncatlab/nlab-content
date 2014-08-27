@@ -149,6 +149,9 @@ Basics are recalled for instance in
 
 * {#Gawedzki99} [[Krzysztof Gaw?dzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
+* Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ ([arXiv:1005.4299](http://arxiv.org/abs/1005.4299))
+
+
 Explicit proof that in particular the [[modular functor]] in the [[Reshetikhin-Turaev model]] is equivalent to that induced from [[geometric quantization]] is at least partially in
 
 * [[Yves Laszlo]] _Hitchin's and WZW are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 
