@@ -10,3 +10,6 @@ e.g.
 * [[Feynman propagator]]
 
 
+## References
+
+* Wikipedia, _[Regularization (physics)](http://en.wikipedia.org/wiki/Regularization_(physics))_
