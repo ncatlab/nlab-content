@@ -108,17 +108,12 @@ $$
   \,.
 $$
 
-### Analogy with L-series
+### Relation with L-function
  {#AnalogyWithLSeries}
 
-+-- {: .num_remark}
-###### Remark
-
-The series in def. \ref{SeriesDefinition} is [[analogy|analogous]] to that of a [[Dirichlet L-series]], whith the signa $sgn(-)$ playing the role of a [[Dirichlet character]].
 
 
-=--
-
+Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly-Singer 83](#AtiyahDonellySinger83), [Podesta 14](#Podesta14))
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
@@ -155,6 +150,13 @@ Further discussion of the relation to [[holonomy]] is in
 * Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_, [arXiv:1205.0562](http://arxiv.org/abs/1205.0562)
 
 * _Eta invariant and Selberg  zeta function of odd type over convex co-compact hyperbolic manifolds_ ([pdf](http://www.imar.ro/~sergium/fisiere/Eta-Selberg2501.pdf))
+
+Discussion of relation to [[L-functions]] includes
+
+* {#AtiyahDonellySinger83} [[Michael Atiyah]],  H. Donnelly; , [[Isadore Singer]], _Eta invariants, signature defects of cusps, and values of L-functions_, Annals of Mathematics. Second Series 118 (1): 131&#8211;177 (1983) doi:10.2307/2006957, ISSN 0003-486X, MR 707164
+
+* {#Podesta14} Ricardo A. Podest&#225;, _The eta function and eta invariant of Z2r-manifolds_ ([ariv:1407.7454](http://arxiv.org/abs/1407.7454))
+
 
 Eta invariants play role in 
 
