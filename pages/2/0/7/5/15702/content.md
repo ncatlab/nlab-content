@@ -5,7 +5,7 @@
 
 ## Idea
 
-An _Artin L-function_ is an [[L-function]] induced from an $n$-dimensioan [[linear representation]] 
+An _Artin L-function_ is an [[L-function]] induced from an $n$-dimensional [[linear representation]] 
 
 $$
   \sigma\;\colon\; Gal \longrightarrow GL_n(\mathbb{C})
