@@ -1,7 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-An [[L-function]] associated to an [[automorphic form]], in nonabelian generalization of how the [[Dirichlet L-function]] is associated to an automorphic form on the [[idele group]], namely a [[Dirichlet character]].
+An _automorphic L-function_  $L_\pi$ is an [[L-function]] built from an [[automorphic representation]] $\pi$, in nonabelian generalization of how a [[Dirichlet L-function]] $L_\chi$ is associated to a [[Dirichlet character]] $\chi$ (which is an automorphic form on the (abelian) [[idele group]]).
+
+In analogy to how [[Artin reciprocity]] implies that to every 1-dimensional [[Galois representation]] $\sigma$ there is a [[Dirichlet character]] $\chi$ such that the [[Artin L-function]] $L_\sigma$ equals the [[Dirichlet L-function]] $L_\chi$, so the [[conjecture|conjectured]] [[Langlands correspondence]] says that to every $n$-dimensional [[Galois representation]] $\sigma$ there is an [[automorphic representation]] $\pi$ such that the automorphic L-function $L_\pi$ equals the [[Artin L-function]] $L_\sigma$.
 
 ## Related concepts
 
@@ -11,6 +17,10 @@ An [[L-function]] associated to an [[automorphic form]], in nonabelian generaliz
 ## References
 
 * Wikipedia, _[Automorphic L-function](http://en.wikipedia.org/wiki/Automorphic_L-function)_
+
+* {#Gelbhart84} [[Stephen Gelbart]], starting on p. 26 (202) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+
+
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
