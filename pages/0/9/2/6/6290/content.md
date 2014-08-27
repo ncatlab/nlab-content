@@ -6,9 +6,20 @@
 ## Idea
 
 _$L$-functions_ are certain [[meromorphic functions]] generalizing the 
-[[Riemann zeta function]]. They are typically defined by what is called an _$L$-series_ which is then meromorphically extended to the [[complex plane]]. 
+[[Riemann zeta function]]. They are typically defined on parts of the [[complex plane]] by a [[power series]] expressions -- called the _$L$-series_ --  which [[convergence|converges]] in that region,  and then meromorphically extended to all of the [[complex plane]] by [[analytic continuation]]. 
 
-Many L-functions have mutually similar deep features like satisfaction of a functional equation etc. The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dedekind zeta function]]_ for which the L-series (the [[Dirichlet L-function]]) is complicated from the classical Riemann case by the presence of the additional parameter, the Dirichlet character. 
+The most canonically defined class of examples of L-functions are the _[[Artin L-functions]]_ defined for any [[Galois representation]] $\sigma \colon Gal \longrightarrow GL_n(\mathbb{C})$ as the [[Euler products]] of, essentially, the [[characteristic polynomials]] of all the [[Frobenius homomorphisms]] acting via $\sigma$.
+
+Most other kinds of L-functions are such as to reproduces these [[Artin L-functions]] from more "arithmetic" data: 
+
+1. for 1-dimensional [[Galois representations]] $\sigma$ (hence for $n = 1$) [[Artin reciprocity]] produces for each $\sigma$ a [[Dirichlet character]], or more generally a [[Hecke character]] $\chi$, and therefrom is built a _[[Dirichlet L-function]]_ or _[[Hecke L-function]]_ $L_\chi$, respectively, which equals the corresponding [[Artin L-function]] $L_\sigma$;
+
+1. for general $n$-dimensional [[Galois representations]] $\sigma$ the [[conjecture]] of [[Langlands correspondence]] states that there is an [[automorphic representation]] $\pi$ corresponding to $\sigma$ and an _[[automorphic L-function]]_ $L_\pi$ built from that, which equalso the [[Artin L-function]] $L_\sigma$.
+
+L-functions typically satisfy [[analogy|analogs]] of all the special properties enjoyed by the [[Riemann zeta function]], such as satisginy a 
+"[[functional equation]]" which asserts invariance under modular transformations of the parameter.
+
+The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dedekind zeta function]]_ for which the L-series (the [[Dirichlet L-function]]) is complicated from the classical Riemann case by the presence of the additional parameter, the Dirichlet character. 
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
@@ -37,6 +48,9 @@ Many L-functions have mutually similar deep features like satisfaction of a func
 [[!include zeta-functions and eta-functions and L-functions -- table]]
 
 ## References
+
+* {#Gelbhart84} [[Stephen Gelbart]], section C starting on p. 14 (190) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+
 
 * E. Kowalski, first part of _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
 
