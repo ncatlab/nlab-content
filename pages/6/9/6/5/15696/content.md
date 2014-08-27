@@ -92,9 +92,38 @@ Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first
 
 ## Examples
 
+### Of Laplace operator on complex torus and Dedekind eta function
+
+For $\mathbb{C}/(\mathbb{Z}\oplus \tau \mathbb{Z})$
+a [[complex torus]] (complex [[elliptic curve]]) equipped with its
+standard flat [[Riemannian metric]], then the [[zeta function of an elliptic differential operator|zeta function]] of the corresponding [[Laplace operator]] $\Delta$ is
+
+$$
+  \zeta_{\Delta} = (2\pi)^{-2 s} E(s)
+   \coloneqq
+   (2\pi)^{-2 s} \underset{(k,l)\in \mathbb{Z}\times\mathbb{Z}-(0,0)}{\sum}
+  \frac{1}{{\vert k +\tau l\vert}^{2s}}
+  \,.
+$$
+
+The corresponding [[functional determinant]] is
+
+$$
+  \exp(
+    E^\prime_{\Delta}(0)
+  )
+  = (Im \tau)^2 {\vert \eta(\tau)\vert}^4
+  \,,
+$$
+
+where $\eta$ is the [[Dedekind eta function]]. 
+
+(recalled e.g. in [Todorov 03, page 3](#Todorov03))
+
 ### Analytic torsion
 
 The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
+
 
 
 ## Related concepts
@@ -110,6 +139,7 @@ Original articles include
 
 * {#RaySinger71} D. Ray, [[Isadore Singer]], _R-torsion and the Laplacian on Riemannian manifolds_, Advances in Math. 7: 145&#8211;210, (1971) doi:10.1016/0001-8708(71)90045-4, MR 0295381
 
+
 Modern accounts and reviews include
 
 * {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
@@ -117,6 +147,10 @@ Modern accounts and reviews include
 * {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
 
 * {#Robles09} [[Nicolas Robles]], _Zeta function regularization_, 2009 ([[RoblesZetaRegularization.pdf:file]])
+
+See also 
+
+* {#Todorov03} [[Andrey Todorov]], _The analogue of the Dedekind eta function for CY threefolds_, 2003 [pdf](http://www.ma.huji.ac.il/conf/crelle.pdf)
 
 
 [[!redirects functional determinant]]
