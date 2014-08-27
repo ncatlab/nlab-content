@@ -44,7 +44,7 @@ expression wherever this [[convergence|converges]], and extended by [[analytic c
 +-- {: .num_remark}
 ###### Remark
 
-At the [[special values of L-functions|special value]] $s = 1$ the series in def. \ref{SeriesDefinition} does not converge, but if $D$ is indeed a [[Dirac operator]] then it is the expression of the [[Dirac propagator]]. Indeed the definition of $\eta$ by [[analytic continuation]] at $s = 1$ is the [[zeta regularization]] of the [[Dirac propagator]].
+At the [[special values of L-functions|special value]] $s = 1$ the series in def. \ref{SeriesDefinition} does not converge, but if $D$ is indeed a [[Dirac operator]] then it is the expression of the [[Dirac propagator]]. Indeed the definition of $\eta$ by [[analytic continuation]] at $s = 1$ is the [[regularization (physics)|regularized]] [[Dirac propagator]].
 
 =--
 
