@@ -1,4 +1,5 @@
-[[!redirects Galois representations]]
+
+> should be merged with _[[Galois module]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -26,4 +27,6 @@ See at _[[Galois modules]]_ for more.
 
 ## References
 
-* R. Taylor, _Galois representations_ ([pdf](http://www.math.ias.edu/~rtaylor/longicm02.pdf))
+* [[Richard Taylor]], _Galois representations_ ([pdf](http://www.math.ias.edu/~rtaylor/longicm02.pdf))
+
+[[!redirects Galois representations]]
