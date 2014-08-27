@@ -1,4 +1,6 @@
 
+> This entry is about the concept in [[formal logic]]. For the concept in [[physics]]/[[quantum field theory]] see at _[[regularization (physics)]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
