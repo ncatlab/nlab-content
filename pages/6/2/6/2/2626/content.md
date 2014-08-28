@@ -70,6 +70,10 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[SVG images]]
 
+## Related concepts
+
+* [[MKR dictionary]] in [[arithmetic topology]]
+
 ## References
 
 For introductions to Knot Theory,
