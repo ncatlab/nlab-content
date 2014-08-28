@@ -81,6 +81,10 @@ $\,$
 
 [[!include Langlands analogies -- table]]
 
+## Related concepts
+
+* [[MKR analogy]] in [[arithmetic topology]]
+
 ## References
 
 Original articles includes
