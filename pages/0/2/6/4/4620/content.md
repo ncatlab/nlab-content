@@ -49,6 +49,12 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other radix), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
+## Models
+
+* The LPO (for natural numbers) holds in any [[presheaf topos]], and indeed in any [[locally connected topos]] (over a classical base $Set$), essentially since then $2^N$ is a constant object.
+
+* The LPO for natural numbers fails in the [[topological topos]], due to its internal continuity principle.
+
 
 ## References
 
