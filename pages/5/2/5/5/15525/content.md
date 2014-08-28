@@ -17,6 +17,15 @@ HEre $\iota(J)A$ will be a product of powers of [[prime ideals]] of $A$, and the
 
 * Under the [[function field analogy]] ramifications of [[algebraic number fields]] as [[field extensions]] of the [[rational numbers]] are [[analogy|analogous]] to [[branched covers of the Riemann sphere]] in [[complex geometry]].
 
+## Related concepts
+
+* [[Kummer's theorem]]
+
+## References
+
+* {#Snyder02} [[Noah Snyder]], section 1.5.2 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
+
+
 [[!redirects ramified ideal]]
 [[!redirects ramified ideals]]
 
