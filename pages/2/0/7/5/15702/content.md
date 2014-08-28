@@ -1,11 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _Artin L-function_ is an [[L-function]] induced from an $n$-dimensional [[linear representation]] 
+An _Artin L-function_ ([Artin 23](#Artin23)) is an [[L-function]] induced from an $n$-dimensional [[linear representation]] 
 
 $$
   \sigma\;\colon\; Gal \longrightarrow GL_n(\mathbb{C})
@@ -27,9 +36,21 @@ More generally, for $n \geq 1$ the [[conjecture]] of _[[Langlands correspondence
 
 ## References
 
+The original article is
+
+* {#Artin23} [[Emil Artin]],  _&#220;ber eine neue Art von L Reihen_. Hamb. Math. Abh. 3. (1923) Reprinted in his collected works, ISBN 0-387-90686-X. English translation in ([Snyder 02, section A](#Snyder02))
+
+Reviews include
+
 * Wikipedia, _[Artin L-function](http://en.wikipedia.org/wiki/Artin_L-function)_
 
+* {#Snyder02} [[Noah Snyder]], _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
+
+and in the context of the [[Langlands program]]
+
 * {#Gelbhart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+
+
 
 [[!redirects Artin L-functions]]
 
