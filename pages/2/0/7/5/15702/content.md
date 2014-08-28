@@ -50,7 +50,9 @@ and in the context of the [[Langlands program]]
 
 * {#Gelbhart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
+The analogies between Alexander polynomial and L-functions and touched upon in 
 
+* Ken-ichi Sugiyama, _The properties of an L-function from a geometric point of view_, 2007 [pdf](http://geoquant2007.mi.ras.ru/sugiyama.pdf); _A topological $\mathrm{L}$ -function for a threefold_, 2004 [pdf](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1376-12.pdf)
 
 [[!redirects Artin L-functions]]
 
