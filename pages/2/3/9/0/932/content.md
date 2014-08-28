@@ -137,10 +137,7 @@ A Maurer--Cartan equation for $A_\infty$-[[A-infinity-algebra|algebra]]s is usua
 
 Sophus Lie considered groups of transformations first and discovered [[Lie algebra]]s only later (letter to Mayer, 1874). He has shown that infinitesimally one can solve the Maurer--Cartan equations for a given set of structure constants of a finite-dimensional Lie algebra. This means that one can construct a neighborhood with either the invariant differential form, or dually the invariant vector fields whose commutator corresponds to the commutator of the Lie algebra. This amounts to integrating the Lie algebra to a [[local Lie group]]. Only much later, Elie Cartan succeeded in proving the global version of integration, that is the Cartan--Lie theorem. J-P. Serre in an influential textbook called the Cartan--Lie theorem the "[[Lie's three theorems|third Lie theorem]]", which became a rather popular term in recent years, though one should correctly call so just the theorem on local solvability of Maurer--Cartan equation.  
 
-For literature on the third Lie theorem from the point of view of Maurer--Cartan equations, compare the following references:
-* Sigurdur Helgason, Differential geometry, Lie groups, and symmetric spaces
-* N. Bourbaki, Lie algebras and lie groups, historical appendix 
-* F. Engel, P. Heegaard, Sophus Lie Samlede Avhandliger (Collected works) 
+## References
 
 The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L. Maurer</a> is 
 
@@ -149,9 +146,13 @@ M&#252;nch. Ber. __18__ (1888), 103-150.
 
 A MathOverflow entry about Maurer-Cartan forms for Lie groups: [maurer-cartan-form](http://mathoverflow.net/questions/34418/maurer-cartan-form)
 
-* [[Andrey Lazarev]], _Maurer-Cartan moduli and models for function spaces_, [arxiv/1109.3715](http://arxiv.org/abs/1109.3715)
+For literature on the third Lie theorem from the point of view of Maurer--Cartan equations, compare the following references:
 
-## References
+* Sigurdur Helgason, Differential geometry, Lie groups, and symmetric spaces
+* N. Bourbaki, Lie algebras and lie groups, historical appendix 
+* F. Engel, P. Heegaard, Sophus Lie Samlede Avhandliger (Collected works) 
+
+* [[Andrey Lazarev]], _Maurer-Cartan moduli and models for function spaces_, [arxiv/1109.3715](http://arxiv.org/abs/1109.3715)
 
 Around def. 3.1 in
 
