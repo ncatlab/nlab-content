@@ -3,6 +3,8 @@
 
 * [[function field analogy]]
 
+* [[MKR analogy]]
+
 ## Related entries
 
 * [[folklore]]
