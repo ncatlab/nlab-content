@@ -47,6 +47,31 @@ Trivial consequence of the axioms.
 
 =--
 
+### A Heading
+* Followed
+* By
+* A
+* List
+
+Some Text
+* Followed
+* By
+* A
+* List
+
+### A Heading
+1. Followed
+1. By
+* A
+* List
+
+Some Test
+1. Followed
+1. By
+* A
+* List
+
+
 [[shtuka]], [[Rapoport-Zink space]]
 
 category: meta
