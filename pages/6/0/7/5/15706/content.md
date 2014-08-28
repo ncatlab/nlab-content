@@ -1,11 +1,42 @@
-**Arithmetic topology** is a theory describing some surprising analogies between 3-dimensional topology and number theory, where knots embedded in a 3-manifold behave like prime ideals in a ring of algebraic integers. 
 
-Under this analogy, the 3-sphere, $S^3$ corresponds to $\mathbb{Q}$, or rather $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial (unbranched) covers while $\mathbb{Q}$ has no non-trivial unramified extensions. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 
-The so-called 'MKR dictionary' (Mazur-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
+## Contents
+* table of contents
+{:toc}
+
+## Idea
+
+**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]], where [[knots]] embedded in a 3-manifold behave like [[prime ideals]] in a [[ring of algebraic integers]]. 
+
+Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
+
+The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
+
+## Related concepts
+
+* [[Alexander polynomial]]
+
+* [[function field analogy]]
 
 ##References
 
 * {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
 
 * {#Sikora} Adam Sikora, _Analogies between group actions on 3-manifolds and number fields_, ([arxiv](http://arxiv.org/abs/math/0107210))
+
+
+[[!redirects MKR dictionary]]
+[[!redirects MKR analogy]]
