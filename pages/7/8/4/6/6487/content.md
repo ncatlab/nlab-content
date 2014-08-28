@@ -1,3 +1,4 @@
+[[!redirects standard conjectures]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
