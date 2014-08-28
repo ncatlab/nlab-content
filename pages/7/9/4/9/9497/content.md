@@ -7,6 +7,10 @@
 
 * [[Frobenius theorem]]
 
+* [[Frobenius homomorphism]]
+
+* [[Frobenius reciprocity]]
+
 category: people
 
 [[!redirects Ferdinand Georg Frobenius]]
