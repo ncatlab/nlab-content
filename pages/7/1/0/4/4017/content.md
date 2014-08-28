@@ -9,7 +9,8 @@
 * [[adjoint functor theorem]]
 * [[AT category]]
 * [[paracategory]]
-
+* [[Categories, Allegories]]
+* [[allegory]]
 
 category: people
 [[!redirects P. Freyd]]
