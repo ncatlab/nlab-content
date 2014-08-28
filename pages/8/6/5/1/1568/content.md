@@ -11,21 +11,25 @@ Ideals show up both in [[ring]] theory and in [[lattice]] theory.  We recall bot
 ### In rings (and other rigs)
 
 A __left ideal__ in a [[ring]] (or even [[rig]]) $R$ is a [[subset]] $I$ of (the underlying set of) $R$ such that:
+
 *  $0 \in I$;
 *  $x + y \in I$ whenever $x, y \in I$;
 *  $x y \in I$ whenever $y \in I$, regardless of whether $x \in I$.
 
 A __right ideal__ in $R$ is a subset $I$ such that:
+
 *  $0 \in I$;
 *  $x + y \in I$ whenever $x, y \in I$;
 *  $x y \in I$ whenever $x \in I$.
 
 A __two-sided ideal__ in $R$ is a subset $I$ that is both a left and right ideal; that is:
+
 *  $0 \in I$;
 *  $x + y \in I$ whenever $x \in I$ and $y \in I$;
 *  $x y \in I$ whenever $x \in I$ or $y \in I$.
 
 This generalises to:
+
 *  $x_1 + \cdots + x_n \in I$ whenever $x_k \in I$ for every $k$;
 *  $x_1 \cdots x_n \in I$ whenever $x_k \in I$ for some $k$.
 
@@ -42,16 +46,19 @@ Notice that all three kinds of ideal are equivalent for a commutative ring.
 ### In lattices (and other prosets)
 
 An __ideal__ in a [[lattice]] (or even [[preorder|proset]]) $L$ is a [[subset]] $I$ of (the underlying set of) $L$ such that:
+
 *  There is an element of $I$ (so that $I$ is [[inhabited set|inhabited]]);
 *  if $x, y \in I$, then $x, y \leq z$ for some $z \in I$;
 *  if $x \in I$ and $y \leq x$, then $y \in I$ too.
 
 We can make this look more algebraic if $L$ is a (bounded) join-[[semilattice]]:
+
 *  $\bot \in I$;
 *  $x \vee y \in I$ if $x, y \in I$;
 *  $y \in I$ whenever $x \vee y \in I$.
 
 If $L$ is indeed a lattice, then we can make this look just like the ring version:
+
 *  $\bot \in I$;
 *  $x \vee y \in I$ whenever $x, y \in I$;
 *  $x \wedge y \in I$ whenever $x \in I$.
@@ -87,6 +94,7 @@ More generally still, passing from monoids to their many-object version there is
 An ideal $I$ is __proper__ if there exists an element $x$ such that $x \notin I$.  In a [[rig]], $I$ is proper iff $1 \notin I$; in a (bounded) lattice, $I$ is proper iff $\top \notin I$.  If instead $x \in I$ for every $x$ (which follows if $1 \in I$ or $\top \in I$), we have the __[[improper ideal]]__.
 
 An ideal $I$ is __prime__ if it is proper and it satsfies a binary condition corresponding to the nullary condition that is properness:
+
 *  In a rig, $x \in I$ or $y \in I$ if $x y \in I$;
 *  In a proset, $x \in I$ or $y \in I$ if, for all $z$, $z \in I$ if $z \leq x$ or $z \leq y$.
 *  In a lattice (simplifying the proset version to look like the rig verison), $x \in I$ or $y \in I$ if $x \wedge y \in I$.
