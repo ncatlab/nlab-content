@@ -50,7 +50,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 * Aufhebung is a _pervasive_ concept: although Lawvere proposes only mathematical definitions for two terms of Hegel's logic, namely _unity of opposites_ and _Aufhebung_, these are in fact the key terms and go already far in a reconstruction of the whole edifice!
 
-* Aufhebung unites _determinatedness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheave, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
+* Aufhebung unites _determinateness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheave, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
 
 ##Lawvere's path to _Aufhebung_
 
@@ -149,6 +149,10 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 * {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
+
+* {#Menni09} [[Matías Menni|M. Menni]], _Algebraic Categories whose Projectives are Explicitly Free_ , TAC **22** no.29 (2009) pp.509-541. ([pdf](http://www.tac.mta.ca/tac/volumes/22/20/22-20.pdf))
+
+* {#Menni12} [[Matías Menni|M. Menni]], _Bimonadicity and the Explicit Base Property_ , TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
