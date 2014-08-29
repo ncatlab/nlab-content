@@ -100,7 +100,7 @@ Reviews include
 
 * Wikipedia, _[Artin L-function](http://en.wikipedia.org/wiki/Artin_L-function)_
 
-* {#MurtyMurty12} M. Ram Murty, V. Kumar Murty, _Non-vanishing of L-functions and applications_, Modern Birkh&#228;user classics 2012 ([chapter 2 pdf](http://www.beck-shop.de/fachbuch/.../9783034802734_Excerpt_001.pdf))
+* {#MurtyMurty12} M. Ram Murty, V. Kumar Murty, _Non-vanishing of L-functions and applications_, Modern Birkh&#228;user classics 2012 ([chapter 2 pdf](http://www.beck-shop.de/fachbuch/leseprobe/9783034802734_Excerpt_001.pdf))
 
 
 * {#Snyder02} [[Noah Snyder]], _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
