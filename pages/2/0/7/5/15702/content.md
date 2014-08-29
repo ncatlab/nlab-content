@@ -40,6 +40,16 @@ For $n = 1$ then for each 1-dimensional [[Galois representation]] $\sigma$ there
 
 More generally, for $n \geq 1$ the [[conjecture]] of _[[Langlands correspondence]]_ is that for each $n$-dimensional [[Galois representation]] $\sigma$ there is an [[automorphic representation]] $\pi$ such that the Artin L-function $L_\sigma$ equals the [[automorphic L-function]] $L_\pi$ (e.g [Gelbhart 84, pages 5-6](#Gelbhart84)).
 
+## Properties
+
+### Analogy with Selberg zeta-functions and zeta functions of bundle-twisted Laplace operators
+ {#AnalogyWithSelbergZeta}
+
+The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic surface]] (see at _[[algebraic fundamental group]]_). In this interpretation a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on the arithmetic curves.
+
+Under this interpretation, the definition of that Artin L-function is that of a product of [[characteristic polynomials]] of the [[monodromies]]/[[holonomies]] of that flat connection.
+
+Now given, in [[differential geometry]], a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
 
 
 ## Related concepts
