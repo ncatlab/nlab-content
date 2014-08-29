@@ -117,6 +117,14 @@ Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
+## Examples
+
+### For Dirac operator on Riemann surfaces
+
+For the [[Dirac operator]] on a [[Riemann surface]]/[[complex curve]] the eta function was discussed in ([Milson 78](#Milson78), [Park 01](#Park01)), and related to the [[Selberg zeta function]].
+
+See at _[[zeta function of a Riemann surface]]_ for more on this case.
+
 
 ## Related concepts
 
@@ -157,6 +165,11 @@ Discussion of relation to [[L-functions]] includes
 
 * {#Podesta14} Ricardo A. Podest&#225;, _The eta function and eta invariant of Z2r-manifolds_ ([ariv:1407.7454](http://arxiv.org/abs/1407.7454))
 
+Discussion of the case over [[Riemann surfaces]] includes
+
+* {#Milson78} [[John Milson]], _Closed geodesic and the $\eta$-invariant_, Ann. of Math., 108, (1978) 1-39 ([](http://www.jstor.org/stable/1970928))
+
+* {#Park01} Jinsung Park, _Eta invariants and regularized determinants for odd dimensional hyperbolic manifolds with cusps_ ([arXiv:0111175](http://arxiv.org/abs/math/0111175))
 
 Eta invariants play role in 
 
