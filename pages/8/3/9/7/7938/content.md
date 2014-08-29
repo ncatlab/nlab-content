@@ -9,14 +9,25 @@
 =--
 =--
 
-...[[coherent state]] in [[geometric quantization]]...
+#Contents#
+* table of contents
+{:toc}
 
+
+## Idea
+
+The concept of _[[coherent state]]_ in [[quantum mechanics]]/[[quantum physics]] may be formalized in the context of _[[geometric quantization]]_, The original definition is due to ([Rawnsley 77](#Rawnsley77)), further developments include ([Kirwin 07](#Kirwin07)).
+
+
+## Related concepts
+
+* [[quantization of Chern-Simons theory]]
 
 ## References
 
 The original reference that interpreted coherent states in [[geometric quantization]] over [[Kähler manifold]]s is
 
-* J. H. Rawnsley, Coherent states and Kaehler manifolds, Quart. J. Math. Oxford (2), 28 (1977), pp. 403&#8211;415
+* {#Rawnsley77} J. H. Rawnsley, _Coherent states and K&#228;hler manifolds_, Quart. J. Math. Oxford (2), 28 (1977), pp. 403&#8211;415
 
 A review and further developments of these considerations are in
 
@@ -24,7 +35,7 @@ A review and further developments of these considerations are in
 
 Generalization to non-K&#228;hler symplectic manifolds is in 
 
-* William D. Kirwin, _Coherent states in geometric quantization_,  J. Geom. Phys.  57  (2007),  no. 2, 531&#8211;548. [arXiv:0502026](http://arxiv.org/abs/math/0502026) [MR2008b:53114](http://www.ams.org/mathscinet-getitem?mr=2271203) [doi](http://dx.doi.org/10.1016/j.geomphys.2006.04.007)
+* {#Kirwin07} [[William Kirwin]], _Coherent states in geometric quantization_,  J. Geom. Phys.  57  (2007),  no. 2, 531&#8211;548. [arXiv:0502026](http://arxiv.org/abs/math/0502026) [MR2008b:53114](http://www.ams.org/mathscinet-getitem?mr=2271203) [doi](http://dx.doi.org/10.1016/j.geomphys.2006.04.007)
 
 See also 
 
