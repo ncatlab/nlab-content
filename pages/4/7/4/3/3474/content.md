@@ -5,11 +5,11 @@
 
 ## Idea
 
-The _algebraic fundamental group_ is the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]]. It is essentially the fundamental group as seen by [[étale homotopy]].
+The _algebraic fundamental group_ is the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]]. It is essentially the fundamental group as seen by [[étale homotopy]], the _[[étale fundamental group]]_.
 
 For [[fields]] this is essentially the [[Galois group]].
 
-In [[arithmetic geoemtry]] one also speaks of the _arithmetic fundamental group_.
+In [[arithmetic geometry]] one also speaks of the _arithmetic fundamental group_.
 
 ##Definition
 
