@@ -39,7 +39,7 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 * R. Abraham, J. Marsden, _The Foundations of Mechanics_, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
 
-* [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
 
 ## Mathematical introduction to quantum mechanics
 
