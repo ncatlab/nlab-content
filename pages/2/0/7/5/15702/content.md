@@ -42,19 +42,36 @@ More generally, for $n \geq 1$ the [[conjecture]] of _[[Langlands correspondence
 
 ## Properties
 
+### Relation to Dedekind zeta function
+ {#RelationToDedekindZeta}
+
+The [[Dedekind zeta function]] is the product of all Artin L-functions $L_\sigma$ for all [[irreps]] $\sigma$
+  
+  $$
+    \zeta(s) = L_{Ind_H^G(1)}(s) = \prod_{\sigma} L_\sigma(s) 
+  $$
+
+(e.g. [here](http://books.google.co.uk/books?id=uxABH9YX-gsC&pg=PA44#v=onepage&q&f=false))
+
+
+
+
 ### Analogy with Selberg zeta-functions and zeta functions of bundle-twisted Laplace operators
  {#AnalogyWithSelbergZeta}
 
-The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic surface]] (see at _[[algebraic fundamental group]]_). In this interpretation a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on the arithmetic curves.
+The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic curve]] (see at _[[algebraic fundamental group]]_). In this interpretation a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on the arithmetic curves.
 
 Under this interpretation, the definition of that Artin L-function is that of a product of [[characteristic polynomials]] of the [[monodromies]]/[[holonomies]] of that flat connection.
 
 Now given, in [[differential geometry]], a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
 
+(The definition also has some similarity to that of the [[Alexander polynomial]], see at _[[arithmetic topology]]_.)
+
 
 ## Related concepts
 
-* The definition of the Artin L-function has some similarity to that of the [[Alexander polynomial]]...
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
