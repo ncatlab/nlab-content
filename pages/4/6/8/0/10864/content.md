@@ -34,7 +34,7 @@ Original books include
 
 The appendix of ([Truesdell 72](#Truesdell72)) also appears as
 
-* Bernard Coleman, David Owen, _Recent research on the foundations of thermodynamics_, in [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174 1986
+* Bernard Coleman, David Owen, _Recent research on the foundations of thermodynamics_, in [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174 1986
 
 A survey of approaches to [[irreversible thermodynamics]] is in 
 
