@@ -5,19 +5,28 @@
 
 ## Idea
 
-$\zeta$-functions are [[functions]] on parts of the [[complex plane]], which look like [[generating functions]] for the counting of points in [[spaces]] in [[algebraic geometry]]. The archetypical and historically first example is the _[[Riemann zeta function]]_, which is 
+The concept of _zeta function_ originates in [[number theory]], but to get an idea of what they "really are" it is helpful to proceed anachronistically:
+
+$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like [[regularization (physics)|regularized]] [[Feynman propagators]], namely which behave like [[analytic continuations]] of [[traces]] of powers $s \mapsto Tr \left(\frac{1}{H}\right)^s$ of suitable [[elliptic differential operators]] $H$. Indeed, such _[[zeta functions of elliptic differential operators]]_ is one class of examples of zeta functions.  Of particular interest is the case where $H$ is a [[Laplace operator]] of a [[hyperbolic manifold]] and in particular on a hyperbolic [[Riemann surface]], for that case one obtains the _[[zeta function of a Riemann surface]]_, in particular the _[[Selberg zeta function]]_.
+
+In modern language one also speaks of _[[L-functions]]_. Where a zeta function of some space is like the [[Feynman propagator]] of _the_ canonical [[Laplace operator]] of that space, an L-function is defined from an extra "twisting" information such as that of a [[flat bundle]]/[[local system of coefficients]] on the space and is like the Feynman propagator of the corresponding twisted/coupled Laplace operator.
+ 
+Proceeding from this setup in [[complex analytic geometry]] one may wonder if there are [[analogy|analogs]] also in [[arithmetic geometry]]. Indeed, by the [[function field analogy]] there are. All the way down "on [[Spec(Z)]]" the analog of the [[Selberg zeta function]] is the [[Riemann zeta function]], which _historically_ is the first of all zeta functions, defined by [[analytic continuation]] of the [[series]]
 
 $$
    \zeta \colon s \mapsto \underset{n = 1}{\sum}^\infty \frac{1}{n^s}
   \,.
 $$
 
-Under the [[function field analogy]] one may understand this function in terms of the counting of points in $Spec(\mathbb{Z})$. This induces a plethora of generalizations: the _[[Dedekind zeta function]]_ generalizes this from [[integers]]/[[rational numbers]]  to [[number fields]]/their [[rings of integers]], the [[Goss zeta function]] to [[function fields]], the [[Weil zeta function]] (which is the topic of the famous [[Weil conjectures]]) to more general [[varieties]] over [[finite fields]], and the [[Selberg zeta function]] to [[complex curves]]([[Riemann surfaces]]). How all this hangs together is surveyed below in _[function field analogy](#FunctionFieldAnalogy)_. 
+The _[[Riemann hypothesis]]_ [[conjecture|conjectures]] a characterization of the [[roots]] of this zeta function and is regarded as one of the outstanding problems in [[mathematics]]. It has evident analogs for all other zeta functions (for some of which it has been proven).
 
-Finally in [[analysis]] there is the [[zeta function of an elliptic differential operator]], which is the sum over given powers of all its [[eigenvalues]]. 
+More generally, over [[arithmetic curves]] which are [[spectrum of a commutative ring|spectra]] of [[rings of integers]] of more general [[number fields]], the Riemann zeta function has generalization to the _[[Artin L-functions]]_ defined intrinsically in terms of [[characteristic polynomials]] of [[Galois representations]]. When the Galois representation is 1-dimensional, then the Artin L-function may be expressed (by "[[Artin reciprocity]]") in terms of "more arithmetic" data by [[Dirichlet L-functions]] and [[Hecke L-functions]]. When the Galois representation is higher dimensional, then the [[Langlands correspondence]] [[conjecture]] asserts that the Artin L-function may be expressed "arithmetically" as the [[automorphic L-function]] of an [[automorphic form]].
 
+Similarly on [[arithmetic curves]] given by [[function fields]] there is the [[Goss zeta function]] and in [[higher dimensional arithmetic geometry]] the [[Weil zeta function]], famous from the _[[Weil conjectures]]_. The 
 
-This way many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]].  There are several articles trying to attach zeta functions attached to [[triangulated categories]] (and [[stable model categories]]...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for [[motives]]. 
+When interpreting the [[Frobenius morphisms]] that appear in the [[Artin L-functions]] geometrically as flows (as discussed at _[Borger's arithmetic geometry -- Motivation](Borger's+absolute+geometry#Motivation)_) then this induces an evident analog of [[zeta function of a dynamical system]]. This in turn has strong analogies with [[Alexander polynomials]] in [[knot theory]] (see at _[[arithmetic topology]]_).
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
 ## Properties
@@ -43,7 +52,6 @@ One way to understand the plethora of different zeta functions is to see them as
 
 * [[zeta function of a Riemann surface]]
 
-[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
@@ -69,6 +77,7 @@ Discussion in the more general context of [[higher dimensional arithmetic geomet
 
 * Nobushige Kurokawa, _Zeta functions over $F_1$_,  Proc. Japan Acad. Ser. A Math. Sci. __81__:10 (2005) 180-184 [euclid](http://projecteuclid.org/euclid.pja/1135791771)
 
+
 ### Categorical approaches
 
 * [[Michael Larsen|M. Larsen]], [[Valery Lunts|V. A. Lunts]], _Motivic measures and stable birational geometry_, Mosc. Math. J. __3__, 1 (2003) 85--95; _Rationality criteria for motivic zeta functions_, Compos. Math. __140__:6 (2004) 1537&#8211;1560
@@ -78,5 +87,4 @@ Discussion in the more general context of [[higher dimensional arithmetic geomet
 * [[John Baez]], _[[johnbaez:Zeta functions]]_
 
 [[!redirects zeta functions]]
-
 
