@@ -112,7 +112,7 @@ $$
 
   * [[Atiyah-Singer index theorem]]
 
-* [[eta invariant]]
+* [[eta invariant]], [[zeta function of an elliptic differential operator]], [[functional determinant]]
 
 * [[fiber integration in differential K-theory]]
 
