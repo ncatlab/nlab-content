@@ -36,8 +36,9 @@ or in a lengthier form:
 
 *   [[Tamás Szamuely ]], Galois Groups and Fundamental Groups, Cambridge Studies in Advanced Mathematics, vol. 117, Cambridge University Press, 2009. 
 
-and earlier version is to be found [here](http://math.uchicago.edu/~aanders/books/szamuely_-_galois_groups_and_fundamental_groups.pdf).
+An earlier version is to be found [here](http://math.uchicago.edu/~aanders/books/szamuely_-_galois_groups_and_fundamental_groups.pdf).
 
+A paper on a closely related subject is 
 
 * Feng-Wen An, _On the arithmetic fundamental groups_ ([arXiv:0910.0605](http://arxiv.org/abs/0910.0605))
 
