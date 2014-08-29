@@ -134,6 +134,7 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 
 * Gerard Lion, Michele Vergne, _The Weil representation, Maslov index and theta series_
 
+
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
@@ -148,6 +149,12 @@ Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 * {#KL95} [[Kefeng Liu]], section 2.4 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 
+The generalization of theta functions to [[automorphic forms]] is due to 
+
+* [[André Weil]], _Sur certaines groups d'operateur unitaires_, Acta. Math.  111 (1964), 143-211
+
+see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
+
 [[!redirects theta functions]]
 [[!redirects theta-function]]
 [[!redirects theta-functions]]
@@ -156,5 +163,4 @@ Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 [[!redirects Theta functions]]
 [[!redirects Theta-function]]
 [[!redirects Theta-functions]]
-
 
