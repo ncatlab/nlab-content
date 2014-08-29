@@ -46,6 +46,12 @@ Theoretical physics also studies lots of approximate, hypothetical "toy"- and te
 [[!include physicscontents]]
 
 
+## References
+
+* [[physics resources]]
+
+* _[The Feynman Lectures on Physics](http://www.feynmanlectures.caltech.edu)_
+
 
 [[!redirects physics]]
 
