@@ -283,6 +283,8 @@ where $\eta$ is the [[Dedekind eta function]].
 (recalled e.g. in [Todorov 03, page 3](#Todorov03))
 
 
+For more see also at _[[zeta function of a Riemann surface]]_.
+
 ### Analytic torsion
 
 The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
