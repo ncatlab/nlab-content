@@ -303,7 +303,7 @@ On the right this is the term in the form in which the conserved quantity obtain
 
 ### In higher symplectic geometry
 
-We discuss aspects of the Noether theorem in [[higher symplectic geometry]]/[[higher prequantum field theory]] (...)
+We discuss aspects of the Noether theorem in [[higher symplectic geometry]]/[[higher prequantum field theory]] (...[Schreiber 13](#Schreiber13)....)
 
 ## Related concepts
 
@@ -363,7 +363,7 @@ and for [[higher dimensional Chern-Simons theory]] in
 
 A formalization of Noether's theorem in [[cohesive homotopy type theory]] is discussed in sections  "2.7 Noether symmetries and equivariant structure" and "3.2 Local observables, conserved currents and higher Poisson bracket homotopy Lie algebras" of 
 
-* [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_ (2013)
+* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_ (2013)
 
 
 A formalization of invariance of Lagrangians in [[parametricity|parametric]] [[dependent type theory]] is discussed in
