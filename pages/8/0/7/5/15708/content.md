@@ -40,10 +40,12 @@ Cohen's views of the role of continuity have strong affinity with Hegelianism an
 
 * H. Cohen, _Logik der Reinen Erkenntnis_ , Berlin 1902.
 
-* G. Frege, _Rezension von: [Cohen 1883](#Cohen83)_, Z.Phil.Phil.Kr. **87** (1885) pp.324-329, reprinted on pp.99-102 in Frege, _Kleine Schriften_ , Olms Hildesheim 1990.
+* [[Gottlob Frege|G. Frege]], _Rezension von: [Cohen 1883](#Cohen83)_, Z.Phil.Phil.Kr. **87** (1885) pp.324-329, reprinted on pp.99-102 in Frege, _Kleine Schriften_ , Olms Hildesheim 1990.
 
 * H.-G. Gadamer, _Festrede zum 100. Geburtstag von Paul Natorp gehalten am 24.1.1954_ , pp.XI-XVII in Natorp, _Philosophische Systematik_ , Meiner Hamburg 1958. 
 
 * [[F. W. Lawvere]], _Toposes of Laws of Motion_ , Talk Montreal 1997.
+
+* [[Bertrand Russell| B. Russell]] , _The Principles of Mathematics_ , Routledge London 1992[1903/1937&#178;]. (ch.XLI)
 
 category:people
