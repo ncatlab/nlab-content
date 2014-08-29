@@ -5,11 +5,44 @@
 
 ## Idea
 
+A [[zeta function]] naturally associated to a [[Riemann surface]].
+
+([Minakshisundaram-Pleijel 49](#MinakshisundaramPleijel49)) considered the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]] on a [[Riemann surface]].
+
 Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _Selberg zeta function of a Riemann surface_. (e.g. [Bump, below theorem 19](#Bump)).
 
 > (Is it however on the nose the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]]?)
 
 ## Examples
+
+### For a complex torus / complex elliptic curve
+
+For $\mathbb{C}/(\mathbb{Z}\oplus \tau \mathbb{Z})$
+a [[complex torus]] (complex [[elliptic curve]]) equipped with its
+standard flat [[Riemannian metric]], then the [[zeta function of an elliptic differential operator|zeta function]] of the corresponding [[Laplace operator]] $\Delta$ is
+
+$$
+  \zeta_{\Delta} = (2\pi)^{-2 s} E(s)
+   \coloneqq
+   (2\pi)^{-2 s} \underset{(k,l)\in \mathbb{Z}\times\mathbb{Z}-(0,0)}{\sum}
+  \frac{1}{{\vert k +\tau l\vert}^{2s}}
+  \,.
+$$
+
+The corresponding [[functional determinant]] is
+
+$$
+  \exp(
+    E^\prime_{\Delta}(0)
+  )
+  = (Im \tau)^2 {\vert \eta(\tau)\vert}^4
+  \,,
+$$
+
+where $\eta$ is the [[Dedekind eta function]]. 
+
+(recalled e.g. in [Todorov 03, page 3](#Todorov03))
+
 
 ### Of Dirac operators twisted by a flat connection
  {#OfDiracOperatorTwistedByFlatConnection}
@@ -33,13 +66,18 @@ On a suitable [[hyperbolic manifold]], the [[partition function]]/[[theta functi
 
 ## References
 
-The original article is
+The original articles are
+* {#MinakshisundaramPleijel49} S. Minakshisundaram, ; &#197; Pleijel, _Some properties of the eigenfunctions of the Laplace-operator on Riemannian manifolds_ (1949), Canadian Journal of Mathematics 1: 242&#8211;256, doi:10.4153/CJM-1949-021-5, ISSN 0008-414X, MR 0031145 ([web](http://cms.math.ca/10.4153/CJM-1949-021-5))
+
 
 * {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
+
 
 Review includes
 
 * Wikipedia, _[Selberg zeta function](http://en.wikipedia.org/wiki/Selberg_zeta_function)_
+
+* Wikipedia, _[Minakshisundaram&#8211;Pleijel zeta function](http://en.wikipedia.org/wiki/Minakshisundaram&#8211;Pleijel_zeta_function)_
 
 * {#Watkins} [[Matthew Watkins]], citation collection on _[Selberg trace formula and zeta functions](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics4.htm)_
 
@@ -67,6 +105,10 @@ and for odd-dimensional spaces also in
 A survey is in 
 
 * {#BunkeOlbrich95} [[Ulrich Bunke]], [[Martin Olbrich]], _Selberg zeta and theta functions: a differential operator approach_, Akademie Verlag 1995
+
+See also
+
+* {#Todorov03} [[Andrey Todorov]], _The analogue of the Dedekind eta function for CY threefolds_, 2003 [pdf](http://www.ma.huji.ac.il/conf/crelle.pdf)
 
 
 [[!redirects Selberg zeta function]]
