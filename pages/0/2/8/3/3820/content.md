@@ -378,6 +378,10 @@ A a popular introduction to the notion of phase space with some comments on the 
 
 * David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
 
+An article reviewing much of the content of the following references is
+
+* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_ ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282))
+
 ### Covariant phase space
 
 A standard textbook reference is chapter 17.1 of 
@@ -631,4 +635,3 @@ Standard textbooks on [[classical mechanics]] include
 
 [[!redirects phase spaces]]
 [[!redirects covariant phase spaces]]
-
