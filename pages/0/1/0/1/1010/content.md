@@ -52,80 +52,82 @@ Of course the definition below is only correct in material set theory, but there
 
 ## Definition
 
-A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
-1. for all $u \in U$ and $t \in u$, $t \in U$ (so $U$ is _transitive_);
-1. for all $u \in U$, the [[power set]] $P(u) \in U$;
-1. the [[empty set]] $\empty \in U$;
-1. for all $I \in U$ and functions $u: I \to U$, the [[union]] $\cup_{i: I} u_i \in U$.
+A **Grothendieck universe** $ U $ is a [[pure set]] $ U $ such that:
 
-Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural numbers]] in place of $\empty$ in (3), which prevents the countable set $V_\omega$ of [[hereditarily finite sets]] from being a Grothendieck universe.
+1. for all $ u,t \in U $, we have that $ t \in U $ (so $ U $ is _transitive_);
+1. for all $ u \in U $, we have that the [[power set]] $ P(u) \in U $;
+1. the [[empty set]] $ \empty \in U $;
+1. for all $ I \in U $ and functions $ u: I \to U $, we have that the [[union]] $ \bigcup_{i \in I} u_{i} \in U $.
+
+Some authors leave out (3), which allows $ \empty $ itself to be a Grothendieck universe.  Other authors use the set $ \mathbb{N} $ of [[natural numbers]] in place of $ \empty $ in (3), which prevents the countable set $ V_\omega $ of [[hereditarily finite sets]] from being a Grothendieck universe.
 
 
 ## Consequences
 
-From the definition above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function sets]] and [[cartesian products]] and [[disjoint unions]] of sets, using these lemmata:
+From the definition above, one can prove additional closure properties of a universe $ U $, including the usual codings in pure set theory of [[function sets]] and [[cartesian products]] and [[disjoint unions]] of sets, using these lemmata:
 
 +-- {: .num_lemma}
 ###### Lemma
-If $t$ is a [[subset]] of $u$ and $u \in U$, then $t \in U$.
+If $ t $ is a [[subset]] of $ u $ and $ u \in U $, then $ t \in U $.
 =--
 +-- {: .proof}
 ###### Proof
-By (2), $P(u) \in U$; $t \in P(u)$, so $t \in U$ by (1).
+By (2), $ P(u) \in U $. As $ t \in P(u) $, we obtain $ t \in U $ by (1).
 =--
 
 +-- {: .num_lemma}
 ###### Lemma
-If $u, v \in U$, then $u \cup v \in U$.
+If $ u, v \in U $, then $ u \cup v \in U $.
 =--
 +-- {: .proof}
 ###### Proof
-Since $\empty \in U$ by (3), so are $\star = P(\empty)$ and $TV = P(\star)$ by (2).  Even in [[constructive mathematics]], $2 = \{\bot, \top\}$ is a subset of $TV$, so $2 \in U$ in by Lemma 1.  Then $(\bot \mapsto u, \top \mapsto v)$ is a function $2 \to U$, so the union $u \cup v$ in $U$ by (4).
+Since $ \empty \in U $ by (3), so are $ \star = P(\empty) $ and $ TV = P(\star) $ by (2). Even in [[constructive mathematics]], $ 2 = \{ \bot,\top \} $ is a subset of $ TV $, so $ 2 \in U $ by Lemma 1. Then $ (\bot \mapsto u,\top \mapsto v) $ is a function from $ 2 \to U $, so the union $ u \cup v $ in $ U $ by (4).
 =--
 
 Then using their usual encodings in set theory:
-* the nullary cartesian product $\star$ is $P(\empty)$ as in the previous proof;
-* the binary cartesian product $u \times v$ is a subset of $P(P(u \cup v))$;
-* the general cartesian product $\prod_{i: I} u_i$ is a subset of $P(I \times \bigcup_{i: I} u_i)$;
-* the nullary disjoint union is $\empty$;
-* the binary disjoint union $u \uplus v$ is a subset of $2 \times (u \cup v)$;
-* the general disjoint union $\biguplus_{i: I} u_i$ is a subset of $I \times \bigcup_{i: I} u_i$;
-* the set of functions $u \to v$ is a subset of $P(u \times v)$.
+
+* the nullary cartesian product $ \star $ is $ P(\empty) $ as in the previous proof;
+* the binary cartesian product $ u \times v $ is a subset of $ P(P(u \cup v)) $;
+* the general cartesian product $ \prod_{i \in I} u_{i} $ is a subset of $ P \left( I \times \bigcup_{i \in I} u_{i} \right) $;
+* the nullary disjoint union is $ \empty $;
+* the binary disjoint union $ u \uplus v $ is a subset of $ 2 \times (u \cup v) $;
+* the general disjoint union $ \biguplus_{i \in I} u_{i} $ is a subset of $ I \times \bigcup_{i \in I} u_{i} $;
+* the set of functions $ u \to v $ is a subset of $ P(u \times v) $.
 
 
-## Terminology: small/large
+## Terminology: Small/Large
 
-Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-moderate**.  Every $U$-small set is $U$-moderate by requirement (1) of the definition.  If the universe $U$ is understood, we may simply say **small** and **moderate**.
+Given a universe $ U $, an element of $ U $ is called a **$ U $-small set**, while a subset of $ U $ is called **$ U $-moderate**. Every $ U $-small set is $ U $-moderate by requirement (1) of the definition. If the universe $ U $ is understood, we may simply say **small** and **moderate**.
 
-The term _$U$-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small').  The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $U$-small and $U$-moderate sets.  To be precise, if we redefine "set" to mean "$U$-small set," then every proper class in this new world of sets will be represented by a $U$-moderate set (a subset of $U$).  Those sets that are not even $U$-moderate are 'too large' to be translated into language of proper classes.
+The term _$ U $-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small').  The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $ U $-small and $ U $-moderate sets. To be precise, if we redefine "set" to mean "$ U $-small set," then every proper class in this new world of sets will be represented by a $ U $-moderate set (a subset of $ U $). Those sets that are not even $ U $-moderate are 'too large' to be translated into language of proper classes.
 
-(Note, though, that not all $U$-moderate sets represent proper classes in the language of set theory relative to the world of $U$-small sets, only those that are _first-order definable_ from $U$-small sets.  In fact, if $\kappa$ is the [[cardinal number|cardinality]] of the universe $U$, then there are only $\kappa$ proper classes relative to $U$, but there are  $2^\kappa$ $U$-moderate sets.)
+(Note, though, that not all $ U $-moderate sets represent proper classes in the language of set theory relative to the world of $ U $-small sets, only those that are _first-order definable_ from $ U $-small sets. In fact, if $ \kappa $ is the [[cardinal number|cardinality]] of the universe $ U $, then there are only $ \kappa $ proper classes relative to $ U $, but there are $ 2^{\kappa} $-many $ U $-moderate sets.)
 
 
-As defined above, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-moderate set is called **essentially** $U$-small or $U$-moderate; these concepts are non-evil.
+As defined above, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $ U $. However, a set which is isomorphic to a $ U $-small or $ U $-moderate set is called **essentially** $ U $-small or $ U $-moderate; these concepts are non-evil.
 
 
 ## Axiom of universes
 
-If $U$ is a Grothendieck universe, then it is easy to show that $U$ is itself a model of [[ZFC]] (minus the axiom of infinity unless you modify (3) to rule out countable universes).  Therefore, one cannot prove in ZFC the existence of a Grothendieck universe containing $\mathbb{N}$, and so we need extra set-theoretic axioms to ensure that uncountable universes exist.  Grothendieck's original proposal was to add the following **axiom of universes** to the usual axioms of set theory:
+If $ U $ is a Grothendieck universe, then it is easy to show that $ U $ is itself a model of [[ZFC]] (minus the axiom of infinity unless you modify (3) to rule out countable universes). Therefore, one cannot prove in ZFC the existence of a Grothendieck universe containing $ \mathbb{N} $, and so we need extra set-theoretic axioms to ensure that uncountable universes exist. Grothendieck's original proposal was to add the following **axiom of universes** to the usual axioms of set theory:
 
-* For every set $s$ there exists a universe which contains $s$, i.e. such that $s \in U$.
+* For every set $ s $ there exists a universe which contains $ s $, i.e. such that $ s \in U $.
 
-This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaraneteed to be a bigger Grothendieck universe in which one lands.  In other words, every set is small if your universe is large enough!
+This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaraneteed to be a bigger Grothendieck universe in which one lands. In other words, every set is small if your universe is large enough!
 
-Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* uncountable universe.  In particular, any discussion of 'small' and 'large' that can be stated in terms of sets and proper classes can also be stated in terms of a single universe $U$ (with 'large' meaning $U$-moderate but not $U$-small).
+Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* uncountable universe. In particular, any discussion of 'small' and 'large' that can be stated in terms of sets and proper classes can also be stated in terms of a single universe $ U $ (with 'large' meaning $ U $-moderate but not $ U $-small).
 
 
 ## Large cardinals
 
-If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]] ([Williams](#Williams)).  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]] of pure sets.  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
+If $ U $ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $ V_{\kappa} $ where $ \kappa $ is a (strongly) [[inaccessible cardinal]] ([Williams](#Williams)). Here $ V_{\kappa} $ is the $ \kappa $-th set in the [[von Neumann hierarchy]] of pure sets. Conversely, every such $ V_{\kappa} $ is a Grothendieck universe. Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
 
-It is worth noting, for those with foundational worries, that the axiom of universes is much, much weaker than many large cardinal axioms which are routinely used, and believed to be consistent, by modern set theorists.  Of course, one cannot _prove_ the consistency of any large cardinal axiom (if it really is consistent) except by invoking a stronger one.
+It is worth noting, for those with foundational worries, that the axiom of universes is much, much weaker than many large cardinal axioms which are routinely used, and believed to be consistent, by modern set theorists. Of course, one cannot _prove_ the consistency of any large cardinal axiom (if it really is consistent) except by invoking a stronger one.
 
 
 ## Structural version
 
-An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).  See [[universe in a topos]].
+An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]). See [[universe in a topos]].
 
 
 ## Examples
