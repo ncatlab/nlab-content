@@ -102,7 +102,6 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 * {#Gelbhart84} [[Stephen Gelbart]], starting on p. 20 (196) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
 
-
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
 
@@ -116,6 +115,12 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 Review in the context of the [[geometric Langlands correspondence]] is in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
+
+The generalization of theta functions to [[automorphic forms]] is due to 
+
+* [[André Weil]], _Sur certaines groups d'operateur unitaires_, Acta. Math.  111 (1964), 143-211
+
+see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
 
 
 ### In string theory
