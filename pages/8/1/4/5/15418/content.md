@@ -9,7 +9,7 @@ The [[zeta function]] naturally associated to a [[Riemann surface]]/[[complex cu
 
 ([Minakshisundaram-Pleijel 49](#MinakshisundaramPleijel49)) considered the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]] on a [[Riemann surface]].
 
-Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _Selberg zeta function of a Riemann surface_. (e.g. [Bump, below theorem 19](#Bump)).
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function]] of a Riemann surface_. (e.g. [Bump, below theorem 19](#Bump)).
 
 Much of this is more generally defined/considered on higher dimensional [[hyperbolic manifolds]].
 
@@ -52,9 +52,18 @@ where $\eta$ is the [[Dedekind eta function]].
 
 For $A$ a [[flat connection]] on a [[Riemannian manifold]], write $D_A$ for the [[Dirac operator]] twisted by this connection. 
 
-On a suitable [[hyperbolic manifold]], the [[partition function]]/[[theta function]] for $D_A$ appears in ([Bunke-Olbrich 94a, def. 3.1](#BunkeOlbrich94a)) (there for the odd dimensional case). The corresponding Selberg zeta formula is ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)). This has a form analogous to that of [[Artin L-functions]] with the flat connection replaced by a [[Galois representation]].
+On a suitable [[hyperbolic manifold]], the [[partition function]]/[[theta function]] for $D_A$ appears in ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) (and [Bunke-Olbrich 94a, def. 3.1](#BunkeOlbrich94a)) for the odd dimensional case). The corresponding Selberg zeta formula is ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)). This has a form analogous to that of [[Artin L-functions]] with the flat connection replaced by a [[Galois representation]].
 
 ## Properties
+
+### Analogy with Artin L-function
+ {#AnalogyWithArtinLFunction}
+
+That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77) [Fried 86, prop. 5](#Fried86)).
+
+That it is in particular the Euler product of characteristic polynomials of the [[monodromies]]/[[holonomies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a](#BunkeOlbrich94a)) for the odd-dimensional case.
+
+Notice that this is analogous to the standard definition of an [[Aring L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and a [[Galois representation]] as a [[flat connection]].
 
 
 ### Function field analogy
@@ -86,6 +95,13 @@ Review includes
 * {#Watkins} [[Matthew Watkins]], citation collection on _[Selberg trace formula and zeta functions](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics4.htm)_
 
 * {#Bump} Bump, below theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
+
+Expression of the Selberg/Ruelle zeta function as an [[Euler product]] of [[characteristic polynomials]] is due to 
+
+* {#Gangolli77} Ramesh Gangolli, _Zeta functions of Selberg's type for compact space forms of symmetric spaces of rank one_, Illinois J. Math. Volume 21, Issue 1 (1977), 1-41. ([Euclid](http://projecteuclid.org/euclid.ijm/1256049498))
+
+* {#Fried86} [[David Fried]], _The zeta functions of Ruelle and Selberg. I_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 19 no. 4 (1986), p. 491-517 ([Numdam](http://www.numdam.org/item?id=ASENS_1986_4_19_4_491_0))
+
 
 Discussion of the relation between, on the one hand, [[zeta function of an elliptic differential operator|zeta function]] of [[Laplace operators]]/[[eta function of a self-adjoint operator|eta funcstions]] of [[Dirac operators]] and, on the other hand, Selberg zeta functions includes
 
@@ -119,8 +135,6 @@ See also
 
 * {#Todorov03} [[Andrey Todorov]], _The analogue of the Dedekind eta function for CY threefolds_, 2003 [pdf](http://www.ma.huji.ac.il/conf/crelle.pdf)
 
-
-[[!redirects Selberg zeta function]]
 
 
 [[!redirects Selberg zeta function of a Riemann surface]]
