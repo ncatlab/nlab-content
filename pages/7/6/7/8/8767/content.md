@@ -46,7 +46,7 @@ and to the notion of [[cohesion]]
 
 For more on this see also the collecgtion
 
-* [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
 
 [[!redirects continuum physics]]
