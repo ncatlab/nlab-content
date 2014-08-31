@@ -186,7 +186,7 @@ CoSHEP as a choice principle added to [[ZF]] implies a [[proper class]] of [[reg
 +-- {: .proof}
 ###### Proof 
 
-Since CoSHEP implies [[WISC]], and WISC has this implication.
+Since CoSHEP implies [[WISC]], and WISC has this implication (a result of [[Benno van den Berg|van den Berg]]).
 =--
 
 
