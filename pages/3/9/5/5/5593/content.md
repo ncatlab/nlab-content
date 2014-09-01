@@ -60,7 +60,7 @@ Apparently there is work on constructive uniform locale theory here:
 
 And indeed, a constructive and predicative theory in the programme of [[formal topology]] here:
 
-* [[Giovanni Curi]]; On the collection of points of a formal space"; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
+* [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
 
 * [[Giovanni Curi]]; Constructive metrisability in point-free topology; Theoretical Computer Science 305 (2003) 1--3, 85--109.
 
