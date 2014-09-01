@@ -1,4 +1,6 @@
 
+> see also at _[[Galois group]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -266,6 +268,7 @@ The classical Galois theory for fields is a special case of a general geometric/
 
 
 ### Statement of the main theorem
+ {#StatementOfMainTheorem}
 
 
 
@@ -299,7 +302,7 @@ This appears for instance as [Lenstra, main theorem 1.11](#Lenstra). It is fully
 
 
 
-The [[profinite group]], $\pi_1(X)$, is often called the _&#233;tale fundamental group_ of the connected scheme $X$.  In [[SGA1]], Grothendieck also considers coverings with profinite fibres, and a profinitely enriched fundamental groupoid. In the above the actual group $\pi_1(X)$ depends on the choice of a _fibre functor_ given by a geometric point of $X$. Different choices of fibre functor produce isomorphic groups. Taking two such fibre functors yields a $\pi_1(X)$-torsor for either version of $\pi_1(X)$.  This is important in attacks on [[Grothendieck's section conjecture]].
+The [[profinite group]], $\pi_1(X)$, is often called the _[[étale fundamental group]]_ of the connected scheme $X$.  In [[SGA1]], Grothendieck also considers coverings with profinite fibres, and a profinitely enriched fundamental groupoid. In the above the actual group $\pi_1(X)$ depends on the choice of a _fibre functor_ given by a geometric point of $X$. Different choices of fibre functor produce isomorphic groups. Taking two such fibre functors yields a $\pi_1(X)$-torsor for either version of $\pi_1(X)$.  This is important in attacks on [[Grothendieck's section conjecture]].
 
 
 +-- {: .num_example}
