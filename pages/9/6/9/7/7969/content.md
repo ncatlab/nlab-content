@@ -158,6 +158,15 @@ The generalization of theta functions to [[automorphic forms]] is due to
 
 see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
 
+Further developments here include
+
+* {#Kudla77} [[Stephen Kudla]], _Relations between automorphic forms produced by theta-functions_, in _Modular Functions of One Variable VI_, Lecture Notes in Math. 627, Springer, 1977, 277&#8211;285.
+
+* {#Kudla78} [[Stephen Kudla]], _Theta functions and Hilbert modular forms_,Nagoya Math. J. 69 (1978) 97-106
+
+
+* {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
+
 [[!redirects theta functions]]
 [[!redirects theta-function]]
 [[!redirects theta-functions]]
