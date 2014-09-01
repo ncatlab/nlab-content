@@ -7,13 +7,13 @@
 
 The concept of _zeta function_ originates in [[number theory]], but to get an idea of what they "really are" it is helpful to proceed anachronistically:
 
-$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like [[regularization (physics)|regularized]] [[Feynman propagators]], namely which behave like [[analytic continuations]] of [[traces]] of powers 
+$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like like [[analytic continuations]] of [[traces]] of powers 
 
 $$
   s \mapsto Tr \left(\frac{1}{H}\right)^s
 $$ 
 
-of suitable [[elliptic differential operators]] $H$, which means that for sufficiently nice such $H$ these are analytic continuations in $s$ of sums of the form
+of suitable [[elliptic differential operators]] $H$ (in [[physics]] these are [[regularization (physics)|regularized]] [[Feynman propagators]]), which means that for sufficiently nice such $H$ these are analytic continuations in $s$ of sums of the form
 
 $$
   s \mapsto \underset{\lambda}{\sum}  \lambda^{-s}
@@ -24,9 +24,15 @@ where the summation is over the [[eigenvalues]] $\lambda$ of $H$.
 
 Indeed, such _[[zeta functions of elliptic differential operators]]_ constitutes one class of examples of zeta functions.  Of particular interest is the case where $H$ is a [[Laplace operator]] of a [[hyperbolic manifold]] and in particular on a hyperbolic [[Riemann surface]], for that case one obtains the _[[zeta function of a Riemann surface]]_, in particular the _[[Selberg zeta function]]_.
 
-In modern language one also speaks of _[[L-functions]]_. Where a zeta function of some space is like the [[Feynman propagator]] of _the_ canonical [[Laplace operator]] of that space, an L-function is defined from an extra "twisting" information such as that of a [[flat bundle]]/[[local system of coefficients]] on the space and is like the Feynman propagator of the corresponding twisted/coupled Laplace operator.
+In modern language one also speaks of _[[L-functions]]_. Where a zeta function of some space is like the [[Feynman propagator]] of _the_ canonical [[Laplace operator]] of that space, an L-function is defined from an extra "twisting" information such as that of a [[flat bundle]]/[[local system of coefficients]] on the space (and is hence like the [[Feynman propagator]] of the corresponding twisted/coupled [[Laplace operator]]). The major properties satisfied by anything that qualifies as a zeta function or [[L-functions]] are: these are [[meromorphic functions]] $s \mapsto L(s)$ on the [[complex plane]] such that
+
+1. for $\Re(s) \ggt 1$ they have a [[convergence|converging]] [[series]] expansion of the above form, and/or a multiplicative series expression, the _[[Euler product]]_;
+
+1. such that [[analytic continuation]] of the series expression exists to a meromorphic function $L(-)$ on the complex plane;
+
+1. and such that the result satisfies a _[[functional equation]]_ which says that the product $\hat L$ of $L$ with some correcion functions satisfies $\hat L(1-s) = \hat L(s)$.
  
-Proceeding from this setup in [[complex analytic geometry]] one may wonder if there are [[analogy|analogs]] also in [[arithmetic geometry]]. Indeed, by the [[function field analogy]] there are. All the way down "on [[Spec(Z)]]" the analog of the [[Selberg zeta function]] is the [[Riemann zeta function]], which _historically_ is the first of all zeta functions, defined by [[analytic continuation]] of the [[series]]
+Proceeding from the above class of examples in [[complex analytic geometry]] one may wonder if there are [[analogy|analogs]] also in [[arithmetic geometry]]. Indeed, by the [[function field analogy]] there are. All the way down "on [[Spec(Z)]]" the analog of the [[Selberg zeta function]] is the [[Riemann zeta function]], which _historically_ is the first of all zeta functions, defined by [[analytic continuation]] of the [[series]]
 
 $$
    s \mapsto \underoverset{n = 1}{\infty}{\sum} n^{-s}
@@ -93,6 +99,7 @@ Discussion in the more general context of [[higher dimensional arithmetic geomet
 * Nobushige Kurokawa, _Zeta functions over $F_1$_,  Proc. Japan Acad. Ser. A Math. Sci. __81__:10 (2005) 180-184 [euclid](http://projecteuclid.org/euclid.pja/1135791771)
 
 
+
 ### Categorical approaches
 
 * [[Michael Larsen|M. Larsen]], [[Valery Lunts|V. A. Lunts]], _Motivic measures and stable birational geometry_, Mosc. Math. J. __3__, 1 (2003) 85--95; _Rationality criteria for motivic zeta functions_, Compos. Math. __140__:6 (2004) 1537&#8211;1560
@@ -102,4 +109,3 @@ Discussion in the more general context of [[higher dimensional arithmetic geomet
 * [[John Baez]], _[[johnbaez:Zeta functions]]_
 
 [[!redirects zeta functions]]
-
