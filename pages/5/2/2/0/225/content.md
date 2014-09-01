@@ -32,35 +32,28 @@ In the absence of the [[axiom of choice]] (including many [[internal category|in
 
 ## Properties
 
-* If $D$ has [[limits]] or [[colimits]] of a certain shape, then so does $[C,D]$ and they are computed pointwise.  (However, if $D$ is not complete, then other limits in $[C,D]$ can exist "by accident" without being pointwise.)
+###  Limtis and colimits and closure
 
-* If $C$ is small and $D$ is [[cartesian closed category|cartesian closed]] and [[complete category|complete]], then $[C,D]$ is cartesian closed.  See [[cartesian closed category]] for a proof.
+If $D$ has [[limits]] or [[colimits]] of a certain shape, then so does $[C,D]$ and they are computed pointwise.  (However, if $D$ is not complete, then other limits in $[C,D]$ can exist "by accident" without being pointwise.)
 
-## Size issues
+If $C$ is small and $D$ is [[cartesian closed category|cartesian closed]] and [[complete category|complete]], then $[C,D]$ is cartesian closed.  See at _[[cartesian closed category]]_ for a proof.
 
-If $C$ and $D$ are [[small category|small]], then $[C,D]$ is also small.
-
-If $C$ is small and $D$ is [[locally small category|locally small]], then $[C,D]$ is still locally small.
-
-Even if $C$ and $D$ are locally small, if $C$ is not small, then $[C,D]$ will usually not be locally small.
-
-As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then $C$ must be [[essentially small category|essentially small]]; see [Freyd & Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html).
-
-## Accessibility and local presentability
+### Accessibility and local presentability
+  {#LocalPresentability}
 
 Functor categories enjoy the following accessibility
 and local presentability properties, as explained
-by Zhen Lin Low at [nForum](http://nforum.mathforge.org/discussion/6152).
+by [[Zhen Lin Low]] at [nForum](http://nforum.mathforge.org/discussion/6152).
 
-* $\kappa$-accessible functors from a $\kappa$-accessible category to any accessible category form an accessible category.  (It is not so easy to say what the accessibility rank is here.)
+* $\kappa$-[[accessible functors]] from a $\kappa$-[[accessible category]] to any accessible category form an accessible category.  (It is not so easy to say what the accessibility rank is here.)
 
-* $\kappa$-accessible functors from a $\kappa$-accessible category to any locally $\lambda$-presentable category form a locally $\lambda$-presentable category.
+* $\kappa$-accessible functors from a $\kappa$-accessible category to any locally $\lambda$-[[locally presentable category|presentable category]] form a locally $\lambda$-presentable category.
 
-* Cocontinuous functors between locally presentable categories form a locally presentable category.  More precisely, if $C$&#160;and&#160;$D$ are locally $\kappa$-presentable, then so is&#160;$[C,D]$.
+* Cocontinuous functors between [[locally presentable categories]] form a locally presentable category.  More precisely, if $C$&#160;and&#160;$D$ are locally $\kappa$-presentable, then so is&#160;$[C,D]$.
 
 * Continuous accessible functors between locally presentable categories form the opposite of a locally presentable category.  More precisely, if $C$&#160;and&#160;$D$ are locally $\kappa$-presentable, then so is $[C,D]^{\rm op}$.
 
-Indeed, the point is this: given a $\kappa$-accessible category $\mathcal{C} \simeq Ind^\kappa (\mathcal{A})$ ($\mathcal{A}$ essentially small), the category of $\kappa$-accessible functors $\mathcal{C} \to \mathcal{D}$ (for arbitrary $\mathcal{D}$; here by "$\kappa$-accessible" we mean simply "preserves $\kappa$-filtered colimits") is naturally equivalent to the category of all $\mathcal{A} \to \mathcal{D}$. It should be well known that:
+Indeed, the point is this: given a $\kappa$-[[accessible category]] $\mathcal{C} \simeq Ind^\kappa (\mathcal{A})$ ($\mathcal{A}$ essentially small), the category of $\kappa$-accessible functors $\mathcal{C} \to \mathcal{D}$ (for arbitrary $\mathcal{D}$; here by "$\kappa$-accessible" we mean simply "preserves $\kappa$-filtered colimits") is naturally equivalent to the category of all $\mathcal{A} \to \mathcal{D}$. It should be well known that:
 
 1. If $\mathcal{D}$ is accessible, then so is $[\mathcal{A}, \mathcal{D}]$.
 
@@ -88,7 +81,19 @@ So consider $\mathcal{C} (X, -)$ for some object $X$ that is _not_ $\kappa$-pres
 (Such an $X$ exists because $\mathcal{C}$ is _not_ essentially small.)
 Since $\mathcal{G}$ generates, there is a small diagram of $\kappa$-accessible functors whose colimit is $\mathcal{C} (X, -)$.
 But then $\mathcal{C} (X, -)$ is a retract of a $\kappa$-accessible functor and hence $\kappa$-accessible: a contradiction.
-That said, $\mathcal{A}$ is [class-locally presentable](http://dx.doi.org/10.1016/j.jpaa.2012.01.015).
+That said, $\mathcal{A}$ is a [[class-locally presentable category]].
+
+
+## Size issues
+
+If $C$ and $D$ are [[small category|small]], then $[C,D]$ is also small.
+
+If $C$ is small and $D$ is [[locally small category|locally small]], then $[C,D]$ is still locally small.
+
+Even if $C$ and $D$ are locally small, if $C$ is not small, then $[C,D]$ will usually not be locally small.
+
+As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then $C$ must be [[essentially small category|essentially small]]; see [Freyd & Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html).
+
 
 ## Related concepts
 
