@@ -200,7 +200,7 @@ $$
   \theta(x^2) x = \theta(x^{-2})
 $$
 
-which in turn follows from the [[Poisson summation formula]].
+which in turn follows from the [[Poisson summation formula]] (see at _[Jacobi theta function -- Functional equation](Jacobi+theta+function#FunctionalEquation)_).
 
 In terms of the adelic integral expression, the functional equation of the theta function (and of the zeta integral)
 corresponds to the analytic duality furnished by Fourier transform on the adelic spaces and its subspaces. (due to [Tate 50](#Tate50), reviewed for instance in [Fesenko 08 0.1](#Fesenko08), [Garrett 11, section 1.9](#Garrett11), [Goldfeld-Hundley 11 theorem 2.2.12](#GoldfeldHundley11))
