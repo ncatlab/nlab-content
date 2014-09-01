@@ -165,7 +165,15 @@ A [[geometric theory]] $T$ is a [[theory of presheaf type]] precisely if its cat
 
 See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
+## Examples
+
+### Functor categories
+
+See at _[Functor category -- Accessibility](functor+category#LocalPresentability)_.
+
 ## Related concepts
+
+* [[class-accessible category]]
 
 [[!include locally presentable categories - table]]
 
