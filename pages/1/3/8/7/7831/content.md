@@ -1,4 +1,6 @@
 
+> see at [[Galois theory]] for more
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,11 +17,13 @@ Even more generally there is an analogue of the Galois group in [[stable homotop
 
 +-- {: .num_defn}
 ###### Definition
+
 Let $K\hookrightarrow L$ denote a Galois [[field extension]], then the [[automorphism group]]
 
 $$Gal(K\hookrightarrow L):=Aut_K(L)$$
 
 consisting just of those automorphisms of $L$ whose restriction to $K$ is the identity is called *Galois group of the field extension $K\hookrightarrow L$.
+
 =--
 
 Every Galois group $Gal(K\hookrightarrow L)=lim_{K\hookrightarrow E\hookrightarrow L}Gal (K\hookrightarrow E)$  is a [[profinite group|profinite]] [[topological group]] in that it is the limit of the topologically discrete Galois groups of the intermediate finite extensions between $K$ and $L$.
@@ -30,6 +34,37 @@ The Galois group $Gal(K\hookrightarrow K_s)$ of the separable closure of $K$ is 
 
 If the scheme, moreover, is a [[group scheme]] (i.e. endowed with a group structure) modules over the Galois group, which are called [[Galois module|Galois modules]], play an important role in [[algebraic number theory]].
 
+## Properties
+
+### Relation to &#233;tale fundamental goup
+ {#RelationToEtaleFundamentalGroup}
+
+For $K$ a [[field]], then the absolute Galois group of $K$ is equivalent to the [[étale fundamental group]]/[[algebraic fundamental group]] of the [[spectrum of a commutative ring|spectrum]] of $K$.
+
+$$
+   \pi_1(Spec(K)) \simeq Gal(K_{sep}/K)
+  \,.
+$$
+
+If $K$ is a [[number field]], write $\mathcal{O}_K$ for its [[ring of integers]], so that $Spec(\mathcal{O}_K)$ is an [[arithmetic curve]]. Then 
+
+$$
+  \pi_1(Spec(\mathcal{O}_K)) \simeq Gal(K_{alg}^{ur}/K)
+  \,,
+$$
+
+where $K_{alg}^{ur}$ is the maximal algebraic extension of $K$ that is [[unramified]] at all non-zero [[prime ideals]] (e.g. [Lenstra 85, Example 1.12](#Lenstra85)). 
+
+See also at _[Galois theory -- Statement of the main theorem](Galois+theory#StatementOfMainTheorem)_.
+
+
+### Relation to Frobenius maps
+ {#RelationToFrobeniusMaps}
+
+For $K$ a [[number field]] then the [[Frobenius maps]] induce canonical elements in the Galois group. See at _[Frobenius morphism -- As elements of the Galois group](Frobenius+morphism#AsElementsOfGaloisGroup)_.
+
+This crucially enters the definition of [[Artin L-functions]] associated with [[Galois representations]].
+
 ## Related concepts
 
 * [[Galois theory]]
@@ -37,6 +72,11 @@ If the scheme, moreover, is a [[group scheme]] (i.e. endowed with a group struct
 * [[motivic Galois group]]
 
 ## References
+
+A standard account is
+
+* {#Lenstra85} [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) ([pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf))
+ 
 
 For the Galois group in [[stable homotopy theory]], see
 
