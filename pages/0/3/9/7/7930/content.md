@@ -423,6 +423,10 @@ and for the traditional component notation used in physics see
 * [[Joseph Polchinski]], part II, appendix B of _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
  {#Polchinski01}
 
+For good math/physics discussion with special emphasis on the symplectic Majorana spinors and their role in the [[6d (2,0)-superconformal QFT]] see
+
+* {#FF} [[José Figueroa-O'Farrill]], _Majorana spiniors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
 [[!redirects spin representations]]
 
 [[!redirects spinor representation]]
@@ -452,4 +456,3 @@ and for the traditional component notation used in physics see
 [[!redirects chiral spinors]]
 [[!redirects chiral spin representation]]
 [[!redirects chiral spin representations]]
-
