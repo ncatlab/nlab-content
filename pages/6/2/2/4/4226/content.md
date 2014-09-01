@@ -60,6 +60,9 @@ London Mathematical Society Lecture Note Series __383__, __384__
 * [[Lou van den Dries]], _Lectures on Motivic Integration_ , Ms. University of Illinois at Urbana-Champaign. ([dvi](http://www.math.uiuc.edu/~vddries/mo.dvi))
 
 * Julien Sebag, _Int&#233;gration motivique sur les sch&#233;mas formels_,  Bull. Soc. Math. France 132 (2004), no. 1, 1&#8211;54, [MR2005e:14017](http://www.ams.org/mathscinet-getitem?mr=2075915) 
+
+* Takehiko Yasuda, _Motivic Integration over Deligne-Mumford Stacks_ , arXiv.0312115 (2004). ([pdf](http://arxiv.org/pdf/math/0312115v5.pdf))
+
 * M. Larsen, [[Valery Lunts]], _Motivic measures and stable birational geometry_, 
 Mosc. Math. J. 3 (2003), no. 1, 85&#8211;95, 259, [math.AG/0110255](http://arxiv.org/abs/math/0110255), [MR2005a:14026](http://www.ams.org/mathscinet-getitem?mr=1996804), [journal](http://www.ams.org/distribution/mmj/vol3-1-2003/abst3-1-2003.html#larsen-lunts_abstract); _Rationality criteria for motivic zeta functions_, Compos. Math. __140__ (2004), no. 6, 1537&#8211;1560, [math.AG/0212158](http://arxiv.org/abs/math/0212158)
 * [[Alexei Bondal]]. M. Larsen, [[Valery Lunts]], _Grothendieck ring of pretriangulated categories_, Int. Math. Res. Not. 2004, no. 29, 1461&#8211;1495, [math.AG/0401009](http://arxiv.org/abs/math/0401009)
