@@ -1,6 +1,21 @@
 
 > see at [[Galois theory]] for more
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
