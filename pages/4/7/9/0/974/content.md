@@ -366,12 +366,17 @@ A [[combinatorial model category]] is a [[model category]] that is in particular
 
 Given a class of morphisms $\Sigma$ in a locally presentable category, the answer to the [[orthogonal subcategory problem]] for $\Sigma^\perp$ is affirmative if $\Sigma$ is small, and is affirmative for any class $\Sigma$ assuming the large cardinal axiom known as [[Vopenka's principle]]. 
 
+### Functor categories
+
+See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/functor+category#LocalPresentability)_.
+
 ## Related concepts
 
 * Another notion of "presentable category" is that of an _[[equationally presentable category]]_.
 
 * Locally presentable categories are a special case of _[[locally bounded category|locally bounded categories]]_.
 
+* [[class-locally presentable category]]
 
 [[!include locally presentable categories - table]]
 
