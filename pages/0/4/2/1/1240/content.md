@@ -325,6 +325,10 @@ $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 ## Examples and Applications
 
+### Regular representation
+
+The [[regular representation]] of a group $G$, as a linear representation, is the induced representation of the trivial representation along the trivial subgroup inclusion $Ind_1^G(1)$.
+
 ### Centralizer algebra / Hecke algebra
  {#HeckeAlgebra}
 
