@@ -52,8 +52,23 @@ The last condition is the one saying that "the induced topology is again the top
 [[Mike Shulman]]: I do not know the state of a [[constructive mathematics|constructive]] version of uniform locale theory.  Most of the papers on uniform locales seem to assume classical logic, in particular in writing $C[A] = \bigcup \{ B \in C \;|\; A \cap B \neq \bot \}$.  The above definition seems to me the obvious constructive version, but I don't know how well it behaves.  It's conceivable one might need to restrict to [[overt locales]], where positivity behaves better.
 =--
 
+## References
+
+Apparently there is work on constructive uniform locale theory here:
+
+* [[Peter Johnstone]], 1989; A constructive theory of uniform locales. I. Uniform covers; General topology and applications, 179--193; Lecture Notes in Pure and Applied Mathematics 134 (1991).
+
+And indeed, a constructive and predicative theory in the programme of [[formal topology]] here:
+
+* [[Giovanni Curi]]; On the collection of points of a formal space"; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
+
+* [[Giovanni Curi]]; Constructive metrisability in point-free topology; Theoretical Computer Science 305 (2003) 1--3, 85--109.
+
+But we have not read these yet.
+
 
 [[!redirects uniform locale]]
 [[!redirects uniform locales]]
+
 [[!redirects pointless uniformity]]
 [[!redirects pointless uniformities]]
