@@ -1,4 +1,16 @@
 
+## Definition
+
+...
+
+## Properties
+
+### Transform between theta functions and L-functions/zeta functions
+
+The _Mellin transform_ sends [[theta functions]] to [[L-functions]], hence (for trivial twist) to [[zeta functions]].
+
+In particular it sends the [[Jacobi theta function]] to the [[Riemann zeta function]].
+
 ## Examples
 
 ### Zeta functions
