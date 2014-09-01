@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea 
 
-The fundamental group $\pi_1(X,x)$ of a [[pointed object|pointed]] [[topological space]] $(X,x)$ is the group of based [[homotopy classes]] of [[loops]] at $x$, with multiplication defined by concatenation (following one path by another).  
+The _fundamental group_ $\pi_1(X,x)$ of a [[pointed object|pointed]] [[topological space]] $(X,x)$ is the group of based [[homotopy classes]] of [[loops]] at $x$, with multiplication defined by concatenation (following one path by another).  
 
 This is also called _the first [[homotopy group]]_ of $X$.
 
@@ -201,9 +205,13 @@ $$
 See at _[singular homology -- Relation to homotopy groups](singular%20homology#RelationToHomotopyGroups)_ for more on this.
 
 
-### Relation to universal covers
+### Relation to universal covers and Galois groups
 
-There is a relation to [[universal cover|universal covers]]: The group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is used to establish a [[the fundamental group and Galois theory|link between Galois theory and fundamental groups]]. This version of the fundamental group is sometimes called the [[Chevalley fundamental group|Chevalley]] or [[algebraic fundamental group]] of the space. 
+There is a relation to [[universal cover|universal covers]]: Under suitable conditions the group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is the topicof the _[[étale fundamental group]]_, also referred to at _[[Chevalley fundamental group]]_, see there for more.
+
+In particular in [[algebraic geometry]] and [[arithmetic geometry]] this essentially identifies the concept of fundamental group with that of _[[Galois groups]]_. For this reason one also speaks of the _[[algebraic fundamental group]]_ in this context. See at _[[Galois theory]]_ for more on this. 
+
+See also at _[[link between Galois theory and fundamental groups]]_. 
 
 In [[Grothendieck's Galois theory]], the role of the basepoint is replaced by considering a 'fibre functor' $F:\mathcal{C}\to Sets$ or to $FinSets$, where $\mathcal{C}$ is the category of coverings of the given space. This theory extends to other situations and the term [[algebraic fundamental group]] is used in particular for the case of [[scheme]]s (of a suitable type); see (SGA1).
 
