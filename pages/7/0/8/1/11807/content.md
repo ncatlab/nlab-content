@@ -18,7 +18,7 @@ For $R \colon \mathcal{D} \to \mathcal{C}$ a [[functor]] which preserves [[finit
 
 ## Example
 
-### Pro-&#233;tale homotopy tyoe
+### Pro-&#233;tale homotopy type
 
 Consider any [[(∞,1)-sheaf ∞-topos]] with its [[global sections]] [[geometric morphism]]
 
