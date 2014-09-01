@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Dirichlet L-functions_ are a kind of [[L-function]] wich is induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)).
+The _Dirichlet L-functions_ are a kind of [[L-function]] induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)). By [[Artin reciprocity]] they are equal to suitable [[Artin L-functions]] induced by 1-dimensional [[Galois representations]].
 
 In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theory]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
 
@@ -25,6 +25,8 @@ $$
 $$
 
 for suitable Schwartz functions $f$ on the [[idele group]].
+
+Hence Dirichlet L-functions are [[Mellin transforms]] of suitable [[theta functions]] ("theta kernels"), see. e.g. ([Stopple, p. 3](#Stopple)).
 
 Where [[Dirichlet characters]] (see there) are essentially [[automorphic forms]] for the [[idele group]] (hence for $n = 1$) the generalization to automorphic forms for $n \geq 1$ is the concept of _[[automorphic L-function]]_.
 
@@ -45,6 +47,9 @@ The differential geometric analog of a Dirichlet-L function is the _[[eta functi
 
 * {#Garrett11} [[Paul Garrett]], section 1.6 _Iwasawa-Tate on &#950;-functions and L-functions_
 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf))
+
+* {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
+
 
 [[!redirects Dirichlet L-functions]]
 
