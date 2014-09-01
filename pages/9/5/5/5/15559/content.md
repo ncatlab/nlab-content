@@ -51,13 +51,14 @@ $$
 ### Relation to other zeta-, theta-, and L-functions
  {#RelationToThetaFunctions}
 
-* The Dedekind zeta function is the product of all [[Artin L-functions]] $L_\sigma$ for all [[irreps]] $\sigma$
-  
+* The Dedekind zeta function $\zeta_K$ is the [[Artin L-function]] $L_{K,\sigma}$ for [[trivial representation|trivial]] [[Galois representation]] 
+
   $$
-    \zeta(s) = \prod_{\sigma} L_\sigma(s) 
+    \zeta_K = L_{K,1}
+    \,.
   $$
 
-  (e.g. [here](http://books.google.co.uk/books?id=IuFLIbLyRRsC&pg=PA183#v=onepage&q&f=false))
+  See at _[Artin L-function -- Relation with Dedekind zeta function](Artin+L-function#RelationToDedekindZeta)_.
 
 * The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
 
