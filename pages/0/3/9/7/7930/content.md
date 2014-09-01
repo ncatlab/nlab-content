@@ -376,8 +376,11 @@ This counting however is more subtle over the real numbers (Majorana spinors) an
 There is no issue in those dimensions in which the complex Weyl representation already admits a [[real structure]] itself, hence when there are _Majorana-Weyl spinors_. In this case one just counts them with $N_+$ and $N_-$ as in the case over the complex numbers.
 
 However, in some dimensions it is only the [[direct sum]] of two Weyl spinor representations which carries a [[real structure]]. For instance for $d = 4$ and $d = 8$ in Lorentzian signature (see the [above table](#RealIrreducibleSpinRepresentationInLorentzSignature)) it is the complex representations $\mathbf{2} \oplus \mathbf{2}'$ and $\mathbf{16} \oplus \mathbf{16}'$, respectively, which carry a real structure. Hence the real representation underlying this parameterizes $N = 1$ supersymmetry in terms Majorana spinors, even though its complexification would be $N  = (1,1)$. 
-
 See for instance ([Freed 99, p. 53](#Freed)).
+
+Similarly in dimensions 5,6 and 7 mod 8, the minimal real representation is obatained from tensoring the complex spinors with the complex 2-dimensional canonical quaternionic representation $W$ (as in the [above table](#RealIrreducibleSpinRepresentationInLorentzSignature)). These are also called _symplectic Majorana_ representations. For instance in in 6d one typically speaks of the [[6d (2,0)-superconformal QFT]] to refer to that with a single "symplectic Majorana-Weyl" supersymmetry (e.g. [Figueroa-OFarrill, p. 9](#FigueroaOFarrill)), which might therefore be counted as $(1,0)$ real supersymmetric, but which involves two complex irreps and is hence often denoted counted as $(2,0)$.
+
+
 
 
 ## Related entries
@@ -425,7 +428,7 @@ and for the traditional component notation used in physics see
 
 For good math/physics discussion with special emphasis on the symplectic Majorana spinors and their role in the [[6d (2,0)-superconformal QFT]] see
 
-* {#FF} [[José Figueroa-O'Farrill]], _Majorana spiniors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spiniors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
 [[!redirects spin representations]]
 
