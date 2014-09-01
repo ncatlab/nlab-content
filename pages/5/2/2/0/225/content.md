@@ -67,7 +67,7 @@ Statements 1 and 2 are proved in [Adamek and Rosick&#253;, _Locally presentable 
 
 In general, accessible functors between accessible
 categories do not form an accessible category
-due to set-theoretical size issues.
+due to size issues.
 The best one can hope for is a [[class-accessible category]].
 Let $\mathcal{C}$ be an accessible category that is _not_ essentially small.
 Consider the category $\mathcal{A}$ of all accessible functors $\mathcal{C} \to \mathbf{Set}$.
