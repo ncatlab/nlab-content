@@ -95,6 +95,7 @@ The [[(n,1)-category|(n,1)-categorical]] counting is:
 
 * [[sheaf]] = 0-stack = 0-[[truncated]] $(\infty,1)$-sheaf
 
+
 * $(2,1)$-sheaf = [[stack]] = 1-truncated $(\infty,1)$-sheaf
 
 * $(3,1)$-sheaf = 2-stack = 2-truncated $(\infty,1)$-sheaf
@@ -529,3 +530,6 @@ The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheav
 [[!redirects (∞,1)-toposes of (∞,1)-sheaves]]
 [[!redirects (infinity,1)-topos of (infinity,1)-sheaves]]
 [[!redirects (infinity,1)-toposes of (infinity,1)-sheaves]]
+
+[[!redirects (∞,1)-sheaf ∞-topos]]
+[[!redirects (∞,1)-sheaf ∞-toposes]]
