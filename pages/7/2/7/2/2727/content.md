@@ -99,6 +99,7 @@ Exposition is in
 * [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_ ([blog](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
  {#Harper}
 
+
 ### History
  {#ReferencesHistory}
 
@@ -107,9 +108,11 @@ An influential original article was
 * [[William Howard]], _The formulae-as-types notion of construction_. In J. Roger Seldin, Jonathan P.; Hindley, (ed.s), _To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism_, pages 479&#8211;490. Academic Press, 1980. original paper manuscript from 1969. (Cited
 on pages 53, 54, 100, and 430.) ([pdf](http://www.cs.cmu.edu/~crary/819-f09/Howard80.pdf))
 
-This influential note brought [[Dana Scott]] to write "Constructive
-Validity" (a precursor of type theory) and also strongly influenced
-[[Per Martin-Löf]]. Independently and at about the same time, the idea was also found by N.G. de Bruijn for the [[Automath]] system.
+The origins of this manuscript and its publication are recounted in a 2014 email from Howard to Philip Wadler:
+
+* &lt;http://wadler.blogspot.fr/2014/08/howard-on-curry-howard.html>
+
+This influential note brought [[Dana Scott]] to write "Constructive Validity" (a precursor of type theory) and also strongly influenced [[Per Martin-Löf]]. Independently and at about the same time, the idea was also found by [[N.G. de Bruijn]] for the [[Automath]] system.
 
 [[Dana Scott]], [[William Howard]], [[Per Martin-Löf]], and [[William Tait]] were all involved in the late 60s and early 70s, mainly in Chicago.
 
@@ -119,7 +122,7 @@ Also [[William Lawvere]] was there, lecturing on [[hyperdoctrines]]. Lawvere tol
 
 * [[William Lawvere]] interviewed by Felice Cardone, _The role of Cartesian closed categories in foundations_, March 2000 ([pdf](http://conceptualmathematics.files.wordpress.com/2013/02/cartesian-closed-categories.pdf))
 
-But the story is much older. There is what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proof. This seems to be due to a paper by Kolmogorov written immediately after first world war but there seems to be no joint paper by these authors.
+But the story is much older. There is what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This seems to be due to a paper by Kolmogorov written immediately after first world war but there seems to be no joint paper by these authors.
 
 
 A historical account is in the section on types in
@@ -131,7 +134,13 @@ and in section 5 of
 * [[Anne Sjerp Troelstra]]], _History of Constructivism in the 20th Century_ (1991) ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf))
  {#Troelstra91}
 
+Philip Wadler is currently in the process of writing another history:
+
+* &lt;http://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types>
+
+
 [[!redirects propositions as types]]
+[[!redirects propositions-as-types]]
 [[!redirects propositions as types in type theory]]
 
 [[!redirects Curry-Howard correspondence]]
@@ -140,5 +149,3 @@ and in section 5 of
 [[!redirects Curry-Howard isomorphism]]
 [[!redirects Curry?Howard isomorphism]]
 [[!redirects Curry--Howard isomorphism]]
-
-[[!redirects propositions-as-types]]
