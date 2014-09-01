@@ -52,7 +52,7 @@ $$
   \,.
 $$
 
-See at _[[Langlands correspondence]]_ for more on this. Such double cosets are [[analogy|analogous]] to those appearing in the [[Weil uniformization theorem]] in [[complex analytic geoemtry]], an analogy which leads to the conjecture of the [[geometric Langlands correspondence]].
+See at _[[Langlands correspondence]]_ for more on this. Such double cosets are [[analogy|analogous]] to those appearing in the [[Weil uniformization theorem]] in [[complex analytic geometry]], an analogy which leads to the conjecture of the [[geometric Langlands correspondence]].
 
 
 
@@ -121,6 +121,16 @@ The generalization of theta functions to [[automorphic forms]] is due to
 * [[André Weil]], _Sur certaines groups d'operateur unitaires_, Acta. Math.  111 (1964), 143-211
 
 see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
+
+Further developments here include
+
+* {#Kudla77} [[Stephen Kudla]], _Relations between automorphic forms produced by theta-functions_, in _Modular Functions of One Variable VI_, Lecture Notes in Math. 627, Springer, 1977, 277&#8211;285.
+
+* {#Kudla78} [[Stephen Kudla]], _Theta functions and Hilbert modular forms_,Nagoya Math. J. 69 (1978) 97-106
+
+
+* {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
+
 
 
 ### In string theory
