@@ -24,7 +24,7 @@ $$(\mathbb{Z}/p)^\ast \cong C_{p-1} \to \{-1, 1\}$$
 
 whose [[kernel]] is the set of squares in the multiplicative group $(\mathbb{Z}/p)^\ast$, so that $\left(\frac{a}{p}\right) = 1$ means $a$ is a square modulo $p$, and $\left(\frac{a}{p}\right) = -1$ means $a$ is a non-square modulo $p$. 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem (Quadratic Reciprocity) 
 For $p$, $q$ distinct odd primes, 
 
@@ -76,7 +76,7 @@ $$S \coloneqq \sum_a \left(\frac{a}{p}\right) \zeta^a,$$
 
 where the sum is over non-zero elements $a$ of $\mathbb{Z}/p$. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma 
 $S^2 = \left(\frac{-1}{p}\right) p$. 
 =-- 
@@ -152,7 +152,7 @@ and by examining the cases $p \equiv 1, 3, 5, 7 \; mod \; 8$ separately, we easi
 
 The (in hindsight obvious!) structural meaning of the Legendre symbol was first given by [Zolotarev](#Zolotarev): 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma (Zolotarev) 
 For $p$ an odd prime and $a$ relatively prime to $p$, $\left(\frac{a}{p}\right)$ is the sign or [[signature of a permutation]] on $(\mathbb{Z}/p)^\ast$ given by multiplying by $a$. 
 =-- 
@@ -232,6 +232,9 @@ which completes the proof.
 
 As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first of a number of reciprocity laws in number theory. The Wikipedia article lists a bevy of reciprocity laws, gradually increasing in modernity and abstraction (and power), and culminating in [[Artin reciprocity]], a capstone of the classical [[class field theory]]. 
 
+## Related concepts
+
+* [Jacobi theta function -- Functional equation and Reciprocity](Jacobi+theta+function#FunctionalEquation)
 
 ## References 
 
@@ -240,8 +243,8 @@ As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first
 * Serge Lang, _Algebraic number theory_, Addison-Wesley (1970). 
 {#Lang}
 
-* C. F. Gauss, _Disquisitiones arithmeticae_ (1801), Article IV. 
-{#Gauss} 
+* {#Gauss} [[Carl Friedrich Gauss]], _Disquisitiones arithmeticae_ (1801), Article IV. 
+ 
 
 * E.I. Zolotareff, _Nouvelle d&#233;monstration de la loi de de r&#233;ciprocit&#233; de Legendre_, Nouvelles Annales de Math&#233;matiques. 2e s&#233;rie 11 (1872) 354&#8211;362. 
 {#Zolotarev} 
