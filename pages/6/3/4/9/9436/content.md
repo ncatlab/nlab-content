@@ -36,14 +36,14 @@ Let $G$ be a [[group]] with multiplication $\mu$.  Let us write ${|G|}$ for the 
 
 1. as a [[permutation representation]]: the action $G \times {|G|} \to {|G|}$ defined by $g \cdot h = \mu(g,h)$;
 
-1. as a [[linear representation]]: the corresponding representation on the [[linear span]] of G$$.
+1. as a [[linear representation]]: the corresponding representation on the [[linear span]] of $G$.
 
 The **right regular representation** is defined analogously.
 =--
 
 +-- {: .num_defn #algreg}
 ###### Definition
-Let $A$ be an [[algebra]] with multiplication $\mu$.  Let us write ${|A|}$ for the underlying module of $A$.  The **left regular representation** of $A$ is the action $A \otimes {|A|} \to {|A|}$ defined by $a \cdot m = \mu(a,m)$.
+Let $A$ be an [[associative unital algebra]] with multiplication $\mu$.  Let us write ${|A|}$ for the underlying module of $A$.  The **left regular representation** of $A$ is the action $A \otimes {|A|} \to {|A|}$ defined by $a \cdot m = \mu(a,m)$.
 
 The **right regular representation** is defined analogously.
 =--
