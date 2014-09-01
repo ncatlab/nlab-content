@@ -43,6 +43,15 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 ## Examples
  {#Examples}
 
+### Chevalley groups and Galois groups
+
+For the special case of [[fundamental groups]], the concept of &#233;tale homotopy groups also goes by the name of _[[Chevalley fundamental groups]]_.
+
+The &#233;tale fundamental group of a [[scheme]] is its [[absolute Galois group]]. See at _[Galois theory -- Statement of the main result](Galois+theory#StatementOfMainTheorem)_.
+
+
+### &#201;tale contractibility
+
 +-- {: .num_example}
 ###### Example
 
@@ -55,11 +64,13 @@ For $k$ a [[field]] of [[characteristic]] 0, then the [[affine line]] $\mathbb{A
 +-- {: .num_prop}
 ###### Proposition
 
+
 Let $k$ be an [[algebraically closed field]] of [[positive number|positive]] [[characteristic]]. Then the only [[smooth variety]] over $k$ which is &#233;tale [[contractible homotopy type|contractible]] is the point $Spec(k)$. In fact this is the only smooth variety which is [[n-connected object of an (infinity,1)-topos|2-connected]].
 
 =--
 
 ([HSS 13, theorem 1](#HSS13))
+
 
 ## Related concepts
 
