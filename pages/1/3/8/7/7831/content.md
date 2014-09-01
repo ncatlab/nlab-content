@@ -51,7 +51,7 @@ If the scheme, moreover, is a [[group scheme]] (i.e. endowed with a group struct
 
 ## Properties
 
-### Relation to &#233;tale fundamental goup
+### Relation to &#233;tale fundamental group
  {#RelationToEtaleFundamentalGroup}
 
 For $K$ a [[field]], then the absolute Galois group of $K$ is equivalent to the [[étale fundamental group]]/[[algebraic fundamental group]] of the [[spectrum of a commutative ring|spectrum]] of $K$.
