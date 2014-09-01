@@ -42,9 +42,14 @@ A paper on a closely related subject is
 
 * Feng-Wen An, _On the arithmetic fundamental groups_ ([arXiv:0910.0605](http://arxiv.org/abs/0910.0605))
 
+See also 
+
+* {#Kim08} [[Minhyong Kim]], _Fundamental groups and Diophantine geometry_, 2008 ([pdf](http://www.ucl.ac.uk/~ucahmki/leeds.pdf))
+
+* {#Kim09} [[Minhyong Kim]], _Galois theory and Diophantine geometry_, 2008 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
+
 
 [[!redirects algebraic fundamental groups]]
 
 [[!redirects arithmetic fundamental group]]
 [[!redirects arithmetic fundamental groups]]
-
