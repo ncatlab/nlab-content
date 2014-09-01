@@ -22,13 +22,13 @@ For [[fermion]] fields the analogous expressions are called _Dirac propagators_.
 
 From another perspective, the loop contributions of [[Feynman diagrams]] are typically would-be [[traces]] over inverse powers $H^{-n}$ of the relativistic particle [[Hamiltonian]].
 
-For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop term is 
+For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop vacuum [[scattering amplitude|amplitude]] is 
 
 $$
   \propto \int d^4 \mathbf{p} \; \frac{1}{\mathbf{p}^2 - m^2}
 $$
 
-where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Kleinert 11, 8.1](#Kleinert11)). 
+where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Grozin 05, section 2.1](#Grozin05) [Kleinert 11, 8.1](#Kleinert11)). 
 
 Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]] (also "analytic regularization/renormalization" [Speer 71](#Speer71)). Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
 
@@ -36,7 +36,9 @@ $$
   \zeta_H(s)\coloneqq Tr( H^{-s} )
 $$
 
-and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator. See ([BCEMZ 03, section 2.4.2](#BCEMZ03)).
+and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator. See ([BCEMZ 03, section 2.4.2](#BCEMZ03)). 
+
+For the example of the above basic Feynman propagator see e.g. [Grozin 05, section 2.1](#Grozin05)
 
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
@@ -50,6 +52,8 @@ Textbook accounts include
 
 Lecture notes include
 
+
+* {#Grozin05} Andrey Grozin, _Lectures on QED and QCD_ ([arXiv:hep-ph/0508242](http://arxiv.org/abs/hep-ph/0508242))
 
 * {#GFP} _Green functions and propagators_ ([[GreenFunctionsAndPropagators.pdf:file]])
 
