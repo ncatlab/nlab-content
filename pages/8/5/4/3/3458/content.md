@@ -88,6 +88,29 @@ harder going than the earlier ones, but the writing and structure of the book is
 
 Some researchers will probably feel that some of the exercises should have been worked out in detail, but given the starting assumptions of the authors, and the reasonably good set of references, there were bound to be such omissions.
 
+##Table of chapter titles.
+
+Introduction; 
+
+1. Classical Galois theory; 
+
+2. Galois theory of Grothendieck; 
+
+3. Infinitary Galois theory; 
+
+4. Categorical Galois theory of commutative rings; 
+
+5. Categorical Galois theorem and factorization systems; 
+
+6. Covering maps; 
+
+7. Non-Galoisian Galois theory; 
+
+Appendix; 
+
+Bibliography; 
+
+Index.
 
 ## References ##
 
