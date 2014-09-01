@@ -41,7 +41,7 @@ Reznikov has modified the dictionary ([Reznikov00](#Reznikov00)) so as to associ
 
 * Masanori Morishita 2012, _Knots and Primes: An Introduction to Arithmetic Topology_, Springer
 
-* {#Reznikov00} _Embedded incompressible surfaces and homology of ramified coverings of three-manifolds_, Selecta Math. 6(2000), 1&#8211;39
+* {#Reznikov00} Alexander Reznikov, _Embedded incompressible surfaces and homology of ramified coverings of three-manifolds_, Selecta Math. 6(2000), 1&#8211;39
 
 * {#Sikora} Adam Sikora, _Analogies between group actions on 3-manifolds and number fields_, ([arxiv](http://arxiv.org/abs/math/0107210))
 
