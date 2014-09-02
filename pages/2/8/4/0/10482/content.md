@@ -574,20 +574,20 @@ In summary this establishes a [[chain map]] $CE^\bullet \longrightarrow CE^\bull
 
 The internalization sign rule follows for instance from applying the construction of [[internalization|internal]] [[Grassmann algebras]] in the [[category]] of [[super vector space]] as discussed on p. 165 of
 
-* [[Pierre Deligne]], _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
+* {#Deligne90} [[Pierre Deligne]], _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
   (1990)
-  {#Deligne90}
+  
 
 The [[internalization]] into the [[topos]] over [[superpoints]] is due to 
 
-* [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
-  {#Schwarz84}
+* {#Schwarz84} [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+  
 
 
 Some instances of the resulting internal sign sule are listed in
 
-* [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
-   {#DeligneFreed99}
+* {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_, 1999 ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
+   
 
 which appears in
  
