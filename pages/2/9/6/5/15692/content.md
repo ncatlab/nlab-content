@@ -22,7 +22,7 @@ For [[fermion]] fields the analogous expressions are called _Dirac propagators_.
 
 From another perspective, the loop contributions of [[Feynman diagrams]] are typically would-be [[traces]] over inverse powers $H^{-n}$ of the relativistic particle [[Hamiltonian]].
 
-For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop vacuum [[scattering amplitude|amplitude]] is 
+For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop [[vacuum amplitude]] is the regularized trace over the Feynman propagator
 
 $$
   \propto \int d^4 \mathbf{p} \; \frac{1}{\mathbf{p}^2 - m^2}
@@ -71,6 +71,10 @@ and a comprehensive discussion is in ([BCEMZ 03, section 2](#BCEMZ03)).
 Discussion of zeta functions of Dirac operators in 2d includes
 
 * Michael McGuigan, _Riemann Hypothesis and Short Distance Fermionic Green's Functions_ ([arXiv:math-ph/0504035](http://arxiv.org/abs/math-ph/0504035))
+
+Lecture notes concerning 1-loop vacuum amplitudes for the [[string]] include
+
+* _The IIA/B superstring one-loop vacuum amplitude_ ([pdf](http://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset11.pdf))
 
 [[!redirects Feynman propagators]]
 
