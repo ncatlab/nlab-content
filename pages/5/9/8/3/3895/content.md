@@ -1,17 +1,42 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
 
-What is called _analytic torsion_ or _Ray-Singer torsion_ is an invariant of [[Riemannian manifolds]] which is an analytic analogue of the invariant of [[topological manifolds]] called [[Reidemeister torsion]]. It has been proved by Cheeger that the two agree for the compact Riemannian manifolds. 
+What is called _analytic torsion_ or _Ray-Singer torsion_ ([Ray-Singer 73](#RaySinger73)) is the invariant $T(X,g)$ of a [[Riemannian manifold]] $(X,g)$ given by a product of powers of the [[functional determinants]] $det_{reg} \Delta|_{\Omega^p}$ of the [[Laplace operators]] $\Delta|_{\Omega^p}$ on the manifold acting on the space of [[differential p-forms]]:
+
+$$
+  T(X,g)
+  \coloneqq
+  \underset{p}{\prod}
+  \left(det_{reg} \Delta|_{\Omega^p}\right)^{-(-1)^p \frac{p}{2}}
+  \,.
+$$
+
+
+This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invariant of [[topological manifolds]] called _[[Reidemeister torsion]]_. The two agree for the compact Riemannian manifolds ([Cheeger 77](#Cheeger77)).
 
 ## References
 
-* D. Ray, I. Singer, _Analytic torsion for complex manifolds_, Ann. Math. __98__, 1 (1973), 154--177.
+* {#RaySinger73} D. Ray, [[Isadore Singer]], _Analytic torsion for complex manifolds_, Ann. Math. __98__, 1 (1973), 154--177.
 
-* Jeff Cheeger, _Analytic torsion and Reidemeister torsion_, Proc. Natl. Acad. Sci. USA __74__, No. 7, pp. 2651-2654 (1977), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)
+* {#Cheeger77} [[Jeff Cheeger]], _Analytic torsion and Reidemeister torsion_, Proc. Natl. Acad. Sci. USA __74__, No. 7, pp. 2651-2654 (1977), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)
 
-* wikipedia [analytic torsion](http://en.wikipedia.org/wiki/Analytic_torsion)
+* Wikipedia, _[Analytic torsion](http://en.wikipedia.org/wiki/Analytic_torsion)_
+
+* A.A. Bytsenko, A.E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
+
 
 [[!redirects Ray-Singer torsion]]
