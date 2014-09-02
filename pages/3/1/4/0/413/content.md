@@ -62,7 +62,11 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 ## Related concepts
 
+* [[signs in supergeometry]]
+
 * [[picture changing operator]]
+
+* [[super Lie algebroid]]
 
 ## References
 
@@ -72,3 +76,4 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 [[!redirects super differential form]]
 
 [[!redirects superdifferential form]]
+[[!redirects superdifferential forms]]
