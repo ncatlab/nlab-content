@@ -19,9 +19,7 @@ Belgique, 41, (1989), 249 &#8211; 277.
 Appl. Alg., 86, (1993), 135 &#8211; 154.
 
 
-* J. Duskin, [A simplicial matrix approach to higher dimensional category theory I: nerves of 
-bicategories , Theory and Applications of Categories, 9, (2002), 198 &#8211; 308,](www. 
-tac.mta.ca/tac/volumes/9/n10/9-10abs.html).
+* John W. Duskin, A simplicial matrix approach to higher dimensional category theory I: nerves of bicategories , [Theory and Applications of Categories, 9, (2002), 198 &#8211; 308] (http://tac.mta.ca/tac/volumes/9/n10/9-10abs.html).
 
 * John W. Duskin, _Non-abelian cohomology in a topos_, [Reprints in Theory and Applications of Categories, No. 23 (2013) pp. 1-165](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html)
 
