@@ -63,6 +63,11 @@ For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dim
 
 * [[functional determinant]], [[zeta function of an elliptic differential operator]]
 
+* [[vacuum amplitude]], [[vacuum energy]]
+
+* [[Riemann hypothesis and physics]]
+
+
 [[!include genera and partition functions - table]]
 
 
