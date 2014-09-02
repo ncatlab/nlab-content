@@ -52,6 +52,7 @@ For that reason interest in Kaluza--Klein theories had decreased in the middle o
 
 One of the oldest studies of variations of the standard model is the investigation of [[GUT|grand unified theories]] (GUTs), which are [[Yang-Mills theory|Yang–Mills theories]] that instead of the standard model gauge group have a bigger gauge group which is however a [[simple group]].
 
+
 ### Noncommutative geometry
  {#NCGeometry}
 
@@ -74,6 +75,7 @@ A more drastic theoretical modifications to the standard model is proposed in th
 There are various other variations, too.
 
 
+
 ## Related concepts
 
 * [[Yang-Mills theory]]
@@ -84,6 +86,8 @@ There are various other variations, too.
 
 * [[Grand Unified Theory]]
 
+* [[gauge coupling unification]]
+
 * [[LHC]]
 
 * [[MSSM]]
@@ -93,6 +97,7 @@ There are various other variations, too.
 * [[phenomenology]], [[hierarchy problem]]
 
 * [[standard model of cosmology]]
+
 
 * [string theory FAQ -- Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
 
