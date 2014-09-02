@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.physics.ohio-state.edu/~raby/)
+
+## related $n$Lab entries
+
+* [[gauge coupling unification]]
+
+category: people
