@@ -45,6 +45,12 @@ More generally, the Mellin transform appears as a stage in the expression of [[z
 
 * Wikipedia, _[Mellin transform](http://en.wikipedia.org/wiki/Mellin_transform)_
 
+For the [[adelic integral]]-version see at _[[Iwasawa-Tate theory]]_.
+
+For [[function fields]]:
+
+* [[David Goss]], _A formal Mellin transform in the arithmetic of function fields_, Transactions of the AMS, volume 327, Number 2, October 1991 ([pdf](http://www.ams.org/journals/tran/1991-327-02/S0002-9947-1991-1041048-5/S0002-9947-1991-1041048-5.pdf))
+
 [[!redirects Mellin transforms]]
 
 [[!redirects Schwinger parameter]]
