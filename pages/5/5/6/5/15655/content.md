@@ -47,6 +47,8 @@ Analogies with the [[Feynman path integral]] are pointed out in ([Fesenko 06, se
 
 * [[Iwasawa-Tate theory]]
 
+* [[Mellin transform]]
+
 ## References
 
 The original articles are
@@ -54,6 +56,7 @@ The original articles are
 * {#Tate50} [[John Tate]], _[[Fourier analysis in number fields, and Hecke's zeta-functions]]_, Algebraic Number Theory (Proc. Instructional Conf., Brighton, 1965), Thompson, Washington, D.C., pp. 305&#8211;34 1950
 
 * {#Iwasawa52} {#Iwasawa92} [[Kenkichi Iwasawa]], _A note on functions_, Proc. ICM 1950, [link](http://www.mathunion.org/ICM/ICM1950.1) [MR0044534](http://www.ams.org/mathscinet-getitem?mr=0044534); _On the rings of valuation vectors_, Ann. Math. (II) 57:2 (Mar., 1953), pp. 331-356 [jstor](http://www.jstor.org/stable/1969863); Letter to [[Jean Dieudonne]] [link](http://books.google.com/books?ei=jyALTq-_L4nkiAL6zrHXAQ)
+
 
 
 The generalization to [[higher arithmetic geometry]] and hence to [[arithmetic zeta functions]] is due to
