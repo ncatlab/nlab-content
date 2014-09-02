@@ -46,6 +46,8 @@ In view of the [above](#OneLoopContributionAndZetaFunction) relation of 1-loop v
 
 * [[vacuum energy]]
 
+* [[Riemann hypothesis and physics]]
+
 ## References
 
 ### For particles
