@@ -72,6 +72,7 @@ where this [[convergence|converges]] and then extended by [[analytic continuatio
 (e.g. ([Duistermaat-Guillemin 75 (2.13)](#DuistermaatGuillemin75), [Berline-Getzler-Vergne 04, section 9.6](#BerlineGetzlerVergne04) ) ).
 
 ### Functional determinant and zeta-function regularization
+ {#FunctionalDeterminant}
 
 Notice that the first [[derivative]] $\zeta^\prime_H$ of this zeta function is, where the original series converges, given by
 
@@ -87,7 +88,7 @@ $$
 Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _[[functional determinant]]_ of $H$ is the exponential of the zeta function of $H$ at 0:
 
 $$
-  det H
+  det_{reg} H
   \coloneqq
   \exp(- \zeta_H^\prime(0))
   \,.
@@ -95,6 +96,14 @@ $$
 
 Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _[[zeta function regularization]]_.
 
+Conversely, the [[logarithm]]
+
+$$
+  Z \coloneqq - \frac{1}{2}\zeta_H^\prime(0) = log\,det_{reg} H
+$$
+
+is what is called the _[[vacuum energy]]_ in [[quantum field theory]] (for $H^{-1}$ the [[Feynman propagator]]).
+ 
 If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalues, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
 
 $$
