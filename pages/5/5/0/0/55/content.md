@@ -163,6 +163,7 @@ The fiberwiese linear dual of a Lie algebroid (regarded as a vector bundle) is n
 
 * [[Lie algebroid cohomology]]
 
+* [[super Lie algebroid]]
 
 ## References
 
