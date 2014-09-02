@@ -11,6 +11,8 @@ In analogy to how [[Artin reciprocity]] implies that to every 1-dimensional [[Ga
 
 ## Related concepts
 
+* [[Rankin-Selberg method]]
+
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
