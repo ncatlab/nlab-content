@@ -30,7 +30,6 @@ Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on 
 
 ## Examples
 
-
 +-- {: .num_prop}
 ###### Proposition
 
@@ -97,6 +96,13 @@ where the algebras appearing are precisely the four [[normed division algebras]]
 =--
 
 This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence]].
+
+## Properties
+
+### Relation to intersection pairing and Kervaire invariant
+ {#IntersectionPairing}
+
+On a framed manifold there is a canonical [[quadratic refinement]] of the [[intersection pairing]]. The associated invariant is the _[[Kervaire invariant]]_.
 
 ## Related concepts
 
