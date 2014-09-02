@@ -69,6 +69,8 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 
 * [[Veneziano amplitude]]
 
+* [[vacuum amplitude]]
+
 ## Related entries
 
 * [[scattering amplitude]]
