@@ -1,0 +1,14 @@
+
+
+## Related concepts
+
+* [[free field theory]]
+
+* [[vacuum energy]]
+
+## References
+
+* Wikipedia, _[Gaussian integral](http://en.wikipedia.org/wiki/Gaussian_integral)_
+
+[[!redirects Gaussian integrals]]
+
