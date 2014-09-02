@@ -49,6 +49,8 @@ In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is de
 ### For framed cobordisms
  {#ForFramed}
 
+#### Statement
+
 +-- {: .num_defn #FramedCobordismsNCat}
 ###### Definition
 
@@ -108,6 +110,11 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 
 =--
 
+#### Implications
+
+This implies that any $\infty$-groupoid of [[fully dualizable objects]] in an n-category carries a canonical  [[∞-action]] of the [[orthogonal group]] $O(n)$ (the underlying [[∞-group]]) given by the action of $O(n)$ on the $n$-framing of the point in $Bord_n^{fr}$.
+
+Examples... a) duality, b) Serre functor, c) [[orthogonal spectrum]]...
 
 
 ### For cobordisms with extra topological structure
