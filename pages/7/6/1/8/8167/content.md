@@ -23,6 +23,8 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ## Examples
 
+* [[gauge coupling unification]]
+
 * [[G2-MSSM]]
 
 * [[supersymmetry and Calabi-Yau manifolds]]
