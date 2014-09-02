@@ -45,7 +45,7 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 
 ## References
 
-Orhtogonal spectra were introduced in 
+Orthogonal spectra were introduced in 
 
 * [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], and [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998
 
