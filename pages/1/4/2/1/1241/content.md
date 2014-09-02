@@ -25,6 +25,11 @@ Since no GUT has been fully validated yet, GUTs are [[model (physics)|models]] "
 
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
+## Related concepts
+
+* [[gauge coupling unification]]
+
+* [[supersymmetry]]
 
 ## References 
 
