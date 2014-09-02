@@ -126,8 +126,13 @@ See at _[(∞,1)-category of (∞,1)-modules -- Compact generation](%28?%2C1%29-
 
 ### Properties
 
+### Trace
+
 Dualizable objects support a good abstract notion of [[trace]]. (...)
 
+### Relation to cobordism hypothesis
+
+Dualizable objects in an [[symmetric monoidal (∞,1)-category]] are already [[fully dualizable objects]]. The [[cobordism hypothesis]] implies that there is a canonical $O(1) \simeq \mathbb{Z}/2\mathbb{Z}$-action on the [[∞-groupoid]] of dualizable objects, and this is just the dualizing operation. See at _[cobordism hypothesis -- Framed version -- Implications: Canonical O(n)-action](cobordism+hypothesis#TheCanonicalOnAction)_.
 
 
 ## In a closed category
