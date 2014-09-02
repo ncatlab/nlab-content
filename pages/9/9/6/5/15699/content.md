@@ -18,17 +18,14 @@ $$
 
 A [[zeta function]]/[[L-function]] is the [[analytic continuation]] of the Mellin transform of the corresponding [[theta function]].
 
+In particular it sends the [[Jacobi theta function]] to the [[Riemann zeta function]].
+
+More generally, the Mellin transform appears as a stage in the expression of [[zeta functions]] as [[adelic integrals]] in [[Iwasawa-Tate theory]].
+
 ### 1-loop vacuum amplitudes
 
 [[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_.
 
-## Properties
-
-### Transform between theta functions and L-functions/zeta functions
-
-The _Mellin transform_ sends [[theta functions]] to [[L-functions]], hence (for trivial twist) to [[zeta functions]].
-
-In particular it sends the [[Jacobi theta function]] to the [[Riemann zeta function]].
 
 ## Examples
 
