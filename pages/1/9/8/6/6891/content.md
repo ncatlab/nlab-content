@@ -164,5 +164,9 @@ and page 9 of
 
 * Stephen Sawin, _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_ ([arXiv:math/9910106](http://arxiv.org/abs/math/9910106)).
 
+See also 
+
+* [[Greg Kuperberg]], _[MO comment](http://mathoverflow.net/a/4389/381)_ 
+
 [[!redirects 2-framing]]
 [[!redirects 2-framings]]
