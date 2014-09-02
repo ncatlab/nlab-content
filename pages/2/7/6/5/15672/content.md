@@ -24,7 +24,8 @@ The _Bost-Connes system_ ([Bost-Connes 95](#BostConnes95)) is the [[semigroup]] 
 
 The point is that the [[partition function]] of this system is the [[Riemann zeta function]] ([Bost-Connes 95, theorem 5 (c) (page 6)](#BostConnes95)). 
 
-[[Alain Connes]] has proposed that via this relation there might be a way to shed insight on the [[Riemann hypothesis]] using tools from [[quantum mechanics]] and [[statistical mechanics]] ([Connes-Marcolli 06](#ConnesMarcolli06)).
+[[Alain Connes]] has proposed that via this relation there might be a way to shed insight on the [[Riemann hypothesis]] using tools from [[quantum mechanics]] and [[statistical mechanics]] ([Connes-Marcolli 06](#ConnesMarcolli06)). See also at _[[Riemann hypothesis and physics]]_.
+
 
 ## References
 
