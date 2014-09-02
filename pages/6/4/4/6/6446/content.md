@@ -22,26 +22,37 @@ The o-minimality condition places a sharp restriction on which subsets of $R$ ca
 
 The archetypal example of an o-minimal structure is that of [[semi-algebraic set]]s defined over $\mathbb{R}$ (which form a structure due to the [[semialgebraic set|Tarski-Seidenberg theorem]]). 
 
-Quite remarkably, quite a lot can be said about the structure of definable sets in an o-minimal structure over $\mathbb{R}$, and this is a very active area of model theory. The notion of o-minimal structure has been proposed as a reasonable candidate for an axiomatic approach to Grothendieck's hoped-for "[[tame topology]]" ([_topologie mod&#233;r&#233;e_]). 
+Remarkably, quite a lot can be said about the structure of definable sets in an o-minimal structure over $\mathbb{R}$, and this is a very active area of model theory. The notion of o-minimal structure has been proposed as a reasonable candidate for an axiomatic approach to Grothendieck's hoped-for "[[tame topology]]" ( _topologie mod&#233;r&#233;e_ ). 
 
 ## O-minimal theories
 
 A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure. 
 
+## Links
+
+* wikipedia [o-minimal theory](http://en.wikipedia.org/wiki/O-minimal_theory)
+
 ## References 
+
+* Michel Coste, _An Introduction to O-Minimal Geometry_ , Lecture notes Pisa 1999. ([pdf](http://perso.univ-rennes1.fr/michel.coste/polyens/OMIN.pdf))
+
+* [[Lou van den Dries]], _Exponential rings, exponential polynomials and exponential functions_ , Pacific Journal of Mathematics **113** no.1 (1984) pp.51&#8211;66. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.pjm/1102709376))
 
 * Lou van den Dries, _Tame topology and O-minimal structures_, London Math. Soc. Lecture Notes Series 248, Cambridge U. Press 1998. 
 
 * [[Alexandre Grothendieck]], _Esquisse d'un Programme_, section 5. English translation available in Geometric Galois Actions I (edited by L. Schneps and P. Lochak), LMS Lecture Notes Ser. 242, CUP 1997. 
 
-* wikipedia [o-minimal theory](http://en.wikipedia.org/wiki/O-minimal_theory)
-* Alessandro Berarducci, _Definable groups in o-minimal structures_, [pdf](http://www.dm.unipi.it/~dinasso/marian2004/berarducci.pdf); _Cohomology of groups in o-minimal structures: acyclicity of the infinitesimal subgroup_, J. Symbolic Logic __74__:3 (2009), 891-900, [MR2548466](http://www.ams.org/mathscinet-getitem?mr=2548466), [euclid](http://projecteuclid.org/euclid.jsl/1245158089), [doi](http://dx.doi.org/10.2178/jsl/1245158089), _O-minimal spectra, infinitesimal subgroups and cohomology_, J. Symbolic Logic __72__ (2007), no. 4, pp. 1177--1193, [MR2371198](http://www.ams.org/mathscinet-getitem?mr=2371198), [euclid](http://projecteuclid.org/euclid.jsl/1203350779 ), [doi](http://dx.doi.org/10.2178/jsl/1203350779)
+* Alessandro Berarducci, _Definable groups in o-minimal structures_, [pdf](http://www.dm.unipi.it/~dinasso/marian2004/berarducci.pdf); _Cohomology of groups in o-minimal structures: acyclicity of the infinitesimal subgroup_, J. Symbolic Logic __74__:3 (2009), 891-900, [MR2548466](http://www.ams.org/mathscinet-getitem?mr=2548466), [euclid](http://projecteuclid.org/euclid.jsl/1245158089), [doi](http://dx.doi.org/10.2178/jsl/1245158089).
+
+* Alessandro Berarducci, _O-minimal spectra, infinitesimal subgroups and cohomology_, J. Symbolic Logic __72__ (2007), no. 4, pp. 1177--1193, [MR2371198](http://www.ams.org/mathscinet-getitem?mr=2371198), [euclid](http://projecteuclid.org/euclid.jsl/1203350779 ), [doi](http://dx.doi.org/10.2178/jsl/1203350779).
 
 * M. Edmundo, G. O. Jones, N. J. Peatfield, _Sheaf cohomology in o-minimal structures_, J. Math. Logic __6__ (2006), no. 2, pp. 163--179, [MR2317425](http://www.ams.org/mathscinet-getitem?mr=2317425), [doi](http://dx.doi.org/10.1142/S0219061306000566)
+
 * Mario J. Edmundo, Luca Prelli, _Invariance of o-minimal cohomology with definably compact supports_, [arxiv/1205.6124](http://arxiv.org/abs/1205.6124)
+
 * Olivier Le Gal, Jean-Philippe Rolin, _An o-minimal structure which does not admit $C^{\infty }$ cellular decomposition_, Annales de l'institut Fourier __59__:2 (2009), p. 543-562, [MR2521427](http://www.ams.org/mathscinet-getitem?mr=2521427) [Zbl 1193.03065](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1193.03065) [numdam](http://www.numdam.org/item?id=AIF_2009__59_2_543_0)
 
-[[!redirects o-minimal structure]]
+[[!redirects O-minimal structure]]
 [[!redirects o-minimal structures]]
 [[!redirects order-minimal structure]]
 [[!redirects order-minimal structures]]
