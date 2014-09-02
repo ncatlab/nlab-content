@@ -129,11 +129,14 @@ vector fields and flows)
 
 * [[fiber integration]], [[fiber integration in differential cohomology]]
 
+* [[Gaussian integral]]
+
 * [[Lie integration]]
 
 * [[geometric integration theory]]
 
 * [[cohomological integration]]
+
 
 * [[adelic integration]]
 
