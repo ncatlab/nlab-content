@@ -20,17 +20,17 @@ The aim of _Homological Perturbation Theory_ is to construct small [[chain compl
 
 ## Homological perturbation lemma
 
-Let $(X,d), (Y,d)$ be chain complexes over a ring $R$ and let $f: X \to Y, \nabla: Y \to X$ be chain maps, and $\Phi: X \to X$ a [[chain homotopy]] such that 
+Let $(X,d), (Y,d)$ be [[chain complexes]] over a [[commutative ring]] $R$ and let $f: X \to Y, \nabla: Y \to X$ be [[chain maps]], and $\Phi: X \to X$ be a [[chain homotopy]] such that 
 
 $$ f \nabla=1, \quad \nabla f= 1 + d\Phi + \phi d, $$ 
 
  $$ f\Phi = 0, \Phi \nabla=0, \Phi^2=0, \Phi d \Phi= - \Phi. $$
 
-Let $X,Y$ have filtrations $F^*$ bounded below by $0$ and preserved by $\nabla,f, \Phi$ and the differentials on $X,Y$. Suppose $X$ has another differential $d^\tau$ with the property that 
+Let $X,Y$ have [[filtrations]] $F^*$ bounded below by $0$ and preserved by $\nabla,f, \Phi$ and the [[differentials]] on $X,Y$. Suppose $X$ has another differential $d^\tau$ with the property that 
 
 $$ (d^\tau -d)F^p X \subseteq F^{p-1} X $$ 
 
-for all $p \geq 0$. The **Homological Perturbation Lemma** states that $Y$ can be given a new differential $d^\tau$ such that there is a chain equivalence $(Y, d^\tau) \to (X, d^\tau)$. 
+for all $p \geq 0$. The **Homological Perturbation Lemma** states that $Y$ can be given a new differential $d^\tau$ such that there is a [[quasi-isomorphism]] $(Y, d^\tau) \to (X, d^\tau)$. 
 
 The main point is that there is an explicit formula for the new chain homotopy as 
 
@@ -52,23 +52,26 @@ Homological perturbation theory is a key tool in the construction of [[BRST-BV c
 
 ## References
 
-### General
-
-The homological perturbation lemma is discussed in 
+Review includes
 
 * [[Marius Crainic]], _On the perturbation lemma, and deformations_ ([arXiv:math/0403266](http://arxiv.org/abs/math/0403266))
 
-Notes from an introductory survey talk are in 
-
 * [[Johannes Huebschmann]], _A survey on homological perturbation theory_ ([pdf](http://math.univ-lille1.fr/~huebschm/data/talks/courant.pdf))
+
 
 Other references include
 
 * [[Ronnie Brown]], _The twisted Eilenberg-Zilber Theorem_,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio. ([pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf))
 
-* Donald W. Barnes, (5-SYD-PM); [[Larry Lambe|Larry A. Lambe]], (5-SYD-PM)
-A fixed point approach to homological perturbation theory.
+* {#BarnesLambe91} Donald W. Barnes, [[Larry Lambe|Larry A. Lambe]], 
+_A fixed point approach to homological perturbation theory_
 Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
+
+For applications to  "make computable" a bicategory of isolated hypersurface singularities and matrix factorisations comp that has been studied in the context of [[topological field theory]], using the formulation in ([Barnes-Lambe 91](#BarnesLambe91))  is in 
+
+* [[Daniel Murfet]], _Computing with cut systems_, ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
+
+See also _[[linear logic]]_.
 
 
 Discussion with an eye towards [[Hochschild cohomology]] and [[cyclic cohomology]] is in
@@ -79,18 +82,13 @@ Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](ht
 
 * V. &#193;lvarez ,  J.A. Armario ,  P. Real ,  B. Silva , _Homological Perturbation Theory And Computability Of Hochschild And Cyclic Homologies Of Cdgas_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.6955))
 
-### For BV-formalism 
+
 
 Discussion in the context of [[BV-quantization]] is in section 2.5 of 
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
 
-### For applications to  "make computable" a bicategory 
-
-of isolated hypersurface singularities and matrix factorisations comp that has been studied in the context of [[topological field theory]], using the Barnes-Lambe formulation,  see: 
-
-* Daniel Murfet, Computing with cut systems, arXiv:1402.4541
 
 
 
