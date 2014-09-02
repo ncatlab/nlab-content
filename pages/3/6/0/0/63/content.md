@@ -284,8 +284,14 @@ A canonical textbook reference on the BRST complex is (chapter 8 of)
 
 Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
 
-* [[Edward Witten]], _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
+* [[Edward Witten]], _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey,  [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
+
+Discussion of the BRST complex for the [[superstring]] (hence with the corresponding [[Lie algebroid]] being actually a [[super Lie algebroid]]) is for instance in 
+
+* [[José Figueroa-O'Farrill]], Takashi Kimura, _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys.
+Volume 124, Number 1 (1989), 105-132. ([Euclid](http://projecteuclid.org/euclid.cmp/1104179078))
+
+* [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
 
 The perspective on the BRST complex as a formal dual to a space in [[dg-geometry]] is relatively clearly stated in section 2 of
 
