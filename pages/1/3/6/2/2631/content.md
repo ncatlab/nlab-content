@@ -1,4 +1,10 @@
-This entry is about the generating functions in the sense of algebraic combinatorics. For another notion see [[generating function in classical mechanics]]. 
+> This entry is about the generating functions in the sense of algebraic combinatorics. For another notion see [[generating function in classical mechanics]]. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _generating function_ is an element of $R[\![z]\!]$, the [[rig]] of formal [[power series]] over the rig $R$ (which is often taken to be the [[natural numbers]] or the [[rational number]]s), used for purposes of [[combinatorics]].  A general element takes the form
 \[f(z) = \sum_{n=0}^{\infty}f_n z^n.\]
@@ -25,8 +31,15 @@ The product of two Dirichlet generating functions gives
 \[ \left(\sum_{n=1}^{\infty}f_n n^{-s}\right)\left(\sum_{n=1}^{\infty}g_n n^{-s}\right) = \sum_{n=1}^{\infty} \sum_{d|n} f_d g_{n/d} n^{-s},\]
 which effectively says to _factor_ the term into two dimensions, apply $f$ to the first and $g$ to the second.
 
-Generating functions often appear as [[partition functions]].
-
 Sometimes we take the *exponents* on $z$ to be in a rig other than the natural numbers.  For example, we might set $z^a \cdot z^b = z^{\max(a,b)}$ and $(z^a)^b = z^{a+b};$ such a system lets us talk about the [[rig of costs|cost]] of operations done in parallel (max) or sequentially (+).  Similarly, we could take the exponents to be [[binary string]]s when considering instantaneous codes, or [[finite field]] elements when considering structures on a finite collection of objects.
 
-[[[!redirects generating functions]]
+
+## Examples
+
+In [[quantum field theory]] generating functions often appear as [[partition functions]] and [[vacuum amplitudes]] as founcions of [[source fields]].
+
+
+[[!redirects generating functions]]
+
+[[!redirects generating functional]]
+[[!redirects generating functionals]]
