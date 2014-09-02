@@ -41,6 +41,7 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[vacuum expectation value]], [[vacuum fluctuation]]
 
+* [[vacuum amplitude]]
 
 * [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
 
