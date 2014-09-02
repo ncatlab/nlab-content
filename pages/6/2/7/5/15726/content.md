@@ -13,6 +13,10 @@
 
 * L. van den Dries, _Exponential rings, exponential polynomials and exponential functions_ , Pacific Journal of Mathematics **113** no.1 (1984) pp.51&#8211;66. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.pjm/1102709376))
 
+* L. van den Dries, _A Generalization of the Tarski-Seidenberg
+Theorem and Some Nondefinability Results_ , Bull. Am. Math. Soc.
+**15** (1986) pp.189-193. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183553469))
+
 * L. van den Dries, _Tame Topology and O-minimal Structures_ , Cambridge UP 1998.
 
 * [[F. William Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM vol. 1488 (1991).
