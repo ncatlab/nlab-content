@@ -113,7 +113,7 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 #### Implications -- The canonical $O(n)$-∞-action
  {#TheCanonicalOnAction}
 
-One of the striking consequences of theorem \ref{CobordismHypothesisFramedVersion} is that implies that 
+One of the striking consequences of theorem \ref{CobordismHypothesisFramedVersion} is that it implies that 
 
 +-- {: .num_cor #CanonicalOnAction}
 ###### Corollary
@@ -121,7 +121,7 @@ One of the striking consequences of theorem \ref{CobordismHypothesisFramedVersio
 Every [[∞-groupoid]] 
 
 $$
-  \mathcal{C}^{fd} \hookrrightarrow \mathcal{C}
+  \mathcal{C}^{fd} \hookrightarrow \mathcal{C}
 $$ 
 
 of [[fully dualizable objects]] in a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}$ carries a canonical [[∞-action]] of (the [[∞-group]] structure on the [[homotopy type]] of) the [[orthogonal group]] $O(n)$, induced by the action of $O(n)$ on the [[framed manifold|n-framing]] of the point in $Bord_n^{fr}$.
@@ -133,9 +133,9 @@ of [[fully dualizable objects]] in a [[symmetric monoidal (∞,n)-category]] $\m
 +-- {: .num_example #ExamplesOfTheCanonicalOnActions}
 ###### Example
 
-The action in corollry \ref{CanonicalOnAction} is
+The action in corollary \ref{CanonicalOnAction} is
 
-* for $n =1$: the $O(1) = \mathbb{Z}/2\mathbb{Z}$ action action given by passing to [[dual objects]];
+* for $n = 1$: the $O(1) = \mathbb{Z}/2\mathbb{Z}$ action action given by passing to [[dual objects]];
 
 * for $n = 2$ the $O(2)$-action the _[[Serre automorphism]]_.
 
@@ -143,7 +143,7 @@ The action in corollry \ref{CanonicalOnAction} is
 
 =--
 
-([Lurie, examples 2.4.12, 2.4.14. 2-4-15](#Lurie))
+([Lurie, examples 2.4.12, 2.4.14. 2.4.15](#Lurie))
 
 
 ### For cobordisms with extra topological structure
