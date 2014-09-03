@@ -70,6 +70,8 @@ $$
 
 * [[E-∞ arithmetic geometry]]
 
+* [[arithmetic topology]]
+
 ## References
 
 Textbook accounts include
