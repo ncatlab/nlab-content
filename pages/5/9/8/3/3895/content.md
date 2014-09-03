@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called _analytic torsion_ or _Ray-Singer torsion_ ([Ray-Singer 73](#RaySinger73)) is the invariant $T(X,g)$ of a [[Riemannian manifold]] $(X,g)$ given by a product of powers of the [[functional determinants]] $det_{reg} \Delta|_{\Omega^p}$ of the [[Laplace operators]] $\Delta|_{\Omega^p}$ on the manifold acting on the space of [[differential p-forms]]:
+What is called _analytic torsion_ or _Ray-Singer torsion_ ([Ray-Singer 73](#RaySinger73)) is the invariant $T(X,g)$ of a [[Riemannian manifold]] $(X,g)$ given by a product of powers of the [[functional determinants]] $det_{reg} \Delta|_{\Omega^p}$ of the [[Laplace operators]] $\Delta|_{\Omega^p}$ of the manifold acting on the space of [[differential p-forms]]:
 
 $$
   T(X,g)
@@ -27,6 +27,12 @@ $$
 
 
 This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invariant of [[topological manifolds]] called _[[Reidemeister torsion]]_. The two agree for the compact Riemannian manifolds ([Cheeger 77](#Cheeger77)).
+
+## Properties
+
+### Relation to Iwasawa theory
+
+According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwaswa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
 
 ## References
 
