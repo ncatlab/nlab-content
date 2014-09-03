@@ -634,6 +634,25 @@ $$
 
 that are associative up to a higher coherent morphisms, etc.
 
+### For reductive algebraic groups
+ {#ForReductiveAlgebraicGroups}
+
+For [[reductive algebraic group]] $G$ there is no sensible element in $H^3(\mathbf{B}G, \mathbb{G}_m)$, but there is the following.
+
+Write $K_2(R)$ for the degree-2 [[algebraic K-theory]] [[group]] of a [[commutative ring]]  (e.g. [Isely 05, section 4](algebraic+K-theory#Isely05)) and write $\mathbf{K}_2$ for corresponding [[abelian sheaf]] on the suitable [[etale site]] (e.g. [Deligne-Brylinski 01, page 6](#DeligneBrylinski01)).
+
+Then
+
+$$
+  H^4(B G_{\mathbb{C}}, \mathbb{Z})
+  \simeq
+  H^2(\mathbf{B}G, \mathbf{K}_2)
+$$
+
+This is ([HKLV 98, theorem 4.11](#HKLV98)) also ([Deligne-Brylinski 01](#DeligneBrylinski01)), going back to ([Bloch 80](#Bloch80)). See also ([Kapranov 00, (2.1)](#Kapranov00)).
+
+* [MO discussion](http://mathoverflow.net/a/24862/381)
+
 ## Related concepts
 
 * The [[higher parallel transport]] of a Chern-Simons circle 3-bundle is the [[action functional]] for [[Chern-Simons theory]].
@@ -705,6 +724,21 @@ Discussion in [[complex analytic geometry]] of multiplicative Chern-Simons [[hol
 
 * {#Brylinski00} [[Jean-Luc Brylinski]], _Gerbes on complex reductive Lie groups_ ([arXiv:math/0002158](http://arxiv.org/abs/math/0002158))
 
+### For reductive algebraic groups
+
+For the case of [[reductive algebraic groups]]:
+
+* {#Bloch80} [[Spencer Bloch]], _The dilogarithm and extensions of Lie algebras_, Algebraic K-Theory Evanston 1980 Lecture Notes in Mathematics Volume 854, 1981, pp 1-23 ([publisher](http://link.springer.com/chapter/10.1007%2FBFb0089515))
+
+
+* {#HKLV98} [[Hélène Esnault]], [[Bruno Kahn]], [[Marc Levine]], [[Eckart Viehweg]], _The Arason invariant and mod 2 algebraic cycles_,  J. Amer. Math. Soc. 11 (1998), 73-118  ([pdf](https://www.uni-due.de/~bm0032/publ/Arason.pdf),[publisher page](http://www.ams.org/journals/jams/1998-11-01/S0894-0347-98-00248-3/))
+
+* {#Kapranov00} [[Mikhail Kapranov]], _The elliptic curve in the S-duality theory and Eisenstein series for Kac-Moody groups_ ([arXiv.math/0001005](http://arxiv.org/abs/math/0001005))
+
+* {#DeligneBrylinski01} [[Pierre Deligne]], [[Jean-Luc Brylinski]], _Central extensions of reductive groups by $K_2$_, Publications Math&#233;matiques de l'IH&#201;S 2001 ([web](http://publications.ias.edu/node/424))
+
+
+* [MO discussion](http://mathoverflow.net/a/24862/381)
 
 [[!redirects Chern-Simons bundle 2-gerbe]]
 
