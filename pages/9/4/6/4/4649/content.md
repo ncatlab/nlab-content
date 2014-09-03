@@ -45,6 +45,8 @@ The concept of reductive is not quite the same for [[Lie groups]] as it is for [
 
 * [[relation between compact Lie groups and reductive algebraic groups]]
 
+* [[Friedlander-Milnor isomorphism conjecture]]
+
 ## References
 
 Review includes
