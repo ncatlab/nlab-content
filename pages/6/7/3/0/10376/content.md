@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the context of [[classical mechanics]], a _classical anomaly_ is a  [[central extension]] of a [[Noether current]] algebra. ([Toppan 01](#Toppan01)).
+In the context of [[classical mechanics]], a _classical anomaly_ is a  [[central extension]] of a [[Noether current]] algebra (e.g. [Toppan 01](#Toppan01)).
 
 ## Definition
 
@@ -82,9 +82,12 @@ See also
 
 * [[Glenn Barnich]], C&#233;dric Troessaert, _Comments on holographic current algebras and asymptotically flat four dimensional spacetimes at null infinity_ ([arXiv:1309.0794](http://arxiv.org/abs/1309.0794))
 
-Discussion in terms of [[Heisenberg group]] extensions is in 
+Discussion in terms of [[Heisenberg group]] [[group extensions|extensions]] and generalization to [[higher symplectic geometry]] is in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
-  {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  
+Discussion in the context of formalization of [[classical field theory]] in [[cohesive homotopy theory]] is in 
+
+* [[Urs Schreiber]], section 2.14 of _[[schreiber:Classical field theory via Cohesive homotopy types]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/classicalinhigher.pdf))
 
 [[!redirects classical anomalies]]
