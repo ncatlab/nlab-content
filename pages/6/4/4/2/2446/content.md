@@ -1,8 +1,19 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
 
-#Idea#
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
 
 The ordinary [[Euclidean group]] of $\mathbb{R}^n$ is the group generated from the rigid translation action of $\mathbb{R}^n$ on itself and rotations about the origin.
 
@@ -10,7 +21,7 @@ The _super Euclidean group_ is analogously the [[supergroup]] of translations an
 
 Its [[super Lie algebra]] should be the [[super Poincare Lie algebra]] (up to the signature of the metric).
 
-#Details#
+## Details
 
 > **incomplete** for the moment, to be finished off tomorrow
 
@@ -126,7 +137,7 @@ But if $d = 0,1,2$ and $\delta = 1$ then there is a _unique_ such triple with no
 
 The structure of a  **[[Euclidean supermanifold]]** on a $(d|\delta)$-dimensional [[supermanifold]] $Y$ is a $(V \times \Pi \Delta^*, End(V, \Delta^*, \Gamma))$-structure. See there for details.
 
-#Examples#
+## Examples
 
 
 recall the [[Clifford algebra]] table:
@@ -228,3 +239,11 @@ $$
   (z_1 + z_2, \bar z_1 + \bar z_2 + \theta_1 \theta_2, \theta_1 + \theta_2)  
 $$
 
+
+## Related concepts
+
+* [[Euclidean group]]
+
+* [[Lorentz group]], [[Poincare group]]
+
+* [[super Poincaré group ]]
