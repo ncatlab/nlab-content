@@ -198,6 +198,10 @@ Original articles include
 * [[Daniel Quillen]], _Higher algebraic K-theory_, in Higher K-theories, pp. 85&#8211;147, Proc. Seattle 1972, Lec. Notes Math. 341, Springer 1973.
 A reference for classical constructions is
 
+For [[complex varieties]]:
+
+* {#PedriniWeibel01} Claudio Pedrini, [[Charles Weibel]],  _The higher K-theory of complex varieties_, K-theory 21 (2001), 367-385 ([web](http://www.math.uiuc.edu/K-theory/0403/))
+
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
 
 * {#Cohen} [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0908/0908.1938v2.pdf))
