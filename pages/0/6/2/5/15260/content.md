@@ -29,6 +29,7 @@ The concept of [[line n-bundle]] in [[algebraic geometry]], classified by maps i
 * for $n =2$ these are [[algebraic line 2-bundles]], classified by [[Brauer group]], modulated by [[Brauer stack]]
 
 ## Properties
+ {#Properties}
 
 According to ([Grothendieck 64, prop. 1.4](#Grothendieck64)) for $X$ a [[Noetherian scheme]] whose [[local rings]] have strict [[Henselian ring|Henselisations]] that are factorial (...explain...) then the [[cohomology groups]]
 
@@ -44,7 +45,13 @@ are all [[torsion groups]] for $n \geq 2$. (For $n = 2$ this is the [[Brauer gro
 
 ## References
 
+* {#Grothendieck58} [[Alexander Grothendieck]], _Torsion homologique et sections rationnelles_, S&#233;minaire Claude Chevalley, 3 (1958), Exp. No. 5, 29 p. ([Numdam](http://www.numdam.org/item?id=SCC_1958__3__A5_0))
+
 * {#Grothendieck64} [[Alexander Grothendieck]], _Le groupe de Brauer : II. Th&#233;ories cohomologiques_. S&#233;minaire Bourbaki, 9 (1964-1966), Exp. No. 297, 21 p. ([Numdam](http://www.numdam.org/item?id=SB_1964-1966__9__287_0))
+
+
 
 [[!redirects algebraic line n-bundles]]
 
+[[!redirects algebraic line 2-bundle]]
+[[!redirects algebraic line 2-bundles]]
