@@ -23,7 +23,7 @@ where the following axioms are listed:
 
 (iv) the unit $Id_{\mathcal{A}''}\to i^! i_*$ and the counit $i^* i_*\to Id_{\mathcal{A}'}$ are iso
 
-(v) the functor $i_*:\mathcal{A}'\to Ker(j_*)$ is an equivalence of categories.
+(v) the functor $i_*:\mathcal{A}'\to Ker(j^*)$ is an equivalence of categories.
 
 In fact (i) and (ii) for $j^*:\mathcal{A}\to\mathcal{A}''$ enable one to define $\mathcal{A}'$ as the full subcategory of $\mathcal{A}$ whose objects $a$ satisfy $j^* a = 0$ such that one satisfies the recollement situation. 
 
