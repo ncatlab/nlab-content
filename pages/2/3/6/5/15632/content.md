@@ -52,11 +52,22 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 
 > If we divest smooth spaces of all global cohesion, keeping only the jets (on which the Thom-Mather singularities depend), we obtain a category in which every connected component of any object has exactly one point, so that the natural map between those functors is an isomorphism.  Lawvere (2004, p.108)
 
+
 * Kan complexes over $Set$ (...)
 
 * Galois theory - presheaves on the opposite of the category of finite-dimensional local k-algebras (Lawvere 2004) (...)
 
-* First example of quality type over topos of reflexive graphs (...)
+### The topos of $\mathbb{F}_1$-actions
+
+Lawvere's work on the petit-gros topos distinction started with the examination of two toposes of graphs ([Lawvere 1986](#Law86)). The first one of _irreflexive graphs_ is given by the presheaf topos of actions of the small diagram category $E\rightrightarrows V$ on $Set$ and is an [[étendue]] hence petit. 
+
+Whereas the second one of _reflexive graphs_ is given by the actions of the [[graphic monoid]] $\Delta _1=\{1,\partial_0,\partial_1\}$ with $\partial_i\partial_j=\partial_i$ for $i,j=0,1$. $\Delta _1$ is [[Morita equivalence|Morita equivalent]] to the diagram category $E\stackrel{\leftrightarrows}{\leftarrow} V$ and consists entirely of [[idempotents]]. Its topos of actions is gros and when taken over $FinSet$ satisfies the axioms for a (sufficiently) [[cohesive topos]]. The 'abelianization' of $\Delta _1$ is $\mathbb{F}_1=\{0,1\}$, the multiplicative monoid with a generic (nontrivial) idempotent $0$ which incidentally is also the [[blueprint]] for the [[field with one element]].
+
+As observed in ([Lawvere 1989](#Law89), p.277) $\mathcal{S}^{\mathbb{F}_1^{op}}$ is a quality type over $\mathcal{S}$. It was probably the first one to arise and its status of being neither petit nor gros being commented on.
+
+The surjective homomorphism $q:\Delta_1\to\mathbb{F}_1$ induces an adjoint string $q_!\dashv q^*\dashv q_*:\mathcal{S}^{\Delta_1^{op}}\to\mathcal{S}^{\mathbb{F}_1^{op}}$ with $q_*$ discarding all non-loops in a reflexive graph.
+
+For details how the [[zeta function]] arises via the Burnside ring of $\mathcal{S}^{\mathbb{F}_1^{op}}$ in this context see ([Lawvere 1989](#Law89), pp.291-292).
 
 ## Properties
 
@@ -91,7 +102,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
-* [[F. W. Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
+* {#Law86} [[F. W. Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
 
 * {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
