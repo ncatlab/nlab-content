@@ -28,7 +28,8 @@ The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each
 ## The dictionary
 
 ### Version of Mazur-Kapranov-Reznikov
-
+ {#VersionOfMKR}
+ 
 1. Closed, orientable, connected 3-manifolds correspond to schemes
 $Spec \mathcal{O}_K$ for number fields $K$.
 1. Links correspond to ideals in $\mathcal{O}_K$ and knots correspond to prime ideals (tame in both cases). Knots can be represented by immersions of $S^1$ into $M$, and prime ideals in $\mathcal{O}_K$ can be identified with closed immersions $Spec \mathbb{F} \to Spec \mathcal{O}_K$, where $\mathbb{F}$'s are finite fields. Each link decomposes uniquely as a union of knots and each ideal decomposes uniquely as a product of primes.
