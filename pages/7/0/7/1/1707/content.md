@@ -930,6 +930,9 @@ A corrected definition of topological group cohomology has been given by Segal
 * [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
 9(2):48{50, (1975).
 
+For [[reductive algebraic groups]]:
+
+* {#HKLV98} [[Hélène Esnault]], [[Bruno Kahn]], [[Marc Levine]], [[Eckart Viehweg]], _The Arason invariant and mod 2 algebraic cycles_,  J. Amer. Math. Soc. 11 (1998), 73-118  ([pdf](https://www.uni-due.de/~bm0032/publ/Arason.pdf),[publisher page](http://www.ams.org/journals/jams/1998-11-01/S0894-0347-98-00248-3/))
 
 
 ### On various topological groups
