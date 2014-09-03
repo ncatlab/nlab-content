@@ -40,11 +40,27 @@ $$
 
 This $\widehat G$ is the [[Heisenberg group]] of the given $G$-action (See also [Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13) for discssion in [[higher prequantum geometry]]).
 
+Notice that on the infinitesimal level of [[Lie algebras]], using that thet Lie algebra of the [[quantomorphism group]] is the [[Poisson Lie algebra]] $\mathfrak{pois}(X,\omega)$, this means that an infinitesimal action of a Lie algebra $\mathfrak{g}$ via [[Hamiltonian vector fields]] on $X$ has a classical anomaly if it lifts to an action with consistently chosen [[Hamiltonians]] -- also called a [[moment map]] -- only after passing to a central [[Lie algebra extension]]
+
+$$
+  \array{
+     \widehat \mathfrak{g} &\longrightarrow& \mathfrak{pois}(X,\omega)
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathfrak{g} &\stackrel{}{\longrightarrow}& \Gamma(T X)_{\omega}
+  }
+  \,.
+$$
+
+
 ## Related concepts
 
 * [[quantum anomaly]]
 
 * [[fiber bundles in physics]]
+
+[[!include geometric quantization extensions - table]]
 
 ## References
 
