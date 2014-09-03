@@ -25,7 +25,7 @@ In the context of [[classical mechanics]], a _classical anomaly_ is a  [[central
 
 In terms of [[symplectic geometry]] this means the following ([Arnold 78, appendix 5.A](#Arnold78)). Given a [[Lie group]] $G$ acting by [[symplectomorphisms]] on a [[phase space]] [[symplectic manifold]] $(X,\omega)$, this [[symmetry]] has a _classical anomaly_ if it does not lift to a genuine $G$-[[Hamiltonian action]], but only to a [[projective representation|projective]] $G$-[[Hamiltonian action]], hence to a [[Hamiltonian action]] of a [[central extension]] $\widehat G$ of $G$. Specifically, the _classical anomaly_ of the original symplectic $G$-action is the 2-[[cocycle]] which classifies this extension.
 
-If the original $G$-action is by [[flows]] of  [[Hamiltonian vector fields]] (just not with explcitly chosen [[Hamiltonians]]), then there is a  universal classical anomaly given by the [[pullback]] of the [[quantomorphism group]] [[extension]] 
+If the original $G$-action is by [[flows]] of  [[Hamiltonian vector fields]] (just not with explicitly chosen [[Hamiltonians]]), then there is a  universal classical anomaly given by the [[pullback]] of the [[quantomorphism group]] [[extension]] 
 
 $$
   \array{
@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-This $\widehat G$ is the [[Heisenberg group]] of the given $G$-action (See also [Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13) for discssion in [[higher prequantum geometry]]).
+This $\widehat G$ is the [[Heisenberg group]] of the given $G$-action (See also [Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13) for discussion in [[higher prequantum geometry]]).
 
 Notice that on the infinitesimal level of [[Lie algebras]], using that thet Lie algebra of the [[quantomorphism group]] is the [[Poisson Lie algebra]] $\mathfrak{pois}(X,\omega)$, this means that an infinitesimal action of a Lie algebra $\mathfrak{g}$ via [[Hamiltonian vector fields]] on $X$ has a classical anomaly if it lifts to an action with consistently chosen [[Hamiltonians]] -- also called a [[moment map]] -- only after passing to a central [[Lie algebra extension]]
 
