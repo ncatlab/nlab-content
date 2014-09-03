@@ -102,6 +102,7 @@ $$
 ## Properties
 
 ### Relation to bounding 4-manifolds
+ {#RelationToBounding4Manifolds}
 
 In ([Atiyah](#Atiyah1990)) it is shown how a framing on a compact connected oriented 3-manifold $X$ is induced a 4-manifold $Z$ with [[boundary]] $\partial Z \simeq X$. In fact, a framing is equivalently a choice of [[cobordism]] class of bounding 4-manifolds ([Kerler](#Kerler)).
 
