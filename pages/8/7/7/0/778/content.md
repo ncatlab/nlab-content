@@ -94,6 +94,8 @@ is that of $k$-linear [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
 
 * [[stable (infinity,1)-category]]
 
+* [[Waldhausen K-theory of a dg-category]]
+
 ## References
 
 *  A. I. Bondal, [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
@@ -116,13 +118,13 @@ Compos. Math. 143 (2007), no. 5, 1335--1358.
 
 * [[Gonçalo Tabuada]], _Invariants additifs de DG-cat&#233;gories_, Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.; Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
 
-* G. Tabuada, _Homotopy theory of DG categories_, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
+* [[Goncalo Tabuada]], _Homotopy theory of DG categories_, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
 
 * G. Tabuada, _Homotopy theory of dg categories via localizing pairs and Drinfeld's dg quotient_, Homology, homotopy and applications __12__  (2010), No. 1, pp.187-219, [files](http://www.intlpress.com/HHA/v12/n1/a11).  
 
 * A. I. Bondal, M. Larsen, V. A. Lunts, _Grothendieck ring of pretriangulated categories_ (<a href="http://front.math.ucdavis.edu/0401.5009">arXiv</a>)
 
-* Oren Ben-Bassat, [[Jonathan Block]], _Cohesive DG categories I: Milnor descent_, [arxiv/1201.6118](http://arxiv.org/abs/1201.6118)
+* [[Oren Ben-Bassat]], [[Jonathan Block]], _Cohesive DG categories I: Milnor descent_, [arxiv/1201.6118](http://arxiv.org/abs/1201.6118)
 
 The relation to [[stable (infinity,1)-categories]] is discussed in
 
