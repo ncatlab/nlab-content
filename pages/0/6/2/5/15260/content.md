@@ -39,6 +39,8 @@ $$
 
 are all [[torsion groups]] for $n \geq 2$. (For $n = 2$ this is the [[Brauer group]].) See also [this MO discussion](http://mathoverflow.net/q/171638/381).
 
+See also at _[[Friedlander-Milnor isomorphism conjecture]]_.
+
 ## Related concepts
 
 * [[holomorphic line n-bundle]]
