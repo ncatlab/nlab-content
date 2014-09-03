@@ -32,7 +32,7 @@ This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invaria
 
 ### Relation to Iwasawa theory
 
-According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwaswa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
+According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwasawa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
 
 ## References
 
