@@ -73,9 +73,9 @@ it inherits a Hopf algebroid structure.
 
 ### Anti Yetter-Drinfeld modules
 
-There is a similar notion of anti Yetter-Drinfeld module (there is no
-difference if the antipode equals its own inverse). Kaygun and Khalkhali (and in a wider context, Brzezi&#324;ski) have shown how Yetter-Drinfeld and anti Yetter-Drinfeld modules can be viewed as comodules (over a coring) with flat connection. The self-dual anti Yetter-Drinfeld modules play role of coefficients 
-for Hopf-cyclic homology. In particular, they have application in study of [[foliation]]s. 
+The most general coefficients for Hopf cyclic cohomology is called stable-anti-Yetter-Drinfled modules. These kind of modules appeared for the first time  in  different name  in B. Rangipour's PhD thesis under supervision of M. Khalkhali. Later on it was generalized by 
+P.M. Hajac, M. Khalkhali, B. Rangipour, and Y. Sommerhaeuser. The category of AYD modules is not monodical but product of an AYD module   with a YD module results in an AYD module.  By the work of Rangipour-Sutlu one knows that there is such category over Lie algebras and there is a one-to-one correspondence between AYD modules over a Lie algebra and those over the universal enveloping algebra of the Lie algebra. This correspondence is extended by the same authors for bicrossed product Hopf algebras. 
+The true  meaning of the AYD modules in non commutative geometry is not known yet. There are some  attempts by   A. Kaygun-M. Khalkhali to relate them to the curvature of flat  connections similar to the work of T. Brzezi&#324;ski on YD modules, however their identification   are not restricted to AYD and  works for a wide variety of YD type modules. 
 
 ### Literature
 
