@@ -1,6 +1,6 @@
 
 
-**higher and integrated [[Kostant-Souriau extensions]]**
+**higher and integrated [[Kostant-Souriau extensions]]**:
 
 ([[∞-group extension]] of [[∞-group of bisections]] of [[higher Atiyah groupoid]] for $\mathbb{G}$-[[principal ∞-connection]])
 
