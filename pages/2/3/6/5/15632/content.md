@@ -36,9 +36,9 @@ A primary example for that kind of deferred analysis is the study of [[topologic
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in ([Johnstone 1996](#JS96)).
 
-In typical (topos) cases these come in the form of [[adjoint modalities|adjoint cylinders]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[section|section functor]] coincide (="collapse"): $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for the domain space of the functors that  every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces**[^Inf] in ([Lawvere 2008](#Law08)).
+In typical (topos) cases these come in the form of [[adjoint modalities|adjoint cylinders]] $\Pi\dashv\Delta\dashv\Gamma$ (with $\Delta$ [[fully faithful functor|fully faithful]]) such that the [[connected components]] and the [[global section|global sections functor]] coincide (="collapse"): $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]). This implies for spaces in the domain of the functors that every connected component contains exactly one point. Spaces with this property are called **infinitesimal spaces**[^Inf] in ([Lawvere 2008](#Law08)).
 
-Hence from a more _geometrical point of view_, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' or 'coarse' points which in turn can be viewed as a minimal vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion.[^GoC] (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
+Hence from a more _geometrical point of view_, an object in a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' or 'coarse' points which in turn can be viewed as a minimal vestige of cohesion: when a set is a space with no cohesion, an object in a quality type is a space with _almost_ no cohesion.[^GoC] (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
 Quality types together with the _continuity axiom_ are an essential ingredient to Lawvere's [2007 axioms](#Law07) for geometry. ([Lawvere 2008](#Law08)) points to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
@@ -70,6 +70,8 @@ Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful fu
 * [[cohesive topos]]
 
 * [[infinitesimal cohesive (infinity,1)-topos]]
+
+* [[ambidextrous adjunction]]
 
 * [[Nullstellensatz]]
 
@@ -107,9 +109,9 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#Law08} [[F. W. Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
 
-* {#Menni14a} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , ms. (2014). ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
+* {#Menni14a} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
-* {#Menni14b} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
+* {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , ms. (2014). ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
 
 * {#PRW89} [[Robert Paré|R. Paré]], [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood , _Idempotents in Bicategories_ , Bull.Austr.Math.Soc. **39** (1989) pp.421-434.
@@ -119,4 +121,4 @@ In a complementary direction, _[[homotopy type theory]]_ provides a synthetic fo
 
 [^Inf]: A motivation for this terminology from [[synthetic differential geometry|SDG]] can be found in an intriguing remark in ([Lawvere 1991](Law91a), pp.9-10) in the context of his _theory of dimension_. See also at [[infinitesimal cohesion]].
 
-[^GoC]: From another perspective, one could view a quality type as a set with germs of cohesion.
+[^GoC]: From another perspective, one could view an object in a quality type as a set with _germs of cohesion_.
