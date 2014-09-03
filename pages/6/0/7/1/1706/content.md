@@ -104,7 +104,7 @@ The proof is based on
 
 1. the [[Galatius-Madsen-Tillmann-Weiss theorem]],  which characterizes the [[geometric realization]] $|Bord_n^{or}|$ in terms of the [[suspension]] of the [[Thom spectrum]];
 
-1. Igusas connectivity result which he uses to show that putting "framed [[Morse function]]s" on cobrdisms doesn't change their [[homotopy type]] (theorem 3.4.7, page 73)
+1. Igusa's connectivity result which he uses to show that putting "framed [[Morse function]]s" on cobordisms doesn't change their [[homotopy type]] (theorem 3.4.7, page 73)
 
 In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of Lurie's result.
 
