@@ -33,6 +33,8 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 ## References
 
+The concept is originally due to [[Felix Berezin]].
+
 An exposition of the standard lore is here: 
 
 * [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
@@ -42,4 +44,9 @@ A general abstract discussion in terms of [[D-module]] theory is in
 * [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
 
 
+[[!redirects Berezin integrals]]
+
 [[!redirects Berezinian integral]]
+[[!redirects Berezinian integrals]]
+
+[[!redirects Berezin integration]]
