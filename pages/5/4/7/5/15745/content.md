@@ -1,3 +1,4 @@
+[[!redirects Galilelan group]]
 
 
 ## Related concepts
