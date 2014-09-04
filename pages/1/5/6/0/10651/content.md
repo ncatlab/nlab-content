@@ -224,6 +224,8 @@ reviewed in
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
 
+* {#Goncharov04} [[Alexander Goncharov]], _Regulators_, Algebraic K-theory Handbook ([arXiv:0407308](http://arxiv.org/abs/math/0407308))
+
 A discussion of the Beilinson regulator on $K_2$ in terms of [[bundle gerbes]] is in
 
 * {#Brylinski94} [[Jean-Luc Brylinski]], _Holomorphic gerbes and the Beilinson regulator_, Ast&#233;risque 226 (1994): 145-174 ([[Brylinski94.pdf:file]])
