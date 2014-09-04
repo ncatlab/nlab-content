@@ -58,6 +58,29 @@ See at
 * [[Waldhausen S-construction]]
 
 
+### As the K-theory of algebraic vector bundles
+ {#AsTheKTheoryOfAlgebraicVectorBundles}
+
+Regard the [[stack]] $\mathbf{Vect}^\oplus$ of [[algebraic vector bundles]]
+on the gros [[Zariski site]] as taking values in [[symmetric monoidal (∞,1)-categories]], via the [[direct sum]] of vector bundles. Then applying the [[K-theory of a symmetric monoidal (∞,1)-category]]-construction $\mathcal{K}$ to this yields a [[sheaf of spectra]], in fact of [[E-∞ rings]]
+
+$$
+  \mathbf{K} \coloneqq \mathcal{K}(\mathbf{Vect}^\oplus)
+  \in CRing(Stab(Sh_\infty(ArithmeticSchemes)))
+  \,.
+$$
+
+This is the higher algebraic K-theory spectrum, in that for $X$ a [[scheme]], then the [[homotopy groups]] of $\mathbf{K}(X)$ are the higher algebraic K-theory groups of the scheme $X$
+
+$$
+  K(X)^\bullet = \pi_{-\bullet}(\mathbf{K}(X))
+  \,.
+$$
+
+In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]].
+
+For more on this see at _[[differential algebraic K-theory]]_ .
+
 ### Via stable $(\infty,1)$-categories
 
 There is a universal characterization of the construction of the K-theory spectrum $K(A)$ of a stable $(\infty,1)$-category $A$:
@@ -79,15 +102,7 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]].
 
 See ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)).
 
-### Via symmetric monoidal $(\infty,1)$-categories
 
-See at 
-
-* [[K-theory of a permutative category]]
-
-* [[K-theory of a bipermutative category]]
-
-* [[K-theory of a symmetric monoidal (∞,1)-category]]
 
 ## Properties
 
@@ -193,7 +208,7 @@ Further review includes
 
 Original articles include
 
-* [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
+* {#ThomasonTrobaugh90} [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
 
 * [[Daniel Quillen]], _Higher algebraic K-theory_, in Higher K-theories, pp. 85&#8211;147, Proc. Seattle 1972, Lec. Notes Math. 341, Springer 1973.
 A reference for classical constructions is
@@ -231,6 +246,10 @@ The perspective of [[algebraic K-theory of a symmetric monoidal (∞,1)-category
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 2.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
 
 * {#Nikolaus13} [[Thomas Nikolaus]] _Algebraic K-Theory of $\infty$-Operads_ ([arXiv:1303.2198](http://arxiv.org/abs/1303.2198))
+
+
+* {#BunkeTamme13} [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_ ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421))
+
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], def. 6.1 in  _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
