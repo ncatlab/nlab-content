@@ -1,3 +1,4 @@
+[[!redirects universal Chern-Simons circle 3-bundle]]
 [[!redirects Chern-Simons circle 3-bundle]]
 
 
@@ -56,7 +57,9 @@ where on the left we have the [[groupoid]] of smooth $G$-principal bundles with 
 
 ## Constructions
 
-### In Cech-Deligne cohomology {#InCechDelineCohomology}
+### In differential geometry -- For Lie groups
+
+#### In Cech-Deligne cohomology {#InCechDelineCohomology}
 
 In ([Brylinski-McLaughlin I](#GeomConstructionFirst)) is spelled out an explicit constructin of $\hat c(\nabla)$ for given $\nabla$ in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. This is a special case of the general construction presented in ([Brylinski-McLaughlin II](#CechCocyclesForCharClasses)).
 
@@ -120,7 +123,7 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
   (this can be done because $\pi_2(G) = 0$).
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The [[Cech cohomology]] cocycle with coefficients in $\mathbf{B}^3 \mathbb{R}/\mathbb{Z}$ which is given by
@@ -173,7 +176,7 @@ So the only mystery about this construction is really: where does it come from? 
 
 
 
-### In $\infty$-Chern-Weil theory {#InInfChernWeil}
+#### In $\infty$-Chern-Weil theory {#InInfChernWeil}
 
 The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understood as a special case of the general construction of Chern-Weil homomorphism by the methods discussed at [[∞-Chern-Weil theory]]. 
 
@@ -264,7 +267,7 @@ For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\lang
 First consider the bare cocycle for the Chern-Simons circle 3-bundle as the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of the cocycle </a> $\mu$.
 
 
-+-- {: .un_def }
++-- {: .num_def }
 ###### Definition
 
 Consider the [[simplicial presheaf]]
@@ -280,7 +283,7 @@ where here and in the following differential forms $\omega$ on simplices are tak
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The canonical map 
@@ -302,7 +305,7 @@ Use that a $\mathfrak{g}$-valued 1-form on the interval is canonically identifie
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 There is a commuting diagram
@@ -356,7 +359,7 @@ and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphi
 We shall by slight abuse of notation write $\exp(\mu)$ also for the morphism $\mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$.
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Observation
 
 For $\{U_i \to X\}$ a [[cover]] and $C(U) \in [CartSp^{op}, sSet]_{proj}$ the corresponding [[Cech nerve]] we have that
@@ -379,7 +382,7 @@ For $\{U_i \to X\}$ a [[cover]] and $C(U) \in [CartSp^{op}, sSet]_{proj}$ the co
 
 =--
 
-+-- {: .un_def }
++-- {: .num_def }
 ###### Definition
 
 Write $\exp(\mathfrak{g})_{diff}$ for the [[simplicial presheaf]]
@@ -405,7 +408,7 @@ $$
 
 Its 3-[[coskeleton]] $\mathbf{cosk}_3 \exp(\mathfrak{g} \to inn(\mathfrak{g}))$ is the coefficient for $G$-principal bundles with [[pseudo-connection]] adapted to the model $\mathbf{cosk}_3 \exp(\mathfrak{g})$ for $\mathbf{B}G$.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 Pseudo-connections $\hat \nabla$
@@ -472,7 +475,7 @@ Similarly there are differential equations on 2-simplices and 3-simplices with u
 =--
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Observation
 
 Pasting postcomposition with the diagram
@@ -507,7 +510,7 @@ that covers the corresponding diagram we had before.
 
 Here we are using the object $\mathbf{B}^3 U(1)_{ch,diff}$ described in detail at [[circle n-bundle with connection]].
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The deeper reason for this construction is that the zig-zag comosite 
@@ -533,7 +536,7 @@ in the [[(∞,1)-topos]] [[?LieGrpd]].
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The outer composite morphism
@@ -598,7 +601,7 @@ that is described in some detail at <a href="http://ncatlab.org/nlab/show/circle
 
 
 
-### As a bundle 2-gerbe
+#### As a bundle 2-gerbe
 
 We indicate (for the moment) the way the Chern-Simons 3-bundle is realized as a [[bundle 2-gerbe]] (for instance in [CJMS](#CJMS) and [Waldorf CS](#WaldorfCS)) .
 
@@ -634,7 +637,12 @@ $$
 
 that are associative up to a higher coherent morphisms, etc.
 
-### For reductive algebraic groups
+
+### In complex analytic geometry -- For complex Lie groups
+
+(...) ([Brylinski 00](#Brylinski00)) (...)
+
+### In arithmetic geometry -- For reductive groups
  {#ForReductiveAlgebraicGroups}
 
 For [[reductive algebraic group]] $G$ there is no sensible element in $H^3(\mathbf{B}G, \mathbb{G}_m)$, but there is the following.
@@ -649,9 +657,14 @@ $$
   H^2(\mathbf{B}G, \mathbf{K}_2)
 $$
 
-This is ([HKLV 98, theorem 4.11](#HKLV98)) also ([Deligne-Brylinski 01](#DeligneBrylinski01)), going back to ([Bloch 80](#Bloch80)). See also ([Kapranov 00, (2.1)](#Kapranov00)).
+This is ([HKLV 98, theorem 4.11](#HKLV98)) also ([Deligne-Brylinski 01](#DeligneBrylinski01)), going back to ([Bloch 80](#Bloch80)). See also ([Kapranov 00, (2.1)](#Kapranov00), [MO discussion](http://mathoverflow.net/a/24862/381)).
 
-* [MO discussion](http://mathoverflow.net/a/24862/381)
+Notice that over $\mathbb{C}$ the [[Beilinson regulator]] $c_{1,2}$ (e.g. [Brylinski 94, theore, 3.3](#Brylinski94)) relates
+
+$$
+  H^1(X, \mathbf{K}_2) \longrightarrow H^2(X, \mathbb{G}_m)
+  \,.
+$$
 
 ## Related concepts
 
@@ -675,19 +688,21 @@ The CS 3-bundle 3-connection is the [[extended Lagrangian]] for ordinary $G$-[[C
 
 ## References
 
-### The Cech-Deligne cohomology realization
+### For Lie groups
+
+#### The Cech-Deligne cohomology realization
 
 As cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] the Chern-Simons 2-gerbe has been constructed explicitly in 
 
-* [[Jean-Luc Brylinski]] and Dennis McLaughlin, _A geometric construction of the first Pontryagin class_ (1993) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf))
-{#GeomConstructionFirst}
+* {#GeomConstructionFirst} [[Jean-Luc Brylinski]] and Dennis McLaughlin, _A geometric construction of the first Pontryagin class_ (1993) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf))
+
 
 as a special case of the general construction in 
 
 * [[Jean-Luc Brylinski]] and Dennis McLaughlin, _Cech cocycles for characteristic classes_ ,  Communications in Mathematical Phiysics, Volume 178, Number 1, ([Springer](http://www.springerlink.com/content/762g1m76jp6425x5/))
 {#CechCocyclesForCharClasses}
 
-### The 2-gerbe realization {#2GerbeReferences}
+#### The 2-gerbe realization {#2GerbeReferences}
 
 Conceived as a genuine [[gerbe]] the Chern-Simons 2-gerbe appears in
 
@@ -718,11 +733,19 @@ Exposition of this and further developments are in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
 
+
+### For complex reductive groups
+
 Discussion in [[complex analytic geometry]] of multiplicative Chern-Simons [[holomorphic line 2-bundles]] is in 
 
 * [[Jean-Luc Brylinski]], around theorem 5.4.10 (p. 226-227) of _Loop spaces and characteristic classes_, Birkh&#228;user
 
 * {#Brylinski00} [[Jean-Luc Brylinski]], _Gerbes on complex reductive Lie groups_ ([arXiv:math/0002158](http://arxiv.org/abs/math/0002158))
+
+The relevant [[Beilinson regulator]] is discussed also in
+
+* {#Brylinski94} [[Jean-Luc Brylinski]], _Holomorphic gerbes and the Beilinson regulator_, Ast&#233;risque 226 (1994): 145-174 ([[Brylinski94.pdf:file]])
+
 
 ### For reductive algebraic groups
 
