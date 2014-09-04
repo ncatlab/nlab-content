@@ -48,6 +48,12 @@ In the following we discuss the case for ordinary categories, for the higher ord
 
 Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful functor]] $q^*:\mathcal{S}\to\mathcal{F}$ is said to exhibit $\mathcal{F}$ as a **quality type** over $\mathcal{S}$ if $q^*$ has both a left and a right adjoint which moreover coincide: $q_!\dashv q^*\dashv q_*$ and $q_!\cong q_*$.
 
+Let $\mathcal{E}$ be a (pre)cohesive category over $\mathcal{S}$ and $q^*:\mathcal{S}\to\mathcal{F}$ a quality type over $\mathcal{S}$. A functor $s:\mathcal{E}\to\mathcal{F}$ is called an **intensive quality** on $\mathcal{E}$ if $s$ preserves finite products and finite coproducts and $q_*\circ s =p_*$.
+
+Dually, a finite coproduct preserving functor $h:\mathcal{E}\to\mathcal{F}$ with $q_!\circ h=p_!$ is called an **extensive quality** on $\mathcal{E}$.
+
+Intuitively, an intensive quality is compatible with the points of its domain spaces and an extensive quality with the connected components.
+
 ## Examples
 
 > If we divest smooth spaces of all global cohesion, keeping only the jets (on which the Thom-Mather singularities depend), we obtain a category in which every connected component of any object has exactly one point, so that the natural map between those functors is an isomorphism.  Lawvere (2004, p.108)
