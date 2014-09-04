@@ -28,8 +28,9 @@ $$
 
 This kind of line bundle is often referred to as the _Deligne line bundle_, following ([Deligne 91](#Deligne91)).
 
-The universal version of this is the Deligne bundle on $\mathbb{G}_m \times \mathbb{G}_m$ with $f$ and $g$ the [[projection]] onto the first and onto the second factor, respectively (e.g. [Brylinski 00, p. 15](#Brylinski00)).
+They were originally motivated and used in a geometric construction of the [[Beilinson regulartor]] $c_{2,2}$, see at _[Beilinson regulator -- Geometic construction](higher+regulator#GeometricConstruction)_.
 
+The universal version of this is the Deligne bundle on $\mathbb{G}_m \times \mathbb{G}_m$ with $f$ and $g$ the [[projection]] onto the first and onto the second factor, respectively (e.g. [Brylinski 00, p. 15](#Brylinski00)).
 
 ## References
 
@@ -42,3 +43,6 @@ Review in the general context of [[Deligne cohomology]] is in
 Review in the context of [[holomorphic line 2-bundles]] and [[Chern-Simons line 3-bundles]] is in
 
 * {#Brylinski00} [[Jean-Luc Brylinski]], p. 15 of _Gerbes on complex reductive Lie groups_ ([arXiv:math/0002158](http://arxiv.org/abs/math/0002158))
+
+
+[[!redirects Deligne line bundles]]
