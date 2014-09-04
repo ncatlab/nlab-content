@@ -57,7 +57,13 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 * [[cluster decomposition]]
 
+## References
+
+* _[[schreiber:Local prequantum field theory]]_
+
 [[!redirects local quantum field theories]]
+
+
 
 [[!redirects local field theory]]
 [[!redirects local field theories]]
