@@ -7,7 +7,7 @@
 
 The __Gersten resolution__  or _Gersten complex_ is certain [[exact sequence]] of  [[abelian sheaves]] on a [[Zariski site]], used for the computation of higher [[algebraic K-theory]] groups. One way of deriving it is from a [[spectral sequence]] related to the study of motivic sheaves.
 
-The exactness of the Gersten complex for [[affine scheme|affine]] [[regular scheme|regular]], equicharacteristic schemss with infinite residue field) is also known as the _[[Gersten conjecture]]_ (see e.g. [Kerz 08, p. 4](#Kerz08)).
+The exactness of the Gersten complex for [[affine scheme|affine]] [[regular scheme|regular]], equicharacteristic excellent local rings with infinite residue field (or the like) is also known as the _[[Gersten conjecture]]_ (see e.g. [Kerz 08, p. 4](#Kerz08)).
 
 
 ## References
