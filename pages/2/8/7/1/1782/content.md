@@ -159,8 +159,9 @@ Concrete examples of interest include for instance
 
 * the category of locally free sheaves over a scheme, 
 
+* [[Gersten resolution]]
 
-* [[Milnor's K2]]([[Steinberg group]],[[universal central extension]])
+* [[Milnor's K2]] ([[Steinberg group]], [[universal central extension]])
 
 * [[higher algebraic K-theory]] [[Quillen exact category]], [[Quillen's Q-construction]], [[Waldhausen S-construction]], [[Volodin spaces]];
 
