@@ -29,7 +29,7 @@ A [[dualizable object]] in a [[symmetric monoidal (∞,n)-category]] is called *
 
 ## Properties
 
-By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s out of the [[(∞,n)-category of cobordisms]]s are characterized by their value on the point, which is a fully dualizable object.
+By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s out of the [[(∞,n)-category of cobordisms]] are characterized by their value on the point, which is a fully dualizable object.
 
 ## Examples
 
