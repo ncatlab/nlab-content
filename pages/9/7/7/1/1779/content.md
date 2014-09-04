@@ -21,7 +21,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-In a [[category]] $C$ with [[pullbacks]] (possibly [[homotopy pullbacks]]), given a [[morphism]] $U \to X$ in $C$ its corresponding **&#268;ech nerve** $C(U)$ is the [[simplicial object]] in $C$ that in degree $k$ is given by the $k$-fold [[fiber product]] of $U$ over $X$ with itself :
+In a [[category]] $C$ with [[pullbacks]] (possibly [[homotopy pullbacks]]), given a [[morphism]] $U \to X$ in $C$ its corresponding **&#268;ech nerve** $C(U)$ is the [[simplicial object]] in $C$ that in degree $k$ is given by the $(k+1)$-fold [[fiber product]] of $U$ over $X$ with itself :
 
 $$
   C(U) \coloneqq
