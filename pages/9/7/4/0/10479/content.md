@@ -113,7 +113,8 @@ While $\Omega^\bullet \simeq \Omega^\bullet_{\mathbb{Z}}$, below we use the chai
 
 =--
 
-### Algebraic K-theory of schemes
+### Algebraic K-theory sheaf of spectra
+ {#AlgebraicKTheorySheafOfSpectra}
 
 Write 
 
@@ -129,6 +130,7 @@ $$
   K \coloneqq \mathcal{K}(\mathbf{Vect}_{lc}^{\oplus})
 $$
 
+for the stackification of the objectwise [[K-theory of a symmetric monoidal (∞,1)-category]]-construction.
 
 This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
 
