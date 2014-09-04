@@ -143,13 +143,13 @@ is given by sending pairs of non-vanising [[holomorphic functions]] to the [[hol
 Moreover, the regulator 
 
 $$
-  c_{2,1} \colon K_1(X) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
+  c_{1,2} \colon K_1(X) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
 $$
 
 or rather its component
 
 $$
-  c_{2,1} \colon H^1(X, \mathbf{K}_2) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
+  c_{1,2} \colon H^1(X, \mathbf{K}_2) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
 $$
 
 is given by sending functions constituing a [[cocycle]] in the relevant [[Gersten complex]] to a [[bundle gerbe]] whose transition line bundles are [[Deligne line bundles]] built from these functions ([Brylinski 94, theorem 3.3](#Brylinski94)).
