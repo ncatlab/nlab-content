@@ -117,7 +117,7 @@ For more on this see the respective sections at _[[relation between type theory 
 
 ## References
 
-Some of the text above is adapted from the entry _[[homotopytheory:universe]]_ at the [[homotopytypetheory:HomePage|homotopy type theory web]].
+Some of the text above is adapted from the entry _[[homotopytypetheory:universe]]_ at the [[homotopytypetheory:HomePage|homotopy type theory web]].
 
 Basic discussion of the syntax of type universes is in 
 
