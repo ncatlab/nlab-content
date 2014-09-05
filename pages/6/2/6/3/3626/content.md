@@ -213,6 +213,8 @@ and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/14
 
 See also
 
+* B. Fauser, _Some Graphical Aspects of Frobenius Structures_ ,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
+
 * [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 {#Lack2004}
 
