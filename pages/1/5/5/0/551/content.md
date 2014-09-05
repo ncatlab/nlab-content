@@ -15,7 +15,7 @@ An object $X$ of a [[coherent category]] $\mathcal{C}$ is called _decidable_ if 
 
 * $0$ and $1$ are always decidable, and so is every [[natural numbers object]] $N$ in a topos. A subobject of a decidable object is decidable.
 
-* Decidable maps $f:A\to B$ in the opposite of the category of commutative rings $CommRing^{op}$ are precisely the separable $B$-algebras $A$.
+* Decidable maps $f:A\to B$ in the opposite of the category of commutative rings $CommRing^{op}$ are precisely the [[separable algebra|separable]] $B$-algebras $A$.
 
 * Of course, in a [[Boolean category]], every object is decidable. Conversely in a [[topos]] $\mathcal{E}$, or more generally a coherent category with a [[subobject classifier]], every object is decidable precisely if $\mathcal{E}$ is Boolean.
 
@@ -32,6 +32,8 @@ An object $X$ of a [[coherent category]] $\mathcal{C}$ is called _decidable_ if 
 * [[locally decidable topos]]
 
 * [[finite object]]
+
+* [[separable algebra]]
 
 ##References
 
