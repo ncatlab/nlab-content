@@ -16,4 +16,6 @@ In mathematics it is introduced by [[Boris Feigin]].
 
 * A. Sevostyanov. Semi-infinite cohomology and Hecke algebras. Advances Math. 159, n.1, p. 83&#8211;141, 2001, [math.RA/0004139](http://arxiv.org/abs/math.RA/0004139)
 
+* Boris Feigin, Edward Frenkel, _Semi-infinite Weil complex and the Virasoro algebra_, Comm. Math. Phys. __137__:3 (1991), 617-639 [euclid](http://projecteuclid.org/euclid.cmp/1104202744)
+
 [[!redirects semi-infinite cohomology]]
