@@ -64,15 +64,15 @@ Reznikov has modified the dictionary ([Reznikov 00, section 12](#Reznikov00)) so
 
 ##Explanations for the analogy
 
-[[Barry Mazur]] observed that for an affine spectrum $X = Spec(D)$ of the ring of integers $D$ in a number field, the groups $H^n_{et}(X, \mathbb{G}_m)$ vanish (up to 2-torsion) for $n \gt 3$, and is equal to $\mathbb{Q}/\mathbb{Z}$ for $n = 3$.
+[[Barry Mazur]] observed that for an affine spectrum $X = Spec(D)$ of the ring of integers $D$ in a number field, the groups $H^n_{et}(X, \mathbb{G}_{m, X})$ vanish (up to 2-torsion) for $n \gt 3$, and is equal to $\mathbb{Q}/\mathbb{Z}$ for $n = 3$, where $\mathbb{G}_{m, X}$ is the &#233;tale sheaf on $X$ defined by associating to a connected finite &#233;tale covering $Spec(B) \to X$ the multiplicative group $\mathbb{G}_{m, X}(Y) = B^{\times}$.
 
-Also, there is a non-degenerate pairing 
+Also, there is a non-degenerate pairing for any constructible abelian sheaf $M$,
 
 $$
-H^r_{et}(X,F) \times Ext^{3-r}_X(F,\mathbb{G}_m) \to H^3_{et}(X,\mathbb{G}_m)\simeq \mathbb{Q}/\mathbb{Z}.
+H^r_{et}(X,M^{'}) \times Ext^{3-r}_X(M,\mathbb{G}_{m, X}) \to H^3_{et}(X,\mathbb{G}_{m, X})\simeq \mathbb{Q}/\mathbb{Z},
 $$
 
-for any constructible abelian sheaf $F$. This resembles Poincar&#233; duality for 3-manifolds.
+where $M^{'} = Hom(M, \mathbb{G}_{m, X})$. This resembles Poincar&#233; duality for 3-manifolds.
 
 [[Minhyong Kim]] argues that the normal bundle of an embedding of a circle corresponding to a prime in $Spec(\mathbb{Z})$ is 2-dimensional ([Kim](#Kim)).
 
