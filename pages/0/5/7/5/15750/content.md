@@ -1,0 +1,13 @@
+
+
+* [webpage](https://www.imj-prg.fr/~simon.henry/)
+
+## related $n$Lab entries
+
+* [[Boolean topos]]
+
+* [[measurable space]]
+
+* [[modular theory]]
+
+category: people
