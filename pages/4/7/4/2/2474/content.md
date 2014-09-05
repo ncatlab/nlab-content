@@ -108,6 +108,9 @@ For a discussion of this in the finite-dimensional case see for instance ([Vicar
 ## Properties
  {#Properties}
 
+$C^*$-algebras are monadic over sets. 
+More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of C*-algebras, Algebra Universalis 30:275-284, 1993.
+
 See also [[operator algebras]].
 
 
