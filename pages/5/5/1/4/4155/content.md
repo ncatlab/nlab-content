@@ -55,6 +55,10 @@ MathOverflow question [tomita-takesaki-versus-frobenuis-where-is-the-similarity]
 
 * [[Alain Connes]], [[Carlo Rovelli]], _Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories_, [arXiv:gr-qc/9406019](http://arxiv.org/abs/gr-qc/9406019), [pdf](http://www.alainconnes.org/docs/carlotime.pdf)
 
+Discussion in terms of [[topos theory]] is in 
+
+* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
+
 
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
