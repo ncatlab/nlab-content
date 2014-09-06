@@ -147,6 +147,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 * [[higher trace]]
 
+* [[Dennis trace]], [[cyclotomic trace]]
+
 ## References
 
 The categorical notion of trace in a monoidal category is due to
