@@ -13,6 +13,10 @@ _Mathematica_ is a computer algebra software package.
 
 * [[ELF]]
 
+##Other packages etc.
+
+* [[GAP]]
+
 ## References and links
 
 * Wikipedia, _[Mathematica](Mathematica)_
