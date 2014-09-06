@@ -78,7 +78,7 @@ $$
   \,.
 $$
 
-In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]]. See ([Nikolaus 13, section 6](K-theory+of+a+symmetric+monoidal+%28?%2C1%29-category#Nikolaus13)) for details on the relation between abstract $\infty$-group completion and traditional constructions.
+In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]] (see [below](#Descent)). See ([Nikolaus 13, section 6](K-theory+of+a+symmetric+monoidal+%28?%2C1%29-category#Nikolaus13)) for details on the relation between abstract $\infty$-group completion and traditional constructions.
 
 For more on this see at _[[differential algebraic K-theory]]_ .
 
@@ -129,6 +129,35 @@ $$
 $$
 
 from the algebraic K-theory spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for algebraic K-theory.
+
+### Descent
+ {#Descent}
+
+The algebraic K-theory spectrum $\mathbf{K}$ satisfies Zariski descent.  For regular noetherian schemes this is due to
+
+* [[Kenneth Brown]], Stephen M. Gersten, _Algebraic K-theory as generalized sheaf cohomology_, Higher K-Theories, Lecture Notes in Mathematics Volume 341, 1973, pp 266-292.
+
+It was generalized to finite dimensional noetherian schemes by
+
+* R. Thomason, _Higher algebraic K-theory of schemes and of derived categories_, The Grothendieck Festschrift, vol. III, Progress in Mathematics, vol. 88, Birkh&#228;user, Basel, 1990, pp. 247&#8211;435.
+
+However, there is a stronger statement: it satisfies descent with respect to the [[Nisnevich site|Nisnevich topology]] (which lies between Zariski and etale).  This is due to
+
+* Yevsey A. Nisnevich, The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory, Algebraic K-theory: connections with geometry and topology, 1989, pp 241-341.
+
+and was generalized to finite dimensional noetherian schemes in the same paper of Thomason.
+
+In the following paper the above results are extended to finite dimensional quasi-compact quasi-separated schemes.
+
+* Andreas Rosenschon, P.A. Ostv&#230;r, _Descent for K-theories_, Journal of Pure and Applied Algebra 206, 2006, pp 141&#8211;152.
+
+The question of etale descent is closely related to the Lichtenbaum-Quillen conjecture.  This is now a theorem of Rost and Voevodsky and it implies that K-theory does satisfy etale descent in sufficient large degrees.  The theorem of Trobaugh that about etale descent for mod-$\ell$ Bousfield-localized K-theory, is in
+
+* R. Thomason, _Algebraic K-theory and &#233;tale cohomology_, Ann. Sci. Ecole Norm. Sup. 18 (4), 1985, pp. 437&#8211;552.
+
+and is also generalized in the paper of Rosenschon and Ostv&#230;r.
+
+[MO comment](http://mathoverflow.net/a/180265/381)
 
 ### Comparison map and Relation to topological K-theory
 
