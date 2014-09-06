@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]], where [[knots]] embedded in a 3-manifold behave like [[prime ideals]] in a [[ring of algebraic integers]]. 
+**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]], where [[knots]] embedded in a [[3-manifold]] behave like [[prime ideals]] in a [[ring of algebraic integers]]. 
 
 Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather (the closure of) $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
 
@@ -30,7 +30,7 @@ The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each
 ### Version of Mazur-Kapranov-Reznikov (MKR)
  {#VersionOfMKR}
  
-1. Closed, orientable, connected 3-manifolds correspond to (the closure of) schemes $Spec \mathcal{O}_K$ for number fields $K$.
+1. [[closed manifold|Closed]], [[orientation|orientable]], [[connected topological space|connected]] [[3-manifolds]] correspond to (the closure of) schemes $Spec \mathcal{O}_K$ for number fields $K$.
 1. Links correspond to ideals in $\mathcal{O}_K$ and knots correspond to prime ideals (tame in both cases). Knots can be represented by immersions of $S^1$ into $M$, and prime ideals in $\mathcal{O}_K$ can be identified with closed immersions $Spec \mathbb{F} \to Spec \mathcal{O}_K$, where $\mathbb{F}$'s are finite fields. Each link decomposes uniquely as a union of knots and each ideal decomposes uniquely as a product of primes.
 1. An algebraic integer corresponds to an embedded surface (possibly with boundary), and the operation $a \to (a)$ corresponds to taking its boundary. Closed embedded surfaces correspond to units in $\mathcal{O}_K$. Ideals of the form $(a)$ represent the identity in $Cl(K)$, and the links of the form $\partial S$ represent the identity in $H_1(M,\mathbb{Z})$.
 1. $Cl(K)$ corresponds to the torsion component of first integral homology.
@@ -82,6 +82,8 @@ where $M^{'} = Hom(M, \mathbb{G}_{m, X})$. This resembles Poincar&#233; duality 
 * [[Alexander polynomial]]
 
 * [[function field analogy]]
+
+* The [[virtually fibered conjecture]] says that every [[closed manifold|closed]], [[irreducible manifold|irreducible]], [[atoroidal 3-manifold|atoroidal]] [[3-manifold]] with infinite [[fundamental group]] has a [[finite cover]] which is a [[surface]] [[fiber bundle]] over the [[circle]].
 
 ##References
 * {#Deninger02} Christopher Deninger, _A note on arithmetic topology and dynamical systems_, ([arxiv:0204274](http://arxiv.org/abs/math/0204274))
