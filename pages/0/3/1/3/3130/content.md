@@ -124,7 +124,11 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## Related concepts
 
-* [[regulator]], [[Beilinson regulator]]
+* for [[algebraic K-theory]]:
+
+  * [[cyclotomic trace]]
+
+  * [[regulator]], [[Beilinson regulator]]
 
 * [[Grothendieck-Riemann-Roch theorem]]
 
