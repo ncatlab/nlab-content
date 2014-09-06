@@ -44,6 +44,8 @@ If $A$ is nuclear then the canonical map to the double dual $\theta _A: A\to A^{
 
 * [[nucleus of a profunctor]]
 
+* [[completely distributive lattice]]
+
 * [[nuclear space]]
 
 * [[self-dual object]]
