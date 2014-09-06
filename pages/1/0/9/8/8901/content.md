@@ -1,6 +1,9 @@
-GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory. 
+GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory. The acronym stands for Groups, Algorithms, Programming.
+
+It is the basis on which the [[HAP]] homological algebra library are built.
 
 
 ###Link
 
 * [GAP Homepage](http://www.gap-system.org/)
+
