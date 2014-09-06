@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _virtually fibered conjecture_ says that every [[closed manifold|closed]], [[irreducible manifold|irreducible]], [[atoroidal 3-manifold|atoroidal]] [[3-manifold]] with infinite [[fundamental group]] has a [[finite cover]] which is a [[surface]] [[fiber bundle]] over the [[circle]].
+
+## Related concdepts
+
+* [[arithmetic topology]]
+
+* [[Alexander polynomial]]
+
+
+## References
+
+* Wikipedia, _[Virtually fibered conjecture](https://en.m.wikipedia.org/wiki/Virtually_fibered_conjecture)_
