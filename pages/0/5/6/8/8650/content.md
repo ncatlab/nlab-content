@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Mathematica_ is a computer algebra software.
+_Mathematica_ is a computer algebra software package.
 
 ## Related concepts
 
