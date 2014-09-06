@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -77,7 +76,7 @@ $$
   \,.
 $$
 
-In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]].
+In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]]. See ([Nikolaus 13, section 6](K-theory+of+a+symmetric+monoidal+%28?%2C1%29-category#Nikolaus13)) for details on the relation between abstract $\infty$-group completion and traditional constructions.
 
 For more on this see at _[[differential algebraic K-theory]]_ .
 
@@ -106,19 +105,41 @@ See ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)).
 
 ## Properties
 
+### Chern characters
+
+#### Regulators and relation to ordinary cohomology
+
+See at _[[Beilinson regulator]]_.
+
+
+#### Cyclotomic trace and relation to topological Hochschild homology
+
+Given a ring $R$, then there is a natural morphism of [[spectra]]
+
+$$
+  \array{
+     && \mathbf{TC}(R)
+     \\
+      & \nearrow & \downarrow
+     \\
+     \mathbf{K}(R) &\longrightarrow& \mathbf{THH}(R)
+  }
+$$
+
+from the algebraic K-theory spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for algebraic K-theory.
+
+### Comparison map and Relation to topological K-theory
+
+* [[comparison map between algebraic and topological K-theory]]
+
+
+
 ### Relation to non-commutative topology and non-commutative motives
  {#RelationToKKAndMotives}
 
 [[!include noncommutative motives - table]]
 
 
-### Regulators (relation to ordinary cohomology)
-
-See at _[[Beilinson regulator]]_.
-
-### Relation to topological K-theory
-
-* [[comparison map between algebraic and topological K-theory]]
 
 
 ### Red-shift conjecture
@@ -204,6 +225,8 @@ An introductory textbook account is in
 Further review includes
 
 * {#Isely05} Olivier Isely, _Algebraic $K$-theory_, 2005-06 ([[IselyKTheory.pdf:file]])
+
+* {#Gerhardt14} [[Teena Gerhardt]], _Computations in algebraic K-theory_, talk at [CUNY Workshop on differential cohomologies 2014](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html) ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1800/in/channel/55/))
 
 ### Classical
 
