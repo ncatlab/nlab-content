@@ -22,7 +22,7 @@ A _3-manifold_ is a [[manifold]] of [[dimension]] 3.
 
 ### Poincar&#233; conjecture
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **([[Poincaré conjecture]])**
 
@@ -40,4 +40,18 @@ The hard technical part of this program is to show that the passage through the 
 
 =--
 
+### Virtually fibered conjecture
 
+The _[[virtually fibered conjecture]]_ says that every closed, irreducible, atoroidal 3-manifold with infinite fundamental group has a finite cover which is a surface bundle over the circle.
+
+## Related concepts
+
+* [[irreducible 3-manifold]]
+
+* [[atoroidal 3-manifold]]
+
+* [[knot theory]]
+
+* [[arithmetic topology]]
+
+* [[Chern-Simons theory]]
