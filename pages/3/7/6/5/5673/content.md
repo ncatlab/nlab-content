@@ -1,4 +1,8 @@
 
 * [website](http://www.math.ku.dk/~ayala/)
 
+## related $n$Lab entries
+
+* [[(infinity,n)-category with all adjoints]]
+
 category: people
