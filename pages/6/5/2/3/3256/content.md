@@ -9,7 +9,8 @@ The *Nisnevich topology* is a certain [[Grothendieck topology]] on the [[categor
 
 * The Nisnevich [[cohomological dimension]] (and even the [[homotopy dimension]]) of a scheme is bounded by its [[Krull dimension]] (like Zariski)
 * [[field|Fields]] have [[shape of an (∞,1)-topos|trivial shape]] for the Nisnevich topology (like Zariski)
-* [[algebraic K-theory|Algebraic K-theory]] satisfies Nisnevich descent (like Zariski)
+* [[algebraic K-theory|Algebraic K-theory]] satisfies [[descent]] over the Nisnevich site -- as is true for the [[Zariski site]] but not in full generality for the [[etale site]], see at _[algebraic K-theory -- Descent](algebraic%20K-theory#Descent)_ for more;
+
 * Any smooth closed pair $(Z,X)$ (i.e., $Z$ is a [[closed subscheme]] of $X$ and $X$ and $Z$ are both [[smooth scheme|smooth]] over a common base scheme) is Nisnevich-locally isomorphic to $(\mathbb{A}^n,\mathbb{A}^{n+k})$ (like &#233;tale)
 * Pushforward along a [[finite morphism]] is an [[exact functor]] on Nisnevich sheaves of abelian groups (like &#233;tale)
 * Nisnevich cohomology can be computed using [[?ech cohomology]] (like &#233;tale)
