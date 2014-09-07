@@ -140,7 +140,7 @@ from the algebraic K-theory spectrum to the [[topological Hochschild homology]] 
 ### Descent
  {#Descent}
 
-The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf of spectra]] on the [[Zariski site]].  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
+The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf]] of [[connective spectra]] on the [[Zariski site]].  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
 
 Moreover, $\mathbf{K}$ satisfies descent with respect to the [[Nisnevich site|Nisnevich topology]] (which lies between Zariski and &#233;tale).  This is due to ([Nisnevich 89](#Nisnevich89)) and was generalized in turn to finite dimensional noetherian schemes in the same paper of Thomason.
 
