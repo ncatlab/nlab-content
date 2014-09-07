@@ -133,31 +133,15 @@ from the algebraic K-theory spectrum to the [[topological Hochschild homology]] 
 ### Descent
  {#Descent}
 
-The algebraic K-theory spectrum $\mathbf{K}$ satisfies Zariski descent.  For regular noetherian schemes this is due to
+The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf of spectra]] on the [[Zariski site.  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
 
-* [[Kenneth Brown]], Stephen M. Gersten, _Algebraic K-theory as generalized sheaf cohomology_, Higher K-Theories, Lecture Notes in Mathematics Volume 341, 1973, pp 266-292.
+Moreover, $\mathbf{K}$ satisfies descent with respect to the [[Nisnevich site|Nisnevich topology]] (which lies between Zariski and &#233;tale).  This is due to ([Nisnevich 89](#Nisnevich89)) and was generalized in turn to finite dimensional noetherian schemes in the same paper of Thomason.
 
-It was generalized to finite dimensional noetherian schemes by
+Further generalization of the descent result to finite dimensional quasi-compact quasi-separated schemes is due to ([Rosenschon 06](#Rosenschon06)).
 
-* R. Thomason, _Higher algebraic K-theory of schemes and of derived categories_, The Grothendieck Festschrift, vol. III, Progress in Mathematics, vol. 88, Birkh&#228;user, Basel, 1990, pp. 247&#8211;435.
+The question of descent of $\mathbf{K}$ over the [[étale site]] is closely related to the [[Lichtenbaum-Quillen conjecture]], see also ([Thomason 85](#Thomason85)).  This is now a theorem of Rost and Voevodsky and it implies that K-theory does satisfy etale descent in sufficient large degrees.  
 
-However, there is a stronger statement: it satisfies descent with respect to the [[Nisnevich site|Nisnevich topology]] (which lies between Zariski and etale).  This is due to
-
-* Yevsey A. Nisnevich, The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory, Algebraic K-theory: connections with geometry and topology, 1989, pp 241-341.
-
-and was generalized to finite dimensional noetherian schemes in the same paper of Thomason.
-
-In the following paper the above results are extended to finite dimensional quasi-compact quasi-separated schemes.
-
-* Andreas Rosenschon, P.A. Ostv&#230;r, _Descent for K-theories_, Journal of Pure and Applied Algebra 206, 2006, pp 141&#8211;152.
-
-The question of etale descent is closely related to the Lichtenbaum-Quillen conjecture.  This is now a theorem of Rost and Voevodsky and it implies that K-theory does satisfy etale descent in sufficient large degrees.  The theorem of Trobaugh that about etale descent for mod-$\ell$ Bousfield-localized K-theory, is in
-
-* R. Thomason, _Algebraic K-theory and &#233;tale cohomology_, Ann. Sci. Ecole Norm. Sup. 18 (4), 1985, pp. 437&#8211;552.
-
-and is also generalized in the paper of Rosenschon and Ostv&#230;r.
-
-[MO comment](http://mathoverflow.net/a/180265/381)
+> [MO comment](http://mathoverflow.net/a/180265/381)
 
 ### Comparison map and Relation to topological K-theory
 
@@ -263,10 +247,26 @@ Further review includes
 
 Original articles include
 
+* {#Quillen73} [[Daniel Quillen]], _Higher algebraic K-theory_, in Higher K-theories, pp. 85&#8211;147, Proc. Seattle 1972, Lec. Notes Math. 341, Springer 1973.
+A reference for classical constructions is
+
+* {#BrownGersten73} [[Kenneth Brown]], Stephen M. Gersten, _Algebraic K-theory as generalized sheaf cohomology_, Higher K-Theories, Lecture Notes in Mathematics Volume 341, 1973, pp 266-292.
+
+* {#Thomason85} [[R. W. Thomason]], _Algebraic K-theory and &#233;tale cohomology_, Ann. Sci. Ecole Norm. Sup. 18 (4), 1985, pp. 437&#8211;552.
+
+
+* {#Nisnevich89} [[Yevsey Nisnevich]], _The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory_, Algebraic K-theory: connections with geometry and topology, 1989, pp 241-341.
+
+
+
+
 * {#ThomasonTrobaugh90} [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
 
-* [[Daniel Quillen]], _Higher algebraic K-theory_, in Higher K-theories, pp. 85&#8211;147, Proc. Seattle 1972, Lec. Notes Math. 341, Springer 1973.
-A reference for classical constructions is
+
+
+
+* {#Rosenschon06} Andreas Rosenschon, P.A. Ostv&#230;r, _Descent for K-theories_, Journal of Pure and Applied Algebra 206, 2006, pp 141&#8211;152.
+
 
 For [[complex varieties]]:
 
