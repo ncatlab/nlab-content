@@ -130,10 +130,17 @@ $$
 
 from the algebraic K-theory spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for algebraic K-theory.
 
+### Comparison map and Relation to topological K-theory
+
+* [[comparison map between algebraic and topological K-theory]]
+
+
+
+
 ### Descent
  {#Descent}
 
-The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf of spectra]] on the [[Zariski site.  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
+The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf of spectra]] on the [[Zariski site]].  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
 
 Moreover, $\mathbf{K}$ satisfies descent with respect to the [[Nisnevich site|Nisnevich topology]] (which lies between Zariski and &#233;tale).  This is due to ([Nisnevich 89](#Nisnevich89)) and was generalized in turn to finite dimensional noetherian schemes in the same paper of Thomason.
 
@@ -142,11 +149,6 @@ Further generalization of the descent result to finite dimensional quasi-compact
 The question of descent of $\mathbf{K}$ over the [[étale site]] is closely related to the [[Lichtenbaum-Quillen conjecture]], see also ([Thomason 85](#Thomason85)).  This is now a theorem of Rost and Voevodsky and it implies that K-theory does satisfy etale descent in sufficient large degrees.  
 
 > [MO comment](http://mathoverflow.net/a/180265/381)
-
-### Comparison map and Relation to topological K-theory
-
-* [[comparison map between algebraic and topological K-theory]]
-
 
 
 ### Relation to non-commutative topology and non-commutative motives
