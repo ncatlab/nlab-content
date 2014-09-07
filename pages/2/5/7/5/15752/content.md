@@ -33,8 +33,9 @@ A proof was announced by [[Ian Agol]] in 2012, based on work by [[Daniel Wise]].
 
 The final step of the proof after the work of Wise is contained in
 
-* Ian Agol, Daniel Groves, Jason Manning, _The virtual Haken conjecture_ [arXiv:1204.2810](http://arxiv.org/abs/1204.2810)
+* [[Ian Agol]], Daniel Groves, Jason Manning, _The virtual Haken conjecture_ [arXiv:1204.2810](http://arxiv.org/abs/1204.2810)
 
 See also 
 
-* Ian Agol, _The virtual Haken conjecture_, Talk at ICM 2014 ([video](https://www.youtube.com/watch?v=Y6ACJYvfs5U))
+* [[Ian Agol]], _The virtual Haken conjecture_, Talk at ICM 2014 ([video](https://www.youtube.com/watch?v=Y6ACJYvfs5U))
+
