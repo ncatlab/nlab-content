@@ -78,3 +78,9 @@ For more see at _[[(infinity,n)-category with adjoints]]_.
 [[!redirects (∞,n)-category with duals]]
 [[!redirects (∞,n)-categories with duals]]
 [[!redirects (∞,n)-categories with duales]]
+
+[[!redirects symmetric monoidal (infinity,n)-category with duals]]
+[[!redirects symmetric monoidal (infinity,n)-categories with duals]]
+[[!redirects symmetric monoidal (∞,n)-category with duals]]
+[[!redirects symmetric monoidal (∞,n)-categories with duals]]
+
