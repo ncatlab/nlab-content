@@ -45,6 +45,7 @@ The structure of the [[normed division algebra]]s governs the existence of the _
 * [[Hopf invariant one]]
 
 ## References
+ {#References}
 
 The relation was apparently first made explicit in 
 
