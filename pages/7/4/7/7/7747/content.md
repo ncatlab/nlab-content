@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -106,6 +105,12 @@ This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence
  {#IntersectionPairing}
 
 On a framed manifold there is a canonical [[quadratic refinement]] of the [[intersection pairing]]. The associated invariant is the _[[Kervaire invariant]]_.
+
+## Properties 
+
+### Moduli of framings
+
+The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of framings]] on a fixed manifold is a disjoint union of subgroups of the oriented [[mapping class group]] which fix a given isotopy type of framings.
 
 ## Related concepts
 
