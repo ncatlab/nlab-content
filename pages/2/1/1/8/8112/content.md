@@ -16,20 +16,24 @@
 ## Idea
  {#Idea}
 
-Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on a [[quotient]] space $K\backslash X$ and specifically on a [[coset spaces]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
+Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on a [[quotient]] space $K\backslash X$ where $K$ is typically a [[discrete group]], hence suitable functions on $X$ which are [[invariant]] under the [[action]] of a discrete group. The precise definition has evolved a good bit through time.
+
+[[Henri Poincaré]] considered [[analytic functions]] invariant under a discrete infinite group of [[fractional linear transformations]] and called them _[[Fuchsian functions]]_ (after his advisor [[Lazarus Fuchs]]).
+
+More generally, automorphic forms in the modern sense are suitable functions on a [[coset spaces]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of the [[subgroup]] $K \hookrightarrow G$. The archetypical example here are [[modular forms]] regarded as functions on $K\backslash SL(2,\mathbb{R})$ where $K$ is a [[congruence subgroup]], and for some time the terms "modular form" and "automorphic form" were used essentially synonymously, see [below](#ModularForms). 
 
 By pullback of functions the linear space of such functions hence constitutes a [[representation]] of $G$ and such representations are then called _automorphic representations_, specifically so if $G = GL_n(\mathbb{A}_K)$ is the [[general linear group]] with [[coefficients]] in a [[ring of adeles]] of some [[global field]] and $K = GL_n(K)$. This is the subject of the _[[Langlands program]]_. There one also considers [[unramified]] such representations, which are constituted by functions that in addition are invariant under the action of $GL_n$ with coefficients in the [[integral adeles]], see [below](#InNumberTheory). 
 
+### In harmonic analysis
+
+In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with [[discrete group]] [[subgroups]] $K$ and considers [[continuous functions]], typically bounded...
 
 
 ### Modular forms
+ {#ModularForms}
 
-For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates (see e.g. [this MO comment](http://mathoverflow.net/a/124785/381) for the history of terminology).
+For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates (see e.g. [this MO comment](http://mathoverflow.net/a/124785/381) for the history of terminology) [and this one](http://mathoverflow.net/a/21556/381).
 
-
-### In harmonic analysis
-
-In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with [[discrete group]] [[subgroups]] $K$ and considers [[continuous functions]], typically bounded..
 
 ### Adelic automorphic forms in number theory
  {#InNumberTheory}
@@ -44,7 +48,7 @@ For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with 
 
 1. **cuspidality** -- (...)
 
-(e.g. [Frenkel 05, section 1.6](#Frenkel05))
+(e.g. [Frenkel 05, section 1.6](#Frenkel05), [Loeffler 11, page 4](#Loeffler11))
 
 But these conditions are not set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381)).
 
@@ -102,8 +106,9 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 ### General
 
-* {#Gelbhart84} [[Stephen Gelbart]], starting on p. 20 (196) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+Introductions and surveys include
 
+* {#Gelbhart84} [[Stephen Gelbart]], starting on p. 20 (196) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
@@ -112,12 +117,20 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+* {#Loeffler11} David Loeffler, _Computing with algebraic automorphic forms_, 2011 ([[LoefflerAutomorphic.pdf:file]])
 
 * [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
+
+* [pdf](http://www.math.uni-bonn.de/people/mueller/skripte/specauto.pdf)
+
+* {#Miyake76} Toshitsune Miyake's _Modular Forms_ 1976 (English version 1989) ([review pdf](projecteuclid.org/euclid.bams/1183556263))
+
 
 Review in the context of the [[geometric Langlands correspondence]] is in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
+
+
 
 The generalization of theta functions to [[automorphic forms]] is due to 
 
@@ -152,3 +165,6 @@ See also
 
 [[!redirects automorphic representation]]
 [[!redirects automorphic representations]]
+
+[[!redirects Fuchsian function]]
+[[!redirects Fuchsian functions]]
