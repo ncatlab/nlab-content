@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -38,7 +37,7 @@ Review includes ([Schumacher, section 2](#Schumacher))
 ### Relation to moduli stack of complex curves / Riemann surfaces
  {#RelationToModuliStackOfCurves}
 
-Quotienting the space of complex structures on $\Sigma$ by _all_ [[homoemorphisms]] produces what is called the [[moduli space of curves]] (over the complex numbers). 
+Quotienting the space of complex structures on $\Sigma$ by _all_ [[homeomorphisms]] produces what is called the [[moduli space of curves]] (over the complex numbers). 
 Closely related to the [[moduli space of conformal structures]] hence of  [[Riemann surfaces]]. 
 
 Hence the Riemann moduli space is the [[orbifold quotient]] of Teichm&#252;ller space by the [[mapping class group]] of $\Sigma$. See ([Hubbard-Koch 13](#HubbardKoch13)).
