@@ -55,6 +55,8 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * the inclusion of [[torsion theory|torsion]] [[abelian groups]] into [[Ab]], where the right adjoint takes the [[torsion subgroup]].
 
+* the inclusion of groups into monoids, where the right adjoint takes a monoid to its group of units.
+
 ## References
 
 * [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
