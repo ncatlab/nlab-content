@@ -56,8 +56,8 @@ Discussion in the context of [[differential algebraic K-theory]] is in
 
 In prop. 4.14 of 
 
-* {#Haugseng13} [[Rune Haugseng]], _The Becker-Gottlieb Transfer Is Functorial_ ([arXiv:1310.6321](http://arxiv.org/abs/1310.6321))
+* {#Haugseng13} [[Rune Haugseng]], _The Becker-Gottlieb Transfer Is Functorial_ ([arXiv:1310.6321](http://arxiv.org/abs/1310.6321)) (withfrawn now)
 
-Becker-Gottlieb transfer is identified with the [[Umkehr map]] induced from a [[Wirthmüller context]] in which in addition $f_\ast$ satisfies its [[projection formula]] (a "[[transfer context]]", def.4.9)
+Becker-Gottlieb transfer was identified with the [[Umkehr map]] induced from a [[Wirthmüller context]] in which in addition $f_\ast$ satisfies its [[projection formula]] (a "[[transfer context]]", def.4.9)
 
 [[!redirects transfer index conjecture]]
