@@ -22,6 +22,8 @@
 
 ### Moduli space of framed surfaces
 
-*  [[Oscar Randal-Williams]], _Homology of the moduli spaces and mapping class groups of framed, r-Spin and Pin surfaces_ ([arXiv:1001.5366](http://arxiv.org/abs/1001.5366))
+*  {#RandalWilliams10} [[Oscar Randal-Williams]], _Homology of the moduli spaces and mapping class groups of framed, r-Spin and Pin surfaces_ ([arXiv:1001.5366](http://arxiv.org/abs/1001.5366))
+
+* Daan Krammer, _A Garside like structure on the framed mapping class group_, 2007 ([pdf](http://homepages.warwick.ac.uk/~masbal/index_files/fr.pdf))
 
 [[!redirects moduli space of framed surfaces]]
