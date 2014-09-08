@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Teichm&#252;ller space_ $\mathcal{T}_{\Sigma}$ of a  ([[closed manifold|closed]]) 2-[[dimension|dimensional]] [[manifold]] $\Sigma$  is the [[moduli space of complex structures]] on $\Sigma$, where two complex structures are identified is they are taken into each other by a [[homeomorphism]] $\phi \colon \Sigma \to \Sigma$ which is [[isotopy|isotopic]] to the [[identity]]. 
+The _Teichm&#252;ller space_ $\mathcal{T}_{\Sigma}$ of a  ([[closed manifold|closed]]) 2-[[dimension|dimensional]] [[manifold]] $\Sigma$  is the [[moduli space of complex structures]] on $\Sigma$, where two complex structures are identified if they are taken into each other by a [[homeomorphism]] $\phi \colon \Sigma \to \Sigma$ which is [[isotopy|isotopic]] to the [[identity]]. 
 
 Since the [[diffeomorphism]] class of  a [[closed manifold]] of dimension 2 is given by its [[genus]] $g\in \mathbb{Z}$, typically one speaks of the Teichm&#252;ller space $\mathcal{T}_g$ for each $g$. More generally one considers $\Sigma$s equipped with $n$ punctures/[[boundary]] circle and then writes $\mathcal{T}_{g,n}$. 
 
