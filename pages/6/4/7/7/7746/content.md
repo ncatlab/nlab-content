@@ -166,3 +166,6 @@ Application to higher [[Hochschild cohomology]] is discussed in
 
 * [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
 
+Application to stratified spaces with tangential structures is discussed in
+
+* [[David Ayala]], [[John Francis]], [[Hiro Lee Tanaka]], _Factorization homology of stratified spaces_, ([arXiv:1409.0848](http://arxiv.org/abs/1409.0848))
