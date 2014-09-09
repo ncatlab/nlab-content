@@ -151,7 +151,7 @@ See at _[[spin^c-structure]]_ for more.
 |--|--|--|
 [[complex structure]] | [[Hermitian structure]] | [[Kähler structure]] |
 
-### Moduli stacks of complex structrues
+### Moduli stacks of complex structures
 
 One may consider the [[moduli stack of complex structures]] on a given manifold. For 2-dimensional manifolds these are famous as the Riemann [[moduli stacks of complex curves]]. They may also be expressed as moduli stacks of almost complex structures, see [here](moduli+space+of+curves#OverTheComplexNumbers).
 
