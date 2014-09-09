@@ -30,8 +30,9 @@ A review is in ([Lauridsen 10, section 2](#Lauridsen10)).
 
 The original article is 
 
-* [[Nigel Hitchin]], _Flat connections and geometric quantization_, : Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
- {#Hitchin90}
+* {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, : Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
+ 
+(What is now called the Hitchin connection appears in theorem 3.6 there, its expression in local coordinates is around (3.15). That for abelian gauge group $U(1)$ the classical [[Riemann theta functions]] constitute the covariantly constant sections of the Hitchin connection in these coordinates is remark 4.12.)
 
 More explicit expressions are discussed in 
 
@@ -41,10 +42,11 @@ A nice review and new concise account is in
 
 * {#Looijenga10} [[Eduard Looijenga]], _From WZW models to Modular Functors_ ([arXiv:1009.2245](http://arxiv.org/abs/1009.2245))
 
+* {#Andersen11} Johan Martens [[Jørgen Andersen]], notes by S&#248;ren J&#248;rgensen, section 1.2.1 and 4 of _Topological quantum field theories and moduli spaces_, 2011 ([pdf](http://maths.fuglede.dk/noter/tqftms.pdf))
 
 Discussion for [[deformation quantization]] instead of [[geometric quantization]] is in 
 
-* Jorgen Ellegaard Andersen, _Hitchin's connection, Toeplitz operators and symmetry invariant deformation quantization_ ([arXiv:math/0611126](http://arxiv.org/abs/math/0611126))
+* [[Jørgen Andersen]], _Hitchin's connection, Toeplitz operators and symmetry invariant deformation quantization_ ([arXiv:math/0611126](http://arxiv.org/abs/math/0611126))
 
 This also reproduces the original construciton in the context of [[Chern-Simons theory]] in 
 
