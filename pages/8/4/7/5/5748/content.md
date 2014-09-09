@@ -110,7 +110,7 @@ The _[[Newlander-Nirenberg theorem]]_ states that an almost complex structure $J
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[Riemannian metric]] on am [[orientation|oriented]] 2-[[dimension|dimensional]] [[manifold]] induces an almost complex structure given by forming orthogonal tangent vectors.
+Every [[Riemannian metric]] on an [[orientation|oriented]] 2-[[dimension|dimensional]] [[manifold]] induces an almost complex structure given by forming orthogonal tangent vectors.
 
 =--
 
