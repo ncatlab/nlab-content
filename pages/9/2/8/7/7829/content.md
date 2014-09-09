@@ -130,6 +130,7 @@ See at _[[zeta function of a Riemann surface]]_ for more on this case.
 
 * [[index of an operator]]
 
+* [[Spin Chern-Simons theory]]
 
 ## References
 
