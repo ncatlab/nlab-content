@@ -139,10 +139,10 @@ making explicit a structure which slightly implicit in the discussion of the [[p
 
 (see [Atiyah, page 6](#Atiyah)). For more on the role of 2-framings in [[Chern-Simons theory]] see also
 
-* [[Dan Freed]], Robert Gompf, _Computer calculation of Witten's 3-Manifold invariant_, Commun. Math. Phys. 141,79-117 (1991) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freedgompf.pdf))
+* [[Daniel Freed]], Robert Gompf, _Computer calculation of Witten's 3-Manifold invariant_, Commun. Math. Phys. 141,79-117 (1991) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freedgompf.pdf))
 
-* [[Dan Freed]], _Remarks on Chern-Simons theory_ ([pdf slides])
- {#Freed}
+* {#Freed} [[Daniel Freed]], _Remarks on Chern-Simons theory_ ([pdf slides])
+ 
 
 and for discussion in the context of the [[M2-brane]] from p. 7 on in 
 
@@ -150,8 +150,8 @@ and for discussion in the context of the [[M2-brane]] from p. 7 on in
 
 The relation to [[string structures]] is made explicit in section 2.3 of 
 
-* [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_ ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
- {#BunkeNaumann}
+* {#BunkeNaumann} [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_ ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
+ 
 
 Discussion in terms of bounding 4-manifolds is in 
 
