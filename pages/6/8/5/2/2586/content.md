@@ -113,11 +113,15 @@ We have
 
   * $Spin(1) \simeq O(1)$
 
-  * $Spin(2) \simeq U(1) \simeq SO(2)$
+  * $Spin(2) \simeq U(1) \simeq SO(2) \simeq S^1$ (the [[circle group]])
 
-  * $Spin(3) \simeq Sp(1) \simeq SU(2)$ (the [[special unitary group]] [SU(2)](special+unitary+group#SU2))
+  * $Spin(3) \simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [SU(2)](special+unitary+group#SU2))
 
-  * $Spin(4) \simeq Sp(1)\times Sp(1)$
+    the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbunov-Ray 92](#GorbunovRay92))
+
+  * $Spin(4) \simeq Sp(1)\times Sp(1) \simeq S^3 \times S^3$
+
+    the inclusion $Spin(3) \hookrightarrow Spin(4)$ corresponds to the [[diagonal]] $S^3 \hookrightarrow S^3 \times S^3$
 
   * $Spin(5) \simeq Sp(2)$
 
@@ -187,8 +191,10 @@ See also
 
 Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isogenies]] onto [[orthogonal groups]] are discussed in 
 
-* [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
- {#Garrett13}
+* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
+ 
+* {#GorbunovRay92} Vassily Gorbunov, Nigel Ray, _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]])
+
 
 [[!redirects Spin group]]
 [[!redirects Spin]]
