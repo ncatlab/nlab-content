@@ -22,6 +22,11 @@ The notion of [[twisted differential c-structures]] applied to [[Wu classes]].
 
 See at [[M5-brane]] the section _[Conformal blocks and 7d Chern-Simons dual](http://ncatlab.org/nlab/show/M5-brane#7dCSDual)_.
 
+## Related concepts
+
+* [[Spin Chern-Simons theory]]
+
+
 ## References
 
 Topological twisted Wu structures are considered in
