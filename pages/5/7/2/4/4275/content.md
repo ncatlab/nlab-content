@@ -1,4 +1,3 @@
-
 > this entry is about the notion of _genus_ in [[algebraic topology]]/[[cohomology]]. For classification of [[surfaces]] see instead the (related) entry _[[genus of a surface]]_, _[[genus of a curve]]_. There is also [[genus of a lattice]].
 
 +-- {: .rightHandSide}
@@ -342,6 +341,7 @@ The [[Euler characteristic]] $X \mapsto \chi(X)$ is close to being  a genus, but
 
 
 ## Related concepts
+ {#RelatedConcepts}
 
 [[!include genera and partition functions - table]]
 
