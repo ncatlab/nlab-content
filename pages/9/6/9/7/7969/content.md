@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -29,7 +28,7 @@ Expressed in [[coordinates]] $\mathbf{z}$ on the [[covering]] $\mathbb{C}^g$ of 
 
 Those theta functions encoding line bundles on a [[Jacobian variety]] $J(\Sigma)$ of a [[Riemann surface]] $\Sigma$ typically vary in a controlled way with the [[complex structure]] modulus $\mathbf{\tau}$ of $\Sigma$ and are hence really functions also of this variable $(\mathbf{z},\mathbf{\tau}) \mapsto \theta(\mathbf{z}, \mathbf{\tau})$ with certain transformation properties. These are the _[[Riemann theta functions]]_. They are the expressions in local coordinates of the covariantly constant sections of the [[Hitchin connection]] on the [[moduli space of Riemann surfaces]] $\mathcal{M}_\Sigma$ ([Hitchin 90, remark 4.12](#Hitchin90)).  In the special case that $\Sigma$ is complex 1-dimensional of [[genus]] $g = 1$ (hence a complex [[elliptic curve]]) then such a function $(z,\tau) \mapsto \theta(z,\tau)$ of two variables with the pertinent transformation properties is a _[[Jacobi theta functions]]_. Notice that in their dependence not only on $\tau$ but also on $z$ these are properly called _[[Jacobi forms]]_.
 
-Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more) for $z = 0$. While this is the historically first and archetypical function from which all modern generalizations derive their name, notice that at fixed $z$ as a function in $\tau$ the "theta function" is not actually a section of a line bundle anymore.
+Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more) for $z = 0$. While this is the historically first and archetypical function from which all modern generalizations derive their name, notice that at fixed $z$ as a function in $\tau$ the "theta function" is not actually a section of a line bundle anymore. The generalization in number theory of the Jacobi theta function that does again have a dependence on a twisting is the _[[Dirichlet theta function]]_ depending on a [[Dirichlet character]] (which by [[Artin reciprocity]] corresponds to a [[Galois representation]]).
 
 Certain integrals of theta functions yield [[zeta functions]], see also at _[[function field analogy]]_.
 
