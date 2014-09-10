@@ -57,8 +57,9 @@ Russian Math. Surveys 45:2 (1990), 1&#8211;58; Rus. original &#1040;. &#1040;. &
 
 * Ant&#243;nio F. dos Santos, Pedro F. dos Santos, _[[Lax equation]]s, singularities and Riemann-Hilbert problems_, [arxiv/1010.2933](http://arxiv.org/abs/1010.2933)
 
-* Henryk &#379;o&#322;&#261;dek, _The monodromy group_, Monografie Matematyczne 67, Birkh&#228;user 
-2006
+* Henryk &#379;o&#322;&#261;dek, _The monodromy group_, Monografie Matematyczne 67, Birkh&#228;user 2006
+
+* Alexander I. Bobenko, Alexander Its, _The asymptotic behaviour of the discrete holomorphic map $Z^a$ via the Riemann-Hilbert method_, [arxiv/1409.2667](http://arxiv.org/abs/1409.2667) 
 
 The [[AGT correspondence]] is treated with the help of a Riemann-Hilbert problem in 
 
@@ -68,5 +69,5 @@ The [[AGT correspondence]] is treated with the help of a Riemann-Hilbert problem
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
 [[!redirects Riemann Hilbert problem]]
-
+[[!redirects Riemann-Hilbert method]]
 [[!redirects Hilbert's 21st problem]]
