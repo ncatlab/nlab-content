@@ -1,0 +1,6 @@
+* Federico Ardila, _Algebraic and geometric methods in enumerative combinatorics_, survey for an upcoming handbook on enumeration, [arxiv/1409.2562](http://arxiv.org/abs/1409.2562)
+
+* Richard P. Stanley, _Enumerative combinatorics_, vol.1 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
+
+category: combinatorics
+ 
