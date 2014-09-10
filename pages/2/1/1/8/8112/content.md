@@ -28,7 +28,7 @@ By pullback of functions the linear space of such functions hence constitutes a 
 ### Modular forms as classical automorphic forms on $PSL(2,\mathbb{R})$
  {#ModularForms}
 
-By a standard definition,a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13)).
+By a standard definition,a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13), [Litt, def. 1](#Litt)).
 
 But the [[upper half plane]] is itself the [[coset]] of the [[projective linear group]] $G = PSL(\mathbb{R})$ by the subgroup $K = Stab_G(\{i\}) \simeq SO(2)/\{\pm I\}$
 
@@ -47,7 +47,7 @@ $$
 
 hence to a function on $G$ which is actually _invariant_ with respect to the $\Gamma$-action ("automorphy"), but which instead now satisfies some transformation property with respect to the action of $K$, as well as some well-behavedness property
 
-This $\tilde f$ is the incarnation as an _automorphic function_ of the modular function $f$ (e.g. [Martin 13, around def. 3](#Martin13)). For emphasis these automorphic forms on $PSL(2,\mathbb{R})$ equivalent to modular forms are called _classical modular forms_.
+This $\tilde f$ is the incarnation as an _automorphic function_ of the modular function $f$ (e.g. [Martin 13, around def. 3](#Martin13), [Litt, section 2](#Litt)). For emphasis these automorphic forms on $PSL(2,\mathbb{R})$ equivalent to modular forms are called _classical modular forms_.
 
 This is where the concept of automorphic forms originates (for more on the history see e.g. [this MO comment](http://mathoverflow.net/a/124785/381) for the history of terminology) [and this one](http://mathoverflow.net/a/21556/381).
 
@@ -82,7 +82,7 @@ For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with 
 
 1. **cuspidality** -- (...)
 
-(e.g. [Frenkel 05, section 1.6](#Frenkel05), [Loeffler 11, page 4](#Loeffler11), [Martin 13, definition 4](#Martin13))
+(e.g. [Frenkel 05, section 1.6](#Frenkel05), [Loeffler 11, page 4](#Loeffler11), [Martin 13, definition 4](#Martin13), [Litt, def.4](#Litt)).
 
 (These conditions are not entirely set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381))).
 
@@ -143,6 +143,8 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 Introductions and surveys include
 
+* {#Deligne} [[Pierre Deligne]], _Fromed Modulaires et representations de $GL(2)$_ ([](http://publications.ias.edu/sites/default/files/Number21.pdf))
+ 
 * {#Gelbhart84} [[Stephen Gelbart]], starting on p. 20 (196) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
@@ -152,11 +154,14 @@ Introductions and surveys include
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
-* {#Bump} [[Daniel Bump]], _Automorphic forms and representations_
+* {#Bump} Daniel Bump, _Automorphic forms and representations_
 
 * {#Loeffler11} David Loeffler, _Computing with algebraic automorphic forms_, 2011 ([[LoefflerAutomorphic.pdf:file]])
 
 * {#Martin13} [[Kimball Martin]], _A brief overview of modular and automorphic forms_,2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
+
+* {#Litt} [[Daniel Litt]], _Automorphic forms notes, part I_ ([pdf](http://math.stanford.edu/~dlitt/Talks/automorphicformspt1.pdf))
+
 
 * [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
 
