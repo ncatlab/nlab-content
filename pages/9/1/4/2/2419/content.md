@@ -20,7 +20,11 @@
 
 ## Idea
 
-A _modular form_ is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]).
+A _modular form_  is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]) or more generally the [[Riemann moduli space]] for [[Riemann surfaces]] of given [[genus]].
+
+Modular forms are also often called _classical [[automorphic forms]]_, see [below]()
+
+
 
 Modular forms appear as the [[coefficient]] ring of the [[Witten genus]] on manifolds with rational [[string structure]]. For manifolds with actual [[string structure]] this refines to [[topological modular forms]], which are the [[homotopy groups]] of the [[spectrum]] [[tmf]].
 
@@ -59,6 +63,10 @@ such that
 
 =--
 
+More generally there is such a definition for $SL(2,\mathbb{Z})$ replaced by any other arithmetic subgroup $\Gamma \subset SL(2,\mmathbb{R})$ (e.g. [Litt, def.1](#Litt)), giving modular forms on a [[Riemann moduli spaces]].
+
+
+
 ### As sections of a line bundle over the moduli stack
  {#AsSections}
 
@@ -79,9 +87,9 @@ Similarly one considers modular forms for [[congruence subgroups]] of the full [
 ### As automorphic forms
  {#AsAutomorphicForms}
 
-Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the ([[Möbius group|projective]]) [[special linear group]] $SL(2,\mathbb{R})$. (e.g. [Martin 13, section 2](Martin13)).
+Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the ([[Möbius group|projective]]) [[special linear group]] $SL(2,\mathbb{R})$. (e.g. [Martin 13, section 2](Martin13), [Litt, section 2](#Litt)).
 
-As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$. 
+As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$ (for forms on moduli of elliptic curves) or more generally $\Gamma \backslash SL(2,\mmathbb{Z})$ (for forms on moduli of more general [[Riemann surfaces]]).
 
 This generalizes to the case of other [[congruence subgroups]] (as [above](ForCongruenceSubgroups)). Generally such functions on [[coset spaces]] like this are called _[[automorphic forms]]_. See there for more.
 
@@ -159,6 +167,9 @@ Lecture notes and reviews include
 
 
 * [[Charles Rezk]], section 10 of [pdf](http://www.math.uiuc.edu/~rezk/512-spr2001-notes.pdf)
+
+* {#Litt} [[Daniel Litt]], _Automorphic forms notes, part I_ ([pdf](http://math.stanford.edu/~dlitt/Talks/automorphicformspt1.pdf))
+
 
 * Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
 
