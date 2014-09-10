@@ -272,11 +272,18 @@ A standard textbook reference is chapter 4 in volume 1 of
 * Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
  {#KadisonRingrose}
 
-See also the references at _[[operator algebras]]_.
 
 An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
 
 * Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.ethz.ch/u/ambrogio/exercise_C_-algebras.pdf))
+
+For [[operator algebra]]-theory see there and see
+
+* [[Stanisław Woronowicz]], _Unbounded elements affiliated with $C^\ast$-algebras and
+non-compact quantum groups. Commun. Math. Phys. 136, 399&#8211;432 (1991)
+
+* [[Stanisław Woronowicz]], K. Napi&#243;rkowski, _[[Operator theory in the C*-algebra framework]]_, Reports on Mathematical Physics Volume 31, Issue 3, June 1992, Pages 353&#8211;371 ([publisher](http://www.sciencedirect.com/science/article/pii/003448779290025V), [pdf](http://www.fuw.edu.pl/~slworono/PDF-y/OP.pdf))
+
 
 A characterizations of injections of commutative sub-$C^*$-algebras -- hence of the [[poset of commutative subalgebras]] of a $C^*$-algebra -- is in
 
