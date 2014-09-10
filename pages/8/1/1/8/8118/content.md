@@ -18,7 +18,10 @@ _&#1071;&#1085;&#1075;&#1080;&#1072;&#1085;&#1099; &#1080; &#1082;&#1083;&#1072;
 * N. J. Mackay, _Introduction to Yangian symmetry in integrable field theory_ ([arXiv:hep-th/0409183](http://arxiv.org/abs/hep-th/0409183))
 
 * [[Vassili Gorbounov]], R. Rimanyi, V. Tarasov, A. Varchenko, _Cohomology of the cotangent bundle of a flag variety as a Yangian Bethe algebra_ ([arXiv:1204.5138](http://arxiv.org/abs/1204.5138))
-* V. G. [[Drinfeld]], Degenerate affine Hecke algebras and Yangians, Funct. Anal. Appl. 20 (1986), 58&#8211;60.
+* V. G. [[Drinfeld]], _Degenerate affine Hecke algebras and Yangians_, Funct. Anal. Appl. 20 (1986), 58&#8211;60.
+* Denis Uglov, _Symmetric functions and the Yangian decomposition of the Fock and basic modules of the affine Lie algebra $\mathfrak{sl}^N$_, Math. Soc. Japan Memoirs __1__, 1998, 183-241 [euclid](http://projecteuclid.org/euclid.msjm/1389985795) [doi](http://dx.doi.org/10.2969/msjmemoirs/00101C030)
+* A. N. Kirillov, N. Y. Reshetikhin, _The Yangians, Bethe Ansatz and combinatorics_, Lett. Math. Phys. __12__, 199 (1986)
+* Sachin Gautam, Valerio Toledano-Laredo, _Yangians and quantum loop algebras_, Selecta Mathematica __19__ (2013), 271-336  [arxiv/1012.3687](http://arxiv.org/abs/1012.3687); _II. Equivalence of categories via abelian difference equations_ [arxiv/1310.7318](http://arxiv.org/abs/1310.7318); _III. Meromorphic equivalence of tensor structures_ [arxiv/1403.5251](http://arxiv.org/abs/1403.5251)
 
 In
 
