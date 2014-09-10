@@ -93,6 +93,10 @@ See e.g. ([Karlsson](#Karlsson)).
 
 ## References
 
+Due to [[Carl Jacobi]].
+
+Review includes
+
 * Wikipedia, _[Jacobi theta-function](http://en.wikipedia.org/wiki/Theta_function#Jacobi_theta_function)_
 
 * section 9 in _Analytic theory of modular forms_ ([pdf](http://www.math.harvard.edu/~jbland/ma259x_notes.pdf))
