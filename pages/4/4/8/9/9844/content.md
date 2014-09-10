@@ -24,14 +24,14 @@ The ring $\QSymm^{\hat{}}$ is defined as the ring of quasi-symmetric power serie
 
 (Copied from [[noncommutative symmetric function]] as the two concepts are often studied together.)
 
-### Full research articles 
+### Research articles 
 
 * G. Duchamp, F. Hivert, J.-Y. Thibon, _Noncommutative symmetric functions VI: free quasi-symmetric functions and related algebras_, Internat. J. Alg. Comput. 12 (2002), 671&#8211;717.
 * [[I. M. Gelfand]], D. Krob, A. Lascoux, B. Leclerc, V. S. Retakh, J.-Y. Thibon, _Noncommutative symmetric functions_, Adv. in Math. __112__ (1995), 218&#8211;348, [hep-th/9407124](http://arxiv.org/abs/hep-th/9407124)
 * Jean-Christophe Novelli, Jean-Yves Thibon, _Noncommutative symmetric functions and Lagrange inversion_, [math.CO/0512570](http://arxiv.org/abs/math/0512570); _Noncommutative symmetric functions and an amazing matrix_ [arxiv/1109.1184](http://arxiv.org/abs/1109.1184)
 * Lenny Tevlin, _Noncommutative Monomial Symmetric Functions_, Formal Power Series and Algebraic Combinatorics Nankai University, Tianjin, China, 2007, proceedings [pdf](http://www.fpsac.org/FPSAC07/SITE07/PDF-Proceedings/Talks/83.pdf)
-* D. Krob, J.-Y. Thibon, _Noncommutative symmetric functions IV:
-Quantum linear groups and Hecke algebras at $q = 0$_, [pdf](http://hal.inria.fr/docs/00/05/79/10/PDF/ncsf4.pdf)
+* D. Krob, J.-Y. Thibon, _Noncommutative symmetric functions IV: Quantum linear groups and Hecke algebras at $q = 0$_, [pdf](http://hal.inria.fr/docs/00/05/79/10/PDF/ncsf4.pdf)
+* Christos A. Athanasiadis, _Power sum expansion of chromatic quasisymmetric functions_, [arxiv/1409.2595](http://arxiv.org/abs/1409.2595)
 
 
 ### Long surveys and lecture notes
@@ -48,5 +48,6 @@ Combinatorics and coinvariants_, slides from a talk [pdf](http://garsia.math.yor
 * Lenny Tevlin, _Introduction to quasisymmetric and noncommutative
 symmetric functions_, slides, Fields Institute 2010  [pdf](http://www.fields.utoronto.ca/programs/scientific/10-11/schubert/Noncommutative-Symmetric-and-Quasi-Symmetric-Functions-Fields-2010.pdf)
 
-
+category: cominatorics
 [[!redirects quasi-symmetric functions]]
+[[!redirects quasisymmetric function]]
