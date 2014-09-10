@@ -17,6 +17,8 @@ Dirichlet characters are essentially [[automorphic forms]] for the [[group of id
 
 ## Related concepts
 
+* [[Dirichlet theta function]]
+
 * [[Dirichlet L-function]]
 
 ## References
