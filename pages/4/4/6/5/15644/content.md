@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,7 +15,19 @@
 
 ## Idea
 
-The _Dirichlet L-functions_ are a kind of [[L-function]] induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)). By [[Artin reciprocity]] they are equal to suitable [[Artin L-functions]] induced by 1-dimensional [[Galois representations]].
+The _Dirichlet L-functions_ $L_\chi$ are a kind of [[L-function]] induced by [[Dirichlet characters]] $\chi$ 
+
+$$
+  L_\chi(s) \coloneqq \underoverset{n=1}{\infty}{\sum} \chi(n)n^{-s}
+  \,.
+$$
+
+(e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11), [Continuations](#Continuations)). 
+
+The completion of this by a [[Gamma function]] factor (and a power of $\pi$ and of the [[conductor]]) is the [[Mellin transform]] of the [[Dirichlet theta function]] (e.g. [Continuations, p. 8](#Continuations)).
+
+
+By [[Artin reciprocity]] Dirichlet L-function are equal to suitable [[Artin L-functions]] induced by 1-dimensional [[Galois representations]].
 
 In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theory]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
 
@@ -40,6 +51,8 @@ The differential geometric analog of a Dirichlet-L function is the _[[eta functi
 ## References
 
 * E. Kowalski, section 1.3 of  _Automorphic forms, L-functions and number theory (March 12&#8211;16) Three Introductory lectures_ ([pdf](http://www.math.ethz.ch/~kowalski/lectures.pdf))
+
+* {#Continuations} section 3 of _Continuations and functional equations_ ([pdf](http://people.reed.edu/~jerry/361/lectures/feqn.pdf))
 
 * Wikipedia, _[Dirichlet L-function](http://en.wikipedia.org/wiki/Dirichlet_L-function)_
 
