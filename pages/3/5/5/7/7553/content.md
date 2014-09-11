@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,7 +22,9 @@ In the [[first order formulation of gravity]] the field of [[gravity]] is modele
 
 There is a constraint on this data. Usually the $so(d,1)$-connection is required to be the [[Levi-Civita connection]] corresponding to the [[pseudo-Riemannian metric]] encoded by the vielbein, hence the unique metric compatible connection with vanishing [[torsion]] but in general non-vanishing curvature.
 
-But to some extent one may instead impose a dual constraint and demand the connection to be the _[[Weitzenböck connection]]_, which has vanishing [[curvature]], but in general non-vanishing [[torsion]]. This formulation of gravity is called _teleparallel gravity_, because by flatness of the connection, its [[parallel transport]] is trivial and hence [[tangent vectors]] at different points of [[spacetime]] may consistently be compared without specifying a [[path groupoid|path]] between them, hence without first [[parallel transport|parallel transporting]] one to the other. This "parallelism at a distance" is what gives teleparallel gravity its name.
+But to some extent one may instead impose a dual constraint and demand the connection to be the _[[Weitzenböck connection]]_, which has vanishing [[curvature]], but in general non-vanishing [[torsion]]. This formulation of gravity is called _teleparallel gravity_, because by flatness of the connection, its [[parallel transport]] is trivial and hence [[tangent vectors]] at different points of [[spacetime]] may consistently be compared without specifying a [[path groupoid|path]] between them, hence without first [[parallel transport|parallel transporting]] one to the other. This "parallelism at a distance" is what gives teleparallel gravity its name. 
+
+Notice that under some conditions a manifold being flat (i.e. admitting a flat connection on its tangent bundle) implies that it is a [[parallelizable manifold]], hence that the tangent bundle is actually trivializable. Sufficient such condition is notably that the flat manifold is also [[simply connected topological space|simply connected]], but this may be relaxed ([Thorpe 65](#Thorpe65)). Some authors may explicitly assume for teleparallel gravity that the tangent bundle is trivialized by the [[vielbein field]] (making it a [[framed manifold]]), though authors in the physics literature tend to be vague on this point.
 
 At least without coupling to matter, the teleparallel formulation is locally classically equivalent to the ordinary formulation in [[first order formulation of gravity]] in that inserting in the [[Euler-Lagrange equations]] for the [[vielbein]]+[[Weitzenböck connection]] the expression of the latter in terms of the [[Levi-Civita connection]] one reaobtains the ordinary [[Einstein equations]].
 
@@ -46,3 +47,7 @@ The [[Schwarzschild spacetime]] in the context of teleparallel gravity is discus
 
 * Gheorghe Zet, _Schwarzschild solution on spacetime with torsion_ ([arXiv:gr-qc/0308078](http://arxiv.org/abs/gr-qc/0308078))
 
+
+The relation between flat tangent connections and parallelizablity is discussed in 
+
+* {#Thorpe65} [[John Thorpe]], _Parallelizablility and flat manifolds_, 1965 ([[ThorpeParallelizable.pdf:file]])
