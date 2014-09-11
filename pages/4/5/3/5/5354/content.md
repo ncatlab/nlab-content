@@ -91,6 +91,9 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 * [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]], [[étale homotopy]]
 
+* The [[lisse-étale site]] of some $X$ consists of [[smooth morphisms]] $U \to X$.
+
+
 [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
 
 * [[pro-étale site]]
