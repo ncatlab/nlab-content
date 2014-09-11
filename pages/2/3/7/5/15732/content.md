@@ -77,7 +77,7 @@ $$
 $$
 
 Then this line bundle is the [[determinant line bundle]] of $H$.
-([Quillen 85](#Quillen85)), review includes ([Qiu 12, section 2.8.1](#Qiu12)).
+([Quillen 85](#Quillen85)), review includes ([Freed 87, p. 18](#Freed87), [Qiu 12, section 2.8.1](#Qiu12)).
 
 The [[Chern connection]] is
 
@@ -103,5 +103,8 @@ For instance
 
 * {#Quillen85} [[Daniel Quillen]], _Determinants of Cauchy-Riemann Operators over a Riemann Surface_, Functional Anal.
 Appl. 19 (1985) 31.
+
+* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
 
 * {#Qiu12} Jia Qiu, section 2.8 of _Lecture notes on topological field theory_ [arXiv:1201.5550](http://arxiv.org/abs/1201.5550)
