@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -61,6 +60,8 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 ## Related concepts
 
 * [[Kodaira vanishing theorem]]
+
+* [[Chern connection]]
 
 * [[Kähler polarization]]
 
