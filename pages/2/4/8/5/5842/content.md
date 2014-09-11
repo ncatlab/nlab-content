@@ -67,6 +67,12 @@ Every [[open immersion of schemes]] is formally etale hence a fortiori formally 
 
 Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}$ of relative [[Kahler differential]]s is zero.
 
+## Related concepts
+
+* [[ramification of ideals]]
+
+* [[formally unramified morphism]]
+
 ## Literature
 
 * Ogus, _Unramified morphisms_, [pdf](http://math.berkeley.edu/~ogus/Math%20_256A--08/unramif.pdf), notes from a course on algebraic geometry at Berkeley
