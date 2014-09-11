@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -62,6 +61,30 @@ is the [[generating functional]] for [[n-point functions]]. (...)
 e.g. ([Scrucca, section 1.6](#Scrucca), [Edelstein 13, page 2](#Edelstein13))
 
 
+### As holomorphic potential for Determinant line bundle
+
+Regarding
+
+$$
+  h \coloneqq \frac{1}{2} det_{reg}H
+$$
+
+as a holomorphic potential for a hermitian structure on a [[holomorphic line bundle]], then this is the [[determinant line bundle]] of $H$.
+
+The [[Chern connection]] is
+
+$$
+  A = \partial log(h) = \partial \frac{1}{2} det_{reg}H = \partial Z
+$$
+
+and the [[curvature]] [[differential 2-form]] is 
+
+$$
+  F = i \bar \partial\partial Z
+  \,.
+$$
+
+[Quillen 85](#Quillen85), review includes section 2.8.1 of [arXiv:1201.5550](http://arxiv.org/abs/1201.5550)
 
 ## References
 
@@ -70,3 +93,6 @@ For instance
 * {#Scrucca} Claudio Scrucca, section 1.6 in _Advanced quantum field theory_ [pdf](http://itp.epfl.ch/webdav/site/itp/users/181759/public/aqft.pdf)
 
 * {#Edelstein13} [[José Edelstein]], page 2 of _Lecture 8: 1-loop closed string vacuum amplitude_, 2013 ([pdf](http://www-fp.usc.es/~edels/Strings/Lect8Str.pdf))
+
+* {#Quillen85} [[Daniel Quillen]], _Determinants of Cauchy-Riemann Operators over a Riemann Surface_, Functional Anal.
+Appl. 19 (1985) 31.
