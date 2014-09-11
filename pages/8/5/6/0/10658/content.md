@@ -33,7 +33,11 @@ The [[automorphism infinity-group]] of either side therefore naturally [[infinit
 [[Grothendieck-Teichmüller group]], a [[quotient]] of the [[motivic Galois group]]. 
 Related to this in some way is [[Alain Connes]]' "[[cosmic Galois group]]" [[action|acting]] on the space of [[renormalization|renormalizations]] of [[perturbative quantum field theory]]. 
 
-According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] (see also at _[[amplituhedron]]_) in [[perturbative field theory]], see the motive-related references at _[[Feynman diagram]]_, at _[[motivic multiple zeta values]] _[[motivic L-function]]_.
+According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] (see also at _[[amplituhedron]]_) in [[perturbative field theory]]. 
+
+More concretely, [[scattering amplitudes]] typically are expressions in [[multiple zeta values]] and handling them involves intricicate combinatorics. By just re-expressing these in terms of [[motivic multiple zeta values]] (see the rerferences) much of the combinatorics becomes more tractable (in terms of some [[Hopf algebra]]). This is how "motivic" structures are used by many practicioners. The actual [[motives]] do not play much of a role in these computations, but one makes use of the combinatorial simplification obtained by re-expressing multiple zeta values by their motivic version.
+
+For more see the motive-related references at _[[Feynman diagram]]_, at _[[motivic multiple zeta values]]_ and at _[[motivic L-function]]_.
 
 
 ### Via non-perturbative geometric quantization
