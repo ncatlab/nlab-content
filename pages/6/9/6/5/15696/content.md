@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -146,11 +145,16 @@ Original articles include
 
 Modern accounts and reviews include
 
+* {#Freed87} [[Daniel Freed]], page 8 of _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
+
 * {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
 
 * {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
 
 * {#Robles09} [[Nicolas Robles]], _Zeta function regularization_, 2009 ([[RoblesZetaRegularization.pdf:file]])
+
+
 
 See also 
 
