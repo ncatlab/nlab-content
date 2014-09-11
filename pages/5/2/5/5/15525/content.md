@@ -21,6 +21,10 @@ HEre $\iota(J)A$ will be a product of powers of [[prime ideals]] of $A$, and the
 
 * [[Kummer's theorem]]
 
+* [[unramified morphism]]
+
+* [[formally unramified morphism]]
+
 ## References
 
 * {#Snyder02} [[Noah Snyder]], section 1.5.2 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
