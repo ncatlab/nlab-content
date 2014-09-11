@@ -1,10 +1,17 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
@@ -15,15 +22,23 @@
 
 ## Idea
 
-The _Hitchin connection_ is a [[projectively flat connection]] over the [[moduli space of Riemann surfaces]] whose [[fiber]] of a [[conformal structure]] $\Sigma$ is the [[space of quantum states]] with [[geometric quantization]] assigns to the induced [[Kähler polarization]] on the [[moduli space of flat connection]] on $\Sigma$.
+For $G$ a [[compact Lie group]] and $\Sigma$ a [[surface]], the _Hitchin connection_ ([Hitchin 90](#Hitchin90)) is a [[projectively flat connection]] over the [[moduli space of Riemann surfaces]] $\mathcal{M}_\Sigma$ whose [[fiber]] over a [[complex structure]] on $\Sigma$ is a [[space of quantum states]] which [[quantization of Chern-Simons theory]] for [[gauge group]] $G$ assigns to the induced [[Kähler polarization]] on the [[moduli space of flat connection]] $Loc_G(\Sigma)$ (the [[phase space]] of [[Chern-Simons theory]]), hence whose fiber is the space of [[holomorphic sections]] of the [[prequantum line bundle]] of the CS theory with respect to the induced K&#228;hler structure on $Loc_G(\Sigma)$ (induced, for abelian $G$, via the [Weil complex structure](intermediate+Jacobian#WeilIntermediateJacobian) and in the general nonabelian case via the [[Narasimhan-Seshadri theorem]]/[[Donaldson-Uhlenbeck-Yau theorem]]).
 
-Hence this is a flat connection that exhibits the relative independence of the [[geometric quantization]] of [[Chern-Simons theory]] from the choice of [[polarization]]. It is akin to the _[[Knizhnik-Zamolodchikov connection]]_, which serves the same purpose.
+Therefore the existence and (projective) flatness of the Hitchin connection exhibits the relative independence of the [[geometric quantization]] of [[Chern-Simons theory]] from the choice of [[polarization]]. 
 
-A review is in ([Lauridsen 10, section 2](#Lauridsen10)).
+The Hitchin connection is akin to the _[[Knizhnik-Zamolodchikov connection]]_, which is built by thinking [[AdS3-CFT2 and CS-WZW correspondence|holographic dually]] of the vector bundle of [[conformal blocks]] of the corresponding $G$-[[Wess-Zumino-Witten model]] [[2d CFT]] on $\Sigma$. 
+
+A more axiomatic characterization of such projectively flat connections in terms of [[modular functors]] is due to ([Segal 88, prop. 5.4](#Segal88)). See ([Segal 88, around (5.9)](#Segal88)) for discussion of how to turn these projectively flat connections into genuine [[flat connections]].
+
+Reviews of the Hitchin connection include ([Lauridsen 10, section 2](#Lauridsen10)).
 
 ## Related concepts
 
-* [[Narasimhan–Seshadri theorem]]
+* [[quantization of Chern-Simons theory]]
+
+* [[AdS3-CFT2 and CS-WZW correspondence]]
+
+* [[modular functor]]
 
 ## References
 
@@ -33,6 +48,11 @@ The original article is
 * {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, : Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
  
 (What is now called the Hitchin connection appears in theorem 3.6 there, its expression in local coordinates is around (3.15). That for abelian gauge group $U(1)$ the classical [[Riemann theta functions]] constitute the covariantly constant sections of the Hitchin connection in these coordinates is remark 4.12.)
+
+More axiomatic/abstract discussion of these projectively flat connections in terms of [[modular functors]] is in 
+
+* {#Segal88} [[Graeme Segal]], section 5 of _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
+
 
 More explicit expressions are discussed in 
 
