@@ -93,6 +93,8 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 ## Related concepts
 
+* [[lisse-étale site]]
+
 * [[geometric stack]]
 
   * **algebraic stack**
