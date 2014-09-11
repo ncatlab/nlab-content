@@ -1,0 +1,7 @@
+
+## References
+
+* [[ChernConnections.pdf:file]]
+
+
+[[!redirects Chern connections]]
