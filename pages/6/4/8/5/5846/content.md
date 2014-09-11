@@ -12,7 +12,6 @@
 =--
 =--
 =--
-=--
 
 
 #Contents#
@@ -27,6 +26,8 @@ A [[space]] $X$ is called **formally unramified** if every [[morphism]] $Y \to X
 
 Traditionally this has been considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>. This we discuss in the section 
 [General abstract notion](#GeneralAbstractNotion).
+
+The concept of formally unramified morphisms is the infinitesimal version of that of [[unramified morphisms]].
 
 ## General abstract notion
  {#GeneralAbstractNotion}
@@ -129,6 +130,8 @@ For the moment see the discussion at [[unramified morphism]].
 ## Related concepts
 
 * [[unramified morphism]]
+
+* [[ramification of ideals]]
 
 * [[formally smooth morphism]] and **formally unramified morphism** $\Rightarrow$ [[formally etale morphism]].
 
