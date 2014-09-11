@@ -38,7 +38,7 @@ Original formulations include
 * {#Segal89} [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_, in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol
 1989, pp. 22-37
 
-* {#Segal04} [[Graeme Segal]], _The definition of conformal field theory_, Topology, geometry and quantum field theory London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, (2004), 421-577
+* {#Segal04} [[Graeme Segal]], section 5 of _The definition of conformal field theory_, Topology, geometry and quantum field theory London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, (2004), 421-577 ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
 
 * [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112
 
