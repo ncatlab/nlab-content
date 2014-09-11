@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,6 +17,10 @@
 {: toc}
 
 ## Definition
+
+In the general terminology of _$n$-[[framing]]_ then a _2-framing_ of a [[manifold]] $\Sigma$ of [[dimension]] $d \leq 2$ is a trivialization of $T \Sigma \oplus \mathbb{R}^{2-d}$.
+
+In ([Atiyah 90](#Atiyah1990)) the term "2-framing" is instead used for a trivialization of the double of the tangent bundle of a 3-manifold. So this is a different concept, but it turns out to be closely related to the _3-framing_ (in the previous sense) of surfaces.
 
 For $X$ a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]], write 
 
@@ -59,7 +62,7 @@ Therefore the following definition makes sense
 +-- {: .num_defn}
 ###### Definition
 
-A **2-framing** on a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]] $X$ is the [[homotopy class]] of a trivializations of the [[spin-group]]-[[principal bundle]] underlying [[Whitney sum|twice]] its [[tangent bundle]].
+A **2-framing** in the sense of ([Atiyah 90](#Atiyah1990)) on a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]] $X$ is the [[homotopy class]] of a trivializations of the [[spin-group]]-[[principal bundle]] underlying [[Whitney sum|twice]] its [[tangent bundle]].
 
 =--
 
@@ -104,7 +107,7 @@ $$
 ### Relation to bounding 4-manifolds
  {#RelationToBounding4Manifolds}
 
-In ([Atiyah](#Atiyah1990)) it is shown how a framing on a compact connected oriented 3-manifold $X$ is induced a 4-manifold $Z$ with [[boundary]] $\partial Z \simeq X$. In fact, a framing is equivalently a choice of [[cobordism]] class of bounding 4-manifolds ([Kerler](#Kerler)).
+In ([Atiyah](#Atiyah1990)) it is shown how a framing on a compact connected oriented 3-manifold $X$ is induced by a 4-manifold $Z$ with [[boundary]] $\partial Z \simeq X$. In fact, a framing is equivalently a choice of [[cobordism]] class of bounding 4-manifolds ([Kerler](#Kerler)).
 
 Discussion of 2-framing entirely in terms of bounding 4-manifolds is for instance in ([Sawin](#Sawin)).
 
@@ -128,10 +131,10 @@ This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#
 
 ## References
 
-The notion of "2-framing" is due to
+The notion of "2-framing" in the sense of framing of the double of the tangent bundle is due to
 
-* [[Michael Atiyah]], _On framings of 3-manifolds_ , Topology, Vol. 29, No 1, pp. 1-7 (1990) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
-  {#Atiyah1990}
+* {#Atiyah1990} [[Michael Atiyah]], _On framings of 3-manifolds_ , Topology, Vol. 29, No 1, pp. 1-7 (1990) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
+  
 
 making explicit a structure which slightly implicit in the discussion of the [[path integral]] of [[Chern-Simons theory]] in 
 
@@ -155,11 +158,11 @@ The relation to [[string structures]] is made explicit in section 2.3 of
 
 Discussion in terms of bounding 4-manifolds is in 
 
-* Thomas Kerler, _Bridged links and tangle presentations of cobordism categories_. Adv. Math., 141(2):207&#8211;281, (1999) ([arXiv:math/9806114](http://arxiv.org/abs/math/9806114))
- {#Kerler}
+* {#Kerler}Thomas Kerler, _Bridged links and tangle presentations of cobordism categories_. Adv. Math., 141(2):207&#8211;281, (1999) ([arXiv:math/9806114](http://arxiv.org/abs/math/9806114))
+ 
 
-* Stephen F. Sawin, _Three-dimensional 2-framed TQFTS and surgery_ (2004) ([pdf](http://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1020&context=mathandcomputerscience-facultypubs))
- {#Sawin}
+* {#Sawin} Stephen F. Sawin, _Three-dimensional 2-framed TQFTS and surgery_ (2004) ([pdf](http://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1020&context=mathandcomputerscience-facultypubs))
+ 
 
 and page 9 of 
 
