@@ -7,6 +7,10 @@
 
 A generalization of the [[Hasse-Weil L-functions]] to more general [[motives]].
 
+## Related concepts
+
+* [[motivic multiple zeta function]]
+
 ## References
 
 ### General
