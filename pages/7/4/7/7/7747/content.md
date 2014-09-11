@@ -120,7 +120,11 @@ The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of 
 
 * [[moduli space of framed manifolds]]
 
+* [[teleparallel gravity]]
+
 ## References
+
+### General
 
 Rieview in the context of the [[Kervaire invariant]] includes
 
@@ -130,6 +134,10 @@ Rieview in the context of the [[Kervaire invariant]] includes
 The theorem about the parallizablitiy of spheres is due to
 
 * {#Adams58} [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
+
+Relation to existence of [[flat connections]] on the [[tangent bundle]] is discussed in 
+
+* {#Thorpe65} [[John Thorpe]], _Parallelizablility and flat manifolds_, 1965 ([[ThorpeParallelizable.pdf:file]])
 
 ### For 2-manifolds
 
