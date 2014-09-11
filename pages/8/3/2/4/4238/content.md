@@ -221,11 +221,11 @@ The concept is essentially a formalization of what used to be called [[cohomolog
 
 The definition was given independently by 
 
-* [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
+* {#Getzler92} [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
 
 and 
 
-* G. Segal, _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
+* [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
 The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
@@ -249,20 +249,20 @@ Here are notes from a seminar on these definitions and results:
 
 Discussion of the construction of TCFTs from differential forms on moduli space and the way this induces by "[[second quantization]]" effective background Chern-Simons theories is in
 
-* [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv:math/0605647](http://arxiv.org/abs/math/0605647))
- {#Costello06}
+* {#Costello06} [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv:math/0605647](http://arxiv.org/abs/math/0605647))
+ 
 
 formalizing at least aspects of the observations in
 
-* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
- {#Witten92}
+* {#Witten92} [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
+ 
 
 * P.A. Grassi, G. Policastro, _Super-Chern-Simons Theory as Superstring Theory_ ([arXiv:hep-th/0412272](http://arxiv.org/abs/hep-th/0412272))
 
 Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]] is in 
 
-* M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140))
- {#BCOV93}
+* {#BCOV93} M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140))
+ 
 
 * [[Kevin Costello]], Si Li, _Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model_ ([arXiv:1201.4501](http://arxiv.org/abs/1201.4501))
 
