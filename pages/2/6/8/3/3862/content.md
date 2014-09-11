@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -159,8 +158,11 @@ In dimens&#238;on $8k+2$ for $k \in \mathbb{N}$ the determinant line bundle has 
 
 ### From fermionic path integrals
 
-See [[fermionic path integral]].
+See at _[[fermionic path integral]]_.
 
+### Relation to vacuum energy, partition function
+
+See at _[[vacuum energy]]_
 
 ## Related concepts
 
