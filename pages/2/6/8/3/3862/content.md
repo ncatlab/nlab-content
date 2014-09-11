@@ -126,7 +126,7 @@ An explicit version of this statement is for instance in ([GriffithsHarris, p. 4
 
 One can now look at operators $T:E\to F$ where $E,F$ are vector bundles of rank $n$ and the induced operators $\Lambda^n T : \Lambda^n E\to \Lambda^n F$ which can be considered as elements $det T\in (\Lambda^n E)^*\otimes\Lambda^n F$. 
 
-Even more important is the case of when $X$ is replaced by an appropriate [[moduli space of connection]], instantons, holomorphic structures or some other objects related to Fredholm operators for which the determinants can be defined. 
+Even more important is the case of when $X$ is replaced by an appropriate [[moduli space of connections]], instantons, holomorphic structures or some other objects related to Fredholm operators for which the determinants can be defined. 
 
 ## Examples
 
@@ -160,6 +160,11 @@ In dimens&#238;on $8k+2$ for $k \in \mathbb{N}$ the determinant line bundle has 
 
 See at _[[fermionic path integral]]_.
 
+### Relation to theta function
+
+the determinant of the Dirac operator is, up to choice of isomorphism, the [[theta function]]-section of the determinant line bundle ([Freed 87, pages 30-31](#Freed87)).
+
+
 ### Relation to vacuum energy, partition function
 
 See at _[[vacuum energy]]_
@@ -167,6 +172,8 @@ See at _[[vacuum energy]]_
 ## Related concepts
 
 * [[density bundle]]
+
+* [[theta function]]
 
 [[!include square roots of line bundles - table]]
 
@@ -182,13 +189,18 @@ Literature on determinant line bundles of infinite-dimensional bundles includes 
 
 * [[Daniel Quillen|D.G. Quillen]], _Determinants of Cauchy-Riemann operators over a Riemann surface_, Funkcionalnii Analiz i ego Prilozhenija __19__ (1985), 37-41, ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1334&volume=19&year=1985&issue=1&fpage=37&what=fullt&option_lang=eng) of Russian version).
 
-* M. F. Atiyah, I. M. Singer, _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([pdf](http://www.pnas.org/content/81/8/2597.full.pdf) at pnas site)
+  reviewed e.g. in 
 
-* [[Dan Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+  Arlo Caine, _Quillen's construction of Determinants of
+Cauchy&#8211;Riemann operators over Riemann Surfaces_, 2005 ([pdf](http://www.csupomona.edu/~jacaine/pdf/quillen_determinant_notes.pdf))
 
-* J.-M. Bismut, [[Dan Freed]], _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
+* [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([pdf](http://www.pnas.org/content/81/8/2597.full.pdf) at pnas site)
 
-* J-M. Bismut, _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
+* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
+* [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
+
+* [[Jean-Michel Bismut]], _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
 
 * A. Pressley, [[Graeme Segal|G. Segal]], _Loop Groups_, Oxford Math. Monographs, 1986. 
 
@@ -197,4 +209,8 @@ Literature on determinant line bundles of infinite-dimensional bundles includes 
 * [[M. Kontsevich]], S. Vishik, _Geometry of determinants of elliptic operators_, in Functional Analysis on the Eve of the 21st Century. 
 Vol. I (S. Gindikin, et al., eds.) In honor of the 80th birthday of [[Israel Gel'fand|I.M. Gelfand]]. Birkh&#228;user, Progr. Math. __131__ (1993), 173-197, [pdf](http://193.51.104.7/~maxim/TEXTS/geometry_determinants_12.pdf), [hep-th/9406140](http://arxiv.org/abs/hep-th/9406140)
 
-* R. Dijkgraaf, [[Edward Witten|E. Witten]], _Topological gauge theories and group cohomology_, Commun. Math.Phys. __129__, 393--429 (1990), [euclid](http://projecteuclid.org/euclid.cmp/1104180750), [MR1048699](http://www.ams.org/mathscinet-getitem?mr=1048699)
+* [[Robbert Dijkgraaf]], [[Edward Witten|E. Witten]], _Topological gauge theories and group cohomology_, Commun. Math.Phys. __129__, 393--429 (1990), [euclid](http://projecteuclid.org/euclid.cmp/1104180750), [MR1048699](http://www.ams.org/mathscinet-getitem?mr=1048699)
+
+Discussion in the context of the [[modular functor]] is in 
+
+* [[Graeme Segal]], section 5 of _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
