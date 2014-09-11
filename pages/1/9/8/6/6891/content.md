@@ -156,7 +156,7 @@ The relation to [[string structures]] is made explicit in section 2.3 of
 * {#BunkeNaumann} [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_ ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
  
 
-Discussion in terms of bounding 4-manifolds is in 
+More discussion in terms of bounding 4-manifolds is in 
 
 * {#Kerler}Thomas Kerler, _Bridged links and tangle presentations of cobordism categories_. Adv. Math., 141(2):207&#8211;281, (1999) ([arXiv:math/9806114](http://arxiv.org/abs/math/9806114))
  
@@ -167,6 +167,10 @@ Discussion in terms of bounding 4-manifolds is in
 and page 9 of 
 
 * Stephen Sawin, _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_ ([arXiv:math/9910106](http://arxiv.org/abs/math/9910106)).
+
+and more discussion for 3-manifolds with boundary includes
+
+* Thomas Kerler, Volodymyr Lyubashenko, section 1.6.1 of _Non-semisimple topological quantum field theories for 3-manifolds with corners_, Lecture notes in mathematics 2001
 
 See also 
 
