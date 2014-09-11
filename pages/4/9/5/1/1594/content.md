@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -64,6 +63,8 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
+* [[motivation for higher differential geometry]]
+
 * [[orbifold Euler characteristic]]
 
 Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. See also at _[[geometric invariant theory]]_ and _[[GIT-stable point]]_.
@@ -103,11 +104,11 @@ Original sources on orbifolds include
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
-* [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
- {#Moerdijk}
+* {#Moerdijk} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
+ 
 
-* [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf))
-  {#MoerdijkPronk}
+* {#MoerdijkPronk} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf))
+  
 
 * [[Eugene Lerman]], _Orbifolds as stacks?_ ([arXiv](http://arxiv.org/abs/0806.4160))
 
