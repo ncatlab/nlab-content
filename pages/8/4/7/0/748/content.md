@@ -306,7 +306,7 @@ course is also immediately checked explicitly.
 
 * If $\mathcal{C}$ has an initial object $\emptyset$, then $\mathcal{C}_{/X}$ has an [[initial object]], given by $\langle \emptyset \to X\rangle$.
 
-* The [[terminal object]] $\mathcal{C}_{/X}$ is $\mathrm{id}_X$.
+* The [[terminal object]] of $\mathcal{C}_{/X}$ is $\mathrm{id}_X$.
 
 =--
 
