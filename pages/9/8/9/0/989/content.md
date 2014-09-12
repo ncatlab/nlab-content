@@ -27,7 +27,7 @@ is equivalently
 
 * an  $R$-[[module]] $V$ equipped with [[linear maps]] $p : V \otimes V \to V$ and $i : R \to V$ satisfying the associative and unit laws;
 
-* a [[ring]] $A$ [[under category|under]] $R$.
+* a [[ring]] $A$ [[under category|under]] $R$ such that the corresponding map $R \to A$ lands in the [[center]] of $A$.
 
 If there is no danger for confusion, one often says simply 'associative algebra', or even only '[[algebra]]'.
 
