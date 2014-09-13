@@ -53,7 +53,7 @@ This is proven in ([AraMetayer](#AraMetayer)).
 
 The [[model structure on strict ∞-groupoids]] was introduced in
 
-* [[Ronnie Brown]], Marek Golasinski; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0))
+* [[Ronnie Brown]], [[Marek Golasinski]]; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0))
 {#BrownGolasinski}
 
 The model structure on strict $\omega$-categories was discussed in
@@ -67,7 +67,7 @@ Dicussion of cofibrant [[resolution]] in this model structure by [[polygraph]]s/
 
 * [[Francois Métayer]], _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
 
-The relation betwee then model structure on strict $\omega$-categories and that on strict $\omega$-groupoids is established in
+The relation between the model structure on strict $\omega$-categories and that on strict $\omega$-groupoids is established in
 
 * Dimitri Ara, [[Francois Metayer]], _The Brown-Golasinski model structure on strict $\infty$-groupoids revisited_ ([arXiv](http://arxiv.org/abs/1010.2599)) Homology Homotopy Appl. 13 (2011), no. 1, 121&#8211;142. 
 {#AraMetayer}
