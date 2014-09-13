@@ -61,7 +61,7 @@ $$
   \,,
 $$
 
-Under the [[Grothendieck construction]] this functor corresponds the the [[codomain fibration]]
+Under the [[Grothendieck construction]] this functor corresponds to the [[codomain fibration]]
 
 $$
   cod : [I,C] \to C
