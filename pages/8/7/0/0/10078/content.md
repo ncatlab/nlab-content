@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,6 +22,13 @@
 Traditionally the [[perturbation series]]/[[scattering amplitudes]] of a [[quantum field theory]] are defined, given an [[action functional]]/[[local Lagrangian]], by applying the _[[Feynman rules]]_ to the monomial terms in the Lagrangian and deriving from that (via "[[second quantization]]") a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]].
 
 In what is called the _worldline formalism_ of [[quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives on the graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
+
+Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which turns the [[partition function]] of a worldline theory, schematically of the form $t \mapsto Tr\, \exp(-t H)$ (for $H$ the [[Hamiltonian]]/[[wave operator]]) into the [[zeta function regularization|zeta regulated]] [[Feynman propagator]]
+
+$$ 
+  \hat \zeta_H(s)  = \int_0^\infty Tr_{reg} \exp(-t H) t^{s-1} d t = Tr_{reg} H^{-s}
+  \,.
+$$
 
 This worldline formalism is equivalent to the traditional formulation. It has the conceptial advantage that it expresses the QFT (in [[perturbation theory]]) more manifestly as a [[second quantization]] of its particle content given explicitly of the [[superposition]] of all 1-particle processes.
 
