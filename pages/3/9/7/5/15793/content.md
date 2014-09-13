@@ -33,7 +33,7 @@ $$
   }
 $$
 
-[[commuting diagram|commutes]]. (This funcotriality of the tangent bundle construciton is incidentally also the incarnation of the [[chain rule]] (see there) of [[differentiation]]).
+[[commuting diagram|commutes]]. (This functoriality of the tangent bundle construciton is incidentally also the incarnation of the [[chain rule]] (see there) of [[differentiation]]).
 
 Formally, there is a [[category]] of fiber bundles over manifolds with [[morphisms]] the morphisms of bundles covering morphisms of the base spaces, and there is a [[forgetful functor]] from that to the category of manifolds. A natural bundle is a [[section]] of this forgetful functor.
 
