@@ -141,6 +141,7 @@ $$
 
 are bijective and inverse to each other. This correspondence reverses the inclusion relation: $K$ corresponds to $G$ and $L$ to $\{id_L\}$.
 
+
 If $E$ corresponds to $H$, then we have
 
 1. $K \subset E$ is finite precisely if $H$ is open (in the profinite topology on $G$)
@@ -384,9 +385,22 @@ Accordingly in [[topos theory]] Galois theory is generally about the classificat
 
 ### Higher topos theoretic Galois theory
 
-In the context of [[higher topos theory]], there are accordingly higher analogs of Galois theory.
+In the context of [[higher topos theory]], there are accordingly higher analogs of Galois theory. According to [[shape of an (∞,1)-topos|shape theory]], any [[(∞,1)-topos]] $\mathbf{H}$ has an associated fundamental ∞-groupoid $\Pi(\mathbf{H})$, which in general is a [[pro-space]] whose $1$-truncation $\Pi_1(\mathbf{H})$ is the ordinary fundamental groupoid of the underlying [[1-topos]]. Classical topos-theoretic Galois theory states that locally constant sheaves (of sets) on a locally connected topos are equivalent to representations of $\Pi_1(\mathbf{H})$, i.e., functors $\Pi_1(\mathbf{H})\to Set$. This generalizes to higher topoi as follows:
 
-For aspects see
++-- {: .num_theorem }
+###### Theorem
+
+Let $\mathbf{H}$ be a [[locally n-connected (n+1,1)-topos]], $-1\leq n\leq \infty$. Then there is an equivalence of categories
+
+$$
+\mathbf{H}^lc \simeq \Fun(\Pi_{n+1}(\mathbf{H}), n Grpd),
+$$
+
+where $\mathbf{H}^{lc}\subset\mathbf{H}$ is the subcategory of locally constant objects.
+
+=--
+
+This generalization of Galois theory is discussed in [Hoyois 13](#Hoyois13). For further discussion in the case $n=\infty$, see
 
 * [[cohesive (infinity,1)-topos -- structures]] -- [Galois theory](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#GaloisTheory)
 
@@ -454,7 +468,10 @@ See also
 * _[The Galois Theory Web Page](http://www.math.upenn.edu/~galois/)_
 
 * [Wikipedia: Galois theory](http://en.wikipedia.org/wiki/Galois_theory)
+
 * Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
+
+* {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
 
 
 category:Galois theory
