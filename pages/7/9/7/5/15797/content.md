@@ -1,0 +1,9 @@
+Sam Gitler was a Mexican algebraic topologist. He was very important not only for his contribution to Yang-Mills theory and the Brown-Gitler spectrum, but also for his creation, with Adem of the school of algebraic topology in Mexico.
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Samuel_Gitler_Hammer)
+
+
+category:people
+
+[[!redirects Sam Gitler]]
