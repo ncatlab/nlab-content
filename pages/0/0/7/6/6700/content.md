@@ -21,6 +21,7 @@ To get an actual collection of correlators one has to choose from each space of 
 
 Dually, under a [[holographic principle]] such as [[AdS3-CFT2 and CS-WZW correspondence|CS3/WZW2]] the space of [[conformal blocks]] on $\Sigma$ is equivalently the [[space of quantum states]] of the [[TQFT]] on $\Sigma$. See at _[[quantization of 3d Chern-Simons theory]]_ for more on this.
 
+
 ## Definition
 
 +-- {: .num_defn #CategoryOfRiemannSurfaces}
@@ -76,6 +77,31 @@ such that
 
 ## Properties
 
+### Central charge and Central extensions
+
+Any modular functor defines a [[central extension]] of the [[semigroup]] of conformal [[annuli]].  
+
+These correspond precisely to [[group extensions]] of $Diff^+(S^1)$ by $\mathbb{C}^\times$.
+
+([Segal 04, prop. 5.6](#Segal04))
+
+
+These in turn are classified by $(c,h) \in \mathbb{C} \times \mathbb{C}/\mathbb{Z}$.
+
+([Segal 04, prop. 5.8](#Segal04))
+
++-- {: .num_defn #CentralCharge}
+###### Definition
+
+Here in terms of standard [[2d CFT]] terminology 
+
+*$c$ is the _central charge_ 
+
+*$h$ is the [[eigenvalues]] of $L_0$.
+
+=--
+
+
 ### The Knizhnik&#8211;Zamolodchikov-Hitchin connection
 
 +-- {: .num_prop #TheProjFlatConnection}
@@ -90,9 +116,18 @@ Given a modular functor $E$ as in def. \ref{ModularFunctor} and given a non-[[cl
 +-- {: .num_remark}
 ###### Remark
 
-When thinking of the modular functor $E$ as the functor of [[conformal blocks]] of a [[2d CFT]] then the projectively flat connection of prop. \ref{TheProjFlatConnection} would often be called the _[[Knizhnik-Zamolodchikov connection]]_. Thining of $E$ dually as the functor assigning [[spaces of quantum states]] of [[Chern-Simons theory]] then it would typically be called the [[Hitchin connection]].
+When thinking of the modular functor $E$ as the functor of [[conformal blocks]] of a [[2d CFT]] then the projectively flat connection of prop. \ref{TheProjFlatConnection} would often be called the _[[Knizhnik-Zamolodchikov connection]]_. Thining of $E$ dually as the functor assigning [[spaces of quantum states]] of [[Chern-Simons theory]] then it would typically be called the [[Hitchin connection]]. (see also [Segal 04, p. 44](#Segal04)).
 
 =--
+
++-- {: .num_pro #FlatConnectionForVanishingCentralCharge}
+###### Proposition
+
+The connection of prop. \ref{TheProjFlatConnection} is a genuine [[flat connection]] (not projective) precisely if the central charge, \ref{CentralCharge}, vanishes.
+
+=--
+
+([Segal 04, below prop. 5.4](#Segal04))
 
 ### The Verlinde fusion alegbra
 
@@ -123,12 +158,51 @@ The _[[Verlinde algebra]]_.
 ([Segal 04, section 5, p. 36-37](#Segal04))
 
 
+### Deprojectivization, Cancelling of central charge, topological modular functor
+
+By prop. \ref{FlatConnectionForVanishingCentralCharge} and prop. \ref{CentralChargeOfDeterminantLine}, if $E$ is a modular functor of central charge $c$ then the [[tensor product]]
+
+$$
+  \tilde E \coloneqq E \otimes Det^{\otimes c/2}
+$$
+
+with a possibly fractional power of the [[determinant line bundle]], def. \ref{PowerOfDeterminantLine}, produces a modular functor with vanishing central charge.
+
+To make sense of this however one needs to consistently define the fractional power. This requires passing to surfaces equipped with a rigging structure or equivalent...
+
 ## Examples
 
 ### Powers of the determinant line
 
-(...)
++-- {: .num_defn #PowerOfDeterminantLine}
+###### Definition
 
+For $n \in \mathbb{Z}$ let $E = Det^{\otimes n}$ be the functor which sends a [[Riemann surface]] to the $c$th power of its [[determinant line]] (i.e. that of its [[Laplace operator]]). 
+
+=--
+
++-- {: .num_defn }
+###### Proposition
+
+The determinant lines of def. \ref{PowerOfDeterminantLine} constitute precisely the modular functors, def. \ref{ModularFunctor}, for which $dim(E(X)) = 1$ for all $X$.
+
+=--
+
+([Segal 04, corollary (5.17)](#Segal04))
+
++-- {: .num_prop #CentralChargeOfDeterminantLine}
+###### Proposition
+
+The central charge, def. \ref{CentralCharge}, of the determinant line $E = Det$, def. \ref{PowerOfDeterminantLine}, is
+
+$$
+ (c,h ) = (-2,0)
+  \,.
+$$
+
+=--
+
+([Segal 04, p.43](#Segal04))
 
 ## Related concepts
 
