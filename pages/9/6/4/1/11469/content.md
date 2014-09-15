@@ -138,17 +138,25 @@ Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[f
 
 * Wikipedia, _[Weil conjecture on Tamagawa numbers](https://en.wikipedia.org/wiki/Weil_conjecture_on_Tamagawa_numbers)_
 
-A proof of the [[function field]] case was announced in 
+### Work of Gaitsgory-Lurie
+
+A proof of the [[function field]] case is discussed in
+
+* [[Dennis Gaitsgory]], [[Jacob Lurie]], _Weil's conjecture for function fields_, [pdf](http://www.math.harvard.edu/~lurie/papers/tamagawa.pdf).
+
+The proof was announced in 
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincar&#233; Duality_, talk at  [FRG Chern-Simons workshop](http://people.mpim-bonn.mpg.de/teichner/Older/FRG-3.html), Jan. 15-17, 2011
 
-The proof is outlined in the lecture notes
+and is outlined in the lecture notes
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality (282y)_, lecture notes, 2014 ([web](http://www.math.harvard.edu/~lurie/282y.html))
 
-See also the lecture notes
+See also the shorter lecture notes
 
 * [[Jacob Lurie]], _Tamagawa numbers via nonabelian Poincare duality_, 5 lectures at [Young Topologists Meeting 2014](http://www.math.ku.dk/english/research/conferences/2014/ytm2014), notes taken by [[Aaron Mazel-Gee]], [pdf](http://math.berkeley.edu/~aaron/livetex/lurie-tamagawa-poincare.pdf).
+
+### Previous work
 
 The idea of the relationship between [[Tamagawa numbers]] and [[moduli spaces]] of [[vector bundles]] goes back to [[Günter Harder]], who primarily considered the case $G = SL_n$.
 
