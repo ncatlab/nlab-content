@@ -90,7 +90,7 @@ for homogeneous $a,b \in A$.
 
 A derivation $\theta$ of an augmented algebra, $(A, \varepsilon)$, is an algebra derivation which, in addition, satisfies $\varepsilon \theta = 0$.
 
-Let $Der_p(A)$ be the vector space of derivations of degree $p$ of $A$, then $Der(A) = \bigoplus_pDer_p(A)$ is a pre-gvs.
+Let $Der_p(A)$ be the vector space of derivations of degree $p$ of $A$, then $Der(A) = \bigoplus_p Der_p(A)$ is a pre-gvs.
 
 #### N.B.
 
@@ -132,13 +132,13 @@ There is an augmented variant, of course.  These definitions give categories $CD
 
 #### $n$-connectivity
 
-An $\varepsilon$cdga $(A,d)$ is _$n$-connected_ (resp. _cohomologically $n$-connected_ if $\bar{A}^p = 0 $ for $p\leq n$, (resp. $\overline{H(A,d)}^p = 0$ for $p\leq n$).  This gives subcategories $CDGA^n$ and $CDGA^{cn}$.
+An $\varepsilon$cdga $(A,d)$ is _$n$-connected_ (resp. _cohomologically $n$-connected_ if $\bar{A}^p = 0 $ for $p\leq n$, (resp. $\overline{H(A,d)}^p = 0$ for $p\leq n$).  This gives subcategories $CDGA^n$ and $CDGA^{c n}$.
 
 
 
 #### Filtrations
 
-A filtration on a pre-ga, $A$, is a filtration on $A$, so that $F_pA \subseteq F_{p+1}A$, $F_pA.F_nA \subseteq F_{p+n}A$ (and, if $A$ is differential, also $\partial F_pA \subseteq F_pA$).
+A filtration on a pre-ga, $A$, is a filtration on $A$, so that $F_p A \subseteq F_{p+1}A$, $F_p A.F_n A \subseteq F_{p+n}A$ (and, if $A$ is differential, also $\partial F_p A \subseteq F_p A$).
 
 
 
@@ -154,7 +154,7 @@ $$F^0 A = A, \quad F^p A = Im\bar{\mu}^{(p-1)}  if p\geq 1.$$
 
 $Q(A) = \bar{A}/Im\bar{\mu}$ is the _space of indecomposables_ of A.
 
-If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVS.$
+If $(A,\partial)$ is an augmented pre-dga, $F^p A$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVS.$
 
 
 #### Free GAs: $T(V)$, the tensor algebra
