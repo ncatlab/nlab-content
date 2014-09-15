@@ -100,7 +100,7 @@ $$
   \iota \colon FrechetManifolds \to DiffeologicalSpaces
 $$
 
-from Fr&#233;chet manifolds to [[diffeological spaces]]
+from Fr&#233;chet manifolds to [[diffeological spaces]] (and hence to [[smooth spaces]] and  [[smooth stacks]])
 in the evident way by taking for $X$ a [[Fréchet manifold]] for any $U \in $ [[CartSp]] the set of $U$-plots of $\iota(X)$ to be the set of smooth functions $U \to X$.
 
 =--
