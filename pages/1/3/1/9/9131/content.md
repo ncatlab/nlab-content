@@ -81,11 +81,12 @@ Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanto
 and the issue is highlighted more explicitly in 
 
 * {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
-in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 (pdf to appear here shortly) 
+in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) 
 
-A discussion of the problems of the traditional notion and its recification in [[higher geometry]] is in the section _[Fields](geometry%20of%20physics#Fields)_ at 
+* [[Urs Schreiber]], _Higher field bundles for gauge fields_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[schreiber:Higher field bundles for gauge fields|web]])
 
-* _[[geometry of physics]]_
+A discussion of the problems of the traditional notion and its rectification in [[higher geometry]] is at
 
+* section _[Fields](geometry%20of%20physics#Fields)_ of _[[geometry of physics]]_
 
 [[!redirects field bundles]]
