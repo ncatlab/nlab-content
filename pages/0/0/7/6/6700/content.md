@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -180,7 +179,7 @@ For instance the category of surfaces equipped with a choice of [[universal cove
 
 =--
 
-([Segal 04, def. (5.10) and following](#Segal04))
+([Segal 04, def. (5.10) and following](#Segal04), also [Bakalov-Kirillov, def. 5.7.5](#BakalovKirillov))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -268,7 +267,7 @@ Original formulations include
 
 Lectures and reviews include
 
-* [[Bojko Bakalov]], [[Alexander Kirillov]], _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
 
 * {#Gawedzki99} [[Krzysztof Gaw?dzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
