@@ -10,7 +10,7 @@
 
 This entry collects links related to the book
 
-* [[Jacob Lurie]], _Higher Algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/HigherAlgebra.pdf))
+* [[Jacob Lurie]], _Higher Algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf))
 
 on [[higher algebra]].
 
