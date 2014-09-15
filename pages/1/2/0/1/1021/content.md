@@ -26,7 +26,7 @@ The concept generalises immediately to [[enriched category|enriched categories]]
 
 Given [[partial order|posets]] (or [[preorder|prosets]]) $C$ and $D$ and a monotone function $U: C \to D$, a __right adjoint__ of $U$ is a monotone function $G: D \to C$ such that
 $$ U(x) \leq y \;\Leftrightarrow\; x \leq G(y) $$
-for all $x$ in $D$ and $y$ in $C$.
+for all $x$ in $C$ and $y$ in $D$.
 
 Given [[locally small categories]] $C$ and $D$ and a [[functor]] $U: C \to D$, a __right adjoint__ of $U$ is a functor $G: D \to C$ with a [[natural isomorphism]] between the [[hom-set]] functors
 $$ Hom_D(U(-),-), Hom_C(-,G(-)): C^op \times D \to Set .$$
