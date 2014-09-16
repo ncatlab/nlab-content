@@ -40,6 +40,8 @@ A detailed mathematical derivation is in
 
 Review includes
 
+* [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([pdf](http://www.ma.utexas.edu/~dafr/Index/Flauger.pdf))
+
 * [[Jeffrey Harvey]], section 1 and 3.6 of _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](http://arxiv.org/abs/hep-th/0509097))
 
 * {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
