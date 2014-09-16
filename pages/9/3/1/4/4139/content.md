@@ -4,7 +4,9 @@ John Stewart Bell was an Irish physicist credited with developing one of the mos
 
 * [biography](http://en.wikipedia.org/wiki/John_Stewart_Bell) (detailed)
 
-#related $n$Lab entries#
+## related $n$Lab entries
+
+* [[chiral anomaly]]
 
 * [[Bell's theorem]]
 
