@@ -112,7 +112,7 @@ References on the history of dessins d'enfants
 
 Connection to [[matrix model]]s and integrable hierarchies is discussed in
 
-* Jan Ambj&#248;rn, Leonid Chekhov, _The matrix model for dessins d'enfants_, [[arxiv/1404.4240](http://arxiv.org/abs/1404.4240)
+* Jan Ambj&#248;rn, Leonid Chekhov, _The matrix model for dessins d'enfants_, [arxiv/1404.4240](http://arxiv.org/abs/1404.4240)
 
 [[!redirects child's drawing]]
 [[!redirects child's drawing]]
