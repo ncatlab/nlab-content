@@ -9,9 +9,13 @@ A variant of the theory of [[Huber spaces]]
 
 * [[global analytic geometry]]
 
+
 ## References
 
 * {#Scholze11} [[Peter Scholze]], _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
+
+* [[Bhargav Bhatt]], _What is... a perfectoid space?_, Notices of the AMS, volume 61, number 9 ([[BhattPerfectoidSpace.pdf:file]])
+
 
 [[!redirects perfectoid spaces]]
 
