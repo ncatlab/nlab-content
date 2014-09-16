@@ -142,7 +142,7 @@ Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[f
 
 A proof of the [[function field]] case is discussed in
 
-* [[Dennis Gaitsgory]], [[Jacob Lurie]], _Weil's conjecture for function fields_, [pdf](http://www.math.harvard.edu/~lurie/papers/tamagawa.pdf).
+* [[Dennis Gaitsgory]], [[Jacob Lurie]], _Weil's conjecture for function fields I_, [pdf](http://www.math.harvard.edu/~lurie/papers/tamagawa.pdf).
 
 The proof was announced in 
 
