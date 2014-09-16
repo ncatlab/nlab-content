@@ -179,8 +179,7 @@ The original articles on anomalous action functionals are
 
 * [[Luis Alvarez-Gaumé]] and [[Edward Witten]], _Gravitational Anomalies_ Nucl. Phys. B234 (1984) 269.
 
-* [[Luis Alvarez-Gaumé]] and [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_ ,
-Ann. Phys. 161 (1985) 423.
+* [[Luis Alvarez-Gaumé]] and [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
 * [[Edward Witten]], _Global gravitational anomalies_ , Commun. Math. Phys. 100 (1985) 197. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
 
@@ -200,8 +199,10 @@ and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163.
 
 and a clear comprehensive account of the situation (topological anomaly, geometric anomaly) is in 
 
-* [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
-  {#Freed86}
+* [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([pdf](http://www.ma.utexas.edu/~dafr/Index/Flauger.pdf))
+
+* {#Freed86} [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
+  
 
 
 
@@ -227,6 +228,14 @@ The anomaly line bundles for [[self-dual higher gauge theory]] is discussed in
 
 ### Gauge anomaly
  {#ReferencesGaugeAnomaly}
+
+The original work on the [[chiral anomaly]] is due to
+
+* [[Steven Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
+
+* [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: &#960;0&#8594;&#947;&#947; in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
+
+See also
 
 * L. Faddeev and S. Shatashvili, "Algebraic and Hamiltonian Methods in the theory of Nonabelian Anomalies," Theor. Math. Fiz., 60 (1984) 206; english transl. Theor.
 Math. Phys. 60 (1984) 770.
