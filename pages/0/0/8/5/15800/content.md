@@ -67,7 +67,9 @@ The original article stating the _Sakharov conditions_ is
 
 The derivation that [[instantons]] lead to baryon number violation is due to
 
-* {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37, 37 (1976)
+* {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37 (1976) ([pdf](http://www.staff.science.uu.nl/~hooft101/gthpub/symm_br_bell_jackiw.pdf))
+
+* [[Gerard 't Hooft]] _Computation of the quantum effects due to a four-dimensional pseudoparticle_, Phys. Rev. D14:3432-3450 (1976)
 
 A good review of the axial anomaly is in 
 
@@ -79,9 +81,7 @@ and of the resulting [[phenomenology]] of baryon number non-conservation is in
 Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
 
 * Heidi Kuismanen, section 2 of _Leptogenesis as the origin of
-matter-antimatter asymmetry
-in extra dimensionaL and
-supersymmetric modeLs_ [[KuismanenBaryogenesis.pdf:file]]
+matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[KuismanenBaryogenesis.pdf:file]])
 
 Further review includes
 
