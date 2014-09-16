@@ -30,15 +30,28 @@ If there are [[instantons]], i.e. if the [[gauge field]] [[principal connection]
 
 The orginal observation is due to
 
-* {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37, 37 (1976)
+* [[Steven Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
+
+* [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: &#960;0&#8594;&#947;&#947; in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
+
+A detailed mathematical derivation is in
+
+* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
 Review includes
 
-* {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
+* [[Jeffrey Harvey]], section 1 and 3.6 of _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](http://arxiv.org/abs/hep-th/0509097))
 
+* {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
 
 * Wikipedia, _[Chiral anomaly](http://en.wikipedia.org/wiki/Chiral_anomaly)_
 
+Application to [[baryogenesis]] is due to
+
+* {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37 (1976) ([pdf](http://www.staff.science.uu.nl/~hooft101/gthpub/symm_br_bell_jackiw.pdf))
+
+
+* [[Gerard 't Hooft]] _Computation of the quantum effects due to a four-dimensional pseudoparticle_, Phys. Rev. D14:3432-3450 (1976).
 
 
 
