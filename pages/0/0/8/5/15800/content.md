@@ -20,11 +20,11 @@ In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the 
 
 1. violation of baryon number conservation;
 
-1. C and CP violation
+1. [[CP problem|C and CP violation]]
 
 1. departure from thermal equilibrium.
 
-Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _axial anomaly_ (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
+Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _[[axial anomaly]]_ (a [[chiral anomaly]]) (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
 
 $$
   \partial_\mu j_b^\mu 
@@ -78,6 +78,11 @@ and of the resulting [[phenomenology]] of baryon number non-conservation is in
 * {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990 
 Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
 
+* Heidi Kuismanen, section 2 of _Leptogenesis as the origin of
+matter-antimatter asymmetry
+in extra dimensionaL and
+supersymmetric modeLs_ [[KuismanenBaryogenesis.pdf:file]]
+
 Further review includes
 
 * Yanagida, _The origin of matter_ ([[YanagidaBaryogenesis.pdf:file]])
@@ -87,4 +92,3 @@ Further review includes
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
 
 
-[[!redirects axial anomaly]]
