@@ -1,0 +1,24 @@
+[[!redirects CP problem]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+## Related concepts
+
+* [[baryogenesis]]
+
+## References
+
+* Wikipedia, _[Strong CP problem](http://en.wikipedia.org/wiki/Strong_CP_problem)_
+
+* Wikipedia, _[CP violation](http://en.wikipedia.org/wiki/CP_violation)_
+
+
