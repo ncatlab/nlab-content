@@ -10,3 +10,5 @@ Nils Baas is a Norwegian mathematician working in Trondheim.
 * [[2-vector space]]
 
 category: people
+
+[[!redirects Nils A. Baas]]
