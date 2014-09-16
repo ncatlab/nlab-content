@@ -1,9 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 ## Idea
 
-([Sakharov 67](#Sakharov67)) formulated three conditions jointly necessary for matter/antimatter asymmetry leading to baryogenesis in the early universe. (...)
+In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the process by which an abundance [[baryons]] is produced in the early [[observable universe]], leading to the baryonic [[matter]] seen all around. Since in the [[standard model of particle physics]] [[matter]] and [[antimatter]] are _essentially_ always produced symmetrically ("conservation of baryon number"), the topic of baryogenesis is to a large extent the study of how the matter/antimatter symmetry may be [[broken symmetry|broken]].
 
-_Sakharov conditions_
+([Sakharov 67](#Sakharov67)) formulated three conditions jointly necessary for matter/antimatter asymmetry leading to baryogenesis in the early universe, now known as the _Sakharov conditions_
 
 1. violation of baryon number conservation;
 
@@ -11,9 +24,7 @@ _Sakharov conditions_
 
 1. departure from thermal equilibrium.
 
-One is, obviously, violation of the [[baryon]] [[conservation law]].
-
-This was shown in [t'Hooft 76](#Hooft76):
+Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _axial anomaly_ (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
 
 $$
   \partial_\mu j_b^\mu 
@@ -25,18 +36,32 @@ $$
     \frac{g^2}{32 \pi^2}
     W_{\mu \nu}^\alpha \tilde W^{\alpha \mu \nu}
     -
-    \frac{{g'}^2}{32\pi^2} F_{\mu \nu}\tilde F^{\mu \nu}
+    \frac{{g'}^2}{32\pi^2} \epsilon_{\mu \nu \rho \sigma} F^{\mu \nu} F^{\rho \sigma}
   \right) 
+ \,,
 $$
 
+where $F_\nabla$ is the [[field strength]] of the [[electroweak field]] (the [[curvature]] of a $SU(2)$-[[principal connection]] $\nabla$).
 
-(e.g. [Trodden-Carroll, 4.9.3](#TroddenCarroll), [Shu 08, (7.6)](#Shu08))
+(see  e.g. [Dine 90, (4)](#Dine90) [Trodden-Carroll, 4.9.3](#TroddenCarroll), [Shu 08, (7.6)](#Shu08)).
 
-the resulting transition between vacua changing particle number are also called _sphaleron transitions_.
+In more intrinsic notation and ignoring numerical constants, the statement is that 
 
-That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy and out of reach of conceivable experiments in the present age of the universe.
+$$
+  \mathbf{d} \star j_b = \langle F_\nabla \wedge F_\nabla \rangle
+  \,.
+$$
+
+Properly interpreted (this is rarely stated in the literature...) this is the _local_ expression for the [[connection on a 3-bundle|3-connection]] on the [[Chern-Simons line 3-bundle]] associated with the gauge field. If the latter is globally nontrivial in that it is in an _[[instanton]]_-sector (has nontrivial [[second Chern class]]), then the [[integral]] of $\langle F\wedge F\rangle$over closed manifolds is an integer -- the "[[instanton]] number" -- and in conclusion there is baryon generation proportional to this number (physics lingo also: _sphaleron transitions_).
+
+
+That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausible may have occured in the very early universe -- just as it should be for realistic baryogenesis.
+
+
 
 ## References
+
+The original article stating the _Sakharov conditions_ is
 
 * {#Sakharov67} Sakharov 1967
 
@@ -44,10 +69,22 @@ The derivation that [[instantons]] lead to baryon number violation is due to
 
 * {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37, 37 (1976)
 
-Review includes
+A good review of the axial anomaly is in 
+
+* {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
+
+and of the resulting [[phenomenology]] of baryon number non-conservation is in
+
+* {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990 
+Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
+
+Further review includes
 
 * Yanagida, _The origin of matter_ ([[YanagidaBaryogenesis.pdf:file]])
 
 * {#TroddenCarroll} Mark Trodden, Sean Carroll, TASI Lectures: Introduction to Cosmology _[4.9 Baryon Number violation](http://ned.ipac.caltech.edu/level5/Sept03/Trodden/Trodden4_9.html)_ 
 
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
+
+
+[[!redirects axial anomaly]]
