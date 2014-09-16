@@ -109,6 +109,7 @@ $$
 
 See [[localic geometric morphism]] for more.
 
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -134,6 +135,7 @@ $$
 =--
 
 This appears as [Johnstone, scholium C1.6.4](#Johnstone).
+
 
 
 ### Relation to topological spaces
@@ -408,6 +410,10 @@ and
 * [[Steve Vickers]], _Topology via logic_, Cambridge University Press (1989)
 
 where the latter develops topology from the point of view of its [[internal logic]].
+
+An introductory survey is
+
+* Jorge Picado, Ale&#353; Pultr, Anna Tozzi, _Locales_ , pp.49-101 in Pedicchio&Tholen (eds.), _Categorical Foundations_ , CUP 2004. ([draft](http://www.mat.uc.pt/~picado/publicat/Chapter2.pdf))
 
 Plenty of material is also in part C (volume 2) of
 
