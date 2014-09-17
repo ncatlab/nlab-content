@@ -54,6 +54,8 @@ In some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence
 
 ## Related concepts
 
+* [[parent action functional]]
+
 There is also a duality in the _description_ of physics:
 
 [[!include Isbell duality - table]]
