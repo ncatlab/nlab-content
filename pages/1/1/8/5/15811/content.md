@@ -1,0 +1,6 @@
+
+
+## References
+
+* S.W.Hawking, section 3 of _The Nature of Space and Time_ ([arXiv:hep-th/9409195](http://arxiv.org/abs/hep-th/9409195))
+
