@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[Yang-Mills theory]] and specifically in its application to [[QCD]], the _theta angle_ refers to the prefactor $\theta$ in the expression of the [[action functional]] of the theory in front of the piece of [[topological Yang-Mills theory]]
+
+$$
+  \nabla \mapsto
+  \frac{1}{g^2 }\int_X F_\nabla \wedge \star F_\nabla  \;+\; i \theta \int_X F_\nabla \wedge F_\nabla
+$$
+
+(see also at _[[S-duality]]_ for more).
+
+In [[phenomenology]] the theta angle has to be very close to an integer multiple of $\pi$, see at _[[CP problem]]_. That it is indeed $\theta_{QCD}\simeq 0$ instead of $\theta_{QCD} \simeq \pi$ that matches experiment is argued at the end of [Crewther-DiVecchia-Veneziano-Witten 79](#CrewtherDiVecchiaVenezianoWitten79), [PO discussion](http://www.physicsoverflow.org/23722/how-do-we-know-%24-theta_-mathrm-qcd-ne-pi%24).
+
+
+## References
+
+* {#CrewtherDiVecchiaVenezianoWitten79} Crewther, R J ; Di Vecchia, P ; [[Gabriele Veneziano]],  ; [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). See also 
+
+[[!redirects theta angles]]
