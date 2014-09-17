@@ -204,6 +204,16 @@ Hence (...)
 
 ## References
 
+### Dickey-Lie bracket on currents
+
+The [[Dickey Lie bracket]] on conserved currents is due to 
+
+* [[Leonid Dickey]], _Soliton equations and Hamiltonian systems_, Advanced Series in Mathematical Physics, Vol. 12 (World Scientific 1991).
+
+and is reviewed in
+
+* [[Glenn Barnich]], [[Marc Henneaux]],  section 3 of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_, Journal of Mathematical Physics 37, 5273-5296 (1996) ([arXiv:hep-th/9601124](http://arxiv.org/abs/hep-th/9601124), [DOI 10.1063/1.531726](http://dx.doi.org/10.1063/1.531726))
+
 ### In variational calculus
 
 A general discussion as above is around definition 9 of
@@ -250,3 +260,12 @@ as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local cu
 
 [[!redirects Noether current algebra]]
 [[!redirects Noether current algebras]]
+
+[[!redirects Dickey bracket]]
+[[!redirects Dickey brackets]]
+[[!redirects Dickey Lie bracket]]
+[[!redirects Dickey Lie brackets]]
+[[!redirects Dickey Lie-bracket]]
+[[!redirects Dickey Lie-brackets]]
+[[!redirects Dickey-Lie bracket]]
+[[!redirects Dickey-Lie brackets]]
