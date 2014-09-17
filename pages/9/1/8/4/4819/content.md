@@ -69,6 +69,8 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 [[duality in physics]], [[duality in string theory]]
 
+* [[parent action functional]]
+
 * [[S-duality]]
 
   * **electro-magnetic duality**
