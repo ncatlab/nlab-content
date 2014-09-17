@@ -18,15 +18,33 @@
 
 ## Idea
 
-A **nuclear object** is a categorical generalization of the concept of a finite-dimensional vector space.
+A **nuclear object** is a categorical generalization of the concept of a finite-dimensional vector space, or more generally, a finite-dimensional object.
 
 ## Definition
 
-A _nuclear object_in a [[symmetric monoidal closed category]] with unit $k$ is an object $A$ such that the canonical morphism $\phi _A:A\otimes A^*\to [ A, A]$ with $A^*:=[A,k]$ is an isomorphism.
+A _nuclear object_in a [[symmetric monoidal closed category]] $\mathcal{M}$ with unit $k$ is an object $A$ such that the canonical morphism $\phi _A:A\otimes A^*\to [ A, A]$ with $A^*:=[A,k]$ is an isomorphism.
+
+A _morphism_ $f:A\to B$ is called _nuclear_ if there exists a morphism $p:k\to B\otimes A^*$ such that
+
+$$\array{k & \overset{p}{\to} & B\otimes A^*\\
+  n(f)\searrow && \swarrow\phi\\
+  & [A,B] & }$$
+
+is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\otimes A\simeq A\overset{f}{\to} B$.
 
 ## Properties
 
-If $A$ is nuclear then the canonical map to the double dual $\theta _A: A\to A^{**}$ is an isomorphism.
+* $A$ is nuclear precisely if $id_A$ is nuclear.
+
+* If $A$ is nuclear then the canonical map to the double dual $\theta _A: A\to A^{**}$ is an isomorphism.
+
+* The full subcategory $nuc(\mathcal{M})$ of nuclear objects is symmetric monoidal closed.
+
+* $A$ is nuclear precisely if $A^*$ is nuclear.
+
+* In a cartesian monoidal $\mathcal{M}$ only $1$ is nuclear.
+
+* If $A$ is nuclear there exists a natural [[trace]] morphism $t_A:[A,A]\simeq A\otimes A^*\simeq A^*\otimes A \to k$.
 
 ## Examples
 
@@ -37,7 +55,6 @@ If $A$ is nuclear then the canonical map to the double dual $\theta _A: A\to A^{
 * Nuclear objects in the category of [[Banach spaces]] with morphisms the bounded maps are the [[nuclear spaces]]. 
 
 (cf. Rowe 1988)
-
 
 
 ## Related concepts
