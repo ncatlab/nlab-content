@@ -34,7 +34,7 @@ Below we spellout special cases, such as restricting to commutative monoids when
 
 Write $dgAlg$ for the [[category]] of cochain [[dg-algebra]]s in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The  **projective** [[model category]] structure on $C dgAlg$ and on $dgAlg$ is given by setting:
@@ -45,7 +45,7 @@ The  **projective** [[model category]] structure on $C dgAlg$ and on $dgAlg$ is 
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 This indeed defines a [[model category]]. 
@@ -61,7 +61,7 @@ See the references below.
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 **(category of fibrant objects)**
 
@@ -87,7 +87,7 @@ With $k$ our ground field we write $(k,0)$ for the corresponding dg-algebra, the
 $(k,0) = (\wedge^\bullet 0, 0)$.
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(Sullivan algebras)**
 
@@ -120,14 +120,14 @@ holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the 
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 Sullivan algebras were introduced by [[Dennis Sullivan]] in his development of [[rational homotopy theory]]. This is one of the key application areas of the model structure on dg-algebras.
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 **($L_\infty$-algebras)**
 
@@ -145,7 +145,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
@@ -155,7 +155,7 @@ Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algeb
 
 =--
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(sphere and disk algebras)**
 
@@ -196,7 +196,7 @@ $$
 
 =--
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(generating cofibrations)**
 
@@ -465,7 +465,7 @@ $$
 ### Definition
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 For $k$ a [[field]] of [[characteristic]] 0 let 
@@ -503,7 +503,7 @@ Discussion of cofibrations in $dgAlg_{proj}$ is in ([Keller](#Keller)).
 
 Let $cdgAg_k$ be the projective model structure on commutative unbounded dg-algebras from above
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For cofibrant $A \in cdgAlg_k$, the functor
@@ -532,7 +532,7 @@ This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 
 The model structure on unbounded dg-algebras is _almost_ $sSet_{Quillen}$-enriched. See the section <a href="http://ncatlab.org/nlab/show/model+structure+on+dg-algebras+over+an+operad#SimplicialEnrichment">simplicial enrichment</a> at [[model structure on dg-algebras over an operad]] for details.
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Let 
@@ -554,7 +554,7 @@ $$
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The functor $cdgAlg_k(-,-)$ satisfies the dual of the [[pushout-product axiom]]: for $i : A \to B$ any cofibration in $cdgAlg_k$ and $p : X \to Y$ any fibration, the canonical morphism
@@ -604,7 +604,7 @@ If $A$ is cofibrant, then such a lift does always exist.
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $A \in cdgAlg$ cofibrant, $cdgAlg_k(A,B)$ is the correct [[derived hom-space]]
@@ -662,7 +662,7 @@ $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of an operation of $cdgAlg_k$ over 
 
 First notice a basic fact about ordinary commutative algebras.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 In $CAlg_k$ the [[coproduct]] is given by the [[tensor product]] over $k$:
@@ -728,14 +728,14 @@ That this is indeed an $k$-algebra homomorphism follows from the fact that $f$ a
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 For these derivations it is crucial that we are working with commutative algebras.
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 We have that the [[copower]]ing of $A$ with the map of sets from two points to the single point
@@ -802,7 +802,7 @@ $$
 $$
 
 
-+-- {: .un_definition}
++-- {: .num_defn}
 ###### Definition
 
 Define the functor
@@ -820,7 +820,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We have 
@@ -834,7 +834,7 @@ $$
 This appears essentially (...) as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] is modeled by the [[derived functor]] of $CC$.
@@ -847,7 +847,7 @@ This follows from ([GinotTradlerZeinalian, theorem 4.2.7](#GinotTradlerZeinalian
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The functor
@@ -863,7 +863,7 @@ preserves weak equivalences in both arguments.
 This is essentially due to ([Pirashvili](#Pirashvili)). The full statement is ([GinotTradlerZeinalian, prop. 4.2.1](#GinotTradlerZeinalian)).
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This means that the assumption for the copowering models of higher order [[Hochschild cohomology]] are satsified in $cdgAlg_k$ which are described in the section <a href="http://nlab.mathforge.org/nlab/show/Hochschild+cohomology#PirashviliHigherOrder">Pirashvili's higher Hochschild homology</a> is satisfied:
@@ -877,7 +877,7 @@ this means that for $A \in cdgAlg$ and $S \in sSet$, $CC(S,A)$ is a model for th
 #### Derived powering over $sSet$ {#DerivedPowering}
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Claim
 
 Let $S \in \infty Grpd$ be presented by a degreewise finite [[simplicial set]] (which we denote by the same symbol).
@@ -968,7 +968,7 @@ Since all this is [[natural transformation|natural]] in $B$, this proves the cla
 
 #### Path objects
  {#PathObjectsForUnboundedCommutative}
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $A \in cdgAlg_k$, a [[path object]]
@@ -1020,6 +1020,7 @@ over a field $k$ of characteristic 0 constitute a presentation of
 
   * [[model structure on dg-categories]]
 
+* [[model structure on dg-coalgebras]]
 
 ## References
 
@@ -1101,6 +1102,11 @@ The relation between commutative and non-commutative dgas is further discussed i
 * {#Amrani14b} [[Ilias Amrani]], _Rational homotopy theory of function spaces and Hochschild cohomology_ ([arXiv:1406.6269](http://arxiv.org/abs/1406.6269))
 
 For more see also at _[[model structure on dg-algebras over an operad]]_.
+
+Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in 
+
+* {#Walter06} [[Ben Walter]], _Rational Homotopy Calculus of Functors_ ([arXiv:math/0603336](http://arxiv.org/abs/math/0603336))
+
 
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
