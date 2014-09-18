@@ -73,6 +73,8 @@ However, in ([Cho-Maison](#ChoMaison)) it is claimed that the true topology of t
 
 * [[domain wall]], [[cosmic string]]
 
+* [[vortex]]
+
 * [[caloron correspondence]]
 
 [[!include fields and quanta - table]]
