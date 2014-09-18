@@ -94,3 +94,8 @@ and section 2.1 of
 
 * [[Jacob Lurie]], _[[Formal moduli problems]]_
 
+Review with discussion of [[homotopy limits]] and [[homotopy colimits]] is in 
+
+* {#Walter06} [[Ben Walter]], section 4 of _Rational Homotopy Calculus of Functors_ ([arXiv:math/0603336](http://arxiv.org/abs/math/0603336))
+
+
