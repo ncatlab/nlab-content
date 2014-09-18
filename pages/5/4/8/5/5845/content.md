@@ -97,7 +97,7 @@ Finally, by a standard fact about [[adjoint functor]]s (for instance ([Elephant,
 
 =--
 
-The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument).
+The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument). It also appears in (MM, [Lemma 7.4.1](#MacLaneMoerdijk)).
 
 In the situation of Proposition \ref{FullyFaithful}, we say that $F\dashv G \dashv H$ is a **fully faithful adjoint triple**.  This is often the case when $D$ is a category of "spaces" structured over $C$, where $F$ and $H$ construct "discrete" and "codiscrete" spaces respectively.
 
@@ -183,6 +183,9 @@ Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
 
 * [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289--319.
  {#KellyLawvere}
+
+* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, (1992) (Lemma 7.4.1).
+ {#MacLaneMoerdijk}
 
 Several lemmas concerning adjoint pairs and adjoint triples are included in 
 
