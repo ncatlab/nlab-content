@@ -92,22 +92,25 @@ This is ([Hinich98, theore, 3.2](#Hinich98)).
 
 * [[Dan Quillen]], _Rational homotopy theory_ , Annals of Math., 90(1969), 205&#8211;295. (see Appendix B)
 
-
 * [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
 
-* [[Vladimir Hinich]], _Homological algebra of homotopy algebras_ , Comm. in algebra, 25(10)(1997), 3291&#8211;3323.
- {#Hinich97}
+* {#Hinich97} [[Vladimir Hinich]], _Homological algebra of homotopy algebras_ , Comm. in algebra, 25(10)(1997), 3291&#8211;3323.
+ 
 
 * [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
  {#Hinich98}
 
-* [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
- {#Pridham}
 
-* [[Jacob Lurie]], _[[Formal Moduli Problems]]_
- {#Lurie}
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+ 
+
+* {#Lurie} [[Jacob Lurie]], _[[Formal Moduli Problems]]_
+ 
 
 
+Review with discussion of [[homotopy limits]] and [[homotopy colimits]] is in 
+
+* {#Walter06} [[Ben Walter]], section 5 of _Rational Homotopy Calculus of Functors_ ([arXiv:math/0603336](http://arxiv.org/abs/math/0603336))
 
 
 
