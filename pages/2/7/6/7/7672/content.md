@@ -19,12 +19,12 @@
 
 ## Idea
 
-The _$J$-homomorphism_ is traditionally a family of [[group]] homomorphisms
+The _$J$-homomorphism_ is traditionally a family of [[group]] [[homomorphisms]]
 
 $$
   J_i \;\colon\; \pi_i(O(n)) \longrightarrow \pi_{n+i}(S^n)
 $$
-\pi
+
 from the [[homotopy groups]] of (the [[topological space]] underlying) the [[orthogonal group]] to the [[homotopy groups of spheres]].
 This refines to a morphism of [[∞-groups]]
 
@@ -284,7 +284,7 @@ $im(J|_{SO})$ of the J-homomorphism, def. \ref{JHom}, applied to the [[special o
 
 Moreover,
 
-* for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism $\pi_n(J) \colon \pi_n(S O) \to \pi_n(\mathbb{S})$ is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
+* for $n = 0 \;mod \;8$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism $\pi_n(J) \colon \pi_n(S O) \to \pi_n(\mathbb{S})$ is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
 
 * for $n = 3\; mod\; 8$ and $n = 7 \; mod \; 8$ hence for $n = 4 k -1$, the [[order of a group|order]] of the image is equal to the [[denominator]] of $B_{2k}/4k$ in its reduced form, where $B_{2k}$ is the [[Bernoulli number]]
 
