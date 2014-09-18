@@ -98,9 +98,9 @@ Another reference for the classical theory is
 
 * G. Burde and H. Zieschang, Knots, De Gruyter (1989).
 
-Historically, a motivation for [[Pater Tait]] to start thinking about classification of [[knots]] was the book 
+Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
 
-* [[Lord Kelven]], _[[On Vortex Atoms]]_
+* [[Lord Kelvin]], _[[On Vortex Atoms]]_
 
 which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
 
