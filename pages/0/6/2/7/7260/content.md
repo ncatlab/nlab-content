@@ -85,6 +85,15 @@ Survey and exposition of aspects of organizing the large-scale structure of the 
 
 * [[Terence Tao]], _[The cosmic distance ladder](http://terrytao.wordpress.com/2007/05/31/the-cosmic-distance-ladder/)_
 
+More technical discussion of cosmic horizons contains
+
+* [[George Ellis]], T. Rothman: _Lost Horizons_, 1993 ([scribd](http://de.scribd.com/doc/235971566/G-F-R-Ellis-T-Rothman-Lost-Horizons))
+
+
 A sketch of a comprehensive picture had been proposed in 
 
 * [[Erich Jantsch]], _[[The Self-Organizing Universe]]_ (1980)
+
+
+[[!redirects cosmic horizon]]
+[[!redirects cosmic horizons]]
