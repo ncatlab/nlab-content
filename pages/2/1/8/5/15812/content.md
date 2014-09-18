@@ -1,0 +1,19 @@
+
+The text
+
+* [[Lord Kelvin]],
+
+  _On Vortex Atoms_
+
+  Proceedings of the Royal Society of Edinburgh, Vol. VI, 1867, pp. 94-105.
+
+  ([web](http://zapatopi.net/kelvin/papers/on_vortex_atoms.html))
+
+presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance.
+
+Review and discussion includes
+
+* Samuel Lomonaco, _The modern legacies of Thomson'satomic vortex theory in classical electrodynamics_ [pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf)
+
+category: reference
+
