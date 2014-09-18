@@ -207,6 +207,27 @@ General discussion of AQFT quantization of free fields is in
 
 * [[Christian Bär]], N. Ginoux, _Classical and quantum fields on lorentzian manifolds_ (2011) ([arXiv:1104.1158](http://arxiv.org/abs/1104.1158))
 
+### Local gauge theory
+ {#LocalGaugeTheory}
+
+Discussion of aspects of [[gauge theory]] includes
+
+* Fabio Ciolli, [[Giuseppe Ruzzi]], Ezio Vasselli, _Causal posets, loops and the construction of nets of local algebras for QFT_ ([arXiv:1109.4824](http://arxiv.org/abs/1109.4824))
+
+* Fabio Ciolli, [[Giuseppe Ruzzi]], Ezio Vasselli, _QED Representation for the Net of Causal Loops_ ([arXiv:1305.7059](http://arxiv.org/abs/1305.7059))
+
+* [[Giuseppe Ruzzi]], _Nets of local algebras and gauge theories_, 2014 ([pdf slides](http://www.aqft14.eu/wp-content/uploads/2014/05/Ruzzi.pdf))
+
+
+Construction of gauge AQFT via actual [[quantization]] includes (see also at _[[field bundle]]_)
+
+* {#BDS} Marco Benini, [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+
+and the issue of the tension between local gauge invariance and locality and the need to pass to [[stacks]]/[[higher geometry]] is made explicit in
+
+* {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
+in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) (with further emphasis on this point in the companion talk [Schreiber 14](field+bundle#Schreiber14)) 
+
 
 ### Perturbation theory and renormalization
  {#ReferencesPerturbationTheory}
