@@ -29,13 +29,15 @@ presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundament
 
 Review and discussion includes
 
+* {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114
+
 * {#Corfield} [[David Corfield]] ([[CorfieldVortexAtoms.pdf:file]])
 
 * Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_ ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf))
 
 ## Impact
 
-As a literal theory of [[physics]] the vortex atom hypothesis was soon rejected. But it made [[Peter Tait]] start thinking about classification of [[knots]], which eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
+As a literal theory of [[physics]] the vortex atom hypothesis lasted no more than 30 years, even Thomson himself giving up on it by 1890 ([Krage 02, p. 34](#Krage)), but it did make [[Peter Tait]] start thinking about classification of [[knots]], which eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
 
 ## Similarity with Descartes' thoughts
  {#SimilarityWithDescartesThoughts}
@@ -43,6 +45,10 @@ As a literal theory of [[physics]] the vortex atom hypothesis was soon rejected.
 According to the _Routledge encyclopedia of Philosophy_ [here](http://www.rep.routledge.com/article/DA026SECT11):
 
 > [[Descartes]] also rejected atoms and the void, the two central doctrines of the atomists, an ancient school of philosophy whose revival by Gassendi and others constituted a major rival among contemporary mechanists. Because there can be no extension without an extended substance, namely body, there can be no space without body, Descartes argued. His world was a plenum, and all motion must ultimately be circular, since one body must give way to another in order for there to be a place for it to enter ( Principles II: &#167;&#167;2&#8211;19, 33). Against atoms, he argued that extension is by its nature indefinitely divisible: no piece of matter in its nature indivisible ( Principles II: &#167;20). Yet he agreed that, since bodies are simply matter, the apparent diversity between them must be explicable in terms of the size, shape and motion of the small parts that make them ( Principles II: &#167;&#167;23, 64) (see Leibniz, G.W. &#167;4 ).
+
+However, according to ([Krage 02, p. 33](#Krage)):
+
+>In spite of the similarities, there are marked differences between the Victorian theory and Descartes's conception of matter. Thus, although Descartes's plenum was indefinitely divisible, his ethereal vortices nonetheless consisted of tiny particles in whirling motion. It was non-atomistic, yet particulate. Moreover, the French philosopher assumed three different species of matter, corresponding to emission, transmission, and reflection of light (luminous, "subtle", and material particles). The vortex theory, on the other hand, was strictly a unitary continuum theory.
 
 ## Similarlity to concepts of modern particle physics
 
