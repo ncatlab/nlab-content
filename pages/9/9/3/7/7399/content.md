@@ -40,7 +40,7 @@ such that $f (G_1 ) = G_2$ .
 
 ##Remark
 
-The original work  was stated in terms of objects called [[cellular maps]], and the category of these cellular maps and isotopy classes of morphisms between them was shown to correspond to a category of finite $\mathbb{G}$-sets where $\mathbb{G} is a group called the [[cartographic group]], which has a simple presentation in terms of operations of a geometric /  combinatorial nature. )
+The original work  was stated in terms of objects called [[cellular maps]], and the category of these cellular maps and isotopy classes of morphisms between them was shown to correspond to a category of finite $\mathbb{G}$-sets where $\mathbb{G}$ is a group called the [[cartographic group]], which has a simple presentation in terms of operations of a geometric /  combinatorial nature. )
 
 
 
@@ -82,16 +82,11 @@ This gives the Edmonds algorithm for the embedding. the original source for that
 
 References on the deeper theory as developed by Grothendieck and his students, and including summaries of subsequent work,  include:
 
-*  [[L. Schneps]], ed., 1994, The Grothendieck theory of dessins d'enfants , 
-volume 200 of London Mathematical Society Lecture Note Series , Cam- 
-bridge University Press, Cambridge, papers from the Conference on 
-Dessins d'Enfant held in Luminy, April 19&#8211;24, 1993
-
+*  [[L. Schneps]], ed., 1994, _The Grothendieck theory of dessins d'enfants_, volume 200 of London Mathematical Society Lecture Note Series , Cambridge University Press, Cambridge, papers from the Conference on Dessins d'Enfant held in Luminy, April 19&#8211;24, 1993
 
 * Marco Robalo, _Galois Theory towards Dessins d'Enfants_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf))
 
 *  F. Herrlich, G. Schmith&#252;sen: [Dessins d'enfants and Origami curves](http://www.math.kit.edu/iag3/~schmithuesen/media/dessins.pdf)
-
 
 The original work on the elementary theory was contained in 
 
@@ -101,6 +96,9 @@ The original work on the elementary theory was contained in
 
 * [[Christine Voisin]], [[Jean Malgoire]], Cartes topologiques infinies et revetemnts ramifies de la sphere, Cahiers Math&#233;matiques, 19, Montpellier, 1980. 
 
+A more recent textbook on the theory of embedded graphs (with a chapter devoted to dessins d'enfants) is
+
+* Sergei K. Lando, Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 The Wikipedia page on this is:
 
