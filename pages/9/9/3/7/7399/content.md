@@ -14,7 +14,7 @@ The modern perception of dessins d'enfants begins with [[Grothendieck]], who sho
 
 >A _dessin d'enfant_ (French for a "child's drawing", plural "dessins d'enfants", ''children's drawings") is a type of [[graph]] drawing used to study [[Riemann surface]]s and to provide combinatorial [[Invariant (mathematics)|invariants]] for the action of the [[absolute Galois group]] of the [[rational number]]s.
 
->''Intuitively, a dessin d'enfant is simply a [[undirected graph|graph]], with its [[vertex|vertices]] colored alternating black and white, [[graph embedding|embedded]] onto an [[Orientability|oriented surface]] that, in many cases, is simply a [[plane]]. For the coloring to exist, the graph must be [[bipartite graph|bipartite]]. The faces of the embedding must be topological disks. The surface and the embedding may be described combinatorially using a [[rotation system]], a [[cyclic order]] of the edges surrounding each vertex of the graph that describes the order in which the edges would be crossed by a path that travels clockwise on the surface in a small loop around the vertex. Any dessin can provide the surface it is embedded on with a structure as a Riemann surface. It natural to ask which Riemann surfaces arise in this way. The answer is provided by [[Belyi's theorem]], which states that these are precisely those that can be defined over the field of algebraic numbers (when considered as algebraic curves). The absolute Galois group transforms these particular curves into each other, and thereby also transforms the underlying dessins.'' (wikipedia)
+>"Intuitively, a dessin d'enfant is simply a [[undirected graph|graph]], with its [[vertex|vertices]] colored alternating black and white, [[graph embedding|embedded]] onto an [[Orientability|oriented surface]] that, in many cases, is simply a [[plane]]. For the coloring to exist, the graph must be [[bipartite graph|bipartite]]. The faces of the embedding must be topological disks. The surface and the embedding may be described combinatorially using a [[rotation system]], a [[cyclic order]] of the edges surrounding each vertex of the graph that describes the order in which the edges would be crossed by a path that travels clockwise on the surface in a small loop around the vertex. Any dessin can provide the surface it is embedded on with a structure as a Riemann surface. It natural to ask which Riemann surfaces arise in this way. The answer is provided by [[Belyi's theorem]], which states that these are precisely those that can be defined over the field of algebraic numbers (when considered as algebraic curves). The absolute Galois group transforms these particular curves into each other, and thereby also transforms the underlying dessins." (wikipedia)
 
 
 
@@ -49,7 +49,7 @@ The original work  was stated in terms of objects called [[cellular maps]], and 
 (from the [[Esquisse d'un programme]] describing the idea as seen by Grothendieck:)
 
 
-''My interest in topological surfaces began to appear in 1974, when I proposed to Yves Ladegaillerie the theme of the isotopic study of embeddings 
+"My interest in topological surfaces began to appear in 1974, when I proposed to Yves Ladegaillerie the theme of the isotopic study of embeddings 
 of a topological 1-complex into a compact surface. Over the two following 
 years, this study led him to a remarkable isotopy theorem, giving a complete algebraic description of the isotopy classes of embeddings of such 
 1-complexes, or compact surfaces with boundary, in a compact oriented 
@@ -60,12 +60,12 @@ simplify) in a compact oriented surface, gives as easy corollaries several
 deep classical results in the theory of surfaces, and in particular Baer's isotopy theorem. 
 
  In the work of Ladegaillerie there is also a purely algebraic description, in terms 
-of fundamental groups, of the ''isotopic'' category of compact surfaces X , 
+of fundamental groups, of the "isotopic" category of compact surfaces X , 
 equipped with a topological 1-complex K embedded in X . This description, 
 which had the misfortune to run counter to ''today's taste'' and because of 
 this appears to be unpublishable, nevertheless served (and still serves) as a 
 precious guide in my later reflections, particularly in the context of absolute 
-algebraic geometry in characteristic zero. ''
+algebraic geometry in characteristic zero."
 
 
 ## References
