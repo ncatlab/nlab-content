@@ -84,6 +84,7 @@ $$
 
 that $Z_B$ assigns may naturally be identified, under the [[closed monoidal category|closed monoidal structure]] of [[Vect]], as an element 
 
+
 $$
   \begin{aligned}
   \overline{Z_B(\Sigma)} 
@@ -321,7 +322,7 @@ Conjecturally, [[type II string theory]] on a [[anti-de Sitter space]] backgroun
 
 See [[AdS/CFT correspondence]].
 
-#### M-theory on $AdS_7 \times S_4$ and 6d $(2,0)$-SCFT on M5 branes
+#### M-theory on $AdS_7 \times S^4$ and 6d $(2,0)$-SCFT on M5 branes
  {#6dAdS7}
 
 [[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$ is supposed to have as holographic boundary the [[6d (2,0)-superconformal QFT]]. See there for references.
