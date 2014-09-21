@@ -142,6 +142,7 @@ Side remark: discussion of [[equivariant elliptic cohomology]] (see there ar _[i
 * [[equivariant elliptic cohomology]]
 
 ## References
+ {#References}
 
 Basics are recalled for instance in
 
