@@ -128,7 +128,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#Menni14a} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
-* {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , ms. (2014). ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
+* {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
 
 
 * {#PRW89} [[Robert Paré|R. Paré]], [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood , _Idempotents in Bicategories_ , Bull.Austr.Math.Soc. **39** (1989) pp.421-434.
