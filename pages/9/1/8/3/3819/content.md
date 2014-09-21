@@ -55,3 +55,11 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 
 [[!redirects algebra of quantum observables]]
 [[!redirects algebras of quantum observables]]
+
+## References
+
+Careful discussion of observables in [[gravity]]/[[general relativity]] is in 
+
+
+* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
+Levico Terme, Italy, September 2014 ([pdf](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf))
