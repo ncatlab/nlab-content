@@ -106,7 +106,7 @@ Similar discussion is in
 
 based on
 
-* [[Paul-Emile Paradan], _Localization of the Riemann-Roch character_ ([arXiv:math/9911024](http://arxiv.org/abs/math/9911024))
+* [[Paul-Emile Paradan]], _Localization of the Riemann-Roch character_ ([arXiv:math/9911024](http://arxiv.org/abs/math/9911024))
  
 Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
 
