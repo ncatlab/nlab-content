@@ -140,7 +140,7 @@ One of the key statements of the holographic principle is that
 
 One set-up where this can be made a formal [[theorem]] is for [[2d Chern-Simons theory]] which is a [[non-perturbative field theory|non-perturbative]] [[Poisson sigma-model]]. This theorem is discussed at 
 
-* _[off-shell Poisson bracket -- boundary field theory interpretation](#BoundaryFieldTheoryInterpretation)_.
+* _[off-shell Poisson bracket -- boundary field theory interpretation](http://ncatlab.org/nlab/show/off-shell+Poisson+bracket#BoundaryFieldTheoryInterpretation)_.
 
 * _[motivic quantization -- Poisson holography](motivic+quantization#PoissonHolography)_.
 
