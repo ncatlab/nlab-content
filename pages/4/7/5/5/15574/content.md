@@ -156,6 +156,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
+* [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
+
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
