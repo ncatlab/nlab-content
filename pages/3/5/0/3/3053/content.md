@@ -39,6 +39,9 @@ Therefore every morphism $f : b_1 \to b_2$ in a bifibration has both a push-forw
 
 * The [[forgetful functor]] [[Top]] $\to$ [[Set]] is a bifibration. See also [[topological concrete category]].
 
+* The [[forgetful functor]] [[Grpd]] $\to$ [[Set]] is a bifibration.
+
+* The [[forgetful functor]] [[Cat]] $\to$ [[Set]] is a bifibration.
 
 ## Relation to monadic descent
 
