@@ -13,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -161,7 +160,7 @@ Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 * {#KL95} [[Kefeng Liu]], section 2.4 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 
-The generalization of theta functions to [[automorphic forms]] is due to 
+Theta functions for higher dimensional varieties and their relation to [[automorphic forms]] is due to 
 
 * [[André Weil]], _Sur certaines groups d'operateur unitaires_, Acta. Math.  111 (1964), 143-211
 
@@ -175,6 +174,8 @@ Further developments here include
 
 
 * {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
+
+* Yum-Tong Siu, _Theta functions in higher dimensions_ ([[SiuHigherTheta.pdf:file]])
 
 [[!redirects theta functions]]
 [[!redirects theta-function]]
