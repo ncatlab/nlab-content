@@ -41,7 +41,29 @@ $
 $
   i.e. 
 
-[[diagram1.jpg:pic]]
+$$ 
+  \array{\arrayopts{ \padding{0} }
+    &&&&1_C& 
+    \\
+    &&\cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction > zigzageta]]
+       \end{svg}\\
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    \\
+    \cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction > zigzagepsilon]]
+       \end{svg}
+    \\
+    &&1_D&
+  }
+  \quad = \quad D \stackrel{R}{\to} C
+$$
 
 and
 $ 
@@ -49,12 +71,29 @@ $
 $
  i.e.  
 
-[[diagram2.jpg:pic]]
-
-+-- {: .query}
-The RHS of the above diagrams have L and R interchanged.
-Furthermore, the LHS has C as target of L instead of D.
-=--
+$$ 
+  \array{\arrayopts{ \padding{0} }
+    &&1_C& 
+    \\
+    \cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction > zigzageta]]
+       \end{svg}\\
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    \\
+    &&\cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction > zigzagepsilon]]
+       \end{svg}
+    \\
+    &&&&1_D&
+  }
+  \quad = \quad C \stackrel{L}{\to} D
+$$
 
 
 ### As string diagrams
