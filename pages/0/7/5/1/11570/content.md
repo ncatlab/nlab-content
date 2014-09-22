@@ -45,6 +45,7 @@ the composite of
 This $\mathcal{K}$ is the _algebraic K-theory of symmetric monoidal (∞,1)-categories_. ([Nikolaus 13, below remark 5.3](#Nikolaus13), [Bunke-Nikolaus-V&#246;lkl 13, def.6.1](#BunkeNikolausVoelkl13))
 
 More generally, one may start with construction with other objects that map to [[Picard ∞-groups]], such as [[(∞,1)-operads]] ([Nikolaus 13](#Nikolaus13)).
+Also, instead of just group-completing one may "ring complete" to produce K-theory spectra equipped with the structure of [[E-∞ rings]] ([Bunke-Tamme 13, section 2.4](#BunkeTamme13)).
 
 ## Properties
 
@@ -104,6 +105,8 @@ The natural generalization of the construction to [[symmetric monoidal (∞,1)-c
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], def. 6.1 in  _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
 * {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, [arXiv:1305.4550](http://arxiv.org/abs/1305.4550).
+
+* {#BunkeTamme13} [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_ ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421))
 
 [[!redirects algebraic K-theory of symmetric monoidal (∞,1)-categories]]
 
