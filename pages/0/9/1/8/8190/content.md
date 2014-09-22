@@ -401,4 +401,4 @@ For more see the references at _[[multisymplectic geometry]]_, at _[[n-plectic g
 [[!redirects Hamilton-de Donder-Weyl equations of motion]]
 [[!redirects Hamilton-De Donder-Weyl equations of motion]]
 
-
+[[!redirects de Donder-Weyl theory]]
