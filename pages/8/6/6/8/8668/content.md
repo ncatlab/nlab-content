@@ -1,23 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Model category theory
-+--{: .hide}
++-- {: .hide}
 [[!include model category theory - contents]]
 =--
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 =--
 =--
-
-
 
 > This page means to give an introduction to the notion of _[[locally presentable category]]_, and its related notions in [[higher category theory]] and survey some fundamental properties.
 
@@ -29,9 +27,9 @@
 
 > * For the third section _[Basic idea in (∞,1)-category theory](#BasicIdeaInInfinityCategoryTheory)_ the reader is assumed to be familiar with basic concepts of [[(∞,1)-category|(?.1)-category theory]] such as _[[(∞,1)-categories of (∞,1)-presheaves]]_ and _[[(∞,1)-colimits]]_.
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Basic idea in category theory
  {#BasicIdea}
@@ -323,20 +321,18 @@ A [[locally presentable category]] $\mathcal{C}$ is called a _[[topos]]_, precis
 
 =--
 
-## Summary and overview
+## Summary and overview {#summary}
 
 In summary the discussion [above](#BasicIdea) says that the notion of locally presentable categories sits in a sequence of notions as indicated in the row labeled "category theory" in the following table. The other rows are supposed to indicate that regarding a category as a [[(1,1)-category]] and simply varying in this story the parameters $(n,r)$ in "[[(n,r)-category]]" one obtains fairly straightforward analogs of the notion of locally presentable category in other fragments of [[higher category theory]]. These we discuss in more detail further below.
 
 **Locally presentable categories:** [[large categories|Large categories]] whose [[objects]] arise from [[small object|small]] [[generators]] under [[small colimit|small]] [[relations]].
 
-| [[(n,r)-categories]]... | satisfying [[Giraud's axioms]] |  inclusion of [[left exact functor|left exaxt]] [[localizations]] |  [[generators and relations|generated]] under [[colimits]] from [[small objects]] |   | [[localization]] of [[free cocompletion]] |  | [[generators and relations|generated]] under [[filtered colimits]] from [[small objects]]   |
-|--|--|--|--|--|----|--|--|
+| [[(n,r)-categories]] ... | satisfying [[Giraud's axioms]] | inclusion of [[left exact functor|left exaxt]] [[localizations]] | [[generators and relations|generated]] under [[colimits]] from [[small objects]] | | [[localization]] of [[free cocompletion]] | | [[generators and relations|generated]] under [[filtered colimits]] from [[small objects]] |
+| - | - | - | - | - | - | - | - |
 | **[[(0,1)-category theory]]** | [[(0,1)-toposes]] | $\hookrightarrow$ | [[algebraic lattices]] | $\simeq$ [Porst's theorem](algebraic+lattice#RelationToLocallyFinitelyPresentableCategories) | [[subobject lattices]] in [[accessible functor|accessible]] [[reflective subcategories]] of [[presheaf categories]] | | |
-| **[[category theory]]** | [[toposes]] | $\hookrightarrow$ | [[locally presentable categories]] | $\simeq$ [Ad&#225;mek-Rosick&#253;'s theorem](#AdamekRosickyTheorem) | [[accessible functor|accessible]] [[reflective subcategories]] of [[presheaf categories]] |
-$\hookrightarrow$ | [[accessible categories]]  |
-| **[[model category|model category theory]]** | [[model toposes]] | $\hookrightarrow$ | [[combinatorial model categories]] | $\simeq$ [Dugger's theorem](#DuggerTheorem) | [[left Bousfield localization]] of global [[model structures on simplicial presheaves]]  | | |
-| **[[(∞,1)-topos theory]]** | [[(∞,1)-toposes]] |$\hookrightarrow$ | [[locally presentable (∞,1)-categories]] | $\simeq$ <br/> [Simpson's theorem](#SimpsonTheorem) | [[accessible (∞,1)-functor|accessible]] [[reflective sub-(∞,1)-categories]] of [[(∞,1)-presheaf (∞,1)-categories]] |
-$\hookrightarrow$ |[[accessible (∞,1)-categories]] |
+| **[[category theory]]** | [[toposes]] | $\hookrightarrow$ | [[locally presentable categories]] | $\simeq$ [Ad&#225;mek-Rosick&#253;'s theorem](#AdamekRosickyTheorem) | [[accessible functor|accessible]] [[reflective subcategories]] of [[presheaf categories]] | $\hookrightarrow$ | [[accessible categories]] |
+| **[[model category|model category theory]]** | [[model toposes]] | $\hookrightarrow$ | [[combinatorial model categories]] | $\simeq$ [Dugger's theorem](#DuggerTheorem) | [[left Bousfield localization]] of global [[model structures on simplicial presheaves]] | | |
+| **[[(∞,1)-topos theory]]** | [[(∞,1)-toposes]] |$\hookrightarrow$ | [[locally presentable (∞,1)-categories]] | $\simeq$ <br/> [Simpson's theorem](#SimpsonTheorem) | [[accessible (∞,1)-functor|accessible]] [[reflective sub-(∞,1)-categories]] of [[(∞,1)-presheaf (∞,1)-categories]] | $\hookrightarrow$ |[[accessible (∞,1)-categories]] |
 
 ## Basic idea in model category theory
  {#BasicIdeaInModelCategoryTheory}
