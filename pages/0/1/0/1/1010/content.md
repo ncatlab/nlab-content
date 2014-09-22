@@ -53,7 +53,7 @@ Of course the definition below is only correct in material set theory, but there
 
 A **Grothendieck universe** $ U $ is a [[pure set]] $ U $ such that:
 
-1. for all $ u,t \in U $, we have $ t \in U $ (i.e., $ U $ is _transitive_);
+1. for all $ u \in U $ and $t\in u$, we have $ t \in U $ (i.e., $ U $ is _transitive_);
 1. for all $ u \in U $, we have $ \mathcal{P}(u) \in U $;
 1. $ \varnothing \in U $;
 1. for all $ I \in U $ and functions $ u: I \to U $, we have $ \displaystyle \bigcup_{i \in I} u_{i} \in U $.
