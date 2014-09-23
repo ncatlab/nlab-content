@@ -116,5 +116,10 @@ The natural generalization of the construction to [[symmetric monoidal (∞,1)-c
 [[!redirects algebraic K-theory of a symmetric monoidal (∞,1)-category]]
 [[!redirects algebraic K-theory of a symmetric monoidal (∞,1)-categories]]
 
+[[!redirects K-theory of a symmetric monoidal (infinity,1)-category]]
+[[!redirects K-theory of a symmetric monoidal (infinity,1)-categories]]
+
+
 [[!redirects algebraic K-theory of a symmetric monoidal (infinity,1)-category]]
 [[!redirects algebraic K-theory of a symmetric monoidal (infinity,1)-categories]]
+
