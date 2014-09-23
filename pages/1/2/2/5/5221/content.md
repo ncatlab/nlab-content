@@ -53,7 +53,7 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 
 * The simplest example is [[matrix multiplication]], which corresponds to the case where $X$ and $Y$ are [[discrete space]]s.
 
-* Standard examples involving genuine [[functional analysis]] are for instance the [[Fourier transform]] or the [[Laplace transform]].
+* Standard examples involving genuine [[functional analysis]] are for instance the [[Fourier transform]] and related [[Laplace transform]], [[Mellin transform]], [[Hankel transform]], [[Hilbert transform]].
 
 * Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]] is supposed to be a class of examples of a (secondary) integral kernel.
 
@@ -91,9 +91,7 @@ Comments on the formalization of integral transforms and [[quantization]] in [[d
 
 * _[[schreiber:Type-semantics for quantization]]_ 
 
-
+category: analysis, geometry
 [[!redirects integral transforms]]
-
 [[!redirects integral kernel]]
-
 [[!redirects integral kernels]]
