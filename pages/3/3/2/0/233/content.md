@@ -206,7 +206,7 @@ $$
 #### Modules over a ring
  {#Rings}
 
-A [[ring]] is (as discused there) equivalently a [[monoid object]] in the category
+A [[ring]] is (as discussed there) equivalently a [[monoid object]] in the category
 [[Ab]] of [[abelian groups]] turned into a [[monoidal category]]
 by means of the [[tensor product of abelian groups]] $\otimes$.
 Accordingly a _module over $R$_ is a module in $(Ab,\otimes)$ 
