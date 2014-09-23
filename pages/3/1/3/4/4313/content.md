@@ -38,7 +38,7 @@ The definition of a [[triangulated category]] of B-branes for the [[Landau-Ginzb
 
 * {#Orlov} [[Dmitri Orlov]], _Triangulated categories of singularities and D-branes in Landau-Ginzburg models_, Proc. Steklov Inst. Math. 2004, no. 3 (246), 227--248 ([arXiv:math/0302304](http://arxiv.org/abs/math/0302304))
 
-* [[Dmitri Orlov]]_Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#228;user Boston,
+* [[Dmitri Orlov]], _Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#228;user Boston,
 Inc., Boston, MA, 2009 ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/0503632))
 
 
@@ -48,6 +48,7 @@ See also
 
 * J. Burke, M. E. Walker, _Matrix factorizations over projective schemes_, [arxiv/1110.2918](http://arxiv.org/abs/1110.2918)
 * Matthew Ballard, David Favero, [[Ludmil Katzarkov]], _A category of kernels for graded matrix factorizations and its implications for Hodge theory_, [arxiv/1105.3177](http://arxiv.org/abs/1105.3177)
+* [[Alexander I. Efimov]], _Cyclic homology of categories of matrix factorizations_, [arxiv/1212.2859](http://arxiv.org/abs/1212.2859)
 
 A formulation in terms of [[linear logic]] and the [[geometry of interactions]] is in
 
