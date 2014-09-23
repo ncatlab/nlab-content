@@ -4,12 +4,12 @@
 * table of contents
 {: toc}
 
-There are two different meanings of phrase "matrix factorization" which are closely related, one generic for various [[matrix decomposition]]s, like Gauss, LU etc. decompositions of matrices into products, and another rather specific, in the sense of Eisenbud and followers. This entry is dedicated to the latter as it is concerns appearance of certain categories in mathematical physics. 
+There are two different meanings of phrase "matrix factorization" which are closely related, one generic for various [[matrix decomposition]]s, like Gauss, LU etc. decompositions of matrices into products, and another rather specific, in the sense of Eisenbud and followers. This entry is dedicated to the latter as it concerns appearance of certain categories in mathematical physics. 
 
 
 ## Overview
 
-Matrix factorizations were introduced by David Eisenbud, and they were originally studied in the context of [[commutative algebra]].
+Matrix factorizations were introduced by [[David Eisenbud]], and they were originally studied in the context of [[commutative algebra]].
 
 Matrix factorizations arise in [[string theory]] as categories of [[D-branes]] for [[Landau-Ginzburg model|Landau-Ginzburg]] [[B-model]]s. This was proposed by Kontsevich and elaborated in the paper of Kapustin-Li.
 
@@ -52,6 +52,10 @@ See also
 A formulation in terms of [[linear logic]] and the [[geometry of interactions]] is in
 
 * {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
+
+A connection to the representation theory of loop groups and families of Dirac operators is in 
+
+* [[Daniel S. Freed]], Constantin Teleman, _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
 
 [[!redirects matrix factorization]]
