@@ -12,11 +12,11 @@ This entry provides some hyperlinks for the articles
 
 about the [[twisted K-theory|twisted]] [[equivariant K-theory]] of suitable [[Lie groups]], and the [[representation theory]] of their [[loop groups]]. Part II also deals with [[Dirac induction]] and the [[orbit method]] for producting representations by the [[geometric quantization]] of [[coadjoint orbits]].
 
-The result on twisted K-groups has been lifted to an equivalence of categories in
+The result on twisted K-groups has been lifted to an [[equivalence of categories]] in
 
 * [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
-> We identify the category of integrable lowest-weight representations of the loop group LG of a compact Lie group G with the linear category of twisted, conjugation-equivariant curved Fredholm complexes on the group G: namely, the twisted, equivariant matrix factorizations of a super-potential built from the loop rotation action on LG. This lifts the isomorphism of K-groups of [FHT1,2, 3] to an equivalence of categories. The construction uses families of Dirac operators. 
+> We identify the category of integrable lowest-weight representations of the loop group $L G$ of a compact Lie group $G$ with the linear category of twisted, conjugation-equivariant curved Fredholm complexes on the group $G$: namely, the twisted, equivariant [[matrix factorizations]] of a super-potential built from the loop rotation action on $L G$. This lifts the isomorphism of K-groups of [FHT1,2, 3] to an equivalence of categories. The construction uses families of Dirac operators. 
 
 ## Statement of the theorem
 
