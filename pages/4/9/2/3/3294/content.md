@@ -28,7 +28,7 @@ Note that a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is dif
 
 A __Fr&#233;chet space__ is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[locally convex space]] that is [[metric space|metrisable]].  The metric can be chosen to be translation-invariant.
 
-Equivalently, a __Fr&#233;chet space__ is a complete Hausdroff TVS whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]].
+Equivalently, a __Fr&#233;chet space__ is a complete Hausdorff TVS whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]].
 
 We accept as an [[automorphism]] of Fr&#233;chet spaces any linear [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of seminorms used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of $TVS$.
 
