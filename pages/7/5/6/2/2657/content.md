@@ -88,5 +88,6 @@ The main historical contributors to Hodge theory include [[William Hodge]], [[Ph
 
 Discussion of Hodge theory in relation to [[motives]] is in 
 
-* [[Chris Peters]], _Tata Lectures on Motivic Aspects of Hodge Theory_ ([pdf](http://www-fourier.ujf-grenoble.fr/~peters/motivic.f/Tatalects.pdf))
+* [[Chris Peters]], _Tata Lectures on Motivic Aspects of Hodge Theory_ ([pdf](http://www-fourier.ujf-grenoble.fr/~peters/Books/motivic.f/Tatalects.pdf))
 
+* [[Chris Peters]], _Lectures on Motivic Aspects of Hodge Theory: The Hodge Characteristic._, Summer School Istanbul 2014, [pdf](http://www-fourier.ujf-grenoble.fr/~peters/Books/motivic.f/MotAspects.pdf).
