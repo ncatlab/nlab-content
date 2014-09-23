@@ -53,9 +53,10 @@ A formulation in terms of [[linear logic]] and the [[geometry of interactions]] 
 
 * {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
 
-A connection to the representation theory of loop groups and families of Dirac operators is in 
+A connection to the representation theory of loop groups and families of Dirac operators (and the [[string 2-group]]) is in 
 
-* [[Daniel S. Freed]], Constantin Teleman, _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+* {#FreedTeleman14} [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+
 
 
 [[!redirects matrix factorization]]
