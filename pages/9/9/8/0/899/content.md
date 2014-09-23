@@ -17,7 +17,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -140,6 +140,8 @@ A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/
 * [[group]]
 
 * [[discrete group]], [[finite group]]
+
+* [[topological monoid]]
 
 * **topological group**, 
 
