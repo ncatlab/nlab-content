@@ -20,8 +20,10 @@ The modern perception of dessins d'enfants begins with [[Grothendieck]], who sho
 
 The original development does not, however, explicitly use bipartite graphs, rather it used a form of 1-complex, embedded in a surface (see below). The use of bipartite graphs simplifies the exposition.
 
-+-- {:.un_defn}
 ## Definition
+
++-- {:.un_defn}
+###### Definition
 
 A _dessin d'enfant_ is a bipartite connected graph $G$ which is 
 embedded into an orientable closed topological surface $X$, such that it fills the 
