@@ -28,6 +28,12 @@ George Lusztig discovered that total positivity is closely related to some pheno
 
 * Tomoki Nakanishi, _Dilogarithm identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
 
+Generalized cluster algebras are studied in 
+
+* Leonid Chekhov, Michael Shapiro, _Teichm&#252;ller spaces of Riemann surfaces with orbifold points of arbitrary order and cluster variables_, Int. Math. Res. Notices (2014)  2746-2772 [arxiv/1111.3963](http://arxiv.org/abs/1111.3963) [doi](http://dx.doi.org/10.1093/imrn/rnt016)
+* Tomoki Nakanishi, _Structure of seeds in generalized cluster algebras_, [arxiv/1409.5967](http://arxiv.org/abs/1409.5967)
+ 
+
 [[!redirects cluster algebras]]
 [[!redirects cluster transformation]]
 [[!redirects cluster transformations]]
