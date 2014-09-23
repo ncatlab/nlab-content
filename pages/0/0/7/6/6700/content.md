@@ -14,7 +14,7 @@
 
 ## Idea
 
-The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension|dimensional]] [[cobordism]] $\Sigma$ a [[vector space]] of "possible [[correlators]]": those functions on the space of [[conformal structures]] on $\Sigma$ that have the correct behaviour (satisfy the conformal [[Ward identities]]) to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of _[[conformal blocks]]_ $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**. ([Segal 89](#Segal89), [Segal 04, def. 5.1](#Segal04))
+The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension|dimensional]] [[cobordism]] $\Sigma$ a [[vector space]] of "possible [[correlators]]": those functions on the space of [[conformal structures]] on $\Sigma$ that have the correct behaviour (satisfy the conformal [[Ward identities]]) to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of _[[conformal blocks]]_ $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**. ([Segal 89](#Segal89), [Kriz 03](#Kriz03), [Segal 04, def. 5.1](#Segal04)).
 
 To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraints]], see for instance at _[[FRS-theorem on rational 2d CFT]]_.
 
@@ -220,6 +220,8 @@ For $n \in \mathbb{Z}$ let $E = Det^{\otimes n}$ be the functor which sends a [[
 
 =--
 
+Super-line, see ([Kriz-Lai 13](#KrizLai13))...
+
 +-- {: .num_defn }
 ###### Proposition
 
@@ -262,7 +264,9 @@ Original formulations include
 
 * {#Segal04} [[Graeme Segal]], section 5 of _The definition of conformal field theory_, Topology, geometry and quantum field theory London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, (2004), 421-577 ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
 
-* [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112
+* {#Kriz03} [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112 ([numdam:ASENS_2003_4_36_1_57_0](http://www.numdam.org/item?id=ASENS_2003_4_36_1_57_0))
+
+* {#KrizLai13} [[Igor Kriz]], Luhang Lai, _On the definition and K-theory realization of a modular functor_, ([arxiv/1310.5174](http://arxiv.org/abs/1310.5174)).
 
 
 Lectures and reviews include
@@ -282,9 +286,8 @@ Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tm
 
 
 
-A generalization of the modular functors is in
+Discussion in the context of the [[cobordism hypothesis]] is in 
 
-* [[Igor Kriz]], Luhang Lai, _On the definition and K-theory realization of a modular functor_, ([arxiv/1310.5174](http://arxiv.org/abs/1310.5174)).
- 
+* {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors_ ([arXiv:1409.5723](http://arxiv.org/abs/1409.5723))
 
 [[!redirects modular functors]]
