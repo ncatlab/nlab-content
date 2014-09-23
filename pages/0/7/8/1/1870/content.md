@@ -196,12 +196,11 @@ A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ 
 
 The seminal result on the relation to [[loop group]] [[representations]], now again with twists in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$, is in the series of articles
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted K-theory and loop group representations_ ([arXiv:math/0312155](http://arxiv.org/abs/math/0312155))
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted K-theory and loop group representations_ [arXiv:math/0312155](http://arxiv.org/abs/math/0312155);  _[[Loop Groups and Twisted K-Theory]] I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) {#FHT07}; _[[Loop Groups and Twisted K-Theory]] II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
- {#FHT07}
+The result on twisted K-groups has been lifted to an equivalence of categories in
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
+* [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
 Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in 
 
