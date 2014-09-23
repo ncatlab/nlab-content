@@ -541,13 +541,13 @@ A realization of the string 2-group in [[strict 2-group]]s internal to [[Frechet
 
 A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smooth manifold]]s in in
 
-* [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
-{#Schommer-Pries}
+* {#Schommer-Pries} [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+
 
 A discussion as an [[∞-group]] object in [[Smooth∞Grpd]] and the realization of the smooth first fractional Pontryagin class is in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
-{#FSS}
+* {#FSS} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
+
 
 and in section 4.1 of 
 
@@ -563,13 +563,18 @@ A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is dis
 
 Via fermionic nets/[[2-Clifford algebra]]:
 
-* [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
- {#DouglasHenriques}
+* {#DouglasHenriques} [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+ 
 
 The realization of the string 2-group as the [[Heisenberg 2-group]] of the [[WZW gerbe]] is due to 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
-  {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  
+
+Discussion in the context of [[matrix factorizations]] and [[equivariant K-theory]] is in
+
+* {#FreedTeleman14} [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+
 
 [[!redirects String 2-group]]
 [[!redirects String Lie 2-group]]
