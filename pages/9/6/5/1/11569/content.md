@@ -41,7 +41,7 @@ $$
 $$
 represents the group completion of $N$ ([Quillen 71, section 9](#Quillen71), [May, theorem  1.6](#May)). This crucially enters the construction of the [[K-theory of a permutative category]].
 
-According to ([Dwyer-Kan 80, around remark 9.7](#DwyerKan80)) this indeed gives a model for the total [[derived functor]] of 1-categorical group completion.
+According to ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) this indeed gives a model for the total [[derived functor]] of 1-categorical group completion.
 
 ## References
 
