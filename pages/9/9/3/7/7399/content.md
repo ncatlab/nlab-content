@@ -76,6 +76,10 @@ algebraic geometry in characteristic zero."
 
 ## References
 
+* E. Girondo, G. Gonz&#225;lez-Diez, _Introduction to compact Riemann surfaces and dessins d'enfants_, 
+London Mat. Soc. Student Texts __79__, 
+Cambridge Univ. Press 2012. xii+298 pp. 
+
 Fairly elementary sources for background material include:
  
 * Arthur T. White: 1984 _Graphs, groups and surfaces_
