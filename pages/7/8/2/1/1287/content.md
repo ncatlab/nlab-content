@@ -224,6 +224,12 @@ A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local syste
 
 for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
 
+Discussion of [[Galois representations]] as encoding local systems in [[arithmetic geometry]] includes
+
+* {#Lovering} Tom Lovering, _&#201;tale cohomology and Galois Representations_, 2012 ([pdf](http://tlovering.files.wordpress.com/2012/06/essay-body1.pdf))
+
+See also at _[[function field analogy]]_.
+
 [[!redirects local systems]]
 
 [[!redirects local system of coefficients]]
