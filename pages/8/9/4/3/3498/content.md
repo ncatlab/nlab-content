@@ -1,4 +1,4 @@
-**Jean-Marc Cordier** is a French mathematician, who is at LAMFA, Universit&#233; de Picardie Jules Verne, Amiens.
+**Jean-Marc Cordier** (died 7 May 2014) was a French mathematician, working at LAMFA, Universit&#233; de Picardie Jules Verne, Amiens.
 
 He obtained his doctorat d'&#233;tat es' Sciences from Paris 7 in 1987. His research has centred on problems of homotopy coherence, homotopy limits and their application to Steenrod-Sitnikov homology, and strong shape theory.
 
