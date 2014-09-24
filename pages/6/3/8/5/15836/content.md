@@ -1,0 +1,45 @@
+
+# The Bayesian interpretation of quantum physics
+* table of contents
+{: toc}
+
+## Idea
+
+...
+
+
+## Formalism
+
+...
+
+
+## History
+
+People have claimed that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]], and others have claimed that it is what [[Albert Einstein]] meant all along when he attacked Bohr, and still others have claimed that it is what [[John von Neumann]] meant all along when he eschewed interpretation for mathematical axioms.  Any time that somebody has described the wavefunction as containing information, or being given by an experimenters\'s knowledge, or being different for one observer than for another (such as [[Wigner's friend|Wigner and his friend]]), the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
+
+The earliest linking of Bayesianism to the idea of the wavefunction as a state of knowledge that I can find is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, ongoing](#Fuchs)).  Fuchs\'s approach to Bayesian has become increasingly subjectivist, making the links to [[quantum information theory]] less fundamental.  (In contrast, the description above is primarily in terms of the objectivist school of Bayesianism.)
+
+
+## References
+
+* [[John Baez]] (1993). This Week's Finds in Mathematical Physics (Week 27). [Web](http://math.ucr.edu/home/baez/week27.html).
+  {#Baez1993}
+
+* John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://www.math.ucr.edu/home/baez/bayes.html)
+  {#Baez2003}
+
+* Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
+  {#CFS2001}
+
+* [[Christopher Fuchs]] (ongoing). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [web](http://www.perimeterinstitute.ca/personal/cfuchs/).
+  {#Fuchs}
+
+* Wikimedia Foundation (ongoing). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
+
+
+[[!redirects Bayesian interpretation of quantum mechanics]]
+[[!redirects Bayesian interpretations of quantum mechanics]]
+[[!redirects Bayesian interpretation of quantum physics]]
+[[!redirects Bayesian interpretations of quantum physics]]
+[[!redirects Bayesian interpretation of physics]]
+[[!redirects Bayesian interpretations of physics]]
