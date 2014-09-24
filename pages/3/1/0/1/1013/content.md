@@ -27,12 +27,14 @@ See also at _[[structure type]]_ and _[[stuff type]]_.
 ## Definitions
 
 To begin with, let $C$ and $D$ be [[groupoids]], and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then
+
 * $F$ **forgets nothing** if it is an [[equivalence of categories]];
 * $F$ **forgets only properties** if $F$ is [[full and faithful functor|fully faithful]];
 * $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
 * $F$ **forgets at most stuff** regardless.
 
 Another way to break down the possibilities (used in a $3$-way [[factorization system|factorisation system]]) is as follows:
+
 * $F$ **forgets only properties** if $F$ is [[full functor|full]] and faithful;
 * $F$ **forgets purely structure** if $F$ is [[essentially surjective functor|essentially surjective]] (on objects) and faithful;
 * $F$ **forgets purely stuff** if $F$ is essentially surjective and full.
@@ -61,6 +63,7 @@ So the above says for a functor $F : C \to D$:
 
 
 It is worth noting that this formalism captures the intuition of how "stuff", "structure", and "properties" are expected to be related:
+
 * stuff may be equipped with structure;
 * structure may have (be equipped with) properties.
 
