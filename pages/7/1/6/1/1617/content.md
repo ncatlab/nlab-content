@@ -48,7 +48,7 @@ $$
 then the [[point of a topos|topos points]] of $E$ come precisely from the ordinary points 
 
 $$
-  (x : {*} \to X)   in  Top
+  (x : {*} \to X)   \in  Top
   \,,
 $$
 
