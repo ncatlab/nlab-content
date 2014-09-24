@@ -22,19 +22,18 @@ The original development does not, however, explicitly use bipartite graphs, rat
 
 ## Definition
 
-A **(topological) map** is a connected graph $G$ (loops and multiple edges allowed) which is 
-embedded into an orientable closed topological surface $X$, such that it fills the 
+A **(topological) map** is an embedding of a connected graph $G$ (loops and multiple edges allowed) into a compact oriented surface $X$, such that it fills the 
 surface, i.e. $X \setminus G$ is a disjoint union of open cells (referred to as the _faces_ of the map). Two maps $(X_1 , G_1 )$ and $(X_2 , G_2 )$ are called _equivalent_ if there exists a homeomorphism $f : X_1 \to X_2$ 
 such that $f (G_1 ) = G_2$ .
 
-A **hypermap** is an embedding of a connected bipartite graph, or equivalently, a map together with a coloring of the vertices in black and white such that any two adjacent vertices have different colors.  (Note that any map gives rise to a unique hypermap by placing a white vertex in the middle of every edge, and so hypermaps are not only a special case of maps, but also a generalization.)
+A **hypermap** is a map together with a coloring of the vertices in black and white such that any two adjacent vertices have different colors.  Observe that any map (with vertices all colored in black) gives rise to a hypermap by placing a white vertex in the middle of every edge&#8212;so, hypermaps can be seen as maps with extra information, but also conversely as a generalization of maps (which is how they were originally conceived).
 
-Finally, a **dessin d'enfant** can be defined simply as a hypermap, but typically it refers to a hypermap seen as the representation of a _Belyi function_, i.e., a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ unramified outside $\{0,1,\infty\}$.  Any such function determines a hypermap by considering the inverse image of the unit interval, $H = f^{-1}([0,1])$.  Black vertices of $H$ correspond to the preimages of 0, white vertices to the preimages of 1, and moreover, each face of $H$ contains exactly one pole (i.e., a preimage of $\infty$).
+Finally, a **dessin d'enfant** can be defined simply as a hypermap, but typically it refers to a hypermap seen as the representation of a _Belyi function_, i.e., a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ unramified outside $\{0,1,\infty\}$.  Any such function determines a hypermap on the surface $X$ by considering the inverse image of the unit interval, $H = f^{-1}([0,1])$.  Black vertices of $H$ correspond to the preimages of 0, white vertices to the preimages of 1, and moreover, each face of $H$ contains exactly one pole (i.e., a preimage of $\infty$).
 
 
 ## Examples
 
-* A polynomial of degree $n$ has a unique pole (of multiplicity $n$) at $\infty$, and so the dessin d'enfant associated to any polynomial is a one-face hypermap, i.e., a plane [[tree]].  For example, the dessin d'enfant representing $f(x) = x^n$ is the "star-tree", containing one black vertex surrounded by $n$ white vertices.
+* Any polynomial $f : \bar{\mathbb{C}} \to \bar{\mathbb{C}}$ with no critical values other than 0 or 1 (and more generally, after normalization, any polynomial with at most two critical values) may be associated with a dessin d'enfant which is a one-face hypermap, i.e., a plane [[tree]].  (This is because any polynomial has a unique pole, at $\infty$.)  For example, the dessin d'enfant representing $f(x) = x^n$ is the "star-tree", containing one black vertex surrounded by $n$ white vertices.
 
 * It is well known that the bipartite graph $K_{3,3}$ is non-planar, so does not embed in the 2-sphere, but will embed in the torus, in such a way that its complement is a disjoint union of discs.
 
