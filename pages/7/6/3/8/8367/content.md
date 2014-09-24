@@ -64,6 +64,7 @@ See [[Bayesian reasoning]].
 
 * [[deductive reasoning]]
 
+* [[Bayesian reasoning]]
 
 ## References
 
