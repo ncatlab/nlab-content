@@ -5,19 +5,21 @@
 
 ## Idea
 
-...
+[[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]].  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian interpretation of quantum mechanics, and thus (in principle) of all [[physics]].
 
 
 ## Formalism
+
+The mathematics is perhaps cleanest using [[JBW-algebras]], that is [[Jordan algebra|Jordan]] [[W*-algebras]].  That is, ...
 
 ...
 
 
 ## History
 
-People have claimed that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]], and others have claimed that it is what [[Albert Einstein]] meant all along when he attacked Bohr, and still others have claimed that it is what [[John von Neumann]] meant all along when he eschewed interpretation for mathematical axioms.  Any time that somebody has described the wavefunction as containing information, or being given by an experimenters\'s knowledge, or being different for one observer than for another (such as [[Wigner's friend|Wigner and his friend]]), the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
+People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]], and people have implied (in the first paper at [Fuchs, ongoing](#Fuchs)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, ongoing](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
 
-The earliest linking of Bayesianism to the idea of the wavefunction as a state of knowledge that I can find is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, ongoing](#Fuchs)).  Fuchs\'s approach to Bayesian has become increasingly subjectivist, making the links to [[quantum information theory]] less fundamental.  (In contrast, the description above is primarily in terms of the objectivist school of Bayesianism.)
+The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have found, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, ongoing](#Fuchs)).  Fuchs\'s approach to Bayesianism has become increasingly subjectivist, making the links to [[quantum information theory]] less fundamental.  (In contrast, the description above is primarily in terms of the objectivist school of Bayesianism.)
 
 
 ## References
@@ -35,6 +37,7 @@ The earliest linking of Bayesianism to the idea of the wavefunction as a state o
   {#Fuchs}
 
 * Wikimedia Foundation (ongoing). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
+  {#Wikimedia}
 
 
 [[!redirects Bayesian interpretation of quantum mechanics]]
