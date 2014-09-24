@@ -117,3 +117,4 @@ A note on how the Schr&#246;dinger picture in the form of [[extended quantum fie
 [[!redirects Heisenberg picture]]
 [[!redirects Schrödinger picture]]
 [[!redirects Schroedinger picture]]
+[[!redirects Schrodinger picture]]
