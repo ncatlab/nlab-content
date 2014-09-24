@@ -29,7 +29,7 @@ A formalization of the process of deductive reasoning are [[deductive systems]] 
 
 * [[inductive reasoning]]
 
-
+* [[Bayesian reasoning]]
 
 [[!redirects deductive reasoning]]
 [[!redirects deductive inference]]
