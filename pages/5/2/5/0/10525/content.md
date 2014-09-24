@@ -55,8 +55,8 @@ People might state the last clause as ${\|1\|} = 1$, which follows (using shortn
 
 The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it satisfies these identities:
 
-* $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$,
-* positivity: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
+* __$B$-identity__: ${\|x \circ x\|} = {\|x\|^2}$,
+* _positivity_: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
 =--
 
 Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras; the same goes for the norm of $1$ in the unital case.  (Compare the analogous results for $C^*$-[[C-star-algebra|algebras]].)  Conversely, given shortness of multiplication (or even of squaring), these two identities may be combined into the single inequality
@@ -164,3 +164,5 @@ of which a lot is already on pages 1--4 (the only ones that Google Books would s
 [[!redirects JBW-algebras]]
 [[!redirects JBW algebra]]
 [[!redirects JBW algebras]]
+
+[[!redirects B-identity]]
