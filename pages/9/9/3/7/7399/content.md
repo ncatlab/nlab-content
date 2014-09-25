@@ -28,7 +28,7 @@ such that $f (G_1 ) = G_2$ .
 
 A **hypermap** is a map together with a coloring of the vertices in black and white such that any two adjacent vertices have different colors.  Observe that any map (with vertices all colored in black) gives rise to a hypermap by placing a white vertex in the middle of every edge&#8212;so, hypermaps can be seen as maps with extra information, but also conversely as a generalization of maps (which is how they were originally conceived).
 
-Finally, a **dessin d'enfant** can be defined simply as a hypermap, but typically it refers to a hypermap seen as the representation of a _Belyi function_, i.e., a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ unramified outside $\{0,1,\infty\}$.  Any such function determines a hypermap on the surface $X$ by considering the inverse image of the unit interval, $H = f^{-1}([0,1])$.  Black vertices of $H$ correspond to the preimages of 0, white vertices to the preimages of 1, and moreover, each face of $H$ contains exactly one pole (i.e., a preimage of $\infty$).
+Finally, a **dessin d'enfant** can be defined simply as a hypermap, but typically it refers to a hypermap seen as the representation of a _Belyi function_, i.e., a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ unramified outside $\{0,1,\infty\}$.  Any such function determines a hypermap on the Riemann surface $X$ by considering the inverse image of the unit interval, $H = f^{-1}([0,1])$.  Black vertices of $H$ correspond to the preimages of 0, white vertices to the preimages of 1, and moreover, each face of $H$ contains exactly one pole (i.e., a preimage of $\infty$).
 
 
 ## Examples
