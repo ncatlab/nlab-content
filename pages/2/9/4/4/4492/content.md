@@ -60,7 +60,7 @@ For $\mathfrak{g}$ a [[Lie algebra]] we have naturally associated two [[dg-algeb
 The dg-algebra morphisms 
 
 $$
-  \Omega^\bullet(U) \leftaarrow W(\mathfrak{g}) : (A,F_A)
+  \Omega^\bullet(U) \leftarrow W(\mathfrak{g}) : (A,F_A)
 $$
 
 are precisely in bijection with [[Lie-algebra valued 1-form]]s as follows: the [[Weil algebra]] is of the form
