@@ -490,6 +490,8 @@ In this form the statement appears in the proof of ([Johnstone, Theorem A4.3.9](
 
 ## Enriched generalization
 
+* [[Francis Borceux]], _Algebraic localizations and elementary toposes_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.393-401.([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_393_0.pdf))
+
 * Francis Borceux, _Sheaves of algebras for a commutative theory_, Ann. Soc. Sci. Bruxelles S&#233;r. I __95__ (1981), no. 1, 3&#8211;19, [MR83c:18006](http://www.ams.org/mathscinet-getitem?mr=628032)
 
 Let $\mathcal{C}$ be a small category enriched over $Set^{T}$ where $T$ is a [[commutative algebraic theory]]. Then $[\mathcal{C}^{op},\text{Set}^{T}]$. A $T$-sieve as an enriched subfunctor of $\mathcal{C}(-,x)\colon\mathcal{C}^{op}\rightarrow\text{Set}^{T}$. A $\mathbf{T}$-topology is a set $J(x)$ of $\mathbf{T}$-sieves for every $x$, satisfying some axioms. Borceux defines the notion of a sheaf over such enriched site and proves the existence and exactness of the associated sheaf functor. 
