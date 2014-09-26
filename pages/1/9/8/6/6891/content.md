@@ -114,7 +114,7 @@ Discussion of 2-framing entirely in terms of bounding 4-manifolds is for instanc
 
 ### Relation to String-structures
 
-By ([Atiyah 2.1](#Atiyah)) a 2-framing of a 3-manifold $X$ is equivalently a  
+By ([Atiyah 2.1](#Atiyah1990)) a 2-framing of a 3-manifold $X$ is equivalently a  
 $p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]], hence a homotopy class of a trivialization of
 
 $$
