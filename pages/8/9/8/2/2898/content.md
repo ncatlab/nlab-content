@@ -4,12 +4,13 @@ Let $X$ be an [[algebraic variety]] (in the modern approach an irreducible reduc
 
 ## Literature
 
-Related articles: [[Mori program]]
+Related articles: [[Mori program]], [[function field]]
 
 * Janos Koll&#225;r, Shigefumi Mori, _Birational geometry of algebraic varieties_, Cambridge Tracts in Mathematics __134__  
 
 * wikipedia: [birational geometry](http://en.wikipedia.org/wiki/Birational_geometry), [rational variety](http://en.wikipedia.org/wiki/Rational_variety)
 * Caucher Birkhar, _Birationali geometry_, online notes short version 35 pages, [pdf](https://www.dpmms.cam.ac.uk/~cb496/birgeom.pdf&#8206;); _Lectures on birational geometry_, 85 pages, [arxiv/1210.2670](http://arxiv.org/abs/1210.2670)
+* Bruno Kahn, R. Sujatha, _Birational geometry and localisation of categories_, [arxiv/0805.3753v1](http://arxiv.org/abs/0805.3753v1)
 
 A recent new approach is in
 
