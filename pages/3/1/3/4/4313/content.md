@@ -49,6 +49,7 @@ See also
 * J. Burke, M. E. Walker, _Matrix factorizations over projective schemes_, [arxiv/1110.2918](http://arxiv.org/abs/1110.2918)
 * Matthew Ballard, David Favero, [[Ludmil Katzarkov]], _A category of kernels for graded matrix factorizations and its implications for Hodge theory_, [arxiv/1105.3177](http://arxiv.org/abs/1105.3177)
 * [[Alexander I. Efimov]], _Cyclic homology of categories of matrix factorizations_, [arxiv/1212.2859](http://arxiv.org/abs/1212.2859)
+* Alexander Polishchuk, _Homogeneity of cohomology classes associated with Koszul matrix factorizations_, [arxiv/1409.7115](http://arxiv.org/abs/1409.7115)
 
 A formulation in terms of [[linear logic]] and the [[geometry of interactions]] is in
 
