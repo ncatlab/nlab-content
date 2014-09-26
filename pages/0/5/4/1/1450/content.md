@@ -195,6 +195,11 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998) ([[LawvereSDGOutline.pdf:file]])
 
+Two articles that show the link to [[continuum mechanics]]:
+
+* [[Bill Lawvere|F. W. Lawvere]], _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf))
+
+* [[Bill Lawvere|F. W. Lawvere]], _Categorical algebra for continuum microphysics_ , JPAA **175** (2002) pp.267-287.
 
 See also
 
@@ -202,6 +207,10 @@ See also
 
 
 ### Books
+
+A nice elementary introduction which emphasizes calculations and application as _engineering mathematics_ can be found in
+
+* [[John Bell|John L. Bell]], _A Primer of Infinitesimal Analysis_ , Cambridge UP 1998.
 
 The textbooks 
 
@@ -223,10 +232,10 @@ Another textbook is
 
 ### Expositions
 
-Two useful introductory expositions of basic ideas of synthetic differential geometry are
+Useful introductory expositions of basic ideas of synthetic differential geometry are
 
 *  [[Mike Shulman]], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://home.sandiego.edu/~shulman/papers/sdg-pizza-seminar.pdf))
 
 *  [[John Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
-
+* R. P. Kostecki, _Differential Geometry in Toposes_ , ms. University of Warsaw (2009). ([pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf))
