@@ -976,6 +976,8 @@ The [[ring]]-structure on the cohomology with integer coefficients was given in
 
 For [[twisted cohomology|local coefficients]] see
 
+* {#Cadek99} [[Martin ?adek]], _The cohomology of $B O(n)$ with twisted integer coefficients_, J. Math. Kyoto Univ. 39 (1999), no. 2, 277&#8211;286 ([Euclid](http://projecteuclid.org/euclid.kjm/1250517912))
+
 * Richard Lastovecki, _Cohomology of $B O(n_1) \times \cdots \times B O(n_m)$ with local integer coefficients_ Comment.Math.Univ.Carolin. 46,1 (2005)21&#8211;32 ([pdf](http://www.emis.de/journals/CMUC/pdf/cmuc0501/lastovec.pdf))
 
 #### For spin-group, string-group, ... 
