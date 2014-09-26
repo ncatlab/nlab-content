@@ -120,7 +120,7 @@ we have
 +-- {: .num_prop}
 ###### Proposition
 
-Given a complex oriented cohomology theory $(E^\bullet, c_1)$, there is a [[formal group law]] $\mathcal{G}_E$ that describes the the $E$-[[first Chern class]] under [[tensor product]] of [[complex line bundles]]:
+Given a complex oriented cohomology theory $(E^\bullet, c_1)$, there is a [[formal group law]] $\mathcal{G}_E$ that describes the $E$-[[first Chern class]] under [[tensor product]] of [[complex line bundles]]:
 
 $$
   c_1^E(\mathcal{L}_1 \otimes \mathcal{L}_2)
