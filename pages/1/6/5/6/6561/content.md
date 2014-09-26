@@ -84,7 +84,7 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www.physics.rut
 
 Workshops include
 
-* {#Workshop14} _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, December 8th-12th, 2014
+* {#Workshop14} _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014
 
 at the University of California, Berkeley
 
