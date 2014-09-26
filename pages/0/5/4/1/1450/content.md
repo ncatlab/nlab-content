@@ -199,7 +199,7 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998) ([[LawvereSDGOutline.pdf:file]])
 
-Two articles that exhibits the link to [[continuum mechanics]]:
+Two articles that exhibit the link to [[continuum mechanics]]:
 
 * [[Bill Lawvere|F. W. Lawvere]], _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf))
 
