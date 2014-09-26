@@ -27,6 +27,8 @@
 
 ## Idea
 
+> The illumination of the subject by a strict notation for the logic of relatives had shown me clearly and evidently that the idea of an infinitesimal involves no contradiction...As a mathematician, I prefer the method of infinitesimals to that of limits, as far easier and less infested with snares. [[Charles Sanders Peirce]], _The Law of Mind_, The Monist **2** (1892) 
+
 In _synthetic differential geometry_ one formulates [[differential geometry]] [[axiom|axiomatically]] in [[toposes]] -- called [[smooth toposes]] --  of [[generalized smooth spaces]]. 
 
 The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
@@ -174,6 +176,8 @@ This is discussed at
 
 * [[topos of laws of motion]]
 
+* [[nonstandard analysis]]
+
 ## References
 {#References}
 
@@ -195,7 +199,7 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998) ([[LawvereSDGOutline.pdf:file]])
 
-Two articles that show the link to [[continuum mechanics]]:
+Two articles that exhibits the link to [[continuum mechanics]]:
 
 * [[Bill Lawvere|F. W. Lawvere]], _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf))
 
