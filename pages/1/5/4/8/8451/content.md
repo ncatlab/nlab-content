@@ -46,7 +46,7 @@ For some Bayesians, degrees of belief must satisfy further restrictions. One ext
 
 Some such restrictions are generally accepted. If, for example, all I know of an event is that it has $n$ possible outcomes, the objective Bayesian will apply the principle of indifference to set their degrees of belief to $1/n$ for each outcome. On the other hand, if there is background knowledge concerning differences between the outcomes, indifference need not hold. This principle of indifference can be generalized to other kinds of invariance, such as the Jeffreys prior ([wiki](http://en.wikipedia.org/wiki/Jeffreys_prior)). 
 
-Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution should be chosen which is the maximum entropy distribution on $\{1, 2, 3, 4, 5, 6\}$, subject to the constraint that the mean is 4.
+Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution over $\{1, 2, 3, 4, 5, 6\}$ should be chosen which maximizes [[entropy]], subject to the constraint that the mean is 4.
 
 ##References
 
