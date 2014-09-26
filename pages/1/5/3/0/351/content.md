@@ -54,13 +54,13 @@ when $F$ is constant with respect to the argument $c$.
 
 ## Dinaturality versus extranaturality
 
-Many people who encounter the notion of dinaturality through the general definition (as in equation (eq:hexagon) have subsequent difficulty grokking it.  It is the opinion of at least one author of this article ([[Todd Trimble]]), and it was certainly the opinion of Max Kelly, that this "efficient" definition is not the most useful or intuitive one.  Rather, one may be better off grokking the separate squares (eq:domain) and (eq:codomain) -- that is, the notion of [[extranaturality]] -- and how they arise in practice. 
+Many people who encounter the notion of dinaturality through the general definition (as in equation (eq:hexagon)) have subsequent difficulty grokking it.  It is the opinion of at least one author of this article ([[Todd Trimble]]), and it was certainly the opinion of Max Kelly, that this "efficient" definition is not the most useful or intuitive one.  Rather, one may be better off grokking the separate squares (eq:domain) and (eq:codomain) -- that is, the notion of [[extranaturality]] -- and how they arise in practice. 
 
 One could try to argue against that by pointing to dinatural transformations which do not reduce to extranatural ones. Here perhaps the most well known example is where $F = \hom: Set^{op} \times Set \to Set$, where we have a class of dinatural transformations
 
 $$\hom(x, x) \stackrel{\alpha_n}{\to} \hom(x, x)$$ 
 
-defined by the rule $alpha_n(f) = f^{(n)}$ ("[[Church numeral]]s"). But these examples can be "bent" into domain extranaturality by defining 
+defined by the rule $\alpha_n(f) = f^{(n)}$ ("[[Church numeral]]s"). But these examples can be "bent" into domain extranaturality by defining 
 
 $$Set^{op} \times Set \stackrel{G}{\to} Set: (x, y) \mapsto \hom(x, y)^{\hom(y, x)}$$ 
 
