@@ -40,6 +40,8 @@ This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999)
 
 Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
 
+While we\'re at it let\'s define a __$JLBW$-algebra__ to be a $JLB$-algebra whose underlying Banach space is equipped with a [[predual]].
+
 
 ## Equivalence to $C^*$-algebras
 
@@ -68,6 +70,8 @@ Conversely, starting with a $C^*$-algebra $A$, we form the subspace $sa(A) = \{x
 If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product (so $1$ is also defined by restriction).
 
 This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact (I hope!) form an [[equivalence of categories|adjoint equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$ equivalent to $C^* Alg$.
+
+Then real $JLBW$-algebras are equivalent to complex $W^*$-[[W-star-algebra|algebras]].
 
 
 ## References
@@ -105,3 +109,8 @@ A brief remark is on p. 80 of
 [[!redirects JL algebras]]
 [[!redirects JL-algebra]]
 [[!redirects JL-algebras]]
+
+[[!redirects JLBW algebra]]
+[[!redirects JLBW algebras]]
+[[!redirects JLBW-algebra]]
+[[!redirects JLBW-algebras]]
