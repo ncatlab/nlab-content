@@ -35,6 +35,12 @@ We might also want to consider generalized (non-normal) states, that is norm-$1$
 
 In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint on $H$.  Then a normal state is a trace-class [[density matrix]], while a generalized state is an arbitrary density matrix.  The pure states (of the form ${|\psi\rangle\langle\psi|}$ for $\psi$ a unit vector in $H$) always belong to $A^*$ but only belong to $A_*$ when the dimension of $H$ is finite.
 
+## Related concepts
+
+* [[interpretation of quantum mechanics]]
+
+* [[finite quantum mechanics in terms of dagger-compact categories]]
+
 
 [[!redirects JBW-algebras in quantum mechanics]]
 [[!redirects JBW-algebras in quantum physics]]
