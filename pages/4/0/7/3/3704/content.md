@@ -93,6 +93,7 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 * [[linear logic]], [[linear type theory]], [[quantum logic]], [[quantum computing]]
 
+* [[JBW-algebraic quantum mechanics]]
 
 ## References
  {#References}
