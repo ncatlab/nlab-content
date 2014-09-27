@@ -329,6 +329,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[finite quantum mechanics in terms of dagger-compact categories]]
 
+  * [[JBW-algebraic quantum mechanics]]
+
   * [[interpretation of quantum mechanics]]
 
 * [[quantum field theory]]
