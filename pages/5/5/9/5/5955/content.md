@@ -33,13 +33,13 @@ By the discussion an [[tangent (∞,1)-category]] we may realize $E_\infty$-modu
 +-- {: .num_prop}
 ###### Proposition
 
-Let $E_\infty := Alg^{Comm}(\infty Grpd)$ be the [[(∞,1)-category]] of [[E-∞ ring]]s and let $R \in E_\infty$. Then the [[stabilization]] of the [[over-(∞,1)-category]] over $A$ 
+Let $E_\infty := Alg^{Comm}(\infty Grpd)$ be the [[(∞,1)-category]] of [[E-∞ ring]]s and let $R \in E_\infty$. Then the [[stabilization]] of the [[over-(∞,1)-category]] over $R$ 
 
 $$
-  Stab(E_\infty/R) \simeq A Mod(Spec)
+  Stab(E_\infty/R) \simeq R Mod(Spec)
 $$
 
-is equivalentl to the category of $R$-module spectra.
+is equivalent to the category of $R$-module spectra.
 
 =--
 
@@ -112,7 +112,7 @@ An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[
 
 A comprehensive general discussion is in
 
-* [[Jacob Lurie]], _[[Deformation Theory]]_ 
+* [[Jacob Lurie]], _[[Higher Algebra]]_, chapter 7.
  {#Lurie}
 
 The equivalence between the [[homotopy categories]] of  $H R$-module spectra and $Ch_\bullet(R Mod)$ is due to
