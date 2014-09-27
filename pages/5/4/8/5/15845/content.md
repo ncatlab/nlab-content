@@ -1,0 +1,43 @@
+
+# $JBW$-algebras in quantum mechanics
+* table of contents
+{: toc}
+
+## Idea
+
+It can be nice to describe the [[kinematics]] of a [[quantum system]] using a [[JBW-algebra]].  (We can add [[dynamics]] by giving the $JBW$-algebra the structure of a [[pointed object|pointed]] [[JLBW-algebra]], that is defining a kind of [[commutator]] and identifying one of the operators in the algebra as the [[Hamiltonian]].)
+
+
+## Description
+
+>This is hastily copied from elsewhere and minimally edited. More work should be done to spell this out.  Also motivation.
+
+We have:
+
+* a [[Banach space]] $A$ whose elements are thought of as (bounded, real-valued) [[observables]];
+* a [[Banach space]] $A_*$, some of whose norm-$1$ elements (those to be identified later as 'positive') are thought of ([[normal state|normal]], [[mixed state|mixed]]) [[states]];
+* with $A$ expressed as the [[dual Banach space|dual]] of $A_*$;
+* with a commutative (but [[nonassociative algebra|nonassociative]]) multiplication operation on $A$;
+* with the resulting nonassociative [[Banach algebra]] $A$ satisfying a few technical conditions:
+  * [[power-associative algebra|power-associativity]]: all ways of parenthesizing $x^n$, for $x$ an element of $A$ and $n$ a [[natural number]], are equal;
+  * positivity: ${\|x^2\|} \leq {\|x^2 + y^2\|}$; and
+  * the [[B-identity]]: ${\|x^2\|} = {\|x\|^2}$.
+
+In particular, the positivity allows us to define a [[partial order]] on $A$ according to which an element of $A$ is (weakly) _positive_ if it is a limit of sums of squares, and then an element $\psi$ of $A_*$ is _positive_ (and hence a _normal state_ if it has norm $1$) if every positive element $x$ of $A$ takes $\psi$ to a nonnegative real number.
+
+If the multiplication on $A$ happens to be [[associative algebra|associative]], then there exists a [[measure space]] $X$ such that $A_*$ is the [[Lebesgue space]] $L^1(X)$ and $A$ is $L^\infty(X)$.  It is always possible to take $X$ to be [[localizable measure space|localizable]], in which case the [[Radon--Nikodym theorem]] applies and we can identify $L^1(X)$ with the space of [[absolutely continuous measures]] on $X$.  At this point, the measure on $X$ is irrelevant except for its specification of [[full set|full]] (or [[null set|null]]) subsets, so we may treat $X$ as simply a [[localizable measurable space]] (which includes this data).  Then the choice of $X$ is actually [[the|essentially unique]].
+
+In this way, the associative case reduces to [[probability theory]].  We have a measurable space $X$, an observable is an [[essentially bounded function]], and a state is a [[probability measure]].  It is true that we only have localizable spaces, but these are the only ones that satisfy the nice theorems (such as Radon--Nikodym, aforementioned) anyway.  (Similarly, the observables are defined only up to [[almost equality]], and the normal states must be [[absolutely continuous measures]].)
+
+In the general (nonassociative) case, we still think of the elements of $A$ (the observables) as essentially bounded functions, but now on a sort of [[noncommutative geometry|noncommutative]] (or rather nonassociative) space, and we may still think of the elements of $A_*$ (the states) as probability measures on that space.  (This is particularly appropriate in the [[Bayesian interpretation of quantum mechanics]].)  Because $A$ is a Jordan algebra instead of an associative algebra, *all* of its elements may be thought of as observables, but this is more of a convenience than an essential feature.
+
+We might also want to consider generalized (non-normal) states, that is norm-$1$ [[positive operator|positive]] [[linear functionals]] on $A$.  (Every state in $A_*$ may be so interpreted, using the natural map $A_* \to (A_*)^{**} = A^*$).  In the associative case, the [[delta measure]]s (corresponding to ideal points of $X$) belong here; more generally, [[pure states]] live in $A^*$.  (Pure states *can* exist in $A_*$, but only in the simplest cases.)  One may go further and consider [[quasistate]]s on $A$, if any exist (besides the states themselves).
+
+In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint on $H$.  Then a normal state is a trace-class [[density matrix]], while a generalized state is an arbitrary density matrix.  The pure states (of the form ${|\psi\rangle\langle\psi|}$ for $\psi$ a unit vector in $H$) always belong to $A^*$ but only belong to $A_*$ when the dimension of $H$ is finite.
+
+
+[[!redirects JBW-algebras in quantum mechanics]]
+[[!redirects JBW-algebras in quantum physics]]
+[[!redirects JBW-algebraic approach to quantum mechanics]]
+[[!redirects JBW-algebraic approach to quantum physics]][[!redirects JBW-algebraic quantum mechanics]]
+[[!redirects JBW-algebraic quantum physics]]
