@@ -120,7 +120,7 @@ $$
 
 between the [[chain complex]] of [[ordinary cohomology]] of $X$ with that $d$-fold [[suspension|de-suspension]] of the [[chain complex]] of [[ordinary homology]] of $X$.
 
-This is such that its image in [[chain homology]] is the traditional Poincar&#233; duality isomorphism
+This is such that its image in [[chain homology]] is (up to sign) the traditional Poincar&#233; duality isomorphism
 
 $$
   H^\bullet(X) \stackrel{\simeq}{\to} H_{\bullet + d}(X)
