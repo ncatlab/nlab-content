@@ -40,7 +40,7 @@ Finally, a **dessin d'enfant** can be defined simply as a hypermap, but typicall
 
 ##Remark
 
-The original work  was stated in terms of objects called [[cellular maps]], and the category of these cellular maps and isotopy classes of morphisms between them was shown to correspond to a category of finite $\mathbb{G}$-sets where $\mathbb{G}$ is a group called the [[cartographic group]], which has a simple presentation in terms of operations of a geometric /  combinatorial nature. )
+The original work  was stated in terms of objects called [[cellular maps]], and the category of these cellular maps and isotopy classes of morphisms between them was shown to correspond to a category of finite $\mathbb{G}$-sets where $\mathbb{G}$ is a group called the [[cartographic group]], which has a simple presentation in terms of operations of a geometric /  combinatorial nature.
 
 
 
@@ -70,9 +70,9 @@ algebraic geometry in characteristic zero."
 
 ## References
 
-* E. Girondo, G. Gonz&#225;lez-Diez, _Introduction to compact Riemann surfaces and dessins d'enfants_, 
-London Mat. Soc. Student Texts __79__, 
-Cambridge Univ. Press 2012. xii+298 pp. 
+The Wikipedia page on this is:
+
+* [wikipedia](http://en.wikipedia.org/wiki/Dessin_d'enfant)
 
 Fairly elementary sources for background material include:
  
@@ -98,15 +98,15 @@ The original work on the elementary theory was contained in
 
 * [[Christine Voisin]], [[Jean Malgoire]], Factorisation de Stein topologique, d&#233;coupe, Cahiers Math&#233;matiques, 15, Montpellier, 1979.
 
-* [[Christine Voisin]], [[Jean Malgoire]], Cartes topologiques infinies et revetemnts ramifies de la sphere, Cahiers Math&#233;matiques, 19, Montpellier, 1980. 
+* [[Christine Voisin]], [[Jean Malgoire]], Cartes topologiques infinies et rev&#234;tements ramifi&#233;s de la sph&#232;re, Cahiers Math&#233;matiques, 19, Montpellier, 1980. 
 
-A more recent textbook on the theory of embedded graphs (with a chapter devoted to dessins d'enfants) is
+Other modern textbook accounts include:
 
 * Sergei K. Lando, Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-The Wikipedia page on this is:
-
-* [wikipedia](http://en.wikipedia.org/wiki/Dessin_d'enfant)
+* E. Girondo, G. Gonz&#225;lez-Diez, _Introduction to compact Riemann surfaces and dessins d'enfants_, 
+London Mat. Soc. Student Texts __79__, 
+Cambridge Univ. Press 2012. xii+298 pp. 
 
 References on the history of dessins d'enfants
 
