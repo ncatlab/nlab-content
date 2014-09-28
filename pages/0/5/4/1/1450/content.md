@@ -27,13 +27,11 @@
 
 ## Idea
 
-> The illumination of the subject by a strict notation for the logic of relatives had shown me clearly and evidently that the idea of an infinitesimal involves no contradiction...As a mathematician, I prefer the method of infinitesimals to that of limits, as far easier and less infested with snares. [[Charles Sanders Peirce]], _The Law of Mind_, The Monist **2** (1892) 
-
 In _synthetic differential geometry_ one formulates [[differential geometry]] [[axiom|axiomatically]] in [[toposes]] -- called [[smooth toposes]] --  of [[generalized smooth spaces]]. 
 
-The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
+The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exists in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
 
-In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context literally is an _infinitesimal path_ in $X$.
+In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context is literally an _infinitesimal path_ in $X$.
 
 This way, in [[smooth topos]]es it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
 
@@ -48,7 +46,14 @@ As quoted by [[Anders Kock]] in his first book ([p. 9 ](http://home.imf.au.dk/ko
 
 Synthetic differential geometry provides this formalized language.
 
++-- {: .num_remark #Peirce}
+###### Remark
 
+Another advocate of the use of infinitesimals in the late 19th century was the American philosopher [[Charles Sanders Peirce]] who also foresaw the role of non-classical logic in such a putative infinitesimal calculus:
+
+> The illumination of the subject by a strict notation for the logic of relatives had shown me clearly and evidently that the idea of an infinitesimal involves no contradiction...As a mathematician, I prefer the method of infinitesimals to that of limits, as far easier and less infested with snares. Charles Sanders Peirce, _The Law of Mind_, The Monist **2** (1892) 
+
+=--
 
 ## Axiomatics
 
@@ -187,7 +192,7 @@ The idea of axiomatizing [[differential geometry]] using [[topos]] theory origin
 
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
-* [[Eduardo Dubuc]], _Sur la mod&egrave;le de la g&eacute;ometrie diff&eacute;rrentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
+* [[Eduardo Dubuc]], _Sur les mod&egrave;les de la g&eacute;om&eacute;trie diff&eacute;rentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
 
 These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
 
@@ -212,7 +217,7 @@ See also
 
 ### Books
 
-A nice elementary introduction which emphasizes calculations and application as _engineering mathematics_ can be found in
+A nice elementary introduction which emphasizes calculations and the application as _engineering mathematics_ can be found in
 
 * [[John Bell|John L. Bell]], _A Primer of Infinitesimal Analysis_ , Cambridge UP 1998.
 
@@ -235,6 +240,12 @@ Another textbook is
 * R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer, Dordrecht (1996)
 
 ### Expositions
+
+For the early French connection see:
+
+* [[André Weil]], _Th&#233;orie des points proches sur les vari&#233;t&#233;s diff&#233;rentiables_ , Colloq. Top. et G&#233;om. Diff., Strasbourg (1953) pp.111-117.
+
+* Jean Penon, _De l'infinit&#233;simal au local (Th&#232;se de Doctorat d'&#201;tat)_ Diagrammes **S13** (1985), pp.1-191. ([pdf](http://archive.numdam.org/article/DIA_1985__S13__1_0.pdf))
 
 Useful introductory expositions of basic ideas of synthetic differential geometry are
 
