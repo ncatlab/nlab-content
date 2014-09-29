@@ -153,9 +153,9 @@ Basics are recalled for instance in
 * Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ ([arXiv:1005.4299](http://arxiv.org/abs/1005.4299))
 
 
-Explicit proof that in particular the [[modular functor]] in the [[Reshetikhin-Turaev model]] is equivalent to that induced from [[geometric quantization]] is at least partially in
+Explicit proof that in particular the [[modular functor]] in the [[Reshetikhin-Turaev model]] is equivalent to that induced from [[geometric quantization]] (via relating the [[Hitchin connection]] to bundles of [[conformal blocks]]) is at least partially in
 
-* [[Yves Laszlo]] _Hitchin's and WZW are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 
+* {#Laszlo98} [[Yves Laszlo]] _Hitchin's and WZW connection are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 ([pdf](http://www.emis.de/journals/NYJM/JDG/archive/vol.49/3_5.pdf))
 
 
 * [[Jørgen Andersen]], K. Ueno, _Abelian Conformal Field theories and Determinant Bundles_, International Journal of Mathematics, 18 919 - 993 (2007). 
