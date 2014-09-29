@@ -25,7 +25,7 @@ Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holo
 (e.g. [Polishchuk 03, section 17](#Polishchuk03)) and in particular over a [[Jacobian variety]] ([Beauville](#Beauville)) such as [[prequantum line bundles]] for (abelian) [[gauge theory]]. The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
 Expressed in [[coordinates]] $\mathbf{z}$ on the [[covering]] $\mathbb{C}^g$ of the [[complex torus]] $\mathbb{C}^g/\mathbb{Z}^g$, a $\theta$-function appears as an actual function $\mathbf{z} \mapsto \theta(\mathbf{z})$ satisfying certain transformation properties, and this is how theta functions are considered.
 
-Those theta functions encoding sections of line bundles on a [[Jacobian variety]] $J(\Sigma)$ of a [[Riemann surface]] $\Sigma$ ([[determinant line bundles]], [Freed 87, pages 30-31](#Freed87)) typically vary in a controlled way with the [[complex structure]] modulus $\mathbf{\tau}$ of $\Sigma$ and are hence really functions also of this variable $(\mathbf{z},\mathbf{\tau}) \mapsto \theta(\mathbf{z}, \mathbf{\tau})$ with certain transformation properties. These are the _[[Riemann theta functions]]_. They are the expressions in local coordinates of the covariantly constant sections of the [[Hitchin connection]] on the [[moduli space of Riemann surfaces]] $\mathcal{M}_\Sigma$ ([Hitchin 90, remark 4.12](#Hitchin90)).  In the special case that $\Sigma$ is complex 1-dimensional of [[genus]] $g = 1$ (hence a complex [[elliptic curve]]) then such a function $(z,\tau) \mapsto \theta(z,\tau)$ of two variables with the pertinent transformation properties is a _[[Jacobi theta functions]]_. Notice that in their dependence not only on $\tau$ but also on $z$ these are properly called _[[Jacobi forms]]_.
+Those theta functions encoding sections of line bundles on a [[Jacobian variety]] $J(\Sigma)$ of a [[Riemann surface]] $\Sigma$ ([[determinant line bundles]], [Freed 87, pages 30-31](#Freed87)) typically vary in a controlled way with the [[complex structure]] modulus $\mathbf{\tau}$ of $\Sigma$ and are hence really functions also of this variable $(\mathbf{z},\mathbf{\tau}) \mapsto \theta(\mathbf{z}, \mathbf{\tau})$ with certain transformation properties. These are the _[[Riemann theta functions]]_. They are the expressions in local coordinates of the covariantly constant sections of the [[Hitchin connection]] on the [[moduli space of Riemann surfaces]] $\mathcal{M}_\Sigma$ ([Hitchin 90, remark 4.12](#Hitchin90)).  In the special case that $\Sigma$ is complex 1-dimensional of [[genus]] $g = 1$ (hence a complex [[elliptic curve]]) then such a function $(z,\tau) \mapsto \theta(z,\tau)$ of two variables with the pertinent transformation properties is a _[[Jacobi theta functions]]_. Notice that in their dependence not only on $\tau$ but also on $z$ these are properly called _[[Jacobi forms]]_. Finally notice that these line bundles on [[Jacobian varieties]] have non-abelian generalizations to line bundles on [[moduli stacks of vector bundles]] of [[rank]] higher than one, whose sections may then be thought of as _generalized theta functions_ ([Beauville-Laszlo 93](#BeauvilleLaszlo93)).
 
 Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more) for $z = 0$. While this is the historically first and archetypical function from which all modern generalizations derive their name, notice that at fixed $z$ as a function in $\tau$ the "theta function" is not actually a section of a line bundle anymore. The generalization in number theory of the Jacobi theta function that does again have a dependence on a twisting is the _[[Dirichlet theta function]]_ depending on a [[Dirichlet character]] (which by [[Artin reciprocity]] corresponds to a [[Galois representation]]).
 
@@ -49,6 +49,8 @@ $$
 see e.g. ([AlvaresGaume-Moore-Vafa 86](#AlvaresGaumeMooreVafa86), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
+
+For nonabelian CS/WZW theory the same story goes through and one may the elements of the corresponding [[conformal blocks]] "generalized theta functions" ([Beauville-Laszlo 93](#BeauvilleLaszlo93)).
 
 ## Definition
  {#Definition}
@@ -142,13 +144,16 @@ Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]]
 * {#Freed87} [[Daniel Freed]], around p. 30-31 of _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
 
-* {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
-
 * {#Andersen11} Johan Martens [[Jørgen Andersen]], notes by S&#248;ren J&#248;rgensen, p. 53 of _Topological quantum field theories and moduli spaces_, 2011 ([pdf](http://maths.fuglede.dk/noter/tqftms.pdf))
 
 and more generally the [[partition functions]] of connection-twisted Dirac operators on even-dimensional locally symmetric spaces is discussed in
 
 * {#BunkeOlbrich94}  [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407013](http://arxiv.org/abs/dg-ga/9407013))
+
+Generalization of this from abelian to non-abelian [[conformal blocks]] to "generalized theta functions" appears in
+
+* {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_, Comm. Math. Phys. __164__ (1994), 385 - 419, [euclid](http://projecteuclid.org/euclid.cmp/1104270837), [alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003), [MR1289330](http://www.ams.org/mathscinet-getitem?mr=1289330)
+
 
 That the Riemann zeta functions are the local coordinate expressions of the covariantly constant sections of the [[Hitchin connection]] is due to 
 
