@@ -123,10 +123,10 @@ between the [[chain complex]] of [[ordinary cohomology]] of $X$ with that $d$-fo
 This is such that its image in [[chain homology]] is (up to sign) the traditional Poincar&#233; duality isomorphism
 
 $$
-  H^\bullet(X) \stackrel{\simeq}{\to} H_{\bullet + d}(X)
+  H^\bullet(X) \stackrel{\simeq}{\to} H_{d -\bullet}(X)
 $$
 
-of theorem \ref{TraditionalPoincareDuality}.
+of theorem \ref{TraditionalPoincareDuality}.  When $\bullet=r$, the sign is $-1^{r(r+1)/2}$.
 
 =--
 
