@@ -25,7 +25,9 @@ The spaces of functionals that satisfy the first of these conditions are called 
 
 So conformal blocks are something like "precorrelators" or "potential correlators" of a [[CFT]]. 
 
-The assignment of spaces of conformal blocks to surfaces and their [[isomorphisms]] under [[diffeomorphisms]] of these surfaces together constitutes the _[[modular functor]]_.
+The assignment of spaces of conformal blocks to surfaces and their [[isomorphisms]] under [[diffeomorphisms]] of these surfaces together constitutes the _[[modular functor]]_. Under [[AdS3-CFT2 and CS-WZW correspondence|CS/WZW holography]] this is essentially the data also given by the [[Hitchin connection]], see at _[[quantization of 3d Chern-Simons theory]]_ for more on this.
+
+From a point of view closer to [[number theory]] and [[geometric Langlands correspondence]] elements of conformal blocks are naturally thought of ([Beauville-Laszlo 93](#BeauvilleLaszlo93)) as generalized [[theta functions]] (see there for more).
 
 
 ## Properties
