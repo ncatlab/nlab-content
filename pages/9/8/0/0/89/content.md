@@ -63,6 +63,7 @@ $$
 $$
 where both legs are acyclic fibrations.
 
+
 In particular, if the ambient [[homotopical category]] is a [[category of fibrant objects]], then the _factorization lemma_ (see there) ensures that _every_ weak equivalence can be factored as a span of acyclic fibrations as above. 
 
 Important fibrant objects are in particular [[infinity-groupoid]]s (for instance [[Kan complex]]es are fibrant in the standard [[model structure on simplicial sets]] and [[omega-groupoid]]s are fibrant with respect to the Brown-[[Golasinski]] [[folk model structure]]). And indeed, Morita equivalences play an important role in the theory of groupoids with extra structure:
@@ -73,23 +74,49 @@ A **[[Morita morphism]] equivalence** of [[Lie groupoids]] is an [[anafunctor]] 
 
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
+## Related Concepts
+
+* [[Morita context]]
+* [[Eilenberg-Watts theorem]]
+* [[generator]]
+* [[bimodule]]
+* [[projective module]]
+* [[Picard group]]
+* [[bicategory]]
+* [[Cauchy completion]]
 
 
 ## References
 
-Related $n$Lab entries include [[Morita context]], [[Eilenberg-Watts theorem]], [[generator]], [[bimodule]], [[projective module]], [[Picard group]], [[bicategory]]
-
 * wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
 
-A beautiful classical exposition is in the chapter II of 
+A beautiful classical exposition is in chapter II of 
 
-* [[Hyman Bass]], _Algebraic K-theory_, Benjamin 1968
+* [[Hyman Bass]], _Algebraic K-theory_, Benjamin 1968.
+
+The concept should be covered in any decent textbook on algebra and ring theory, e.g.:
 
 * P. M. Cohn, _Further algebra and applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
-* [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
+* [[Ross Street]], _Quantum Groups - A Path to Current Algebra_ , Cambridge UP 2007. ([ps-draft](http://www-texdev.ics.mq.edu.au/Quantum/Quantum.ps))
 
-* [[Ross Street]], _Quantum Groups - A Path to Current Algebra_, Cambridge UP 2007. ([ps-draft](http://www-texdev.ics.mq.edu.au/Quantum/Quantum.ps))
+For an early extension to domains other than ring theory see
+
+* H. Lindner, _Morita equivalences of enriched categories_ , Cah. Top. G&#233;om. Diff. Cat **15** no.4 (1974) pp.377-397. ([pdf](http://archive.numdam.org/article/CTGDC_1974__15_4_377_0.pdf))
+
+The case of algebraic theories is covered in
+
+* [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra 2_ , CUP 1994. (sec. 3.12)
+
+* [[Jiri Adamek|J. Adámek]], M. Sobral, L. Sousa, _Morita equivalence of many-sorted algebraic theories_ , JA **297** (2006) pp.361-371. ([preprint](https://estudogeral.sib.uc.pt/bitstream/10316/4616/1/filee8df8c9585d34e1a8d56fdaf0460d008.pdf))
+
+For the use in O. Caramello's 'toposes as bridges'- approach that brings out the logical side of the concept:
+
+* [[Olivia Caramello|O. Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
+
+Other references include
+
+* [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ . ([[MeyerMoritaEquivalence.pdf:file]])
 
 * I. Dell'Ambrogio, G. Tabuada, _A Quillen Model Structure for Classical Morita Theory and a Tensor Categorification of the Brauer Group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
 
