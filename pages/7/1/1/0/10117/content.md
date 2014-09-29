@@ -78,11 +78,15 @@ More details (on [[metaplectic correction]]) and generalization to connections o
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
  
 
-
-
 Similar generalization away from [[moduli spaces of flat connections]] to general [[symplectic manifolds]] with [[Kähler structure]] on them is also in
 
 * {#Lauridsen10} Lauridsen, _Aspects of quantum mathematics  -- Hitchin connections and the AJ conjecture_, PhD thesis Aarhus 2010 ([pdf](http://pure.au.dk/portal/files/41741925/imf_phd_2010_mrl.pdf))
+
+Relation between the Hitchin connection and bundles of [[conformal blocks]] is discussed in 
+
+* {#Laszlo98} [[Yves Laszlo]] _Hitchin's and WZW connection are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 ([pdf](http://www.emis.de/journals/NYJM/JDG/archive/vol.49/3_5.pdf))
+
+For more on this see at _[[quantization of 3d Chern-Simons theory]]_.
  
 
 [[!redirects Hitchin connections]]
