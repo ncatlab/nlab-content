@@ -1,7 +1,7 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="https://lh4.googleusercontent.com/-Y3_sV_ks7a8/U4PWQ4BtYVI/AAAAAAAAAp0/coMxk-fGceo/w140-h139-p/IMG_20140524_120431.jpg" alt="Sanath Devalapurkar" /></div>
 I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. Right now, I'm interested in a version of "$\mathcal{K}$-theory" (it's a construction analagous to ordinary algebraic $\mathcal{K}$-theory from Quillen's $Q$-construction) of $\mathcal{M}\mathrm{od}^\mathcal{O}_A(\mathcal{C}^\otimes)^\otimes$, where $\mathcal{C}^\otimes$ is a unital $\infty$-operad. [I have taken some notes on the same at my blog.](https://categorymath.files.wordpress.com/2014/08/higher-algebra-k-theory2.pdf) See Lurie's [Higher Algebra](http://www.math.harvard.edu/~lurie/papers/HigherAlgebra.pdf) for terminology.
 
-**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _categorymath@gmail.com_ (I would prefer the first).
+**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (I would prefer the first).
 
 My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems in Homotopy Theory_](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/Sanath+Devalapurkar), and [nlab page](http://ncatlab.org/nlab/show/Sanath+Devalapurkar). I am updating the first more regularly than the others.
 <hr>
