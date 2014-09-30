@@ -12,6 +12,17 @@ In the following paper there is an example showing that the Heisenberg double $A
 
 *  Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](http://dx.doi.org/10.1142/S0129167X96000050)
 
+An example of an infinite dimensional analogue coming from Lie algebras is treated in 
+
+* S. Meljanac, Z. &#352;koda, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
+
+which partly refers to previous paper (which however neglects
+the issues related to completions)
+
+* [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845&#8211;4854, [arXiv:0909.3769](http://arxiv.org/abs/0909.3769), [doi](http://dx.doi.org/10.1142/S0217751X11054772) 
+
+Miscellaneous articles on Heisenberg doubles
+
 * R.M. Kashaev, _Heisenberg double and the pentagon relation_, St. Petersburg Math. J. 8 (1997) 585&#8211;
 592 [q-alg/9503005](http://arxiv.org/abs/q-alg/9503005).
 
@@ -25,7 +36,5 @@ Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.
 * A.M. Semikhatov, _A Heisenberg double addition to the logarithmic Kazhdan&#8211;Lusztig duality_, [arXiv:0905.2215](http://arxiv.org/abs/0905.2215).
 
 * A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
-
-* [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845&#8211;4854, [arXiv:0909.3769](http://arxiv.org/abs/0909.3769), [doi](http://dx.doi.org/10.1142/S0217751X11054772) 
 
 * Daniele Rosso, Alistair Savage, _Twisted Heisenberg doubles_, [arxiv/1405.7889](http://arxiv.org/abs/1405.7889)
