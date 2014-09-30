@@ -79,5 +79,12 @@ Regarding just the underlying [[endofunctor]] of the maybe monad, its [[initial 
 
 * {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
 
+Around (0.4.24.2) in 
+
+* {#Durov07} [[Nikolai Durov]], _New Approach to Arakelov Geometry_ ([arXiv:0704.2030](http://arxiv.org/abs/0704.2030))
+
+the algebraic structure of the would be "[[field with one element]]" is regarded as being the maybe monad, hence [[modules]] over $\mathbb{F}_1$ are defined to be [[algebra over a monad|monad-algebras]] over the maybe monad, hence [[pointed sets]].
+
+
 
 [[!redirects maybe monads]]
