@@ -284,7 +284,7 @@ For more see
 
 ## References
 
-### General
+### Survey and introduction
 
 A large body of references is organized at the
 
@@ -311,7 +311,16 @@ A book trying to summarize the state of the art of capturing mathematical struct
 
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+
 ### Technical details
+
+#### GUT
+
+A key article for the idea that string theory provides a framework for realistic (chiral) [[grand unified theories]] combined with [[quantum gravity]] was
+
+* {#Witten84} [[Edward Witten]], _Some properties of $O(32)$ superstrings_, Phys. Lett. B, volume 149, December 1984 ([[Witten84.pdf:file]])
+
+based on the insights of [[Green-Schwarz anomaly cancellation]].
 
 #### Elliptic genera, elliptic homology and tmf
 
