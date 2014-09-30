@@ -67,6 +67,9 @@ In the unstable range for low $n$ they instead start out as follows (e.g. [Abano
 | $SO(4)$ | $\mathbb{Z}_{2}$ | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ |
 | $SO(5)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |
 
+### Homology and cohomology 
+
+([Pittie 91](#Pittie91))
 
 ### Whitehead tower and higher orientation structures
 
@@ -110,7 +113,12 @@ Examples of sporadic (exceptional) [[isogenies]] from [[spin groups]] onto ortho
 
 The [[homotopy groups]] of $O(n)$ are listed for instance in 
 
-* Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
-  {#Abanov09}
+* {#Abanov09} Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
+  
+The [[ordinary cohomology]] and [[ordinary homotopy]] of the manifolds $SO(n)$ is discussed in 
+
+* {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
+
+
 
 [[!redirects orthogonal groups]]
