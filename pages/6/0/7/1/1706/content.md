@@ -138,7 +138,7 @@ The action in corollary \ref{CanonicalOnAction} is
 
 * for $n = 2$ the $O(2)$-action the _[[Serre automorphism]]_.
 
-* for $n = \infty$ the $O$-action on [[orthogonal spectra]].
+* for $n = \infty$ the $O(n)$-action on [[n-fold loop spaces]] (see e.g. [Gaudens-Menichi 07, section 5](#GaudensMenichi07)) (see also at _[[orthogonal spectra]]_).
 
 =--
 
@@ -438,6 +438,9 @@ Lecture notes and reviews on the topic of the cobordisms hypothesis include
 * {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
 
 
+Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may be thought of as a special case of the cobordism hypothesis) includes
+
+* {#GaudensMenichi07} Gerald Gaudens, Luc Menichi,  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
 
 
 Cobordisms with geometric structure are discussed in
