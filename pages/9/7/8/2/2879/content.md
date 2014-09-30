@@ -89,6 +89,10 @@ and also described in:
 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 * D. Chikhladze, Category of quantum categories, Theory and Applications of Categories __25__ (2011) 1 - 37.  ([pdf](http://www.tac.mta.ca/tac/volumes/25/1/25-01.pdf))
 
+A class of examples of such Hopf algebroids internally in a monoidal category of cocomplete cofiltered vector spaces is in
+
+* S. Meljanac, Z. &#352;koda, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
+
 This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
 
 
