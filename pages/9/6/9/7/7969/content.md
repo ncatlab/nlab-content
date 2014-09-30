@@ -127,13 +127,14 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 
 * {#Beauville} [[Arnaud Beauville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
 
-* {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
+* {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_, AMS 2003 ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
 
-* Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
- {#Nohara}
+* {#Nohara} Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
+ 
 
 * Gerard Lion, Michele Vergne, _The Weil representation, Maslov index and theta series_
 
+* Razvan Gelca, [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
