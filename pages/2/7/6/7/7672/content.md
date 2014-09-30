@@ -616,24 +616,30 @@ Other reviews include
 
 Discussion from the point of view of [[chromatic homotopy theory]] is in 
 
-* [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
+ 
 
-* [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
- {#Behrens13}
+* {#Behrens13} [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
+ 
 
-* Ben Knudsen, _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
- {#Knudsen13}
+* {#Knudsen13} [[Benjamin Knudsen, _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
+ 
 
 
-* [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
+* {#Lorman13} [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
 image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
- {#Lorman13}
+ 
 
 
+### Relation to $O$-action on general spectra
 
+Similarly there is a canonical $O(n)$-[[∞-action]] on an [[n-fold loop space]], not just on the [[sphere spectrum]]. But the general case is closely related to the J-homomorphism. Discussion includes
 
+* {#GaudensMenichi07} Gerald Gaudens, Luc Menichi,  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
 
+and in the context of the [[cobordism hypothesis]]:
+
+* {#Lurie} [[Jacob Lurie]], example 2.4.15 of _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
 
 
