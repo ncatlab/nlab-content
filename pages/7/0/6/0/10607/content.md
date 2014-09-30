@@ -309,6 +309,10 @@ with further developments in
 
 * {#DJK14} Wojciech Dzik, Jouni J&#228;rvinen, Michiro Kondo, _Characterising intermediate tense logics in terms of Galois connections_ ([arXiv:1401.7646](http://arxiv.org/abs/1401.7646))
 
+For an overview of the role of adjunctions in modal logic see:
+
+* [[Matías Menni|M. Menni]], C. Smith, _Modes of Adjointness_ , J. Philos. Logic **43** no.3-4 (2014) pp.365-391.
+
 ### Examples
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
