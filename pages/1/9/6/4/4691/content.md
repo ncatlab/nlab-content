@@ -81,7 +81,7 @@ This is actually a special case of the entropy of a probability space, since the
 
 Yet more specially, the __entropy__ of a [[finite set]] $X$ is the entropy of $X$ equipped with the uniform discrete probability measure; we find
 \[ \label{Boltzmann} H_{unif}(X) = - \sum_{i \in X} \frac{1}{|X|} \log \frac{1}{|X|} = \log {|X|} ,\]
-which is probably the earliest mathematical formula for entropy, due to Boltzmann.  (Its physical interpretation appears below.)
+which is probably the earliest mathematical formula for entropy, due to Boltzmann.  (Its [physical interpretation](#physical) appears below.)
 
 
 ### Entropy with respect to an absolutely continuous probability measure on the real line
@@ -137,13 +137,14 @@ There is a generalization of these definitions to [[state]]s on general [[von Ne
 For more on this see _[[relative entropy]]_.
 
 
-## Physical entropy
+## Physical entropy {#physical}
 
 As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, rather than increasing with time.)
 
 Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic entropy__ of a statistical state is the entropy of this $\sigma$-algebra.  (Typically, $N$ is on the order of [[Avogadro constant|Avogadro's number]], while $n$ is rarely more than half a dozen, and often as small as $2$.)
 
 Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
+
 
 ### Gravitational entropy
 
@@ -153,9 +154,11 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 
   * [[generalized second law of thermodynamics]]
 
+
 ## Related concepts
 
 * [[entropic force]]
+
 
 ## References
 {#References}
@@ -163,9 +166,7 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 ### General
  {#ReferencesGeneral}
 
-The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the context of [[physics]], and then adapted to [[information theory]]
-by [[Claude Shannon]] in 1948, to [[ergodic theory]] by [[Andrey Kolmogorov]] and Sinai in 1958, and to [[topological dynamics]] by
-Adler, Konheim and McAndrew in 1965.
+The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the context of [[physics]], and then adapted to [[information theory]] by [[Claude Shannon]] in 1948, to [[quantum mechanics]] by [[John von Neumann]] in 1955, to [[ergodic theory]] by [[Andrey Kolmogorov]] and Sinai in 1958, and to [[topological dynamics]] by Adler, Konheim and McAndrew in 1965.
 
 [Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in 
 
