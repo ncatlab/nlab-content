@@ -33,14 +33,14 @@ Thus, a state $\psi$ represents a _state of knowledge_ about the world.  The alg
 
 In the [[Schroedinger picture]] (assuming a notion of [[time]]), states evolve deterministically, unitarily, and with conservation of [[entropy]].  (Or in the [[Heisenberg picture]], they don\'t evolve at all.)  But a state may change otherwise, if one\'s knowledge changes.  If this is an increase in knowledge as a result of a [[measurement]], then this change in the state may be called the 'collapse of the wavefunction'.  But this collapse takes place in the map, not the territory; unlike time evolution, it is not a physical process.
 
-Given a specification of $S$ and $A$, it may be that there exist certain states $\psi$ in $S$ such that $O_*\psi$ is a [[delta measure]] (giving a probability of $1$ for one value and $0$ for all others) for every $O$ in $A$.  Then the system is classical.  Depending on the mathematical formalism used, such states may not actually belong to $S$ (which might, for example, own only the [[absolutely continuous measure|absolutely continuous]] probability measures in some sense, as is natural in the [[JBW-algebraic quantum mechanics|W*-algebraic approach]]); so in general, we say that the system is __classical__ if there exists a [[net]] $(\psi_n)_n$ of states such that, for each observable $O$, the net $(O_*\psi_n)_n$ of measures on the real line [[convergence in measure|converges in measure]] to a delta measure.  (Hopefully this is general enough!)
+Given a specification of $S$ and $A$, it may be that there exist certain states $\psi$ in $S$ such that $O_*\psi$ is a [[delta measure]] (giving a probability of $1$ for one value and $0$ for all others) for every $O$ in $A$.  Then the system is classical.  Depending on the mathematical formalism used, such states may not actually belong to $S$ (which might, for example, own only the [[absolutely continuous measure|absolutely continuous]] probability measures in some sense, as is natural in the [[JBW-algebraic quantum mechanics|W*-algebraic approach]]); so in general, we say that the system is __classical__ if there exists a [[net]] $(\psi_n)_n$ of states such that, for each observable $O$, the net $(O_*\psi_n)_n$ of measures on the real line [[convergence in measure|converges in measure]] to a delta measure.  (Hopefully this is general enough!  This definition might not really be correct.)
 
 
 ## History
 
-People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]] (for more on this suggestion see also at _[[Bohr topos]]_), and people have implied (in the first paper at [Fuchs, ongoing](#Fuchs)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, ongoing](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
+People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]] (for more on this suggestion see also at _[[Bohr topos]]_), and people have implied (in the first paper at [Fuchs, n.d.](#Fuchs)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, n.d.](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
 
-The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have found, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, ongoing](#Fuchs)).  Fuchs\'s approach to Bayesianism has become increasingly subjectivist, making the links to [[quantum information theory]] less fundamental.  (In contrast, the description above is primarily in terms of the objectivist school of Bayesianism.)
+The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have found, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, n.d.](#Fuchs)).  Fuchs\'s approach to Bayesianism has become increasingly subjectivist, making the links to [[quantum information theory]] less fundamental.  (In contrast, the description above is primarily in terms of the objectivist school of Bayesianism.)
 
 
 ## References
@@ -54,10 +54,10 @@ The earliest linking of Bayesianism to quantum states as states of knowledge, as
 * Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
   {#CFS2001}
 
-* [[Christopher Fuchs]] (ongoing). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [web](http://www.perimeterinstitute.ca/personal/cfuchs/).
+* [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [web](http://www.perimeterinstitute.ca/personal/cfuchs/).
   {#Fuchs}
 
-* Wikimedia Foundation (ongoing). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
+* Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
   {#Wikimedia}
 
 
@@ -67,3 +67,6 @@ The earliest linking of Bayesianism to quantum states as states of knowledge, as
 [[!redirects Bayesian interpretations of quantum physics]]
 [[!redirects Bayesian interpretation of physics]]
 [[!redirects Bayesian interpretations of physics]]
+
+[[!redirects quantum Bayesianism]]
+[[!redirects Quantum Bayesianism]]
