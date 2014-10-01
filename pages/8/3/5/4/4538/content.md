@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _universal coefficient theorem_ states how [[ordinary homology]]/[[ordinary cohomology]] determined [[homology]]/[[cohomology]] with arbitrary [[coefficients]].
+The _universal coefficient theorem_ states how [[ordinary homology]]/[[ordinary cohomology]] determines [[homology]]/[[cohomology]] with arbitrary [[coefficients]].
 
 For $C_\bullet$ a [[chain complex]] (of [[abelian groups]]) and $F$ a [[field]] (the _coefficient field_), the [[homology group]] $H_p(C,F)$ and the [[cohomology group]] $H^p(C,F)$ are indeed related by [[dualization]]: $ H^p(C,F) \simeq Hom_F(H_p(C,F), F)$.
 If the coefficients are not a [[field]] but an arbitrary [[abelian group]], then this relationship receives a correction by an [[Ext]]-group. This is discussed below in _[For ordinary cohomology](#InCohomology)_.
