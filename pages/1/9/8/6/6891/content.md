@@ -139,9 +139,13 @@ The notion of "2-framing" in the sense of framing of the double of the tangent b
 * {#Atiyah1990} [[Michael Atiyah]], _On framings of 3-manifolds_ , Topology, Vol. 29, No 1, pp. 1-7 (1990) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
   
 
-making explicit a structure which slightly implicit in the discussion of the [[path integral]] of [[Chern-Simons theory]] in 
+making explicit a structure which slightly implicit in the discussion of the [[perturbation theory|perturbative]] [[path integral]] [[quantization of 3d Chern-Simons theory]] in 
 
 * [[Edward Witten]], _Quantum field theory and the Jones Polynomial_ , Comm. Math. Phys.  121 (1989)
+
+reviewed for instance in
+
+* {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
 (see [Atiyah, page 6](#Atiyah)). For more on the role of 2-framings in [[Chern-Simons theory]] see also
 
