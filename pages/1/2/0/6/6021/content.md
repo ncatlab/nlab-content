@@ -28,7 +28,7 @@ The generator of this corresponding to the choice of [[orientation]] is called t
 
 ### For $(n-1)$-connected spaces
 
-If a [[topological space]] $X$ is $(n-1)$-[[n-connected space|connected]] for $n\geq2,$ then by the [[Hurewicz theorem]] there is an isomorphism $h\colon\pi_n(X)\to H_n(X)$. By the [[universal coefficient theorem]], we have $H^n(X;\pi_n(X))=\hom(H_n(X),\pi_n(X))$. Hence $h^{-1}$ represents an element of $H^n(X;\pi_n(X))$ called the fundamental class of $X$. In particular, the [[Eilenberg-MacLane space]] $K(G,n)$ has a fundamental class $\iota$ which represents the identity map $1\in [K(G,n),K(G,n)]\cong H^n(K(G,n);G).$ This is the universal cohomology class, in the sense that all cohomology classes are pullbacks of this one by classifying maps.
+If a [[topological space]] $X$ is $(n-1)$-[[n-connected space|connected]] for $n\geq2,$ then by the [[Hurewicz theorem]] there is an isomorphism $h\colon\pi_n(X)\to H_n(X)$. By the [[universal coefficient theorem]], we have $H^n(X;\pi_n(X))=\hom(H_n(X),\pi_n(X))$. Hence $h^{-1}$ represents an element of $H^n(X;\pi_n(X))$ called the fundamental class of $X$. In particular, the [[Eilenberg-MacLane space]] $K(G,n)$ has a fundamental class $\iota$ which represents the identity map $1\in [K(G,n),K(G,n)]\cong H^n(K(G,n);G).$ This is the universal cohomology class, in the sense that all cohomology classes are pullbacks of this one by classifying maps. ref Mosher and Tangora.
 
 ### Virtual fundamental class
 
