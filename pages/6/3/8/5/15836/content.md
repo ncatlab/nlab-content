@@ -7,6 +7,19 @@
 
 [[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]].  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian interpretation of quantum mechanics, and thus (in principle) of all [[physics]].
 
+The Bayesian interpretation is founded on these principles:
+
+1. Quantum states (pure or mixed) are analogous to (indeed generalizations of) probability distributions, which are to be interpreted in a Bayesian way, as indicating knowledge, belief, etc.
+
+2. Time evolution of pure quantum states by the time-dependent [[Schroedinger equation|Schrödinger's equation]] is analogous to evolution of classical statistical systems by [[Liouville's equation]] (and von Neumann has an equation for the evolution of [[density matrices]] that generalizes both).
+
+3. Collapse of the wave function is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes's rule|Bayes's Rule]] are analogues.
+
+
+## Warning
+
+This article has been written by an objective Bayesian who naturally thinks of Bayesian probabilities as reflecting knowledge rather than belief, betting commitments, etc.  For other flavours of Bayesianism, substitute 'knowledge' below with an appropriate term.
+
 
 ## Formalism
 
