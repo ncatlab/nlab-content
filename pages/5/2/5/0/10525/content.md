@@ -170,4 +170,14 @@ of which a lot is already on pages 1--4 (the only ones that Google Books would s
 [[!redirects JBW algebra]]
 [[!redirects JBW algebras]]
 
+[[!redirects JC-algebra]]
+[[!redirects JC-algebras]]
+[[!redirects JC algebra]]
+[[!redirects JC algebras]]
+
+[[!redirects JW-algebra]]
+[[!redirects JW-algebras]]
+[[!redirects JW algebra]]
+[[!redirects JW algebras]]
+
 [[!redirects B-identity]]
