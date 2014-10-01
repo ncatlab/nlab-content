@@ -21,6 +21,18 @@
 
 A _symmetric monoidal $(\infty,1)$-category_ is the analog of a [[symmetric monoidal (∞,1)-category]] for [[(∞,n)-category]] theory.
 
+##Definition
+
+As [[Jacob Lurie]] says in [Lurie, Mathoverflow quote](#Lurie):
+
+> {#Definition} There are many (equivalent) definitions for the notion of symmetric monoidal $(\infty,n)$-category. One approach is based on the observation that a monoidal category can be identified with a bicategory having only a single object. You can define a monoidal
+$(\infty,n)$-category to be an $(\infty,n+1)$-category with a specified object,
+such that all other objects are isomorphic to it (in the complete Segal space model, this means that the space of objects should be connected). Similarly you can define a braided monoidal $(\infty,n)$-category to be an $(\infty,n+2)$-category equipped with a distinguished object satisfying a simple connectivity condition, and so on and so forth. You get to the symmetric monoidal case by taking the homotopy inverse limit (that is, a symmetric monoidal
+$(\infty,n)$-category is a collection of pointed $(\infty,n+k)$-categories, each of which is obtained by "looping" the next one). You might find this definition convenient in the context of bordism categories, since they are naturally related in this way (if you ``loop'' the a bordism category of $d$-manifolds, you get a bordism category of $d+1$-manifolds: and this is sensible even when $d$ is negative).
+
+>Alternatively, you can define a symmetric monoidal $(\infty,n)$-category to be a commutative monoid in the setting of $(\infty,n)$-categories. There are many ways to formalize this. Since you're asking about specific models, let's suppose you start with some model category $\mathbf{A}$ for the homotopy theory of $(\infty,n)$-categories (higher-dimensional Segal spaces, for example). If you have a simplicial model category, you can do as Charles suggested and take algebras for some $E_{\infty}$-operad in simplicial sets. If you'd prefer not to mention operads, you can just copy Segal's definition of a $\Gamma$-space: take the category of functors $F$ from pointed finite sets into $\mathbf{A}$, and equip it with a model structure that enforces the relevant Segal condition.
+
+>As Martin mentions in [his answer](http://mathoverflow.net/questions/81425/what-is-a-symmetric-monoidal-infty-n-category/81432#81432), there is an extensive discussion of the case $n=1$ in my book, and also of commutative monoids in an arbitrary $(\infty,1)$-category (of which this is a special case, since the collection of all $(\infty,n)$-categories can be regarded as an $(\infty,1)$-category). I don't know of references that address your question more specifically (though I would not be surprised if there were some).
 
 ## Properties
 
@@ -102,6 +114,8 @@ A discussion of dualizable objects is in section 2.3 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 {#Lurie}
+
+* {#Lurie} [[Jacob Lurie]], [Mathoverflow/81425 answer](http://mathoverflow.net/questions/81425/what-is-a-symmetric-monoidal-infty-n-category/81445#81445).
 
 [[!redirects symmetric monoidal (infinity,n)-categories]]
 
