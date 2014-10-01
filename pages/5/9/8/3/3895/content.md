@@ -46,7 +46,7 @@ According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation betw
 
 Review of the role played in the perturbative [[quantization of Chern-Simons theory]] includes
 
-* M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http:/Zwww.math.sunysb.edu/~myoung/CS.pdf))
+* {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
 
 [[!redirects Ray-Singer torsion]]
