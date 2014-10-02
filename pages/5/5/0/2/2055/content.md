@@ -154,6 +154,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
 
+* [galoisrepresentations.wordpress.com](http://galoisrepresentations.wordpress.com) -- a number theorist's blog
+
 * [Geomblog](http://geomblog.blogspot.com/)Ruminations on computational geometry, algorithms, theoretical computer science and life
 
 * [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrads Wanepoel)
