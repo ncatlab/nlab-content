@@ -15,6 +15,8 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 I have my PhD in theoretical [[physics]] but have worked in math departments ever since. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Had then a few months of guest position at [HIM](http://www.hausdorff-research-institute.uni-bonn.de) and then at [MPI](http://www.mpim-bonn.mpg.de/) in Bonn, and since 2009 have a postdoc position in Prof. [[Ieke Moerdijk]]'s group, first in Utrecht and then the group moved to Nijmegen in 2012.
 
+I'll be transitioning with a position at the _[Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz)_ in Prague in 2015. Before that I'll be spending some weeks at Paris-Diderot visiting [Gabriel Catren's group](www.sphere.univ-paris-diderot.fr/spip.php?article675).
+
 ## my research {#myresearch}
 
 My research is about mathematical theory building in theoretical fundamental physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
