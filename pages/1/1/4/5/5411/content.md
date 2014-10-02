@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _symmetric monoidal $(\infty,1)$-category_ is the analog of a [[symmetric monoidal (∞,1)-category]] for [[(∞,n)-category]] theory.
+A _symmetric monoidal $(\infty,n)$-category_ is the analog of a [[symmetric monoidal (∞,1)-category]] for [[(∞,n)-category]] theory.
 
 ##Definition
 
