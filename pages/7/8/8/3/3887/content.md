@@ -53,8 +53,12 @@ For the $G$-[[WZW model]] the assignment of spaces of conformal blocks, hence by
 
 A review is around p. 30 of
 
-* [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
- {#Gawedzki99}
+* {#Gawedzki99} [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+
+Detailed discussion in terms of [[conformal nets]] is in
+
+* {#BartelsDouglasHenriques14} [[Arthur Bartels]], [[Christopher Douglas]], [[André Henriques]], _Conformal nets II: conformal blocks_ ([arXiv:1409.8672](http://arxiv.org/abs/1409.8672))
+
 
 See also
 
@@ -67,16 +71,13 @@ Relation to [[theta functions]]:
 
 * {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_, Comm. Math. Phys. __164__ (1994), 385 - 419, [euclid](http://projecteuclid.org/euclid.cmp/1104270837), [alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003), [MR1289330](http://www.ams.org/mathscinet-getitem?mr=1289330)
  
-
 * [[Arnaud Beauville]], _Conformal blocks, fusion rings and the Verlinde formula_, Proc. of the Hirzebruch 65 Conf. on Algebraic Geometry, Israel Math. Conf. Proc. __9__, 75-96 (1996) [pdf](http://math.unice.fr/~beauvill/pubs/Hirz65.pdf)
 
 * [[Krzysztof Gawędzki]], _Lectures on CFT_ (from Park City, published in QFT and strings for mathematicians, Dijkgraaf at al editors, [site](http://www.math.ias.edu/qft), [source](http://www.math.ias.edu/QFT/fall/NewGaw.tex), [dvi](http://www.math.ias.edu/QFT/fall/NewGaw.dvi), [ps](http://www.math.ias.edu/QFT/fall/NewGaw.ps)
 
 * A.A. Beilinson, Yu.I. Manin, V.V. Schechtman, _Sheaves of Virasoro and Neveu-Schwarz algebras_, Lecture Notes in Math. __1289__, Springer 1987, 52&#8211;66 
 
-
 * A.Mironov, A.Morozov, Sh.Shakirov, _Conformal blocks as Dotsenko-Fateev integral discriminants_, [arxiv/1001.0563](http://arxiv.org/abs/1001.0563)
-[[!redirects conformal blocks]]
 
 ### For higher dimensional CFT
 
