@@ -1,0 +1,8 @@
+Related entries: [[calculus of variations]], [[microlocal defect functional]], [[measure theory]]
+
+* L. C. Young, _Generalized curves and the existence of an attained absolute minimum in the calculus of variations_,  Comptes Rendus de la Soc. des Sciences et des Lettres de Varsovie, classe III, 30, 212-234 (1937); _Generalized surfaces in the calculus of variations_, Ann. of Math. (2) 43 (1942), 84&#8211;103 [MR0006023]
+(http://www.ams.org/mathscinet-getitem?mr=0006023); _Generalized surfaces in the calculus of variations. II_, Ann. of Math. (2) 43 (1942), 530&#8211;544 [MR0006832](http://www.ams.org/mathscinet-getitem?mr=0006832); _Lectures on the calculus of variations and optimal control theory_, Foreword by Wendell H. Fleming, W. B. Saunders Co., Philadelphia-London-Toronto 1969 [MR0259704](http://www.ams.org/mathscinet-getitem?mr=0259704)
+* Pablo Pedregal, _Optimization, relaxation and Young measures_, Bull. Amer. Math. Soc. 36 (1999), 27-58 [link](http://www.ams.org/journals/bull/1999-36-01/S0273-0979-99-00774-0)
+* Luc Tartar, _On mathematical tools for studying partial differential equations of continuum physics: $H$-measures and Young measures_, Developments in partial differential equations and applications to mathematical physics (Ferrara, 1991) Plenum, New York, 1992, pp. 201&#8211;217 [MR1213932 (94c:35031)](http://www.ams.org/mathscinet-getitem?mr=1213932)
+
+category: analysis
