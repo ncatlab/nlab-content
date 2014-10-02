@@ -26,7 +26,9 @@ A _spacetime_ is a [[manifold]] that models [[space]] and [[time]] in [[physics]
 
 This is formalized by saying that a **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
 
-In the context of classical [[general relativity]] a **spacetime** is usually in addition assumed to be connected and four-dimensional.
+In the context of classical [[general relativity]] a **spacetime** is usually in addition assumed to be connected and four-dimensional. A connected Lorentzian manifold is
+either time orientable or it has a two-sheeted covering which
+is time orientable.
 
 In [[classical physics]], notably in [[special relativity]] and [[general relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[general relativity]].
 
@@ -62,11 +64,13 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
   * [[super Minkowski spacetime]]
 
-## Related concepts
+## Literature and links
+
+### Related concepts in nLab
 
 * [[general covariance]]
 
-* [[gravity]], [[cosmology]]
+* [[gravity]], [[cosmology]], [[black hole]]
 
 * [[particle physics]], [[matter]], [[sigma-model]]
 
@@ -74,6 +78,17 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[mass]]
 
+### Books
+
+* S. W. Hawking, G. F. R. Ellis, _The large scale structure of space-time_, Cambridge Univ. Press
+* John Beem, Paul Ehrlich, _Global Lorentzian geometry_, Marcel Dekker 1981 (and Russian, updated translation, Mir 1985)
+
+### Articles
+
+* L. Markus, _Line element fields and Lorentz structures on differentiable manifolds_, Ann. of Math. (2) 62 (1955), 411&#8211;417, [MR0073169](http://www.ams.org/mathscinet-getitem?mr=0073169) [jstor](http://www.jstor.org/stable/1970071)
+* R. Penrose, _Gravitational collapse and space-time singularities_, Phys. Rev. Lett. __14__, 57--59
+
+category: physics, geometry
 [[!redirects space-time]]
 [[!redirects space time]]
 [[!redirects spacetimes]]
