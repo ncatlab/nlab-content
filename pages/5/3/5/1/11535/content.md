@@ -8,6 +8,35 @@ My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems
 ##Talk(s) and Notes##
 I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. I have posted [my notes](https://categorymath.files.wordpress.com/2014/09/fall-western-sectional-meeting-presentation-notes.pdf) and [my slides](https://categorymath.files.wordpress.com/2014/09/fall-western-sectional-meeting-presentation.pdf) on my blog at the following links. Any comments would be welcome, either on my blog, through email, or on this nlab page itself.
 <hr>
+##Latest Blog Post##
+Here I'll usually post my latest blog post.
+
+###Equivariant $\mathcal{K}$-theory of Higher Categories###
+
+In this post I plan to introduce the equivariant $K$-theory of $(\infty,n)$-categories and talk about its relation to the $K$-theory of $(\infty,n)$-categories. This post is a sort of continuation of the ideas in a previous post. I will use the notation, definitions, etc. from the links above.
+
+It is well known that $\mathcal{M}\mathrm{od}^{\mathrm{N}(\mathcal{F}\mathrm{in}_{*})}_A(\mathcal{C}^\otimes)^\otimes_{[1]}\simeq\mathcal{LM}\mathrm{od}_A(\mathcal{C}^\otimes)$. Let $\mathcal{O}^{\prime \otimes}\to\mathcal{A}\mathrm{ss}^\otimes$ be a planar $(\infty,n)$-operad and let $q:\mathcal{O}^\otimes\to\mathcal{LM}^\otimes$ exhibit $\mathcal{C}^\otimes$ as weakly enriched over $\mathcal{C}^\otimes\to\mathcal{A}\mathrm{ss}^\otimes$. Let $A\in\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$. There is a fibration $\mathcal{M}\mathrm{od}^{\mathcal{LM}}(\mathcal{O}^\otimes)^\otimes\to\mathcal{A}\mathrm{lg}_{\mathcal{LM}}(\mathcal{O}^\otimes)\cong\mathcal{LM}\mathrm{od}(\mathcal{C}^\otimes)^\otimes$.
+
+Now let $\mathcal{O}^\otimes=\mathcal{C}^\otimes$, i.e., let $\mathcal{C}^\otimes$ be a planar $(\infty,n)$-oeprad such that $\mathcal{C}^\otimes\to\mathcal{LM}^\otimes$. Then there's a fibration $\mathcal{M}\mathrm{od}_A^{\mathcal{LM}}(\mathcal{C}^\otimes)^\otimes\to\mathcal{LM}\mathrm{od}_A(\mathcal{C}^\otimes)$.
+
+Thus, we'll define $\mathcal{LM}\mathrm{od}^\mathcal{O}_A(\mathcal{C}^\otimes)$ as follows:
+
+**Definition:** Let $\mathcal{M}^\otimes$ be a left closed monoidal $(\infty,n)$-category. Then, define $\mathcal{LM}\mathrm{od}^\mathcal{M}_A(\mathcal{C}^\otimes):=\mathcal{A}\mathrm{lg}_{/\mathcal{M}}(\mathcal{O}^\otimes)\times_{\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)}\{A\}$.
+
+Let $(\mathcal{C}^\otimes,\mathcal{O}_{\mathcal{C}^\otimes})$ be a scheme, and let $\pi:\mathcal{M}\mathrm{od}\mathcal{C}\mathrm{at}\to(\infty,n)\mathcal{O}\mathrm{perad}$ be the fibered category whose objects are isomorphic to a $\mathcal{M}\mathrm{od}^\mathcal{O}_A(\mathcal{C}^\otimes)$, for some $\mathcal{C^\otimes,O}^\otimes$, and $A\in\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$. Define a equivariant $(\infty,n)$-sheaf to be an $A$-equivariant object of $\mathcal{M}\mathrm{od}\mathcal{C}\mathrm{at}_{\mathcal{C}^\otimes}$.
+
+Let $\mathcal{C}\mathrm{oh}^A(\mathcal{C}^\otimes)$ be the $(\infty,n)$-category of equivariant coherent $(\infty,n)$-sheaves. Then, equivariant $K$-theory is defined as $\mathcal{K}^A(\mathcal{C}^\otimes)=\Omega\mathrm{Q}(\mathcal{C}\mathrm{oh}^A(\mathcal{C}^\otimes))$ and $\mathcal{K}_i^A(\mathcal{C}^\otimes)=\pi_i(\Omega\mathrm{Q}(\mathcal{C}\mathrm{oh}^A(\mathcal{C}^\otimes)))$. It is not hard to prove the following theorems:
+
+**Theorem 1:** _There are isomorphisms $\mathcal{K}_i(\mathcal{C}^\otimes)\cong\mathcal{K}_i(\mathcal{C}\mathrm{oh}^A(\mathcal{C}^\otimes))\cong\mathcal{C}\mathrm{oh}^A(\mathcal{K}_i(\mathcal{C}^\otimes))$._
+
+**Definition:** A representation of $A\in\mathcal{A}\mathrm{lg}_{/\mathcal{M}}(\mathcal{C}^\otimes)$ is an object $M$ of $\mathcal{LM}\mathrm{od}^\mathcal{M}_A(\mathcal{C}^\otimes)$ with a morphism $A\to\mathcal{E}\mathrm{nd}(M)$, where $\mathcal{E}\mathrm{nd}:\mathcal{LM}\mathrm{od}^{\mathcal{M}}_A(\mathcal{C}^\otimes)^\otimes\to\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$.
+
+**Proposition 1:** _If $\mathcal{R}(A)$ is the ring of formal differences of isomorphism classes of representations of $A$, and $\mathcal{C}^\otimes$ is a point, then $\mathcal{K}^A(\mathcal{C}^\otimes)\cong\mathcal{R}(A)$._
+
+Here's one last remark (I will not say much more, since I myself do not know much about these interesting constructions): If we had replaced $\mathcal{M}\mathrm{od}\mathcal{C}\mathrm{at}$ with $\mathcal{A}\mathrm{lg}\mathcal{C}\mathrm{at}_{\mathrm{null}}$, the $(\infty,n+1)$-category whose objects are isomorphic to $\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$ for some $\mathcal{O}^\otimes$ whose morphisms are null, then $\mathcal{K}^A_i(\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes))\cong\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{K}^A_i(\mathcal{C}^\otimes))$, which follows from a very simple argument.
+
+Hope to see some comments on these ideas!
+<hr>
 Category: people 
 
 [[!redirects cobordisms as presheaves]]
