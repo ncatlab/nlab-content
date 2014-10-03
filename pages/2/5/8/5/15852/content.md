@@ -8,4 +8,4 @@ References:
 
 Joseph Ayoub: Betti realization of motives and motives for rigid analytic varieties.
 
-Frederic Paugam: Overconvergent global analytic geometry (in preparation).
+[[Frederic Paugam]]: Overconvergent global analytic geometry (in preparation).
