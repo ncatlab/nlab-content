@@ -1,0 +1,1 @@
+Analytic motives give a common generalization of classical homotopy theory (Ayoub's analytic motives over C) and motivic homotopy theory (strict analytic motives over Z with the trivial non-archimedean norm).
