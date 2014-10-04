@@ -40,4 +40,4 @@ Most of interesting people for nlab will have their own pages in $n$lab; many  o
 
 * [The Assayer](http://www.theassayer.org/cgi-bin/asbrowsesubject.cgi?class=Q#freeclassQAm), a catalogue of freely available mathematics books in electronic formats (also computer science and other fields). Some books are even reviewed.
 
-* hundreds of mathematics questions and answers [free-high-quality-math-practice-online](http://www.ipracticemath.com/math-practice/algebra)
+Category: meta
