@@ -5,7 +5,7 @@
 
 ## Idea
 
-[[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]].  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian interpretation of quantum mechanics, and thus (in principle) of all [[physics]].
+[[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]].  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian [[interpretation of quantum mechanics]], and thus (in principle) of all [[physics]].
 
 The Bayesian interpretation is founded on these principles:
 
@@ -15,7 +15,7 @@ The Bayesian interpretation is founded on these principles:
 
 3. Collapse of the wave function is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes's rule|Bayes's Rule]] are analogues.
 
-One should perhaps speak of *a* Bayesian interpretation of quantum mechanics, since there are different forms of Bayesianims.  (This article has been written by an objective Bayesian who naturally thinks of Bayesian probabilities as reflecting knowledge rather than belief, betting commitments, etc.  For other flavours of Bayesianism, substitute 'knowledge' below with a more appropriate term.)
+One should perhaps speak of *a* Bayesian interpretation of quantum mechanics, since there are different forms of Bayesianism.  (This article has been written by an objective Bayesian who naturally thinks of Bayesian probabilities as reflecting knowledge rather than belief, betting commitments, etc.  For other flavours of Bayesianism, substitute 'knowledge' below with a more appropriate term.)
 
 
 ## Formalism
