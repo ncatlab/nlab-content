@@ -202,7 +202,7 @@ Every [[monomorphism]] between normal presheaves is normal.
 
 The class of normal monomorphisms in $PSh(A)$ is closed under
 
-* [[retracts]];
+* [[pushouts]];
 
 * [[transfinite composition]];
 
