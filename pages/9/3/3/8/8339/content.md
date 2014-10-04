@@ -58,9 +58,9 @@ The interesting observation is that simple as this idea is, it has very powerful
 
 While cohesive spaces subsume several familiar notions of [[geometry]], there are some constraints.
 
-In particular, a cohesive space is always _locally contractible_ or rather _locally $\infty$-connected_ in some sense. The local contractions are those of the "basic cohesive droplets", in spirit of the above discussion. (In the [[(∞,1)-topos theory|(∞,1)-topos theoretic]] formalization this is reflected in the fact that every [[cohesive (∞,1)-topos]] is in particular a _[[locally ∞-connected (∞,1)-topos]]_)
+In particular, a cohesive space is always _locally contractible_ or rather _locally $\infty$-connected_ in some sense. The local contractions are those of the "basic cohesive droplets", in the spirit of the above discussion. (In the [[(∞,1)-topos theory|(∞,1)-topos theoretic]] formalization this is reflected in the fact that every [[cohesive (∞,1)-topos]] is in particular a _[[locally ∞-connected (∞,1)-topos]]_.)
 
-For instance [[locally contractible topological ∞-groupoids]] are cohesive, as are [[Euclidean-topological ∞-groupoid]].
+For instance [[locally contractible topological ∞-groupoids]] are cohesive, as are [[Euclidean-topological ∞-groupoids]].
 
 But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[Top]] that contains [[locally contractible topological space|locally non-contractible topological spaces]] will in general not be cohesive. In particular for instance general [[topological stacks]] do not live in a cohesive $(\infty,1)$-topos. But for instance [[differentiable stacks]] do, and generally [[smooth ∞-groupoids]], because every [[manifold]] and hence in particular every [[smooth manifold]] is locally contractible.
 
