@@ -33,7 +33,7 @@ Let $\mathcal{C}\mathrm{oh}^A(\mathcal{C}^\otimes)$ be the $(\infty,n)$-category
 
 **Proposition 1:** _If $\mathcal{R}(A)$ is the ring of formal differences of isomorphism classes of representations of $A$, and $\mathcal{C}^\otimes$ is a point, then $\mathcal{K}^A(\mathcal{C}^\otimes)\cong\mathcal{R}(A)$._
 
-Here's one last remark (I will not say much more, since I myself do not know much about these interesting constructions): If we had replaced $\mathcal{M}\mathrm{od}\mathcal{C}\mathrm{at}$ with $\mathcal{A}\mathrm{lg}\mathcal{C}\mathrm{at}_{\mathrm{null}}$, the $(\infty,n+1)$-category whose objects are isomorphic to $\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$ for some $\mathcal{O}^\otimes$ whose morphisms are null, then $\mathcal{K}^A_i(\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes))\cong\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{K}^A_i(\mathcal{C}^\otimes))$, which follows from a very simple argument.
+Here's one last remark (I will not say much more, since I do not know much about these interesting constructions): If we had replaced $\mathcal{M}\mathrm{od}\mathcal{C}\mathrm{at}$ with $\mathcal{A}\mathrm{lg}\mathcal{C}\mathrm{at}_{\mathrm{null}}$, the $(\infty,n+1)$-category whose objects are isomorphic to $\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes)$ for some $\mathcal{O}^\otimes$ whose morphisms are null, then $\mathcal{K}^A_i(\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{C}^\otimes))\cong\mathcal{A}\mathrm{lg}_{/\mathcal{O}}(\mathcal{K}^A_i(\mathcal{C}^\otimes))$, which follows from a very simple argument.
 
 Hope to see some comments on these ideas!
 <hr>
