@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### AQFT
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
@@ -19,11 +19,11 @@
 
 This entry describes a concrete formalization of the general notion of [[state]] in the context of [[AQFT]] and [[operator algebra]].
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
-## Idea ##
+## Idea
 
 The [[AQFT|Heisenberg picture]] of [[quantum mechanics]] is sometimes formalized by describing the [[observables]] of a quantum system by an [[operator algebra]], and the [[state]] of the system as a state of the algebra. 
 
@@ -32,12 +32,14 @@ This is the viewpoint of the [[AQFT]] approach to [[quantum field theory]], espe
 
 We provide the definition of states and several associated properties and explain the physical interpretation and motivation of these concepts from the viewpoint of [[AQFT]].
 
-## Definition ##
+
+## Definition
 
 The definition of a state relies on the notion of positivity of the elements of an operator algebra, for which we need the structure of a [[C-star algebra]].  
 
 +-- {: .num_defn}
 ###### Definition
+
 An element $A$ of an (abstract) $C^*$-algebra is called **[[positive operator|positive]]** if it is [[self-adjoint operator|self-adjoint]] and its [[spectrum of an operator|spectrum]] is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all [[positive operators]] is the positive cone (of a given $C^*$-algebra).
 =--
 
@@ -110,7 +112,7 @@ This appears as [KadisonRingrose, theorem 7.2.3](#KadisonRingrose).
 
 The set of states of an $C^*$-algebra is sometimes called the **[[space of quantum states|state space]]**.
 
-The state space is non-empty (define a state on the subalgebra $\mathbb{C} 1$ and extend it to the whole $C^*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of it's extreme points.
+The state space is non-empty (define a state on the subalgebra $\mathbb{C} 1$ and extend it to the whole $C^*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of its extreme points.
 
 +-- {: .num_defn}
 ###### Definition
@@ -119,12 +121,16 @@ A **pure state** is a state that is an extreme point of the state space.
 
 The term "pure" originates from the notion of [[entanglement]], a pure state is not a mixture of two distinct other states.
 
-## Properties ##
+
+## Properties
 
 An important theorem for the physical interpretation of states is [[Fell's theorem]].
 
+
 ## Examples 
+
 ...
+
 
 ## Related concepts
 
@@ -132,9 +138,10 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 * [[Alfsen-Shultz theorem]]
 
+
 ## References 
 
-* Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_,AMS (1991)
+* Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_, AMS (1991)
 {#KadisonRingrose}
 
 
@@ -159,3 +166,6 @@ For more references see [[operator algebra]].
 [[!redirects state on an algebra]]
 [[!redirects states on an algebra]]
 [[!redirects states on algebras]]
+
+[[!redirects normal state]]
+[[!redirects normal states]]
