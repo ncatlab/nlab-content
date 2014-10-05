@@ -26,7 +26,7 @@ Indeed, such _[[zeta functions of elliptic differential operators]]_ constitutes
 
 In modern language one also speaks of _[[L-functions]]_. Where a zeta function of some space is like the [[Feynman propagator]] of _the_ canonical [[Laplace operator]] of that space, an L-function is defined from an extra "twisting" information such as that of a [[flat bundle]]/[[local system of coefficients]] on the space (and is hence like the [[Feynman propagator]] of the corresponding twisted/coupled [[Laplace operator]]). The major properties satisfied by anything that qualifies as a zeta function or [[L-functions]] are: these are [[meromorphic functions]] $s \mapsto L(s)$ on the [[complex plane]] such that
 
-1. for $\Re(s) \ggt 1$ they have a [[convergence|converging]] [[series]] expansion of the above form, and/or a multiplicative series expression, the _[[Euler product]]_;
+1. for $\Re(s) \gt 1$ they have a [[convergence|converging]] [[series]] expansion of the above form, and/or a multiplicative series expression, the _[[Euler product]]_;
 
 1. such that [[analytic continuation]] of the series expression exists to a meromorphic function $L(-)$ on the complex plane;
 
