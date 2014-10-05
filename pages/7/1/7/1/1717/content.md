@@ -39,8 +39,9 @@ In applications it is usually useful to pass back and forth between the 2-groupo
 A **strict [[2-group]]** is equivalently:
 
 * an [[internal category]] in [[Grp]],
-* an internal [[groupoid]] in [[Grp]],
+* an [[internal groupoid]] in [[Grp]],
 * an internal [[group object]] in [[Cat]],
+* an internal [[group object]] in [[Grpd]],
 * a [[strict 2-groupoid]] with one object.
 
 
