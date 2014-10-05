@@ -5,7 +5,7 @@
 
 ## Idea
 
-Many concepts from ordinary mathematics were originally developed in the course of a particular application, such that the original definition of the concept is tied to that application.  The modern definition (typically some kind of [[structured set]]) is then obtained by a process of abstraction.  Sometimes this history is remembered in the terminology, with the original notion being called _concrete_ and the later notion called _abstract_.
+Many concepts from ordinary mathematics were originally developed in the course of a particular application, such that the original definition of the concept is tied to that application.  The modern definition (typically some kind of [[structured set]]) is then obtained by a process of abstraction.  Sometimes this history is remembered in the terminology, often with the original notion being called _concrete_ and the later notion called _abstract_.
 
 It then becomes possible to define the concrete notion in terms of the abstract one (so giving an *abstract* definition of the original *concrete* concept); usually, a concrete structure is then an abstract structure equipped with some [[extra stuff]].  Sometimes there is also a [[representation theorem]] showing that every abstract structure arises from some concrete structure (but sometimes this is false).
 
@@ -47,11 +47,11 @@ Either of these (any measure space or only a discrete measure space) may be take
 
 ### Operator algebras
 
-With [[operator algebras]], we have the curious situation that names may still be found in the literature to distinguish the concrete and abstract structures.
+With [[operator algebras]], we have the curious situation that special names may still be found in the literature to distinguish the concrete and abstract structures.
 
 Let $H$ be a [[Hilbert space]] over the [[complex numbers]] and consider the $*$-[[star-algebra|algebra]] $B(H)$ of [[bounded linear operators]] from $H$ to itself.  A __$C^*$-[[C-star-algebra|algebra]]__ is a sub-$*$-algebra of $B(H)$ that is [[closed subspace|closed]] in the [[norm topology]]; a __[[von Neumann algebra]]__ is a sub-$*$-algebra of $B(H)$ that is closed in the [[weak operator topology]] (a stronger condition).
 
-On the abstract side, a __$B^*$-[[B-star-algebra|algebra]]__ is a [[Banach algebra|Banach]] $*$-algebra such that ${\|x^* x\|} = {\|x\|}^2$ always holds, while a __$W^*$-[[W-star-algebra|algebra]]__ is a $B^*$-algebra with a [[predual]] as a [[Banach space]].  (As defined above, every $C^*$-algebra is a $B^*$-algebra, and every von Neumann algebra is a $W^*$-algebra.)  Then we may abstractly define a __$C^*$-algebra__ to be a $B^*$-algebra with a [[faithful representation|faithful]] [[representation]] on a Hilbert spcace, and similarly define a __von Neumann algebra__ to be a $W^*$-algebra with a free action on a Hilbert space.
+On the abstract side, a __$B^*$-[[B-star-algebra|algebra]]__ is a [[Banach algebra|Banach]] $*$-algebra such that ${\|x^* x\|} = {\|x\|}^2$ always holds, while a __$W^*$-[[W-star-algebra|algebra]]__ is a $B^*$-algebra with a [[predual]] as a [[Banach space]].  It is then a theorem that (as defined above) every $C^*$-algebra is a $B^*$-algebra, and every von Neumann algebra is a $W^*$-algebra, so we may abstractly define a __$C^*$-algebra__ to be a $B^*$-algebra with a [[faithful representation|faithful]] [[representation]] on a Hilbert spcace, and similarly define a __von Neumann algebra__ to be a $W^*$-algebra with a free action on a Hilbert space.
 
 The representation theorem here is that every $B^*$-algebra may be given the structure of a $C^*$-algebra, and in fact the term '$B^*$-algebra' is nearly obsolete.  Similarly, every $W^*$-algebra may be given the structure of a von Neumann algebra, but here both terms may yet be found (and even distinguished such that a von Neumann algebra comes with a representation on a Hilbert space but a $W^*$-algebra does not).
 
@@ -65,7 +65,7 @@ Similarly, [[manifolds]] can be viewed as [[subspaces]] of [[Cartesian spaces]] 
 
 ### Sets
 
-One might view the [[sets]] of [[material set theory]] as __concrete sets__ and the sets of [[structural set theory]] as __abstract sets__ (a term used at least by [[Lawvere]]).  The abstract definition of a concrete set is then that given at [[pure set]].
+One might view the [[sets]] of [[material set theory]] as __concrete sets__ and the sets of [[structural set theory]] as __abstract sets__ (a term used at least by [[Lawvere]]).  The abstract definition of a concrete set is then that given at [[pure set]].  There is also a more na&#239;ve version of a __concrete set__ as a [[subset]] of a given [[ambient set]]; these were the first sets studied, predating [[set theory]] as such.
 
 
 ### Points
