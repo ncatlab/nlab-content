@@ -1,0 +1,9 @@
+Matrix models are physical models in which the dynamic quantities are square matrices (in certain class of matrices, e.g. hermitian), in other words, a Lagrangian/Hamiltonian depends on matrix quantities and is usually taken at the limit when the size of matrix tends to infinity. 
+
+Matrix models can be studied in the context of statistical mechanics (see [[random matrix theory]]) or in quantum field theory.
+
+Related $n$Lab entries: [[BFSS matrix model]], [[IKKT matrix model]], [[membrane matrix model]], [[Fredholm determinant]], [[random matrix theory]], [[determinantal process]], [[Kontsevich matrix model]], [[large N limit]]
+
+category: physics
+
+[[!redirects matrix models]]
