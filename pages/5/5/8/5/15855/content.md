@@ -1,0 +1,1 @@
+* Evgeny Feigin, Michael Finkelberg, Markus Reineke, _Degenerate affine Grassmannians and loop quivers_, [http://arxiv.org/abs/1410.0777](http://arxiv.org/abs/1410.0777)
