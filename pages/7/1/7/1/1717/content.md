@@ -415,7 +415,7 @@ $$
 $$
 
 
-### Fom congruence relations
+### From congruence relations
 
 Perhaps the _simplest example_ of such a structure is a 
 [[congruence|congruence relation]] on a group $G$. If $\sim$ is a congruence relation on $G$, then we form the 2-group by setting $C_0 = G$ and $C_1$ to be the group of pairs $(a,b)$ with $a\sim b$.  That this is a group follows from the definition of congruence given in the above reference. The two maps $s$ and $t$ are defined by $s(a,b) = a$, $t(a,b) = b$, whilst $i(a) = (a,a)$. The pullback is a subgroup of $C_1\times C_1$ given by all 'pairs of pairs' $((a,b),(b,c))$ and the composition homomorphism sends such a pair to $(a,c)$.  The other properties are easy to check.
