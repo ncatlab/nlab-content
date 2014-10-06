@@ -85,7 +85,8 @@ The original work was published as
 More recent work includes:
 
 * A.Mironov, A.Morozov, An.Morozov, _Character expansion for HOMFLY polynomials. I. Integrability and difference equations_, [arxiv/1112.5754](http://arxiv.org/abs/1112.5754)
-
+* Hugh Morton, Peter Samuelson, _The HOMFLYPT skein algebra of the torus and the elliptic Hall algebra_, [arxiv/1410.0859](http://arxiv.org/abs/1410.0859)
+ 
 
 category: knot theory
 
