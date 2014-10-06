@@ -55,6 +55,7 @@ One can compute intervals for homological features algorithmically over field co
 * G. Carlsson, V. de Silva, _Zigzag persistence_, [arXiv:0812.0197](http://arxiv.org/abs/0812.0197)
 * G. Carlsson, _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308.
 * Francisco Belch&#237; Guillam&#243;n, Aniceto Murillo Mas, _A-infinity persistence_, [arxiv/1403.2395](http://arxiv.org/abs/1403.2395)
+* Jo&#227;o Pita Costa, Mikael Vejdemo Johansson, Primo&#382; &#352;kraba, _Variable sets over an algebra of lifetimes: a contribution of lattice theory to the study of computational topology_, [arxiv/1409.8613](http://arxiv.org/abs/1409.8613)
 
 category: topology
 
