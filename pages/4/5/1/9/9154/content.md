@@ -20,10 +20,11 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 * [[isotropic Grassmannian]]
 
-* [[Lagrangian Grassmannian]]
+* [[Lagrangian Grassmannian]], [[affine Grassmannian]]
 
 * [[flag variety]], [[Schubert variety]]
 
 * [[coset space]]
 
+category: geometry, algebra
 [[!redirects Grassmannians]]
