@@ -28,8 +28,9 @@ such that $f (G_1 ) = G_2$ .
 
 A **hypermap** is a map together with a coloring of the vertices in black and white such that any two adjacent vertices have different colors.  Observe that any map (with vertices all colored in black) gives rise to a hypermap by placing a white vertex in the middle of every edge&#8212;so, hypermaps can be seen as maps with extra information, but also conversely as a generalization of maps (see Walsh 1975, "Hypermaps Versus Bipartite Maps").
 
-Finally, a **dessin d'enfant** is a hypermap seen as a representation of a _Belyi function_, that is, a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ whose only critical values are 0, 1, and $\infty$.  (Such an $f$ can also be seen as a ramified covering of the [[Riemann sphere]], unramified outside $\{0,1,\infty\}$.)  The Belyi function $f$ determines a hypermap on the Riemann surface $X$ by considering the inverse image of the unit interval $H = f^{-1}([0,1])$, and coloring the preimages of 0 and 1 as black and white vertices, respectively.  Moreover, each face of $H$ contains exactly one _pole_, that is, one preimage of $\infty$.
+Finally, a **dessin d'enfant** is a hypermap seen as a representation of a _Belyi function_: a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ whose only critical values are 0, 1, and $\infty$.  Such a function determines a hypermap on the Riemann surface $X$ by considering the inverse image of the unit interval $H = f^{-1}([0,1])$, and coloring the preimages of 0 and 1 as black and white vertices, respectively.  Moreover, each face of $H$ contains exactly one _pole_, that is, one preimage of $\infty$.
 
+Note that it is also possible to associate a dessin more generally to any function $f : X \to \bar{\mathbb{C}}$ with at most three critical values, since any such function may be normalized to have critical values in $\{0,1,\infty\}$ by applying a [[linear fractional transformation]].  Likewise, the dessin can also equivalently be seen as a representation of a [[branched cover of the Riemann sphere]], ramified at at most three points.
 
 ## Examples
 
