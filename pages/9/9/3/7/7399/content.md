@@ -30,7 +30,7 @@ A **hypermap** is a map together with a coloring of the vertices in black and wh
 
 Finally, a **dessin d'enfant** is a hypermap seen as a representation of a _Belyi function_: a [[meromorphic function]] $f : X \to \bar{\mathbb{C} }$ whose only critical values are 0, 1, and $\infty$.  Such a function determines a hypermap on the Riemann surface $X$ by considering the inverse image of the unit interval $H = f^{-1}([0,1])$, and coloring the preimages of 0 and 1 as black and white vertices, respectively.  Moreover, each face of $H$ contains exactly one _pole_, that is, one preimage of $\infty$.
 
-Note that it is also possible to associate a dessin more generally to any function $f : X \to \bar{\mathbb{C}}$ with at most three critical values, since any such function may be normalized to have critical values in $\{0,1,\infty\}$ by applying a [[linear fractional transformation]].  Likewise, the dessin can also equivalently be seen as a representation of a [[branched cover of the Riemann sphere]], ramified at at most three points.
+Note that it is also possible to associate a dessin more generally to any function $f : X \to \bar{\mathbb{C}}$ with at most three critical values, since any such function may be normalized to have critical values in $\{0,1,\infty\}$ by applying a [[linear fractional transformation]].  Likewise, the dessin can also equivalently be seen as a representation of a [[branched cover of the Riemann sphere]], ramified over at most three points.
 
 ## Examples
 
