@@ -254,7 +254,7 @@ and similarly for the one with 1 replaced by 2, *are* now fairly obvious.
 For $n = 4$, the corresponding diagram for $S[4](0,4)$ gives a cube 
 but here there is an interesting feature.  
 
-Five of the six faces of the cube $|N(P_{0,4})|$ correspond to the the associativity of composition of triples of composable morphisms in $[4]$. These correspond to the 5 faces of the 4-simplex $\Delta[4]$, as depicted for instance at [[oriental]] and at [[monoidal category]].
+Five of the six faces of the cube $|N(P_{0,4})|$ correspond to the  associativity of composition of triples of composable morphisms in $[4]$. These correspond to the 5 faces of the 4-simplex $\Delta[4]$, as depicted for instance at [[oriental]] and at [[monoidal category]].
 
 But the cube has one more face
 
