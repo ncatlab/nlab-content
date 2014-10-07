@@ -41,6 +41,8 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 * There ought to be a [[vertical categorification|categorified]] [[internal logic|logic]], or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
 
+* [[Homotopy type theory]] may be thought of as a vertical categorification of logic to $(\infinity,1)$.
+
 * [[higher category theory|Higher category theory]] may provide the right tools to take [[physics]] forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf) See also [[physics]].
 
 * [[higher category theory and physics]], [[geometry of physics]]
