@@ -1,4 +1,4 @@
 
-* [webpage](http://sitemason.vanderbilt.edu/site/lcBjRC)
+* [webpage](http://as.vanderbilt.edu/math/bio/gennadi-kasparov)
 
 category: people
