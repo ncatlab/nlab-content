@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -62,6 +63,9 @@ This line has been enhanced by exploring the theory of [[locales]] (for the case
 
 * [[Joachim Kock]], Wolfgang Pitsch, _Hochster duality in derived categories and point-free reconstruction of schemes_, [arxiv/1305.1503](http://arxiv.org/abs/1305.1503)
  
+Further discussion in the context of [[2-algebraic geometry]] is in 
+
+* {#Brandenburg14} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
 
 [[!redirects spectra of tensor triangulated categories]]
 
