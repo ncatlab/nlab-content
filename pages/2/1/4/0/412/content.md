@@ -137,7 +137,7 @@ This appears as ([Hovey, prop. 4.2.11](#Hovey)).
 +-- {: .num_prop}
 ###### Proposition
 
-In fact $CGTo_{Quillen}$ is a [[cartesian closed model category]].
+In fact $CGTop_{Quillen}$ is a [[cartesian closed model category]].
 (see e.g [Berger-Moerdijk 03](#BergerMoerdijk03))
 
 =--
