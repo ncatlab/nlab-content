@@ -45,6 +45,8 @@ It may mean:
 
 * [[tensor (∞,1)-category]]
 
+* [[2-algebraic geometry]]
+
 
 ## References
 
