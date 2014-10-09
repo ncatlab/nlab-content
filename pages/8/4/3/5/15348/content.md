@@ -29,7 +29,7 @@ The **J&#243;nsson-Tarski topos** $\mathcal{J}_2$ is the category of [[Jónsson-
 * $\mathcal{J}_2=Sh(M_2,J)$ where $M_2$ is the free monoid on two generators $a, b$ and $J$ is the [[coverage]] whose only covering family on the unique object $\cdot$ of $M_2$ is $\{a:\cdot\rightarrow \cdot ,b:\cdot\rightarrow\cdot\}$. So $\mathcal{J}_2$ is in a fact a [[Grothendieck topos]].
 
 * $M_2$, as a free monoid, is cancellative and, accordingly, $\mathcal{J}_2$ is an [[étendue]] ([[Peter Freyd]]). It is discussed from this [[étendue|perspective]] as a [[petit topos]] for _labeled graphs_ in (Lawvere 1989).
-* Actually, Freyd showed that $\mathcal{J}_2/F(1)\cong Sh(2^N)$ with $F(1)$ the free J&#243;nsson-Tarski algebra on one generator and $2^N$ the [[Cantor space]] - this motivates the above quote from Bunge&Funk: $\mathcal{J}_2$ looks locally like (the sheaf topos on) $2^N$ !
+* Actually, Freyd showed that $\mathcal{J}_2/F(1)\cong Sh(2^N)$ with $F(1)$ the free J&#243;nsson-Tarski algebra on one generator and $2^N$ the [[Cantor space]] - this motivates the above quote from Bunge&Funk: $\mathcal{J}_2$ looks locally like (the sheaf topos on) $2^N$ ! $Sh(2^N)$ classifies subsets of $N$ in the sense that for cocomplete $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(2^N)$ correspond to morphisms $\Delta(N)\to\Delta(2)$ in $\mathcal{E}$ (cf. [Mac Lane& Moerdijk](#MacLaneMoerdijk), ex.VIII.10, pp.470-71).
 
 ##Generalizations
 The idea to consider generalizations of $\mathcal{J}_2$ seemed to have appeared first in the context of work on &#233;tendues (Rosenthal 1981, Lawvere 1989).
@@ -51,7 +51,7 @@ The resulting map $j:\Omega\to\Omega$ is a topology.
 
 For $\mathcal{C}^{op}=\mathcal{M}_2$, the free monoid on two generators, and $H(X)=2^N$, the functor constantly the Cantor set, this yields $\mathcal{J}_2$.
 
-The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on countably infinite many generators, and $H=N^N$ exhibits the **infinite J&#243;nsson-Tarski topos** $\mathcal{J}_\infty$, i.e. the category of sets $A$ with an isomorphism to $A^N$, as $Sh(N^N)$ locally.
+The generalization to $\mathcal{C}^{op}=\mathcal{M}_\infty$, the free monoid on countably infinite many generators, and the _Baire space_ $H=N^N$ exhibits the **infinite J&#243;nsson-Tarski topos** $\mathcal{J}_\infty$, i.e. the category of sets $A$ with an isomorphism to $A^N$, as $Sh(N^N)$ locally.
 
 ### J&#243;nsson-Tarski toposes and self-similarity
 
@@ -79,6 +79,8 @@ Caveat: this entry is still in progress!
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
 * [[Tom Leinster]], _J&#243;nsson-Tarski toposes_, Talk Nice 2007 ([slides](http://www.maths.ed.ac.uk/~tl/nice/jt.pdf))
+
+* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.{#MacLaneMoerdijk}
 
 * [[Kimmo I. Rosenthal]], _&#201;tendues and Categories with Monic Maps_ , JPAA **22** (1981) pp.193-212.
 
