@@ -132,7 +132,7 @@ Appreciation of the role of convenient categories was in full force by the early
 ## References
 
 * Booth, Peter I. The exponential law of maps. II. 
-Math. Z. 121 (1971), 311&#8211;319. (#Booth) 
+Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
 * [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
 {#Brown61}
@@ -143,13 +143,13 @@ Math. Z. 121 (1971), 311&#8211;319. (#Booth)
 * [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/functionspaces.pdf)
 {#Brown64}
 
-* [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. (#Brown06)
+* [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. {#Brown06}
 
 * Cohen, D. E. Spaces with weak topology, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
 
 * Crabb, Michael; James, Ioan, 
 Fibrewise homotopy theory.  
-Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 (#CrabbJames)
+Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
 
 * [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 {#Steenrod}
@@ -161,7 +161,7 @@ Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. 
 {#Johnstone}
 
 * Harasani, Hamed A. "Topological methods in general topology", PhD Thesis, 
-University of Wales, Bangor, (1988) [(link to pdf files)](http://pages.bangor.ac.uk/~mas010/harasani.html). (#Harasani)
+University of Wales, Bangor, (1988) [(link to pdf files)](http://pages.bangor.ac.uk/~mas010/harasani.html). {#Harasani}
 
 * Edwin Spanier, "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1--14.
 {#Spanier}
