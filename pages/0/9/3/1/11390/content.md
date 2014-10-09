@@ -38,6 +38,8 @@ Generally, the [[kernel]] of any [[generalized homology theory]] here is a thick
 
 * [[spectrum of a tensor triangulated category]]
 
+* [[2-algebraic geometry]]
+
 ## References
 
 The concept was introduced at the level of [[triangulated categories]] in 
@@ -75,3 +77,5 @@ See also
 [[!redirects prime spectrum of a monoidal stable (infinity,1)-category]]
 
 [[!redirects prime spectrum of a tensor triangulated category]]
+
+[[!redirects spectrum of a symmetric monoidal (∞,1)-category]]
