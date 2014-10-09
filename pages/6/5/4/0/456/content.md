@@ -312,7 +312,7 @@ from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]].
 
 =--
 
-This appears as ([Johnstone, example 4.1.4](#Johnstone)).
+This appears as ([Johnstone, example A4.1.4](#Johnstone)).
 
 +-- {: .proof}
 ###### Proof
@@ -356,7 +356,7 @@ $$
 
 =--
 
-This appears as ([Johnstone, example 4.1.10](#Johnstone)).
+This appears as ([Johnstone, example A4.1.10](#Johnstone)).
 
 +-- {: .proof}
 ###### Proof
