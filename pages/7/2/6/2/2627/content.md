@@ -309,6 +309,8 @@ For the notion in def. \ref{BD2Rig} this was conjectured by [[John Baez]], for t
 
 ## Related concepts
 
+* [[2-algebraic geometry]]
+
 * A further slight variant of compatibly monoidal cocomplete categories is that of _monoidal [[vectoids]]_.
 
 * [[distributivity for monoidal structures]]
@@ -319,13 +321,18 @@ For the notion in def. \ref{BD2Rig} this was conjectured by [[John Baez]], for t
 
 The proposal that a 2-ring should be a compatibly monoidal cocomplete category is due to
 
-* [[John Baez]], [[James Dolan]], _Higher-dimensional algebra III: $n$-categories and the algebra of opetopes_, _Adv. Math._ **135** (1998), 145-206.  ([arXiv](http://arxiv.org/abs/q-alg/9702014))
- {#BaezDolan}
+* {#BaezDolan} [[John Baez]], [[James Dolan]], _Higher-dimensional algebra III: $n$-categories and the algebra of opetopes_, _Adv. Math._ **135** (1998), 145-206.  ([arXiv](http://arxiv.org/abs/q-alg/9702014))
+ 
 
 The proposal that a 2-ring should be a compatibly monoidal presentable category is due to
 
-* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
- {#CJF}
+* {#CJF} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+ 
+see also
+
+* {#Brandenburg14} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
+
+
 
 This is related to 
 
