@@ -40,3 +40,7 @@ For the moment see at _[category object in an (infinity,1)-category -- n-Categor
 
 [[!redirects n-category object in an (∞,1)-category]]
 [[!redirects internal (infinity,n)-category]]
+
+[[!redirects internal (∞,n)-category]]
+[[!redirects internal (∞,n)-categories]]
+
