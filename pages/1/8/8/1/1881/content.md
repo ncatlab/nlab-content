@@ -37,7 +37,7 @@ If $n \gt 0$, then the list which assigns $0, \ldots, n - 1$ to $a_0, a_1, \ldot
 
 Given two lists $x$ and $y$, the former of length $m$ and the latter of length $n$, their __concatenation__ $x * y$ is a list of length $m + n$, given as follows:
 $$ i \mapsto \left\{ \array { x_i     & if\; i \lt m \\
-                              x_{i-m} & if\; i \geq m } \right. $$
+                              y_{i-m} & if\; i \geq m } \right. $$
 
 One can now show that concatenation is associative with the empty list as identity; hence $S^*$ is a monoid.
 
