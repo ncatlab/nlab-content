@@ -15,7 +15,7 @@
 
 ## Idea
 
-There are two different (related) relationships between [[Grothendieck topoi]] and a notion of _generalized [[space]]_ .  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
+There are two different (related) relationships between [[Grothendieck topoi]] and a notion of _generalized [[space]]_.  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
 
 On the one hand, we can regard the topos *itself* as a generalized space.  This tends to be a useful point of view when the site $S$ is the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ (or some [[manifold]] or the like), or some other site which we regard as containing data from only "one space."  In this case, we refer to $T$ as a **little topos**, or (if we fail to translate the original French) a **petit topos**.
 
