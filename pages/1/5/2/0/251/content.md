@@ -53,7 +53,7 @@ Horizontal composition of these squares is given by the compositon in the ordina
 
 In particular, the **transpose** of a double category, which switches the vertical and horizontal arrows, is again a double category.
 
-A double category is an important special case of an [[n-fold category]], namely the case where $n = 2$.
+A double category is an important special case of an [[n-fold category]], namely the case where $n = 2$. There is more on $n$-fold categories in the paper by Brown and Higgins referenced below. 
 
 ## Examples ##
 
@@ -195,6 +195,10 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
+
+* [[Ronnie Brown]]  ans P.J. Higgins, `The equivalence of $\infty$-groupoids
+and crossed  complexes'',(
+http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_371_0/CTGDC_1981__22_4_371_0.pdf pdf}  _Cah. Top. G\'eom. Diff_. 22 (1981) 371-386.
 
 * [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf),_New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
