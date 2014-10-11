@@ -61,6 +61,8 @@ For instance def. D1.1.6 in
 [[!redirects axiom]]
 [[!redirects axioms]]
 
+[[!redirects axioms]]
+
 [[!redirects axiomatization]]
 [[!redirects axiomatizations]]
 
