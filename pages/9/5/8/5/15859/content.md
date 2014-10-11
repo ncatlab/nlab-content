@@ -1,0 +1,57 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
+#### Higher Algebra
++--{: .hide}
+[[!include topos theory - contents]]
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects Cole spectrum]]
+
+
+##Idea##
+In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
+
+##Definition##
+
+##Theorem##
+
+##Example##
+
+##Related concepts##
+
+*[[spectrum of a commutative ring]]
+
+*[[classifying topos]]
+
+*[[ringed topos]]
+
+*[[quotient theory]]
+
+##References##
+
+Beside Cole's unpublished paper, Johnstone (1977b) is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretic context. See also the short remark in Caramello (2014).
+
+* [[Marta Bunge|M. Bunge]], [[Gonzalo E. Reyes|G. E. Reyes]] , _Boolean spectra and model completions_ , Fund.Math. **113** (1981) pp.165-173. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm113/fm113115.pdf))
+
+* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
+
+* [[Olivia Caramello|O. Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
+
+* J. C. Cole, _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
+
+* M. Coste, _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
+Sheaves_ , LNM **753**(1979).
+
+* [[Peter Johnstone|P. J. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
+
+* P. J. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
