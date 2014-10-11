@@ -21,7 +21,7 @@
 ##Idea##
 In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
 
-Basic ingredients are pairs of geometric theories $S$ and $T$ over the same language such that the axioms of $T$ results from $S$ by addition of further axioms. Then $T-Mod_\mathcal{E}$ is a full subcategory of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
+Basic ingredients are pairs of geometric theories $S$ and $T$ over the same language such that $T$ results from $S$ by addition of further axioms. Then $T-Mod_\mathcal{E}$ is a full subcategory of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
 
 ###Definition###
 Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ is given as follows: 
@@ -41,7 +41,7 @@ Let $T$ be a (geometric) quotient theory of $S$. A class $A$ of $T$-model morphi
 
 * $A$ contains all identity morphisms and given $g\in A$: composible $f\in A$ iff $gf\in A$.
 
-* Given an $S$-model morphism $f:M\to L$ with $L$ a $T$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ such that $M_f$ is a $T$-model and $\hat{f}\in A$ such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
+* Given an $S$-model morphism $f:M\to L$ with $L$ a $T$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ such that $M_f$ is a $T$-model and $\hat{f}\in A$, such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
 
 The sub-category $A-\mathfrak{Top}$ of $T-\mathfrak{Top}$ for such an admissible class has 1-cells $(p,f)$ with $f\in A$.
 
@@ -49,11 +49,11 @@ The sub-category $A-\mathfrak{Top}$ of $T-\mathfrak{Top}$ for such an admissible
 ##Theorem##
 Let $S$ and $T$ be finitely presented geometric theories such that $T$ is a quotient theory of $S$, and let $A$ be an admissible class of morphisms of $T$-models. Then the inclusion functor $A-\mathfrak{Top}_N\to S-\mathfrak{Top}_N$ has a right adjoint $Spec:S-\mathfrak{Top}_N\to A-\mathfrak{Top}_N$.
 
-##Example##
+###Example###
 
 The classical example is given by the [[geometric theory|geometric theories]] of [[commutative ring|commutative rings]] and [[local ring|local rings]] with the factorization given by the class of local morphisms and appropriate rings of fractions as the local factors. The right adjoint maps a commutative ring $A$ basically to the pair consisting of the sheaf topos on the Zariski spectrum of $A$ and the structure sheaf of $A$ (cf. Johnstone 1977b). 
 
-##Remark##
+###Remark###
 In the context of his work with C. Lair on 'locally free diagrams' [[René Guitart|R. Guitart]] interprets the 'almost-freeness' of the spec construction as an 'almost-algebraicity' of topology (See Guitart 2008 and the references therein).
 
 ##Related concepts##
@@ -85,6 +85,6 @@ Sheaves_ , LNM **753** (1979).
 
 * [[René Guitart|R. Guitart]], _Toute Th&#233;orie est Alg&#233;brique et Topologique_ , Cah.Top.G&#233;om.Diff.Cat. **XLIX** no. 2 (2008) pp.83-128. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_2008__49_2/CTGDC_2008__49_2_83_0/CTGDC_2008__49_2_83_0.pdf))
 
-* [[Peter Johnstone|P. J. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
+* [[Peter Johnstone|P. T. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
 
-* P. J. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
+* P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
