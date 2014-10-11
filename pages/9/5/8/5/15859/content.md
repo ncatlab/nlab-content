@@ -27,15 +27,20 @@ In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra 
 
 ##Example##
 
+The classical example is given by the [[geometric theory|geometric theories]] of [[commutative ring|commutative rings]] and [[local ring|local rings]] with the factorization given by the class of local morphisms and appropriate rings of fractions as the local factors. The right adjoint maps a commutative ring $A$ basically to the pair consisting of the sheaf topos on the Zariski spectrum of $A$ and the structure sheaf of $A$ (cf. Johnstone 1977b). 
+
+##Remark##
+In the context of his work with C. Lair on 'locally free diagrams' [[René Guitart|R. Guitart]] interprets the 'almost-freeness' of the spec construction as an 'almost-algebraicity' of topology (See Guitart 2008 and the references therein).
+
 ##Related concepts##
 
 *[[spectrum of a commutative ring]]
 
 *[[classifying topos]]
 
-*[[ringed topos]]
+*[[geometric theory]]
 
-*[[quotient theory]]
+*[[ringed topos]]
 
 ##References##
 
@@ -50,7 +55,9 @@ Beside Cole's unpublished paper, Johnstone (1977b) is a good source for this mat
 * J. C. Cole, _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
 
 * M. Coste, _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
-Sheaves_ , LNM **753**(1979).
+Sheaves_ , LNM **753** (1979).
+
+* [[René Guitart|R. Guitart]], _Toute Th&#233;orie est Alg&#233;brique et Topologique_ , Cah.Top.G&#233;om.Diff.Cat. **XLIX** no. 2 (2008) pp.83-128. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_2008__49_2/CTGDC_2008__49_2_83_0/CTGDC_2008__49_2_83_0.pdf))
 
 * [[Peter Johnstone|P. J. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
 
