@@ -25,9 +25,11 @@ This entry provides hyperlinks for central keywords of the text
 
 which develops the generalization of the notion of a [[ringed topos]] from [[topos theory]] to [[(∞,1)-topos theory]] and formulates basic notions of [[geometry]] in this context ("[[higher geometry]]"). 
 
-A 1-categorical precursor would be
+Precursor in 1-[[category theory]] include
 
 * [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972). 
+
+* [[Cole's theory of spectrum]]
 
 The theory is general, but the focus of the examples and applications is on [[derived algebraic geometry]]/[[E-∞ geometry]].
 
