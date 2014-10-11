@@ -21,11 +21,11 @@
 
 The notion of a [[topos]] $X$ that is equipped with a [[local algebra]]-object $\mathcal{O}_X$ is a generalization of the notion of a [[locally ringed topos]]. The algebra object $\mathcal{O}_X$ is then also called the [[structure sheaf]]. 
 
-For that reason in ([Lurie]{#Lurie}) such pairs $(X, \mathcal{O}_X)$ are called **structured toposes**. But since the notion of _[[locally ringed topos]]_ is a special case, maybe a more systematic and descriptive term is **locally algebra-ed topos**. 
+For that reason in ([Lurie](#Lurie)) such pairs $(X, \mathcal{O}_X)$ are called **structured toposes**. But since the notion of _[[locally ringed topos]]_ is a special case, maybe a more systematic and descriptive term is **locally algebra-ed topos**. Elsewhere this is called a locally _$T$-modelled topos_, where $T$ the given [[algebraic theory]].
 
 ## Definition
 
-Let $\mathcal{C}_{\mathbb{T}}$ be the [[syntactic category]] of an [[essentially algebraic theory]] $\mathbb{T}$, hence any category with [[finite limit]]s. Let $J$ be a [[subcanonical coverage]] on $\mathcal{C}_{\mathbb{T}}$. Notice that this makes $(\mathcal{C}_{\mathbb{T}}, J)$ be a [[standard site]] and every standard site will do.
+Let $\mathcal{C}_{\mathbb{T}}$ be the [[syntactic category]] of an [[essentially algebraic theory]] $\mathbb{T}$, hence any category with [[finite limits]]. Let $J$ be a [[subcanonical coverage]] on $\mathcal{C}_{\mathbb{T}}$. Notice that this makes $(\mathcal{C}_{\mathbb{T}}, J)$ be a [[standard site]] and every standard site will do.
 
 Then the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$ is the [[classifying topos]] for the [[geometric theory]] of $\mathbb{T}$-[[local algebra]]s.
 
@@ -68,11 +68,25 @@ The [[(∞,1)-category theory]]-version is that of
 
 * [[locally algebra-ed (∞,1)-topos]].
 
+## Related concepts
+
+* [[Cole's theory of spectrum]]
+
 ## References
 
+* [[Julian Cole]], _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
 
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Structured Spaces]]_
+ 
+
+
 
 [[!redirects locally algebra-ed toposes]]
+
+[[!redirects modelled topos]]
+[[!redirects T-modelled topos]]
+[[!redirects modelled toposes]]
+[[!redirects T-modelled toposes]]
+[[!redirects modelled topoi]]
+[[!redirects T-modelled topoi]]
