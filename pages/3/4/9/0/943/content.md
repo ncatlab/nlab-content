@@ -53,7 +53,7 @@ The original example of a convenient category of topological spaces is described
 
 * [[compactly generated space]]
 
-and there are closely related convenient categories, including for example the category of [compactly generated weakly Hausdorff spaces](http://nlab.mathforge.org/nlab/show/compactly+generated+space#weak_hausdorffification_11). The article by Neil Strickland ([ref](#NS)), written with the needs of algebraic topology in mind, covers the latter example in thorough detail. 
+and there are closely related convenient categories, including for example the category of [compactly generated weakly Hausdorff spaces](http://nlab.mathforge.org/nlab/show/compactly+generated+space#weak_hausdorffification_11). The article by [[Neil Strickland]] ([ref](#NS)), written with the needs of algebraic topology in mind, covers the latter example in thorough detail. 
 
 A reasonably large class of examples, including the examples of compactly generated spaces and [[sequential space|sequential spaces]], is given in the article by Escard&#243;, Lawson, and Simpson ([ref](#ELS)). These may be outlined as follows. An [[exponential law for spaces|exponentiable space]] in $Top$ is a space $X$ such that $X \times -: Top \to Top$ has a right adjoint. These may be described concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a colimit in $Top$ of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
 
@@ -134,11 +134,11 @@ Appreciation of the role of convenient categories was in full force by the early
 * Booth, Peter I. The exponential law of maps. II. 
 Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
-* [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
-{#Brown61}
+* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
 
-* [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/tentopologies.pdf)
-{#Brown63}
+ 
+* {#Brown63} [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/tentopologies.pdf)
+
 
 * [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/functionspaces.pdf)
 {#Brown64}
@@ -147,33 +147,35 @@ Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
 * Cohen, D. E. Spaces with weak topology, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
 
-* Crabb, Michael; James, Ioan, 
-Fibrewise homotopy theory.  
+* Crabb, Michael; James, Ioan,  Fibrewise homotopy theory.  
 Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
 
-* [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
-{#Steenrod}
+* {#Steenrod} [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 
-* Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. 
-{#BT}
 
-* Peter T. Johnstone, On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237--271.
-{#Johnstone}
+* {#BT} Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. 
+
+
+* {#Johnstone} [[Peter Johnstone]], On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237--271.
+
 
 * Harasani, Hamed A. "Topological methods in general topology", PhD Thesis, 
 University of Wales, Bangor, (1988) [(link to pdf files)](http://pages.bangor.ac.uk/~mas010/harasani.html). {#Harasani}
 
-* Edwin Spanier, "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1--14.
-{#Spanier}
+* {#Spanier} [[Edwin Spanier]], "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1--14.
 
-* Kriegl, A.; Michor, P.W., The convenient setting of global analysis, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
-{#KM}
 
-* M. Escard&#243;, J.Lawson, A. Simpson, Comparing Cartesian closed categories of (core) compactly generated spaces, Topology and its Applications, 143 (2004), 105&#8211;145. [(link to ps file)](http://www.cs.bham.ac.uk/~mhe/papers/ELS03.ps)
-{#ELS}
+* {#KM} [[Andreas Kriegl]]; [[Peter Michor]] , The convenient setting of global analysis, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
 
-* Neil Strickland, The Category of CGWH Spaces. [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
-{#NS}
+
+* {#ELS} M. Escard&#243;, J.Lawson, A. Simpson, Comparing Cartesian closed categories of (core) compactly generated spaces, Topology and its Applications, 143 (2004), 105&#8211;145. [(link to ps file)](http://www.cs.bham.ac.uk/~mhe/papers/ELS03.ps)
+
+
+* {#NS} [[Neil Strickland]], The Category of CGWH Spaces. [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
+
+* {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002, 
+
+  survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
 
 [[!redirects convenient category of topological spaces]]
