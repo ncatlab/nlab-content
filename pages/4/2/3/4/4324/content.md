@@ -80,7 +80,7 @@ $$
   Spectra_{\geq 0} \hookrightarrow Spectra
 $$
 
-of the [[full sub-(∞,1)-category]] of connective spectra into the [[(∞,1)-category of spectra]] preserves small [[(∞,1)-colimits]]. Moreover, $Spectra_{\geq }$ is generated under small [[(∞,1)-colimits]] by the [[sphere spectrum]]. 
+of the [[full sub-(∞,1)-category]] of connective spectra into the [[(∞,1)-category of spectra]] preserves small [[(∞,1)-colimits]]. Moreover, $Spectra_{\geq 0}$ is generated under small [[(∞,1)-colimits]] by the [[sphere spectrum]]. 
 
 These statements prolong to [[sheaves of spectra]].
 
