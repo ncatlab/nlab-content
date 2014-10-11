@@ -1,20 +1,20 @@
-[[+-- {: .rightHandSide}
+
++-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### 2-Category theory
+#### Topos Theory
+#### Higher Algebra
 +--{: .hide}
-[[!include 2-category theory - contents]]
-=--
-#### Higher category theory
-+--{: .hide}
-[[!include higher category theory - contents]]
+[[!include topos theory - contents]]
+[[!include higher algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
+
 
 ## Definition ##
 
@@ -196,7 +196,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
-* [[Ronnie Brown]]  and [[P.J. Higgins]], [The equivalence of $\infty$-groupoids
+* [[Ronnie Brown]]  and [[Philip Higgins]], [The equivalence of $\infty$-groupoids
 and crossed  complexes,](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_371_0/CTGDC_1981__22_4_371_0.pdf})  _Cah. Top. G&#233;om. Diff_. 22 (1981) 371-386.
 
 * [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf),_New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
