@@ -23,17 +23,19 @@
 
 
 ##Idea
-
+On the opposite of a [[Heyting algebra]] it is possible to define an equivalent to the [[boundary]] operation in topology. As quotient lattices of [[geometric theory|geometric theories]] come naturally with such a co-Heyting structure a mereological calculus on logical [[theory|theories]] obtains.
 
 ##Definition
+Let $a$ be an element of a co-Heyting algebra. The (co-Heyting) _boundary_ of $a$ is defined as $\partial a :=a\wedge\sim a$.
 
-
+##Properties
 
 ##Related entries
 
 * [[boundary]]
 * [[Heyting algebra]]
 * [[Heyting category]]
+* [[adjoint modality]]
 * [[geometric theory]]
 * [[Aufhebung]]
 
