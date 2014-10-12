@@ -118,10 +118,10 @@ Index.
 
 * Grothendieck et al., [[SGA1]]
 
-* R and A. Douady, _Alg&#232;bre et th&#233;ories galoisiennes_,
+* R. and A. Douady, _Alg&#232;bre et th&#233;ories galoisiennes_,
   Fernand Nathan, 1977.
 
-* A.R.Magid,  _The separable Galois theory of commutative rings_,
+* A. R. Magid,  _The separable Galois theory of commutative rings_,
   Marcel Dekker, 1974.
 
 
