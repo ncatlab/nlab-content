@@ -89,6 +89,8 @@ Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$
 
 * [[Pursuing stacks]]
 
+* [[co-Heyting boundary]]
+
 ##A guide to the literature
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
