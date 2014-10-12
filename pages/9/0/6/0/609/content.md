@@ -55,7 +55,7 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 
 ## References
 
-* Philip Ehlers, _Simplicial groupoids as models for homotopy type_ Mather thesis (1991) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/ehlers-msc.pdf))
+* Philip Ehlers, _Simplicial groupoids as models for homotopy type_ Master's thesis (1991) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/ehlers-msc.pdf))
 
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
