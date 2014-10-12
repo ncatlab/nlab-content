@@ -173,9 +173,7 @@ University of Wales, Bangor, (1988) [(link to pdf files)](http://pages.bangor.ac
 
 * {#NS} [[Neil Strickland]], The Category of CGWH Spaces. [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
 
-* {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002, 
-
-  survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
+* {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002, survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
 
 [[!redirects convenient category of topological spaces]]
