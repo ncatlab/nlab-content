@@ -281,10 +281,12 @@ A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #AffineVarieties}
 ###### Example
 
 The category of [[affine schemes]] is a reflective subcategory of the category of [[schemes]], with the reflector given by $X \mapsto Spec \Gamma(X,\mathcal{O}_X)$.
+
+The generalization of this example to [[homotopy theory]] is discussed at _[[function algebras on infinity-stacks]]_. The analogue in [[noncommutative algebraic geometry]] is in ([Rosenberg 98, prop 4.4.3](#Rosenberg98)). 
 
 =--
 
@@ -334,6 +336,11 @@ Related discussion of [[reflective sub-(∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
+
+The example of affine schemes in [[noncommutative algebraic geometry]] is in 
+
+* {#Rosenberg98} [[Alexander Rosenberg]], _Noncommutative schemes_, Comp. Math. 112, 93&#8211;125 (1998)
+
 
 [[!redirects reflector]]
 [[!redirects reflectors]]
