@@ -35,9 +35,9 @@ really deep! The story of how the deep connections between them became apparent 
 quite long and here is not the place to explore it in any detail.  It involves 
 function spaces and Riemann surfaces as well as a lot else that is central to
 modern pure maths (if you want a good source for the
-theory see the beautiful book (see below) by Douady and Douady. 
+theory see the beautiful book (see below) by Douady and Douady). 
 
-Borceux and Janleidze's book, _Galois theories_, traces a greatly extended mathematical path beyond that
+Borceux and Janelidze's book, _Galois theories_, traces a greatly extended mathematical path beyond that
 semi-classical link between Galois theory and coverings, but starts at a fairly
 elementary beginning. It describes classical Galois theory, then turns to its
 extension to infinitary field extensions, to &#233;tale algebras that became the
