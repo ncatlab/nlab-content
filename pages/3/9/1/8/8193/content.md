@@ -19,6 +19,8 @@ An [[(∞,n)-category]] $\mathcal{C}$ is said to _have 1-adjoints_ if in its [[h
 
 An $(\infty,n)$-category _has all adjoints_ (or just _has adjoints_, for short) if it has adjoints for $k$-morphisms for $0 \lt k \lt n$.
 
+If in addtition every [[object]] in $\mathcal{C}$ is a [[fully dualizable object]], then $\mathcal{C}$ is called an _[[(∞,n)-category with duals]]_.
+
 ## Examples
 
 * An [[(∞,n)-category of cobordisms]] has all adjoints.
