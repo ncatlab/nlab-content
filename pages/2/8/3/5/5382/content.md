@@ -25,7 +25,8 @@
 
 ## Idea
 
-A [[dualizable object]] in a [[symmetric monoidal (∞,n)-category]] is called **fully dualizable** if the structure maps of the duality unit and counit each themselves have adjoints, which have adjoints, and so on.
+A [[dualizable object]] in a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}$ is called **fully dualizable** if the structure maps of the duality unit and counit each themselves have adjoints, which have adjoints, and so on, up to level $(n-1)$.
+
 
 ## Properties
 
@@ -38,6 +39,11 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 * In the [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinity,3)-category]] of [[monoidal categories]] and [[bimodule]] categories between them, the fully dualizable objects are (or at least contain) the [[fusion categories]]. See there for details.
 
 ## Related concepts
+
+* [[(∞,n)-category with adjoints]]
+
+* [[(∞,n)-category with duals]]
+
 
 [[!include finite objects -- table]]
 
