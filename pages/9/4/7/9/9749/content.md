@@ -20,7 +20,7 @@ The _Giry monad_ ([Giry 80](#Giry80)) is the [[monad]] on a [[category]] of suit
 
 ## Definition
 
-A useful choice of [[category]] of [[topological spaces]] suitable for the definition of the Giry monad category $Pol$ of [[Polish space]], i.e., separable [[metric spaces]] for which a complete metric exists. 
+A useful choice of [[category]] of [[topological spaces]] suitable for the definition of the Giry monad is the category, $Pol$, of [[Polish space]]s, i.e., separable [[metric spaces]] for which a complete metric exists. 
 
 Write 
 
