@@ -37,7 +37,7 @@ A **local geometric morphism** $f : E \to S$ between [[topos]]es $E,S$ is
    $$
     (f^* \dashv f_* \dashv f^!) : 
     E
-    \stackrel{\overset{f^*}{\leftarrow}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+    \stackrel{\overset{f^*}{\longleftarrow}}{\stackrel{\underset{f_*}{\longrightarrow}}{\underset{f^!}{\longleftarrow}}}
     S
    $$
 
@@ -722,8 +722,8 @@ Computability via Realizability_ PhD Thesis ([pdf](http://itu.dk/people/birkedal
 
 Free local constructions are considered in 
 
-* [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
-  {#Shulman}
+* {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+  
 
 [[!redirects local geometric morphisms]]
 [[!redirects local topos]]
