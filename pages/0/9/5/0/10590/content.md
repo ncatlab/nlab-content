@@ -1,5 +1,9 @@
 
 
-* [webpage](http://en.wikipedia.org/wiki/Sophie_Morel)
+* [webpage at Princeton](https://web.math.princeton.edu/~smorel/)
+
+*  [Wikipedia (English)](http://en.wikipedia.org/wiki/Sophie_Morel)
+
+* [Wikipedia (francais)](http://fr.wikipedia.org/wiki/Sophie_Morel)
 
 category: people
