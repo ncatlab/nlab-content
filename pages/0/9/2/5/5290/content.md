@@ -64,9 +64,9 @@ A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A 
 
 * Cohen (1976)
  {#Cohen}
-
+* M. GERSTENHABER, The cohomology structure of an associative ring, Ann. of Math., 78 (1963), 267-288 [MR28:5102](http://www.ams.org/mathscinet-getitem?mr=28:5102)
+* Ping Xu, _Gerstenhaber algebras and BV-algebras in Poisson geometry_, Commun. Math. Phys. 200, No.3, 545-560 (1999).
 [[!redirects Gerstenhaber algebras]]
-
 [[!redirects Poisson 2-algebra]]
 [[!redirects Poisson 2-algebras]]
 
