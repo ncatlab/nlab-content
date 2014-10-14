@@ -28,3 +28,7 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 [[!redirects Qbits]]
 [[!redirects quantum bit]]
 [[!redirects quantum bits]]
+
+
+[[!redirects qubit]]
+[[!redirects qubits]]
