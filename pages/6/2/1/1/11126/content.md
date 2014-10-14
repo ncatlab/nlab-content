@@ -61,7 +61,7 @@ where $p_1, p_2$ denote the [[projection]] maps out of the [[Cartesian product]]
 +-- {: .num_remark}
 ###### Remark
 
-The external tensor product consitutes a [[tensor product]] on the total category $Mod$ of the given [[Grothendieck fibration]] $Mod(-)\to \mathbf{H}$; and with respect to this it is a [[monoidal fibration]].
+The external tensor product constitutes a [[tensor product]] on the total category $Mod$ of the given [[Grothendieck fibration]] $Mod(-)\to \mathbf{H}$; and with respect to this it is a [[monoidal fibration]].
 
 =--
 
@@ -85,7 +85,7 @@ for $A_1, A_2 \in Mod(X)$, where $\Delta \colon X \longrightarrow X \times X$ is
 
 ### Generation of $Mod(X_1 \times X_2)$ from external tensor products
 
-Under suitable conditions on compact generation of $Mod(-)$ then one may deduce that $Mod(X_1 \times X_2)$ is geneated under external product from 
+Under suitable conditions on compact generation of $Mod(-)$ then one may deduce that $Mod(X_1 \times X_2)$ is generated under external product from 
 $Mod(X_1)$ and $Mod(X_2)$.
 
 ([Bondal-vdBerg 03](#BondalvdBerg03), [BFN 08, proof of prop. 3.24](#BFN08))
