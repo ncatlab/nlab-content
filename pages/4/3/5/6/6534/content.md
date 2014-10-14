@@ -2,8 +2,7 @@ __Stanis&#322;aw Lech Woronowicz__ is a mathematical physicist from Warsaw, a sp
 
 * [homepage](http://www.fuw.edu.pl/~slworono)
 * [articles](http://www.fuw.edu.pl/~slworono/Prace.html)
-
-
+* [Wikipedia entry](http://en.wikipedia.org/wiki/S._L._Woronowicz)
 * _Compact matrix pseudogroups_, Commun. Math. Phys. __111__, 613--665 (1987) [euclid](http://projecteuclid.org/euclid.cmp/1104159726) [MR0901157](http://www.ams.org/mathscinet-getitem?mr=0901157)
 * _Differential calculus on compact matrix pseudogroups (quantum groups)_ Commun. Math. Phys. __122__, 125--170 (1989) [euclid](http://projecteuclid.org/euclid.cmp/1104178320) [MR0994499](http://www.ams.org/mathscinet-getitem?mr=0994499)
 
@@ -18,5 +17,15 @@ __Stanis&#322;aw Lech Woronowicz__ is a mathematical physicist from Warsaw, a sp
 * W. Pusz, S. L. Woronowicz, _Twisted second quantization_, Rep. Math. Phys. __27__ (1989), no. 2, 231&#8211;257, [MR93c:81082](http://www.ams.org/mathscinet-getitem?mr=1067498), <a href="http://dx.doi.org/10.1016/0034-4877(89)90006-2">doi</a>
 * _A noncommutative Gelfand Naimark theorem_, Journal of Operator Theory 8, 361--389 (1982)
 
+### Related $n$Lab entries
+
+* [[quantum group]]
+* [[bicovariant differential calculus]]
+* [[Operator theory in the C*-algebra framework]]
+
+category: people
+
 [[!redirects Stanisław Lech Woronowicz]]
 [[!redirects Stanisław L. Woronowicz]]
+[[!redirects Stanislaw Woronowicz]]
+[[!redirects Stanisław Woronowicz]]
