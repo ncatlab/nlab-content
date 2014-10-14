@@ -8,3 +8,5 @@
 Compos. Math. __143__ (2007), no. 5, 1335--1358. 
 
 category: people
+
+[[!redirects Dmitri Tamarkin]]
