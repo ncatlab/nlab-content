@@ -73,6 +73,23 @@ In [[statistical physics]], a [[pure state]] is a state of maximal information, 
 See [[pure state]].
 
 
+## Examples
+
+Here are some toy examples of spaces of states.
+
+For an impossible system, the space of states is [[empty space|empty]]; for a trivial system (with a unique way to be), then space of states is the [[point]].  This unique state is pure.
+
+For a classical [[bit]], a system with two distinct ways to be, the space of states is a [[line segment]]; a state is given by a real number $t$ with $0 \leq t \leq 1$.  This $t$ is the probability that the system is in the first state, with $1 - t$ the probability that it is in the second.  The two pure states correspond to $t = 0$ and $t = 1$.
+
+For a quantum bit, a [[qubit]], the space of states is shaped like an American football.  A state is given by a matrix
+$$ \begin{pmatrix} a & b + \mathrm{i} c \\ b - \mathrm{i} c & d \end{pmatrix} $$
+with unit trace and nonnegative determinant; in other words, it\'s given by real numbers $a$, $b$, and $c$ satisfying the inequality
+$$ a^2 + b^2 + c^2 \leq a .$$
+The pure states are those satisfying
+$$ a^2 + b^2 + c^2 = a ,$$
+forming the surface of the football (what one might call an American footsphere, although properly it is a [lemon](http://mathworld.wolfram.com/Lemon.html)).  If we graph $a - a^2$ where it is postive (from $0$ to $1$) and rotate this around the $a$-axis, then we get this lemon.
+
+
 ## Related concepts
 
 * **state**
