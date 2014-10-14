@@ -50,6 +50,10 @@ With the stronger [[axioms]] of [[differential cohesion]] one may similarly ask 
 
 Moreover, [[differential cohesion]] induces [[de Rham spaces]] and hence the geometry in the [[slice (infinity,1)-topos|slice]] over them, [[dependent types]] over the [[infinitesimal shape modality]]. This is _[[D-geometry]]_ which is a general way of talking about [[differential equations]].
 
+## Related concepts
+
+* [[noncommutative differential calculus]]
+
 ## References
 
 Discussion of differential calculus in terms of [[coinduction]] is in 
