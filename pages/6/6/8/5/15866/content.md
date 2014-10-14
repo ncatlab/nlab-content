@@ -1,9 +1,15 @@
+
+# Noncommutative differential calculus
+* table of contents
+{: toc}
+
 ## Disambiguation
 
 There are several notions of noncommutative differential calculus. See related pages [[regular differential operator in noncommutative geometry]], 
 [[bicovariant differential calculus]], [[differential bimodule]], [[differential monad]], [[cyclic homology]]...
 
 This entry is about the version introduced by [[Boris Tsygan]], [[Dmitri Tamarkin]] and [[Ryszard Nest]], and studied also by Dolgushev, Kowalzig and others. 
+
 
 ## Definition
 
@@ -57,11 +63,15 @@ and a Batalin-Vilkovisky $V$-module $\Omega$.
 
 See also the case of [[Batalin-Vilkovisky algebra]]. 
 
+
 ## References
 
 * Dmitri Tamarkin, Boris Tsygan, _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 [arxiv:math.KT/0002116v1](http://arxiv.org/abs/math/0002116v1)
+
 * R. Nest, B. Tsygan, _On the cohomology ring of an algebra_, Advances in geometry, Progr. Math. __172__, Birkhauser 1999, pp. 337&#8211;370 [arxiv:math.QA/9803132](http://arxiv.org/abs/math/9803132)
+
 * V. Dolgushev, D. Tamarkin, B. Tsygan, _Noncommutative calculus and the Gauss-Manin connection_, in: Higher structures in geometry and physics, 139&#8211;158, Progr. Math., 287, Birkh&#228;user/Springer, New York, 2011 , [arXiv:0902.2202](http://arxiv.org/abs/0902.2202)
+
 * K. Behrend, B. Fantechi, _Gerstenhaber and Batalin-Vilkovisky structures on Lagrangian intersections_,
 [pdf](https://www.math.ubc.ca/~behrend/GeBaViLa.pdf)
 
@@ -70,8 +80,13 @@ Many examples of such noncommutative differential calculi are constructed using 
 
 * Niels Kowalzig, _Gerstenhaber and Batalin-Vilkovisky structures on modules over operads_, [arxiv:1312.1642](http://arxiv.org/abs/1312.1642);
 _Batalin-Vilkovisky algebra structures on (Co)Tor and Poisson bialgebroids_ [arXiv:1305.2992](http://arxiv.org/abs/1305.2992)
+
 * Niels Kowalzig, Ulrich Kraehmer, _Batalin-Vilkovisky structures on Ext and Tor_,  [arxiv:1203.4984](http://arxiv.org/abs/1203.4984)
 
+
 [[!redirects noncommutative calculus]]
+[[!redirects noncommutative differential calculus]]
 [[!redirects noncommutative differential calculi]]
 [[!redirects Batalin-Vilkovisky module]]
+[[!redirects Batalin–Vilkovisky module]]
+[[!redirects Batalin--Vilkovisky module]]
