@@ -32,7 +32,7 @@ A **co-Heyting algebra** is a [[distributive lattice]] $L$ equipped with a binar
 
 ##Properties
 
-* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. $\sim$ can be used to define a [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$.
+* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$.
 
 ##Related entries
 
