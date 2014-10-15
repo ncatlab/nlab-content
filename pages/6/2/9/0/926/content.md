@@ -517,8 +517,8 @@ A standard textbook reference is section 8 of
 
 and section VI of 
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_
-  {#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_
+  
 
 
 Orginal references include
@@ -546,8 +546,8 @@ The coskeleton construction for the Postnikov tower of a Kan complex is already 
 
 Another  classical article that amplifies the expression of Postnikov towers in terms of [[coskeleta]] is
 
-* [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf)), from 1984.
- {#DwyerKan}
+* {#DwyerKan} [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf)), from 1984.
+ 
 
 Analogous remarks are also in
 
@@ -555,13 +555,19 @@ Analogous remarks are also in
 
 reviewed around page 302 in 
 
-* [[Tibor Beke]], _Higher &#268;ech theory_, K-Theory, 32(4):293&#8211;322 (2004) ([web](http://www.math.uiuc.edu/K-theory/0646/))
- {#Beke}
+* {#Beke} [[Tibor Beke]], _Higher &#268;ech theory_, K-Theory, 32(4):293&#8211;322 (2004) ([web](http://www.math.uiuc.edu/K-theory/0646/))
+ 
+
+Disucssion in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+
 
 Discussion for [[homotopy types]] modeled by [[crossed complexes]]/[[strict ∞-groupoids]] is in
 
-* M. Bullejos, E. Faro, and M. A. Garc&#237;a-Munoz, _Postnikov Invariants of Crossed Complexes_, Journal of Algebra Volume 285, Issue 1, 1 March 2005, Pages 238&#8211;291 ([arXiv:math/0409339](http://arxiv.org/abs/math/0409339)).
- {#BFGM}
+* {#BFGM} M. Bullejos, E. Faro, and M. A. Garc&#237;a-Munoz, _Postnikov Invariants of Crossed Complexes_, Journal of Algebra Volume 285, Issue 1, 1 March 2005, Pages 238&#8211;291 ([arXiv:math/0409339](http://arxiv.org/abs/math/0409339)).
+ 
 
 and for $n$-[[hypergroupoids]] in the thesis,
 
