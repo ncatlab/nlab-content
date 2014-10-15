@@ -51,7 +51,7 @@ Examples of compactly generated spaces include
 
 * every [[CW-complex]]; 
 
-* every [[first countable space]] (since the topology is determined by convergent sequences = maps from one-point [[compactification]] $\mathbb{N} \cup \{\infty\}); these include all Fr&#233;chet spaces. 
+* every [[first countable space]] (since the topology is determined by convergent sequences = maps from one-point [[compactification]] $\mathbb{N} \cup \{\infty\}$); these include all Fr&#233;chet spaces. 
 
 
 ## Kaonization
