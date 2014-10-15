@@ -20,12 +20,15 @@
 [[!redirects coHeyting algebra]]
 [[!redirects Co-Heyting algebra]]
 [[!redirects CoHeyting algebra]]
+[[!redirects bi-Heyting algebra]]
+[[!redirects biHeyting agebra]]
+
 
 
 ##Idea
 When the lattice of open subsets of topological spaces is the primordial example of a [[Heyting algebra]] then its dual lattice of closed subsets is the primodial example of a **co-Heyting algebra**.
 
-Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in mereology.
+Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in [[mereology]].
 
 ##Definition
 A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.
@@ -48,6 +51,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 * [[Heyting algebra]]
 * [[Heyting category]]
 * [[distributive category]]
+* [[mereology]]
+* [[bitopological space]]
 
 ##References
 
