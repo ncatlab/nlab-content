@@ -55,10 +55,10 @@ In an [[(∞,1)-topos]] the 1-image is the [[(∞,1)-colimit]] not just of these
 
 $$
   \cdots
-   \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+   \stackrel{\to}{\stackrel{\to}{\stackrel{\longrightarrow}{\longrightarrow}}}
   X \times_Y X \times_Y X
-   \stackrel{\to}{\stackrel{\to}{\to}} 
-  X \times_Y X \stackrel{\to}{\to} X \stackrel{}{\to} im(f)
+   \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}} 
+  X \times_Y X \stackrel{\longrightarrow}{\longrightarrow} X \stackrel{}{\longrightarrow} im(f)
   \,.
 $$
 
@@ -288,7 +288,13 @@ This situation can also be considered from the perspective of the formalization 
 * [[Postnikov system]]
 
 * [[k-ary factorization system]]
-  
+
+## References
+
+Disucssion in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 [[!redirects ∞-image]]
 [[!redirects ∞-images]]
