@@ -91,6 +91,7 @@ $$
 $$
 
 ### Abstract formulation in cohesive homotopy-type theory
+ {#FormulationInCohesiveHomotopyTypeTheory}
 
 We discuss here a general abstract formulation of differential forms, their integration and the [[Stokes theorem]] in the axiomatics of [[cohesive homotopy type theory]] (following [Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13)).
 
