@@ -5,7 +5,7 @@ An important aspect of [[group theory]] is the study of [[normal subgroups]]. A 
 
 (Taken from [Bourn04](#Bourn04))
 
-Consider any finitely complete category $\mathcal{C}$ and denote by $Pt\mathcal{C}$ the category whose objects are the split epimorphisms in $\mathcal{C}$ with a given splitting and morphisms the commutative squares between these data. Denote by $\pi: Pt\mathcal{C} \to \mathcal{C}$ the functor associating its codomain with any split epimorphism. Since the category $\mathcal{C}$ has pullbacks, the functor $\pi$ is a fibration which is called the _fibration of pointed objects_.
+Consider any finitely complete category $\mathcal{C}$ and denote by $Pt\mathcal{C}$ the category whose objects are the split epimorphisms in $\mathcal{C}$ with a given splitting and morphisms the commutative squares between these data. Denote by $\pi: Pt\mathcal{C} \to \mathcal{C}$ the functor associating its codomain with any split epimorphism. Since the category $\mathcal{C}$ has pullbacks, the functor $\pi$ is a fibration which is called the [[fibration of points]].
 
 Any map $f: X \to Y$ induces, by pullbacks, a change of base functor denoted
 $f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C}$ between the fibres above $Y$ and $X$.
@@ -14,7 +14,7 @@ Then a left exact category $\mathcal{C}$ is said to be **protomodular** when the
 
 ## Examples
 
-*  Certain categories of algebraic varieties, such as the category of groups, the category of rings, the category of associative or Lie algebras over a given ring $A$, the category of Heyting algebras, the varieties of $\Omega$-groups. (It is shown in [Bourn-Janelidze](#BournJan03) that  a variety $V$ of universal algebras is protomodular if and only if it has $0$-ary terms $e_1, \ldots ,e_n$, binary terms $t_1,\ldots,t_n$, and $(n+1)$-ary term $t$ satisfying
+*  Certain categories of algebraic varieties, such as the category of groups, the category of rings, the category of associative or Lie algebras over a given ring $A$, the category of Heyting algebras, the varieties of $\Omega$-[[Omega-groups|groups]]. (It is shown in [Bourn-Janelidze](#BournJan03) that  a variety $V$ of universal algebras is protomodular if and only if it has $0$-ary terms $e_1, \ldots ,e_n$, binary terms $t_1,\ldots,t_n$, and $(n+1)$-ary term $t$ satisfying
 the identities $t(x, t_1(x, y),\ldots,t_n(x, y)) = y$ and $t_i(x, x) = e_i$ for each $i = 1,\ldots,n$.)
 
 * Categories of algebraic varieties as above internal to a left exact category, for example, [[TopGrp]].
