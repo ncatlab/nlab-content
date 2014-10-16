@@ -92,7 +92,7 @@ The notion of test category was introduced in
 
 Various conjectures made their are proven in 
 
-* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Asterisque __308__.
+* [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf).
   {#Cisinksi}
 
 which moreover develops the main toolset and establishes the [[model structure on presheaves over a test category]].
