@@ -100,6 +100,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 ## Examples
 
+
 * Every [[abelian category]] is semi-abelian.  Conversely, a semi-abelian category is abelian if and only if it is [[additive category|additive]] (since any exact additive category is abelian), and if and only if its opposite is semi-abelian.
 
 * The category [[Grp]] of not-necessarily-abelian [[group]]s is semi-abelian but not [[abelian category|abelian]].  So are the categories of rings without units, algebras without units, Lie algebras, and many other sorts of algebras.  (The category of rings with unit is not semi-abelian since it lacks a zero object.)
@@ -142,6 +143,8 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 * [[George Janelidze]], L&aacute;szl&oacute; M&aacute;rki, [[Walter Tholen]], _Semi-abelian categories_, J. Pure Appl. Alg. __168__, 2-3 (2002) 367-386, <a href="http://dx.doi.org/10.1016/S0022-4049(01)00103-7">doi</a>
 
 * [[Dominique Bourn]], [[Francis Borceux]], [[Mal'cev, protomodular, homological and semi-abelian categories]], Kluwer 2004.
+
+* Dominique Bourn, [[Maria Manuel Clementino]], _Categorical and topological aspects of semi-abelian theories_ , lecture notes Haute Bodeux 2007. ([pdf](http://www.math.yorku.ca/~tholen/HB07BournClementino.pdf))
 
 * Tim Van der Linden, _Homology and homotopy in semi-abelian categories_, [math/0607100](http://arxiv.org/abs/math/0607100).
 
