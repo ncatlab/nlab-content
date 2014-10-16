@@ -40,7 +40,7 @@ From the introduction:
 
 5. [[semi-abelian category|Semi-abelian categories]]
 
-6. [[strongly protomodular category|Strongly protomodular categories]]
+6. [[protomodular category|Strongly protomodular categories]]
 
 7. [[essentially affine category|Essentially affine categories]]
 
@@ -198,7 +198,7 @@ gebraic systems and its relation to congruence distributivity, Arch. Math. 32 (1
 
 54. P. J. Higgins, Groups with multiple operators, Proc. London Math. Soc. 6 (1956) 366-416
 
-55. P. J. Hilton and W. Ledermann, On the Jordan-HSIder theorem in homological monoids, Proc. London Math. Soc. 10 (1960) 321-334
+55. P. J. Hilton and W. Ledermann, On the Jordan-H&#246;lder theorem in homological monoids, Proc. London Math. Soc. 10 (1960) 321-334
 
 56. F. Hofmann, Uber cine die Kategorie der Gruppen umfassende Kategorie,
 Sitzunss. Bayerische Akad. Wissensch. Math. Naturw. Klasse (1960) 163-204
