@@ -1,0 +1,9 @@
+
+
+Soviet Rusiian physicist. His name is attached to _[[Fock space]]_, _[[Hartree-Fock method]]_ etc.
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Vladimir_Fock)
+
+> disambiguation: [[Vladimir Fock]], mathematician at Strasbourg
+
+category: people
