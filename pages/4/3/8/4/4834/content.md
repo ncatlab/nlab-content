@@ -42,9 +42,11 @@ In other words a _pure type system_ is
 ## Definition ##
 
 A _pure type system_ is defined by
+
 * a set $S$ of _sorts_, all of which are constants,
 * a set $A$ of _axioms_ of the form $c : s$ with $c$ a constant and $s$ a sort,
 * a set $R \hookrightarrow S \times S \times S$ of _[[relations]]_: triples $(s_{1}, s_{2}, s_{3}) $ of sorts.
+
   Relations $(s_{1}, s_{2}, s_{2})$ are abbreviated as $(s_{1}, s_{2})$.
 
 +-- {: .num_remark }
