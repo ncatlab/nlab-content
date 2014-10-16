@@ -28,7 +28,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The objects of the Schanuel topos are precisely the pullback preserving functors $FinSet_{mono}\to Set$.
 
-* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is atomic over $Set$ hence Boolean ([[Stephen Schanuel|S. Schanuel]]). This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
+* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is atomic over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $sh_{\neg\neg}([FinSet_mono,Set])$.
 
@@ -57,3 +57,5 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 * [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. pp.155, 158.
 
 * Sam Staton, _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
+
+* [[Gavin Wraith|G. Wraith]], _Intuitionistic Algebra: Some Recent Developments of Topos Theory_ , Proc. ICM Helsinki (1978) pp.331-337. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
