@@ -41,13 +41,8 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * has finite [[coproduct]]s; and
 
-* is [[Bourn-protomodular category|Bourn-protomodular]].
+* is [[protomodular category|protomodular]].
 
-+-- {: .query}
-[[Mike Shulman|Mike]]: I was about to create the link to Bourn-protomodular category, but then I wondered whether we should just say "protomodular"---is there a reason to disambiguate it with the prefix "Bourn-"?  We (sometimes) say "Barr-exact" to avoid confusion with [[Quillen exact category|Quillen-exact]]; is there any ambiguity for "protomodular?"
-
-[[Zoran Skoda]]: I think not, I saw just one notion of protomodular so far (unlike word semi-abelian which has been  used for some other things, mainly before the now accepted dominant notion); besides the notion is mainly used by one and the same community (unlike word exact category which lives with different meanings in completely different societies of mathematicians). I think no need to call it Bourn-protomodular; of course the entry should have pointers to the original references and short mention of the optional modifier, I think. 
-=--
 
 Equivalently, $C$ is semi-abelian if:
 
