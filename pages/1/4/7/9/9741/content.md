@@ -107,6 +107,7 @@ Reviews and lecture notes include, for the case of flat connections
 
 * {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
 
+* {#FockGoncharov14} [[Vladimir Fock]], [[Alexander Goncharov]], _Symplectic double for moduli spaces of G-local systems on surfaces_ ([arXiv:1410.3526](http://arxiv.org/abs/1410.3526))
 
 and for the case of general and [[logarithmic connections]]
 
