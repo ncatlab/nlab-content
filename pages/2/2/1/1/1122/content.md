@@ -1,6 +1,22 @@
-Much has been said about inverting a class of morphisms in a category (see [[localization]]), and there are many different settings in which one wants to, and can, do this. Homotopical algebra is largely concerned with how to compute the [[homotopy category]] so it is locally small. One the other hand, we have [[simplicial localization]] which retains all the homotopy information and returns an $(\infty,1)$-category. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category Theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-If we have a 2-category with a notion of weak equivalence, one could localize the underlying 1-category in a way hopefully compatible with the 2-arrows, or extend the result fully into the 2-dimensional setting. In general this will require bicategories, and is the subject of the paper _Etendues and stacks as bicategories of fractions_ by Dorette Pronk.
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+##Idea
+
+Much has been said about **inverting a class of morphisms** in a category (see [[localization]]), and there are many different settings in which one wants to, and can, do this. Homotopical algebra is largely concerned with how to compute the [[homotopy category]] so it is locally small. One the other hand, we have [[simplicial localization]] which retains all the homotopy information and returns an $(\infty,1)$-category. 
+
+If we have a 2-category with a notion of weak equivalence, one could localize the underlying 1-category in a way hopefully compatible with the 2-arrows, or extend the result fully into the 2-dimensional setting. In general this will require bicategories, and is the subject of the paper [Etendues and stacks as bicategories of fractions](Pronk96) by [[Dorette Pronk]].
 
 #Definition#
 
@@ -43,9 +59,29 @@ Let $S$ be a category with binary products and pullbacks together with a class o
 
 +-- {: .un_theorem}
 ######Theorem: 
-The 2-catgeories $Cat(S)$ and $Gpd(S)$ of categories and groupoids internal to $S$ admit [[bicategory of fractions|bicategories of fractions]] for the class of $E$-[[davidroberts:weak equivalence|equivalences]].
+The 2-categories $Cat(S)$ and $Gpd(S)$ of categories and groupoids internal to $S$ admit [[bicategory of fractions|bicategories of fractions]] for the class of $E$-[[davidroberts:weak equivalence|equivalences]].
 =--
 
-The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see the article
+The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see [Roberts (2012)](#Roberts12).
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363)
+##Related entries
+
+* [[category of fractions]]
+* [[localization]]
+* [[bicategory]]
+* [[anafunctor]]
+* [[orbifold]]
+* [[stack]]
+* [[étendue]]
+
+##References
+
+* O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful Calculus of Fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) pp.221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
+
+* [[Dorette A. Pronk]], _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
+
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, TAC **26** (2012) pp.788-829. ([pdf](http://www.tac.mta.ca/tac/volumes/26/29/26-29.pdf)) {#Roberts12}
+
+* M. Tommasini, _A bicategory of reduced orbifolds from the point of view of differential geometry_ , arXiv:1304.6959 (2013). ([pdf](http://arxiv.org/pdf/1304.6959))
+
+* M. Tommasini, _Some insights on bicategories of fractions I_ , arXiv:1410.3990 (2014). ([pdf](http://arxiv.org/pdf/1410.3990))
