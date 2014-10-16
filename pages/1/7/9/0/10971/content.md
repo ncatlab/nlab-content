@@ -29,6 +29,8 @@ The process of passing from a given [[space of quantum states]] to its Fock spac
 
 ## References
 
+Named after _[[Vladimir Aleksandrovich Fock]]_.
+
 ### General
 
 * Wikipedia, _[Fock space](http://en.wikipedia.org/wiki/Fock_space)_
