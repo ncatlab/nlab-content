@@ -3,7 +3,7 @@ An important aspect of [[group theory]] is the study of [[normal subgroups]]. A 
 
 ##Definition 
 
-(Taken from [Bourne04](#Bourn04))
+(Taken from [Bourn04](#Bourn04))
 
 Consider any finitely complete category $\mathcal{C}$ and denote by $Pt\mathcal{C}$ the category whose objects are the split epimorphisms in $\mathcal{C}$ with a given splitting and morphisms the commutative squares between these data. Denote by $\pi: Pt\mathcal{C} \to \mathcal{C}$ the functor associating its codomain with any split epimorphism. Since the category $\mathcal{C}$ has pullbacks, the functor $\pi$ is a fibration which is called the _fibration of pointed objects_.
 
