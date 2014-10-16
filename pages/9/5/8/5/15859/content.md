@@ -18,6 +18,10 @@
 [[!redirects Cole spectrum]]
 
 
++-- {: .rightHandSide}
+> Devinette: Trouver un point commun entre la Samaritaine et SGA 4.[^CM] 
+=--
+
 ##Idea##
 
 In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
@@ -88,7 +92,7 @@ Beside Cole's unpublished paper, Johnstone (1977b), on which the above expositio
 * [[Michel Coste|M. Coste]], _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
 Sheaves_ , Springer LNM **753** (1979).
 
-* M. Coste, G. Michon, _Petits et Gros Topos en G&#233;om&#233;trie Alg&#233;brique_ , Cah. Top. G&#233;om. Diff. Cat. **XXII** no.1 (1981) pp.25-30. ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_1_25_0.pdf))
+* M. Coste, G. Michon, _Petits et Gros Topos en G&#233;om&#233;trie Alg&#233;brique_ , Cah. Top. G&#233;om. Diff. Cat. **XXII** no.1 (1981) pp.25-30. ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_1_25_0.pdf)) {#CosteMichon81}
 
 * [[Eduardo Dubuc|E. J. Dubuc]], _Axiomatic etal maps and a theory of spectrum_ , JPAA **149** (2000) pp.15-45.
  {#Dubuc}
@@ -102,3 +106,5 @@ Sheaves_ , Springer LNM **753** (1979).
 * P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
 
 * [[Jacob Lurie|J. Lurie]], _Derived Algebraic Geometry V: Structured Spaces_ , ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
+
+[^CM]: Coste&Michon (1981), p.27.
