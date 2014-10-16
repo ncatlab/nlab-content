@@ -73,25 +73,32 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 
 *[[Structured Spaces]]
 
+*[[formally etale morphisms]]
+
 ##References##
 
-Beside Cole's unpublished paper, Johnstone (1977b), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. See also the short remark in Caramello (2014). For higher categorical ramifications see Lurie (2009).
+Beside Cole's unpublished paper, Johnstone (1977b), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphims to Cole's class of admissible morphisms. See also the short remark in Caramello (2014). For higher categorical ramifications see Lurie (2009).
 
 * [[Marta Bunge|M. Bunge]], [[Gonzalo E. Reyes|G. E. Reyes]] , _Boolean spectra and model completions_ , Fund.Math. **113** (1981) pp.165-173. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm113/fm113115.pdf))
-
-* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
 
 * [[Olivia Caramello|O. Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
 
 * [[Julian Cole|J. C. Cole]], _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
 
-* M. Coste, _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
-Sheaves_ , LNM **753** (1979).
+* [[Michel Coste|M. Coste]], _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
+Sheaves_ , Springer LNM **753** (1979).
+
+* M. Coste, G. Michon, _Petits et Gros Topos en G&#233;om&#233;trie Alg&#233;brique_ , Cah. Top. G&#233;om. Diff. Cat. **XXII** no.1 (1981) pp.25-30. ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_1_25_0.pdf))
+
+* [[Eduardo Dubuc|E. J. Dubuc]], _Axiomatic etal maps and a theory of spectrum_ , JPAA **149** (2000) pp.15-45.
+ {#Dubuc}
 
 * [[René Guitart|R. Guitart]], _Toute Th&#233;orie est Alg&#233;brique et Topologique_ , Cah.Top.G&#233;om.Diff.Cat. **XLIX** no. 2 (2008) pp.83-128. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_2008__49_2/CTGDC_2008__49_2_83_0/CTGDC_2008__49_2_83_0.pdf))
+
+* [[Monique Hakim|M. Hakim]], _Topos Annel&#233;s et Sch&#233;mas Relatifs_ , Springer Heidelberg 1972.
 
 * [[Peter Johnstone|P. T. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
 
 * P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
 
-* [[Jacob Lurie|J. Lurie]], _[[Structured Spaces|Derived Algebraic Geometry V: Structured Spaces]]_, ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
+* [[Jacob Lurie|J. Lurie]], _Derived Algebraic Geometry V: Structured Spaces_ , ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
