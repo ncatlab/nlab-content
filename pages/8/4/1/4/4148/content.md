@@ -1,5 +1,5 @@
 ##Idea
-An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even a non-pointed one, is defined in such a way that it possesses an intrinsic notion of normal subobject. 
+An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even a non-pointed one, is defined in such a way that it possesses an intrinsic notion of normal subobject. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodular.
 
 ##Definition 
 
@@ -41,6 +41,10 @@ A category $\mathcal{C}$ is **strongly protomodular**, when it is protomodular a
 
 [[Grp]], [[Ring]] and the dual of any topos are strongly protomodular.
 
+##Related concepts
+* [[homological category]]
+* [[semi-abelian category]]
+
 ## References
 
 * Francis Borceux, Dominique Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004
@@ -52,3 +56,5 @@ A category $\mathcal{C}$ is **strongly protomodular**, when it is protomodular a
 * {#BournJan03} Dominique Bourn, George Janelidze, _Characterization of protomodular varieties of universal algebras_, ([TAC](http://www.tac.mta.ca/tac/volumes/11/6/11-06abs.html))
 
 [[!redirects protomodular categories]]
+[[!redirects Bourn-protomodular]]
+[[!redirects Bourn-protomodular category]]
