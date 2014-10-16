@@ -315,7 +315,7 @@ See ([RosenbergKontsevich, section 5.8](#RosenbergKontsevich))
 
 
 
-The idea of defining &#233;tale morphisms $f$ as those that get send to a pullback square by a natural transformartion goes back to lectures by [[André Joyal]] in the 1970s.
+The idea of defining &#233;tale morphisms $f$ as those that get send to a pullback square by a natural transformation goes back to lectures by [[André Joyal]] in the 1970s.
 
 See the introduction and see section 4 of 
 
