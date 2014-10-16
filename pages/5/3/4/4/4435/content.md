@@ -19,12 +19,9 @@
 
 What is called _Cartan calculus_ are the structures and relations present in an [[inner derivation Lie 2-algebra]].
 
-The classical examples considers for $X$ a [[smooth manifold]] the [[de Rham complex]] $(\Omega^\bullet(X), d_{dR})$ of [[differential form]]s on $X$, a [[cochain complex]] with the structure of a [[dg-algebra]].
+The classical examples considers for $X$ a [[smooth manifold]] the [[de Rham complex]] $(\Omega^\bullet(X), d_{dR})$ of [[differential forms]] on $X$, a [[cochain complex]] with the structure of a [[dg-algebra]].
 
-+-- {: .query}
-_[[Tobias Fritz|Tobias]]_:&#160;Shouldn't the last link point to dg Lie algebra instead of dg-algebra? (I just started getting back to differential geometry after a break of several years, so I don't yet feel confident enough to change anything.)
-=--
-
+(There are of course other differential geometric structures named after Cartan, see also at [[equivariant de Rham cohomology]] the section [The Cartan model](equivariant+de+Rham+cohomology#TheCartanModel).)
 
 Every [[vector field]] $v \in \Gamma(T X)$ of $X$ induces a [[derivation]] on this [[dg-algebra]] of degree $-1$ 
 
