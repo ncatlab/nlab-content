@@ -58,10 +58,12 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 * &#201;tendues are 'locally co-decidable' in the sense that for a small $\mathcal{C}$ the functor category $[\mathcal{C},Set]$ is a [[locally decidable topos]] precisely if $[\mathcal{C}^{op},Set]$ is an [[étendue]]. Also the all-monic-site property is dual to the all-epic-site property of locally decidable toposes. Both concepts are subsumed under the notion of having a (sub canonical) site representation with no (non-trivial) [[idempotents]] (McLarty 2006, Lawvere 2007).
 
 ##Related Concepts##
+
 * [[localic topos]]
 * [[petit topos]]
 * [[locally decidable topos]]
 * [[Deligne-Mumford stack]]
+* [[bicategory of fractions]]
 
 
 
