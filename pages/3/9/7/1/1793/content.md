@@ -716,8 +716,9 @@ Then this constitutes a [[model category]] structure precisely if cofibrant [[re
 
 1. $\mathcal{P}$ is the [pullback projective class](#PullbackProjectiveClass) of a [trivial projective class](#TrivialProjectiveClass) along a functor $U$ that preserves countable [[direct sum]]s;
 
-1. blah-blah
+1. [^fine]
 
+[^fine]:Some one finish this part.
 
 When the structure exists, it is a [[proper model category]].
 
