@@ -558,7 +558,7 @@ reviewed around page 302 in
 * {#Beke} [[Tibor Beke]], _Higher &#268;ech theory_, K-Theory, 32(4):293&#8211;322 (2004) ([web](http://www.math.uiuc.edu/K-theory/0646/))
  
 
-Disucssion in [[homotopy type theory]] is in 
+Discussion in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
