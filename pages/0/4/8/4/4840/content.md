@@ -162,10 +162,12 @@ which is induced via the [[homotopy cofiber]] property of $\flat_{dR}\Omega \hat
 +-- {: .num_prop}
 ###### Proposition
 
-Stokes theorem holds:
+Stokes' theorem holds:
 
 $$
-  \int_{\Delta^1} \circ \mathbf{d} \simeq i_1^\ast - i_0^\ast
+  \int_{\Delta^1} \circ \mathbf{d} 
+  \;\simeq\; 
+  i_1^\ast - i_0^\ast
   \,.
 $$
 
