@@ -1,3 +1,4 @@
+[[!redirects Giry's monad]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -8,7 +9,6 @@
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -109,18 +109,21 @@ between "simplices" ' (W.Lawvere, catlist [remark 25 oct 1998](http://www.mta.ca
 
 The monad made its way into print then with
 
-* {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math., 915, Springer.
+* {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982.
 
 In the paper, there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors. 
 
-According to E. Burroni (2009, see below) the 'Giry' monad appears also in
+According to [E. Burroni (2009)](#Burroni09) the 'Giry' monad appears also in
 
 * O. de la Tullaye, _L'int&#233;gration consid&#233;r&#233;e comme l'alg&#232;bre d'un triple_. Rapport de Stage de D.E.A. manuscrit 1971.
 
-
 K.Sturtz discusses the Giry monad as codensity monad:
 
-* Sturtz, _The Giry monad as a codensity monad_, arXiv1406.6030 (2014), [pdf](http://arxiv.org/pdf/1406.6030.pdf)
+* Sturtz, _The Giry monad as a codensity monad_, arXiv:1406.6030 (2014). ([pdf](http://arxiv.org/pdf/1406.6030.pdf))
+
+This is taken up with some corrections to Sturtz' paper in
+
+* T. Avery, _Codensity and the Giry monad_ , arXiv:1410.4432 (2014). ([pdf](http://arxiv.org/pdf/1410.4432.pdf))
 
 Apart from these papers, there are similar developments in
 
@@ -129,7 +132,6 @@ Apart from these papers, there are similar developments in
 * {#Doberkat03} [[Ernst-Erich Doberkat]], _Characterizing the Eilenberg-Moore Algebras for a Monad of Stochastic Relations_ ([pdf](https://eldorado.tu-dortmund.de/bitstream/2003/2717/1/147.pdf)) 
 
 * [[Ernst-Erich Doberkat]], _Kleisli morphisms and randomized congruences_ 
-
 
 
 * N. N. Cencov, _Statistical decisions rules and optimal Inference_, Translations of Math. Monographs __53__, Amer. Math. Society 1982
@@ -142,6 +144,9 @@ Apart from these papers, there are similar developments in
 There is also relation with work of Jacobs et al. 
 
 * Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv/1306.0831](http://arxiv.org/abs/1306.0831)
+
+* B. Jacobs, _Probabilities, distribution monads and convex categories_ , Theoretical
+Computer Science 412(28) (2011) pp.3323&#8211;3336. ([preprint](http://www.cs.ru.nl/B.Jacobs/PAPERS/triangle.pdf))
 
 J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to [[Bayesian reasoning]] and inference (both articles contain further references to the categorical approach to probability theory):
 
@@ -165,4 +170,4 @@ To do:
 * Relate to [convex spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html)
 * Bring in material from [Progic posts](http://golem.ph.utexas.edu/category/2007/09/progic.html)
 
-[[!redirects Giry monad]]
+[[!redirects Giry's monad]]
