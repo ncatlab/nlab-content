@@ -70,6 +70,10 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
+* [[Univalent Foundations Project]], section 3 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+* J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([[LedentSetinHoTT.pdf:file]])
+
 Just one more item for future reference:
 
 * [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland.
