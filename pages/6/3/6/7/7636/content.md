@@ -341,7 +341,7 @@ A ([[locally presentable (∞,1)-category|locally presentable]]) [[locally Carte
 
 It has been conjectured in ([Awodey 10](#Awodey10)) that this [[object classifier]] is the categorical semantics of a [[univalence|univalent]] [[type universe]] ([[type of types]]), hence that [[homotopy type theory]] with [[univalence]] has categorical semantics in [[(∞,1)-toposes]].  This statement was proven for the canonical $(\infty,1)$-topos [[∞Grpd]] in ([Kapulkin-Lumsdaine-Voevodsky 12](#KapulkinLumsdaineVoevodsky12)), and more generally for [[(∞,1)-presheaf]] $(\infty,1)$-toposes over [[elegant Reedy categories]] in ([Shulman 13](#Shulman13)).
 
-In these proofs the [[type-theoretic model categories]] which interpret the homotopy type theory syntax are required to provide type universes that behave strictly under pullback.  This matches the usual syntactically convenient universes in type theory (either a la Russell or a la Tarski), but more difficult to implement in the categorical semantics.  More flexibly, one may consider syntactic [type universes weakly &#224; la Tarski](type+of+types#TarskiStyle).  These are more complicated to work with syntactically, but should have interpretations in a ([[type-theoretic model categories]] presenting) any [[(∞,1)-topos]].  Discussion of [[univalence]] in this general flexible sense is in ([Gepner-Kock 12](#GepnerKock12)). For the general syntactic issue see at 
+In these proofs the [[type-theoretic model categories]] which interpret the homotopy type theory syntax are required to provide type universes that behave strictly under pullback.  This matches the usual syntactically convenient universes in type theory (either a la Russell or a la Tarski), but more difficult to implement in the categorical semantics.  More flexibly, one may consider syntactic [type universes weakly &#224; la Tarski](type+of+types#TarskiStyle) ([Gallozzi 14](#Gallozzi14)).  These are more complicated to work with syntactically, but should have interpretations in a ([[type-theoretic model categories]] presenting) any [[(∞,1)-topos]].  Discussion of [[univalence]] in this general flexible sense is in ([Gepner-Kock 12](#GepnerKock12)). For the general syntactic issue see at 
 
 * [[homotopytypetheory:model of type theory in an (infinity,1)-topos]]
 
@@ -467,6 +467,10 @@ Categorical semantics of [[univalence|univalent]] [[type universes]] is discusse
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed ∞-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
+Discussion of weak Tarskian homotopy type universes is in 
+
+* {#Gallozzi14} [[Cesare Gallozzi]], _Constructive Set Theory from a Weak Tarski Universe_, MSc thesis (2014) ([[GalloziCSTTarski.pdf:file]])
 
 
 A discussion of the correspondence between type theories and categories of various sorts, from lex categories to toposes is in
