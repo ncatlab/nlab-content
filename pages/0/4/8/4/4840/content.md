@@ -19,11 +19,11 @@
 
 ## Idea
 
-The _Stokes theorem_ asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
+_Stokes theorem_ asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
 
 ## Statement
 
-### Tradition statement
+### Traditional statement
 
 Let 
 
@@ -60,7 +60,7 @@ $$
   \,.
 $$
 
-The **boundary** of this simplex in $X$ is the the [[chain]] (formal linear combination of smooth $(k-1)$-simplices)
+The **boundary** of this simplex in $X$ is the [[chain]] (formal linear combination of smooth $(k-1)$-simplices)
 
 $$
   \partial \sigma = \sum_{i = 0}^k (-1)^i \sigma \circ \partial_i
@@ -93,7 +93,7 @@ $$
 ### Abstract formulation in cohesive homotopy-type theory
  {#FormulationInCohesiveHomotopyTypeTheory}
 
-We discuss here a general abstract formulation of differential forms, their integration and the [[Stokes theorem]] in the axiomatics of [[cohesive homotopy type theory]] (following [Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13)).
+We discuss here a general abstract formulation of differential forms, their integration and Stokes theorem in the axiomatics of [[cohesive homotopy type theory]] (following [Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13)).
 
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] and write $T \mathbf{H}$ for its [[tangent cohesive (∞,1)-topos]].
@@ -162,7 +162,7 @@ which is induced via the [[homotopy cofiber]] property of $\flat_{dR}\Omega \hat
 +-- {: .num_prop}
 ###### Proposition
 
-The Stokes theorem holds:
+Stokes theorem holds:
 
 $$
   \int_{\Delta^1} \circ \mathbf{d} \simeq i_1^\ast - i_0^\ast
@@ -171,7 +171,7 @@ $$
 
 =--
 
-([Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13)
+([Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13))
 
 
 
