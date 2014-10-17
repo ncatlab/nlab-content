@@ -62,7 +62,7 @@ With universes &#224; la Russell, we can also omit the judgment "$A\; type$" and
 ### Type Universe &#224; la Tarski
  {#TarskiStyle}
 
-A **universe &#224; la Tarski** ([Hofmann, section 2.1.6](#Hofmann)) is a type together with an "interpretation" operation allowing us to regard its [[terms]] as types (or "codes for types"). Thus we have a rule such as
+A **universe &#224; la Tarski** ([Hofmann, section 2.1.6](#Hofmann), [Gallozzi 14](#Gallozzi14)) is a type together with an "interpretation" operation allowing us to regard its [[terms]] as types (or "codes for types"). Thus we have a rule such as
 
 $$\frac{A:U}{El(A)\;type}$$
 
@@ -151,6 +151,11 @@ A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]]
 [[!redirects types of types]]
 [[!redirects universe of types]]
 [[!redirects universes of types]]
+
+Weak Tarski universes in homotopy type theory are discussed in 
+
+* {#Gallozzi14} [[Cesare Gallozzi]], _Constructive Set Theory from a Weak Tarski Universe_, MSc thesis (2014) ([[GalloziCSTTarski.pdf:file]])
+
 
 [[!redirects Type]]
 
