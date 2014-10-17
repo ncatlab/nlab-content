@@ -59,7 +59,7 @@ More specifically, he has pointed out in the 1980s the relevance of [[co-Heyting
 
 * {#Law91a} F. W. Lawvere, _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in Carboni, Pedicchio, Rosolini (eds.) , _Category Theory Como Conference_, Springer LNM **1488** (1991).
 
-* S. Lesniewski, _Grundz&#252;ge eines neuen Systems der Grundlagen der Mathematik_ , Fund. Math. **XIV** pp.1-81 (1929). ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm14/fm1411.pdf))
+* S. Lesniewski, _Grundz&#252;ge eines neuen Systems der Grundlagen der Mathematik_ , Fund. Math. **XIV** pp.1-81 (1929).[^Lesn] ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm14/fm1411.pdf))
 
 * T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
 
@@ -67,3 +67,4 @@ More specifically, he has pointed out in the 1980s the relevance of [[co-Heyting
 
 * J.G. Stell, M.F. Worboys, _The algebraic structure of sets of regions_ , pp.163-174 in Hirtle, Frank (eds.), _Spatial Information Theory_, Springer LNCS **1329** (1997).
 
+[^Lesn]: Caveat: Lesniewski conceives his foundations as layered into a _Protothetik_ , roughly the deductive system or 'logistics', an _ontology_ , roughly the theory of classes, and, _mereology_. This paper that is one in row that stretches from 1927 to 1938 is concerned with the first two layers.
