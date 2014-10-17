@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[type theory]], a _type of (small) types_ -- usually written $Type$ -- is a [[type]] whose [[terms]] are themselves [[types]].  Thus, it is a [[universe]] of (small) [[types]], a _universe in type theory_.
+In [[type theory]], a _type of (small) types_ -- usually written $Type$ -- is a [[type]] whose [[terms]] are themselves [[type|types]].  Thus, it is a [[universe]] of (small) [[type|types]], a _universe in type theory_.
 
 In [[homotopy type theory]] a type of (small) types is what in [[(∞,1)-category theory|higher]] [[categorical semantics]] is interpreted as a (small) [[object classifier]].  Thus, the type of types is a refinement of the [[type of propositions]] which only contains the [[(-1)-truncated]]/[[h-level]]-1 types (and is semantically a [[subobject classifier]]).
 
@@ -62,7 +62,7 @@ With universes &#224; la Russell, we can also omit the judgment "$A\; type$" and
 ### Type Universe &#224; la Tarski
  {#TarskiStyle}
 
-A **universe &#224; la Tarski** ([Hofmann, section 2.1.6](#Hofmann), [Gallozzi 14](#Gallozzi14)) is a type together with an "interpretation" operation allowing us to regard its [[terms]] as types (or "codes for types"). Thus we have a rule such as
+A **universe &#224; la Tarski** ([Hofmann, section 2.1.6](#Hofmann), [Gallozzi 14, p. 40](#Gallozzi14)) is a type together with an "interpretation" operation allowing us to regard its [[terms]] as types (or "codes for types"). Thus we have a rule such as
 
 $$\frac{A:U}{El(A)\;type}$$
 
@@ -70,7 +70,7 @@ We usually also have operations on the universe corresponding to (but not identi
 
 $$\frac{A:U\quad B:A\to U}{pi(A, B) : U}$$
 
-with an [[equality]] $El(pi(A,B))=\Pi \, El(A)\, El(B)$. Usually this latter equality (and those for other type formers) is a [[judgmental equality]]. If it is only an equivalence (i.e. we have a rule which gives us a canonical term of the equivalence type), we may speak of a **weakly &#224; la Tarski universe**.
+with an [[equality]] $El(pi(A,B))=\Pi \, El(A)\, El(B)$. Usually this latter equality (and those for other type formers) is a [[judgmental equality]]. If it is only an [[equivalence in homotopy type theory|equivalence]] (i.e. we have a rule which gives us a canonical term of the equivalence type), we may speak of a **weakly &#224; la Tarski universe** ([Gallozzi 14, p. 49-50](#Gallozzi14)).
 
 We can give a slightly different definition of weakly &#224; la Tarski universe using [[propositional equality]] and a larger universe. More precisely, we can consider two (or many) universes $U$ and $U'$ with the usual rules for the relative reflection $el(a):U'$ for any $a:U$, a choice of weakly or strongly a la Tarski computational rules for the reflections $El$ and $El'$, and a computation rule for the relative reflection el of $U$ inside $U'$ based on propositional equality, which gives us canonical elements of the identity types $Id_{U'}(\pi'(el(a),el(b)),el(\pi(a,b)))$ and similarly for the other type formers.
 
@@ -93,7 +93,7 @@ Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe e
 ([Kapulkin-Lumsdaine-Voevodsky 12](#KapulkinLumsdaineVoevodsky12))
 and more generally presenting [[(∞,1)-toposes]] of [[(∞,1)-presheaves]] over [[elegant Reedy categories]] ([Shulman 13](#Shulman13)).
 
-Discussion for general [[(∞,1)-toposes]] (of [[(∞,1)-sheaves]]) that should have implementation [weakly &#224; la Tarski](#TarskiStyle) is in ([Gepner-Kock 12](#GepnerKock12)).
+Discussion for general [[(∞,1)-toposes]] (of [[(∞,1)-sheaves]]) that should have implementation [weakly &#224; la Tarski](#TarskiStyle) ([Gallozzi 14, p. 49-50](#Gallozzi14)) is in ([Gepner-Kock 12](#GepnerKock12)).
 
 For more on this see the respective sections at _[[relation between type theory and category theory]]_.
 
