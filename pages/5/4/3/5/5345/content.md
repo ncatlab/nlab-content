@@ -76,5 +76,5 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 
 The model structure is discussed after corollary 7.3 in chapter V of
 
-* [[Paul Goerss]] and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
- {#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]] and [[Frederick Jardine]], 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+ 
