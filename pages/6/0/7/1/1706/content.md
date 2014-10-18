@@ -153,7 +153,7 @@ The action in corollary \ref{CanonicalOnAction} is
 
 We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[structure]] of maps into some [[topological space]] equipped with a [[vector bundle]]. This is the case for which an [[extended TQFT]] is (the local refinement of) what has also been called an _[[HQFT]]_.
 
-#### For cobordisms with $(X,\xi)$-structure
+#### For cobordisms with any structure ("$(X,\xi)$-structure")
  {#ForCobordismsWithXXiStructure}
 
 +-- {: .num_defn #XXiStructure}
@@ -236,7 +236,7 @@ This is ([Lurie, def. 2.4.17](#Lurie)).
 +-- {: .num_theorem #CobHypTheoremForTargetSpaceAndVectorBundle}
 ###### Theorem
 
-Let $\mathcal{C}$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frame]]s in $\xi$. 
+Let $\mathcal{C}$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frames]] in $\xi$. 
 
 There is an [[equivalence in an (∞,1)-category|equivalence]] in [[∞Grpd]]
 
@@ -253,8 +253,27 @@ where on the right we regard $\tilde C$ as a [[topological space]] carrying the 
 
 This is ([Lurie, theorem. 2.4.18](#Lurie)). The following is some aspects of the idea of the proof in ([Lurie, p. 57](#Lurie)).
 
++-- {: .num_remark #ActionHomomorphismsAsInfinityActionHomomorphisms}
+###### Remark
+
+In the language of [[∞-actions]] (as discussed there), the space $Top_{O(n)}(\tilde X, \tilde \mathcal{C})$ is that of horizontal maps fitting into
+
+$$
+  \array{
+     X && \longrigtharrow && \tilde X//O(n)
+     \\
+     & \searrow && \swarrow
+     \\
+     && B SO(n)
+  }
+$$
+
+where the left map is the classifying map for $\xi$ and the right one is the canonical one out of the [[homotopy quotient]].
+
+=--
+
 +-- {: .proof #ProofOf2.4.18}
-###### Idea of Proof
+###### Idea of Proof of theorem \ref{CobHypTheoremForTargetSpaceAndVectorBundle}.
 
 Notice that for each point $x \colon \ast \to X$ there is an induced inclusion
 
@@ -453,6 +472,171 @@ $$
 which are the [[homotopy invariants]].
 
 =--
+
+#### For (un-)oriented cobordisms
+ {#ForUnorientedCobordisms}
+
+The case that $\chi \colon G \longrightarrow O(n)$ is the identity
+is at the other extreme of the framed case, and turns out to be similarly fundamental.
+
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], write $Corr_n(\mathbf{H})^\otimes$ for the [[(∞,n)-category of correspondences]] in $\mathbf{H}$. For $Phases \in DCat_n(\mathbf{H})$ an [[(∞,n)-category with duals]] [[internal (∞,n)-category|internal]] to $\mathbf{H}$, write $Corr_n(\mathbf{H}_/{Phases})^{\otimes_{phases}}$ for the [[(∞,n)-category of correspondences]] over $Phases$ and equipped with the [[phased tensor product]]. There is the [[forgetful functor|forgetful]] [[monoidal (∞,n)-functor]]
+
+$$
+  Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}
+  \longrightarrow
+  Corr_n(\mathbf{H})^\otimes
+$$
+
+By the discussion at _[[(∞,n)-category of correspondences]]_ these are [[(∞,n)-categories with duals]] and the canonical $O(n)$-[[∞-action]] on them, corollary \ref{CanonicalOnAction}, is trivial for $Corr_n(\mathbf{H})$. This means that an $O(n)$-[[homotopy fixed point]] in $Corr_n(\mathbf{H})$ is just an object of $\mathbf{H}$ equipped in turn with an $O(n)$-[[∞-action]].  Therefore
+
++-- {: .num_prop #UnorientedBulkFieldTheories}
+###### Proposition
+
+Local unoriented-topological field theory
+
+$$
+  Bord_n^\sqcup \longrightarrow Corr_n(\mathbf{H})^\otimes
+$$
+
+are equivalent to objects $X \in \mathbf{H}$ equipped with an $O(n)$-[[∞-action]].
+
+At least for $\mathbf{H} = $ [[∞Grpd]], then given such, the corresponding field theory $Z_{X/\!/O(n)}$ sends a cobordism $\Sigma$ to the space of maps
+
+$$
+  \array{
+     \Pi(\Sigma) && \longrightarrow && X//O(n)
+     \\
+     & {}_{\mathllap{T \Sigma \oplus \mathbb{R}^{n-dim(\Sigma)}}}\searrow
+     && \swarrow
+     \\
+     && B O(n)
+  }
+$$ 
+
+hence
+
+$$
+  Z_{X//O(n)} \colon \Sigma \mapsto [\Pi(\Sigma),X]^{O(n)}
+  \,.
+$$
+
+In particular this means that the assignment to the point is again $X$ itself.
+
+=--
+
+This is a slight rephrasing of the paragraph pp 58-59 in ([Lurie](#LurieTFT)).
+
+
+
++-- {: .num_prop #ExchangingFieldsForStructures}
+###### Proposition
+
+At least for $\mathbf{H} = $ [[∞Grpd]], with $X \in \mathbf{H}$ an object equipped with an $O(n)$-[[∞-action]], then horizontal lifts in
+
+$$
+  \array{
+     && Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}
+     \\
+     & \nearrow & \downarrow
+     \\
+     Bord_n^\sqcup
+     &\underset{X//O(n)}{\longrightarrow}&
+     Corr_n(\mathbf{H})^\otimes
+  }
+$$
+
+are equivalent to 
+
+$$
+  (Bord_n^{(X//O(n), X \underset{O(n)}{\times}\mathbb{R}^n)})^{\sqcup}
+  \longrightarrow
+  Phases^\otimes
+  \,.
+$$
+
+=--
+
+This is ([Lurie, prop. 3.2.8](#Lurie)).
+
++-- {: .num_cor #UnorientedLocalPrequantumFieldTheory}
+###### Corollary
+
+Let $Phases^\otimes \in Ab_\infty(\mathbf{H})$ be an [[abelian ∞-group]] object, regarded as a [[(∞,n)-category with duals]] [[internal (∞,n)-category|internal]] to $\mathbf{H}$.
+
+At least if $\mathbf{H} = $ [[∞Grpd]], then local unoriented-topological field theories of the form
+
+$$
+  Bord_n^\sqcup \longrightarrow Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}
+$$
+
+are equivalent to a choice
+
+1. of $X \in \mathbf{H}$ equipped with an $O(n)$-[[∞-action]]
+
+1. a homomorphism of $O(n)$-[[∞-actions]] $L \colon X \to Phases$ (where $Phases^\otimes$ is equipped with the canonical $\infty$-action induced from the framed cobordism hypothesis), hence (by the discussion at _[[∞-action]]_) to a horizontal morphism in $\mathbf{H}$ fitting into the diagram
+
+$$
+  \array{
+      X//O(n) && \stackrel{L//O(n)}{\longrightarrow} && Phases//O(n)
+      \\
+      & \searrow &\swArrow_\simeq& \swarrow
+      \\
+      && B O(n)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof }
+###### Proof
+
+By prop. \ref{UnorientedBulkFieldTheories}
+the co-restriction
+
+$$
+  Bord_n^\sqcup \stackrel{Z}{\longrightarrow} Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}
+  \longrightarrow Corr_n(\mathbf{H})^\otimes
+$$
+
+is equivalent to an [[∞-action]]
+
+$$
+  \array{
+     X &\longrightarrow& X//O(n)
+     \\
+     && \downarrow
+     \\
+     && B O(n)
+  }
+$$
+
+Therefore by prop. \ref{ExchangingFieldsForStructures} $Z$ is equivalent to
+
+$$
+  (Bord_n^{(X//O(n), X \underset{O(n)}{\times} \mathbb{R}^n)  })^\sqcup
+  \longrightarrow
+  Phases^\otimes
+  \,.
+$$
+
+Finally, by theorem \ref{CobHypTheoremForTargetSpaceAndVectorBundle} and in view of remark \ref{ActionHomomorphismsAsInfinityActionHomomorphisms}, this is equivalent to maps of the form
+
+$$
+  \array{
+      X//O(n) && \stackrel{L//O(n)}{\longrightarrow} && Phases//O(n)
+      \\
+      & \searrow && \swarrow
+      \\
+      && B O(n)
+  }
+  \,.
+$$
+
+
+=--
+
 
 #### For HQFTs
   {#ForHQFTs}
