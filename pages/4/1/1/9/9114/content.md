@@ -3026,6 +3026,91 @@ In particular the original 3d [[Dijkgraaf-Witten theory]] appears this way as th
 
 (...)
 
+### Higher Chern-Simons local prequantum field theory -- Levels
+ {#HigherChern-SimonsLocalPrequantumFieldTheoryLevels}
+
+
+
+Let $G \in Grp(\mathbf{H})$ be a simply connected compact simple Lie group. By the discussion at _[[Lie group cohomology]]_ and write $\mathbf{B}G \in Smooth\infty Grpd$ for its [[delooping]] stack. By the discussion at _[[Lie group cohomology]]_ there is a bijection
+
+$$
+  H^n_{Grp}(G,\mathbb{Z})
+  \simeq
+  \{\mathbf{B}G \to \mathbf{B}^n \mathbb{Z}\}_\sim
+  \,.
+$$
+
+Write 
+
+$$
+  \mathbf{c}_2 \colon \mathbf{B}G\longrightarrow B^4 \mathbb{Z}
+$$
+
+for a representative of the [[second Chern class]] under this bijection. We may regard this map as a [[local Lagrangian]], hence as an object
+
+$$
+  \mathbf{c}_2 \in Corr_3(\mathbf{H}_{/B^4 \mathbb{Z}})^{\otimes_{phased}}
+$$
+
+in the [[(∞,n)-category of correspondences]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/B^4 \mathbb{Z}}$ equipped with the [[phased tensor product]].
+
+Since $Corr_3(\mathbf{H}_{/B^4 \mathbb{Z}})^{\otimes_{phased}}$ is an [[(∞,n)-category with duals]], this defines a framed-topological [[local prequantum field theory]]
+
+$$
+  \mathbf{c}_2 
+    \colon 
+  (Bord_n^{fr})^\sqcup \longrightarrow 
+  Corr_3(\mathbf{H}_{/B^4 \mathbb{Z}})^{\otimes_{phased}}
+$$
+
+This sends a closed manifold $\Sigma$ of dimension 2 (a [[surface]]) to  the class of a [[line bundle]]
+
+$$
+  \mathbf{Loc}_G(\Sigma) \longrightarrow B^2 \mathbb{Z}
+$$
+
+on the [[moduli stack of flat connections]] ("[[local systems]]") of $\Sigma$, which is the [[phase space]] of $G$-[[Chern-Simons theory]].
+
+By the discussion at _[[cobordism hypothesis]]_ ([this corollary](cobordism+hypothesis#UnorientedLocalPrequantumFieldTheory) in view of [this proposition](cobordism+hypothesis#CanonicalSOActionOnBnZ)) an extension of this to an oriented-topological local preqauntum field theory is equivalent to 
+
+1. choices of $SO(3)$-[[∞-actions]] on $\mathbf{B}G$;
+
+1. choices of [[equivariant cohomology|equivariant]] extensions 
+
+   $$
+     \array{
+         \mathbf{B}G &\stackrel{\mathbf{c}_2}{\longrightarrow}& B^4 \mathbb{Z}
+        \\
+        \downarrow & \nearrow_{\mathrlap{\mathbf{c}_2//SO(3)}}
+        \\
+        (\mathbf{B}G)//SO(3)
+     }
+     \,.
+   $$
+
+There are in general not too  many $SO(3)$-[[∞-action]] on $\mathbf{B}G$, so consider the trivial one. Then
+
+$$
+  (\mathbf{B}G)//SO(3) \simeq (\mathbf{B}G)\times (B SO(3))
+$$
+
+and an equivariant extension is given by a map
+
+$$
+  B SO(3) \longrightarrow B^4 \mathbb{Z}
+$$
+
+hence an element in $H^4(B SO(3), \mathbb{Z})$. This is essentially given by the first [[Pontryagin class]]  $p_1$. Hence it follows that the extension of $\mathbf{c}_2$-Chern-Simons local prequantum fields theory (on the level of levels) to oriented cobordisms is given by
+
+$$
+  c_2 + p_1 \colon (\mathbf{B}G) \times (B SO(3)) \longrightarrow B^4 \mathbb{Z}
+  \,.
+$$
+
+
+
+
+
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
