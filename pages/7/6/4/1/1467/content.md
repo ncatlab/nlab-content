@@ -18,7 +18,8 @@
 
 A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
-It is also common to work with compact subsets of a topological space.  These are those subsets which are compact spaces with the inherited topology.
+It is also common to work with _compact [[subsets]]_ of a space.  These are those subsets which are compact spaces with the [[subspace topology]].
+
 
 ## Definitions 
 
@@ -55,7 +56,7 @@ While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]],
 The definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  An equivalent way to phrase it is
 +-- {: .num_defn #directed}
 ###### Definition
-Given any [[direction|directed]] collection of opens whose union is $X$, $X$ belongs to the collection.
+Given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
 =--
 As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, we can also say
 +-- {: .num_defn #object}
@@ -66,7 +67,7 @@ The ambient space $X$ is a [[compact object]] in $Op(X)$.
 Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere):
 +-- {: .num_defn #projection}
 ###### Definition
-For any space $Y$, the projection map $X \times Y \to Y$ is [[closed map|closed]].
+For any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
 =--
 
 Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction). 
@@ -109,9 +110,7 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 * In a [[Hausdorff topological space]], [[compact subsets]] are in particular [[closed subsets]] ([proof](http://planetmath.org/acompactsetinahausdorffspaceisclosed))
 
-* In [[constructive mathematics]], a [[discrete object|discrete space]] is compact iff its underlying set is [[finite set|Kuratowski-finite]].
-
-* A topological space $X$ is compact precisely if for all topological spaces $Y$ the [[projection]] $X \times Y \to Y$ out of their [[Cartesian product]] is a [[closed map]]. (see e.g. [Milne, section 17](#Milne))
+* A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
 
 One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
 
@@ -135,13 +134,13 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 * [[complete algebraic variety]]
 
 
-
 ## References
 
 For [[proper base change theorem]] e.g.
 
 * [[James Milne]], section 17 of _[[Lectures on Étale Cohomology]]_
  {#Milne}
+
 
 [[!redirects compact space]]
 [[!redirects compact spaces]]
@@ -159,7 +158,7 @@ For [[proper base change theorem]] e.g.
 [[!redirects compact subspaces]]
 [[!redirects compact subset]]
 [[!redirects compact subsets]]
-[[!redirects compact]]
-
 [[!redirects compact set]]
 [[!redirects compact sets]]
+
+[[!redirects compact]]
