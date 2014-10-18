@@ -1,4 +1,3 @@
-[[!redirects Giry's monad]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -170,4 +169,9 @@ To do:
 * Relate to [convex spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html)
 * Bring in material from [Progic posts](http://golem.ph.utexas.edu/category/2007/09/progic.html)
 
+
+[[!redirects Giry monad]]
+[[!redirects Giry's monad]]
+[[!redirects Giry's monad]]
+[[!redirects Giry\'s monad]]
 [[!redirects Giry's monad]]
