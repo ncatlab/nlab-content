@@ -126,7 +126,13 @@ _Toby_: Seeing this later, I no longer know what article I meant.
 
 ## References 
 
-Compactly generated spaces were first introduced by J. L. Kelley, see his book
+The following article attributes the concept to Hurewicz:
+
+* David Gale, 
+_Compact Sets of Functions and Function Rings_ ,
+Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf))
+
+Compactly generated spaces are discussed by J. L. Kelley in his book
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York 1955. 
 
@@ -137,6 +143,10 @@ A comprehensive account careful about the (weakly) Hausdorff assumptions when ne
 Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
 
 * [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
+
+Gabriel and Zisman discuss the connection with the exactness of [[geometric realization]] in
+
+* [[Peter Gabriel]], Michel Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967. (ch.III.3-4)
 
 Other and later references include
 
