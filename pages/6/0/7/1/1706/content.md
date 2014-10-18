@@ -147,6 +147,37 @@ The action in corollary \ref{CanonicalOnAction} is
 
 ([Lurie, examples 2.4.12, 2.4.14. 2.4.15](#Lurie))
 
++-- {: .num_prop #CanonicalSOActionOnBnZ}
+###### Proposition
+
+For all $n \in \mathbb{N}$, the canonical $SO$-[[∞-action]] on 
+
+$$
+  B^n \mathbb{Z} \in Ab_\infty(\infty Grpd) \hookrightarrow (\infty,n)CatWithDuals
+$$
+
+is trivial.
+
+=--
+
++-- {: .proof }
+###### Proof
+
+The action on a [[connective spectrum]] $\Omega^\infty X$ factors through the [[J-homomorphism]]
+
+$$
+  SO \times \Omega^\infty X
+  \stackrel{(J,id)}{\longrightarrow}
+  \Omega^\infty S^\infty \times \Omega^\infty X
+  \stackrel{precomp}{\longrightarrow}
+  \Omega^\infty X
+  \,.
+$$
+
+But on [[homotopy groups]] the [[image of J]] is pure [[torsion]] which means that for $\Omega^\infty X = B^n \mathbb{Z}$ the induced actions on homotopy groups are all trivial. From this and using the [[long exact sequence of homotopy groups]] it follows that the $\infty$-action itself is trivial.
+
+=--
+
 
 ### For cobordisms with extra topological structure
  {#CobsWithExtraTopStructure}
