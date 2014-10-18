@@ -209,7 +209,7 @@ Write
 
 $$
   [\Delta^{op}, C]_{proj, S}
-  \stackrel{\leftarrow}{\to}
+  \stackrel{\longleftarrow}{\longrightarrow}
   [\Delta^{op}, C]_{proj}
 $$
 
@@ -219,7 +219,7 @@ Similarly, write
 
 $$
   [\Delta^{op}, C]_{Reedy, S}
-  \stackrel{\leftarrow}{\to}
+  \stackrel{\leftarrow}{\longrightarrow}
   [\Delta^{op}, C]_{Reedy}
 $$
 
@@ -256,9 +256,9 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
 
    $$
      (\lim_{\to} \dashv const)
-     :
+     \colon
      C
-     \stackrel{\overset{\lim_\to}{\leftarrow}}{\underset{const}{\to}}
+     \stackrel{\overset{\lim_\to}{\longleftarrow}}{\underset{const}{\longrightarrow}}
      [\Delta^{op}, C]_{proj, S}
    $$
 
@@ -266,7 +266,7 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
 
    $$
      [\Delta^{op}, C]_{Reedy, S}
-     \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
+     \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
      [\Delta^{op}, C]_{proj, S}
      \,,
    $$
@@ -277,7 +277,7 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
      (const \dashv ev_0) 
       : 
      [\Delta^{op}, C]_{Reedy,S}
-      \stackrel{\overset{const}{\leftarrow}}{\underset{ev_0}{\to}}
+      \stackrel{\overset{const}{\longleftarrow}}{\underset{ev_0}{\longrightarrow}}
      C
      \,;
    $$
