@@ -63,6 +63,10 @@ Intuitively, an intensive quality is compatible with the points of its domain sp
 
 * Galois theory - presheaves on the opposite of the category of finite-dimensional local k-algebras (Lawvere 2004) (...)
 
+####Remark
+
+The properties of (pre)cohesive categories are fine-tuned to yield a canonical extensive quality via the Hurewicz construction $\pi (X^Y)$. In the blueprint for this, namely the combinatorial homotopy theory in [Gabriel&Zisman (1967)](#GabrielZisman67) chap. III, the category of spaces has objects [[compactly generated space|Kelley spaces]]. So in a sense, the concept of a precohesive category can be viewed as an axiomatization of Kelley spaces.
+
 ### The topos of $\mathbb{F}_1$-actions
 
 Lawvere's work on the petit-gros topos distinction started with the examination of two toposes of graphs ([Lawvere 1986](#Law86)). The first one of _irreflexive graphs_ is given by the presheaf topos of actions of the small diagram category $E\rightrightarrows V$ on $Set$ and is an [[étendue]] hence petit. 
@@ -88,6 +92,8 @@ For details how the [[zeta function]] arises via the Burnside ring of $\mathcal{
 
 * [[infinitesimal cohesive (infinity,1)-topos]]
 
+* [[compactly generated topological space]]
+
 * [[ambidextrous adjunction]]
 
 * [[Nullstellensatz]]
@@ -101,6 +107,8 @@ The definition of quality types occurs in ([Lawvere 2007](#Law07)) with importan
 Under the name of quintessential localization they are the focus of ([Johnstone 1996](JS96)) where the characterization via central idempotents is given. Some additional results occur in the context of the [[Nullstellensatz]] in ([Johnstone 2011](#JS11)). ([Menni 2014](#Menni14b)) attends to the contrast between quality types and sufficient cohesion.
 
 ## References
+
+* [[P. Gabriel|Peter Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967.{#GabrielZisman67}
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
