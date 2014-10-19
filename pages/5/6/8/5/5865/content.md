@@ -1318,10 +1318,10 @@ at the class of morphisms $\{ X \times \mathbb{A}^1 \to X \}_{X \in \mathbf{H}}$
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RealLineIsTheContinuum}
 ###### Example
 
-The cohesion of [[Smooth∞Grpd]] is exhibited by the [[real line]]
+The cohesion of [[Smooth∞Grpd]] _is exhibited_ (in the sense defined [here](cohesive+%28infinity%2C1%29-topos#A1ExhibitingCohesion)) by the [[real line]]
 (the standard [[continuum]]) under the canonical embedding
 $\mathbb{R} \in $ [[SmoothMfd]] $\hookrightarrow $ [[Smooth∞Grpd]].
 
