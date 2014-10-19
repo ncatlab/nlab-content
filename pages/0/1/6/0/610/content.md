@@ -6,7 +6,9 @@
 
 * [[Cospans in Algebraic Topology]]
 
-  * [[multispan]]
+* [[multispan]]
+
+* [[Puppe exact category]]
 
 
 category: people
