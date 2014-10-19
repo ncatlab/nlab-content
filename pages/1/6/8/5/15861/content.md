@@ -73,4 +73,6 @@ Polkowski, Skowron (eds.), _RSCTC 1998_ , Springer LNCS **1424** (2009).
 
 * [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
 
+* M. Zarycki, _Quelque notions fondamentales de l'Analysis Situs au point de vue de l'Alg&#232;bre de la Logique_ , Fund. Math. **IX** (1927) pp.3-15. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm9/fm912.pdf))
+
 * H. Zolfaghari, _Topos et Modalit&#233;s_ , Th&#232;se de doctorat Universit&#233; de Montr&#233;al 1991.
