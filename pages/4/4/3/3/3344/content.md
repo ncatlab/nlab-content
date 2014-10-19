@@ -90,7 +90,7 @@ The notion of test category was introduced in
 * [[Alexandre Grothendieck]], _[[Pursuing Stacks]]_, [djvu](http://people.math.jussieu.fr/~maltsin/groth/ps/Pursuing_Stacks.djvu)
  {#Grothendieck}
 
-Various conjectures made their are proven in 
+Various conjectures made there are proven in 
 
 * [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf).
   {#Cisinksi}
@@ -109,14 +109,14 @@ General surveys include
 That the [[cube category]] is a test category is asserted without proof in  ([Grothendieck](#Grothendieck)). A proof is spelled out in ([Cisinski](#Cisinski))
 
 
-That it is not a strict test category was known in 
+That it is not a strict test category is implicitly already in 
 
-* [[Dan Kan]], _Abstract homotopy. I_ , Proc. Nat. Acad. Sci. U.S.A. 41 (1955), 1092&#8211;1096.
+* [[Dan Kan]], _Abstract homotopy. I_ , Proc. Nat. Acad. Sci. U.S.A. 41 (1955), 1092&#8211;1096. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC528202/pdf/pnas00727-0082.pdf))
  {#Kan}
 
-and led to the preferences of [[simplicial sets]] over [[cubical sets]].
+and led to the preference for [[simplicial sets]] over [[cubical sets]].
 
-That the category of [[cubes]] _equipped with [[connection on a cubical set]]_ form a _strict_ test category is shown in
+That the category of [[cubes]] _equipped with [[connection on a cubical set]]_ forms a _strict_ test category is shown in
 
 * [[Georges Maltsiniotis]], _La cat&#233;gorie cubique avec connexions est une cat&#233;gorie test stricte_ . (French. English summary) Homology, Homotopy Appl. 11 (2009), no. 2, 309&#8211;326. ([web](http://www.intlpress.com/HHA/v11/n2/a15/))
  {#Maltsiniotis}
