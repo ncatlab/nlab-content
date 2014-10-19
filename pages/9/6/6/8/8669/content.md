@@ -47,7 +47,7 @@ over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a give
 
 * [[Albanese variety]]
 
-* [[Prym variety]]
+* [[Prym variety]], [[Prym-Tyurin variety]]
 
 [[!include moduli of higher lines -- table]]
 
@@ -55,7 +55,9 @@ over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a give
 ## References
 
 * wikipedia [Jacobian variety](http://en.wikipedia.org/wiki/Jacobian_variety), [Abel-Jacobi map](http://en.wikipedia.org/wiki/Abel%E2%80%93Jacobi_map)
+
 * P. Griffiths, J. Harris, _Principles of algebraic geometry_
+
 * A. Beauville, _Jacobiennes des courbes spectrales et syst&#232;mes Hamiltoniens compl&#232;tement int&#233;grables_, Acta Math. __164__ (1990), 211-235.
 
 [[!redirects Jacobian varieties]]
