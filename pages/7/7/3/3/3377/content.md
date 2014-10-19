@@ -52,7 +52,7 @@ Higgs bundles can be considered as a limiting case of a [[curvature|flat]] [[con
 
 ### Formulation in D-geometry
 
-Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the formal competion of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
+Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the [[formal completion]] of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
 
 Now a [[flat vector bundle]] on $X$ is essentially just a [[vector bundle]] on the [[de Rham stack]] $X_{dR}$, and a [[Higgs bundle]] is essentially just a [[vector bundle]] on $X_{Dol}$. Therefore in this language the nonabelian Hodge theorem reads (for $G$ a linear [[algebraic group]] over $\mathbb{C}$)
 
