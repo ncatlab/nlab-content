@@ -287,7 +287,7 @@ Cubical [[singular homology]] is discussed in
 
 An axiomatization of cubical sets in [[extensional type theory|extensional]] [[type theory]] is in 
 
-* {#CoquandHuber} [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/))
+* {#CoquandHuber} Marc Bezem, [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/))
   
 
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
@@ -334,5 +334,9 @@ Their use for monoidal closed structures  and homotopy classification is given i
 and are essential in 
 
 * [[Ronnie Brown]], Philip J. Higgins and Rafael Sivera, _[[Nonabelian Algebraic Topology]]_ EMS Tracts in Math vol 15, 703 pages, August, 2011. ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
+
+Essential subtoposes of $Set^{\Box^{op}}$ are discussed in the context of Lawvere's dialectical theory of dimension in
+
+* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 [[!redirects cubical sets]]
