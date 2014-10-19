@@ -20,5 +20,4 @@ The [[Mayer-Vietoris sequence]] for homology is a consequence of applying $\pi_*
 
 The original article is
 
-* A. Dold, R. Thom, _Quasifaserungen und unendliche symmetrische Produkte_ , Ann. Math. (2) 69 (1959), 239--281.
-
+* [[Albrecht Dold|A. Dold]], [[René Thom|R. Thom]], _Quasifaserungen und unendliche symmetrische Produkte_ , Ann. Math. (2) 69 (1959), 239--281. ([pdf](http://www.maths.ed.ac.uk/~aar/papers/doldthom.pdf))
