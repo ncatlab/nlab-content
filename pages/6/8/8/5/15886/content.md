@@ -32,7 +32,7 @@ A [[well-powered categroy|well-powered]] category $\mathcal{C}$ is called _Puppe
 
 * every mono is a kernel and every epi is a cokernel.
 
-* every morphism has an epi-mono factorization.
+* every morphism has an [[factorization system|epi-mono factorization]].
 
 ##Related entries
 
