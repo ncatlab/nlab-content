@@ -19,7 +19,7 @@
 
 ## Idea
 
-> The interesting conception of the [[propositions-as-types]] principle is what I call _Brouwer's Dictum_, which states that all of mathematics, including the concept of a proof, is to be derived from the concept of a *[[constructive mathematics|construction]]*, a [[computation]] classified by a [[type]].  In [[intuitionistic mathematics]] proofs are themselves "first-class" mathematical objects that inhabit [[types]] that may as well be identified with the [[proposition]] that they prove.  Proving a proposition is no different than constructing a [[program]] of a type.  In this sense [[logic]] is a branch of [[mathematics]], the branch concerned with those constructions that are proofs.  And mathematics is itself a branch of [[computer science]], since according to Brouwer's Dictum all of mathematics is to be based on the concept of computation.  But notice as well that there are many more constructions than those that correspond to proofs.  [[natural number|Numbers]], for example, are perhaps the most basic ones, as would be any [[inductive type|inductive]] or [[coinductive type|coinductive]] types, or even more exotic objects such as Brouwer's own [[choice sequence]]s.  From this point of view the [[judgement]] $t\in A$ stating that $t$ is a [[term|construction]] of type $A$ is of fundamental importance, since it encompasses not only the formation of "ordinary" mathematical constructions, but also those that are distinctively intuitionistic, namely mathematical proofs.
+> The interesting conception of the [[propositions-as-types]] principle is what I call _Brouwer's Dictum_, which states that all of mathematics, including the concept of a proof, is to be derived from the concept of a *[[constructive mathematics|construction]]*, a [[computation]] classified by a [[type]].  In [[intuitionistic mathematics]] proofs are themselves "first-class" mathematical objects that inhabit [[type|types]] that may as well be identified with the [[proposition]] that they prove.  Proving a proposition is no different than constructing a [[program]] of a type.  In this sense [[logic]] is a branch of [[mathematics]], the branch concerned with those constructions that are proofs.  And mathematics is itself a branch of [[computer science]], since according to Brouwer's Dictum all of mathematics is to be based on the concept of computation.  But notice as well that there are many more constructions than those that correspond to proofs.  [[natural number|Numbers]], for example, are perhaps the most basic ones, as would be any [[inductive type|inductive]] or [[coinductive type|coinductive]] types, or even more exotic objects such as Brouwer's own [[choice sequence]]s.  From this point of view the [[judgement]] $t\in A$ stating that $t$ is a [[term|construction]] of type $A$ is of fundamental importance, since it encompasses not only the formation of "ordinary" mathematical constructions, but also those that are distinctively intuitionistic, namely mathematical proofs.
 
 > An often misunderstood point that must be clarified before we continue is that the concept of proof in [[intuitionistic logic|intuitionism]] is *not* to be identified with the concept of a *formal proof* in a fixed formal system.  What constitutes a proof of a [[proposition]] is a *[[judgement]]*, and there is no reason to suppose _a priori_ that this judgement ought to be [[decidable judgment|decidable]].  It should be possible to recognize a proof when we see one, but it is not required that we be able to *rule out* what is a proof in all cases.  In contrast formal proofs are inductively defined and hence fully circumscribed, and we expect it to be decidable whether or not a purported formal proof is in fact a formal proof, that is whether it is well-formed according to the given inductively defined rules.  But the upshot of [[incompleteness theorem|Gödel's theorem]] is that as soon as we fix the concept of formal proof, it is immediate that it is not an adequate conception of proof _simpliciter_, because there are propositions that are true, which is to say have a proof, but have no *formal proof* according to the given rules.  The concept of truth, even in the intuitionistic setting, eludes formalization, and it will ever be thus.  Putting all this another way, according to the intuitionistic viewpoint (and the mathematical practices that it codifies), there is no truth other than that given by proof.  Yet the rules of proof cannot be given in decidable form without missing the point. ([Harper](#Harper))
 
@@ -68,8 +68,8 @@ A formal proof is whatever is called a 'proof' in a formal system; a formal syst
 
 A brief exposition of the notion of proof and formal proof in [[constructive mathematics]]/[[type theory]] is in 
 
-* [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_, August 2012 ([web](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
- {#Harper}
+* {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_, August 2012 ([web](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
+ 
 
 * [[Robert Harper]], _Constructive Mathematics is not Meta-Mathematics_, July 2013 ([web](http://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/))
 
@@ -79,13 +79,17 @@ Further discussion of formal proofs includes the following
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
-* Jeremy Avigad, Kevin Donnelly, David Gray, Paul Raff, _A formally verified proof of the prime number theorem_ ([arXiv:cs/0509025](http://arxiv.org/abs/cs/0509025))
+* [[Jeremy Avigad]], Kevin Donnelly, David Gray, Paul Raff, _A formally verified proof of the prime number theorem_ ([arXiv:cs/0509025](http://arxiv.org/abs/cs/0509025))
 
+* [[Jeremy Avigad]], John Harrison, _Formally Verified Mathematics_, Communications of the ACM, Vol. 57 No. 4, Pages 66-75 ([web](http://cacm.acm.org/magazines/2014/4/173219-formally-verified-mathematics/fulltext))
+
+* [[Jeremy Avigad]], _Formal verication, interactive theorem proving,
+and automated reasoning_ (2014) ([pdf](http://www.andrew.cmu.edu/user/avigad/Talks/baltimore.pdf))
 
 A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
-
-* [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
- {#Miquel}
+ 
+* {#Miquel} [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
+ 
 
 
 Projects aiming to formalize parts of mathematics include
