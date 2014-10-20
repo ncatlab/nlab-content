@@ -98,6 +98,7 @@ Solving this for the components of $\nu$ in terms of the components of $w$, one 
 ...
 
 ### Relation to Pontryagin classes
+ {#RelationToPontryaginClasses}
 
 +-- {: .num_prop #InTermsOfPontryagin}
 ###### Proposition
@@ -114,7 +115,7 @@ Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ with 
 
 =--
 
-This is discussed in [Hopkins-Singer, page 101](#HopkinsSinger).
+This is discussed in ([Hopkins-Singer, page 101](#HopkinsSinger)).
 
 +-- {: .num_cor #DivisibilityOfCupSquare}
 ###### Corollary
