@@ -58,7 +58,7 @@ $$
 
 is the cubical analogue of the simplicial nerve and realization discussed [above](#ForKanComplexes).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 
@@ -72,9 +72,14 @@ There is a [[model structure on cubical sets]] $Set^{\Box^{op}}$ whose
 
 This is ([Jardine, section 3](#Jardine)).
 
+## Properties
+
+### Homotopy theory
+ {#HomotopyTheory}
+
 The following theorem establishes a form of the [[homotopy hypothesis]] for cubical sets.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[unit of an adjunction|unit of the adjunction]]
@@ -102,7 +107,10 @@ $$
 
 =--
 
-This is [Jardine, theorem 29, corollary 30](#Jardine).
+This is ([Jardine, theorem 29, corollary 30](#Jardine)).
+
+In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence makes their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
+
 
 
 ## References
