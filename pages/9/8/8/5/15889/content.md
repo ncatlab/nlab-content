@@ -5,8 +5,7 @@
 
 ## Idea
 
-Certain [[Grothendieck topologies]] on a category with an [[initial object]] can be presented by a very simple structure called a _cd-structure_.
-[[sheaves|Sheaves]] with respect to such topologies can be described by an [[excision]] property.
+Certain [[Grothendieck topologies]] on a category with an [[initial object]] can be presented by a very simple structure called a _cd-structure_.  For such [[sites]], the notion of [[descent]] is the same as the notion of [[hyperdescent]].  Further, the condition of [[descent]] can be checked via a [[Mayer-Vietoris]]-like property.
 
 ## Definition
 
