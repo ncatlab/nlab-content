@@ -55,6 +55,9 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 ## Talks ##
 
+* _The Serre-Grothendieck theorem by geometric means_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide, 24 October 2014. ([Abstract](http://maths.adelaide.edu.au/news/2014/10/24))
+
+
 * _A geometric proof of a theorem of Serre_, [Algebra and Topology seminar](http://maths.anu.edu.au/events/algebra-and-topology-seminar-0), Australian National University, 23 September 2014. ([Abstract](http://maths.anu.edu.au/events/geometric-proof-theorem-serre))
 
 * _Mathematics: A castle in the sky?_, [School of Mathematical Sciences Undergraduate Seminar](http://maths.adelaide.edu.au/search.php?q=%2BUndergraduate%20%2BSeminar), University of Adelaide, 25 August 2014. ([slides](https://www.dropbox.com/s/2ljf92lyjuti6co/Undergrad_seminar_foundations.pdf?dl=0)) 
