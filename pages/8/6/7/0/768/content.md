@@ -49,7 +49,7 @@ This space may be constructed as follows:
 write $\mathbf{B}G \in Top^{\Delta^{op}}$ for the [[simplicial topological space]] obtained as the [[nerve]] of the one-object [[topological groupoid]] associated to $G$, the simplicial space given by
 
 $$
-  (\mathbf{B}G)_n) = G^{\times n}
+  (\mathbf{B}G)_n = G^{\times n}
 $$ 
 
 whose face maps are induced by the product operation on $G$ and whose degeneracy maps are induced from the unit map.
