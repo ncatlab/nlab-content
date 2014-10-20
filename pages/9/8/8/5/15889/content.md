@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
