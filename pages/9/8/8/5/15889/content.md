@@ -74,7 +74,7 @@ There are various interesting cd-structures on the category of [[schemes]] over 
 
 ## References
 
-* [[Vladimir Voevodsky]], _Homotopy theory of simplicial presheaves in completely decomposable topologies_, 2000, [arXiv:0805.4578](http://arxiv.org/abs/0805.4578v1).
+* [[Vladimir Voevodsky]], _Homotopy theory of simplicial presheaves in completely decomposable topologies_, 2000, [K-theory archive](http://www.math.uiuc.edu/K-theory/443/), [arXiv:0805.4578](http://arxiv.org/abs/0805.4578v1).
 
 * Brad Drew, _Descente : Nisnevich et cdh_, Groupe de travail at Universit&#233; Paris 13, Spring 2010, [pdf](http://www.math.univ-paris13.fr/~kelly/GdT/exposeVII.pdf).
 
