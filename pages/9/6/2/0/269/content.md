@@ -272,6 +272,14 @@ Cubical methods are a key feature in using higher homotopy groupoids to prove ho
 
 ## References
 
+Early references include
+
+* [[Jean-Pierre Serre]], _Homologie singuli&#232;re des espaces fibr&#233;s_ , Ann.
+Math. **54** no.3 (1951), pp.425-505. ([pdf](http://www.college-de-france.fr/media/jean-pierre-serre/UPL7235285843586540944_Serre_The_se.pdf))
+
+* [[Dan Kan]], _Abstract homotopy I_ , Proc. Nat. Acad. Sci. U.S.A. **41** (1955) pp.1092&#8211;1096. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC528202/pdf/pnas00727-0082.pdf))
+ {#Kan}
+
 General introductions of the cube category and of cubical sets are in 
 
 * [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) 
