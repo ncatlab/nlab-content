@@ -32,22 +32,26 @@ Global analytic geometry
 
 * treats all [[places]] on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and [[Langlands program]], and more historically to Tate's proof of the functional equation.
 
-The main aim of the theory is to define, using global analytic tools, a good Hodge theory for arithmetic varieties. It is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they may be given by the following non-exhaustive list:
+The main aim of the theory is to define, using global analytic tools, a good Hodge theory for arithmetic varieties.
 
-* having a good theory of linear coefficients on global analytic spaces,
+## Possible set of constraints
+for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_(approximation)) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to better understand the motivations underlying the construction of global analytic spaces.
+
+1. having a good theory of linear coefficients on global analytic spaces,
 with the Grothendieck six operations. It seems that global analytic motivic
 spectral coefficients (given by imposing homotopy invariance with respect to the unit
 disc are not so well adapted to the study of torsion phenomena in the characteristic p situation).
-* having a good theory of higher and derived global analytic spaces, with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
-** get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
-** get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
-** get back the usual de Rham Chern character when one works over C.
-* the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
-* an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and global [[analytic motives]].
+1. having a good theory of higher and derived global analytic spaces, with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
+* get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
+* get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
+* get back the usual de Rham Chern character when one works over C.
+1. the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
+1. an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and global [[analytic motives]].
 
 Argument in favor of its use are:
 
-* the fact that archimedean factors are deeply related to (analytic) [[Hodge theory]];
+* the fact that archimedean factors are deeply related to (real and complex analytic)
+[[Hodge theory]];
 
 * the fact that all [[proofs]] of parts of [[local Langlands program]] use deeply non-archimedean analytic spaces that are out of the scope of classical algebraic scheme theory.
 
@@ -67,6 +71,8 @@ A short introduction for large audience is in
 * {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
 
 For more see
+
+* {#Paugam08} [[Frédéric Paugam]],_Overconvergent global analytic geometry (preprint)
 
 * {#Paugam08} [[Frédéric Paugam]], _Global analytic geometry_ ([arXiv:0803.0148](http://arxiv.org/abs/0803.0148))
 
