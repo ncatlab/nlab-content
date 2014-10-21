@@ -179,7 +179,7 @@ and page 9 of
 
 and more discussion for 3-manifolds with boundary includes
 
-* Thomas Kerler, Volodymyr Lyubashenko, section 1.6.1 of _Non-semisimple topological quantum field theories for 3-manifolds with corners_, Lecture notes in mathematics 2001
+* {#KerlerLyubashenko01} Thomas Kerler, Volodymyr Lyubashenko, section 1.6.1 of _Non-semisimple topological quantum field theories for 3-manifolds with corners_, Lecture notes in mathematics 2001
 
 See also 
 
