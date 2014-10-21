@@ -31,10 +31,10 @@ Any cd-structure gives rise in a canonical way to a [[Grothendieck topology]] on
 
 +-- {: .num_defn}
 ###### Definition
-Let $\chi$ be a cd-structure on $C$.  The associated [[Grothendieck pretopology]] on $C$ is defined by the coverings:
+Let $\chi$ be a cd-structure on $C$.  The associated [[Grothendieck topology]] $\tau_\chi$ on $C$ is the coarsest topology such that:
 
-* the empty covering of $\emptyset_C$, the initial object of $C$;
-* the coverings $\{ b \to d, c \to d \}$ for all $\chi$-distinguished squares
+* the empty sieve covers $\emptyset_C$, the initial object of $C$;
+* $\{ b \to d, c \to d \}$ generates a covering sieve for all $\chi$-distinguished squares
 $$
 \begin{matrix}
   a& \to & b \\
@@ -43,8 +43,6 @@ $$
 \end{matrix}
 $$
 =--
-
-One checks that this is indeed a well-defined [[Grothendieck pretopology]].  We will denote it by $\tau_\chi$, and by abuse of notation we will also write $\tau_\chi$ for the associated [[Grothendieck topology]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -66,10 +64,12 @@ belongs to $\chi$.
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\chi$ be a complete cd-structure.  If $F$ is a [[presheaf]] on $C$ that maps initial objects of $C$ to terminal objects, and sends $\chi$-distinguished squares to [[cartesian squares]], then $F$ is a $\tau_\chi$-sheaf.
+Let $\chi$ be a complete cd-structure.  If $F$ is an [[(∞,1)-presheaf]] on $C$ that maps initial objects of $C$ to terminal objects, and sends $\chi$-distinguished squares to [[cartesian squares]], then $F$ is a $\tau_\chi$-[[(∞,1)-sheaf]].
 
 If $\chi$ is further regular, then the converse is also true.
 =--
+
+For presheaves of *sets*, this is [Voevodsky, Lem. 2.9 and Prop. 2.15](#VoevodskyCD). For general (∞,1)-presheaves, this is a rephrasing of [Voevodsky, Cor. 5.10](#VoevodskyCD).
 
 ## Examples
 
@@ -87,6 +87,7 @@ There are various interesting cd-structures on the category of [[schemes]] over 
 * Brad Drew, _Descente : Nisnevich et cdh_, Groupe de travail at Universit&#233; Paris 13, Spring 2010, [pdf](http://www.math.univ-paris13.fr/~kelly/GdT/exposeVII.pdf).
 
 * [[Vladimir Voevodsky]], _Homotopy theory of simplicial presheaves in completely decomposable topologies_, 2000, [K-theory archive](http://www.math.uiuc.edu/K-theory/443/), [arXiv:0805.4578](http://arxiv.org/abs/0805.4578v1).
+{#VoevodskyCD}
 
 * [[Vladimir Voevodsky]], _Unstable motivic homotopy categories in
 Nisnevich and cdh-topologies_, 2000, [arXiv:0805.4576](http://arxiv.org/pdf/0805.4576v1.pdf).
