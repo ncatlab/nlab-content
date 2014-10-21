@@ -97,7 +97,7 @@ For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hook
 
 =--
 
-This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
+This is [AdamekRosicky, theorem 6.22 and example 6.23](#AdamekRosicky)
 
 
 ### Relativized versions of Vop&#283;nka's principle
