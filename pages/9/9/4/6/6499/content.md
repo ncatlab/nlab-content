@@ -17,12 +17,9 @@
 
 ## Idea
 
-Global [[analytic geometry]] is a developing subject that gives an alternative/complementary approach to scheme theory in [[arithmetic geometry]] and [[analytic number theory]]. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developped further by [[Jérôme 
-Poineau]].
+Global [[analytic geometry]] is a developing subject that gives an alternative/complementary approach to scheme theory in [[arithmetic geometry]] and [[analytic number theory]]. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developped further by [[Jérôme Poineau]].
 
-Many interesting results on polynomial equations can be proved using the mysterious interactions between algebraic, complex analytic and p-adic analytic geometry. The aim of global analytic geometry is to construct a category of spaces which contains these three geometries. ([Paugam08](#Paugam08))
-
-
+Many interesting results on polynomial equations can be proved using the mysterious interactions between algebraic, complex analytic and p-adic analytic geometry. The aim of global analytic geometry is to construct a category of spaces which contains these three geometries.
 
 ## Motivation
  {#Motivation}
@@ -35,8 +32,16 @@ Global analytic geometry
 
 * treats all [[places]] on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and [[Langlands program]], and more historically to Tate's proof of the functional equation.
 
-The main aim of the theory is to define, using global analytic tools, a good [[category]] of analytic motivic coefficients, that would help in proving naturally:
+The main aim of the theory is to define, using global analytic tools, a good Hodge theory for arithmetic varieties. It is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they may be given by the following non-exhaustive list:
 
+* having a good theory of linear coefficients on global analytic spaces,
+with the Grothendieck six operations. It seems that global analytic motivic
+spectral coefficients (given by imposing homotopy invariance with respect to the unit
+disc are not so well adapted to the study of torsion phenomena in the characteristic p situation).
+* having a good theory of higher and derived global analytic spaces, with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
+** get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
+** get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
+** get back the usual de Rham Chern character when one works over C.
 * the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
 * an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and global [[analytic motives]].
 
