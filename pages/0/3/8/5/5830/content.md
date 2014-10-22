@@ -323,10 +323,10 @@ Early sketches and introductions to the idea of homotopy type theory include
 * [[Thorsten Altenkirch]], [[Thierry Coquand]], _Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
 
 
-* [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://www.math.ias.edu/~mshulman/hottminicourse2012/))
+* {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://www.math.ias.edu/~mshulman/hottminicourse2012/))
 
-* [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
-  {#Voevodsky}
+* {#Voevodsky} [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
+  
 
 Motivation via practical problems in [[homotopy theory]] and [[higher category theory]] is given in 
 
@@ -398,7 +398,8 @@ and with more details in
 * [[Richard Garner]],  [[Benno van den Berg]], _Topological and simplicial models of identity types_. , ACM Transactions on Computational Logic ([pdf](http://www.mathematik.tu-darmstadt.de/~berg/papers/main.pdf))
 
 
-* [[Mike Shulman]], section 2 of _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+* section 2 of ([Shulman 12](#Shulman12))
+
 
 with lecture notes in 
 
@@ -417,7 +418,7 @@ The trickiest question in finding models of homotopy type theory is to validate 
 
 A discussion of univalence for [[categories of presheaves]] over an [[inverse category]], with values in a category for which univalence is already established (such as simplicial sets) is discussed in 
 
-* [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)).
+* {#Shulman12} [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)).
 
 Discussion of univalence in various other [[model category]] presentations for [[∞Grpd]] ([[cubical sets]], [[cellular sets]]) is in
 
