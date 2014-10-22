@@ -57,7 +57,7 @@ In all of these cases, cocycles $c$ on $X$ with coefficients in $A$ may be model
 
 $$
   \array{
-    X &\stackrel{\in FW}{\leftarrow}& \tilde X \to X
+    X &\stackrel{\in FW}{\leftarrow}& \tilde X \to A
   }
 $$
 
