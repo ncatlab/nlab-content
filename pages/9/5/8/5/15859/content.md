@@ -24,7 +24,7 @@
 
 ##Idea##
 
-In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
+In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories|(algebraic) theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
 
 Basic ingredients are pairs of [[geometric theories]] $S$ and $T$ over the same [[language]] such that $T$ results from $S$ by addition of further [[axioms]]. Then $T-Mod_\mathcal{E}$ is a [[full subcategory]] of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
 
@@ -81,7 +81,7 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 
 ##References##
 
-Beside Cole's unpublished paper, Johnstone (1977b), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphims to Cole's class of admissible morphisms. See also the short remark in Caramello (2014). For higher categorical ramifications see Lurie (2009).
+Beside Cole's unpublished paper, the book of Johnstone (1977b), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms. See also the short remark in Caramello (2014). For higher categorical ramifications see Lurie (2009).
 
 * [[Marta Bunge|M. Bunge]], [[Gonzalo E. Reyes|G. E. Reyes]] , _Boolean spectra and model completions_ , Fund.Math. **113** (1981) pp.165-173. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm113/fm113115.pdf))
 
