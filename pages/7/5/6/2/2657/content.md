@@ -36,6 +36,8 @@ Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with
 
 ## Related entries
 
+* [[p-adic Hodge theory]]
+
 * [[harmonic differential form]], [[Hodge star operator]]
 
 * [[Hodge theorem]]
