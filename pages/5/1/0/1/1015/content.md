@@ -66,6 +66,17 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 ## Literature
 
+### General
+
+...
+
+* [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland.
+
+...
+
+### In homotopy type theory
+ {#ReferencesInHomotopyTypeTheory}
+
 Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is discussed in 
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
@@ -74,9 +85,7 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 
 * J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([[LedentSetinHoTT.pdf:file]])
 
-Just one more item for future reference:
 
-* [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland.
 
 
 [[!redirects set theory]]
