@@ -57,18 +57,57 @@ sending [[diffeomorphisms]] to their underlying [[homeomorphisms]] of [[topologi
 That this follows from the Smale cojecture, theorem \ref{SmaleConjecture}, was shown in [Cerf](#Cerf). For discussion see [Hatcher, 1978](#Hatcher78).
 
 
+## Properties
+
+### Relation to homotopy equivalences
+
+For the following kinds of manifolds $\Sigma$ it is true that every [[homotopy equivalence]] 
+
+$$
+  \alpha \colon \Pi(\Sigma) \stackrel{\simeq}{\longrightarrow} \Pi(\Sigma)
+$$
+
+(hence every [[equivalence of infinity-groupoids|equivalence]] of their [[fundamental infinity-groupoids]]) is [[homotopy|homotopic]] to a [[diffeomorphism]]
+
+$$
+  a \colon \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma
+$$
+
+i.e. that given $\alpha$ there is $a$ with
+
+$$
+  \alpha \simeq \Pi(a)
+  \,.
+$$
+
+
+* for $\Sigma$ any [[surface]] ([Zieschang-Vogt-Coldeway](#ZieschangVogtColdeway))
+
+* for $\Sigma$ a [[Haken 3-manifold]] ([Waldhausen](#Waldhausen68)) 
+
+* for $\Sigma$ any  [[hyperbolic manifold]] of finite [[volume]] and of [[dimension]] $\geq 3$ (by [[Mostow rigidity theorem]]) (check)
+
+
+
 ## References
+
+### For 2-manifolds (surfaces)
+
+* {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
+
 
 ### For 3-manifolds
 
-* J. Cerf, _Sur les diff&#233;omorphismes de la sph&#232;re de dimension trois ($\Gamma_4 = 0$)_, Lecture Notes in Math., vol. 53, Springer-Verlag, Berlin and New York, 1968_
- {#Cerf}
+* {#Cerf} J. Cerf, _Sur les diff&#233;omorphismes de la sph&#232;re de dimension trois ($\Gamma_4 = 0$)_, Lecture Notes in Math., vol. 53, Springer-Verlag, Berlin and New York, 1968_
+ 
 
-* [[Allen Hatcher]], _Linearization in 3-dimensional topology_, Proceedings of the international congress of Mathematicians, Helsinki (1978)
- {#Hatcher78}
+* {#Hatcher78} [[Allen Hatcher]], _Linearization in 3-dimensional topology_, Proceedings of the international congress of Mathematicians, Helsinki (1978)
+ 
+* {#Hatcher} [[Allen Hatcher]], _A proof of the Smale conjecture, $Diff(S^3) \simeq O(4)$, Annals of Mathematics 117 (1983) ([jstor](http://www.jstor.org/pss/2007035))
+ 
 
-* [[Allen Hatcher]], _A proof of the Smale conjecture, $Diff(S^3) \simeq O(4)$, Annals of Mathematics 117 (1983) ([jstor](http://www.jstor.org/pss/2007035))
- {#Hatcher}
+* {#Waldhausen68} [[Friedhelm Waldhausen]], _On Irreducible 3-Manifolds Which are Sufficiently Large_, Annals of Mathematics
+Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.org/stable/1970594))
 
 [[!redirects diffeomorphism groups]]
 [[!redirects Smale conjecture]]
