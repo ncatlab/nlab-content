@@ -25,7 +25,7 @@ Diffeomorphisms are precisely the [[isomorphism]]s in the [[category]] [[Diff]] 
 
 It is clear that
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 Every diffeomorphism is in particular a [[homeomorphism]] between the underlying [[topological space]]s.
@@ -34,7 +34,7 @@ Every diffeomorphism is in particular a [[homeomorphism]] between the underlying
 
 The converse in general fails. There exist differentiable maps with only continuous inverse.  There are also differentiable bijections whose inverse is not even continuous.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 The function $f : \mathbb{R} \to \mathbb{R}$ given by $x \mapsto x^3$ is a homeomorphism but not a diffeomorphism. The diffeomorphism property fails at the origin, where the differential $d f : T_0 \mathbb{R} \to T_0 \mathbb{R}$ is not onto.
@@ -44,7 +44,7 @@ The function $f : \mathbb{R} \to \mathbb{R}$ given by $x \mapsto x^3$ is a homeo
 
 But there is a rich collection of theorems about cases when the converse is true after all.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}$, the **[[open n-ball]]** $\mathbb{B}^n$ is the open subset
@@ -58,7 +58,7 @@ of the [[Cartesian space]] $\mathbb{R}^n$ of all points of [[distance]] lower th
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 In [[dimension]] $d \in \mathbb{N}$ for $d \neq 4$ we have:
@@ -71,7 +71,7 @@ See the first page of ([Ozols](#Ozols)) for a list of references.
 
 > What's a good/canonical textbook reference for this?
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In dimension 4 the analog statement fails due to the existence of [[exotic smooth structure]]s on $\mathbb{R}^4$.
@@ -79,7 +79,7 @@ In dimension 4 the analog statement fails due to the existence of [[exotic smoot
 =--
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $X$ and $Y$ smooth manifolds of dimension $d = 1$, $d = 2$ or $d = 3$ we have:
@@ -89,6 +89,35 @@ if there is a homeomorphism from $X$ to $Y$, then there is also a diffeomorphism
 =--
 
 See the corollary on p. 2 of ([Munkres](#Munkres)).
+
+### Relation to homotopy equivalences
+ {#RelationToHomotopyEquivalences}
+
+For the following kinds of manifolds $\Sigma$ it is true that every [[homotopy equivalence]] 
+
+$$
+  \alpha \colon \Pi(\Sigma) \stackrel{\simeq}{\longrightarrow} \Pi(\Sigma)
+$$
+
+(hence every [[equivalence of infinity-groupoids|equivalence]] of their [[fundamental infinity-groupoids]]) is [[homotopy|homotopic]] to a [[diffeomorphism]]
+
+$$
+  a \colon \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma
+$$
+
+i.e. that given $\alpha$ there is $a$ with
+
+$$
+  \alpha \simeq \Pi(a)
+  \,.
+$$
+
+
+* for $\Sigma$ any [[surface]] ([Zieschang-Vogt-Coldeway](#ZieschangVogtColdeway))
+
+* for $\Sigma$ a [[Haken 3-manifold]] ([Waldhausen](#Waldhausen68)) 
+
+* for $\Sigma$ any  [[hyperbolic manifold]] of finite [[volume]] and of [[dimension]] $\geq 3$ (by [[Mostow rigidity theorem]]) (check)
 
 ## Related concepts
 
@@ -100,13 +129,18 @@ See the corollary on p. 2 of ([Munkres](#Munkres)).
 
 ## References
 
-* V. Ozols, _Largest normal neighbourhoods_ 
+* {#Ozols} V. Ozols, _Largest normal neighbourhoods_ 
 Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672)) ([AMS](http://www.ams.org/journals/proc/1976-061-01/home.html): [pdf](http://www.ams.org/journals/proc/1976-061-01/S0002-9939-1976-0431220-4/S0002-9939-1976-0431220-4.pdf))
-{#Ozols}
 
-* James Munkres, _Obstructions to the smoothing of piecewise-differentiable homeomorphisms_  Bull. Amer. Math. Soc. Volume 65, Number 5 (1959), 332-334.  ([Euclid](http://projecteuclid.org/euclid.bams/1183523321))([AMS](http://www.ams.org/journals/bull/1959-65-05/): [pdf](http://www.ams.org/journals/bull/1959-65-05/S0002-9904-1959-10345-1/S0002-9904-1959-10345-1.pdf))
-{#Munkres}
+
+* {#Munkres} James Munkres, _Obstructions to the smoothing of piecewise-differentiable homeomorphisms_  Bull. Amer. Math. Soc. Volume 65, Number 5 (1959), 332-334.  ([Euclid](http://projecteuclid.org/euclid.bams/1183523321))([AMS](http://www.ams.org/journals/bull/1959-65-05/): [pdf](http://www.ams.org/journals/bull/1959-65-05/S0002-9904-1959-10345-1/S0002-9904-1959-10345-1.pdf))
+
+* {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
+
+* {#Waldhausen68} [[Friedhelm Waldhausen]], _On Irreducible 3-Manifolds Which are Sufficiently Large_, Annals of Mathematics
+Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.org/stable/1970594))
+
 
 [[!redirects diffeomorphisms]]
 [[!redirects diffeomorphic]]
