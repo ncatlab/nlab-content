@@ -1,0 +1,13 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Friedhelm_Waldhausen)
+
+## related $n$Lab entries
+
+* [[Waldhausen category]]
+
+* [[Waldhausen K-theory]]
+
+* [[3-manifold]]
+
+category: people
