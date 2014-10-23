@@ -35,16 +35,17 @@ Global analytic geometry
 The main aim of the theory is to define, using global analytic tools, a good [[Hodge theory]] for arithmetic varieties.
 
 ## Possible set of constraints
-for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_(approximation)) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
+for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_%28approximation%29) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
 
 1. having a good theory of linear coefficients on global analytic spaces,
-with the Grothendieck six operations. It seems that global analytic motivic
+with the Grothendieck six operations (this should be done by the use of the [[sub-analytic]] topology in characteristic $0$, and by a `probably quite hard to develop`
+model theoretical description of [[definable]] sets for the G-topology on strict and non-strict overconvergent analytic spaces). It seems that global analytic motivic
 spectral coefficients (given by imposing homotopy invariance with respect to the unit
 disc are not so well adapted to the study of torsion phenomena in the characteristic p situation).
 1. having a good theory of higher and derived global analytic spaces, with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
 * get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
 * get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
-* get back the usual de Rham Chern character when one works over C.
+* get back the usual de Rham Chern character when one works over $\C$.
 1. the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
 1. an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and global [[analytic motives]].
 
