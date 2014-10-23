@@ -127,7 +127,7 @@ The test category nature of the groupoidal [[Theta category]] is discussed in
 
 A short introduction can be found in
 
-* Chris Kapulkin, _Introduction to Test Categories_ [PDF](www.math.uwo.ca/~kkapulki/notes/test_categories.pdf).
+* Chris Kapulkin, _Introduction to Test Categories_ [PDF](http://www.math.uwo.ca/~kkapulki/notes/test_categories.pdf).
 [[!redirects test categories]]
 
 [[!redirects strict test category]]
