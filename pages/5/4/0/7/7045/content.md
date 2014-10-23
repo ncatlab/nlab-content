@@ -154,7 +154,7 @@ A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]]
 
 Weak Tarski universes in homotopy type theory are discussed in 
 
-* {#Gallozzi14} [[Cesare Gallozzi]], _Constructive Set Theory from a Weak Tarski Universe_, MSc thesis (2014) ([[GalloziCSTTarski.pdf:file]])
+* {#Gallozzi14} [[Cesare Gallozzi]], _Constructive Set Theory from a Weak Tarski Universe_, MSc thesis (2014) 
 
 
 [[!redirects Type]]
