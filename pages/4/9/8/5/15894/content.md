@@ -1,0 +1,8 @@
+This page is to provide non-technical or maybe semi-technical discussion of the nature and role of the [[foundation of mathematics|foundational system]] for [[mathematics]] known as _homotopy type theory_. For more technical details and further pointers see at [[homotopy type theory]].
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## FAQ
