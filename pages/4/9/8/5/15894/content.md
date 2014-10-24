@@ -6,3 +6,11 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 {:toc}
 
 ## FAQ
+
+###What is homotopy type theory?
+
+###Is homotopy type theory limited to constructive mathematics?
+
+###What advantages does homotopy type theory have over set theory?
+
+###In what sense does homotopy type theory already contain logic?
