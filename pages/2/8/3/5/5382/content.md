@@ -36,7 +36,9 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 
 * In the [[symmetric monoidal category]] [[Vect]] of [[vector space]]s (over some [[field]]), the fully dualizable objects are the finite-[[dimension]]al vector spaces.
 
-* In the [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinity,3)-category]] of [[monoidal categories]] and [[bimodule]] categories between them, the fully dualizable objects are (or at least contain) the [[fusion categories]]. See there for details.
+* In the [[2-category]] of [[associative algebras]]  with [[bimodules]] between them as morphisms, over a [[perfect field]], fully dualizable objects [[separable algebras]] which are a [[projective module]] over $k$ [SchommerPries 11, section 3.8.3](#SchommerPries11). 
+
+* In the [[symmetric monoidal (infinity,n)-category|symmetric monoidal 3-category]] of [[monoidal categories]] and [[bimodule categories]] between them, the fully dualizable objects are (or at least contain) the [[fusion categories]]. ([DSPS 13](#DSPS13)).
 
 ## Related concepts
 
@@ -54,5 +56,11 @@ The definition appears around claim 2.3.19 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
+Detailed discussion in degree 2 and 3 appears in 
+
+* {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
+
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
 [[!redirects fully dualizable objects]]
+
