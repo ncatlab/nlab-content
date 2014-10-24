@@ -56,7 +56,7 @@ $$
 is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
 
-In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for "bare" [[homotopy types]]/[[∞-groupoids]] but the statement holds true in all [[(∞,1)-toposes]].
+In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51), [tomDiek 08, theorem 6.4.1](#tomDiek08)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for "bare" [[homotopy types]]/[[∞-groupoids]] but the statement holds true in all [[(∞,1)-toposes]].
 
 It follows in [[(∞,1)-sheaf (∞,1)-toposes]] by applying the result for [[∞-groupoids]] locally, i.e. [[stalk]]-wise (this was highlighted by [[Charles Rezk]]).  
 More intrinsically, there is a formal proof in [[homotopy type theory]] ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), which translates to an [[internal language]] proof for all [[(∞,1)-toposes]].
@@ -97,8 +97,8 @@ Thus one of the intuitions is that the Blakers-Massey Theorem, and hence also th
 
 The original connectivity  statement of the theorem is due to 
 
-* [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
-  {#BlakersMassey51}
+* {#BlakersMassey51} [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
+  
 
 This is reviewed for instance as Theorem 4.23 in the textbook
 
@@ -106,7 +106,7 @@ This is reviewed for instance as Theorem 4.23 in the textbook
 
 and as Theorem 6.4.1 in 
 
-* {#tomDiek08} [[Tammo tom Dieck]],  _Algebraic Topology_, EMS Textbooks in Mathematics, (2008). 
+* {#tomDiek08} [[Tammo tom Dieck]],  _Algebraic Topology_, EMS Textbooks in Mathematics, (2008) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 The algebraic statement and proof is in 
 
@@ -114,8 +114,7 @@ The algebraic statement and proof is in
 
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
-* [[Ronnie Brown|R. Brown]] and J.-L. Loday, Homotopical excision, and Hurewicz
-theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
+* [[Ronnie Brown|R. Brown]] and [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
 (3) 54 (1987) 176-192.
 
 which relies essentially on the paper 
@@ -137,7 +136,7 @@ The following paper  applies the methods of the above two Brown-Loday papers to 
 
 The methods work because of their equivalence between cat$^n$-groups and crossed $n$-cubes of groups. This can be explained by saying that wee need two kinds of algebraic categories for calculations with $(n+1)$-types: _broad_ categories for conjecturing and proving theorems, and _narrow_ algebraic categories for calculations and relations with classical ideas. In this case the broad category is that of cat$^n$-groups, and the narrow category is that of crossed $n$-cubes of groups, which are related geometrically to the homotopy groups of $r$-ads and to generalised Whitehead products. The tricky equivalence between the two kinds of categories is one of the engines behind the results, since it enables the use of whichever category is most convenient at any given time. Note also these two categories model weak, pointed, homotopy $(n+1)$-types, as shown by Loday in his paper
 
-* J.-L. Loday,  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
+* [[Jean-Louis Loday]],  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
 
 
 Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
@@ -148,18 +147,24 @@ Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[al
 ###  In homotopy type theory and $\infty$-topos theory
  {#ReferencesInHoTT}
 
-The general version of the connectivity theorem in [[homotopy type theory]]
-(and thus in [[(infinity,1)-topos theory]]) appears as theorem 8.10.2 of
+A general version of the connectivity theorem in [[homotopy type theory]] 
+(and thus in [[(infinity,1)-topos theory]]) was found by
 
-* {#HoTTBook} [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]] (to appear) 
 
-The proof formalized in HoTT-[[Agda]] is in
+A fully computer-checked version of this proof in HoTT-[[Agda]] is produced in
 
-* {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]], _[BlakersMassey.agda](https://github.com/HoTT/HoTT-Agda/blob/1.0/Homotopy/BlakersMassey.agda)_
+* {#Favonia} [[Favonia]], _[BlakersMassey.agda](https://github.com/HoTT/HoTT-Agda/blob/1.0/Homotopy/BlakersMassey.agda)_
 
+The statement appears also as
 
+* {#HoTTBook} [[Univalent Foundations Project]], theorem 8.10.2 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+An announcement was given in
 
 * {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
 )):
 
 > One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
+
+
