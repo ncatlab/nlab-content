@@ -281,10 +281,6 @@ A summary of the axioms and of the main theorems is in the introduction of
 * [[Denis-Charles Cisinski]], F. D&#233;glise, _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
  {#CisinskiDeglise}
 
-A modern introduction to Voevodsky's theory is
-
-* [[Alexander Beilinson|A. Beilinson]], V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
-
 An outline of the big picture can be found in the introduction to
 
 * [[Dmitri Kaledin]], _Motivic structures in non-commutative geometry_, [arxiv/1003.3210](http://arxiv.org/abs/1003.3210)
@@ -315,14 +311,7 @@ There is also
 
 * [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
 
-Some recent generalizations of the theory, using derivators and similar techniques, are in
-
-
-* [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Symmetric monoidal structure on Non-commutative motives_, [arxiv/1001.0228](http://arxiv.org/abs/1001.0228)
-
-* [[Goncalo Tabuada|G. Tabuada]], _Representability of bivariant cyclic cohomology in Non-commutative motives_, [arxiv/1005.2336](http://arxiv.org/abs/1005.2336)
-
-* [[Goncalo Tabuada]], _Chow motives versus non-commutative motives_, [arxiv/1103.0200](http://arxiv.org/abs/1103.0200)
+For a noncommutative analogue to the theory of motives, see [[noncommutative motives]].
 
 Some other aspects
 
