@@ -1,15 +1,1 @@
-Grothendieck  envisaged a deep picture of a hypothetical category of pure and mixed [[motive]]s of varieties which has partly been fullfilled so far. This entry gives only some pointers to approaches via dg-categories and their cousins, pretriangulated $A_\infty$-[[A-infinity-category|categories]].
-
-[[Maxim Kontsevich]] embeds the search for motives of varieties into the search for motives of the dg or $A_\infty$-enhancements of the derived categories of coherent sheaves on noncommutative varieties, what denotes in algebraic geometry working with a bit larger class of pretriangulated $A_\infty$-categories. There are also dg-approaches to Voevodsky's derived category of [[mixed motive]]s.
-
-# References #
-
-* online video of Maxim Kontsevich's talk at the conference for 61st birthday of Deligne, at IAS Princeton. 
-
-* M.V. Bondarko, Differential graded motives: weight complex, weight filtrations and spectral sequences for realizations; Voevodsky vs. Hanamura, [arXiv:math.AG/0601713](http://arxiv.org/abs/math.AG/0601713)
-
-* A. Beilinson, V. Vologodsky, A DG guide to Voevodsky's motives, [arXiv:math.KT/0604004](http://arxiv.org/abs/math/0604004)
-
-* [[Marc Levine]], _Smooth motives_, _Motives and Algebraic Cycles. A Celebration in Honour of Spencer J. Bloch, Fields Institute Communications._, 2009, [arXiv](http://arxiv.org/abs/0807.2265).
-
-* [[Maxim Kontsevich]], [[Yan Soibelman]], Stability structures, motivic Donaldson-Thomas invariants and cluster transformations, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+category: empty
