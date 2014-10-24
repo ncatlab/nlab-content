@@ -26,17 +26,13 @@
 
 In a [[co-Heyting algebra]] it is possible to define an equivalent to the [[boundary]] operation in [[topology]]. In applications this affords an intrinsic view of [[mereology]] without consideration of the embedding of bodies into an ambient space.
 
-## Remark
+## Definition
 
-As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ comes naturally with a co-Heyting structure it becomes (in principle) possible to define the boundary $\partial\mathcal{A}$ of subtopos $\mathcal{A}$ in this lattice and then in turn the boundary $\partial T'$ of the [[geometric theory]] $T'$ that $\mathcal{A}$ classifies which is an extension of the theory $T$ classified by $\mathcal{E}$ (cf. Lawvere 1991, Caramello 2009).[^Law]
+Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backslash$ and _co-Heyting negation_ $\sim$. The **(co-Heyting) boundary** of $a$ is defined as $\partial a :=a\wedge\sim a$.
 
-[^Law]: The boundary operation is one in Lawvere's arsenal of (mereological) tools for the study of logical theories in the context of a topos and its subtoposes (besides e.g. the [[Aufhebung|Aufhebungs relation]]). For a more complete picture of the toolbox see Lawvere (2002).
+## Properties
 
-##Definition
-
-Let $a$ be an element of a [[co-Heyting algebra]]. The **(co-Heyting) boundary** of $a$ is defined as $\partial a :=a\wedge\sim a$.
-
-##Properties
+>
 
 * $\partial (a\wedge b) = (\partial a \wedge b)\vee (a\wedge\partial b)\quad$. (**Leibniz rule**)
 
@@ -46,7 +42,14 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The **(co-Heyting) boundary**
 
 * Every part is the sum of its _regular core_ and its boundary: $a=\sim\sim a\vee\partial a$. This suggests to view $\partial a$ as the _irregular_ part of $a$.
 
-##Related entries
+## Remark
+
+As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ comes naturally with a co-Heyting structure it becomes (in principle) possible to define the boundary $\partial\mathcal{A}$ of a subtopos $\mathcal{A}$ in this lattice and then in turn the boundary $\partial T'$ of the [[geometric theory]] $T'$ that $\mathcal{A}$ [[classifying topos|classifies]] which is an extension of the theory $T$ classified by $\mathcal{E}$ (cf. [Lawvere 1991](#Law91a), [Caramello 2009](#Cara09)).[^Law]
+
+[^Law]: The boundary operation is one in Lawvere's arsenal of (mereological) tools for the study of logical theories in the context of a topos and its subtoposes (besides e.g. the [[Aufhebung|Aufhebungs relation]]). For a more complete picture of the toolbox see [Lawvere (2002)](#Law02).
+
+
+## Related entries
 
 * [[boundary]]
 * [[co-Heyting algebra]]
@@ -56,10 +59,11 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The **(co-Heyting) boundary**
 * [[subtopos]]
 * [[Aufhebung]]
 
-##References
+## References
 
+The concept proper for co-Heyting algebras seems to stem from Lawvere ([1986](#Law86), [1991](#Law91a)) although the 1927 [article of M. Zarycki](#Zar27) already studies properties and axiomatic potential of the boundary operator in topology. [La Palme Reyes, Reyes&Zolfaghari (2004)](#RRZ04) has an introductory exposition in the context of bi-Heyting algebras. For boundaries of geometric theories [Caramello (2009)](#Cara09) is essential reading although they don't appear there explicitly. For mereological applications of the concept see [Lawvere (1986)](#Law86), [Stell&Worboys (1997)](#SW97), [Pagliani (2009)](#Pagl09) and [Mormann (2013)](#Mor13).
 
-* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
+* {#Cara09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
 
 * {#KL89}[[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
@@ -77,9 +81,9 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The **(co-Heyting) boundary**
 
 * [[Matías Menni|M. Menni]], C. Smith, _Modes of Adjointness_ , J. Philos. Logic **43** no.3-4 (2014) pp.365-391.
 
-* T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
+* {#Mor13} T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
 
-* P. Pagliani, _Intrinsic co-Heyting boundaries and information incompleteness in Rough Set Analysis_ , pp.123-130 in 
+* {#Pagl09} P. Pagliani, _Intrinsic co-Heyting boundaries and information incompleteness in Rough Set Analysis_ , pp.123-130 in 
 Polkowski, Skowron (eds.), _RSCTC 1998_ , Springer LNCS **1424** (2009).
 
 * M. van Lambalgen, _Logical constructions suggested by vision_ , Proceedings of ITALLC98, CLSI 2000. ([draft](http://staff.science.uva.nl/~michiell/docs/ITALLCCSLI.pdf))
@@ -88,6 +92,8 @@ Polkowski, Skowron (eds.), _RSCTC 1998_ , Springer LNCS **1424** (2009).
 
 * [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
 
-* M. Zarycki, _Quelque notions fondamentales de l'Analysis Situs au point de vue de l'Alg&#232;bre de la Logique_ , Fund. Math. **IX** (1927) pp.3-15. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm9/fm912.pdf))
+* {#SW97} J.G. Stell, M.F. Worboys, _The algebraic structure of sets of regions_ , pp.163-174 in Hirtle, Frank (eds.), _Spatial Information Theory_, Springer LNCS **1329** (1997).
+
+* {#Zar27} M. Zarycki, _Quelque notions fondamentales de l'Analysis Situs au point de vue de l'Alg&#232;bre de la Logique_ , Fund. Math. **IX** (1927) pp.3-15. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm9/fm912.pdf))
 
 * H. Zolfaghari, _Topos et Modalit&#233;s_ , Th&#232;se de doctorat Universit&#233; de Montr&#233;al 1991.
