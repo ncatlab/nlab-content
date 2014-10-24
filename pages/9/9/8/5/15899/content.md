@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of a _bimodule category_ is a [[categorification]] of that of [[bimodule]]. Where a [[bimodule]] is an [[abelian group]] [[action|acted]] on by two [[rings]], so a bimodule category is a suitable [[category]] suitably acted on by two [[monoidal categories]], hence a 2-sided _[[module category]]_.
+
+## References
+
+For instance
+
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
+
+
+[[!redirects bimodule categories]]
