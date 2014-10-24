@@ -19,7 +19,7 @@
 
 
 +-- {: .rightHandSide}
-> Devinette: Trouver un point commun entre la Samaritaine et SGA 4.[^CM] 
+> Devinette: Trouver un point commun entre la Samaritaine et [[SGA4|SGA 4]].[^CM] 
 =--
 
 ##Idea##
@@ -81,7 +81,7 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 
 ##References##
 
-Beside Cole's unpublished paper, the book of Johnstone (1977b), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms. See also the short remark in Caramello (2014). For higher categorical ramifications see Lurie (2009).
+Beside Cole's unpublished paper and Johnstone's article ([1977a](#Johnstone77a)), the book of Johnstone ([1977b](#Johnstone77b)), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms. See also the short remark in Caramello (2014). For higher categorical variations on the theme _spectrum_ (of a ring) see Lurie (2009).
 
 * [[Marta Bunge|M. Bunge]], [[Gonzalo E. Reyes|G. E. Reyes]] , _Boolean spectra and model completions_ , Fund.Math. **113** (1981) pp.165-173. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm113/fm113115.pdf))
 
@@ -101,9 +101,9 @@ Sheaves_ , Springer LNM **753** (1979).
 
 * [[Monique Hakim|M. Hakim]], _Topos Annel&#233;s et Sch&#233;mas Relatifs_ , Springer Heidelberg 1972.
 
-* [[Peter Johnstone|P. T. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260.
+* [[Peter Johnstone|P. T. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260. {#Johnstone77a}
 
-* P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 
+* P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 {#Johnstone77b}
 
 * [[Jacob Lurie|J. Lurie]], _Derived Algebraic Geometry V: Structured Spaces_ , ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
 
