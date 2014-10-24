@@ -16,7 +16,7 @@
 
 ## Idea
 
-What are called the __standard conjectures on algebraic cycles__ are several [[conjectures]] brought up by [[Grothendieck]], concerned with the relation between [[algebraic cycles]] and [[Weil cohomology]] theories. The first (Lefschetz standard conjecture) is an existence assertion for algebraic cycles ([Grothendieck - 68](#Grothendieck68)), the second (Hodge standard conjecture) is a statement of positivity, generalising Weil's well-known positivity theorem in the theory of abelian varieties ([Grothendieck - 68](#Grothendieck68)). They were also followed by "[[Beilinson conjecture|Beilinson's dream]]" on [[motive|motivic]] (complexes of) sheaves which comprise what are called the _standard conjectures of [[Beilinson]]_. 
+What are called the __standard conjectures on algebraic cycles__ are several [[conjectures]] brought up by [[Grothendieck]], concerned with the relation between [[algebraic cycles]] and [[Weil cohomology]] theories. The first (Lefschetz standard conjecture) is an existence assertion for algebraic cycles ([Grothendieck - 68](#Grothendieck68)), the second (Hodge standard conjecture) is a statement of positivity, generalising Weil's well-known positivity theorem in the theory of abelian varieties ([Grothendieck - 68](#Grothendieck68)). They were also followed by the [[Beilinson conjectures]]".
 
 ## Conclusions
 
@@ -32,6 +32,8 @@ Alongside the problem of resolution of singularities, the proof of the standard 
 * [[James Milne]], _Polarizations and Grothendieck's standard conjectures_ ([ 	arXiv:math/0103175](http://arxiv.org/abs/math/0103175))
 * [[Yves Andre]], _Une introduction aux motifs (motifs purs, motifs mixtes, p&#233;riodes), Panoramas et Synth&#232;ses 17, Paris: Soci&#233;t&#233; Math&#233;matique de France (2204)_ ([pdf](http://tomlr.free.fr/Math%E9matiques/Andre,%20Y%20-%20Une%20Introduction%20aux%20Motifs%20%28SMF%202004%29.pdf))
 * wikipedia [standard conjectures on algebraic cycles](http://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles)
+
+For the [[Beilinson conjectures]], see the references there.
 
 [[!redirects standard conjecture]]
 [[!redirects standard conjectures on algebraic cycles]]
