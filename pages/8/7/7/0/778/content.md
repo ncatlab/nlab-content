@@ -60,9 +60,9 @@ _Toby_:  Good system, but there shouldn\'t be a minus sign in either version!  (
 
 ## Pre-triangulated dg-categories 
 
-Intuitively, a dg-category is **pre-triangulated** if its homotopy category is a [[triangulated category]]. More precisely, it is pre-triangulated if the image of the Yoneda functor is closed under translations (in both directions) and extensions. 
+A [[pretriangulated dg-category]] is roughly a dg-category whose homotopy category is a [[triangulated category]].
 
-Pre-triangulated dg-categories linear over field $k$ of characteristic 0 are equivalent to $k$-linear [[A-infinity-category|A-infinity-categories]] and both are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+Pretriangulated dg-categories linear over field $k$ of characteristic 0 are equivalent to $k$-linear [[A-infinity-category|A-infinity-categories]] and both are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
 +--{: .query}
 [[Hanno Becker]]: Hello! Maybe one could add that in a pretriangulated dg-category $C$, the Frobenius-structure on dg-mod(C) pulls back to a Frobenius-structure on $Z^0(C)$ via the Yoneda-functor, and that dividing out its injective-projective objects turns out to be equivalent to passing to the homotopy category. Thus, the stable category of $Z^0(C)$ equals the homotopy category, which is then triangulated. 
@@ -76,13 +76,11 @@ _Zoran_: I took the conventions from Keller's article, as far as I recall. You a
 
 ### Modal category structure
 
-There is a _[[model structure on dg-categories]]_.
+There are several _[[model structure on dg-categories]]_.
 
 ### Relation to stable $\infty$-categories
 
-The [[homotopy theory]] of $k$-linear dg-categories 
-(for instance under the above [[model category]]) structure
-is that of $k$-linear [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
+The [[Morita model structure on dg-categories]] presents the [[(infinity,1)-category]] of [[idempotent complete (infinity,1)-category|idempotent complete]] [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
 
 ## Related concepts
 
@@ -102,14 +100,11 @@ is that of $k$-linear [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
 
 * [[Bernhard Keller]], _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
 
-
 * [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)) (these lectures also inspired [[Dmitry Kaledin]]'s [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul))
 
 * [[Bernhard Keller]], _Deriving DG categories_,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
 
 * [[Bernhard Keller|B. Keller]], _A remark on tilting theory and DG algebras_,  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
-
-* S. Mahanta, _Noncommutative geometry in the framework of differential graded categories_ (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
 
 * [[Dmitry Tamarkin]], _What do dg-categories form?_,
 Compos. Math. 143 (2007), no. 5, 1335--1358. 
@@ -120,19 +115,13 @@ Compos. Math. 143 (2007), no. 5, 1335--1358.
 
 * [[Goncalo Tabuada]], _Homotopy theory of DG categories_, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
 
-* G. Tabuada, _Homotopy theory of dg categories via localizing pairs and Drinfeld's dg quotient_, Homology, homotopy and applications __12__  (2010), No. 1, pp.187-219, [files](http://www.intlpress.com/HHA/v12/n1/a11).  
-
-* A. I. Bondal, M. Larsen, V. A. Lunts, _Grothendieck ring of pretriangulated categories_ (<a href="http://front.math.ucdavis.edu/0401.5009">arXiv</a>)
+* S. Mahanta, _Noncommutative geometry in the framework of differential graded categories_ (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
 
 * [[Oren Ben-Bassat]], [[Jonathan Block]], _Cohesive DG categories I: Milnor descent_, [arxiv/1201.6118](http://arxiv.org/abs/1201.6118)
 
 The relation to [[stable (infinity,1)-categories]] is discussed in
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
-
-
-
-See also [[motives and dg-categories]].
 
 
 
