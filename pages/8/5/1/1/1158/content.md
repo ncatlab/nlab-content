@@ -63,7 +63,7 @@ is a complex of sheaves of differential forms.
 ###### Definition
 
 For $k \in \mathbb{N}$
-write $\Omega^k(-) : U \mapsto \Omega^k(U)$ for the [[sheaf] of smooth differential $k$-forms on $X$
+write $\Omega^k(-) : U \mapsto \Omega^k(U)$ for the [[sheaf]] of smooth differential $k$-forms on $X$
 and $C^\infty(-,V)$ for the sheaf of smooth $V$-valued functions on  $X$. 
 
 The degree $(n+1)$ **Deligne complex** is the complex of sheaves
