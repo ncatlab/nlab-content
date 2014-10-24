@@ -151,6 +151,8 @@ Note that unlike the notion of [[Reedy category]], the notion of elegant Reedy c
 
 Elegant Reedy categories are useful to model [[homotopy type theory]].
 
+* {#Shulman12} [[Mike Shulman]], _The univalence axiom for elegant Reedy presheaves_ ([arXiv:1307.6248](http://arxiv.org/abs/1307.6248))
+
 * [[Mike Shulman]], *Univalence for inverse diagrams and homotopy canonicity* [arXiv:1203.3253](http://arxiv.org/abs/1203.3253)
 
 * Benno van den Berg and Ieke Moerdijk, *W-types in homotopy type theory*, [PDF](http://www.staff.science.uu.nl/~berg0002/papers/WinHoTT.pdf)
