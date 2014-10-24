@@ -52,4 +52,5 @@ For more along such lines see at _[[GAGA]]_.
 * [[James Milne]], section 21 of _[[Lectures on Étale Cohomology]]_
 
 [[!redirects analytic topology]]
-
+[[!redirects complex analytic site]]
+[[!redirects analytic site]]
