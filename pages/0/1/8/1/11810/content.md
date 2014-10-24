@@ -44,17 +44,15 @@ The Beilinson conjecture for [[special values of L-functions]] follows the [[Bir
 
 The original articles are
 
-* {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070 ([web (Russian original)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng))
+* {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861))
 
-* {#Beilinson80} [[Alexander Beilinson]], _Higher regulators of curves_', Funct. Anal . Appl. 14 (1980), 116-118
+* {#Beilinson80} [[Alexander Beilinson]], _Higher regulators of curves_, Funct. Anal. Appl. 14 (1980), 116-118, [mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=faa&paperid=1800&option_lang=eng).
 
-* {#Beilinson87} [[Alexander Beilinson]], _Height pairing between algebraic cycles_, in _K-Theory, Arithmetic and Geometry_, Lecture Notes in Mathematics Volume 1289, 1987, pp 1-26
-
+* {#Beilinson87} [[Alexander Beilinson]], _Height pairing between algebraic cycles_, in _K-Theory, Arithmetic and Geometry_, Lecture Notes in Mathematics Volume 1289, 1987, pp 1-26, [DOI](http://dx.doi.org/10.1007/BFb0078364).
 
 Reviews include
 
 * {#RapoportSchappacherSchneider88} [[Michael Rapoport]], N. Schappacher, [[Peter Schneider]] (eds), _Beilinson's conjectures on special values of L-functions_, Perspectives in mathematics 4, Academic Press 1988
-
 
 * {#Soule84} [[Christophe Soulé]], _R&#233;gulateurs_ S&#233;minaire Bourbaki, 27 (1984-1985), Exp. No. 644, 17 p. ([Numdam](http://www.numdam.org/item?id=SB_1984-1985__27__237_0))
 
@@ -66,6 +64,9 @@ Reviews include
 
 * {#BrylinskiZucker91} [[Jean-Luc Brylinski]], Steven Zucker, conjecture 5.20,5.21 in _An overview of recent advances in Hodge theory_,  English translation in _Several complex variables VI_, volume 69 of _Encyclopedia of Math. Sciences_, pages 39-142, 1990 (original in Itogi Nauki i Tekhniki. Ser. Sovrem. Probl. Mat. Fund. Napr., 1991,	 Volume 69, Pages 48&#8211;165  ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intf&paperid=177&option_lang=eng), [pdf (Russian original)](http://www.mathnet.ru/php/getFT.phtml?jrnid=intf&paperid=177&what=fullt&option_lang=eng)))
 
+A [[noncommutative algebraic geometry|noncommutative]] analogue is considered in
+
+* [[Dmitri Kaledin]], _Beilinson conjectures in the noncommutative setting_, [pdf](http://www.math.nyu.edu/~tschinke/books/finite-fields/final/03_kaledin.pdf).
 
 [[!redirects Beilinson conjectures]]
 
