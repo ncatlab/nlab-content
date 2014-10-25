@@ -203,7 +203,7 @@ Review of the use of $p$-adic numbers in [[arithmetic geometry]] includes
 
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 
-* &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
+* {#PelayoVoevodskyWarren13} &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
 
 
 
