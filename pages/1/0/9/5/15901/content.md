@@ -1,0 +1,8 @@
+
+
+[[set theory]] in the spirit of [[constructive mathematics]]
+
+## References
+
+* Wikipedia, _[Consturctive set theory](http://en.wikipedia.org/wiki/Constructive_set_theory)_
+
