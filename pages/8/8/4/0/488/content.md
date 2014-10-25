@@ -20,6 +20,7 @@
 A **Boolean topos** is a [[topos]] that is also a [[Boolean category]].
 
 There are several conditions on a topos that are necessary and sufficient to be boolean:
+
 * Every [[subobject]] has a complement (the general definition of boolean category).
 * Every [[subobject poset|subobject lattice]] is a [[Boolean algebra]].
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
