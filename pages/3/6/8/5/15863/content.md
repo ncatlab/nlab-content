@@ -51,6 +51,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * $a\backslash 0\leq a\backslash 0$ iff $a\leq 0\vee (a\backslash 0)$ iff $a\leq a\backslash 0\quad$. On the other hand, $a\leq 0\vee a$ and the adjunction yield $a\backslash 0\leq a\quad$, hence $a\backslash 0 = a\quad$.
 
+* Suppose $a\leq b\vee x $ then $a\backslash b\leq x$. As from $a\backslash b\leq a\backslash b$ follows $a\leq b\vee (a\backslash b)$, hence $a\backslash b =\Wedge\{x|a\leq b\vee x\}\quad$.
+
 * The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of co-Heyting algebras for paraconsistent logic.
 
 * Accordingly, a bi-Heyting algebra is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
@@ -59,7 +61,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * For $a\in L$ define its _core_ as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ _regular_. Lawvere (1986) proposes in the vain of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
-* In toposes like e.g. essential subtoposes of presheave toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects.
+* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects.
 
 ##Related entries
 
