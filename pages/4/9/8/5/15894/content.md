@@ -49,13 +49,13 @@ The more detailed answer depends on which axiomatics precisely one subsumes unde
 
 1. HoTT with [[univalence|univalent]] weak [[type universes]]   [&#224; la Tarski](type%20of%20types#TarskiStyle);
 
-1. HoTT with [[univalence|univalent]] strict [[type universes]]  [&#224; la Russel](type%20of%20types#RussellStyle) or [&#224; la Tarski](type%20of%20types#TarskiStyle);
+1. HoTT with [[univalence|univalent]] strict [[type universes]]  [&#224; la Russell](type%20of%20types#RussellStyle) or [&#224; la Tarski](type%20of%20types#TarskiStyle);
 
 In all three cases the $\infty$-categorical semantics is induced by ordinary [[categorical semantics]] in a [[type-theoretic model category]] which in turn [[locally presentable (infinity,1)-category|presents]] an [[(∞,1)-category]]. The way this works is reviewed also at _[[HoTT methods for homotopy theorists]]_. This relies on standard techniques for interpreting any [[dependent type theory]] in a [[locally cartesian closed category]] (see [here](relation+between+type+theory+and+category+theory#DependentTypeTheory) for details).
 
 With that understood, the higher categorical semantics for the above three cases is as follows:
 
-1. HoTT without univalent universes has semantics in every [[locally presentable (∞,1)-category|locally presentable]] [[locally cartesian closed (∞,1)-category]] (details are [here](locally+cartesian+closed+(infinity,1)-category#InternalLogic)).
+1. HoTT without univalent universes has semantics in every [[locally presentable (∞,1)-category|locally presentable]] [[locally cartesian closed (∞,1)-category]] (details are [here](locally+cartesian+closed+%28infinity,1%29-category#InternalLogic)).
 
 1. HoTT with strict univalent universes has semantics at least in [[(∞,1)-category of (∞,1)-presheaves|(∞,1)-presheaf]] [[(∞,1)-toposes]] over [[elegant Reedy categories]]. This includes in particular the standard [[base (∞,1)-topos]] [[∞Grpd]] as well as for instance the [[Sierpinski (∞,1)-topos]] (details are [here](relation+between+type+theory+and+category+theory#Shulman13)).
 
