@@ -466,6 +466,9 @@ See also
 
 * {#Voisin02} [[Claire Voisin]], section 12 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
+The following article contains a reformulation of Deligne cohomology in terms of [[simplicial presheaves]].
+
+* [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv](http://arxiv.org/abs/1212.2173v3).
 
 See also the references given at _[differential cohomology hexagon -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_.
 
