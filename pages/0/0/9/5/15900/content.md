@@ -12,7 +12,11 @@ By [[analytic space]] we will mean [[real analytic space]].  Let $An$ denote the
 
 Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C}$ for the complex concentrated in degree zero by the constant sheaf associated to $\mathbf{C}$.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
 
+We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
+
 ### Main constructions and conjectures
+
+#### Beilinson-Deligne cohomology
 
 For each $p \in \mathbf{Z}$, the inclusions $F^p \hookrightarrow \Omega^\bullet$ and $A(p) \hookrightarrow \mathbf{C} \hookrightarrow \Omega^\bullet$ induce a canonical morphism
   $$ F^p \oplus A(p) \longrightarrow \Omega^\bullet $$
@@ -24,23 +28,34 @@ For $p \in \mathbf{Z}$, the **Beilinson-Deligne complex of weight $p$**, denoted
   $$ (F^p \oplus A(p))[-1] \longrightarrow \Omega^\bullet[-1] \longrightarrow A(p)_\D \longrightarrow F^p \oplus A(p). $$
 =--
 
-The complex $A(p)_D \in D^+(An)$ defines a [[cohomological functor]] $R\Gamma(-, A(p)_D)$ with values in $D^+(A-mod)$.
-This is just the [[right derived functor]] of the functor of [[global sections]].
+The complex $A(p)_D \in D^+(An)$ defines a functor $R\Gamma(-, A(p)_D)$ on $An$ with values in $D^+(A-mod)$.
+This is just the [[right derived functor]] of the functor of [[global sections]]: given $X \in An$, take an [[injective resolution]] of $A(p)_D$ and evaluate each component at $X$, to get a complex of $A$-modules.
 
 +-- {: .num_defn}
 ###### Definition
 The **Beilinson-Deligne cohomology** of $X \in An$ of weight $p$ and degree $q$ with coefficients in $A$ is
   $$ H_D^q(X, A(p)) = H^q R\Gamma(X, A(p)_D), $$
-i.e. the [[sheaf cohomology]].
+i.e. the [[sheaf cohomology]] or [[hypercohomology]].
 =--
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop}
+###### Proposition
+There is a canonical [[long exact sequence]]
+  $$ \cdots \to H^{q-1}_B(X, \mathbf{C}) \to H^q_D(X, A(p)) \to F^p H^q_B(X, \mathbf{C}) \oplus H^q(X, A(p)) \to \cdots $$
 =--
 
-+-- {: .num_defn}
-###### Definition
+This follows by applying the [[cohomological functor]] $R\Gamma(X, -)$ to the above [[distinguished triangle]].
+
++-- {: .num_lemma}
+###### Lemma
+There are canonical [[quasi-isomorphisms]]
+  $$ \begin{aligned}
+    A(p)_D &\stackrel{\sim}{\longrightarrow} (A(p) \to \mathcal{O} \to \Omega^1 \to \cdots \to \Omega^{p-1}) \\
+    &\stackrel{\sim}{\longrightarrow} (0 \to \mathcal{O}/A(p) \to \Omega^1 \to \cdots \to \Omega^{p-1})
+  \end{aligned} $$
 =--
+
+#### Cup product
 
 +-- {: .num_defn}
 ###### Definition
