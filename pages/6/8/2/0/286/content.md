@@ -222,6 +222,8 @@ A discussion of the principle of equivalence in the very [[foundations]] of math
 
 * [[Vladimir Voevodsky]], _Foundations/formalization of mathematics and homotopy theory_, talk at IAS ([video](http://video.ias.edu/node/68))
 
+* {#CoquandDanielsson} [[Thierry Coquand]], Nils Anders Danielsson, _Isomorphism is equality_ ([pdf](http://www.cse.chalmers.se/~nad/publications/coquand-danielsson-isomorphism-is-equality.pdf))
+
 
 [[!redirects principle of isomorphism]]
 [[!redirects principle of equivalence]]
