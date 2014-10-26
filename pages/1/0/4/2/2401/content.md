@@ -124,12 +124,15 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli]], [[moduli problem]], [[moduli stack]]
 
+* [[classifying space]]. [[moduli stack]]
+
+* [[classifying morphism]], [[modulating morphism]]
+
 * [[representable functor]]
 * [[classifying space]], [[classifying stack]], [[classifying topos]]
 * [[moduli stack]], [[derived moduli space]], [[Deligne-Mumford stack]]
 * [[geometric invariant theory]], [[Moduli Problems and DG-Lie Algebras]], [[moduli stack of elliptic curves]]
-* [[universal principal bundle]], [[universal principal infinity-bundle]], [[classifying morphism]]
-* [[moduli space of curves]], [[moduli space of bundles]], [[moduli stack of elliptic curves]]
+* [[universal principal bundle]], [[universal principal infinity-bundle]], * [[moduli space of curves]], [[moduli space of bundles]], [[moduli stack of elliptic curves]]
 * [[Hilbert scheme]], [[Quot scheme]], [[Picard scheme]], [[moduli stabilization]]
 
 ## References
