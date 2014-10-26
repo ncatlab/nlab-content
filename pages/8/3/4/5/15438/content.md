@@ -44,6 +44,8 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * [[species]]
 
+* [[permutation model]]
+
 ##References
 
 * [[Marcelo Fiore|M. Fiore]], [[Matias Menni|M. Menni]], _Reflective Kleisli Subcategories of the Category of Eilenberg-Moore Algebras for Factorization Monads_ , TAC **15** no. 2 (2004) pp.40-65. ([pdf](http://www.tac.mta.ca/tac/volumes/15/2/15-02.pdf))
