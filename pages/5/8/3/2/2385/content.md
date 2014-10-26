@@ -114,9 +114,9 @@ Accordingly, [[descent]] for deRham spaces -- sometimes called **deRham descent*
 
 ### D-modules
 
-The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoherent sheaf|quasicoherent sheaves]] on the corresponding deRham space. 
+The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoherent sheaf|quasicoherent sheaves]] on the corresponding deRham space
+([Lurie, above theorem  0.4](#LurieCrystal)).
 
-Accordingly, quasicoherent $\infty$-stacks on the full $\Pi^{inf}(X)$ encode a higher categorical version of this, as discussed at [[schreiber:∞-vector bundle]].
 
 ### Infinitesimal path $\infty$-groupoids
 
@@ -130,7 +130,7 @@ The term _de Rham space_ or _de Rham stack_ apparently goes back to
 
 A review of the constructions is on the first two pages of
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
+* {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
 The deRham space construction on spaces ([[scheme]]s) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
