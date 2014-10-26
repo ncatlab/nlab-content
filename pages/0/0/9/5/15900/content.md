@@ -10,11 +10,13 @@ introducing [[Beilinson-Deligne cohomology]], [[Beilinson regulators]], [[higher
 
 By [[analytic space]] we will mean [[real analytic space]].
 Let $An$ denote the real [[analytic site]].
-Let $D^+(An)$ denote the [[homotopy category]] of [[abelian sheaf|sheaves]] on $An$ with values in bounded above [[cochain complexes]] of [[abelian groups]], with [[quasi-isomorphisms]] inverted.
-(Recall that, by the [[Dold-Kan correspondence]], this category is equivalent to the [[homotopy category]] of sheaves on $An$ with values in [[simplicial abelian groups]].)
-In $D^+(An)$, consider $\Omega^\bullet$, the sheaf of [[de Rham complex]]es of [[holomorphic forms]].  Let $F^i = \Omega^{\ge i}$ denote the "stupid" [[filtration]].
+Consider the category $Sh(An, C^+(Ab))$ of [[abelian sheaves|sheaves]] on $An$ with values in [[connective]] [[cochain complexes]] of [[abelian groups]].
+By the [[Dold-Kan correspondence]], this category is equivalent to the category of [[sheaves]] on $An$ with values in [[simplicial abelian groups]].
+Beilinson denotes by $D^+(An)$ the [[localization]] of $Sh(An, C^+(Ab))$ at the [[quasi-isomorphisms]].
 
-Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C}$ for the constant sheaf valued in the complex concentrated in degree zero by $\mathbf{C}$.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
+In $D^+(An)$ we have the sheaf $\Omega^\bullet$, of [[de Rham complex]]es of [[holomorphic forms]].  $\Omega^{\ge i}$ denote the "stupid" [[filtration]].
+
+Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C} \in D^+(An)$ also for the constant sheaf valued in the complex concentrated in degree zero.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
 
 We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
 
@@ -22,14 +24,14 @@ We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
 
 #### Beilinson-Deligne cohomology
 
-For each $p \in \mathbf{Z}$, the inclusions $F^p \hookrightarrow \Omega^\bullet$ and $A(p) \hookrightarrow \mathbf{C} \hookrightarrow \Omega^\bullet$ induce a canonical morphism
-  $$ F^p \oplus A(p) \longrightarrow \Omega^\bullet $$
+For each $p \in \mathbf{Z}$, the inclusions $\Omega^{\ge p} \hookrightarrow \Omega^\bullet$ and $A(p) \hookrightarrow \mathbf{C} \hookrightarrow \Omega^\bullet$ induce a canonical morphism
+  $$ \Omega^{\ge p} \oplus A(p) \longrightarrow \Omega^\bullet $$
 (given by the difference of the two inclusions).
 
 +-- {: .num_defn}
 ###### Definition
 For $p \in \mathbf{Z}$, the **Beilinson-Deligne complex of weight $p$**, denoted $A(p)_\D$, is defined as the [[mapping cone]] of the above morphism shifted by -1, hence fitting in the [[distinguished triangle]]
-  $$ (F^p \oplus A(p))[-1] \longrightarrow \Omega^\bullet[-1] \longrightarrow A(p)_\D \longrightarrow F^p \oplus A(p). $$
+  $$ (\Omega^{\ge p} \oplus A(p))[-1] \longrightarrow \Omega^\bullet[-1] \longrightarrow A(p)_\D \longrightarrow \Omega^{\ge p} \oplus A(p). $$
 =--
 
 The complex $A(p)_D \in D^+(An)$ defines a functor $R\Gamma(-, A(p)_D)$ on $An$ with values in $D^+(A-mod)$.
@@ -45,7 +47,7 @@ i.e. the [[sheaf cohomology]] or [[hypercohomology]].
 +-- {: .num_prop}
 ###### Proposition
 There is a canonical [[long exact sequence]]
-  $$ \cdots \to H^{q-1}_B(X, \mathbf{C}) \to H^q_D(X, A(p)) \to F^p H^q_B(X, \mathbf{C}) \oplus H^q(X, A(p)) \to \cdots $$
+  $$ \cdots \to H^{q-1}_B(X, \mathbf{C}) \to H^q_D(X, A(p)) \to \Omega^{\ge p} H^q_B(X, \mathbf{C}) \oplus H^q(X, A(p)) \to \cdots $$
 =--
 
 This follows by applying the [[cohomological functor]] $R\Gamma(X, -)$ to the above [[distinguished triangle]].
@@ -68,7 +70,7 @@ There exists a canonical morphism in $D^+(An)$
 defining an [[associative]] [[commutative]] multiplication.
 =--
 
-In fact, one gets a product on $A(\bullet)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\bullet) \to \Omega \leftarrow F^*$ (as [[algebra objects]] in [[chain complexes]]).
+In fact, one gets a product on $A(\bullet)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\bullet) \to \Omega \leftarrow \Omega^{\ge *}$ (as [[algebra objects]] in [[chain complexes]]).
 
 +-- {: .num_defn}
 ###### Definition
