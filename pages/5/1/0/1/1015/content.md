@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -84,6 +84,8 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 * [[Univalent Foundations Project]], section 3 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 * J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([[LedentSetinHoTT.pdf:file]])
+
+See also at [[homtopy type theory FAQ]] _[What is HoTT? -- For set theorists](homotopy+type+theory+FAQ#WhatIsHoTTForSetTheorists)_.
 
 
 
