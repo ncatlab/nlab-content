@@ -51,7 +51,9 @@ This follows by applying the [[cohomological functor]] $R\Gamma(X, -)$ to the ab
 
 +-- {: .num_lemma}
 ###### Lemma
-There are canonical [[quasi-isomorphisms]]
+For $p \le 0$ there is a canonical [[quasi-isomorphism]]
+  $$ A(p)_D \stackrel{\sim}{\longrightarrow} \Omega^{\ge p}. $$
+For $p \gt 0$ there are canonical [[quasi-isomorphisms]]
   $$ \begin{aligned}
     A(p)_D &\stackrel{\sim}{\longrightarrow} (A(p) \to \mathcal{O} \to \Omega^1 \to \cdots \to \Omega^{p-1}) & (\ast) \\
     &\stackrel{\sim}{\longrightarrow} (0 \to \mathcal{O}/A(p) \to \Omega^1 \to \cdots \to \Omega^{p-1}) & 
