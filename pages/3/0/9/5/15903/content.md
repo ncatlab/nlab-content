@@ -50,8 +50,7 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 ## Related entries
 
-* [[boundary]]
-* [[co-Heyting negation]]
+* [[co-Heyting boundary]]
 * [[co-Heyting algebra]]
 * [[Heyting algebra]]
 * [[Heyting category]]
@@ -62,7 +61,7 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 * [[Andreas Döring|A. Döring]], _Topos-based Logic for Quantum Systems and Bi-Heyting Algebras_ , arXiv:1202.2750 (2013). ([pdf](http://arxiv.org/pdf/1202.2750.pdf))
 
-* {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
+* {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in Lawvere, Schanuel (eds.), _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
 
 * {#Law91a} F. W. Lawvere, _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in Springer LNM **1488** (1991).
 
@@ -82,5 +81,5 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 * J.G. Stell, M.F. Worboys, _The algebraic structure of sets of regions_ , pp.163-174 in Hirtle, Frank (eds.), _Spatial Information Theory_, Springer LNCS **1329** (1997).
 
-* H. Wansing, _Negation_ , pp.415-436 in Goble(ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
+* H. Wansing, _Negation_ , pp.415-436 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
 
