@@ -28,13 +28,13 @@ In a [[co-Heyting algebra]] it is possible to define a **negation operator** $\s
 
 ## Definition
 
-Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backslash$. The **co-Heyting negation** of $a$ , called _non_$a$ (Lawvere 1991) or the _supplement_ of $a$, is defined as $\sim a:=1\backslash a$.
+Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backslash$. The **co-Heyting negation** of $a$ , called _non a_ (Lawvere 1991) or the _supplement_ of $a$, is defined as $\sim a:=1\backslash a$.
 
 ## Remark
 
 A [[co-Heyting algebra|bi-Heyting algebra]] is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
 
-In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ are the most interesting cases as their combination give rise to [[adjoint modalities]]. They have found applications in [[mereology]], [[linguistics]], [[intuitionistic logic]] and [[physics]].
+In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ are the most interesting cases as their combination give rise to [[adjoint modalities]] e.g. in mereology they yield _thickened boundaries_ (Stell&Worboys 1997). Beside [[mereology]] they have found applications in [[linguistics]], [[intuitionistic logic]] and [[physics]].
 
 
 ## Properties
@@ -84,4 +84,3 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 * H. Wansing, _Negation_ , pp.415-436 in Goble(ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
 
-* H. Zolfaghari, _Topos et Modalit&#233;s_ , Th&#232;se de doctorat Universit&#233; de Montr&#233;al 1991.
