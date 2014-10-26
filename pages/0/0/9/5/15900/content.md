@@ -64,7 +64,7 @@ There exists a canonical morphism in $D^+(An)$
 defining an [[associative]] [[commutative]] multiplication.
 =--
 
-In fact, one gets a product on $A(*)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(*) \to \Omega \gets F^*$ (as [[dg-algebras]]).
+In fact, one gets a product on $A(\ast)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\ast) \to \Omega \leftarrow F^*$ (as [[dg-algebras]]).
 
 +-- {: .num_defn}
 ###### Definition
