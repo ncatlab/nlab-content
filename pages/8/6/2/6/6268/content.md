@@ -17,9 +17,9 @@
 
 ## Idea
 
-A **classifying map** or **classifying morphism** for a given [[object]] is a [[morphism]] into a [[classifying space]] that classified this object.
+A **classifying map** or **classifying morphism** for a given [[object]] is a [[morphism]] into a [[classifying space]] or [[moduli space]] that classified this object.
 
-Where can I find a construction of the classifying morphism to a classifying space for a G-bundle with connection - using the connections as a 1-form?
+Typically this means that the map characterizes the object (only) up to [[equivalence]]. There is also the more refined concept of morphisms into a [[moduli stack]] that characterizes the object itself. For emphasis this case might be called a _[[modulating morphism]]_.
 
 
 ## Examples
@@ -32,7 +32,7 @@ Where can I find a construction of the classifying morphism to a classifying spa
 
 ## Related concepts
 
-* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+* [[classifying space]], [[classifying stack]], [[moduli]], [[moduli space]], [[moduli stack]], [[derived moduli space]], [[modulating morphism]]
 
 * [[display map]], [[substitution]]
 
