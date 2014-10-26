@@ -22,13 +22,13 @@
 [[!redirects CoHeyting algebra]]
 [[!redirects bi-Heyting algebra]]
 [[!redirects biHeyting agebra]]
-
+[[!redirects Brouwerian algebra]]
 
 
 ##Idea
 When the lattice of open subsets of a topological space is the primordial example of a [[Heyting algebra]] then its dual _lattice of closed subsets_ is the primordial example of a **co-Heyting algebra**.
 
-Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]], [[quantum theory]] and in [[mereology]].
+In general, co-Heyting algebras are dual to Heyting algebras and like them come equipped with non-Boolean logical operators that make them interesting players in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]], [[quantum theory]] and in [[mereology]].
 
 ##Definition
 A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
@@ -37,7 +37,11 @@ A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with
 
 A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a Heyting algebra structure with implication $\Rightarrow$ and a co-Heyting algebra structure with subtraction $\backslash$.
 
-##Examples
+## Remark
+
+Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting algebras were introduced and studied in a series of papers by Cecylia Rauszer in the 1970s who called them _semi-Boolean algebras_ which suggests to view them as a generalization of [[Boolean algebra|Boolean algebras]].
+
+## Examples
 
 * The lattice of closed subsets of a topological space is a co-Heyting algebra with $X\backslash Y=\overline{X\cap Y^c}\quad$.
 
@@ -53,18 +57,15 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * Suppose $a\leq b\vee x $ then $a\backslash b\leq x$. As from $a\backslash b\leq a\backslash b$ follows $a\leq b\vee (a\backslash b)$, hence $a\backslash b =\Wedge\{x|a\leq b\vee x\}\quad$.
 
-* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of co-Heyting algebras for paraconsistent logic.
+* The subtraction operation permits to define the [[co-Heyting negation]] $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$.
 
-* Accordingly, a bi-Heyting algebra is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
+* $\sim$ in turn can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and points to the utility of co-Heyting algebras for **paraconsistent logic**.
 
-* The co-Heyting supplement satisfies the dual de Morgan rule $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but only $\sim\sim (a\vee b) = (\sim\sim a)\wedge (\sim\sim b)$ in general.
-
-* For $a\in L$ define its _core_ as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ _regular_. Lawvere (1986) proposes in the vain of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
-
-* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects.
+* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
 
 ##Related entries
 
++ [[co-Heyting negation]]
 * [[co-Heyting boundary]]
 * [[Heyting algebra]]
 * [[Heyting category]]
@@ -75,6 +76,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 ##References
 
 * G. Bellin, _Categorical Proof Theory of Co-Intuitionistic Linear Logic_ , arXiv:1407.341 (2014). ([pdf](http://arxiv.org/pdf/1407.3416v1))
+
+* G. Bezhanishvili, N. Beshanishvili, D. Gelaia, A. Kurz, _Bitopological duality for distributive lattices and Heyting algebras_ , Math. Struc. Comp. Sci. **20** no.3 (2010) pp.359-393. ([preprint](http://www.cs.le.ac.uk/people/nb118/Publications/PairwiseStone.pdf))
 
 * [[Andreas Döring|A. Döring]], _Topos-based Logic for Quantum Systems and Bi-Heyting Algebras_ , arXiv:1202.2750 (2013). ([pdf](http://arxiv.org/pdf/1202.2750.pdf))
 
@@ -96,4 +99,6 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * J.G. Stell, M.F. Worboys, _The algebraic structure of sets of regions_ , pp.163-174 in Hirtle, Frank (eds.), _Spatial Information Theory_, Springer LNCS **1329** (1997).
 
-* M. Zarycki, _Quelque notions fondamentales de l'Analysis Situs au point de vue de l'Alg&#232;bre de la Logique_ , Fund. Math. **IX** (1927) pp.3-15. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm9/fm912.pdf))
+* [[Marshall Stone|M. H. Stone]], _Topological representation of distributive lattices and Brouwerian logics_ , Cas. Mat. Fys. **67** (1937) pp.1-25. ([pdf](http://dml.cz/bitstream/handle/10338.dmlcz/124080/CasPestMatFys_067-1938-1_1.pdf))
+
+* F. Wolter, _On logics with coimplication_ , J. Phil. Logic **27** (1998) pp.353-387. ([draft](http://lips.informatik.uni-leipzig.de/files/1998-24.pdf))
