@@ -43,11 +43,18 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 #### For set theorists
  {#WhatIsHoTTForSetTheorists}
 
-Homotopy type theory has a model in ZFC (+a number of [[Grothendieck universes]] to model the type theoretic universes). Conversely, 0-truncated types from a [[predicative topos]], and even a [[topos]] if one allows the resizing axiom.
-When adding the axiom of choice to HoTT, one obtains a model of [[ETCS]].
+Homotopy type theory is a refinement of [[constructive set theory]] that takes fully seriously the constructive nature also of [[identity types|identity]]. (As with all [[constructive mathematics]], with the relevant [[axioms]] added, this subsumes, rather than excludes, classical mathematics, see below at _[Is HoTT limited to constructive mathematics?](#IsHoTTLimitedToConstructiveMathematics)_.)
+
+It is this insistence on constructive witnesses for identity and on witnesses for identity of such witnesses, and so ever on, that makes what in traditional [[set theory]] are just [[sets]] (whose elements are either equal or not) in homotopy type theory instead be [[groupoids]] (whose elements may have non-trivial [[isomorphism]] between them) and indeed [[2-groupoids]] (with isomorphisms between these isomorphisms) and so ever on; hence what makes what used to be just [[sets]] be what is kown as _[[∞-groupoids]]_ or _[[homotopy types]]_.
+
+
+More technically, restriction to the [[0-truncated types]] in HoTT (the "[[h-set]]s") gives a [[predicative topos]] "of sets", and a [[topos]] if one allows the [[resizing axiom]] (details are [here](http://ncatlab.org/nlab/show/set%20theory#ReferencesInHomotopyTypeTheory)). When adding the [[axiom of choice]] to HoTT, one obtains a model of [[ETCS]].
 The iterative notion of set can also be captured. Aczel's sets-as-trees interpretation gives a model of constructive set theory [[CZF]]. Again by adding choice to HoTT, one obtains a model of [[ZFC]]; see Ch10 of the HoTT book.
 
-When you prove something in [[ZF]], it is automatically also true in all [[forcing]] extensions.  The same is true for [[constructive set theory]], except that there are more forcing extensions since we don't have to force the [[law of excluded middle]]; those constructive notions of forcing (which also subsume [[permutation models]]) are called "[[sites]]" and their [[models]] are called "[[topos|1-toposes]]".  Now in HoTT we have an even more general sort of forcing appropriate for [[homotopy theory]], called [[(∞,1)-sites]], whose models are called [[(∞,1)-toposes]].
+Conversely HoTT has [[models]] in [[ZFC]] (+a number of [[Grothendieck universes]] to model the type theoretic universes), namely in structures called _[[(∞,1)-toposes]]_ which are presented by [[presheaves]] of [[simplicial sets]]. (See also at _[Does HoTT have models in infinity-toposes?](#InterpretationInInfinityToposes)_)
+
+The nature and role of these higher toposes in HoTT is to be understood by analogy with the familar [[forcing]] [[models]]:
+When one proves something in [[ZF]], it is automatically also true in all [[forcing]] extensions.  The same is true for [[constructive set theory]], except that there are more forcing extensions since we don't have to force the [[law of excluded middle]]; those constructive notions of forcing (which also subsume [[permutation models]]) are called "[[sites]]" and their [[models]] are called "[[topos|1-toposes]]".  Now in HoTT we have an even more general sort of forcing appropriate for [[homotopy theory]], called [[(∞,1)-sites]], whose models are called [[(∞,1)-toposes]].
 
 #### For type theorists
 
@@ -100,6 +107,7 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 ### Is it possible to define higher coinductive types?
 
 ### Is homotopy type theory limited to constructive mathematics?
+ {#IsHoTTLimitedToConstructiveMathematics}
 
 No. 
 
@@ -114,4 +122,3 @@ For a longer answer, see for instance
 ### Can category theory be carried out in homotopy type theory?
 
 ### Can $(\infty,1)$-categories be defined in homotopy type theory?
-
