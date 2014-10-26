@@ -101,6 +101,8 @@ For more on this see the respective sections at _[[relation between type theory 
 
 ## Related concepts
 
+* [[resizing axiom]]
+
 * [[universe polymorphism]]
 
 * [[univalence]]
