@@ -97,7 +97,11 @@ The Blakers-Massey theorem in the form of remark \ref{InTermsOfPushouts} holds i
 =--
 
 This is shown in ([Rezk 10, prop. 816](#Rezk10)) with reference to [[(∞,1)-sites]].
-An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), which translates to an [[internal language]] proof for all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]).
+An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)). The fully formal computer-checked version of this proof appears as HoTT-[[Agda]] code in ([Favonia 14](#Favonia)).
+
+This translates to an [[internal language]] proof of Blakers-Massey valid in all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]). Unwinding of the fully formal HoTT proof to ordinary mathematical language is, for the special case of the Freudenthal suspension theorem, in ([Rezk 14](#Rezk14)).
+
+
 
 
 
@@ -187,4 +191,6 @@ An announcement was given in
 
 > One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
 
+Unwinding to ordinary mathematical language of the computer-checked formal proof of the special case that is the Freudenthal suspension theorem is in 
 
+* {#Rezk14} [[Charles Rezk]], _Proof of Freudenthal suspension_, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/freudenthal.pdf))
