@@ -10,11 +10,10 @@ introducing [[Beilinson-Deligne cohomology]], [[Beilinson regulators]], [[higher
 
 By [[analytic space]] we will mean [[real analytic space]].
 Let $An$ denote the real [[analytic site]].
-Consider the category $Sh(An, C^+(Ab))$ of [[abelian sheaves|sheaves]] on $An$ with values in [[connective]] [[cochain complexes]] of [[abelian groups]].
-By the [[Dold-Kan correspondence]], this category is equivalent to the category of [[sheaves]] on $An$ with values in [[simplicial abelian groups]].
-Beilinson denotes by $D^+(An)$ the [[localization]] of $Sh(An, C^+(Ab))$ at the [[quasi-isomorphisms]].
+Consider the category $Sh(An, Ab)$ of [[abelian sheaves|sheaves]] of [[abelian groups]].
+Beilinson denotes by $D^+(An)$ the bounded above [[derived category]], i.e. the category of [[connective]] [[cochain complexes]] up to [[quasi-isomorphism]].
 
-In $D^+(An)$ we have the sheaf $\Omega^\bullet$, of [[de Rham complex]]es of [[holomorphic forms]].  $\Omega^{\ge i}$ denote the "stupid" [[filtration]].
+In $D^+(An)$ we have the complex $\Omega^\bullet$, of [[de Rham complex]]es of [[holomorphic forms]].  Let $\Omega^{\ge i}$ denote the "stupid" [[filtration]].
 
 Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C} \in D^+(An)$ also for the constant sheaf valued in the complex concentrated in degree zero.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
 
@@ -22,7 +21,7 @@ We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
 
 ### Main constructions and conjectures
 
-#### Beilinson-Deligne cohomology
+#### Deligne cohomology
 
 For each $p \in \mathbf{Z}$, the inclusions $\Omega^{\ge p} \hookrightarrow \Omega^\bullet$ and $A(p) \hookrightarrow \mathbf{C} \hookrightarrow \Omega^\bullet$ induce a canonical morphism
   $$ \Omega^{\ge p} \oplus A(p) \longrightarrow \Omega^\bullet $$
@@ -30,18 +29,16 @@ For each $p \in \mathbf{Z}$, the inclusions $\Omega^{\ge p} \hookrightarrow \Ome
 
 +-- {: .num_defn}
 ###### Definition
-For $p \in \mathbf{Z}$, the **Beilinson-Deligne complex of weight $p$**, denoted $A(p)_\D$, is defined as the [[mapping cone]] of the above morphism shifted by -1, hence fitting in the [[distinguished triangle]]
+For $p \in \mathbf{Z}$, the **Deligne complex of weight $p$**, denoted $A(p)_\D$, is defined as the [[mapping cone]] of the above morphism shifted by -1, hence fitting in the [[distinguished triangle]]
   $$ (\Omega^{\ge p} \oplus A(p))[-1] \longrightarrow \Omega^\bullet[-1] \longrightarrow A(p)_\D \longrightarrow \Omega^{\ge p} \oplus A(p). $$
 =--
 
-The complex $A(p)_D \in D^+(An)$ defines a functor $R\Gamma(-, A(p)_D)$ on $An$ with values in $D^+(A-mod)$.
-This is just the [[right derived functor]] of the functor of [[global sections]]: given $X \in An$, take an [[injective resolution]] of $A(p)_D$ and evaluate each component at $X$, to get a complex of $A$-modules.
+The Deligne cohomology is just the [[hypercohomology]] of this complex.  That is, consider the [[right derived functor]] $R\Gamma(-, A(p)_D)$ of the functor of [[global sections]] on $An$ with values in $D^+(A-mod)$.
 
 +-- {: .num_defn}
 ###### Definition
-The **Beilinson-Deligne cohomology** of $X \in An$ of weight $p$ and degree $q$ with coefficients in $A$ is
-  $$ H_D^q(X, A(p)) = H^q R\Gamma(X, A(p)_D), $$
-i.e. the [[sheaf cohomology]] or [[hypercohomology]].
+The **Deligne cohomology** of $X \in An$ of weight $p$ and degree $q$ with coefficients in $A$ is
+  $$ H_D^q(X, A(p)) = H^q R\Gamma(X, A(p)_D). $$
 =--
 
 +-- {: .num_prop}
