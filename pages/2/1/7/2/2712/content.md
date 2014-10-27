@@ -34,6 +34,11 @@ The [[CFT|Fuchs-Runkel-Schweigert-construction]] builds from the RT-construction
 
 ## References
 
+Original articles include
+
+* {#ReshetikhinTuraev91} Reshetikhin; Turaev, _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+
+
 A standard textbook account is
 
 * B. Bakalov & [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
