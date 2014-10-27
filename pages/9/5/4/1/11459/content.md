@@ -26,6 +26,10 @@
 
 The [[real-oriented cohomology theory]]-version of [[Morava E-theory]].
 
+## Related concepts
+
+* [[w4-orientation of EO(2)-theory]]
+
 ## References
 
 ER-theory was constructed in 
@@ -41,4 +45,3 @@ The [[orientation in generalized cohomology]] for $ER$-theory by $w_4$-structure
 Some relations to versions of [[tmf]] are discussed in 
 
 * [[Mark Mahowald]], [[Charles Rezk]], _Topological Modular Forms of Level 3_, Pure and Applied Math. Quarterly, 5 (2009) 853-872 ([arXiv:0812.2009](http://arxiv.org/abs/0812.2009))
-
