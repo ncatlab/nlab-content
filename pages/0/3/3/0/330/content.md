@@ -18,7 +18,7 @@ One striking difference between [[set theory]] and [[category theory]] is that, 
 
 ## Definition
 
-If a category $C$ has a [[terminal object]] $1$, a __global element__ of another object $x$ is a morphism $1 \to x$-
+If a category $C$ has a [[terminal object]] $1$, a __global element__ of another object $x$ is a morphism $1 \to x$.
 
 So a global element is a [[generalized element]] at "stage of definition" $1$.
 
@@ -35,7 +35,7 @@ For example:
 
 ## Variations
 
-Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of elment of $x$. But here the adjective 'global' is not used.
+Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of element of $x$. But here the adjective 'global' is not used.
 
 In contrast to a global element, a morphism to $x$ from _any_ object $i$ whatsoever may be seen as a [[generalized element]] of $x$. For example, if $i$ is the [[unit interval]] (in topology, chain complexes, etc), then a map from $i$ to $x$ is a *path* (rather than a point) in $x$. Or in a slice category $C/b$, if $\rho: a \to b$ is an [[embedding]], then a morphism from $\rho$ to $\pi$ is a _local_ section of $\pi$.
 
