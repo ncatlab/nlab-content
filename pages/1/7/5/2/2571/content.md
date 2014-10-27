@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -124,6 +125,8 @@ Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, w
 [[!redirects Zermelo-Fraenkel]]
 [[!redirects Zermelo–Fraenkel]]
 [[!redirects Zermelo--Fraenkel]]
+
+[[!redirects Zermelo set theory]]
 
 [[!redirects CPZ]]
 
