@@ -36,7 +36,7 @@ The original and motivating example is the real version of [[complex K-theory]] 
 
 A modern review is in ([Kriz 01, section 2](#Kriz01)).
 
-Beware the terminological issue expanded on also at _[[KR-theory]]_: real-oriented versions of "complex" cohomology theory, being genuinely $\mathbb{Z}_2$-equivariant, are richer than just the "orthogonal" [[homotopy fixed point]] theory. In particular on $\mathbb{Z}_2$-spaces of the form $X\cup X$ on which $\mathbb{Z}_2$ acts by swapping the two copies, it the real version reduces to the original version on $X$. Hence real-oriented cohomology is a genuine generalization of complex-oriented cohomology. For instance [[KR-theory]] subsumes both [[complex K-theory]] as well as [[KO-theory]] as well as [[KSC-theory]].
+Beware the terminological issue expanded on also at _[[KR-theory]]_: real-oriented versions of "complex" cohomology theory, being genuinely $\mathbb{Z}_2$-equivariant, are richer than just the "orthogonal" [[homotopy fixed point]] theory. In particular on $\mathbb{Z}_2$-spaces of the form $X\cup X$ on which $\mathbb{Z}_2$ acts by swapping the two copies, the real version reduces to the original version on $X$. Hence real-oriented cohomology is a genuine generalization of complex-oriented cohomology. For instance [[KR-theory]] subsumes both [[complex K-theory]] as well as [[KO-theory]] as well as [[KSC-theory]].
 
 ## Applications
 
