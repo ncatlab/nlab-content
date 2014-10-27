@@ -257,6 +257,9 @@ In particular one gets the [[Chern character]]
 
 #### Homologies
 
+In this paragraph, Beilinson considers the [[homology theory]] dual to Deligne cohomology.
+For a smooth [[analytic space]] $X$ let $\Omega^{p,q}_{X^\infty}$ denote the sheaf of $C^\infty$ $(p,q)$-forms, and let $\Omega'^{p,q}_{X^\infty}$ denote the sheaf of distributions
+
 #### Cycles
 
 #### Hodge conjecture for Deligne cohomology
