@@ -135,19 +135,67 @@ The first row comes from the [[Gersten-Quillen resolution]] for K-theory.
 
 #### Relative cohomology
 
-If $E$ and $F$ are [[toposes]] and $u^* : E \rightleftarrows F : u_*$ is a [[morphism of toposes]], consider the [[topos]] whose objects are morphisms $u^*(x) \to y$ for $x \in E$, $y \in F$, and morphisms are commutative diagrams.
+If $S$ and $T$ are [[toposes]] and $u^* : S \rightleftarrows T : u_*$ is a [[geometric morphism]], consider the [[Artin gluing]], i.e. the [[topos]] $(id_S/u_*) = (u^*/id_T)$ whose objects are morphisms $u^*(F) \to G$ for $F \in S$, $G \in T$, and morphisms are commutative diagrams.
+Write $(S, T)$ for this topos.
 
 +-- {: .num_defn}
 ###### Definition
-
+The functor of [[global sections]] on $(S, T)$ is the [[left exact functor]]
+  $$ \Gamma(S, T, -) : Ch^+(Ab(S, T)) \longrightarrow Ch^+(Ab) $$
+defined by
+  $$ \Gamma(S, T, F) = Cone(\Gamma(T, F_T) \to \Gamma(S, F_S))[-1] $$
+for each sheaf $F \in (S, T)$ given by $u^*(F_S) \to F_T$ with $F_S \in S$ and $F_T \in T$.
+Let $R\Gamma(S, T, -) : D^+(Ab(S, T)) \to D^+(Ab)$ denote its [[right derived functor]].
 =--
 
-+-- {: .num_defn}
-###### Definition
-=--
+The rest of this section is just defining a [[monoidal product]] on $Ch^+(Ab((S, T)))$, and explaining that a [[monoid]] in $D^+(Ab((S,T)))$ will induce a [[monoid]] in $D^+(Ab)$, i.e. a [[dg-algebra]], after taking [[cohomology]].
+
 #### Complexes with logarithmic singularities
 
+Let $\Pi$ denote the category of pairs $(X, \overline{X})$ with $\overline{X} \in An$ [[smooth manifold|smooth]] and $j : X \hookrightarrow \overline{X}$ an [[open subspace]] such that the complement $\overline{X} - X$ is a [[normal crossing divisor]].
+The [[open immersion]] $j$ induces a functor $\Ouv(X) \to \Ouv(\overline{X})$ on the [[petit sites]] by mapping an open subspace $U \subset X$ to $U \subset X \subset \overline{X}$.
+This induces a [[geometric morphism]] $j^* : \overline{X}^{\sim} \rightleftarrows X^{\sim} : j_*$ on the [[petit toposes]].
+Following the discussion of the previous section, we make the
 
++-- {: .num_defn}
+###### Definition
+The **topos of the pair** $(X, \overline{X})$ is defined to be the [[Artin gluing]] $(j^*/id)$, and will be denoted $(X, \overline{X})^{\sim}$.
+Hence a **sheaf on the pair** $(X, \overline{X})$ is a sheaf $F$ on $X$, a sheaf $G$ on $\overline{X}$, and a connecting morphism $j^*(G) \to F$.
+=--
+
+Let $\Omega^\bullet_{X,\overline{X}} \in \Ch^+(Ab((X, \overline{X})^{\sim}))$ denote the [[de Rham complex]] of [[holomorphic forms]] on $C$ with [[logarithmic singularities]] along $\overline{X} - X$.
+That is, $\Omega^\bullet_{X,\overline{X}}$ is an object of $Ch^+(Ab(\overline{X}^\sim))$ and we view it as a complex on $(X, \overline{X})^\sim$ by taking the part on $X^\sim$ to be trivial.
+Let $\Omega^{\ge p}_{X, \overline{X}}$ denote the stupid [[filtration]].
+
+Now we define a complex of abelian sheaves $A(p)_D$ in $Ch^+(Ab((X, \overline{X})^{\sim}))$ as follows.
+
++-- {: .num_defn}
+###### Definition
+The **Beilinson-Deligne complex with logarithmic singularities** of weight $p$ of the pair $(X, \overline{X})$ is a complex of abelian sheaves on $(X, \overline{X})^\sim$, denoted $A(p)_D \in Ch^+(Ab((X, \overline{X})^\sim))$ and defined as follows.
+In degree $n \in \mathbf{Z}$, take the sheaf
+  $$ A(p)_{D,X} = Cone^n(A(p) \to \Omega^\bullet_X) $$
+in $X^\sim$ (where the [[mapping cone]] is taken in $Ch^+(Ab(X^\sim))$), and the sheaf
+  $$ A(p)_{D,\overline{X}} = \Omega^{\ge p}_{X, \overline{X}} $$
+in $\overline{X}^\sim$, together with the connecting morphism induced by the inclusion $j^*(\Omega^{\ge p}) \hookrightarrow \Omega^\bullet_X$.
+=--
+
++-- {: .num_defn}
+###### Definition
+The **Beilinson-Deligne cohomology with logarithmic singularities** of the pair $(X, \overline{X})$ in weight $p$ and degree $q$ and with coefficients in $A$, is the [[hypercohomology]]
+  $$ H^q_D(X, \overline{X}, A(p)) = H^q R\Gamma((X, \overline{X})^\sim, A(p)_D). $$
+=--
+
+One defines a cup product on these complexes in the same way as above, and gets a graded commutative ring structure on Beilinson-Deligne cohomology with logarithmic singularities.
+
++-- {: .num_defn}
+###### Definition
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+=--
 
 #### Deligne cohomology for algebraic varieties
 
