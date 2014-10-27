@@ -10,3 +10,4 @@
 | 2 | [[type II superstring]] | [[Dirac-Ramond operator]] |  [[superstring]] [[partition function]] in NS-R sector | [[Ochanine elliptic genus]] |   | [[SO orientation of elliptic cohomology]]  |
 |  | [[heterotic superstring]] | [[Dirac-Ramond operator]] |  [[superstring]] [[partition function]]  | [[Witten genus]] | [[Eisenstein series]]  | [[string orientation of tmf]] |
 |  | [[self-dual string]]  |   |  [[M5-brane charge]] |   |   | |
+| 3|                       |   |                      |   |   | [[w4-orientation of EO(2)-theory]] |
