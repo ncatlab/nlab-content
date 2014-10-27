@@ -198,13 +198,13 @@ One defines a cup product on these complexes in the same way as above, and gets 
 #### Deligne cohomology for algebraic varieties
 
 Let $\Pi' \subset \Pi$ denote the full subcategory spanned by pairs $(X, \overline{X})$ for which $\overline{X}$ is a [[smooth variety|smooth]] [[projective variety|projective]] [[algebraic variety]].
-Let $Sch = Sch_\mathbf{R}$ denote the category of [[smooth variety|smooth]] [[quasi-projective variety|quasi-projective]] [[schemes]] over $\mathbf{R}$.
-By the [[GAGA]] principle, we have a functor $\sigma : \Pi' \to Sch$ which sends a pair $(X, \overline{X})$ to $X$.
-Conversely given $X \in Sch$, by [[Hironaka]] there exists a pair $(X, \overline{X}) \in \Pi'$ (a compactification).
+Let $V = V_\mathbf{R}$ denote the category of [[smooth variety|smooth]] [[quasi-projective variety|quasi-projective]] [[schemes]] over $\mathbf{R}$.
+By the [[GAGA]] principle, we have a functor $\sigma : \Pi' \to V$ which sends a pair $(X, \overline{X})$ to $X$.
+Conversely given $X \in V$, by [[Hironaka]] there exists a pair $(X, \overline{X}) \in \Pi'$ (a compactification).
 
 +-- {: .num_defn}
 ###### Definition
-Let $X \in Sch$ be a smooth quasi-projective algebraic variety over $\mathbf{R}$.
+Let $X \in V$ be a smooth quasi-projective algebraic variety over $\mathbf{R}$.
 Let $(X, \overline{X}) \in \Pi'$ be a compactification and define the **Beilinson-Deligne cohomology** of $X$ as
   $$ H_D^q(X, A(p)) = H^q R\Gamma(\overline{X}, X, A(p)_D) $$
 and
@@ -221,7 +221,7 @@ He notes that this is not necessary for the remainder of the paper, so we omit t
 
 There is a canonical morphism
   $$ c_1 : R\Gamma(X, \mathcal{O}^*)[-1] \longrightarrow H_D(X, A(1)) $$
-for each $X \in \Sch$.
+for each $X \in V$.
 This induces a canonical homomorphism
   $$ Pic(X) = H^1(X, \mathcal{O}^*) \longrightarrow H^2(X, A(1)) $$
 from the [[Picard group]] of [[invertible sheaves]].
@@ -257,50 +257,83 @@ In particular one gets the [[Chern character]]
 
 #### Homologies
 
-In this paragraph, Beilinson considers the [[homology theory]] dual to Deligne cohomology.
-For a smooth [[analytic space]] $X$ let $\Omega^{p,q}_{X^\infty}$ denote the sheaf of $C^\infty$ $(p,q)$-forms, and let $\Omega'^{p,q}_{X^\infty}$ denote the sheaf of $(p,q)$-forms with [[distribution]] coefficients on $\Omega^{-p,-q}_{X^\infty}$.
-These defines [[bicomplexes]] of [[abelian groups]], and we write $\Omega^\bullet_{X^\infty}$ and $\Omega'^\bullet_{X^\infty}$ for their [[totalizations]], respectively.
-Let $\Omega^{\ge *}_{X^\infty}$ and $\Omega'^{\ge *}_{X^\infty}$ denote the respective "stupid" [[filtrations]] on each.
-Of course, one has the structure of a [[monoid]] on $\Omega^\bullet_{X^\infty}$, making it a [[dg-algebra]].
+In this paragraph, our goal is to define the [[homology theory]] dual to Deligne cohomology, for schemes over $\mathbf{R}$.
+To do this, we first define functorial complexes on $\Pi_*$.
+Then they extend, more or less formally, to the category of finite type schemes over $\mathbf{R}$ and [[proper maps]].
+Then we establish [[Poincare duality]].
+
+##### for smooth analytic spaces
+
++-- {: .num_defn}
+###### Definition
+Let $X \in An$ be smooth.
+Let
+  $$ \mathcal{A}^\bullet_X \qquad \text{(resp.} \quad \mathcal{D}^\bullet_X \text{)} $$
+denote the complex of $C^\infty$ [[differential forms|forms]] (resp. with [[distribution]] coefficients on $\mathcal{A}^{-p,-q}_{X}$).
+This is the [[totalization]] of the [[double complex]] $\mathcal{A}^{*,*}_X$ (resp. $\mathcal{D}^{*,*}_X$) formed by sheaves of $(p,q)$-forms (resp. with [[distribution]] coefficients).
+Let $\mathcal{A}^{\ge *}_{X}$ and $\mathcal{D}^{\ge *}_{X}$ denote the respective induced [[filtrations]].
+
+Let
+  $$ C'^\bullet(X, A(p)) $$
+denote the complex of $C^\infty$ [[singular chains]] with coefficents in the [[constant sheaf]] $A(p)$.
+
+Let
+  $$ \mathcal{D}^\bullet_X = \Gamma_c(X, \mathcal{D}_X) $$
+denote the complex of [[global sections]] with [[compact support]].
+(Here we view $\mathcal{D}_X$ as a sheaf on $X$.)
+=--
+
+##### for pairs (logarithmic singularity)
+
+Let $\Pi_* \subset \Pi$ denote the subcategory with the same objects and only morphisms $f : (X, \overline{X}) \to (Y, \overline{Y})$ which satisfy $f(\overline{X} - X) \subset \overline{Y} - Y$.
+
++-- {: .num_defn}
+###### Definition
+Let $(X, \overline{X}) \in \Pi_*$.
+Define the complexes
+  $$ \mathcal{A}^\bullet_{(X, \overline{X})} = \mathcal{A}^\bullet_{\overline{X}} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+and
+  $$ \mathcal{D}^\bullet_{(X, \overline{X})} = \mathcal{D}^\bullet_{\overline{X}} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+with the induced filtrations $\mathcal{A}^{\ge *}_{(X, \overline{X})}$ and $\mathcal{D}^{\ge *}_{(X, \overline{X})}$.
+
+Define the complex of relative $C^\infty$ singular chains on $(X, \overline{X})$ as the [[quotient chain complex]]
+  $$ C'^\bullet(X, \overline{X}, A(i)) := C'^\bullet(\overline{X}, A(i))/C'^\bullet(\overline{X}-X, A(i)). $$
+
+Let
+  $$ \mathcal{D}^\bullet(X, \overline{X}) = \Gamma_c(\overline{X}, \mathcal{D}^\bullet_{(X, \overline{X})}) $$
+denote the complex of sections with [[compact support]], with the induced filtration $\mathcal{D}^{\ge *}(X, \overline{X})$.
+=--
+
+Finally, define the complex $C'_D(X, \overline{X}, A(p))$ (this is the complex that will give us the Deligne homology groups $H'_D^*(X, \overline{X}, A(p))$).
+
++-- {: .num_defn}
+###### Definition
+For $(X, \overline{X}) \in \Pi_*$, define the complex
+  $$ C'_D(X, \overline{X}, A(p)) = Cone(\mathcal{D}^{\ge p}(X, \overline{X}) \oplus C'^\bullet(X, \overline{X}, A(i)) \longrightarrow \mathcal{D}^\bullet(X, \overline{X})). $$
+=--
+
+This is functorial on $\Pi_*$.
+
+##### for schemes
+
+Let $Sch_*$ denote the category of [[finite type]] schemes over $\mathbf{R}$ and [[proper maps]].
+Let $V_* \subset Sch_*$ denote the subcategory of smooth quasi-projective schemes.
+Let $\Pi'_* = \Pi' \cap \Pi_*$ denote the category of pairs $(X, \overline{X})$ with $\overline{X}$ smooth projective, $X \subset \overline{X}$ open with $\overline{X} - X$ a normal crossing divisor, and with morphisms $f : (X, \overline{X}) \to (Y, \overline{Y})$ such that $f(\overline{X} - X) \subset \overline{Y} - Y$.
 
 +-- {: .num_lemma}
 ###### Lemma
-In the [[filtered derived category]] of [[abelian groups]] one has inclusions
-  $$ (\Omega^\bullet_X, \Omega_X^{\ge *})
-     \hookrightarrow (\Omega^\bullet_{X^\infty}, \Omega_{X^\infty}^{\ge *})
-     \hookrightarrow (\Omega'^\bullet_{X^\infty}[-2\dim(X)], \Omega'_{X^\infty}^{\ge (*+\dim(X))}) $$
-which compose to a [[filtered quasi-isomorphism]].
+The functor $C'^\bullet_D(-, A(p))$ on the category $\Pi'_*$ extends uniquely to a functor on $Sch_*$.
+In particular one gets has a [[distinguished triangle]] in $D^+(A-mod)$
+  $$ \longrightarrow H'_{dR}(X) \longrightarrow H'_D(X, A(p)) \longrightarrow F^i H'_{dR}(X) \oplus H'_B(X, A(p)) \longrightarrow, $$
+where $H'_{dR}$ is [[de Rham homology]], $F^i$ is the [[Hodge filtration]], $H'_B$ is the [[Borel-Moore homology]] with coefficients in the [[constant sheaf]] $A(p)$, and $H'_D(X, A(p))$ is the [[Deligne homology]], defined by the complex $C'_D(X, A(p))$.
 =--
 
-We pass to the logarithmic singularity versions as follows.
-
-+-- {: .num_defn}
-###### Definition
-Let $(X, \overline{X}) \in \Pi$ be a pair as above.
-Define the complexes
-  $$ \Omega^\bullet_{(X, \overline{X})^\infty} = \Omega^\bullet_{\overline{X}^\infty} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
-and
-  $$ \Omega'^\bullet_{(X, \overline{X})^\infty} = \Omega'^\bullet_{\overline{X}^\infty} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
-with filtrations
-  $$ \Omega_{X^\infty}^{\ge *} = \Omega^{\ge *}_{\overline{X}^\infty} \otimes_{\Omega_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
-and
-  $$ \Omega'_{X^\infty}^{\ge *} = \Omega'^{\ge *}_{\overline{X}^\infty} \otimes_{\Omega_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
-respectively.
-=--
-
-
-+-- {: .num_defn}
-###### Definition
-The complex of **relative singular chains** on $(X, \overline{X})$ is defined as the [[quotient chain complex]]
-  $$ C'^\bullet(X, \overline{X}, A(i)) := C'^\bullet(\overline{X}, A(i))/C'^\bullet(\overline{X}-X, A(i)). $$
-Define the complex
-  $$ \Omega'^\bullet(X, \overline{X}) = \Gamma_c(\overline{X}, \Omega'^\bullet_{(X, \overline{X})^\infty}) $$
-the complex of sections with [[compact support]], with the filtration
-  $$ \Omega'^{\ge *}(X, \overline{X}) = \Gamma_c(\overline{X}, \Omega'^{\ge *}_{(X, \overline{X})^\infty}) $$
-=--
-
-+-- {: .num_defn}
-###### Definition
++-- {: .num_lemma}
+###### Lemma
+**(Poincare duality).**
+Let $X$ be a smooth scheme of dimension $n$.
+There is a canonical isomorphism
+  $$ H'_D(X, A(p)) = H_D(X, A(p+n))[2n]. $$
 =--
 
 #### Cycles
@@ -309,6 +342,18 @@ the complex of sections with [[compact support]], with the filtration
 
 ### Regulators
 
++-- {: .num_lemma}
+###### Lemma
+
+=--
++-- {: .num_lemma}
+###### Lemma
+
+=--
++-- {: .num_lemma}
+###### Lemma
+
+=--
 ...
 
 ## References
