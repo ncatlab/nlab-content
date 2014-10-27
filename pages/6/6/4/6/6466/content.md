@@ -197,33 +197,49 @@ Let $X$ be a [[topological space]], and $\mathrm{Sh}(X)$ its [[category of sheav
 
 Thus, for every topological space $X$, the topos $\mathrm{Sh}(X)$ has a Dedekind real numbers object $\mathbb{R}$. Na&#239;vely one might expect $\mathbb{R}$ to be isomorphic to the constant sheaf $\Delta(\mathbf{R})$, where $\mathbf{R}$ is the classical set of real numbers, but this turns out not to be the case. Instead, we have a rather more remarkable result:
 
-+-- {: .num_theorem}
++-- {: .num_theorem #DedekindRealsInToposOverTopologicalSpace}
 ###### Theorem
+
 A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is isomorphic to the sheaf of real-valued [[continuous functions]] on $X$.
+
 =--
 
-+-- {: .proof}
-###### Proof
-See [Mac Lane and Moerdijk](#MM94) (Chapter VI, &#167;8).
-=--
+This is shown in ([MacLane-Moerdijk, Chapter VI, &#167;8, theorem 2](#MM94)).
 
-This allows us to define various further constructions on $X$ in internal terms in $\mathrm{Sh}(X)$; for example, a [[vector bundle]] over $X$ is an internal [[projective object|projective]] $\mathbb{R}$-[[module]].
++-- {: .num_remark}
+###### Remark
+
+Theorem \ref{DedekindRealsInToposOverTopologicalSpace} allows us to define various further constructions on $X$ in internal terms in $\mathrm{Sh}(X)$; for example, a [[vector bundle]] over $X$ is an internal [[projective object|projective]] $\mathbb{R}$-[[module]].
+
+=--
 
 ### In sheaves on a gros site of topological spaces
+ {#InGrosToposOnTopologicalSpaces}
 
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $\{\mathbb{R}\} \hookrightarrow S \hookrightarrow Top$ be a [[small category|small]] [[full subcategory]] of [[Top]] including the [[real line]]. Sufficient conditions on $S$ such that the real number object internal to $Sh(S)$ is [[representable functor|represented]] by $\mathbb{R}^1$ include:
+Let $\{\mathbb{R}\} \hookrightarrow S \hookrightarrow Top$ be a [[small category|small]] [[full subcategory]] of [[Top]] including the [[real line]]. Sufficient conditions on $S$ such that the Dedekind real number object internal to $Sh(S)$ is [[representable functor|represented]] by $\mathbb{R}^1$ include:
 
 * $S$ is closed under forming [[open subspaces]] and [[finite limits]].
 
 =--
 
-([MacLane-Moerdijk, chapter VI](#MM94)).
+This is proven as ([MacLane-Moerdijk,  chapter VI &#167;9, theorem 2](#MM94)) by showing that over each object in the site the argument reduces essentially to that of theorem \ref{DedekindRealsInToposOverTopologicalSpace} for that object.
 
-> (It seems the proof uses of the assumption of finite limits only products and pullback of covers. Check.)
++-- {: .num_remark}
+###### Remark
+
+It seems that this proof uses the assumption of closure under forming open subspaces and finite limits only to ensure that $S$ inherits the [[Grothendieck topology]] from [[Top]]. But if we assumed that $S$ only inherited a [[coverage]], then the argument would still seem to go through. That then includes the cases
+
+* $S =$ $\{$ [[locally contractible topological spaces]] $\}$
+
+* $S =$ $\{$ [[topological manifolds]] $\}$
+
+(for which $Sh(S)$ is [[cohesive topos]] and $Sh_\infty(S)$ is an [[cohesive (∞,1)-topos]]).
+
+=--
 
 ## Generalizations
 
@@ -239,17 +255,15 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 ## References
 
-Section D4.7 of 
+Discussion in [[topos theory]] is in
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], section D4.7 of  _[[Sketches of an Elephant]]_
 
-See also
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], section VI.8 of _[[Sheaves in Geometry and Logic]]_
 
-* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+Discussion in [[homotopy type theory]] is in
 
-Discussion in [[homotopy type theory]] is in section 11 of of 
-
-* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 [[!redirects real numbers objects]]
 [[!redirects real number object]]
