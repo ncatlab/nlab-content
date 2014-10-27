@@ -205,7 +205,7 @@ We also consider the [[(∞,1)-monads]]/comoands induced from these reflections:
 
 The above says that these interact with the modalities of the ambient cohesion, i.e.
 
-1. the [[shape modality]] $&#643;_{inf}$;
+1. the [[shape modality]] $&#643;$;
 
 1. the [[flat modality]] $\flat$;
 
