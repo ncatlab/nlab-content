@@ -160,6 +160,8 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
   * [[twisted Wu structure]]
 
 * [[2-framing]]
+  
+  [[w4-orientation of EO(2)-theory]]
 
 * [[differential T-duality]]
 
@@ -201,6 +203,7 @@ In
 
 it is proposed to call such twisted structures "relative fields". 
 
+[[!redirects c-structure]]
 
 [[!redirects twisted differential c-structure]]
 [[!redirects twisted differential c-structures]]
