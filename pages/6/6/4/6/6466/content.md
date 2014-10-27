@@ -209,6 +209,21 @@ See [Mac Lane and Moerdijk](#MM94) (Chapter VI, &#167;8).
 
 This allows us to define various further constructions on $X$ in internal terms in $\mathrm{Sh}(X)$; for example, a [[vector bundle]] over $X$ is an internal [[projective object|projective]] $\mathbb{R}$-[[module]].
 
+### In sheaves on a gros site of topological spaces
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $\{\mathbb{R}\} \hookrightarrow S \hookrightarrow Top$ be a [[small category|small]] [[full subcategory]] of [[Top]] including the [[real line]]. Sufficient conditions on $S$ such that the real number object internal to $Sh(S)$ is [[representable functor|represented]] by $\mathbb{R}^1$ include:
+
+* $S$ is closed under forming [[open subspaces]] and [[finite limits]].
+
+=--
+
+([MacLane-Moerdijk, chapter VI](#MM94)).
+
+> (It seems the proof uses of the assumption of finite limits only products and pullback of covers. Check.)
 
 ## Generalizations
 
