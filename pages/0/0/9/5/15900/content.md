@@ -272,6 +272,37 @@ In the [[filtered derived category]] of [[abelian groups]] one has inclusions
 which compose to a [[filtered quasi-isomorphism]].
 =--
 
+We pass to the logarithmic singularity versions as follows.
+
++-- {: .num_defn}
+###### Definition
+Let $(X, \overline{X}) \in \Pi$ be a pair as above.
+Define the complexes
+  $$ \Omega^\bullet_{(X, \overline{X})^\infty} = \Omega^\bullet_{\overline{X}^\infty} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+and
+  $$ \Omega'^\bullet_{(X, \overline{X})^\infty} = \Omega'^\bullet_{\overline{X}^\infty} \otimes_{\Omega^\bullet_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+with filtrations
+  $$ \Omega_{X^\infty}^{\ge *} = \Omega^{\ge *}_{\overline{X}^\infty} \otimes_{\Omega_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+and
+  $$ \Omega'_{X^\infty}^{\ge *} = \Omega'^{\ge *}_{\overline{X}^\infty} \otimes_{\Omega_{\overline{X}}} \Omega^\bullet_{(X, \overline{X})} $$
+respectively.
+=--
+
+
++-- {: .num_defn}
+###### Definition
+The complex of **relative singular chains** on $(X, \overline{X})$ is defined as the [[quotient chain complex]]
+  $$ C'^\bullet(X, \overline{X}, A(i)) := C'^\bullet(\overline{X}, A(i))/C'^\bullet(\overline{X}-X, A(i)). $$
+Define the complex
+  $$ \Omega'^\bullet(X, \overline{X}) = \Gamma_c(\overline{X}, \Omega'^\bullet_{(X, \overline{X})^\infty}) $$
+the complex of sections with [[compact support]], with the filtration
+  $$ \Omega'^{\ge *}(X, \overline{X}) = \Gamma_c(\overline{X}, \Omega'^{\ge *}_{(X, \overline{X})^\infty}) $$
+=--
+
++-- {: .num_defn}
+###### Definition
+=--
+
 #### Cycles
 
 #### Hodge conjecture for Deligne cohomology
@@ -279,10 +310,6 @@ which compose to a [[filtered quasi-isomorphism]].
 ### Regulators
 
 ...
-
-+-- {: .num_defn}
-###### Definition
-=--
 
 ## References
 
