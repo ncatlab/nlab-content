@@ -33,7 +33,7 @@ Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backsla
 
 ## Remark
 
-A [[co-Heyting algebra|bi-Heyting algebra]] is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
+A [[co-Heyting algebra|bi-Heyting algebra]] is naturally equipped with two negation operators: the Heyting negation $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
 
 In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ are the most interesting cases as their combination give rise to [[adjoint modalities]] e.g. in mereology they yield _thickened boundaries_ (Stell&Worboys 1997). Beside [[mereology]] they have found applications in [[linguistics]], [[intuitionistic logic]] and [[physics]].
 
@@ -47,7 +47,7 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 * For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
-* In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
+* In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg a\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
 
 ## Related entries
 
