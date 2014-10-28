@@ -339,9 +339,6 @@ There is a canonical isomorphism
 +-- {: .proof}
 ###### Proof
 Let $(X, \overline{X}) \in \Pi'_*$ be a compactification of $X$.
-We want to evaluate the [[right derived functor]] of [[global sections]] of $A(p)_D$:
-  $$ R\Gamma(\Omega_{X, \overline{X}}, \Omega^{\ge p}_{X, \overline{X}}). $$
-
 Consider the presheaf on $\overline{X}$ of complexes of abelian groups, defined by
   $$ U \mapsto C'(\overline{X}, A(p))/C'(\overline{X} - (X \cap U), A(p)). $$
 Take its associated sheaf, and consider it as a complex of abelian sheaves, $\overline{C}'_{X, \overline{X}}(A(p))$.
@@ -359,14 +356,43 @@ is a [[filtered quasi-isomorphism]], and the [[associated graded objects]] $gr^p
 
 #### Cycles
 
+Let $X$ be a scheme and $Y \in Z_n(X)$ an [[irreducible topological space|irreducible]] subscheme of dimension $n$.
+Note that the canonical homomorphism
+  $$ H'_D^{-2n}(Y, A(-n)) \longrightarrow H'_B^{-2n}(Y, A(-n)) = A $$
+is invertible.
+Let $cl_D(Y)$ denote the element of $H'_D^{-2n}(Y, A(-n))$ corresponding to the unit $1 \in A$.
+Hence one gets a homomorphism
+  $$ cl_D : Z_n(X) \longrightarrow H'_D^{-2n}(X, A(-n)) $$
+given by $cl_D[Y] = i_*(\cl_D(Y))$.
+If $X$ is smooth, by Poincare duality this corresponds to a homomorphism
+  $$ cl_D : Z^n(X) \longrightarrow H_D^{2n}(X, A(n)) $$
+on the group of [[algebraic cyles]] of [[codimension]] $n$.
+
++-- {: .num_lemma}
+###### Lemma
+If $X$ is smooth and compact, then for each $Y \in Z_n(X)$, if $cl_B(Y) \in H'_B^{-2n}(X, \mathbf{Z}(-n))$ is equal to 0, then $cl_D(Y)$ coincides with the Abel-Jacobi-Griffiths periods of the cycle $Y$.
+=--
+
++-- {: .proof}
+###### Proof
+The distinguished triangle defining $\mathbf{Z}(n)_D$ induces, after passing to the associated [[long exact sequence]], a [[short exact sequence]]
+  $$ 0 \to \mathcal{I}^n(X) \to H_D^{2n}(X, \mathbf{Z}(n)) \to Hdg^n(X) \to 0 $$
+where $\mathcal{I}^n$ is the $n$th [[intermediate Jacobian]] of [[Griffiths]], defined as
+  $$ \mathcal{I}^n = H^{2n-1}_B(X, \mathbf{C})/(H^{2n-1}_B(X, \mathbf{Z}(n)) \oplus F^n H^{2n-1}_B(X, \mathbf{C})) $$
+and $\Hdn^n(X)$ is the group of integral [[Hodge cycles]] of type $(n, n)$.
+
+Using the usual explicit model for the [[mapping cone]], $cl_D(Y)$ is the homology class of the cycle
+  $$ (cl_F(Y), i_* cl_B(Y), 0) \in C'_D^{-2n}(X, \mathbf{Z}(-n)) $$
+where $i : Y \hookrightarrow X$ denotes the closed immersion, and $cl_F(Y) \in F^{-n}\mathcal{D}^{-2n}(X)$ is a distribution defined by integration over $Y$.
+Since $cl_B(Y) = 0$, we can choose $s \in C'^{-2n-1}(X, \mathbf{Z}(-n))$ such that $d(s) = i_*(cl_B(Y))$.
+By subtracting from $cl_D(Y)$ the boundary $(0, s, 0)$, we see that $cl_D(Y) = (cl_F(Y), 0, s)$.
+But the latter is precisely the definition of the periods of the cycle $Y$.
+=--
+
 #### Hodge conjecture for Deligne cohomology
 
 ### Regulators
 
-+-- {: .num_lemma}
-###### Lemma
-
-=--
 +-- {: .num_lemma}
 ###### Lemma
 
