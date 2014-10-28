@@ -1,7 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
 ## Related concepts
 
 * [[computability theory]]
+
+* [[Kolmogorov complexity]]
+
+* [[Chaitin's incompleteness theorem]]
 
 ## References
 
