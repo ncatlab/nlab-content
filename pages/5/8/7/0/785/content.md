@@ -136,7 +136,7 @@ Notice that a fibrant [[resolution]] of the diagram in the injective [[model str
 
 This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
 
-In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. These are sometimes called the _[[sharp morphisms]]_.
+In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. This is related to the concept of _[[sharp morphisms]]_.
 
 =--
 
