@@ -1,17 +1,31 @@
 
-> This entry is abour the concept related to [[homotopy pullbacks]]. For a different concept of the same name see at _[[sharp modality]]_.
+> This entry is about the concept related to [[homotopy pullbacks]]. For a different concept of the same name see at _[[sharp modality]]_.
 
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+Given a [[homotopical category]] $\mathcal{C}$ (such as a [[model category]]), a morphism is called _sharp_ if its [[pullback]] along any other morphism is already a [[homotopy pullback]].
+
 ## Definition
 
-Given a [[homotopical category]] $\mathcal{C}$ (such as a [[model category]]), a morphism is called _sharp_ if its [[pullback]] along any other moprhism is already a [[homotopy pullback]].
+In a [[model category]] $\mathcal{M}$, a **sharp map** is a morphism $p : X \to Y$ satisfying the following condition: for any commutative diagram in $\mathcal{M}$ of the form below,
+$$
+  \array{
+    X'' & \stackrel{f}{\longrightarrow} & X' & \longrightarrow & X \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{p}} \\
+    Y'' & \stackrel{g}{\longrightarrow} & Y' & \longrightarrow & Y
+  }
+$$
+if $g : Y'' \to Y'$ is a weak equivalence and both squares are pullback diagrams, then  $f : X'' \to X'$ is also a weak equivalence.
 
 ## Properties
 
-In a [[right proper model category]] the sharp maps in the full subcatgeory on sharp-fibrant objects form the fibrations of a [[category of fibrant objects]]. See there the section _[Examples -- Right proper model categories](category+of+fibrant+objects#RightProperModelCategories)_.
+A model category is [[right proper model category|right proper]] if and only if every fibration is sharp.
+
+In a [[right proper model category]], the sharp maps in the full subcategory on sharp-fibrant objects form the fibrations of a [[category of fibrant objects]]. See there the section _[Examples -- Right proper model categories](category+of+fibrant+objects#RightProperModelCategories)_.
 
 ## References
 
