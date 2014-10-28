@@ -191,6 +191,6 @@ An announcement was given in
 
 > One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
 
-Unwinding to ordinary mathematical language of the computer-checked formal proof of the special case that is the Freudenthal suspension theorem is in 
+Unwinding to ordinary mathematical language of the computer-checked formal proof of Blakers-Massey (or, for the moment, of the special case that is the Freudenthal suspension theorem) is in 
 
 * {#Rezk14} [[Charles Rezk]], _Proof of Freudenthal suspension_, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/freudenthal.pdf))
