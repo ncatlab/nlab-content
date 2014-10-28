@@ -55,36 +55,6 @@ is a weak equivalence.
 
 =--
 
-## Properties
- {#Properties}
-
-The following says that left/right properness holds _locally_ in every model category, namely between cofibrant/fibrant objects.
-
-+-- {: .num_prop}
-###### Proposition
-
-Given a [[model category]],
-
-1. every [[pushout]] of a weak equivalence between cofibrant objects along a cofibration is again a weak equivalence;
-
-1. every [[pullback]] of a weak equivalence between fibrant objects along a fibration is again a weak equivalence.
-
-=--
-
-A proof is spelled out in ([Hirschhorn, prop. 13.1.2](#Hirschhorn)), there attributed to ([Reedy](#Reedy)).
-
-This gives a large class of examples of left/right proper model categories:
-
-+-- {: .num_cor #AllObjectsFibrantImpliesRightProper}
-###### Corollary
-
-A model category in which all objects are cofibrant is left proper.
-
-A model category in which all objects are fibrant is right proper.
-
-=--
-
-See in the list of [Examples](#Examples) below for concrete examples.
 
 
 ## Examples 
@@ -147,7 +117,7 @@ Model categories which are both left and right proper include
 
 While some model categories fail to be proper, often there is a [[Quillen equivalence|Quillen equivalent]] one that does enjoy properness.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Every model category whose acyclic cofibrations are [[monomorphism]]s is Quillen equivalent to its [[model structure on algebraic fibrant objects]].
@@ -166,7 +136,7 @@ This is theorem 2.18 in
 
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]]. 
@@ -180,32 +150,57 @@ Then there exists a morphism of simplicial theories $T \to S$ such that
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is the content of 
+This is the content of ([Rezk 00](#Rezk00))
 
-* [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065))
+
+
+
+
+## Properties 
+
+### General
+
+The following says that left/right properness holds _locally_ in every model category, namely between cofibrant/fibrant objects.
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[model category]],
+
+1. every [[pushout]] of a weak equivalence between cofibrant objects along a cofibration is again a weak equivalence;
+
+1. every [[pullback]] of a weak equivalence between fibrant objects along a fibration is again a weak equivalence.
 
 =--
 
+A proof is spelled out in ([Hirschhorn, prop. 13.1.2](#Hirschhorn)), there attributed to ([Reedy](#Reedy)).
 
+This gives a large class of examples of left/right proper model categories:
 
++-- {: .num_cor #AllObjectsFibrantImpliesRightProper}
+###### Corollary
 
-## Properties ##
+A model category in which all objects are cofibrant is left proper.
+
+A model category in which all objects are fibrant is right proper.
+
+=--
+
+See in the list of [Examples](#Examples) below for concrete examples.
+
 
 
 ### Homotopy (co)limits in proper model categories ###
  {#HomotopyLimits}
 
-+-- {: .un_lemma }
-###### Lemma
++-- {: .num_prop #PullbackAlongFibrationsAreHomotopyPullbacks}
+###### Proposition
 
 
-In a left proper model category, ordinary [[pushout]]s along cofibrations are [[homotopy pushout]]s.
+In a left proper model category, ordinary [[pushouts]] along cofibrations are [[homotopy pushouts]].
 
-Dually, in a right proper model category, ordinary [[pullback]]s along fibrations are [[homotopy pullback]]s.
-
+Dually, in a right proper model category, ordinary [[pullbacks]] along fibrations are [[homotopy pullbacks]].
 
 =--
 
@@ -355,12 +350,10 @@ by [[category with weak equivalences|2-out-of-3]].
 
 =--
 
-
-
 If we had allowed ourselved to assume in addition that $K$ itself is already cofibrant, then the above statement has a much simpler proof, which we list just for fun, too.
 
 +-- {: .proof}
-###### Proof of the above assuming that the domain of the cofibration is cofibrant 
+###### Proof of prop. \ref{PullbackAlongFibrationsAreHomotopyPullbacks} assuming that the domain of the cofibration is cofibrant 
 
 
 Let $A \hookrightarrow B$ be a cofibration with $A$ cofibrant and let $A \to C$ be any other morphism. Factor this morphism as
@@ -407,6 +400,19 @@ The proof for the second statement is the precise formal dual.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+A model category is [[right proper model category|right proper]] if and only if every fibration is a [[sharp map]].
+
+=--
+
+([Rezk 98](#Rezk98))
+
+
+
+
+
 ### Slice categories
 
 For any model category $M$, and any morphism $f\colon A\to B$, the adjunction
@@ -440,18 +446,24 @@ However, if a [[Cisinski model category]] is right proper, then the $(\infty,1)$
 
 The usefulness of right properness for constructions of [[homotopy category|homotopy categories]] is discussed in
 
-* J. Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
+* [[Rick Jardine]], _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
 
 
 The general theory can be found in Chapter 13 of 
 
-* Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
- {#Hirschhorn}
+* {#Hirschhorn} Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+ 
 
 also in 
 
-* [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
- {#Reedy}
+* {#Reedy} [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
+
+See also
+
+* {#Rezk98} [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
+ 
+
+* {#Rezk00} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065))
 
 
 
