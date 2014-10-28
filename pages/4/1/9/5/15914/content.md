@@ -8,13 +8,16 @@
 =--
 =--
 =--
-#Contents#
+
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The _Chaiting incompleteness theorem_ is a kind of [[incompleteness theorem]] in the context of [[complexity theory]]. It says roughly that within any strong enough fixed [[formal logic|formal system]], there is a [[natural number]] $L$ such that for no given string of data there there is a [[formal proof]] that its [[Kolmogorov complexity]] exceeds $L$.
+The _Chaitin incompleteness theorem_ is a kind of [[incompleteness theorem]] in the context of [[complexity theory]]. It says roughly that within any sufficiently strong [[formal logic|formal system]] $S$, there is an upper bound on provable complexity: a [[natural number]] $L$ such that for no given string of data is there is a [[formal proof]] in $S$ that its [[Kolmogorov complexity]] exceeds $L$.
+
+Note that $L$ is not an upper bound on complexity; on the contrary, there are only finitely many strings with complexity $L$ or less, and all of the infinitely many others must have complexity larger than $L$.  The system $S$ may even be capable of proving this, but it still cannot prove any particular example.
 
 
 ## References
@@ -26,8 +29,12 @@ The _Chaiting incompleteness theorem_ is a kind of [[incompleteness theorem]] in
 Expositions and surveys include 
 
 * Wikipedia, _[Chaitin's incompleteness theorem](http://en.wikipedia.org/wiki/Kolmogorov_complexity#Chaitin.27s_incompleteness_theorem)_
+
 * [[John Baez]], _[Surprises in logic](http://math.ucr.edu/home/baez/surprises.html)_, 2011
 
 
-
 [[!redirects Chaitin incompletenss theorem]]
+[[!redirects Chaitin incompleteness theorem]]
+[[!redirects Chaitin's incompleteness theorem]]
+[[!redirects Chaitin's incompleteness theorem]]
+[[!redirects Chaitin\'s incompleteness theorem]]
