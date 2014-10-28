@@ -74,6 +74,9 @@ For a detailed analysis of how this general abstract concept indeed captures the
 
 * Wikipedia, _[Hilbert's Nullstellensatz](http://en.wikipedia.org/wiki/Hilbert's_Nullstellensatz)_
 
+### The model theoretic perspective
+
+* V. Weispfenning, _Nullstellens&#228;tze - a model theoretic framework_ , Z. Math. Logik Grundl. Math. **23** (1977) pp. 539-545. 
 
 ### In terms of cohesion
 
@@ -85,7 +88,13 @@ Discussion of the Nullstellensatz in terms of [[cohesion]]:
  
 * {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63 ([TAC](http://tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
+* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004. (pp.206-224)
+
 * {#Menni} Matias Menni, _The manifestation of Hilbert's Nullstellensatz in Lawvere's Axiomatic Cohesion_ ([pdf slides](http://www.mat.uc.pt/~workct/slides/Menni.pdf) [pdf abstract](http://www.mat.uc.pt/~workct/abstracts/Menni.pdf))
+
+* {#Menni14a} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
+
+* {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
 
 * {#Tholen} [[Walter Tholen]], _Nullstellen and Subdirect Representation_ ([pdf](http://www.math.yorku.ca/~tholen/nullstMarch2013bis.pdf))
 
