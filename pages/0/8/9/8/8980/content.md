@@ -24,7 +24,7 @@ In [[modal logic]] a [[modality]] expresses a "way of being true" and a modal pr
 
 As one passes from [[logic]] to ([[homotopy type theory|homotopy]]) [[type theory]] and hence from [[modal logic]] to [[modal type theory]], then being [[true]] is just the lowest stage of a hierarchy of [[truncated object of an (infinity,1)-category|truncated]] types ("[[h-level]]"). Hence for a general [[type]]/[[homotopy type]] then a [[modality]] expresses just a "way of being".
 
-For instance if $C$ is a discrete finite [[type]] ([[h-set]]) thought of as a type of "colors" and one [[term]] $g \colon C$ of it is thought of as the color "green", then the $C$-[[dependent types]] may be thought of as colored types; and so there is a [[modal operator]] whose modal types are those which are unicolored in green. Hence here the "way of being" expressed by the modality is "being green".
+For instance if $C$ is a discrete finite [[type]] ([[h-set]]) thought of as a type of "colors" and one [[term]] $g \colon C$ of it is thought of as the color "green", then the $C$-[[dependent type|dependent types]] may be thought of as colored types; and so there is a [[modal operator]] whose modal types are those which are unicolored in green. Hence here the "way of being" expressed by the modality is "being green".
 
 More practical examples arise for instance in [[cohesive homotopy type theory]], where for instance the [[flat modality]] expresses the "way of being [[discrete object|geometrically discrete]]" and the [[sharp modality]] expresses the "way of being [[codiscrete object|codiscrete]]".
 
@@ -55,6 +55,8 @@ By the discussion at _[idempotent monad -- Properties -- Eilenberg-Moore categor
 * [[reflective sub-(∞,1)-category]]
 
 * [[modal type theory]]
+
+* [[reflective subuniverse]]
 
 [[!redirects modal types]]
 
