@@ -233,11 +233,11 @@ For an [[invertible sheaf]] $\mathcal{L}$ on $X$, its **first Chern class** is d
 
 One can show that for $A = \mathbf{Z}$, this homomorphism is injective, and further surjective if $X$ is [[compact]].
 
-Next Beilinson shows the [[projective bundle theorem]] for Beilinson-Deligne cohomology.
+Next Beilinson shows the [[projective bundle formula]] for Beilinson-Deligne cohomology.
 
 +-- {: .num_prop}
 ###### Proposition
-**(Projective bundle theorem)**.
+**(Projective bundle formula)**.
 Let $E$ be an $n$-dimensional [[vector bundle]] on $X$, let $\pi : \mathbf{P}(E) \to X$ be the associated [[projective bundle]], and $\mathcal{O}(1)$ the [[tautological sheaf]] on $\mathbf{P}(E)$.
 The homomorphism
   $$ \oplus c_1(\mathcal{O}(1))^j \cup \pi^*
@@ -248,12 +248,23 @@ is invertible.
 
 +-- {: .proof}
 ###### Proof
-
+By definition we have the distinguished triangle
+  $$ H_B(X)[-1] \to R\Gamma(X, A(i))_D) \to R\Gamma(X, F^i) \oplus R\Gamma(X, A(i)) \to. $$
+One checks that it is compatible with the cup product.
+Since the morphism $A(i)_D \to A(i)$ sends first [[Chern classes]] in Deligne cohomology to first Chern classes in [[Betti cohomology]], the [[projective bundle formula]]s for [[Betti cohomology]] and [[de Rham cohomology]] show that the map in question induces an isomorphism on the leftmost and rightmost members of the triangle.
+Hence the result follows.
 =--
 
 After the projective bundle theorem, one can define [[Chern classes]] of [[vector bundles]] following [[Grothendieck]].
 In particular one gets the [[Chern character]]
   $$ ch : K_0(X) \longrightarrow \bigoplus_i H^{2i}(X, A \otimes \mathbf{Q}(i)). $$
+
++-- {: .num_lemma}
+###### Lemma
+For each $i$, there exists a unique assignment to a [[vector bundle]] $E$ over $X \in \mathcal{V}$ a class
+  $$ c_i(E) \in H^{2i}_D(X, A(i)) $$
+that is [[functorial]] with respect to [[inverse images]] and for which $A(i)_D \to A(i)$ sends $c_i(E)$ to the usuaul Chern class in [[Betti cohomology]].
+=--
 
 #### Homologies
 
