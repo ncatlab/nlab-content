@@ -1,0 +1,24 @@
+
+> This entry is abour the concept related to [[homotopy pullbacks]]. For a different concept of the same name see at _[[sharp modality]]_.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[homotopical category]] $\mathcal{C}$ (such as a [[model category]]), a morphism is called _sharp_ if its [[pullback]] along any other moprhism is already a [[homotopy pullback]].
+
+## Properties
+
+In a [[right proper model category]] the sharp maps in the full subcatgeory on sharp-fibrant objects form the fibrations of a [[category of fibrant objects]]. See there the section _[Examples -- Right proper model categories](category+of+fibrant+objects#RightProperModelCategories)_.
+
+## References
+
+The concept was introduced in 
+
+* [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
+
+[[!redirects sharp maps]]
+[[!redirects sharp morphism]]
+[[!redirects sharp morphisms]]
