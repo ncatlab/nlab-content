@@ -12,7 +12,7 @@ We may say that finite mathematics is mathematics done [[internalization|interna
 
 ## Finitism
 
-In the [[foundations]] of mathematics, __finitism__ is the philosophy that one should do only finite mathematics.  In a weak sense, one should not assume the [[axiom of infinity]]; in a strong sense, one should even deny it by an axiom of finiteness.  This make it impossible to do analysis as we normally understand it.
+In the [[foundations]] of mathematics and in [[philosophy of mathematics]], __finitism__ is the philosophy that one should do only finite mathematics.  In a weak sense, one should not assume the [[axiom of infinity]]; in a strong sense, one should even deny it by an axiom of finiteness.  This make it impossible to do analysis as we normally understand it.
 
 Finitism (in the weak sense of not accepting an axiom of infinity) is essentially the mathematics that can be done internal to an arbitrary [[boolean topos]] (at least if one is not also being [[predicative mathematics|predicative]] or [[constructive mathematics|constructive]]).  For [[constructive mathematics]] as usually practised, one goes beyond finitism by positing a [[natural numbers object]].
 
@@ -22,6 +22,10 @@ __Ultrafinitism__ is an even more extreme form of finitism, in which one doubts 
 
 For the opinionated espousal of finitism (and much else), one can hardly do better than the [Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html) of [[Doron Zeilberger]].
 
+
+## References
+
+* [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
 
 [[!redirects finite mathematics]]
 
