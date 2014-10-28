@@ -102,6 +102,10 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 * **Pontryagin class**
 
+* [[p1-structure]], [[string structure]], [[fivebrane structure]]
+
+* [[Wu class]]
+
 * [[Chern class]]
 
 * [[Stiefel-Whitney class]]
