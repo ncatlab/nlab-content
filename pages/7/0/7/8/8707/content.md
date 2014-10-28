@@ -28,7 +28,7 @@ According to ([Benton-Bierman-de Paiva 95, p. 1-2](#BentonBiermanPaiva)) this ma
 > The starting point for Moggi's work is an explicit semantic distinction between _computations_ and _values_. If $A$ is an object which interprets the values of a particular type, then $T(A)$ is the object which models computation of that type $A$. $[...]$ For a wide variety of notions of computation, the unary operator $T(-)$ turns out to have the categorical structure of a _strong monad_ on an underlying cartesian closed category of values. $[...]$ On a purely intuitive level and particularly if one thinks about non-termination, there is certainly something appealing about the idea that a computation of type $A$ represents the possibility of a value of type $A$.
 
 
-When the underlying type theory is [[homotopy type theory]] these modalities are a "higher" generalization of traditional modalities, with "higher" in the sense of [[higher category theory]]: they have [[categorical semantics]] in [[(∞,1)-categories]] given by [[(∞,1)-monads]]. See ([Shulman 12](#Shulman)) for remarks on such _higher modalities_.
+When the underlying type theory is [[homotopy type theory]] these modalities are a "higher" generalization of traditional modalities, with "higher" in the sense of [[higher category theory]]: they have [[categorical semantics]] in [[(∞,1)-categories]] given by [[(∞,1)-monads]]. See ([Shulman 12](#Shulman), [HoTTBook, section 7.7](#HoTTBook)) for definition of such _higher modalities_, and see at _[[reflective subuniverse]]_.
 
 
 ## Properties
@@ -73,6 +73,8 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 * [[modal type]], [[anti-modal type]]
 
 * [[modal homotopy type theory]]
+
+* [[reflective subuniverse]]
 
 * [[geometric type theory]]
 
@@ -158,6 +160,8 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 * Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
 
 * {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
+
+* {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
  
 
 Formalization of modalities in [[homotopy type theory]] is discussed also around def. 1.11 of
