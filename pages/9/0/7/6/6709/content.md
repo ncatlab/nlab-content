@@ -145,6 +145,8 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 ## Related concepts
 
+* [[orientation]], [[Spin structure]], [[w4-structure]]
+
 * [[Chern class]]
 
 * [[Pontryagin class]]
