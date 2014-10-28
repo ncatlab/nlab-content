@@ -36,7 +36,7 @@ This result has been conjectured first by Grothendieck in the case of p-divisibl
 groups. He called it the `mysterious functor`. A conjecture generalizing this
 statement to other kinds of ---algebraic--- p-adic varieties was formulated by
 Jannsen in a particular case, and then grounded on the setting of [[p-adic periods]]
-by Fontaine. After these important Breakthrough, the theory was fully developed by a long list of contributors (see `periodes p-adiques`, Ast&#233;risque for a first list). The comparison theorem was proved by many Authors in various particular cases, and then in full generality (for algebraic varieties) by Faltings
+by Fontaine. After these important Breakthrough, the theory was fully developed by a long list of contributors (see `periodes p-adiques`, Ast&#233;risque for a first list). The comparison theorem was proved by many authors in various particular cases, and then in full generality (for algebraic varieties) by Faltings
 using [[almost mathematics]].
 
 During the last few years, there were interesting new developments.
@@ -48,9 +48,8 @@ using Beilinson's approach, through (derived de Rham cohomology)[[de Rham comple
 It is also possible to use Scholze's [[perfectoid spaces]]
 and Faltings' [[almost mathematics]] to give a very elegant
 proof of this theorem for proper (or more generally, semi-stably compactified) p-adic
-(strict, i.e., rigid analytic) analytic varieties. The fact that the classical result extends
-to the analytic setting is essentially due (up to resolution of singularities difficulties, that are
-dealt with using Faltings' methods) to the fact that (proper) rigid analytic varieties always
+(strict, i.e., rigid) analytic varieties. The fact that the classical result extends
+to the analytic setting is essentially due (up to difficulties related to the resolution in finite characteristic, that are dealt with using Faltings' methods) to the fact that (proper) rigid analytic varieties always
 have an integral model, given by a formal scheme over the ring of integers of the given
 non-archimedean field.
 The same proof may also extend to the non-strict situation by using a convenient base
@@ -58,9 +57,9 @@ extension, but this work has not yet been done.
 
 The very important case of torsion coefficients has also been
 addressed by Scholze in his setting, and by Bhatt, who gave a useful refinement
-of Beilinson's construction.
+of Beilinson's construction. Remark that almost mathematical tools seem to be quite well adapted to the study of completed integral cohomology.
 
-Remark that Scholze's method involve the use of Witt vectors (already used in
+Scholze's original method involves the use of Witt vectors (already used in
 Fontaine's definition of period rings), that were also
 studied by Kedlaya and Liu in this Hodge theoretic context. This Witt vector
 approach are interesting, but they seem to have the drawback of being
@@ -72,6 +71,9 @@ when one uses Witt vectors would be to combine directly the (analytic) `derived 
 approach of Beilinson and Bhatt to the `perfectoid and almost mathematics` approach of
 Faltings and Scholze. Both approach may be extended to the analytic setting using
 overconvergent derived analytic spaces (see [[global analytic geometry]]).
+
+One may say that almost geometrical derived methods could be useful to study integral completed cohomology, while usual derived geometric methods are quite
+well adapted to the study of torsion phenomena in finite characteristic.
 
 Indeed, as explained by Bhatt at the end of his paper, one may use derived de Rham cohomology
 over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic variety]].
