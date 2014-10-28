@@ -55,3 +55,7 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 * [[arithmetic topology]]
 
 * [[Chern-Simons theory]]
+
+* [[Atiyah 2-framing]]
+
+[[!redirects 3-manifolds]]
