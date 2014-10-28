@@ -24,7 +24,7 @@ The [[philosophy]] of [[mathematics]].
 
 ## Related concepts
 
-* [[Platonism]]
+* [[Platonism]], [[finitism]], [[ultrafinitism]]
 
 * [[philosophy of physics]]
 
