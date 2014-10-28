@@ -130,7 +130,8 @@ This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#
 
 * [[framed manifold]]
 
-* [[string structure]].
+* [[p1-structure]], [[string structure]].
+
 
 ## References
 
@@ -187,3 +188,4 @@ See also
 
 [[!redirects 2-framing]]
 [[!redirects 2-framings]]
+
