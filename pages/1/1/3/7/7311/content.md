@@ -95,6 +95,8 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 * [[shape]]
 
+* [[reflective subuniverse]]
+
 [[!include cohesion - table]]
 
 * [differential cohesion - cotangent bundles](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CotangentBundles)
