@@ -83,6 +83,13 @@ This data has to satisfy the following properties:
 
 The tautological example is the [[full subcategory]] of any [[model category]] on all objects which are fibrant. 
 
+### Right proper model categories
+
+Let $M$ be a [[right proper model category]], let $W$ be the class of weak equivalences, and let $F_+$ be the class of morphisms $f$ in $M$ such that any [[pullback]] of $f$ in $M$ is also a [[homotopy pullback]]. Then $M$ together with $W$ and $F_+$ satisfy all the conditions to be a category of fibrant objects _except_ possibly the condition that every morphism $X \to {*}$ in $M$ is in $F_+$; so if we restrict to the full subcategory of those objects $X$ in $M$ such that $X \to {*}$ is in $F_+$, then we do get a category of fibrant objects.
+
+For example, $sSet$ is a category of fibrant objects in this way.
+
+
 ### $\infty$-Groupoids ##
 
 This includes notably all models for categories of [[infinity-groupoid]]s:
