@@ -132,11 +132,15 @@ Both statements are classical. They are reviewed for instance as [Lurie, prop. A
 +-- {: .num_remark }
 ###### Remark
 
-Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point above says that (in the special case of pullbacks) something weaker than this is sufficient for computing the [[homotopy limit]] of the diagram.
+Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point in prop. \ref{HomotopyPullbackByOrdinaryPullback} says that (in the special case of pullbacks) something weaker than this is sufficient for computing the [[homotopy limit]] of the diagram.
 
-This can be explained in model-categorical terms by the fact that the category of cospans also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the adjunction $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
+This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
+
+In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. These are sometimes called the _[[sharp morphisms]]_.
 
 =--
+
+
 
 Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
 
@@ -214,6 +218,8 @@ Then an ordinary pullback of $A \to C \leftarrow B$ in $\mathcal{C}$ is a homoto
 The _global_ projective [[model structure on simplicial presheaves]] is [[right proper model category|right proper]]. So by prop. \ref{HomotopyPullbackByOrdinaryPullback} the ordinary pullback in question presents the homotopy pullback in the global structure. By the discussion at [[homotopy limit]] and [[Bousfield localization of model categories]], this presents the [[(∞,1)-pullback]] of the diagram of [[(∞,1)-presheaves]], and the fibrant replacement of that pullback in the _local_ model structure presents the [[(∞,1)-sheafification]] of this [[(∞,1)-presheaf]]. This is (essentially by definition, see [[(∞,1)-topos]]) a [[left exact functor|left exact]] [[(∞,1)-functor]] and hence preserves finite [[(∞,1)-limits]]. 
 
 =--
+
+
 
 ### In homotopy type theory
  {#ConstructionInHomotopyTypeTheory}
