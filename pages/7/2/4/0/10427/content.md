@@ -6,10 +6,11 @@
 
 ## Idea
 
-The refinement of [[modal type theory]] to [[homotopy type theory]]: hence homotopy type theory equipped with [[higher modalities]]
+The refinement of [[modal type theory]] to [[homotopy type theory]]: hence homotopy type theory equipped with [[higher modalities]].
 
 ## Related concepts
 
+* [[reflective subuniverse]]
 
 * [[stable homotopy type]]
 
@@ -24,6 +25,9 @@ The refinement of [[modal type theory]] to [[homotopy type theory]]: hence homot
 Modal type theory with an eye towards [[homotopy type theory]] is discussed in 
 
 * [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
+
+* {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 [[!redirects modal homotopy type theories]]
 
