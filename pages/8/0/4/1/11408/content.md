@@ -35,6 +35,8 @@ Although the theorem fails in [[second-order logic]], variants hold in infinitar
 
 ## References
 
+Named after [[Thoralf Skolem]].
+
 * Wikipedia, _[L&#246;wenheim-Skolem theorem](https://en.wikipedia.org/wiki/L&#246;wenheim&#8211;Skolem_theorem)_
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1976.
