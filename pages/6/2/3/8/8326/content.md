@@ -1001,6 +1001,7 @@ The reflector [[term constructor]] in an [[identity type]].
 ###### $\;\;$ (b) Diversity
 
 ###### $\;\;$ Remark: The Law of Diversity
+ {#LawOfDiversity}
 
 
 * &#167;903 All things are different; or: there are no two things like each other.
