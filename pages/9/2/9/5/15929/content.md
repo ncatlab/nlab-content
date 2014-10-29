@@ -18,6 +18,7 @@
 [[!redirects theory of divisible abelian groups]]
 [[!redirects theory of torsion-free abelian groups]]
 [[!redirects theory of torsion abelian groups]]
+[[!redirects theory of ordered abelian groups]]
 
 ##Idea##
 The _theory of abelian groups_ $T$ is the logical [[theory]] whose models in a [[cartesian category]] are the [[abelian group]] objects.
