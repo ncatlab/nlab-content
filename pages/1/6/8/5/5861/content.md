@@ -1165,6 +1165,19 @@ This diagram is now indeed an [[(∞,1)-pullback]] by the fact that we have [[un
 
 =--
 
++-- {: .num_example #EtalificationOverThePoint}
+###### Example
+
+For the case that $X \simeq \ast$ in prop. \ref{EtalificationIsCoreflection}, then the proof there shows that the &#233;talification operation over the point is just $\flat_{inf}$:
+
+$$
+  \flat_{inf} \simeq Et_{/\ast}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop }
 ###### Proposition
 
