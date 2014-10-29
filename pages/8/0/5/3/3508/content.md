@@ -30,8 +30,12 @@ issue, Preface,
 
 * A. A. Bolibruch, A. R. Its, A. A. Kapaev, _On the Riemann&#8211;Hilbert&#8211;Birkhoff inverse monodromy problem and the Painlev&#233; equations_, &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;, 16:1 (2004), 121&#8211;162 
 
-* Marco Bertola, _Fredholm determinants and (noncommutative)
-Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
+* Marco Bertola, _Fredholm determinants and (noncommutative) Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
+
+Multidimensional generalizations of Painlev&#233; VI are introduced in 
+
+* G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arxiv/1306.3265](http://arxiv.org/abs/1306.3265)
+
 [[!redirects Painlev%C3%A9 transcendent]]
 [[!redirects Painlev%C3%A9 transcendents]]
 [[!redirects Painlevé transcendents]]
