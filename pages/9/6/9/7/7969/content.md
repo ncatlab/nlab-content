@@ -191,3 +191,10 @@ Further developments here include
 [[!redirects Theta functions]]
 [[!redirects Theta-function]]
 [[!redirects Theta-functions]]
+
+[[!redirects theta-line bundle]]
+[[!redirects theta-line bundles]]
+[[!redirects theta line bundle]]
+[[!redirects theta line bundles]]
+[[!redirects theta line-bundle]]
+[[!redirects theta line-bundles]]
