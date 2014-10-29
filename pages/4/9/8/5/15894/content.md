@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -28,6 +30,7 @@
 This page is to provide non-technical or maybe semi-technical discussion of the nature and role of the [[foundation of mathematics|foundational system]] for [[mathematics]] known as _homotopy type theory_. For more technical details and further pointers see at [[homotopy type theory]].
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -53,7 +56,7 @@ The iterative notion of set can also be captured. Aczel's sets-as-trees interpre
 
 Conversely HoTT has [[models]] in [[ZFC]] (+a number of [[Grothendieck universes]] to model the type theoretic universes), namely in structures called _[[(∞,1)-toposes]]_ which are presented by [[presheaves]] of [[simplicial sets]]. (See also at _[Does HoTT have models in infinity-toposes?](#InterpretationInInfinityToposes)_)
 
-The nature and role of these higher toposes in HoTT is to be understood by analogy with the familar [[forcing]] [[models]]:
+The nature and role of these higher toposes in HoTT may be understood by analogy with the familar [[forcing]] [[models]]:
 When one proves something in [[ZF]], it is automatically also true in all [[forcing]] extensions.  The same is true for [[constructive set theory]], except that there are more forcing extensions since we don't have to force the [[law of excluded middle]]; those constructive notions of forcing (which also subsume [[permutation models]]) are called "[[sites]]" and their [[models]] are called "[[topos|1-toposes]]".  Now in HoTT we have an even more general sort of forcing appropriate for [[homotopy theory]], called [[(∞,1)-sites]], whose models are called [[(∞,1)-toposes]].
 
 #### For type theorists
@@ -63,6 +66,59 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 #### For homotopy theorists
 
 (...)
+
+
+### What role does the univalence axiom play?
+ {#WhatRoleDoesTheUnivalenceAxiomPlay}
+
+#### For laymen
+
+The [[axiom]] of [[univalence]] may be thought of as a [[formal logic|formalization]] of what might be called the _[[principle of equivalence]]_ of [[mathematics]], which is the basic but important idea that [[mathematical structures]] which are [[equivalence|equivalent]] should behave the same, satisfy the same theorems and so forth.
+
+Obvious as this may seem, this principle may be violated in other [[foundations of mathematics]] such as [[ZFC]]. On the other hand, while these models allow such violation, in practice one essentially never wants to use such violation. The univalence axiom hence serves to make formal mathematical foundation be closer to the actual "nature of mathematics", at least to the practice of mathematics. 
+
+#### For set theorists
+
+#### For type theorists
+
+The axiom of [[univalence]] added to [[Martin-Löf type theory]] implies all of the following:
+
+1. [[functional extensionality]]
+
+1. [[quotient types]]
+
+1. [[higher inductive types]]
+
+   Which in turn imply a wealth of further structure such as (but not limited to)
+
+   1. [[bracket types]]
+
+   1. etc.
+
+
+#### For homotopy theorists
+
+In view of the answer at _[Does HoTT have interpretation in infinity-toposes?](#InterpretationInInfinityToposes)_
+the [[axiom]] of [[univalence]] axiomatizes the presence of an [[object classifier]] in an [[(∞,1)-topos]] $\mathbf{H}$ (details are [here](univalence+axiom#GepnerKock12)). 
+
+In the default choice $\mathbf{H} = $[[∞Grpd]] $\simeq $ $L_{whe}$[[Top]] of traditonal [[homotopy theory]] this is the [[universal principal ∞-bundle|universal fibration]] over the disjoint union of [[classifying spaces]] $\coprod_{[F]} B Aut(F)$ of the [[automorphism ∞-groups]] of all (small) [[homotopy types]] $[F]$.
+
+Therefore from the axiom of [[univalence]] follows for instance the theory of [[∞-actions]], [[associated ∞-bundles]] and of [[twisted cohomology]] (details are [[schreiber:Principal ∞-bundles -- theory, presentations and applications|here]]).
+
+
+### What advantages does homotopy type theory have over set theory?
+
+As explained at _[What is HoTT for set theorists?](#WhatIsHoTTForSetTheorists)_, HoTT subsumes [[set theory]]. It has all the advantages that [[structural set theory]] ([[Algebraic set theory]], [[ETCS]]) has over [[material set theory]] ([[ZFC]]), but moreover it allows us to natively capture [[higher category theory|higher categorical]] (more precisely, [[infinity-groupoid|higher groupoidal]]) and [[homtopy theory|homotopical]] reasoning. Moreover, as a practical foundation, set theory may be compared to the Turing machine model, or perhaps more generously, say, [ALGOL](http://en.wikipedia.org/wiki/ALGOL). Whereas, homotopy type theory is closely related to modern programming languages like haskell and ML, or more accurately [[Coq]] and [[Agda]].
+
+### Is homotopy type theory limited to constructive mathematics?
+ {#IsHoTTLimitedToConstructiveMathematics}
+
+No. 
+
+For a longer answer, see
+
+* [[Andrej Bauer]], _[Univalent foundations subsume classical mathematics](http://math.andrej.com/2014/01/13/univalent-foundations-subsume-classical-mathematics/)_ (2013)
+
 
 ### Does HoTT have interpretation/semantics/models in $\infty$-toposes?
  {#InterpretationInInfinityToposes}
@@ -95,7 +151,7 @@ In conclusion, every [[proposition]] [[proof|proven]] in homtopy type theory yie
 
 If one wishes to prove statements that hold only in some class of $\infty$-toposes, then one needs to add further [[axioms]] to HoTT that characterize these classes. For instance adding [[higher modalities]] that define [[cohesive homotopy type theory]] make it a language that proves theorems which hold in all [[cohesive (∞,1)-toposes]].
 
-### What role does the univalence axiom play?
+
 
 ### What is meant by a "computational interpretation of univalence"? 
 
@@ -106,17 +162,6 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 
 ### Is it possible to define higher coinductive types?
 
-### Is homotopy type theory limited to constructive mathematics?
- {#IsHoTTLimitedToConstructiveMathematics}
-
-No. 
-
-For a longer answer, see for instance
-
-* [[Andrej Bauer]], _[Univalent foundations subsume classical mathematics](http://math.andrej.com/2014/01/13/univalent-foundations-subsume-classical-mathematics/)_ (2013)
-
-### What advantages does homotopy type theory have over set theory?
-As explained above, HoTT subsumes set theory. It has all the advantages that structural set theory ([[Algebraic set theory]], [[ETCS]]) has over iterative set theory ([[ZFC]]), but moreover it allows us to natively capture higher categorical (more precisely, higher groupoidal) and homotopical reasoning. Moreover, as a practical foundation, set theory may be compared to the Turing machine model, or perhaps more generously, say, [ALGOL](http://en.wikipedia.org/wiki/ALGOL). Whereas, homotopy type theory is closely related to modern programming languages like haskell and ML, or more accurately [[Coq]] and [[agda]].
 
 ### In what sense does homotopy type theory already contain logic?
 
