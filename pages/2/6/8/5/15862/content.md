@@ -14,7 +14,7 @@
 * table of contents
 {:toc}
 
-**Ernst Cassirer** (1874-1945) was a Swedish philosopher of German origin. As one of the main exponents of the _Marburg school of neo-Kantianism_ and as a specialist in the philosophy of physics and mathematics who was in constant dialogue with the scientists of his time his work builds a bridge between classical (German) philosophy and more modern threads of analytical philosophy.
+**Ernst Cassirer** (1874-1945) was a German philosopher, famous for many works in the history of philosophy and for developing a theory of *symbolic forms* -- language, myth, religion, art, history, science. As one of the main exponents of the _Marburg school of neo-Kantianism_ and as a specialist in the philosophy of physics and mathematics who was in constant dialogue with the scientists of his time his work builds a bridge between classical (German) philosophy and more modern threads of analytical philosophy.
 
 
 ## Related entries
