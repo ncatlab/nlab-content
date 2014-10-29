@@ -68,6 +68,34 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 (...)
 
 
+### Why should I care?
+ {#WhyShouldICare}
+
+#### For laymen?
+
+
+
+#### For set theorists
+
+#### For type theorists
+
+#### For homotopy theorists
+ {#WhyShouldICareForHomotopyTheorists}
+
+Most homotopy-theoretic theorems that are proven in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT textbook]] are, in their traditional informal version, material of a first-year course on homotopy theory. Experts who do not care about [[formal proof]] might not be impressed yet. 
+
+But the point is that there is significant prospect. By the discussion at _[Does HoTT have models in infinity-toposes](#InterpretationInInfinityToposes)_, it is a fact that homotopy type theory is the [[internal language]] of [[(∞,1)-toposes]], hence of the most powerful modern incarnation of [[homotopy theory]]. Whether or not anyone has already made impressive use of this fact (but see below), this is of genuine interest in homotopy theory irrespective of the issue of formal proof.
+
+Historically, making use of the [[internal logic]]-perspective of [[elementary toposes]] led to substantial insight into all theory that uses [[Grothendieck toposes]], such as notably [[algebraic geometry]]. While [[Jacob Lurie|Lurie]]'s _[[Higher Topos Theory]]_ is an astounding piece of work, it falls short of saying anything about this crucial internal aspect of (higher) topos theory. Homotopy type theory is precisely what fills this gap. For more on how this works see at _[[HoTT methods for homotopy theorists]]_.
+
+An illustration of the use of this is the proof of the _[[Blakers-Massey theorem]]_. This basic fact of homotopy theory has a classical proof in the classical homotopy category [[∞Grpd]] $\simeq$ $L_{whe}$ [[Top]], a proof that is however rather roundabout. From this follows a proof in all [[(∞,1)-toposes]] with an [[(∞,1)-site]] of definition by, essentially, reducing [[stalk|stalkwise]] to the classical theorem (details are [here](Blakers-Massey%20theorem#Rezk10)). But now the theorem was also proven in homotopy type theory (details are [here](Blakers-Massey%20theorem#LumsdaineFinsterLicata13)). Translating this formal proof back to ordinary language produces first of all a _new_ and more elegant proof of Blakers-Massey in [[∞Grpd]] $\simeq$ $L_{whe}$ [[Top]], second a new and elegant proof of the statement for [[(∞,1)-toposes]] with [[(∞,1)-site]] of definition. This is something that some homotopy theorists tried to find by classical means and failed (details are [here](Blakers-Massey%20theorem#Rezk14)). And moreover, the HoTT proof of Blakers-Massey is actually a new result when applied to [[elementary (∞,1)-toposes]], where the classical methods of proving it completely break down.
+
+It seems rather plausible that this is just a simple first example of a future where HoTT methods allow to enter new territory in classical homotopy theory. Of course it will require some expert homotopy theorists to seriously look into the internal-language-of-$\infty$-toposes way of doing homotopy theory. This is now an open problem for homotopy theorists just as it is for type theorists.
+
+
+
+
+
 ### What role does the univalence axiom play?
  {#WhatRoleDoesTheUnivalenceAxiomPlay}
 
