@@ -16,7 +16,7 @@
 
 ## Definition
 
-An _abelian group_ (named after [[Nils Abel]]) is a [[group]] $A$ where the multiplication satisfies the commutative law: for all elements $x, y\in A$ we have
+An _abelian group_ (named after [[Niels Henrik Abel]]) is a [[group]] $A$ where the multiplication satisfies the commutative law: for all elements $x, y\in A$ we have
 
 $$
   x y = y x
@@ -74,6 +74,7 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * [[free abelian group]], [[finite abelian group]]
 
+* [[theory of abelian groups]]
 
 * [[abelianization]]
 
