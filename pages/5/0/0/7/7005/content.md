@@ -311,7 +311,7 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 
 A study of the semantic side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
-* [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
+* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
 This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with Tarskian [[type universes]], see there). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
 
