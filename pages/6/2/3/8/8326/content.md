@@ -145,9 +145,9 @@ The following table lists proposals for possible such identifications. The conte
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
 | vanishing of infinitesimals | [[reduction modality]] |
-| being-for-self | [[reduction modality]] $Red$ |
+| being-for-self | [[reduction modality]] $\Re$ |
 | being-for-one | [[infinitesimal shape modality]] $\int_{inf}$ |
-| ideality | [[adjoint modality]] $Red \dashv \int_{inf}$ | 
+| ideality | [[adjoint modality]] $\Re \dashv \int_{inf}$ | 
 | reality | [[adjoint modality]] $\int_{inf} \dashv \flat_{inf}$ | 
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
@@ -305,7 +305,7 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 
 * &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
 
-Vanishing of [[infinitesimal objects]] is expressed by the [[reduction modality]] $Red$.
+Vanishing of [[infinitesimal objects]] is expressed by the [[reduction modality]] $\Re$.
 
 * &#167;174 there is nothing which is not an intermediate state between being and nothing.
 
@@ -507,7 +507,7 @@ $$
   \array{
     quality \colon \int \dashv \flat
     \\
-    ideality \colon Red \dashv \int_{inf}
+    ideality \colon \Re \dashv \int_{inf}
   }
 $$
 
@@ -584,7 +584,7 @@ $$
   \array{
     & \text{f&#252;r sich sein} && \text{f&#252;r eins sein}
     \\
-    ideality & Red &\dashv& \int_{inf}
+    ideality & \Re &\dashv& \int_{inf}
     \\
     & \bot && \bot
     \\
@@ -615,7 +615,7 @@ $$
        pure\,being && determinate\,being 
       \\
       \\
-      && && Red & \subset & id
+      && && \Re & \subset & id
       \\
      && && \bot && \bot
       \\
