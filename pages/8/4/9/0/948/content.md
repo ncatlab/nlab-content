@@ -212,6 +212,8 @@ In principle, every article could explain how it applies to constructive mathema
 
 ## References
 
+### General
+
 Gentle introductions include
 
 * [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
@@ -259,9 +261,11 @@ The relation to [[realizability]] and [[computability]] is discussed in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
+### Prehistory
+
 In 
 
-* [[Georg Hegel]], _[[Phenomenology of Spirit]]_ 
+* [[Georg Hegel]], _[[Phenomenology of Spirit]]_  (1807)
 
 the following comment about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
 
