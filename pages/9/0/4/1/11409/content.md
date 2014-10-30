@@ -29,11 +29,11 @@ A set of first-order formulas $\Phi$ has a model precisely iff every finite subs
 
 ## Remark
 
-There are different proofs for the compactness theorem e.g. an entirely 'semantic' one using [[ultraproduct|ultraproducts]]. A particularly transparent one relies on the completeness theorem for first-order logic and the essential finitude of the notion of formal proof[^end]: Suppose $\Phi$ has no model, due to completeness this implies that there is a contradicton $\varphi$ with $\Phi\vdash\varphi$ but such a deduction of $\varphi$ can involve only a finite subset $\Phi_0\subset \Phi$ hence $\Phi_0\vdash\varphi$ and $\Phi_0$ would have no model as well.
+There are different proofs for the compactness theorem e.g. an entirely 'semantic' one using [[ultraproduct|ultraproducts]]. A particularly transparent one relies on the completeness theorem for first-order logic and the essential finitude of the notion of formal proof[^end]: Suppose $\Phi$ has no model, due to completeness this implies that there is a contradiction $\varphi$ with $\Phi\vdash\varphi$ but such a deduction of $\varphi$ can involve only a finite subset $\Phi_0\subset \Phi$ hence $\Phi_0\vdash\varphi$ and $\Phi_0$ would have no model as well.
 
 [^end]: In the German literature the compactness theorem is therefore also called 'Endlichkeitssatz'.
 
-The motivation for the terminology stems from the observation that the compactness theorem literally expresses the compactness of a suitable topology on suitable first-order structures.
+The motivation for the terminology stems from the observation that the compactness theorem literally expresses the compactness of a suitable topology on first-order structures.
 
 ## Related concepts
 
