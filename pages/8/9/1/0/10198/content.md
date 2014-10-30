@@ -24,7 +24,11 @@ The [[philosophy]] of [[mathematics]].
 
 ## Related concepts
 
-* [[Platonism]], [[finitism]], [[ultrafinitism]]
+* [[Platonism]]
+
+* [[finitism]], [[ultrafinitism]]
+
+* [[constructivism]]
 
 * [[philosophy of physics]]
 
@@ -38,5 +42,7 @@ The [[philosophy]] of [[mathematics]].
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
+
+* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 
