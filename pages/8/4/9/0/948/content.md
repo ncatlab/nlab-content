@@ -263,7 +263,7 @@ In
 
 * [[Georg Hegel]], _[[Phenomenology of Spirit]]_ 
 
-the following complaint about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
+the following comment about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
 
 > All the same, while proof is essential in the case of mathematical
 knowledge, it still does not have the significance and nature of being
@@ -271,6 +271,10 @@ a moment in the result itself; the proof is over when we get the
 result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
 
 > [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
+
+See also earlier conceptions of proofs expressing the 'cause' of a theorem, where *reductio* proofs in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
+
+* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 [[!redirects constructive]]
 [[!redirects constructive mathematics]]
