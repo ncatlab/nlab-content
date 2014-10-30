@@ -43,6 +43,8 @@ The motivation for the terminology stems from the observation that the compactne
 
 * [[Lindström's theorem]]
 
+* [[Deligne completeness theorem]]
+
 * [[Stone duality]]
 
 ## References
