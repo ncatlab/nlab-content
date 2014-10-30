@@ -129,6 +129,7 @@ See also _[[intuitionistic mathematics]]_ and _[[realizability]]_ and _[[computa
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
+*  [[proof relevance]]
 *  [[anafunctor]] (classically equivalent to a [[functor]])
 *  [[apartness relation]] (classically complementary to an [[equivalence relation]])
 *  [[comparison]] (classically complementary to a [[transitive relation]])
@@ -258,6 +259,18 @@ The relation to [[realizability]] and [[computability]] is discussed in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
+In 
+
+* [[Georg Hegel]], _[[Phenomenology of Spirit]]_ 
+
+the following complaint about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
+
+> All the same, while proof is essential in the case of mathematical
+knowledge, it still does not have the significance and nature of being
+a moment in the result itself; the proof is over when we get the
+result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
+
+> [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
 
 [[!redirects constructive]]
 [[!redirects constructive mathematics]]
