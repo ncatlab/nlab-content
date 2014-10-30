@@ -17,10 +17,18 @@
 
 ## Idea
 
-In an appendix of [[SGA4]] (vol. II,ch.VI, p.336) [[Pierre Deligne]] proved a theorem concerning the _points_ of a [[coherent topos]]. As points of a topos $\mathcal{E}$ correspond to the models of the theory classified by $\mathcal{E}$ this result can be interpreted from a logical perspective where it basically amounts to a variant of the classical _G&#246;del-Henkin completeness theorem_ for [[first-order logic]] as observed by [[William Lawvere]] (1975).
+The _Deligne completeness theorem_, or **Deligne's theorem**, as it is also called, was initially proved by [[Pierre Deligne]] in an appendix of [[SGA4]][^sga] in the context of [[algebraic geometry]] as a theorem concerning the abundance of  _points_ for a [[coherent topos]].
+
+When in the early 70s the connection between topos theory and logic became manifest [[William Lawvere]] (1975) pointed out that the theorem may be viewed as a variant of the classical **G&#246;del-Henkin completeness theorem** for [[first-order logic]]: As points of a topos $\mathcal{E}$ correspond to set-theoretic models of the theory [[classifying topos|classified]] by $\mathcal{E}$ it amounts to saying that a (consistent) finitary [[geometric theory]] has models in $Set$.
+
+[^sga]: [SGA 4, vol. II](#SGA4II), expos&#233; VI, p.336.
+
+## Statement
+
+Recall that a point of a topos $\mathcal{E}$ is simply a geometric morphism $p:Set\to\mathcal{E}$ and that $\mathcal{E}$ is said to have [[enough points]] when for any two distinct parallel $f,g:A\to B$ in $\mathcal{E}$ there is a point $p$ that separates $f$ and $g$: $p*(f)\neq p*(g)$.
 
 +-- {: .num_theorem }
-###Theorem
+###### Theorem
 
 A [[coherent topos]] has [[enough points]].
 
@@ -32,6 +40,8 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 
 * [[Deligne-Lurie completeness theorem]]
 
+* [[Barr's theorem]]
+
 * [[geometric theory]]
 
 * [[coherent topos]]
@@ -40,8 +50,12 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 
 ## References
 
-* M. Artin, A. Grothendieck, J. L. Verdier (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4. II_ , LNM **270** Springer Heidelberg 1972.
+* M. Artin, A. Grothendieck, J. L. Verdier (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4. II_ , LNM **270** Springer Heidelberg 1972.{#SGA4II}
+
+* P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (ch. 7) {#Johnstone77b}
 
 * F. W. Lawvere, _Continuously Variable Sets: Algebraic Geometry= Geometric Logic_ , pp.135-156 in _Proc. Logic Colloquium Bristol 1973_, North-Holland Amsterdam 1975.
 
 * S. Mac Lane, I. Moerdijk, _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (sec. IX.11, pp.521f)
+
+[[!redirects Deligne's theorem]]
