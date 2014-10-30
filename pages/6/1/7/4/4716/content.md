@@ -22,7 +22,7 @@
 ## Idea
 
 
-Given a [[topological manifold]] $X$, its __mapping class group__ $MCG(X)$ is the [[group]] of [[isotopy]] classes of orientation preserving [[homeomorphisms]] $X\to X$. 
+Given a (oriented) [[topological manifold]] $X$, its __mapping class group__ $MCG(X)$ is the [[group]] of [[isotopy]] classes of (orientation preserving) [[homeomorphisms]] $X\to X$. 
 
 Often this is considered specifically for $X$ a [[Riemann surface]] with punctures in which case
 a central role is played by [[Dehn twists]]. 
@@ -30,6 +30,7 @@ a central role is played by [[Dehn twists]].
 The mapping class group is of importance in many areas of geometry including study of [[Teichmüller spaces]], of [[moduli spaces]] of surfaces, of [[automorphisms]] of [[free groups]] and in geometric and [[combinatorial group theory]], hyperbolic geometry and so on. Some of the key contributors were [[Max Dehn]], [[Jakob Nielsen]], [[William Thurston]], [[David Mumford]]. Recent proof of the related Mumford conjecture has been accomplished by Madsen and Weiss.
 
 ## Definition
+
 
 For $\mathbf{Aut}(X)$ the [[automorphism group]] of the [[manifold]] formed in [[Euclidean-topological infinity-groupoids|Euclidean topological geometry]], hence equipped with its canonical structure of a [[topological group]]. Let furthermore $\mathbf{Aut}_0(X) \hookrightarrow \mathbf{Aut}(X)$ be the inclusion of the connected component of the identity.
 
@@ -39,9 +40,17 @@ $$
   \mathbf{MCG}(X) \coloneqq \mathbf{Aut}(X)/\mathbf{Aut}_0(X)
 $$
 
-is the corresponding [[coset space]]/[[quotient group]]. In other words, the mapping class group is the group of [[diffeomorphisms]] of $X$ onto itself, modulo [[isotopy]]. 
+is the corresponding [[coset space]]/[[quotient group]]. In other words, the mapping class group is the group of [[homeomorphism]] of $X$ onto itself, modulo [[isotopy]]. 
+
+This is a [[discrete group]]. Equivalently it is the group of [[connected components]] of $\mathbf{Aut}(X)$. If $X$ is a [[smooth manifold]], then the mapping class group is the group of connected components of the [[diffeomorphism group]]
+
+$$
+  MCG(X) = \pi_0(Diff(X))
+ \,.
+$$
 
 If $X$ is a manifold with boundary $\partial X$, then it is usual to consider automorphisms which restrict to the identity on the boundary. 
+
 
 ## Properties
 
@@ -59,6 +68,10 @@ Another example is a 2-disk with $n$ punctures. The group of diffeomorphisms (fi
 ### Rational cohomology
 
 The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of the stable mapping class group of 2-dimensional manifolds (hence essentially the [[orbifold cohomology]] of the [[moduli stack of complex curves]]) is the content of [[Mumford's conjecture]], proven in ([Madsen-Weiss 02](#MadsenWeiss02)).
+
+## Related concepts
+
+* [[diffeomorphism group]]
 
 ## References
 
@@ -87,6 +100,8 @@ of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomo
 
 
 * [[Alan Hatcher]], [[William Thurston]], _A presentation for the mapping class group of a closed orientable surface_, Topology, 19(3):221&#8211;237, 1980.
+
+* {#Hatcher} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_ ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
 * [[Max Dehn]], Papers on group theory and topology. Springer-Verlag,
 New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
