@@ -237,7 +237,7 @@ This is proven as ([MacLane-Moerdijk,  chapter VI &#167;9, theorem 2](#MM94)) un
 
 We can generalize the above theorem as follows.  Let $S$ be any [[site]], and for any object $X\in S$ let $L(X)$ denote the [[locale]] whose [[frame]] of opens is the frame of [[subobjects]] of the sheafified representable $y X \in Sh(S)$.  We have an induced functor $L:S\to Loc$.  We can also regard the ordinary real numbers $\mathbb{R}$ as a locale.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 The Dedekind real number object in $Sh(S)$ is the functor $Loc(L-,\mathbb{R})$.
 =--
