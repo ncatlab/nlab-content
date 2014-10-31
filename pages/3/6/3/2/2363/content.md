@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 =--
 =--
 
@@ -23,6 +27,8 @@ $$
 $$
 
 is an [[isomorphism]] for all $n \in \mathbb{Z}$.
+
+e.g. [Lurie, remark 1.4](#Lurie)
 
 Compare with the notion of a _[[periodic cohomology theory]]_.
 
@@ -66,6 +72,11 @@ $$
 
 if $A^0(\mathbb{C}P^\infty) A^0({*})[ [t] ]$ then $i_0^*$ "forgets the $t$-coordinate".
 
+## Examples
+
+* [[complex K-theory]]
+
+* [[elliptic cohomology]]
 
 ## Related entries
 
@@ -75,4 +86,7 @@ if $A^0(\mathbb{C}P^\infty) A^0({*})[ [t] ]$ then $i_0^*$ "forgets the $t$-coord
 
 * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
 
+## References
+
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 [[!redirects weakly periodic cohomology theories]]
