@@ -253,7 +253,9 @@ An survey of and introduction to the topic is in
 
 * Patrick Meessen, _Strings Moving on Group Manifolds: The WZW Model_ ([pdf](http://www.unioviedo.es/meessen/fysica/zooi/WZW_ClassMunoz.pdf))
 
-A classical textbook account in the general context of 2d [[CFT]] is 
+A classical textbook accounts include
+
+* [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 7 ([ps.gz](http://www.math.sunysb.edu/~kirillov/tensor/chapter7.ps.gz)) of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
 * P. Di Francesco, P. Mathieu, D. S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
 
