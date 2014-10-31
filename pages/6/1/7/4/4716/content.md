@@ -60,9 +60,53 @@ The mapping class group for 2-dimensional manifolds controls the [[moduli stack 
 
 The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] may also be encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
 
-One of the classical results is that the mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to $SL_2(\mathbb{Z}$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
+One of the classical results is that the (oriented) mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to $SL_2(\mathbb{Z}$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
 
 Another example is a 2-disk with $n$ punctures. The group of diffeomorphisms (fixing the boundary pointwise) modulo isotopy is the [[braid group]] $B_n$. 
+
+The relation to the [[homotopy type]] of the [[diffeomorphism group]] is as follows:
+
++-- {: .num_prop}
+###### Proposition
+
+
+For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]], then the [[fundamental ∞-groupoid|bare homotopy type]] of its diffeomorphism group is
+
+1. if $\Sigma$ is the [[sphere]] then
+ 
+   $$
+     \begin{aligned} 
+        \Pi(Diff(S^2)) & \simeq \Pi(O(3))
+        \\
+        & \simeq MCG(S^2)\times \Pi(SO(3))
+        \\
+        & \simeq \mathbb{Z}_2 \times \Pi(SO(3))
+     \end{aligned}
+   $$
+
+1. if $\Sigma$ is the [[torus]] then
+
+   $$
+     \begin{aligned}
+       \Pi(Diff(S^1 \times S^1)) 
+       & \simeq 
+       MCG(S^1 \times S^1)\times \Pi(S^1 \times S^1 )
+       \\
+       & \simeq GL_2(\mathbb{Z}) \times B(\mathbb{Z} \times\mathbb{Z})
+     \end{aligned}
+   $$ 
+
+1. in all other cases all higher [[homotopy groups]] vanish:
+
+   $$
+     \Pi(Diff(\Sigma)) \simeq MCG(\Sigma)
+   $$
+
+=--
+
+The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle-Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
+
+
 
 
 ### Rational cohomology
@@ -97,6 +141,9 @@ See also
 of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomology of the moduli space of curves_ in: Theory of moduli (Montecatini Terme, 1985), Lecture Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
 
 * Robert C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044); _A construction of pseudo-Anosov homeomorphisms_, Trans. Amer. Math. Soc. __310__ (1):179&#8211;197, 1988.
+
+{#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
+Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 
 * [[Alan Hatcher]], [[William Thurston]], _A presentation for the mapping class group of a closed orientable surface_, Topology, 19(3):221&#8211;237, 1980.
