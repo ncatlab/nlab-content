@@ -106,6 +106,7 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
 The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle-Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
 
+See ([Hatcher 12](#Hatcher12)) for review.
 
 
 
@@ -129,7 +130,7 @@ groups_, draft, [web]()
 * Nikolai V. Ivanov. Mapping class groups. In Handbook of geometric
 topology, pages 523&#8211;633. North-Holland, Amsterdam, 2002; 1998 draft: [ps](http://www.mth.msu.edu/~ivanov/m99.ps)
 
-
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
 
 See also
 
@@ -148,7 +149,7 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * [[Alan Hatcher]], [[William Thurston]], _A presentation for the mapping class group of a closed orientable surface_, Topology, 19(3):221&#8211;237, 1980.
 
-* {#Hatcher} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_ ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
+* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
 * [[Max Dehn]], Papers on group theory and topology. Springer-Verlag,
 New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
