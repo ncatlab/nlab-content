@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle bundle]] over a 2-dimensional [[orbifold]].
+
+## References
+
+* Wikipedia, _[Seifert fiber space](http://en.wikipedia.org/wiki/Seifert_fiber_space)_
+
+[[!redirects Seifert 3-manifolds]]
+
+[[!redirects Seifert fiber space]]
+[[!redirects Seifert fiber spaces]]
