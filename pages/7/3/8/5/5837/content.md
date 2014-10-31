@@ -21,40 +21,8 @@
 
 The _diffeomorphism group_ $Diff(X)$ of a [[smooth manifold]] $X$ is the [[group]] of its [[diffeomorphism]]s: the [[automorphism group]] of $X$ as an [[object]] of the [[category]] [[SmoothMfd]].
 
-## Examples
+Beware that when $X$ is assumed [[orientable]] then sometimes, but not always, $Diff(X)$ is implicitly taken to be the group of orientation-preserving diffeomorphisms. 
 
-### Of the 3-sphere
-
-+-- {: .num_theorem #SmaleConjecture}
-###### Theorem
-
-The diffemorphism group of the 3-sphere is [[homotopy equivalence|homotopy equivalent]] to the [[orthogonal group]] $O(4)$, the equivalence being exhibited by the canonical inclusion
-
-$$
-  O(4) \hookrightarrow Diff(S^3)
-  \,.
-$$
-
-=--
-
-After being conjectured by Smale, this was proven in ([Hatcher 1983](#Hatcher)).
-
-### Of general 3-manifolds
-
-+-- {: .num_theorem}
-###### Theorem
-
-For every [[smooth manifold]] $X$ of [[dimension]] 3 the canonical map
-
-$$
-  Diff(X) \to Homeo(X)
-$$
-
-sending [[diffeomorphisms]] to their underlying [[homeomorphisms]] of [[topological spaces]] is a [[weak homotopy equivalence]]. 
-
-=--
-
-That this follows from the Smale cojecture, theorem \ref{SmaleConjecture}, was shown in [Cerf](#Cerf). For discussion see [Hatcher, 1978](#Hatcher78).
 
 
 ## Properties
@@ -88,8 +56,9 @@ $$
 * for $\Sigma$ any  [[hyperbolic manifold]] of finite [[volume]] and of [[dimension]] $\geq 3$ (by [[Mostow rigidity theorem]]) (check)
 
 ### Homotopy type and mapping class group
+ {#HomotopyTypeAndMappingClassGroup}
 
-The [[homotopy type]] $\Pi(Diff(\sigma))$ of the diffeomorphism group $Diff(\Sigma)$ is of interest (e.g. [Hatcher](#HatcherHomotopyType)).
+The [[homotopy type]] $\Pi(Diff(\Sigma))$ of the diffeomorphism group $Diff(\Sigma)$ is of interest (e.g. [Hatcher](#HatcherHomotopyType)).
 
 For instance this is the [[automorphism ∞-group]] of a manifold, regarded as a [[k-morphism]] in an [[(∞,n)-category of cobordisms]].
 
@@ -100,7 +69,17 @@ $$
   \,.
 $$
 
-#### For surfaces
+#### For 1-manifolds
+
+$$
+  \Pi(Diff(S^1))\simeq \Pi(O(2))
+$$
+
+$$
+  \Pi(Diff(D^1))\simeq \Pi(O(1))
+$$
+
+#### For 2-manifolds (surfaces)
  {#HomotopyTypeForSurfaces}
 
 +-- {: .num_prop}
@@ -112,7 +91,13 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 1. if $\Sigma$ is the [[sphere]] then
  
    $$
-     \Pi(Diff(S^2)) \simeq \Pi(O(3))
+     \begin{aligned} 
+        \Pi(Diff(S^2)) & \simeq \Pi(O(3))
+        \\
+        & \simeq MCG(S^2)\times \Pi(SO(3))
+        \\
+        & \simeq \mathbb{Z}_2 \times \Pi(SO(3))
+     \end{aligned}
    $$
 
 1. if $\Sigma$ is the [[torus]] then
@@ -137,12 +122,95 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
 The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle-Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
 
+#### For 3-manifolds
 
++-- {: .num_prop}
+###### Proposition
+
+$$
+  \Pi(Diff(S^1 \times S^2))
+  \simeq
+  \Pi(O(2) \times O(3))
+  \times
+  \Omega \Pi(SO(3))
+  \,.
+$$
+
+=--
+
+([Hatcher 81](#Hatcher81))
+
+
++-- {: .num_theorem #SmaleConjecture}
+###### Theorem **(Smale conjecture)**
+
+The bare homotopy type of the diffeomorphism group of the 3-sphere is that of the [[orthogonal group]] $O(4)$
+
+$$
+  \Pi(Diff(S^3)) \simeq \Pi(O(4))
+  \,,
+$$
+
+the equivalence being exhibited by the canonical inclusion
+
+$$
+  O(4) \hookrightarrow Diff(S^3)
+  \,.
+$$
+
+Also
+
+$$
+  \Pi(Diff(D^3)) \simeq \Pi(O(3))
+  \,.
+$$
+
+=--
+
+After being conjectured by Smale, this was proven in ([Hatcher 1983](#Hatcher)).
+
+
+
+Generally:
+
+
++-- {: .num_theorem}
+###### Theorem
+
+For every [[smooth manifold|smooth]] [[3-manifold]] the canonical map
+
+$$
+  \Pi(Diff(X)) \to \Pi(Homeo(X))
+$$
+
+sending [[diffeomorphisms]] to their underlying [[homeomorphisms]] of [[topological spaces]] is a [[weak homotopy equivalence]]. 
+
+=--
+
+That this follows from the Smale cojecture, theorem \ref{SmaleConjecture}, was shown in ([Cerf](#Cerf)). For discussion see ([Hatcher, 1978](#Hatcher78)).
+
++-- {: .num_prop}
+###### Proposition
+
+If a 3-manifold $X$ is not a [[Seifert 3-manifold]] via an $S^1$-action then
+
+$$
+  \Pi(Diff(X)) \simeq MCG(X)
+  \,.
+$$
+
+=--
+
+If $X$ is Seifert via an $S^1$-action, then the component of $Diff(X)$ are typically $\Pi(S^1)$-s.
 
 
 ## References
 
 ### For 2-manifolds (surfaces)
+
+{#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
+Bulletin of the American Mathematical Society 73(4) 557--559, 1967
+
 
 * {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
 
@@ -154,19 +222,21 @@ The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere ever
 
 * {#Hatcher78} [[Allen Hatcher]], _Linearization in 3-dimensional topology_, Proceedings of the international congress of Mathematicians, Helsinki (1978)
  
+
+* {#Hatcher81} [[Allen Hatcher]], _On the diffeomorphism group of $S^1\times S^2$_, Proceedings of the AMS 83 (1981), 427-43 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/newDiffS1xS2.pdf))
+
 * {#Hatcher} [[Allen Hatcher]], _A proof of the Smale conjecture, $Diff(S^3) \simeq O(4)$, Annals of Mathematics 117 (1983) ([jstor](http://www.jstor.org/pss/2007035))
  
 
 * {#Waldhausen68} [[Friedhelm Waldhausen]], _On Irreducible 3-Manifolds Which are Sufficiently Large_, Annals of Mathematics
 Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.org/stable/1970594))
 
-### Homotopy type and mapping class group
 
-{#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
-Bulletin of the American Mathematical Society 73(4) 557--559, 1967
-
+### General
 
 * {#HatcherHomotopyType} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_ ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
+
+
 
 
 [[!redirects diffeomorphism groups]]
