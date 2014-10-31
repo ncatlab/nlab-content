@@ -21,7 +21,7 @@
 
 An _elliptic cohomology theory_ is a type of _[[generalized (Eilenberg-Steenrod) cohomology]]_ theory associated with the datum of an [[elliptic curve]].
 
-[[periodic cohomology theory|Periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theories $A$ are characterized by the [[formal group]] whose ring of functions $A(\mathbb{C}P^\infty)$ is the [[cohomology ring]] of $A$ evaluated on the complex projective space $\mathbb{C}P^\infty$ and whose group product is induced from the canonical morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that describes the tensor product of complex [[line bundle]]s under the identification $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$.
+Even ([[weakly periodic cohomology theory|weakly]]) [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theories $A$ are characterized by the [[formal group]] whose ring of functions $A(\mathbb{C}P^\infty)$ is the [[cohomology ring]] of $A$ evaluated on the complex projective space $\mathbb{C}P^\infty$ and whose group product is induced from the canonical morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that describes the tensor product of complex [[line bundle]]s under the identification $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$.
 
 There are precisely three types of such formal group laws:
 
@@ -31,9 +31,11 @@ There are precisely three types of such formal group laws:
 
 * the formal group law on [[elliptic curve]].
 
-An **elliptic cohomology** theory is a [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve, hence which is [[Brown representability theorem|represented]] by an [[elliptic spectrum]].
+An **elliptic cohomology** theory is an eve [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve, hence which is [[Brown representability theorem|represented]] by an [[elliptic spectrum]].
 
-A theorem proven by Goerss-Hopkins-Miller and later in a different way by [[Jacob Lurie]] shows that the assignment of [[generalized (Eilenberg-Steenrod) cohomology]] theories to [[elliptic curve]]s lifts to an assignment of representing [[spectrum|spectra]] in a structure preserving way. 
+e.g. [Lurie, def. 1.2](#Lurie), see also at _[[elliptic spectrum]]_
+
+Then [[Goerss-Hopkins-Miller-Lurie theorem]] shows that the assignment of [[generalized (Eilenberg-Steenrod) cohomology]] theories to [[elliptic curves]] lifts to an assignment of representing [[spectrum|spectra]] in a structure preserving way. 
 
 The [[homotopy limit]] of this assignment functor, i.e. the "gluing" of all spectra representing all elliptic cohomology theories is the [[spectrum]] that represents the cohomology theory called [[tmf]].
 
@@ -288,7 +290,7 @@ Modern accounts of ([[equivariant elliptic cohomology|equivariant]]) elliptic co
 
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, 2005
 
-* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
 Further discussion of [[equivariant elliptic cohomology]] and the relation to [[loop group]] [[representation theory]] is in 
 
