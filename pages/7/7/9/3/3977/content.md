@@ -37,4 +37,6 @@ Under the canonical [[representation]] $\mathbf{B}U(1) \to Vect_{\mathbb{C}}$ th
 
 * [[line bundle]]
 
+* [[Seifert 3-manifold]]
+
 [[!redirects circle bundles]]
