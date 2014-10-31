@@ -204,7 +204,7 @@ A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is iso
 
 =--
 
-This is shown in ([MacLane-Moerdijk, Chapter VI, &#167;8, theorem 2](#MM94)).
+This is shown in ([MacLane-Moerdijk, Chapter VI, &#167;8, theorem 2](#MM94)); see also below.
 
 +-- {: .num_remark}
 ###### Remark
@@ -220,18 +220,10 @@ Theorem \ref{DedekindRealsInToposOverTopologicalSpace} allows us to define vario
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $\{\mathbb{R}\} \hookrightarrow S \hookrightarrow Top$ be a [[small category|small]] [[full subcategory]] of [[Top]] including the [[real line]]. Sufficient conditions on $S$ such that the Dedekind real number object internal to $Sh(S)$ is [[representable functor|represented]] by $\mathbb{R}^1$ include:
-
-* $S$ is closed under forming [[open subspaces]] and [[finite limits]].
-
+Let $\{\mathbb{R}\} \hookrightarrow S \hookrightarrow Top$ be a [[small category|small]] [[full subcategory]] of [[Top]] including the [[real line]].  If $S$ is closed under forming [[open subspaces]] and pullbacks of open subspaces and we equip it with the open-cover [[coverage]], then the Dedekind real number object internal to $Sh(S)$ is [[representable functor|represented]] by $\mathbb{R}^1$.
 =--
 
-This is proven as ([MacLane-Moerdijk,  chapter VI &#167;9, theorem 2](#MM94)) by showing that over each object in the site the argument reduces essentially to that of theorem \ref{DedekindRealsInToposOverTopologicalSpace} for that object.
-
-+-- {: .num_remark}
-###### Remark
-
-It seems that this proof uses the assumption of closure under forming open subspaces and finite limits only to ensure that $S$ inherits the [[Grothendieck topology]] from [[Top]]. But if we assumed that $S$ only inherited a [[coverage]], then the argument would still seem to go through. That then includes the cases
+This is proven as ([MacLane-Moerdijk,  chapter VI &#167;9, theorem 2](#MM94)) under the stronger assumption that $S$ is closed under open subspaces and finite limits, by showing that over each object in the site the argument reduces essentially to that of theorem \ref{DedekindRealsInToposOverTopologicalSpace} for that object.  However, the finite limits are not necessary; see also below.  The more general version includes the cases
 
 * $S =$ $\{$ [[locally contractible topological spaces]] $\}$
 
@@ -239,7 +231,25 @@ It seems that this proof uses the assumption of closure under forming open subsp
 
 (for which $Sh(S)$ is [[cohesive topos]] and $Sh_\infty(S)$ is an [[cohesive (∞,1)-topos]]).
 
+
+### In a general sheaf topos
+ {#InASheafTopos}
+
+We can generalize the above theorem as follows.  Let $S$ be any [[site]], and for any object $X\in S$ let $L(X)$ denote the [[locale]] whose [[frame]] of opens is the frame of [[subobjects]] of the sheafified representable $y X \in Sh(S)$.  We have an induced functor $L:S\to Loc$.  We can also regard the ordinary real numbers $\mathbb{R}$ as a locale.
+
++-- {: .un_theorem}
+###### Theorem
+The Dedekind real number object in $Sh(S)$ is the functor $Loc(L-,\mathbb{R})$.
 =--
++-- {: .proof}
+###### Proof
+The sheaf topos $Sh(\mathbb{R})$ is the classifying topos of the geometric theory of a real number, in the sense that for any Grothendieck topos $E$, geometric morphisms $E \to Sh(\mathbb{R})$ are equivalent to global points of the real numbers object $\mathbb{R}_E$ in $E$.  Since pullback functors are logical, they preserve the real numbers object; thus for any $X\in E$, maps $X\to \mathbb{R}_E$ are equivalent to geometric morphisms $E/X \to Sh(\mathbb{R})$.  But $Sh(\mathbb{R})$ is localic, so such geometric morphisms factor through the localic reflection of $E/X$, and therefore are equivalent to continuous $\mathbb{R}$-valued functions defined on the "little locale of $X$", i.e. the locale associated to the frame of subobjects of $X$ in $E$.
+
+Therefore, if $E = Sh(S)$ for some site $S$, then $\mathbb{R}_E$ is the sheaf on $S$ where $\mathbb{R}_E(X)=$ the set of continuous $\mathbb{R}$-valued functions on the little locale of $y X \in E$, which is what we have called $L X$.
+=--
+
+To deduce the previous theorem from this one, it suffices to observe that if $S\subset Top$ is closed under open subspaces and their pullbacks and equipped with the open-cover coverage, then every subobject of $y X\in Sh(S)$, for any $X\in S$, is uniquely representable by an open subset of $X$.
+
 
 ## Generalizations
 
