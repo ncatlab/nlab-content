@@ -58,7 +58,7 @@ $$
 ### Homotopy type and mapping class group
  {#HomotopyTypeAndMappingClassGroup}
 
-The [[homotopy type]] $\Pi(Diff(\Sigma))$ of the diffeomorphism group $Diff(\Sigma)$ is of interest (e.g. [Hatcher](#HatcherHomotopyType)).
+The [[homotopy type]] $\Pi(Diff(\Sigma))$ of the diffeomorphism group $Diff(\Sigma)$ is of interest (e.g. [Hatcher 12](#Hatcher12)).
 
 For instance this is the [[automorphism ∞-group]] of a manifold, regarded as a [[k-morphism]] in an [[(∞,n)-category of cobordisms]].
 
@@ -234,7 +234,7 @@ Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.
 
 ### General
 
-* {#HatcherHomotopyType} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_ ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
+* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
 
 
