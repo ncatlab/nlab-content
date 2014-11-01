@@ -18,7 +18,7 @@
 +-- {: .num_defn #tStruc}
 ###### Definition
 
-Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] of [[full subcategories]]
+Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] $\mathfrak{t}=(C_{\ge 0}, C_{\le 0})$ of [[full subcategories]]
 
 $$
    C_{\geq 0}, C_{\leq 0} \hookrightarrow C
@@ -53,6 +53,7 @@ $$
 
 In the [[infinity-category|infinity-categorical]] setting $t$-structures arise as [[torsion theory|torsion/torsionfree]] classes associated to suitable [[orthogonal factorization system|factorization systems]] on a [[stable infinity-category]] $C$.
 
+* In a stable setting, the subcategories are closed under de/suspension simply because they are co/reflective and reflective and these operations are co/limits. Co/reflective subcategories of $C$ arise from co/[[reflective factorization systems]] on $C$;
 
 * A _bireflective_ factorization system on a $\infty$-category $C$ consists of a [[orthogonal factorization system|factorization system]] $\mathbb{F}=(E,M)$ where both classes satisfy the [[two-out-of-three]] property.
 
@@ -72,7 +73,7 @@ is a fiber sequence for any object $X$; see [FL0, Def 3.5 and Prop. 3.10](#FL0) 
 
 **Theorem.** There is a bijective correspondence between the class $TS( C )$ of $t$-structures and the class of normal torsion theories on a stable $\infty$-category $C$, induced by the following correspondence:
 
-* On the one side, given a normal, bireflective factorization system $(E,M)$ on $C$ we define the two classes $(C_{\ge0}(\mathbb{F}), C_{\lt 0}(\mathbb{F}))$ of a $t$-structure $t(\mathbb{F})$ to be the torsion and torsionfree classes $(*\!/E, M/\!*)$  associated to the factorization $(E,M)$.
+* On the one side, given a normal, bireflective factorization system $(E,M)$ on $C$ we define the two classes $(C_{\ge0}(\mathbb{F}), C_{\lt 0}(\mathbb{F}))$ of a $t$-structure $\mathfrak{t}(\mathbb{F})$ to be the torsion and torsionfree classes $(*\!/E, M/\!*)$  associated to the factorization $(E,M)$.
 * On the other side, given a $t$-structure on $C$ we set
 $$E(t)=\{f\in C^{\Delta[1]} \mid \tau_{\lt 0}(f) \;\text{ is an equivalence}\};$$
 $$M(t)=\{f\in C^{\Delta[1]} \mid \tau_{\geq0}(f) \;\text{ is an equivalence}\}.$$
@@ -83,19 +84,19 @@ _Proof._ This is [FL0, Theorem 3.13](#FL0)
 
 This correspondence leads to study _families_ of $t$-structures $\{\mathbb{F}_i\}_{i\in I}$; more precisely, we are led to study _$\mathbb{Z}$-equivariant_ [[k-ary factorization system|multiple factorization systems]] $J\to TS( C )$.
 
-**Theorem.** Let $t \in TS(C)$ and $\mathbb{F}=(E,M)$ correspond each other under the above bijection; then the following conditions are equivalent:
+**Theorem.** Let $\mathfrak{t} \in TS(C)$ and $\mathbb{F}=(E,M)$ correspond each other under the above bijection; then the following conditions are equivalent:
 
-1. $t[1]=t$, i.e. $C_{\geq 1}= C_{\geq 0}$;
+1. $\mathfrak{t}[1]=\mathfrak{t}$, i.e. $C_{\geq 1}= C_{\geq 0}$;
 2. $C_{\geq 0}=*\!/E$ is a stable $\infty$-category;
 3. the class $E$ is closed under pullback.
 
-In each of these cases, we say that $t$ or $(E,M)$ is _stable_.
+In each of these cases, we say that $\mathfrak{t}$ or $(E,M)$ is _stable_.
 
 _Proof._ This is [FL1, Theorem 2.16](#FL1)
 
 This results allows us to recognize _$t$-structures with stable classes_ precisely as those which are fixed in the natural $\mathbb{Z}$-action on $TS( C )$.
 
-Two "extremal" choices of $\mathbb{Z}$-chains of $t$-structures draw a connection between two apparently separated constructions in the theory of derived categories: _Harder-Narashiman filtrations_ and _semiorthogonal decompositions_ on triangulated categories: we adopt the shorthand $t_{1,\dots, n}$ to denote the tuple $t_1\preceq t_2\preceq\cdots\preceq t_n$, each of the $t_i$ being a $t$-structure $((C_i)_{\ge 0}, (C_i)_{\lt 0})$ on $C$, and we denote similarly $t_\omega$. Then
+Two "extremal" choices of $\mathbb{Z}$-chains of $t$-structures draw a connection between two apparently separated constructions in the theory of derived categories: _Harder-Narashiman filtrations_ and _semiorthogonal decompositions_ on triangulated categories: we adopt the shorthand $\mathfrak{t}_{1,\dots, n}$ to denote the tuple $\mathfrak{t}_1\preceq \mathfrak{t}_2\preceq\cdots\preceq \mathfrak{t}_n$, each of the $\mathfrak{t}_i$ being a $t$-structure $((C_i)_{\ge 0}, (C_i)_{\lt 0})$ on $C$, and we denote similarly $\mathfrak{t}_\omega$. Then
 
 * In the _stable case_ the tuple $t_{1,\dots, n}$ is endowed with a (monotone) $\mathbb{Z}$-action, and the map $\{0\lt 1\cdots\lt n\}\to TS( C )$ is equivariant with respect to this action; the absence of nontrivial $\mathbb{Z}$-actions on $\{0\lt 1\cdots\lt n\}$ forces each $t_i$ to be stable.
 * In the _orbit case_ we consider an _infinite_ family $t_\omega$ of $t$-structures on $C$, obtained as the orbit of a fixed $(E_0, M_0)\in TS( C )$ with respect to the natural $\mathbb{Z}$-action.
@@ -103,7 +104,7 @@ Two "extremal" choices of $\mathbb{Z}$-chains of $t$-structures draw a connectio
 
 ### Towers
 
-The HN-filtration induced by a $t$-structure and the factorization induced by a [[semiorthogonal decomposition]] on $C$ both stem from the same construction:
+The HN-filtration induced by a $t$-structure and the factorization induced by a [[semiorthogonal decomposition]] on $C$ both are the byproduct of the _tower_ associated to a tuple $\mathfrak{t}_{1,\dots, n}$:
 
 (...)
 
@@ -147,7 +148,7 @@ For [[stable (∞,1)-categories]]
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
-For factorization systems and normal torsion theories in stable $\infty$-categories
+For reflective factorization systems and normal torsion theories in stable $\infty$-categories
 
 * Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329 ([pdf](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_38_03%2FS1446788700023624a.pdf&code=5796045be8904c5183c2e95bce65491e))
  {#CHK}
@@ -171,6 +172,7 @@ For factorization systems and normal torsion theories in stable $\infty$-categor
 
 [[!redirects heart]]
 [[!redirects hearts]]
+
 
 [[!redirects heart of a t-structure]]
 [[!redirects hearts of t-structures]]
