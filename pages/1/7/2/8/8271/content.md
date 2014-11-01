@@ -18,19 +18,20 @@
 +-- {: .num_defn #tStruc}
 ###### Definition
 
-Let $\mathcal{D}$ be a [[triangulated category]]. A _t-structure_ on $\mathcal{D}$ is a [[pair]] of [[full subcategories]]
+Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] of [[full subcategories]]
 
 $$
-   \mathcal{D}_{\geq 0}, \mathcal{D}_{\leq 0} \hookrightarrow \mathcal{D}
+   C_{\geq 0}, C_{\leq 0} \hookrightarrow C
 $$
 
 such that
 
-1. for all $X \in \mathcal{D}_{\geq 0}$ and $Y \in \mathcal{D}_{\leq 0}$ the [[hom object]] is the [[zero object]]: $Hom_{\mathcal{D}}(X, Y[-1]) = 0$;
+1. for all $X \in C_{\geq 0}$ and $Y \in C_{\leq 0}$ the [[hom object]] is the [[zero object]]: $Hom_{C}(X, Y[-1]) = 0$;
 
-1. the subcategories are closed under [[suspension]]/desuspension: $\mathcal{D}_{\geq 0}[1] \subset \mathcal{D}_{\geq 0}$ and $\mathcal{D}_{\leq 0}[-1] \subset \mathcal{D}_{\leq 0}$.
+1. the subcategories are closed under [[suspension]]/desuspension: $C_{\geq 0}[1] \subset C_{\geq 0}$ and $C_{\leq 0}[-1] \subset C_{\leq 0}$.
 
-1. For all [[objects]] $X \in \mathcal{D}$ there is a [[fiber sequence]] $Y \to X \to Z$ with $Y \in \mathcal{D}_{\geq 0}$ and $Z \in \mathcal{D}_{\leq 0}[-1]$.
+1. For all [[objects]] $X \in C$ there is a [[fiber sequence]] $Y \to X \to Z$ with $Y \in C_{\geq 0}$ and $Z \in C_{\leq 0}[-1]$.
+
  
 =--
 
@@ -40,23 +41,72 @@ such that
 Given a t-structure, its _heart_ is the intersection
 
 $$
-  \mathcal{D}_{\geq 0} \cap \mathcal{D}_{\leq 0}
+  C_{\geq 0} \cap C_{\leq 0}
   \hookrightarrow
-  \mathcal{D}
+  C
   \,.
 $$
 
 =--
 
+### In stable $\infty$-categories
 
-+-- {: .num_defn }
-###### Definition
+In the [[infinity-category|infinity-categorical]] setting $t$-structures arise as [[torsion theory|torsion/torsionfree]] classes associated to suitable [[orthogonal factorization system|factorization systems]] on a [[stable infinity-category]] $C$.
 
-A t-structure on a [[stable (∞,1)-category]] is a t-structure on its [[homotopy category of an (∞,1)-category]], according to def. \ref{tStruc}.
 
-=--
+* A _bireflective_ factorization system on a $\infty$-category $C$ consists of a [[orthogonal factorization system|factorization system]] $\mathbb{F}=(E,M)$ where both classes satisfy the [[two-out-of-three]] property.
 
-([[Higher Algebra|Higher Algebra, def. 1.2.1.4]]).
+* A bireflective factorization system $(E,M)$ on a stable $\infty$-category $C$ is called _normal_ if the diagram $S x\to x\to R x$ obtained from the reflection $R\colon C\to M/0$ and the coreflection $S\colon C\to *\!/E$ (where the category $M/\!* =\{A\mid (0\to A)\in M\}$ is obtained as $\Psi(E,M)$ under the adjunction $\Phi\dashv \Psi$ described at [[reflective factorization system]] and in [CHK](#CHK); see also [FL0, &#167;1.1](#FL0)) is _exact_, meaning that the square in
+$$
+\begin{array}{cccccc} 
+0 &\to& S X &\to& X\\
+&& \downarrow&&\downarrow\\
+&& 0 &\to& R X\\
+&& && \downarrow\\
+&& && 0
+\end{array}
+$$
+is a fiber sequence for any object $X$; see [FL0, Def 3.5 and Prop. 3.10](#FL0) for equivalent conditions for normality.
+
+**Remark.** [CHK](#CHK) established a hierarchy between the three notions of simple, semi-exact and normal factorization system: in the setting of stable $\infty$-category the three notions turn out to be equivalent: see [FL0, Thm 3.11](#FL0).
+
+**Theorem.** There is a bijective correspondence between the class $TS( C )$ of $t$-structures and the class of normal torsion theories on a stable $\infty$-category $C$, induced by the following correspondence:
+
+* On the one side, given a normal, bireflective factorization system $(E,M)$ on $C$ we define the two classes $(C_{\ge0}(\mathbb{F}), C_{\lt 0}(\mathbb{F}))$ of a $t$-structure $t(\mathbb{F})$ to be the torsion and torsionfree classes $(*\!/E, M/\!*)$  associated to the factorization $(E,M)$.
+* On the other side, given a $t$-structure on $C$ we set
+$$E(t)=\{f\in C^{\Delta[1]} \mid \tau_{\lt 0}(f) \;\text{ is an equivalence}\};$$
+$$M(t)=\{f\in C^{\Delta[1]} \mid \tau_{\geq0}(f) \;\text{ is an equivalence}\}.$$
+
+_Proof._ This is [FL0, Theorem 3.13](#FL0)
+
+**Theorem.** There is a natural monotone action of the group $\mathbb{Z}$ of integers on the class $TS( C )$ (now confused with the class $FS_\nu( C )$ of normal torsion theories on $C$) given by the suspension functor: $\mathbb{F}=(E,M)$ goes to $\mathbb{F}[1] = (E[1], M[1])$. 
+
+This correspondence leads to study _families_ of $t$-structures $\{\mathbb{F}_i\}_{i\in I}$; more precisely, we are led to study _$\mathbb{Z}$-equivariant_ [[k-ary factorization system|multiple factorization systems]] $J\to TS( C )$.
+
+**Theorem.** Let $t \in TS(C)$ and $\mathbb{F}=(E,M)$ correspond each other under the above bijection; then the following conditions are equivalent:
+
+1. $t[1]=t$, i.e. $C_{\geq 1}= C_{\geq 0}$;
+2. $C_{\geq 0}=*\!/E$ is a stable $\infty$-category;
+3. the class $E$ is closed under pullback.
+
+In each of these cases, we say that $t$ or $(E,M)$ is _stable_.
+
+_Proof._ This is [FL1, Theorem 2.16](#FL1)
+
+This results allows us to recognize _$t$-structures with stable classes_ precisely as those which are fixed in the natural $\mathbb{Z}$-action on $TS( C )$.
+
+Two "extremal" choices of $\mathbb{Z}$-chains of $t$-structures draw a connection between two apparently separated constructions in the theory of derived categories: _Harder-Narashiman filtrations_ and _semiorthogonal decompositions_ on triangulated categories: we adopt the shorthand $t_{1,\dots, n}$ to denote the tuple $t_1\preceq t_2\preceq\cdots\preceq t_n$, each of the $t_i$ being a $t$-structure $((C_i)_{\ge 0}, (C_i)_{\lt 0})$ on $C$, and we denote similarly $t_\omega$. Then
+
+* In the _stable case_ the tuple $t_{1,\dots, n}$ is endowed with a (monotone) $\mathbb{Z}$-action, and the map $\{0\lt 1\cdots\lt n\}\to TS( C )$ is equivariant with respect to this action; the absence of nontrivial $\mathbb{Z}$-actions on $\{0\lt 1\cdots\lt n\}$ forces each $t_i$ to be stable.
+* In the _orbit case_ we consider an _infinite_ family $t_\omega$ of $t$-structures on $C$, obtained as the orbit of a fixed $(E_0, M_0)\in TS( C )$ with respect to the natural $\mathbb{Z}$-action.
+
+
+### Towers
+
+The HN-filtration induced by a $t$-structure and the factorization induced by a [[semiorthogonal decomposition]] on $C$ both stem from the same construction:
+
+(...)
+
 
 ## Properties
 
@@ -69,7 +119,7 @@ The heart of a stable $(\infty,1)$-category is an [[abelian category]].
 
 =--
 
-([BBD 82](#BBD82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]])
+([BBD 82](#BBD82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL0, Ex. 4.1](#FL0) and [FL1, &#167;3.1](#FL1))
 
 
 ### Application to spectral sequence
@@ -97,6 +147,18 @@ For [[stable (∞,1)-categories]]
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
+For factorization systems and normal torsion theories in stable $\infty$-categories
+
+* Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329 ([pdf](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_38_03%2FS1446788700023624a.pdf&code=5796045be8904c5183c2e95bce65491e))
+ {#CHK}
+
+* [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 295-314  ([arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/))
+ {#RosickyTholen08}
+
+
+* [[Domenico Fiorenza]] and [[Fosco Loregian]], "$t$-structures are normal torsion theories" ([arxiv](http://arxiv.org/abs/1408.7003)). {#FL0}
+
+* [[Domenico Fiorenza]] and [[Fosco Loregian]], "Hearts and Postnikov towers in stable $\infty$-categories" (in preparation). {#FL1}
 
 [[!redirects t-structures]]
 
