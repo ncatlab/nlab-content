@@ -7,7 +7,7 @@
 
 _Bott periodicity_ is the name of a periodicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnation of it include the following:
 
-* the complex [[topological K-theory]] groups have a degree-2 periodicity: $K^{\bullet + 2}(X) = K^\bullet(X)$. Real K-theory has a period 8 periodicity like this. There is an element of degree 2 multiplication by which induces this [[isomorphism]] in complex K-theory, the _[[Bott element]]_.
+* the complex [[topological K-theory]] groups have a degree-2 periodicity: $K^{\bullet + 2}(X) = K^\bullet(X)$. Real K-theory has a period 8 periodicity like this. There is an element of degree 2 multiplication by which induces this [[isomorphism]] in complex K-theory, the _[[Bott element]]_. This is what makes [[KU]] be a 2-[[periodic ring spectrum]].
 
 * the complex [[Clifford algebras]] repeat -- up to _[[Morita equivalence]]_ -- with period 2, $Cl_{n}(\mathbb{C}) \simeq_{Morita} Cl_{n+2}(\mathbb{C})$. The real Clifford algebras analogously have period 8, $Cl_n(\mathbb{R}) \simeq_{Morita} Cl_{n+8}(\mathbb{R})$.
 
