@@ -44,6 +44,8 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 ## References
 
+### General
+
 The [[syntax - semantics duality]] in first order logic is discussed in 
 
 * [[Steve Awodey]], [[Henrik Forssell]], _First-Order Logical Duality_ .([arXiv:1008.3145](http://arxiv.org/abs/1008.3145))
@@ -51,6 +53,14 @@ The [[syntax - semantics duality]] in first order logic is discussed in
 On the historical development:
 
 * Jos&#233; Ferreir&#243;s, _The Road to Modern Logic - An Interpretation_ , The Bulletin of Symbolic Logic **7** no. 4 (2001) pp.441-484. ([draft](http://personal.us.es/josef/BSL0704-001.pdf))
+
+### From type theory
+ {#ReferencesFromTypeTheory}
+
+First order logic within [[type theory]]/[[homotopy type theory]] via _[[propositions as types]]_ is discussed in
+
+* [[Univalent Foundations Project]], section 3 of  _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 [[!redirects Predicate logic]]
 [[!redirects predicate logic]]
