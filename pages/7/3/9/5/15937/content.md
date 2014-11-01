@@ -1,0 +1,7 @@
+
+
+## References
+
+* Wikipedia, _[Reverse mathematics](http://en.wikipedia.org/wiki/Reverse_mathematics)_
+
+* _Natural examples of Reverse Mathematics outside classical analysis?_, [MO discussion](http://mathoverflow.net/q/185941/381)
