@@ -29,12 +29,14 @@
 
 ### Abstractly
 
-In [[differential cohesion]] an [[object]]/[[type]] $D$ is an infinitesimally thicked point if its corresponding [[reduced object]] is the [[terminal object]],
+In [[differential cohesion]] an [[object]]/[[type]] $D$ is an _infinitesimally thicked point_ if its corresponding [[reduced object]] is the [[terminal object]],
 
 $$
-  Red(D) \simeq *
-  \,.
+  \Re(D) \simeq *
+  \,,
 $$
+
+hence it is is an [[anti-reduced object]].
 
 ### In the standard type of model
 
