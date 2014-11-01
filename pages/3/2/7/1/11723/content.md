@@ -25,6 +25,9 @@ Since a type $Y$ is called a _$\Box$-[[modal type]]_ if $\Box Y \simeq Y$, being
 
 In as far as [[modal operators]] have [[categorical semantics]] as [[idempotent monads|idempotent (co-)-mondads]]/[[idempotent (∞,1)-monads|idempotent (∞,1)-(co-)monads]] anti-modal types are familiar in [[homotopy theory]] as forming [[localizing subcategories]].
 
+## Examples
+
+* an [[anti-reduced type]] is an [[infinitesimally thickened point]]
 
 ## References 
 
