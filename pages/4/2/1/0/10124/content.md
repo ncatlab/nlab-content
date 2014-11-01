@@ -17,7 +17,6 @@
 
 ## Idea
 
-## Idea
 
 For $R \in CRing_\infty$ an [[E-∞ ring]], the [[(∞,1)-modules]] over $R$ with [[homomorphisms]] between them form an [[(∞,1)-category]], the _$(\infty,1)$-category of $(\infty,1)$-modules over $R$_.
 
@@ -73,7 +72,9 @@ This is a stable version of the [[Dold-Kan correspondence]].
 See at __[[algebra spectrum]]_ for the corresponding statement for $H R$-algebra spectra and [[dg-algebras]].
 
 
+### Periodicity
 
+For $E$ a [[periodic ring spectrum]], then $E Mod$ ought to inherit a $\mathbb{Z}/2\mathbb{Z}$-[[∞-action]]. See at _[periodic ring spectrum -- Periodicity of modules](periodic+ring+spectrum#PeriodicityOnModules)_
 ## Related concepts
 
 * [[Mod]]
