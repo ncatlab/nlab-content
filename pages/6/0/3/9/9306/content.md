@@ -34,7 +34,7 @@ $$
 
 on those [[(∞,1)-functors]] $X \colon \mathcal{Y}^{inf} \to \infty Grpd$ such that
 
-1. over the [[terminal object]] they are [[contractible]]: $X(*) \simeq *$;
+1. over the [[terminal object]] they are [[contractible]]: $X(*) \simeq *$ (hence they are [[anti-reduced object|anti-reduced]]);
 
 1. they preserve [[(∞,1)-pullbacks]] (are [[cohesive ∞-presheaf on E-∞ rings|infinitesimally cohesive]])
 
