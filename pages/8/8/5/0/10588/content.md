@@ -32,7 +32,7 @@ An _elliptic spectrum_ is a [[triple]] consisting of
 
 1. an [[elliptic curve]] $A$ over the coefficient ring $E^\bullet(\ast)$;
 
-1. an even [[periodic cohomology theory|periodic]] [[ring spectrum]] $E$; 
+1. an even [[periodic ring spectrum]] $E$; 
 
 1. an [[equivalence]]
 
