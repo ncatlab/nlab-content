@@ -30,7 +30,7 @@ A _higher-order logic_ is any [[logic]] which features _higher-order predicates_
 
 * **higher order logic**
 
-  * [[Isabelle]]
+  * [[HOL]], [[Isabelle]]
 
 
 [[!redirects higher-order logic]]
