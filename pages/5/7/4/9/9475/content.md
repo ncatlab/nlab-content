@@ -16,12 +16,24 @@
 
 ## Idea
 
-__Isabelle__ is a [[proof assistant]]
+__Isabelle__ is a [[proof assistant]], a successor of the _[[HOL]]_ proof assistant.
 
 ## References
 
-* [wikipedia](http://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29)
+* T. Nipkow, L. Paulson, M. Wenzel. _Isabelle/HOL &#8212; A Proof Assistant for Higher-Order
+Logic_, Springer (2002)
+
+
+* Wikipedia, [Isabelle (proof assistant)](http://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29)
+
 * Isabelle [homepage](http://isabelle.in.tum.de)
+
 * a tutorial [webpage](http://www.inf.kcl.ac.uk/staff/urbanc/Cookbook)
+
+* _[The Isabelle2014 Library](http://isabelle.in.tum.de/library/)_
+
+* Florian Rabe and Mihnea Iancu, _A Formalized Set-Theoretical Semantics of
+Isabelle/HOL_ ([pdf](https://kwarc.info/people/frabe/Research/RI_isabelle_10.pdf))
+
 
 category: software
