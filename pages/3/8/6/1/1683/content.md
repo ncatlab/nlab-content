@@ -30,6 +30,10 @@ More generally, to every [[stable (infinity,1)-category]] $C$ is associated a [[
 
 ## Properties
 
+### Periodicity
+
+$KU$ is a 2-[[periodic ring spectrum]]. This is the original _[[Bott periodicity]]_.
+
 ### As a localization of an $\infty$-group $\infty$-ring
 
 [[Snaith's theorem]] asserts that the [[K-theory spectrum]] for [[periodic complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized away from the [[Bott element]] $\beta$:
