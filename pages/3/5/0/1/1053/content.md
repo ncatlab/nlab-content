@@ -181,7 +181,7 @@ We can even restrict attention to sequents with no term on the left side and one
 
 ## Variants
 
-The logic described above is full classical linear logic.  There are many important fragments and variants of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), full intuitionistic linear logic (where multiplicatives and additives connectives are all independent of each other), non-commutative linear logics (braided or not), light linear logics, etc.
+The logic described above is full classical linear logic.  There are many important [[fragments]] and variants of linear logic, such as [[multiplicative linear logic]], intuitionistic linear logic (in which $\multimap$ is a primitive operation), full intuitionistic linear logic (where multiplicatives and additives connectives are all independent of each other), non-commutative linear logics (braided or not), light linear logics, etc.
 
 
 ## Categorial semantics
@@ -412,7 +412,7 @@ See also
 * [[Andreas Blass]], _A game semantics for linear logic_, _Annals of Pure and Applied Logic_ 56: 183--220, 1992.
  {#Blass}
 
-*  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
+*  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
 
 Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]] includes
 
