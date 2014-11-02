@@ -44,6 +44,14 @@ There are various extensions of the Grothendieck-Riemann-Roch theorem,
 such as the [[Atiyah-Singer index theorem]] (for elliptic operators and elliptic
 complexes), the Connes-Moscovici local index formula (a non-commutative/equivariant version of Atiyah-Singer), and Bismut's hypoelliptic index formula in Bott-Chern cohomology (for non-K\"aeler complex manifolds).
 
+Another approach due to Kashiwara and Schapira relies on the use of methods of Hochschild cohomology and its microlocalized version (which gives a refined index theorem, that takes care of the information related to the propagation of singularities).
+It is essentially divided in two parts: the functorial one, which is based on Hochschild and cyclic homology (very similar to Toen and Vezzosi's approach to the construction of the Chern character), and the computational one (due to Bresler-Nest-Tsygan and others), that explicitely describes the relation between the functorial construction of the Chern character and its more classical construction. It is this last comparison statement that introduces the Tod class and makes the Riemann-Roch/index formula look complicated, despite the fact that it simply expresses the functoriality of Hochshild and cyclic homology classes with respect to the push-forward, that is evident. The microlocalized version of the index/RRG theorem is necessary to have a better understanding of the "deformation of the Laplacian" methods (introduced by Witten in his paper on the Morse inequalities, and used by Bismut in his work on the hypoelliptic Laplacian, by Laumon in his paper on local constants of functional equations, and by Kedlaya in his paper on p-adic Weil II) that have become a central tool in the study of cohomology theories and of (additive) index-type formulas and (multiplicative) product-type formulas.
+
+One may hope for an extension of the Riemann-Roch-Grothendieck theorem to the
+setting of a general proper morphism in non-strict [[global analytic geometry]] using
+an extension of Bismut's approach to a setting of exotic [[global Hodge theory]]. However, it seems that for arithmetic applications (e.g., the study of special values of arithmetic L-functions), one will clearly have to prove a refined RRG theorem for strict [[global analytic geometry|global analytic spaces]], using semistable compactifications (&#224; la Deligne "th&#233;orie de Hodge II, III") and logarithmic methods: the (purely analytic) non-strict theorem will not suffice.
+
+
 ## Related concepts
  
 * [[Hirzebruch-Riemann-Roch theorem]]
