@@ -75,7 +75,8 @@ A short introduction for large audience is in
 
 For more see
 
-* {#Paugam08} [[Frédéric Paugam]],_Overconvergent global analytic geometry_ ([preprint](http://webusers.imj-prg.fr/~frederic.paugam/documents/Overconvergent-Global-Analytic-Geometry.pdf))
+* {#Paugam08} [[Frédéric Paugam]], _Overconvergent global analytic geometry_
+([preprint](http://webusers.imj-prg.fr/~frederic.paugam/documents/Overconvergent-Global-Analytic-Geometry.pdf))
 
 * {#Paugam08} [[Frédéric Paugam]], _Global analytic geometry_ ([arXiv:0803.0148](http://arxiv.org/abs/0803.0148))
 
