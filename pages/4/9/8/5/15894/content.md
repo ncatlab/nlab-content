@@ -79,64 +79,6 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 #### For type theorists
 
 
-#### For foundationalists
- {#WhyShouldICareForFoundationalists}
-
-There are various possible [[foundations of mathematics]]. One may wonder whether some of them are "more foundational" than others. For instance a foundational system B might be obtained from foundational system A by adding [[axioms]], or by enriching the [[logical framework]], and then A could be regarded as "more foundational" than B, as then A in fact serves as foundation for B. (In the jargon of formal logic one would rather call one of these theories a _[[fragment]]_ of the other.)
-
-In this vein, it is noteworthy that traditional [[set theory]] (such as [[ZFC]], but also [[ETCS]] etc.) rests on something more foundational, namely on [[first-order logic]]. Beneath the theory of sets in, say [[ZFC]], there is already the [[deductive system]] of [[propositions]] in terms of which the [[axioms]] for sets are stated. This deductive system is already a bit of infrastructure in itself, involving [[type formation|formation]] rules for propositions (such as for [[logical conjunction]], [[logical disjunction]], [[implication]]), and their [[introduction rules]] and [[elimination rules]].
-
-Now [[type theory]] is a foundational system that is at that same "lower" level of foundations as [[first-order logic]]. Type theory is not based on first-order logic; instead it is variant of first-order logic itself. Type theories indeed are [[deductive systems]] based on the same kind of [[type formation|formation]]- [[term introduction|introduction]]- and [[term elimination|elimination]] rules as first-order logic: where in first-order logic forms [[logical conjunction]], [[logical disjunction]], [[implication]], in type theory this is formation of [[product types]], [[sum types]], and [[function types]], respectively.
-
-In this way type theory contains first-order logic without being based on it, it has a "[first-order fragment](fragment#FirstOrderFragment)". First order logic is recovered inside homotopy type theory as the sub-system of those [[types]] which [are propositions](proposition#InTypeTheory) in that they have unique [[terms]], see at _[[propositions as types]]_ for more on this key idea (details are [here](predicate+logic#ReferencesFromTypeTheory)).
-
-Moreover, this actually means that (homotopy-)type theory is even a little more foundational than first-order logic. Because one obtains first-order logic from type theory by adding the [[axiom]] that all types are [[propositions]] in that they are truncated in this sense (called "[[bracket types]]" or  "[[(-1)-types]]"). In type theory this axioms in not present (but may be imposed if desired). In this sense is type theory more foundational than first-order logic, which in turn is more foundational than set theory.
-
-Now with [[homotopy type theory]] one passes to yet a deeper level of foundations, in the following sense: In [[extensional type theory]] one does not have the axiom that all terms are unique, hence that all terms are propositions, but one considers the axiom that all _proofs of identity_ are unique, hence that the [[identity types]] are unique. 
-
-The point of [[homotopy type theory]] is to remove even that axiom, to not even assume that [[identity types]] are propositions. This is indeed an old idea known as [[intensional type theory]]. However, the "meaning" of intensional type theory remained unclear. Homotopy type theory is "intensional type theory done right", which technically means that one observes that the only axiom that is necessary to get a sensible system is the [[univalence axiom]] which ensures that the two kinds of identity of types that are introduced in [[intensional type theory]] are themselves equivalent.
-
-It is in this sense that homotopy type theory is "more foundational" than (extensional) type theory, which is more foundational than first-order logic, which is more foundational than set theory.
-
-This state of affairs is schematically summarized by the following diagram of "layers of foundations":
-
-$$
-  \array{
-    set \; theory
-    \\
-    \uparrow^{\mathrlap{add\;axioms\;for\;sets}}
-    \\
-    first\text{-}order \; logic
-    \\
-    \uparrow^{\mathrlap{add\;axiom:\;all\;types\;are\;propositions}}
-    \\
-    (extensional) \; type \; theory
-    \\
-    \uparrow^{\mathrlap{add\;axiom:\;all\;identity\;types\;are\;propositions}}
-    \\
-    homotopy \; type \; theory
-    \\
-    \\
-    natural\;deduction
-  }
-$$
-
-But in fact the situation with homotopy type theory is even better still. While first-order logic is contained in homotopy type theory as shown above, one does not actually need to formalize the axioms of set theory inside first-order-logic inside (homotopy-)type theory. Rather, sets may themselves be found in type theory with ([[higher inductive type|higher]]) [[inductive types]] in just the same way that propositions are found inside type theory. Sets ("[[h-sets]]") are precisely those types whose identity types are propositions (details are [here](http://ncatlab.org/nlab/show/set+theory#ReferencesInHomotopyTypeTheory)). 
-
-Hence apart from being "more foundational" than set theory, in the above sense, homotopy type theory also offers the following more immediate route to [[structural set theory|structural sets]], which makes sets-in-type-theory appear at a "lower foundational level" than sets-in-first-order-logic:
-
-$$
-  \array{
-     constructive\;set\;theory
-     \\
-     \uparrow^{\mathrlap{add\;axiom:\;all\;identity\;types\;are\;propositions}}
-     \\
-     \homotopy\;type\;theory \; with \; (higher) \; inductive \; types
-  }
-  \,.
-$$
-
-This fact that homotopy type theory is more foundational, in this sense, than other foundations of mathematics that have been considered, in not just of philosophical interest, but also has practical implications. For that see the discussion at _[Why should I care? For homotopy theorists](#WhyShouldICareForHomotopyTheorists)_
 
 #### For homotopy theorists
  {#WhyShouldICareForHomotopyTheorists}
