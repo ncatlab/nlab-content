@@ -40,6 +40,10 @@ where...
 
 If $X$ is an [[algebraic curve]], then the Riemann-Roch theorem reduces to a statement about the [[Euler characteristic]]/[[genus of a curve|curve]]. This generalizes to [[arithmetic geometry]] with the notion of [[genus of a number field]].
 
+There are various extensions of the Grothendieck-Riemann-Roch theorem,
+such as the [[Atiyah-Singer index theorem]] (for elliptic operators and elliptic
+complexes), the Connes-Moscovici local index formula (a non-commutative/equivariant version of Atiyah-Singer), and Bismut's hypoelliptic index formula in Bott-Chern cohomology (for non-K\"aeler complex manifolds).
+
 ## Related concepts
  
 * [[Hirzebruch-Riemann-Roch theorem]]
