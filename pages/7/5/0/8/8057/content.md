@@ -76,7 +76,7 @@ There are many ways of constructing or otherwise obtaining a fixed-point combina
 
 ### Unityped $\lambda$-calculus
 
-In the [[unityped ∞-calculus]], a traditional construction is
+In the [[unityped ∞-calculus]], a traditional construction (due to Curry) is
 
 $$ Y = \lambda n. (\lambda s. n (s s)) (\lambda s. n (s s)) $$ 
 
@@ -90,6 +90,23 @@ Y n & = & (\lambda s. n (s s)) (\lambda s. n (s s)) \\
 }$$ 
 
 so that $Y n$ is a fixed point of $n$. Compare [[Lawvere fixed point theorem|Lawvere's proof]] of [[Cantor's theorem]]. 
+
+Another construction is due to ([Klop 07](#Klop07)):
+
+$$Y_K = LLLLLLLLLLLLLLLLLLLLLLLLLL$$
+
+where 
+
+$$L = \lambda abcdefghijklmnopqstuvwxyzr. r (thisisafixedpointcombinator)$$
+
+Note that $Y_K$ is $L$ repeated 26 times, and the string
+$thisisafixedpointcombinator$ contains 27 characters. Thus 
+
+$$\array { 
+Y_K n & = & (\lambda r. r(LLLLLLLLLLLLLLLLLLLLLLLLLLr)) n \\
+      & = & (\lambda r. r(Y_K r)) n \\ 
+      & = & n (Y_K n)
+}$$
 
 ### Combinatory logic
 
@@ -111,6 +128,12 @@ However, it is possible to add a fixed-point combinator to typed $\lambda$-calcu
 
 * [[looping combinator]]
 
+## References
+
+* {#Klop07} Jan Willem Klop, _[New Fixed Point Combinators from Old](http://www.cs.ru.nl/barendregt60/essays/klop/)_, in  	
+_Reflections on Type Theory, Lambda Calculus, and the Mind: Essays Dedicated to Henk Barendregt on the Occasion of his 60th Birthday_
 
 [[!redirects fixed-point combinator]]
 [[!redirects fixed-point combinators]]
+
+
