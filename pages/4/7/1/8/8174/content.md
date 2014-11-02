@@ -18,7 +18,7 @@
 
 ## Idea
 
-The classical and motivating examples of a homotopy spectral sequence is the [[Bousfield-Kan spectral sequence]] which computes [[homotopy groups]] of a [[topological space]]/[[simplicial set]]/[[homotopy type]] realized as the [[totalization]] of a [[cosimplicial homotopy type]]. It may be regarded as the unstable analog of the [[Adams spectral sequence]], which computes homotopy groups of certain [[spectra]]. The corresponding [[spectral sequence]] for [[homology groups]] of the totalization of a [[cosimplicial homotopy type]] is the [[Eilenberg-Moore spectral sequence]].
+The classical and motivating examples of a [[homotopy spectral sequence]] is the [[Bousfield-Kan spectral sequence]] which computes [[homotopy groups]] of a [[topological space]]/[[simplicial set]]/[[homotopy type]] realized as the [[totalization]] of a [[cosimplicial homotopy type]]. It may be regarded as the unstable analog of the [[Adams spectral sequence]], which computes homotopy groups of certain [[spectra]]. The corresponding [[spectral sequence]] for [[homology groups]] of the totalization of a [[cosimplicial homotopy type]] is the [[Eilenberg-Moore spectral sequence]].
 
 
 ## References
@@ -46,6 +46,10 @@ Lecture notes include
 Discussion of computations using [[effective homology]] includes
 
 * Romero Ibanez, _Effective homology and spectral sequences_, 2007 ([pdf](http://www.unirioja.es/cu/anromero/zgz07.pdf))
+
+Discussion in [[homotopy type theory]] is in
+ 
+* {#Shulman13} [[Mike Shulman]], _Spectral sequences_ 2013 ([part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/))
 
 
 [[!redirects Bousfield-Kan spectral sequence]]
