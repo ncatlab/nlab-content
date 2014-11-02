@@ -35,6 +35,7 @@ $$
 $$
 
 #### The universal Atiyah-Bott-Shapiro orientation
+ {#UniversalAtiyahBottShapiroOrientation}
 
 
 There is a universal [[orientation in generalized cohomology]] of
