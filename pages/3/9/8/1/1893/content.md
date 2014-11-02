@@ -339,6 +339,8 @@ in [[Borger's absolute geometry]] ([Borger 08](#Borger08), exposition in [Borger
 
 * [[Borger's absolute geometry]]
 
+* [[Generalized Lambda-structure]]
+
 
 ## References
 
