@@ -150,6 +150,9 @@ for the [[reflective sub-(∞,1)-category]] on these $(\infty,1)$-sheaves.
 This is [[Higher Topos Theory|HTT, def. 6.2.2.6]]
 
 
+**Warning:** A topological localization is, by definition, a *left exact* localization at a set of monomorphisms; left exactness is part of the definition.  A general localization at a set of monomorphisms need not be left exact.  For instance, the localization at one of the inclusions $1\to 1+1$ is the $(-1)$-truncation, which is not left exact.
+
+
 ## Properties
 
 Let throughout $C$ be a [[locally presentable (∞,1)-category]].
