@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[geometric morphism]] is *locally connected* if it behaves as though its [[fiber]]s are [[locally connected space]]s.  In particular, a [[Grothendieck topos]] $E$ is [[locally connected topos|locally connected]] iff the unique [[geometric morphism]] to [[Set]] (the terminal Grothendieck topos, i.e. the [[point]] in the [[category]] [[Toposes]] of toposes) is locally connected.
+A [[geometric morphism]] is *locally connected* if it behaves as though its [[fiber]]s are [[locally connected space]]s.  In particular, a [[Grothendieck topos]] $E$ is [[locally connected topos|locally connected]] iff the unique [[geometric morphism]] to [[Set]] (the terminal Grothendieck topos, i.e. the [[point]] in the [[category]] [[Topos]] of toposes) is locally connected.
 
 ## Definition
 
@@ -33,7 +33,7 @@ A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrig
 
 ### Relation to connectedness
 
-If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the [[terminal object]].  However, not every connected geometric morphism is locally connected.
+If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the [[terminal object]].  However, not every connected geometric morphism is locally connected. {#connect}
 
 ### Over $Set$
 
@@ -57,7 +57,7 @@ that the [[left adjoint]] $f_!$ preserves coproducts, and that for $f^*$ [[full 
 ### Strong adjunctions
  {#StrongAdjunctions}
 
-The pair of [[adjoint functors]] $(f_! \dashv f^*)$ in a locally connected geometric morphisms forms a "strong adjunction" in that it holds also for the [[internal homs]] in the sense that there is an [[natural isomorphism]]
+The pair of [[adjoint functors]] $(f_! \dashv f^*)$ in a locally connected geometric morphisms forms a "strong adjunction" in that it holds also for the [[internal homs]] in the sense that there is a [[natural isomorphism]]
 
 $$
   [f_!(X), A] \simeq f_* [X, f^* A]
@@ -92,7 +92,20 @@ is an [[isomorphism]]. But this is the [[Frobenius reciprocity]] condition on $f
 
 ### Coreflectivity
 
-Locally connected toposes are [[coreflective subcategory|coreflective]] in [[Topos]]. See ([Funk](#Funk)).
+Locally connected toposes are [[coreflective subcategory|coreflective]] in [[Topos]]. See ([Funk (1999)](#Funk)).
+
+### A site characterization
+
+Let $(\mathcal{C}, J)$ be a [[site]] and $S$ be a [[sieve]] on the object $U$. $S$ is called _connected_ when $S$ viewed as a full subcategory of $\mathcal{C}/U$ is connected. The site is called _locally connected_ if every sieve is connected. For a [[bounded geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$ the following holds:
+
+$p$ is locally connected iff there exists a locally connected internal site in $\mathcal{S}$ such that $\mathcal{E}\simeq Sh(\mathcal{C},J)$.
+
+(cf. [Johnstone (2002)](#elephant), pp.656-658)
+
+### Variations in the context of the Nullstellensatz
+
+[Johnstone (2011)](#JS11) studies several subclasses of locally connected geometric morphisms in the context of [[William Lawvere|Lawvere]]'s theory of [[cohesion]] and the [[Nullstellensatz]]. He calls a locally connected morphism $p$ _stably locally connected_ if $p_!$ preserves finite products. According to the [above remark](#connect) this implies that $p$ is connected. Slightly stronger is the preservation of all finite limits by $p_!$: these $p$ are called [[totally connected geometric morphisms]].
+
 
 ## Examples
 
@@ -100,19 +113,34 @@ Locally connected toposes are [[coreflective subcategory|coreflective]] in [[Top
 
 * Let $X$ be a [[topological space]] (or a [[locale]]) and $U\subseteq X$ an [[open subset]], with corresponding [[geometric embedding]] $j\colon Sh(U)\to Sh(X)$.  Then any $A\in Sh(X)$ can be identified with a space (or locale) $A$ equipped with a [[local homeomorphism]] $A\to X$, in such a way that $Sh(X)/A \simeq Sh(A)$.  Moreover, $j^*A \in Sh(U)$ can be identified with the pullback of $A\to X$ along $U$, and so $Sh(U)/j^*A \simeq Sh(j^*A)$ similarly.  Noting that $j^*A \to A$ is again the inclusion of an open subset, and using the fact that the inverse image part of any open [[geometric embedding]] is cartesian closed, we see that $(j/A)^*\colon Sh(X)/A \to Sh(U)/j^*A$ is cartesian closed for any $A$.  Hence $j$ is locally connected.
 
+## Related entries
+
+* [[connected geometric morphism]]
+
+* [[local geometric morphism]]
+
+* [[totally connected geometric morphism]]
+
 ## References
 
-The canonical textbook reference is section C3.3 of
+Locally connected geometric morphisms were introduced in the following paper where they are called 'molecular':
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Michael Barr]], [[Robert Paré]], _Molecular Toposes_ , JPAA **17** (1980) pp.127-152.
+
+The standard reference is section C3.3 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. {#elephant}
 
 Further references include
 
-
-* J. Funk, _The locally connected coclosure of a Grothendieck topos_, Journal of Pure and Applied Algebra Volume 137, Issue 1, 7 (1999), Pages 17-27 
+* [[Jonathon Funk]], _The locally connected coclosure of a Grothendieck topos_, JPAA **137** (1999) pp.17-27.
   {#Funk}
 
-* [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected and locally connected toposes are path connected_ ([JSTOR](http://www.jstor.org/stable/2000067))
+* {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
+* [[Ieke Moerdijk]], _Continuous fibrations and inverse limits of toposes_ , Comp. Math. **58** (1986) pp.45-72. ([pdf](http://archive.numdam.org/article/CM_1986__58_1_45_0.pdf))
+
+* [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected and locally connected toposes are path connected_ , Trans. AMS **295** (1986) pp.849-859. ([pdf](http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pdf))
 
 
 [[!redirects locally connected geometric morphisms]]
