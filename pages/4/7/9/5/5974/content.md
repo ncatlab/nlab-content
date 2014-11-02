@@ -1,6 +1,12 @@
 
 * [website](http://www.cs.cmu.edu/~drl/)
 
+## writings
+
+* _Homotopy theory in type theory_, 2013 ([pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf))
+
+On basic [[homotopy theory]] in terms of [[homotopy type theory]]
+
 category: people
 
 [[!redirects Dan Licata]]
