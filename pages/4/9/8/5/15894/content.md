@@ -82,7 +82,7 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 #### For foundationalists
  {#WhyShouldICareForFoundationalists}
 
-There are various possible [[foundations of mathematics]]. One may wonder whether some of them are "more foundational" than others. For instance a foundational system B might be obtained from foundational system A by adding [[axioms]], or by enriching the [[logical framework]], and then A would be "more foundational" than B, as then A in fact serves as foundation for B.
+There are various possible [[foundations of mathematics]]. One may wonder whether some of them are "more foundational" than others. For instance a foundational system B might be obtained from foundational system A by adding [[axioms]], or by enriching the [[logical framework]], and then A could be regarded as "more foundational" than B, as then A in fact serves as foundation for B. (In logic jargon one would call A a "[[fragment]]" of B.)
 
 In this vein, it is noteworthy that traditional [[set theory]] (such as [[ZFC]], but also [[ETCS]] etc.) rests on something more foundational, namely on [[first-order logic]]. Beneath the theory of sets in, say [[ZFC]], there is already the [[deductive system]] of [[propositions]] in terms of which the [[axioms]] for sets are stated. This deductive system is already a bit of infrastructure in itself, involving [[type formation|formation]] rules for propositions (such as for [[logical conjunction]], [[logical disjunction]], [[implication]]), and their [[introduction rules]] and [[elimination rules]].
 
@@ -123,8 +123,7 @@ $$
 
 But in fact the situation with homotopy type theory is even better still. While first-order logic is contained in homotopy type theory as shown above, one does not actually need to formalize the axioms of set theory inside first-order-logic inside (homotopy-)type theory. Rather, sets may themselves be found in type theory with ([[higher inductive type|higher]]) [[inductive types]] in just the same way that propositions are found inside type theory. Sets ("[[h-sets]]") are precisely those types whose identity types are propositions (details are [here](http://ncatlab.org/nlab/show/set+theory#ReferencesInHomotopyTypeTheory)). 
 
-Hence apart from being "more foundational" than set theory, in the above sense, homotopy type theory also offers the following more immediate route to sets, which makes sets-in-type-theory appear at a "lower foundational level" than 
-sets-in-first-order-logic:
+Hence apart from being "more foundational" than set theory, in the above sense, homotopy type theory also offers the following more immediate route to [[structural set theory|structural sets]], which makes sets-in-type-theory appear at a "lower foundational level" than sets-in-first-order-logic:
 
 $$
   \array{
