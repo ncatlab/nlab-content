@@ -56,4 +56,8 @@ Discussion of this using [[effective homology]] includes
 
 * Romero Ibanez, _Effective homology and spectral sequences_, 2007 ([pdf](http://www.unirioja.es/cu/anromero/zgz07.pdf))
 
+Discussion in [[homotopy type theory]] is in 
+
+* {#Shulman13} [[Mike Shulman]], _Spectral sequences_ 2013 ([part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/))
+
 [[!redirects homotopy spectral sequences]]
