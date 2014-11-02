@@ -23,6 +23,8 @@ In [[linear logic]]/[[linear type theory]], one of the two linear versions of [[
 
 The [[categorical semantics]] of the multiplicative conjunction is as the [[tensor product]] with respect to a ([[symmetric monoidal category|symmetric]]) [[monoidal category]] structure on the collection of [[types]].
 
+If one retains of all [[conjunctions]] in linear logic only the multiplicative conjunction, then one speaks of the [[fragment]] of linear logic called _multiplicative linear logic_ or _multiplicative intuitionistic linear logic_ or _MILL_ for short. See also at _[[linear type theory]]_ for more on this.
+
 
 ## Related concepts
 
@@ -33,3 +35,7 @@ The [[categorical semantics]] of the multiplicative conjunction is as the [[tens
 
 [[!redirects multiplicative conjunction]]
 [[!redirects multiplicative conjunctions]]
+
+[[!redirects multiplicative linear logic]]
+[[!redirects multiplicative intuitionistic linear logic]]
+[[!redirects MILL]]
