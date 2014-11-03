@@ -770,7 +770,7 @@ $$
   F : X \to \infty Grpd
 $$
 
-an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of (∞,1)-categories]] $Z$ along F:
+an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of ∞-groupoids]] $Z|_{Grpd}$ along F:
 
 $$
   \array{
@@ -790,24 +790,22 @@ Let the assumptions be as above. Then:
 * The $\infty$-colimit of $F$ is equivalent to the [[(∞,1)-Grothendieck construction]] $E_F$:
 
   $$
-    \lim_\to F \simeq E_F 
+    \underset{\longrightarrow}{\lim} F \simeq E_F 
   $$
 
-* The $\infty$-limit of $F$ is equivalent to the [[(∞,1)-category of cartesian section|(∞,1)-groupoid of sections]] of $E_F \to X$
+* The $\infty$-limit of $F$ is equivalent to the [[∞-groupoid of sections]] of $E_F \to X$
 
   $$
-    \Gamma_X(E_F) \simeq lim F
+    \underset{\longleftarrow}{\lim} \simeq \Gamma_X(E_F) 
     \,.
   $$
 
 =-- 
 
-+-- {: .proof}
-###### Proof
-
 The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
 
-=--
+
+
 
 ### Limits and colimits with values in $(\infty,1)$Cat
  {#ColimitsInInfinityCat}
