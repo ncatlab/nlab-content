@@ -20,6 +20,12 @@
 
 A space of [[sections]] is like a [[mapping space]], but relative to a base. 
 
+Formally this is given by the _[[dependent product]]_ construction. See at _[section -- In terms of dependent product](section#InTermsOfDependentProduct)_ and at _[dependent product -- In terms of spaces of sections](dependent%20product#RelationToSpacesOfSections)_.
+
+## Examples
+
+* The space of section of an universal [[associated infinity-bundle]] is the space of [[homotopy coinvariants]] of the corresponding [[infinity-action]] (see there for more).
+
 ## Related concepts
 
 * [[dependent product]]
@@ -27,3 +33,8 @@ A space of [[sections]] is like a [[mapping space]], but relative to a base.
 * [[twisted cohomology]]
 
 [[!redirects spaces of sections]]
+
+[[!redirects ∞-groupoid of sections]]
+[[!redirects ∞-groupoids of sections]]
+[[!redirects infinity-groupoid of sections]]
+[[!redirects infinity-groupoids of sections]]
