@@ -26,10 +26,10 @@ that the $\Lambda$-structure on $K$-theory allows to get back
 (as the spectrum of the Lambda-operations) the full $\mathbb{Z}$-grading
 on Betti cohomology.
 
-If one thinks of Lambda-structures
+From the perspective of [[global analytic geometry]], one thinks of Lambda-structures
 as related to the Banach ring of integers with their trivial norm,
-one may seek for various generalizations, that will be called
-"generalized Lambda-structure", associated to more general Banach rings.
+so that one may seek for various generalizations, that will be called
+"generalized Lambda-structure", associated to more general Banach or ind-Banach rings.
 
 ## Definition
 
@@ -41,10 +41,31 @@ $$\Lambda(R,|\cdot|):=\mathrm{Frac}(R)\cap \{a\in R,\;|a|\leq 1\}.$$
 
 There is not yet a precise notion of generalized Lambda-structure, but one may easily give various of its concrete incarnations.
 
-1. The classical notion of ($\mathbb{Z}/2$-graded) Lambda-ring may be seen as a $\Lambda(\mathbb{Z},|\cdot|_0)=\mathbb{Z}$-$\{0\}$-structure. The cohomology theories of arithmetic geometry (i.e. for schemes over $\mathbb{Z}$) are often equipped with an $\mathbb{N}$-grading, that one may interpret as a classical Lambda-ring structure.
+1. The classical notion of ($\mathbb{Z}/2$-graded) Lambda-ring may be seen as a $\Lambda(\mathbb{Z},|\cdot|_0)=\mathbb{Z}$-$\{0\}$-structure. The (geometric/Weil) cohomology theories of arithmetic geometry (i.e. for schemes over $\mathbb{Z}$) are often equipped with an $\mathbb{N}$-grading, that one may interpret as a classical Lambda-ring structure.
+
+1. The absolute cohomology theories in arithmetic geometry such as Beilinson-Deligne cohomology or motivic cohomology are equipped with a natural bi-graduation, related to the fact that they are defined by the (homotopical: think of a Leray spectral sequence) combination of geometric methods (Lambda-structures/Frobenii) and of differential methods (Hodge filtration of de Rham cohomology or $\mathbb{G}_m$-stabilization in motivic homotopy theory).
+The corresponding Banach ring may be simply given by the Banach ring
+$$(R,|\cdot|):=(\mathbb{Z}[T],|\cdot|_0)$$
+of polynomials equipped with their trivial norm (functions on the non-archimedean global analytic unit disc). The bigrading is given by the action of the monoid
+$$
+\Lambda(R,|\cdot|):=
+\mathbb{Q}(T)^\times\cap \mathbb{Z}[T]=\mathbb{Z}[T]-\{0\}.
+$$
+The (Tate-twist) motivic and cohomological gradings are given respectively by the actions of the monoid $\mathbb{Z}-\{0\}$ and the monoid of powers of $T$.
+
+1. The (yet to be properly defined) cohomology theories in global analytic geometry have a different type of bigrading (that is related to the idea of the algebra of polynomials over the field $\mathbb{F}_\{\pm 1\}$ with `one element`).
+We will now extend the above definition of the monoid $\Lambda$ to the setting of ind-Banach ring, that seems necessary to understand absolute cohomologies.
+The corresponding (ind-)Banach ring may be simply given by the ind-Banach ring
+$$R:=\mathbb{Z}\{T\}^\dagger$$
+of overconvergent power series on the unit disc with coefficients in the Banach ring $(\mathbb{Z},|\cdot|_\infty)$: the `geometric` classical Lambda-structure is given by the base Banach ring, and the differential/absolute graduation is given by the $T$-part of the monoid (we may need to make a completion here)
+$$
+\Lambda(R):=
+\mathbb{R}\{T,T^{-1\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}.
+$$
+This is the monoid of power series whose terms are all equal to zero except possibly one, that is equal to $\{\pm 1\}$. It contains and extends the monoid $\Lambda(\Z,|\cdot|_\infty)=\{\pm 1\}$ in degree zero. This will be the natural grading monoid (generalized Lambda-structure) for absolute motives, i.e., motivic cohomology theories over $(\mathbb{Z},|\cdot|_\infty)$. Remark that the recent work of Scholze on local Schtukas in mixed characteristic also uses in an essential way objects such as the unit disc over the given base Banach ring.
 
 1. The notion of $\Lambda(\mathbb{Z},|\cdot|_\infty)=\{\pm 1\}$-structure is simply given by the notion of $\mathbb{Z}/2$-grading. Many cohomological invariants, such as $K$-theory, negative cyclic homology and the Chern character are equipped with a natural $\mathbb{Z}/2$-grading. It is quite probable that one can't hope to get something more that a $\mathbb{Z}/2$-grading on a "really natural" cohomology theory in [[global analytic geometry]].
 
 1. In the theory of $(\Phi,\Gamma)$-modules, the monoid $\Lambda(\mathbb{Z}_p,|\cdot|_p)=\mathbb{Z}_p$-$\{0\}$ plays a central role. It looks like a not so hard but important task to clarify the relation of this theory with the classical notion of Lambda-ring.
 
-1. It is an interesting question to try to understand the relation of classical Hodge theory (over $\mathbb{R}$ or $\mathbb{C}$) with the notion of Lambda-structure on the corresponding Banach ring. This may show interesting limits to the idea of generalizing Lambda-structures to other Banach rings.
+1. It is an interesting question to try to understand the relation of classical Hodge theory (over $\mathbb{R}$ or $\mathbb{C}$) with the notion of Lambda-structure on the corresponding Banach ring. This may show interesting limits to the idea of generalizing Lambda-structures to other Banach rings. The case of $\mathbb{R}$ should be treated using $\mathbb{Z}/2$-equivariant methods. An important point, in this perspective, is that the naive archimedean generalization of the notion of $(\Phi,\Gamma)$-module does not work, because $S^1$ does not act directly on the open complex unit disc $D^\circ(1,1)$. One only has an infinitesimal action (connection $\nabla$), whose combination with the infinitesimal generator $\Phi$ of $\R_+^*$ may be seen as an archimedean analog of the $p$-adic differential equations used in Berger's thesis to prove the monodromy theorem of $p$-adic Hodge theory. An important drawback of this infinitesimal approach (in the $p$-adic setting) is that the functor from $p$-adic Hodge structures (i.e., $(\Phi,\Gamma)$-modules) to $p$-adic Frobenius-differential equations is `not fully faithful`: making the action of $U(1)=\Z_p^*$ infinitesimal kills an important part of the information (essentially, the Hodge filtration on de Rham cohomology).
