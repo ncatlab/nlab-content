@@ -181,7 +181,7 @@ The proof essentially consists of showing that by the [[adjoint functor theorem]
   {#ObjectClassifierInInfinityGroupoid}
 
 We discuss that the $\kappa$-small object classifier in the $(\infty,1)$-topos
-[[∞Grpd]] of [[∞-groupoids]] is itself the [[core]] of the [[(∞,1)-category]] $\infty Grpd_\kappa$ of $\kappa$-small $\infty$-groupoids. Observing that the connected components of this are the [[delooping]] $B Aut(F)$ of the [[automorphism ∞-group]] of a given [[homotopy type]], and using that [[∞Grpd]] is [[presentable (∞,1)-category|presented]] by [[Top]] $\simeq$ [[sSet]] (see also at _[[homotopy hypothesis]]_) this recovers classical theorems about the classification of [[fibrations]] in simplicial sets/topological spaces, as listed in the [References](http://ncatlab.org/nlab/show/associated+infinity-bundle#References) at _[[associated ∞-bundle]]_.
+[[∞Grpd]] of [[∞-groupoids]] is itself the [[core]] of the [[(∞,1)-category]] $\infty Grpd_\kappa$ of $\kappa$-small $\infty$-groupoids. Observing that the connected components of this are the [[delooping]] $B Aut(F)$ of the [[automorphism ∞-group]] of a given [[homotopy type]] $[F]$, and using that [[∞Grpd]] is [[presentable (∞,1)-category|presented]] by [[Top]] $\simeq$ [[sSet]] (see also at _[[homotopy hypothesis]]_) this recovers classical theorems about the classification of [[fibrations]] in simplicial sets/topological spaces, as listed in the [References](http://ncatlab.org/nlab/show/associated+infinity-bundle#References) at _[[associated ∞-bundle]]_.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -221,7 +221,7 @@ of the [[universal right fibration]] along the defining inclusion of (the [[Kan 
 +-- {: .num_lemma #RelativelyCompactInInfinityGroupods}
 ###### Lemma
 
-In [[∞Grpd]] the relatively $\kappa$-compact morphisms, $X \to Y$, def. \ref{RelativelyKappaCompact} are precisely those all whose [[homotopy fibers]]
+In [[∞Grpd]] the relatively $\kappa$-compact morphisms, $X \to Y$, def. \ref{RelativelyKappaCompact}, are precisely those all whose [[homotopy fibers]]
 
 $$
   X_{y} := X \times_{Y} \{y\}
