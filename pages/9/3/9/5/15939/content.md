@@ -53,14 +53,14 @@ $$
 $$
 The (Tate-twist) motivic and cohomological gradings are given respectively by the actions of the monoid $\mathbb{Z}-\{0\}$ and the monoid of powers of $T$.
 
-1. The (yet to be properly defined) cohomology theories in global analytic geometry have a different type of bigrading (that is related to the idea of the algebra of polynomials over the field $\mathbb{F}_\{\pm 1\}$ with `one element`, formulated precisely e.g. in Durov's setting of generalized rings).
-We will now extend the above definition of the monoid $\Lambda$ to the setting of ind-Banach ring, that seems necessary to understand absolute cohomologies.
+1. The (yet to be properly defined) cohomology theories in global analytic geometry have a different type of bigrading (that is related to the idea of the algebra of polynomials over the field $\mathbb{F}_{\{\pm 1\}}$ with `one element`, formulated precisely, e.g., in Durov's setting of generalized rings, i.e., commutative algebraic monads).
+We will now extend the above definition of the monoid $\Lambda$ to the setting of ind-Banach ring, since this operation seems necessary to understand absolute cohomologies.
 The corresponding (ind-)Banach ring may be simply given by the ind-Banach ring
 $$R:=\mathbb{Z}\{T\}^\dagger$$
 of overconvergent power series on the unit disc with coefficients in the Banach ring $(\mathbb{Z},|\cdot|_\infty)$: the `geometric` classical Lambda-structure is given by the base Banach ring, and the differential/absolute graduation is given by the $T$-part of the monoid (we may need to make a completion here)
 $$
 \Lambda(R):=
-\mathbb{R}\{T,T^{-1}\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}=\mathbb{F}_{\pm 1}[T].
+\mathbb{R}\{T,T^{-1}\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}=\mathbb{F}_{\{\pm 1\}}[T].
 $$
 This is the monoid of power series whose terms are all equal to zero except possibly one, that is equal to $\{\pm 1\}$. It contains and extends the monoid $\Lambda(\Z,|\cdot|_\infty)=\{\pm 1\}$ in degree zero. This will be the natural grading monoid (generalized Lambda-structure) for absolute motives, i.e., motivic cohomology theories over $(\mathbb{Z},|\cdot|_\infty)$. Remark that the recent work of Scholze on local Schtukas in mixed characteristic also uses in an essential way objects such as the unit disc over the given base Banach ring.
 
@@ -69,3 +69,5 @@ This is the monoid of power series whose terms are all equal to zero except poss
 1. In the theory of $(\Phi,\Gamma)$-modules, the monoid $\Lambda(\mathbb{Z}_p,|\cdot|_p)=\mathbb{Z}_p$-$\{0\}$ plays a central role. It looks like a not so hard but important task to clarify the relation of this theory with the classical notion of Lambda-ring.
 
 1. It is an interesting question to try to understand the relation of classical Hodge theory (over $\mathbb{R}$ or $\mathbb{C}$) with the notion of Lambda-structure on the corresponding Banach ring. This may show interesting limits to the idea of generalizing Lambda-structures to other Banach rings. The case of $\mathbb{R}$ should be treated using $\mathbb{Z}/2$-equivariant methods. An important point, in this perspective, is that the naive archimedean generalization of the notion of $(\Phi,\Gamma)$-module does not work, because $S^1$ does not act directly on the open complex unit disc $D^\circ(1,1)$. One only has an infinitesimal action (connection $\nabla$), whose combination with the infinitesimal generator $\Phi$ of $\R_+^*$ may be seen as an archimedean analog of the $p$-adic differential equations used in Berger's thesis to prove the monodromy theorem of $p$-adic Hodge theory. An important drawback of this infinitesimal approach (in the $p$-adic setting) is that the functor from $p$-adic Hodge structures (i.e., $(\Phi,\Gamma)$-modules) to $p$-adic Frobenius-differential equations is `not fully faithful`: making the action of $U(1)=\Z_p^*$ infinitesimal kills an important part of the information (essentially, the Hodge filtration on de Rham cohomology).
+
+1. The monoid that should come in play into the theory of [[spectral interpretation]] for zeroes and poles of global arithmetic and automorphic [[L-functions]] may be given by the monoid $\Lambda(\mathbb{A})$, where $\mathbb{A}$ is the ind-Banach ring of ad&#232;les.
