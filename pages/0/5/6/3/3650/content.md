@@ -123,7 +123,11 @@ $p$ is locally connected iff there exists a locally connected internal site in $
 
 ## References
 
-Locally connected geometric morphisms were introduced in the following paper where they are called 'molecular':
+The case of $Sh(X)$ for a topological space $X$ was an exercise (p.417) in [[SGA4]]:
+
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM vol.269 (1972).
+
+The concept relative to other bases was introduced in the following paper:
 
 * [[Michael Barr]], [[Robert Paré]], _Molecular Toposes_ , JPAA **17** (1980) pp.127-152.
 
@@ -136,7 +140,7 @@ Further references include
 * [[Jonathon Funk]], _The locally connected coclosure of a Grothendieck topos_, JPAA **137** (1999) pp.17-27.
   {#Funk}
 
-* {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+* {#JS11} [[Peter Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
 * [[Ieke Moerdijk]], _Continuous fibrations and inverse limits of toposes_ , Comp. Math. **58** (1986) pp.45-72. ([pdf](http://archive.numdam.org/article/CM_1986__58_1_45_0.pdf))
 
