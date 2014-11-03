@@ -566,6 +566,10 @@ If $[S^{op}, sSet]$ is equipped with the projective [[model structure on simplic
 
 If the coefficient objects come from sheaves of chain complexes along $\Gamma$, this cohomology restricts to ordinary [[abelian sheaf cohomology]]. See there for more details.
 
+### Computational aspects
+
+One may view the (monoidal) Dold-Kan correspondence as a relation between a well-behaved theory (simplicial/higher methods) that work in any characteristic but is very abstract and mainly suited to the proof of abstract theorems, and a more computational theory (strict structures in dg-modules) that are particularly well adapted to computations. The relation between these two (symmetric monoidal) theories may only be properly used with characteristic 0 coefficients. This remark is very naive and basic, but certainly at the center of computational implementations of abstract homotopical methods.
+
 
 ## Related concepts
 
@@ -655,4 +659,3 @@ The classical Dold-Kan theorem occurs as a special case among others from [[comb
 [[!redirects dual Dold-Kan theorem]]
 [[!redirects dual Dold--Kan theorem]]
 [[!redirects dual Dold?Kan theorem]]
-
