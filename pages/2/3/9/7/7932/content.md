@@ -321,10 +321,7 @@ See at _[internal limit -- Examples -- Homotopy Coinvariants](internal+%28co-%29
 +-- {: .num_remark}
 ###### Remark
 
-By def. \ref{GActionByFiberSequence}, and basic facts disussed at _[[slice (∞,1)-topos]]_,
-the [[(∞,1)-category]] $Act_{\mathbf{H}}(G)$
-is an [[(∞,1)-topos]] and in particular is 
-a [[cartesian closed (∞,1)-category]].
+By def. \ref{GActionByFiberSequence}, and basic facts disussed at _[[slice (∞,1)-topos]]_, the [[(∞,1)-category]] $Act_{\mathbf{H}}(G)$ is an [[(∞,1)-topos]] and in particular is  a [[cartesian closed (∞,1)-category]].
 
 =--
 
@@ -756,6 +753,75 @@ the [[stabilization]] of the $\infty$-category of $G$-actions.
 For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]] structure, the semidirect product group $G \ltimes A$ from [above](#SemidirectProductGroups) exhibits $A$ as a $G$-module in the sense of def. \ref{InfinityModuleOverAnInfinityGroup}.
 
 =--
+
+#### Actions in slice
+
+Consider an object $B \in \mathbf{H}$ and an object 
+
+$$
+  L \in \mathbf{H}_{/B}
+$$
+
+in the slice. By the discussion of [[conjugation actions]] [above](CartesianClosedMonoidalStructure), the [[automorphism ∞-group]] of $L$ as an object in $\mathbf{H}$ is the [[dependent product]] over the [[automorphism ∞-group]] $\mathbf{Aut}_{\mathbf{H}}(L)\in \mathbf{H}_{/B}$ in the slice.
+
+$$
+  \mathbf{Aut}_{\mathbf{H}}(L) 
+    \coloneqq 
+  \underset{B}{\prod} \mathbf{Aut}(L)
+  \in 
+  \mathrm{Grp}(\mathbf{H})
+  \,.
+$$
+
+By [[adjunction]] there is a canonical morphism from the re-pullback of this to the slice automorphism group
+
+$$
+  \epsilon
+  \colon
+  B^\ast \mathbf{B}\mathbf{Aut}_{\mathbf{H}}(L)
+  \longrightarrow
+  \mathbf{B} \mathbf{Aut}(L)
+  \,.
+$$
+
+Hence the canonical $\mathbf{Aut}(L)$-action on $L$ in the slice pulls back to give an action 
+
+$$
+  \array{
+     L
+     &\longrightarrow&
+     L//\mathbf{Aut}_{\mathbf{H}}(L) 
+     &\longrightarrow&
+     L//\mathbf{Aut}(L)
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \ast
+     &\longrightarrow&
+     \mathbf{B}B^\ast \mathbf{Aut}_{\mathbf{H}}(L)
+     &\stackrel{\epsilon}{\longrightarrow}&
+     \mathbf{B} \mathbf{Aut}(L)     
+  }
+$$
+
+Since the [[dependent sum]] $\underset{B}{\sum}$ preserves [[fiber products]] (by the discussion [here](limit+in+a+quasi-category#InOvercategories) and using that the inclusion of the [[cospan]] into its cocone is [[final functor|final]])
+
+$$
+  \array{ 
+     X &\longrightarrow& \underset{B}{\sum} L//\mathbf{Aut}_{\mathbf{H}}(L)
+     \\
+     \downarrow && \downarrow
+     \\
+     \underset{B}{\sum}B^\ast \ast 
+       &\longrightarrow& 
+     \underset{B}{\sum}B^\ast \mathbf{B}\mathbf{Aut}_{\mathbf{H}}(L)     
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \mathbf{B}\mathbf{Aut}_{\mathbf{H}}(L)
+  }
+$$
+
 
 ### Infinitesimally: actions of $L_\infty$-algebroids
 
