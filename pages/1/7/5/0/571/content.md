@@ -40,7 +40,7 @@ We list the following properties without their (easy) proof. The proofs can be f
 Every [[equalizer]]
 
 $$
-  t \to x \stackrel{\to}{\to} y 
+  t \to x \stackrel{\longrightarrow}{\longrightarrow} y 
 $$
 
 is a monomorphism.
@@ -59,7 +59,7 @@ Monomorphisms are preserved by [[pullback]].
 +-- {: .un_prop}
 ###### Proposition
 
-Monomorphisms are preserved by [[right adjoint]] [[functor]]s.
+Monomorphisms are preserved by [[right adjoint]] [[functors]].
 
 =--
 
