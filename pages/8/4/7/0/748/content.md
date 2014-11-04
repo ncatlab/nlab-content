@@ -285,7 +285,7 @@ One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusi
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #LimitsInSliceViaLimitsOfCoconedDiagram}
 ###### Proposition
 
 For $\mathcal{C}$ a [[category]], $X \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ a [[diagram]], $\mathcal{C}_{/X}$ the [[comma category]] (the over-category if $\mathcal{D}$ is the point) and $F \;\colon\; K \to \mathcal{C}_{/X}$ a [[diagram]] in the [[comma category]], then the [[limit]] $\underset{\leftarrow}{\lim} F$ in $\mathcal{C}_{/X}$ coincides with the limit $\underset{\leftarrow}{\lim} F/X$ in $\mathcal{C}$. 
