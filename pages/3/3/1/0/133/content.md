@@ -10,7 +10,7 @@
 =--
 
 # The axiom of choice
-* tic
+* table of contents
 {: toc}
 
 ## Statement
@@ -144,6 +144,8 @@ There are also "internal" versions of these axioms.
 
 ## References
 
+### General
+
 * [[HAF|Eric Schechter's analysis book]] surveys several variants of AC and its negation with a view to applications of analysis, including this nice picture:
 
   ![a Hasse diagram of variants of AC.](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/acchart.gif)
@@ -159,6 +161,15 @@ Relation to [[cohomology]] is discussed in
 * [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
 
 * [[Mike Shulman]], _Cohomology_ on the [[homotopy type theory]] blog [here](http://homotopytypetheory.org/2013/07/24/cohomology/)
+
+
+### In homotopy type theory
+ {#ReferencesInHomotopy}
+
+Discussion in [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]], section 3.8 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 
 category: foundational axiom
