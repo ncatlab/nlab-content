@@ -23,8 +23,7 @@ The **lambda calculus** is:
 
 * an [[internal language]] for [[cartesian closed categories]].
 
-It comes in both *typed* and *untyped* (or, more correctly, *single-typed*) versions.
-
+It comes in both *typed* and *untyped* versions.
 
 ## Concepts
 
@@ -42,7 +41,11 @@ Application is generally considered to associate to the left.  Thus $u v w$ deno
 
 ### Evaluation and Reduction
 
-*Evaluation* or *reduction* is the process of "computing" the "value" of a lambda term.  The most basic operation is called *[[beta reduction]]* and consists in taking a lambda abstraction at its word about what it is supposed to do when applied to an input.  For instance, the application $(\lambda x. x+1) 3$ reduces to $3+1$ (and thereby, presuming appropriate rules for $+$, to $4$).  Terms which can be connected by a [[zigzag]] of beta reductions (in either direction) are said to be *beta-equivalent*.
+*Evaluation* or *reduction* is the process of "computing" the "value" of a lambda term.  The most basic operation is called *[[beta reduction]]* and consists in taking a lambda abstraction at its word about what it is supposed to do when applied to an input.  For instance, the application $(\lambda x. x+1) 3$ reduces to $3+1$ (and thereby, presuming appropriate rules for $+$, to $4$).  In general, the beta reduction of a term $(\lambda x.t)(u)$ is defined as the [[substitution#avoiding variable capture|capture-avoiding substitution]] of $u$ for $x$ in $t$,
+
+$$(\lambda x.t)(u) \to^\beta t[u/x].$$
+
+Terms which can be connected by a [[zigzag]] of beta reductions (in either direction) are said to be *beta-equivalent*.
 
 Another basic operation often assumed in the lambda calculus is *[[eta reduction]]/expansion*, which consists of identifying a function, $f$ with the lambda abstraction $(\lambda x. f x)$ which does nothing other than apply $f$ to its argument.  (It is called "reduction" or "expansion" depending on which "direction" it goes in, from $(\lambda x. f x)$ to $f$ or vice versa.)
 
@@ -58,8 +61,6 @@ In good situations, lambda-calculus reduction is *[[confluent category|confluent
 
 In the pure "untyped" lambda calculus, there is only one kind of variable and one kind of term, and the only construction used to form expressions is *application* of a function $f$ to an argument $t$, generally denoted simply $f t$.  In particular, all variables and terms "represent functions", and can be applied to any other variable or term.
 
-From the point of view of [[type theory]], it is more appropriate to call this "single-typed" or "unityped" lambda-calculus rather than "untyped" --- there is a single type which all terms belong to.
-
 As an example of the sort of freedom this allows, any term can always be applied to itself.  We can then form the term $\lambda x. x x$ which applies its argument to itself.  The self-application of this term:
 
 $$ (\lambda x. x x) (\lambda x. x x) $$
@@ -70,6 +71,7 @@ In pure untyped lambda calculus, we can define [[natural numbers]] using the [[C
 
 The most natural sort of *model* of pure lambda calculus is a set or other object $D$ which is equivalent to its own [[exponential]] $D^D$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $D$ is that every term $f \colon D^D$ have a fixed-point; see [[fixed-point combinator]]. 
 
+From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such an object $D$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, this is the basis for [[intersection type]] systems that can be used to give a characterization of the normalizing terms.
 
 ### Simply typed lambda calculus
 
@@ -100,8 +102,9 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
-Please add...
+* [[Dana Scott]]. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
 
+* [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
 
 [[!redirects lambda calculus]]
 [[!redirects lambda calculi]]
