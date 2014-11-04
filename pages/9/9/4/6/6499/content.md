@@ -66,6 +66,8 @@ Argument in favor of its use are:
 
 * [[function field analogy]]
 
+* [[Arithmetic cryptography]]
+
 ## References
 
 
