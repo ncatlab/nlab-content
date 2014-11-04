@@ -99,6 +99,69 @@ The following table shows how the [[natural deduction]] rules for dependent sum 
 [[!include dependent sum natural deduction - table]]
 
 
+### Relation to some limits
+ {#RelationToSomeLimits}
+
+
++-- {: .num_prop #AbsoluteDependentSumPreservesFiberProducts}
+###### Proposition
+
+For $\mathcal{C}$ a category with [[finite limits]] and $X \in \mathcal{C}$ an object, then dependent sum
+
+$$
+  \underset{X}{\sum} \mathcal{C}_{/X} \longrightarrow \mathcal{C}
+$$ 
+
+[[preserved limit|preserves]] and [[reflected limit|reflects]] [[fiber products]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [this proposition](overcategory#LimitsInSliceViaLimitsOfCoconedDiagram) limits over a [[cospan]] [[diagram]] in the [[slice category]] are computed as limits over the [[cocone]] diagram under the cospan in the base category. By [this proposition](final+functor#CoconeUnderCospan) this inclusion is a [[final functor]], hence preserves limits. Since the dependent sum of the diagram is the restriction along this final functor, the result follows.
+
+=--
+
++-- {: .num_prop #NaturalitySquareOfUnitIsPullback}
+###### Proposition
+
+For $\mathcal{C}$ a category with [[finite limits]] and $X\in \mathcal{X}$ any object, the [[naturality square]] of the [[unit of an adjunction|unit]] of the  $(\underset{X}{\sum} \dashv X^\ast)$-[[adjunction]] on any morphism $(f \colon A \to B)$ in $\mathcal{C}_{/X}$
+
+$$
+  \array{
+    A  &\longrightarrow& X^\ast \underset{X}{\sum} A
+    \\
+    \downarrow^{\mathrlap{f}}  && \downarrow^{\mathrlap{X^\ast \underset{X}{\sum} f}}
+    \\
+    B &\longrightarrow& X^\ast \underset{X}{\sum} B
+  }
+$$
+
+is a [[pullback]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AbsoluteDependentSumPreservesFiberProducts} it suffices to see that the diagram is a pullback in $\mathcal{C}$ under $\underset{X}{\sum}$, where it becomes
+
+$$
+  \array{
+    \underset{X}{\sum} A  &\stackrel{(A,id)}{\longrightarrow}& X \times \underset{X}{\sum} A
+    \\
+    \downarrow^{\mathrlap{\underset{X}{\sum}f}}  && \downarrow^{\mathrlap{(id, \underset{X}{\sum} f)}}
+    \\
+    \underset{X}{\sum} B &\stackrel{(B,id)}{\longrightarrow}& X \times \underset{X}{\sum} B
+  }
+  \,.
+$$
+
+
+=--
+
+
 ## Related concepts
 
 * [[product]], [[coproduct]]
