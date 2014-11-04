@@ -180,6 +180,52 @@ The inclusion $\mathcal{C} \to \tilde \mathcal{C}$ of any category into its [[id
 
 See at _[[idempotent completion]]_ in the section on _[Finality](Karoubi+envelope#Finality)_.
 
++-- {: .num_example #CoconeUnderCospan}
+###### Example
+
+The inclusion of the [[cospan]] [[diagram]] into its [[cocone]]
+
+$$
+  \left(
+    \array{
+       a
+       \\
+       \downarrow
+       \\
+       c
+       \\
+       \uparrow
+       \\
+       b
+    }
+  \right)
+  \hookrightarrow
+  \left(
+    \array{
+       a
+       \\
+       \downarrow & \searrow
+       \\
+       c &\longrightarrow & p  
+       \\
+       \uparrow & \nearrow
+       \\
+       b
+    }
+  \right)
+$$
+
+is initial.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiagram)) of limits in a [[slice category]], this implies that [[fiber products]] in a [[slice category]] are computed as fiber products in the underlying category, or in other words that [[dependent sum]] to the point preserves fiber products.
+
+=--
+
 
 ## Related concepts
 
