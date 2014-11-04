@@ -308,7 +308,7 @@ The stable motivic homotopy category $SH(S)$ is the basis for several definition
 
 ### Relation to the theory of symmetric bilinear forms
 
-Motivic homotopy theory is also related to the classical theory of symmetric [[bilinear forms]] (or [[quadratic forms]] in characteristic $\neq 2$). Invariants such as [[Witt groups]], oriented [[Chow groups]], and Hermitian [[K-theory]] are representable in the motivic homotopy category.
+Motivic homotopy theory is also related to the classical theory of symmetric [[bilinear forms]] (or [[quadratic forms]] in characteristic $\neq 2$). Invariants such as [[Witt groups]], oriented [[Chow groups]], and [[Hermitian K-theory]] are representable in the motivic homotopy category.
 
 A central theorem of [[Fabien Morel]] states that, if $k$ is a [[field]], the ring of endomorphisms of the motivic sphere spectrum $S^0\in SH(k)$ is canonically isomorphic to the _Grothendieck&#8211;Witt ring_ $GW(k)$: this is the [[group completion]] of the [[semiring]] of isomorphism classes of nondegenerate symmetric [[bilinear form]]s over $k$ ([Morel, Corollary 5.43](#Morel)). The case $k=\mathbb{R}$ is especially enlightening: there the stable homotopy class of a pointed endomorphism of $\mathbb{P}^1$ corresponds to the nondegenerate symmetric bilinear form over $\mathbb{R}$ whose dimension is the degree of the induced endomorphism of $\mathbb{P}^1(\mathbb{C})\simeq S^2$ and whose signature is the degree of the induced endomorphism of $\mathbb{P}^1(\mathbb{R})\simeq S^1$.
 
