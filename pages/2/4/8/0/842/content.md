@@ -782,7 +782,7 @@ $$
   }
 $$
 
-+-- {: .num_prop }
++-- {: .num_prop #InfinityGroupoidalCoLimitsViaIntegrationAndSlicing}
 ###### Proposition
 
 Let the assumptions be as above. Then:
@@ -804,7 +804,12 @@ Let the assumptions be as above. Then:
 
 The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
 
++-- {: .num_remark }
+###### Remark
 
+The form of the statement in prop. \ref{InfinityGroupoidalCoLimitsViaIntegrationAndSlicing} is the special case of the general form of [[internal (co-)limits]], here internal to the [[(∞,1)-topos]] [[∞Grpd]] with $Core(\inftyGrpd_{small})$ its small [[object classifier]]. See at _[internal (co-)limit -- Groupoidal homotopy (co-)limits](internal+%28co-%29limit#ExamplesInfinityGroupoidal)_ for more on this.
+
+=--
 
 
 ### Limits and colimits with values in $(\infty,1)$Cat
