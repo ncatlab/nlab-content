@@ -38,6 +38,8 @@ synthetic geometry.
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
+* [[parallel postulate]]
+
 * [[synthetic mathematics]]
 
 * [[geometric homotopy type]]
