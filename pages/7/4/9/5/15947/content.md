@@ -1,0 +1,19 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+Hermitian K-theory is a generalization of usual [[K-theory]] to the setting of (Banach) rings (or more generally Banach categories) equipped with an involution. It was defined first by Karoubi and Villamayor, and then studied by various authors.
