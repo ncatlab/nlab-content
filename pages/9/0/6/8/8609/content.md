@@ -105,6 +105,8 @@ The following table shows how the [[natural deduction]] rules for dependent sum 
 
 * [[Kan extension]]
 
+* [[internal colimit]]
+
 * [[base change]]
 
   * **dependent sum**, [[dependent product]]
