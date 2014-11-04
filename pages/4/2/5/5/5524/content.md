@@ -85,7 +85,7 @@ be the [[full subcategory]] on the [[infinitesimally thickened point]]s: this sm
 Let 
 
 $$
-  CartSp_{formalsmooth} \hookrightarrow SmoothLoc
+  FormalCartSp \hookrightarrow SmoothLoc
 $$ 
 
 be the [[full subcategory]] of the category of [[smooth loci]] on the objects of the form 
@@ -94,7 +94,7 @@ $$
   U = \mathbb{R}^n \times D
 $$ 
 
-that are [[product]]s of a [[Cartesian space]] $\mathbb{R}^n \in$ [[CartSp]] for $n \in \mathbb{N}$ and an [[infinitesimally thickened point]] $D \in InfPoint$.
+that are [[product]]s of a [[Cartesian space]] $\mathbb{R}^n \in$ [[CartSp]] for $n \in \mathbb{N}$ and an [[infinitesimally thickened point]] $D \in InfPoint$. (See at _[[FormalCartSp]]_.)
 
 Equip this category with the [[coverage]] where a family of morphisms  is [[covering]] precisely if it is of the form $\{U_i \times D \stackrel{(f_i, Id_D)}{\to} U \times D\}$ for $\{f_i : U_i \to U\}$ a covering in [[CartSp]]${}_{smooth}$ (a [[good open cover]]).
 
@@ -106,7 +106,7 @@ This appears as ([Kock 86, (5.1)]{#Kock86}).
 +-- {: .num_remark}
 ###### Note
 
-The [[sheaf topos]] over [[CartSp]]${}_{formalsmooth}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]]. See at _[[Cahiers topos]]_ for further references.
+The [[sheaf topos]] over [[FormalCartSp]] is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]]. See at _[[Cahiers topos]]_ for further references.
 
 =--
 
@@ -116,10 +116,10 @@ The [[sheaf topos]] over [[CartSp]]${}_{formalsmooth}$ is ([[equivalence of cate
 We say the [[(∞,1)-topos]] of **formal smooth $\infty$-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
 
 $$
-  FormalSmooth \infty Grpd := Sh_{(\infty,1)}(CartSp_{formalsmooth})
+  FormalSmooth \infty Grpd := Sh_{(\infty,1)}(FormalCartSp)
 $$
 
-on $CartSp_{formalsmooth}$. 
+on $FormalCartSp$. 
 
 =--
 
@@ -144,22 +144,22 @@ FormalSmooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 +-- {: .proof}
 ###### Proof
 
-Because [[CartSp]]${}_{formalsmooth}$ is an [[∞-cohesive site]]. See there for details.
+Because [[FormalCartSp]]  is an [[∞-cohesive site]]. See there for details.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-Write $FSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on the 
- **[[formal smooth manifold]]s**: those modeled on [[CartSp]]${}_{formalsmooth}$ equipped with the evident [[coverage]].
+Write $FormalSmoothMfd \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on the 
+ **[[formal smooth manifolds]]**: those modeled on [[FormalCartSp]] equipped with the evident [[coverage]].
 
 =--
 
 +-- {: .num_prop #CartSpAsDenseSubOfFSmoothMfd}
 ###### Observation
 
-$CartSp_{formalsmooth}$ is a [[dense sub-site]] of $FSmoothMfd$.
+$FormalCartSp$ is a [[dense sub-site]] of $FormalSmoothMfd$.
 
 =--
 
@@ -188,7 +188,7 @@ With the [above observation](#CartSpAsDenseSubOfFSmoothMfd) this is directly ana
 +-- {: .num_defn}
 ###### Definition
 
-Write $i : CartSp_{smooth} \hookrightarrow CartSp_{formalsmooth}$ for the canonical [[full subcategory|embedding]].
+Write $i : CartSp_{smooth} \hookrightarrow FormalCartSp$ for the canonical [[full subcategory|embedding]].
 
 =--
 
@@ -199,7 +199,7 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{formalsmooth}$ for the canoni
 The functor $i^*$ given by restriction along $i$ exhibits 
 $FormalSmooth\infty Grpd$ as an 
 <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieTheory">infinitesimal cohesive neighbourhood</a>
-of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s in that we have a quadruple of [[adjoint (∞,1)-functor]]s
+of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoids]] in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
  ( i_! \dashv i^* \dashv i_* \dashv i^! )
@@ -259,7 +259,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = CartSp_{formalsmooth} \hookrightarrow FormalSmooth\infty Grpd$
+For $U \times D \in CartSp_{smooth} \ltimes InfinSmoothLoc = FormalCartSp \hookrightarrow FormalSmooth\infty Grpd$
 we have that
 
 
@@ -352,7 +352,7 @@ We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2
 
 The canonical [[line object]] of the [[Lawvere theory]] [[CartSp]]${}_{smooth}$ is the [[real line]], regarded as
 an object of the [[Cahiers topos]], and hence of
-$SynthDiff \infty Grpd$
+$FormalSmooth \infty Grpd$
 
 $$
   \mathbb{A}^1_{CartSp_{smooth}} = \mathbb{R}
@@ -369,15 +369,15 @@ $$
 $$
 
 regarded as an abelian [[∞-group]] object in
-$SynthDiff\infty Grpd$. For $n \in \mathbb{N}$ write
-$\mathbf{B}^n \mathbb{R} \in SynthDiff\infty Grpd$ 
+$FormalSmooth\infty Grpd$. For $n \in \mathbb{N}$ write
+$\mathbf{B}^n \mathbb{R} \in FormalSmooth\infty Grpd$ 
 for its $n$-fold [[delooping]].
 
-For $n \in \mathbb{N}$ and $X \in SynthDiff\infty Grpd$ 
+For $n \in \mathbb{N}$ and $X \in FormalSmooth\infty Grpd$ 
 write 
 
 $$
-  H^n_{synthdiff}(X) := \pi_0 SynthDiff\infty Grpd(X,\mathbf{B}^n \mathbb{R})
+  H^n_{synthdiff}(X) := \pi_0 FormalSmooth\infty Grpd(X,\mathbf{B}^n \mathbb{R})
 $$
 
 for the [[cohomology group]] of $X$ with coefficients in the canonical line object in degree $n$.
@@ -388,17 +388,17 @@ for the [[cohomology group]] of $X$ with coefficients in the canonical line obje
 Write
 
 $$
-  \mathbf{L}_{sdiff} \hookrightarrow SynthDiff \infty Grpd
+  \mathbf{L}_{sdiff} \hookrightarrow FormalSmooth \infty Grpd
 $$
 
-for the [[cohomology localization]] of $SynthDiff\infty Grpd$ at $\mathbb{R}$-[[cohomology]]: the full [[sub-(∞,1)-category]] on the $W$-[[local object]] with respect to the [[class]] $W$ of [[morphism]]s that induce [[isomorphism]]s in all $\mathbb{R}$-cohomology groups.
+for the [[cohomology localization]] of $FormalSmooth\infty Grpd$ at $\mathbb{R}$-[[cohomology]]: the full [[sub-(∞,1)-category]] on the $W$-[[local object]] with respect to the [[class]] $W$ of [[morphism]]s that induce [[isomorphism]]s in all $\mathbb{R}$-cohomology groups.
 
 =--
 
 +-- {: .num_prop #PresentationOfCohomologyLocalization}
 ###### Proposition
 
-Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algebras]] and let $j : (SmoothAlg^{\Delta})^{op} \to [CartSp_{synthdiff}, sSet]$ be the prolonged external [[Yoneda embedding]]. 
+Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebras|projective model structure on cosimplicial smooth algebras]] and let $j : (SmoothAlg^{\Delta})^{op} \to [FormalCartSp, sSet]$ be the prolonged external [[Yoneda embedding]]. 
 
 1. This constitutes the [[right adjoint]] of a [[Quillen adjunction]]
  
@@ -1030,7 +1030,7 @@ $$
 
 ## References
 
-The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
+The site [[FormalCartSp]] is discussed in section 5 of
 
 * {#Kock86} [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ , Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
  
@@ -1110,3 +1110,5 @@ following
 
 
 [[!redirects SynthDiff∞Grpd]]
+
+[[!redirects FormalSmooth∞Grpd]]
