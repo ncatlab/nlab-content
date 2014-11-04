@@ -29,7 +29,7 @@ The most famous example is probably the pair of incompleteness theorems, due to 
 
 ## G&#246;del\'s incompleteness theorems 
 
-To some extent, G&#246;del's incompleteness theorems have always had an air of mystery about them, or at least a reputation of being exceedingly difficult or subtle. The major insight of G&#246;del, that items in formal logic can be encoded within the recursive structures afforded by arithmetic ([[Gödel numbering]]), is of course a signal achievement not to be underestimated, and the detailed working out of the result that the provability predicate can be encoded as a [[recursive set]] can be said to form the technical core of this work. But the punchline, in the form of his diagonalization argument that produces a true[^fine1] but unprovable sentence, should be seen for what it is: one of many [[diagonalization]] arguments (including for example [[Cantor's theorem]]) that are essentially alike in structure, and familiar to all mathematicians. 
+To some extent, G&#246;del's incompleteness theorems have always had an air of mystery about them, or at least a reputation of being exceedingly difficult or subtle. The major insight of G&#246;del, that items in formal logic can be encoded within the recursive structures afforded by arithmetic ([[Gödel numbering]]), is of course a signal achievement not to be underestimated, and the detailed working out of the result that the provability predicate can be encoded as a [[recursive set]] can be said to form the technical core of this work. But the punchline, in the form of his [[diagonalization argument]] that produces a true[^fine1] but unprovable sentence, should be seen for what it is: one of many [[diagonalization arguments]] (including for example [[Cantor's theorem]]) that are essentially alike in structure, and familiar to all mathematicians. 
 
 This diagonalization result, so often obscured, should be laid bare as the simple piece of algebra that it is. We give one approach here, based on the algebra of [[hyperdoctrine]]s.
 
@@ -151,7 +151,9 @@ A brief review discussion explicitly in the context of [[type theory]]/[[topos t
 
 * Erik Gregersen, _[Internal lanuage](http://www.britannica.com/EBchecked/topic/369221/foundations-of-mathematics/35468/Internal-language)_, Encylcopedia Britannica
 
+A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is given in
 
+* [[Russell O'Connor]], _Essential Incompleteness of Arithmetic Verified by Coq_ ([web](http://r6.ca/Goedel/goedel1.html))
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
 
