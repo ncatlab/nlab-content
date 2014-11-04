@@ -10,12 +10,7 @@
 
 ## Idea 
 
-A _derived stack_ $X$ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- whose domain is not a [[1-category]] but more generally an [[(∞,1)-category]] $C$.
-
-$$
-  X \in Sh_{(\infty,1)}(C)
-  \,.
-$$
+A _derived stack_ $X$ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- on an [[(∞,1)-site]] $C$.  For example, $C$ is most often the [[(∞,1)-category]] of [[simplicial commutative rings]] or [[E-∞ ring spectra]] (with the [[Zariski topology|Zariski]] or [[etale topology|etale]] topology)).
 
 One says _derived stack_ in order to distinguish from the more restrictive notion of an [[∞-stack]] on a 1-categorical [[site]], such as for instance described at [[topological ∞-groupoid]].
 
