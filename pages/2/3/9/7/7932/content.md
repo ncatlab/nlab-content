@@ -239,7 +239,7 @@ And for $V_1, V_2$ two actions we have
 +-- {: .num_defn #TypeOfInvariants}
 ###### Definition
 
-The [[invariants]] ([[homotopy fixed points]]) of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$,
+The [[invariants]] ([[homotopy fixed points]]) of a $G$-$\infty$-action $\rho$ are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$,
 
 $$
   Invariants(V) = \prod_{\mathbf{B}G \to *} (V \sslash G \to \mathbf{B}G)
@@ -263,7 +263,21 @@ $$
 
 =--
 
-### Quotients
++-- {: .num_remark}
+###### Remark
+
+This is the [[internal limit]] in $\mathbf{H}$ of the [[internal diagram]]
+
+$$
+  \rho \colon \mathbf{B}G \to Type 
+  \,.
+$$
+
+See at _[internal limit -- Examples -- Homotopy Invariants](internal+%28co-%29limit#BorelConstructionHomotopyQuotients)_.
+
+=--
+
+### Coinvariants / Quotients
  {#Quotients}
 
 From def. \ref{GActionByFiberSequence} we read off:
@@ -286,6 +300,19 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This is the [[internal colimit]] in $\mathbf{H}$ of the [[internal diagram]]
+
+$$
+  \rho \colon \mathbf{B}G \to Type 
+  \,.
+$$
+
+See at _[internal limit -- Examples -- Homotopy Coinvariants](internal+%28co-%29limit#BorelConstructionHomotopyQuotients)_.
+
+=--
 
 
 ### Conjugation actions
