@@ -69,7 +69,7 @@ of [[adjoint (∞,1)-functor]]s.
 +-- {: .un_remark}
 ###### Notation
 
-To amplify the interpretation in analogy with [[distribution]]s in [[functional analysis]] one sometimes write 
+To amplify the interpretation in analogy with [[distribution]]s in [[functional analysis]] one sometimes writes 
 
 $$
   \int_{\mathcal{E}} (-) d\mu : \mathcal{E} \to \mathcal{K}
@@ -129,7 +129,7 @@ $$
   \,.
 $$
 
-In the functional-notation this is the formula
+In the functional notation this is the formula
 
 $$
   \int_{\mathcal{E}} G d(F \times \mu)
@@ -147,20 +147,39 @@ $$
   Dist(\infty Grpd, \infty Grpd) \simeq \infty Grpd.
 $$
 
+## Related entries
 
+* [[symmetric topos]]
+* [[bagdomain topos]]
+* [[cosheaf]]
+
+For the $(\infty,1)$-category theory generalization and related references:
+
+* [[Pr(∞,1)Cat]]
 
 ## References
 
 The 1-categorical notion has been described by [[Bill Lawvere]] in a series of talks and expositions. For instance in the context of [[cohesive topos]]es in 
 
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* [[Bill Lawvere]], _Axiomatic cohesion_ , Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
 A comprehensive discussion is in
 
-* [[Marta Bunge]] and Jonathan Funk, _Singular coverings of toposes_ Lecture Notes in Mathematics, (2006) Volume 1890/2006
+* [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (chap. 1)
 
-  chapter 1 _Lawvere Distributions on Toposes_
+See also:
 
-For the $(\infty,1)$-category theory generalization see [[Pr(∞,1)Cat]] and references given there.
+* [[Marta Bunge]], _Cosheaves and Distributions on Toposes_ , Alg. Univ. **34** (1995) pp.469-484.
 
+* [[Marta Bunge]], [[Jonathon Funk]], _Spreads and the Symmetric Topos_ , JPAA **113** (1996) pp.1-38.
+
+* [[Marta Bunge]], [[Jonathon Funk]], _Spreads and the Symmetric Topos II_ , JPAA **130** (1998) pp.49-84.
+
+* [[Anders Kock]], [[Gonzalo E. Reyes]], _A Note on Frame Distributions_ , Cah. Top. G&#233;om. Diff. Cat.**40** (1999) pp.127-140.
+
+* [[Andrew Pitts]], _On Product and Change of Base for Toposes_ , Cah. Top. G&#233;om. Diff. Cat.**26** (1985) pp.43-61.
+
+
+
+[[!redirects topos distribution]]
 [[!redirects Lawvere distributions]]
