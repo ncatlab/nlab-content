@@ -18,17 +18,17 @@
 
 ## Idea
 
-Arithmetic cryptography is the developing subject that describes [[public key cryptography]] systems based on the use of arithmetic geometry of schemes (or [[global analytic spaces]]) over $\mathbb{Z}$.
+Arithmetic cryptography is the developing subject that describes [public key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) systems based on the use of arithmetic geometry of schemes (or [[global analytic spaces]]) over $\mathbb{Z}$.
 
 There are two well known examples of such systems:
 
-1. The first and most used one, which is very efficient **because** it is conformal to the [[KISS principle]], is based on the fact that it is very difficult (from the computational viewpoint) to factorize a natural number into a product of two big prime numbers.
+1. The first and most used one, which is very efficient **because** it is conformal to the [KISS principle](http://en.wikipedia.org/wiki/KISS_principle), is based on the fact that it is very difficult (from the computational viewpoint) to factorize a natural number into a product of two big prime numbers.
 
-1. The second one is based on the [[discrete logarithm problem]] on elliptic curves (or more generally abelian varieties) over finite fields. It has the advantage on the first algorithm of allowing to make shorted key, without compromising security (NSA has generalized the use of such algorithm both for commercial and classified use, as explained on the wikipedia page on elliptic curve cryptography).
+1. The second one is based on the [discrete logarithm](http://en.wikipedia.org/wiki/Discrete_logarithm) problem on elliptic curves (or more generally abelian varieties) over finite fields. It has the advantage on the first algorithm of allowing to make shorted key, without compromising security (NSA has generalized the use of [elliptic curve cryptography](http://en.wikipedia.org/wiki/Elliptic_curve_cryptography) algorithm both for commercial and classified use, as explained on the wikipedia page on elliptic curve cryptography).
 
-The basic idea of arithmetic cryptography is to use a finite family $X$ of polynomials with integer coefficients $P_1,\dots,P_m\in \mathbb{Z}[X_1,\dots,X_n]$ (or more generally a quasi-projective scheme $X$ of finite type over $\mathbb{Z}$, or even maybe a [[global analytic space]] $X$ over a convenient Banach ring), encoded in a finite number of integers (the coefficients and degrees of the corresponding polynomials), together with some additional data (such as a way to cut a part of the associated motive) to define a [[public key]] cryptosystem.
+The basic idea of arithmetic cryptography is to use a finite family $X$ of polynomials with integer coefficients $P_1,\dots,P_m\in \mathbb{Z}[X_1,\dots,X_n]$ (or more generally a quasi-projective scheme $X$ of finite type over $\mathbb{Z}$, or even maybe a [[global analytic space]] $X$ over a convenient Banach ring), encoded in a finite number of integers (the coefficients and degrees of the corresponding polynomials), together with some additional data (such as a way to cut a part of the associated motive) to define a [public key cryptosystem](http://en.wikipedia.org/wiki/Public-key_cryptography).
 
-Some computational aspects of general motives have been investigated in the case of motives of modular forms by Bass Edixhoven and Jean-Marc Couveignes.
+Some computational aspects of general motives have been investigated in the case of motives of modular forms by Bass Edixhoven and Jean-Marc Couveignes, using &#233;tale cohomological methods. Kedlaya and Lauder-Wan also studied the Dwork approach from a computational viewpoint.
 
 ## Methods
 
@@ -44,7 +44,7 @@ The [[geometric cohomology theory]] should also be (since it has characteristic 
 
 ## Aims
 
-The aim of arithmetic cryptography is to define a good [[geometric cohomology]] theory for [[global analytic spaces]] based on analytic methods and differential calculus that would allow the definition of [[public key cryptography]] systems based on the datum of a [[global analytic space]] $X$ and of (say) a part $M$ of the associated (maybe absolute) rational motive $M(X)$. These kinds of methods would not be adapted to the attack of the previous ones, but may give a bigger class of public keys, that may allow the use of shorter ones. However, it is not yet clear that such a general approach will be conformal to the [[KISS principle]].
+The aim of arithmetic cryptography is to define a good [[geometric cohomology]] theory for [[global analytic spaces]] based on analytic methods and differential calculus that would allow the definition of [public key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) systems based on the datum of a [[global analytic space]] $X$ and of (say) a part $M$ of the associated (maybe absolute) rational motive $M(X)$. These kinds of methods would not be adapted to the attack of the previous ones, but may give a bigger class of public keys, that may allow the use of shorter ones. However, it is not yet clear that such a general approach will be conformal to the [KISS principle](http://en.wikipedia.org/wiki/KISS_principle).
 
 The constraints on such a theory would be the following:
 
