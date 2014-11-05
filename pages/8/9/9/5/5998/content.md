@@ -21,7 +21,7 @@ The **lambda calculus** is:
 
 * a *model of computation* (akin to [[Turing machine]]s and [[recursive function]]s), through which we can study the computability and complexity of [[functions]] and predicates; and
 
-* an [[internal language]] for [[cartesian closed categories]].
+* an [[internal language]] for [[cartesian closed categories]] (for more on this see at _[[relation between type theory and category theory]]_).
 
 It comes in both *typed* and *untyped* versions.
 
@@ -106,6 +106,8 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 * [[type theory]]
 
+* [[relation between type theory and category theory]]
+
 ## References
 
 The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as an object $D$ such that the exponential $D^D$ is isomorphic to (or possibly only a [[retract]] of) $D$ was proposed by [[Dana Scott]] in
@@ -147,3 +149,5 @@ Another, more recent take on pure lambda calculus (as a "semi-closed algebraic t
 [[!redirects simply typed lambda calculus]]
 [[!redirects simply typed lambda-calculus]]
 [[!redirects simply typed ∞-calculus]]
+
+[[!redirects simply-typed lambda calculus]]
