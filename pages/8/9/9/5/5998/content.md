@@ -53,25 +53,31 @@ A more basic operation than either of these, which is often not even mentioned a
 
 More complicated systems that build on the lambda calculus, such as various [[type theories]], will often have other rules of evaluation as well.
 
-In good situations, lambda-calculus reduction is *[[confluent category|confluent]]* and *terminating* (the [[Church-Rosser theorem]]), so that every term has a *[[normal form]]*, and two terms are equivalent precisely when they have the same normal form.
+In good situations, lambda calculus reduction is *[[confluent category|confluent]]* (the [[Church-Rosser theorem]]), so that every term has at most one *[[normal form]]*, and two terms are equivalent precisely when they have the same normal form.  A term is said to be _normalizing_ if its reduction is also terminating---more precisely, $t$ is said to be *weakly-normalizing* if there exists a finite sequence of reductions
+
+$$ t \to t_1 \to t_2 \to \dots \to t_n \nrightarrow $$
+
+terminating in a normal form $t_n$, and *strongly-normalizing* if _all_ sequences of reductions lead to a (by confluence, necessarily unique) normal form.  In general, there exist terms which do not normalize by any reduction sequence, although simply-typed lambda calculus and many other typed variants of lambda calculus are strongly-normalizing.
 
 ## Variants
 
 ### Pure lambda calculus
 
-In the pure "untyped" lambda calculus, there is only one kind of variable and one kind of term, and the only construction used to form expressions is *application* of a function $f$ to an argument $t$, generally denoted simply $f t$.  In particular, all variables and terms "represent functions", and can be applied to any other variable or term.
+In the untyped (or "pure") lambda calculus, every term can be applied to any other term.  As an example of the sort of freedom this allows, we can form the term $u = \lambda x. x x$ which applies its argument to itself, and then define
 
-As an example of the sort of freedom this allows, any term can always be applied to itself.  We can then form the term $\lambda x. x x$ which applies its argument to itself.  The self-application of this term:
+$$ \omega = u(u) $$
 
-$$ (\lambda x. x x) (\lambda x. x x) $$
+as the self-application of $u$.  Performing a beta-reduction on $\omega$ yields
 
-is a classic example of a term which admits an infinite sequence of beta-reductions (each of which leads back to itself).
+$$ \omega \to^\beta x x[u/x] = u(u) = \omega$$
+
+thus giving the classic example of a non-terminating program.
 
 In pure untyped lambda calculus, we can define [[natural numbers]] using the [[Church numerals]]: the number $n$ is represented by the operation of $n$-fold iteration.  Thus for instance we have $2 = \lambda f. (\lambda x.f (f x))$, the function which takes a function $f$ as input and returns a function that applies $f$ twice.  Similarly $1 = \lambda f. (\lambda x.f x)$ is the identity on functions, while $0 = \lambda f. (\lambda x . x)$ takes any function $f$ to the identity function (the 0th iterate of $f$).  We can then construct (very inefficiently) all of arithmetic, and prove that the arithmetic functions expressible by lambda terms are exactly the same as those computable by Turing machines or (total) recursive functions.
 
 The most natural sort of *model* of pure lambda calculus is a set or other object $D$ which is equivalent to its own [[exponential]] $D^D$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $D$ is that every term $f \colon D^D$ have a fixed-point; see [[fixed-point combinator]]. 
 
-From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such an object $D$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, this is the basis for [[intersection type]] systems that can be used to give a characterization of the normalizing terms.
+From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such an object $D$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, the normalizing terms of pure lambda calculus can be characterized precisely as those which are typable in an [[intersection type]] system.
 
 ### Simply typed lambda calculus
 
@@ -102,7 +108,15 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
-* [[Dana Scott]]. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as an object $D$ such that the exponential $D^D$ is isomorphic to (or possibly only a [[retract]] of) $D$ was proposed by [[Dana Scott]] in
+
+* Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+
+This followed his earlier work constructing an explicit such model in the category of domains:
+
+* Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
+
+Another, more recent take on pure lambda calculus (as a "semi-closed algebraic theory") can be found in
 
 * [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
 
