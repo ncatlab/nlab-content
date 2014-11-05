@@ -92,14 +92,15 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
+* [[Lawvere distribution]]
+
 
 ## References
 
-section 1.4 of
+* G. E. Bredon, _Sheaf Theory_ , Springer Heidelberg 1997. (chap. V-VI)
 
-* [[Marta Bunge]] and Jonathan Funk, _Singular coverings of toposes_ Lecture Notes in Mathematics, (2006) Volume 1890/2006
+* [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (sec. 1.4)
 
-  chapter 1 _Lawvere Distributions on Toposes_
-{#BungeFunk}
+* [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
 
 [[!redirects cosheaves]]
