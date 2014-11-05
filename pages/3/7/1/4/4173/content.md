@@ -33,6 +33,8 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * [[general covariance]]
 
+* [[equivalence principle (physics)]]
+
 [[!redirects General Relativity]]
 
 [[!redirects theory of general relativity]]
