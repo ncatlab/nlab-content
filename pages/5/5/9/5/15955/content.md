@@ -1,0 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Langlands functoriality is a generalization of Langlands conjectures that essentially tells us that a morphism between the L-groups of two reductive groups over $\Q$ should induce a transfer of (packets of) automorphic representations from the source group to the target group.
