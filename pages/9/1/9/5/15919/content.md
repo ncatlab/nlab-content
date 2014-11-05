@@ -36,7 +36,7 @@ to make if one works with rational coefficients, like in Beilinson's original
 paper on p-adic Hodge theory (i.e., with the `de Rham` period ring).
 It remains a challenging problem to combine the non-archimedean and archimedean
 information on Hodge theory without forgetting to take care of torsion phenomena in
-cohomology, that are very important. This may be doable if one follows the line
+cohomology, that are very important for the study of special values of L-functions. This may be doable if one follows the line
 of ideas used in Arakelov geometry, but formulated in a global analytic way. A very natural setting for this seems to be global [[strict analytic geometry]] over $\Z$ equipped with its archimedean norm.
 
 ## Related concepts
