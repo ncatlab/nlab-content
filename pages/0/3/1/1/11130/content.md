@@ -76,6 +76,10 @@ For a detailed analysis of how this general abstract concept indeed captures the
 
 ### The model theoretic perspective
 
+* [[Marta Bunge|M. Bunge]], _On the transfer of an abstract Nullstellensatz_ , Comm. Alg. **10** (1982) pp.1891-1906.
+
+* W. A. MacCaull, _Hilbert's Nullstellensatz revisited_ , JPAA **54** (1988) pp.289-297.
+
 * V. Weispfenning, _Nullstellens&#228;tze - a model theoretic framework_ , Z. Math. Logik Grundl. Math. **23** (1977) pp. 539-545. 
 
 ### In terms of cohesion
