@@ -32,7 +32,7 @@ We initiated the first 4 talks, which give a gentle introduction to the topic. T
 
 * Nov. 4, 2014: Prefactorization algebra by Chenchang. CG: Chap 2-3.
 
-* Nov. 11, 2014: Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
+* Nov. 11, 2014: Continuation of Chenchang's prefactorization. + Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
 
 * Nov. 18, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
 
