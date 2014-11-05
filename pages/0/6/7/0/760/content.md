@@ -18,9 +18,13 @@
 A **split monomorphism** in a [[category]] $C$ is a [[morphism]] $m\colon A \to B$ in $C$ such that there exists a morphism $r\colon B \to A$ such that the [[composite]] $r \circ m$ equals the [[identity morphism]] $1_A$.  Then the morphism $r$, which satisfies the [[duality|dual]] condition, is a __[[split epimorphism]]__.
 
 We say that:
+
 * $r$ is a __[[retraction]]__ of $m$,
+
 * $m$ is a __[[section]]__ of $r$,
+
 * $A$ is a __[[retract]]__ of $B$,
+
 * the pair $(r,m)$ is a __[[split idempotent|splitting]]__ of the [[idempotent]] $m \circ r\colon B \to B$.
 
 A split monomorphism in $C$ can be equivalently defined as a morphism $m\colon A \to B$ such that for every [[object]] $X\colon C$, the [[function]] $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$; the preimage of $1_A$ under $C(m,A)$ yields a retraction $r$.
@@ -45,6 +49,7 @@ In general, we can say that in an $(n,1)$-[[(n,1)-category|category]], a "split 
 
 
 [[!redirects split monomorphism]]
+
 [[!redirects split monomorphisms]]
 [[!redirects split mono]]
 [[!redirects split monos]]
