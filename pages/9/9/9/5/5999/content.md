@@ -14,7 +14,7 @@ If the morphisms in a category represent (sequences of) "rewriting" operations, 
 
 Another good property one might want to assume is termination, i.e. the lack of infinite chains of nonidentity arrows.
 
-As stated in the definition, the notion of confluence is perfectly sensible if we replace "category" by "[[directed graph]] (quiver)". However, it is also occasionally useful to strengthen the notion the notion of confluence so that commutativity of the resulting square holds in the category. An example is Mac Lane's proof of the coherence theorem for monoidal categories (as given in [[Cats Work]]), where the "rewrite" arrows are expanded (whiskered) instances of associativity morphisms $\alpha_{A B C}: (A \otimes B) \otimes C \to A \otimes (B \otimes C)$ (as opposed to their inverses). 
+As stated in the definition, the notion of confluence is perfectly sensible if we replace "category" by "[[directed graph]] (quiver)". However, it is also occasionally useful to strengthen the notion the notion of confluence so that commutativity of the resulting square holds in the category. An example is Mac Lane's proof of the coherence theorem for [[monoidal categories]] (as given in [[Categories Work]]), where the "rewrite" arrows are expanded (whiskered) instances of associativity morphisms $\alpha_{A B C}: (A \otimes B) \otimes C \to A \otimes (B \otimes C)$ (as opposed to their inverses) in a [[free object|free]] monoidal category. 
 
 
 ## Related pages
