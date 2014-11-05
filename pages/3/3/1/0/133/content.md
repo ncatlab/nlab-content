@@ -152,6 +152,8 @@ There are also "internal" versions of these axioms.
 
   (Here, UF, DC, CC, BP, and LM are as defined above.)
 
+* The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. 
+
 * Gon&#231;alo Gutierres da Concei&#231;&#227;o, _The Axiom of Countable Choice in Topology_, [pdf](http://www.mat.uc.pt/~ggutc/teses/teseingles.pdf)
 
   Despite the title, this covers more than countable choice, but the focus is on sequential aspects (metric spaces, first- and second-countable spaces, etc).
