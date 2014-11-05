@@ -16,7 +16,7 @@
 
 ## Idea
 
-The **symmetric topos** is the topos analogue of the [[symmetric algebra]] construction. Its importance stems from the property that for a Grothendieck topos $\mathcal{E}$ the symmetric topos $\Sigma\mathcal{E}$ classifies [[Lawvere distribution|topos distributions]] on $\mathcal{E}$.
+The **symmetric topos** is the topos analogue of the [[symmetric algebra]] construction. Its importance stems from the property that for a topos $\mathcal{E}$ the symmetric topos $\Sigma\mathcal{E}$ classifies [[Lawvere distribution|topos distributions]] on $\mathcal{E}$.
 
 ## Definition
 
