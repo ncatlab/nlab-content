@@ -45,6 +45,8 @@ of ideas used in Arakelov geometry, but formulated in a global analytic way. A v
 
 * [[global analytic geometry]]
 
+* [[arithmetic cryptography]]
+
 
 ## References
 
