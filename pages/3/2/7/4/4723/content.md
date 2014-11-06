@@ -58,6 +58,10 @@ given by $S^n = \{\vec x \in \mathbb{R}^n | \sum_i (x^i)^2 = 1\}$ and this induc
 
 But there may be other, non-equivalent smooth structures than these canonical ones. These are called [[exotic smooth structure]]s. See there for more details.
 
+## Related concepts
+
+* [[smooth structure on a topos]]
+
 ## References
 
 * [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
