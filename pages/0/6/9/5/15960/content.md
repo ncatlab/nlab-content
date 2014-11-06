@@ -1,0 +1,54 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Opetopic type theory_ ([Finster 12](#Finster12)) is a higher dimensional [[directed homotopy type theory|directed]] [[homotopy type theory|homotopy]] [[type theory]] to be thought of as the [[internal language]] of [[omega-categories]], i.e. of [[infinity-categories]] in the full sense of [[(infinity,infinity)-categories]]. 
+
+Where in [[homotopy type theory]] there is an [[identity type]] of any type axiomatizing the [[infinity-groupoid]] structure of that type in, effectively, the style of a [[globular omega-groupoid]], in opetopic type theory there is axiomatized instead a type of [[k-morphisms]] for all $k$ in the [[geometric shape for higher structures|shape]] of [[opetopes]].
+
+Hence given a base type $\mathbf{B}\mathcal{U}$ -- and a priori there is just one, to be thought of as the categorically delooped [[type universe]], see below  -- a type is thus effectively identified with the shape of an [[opetope]] and thought of as the type of [[k-morphisms]] in $\mathbf{B}\mathcal{U}$, the only other data being a possible marking that identifies it as just the sub-type of $k$-[[equivalences]] of the given opetopic shape.
+
+The only [[natural deduction|deduction rule]] is opetopic [[type formation]] and a [[term introduction]] rule which expresses the evident [[Kan complex|Kan filler-like]] condition saying that if a term of given opetopic shape is an outer [[horn]] (here: a "nook") of $k$-cells, then a $k$-dimensional filler term is deduced, and if an outer or inner [[horn]] has a boundary by equivalences then a filler term marked as an equivalence is deduced.
+
+Due to the genuinely [[infinity-category|omega-categorical]] nature of the setup, it makes sense to think of the (a priori) unique base type $\mathbf{B}\mathcal{U}$ as the categorical [[delooping]] of a [[type universe]] $\mathcal{U}^\times$ being a [[monoidal (infinity,n)-category]] [[omega-category]], and hence of the 1-[[endomorphisms]] (hence the terms of shape the [[interval category|directed interval]]  $(\mathbf{B}\mathcal{U}\to \mathbf{B}\mathcal{U})$ ) as being the [[types]] in that universe. Composition of 1-morphism hence implies a [[type formation]] for [[multiplicative conjunction]]-types in a directed kind of [[linear homotopy type theory]].
+
+Introducing an [[axiom]] to this system just means postulating terms of (the type of) the shape of prescribed [[opetopes]]. For example: 
+
+* **$n$-trunction** -- For the language inside an [[(infinity,n)-category]] one demands that all [[k-morphisms]] for $k \geq n+1$ are marked as [[equivalences]];
+
+* **$k$-adjoints** -- To axiomatize that two $k$-morphism are [[left adjoint]] and [[right adjoint]] to each other, respectively, one postulates the existence of $k+1$-morphisms serving as [[unit of an adjunction]] and [[counit of an adjunction]] and of a [[3-morphism]] marked as [[equivalence]] which axiomatizes the [[zig-zag identities]].
+
+Imposing $n$-trunction and adjoints for all [[k-morphisms]] for $0 \leq k \leq n$ therefore axiomatizes the language for a [[free construction|free]] [[(infinity,n)-category with adjoints]] on a single object. Categorical looping (which is immediate and primitive in the system, as above) hence gives the [[free construction|free]] [[(infinity,n)-category with duals]] on a single object. 
+
+This is the structure to which the [[cobordism hypothesis]] applies. Of course the proof of the cobordism hypothesis is not formulated in opetopic type theory and one would have to show that the language it is formulated in is suitably equivalent to that of opetopic type theory, but inspection in low dimension shows that the [[higher dimensional traces]] that opetopic type theory produces are of just the right kind.
+
+
+## References
+
+Opetopic type theory is due to
+
+* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
+
+* [[Eric Finster]], _[Opetope!](http://sma.epfl.ch/~finster/opetope/opetope.html)_ (online opetopic type theory system)
+
+This builds on a result in
+
+* [[Thorsten Palm]], ...
+
