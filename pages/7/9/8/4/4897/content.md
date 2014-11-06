@@ -43,9 +43,13 @@ We list archives of **online** books and videos, not the catalogues of physical 
 
 * [journal list](http://www.ams.org/dmr/JournalList.html) at Amer. Math. Soc. digital mathematical registry; and [source list](http://www.ams.org/dmr/SourceList.html) (publishers and organizations behind sci journals)
 
-* *huge* MPIM list of [electronic journals](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=MPIMA&colors=3&lang=en&notation=SA-SP) -- most are  available only locally, but many free ones listed as well
+* [Matematicheskie Zametki](http://www.mathnet.ru/php/journal.phtml?jrnid=mzm&option_lang=eng): Mathematical Journal published by Russian Academy of Sciences containing research work discussing [vedic maths tricks] (http://mental-maths-trick.blogspot.com/2011/10/do-super-quick-maths-calculation-using.html) and [whitepaper] (http://magazine.amstat.org/blog/2011/05/01/white-paper/).
 
 * Polish virtual [math library](http://matwbn.icm.edu.pl/index.php?jez=en) (cf. semi-commercial [impan journals](http://journals.impan.gov.pl)) -- Polish journals
+
+
+* *huge* MPIM list of [electronic journals](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=MPIMA&colors=3&lang=en&notation=SA-SP) -- most are  available only locally, but many free ones listed as well
+
 
 * [lib.mexmat.ru](http://lib.mexmat.ru) Moscow MexMat electronic library: most items available only locally, however some items and the indexes are available
 
