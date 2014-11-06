@@ -15,9 +15,13 @@
 
 ## Idea
 
-What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theory]], _directed homotopy type theory_ is for [[directed homotopy theory]]/[[(∞,n)-category]] [[higher category theory|theory]].
+What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theory]], _directed homotopy type theory_ is (or should be) for [[directed homotopy theory]]/[[(∞,n)-category]] [[higher category theory|theory]].
+
+One candidate for full [[omega-categories]] i.e. [[(∞,?)-categories]] is _[[opetopic type theory]]_.
 
 ## Related concepts
+
+* [[opetopic type theory]]
 
 * [[semi-simplicial type]]
 
