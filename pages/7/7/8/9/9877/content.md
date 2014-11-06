@@ -1,4 +1,9 @@
 
 * [webpage](http://sma.epfl.ch/~finster/)
 
+## related $n$Lab pages
+
+
+* [[opetopic type theory]]
+
 category: people
