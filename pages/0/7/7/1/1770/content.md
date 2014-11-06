@@ -1,3 +1,4 @@
+[[!redirects smooth space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -25,6 +26,17 @@ Following the logic of [[space and quantity]], a _smooth space_ is, in full gene
 See [[generalized smooth space]] for more on the general idea and for examples and variations.
 
 Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth [[open balls]] $D^n_{int} \subset \mathbb{R}^n$ or equivalently [[Cartesian spaces]] $\mathbb{R}^n$, one may just as well consider Cartesian spaces test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
+
++-- {: .num_remark}
+###### Remark
+**Note on terminology.** 
+
+In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]".
+
+Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
+
+=--
+
 
 
 ## Definition
