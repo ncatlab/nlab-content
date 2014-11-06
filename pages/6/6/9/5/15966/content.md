@@ -1,0 +1,23 @@
+#Contents#
+* table of contents
+{:toc}
+
+## A new formulation for classical index theory
+
+Classical real or complex analytic [[index theory]] may be described as a setting that contains both:
+
+* Riemann-Roch type theorems, such as Bismut's Riemann-Roch theorem for a general smooth proper morphism of complex analytic spaces, Grothendieck's Riemann-Roch theorem for a morphism of schemes, or Riou's motivic Riemann-Roch theorem for a projective morphism of schemes, and
+
+* Index theorems for elliptic operators or elliptic complexes on real analytic manifolds (that actually also give Riemann-Roch results, when the elliptic complex is induced by the $\bar{\partial}$-operator on differential forms).
+
+* Equivariant Atiyah-Singer index theorems and noncommutative Connes-Moscovisci local index theorems.
+
+One may formulate many of these results in an essentially unified setting by using index theory on derived analytic stacks over $\mathbb{R}$ or $\mathbb{C}$.
+
+## The challenge of global analytic index theory
+
+Global analytic index theory should give a setting for index theory on [[global analytic spaces]] that gives back usual index theorems when one works over $\mathbb{C}$ or $\mathbb{R}$, but that gives new interesting theorems when one works with analytic spaces or even analytic stacks over $\mathbb{Z}$ equipped with its archimedean norm. It should also give back the p-adic index theorems of Christol-Mebkhout when one works in a Frobenius-equivariant setting over $\mathbb{Z}_p$ or $\mathbb{Q}_p$.
+
+The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion.
+
+The microlocalization in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Z\subset X$ of global analytic spaces (or even stacks). Simpson's construction of the deformation to the normal bundle of the diagonal $X\subset X\times X$ may easily be extended to this more general situation.
