@@ -278,10 +278,9 @@ Discussion in [[topos theory]] is in
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], section VI.8 of _[[Sheaves in Geometry and Logic]]_
 
-* M. P. Fourman, _Comparaison des Re&#233;ls d'un Topos - Structures Lisses
-sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
+* {#Fourman75} [[Michael Fourman]], _Comparaison des Re&#233;ls d'un Topos - Structures Lisses sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ( _Colloque Amiens 1975 proceedings_ ) (p. 18-24 in [NUMDAM](http://www.numdam.org/item?id=CTGDC_1975__16_3_217_0)))
 
-* M. P. Fourman, [[Martin Hyland|M. Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+* [[Michael Fourman]], [[Martin Hyland|M. Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf), 6.64 MB)
 
 * L. Stout, _Unpleasant Properties of the Reals in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.320-322. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
@@ -298,3 +297,10 @@ Discussion in [[homotopy type theory]] is in
 [[!redirects real number objects in a topos]]
 [[!redirects real number objects in toposes]]
 [[!redirects real number objects in topoi]]
+
+[[!redirects Dedekind real number object]]
+[[!redirects Dedekind real number objects]]
+
+[[!redirects Cauchy real number object]]
+[[!redirects Cauchy real number objects]]
+
