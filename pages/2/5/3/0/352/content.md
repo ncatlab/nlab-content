@@ -86,10 +86,7 @@ For a very gentle introduction to notions of higher categories, try [The Tale of
 
 For a slightly more formal but still pathetically easy introduction, try:
 
-* John Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in
-<em>7th Conference on Category Theory and Computer Science</em>, eds.
-E. Moggi and G. Rosolini, Springer Lecture Notes in
-Computer Science vol. 1290, Springer, Berlin, 1997. 
+* [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in <em>7th Conference on Category Theory and Computer Science</em>, eds. E. Moggi and G. Rosolini, Springer Lecture Notes in Computer Science vol. 1290, Springer, Berlin, 1997. 
 
 For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
 
@@ -101,7 +98,7 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-
+For a [[syntax|syntactic]] definition in terms of [[opetopic type theory]] see there.
 
 
 
@@ -111,3 +108,11 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 [[!redirects ∞-categories]]
 [[!redirects $\infty$-category]]
 [[!redirects $\infty$-categories]]
+
+[[!redirects (infinity,infinity)-category]]
+[[!redirects (infinity,infinity)-categories]]
+
+[[!redirects (∞,?)-category]]
+[[!redirects (∞,?)-categories]]
+
+
