@@ -390,7 +390,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Wild About Math](http://wildaboutmath.com/)
 
-* [Mental Maths Games For 11 Year Olds](http://mental-maths-trick.blogspot.com/2014/11/mental-maths-aged-11-years)
+* [Mental Maths Games For 11 Year Olds](http://mental-maths-trick.blogspot.com/2014/11/mental-maths-aged-11-years-old-fun.html)
 
 * [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
 
