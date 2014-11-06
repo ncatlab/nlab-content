@@ -63,6 +63,7 @@ Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|c
 
 (The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
+The category of metric spaces and categories of random maps as generalised metric spaces were studied by Lawvere's student [[Xiao-qing Meng]] in [[#Meng_phd]]
 
 ## Motivation for the axioms 
 
@@ -113,6 +114,10 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 * [[metric jet]] -- a notion of "tangency" for maps of metric spaces
 
 [[!include generalized uniform structures - table]]
+
+## References
+
+[[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]])
 
 
 [[!redirects metric space]]
