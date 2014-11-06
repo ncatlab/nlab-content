@@ -18,9 +18,8 @@
 
 Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]] put forward by [[John Baez]] and [[James Dolan]].
 
-
-
-
+A [[syntax|syntactic]] formalization of opetopes and of [[omega]-categories]] modeled on opetopic shapes exists in the form of _[[opetopic type theory]]_.
+ 
 ## References ##
 
 An overview is in [chapter 4](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=63) of 
@@ -68,9 +67,9 @@ She has also shown that opetopic [[bicategories]] are "the same" as the ordinary
 
 * [[Eugenia Cheng]], Opetopic bicategories: comparison with the classical theory.  ([arXiv](http://arxiv.org/abs/math/0304285))
 
-A formalization of the definition of opetotes in [[type theory]] is in 
+A formalization of the definition of opetotes in [[opetopic type theory]] is in 
 
-* [[Eric Finster]], _Type theory and the opetopes_, HDACT Ljubljana, June 2012 ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
+* [[Eric Finster]], _Type theory and the opetopes_, talk at HDACT Ljubljana, June 2012 ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
 
 [[!redirects opetopic set]]
 [[!redirects opetopic n-category]]
