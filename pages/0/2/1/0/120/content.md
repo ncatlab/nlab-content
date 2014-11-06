@@ -63,6 +63,8 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[principle of equivalence]]
 
+* [[identity morphism]]
+
 * [[identity type]]
 
 * [[identity of indiscernibles]]
