@@ -27,6 +27,10 @@ How strict the $\omega$-category and the inverses must be can vary. Somes author
 
 * [[Grothendieck-Maltsiniotis omega-groupoid]]
 
+* [[opetopic type theory]]
+
 [[!redirects omega-groupoids]]
 [[!redirects ∞-groupoid]]
 [[!redirects ∞-groupoids]]
+
+[[!redirects globular omega-groupoid]]
