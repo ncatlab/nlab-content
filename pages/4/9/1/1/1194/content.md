@@ -548,6 +548,10 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[homotopy type theory]]
 
+* [[directed homotopy type theory]]
+
+  [[opetopic type theory]]
+
 
 [[!include notions of type]]
 
