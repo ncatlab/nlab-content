@@ -281,6 +281,8 @@ Discussion in [[topos theory]] is in
 * M. P. Fourman, _Comparaison des Re&#233;ls d'un Topos - Structures Lisses
 sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
+* M. P. Fourman, [[Martin Hyland|M. Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+
 * L. Stout, _Unpleasant Properties of the Reals in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.320-322. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
 * L. N. Stout, _Topological Properties of the Real Numbers Object in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **17** no.3 (1976) pp.295-326. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_3/CTGDC_1976__17_3_295_0/CTGDC_1976__17_3_295_0.pdf))
