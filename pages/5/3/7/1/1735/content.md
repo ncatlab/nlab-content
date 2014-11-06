@@ -16,9 +16,9 @@
 
 ## Idea ##
 
-Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]] put forward by [[John Baez]] and [[James Dolan]].
+Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]] put forward in ([Baez-Dolan 97](#BaezDolan97)).
 
-A [[syntax|syntactic]] formalization of opetopes and of [[omega]-categories]] modeled on opetopic shapes exists in the form of _[[opetopic type theory]]_.
+A [[syntax|syntactic]] formalization of opetopes and of [[omega]-categories]] modeled on opetopic shapes exists in the form of _[[opetopic type theory]]_ ([Finster 12](#Finster12)).
  
 ## References ##
 
@@ -32,10 +32,8 @@ and in chapter 7 of
 
 Opetopes were introduced here:
 
-* [[John Baez]] and [[James Dolan]], Higher-dimensional algebra
-III: $n$-categories and the algebra of opetopes,
-_Adv. Math._ **135** (1998), 145--206.
-([arXiv](http://arxiv.org/abs/q-alg/9702014))
+* {#BaezDolan97} [[John Baez]], [[James Dolan]], Higher-dimensional algebra
+III: $n$-categories and the algebra of opetopes, _Adv. Math._ **135** (1998), 145--206. ([arXiv:q-alg/9702014](http://arxiv.org/abs/q-alg/9702014))
 
 Some mistakes were corrected in subsequent papers:
 
@@ -69,7 +67,7 @@ She has also shown that opetopic [[bicategories]] are "the same" as the ordinary
 
 A formalization of the definition of opetotes in [[opetopic type theory]] is in 
 
-* [[Eric Finster]], _Type theory and the opetopes_, talk at HDACT Ljubljana, June 2012 ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
+* {#Finster12} [[Eric Finster]], _Type theory and the opetopes_, talk at HDACT Ljubljana, June 2012 ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
 
 [[!redirects opetopic set]]
 [[!redirects opetopic n-category]]
