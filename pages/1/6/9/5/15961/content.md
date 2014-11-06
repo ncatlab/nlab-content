@@ -1,0 +1,9 @@
+
+
+* [Mathematics Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=97399)
+
+## related $n$Lab entries
+
+* [[opetopic type theory]]
+
+category: people
