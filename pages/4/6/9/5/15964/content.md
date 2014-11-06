@@ -86,12 +86,13 @@ in the topos $\mathbf{H}$ is called a _standard function_, precisely if
 
 This is ([Fourman 75, def. 3.6](#Fourman75)).
 
-Define an [[equivalence relation]] on $\mathbb{R}_D^n$ by taking to elements to be equivalent if there are standard functions, def. \ref{StandardFunction}, taking them into each other:
+Define an [[equivalence relation]] on $\mathbb{R}_D^n$ by taking to elements to be equivalent if there are smooth standard functions, def. \ref{StandardFunction}, taking them into each other:
 
 $$
+  \vdash 
   (r \simeq s)
   \coloneqq
-  \underset{f,g \; standard\;functions}{\exists}
+  \underset{{f,g } \atop {smooth \; standard\;functions}}{\exists}
   \left( 
      \left(
        f(r) = s
@@ -104,6 +105,7 @@ $$
   \,.
 $$
 
+Here "smooth standard functions" are [[smooth functions]] in the [[internal logic]] of $\mathbf{H}$.
 
 +-- {: .num_defn #SmoothStructureDimN}
 ###### Definition
@@ -116,12 +118,14 @@ $$
 such that
 
 $$
-  \underset{\vec s \in S}{\exists}
+  \vdash
+  \;
+  \underset{{\vec s}_0 \in S}{\exists}
   \underset{\vec x \in \mathbb{R}_D^n}{\forall}
   \left(
      \left(\vec x \in S\right)
      \Leftrightarrow
-     \left(\vec x \simeq \vec s\right)
+     \left(\vec x \simeq {\vec s}_0\right)
   \right)
   \,.
 $$
@@ -130,13 +134,42 @@ $$
 
 This is ([Fourman 75, def. 4.1](#Fourman75)).
 
++-- {: .num_defn}
+###### Definition
+
+Given a smooth structure $S$ of dimension $n$ on the topos $\mathbf{H}$ according to def. \ref{SmoothStructureDimN}, then the _smooth real number object_ is the [[subobject]]
+
+$$
+  \mathbb{R}_S \hookrightarrow \mathbb{R}_D
+$$
+
+given by
+
+$$
+  \mathbb{R}_D
+  \coloneqq
+  \left\{
+    x \in \mathbb{R}_D
+    \;|\;
+    \underset{{smooth \; standard\;funct.}\atop{\mathbb{R}_D^n \stackrel{f}{\to} \mathbb{R}_D}}{\exists}
+    \underset{s \in S}{\exists}
+    (x = f(s))  
+  \right\}
+  \,.
+$$
+
+=--
+
+This is ([Fourman 75, def. 4.4](#Fourman75)).
+
+
 ## Examples
 
 +-- {: .num_example}
 ###### Example
 
 For $X$ a [[smooth manifold]] of [[dimension]] $n$, with [[sheaf topos]] $\mathb{H} \coloneqq Sh(X)$, then the [[sheaf]] $S$ of local [[coordinate systems]]
-is a smooth structure on $Sh(X)$ (of dimension $n$, presumeably), according to def. \ref{SmoothStructureDimN}.
+is a smooth structure on $Sh(X)$ of dimension $n$, according to def. \ref{SmoothStructureDimN}.
 
 =--
 
