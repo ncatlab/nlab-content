@@ -35,6 +35,7 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 * [[real number]]
 * [[p-adic number]]
 
+* [[rational numbers object]]
 
 [[!redirects rational number]]
 [[!redirects rational numbers]]
