@@ -104,6 +104,8 @@ Alternative or complementary approaches are
 
 * [[J. Bénabou]], _Fibered Categories and the foundations of naive category theory_ , JSL **50** (1985) pp.10-37. ([preprint](http://www.cwru.edu/artsci/phil/Benabou%20Fibered.pdf))
 
+* G. Blanc, , _Propri&#233;t&#233;s du Premier Ordre et Cat&#233;gories_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.222-224. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
+
 * G. Blanc, M. R. Donnadieu, _Axiomatisation de la cat&#233;gorie des cat&#233;gories_ , Cah.Top.G&#233;om.Diff.Cat. **XVII** no. 2 (1976) pp.1-35. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_2/CTGDC_1976__17_2_135_0/CTGDC_1976__17_2_135_0.pdf))
 
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
