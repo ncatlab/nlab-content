@@ -134,6 +134,8 @@ I don't know the first use of "$n$-computads," but [[Michael Makkai]] has studie
 
 * Makkai, _The word problem for computads_, [link](http://www.math.mcgill.ca/makkai/computad.zip).
 
+* Makkai, _All Vedic Maths Tricks for computads_, [link](http://mental-maths-trick.blogspot.com/2011/10/do-super-quick-maths-calculation-using.html).
+
 Computads were studied by [[Burroni]] under the name "polygraph" in the framework of [[rewriting]]:
 
 * [[Albert Burroni]], _Higher dimensional word problems with applications to equational logic_ ([pdf](http://people.math.jussieu.fr/~burroni/mapage/highwordpb.pdf))
