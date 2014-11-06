@@ -20,11 +20,9 @@
 
 ## Idea 
 
-The **Cobordism Hypothesis** states, roughly, that the [[(∞,n)-category of cobordisms]] $Bord_n$ is the 
-[[free functor|free]] [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] on a single object.
+The **Cobordism Hypothesis** states, roughly, that the [[(∞,n)-category of cobordisms]] $Bord_n^{fr}$ is the  [[free functor|free]] [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] on a single object.
 
 Since a fully [[extended topological quantum field theory]] may be identified with an [[monoidal (∞,n)-functor|monoidal]] [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
-
 
 
 As motivation, notice that by [Galatius-Tillmann-Madsen- 09Weiss](cobordism+category#GMWT) we have that the [[loop space]] of the [[geometric realization]] of the [[framed manifold|framed]] [[cobordism category]] is equivalent to the [[sphere spectrum]]
@@ -763,6 +761,8 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 * [[generalized tangle hypothesis]]
 
 * [[conformal cobordism category]]
+
+* [[opetopic type theory]]
 
 [[!include Isbell duality - table]]
 
