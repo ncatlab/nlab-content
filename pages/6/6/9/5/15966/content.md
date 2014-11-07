@@ -42,10 +42,10 @@ which clearly has an interesting meaning only in the setting of derived geometry
 
 The deformation to the normal bundle in strict derived global analytic geometry is then simply given by
 $$
-\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\;f(0,1)\in Y\},
+\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\;f(0,1)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\},
 $$
 which means more precisely the homotopy pullback
-More concretely, this is given by the homotopy pullback
+More concretely (false but to be corrected tonight), this is given by the homotopy pullback
 $$
 \array{
     \widetilde{L_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
@@ -55,4 +55,4 @@ $$
     Y\times Y &\to& X\times X
 }
 $$
-It has a natural projection $p:\widetilde{L_Y X}\to D^1$.
+It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$ and a natural projection $p:\widetilde{L_Y X}\to \Hom(\Delta^1,X)\sim X$ given by $p(f)=f(-,1):\Delta^1\to X$.
