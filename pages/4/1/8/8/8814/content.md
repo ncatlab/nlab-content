@@ -41,6 +41,8 @@
 
   * [[Hirzebruch-Riemann-Roch theorem]]
 
+  * [[global analytic index theory]]
+
   * [[Hirzebruch signature theorem]]
 
 * [[Mishchenko-Fomenko index theorem]]
