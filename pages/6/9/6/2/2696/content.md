@@ -44,13 +44,12 @@ In the [[(∞,1)-category]] [[? Grpd]] every [[weak homotopy equivalence]] is a 
 
 =--
 
-The analogous statement is also true in [[stable homotopy theory]]. A morphism of [[spectra]] which induces an isomorphism of all homotopy group $\pi_n$ of spectra for $n \in \mathbb{Z}$ is an equivalencein the [[(∞,1)-category of spectra]], hence is an isomorphism in the [[stable homotopy category]].
 
 ## In general $(\infty,1)$-toposes 
 
-There is a notion of [[homotopy group]]s for objects in every [[∞-stack]] [[(∞,1)-topos]], as described at [[homotopy group (of an ∞-stack)]]. Accordingly, there is a notion of [[weak homotopy equivalence]] in every [[∞-stack]] [[(∞,1)-topos]] and hence an analog of the statement of Whiteheads theorem. One finds that
+There is a notion of [[homotopy groups]] for objects in every [[∞-stack]] [[(∞,1)-topos]], as described at [[homotopy group (of an ∞-stack)]]. Accordingly, there is a notion of [[weak homotopy equivalence]] in every [[∞-stack]] [[(∞,1)-topos]] and hence an analog of the statement of Whiteheads theorem. One finds that
 
-**Warning** Whitehead's theorem **fails** for general [[(∞,1)-topos]]es and non-[[truncated object in an (infinity,1)-category|truncated]] objects.
+**Warning** Whitehead's theorem **fails** for general [[(∞,1)-toposes]] and non-[[truncated object in an (infinity,1)-category|truncated]] objects.
 
 The [[∞-stack]] [[(∞,1)-topos]]es in which the Whitehead theorem does hold are the [[hypercomplete (∞,1)-topos]]es. These are precisely the ones that are [[presentable (∞,1)-category|presented]] by a local [[model structure on simplicial presheaves]]. 
 
