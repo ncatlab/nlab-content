@@ -1,3 +1,5 @@
+[[!redirects global analytic index theory]]
+
 #Contents#
 * table of contents
 {:toc}
