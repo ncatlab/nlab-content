@@ -182,5 +182,5 @@ See the references at _[[model category]]_. For instance
 [[!redirects right Quillen functors]]
 [[!redirects left Quillen functors]]
 
-[[!redircts Quillen functor]]
-[[!redircts Quillen functors]]
+[[!redirects Quillen functor]]
+[[!redirects Quillen functors]]
