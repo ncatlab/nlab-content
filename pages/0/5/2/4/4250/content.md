@@ -49,7 +49,7 @@ which is restriction to the basepoint. This morphism may be regarded as an objec
 
 ### Of objects
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(categorical homotopy groups)**
 
@@ -90,13 +90,13 @@ $$
   \pi_n(X) \times \pi_n(X) \to \pi_n(X)
 $$
 
-is the [[sheaf topos]] $\tau_{\leq 0} \mathbf{H}_{/X}$. By the usual argument aboiut [[homotopy group]]s, these are trivial for $n = 0$ and [[abelian group|abelian]] for $n \geq 2$.
+is the [[sheaf topos]] $\tau_{\leq 0} \mathbf{H}_{/X}$. By the usual argument about [[homotopy group]]s, these are trivial for $n = 0$ and [[abelian group|abelian]] for $n \geq 2$.
 
 ### Of morphisms
 
 It is frequently useful to speak of homotopy groups of a [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(homotopy groups of morphisms)**
 
@@ -105,6 +105,7 @@ For $f : X \to Y$ a [[morphism]] in an [[(∞,1)-topos]] $\mathbf{H}$, its _homo
 =--
 
 So the homotopy sheaf $\pi_n(f)$ of a morphism $f$ is an object of the [[over quasi-category|over (∞,1)-category]] $Disc((\mathbf{H}_{/Y})_{/f}) \simeq Disc(\mathbf{H}_{/f})$. This in turn is equivalent to $\cdots \simeq \mathbf{H}_{/X}$ by the map that sends an object
+
 
 $$
   \array{
@@ -131,11 +132,19 @@ $$
 
 The intuition is that the homotopy sheaf $\pi_n(f) \in Disc(\mathbf{H}_{/X})$ over a basepoint $x : * \in X$ is the homotopy group of the [[nLab:homotopy fiber]] of $f$ containing $x$ at $x$.
 
-**Examples** 
++-- {: .num_example}
+###### Example
 
 If $Y = *$ then there is an essentially unique morphism $f : X \to *$ whose [[homotopy fiber]] is $X$ itself. Accordingly $\pi_n(f) \simeq \pi_n(X)$.
 
+=--
+
++-- {: .num_example}
+###### Example
+
 If $X = *$ then the morphism $f : * \to Y$ is a point in $Y$ and the single [[homotopy fiber]] of $f$ is the [[loop space object]] $\Omega_f Y$.
+
+=--
 
 ## Properties
 
@@ -148,7 +157,7 @@ For the case that $\mathbf{H} = $ [[∞Grpd]] $\simeq$ [[Top]], the $(\infty,1)$
 The  definition of the homotopy groups of a morphism $f : X \to Y$
 is equivalent to the following recursive definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition/Proposition
 **(recursive homotopy groups of morphisms)**
 
@@ -179,7 +188,7 @@ $$
   \,.
 $$
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Given a sequence of morphisms $X \stackrel{f}{\to}Y \stackrel{g}{\to} Z$ in $\mathbf{H}$, there is a [[long exact sequence]]
@@ -207,10 +216,10 @@ This is [[Higher Topos Theory|HTT, remark 6.5.1.5]].
 
 ### Behaviour under geometric morphisms
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
-Geometirc morphisms of $(\infty,1)$-topos preserve homotopy groups.
+Geometric morphisms of $(\infty,1)$-topos preserve homotopy groups.
 
 If $k : \mathbf{H} \to \mathbf{K}$ is a [[geometric morphism]] of $(\infty,1)$-toposes then for $f : X \to Y$ any morphism in $\mathbf{H}$ there is a canonical [[isomorphism]]
 
@@ -275,7 +284,7 @@ The intrinsic $(\infty,1)$-theoretic description is the topic of section 6.5.1 o
 
 The model in terms of the [[model structure on simplicial presheaves]] is duscussed for instance in
 
-* Jardine, _Simplicial presheaves_ ([page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4))
+* [[Rick Jardine]], _Simplicial presheaves_ ([page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4))
 
 
 [[!redirects categorical homotopy groups in an (∞,1)-topos]]
