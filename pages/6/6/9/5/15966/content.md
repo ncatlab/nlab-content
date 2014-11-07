@@ -46,7 +46,7 @@ The deformation to the normal bundle in strict derived global analytic geometry 
 $$
 \widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)=f(1,0)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
 $$
-More concretely (false but to be corrected tonight), this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$)
+More concretely (maybe false, but to be corrected), this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$)
 $$
 \array{
     \widetilde{L_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
@@ -56,4 +56,4 @@ $$
     Y\times \Hom(\Delta^1\times U(1),(X\backslash Y)) &\stackrel{\Delta\times i}{\to}& X\times X\times \Hom(\Delta^1\times U(1),X)
 }
 $$
-It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$ and a natural projection $p:\widetilde{L_Y X}\to \Hom(\Delta^1,X)\sim X$ given by $p(f)=f(-,1):\Delta^1\to X$.
+It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$.
