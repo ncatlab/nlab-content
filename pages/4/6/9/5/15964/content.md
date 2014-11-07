@@ -165,4 +165,4 @@ For $\mathbf{H}=Sh(X)$, such a global section is a continuous map $h:X\to \mathb
 
 ## References
 
-* {#Fourman75} [[Michael Fourman]], _Comparaison des Re&#233;ls d'un Topos - Structures Lisses sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ( _Colloque Amiens 1975 proceedings_ ) (p. 18-24 in [NUMDAM](http://www.numdam.org/item?id=CTGDC_1975__16_3_217_0)))
+* {#Fourman75} [[Michael Fourman]], _Comparaison des R&#233;els d'un Topos - Structures Lisses sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ( _Colloque Amiens 1975 proceedings_ ) (p. 18-24 in [NUMDAM](http://www.numdam.org/item?id=CTGDC_1975__16_3_217_0)))
