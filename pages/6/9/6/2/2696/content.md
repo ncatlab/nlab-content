@@ -44,6 +44,7 @@ In the [[(∞,1)-category]] [[? Grpd]] every [[weak homotopy equivalence]] is a 
 
 =--
 
+The analogous statement is also true in [[stable homotopy theory]]. A morphism of [[spectra]] which induces an isomorphism of all homotopy group $\pi_n$ of spectra for $n \in \mathbb{Z}$ is an equivalencein the [[(∞,1)-category of spectra]], hence is an isomorphism in the [[stable homotopy category]].
 
 ## In general $(\infty,1)$-toposes 
 
