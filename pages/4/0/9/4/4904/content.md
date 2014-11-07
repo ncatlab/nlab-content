@@ -169,6 +169,7 @@ A [[simplicial ring]]s is a simplicial $T$-algebras for $T$ the Lawvere theory o
 Let $k$ be an ordinary commutative ring and $T$ the theory of commutative [[associative algebra]]s over $k$. We write $T Alg$ as $sCAlg_k$ or $CAlg_k^{op}$.
 
 Such simplicial $k$-algebras are discussed for instance in ([To&#235;nVezzosi, section 2.2.1](#ToenVezzosi)).
+According to ([Schwede 97](#Schwede97), Lemma 3.1.3), this model structure is [[proper model category|proper]].
 
 ### Simplicial Lie algebras
 
@@ -203,13 +204,17 @@ See at _[[model structure on simplicial Lie algebras]]_.
 
 ## References
 
-The classical reference for the transferred model structure on simplicial $T$-algebras is
+The classical reference for the [[transferred model structure]] on simplicial $T$-algebras is
 
 * [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
 
 The simplicial model structure on ordinary simplicial algebras is in
 
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/ucnotes.pdf))
+
+Some more details on this model structure are in section 3.1 of
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997), pp. 77-104, [pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf).
 
 In 
 
