@@ -19,42 +19,46 @@
 
 
 +-- {: .rightHandSide}
-> Devinette: Trouver un point commun entre la Samaritaine et [[SGA4|SGA 4]].[^CM] 
+> Devinette: Trouver un point commun entre la Samaritaine et [[SGA4|SGA 4]].[^CM] {#quot}
 =--
 
 ##Idea##
 
 In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories|(algebraic) theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
 
-Basic ingredients are pairs of [[geometric theories]] $S$ and $T$ over the same [[language]] such that $T$ results from $S$ by addition of further [[axioms]]. Then $T-Mod_\mathcal{E}$ is a [[full subcategory]] of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretic flavor.
+Basic ingredients are pairs of [[geometric theories]] $\mathbb{S}$ and $\mathbb{T}$ over the same [[language]] such that $\mathbb{T}$ results from $\mathbb{S}$ by addition of further [[axioms]]. Then $\mathbb{T}-Mod_\mathcal{E}$ is a [[full subcategory]] of $\mathbb{S}-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretic flavor.
 
 ###Definition###
 
-Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _[[T-modelled toposes]]_ is given as follows: 
+Let $\mathbb{T}$ be [[geometric theory]]. The 2-category $\mathbb{T}-\mathfrak{Top}$ of _[[T-modelled toposes]]_ is given as follows: 
 
-* objects are pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
+* objects are pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $\mathbb{T}$-model in $\mathcal{E}$, 
 
-* 1-cells $(\mathcal{F},L)\to (\mathcal{E},M)$ are pairs $(p,f)$ with $p:\mathcal{F}\to\mathcal{E}$ a geometric morphism and $f:p^*M\to L$ a $T$-model homomorphism, and 
+* 1-cells $(\mathcal{F},L)\to (\mathcal{E},M)$ are pairs $(p,f)$ with $p:\mathcal{F}\to\mathcal{E}$ a geometric morphism and $f:p^*M\to L$ a $\mathbb{T}$-model homomorphism, and 
 
 * 2-cells $(p,f)\to(q,g)$ are [[natural transformations]] $\eta:p\to q$ such that $f=g\circ\eta_M$.
 
-$T-\mathfrak{Top}_N$ is the full sub-2-category on pairs $(\mathcal{E},M)$ such that $\mathcal{E}$ has a [[natural numbers object]].
+$\mathbb{T}-\mathfrak{Top}_N$ is the full sub-2-category on pairs $(\mathcal{E},M)$ such that $\mathcal{E}$ has a [[natural numbers object]].
 
 ###Definition###
 
-Let $T$ be a (geometric) quotient theory of $S$. A class $A$ of $T$-model morphisms is called _admissible_ if
+Let $\mathbb{T}$ be a (geometric) quotient theory of $\mathbb{S}$. A class $\mathbb{A}$ of $\mathbb{T}$-model morphisms is called _admissible_ if
 
-* $A$ is closed under [[inverse image functor|inverse image functors]]: $p^*f\in A$ for $f\in A$.
+* $\mathbb{A}$ is closed under [[inverse image functor|inverse image functors]]: $p^*f\in \mathbb{A}$ for $f\in \mathbb{A}$.
 
-* $A$ contains all identity morphisms and given $g\in A$ and composable $f$ : $f\in A$ iff $gf\in A$.
+* $\mathbb{A}$ contains all identity morphisms and given $g\in \mathbb{A}$ and composable $f$ : $f\in \mathbb{A}$ iff $gf\in \mathbb{A}$.
 
-* Given an $S$-model morphism $f:M\to L$ with $L$ a $T$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ with $M_f$ a $T$-model and $\hat{f}\in A$, such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
+* Given an $\mathbb{S}$-model morphism $f:M\to L$ with $L$ a $\mathbb{T}$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ with $M_f$ a $\mathbb{T}$-model and $\hat{f}\in \mathbb{A}$, such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
 
-The sub-category $A-\mathfrak{Top}$ of $T-\mathfrak{Top}$ for such an admissible class has 1-cells $(p,f)$ with $f\in A$.
+The sub-category $\mathbb{A}-\mathfrak{Top}$ of $\mathbb{T}-\mathfrak{Top}$ for such an admissible class has 1-cells $(p,f)$ with $f\in \mathbb{A}$.
 
+### Theorem
 
-##Theorem##
->Let $S$ and $T$ be finitely presented geometric theories such that $T$ is a quotient theory of $S$, and let $A$ be an admissible class of morphisms of $T$-models. Then the inclusion functor $A-\mathfrak{Top}_N\to S-\mathfrak{Top}_N$ has a right adjoint $Spec:S-\mathfrak{Top}_N\to A-\mathfrak{Top}_N$.
++-- 
+
+*Let $\mathbb{S}$ and $\mathbb{T}$ be finitely presented geometric theories such that $\mathbb{T}$ is a quotient theory of $\mathbb{S}$, and let $\mathbb{A}$ be an admissible class of morphisms of $\mathbb{T}$-models. Then the inclusion functor $\mathbb{A}-\mathfrak{Top}_N\to \mathbb{S}-\mathfrak{Top}_N$ has a right adjoint $Spec:\mathbb{S}-\mathfrak{Top}_N\to \mathbb{A}-\mathfrak{Top}_N$.*
+
+=--
 
 ###Example###
 
@@ -81,7 +85,11 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 
 ##References##
 
-Beside Cole's unpublished paper and Johnstone's article ([1977a](#Johnstone77a)), the book of Johnstone ([1977b](#Johnstone77b)), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretical context. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms. See also the short remark in Caramello (2014, p.55). For higher categorical variations on the theme _spectrum_ (of a ring) see Lurie (2009).
+Beside Cole's unpublished paper and Johnstone's article ([1977a](#Johnstone77a)), the book of Johnstone ([1977b](#Johnstone77b)), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretic context. See also the short remark in Caramello (2014, p.55).
+
+[[Michel Coste|M. Coste]]'s (1979) take on admissible maps flows in Coste-Michon (1980) via the 4-yoga (cf. [above](#quote)) into the more recent approach using open and &#233;tale maps pioneered by Joyal. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms.
+
+For a glimpse of [[André Joyal|A. Joyal]]'s original approach to the spectrum using distributive lattices see Joyal (1975).  For higher categorical variations on the theme _spectrum_ (of a ring) see Lurie (2009).
 
 * [[Marta Bunge|M. Bunge]], [[Gonzalo E. Reyes|G. E. Reyes]] , _Boolean spectra and model completions_ , Fund.Math. **113** (1981) pp.165-173. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm113/fm113115.pdf))
 
@@ -104,6 +112,8 @@ Sheaves_ , Springer LNM **753** (1979).
 * [[Peter Johnstone|P. T. Johnstone]], _Rings, fields and spectra_ , JA **49** (1977) pp.238-260. {#Johnstone77a}
 
 * P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). pp.205-207 {#Johnstone77b}
+
+* [[André Joyal|A. Joyal]], _Les Th&#233;r&#232;omes de Chevalley-Tarski et Remarques sur l'Alg&#233;bre Constructive_ , Cah. Top. G&#233;om. Diff. Cat. **XVI** (1975) pp.256-258. ([Proceedings Colloque Amiens 1975](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf), 6.81 MB)
 
 * [[Jacob Lurie|J. Lurie]], _Derived Algebraic Geometry V: Structured Spaces_ , ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
 
