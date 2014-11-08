@@ -5,7 +5,7 @@
 
 ## Idea
 
-An [[abelian sheaf]] ([[sheaf of abelian groups]]) is called a _torsion sheaf_ if it takes values in [[torsion groups]].
+An [[abelian sheaf]] ([[sheaf of abelian groups]]) is called a _torsion sheaf_ if it is a [[sheafification]] of a [[presheaf]] that takes values in [[torsion groups]].
 
 ## References
 
