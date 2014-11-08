@@ -1,4 +1,14 @@
+## Idea
+
 Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial differential equations]] (as a part of his [[algebraic analysis]] program) not only locally in space but also locally in momentum variable. It is a purely algebraic theory that was also continued in parallel by analysts, like Hormander, giving the domain of [[microlocal analysis]].
+
+## Construction
+
+The original construction is based on the use of the [[specialization functor]] and [[Fourier-Sato transformation]]. In this section, we will discuss the construction in a general setting.
+
+Let $Z\hookrightarrow X$ be a closed subspace of a given analytic manifold, defined by a sheaf of ideals $\cal{I)$, with normal bundle denoted $T_Z X$ and conormal bundle denoted $T^*_Z X$. One defines the deformation to the normal bundle as the relative scheme over $X$ given by
+
+## References
 
 Sato's theory of microlocalization was first described in the setting of [[D-modules]]:
 
@@ -6,13 +16,14 @@ Sato's theory of microlocalization was first described in the setting of [[D-mod
 
 It was then extended by [[M. Kashiwara]] and [[P. Schapira]] to a purely sheaf theoretical theory. 
 
-This theory of microlocalization of (ind)-sheaves was developped in the following works:
+This theory of microlocalization of (ind)-sheaves (and also sub-analytic sheaves) was developped in the following works:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
 * [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
 complete account of the theory.
+* [[Luca Prelli]] _Microlocalization of sub-analytic sheaves_, gives the theory in the sub-analytic setting.
 
 A good overview of the theory can by found at:
 
