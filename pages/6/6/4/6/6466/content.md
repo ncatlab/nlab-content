@@ -288,6 +288,8 @@ Discussion in [[topos theory]] is in
 
 * [[André Joyal]], [[Gonzalo E. Reyes]], _Separably Real Closed Local Rings_ , JPAA **43** (1986) pp.271&#8211;279.
 
+* [[Ieke Moerdijk]], [[Gonzalo E. Reyes]], _Smooth Spaces versus Contiunous Spaces in Models of Synthetic Differential Geometry_ , JPAA **32** (1984) pp.143-176.
+
 * L. Stout, _Unpleasant Properties of the Reals in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.320-322. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
 * L. N. Stout, _Topological Properties of the Real Numbers Object in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **17** no.3 (1976) pp.295-326. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_3/CTGDC_1976__17_3_295_0/CTGDC_1976__17_3_295_0.pdf))
