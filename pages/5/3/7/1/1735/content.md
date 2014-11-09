@@ -44,6 +44,7 @@ _Th. Appl. Cat._ **11** (2003), 353--374.
 * [[Tom Leinster]], Structures in higher-dimensional
 category theory.   ([arXiv](http://arxiv.org/abs/math/0109021))
 
+
 Makkai and collaborators introduced a slight variation they called 'multitopes':
 
 * [[Claudio Hermida]], [[Michael Makkai]], and J. Power: On weak
@@ -65,7 +66,17 @@ She has also shown that opetopic [[bicategories]] are "the same" as the ordinary
 
 * [[Eugenia Cheng]], Opetopic bicategories: comparison with the classical theory.  ([arXiv](http://arxiv.org/abs/math/0304285))
 
-A formalization of the definition of opetotes in [[opetopic type theory]] is in 
+A higher dimensional [[string diagram]]-notation for opetopes was introduced (as "zoom complexes" in section 1.1) in
+
+* {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033)) 
+
+Animated exposition of this higher-dimensional string-diagram notation is in 
+
+* [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
+
+* [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
+
+A [[syntax|syntactic]] formalization of [[opetopic omega-categories]] in terms of [[opetopic type theory]] is in 
 
 * {#Finster12} [[Eric Finster]], _Type theory and the opetopes_, talk at HDACT Ljubljana, June 2012 ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
 
