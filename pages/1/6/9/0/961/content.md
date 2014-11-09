@@ -22,21 +22,29 @@
 
 ## Definitions
 
-+-- {: .num_defn}
++-- {: .num_defn #Definition}
 ###### Definition
 
 In a [[finitely complete category]] $C$, a **congruence** on an object $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$.
 
 This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]:
-* internal [[reflexive relation|reflexivity]]: $r: X \to R$ which is a [[section]] both of $p_1$ and of $p_2$;
-* internal [[symmetric relation|symmetry]]: $s: R \to R$ which interchanges $p_1$ and $p_2$, namely $p_1\circ s = p_2$ and $p_2\circ s = p_1$;
+
+* internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$;
+
+* internal [[symmetric relation|symmetry]]: $s \colon R \to R$ which interchanges $p_1$ and $p_2$, namely $p_1\circ s = p_2$ and $p_2\circ s = p_1$;
+
 * internal [[transitive relation|transitivity]]: $t: R \times_X R \to R$; where with the notation for the projections in the [[cartesian square]]
-$$\array{
-R \times_X R & \stackrel{q_2}\rightarrow & R\\
-\downarrow^{q_1} && \downarrow^{p_2}\\
-R & \stackrel{p_1}\rightarrow & X
-}$$
-the following holds: $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$.
+
+  $$\array{
+    R \times_X R & \stackrel{q_2}\rightarrow & R
+    \\
+    \downarrow^{\mathrlap{q_1}} && \downarrow^{\mathrlap{p_1}}
+    \\
+    R & \stackrel{p_2}\rightarrow & X
+  }
+  $$
+
+  the following holds: $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$.
 
 =--
 
@@ -47,38 +55,26 @@ Since $(p_1,p_2)$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessar
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_remark}
+###### Remark
 
-Every [[kernel pair]] is a congruence.
+Equivalently, a cogruence on $X$ is an [[internal category]] with $X$ the object of [[objects]], such that the (source,target)-map is a [[monomorphism]] and such that if there is there is a morphism $x_1 \to x_2$ then there is also a morphism $x_2 \to x_1$ (internally).
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #EffectiveCongruence}
 ###### Definition
 
-A congruence which is the kernel pair of some morphism is called **effective**.  
+A congruence which is the kernel pair of some morphism (example \ref{KernelPairIsCongruence}) is called **effective**.  
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #QuotientObject}
 ###### Definition
 
 The [[coequalizer]] of a congruence is called a **[[quotient object]]**.  
 
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-An effective congruence is always the kernel pair of its quotient if that quotient exists.
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-The quotient of an effective congruence is an **effective quotient**.  
+The quotient of an effective congruence is called an **effective quotient**.  
 
 =--
 
@@ -90,7 +86,26 @@ A [[regular category]] is called an [[exact category]] if every congruence is ef
 =--
 
 
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+An effective congruence, def. \ref{EffectiveCongruence}, is always the [[kernel pair]] of its quotient, def. \ref{QuotientObject}, if that quotient exists.
+
+=--
+
+
 ## Examples
+
++-- {: .num_example #KernelPairIsCongruence}
+###### Example
+
+Every [[kernel pair]] is a congruence.
+
+=--
+
 
 +-- {: .num_example}
 ###### Example
