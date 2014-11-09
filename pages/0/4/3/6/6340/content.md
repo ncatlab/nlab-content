@@ -1,3 +1,5 @@
+[[!redirects Index theory]]
+[[!redirects index theory]]
 
 > This page is about the notion of index in [[analysis]]/[[operator algebra]]. For other notions see elsewhere.
 
@@ -43,6 +45,8 @@ More generally the resulting notion is abstractly characterized as being the pai
 * _[in KK-theory](#GeneralIdeaInKKTheory)_.
 
 Even more generally, in [[generalized cohomology theory]] indices are given by [[genera]] and universal [[orientation in generalized cohomology]], such as for instance the [[elliptic genus]] for [[elliptic cohomology]] and the [[Witten genus]] for [[tmf]]. See at _[[genus]]_ for more on this generalized notion of indices.
+
+There is also a quite general [[microlocal formulation of index theory]] due to Kashiwara and Schapira.
 
 ### For elliptic differential and Fredholm operators
  {#IdeaForDifferentialOperators}
