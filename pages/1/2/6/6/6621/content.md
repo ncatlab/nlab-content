@@ -29,6 +29,8 @@
 
   * [[Mishchenko-Fomenko index theorem]]
 
+  * [[microlocal formulation of index theory]]
+
 Index theory naturally takes place in [[KK-theory]].
 
 ## References
