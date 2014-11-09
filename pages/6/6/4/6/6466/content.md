@@ -278,11 +278,15 @@ Discussion in [[topos theory]] is in
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint New York 2014). (section 6.6. pp.210-23)
 
-* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], section VI.8 of _[[Sheaves in Geometry and Logic]]_
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], section VI.8 of _[[Sheaves in Geometry and Logic]]_ .
+
+* [[Eduardo Dubuc]], _Logical Opens and Real Numbers in Topoi_ , JPAA **43** (1986) pp.129-143.
 
 * {#Fourman75} [[Michael Fourman]], _Comparaison des R&#233;els d'un Topos - Structures Lisses sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ( _Colloque Amiens 1975 proceedings_ ) (p. 18-24 in [NUMDAM](http://www.numdam.org/item?id=CTGDC_1975__16_3_217_0)))
 
 * [[Michael Fourman]], [[Martin Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+
+* [[André Joyal]], [[Gonzalo E. Reyes]], _Separably Real Closed Local Rings_ , JPAA **43** (1986) pp.271&#8211;279.
 
 * L. Stout, _Unpleasant Properties of the Reals in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.320-322. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
