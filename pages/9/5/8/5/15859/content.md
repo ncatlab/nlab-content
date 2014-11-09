@@ -87,7 +87,7 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 
 Beside Cole's unpublished paper and Johnstone's article ([1977a](#Johnstone77a)), the book of Johnstone ([1977b](#Johnstone77b)), on which the above exposition is based, is a good source for this material. Bunge and Reyes (1981) apply the results in a model-theoretic context. See also the short remark in Caramello (2014, p.55).
 
-[[Michel Coste|M. Coste]]'s (1979) take on admissible maps flows in Coste-Michon (1980) via the 4-yoga (cf. [above](#quote)) into the more recent approach using open and &#233;tale maps pioneered by Joyal. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms.
+[[Michel Coste|M. Coste]]'s (1979) take on admissible maps flows in Coste-Michon (1981) via the 4-yoga (cf. [above](#quote)) into the more recent approach using open and &#233;tale maps pioneered by Joyal. Dubuc (2000) compares his axiomatic &#233;tale morphisms to Cole's class of admissible morphisms.
 
 For a glimpse of [[André Joyal|A. Joyal]]'s original approach to the spectrum using distributive lattices see Joyal (1975).  For higher categorical variations on the theme _spectrum_ (of a ring) see Lurie (2009).
 
