@@ -51,7 +51,7 @@ higher-dimensional categories I, II.
 _Jour. Pure Appl. Alg._ **157** (2001), 221--277.
 
 * [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
-([online](http://www.math.mcgill.ca/makkai))
+([web](http://www.math.mcgill.ca/makkai/mltomcat04/))
 
 Cheng has carefully compared opetopes and multitopes, and various approaches to opetopic $n$-categories:
 
