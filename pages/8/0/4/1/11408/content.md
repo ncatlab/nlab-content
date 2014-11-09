@@ -47,6 +47,11 @@ Although the theorem fails in [[second-order logic]], variants hold in infinitar
 Society, Rhode Island, 1989. 
 {#MakkaiPare}
 
+* M. Zawadowski, _The Skolem-L&#246;wenheim theorem in toposes_ , Studia Logica **42** (1983) pp.461-475.
+
+* M. Zawadowski, _The Skolem-L&#246;wenheim theorem in toposes II_ , Studia Logica **44** (1985) pp.25-38.
+
+
 [[!redirects Lowenheim-Skolem theorem]]
 [[!redirects Löwenheim-Skolem property]]
 [[!redirects Lowenheim-Skolem property]]
