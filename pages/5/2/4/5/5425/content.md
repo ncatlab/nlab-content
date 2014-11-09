@@ -21,7 +21,7 @@
 
 The concept of _geometric $\infty$-stack_ is the refinement to [[∞-stack]] of that of _[[geometric stack]]_.
 
-There is an intrinsic definition which iterates that of geometric stacks and says inducively that a geometric $n$-stack is one which has an $n$-[[atlas]] and such that its [[diagonal]] is $(n-1)$-representable ([To&#235;n-Vezzosi 04, def. 1.3.3.1](#ToenVezzosi04)).
+There is an intrinsic definition which iterates that of geometric stacks and says inductively that a geometric $n$-stack is one which has an $n$-[[atlas]] and such that its [[diagonal]] is $(n-1)$-representable ([To&#235;n-Vezzosi 04, def. 1.3.3.1](#ToenVezzosi04)).
 
 Then there is a result which says that such geometric $n$-stacks are equivalently those represented by suitable [[Kan complex]]-objects in the given [[site]] ("[[internal infinity-groupoids]]" in the site) ([Pridham 09](Pridham09)).
 
