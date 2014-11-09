@@ -1,0 +1,8 @@
+[[!redirects microlocal formulation of index theory]]
+
+## Idea
+
+One may give an abstract definition of an elliptic complex over a complex analytic space: an elliptic pair is the datum of an $\mathbb{R}$-constructible sheaf $F$ and a complex $\mathcal{M}$ of $\mathcal{D}$-modules, such that
+$$char(\mathcal{M})\cap SS(F)=T^*_M M\subset T^*M.$$
+
+To such an elliptic pair, one may associate a pair of trace kernels $K_{\mathcal{M}}$ and $K_F$ such that the trace kernel $K_{\mathcal{M}}\otimes K_F$ is well defined (because of the microsupport condition). The index of the elliptic pair is given by the Hochshild class $eu(K_{\mathcal{M}}\otimes K_F)$, and the index theorem essentially says that this class may be computed as the product of the classes of the two kernels in play.
