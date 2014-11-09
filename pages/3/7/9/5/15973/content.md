@@ -6,3 +6,7 @@ One may give an abstract definition of an elliptic complex over a complex analyt
 $$char(\mathcal{M})\cap SS(F)=T^*_M M\subset T^*M.$$
 
 To such an elliptic pair, one may associate a pair of trace kernels $K_{\mathcal{M}}$ and $K_F$ such that the trace kernel $K_{\mathcal{M}}\otimes K_F$ is well defined (because of the microsupport condition). The index of the elliptic pair is given by the Hochshild class $eu(K_{\mathcal{M}}\otimes K_F)$, and the index theorem essentially says that this class may be computed as the product of the classes of the two kernels in play.
+
+## Generalization
+
+One may try to generalize the microlocal formulation of index theory to [[global analytic geometry]], using [[derived microlocalization]], to get a [[global analytic index theory]] that generalizes Kashiwara and Schapira's approach to the analytic situation over an arbitrary Banach ring.
