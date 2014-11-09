@@ -4,9 +4,15 @@ Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial
 
 ## Construction
 
-The original construction is based on the use of the [[specialization functor]] and [[Fourier-Sato transformation]]. In this section, we will discuss the construction in a general setting.
+The original construction is based on the use of the [[specialization functor]] and [[Fourier-Sato transformation]]. In this section, we will discuss the construction in a general setting, i.e., over an arbitrary field $k$ of characteristic $0$. In the real situation, one usually refines the construction by using the natural inclusion $\mathbb{R}_+\subset \mathbb{R}$ to get information about the oriented direction of propagation of singularities of sheaves of solutions of analytic partial differential systems.
 
-Let $Z\hookrightarrow X$ be a closed subspace of a given analytic manifold, defined by a sheaf of ideals $\cal{I)$, with normal bundle denoted $T_Z X$ and conormal bundle denoted $T^*_Z X$. One defines the deformation to the normal bundle as the relative scheme over $X$ given by
+Let $Z\hookrightarrow X$ be a closed subspace of a given analytic manifold, defined by a sheaf of ideals $\mathcal{I)$, with normal bundle denoted $T_Z X$ and conormal bundle denoted $T^*_Z X$. One defines the deformation to the normal bundle as the (analytic space associated to the) relative scheme over $X$ given by
+$$\widetilde{T_Z X}:=Spec_X(\oplus_{i\in \mathcal{I}} z^{-i} \mathcal{I}^i)^{an}$$
+with $\mathcal{I}^i=\mathcal{O}_X$ for $i\leq 0$.
+There is a projection $p:\widetilde{T_Z X}\to X$ and a projection $\tau:\widetilde{T_Z X}\to \mathbb{A}^1$. The fiber at $0$ of $\tau$ is $T_Z X$, and its fiber at $t\neq 0$ is $X$. The fiber of $p$ on the open subset $(X\backslash Z)$ is $(X\backslash Z)\times \mathbb{A}^1-\{0\}$.
+
+
+
 
 ## References
 
@@ -14,7 +20,9 @@ Sato's theory of microlocalization was first described in the setting of [[D-mod
 
 * [[M. Kashiwara]], Kawai, Kimura: foundations of algebraic analysis.
 
-It was then extended by [[M. Kashiwara]] and [[P. Schapira]] to a purely sheaf theoretical theory. 
+It was then extended by [[M. Kashiwara]] and [[P. Schapira]] to a purely sheaf theoretical theory in
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_.
 
 This theory of microlocalization of (ind)-sheaves (and also sub-analytic sheaves) was developped in the following works:
 
