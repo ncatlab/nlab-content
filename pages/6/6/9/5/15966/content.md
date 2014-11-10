@@ -24,5 +24,5 @@ The starting point of this approach should be given by the settlement of a globa
 
 ## Derived index theory
 
-Using the methods of [[Derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
+Using the methods of [[derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
 
