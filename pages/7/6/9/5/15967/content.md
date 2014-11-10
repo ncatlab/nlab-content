@@ -1,3 +1,4 @@
+[[!redirects Overconvergent global analytic geometry]]
 [[!redirects overconvergent global analytic geometry]]
 
 #Contents#
@@ -6,11 +7,11 @@
 
 ## Idea
 
-Overconvergent [[global analytic geometry]] is a setting for global analytic geometry that allows the definition of strict and non-strict analytic spaces over an arbitrary Banach or ind-Banach ring. It also gives a notion of analytic motivic homotopy theory and derived analytic geometry.
+Overconvergent [[global analytic geometry]] is a setting for global analytic geometry that allows the definition of strict and non-strict analytic spaces over an arbitrary [[Banach rings]] or [[ind-object|ind-]]Banach ring. It also gives a notion of analytic [[motivic homotopy theory]] and [[derived geometry|derived]] analytic geometry.
 
 ## Basic ideas
 
-The basic building blocks of overconvergent global analytic geometry over a given Banach ring $(R,|\cdot|)$ are given by polydiscs of radius $1$ (in the strict situation) or arbitrary real radius (in the non-strict situation), and more generally, by strict (or non-strict) rational domains in them. This gives two categories $RatAlg_R^s$ and $RatAlg_R$ of rational domain algebras that actually form [pre-geometries](geometry+%28for+structured+%28infinity%2C1%29-toposes%29#Pregeometry) in the sense of Lurie.
+The basic building blocks of overconvergent global analytic geometry over a given Banach ring $(R,|\cdot|)$ are given by [[polydiscs]] of radius $1$ (in the strict situation) or arbitrary real radius (in the non-strict situation), and more generally, by strict (or non-strict) rational domains in them. This gives two categories $RatAlg_R^s$ and $RatAlg_R$ of rational domain algebras that actually form [pre-geometries](geometry+%28for+structured+%28infinity%2C1%29-toposes%29#Pregeometry) in the sense of Lurie.
 
 One then defines analytic (resp. derived analytic) algebras as functors (resp. homotopical functors) of functions on the categories of rational domain algebras. The various types of finitely presented analytic algebras define various types of [[geometry (for structured (infinity,1)-toposes)|geometries]] in Lurie's sense. One may then define analytic (resp. derived analytic) stacks as functors (resp. homotopical functors) of functions on analytic (resp. derived analytic) algebras.
 
@@ -30,4 +31,4 @@ Over $(\mathbb{Z},|\cdot|_0)$, we have $U(n)(\mathbb{Z})\cong GL_n(\mathbb{Z})$,
 
 ## Reference
 
-Fr&#233;d&#233;ric Paugam _Overconvergent global analytic geometry_ (arXiv)
+* [[Frédéric Paugam]] _Overconvergent global analytic geometry_ ([arXiv:1410.7971](http://arxiv.org/abs/1410.7971))
