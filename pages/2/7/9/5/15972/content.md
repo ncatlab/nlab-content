@@ -67,6 +67,9 @@ The usual theory of [[microlocalization]] may be adapted to the derived global a
 The derived specialization functor is given on $F\in D^b(X)$ by
 $$\nu_Y(F):=s^*p^*F\in D^b(\hat{P}_Y X).$$
 
+Remark that the loop space analog $L^*X$ of the odd cotangent bundle $T[1]X$ (that should be dual to the odd tangent bundle $T[-1]X$ (related to $LX$ by the [[HKR]] theorem) is given by $S^1\otimes X$ (external tensor product by the simplicial circle). We will have for every stack $Y$, the canonical equivalence
+$$\Hom(S^1\otimes X,Y)\cong \Hom_{SSets}(S^1,\Hom_{dSt}(X,Y)).$$
+
 The derived Fourier-Sato transformation is given on $F\in D^b(\hat{P}_Y X)$ by
 $$\Phi(F):=?.$$
 
