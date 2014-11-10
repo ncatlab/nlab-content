@@ -52,3 +52,5 @@ Traditional physics arguments along these lines include for instance
 * P. Windey,  _[[supersymmetric quantum mechanics|Supersymmetric quantum mechanics]] and the Atiyah&#8211;Singer index theorem_, Acta Physica Polonica, __B15__ (1984). ([PDF](http://th-www.if.uj.edu.pl/~acta/vol15/pdf/v15p0435.pdf))
 
 * [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103940278))
+
+[[!redirects Atiyah-Singer index theorems]]
