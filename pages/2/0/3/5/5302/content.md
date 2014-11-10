@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -48,6 +48,11 @@ exists and coincides with the [[model structure on strict ∞-groupoids]] define
 =--
 
 This is proven in ([AraMetayer](#AraMetayer)).
+
+## Related concepts
+
+* [[model structure for weak complicial sets]]
+
 
 ## References
 
