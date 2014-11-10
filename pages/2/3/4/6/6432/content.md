@@ -6,18 +6,18 @@ Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial
 
 ## Construction
 
-The original construction is based on the use of the specialization functor and Fourier-Sato transformation. In this section, we will discuss the construction in a general setting, i.e., over an arbitrary field of characteristic $0$. In the real situation, one usually refines the construction by using the natural inclusion $\mathbb{R}_+\subset M_1(\mathbb{R})=\mathbb{R}$ (we denote $M_1$ the multiplicative monoid of $1$-dimensional matrices) to get information about the oriented direction of propagation of singularities of sheaves of solutions of analytic partial differential systems. The construction we describe here only give the non-oriented direction of propagation.
+The original construction is based on the use of the specialization functor and Fourier-Sato transformation. In this section, we will discuss the construction in a general setting, i.e., over an arbitrary field of characteristic $0$. In the real situation, one usually refines the construction by using conic sheaves (i.e., sheaves invariant with respect to the natural $\mathbb{R}_+$-action) to get information about the oriented direction of propagation of singularities of sheaves of solutions of analytic partial differential systems. The construction we describe does not treat this refined information.
 
 Let $Z\hookrightarrow X$ be a closed subspace of a given analytic manifold, defined by a sheaf of ideals $\mathcal{I}$, with normal bundle denoted $T_Z X$ and conormal bundle denoted $T^*_Z X$. One defines the deformation to the normal bundle as the (analytic space associated to the) relative scheme over $X$ given by
 $$\widetilde{T_Z X}:=Spec_X(\oplus_{i\in \mathcal{I}} z^{-i} \mathcal{I}^i)^{an}$$
 with $\mathcal{I}^i=\mathcal{O}_X$ for $i\leq 0$.
 There is a projection $p:\widetilde{T_Z X}\to X$ and a projection $\tau:\widetilde{T_Z X}\to \mathbb{A}^1$. The fiber at $0$ of $\tau$ is denoted $s:T_Z X\to \widetilde{T_Z X}$, and its fiber at $t\neq 0$ is $X$. The fiber of $p$ on the open subset $(X\backslash Z)$ is $(X\backslash Z)\times \mathbb{A}^1-\{0\}$.
 
-The specialization of a sheaf $F\in D^b(k_X)$ is the conic (i.e., invariant by the multiplicative action of $M_1$) sheaf $\nu_Z(F)\in D^b_{M_1}(k_{T_Z X})$ defined as
+The specialization of a sheaf $F\in D^b(k_X)$ is the sheaf $\nu_Z(F)\in D^b(k_{T_Z X})$ defined as
 $$\nu_Z(F):=s^*p^*F.$$
 
 The Fourier-Sato transform is the functor
-$$\Phi:D^b_{M_1}(k_{T_Z X})\to D^b_{M_1}(k_{T^*_Z X})$$
+$$\Phi:D^b(k_{T_Z X})\to D^b(k_{T^*_Z X})$$
 defined by
 $$\Phi(G):=\mathbb{R}p_{2!}p_1^*G$$
 where $p_1:T_Z X\times_Z T^*_Z X\to T_Z X$ and $p_2:T_Z X\times_Z T^*_Z X\to T^*_Z X$ are the two natural projections.
