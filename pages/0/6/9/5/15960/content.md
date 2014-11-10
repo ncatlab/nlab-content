@@ -47,9 +47,14 @@ Opetopic type theory is due to
 
 * {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
 
-This builds on a result in
+It [[syntax|syntactically]] implements the definition of [[opetopic omega-category]] due to 
 
-* [[Thorsten Palm]], ...
+* {#Palm} [[Thorsten Palm]], ...
+
+by interpreting the higher-dimensional [[horn]]-filler conditions given there as [[inference rules]].
+
+([Palm](#Palm) shows that any opetopic set satisfying these filler conditions satisfies the property of [[Mikhail Makkai]]'s definition of a opetopic set that qualifies as an [[opetopic omega-category]]. The converse is presently unknown.)
+
 
 The higher dimensional [[string diagram]]-notation used here for opetopes was introduced (as "zoom complexes" in section 1.1) in
 
