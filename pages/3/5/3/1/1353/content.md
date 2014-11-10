@@ -8,8 +8,9 @@
 =--
 =--
 =--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -28,7 +29,7 @@ Weak complicial sets are a joint generalization of
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let
@@ -56,7 +57,7 @@ for $n = 1,2, \cdots$ and $k \in [n]$.
 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -74,7 +75,7 @@ A [[complicial set]] is a weak complicial set in which such liftings are unique.
 
 There is a [[model category]] structure that presents the [[(infinity,1)-category]] of weak complicial sets, hence that of weak $\omega$-categories. See
 
-* [[model structure for weak omega-categories]].
+* [[model structure for weak complicial sets]].
 
 ## Examples
 
