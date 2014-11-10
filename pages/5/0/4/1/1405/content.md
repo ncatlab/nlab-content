@@ -1,7 +1,19 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 While an [[algebraic definition of higher category|algebraic]] definition of [[strict ∞-categories]] is comparatively straightforward, algebraic definitions of fully weak $\omega$-categories (aka $\infty$-[[infinity-category|categories]]) are difficult to work with (although some definitions exist, such as those of [[Batanin ∞-category|Batanin]], [[Trimble n-category|Trimble]], [[Leinster n-category|Leinster]], and [[Penon n-category|Penon]]).
 
