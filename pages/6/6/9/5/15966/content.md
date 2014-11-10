@@ -1,4 +1,20 @@
+[[!redirects Global analytic index theory]]
 [[!redirects global analytic index theory]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -6,13 +22,13 @@
 
 ## A new formulation for classical index theory
 
-Classical real or complex analytic [[index theory]] may be described as a setting that contains both:
+Classical real or [[complex analytic geometry|complex analytic]] [[index theory]] may be described as a setting that contains both:
 
-* Riemann-Roch type theorems, such as Bismut's Riemann-Roch theorem for a general smooth proper morphism of complex analytic spaces, Grothendieck's Riemann-Roch theorem for a morphism of schemes, or Riou's motivic Riemann-Roch theorem for a projective morphism of schemes, and
+* [[Riemann-Roch theorem|Riemann-Roch]] type theorems, such as Bismut's Riemann-Roch theorem for a general smooth proper morphism of complex analytic spaces, Grothendieck's Riemann-Roch theorem for a morphism of schemes, or Riou's motivic Riemann-Roch theorem for a projective morphism of schemes, and
 
 * Index theorems for elliptic operators or elliptic complexes on real analytic manifolds (that actually also give Riemann-Roch results, when the elliptic complex is induced by the $\bar{\partial}$-operator on differential forms).
 
-* Equivariant Atiyah-Singer index theorems and noncommutative Connes-Moscovisci local index theorems.
+* Equivariant [[Atiyah-Singer index theorems]] and noncommutative Connes-Moscovisci local index theorems.
 
 One may formulate many of these results in an essentially unified setting by using index theory on derived analytic stacks over $\mathbb{R}$ or $\mathbb{C}$.
 
@@ -25,4 +41,3 @@ The starting point of this approach should be given by the settlement of a globa
 ## Derived index theory
 
 Using the methods of [[derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
-
