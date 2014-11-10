@@ -130,7 +130,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* {#Law04} [[F. W. Lawvere]], _Left and right adjoint operations on spaces and data types_ , Theorectical Computer Science **316** (2004) pp.105-111.
+* {#Law04} [[F. W. Lawvere]], _Left and right adjoint operations on spaces and data types_ , Theor. Comp. Sci. **316** (2004) pp.105-111.
 
 * {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
