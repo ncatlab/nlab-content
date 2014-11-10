@@ -1,17 +1,42 @@
-Weak $\omega$-categories are examples of [[higher category theory|higher categories]], with essentially the same meaning as $\infty$-[[infinity-category|categories]].  The distinction between the terms "$\omega$-category" and "$\infty$-category" is mostly a matter of the preference of individual authors.  One slight difference is that $\infty$-category usually seems to imply a "weak" notion, while in addition to weak $\omega$-categories there are also [[strict omega-category|strict ones]].
 
-#Examples#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[higher category theory]] the term  _weak $\omega$-categories_ is essentially synonymous with _[[infinity-category]]_ in the fully general sense of _[[(infinity,infinity)-category]]_.  The terms "$\omega$-category" and "$\infty$-category" originate in different schools and their choice of use is mostly a matter of the preference of individual authors.  
+
+One slight difference is that "$\infty$-category" usually implies a "weak" (fully general) notion, while in addition to weak $\omega$-categories there are also [[strict omega-category|strict ones]]. Another difference is that definitions of weak $\omega$-categories tend to be [[algebraic definitions of higher categories|algebraic]] instead of [[geometric definition of higher categories|geometric]] (accordingly typically the central open question is whether a definition really satisfies the [[homotopy hypothesis]]), though some definitions of weak $\omega$-categories are geometry (for instance some flavors of definition of [[opetopic omega-category]]).
+
+## Examples
+
+The following are examples for proposals of definitions of weak $\omega$-categories. 
 
 * [[Trimble n-category|Trimble ∞-category]]
+
 * [[simplicial weak omega-category|simplicial weak ∞-category]]
+
 * [[Batanin ∞-category]]
 
+* [[opetopic omega-category]]
 
-#References#
+
+## References
 
 See the general references at [[higher category theory]].
 
-* Andr&#233; Joyal, [[Tim Porter]], Peter May, _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
+* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
 
 
 
