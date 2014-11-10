@@ -47,9 +47,8 @@ category theory.   ([arXiv](http://arxiv.org/abs/math/0109021))
 
 Makkai and collaborators introduced a slight variation they called 'multitopes':
 
-* [[Claudio Hermida]], [[Michael Makkai]], and J. Power: On weak
-higher-dimensional categories I, II.
-_Jour. Pure Appl. Alg._ **157** (2001), 221--277.
+* [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak
+higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/))
 
 * {#Makkai} [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
 ([web](http://www.math.mcgill.ca/makkai/mltomcat04/))
