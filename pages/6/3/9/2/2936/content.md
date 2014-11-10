@@ -205,4 +205,10 @@ $$\prod_{relations\; R} \mathbf{2}^{\mathbb{N}^{arity(R)}} \times \prod_{functio
 * S.K. Berberian, _Borel spaces_, ([pdf](https://www.ma.utexas.edu/mp_arc/c/02/02-156.pdf)) 
 {#Ber} 
   
-* A.S. Kechris, _Classical Descriptive Set Theory_ Springer-Verlag (1994). 
+* A.S. Kechris, _Classical descriptive set theory_, Springer-Verlag (1994). 
+
+Internal groupoids in Polish spaces are considered in
+
+* Martino Lupini, _Polish groupoids and functorial complexity_, [arxiv/1407.6671](http://arxiv.org/abs/1407.6671)
+
+[[!redirects Polish spaces]]
