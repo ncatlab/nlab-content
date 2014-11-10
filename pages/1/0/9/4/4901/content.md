@@ -36,7 +36,8 @@ The point is that the derived loop space of an ordinary $X \in T Alg^{op}$ in ge
 
 ## Function complexes on derived loop spaces: Hochschild homology
 
-The function complex on the derived loop space $\mathcal{L}X$ is the [[Hochschild homology]] complex of $C(X)$. See there for further details.
+The function complex on the derived loop space $\mathcal{L}X$ is the [[Hochschild homology]] complex of $C(X)$. See there for further details. In particular see the section _[Hochschild cohomology -- As function algebra on the derived loop space](Hochschild%20cohomology#HochschildChainComplex)_.
+
 
 
 Also see [[free loop space object]] for more informaiton.
@@ -50,6 +51,8 @@ Also see [[free loop space object]] for more informaiton.
   * [[loop space]], [[free loop space]], 
 
   * [[formal loop space]], **derived loop space**
+
+  * [[derived micorlocalization]]
 
 * [[suspension object]]
 
