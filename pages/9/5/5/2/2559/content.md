@@ -46,7 +46,16 @@ A [[topos]] $\mathcal{X}$ is a [[local topos]] (over [[Set]]) if its [[global se
 
 ## References#
 
-* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
+The ubiquity of right adjoints to exponential functors in the context of [[synthetic differential geometry]] was first pointed out in Lawvere (1980). Lawvere (2004) suggests to augment [[lambda calculus]] with such fractional operators. Thorough discussion of the concept is in Yetter (1987) and Kock&Reyes (1999). Moerdijk&Reyes (1991) have a succinct overview in the context of SDG as does Lawvere (1997).
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], appendix 4 of, [[Models for Smooth Infinitesimal Analysis]]
+* [[William Lawvere]], _Toward the Description in a Smooth Topos of the Dynamically Possible Motions and Deformations of a Continuous Body_, Cah.Top.G&#233;om.Diff.Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_4/CTGDC_1980__21_4_377_0/CTGDC_1980__21_4_377_0.pdf))
 
+* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997.
+
+* {#Law04} [[William Lawvere]], _Left and right adjoint operations on spaces and data types_ , Theor. Comp. Sci. **316** (2004) pp.105-111.
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]] , Springer Heidelberg 1991. (appendix 4)
+
+* [[Anders Kock]], [[Gonzalo E. Reyes]], _Aspects of Fractional Exponent Functors_ , TAC **5** (1999) pp.251-265. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n10/n10.pdf))
+
+* [[David Yetter]], _On Right Adjoints of Exponential Functors_ , JPAA **45** (1987) pp.287-304. (Corrections in JPAA **58** (1989) pp.103-105)
