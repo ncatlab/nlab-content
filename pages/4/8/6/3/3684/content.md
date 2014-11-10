@@ -130,6 +130,7 @@ London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990.
 
 * Paolo Piccione, Daniel Victor Tausk, _A student's guide to symplectic spaces, Grassmannians and Maslov index_, IMPA 2011, [pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf)
 
+* Yuri Latushkin, Alim Sukhtayev, Selim Sukhtaiev, _The Morse and Maslov indices for Schr&#246;dinger operators_, [arxiv/1411.1656](http://arxiv.org/abs/1411.1656)
 
 
 [[!redirects Maslov class]]
