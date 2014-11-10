@@ -200,3 +200,7 @@ The standard rules for type-formation, term introduction/elimination and computa
 
 [[!redirects term constructor]]
 [[!redirects term constructors]]
+
+
+[[!redirects inference rule]]
+[[!redirects inference rules]]
