@@ -52,6 +52,8 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 
 * M. Artin, A. Grothendieck, J. L. Verdier (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4. II_ , LNM **270** Springer Heidelberg 1972.{#SGA4II}
 
+* B. Frot, _G&#246;del's Completeness Theorem and Deligne's Theorem_ , arXiv:1309.0389 (2013). ([pdf](http://arxiv.org/pdf/1309.0389v1))
+
 * P. T. Johnstone, _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (ch. 7) {#Johnstone77b}
 
 * F. W. Lawvere, _Continuously Variable Sets: Algebraic Geometry= Geometric Logic_ , pp.135-156 in _Proc. Logic Colloquium Bristol 1973_, North-Holland Amsterdam 1975.
