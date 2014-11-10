@@ -1,5 +1,9 @@
 [[!redirects derived microlocalization]]
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 [[Microlocalization]] is a tool to study the propagation of singularities of solutions of partial differential systems, in order to study pullbacks of solutions of differential systems (which generalize products of distributions) and prove [[index theorems]].
@@ -90,6 +94,6 @@ We must now check that the natural morphism
 
 ## References
 
-David Ben-Zvi and David Nadler _Loops spaces and connections_ [arXiv](http://arxiv.org/abs/1002.3636).
+* [[David Ben-Zvi]], [[David Nadler]], _Loops spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 
-Calaque, Caldararu and Tu: _PBW for an inclusion of Lie algebras_ [arXiv](http://arxiv.org/abs/1010.0985).
+* Calaque, Caldararu and Tu: _PBW for an inclusion of Lie algebras_ ([arXiv:1010.0985](http://arxiv.org/abs/1010.0985))
