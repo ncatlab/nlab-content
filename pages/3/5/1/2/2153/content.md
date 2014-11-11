@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -48,9 +59,12 @@ This list is very incomplete, made mostly by searching for 'ground ring', 'base 
 
 ## Related concepts
 
-* [[psotive characteristic]]
+* [[positive characteristic]]
 
 [[!redirects ground field]]
+[[!redirects ground fields]]
+
+
 [[!redirects base ring]]
 [[!redirects base field]]
 [[!redirects field of scalars]]
