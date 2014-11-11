@@ -296,7 +296,7 @@ Discussion in [[topos theory]] is in
 
 * [[André Joyal]], [[Gonzalo E. Reyes]], _Separably Real Closed Local Rings_ , JPAA **43** (1986) pp.271&#8211;279.
 
-* [[Ieke Moerdijk]], [[Gonzalo E. Reyes]], _Smooth Spaces versus Contiunous Spaces in Models of Synthetic Differential Geometry_ , JPAA **32** (1984) pp.143-176.
+* [[Ieke Moerdijk]], [[Gonzalo E. Reyes]], _Smooth Spaces versus Continuous Spaces in Models of Synthetic Differential Geometry_ , JPAA **32** (1984) pp.143-176.
 
 * J. Z. Reichman, _Semicontinuous Real Numbers in a Topos_ , JPAA **28** (1983) pp.81-91.
 
