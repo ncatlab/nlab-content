@@ -149,6 +149,7 @@ In total a semantics for linear dependent type theory is hence a natural system 
 
 $$
   (f_! \dashv f^\ast),\; (f^\ast \dashv f_\ast),\; (\otimes \dashv [-,-])
+$$
 
 satisfying some compatibility conditions. This is precisely Grothendieck's [[yoga of six functors]] for the special case that the right adjoint of $f_!$ coincides with the left adjoint of $f_\ast$. This special case is also known as the _[[Wirthmüller context]]_ version of the yoga of six functors.
 
@@ -293,7 +294,7 @@ Notice that in a cartesian Wirthm&#252;ller context duality is trivial, in that 
 
 For instance the [[projection formula]] $\overline{\gamma}$ in def. \ref{ComparisonMaps} for base change along a pointed connected type $\mathbf{B}G \to \ast$ equivalently says that genuine ([[Bredon cohomology|Bredon]]) [[equivariant cohomology]] reduces to [[Borel equivariant cohomology]] when tne action on the coefficients is trivial. See at _[[equivariant cohomology]]_ for more on this.
 
-### Pointed objects with smash product
+### Parameterized pointed objects
  {#PointedObjects}
 
 A first step away from the Cartesian example [above](#CartesianWirthmuellerContexts) is the following.
@@ -443,8 +444,113 @@ The condition that this $\Sigma$ (and its relative/dependent versions) has a [[r
 
 ### Dependent linear deMorgan duality
 
++-- {: .num_defn #LinearNegation}
+###### Definition
+
+For $\mathcal{C}^\otimes$ a [[closed monoidal category]] with [[unit object]] $1$ and [[internal hom]] $[-,-]$ write
+
+$$
+  \mathbb{D} \coloneqq [-,1] 
+$$
+
+for the [[functor]] given by internal hom into the unit object. In regarding $\mathcal{C}^\otimes$ as [[categorical semantics]] for [[linear type theory]] one may call this the _linear [[negation]]_ operation.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+In semantics for a dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, linear negation, def. \ref{LinearNegation}, intertwines dependent sum and dependent product:
+
+$$
+  \underset{f}{\prod} \mathbb{D}
+  \simeq
+  \mathbb{D} \underset{f}{\sum}
+$$
+
+=--
+
+For proof see [here](Wirthm&#252;ller%20context#ComparisonOfPushForwardsAndWirthmuelleriso) at _[[Wirthmüller context]]_.
+
 
 ### Primary integral transforms
+
++-- {: .num_defn }
+###### Definition
+
+Given semantics $Mod\colon \mathcal{C}^{op}\to SymMonCat$ for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, and given objects $X_1, X_2$ of $\mathcal{C}$ then a **linear [[polynomial functor]]** 
+
+$$
+  P \colon Mod(X_1) \to Mod(X_2)
+$$ 
+
+is a functor of the form
+
+$$
+  P \simeq \underset{f_2}{\sum} \underset{g}{\prod} f_1^\ast
+$$
+
+for a [[diagram]]in $\mathcal{C}$ of the form
+
+$$
+  \array{
+    && Y &\stackrel{g}{\longrightarrow}& Z
+    \\
+    & {}^{\mathllap{f_1}}\swarrow  & && & \searrow^{\mathrlap{f_2}} 
+    \\
+    X_1
+    &&
+    && 
+    &&
+    X_2
+  }
+  \,.
+$$
+
+If here $g = id$ then this diagram is a [[correspondence]]
+
+$$
+  \array{
+    &&  Z
+    \\
+    & {}^{\mathllap{f_1}}\swarrow  & & \searrow^{\mathrlap{f_2}} 
+    \\
+    X_1
+    &&
+    &&
+    X_2
+  }
+$$
+
+and the resulting $P \simeq \underset{f_2}{\sum}f_1 ^\ast$ is called a **linear polynomial functor** or **primary [[integral transform]]**.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Given a [[correspondence]] as above, then the primary integral transform through it is equivalent to the pull-tensor-push operation through the [[product]] 
+
+$$
+  \underset{f_2}{\sum} \circ f_1^\ast
+  \simeq
+  \underset{p_2}{\sum}
+  \circ
+  \left( \left(f_1,f_2\right)_!\left(1_Z\right) \otimes \left(-\right)\right)
+  \circ
+  p_1^\ast
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[Frobenius reciprocity]].
+
+=--
+
 
 ### Fundamental classes and measures
 
