@@ -20,7 +20,7 @@
 The concept of [[adjunction]] as such expresses a [[duality]]. The stronger concept of an _adjoint cylinder_ or _adjoint [[modality]]_ is specifically an [[adjunction]] between [[idempotent monad|idempotent (co-)monads]] and is meant to express specifically a _duality between opposites_. 
 
 In terms of the corresponding [[adjoint triple]] of [[reflective subcategory|(co-)reflections]] and [[localizations]] the concept was suggested in ([Lawvere 91, p. 7](#Lawvere91), [Lawvere 94, p. 11](#Lawvere94)) to capture the phenomena of "Unity and Identity of Opposites" as they appear informally in [[Georg Hegel]]'s _[[Science of Logic]]_. 
-(One might therefore say the notion is meant to capture the idea of "dialectic", though there is some debate as to wether Hegel's  somewhat mythical "creation out of [[paradox]]" should really go by this term, see [this Wikipeda entry](#Wikipedia) ).
+(One might therefore say the notion is meant to capture the idea of "dialectic", though there is some debate as to whether Hegel's  somewhat mythical "creation out of [[paradox]]" should really go by this term, see [this Wikipeda entry](#Wikipedia) ).
 
 In terms of [[adjoint pairs]] of [[modal operators]] in the context of [[modal logic]]/[[modal type theory]] and thought of as [[Galois connections]] the concept appears in ([Reyes-Zolfaghari 91](#ReyesZolfaghari91)). Further developments along these lines include ([DJK 14](#DJK14)).
 
