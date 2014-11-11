@@ -58,10 +58,18 @@ Notice that the following relation between syntax and semantics are well establi
 
 |  [[syntax]] | [[semantics]] |
 |-------------|---------------|
-| [[linear type theory|multiplicative intuitionistic linear type theory]] | [[symmetric monoidal category|symmtric]] [[closed monoidal categories]] |
+| [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[closed monoidal category]], [[symmetric monoidal category|symmteric]]) [[monoidal categories]] |
 | [[dependent type theory]] | [[locally cartesian closed categories]] |
 
-Here the correspondence in the second line works by forming for any [[locally cartesian closed category]] $\mathcal{C}$ its system of [[slice categories]] $[\Gamma] \mapsto \mathcal{C}_{/[\Gamma]}$, each of which is a [[cartesian monoidal category|cartesian]] [[closed monoidal category]], and then interpreting that as the [[semantics]] for [[dependent type theory]] in the [[context]] $\Gamma$:
+Here the correspondence in the first line works by interpreting [[types]] $X$ in the [[linear type theory]] as [[objects]] $[X] in a [[monoidal category]] $\mathcal{C}^{\otimes}$ and by interpreting the [[conjunctions]] (as far as they exist) as follows:
+
+| [[type theory]] | [[category theory]] |
+|------|--------|
+| $\otimes$ [[multiplicative conjunction]] | $\otimes$ [[tensor product]] |
+| $\multimap$ [[linear implication]]   | $[-,-]$ [[internal hom]] |
+| $(-)^\bot$ [[linear negation]] | $(-)^\ast$ [[dual object]]
+
+The correspondence in the second line works by forming for any [[locally cartesian closed category]] $\mathcal{C}$ its system of [[slice categories]] $[\Gamma] \mapsto \mathcal{C}_{/[\Gamma]}$, each of which is a [[cartesian monoidal category|cartesian]] [[closed monoidal category]], and then interpreting that as the [[semantics]] for [[dependent type theory]] in the [[context]] $\Gamma$:
 
 $$
   \left\{
@@ -99,26 +107,26 @@ $$
 $$
 
 
-Now since a [[cartesian monoidal category]] is in particular a [[symmetric monoidal category]], this immediately suggest to generalize the assignments
+Now since a [[cartesian monoidal category]] is in particular a ([[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]]) [[monoidal category]], this immediately suggest to generalize the assignments
 $[\Gamma] \mapsto (\mathcal{C}_{/[\Gamma]})^\times$ to assignments
-$[\Gamma] \mapsto (\mathcal{C}_{[\Gamma]})^\otimes$ of [[symmetric monoidal categories]] (possibly but not necessarily the [[slice categories]] of $\mathcal{C}$) such that there still is good [[base change]] in the above way. The resulting structure may be called a _symmetric closed [[indexed monoidal category]]_.
+$[\Gamma] \mapsto (\mathcal{C}_{[\Gamma]})^\otimes$ of ([[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]]) [[monoidal categories]] (possibly but not necessarily the [[slice categories]] of $\mathcal{C}$) such that there still is good [[base change]] in the above way. The resulting structure may be called a _symmetric closed [[indexed monoidal category]]_.
 
-So any $\mathcal{C}_{[\Gamma]}$ here is a [[symmetric monoidal category]] and hence is [[categorical semantics]] for [[linear types]], while at the same times these types depend on the "non-linear" type $[\Gamma]$. In this way the system ("[[hyperdoctrine]]") $[\Gamma] \mapsto (\mathcal{C}_{[\Gamma]})^\otimes$ is semantics a _dependent linear type theory_.
+So any $\mathcal{C}_{[\Gamma]}$ here is a ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] and hence is [[categorical semantics]] for [[linear types]], while at the same times these types depend on the "non-linear" type $[\Gamma]$. In this way the system ("[[hyperdoctrine]]") $[\Gamma] \mapsto (\mathcal{C}_{[\Gamma]})^\otimes$ is semantics a _dependent linear type theory_.
 
 The [[syntax]] of which such "[[hyperdoctrines]] of [[symmetric monoidal categories]]" are the semantics should be called _dependent linear type theory_. This is fairly straightforward. Details are written out in ([Vakar 14](#Vakar14)).
 
 +-- {: .num_defn #SemanticsForDependentLinearTypeTheory}
 ###### Definition
 
-A _semantics for dependent linear type theory_ is
+A _semantics for (symmetric, closed) dependent linear type theory_ is
 
-1. an [[category]] $\mathcal{C}$;
+1. a [[category]] $\mathcal{C}$;
 
-1. an [[functor]] $Mod \colon \mathcal{C}^{op} \to ClosedSymMonCat$ to [[symmetric monoidal categories]];
+1. a [[functor]] $Mod \colon \mathcal{C}^{op} \to MonCat$ to [[monoidal categories]];
 
 such that 
 
-1. each $Mod(X)^\otimes$ is [[closed monoidal categor|closed]] (with [[internal hom]] to be denoted $[-,-]$);
+1. in the symmetric, closed case each $Mod(X)^\otimes$ is [[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]  (with [[internal hom]] to be denoted $[-,-]$);
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
@@ -131,21 +139,27 @@ If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\a
 +-- {: .num_defn }
 ###### Remark
 
-That $f^\ast$ is a morphism of [[symmetric monoidal category]] means that it is a [[strong monoidal functor]], preserving the [[tensor product]]
+That $f^\ast$ is a morphism of [[monoidal categories]] means that it is a [[strong monoidal functor]], preserving the [[tensor product]]
 
 $$
   f^\ast(X\otimes Y)\simeq (f^\ast X)\otimes (f^\ast Y)
   \,.
 $$
 
-The condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
+If all monoidal categories are [[closed monoidal categories]] then the condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
 
 $$
   f^\ast [X,Y] \simeq [f^\ast X, f^\ast Y]
   \,.
 $$
 
-In total a semantics for linear dependent type theory is hence a natural system of six functors
+=--
+
++-- {: .num_defn }
+###### Remark
+
+
+Semantics for linear dependent type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, is hence a natural system of six functors
 
 $$
   (f_! \dashv f^\ast),\; (f^\ast \dashv f_\ast),\; (\otimes \dashv [-,-])
@@ -299,6 +313,9 @@ For instance the [[projection formula]] $\overline{\gamma}$ in def. \ref{Compari
 
 A first step away from the Cartesian example [above](#CartesianWirthmuellerContexts) is the following.
 
++-- {: .num_defn #PointedObjectsInSlice}
+###### Definition
+
 Let $\mathbf{H}$ be a [[topos]]. For $X \in \mathbf{H}$ any [[object]], write 
 
 $$
@@ -306,6 +323,8 @@ $$
 $$
 
 for the [[category of pointed objects]] in the [[slice topos]] $\mathbf{H}_{/X}$. Equipped with the [[smash product]] $\wedge_X$ this is a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}_X, \wedge_X, X \coprod X)$.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -326,9 +345,41 @@ Finally by the discussion at _[[category of pointed objects]]_ we have that $\ma
 
 To see that $f^\ast$ is a [[strong monoidal functor]] observe that the [[smash product]] is, by the discussion there, given by a [[pushout]] over [[coproducts]] and [[products]] in the [[slice topos]]. As above these are all preserved by [[pullback]]. Finally to see that $f^\ast$ is also a [[strong closed functor]] observe that the [[internal hom]] on [[pointed objects]] is, by the discussion there, a [[fiber product]] of cartesian internal homs. These are preserved by [the above case](#CartesianWirthmuellerContexts), and the fiber product is preserved since $f^\ast$ preserves all limits. Hence $f^\ast$ preserves also the internal homs of pointed objects.
 
- 
 =--
 
+### Parameterized formal moduli problems
+
++-- {: .num_defn #ParameterizedFormalModuliProblems}
+###### Definition
+
+For $\mathbf{H}$ a [[differential cohesive (∞,1)-topos]] with [[infinitesimal shape modality]] $\Pi_{inf}$ write for any object $X\in \mathbf{H}$
+
+$$
+  Mod(X)
+  \hookrightarrow
+  \left(
+    \mathbf{H}_{/X}^{X/}
+  \right)^{op}
+$$
+
+for the [[full sub-(∞,1)-category]] of that of pointed objects over $X$, def. \ref{PointedObjectsInSlice}, on those that are in the kernel of $\Pi_{inf}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The construction in \ref{ParameterizedFormalModuliProblems} has the interpretation as  the category of generalized [[formal moduli problems]] parameterized over $X$. The genuine formal moduli problems satisfy one an extra exactness property of the kind discussed at _[[cohesive (∞,1)-presheaf on E-∞ rings]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Parameterized formal moduli problems as in def. \ref{ParameterizedFormalModuliProblems} form semantics for non-unital 
+linear homotopy-type theory. 
+
+=--
 
 ### Parameterized modules
 
