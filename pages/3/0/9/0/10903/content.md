@@ -48,9 +48,28 @@ Typically one would in addition demand the [[Beck-Chevalley condition]] for cons
 
 In [[geometry]]/[[topos theory]] such a "linear hyperdoctrine" is known as _[[six operations]] yoga in [[Wirthmüller context|Wirtmüller flavor]]_. In fact there this appears in [[geometric homotopy theory]] ("[[derived functors]] on [[quasicoherent sheaves]]") hence as _dependent linear [[homotopy type theory]]_.
 
-## Properties
+## Semantic definition of linear homotopy-type theory
 
-### The canonical co-modality
+We define here the [[categorical semantics]] that linear homotopy type theory is supposed to have, hence its [[syntax|syntactic]] definition is to be such that at least all of the following constitute [[models]] for the theory. In order to indicate the semantic level we will try to keep a hyphen  in "linear homotopy-type theory".
+
+To put this in perspective, recall that the following relation between syntax and semantics are well established
+
+* 
+
+
+
+## Structures in linear homtopy-type theory
+
+We discuss here structures (constructions) that may be defined and studied within linear homotopy-type theory.
+
+### Dependent linear deMorgan duality
+
+### Twisted generalized (abelian) cohomology
+
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
+
+### Exponential modality and Fock spaces
  {#TheCanonicalComodality}
 
 The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the [[!-modality]].
@@ -104,9 +123,15 @@ One checks that this indeed makes $\Sigma$ be a [[strong monoidal functor]] ([Po
 
 The condition that this $\Sigma$ (and its relative/dependent versions) has a [[right adjoint]] may also be understood as saying that the dependent linear type theory satisfies the _[[axiom of comprehension]]_. See at _[comprehension -- Examples -- In dependent linear type theory](http://ncatlab.org/nlab/show/axiom+of+separation#ExamplesDependentLinearTypeTheory)_ for more.
 
-### Relation to twisted generalized cohomology theory
+### Primary integral transforms
 
-[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+### Fundamental classes and measures
+
+### Secondary integral transforms
+
+### Dagger-structure
+
+
 
 
 
