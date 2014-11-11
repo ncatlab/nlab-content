@@ -172,7 +172,7 @@ It is also a theorem that negation (except for the negations of propositional va
 
 The logical rules for [[negation]] can then be proved.
 
-In this way, linear logic the original sense (interpreted in [[star-autonomous categories]])  has a perfect [[de Morgan duality]]. But observe that more general variants (interpreted in more general [[symmetric monoidal categories]]) need not, see for instance ([Hyland-de Paiva 93](#HylandPaiva93)).  
+In this way, linear logic in the original sense (interpreted in [[star-autonomous categories]])  has a perfect [[de Morgan duality]]. But observe that more general variants (interpreted in more general [[symmetric monoidal categories]]) need not, see for instance ([Hyland-de Paiva 93](#HylandPaiva93)).  
 
 We can also restrict attention to sequents with one term on either side as follows:  $\Gamma \vdash \Delta$ is valid if and only if $\bigotimes \Gamma \vdash \parr \Delta$ is valid, where $\bigotimes(A, B, C) \coloneqq A \otimes B \otimes C$, etc, and similarly for $\parr$ (using implicitly that these are associative, with identity elements to handle the [[empty sequence]]).
 
@@ -193,7 +193,7 @@ We discuss the [[categorical semantics]] of linear logic. See also at _[[relatio
 One way to explain linear logic to a category theorist is to say that its models are [[*-autonomous categories]] with extra structure ([Seely, 1989, prop. 1.5](#Seely)). (If the underlying category is a [[suplattice]] then these are commutative [[quantales]], ([Yetter 90](#Yetter90)))
 
 Firstly, there is a monoidal '[[tensor product|tensor]]' connective
-$A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
+$A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the [[dual object]]
 involution $(-)^*$, while [[linear implication]] $A\multimap B$
 corresponds to the [[internal hom]], which can be defined as
 $(A\otimes B^\bot)^\bot$.  There is a [[de Morgan dual]] of the
