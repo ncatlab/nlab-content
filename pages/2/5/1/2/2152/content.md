@@ -133,6 +133,8 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[global analytic geometry]]
 
+  * [[overconvergent global analytic geometry]]
+
 ## References
  {#References}
 
