@@ -1,19 +1,3 @@
-author: AnonymousCoward
-company: 
-title: Yoneda embedding
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-Yoneda embedding
-==============
-
-My First Slide
------------------
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
