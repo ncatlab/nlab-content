@@ -35,13 +35,13 @@ This category is a [[quasitopos]].  Hence, in particular, it is [[cartesian clos
 
 * Every simplicial set gives rise to a stratified simplicial set
 
-  * using the **maximal stratification**: all simplices are regarded as thin;
+  * using the **maximal stratification**: all simplices of dimension >0 are regarded as thin;
 
-  * using the **minimal stratification**: only degeneracies are thin.
+  * using the **minimal stratification**: only degenerate simplices are thin.
 
   These two stratifications give [[left adjoint|left]] and [[right adjoints]] to the [[forgetful functor]] from stratified simplicial sets to simplicial sets.
 
-* The **standard thin** $n$-**simplex** is obtained from $\Delta[n]$ my making its only non-degenerate $n$-simplex thin.
+* The **standard thin** $n$-**simplex** is obtained from $\Delta[n]$ by making its only non-degenerate $n$-simplex thin.
 
 * The $k$th **standard admissible** $n$-**simplex** $\Delta^a_k[n]$, defined for $n \geq 2$, $0 \lt k \lt n$, is obtained from $\Delta[n]$ by making all simplices $\alpha \colon [m] \to [n]$ with $k-1,k,k+1 \in$ im$(\alpha)$ thin.
 
