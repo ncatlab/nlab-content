@@ -265,9 +265,15 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 ## Related concepts
 
-* [[natural number]], [[natural numbers object]]
+* [[real number]]
 
-* [[real number]], **real numbers object**
+* [[Cauchy real number]]
+
+* [[natural number]]
+
+* [[natural numbers object]]
+
+* [[smooth structure on a topos]]
 
 
 ## References
@@ -291,6 +297,8 @@ Discussion in [[topos theory]] is in
 * [[André Joyal]], [[Gonzalo E. Reyes]], _Separably Real Closed Local Rings_ , JPAA **43** (1986) pp.271&#8211;279.
 
 * [[Ieke Moerdijk]], [[Gonzalo E. Reyes]], _Smooth Spaces versus Contiunous Spaces in Models of Synthetic Differential Geometry_ , JPAA **32** (1984) pp.143-176.
+
+* J. Z. Reichman, _Semicontinuous Real Numbers in a Topos_ , JPAA **28** (1983) pp.81-91.
 
 * L. Stout, _Unpleasant Properties of the Reals in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.320-322. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
@@ -319,4 +327,3 @@ Discussion in [[homotopy type theory]] is in
 
 [[!redirects Cauchy real numbers object]]
 [[!redirects Cauchy real numbers objects]]
-
