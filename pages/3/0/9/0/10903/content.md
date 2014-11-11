@@ -289,24 +289,22 @@ $$
 
 ### Slices of a topos
 
-For $\mathbf{H}$ a [[topos]] and $f \colon X \longrightarrow Y$
-any [[morphism]], then in the induced [[base change]] [[etale geometric morphism]]
++-- {: .num_example}
+###### Example
 
-$$
-  (\sum_f \dashv f^\ast \dashv \prod_f)
-  \;\colon\;
-  \mathbf{H}_{/X}
-  \longrightarrow
-  \mathbf{H}_{/Y}
-$$
+For $\mathbf{H}$ a [[topos]], then its system of [[slice toposes]] is a model for dependent linear type theory.
 
-the [[inverse image]]/[[context extension]] is a [[cartesian closed functor]] (see there for the proof). Therefore any base change of [[toposes]] constitutes a cartesian Wirthm&#252;ller context.
+=--
 
-Conversely, this means that systems of Wirthm&#252;ller contexts are generalizations of [[categorical logic]] ([[hyperdoctrines]]) to non-cartesian contexts (see at _[[dependent linear type theory]]_). 
++-- {: .num_remark}
+###### Remark
 
-Notice that in a cartesian Wirthm&#252;ller context duality is trivial, in that $\mathbb{D}X \simeq 1$ for all objects $X$. Therefore to the extent that the [[six operations]] yoga involves duality, it is interesting only the more non-cartesian (non-classical) the ambient Wirthm&#252;ller context is.
+This example for dependent linear type theoey is extremely "non-linear".  
+One way to characterize this is to observe that this dependent linear type theory has alomost no [[dualizable object|dualizable]] linear types. The only one is the terminal object in each slice. Given that the above formulas notably for secondary integral transforms (def.\ref{SIT}) assume dualizable objects, this means that in this non-linear context there will be no nontrivial secondary integral transforms.
 
-For instance the [[projection formula]] $\overline{\gamma}$ in def. \ref{ComparisonMaps} for base change along a pointed connected type $\mathbf{B}G \to \ast$ equivalently says that genuine ([[Bredon cohomology|Bredon]]) [[equivariant cohomology]] reduces to [[Borel equivariant cohomology]] when tne action on the coefficients is trivial. See at _[[equivariant cohomology]]_ for more on this.
+=--
+
+Accordingly we now pass gradually to more and more linear examples that are more and more interesting as far as linear type theory goes.
 
 ### Parameterized pointed objects
  {#PointedObjects}
@@ -347,43 +345,11 @@ To see that $f^\ast$ is a [[strong monoidal functor]] observe that the [[smash p
 
 =--
 
-### Parameterized formal moduli problems
-
-+-- {: .num_defn #ParameterizedFormalModuliProblems}
-###### Definition
-
-For $\mathbf{H}$ a [[differential cohesive (∞,1)-topos]] with [[infinitesimal shape modality]] $\Pi_{inf}$ write for any object $X\in \mathbf{H}$
-
-$$
-  Mod(X)
-  \hookrightarrow
-  \left(
-    \mathbf{H}_{/X}^{X/}
-  \right)^{op}
-$$
-
-for the [[full sub-(∞,1)-category]] of that of pointed objects over $X$, def. \ref{PointedObjectsInSlice}, on those that are in the kernel of $\Pi_{inf}$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The construction in \ref{ParameterizedFormalModuliProblems} has the interpretation as  the category of generalized [[formal moduli problems]] parameterized over $X$. The genuine formal moduli problems satisfy one an extra exactness property of the kind discussed at _[[cohesive (∞,1)-presheaf on E-∞ rings]]_.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-Parameterized formal moduli problems as in def. \ref{ParameterizedFormalModuliProblems} form semantics for non-unital 
-linear homotopy-type theory. 
-
-=--
 
 ### Parameterized modules
+ {#ParameterizedModules}
 
-+-- {: .num_prop}
++-- {: .num_prop #DependentLinearTypeTheoryOfModuleBundles}
 ###### Proposition
 
 Let $E$ be a [[commutative ring]]. Write $E Mod$ for its [[category of modules]]. For $X\in $ [[Set]] write
@@ -402,6 +368,57 @@ $$
 This is semantics for dependent linear type theory in the above sense.
 
 =--
+
++-- {: .num_example #MatrixAsIntegralKernel}
+###### Example
+
+In the context of prop. \ref{DependentLinearTypeTheoryOfModuleBundles}
+consider $E = k$ a [[field]]. Then $k Mod \simeq Vect_k$ is the [[category]] [[Vect]] of $k$-[[vector spaces]].
+
+For $X \in Set$ a set, an $X$-dependent linear type $A \in Mod(X)\simeq Vect_k(X)$ is just a collection of ${\vert X\vert}$ vector spaces $A_x$ for $x\in X$.
+
+For $X \in FinSet \hookrightarrow Set$ a [[finite set]], the [[dependent sum]] and [[dependent product]] operations coincide and produce the [[direct sum]] of vector spaces:
+
+$$
+  \underset{X}{\sum} A \simeq \underset{X}{\prod} A \simeq
+  \underset{x\in X}{\oplus} A_x
+  \in Vect_k(\ast)
+  \,.
+$$
+
+Under this identification every morphism $f \in Mor(Set)$ with finite fibers carries a canonical untwisted fiberwise fundamental class, def.\ref{FiberwiseFundamentalClass}, $[f]_{canonical}$.
+
+For 
+
+$$
+  \array{
+    && X_1 \times X_2
+    \\
+    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+    \\
+    X_1 && && X_2
+  }
+$$
+
+a product corrrespondence of [[finite sets]], then an [[integral kernel]] $K$ on this, according to def. \ref{IntegralKernel}, with $A_i = 1_{X_i}$, is equivalently an ${\vert X_1\vert}\times {\vert X_2\vert}$-array of elements in $k$, hence a [[matrix]] $K_{\bullet,\bullet}$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Given a correspondence with integral kernel as in example \ref{MatrixAsIntegralKernel}, then the induced secondary integral transform according to def. \ref{SIT} is the [[linear function]] 
+
+$$
+  k^{\vert X_1\vert}
+  \longleftarrow
+  k^{\vert X_2\vert}
+$$
+
+represented by that matrix.
+
+=--
+
 
 
 ### Parametrized module spectra
@@ -433,6 +450,106 @@ In the class of models of prop. \ref{ParameterizedModuleSpectra}, linear homotop
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 =--
+
+### Parameterized formal moduli problems
+
++-- {: .num_defn #ParameterizedFormalModuliProblems}
+###### Definition
+
+For $\mathbf{H}$ a [[differential cohesive (∞,1)-topos]] with [[infinitesimal shape modality]] $\Pi_{inf}$ write for any object $X\in \mathbf{H}$
+
+$$
+  Mod(X)
+  \hookrightarrow
+   \mathbf{H}_{/X}^{X/}
+$$
+
+for the [[full sub-(∞,1)-category]] of that of pointed objects over $X$, def. \ref{PointedObjectsInSlice}, on those that are in the kernel of $\Pi_{inf}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The construction in \ref{ParameterizedFormalModuliProblems} has the interpretation as  the category of generalized [[formal moduli problems]] parameterized over $X$. The genuine formal moduli problems satisfy one an extra exactness property of the kind discussed at _[[cohesive (∞,1)-presheaf on E-∞ rings]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Parameterized formal moduli problems as in def. \ref{ParameterizedFormalModuliProblems} form semantics for non-unital 
+linear homotopy-type theory. 
+
+=--
+
+
+### Quasicoherent sheaves of modules 
+ {#ForQuasicoherentSheaves}
+
+Pull-push of [[quasicoherent sheaves]] is usually discussed as a [[Grothendieck context]] of [[six operations]], but under some conditions it also becomes a [[Wirthmüller context]] and hence a model for dependent linear homotopy type theory.
+
+Using results of Lurie this follows in the full generality of [[E-∞ geometry]] ([[spectral geometry]]).
+
+Consider quasi-compact and quasi-separated [[E-∞ algebraic spaces]] ([[spectral algebraic spaces]]). (This includes precisely those [[spectral Deligne-Mumford stacks]] which have a [[scallop decomposition]], see [here](derived+Deligne-Mumford+stack#RelationToDerivedAlgebraicSpaces).)
+
+If $f \;\colon\; X \longrightarrow Y$ is a map between these which is
+
+1. locally almost of finite presentation;
+
+1. strongly proper;
+
+1. has finite [[Tor-amplitude]]
+
+then the left adjoint to pullback of [[quasicoherent sheaves]] exists
+
+$$
+  (f_! \dashv f^\ast)
+    \;\colon\;
+  QCoh(X)
+    \stackrel{\overset{f_!}{\longrightarrow}}{\underset{f^\ast}{\longleftarrow}}
+  QCoh(Y)
+  \,.
+$$
+
+([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|LurieProper, proposition 3.3.23]])
+
+If $f$ is
+
+* quasi-affine
+
+then the right adjoint exists
+
+$$
+  (f^\ast \dashv f_\ast)
+
+    \;\colon\;
+  QCoh(X)
+    \stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\longrightarrow}}
+  QCoh(Y)
+  \,.
+$$
+
+([[Quasi-Coherent Sheaves and Tannaka Duality Theorems|LurieQC, prop. 2.5.12]], [[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|LurieProper, proposition 2.5.12]])
+
+The [[projection formula]] in the dual form
+
+$$
+  f_\ast A \otimes B \longrightarrow f_\ast (A\otimes f^\ast B)
+$$
+
+for $f$ quasi-compact and quasi-separated appears as ([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|LurieProper, remark 1.3.14]]).
+
+Now if all the conditions on $f$ hold, so that $(f_! \dashv f^\ast \dashv f_\ast) \;\colon\; QCoh(X) \longrightarrow QCoh(Y)$, then passing to opposite categories $QCoh(X)^{op} \longrightarrow QCoh(Y)^{op}$ exchanges the roles of $f_!$ and $f_\ast$, makes the projection formula be as in the above discussion and hence yields a Wirthm&#252;ller context.
+
+The existence of [[dualizing modules]] $K$
+
+$$
+  D X = [X,K]
+$$ 
+
+is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
+
 
 ## Structures in linear homtopy-type theory
 
@@ -508,8 +625,9 @@ for the [[functor]] given by internal hom into the unit object. In regarding $\m
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_prop #DependentLinearDeMorganDuality}
+###### Proposition 
+**(dependent linear de Morgan duality)**
 
 In semantics for a dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, linear negation, def. \ref{LinearNegation}, intertwines dependent sum and dependent product:
 
@@ -526,7 +644,7 @@ For proof see [here](Wirthm&#252;ller%20context#ComparisonOfPushForwardsAndWirth
 
 ### Primary integral transforms
 
-+-- {: .num_defn }
++-- {: .num_defn #PolynomialFunctorsAndCorrespondences}
 ###### Definition
 
 Given semantics $Mod\colon \mathcal{C}^{op}\to SymMonCat$ for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, and given objects $X_1, X_2$ of $\mathcal{C}$ then a **linear [[polynomial functor]]** 
@@ -541,7 +659,7 @@ $$
   P \simeq \underset{f_2}{\sum} \underset{g}{\prod} f_1^\ast
 $$
 
-for a [[diagram]]in $\mathcal{C}$ of the form
+for a [[diagram]] in $\mathcal{C}$ of the form
 
 $$
   \array{
@@ -603,11 +721,174 @@ By [[Frobenius reciprocity]].
 =--
 
 
-### Fundamental classes and measures
+### Fundamental classes
+ {#FundamentalClasses}
+
++-- {: .num_defn #FiberwiseFundamentalClass}
+###### Definition
+
+A _fiberwise twisted fundamental class_ $[f]$ on a morphism $f \colon X\to Y$ in $\mathcal{C}$ is 
+
+1. a choice of dualizable object $\tau \in Mod(Y)$ (the twist);
+
+1. a choice of equivalence 
+
+   $$
+     \underset{f}{\sum} f^\ast 1_X
+     \stackrel{\simeq}{\longrightarrow}
+     \underset{f}{\prod} f^\ast \tau
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn }
+###### Remark
+
+In view of dependent linear de Morgan duality, prop. \ref{DependentLinearDeMorganDuality}, a fiberwise twisted fundamental class in def. \ref{FiberwiseFundamentalClass} is equivalently a choice of equivalence
+
+
+$$
+  \underset{f}{\sum} f^\ast 1_X
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{D}\underset{f}{\sum} f^\ast \mathbb{D}\tau
+  \,,
+$$
+
+hence an identification of the dependent sum of the unit with the dual of the dependent sum of the twist.
+
+=--
+
++-- {: .num_prop #WirthmullerIsomorphism}
+###### Proposition
+
+A twisted fiberwise fundamental class $[f]$, def. \ref{FiberwiseFundamentalClass}, induces for all dualizable $A\in Mod(X)$ a [[natural equivalence]]
+
+$$
+  \mathbb{D} \underset{f}{\sum} f^\ast \mathbb{D}(A\otimes \tau)
+  \simeq
+  \underset{f}{\sum}f^\ast A
+  \,.
+$$
+
+=--
+
+This is the "[Wirthm&#252;ller isomorphism](Wirthm&#252;ller%20context#ComparisonOfPushForwardsAndWirthmuelleriso)".
+
++-- {: .num_defn #ComponentOfFiberwiseClass}
+###### Definition
+
+For $[f]$ a twisted fiberwise fundamental class and for $A$ dualizable, write 
+
+$$
+  [f]_A
+  \;\colon\;
+  A \otimes \tau
+  \stackrel{\mathbb{D}_{\epsilon_{\mathbb{D}(A \otimes \tau)}}}{\longrightarrow}
+  \mathbb{D} \underset{f}{\sum} f^\ast (\mathbb{D}(A\otimes \tau))
+  \stackrel{\simeq}{\longrightarrow}
+  \underset{f}{\sum}f^\ast A
+$$
+
+for the composite of the linear dual of the $(\sum_f \dashv f^\ast)$-[[counit of an adjunction|adjunction counit]] and the Wirthm&#252;ller isomorphism, prop. \ref{WirthmullerIsomorphism}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The key point is that the morphism in def. \ref{ComponentOfFiberwiseClass} goes in the reverse direction of the [[counit of an adjunction|adjunction counit]]. In this way it plays a role in the construction of secondary integral transforms [below](#SecondaryIntegralTransforms).
+
+=--
+
 
 ### Secondary integral transforms
+ {#SecondaryIntegralTransforms}
 
-### Dagger-structure
++-- {: .num_defn #IntegralKernel}
+###### Definition
+
+For 
+
+$$
+  \array{
+    && Z
+    \\
+    & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+    \\
+    X_1
+    && &&
+    X_2
+  }
+$$
+
+a [[correspondence]] as in def. \ref{PolynomialFunctorsAndCorrespondences}, then an _[[integral kernel]]_ for it is the choice of
+
+1. two dualizable objects $A_i \in Mod(X_i)$;
+
+1. a morphism between their pullbacks to the correspondence space: 
+
+   $$
+     f_1^\ast A_1 \stackrel{K}{\longleftarrow} f_2^\ast A_2
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn #SIT}
+###### Definition
+
+Given 
+
+1. a [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longrightarrow} X_2$ as in def. \ref{PolynomialFunctorsAndCorrespondences};
+
+1. an [[integral kernel]] $K$ as in def. \ref{IntegralKernel};
+
+1. a $\tau$-twisted fundamental class $[f_2]$ as in def. \ref{FiberwiseFundamentalClass}
+
+we say that the induced _secondary integral transform_ is the morphism
+
+$$
+  \int_Z \Xi d \mu_f
+  \;\colon\;
+  \mathbb{D} \underset{X_1}{\sum} A_1
+  \longrightarrow
+  \mathbb{D}\underset{X_2}{\sum} (A_2\otimes \tau)
+$$
+
+which is the dual (the image under $\mathbb{D}(-)$) of the following composite:
+
+$$
+  \underset{X_1}{\sum} A_1
+  \stackrel{\underset{X_1}{\sum}\epsilon_{A_1}}{\longleftarrow}
+  \underset{X_1}{\sum}
+  \underset{f_1}{\sum}
+  f_1^\ast A_1
+  \stackrel{\simeq}{\leftarrow}
+  \underset{Z}{\sum}f_1^\ast A_1
+  \stackrel{\underset{Z}{\sum} K}{\longleftarrow}
+  \underset{Z}{\sum}f_2^\ast A_2
+  \stackrel{\simeq}{\leftarrow}
+  \underset{X_2}{\sum}\underset{f_2}{\sum} f_2^\ast A_2
+  \stackrel{\underset{X_2}{\sum}[f_2]_{A_2}}{\longleftarrow}
+  \underset{X_2}{\sum} (A_2\otimes \tau)
+  \,,
+$$
+
+where the morphism on the left is the [[counit of an adjunction|adjunction counit]], the morphism in the middle is the given [[integral kernel]], and the morphism on the right is the given fundamental class.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longrightarrow} X_2$ may be thought of as a space $Z$ of "paths" or "trajectories" that connect points in $X_2$ to points in $X_1$. From this point of view definition \ref{SIT} is a linear map that takes functions on $X_2$ to functions on $X_1$ by pointwise forming a sum over paths connecting these points and adding all the contributions of the given [[integral kernel]] along these paths.
+
+This is conceptually just how the [[path integral]] in [[physics]] is supposed to work, only that mostly it doesn't due to lack of a definition. However, at least some path integrals for [[topological field theories]] may be realized as secondary integral transforms of the above kind.
+
+=--
+
 
 
 
@@ -655,6 +936,7 @@ A [[syntax]] extending [[LF]] with linear dependent types was first published in
  
 * {#Pfenning96} Iliano Cervesato, [[Frank Pfenning]], _A Linear Logical Framework_, 1996, ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.1152))
 
+
 Note that this framework was restricted to the _negative_ fragment of [[intuitionistic linear logic]] and [[dependent type theory]] (i.e., $\multimap$, $\&$ and $\Pi$).  The problem of extending [[LF]] to positive connectives ($\otimes,1,!,\exists$) while retaining a reasonable notion of [[canonical form]] was later addressed by
 
 * {#WCFW03} Kevin Watkins, Iliano Cervesato, [[Frank Pfenning]], David Walker, _A concurrent logical framework I: Judgments and properties_, CMU technical report CMU-CS-02-101, revised May 2003 ([web](http://www.cs.cmu.edu/~fp/papers/CMU-CS-02-101.pdf))
@@ -686,7 +968,7 @@ Discussion of what should be the [[categorical semantics]] of dependent linear t
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
  
 
-Comments on the formalization of secondary [[integral transforms]] and [[quantization]] in dependent linear homotopy type theory are at
+Comments on the formalization of secondary [[integral transforms]] and [[quantization]] in dependent linear homotopy-type theory are at
 
 * {#Schreiber14} [[Urs Schreiber]] _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
 
