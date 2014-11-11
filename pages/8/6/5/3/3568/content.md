@@ -9,7 +9,7 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 This semester, we are holding a [[seminar on factorization algebras]]. 
 
 ***
-###Upcoming Event###
+###Event###
 
 
 [Higher Structures in Geometry and Physics, Geneva, Oct. 27--31, 2014](http://ncatlab.org/higherstructureconferences/show/higherstructure2014)
