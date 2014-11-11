@@ -231,7 +231,7 @@ The proof is purely formal. Let $X$ and $Y$ be simplicial sets. By the [[co-Yone
 $$X \cong \int^m X(m) \cdot \Delta(-, m)  \qquad Y \cong \int^n Y(n) \cdot \Delta(-, n)$$ 
 and so we calculate 
 $$\array{
-R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, n)) \times (\int^n Y(n) \cdot \Delta(-, n))) \\
+R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, m)) \times (\int^n Y(n) \cdot \Delta(-, n))) \\
  & \cong & R(\int^m \int^n X(m) \cdot Y(n) \cdot (\Delta(-, m) \times \Delta(-, n))) \\
  & \cong & \int^m \int^n X(m) \cdot Y(n) \cdot R(\Delta(-, m) \times \Delta(-, n)) \\
  & \cong & \int^m \int^n X(m) \cdot Y(n) \cdot (R(\Delta(-, m)) \times R(\Delta(-, n)) \\
