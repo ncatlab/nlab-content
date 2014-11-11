@@ -290,7 +290,7 @@ Discussion in [[topos theory]] is in
 
 * {#Fourman75} [[Michael Fourman]], _Comparaison des R&#233;els d'un Topos - Structures Lisses sur un Topos El&#233;mentaire_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.233-239. ( _Colloque Amiens 1975 proceedings_ ) (p. 18-24 in [NUMDAM](http://www.numdam.org/item?id=CTGDC_1975__16_3_217_0)))
 
-* [[Michael Fourman]], _T_1 Spaces over Topological Sites_ , JPAA **27** (1983) pp.223-224.
+* [[Michael Fourman]], _T$_1$ Spaces over Topological Sites_ , JPAA **27** (1983) pp.223-224.
 
 * [[Michael Fourman]], [[Martin Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf), 6.64 MB)
 
