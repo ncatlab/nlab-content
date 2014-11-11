@@ -28,7 +28,7 @@ You can interpret intuitionistic negation as 'denial' and paraconsistent negatio
 
 [[linear logic|Linear logic]] features (at least) three different forms of negation, one for each of the above.  (The default meaning of the term 'negation' in linear logic, $p^\bot$, is the one that satisfies the classical double-negation law.)
 
-Accordingly, negation mediates [[de Morgan duality]] in classical and linear logic but not in intuitionistic or paraconsistent logic.
+Accordingly, negation mediates [[de Morgan duality]] in classical and [[linear logic]] but not in intuitionistic or paraconsistent logic.
 
 ## In type theory syntax
 
@@ -43,3 +43,5 @@ In a [[topos]], the __negation__ of an object $A$ (a [[proposition]] under the [
 This matches the [[intuitionistic mathematics|intuitionistic]] notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
 
 [[!redirects not]]
+
+[[!redirects linear negation]]
