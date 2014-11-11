@@ -127,7 +127,7 @@ In deformation theory it was early on recognized that for a good theory the noti
 
 It turns out that all these concepts are special cases of a construction obtained from a simple higher categorical notion, that of [[left adjoint]] [[section]]s of a [[tangent (∞,1)-category]]. 
 
-### In logic {#Logic}
+### In logic and type theory {#Logic}
 
 While it is common to view logic as the study of absolute truth, in fact logic can have many different interpretations, or [[semantics]].  A particular semantics for logic can be useful both to inform the study of logic, and to prove facts logically about the semantics.  One very fruitful semantics of this sort is *categorical semantics* for logic and [[type theory]], according to which every category (and especially every [[topos]]) has an [internal language](/nlab/show/type+theory#CategoricalSemantics) and [[internal logic]].  Interpreting "ordinary" mathematical statements in the internal language of exotic categories can make it much easier to study those categories, while on the other hand it can provide new insight into otherwise mysterious logical notions.
 
