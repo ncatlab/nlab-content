@@ -16,12 +16,16 @@ A contemporary thesis in this area:
 
 * Michael Moortgat, _Categorial type logics_, [pdf](http://www.let.uu.nl/~Michael.Moortgat/personal/Courses/CG08/Docs/lola-ch2.pdf) (ch. 2 in _Handbook of logic and language_, Elsevier 1997)
 
-##Related Concepts
+## Related Concepts
 
 * [[linguistics]]
 * [[type theory]]
 * [[context-free grammar]]
 * [[lambda calculus]]
+
+## References
+
+* Daniel J. Dougherty, _Closed Categories and Categorial Grammar_ , Notre Dame Journal of Formal Logic **34** no.1 (1993) pp.36-49. ([pdf](http://web.cs.wpi.edu/~dd/publications/ndjfl93.pdf))
 
 [[!redirects categorial grammar]]
 [[!redirects categorial grammars]]
