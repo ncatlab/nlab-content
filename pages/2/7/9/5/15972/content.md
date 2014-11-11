@@ -40,7 +40,7 @@ which clearly has an interesting meaning only in the setting of derived geometry
 
 To make the above construction work for general Artin stacks, one needs to make it local for the smooth topology. This is done by replacing the loop space groupoid $P_Y X$ acting on $Y$ by its formal completion along the identity morphism. This gives a formal groupoid $\hat{P}_Y X$ that is equivalent modulo the [[HKR]] theorem (in characteristic $0$) to $T_Y[-1]X$ for a general Artin stack. Similarly, we will have $\hat{L}M:=\hat{P}_M(M\times M)\cong T[-1]M$ by [[HKR]].
 
-The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
+The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the (**false to be corrected**) formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
 $$
 \widetilde{P_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\; f(1,0)\in Y,\;f(-,1)\in (X\backslash Y)\Rightarrow f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
 $$
