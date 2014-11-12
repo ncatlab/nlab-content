@@ -58,7 +58,7 @@ Notice that the following relation between syntax and semantics are well establi
 
 |  [[syntax]] | [[semantics]] |
 |-------------|---------------|
-| [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[closed monoidal category]], [[symmetric monoidal category|symmteric]]) [[monoidal categories]] |
+| [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[closed monoidal category]], [[symmetric monoidal category|symmetric]]) [[monoidal categories]] |
 | [[dependent type theory]] | [[locally cartesian closed categories]] |
 
 Here the correspondence in the first line works by interpreting [[types]] $X$ in the [[linear type theory]] as [[objects]] $[X] in a [[monoidal category]] $\mathcal{C}^{\otimes}$ and by interpreting the [[conjunctions]] (as far as they exist) as follows:
@@ -551,7 +551,7 @@ $$
 is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
 
 
-## Structures in linear homtopy-type theory
+## Structures in linear homotopy-type theory
 
 We discuss here structures (constructions) that may be defined and studied within linear homotopy-type theory.
 
