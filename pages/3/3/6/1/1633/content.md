@@ -58,7 +58,8 @@ Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not a
 
 ### Gelfand duality
 
-Under [[Gelfand duality]] the category of (locally) compact Hausdorff topological spaces is equivalent to the [[opposite category]] of (non-unital) commutative [[C-star algebras]].
+Under [[Gelfand duality]] the category of compact Hausdorff topological spaces is equivalent to the [[opposite category]] of commutative [[C-star algebras]]. With some care there are generalizations of this also to locally compact topological spaces. See at _[[Gelfand duality]]_ for more.
+
 
 
 ### Further properties 
