@@ -224,7 +224,11 @@ The role of [[spin structure]]s as the anomaly cancellation condition for the sp
 
 The anomaly line bundles for [[self-dual higher gauge theory]] is discussed in 
 
-* Samuel Monnier, _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+* [[Samuel Monnier]], _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+
+Discussion in the context of [[extended topological field theory]] includes
+
+* {#1410.7442} [[Samuel Monnier]], _Hamiltonian anomalies from extended field theories_, ([arxiv/1410.7442](http://arxiv.org/abs/1410.7442))
 
 ### Gauge anomaly
  {#ReferencesGaugeAnomaly}
