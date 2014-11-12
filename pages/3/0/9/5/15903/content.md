@@ -25,7 +25,7 @@
 
 ## Idea
 
-In a [[co-Heyting algebra]] it is possible to define a **negation operator** $\sim$ which validates the _law of excluded middle_ but invalidates the _law of non-contradiction_ dual to the negation in a [[Heyting algebra]].
+In a [[co-Heyting algebra]] it is possible to define a [[negation|negation operator]] $\sim$ which validates the _law of excluded middle_ but invalidates the _law of non-contradiction_ dual to the negation in a [[Heyting algebra]].
 
 ## Definition
 
@@ -41,7 +41,7 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 *  $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$.
 
-* $\sim$ can be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of the co-Heyting negation for **paraconsistent logic**.
+* $\sim$ can be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of the co-Heyting negation for [[paraconsistent logic]].
 
 * The co-Heyting supplement satisfies the dual **de Morgan rule** $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but only $\sim\sim (a\vee b) = (\sim\sim a)\wedge (\sim\sim b)$ in general.
 
@@ -53,10 +53,12 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 * [[co-Heyting boundary]]
 * [[co-Heyting algebra]]
+* [[negation]]
 * [[Heyting algebra]]
 * [[Heyting category]]
 * [[mereology]]
 * [[adjoint modality]]
+* [[paraconsistent logic]]
 
 ## References
 
