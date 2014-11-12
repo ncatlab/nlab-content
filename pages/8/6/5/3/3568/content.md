@@ -13,8 +13,7 @@ This semester, we are holding a [[seminar on factorization algebras]].
 
 
 [Higher Structures in Geometry and Physics, Geneva, Oct. 27--31, 2014](http://ncatlab.org/higherstructureconferences/show/higherstructure2014)
-
-
+, which is one of the [series.](http://ncatlab.org/higherstructureconferences)
 
 category: people
 
