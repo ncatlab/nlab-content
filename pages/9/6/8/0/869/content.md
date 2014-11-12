@@ -16,7 +16,11 @@
 
 ## Idea
 
-In [[logic]], the __negation__ of a statement $p$ is a statement $\neg{p}$ which is true if and only if $p$ is false.
+In (classical) [[logic]], the __negation__ of a statement $p$ is a statement $\neg{p}$ which is true if and only if $p$ is false. Hence, viewed algebraically, the negation corresponds to the complement operator of the corresponding [[Boolean algebra]] which satisfies $a\wedge\neg a=\bot$ as well as $a\vee \neg a=\top$.
+
+More generally, as different logics correspond to different types of lattices, one calls *negation* antitone, or polarity reversing, lattice operators that mimic or approximate the algebraic and proof-theoretic behavior of $\neg$.
+
+## Negation in different logics
 
 In [[classical logic]], we have the [[double negation]] law:
 $$\neg\neg{p} \equiv p.$$
