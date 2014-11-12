@@ -103,8 +103,16 @@ It may be tempting to think of the LF-types such as $tp$ and $tm$ as [[inductive
 
 Suppose, for instance, that $tm$ were inductively defined inside of LF.  Then we could define a function $tm\to tm$ by pattern-matching on the structure of $tm$, doing one thing if $tm$ were a lambda-abstraction and another thing if it were a function application.  But such a function is definitely *not* the sort of thing that we want to be able to pass to the LF-function $lam$!  By disallowing such matching, though, we can guarantee that the only functions $tm\to tm$ we can define and pass to $lam$ correspond to "substituting in a fixed term" as we intended.
 
-It's worth noting that this design choice essentially renders LF incapable of representing object-theory variables in any *other* way than with HOAS.  For ordinary usage of variables requires the ability to compare "variables" for equality and disequality, and since LF has no inductive types, we cannot define therein any type that could function as "variables" in this way.
+As an even simpler example, suppose we consider an object-theory containing just one LF-type $nat$ together with constructors $z : nat$ and $s : nat \to nat$.  Although we would like to think of $nat$ as representing the natural numbers, because of the lack of an induction principle, the LF-type $nat \to nat$ is certainly much smaller than the space of functions from natural numbers to natural numbers (essentially, it contains just constant functions, and functions incrementing their argument by a fixed constant).  On the other hand, to some extent it is possible to get around this restriction by taking a _relational_ rather than a functional point-of-view.  For example, addition of natural numbers can be defined as a type family
 
+    add : nat -> nat -> nat -> type
+
+together with a pair of constructors
+
+    add/z : {N:nat} add z N N.
+    add/s : {M:nat}{N:nat}{P:nat} add M N P -> add (s M) N (s P).
+
+Now, it is still not possible to prove _inside_ LF that $add$ is a total functional relation (i.e., that for all `M:nat` and `N:nat` there exists a unique `P:nat` such that `add M N P`).  However, in this case that is certainly easy to verify by inspection, and the [[Twelf]] proof assistant has facilities for verifying such properties automatically (though in general checking totality is better supported than checking uniqueness).
 
 ## Implementations
 
