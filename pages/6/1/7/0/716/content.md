@@ -15,13 +15,32 @@
 
 ## Definition
 
-A **compact closed category**, or simply a **compact category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]], hence a [[rigid monoidal category|rigid]] symmetric monoidal category.
-
-In particular, a compact closed category is a [[closed monoidal category]], with the [[internal hom]] given by $[A,B] = A^* \otimes B$ (where $A^*$ is the [[dual object]] of $A$).
+A **compact closed category**, or simply a **compact category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]], hence a [[rigid monoidal category|rigid]] [[symmetric monoidal category]].
 
 More generally, if we drop the symmetry requirement, we obtain a [[rigid monoidal category]], a.k.a. an *autonomous category*.  Thus a compact category may also be called a **rigid symmetric monoidal category** or a **symmetric autonomous category**.  A maximally clear, but rather verbose, term would be a **symmetric monoidal category with duals for objects**.
 
 ## Properties
+
+### Internal hom and compact closure
+
+A rigid symmetric monoidal category $(\mathcal{C}, \otimes)$ is in particular a [[closed monoidal category]], with the [[internal hom]] given by 
+
+$$
+  [A,B] \simeq A^* \otimes B
+$$ 
+
+(where $A^*$ is the [[dual object]] of $A$), via the [[natural equivalence]]
+
+$$
+  \mathcal{C}(C,[A,B])
+  \simeq
+  \mathcal{C}(C, A^\ast \otimes B)
+  \simeq
+  \mathcal{C}(C \otimes A, B)
+  \,.
+$$
+
+This is what the terminology "compact closed" refers to.
 
 ### Relation to traced monoidal categories
  {#RelationToTracedMonoidalCategories}
