@@ -75,7 +75,15 @@ In an analytic presentation of a logic, in addition to merely giving "axioms" su
 
     app A B (lam A B F) M = F M
 
-This need to specify equations makes it more difficult to implement analytic presentations on a computer.  For instance, [[Twelf]] can only handle synthetic presentations.
+From a practical point-of-view, rather than extending the logical framework with ad hoc definitional equalities to represent a particular object-theory, often what is actually done is that equality is defined as another type family with explicitly-introduced constructors.  For example, in [[Twelf]], the above equation could be represented by first introducing the type family
+
+    eq : {A:tp} el A -> el A -> type
+
+(Twelf uses braces as notation for the [[dependent product]]), and then postulating a constant
+
+    beta : {A:tp} {B:tp} eq (app A B (lam A B F)) (F M)
+
+in addition to the other axioms of equality.
 
 ### Higher-order abstract syntax
 
