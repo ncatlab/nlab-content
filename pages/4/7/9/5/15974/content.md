@@ -29,6 +29,8 @@ There arevarious flavors of the definition. Typically they all say that an opeto
 
 ([Hermida-Makkai-Power 01](#HermidaMakkaiPower01), [Makkai](#Makkai))
 
+The actual definition of opetopic $\omega$-categories, called "multitopic $\omega$-categories" here, appears on p.57 of ([Makkai](#Makkai)).
+
 ### By Palm
  {#DefinitionByPalm}
 
