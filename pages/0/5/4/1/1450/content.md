@@ -206,6 +206,7 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 Two articles that exhibit the link to [[continuum mechanics]]:
 
+
 * [[Bill Lawvere|F. W. Lawvere]], _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf))
 
 * [[Bill Lawvere|F. W. Lawvere]], _Categorical algebra for continuum microphysics_ , JPAA **175** (2002) pp.267-287.
@@ -223,9 +224,9 @@ A nice elementary introduction which emphasizes calculations and the application
 
 The textbooks 
 
-*  [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+*  {#KockBookA} [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
-*  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+*  {#KockBookB} [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
