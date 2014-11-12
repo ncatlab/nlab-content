@@ -53,6 +53,7 @@ In [[geometry]]/[[topos theory]] such a "linear hyperdoctrine" is known as _[[si
 We define here the [[categorical semantics]] that linear homotopy type theory is supposed to have. So its [[syntax|syntactic]] definition is to be such that at least all of the following constitute [[models]] for the theory. In order to indicate the semantic level we will try to keep a hyphen  in "linear homotopy-type theory".
 
 ### Dependent linear type theory
+ {#DependentLinearTypeTheory}
 
 Notice that the following relation between syntax and semantics are well established (see at _[[relation between type theory and category theory]]_ for details):
 
@@ -120,13 +121,13 @@ The [[syntax]] of which such "[[hyperdoctrines]] of [[symmetric monoidal categor
 
 A _semantics for (symmetric, closed) dependent linear type theory_ is
 
-1. a [[category]] $\mathcal{C}$;
+1. a [[category]] $\mathcal{C}$ with [[finite limits]];
 
-1. a [[functor]] $Mod \colon \mathcal{C}^{op} \to MonCat$ to [[monoidal categories]];
+1. a [[functor]] $Mod \colon \mathcal{C}^{op} \to MonCat$ from its [[opposite category]] to [[monoidal categories]];
 
 such that 
 
-1. in the symmetric, closed case each $Mod(X)^\otimes$ is [[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]  (with [[internal hom]] to be denoted $[-,-]$);
+1. each $Mod(X)^\otimes$ is [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]]  (with [[internal hom]] to be denoted $[-,-]$);
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
@@ -135,6 +136,8 @@ such that
 If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\ast)$, then we speak of _linear homotopy-type theory with Beck-Chevalley condition_.
 
 =--
+
+Under the [[Grothendieck construction]] this is equivalently an [[indexed closed monoidal category]] as considered in ([Ponto-Shulman 12](#PontoShulman12)).
 
 +-- {: .num_defn }
 ###### Remark
@@ -146,7 +149,7 @@ $$
   \,.
 $$
 
-If all monoidal categories are [[closed monoidal categories]] then the condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
+Since all monoidal categories are [[closed monoidal categories]] then the condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
 
 $$
   f^\ast [X,Y] \simeq [f^\ast X, f^\ast Y]
@@ -165,7 +168,7 @@ $$
   (f_! \dashv f^\ast),\; (f^\ast \dashv f_\ast),\; (\otimes \dashv [-,-])
 $$
 
-satisfying some compatibility conditions. This is precisely Grothendieck's [[yoga of six functors]] for the special case that the right adjoint of $f_!$ coincides with the left adjoint of $f_\ast$. This special case is also known as the _[[Wirthmüller context]]_ version of the yoga of six functors.
+satisfying some compatibility conditions. This is precisely Grothendieck's _[[yoga of six functors]]_ for the special case that the right adjoint of $f_!$ coincides with the left adjoint of $f_\ast$. This special case is also known as the _[[Wirthmüller context]]_ version of the yoga of six functors.
 
 
 =--
@@ -191,9 +194,7 @@ $$
   \,.
 $$
 
-=--
-
-The statement of [[Frobenius reciprocity]] then equivalently reads as
+The statement of [[Frobenius reciprocity]] then equivalently reads like this:
 
 $$
   \underset{f}{\sum}
@@ -210,13 +211,33 @@ $$
 $$
 
 
+Notice that $\underset{f}{\sum}$ has the interpretation of summing over all the [[fibers]] of the morphism $f$, as the elements in its [[codomain]] vary. Therefore it is sometime suggestive to use the notation
+
+$$
+  \underset{f^{-1}(-)}{\sum}
+  \coloneqq
+  \underset{f}{\sum}
+  \,.
+$$
+
+In this vein, for $X \in \mathcal{C}$ any object and $p_X \colon X \to \ast$ the canonical morphism to the [[terminal object]], we abbreviate as
+
+$$
+  \underset{X}{\sum}
+  \coloneqq
+  \underset{p_X}{\sum}
+  \,.
+$$
+
+=--
 
 
 
 ### Linear homotopy type theory
+ {#LinearHomotopyTypeTheory}
 
 
-All this has a straightforward refinement to [[homotopy theory]]. To appreciate this, notice that the following relation is well established (see again at _[[relation between type theory and category theory]]_ for details):
+This discussion of dependent linear type theory [above](#DependentLinearTypeTheory) has an evident straightforward refinement to [[homotopy theory]]. To appreciate this, notice that the following relation is well established (see again at _[[relation between type theory and category theory]]_ for details):
 
 
 |  [[syntax]] | [[semantics]] |
@@ -233,14 +254,14 @@ Taking all this together, we set:
 
 A _semantics for linear homotopy type theory_ is
 
-1. an [[(∞,1)-category]] $\mathcal{C}$;
+1. an [[(∞,1)-category]] $\mathcal{C}$ with [[finite (∞,1)-limits]];
 
-1. an [[(∞,1)-functor]] $Mod \colon \mathcal{C}^{op} \to SymMonCat_\infty$ to closed [[symmetric monoidal (∞,1)-categories]];
+1. an [[(∞,1)-functor]] $Mod \colon \mathcal{C}^{op} \to MonCat_\infty$ to [[monoidal (∞,1)-categories]];
 
 
 such that 
 
-1. each $Mod(X)$ is closed;
+1. each $Mod(X)$ is [[symmetric monoidal (∞,1)-category|symmetric]] closed (with [[internal hom]] to be denoted $[-,-]$); 
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[(∞,1)-functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
@@ -285,21 +306,25 @@ $$
 
 
 
-## Examples
+## Examples / Models
+
+We consider here examples of semantics for [dependent linear type theory](#DependentLinearTypeTheory) and for [linear homtopy type theory](#LinearHomotopyTypeTheory). For each example we also spell out some of the abtract constructions (discussed in _[Structures in linear homotopy type theory](#StructuresInLinearHomotopyTypeTheory))_ realized in that model.
 
 ### Slices of a topos
+
+The following example is trivial and not the kind of example of genuine interest, but it may be instructive to start with this example anyway.
 
 +-- {: .num_example}
 ###### Example
 
-For $\mathbf{H}$ a [[topos]], then its system of [[slice toposes]] is a model for dependent linear type theory.
+For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{H}^{op} \to CartMonCat \to MonCat$ of [[slice toposes]] is semantics for dependent linear type theory, def. ref{SemanticsForDependentLinearTypeTheory}.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This example for dependent linear type theoey is extremely "non-linear".  
+This example for dependent linear type theory is extremely "non-linear".  
 One way to characterize this is to observe that this dependent linear type theory has alomost no [[dualizable object|dualizable]] linear types. The only one is the terminal object in each slice. Given that the above formulas notably for secondary integral transforms (def.\ref{SIT}) assume dualizable objects, this means that in this non-linear context there will be no nontrivial secondary integral transforms.
 
 =--
@@ -309,7 +334,7 @@ Accordingly we now pass gradually to more and more linear examples that are more
 ### Parameterized pointed objects
  {#PointedObjects}
 
-A first step away from the Cartesian example [above](#CartesianWirthmuellerContexts) is the following.
+A first step away from the Cartesian example [above](#CartesianWirthmuellerContexts) towards more genuinely linear types is the following.
 
 +-- {: .num_defn #PointedObjectsInSlice}
 ###### Definition
@@ -327,7 +352,17 @@ for the [[category of pointed objects]] in the [[slice topos]] $\mathbf{H}_{/X}$
 +-- {: .num_prop}
 ###### Proposition
 
-For $f \colon X \longrightarrow Y$ any [[morphism]] in $\mathbf{H}$, the [[base change]] [[inverse image]] $f^\ast$ restricts to a functor $f^\ast \colon \mathcal{C}_Y \longrightarrow \mathcal{C}_X$ which is a Wirthm&#252;ller context.
+For $f \colon X \longrightarrow Y$ any [[morphism]] in $\mathbf{H}$, the [[base change]] [[inverse image]] $f^\ast$ restricts to a functor $f^\ast \colon \mathcal{C}_Y \longrightarrow \mathcal{C}_X$ and this makes
+
+$$
+  \mathbf{H}_{/(-)}^{(-)/}
+  \;\colon\;
+  \mathbf{H}^{op}
+  \longrightarrow
+  MonCat
+$$
+
+semantics for dependent linear type theory in the sense of def. \ref{SemanticsForDependentLinearTypeTheory}.
 
 =--
 
@@ -348,6 +383,8 @@ To see that $f^\ast$ is a [[strong monoidal functor]] observe that the [[smash p
 
 ### Parameterized modules
  {#ParameterizedModules}
+
+The examples of genuinely linear objects in the sense of [[linear algebra]] are the following.
 
 +-- {: .num_prop #DependentLinearTypeTheoryOfModuleBundles}
 ###### Proposition
@@ -422,6 +459,15 @@ represented by that matrix.
 
 
 ### Parametrized module spectra
+
+The example of parameterized modules [above](#ParameterizedModules) has an evident generalization from [[linear algebra]] to [[stable homotopy theory]] with [[abelian categories|abelian]] [[categories of modules]] refined to [[stable (∞,1)-categories|stable]] [[(∞,1)-categories of ∞-modules]]. Despite of what this [[higher category theory]]-terminology might make the reader feel, this refinement flows naturally along the same lines as the 1-categorical situation. One may view the axiomatics of linear dependent homotopy type theory as neatly characterizing precisely this intimate similarity.
+
+| [[linear algebra]] | [[brave new algebra]] |
+|--------------------|-----------------------|
+| [[abelian group]]  | [[spectrum]] |
+| [[commutative ring]] | [[E-∞ ring|E-∞]] [[ring spectrum]] |
+| [[module]] | [[∞-module]] spectrum |
+| [[abelian category|abelian]] [[category of modules]] | [[stable (∞,1)-category|stable]] [[(∞,1)-category of ∞-modules]] |
 
 +-- {: .num_prop #ParameterizedModuleSpectra}
 ###### Proposition
@@ -552,6 +598,7 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 
 ## Structures in linear homotopy-type theory
+ {#StructuresInLinearHomotopyTypeTheory}
 
 We discuss here structures (constructions) that may be defined and studied within linear homotopy-type theory.
 
@@ -559,7 +606,7 @@ We discuss here structures (constructions) that may be defined and studied withi
 ### Exponential modality and Fock spaces
  {#TheCanonicalComodality}
 
-The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the [[!-modality]].
+The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the _[[exponential modality]]_.
  
 In ([Benton 95, p.9,15](#Benton95), [Bierman 95](#Bierman95))
 it is noticed (reviewed in ([Barber 97, p. 21 (26)](#Barber97))) that a natural [[categorical semantics]] for this modality identifies it with the [[comonad]] that is induced from a [[strong monoidal adjunction]]
@@ -567,27 +614,33 @@ it is noticed (reviewed in ([Barber 97, p. 21 (26)](#Barber97))) that a natural 
 $$
   (\Sigma \dashv R)
   \;\colon\;
-  \mathcal{C}
+  Mod(\ast)
   \stackrel{\overset{\Sigma}{\leftarrow}}{\underset{R}{\longrightarrow}}
-  S
+  \mathcal{C}
 $$
 
-between the [[closed monoidal category|closed]] [[symmetric monoidal category]] $\mathcal{C}$ which interprets the given [[linear type theory]] and a [[cartesian monoidal category]] $S$.
+between the [[closed monoidal category|closed]] [[symmetric monoidal category]] $Mod(\ast)$ which interprets the given [[linear type theory]] and a [[cartesian monoidal category]] $\mathcal{C}$.
+
+If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; \mathcal{C} \longrightarrow Mod(\ast)$ without possibly a [[right adjoint]], then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural [[fragment]]_ of [[linear type theory]].
 
 
-If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; S \longrightarrow \mathcal{C}$ without possibly a [[right adjoint]], then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural fragment_ of [[linear type theory]].
+In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $Mod(\ast)$ is the [[linear type theory]] over the trivial context $\ast$ of a dependent linear type theory ([[indexed closed monoidal category]]) with category of contexts being $\mathcal{C}$: 
 
++-- {: .num_dern }
+###### Definition
 
-In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $\mathcal{C} \simeq \mathcal{C}_\ast$ is the linear type theory over the trivial context of a dependent linear type theory/[[indexed closed monoidal category]] with category of contexts being $S$.
+Let $Mod \colon \mathcal{C}^{op} \to MonCat$ be semantics for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}. Then for $X \in \mathcal{C}$ an object, set
 
-Namely in this case it is natural to set for $X \in S$
 
 $$
-  \Sigma(X) \coloneqq (\pi_X)_! (\pi_X)^\ast 1_{\ast}
+  \Sigma(X) \coloneqq \underset{X}{\sum} 1_X
+  \in Mod(\ast)
   \,,
 $$
 
-where $\pi_X \;\colon\; X \longrightarrow \ast$ is the canonical morphism to the [[terminal object]] in $S$; and to set for $\phi \;\colon\; X \longrightarrow Y$ any [[morphism]] in $S$
+spring
+
+and to set for $\phi \;\colon\; X \longrightarrow Y$ any [[morphism]] in $S$
 
 $$
   \Sigma(\phi) 
