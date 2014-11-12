@@ -23,10 +23,9 @@
 
 ## Idea
 
-In the general context of [[foundations of mathematics]] 
-in **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations. 
+In the context of [[foundations of mathematics]] the term **practical foundations** (following a term introduced in ([Taylor](#Taylor))) refers to emphasis on conceptually natural formalizations. 
 
->In my own education I was fortunate to have two teachers who used the term "foundations" in a common-sense way (rather than in the speculative way of the Bolzano-Frege-Peano-Russell tradition). This way is exemplified by their work in Foundations of Algebraic Topology, published in 1952 by [Eilenberg](#EilenbergSteenrod) (with Steenrod), and The Mechanical Foundations of Elasticity and Fluid Mechanics, published in the same year by Truesdell. The orientation of these works seemed to be "concentrate the essence of practice and in turn use the result to guide practice". ([Lawvere 2003: 213](#Lawvere))
+> In my own education I was fortunate to have two teachers who used the term "foundations" in a common-sense way (rather than in the speculative way of the Bolzano-Frege-Peano-Russell tradition). This way is exemplified by their work in Foundations of Algebraic Topology, published in 1952 by [Eilenberg](#EilenbergSteenrod) (with Steenrod), and The Mechanical Foundations of Elasticity and Fluid Mechanics, published in the same year by Truesdell. The orientation of these works seemed to be "concentrate the essence of practice and in turn use the result to guide practice". ([Lawvere 2003: 213](#Lawvere))
 
    Formal systems of interest here are [[natural deduction]] in [[type theories]], which allow natural expressions for central concepts in mathematics, notably via their [[categorical semantics]] and the conceptual strength of [[category theory]] (see [Harper](#Harper)).
 
@@ -43,7 +42,7 @@ Under [[computational trinitarianism]] this corresponds to a practical foundatio
 *  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 {#Harper}
 
-A foundation for [[algebraic topology]] is this practical spirit is laid out in 
+A foundation for [[algebraic topology]] in this practical spirit is laid out in 
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
   {#EilenbergSteenrod}
