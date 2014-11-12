@@ -24,14 +24,19 @@
 ## Idea
 
 In the general context of [[foundations of mathematics]] 
-in **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
+in **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations. 
 
-   Formal systems of interest here are [[natural deduction]] in [[type theories]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
+>In my own education I was fortunate to have two teachers who used the term "foundations" in a common-sense way (rather than in the speculative way of the Bolzano-Frege-Peano-Russell tradition). This way is exemplified by their work in Foundations of Algebraic Topology, published in 1952 by [Eilenberg](#EilenbergSteenrod) (with Steenrod), and The Mechanical Foundations of Elasticity and Fluid Mechanics, published in the same year by Truesdell. The orientation of these works seemed to be "concentrate the essence of practice and in turn use the result to guide practice". ([Lawvere 2003: 213](#Lawvere))
+
+   Formal systems of interest here are [[natural deduction]] in [[type theories]], which allow natural expressions for central concepts in mathematics, notably via their [[categorical semantics]] and the conceptual strength of [[category theory]] (see [Harper](#Harper)).
 
 ## References
 
 * [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 {#Taylor}
+
+* [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
+ {#Lawvere}
 
 Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
 
@@ -47,4 +52,3 @@ A foundation for [[algebraic topology]] is this practical spirit is laid out in
 [[!redirects practical foundation]]
 [[!redirects practical foundations]]
 [[!redirects practical foundations of mathematics]]
-
