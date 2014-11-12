@@ -59,7 +59,7 @@ Notice that the following relation between syntax and semantics are well establi
 
 |  [[syntax]] | [[semantics]] |
 |-------------|---------------|
-| [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[closed monoidal category]], [[symmetric monoidal category|symmetric]]) [[monoidal categories]] |
+| [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]]) [[monoidal categories]] |
 | [[dependent type theory]] | [[locally cartesian closed categories]] |
 
 Here the correspondence in the first line works by interpreting [[types]] $X$ in the [[linear type theory]] as [[objects]] $[X]$ in a [[monoidal category]] $\mathcal{C}^{\otimes}$ and by interpreting the [[conjunctions]] (as far as they exist) as follows:
@@ -139,7 +139,14 @@ If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\a
 
 Under the [[Grothendieck construction]] this is equivalently an [[indexed closed monoidal category]] as considered in ([Ponto-Shulman 12](#PontoShulman12)).
 
-+-- {: .num_defn }
++-- {: .num_remark }
+###### Remark
+
+Def. \ref{SemanticsForDependentLinearTypeTheory} describes linear types depending on non-linear types. More generally one could also consider linear types depending on linear types. Where [[tangent (∞,1)-toposes]] are the archetypicals models for linear types depending on non-linear types (this we consider [below](#ParameterizedModuleSpectra)) the archetypical model for linear types depending on other linear types might be higher [[jet (∞,1)-category|jet (∞,1)-topos]]. This remains to be thought about.
+
+=--
+
++-- {: .num_remark }
 ###### Remark
 
 That $f^\ast$ is a morphism of [[monoidal categories]] means that it is a [[strong monoidal functor]], preserving the [[tensor product]]
@@ -149,7 +156,7 @@ $$
   \,.
 $$
 
-Since all monoidal categories are [[closed monoidal categories]] then the condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
+If monoidal categories involved are [[closed monoidal categories]] then the condition of [[Frobenius reciprocity]] is equivalent to $f^\ast$ also being a [[strong closed functor]] in that it preserves the [[internal hom]]
 
 $$
   f^\ast [X,Y] \simeq [f^\ast X, f^\ast Y]
@@ -158,7 +165,7 @@ $$
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_remark }
 ###### Remark
 
 
@@ -470,6 +477,7 @@ represented by that matrix.
 
 
 ### Parametrized module spectra
+ {#ParameterizedModuleSpectra}
 
 The example of parameterized modules [above](#ParameterizedModules) has an evident generalization from [[linear algebra]] to [[stable homotopy theory]] with [[abelian categories|abelian]] [[categories of modules]] refined to [[stable (∞,1)-categories|stable]] [[(∞,1)-categories of ∞-modules]]. Despite of what this [[higher category theory]]-terminology might make the reader feel, this refinement flows naturally along the same lines as the 1-categorical situation. One may view the axiomatics of linear dependent homotopy type theory as neatly characterizing precisely this intimate similarity.
 
@@ -518,7 +526,7 @@ $$
 
 This is the $E$-[[generalized homology]]-spectrum of the [[∞-groupoid]] $X$.
 
-This construction does have a [[right adjoint]] $\Omega^\infty$, where $(\Sigma^\infty \dashv \Omega^\infty)$ is the $E$-[[stabiliziation]]-adjunction for [[∞Grpd]]. Hence [[parameterized spectra]] form a model of linear homotopy type theory that has an [[exponential modality]], def. \ref{SemanticsForExponentialModality}.
+This construction does have a [[right adjoint]] $\Omega^\infty$, where $(\Sigma^\infty \dashv \Omega^\infty)$ is the $E$-[[stabilization]]-adjunction for [[∞Grpd]]. Hence [[parameterized spectra]] form a model of linear homotopy type theory that has an [[exponential modality]], def. \ref{SemanticsForExponentialModality}.
 
 =--
 
@@ -547,6 +555,7 @@ $$
 for the [[full sub-(∞,1)-category]] of that of pointed objects over $X$, def. \ref{PointedObjectsInSlice}, on those that are in the kernel of $\Pi_{inf}$.
 
 =--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -646,16 +655,16 @@ In ([Benton 95, p.9,15](#Benton95), [Bierman 95](#Bierman95))
 it is noticed (reviewed in ([Barber 97, p. 21 (26)](#Barber97))) that a natural [[categorical semantics]] for this modality identifies it with the [[comonad]] that is induced from a [[strong monoidal adjunction]]
 
 $$
-  (\Sigma \dashv R)
+  (\Sigma \dashv \Omega)
   \;\colon\;
   Mod(\ast)
-  \stackrel{\overset{\Sigma}{\leftarrow}}{\underset{R}{\longrightarrow}}
+  \stackrel{\overset{\Sigma}{\leftarrow}}{\underset{\Omega}{\longrightarrow}}
   \mathcal{C}
 $$
 
 between the [[closed monoidal category|closed]] [[symmetric monoidal category]] $Mod(\ast)$ which interprets the given [[linear type theory]] and a [[cartesian monoidal category]] $\mathcal{C}$.
 
-If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; \mathcal{C} \longrightarrow Mod(\ast)$ without possibly a [[right adjoint]], then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural [[fragment]]_ of [[linear type theory]].
+If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; \mathcal{C} \longrightarrow Mod(\ast)$ without possibly a [[right adjoint]] $\Omega$, then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural [[fragment]]_ of [[linear type theory]].
 
 
 In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $Mod(\ast)$ is the [[linear type theory]] over the trivial context $\ast$ of a dependent linear type theory ([[indexed closed monoidal category]]) with category of contexts being $\mathcal{C}$: 
@@ -877,7 +886,16 @@ A _fiberwise twisted fundamental class_ $[f]$ on a morphism $f \colon X\to Y$ in
 
 =--
 
-+-- {: .num_defn }
+In this form this is stated in ([Schreiber 14](#Schreiber14)). 
+
++-- {: .num_remark #FundamentalClassFromAmbidexterity}
+###### Remark
+
+A special case of def. \ref{FiberwiseFundamentalClass} is obtained when the twist vanishes, $\tau = 1$, and when dependent sum and dependent product are naturally equivalent for all objects, $\sum_f \simeq \prod_f$. In this case the two adjoints to $f^\ast$ coincide to form an [[ambidextrous adjunction]]. This case is considered in ([Hopkins-Lurie](#HopkinsLurie)).
+
+=--
+
++-- {: .num_remark }
 ###### Remark
 
 In view of dependent linear de Morgan duality, prop. \ref{DependentLinearDeMorganDuality}, a fiberwise twisted fundamental class in def. \ref{FiberwiseFundamentalClass} is equivalently a choice of equivalence
@@ -1012,8 +1030,9 @@ $$
 
 where the morphism on the left is the [[counit of an adjunction|adjunction counit]], the morphism in the middle is the given [[integral kernel]], and the morphism on the right is the given fundamental class.
 
-
 =--
+
+In this form this appears in ([Schreiber 14](#Schreiber14)). Specialized to the ambidextrous case of remark \ref{FundamentalClassFromAmbidexterity}, this is equivalent to the construction in ([Hopkins-Lurie](#HopkinsLurie)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -1155,9 +1174,12 @@ Discussion of what should be the [[categorical semantics]] of dependent linear t
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
  
 
-Comments on the formalization of secondary [[integral transforms]] and [[quantization]] in dependent linear homotopy-type theory are at
+Comments on the formalization of secondary [[integral transforms]] and [[path integral]] [[quantization]] in dependent linear homotopy-type theory are in
 
 * {#Schreiber14} [[Urs Schreiber]] _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
+
+* {#HopkinsLurie} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
 
 A first published proposal for a genuine syntax of dependent linear type theory is in 
 
