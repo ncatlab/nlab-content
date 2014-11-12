@@ -32,7 +32,7 @@
 
 ## Idea
 
-_Gelfand duality_ is a [[Isbell duality|duality between spaces and their algebras of functions]] for the case of ([[locally compact space|locally]]) [[compact space|compact]] [[topological space]]s and [[commutative C-star-algebra|commutative]] (nonunital) [[C-star algebras]]:
+_Gelfand duality_ is a [[Isbell duality|duality between spaces and their algebras of functions]] for the case of [[compact space|compact]] [[topological space]]s and [[commutative C-star-algebra|commutative]] [[C-star algebras]]:
 
 every (nonunital) $C^\ast$-algebra $A$ is equivalent to the $C^\ast$-algebra of [[continuous functions]] on the [[topological space]] called its _[[Gelfand spectrum]]_ $sp(A)$.
 
@@ -78,7 +78,7 @@ $$
   C : Top_{cpt} \to C^\ast Alg_{com}^{op}
 $$ 
 
-for the functor which sends a [[compact topological space]] $X$ to the algebra of [[continuous function]]s $C(X) = \{f : X \to \mathbb{C} | f continuous\}$, equipped with the structure of a $C^\ast$-algebra in the evident way (...).
+for the functor which sends a [[compact topological space]] $X$ to the algebra of [[continuous function]]s $C(X) = \{f : X \to \mathbb{C} | f \; continuous\}$, equipped with the structure of a $C^\ast$-algebra in the evident way (...).
 
 Write
 
@@ -187,6 +187,15 @@ def. \ref{FunctorsOfFunctionAlgebras}.
 
 =--
 
++-- {: .num_remark #ForLocallyCompactTopologicalSpaces}
+###### Remark
+
+With due care on defining the right morphisms, the duallity generalizes also to [[locally compact topological spaces]]. See for instance ([Brandenburg 07](#Brandenburg07)).
+
+For an overview of other generalizations see also [this MO discussion](http://mathoverflow.net/a/82960/381).
+
+=--
+
 
 ## Generalizations
 
@@ -212,6 +221,8 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
 
 ## References
 
+Textbook accounts include
+
 * [[Nicolaas Landsman|N. P. Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp. [MR2000g:81081](http://www.ams.org/mathscinet-getitem?mr=1662141) [doi](http://dx.doi.org/10.1007/978-1-4612-1680-3)
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
@@ -220,13 +231,20 @@ An exposition that explicitly gives Gelfand duality as an [[equivalence of categ
 
 * Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.uni-bielefeld.de/~ambrogio/exercise_C_algebras.pdf))
 
+Careful discussion of the duality for the more general case of [[locally compact topological spaces]] includes
+
+* {#Brandenburg07} [[Martin Brandenburg]], _Gefand-Dualit&#228;t ohne 1_, 2007 ([web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111))
+
 Some other generalized contexts for Gelfand duality:
 
-* Hans-E. Porst, Manfred B. Wischnewsky, _Every topological category is convenient for Gelfand duality_, Manuscripta mathematica __25__:2, (1978) pp 169-204 
-* H. Heunen, N. P. Landsman, Bas Spitters, S. Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra_, J. Aust. Math. Soc. __90__ (2011), 39&#8211;52 [doi](http://dx.doi.org/10.1017/S1446788711001157) [pdf](http://www.math.ru.nl/~landsman/LandsmanCarey60.pdf)
+* [[Hans Porst]], Manfred B. Wischnewsky, _Every topological category is convenient for Gelfand duality_, Manuscripta mathematica __25__:2, (1978) pp 169-204 
+
+* H. Heunen, [[Klaas Landsman]], [[Bas Spitters]], S. Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra_, J. Aust. Math. Soc. __90__ (2011), 39&#8211;52 [doi](http://dx.doi.org/10.1017/S1446788711001157) [pdf](http://www.math.ru.nl/~landsman/LandsmanCarey60.pdf)
+
 *  [[Christopher J. Mulvey]], _A generalisation of Gelfand duality_, J. Algebra 56, n. 2, (1979) 499&#8211;505 <a href="http://dx.doi.org/10.1016/0021-8693(79)90352-1">doi</a>
 
 category: analysis, geometry, noncommutative geometry
+
 [[!redirects Gelfand duality]]
 [[!redirects Gel'fand duality]]
 [[!redirects Gelfand-Naimark duality]]
