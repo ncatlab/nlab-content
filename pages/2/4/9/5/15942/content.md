@@ -28,13 +28,17 @@ Graduate-level courses on abstract algebra, differential geometry and topology. 
 
 We initiated the first 4 talks, which give a gentle introduction to the topic. The future talks will be the on more specific developments. 
 
-* Oct. 21, 2014: organization meeting. Why factorization algebra is interesting, and a brief account on the introduction chapter of Costello-Gwilliam (CG).
+* Oct. 21, 2014: Organization meeting. Why factorization algebra is interesting, and a brief account on the introduction chapter of Costello-Gwilliam (CG).
 
-* Nov. 4, 2014: Prefactorization algebra by Chenchang. CG: Chap 2-3.
+* Nov. 4, 2014: Prefactorization algebra by Chenchang. Definition, relation to $E_n$ operad theory (TFT) and functorial field theories ($\mathbf G$-FT). Associative algebras in quantum mechanics. CG: Chap 1, 3.
 
-* Nov. 11, 2014: Continuation of Chenchang's prefactorization. + Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
+* Nov. 11, 2014: Continuation of Chenchang's prefactorization algebra: a description of quantum observables in free field theory through divergence operator, and a construction of $\mathcal{U}(\mathfrak{g})$. CG: Chap 2-3.
 
-* Nov. 18, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
+* Nov. 18, 2014: Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
+
+* Nov. 25, 2014: An introduction to operads by Malte.
+
+* Dec. 2, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
 
 
 
