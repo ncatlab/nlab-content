@@ -41,3 +41,6 @@ Further developments include
 
 * Marcelo Laca, Sergey Neshveyev, Mak Trifkovic, _Bost-Connes systems, Hecke algebras, and induction_ ([arXiv:1010.4766](http://arxiv.org/abs/1010.4766))
 
+An abstract generalization is proposed in
+
+* Matilde Marcolli, Goncalo Tabuada, _Bost-Connes systems, categorification, quantum statistical mechanics, and Weil numbers_, [arxiv/1411.3223](http://arxiv.org/abs/1411.3223)
