@@ -8,7 +8,7 @@
 
 ### Objectives ###
 
-The aim of this seminar is bi-folded: to learn factorization algebra, and to understand perturbative quantum field theory. 
+The aim of this seminar is bi-fold: to learn factorization algebra, and to understand perturbative quantum field theory. 
 
 Quantum field theory is an amazing generating machine to obtain interesting mathematical objects (observables), and to relate different parts of math together. However, the mathematical formulation for full quantum field theory seems to be a quite formidable task. Nonetheless, interesting mathematical frameworks have been constructed and developed all the time. For example, topological field theories, (rational) conformal field theories, string field theories, mirror symmetries, Sieberg-Witten theory and Donaldson theory, and integrable systems. A common theme, behind those examples, is to capture the topological, algebraic or geometric invariants in various settings. Perhaps, this verifies why quantum field theory should be interesting to mathematicians.
 
