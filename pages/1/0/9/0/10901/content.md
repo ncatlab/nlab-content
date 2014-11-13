@@ -201,19 +201,19 @@ Extensions of the coherence-theoretic applications of proof nets in Blute's thes
 
 Type theory for full linear logic, together with its categorical interpretation, was developed in 
 
-* Nick Benton, Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666))
- {#BentonBiermanPaivaHyland92}
+* {#BentonBiermanPaivaHyland92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666))
+ 
 
 * [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp.273-291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
  {#HylandPaiva93}
 
-* Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, PhD Thesis, Edinburgh 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
- {#Barber97}
+* {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, PhD Thesis, Edinburgh 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
+ 
 
 Further review and discussion is in 
 
-* Gavin M. Bierman, _What is a categorical model of intuitionistic linear logic? ([web] (http://research.microsoft.com/en-us/um/people/gmb/papers/tlca95.pdf)) 
- {#Bierman95}
+* {#Bierman95} Gavin M. Bierman, _What is a categorical model of intuitionistic linear logic? ([web] (http://research.microsoft.com/en-us/um/people/gmb/papers/tlca95.pdf)) 
+ 
 
 The more general case of general [[symmetric monoidal categories]] is reviewed and further discussed in 
 
@@ -231,15 +231,15 @@ The interpretation of Girard's $!$-modality as the [[comonad]] induced from a [[
 Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
  {#Bierman95}
 
-* N. Benton, _A mixed linear and non-linear logic; proofs, terms and
+* {#Benton95} [[Nick Benton]], _A mixed linear and non-linear logic; proofs, terms and
 models_, In _Proceedings of Computer Science Logic_ '94, vol. 933 of
 Lecture Notes in Computer Science. Verlag, June 1995. 
- {#Benton95}
+ 
 
 Interpretation of this in [[dependent linear type theory]] is in 
 
-* [[Kate Ponto]], [[Mike Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
- {#PontoShulman12}
+* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
+ 
 
 
 Further discussion of linear type theory is for instance in
