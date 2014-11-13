@@ -36,7 +36,7 @@ We initiated the first 4 talks, which give a gentle introduction to the topic. T
 
 * Nov. 18, 2014: Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
 
-* Nov. 25, 2014: An introduction to operads by Malte.
+* Nov. 25, 2014: An introduction to operads by Malte. LV: Part 2.
 
 * Dec. 2, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
 
@@ -53,6 +53,10 @@ An out-dated version is available on Costello's webpage. Participants can also j
 A more mathematical introduction to factorization algebra is given in 
 
 * G. Ginot, Notes on factorization algebras, factorization homology and applications, arXiv:1307.5213[math.AT].
+
+The introduction to operads is based on
+
+* [LV] J.-L. Loday, B. Vallette: Algebraic Operads. [Pdf available here](http://math.unice.fr/~brunov/Operads.html)
 
 Next here are references with more specific applications.
 
