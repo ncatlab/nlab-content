@@ -25,7 +25,7 @@
 
 ## Idea
 
-Dependent linear type theory is the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types. An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)). What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). A proposal for an actual [[syntax]] for dependent linear type theory appears in ([V&#225;k&#225;r 14](#Vakar14)).
+Dependent linear type theory is the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types. An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)). What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). Proposal for an actual [[syntax]] for dependent linear type theory appears in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
 
 
  
@@ -1185,9 +1185,13 @@ Comments on the formalization of secondary [[integral transforms]] and [[path in
 * {#HopkinsLurie} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
 
-A first published proposal for a genuine syntax of dependent linear type theory is in 
+Proposals for a genuine [[syntax]] for dependent linear type theory are in 
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
+
+* {#VakarSlides14} [[Matthijs Vákár]], _Splitting the Atom of Dependent Types... or Linear and Operational Dependent Type Theory_, November 2014 ([pdf slides](http://users.ox.ac.uk/~magd3996/research/10-11-2014-Oxford-Linear%20dependent%20types.pdf))
+
+* {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](http://www.cs.bham.ac.uk/~krishnan/dlnl-paper.pdf))
 
 
 [[!redirects dependent linear type theories]]
