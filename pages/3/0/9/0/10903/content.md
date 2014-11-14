@@ -335,7 +335,7 @@ The following example is trivial and not the kind of example of genuine interest
 +-- {: .num_example}
 ###### Example
 
-For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{H}^{op} \to CartMonCat \to MonCat$ of [[slice toposes]] is semantics for dependent linear type theory, def. ref{SemanticsForDependentLinearTypeTheory}.
+For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{H}^{op} \to CartMonCat \to MonCat$ of [[slice toposes]] is semantics for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}.
 
 =--
 
@@ -343,7 +343,7 @@ For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{
 ###### Remark
 
 This example for dependent linear type theory is extremely "non-linear".  
-One way to characterize this is to observe that this dependent linear type theory has alomost no [[dualizable object|dualizable]] linear types. The only one is the terminal object in each slice. Given that the above formulas notably for secondary integral transforms (def.\ref{SIT}) assume dualizable objects, this means that in this non-linear context there will be no nontrivial secondary integral transforms.
+One way to characterize this is to observe that this dependent linear type theory has almost no [[dualizable object|dualizable]] linear types. The only one is the terminal object in each slice. Given that the above formulas notably for secondary integral transforms (def.\ref{SIT}) assume dualizable objects, this means that in this non-linear context there will be no nontrivial secondary integral transforms.
 
 =--
 
@@ -389,8 +389,8 @@ This appears as ([Shulman 08, examples 12.13 and 13.7](#Shulman08)) and ([Shulma
 +-- {: .proof}
 ###### Proof
 
-For $f \colon X \longrightarrow Y$ any [[morphism]] in $\mathbf{H}$ then the [[base change]] [[inverse image]] $f^\ast \colon \mathbf{H}_{/Y} \longrightarrow \mathbf{H}_{/X}$ preserves pointedness, and the [[pushout]] functor $f_! \colon \mathbf{H}^{X/} \longrightarrow \mathbf{H}^{/Y}$ preserves co-pointedness. These two functors hence form an [[adjoint pair]]
-$(f_1 \dashv f^\ast) \colon \mathcal{C}_X \longrightarrow \mathcal{C}_Y$.
+For $f \colon X \longrightarrow Y$ any [[morphism]] in $\mathbf{H}$ then the [[base change]] [[inverse image]] $f^\ast \colon \mathbf{H}_{/Y} \longrightarrow \mathbf{H}_{/X}$ preserves pointedness, and the [[pushout]] functor $f_! \colon \mathbf{H}^{X/} \longrightarrow \mathbf{H}^{Y/}$ preserves co-pointedness. These two functors hence form an [[adjoint pair]]
+$(f_! \dashv f^\ast) \colon \mathcal{C}_X \longrightarrow \mathcal{C}_Y$.
 Moreover, since [[colimits]] in the under-over category $\mathbf{H}_{/X}^{X/}$ are computed as colimits in $\mathbf{H}$ of [[diagrams]] with an [[initial object]] adjoined, and since by the [[Giraud axioms]] in the [[topos]] $\mathbf{H}$ [[pullback]] preserves these colimits, it follows that $f^\ast \colon \mathcal{C}_Y \to \mathcal{C}_X$ preserves colimits. 
 Finally by the discussion at _[[category of pointed objects]]_ we have that $\mathcal{C}_X$ and $\mathcal{C}_Y$ are [[locally presentable categories]], so that by the [[adjoint functor theorem]] it follows that $f^\ast$ has also a [[right adjoint]] $f_\ast \colon \mathcal{C}_X \to \mathcal{C}_Y$.
 
