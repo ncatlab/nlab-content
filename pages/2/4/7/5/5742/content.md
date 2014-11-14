@@ -7,9 +7,9 @@
 
 ## Idea
 
-Logarithmic algebraic geometry (or _logarithmic geometry_ for short) is a slight variant of [[algebraic geometry]] where [[schemes]] and morphisms with mild ("logarithmic") [[singularities]] still behave as [[smooth schemes]].
+Logarithmic geometry is a slight variant of [[algebraic geometry]] (resp. [[analytic geometry]]) where [[schemes]] (resp. analytic spaces) and morphisms with mild ("logarithmic") [[singularities]] still behave as [[smooth schemes]] (resp. smooth analytic spaces).
 
-Where an [[affine variety]] is the formal dual to a [[commutative ring]] $(R,\times, +)$, the analog in logarithmic geometriy is such a ring equipped with
+Where an [[affine variety]] is the formal dual to a [[commutative ring]] $(R,\times, +)$, the analog in logarithmic geometry is such a ring equipped with
 
 1. a [[monoid]] $K$ and a [[monoid]] [[homomorphism]] $\alpha \colon K \longrightarrow (R, \times)$;
 
