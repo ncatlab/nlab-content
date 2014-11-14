@@ -25,7 +25,7 @@ The archetypical class of examples are [[sheaf topos]]es $Sh(X) = Et(X)$ over a 
 
 When $X = *$ is the [[point]], this is just the category [[Set]] of all [[sets]]: spaces that are _modeled on the point_ . This is the archetypical topos itself. 
 
-What makes the notion of toposes powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than &#233;tale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance in every topos all small [[limit]]s and [[colimit]]s exist and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs [[internalization|internal to]] every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
+What makes the notion of topos powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than &#233;tale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance in every topos all small [[limit]]s and [[colimit]]s exist and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs [[internalization|internal to]] every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
 
 On the one hand this may be thought of as saying that toposes are _very nice categories of spaces_ in that whatever construction on spaces one thinks of 
 -- for instance formation of [[quotient]]s or of [[fiber product]]s or of [[mapping space]]s --
@@ -263,7 +263,7 @@ An introduction amplifying the simple but important case of [[presheaf toposes]]
 
 A standard textbook is
 
-* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
 
 This later grew into the more detailed
 
@@ -277,14 +277,11 @@ A standard textbook on this case is
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-There is also
+There are also
 
-* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
+* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples, and Theories_ , Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
 
-
-
-
-
+* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
 
 A gentle basic introduction is 
 
@@ -293,7 +290,6 @@ A gentle basic introduction is
 A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
-
 
 A survey is in
 
