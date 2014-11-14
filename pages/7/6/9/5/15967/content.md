@@ -39,7 +39,7 @@ One may define the strict [[projective line]] $\mathbb{P}^1_R$ over $R$ by pasti
 ### Unitary group
  {#UnitaryGroup}
 
-A similar construction can be done to define higher dimensional global [[unitary groups]]: one may simply start from the strict [[polydisc]]
+One may try a similar construction to define higher dimensional global [[unitary groups]]: one may simply start from the strict [[polydisc]]
 
 $$
   D^1 M_n
@@ -47,8 +47,12 @@ $$
   \mathbb{M}(R\{(a_{ij})_{1\leq i,j\leq n}\}^\dagger)
   \,,
 $$
+in the (non-strict analytic) [[affine space]] $M_n=\mathbb{A}^{n^2}$ of [[matrices]],
+and consider the rational domain $R_n\subset D^1 M_n$ defined by
+$$R_n:=\{(a_{ij}),\;|na_{ij}|\leq 1\;\forall 1\leq i,j\leq n\}.$$
 
-in the (non-strict analytic) [[affine space]] $M_n=\mathbb{A}^{n^2}$ of [[matrices]], and define the $n$-dimensional global unitary group to be given by
+
+One then define the $n$-dimensional global unitary group to be given by
 
 $$
   U(n)
