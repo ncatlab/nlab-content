@@ -35,6 +35,10 @@ Taking into account that the intuitively given category of categories is a 2-cat
 
 ## ETCC: Lawvere (1963) and beyond {#ETCC}
 
+>In 1964, F. W. Lawvere proposed to found mathematics on the category of categories. When he lectured on this at an international conference in Jerusalem, [[Alfred Tarski]] objected: "But what is a category if not a set of objects together with a set of morphisms?" Lawvere replied by pointing out that set theory axiomatized the binary relation of membership, while category theory axiomatized the ternary relation of composition. [^LS] 
+
+[^LS]: [Lambek&Scott 2009](#LS11), pp.171-172.
+
 W. Lawvere launched in the early 60s an ambitious long-term project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
 
 His 1963 [[Functorial Semantics of Algebraic Theories|dissertation]] takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass [[set theory]] completely at a foundational level.
@@ -123,5 +127,7 @@ See also
 * [[Colin McLarty|C. McLarty]], [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
 
 * M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
+
+* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
 [[!redirects elementary theory of the 2-category of categories]]
