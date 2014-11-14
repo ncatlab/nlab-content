@@ -80,6 +80,8 @@ $$
 and under this identification its [[quotient]] map is expressed in terms of the [[exponential function]] $\exp \colon z \mapsto  \sum_{k = 0}^\infty \frac{z^k}{k!} \in \mathbb{C}$ as
 
 $$
+  \exp(2 \pi \tfrac{i}{h}(-))
+  =
   \exp(\tfrac{i}{\hbar} (-)) \;\colon\; \mathbb{R} \longrightarrow U(1)
   \,,
 $$
@@ -91,14 +93,14 @@ $$
   \,.
 $$
 
-This is the source of the ubiquity of the expression  $\exp(\tfrac{i}{\hbar} (-))$ in [[quantum physics]], say in the [[path integral]], where the exponentiated [[action functional]] appears as $\exp(\tfrac{i}{\hbar} S)$.
-
 The resulting [[short exact sequence]] is the real [[exponential exact sequence]]
 
 $$
   0 \to \mathbb{Z} \longrightarrow \mathbb{R} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} U(1) \to 0
   \,.
 $$
+
+This is the source of the ubiquity of the expression  $\exp(\tfrac{i}{\hbar} (-))$ in [[quantum physics]], say in the [[path integral]], where the exponentiated [[action functional]] appears as $\exp(\tfrac{i}{\hbar} S)$.
 
 ### In relation to the symplectic form
 
@@ -186,5 +188,6 @@ In [[formal deformation quantization]], Planck's constant is that very formal de
  
 
 * Wikipedia, _[Planck's constant](https://en.wikipedia.org/wiki/Planck_constant)_
+
 
 [[!redirects Planck constant]]
