@@ -45,7 +45,7 @@ with the Grothendieck six operations (this should be done by the use of the &#23
 model theoretical description of [[definable]] sets for the &#233;tale G-topology on strict and non-strict overconvergent analytic spaces). It seems that global analytic motivic
 spectral coefficients (given by imposing homotopy invariance with respect to the unit
 disc are not so well adapted to the study of torsion phenomena in the characteristic p situation).
-2. having a good theory of higher and derived global analytic spaces, with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
+2. having a good theory of higher and [[derived global analytic geometry]], with a well-behaved notion of de Rham type cohomology theory and a Chern character. The constraints on such a theory would be:
 * get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
 * get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
 * get back the usual de Rham Chern character when one works over $\C$.
