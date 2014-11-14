@@ -4,7 +4,9 @@
 
 ## Idea
 
-Analytic motivic homotopy theory is an analytic generalization of [[motivic homotopy theory]].
+Analytic motivic homotopy theory is an analytic generalization of [[motivic homotopy theory]] that gives back classical homotopy theory when one works with analytic varieties over $\mathbb{C}$ and motivic homotopy theory when one works with strict analytic varieties over a ring equipped with its trivial norm.
+
+The proper setting for analytic motivic homotopy theory of quasi-projective varieties seems to be the setting of [[logarithmic motivic homotopy theory]].
 
 ## Related subjects
 
