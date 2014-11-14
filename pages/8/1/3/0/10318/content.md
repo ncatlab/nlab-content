@@ -441,7 +441,7 @@ closed differential 2-forms.
 
 By prop. \ref{Symplectomorphism}.
 
-=---
+=--
 
 ### Trajectories and Lagrangian correspondences
  {#TrajectoriesAndLagrangianCorrespondences}
@@ -892,6 +892,7 @@ $$
 
 
 ### Hamiltonian (time evolution) trajectories and Hamiltonian correspondences
+ {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
 
 An important class of [[symplectomorphisms]] are the following
 
@@ -1100,6 +1101,8 @@ $$
 and under this identification its [[quotient]] map is expressed in terms of the [[exponential function]] $\exp \colon z \mapsto  \sum_{k = 0}^\infty \frac{z^k}{k!} \in \mathbb{C}$ as
 
 $$
+  \exp(2 \pi \tfrac{i}{h}(-))
+  =
   \exp(\tfrac{i}{\hbar} (-)) \;\colon\; \mathbb{R} \longrightarrow U(1)
   \,,
 $$
@@ -1111,14 +1114,15 @@ $$
   \,.
 $$
 
-This is the source of the ubiquity of the expression  $\exp(\tfrac{i}{\hbar} (-))$ in [[quantum physics]], say in the [[path integral]], where the exponentiated [[action functional]] appears as $\exp(\tfrac{i}{\hbar} S)$.
-
 The resulting [[short exact sequence]] is the real [[exponential exact sequence]]
 
 $$
   0 \to \mathbb{Z} \longrightarrow \mathbb{R} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} U(1) \to 0
   \,.
 $$
+
+This is the source of the ubiquity of the expression  $\exp(\tfrac{i}{\hbar} (-))$ in [[quantum physics]], say in the [[path integral]], where the exponentiated [[action functional]] appears as $\exp(\tfrac{i}{\hbar} S)$.
+
 
 
 ### Pre-Quantization and Differential cohomology
@@ -1214,7 +1218,10 @@ $$
 
 =--
 
-The only other fact we need is that there is a universal [[curvature]] map
++-- {: .num_prop #UniverselCurvatureMap}
+###### Proposition
+
+There is a universal [[curvature]] map, a morphism of [[smooth groupoids]]
 
 $$
   F
@@ -1235,7 +1242,11 @@ $$
   \mathbf{\Omega}^2_{cl}
 $$
 
-is its [[curvature]] 2-form. Hence this is the map that sends $(\{\theta_i\}, \{g_{i j}\})$ to $\omega$ with $\omega|_{U_i} = \mathbf{d}\theta_i$.
+is its [[curvature]] 2-form. 
+
+=--
+
+Hence this is the map that sends $(\{\theta_i\}, \{g_{i j}\})$ to $\omega$ with $\omega|_{U_i} = \mathbf{d}\theta_i$.
 
 Therefore:
 
@@ -1281,7 +1292,7 @@ Phrased this way, there is an evident concept of prequantization of Lagrangian c
 Given prequantized symplectic manifolds $(X_i,\nabla_i)$ as in prop. \ref{PrequantizationByLiftingClassifyingMap}, and given a Lagrangian correspondence
 as in prop. \ref{IsotropicCorrespondenceDiagrammatically}, then
 a prequantization of this correspondence is a lift of the 
-whole diagram through the universal curvature map
+whole diagram through the universal curvature map of prop. \ref{UniverselCurvatureMap}:
 
 $$
   \array{
@@ -1315,6 +1326,40 @@ $$
   }
   \,.
 $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means in words that a prequantized Lagrangian correspondence is a [[prequantization]] of the in- and out-going [[symplectic manifolds]] together with a choice of [[equivalence]]/[[gauge transformation]]
+between the two [[prequantum circle bundles]] pulled back to the 
+[[correspondences]] space.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By [[duality]] in the [[symmetric monoidal (infinity,1)-category|smmetric monoidal]] [[(infinity,n)-category of correspondences|(2,1)-category of correspondences]], a prequantized Lagragian correspondence is equivalently a [[diagram]] of the form
+
+$$
+  \array{
+    && Y
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && X_1 \times X_2
+    \\
+    & \searrow && \swarrow_{\mathrlap{\nabla_2- \nabla}}
+    \\
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+hence a trivialization of the product of one prequantum bundle with the negative (the inverse under tensor product) of the other, on the correspondence space.
+
 
 =--
 
@@ -1457,60 +1502,63 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+
+In particular, this induces a [[functor]]
+
+$$
+  \exp(\tfrac{i}{\hbar} S)
+  \;\colon\;
+  Bord_1^{Riem} 
+    \longrightarrow 
+  Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})
+  \,.
+$$
+
+
+In summary,  prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction} 
+and remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}
+say that a prequantized Lagrangian correspondence is conceptually of the following form
+
+$$
+  \array{
+    && {{space\,of} \atop {trajectories}}
+    \\
+    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
+    \\
+    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
+    \\
+    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
+    && 
+    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
+    \\
+    && {{2-group} \atop {of\,phases}}
+  }
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_remark }
 ###### Remark
 
 The proof of prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction} recovers, from general abstract input, precisely all the ingredients known in physics as _[[canonical transformations]]_.
 
-=--
 
-+-- {: .num_remark }
-###### Remark
-
-Proposition \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
-says that the slice topos $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$
+The proposition says that the slice topos $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$
 unifies [[classical mechanics]] in its two incarnations as
-[[Hamiltonian mechanics]] and as [[Lagrangian mechanics]]. A morphism 
-here is a diagram in $\mathbf{H}$ of the form
-
-$$
-  \array{
-    X && \stackrel{}{\longrightarrow} && Y
-    \\
-    & \searrow &\swArrow& \swarrow
-    \\
-    && \mathbf{B}U(1)_{conn}
-  }
-$$
-
-and which may be regarded as having two components: the top horizontal [[1-morphism]]
-as well as the [[homotopy]]/[[2-morphism]] filling the slice. 
-Given a smooth [[flow]] of these, the horizontal morphism is the [[flow]]
-of a [[Hamiltonian vector field]] for some [[Hamiltonian]] function $H$, 
-and the 2-morphism is a $U(1)$-[[gauge transformation]] given (locally) by 
-a $U(1)$-valued function which is the exponentiated [[action functional]]
-that is the integral of the [[Lagrangian]] $L$ which is the [[Legendre transform]]
-of $H$.
-
-So in a sense the [[prequantization]] lift through the [[base change]]/[[dependent sum]]
-along the universal [[curvature]] map
-
-$$
-  \underset{F_{(-)}}{\sum}
-   \;\colon\;
-  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
-  \longrightarrow
-  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
-$$
-
-is the [[Legendre transform]] which connects [[Hamiltonian mechanics]] with [[Lagrangian mechanics]].
+[[Hamiltonian mechanics]] and as [[Lagrangian mechanics]], where the relation between the two via the [[Legendre transform]] is exhibited by the [[homotopies]] that fill diagrams in the slice topos over $\mathbf{B}U(1)_{conn}$.
 
 [[!include Hamiltonian and Lagrangian -- table]]
 
 =--
 
 
-### The Heisenberg group and the Poisson bracket from prequantized Lagrangian equivalences
+
+### Heisenberg group and Poisson bracket
 
 Above we have interpreted [[maps]] $f \colon X \to Y$ as [[correspondences]]
 between $X$ and $Y$ by taking the [[correspondence space]] to be the 
@@ -1574,7 +1622,7 @@ Suppose that $(X,\omega)$ itself has the structure of a [[group]] (for instance 
 
 =--
 
-### Hamiltonian actions and moment maps are actions by prequantized Lagrangian equivalences
+### Hamiltonian actions and moment maps 
 
 For $G$ a [[Lie group]], a [[Hamiltonian action]] of $G$ on $(X,\omega)$ is equivalently an action by prequantized Lagrangian correspondences, hence a group [[homomorphism]]
 
@@ -1589,192 +1637,11 @@ See ([hgp 13](#FiorenzaRogersSchreiber13a))
 
 
 
-### The classical action functional prequantizes Hamiltonian correspondences
- {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
-
-Then for two prequantized symplectic manifolds, it is now clear what a _prequantized correspondence_ between them is: 
-
-+-- {: .num_defn #PrequantizedLagrangianCorrespondence}
-###### Definition
-
-
-A _prequantization_ of a [[Lagrangian correspondence]] $Y \colon (X_1,\omega) \to (X_2,\omega_2)$
-is a [[diagram]] in $\mathbf{H}$ of the form
-
-$$
-  \array{
-    && Y
-    \\
-    & \swarrow &\swArrow& \searrow
-    \\
-    X_1 &\stackrel{\nabla_1}{\longrightarrow}& \mathbf{B}U(1)_{conn} &\stackrel{\nabla_2}{\longleftarrow}& X_2
-    \\
-    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
-    \\
-   && \Omega^2_{cl}
-  }
-$$
-
-hence a correspondence 
-
-$$
-  \array{
-    && Y
-    \\
-    & \swarrow && \searrow
-    \\
-    X_1 && \swArrow && X_2
-    \\
-    & {}_{\nabla_1}\searrow && \swarrow_{\mathrlap{\nabla_2}}
-    \\
-    \\
-    && \mathbf{B}U(1)_{conn}
-  }
-$$
-
-in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$ such that under the [[base change]]/[[dependent sum]] [[functor]] along the universal [[curvature]]
-
-$$
-  \underset{F_{(-)}}{\sum}
-  \;\colon\;
-  \mathbf{H}_{/\mathbf{B}U(1)_{conn}} \longrightarrow 
-  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
-$$
-
-it maps to the given Lagrangian correspondence.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-This means in words that a prequantized Lagrangian correspondence is a [[prequantization]] of the in- and out-going [[symplectic manifolds]] together with a choice of [[equivalence]]/[[gauge transformation]]
-between the two [[prequantum circle bundles]] pulled back to the 
-[[correspondences]] space.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-By [[duality]], a prequantized Lagragian correspondence is equivalently a [[diagram]] of the form
-
-$$
-  \array{
-    && Y
-    \\
-    & \swarrow && \searrow
-    \\
-    \ast && \swArrow && X_1 \times X_2
-    \\
-    & \searrow && \swarrow_{\mathrlap{\nabla_2- \nabla}}
-    \\
-    \\
-    && \mathbf{B}U(1)_{conn}
-  }
-$$
-
-hence a trivialization of the produce of one prequantum bundle with the negative (the inverse under tensor product) of the other, on the correspondence space.
-
-
-=--
-
-
-
-For completing the general picture, it is useful to restate the 
-discussion in _[The classical action functional, the Legendre transform and Hamiltonian flows](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_, now in terms of [[correspondence]]:
-
-
-
-The natural question is which Hamiltonian correspondences, remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}, may be prequantized, 
-def. \ref{#PrequantizedLagrangianCorrespondence}, 
-and what the corresponding prequantum data is. The following proposition shows that the prequantization of the Hamiltonian correspondence given by a [[Hamiltonian]] $H$ is given by the exponentiated [[action functional]] associated with $H$, namely the exponentiated integral over its [[Lagrangian]] $L$, which is its [[Legendre transform]] $L = p \frac{\partial H}{\partial p} - H$.
-
-
-+-- {: .num_prop #HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction}
-###### Proposition
-
-Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
-
-$$
-  \array{   
-    && graph\left( \exp(t \{H,-\}) \right)
-    \\
-    & \swarrow && \searrow
-    \\
-    X && \swArrow_{\exp( i S_t  )} && X
-    \\
-    & {}_{\mathllap{\omega_1}} \searrow && \swarrow_{\mathrlap{\omega_2}}
-    \\
-    && \mathbf{B}U(1)_{conn}
-  }
-  \,,
-$$
-
-where 
-
-* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[action functional]] of the classical [[trajectories]] induced by $H$,
-
-* which is the [[integral]] $S_t = \int_{0}^t L \, d t$ of the [[Lagrangian]] $L \,d t$ induced by $H$,
-
-* which is the [[Legendre transform]]
-
-  $$
-    L \coloneqq p \frac{\partial H}{\partial p} - H \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
-    \,. 
-  $$
-
-In particular, this induces a [[functor]]
-
-$$
-  \exp(i S)
-  \;\colon\;
-  Bord_1^{Riem} 
-    \longrightarrow 
-  Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Under the equivalence of correspondences of remark \ref{EquivalenceOfCorrespndencesInducedByFunction}
-this is a re-statement of prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}.
-
-=--
-
-
-
-+-- {: .num_remark}
-###### Remark
-
-In summary,  prop. \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
-and remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}
-say that a prequantized Lagrangian correspondence is conceptually of the following form
-
-$$
-  \array{
-    && {{space\,of} \atop {trajectories}}
-    \\
-    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
-    \\
-    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
-    \\
-    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
-    && 
-    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
-    \\
-    && {{2-group} \atop {of\,phases}}
-  }
-  \,.
-$$
-
-=--
-
 ## Semantic Layer
  {#SemanticsLayer}
+
+We now discuss the above constructions more abstractly in [[cohesive topos|cohesive]] [[topos theory]].
+
 
 > under construction
 
@@ -1795,9 +1662,11 @@ for the slice over $\mathbf{B}U(1)_{conn}$ this needs to be subjected to [[diffe
 ## Syntactic Layer
  {#SyntacticLayer}
 
+We now discuss the above constructions yet more abstractly in [[homotopy type theory]].
+
 (...)
 
-prequantization is lift throug [[dependent sum]] along the universal [[curvature]] map)
+prequantization is lift through [[dependent sum]] along the universal [[curvature]] map of prop. \ref{UniverselCurvatureMap}
 
 $$
   \underset{F_{(-)}}{\sum}
