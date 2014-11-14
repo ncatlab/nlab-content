@@ -23,7 +23,7 @@ Overconvergent [[global analytic geometry]] is a setting for global analytic geo
 ## Basic ideas
  {#BasicIdeas}
 
-The basic building blocks of overconvergent global analytic geometry over a given [[Banach ring]] $(R,{\vert\cdot\vert})$ are given by [[polydiscs]] of [[radius]] $1$ (in the strict situation) or arbitrary real radius (in the non-strict situation), and more generally, by strict (or non-strict) rational domains in them. This gives two categories $RatAlg_R^s$ and $RatAlg_R$ of rational domain algebras that actually form [pre-geometries](geometry+%28for+structured+%28infinity%2C1%29-toposes%29#Pregeometry) in the sense of Lurie.
+The basic building blocks for overconvergent global analytic geometry over a given [[Banach ring]] $(R,{\vert\cdot\vert})$ are given by [[polydiscs]] of [[radius]] $1$ (in the strict situation) or arbitrary real radius (in the non-strict situation), and more generally, by strict (or non-strict) rational domains in them. This gives two categories $RatAlg_R^s$ and $RatAlg_R$ of rational domain algebras that actually form [pre-geometries](geometry+%28for+structured+%28infinity%2C1%29-toposes%29#Pregeometry) in the sense of Lurie.
 
 One then defines analytic (resp. derived analytic) algebras as functors (resp. homotopical functors) of functions on the categories of rational domain algebras. The various types of finitely presented analytic algebras define various types of [[geometry (for structured (infinity,1)-toposes)|geometries]] in Lurie's sense. One may then define analytic (resp. derived analytic) stacks as functors (resp. homotopical functors) of functions on analytic (resp. derived analytic) algebras.
 
@@ -34,7 +34,7 @@ This gives in particular four categories $An_R^\dagger$, $An_R^{\dagger,s}$, $DA
 ### Projective line
  {#ProjectiveLine}
 
-One may define the strict [[projective line]] $P^1_R$ over $R$ by pasting the overconvergent unit disc $D^1=\mathbb{M}(R\{T\}^\dagger)$ with itself along its boundary $U(1)=\mathbb{M}(R\{T,S\}^\dagger/(ST-1))$ by the map $T\mapsto 1/T$. This gives a strict analytic space over $R$. This strict construction of the projective line is particularly interesting when the base Banach ring is the ring $\mathbb{Z}$ of [[integers]] equipped with its usual [[archimedean absolute value]]. This strict structure is intuitively very close to what people call an archimedean compactification, e.g., in [[Arakelov geometry]].
+One may define the strict [[projective line]] $\mathbb{P}^1_R$ over $R$ by pasting the overconvergent unit disc $D^1=\mathbb{M}(R\{T\}^\dagger)$ with itself along its boundary $U(1)=\mathbb{M}(R\{T,S\}^\dagger/(ST-1))$ by the map $T\mapsto 1/T$. This gives a strict analytic space over $R$. This strict construction of the projective line is particularly interesting when the base Banach ring is the ring $\mathbb{Z}$ of [[integers]] equipped with its usual [[archimedean absolute value]]. This strict structure is intuitively very close to what people call an archimedean compactification, e.g., in [[Arakelov geometry]].
 
 ### Unitary group
  {#UnitaryGroup}
