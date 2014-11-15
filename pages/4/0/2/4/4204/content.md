@@ -19,15 +19,20 @@
 
 ## Idea
 
-A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordism]]s of dimension 2. 
+A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of dimension 2. 
 
-If one understands this as an [[FQFT]]s with values in [[Vect]], then the central classification theorem of 2d TQFTs states that they induce the structure of a commutative [[Frobenius algebra]] on the vector space associated to the circle, and that this establishes an equivalence between 2d QFTs and Frobenius algebras. An analogous result holds for open-closed 2d TQFTs, where codimension 1 manifolds are also allowed to contain [[interval]]s.
+When formulated (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]], then 2d TQFTs have a comparativle simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
+
+However, such global 2d TQFTs with [[coefficients]]in [[Vect]] 
+do not capture the 2d TQFTs of most interest in [[quantum field theory]], which instead are "[[cohomological quantum field theories]]" ([Witten 91](#Witten91)) such as the [[topological string]] [[A-model]] and [[B-model]] that participate in [[homological mirror symmetry]].
+
+These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]], typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
 
 
 
 ## Filtrations of the moduli space of surfaces {#FiltrationOfModuliSpace}
 
-The following study of the behaviour of 2-dimensional TQFTs in terms of the [[topology]] of the [[moduli space]]s of marked hyperbolic surfaces is due to [[Ezra Getzler]]. It provides a powerful way to read off various classification results for 2d QFTs from the [[homotopy group]]s of the corresponding [[modular operad]].
+The following study of the behaviour of 2-dimensional TQFTs in terms of the [[topology]] of the [[moduli spaces]] of marked hyperbolic surfaces is due to [[Ezra Getzler]]. It provides a powerful way to read off various classification results for 2d QFTs from the [[homotopy groups]] of the corresponding [[modular operad]].
 
 ### $A_\infty$-monoid objects
 
@@ -316,14 +321,50 @@ and this is also $k$-connected.
 
 ## References
 
+### Global
+
+The [[folklore]] result that global closed 2d TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
+
+* {#Abrams96} L. Abrams, _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+
 The classification result for open-closed 2d TQFTs was famously announced and sketched in 
 
 * [[Greg Moore]], [[Graeme Segal]], _Lectures on branes, K-theory and RR charges, Clay Math Institute Lecture Notes (2002), _ ([web](http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html))
 
 A standard textbook is
 
-* [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theory_ ([web](http://mat.uab.cat/~kock/TQFT.html))
+* [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theory_ ([web](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf))
 
 A picture-rich description of what's going on is in 
 
 * [[Aaron Lauda]] and Hendryk Pfeiffer, _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
+
+### Local 
+
+The local ([[extended TQFT]]) version of 2d TQFT which captures the [[topological string]] was mathematically introduced under the name "[[TCFT]]". 
+
+The concept is essentially a formalization of what used to be called [[cohomological field theory]] in
+
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
+
+The definition was given independently by 
+
+* {#Getzler92} [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
+
+and 
+
+* {#Segal99} [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
+ 
+The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
+
+* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
+
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+
+following conjectures by [[Maxim Kontsevich]], e.g.
+
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#252;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+
+This classification is a precursor of the full [[cobordism hypothesis]]-theorem. This, and the reformulation of the original TCFT constructions in full generality is in 
+
+* {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
