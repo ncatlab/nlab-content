@@ -86,7 +86,7 @@ $$
   Z : Bord^{nc}_2 \to C
 $$
 
-are equivalent to [[Calabi-Yau object]]s $A$ in $C$:
+are equivalent to [[Calabi-Yau objects]] $A$ in $C$:
 the functor $Z$ sends the point to $A$.
 
 =--
@@ -120,7 +120,7 @@ This is [[On the Classification of Topological Field Theories|ClassTFT, above th
 ## Classification
  {#Classification}
 
-### With coefficients in chain complexes
+### With coefficients in (algebras in) chain complexes
 
 The original statement of the classification result for TCFTs 
 concerned symmetric homotopy-monoidal functors $Bord_2^{conf,dg} \to Ch_\bullet$:
@@ -153,7 +153,7 @@ $$
 $$
 
 
-are equivalent to [[Calabi-Yau algebra object]]s $A$ in $C$:
+are equivalent to [[Calabi-Yau algebra]] [[Calabi-Yau object|objects]] $A$ in $C$:
 the functor $Z$ sends the interval $[0,1]$ to $A$.
 
 =--
