@@ -20,9 +20,7 @@
 
 _Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
 
-## Idea
-
-### General
+### General idea
  {#GeneralIdea}
 
 Much work in quantum field theory is based on arguments using the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
@@ -62,6 +60,143 @@ Segal's axioms for [[FQFT]] ([[CFT]] in his case) were originally explicitly abo
 
 Notice that this kind of discussion is not restricted to topological field theory. For instance already plain quantum mechanics is usefully formulated this way, that's the point of [[finite quantum mechanics in terms of dagger-compact categories]].
 
+## Introduction
+ {#Introduction}
+
+> under construction
+
+We give here motivation for, an introduction to and an exposition of the ideas of [[local quantum field theory|local]] ([[extended TQFT|extended]]) functorial field theory, starting from basic [[quantum mechanics]]. 
+
+### Quantum mechanics in Schr&#246;dinger picture
+
+[[Schrödinger picture]] of [[quantum mechanics]]
+
+$$
+  (\stackrel{t}{\longrightarrow})
+  \mapsto 
+  (V \stackrel{\exp(\tfrac{i}{\hbar} H t )}{\longrightarrow} V)
+$$
+
+a [[functor]]
+
+$$
+  Bord_1^{Riem} \longrightarrow Hilb
+$$
+
+### Quantum mechanics with interactions
+
+
+Let $R Cob_{1|1}^{Feyn}$ be the [[cobordism category]] of [[Feynman graphs]] for the [[superparticle]] with a single type of interaction along the lines of [[(1,1)-dimensional Euclidean field theories and K-theory]]. So its morphisms are generated from $(1|1)$-dimensional super-Riemannian manifolds (i.e. super-intervals) and from a single interaction vertex
+
+$$
+  \array{
+    \bullet
+    \\
+    & \searrow
+    \\
+    && \bullet & \to
+    \\
+    & \nearrow
+    \\
+    \bullet
+  }
+$$
+
+subject to the obvious associativity condition.
+
+Then a spectral triple $(A,H,D)$ is the data encoding a sufficiently nice smooth [[functor]] 
+
+$$
+  Z_{(A,H,D)} : R Cob_{1|1}^{Feyn}  \to sVect
+$$
+
+to the [[category]] of [[super vector space]]s.
+
+Here
+
+* $A = Z_{(A,H,D)}(\bullet)_0$ is the even part of the [[super vector space]] assigned by the functor to the point, equipped with the structure of a [[algebra]] whose product is given by the image of the interaction vertex
+
+  $$
+    Z_{(A,H,D)}
+    \left(
+  \array{
+    \bullet
+    \\
+    & \searrow
+    \\
+    && \bullet & \to
+    \\
+    & \nearrow
+    \\
+    \bullet
+  }
+    \right)
+  $$
+
+* $H$ is some completion of $Z_{(A,H,D)}(\bullet)$  to a [[super Hilbert space]]
+
+* and $D \in End(H)$ is an odd self-adjoint operator on $H$, which gives the value of the functor on the super-interval $(t,\theta)$ by
+
+  $$
+    (t,\theta) \mapsto \exp( - t D^2 + \theta D )
+    \,.
+  $$ 
+
+(For technical details that I am glossing over see the field theory link above).
+
+So this is the [[quantum mechanics]] of a [[superparticle]]. In the simplest case this comes from a spinor particle propagating on a [[spin structure]] [[Riemannian manifold]] $X$in which case
+
+* $H = L^2(S)$ is the space of square integrable spinor sections;
+
+* $D$ is the [[Dirac operator]]
+
+* $A = C^\infty(X)$ is the space of smooth functions on $X$.
+
+One point of a spectral triple is to take the view of world-line [[quantum mechanics]] as basic and _characterize_ the spin Riemannian geometry of $X$ entirely by this algebraic data. In particular the [[Riemannian metric]] on $X$ is encoded in the [[operator spectrum]] of $D$, which is where the notion "spectral triple" gets its name from.
+
+Then with all the ordinary geoemtry re-encoded algebraically this way, in terms of the 1-dimensional [[quantum field theory]] that _probes_ this geometry, one can then use the same formulas to interpret spectral triple geometrically that do _not_ come from an ordinary geometry as in the above example.
+
+### Naive generalization: Global 2d TQFT 
+
+Atiyah-Segal...
+
+... [[2d TQFT]] ... [[Frobenius algebra]] ...
+
+$$
+  Bord_2^{\sqcup} \longrightarrow Vect^\otimes
+$$
+
+### Local 2d TQFT -- The topological String 
+
+Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
+
+need to 
+
+1. remember [[diffeomorphism]]; 
+
+1. remember locality 
+
+via [[higher category theory]]
+
+...[[TCFT]]...
+
+
+### Global 3d TQFT -- Chern-Simons theory
+
+...[[quantization of 3d Chern-Simons theory]]...
+
+...[[Reshetikhin-Turaev construction]]...
+
+### Local 3d TQFT -- Modular functor and Wess-Zumino-Witten theory
+
+....
+
+### General formulation
+
+...
+
+
+## References
 
 ### Formalization of sewing and locality in terms of functoriality##
 
