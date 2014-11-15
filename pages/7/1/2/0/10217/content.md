@@ -143,6 +143,12 @@ The proof of theorem \ref{fix} was written to lay bare its provenance as a speci
 
 * [[Chaitin's incompleteness theorem]]
 
+* [[Deligne completeness theorem]]
+
+* [[foundations of mathematics]]
+
+* [[platonism]]
+
 ## References 
 
 * {#Yanofsky03} Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
@@ -154,6 +160,12 @@ A brief review discussion explicitly in the context of [[type theory]]/[[topos t
 A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is given in
 
 * [[Russell O'Connor]], _Essential Incompleteness of Arithmetic Verified by Coq_ ([web](http://r6.ca/Goedel/goedel1.html))
+
+The following contains a careful discussion of the incompleteness theorem in the context of categorical foundations using the [[free topos]]:
+
+* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
+
+
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
 
