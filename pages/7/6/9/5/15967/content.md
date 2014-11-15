@@ -54,15 +54,16 @@ U(n)
 \coloneqq
 \{(A,B)\in M_n^{\leq 1},\;A B = B A = I\},
 $$
-only gives a strict analytic space that is not equipped with an analytic group structure.
+only gives a strict analytic space that is not equipped with an analytic group structure
+(except if one works in a non-archimedean setting).
 
 One may however associate to $M_n^{\leq 1}$ a simplicial analytic space (kind of nerve) given by forcing the multiplication to be defined:
 $$
 BM_n^{\leq 1}_{[k]}\coloneqq
 \{(A_i)\in (M_n^{\leq 1})^{k},\;
-\prod_{j\in [s]} A_j\in (M_n^{\leq 1})^{[s]}\;\forall f:[s]\hookrightarrow [k]\}.
+\prod_{j\in [s]} A_j\in (M_n^{\leq 1})^{s}\;\forall f:[s]\hookrightarrow [k]\}.
 $$
-One may then define the $n$-dimensional global unitary $\infty$-groupoid $BU(n)$ to be given by the analytic sub-groupoid of $B\GL_n$ defined by
+One may then define the $n$-dimensional global unitary [[infinity-groupoid]] $BU(n)$ to be given by the analytic sub-groupoid of $B\GL_n$ defined by
 $$
   BU(n)
   \coloneqq 
@@ -75,9 +76,22 @@ by strict inequalities. One may also see $BU(n)$ as a closed strict simplicial a
 subspace of $BM_n^{\leq 1}\times BM_n^{\leq 1}$ of pairs $(A,B)$ such that
 $AB=BA=I$.
 
-Over $(\mathbb{Z},|\cdot|_0)$, the scheme (i.e., strict analytic space over a trivially normed ring) $BU(n)$  is isomorphic to $BGL_{n,\mathbb{Z}}$, but over $(\mathbb{Z},|\cdot|_\infty)$, the space $U(n)$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense. Over $\mathbb{C}$, the group $U(n)$ contains the classical unitary group $U(n)(\mathbb{C})$, since one has, for every complex matrix $A=(a_{ij})$, a natural inequality
+We may now look at what we get over various standard Banach rings:
+
+* Over $(\mathbb{Z},|\cdot|_0)$, the scheme (i.e., strict analytic space over a trivially normed ring) $U(n)$  is isomorphic to $GL_{n,\mathbb{Z}}$.
+
+* Over $(\mathbb{Q}_p,|\cdot|_p)$, the rigid analytic space $U(n)$ is such that
+$U(n)(\mathbb{Q}_p)=\GL_n(\mathbb{Z}_p)$.
+
+* Over $(\mathbb{Z},|\cdot|_\infty)$, the space $U(n)$ is not an analytic group, and $U(n)(\mathbb{Z},|\cdot|_\infty)$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense.
+
+* Over $\mathbb{C}$, the space $U(n)$ contains the classical unitary group $U(n)(\mathbb{C})$, since one has, for every complex matrix $A=(a_{ij})$, a natural inequality
 $$\|A\|_{max}:=\max(|a_{ij}|)\leq \|A\|_2,$$
 where $\|A\|_2$ is the operator norm for the hermitian norm on $\mathbb{C}^n$.
+This thus gives a natural morphism
+$$BU_{n}(\mathbb{C})\to BU(n)(\mathbb{C})$$
+from the simplicial classifying space of the classical unitary group $U_{n}(\C)$ to the complex points of the simplicial `classifying space` $BU(n)$.
+
 It is also clearly compact (contained in a product of polydiscs) and contained in the non-strict analytic group $\GL_{n}(\mathbb{C})$. Since $U(n)(\mathbb{C})$ is a maximal compact subgroup, we have that $U(n)$ is indeed the complex unitary group over $\mathbb{C}$.
 
 ###  Arithmetic principal unitary bundles
