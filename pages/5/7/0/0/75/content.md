@@ -72,11 +72,11 @@ One way to think of category theory is as a framework in which the idea is forma
 ### Categorial foundations of mathematics
 {#CFM}
 
-[[Bill Lawvere]] proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, 
+[[Bill Lawvere]] proposed to found mathematics on [[ETCC]] (for ' Elementary Theory of the Category of Categories'), a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, 
 but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
 
 
-Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
+Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, the system of axioms for ETCS in 1965 was retrospectively an important step in Lawvere's quest to give a first-order axiomatization for the topos concept that was originally formulated in higher-order terms by the Grothendieck school, resulting in 1970 in the by the now-default notion of *elementary* topos that subsumes the original notion, now called [[Grothendieck topos]], as an important special case.
 
 It is also possible to found mathematics on the [[internal logic|internal language]] of a topos. In this case, the topos need *not* be well-pointed (and indeed, the condition that a topos be well-pointed cannot be stated in its own internal language; or if you prefer, *every* topos is well-pointed *internally*). This is equivalent to a certain formulation of [[type theory]], so it is (in a sense) nothing new, although it leads to new perspectives, as in the next paragraph.
 
@@ -123,8 +123,6 @@ It may seem on first sight that foundational questions in mathematics are remote
 * [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
  {#Lawvere}
 
-* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
-
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
@@ -140,6 +138,11 @@ A foundation for [[algebraic topology]] in this practical spirit is laid out in
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
   {#EilenbergSteenrod}
+
+The following contains a careful discussion of [[Gödel's incompleteness theorem]] in the context of categorical foundations using the free topos:
+
+* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
+
 
 A comparative discussion of complexities of different foundations is in 
 
