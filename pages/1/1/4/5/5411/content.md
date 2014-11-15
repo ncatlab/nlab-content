@@ -95,6 +95,10 @@ An object $X \in C$ is called a **[[fully dualizable object]]** if it is in the 
 
 ## Related concepts
 
+* [[2d TQFT]], [[TCFT]]
+
+  [[Calabi-Yau object]]
+
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
   * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]], **symmetric monoidal $(\infty,n)$-category** 
