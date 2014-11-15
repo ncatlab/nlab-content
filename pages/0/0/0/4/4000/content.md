@@ -735,6 +735,7 @@ Exposition of this and further developments are in
 
 
 ### For complex reductive groups
+ {#ReferencesForComplexReductiveGroups}
 
 Discussion in [[complex analytic geometry]] of multiplicative Chern-Simons [[holomorphic line 2-bundles]] is in 
 
