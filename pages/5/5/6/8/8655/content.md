@@ -55,7 +55,7 @@ In some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence
 ## Formalization
  {#Formalization}
 
-One way to pseudo-formalize accurately most of what is usually meant by "duality" physics might be the following.
+One way to pseudo-formalize accurately most of what is usually meant by "duality" in physics might be the following.
 
 
 Write $LagrangianData$ for a [[moduli stack]] of [[prequantum field theory]] data consisting of species of [[field (physics)|fields]] and of [[Lagrangians]]/[[action functionals]] defined  on these.
@@ -69,7 +69,7 @@ $$
   \,.
 $$
 
-For instance in the case of mirrir symmetry this would be the [[TCFT]]-construction that takes a Calabi-Yau manifold to the corresponding [[Calabi-Yau category]].
+For instance, in the case of mirror symmetry this would be the [[TCFT]]-construction that takes a Calabi-Yau manifold to the corresponding [[Calabi-Yau category]].
 
 The [[essential image]] of this map would be the moduli space of [[Lagrangian field theory]]
 
@@ -105,7 +105,7 @@ $$
   \,.
 $$
 
-This construction is the first step in associating the [[groupoid object in an (infinity,1)-category]] which is induced by the [[atlas]] "quantization" via the [[Giraud's theorem]] of [[Higher Topos Theory]].
+This construction is the first step in associating the [[groupoid object in an (infinity,1)-category]] which is induced by the [[atlas]] "quantization" via [[Giraud's theorem]] of [[Higher Topos Theory]].
 
 This groupoid has as moduli stack of objects $LagrangianData$ and as moduli stack of 1-morphisms $Dualities$. Its corresponding [[stack]] realization is $LagrangianQFTs$
 
