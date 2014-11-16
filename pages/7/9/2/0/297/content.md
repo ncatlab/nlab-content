@@ -1,4 +1,6 @@
 
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,7 +20,7 @@
 {:toc}
 
 
-_Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
+Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
 
 ### General idea
  {#GeneralIdea}
@@ -60,31 +62,282 @@ Segal's axioms for [[FQFT]] ([[CFT]] in his case) were originally explicitly abo
 
 Notice that this kind of discussion is not restricted to topological field theory. For instance already plain quantum mechanics is usefully formulated this way, that's the point of [[finite quantum mechanics in terms of dagger-compact categories]].
 
-## Introduction
+## Exposition and Introduction
  {#Introduction}
 
 > under construction
 
-We give here motivation for, an introduction to and an exposition of the ideas of [[local quantum field theory|local]] ([[extended TQFT|extended]]) functorial field theory, starting from basic [[quantum mechanics]]. 
+We give here motivation for, introduction to and an exposition of the ideas of [[local quantum field theory|local]] ([[extended TQFT|extended]]) functorial field theory. 
+
+We start in 
+
+* _[Quantum mechanics in Schr&#246;dinger picture](#QuantumMechanicsInSchroedingerPicture)_
+
+by showing how all the basic category-theoretic ideas are already right beneath the surface of the traditional textbook discussion of quantum mechanics. Then in
+
+* _[Quantum mechanics with interaction and Feynman diagrams](#QMWithInteractionAndFeynmanDiagrams)_
+
+this becomes all the more pronounced when one considers quantum mechanics with interaction as in the [[worldline formalism]] and hence when one considers [[Feynman diagrams]] as diagrams of interactions of [[particles]].
+
+This 1-dimensional functorial description worldline quantum mechanics has an evident generalization to a [[worldsheet]] formulation of [[2d topological field theory]]. This original 1-functorial TQFT axiomatics due to Atiyah and Segal we review in 
+
+* _[Naive generalization: Global 2d TQFT](#Global2dTQFT)_
+
+However, this "naive" generalization is not quite refined enough. Physically one sees this from the fact that the [[topological string]] [[A-model]]/[[B-model]], which is the archetype of a [[2d TQFT]] in physics, is not actually an instance of the Atiyah-Segal axiomatics. Mathematically one sees it from the fact that the 1-category theoretic formulation of 2d [[boundary field theory]] is clearly lacking a "categorical dimension" in order to be satisfactory.
+
+The correct refinement of 2d TQFT to a [[cohomological field theory]] or "[[TCFT]]" with coefficients not just in vector spaces but in [[chain complexes]] of vector spaces we then consider in 
+
+* _[Local2dTQFT -- The topological string](#Local2dTQFT)_
+
+This gives a natural conceptual home to the [[derived categories]] of [[D-branes]] famous from [[homological mirror symmetry]]. But it is still not quite the fully general functorial formalization of quantum field theory.
+
+To get a feeling for what is missing, we next consider [[3d TQFT]] 
+
+* _[Global 3d TQFT -- Chern-Simons theory](#Global3dTQFT)_
+
+* _[Local 3d TQFT -- Modular functor and Wess-Zumino-Witten theory](#Local3dTQFT)_
+
+This finally is enough information to naturally motivate the full formulation of the [[cobordism hypothesis]] in [[symmetric monoidal (infinity,n)-category]] theory in 
+
+* _[General local TQFT](#IntroductionGeneralFormulation)_
 
 ### Quantum mechanics in Schr&#246;dinger picture
+ {#QuantumMechanicsInSchroedingerPicture}
 
-[[Schrödinger picture]] of [[quantum mechanics]]
+This section introduces the observation that the basic structures in [[quantum mechanics]] are accurately reflected in [[symmetric monoidal category|symmetric monoidal]] [[category theory]], by explaining the following dictionary:
+
+| [[quantum mechanics]] | [[monoidal category]] [[category theory|theory]] |
+|-----------------------|--------------------------------------------------|
+| [[local quantum field theory|local]] [[dynamics|time evolution]] | [[functor]] |
+| [[compound system]] [[entanglement]] | [[cartesian monoidal category|non-cartesian]] [[monoidal category]] |
+| [[bra]]/[[ket]] | [[dual objects]] |
+| [[Feynman diagram]] | monoidal [[string diagram]] |
+
+
+#### Time evolution and Functors
+
+The basic idea of [[quantum mechanics]] in the "[[Schrödinger picture]]" is to describe a [[quantum mechanical system]] (such as an [[electron]] in the [[electromagnetic field]] of a [[proton]]) by
+
+1. assigning to each time $t \in \mathbb{R}$ a [[vector space]] ([[Hilbert space]]) $V_t$ to be thought of as the [[space of quantum states]] (of [[pure states]], that is) of the system at that time;
+
+1. assigning to each pair $[t_1,t_2]$ of times a [[linear operator]] ([[unitary operator]]) $U(t_1,t_2) \colon V_{t_1} \to V_{t_2}$ to be thought of as encodiding the [[time]] evolution of quantum states
+
+such that 
+
+* this assignment is _local_ in [[time]] in that for all $t_1 \leq t_2 \leq t_3$ one has
+
+  $$
+    U(t_1 t_3) = U(t_2, t_3) \circ U(t_1, t_2)
+    \,.
+  $$
+
+In basic quantum mechanics one also demands that 
 
 $$
-  (\stackrel{t}{\longrightarrow})
-  \mapsto 
-  (V \stackrel{\exp(\tfrac{i}{\hbar} H t )}{\longrightarrow} V)
+  U(t,t) = id
+  \,.
 $$
 
-a [[functor]]
+(While this looks like the most innocent condition, this has technical subtleties for genuine [[quantum field theory]], for which however there exist established tools to deal with.)
+ 
+The locality condition intuitively says that "all gobal effects arise by integrating up local effects". Indeed, when assuming in addition that $U(-,-)$ depends [[smooth function|smoothly]] on the time arguments, then the locality condition is equivalent to (see at _[[parallel transport]]_) the existence of a [[Hamiltonian]] $H_t$, a [[self-adjoint operator]] depending smoothly on $t$, such that time evolution is given by the [[Dyson formula]]
 
 $$
-  Bord_1^{Riem} \longrightarrow Hilb
+  U(t_1,t_2)
+  =
+  P \exp\left(
+     \int_{t_1}^{t_2} \tfrac{i}{\hbar} H_t \, d t
+  \right)
+  \,.
 $$
 
-### Quantum mechanics with interactions
+(Here the notation on the right denotes the "path ordered exponential", see at _[[parallel transport]]_.) In the special case that the Hamiltonian is time-independent,  $H = H_t$, then this reduces to 
 
+$$
+  U(t_1,t_2)
+  =
+  \exp\left(
+     \tfrac{i}{\hbar} (t_2-t_2) H 
+  \right)
+  \,.
+$$
+
+This is the way that quantum mechancial time evolution is traditionally introduced in the textbooks.
+
+But the equivalent formulation above in terms of locality of $U(-,-)$ is noteworthy. The condition of locality here is precisely what in [[mathematics]] is called _[[functor|functoriality]]_: the condition that a system of [[homomorphisms]] (here: linear/unitary operator) depends on another system of "directed data" (here: the time intervals $[t_1,t_2]$) such that [[composition]] is respected.
+
+More specifically, one says that the collection [[Vect]] (or [[Hilb]]) of [[vector spaces]] ([[Hilbert spaces]]) forms a _[[category]]_ whose _[[objects]]_ are vector space $V$ and whose _[[morphisms]]_ are linear maps $f \colon V_1 \to V_2$; where the point is that these morphisms may be [[associativity|associatively]] composed whenever their [[codomain]]/[[domain]] matches:
+
+$$
+  \array{
+    && V_2
+    \\
+    & {}^{\mathllap{f_1}}\nearrow && \searrow^{\mathrlap{f_2}}
+    \\
+    V_1 && \stackrel{f_2 \circ f_1}{\longrightarrow} && V_3
+  }
+  \,.
+$$
+
+Similarly, there is a category $Bord_1^{Riem}$ whose [[objects]] are instance of time $t \in \mathbb{R}$, whose [[morphisms]] are time intervals $[t_1,t_2]$, and whose [[composition]] operation is concatenation of time intervals
+
+$$
+  \array{
+    && t_2
+    \\
+    & \nearrow && \searrow
+    \\
+    t_1 && \stackrel{}{\longrightarrow} && t_3
+  }
+$$
+
+Given two categories like this, then a function that takes morphism of one two morphisms of the other such that [[composition]] is respected is called a _[[functor]]_. 
+
+In this language, the above locality condition of [[quantum mechanics]] says that quantum time evolution is a functor
+
+$$
+  U \;\colon\; Bord_1^{Riem} \longrightarrow Vect
+$$
+
+$$
+  \array{
+    && t_2
+    \\
+    & \nearrow && \searrow
+    \\
+    t_1 && \stackrel{}{\longrightarrow} && t_3
+  }
+  \;\;\;\;\;\;
+  \mapsto
+  \;\;\;\;\;\;
+  \array{
+    && V_2
+    \\
+    & {}^{\mathllap{U(t_1,t_2)}}\nearrow && \searrow^{\mathrlap{U(t_2,t_3)}}
+    \\
+    V_1 && \stackrel{U(t_1,t_3)}{\longrightarrow} && V_2
+  }
+$$
+
+If this looks like a trivial reformulation of textbook material, then because it is a trivial reformulation of textbook material. But introducing such category-theoretic language for making the locality principle in quantum mechanics fully manifest turns out to be rather useful for capturing the full locality of [[local quantum field theory]], which is not in the traditional textbooks. This we come to below.
+
+| [[physics]] |  [[category theory]] |
+|-------------|----------------------|
+| [[local quantum field theory|locality]] of time evolution | [[functor]] |
+
+
+#### Entanglement and Monoidal structure
+
+Besides the time evolution, there is the theory of [[composite systems]].
+
+Given two [[quantum mechanical systems]] (e.g. of two electrons orbiting the same atomic nucleaus), with [[spaces of quantum states]] ([[pure states]]) $V$ and $\tilde V$, respectively, then the space of quantum states of the compound system is given by the [[tensor product of modules|tensor product of vector spaces]] (of [[Hilbert spaces]])
+
+$$
+  V \otimes \tilde V \in Vect
+  \,.
+$$
+
+This should be compared with the way compound systems are formed in [[classical mechanics]]: for $X_1$ and $X_2$ the [[configuration spaces]]/[[phase spaces]] of two classical [[mechanical systems]], then the configuration space/phase space of their compound is the [[Cartesian product]] $X_1 \times X_2$. 
+
+These Cartesian products and tensor products extend to [[morphisms]]. If $f\colon V \to V$ is a linear operator acting on the first system and $\tilde f \colon \tilde V\to \tilde V$ is one acting on the second system, then there is a tensor product morphism
+
+$$
+  (f_1\otimes f_2) 
+  \;\colon\;
+  V \otimes \tilde V
+  \longrightarrow
+  V \otimes \tilde V
+  \,.
+$$
+
+Hence (Cartesian or non-cartesian) [[tensor products]] are something like product operations on sets, but on whole [[categories]]. Since binary associative product operations on sets are sometimes called _[[monoids]]_, one says that the category [[Vect]] of vector spaces when equipped with the tensor product of vector spaces is a _[[monoidal category]]_.
+
+Similarly, the categories [[Diff]] or [[Set]] [[smooth manifolds]] or just bare [[sets]] carries a monoidal structure given simply by the [[Cartesian product]] of sets. This is called a [[cartesian monoidal structure]].
+
+The characteristic property of Cartesian products $X_1 \times X_2$ is that elements of these are equivalently pairs of elements in $X_1$ and $X_2$, respectively. This reflects in turn the characteristic property of compound classical mechanical systems: a state of these is symply a pair of states of the two subsystems.
+
+The tensor product on [[Vect]] however is not Cartesian: an element  in $\Psi \in V_1 \otimes V_2$ need not be of the form $\psi_1\otimes \psi_2$, for $\psi_i \in V_i$. Instead, in general it is a [[sum]] of such elements
+
+$$
+  \Psi = \underset{j}{\sum}  (\psi_1)_j \otimes (\Psi_2)_j
+  \,.
+$$
+
+In terms of [[physics]] such non-cartesian vectors are [[quantum states]] that exhibit [[entanglement]]. This hallmark property of quantum mechanics is hence accurately reflected by the abstract property of $(Vect,\otimes)$ being a non-cartesian [[monoidal category]].
+
+
+| [[physics]] |  [[category theory]] |
+|-------------|----------------------|
+| [[entanglement]]  |  [[cartesian monoidal category|non-cartesin]] [[monoidal category]] of [[spaces of states]] |
+
+For more exposition of this point see ([Baez 04](#Baez04)).
+
+#### Partition functions and Dual objects
+
+Consider now for simplicity of notation an application in [[quantum computing]]/[[quantum information theory]], where the [[spaces of states]] $V$ involved are [[finite dimensional vector spaces]] (spaces of [[qubits]]), such as for instance in the topological sector of the [[quantum Hall effect|quantum Hall system]].
+
+Then for every space of states $V$ there is the [[dual vector space]]  $V^\ast$. In [[physics]] notation the states in $V$ are the [[kets]] $\vert \Psi \rangle$, while those of $V^\ast$ are the "bra-s" $\langle \Psi \vert$.
+
+
+| [[physics]] |  [[category theory]] |
+|-------------|----------------------|
+| [[bra]]/[[ket]]  |  [[dual objects]] |
+
+
+Essentially all of [[quantum information theory]] has a slick reformulation in terms of [[category theory]] for [[symmetric monoidal category]] [[rigid monoidal category|with dual objects]]. More on this is at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
+
+
+While the introduction of bra-ket notation by [[Paul Dirac]] was (while just notation) already quite useful for thinking about the subject, the language of monoidal category in fact reflects the actual physical processes involved even better:
+
+Given a [[Hamiltonian]] $H$, the [[partition function]] of the [[quantum mechanical system]] is the [[trace]]
+
+$$
+  Z_t \coloneq Tr\left(  \exp\left(\tfrac{i}{\hbar} H t \right)  \right)
+  \,.
+$$
+
+In bra-ket notation this is
+
+$$
+  Z_t = \underset{\Psi}{\sum}  
+   \left\langle \Psi \right\vert
+   \exp\left(\tfrac{i}{\hbar} H t \right)  \left| \Psi\right\rangle 
+$$
+
+In terms of monoidal category-theoretic notation ([[string diagrams]]) this same expression reads as follows
+
+$$
+  \array{
+     && \longleftarrow
+     \\
+     & \swarrow && \nwarrow
+     \\
+     V  && && V^\ast
+     \\
+     {}^{\mathllap{\exp(\tfrac{i}{\hbar} H t)}}\downarrow && && \uparrow^{\mathrlap{id}}
+     \\
+     V && && V^\ast
+     \\
+     & \searrow && \uparrow
+     \\
+     && \longrightarrow
+  }
+$$
+
+This is striking, because this _picture_ is an accurate reflection of the physical process that the [[partition function]] describes, for the partition function is the [[correlator]] of a particle with a closed circular [[worldline]].
+
+In fact, the monoidal category theoretic [[string diagram]]-notation is essentially the [[Feynman diagram]]-notation. This we turn to [below](#QMWithInteractionAndFeynmanDiagrams).
+
+
+
+### Quantum mechanics with interactions and Feynman diagram
+ {#QMWithInteractionAndFeynmanDiagrams}
+
+We saw above that [[symmetric monoidal category]] theory naturally captures all the key aspects of basic [[quantum mechanics]].
+
+This becomes all the more pronounced when one considers quantum mechanics with interaction as in the [[worldline formalism]] and hence when one considers [[Feynman diagrams]] as diagrams of interactions of [[particles]].
+
+#### Spectral triples and Graph representations
 
 Let $R Cob_{1|1}^{Feyn}$ be the [[cobordism category]] of [[Feynman graphs]] for the [[superparticle]] with a single type of interaction along the lines of [[(1,1)-dimensional Euclidean field theories and K-theory]]. So its morphisms are generated from $(1|1)$-dimensional super-Riemannian manifolds (i.e. super-intervals) and from a single interaction vertex
 
@@ -104,7 +357,7 @@ $$
 
 subject to the obvious associativity condition.
 
-Then a spectral triple $(A,H,D)$ is the data encoding a sufficiently nice smooth [[functor]] 
+Then a [[spectral triple]] $(A,H,D)$ is the data encoding a sufficiently nice smooth [[functor]] 
 
 $$
   Z_{(A,H,D)} : R Cob_{1|1}^{Feyn}  \to sVect
@@ -142,8 +395,6 @@ Here
     \,.
   $$ 
 
-(For technical details that I am glossing over see the field theory link above).
-
 So this is the [[quantum mechanics]] of a [[superparticle]]. In the simplest case this comes from a spinor particle propagating on a [[spin structure]] [[Riemannian manifold]] $X$in which case
 
 * $H = L^2(S)$ is the space of square integrable spinor sections;
@@ -152,11 +403,20 @@ So this is the [[quantum mechanics]] of a [[superparticle]]. In the simplest cas
 
 * $A = C^\infty(X)$ is the space of smooth functions on $X$.
 
-One point of a spectral triple is to take the view of world-line [[quantum mechanics]] as basic and _characterize_ the spin Riemannian geometry of $X$ entirely by this algebraic data. In particular the [[Riemannian metric]] on $X$ is encoded in the [[operator spectrum]] of $D$, which is where the notion "spectral triple" gets its name from.
+One point of a [[spectral triple]] is to take the view of world-line [[quantum mechanics]] as basic and _characterize_ the spin Riemannian geometry of $X$ entirely by this algebraic data. In particular the [[Riemannian metric]] on $X$ is encoded in the [[operator spectrum]] of $D$, which is where the notion "spectral triple" gets its name from.
 
 Then with all the ordinary geoemtry re-encoded algebraically this way, in terms of the 1-dimensional [[quantum field theory]] that _probes_ this geometry, one can then use the same formulas to interpret spectral triple geometrically that do _not_ come from an ordinary geometry as in the above example.
 
+#### Feynman diagram in worldline formalism and Monoidal string diagrams
+
+...[[worldline formalism]]...
+
+...[[Feynman diagram]]...
+
+...[[string diagram]]...
+
 ### Naive generalization: Global 2d TQFT 
+ {#Global2dTQFT}
 
 Atiyah-Segal...
 
@@ -166,7 +426,8 @@ $$
   Bord_2^{\sqcup} \longrightarrow Vect^\otimes
 $$
 
-### Local 2d TQFT -- The topological String 
+### Local 2d TQFT -- The topological String  
+ {#Local2dTQFT}
 
 Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
 
@@ -182,18 +443,27 @@ via [[higher category theory]]
 
 
 ### Global 3d TQFT -- Chern-Simons theory
+ {#Global3dTQFT}
 
 ...[[quantization of 3d Chern-Simons theory]]...
 
 ...[[Reshetikhin-Turaev construction]]...
 
 ### Local 3d TQFT -- Modular functor and Wess-Zumino-Witten theory
+ {#Local3dTQFT}
 
-....
+... [[modular functor]] ...
 
-### General formulation
+### General local TQFT
+ {#IntroductionGeneralFormulation}
 
-...
+... [[(infinity,n)-category of cobordisms]]...
+
+... [[symmetric monoidal (infinity,n)-category]]...
+
+... [[fully dualizable object]]...
+
+... [[cobordism hypothesis]]...
 
 
 ## References
@@ -220,7 +490,7 @@ A pedagogical exposition of how the physicist's way of thinking about the path i
 
 A pedagogical exposition of the notion of quantum field theory as a functor on [[cobordism]]s is in 
 
-* John Baez, _Quantum quandaries: a Category-Theoretic perspective_ ([arXiv](http://arxiv.org/abs/quant-ph/0404040))
+* {#Baez04} [[John Baez]], _Quantum quandaries: a Category-Theoretic perspective_ ([arXiv](http://arxiv.org/abs/quant-ph/0404040))
 
 and a review of much of the existing material in the literature is in 
 
@@ -232,7 +502,7 @@ The influential work by Moore and Segal on open-closed 2d TFTs is available as
 
 The same topic is studied by Lazariou:
 
-* [[C. I. Lazariou]], _On the structure of open-closed topological field theory in two dimensions_
+* [[Calin Lazariou]], _On the structure of open-closed topological field theory in two dimensions_
 
 ### Non-topological FQFTs (especially conformal)## 
 
