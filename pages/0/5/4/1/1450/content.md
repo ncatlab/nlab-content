@@ -186,13 +186,17 @@ This is discussed at
 ## References
 {#References}
 
-The idea of axiomatizing [[differential geometry]] using [[topos]] theory originates in 
+The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
-* [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967) ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+* [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
+They were published as pp.1-28 in
+
+* [[Anders Kock]] (ed.), _Topos Theoretic Methods in Geometry_ , Aarhus Univ. Var. Pub. Ser. 30 (1979). {#Kocked79} 
+ 
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
-* [[Eduardo Dubuc]], _Sur les mod&egrave;les de la g&eacute;om&eacute;trie diff&eacute;rentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
+* [[Eduardo Dubuc]], _Sur les mod&egrave;les de la g&eacute;om&eacute;trie diff&eacute;rentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. **XX-3** (1979) pp.231-279. ([pdf](http://archive.numdam.org/article/CTGDC_1979__20_3_231_0.pdf))
 
 These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
 
@@ -202,7 +206,7 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
   (on the description of [[differential equation]]s in terms of synthetic differential geometry)
 
-* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998) ([[LawvereSDGOutline.pdf:file]])
+* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). ([[LawvereSDGOutline.pdf:file]])
 
 Two articles that exhibit the link to [[continuum mechanics]]:
 
@@ -213,7 +217,7 @@ Two articles that exhibit the link to [[continuum mechanics]]:
 
 See also
 
-* [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 3 (1986), p. 3-22 ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)).
+* [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **XXVII-3** (1986) pp.3-22. ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)).
 
 
 ### Books
@@ -226,19 +230,19 @@ The textbooks
 
 *  {#KockBookA} [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
-*  {#KockBookB} [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+*  {#KockBookB} [[Anders Kock]], _Synthetic Geometry of Manifolds_, ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
 Somewhat complementary to that, the book
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ 
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Heidelberg 1991.
 
 focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra]]s ($C^\infty$-rings). 
 
 Another textbook is
 
-* R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer, Dordrecht (1996)
+* R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer Dordrecht 1996.
 
 ### Expositions
 
