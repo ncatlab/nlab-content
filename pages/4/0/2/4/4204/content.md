@@ -19,14 +19,14 @@
 
 ## Idea
 
-A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of dimension 2. 
+A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of [[dimension]] 2. 
 
-When formulated (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]], then 2d TQFTs have a comparativle simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
+When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then 2d TQFTs have a comparativle simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
 
 However, such global 2d TQFTs with [[coefficients]]in [[Vect]] 
 do not capture the 2d TQFTs of most interest in [[quantum field theory]], which instead are "[[cohomological quantum field theories]]" ([Witten 91](#Witten91)) such as the [[topological string]] [[A-model]] and [[B-model]] that participate in [[homological mirror symmetry]].
 
-These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]], typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
+These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]] (see at _[[FQFT]]_ for more), typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
 
 
 
@@ -325,11 +325,14 @@ and this is also $k$-connected.
 
 The [[folklore]] result that global closed 2d TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
 
-* {#Abrams96} L. Abrams, _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+* {#Abrams96} Lowell Abrams, _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
 
 The classification result for open-closed 2d TQFTs was famously announced and sketched in 
 
-* [[Greg Moore]], [[Graeme Segal]], _Lectures on branes, K-theory and RR charges, Clay Math Institute Lecture Notes (2002), _ ([web](http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html))
+* {#MooreSegal02} [[Greg Moore]], [[Graeme Segal]], _Lectures on branes, K-theory and RR charges, Clay Math Institute Lecture Notes (2002), _ ([web](http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html))
+
+* {#Lazaroiu00} [[Calin Lazaroiu]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
+
 
 A standard textbook is
 
@@ -337,7 +340,7 @@ A standard textbook is
 
 A picture-rich description of what's going on is in 
 
-* [[Aaron Lauda]] and Hendryk Pfeiffer, _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
+* {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
 
 ### Local 
 
