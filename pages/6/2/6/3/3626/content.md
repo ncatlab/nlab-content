@@ -96,7 +96,9 @@ We should warn the reader that [Rosebrugh et al (2005)](#Rosebrugh2005) call a s
 
 If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger = \mu$ and $(\epsilon)^\dagger = \eta$, then it is said to be a **&#8224;-Frobenius algebra**. These crop up in the theory of 2d [[TQFTs]], and also in the foundations of [[quantum mechanics in terms of dagger-compact categories|quantum theory]]. 
 
-## Properties of Frobenius algebras 
+## Properties 
+
+### General
 
 +-- {: .un_prop}
 ######Proposition 
@@ -127,7 +129,7 @@ As a result, we see that in the monoidal category $Mod_k$ of modules over a comm
 
 * Every Frobenius algebra $A$ is a [[pseudo-Frobenius algebra]]: $A$ is an injective cogenerator in the category of left (right) $A$-modules. 
 
-## PROPs for Frobenius algebras ##
+### PROPs for Frobenius algebras
 
 Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda [Lauda (2006)](#Lauda2006) and illustrated here:
 
@@ -159,6 +161,10 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 
 [[special_law.jpg:pic]]
 
+### Classification of 2d TQFT
+
+[[!include 2d TQFT -- table]]
+
 
 ## Related concepts
 
@@ -180,7 +186,7 @@ See for instance
 * Marcelo Aguiar (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
 {#Aguiar2000}
 
-Their role in 2-dimensional [[TQFT]] is discussed for instance in
+Their role in [[2d TQFT]] is discussed for instance in
 
 
 * Lowell Abrams (1996), Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587. 
