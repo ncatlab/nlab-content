@@ -556,7 +556,7 @@ for instance 1-dimensional cobordisms with boundary describe a kind [[2d TQFT]] 
 
 As almost immediate from these picture, such 2d TQFTs are equivalent to [[Frobenius algebras]] $A$. 
 
-In terms of physics: $A$ is the [[space of states]] of a topological [[open string]] and the algebra and coalgebra structure on it encodes its [[3-point functions]].
+In terms of physics: $A$ is the [[space of states]] of a topological [[open string]] and the algebra and coalgebra structure on it encodes its [[n-point function|3-point functions]].
 
 More generally open and [[closed strings]]
 
@@ -581,19 +581,32 @@ Or rather, it is _some_ topological string model, but not the one originally obt
 
 Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
 
-need to 
 
-1. remember [[diffeomorphism]]; 
+* Witten [[cohomological field theory]]: [[space of quantum states]] is [[chain complex]], physical quantum states are [[chain homology]]
 
-1. remember locality 
+* Kontsevich: [[homological mirror symmetry]] is equivalence of [[A-∞ categories]]
 
-via [[higher category theory]]
+* Aspinwall, Douglas et al: the [[derived categories]] here are those of topological [[A-branes]] ([[A-branes]]/[[B-branes]])
 
-...[[TCFT]]...
+Hence need to regard [[A-model]]/[[B-model]] open [[topological string]] as having a [[chain complex]] of [[vector spaces]]. Under string composition this yields not just an [[associative algebra]] with [[trace]] but an [[A-∞ algebra]] with suitable trace. 
+
+Examples come from twisting the [[2d (2,0)-CFT]] induced from a [[Calabi-Yau manifold]], hence one speaks of "[[Calabi-Yau A-∞ algebra]]".
+
+
+remember space of [[diffeomorphism]]
+
+* Getzler, Segal: [[TCFT]]
+
+classification by ([Costello 04](#Costello04)) sums it up:
+
+[[Calabi-Yau A-∞ category]] is equivalent to non-compact open topological string with coefficients in $Ch(Vect)$. The [[objects]] of the category are the [[D-branes]], [[hom-spaces]] are the spaces of quantum states of open strings stretching between these. The close string [[bulk field theory]] sector is given by forming [[Hochschild homology]]. Given a [[Calabi-Yau manifold]], then the [[A-∞ category]] refinement (see at _[[enhanced triangulated category]]_) of its [[derived category of coherent sheaves]] is an example. (...)
+
+
 
 [[!include 2d TQFT -- table]]
 
-([Costello 04](#Costello04))
+
+(...)
 
 
 
