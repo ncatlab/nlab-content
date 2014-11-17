@@ -2,8 +2,8 @@
 
 | [[2d TQFT]]  ("[[TCFT]]") | [[coefficients]] |   [[algebra]] structure on [[space of quantum states]] |  |
 |-------------|-------------|--------------------|--------|
-| [[open string|open]] [[topological string]] | [[Vect]] | [[Frobenius algebra]] $A$ | [[folklore]]+([Abrams 96](2d+TQFT#Abrams96)) |
-| [[open string|open]] [[topological string]] with [[closed string]] [[bulk  field theory|bulk theory]] | [[Vect]] | [[Frobenius algebra]] $A$ with [[trace]] map $B \to Z(A)$ and [[Cardy condition]] | ([Lazaroiu 00](#2d+TQFT#Lazaroiu00), [Moore-Segal 02](2d+TQFT#MooreSegal02)) |
+| [[open string|open]] [[topological string]] | [[Vect]]${}_k$ | [[Frobenius algebra]] $A$ | [[folklore]]+([Abrams 96](2d+TQFT#Abrams96)) |
+| [[open string|open]] [[topological string]] with [[closed string]] [[bulk  field theory|bulk theory]] | [[Vect]]${}_k$ | [[Frobenius algebra]] $A$ with [[trace]] map $B \to Z(A)$ and [[Cardy condition]] | ([Lazaroiu 00](#2d+TQFT#Lazaroiu00), [Moore-Segal 02](2d+TQFT#MooreSegal02)) |
 | non-compact [[open string|open]] [[topological string]] | [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ algebra]] | ([Kontsevich 95](2d+TQFT#Kontsevich95), [Costello 04](2d+TQFT#Costello04)) |
 | non-compact [[open string|open]] [[topological string]] with various [[D-branes]]| [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ category]] | " |
 | non-compact [[open string|open]] [[topological string]] with various [[D-branes]] and with [[closed string]] [[bulk field theory|bulk]] sector | [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ category]] with [[Hochschild cohomology]] | " |
