@@ -161,6 +161,8 @@ to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
 
 ## References
 
+### General
+
 A specific realization of this idea in terms of [[(∞,n)-category]] modeled as [[n-fold complete Segal space]] is in (definition 2.2.9, page 36)
 
 *  {#LurieQFT} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
@@ -171,23 +173,31 @@ In that article a proof of the [[cobordism hypothesis]] is indicated. A review i
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Available [on the arxiv](http://arxiv.org/abs/1011.0110). 
 
-
-A detailed construction of the [[(n,r)-category|(2,2)-category]] of 2-dimensional cobordisms is
-
-* [[Chris Schommer-Pries]], [[2-category of 2-dimensional cobordisms]] .
-
-* {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
-
-
-For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
-
-* [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
-
 Other discussions of higher categories of cobordisms are
 
 * [[Marco Grandis]], _[[Cospans in Algebraic Topology]]_
 
 * [[Eugenia Cheng]] and [[Nick Gurski]], _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+
+
+### In dimension 2
+
+A detailed construction of the [[(n,r)-category|(2,2)-category]] of 2-dimensional cobordisms is
+
+* [[Chris Schommer-Pries]], _[[2-category of 2-dimensional cobordisms]]_.
+
+* {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
+
+### In dimension 3
+
+* [[Bruce Bartlett]], [[Christopher Douglas]], [[Christopher Schommer-Pries]], [[Jamie Vicary]], _Extended 3-dimensional bordism as the theory of modular objects_ ([arXiv:1411.0945](http://arxiv.org/abs/1411.0945))
+
+### In dimension $\infty$
+
+For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
+
+* [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
+
 
 
 [[!redirects (∞,n)-category of cobordisms]]
