@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called the _motivic homotopy category_ or the _$\mathbb{A}^1$-homotopy category_ bears the same relation to [[smooth varieties]] that the ordinary [[homotopy category]] $Ho(Top)$ bears to [[smooth manifolds]].
+_Motivic homotopy theory_ or _$\mathbf{A}^1$-homotopy theory_ is the [[homotopy theory]] of smooth [[schemes]], where the [[affine line]] $\mathbf{A}^1$ plays the role of the [[interval]].  Hence what is called the _motivic homotopy category_ or the _$\mathbb{A}^1$-homotopy category_ bears the same relation to [[smooth varieties]] that the ordinary [[homotopy category]] $Ho(Top)$ bears to [[smooth manifolds]].
 
 Both are special cases of a [[homotopy theory]] induced by any sufficiently well-behaved [[interval object]] $I$ in a [[site]] $C$. Ordinary homotopy theory is obtained by taking $C$ to be the [[Diff|site of smooth manifolds]] and $I$ to be the [[real line]] $\mathbb{R}$, and $\mathbb{A}^1$-homotopy theory over a [[Noetherian scheme]] $S$ is obtained when $C$ is the [[Nisnevich site]] of [[smooth scheme]]s of finite type over $S$ and 
 
@@ -520,3 +520,7 @@ Discussion related to [[étale homotopy]] is in
 [[!redirects stable motivic homotopy category]]
 [[!redirects motivic space]]
 [[!redirects motivic spaces]]
+[[!redirects motivic spectrum]]
+[[!redirects motivic spectra]]
+
+[[!redirects homotopy theory of schemes]]
