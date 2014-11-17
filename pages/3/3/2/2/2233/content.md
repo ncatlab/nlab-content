@@ -89,6 +89,8 @@ The most common cases for $C$ are
 *  $C = n Vect(R)$, the category of $n$-[[n-vector space|vector spaces]] over a field $R$.
 *  $C = n Mod(R)$, the (conjectured?) category of $n$-[[n-module|modules]] over a commutative ring $R$.
 
+3d: [[Turaev-Viro model]]
+
 ### Generic examples
 
 By the [[cobordism hypothesis]]-theorem every [[fully dualizable object]] in a symmetric monoidal $(\infty,n)$-category with duals provides an example.
