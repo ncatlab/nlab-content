@@ -542,13 +542,39 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 ### Naive generalization: Global 2d TQFT 
  {#Global2dTQFT}
 
-Atiyah-Segal...
+In view of the above discussion of "topological quantum mechanics", i.e. of 1-dimensional [[TQFT]], it is immediate to pass to a higher dimensional field theory by using [[categories of cobordisms]] of higher dimension and consider [[strong monoidal functors]]
 
-... [[2d TQFT]] ... [[Frobenius algebra]] ...
+$$
+  Z \;\colon\; Bord_n^\sqcup \longrightarrow Vect^\otimes
+$$
 
+([Atiyah 88](#Atiyah88), [Segal 04](#Segal04)).
+
+for instance 1-dimensional cobordisms with boundary describe a kind [[2d TQFT]] with [[boundary field theory]].
+
+[[frobenius_algebra.jpg:pic]]
+
+As almost immediate from these picture, such 2d TQFTs are equivalent to [[Frobenius algebras]] $A$. 
+
+In terms of physics: $A$ is the [[space of states]] of a topological [[open string]] and the algebra and coalgebra structure on it encodes its [[3-point functions]].
+
+More generally open and [[closed strings]]
+
+[[monoid_laws.jpg:pic]]
+
+
+Now $Z$ is equivalent to a pair consisting of a Frobenius algebra $A$ and a commutative Frobenius algebra $B$ and a [[homomorphism]] $B \to Z(A)$ to the [[center]] of $A$
+ 
 $$
   Bord_2^{\sqcup} \longrightarrow Vect^\otimes
 $$
+
+([Moore-Segal](#MooreSegal06) [Lazaroiu 00](#Lazaroiu00), see also [Lauda-Pfeiffer 05](#LaudaPfeiffer05)).
+
+In physics speak $B$ is the space of states for the topological _[[closed string]]_.
+
+Or rather, it is _some_ topological string model, but not the one originally obtained by [[topological twist]] from the [[2d (2,0)-superconformal QFT]] which is commonly what is understood as the "[[topological string]]" in [[string theory]] ([[A-model]]/[[B-model]]).
+
 
 ### Local 2d TQFT -- The topological String  
  {#Local2dTQFT}
@@ -565,11 +591,9 @@ via [[higher category theory]]
 
 ...[[TCFT]]...
 
-| [[2d TQFT]] | [[algebra]] |
-|-------------|-------------|
-| closed with coeffcients in [[Vect]] | commutative [[Frobenius algebra]] |
-| closed with coefficient in [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ algebra]] |
-| open-closed with coefficient in [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ category]] |
+[[!include 2d TQFT -- table]]
+
+([Costello 04](#Costello04))
 
 
 
@@ -603,7 +627,7 @@ via [[higher category theory]]
 
 It was in
 
-* Michael Atiyah, _Topological quantum field theory_, Publications Math&#233;matiques de l'IH&#201;S, 68  (1988), p. 175-186
+* {#Atiyah88} [[Michael Atiyah]], _Topological quantum field theory_, Publications Math&#233;matiques de l'IH&#201;S, 68  (1988), p. 175-186
 
 that it was realized that 
 
@@ -625,15 +649,18 @@ A pedagogical exposition of the notion of quantum field theory as a functor on [
 
 and a review of much of the existing material in the literature is in 
 
-* Bruce H. Bartlett, _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
+* [[Bruce Bartlett]], _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
 
-The influential work by Moore and Segal on open-closed 2d TFTs is available as
+The discussion of the open-closed case of 2d TQFT goes back to
 
-* [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
+* {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
 
-The same topic is studied by Lazariou:
+* {#Lazaroiu00} [[Calin Lazariou]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
 
-* [[Calin Lazariou]], _On the structure of open-closed topological field theory in two dimensions_
+A picture-rich discussion is in 
+
+* {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
+
 
 ### Non-topological FQFTs (especially conformal)## 
 
@@ -641,7 +668,7 @@ This mostly concentrates on [[TQFT|topological quantum field theories]], those w
 
 This was realized in
 
-* Graeme Segal, _The definition of conformal field theory_, in: _Topology, Geometry and quantum field theory_, London. Math. Soc. LNS 308, edited by U. Tillmann, Cambridge Univ. Press 2004, 247-343
+* {#Segal04} [[Graeme Segal]], _The definition of conformal field theory_, in: _Topology, Geometry and quantum field theory_, London. Math. Soc. LNS 308, edited by [[Ulrike Tillmann]], Cambridge Univ. Press 2004, 247-343
 
 There the notion of 2-dimensional [[conformal field theory]] is axiomatized as a functor on a category of 2-dimensional cobordisms with conformal structure.
 
@@ -736,23 +763,35 @@ See
 
 * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
-### homological FQFT (and TCFT) ##
+### homological 2d FQFT (and TCFT) ##
 
-As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in [[TCFT]] the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of [[dg-algebra]].
+As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in [[TCFT]] the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of [[dg-algebra]]
 
-* [[Ezra Getzler]], ...
+The concept is essentially a formalization of what used to be called [[cohomological field theory]] in
 
-  * [[TCFT]]
-
-* [[Maxim Kontsevich]], ...
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
 
-* [[Kevin Costello]], ...
+The definition of [[TCFT]] was given independently by 
+
+* {#Getzler92} [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
+
+and 
+
+* [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
-  * [[factorization algebra]]
+The classification of [[TCFT]]s by [[Calabi-Yau A-∞ categories]] was discussed in
+
+* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
+
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+
+following conjectures by [[Maxim Kontsevich]], e.g.
+
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
 
-* etc.
+
 
 ## Related concepts
 
