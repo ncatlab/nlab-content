@@ -81,15 +81,17 @@ In his work he particularly makes use of the fact that as sophisticated as a [[s
 
 Being axiomatic, reasoning in synthetic differential geometry applies in every **model** for the axioms, i.e. in every concrete choice of [[smooth topos]] $T$.
 
-Models of [[smooth topos]]es tend to be inspired, but more general than, constructions familiar from [[algebraic geometry]]. In particular the old insight promoted by [[Grothendieck]] in his work, that nilpotent ideals in [[ring]]s are formal duals of spaces with infinitesimal extension is typically used to model [[infinitesimal space]]s in synthetic differential geometry.
+Models of [[smooth toposes]] tend to be inspired, but more general than, constructions familiar from [[algebraic geometry]]. In particular the old insight promoted by [[Grothendieck]] in his work, that [[nilpotent ideals]] in [[rings]] are formal duals of spaces with infinitesimal extension is typically used to model [[infinitesimal spaces]] in synthetic differential geometry.
 
-The main difference between models for [[smooth topos]]es  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring]]s or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated, to the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#wellAdaptedModels).
+See at _[[synthetic differential geometry applied to algebraic geometry]]_ for more on this.
+
+The main difference between models for [[smooth toposes]]  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring]]s or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated, to the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#wellAdaptedModels).
 
 However, with a a sufficiently general perspective on [[higher geometry]] one finds that algebraic geometry and  synthetic differential geometry are both special cases of a more general notion of theories of generalized spaces. For more on this see [[generalized scheme]].
 
 
-## Well adapted models
-{#wellAdaptedModels}
+### Well adapted models
+ {#wellAdaptedModels}
 
 A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary [[smooth manifold]]s into $E$. 
 
