@@ -23,14 +23,20 @@
 
 [[!redirects aufhebung]]
 [[!redirects Aufhebungs relation]]
+[[!redirects jump operator]]
 
 
-##Idea
-_Aufhebung_ (sublation) is a central concept in the dialectical logic of the German philosopher G. W. F. Hegel. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
+## Idea
+
+> I am not a "Hegelian". F. W. Lawvere [^LQ]
+
+[^LQ]: ([Lawvere 1989](#Law89b), p.74).
+
+**Aufhebung** (sublation) is a central concept in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
 
 [^fine]: As this polysemy is important for the concept and difficult to preserve in translation we prefer to use the German term in the following.
 
-In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]]. It is the mathematical concept that will constitute the primary subject in the following.
+In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]] or [[category theory]] more generally. It is the mathematical concept that will constitute the primary subject in the following.
 
 ##_Aufhebung_ in Hegel's 'Wissenschaft der Logik'
 
@@ -95,7 +101,7 @@ Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-Lawvere introduced the Hegelian concepts in Lawvere ([1989a](#Lawv89a),[1989b](#Law89b)). They get some attention in Lawvere ([1991](#Lawv91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Lawv89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+Lawvere introduced the Hegelian concepts in Lawvere ([1989a](#Law89a),[1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10) which is based on older phd-works by some of the authors.
 
