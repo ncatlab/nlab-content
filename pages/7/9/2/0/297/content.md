@@ -4,13 +4,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Functorial quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
 =--
@@ -20,22 +20,28 @@
 {:toc}
 
 
-_Functorial quantum field theory_ is one of the two approaches of axiomatizing [[quantum field theory]], the other being [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
 
-### General idea
+## Idea
  {#GeneralIdea}
 
-Much work in quantum field theory is based on arguments using the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
+_Functorial quantum field theory_ or FQFT for short, is one of the two approaches of providing a precise [[mathematics|mathematical]] formulation of and of [[axiom|axiomatizing]] [[quantum field theory]]. FQFT formalizes the _[[Schrödinger picture]]_ of [[quantum mechanics]] (generalized to [[quantum field theory]]) where [[spaces of quantum states]] are assigned to [[space]] and where linear maps are assigned to [[trajectories]]/[[spacetimes]] interpolating between these spaces.
+
+
+### As an axiomatization of the path integral and S-Matrix
+
+The axioms of FQFT may be understood as formulating the basic properties that the [[path integral]] or [[S-matrix]] involked in [[physics]] ought to satisfy, if they had been given a precise definition.
+
+Much work in [[quantum field theory]] is based on arguments invoking the concept of the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
 
 Accordingly it is the _[[S-matrix]]_ that is manifestly incarnated in the Atiyah-Segal picture of functorial QFT:
 
-Here a [[quantum field theory]] is given by a [[functor]] 
+Here a [[quantum field theory]] is given by a [[strong monoidal functor|monoidal]] [[functor]] 
 
 $$
  Z \colon Bord_d^S \longrightarrow Vect
 $$
 
-from a suitable [[category of cobordisms]] to a suitable [[category]] of [[vector spaces]].
+from a suitable [[monoidal category|monoidal]] [[category of cobordisms]] to a suitable [[monoidal category]]  of [[vector spaces]].
 
 * To a codimension-1 slice $M_{d-1}$ of space this assigns a vector space $Z(M_{d-1})$ -- the (Hilbert) [[space of quantum states]] over $M_{d-1}$;
 
@@ -58,9 +64,26 @@ Notice that such a linear map from the canonical 1-dimensional complex vector sp
 
 In this form in physics the propagator is usually called the _[[correlator]]_ or _[[n-point function]]_ .  
 
-Segal's axioms for [[FQFT]] ([[CFT]] in his case) were originally explicitly about the propagators/S-matrices, while Atiyah formulated it in terms of the correlators this way. Both perspectives go over into each other under duality as above.
+The axioms of ([Segal 04](#Segal04)) for [[FQFT]] ([[2d CFT]] in this case) were originally explicitly about the propagators/S-matrices, while ([Atiyah 88](#Atiyah88)) formulated it in terms of the correlators this way. Both perspectives go over into each other under duality as above.
 
 Notice that this kind of discussion is not restricted to topological field theory. For instance already plain quantum mechanics is usefully formulated this way, that's the point of [[finite quantum mechanics in terms of dagger-compact categories]].
+
+### As the dual axiomatization to AQFT
+
+Historically older is the proposal for axiomatizing QFT that is known as _[[AQFT]]_, short for _algebraic quantum field theory_. This formalizes the _[[Heisenberg picture]]_ of [[quantum mechanics]], as do modern variants such as [[factorization algebras]]. Here the basic assignment is that of [[algebras of observables]] to regions of [[spacetime]].
+
+In principle [[AQFT]] and FQFT should be two sides of the same medal, and in special cases this has been made precise (see for instance at _[[topological chiral homology]]_) but generally, much as the formulation of FQFT and AQFT themselves remains in progress, so does their precise relation.
+
+[[!include Isbell duality - table]]
+
+### Global ("non-covariant") and local ("covariant") version
+ {#AndAndLocalVersion}
+
+Functorial QFT in any dimension $n$ was originally formulated ([Atiyah 88](#Atiyah88), [Segal 04](#Segal04)) as a 1-[[functor]] on a 1-[[category of cobordisms]]. In this formulation there is a [[space of quantum states]] assigned to every global spatial slice of [[spacetime]]/[[worldvolume]], which is then propagated in time/along a parameter. In physics jargon this corresponds to "non-covariant" [[quantization]], in that the slicing of [[spacetime]]/[[worldvolume]] into space and time components breaks [[general covariance]] which is the hallmark specifically of the [[topological quantum field theories]] to which the methods of FQFT apply most immediately.
+
+A local ("[[extended TQFT|extended]]", "multi-tiered") refinement of this is naturally given by passing from 1-functors to [[(∞,n)-functors]] on [[(∞,n)-categories of cobordisms]]. This formulation was vaguely suggested in ([Baez-Dolan 95](#BaezDolan95)) ("[[cobordism hypothesis]]") and formalized in ([Luire 09](#Luire09)). It captures what in physics jargon would be called "covariant" quantum field theory, in that the "localization down to the point" means that the formalism knows how to glue/propagate in spatial directions just as in time directions, in fact that no such distinction is retained.
+
+
 
 ## Exposition and Introduction
  {#Introduction}
@@ -253,7 +276,7 @@ $$
 
 Hence (Cartesian or non-cartesian) [[tensor products]] are something like product operations on sets, but on whole [[categories]]. Since binary associative product operations on sets are sometimes called _[[monoids]]_, one says that the category [[Vect]] of vector spaces when equipped with the tensor product of vector spaces is a _[[monoidal category]]_.
 
-Similarly, the categories [[Diff]] or [[Set]] [[smooth manifolds]] or just bare [[sets]] carries a monoidal structure given simply by the [[Cartesian product]] of sets. This is called a [[cartesian monoidal structure]].
+Similarly, the categories [[Diff]] or [[Set]] [[smooth manifolds]] or just bare [[sets]] carries a monoidal structure given simply by the [[Cartesian product]] of sets. This is called a [[cartesian monoidal category|cartesian monoidal structure]].
 
 The characteristic property of Cartesian products $X_1 \times X_2$ is that elements of these are equivalently pairs of elements in $X_1$ and $X_2$, respectively. This reflects in turn the characteristic property of compound classical mechanical systems: a state of these is symply a pair of states of the two subsystems.
 
@@ -539,7 +562,9 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 
 ...[[string diagram]]...
 
-### Naive generalization: Global 2d TQFT 
+### Quantum topological string
+
+#### Naive generalization: Global 2d TQFT 
  {#Global2dTQFT}
 
 In view of the above discussion of "topological quantum mechanics", i.e. of 1-dimensional [[TQFT]], it is immediate to pass to a higher dimensional field theory by using [[categories of cobordisms]] of higher dimension and consider [[strong monoidal functors]]
@@ -576,7 +601,7 @@ In physics speak $B$ is the space of states for the topological _[[closed string
 Or rather, it is _some_ topological string model, but not the one originally obtained by [[topological twist]] from the [[2d (2,0)-superconformal QFT]] which is commonly what is understood as the "[[topological string]]" in [[string theory]] ([[A-model]]/[[B-model]]).
 
 
-### Local 2d TQFT -- The topological String  
+#### Local 2d TQFT -- The A/B-model topological String  
  {#Local2dTQFT}
 
 Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
@@ -609,21 +634,20 @@ classification by ([Costello 04](#Costello04)) sums it up:
 (...)
 
 
-
-### Global 3d TQFT -- Chern-Simons theory
- {#Global3dTQFT}
-
-...[[quantization of 3d Chern-Simons theory]]...
-
-...[[Reshetikhin-Turaev construction]]...
-
-### Local 3d TQFT -- Modular functor and Wess-Zumino-Witten theory
- {#Local3dTQFT}
-
-... [[modular functor]] ...
-
 ### General local TQFT
  {#IntroductionGeneralFormulation}
+
+#### "Covariance" in physics
+
+One way to understand from the point of view of [[physics]] why the 1-functorial description of [[2d CFT]] and [[2d TQFT]] [above](#Global2dTQFT) is unsatisfactory is that it breaks what is known as "covariance" in physics, in the sense of "[[general covariance]]" (reflected also in the term "[[covariant phase space]]"): implicit in the concept of a [[category of cobordisms]] is a splitting of a [[spacetimes]]/[[worldvolumes]] into spatial slices (the [[objects]]) of the category and [[trajectories]] between these. 
+
+The standard [[Lagrangian]]-data ("[[prequantum field theory]]") from which [[topological quantum field theories]] are supposed to arise under [[quantization]] do not enforce such a splitting as indeed they are [[general covariance|generally covariant]]. Accordingly, a [[local Lagrangian]] should, after [[quantization]], give rise to a [[local quantum field theory]] that is still "generally covariant" in that it does not require or depend on such a splitting. In physics this plays a crucial role for instance in considerations related to [[quantum gravity]].
+
+
+
+
+
+#### Formalization in higher monoidal category theory
 
 ... [[(infinity,n)-category of cobordisms]]...
 
@@ -632,6 +656,57 @@ classification by ([Costello 04](#Costello04)) sums it up:
 ... [[fully dualizable object]]...
 
 ... [[cobordism hypothesis]]...
+
+
+### 3d TQFT
+ {#Global3dTQFT}
+
+
+#### Chern-Simons theory
+
+...[[fusion category]]...
+
+...[[Turaev-Viro construction]]...
+
+...[[modular tensor category]]...
+
+...[[Reshetikhin-Turaev construction]]...
+
+
+
+...[[quantization of 3d Chern-Simons theory]]...
+
+
+#### Modular functor
+ {#Local3dTQFT}
+
+... [[modular functor]] ...
+
+
+
+
+
+## Related concepts
+
+* [[quantum field theory]]
+
+  * **FQFT**
+
+    * [[TQFT]], 
+ 
+      * [[extended topological quantum field theory]], 
+
+      * [[0-dimensional TQFT]], 
+
+      * [[2d TQFT]], [[3d TQFT]] [[4d TQFT]], 
+
+      *  [[HQFT]]
+
+  * [[AQFT]]
+
+    * [[Haag-Kastler axioms]]
+
+    * [[local net of observables]]
 
 
 ## References
@@ -654,7 +729,7 @@ All this was originally formalized in the context of [[TQFT|topological quantum 
 
 A pedagogical exposition of how the physicist's way of thinking about the path integral leads to its definition as a functor is given in
 
-* Kevin Walker, _TQFTs_ ([pdf](http://canyon23.net/math/tc.pdf))
+* [[Kevin Walker]], _TQFTs_ ([pdf](http://canyon23.net/math/tc.pdf))
 
 A pedagogical exposition of the notion of quantum field theory as a functor on [[cobordism]]s is in 
 
@@ -668,7 +743,7 @@ The discussion of the open-closed case of 2d TQFT goes back to
 
 * {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
 
-* {#Lazaroiu00} [[Calin Lazariou]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
+* {#Lazaroiu00} [[Calin Lazaroiu]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
 
 A picture-rich discussion is in 
 
@@ -700,7 +775,7 @@ But one notices that the formalization of quantum field theory as a [[functor]] 
 
 This leads to the notion of _extended quantum field theory_, which is taken to be an $\infty$-functor on an [[higher category theory|infinity category]] of [[extended cobordism]]s. Early ideas about a formalization of this approach were given in
 
-* John Baez and Jim Dolan, _Higher-dimensional algebra and Topological Quantum Field Theory_  ([arXiv](http://arxiv.org/abs/q-alg/9503002)) .
+* {#BaezDolan95} [[John Baez]], [[James Dolan]], _Higher-dimensional algebra and Topological Quantum Field Theory_  ([arXiv](http://arxiv.org/abs/q-alg/9503002)) .
 
 Making this precise involves giving a precise definition of an $\infty$-category of cobordisms. Several approaches exist, such as
 
@@ -720,7 +795,7 @@ More recently, Mike Hopkins and Jacob Lurie claimed
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]] using an [[(infinity,n)-category of cobordisms]]. This is described in 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ 
+* {#Luire09} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
 An explicit account of this for the 2-dimensional case is presented in
 
@@ -806,29 +881,7 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 
 
-## Related concepts
 
-* [[quantum field theory]]
-
-  * [[AQFT]]
-
-    * [[Haag-Kastler axioms]]
-
-    * [[local net of observables]]
-
-  * **FQFT**
-
-    * [[TQFT]], 
- 
-      * [[extended topological quantum field theory]], [[0-dimensional TQFT]], [[3d TQFT]] [[4d TQFT]], [[HQFT]]
-
-    * [[(1,1)-dimensional Euclidean field theories and K-theory]]
-
-    * [[(2,1)-dimensional Euclidean field theories and tmf]]
-
-  
-
-[[!include Isbell duality - table]]
 
 
 
