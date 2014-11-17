@@ -80,26 +80,55 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 
 * [[topological quantum computation]]
 
-## Literature 
+## References
 
-An introduction to 2D TQFTs can be found in
+
+### Global
+
+The [[FQFT]]-[[axioms]] for global (i.e. 1-functorial) TQFTs are due to
+
+* {#Atiyah89} [[Michael Atiyah]], _Topological quantum field theories_, Publications Math&#233;matiques de l'IH&#201;S 68 (68): 175&#8211;186,  (1989) ([Numdam](http://www.numdam.org/item?id=PMIHES_1988__68__175_0))
+
+Lecture notes include 
+
+* {#Walker06} [[Kevin Walker]], _TQFTs_, 2006 ([pdf](http://canyon23.net/math/tc.pdf))
+
+For [[HQFT]] see there
+
+An introduction to [[2D TQFT|2d TQFTs]] is in
 
 * [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theories_, No. 59 of LMSST, Cambridge University Press, 2003., (full information [here](http://mat.uab.es/~kock/TQFT.html)).
 
-Further literature includes:
 
-* [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
+### Local
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+The local [[FQFT]] formulation (i.e. [[n-functor|n-functorial]]) together with the [[cobordism hypothesis]] was suggested in
 
-On the [[cobordism theorem]]:
+*  [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J.Math.Phys. 36 (1995) 6073-6105 ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
+
+and formalized and proven in
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]; _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
-* see also [[cobordism hypothesis]] and references therein
+
+Lecture notes include
+
+* {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
+
+
+
+Othe amplifying the aspects of [[higher category theory]] is in
+
+* [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, ([arxiv/1004.2307](http://arxiv.org/abs/1004.2307))
+
+See also
 
 * Mark Feshbach, Alexander A. Voronov, _A higher category of cobordisms and topological quantum field theory_, [arxiv/1108.3349](http://arxiv.org/abs/1108.3349) 
 
-* {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
+Indication of local [[quantization]] in the context of [[infinity-Dijkgraaf-Witten theory]] is in
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+
 
 [[!redirects topological quantum field theories]]
 [[!redirects TQFT]]
