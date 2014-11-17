@@ -55,6 +55,8 @@ This is ([Ginzburg, def. 3.2.3](#Ginzburg)).
 
 ## Properties
 
+### General
+
 Let $X$ be a [[smooth scheme|smooth]] [[quasi-projective variety]]. Write $D^b(Coh X)$ for the [[derived category]] of bounded [[chain complex]]es of [[coherent sheaves]] over $X$.
 
 +-- {: .num_defn #TiltingGenerator}
@@ -95,6 +97,11 @@ Then $End \mathcal{E}$ is a Calabi-Yau algebra of dimension $d$ precisely if $X$
 =--
 
 This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
+
+### Classification of 2d TQFT
+
+[[!include 2d TQFT -- table]]
+
 
 ## Related concepts
 
