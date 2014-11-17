@@ -81,6 +81,8 @@ This is [Lurie, 4.2.11](#Lurie).
 
 This is closely related to the description of [[TCFT]]s ([Lurie, theorem 4.2.13](#Lurie)).
 
+[[!include 2d TQFT -- table]]
+
 ## Related concepts
 
 * [[Calabi-Yau category]]
