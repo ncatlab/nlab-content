@@ -166,6 +166,7 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 
 * [[Frobenius monad]]
 
+* [[Calabi-Yau algebra]]
 
 ## References ##
 
