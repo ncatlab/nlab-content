@@ -21,6 +21,8 @@
 
 A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of [[dimension]] 2. 
 
+## Classification
+
 When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then 2d TQFTs have a comparativle simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
 
 However, such global 2d TQFTs with [[coefficients]]in [[Vect]] 
@@ -28,7 +30,7 @@ do not capture the 2d TQFTs of most interest in [[quantum field theory]], which 
 
 These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]] (see at _[[FQFT]]_ for more), typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
 
-
+[[!include 2d TQFT -- table]]
 
 ## Filtrations of the moduli space of surfaces {#FiltrationOfModuliSpace}
 
@@ -86,6 +88,7 @@ $$
     S_\bullet(K_n)
   \}
 $$
+
 
 of simplicial realizations of the $K_n$ form an [[sSet]]-[[operad]] $P$.
 
@@ -325,7 +328,7 @@ and this is also $k$-connected.
 
 The [[folklore]] result that global closed 2d TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
 
-* {#Abrams96} Lowell Abrams, _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+* {#Abrams96} [[Lowell Abrams]], _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
 
 The classification result for open-closed 2d TQFTs was famously announced and sketched in 
 
@@ -358,7 +361,7 @@ and
 
 * {#Segal99} [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
-The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
+The classification of [[TCFT]]s (i.e. "non-compact" local ([[extended TQFT|extended]] 2d TQFT)) by [[Calabi-Yau A-infinity categories]] is due to
 
 * {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
 
@@ -366,7 +369,11 @@ The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
 following conjectures by [[Maxim Kontsevich]], e.g.
 
-* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#252;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+* {#Kontsevich95} [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#252;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+
+The classification of local ([[extended TQFT|extended]]) 2d TQFT (i.e. the "compact" but fully local case) is spelled out in
+
+* {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
 
 This classification is a precursor of the full [[cobordism hypothesis]]-theorem. This, and the reformulation of the original TCFT constructions in full generality is in 
 
@@ -377,4 +384,3 @@ This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 
 [[!redirects 2d topological quantum field theory]]
 [[!redirects 2d topological quantum field theories]]
-
