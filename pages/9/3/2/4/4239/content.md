@@ -112,7 +112,7 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 * [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
-* [[Kontsevich]], [[Soibelman]]. _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry_ &lt;http://arxiv.org/abs/math/0606241>
+* [[Maxim Kontsevich]], [[Yan Soibelman]]. _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry_ &lt;http://arxiv.org/abs/math/0606241>
 
 * Cho, Lee. Notes on Kontsevich-Soibelman's theorem about cyclic A-infinity algebras &lt;http://arxiv.org/abs/1002.3653>
 
