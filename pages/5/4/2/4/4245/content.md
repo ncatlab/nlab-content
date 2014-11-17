@@ -46,7 +46,7 @@ nontransverse, the definition of $m_k$ becomes more evasive.
 
 ## In quantum field theory and string theory
 
-In [[string theory]], the Fukaya category of a [[symplectic manifold]] $X$ represents the category of [[D-branes]] in the [[A-model]] with [[target space]] $X$. For [[Landau-Ginzburg models]], the category of D-branes for the A-model is described by [[Fukaya-Seidel categories]].
+In [[string theory]], the Fukaya category of a [[symplectic manifold]] $X$ represents the category of [[D-branes]] in the [[A-model]] -- the [[A-branes]] -- with [[target space]] $X$. For [[Landau-Ginzburg models]], the category of [[A-branes]] is described by [[Fukaya-Seidel categories]].
 
 The assignment that sends a [[symplectic manifold]] to its Fukaya category extends to a [[functor]] on a variant of the [[symplectic category]] with [[Lagrangian correspondences]] as morphisms. This is supposed to be the [[FQFT]] incarnation of [[Donaldson theory]]. See at _[[Lagrangian correspondences and category-valued TFT]]_ for more on this.
 
