@@ -79,7 +79,7 @@ out of a version of the [[(infinity,n)-category of cobordisms|(infinity,2)-categ
 
 This is [Lurie, 4.2.11](#Lurie). 
 
-This is closely related to the description of [[TCFT]]s ([Lurie, theorem 4.2.13](#Lurie)).
+This is closely related to the description of [[2d TQFT]] as [[TCFT]]s ([Lurie, theorem 4.2.13](#Lurie)).
 
 [[!include 2d TQFT -- table]]
 
