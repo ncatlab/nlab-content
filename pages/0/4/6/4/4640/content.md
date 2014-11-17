@@ -269,6 +269,32 @@ For $k$ a [[field]] of [[characteristic]] 0, then the affine line $\mathbb{A}^1_
 
 ([HSS 13, section 1](#HSS13))
 
+### Internal formulation
+ {#InternalFormulation}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[scheme]] and $Sh(Sch/X)$ the [[Zariski site|big Zariski topos]] associated to $X$. Denote by $\mathbb{A}^1$ (the [[affine line]]) the [[ring object]] $T \mapsto \Gamma(T,\mathcal{O}_T)$, i.e. the functor represented by the $X$-scheme $\mathbb{A}^1_X \coloneqq X \times Spec(\mathbb{Z}[t])$. Then:
+
+* $\mathbb{A}^1$ is [[internal logic|internally]] a [[local ring]].
+
+* $\mathbb{A}^1$ is internally a [[field]] in the sense that any nonzero element is invertible.
+
+* Internally, any [[function]] $f : \mathbb{A}^1 \to \mathbb{A}^1$ is a [[polynomial]] function, i.e. of the form $f(x) = \sum_i a_i x^i$ for some coefficients $a_i : \mathbb{A}^1$. More precisely,
+$$ Sh(Sch/X) \models \forall f : [\mathbb{A}^1,\mathbb{A}^1]. \bigvee_{n \in \mathbb{N}} \exists a_0,\ldots,a_n : \mathbb{A}^1. \forall x : \mathbb{A}^1. f(x) = \sum_i a_i x^i. $$
+Furthermore, these coefficients are uniquely determined.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since the big Zariski topos is [[cocomplete category|cocomplete]] (being a [[Grothendieck topos]]), one can also get rid of the external [[disjunction]] and refer to the object $\mathbb{A}^1[X]$ of internal polynomials: The canonical ring homomorphism $\mathbb{A}^1[X] \to [\mathbb{A}^1,\mathbb{A}^1]$ (given by evaluation) is an [[isomorphism]].
+
+=--
+
+See also at _[[synthetic differential geometry applied to algebraic geometry]]_.
 
 ## Examples
 
