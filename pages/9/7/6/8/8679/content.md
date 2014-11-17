@@ -40,30 +40,32 @@ The Turaev-Viro model is a [[boundary field theory]] of the [[4d TQFT]] [[Yetter
 
 ## References
 
-The original article is
+The original article
 
-* V. G. Turaev and O. Ya. Viro, _State sum invariants of 3-manifolds and quantum 6jsymbols_, Topology 31 (1992), no. 4, 865&#8211;902, DOI 10.1016/0040-9383(92)90015-A.
-MR1191386 (94d:57044
+* [[Vladimir Turaev]] and O. Ya. Viro, _State sum invariants of 3-manifolds and quantum 6jsymbols_, Topology 31 (1992), no. 4, 865&#8211;902, DOI 10.1016/0040-9383(92)90015-A. MR1191386 (94d:57044
 
-* [[John Barrett]], [[Bruce Westbury]], _Invariants of piecewise-linear 3-manifolds_, Trans. Amer. Math. Soc. 348 (1996), no. 10, 3997&#8211;4022, DOI 10.1090/S0002-9947-
-96-01660-1. MR1357878 (97f:57017)
+constructed 3-manifold invariants from quantum [[6j symbols]]. In
 
-* [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
-  {#BarrettGarciIslasMartins04}
+* [[John Barrett]], [[Bruce Westbury]], _Invariants of piecewise-linear 3-manifolds_, Trans. Amer. Math. Soc. 348 (1996), no. 10, 3997&#8211;4022, DOI 10.1090/S0002-9947-96-01660-1. MR1357878 (97f:57017)
+
+it was shown that this construction proceeds from any [[spherical category|spherical]] [[fusion category]].
+
+Relation to the [[Crane-Yetter model]] was discussed in
+
+* {#BarrettGarciIslasMartins04} [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
+  
 
 
 Refinement of the construction to an [[extended TQFT]] is in 
 
-* [[Alexander Kirillov]] Jr., Benjamin Balsam, _Turaev-Viro invariants as an extended TQFT_ ([arXiv:1004.1533](http://arxiv.org/abs/1004.1533))
-  {#KirillovBalsam10}
+* {#KirillovBalsam10} [[Alexander Kirillov]] Jr., Benjamin Balsam, _Turaev-Viro invariants as an extended TQFT_ ([arXiv:1004.1533](http://arxiv.org/abs/1004.1533))
+  
 
-Discussion that relates the [[geometric quantization]] of $G$-[[Chern-Simons theory]] to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
+Discussion that relates the [[quantization of 3d Chern-Simons theory]] to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
-* [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](arxiv.org/abs/1206.2785))
- {#Andersen}
-
+* {#Andersen} [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](arxiv.org/abs/1206.2785))
+ 
 and references cited there.
-
 
 A relation to the [[Levin-Wen model]] is discussed in
 
@@ -71,3 +73,5 @@ A relation to the [[Levin-Wen model]] is discussed in
 
 
 [[!redirects Turaev-Viro construction]]
+
+
