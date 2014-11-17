@@ -51,6 +51,52 @@ is a _$G$-[[∞-gerbe]]_.
 
 Every $V$-fiber $\infty$-bundle is the [[associated ∞-bundle]] to an [[automorphism ∞-group]]-[[principal ∞-bundle]].
 
+For let $Type$ be the [[object classifier]]. Then any bundle $E \to X$ is classified by a morphism
+
+$$
+  X \longrightarrow Type
+$$
+
+On the other hand, since the pullback to the bundle on some $U$ is trivializable, that bundle over $U$ is classsified by a map that factors through the point which is the name of the fiber $V$
+
+$$
+  U \longrightarrow \ast \stackrel{\vdash V}{\longrightarrow} Type
+  \,.
+$$
+
+The [[1-image]]-of this point inclusion is the [[delooping]] of the [[automorphism ∞-group]] of $V$ :
+
+$$
+  U \longrightarrow \ast \longrightarrow \mathbf{B}\mathbf{Aut}(V) \hookrightarrow Type
+  \,.
+$$
+
+Therefore the fact that $E$ is trivialized over $U$ means that there the classifying maps fit into a [[commuting diagram]] of the form
+
+$$
+  \array{
+     U  &\longrightarrow& \mathbf{B}\mathbf{Aut}(V)
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\longrightarrow& Type
+  }
+$$
+
+By assumption the left morphism is a [[1-epimorphism]] and by the above construction the right morphism is a [[1-monomorphism]]. Therefore by the [[(n-connected, n-truncated) factorization system]] this diagram has an essentially unique lift
+
+$$
+  \array{
+     U  &\longrightarrow& \mathbf{B}\mathbf{Aut}(V)
+     \\
+     \downarrow &\nearrow& \downarrow
+     \\
+     X &\longrightarrow& Type
+  }
+$$
+
+This diagonal lift classifies an $\mathbf{Aut}(V)$-[[principal ∞-bundle]] and the commutativity of the bottom right triangle exhibits the original bundle $E \to X$ as the [[associated ∞-bundle]] to that.
+
 ## Related concepts
 
 * [[associated ∞-bundle]], [[principal ∞-bundle]]
