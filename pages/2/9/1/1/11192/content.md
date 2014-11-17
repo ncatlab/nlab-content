@@ -67,7 +67,7 @@ $$
   \,.
 $$
 
-As for the [[string 2-group]], this defines an [[infinity-group extension]] (the looping of the [[homotopy fiber]] of this map) and this one may call the _T-duality 2-group_ as it controls T-duality pairs by the discussion at _[[T-Duality and Differential K-Theory]]_. Indeed, according to ([Nikolaus 14](#Nikolaus14)) the [[principal 2-bundles]] for the 2-group are the correct formalization of the concept of _[[T-folds]]_.
+As for the [[string 2-group]], this defines an [[infinity-group extension]] (the looping of the [[homotopy fiber]] of this map) and this one may call the _T-duality 2-group_ as it controls T-duality pairs by the discussion at _[[T-Duality and Differential K-Theory]]_. Indeed, according to ([Nikolaus 14](#Nikolaus14)) the [[principal 2-bundles]] for this 2-group are the correct formalization of the concept of _[[T-folds]]_.
 
 ## References
 
