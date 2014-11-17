@@ -9,7 +9,7 @@
 
 ## References
 
-* [[Jacob Lurie]], _Nonabelian Poincar&#233; duality_ April 2013 ([pdf](http://www.math.harvard.edu/~lurie/283notes/Lecture8-Poincare.pdf))
+* [[Jacob Lurie]], _Nonabelian Poincar&#233; duality_ February 2014 ([pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf))
 
 The announced proof by [[Jacob Lurie]] and [[Dennis Gaitsgory]] via nonabelian Poincar&#233; duality of the [[Weil conjecture on Tamagawa numbers]] was announced in 
 
