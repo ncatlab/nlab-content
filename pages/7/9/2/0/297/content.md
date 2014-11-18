@@ -81,7 +81,7 @@ In principle [[AQFT]] and FQFT should be two sides of the same medal, and in spe
 
 Functorial QFT in any dimension $n$ was originally formulated ([Atiyah 88](#Atiyah88), [Segal 04](#Segal04)) as a 1-[[functor]] on a 1-[[category of cobordisms]]. In this formulation there is a [[space of quantum states]] assigned to every global spatial slice of [[spacetime]]/[[worldvolume]], which is then propagated in time/along a parameter. In physics jargon this corresponds to "non-covariant" [[quantization]], in that the slicing of [[spacetime]]/[[worldvolume]] into space and time components breaks [[general covariance]] which is the hallmark specifically of the [[topological quantum field theories]] to which the methods of FQFT apply most immediately.
 
-A local ("[[extended TQFT|extended]]", "multi-tiered") refinement of this is naturally given by passing from 1-functors to [[(∞,n)-functors]] on [[(∞,n)-categories of cobordisms]]. This formulation was vaguely suggested in ([Baez-Dolan 95](#BaezDolan95)) ("[[cobordism hypothesis]]") and formalized in ([Luire 09](#Luire09)). It captures what in physics jargon would be called "covariant" quantum field theory, in that the "localization down to the point" means that the formalism knows how to glue/propagate in spatial directions just as in time directions, in fact that no such distinction is retained.
+A local ("[[extended TQFT|extended]]", "multi-tiered") refinement of this is naturally given by passing from 1-functors to [[(∞,n)-functors]] on [[(∞,n)-categories of cobordisms]]. This formulation was vaguely suggested in ([Baez-Dolan 95](#BaezDolan95)) ("[[cobordism hypothesis]]") and formalized in ([Lurie 09](#Luire09)). It captures what in physics jargon would be called "covariant" quantum field theory, in that the "localization down to the point" means that the formalism knows how to glue/propagate in spatial directions just as in time directions, in fact that no such distinction is retained.
 
 
 
@@ -96,7 +96,13 @@ We start in
 
 * _[Quantum mechanics in Schr&#246;dinger picture](#QuantumMechanicsInSchroedingerPicture)_
 
-by showing how all the basic category-theoretic ideas are already right beneath the surface of the traditional textbook discussion of quantum mechanics. Then in
+by showing how all the basic category-theoretic ideas are already right beneath the surface of the traditional textbook discussion of quantum mechanics. Following that in 
+
+* [Path integral quantization of 1d gauge theory](#PathIntegralQuantizationof1dGaugeTheory)
+
+we show for the simple case of 1-dimensional finite gauge theory how also [[path integral quantization]] of [[prequantum field theory|prequantum]] ([[classical field theory|classical]]) data is naturally organized by monoidal category theory with first bits of [[homotopy theory]] showing up (that will play a more paramount role as one goes upo in dimension).
+
+Then in
 
 * _[Quantum mechanics with interaction and Feynman diagrams](#QMWithInteractionAndFeynmanDiagrams)_
 
@@ -131,8 +137,10 @@ This section introduces the observation that the basic structures in [[quantum m
 
 | [[quantum mechanics]] | [[monoidal category]] [[category theory|theory]] |
 |-----------------------|--------------------------------------------------|
+| [[space of quantum states]] | [[object]] in a [[category]] |
+| [[linear operator]] | [[morphism]] in a [[category]] |
 | [[local quantum field theory|local]] [[dynamics|time evolution]] | [[functor]] |
-| [[compound system]] [[entanglement]] | [[cartesian monoidal category|non-cartesian]] [[monoidal category]] |
+| [[compound system]] [[entanglement]] | [[cartesian monoidal category|non-cartesian]] [[monoidal category|monoidal structure]] |
 | [[bra]]/[[ket]] | [[dual objects]] |
 | [[Feynman diagram]] | monoidal [[string diagram]] |
 
@@ -170,7 +178,7 @@ $$
   U(t_1,t_2)
   =
   P \exp\left(
-     \int_{t_1}^{t_2} \tfrac{i}{\hbar} H_t \, d t
+     \tfrac{i}{\hbar} \int_{t_1}^{t_2}  H_t \, d t
   \right)
   \,.
 $$
@@ -222,6 +230,8 @@ In this language, the above locality condition of [[quantum mechanics]] says tha
 $$
   U \;\colon\; Bord_1^{Riem} \longrightarrow Vect
 $$
+
+that takes
 
 $$
   \array{
@@ -283,7 +293,7 @@ The characteristic property of Cartesian products $X_1 \times X_2$ is that eleme
 The tensor product on [[Vect]] however is not Cartesian: an element  in $\Psi \in V_1 \otimes V_2$ need not be of the form $\psi_1\otimes \psi_2$, for $\psi_i \in V_i$. Instead, in general it is a [[sum]] of such elements
 
 $$
-  \Psi = \underset{j}{\sum}  (\psi_1)_j \otimes (\Psi_2)_j
+  \Psi = \underset{j}{\sum}  (\Psi_1)_j \otimes (\Psi_2)_j
   \,.
 $$
 
@@ -386,16 +396,16 @@ $$
 Given a [[Hamiltonian]] $H$, the [[partition function]] of the [[quantum mechanical system]] is the [[trace]]
 
 $$
-  Z_t \coloneq Tr\left(  \exp\left(\tfrac{i}{\hbar} H t \right)  \right)
+  Z_t \coloneqq Tr\left(  \exp\left(\tfrac{i}{\hbar} H t \right)  \right)
   \,.
 $$
 
 In bra-ket notation this is
 
 $$
-  Z_t = \underset{\Psi}{\sum}  
-   \left\langle \Psi \right\vert
-   \exp\left(\tfrac{i}{\hbar} H t \right)  \left| \Psi\right\rangle 
+  Z_t = \underset{j}{\sum}  
+   \left\langle \Psi_j \right\vert
+   \exp\left(\tfrac{i}{\hbar} H t \right)  \left| \Psi_j \right\rangle 
 $$
 
 In terms of monoidal category-theoretic notation ([[string diagrams]]) this same expression reads as follows
@@ -472,16 +482,39 @@ $$
 
 In this way a 1d TQFT is entirely encoded in the operation that exhibit a [[finite dimensional vector space]] $V$ as a [[dualizable object]].
 
-* (1d TQFT with coefficients in [[Vect]]) $\leftrightarrow$ ([[dualizable objects]] in $Vect$) $\leftrightarrow$ ([[finite dimensional vector spaces]])
+$\{$
+  1d TQFT with coefficients in [[Vect]]
+$\}$  
+
+$\simeq$ 
+
+$\{$
+[[dualizable objects]] in $Vect$
+$\}$ 
+
+$\simeq$ 
+
+$\{$
+ [[finite dimensional vector spaces]]
+$\}$
 
 This is the simplest incarnation of the statement that for higher dimensional [[extended TQFT]] becomes the [[cobordism hypothesis]]. We come to this [below](#IntroductionGeneralFormulation).
 
 
 ### Path integral quantization of 1d Gauge theory
+ {#PathIntegralQuantizationof1dGaugeTheory}
 
-> a finite [[path integral quantization]] of 1d [[prequantum field theory]] 
+The [[path integral]] tends to be as suggestive in [[quantum field theory]] as it is invoked ubiquituously, and FQFT may be understood as being precisely the axiomatics that a would-be path integral ought to satisfy, thereby decoupling its construction as a suitably regularized integral from its operational definition as yielding a consistent [[S-matrix]] for the QFT.
 
-#### Essence of gauge theory: Groupoids and basic homotopy 1-type theory
+We discuss now the simplest non-trivial example of a [[path integral quantization]], namely for 1-dimensional finite [[gauge theory]], the 1-dimensional [[Dijkgraaf-Witten model]]. This has the two-fold purpose of 
+
+1. indicating how not just the final quantum theory but also its [[prequantum field theory|prequantum data]] is naturally ordganized by monoidal category theory;
+
+1. motivating and introducing elements of [[homotopy theory]] which become crucial for the understanding of FQFT as one moves up in dimension.
+
+A more detailed version of this section is at _[Local prequantum field theory -- id Dijkgraaf-Witten theory](prequantum+field+theory#1dDWTheory)_.
+
+#### Gauge transformation and Basic homotopy 1-type theory
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
 
@@ -726,7 +759,7 @@ This comes with two canonical homomorphisms
 
   $$
     \mathcal{G}^I_\bullet
-     \stackrel{\overset{ev_1}{\to}}{\underset{ev_0}{\to}}
+     \stackrel{\overset{ev_1}{\longrightarrow}}{\underset{ev_0}{\longrightarrow}}
 	   \mathcal{G}_\bullet
   $$
 
@@ -1127,7 +1160,7 @@ $$
 =--
 
 
-#### Trajectories of fields: Correspondences of groupoids 
+#### Trajectories of fields and Correspondences of groupoids 
  {#CorrespondencesOfGroupoids}
 
 With some basic [[homotopy theory]] of [[groupoids]] in hand, we can now talk about [[trajectories]] in finite gauge theories, namely about [[spans]]/[[correspondences]] of groupoids and their composition. These correspondences of groupoids encode [[trajectories]]/histories of [[field (physics)|field configurations]].
@@ -2044,6 +2077,7 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 ...[[string diagram]]...
 
 ### Quantum topological string
+ {#QuantumTopologicalString}
 
 #### Naive generalization: Global 2d TQFT 
  {#Global2dTQFT}
@@ -2111,6 +2145,27 @@ classification by ([Costello 04](#Costello04)) sums it up:
 
 [[!include 2d TQFT -- table]]
 
+Here the trace operation in the CY conditions corresponds to the cobordism which is the "disappearance of a circle".
+
+$$
+  \array{
+     && \longleftarrow
+    \\
+    & \swarrow && \nwarrow
+    \\
+    V && && V^\otimes
+    \\
+    & \searrow && \nearrow
+    \\
+    && \longrightarrow
+  }
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+   \ast
+$$
+
+One may view this as exhibiting "higher order duality": where the semi-circles exhibits $V$ as a [[dual object]] to $V^\ast$, this disappearance of a circle exhibits the upper semi-circle as [[adjoint morphism|adjoint]] to the lower semicircle.
 
 (...)
 
@@ -2124,9 +2179,91 @@ One way to understand from the point of view of [[physics]] why the 1-functorial
 
 The standard [[Lagrangian]]-data ("[[prequantum field theory]]") from which [[topological quantum field theories]] are supposed to arise under [[quantization]] do not enforce such a splitting as indeed they are [[general covariance|generally covariant]]. Accordingly, a [[local Lagrangian]] should, after [[quantization]], give rise to a [[local quantum field theory]] that is still "generally covariant" in that it does not require or depend on such a splitting. In physics this plays a crucial role for instance in considerations related to [[quantum gravity]].
 
+#### Cobordisms by higher handle attachment
 
+(...)
 
+$$
+  \array{
+    && \mathbf{Fields}
+    \\
+    & \swarrow && \searrow^{\mathrlap{\Delta}}
+    \\
+    \ast && && \mathbf{Fields} \times \mathbf{Fields}
+  }
+$$
 
+$$
+  \array{
+    && \mathbf{Fields}
+    \\
+    & {}^{\mathllap{\Delta}}\swarrow && \searrow
+    \\
+    \mathbf{Fields} \times \mathbf{Fields}  && &&  \ast
+  }
+$$
+
+$$
+  \array{
+     && && [\Pi(S^1), \mathbf{Fields}]
+     \\
+     && & \swarrow && \searrow
+     \\
+     && \mathbf{Fields} && && \mathbf{Fields} 
+     \\
+     & \swarrow && \searrow && \swarrow && \searrow
+     \\
+     \ast && && \mathbf{Fields}\times \mathbf{Fields} && && \ast
+  }
+$$
+
+$$
+  \array{
+     && [\Pi(S^1), \mathbf{Fields}]
+     \\
+     & \swarrow & \uparrow & \searrow
+     \\
+     \ast && \mathbf{Fields} && \ast
+     \\
+     & \nwarrow &\downarrow& \nearrow
+     \\
+     && \ast
+  }
+$$
+
+$$
+  \array{
+     && \ast
+     \\
+     & \swarrow & \uparrow & \searrow
+     \\
+     \ast && \mathbf{Fields} && \ast
+     \\
+     & \nwarrow &\downarrow& \nearrow
+     \\
+     && [\Pi(S^1), \mathbf{Fields}]
+  }
+$$
+
+$$
+  \mathbf{Fields} \underset{[\Pi(S^n)]}{\times} \mathbf{Fields}
+  \simeq
+  [\Pi(S^{n+1}), \mathbf{Fields}]
+$$
+
+$$
+  \array{
+      \ast &\longleftarrow& [\Pi(S^1 \coprod S^1), \mathbf{Fields}] &\longrightarrow& \ast
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \ast &\longleftarrow& [\Pi(Fig8), \mathbf{Fields}] &\longrightarrow& \ast
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+      \ast &\longleftarrow& [\Pi(S^1), \mathbf{Fields}] &\longrightarrow& \ast     
+  }
+$$
 
 #### Formalization in higher monoidal category theory
 
