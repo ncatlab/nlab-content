@@ -503,6 +503,7 @@ $$
     \array{
       X \\ \downarrow^{\mathrlap{f}} \\ B
     }
+
   \right]
   \times 
   \left[
@@ -907,7 +908,7 @@ $$
   = 
   \left(
     X \times G
-    \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}
+    \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
     X
   \right)
 $$
@@ -2143,7 +2144,7 @@ $$
 
 =--
 
-In conclusion we can now compute what the 1-dimensional prequantum field theory defined by a group character $c \colon G \to U(1)$ regarded as a local action functional assigns to the [[circle]].
+In conclusion we may now compute what the 1-dimensional prequantum field theory defined by a group character $c \colon G \to U(1)$ regarded as a local action functional assigns to the [[circle]].
 
 +-- {: .num_theorem #GroupCharacterPrequantumTheoryOnCircle}
 ###### Theorem
@@ -2222,6 +2223,13 @@ $$
 
 Here the [[action functional]] on the right  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
 to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$ under the [[group character]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$. (...)
 
 =--
 
