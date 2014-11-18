@@ -477,6 +477,1485 @@ In this way a 1d TQFT is entirely encoded in the operation that exhibit a [[fini
 This is the simplest incarnation of the statement that for higher dimensional [[extended TQFT]] becomes the [[cobordism hypothesis]]. We come to this [below](#IntroductionGeneralFormulation).
 
 
+### Path integral quantization of 1d Gauge theory
+
+> a finite [[path integral quantization]] of 1d [[prequantum field theory]] 
+
+#### Essence of gauge theory: Groupoids and basic homotopy 1-type theory
+ {#GroupoidsAndBasicHomotopy1TypeTheory}
+
+
+The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. 
+
++-- {: .num_defn #Groupoid}
+###### Definition
+
+A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
+
+* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+      &\stackrel{\circ}{\longrightarrow}&
+      \mathcal{G}_1
+      & \stackrel{\overset{t}{\longrightarrow}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\longrightarrow}}}&
+      \mathcal{G}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
+
+* every morphism has an [[inverse]] under this composition.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This data is visualized as follows. The set of morphisms is 
+
+$$
+  \mathcal{G}_1
+  = 
+  \left\{
+    \phi_0 \stackrel{k}{\to} \phi_1
+  \right\}
+$$
+
+and the set of pairs of composable morphisms is
+
+$$
+  \mathcal{G}_2 \coloneqq \mathcal{G}_1 \underset{\mathcal{G}_0}{\times} \mathcal{G}_1
+  =
+  \left\{
+    \array{
+      && \phi_1
+      \\
+      & {}^{\mathllap{k_1}}\nearrow && \searrow^{\mathrlap{k_2}}
+      \\
+      \phi_0 && \stackrel{k_2 \circ k_1}{\to} && \phi_2
+    }
+  \right\}
+  \,.
+$$
+
+The functions $p_1, p_2, \circ \colon \mathcal{G}_2 \to \mathcal{G}_1$ are those which send, respectively, these triangular diagrams to the left morphism, or the right morphism, or the bottom morphism.
+
+=--
+
++-- {: .num_example #SetAsGroupoid}
+###### Example
+
+For $X$ a [[set]], it becomes a groupoid by taking $X$ to be the set of objects and adding only precisely the [[identity]] morphism from each object to itself
+
+$$
+  \left(
+    X 
+    \stackrel
+    {\overset{id}{\longrightarrow}}
+    {
+      \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+    }
+   X
+  \right)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #DeloopingGroupoid}
+###### Example
+
+For $G$ a [[group]], its [[delooping]] [[groupoid]] $(\mathbf{B}G)_\bullet$ has
+
+* $(\mathbf{B}G)_0 = \ast$;
+
+* $(\mathbf{B}G)_1 = G$.
+
+For $G$ and $K$ two groups, group homomorphisms $f \colon G \to K$
+are in [[natural bijection]] with groupoid homomorphisms
+$$
+  (\mathbf{B}f)_\bullet
+  \;\colon\;
+  (\mathbf{B}G)_\bullet \to (\mathbf{B}K)_\bullet
+  \,.
+$$
+
+In 
+particular a [[group character]] $c \colon G \to U(1)$ is equivalently a groupoid homomorphism
+
+$$
+  (\mathbf{B}c)_\bullet 
+   \;\colon\;
+   (\mathbf{B}G)_\bullet 
+     \to
+   (\mathbf{B}U(1))_\bullet
+  \,.
+$$
+
+Here, for the time being, all groups are [[discrete groups]]. Since the [[circle group]] $U(1)$ also has a standard structure of a [[Lie group]], and since later for the discussion of Chern-Simons type theories this will be relevant, we will write from now on
+
+$$
+  \flat U(1) \in Grp
+$$
+
+to mean explicitly the [[discrete group]] underlying the circle group. (Here "$\flat$" denotes the "[[flat modality]]".)
+
+=--
+
++-- {: .num_example #ActionGroupoid}
+###### Example
+
+For $X $ a [[set]], $G$ a [[discrete group]] and $\rho \colon X \times G \to X$ an [[action]] of $G$ on $X$ (a [[permutation representation]]), the **[[action groupoid]]** or **[[homotopy quotient]]** of $X$ by $G$ is the groupoid
+
+$$
+  X//_\rho G
+  = 
+  \left(
+    X \times G
+    \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
+    X
+  \right)
+$$
+
+with composition induced by the product in $G$. Hence this is the groupoid whose objects are the elements of $X$, and where [[morphisms]] are of the form
+
+$$
+  x_1 \stackrel{g}{\to} x_2 = \rho(x_1)(g)
+$$
+
+for $x_1, x_2 \in X$, $g \in G$.
+
+=--
+
+As an important special case we have:
+
++-- {: .num_example #BGGroupoidAsActionGroupoid}
+###### Example
+
+For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the coresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
+
+$$
+  (\ast //G)_\bullet = (\mathbf{B}G)_\bullet
+  \,.
+$$
+
+Another canonical action is the action of $G$ on itself by right multiplication. The corresponding action groupoid we write
+
+$$
+  (\mathbf{E}G)_\bullet \coloneqq G//G
+  \,.
+$$
+
+The constant map $G \to \ast$ induces a canonical morphism
+
+$$
+  \array{
+    G//G & \simeq & \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast //G & \simeq & \mathbf{B}G
+  }
+  \,.
+$$
+
+This is known as the $G$-[[universal principal bundle]]. See below in \ref{PullbackOfEGGroupoidAsHomotopyFiberProduct} for more on this.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[interval]] $I$ is the groupoid with 
+
+* $I_0 = \{a,b\}$;
+* $I_1 = \{\mathrm{id}_a, \mathrm{id}_b, a \to  b \}$.
+
+=--
+
++-- {: .num_example #FundamentalGroupoid}
+###### Example
+
+For $\Sigma$ a [[topological space]], its [[fundamental groupoid]]
+  $\Pi_1(\Sigma)$ is
+
+* $\Pi_1(\Sigma)_0 = $ points in $X$;
+* $\Pi_1(\Sigma)_1 = $ [[continuous function|continuous]] paths in $X$ modulo [[homotopy]] that leaves the endpoints fixed.
+
+=--
+
++-- {: .num_example #PathSpaceGroupoid}
+###### Example
+
+For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\mathcal{G}^I_\bullet$ with
+
+* $\mathcal{G}^I_0 = \mathcal{G}_1 = \left\{ \array{ \phi_0 \\ \downarrow^{\mathrlap{k}} \\ \phi_1  } \right\}$;
+
+* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ = 
+  $
+    \left\{
+       \array{
+          \phi_0 &\stackrel{h_0}{\to}& \tilde \phi_0
+          \\
+          {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{\tilde k}}
+          \\
+          \phi_1 &\stackrel{h_1}{\to}& \tilde \phi_1
+       }
+    \right\}
+    \,.
+  $   
+
+This comes with two canonical homomorphisms
+
+  $$
+    \mathcal{G}^I_\bullet
+     \stackrel{\overset{ev_1}{\to}}{\underset{ev_0}{\to}}
+	   \mathcal{G}_\bullet
+  $$
+
+  which are given by endpoint evaluation, hence which send such a commuting square to either its top or its bottom hirizontal component.
+
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet, g_\bullet : \mathcal{G}_\bullet \to \mathcal{K}_\bullet$
+two morphisms between groupoids,
+  a _[[homotopy]]_ $f \Rightarrow g$ 
+(a [[natural transformation]]) is
+  a homomorphism of the form $\eta_\bullet : \mathcal{G}_\bullet \to \mathcal{K}^I_\bullet$
+  (with [[codomain]] the [[path space object]] of $\mathcal{K}_\bullet$ as in example \ref{PathSpaceGroupoid})
+  such that it fits into the diagram as depicted here on the right:
+  $$
+    \array{
+      & \nearrow  \searrow^{\mathrlap{f_\bullet}}
+      \\
+      \mathcal{G} &\Downarrow^{\mathrlap{\eta}}& \mathcal{K}
+     \\
+     & \searrow \nearrow_{\mathrlap{g_\bullet}}
+    }
+
+	\;\;\;\;
+	\coloneqq
+	\;\;\;\;
+    \array{
+      && \mathcal{K}_\bullet
+      \\
+      & {}^{\mathllap{f_\bullet}}\nearrow & \uparrow^{\mathrlap{(ev_1)_\bullet}}
+      \\
+      \mathcal{G}_\bullet
+      &\stackrel{\eta_\bullet}{\to}&
+      \mathcal{K}^I_\bullet
+      \\
+      & {}_{\mathllap{g_\bullet}}\searrow & \downarrow^{\mathrlap{(ev_0)_\bullet}}
+      \\
+      && \mathcal{K}
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .num_defn #GroupoidsAsHomotopy1Types}
+###### Definition (Notation)
+
+Here and in the following, the convention is that we write
+
+* $\mathcal{G}_\bullet$ (with the subscript decoration) when we regard groupoids with just 
+homomorphisms ([[functors]]) between them, 
+
+* $\mathcal{G}$ (without the subscript decoration) when we regard groupoids
+with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural transformations]]) between these
+
+  $$
+    \array{
+      & \nearrow \searrow^{\mathrlap{f}}
+      \\
+      X &\Downarrow& Y
+      \\
+      & \searrow \nearrow_{g}
+    }
+    \,.
+  $$
+
+The unbulleted version of groupoids are also called _[[homotopy 1-types]]_ (or often just their [[homotopy]]-[[equivalence classes]] are called this way.) Below we generalize this to arbitrary homotopy types (def. \ref{KanComplexesAsHomotopyTypes}).
+
+=--
+
+
+
++-- {: .num_example #MappingGroupoid}
+###### Example
+
+For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ is
+
+* $[X,Y]_0 = $ homomorphisms $X \to Y$;
+* $[X,Y]_1 = $ homotopies between such. 
+
+=--
+
++-- {: .num_defn #HomotopyEquivalenceOfGroupoids}
+###### Definition
+
+  A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
+$\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].  
+
+=--
+
++-- {: .num_example #BZIsPiSOne}
+###### Example
+
+The map
+
+$$
+  \mathbf{B}\mathbb{Z} \stackrel{}{\to} \Pi(S^1)
+$$
+
+which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that point which winds around $n$ times, is an [[equivalence of groupoids]].
+
+=--
+
+
++-- {: .num_prop #DiscreteGroupoidIsDijointUnioonOfDeloopings}
+###### Proposition
+
+  Assuming the [[axiom of choice]] in the ambient [[set theory]],
+  every groupoid is equivalent to a disjoint union of 
+  [[delooping]] groupoids,
+  example \ref{DeloopingGroupoid} -- a _[[skeleton]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+ The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} 
+ becomes false as when we pass to groupoids that are equipped with
+ [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories (namely [[Dijkgraaf-Witten theory]]-type theories) fundamentally involve just groups (and higher groups),
+ while for nontrivial geometry there are genuine groupoid theories, 
+ for instance the [[AKSZ sigma-models]]. But even so, 
+ [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in 
+ prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} is not canonical.
+
+=--
+
++-- {: .num_defn #HomotopyFiberProductOfGroupoids}
+###### Definition
+
+Given two morphisms of groupoids 
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
+
+$$
+  \array{
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
+  }
+$$
+
+is the [[limit]] [[cone]]
+
+$$
+  \array{
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
+    \\
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
+  }
+  \,,
+$$
+
+hence the ordinary iterated [[fiber product]] over the [[path space]] groupoid, as indicated.
+
+=--
+
++-- {: .num_remark #FiberProductsOfGroupoidsComponentwise}
+###### Remark
+
+An ordinary fiber product $X_\bullet \underset{B_\bullet}{\times}Y_\bullet$ of groupoids is given simply by the fiber product of the underlying sets of objects and morphisms:
+
+$$
+  (X_\bullet \underset{B_\bullet}{\times}Y_\bullet)_i 
+  =
+  X_i \underset{B_i}{\times} Y_i
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #PullbackOfEGGroupoidAsHomotopyFiberProduct}
+###### Example
+
+For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+
+$$
+  P \simeq X \underset{\mathbf{B}G}{\times} \ast
+  \,.
+$$
+
+Namely both squares in the following diagram are pullback squares
+
+$$
+  \array{
+    P
+    &\to& \mathbf{E}G &\to& \ast_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& (\mathbf{B}G)_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    X_\bullet &\underset{}{\to}& (\mathbf{B}G)_\bullet
+  }
+  \,.
+$$
+
+(This is the first example of the more general phenomenon of [[universal principal infinity-bundles]].)
+
+=--
+
++-- {: .num_example #LoopSpaceGroupoid}
+###### Example
+
+For $X$ a [[groupoid]] and $\ast \to X$ a point in it, we call
+
+$$
+  \Omega X
+  \coloneqq
+  \ast \underset{X}{\times} \ast
+$$
+
+the [[loop space object|loop space groupoid]] of $X$.
+
+For $G$ a group and $\mathbf{B}G$ its  [[delooping]] groupoid from
+  example \ref{DeloopingGroupoid}, we have
+  $$
+    G \simeq \Omega \mathbf{B}G = \ast \underset{\mathbf{B}G}{\times} \ast
+    \,.
+  $$
+
+ Hence $G$ is the [[loop space object]] of its own [[delooping]], as it should be.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We are to compute the ordinary limiting cone $\ast \underset{\mathbf{B}G_\bullet}{\times}  (\mathbf{B}G^I)_\bullet \underset{\mathbf{B}G_\bullet}{\times} \ast$ in
+
+$$
+  \array{
+    &\to& &\to& \ast
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& \mathbf{B}G_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    \ast &\underset{}{\to}& \mathbf{B}G_\bullet
+  }
+  \,,
+$$
+
+In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms starting at some element are labeled by pairs of elements $h_1, h_2 \in G$ and end at $h_1 \cdot g \cdot h_2$. 
+Using remark \ref{FiberProductsOfGroupoidsComponentwise} 
+the limiting cone is seen to precisely pick those morphisms in $(\mathbf{B}G_\bullet)^I_\bullet$ such that these two elements are constant on the neutral element $h_1 = h_2 = e = id_{\ast}$, hence it produces just the elements of $G$ regarded as a groupoid with only identity morphisms, as in example \ref{SetAsGroupoid}.
+
+=--
+
++-- {: .num_prop #FreeLoopSpaceOfGroupoid}
+###### Proposition
+
+
+The [[free loop space object]] is
+
+  $$
+    [\Pi(S^1), X]
+	\simeq
+	X \underset{[\Pi(S^0), X]}{\times}X
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that $\Pi_1(S^0) \simeq \ast \coprod \ast$. Therefore
+the [[path space object]] $[\Pi(S^0), X_\bullet]^I_\bullet$ has
+
+* objects are pairs of morphisms in $X_\bullet$;
+
+* morphisms are commuting squares of such.
+
+Now the fiber product in def. \ref{HomotopyFiberProductOfGroupoids}
+picks in there those pairs of morphisms for which both start at the same object, and both end at the same object. Therefore $X_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} [\Pi(S^0), X_\bullet]^I_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} X$ is the groupoid whose
+
+* objects are diagrams in $X_\bullet$ of the form 
+
+  $$
+    \array{
+       & \nearrow \searrow
+       \\
+       x_0 && x_1
+       \\
+       & \searrow \nearrow
+    }
+  $$
+
+* morphism are cylinder-diagrams over these.
+
+One finds along the lines of example 
+\ref{BZIsPiSOne} that this is equivalent to maps from $\Pi_1(S^1)$ into $X_\bullet$ and homotopies between these.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Even though all these models of the circle $\Pi_1(S^1)$ are equivalent,
+below the special appearance of the circle in the proof of 
+prop. \ref{FreeLoopSpaceOfGroupoid} as the combination of two semi-circles will be important for the following proofs. 
+As we see in a moment, this is the natural way in which the circle
+appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
+
+=--
+
++-- {: .num_example #AdjointActionGroupoidFromFreeLoopSpaceObject}
+###### Example
+
+For $G$ a [[discrete group]], the [[free loop space object]] of its [[delooping]] $\mathbf{B}G$ is $G//_{ad} G$, the [[action groupoid]], def. \ref{ActionGroupoid}, of the [[adjoint action]] of $G$ on itself:
+
+$$
+  [\Pi(S^1), \mathbf{B}G] \simeq G//_{ad} G
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For an [[abelian group]] such as $\flat U(1)$ we have
+
+$$
+  [\Pi(S^1), \mathbf{B}\flat U(1)]
+  \simeq
+  \flat U(1)//_{ad} \flat U(1)
+  \simeq
+  (\flat U(1)) \times (\mathbf{B}\flat U(1))
+  \,.
+$$
+
+=--
+
++-- {: .num_example #GroupCharacterAsClassFunctionByFreeLoopSpace}
+###### Example
+
+Let $c \colon G \to \flat U(1)$ be a group homomorphism, hence a [[group character]]. By example \ref{DeloopingGroupoid} this has a [[delooping]] to a groupoid homomorphism 
+
+$$
+  \mathbf{B}c \;\colon\; \mathbf{B}G \to \mathbf{B}\flat U(1)
+  \,.
+$$
+
+Unde the [[free loop space object]] construction this becomes
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  [\Pi(S^1), \mathbf{B}G]
+  \to 
+  [\Pi(S^1), \mathbf{B}\flat U(1)]
+$$
+
+hence 
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  G//_{ad}G
+  \to 
+  \flat U(1) \times \mathbf{B}U(1)
+  \,.
+$$
+
+So by postcomposing with the [[projection]] on the first factor we recover from the general [[homotopy theory]] of groupoids the statement that a group character is a [[class function]] on [[conjugacy classes]]:
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  G//_{ad}G
+  \to 
+  U(1)
+  \,.
+$$
+
+=--
+
+
+#### Trajectories of fields: Correspondences of groupoids 
+ {#CorrespondencesOfGroupoids}
+
+With some basic [[homotopy theory]] of [[groupoids]] in hand, we can now talk about [[trajectories]] in finite gauge theories, namely about [[spans]]/[[correspondences]] of groupoids and their composition. These correspondences of groupoids encode [[trajectories]]/histories of [[field (physics)|field configurations]].
+
+Namely consider a groupoid to be called $\mathbf{Fields} \in$ [[Grpd]], to be thought of as the [[moduli space]] of [[field (physics)|fields]] in some field theory, or equivalently and specifically as the [[target space]] of a [[sigma-model]] field theory. This just means that for $\Sigma$ any [[manifold]] thought of as [[spacetime]] or [[worldvolume]], the space of fields $\mathbf{Fields}(\Sigma)$ of the field theory on $\Sigma$ is the [[mapping stack]] ([[internal hom]]) from $\Sigma$ into $\mathbf{Fields}$, which means here for DW theory that it is the mapping groupoid, def. \ref{MappingGroupoid}, out of the fundamental groupoid, def. \ref{FundamentalGroupoid}, of $\Sigma$:
+$$
+  \mathbf{Fields}(\Sigma) = [\Pi_1(\Sigma), \mathbf{Fields}]
+  \,.
+$$
+
+We think of the [[objects]] of the groupoid $[\Pi_1(\Sigma), \mathbf{Fields}]$ as being the fields themselves, and of the [[morphisms]] as being the [[gauge transformations]] between them.
+
+The example to be of interest in a moment is that where $\mathbf{Fields} = \mathbf{B}G$ is a [[delooping]] groupoid as in def. \ref{DeloopingGroupoid}, in which case the fields are equivalently [[flat connection|flat]] [[principal connections]]. In fact in the discrete and 1-dimensional case currently considered this is essentially the only example, due to prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings}, but for the general idea and for the more general cases considered further below, it is useful to have the notation allude to more general moduli spaces $\mathbf{Fields}$.
+
+The simple but crucial observation that shows why [[spans]]/[[correspondences]] of groupoids show up in prequantum field theory is the following.
+
++-- {: .num_example }
+###### Example
+
+If $\Sigma$ is a [[cobordism]], hence a [[manifold with boundary]] with incoming [[boundary]] component $\Sigma_{in} \hookrightarrow \Sigma$ and outgoing boundary components $\Sigma_{out} \hookrightarrow \Sigma$, then the resulting [[cospan]] of manifolds
+
+$$
+  \array{
+    && \Sigma
+    \\
+    & \nearrow && \nwarrow
+    \\
+    \Sigma_{in}
+    && &&
+    \Sigma_{out}
+  }
+$$
+
+is sent under the operation of mapping into the moduli space of fields
+
+$$
+  [\Pi_1(-), \mathbf{Fields}]
+  \;\colon\;
+  Mfds^{op} \to Grpd
+$$
+
+to a [[span]] of groupoids
+
+$$
+  \array{
+    && [\Pi_1(\Sigma), \mathbf{Fields}]
+    \\
+    & \swarrow && \searrow
+    \\
+    [\Pi_1(\Sigma_{in}), \mathbf{Fields}]
+    && &&
+    [\Pi_1(\Sigma_{out}), \mathbf{Fields}]
+  }
+  \,.
+$$
+
+Here the left and right homomorphisms are those which take a field configuration on $\Sigma$ and restrict it to the incoming and to the outgoing field configuration, respectively. (And this being a homomorphism of groupoids means that everything respects the [[gauge symmetry]] on the fields.) Hence if $[\Pi_1(\Sigma_{in,out}),\mathbf{Fields}]$ is thought of as the spaces of incoming and outgoing field configurations, respectively, then  $[\Pi_1(\Sigma), \mathbf{Fields}]$ is to be interpreted as the space of [[trajectories]] (sometimes: _histories_) of field cofigurations over [[spacetimes]]/[[worldvolumes]] of shape $\Sigma$.
+
+=--
+
+This should make it plausible that specifying the field content of a 1-dimensional discrete gauge field theory is a functorial assignsment
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  Bord_1
+  \to Span(Grpd)
+$$
+
+from a [[category of cobordisms]] of dimension one into a category of such [[spans]] of groupoids. It sends points to spaces of field configurations on the point and 1-dimensional manifolds such as the circle as spaces of trajectories of field configurations on them.
+
+Moreover, for a _local_ field theory it should be true that the field configurations on the circle, says, are determined from gluing the field configurations on any decomposition of the circle, notably a decomposition into two semi-circles. But since we are dealing with a [[topological field theory]], its field configurations on a contractible interval such as the semicircle will be equivalent to the field configurations on the point itself. 
+
+The way that the fields on higher spheres in a topological field theory are induced from the fields on the point is by an analog of _[[traces]]_ for spaces of fields, and higher traces of such correspondences (the "[[span trace]]"). This is because by the [[cobordism theorem]], the field configurations on, notably, the [[n-sphere]] are given by the $n$-fold [[span trace]] of the field configurations on the point, the trace of the traces of the ... of the 1-trace. This is because for instance the 1-sphere, hence the [[circle]] is, regarded as a 1-dimensional [[cobordism]] itself pretty much manifestly a [[trace]] on the point in the [[string diagram]] formulation of traces.
+
+$$
+  \array{
+     &&  \ast^- 
+     \\
+     & \swarrow & & \nwarrow
+     \\
+     \downarrow && && \uparrow
+     \\
+     & \searrow && \nearrow
+     \\
+     && \ast^+
+  }
+  \,.
+$$
+
+Here $\ast^+$ is the point with its potitive orientation, and $\ast^-$ is its [[dual object]] in the [[category of cobordisms]], the point with the reverse orientation. Since, by this picture, the construction that produces the circle from the point is one that involves only the [[coevaluation map]] and [[evaluation]] map on the point regarded as a [[dualizable object]], a [[topological field theory]] $Z \colon Bord_n \to Span_n(\mathbf{H})$, since it respects all this structure, takes the circle to precisely the same kind of diagram, but now in $Span_n(\mathbf{H})^\otimes$, where it becomes instead the [[span trace]] on the space $\mathbf{Fields}(\ast)$ over the point. This we discuss now.
+
+Before talking about correspondences of groupoids, we need to organize the groupoids themselves a bit more.
+
++-- {: .num_defn #TwoOneCategory}
+###### Definition 
+
+A  **[[(2,1)-category]]** $\mathcal{C}$ is 
+
+1. a collection $\mathcal{C}_0$  -- the "collection of [[objects]]";
+
+1. for each [[tuple]] $(X,Y) \in \mathcal{C}_0 \times \mathcal{C}_0$ a [[groupoid]] $\mathcal{C}(X,Y)$ -- the _[[hom-groupoid]]_ from $X$ to $Y$;
+
+1. for each [[triple]] $(X,Y,Z) \in \mathcal{C}_0 \times \mathcal{C}_0 \times \mathcal{C}_0$ a groupoid homomorphism ([[functor]])
+
+   $$
+     \circ_{X,Y,Z} \colon \mathcal{C}(X,Y) \times \mathcal{C}(Y,Z) \to \mathcal{C}(X,Z)
+   $$
+  
+   called _[[composition]]_ or _[[horizontal composition]]_ for emphasis;
+
+1. for each [[quadruple]] $(W,X,Y,Z,)$ a [[homotopy]] -- the _[[associator]]_ --
+
+   $$
+     \array{
+        \mathcal{C}(W,X) \times \mathcal{C}(X,Y) \times \mathcal{C}(Y,Z)
+        &\stackrel{}{\to}&
+        \mathcal{C}(W,Y) \times \mathcal{C}(Y,Z)
+        \\
+        \downarrow &\swArrow_{\alpha_{W,X,Y,Z}}& \downarrow
+        \\
+        \mathcal{C}(W,X) \times \mathcal{C}(X,Z)
+        &\stackrel{}{\to}&
+        \mathcal{C}(W,Z)
+     }
+   $$
+
+   (...) and similarly a [[unitality]] homotopy (...)
+   
+
+such that for each [[quintuple]] $(V,W,X,Y,Z)$ the associators satisfy the [[pentagon identity]].
+
+The [[objects]] of the [[hom-groupoid]] $\mathcal{C}(X,Y)$ we call the _[[1-morphisms]]_ from $X$ to $Y$, indicated by $X \stackrel{f}{\to} Y$, and the [[morphisms]] in $\mathcal{C}(X,Y)$ we call the [[2-morphisms]] of $\mathcal{C}$, indicated by
+
+$$
+  \array{
+     \\
+     & \nearrow \searrow^{\mathrlap{f}}
+     \\
+    X &\Downarrow&  Y
+     \\
+     & \searrow \nearrow_{\mathrlap{g}}
+  }
+  \,.
+$$
+
+If all associators $\alpha$ can and are chosen to be the [[identity]] then this is called a _[[strict 2-category|strict (2,1)-category]]_.
+
+=--
+
++-- {: .num_defn}
+###### Definition/Example
+
+Write [[Grpd]] for the [[strict 2-category|strict]] [[(2,1)-category]], 
+def. \ref{TwoOneCategory}, whose
+
+* [[objects]] are [[groupoids]] $\mathcal{G}$;
+
+* [[1-morphisms]] are [[functors]] $f \colon \mathcal{G} \to \mathcal{K}$;
+
+* [[2-morphisms]] are [[homotopies]] between these.
+
+=--
+
+
++-- {: .num_defn #OneSpansInOneGroupoids}
+###### Definition/Example
+
+Write $Span_1(Grpd)$ for the [[(2,1)-category]] whose
+
+* [[objects]] are [[groupoids]];
+
+* [[1-morphisms]] are [[spans]]/[[correspondences]] of [[functors]], hence 
+
+  $$
+    \array{
+     A
+      &\leftarrow&
+      X
+      &\rightarrow&
+     B
+     }
+     \,;
+  $$
+
+* [[2-morphisms]] are [[diagrams]] in [[Grpd]] of the form
+
+  $$
+    \array{  
+      && X_1
+      \\
+      & \swarrow &\downarrow& \searrow
+      \\
+      A &\seArrow& \downarrow^{\mathrlap{\simeq}} &\swArrow& B
+      \\
+      & \nwarrow &\downarrow& \nearrow
+      \\
+      && X_2
+    }
+  $$
+
+* [[composition]] is given by forming the [[homotopy fiber product]], def. \ref{HomotopyFiberProductOfGroupoids}, of the two adjacent homomorphisms of two spans, hence for two spans
+
+  $$
+    X \stackrel{}{\leftarrow} K \rightarrow Y
+  $$
+
+  and
+
+  $$
+    Y \stackrel{}{\leftarrow} L \rightarrow Z
+  $$
+  
+  their composite is the span which is the outer part of the diagram
+
+  $$
+    \array{
+      && && K \underset{Y}{\times}L
+      \\
+      && & {}^{\mathllap{p_1}}\swarrow 
+      && \searrow^{\mathrlap{p_2}}
+      \\
+      && K && \swArrow && L
+      \\
+      & \swarrow && \searrow && \swarrow && \searrow
+      \\
+      X && && Y && && Z
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+There is the structure of a [[symmetric monoidal (2,1)-category]] on $Span_1(Grpd)$ by degreewise [[Cartesian product]] in [[Grpd]].
+
+$$
+  (X \leftarrow K \rightarrow Y)
+  \otimes
+  (\tilde X \leftarrow \tilde K \rightarrow \tilde Y)
+  \;\coloneqq\;
+  X \times \tilde X
+  \leftarrow K \times \tilde K
+  \rightarrow Y \times \tilde Y
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+An [[object]] $X$ of a [[symmetric monoidal (2,1)-category]] $\mathcal{C}^\otimes$ is [[fully dualizable object|fully dualizable]] if there exists
+
+1. another object $X^\ast$, to be called the _[[dual object]]_;
+
+1. a [[1-morphism]] $ev_X \colon X^\ast \otimes X \to \mathbb{I}$, to be called the _[[evaluation map]]_;
+
+1. a [[1-morphism]]  $coev_X \colon \mathbb{I} \to X \otimes X^\ast$, to be called the [[coevaluation map]];
+
+1. [[2-morphisms]] 
+
+   $$
+     \array{
+       && \rightarrow
+       \\
+       & \nearrow &\Downarrow^{coev_{tr(X)}}& \searrow^{\mathrlap{id}_{\mathbb{I}}}
+       \\
+       \mathbb{I} 
+         &\underset{coev_X}{\to}& 
+       X^\ast \otimes X
+        &\underset{ev_X}{\to}&
+       \mathbb{I}
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+       && \rightarrow
+       \\
+       & \nearrow &\Uparrow^{ev_{tr(X)}}& \searrow^{\mathrlap{id}_{\mathbb{I}}}
+       \\
+       \mathbb{I} 
+         &\underset{coev_X}{\to}& 
+       X^\ast \otimes X
+        &\underset{ev_X}{\to}&
+       \mathbb{I}
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+       && \rightarrow
+       \\
+       & \nearrow &\Downarrow^{sa(X)}& \searrow^{\mathrlap{id}_{\mathbb{I}}}
+       \\
+       X^\ast \otimes X 
+         &\underset{ev_X}{\to}& 
+       \mathbb{I}
+        &\underset{coev_X}{\to}&
+       X^\ast \otimes X
+     }
+   $$
+
+   (the [[saddle]])
+
+   and
+
+   $$
+     \array{
+       && \rightarrow
+       \\
+       & \nearrow &\Uparrow^{cosa(X)}& \searrow^{\mathrlap{id}_{\mathbb{I}}}
+       \\
+       X^\ast \otimes X 
+         &\underset{ev_X}{\to}& 
+       \mathbb{I}
+        &\underset{coev_X}{\to}&
+       X^\ast \otimes X
+     }
+   $$
+
+   (the co-saddle)
+
+such that these exhibit an [[adjunction]] and are themselves adjoint (...).
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[symmetric monoidal (2,1)-category]] $\mathcal{C}$, and a [[fully dualizable object]] $X \in \mathcal{C}$ and a [[1-morphism]]  $f \colon X \to X$, the [[trace]] of $f$ is the [[composition]]
+
+$$
+  tr(f)
+   \;\colon\;
+  \mathbb{I}
+    \stackrel{coev_X}{\to}
+  X \otimes X^\ast
+    \stackrel{f \otimes id_{X^\ast}}{\to}
+  X \otimes X^\ast
+    \stackrel{ev_x}{\to}
+  \mathbb{I}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #GroupoidInSpanOneIsSelfDual}
+###### Proposition
+
+Every [[groupoid]] $X \in Grpd \hookrightarrow Span_1(Grpd)$ 
+is a [[dualizable object]] in 
+$Span_1(Grpd)$, and in fact is self-dual.
+
+The [[evaluation map]] $ev_X$, hence the possible image of a symmetric monoidal functor $Bord_1 \to Span_1(Grpd)$ of a cobordism of the form
+
+$$
+  \array{ 
+    && \leftarrow & \ast^-
+    \\
+    & \swarrow 
+    \\
+    \downarrow
+    \\
+    & \searrow 
+    \\
+    && \rightarrow & \ast^+
+  }
+$$
+
+is given by the [[span]]
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && && [\Pi_1(S^0),X] &\simeq& X \times X
+  }
+$$
+
+and the [[coevaluation map]] $coev_X$ by the reverse span.
+
+For $X \in Grpd \hookrightarrow Span_1(Grpd)$ any object,
+the [[trace]] ("[[span trace]]") of the [[identity]] on it, hence the image of 
+
+$$
+  \array{
+     &&  \ast^- 
+     \\
+     & \swarrow & & \nwarrow
+     \\
+     \downarrow && && \uparrow
+     \\
+     & \searrow && \nearrow
+     \\
+     && \ast^+
+  }
+$$
+
+is its 
+[[free loop space object]], prop. \ref{FreeLoopSpaceOfGroupoid}:
+
+$$
+  tr(id_X) \simeq 
+  \left(
+    \array{
+      && [\Pi_1(S^1), X]
+      \\
+      & \swarrow && \searrow
+      \\
+      \ast && && \ast
+    }
+  \right)
+  \,.
+$$
+
+
+The second order covaluation map on the [[span trace]] of the identity is 
+
+$$
+  \array{
+    && && \ast
+    \\
+    && && \uparrow
+    \\
+    && && X
+    \\
+    && && \downarrow
+    \\
+    && && [\Pi(S^1), X]
+    \\
+    && & \swarrow & & \searrow
+    \\
+    \ast &\leftarrow& X &\rightarrow& [\Pi(S^0), X] &\leftarrow&
+    X &\rightarrow& & \ast
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{GroupoidInSpanOneIsSelfDual}
+the [[trace]] of the identity is given by the composite span
+
+$$
+  \array{
+    && && X \underset{[\Pi_1(S^1), X]}{\times} X
+    \\
+    && & \swarrow && \searrow
+    \\
+    && X && \swArrow && X
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    \ast
+    &&
+    &&
+    [\Pi_1(S^0),X]
+    &&
+    &&
+    \ast
+  }
+  \,.
+$$
+
+By prop. \ref{FreeLoopSpaceOfGroupoid} we have
+
+$$
+  X \underset{[\Pi_1(S^1), X]}{\times} X
+  \simeq [\Pi_1(S^1), X]
+  \,.
+$$
+
+Along these lines one checks the required [[zig-zag identities]].
+
+=--
+
+#### Action functionals on spaces of trajectories: correspondences of groupoids over the space of phases
+ {#1dDWLocalFieldTheory}
+
+We have now assembled all the ingredients need in order to formally regard a [[group character]] $c \colon G \to U(1)$ on a [[discrete group]] as a local action functional of a prequantum field theory, hence as a [[fully dualizable object]]
+
+$$
+  S
+  \;\coloneqq\;
+  \left[
+    \array{
+      \mathbf{B}G
+      \\
+      \downarrow^{\mathrlap{c}}
+      \\
+      \mathbf{B}\flat U(1)
+    }
+  \right]
+  \;\in \;
+  \mathrm{Span}_1(Grpd, \mathbf{B}\flat U(1))
+$$
+
+in a [[(2,1)-category]] of correspondences of groupoids as in def. \ref{OneSpansInOneGroupoids}, but equipped with maps and homotopies between maps to the [[coefficient]] over $\mathbf{B}\flat U(1)$. This is described in def. \ref{OneSpansInOneGroupoidsOverBU} below. Before stating this, we recall for the 1-dimensional case the general story of def. \ref{LocalPrequantumFieldWithAction}.
+
+
+
++-- {: .num_example #HomotopyAsActionFunctional}
+###### Example
+
+Given a [[discrete groupoid]] $X$, [[functions]] 
+
+$$
+  \exp(i S) \colon X \to \flat U(1)
+$$ 
+
+are in [[natural bijection]] with [[homotopies]] of the form
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow &&  \searrow
+    \\
+    \ast && \swArrow_{\phi} && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \,,
+$$
+
+where the function corresponding to this homotopy is that given by the unique factorization through the [[homotopy fiber product]] $\flat U(1) \simeq \ast \underset{\mathbf{B}\flat U(1)}{\times} \ast$ (example \ref{LoopSpaceGroupoid}) as shown on the right of 
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow &&  \searrow
+    \\
+    \ast && \swArrow_{\phi} && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    && X
+    \\
+    &\swarrow& \downarrow^{\mathrlap{\exp(i S)}} & \searrow
+    \\
+    && \flat U(1)
+    \\
+    \downarrow & \swarrow &&  \searrow & \downarrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}\flat U(1)
+  }  
+  \,,
+$$
+
+=--
+
+This means that if we have an [[action functional]] on a space of [[trajectories]], and if these trajectories are given by [[spans]]/[[correspondences]] of groupoids as discussed above, then the action functional is naturally expressed as the homotopy filling a completion of the span to a square diagram over $\mathbf{B}\flat U(1)$. Therefore we cosider the following.
+
++-- {: .num_defn #OneSpansInOneGroupoidsOverBU}
+###### Definition
+
+Write $Span_1(Grpd, \flat\mathbf{B}U(1))$
+for the [[(2,1)-category]] whose
+
+* [[objects]] are [[groupoids]] $X$ equipped with a morpism
+
+  $$
+    \left[
+      \array{
+         X
+         \\
+         \downarrow^{\mathrlap{f}}
+         \\
+         \mathbf{B}\flat U(1)
+      }
+    \right]
+  $$
+
+* [[morphisms]] are [[spans]] $X_1 \leftarrow Y \rightarrow X_2$ equipped with a [[homotopy]] $\phi$ in 
+
+  $$
+    \array{
+       && Y
+       \\
+       & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+       \\
+       X_1 && \swArrow_{\phi} && X_2
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}\flat U(1)
+    }
+  $$
+
+* [[2-morphisms]] are morphism of spans compatible with the maps to $\mathbf{B}\flat U(1)$ in the evident way.
+
+The operation of [[composition]] is as in $Span_1(Grpd)$, def. \ref{OneSpansInOneGroupoids} on the upper part of these diagrams, naturally extended to the whole diagrams by composition of the [[homotopies]] filling the squares that appear. 
+
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+$Span_1(Grpd, \mathbf{B}\flat U(1))$ carries the structure of a
+[[symmetric monoidal (infinity,n)-category|symmetric monoidal (2,1)-category]] where the [[tensor product]] is given by
+
+$$
+  \left[
+    \array{  
+       X_1
+       \\
+       \downarrow^{\mathrlap{f_1}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \otimes
+  \left[
+    \array{  
+       X_2
+       \\
+       \downarrow^{\mathrlap{f_2}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+    \array{  
+       X_1 \times X_2
+       \\
+       \downarrow^{\mathrlap{f_1 \circ p_1 + f_2 \circ p_2}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+There is an evident [[forgetful functor|forgetful]] [[(2,1)-functor]]
+
+$$
+  Span_1(Grpd, \mathbf{B}\flat U(1))
+  \to 
+  Span_1(Grpd)
+$$ 
+
+which forgets the maps to $\mathbf{B}\flat U(1)$ and the homotopies between them. This is a [[monoidal (infinity,1)-functor|monoidal (2,1)-functor]].
+
+=--
+
+As generalization of prop. \ref{GroupoidInSpanOneIsSelfDual} we now have the following:
+
++-- {: .num_prop}
+###### Proposition
+
+Every object 
+
+$$
+  \left[
+    \array{  
+       X
+       \\
+       \downarrow^{\mathrlap{f}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \in Span_1(Grpd,\mathbf{B}\flat U(1))
+$$
+
+is a [[dualizable object]], with dual object 
+
+$$
+  \left[
+    \array{  
+       X
+       \\
+       \downarrow^{-\mathrlap{f}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+$$
+
+and with [[evaluation map]] given by
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\mathrlap{\simeq}} && X \times X
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{f \circ p_1 - f \circ p_2}}
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \,.
+$$
+
+
+=--
+
+In conclusion we may now compute what the 1-dimensional prequantum field theory defined by a group character $c \colon G \to U(1)$ regarded as a local action functional assigns to the [[circle]].
+
++-- {: .num_theorem #GroupCharacterPrequantumTheoryOnCircle}
+###### Theorem
+
+The prequantum field theory defined by a [[group character]]
+
+  $$
+    \left[
+      \array{
+	    \mathbf{Field}
+		\\
+                \downarrow^{\mathrlap{\exp(i S)}}
+		\\
+		\flat \mathbf{B}U(1)
+	  }
+	\right]
+	\;\;
+	\coloneqq
+	\;\;
+    \left[
+      \array{
+	    \mathbf{B}G
+		\\
+                \downarrow^{\mathrlap{\mathbf{B}\mathrlap{c}}}
+		\\
+		\flat \mathbf{B}U(1)
+	  }
+	\right]	
+      \in Span_1(Grpd,\mathbf{B}\flat U(1))
+  $$
+
+  assigns to the [[circle]] the [[trace]] of the identity on this object, which under the identifications of example \ref{LoopSpaceGroupoid}, example \ref{GroupCharacterAsClassFunctionByFreeLoopSpace}, and example \ref{HomotopyAsActionFunctional} is the group character itself:
+
+
+$$
+  \array{
+    && && [\Pi_1(S^1), \mathbf{B}G]
+    \\
+    && & \swarrow && \searrow
+    \\
+    && \mathbf{B}G && \swArrow && \mathbf{B}G
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    \ast && && \mathbf{B}G \times \mathbf{B}G && && \ast
+    \\
+    &{}_0\searrow & && \downarrow^{\mathrlap{\exp(i S \circ p_1 - i S \circ p_2)}}
+    &&& \swarrow_{0}
+    \\
+    &&&& \mathbf{B}\flat U(1)
+  }
+  \;\;\;
+   \simeq
+  \;\;\;
+  \array{
+    && G//G
+    \\
+    && \simeq
+    \\
+    && [\Pi(S^1), \mathbf{B}G]
+    \\
+    && \downarrow^{\mathrlap{c}}
+    \\
+    && \flat U(1)
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \;\;\;
+$$
+
+Here the [[action functional]] on the right  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
+to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$ under the [[group character]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$. (...)
+
+=--
+
+In conclusion, [[1-dimensional Dijkgraaf-Witten theory]] as a prequantum field theory comes down to be essentially a geometric interpretation of what [[group characters]] are and do. One may regard this as a simple example of [[geometric representation theory]]. Simple as this example is, it contains in it the seeds of many of the interesting aspects of richer prequantum field theories. 
+
 
 
 ### Quantum mechanics with interactions and Feynman diagram
