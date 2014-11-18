@@ -4,6 +4,8 @@ __Jouanolou cover__ of a projective $n$-space by quadrics has been introduced by
 
 * MathOverflow: [The Jouanolou trick](http://mathoverflow.net/questions/7374/the-jouanolou-trick)
 
+* [[Aravind Asok]], _The Jouanolou-Thomason homotopy lemma_, [pdf](http://www-bcf.usc.edu/~asok/notes/Jouanolou.pdf)
+
 This is also used in [[Michel Van den Bergh]]'s proof that every projective variety over complexes is a quiver variety (see [blog](http://www.neverendingbooks.org/index.php/quiver-grassmannians-can-be-anything.html#comment-23413))
 
 There is a noncommutative version of a Jouanolou cover for noncommutative projective space in a paper of Rosenberg and Konstevich. 
