@@ -51,7 +51,7 @@ For instance ([Cote, theorem 2.3](#Cote)).
 +-- {: .num_example}
 ###### Example
 
-The [[fundamental group]] of the free groupoid of a graph with a single vertect is the [[free group]] on the set of edges of the graph.
+The [[fundamental group]] of the free groupoid of a graph with a single vertex is the [[free group]] on the set of edges of the graph.
 
 =--
 
