@@ -38,7 +38,7 @@ It is expected that the classical limit of the Crane-Yetter TQFT is [[BF theory]
 See [John Baez's article](#Baez95).
 A state sum model like the Crane-Yetter model, but with a classical Lie group, would be the [[Ooguri model]].
 We could understand the Crane-Yetter as a [[Dijkgraaf-Witten theory]] with a quantum group instead of a classical group, whereas the Yetter model is a Dijkgraaf-Witten theory with a 2-group.
-See also [https://golem.ph.utexas.edu/category/2006/08/categorifying_the_dijkgraafwit.html]
+See also [this blog post](https://golem.ph.utexas.edu/category/2006/08/categorifying_the_dijkgraafwit.html).
 
 
 * [[Louis Crane]], [[David Yetter]] and [[Louis Kauffman]], [http://arxiv.org/abs/hep-th/9409167](http://arxiv.org/abs/hep-th/9409167) {#CraneYetterKauffman94}
