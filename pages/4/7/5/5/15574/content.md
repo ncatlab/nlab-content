@@ -58,11 +58,11 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 * Aufhebung unites _determinateness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheave, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
 
-##Lawvere's path to _Aufhebung_
+## Lawvere's path to _Aufhebung_
 
 >In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
 
-##The mathematics of _Aufhebung_
+## Extracting the rational kernel 
 
 So now let's get down to business and do some mathematics!
 
@@ -82,8 +82,7 @@ The _unity_ of the opposites is finally provided by the encompassing $N$ where t
 
 Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an idempotent comonad $sk:N\to N$ and an idempotent monad $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
  
-### Extracting the rational kernel 
-
+### The mathematics of _Aufhebung_
 
 ##Related pages
 
@@ -103,7 +102,7 @@ Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-Lawvere introduced the Hegelian concepts in Lawvere ([1989a](#Law89a),[1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10) which is based on older phd-works by some of the authors.
 
