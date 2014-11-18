@@ -166,13 +166,13 @@ But there is an example with even non-circular system of axioms:
 
 ## Related concepts
 
-The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introduing [[inductive types]].
+The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introducing [[inductive types]].
 
 ## References ##
 
 * Henk Barendregt (Catholic University Nijmegen), _[[Lambda calculi with types]]_, To appear in [[Samson Abramsky]], D.M. Gabbay and T.S.E. Maibaum
 (eds.) _Handbook of Logic in Computer Science_, Volume II,
-Oxford University Press
+Oxford University Press. ([preprint pdf](http://ttic.uchicago.edu/~dreyer/course/papers/barendregt.pdf))
 
 A quick survey is in 
 
