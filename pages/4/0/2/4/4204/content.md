@@ -304,6 +304,10 @@ and this is also $k$-connected.
 
 ## Related concepts
 
+* [[sewing constraint]]
+
+  * [[Cardy condition]]
+
 * [[TQFT]]
 
   * **2d TQFT**
