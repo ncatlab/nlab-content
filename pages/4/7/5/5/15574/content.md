@@ -88,8 +88,25 @@ For convenience let us briefly recall the following
 
 +-- {: .num_defn #EssentialLocalization}
 ###### Definition
-A localisation of a category $\mathcal{B}$ with finite limits is a reflective subcategory $\mathcal{A}$ whose reflection preserve finite limits. The localization is called _essential_ when the reflection has furthermore a left adjoint.
+A localization of a category $\mathcal{B}$ with finite limits is a reflective subcategory $\mathcal{A}$ whose reflection preserves finite limits. The localization is called _essential_ when the reflection has furthermore a left adjoint.
 =--
+
+If $l\vdash r\vdash i$ is an essential localization then $l$ is also full and faithful. If $\mathcal{B}$ is a topos, $\mathcal{A}$ is called an _essential [[subtopos]]_ and we write $i_!\vdash i^*\vdash i_*$ in this case and call $i_!$ the _essentiality_.
+
+It is a result in Lawvere-Kelly (1989) that the essential subtoposes of a topos form a complete lattice. A subtopos of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
+
+An adjoint string $i_!\vdash i^*\vdash i_*$ yields two [[adjoint modalities]] on $\mathcal{B}$, namely $\Box_i :=i_*i^*$ and $\Diamond_i := i_!i^*$.
+
++-- {: .num_defn #Aufhebung}
+###### Definition 
+([Lawvere 1989b](Law89b)).
+Let $i,j$ be levels of a topos $\mathcal{A}$ we say the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\diamond_i=\diamond_i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+
+=--
+
+**Remark**
+
+The Aufhebung of a level is hence the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
 
 ##Related pages
 
@@ -160,7 +177,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law07} F. W. Lawvere, _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-* F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+* F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
 
 * {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
