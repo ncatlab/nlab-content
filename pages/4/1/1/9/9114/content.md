@@ -690,6 +690,7 @@ The punchline of this section is little theorem \ref{GroupCharacterPrequantumThe
 ##### Finite gauge groups
  {#FiniteGaugeGroups} 
 
+
 First some brief remarks, before we dive into the formalism.
 
 A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (taken here as a [[discrete group]]).
@@ -1005,7 +1006,7 @@ This comes with two canonical homomorphisms
 
   $$
     \mathcal{G}^I_\bullet
-     \stackrel{\overset{ev_1}{\to}}{\underset{ev_0}{\to}}
+     \stackrel{\overset{ev_1}{\longrightarrow}}{\underset{ev_0}{\longrightarrow}}
 	   \mathcal{G}_\bullet
   $$
 
@@ -2226,10 +2227,19 @@ to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$ under the [[group charac
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #1dPathIntegralViaSchur}
 ###### Remark
 
-It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$. (...)
+It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$.
+
+$$
+  \frac{1}{\vert G \vert}
+  \underset{g\in G}{\sum}
+  c(g)
+  =
+  \langle c,1\rangle
+  \,.
+$$
 
 =--
 
