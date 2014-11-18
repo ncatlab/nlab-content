@@ -514,7 +514,7 @@ We discuss now the simplest non-trivial example of a [[path integral quantizatio
 
 A more detailed version of this section is at _[Local prequantum field theory -- id Dijkgraaf-Witten theory](prequantum+field+theory#1dDWTheory)_.
 
-#### Gauge transformation and Basic homotopy 1-type theory
+#### Gauge transformation and Groupoids
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
 
@@ -1652,7 +1652,7 @@ Along these lines one checks the required [[zig-zag identities]].
 
 =--
 
-#### Action functionals on spaces of trajectories: correspondences of groupoids over the space of phases
+#### Action functionals and Slice groupoids
  {#1dDWLocalFieldTheory}
 
 We have now assembled all the ingredients need in order to formally regard a [[group character]] $c \colon G \to U(1)$ on a [[discrete group]] as a local action functional of a prequantum field theory, hence as a [[fully dualizable object]]
@@ -2079,7 +2079,7 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 ### Quantum topological string
  {#QuantumTopologicalString}
 
-#### Naive generalization: Global 2d TQFT 
+#### Global 2d TQFT and Frobenius algebra
  {#Global2dTQFT}
 
 In view of the above discussion of "topological quantum mechanics", i.e. of 1-dimensional [[TQFT]], it is immediate to pass to a higher dimensional field theory by using [[categories of cobordisms]] of higher dimension and consider [[strong monoidal functors]]
@@ -2116,7 +2116,7 @@ In physics speak $B$ is the space of states for the topological _[[closed string
 Or rather, it is _some_ topological string model, but not the one originally obtained by [[topological twist]] from the [[2d (2,0)-superconformal QFT]] which is commonly what is understood as the "[[topological string]]" in [[string theory]] ([[A-model]]/[[B-model]]).
 
 
-#### Cohomological 2d TQFT -- The A/B-model topological String  
+#### Cohomological 2d TQFT and Calabi-Yau $A_\infty$-algebras
  {#Local2dTQFT}
 
 Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
@@ -2142,7 +2142,7 @@ classification by ([Costello 04](#Costello04)) sums it up:
 [[Calabi-Yau A-∞ category]] is equivalent to non-compact open topological string with coefficients in $Ch(Vect)$. The [[objects]] of the category are the [[D-branes]], [[hom-spaces]] are the spaces of quantum states of open strings stretching between these. The closed string [[bulk field theory]] sector is given by forming [[Hochschild homology]]. Given a [[Calabi-Yau manifold]], then the [[A-∞ category]] refinement (see at _[[enhanced triangulated category]]_) of its [[derived category of coherent sheaves]] is an example. 
 
 
-#### Local 2d TQFT -- D-Brane states as quantum 2-states
+#### Local 2d TQFT and 2-Modules
 
 Given an [[associative algebra]] $A$ then its [[category of modules]] $A Mod$
 behaves much like a higher analog of a [[module]]/[[vector space]].
@@ -2159,6 +2159,8 @@ Notice that every algebra $A$ is canonically an $A$-$A$-bimodule. This way we se
 |--|-----------------------|---------------|
 | [[open string]] $\mapsto$ | open string algebra $A$ | open string [[bimodule]] ${}_{A} A_{A}$ |
 | point $\mapsto$ |   |  [[2-module]] $A Mod$ |
+
+Hence we regard [[D-Brane]] states as quantum 2-states.
 
 We motivate this further [below](#IntroductionGeneralFormulation). First to record the classification results:
 
@@ -2192,17 +2194,13 @@ One may view this as exhibiting "higher order duality": where the semi-circles e
 ### General local TQFT
  {#IntroductionGeneralFormulation}
 
-#### "Covariance" in physics
+#### Covariant quantization and Directed homotopy types
 
 One way to understand from the point of view of [[physics]] why the 1-functorial description of [[2d CFT]] and [[2d TQFT]] [above](#Global2dTQFT) is unsatisfactory is that it breaks what is known as "covariance" in physics, in the sense of "[[general covariance]]" (reflected also in the term "[[covariant phase space]]"): implicit in the concept of a [[category of cobordisms]] is a splitting of a [[spacetimes]]/[[worldvolumes]] into spatial slices (the [[objects]]) of the category and [[trajectories]] between these. 
 
 The standard [[Lagrangian]]-data ("[[prequantum field theory]]") from which [[topological quantum field theories]] are supposed to arise under [[quantization]] do not enforce such a splitting as indeed they are [[general covariance|generally covariant]]. Accordingly, a [[local Lagrangian]] should, after [[quantization]], give rise to a [[local quantum field theory]] that is still "generally covariant" in that it does not require or depend on such a splitting. In physics this plays a crucial role for instance in considerations related to [[quantum gravity]].
 
-#### Higher dimensional local evolution and Directed homotopy types
-
-We saw [above](#CorrespondencesOfGroupoids) how 1-dimensional ([[prequantum field theory|prequantum]]) field theory is encoded by [[correspondences]] of [[groupoids]] 
-
-For instance the process of a particle and its antiparticle appearing out of the vacuum is given by
+We saw [above](#CorrespondencesOfGroupoids) how 1-dimensional ([[prequantum field theory|prequantum]]) field theory is encoded by [[correspondences]] of [[groupoids]].  For instance the process of a particle and its antiparticle appearing out of the vacuum is given by
 
 $$
   \array{
@@ -2214,7 +2212,7 @@ $$
   }
 $$
 
-and the referse process of them disappearing is given by
+and the reverse process of them disappearing is given by
 
 $$
   \array{
@@ -2355,9 +2353,11 @@ in particular
 
 
 
-#### Formalization in higher monoidal category theory
+#### $n$-Spaces of states and the Cobordism hypothesis
 
-These are [[symmetric monoidal (∞,n)-categories]], hence one may consider
+These [[(∞,n)-categories]] are [[symmetric monoidal (∞,n)-categories]] in the same way that their 1-categorical shadows are, only that everything is lifted up to homotopy.
+
+hence one may consider
 
  [[monoidal (∞,n)-functors]]
 
@@ -2439,7 +2439,7 @@ $$
 
 ## References
 
-### Formalization of sewing and locality in terms of functoriality##
+### Formalization of sewing and locality in terms of functoriality
 
 It was in
 
