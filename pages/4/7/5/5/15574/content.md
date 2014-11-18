@@ -68,7 +68,7 @@ So now let's get down to business and do some mathematics!
 
 ### The mathematics of Yin and Yang
 
-In ([Lawvere 2000](#Law00)) a particular simple example of the adjoint cylinder was suggested that we use in the following as a running thread.
+In ([Lawvere 2000](#Law00)) a particular simple example of the [[adjoint modality|adjoint cylinder]] was suggested that we use in the following as a running thread.
 
 Let $N$ be the natural numbers $\{0, 1,\dots\}$ viewed as a category via their usual ordering. Let $L,R:N\to N$ be the two parallel functors '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
 
@@ -83,6 +83,13 @@ The _unity_ of the opposites is finally provided by the encompassing $N$ where t
 Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an idempotent comonad $sk:N\to N$ and an idempotent monad $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
  
 ### The mathematics of _Aufhebung_
+
+For convenience let us briefly recall the following
+
++-- {: .num_defn #EssentialLocalization}
+###### Definition
+A localisation of a category $\mathcal{B}$ with finite limits is a reflective subcategory $\mathcal{A}$ whose reflection preserve finite limits. The localization is called _essential_ when the reflection has furthermore a left adjoint.
+=--
 
 ##Related pages
 
