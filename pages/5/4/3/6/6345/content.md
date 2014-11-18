@@ -28,6 +28,8 @@ If one regards a [[quantum field theory]] from the point of view of [[FQFT]] as 
 
 ## Examples
 
+* [[Cardy condition]]
+
 * The [[FRS formalism]] is all about solving the sewing constraints for 2-dimensional rational [[CFT]] given the local data in terms of a [[modular tensor category]] of conformal representations.
 
 
