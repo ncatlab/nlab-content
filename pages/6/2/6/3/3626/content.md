@@ -207,7 +207,7 @@ Their role in [[2d TQFT]] is discussed for instance in
 * [[Aaron Lauda]] (2006), Frobenius algebras and ambidextrous adjunctions, _Theory and Applications of Categories_ **16**, 84-122.   ([web](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)  ([arXiv](http://arxiv.org/abs/math/0502550)) 
 {#Lauda2006}
 
-* {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]] (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
+* {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]] (2005), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([arXiv:0510664](http://arxiv.org/abs/math/0510664))
 
 
 For applications in proof theory of classical and [[linear logic]] or linguistics:
@@ -216,8 +216,7 @@ For applications in proof theory of classical and [[linear logic]] or linguistic
 
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
-* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  B. Coecke, _Reasoning about Meaning in Natural Language with Compact Closed Categories
-and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/1401.5980v1))
+* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about Meaning in Natural Language with Compact Closed Categories and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/1401.5980v1))
 
 See also
 
