@@ -71,10 +71,14 @@ $$
 
 For instance, in the case of mirror symmetry this would be the [[TCFT]]-construction that takes a Calabi-Yau manifold to the corresponding [[Calabi-Yau category]].
 
-The [[essential image]] of this map would be the moduli space of [[Lagrangian field theory]]
+The [[1-image]] of this map would be the moduli space of [[Lagrangian field theory|Lagrangian quantum field theories]] 
 
 $$
-  quantization \;\colon\; LagrangianData \longrightarrow LagrangianQFTs
+  quantization 
+    \;\colon\; 
+  LagrangianData \longrightarrow LagrangianQFTs
+  \hookrightarrow
+  QFTs
   \,.
 $$
 
