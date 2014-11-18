@@ -43,7 +43,7 @@ $2$-dimensional conformal field theories have two major applications:
 
 In the former application it is mostly the _local_ behaviour of the CFT that is relevant. This is encoded in [[vertex operator algebra]]s.
 
-In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d [[conformal cobordism category]] is crucial. This extension is called _solving the sewing constraints_ .
+In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d [[conformal cobordism category]] is crucial. This extension is called _solving the [[sewing constraints]]_ .
 
 ## Abstract ##
 
@@ -368,6 +368,12 @@ Witt class.
 * [[6d (2,0)-supersymmetric QFT]]
 
 ## Related concepts
+
+* [[sewing constraints]]
+
+  * [[modular invariance]]
+
+  * [[Cardy condition]]
 
 * [[conformal structure]], [[moduli space of conformal structures]], [[Teichmüller theory]]
 
