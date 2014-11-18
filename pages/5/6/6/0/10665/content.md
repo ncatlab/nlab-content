@@ -116,6 +116,31 @@ $$
   \,.
 $$
 
+### Inner product and orthogonality
+
+The complex [[class functions]] on a finite group $G$ have an [[inner product]] given by
+
+$$
+  \langle \alpha, \beta\rangle
+  \coloneqq
+  \frac{1}{{\vert G \vert}}
+  \underset{g \in G}{\sum} \alpha(g) \overline{\beta(g)}
+  \,.
+$$
+
+The _[[Schur orthogonality relation]]_ is the statement that the [[irreducible representation|irreducible]] group characters $\{\chi_i\}_i$ form an [[orthonormal basis]] of the space of [[class functions]] under this [[inner product]]:
+
+$$
+  \langle \chi_i, \chi_j \rangle 
+  = 
+  \left\{
+    \array{
+       1 & if \; i = j
+       \\
+       0 & otherwise
+    }
+  \right.
+$$
 
 
 ## Related concepts
@@ -134,6 +159,9 @@ January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org
 Lecture notes on characters of finite and compact Lie groups include
 
 * {#Johansen} Troels Roussauc Johansen, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
+
+* Andrei Yafaev, _Characters of finite groups_ ([pdf](http://www.ucl.ac.uk/~ucahaya/Characters.pdf))
+
 
 Discussion for finite groups in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] is in
 
