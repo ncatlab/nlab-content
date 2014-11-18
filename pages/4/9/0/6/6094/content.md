@@ -98,6 +98,35 @@ Then $End \mathcal{E}$ is a Calabi-Yau algebra of dimension $d$ precisely if $X$
 
 This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
 
+### Relation to 2d extended TQFT and the Cobordism hypothesis
+
++-- {: .num_example }
+###### Example
+
+Let $\mathbf{S}$ be a [[good symmetric monoidal (∞,1)-category|good]] [[symmetric monoidal (∞,1)-category]]. Write $Alg(\mathbf{S})$ for the [[symmetric monoidal (∞,n)-category|symmetric monoidal (∞,2)-category]] whose [[object]]s are [[algebra in an (∞,1)-category|algebra objects]] in $\mathbf{S}$ and whose [[morphisms]] are [[bimodule]] objects. 
+
+Then a Calabi-Yau object in $Alg(\mathbf{S})$ is an algebra object $A$ equipped with an $SO(2)$-equivariant morphism
+
+
+$$
+  tr \colon \int_{S^1} A \to 1
+$$ 
+
+from the [[Hochschild homology]] $\int_{S^1} A \simeq A \otimes_{A \otimes A} A$, satisfying the condition that the composite morphism
+
+$$
+  A \otimes A \simeq \int_{S^0} A \to \int_{S^1} A \stackrel{tr}{\to} 1
+$$
+
+exhibits $A$ as its own [[dual object]] $A^\vee$.
+
+Such an algebra object is called a _[[Calabi-Yau algebra]] object_.
+
+=--
+
+This is ([Lurie 09, example 4.2.8](#Lurie09)).
+
+
 ### Classification of 2d TQFT
 
 [[!include 2d TQFT -- table]]
@@ -115,6 +144,8 @@ This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
 
 * {#Ginzburg} [[Victor Ginzburg]], _Calabi-Yau algebras_ ([arXiv:0612139](http://arxiv.org/abs/math/0612139))
  
+* {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+
 
 [[!redirects Calabi-Yau algebras]]
 
