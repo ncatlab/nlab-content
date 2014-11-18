@@ -9,7 +9,10 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 This semester, we are holding a [[seminar on factorization algebras]]. 
 
 ***
-###Event###
+
+28 Feb--5 March, going to Berkeley :). 
+
+Urs Schreiber is visiting 29 Jan and gives a talk at [GRK colloquium] (http://www.uni-goettingen.de/de/207450.html).  
 
 
 [Higher Structures in Geometry and Physics, Geneva, Oct. 27--31, 2014](http://ncatlab.org/higherstructureconferences/show/higherstructure2014)
