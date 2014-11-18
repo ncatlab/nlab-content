@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[finite group]] $G$ of [[cardinality]] ${\vert G \vert}$, then the [[complex number|complex]] valued [[class functions]]  $\chi \colon G \to \mathbb{C}$ have an [[inner product]] -- the _Schur inner product_ -- given by
+
+$$
+  \langle \alpha, \beta\rangle
+  \coloneqq
+  \frac{1}{{\vert G \vert}}
+  \underset{g \in G}{\sum} \alpha(g) \overline{\beta(g)}
+  \,.
+$$
+
+The _Schur orthogonality relation_ is the statement that the [[irreducible representation|irreducible]] [[group characters]] $\{\chi_i\}_i$ form an [[orthonormal basis]] of the space of [[class functions]] under this [[inner product]]:
+
+$$
+  \langle \chi_i, \chi_j \rangle 
+  = 
+  \left\{
+    \array{
+       1 & if \; i = j
+       \\
+       0 & otherwise
+    }
+  \right.
+$$
+
+## Related concepts
+
+* [[1d Dijkgraaf-Witten theory]]
+
+## References
+
+* Andrei Yafaev, _Characters of finite groups_ ([pdf](http://www.ucl.ac.uk/~ucahaya/Characters.pdf))
+
+* Wikipedia, _[Schur orthogonality relation](http://en.wikipedia.org/wiki/Schur_orthogonality_relations)_ 
+
+
+[[!redirects Schur orthogonality relations]]
+
+[[!redirects Schur inner product]]
