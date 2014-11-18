@@ -16,6 +16,23 @@
 
 ## Definition
 
+There are a number of equivalent definitions of the concept of Frobenius algebra.
+
+The origial definition is an associative algebra with a suitable [[linear form]] on it.
+
+* [As an associative algebra with linear form](#AsAssociativeAlgebraWithLinearForm).
+
+In the context of [[2d TQFT]] what crucially matters is that this is equivalent to an associative algebra structure with a compatible coalgebra structure
+
+* [As an associative algebra with compatible coalgebra structure](#AlgebraCoalgebra).
+
+There are
+
+* [Further equivalent definitions](#FurtherDefinition)
+
+### As associative algebra with coalgebra structure
+ {#AlgebraCoalgebra}
+
 +-- {: .num_defn}
 ###### Definition
 A Frobenius algebra in a [[monoidal category]] is a quintuple $(A, \delta, \epsilon, \mu, \eta)$ such that
@@ -31,7 +48,10 @@ In terms of [[string diagram]]s, this definition says:
 
 The first line here shows the associative law and left/right unit laws for a [[monoid]].  The second line shows the coassociative law and left/right counit laws for a [[comonoid]].  The third line shows the Frobenius laws.
 
-Frobenius algebras were originally formulated in the category [[Vect]] of [[vector space]]s with the following equivalent definition:
+### As associative algebra with linear form
+ {#AsAssociativeAlgebraWithLinearForm}
+
+Frobenius algebras were originally formulated in the category [[Vect]] of [[vector spaces]] with the following equivalent definition:
 
 +-- {: .num_defn}
 ###### Definition
@@ -45,6 +65,9 @@ is an [[isomorphism]] of $V$ with its [[dual vector space|dual space]] $V^*$. In
 =--
 
 From this definition it is easy to see that every Frobenius algebra in [[Vect]] is necessarily finite-dimensional. 
+
+### Further definition
+ {#FurtherDefinition}
 
 There are about a dozen equivalent definitions of a Frobenius algebra. [Ross Street (2004)](#Street2004) lists most of them.
 
@@ -99,6 +122,7 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 ## Properties 
 
 ### General
+
 
 +-- {: .un_prop}
 ######Proposition 
@@ -186,6 +210,8 @@ See for instance
 
 * Marcelo Aguiar (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
 {#Aguiar2000}
+
+* [[Andrew Baker]], _Frobenius algebras_ 2010 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/Frobenius-talk.pdf))
 
 Their role in [[2d TQFT]] is discussed for instance in
 
