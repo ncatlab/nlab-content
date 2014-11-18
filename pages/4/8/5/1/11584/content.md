@@ -35,3 +35,5 @@ For more on all this see at _[[TCFT]]_ and at _[[2d TQFT]]_.
 [[!redirects CQFT]]
 [[!redirects cohomology topological field theory]]
 
+[[!redirects cohomological QFT]]
+[[!redirects cohomological QFTs]]
