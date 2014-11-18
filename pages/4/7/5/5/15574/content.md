@@ -91,11 +91,11 @@ For convenience let us briefly recall the following
 A localization of a category $\mathcal{B}$ with finite limits is a reflective subcategory $\mathcal{A}$ whose reflection preserves finite limits. The localization is called _essential_ when the reflection has furthermore a left adjoint.
 =--
 
-If $l\vdash r\vdash i$ is an essential localization then $l$ is also full and faithful. If $\mathcal{B}$ is a topos, $\mathcal{A}$ is called an _essential [[subtopos]]_ and we write $i_!\vdash i^*\vdash i_*$ in this case and call $i_!$ the _essentiality_.
+If $l\dashv r\dashv i$ is an essential localization then $l$ is also full and faithful. If $\mathcal{B}$ is a topos, $\mathcal{A}$ is called an _essential [[subtopos]]_ and we write $i_!\dashv i^*\dashv i_*$ in this case and call $i_!$ the _essentiality_.
 
 It is a result in Lawvere-Kelly (1989) that the essential subtoposes of a topos form a complete lattice. A subtopos of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
 
-An adjoint string $i_!\vdash i^*\vdash i_*$ yields two [[adjoint modalities]] $\diamond _i\vdash\Box _i$ on $\mathcal{B}$, namely $\Diamond_i := i_!i^*$ and $\Box_i :=i_*i^*$ .
+An adjoint string $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\lozenge _i\dashv\Box _i$ on $\mathcal{B}$, namely $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$.
 
 The modalities yield notions of _i-sheaf_, namely those $X\in\mathcal{B}$ with $\Box _i X\simeq X$, and _i-skeleton_ : $\lozenge_i X\simeq X$.
 
@@ -104,13 +104,23 @@ The modalities yield notions of _i-sheaf_, namely those $X\in\mathcal{B}$ with $
 ([Lawvere 1989b](Law89b)).
 Let $i,j$ be levels of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
 
-Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\lozenge_i=\diamond_i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\lozenge_i=\lozenge _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
 
 =--
 
-**Remark**
+**Remarks**
 
-The condition $\Box _j\lozenge_i=\diamond_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
+
+In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$  there is an opposition $\empty\dashv *$ between _pure nothing_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _pure non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+
+Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that becoming is the Aufhebung of the opposition between nothing and being, or more shortly and consequently, that _becoming is the Aufhebung of being_. 
+
+For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
+
+### The example of cubical sets
+
+### An open problem: the tops of non-empty finite sets
 
 ##Related pages
 
