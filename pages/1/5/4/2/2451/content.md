@@ -66,4 +66,8 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertect 
 * Lauren Cote, _Free groups and graphs: the Hanna Neumann theorem_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Cote.pdf))
  {#Cote}
 
+* Philip Higgins, _Categories and groupoids_, Van Nostrand Reinhold, 1971; Reprints in Theory and Applications of Categories, No. 7 (2005) pp 1-195 ([pdf available] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html))
+
+* [[Ronald Brown|Ronnie Brown]] _Topology and Groupoids_,  ([details here] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
+
 [[!redirects free groupoids]]
