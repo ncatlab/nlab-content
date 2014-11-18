@@ -47,7 +47,7 @@ Original articles include
 
 * {#Lusztig85} [[George Lusztig]], _Character sheaves I_. Adv. Math 56 (1985) no. 3, 193-237.
 
-* {#Ginzburg89} [[Victor Ginzburg]], _Admissible modules on a symmetric space. Orbites unipotentes et repr&#180;esentations, III. Ast&#233;risque No. 173-174 (1989), 9&#8211;10, 199&#8211;255.
+* {#Ginzburg89} [[Victor Ginzburg]], _Admissible modules on a symmetric space. Orbites unipotentes et repr&#233;sentations, III. Ast&#233;risque No. 173-174 (1989), 9&#8211;10, 199&#8211;255.
 
 Interpretation in the context of [[extended TQFT]] is in 
 
