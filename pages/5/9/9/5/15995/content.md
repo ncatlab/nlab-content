@@ -21,8 +21,9 @@
 The Crane-Yetter model is a [[4d TQFT]], not to be confused with the [[Yetter model]].
 
 It was defined originally as a state sum in [State-Sum Invariants of 4-Manifolds](#CraneYetterKauffman94).
-One labels the elements of a triangulation with objects and morphisms of a ribbon fusion category, usually the representations of a quasitriangular [[Hopf algebra]], or [[quantum group]].
-(The Yetter model, on the contrary, is defined for a finite 2-group.)
+One labels the elements of a triangulation with objects and morphisms of a [[ribbon category|ribbon]] [[fusion category]], usually the [[representation category]] of a [[quasitriangular Hopf algebra]], or [[quantum group]].
+
+(The [[Yetter model]], on the contrary, is defined for a finite [[2-group]].)
 
 ## Relation to Turaev-Viro model on the boundary ##
 
