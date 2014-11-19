@@ -82,8 +82,8 @@ A discussion under the term "classical [[central charge]]" is in
 
 For a list of some examples and further pointers to the (historical) literature, see
 
-* Francesco Toppan, _On anomalies in classical mechanical systems_, Journal of Nonlinear Mathematical Physics Volume 8, Number 3 (2001), 518&#8211;533 ([[ToppanClassicalAnomaly.pdf:file]])
-  {#Toppan01}
+* {#Toppan01} Francesco Toppan, _On anomalies in classical mechanical systems_, Journal of Nonlinear Mathematical Physics Volume 8, Number 3 (2001), 518&#8211;533  ([[ToppanClassicalAnomaly.pdf:file]])
+ 
 
 See also
 
