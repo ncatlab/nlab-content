@@ -86,6 +86,9 @@ Classification in terms of [[division algebra and supersymmetry]] is in
 * A. Anastasiou, L. Borsten, [[Mike Duff]], L. J. Hughes, S. Nagy, _Super Yang-Mills, division algebras and triality_ ([arXiv:1309.0546](http://arxiv.org/abs/1309.0546))
  {#ABDH13}
 
+On application to problems in non-supersymmetric [[Yang-Mills theory]] ([[confinement]] etc.) and to [[QCD]]:
+
+* [PO discussion](http://www.physicsoverflow.org/24797/conceivable-supersymmetric-theory-understand-traditional)
 
 [[!redirects super Yang-Mills theories]]
 
