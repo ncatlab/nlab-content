@@ -31,7 +31,7 @@ Notice that what is literally 'localized' when localizing the ring is not the ri
 
 The case of localizing $\mathbb{Z}$ can also be interpreted geometrically in a similar way, using [[scheme]] theory and [[arithmetic geometry]].
 
-A ring is a very special case of a [[category]], namely a one-object [[Ab-enriched category]].  This article mainly treats the more general case of localizing an arbitrary category.  The localization of a category $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$.  It also could be called the [[homotopy category]] of $C$ with respect to $W$.
+A ring is a very special case of a [[category]], namely a one-object [[Ab-enriched category]].  This article mainly treats the more general case of localizing an arbitrary category.  The localization of a category $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is variously written $C[W^{-1}]$, $W^{-1}C$ or $L_W C$.  In some contexts, it also could be called the [[homotopy category]] of $C$ with respect to $W$.
 
 
 ## Definition
