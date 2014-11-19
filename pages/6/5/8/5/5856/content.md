@@ -44,4 +44,4 @@ $$
 The essential image of the functor $G_{\mathcal{F}}$ is the localized category. The left $R$-module $G_{\mathcal{F}}(R)$ has a canonical structure of a ring over $R$; there is a natural forgetful functor from the localized category to the category of left $G_{\mathcal{F}}(R)$-modules. Under strong assumptions on the filter this functor is in fact an equivalence of categories, e.g. when the localization is [[Ore localization|Ore]].  
 
 * [[Zoran Škoda]], _Localizations for construction of quantum coset spaces_, in "Noncommutative geometry and Quantum groups", W.Pusz,  P.M. Hajac, eds. Banach Center Publications vol.61, pp. 265--298, Warszawa 2003, [math.QA/0301090](http://arxiv.org/abs/math.QA/0301090).
-* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. [[A. Ranicki]]; pp. 220&#8211;313, [math.QA/0403276], (http://arxiv.org/abs/math.QA/0403276)
+* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. [[A. Ranicki]]; pp. 220&#8211;313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
