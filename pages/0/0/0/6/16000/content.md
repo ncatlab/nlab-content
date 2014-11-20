@@ -1,0 +1,46 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The special case of [[fiber integration in generalized cohomology]]/[[twisted Umkehr maps]] for [[KU]]-cohomology.
+
+## Related concepts
+
+* [[geometric quantization by push-forward]]
+
+* [[geometric quantization with KU-coefficients]]
+
+## References
+
+Discussion for integration [[twisted K-theory]] over [[manifolds]]:
+
+* [[Alan Carey]], [[Bai-Ling Wang]], _Thom isomorphism and Push-forward map in twisted K-theory_ ([arXiv:0507414](http://arxiv.org/abs/math/0507414))
+
+Discussion for integration of [[twisted K-theory]] along [[representable morphisms]] of  [[local quotient stacks]]:
+
+* {#FHT} [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]_ I (2011) ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)), 
+
+Review in the context of [[geometric quantization with KU-coefficients]] is in 
+
+* {#Nuiten} [[Joost Nuiten]], section 4 of _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, 2013
+
+[[!redirects fiber integration in KU-theory]]
+[[!redirects push-forward in K-theory]]
