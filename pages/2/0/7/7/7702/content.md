@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[index]] of a [[Dirac operator]].
+The [[index]] of a [[Dirac operator]]. [[fiber integration in K-theory]]
 
 ### As a supertrace
 
