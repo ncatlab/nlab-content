@@ -173,6 +173,8 @@ A model for this in 4-truncation is given by [[super line 2-bundles]]. For the m
 
   * [[twisted differential K-theory]]
 
+  * [[fiber integration in K-theory]]
+
 * [[twisted ordinary cohomology]]
 
 
