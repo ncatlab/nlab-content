@@ -26,6 +26,8 @@ The special case of [[fiber integration in differential cohomology]] for the cas
 
 * [[index theory]]
 
+* [[fiber integration in K-theory]]
+
 * [[geometric quantization by push-forward]]
 
 ## References
