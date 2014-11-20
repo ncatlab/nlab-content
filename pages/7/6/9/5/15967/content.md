@@ -103,6 +103,15 @@ K\backslash \GL_n(\mathbb{A})/\GL_n(\mathbb{Q}),$$
 where $K$ is the maximal compact subgroup $O(n,\mathbb{R})\times \GL_n(\hat{\mathbb{Z}})$ of $\GL_n(\mathbb{A})$.
 It is thus quite a tempting idea to try to formulate the arithmetic [[Langlands program]] in geometric terms (similar to the ones used in the [[geometric Langlands correspondence]] over a function field) using the classifying stack $BU(n)$ of principal $U(n)$-bundles on strict global analytic spaces. 
 
+## Related entries
+
+[[global Hodge theory]]
+
+[[global analytic index theory]]
+
+[[generalized global analytic geometry]]
+
+
 ## Reference
 
 * [[Frédéric Paugam]] _Overconvergent global analytic geometry_ ([arXiv:1410.7971](http://arxiv.org/abs/1410.7971))
