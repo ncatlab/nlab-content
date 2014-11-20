@@ -806,6 +806,7 @@ If $X$ here is [[0-truncated]] then we call it it **[[manifold]]**. It $X$ is [[
 ## **Reduction of structure groups**
  {#ReductionOfStructureGroups}
 
+
 ### Model Layer
 
 #### $G$-Structure
@@ -3359,6 +3360,7 @@ In the previous chapters we have set up [[prequantum field theory]] and [[classi
 
 * [[2d Chern-Simons theory]]
 
+
 #### Nonabelian charged particle and Wilson loops
  {#ModLayerNonabelianChargedParticle}
 
@@ -3806,6 +3808,7 @@ Write $\mathbf{H} = $ [[Smooth∞Grpd]] for the [[cohesive (∞,1)-topos]] of sm
 
 
 For the following, let $\langle \lambda, - \rangle \in \mathfrak{g}^*$ be a _regular_ element, def. \ref{RegularElement}, so that the [[stabilizer subgroup]] is identified with a [[maximal torus]]: $G_\lambda \simeq T$. 
+
 
 As usual, write 
 
@@ -4743,42 +4746,7 @@ One checks that this is indeed the correct prequantization as considered in ([Wi
 ## **Quantum mechanics**
  {#QuantumMechanics}
 
-So far we have discussed [[extended prequantum field theory]]: [[Lagrangians]] and their induced [[action functionals]] and [[prequantum n-bundles]]. Now we turn to actual [[quantum field theory]]. A [[prequantum field theory]] is supposed to induce a [[quantum field theory]] under the last step of [[higher geometric quantization]]: a choice of [[polarization]] (or equivalent) and the passage to the corresponding [[space of states]] of polarized [[sections]] of the [[prequantum n-bundles]]. This step that connects [[prequantum field theory]] with [[quantum field theory]] we discuss below in _[Geometric Quantization](#GeometricQuantization)_.
-
-Here we discuss the structure of the _outcome_ of this process 
-
-* [[quantum mechanics]]
-
-### Model Layer
-
-#### Worldvolumes and cobordisms
-
-* [[cobordism]], [[FQFT]]
-
-#### Spectral triple
-
-* [[spectral triple]]
-
-### Semantic Layer
-
-#### Internal categories in an $\infty$-topos
-
-##### Simplicial objects in an $\infty$-topos
-
-* [[simplicial object in an (∞,1)-category]]
-
-##### Category objects in an $\infty$-topos
-
-* [[Segal condition]]
-
-* [[internal category in an (∞,1)-category]] 
-
-### Syntactic Layer
-
-#### Directed homotopy type theory
-
-* [[directed homotopy type theory]]
-
+This section is at _[[geometry of physics -- quantum mechanics]]_
 
 ## **Geometric quantization**
  {#GeometricQuantization}
@@ -4869,40 +4837,40 @@ If one assumes that [[string theory]] is part of the answer as to what underlies
 
 A textbook with basic introductions to [[differential geometry]] and [[physics]] is
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
- {#Frankel}
+* {#Frankel} [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+ 
 
 A discussion of aspects of quantum field theory with emphasis on the kind of modern tools that we are using here is in 
 
-* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
- {#Paugam}
+* {#Paugam} [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
+ 
 
 The present discussion corresponds to section "1.2 Geometry of phyics" in 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
- {#SchreiberCohesiveInfinityTopos}
+* {#SchreiberCohesiveInfinityTopos} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+ 
 
 which gives a more comprehensive account.
 
 Another set of lecture notes along the above lines with an emphasis on aspects in [[gravity]] and [[higher gauge theory]] motivated from [[string theory]] is in 
 
-* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures notes at _Quantum Fields and twisted K-theory_, ESI (2012)
- {#TwistedCohomologyLecture}
+* {#TwistedCohomologyLecture} [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures notes at _Quantum Fields and twisted K-theory_, ESI (2012)
+ 
 
 An exposition and survey of matters related to [[Chern-Simons theory]] and [[higher geometric quantization]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
- {#FiorenzaSatiSchreiberCSIntroAndSurvey}
+* {#FiorenzaSatiSchreiberCSIntroAndSurvey} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ 
 
 The syntactic perspective above is laid out further in
 
-* [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_
- {#SyntheticQuantumFieldTheory}
+* {#SyntheticQuantumFieldTheory} [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_
+ 
 
 see also at _[[motivic quantization]]_ the section _[General abstract type theoretic summary](motivic%20quantization#GeneralAbstractTypeTheoreticSummary)_.
 
-### Mathematical quantum field theory
- {#ReferencesMathematicalQFT}
+### {#ReferencesMathematicalQFT} Mathematical quantum field theory
+ 
 
 A textbook (really a collection of lecture notes) on [[quantum field theory]] and [[string theory]] that tries to present material in a conceptually clean way is
 
@@ -5064,4 +5032,3 @@ Construction of differential cup-product theories is in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
  {#FSSCup}
-
