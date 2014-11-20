@@ -1,0 +1,31 @@
+
+> this is a sub-chapter of _[[geometry of physics]]_. See there for context.
+
+#Contents#
+* table of contents
+{:toc}
+
+## KU-theory
+
+[Nuiten section 3.2](#Nuiten)
+
+[Nuiten section 3.3](#Nuiten)
+
+[Nuiten section 4.2](#Nuiten)
+
+
+## 2d Poisson Chern-Simons theory
+
+[Bongers, theorem 3.5.10](#Bongers)
+
+## Geometric quantization
+
+[Bongers, section 2](#Bongers)
+
+[Nuiten, section 5.2](#Nuiten)
+
+## References
+
+* {#Bongers} Stephan Bongers, _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, 2014
+
+* {#Nuiten} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, 2013
