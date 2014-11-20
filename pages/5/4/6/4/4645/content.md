@@ -3749,7 +3749,7 @@ $$
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
-    \exp(\mathfrak{g}) &&& bare bundles
+    \exp(\mathfrak{g}) &&& bar\,bundles
   }
   \,,
 $$
