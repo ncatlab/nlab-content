@@ -387,3 +387,5 @@ Extension of sheafification of presheaves with values in other categories has be
 
 category: sheaf theory
 [[!redirects sheafification functor]]
+[[!redirects associated sheaf]]
+[[!redirects associated sheaf functor]]
