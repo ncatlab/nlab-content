@@ -20,6 +20,20 @@
 
 ## Definition
 
++-- {: .num_remark}
+###### Remark
+
+By definition of the [[spin group]] $Spin(n)$ there is a canonical inclusion
+
+$$
+  \mathbb{Z}/2\mathbb{Z}\hookrightarrow Spin(n)
+$$
+
+of the [[group of order 2]]. For $Spin(n)\hookrightarrow GL_1(Cl(\mathbb{R}^n))$ canonically realized by even [[Clifford algebra]] elements of unit norm, this is given by the inclusion of $\{+1,-1\}$.
+
+
+=--
+
 +-- {: .num_defn #DirectDefinitionOfSpinC}
 ###### Definition
 
@@ -34,7 +48,7 @@ $$
   \end{aligned}
 $$
 
-of the [[product]] of the [[spin group]] with the [[circle group]] by the common sub[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$ and $\mathbb{Z}_2 \hookrightarrow U(1)$.
+of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$ and $\mathbb{Z}_2 \hookrightarrow U(1)$.
 
 =--
 
