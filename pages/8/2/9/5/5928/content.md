@@ -75,7 +75,7 @@ Geometrically, one may think of
 +-- {: .num_defn #ZariskiTopos}
 ###### Definition
 
-Let $CRing_{fp} \hookrightarrow CRing$ be the [[full subcategory]] on [[finitely presented object]]s. This inherity the Zariski [[coverage]].
+Let $CRing_{fp} \hookrightarrow CRing$ be the [[full subcategory]] on [[finitely presented object]]s. This inherits the Zariski [[coverage]].
 
 The [[sheaf topos]] over this [[site]] is the [[big topos]] version of the  **Zariski topos**.
 
@@ -114,6 +114,37 @@ Hence
 =--
 
 See [[classifying topos]] and [[locally ringed topos]] for more details on this.
+
+## Kripke&#8211;Joyal semantics
+ {#KripkeJoyal}
+
+Writing $R \models \varphi$ for the interpretation of a formula $\varphi$ of the [[internal language]] of the big Zariski topos over $Spec(R)$ with the [[Kripke–Joyal semantics]], the forcing relation can be expressed as follows.
+
+$$
+\begin{array}{lcl}
+  R \models x = y : F &\Longleftrightarrow&
+    x = y \in F(R). \\
+  R \models \top &\Longleftrightarrow&
+    1 = 1 \in R. \\
+  R \models \bot &\Longleftrightarrow&
+    1 = 0 \in R. \\
+  R \models \phi \wedge \psi &\Longleftrightarrow&
+    R \models \phi \,\text{and}\, R \models \psi. \\
+  R \models \phi \vee \psi &\Longleftrightarrow&
+    \text{there is a partition}\, \sum_i f_i = 1 \in R \,\text{such that for all}\, i,
+      R[f_i^{-1}] \models \phi \,or\, R[f_i^{-1}] \models \psi. \\
+  R \models \phi \Rightarrow \psi &\Longleftrightarrow&
+    \text{for any}\, R\text{-algebra}\, S \,\text{it holds that}\, (S \models \phi) \,implies\, (S \models \psi). \\
+  R \models \forall x:F. \phi &\Longleftrightarrow&
+    \text{for any}\, R\text{-algebra}\, S \,\text{and any element}\, x \in F(S) \,\text{it holds that}\, S \models \phi[x]. \\
+  R \models \exists x.F. \phi &\Longleftrightarrow&
+    \text{there is a partition}\, \sum_i f_i = 1 \in R \,\text{such that for all}\, i,
+    \text{there exists an element}\, x_i \in F(R[f_i^{-1}]) \,\text{such that}\,
+    R[f_i^{-1}] \models \phi[x_i].
+\end{array}
+$$
+
+The only difference to the Kripke&#8211;Joyal semantics of the _little_ Zariski topos is that in the clauses for $\Rightarrow$ and $\forall$, one has to restrict to $R$-algebras $S$ of the form $S = R[f^{-1}]$.
 
 ## Related concepts
 
