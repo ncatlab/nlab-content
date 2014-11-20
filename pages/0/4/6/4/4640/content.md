@@ -287,6 +287,25 @@ Furthermore, these coefficients are uniquely determined.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Since the internal logic is local, we can assume that $X = Spec(R)$ is affine. The interpretations of the asserted statements using the [[Zariski site#KripkeJoyal|Kripke?Joyal semantics]] are:
+
+* Let $S$ be an $R$-algebra and $f, g \in S$ be elements such that $f + g = 1$. Then there exists a partition $1 = \sum_i s_i \in S$ such that in the localized rings $S[s_i^{-1}]$, $f$ or $g$ is invertible.
+
+* Let $S$ be an $R$-algebra and $f \in S$ an element. Assume that any $S$-algebra $T$ in which $f$ is zero is trivial (fulfills $1 = 0 \in T$). Then $f$ is invertible in $S$.
+
+* Let $S$ be an $R$-algebra and $f \in [\mathbb{A}^1,\mathbb{A}^1](S) = S[T]$ be an element. Then there exists a partition $1 = \sum_i s_i \in S$ such that in the localized rings $S[s_i^{-1}]$, $f$ is a polynomial with coefficients in $S[s_i^{-1}]$.
+
+For the first statement, simply choose $s_1 \coloneqq f$, $s_2 \coloneqq g$.
+
+For the second statement, consider the $S$-algebra $T \coloneqq S/(f)$.
+
+The third statement is immediate, localization is not even necessary.
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
