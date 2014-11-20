@@ -84,16 +84,22 @@ along [[representable morphisms]] of [[local quotient stacks]] ([FHT I](#FHT))
 review is in [Nuiten section 4.2](#Nuiten)
 
 
-
-## 2d Poisson Chern-Simons theory
-
-[Bongers, theorem 3.5.10](#Bongers)
-
 ## Geometric quantization
 
 [Bongers, section 2](#Bongers)
 
-[Nuiten, section 5.2](#Nuiten)
+
+### Symplectic manifold with Hamiltonian $G$-action
+
+
+([Nuiten, section 5.2.1](#Nuiten))
+
+
+### Universal orbit quantization
+
+([FHT II, section 1](#FHT)) ([Nuiten, section 5.2.2](#Nuiten))
+
+
 
 ## References
 
