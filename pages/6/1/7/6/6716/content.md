@@ -34,6 +34,8 @@ of the [[group of order 2]]. For $Spin(n)\hookrightarrow GL_1(Cl(\mathbb{R}^n))$
 
 =--
 
+> We frequently write $\mathbb{Z}_2$ as shorthand for $\mathbb{Z}/2\mathbb{Z}$.
+
 +-- {: .num_defn #DirectDefinitionOfSpinC}
 ###### Definition
 
@@ -169,7 +171,7 @@ $$
 This pullback is $\mathbf{B}(\mathbb{Z} \stackrel{\partial}{\to} Spin \times \mathbb{R})$, where 
 
 $$
-  \partial\colon n \mapsto ( n mod 2 , n)
+  \partial\colon n \mapsto ( n \,mod\, 2 , n)
   \,.
 $$
 
@@ -260,7 +262,7 @@ $$
    \coloneqq 
   \beta_2 \circ w_2 
    \colon
-  B SO \stackrel{w_2}{\to} B^2 \mathbb{Z}
+  B SO \stackrel{w_2}{\to} B^2 \mathbb{Z}_2
   \stackrel{\beta_2}{\to}
   B^3 \mathbb{Z}
 $$
