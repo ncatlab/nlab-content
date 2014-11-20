@@ -11,14 +11,10 @@ I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25t
 ##Latest Blog Post##
 Here I'll usually post my latest blog post.
 
-###Equivariant $\mathit{K}$-theory of Higher Categories###
-While I was working through my slides for my talk at the AMS Fall Western Sectional Meeting, I discovered some errors in my slides; some technical, some presentation-wise. I spent about two hours editing them, and the results are here:
+###An expanded motivation###
+I recorded a video for this blog post, where I talk about my research, and the motivation for studying the K-theory of infinity operads.
 
- * [AMS Fall Western Sectional Meeting Slides](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting.pdf)
-
- * [AMS Fall Western Sectional Meeting Notes](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting-notes.pdf)
-
-The same errors that I've corrected in the slides and notes exist in my paper that I'd written earlier on the higher K-theory of $\infty$-categories, and I plan to edit that as well soon.
+[YouTube video](https://www.youtube.com/watch?v=59HWtdR-QqE).
 <hr>
 Category: people 
 
