@@ -191,6 +191,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[topological K-theory]]
 
+  * [[fiber integration in K-theory]]
+
 * [[Tate K-theory]]
 
 * [[K-orientation]]
