@@ -1056,7 +1056,7 @@ for left proper [[cellular model category|cellular model categories]].
 
 In  proposition A.3.7.3 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] .
+* [[Jacob Lurie]], [[Higher Topos Theory]],
 
 it is discussed in the context of [[combinatorial model category|combinatorial model categories]] and of [[combinatorial simplicial model category|combinatorial simplicial model categories]] in particular.
 
