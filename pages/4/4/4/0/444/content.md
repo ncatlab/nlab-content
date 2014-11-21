@@ -124,7 +124,7 @@ is generated from those that map almost all generating morphisms $k \to k+1$ to 
 
 * map a single generating morphism to the composite of two generating morphisms 
   $$
-   \delta^n_i : [n-1] \to n
+   \delta^n_i : [n-1] \to [n]
   $$
   $$
     \delta^n_i : ((i-1) \to i) \mapsto ((i-1) \to i \to (i+1))
