@@ -23,7 +23,9 @@
 
 ## Idea
 
-A notion of [[localization]] for [[model categories]].
+This is a notion of [[localization]] more suited  to [[model categories]]. To quote Hirschhorn:
+
+'Localizing a model category with respect to a class of maps does not mean making the maps into isomorphisms; instead, it means making the images of those maps in the homotopy category into isomorphisms. Since the image of a map in the homotopy category is an isomorphism if and only if the map is a weak equivalence, localizing a model category with respect to a class of maps means making maps into weak equivalences.'
 
 ## Examples
 
@@ -33,7 +35,7 @@ A notion of [[localization]] for [[model categories]].
 
 ## References
 
-A classical reference is
+The main classical reference is
 
 * Hirschhorn, _Localization of Model Categories_ ([[LocalizationOfModelCategories.pdf:file]])
 
