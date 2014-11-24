@@ -18,7 +18,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 [[!redirects aufhebung]]
@@ -36,17 +36,17 @@
 
 [^fine]: As this polysemy is important for the concept and difficult to preserve in translation we prefer to use the German term in the following.
 
-In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]] inspired by [[homotopy theory]] proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]] or [[category theory]] more generally. It is the mathematical concept that will constitute the primary subject in the following.
+In his quest to [[axiom|axiomatize]] the concepts of [[space]] and [[cohesion]], [[F. W. Lawvere]], inspired by [[homotopy theory]]. proposed a mathematical rendering of the _Aufhebungs_ relation within [[topos theory]] or [[category theory]] more generally. It is the mathematical concept that will constitute the primary subject in the following.
 
 ##_Aufhebung_ in Hegel's 'Wissenschaft der Logik'
 
-Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby cutting the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
+Although the two volumes of _'Wissenschaft der Logik'_ -- [[Science of Logic]] (1st ed. 1812-1816) can be considered as one of the main texts of [[Hegel]]'s philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby cutting the social thought from its broad foundation in [[ontology]] and [[logic]], whereas the [[natural philosophy|natural philosophical]] tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
 
-The 'Wissenschaft der Logik' has to be viewed against the background of philosophy in the early 19th century: **Kant** had embarked on a project of 'refoundation', or rather demolition, of metaphysics from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these idealist systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
+The 'Wissenschaft der Logik' has to be viewed against the background of philosophy in the early 19th century: **Kant** had embarked on a project of 'refoundation', or rather demolition, of [[metaphysics]] from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these [[idealism|idealist]] systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
 
-Heavily influenced by the transcendental deductions and the chapters on dialectical paralogisms in Kant's 'Kritik der reinen Vernunft' he intends to start from nothing and justify the autonomous development of the system of categories. Here dialectics and Aufhebung enter the picture as Hegel conceives the categories not only as not given apriorily but as actually  becoming: _logic ceases to be an inventory of categories but becomes a system of transformations of categories!_ (Had Eilenberg and MacLane in 1945 intended their terminological loans from philosophy as a kind of joke, Lawvere would 25 years later take this terminological proximity at face value.)
+Heavily influenced by the transcendental deductions and the chapters on dialectical paralogisms in Kant's 'Kritik der reinen Vernunft' he intends to start from [[nothing]] and justify the autonomous development of the system of categories. Here dialectics and Aufhebung enter the picture as Hegel conceives the categories not only as not given apriorily but as actually [[becoming]]: _logic ceases to be an inventory of categories but becomes a system of transformations of categories!_ (Had Eilenberg and MacLane in 1945 intended their terminological loans from philosophy as a kind of joke, Lawvere would 25 years later take this terminological proximity at face value.)
 
-Hegels parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as [[Charles Sanders Peirce|C.S. Peirce]] would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic unity of being and nothingness in the idea of becoming. It is precisely this 'positively being negative' that finds its expression in the concept of 'Aufhebung'. 
+Hegel parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as [[Charles Sanders Peirce|C.S. Peirce]] would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic unity of [[being]] and [[nothing|nothingness]] in the idea of [[becoming]]. It is precisely this 'positively being negative' that finds its expression in the concept of 'Aufhebung'. 
 
 A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of 'being', 'nothingness', and their unity in 'becoming' Hegel determines **dialectics** as 'the higher rational movement... in which the precondition of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)).
 
@@ -54,13 +54,13 @@ He goes on ([p.113](#WdL)) to explicate _Aufheben_ as one of the most important 
 
 Clearly, these remarks can not do justice to the richness and subtlety of Hegel's logic and should only serve as canvas against which to get a better grasp of Lawvere's conceptual translation. The points to keep in mind from this view are:
 
-* Aufhebung is a _pervasive_ concept: although Lawvere proposes only mathematical definitions for two terms of Hegel's logic, namely _unity of opposites_ and _Aufhebung_, these are in fact the key terms and go already far in a reconstruction of the whole edifice!
+* Aufhebung is a _pervasive_ concept: although Lawvere proposes only mathematical definitions for two terms of Hegel's logic, namely _[[unity of opposites]]_ and _Aufhebung_, these are in fact the key terms and go already far in a reconstruction of the whole edifice!
 
-* Aufhebung unites _determinateness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheave, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
+* Aufhebung unites _determinateness_ with annihilation of being. These recur at the mathematical level as the correspondance between being-being a sheaf, annihilation -being the adjoint opposite of sheaf (anti-sheaf), and the determination of Aufhebung as being the least (=the Leibnizian best) level of being simultaneously a sheaf and an anti-sheaf.
 
 ## Lawvere's path to _Aufhebung_
 
->In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
+> In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
 
 ## Extracting the rational kernel 
 
@@ -68,63 +68,82 @@ So now let's get down to business and do some mathematics!
 
 ### The mathematics of Yin and Yang
 
-In ([Lawvere 2000](#Law00)) a particular simple example of the [[adjoint modality|adjoint cylinder]] was suggested that we use in the following as a running thread.
+In ([Lawvere 2000](#Law00)) a particular simple example of the [[adjoint cylinder]] was suggested that we use in the following as a running thread.
 
-Let $N$ be the natural numbers $\{0, 1,\dots\}$ viewed as a category via their usual ordering. Let $L,R:N\to N$ be the two parallel functors '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
+Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
 
-Both are full and faithful, hence candidates for an adjoint cylinder, and so we look now for a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we will call $T$ , such that $L\dashv T\dashv R$.
+Both are [[fully faithful functor|full and faithful]], hence candidates for an [[adjoint cylinder]], and so we look now for a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we will call $T$ , such that its forms an [[adjoint triple]] $L\dashv T\dashv R$.
 
-For our simple poset example these adjunctions amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$ - the thirdness $T$ mediates the _identity_ of $L$ and $R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as the definition for $T$.
+For our simple [[poset]] example these [[adjunctions]] amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$ - the thirdness $T$ mediates the _identity_ of $L$ and $R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as the definition for $T$.
 
 We also see here how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint_ subcategories e.g. for $L(n)=2n$ and $G(n):=3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
 
-The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories $E$ and $O$ of even and odd numbers,  respectively.
+The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories $E$ and $O$ of even and odd numbers, respectively.
 
-Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an idempotent comonad $sk:N\to N$ and an idempotent monad $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
+Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
  
 ### The mathematics of _Aufhebung_
+ {#TheMathematicsOfAufhebung}
 
 For convenience let us briefly recall the following
 
 +-- {: .num_defn #EssentialLocalization}
 ###### Definition
-A localization of a category $\mathcal{B}$ with finite limits is a reflective subcategory $\mathcal{A}$ whose reflection preserves finite limits. The localization is called _essential_ when the reflection has furthermore a left adjoint.
+
+A [[localization of a category]] $\mathcal{B}$ with [[finite limits]] is a [[reflective subcategory]] $\mathcal{A}$ whose reflection preserves finite limits. The localization is called _[[essential geometric morphism|essential]]_ when the reflection has furthermore a [[left adjoint]].
+
 =--
 
-If $l\dashv r\dashv i$ is an essential localization then $l$ is also full and faithful. If $\mathcal{B}$ is a topos, $\mathcal{A}$ is called an _essential [[subtopos]]_ and we write $i_!\dashv i^*\dashv i_*$ in this case and call $i_!$ the _essentiality_.
+If $l\dashv r\dashv i$ is an essential localization then $l$ is also [[fully faithful functor|full and faithful]]. If $\mathcal{B}$ is a [[topos]], $\mathcal{A}$ is called an _[[essential geometric morphism|essential]] [[subtopos]]_ and we write $i_!\dashv i^*\dashv i_*$ in this case and call $i_!$ the _essentiality_.
 
-It is a result in Lawvere-Kelly (1989) that the essential subtoposes of a topos form a complete lattice. A subtopos of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
+It is a result in Lawvere-Kelly (1989) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. Therefore we say:
 
-An adjoint string $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\lozenge _i\dashv\Box _i$ on $\mathcal{B}$, namely $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$.
++-- {: .num_defn #Level}
+###### Definition 
 
-The modalities yield notions of _i-sheaf_, namely those $X\in\mathcal{B}$ with $\Box _i X\simeq X$, and _i-skeleton_ : $\lozenge_i X\simeq X$.
+An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
+
+=--
+
+An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\lozenge _i\dashv\Box _i$ on $\mathcal{B}$, namely $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$.
+
+The [[modalities]] yield notions of _i-sheaf_ ([[modal type]]), namely those $X\in\mathcal{B}$ with $\Box _i X\simeq X$, and _i-skeleton_ : $\lozenge_i X\simeq X$.
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
 ([Lawvere 1989b](Law89b)).
-Let $i,j$ be levels of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
+Let $i,j$ be levels, def. \ref{Level}, of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
 
 Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\lozenge_i=\lozenge _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
 
 =--
 
-**Remark**
++-- {: .num_remark}
+###### Remark
 
-The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like presheaf toposes over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
+
+=--
+
+## Examples
+
+### Becoming
 
 **From Faust's study**
 
-In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _non being_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _non being_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ ([[flat modality]] $\dashv$ [[sharp modality]]) between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
 
-This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with initial and terminal objects, via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which syntactically corresponds to the inconsistent [[geometric theory]].
+This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
 
-Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that becoming is the Aufhebung of the opposition between nothing and being, or more shortly, that _becoming is the Aufhebung of being_.
+Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that [[becoming]] is the Aufhebung of the opposition between [[nothing]] and [[being]], or more shortly, that _becoming is the Aufhebung of being_.
 
 The former seems to be somewhat more consequently, as the Aufhebungs relation expresses precisely that the (positive) sheaf part of the higher level $j$ subsumes (the opposition between) the skeleton and the sheaf part of the lower level in a universal way - it is the smallest context in which negative and positive poles of the lower level can positively coexist. To elaborate this intuition somewhat, it is the minimal way to turn the negative part into a positive part yet retaining the positivity of its positive opposite.
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
 ### The example of cubical sets
+
+(...) [[cubical set]] (...)
 
 ### An open problem: the presheaf topos over non-empty finite sets
 
@@ -173,31 +192,32 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
-* {#Law89a} F. W. Lawvere, _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+* {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* {#Law89b} F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
+* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* {#Law91a} F. W. Lawvere, _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} [[F. W. Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
-* {#Law91b} F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* {#Law91b} [[F. W. Lawvere]], _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
-* {#Law92} F. W. Lawvere, _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
+* {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
 
-* {#Law94a} F. W. Lawvere, _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+* {#Law94a} [[F. W. Lawvere]], _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
 
-* {#Law94b} F. W. Lawvere, _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
+* {#Law94b} [[F. W. Lawvere]], _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
 
-* {#Law96} F. W. Lawvere, _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Law96} [[F. W. Lawvere]], _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
 
-* {#Law99}F. W. Lawvere, _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
+* {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* {#Law00} F. W. Lawvere , _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
+* {#Law00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
 
-* {#Law02} F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
+* {#Law02} [[F. W. Lawvere]], _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
 
-* {#Law07} F. W. Lawvere, _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-* F. W. Lawvere, _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
+* {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+
+* [[F. W. Lawvere]], _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
 
 * {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
