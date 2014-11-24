@@ -163,7 +163,7 @@ Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and consider the 
 
 =--
 
-This appears as ([Bursztyn-Crainic, example 4.3](#BursztynCrainic)).
+This appears for instance as ([Weinstein 91, example 3.2](#Weinstein91), [Bursztyn-Crainic 05, example 4.3](#BursztynCrainic)).
 
 ## Related concepts
 
@@ -218,10 +218,12 @@ The identification with reduced phase spaces of the open Poisson sigma-model is 
 
 Further developments include
 
+* {#Weinstein91} [[Alan Weinstein]], _Noncommutative geometry and geometric quantization_ in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Birkh&#228;user 1991
+
 * [[Ping Xu]], _Morita equivalence and symplectic realizations of Poisson manifolds_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 25 no. 3 (1992) ([NUMDAM](http://www.numdam.org/item?id=ASENS_1992_4_25_3_307_0))
 
-* [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
- {#BursztynCrainic}
+* {#BursztynCrainic} [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
+ 
 
 * F. Bonechi, N. Ciccoli, N. Staffolani, M. Tarlini, _The quantization of the symplectic groupoid of the standard Podles sphere_ ([arXiv:1004.3163](http://arxiv.org/abs/1004.3163))
 
