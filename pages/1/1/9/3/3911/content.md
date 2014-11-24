@@ -274,6 +274,7 @@ See
 
 We discuss fiber integration/push-forward/[[Gysin maps]] in 
 [[operator K-theory]], hence in [[KK-theory]] ([Connes-Skandalis 85](#ConnesSkandalis84), [BMRS 07, section 3](#BMRS07)).
+For more see at _[[fiber integration in K-theory]]._
 
 The following discusses KK-pushforward
 
@@ -603,52 +604,52 @@ Discussion of fiber integration [[Gysin maps]]/Umkehr maps in [[noncommutative t
 
 The definition of the element $f! \in KK(C(X), C(Y))$ for a $K$-oriented map $f \colon X \to Y$ between smooth manifolds goes back to section 11 in
 
-* [[Alain Connes]], _A survey of foliations and operator algebras_, Proceedings of the A.M.S., 38, 521-628 (1982) ([pdf](http://www.alainconnes.org/docs/foliationsfine.pdf))
- {#Connes82}
+* {#Connes82} [[Alain Connes]], _A survey of foliations and operator algebras_, Proceedings of the A.M.S., 38, 521-628 (1982) ([pdf](http://www.alainconnes.org/docs/foliationsfine.pdf))
+ 
 
 The functoriality of this construction is demonstrated in section 2 of the following article, which moreover generalizes the construction to maps between [[foliations]] hence to KK-elements between [[groupoid convolution algebras]] of [[holonomy groupoids]]:
 
-* [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
+* {#ConnesSkandalis84} [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
 no. 6, 1139&#8211;1183 (1984) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.165.4218))
- {#ConnesSkandalis84}
+ 
 
 More on this is in
 
-* [[Michel Hilsum]], [[Georges Skandalis]], _Morphismes K-orient&#233; d'espace de feuille et fonctoralit&#233; en th&#233;orie de Kasparov_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 20 no. 3 (1987), p. 325-390 ([numdam](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
- {#HilsumSkandalis87}
+* {#HilsumSkandalis87} [[Michel Hilsum]], [[Georges Skandalis]], _Morphismes K-orient&#233; d'espace de feuille et fonctoralit&#233; en th&#233;orie de Kasparov_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 20 no. 3 (1987), p. 325-390 ([numdam](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
+ 
 
 (the article that introuced [[Hilsum-Skandalis morphisms]]).
 
 This is further generalized to [[circle 2-bundle]]-twisted convolution algebras of foliations in 
 
-* Paulo Carrillo Rouse, [[Bai-Ling Wang]], _Twisted longitudinal index theorem for foliations and wrong way functoriality_ ([arXiv:1005.3842](http://arxiv.org/abs/1005.3842))
- {#RouseWang10}
+* {#RouseWang10} Paulo Carrillo Rouse, [[Bai-Ling Wang]], _Twisted longitudinal index theorem for foliations and wrong way functoriality_ ([arXiv:1005.3842](http://arxiv.org/abs/1005.3842))
+ 
 
 Dicussion for general [[C*-algebras]] is in section 3 of 
 
-* Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
- {#BMRS07}
+* {#BMRS07} Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
+ 
 
 and specifically including also [[twisted K-theory]] again (and the relation to [[D-brane charge]]) in section 7 of
 
-* Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
- {#BrodzkiMathaiRosenbergSzabo06}
+* {#BrodzkiMathaiRosenbergSzabo06} Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+ 
 
 ### Abstract formulation
 
 The abstract formulation in [[stable homotopy theory]] via [[(infinity,1)-module bundles]] is sketched in section 9 of
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG10}
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
 and in section 10 of
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
- {#ABG11}
+* {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+ 
 
 This is reviewed and used also in 
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of boundary prequantum field theory]]_, MSc thesis, Utrecht 2013
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of boundary prequantum field theory]]_, MSc thesis, Utrecht 2013
 
 Formulation of this in [[linear homotopy-type theory]] is discussed in
 
