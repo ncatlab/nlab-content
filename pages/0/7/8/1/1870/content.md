@@ -71,6 +71,84 @@ $$
 
 =--
 
+### By bundles of Fredholm operators
+
+The following is due to ([Atiyah-Singer 69](#AtiyahSinger69), [Atiyah-Segal 04](#AtiyahSegal04)).
+
+Write
+
+* $Cl_n \coloneqq Cl^{\mathbb{C}}(\mathbb{R}^n,\langle -,-\rangle)$
+
+  for the [[complexification]] of the [[Clifford algebra]] of the [[Cartesian space]] $\mathbb{R}^n$ with its standard [[inner product]];
+
+* $S_n$ for its $\mathbb{Z}/2\mathbb{Z}$-[[graded module|graded]] [[irreducible module]] (see at _[[spin representation]]_);
+
+* $H_0$ for [[generalized the|the]] $\mathbb{Z}/2\mathbb{Z}$-graded [[separable Hilbert space]] whose even and odd part are both infinite-dimensional.
+
++-- {: .num_defn #Fredn}
+###### Definition
+
+For $n \in \mathbb{N}$, the [[topological space]] $Fred^{(n)}$ of [[Fredholm operators]] on $S_n \otimes H_0$ is the [[set]]
+
+$$
+  Fred^{(n)}
+  \coloneqq
+  \left\{
+    F \in \mathcal{B}(S_n \otimes H_0)
+    \;|\;
+    F \, odd\,,
+    F^\ast = F \,,
+    F^2 - 1 \in \mathcal{K}(S_n \otimes H_0)\,,
+    [F,\gamma] = 0 \, for\, \gamma \in Cl_n
+  \right\}
+$$
+
+(where $\mathcal{B}$ denotes [[bounded operators]] and $\mathcal{K}$ denotes [[compact operators]] and where $[-,-]$ denotes the [[graded commutator]]) and the [[topological space|topology]] on this set is the [[subspace topology]] induced by the embedding
+
+$$
+  Fred^{(n)}
+  \hookrightarrow
+  \mathcal{B}(S_n \otimes H_0)
+  \times
+  \mathcal{K}(S_n \otimes H_0)
+$$
+
+given by
+
+$$
+  F\mapsto (F, F^2 - 1)
+  \,,
+$$
+
+where $\mathcal{B}$ is equipped with the [[compact-open topology]] and $\mathcal{K}$ with the [[norm topology]].
+
+=--
+
+([Atiyah-Singer 69, p. 7](#AtiyahSinger69), [Atiyah-Segal 04, p. 21](#AtiyahSegal04))
+
+These spaces indeed form a model for the [[KU]] [[spectrum]]:
+
++-- {: .num_prop }
+###### Proposition
+
+For all $n \in \mathbb{N}$ there are [[natural equivalence|natural]] [[weak homotopy equivalences]]
+
+$$
+  Fred^{(n+1)} \stackrel{\simeq}{\longrightarrow} \Omega Fred^{(n)}
+$$
+
+and 
+
+$$
+  Fred^{(n+2)} \stackrel{\simeq}{\longrightarrow} Fred^{(n)}
+$$
+
+between the spaces of graded [[Fredholm operators]] of def. \ref{Fredn} and their [[loop spaces]].
+
+=--
+
+([Atiyah-Singer 69, theorem B(k)](#AtiyahSinger69), [Atiyah-Segal 04 (4.2)](#AtiyahSegal04))
+
 ### By twisted vector bundles (gerbe modules)
 
 +-- {: .num_defn #TwBundDefinition}
@@ -194,6 +272,9 @@ The formulation in terms of sections of Fredholm bundles seems to go back to
 
 A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in
 
+* {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
+January 1969, Volume 37, Issue 1, pp 5-26 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf))
+
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_ ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054))
 
 * {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
@@ -204,7 +285,7 @@ The seminal result on the relation to [[loop group]] [[representations]], now ag
 
 The result on twisted K-groups has been lifted to an equivalence of categories in
 
-* [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+* [[Daniel Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
 Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in 
 
@@ -212,36 +293,36 @@ Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in
 
 The perspective of twisted K-theory by sections of a $K U$-bundle of spectra is discussed for instance in section 22 of 
 
-* [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
- {#MaySigurdsson}
+* {#MaySigurdsson} [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
+ 
 
 See the references at _[[(infinity,1)-vector bundle]]_ for more on this.
 
 Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in 
 
-* [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194))
-  {#CBMMS} 
+* {#CBMMS}  [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194))
+  
 
 and for generalization to [[groupoid K-theory]] also ([FHT 07, around p. 26](#FHT07)) and 
 
-* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
- {#TuXuLG03}
+* {#TuXuLG03} [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ 
 
 (which establishes the relation to [[KK-theory]]).
 
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
  {#Karoubi}
 
-* [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
- {#Pennig}
+* {#Pennig} [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
+ 
 
 Discussion in terms of [[vectorial bundles]] is in
 
 * [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
  {#Gomi}
 
-* [[Kiyonori Gomi]] und Yuji Terashima, _Chern-Weil Construction for Twisted K-Theory_ Communication ins Mathematical Physics, Volume 299, Number 1, 225-254, 
- {#GomiTerashima}
+* {#GomiTerashima} [[Kiyonori Gomi]] und Yuji Terashima, _Chern-Weil Construction for Twisted K-Theory_ Communication ins Mathematical Physics, Volume 299, Number 1, 225-254, 
+ 
 
 The twisted version of [[differential K-theory]] is discussed in
 
