@@ -23,14 +23,81 @@
 The special case of [[fiber integration in generalized cohomology]]/[[twisted Umkehr maps]] for [[KU]]-cohomology.
 
 ## Models
+ {#Models}
 
-There are various different models for describing and constructing fiber integration in K-theory
+There are various different models for describing and constructing fiber integration in K-theory.
+
+1. [In terms of bundles of Fredholm operators](#InTermsOfBundlesOfFredholmOperators)
+
+1. [In operator KK-theory](#InOperatorKKTheory)
 
 ### In terms of bundles of Fredholm operators
+ {#InTermsOfBundlesOfFredholmOperators}
 
-([Carey-Wang 05](#CareyWang05))
+We discuss here fiber integration in the model of [[twisted K-theory]] [by bundles of spaces of Fredholm operators](twisted%20K-theory#ByBundlesOfFredholmOperators). Related literature includes ([Carey-Wang 05](CareyWang05)).
+
+
+1. _[Along a fibration of closed spin^c manifolds](#AlongAFibrationOfClosedSpinCManifolds)_
+
+
+#### Along a fibration of closed $Spin^c$-manifolds
+
+Let $f\colon Y \longrightarrow X$ be a [[fiber bundle]] of [[compact manifolds|compact]] [[smooth manifolds]] carrying fiberwise a [[spin^c structure]]. 
+
+For $x\in X$ write
+
+* $Y_x$ for the [[fiber]] over $x$;
+
+* $P_x \to Y_x$ for the fiberwise [[spin^c]]-[[principal bundle]];
+
+* $Cl(Y)_x \coloneqq P_x \underset{Spin^c}{\times} Cl_n$ for the fiberwise [[Clifford bundle]];
+
+* $S_x$ for the [[spin^c]] [[spin bundle]] on $Y_x$;
+
+* $D_x\colon \Gamma(S_x)\to \Gamma(S_x)$ for the [[Spin^c Dirac operator]] on the [[space of sections]] of [[spinors]];
+
+* $\tilde D_x \coloneqq \frac{D_x}{\sqrt{1+ D_x^\ast D_x}} \colon L^2(S_x)\to L^2(S_x)$ for the [[bounded linear operator|bounded]] version; 
+
+
+Here $D_x$ depends smoothly on $x$ while $\tilde D_x$ still depends continuously on $x$. Equip $CL(Y)_y$ with the $Cl_n$-[[action]] given on elements $v \in \mathbb{R}^n \hookrightarrow Cl_n$ joint right Clifford product by $v$ and left Clifford product by the volume element
+
+$$
+  vol \cdot (-) \cdot v
+  \,.
+$$
+
+This is such that $D_x$ [[graded commutator|graded-commutes]] with this $Cl_n$-action. Hence the assignment $x \mapsto \tilde D_x$ defines a map
+
+
+$$
+  \tilde D_{(-)} \colon X \longrightarrow Fred^{(n)}
+$$
+
+from the base to the space [[Fredholm operators]] [[graded-commutator|graded-commuting]] with $Cl_n$, as defined [here](twisted%20K-theory#ByBundlesOfFredholmOperators) at _[[twisted K-theory]]_.
+
+More generally, let then $V \to Y$ be a [[vector bundle]] representing a class in $K^0(Y)$. With a choice of [[connection]] this twists the above constrction to yield $V$-twisted Dirac operator $\tilde D^V_x$ and hence a map
+ 
+$$
+  \tilde D_{(-)}^V \colon X \longrightarrow Fred^{(n)}
+  \,.
+$$
+
+This represents the push-forward class in $K^{dim(Y_x)}(X)$, and this construction gives a map
+
+$$
+  \int f
+  \colon
+  K^0(Y) \longrightarrow K^{dim(Y)-dim()X}(X)
+  \,.
+$$
+
+
+
+For $dim(Y_x)$ even and hence ignoring the compatibility with the $Cl_n$-action, this is discussed in ([Carey-Wang 05](CareyWang05)).
+
 
 ### In operator KK-theory
+ {#InOperatorKKTheory}
 
 We discuss fiber integration /push-forward/[[Umkehr maps]]/[[Gysin maps]] in 
 [[operator K-theory]], hence in [[KK-theory]] ([Connes-Skandalis 85](#ConnesSkandalis84), [BMRS 07, section 3](#BMRS07)).
