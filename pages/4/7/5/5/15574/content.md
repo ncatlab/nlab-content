@@ -40,7 +40,7 @@ In his quest to axiomatize the concepts of space and cohesion, [[F. W. Lawvere]]
 
 ##_Aufhebung_ in Hegel's 'Wissenschaft der Logik'
 
-Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby seriously severing the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
+Although the two volumes of _'Wissenschaft der Logik'_ - Science of Logic (1st ed. 1812-1816) can be considered as one of the main texts of Hegel's philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby cutting the social thought from its broad foundation in ontology and logic, whereas the natural philosophical tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
 
 The 'Wissenschaft der Logik' has to be viewed against the background of philosophy in the early 19th century: **Kant** had embarked on a project of 'refoundation', or rather demolition, of metaphysics from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these idealist systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
 
@@ -110,11 +110,13 @@ Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (w
 
 **Remark**
 
-The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like presheaf topos over [[graphic category|graphic categories]] or, more generally, toposes such that all subtoposes are essential, it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like presheaf toposes over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
 
 **From Faust's study**
 
-In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _pure nothing_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _pure non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _non being_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+
+This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with initial and terminal objects, via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which syntactically corresponds to the inconsistent [[geometric theory]].
 
 Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that becoming is the Aufhebung of the opposition between nothing and being, or more shortly, that _becoming is the Aufhebung of being_.
 
@@ -124,7 +126,7 @@ For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
 ### The example of cubical sets
 
-### An open problem: the topos of non-empty finite sets
+### An open problem: the presheaf topos over non-empty finite sets
 
 ## Related pages
 
