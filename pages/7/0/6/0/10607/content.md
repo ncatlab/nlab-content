@@ -270,6 +270,8 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 ## Related concepts
 
+* [[Aufhebung]]
+
 * [[modal type theory]]
 
 * [[category of being]]
@@ -282,14 +284,14 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
 
-* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
- {#Lawvere91}
+* {#Lawvere91} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
+ 
 
-* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
-  {#Lawvere94}
+* {#Lawvere94} [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+  
 
-* [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
- {#Lawvere96}
+* {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
+ 
 
 motivated as a formalization of ideas expressed in
 
