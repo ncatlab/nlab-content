@@ -1,7 +1,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -34,5 +34,9 @@ $$
 * [[Lie bracket]]
 
 * [[group commutator]]. [[commutator subgroup]]
+
+* [[anti-commutator]]
+
+* [[graded commutator]]
 
 [[!redirects commutators]]
