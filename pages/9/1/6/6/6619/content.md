@@ -244,29 +244,31 @@ Their [[prequantization]] is developed in
   
 
 * {#BonechiCattaneoZabzine05} Francesco Bonechi, [[Alberto Cattaneo]], [[Maxim Zabzine]], _Geometric quantization and non-perturbative Poisson sigma model_,  	Adv. Theor. Math. Phys. 10:683-712, 2006 ([arXiv:math/0507223](http://arxiv.org/abs/math/0507223))
+    
+
+A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, originates in
+
+* {#Weinstein91} [[Alan Weinstein]], _Noncommutative geometry and geometric quantization_ in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Birkh&#228;user 1991
+
+and is further developed in
+
+* {#EH} [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
   
-
-The interpretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in ([LGX](#LGX)) above. This is further expanded on in the last section of 
-
-* {#hgp13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ 2013
-  
-
-and in 
-
-* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, thesis, August 2013
-  
-
-* {#Bongers13} Stefan Bongers, _[[schreiber:master thesis Bongers]]_
-  
-
-
-A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, is discussed in
-
-* [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
-  {#EH}
 
 The case over Poisson vector spaces leading to [[Moyal quantization]] was considered earlier in 
 
-* Jose M. Gracia-Bondia, Joseph C. Varilly, _From geometric quantization to Moyal quantization_, J. Math. Phys. 36 (1995) 2691-2701 ([arXiv:hep-th/9406170](http://arxiv.org/abs/hep-th/9406170))
- {#GBV}
+* {#GBV} Jose M. Gracia-Bondia, Joseph C. Varilly, _From geometric quantization to Moyal quantization_, J. Math. Phys. 36 (1995) 2691-2701 ([arXiv:hep-th/9406170](http://arxiv.org/abs/hep-th/9406170))
+ 
+
+The interpretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in ([LGX](#LGX)) above. This is further expanded on in 
+
+* {#hgp13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], last section of _[[schreiber:Higher geometric prequantum theory]]_ 2013
+
+* {#Bongers13} Stefan Bongers, section 4 of _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, MSc thesis 2014
+  
+The [[motivic quantization|cohomological quantization]] of symplectic groupoids in this sense, making the construction in ([Weinstein 91](#Weinstein91), [Hawkins 08](#EH)) Morita invariant is in 
+
+* {#Nuiten13} [[Joost Nuiten]], section 5.2.2 of _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, MSc thesis, August 2013
+  
+
 
