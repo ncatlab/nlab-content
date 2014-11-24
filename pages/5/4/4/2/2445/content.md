@@ -141,7 +141,11 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 
 ## Related concepts
 
-* [[Clifford module]]
+* [[Clifford module]], 
+
+* [[Clifford bundle]]
+
+* [[Clifford module bundle]]
 
 * [[Fierz identity]]
 
