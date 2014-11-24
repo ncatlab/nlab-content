@@ -49,7 +49,7 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 ## References
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II, section 3 _[[Spin geometry]]_, Princeton University Press (1989)
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
