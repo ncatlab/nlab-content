@@ -421,6 +421,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
 * **topological K-theory
 
+  * [[Atiyah-Bott-Shapiro isomorphism]]
+
   * [[topological index]]
 
   * [[KR-theory]]
