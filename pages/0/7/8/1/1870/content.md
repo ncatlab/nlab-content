@@ -72,6 +72,7 @@ $$
 =--
 
 ### By bundles of Fredholm operators
+ {#ByBundlesOfFredholmOperators}
 
 The following is due to ([Atiyah-Singer 69](#AtiyahSinger69), [Atiyah-Segal 04](#AtiyahSegal04)).
 
@@ -124,7 +125,7 @@ where $\mathcal{B}$ is equipped with the [[compact-open topology]] and $\mathcal
 
 =--
 
-([Atiyah-Singer 69, p. 7](#AtiyahSinger69), [Atiyah-Segal 04, p. 21](#AtiyahSegal04))
+([Atiyah-Singer 69, p. 7](#AtiyahSinger69), [Atiyah-Segal 04, p. 21](#AtiyahSegal04), [Freed-Hopkins-Teleman 11, def. A.40](#FreedHopkinsTeleman11))
 
 These spaces indeed form a model for the [[KU]] [[spectrum]]:
 
@@ -147,7 +148,48 @@ between the spaces of graded [[Fredholm operators]] of def. \ref{Fredn} and thei
 
 =--
 
-([Atiyah-Singer 69, theorem B(k)](#AtiyahSinger69), [Atiyah-Segal 04 (4.2)](#AtiyahSegal04))
+([Atiyah-Singer 69, theorem B(k)](#AtiyahSinger69), [Atiyah-Segal 04 (4.2)](#AtiyahSegal04), [Freed-Hopkins-Teleman 11, below def. A.40](#FreedHopkinsTeleman11))
+
+
+
+Regard the [[stable unitary group]] $U(H_0)$ as equipped with the [[subspace topology]] induced by the inclusion
+
+$$
+  U(H_0) \stackrel{(id,(-)^{-1})}{\hookrightarrow} \mathcal{B}(H_0)\times\mathcal{B}(H_0)
+$$
+
+from the [[compact-open topology]] on the [[bounded linear operators]].
+
++-- {: .num_prop }
+###### Proposition
+
+The [[conjugation action]] of the [[stable unitary group]] $U(H_0)$ on $Fred^{(n)}$, def. \ref{Fredn}, is [[continuous functions|continuous]].
+
+=--
+
+This follows with ([Atiyah-Segal 04, prop. A1.1](#AtiyahSegal04)).
+
+
++-- {: .num_defn }
+###### Definition
+
+Given a class $\chi \in H^3(X,\mathbb{Z})$ represented by a $PU(H_0)$-bundle $P \to X$ with [[associated bundle|associated]] Fredholm bundle 
+
+$$
+  Fred^{(n)+ \chi} \coloneqq P \underset{PU(H_0)}{\times} Fred^{(n)}
+  \,,
+$$
+
+then the corresponding $\chi$-twisted [[cohomology]] [[spectrum]] is that consisting of the [[spaces of sections]]
+
+$$
+  \Gamma(X, Fred^{(n)+ \chi})
+  \,.
+$$
+
+=--
+
+([Freed-Hopkins-Teleman 11, def. 3.14](#FreedHopkinsTeleman11))
 
 ### By twisted vector bundles (gerbe modules)
 
@@ -278,6 +320,11 @@ January 1969, Volume 37, Issue 1, pp 5-26 ([pdf](http://www.maths.ed.ac.uk/~aar/
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_ ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054))
 
 * {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+
+and for more general twists in 
+
+
+* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] I_ , J. Topology, 4 (2011), 737-789  ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
 
 The seminal result on the relation to [[loop group]] [[representations]], now again with twists in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$, is in the series of articles
 
