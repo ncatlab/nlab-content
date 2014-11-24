@@ -180,7 +180,9 @@ A model for this in 4-truncation is given by [[super line 2-bundles]]. For the m
 
 ## References 
 
-An original article is
+The concept of twisted K-theory originates in 
+
+* {#Karoubi68} [[Max Karoubi]], _Alg&#232;bres de Clifford et K-th&#233;orie._ Ann. Sci. Ecole Norm. Sup. (4), pp. 161-270 (1968).
 
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
 
