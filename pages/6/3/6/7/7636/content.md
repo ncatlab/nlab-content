@@ -430,6 +430,7 @@ Another version of this which also applie to [[intensional identity types]] and 
 
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 ([[LumsdaineWarren2013.pdf:file]])
 
+* [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _The local universes model: an overlooked coherence construction for dependent type theories_ ([arXiv:1411.1736](http://arxiv.org/abs/1411.1736))
 
 The analogous statement relating [[homotopy type theory]] and [[locally cartesian closed (infinity,1)-categories]] was fromally conjectured around
 
