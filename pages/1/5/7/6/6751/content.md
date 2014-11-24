@@ -146,7 +146,7 @@ $$
   \Theta_\lambda \coloneqq \langle \lambda, \theta \rangle \in \Omega^1(G)
 $$
 
-for the 1-form obtained by pairing the value of the Maurer-Cartan form at each point with the gixed element $\lambda \in \mathfrak{g}^*$.
+for the [[differential 1-form]] obtained by pairing the value of the [[Maurer-Cartan form]] at each point with the fixed element $\lambda \in \mathfrak{g}^*$.
 
 Write
 
