@@ -5,7 +5,7 @@
 
 ## Idea
 
-An __inner product space__ is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or sesquilinear form: a linear map from $V \otimes V$ or $\bar{V} \otimes V$ to the [[ground ring]] $k$.
+An __inner product space__ ("scalar product") is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or sesquilinear form: a linear map from $V \otimes V$ or $\bar{V} \otimes V$ to the [[ground ring]] $k$.
 
 One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity (positive semidefiniteness) or definiteness (nondegeneracy). See also [[bilinear form]]. 
 
@@ -33,6 +33,7 @@ Are the two conventions really equivalent when $k$ is noncommutative?  &#8212;To
 (The axiom list above is rather redundant.  First of all, (1) follows from (3) by setting $c = 0$; besides that, (1--3) come in pairs, only one of which is needed, since each half follows from the other using (4).  It is even possible to derive (3) from (2) under some circumstances.)
 
 An __inner product space__ is simply a vector space equipped with an inner product.
+
 
 We define a function ${\|{-}\|^2}\colon V \to k$ by ${\|x\|^2} = \langle x, x \rangle$; this is called the __norm__ of $x$.  As the notation suggests, it is common to take the norm of $x$ to be the square root of this expression in contexts where that makes sense, but for us ${\|{-}\|^2}$ is an atomic symbol.  The norm of $x$ is __real__ in that it equals its own conjugate, by (4).
 
@@ -93,3 +94,6 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 [[!redirects inner products]]
 [[!redirects inner product space]]
 [[!redirects inner product spaces]]
+
+[[!redirects scalar product]]
+[[!redirects scalar products]]
