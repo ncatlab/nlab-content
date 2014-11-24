@@ -27,11 +27,37 @@ on [[spin geometry]].
 
 ## Chapter I Clifford algebras, Spin groups and Their Representations
 
+### 1 Clifford algebras
+
 * [[Clifford algebra]]
+
+### 2 The group $Pin$ and $Spin$
 
 * [[spin group]]
 
+### 3 The algebras $CL_n$ and $Cl_{r,s}$
+
+### 4 Classification
+
+### 5 Representations
+
 * [[spin representation]]
+
+### 6 Lie algebra structures
+
+### 7 Some direct applications to geometry
+
+### 8 Some further applications to the theory of Lie groups
+
+### 9 K-Theory and the Atiyah-Bott-Shapiro construction
+
+* [[K-theory]]
+
+* [[Atiyah-Bott-Shapiro isomorphism]]
+
+### 10 KR-theory and the $(1,1)$-Periodicity theorem
+
+* [[KR-theory]]
 
 ## Chapter II Spin Geometry and the Dirac Operator
 
