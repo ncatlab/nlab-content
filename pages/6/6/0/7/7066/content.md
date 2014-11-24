@@ -222,13 +222,16 @@ in Geometric Quantization_ ([pdf](http://geoquant2007.mi.ras.ru/nohara.pdf))
 
 Lagrangian submanifolds of [[L-infinity algebroids]] are considered in
 
-* [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
- {#Severa}
+* {#Severa} [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+ 
+In the case that the polarization integrates to the [[action]] of a [[Lie group]] $G$ one may think of passing to polarized sections as equivlent to passing to $G$-[[gauge equivalence|gauge equivalence classes]]. This point of view is highlighted in
+
+* [[Gabriel Catren]], _On the Relation Between Gauge and Phase Symmetries_, Foundations of Physics 44 (12):1317-1335 (2014) ([web](http://philpapers.org/rec/CATOTR))
 
 A candidate for polarizations for higher geometric quantization in $n$-plectic geometry is discussed in Chapter 7 of
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068)). 
-{#Rogers}
+* {#Rogers} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068)). 
+
 
 [[!redirects polarizations]]
 
@@ -240,5 +243,4 @@ A candidate for polarizations for higher geometric quantization in $n$-plectic g
 
 [[!redirects complex polarization]]
 [[!redirects complex polarizations]]
-
 
