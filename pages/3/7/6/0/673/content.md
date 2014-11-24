@@ -19,12 +19,14 @@ You may also find me on
 
 ## Papers ##
 
+* _A topological fibrewise fundamental groupoid_, [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
+
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted for publication 6 March 2014, rejected 2 April 2014.
+  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
-* _The weak choice principle WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication 13 Jan 2014. Rejected 26 Sept 2014
+* _The weak choice principle WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication.
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted 10 June 2014.
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
 
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
 
@@ -45,18 +47,15 @@ You may also find me on
 
 * _Strict 2-sites, $J$-spans and localisations_.
 
-* _A relative smooth fundamental groupoid_, joint with Andrew Stacey.
-
-* _A relative topological fundamental groupoid_.
-
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo.
 
 
 ## Talks ##
 
-* _The Serre-Grothendieck theorem by geometric means_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide, 24 October 2014. ([Abstract](http://maths.adelaide.edu.au/news/2014/10/24))
+* _TBA_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
 
+* _The Serre-Grothendieck theorem by geometric means_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide, 24 October 2014. ([Abstract](http://maths.adelaide.edu.au/news/2014/10/24))
 
 * _A geometric proof of a theorem of Serre_, [Algebra and Topology seminar](http://maths.anu.edu.au/events/algebra-and-topology-seminar-0), Australian National University, 23 September 2014. ([Abstract](http://maths.anu.edu.au/events/geometric-proof-theorem-serre))
 
