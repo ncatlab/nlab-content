@@ -647,7 +647,7 @@ Categories in algebra, geometry and mathematical physics , volume 431 of Contemp
 
 The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]] here:
 
-* [[Stephen Lack]], [[Ross Street]], _Combinatorial Categorical Equivalences_ , arxiv:1402.7151 (2014).  ([pdf](http://arxiv.org/pdf/1402.715v1.pdf))
+* [[Stephen Lack]], [[Ross Street]], _Combinatorial Categorical Equivalences_, arxiv:1402.7151 (2014).  ([pdf](http://arxiv.org/pdf/1402.7151v1))
 
 [[!redirects Dold--Kan correspondence]]
 [[!redirects Dold?Kan correspondence]]
