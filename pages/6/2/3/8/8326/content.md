@@ -496,7 +496,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 ###### Der &#220;bergang
 
-* &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als Aufheben der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
+* &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
 
 * &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
@@ -1047,7 +1047,9 @@ $$
 
 ## Related entries
 
-* [[being]], [[becoming]]
+* [[unity of opposites]]
+
+* [[Aufhebung]]
 
 ## References
 
