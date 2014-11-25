@@ -1,0 +1,2 @@
+* Emmanuel Cand&#232;s, _What is a curvelet_, Notices Amer. Math. Soc. 2003, [pdf](http://www.ams.org/notices/200311/what-is.pdf)
+* E. J. Cand&#232;s, L. Demanet, _Curvelets and Fourier integral operators_, C. R. Math. Acad. Sci. Paris 336 (2003), 395&#8211;398 [MR1979352](http://www.ams.org/mathscinet-getitem?mr=1979352) [doi](http://dx.doi.org/10.1016/S1631-073X(03)00095-5)
