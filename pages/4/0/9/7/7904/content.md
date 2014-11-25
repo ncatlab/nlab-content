@@ -48,6 +48,7 @@ $$
 is a _$G$-[[∞-gerbe]]_.
 
 ## Properties
+ {#Properties}
 
 Every $V$-fiber $\infty$-bundle is the [[associated ∞-bundle]] to an [[automorphism ∞-group]]-[[principal ∞-bundle]].
 
