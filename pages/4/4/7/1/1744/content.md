@@ -51,7 +51,7 @@ $$
    :
    \;\;
    sSet_{\leq n}
-   \stackrel{\overset{sk_n}{\to}}{\stackrel{\overset{tr_n}{\leftarrow}}{\underset{cosk_n}{\to}}}
+   \stackrel{\overset{sk_n}{\longrightarrow}}{\stackrel{\overset{tr_n}{\longleftarrow}}{\underset{cosk_n}{\longrightarrow}}}
    sSet
   \,.
 $$
@@ -190,6 +190,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 * [[Eilenberg subcomplex]]
 
+* [[adjoint modality]]
 
 
 ## References
@@ -204,6 +205,10 @@ A classical article that amplifies the connection of the coskeleton operation to
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
+The [[level of a topos]]-structure of simplicial (co-)skeleta is discussed in
+
+* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([arXiv:1003.5944](http://arxiv.org/abs/1003.5944))
+
 
 [[!redirects coskeletal]]
 [[!redirects coskeleton]]
@@ -213,4 +218,3 @@ A classical article that amplifies the connection of the coskeleton operation to
 [[!redirects skeleta]]
 
 [[!redirects simplicial skeleta]]
-
