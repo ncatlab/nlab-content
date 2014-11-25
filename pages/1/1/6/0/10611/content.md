@@ -46,14 +46,42 @@ and the modalities contain the three [[unity of opposites|pairs of opposites]]
 ### In formal logic
  {#InFormalLogic}
 
+#### General
+
 In [[formal logic]] and [[type theory]] modalities are formalized by
  _modal operator_ or _[[closure operator]]_ $\sharp$, that send [[propositions]]/[[types]] $X$ to new propositions/types $\sharp X$, satisfying some properties. 
 
-Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] yields _[[modal type theory]]_. See there for more details
+Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] yields _[[modal type theory]]_. See there for more details.
 
 The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
 
 This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [HoTTBook, def. 7.7.5](#HoTTBook)).
+
+#### Notation
+ {#Notation}
+
+Typical notation is as follows: 
+
+* a co-modality represented by an [[idempotent comonad]]  is typically denoted by $\Box$ (following the traditional example of _[[necessity]]_)
+
+* a modality represented by an [[idempotent monad]] is typically denotes by $\bigcirc$ (following the traditional example of _[[possibility]]_)
+
+Also $\lozenge$ is used for a modality, in particular if it is [[left adjoint]] to a $\Box$.
+
+
+For instance for [[cohesion]] with [[shape modality]] $\dashv$ [[flat modality|flat comodality]] $\dashv$ [[sharp modality]] the generic notation would be
+
+$$
+  \array{
+     monad && comonad && monad
+     \\
+     \lozenge &\dashv& \Box &\dashv& \bigcirc
+     \\
+     &#643; &\dashv& \flat &\dashv& \sharp 
+  }
+$$
+
+
 
 ## Examples
 
