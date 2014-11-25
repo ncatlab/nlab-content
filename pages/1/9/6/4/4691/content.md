@@ -206,9 +206,10 @@ A characterization of [relative entropy](#RelativeEntropy) on finite-[[dimension
 
 A simple characterization of von Neumann entropy of [[density matrices]] (mixed [[quantum states]]) is discussed in 
 
-* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_ ([arXiv:1206.5727](http://arxiv.org/abs/1206.5727))
+* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_, [arXiv:1206.5727](http://arxiv.org/abs/1206.5727)
 
+Entropy-like quantities appear in the study of many PDEs, with entropy estimates. For an intro see
 
-
+* L. C. Evans, _A survey of entropy methods for partial differential equations_, [pdf](http://math.berkeley.edu/~evans/ams.entropy.pdf); (and longer course text:) _Entropy and partial differential equations_, [pdf](http://math.berkeley.edu/~evans/entropy.and.PDE.pdf)
 [[!redirects entropy]]
 [[!redirects entropies]]
