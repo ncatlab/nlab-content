@@ -1148,6 +1148,7 @@ $$
   \tilde \mathbf{H}(X,\mathbf{B}G) = \Pi(\mathbf{B}G^X) 
 $$
 
+
 is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms have the interpretaton of $G$-principal bundles on the cylinder $X \times I$. These are _[[concordance]]s of $\infty$-bundles._
 
 
@@ -2088,7 +2089,7 @@ Notice here that the axioms of cohesion imply in particular that the terminal ob
 
 In every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is an intrinsic notion of [[nonabelian cohomology|nonabelian]] [[de Rham cohomology]].
 
-+-- {: .num_defn}
++-- {: .num_defn #drFlatAnddRShape}
 ###### Definition
 
 For $X \in \mathbf{H}$ an object, write $\mathbf{\Pi}_{dR}X := * \coprod_X \mathbf{\Pi} X$
@@ -2125,10 +2126,12 @@ $$
 We also say $\flat_{dR}$ is the _[[dR-flat modality]]_ and $\Pi_{dR}$ is the _[[dR-shape modality]]_.
 
 
+
+
 +-- {: .num_prop #DeRhamAdjunction}
 ###### Proposition
 
-This construction yields a pair of [[adjoint (∞,1)-functor]]s 
+The construction in def. \ref{drFlatAnddRShape} yields a pair of [[adjoint (∞,1)-functors]] 
 
 $$
   (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} )
@@ -2246,8 +2249,9 @@ $$
 
 =--
 
+
 +-- {: .num_prop #TripleOfDeRhamAdjunctions}
-###### Observation
+###### Proposition
 
 If $\mathbf{H}$ is also [[local (∞,1)-topos|local]], then there is a further [[right adjoint]] $\mathbf{\Gamma}_{dR}$
 
@@ -2787,7 +2791,7 @@ $$
 
 In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with universal [[curvature characteristic form]]s.
 
-+-- {: .num_defn}
++-- {: .num_defn #MaurerCartanForm}
 ###### Definition
 
 For $G \in \mathbf{H}$ an [[∞-group]], write
@@ -2821,9 +2825,8 @@ We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 =--
 
 
-
-+-- {: .num_note}
-###### Note
++-- {: .num_remark}
+###### Remark
 
 By postcomposition the Maurer-Cartan form sends $G$-valued functions on $X$ to $\mathfrak{g}$-valued forms on $X$
 
@@ -2832,6 +2835,109 @@ $$
     \mathbf{H}^1_{dR}(X,G)
   \,.
 $$
+
+=--
+
+
++-- {: .num_remark #GActionOnGAndOndRFlatOfG}
+###### Remark
+
+For $G$ an [[∞-group]], there are canonical $G$-[[∞-actions]] on $G$ and on $\flat_{dR} \mathbf{B}G$. By the discussion at [[∞-action]] these are exhibited by the defining [[homotopy fiber sequences]]
+
+$$
+  \array{
+     G &\longrightarrow& \ast
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+and
+
+$$
+  \array{
+     \flat_{dR}\mathbf{B}G &\longrightarrow& \flat \mathbf{B}G
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G
+  }
+  \,,
+$$
+
+respectively, and they identify the [[homotopy quotients]] of the action as
+
+$$
+  \ast \simeq G/G
+$$
+
+and
+
+$$
+  \flat \mathbf{B}G \simeq (\flat_{dR}\mathbf{B}G)/G
+  \,,
+$$
+
+respectively.
+
+=--
+
++-- {: .num_remark #MaurerCartanFormIsGEquivariant}
+###### Proposition
+
+For $G$ an [[∞-group]], then the [[Maurer-Cartan form]] $\theta_G \colon G \to \flat_{dR}\mathbf{BG}$ of def. \ref{MaurerCartanForm} naturally carries [[equivariance]] structure with respect to the $G$-[[∞-actions]] of remark \ref{GActionOnGAndOndRFlatOfG}, hence the structure of a [[homomorphism]]/[[intertwiner]] of these [[∞-actions]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at _[[∞-action]]_ the equivariant structure in question is a morphism of the form
+
+$$
+  \array{
+    G/G &&\stackrel{\theta/G}{\longrightarrow}&& (\flat_{dR}\mathbf{B}G)/G
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+such that it induces $\theta \colon G \to \flat_{dR}\mathbf{B}G$ on [[homotopy fibers]]. 
+
+By remark \ref{GActionOnGAndOndRFlatOfG} the above diagram is equivalently
+
+$$
+  \array{
+    \ast &&\stackrel{\theta/G}{\longrightarrow}&& \flat\mathbf{B}G
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+There is an essentially unique horizontal morphism $\theta/G$ making this commute (up to homotopy). To see that this does induce the Maurer-Cartan form $\theta$ on homotopy fibers, notice that the morphism on homotopy fibers is the universal one from the total homotopy pullback diagram to the bottom homotopy pullback diagram labeled $\theta$ in
+
+$$
+  \array{
+    G && \longrightarrow && \ast
+    \\
+    & \searrow^{\mathrlap{\theta}} && && \searrow^{\mathrlap{\theta/G}}
+    \\
+    \downarrow && \flat_{dR}\mathbf{B}G && \longrightarrow && \flat \mathbf{B}G
+    \\
+    & \swarrow && && \swarrow   
+    \\
+    \ast && \longrightarrow && \mathbf{B}G
+  }
+$$
+
+The [[pasting law]] implies that also the top rectangle here, is a homotopy pullback, hence this identifies $\theta$ in this diagram indeed as the MC form.
 
 =--
 
@@ -2908,7 +3014,7 @@ consisting of
 
 * such that this intertwines the $G$-actions on $P$ and on $\flat_{dR}\mathbf{B}G$.
 
-In the model $\mathbf{H}$ = [[Smooth∞Grpd]] one finds that the last condition reduces indeed to that of an [[Ehresmann connection]] for $A$ on $P$ (this is discussed [here](smooth+infinity-groupoid+--+structures#FlatEhresmannConnections)). One of the two Ehresmann conditions is manifest alreadx abstractly: for every point $x : * \to X$ of base space, the restriction of $A$ to the fiber of $P$ over $X$ is the Maurer-Cartan form
+In the model $\mathbf{H}$ = [[Smooth∞Grpd]] one finds that the last condition reduces indeed to that of an [[Ehresmann connection]] for $A$ on $P$ (this is discussed [here](smooth+infinity-groupoid+--+structures#FlatEhresmannConnections)). One of the two Ehresmann conditions is manifest already abstractly: for every point $x : * \to X$ of base space, the restriction of $A$ to the fiber of $P$ over $X$ is the Maurer-Cartan form
 
 $$
   \theta : G \to P \stackrel{A}{\to} \flat_{dR} \mathbf{B}G
