@@ -35,6 +35,10 @@
 
 $$
   \array{
+     id & \dashv & id
+     \\
+     \vee && \vee
+     \\
      \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
      \\
       && \vee && \vee
