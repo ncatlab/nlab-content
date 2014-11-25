@@ -1,3 +1,39 @@
+
+$$
+  \array{
+    G && \longrightarrow && \ast
+    \\
+    & \searrow^{\mathrlap{\theta}} && && \searrow^{\mathrlap{\theta/G}}
+    \\
+    \downarrow && \flat_{dR}\mathbf{B}G && \longrightarrow && \flat \mathbf{B}G
+    \\
+    & \swarrow && && \swarrow   
+    \\
+    \ast && \longrightarrow && \mathbf{B}G
+  }
+$$
+
+$$
+  \array{
+    G && \longrightarrow && Z && \longrightarrow && \ast
+    \\
+    & \searrow^{\mathrlap{\theta_x}} && && \searrow^{\mathrlap{\underset{x\colon X}{\sum} \theta_x}}  && && \searrow^{\mathrlap{\theta/G}}
+    \\
+    \downarrow && \flat_{dR}\mathbf{B}G && \longrightarrow && && \longrightarrow && \flat \mathbf{B}G
+    \\
+    & \swarrow && && \swarrow && && \swarrow   
+    \\
+    \ast && \stackrel{x}{\longrightarrow} && X_1 && \stackrel{g}{\longrightarrow} && \mathbf{B}G
+  }
+$$
+
+
+***
+
+Somebody writes:
+
+***
+
 I want to touch two points concerning Lawvere's concept of [[Aufhebung]]:
  
 Let us briefly recall the definition given in the entry. Given a topos $\mathcal{B}$ define a level $i$ as an essential subtopos that is $i_!\dashv i^ *\dashv i_*:\mathcal{A}\to\mathcal{B}$ with $i_*$ fully faithful. This yields an [[adjoint modality]] $\lozenge_i\dashv \Box_i$ via $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$. A level $j$ is higher iff 
