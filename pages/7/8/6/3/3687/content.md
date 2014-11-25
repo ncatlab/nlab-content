@@ -90,7 +90,7 @@ The relation to [[T-duality]] was established in
 
 Further references include
 
-* C. Vafa, S-T. Yau editors, _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
+* [[Cumrun Vafa]], S-T. Yau editors, _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
 
 * K. Hori, S. Katz, A. Klemm et al. _Mirror symmetry I_, AMS, Clay Math. Institute 2003.
 
@@ -98,7 +98,7 @@ Further references include
 
 * Mark Gross, Bernd Siebert, _Mirror symmetry via logarithmic degeneration data I_, [math.AG/0309070](http://arxiv.org/abs/math/0309070), _From real affine geometry to complex geometry_, [math.AG/0703822](http://arxiv.org/abs/math/0703822), _Mirror symmetry via logarithmic degeneration data II_, [arxiv/0709.2290](http://arxiv.org/abs/0709.2290) 
 
-A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
+* [[Anton Kapustin]], [[Dmitri Orlov]], _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
 
 * Maxim Kontsevich, Yan Soibelman, _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
 
