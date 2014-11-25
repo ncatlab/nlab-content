@@ -67,6 +67,7 @@ Equivalently this means that $(i_! \dashv i^\ast) \colon \mathbf{H}_{th} \longri
 
 Conversely we will say that data as in def. \ref{InfinitesimalCohesiveInfTopos} equips the cohesive $\infty$-topos $\mathbf{H}$ with **differential cohesion**.
 
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -659,6 +660,7 @@ For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as w
 
 
 ##### Formally smooth/&#233;tale/unramified morphisms
+
  {#FormallySmoothEtaleUnramified}
 
 +-- {: .num_defn #FormalSmoothness}
@@ -767,7 +769,7 @@ Even more generally we can formulate formal smoothness in $\mathbf{H}_{th}$:
 +-- {: .num_defn #FormallyEtaleInHTh}
 ###### Definition
 
-A morphism $f \colon X \to Y$ in $\mathbf{H}_{th}$ is **formally &#233;tale** if it is $\mathbf{\Pi}_{inf}$-[[Pi-closed morphism|closed]], hence if its $\mathbf{\Pi}_{inf}$-unit naturality square
+A morphism $f \colon X \to Y$ in $\mathbf{H}_{th}$ is **[[formally etale morphism|formally étale]]** if it is $\mathbf{\Pi}_{inf}$-[[Pi-closed morphism|closed]], hence if its $\mathbf{\Pi}_{inf}$-unit naturality square
 
 $$
   \array{
@@ -1788,7 +1790,7 @@ An object $X \in \mathbf{H}$ is called a **cohesive [[étale ∞-groupoid]]** if
 
 Let $\mathbb{A}^1 \in \mathbf{H}$ be a canonical line object that exhibits the cohesion of $\mathbf{H}$ in the sense of _[structures in a differential infinity-topos -- A1 homotopy / The continuum](cohesive+%28infinity%2C1%29-topos+--+structures#A1HomotopyContinuum)_.
 
-+-- {: .num_defn }
++-- {: .num_defn #Manifold}
 ###### Definition
 
 An object $X \in \mathbf{H}$ is a **[[manifold]]** of [[dimension]] $n \in \mathbb{N}$ if there exists 
@@ -1811,6 +1813,132 @@ The first condition above makes $X$ an "unseparated" manifold. The second is a f
 
 For the moment see also at _[smooth manifold -- general abstract geometric formulation](smooth%20manifold#GeneralAbstractCharacterization)_
 
+#### $GL(n)$-principal tangent bundles
+ {#GLnTangentBundles}
+
+We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[tangent bundle]] classified by a morphism $X \to \mathbf{B}GL(n)$.
+
++-- {: .num_defn #FormalDiskBundle}
+###### Definition
+
+
+For $X$ any object in differential cohesion, its _infinitesimal disk bundle_ $T_{inf}X \to X$ is the [[homotopy pullback]]
+
+$$
+  \array{
+    T_{inf} X &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\longrightarrow& &#643;_{inf} X
+  }
+$$
+
+of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
+
+
+=-- 
+
++-- {: .num_lemma #EtalePullbackOfFormalDiskBundleIsFormalDiskBundle}
+###### Lemma
+
+If $\iota \colon \mathbb{A}^n \to X$ is a [[formally étale morphism]], def. \ref{FormallyEtaleInHTh}, then
+
+$$
+  \iota^\ast T_{inf} X \simeq T_{inf}\mathbb{A}^n
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the definition of formal &eacute;talness and using the [[pasting law]] we have an equivalence of [[pasting diagrams]] of [[homotopy pullbacks]] of the following form:
+
+$$
+  \array{
+     \iota^\ast T_{inf} X &\longrightarrow& T_{inf} &\longrightarrow& X
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \mathbb{A}^n &\longrightarrow& X &\longrightarrow& &#643;_{inf} X
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+      T_{inf} \mathbb{A}^n &\longrightarrow& \mathbb{A}^n &\longrightarrow& X
+       \\
+       \downarrow && \downarrow && \downarrow
+       \\
+       \mathbb{A}^n &\longrightarrow& &#643;_{inf} \mathbb{A}^n &\longrightarrow& &#643;_{inf} X
+  }
+$$
+
+
+=--
+
++-- {: .num_defn #RegularPatch}
+###### Definition
+
+We say that $\mathbb{A}^n$ is _regular_ ( _regularized_ ) if it has a trivializable (trivialized) formal disk bundle, def. \ref{FormalDiskBundle}, in that there is an object $\mathbb{D}^n \hookrightarrow \mathbb{A}^n$ -- the [[formal disk]] -- and a (chosen) [[equivalence]]
+
+$$
+  T_{inf} \mathbb{A}^n \simeq \mathbb{A}^n \times \mathbb{D}^n
+  \,.
+$$
+
+We write
+
+$$
+  GL(n) \coloneqq \mathbf{Aut}(\mathbb{D}^n)
+$$
+
+for the [[automorphism ∞-group]] of this [[formal disk]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, such that $\mathbb{D}^n$ is the first order infinitesimal neighbourhood of a point, then $\mathbf{Aut}(\mathbb{D}^n)$ indeed plays the role of the [[general linear group]]. When $\mathbb{D}^n$ is instead a higher order or even the whole [[formal neighbourhood]], then $GL(n)$ is rather a [[jet bundle|jet]]-version of that. We nevertheless stick with the notation "$GL(n)$" here.
+
+=--
+
+By lemma \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} it follows that:
+
++-- {: .num_prop #FormalDiskBundleOfRegularManifoldsTrivializesOverCover}
+###### Proposition
+
+For $X$ a manifold in the sense of def. \ref{Manifold}, such that it has an &eacute;tale atlas $\underset{i}{\coprod}\mathbb{A}^n\to X$ by regular patches, def. \ref{RegularPatch}, then its formal disk bundle canonically trivializes over its cover, i.e. there is a [[homotopy pullback]] of the form
+
+$$
+  \array{
+     \coprod_i \mathbb{A}^n \times D^n &\longrightarrow& T_{inf} X
+     \\
+     \downarrow && \downarrow
+     \\
+     \coprod_i \mathbb{A}^n &\longrightarrow& X
+  }
+  \,.
+$$
+
+This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^n$-[[fiber ∞-bundle]].
+
+=--
+
+By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniuely determined $\mathbf{Aut}(\mathbb{D}^n)$-[[principal ∞-bundle]]
+
++-- {: .num_defn}
+###### Definition
+
+Given a manifold $X$ with a regular &eacute;tale cover, then its $GL(n)$-principal tangent bundle is that given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover}.
+
+=--
+
+
+
 #### Flat $\infty$-connections and infinitesimal local systems
   {#StrucInfinitesimalLocalSystem}
 
@@ -1832,6 +1960,7 @@ $$
 (where $(\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is given by def. \ref{InfinitesimalPathsAndReduction}) is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
 
 =--
+
 
 +-- {: .num_note #CrystallineCohomology}
 ###### Note
