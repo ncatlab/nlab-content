@@ -43,6 +43,10 @@ This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda
 
 * A Kleisli object for a monad $t$ in $K$ can equivalently be defined as a particular sort of [[weighted limit|weighted]] [[2-colimit]], namely the [[lax colimit]] of the [[lax functor]] $\ast \to K$ corresponding to $t$.
 
+## Related
+
+* [[Eilenberg-Moore object]]
+
 ## References
 
 An original article is
