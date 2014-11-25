@@ -96,22 +96,26 @@ A [[localization of a category]] $\mathcal{B}$ with [[finite limits]] is a [[ref
 
 If $l\dashv r\dashv i$ is an essential localization then $l$ is also [[fully faithful functor|full and faithful]]. If $\mathcal{B}$ is a [[topos]], $\mathcal{A}$ is called an _[[essential geometric morphism|essential]] [[subtopos]]_ and we write $i_!\dashv i^*\dashv i_*$ in this case and call $i_!$ the _essentiality_.
 
-It is a result in Lawvere-Kelly (1989) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. Therefore we say:
+It is a result in ([Kelly-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. Therefore we say:
 
 +-- {: .num_defn #Level}
 ###### Definition 
 
-An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
+An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is referred to as a _[[level of a topos|level]]_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
 
 =--
 
 An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\lozenge _i\dashv\Box _i$ on $\mathcal{B}$, namely $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$.
 
-The [[modalities]] yield notions of _i-sheaf_ ([[modal type]]), namely those $X\in\mathcal{B}$ with $\Box _i X\simeq X$, and _i-skeleton_ : $\lozenge_i X\simeq X$.
+The [[modalities]] yield notions of _[[modal types]]_, which may be called
+
+* the _i-sheaves_ , $X\in\mathcal{B}$ with $\Box _i X\simeq X$ (following the terminology at _[[Lawvere-Tierney operator]]_);
+
+* the _i-skeleta_ : $\lozenge_i X\simeq X$ (following the example of [[simplicial skeleta]] discussed [below](#SimplicialAndCubicalSets)).
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
-([Lawvere 1989b](Law89b)).
+([Lawvere 1989b](#Law89b)).
 Let $i,j$ be levels, def. \ref{Level}, of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
 
 Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\lozenge_i=\lozenge _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
@@ -141,9 +145,17 @@ The former seems to be somewhat more consequently, as the Aufhebungs relation ex
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
-### The example of cubical sets
+### Simplicial and cubical sets
+ {#SimplicialAndCubicalSets}
+
+(...) [[simplicial set]] (...)
+
+
+[[simplicial skeleton]] $\dashv$ [[simplicial coskeleton]]
 
 (...) [[cubical set]] (...)
+
+([Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10))
 
 ### An open problem: the presheaf topos over non-empty finite sets
 
@@ -180,13 +192,14 @@ Further results on essential localizations can be found in the papers by [Borceu
 &#8206;
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
+
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
-* {#WdL} G. W. F. Hegel, _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
+* {#WdL} [[G. W. F. Hegel]], _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* {#KL89}[[G. M. Kelly]], F. W. Lawvere, _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
 * {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
@@ -217,9 +230,9 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-* [[F. W. Lawvere]], _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
+* {#Law09} [[F. W. Lawvere]], _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
 
-* {#Law13} F. W. Lawvere, _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
+* {#Law13} [[F. W. Lawvere]], _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 * {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
@@ -230,6 +243,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
+
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
