@@ -80,6 +80,8 @@ but
 
 * _[[Phenomenology of Spirit]]_
 
+* [[unity of opposites]], [[Aufhebung]]
+
 ## References
 
 * [[Paul Redding]],  _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
