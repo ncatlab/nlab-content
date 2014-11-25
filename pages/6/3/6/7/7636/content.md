@@ -453,6 +453,16 @@ with lecture notes in
 
 * {#Joyal14} [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
 
+Models specifically in ([[constructive set theory|constructive]]) [[cubical sets]] are discussed in
+
+* {#BezemCoquandHuber13} Marc Bezem, [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([web](http://drops.dagstuhl.de/opus/volltexte/2014/4628/), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf))
+
+* {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
+
+
+* {#Docherty14} Simon Docherty, _A model of type theory in cubical sets with connection_, 2014 ([pdf](http://www.illc.uva.nl/Research/Publications/Reports/MoL-2014-12.text.pdf))
+
+
 A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
@@ -470,6 +480,7 @@ Categorical semantics of [[univalence|univalent]] [[type universes]] is discusse
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
 
 Discussion of weak Tarskian homotopy type universes is in 
+
 
 * {#Gallozzi14} [[Cesare Gallozzi]], _Constructive Set Theory from a Weak Tarski Universe_, MSc thesis (2014) ([[GalloziCSTTarski.pdf:file]])
 
