@@ -26,7 +26,7 @@ Graduate-level courses on abstract algebra, differential geometry and topology. 
 
 ### Plan of Talks ###
 
-We initiated the first 4 talks, which give a gentle introduction to the topic. The future talks will be the on more specific developments. 
+We initiated the first several talks, which give a gentle introduction to the topic. The future talks will be the on more specific developments. 
 
 * Oct. 21, 2014: Organization meeting. Why factorization algebra is interesting, and a brief account on the introduction chapter of Costello-Gwilliam (CG).
 
@@ -34,11 +34,13 @@ We initiated the first 4 talks, which give a gentle introduction to the topic. T
 
 * Nov. 11, 2014: Continuation of Chenchang's prefactorization algebra: a description of quantum observables in free field theory through divergence operator, and a construction of $\mathcal{U}(\mathfrak{g})$. CG: Chap 2-3.
 
-* Nov. 18, 2014: Examples of prefactorization algebras from field theories by Thomas. CG: Chap 4-5.
+* Nov. 18, 2014: Examples of prefactorization algebras from field theories by Thomas. A finite dimensional analogy --- the divergence complex of a measure, Koszul resolution of the derived critical locus, and the relation to the Chevalley-Eilenberg complex of Heisenberg Lie algebra.  CG: Chap 4.1-4.2.
 
-* Nov. 25, 2014: An introduction to operads by Malte. LV: Part 2.
+* Nov. 25, 2014: Continuation of free field theory by Thomas. CG: Chap 4.
 
-* Dec. 2, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
+* Dec. 2, 2014: An introduction to operads by Malte. LV: Part 2.
+
+* Dec. 9, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
 
 
 
