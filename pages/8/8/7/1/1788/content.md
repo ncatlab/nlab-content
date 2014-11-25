@@ -13,7 +13,7 @@ $j$ resolves $i$ if furthermore $ \Box_j\lozenge_i = \lozenge_i$ and $j$ is the 
  
 1. The first point which suggests that there might be something wrong here (at least in my understanding) is that this appears to imply that a quintessential localization aka [[quality type]] where $i_!\simeq i_*$ is his own Aufhebung as then $\lozenge_i\simeq\Box_i$ whence $\Box_i\lozenge_i=\lozenge_i\lozenge_i=\lozenge_i$. 
  
-  This is somewhat puzzling because Lawvere in (1991, p.10) asks for the Aufhebung of a level that is an quality type and also the Aufhebung operator computed in Kennett-Riehl-Roy-Zaks for some homotopical cats does have no fix points implying e.g. that sSet has no quintessential localizations. So there probably is a bug here!?
+   This is somewhat puzzling because Lawvere in (1991, p.10) asks for the Aufhebung of a level that is an quality type and also the Aufhebung operator computed in Kennett-Riehl-Roy-Zaks for some homotopical cats does have no fix points implying e.g. that sSet has no quintessential localizations. So there probably is a bug here!?
  
  
 2. The second point is related to Mike's quest in a recent thread to deconstruct the modalities internally. Taking a look at Urs' table for [[differential cohesion]] and rearranging a bit :
