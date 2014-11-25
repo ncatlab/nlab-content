@@ -413,6 +413,10 @@ A direct and general formula for the deformation quantization of any Poisson man
 
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
 
+A popular exposition of this is in 
+
+* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ ([online slides](https://dl.dropboxusercontent.com/u/12796267/kapustin-talk.swf))
+
 The classification of the space of such formal deformation quantization is discussed in 
 
 * [[Vasily Dolgushev]], _Stable Formality Quasi-isomorphisms for Hochschild Cochains I_ ([arXiv:1109.6031](http://arxiv.org/abs/1109.6031))
@@ -457,7 +461,7 @@ which is about [[quantization via the A-model]].
 
 The formulation of deformation quantization as lifts from [[P-n operads]] over [[BD-n operads]] to [[E-n operads]] is discussed in section 2.3 and 2.4 of
 
-*[[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  {#CostelloGwilliam}
 
 
