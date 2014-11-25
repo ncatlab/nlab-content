@@ -302,6 +302,10 @@ An axiomatization of cubical sets in [[constructive set theory]]/[[type theory]]
 
 * {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
 
+* {#Docherty14} Simon Docherty, _A model of type theory in cubical sets with connection_, 2014 ([pdf](http://www.illc.uva.nl/Research/Publications/Reports/MoL-2014-12.text.pdf))
+
+For more on this see at _[[relation between category theory and type theory]]_.
+
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
 
 * {#Jardine02} [[Rick Jardine]], _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
