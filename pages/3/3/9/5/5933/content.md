@@ -30,7 +30,7 @@ A closely related text is _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_.
 
 The article is written in a style typical for Lawvere, where precise general abstract [[category theory|category theoretic]] and [[topos theory|topos theoretic]] situations are discussed more in prose than in the usual style of mathematical writing. The thoughts revolve around a topic that Lawvere takes up in various later articles, which are all listed in the References-section at _[[cohesive topos]]_. In the following we try to illuminate what the article here is saying. Of course such an _exegesis_ may or may not accurately reflect some of the original author's actual intentions.
 
-Pages 6 to 8 in section II of the text is to a large extent a proposal that there is a useful formalization of the [[unity of opposites]] and their "Aufhebung" that govern's [[Georg Hegel]]'s [[metaphysics]] as laid out in his _[[Science of Logic]]_. The proposal is that a "determination of [[being]] and [[becoming]]" is expressed by an [[adjoint modality]]. The tautological example $(\emptyset \dashv \ast)$ is "pure being" and refinements thereof such as $(\flat \dashv \sharp)$ ([[flat modality]] $\dashv$ [[sharp modality]]) characterize more determinate ways of entities to be.
+Pages 6 to 8 in section II of the text is to a large extent a proposal that there is a useful formalization of the [[unity of opposites]] and their "[[Aufhebung]]" that govern's [[Georg Hegel]]'s [[metaphysics]] as laid out in his _[[Science of Logic]]_. The proposal is that a "determination of [[being]] and [[becoming]]" is expressed by an [[adjoint modality]]. The tautological example $(\emptyset \dashv \ast)$ is "pure being" and refinements thereof such as $(\flat \dashv \sharp)$ ([[flat modality]] $\dashv$ [[sharp modality]]) characterize more determinate ways of entities to be.
 
 
 Specifically, the notion of a **[[category of being]]** that Lawvere discusses (following terminology in [[Hegel|Hegel's]] _[[Science of Logic]]_) in _Some Thoughts on the Future of Category Theory_ is the notion that more recently he has been calling a _category of cohesion_ . The following tries to illuminate a bit what's going on .
@@ -85,7 +85,6 @@ Again, the meaning of this becomes more pronounced in the context of [[cohesive 
 
 More discussion of all this is at [[schreiber:differential cohomology in a cohesive topos]].
 
-> to be mentioned: material related to the concept of [[level of a topos]]
 
 ## Related entries
 
