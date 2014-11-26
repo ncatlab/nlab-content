@@ -49,7 +49,7 @@ $$
   }
 $$
 
-formalizes a more "determinate" [[being]] ( _[[Dasein]]_ , _F&#252;rsichsein_ in the language of ([Hegel 12](#Hegel12))). 
+formalizes a more "determinate" [[being]] ( _[[Dasein]]_ , _F&#252;rsichsein_ in the language of ([Hegel 12](#Hegel12))). See also at _[[Aufhebung]]_.
 
 
 ## Definition
