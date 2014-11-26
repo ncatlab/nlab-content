@@ -85,6 +85,8 @@ Again, the meaning of this becomes more pronounced in the context of [[cohesive 
 
 More discussion of all this is at [[schreiber:differential cohomology in a cohesive topos]].
 
+> to be mentioned: material related to the concept of [[level of a topos]]
+
 ## Related entries
 
 18 years later at the same place, Lawvere gives a lecture series on this topic: _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_.
