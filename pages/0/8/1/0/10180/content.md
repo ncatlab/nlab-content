@@ -14,10 +14,26 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 The [[classifying topos]] $\mathcal{S}[\mathbb{O}]$ for the [[theory of objects]] $\mathbb{O}$, or the **object classifier**, as it is also called[^termin], is  the [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]].
 
 What motivates the terminology, is that for any [[topos]] $E$, [[geometric morphisms]] $E \to \mathcal{S}[\mathbb{O}]$ correspond to [[objects]] of $E$.
+
+This is because by [a standard fact](morphism+of+sites#LemmaForClassifyingToposes) [[geometric morphisms]]
+
+$$
+  E \to PSh(FinSet^{op})
+$$
+
+are equivalent to [[morphisms of sites]]
+
+$$
+  E \leftarrow FinSet^{op}
+$$
+
+hence to [[finite limit]]-preserving such [[functors]]. Since finite limits in $FinSet^{op}$ are [[finite colimits]] in [[FinSet]] and since $FinSet$ is generated under finite colimits from the singleton set $\ast$, such functors are uniquely determined by their image of $\ast$, hence by a choice of object in $E$.
+
 
 [^termin]: As this is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]], we prefer to call it in full the _classifying topos for the theory of objects_.
 
@@ -25,7 +41,18 @@ What motivates the terminology, is that for any [[topos]] $E$, [[geometric morph
 
 The construction is due to [[Gavin Wraith]] and constituted an important step towards the general theorem on the existence of [[classifying topos|classifying toposes]] for geometric theories in the early development of [[topos theory]].
 
+Similarly 
+
+* $PSh(FinSet_\ast^{op})$ is the classifying topos for [[pointed objects]].
+
+* write $Fin\infty Grpd$ for the [[full sub-(∞,1)-category]] on [[∞Grpd]] which is generated under [[finite (∞,1)-colimits]] from the point $\ast$ ([[Higher Algebra|HA, def. 1.4.2.8]]), then the [[(∞,1)-presheaf (∞,1)-topos]] $PSh_\infty(Fin\infty Grpd^{op})$ is the [[classifying (∞,1)-topos]] for objects;
+
+* write $Fin\infty Grpd_\ast$ for pointed finite $\infty$-groupoids in this sense, then $PSh_\infty((Fin\infty Grpd_\ast)^{op})$ is the classifying $(\infty,1)$-topos for pointed objects. See also at _[[spectrum object]]_ _[via excisive functors](spectrum%20object#ViaExcisiveFunctors)_.
+
+
 ## Properties
+
+### Generic object
 
 The _generic_ or **universal object** $U$ is the inclusion $FinSet\hookrightarrow Set$: every object $X$ of $E$ arises from some geometric morphism $f$ as $X\cong f^\ast(U)$.[^ultra]
 
