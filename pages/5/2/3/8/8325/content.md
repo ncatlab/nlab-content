@@ -94,3 +94,4 @@ category: people
 [[!redirects Georg Wilhelm Hegel]]
 [[!redirects Georg Hegel]]
 [[!redirects Hegel]]
+[[!redirects G. W. F. Hegel]]
