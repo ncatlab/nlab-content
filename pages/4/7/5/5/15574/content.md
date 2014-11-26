@@ -40,7 +40,7 @@ In his quest to [[axiom|axiomatize]] the concepts of [[space]] and [[cohesion]],
 
 ##_Aufhebung_ in Hegel's 'Wissenschaft der Logik'
 
-Although the two volumes of _'Wissenschaft der Logik'_ -- [[Science of Logic]] (1st ed. 1812-1816) can be considered as one of the main texts of [[Hegel]]'s philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby cutting the social thought from its broad foundation in [[ontology]] and [[logic]], whereas the [[natural philosophy|natural philosophical]] tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
+Although the two volumes of _'[[Science of Logic|Wissenschaft der Logik]]'_  (1st ed. 1812-1816) can be considered as one of the main texts of [[Hegel]]'s philosophy they fell into disfavour in the second half of the 19th century and most of the 20th century, and accordingly received much less attention than the 'Ph&#228;nomenologie des Geistes' or the 'Rechtsphilosophie'. They shared this fate with Hegelian philosophy as a whole which apart from the philological interest it generated, was continued only through the political wing of Lefthegelianism which in either its existentialist interpretation by A. Koj&#232;ve or its Marxist interpretation by G. Luk&#225;cs openly rejected the concept of objective dialectics in nature thereby cutting the social thought from its broad foundation in [[ontology]] and [[logic]], whereas the [[natural philosophy|natural philosophical]] tradition in the vein of F. Engels petrified to the doctrines of dialectical materialism. 
 
 The 'Wissenschaft der Logik' has to be viewed against the background of philosophy in the early 19th century: **Kant** had embarked on a project of 'refoundation', or rather demolition, of [[metaphysics]] from an epistemological perspective and this project had been pushed further by his followers especially Fichte in his _Wissensschaftslehre_. However critical these [[idealism|idealist]] systems had been to the claims of traditional metaphysics and epistemology they all left the traditional logic untouched and in this respect fell behind Leibniz. It is at this point where Hegel starts: he sets out to extend the critical examination of the foundations of knowledge to logic itself.
 
@@ -172,11 +172,24 @@ The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton i
 
 ## Examples
 
-### Becoming
+### Aufhebung of Becoming
 
 #### From Faust's study
 
-In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _non being_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ ([[flat modality]] $\dashv$ [[sharp modality]]) between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+In the context of a **[[category of being]]**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition 
+
+$$
+  \empty\dashv \ast
+$$ 
+
+between _[[nothing|non being]]_ (the [[idempotent comonad]] constant on the [[initial object]]) and _[[being|pure being]]_ (the idempotent comonad constant in the [[terminal object]]) whose Aufhebung is (at least in suitable cases, see [below](#ExamplesBecomingFormalization)) the [[unity of opposites|opposition]] of [[becoming]]
+
+$$ 
+  \flat\dashv \sharp
+$$ 
+
+given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a, 1989b, [1991a](#Law91a)).
+
 
 This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
 
@@ -186,13 +199,15 @@ The former seems to be somewhat more consequently, as the Aufhebungs relation ex
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
-#### Formalization
+#### Over cohesive sites
  {#ExamplesBecomingFormalization}
+
+We discuss Aufhebung of [[becoming]] in the above sense in [[cohesive toposes]] ([[cohesive (∞,1)-toposes]]) with a [[cohesive site]] ([[∞-cohesive site]]) of definition.
 
 +-- {: .num_prop #AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}
 ###### Proposition
 
-Given a [[topos]] equipped with an [[adjoint modality]] $\flat \dashv \sharp$, then the condition $\sharp \emptyset \simeq \emptyset$ is equivalent to $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$.
+Given a [[topos]] equipped with a a [[level of a topos]] given by an [[adjoint modality]] $(\Box\dashv \bigcirc) \coloneqq (\flat \dashv \sharp)$, then the condition $\sharp \emptyset \simeq \emptyset$ is equivalent to $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$.
 
 =--
 
@@ -250,7 +265,16 @@ Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$, hence that $(\
 +-- {: .proof}
 ###### Proof
 
-By assumption $\mathcal{S}$ has a [[terminal object]] $\ast$ so that $\flat X \simeq X(\ast)$. Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
+The [[flat modality]] $\flat$ in this case is given by forming global sections and embedding the result set as a constant presheaf, which here is already a sheaf.
+
+Since by assumption $\mathcal{S}$ has a [[terminal object]] $\ast$, it follows that for $X\in \mathbf{H}$ any sheaf $X \colon \mathcal{S}^{op}\to Set$ then
+
+$$
+  \flat X \simeq X(\ast)
+  \,.
+$$ 
+
+Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
 
 =--
 
@@ -266,7 +290,46 @@ Then in $\mathbf{H}$ we have Aufhebung, def. \ref{Aufhebung}, of the [[duality o
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sharp)$ resolves $(\emptyset \dashv \ast)$ and so it remains to see that it is the minimal [[level of a topos|level]] with this property. But the [[subtopos]] of [[sharp modality|sharp]]-[[modal types]] is $\simeq$ [[Set]] which is clearly a 2-valued [[Boolean topos]]. By [this proposition](subtopos#BooleantoposesAreAtoms) these are the [[atoms]] in the [[subtopos lattice]] hence are minimal as subtoposes and hence also as [[level of a topos|levels]].
+By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sharp)$ resolves $(\emptyset \dashv \ast)$ and so it remains to see that it is the minimal [[level of a topos|level]] with this property. But the [[subtopos]] of [[sharp modality|sharp]]-[[modal types]] is $\simeq$ [[Set]] which is clearly a 2-valued [[Boolean topos]]. By [this proposition](subtopos#BooleantoposesAreAtoms) these are the [[atoms]] in the [[subtopos lattice]] hence are minimal as non-trivial subtoposes and hence also as non-trivial [[level of a topos|levels]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Examples of $\infty$-toposes satisfying the assumptions of prop. \ref{OverCohesiveSiteBecomingIsAufgehoben} and hence exhibiting Aufhebung of becoming include
+
+* [[∞-groupoids]]
+
+* [[Euclidean-topological ∞-groupoids]]
+
+* [[smooth ∞-groupoids]]
+
+* [[formal smooth ∞-groupoids]]
+
+* [[super ∞-groupoids]]
+
+* [[smooth super ∞-groupoids]]
+
+Here [[formal smooth ∞-groupoid]] has its [[cohesion]] further refined to [[differential cohesion]], yielding
+
+$$
+  \array{
+     id & \dashv & id
+     \\
+     \vee && \vee
+     \\
+     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
+     \\
+      && \vee && \vee
+     \\
+     && &#643; &\dashv& \flat &\dashv& \sharp
+     \\
+     && && \vee &\nearrow& \vee
+     \\
+     && && \emptyset &\dashv& \ast
+  }
+$$
 
 =--
 
@@ -321,7 +384,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
-* {#WdL} [[G. W. F. Hegel]], _Wissenschaft der Logik I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
+* {#WdL} [[G. W. F. Hegel]], _[[Science of Logic|Wissenschaft der Logik]] I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
@@ -333,9 +396,9 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
+* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Ioowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* {#Law91a} [[F. W. Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
 
 * {#Law91b} [[F. W. Lawvere]], _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
