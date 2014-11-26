@@ -21,10 +21,10 @@
 
 ## Idea
 
-To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconformal field theory]] $SCFT(X)$. There is at least for some CY $X$ a map $X \mapsto \hat X$ which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
+To every complex 3-dimensional [[Calabi-Yau variety]] $X$ are associated two similar but differing typesof [[sigma-model]] $N=2$-supersymmetric [[2d CFTs]]. There is at least for some CY $X$ a map $X \mapsto \hat X$ which exchanges the [[Hodge numbers]] $h^{1,1}$ and $h^{1,2}$ such that $SCFT_A(X)$ is expected to be equivalent to $SCFT_B(\hat X)$. 
 
 $$
-  SCFT(X) \simeq SCFT(\hat X)
+  SCFT_A(X) \simeq SCFT_B(\hat X)
   \,.
 $$
 
