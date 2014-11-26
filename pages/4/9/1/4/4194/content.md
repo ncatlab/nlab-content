@@ -1,3 +1,5 @@
+> see at _[[Lie-Poisson structure]]_ for more
+
 The dual of a finite-dimensional [[Lie algebra]] has a natural [[Poisson structure]] of Kirillov-Kostant-Souriau which is called the __linear Poisson structure__. Its symplectic leaves are precisely the [[coadjoint orbits]]. The geometric quantization of linear Poisson structures is important in the representation theory; the corresponding star products are important basic examples in the study of deformation quantization.
 
 * Kostant
