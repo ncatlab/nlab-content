@@ -24,7 +24,7 @@
 [[!redirects aufhebung]]
 [[!redirects Aufhebungs relation]]
 [[!redirects jump operator]]
-
+[[!redirects sublation]]
 
 ## Idea
 
@@ -172,7 +172,8 @@ The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton i
 
 ## Examples
 
-### Aufhebung of Becoming
+### Aufhebung of Becoming -- Determinate being
+ {#AufhebungOfBecoming}
 
 #### From Faust's study
 
@@ -188,7 +189,7 @@ $$
   \flat\dashv \sharp
 $$ 
 
-given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a, 1989b, [1991a](#Law91a)).
+given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a, 1989b, [1991a](#Law91a)). This is what in [SoL &#167; 191](Science+of+Logic#DaseinUberhaupt) is called _[[determinate being]]_.
 
 
 This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
@@ -265,14 +266,15 @@ Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$, hence that $(\
 +-- {: .proof}
 ###### Proof
 
-The [[flat modality]] $\flat$ in this case is given by forming global sections and embedding the result set as a constant presheaf, which here is already a sheaf.
+The [[flat modality]] $\flat$ in this case is given by forming [[global sections]] and re-embedding the resulting [[set]] as a [[constant sheaf]].
 
 Since by assumption $\mathcal{S}$ has a [[terminal object]] $\ast$, it follows that for $X\in \mathbf{H}$ any sheaf $X \colon \mathcal{S}^{op}\to Set$ then
 
 $$
   \flat X \simeq X(\ast)
-  \,.
 $$ 
+
+(where we may leave the constant re-embedding implicit, due to it being [[fully faithful functor|fully faithful]]).
 
 Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
 
@@ -439,3 +441,4 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
 * {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+
