@@ -25,6 +25,8 @@ According to _[[Science of Logic]]_, the [[unity of opposites|opposite]] of [[be
 
 * [[empty type]], [[empty set]]
 
+* [[Aufhebung]]
+
 * [[vacuum]]
 
 ## References
