@@ -15,9 +15,16 @@
 
 ## Idea
 
-A school of [[philosophy]] emphasizing clarity of argument, [[formal logic]], and aiming for strong connections with natural [[sciences]] such as [[physics]]. 
 
-Analytic philosophy to some extent defined itself, via people like [[Bertrand Russell]], in opposition to the [[objective idealism]] of [[Georg Hegel]] as expressed for instance in his _[[Science of Logic]]_. See at _[Perception of Hegel's Naturphilosophie](http://ncatlab.org/nlab/show/Georg+Hegel#PerceptionOfHegelsPhilosophy)_ for more on this.
+_Analytic philosophy_ is a school of [[philosophy]] emphasizing clarity of argument, [[formal logic]], and aiming for strong connections with natural [[sciences]] such as [[physics]]. 
+
+Analytic philosophy to some extent defined itself, via people like [[Bertrand Russell]], in opposition to the [[objective idealism]] of [[Georg Hegel]] as expressed for instance in his _[[Science of Logic]]_. See at _[Perception of Hegel's Naturphilosophie](Georg+Hegel#PerceptionOfHegelsPhilosophy)_ for more on this.
+
+Specifically, following [[Ludwig Wittgenstein]], analytic philosophy aims to formalize philosophical argument in terms of [[first-order logic]]. 
+
+**Remark.** While indeed [[first-order logic]] has little to no resemblance to [[Science of Logic|Hegel's logic]], for its refinement by [[type theory]] in the guise of [[modal type theory]] the situation is quite different. [[William Lawvere]] has argued that key aspects of [[Science of Logic|Hegel's logic]] do have a useful formulization in [[modal type theory]] (Lawvere mostly considered this in the corresponding [[categorical semantics]]). Lawvere's formalization of Hegel's concepts of _[[unity of opposites]]_, _[[Aufhebung]]_, _[[category of being]]_ etc. lead to non-trivial [[theorems]] in the [[foundations of mathematics]] and for the [[geometry of physics]]. 
+
+
 
 ## References
 
