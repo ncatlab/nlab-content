@@ -17,7 +17,7 @@
 
 ## Definition
 
-On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence with extra [[full and faithful (infinity,1)-functor|fully faithful]] [[right adjoint]] $coDisc$ to the [[global section geometric morphism]] $(Disc \dashv \Gamma)$, is canonically induced the [[idempotent monad|idempotent]] [[comonad]] $\flat \coloneqq Disc\circ \Gamma$. This [[modality]] sends for instance pointed [[connected]] objects $\mathbf{B}G$ to [[coefficients]] $\flat \mathbf{B}G$ for [[flat principal ∞-connections]], and may therefore be referred to as the _flat modality_. It is itself the [[left adjoint]] in an [[adjoint modality]] with the [[sharp modality]] $\sharp \coloneqq coDisc \circ \Gamma$. If $\mathbf{H}$ is in addition a [[cohesive (∞,1)-topos]] then it also the [[right adjoint]] in an [[adjoint modality]] with the [[shape modality]] $\int$.
+On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence with extra [[full and faithful (infinity,1)-functor|fully faithful]] [[right adjoint]] $coDisc$ to the [[global section geometric morphism]] $(Disc \dashv \Gamma)$, is canonically induced the [[idempotent monad|idempotent]] [[comonad]] $\flat \coloneqq Disc\circ \Gamma$. This [[modality]] sends for instance pointed [[connected]] objects $\mathbf{B}G$ to [[coefficients]] $\flat \mathbf{B}G$ for [[flat principal ∞-connections]], and may therefore be referred to as the _flat modality_. It is itself the [[left adjoint]] in an [[adjoint modality]] with the [[sharp modality]] $\sharp \coloneqq coDisc \circ \Gamma$. If $\mathbf{H}$ is in addition a [[cohesive (∞,1)-topos]] then it is also the [[right adjoint]] in an [[adjoint modality]] with the [[shape modality]] $\int$.
 
 ## Properties
 
