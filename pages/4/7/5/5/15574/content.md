@@ -115,10 +115,51 @@ The [[modalities]] yield notions of _[[modal types]]_, which may be called
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
-([Lawvere 1989b](#Law89b)).
-Let $i,j$ be levels, def. \ref{Level}, of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
+([Lawvere 1989b](#Law89b))
 
-Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\bigcirc _j\Box _i=\Box _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+Let $i,j$ be [[level of a topos|levels]], def. \ref{Level}, of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$, written 
+
+$$
+  \array{
+    \Box_i &\leq& \Box_j
+    \\
+    \bot && \bot
+    \\
+    \bigcirc_i &\leq& \bigcirc_j 
+  }
+$$
+
+(or $i\leq j$ for short) when every i-sheaf ($\bigcirc_i$-[[modal type]]) is also a j-sheaf and every i-skeleton ($\Box_i$-[[modal type]]) is a j-skeleton.
+
+Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$, written
+
+$$
+  \array{
+    \Box_i &\ll& \Box_j
+    \\
+    \bot && \bot
+    \\
+    \bigcirc_i &\ll& \bigcirc_j 
+  }
+$$
+
+
+(or just $i\ll j$ for short) if $\bigcirc _j\Box_i=\Box _i$. 
+
+Finally a [[level of a topos|level]] $\bar{i}$ is called the _Aufhebung_ of level $i$ 
+
+$$
+  \array{
+    \Box_i &\ll& \Box_{\bar i}
+    \\
+    \bot &\searrow& \bot
+    \\
+    \bigcirc_i &\ll& \bigcirc_{\bar i} 
+  }
+$$
+
+
+iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
 
 =--
 
@@ -197,10 +238,12 @@ and hence by the [[Yoneda lemma]] $\emptyset \simeq \sharp \emptyset$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #OverCohesiveSiteBecomingIsResolved}
 ###### Proposition
 
-Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf{H} = Sh(\mathcal{S})$ its [[cohesive topos|cohesive]] [[sheaf topos]] (or $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]] ). Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$.
+Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf{H} = Sh(\mathcal{S})$ its [[cohesive topos|cohesive]] [[sheaf topos]] (or $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]] ). 
+
+Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$, hence that $(\flat \dashv \sharp)$ resolves, def. \ref{Aufhebung},  the [[unity of opposites]] $(\emptyset \dashv \ast)$ which is [[becoming]].
 
 =--
 
@@ -210,6 +253,23 @@ Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf
 By assumption $\mathcal{S}$ has a [[terminal object]] $\ast$ so that $\flat X \simeq X(\ast)$. Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
 
 =--
+
++-- {: .num_prop #OverCohesiveSiteBecomingIsAufgehoben} 
+###### Proposition
+
+Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf{H} = Sh(\mathcal{S})$ its [[cohesive topos|cohesive]] [[sheaf topos]] with values in [[Set]] (or $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]] ). 
+
+Then in $\mathbf{H}$ we have Aufhebung, def. \ref{Aufhebung}, of the [[duality of opposites]] of [[becoming]] $\emptyset \dashv \ast$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sharp)$ resolves $(\emptyset \dashv \ast)$ and so it remains to see that it is the minimal [[level of a topos|level]] with this property. But the [[subtopos]] of [[sharp modality|sharp]]-[[modal types]] is $\simeq$ [[Set]] which is clearly a 2-valued [[Boolean topos]]. By [this proposition](subtopos#BooleantoposesAreAtoms) these are the [[atoms]] in the [[subtopos lattice]] hence are minimal as subtoposes and hence also as [[level of a topos|levels]].
+
+=--
+
 
 ### Simplicial and cubical sets
  {#SimplicialAndCubicalSets}
