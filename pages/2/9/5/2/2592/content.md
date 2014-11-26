@@ -68,7 +68,7 @@ In the unstable range for low $n$ they instead start out as follows (e.g. [Abano
 | $SO(5)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |
 | $SO(6)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | 0 |
 
-The last row can be found using [Mimura and Toda](http://projecteuclid.org/euclid.kjm/1250524818), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-covering space of $SO(6)$.
+The last row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$.
 
 ### Homology and cohomology 
 
@@ -118,6 +118,8 @@ The [[homotopy groups]] of $O(n)$ are listed for instance in
 
 * {#Abanov09} Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
   
+* {#MimuraToda63} M. Mimura H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
+
 The [[ordinary cohomology]] and [[ordinary homotopy]] of the manifolds $SO(n)$ is discussed in 
 
 * {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
