@@ -25,6 +25,22 @@ A **Poisson Lie group** (often written Poisson-Lie group) or Lie Poisson group $
 
 **Warning**: the inverse map is NOT a Poisson map unless G has the trivial Poisson structure, in fact it is an anti-Poisson map.
 
+
+[[deformation quantization|Deformation quantizations]] of Poisson Lie groups are [[Hopf algebras]]. The usual [[quantum groups]] have smaller number of quantum subgroups (i.e. Hopf quotient algebras) than the corresponding Lie group has, namely only only those whose classical limits are not only Lie subgroups but Poisson Lie subgroups. 
+
+## Properties
+
+### Relation to quantum groups
+
+One can regard Poisson groups as the [[classical limit]] of [[quantum groups]]: a theorem by Drinfeld established a [[bijection]] between connected, simply connected Poisson Lie groups and [[Lie bialgebras]]. 
+
+## Examples
+
+### Additive Poisson Lie groups
+ {#AdditivePoissonLieGroups}
+
+A [[Lie-Poisson structure]] is an additive Poisson Lie group (e.g. [Kosmann-Schwarzbach 04, p. 46](#KosmannSchwarzbach04)).
+
 If $H$ is any (finite dimensional) Lie group then the dual $(T_e H)^*$ of its [[tangent Lie algebra]] has a canonical bracket introduced by Kirillov which makes it into a Poisson Lie group. To this aim one identifies $(T_e H)^*$ with its own tangent space $T_u (T_e H)^*$ and interprets the differential $df$ of a function $f:(T_e H)^*\to \mathbb{R}$ as a function $(T_e H)^*\to ((T_e H)^*)^*\cong T_e H$ where the finite dimensionality is used. Then Kirillov defines
 
 $$
@@ -32,14 +48,6 @@ $$
 $$
 
 Given two Lie groups $H,K$, the Lie algebra homomorphisms $T_e H \to T_e K$ are in 1-1 correspondence with the Poisson Lie maps $(T_e K)^* \to (T_e H)^*$. 
-
-Deformation quantizations of Poisson Lie groups are Hopf algebras. The usual [[quantum groups]] have smaller number of quantum subgroups (i.e. Hopf quotient algebras) than the corresponding Lie group has, namely only only those whose classical limits are not only Lie subgroups but Poisson Lie subgroups. 
-
-## Properties
-
-### Relation to quantum groups
-
-One can regard Poisson groups as the [[classical limit]] of [[quantum groups]]: a theorem by Drinfeld established a [[bijection]] between connected, simply connected Poisson Lie groups and [[Lie bialgebras]]. 
 
 
 ## Related concepts
@@ -60,7 +68,11 @@ One can regard Poisson groups as the [[classical limit]] of [[quantum groups]]: 
 * T. Tao's blog: [The Euler-Arnold equation](http://terrytao.wordpress.com/2010/06/07/the-euler-arnold-equation) 
 * [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
-* Yvette Kosmann-Schwarzbach, _Groupes de Lie-Poisson quasitriangulaires_, in:  G&#233;om&#233;trie symplectique et m&#233;canique (La Grande Motte, 1988),  161--177, Springer LNM __1416__, 1990.
+
+* [[Yvette Kosmann-Schwarzbach]], _Groupes de Lie-Poisson quasitriangulaires_, in:  G&#233;om&#233;trie symplectique et m&#233;canique (La Grande Motte, 1988),  161--177, Springer LNM __1416__, 1990.
+
+* {#KosmannSchwarzbach04} [[Yvette Kosmann-Schwarzbach]], _Lie bialgebras, Poisson Lie groups and dressing transformations_, in _Integrability of Nonlinear Systems_, Second edition, Lecture Notes in Physics 638, Springer-Verlag, 2004, pp. 107-173. ([pdf](http://www.math.polytechnique.fr/cmat/kosmann/lnp2.pdf))
+
 * A. G. Reyman, _Poisson structures related to quantum groups_, in: Quantum groups and their applications in physics (Varenna, 1994), 407--443,
 Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:58052](http://www.ams.org/mathscinet-getitem?mr=97j:58052)
 * Nicola Ciccoli, _Quantization of co-isotropic subgroups_, Lett. Math. Phys. __42__(1997), no. 2, 123--138, [doi](http://www.ams.org/leavingmsn?url=http://dx.doi.org/10.1023/A:1007352218739), [MR98k:58252](http://www.ams.org/mathscinet-getitem?mr=98k:58252)
