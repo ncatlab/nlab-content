@@ -66,6 +66,9 @@ In the unstable range for low $n$ they instead start out as follows (e.g. [Abano
 | $SO(3)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{12}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{3}$ |
 | $SO(4)$ | $\mathbb{Z}_{2}$ | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ |
 | $SO(5)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |
+| $SO(6)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | 0 |
+
+The last row can be found using [Mimura and Toda](http://projecteuclid.org/euclid.kjm/1250524818), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-covering space of $SO(6)$.
 
 ### Homology and cohomology 
 
