@@ -66,7 +66,7 @@ Typical notation (see e.g. [SEP](#SEP)) is as follows:
 
 * a modality represented by an [[idempotent monad]] is typically denoted by $\lozenge$ or (less often) by $\bigcirc$, following the traditional example of _[[possibility]]_ in [[modal logic]].
 
-When [[adjunctions]] between modalities matter, there is a tendency ([RRZ 04, p. 116](#ReyesEtAl)) to use $\lozenge$ for a [[left adjoint]] of a $\Box$. That leaves $\bigcirc$ as the natural choice of notation for a [[right adjoint]] (if any) of a $\Box$-modality.
+When [[adjunctions]] between modalities matter ([[adjoint modalities]]), then some authors ([Reyes 91, p. 367](#Reyes91) [RRZ 04, p. 116](#ReyesEtAl)) use $\lozenge$ for a [[left adjoint]] of a $\Box$. That leaves $\bigcirc$ as the natural choice of notation for a [[right adjoint]] (if any) of a $\Box$-modality.
 
 
 This way for instance for [[cohesion]] with [[shape modality]] $\dashv$ [[flat modality|flat comodality]] $\dashv$ [[sharp modality]] the generic notation would be:
@@ -76,6 +76,9 @@ $$
      monad && comonad && monad
      \\
      \lozenge &\dashv& \Box &\dashv& \bigcirc
+     \\
+     \\
+     shape && flat && sharp
      \\
      &#643; &\dashv& \flat &\dashv& \sharp 
   }
@@ -137,6 +140,8 @@ Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory
 * German Wikipedia, _[Modalit&#228;t (Philosophie)](http://de.wikipedia.org/wiki/Modalit&#228;t_(Philosophie))_
 
 * {#SEP} Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_
+
+* {#Reyes91} [[Gonzalo Reyes]], _A topos-theoretic approach to reference and modality_, Notre Dame J. Formal Logic Volume 32, Number 3 (1991), 359-391 ([Euclid](http://projecteuclid.org/euclid.ndjfl/1093635834))
 
 * {#ReyesEtAl} Reyes/Reyes/Zolfaghari, _Generic Figures and Their Glueings_ 2004, Polimetrica
 
