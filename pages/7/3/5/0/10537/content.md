@@ -45,7 +45,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]].
+The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]]. Such a [[localization of a category|localization]] is called a "quintessential localization" in ([Johnstine 96](#Johnstone96)).
 
 =--
 
@@ -172,6 +172,10 @@ An earlier hint of the same notion seems to be that on the bottom of p. 9 in
 The above examples of infinitesimal cohesion appear in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+
+Localization by an [[ambidextrous adjunction]] is also discussed in 
+
+* {#Johnstone96} [[Peter Johnstone]], _Remarks on quintessential and persistent localizations_, Theory and Applications of Categories, Vol. 2, No. 8, 1996, pp. 90&#8211;99 ([TAC](http://www.tac.mta.ca/tac/volumes/1996/n8/2-08abs.html))
 
 
 [[!redirects infinitesimal cohesion]]
