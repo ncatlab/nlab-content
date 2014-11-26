@@ -23,15 +23,15 @@
 
 ## Idea 
 
-In [[logic]], an incompleteness theorem says (about some formal [[theory]]) that for some statement $p$ expressed in the language of the theory, neither $p$ nor its [[negation]] $\neg{p}$ have [[proofs]] in the theory: that certain statements are formally [[undecidable proposition|undecidable]] in the theory. Particularly for many theories, it is possible to internalize within the theory the external statement that the theory is [[consistent theory|consistent]], in such a way that the theory, if consistent, is incapable of establishing its internal consistency. 
+In [[logic]], an incompleteness theorem expresses limitations on provability within a (consistent) formal [[theory]]. Most famously it refers to a pair of theorems due to [[Kurt Gödel]]; the first incompleteness theorem says roughly that for any [[consistent theory]] $T$ containing [[Peano arithmetic|arithmetic]] and whose theorems can be computably enumerated, there is an arithmetic sentence which is true for the [[natural numbers]] $\mathbb{N}$ that cannot be proven in $T$. The second incompleteness theorem shows that for such theories $T$, the sentence can be taken to be a suitable arithmetization of the statement of consistency of $T$ itself, i.e., that no such theory "can demonstrate its own consistency" -- can prove an arithmetic statement that encodes the assertion of its consistency. 
 
-The most famous example is probably the pair of incompleteness theorems, due to [[Kurt Gödel]], that bear on _any_ theory in which [[Peano arithmetic]] (or indeed [[Robinson arithmetic]]) can be internalized, but in some sense the phenomenon had been known long before. For example, axiom systems for [[Euclidean geometry]] which do not include the [[parallel postulate]] might not decide the parallel postulate, as shown by models for both Euclidean and non-Euclidean geometry. But the sweeping and ubiquitous nature of incompleteness phenomena only became fully appreciated after G&#246;del's work. 
+An incompleteness theorem can be read as an [[undecidable proposition|undecidability result]]: there are formal propositions $p$ in the theory such that neither $p$ nor its [[negation]] $\neg{p}$ have [[proofs]] in the theory. As such, it is part of a long history; for example, axiom systems for [[Euclidean geometry]] not including the [[parallel postulate]] might not decide the parallel postulate, as shown by models for both Euclidean and non-Euclidean geometry. What was novel about G&#246;del's results is that they worked directly at the level of syntax and applied to any (effectively generated) extension of arithmetic, producing sentences which in effect imply their unprovability. 
 
 ## G&#246;del\'s incompleteness theorems 
 
 To some extent, G&#246;del's incompleteness theorems have always had an air of mystery about them, or at least a reputation of being exceedingly difficult or subtle. The major insight of G&#246;del, that items in formal logic can be encoded within the recursive structures afforded by arithmetic ([[Gödel numbering]]), is of course a signal achievement not to be underestimated, and the detailed working out of the result that the provability predicate can be encoded as a [[recursive set]] can be said to form the technical core of this work. But the punchline, in the form of his [[diagonalization argument]] that produces a true[^fine1] but unprovable sentence, should be seen for what it is: one of many [[diagonalization arguments]] (including for example [[Cantor's theorem]]) that are essentially alike in structure, and familiar to all mathematicians. 
 
-This diagonalization result, so often obscured, should be laid bare as the simple piece of algebra that it is. We give one approach here, based on the algebra of [[hyperdoctrine]]s.
+This diagonalization result, so often obscured, should be laid bare as the simple piece of algebra that it is. We give one approach here, based on the algebra of [[hyperdoctrines]].
 
 
 ### Categorical preliminaries 
@@ -82,7 +82,7 @@ which will be used in our diagonalization result.
 
 ### Diagonalization 
 
-The following result is routine from general recursive-arithmetic properties of G&#246;del coding: 
+The following result is routine from general recursive-arithmetic properties of G&#246;del coding; it applies to any extension of PA (or just [[Robinson arithmetic]]) whose formulas can be recursively (computably) enumerated.  
 
 +-- {: .num_lemma} 
 ###### Lemma 
@@ -112,7 +112,7 @@ as required.
 
 ### Incompleteness 
 
-Recall there is also a G&#246;del coding of PA proofs (certain sequences of PA formulas), $code: Proof(PA) \to \mathbf{PRA}(0, 1)$. 
+Recall there is also a G&#246;del coding of PA proofs (certain sequences of PA formulas), $code: Proof(PA) \to \mathbf{PRA}(0, 1)$. The following result applies in fact to any theory like PA that extends basic Robinson arithmetic and whose theorems can be recursively (computably) enumerated. 
 
 +-- {: .num_lemma} 
 ###### Lemma 
