@@ -37,7 +37,9 @@ Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[coverag
 
 Notice that if $C$ has finite [[product]]s then it is also cosifted.
 
-## Properties: sheaves on a cohesive site
+## Properties
+
+### Sheaves on a cohesive site are cohesive
 
 +-- {: .num_prop}
 ###### Proposition
@@ -84,6 +86,11 @@ $$
 which is monic since $C(*,U)$ is always inhabited (by assumption on $C$).
 
 =--
+
+### Aufhebung
+
+A [[cohesive topos]] over a cohesive site satisfies [[Aufhebung]] of the [[unity of opposites|moments]] of [[becoming]]. See at _[[Aufhebung]]_ the section _[Aufhebung of becoming -- Over cohesive sites](http://ncatlab.org/nlab/show/Aufhebung#ExamplesBecomingFormalization)_
+
 
 ## Examples
 
