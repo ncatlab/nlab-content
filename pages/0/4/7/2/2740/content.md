@@ -253,8 +253,11 @@ The [[Lagrangian dg-submanifolds]] (see there for more) of a Poisson Lie algebro
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
+## Examples
 
-## References ##
+* For the simple but important special case of [[Lie-Poisson structure]] see there at _[Poisson-Lie algebroid cohomology](Lie-Poisson+structure#PoissonLieAlgebroidCohomology)_.
+
+## References 
 
 One of the earliest reference seems to be
 
