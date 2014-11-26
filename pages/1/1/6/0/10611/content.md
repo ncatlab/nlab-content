@@ -60,16 +60,16 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 #### Notation
  {#Notation}
 
-Typical notation is as follows: 
+Typical notation (see e.g. [SEP](#SEP)) is as follows: 
 
-* a co-modality represented by an [[idempotent comonad]]  is typically denoted by $\Box$ (following the traditional example of _[[necessity]]_)
+* a co-modality represented by an [[idempotent comonad]]  is typically denoted by $\Box$, following the traditional example of _[[necessity]]_ in [[modal logic]];
 
-* a modality represented by an [[idempotent monad]] is typically denotes by $\bigcirc$ (following the traditional example of _[[possibility]]_)
+* a modality represented by an [[idempotent monad]] is typically denoted by $\lozenge$ or (less often) by $\bigcirc$, following the traditional example of _[[possibility]]_ in [[modal logic]].
 
-Also $\lozenge$ is used for a modality, in particular if it is [[left adjoint]] to a $\Box$.
+When [[adjunctions]] between modalities matter, there is a tendency ([RRZ 04, p. 116](#ReyesEtAl)) to use $\lozenge$ for a [[left adjoint]] of a $\Box$. That leaves $\bigcirc$ as the natural choice of notation for a [[right adjoint]] (if any) of a $\Box$-modality.
 
 
-For instance for [[cohesion]] with [[shape modality]] $\dashv$ [[flat modality|flat comodality]] $\dashv$ [[sharp modality]] the generic notation would be
+This way for instance for [[cohesion]] with [[shape modality]] $\dashv$ [[flat modality|flat comodality]] $\dashv$ [[sharp modality]] the generic notation would be:
 
 $$
   \array{
@@ -136,6 +136,9 @@ Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory
 
 * German Wikipedia, _[Modalit&#228;t (Philosophie)](http://de.wikipedia.org/wiki/Modalit&#228;t_(Philosophie))_
 
+* {#SEP} Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_
+
+* {#ReyesEtAl} Reyes/Reyes/Zolfaghari, _Generic Figures and Their Glueings_ 2004, Polimetrica
 
 [[!redirects modality]]
 [[!redirects modalities]]
