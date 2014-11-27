@@ -32,7 +32,7 @@
 
 [^LQ]: ([Lawvere 1989](#Law89b), p.74).
 
-**Aufhebung** (sublation) is a central concept in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
+**Aufhebung** (sublation) is a central concept in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]] (e.g. [SoL &#167;209](Science+of+Logic#209)). The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
 
 [^fine]: As this polysemy is important for the concept and difficult to preserve in translation we prefer to use the German term in the following.
 
@@ -452,4 +452,3 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
 * {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
-
