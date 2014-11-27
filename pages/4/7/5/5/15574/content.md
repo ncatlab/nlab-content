@@ -254,6 +254,13 @@ and hence by the [[Yoneda lemma]] $\emptyset \simeq \sharp \emptyset$.
 
 =--
 
++-- {: .num_cor}
+###### Corollary
+
+An [[(∞,1)-topos]] with Aufhebung $(\flat \dashv \sharp)$ of [[being]] has [[homotopy dimension]] $\leq 0$ with respect to the $\flat$-[[modal types|modal]] [[base (∞,1)-topos]].
+
+=--
+
 +-- {: .num_prop #OverCohesiveSiteBecomingIsResolved}
 ###### Proposition
 
