@@ -67,8 +67,9 @@ In the unstable range for low $n$ they instead start out as follows (e.g. [Abano
 | $SO(4)$ | $\mathbb{Z}_{2}$ | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ |
 | $SO(5)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |
 | $SO(6)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | 0 |
+| $SO(7)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ | 0 | 0 |
 
-The last row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$.
+The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). For $SO(n)$ with $n \gt 7$ the homotopy groups $\pi_i(SO(n))$ stabilise in the range shown ($i=1,\ldots,9$).
 
 ### Homology and cohomology 
 
@@ -118,7 +119,9 @@ The [[homotopy groups]] of $O(n)$ are listed for instance in
 
 * {#Abanov09} Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
   
-* {#MimuraToda63} M. Mimura H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
+* {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
+
+* {#Mimura67} M. Mimura, _The Homotopy groups of Lie groups of low rank_, Math. Kyoto Univ. Volume 6, Number 2 (1967), 131-176. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524375))
 
 The [[ordinary cohomology]] and [[ordinary homotopy]] of the manifolds $SO(n)$ is discussed in 
 
