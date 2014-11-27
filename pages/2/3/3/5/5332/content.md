@@ -92,8 +92,10 @@ More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{6}\hat \ma
 
 We will assume that the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
 
-Let $String(n) \in $ [Smooth∞Grpd]] be the smooth [[String 2-group]], for some $n \in \mathbb{N}$, regarded as a [[Lie 2-group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. We shall notationally suppress the $n$ in the following. Write $\mathbf{B}String$ for its [[delooping]] of $Spin$ in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrictLie2Groups">here</a>). 
+Let $String(n) \in $ [[Smooth∞Grpd]] be the smooth [[String 2-group]], for some $n \gt 6$,[^low_rank] regarded as a [[Lie 2-group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. We shall notationally suppress the $n$ in the following. Write $\mathbf{B}String$ for its [[delooping]] of $Spin$ in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrictLie2Groups">here</a>). 
 Let moreover $\mathbf{B}^6 U(1) \in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 7-group</a> and $\mathbf{B}^7 U(1)$ its [[delooping]].
+
+[^low_rank]: for $n=3,4,5,6$ $String(n)$ is not 6-connected, so one must take extra care with the intervening stages in the [[Whitehead tower]].
 
 At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven ([FSS](#FSS)).
 
