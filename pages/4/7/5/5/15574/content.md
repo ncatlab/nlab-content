@@ -121,17 +121,17 @@ Let $i,j$ be [[level of a topos|levels]], def. \ref{Level}, of a topos $\mathcal
 
 $$
   \array{
-    \Box_i &\leq& \Box_j
+    \Box_i &\preceq & \Box_j
     \\
     \bot && \bot
     \\
-    \bigcirc_i &\leq& \bigcirc_j 
+    \bigcirc_i &\preceq & \bigcirc_j 
   }
 $$
 
-(or $i\leq j$ for short) when every i-sheaf ($\bigcirc_i$-[[modal type]]) is also a j-sheaf and every i-skeleton ($\Box_i$-[[modal type]]) is a j-skeleton.
+(or $i\preceq j$ for short) when every i-sheaf ($\bigcirc_i$-[[modal type]]) is also a j-sheaf and every i-skeleton ($\Box_i$-[[modal type]]) is a j-skeleton.
 
-Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$, written
+Let $i\preceq j$, we say that the level $j$ _resolves the opposite_ of level $i$, written
 
 $$
   \array{
@@ -144,7 +144,7 @@ $$
 $$
 
 
-(or just $i\ll j$ for short) if $\bigcirc _j\Box_i=\Box _i$. 
+(or just $i\ll j$ for short[^wayb]) if $\bigcirc _j\Box_i=\Box _i$. 
 
 Finally a [[level of a topos|level]] $\bar{i}$ is called the _Aufhebung_ of level $i$ 
 
@@ -159,9 +159,11 @@ $$
 $$
 
 
-iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\leq k$ where $\leq$ is the order relation between levels.
 
 =--
+
+[^wayb]: $\ll$ is called the _way below_ relation in ([KRRZ11](#KRRZ11)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -364,7 +366,7 @@ $$
 
 (...) [[cubical set]] (...)
 
-([Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10))
+([Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11))
 
 ### An open problem: the presheaf topos over non-empty finite sets
 
@@ -373,6 +375,8 @@ $$
 * [[Science of Logic]]
 
 * [[adjoint modality]]
+
+* [[level of a topos]]
 
 * [[graphic category]]
 
@@ -388,7 +392,7 @@ The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to 
 
 Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
-The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2010)](#KRRZ10) which is based on older phd-works by some of the authors.
+The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors.
 
 Further results on essential localizations can be found in the papers by [Borceux-Korotenski (1991)](#BK91), [Johnstone (1996)](#JS96), [Vitale (2001)](#VT01) and [Lucyshyn-Wright (2011)](#LW11) or in [SGA 4](#SGA4).
 
@@ -401,7 +405,6 @@ Further results on essential localizations can be found in the papers by [Borceu
 &#8206;
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
-
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
 * {#WdL} [[G. W. F. Hegel]], _[[Science of Logic|Wissenschaft der Logik]] I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
@@ -410,7 +413,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
-* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
@@ -452,7 +455,6 @@ Further results on essential localizations can be found in the papers by [Borceu
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
-
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
