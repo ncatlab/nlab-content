@@ -305,6 +305,12 @@ motivated as a formalization of ideas expressed in
 
 * {#Hegel1812} [[Georg Hegel]], _[[Science of Logic]]_, 1812
  
+But according to 
+
+* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
+
+the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
+
 * {#Wikipedia} Wikipedia, _[Hegelian dialectic](http://en.wikipedia.org/wiki/Hegelian_dialectic)_
 
 ### In terms of adjoint pairs of modal operators
