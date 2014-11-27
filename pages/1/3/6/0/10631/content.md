@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include philosophy - contents]]
 =--
+#### Cohesive toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
 =--
 =--
 
@@ -15,23 +19,36 @@
 
 ## Idea
 
-According to _[[Science of Logic]]_ &#167;183:
-
-> Das Werden so &#220;bergehen in die Einheit des Seyns und Nichts, welche als seyend ist, oder die Gestalt der einseitigen unmittelbaren Einheit dieser Momente hat, ist das Daseyn.
-
-hence:
-
-> Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
-
-part of the following [[unity of opposites]]
+According to [[Science of Logic]] ([&#167; 191](Science+of+Logic#191)) _Dasein_ ("determinate being") is the [[Aufhebung]] of [[becoming]], which in turn is the [[unity of opposites]] of [[nothing]] and [[being]].
 
 | |  | [[Dasein]] | |  |
 |--|--|--|--|--|
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
+
+Following suggestions by [[William Lawvere]] as discussed in detail at _[Aufhebung --  Examples -- Aufhebung of Becoming -- Determinate being](Aufhebung#AufhebungOfBecoming)_, this is formalized by the [[level of a topos|level]] given by the [[sharp modality]] in its [[unity of opposites|opposition]] to the [[flat modality]]:
+
+$$
+  \array{
+     \flat \; &\dashv& \;\;\sharp
+     \\
+     \vee \; &\nearrow_{\mathrlap{Dasein}}& \;\;\vee
+     \\
+     \emptyset \; &\dashv& \;\;\ast
+  }
+  \,.
+$$
+
+So $\sharp$ is a higher [[level of a topos|level]] version of $\ast$ ([[being]]). Indeed, this is the statement of ([SoL &#167; 194](Science+of+Logic#194)).
+
+
+
+
 ## Related concepts
 
 * [[category of being]]
+
+
 
 [[!redirects determinate being]]
 
