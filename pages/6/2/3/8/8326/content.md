@@ -131,6 +131,8 @@ The following table lists proposals for possible such identifications. The conte
 |-----|------|
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
+| sphere | [[level of a topos|level]] |
+| Aufhebung | [[Aufhebung]] |
 | ground | [[antecedent]] |
 | entering into existence | [[term introduction]] |
 | immediacy of reflection | reflector term in [[identity type]] |
@@ -138,9 +140,10 @@ The following table lists proposals for possible such identifications. The conte
 | [[being]], One  | ([[context]] of) [[unit type]] |
 | [[nothing]] | [[empty type]] |
 | [[becoming]] | [[adjoint modality]]  $\emptyset \dashv \ast$ |
+| [[Dasein]]   | [[Aufhebung]] of [[becoming]] by [[sharp modality]] $\sharp$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
 | moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
-| quality/dasein | [[adjoint modality]] attraction $\dashv$ repulsion = $\int \dashv \flat$ | 
+| quality | [[adjoint modality]] attraction $\dashv$ repulsion = $\int \dashv \flat$ | 
 | moment of discreteness | [[flat modality]] $\flat$ |
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
@@ -250,11 +253,10 @@ The [[empty type]] $\emptyset$.
  {#Becoming}
 
 
-* &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
+* {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
 According to the formalization of such [[unity of opposites]] as
-[above](#OppositesAndUnity) we might think of this as the
-universal factorization
+[above](#OppositesAndUnity) we identify this [[becoming]] (following [Lawvere 91]({#LawvereComo})) as the universal factorization
 
 $$
   \array{
@@ -268,7 +270,6 @@ $$
 of the factorization of the unique [[function]] from the [[empty type]] to the [[unit type]] through any other [[type]] $X$.
 
 
-
 Indeed, later in [&#167;174](#174) it says:
 
 *  there is nothing which is not an intermediate state between being and nothing.
@@ -277,12 +278,6 @@ Also, [below](#SomethingAndAnOther) it says
 
 * &#167;222 Being and nothing in their unity, which is determinate being
 
-and "determinate being" / Dasein seems to be well interpreted with types expressed as
-
-$$
-  \vdash X \colon Type
-  \,.
-$$
 
 
 ###### 1. Unity of Being and Nothing
@@ -291,7 +286,7 @@ $$
 
 ###### $\;\;$ Remark 2: Defectiveness of the Expression "Unity, Identity of Being and Nothing"
 
-* &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothing are distinct moments; becoming only is, in so far as they are distinguished.
+* {#152} &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothing are distinct moments; becoming only is, in so far as they are distinguished.
 
 In view of the above it seems that "moment" is well translated with _[[modality]]_.
 
@@ -354,7 +349,7 @@ $$
 
 * {#178} &#167;178 Becoming is in this way in a double determination. In one of them, nothing is immediate, that is, the determination starts from nothing which relates itself to being, or in other words changes into it; in the other, being is immediate, that is, the determination starts from being which changes into nothing: the former is coming-to-be and the latter is ceasing-to-be.
  
-$\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]/
+$\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
 
 
 
@@ -364,6 +359,7 @@ $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]/
 * &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
 
 * &#167;181 This could also be expressed thus: becoming is the vanishing of being in nothing and of nothing in being and the vanishing of being and nothing generally; but at the same time it rests on the distinction between them. It is therefore inherently self-contradictory, because the determinations it unites within itself are opposed to each other; but such a union destroys itself.
+
 
 * &#167;182 This result is the vanishedness of becoming, but it is not nothing; as such it would only be a relapse into one of the already sublated determinations, not the resultant of nothing and being. It is the unity of being and nothing which has settled into a stable oneness. But this stable oneness is being, yet no longer as a determination on its own but as a determination of the whole.
 
@@ -425,21 +421,35 @@ In any case, by the discussion at _[Becoming](#Becoming)_ we have that "being" i
 For more on this see at _[Remark on reality as opposite to ideality](#RemarkOnRealityAsOppositeToDuality)_.
 
 ###### a. Dasein &#252;berhaupt / Determinant being in general
+ {#DaseinUberhaupt}
 
+* {#191} &#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears
 
-* &#167;191 From becoming there issues determinate being, which is the simple oneness of being and nothing.
-
-Above we saw that _becoming_ is formalized by the universal [[unity of opposites]] of $\emptyset \dashv \ast$, exhibiting any [[type]] $X$
+Above we saw that _[[becoming]]_ is formalized by the universal [[unity of opposites]] of [[nothing]] $\dashv$ [[being]], i.e. $\emptyset \dashv \ast$, exhibiting any [[type]] $X$ as intermediate (via $\emptyset$-[[unit of a monad|unit]] and $\ast$-[[counit of a comonad]])
 
 $$
   \emptyset \longrightarrow X \longrightarrow \ast
   \,.
 $$
 
-So determinate being/Dasein is that of [[types]].
+Now by [&#167; 191](#191) [[determinate being]] is the [[sublation]] of this [[unity of opposites]]. By the discussion at _[Aufhebung -- Examples -- Aufhebung of Becoming](Aufhebung#AufhebungOfBecoming)_ this is given by the [[level of a topos|level]] of the  [[flat modality]] $\dashv$ [[sharp modality]]-opposition $(\flat \dashv \sharp)$, [[Dasein]]:
 
-&#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears, therefore, as a first, as a starting-point for the ensuing development. It is first of all in the one-sided determination of being; the other determination, nothing, will likewise display itself and in contrast to it.
+$$
+  \array{
+     \flat \; &\dashv& \;\;\sharp
+     \\
+     \vee \; &\nearrow_{\mathrlap{Dasein}}& \;\;\vee
+     \\
+     \emptyset \; &\dashv& \;\;\ast
+  }
+  \,.
+$$
 
+* {#194} &#167; 194 Determinate being corresponds to being in the previous sphere
+
+Here "sphere" is [[level of a topos|level]].
+
+So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed it is by the above.
 
 ###### b. Qualit&#228;t / Quality
 
@@ -455,7 +465,7 @@ So determinate being/Dasein is that of [[types]].
 
 [[Dasein]], quality, [[type]], something
 
-* &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+* {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
 
 * &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
 
@@ -1075,8 +1085,8 @@ Further comments on Hegel's text include
 
 Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
-* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
- {#LawvereComo}
+* {#LawvereComo} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_, 1991
+ 
 
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
   {#LawvereLauterEinsen}
