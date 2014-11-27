@@ -19,8 +19,9 @@ then every [[endomorphism]] $f \colon B \to B$ of $B$ has a [[fixed point]].
 
 Let us say that a map $\phi: X \to Y$ is _point-surjective_ if for every point $q: 1 \to Y$ there exists a point $p: 1 \to X$ that lifts $q$, i.e., $f p = q$. 
 
-+-- {: .num_prop} 
-###### Proposition 
++-- {: .num_theorem} 
+###### Theorem 
+**(Lawvere's fixed-point theorem)** 
 In a cartesian closed category, if there is a point-surjective map $\phi: A \to B^A$, then every morphism $f: B \to B$ has a fixed point $s: 1 \to B$ (so that $f s = s$). 
 =-- 
 
@@ -62,6 +63,11 @@ For any object $X$, there is an epimorphism $f: X \to \Omega^X$ only if the topo
 Suppose there existed such an epi. In a topos, a map $f: X \to Y$ is epi iff the [[image|direct image]] map $\exists_f: \Omega^X \to \Omega^Y$ retracts the [[preimage|inverse image]] map $\Omega^f: \Omega^Y \to \Omega^X$, i.e., $\exists_f \circ \Omega^f = 1_{\Omega^Y}$. Putting $Y = \Omega^X$, the supposition implies that $\exists_f: Y \to \Omega^Y$ is a retraction. But retractions are automatically point-surjective. 
 
 We then conclude from Lawvere's fixed point theorem that every endomorphism on $\Omega$, in particular the negation $\neg: \Omega \to \Omega$, has a fixed point $p: 1 \to \Omega$. Then $0 = p \wedge \neg p = p \wedge p = p$, whence $\neg 0 = 0$, or "true = false": the topos is degenerate. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Another version of Lawvere's fixed-point theorem requires only finite products for its statement. Namely, in a category with finite products, suppose $\Phi: A \times A \to B$ is a morphism with the property that for each $g: A \to B$ there exists $a: 1 \to A$ such that $g \lambda = \Phi \circ (a \times 1_A)$, where $\lambda: 1 \times A \stackrel{\sim}{\to} A$ is the projection. Then every map $f: B \to B$ has a fixed point. This version of the theorem is emphasized by [Yanofsky](#Yanofsky03). 
 =-- 
 
 ## References
