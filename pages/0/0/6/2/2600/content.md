@@ -47,7 +47,7 @@ for more background.
 
 ## Definition
 
-In the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] we have a smooh refinement of the second fractional [[Pontryagin class]]
+In the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] we have a smooth refinement of the second fractional [[Pontryagin class]]
 
 $$
   \frac{1}{6}
@@ -58,7 +58,7 @@ $$
   \mathbf{B}^7 \mathbb{R}/\mathbb{Z}
 $$
 
-defined on the [[delooping]] of the [[string Lie 2-group]].
+defined on the [[delooping]] of the [[string Lie 2-group]]. Strictly speaking, we need $n\gt 6$, since for low $n$, $String(n)$ is not 6-connected. See [[orthogonal group#HomotopyGroups|orthogonal group]] for a table of the relevant homotopy groups.
 
 The [[delooping]] $\mathbf{B}Fivebrane(n)$ of the **fivebrane 6-group** is the [[principal ∞-bundle]] classified by this in $\mathbf{H}$, that is the [[homotopy fiber]] 
 
