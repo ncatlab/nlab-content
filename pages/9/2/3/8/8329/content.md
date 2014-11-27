@@ -23,7 +23,6 @@ According to _[[Science of Logic]]_ ([SoL &#167;152](Science+of+Logic#152), [Law
 |--|--|--|--|--|
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
-[&#167;174](Science+of+Logic#174): _there is nothing which is not an intermediate state between being and nothing._
 
 The universal factorization via $\emptyset$-[[unit of a monad|unit]] and $\ast$-[[counit of a comonad]]:
 
@@ -37,6 +36,8 @@ $$
 $$
 
 of the unique [[function]] from the [[empty type]] to the [[unit type]] through any other [[type]] $X$.
+
+Indeed, this is the statement of [SoL &#167;174](Science+of+Logic#174): _there is nothing which is not an intermediate state between being and nothing._
 
 
 ## References
