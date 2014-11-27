@@ -135,7 +135,7 @@ In [[proper model category|left proper model categories]] there is an equivalent
 +-- {: .un_prop }
 ###### Proposition (characterization of $S$-local cofibrations)
 
-Let $C$ be a [[proper model category|left proper]] [[simplicial model category]] and $S \subset Mor(C)$ a collection of morphisms. 
+Let $C$ be a [[proper model category|left proper]] [[simplicial model category]] and $S \subset Mor(C)$, a collection of morphisms. 
 
 Then a cofibration $i : A \hookrightarrow B$ is an $S$-local weak equivalence precisely if for all fibrant $S$-local objects $X$ the morphism
 
@@ -153,6 +153,7 @@ is an acyclic fibration in the standard [[model structure on simplicial sets]].
 Notice that this is stronger than the statement that $\mathbf{R}Hom(B,X) \to \mathbf{R}Hom(A,X)$ is a weak equivalence not only in that it asserts in addition a fibration, but also in that it deduces this without first passing to a cofibrant replacement of $A$ and $B$.
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
