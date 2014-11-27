@@ -81,6 +81,7 @@ $$
 
 ## Further information... 
 
+Note that if $3 \leq n \leq 6$, one needs to take extra care, as $String(n)$ is not 6-connected in this range (see [[orthogonal group]] for a table of the relevant homotopy groups). There are nontrivial intermediate steps in the Whitehead tower
 
 ...should eventually go here. For the time being have a look at [[Fivebrane structure]].
 
