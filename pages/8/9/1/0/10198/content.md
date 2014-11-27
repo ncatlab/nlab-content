@@ -42,7 +42,11 @@ The [[philosophy]] of [[mathematics]].
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
-
 * Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
+
+The role of [[Heraclitus]]:
+
+* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
+
 
 
