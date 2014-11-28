@@ -29,7 +29,7 @@ There are many equivalent definitions of the ordinary notion of [[adjoint functo
 
   The analog of this definition makes sense very generally in [[(∞,1)-category theory]], where $Hom_C(-,-) : C^{op} \times C \to \infty Grpd$ is the $(\infty,1)$-categorical hom-object.
 
-* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cographs]]: the [[Cartesian fibration]]s to which the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">functor is associated</a>. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
+* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cographs]]/[[heteromorphisms]]: the [[Cartesian fibrations]] to which the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">functor is associated</a>. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
 
 $$
   (L \dashv R) \Leftrightarrow
@@ -75,7 +75,10 @@ In terms of the concrete incarnation of the notion of $(\infty,1)$-category by t
 
 In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]].
 
-### In terms of cographs
+### In terms of cographs / heteromorphisms
+ {#InTermsOfCographsHeteromorphisms}
+
+We discuss here the quasi-category theoretic analog of _[Adjoint functors in terms of cographs](cograph+of+a+functor#AdjointFunctorsInTermsOfCographs)_ ([[heteromorphisms]]).
 
 We make use here of the explicit realization of the [[(∞,1)-Grothendieck construction]] in its incarnation for [[quasi-categories]]: here an [[(∞,1)-functors]] $L : D \to C$ may be regarded as a map $\Delta[1]^{op} \to $ [[(∞,1)Cat]], which corresponds under the Grothendieck construction to a [[Cartesian fibration]] of [[simplicial sets]] $coGraph(L) \to \Delta[1]$. 
 
@@ -93,7 +96,7 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 * there exists an adjunction $K \to I$ in the above sense
 
-* and $L$ and $K$ are the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">associated functors to</a> the Cartesian fibation $p : K to \Delta[1]$ and the Cartesian fibration $p^{op} : K^{op} \to \Delta[1]^{op}$, respectively. 
+* and $L$ and $K$ are the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">associated functors to</a> the Cartesian fibation $p \colon K \to \Delta[1]$ and the Cartesian fibration $p^{op} : K^{op} \to \Delta[1]^{op}$, respectively. 
 
 =--
 
