@@ -28,7 +28,7 @@ More generally, in [[type theory]]/[[category theory]], we may think of any [[id
 
 For $\mathcal{C}$ a [[category]], a **closure operator** $\diamond$ on $\mathcal{C}$ is an [[idempotent monad]] on $\mathcal{C}$, hence an [[endofunctor]] $\diamond \colon \mathcal{C} \to \mathcal{C}$ equipped with [[unit of a monad|unit]] and product [[natural transformations]]
 
-* $\eta_{\diamond} \;\colon\; id_{\mathcal{C}} \o \diamond$
+* $\eta_{\diamond} \;\colon\; id_{\mathcal{C}} \to \diamond$
 
 * $\mu_{\diamond} \;\colon\; \diamond \circ \diamond \to \diamond$
 
