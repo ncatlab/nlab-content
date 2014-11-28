@@ -59,7 +59,7 @@ From ([Ellis 11](#Ellis11)):
 ## Related concepts
  {#RelatedConcepts}
 
-* Vaguely related are discussions in [[modal logic]] about the formalization of [[metaphysics|metaphyisical]] [[necessity]] and [[possibility]]. For instance ([Kripke 80](#Kripke80)) is much concerned with the logic of "possible worlds".
+* Vaguely related is the [[possible worlds semantics]] in [[modal logic]] for the formalization of [[metaphysics|metaphyisical]] [[necessity]] and [[possibility]]. For instance ([Kripke 80](#Kripke80)) is much concerned with the logic of "[[possible worlds semantics|possible worlds]]".
 
 ## References
 
