@@ -55,7 +55,7 @@ Thus, the signature of first-order Peano arithmetic consists of a constant $0$, 
 
 1. $\forall_{x, y} s(x) = s(y) \Rightarrow x = y$; 
 
-1. $\forall_x x = 0 \vee \exists_y x = s(y)$; 
+1. $\forall_x \left( x = 0 \vee \exists_y x = s(y) \right)$; 
 
 1. $\forall_x x + 0 = x$, 
 
