@@ -32,6 +32,10 @@ Classical real or [[complex analytic geometry|complex analytic]] [[index theory]
 
 One may formulate many of these results in an essentially unified setting by using index theory on derived analytic stacks over $\mathbb{R}$ or $\mathbb{C}$.
 
+Recall also that one may solve a linear partial differential equation
+$$P(\partial)=0$$
+when $P$ has constant coefficients by using the analytic continuation of the complex-valued function $(x,s)\mapsto P(x)^s$. This method is called the Bernstein-Sato method for finding the fundamental solution. There are also other methods, but a natural constraint on the given system is to try to do everything in the analytic setting, and it is thus natural to use complex powers to try to solve it. This will be discussed in more details later. 
+
 ## The challenge of global analytic index theory
 
 Global analytic index theory should give a setting for index theory on [[global analytic spaces]] that gives back usual index theorems when one works over $\mathbb{C}$ or $\mathbb{R}$, but that gives new interesting theorems when one works with analytic spaces or even analytic stacks over $\mathbb{Z}$ equipped with its archimedean norm. It should also give back the p-adic index theorems of Christol-Mebkhout when one works in a Frobenius-equivariant setting over $\mathbb{Z}_p$ or $\mathbb{Q}_p$.
