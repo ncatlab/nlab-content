@@ -114,7 +114,7 @@ $$
   \left(
      W^\ast \circ \underset{w\colon W}{\exists}
      \dashv
-     W^ast \circ \underset{w\colon W}{\forall}
+     W^\ast \circ \underset{w\colon W}{\forall}
   \right)
   \;\colon\;
   \mathbf{H}_{/W}
