@@ -20,6 +20,7 @@ During his work on the Tohoku article in Kansas, Grothendieck did not have acces
 One of the most important discoveries in _Tohoku_ is the [[spectral sequence]] for the [[derived functor]] of the composition of two functors (the _[[Grothendieck spectral sequence]]_, which is now more naturally treated in terms of [[triangulated categories]] which Grothendieck invented later with [[Verdier]]).
 
 Chapters:
+
 1. G&#233;n&#233;ralit&#233;s sur les cat&#233;gories ab&#233;liennes
 1. Algebre homologique dans les cat&#233;gories ab&#233;liennes
 1. Cohomologie &#224; coefficients dans un faisceau
