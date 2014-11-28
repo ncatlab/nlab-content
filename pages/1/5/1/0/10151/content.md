@@ -7,7 +7,7 @@
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $\mathcal{C}$ and $\mathcal{D}$ be [[categories]] with [[pullbacks]]. A [[functor]] $T: \mathcal{C} \to \mathcal{D}$ is _taut_ if $T$ preserves [[inverse images]], i.e., pullbacks of the form 
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[categories]] with [[pullbacks]]. A [[functor]] $T: \mathcal{C} \to \mathcal{D}$ is _taut_ if $T$ preserves [[inverse images]], i.e., [[pullbacks]] of the form 
 
 $$\array{
 P & \to & B \\
