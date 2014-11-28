@@ -121,6 +121,10 @@ $$
 
 is the set of [[section]]s of the [[bundle]] $2 \mathbb{N} \hookrightarrow \mathbb{N}$. But since over odd numbers the [[fiber]] of this bundle is the [[empty set]], there is no possible value of such a section and hence the set of sections is itself the [[empty set]], so the statement "all natural numbers are even" is, indeed, [[false]].
 
+## Related concepts
+
+* [[necessity]]
+
 ## References
 
 The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existential/universal quantifiers is due to
