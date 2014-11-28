@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 The notion of _cograph of a functor_ is dual to that of [[graph of a functor]]: for
@@ -74,13 +74,13 @@ $$
   Hom_{cograph(f)}(x,y) = 
   \left\{
     \array{
-      Hom_C(x,y) & if x,y \in C
+      Hom_C(x,y) & if\; x,y \in C
       \\
-      Hom_D(x,y) & if x,y \in D
+      Hom_D(x,y) & if\; x,y \in D
       \\
-      Hom_D(f(x),y) & if x \in C ,y \in D
+      Hom_D(f(x),y) & if\; x \in C ,y \in D
       \\
-      \emptyset & if x \in D ,y \in C
+      \emptyset & if\; x \in D ,y \in C
     }
   \right.
 $$ 
@@ -96,12 +96,12 @@ and where it serves as a motivation for the study of cographs of
 functors between [[(∞,1)-category|(∞,1)-categories]] discussed
 below.
 
-### Adjoint functors in terms of cographs ###
+## Adjoint functors in terms of cographs 
+ {#AdjointFunctorsInTermsOfCographs}
 
-As emphasized in the beginning of section 5.2 there, cographs of functors may be used to characterize
-[[adjoint functors]].  This is just one way of stating the characterization of adjoints in terms of [[profunctors]] (which in turn makes sense in any [[2-category equipped with proarrows]]).
+As emphasized in the beginning of section 5.2 there, cographs of functors may be used to characterize [[adjoint functors]].  This is just one way of stating the characterization of adjoints in terms of [[profunctors]] (which in turn makes sense in any [[2-category equipped with proarrows]]).
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functors]] precisely if $cograph(L)$ and $cograph(R^{op})^{op}$ are isomorphic under $C$ and $D$:
@@ -125,16 +125,18 @@ $$
   Hom_{cograph(L)}(x,y) = 
   \left\{
     \array{
-      Hom_C(x,y) & if x,y \in C
+      Hom_C(x,y) & if\; x,y \in C
       \\
-      Hom_D(x,y) & if x,y \in D
+      Hom_D(x,y) & if\; x,y \in D
       \\
-      Hom_D(L(x),y) & if x \in C ,y \in D
+      Hom_D(L(x),y) & if\; x \in C ,y \in D
       \\
-      \emptyset & if x \in D ,y \in C
+      \emptyset & if\; x \in D ,y \in C
     }
   \right.
 $$ 
+
+(This set is also called the set of [[heteromorphisms]] between objects in $C$ and $D$.)
 
 The category $cograph(R^{op})^{op}$ accordingly is the category with $Obj(cograph(R)) = Obj(C) \coprod Obj(D)$ and with
 
@@ -173,7 +175,7 @@ In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartes
 
 Accordingly, the above notion of cograph of a functor has a direct generalization to [[(∞,1)-functors]]:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $f : C \to D$ an [[(∞,1)-functor]], identified with a morphism
