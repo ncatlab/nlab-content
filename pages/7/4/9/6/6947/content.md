@@ -146,6 +146,10 @@ is simply the set $2 \mathbb{N} \in Set$ of even natural numbers. Since this is 
 
 Notice that before the $(-1)$-truncation the operation remembers not just _that_ there is an even number, but it remembers "all proofs that there is one", namely every example of an even number.
 
+## Related concepts
+
+* [[possibility]]
+
 ## References
 
 The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existantial/universal quantifiers is due to
