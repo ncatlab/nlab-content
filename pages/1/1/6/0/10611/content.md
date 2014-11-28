@@ -38,7 +38,7 @@ and the modalities contain the three [[unity of opposites|pairs of opposites]]
 
 * [[possibility]] - impossibility
 
-* [[being]]/[[Dasein]] - [[nothing]]
+* [[being]] - [[nothing]]
 
 * [[necessity]] - Zuf&#228;lligkeit
 
@@ -88,13 +88,15 @@ $$
 
 ## Examples
 
+* [[necessity]] $\dashv$ [[possibility]]
+
 * [[local modality]], [[Lawvere-Tierney topology]]
 
 * [[double negation modality]]
 
 * [[n-truncation modality]]
 
-* [[unit type]] modality, [[empty type]] co-modality
+* [[unit type]] modality, [[empty type]] co-modality ([[nothing]] $\dashv$ [[being]])
 
 * [[!-modality]]
 
