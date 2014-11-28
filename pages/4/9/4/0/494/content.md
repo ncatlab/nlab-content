@@ -165,7 +165,8 @@ $$
 
 
 
-### In terms of cographs/correspondences 
+### In terms of cographs/correspondences/heteromorphisms
+ {#InTermsOfCographsHeteromorphisms}
 
 Every [[profunctor]]
 
@@ -173,8 +174,7 @@ $$
   k : C^{op} \times D \to S
 $$
 
-defines a category
-$C *^k D$ with $Obj(C *^k D) = Obj(C) \sqcup Obj(D)$ and 
+defines a category $C *^k D$ with $Obj(C *^k D) = Obj(C) \sqcup Obj(D)$ and with [[hom set]] given by
 
 $$
   Hom_{C^{op} \times D}(X,Y)
@@ -190,8 +190,9 @@ $$
       \emptyset & otherwise
     }
   \right.
-  \,.
 $$
+
+(also called the _[[heteromorphisms]]_).
 
 This category naturally comes with a functor to the [[interval]] category
 
