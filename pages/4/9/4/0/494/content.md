@@ -572,6 +572,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 ### General
 
+* A pair of adjoint functors between [[posets]] is a _[[Galois correspondence]]_.
+
 * A pair of adjoint functors $(L \dashv R)$ where $R$ is a [[full and faithful functor]] exhibits a [[reflective subcategory]]. 
 
   In this case $L$ may be regarded as a [[localization]]. The fact that the adjunction provides universal factorization through unit and counit in this case means that every morphism $f : c \to R d$ into a local object factors through the localization of $c$.
@@ -658,20 +660,32 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 
 ## References
+ {#References}
 
-For standard references see any of the standard references on [[category theory]], listed there, for instance 
+The idea of adjoint functors goes back to 
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1. 
- {#Borceux}
+* [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society Vol. 87, No. 2 (Mar., 1958), pp. 294-329 ([jstor](http://www.jstor.org/stable/1993102))
+
+and was popularized by
+
+* {#Freyd66} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf))
+
+For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
+
+* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1. 
+
+* {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
 
 A video of a pedagogical introduction to adjoint functors is provided by
 
 * [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
 
-Some facts on adjoint functors are at the very beginning of
+The history of the idea that adjoint functors formalize aspects of [[dialectics]] is recounted in 
 
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_
- {#Johnstone}
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
+
+For more on this see at _[[adjoint modality]]_.
+  
 
 [[!redirects adjoint functors]]
 [[!redirects adjoint pair of functors]]
