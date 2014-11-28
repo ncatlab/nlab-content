@@ -18,7 +18,7 @@
 
 ## Idea
 
-The term _heteromorphism_ ([Ellerman 07](#Ellerman07)) is used for the concept of a [[morphism]] not (necessarily) between two [[objects]] in the same [[category]], but between objects in two different categories that are related by a [[functor]], and typically by an [[adjoint functor]]. Indeed, sets of heteromorphism may be used to characterize [[adjunctions]]. Generally, the set of heteromorphisms is that assigned by the corresponding [[profunctor]] to the pair of objects.
+The term _heteromorphism_ ([Ellerman 06](#Ellerman06), [Ellerman 07](#Ellerman07)) is used for the concept of a [[morphism]] not (necessarily) between two [[objects]] in the same [[category]], but between objects in two different categories that are related by a [[functor]], and typically by an [[adjoint functor]]. Indeed, sets of heteromorphism may be used to characterize [[adjunctions]]. Generally, the set of heteromorphisms is that assigned by the corresponding [[profunctor]] to the pair of objects.
 
 The concept is also known as the _[[cograph of a functor]]_. While in traditional [[category theory]] literature the concept is maybe somewhat neglected, it serves for instance as the very definition of [[adjoint (infinity,1)-functors]] in the context of [[quasi-categories]] in ([Lurie 06](#Lurie06)) (without using the term "heteromorphism" there).
 
@@ -51,7 +51,8 @@ Heteromorphisms may be used to express/characterize [[adjunctions]]. For more on
 * _[adjoint (infinity,1)-functor -- In terms of cographs/Heteromorphisms](adjoint+%28infinity%2C1%29-functor#InTermsOfCographsHeteromorphisms)_
 ## References
 
+* {#Ellerman06} [[David Ellerman]], _A Theory of Adjoint Functors &#8212;- with Some Thoughts on Their Philosophical Significance_, in _What Is Category Theory?_, edited by Giandomenico Sica, 127&#8211;83. Milan: Polimetrica. (2006)
+
 * {#Ellerman07} [[David Ellerman]], _Adjoint Functors and Heteromorphisms_ ([arXiv:0704.2207](http://arxiv.org/abs/0704.2207))
 
 * {#Lurie06} [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([arXiv:0608040](http://arxiv.org/abs/math/0608040))
-
