@@ -32,7 +32,7 @@ This page collects resources related to
 
 The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
+Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
 
 Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
 
@@ -1077,11 +1077,13 @@ Hegel himself expand on the relation of the _Science of Logic_ to the [[Tao Te C
 
 Further comments on Hegel's text include
 
-* [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
-  {#Heidegger58}
+* {#Heidegger58} [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
+  
 
-* Inwood, _Hegel_, 1983
- {#Inwood1983}
+* {#Inwood1983} Inwood, _Hegel_, 1983
+
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
+
 
 Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
