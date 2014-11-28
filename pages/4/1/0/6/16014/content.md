@@ -21,15 +21,15 @@ The idea is to consider for any [[proposition]] $p$
 
 * a proposition labeled $\Box p$ expressing the idea that "$p$ is necessarily true";
 
-* a proposition labeled $ p$ expressing the idea that "$p$ is possibly true".
+* a proposition labeled $\lozenge p$ expressing the idea that "$p$ is possibly true".
 
 ### In propositional logic
 
-As a minimum requirement on any formalization with this interpretation it is typically taken that
+As a minimum requirement on any formalization with this interpretation it is typically taken that there are [[implications]]
 
-* $\Box p \rightarrow p$
+* $\Box p \rightarrow p$;
 
-* $p \rightarrow \lozenge p$.
+* $p \rightarrow \lozenge p$,
 
 expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true.
 
@@ -57,25 +57,33 @@ However, in terms of [[categorical logic]] the above axioms just say that
 
 on the [[category]] ([[poset]]) of [[propositions]], and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
 
-This becomes evident as one generalizes from the small realm of [[propositional logic]] to include
+For instance there is
 
-* [[types]] more general than [[propositions]];
+* the (idempotent) monad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
+
+* the (idempotent) monad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
+
+Both satisfy all of the above axioms, but clearly they do not have the interpretation of "necessarily" and "possibly".
+
+This issue becomes more pronounced (and also finds a resolution, see [below](#InFirstOrderLogicAndTypeTheory)) as one generalizes from the small realm of [[propositional logic]] to include both or either of:
+
+* [[types]] more general than [[propositions]] (in [[modal type theory]]);
 
 * [[first-order logic]] with [[quantifiers]], hence [[hyperdoctrines]]/[[dependent types]].
 
 There are many [[modal operators]] in such contexts which are all modeled by (idempotent) (co)monads but which do not have the interpretation of expressing the modes of "necessity" or "possibility". See at _[[modal operator]]_ for some examples.
 
 Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
+### In first-order logic and dependent type theory
+ {#InFirstOrderLogicAndTypeTheory}
 
-### In first-order logic and type theory
-
-On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\for all$ and of the [[existential quantifier]] "there exists" $\exists$.
+On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.
 
 Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induces a [[comonad]] and a monad with just the interpretation of "necessarily true" and "possibly true".
 
 More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all possible worlds". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
-Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/X}$ for the category of types in [[context]] "W", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in an [[adjoint triple]] 
+Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in an [[adjoint triple]] 
 
 $$
   (\exists_W \dashv W^\ast \dashv \forall_W)
@@ -94,7 +102,7 @@ whereas in a context of [[dependent type theory]] this would be called
 
 [[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]].
 
-In either case, under the suitable version of [[propositions as types]] (and using [[bracket types]] etc. if desired), the operations $\forall$ and $\exists$ have the usual interpretation of "for all" and $there exists$.
+In either case, under the suitable version of [[propositions as types]] (and using [[bracket types]] etc. if desired), the operations $\forall$ and $\exists$ have the usual interpretation of "for all" and "there exists".
 
 But they these operations do change the context from $W$ to $\ast$. The idea of a ncessity and a possibility modality is to send propositions about $W$ to propositions that again depend on $W$  -- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
 
@@ -117,9 +125,29 @@ $$
 
 With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$ (a $W$-[[dependent type]]) then 
 
-* $\lozenge_W p$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
+* $\lozenge_W(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
 
-* $\Box_W p$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\for} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
+* $\Box_W(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\forall} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
+
+This is arguably an accurate formalization of the informal meaning of "necessity" and  "possibilty". In fact this is in the spirit of what is known as the [[possible worlds semantics]] of necessity and possibility modalities, where here we interpret the "dependicy on the possible world $w$" explicitly in the sense of $W$-[[dependent type theory]].
+
+Moreover, with this formalization, the modal operator $\lozenge_W$ is [[left adjoint]] to $\Box_W$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
+
+Notice however that, in general, $\lozenge_W$ and $\Box_W$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
+
+## Related concepts
+
+* [[modal logic]], [[modal type theory]]
+
+
+## References
+
+* {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
+
+* Stanford Encyclopedia of Mathematics, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+
+* [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
+
 
 
 [[!redirects necessity]]
