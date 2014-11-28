@@ -12,6 +12,8 @@
 
 * [[modal logic]]
 
+* [[possible worlds semantics]]
+
 * [[multiverse]]
 
 * [[Meaning and Necessity]]
