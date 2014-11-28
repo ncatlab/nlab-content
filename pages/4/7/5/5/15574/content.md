@@ -32,7 +32,9 @@
 
 [^LQ]: ([Lawvere 1989](#Law89b), p.74).
 
-**Aufhebung** (sublation) is a central concept in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]] (e.g. [SoL &#167;209](Science+of+Logic#209)). The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
+**Aufhebung** (sublation) is a central concept[^ref] in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
+
+[^ref]:  A pertinent passage is e.g. [SoL &#167;209](Science+of+Logic#209).
 
 [^fine]: As this polysemy is important for the concept and difficult to preserve in translation we prefer to use the German term in the following.
 
@@ -109,9 +111,9 @@ An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjo
 
 The [[modalities]] yield notions of _[[modal types]]_, which may be called
 
-* the _i-sheaves_ , $X\in\mathcal{B}$ with $\bigcirc _i X\simeq X$ (following the terminology at _[[Lawvere-Tierney operator]]_);
+* the _i-sheaves_ : $X\in\mathcal{B}$ with $\bigcirc _i X\simeq X$ (following the terminology at _[[Lawvere-Tierney operator]]_);
 
-* the _i-skeleta_ : $\Box _i X\simeq X$ (following the example of [[simplicial skeleta]] discussed [below](#SimplicialAndCubicalSets)).
+* the _i-skeleta_ : $X\in\mathcal{B}$ with $\Box _i X\simeq X$ (following the example of [[simplicial skeleta]] discussed [below](#SimplicialAndCubicalSets)).
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
@@ -159,7 +161,7 @@ $$
 $$
 
 
-iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\leq k$ where $\leq$ is the order relation between levels.
+iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\prec k$ in the order relation between levels.
 
 =--
 
@@ -191,14 +193,15 @@ $$
   \flat\dashv \sharp
 $$ 
 
-given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a, 1989b, [1991a](#Law91a)). This is what in [SoL &#167; 191](Science+of+Logic#DaseinUberhaupt) is called _[[determinate being]]_.
+given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a, 1989b, [1991a](#Law91a))[^Pure]. This is what in [SoL &#167; 191](Science+of+Logic#DaseinUberhaupt) is called _[[determinate being]]_ as it corresponds to localization at $\neg\neg$ and the double negation creates the determinateness of the 'Etwasse'.
 
+[^Pure]: Lawvere suggests more generally to read $\Box_ i\dashv\bigcirc_i$ as an opposition _non-F_ vs. _pure-F_ where $F$ is a property descriptively appropriate for the level.
 
-This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'unity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
+This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'identity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
 
-Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that [[becoming]] is the Aufhebung of the opposition between [[nothing]] and [[being]], or more shortly, that _becoming is the Aufhebung of being_.
+Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could somewhat more loosely say that [[becoming]] is the Aufhebung of the opposition between [[nothing]] and [[being]], or more shortly, that _becoming is the Aufhebung of being_.
 
-The former seems to be somewhat more consequently, as the Aufhebungs relation expresses precisely that the (positive) sheaf part of the higher level $j$ subsumes (the opposition between) the skeleton and the sheaf part of the lower level in a universal way - it is the smallest context in which negative and positive poles of the lower level can positively coexist. To elaborate this intuition somewhat, it is the minimal way to turn the negative part into a positive part yet retaining the positivity of its positive opposite.
+The Aufhebungs relation expresses precisely that the (positive) sheaf part of the higher level $j$ subsumes (the opposition between) the skeleton and the sheaf part of the lower level in a universal way - it is the smallest context in which negative and positive poles of the lower level can positively coexist. To elaborate this intuition somewhat, it is the minimal way to turn the negative part into a positive part yet retaining the positivity of its positive opposite.
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
@@ -210,7 +213,7 @@ We discuss Aufhebung of [[becoming]] in the above sense in [[cohesive toposes]] 
 +-- {: .num_prop #AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}
 ###### Proposition
 
-Given a [[topos]] equipped with a a [[level of a topos]] given by an [[adjoint modality]] $(\Box\dashv \bigcirc) \coloneqq (\flat \dashv \sharp)$, then the condition $\sharp \emptyset \simeq \emptyset$ is equivalent to $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$.
+Given a [[topos]] equipped with a [[level of a topos]] given by an [[adjoint modality]] $(\Box\dashv \bigcirc) \coloneqq (\flat \dashv \sharp)$, then the condition $\sharp \emptyset \simeq \emptyset$ is equivalent to $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$.
 
 =--
 
@@ -453,6 +456,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Menni12} [[Matías Menni|M. Menni]], _Bimonadicity and the Explicit Base Property_ , TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
+
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
 
