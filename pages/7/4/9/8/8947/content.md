@@ -16,7 +16,7 @@
 
 ## Definition
 
-In an [[(∞,1)-topos]] an morphism $f \colon X \to Y$ is an _$n$-epimorphism_ for $n \in \mathbb{N}$ equivalently if 
+In an [[(∞,1)-topos]] a morphism $f \colon X \to Y$ is an _$n$-epimorphism_ for $n \in \mathbb{N}$ equivalently if 
 
 * in its [[n-image]] factorization 
 
