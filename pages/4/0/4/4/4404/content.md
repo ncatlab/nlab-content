@@ -33,6 +33,12 @@ There are two classes of exotic $\mathbb{R}^4$'s: large and small. A large exoti
 
 [Rado (1925)](#Rad) proved that in dimension 2 there are no exotic differentiable structures (or the uniqueness of the standard structure). The classification of 1-dimensional manifolds and the uniqueness of the smooth structure can be found in the Appendix of [Milnor (1965b)](#Milnor1965b).
 
+## Construction of exotic 7-spheres
+
+The 7-spheres constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over $S^4$ with fibre $S^3$, with structure group $SO(4)$. By the classification of bundles on spheres, these correspond to homotopy classes of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [[orthogonal group]], this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described up to isomorphism by a pair of integers $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two critical points on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
+
+The fractional first [[Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism]] theory and [[Hirzebruch's signature theorem]] for 8-manifolds, a mod-7 diffeomorphism invariant of the manifold, so that it is standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod 7)$.
+
 ## References
 
 ### For the mathematical theory
