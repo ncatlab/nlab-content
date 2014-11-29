@@ -66,7 +66,7 @@ In [[toposes]] effective epimorphisms are considered in
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], section IV.7  of _[[Sheaves in Geometry and Logic]]_
  
 
-Disucssion in [[homotopy type theory]] is in 
+Discussion in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
