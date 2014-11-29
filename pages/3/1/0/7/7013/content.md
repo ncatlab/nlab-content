@@ -65,7 +65,7 @@ Further equivalent characterizations of locally cartesian closed $(\infty,1)$-ca
 +-- {: .num_remark }
 ###### Remark
 
-Comparing the third and the fifth item in prop. \ref{Presentations}
+Comparing the third and the fifth item in theorem \ref{Presentations}
 notice that the projective and the injective [[model structure on simplicial presheaves]] are [[Quillen equivalence|Quillen equivalent]] (as discussed at _[[model structure on functors]]_.)
 
 =--
@@ -76,9 +76,9 @@ notice that the projective and the injective [[model structure on simplicial pre
 +-- {: .num_remark }
 ###### Remark
 
-Prop. \ref{Presentations} says in particular that every presentable and locally cartesian closed $(\infinity,1)$-category has a presentation by a [[type-theoretic model category]]. As discussed there, such provides the [[categorical semantics]] for [[homotopy type theory]] (without, possibly, the [[univalence]] [[axiom]]).
+Theorem \ref{Presentations} says in particular that every presentable and locally cartesian closed $(\infinity,1)$-category has a presentation by a [[type-theoretic model category]]. As discussed there, such provides the [[categorical semantics]] for [[homotopy type theory]] (without, possibly, the [[univalence]] [[axiom]]).
 
-Therefore prop. \ref{Presentations} says in particular that "Every presentable locally cartesian closed $(\infinity,1)$-category interprets homotopy type theory."
+Therefore theorem \ref{Presentations} says in particular that "Every presentable locally cartesian closed $(\infinity,1)$-category interprets homotopy type theory."
 
 This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which should in addition satisfy [[univalence]]). See also at _[[internal logic of an (∞,1)-topos]]_.
 
