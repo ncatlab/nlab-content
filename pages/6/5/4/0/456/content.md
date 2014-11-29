@@ -204,7 +204,7 @@ See also at [[locale]] the section <a href="http://nlab.mathforge.org/nlab/show/
 ### Relation to morphisms of sites
  {#RelationToMorphismsOfSites}
 
-See at [[site]] the section <a href="http://nlab.mathforge.org/nlab/show/site#MorphismsOfSitesAndGeometricMorphisms">Relation between geometric morphisms and morphisms of sites</a> .
+See at [[morphism of sites]] the section <a href="http://nlab.mathforge.org/nlab/show/morphism+of+sites#RelationToGeometricMorphisms">Relation to geometric morphisms</a> .
 
 
 ### Relation to logical morphisms
