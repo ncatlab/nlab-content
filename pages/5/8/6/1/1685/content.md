@@ -84,7 +84,7 @@ $$
 To see this, notice that by the assumption that $I^{\bullet,\bullet}$ is a _fully_ injective projective resolution, the short exact sequences
 
 $$
-  0 \to B^{q,p}(I) \to Z^{q,p}(I) \to H^(q,p)(I) \to 0
+  0 \to B^{q,p}(I) \to Z^{q,p}(I) \to H^{q,p}(I) \to 0
 $$
 
 are [[split exact sequence|split]] (by the discussion there) and hence so is their image under any functor and hence in particular under $G$. Accordingly we have
