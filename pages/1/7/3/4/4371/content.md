@@ -142,12 +142,12 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## References
 
-* [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) {#Johnstone77}
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) 
 
 * [[Peter Johnstone]], _Sketches of an Elephant I_, Oxford UP 2002. (pp.211,219-220)
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
-{#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
+
 
 
 [[!redirects double negation]]
