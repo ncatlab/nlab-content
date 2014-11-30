@@ -1,4 +1,4 @@
-
+, 
 This page collects material related to
 
 * [[Georg Hegel]]
@@ -9,9 +9,20 @@ This page collects material related to
 
   ([Wikipedia entry](http://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit))
 
-## selected passages
+## Vom wissenshcaftlichen Erknnen
 
-in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface the following complaint about mathematical proof might be read as being a complaint about the traditional non-[[constructive mathematics|constructive]] concept of proof and about disregard of [[proof relevance]]:
+## Jetziger Standpunkt des Geistes
+
+
+## Das Prinzip ist nicht die Vollendung
+
+## Vorrede (Preface)
+
+### 12 Historical and mathematical proof
+
+section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ 
+
+the following complaint about [[proof]] in [[mathematics]] might be read as being a complaint about the traditional non-[[constructive mathematics|constructive]] concept of proof and about disregard of [[proof relevance]]:
 
 > All the same, while proof is essential in the case of mathematical
 knowledge, it still does not have the significance and nature of being
@@ -19,6 +30,14 @@ a moment in the result itself; the proof is over when we get the
 result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
 
 > [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
+
+* {#Vorrede55} &#167; 55 Das Dasein ist Qualit&#228;t, sich selbst gleiche Bestimmtheit oder bestimmte Einfachheit, bestimmter Gedanke; dies ist der Verstand des Daseins. Dadurch ist es Nus, als f&#252;r welchen Anaxagoras zuerst das Wesen erkannte.
+
+* &#167; 55 Existence is Quality, self-identical determinateness, or determinate simplicity, determinate thought: this is existence from the point of view of Understanding. On this account it is Nous, as Anaxagoras first thought reality to be. 
+
+[[Dasein]] is [[Nous]]
+
+
 
 ## related Entries
 
