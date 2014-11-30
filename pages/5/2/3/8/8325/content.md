@@ -12,6 +12,7 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
 
+> Daran mitzuarbeiten, da&#223; die Philosophie der Form der Wissenschaft n&#228;her komme &#8211; dem Ziele, ihren Namen der Liebe zum Wissen ablegen zu k&#246;nnen und wirkliches Wissen zu sein &#8211;, ist es, was ich mir vorgesetzt. ([PdG, Vorr. &#167;5](Phenomenology+of+Spirit#Vorrede5))
 
 #Contents#
 * table of contents
