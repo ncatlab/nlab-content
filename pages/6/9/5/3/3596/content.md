@@ -24,6 +24,10 @@
 * table of contents
 {:toc}
 
+> everything is identitcal with itself ([WdL &#167;863](Science+of+Logic#863))
+
+> no two things are like each other ([WdL &#167;903](Science+of+Logic#903))
+
 ## Idea
 
 In [[intensional type theory]] under the [[propositions as types]] paradigm, an **identity type** (or **equality type**) is the incarnation of [[equality]].  That is, for any [[type]] $A$ and any [[terms]] $x,y:A$, the type $Id_A(x,y)$ is "the type of [[proofs]] that $x=y$" or "the type of reasons why $x=y$".
