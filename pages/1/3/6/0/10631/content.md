@@ -19,12 +19,14 @@
 
 ## Idea
 
-According to [[Science of Logic]] ([&#167; 191](Science+of+Logic#191)) _Dasein_ ("determinate being") is the [[Aufhebung]] of [[becoming]], which in turn is the [[unity of opposites]] of [[nothing]] and [[being]].
+According to [[Hegel]] _[[Science of Logic]]_ ([&#167; 191](Science+of+Logic#191)) _Dasein_ ("determinate being") is the [[Aufhebung]] of [[becoming]], which in turn is the [[unity of opposites]] of [[nothing]] and [[being]].
 
 | |  | [[Dasein]] | |  |
 |--|--|--|--|--|
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
+
+According to [[Hegel]] _[[Phenomenology of Spirit]]_ ([Vorrede &#167;55](http://ncatlab.org/nlab/show/Phenomenology+of+Spirit#Vorrede55)) this is the _[[Nous]]_ of [[Anaxagoras]].
 
 Following suggestions by [[William Lawvere]] as discussed in detail at _[Aufhebung --  Examples -- Aufhebung of Becoming -- Determinate being](Aufhebung#AufhebungOfBecoming)_, this is formalized by the [[level of a topos|level]] given by the [[sharp modality]] in its [[unity of opposites|opposition]] to the [[flat modality]]:
 
