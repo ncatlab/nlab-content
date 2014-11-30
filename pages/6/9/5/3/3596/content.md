@@ -24,7 +24,7 @@
 * table of contents
 {:toc}
 
-> everything is identitcal with itself ([WdL &#167;863](Science+of+Logic#863))
+> everything is identical with itself ([WdL &#167;863](Science+of+Logic#863))
 
 > no two things are like each other ([WdL &#167;903](Science+of+Logic#903))
 
