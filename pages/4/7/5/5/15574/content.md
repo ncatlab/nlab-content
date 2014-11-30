@@ -395,7 +395,7 @@ $$
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the last containing a two page discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the latter containing a discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors.
 
