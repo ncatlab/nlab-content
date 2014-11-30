@@ -32,7 +32,7 @@ This page collects resources related to
 
 The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
+Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
 
 Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
 
@@ -980,7 +980,7 @@ $$
 
 ###### $\;\;$ Remark $A = A$
 
-* &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
+* {#863} &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
 
 The reflector(!) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
 
@@ -1014,7 +1014,7 @@ The reflector [[term constructor]] in an [[identity type]].
  {#LawOfDiversity}
 
 
-* &#167;903 All things are different; or: there are no two things like each other.
+* {#903} &#167;903 All things are different; or: there are no two things like each other.
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
 
