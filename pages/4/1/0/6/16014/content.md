@@ -25,15 +25,23 @@ The idea is to consider for any [[proposition]] $p$
 
 ### In propositional logic
 
-As a minimum requirement on any formalization with this interpretation it is typically taken that there are [[implications]]
+For every [[modality]] one typically demands that it preserves implication in that
+
+* $\Box(p \to q) \to (\Box p \to \Box q)$
+
+* $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
+
+This is called the [[K modal logic|K-axiom]] and in traditional non-[[categorical logic]] this is often all that is considered.
+
+A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" it arguably that there are [[implications]]
 
 * $\Box p \rightarrow p$;
 
 * $p \rightarrow \lozenge p$,
 
-expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true.
+expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true. With this one speaks of [[T modal logic]].
 
-By similar plausibility arguments one typically demands that
+By similar plausibility arguments one often demands that
 
 * $\Box p \to \Box \Box p$
 
@@ -41,13 +49,7 @@ By similar plausibility arguments one typically demands that
 
 which may be read as expressing that iterating the previous reasoning does not yield any new insight.
 
-Finally for every [[modality]] one typically demands that it preserves implication in that
-
-* $\Box(p \to q) \to (\Box p \to \Box q)$
-
-* $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
-
-If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. This is often the default meaning of [[modal logic]]. 
+If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. 
 
 However, in terms of [[categorical logic]] the above axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
 
@@ -57,11 +59,13 @@ However, in terms of [[categorical logic]] the above axioms just say ([Bierman &
 
 on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_), and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
 
-For instance there is
+For example there is
 
 * the (idempotent) monad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
 
 * the (idempotent) monad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
+
+These $\emptyset \dashv \ast$ satisfy all of the above axioms (as well as more axioms that are being considered, such as those called [[S5 modal logic]]) but they clearly do not formalize the informal concept of "possibility" and "necessity": To believe that the constant modality $\ast$ is one sensible formalization of "necessity" is to believe that the sentence "Every proposition is necessarily true." is sensible, in particular that "False is necessarily true" is sensible. 
 
 This issue becomes more pronounced (and also finds a resolution, see [below](#InFirstOrderLogicAndTypeTheory)) as one generalizes from the small realm of [[propositional logic]] to include both or either of:
 
@@ -138,7 +142,11 @@ This is arguably an accurate formalization of the informal meaning of "necessity
 
 Moreover, with this formalization, the modal operator $\lozenge_W$ is [[left adjoint]] to $\Box_W$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
-Notice however that, in general, $\lozenge_W$ and $\Box_W$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
+Some technical remarks:
+
+1. In general, $\lozenge_W$ and $\Box_W$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
+
+1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\lozenge_W$ and $\Box_W$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is ofzten called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
 #### Relatively
   {#ViaBaseChangeRelatively}
