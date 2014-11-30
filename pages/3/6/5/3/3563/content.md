@@ -44,7 +44,8 @@ which evaluates binary words in $A$ as elements in $A$, whenever possible, using
 
 +-- {: .num_defn}
 ###### Definition 
-A partial applicative structure $A$ is a _partial combinatory algebra_ (a **PCA**) if there are elements $k, s \in A$ such that 
+A partial applicative structure $A$ is a _partial combinatory algebra_ (a **PCA**) if there are elements $k, s \in A$ such that
+
 * For all $a, b \in A$, $k a$ and $k a b$ are defined and $k a b = a$. 
 * For all $a, b \in A$, $s a$ and $s a b$ are defined and for all $c$, $(a c)(b c)$ is defined if and only if $s a b c$ is defined, and $s a b c = (a c)(b c)$. 
 
