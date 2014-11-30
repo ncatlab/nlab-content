@@ -47,7 +47,7 @@ Finally for every [[modality]] one typically demands that it preserves implicati
 
 * $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
 
-If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. This is often the default meaning of [[modal logic]].
+If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. This is often the default meaning of [[modal logic]]. 
 
 However, in terms of [[categorical logic]] the above axioms just say that 
 
@@ -74,16 +74,19 @@ This issue becomes more pronounced (and also finds a resolution, see [below](#In
 There are many [[modal operators]] in such contexts which are all modeled by (idempotent) (co)monads but which do not have the interpretation of expressing the modes of "necessity" or "possibility". See at _[[modal operator]]_ for some examples.
 
 Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
+
 ### In first-order logic and dependent type theory
  {#InFirstOrderLogicAndTypeTheory}
 
 On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.
 
-Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induces a [[comonad]] and a monad with just the interpretation of "necessarily true" and "possibly true".
+Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induces a [[comonad]] and a [[monad]] with just the interpretation of "necessarily true" and "possibly true".
+
+#### Globally
 
 More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all possible worlds". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
-Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in an [[adjoint triple]] 
+Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in a [[base change]] [[adjoint triple]] 
 
 $$
   (\exists_W \dashv W^\ast \dashv \forall_W)
@@ -109,7 +112,7 @@ But they these operations do change the context from $W$ to $\ast$. The idea of 
 This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] by forming composites with the [[context extension]] operation $W^\ast$
 
 $$
-  (\lozenge_W \dashv \Box_X)
+  (\lozenge_W \dashv \Box_W)
   \coloneqq
   \left(
      W^\ast \circ \underset{w\colon W}{\exists}
@@ -134,6 +137,51 @@ This is arguably an accurate formalization of the informal meaning of "necessity
 Moreover, with this formalization, the modal operator $\lozenge_W$ is [[left adjoint]] to $\Box_W$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
 Notice however that, in general, $\lozenge_W$ and $\Box_W$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
+
+#### Relatively
+  {#ViaBaseChangeRelatively}
+
+With this axiomatization via [[base change]], it is immediate to consider the relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
+
+$$
+  (\exists_\omega \dashv W^\ast \dashv \forall_\omega)
+  \;\colon\;
+  \mathbf{H}_{/W}
+    \stackrel{\stackrel{\forall_{w \colon \omega^{-1}(-)}}{\longrightarrow}}{\stackrel{\stackrel{\omega^\ast}{\longleftarrow}}{\underset{\exists_{w\colon \omega^{-1}(-)}}{\longrightarrow}}}
+  \mathbf{H}_{/W_0}
+  \,.
+$$
+
+along any [[morphism]] 
+
+$$
+  \omega \colon W \longrightarrow W_0
+$$
+
+and set
+
+$$
+  (\lozenge_\omega \dashv \Box_\omega)
+  \coloneqq
+  \left(
+     \omega^\ast \circ \underset{w\colon \omega^{-1}(-)}{\exists}
+     \dashv
+     \omega^\ast \circ \underset{w\colon \omega^{-1}(-)}{\forall}
+  \right)
+  \;\colon\;
+  \mathbf{H}_{/W}
+    \longrightarrow
+  \mathbf{H}_{/W}
+  \,.
+$$
+
+If here $\omega$ is a [[1-epimorphism]] then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In [[possible worlds semantics]] such equivalence relation is called an "accessibility relation between possible worlds". Now 
+
+*  $\lozenge_\omega p$ is true/inhabited at $w\in W$ if it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
+
+*  $\Box_\omega p$ is true/inhabited at $w\in W$ if it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$
+
+
 
 ## Related concepts
 
