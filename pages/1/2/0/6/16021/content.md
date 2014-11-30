@@ -1,0 +1,17 @@
+
+The [[modal logic]] obtained from [[S4 modal logic]] by adding the axiom that there is the [[implication]]
+
+$$
+  \lozenge p \to \Box \lozenge p
+  \,.
+$$
+
+## Related concepts
+
+* [[necessity and possibility]]
+
+## References
+
+* Wikipedia, _[S5 (modal logic)](http://en.wikipedia.org/wiki/S5_%28modal_logic%29)_
+
+[[!redirects S5]]
