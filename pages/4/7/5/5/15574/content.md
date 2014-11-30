@@ -170,7 +170,7 @@ iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i
 +-- {: .num_remark}
 ###### Remark
 
-The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over [[von Neumann regular categories]] ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
 
 =--
 
@@ -393,7 +393,7 @@ $$
 
 The book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
 
-Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the last containing a two page discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors.
 
@@ -441,7 +441,6 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Law00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
 
 * {#Law02} [[F. W. Lawvere]], _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
-
 
 * {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
