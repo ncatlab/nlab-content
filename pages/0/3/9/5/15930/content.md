@@ -3,20 +3,33 @@ This page collects material related to
 
 * [[Georg Hegel]]
 
-  _The Phenomenology of Spirit_
+  _Ph&#228;nomenologie des Geistes_
+
+  (_The Phenomenology of Spirit_)
 
   1807
 
   ([Wikipedia entry](http://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit))
 
-## Vom wissenshcaftlichen Erknnen
-
-## Jetziger Standpunkt des Geistes
 
 
 ## Das Prinzip ist nicht die Vollendung
 
 ## Vorrede (Preface)
+
+
+([German full text](https://www.marxists.org/deutsch/philosophie/hegel/phaenom/vorrede.htm#p3), [English translation](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm))
+
+
+## 2 Das Element des Wahren ist der Begriff
+
+* {#Vorrede5} &#167; 5 Daran mitzuarbeiten, da&#223; die Philosophie der Form der Wissenschaft n&#228;her komme &#8211; dem Ziele, ihren Namen der Liebe zum Wissen ablegen zu k&#246;nnen und wirkliches Wissen zu sein &#8211;, ist es, was ich mir vorgesetzt.
+
+* To help to bring philosophy nearer to the form of science &#8211; that goal where it can lay aside the name of love of knowledge and be actual knowledge &#8211; that is what I have set before me.
+
+## Vom wissenshcaftlichen Erkennen
+
+## Jetziger Standpunkt des Geistes
 
 ### 12 Historical and mathematical proof
 
@@ -35,12 +48,28 @@ result, and has disappeared. The process of mathematical proof does not belong t
 
 * &#167; 55 Existence is Quality, self-identical determinateness, or determinate simplicity, determinate thought: this is existence from the point of view of Understanding. On this account it is Nous, as Anaxagoras first thought reality to be. 
 
+
 [[Dasein]] is [[Nous]]
 
+
+### 17 -- in its positive attitude; its subject
+
+On "speculative sentences" as opposed to the usual "rational sentences" 
+
+* {#Vorrede63} &#167; 63 die Meinung erf&#228;hrt, da&#223; es anders gemeint ist, als sie meinte, und diese Korrektion seiner Meinung n&#246;tigt das Wissen, auf den Satz zur&#252;ckzukommen und ihn nun anders zu fassen.
+
+
+* &#167; 63 The common view discovers that the statement is intended in another sense than it is thinking of, and this correction of its opinion compels knowledge to recur to the proposition and take it now in some other sense.
+
+* {#Vorrede64} &#167; 64 erst diejenige philosophische Exposition w&#252;rde es erreichen, plastisch zu sein, welche strenge die Art des gew&#246;hnlichen Verh&#228;ltnisses der Teile eines Satzes ausschl&#246;sse.
+
+* &#167; 64 only that philosophical exposition can manage to become plastic in character which resolutely sets aside and has nothing to do with the ordinary way of relating the parts of a proposition.
 
 
 ## related Entries
 
 * [[Georg Hegel]], _[[Science of Logic]]_
+
+[[!redirects Phänomenologie des Geistes]]
 
 category: reference
