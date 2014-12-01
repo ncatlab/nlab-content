@@ -6,6 +6,8 @@ $$
   \,.
 $$
 
+In the [[Kripke frame]] semantics for modal logic, the accessibility relation for worlds is an [[equivalence relation]].
+
 ## Related concepts
 
 * [[necessity and possibility]]
