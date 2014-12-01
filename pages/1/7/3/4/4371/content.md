@@ -68,7 +68,7 @@ This is called the **double negation topology**.
 
 +-- {: .proof}
 ###### Proof 
-The topology axioms can be formulated in purely equational form, i.e., as equations between operations of the form $\Omega^n \to \Omega$. By the Yoneda lemma, it suffices to verify the corresponding equations between transformations $Hom(-, \Omega)^n \to Hom(-, \Omega)$, which boils the problem down to checking the equations for ordinary Heyting algebras in $Set$. For ordinary Heyting algebras, proofs may be found [here](http://ncatlab.org/nlab/show/Heyting+algebra#to_boolean_algebras_24).
+The topology axioms can be formulated in purely equational form, i.e., as equations between operations of the form $\Omega^n \to \Omega$. By the Yoneda lemma, it suffices to verify the corresponding equations between transformations $Hom(-, \Omega)^n \to Hom(-, \Omega)$, which boils the problem down to checking the equations for ordinary Heyting algebras in $Set$. For ordinary Heyting algebras, proofs may be found [here](Heyting+algebra#ToBooleanAlgebras).
 =--
 
 
@@ -85,9 +85,23 @@ $$
 $$
 
 is a [[Boolean topos]].
+
 =--
 
-This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk). The topos of double-negation sheaves is in fact the maximal Boolean [[subtopos]] contained in $E$. 
+This appears as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)). 
+
++-- {: .num_prop}
+###### Proposition
+
+$$
+  \mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}
+$$
+
+is the smallest [[dense subtopos]].
+
+=--
+
+([Johnstone, below Corollary 4.5.20](#Johnstone))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -144,7 +158,7 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) 
 
-* [[Peter Johnstone]], _Sketches of an Elephant I_, Oxford UP 2002. (pp.211,219-220)
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] I_, Oxford UP 2002. (pp.211,219-220)
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
 
