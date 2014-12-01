@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://owpdb.mfo.de/photoNormal?id=6852" alt="Jacob Lurie" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Lurie_2014_hi-res-download_1.jpg/440px-Lurie_2014_hi-res-download_1.jpg" alt="Jacob Lurie" /></div>
 
 Jacob Lurie is a mathematician at Harvard University.
 
