@@ -24,6 +24,10 @@ The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consist
 
 The center of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the _center of a category_ $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C = \mathbf{B}(A,\times)$ is the [[delooping]] of a [[monoid]]. 
 
+* For a [[generator]] $G$ of a category $\mathcal{C}$ there is an embedding of $Z(\mathcal{C})$ into the monoid $Hom(G,G)$ given by $\eta\mapsto\eta _G$. In particular, if $Hom(G,G)$ or $Z(Hom(G,G))$ is trivial, as happens e.g. for $Set$ with $G=\ast$, then so is $Z(\mathcal{C})$ (Hofmann 1975).
+
+* For [[Cauchy completion|Cauchy complete]] $\mathcal{C}$ the idempotent elements of $Z(\mathcal{C})$ correspond precisely to the _quintessential localizations_ of $\mathcal{C}$ (Johnstone 1996).
+
 The notion of center can also be [[vertical categorification|vertically categorified]].  It is easy to categorify the notion of center of a category as defined above: if $C$ is an [[n-category]], then its _center_ is the monoidal $(n-1)$-category $[C,C](Id_C,Id_C)$ of endo-transformations of its identity functor.  One expects that in general, this center will actually admit a natural structure of *braided* monoidal $(n-1)$-category, just as the center of a category is actually a commutative monoid, not merely a monoid.
 
 For instance if $C = \mathbf{B}_\otimes \mathcal{C}$ is the [[delooping]] of a [[monoidal category]], then this center is called the _[[Drinfeld center]]_ of $(C, \otimes)$.
@@ -49,6 +53,12 @@ A special case is the [[center of an abelian category]] which has a special entr
 ### Of $\infty$-groups
 
 See [[center of an ∞-group]].
+
+### References
+
+* R.-E. Hoffmann, _&#220;ber das Zentrum eine Kategorie_ , Math. Nachr. **68** (1975) pp.299-306.
+
+* {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 [[!redirects centre]]
 [[!redirects centers]]
