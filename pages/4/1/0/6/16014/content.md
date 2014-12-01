@@ -109,7 +109,7 @@ whereas in a context of [[dependent type theory]] this would be called
 
 In either case, under the suitable version of [[propositions as types]] (and using [[bracket types]] etc. if desired), the operations $\forall$ and $\exists$ have the usual interpretation of "for all" and "there exists".
 
-But they these operations do change the context from $W$ to $\ast$. The idea of a ncessity and a possibility modality is to send propositions about $W$ to propositions that again depend on $W$  -- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
+But these operations do change the context from $W$ to $\ast$. The idea of a necessity and a possibility modality is to send propositions about $W$ to propositions that again depend on $W$  -- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
 
 This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] by forming composites with the [[context extension]] operation $W^\ast$
 
