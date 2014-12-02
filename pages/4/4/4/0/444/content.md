@@ -370,7 +370,7 @@ A simplicial set is the [[Duskin nerve]] of a [[bigroupoid]] precisely if it is 
 
 =--
 
-This is theorem 8.6 in ([Duskin](#http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html))
+This is theorem 8.6 in ([Duskin](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html))
 
 For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to obtain the [[double nerve]].
 
