@@ -146,7 +146,7 @@ Some technical remarks:
 
 1. In general, $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
 
-1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is ofzten called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
+1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
 #### Relatively
   {#ViaBaseChangeRelatively}
