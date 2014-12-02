@@ -130,7 +130,7 @@ On the other hand, many commonly encountered factorization systems are not refle
 
 ## References
 
-Thge basic theory is developed in
+The basic theory is developed in
 
 * Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329 ([pdf](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_38_03%2FS1446788700023624a.pdf&code=5796045be8904c5183c2e95bce65491e))
  {#CHK}
