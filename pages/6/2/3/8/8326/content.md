@@ -226,7 +226,7 @@ From The Shorter Logic:
 
 * &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
 
-* &#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
+* {#88} &#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
 
 
 ##### A. Sein / Being
@@ -467,13 +467,13 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 
 * {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
 
-* &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
+* {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
 
-* &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
+* {#210} &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
 
-* &#167;211 Something is the negation of the negation in the form of being;
+* {#211} &#167;211 Something is the negation of the negation in the form of being;
 
-* &#167;212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
+* {#212} &#167;212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
 
 
 Here "double negation" is plausibly matched with the [[double negation modality]].
