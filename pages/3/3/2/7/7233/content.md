@@ -141,8 +141,8 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 [[compact topological space|Compact]] $G_2$-manifolds were first found in 
 
-* [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
- {#Joyce}
+* {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
+ 
 
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
@@ -154,8 +154,8 @@ Surveys include
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
 
-* Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
- {#Ibort}
+* {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
+ 
 
 (but beware of some mistakes in that article...)
 
