@@ -38,7 +38,7 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Nov. 25, 2014: Continuation of free field theory by Thomas. CG: Chap 4.
 
-* Dec. 2, 2014: An introduction to operads by Malte. LV: Part 2.
+* Dec. 2, 2014: An introduction to operads by Malte. LV, F.
 
 * Dec. 9, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
 
@@ -58,7 +58,15 @@ A more mathematical introduction to factorization algebra is given in
 
 The introduction to operads is based on
 
-* [LV] J.-L. Loday, B. Vallette: Algebraic Operads. [Pdf available here](http://math.unice.fr/~brunov/Operads.html)
+* [LV] J.-L. Loday, B. Vallette: Algebraic Operads. [Pdf available here](http://math.unice.fr/~brunov/Operads.html).
+
+For $E_\infty$ operads, see
+
+* [F] B. Fresse: Introduction to $E_n$-operads and little discs operads. [pdf](http://www.newton.ac.uk/files/seminar/20130305140015152-153497.pdf).
+
+and the material here:
+
+* B. Fresse: Homotopy of Operads and Grothendieck-Teichmueller Groups. [Book project homepage](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/).
 
 Next here are references with more specific applications.
 
