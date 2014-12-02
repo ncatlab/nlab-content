@@ -203,3 +203,5 @@ For a discussion of the relation betwen [[motive]]s and motivic cohomology, see 
 category: algebraic geometry
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
+[[!redirects higher Chow group]]
+[[!redirects higher Chow groups]]
