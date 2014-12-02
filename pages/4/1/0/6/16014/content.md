@@ -75,7 +75,7 @@ This issue becomes more pronounced (and also finds a resolution, see [below](#In
 
 There are many [[modal operators]] in such contexts which are all modeled by (idempotent) (co)monads but which do not have the interpretation of expressing the modes of "necessity" or "possibility". See at _[[modal operator]]_ for some examples.
 
-Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
+Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the informal concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
 
 ### In first-order logic and dependent type theory
  {#InFirstOrderLogicAndTypeTheory}
@@ -195,7 +195,7 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 
 *  $\underset{\omega}{\Box} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$.
 
-This accurately reflects the indended informal concepts.
+This accurately reflects the informal concept of "possibly true in some cases" and "necessarily true in all cases" (or "in some worlds"/"in all worlds", if one wishes).
 
 ## Related concepts
 
