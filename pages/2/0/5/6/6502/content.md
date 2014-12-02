@@ -30,6 +30,8 @@ Cartan connections are also just called _[[Cartan geometries]]_ .
 
 ## Definition
 
+### Traditional
+
 Let $G$ be a [[Lie group]] and $H \hookrightarrow G$  a sub-Lie group. (So that we may think of the [[coset space]] $G/H$ as a [[Klein geometry]].) Write $\mathfrak{h} \hookrightarrow \mathfrak{g}$ for the corresponding [[Lie algebras]]. 
 
 +-- {: .num_defn}
@@ -54,6 +56,116 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 =--
 
 This appears for instance as ([Sharpe, section 5.1](#Sharpe)).
+
+### In terms of smooth moduli stacks
+ {#InTermsOfSmoothModuliStacks}
+
+In terms of [[smooth stacks]] the definition of Cartan connections has the following equivalent form.
+
+Write
+
+* $\Omega^1(-,\mathfrak{g})$ for the [[sheaf]] (on the [[site]] of [[smooth manifolds]]) of [[Lie algebra valued differential forms]], regarded as the [[smooth set|smooth]] [[moduli space]] of $\mathfrak{g}$-differential forms (as explained at _[[geometry of physics]]_ in the chapter _[[geometry of physics -- differential forms|on differential forms]]_)
+
+* $\mathbf{B} G_{conn} \simeq \Omega^1(-,\mathfrak{g})//G$ for the universal [[moduli stack of connections]], which is equivalently the [[homotopy quotient]] of $\Omega^1(-,\mathfrak{g})$ by the [[action]] of $G$ (regarded as a [[smooth group]]) by [[gauge transformations]];
+
+* $\Omega^1(-,\mathfrak{g})//H$ for the [[homotopy quotient]] by just the [[subgroup]] $H \hookrightarrow G$;
+
+* $\mathbf{J} \;\colon\;\Omega^1(-,\mathfrak{g})//H \longrightarrow \Omega^1(-,\mathfrak{g})//G\simeq \mathbf{B}G_{conn}$ for the canonical morphism.
+
++-- {: .num_prop #MCFormAsFiberOfDifferentialModuli}
+###### Proposition
+
+There is a [[homotopy fiber sequence]] of [[smooth groupoids]]
+
+$$
+  \array{
+     G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})//H
+     \\
+     && \downarrow^{\mathrlap{\mathbf{J}}}
+     \\
+     && \mathbf{B}G_{conn}
+  }
+  \,,
+$$
+
+where $\theta/H$ is the $G$-[[Maurer-Cartan form]] modulo $H$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A detailed proof for the statement as given is spelled out at _[this proposition](orbit+method#ThetaAsHomotopyFiberOfJ)_.
+
+But this statement holds generally in [[cohesive (∞,1)-toposes]] and an argument at this generality proceeds as follows: via the discussion at _[[∞-action]]_ the action of $G$ on $\Omega^1(-,\mathfrak{g})$ is exhibited by the forgetful map $\mathbf{B}G_{conn}\to \mathbf{B}G$ and since the action of $H$ on $\Omega^1(-,\mathfrak{g})$ is the restricted action, the square on the right of 
+
+$$
+  \array{
+     G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})//H
+     &\longrightarrow& \mathbf{B}H
+     \\
+     \downarrow && \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
+     \\
+     \ast &\longrightarrow& \mathbf{B}G_{conn} &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+is a [[homotopy pullback]]. From this the [[pasting law]] implies that in the top left coner we have indeed $G/H$, this being the [[homotopy fiber]] of $\mathbf{B}H \to \mathbf{B}G$. Similar considerations show that the top left map is the abstractly defined [[Maurer-Cartan form]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $G$ a [[semisimple Lie group|semisimple]] [[compact Lie group|compact]] [[Lie group]] and $H = T\hookrightarrow G$ a [[maximal torus]], then prop. \ref{MCFormAsFiberOfDifferentialModuli} plays a central role in the stacky formulation of the [[orbit method]]. See there at _[this proposition](orbit+method#ThetaAsHomotopyFiberOfJ)_.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is
+
+1. a $G$-[[principal connection]] 
+
+   $$
+     \nabla \colon X \longrightarrow \mathbf{B}G_{conn}
+   $$
+
+1. equipped with a [[reduction of the structure group]] given by a lift through $\mathbf{J}$ in prop. \ref{MCFormAsFiberOfDifferentialModuli}
+
+   $$
+     \array{
+        && \Omega^1(-,\mathfrak{g})//H
+        \\
+        & {}^{\mathllap{\nabla^H}}\nearrow & \downarrow^{\mathrlap{\mathbf{J}}}
+        \\
+        X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}G_{conn}
+     }
+   $$
+
+1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon \coprod_i G/H \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization $p^\ast \nabla\simeq \ast$ and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is the [[codiagonal]] of an [[equivalence]]:
+
+
+   $$
+     \array{
+       && G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})/H
+       \\
+       & {}^{\mathllap{\phi}}_{\mathrlap{\coprod_i \simeq}}\nearrow && \swArrow_{\simeq} & \downarrow^{\mathrlap{\mathbf{J}}}
+       \\
+       \coprod_i G/H
+       &\stackrel{p}{\longrightarrow}&
+       X
+       &\stackrel{\nabla}{\longrightarrow}&
+       \mathbf{B}G_{conn}
+     }
+   $$
+
+.
+
+=--
+
+
 
 ## Examples
 
