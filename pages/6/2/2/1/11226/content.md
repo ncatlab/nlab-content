@@ -16,6 +16,8 @@
 
 * [[Chaitin's incompleteness theorem]]
 
+* [[computational complexity and physics]]
+
 ## References
 
 * Wikipedia, _[Computational complexity theory](http://en.wikipedia.org/wiki/Computational_complexity_theory)_
