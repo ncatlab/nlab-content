@@ -34,12 +34,12 @@ Cartan connections are also just called _[[Cartan geometries]]_ .
 
 Let $G$ be a [[Lie group]] and $H \hookrightarrow G$  a sub-Lie group. (So that we may think of the [[coset space]] $G/H$ as a [[Klein geometry]].) Write $\mathfrak{h} \hookrightarrow \mathfrak{g}$ for the corresponding [[Lie algebras]]. 
 
-+-- {: .num_defn}
++-- {: .num_defn #Traditional}
 ###### Definition
 
 A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
-* a $G$-[[affine connection]] $\nabla$ on $X$;
+* a $G$-[[principal connection]] $\nabla$ on $X$;
 
 * such that 
 
@@ -57,10 +57,28 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
 This appears for instance as ([Sharpe, section 5.1](#Sharpe)).
 
++-- {: .num_remark}
+###### Remark
+
+The last clause in def. \ref{Traditional} says that the [[tangent space]] of $X$ at any point $x$ is being identified with the tangent space of the [[homogeneous space]] $G/H$ at the base point $e H$. This may be visualized by imagining that $X$ "tangentially touches" $G/H$ at $x\in X$ and $e H \in G/H$.
+
+But by homogeneity, all the tangent spaces of $G/H$ are [[isomorphism|isomorphic]], and canonically so by [[invariant differential form|left translation]]. Hence by the path-lifting property of [[principal connections]], one may visualize the Cartan connection as describing how the $G/H$ touching $X$ at $x$  "rolls" along paths (infinitesimal paths, vectors) through $x$. This picture of "rolling" is particularly vivid for the case that $(H \hookrightarrow G) = (O(n)\hookrightarrow O(n+1))$ is the inclusion of [[orthogonal groups]], which gives that $G/H = S^n$ is the [[n-sphere]] (for more on this see at _[[conformal connection]]_).
+
+This picture of model spaces rolling along was influential in the historical development of the concept of Cartan geometry in the spirit of [[Klein geometry]].
+
+=--
+
++-- {: .num_remark #ExamplesOfGlobalCartanPatches}
+###### Remark
+
+In many important examples the spaces $X$ carrying a Cartan connection are not just tangentially identified with $G/H$, but are locally modeled on all of $G/H$. This is notably the case for all Cartan connections appearing in [[gravity]] and [[supergravity]]. Here $G$ is a [[Euclidean group]] or [[Poincaré group]] or [[super Poincaré group]], $H \hookrightarrow G$is the [[rotation group]] or [[Lorentz group]] and $G/H$ is [[Cartesian space]] or [[Minkowski space]] or [[super Minkowski space]], respectively. Given a manifold ([[spacetime]]) $X$ then a Cartan connection encodes a [[vielbein field]] with compatible "[[spin connection]]" and then manifold is locally diffeomorphism to copies of $G/H$.
+
+=--
+
 ### In terms of smooth moduli stacks
  {#InTermsOfSmoothModuliStacks}
 
-In terms of [[smooth stacks]] the definition of Cartan connections has the following equivalent form.
+We discuss a [[synthetic mathematics|synthetic]] formulation of Cartan connections in terms of [[differential cohesion]].
 
 Write
 
@@ -121,6 +139,8 @@ For $G$ a [[semisimple Lie group|semisimple]] [[compact Lie group|compact]] [[Li
 
 =--
 
+The following is a synthetic formulation of Cartan connections, def. \ref{Traditional}, with patchwise identification, as in remark \ref{ExamplesOfGlobalCartanPatches}.
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -150,14 +170,17 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
    $$
      \array{
        && G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})/H
+         &\longrightarrow& \mathbf{B}H
        \\
-       & {}^{\mathllap{\phi}}_{\mathrlap{\coprod_i \simeq}}\nearrow && \swArrow_{\simeq} & \downarrow^{\mathrlap{\mathbf{J}}}
+         & {}^{\mathllap{\simeq}}\nearrow && \swArrow_{\simeq} & \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
        \\
        \coprod_i G/H
-       &\stackrel{p}{\longrightarrow}&
+         &\stackrel{p}{\longrightarrow}&
        X
-       &\stackrel{\nabla}{\longrightarrow}&
+         &\stackrel{\nabla}{\longrightarrow}&
        \mathbf{B}G_{conn}
+         &\longrightarrow&
+       \mathbf{B}G
      }
    $$
 
