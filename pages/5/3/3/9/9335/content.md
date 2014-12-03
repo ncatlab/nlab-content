@@ -10,10 +10,10 @@
 +-- {: .num_defn}
 ###### Definition
 
-The [[skeleton]] of the [[category]] $FinSet^{*/}$ of [[pointed object|pointed]] [[finite sets]] is often called **Segal's category** and then denoted $\Gamma \in Cat$
+**Segal's category**, denoted $\Gamma$ is the category opposite to the [[skeleton]] of the [[category]] $FinSet^{*/}$ of [[pointed object|pointed]] [[finite sets]]: 
 
 $$
-  \Gamma \simeq FinSet^{*/}
+  \Gamma^{op} \simeq FinSet^{*/}
   \,.
 $$
 
