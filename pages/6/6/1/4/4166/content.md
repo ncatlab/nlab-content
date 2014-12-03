@@ -386,9 +386,12 @@ Their [[classifying spaces]] are discussed in
 * [[Nils Baas]], M. B&#246;ckstedt, [[Tore Kro]], _Two-Categorical Bundles and Their
 Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/0612549)), .
 
+Divisibility of the gerbe on the 3-sphere, seen as a 2-vector bundle is in
+
+* Christian Ausoni, Bjorn Ian Dundas and John Rognes,  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
+
 Orientation of BDR 2-vector bundles is discussed in 
 
-* Thomas Kragh, _Orientations and Connective Structures on 2-vector Bundles_ ([arXiv:0910.0131](http://arxiv.org/abs/0910.0131))
+* Thomas Kragh, _Orientations and Connective Structures on 2-vector Bundles_ Mathematica Scandinavica, 113 (2013) no 1, ([journal](http://www.mscand.dk/article/view/15482)), ([arXiv:0910.0131](http://arxiv.org/abs/0910.0131))
 
 [[!redirects BDR 2-vector bundles]]
-
