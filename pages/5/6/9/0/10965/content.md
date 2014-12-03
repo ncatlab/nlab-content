@@ -118,8 +118,8 @@ $$
 
 ## References
 
-* [[Rudolf Carnap]], _&#220;berwindung der Metaphysik durch logische Analyse der Sprache_, Erkenntnis Vol II (1932). Translated by A. Pap as _The Elimination of Metaphysics Through Logical Analysis of Language_ ([pdf](http://www.calstatela.edu/sites/default/files/dept/phil/pdf/res/Carnap-Elimination-of-Metaphysics.pdf))
- {#Carnap32}
+* {#Carnap32} [[Rudolf Carnap]], _&#220;berwindung der Metaphysik durch logische Analyse der Sprache_, Erkenntnis Vol II (1932). Translated by A. Pap as _The Elimination of Metaphysics Through Logical Analysis of Language_ ([pdf](http://www.calstatela.edu/sites/default/files/dept/phil/pdf/res/Carnap-Elimination-of-Metaphysics.pdf))
+ 
 
 * [[Georg Hegel]], _[[Science of Logic]]_ (1812)
 
@@ -139,13 +139,10 @@ $$
 
 * [[Hans Reichenbach]], 'The Rise of Scientific Philosophy', 1951.
 
-* [[David Albert]], _On the Origin of Everything_, book review of 
+* {#Albert12} [[David Albert]], _On the Origin of Everything_, book review of 
 "A Universe From Nothing", by Lawrence M. Krauss, in the New York Times from March 25, 2012, on page BR20 of the _Sunday Book Review_ ([web](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?))
- {#Albert12}
+ 
 
-* [[Max Tegmark]], _The mathematical Universe_ ([arXiv:0704.0646](http://arxiv.org/abs/0704.0646))
- {#Tegmark07}
 
 
 [[!redirects Lawverian formalization of Hegelian metaphysics]]
-
