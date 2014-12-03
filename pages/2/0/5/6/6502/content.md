@@ -144,7 +144,7 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
      }
    $$
 
-1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon \coprod_i G/H \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization $p^\ast \nabla\simeq \ast$ and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is the [[codiagonal]] of an [[equivalence]]:
+1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon \coprod_i G/H \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization  and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is the [[codiagonal]] of an [[equivalence]]:
 
 
    $$
