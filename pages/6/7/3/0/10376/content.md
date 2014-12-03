@@ -59,7 +59,7 @@ $$
 ### Mass-anomaly of Galilean action on non-relativistic mechanics
  {#GalileoAnomaly}
 
-The canonical [[Galileo group]]-[[action]] on the [[phase space]] of non-relativistic [[classical mechanics]] has a classical anomaly, given by a [[group cohomology|group 2-cocycle]] proportional to the [[mass]] of the system, the _[[Galileo 2-cocycle]]_ (e.g. [Chen-Shaw-Yen 85](#ChenShawYen85), [Marle 14](#Marle14)).
+The canonical [[Galileo group]]-[[action]] on the [[phase space]] of non-relativistic [[classical mechanics]] has a classical anomaly, given by a [[group cohomology|group 2-cocycle]] proportional to the [[mass]] of the system, the _[[Galileo 2-cocycle]]_ (e.g. [Chen-Shaw-Yen 85](#ChenShawYen85), [Azc&#225;rraga-Izquierdo 95](#AzcarragaIzquierdo95) [Marle 14](#Marle14)).
 
 ## Related concepts
 
@@ -99,11 +99,14 @@ Discussion in the context of formalization of [[classical field theory]] in [[co
 
 The example of the [[Galileo 2-cocycle]] is discussed for instance in 
 
-psroc.phys.ntu.edu.tw/cjp/v23/4.pdf
-
 * {#ChenShawYen85} Chen, Shaw, Yen, _An example of a 2-cocycle_,85 [pdf](http://psroc.phys.ntu.edu.tw/cjp/v23/4.pdf)
 
 * {#Marle14} Charles-Michel Marle, _The manifold of Motions and the total mass of a mechanical system_, 2014 ([pdf](http://phil.physico-math.gie.im/static/slides/ManifoldMotionsMass.pdf))
+
+and in the broader context of [[WZW model]] terms in 
+
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.3 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
 
 [[!redirects classical anomalies]]
 
