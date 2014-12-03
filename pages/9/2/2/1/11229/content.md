@@ -1,5 +1,5 @@
 
-> This page is about [[computability]] of fundamental [[physics]] in the sense of [[computable mathematics]] and [[constructive analysis]]. It is not about _[[computational physics]]_, though of course there is a relation.
+> This page is about [[computability]] of fundamental [[physics]] in the sense of [[computable mathematics]] and [[constructive analysis]]. It is not about _[[computational physics]]_, though of course there is a relation. For computational [[complexity theory]] in physics see at [[computational complexity and physics]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -87,7 +87,7 @@ Decent discussion of computability in physics includes the following
 
 * {#Bridges95} [[Douglas Bridges]], _Constructive mathematics and unbounded operators -- a reply to Hellman_, J. Philosophical Logic 24, 549&#8211;561 (1995)
 
-* {#WeihrauchZhong01} [[Klaus Weihrauch]],  Ning Zhong, _Is the linear Schr&#246;dinger Propagator Turing Computable?_ , in Jens Blanck et al (eds.)_Computability and Complexity in Analysis: 4th International Workshop, CCA, Springer 2001
+* {#WeihrauchZhong01} [[Klaus Weihrauch]],  Ning Zhong, _Is the linear Schr&#246;dinger Propagator Turing Computable?_ , in Jens Blanck et al (eds.) _Computability and Complexity in Analysis: 4th International Workshop_ , CCA, Springer 2001
 
 * {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
 
