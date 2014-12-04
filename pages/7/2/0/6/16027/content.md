@@ -47,9 +47,15 @@ $$
 
 If the above limit equals 0, one sometimes says that $\prod_{k=0}^\infty a_k$ **diverges to 0**.
 
+## Examples
+
+* [[Euler product]]
+
 ## Related pages
 
 * [[series]]
 * [[analytic function]]
 
 [[!redirects infinite products]]
+
+[[!redirects multiplicative series]]
