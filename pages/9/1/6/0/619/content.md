@@ -310,6 +310,8 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 * [[reflective sub-(infinity,1)-category]]
 
+* [[adjoint cylinder]], describing the situation when the reflector has a further left adjoint
+
 ## References
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
