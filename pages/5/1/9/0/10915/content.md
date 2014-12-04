@@ -74,7 +74,7 @@ $$\frac{\pi}{4} = 4\arctan(\frac1{5}) - \arctan(\frac1{239})$$
 $$\pi= 2\times\frac{2}{\sqrt{2}}\times
 \frac{2}{\sqrt{2+\sqrt{2}}}\times
 \frac{2}{\sqrt{2+\sqrt{2+\sqrt{2}}}}\times\frac{2}{\sqrt{2+\sqrt{2+\sqrt{2+\sqrt{2}}}}}\times\cdots$$ 
-This was perhaps the first infinite product in the history of mathematics. 
+This was perhaps the first [[infinite product]] in the history of mathematics. 
 
 * * Euler's product formula: 
 $$\sin(x) = x \prod_{n \geq 1} (1 - \frac{x^2}{\pi^2 n^2})$$ 
