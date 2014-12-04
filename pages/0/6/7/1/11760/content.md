@@ -17,6 +17,9 @@
 =--
 =--
 
+> $\cdots \to$ **ninebrane 10-group** $\to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
+
+
 
 #Contents#
 * table of contents
