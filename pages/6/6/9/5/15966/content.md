@@ -42,6 +42,19 @@ Global analytic index theory should give a setting for index theory on [[global 
 
 The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion. One also needs a version of [[Grothendieck duality]] adapted to global analytic derived geometry, because it is necessary to define Hochschild homology in Kashiwara and Schapira's approach to index theory.
 
+## A possible set of constraints for a coherent theory
+
+One should be able to define global analytic analogs of:
+
+1. The derived duality functor on coherent $\mathcal{D}$-modules and in particular coherent $\mathcal{O}$-modules (carefully defined as modules on the underlying dagger algebra, locally for the $G$-topology, even in the affinoid case).
+
+1. The Grothendieck six operations on:
+* quasi-coherent $\mathcal{O}$-modules,
+* sub-analytic torsion &#233;tale (i.e., Artin-Verdier) or more generally motivic analytic sheaves (using the sheaf-cosheaf formalism of Lurie's book higher algebra, generalized to the $1$-localic topos of &#233;tale sheaves on global analytic spaces), and
+* global analytic holonomic $\mathcal{D}$-modules and global analytic exponential motivic sheaves; the $\mathcal{D}$-module situation should involve also global microlocalization techniques (to get natural conditions for the definition of inverse images).
+
+1. The Grothendieck six operations on sub-analytic &#233;tale Hodge structures (given by a loop space construction of the Hodge filtration, without denominators, together with a Betti structure, given in the real case by non-strict sub-analytic &#233;tale constructible sheaves).
+
 ## Derived index theory
 
 Using the methods of [[derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
