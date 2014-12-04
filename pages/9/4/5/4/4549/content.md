@@ -84,3 +84,7 @@ Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles wi
 [[!redirects higher holonomy]]
 
 [[!redirects Ambrose-Singer theorem]]
+
+
+[[!redirects higher volume holonomy]]
+[[!redirects higher volume holonomies]]
