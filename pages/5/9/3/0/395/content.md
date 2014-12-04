@@ -51,7 +51,7 @@ A **category of fibrant objects** $\mathbf{C}$ is
 
 This data has to satisfy the following properties:
 
-* $C$ has finite [[product]]s and pullbacks of fibrations;
+* $C$ has [[finite products]] and pullbacks of fibrations (along all morphisms);
 
 * $C$ has a [[terminal object]] ${*}$;
 
@@ -270,7 +270,7 @@ $$
   \array{
     A \times_B C &\to& B
     \\
-    \downarrow^{h^* f} && \downarrow^f
+    \downarrow^{\mathrlap{h^* f}} && \downarrow^\mathrlap{f}
     \\
     C &\stackrel{h}{\to}& B
   }
@@ -282,7 +282,7 @@ $$
   \array{
     x^*(A \times_{B} C) &\to& x^*B
     \\
-    \downarrow^{x^* (h^* f)} && \downarrow^{x^* f}
+    \downarrow^{\mathrlap{x^* (h^* f)}} && \downarrow^{\mathrlap{x^* f}}
     \\
     x^*C &\stackrel{x^*}{\to}& B
   }
@@ -547,7 +547,7 @@ $$
   \array{
     A_1 \times A_2 &\to& A_2
     \\
-    \;{}^{p_1}\downarrow^{\Rightarrow \in F} && \downarrow^{\in F}
+    \;{}^{p_1}\downarrow^{\mathrlap{\Rightarrow \in F}} && \downarrow^{\mathrlap{\in F}}
     \\
     A_1 &\to&  {*}
   }
@@ -588,7 +588,7 @@ $$
     &\stackrel{d_0 \times d_1}{\to}&
     B \times B
     \\
-    &&&\searrow^{d_i}& \downarrow^{p_i}
+    &&&\searrow^{d_i}& \downarrow^{\mathrlap{p_i}}
     \\
     & \searrow^{Id}&&& B
   }
@@ -690,11 +690,11 @@ $$
   \array{
    \mathbf{E}_f B &\stackrel{\simeq}{\to}\gt& C
    \\
-   \downarrow && \downarrow^f
+   \downarrow && \downarrow^{\mathrlap{f}}
    \\
    B^I &\stackrel{d_0}{\to}& B
    \\
-   \downarrow^{d_1}
+   \downarrow^{\mathrlap{d_1}}
    \\
    B
   }
@@ -781,13 +781,13 @@ $$
      &\stackrel{p_1}{\to}& 
      C
      \\
-     \downarrow && \downarrow^{f \times Id} && \downarrow^f
+     \downarrow && \downarrow^{\mathrlap{f \times Id}} && \downarrow^{\mathrlap{f}}
      \\
      B^I &\stackrel{d_0 \times d_1 \in F}{\to}&
      B \times B &\stackrel{p_1}{\to}&
      B
      \\
-     \downarrow^{d_1} & \swarrow_{p_2 \in F}
+     \downarrow^{\mathrlap{d_1}} & \swarrow_{p_2 \in F}
      \\
      B
   }
@@ -836,7 +836,7 @@ $\sigma_f : C \stackrel{\simeq}{\to}
       \mathbf{E}_f B &\stackrel{\sigma_f}{\leftarrow}&&
       C
       \\
-      \downarrow^{p_f} && \swarrow_{f}
+      \downarrow^{\mathrlap{p_f}} && \swarrow_{f}
       \\
       B
     }
@@ -864,18 +864,18 @@ $$
     &\stackrel{\in W \cap F}{\to}&
     C
     \\
-    \downarrow^f 
+    \downarrow^{\mathrlap{f}} 
     &&
     \downarrow
     &&
-    \downarrow^f 
+    \downarrow^{\mathrlap{f}} 
     \\
     B &\stackrel{\sigma}{\to}&
     B^I
     &\stackrel{d_1 \in W \cap F}{\to}&
     B
     \\
-    & {}_{Id}\searrow & \downarrow^{d_0}
+    & {}_{Id}\searrow & \downarrow^{\mathrlap{d_0}}
     \\
     && B
   }
@@ -887,9 +887,9 @@ $$
     &\stackrel{Id}{\to}&
     C
     \\
-    \downarrow^f 
+    \downarrow^{\mathrlap{f}} 
     &&
-    \downarrow^f 
+    \downarrow^{\mathrlap{f}} 
     \\
     B &\stackrel{Id}{\to}&
     B
@@ -901,7 +901,7 @@ $$
 
 ### More sophisticated consequences of the definition
 
-Using the factorization lemma, one obtaines the following
+Using the [[factorization lemma]], one obtaines the following
 further useful statements about categories of fibrant
 objects:
 
@@ -965,12 +965,12 @@ $$
   \array{
     B' \times_B A_1 &\to& A_1
     \\
-    \;\;\downarrow^{u^* f \in F} 
-    && \;\;\downarrow^{f \in F}
+    \;\;\downarrow^{\mathrlap{u^* f \in F}} 
+    && \;\;\downarrow^{\mathrlap{f \in F}}
     \\
     B' \times_B A_2 &\to& A_2
     \\
-    \;\downarrow^{\in F} && \;\downarrow^{\in F}
+    \;\downarrow^{\mathrlap{\in F}} && \;\downarrow^{\mathrlap{\in F}}
     \\
     B' &\stackrel{u}{\to}& B
   }
@@ -1030,13 +1030,13 @@ $$
     &\to& 
     \mathbf{E}_f A_2
     \\
-    \;\;\downarrow^{\in W \cap F} 
+    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
     && 
-      \;\;\downarrow^{\in W \cap F}
+      \;\;\downarrow^{\mathrlap{\in W \cap F}}
     \\
     B' \times_B A_1 &\to& A_1
     \\
-    \;\downarrow^{\in F} && \;\downarrow^{\in F}
+    \;\downarrow^{\mathrlap{\in F}} && \;\downarrow^{\mathrlap{\in F}}
     \\     
     B' &\to& B
   }
@@ -1074,8 +1074,8 @@ $$
   \array{
     E \times_B B' &\to& B'
     \\
-    \;\;\;\;\downarrow^{\Rightarrow \in W } 
-    && \;\downarrow^{\in W}
+    \;\;\;\;\downarrow^{\mathrlap{\Rightarrow \in W} } 
+    && \;\downarrow^{\mathrlap{\in W}}
     \\
     E &\stackrel{\in F}{\to}& B
   }
@@ -1103,8 +1103,8 @@ $$
     \\
     Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
     \\
-    \;\;\downarrow^{\in W \cap F} 
-    && \;\;\downarrow^{\in W \cap F}
+    \;\;\downarrow^{\mathrlap{\in W \cap F\}} 
+    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
     \\
     E &\stackrel{\in F}{\to}& B
   }
@@ -1137,11 +1137,11 @@ $$
     & 
        E
     \\
-    &&\downarrow^{\in F} && \downarrow^{p \in F}
+    &&\downarrow^{\mathrlap{\in F}} && \downarrow^{\mathrlap{p \in F}}
     \\
     &&&& B 
     \\
-    &&\downarrow && \downarrow^{v \in F \cap W}
+    &&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
     \\
     &&B &\stackrel{v \in W \cap F}{\to}& B'
   }
@@ -1173,12 +1173,12 @@ $$
     & 
        E
     \\
-    &&\downarrow^{\in F}&&\downarrow^{\in F} 
-    && \downarrow^{p \in F}
+    &&\downarrow^{\mathrlap{\in F}}&&\downarrow^{\mathrlap{\in F}} 
+    && \downarrow^{\mathrlap{p \in F}}
     \\
     &&&&&& B 
     \\
-    &&\downarrow&&\downarrow && \downarrow^{v \in F \cap W}
+    &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
     \\
     &&
     B'
@@ -1249,7 +1249,7 @@ $$
     & &C^I & \stackrel{d_0}{\to}& C
     \\
     \downarrow &&
-    \downarrow^{d_1}
+    \downarrow^{\mathrlap{d_1}}
     \\
     A &\stackrel{u}{\to} & C    
   }
@@ -1268,7 +1268,7 @@ $$
   \array{
      A \times_C C^I \times_C B &\to& B
      \\
-     \downarrow && \downarrow^v
+     \downarrow && \downarrow^{\mathrlap{v}}
      \\
      A &\stackrel{u}{\to}& C
   }
@@ -1318,12 +1318,12 @@ $$
     A \times_C C^I \times_C B &\to& \mathbf{E}_v C &\to 
     & B
     \\
-    && \downarrow && \downarrow^v
+    && \downarrow && \downarrow^{\mathrlap{v}}
     \\
     & &C^I & \stackrel{d_0}{\to}& C
     \\
     \downarrow &&
-    \downarrow^{d_1}
+    \downarrow^{\mathrlap{d_1}}
     \\
     A &\stackrel{u}{\to}& C    
   }
@@ -1340,14 +1340,14 @@ $$
   \array{
     A \times_C C^I \times_C B &\to& && B
     \\
-    \downarrow && && \downarrow^v
+    \downarrow && && \downarrow^{\mathrlap{v}}
     \\
     \mathbf{E}_u C & \stackrel{\in W \cap F}{\to} &C^I & 
     \stackrel{d_0 \in W \cap F}{\to}& C
     \\
-    \downarrow^{\in W \cap F} 
+    \downarrow^{\mathrlap{\in W \cap F}} 
     &&
-    \;\;\downarrow^{d_1\in W \cap F}
+    \;\;\downarrow^{\mathrlap{d_1\in W \cap F}}
     \\
     A &\stackrel{u}{\to} & C    
   }
@@ -1390,7 +1390,7 @@ are
       A &\stackrel{\eta}{\to}&
       B^I
       \\
-      & {}_g\searrow & \downarrow^{d_1}
+      & {}_g\searrow & \downarrow^{\mathrlap{d_1}}
       \\
       && B
     }
@@ -1492,17 +1492,17 @@ $$
     A &\stackrel{\eta_1}{\to}&
     B^{I_1}
     \\
-    & {}_{g}\searrow& \downarrow^{d_1^1}
+    & {}_{g}\searrow& \downarrow^{\mathrlap{d_1^1}}
     & \nwarrow
     \\
     && B && B^{I_1 \vee I_2}
     \\
-    & {}^{g}\nearrow & \downarrow^{d_0^2}
+    & {}^{g}\nearrow & \downarrow^{\mathrlap{d_0^2}}
     & \swarrow
     \\
     A &\stackrel{\eta_2}{\to}& B^{I_2}
     \\
-    & {}_h\searrow & \downarrow^{d_1^2}
+    & {}_h\searrow & \downarrow^{\mathrlap{d_1^2}}
     \\
     &&B
   }
@@ -1526,9 +1526,9 @@ $$
   \array{
     A &\to& E
     \\
-    \;\;\downarrow^{i \in W}
+    \;\;\downarrow^{\mathrlap{i \in W}}
     &&
-    \;\;\downarrow^{p \in F}
+    \;\;\downarrow^{\mathrlap{p \in F}}
     \\
     X
     &\to&
@@ -1543,9 +1543,9 @@ $$
     A &\to & X' &\to& E
     \\
     & {}_{i}\searrow & 
-    \;\;\downarrow^{t \in W \cap F}
+    \;\;\downarrow^{\mathrlap{t \in W \cap F}}
     &&
-    \;\;\downarrow^{p \in F}
+    \;\;\downarrow^{\mathrlap{p \in F}}
     \\
     && X
     &\to&
@@ -1567,9 +1567,9 @@ $$
     A &\to&
     X \times_B E &\to& E 
     \\
-    &{}_{i \in W}\searrow& \;\; \downarrow^{\in F}
+    &{}_{i \in W}\searrow& \;\; \downarrow^{\mathrlap{\in F}}
     &&
-    \;\; \downarrow^{\in F}
+    \;\; \downarrow^{\mathrlap{\in F}}
     \\
     && X &\to& B
   }
@@ -1592,9 +1592,9 @@ $$
     \mathbf{E} E &\to& E 
     \\
     &{}_{i \in W}\searrow& 
-    \;\; \downarrow^{\in F}
+    \;\; \downarrow^{\mathrlap{\in F}}
     &&
-    \;\; \downarrow^{\in F}
+    \;\; \downarrow^{\mathrlap{\in F}}
     \\
     && X &\to& B
   }
@@ -1624,13 +1624,13 @@ $$
   \array{
     B &\stackrel{=}{\leftarrow}& B &\stackrel{u}{\to}& C
     \\
-    \downarrow^\sigma && \downarrow^{\sigma'} && \downarrow^{\sigma_C}
+    \downarrow^{\mathrlap{\sigma}} && \downarrow^{\sigma'} && \downarrow^{\mathrlap{\sigma_C}}
     \\
     B^I &\stackrel{\in W \cap F}{\leftarrow}& B^{I'} &\stackrel{\bar u}{\to}& C^I
     \\
     \;\;\downarrow^{d_0 \times d_1} 
-    && \;\;\downarrow^{d'_0 \times d'_1} 
-    && \;\;\downarrow^{d_0^C \times d_1^C}
+    && \;\;\downarrow^{\mathrlap{d'_0 \times d'_1}} 
+    && \;\;\downarrow^{\mathrlap{d_0^C \times d_1^C}}
     \\
     B \times B
     &\stackrel{=}{\leftarrow}&
@@ -1654,7 +1654,7 @@ $$
      &\stackrel{\sigma_C}{\to}& 
      C^I
     \\
-    \downarrow^{\sigma} &&&& \downarrow^{d_0 \times d_1}
+    \downarrow^{\mathrlap{\sigma}} &&&& \downarrow^{\mathrlap{d_0 \times d_1}}
     \\
     B^I &\stackrel{d_0 \times d_1}{\to}& B \times B
     &\stackrel{u \times u}{\to}& C \times C
@@ -1716,9 +1716,9 @@ $$
     &\stackrel{\bar u}{\to}&
     D^I
     \\
-    \;\;\;\downarrow^{\in W \cap F}
+    \;\;\;\downarrow^{\mathrlap{\in W \cap F}}
     &&
-    \;\;\;\downarrow^{\in W \cap F}     
+    \;\;\;\downarrow^{\mathrlap{\in W \cap F}}     
     &&
     \downarrow
     \\
@@ -1754,7 +1754,7 @@ for seeing that homotopy is an equivalence relation
   \array{
     && B
     \\
-    && \downarrow^{w \in W}
+    && \downarrow^{\mathrlap{w \in W}}
     \\
     A &\to& C  
   }
@@ -1766,7 +1766,7 @@ for seeing that homotopy is an equivalence relation
   \array{
     A' &\to & B
     \\
-    \downarrow^{w' \in W} && \downarrow^{w \in W}
+    \downarrow^{w' \in W} && \downarrow^{\mathrlap{w \in W}}
     \\
     A &\to& C  
   }
@@ -1807,8 +1807,8 @@ that $A' \to A$ is a weak equivalence.
       D := B \times_C C^I \times_C B
       &\to&&\stackrel{\in W}{\to}& B
       \\
-      \downarrow^{\in W} &&&&
-      \downarrow^{t \in W}
+      \downarrow^{\mathrlap{\in W}} &&&&
+      \downarrow^{\mathrlap{t \in W}}
       \\
       && C^I &\stackrel{d_0}{\to}&
       C
@@ -1848,7 +1848,7 @@ that $A' \to A$ is a weak equivalence.
     \array{  
        D &\to& C^I
        \\
-       \downarrow && \downarrow^{\in F}
+       \downarrow && \downarrow^{\mathrlap{\in F}}
        \\
        B \times B &\stackrel{f \times g}{\to}&
        C \times C
@@ -1867,7 +1867,7 @@ that $A' \to A$ is a weak equivalence.
     \array{
       A' &\to& D'
       \\
-      \downarrow^{t'} && \downarrow
+      \downarrow^{\mathrlap{t'}} && \downarrow
       \\
       A &\to & D &\to & C^I
       \\
@@ -2068,7 +2068,7 @@ every cocycle
 $\array{
    Y &\stackrel{g}{\to}& A
    \\
-   {}^\simeq \downarrow^{f} 
+   {}^\simeq \downarrow^{\mathrlap{f}} 
    \\
    X
  }$
@@ -2080,7 +2080,7 @@ $$
    \mathbf{E}_f X &\stackrel{\simeq}{\to}& 
       Y &\stackrel{g}{\to}& A
    \\
-   &{}_{\in F \cap W}\searrow& {}^\simeq \downarrow^{f} 
+   &{}_{\in F \cap W}\searrow& {}^\simeq \downarrow^{\mathrlap{f}} 
    \\
    && X
  }
@@ -2143,7 +2143,7 @@ $$
   \array{
     C &\to& \pi C &\to & A
     \\
-    \downarrow^{Q_C} & \swarrow^{Q_{\pi C}} && \swarrow
+    \downarrow^{\mathrlap{Q_C}} & \swarrow^{Q_{\pi C}} && \swarrow
     \\
     Ho_C
   }
