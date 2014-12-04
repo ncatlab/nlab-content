@@ -4,7 +4,7 @@
 * table of contents
 {:toc}
 
-## Defintion
+## Definition
 
 A _category of cofibrant objects_ is the [[opposite category]] of a [[category of fibrant objects]].
 
