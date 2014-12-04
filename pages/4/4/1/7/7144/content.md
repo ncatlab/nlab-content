@@ -166,6 +166,8 @@ characterizes the [[higher Klein geometry]] induced by $f\colon Y \to X$.
 
 * [[stable point]]
 
+* [[Klein geometry]], [[Cartan geometry]]
+
 [[!redirects stabilizer group]]
 [[!redirects stabilizer groups]]
 [[!redirects stabiliser group]]
