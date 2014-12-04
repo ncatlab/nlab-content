@@ -41,6 +41,13 @@ Boundary higher dimensional WZW models for nonabelian [[higher dimensional Chern
 
 * J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional AdS Spacetime_ ([arXiv:hep-th/9905228](http://arxiv.org/abs/hep-th/9905228))
 
+The global formulation (canelling [[classical anomalies]]) is discussed in
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The brane bouquet]]_, International Journal of Geometric Methods in Modern Physics, Vol. 12 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
 [[!redirects higher dimensional WZW models]]
 [[!redirects higher dimensional WZW theory]]
 [[!redirects higher dimensional WZW theories]]
+
+[[!redirects higher WZW sigma-model]]
+[[!redirects higher WZW sigma-models]]
