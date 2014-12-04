@@ -40,3 +40,6 @@ category: analysis
 
 [[!redirects series]]
 [[!redirects infinite series]]
+
+[[!redirects infinite sum]]
+[[!redirects infinite sums]]
