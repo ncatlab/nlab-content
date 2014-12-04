@@ -23,6 +23,8 @@ The sum of a series is a limit of its sequence of partial sums if this sequence 
 
 * [[asymptotic series]]
 
+* [[infinite product]]
+
 category: analysis
 
 [[!redirects series]]
