@@ -119,6 +119,32 @@ For $C$ a [[small (∞,1)-category]] and $\kappa$ a [[regular cardinal]], the [[
 This is [[Higher Topos Theory|HTT, lemma 5.4.2.4]].
 
 
+## Coherent vs incoherent idempotents
+
+We may also ask how idempotent-completeness of $C$ is related to that of its [[homotopy category]] $h C$.  An idempotent in $h C$ is an "incoherent idempotent" in $C$, i.e. a map $e:X\to X$ such that $e \sim e^2$, but without any higher coherence conditions.  In this case we have:
+
++-- {: .num_theorem}
+###### Theorem
+**([[Higher Algebra|HA]] Lemma 1.2.4.6)**
+If $C$ is [[stable (infinity,1)-category|stable]], then $C$ is idempotent-complete (i.e. every coherent idempotent is effective) if and only if $h C$ is (as a 1-category).
+=--
+
+However, if $C$ is not stable, this is false.  The following counterexample in [[?Gpd]] is constructed in Warning 1.2.4.8 of [[Higher Algebra|HA]].  Let $\lambda : G \to G$ be an injective but non-bijective group homomorphism such that $\lambda$ and $\lambda^2$ are conjugate.  (One such is obtained by letting $G$ be the group of endpoint-fixing homeomorphisms of $[0,1]$, with $\lambda(g)$ acting as a scaled version of $g$ on $[0,\frac 1 2]$ and the identity on $[\frac 1 2,1]$.  Then $\lambda(g) \circ h = h \circ \lambda^2(g)$ for any $h$ such that $h(t) = 2t$ for $t \in [0,\frac 1 4]$.)
+
+Then $B\lambda : B G \to B G$ is homotopic to $B\lambda^2$, hence idempotent in the homotopy category.  If it could be lifted to a coherent idempotent, then the colimit of the diagram
+$$B G \xrightarrow{B \lambda} B G \xrightarrow{B \lambda} BG \to \cdots$$
+would be its splitting, and hence the map $B G \to \colim (B G\xrightarrow{B \lambda} B G \to\cdots)$ would have a [[section]].  Passing to fundamental groups, $G \to \colim (G\xrightarrow{\lambda} G \to\cdots)$ would also have a section; but this is impossible as $\lambda$ is injective but not surjective.
+
+However, we do have the following:
+
++-- {: .num_theorem}
+###### Theorem
+**([[Higher Algebra|HA]] Lemma 7.3.5.14)**
+A morphism $e$ in an $(\infty,1)$-category $C$ is idempotent (i.e. $e:\Delta^1 \to C$ extends to $Idem$) if and only if there is a homotopy $h : e \sim e^2$ such that $h\circ 1 \sim 1\circ h$.
+=--
+
+In other words, an incoherent idempotent can be fully coherentified as soon as it admits one additional coherence datum.
+
 ## Related concepts
 
 * [[Karoubi envelope]]
