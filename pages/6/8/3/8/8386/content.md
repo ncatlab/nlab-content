@@ -67,6 +67,18 @@ However, parametric polymorphism makes sense and is very useful even in language
 
 ## References
 
+The distinction between ad hoc and parametric polymorphism is originally to [[Christopher Strachey]]:
+
+* Christopher Strachey, _Fundamental concepts in programming languages_, Lecture Notes from August 1967 (International Summer School in Computer Programming, Copenhagen), later published in Higher-Order and Symbolic Computation, 13, 11-49, 2000. ([pdf](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf))
+
+[[John Reynolds]] wrote several classic papers on the subject:
+
+* John C. Reynolds, _Towards a Theory of Type Structure_, Lecture Notes in Computer Science 19, 408-425, 1974. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2289&context=compsci))
+
+* John C. Reynolds, _Types, Abstraction, and Parametric Polymorphism_, Information Processing 83, 1983. ([pdf](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf))
+
+A recent paper extending Reynolds' notion of relational parametricity to dependent types:
+
 * [[Robert Atkey]], [[Neil Ghani]] and Patricia Johann, _A Relationally Parametric Model of Dependent Type Theory_, In Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2014). 2014. ([web](http://bentnib.org/dtt-parametricity.html))
 
 [[!redirects polymorphism]]
