@@ -134,6 +134,30 @@ For the traditional 2d [[WZW model]] this was eventually fairly widely appreciat
 Before proceeding to the explanation of the global higher WZW terms, we consider some [[boundary field theory]] now.
 
 
+### Higher WZW terms
+
+Observation: $L_\infty$-cocycle is
+
+$$
+  \mathfrak{g} \longrightarrow \mathbf{B}^{}
+$$
+
++-- {: .un_prop }
+###### Proposition 
+
+These have [[Lie integration]] to global WZW term
+
+$$
+  \mathbf{L}_{WZW} 
+   \;\colon\;
+  \tilde G \longrightarrow \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+$$
+
+=--
+
+([FSS 13, section 5](#FSS13))
+
+
 ### Brane intersection laws and Brane condensates in extended super-spacetime
 
 
