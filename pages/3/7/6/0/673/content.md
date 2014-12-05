@@ -52,12 +52,17 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 ## Review ##
 
+* Contribution to _The "Bounded Gaps between 
+Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
+
 * _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21.
 Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 ## Talks ##
 
 * _TBA_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
+
+* _String structures on homogeneous bundles_, [8th Australia New Zealand Mathematics Convention](http://www.austms2014.ms.unimelb.edu.au/), 12 December 2014 ([Abstract](http://www.mathematics.org.au/sys/shared/talk.php?talk=2626&conf_id=22))
 
 * _The Serre-Grothendieck theorem by geometric means_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide, 24 October 2014. ([Abstract](http://maths.adelaide.edu.au/news/2014/10/24))
 
