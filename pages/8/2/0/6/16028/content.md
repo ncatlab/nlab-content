@@ -53,7 +53,7 @@ The structure of "rolling without sliding" is then formalized in the concept of 
 
   and such that under this reduction the connection at each point infinitesimally identifies the [[tangent space]] of $X$ with the abstract copy of $\mathbb{R}^d \simeq Iso(d)/SO(d)$.
 
-This has an evident heneralization where we conisder any inclusion $H \hookrightarrow G$ of [[Lie groups]]. If one considers instead of [[Cartesian space]] $\mathbb{R}^d$ the [[Minkowski space]] $\mathbb{R}^{d-1,1}$, then $Iso(d-1,1)$ is the [[Poincaré group]]. and $SO(d-1,1)$ is the [[Lorentz group]]. Now the [[geodesics]] via [[parallel transport]] along a $(SO(d-1,1)\hookrightarrow Iso(d-1,1))$-[[Cartan connection]] reflect the [[force]] of [[gravity]] in the [[theory (physics)|theory]] of [[general relativity]].
+This has an evident generalization where we consider any inclusion $H \hookrightarrow G$ of [[Lie groups]]. If one considers instead of [[Cartesian space]] $\mathbb{R}^d$ the [[Minkowski space]] $\mathbb{R}^{d-1,1}$, then $Iso(d-1,1)$ is the [[Poincaré group]]. and $SO(d-1,1)$ is the [[Lorentz group]]. Now the [[geodesics]] via [[parallel transport]] along a $(SO(d-1,1)\hookrightarrow Iso(d-1,1))$-[[Cartan connection]] reflect the [[force]] of [[gravity]] in the [[theory (physics)|theory]] of [[general relativity]].
 
 Many other combinations $(H \hookrightarrow G)$ may be considered:
 
@@ -61,7 +61,7 @@ Many other combinations $(H \hookrightarrow G)$ may be considered:
 
 ## Higher dimensional supergravity
 
-In the contemporary [[physics]] literature this concept of [[Cartan connection]] may seem to play an orphaned role, at least if one compares the number of occurences of the explicit term [[Cartan connection]] in the physics literature over that of "[[Levi-Civita connection]]",and certainly when compared to the number of contemporary articles that speak of [[geodesics]] without any concept of [[connection]] made explicit.
+In the contemporary [[physics]] literature this concept of [[Cartan connection]] may seem to play an orphaned role, at least if one compares the number of occurrences of the explicit term [[Cartan connection]] in the physics literature over that of "[[Levi-Civita connection]]", and certainly when compared to the number of contemporary articles that speak of [[geodesics]] without any concept of [[connection]] made explicit.
 
 However, this is partly an illusion. Examination of the literature shows that at least as soon as authors consider _[[supergravity]]_, then everything is really secretly formulated in terms of [[supergeometry|super]] [[Cartan geometry]], as only in this formulation is the incorporation of [[fermions]] and  of [[supersymmetry]] really natural.
 
@@ -114,7 +114,7 @@ While the [[cohomology]] of [[Cartesian space]] and [[Minkowski spacetime]] is f
 More precisely, it is the $SO(d-1,1)$-invariant [[group cohomology]] of $Iso(\mathbb{R}^{d-1,1\vert N})$ which has these exceptional cocycles, and hence the [[super Lie algebra|super]] [[Lie algebra cohomology]] of [[super Minkowski spacetime]]. We come to this [below](#TheCompletedBrainScan).
 
 
-But the thing is: ever since [[Paul Dirac]] it is known that given a [[cocycle]] in  [[differential cohomology]] of degree $(p+2)$ on [[spacetime]] $X$  -- such as a [[line bundle with connection]] representing the [[electromagnetic field]] -- then this serves as the [[background field]] for a [[sigma-model]] describing the propagation of a [[p-brane]] in $X$ which is [[charge|charged]] under this [[higher gauge field]] and feels its [[forces]] -- such as, for $p = 0$, an [[electron]] subect to the [[Lorentz force]].
+But the thing is: ever since [[Paul Dirac]] it is known that given a [[cocycle]] in  [[differential cohomology]] of degree $(p+2)$ on [[spacetime]] $X$  -- such as a [[line bundle with connection]] representing the [[electromagnetic field]] -- then this serves as the [[background field]] for a [[sigma-model]] describing the propagation of a [[p-brane]] in $X$ which is [[charge|charged]] under this [[higher gauge field]] and feels its [[forces]] -- such as, for $p = 0$, an [[electron]] subject to the [[Lorentz force]].
 
 Moreover, the consideration of [[Dirac monopoles]] and other [[instantons]] and [[black branes]] shows that given any such [[higher gauge field]], it automatically _induces_ [[p-branes]] which are charged under it: the [[p-brane]] [[sigma model]] turns out to give the [[perturbation theory]] for which the [[black branes]] are the [[non-perturbative effects]].
 
@@ -125,9 +125,9 @@ More in detail, the higher dimensional analog of the [[Lorentz force]], felt by 
 
 Locally this is a simple phenomenon, and this local picture is what most of the physics textbook will ever consider: 
 
-there is a [[differential form|differwential]] [[curvature form|curvature (p+2)-forom]] $\omega$ on the local model space $G/H$, and if that is like [[Minkowski space]] then it is [[contractible space]] hence there is a "higher [[vector potential]]" $A \in \Omega^{p+1}(G/H)$ such that $\omega = \mathbf{d}A$, and the [[action functional]] in question is just that given by [[integration of differential forms]].
+there is a [[differential form|differential]] [[curvature form|curvature (p+2)-form]] $\omega$ on the local model space $G/H$, and if that is like [[Minkowski space]] then it is [[contractible space]] hence there is a "higher [[vector potential]]" $A \in \Omega^{p+1}(G/H)$ such that $\omega = \mathbf{d}A$, and the [[action functional]] in question is just that given by [[integration of differential forms]].
 
-However, already in local model spaces such as [[super Minkowski spacetime]], each $\omega$ may not have such a potentual that is $H$-invariant. Worse, once the [[p-brane]] leaves a given the local model space $G/H \hookrightarrow X$ of [[spacetime]], then one needs a [[higher gauge transformation]] to connect the interaction terms on the two patches. Still worse, these gauge transformation need to glue (need to "[[descent]]" alond the [[cover]] $\coprod_i G/H \to X$) to a globally defined ("non-perturbative", free of [[classical anomalies]]) higher gauge field on all of $X$.
+However, already in local model spaces such as [[super Minkowski spacetime]], each $\omega$ may not have such a potential that is $H$-invariant. Worse, once the [[p-brane]] leaves a given local model space $G/H \hookrightarrow X$ of [[spacetime]], then one needs a [[higher gauge transformation]] to connect the interaction terms on the two patches. Still worse, these gauge transformation need to glue (need to "[[descent]]" along the [[cover]] $\coprod_i G/H \to X$) to a globally defined ("non-perturbative", free of [[classical anomalies]]) higher gauge field on all of $X$.
 
 For the traditional 2d [[WZW model]] this was eventually fairly widely appreciated, for [[higher dimensional WZW models]] this is still much of an open secret.
 
@@ -227,7 +227,7 @@ $$
   \,.
 $$
 
-This is the higher [[infinity-Lie algebra cohomology|L-∞ extension]] classified by the [[cocycle]] in generalization to the familier fact that 2-coycles classify plain [[Lie algebra extensions]].
+This is the higher [[infinity-Lie algebra cohomology|L-∞ extension]] classified by the [[cocycle]] in generalization to the familiar fact that 2-coycles classify plain [[Lie algebra extensions]].
 
 +-- {: .un_prop }
 ###### Proposition 
