@@ -350,7 +350,7 @@ such that for a given [[cover]] by local model space as given by the [[Cartan co
 
 $$
   \array{
-    {\widehat \mathbb{R}}^{d-1,1\vert N}
+    {\widehat{\mathbb{R}}}^{d-1,1\vert N}
     \\
     \downarrow & \searrow^{\mathrlap{\stackrel{\mathbf{L}_{WZW}}}
     \\
