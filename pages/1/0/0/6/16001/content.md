@@ -22,14 +22,43 @@ In the particular case of $\mathcal{M}(\mathbb{Z})$, we will get a natural prope
 
 A rig $\infty$-category is a model of the Lawvere theory of semirings (given by the category with finite products opposite to the category of finitely generated polynomial semirings over the initial semiring $\mathbb{N}$) with values in the category with products of $\infty$-categories. If we give such a rig $\infty$-category
 $$\mathcal{A}:(T_{SRings},\times)\longrightarrow ({}^\infty Cat,\times),$$
-we may associate to it a classical rig-category $\pi_0(\mathcal{A})$. A multiplicative seminorm on $\mathcal{A}$ will be a multiplicative seminorm on $\pi_0(\mathcal{A})$ in the sense of the article cited on this page. If $\mathcal{A}$ is a rig category in the classical sense, one may extend it by a kind of nerve construction to a rig $\infty$-category.
+we may associate to it a classical rig-category $h(\mathcal{A})$. A multiplicative seminorm on $\mathcal{A}$ will be a multiplicative seminorm on $h(\mathcal{A})$ in the sense of the article cited on this page. If $\mathcal{A}$ is a rig category in the classical sense, one may extend it by a kind of nerve construction to a rig $\infty$-category.
 
-In this way, if we start with 
+There is a natural functor from the category of (commutative) rings to the category of rig $\infty$-categories given by sending a ring $A$ to its category $FMod(A)$ of free finitely generated modules, together with their usual direct sum and tensor product. This functor is fully faithful.
+
+A stable symmetric monoidal $\infty$-category is also a natural example of a rig $\infty$-category, with additive homotopy category (since the direct sum monoidal structure is given by the product, or equivalently coproduct, of the given $\infty$-category).
+
+One may define the Berkovich spectrum of a rig $\infty$-category by setting
+$$\mathcal{M}(\mathcal{A})=\mathcal{M}(h(\mathcal{A})).$$
+This means that the Berkovich spectrum doesn't really encode the homotopy information. However, it is quite practical to work with rig $\infty$-categories because they have nice categorical properties such as (at least finite) limits and colimits.
+
+Given a multiplicative seminorm $|\cdot|$ on a rig $\infty$-category $\mathcal{A}$, one may define the associated generalized valuation ring as the rig $\infty$-category $O_\mathcal{A}$ whose homotopy category is given by
+$$h(O_\mathcal{A}):=\{f\in h(\mathcal{A}),\;|f|\leq 1\}.$$
+For example, Haran's definition of the ring of integers of $\mathbb{R}$ is given by
+$$\mathbb{Z}_\eta:=O_{(FMod(\mathbb{R}),\|\cdot\|_2)}.$$
+Remark that the $L^2$ norm $\|\cdot\|_2$ on the rig category $FMod(\mathbb{R})$ may be extended to a family of norms on the rig category $FMod(\mathbb{R}\{X\}^\dagger)$, by putting on the free module $(\mathbb{R}\{X\}^\dagger)^n$ the norms given by
+$$
+\|(\sum a_{i,1} X^i,\dots,\sum a_{i,n} X^i)\|_{\rho,2}:=
+\|(\sum |a_{i,1}|_\infty\rho^i,\dots,\sum |a_{i,n}|_\infty\rho^i)\|_2.
+$$
+This seminorm is only sub-multiplicative for the tensor product operation.
+One may then give a construction of the rig $\infty$-category
+$$
+\mathbb{Z}_\eta\{X\}^\dagger:=O_{FMod(\mathbb{R}\{X\}^\dagger)}.
+$$
+There may also be other interesting ways to define converging power series over $\mathbb{Z}_\eta$ (without forgetting that this generalized ring is not additive, i.e., not a usual ring), and these may be used to define Arakelov compactifications of strict dagger analytic spaces over $(\Z,|\cdot|_\infty)$, using a by hand approach to paste
+the overconvergent spectrum of the seminormed rig category $(\mathbb{Z}_\eta,\|\cdot\|_2)$ and the overconvergent spectrum of the seminormed rig category $(FMod(\mathbb{Z}),\|\cdot\|_2)$ at the point $\|\cdot\|_2$, which corresponds to the archimedean norm $|\cdot|_\infty$ on $\mathbb{Z}$.
+
+Recall that the Berkovich spectrum of $FMod(\mathbb{Z})$ projects on the space of "Artin" seminorms, that fulfill a weak triangle inequality of the form
+$$|a+b|\leq C\,\max(|a|,|b|).$$
+
 
 ## The analytic ringed $\infty$-categories approach
 
 
 ## Complex generalized analytic geometry
+
+**Careful: some corrections to be done here: there is no minus functor**
 
 Before describing the general overconvergent theory, we will discuss the case of complex analytic generalized geometry, that will play an inspiring role in the forthcoming generalizations. We base our considerations on Lurie's notion of analytic rings and on Porta's description of modules over them.
 
