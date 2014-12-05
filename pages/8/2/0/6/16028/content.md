@@ -69,6 +69,8 @@ In fact, higher dimensional supergravity such as [[type II supergravity]], [[het
 
 The only proposal in the physics literature for how to deal with such higher gauge higher supergravity theories _geometrically_ is the [[D'Auria-Fre formulation of supergravity]]. And this is secretly _[[higher Cartan geometry]]_. 
 
+Here [[super L-∞ algebra]] is the joint generalization of [[Lie algebra]] to [[super Lie algebra]] and to [[L-∞ algebra]].
+
 $$
   \array{
     && Lie\;Algebras
@@ -85,8 +87,31 @@ $$
   \,.
 $$
 
+Let $\mathbb{g}$ be a [[finite dimensional vector space]] and write $\wedge^\bullet$ for the [[Grassmann algebra]] of its [[dual vector space]]. A _[[differential]]_ in this algebra is a map $d_{CE} \colon \wedge^\bullet \mathfrak{g} \longrightarrow \wedge^\bullet \mathfrak{g}$ which is a graded [[derivation]] of degree 1 and squares to 0, $(d_{CE})^2 = 0$. One finds that choices of such differentials are equivalent to [[Lie algebra]] structures on $\mathfrak{g}$: a degree 1 derivation $d_{CE}$ on $\wedge^\bullet \mathfrak{g}^\ast$ is equivalently a skew bilinear bracket, and then the condition $(d_{CE})^2 = 0$ is equivalent to the [[Jacobi identity]], hence makes this bracket a [[Lie bracket]]. The resulting [[dg-algebra]] $(CE(\mathfrak{g}), d_{CE})$ is called the _[[Chevalley-Eilenberg algebra]]_ of this Lie algebra.
 
-... [[Chevalley-Eilenberg algebra]]...[[super L-infinity algebra]]... [[super Poincaré Lie algebra]]...
+If we her allow $\mathfrak{g}$ to be a [[super vector space]] so that $\wedge^\bullet \mathfrak{g}^\ast$ is now $(\mathbb{Z}, \mathbb{Z}/2)$-bigraded, and require $d_{CE}$ to be of degree $(1,even)$ (see at ) then in the same way we find that this is equivalent to the structure of a [[super Lie algebra]].
+
+Now more generally, let $\mathfrak{g}$ be a $\mathbb{N}$-[[graded vector space|graded]] [[super vector space]] (degreewise finite dimensional, hence of [[finite type]]). Then choices of degree $(1,even)$ differentials $d_{CE}$ on $\wedge^\bullet \mathfrak{g}^\ast$ are equivalent to choices of [[super L-∞ algebra]] structures on $\mathfrak{g}$.
+
+Finally, still a bit more generally, let $\mathfrak{a}_0 = C^\infty(X)$ be the algebra of functions on some ([[supermanifold|super]]) [[manifold]] $X$, and let $\mathbb{a}$ be an $\mathbb{N}$-graded [[projective module]] over $\mathbb{a}_0$ which in degree 0 is $\mathfrak{a}_0$. Write now $Sym^\bullet_{\mathfrak{a}_0}(\mathfrak{a}^\ast)$ for the graded-symmetric algebra of the $\mathfrak{a}_0$-dual of $\mathfrak{a}$. Now a choice of differential $d_{CE}$ in this ($\mnathbb{R}$-linear, not necesssarily $\mathfrak{a}_0$-linear) gives the structure of a (super) [[L-∞ algebroid]]. We write again
+
+$$
+  CE(\mathfrak{a}) \coloneqq (Sym^\bullet_{\mathfrak{a}_0} \mathfrak{a}^\ast, d_{CE})
+$$
+
+for this [[Chevalley-Eilenberg algebra]].
+
+The [[full subcategory]]
+
+$$
+  s L_\infty Algd \hookrightarrow sdgAlg^{op}
+$$
+
+of that of super-[[dg-algebras]] whose underlying graded algebra is free on a graded super vector space in this way we call that of _super $L_\infty$-algebroids_.
+
+examples
+
+[[super Poincaré Lie algebra]]...
 
 [[super Minkowski spacetime]]:
 
