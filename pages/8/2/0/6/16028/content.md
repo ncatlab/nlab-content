@@ -69,6 +69,32 @@ In fact, higher dimensional supergravity such as [[type II supergravity]], [[het
 
 The only proposal in the physics literature for how to deal with such higher gauge higher supergravity theories _geometrically_ is the [[D'Auria-Fre formulation of supergravity]]. And this is secretly _[[higher Cartan geometry]]_. 
 
+$$
+  \array{
+    && Lie\;Algebras
+    \\
+    &\swarrow && \searrow
+    \\
+    Lie \; n-algebras
+    && && L_\infty-algebras
+    \\
+    & \searrow && \swarrow
+    \\
+    && super\; L_\infty-Algebras
+  }
+  \,.
+$$
+
+
+... [[Chevalley-Eilenberg algebra]]...[[super L-infinity algebra]]... [[super Poincaré Lie algebra]]...
+
+[[super Minkowski spacetime]]:
+
+$\mathbb{R}^{d-1,1\vert N} = \mathfrak{sIso}(d-1,1\vert N)/\mathfrak{so}$
+
+in fact for higher dimensional [[supergravity]] we need [[extended super Minkowski spacetimes]]... To motivate these we now consider WZW models. 
+
+
 ## Higher Wess-Zumino-Witten-type sigma-models
 
 A miracle happens when one passes from [[Lorentzian geometry]] to Lorentzian [[supergeometry]].
@@ -113,21 +139,6 @@ Before proceeding to the explanation of the global higher WZW terms, we consider
 
 We discuss now  a way ([FSS 13](#FSS13)) to find the [[boundary conditions]] and brane condensates via [[homotopy theory]] of [[super L-∞ algebras]] and via the [[cobordism hypothesis]] for [[local prequantum field theory|local prequantum]] [[boundary field theory]].
 
-$$
-  \array{
-    && Lie\;Algebras
-    \\
-    &\swarrow && \searrow
-    \\
-    Lie \; n-algebras
-    && && L_\infty-algebras
-    \\
-    & \searrow && \swarrow
-    \\
-    && super\; L_\infty-Algebras
-  }
-  \,.
-$$
 
 So given a $(p+2)$-[[infinity-Lie algebroid cohomology|cocycle]] on [[super Minkowski spacetime]], which is just a [[homomorphism]] of [[super L-∞ algebras]] of the form
 
