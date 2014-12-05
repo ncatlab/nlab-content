@@ -3,7 +3,9 @@
 * table of contents
 {: toc}
 
-## Definitions
+## Definition
+
+### Traditional
 
 Given a $k$-[[vector bundle]] $p\colon E \to M$ of finite [[rank]] $n$, its __frame bundle__ (or bundle of [[frame of a vector space|frames]] in $E \to M$) is the bundle $F E \to M$ over the same base whose [[fiber]] over $x \in M$ is the set of all vector space [[basis|bases]] of $E_x = p^{-1}(x)$. The frame bundle has a natural action of $GL_n(k)$ given by an ordered change of basis which is free and transitive, i. e., the frame bundle is a [[principal bundle|principal]] $GL_n(k)$-bundle. 
 
@@ -37,6 +39,11 @@ $$
 $$
 
 what shows that the transition functions are smooth (where $GL_n(k)$ has the standard differential structure). 
+
+### In differential cohesion
+
+Formalization of frame bundles in [[differential cohesion]] is discussed there in the section _[Differential cohesion -- Frame bundles](differential+cohesion#GLnTangentBundles)_
+
 ## References
 
 * Wikipedia (English) [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
