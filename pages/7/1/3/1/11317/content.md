@@ -23,6 +23,8 @@ The _Penrose-Hawking singularity theorems_ characterize [[spacetimes]] in the th
 
 [Hellman](#Hellman) suggest this theorem as an example of non[[computable physics]]. See [Frank](#Frank) for a response.
 
+A related problem is that of the [maximal Cauchy development for the Einstein equations](#Sbierski). In this case, at least Zorn's lemma can be avoided.
+
 ## Related concepts
 
 * [[cosmic censorship hypothesis]]
@@ -33,8 +35,10 @@ The _Penrose-Hawking singularity theorems_ characterize [[spacetimes]] in the th
 
 * Wikipedia, _[Penrose-Hawking singularity theorem](http://en.wikipedia.org/wiki/Penrose&#8211;Hawking_singularity_theorems)_
 
-* {#Hellman} Geoffrey Hellman, Mathematical constructivism in spacetime, British Journal for the Philosophy of Science 49 (3):425-450 (1998) [PDF](http://www.jstor.org/stable/688083)
+* {#Hellman} Geoffrey Hellman, _Mathematical constructivism in spacetime_, British Journal for the Philosophy of Science 49 (3):425-450 (1998) [PDF](http://www.jstor.org/stable/688083)
 
-* {#Frank} Matthew Frank, Axioms and aesthetics in constructive mathematics and differential geometry. PhD-thesis, Chicago, 2004.
+* {#Frank} Matthew Frank, _Axioms and aesthetics in constructive mathematics and differential geometry_. PhD-thesis, Chicago, 2004.
+
+* {#Sbierski} Jan Sbierski, _On the Existence of a Maximal Cauchy Development for the Einstein Equations - a Dezornification_ [PDF](http://arxiv.org/abs/1309.7591)
 
 [[!redirects Penrose-Hawking singularity theorem]]
