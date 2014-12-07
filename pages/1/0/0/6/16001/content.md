@@ -32,6 +32,8 @@ One may define the Berkovich spectrum of a rig $\infty$-category by setting
 $$\mathcal{M}(\mathcal{A})=\mathcal{M}(h(\mathcal{A})).$$
 This means that the Berkovich spectrum doesn't really encode the homotopy information. However, it is quite practical to work with rig $\infty$-categories because they have nice categorical properties such as (at least finite) limits and colimits.
 
+Remark that one may be tempted to work with a refined definition of multiplicative seminorm on a rig $\infty$-category, by using enrichment over the (multiplicative) symmetric monoidal category of simplicial $\R_+$-graded sets together with contracting (or simply bounded) maps. The notion of stable $\R_+$-graded rig category may then be given by using $\R_+$-graded spectra, described in the reference on overconvergent global analytic geometry down this page.
+
 Given a multiplicative seminorm $|\cdot|$ on a rig $\infty$-category $\mathcal{A}$, one may define the associated generalized valuation ring as the rig $\infty$-category $O_\mathcal{A}$ whose homotopy category is given by
 $$h(O_\mathcal{A}):=\{f\in h(\mathcal{A}),\;|f|\leq 1\}.$$
 For example, Haran's definition of the ring of integers of $\mathbb{R}$ is given by
@@ -101,3 +103,5 @@ One must be very careful here with the fact that the unit disc and the affine li
 ## References
 
 [[Frédéric Paugam]] _Analytic spectrum of rig categories_ [TAC](http://www.tac.mta.ca/tac/volumes/29/6/29-06abs.html)
+
+[[Frédéric Paugam]] _Overconvergent global analytic geometry_ [arXiv](http://arxiv.org/abs/1410.7971)
