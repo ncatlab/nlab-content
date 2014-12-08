@@ -283,6 +283,11 @@ A comparison of the Karoubi envelope to other completions can be found here:
 
 * [[Marta Bunge]], _Tightly Bounded Completions_ , TAC **28** no. 8 (2013) pp.213-240. ([pdf](http://www.tac.mta.ca/tac/volumes/28/8/28-08.pdf))
 
+Formalization in [[homotopy type theory]]:
+
+* {#Shulman14} [[Mike Shulman]], _[Splitting idempotents](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)_ 
+
+
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
 [[!redirects idempotent-complete category]]
