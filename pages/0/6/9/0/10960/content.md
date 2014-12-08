@@ -2,3 +2,6 @@
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Immanuel_Kant)
 
 category: people
+
+### References
+* Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
