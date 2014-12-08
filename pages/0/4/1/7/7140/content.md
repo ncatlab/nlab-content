@@ -14,6 +14,8 @@ A __meromorphic function__ is a complex-[[analytic function]] valued in the [[Ri
 
 * [[sheaf of meromorphic functions]]
 
+* [[function field of a variety]]
+
 #### Links
 
 * Enc. of Math. [entry](http://www.encyclopediaofmath.org/index.php/Meromorphic_function)
