@@ -65,7 +65,7 @@ See ([Arapura-Oh, 1997](#ArapuraOh97)) for details of this construction.
 
 * Wikipedia, _[Abel-Jacobi map](http://en.wikipedia.org/wiki/Abel&#8211;Jacobi_map)_
 
-Remarks on generalization to the more general context of [[ababelian geometry]] are in
+Remarks on generalization to the more general context of [[anabelian geometry]] are in
 
 * [[Minhyong Kim]], _Galois Theory and Diophantine geometry, 2009 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
 
