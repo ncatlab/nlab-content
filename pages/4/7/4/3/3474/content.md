@@ -7,7 +7,7 @@
 
 The _algebraic fundamental group_ is the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]]. It is essentially the fundamental group as seen by [[étale homotopy]], the _[[étale fundamental group]]_.
 
-For [[fields]] this is essentially the [[Galois group]].
+For [[fields]] this is essentially the [[Galois group]]. For [[smooth varieties]] it is the [[Galois group]] of the maximal [[unramified extension]] of the [[function field of a variety|function field]] of the variety (e.g. [MK 09, p. 3](#Kim09)).
 
 In [[arithmetic geometry]] one also speaks of the _arithmetic fundamental group_.
 
@@ -46,7 +46,7 @@ See also
 
 * {#Kim08} [[Minhyong Kim]], _Fundamental groups and Diophantine geometry_, 2008 ([pdf](http://www.ucl.ac.uk/~ucahmki/leeds.pdf))
 
-* {#Kim09} [[Minhyong Kim]], _Galois theory and Diophantine geometry_, 2008 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
+* {#Kim09} [[Minhyong Kim]], _Galois theory and Diophantine geometry_, 2009 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
 
 
 [[!redirects algebraic fundamental groups]]
