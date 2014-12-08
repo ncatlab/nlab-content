@@ -8,6 +8,7 @@ __Maxim Kontsevich__ (also _&#1052;&#1072;&#1082;&#1089;&#1080;&#1084; &#1050;&#
 Othe resources include
 
 * Lecture: [[wall crossing in Aarhus 2010]]
+* Introductory Lecture: [Calabi-Yau Motives](https://www.youtube.com/watch?v=0M-jXPi_t1I), 2015 Breakthrough Prize in Mathematics Symposium
 
 The [Fields Medal 1998](http://159.226.47.99:8080/general/prize/medal/1998.htm) was awarded for solutions of "four problems in geometry" concerning the subjects: 
 
