@@ -36,11 +36,25 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Nov. 18, 2014: Examples of prefactorization algebras from field theories by Thomas. A finite dimensional analogy --- the divergence complex of a measure, Koszul resolution of the derived critical locus, and the relation to the Chevalley-Eilenberg complex of Heisenberg Lie algebra.  CG: Chap 4.1-4.2.
 
-* Nov. 25, 2014: Continuation of free field theory by Thomas. CG: Chap 4.
+* Nov. 25, 2014: Continuation of free field theory by Thomas. Elliptic complexes, the homotopy equivalence between smooth and distributional sections, free field theories: classical observables and Poisson structure, quantum observables and the BD structure. CG: Chap 4.
 
-* Dec. 2, 2014: An introduction to operads by Malte. LV, F.
+* Dec. 2, 2014: An introduction to operads by Malte. $End$-operad, the definitions of (unital) operads, and algebras over operads. LV, F.
 
-* Dec. 9, 2014: Factorization algebra by Dennis. CG: Chap 6-7.
+* Dec. 9, 2014: (1) A computation of 1d massive free scalars: quantum observables and Weyl algebra by Dorothea. CG: Chap 4.3. (2) $E_n$ operads by Malte. LV, F.
+
+* Dec. 16, 2014: A talk on T-dualities. 
+
+* Jan. 6, 2015: Factorization algebra by Dennis. CG: Chap 6-7.
+
+* Jan. 13, 2015: TBA by Owen Gwilliam.
+
+* Jan. 20, 2015:
+
+* Jan. 27, 2015:
+
+* Feb. 3, 2015:
+
+* Feb. 10, 2015:
 
 
 
