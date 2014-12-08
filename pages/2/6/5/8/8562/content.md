@@ -2,4 +2,10 @@ Minhyong Kim is Professor of Number Theory at the University of Oxford.
 
 * [Webpage](http://people.maths.ox.ac.uk/kimm/)
 
+He has notably written about conceptual questions that appear in [[Diophantine geometry]] ([[arithmetic geometry]]), [[anabelian geometry]] and the [[Langlands program]], for instance in 
+
+
+* _Galois Theory and Diophantine geometry_, 2009 ([pdf](http://people.maths.ox.ac.uk/kimm/papers/cambridgews.pdf))
+
+
 category:people
