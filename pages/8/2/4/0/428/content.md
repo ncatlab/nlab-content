@@ -16,7 +16,7 @@
 
 ## Definition
 
-The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an [[algbera for a monad|algebra-over-a-monad]] $(A, \rho)$ to the ([[augmented simplicial set|augmented]]) [[simplicial object]] whose structure maps are given by the structure maps of the monad and its action on its algebra:
+The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an [[algbera over a monad|algebra-over-a-monad]] $(A, \rho)$ to the ([[augmented simplicial set|augmented]]) [[simplicial object]] whose structure maps are given by the structure maps of the monad and its action on its algebra:
 
 $$
   \mathrm{B}(T,A)
