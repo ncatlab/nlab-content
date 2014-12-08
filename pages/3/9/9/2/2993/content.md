@@ -108,6 +108,8 @@ The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational funct
 
 * [[Tate algebra]], [[polydisk]]
 
+* [[variety]], [[Diophantine equation]]
+
 
 [[!redirects polynomial]]
 [[!redirects polynomials]]
