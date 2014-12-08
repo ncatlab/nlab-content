@@ -16,7 +16,9 @@
 
 ## Idea
 
-Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] [[Spec(Z)]] of the [[commutative ring]] of [[integers]]. More generally often [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
+Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] [[Spec(Z)]] of the [[commutative ring]] of [[integers]]. More generally, [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
+
+Since an [[affine variety]] in this context is given by solutions to [[Diophantine equations]], this is alse called _Diophantine geometry_.
 
 An archetypical application of arithmetic geometry is the study of [[elliptic curves]] over the [[integers]] and the [[rational numbers]].
 
@@ -86,6 +88,9 @@ Lecture notes include
 
 * [[Christophe Soulé|C. Soulé]], D. Abramovich, J. F. Burnol, J. K. Kramer, _Lectures on Arakelov Geometry_, Cambridge Studies in Advanced Mathematics __33__, 188 pp.
 
+and with an eye towards [[anabelian geometry]]:
+
+* {#MK09} [[Minhyong Kim]], _Galois Theory and Diophantine geometry_, 2009 ([pdf](http://people.maths.ox.ac.uk/kimm/papers/cambridgews.pdf))
 
 Further resources include
 
@@ -97,3 +102,8 @@ Further resources include
 
 * conferences in arithmetic geometry, at Kiran Kedlaya's [wiki](http://scripts.mit.edu/~kedlaya/wiki/index.php?title=Conferences_in_Arithmetic_Geometry)
  
+
+[[!redirects arithmetic geometries]]
+
+[[!redirects Diophantine geometry]]
+[[!redirects Diophantine geometries]]
