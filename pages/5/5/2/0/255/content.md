@@ -136,6 +136,8 @@ Classically, if $\mathbf{T}$ is an algebraic theory (e.g. the theory of groups),
 
 To capture the theory fully, we need to include a little more data: a natural map $\eta_X : X \to T X$ recording how each $a \in X$ gives a trivial term $a$, and a map $\mu_X:T T X \to T X$ recording how further terms built from terms are already present as terms in $T X$.  
 
+Given a monad in [[Cat]] on a category $C$, one can always produce a [[canonical resolution]] of any object of $C$. 
+
 ### Other examples
 
 * Monads on [[partial order|posets]] are particularly simple (in particular, they are always [[idempotent monad|idempotent]]).  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
