@@ -88,14 +88,15 @@ Introductions and expository surveys include
 
 * {#Gelbhart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
-  [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
+* [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
 
 * Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
 
+* {#MK14} [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, 2014 ([pdf](http://people.maths.ox.ac.uk/vonk/automorphic/functoriality.pdf))
+ 
 Discussion with an eye towards [[geometric class field theory]] and [[geometric Langlands duality]] is in 
 
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
-
 
 * {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
 
