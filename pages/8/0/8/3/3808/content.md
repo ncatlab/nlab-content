@@ -16,9 +16,11 @@
 
 ## Idea
 
-**Number theory** (or **arithmetic**) studies numbers, especially [[integers]]. Typical questions are the distrubution of prime numbers and the study of integer (or rational) solutions of algebraic equations with integer coefficients, also called **Diophantine equation**. By a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in mathematics (say ZF set theory) there is a Diophantine equation whose solvability is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. 
+**Number theory** (or **arithmetic**) studies numbers, especially [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) solutions of [[algebraic equations]] with integer coefficients, also called **[[Diophantine equations]]**. 
 
-Analytic study of the asymptotic behaviour of the distrubution of prime numbers on the positive integer line is the main subject of **analytic number theory**; it also studies the distribution of rational numbers with small denominators. 
+(Notice that by a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in mathematics (say ZF set theory) there is a Diophantine equation whose solvability is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
+
+The analytic study of the asymptotic behaviour of the distrubution of prime numbers on the positive integer line is the main subject of **analytic number theory**; it also studies the distribution of rational numbers with small denominators. 
 
 A roots of an algebraic equation with integral (or equivalently, with rational) coefficients is called an [[algebraic number]]. Extending the field $\mathbb{Q}$ of rational numbers by abstract solutions of such an algebraic equation in a minimal way leads to an algebraic extensions of rationals, so called [[number field]]. There is a number of algebraic structures related to the study of algebraic integers and number fields in particular; these questions comprise [[algebraic number theory]] including its central part, the [[class field theory]]. 
 The [[Galois theory]] is one of the principal ways of study of such questions. [[algebraic geometry|Algebraic geometry]] is very effective in the expression and study to more elaborate questions in this study which in its historical development brought up very many major concepts of [[algebra]] and algebraic geometry including central notions like a [[group]], [[ideal]], and Grothendieck [[motive]].
