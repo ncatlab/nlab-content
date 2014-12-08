@@ -34,7 +34,11 @@ Georg Philipp Friedrich Freiherr von Hardenberg (Novalis) (May 2, 1772 &#8211; M
 
 ### References
 
-* [[Paul Redding]], _[Mathematics, Computation, Language and Poetry: The Novalis Paradox](http://paulredding.net/Novalis%20Paradox-final.pdf)_
+* Dalia Nassar (ed), _[The Relevance of Romanticism: Essays on German Romantic Philosophy](http://books.google.com/books?id=V6rFAgAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q=wood&f=false)_ Oxford University Press (2014)
+
+  * [[Paul Redding]], "[Mathematics, Computation, Language and Poetry: The Novalis Paradox](http://paulredding.net/Novalis%20Paradox-final.pdf)", essay 12
+
+  * [[David W. Wood]], "The "Mathematical" Wissenschaftslehre: On a Late Fichtean Reflection of Novalis", essay 14
 
 * [[Fernando Zalamea]], _[Singularidades, Ramificati&#243;n, y Continuidad: Un Encuentro entre Riemann, Beethoven, y Novalis](http://www.virtual.unal.edu.co/revistas/bolmat/revista/volumen11/parte1/art2.pdf)_
 
