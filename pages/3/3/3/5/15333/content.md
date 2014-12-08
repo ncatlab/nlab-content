@@ -35,6 +35,8 @@ On an [[integral scheme]] this amounts to forming [[fields of fractions]] of the
 
 * [[sheaf of meromorphic functions]]
 
+* [[function field of a variety]]
+
 
 ## References
 
