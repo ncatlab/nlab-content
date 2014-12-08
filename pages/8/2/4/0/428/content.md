@@ -14,24 +14,24 @@
 {:toc}
 
 
-## Idea
+## Definition
 
-The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an algebra-over-a-monad $(A, \rho)$ to the (augmented) [[simplicial object]]
+The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an [[algbera for a monad|algebra-over-a-monad]] $(A, \rho)$ to the ([[augmented simplicial set|augmented]]) [[simplicial object]] whose structure maps are given by the structure maps of the monad and its action on its algebra:
 
 $$
   \mathrm{B}(T,A)
-  :=
+  \coloneqq
   \left(
     \cdots
-    \stackrel{\to}{\stackrel{\to}{\to}}
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
     T T A
-    \stackrel{\stackrel{\mu \cdot Id_A}{\to}}{\stackrel{T \cdot \rho}{\to}}
-    T A \stackrel{\rho}{\to} A
+    \stackrel{\stackrel{\mu \cdot Id_A}{\longrightarrow}}{\stackrel{T \cdot \rho}{\longrightarrow}}
+    T A \stackrel{\rho}{\longrightarrow} A
   \right)
     \,.
 $$
 
-This simplicial object is a [[resolution]] of $A$.
+This simplicial object is typically a [[resolution]] of $A$.
 
 
 ## Properties
@@ -52,6 +52,7 @@ In fact, the bar construction is the _universal_ resolution in the sense of
 (...)
 
 =--
+
 
 ## Special cases
 
@@ -77,8 +78,8 @@ The bar construction $\mathrm{B}(A,N)$ is then the simplicial module
 
 $$
   \cdots
-  \stackrel{\to}{\stackrel{\to}{\to}}
-  N \otimes_k A \otimes_k A \stackrel{\overset{Id \otimes \mu}{\to}}{\underset{\rho \otimes Id}{\to}} N \otimes_k A
+  \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  N \otimes_k A \otimes_k A \stackrel{\overset{Id \otimes \mu}{\longrightarrow}}{\underset{\rho \otimes Id}{\longrightarrow}} N \otimes_k A
   \,.
 $$
 
