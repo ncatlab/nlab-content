@@ -5,3 +5,4 @@ category: people
 
 ### References
 * Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
+  * Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
