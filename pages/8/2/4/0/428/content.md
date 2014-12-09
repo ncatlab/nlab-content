@@ -14,7 +14,7 @@
 {:toc}
 
 
-## Definition
+## Idea 
 
 The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an [[algebra over a monad|algebra-over-a-monad]] $(A, \rho)$ to the ([[augmented simplicial set|augmented]]) [[simplicial object]] whose structure maps are given by the structure maps of the monad and its action on its algebra:
 
@@ -31,7 +31,82 @@ $$
     \,.
 $$
 
-This simplicial object is typically a [[resolution]] of $A$, see also at _[[canonical resolution]]_.
+This simplicial object can be viewed as a [[resolution]] of $A$, in a sense explained below. 
+
+## Definition 
+
+Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a monad on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the category of $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
+
+Recall that the (augmented) [[simplex category]], viz. the category consisting of finite [[ordinals]][^fine] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among strict [[monoidal categories]] equipped with a monoid object. The monoidal product on $\Delta$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the terminal object $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine]. 
+
+[^fine]: N.B.: including the empty ordinal. 
+
+[^fine]: If $X: \Delta^{op} \to C$ is a simplicial object, then $X([n])$ is what is usually denoted $X_{n-1}$, the object of cells in dimension $n-1$. Note that $X([0]) = X_{-1}$ is the augmented component. The $n$ can be thought of as the number of vertices of a simplex of dimension $n-1$. We choose the index $n$ over the geometric dimension $n-1$ as it is more convenient for our purposes. 
+
+Similarly $\Delta^{op}$ is the walking [[comonoid]]. Since the [[comonad]] $F U$ on $\mathbf{E}^T$ can be regarded as a comonoid in the strict monoidal category of endofunctors $[\mathbf{E}^T, \mathbf{E}^T]$ (with endofunctor composition as monoidal product), there is a unique monoidal functor 
+
+$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T]$$ 
+
+that takes the generic monoid $[1]$ to $F U$ and generally $[n]$ to $(F U)^{\circ n}$. 
+
+If furthermore $A$ is a $T$-algebra, there is an evaluation functor 
+
+$$[\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}$$ 
+
+and we have the following definition: 
+
++-- {: .num_defn} 
+###### Definition 
+The **bar construction** $Bar_T(A)$ is the simplicial $T$-algebra given by the composite functor 
+
+$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}.$$ 
+
+The composite 
+
+$$\Delta^{op} \stackrel{Bar_T(A)}{\to} \mathbf{E}^T \stackrel{U}{\to} \mathbf{E}$$ 
+
+will here be called the **bar resolution** of $A$. 
+=-- 
+
+In the notation of [[two-sided bar constructions]], the bar construction would be written as $Bar_T(A) = B(T, T, A)$. 
+
+## Decalage and resolutions 
+
+### Decalage 
+
+To explain the sense in which $U Bar_T(A)$ is an *acyclic resolution* of (the constant simplicial object) $A$, we recall the fundamental [[decalage]] construction. Very simply, putting 
+
+$$D = [1] + (-): \Delta^{op} \to \Delta^{op}$$ 
+
+the decalage functor on simplicial objects $C^{\Delta^{op}}$ (valued in a category $C$) is the functor 
+
+$$C^{\Delta^{op}} \stackrel{(1_C)^D}{\to} C^{\Delta^{op}}.$$ 
+
+For reasons explained in a moment, we denote the decalage functor by $P$. Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta^{op}$), and therefore $P$ also carries a comonad structure. 
+
+The notation $P$ is chosen because decalage is essentially a kind of path space construction, a simplicial analogue of a topological pullback 
+
+$$\array{
+P X & \to & X^I & \stackrel{ev_1} X \\ 
+\downarrow & & \downarrow_\mathrlap{ev_0} & \\ 
+{|X|} & \underset{id}{\to} & X
+}$$ 
+
+where $id: {|X|} \to X$ is the identity inclusion of the underlying set with the discrete topology. $P X$ is essentially a sum of spaces of based paths $(\alpha: (I, 0) \to (X, x_0)$ over all possible choices of basepoint $x_0$, fibered over $X$ by taking $\alpha$ to $\alpha(1)$. Each space of based paths is contractible and therefore $P X$ is acyclic. 
+
+The following is a kind of nonce expression; this author (Todd Trimble) does not know how this is referred to in the literature: 
+
++-- {: .num_defn} 
+###### Definition 
+An **acyclic structure** on a simplicial object $X: \Delta^{op} \to C$ is a $P$-coalgebra structure $X \to P X$. 
+=-- 
+
+Here a $P$-coalgebra structure on $X$ is the same as a *right* $D$-coalgebra (or $D$-comodule) structure, given by a simplicial map $h: X \to X \circ D$ satisfying evident equations. In more nuts-and-bolts terms, it consists of a series of maps $h_n: X([n]) \to X([n+1])$ satisfying suitable equations. 
+
+The map $h: X \to X D$ is a homotopy. Again, turning to the topological analogue for intuition, the corresponding $h: X \to P X$ is a homotopy (or rather, the composite $X \to P X \to X^I$ can be turned into a homotopy $I \times X \to X$). The coalgebra structure $h: X \to P X$ has a retraction given by the counit $\varepsilon: P X \to X$ ... (to be continued). 
+
+### Resolutions 
+
 
 
 ## Properties
