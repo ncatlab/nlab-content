@@ -384,6 +384,7 @@ The following proposition says that the construction in lemma \ref{Reconstructio
 There is an [[(∞,1)-pullback]] of [[(∞,1)-categories]] of the form
 
 $$
+
   \array{
     Stab(\mathbf{H}) &\stackrel{\flat_{dR} \Sigma}{\longrightarrow}&
     ker(\flat)
@@ -465,7 +466,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
     \\
-    \flat \Pi_{dR} A  && \Downarrow^{\mathrlap{a}} && A && \Downarrow^{\mathrlap{b}} && \Pi \flat_{dR} A
+    \Pi_{dR} \flat  A  && \Downarrow^{\mathrlap{a}} && A && \Downarrow^{\mathrlap{b}} && \Pi \flat_{dR} A
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_A}}
     \\
