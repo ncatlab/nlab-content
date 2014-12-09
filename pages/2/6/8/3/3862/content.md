@@ -196,7 +196,7 @@ Cauchy&#8211;Riemann operators over Riemann Surfaces_, 2005 ([pdf](http://www.cs
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([pdf](http://www.pnas.org/content/81/8/2597.full.pdf) at pnas site)
 
-* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002), [revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
 
 * [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
 
