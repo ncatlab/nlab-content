@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
 Let $K$ be the strict [[2-category]] [[Cat]] and $C$ a [[category]] in $K$. Then we can identify a [[monad]] on $C$ with an [[endofunctor]] $T:C\to C$ which is a [[monoid]] in $K(C,C)$. We recall that for any [[object]] $c$ of $C$, we obtain a certain sort of [[resolution]] of $c$. Note that the canonical resolution is not a resolution in the sense of the above cited nLab page because it is not necessarily acyclic or [[contractible]] in the relevant sense. In other words, it does not always have trivial [[cohomology]], especially since our category may not even be equipped with such a notion. 
 
@@ -17,10 +32,13 @@ Note that we can consider this internal [[bar construction]] to also be the cano
 
 This [[bar construction]] can also be obtained by precomposing $CanRes_T$ with the functor that includes $\Delta^{op}_+\hookrightarrow \Delta$ as the subcategory whose morphisms preserve the minimal and maximal elements of finite totally ordered sets. 
 
-##Examples
+## Examples
 
-###The bar resolution
-There is a monad on [[Set]], the category of sets, comprising the free abelian group functor $F:Set\to Ab$ and the forgetful functor $U:Ab\to Set$. The category of algebras of this monad is precisely the category of Abelian groups (in other words, the [[free abelian group]] functor $F$ is [[monadic]]). Thus we can produce the cosimplicial canonical resolution of any set $X$. If $X$ supports (at least one) abelian group structure, then we can add a codegeneracy to the canonical resolution which defines the usual [[bar construction]] on $X$ with that particular abelian group structure.  
+### The bar resolution for abelian groups
+
+There is a monad on [[Set]], the category of sets, comprising the [[free abelian group]] functor $F \colon Set\to Ab$ and the [[forgetful functor]] $U \colon Ab\to Set$. The [[Eilenberg-Moore category|category of algebras]] of this monad is precisely the category of [[abelian groups]] (in other words, the [[free abelian group]] functor $F$ is [[monadic]]). 
+
+Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$ supports (at least one) abelian group structure, then we can add a codegeneracy to the canonical resolution which defines the usual [[bar construction]] on $X$ with that particular abelian group structure.  
 
 
 ##References 
