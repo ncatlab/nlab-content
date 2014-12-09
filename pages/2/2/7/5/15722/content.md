@@ -20,7 +20,9 @@ That it is in particular the Euler product of characteristic polynomials of the 
 
 Notice that this is analogous to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
+### Relation to the eta-function
 
+Under suitable conditions, the Selber zeta function is an exponential of the [[eta function]] of a suitable [[Dirac operator]] ([Park 01, theorem 1.2](#Park01)). 
 
 ## Related concepts
 
