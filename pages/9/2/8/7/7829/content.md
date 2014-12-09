@@ -241,13 +241,15 @@ Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] inclu
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
-Discussion if the eta-invariant on manifolds with boundary as taking vakues in the determinant line is due to
+Discussion of the eta-invariant on manifolds with boundary as taking values in the determinant line is due to
 
-* {#DaiFreed94} [[Xianzhe Dai]] [[Daniel Freed]], _Eta-Invariants and Determinant Lines_ ([arXiv:hep-th/9405012](http://arxiv.org/abs/hep-th/9405012))
+* {#DaiFreed94} [[Xianzhe Dai]] [[Daniel Freed]], _$\eta$-Invariants and Determinant Lines_, J. Math. Phys. 35 (1994),
+5155&#8211;5194 and C. R. Acad. Sci. Paris (1995),
+585&#8211;592 ([arXiv:hep-th/9405012](http://arxiv.org/abs/hep-th/9405012))
 
 with review and streamlined results in
 
-* {#Freed95} [[Daniel Freed]], _Determinant line bundles revisited_ ([arXiv:dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+* {#Freed95} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002), [revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
 
 
 [[!redirects eta invariant]]
