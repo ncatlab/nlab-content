@@ -509,7 +509,7 @@ $$
 #### Relation to infinitesimal cohesion
  {#RelationToInfinitesimalCohesion}
 
-We discuss how differentiatl cohesion in the sense of def. \ref{InfinitesimalCohesiveInfTopos} relates to [[infinitesimal cohesion]].
+We discuss how differential cohesion in the sense of def. \ref{InfinitesimalCohesiveInfTopos} relates to [[infinitesimal cohesion]].
 
 +-- {: .num_defn #InducedRelativeShapeAndFlat}
 ###### Definition
@@ -571,7 +571,7 @@ We call $&#643;^{rel}$ the _[[relative shape modality]]_ and $\flat^{rel}$ the _
 
 The relative shape and flat modalities of def. \ref{InducedRelativeShapeAndFlat}
 
-1. form an [[adjoint pair]] $(&#643;^{rel} \dash \flat^{rel})$;
+1. form an [[adjoint pair]] $(&#643;^{rel} \dashv \flat^{rel})$;
 
 1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to &#643;_{inf}$ is an [[equivalence]];
 
@@ -596,7 +596,7 @@ $$
 $$
 
 hence an intermediate subtopos 
-$\infy Grpd \hookrightarrow \mathbf{H}_{infinitesimal}\hookrightarrow \mathbf{H}_{th}$ which is [[infinitesimal cohesion|infinitesimally cohesive]].
+$\infty Grpd \hookrightarrow \mathbf{H}_{infinitesimal}\hookrightarrow \mathbf{H}_{th}$ which is [[infinitesimal cohesion|infinitesimally cohesive]].
 
 
 
