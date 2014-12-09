@@ -104,18 +104,73 @@ In particular this means that under the above assumptions the [[functional deter
 $$
   det (D^2) 
    = 
-  \exp( \frac{\partial}{\partial s}\frac{\partial}{\partial c} \eta_{D}(0))
+  \exp\left( 
+    \frac{\partial}{\partial s}\frac{\partial}{\partial c} \eta_{D}(0)
+  \right)
   \,.
 $$
 
 ### Relation with L-function
  {#AnalogyWithLSeries}
 
-
-
 Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly-Singer 83](#AtiyahDonellySinger83), [Podesta 14](#Podesta14))
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+
+### On manifolds with boundaries: as sections of the determinant line
+ {#OnManifoldsWithBoundary}
+
+Let $\pi \colon X \to Z$ be a $Z$-parameterized collection of [[spin structure|spin]] [[Riemannian manifold]] of odd [[dimension]] with [[boundary]].
+
+Equip the corresponding collection of [[Dirac operators]] $D_X$ with the [[boundary condition]] given by a choice of [[isometry]]
+
+$$
+  Ker^+ D_{\partial X} \simeq Ker^- D_{\partial X}
+  \,.
+$$
+
+Define then the exponentiated eta-invariant to be the element
+
+$$
+  \tau_X 
+   \coloneqq 
+  \exp\left(
+    \pi i 
+    \left(   
+        \eta_X(0)  + dim\left(ker D_X\right)
+    \right)
+  \right)
+  \in
+  Det^{-1}_{\partial X}
+$$
+
+in the inverse of the [[determinant line]]
+
+$$
+  Det_{\partial X} 
+    \coloneqq
+  \left(
+    det\left(ker^- D_{\partial X}\right)
+  \right)
+  \otimes
+  \left(
+    det\left(ker^+ D_{\partial X}\right)
+  \right)^{-1}
+  \,.
+$$
+
+In fact this is a smooth [[section]] of the [[determinant line bundle]] as $X$ varies. 
+
++-- {: .num_prop}
+###### Proposition
+
+These sections satisfy the [[sewing law]].
+
+=--
+
+Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95](#Freed95)).
+
 
 ## Examples
 
@@ -185,6 +240,15 @@ Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] inclu
 * Lisa Jeffrey, _Symplectic quantum mechanics and Chern-Simons gauge theory I_,  ([arxiv/1210.6635](http://arxiv.org/abs/1210.6635))
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
+
+Discussion if the eta-invariant on manifolds with boundary as taking vakues in the determinant line is due to
+
+* {#DaiFreed94} [[Xianzhe Dai]] [[Daniel Freed]], _Eta-Invariants and Determinant Lines_ ([arXiv:hep-th/9405012](http://arxiv.org/abs/hep-th/9405012))
+
+with review and streamlined results in
+
+* {#Freed95} [[Daniel Freed]], _Determinant line bundles revisited_ ([arXiv:dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
 
 [[!redirects eta invariant]]
 [[!redirects eta invariants]]
