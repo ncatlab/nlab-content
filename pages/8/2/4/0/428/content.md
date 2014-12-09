@@ -35,21 +35,21 @@ This simplicial object can be viewed as a [[resolution]] of $A$, in a sense expl
 
 ## Definition 
 
-Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a monad on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the category of $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
+Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
 
-Recall that the (augmented) [[simplex category]], viz. the category consisting of finite [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among strict [[monoidal categories]] equipped with a monoid object. The monoidal product on $\Delta$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the terminal object $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
+Recall that the ([[augmented simplicial set|augmented]]) [[simplex category]], viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
 
 [^fine1]: N.B.: including the empty ordinal. 
 
 [^fine2]: If $X: \Delta^{op} \to C$ is a simplicial object, then $X([n])$ is what is usually denoted $X_{n-1}$, the object of cells in dimension $n-1$. Note that $X([0]) = X_{-1}$ is the augmented component. The $n$ can be thought of as the number of vertices of a simplex of dimension $n-1$. We choose the index $n$ over the geometric dimension $n-1$ as it is more convenient for our purposes. 
 
-Similarly $\Delta^{op}$ is the walking [[comonoid]]. Since the [[comonad]] $F U$ on $\mathbf{E}^T$ can be regarded as a comonoid in the strict monoidal category of endofunctors $[\mathbf{E}^T, \mathbf{E}^T]$ (with endofunctor composition as monoidal product), there is a unique monoidal functor 
+Similarly $\Delta^{op}$ is the walking [[comonoid]]. Since the [[comonad]] $F U$ on $\mathbf{E}^T$ can be regarded as a [[comonoid]] in the strict monoidal category of [[endofunctors]] $[\mathbf{E}^T, \mathbf{E}^T]$ (with endofunctor composition as monoidal product), there is a unique [[strong monoidal functor]] 
 
 $$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T]$$ 
 
 that takes the generic monoid $[1]$ to $F U$ and generally $[n]$ to $(F U)^{\circ n}$. 
 
-If furthermore $A$ is a $T$-algebra, there is an evaluation functor 
+If furthermore $A$ is a $T$-algebra, there is an [[evaluation]] functor 
 
 $$[\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}$$ 
 
@@ -70,11 +70,11 @@ will here be called the **bar resolution** of $A$.
 
 In the notation of [[two-sided bar constructions]], the bar construction would be written as $Bar_T(A) = B(T, T, A)$. 
 
-## Decalage and resolutions 
+## D&#233;calage and resolutions 
 
-### Decalage 
+### D&#233;calage 
 
-To explain the sense in which $U Bar_T(A)$ is an *acyclic resolution* of (the constant simplicial object) $A$, we recall the fundamental [[decalage|décalage]] construction. Very simply, putting 
+To explain the sense in which $U Bar_T(A)$ is an *acyclic resolution* of (the constant simplicial object) $A$, we recall the fundamental [[décalage]] construction. Very simply, putting 
 
 $$D = [1] + (-): \Delta^{op} \to \Delta^{op}$$ 
 
@@ -82,12 +82,12 @@ the d&#233;calage functor on simplicial objects $C^{\Delta^{op}}$ (valued in a c
 
 $$P: C^{\Delta^{op}} \stackrel{(1_C)^D}{\to} C^{\Delta^{op}}.$$ 
 
-Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta^{op}$), and therefore $P$ also carries a comonad structure. Notice also that there is a comonad map $D \to [1]\circ !$ (where $[1]: 1 \to \Delta^{op}$ is left adjoint to $!: \Delta^{op} \to 1$ since $[1]$ is initial in $\Delta^{op}$), induced by the evident natural inclusion $[1]+i: [1]+[0] \to [1]+[m]$ in $\Delta$. This in turn induces a comonad map $P X \to {|X|}$ where 
+Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta^{op}$, see also at _[d&#233;calage -- comonad structure](decalage#DecalageComonad)_), and therefore $P$ also carries a comonad structure. Notice also that there is a comonad map $D \to [1]\circ !$ (where $[1]: 1 \to \Delta^{op}$ is left adjoint to $!: \Delta^{op} \to 1$ since $[1]$ is initial in $\Delta^{op}$), induced by the evident natural inclusion $[1]+i: [1]+[0] \to [1]+[m]$ in $\Delta$. This in turn induces a comonad map $P X \to {|X|}$ where 
 ${|-|}$ is the composite ("discretization"): 
 
 $$C^{\Delta^{op}} \stackrel{ev_{[1]}}{\to} C \stackrel{diag}{\to} C^{\Delta^{op}}.$$
 
-The notation $P$ is chosen because d&#233;calage is essentially a kind of path space construction, i.e., in the case $C = Set$ it is a simplicial sets analogue of a topological pullback 
+The notation $P$ is chosen because d&#233;calage is essentially a kind of [[path space]] construction, i.e., in the case $C = Set$ it is a [[simplicial sets]] analogue of a topological pullback 
 
 $$\array{
 P X & \to & X^I & \stackrel{ev_1}{\to} X \\ 
@@ -112,7 +112,7 @@ Observe that this gives an *absolute* notion of acyclicity, in the sense that if
 
 ### Resolutions 
 
-Returning now to the bar resolution $U Bar_T(A)$: there is a canonical natural isomorphism $T \circ U Bar_T \cong U Bar_T \circ D$ obtained as the following 2-cell pasting 
+Returning now to the bar resolution $U Bar_T(A)$: there is a canonical [[natural isomorphism]] $T \circ U Bar_T \cong U Bar_T \circ D$ obtained as the following 2-cell pasting 
 
 $$\array{
 \Delta^{op} & \stackrel{Bar_T}{\to} & [\mathbf{E}^T, \mathbf{E}^T] & \stackrel{[id, U]}{\to} & [\mathbf{E}^T, \mathbf{E}] \\ 
