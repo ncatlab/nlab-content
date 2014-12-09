@@ -31,7 +31,7 @@ $$
     \,.
 $$
 
-This simplicial object is typically a [[resolution]] of $A$.
+This simplicial object is typically a [[resolution]] of $A$, see also at _[[canonical resolution]]_.
 
 
 ## Properties
