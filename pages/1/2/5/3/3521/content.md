@@ -359,6 +359,7 @@ $$
 
 
 ### D&#233;calage comonad 
+ {#DecalageComonad}
 
 D&#233;calage also has an abstract [[category theory|category theoretic]] description as follows. The [[simplex category]], as a [[monoidal category]] $(\Delta, +, 0)$ equipped with the [[monoid]] $1$, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking [[comonoid]]; as a result, there is a [[comonad]] 
 
@@ -404,6 +405,9 @@ $$N G_1/d_2(NG_2)\to N G_0,$$
 
 which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$. This crossed module represents the [[homotopy 2-type]] of $G$. Applying the d&#233;calage  twice  leads to a [[crossed square]] which represents the 3-type of $G$, ... and so on.
 
+## Related concepts
+
+* [[bar construction]]
 
 ## References
 
