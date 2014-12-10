@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of conntents
 {:toc}
@@ -28,7 +38,7 @@ $$
   Spec(\mathbb{F}_p) \hookrightarrow Spec(\mathbb{Z})
 $$
 
-(dual to the canonical projection $\mathbb{Z}\to \mathbb{F}_p$) are analogous to [[knots]] inside this 3-dimensional space (a good exposition is in [LeBruyn](#LeBruyn10)). 
+(formally dual to the canonical mod-$p$ [[projection]] $\mathbb{Z}\to \mathbb{F}_p$) are analogous to [[knots]] inside this 3-dimensional space (a good exposition is in [LeBruyn](#LeBruyn10)). 
 
 Observations like this give rise to the field of [[arithmetic topology]].
 
