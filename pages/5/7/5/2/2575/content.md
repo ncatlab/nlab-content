@@ -378,7 +378,16 @@ $$
 has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf{c}_{conn}])$ modulates the WZW 2-bundle. This is precisely the content of the second line in the table above.
 
 
-### Perturbative BV deformation quantization
+### Perturbative quantization
+
+#### Path integral quantization
+ {#PerturbativePathIntegralQuantization}
+
+[Witten (1989), section 2](#Witten) indicates the [[perturbation theory|perturbative]] [[path integral quantization]] of Chern-Simons theory and finds that the result is essentially the exponentiated [[eta invariant]] ([hence](eta+invariant#OnOddDimensionalManifolds) the [[Selberg zeta function]]) times the contributions of the CS [[action functional]] on classical trajectories ([Witten 89 (2.17) (2.23)](#Witten)).
+
+For more on this see at _[eta invariant -- Boundaries, determinant line bundles and perturbative Chern-Simons](eta+invariant#OnManifoldsWithBoundary)_.
+
+#### BV deformation quantization
  {#PerurbativeBVDeformationQuantization}
 
 We discuss the [[perturbation theory|perturbative]] [[deformation quantization]] of Chern-Simons theory to a [[factorization algebra of local observables]] along the lines of _[renormalization -- Of theories in BV-CS forms](renormalization#OfTheoriesInBVForm)_ ([Costello](#Costello)).
@@ -391,7 +400,7 @@ and then perturbatively introduce the [[interactions]] by  [[renormalization|ren
 
 * _[The renormalized quantum master equation](#TheRenormalizedQuantumMasterEquation)_.
 
-#### The BV-BRST complex of the underlying free field theory
+##### The BV-BRST complex of the underlying free field theory
  {#TheBVBRSTComplexOfTheUnderlyingFreeFieldTheory}
 
 Fix $(\mathfrak{g}, \langle -,-\rangle_{\mathfrak{g}})$ a [[Lie algebra]] equipped with a binary and non-degenerate [[invariant polynomial]] (for instance a [[semisimple Lie algebra]] with [[Killing form]]).
@@ -495,7 +504,7 @@ $$
   \,.
 $$
 
-#### The renormalized quantum master equation
+##### The renormalized quantum master equation
  {#TheRenormalizedQuantumMasterEquation}
 
 Next we want to add to the above free field theory the [[interaction]] term $I$.
