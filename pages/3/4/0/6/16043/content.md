@@ -17,7 +17,20 @@
 
 A _prime geodesic_ is a primitive closed [[geodesic]] in a [[hyperbolic manifold]].
 
-Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]] to [[prime numbers]] in [[arithmetic geometry]]. (...)
+
+## Properties
+
+### Analogy with prime numbers
+
+Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]] to [[prime numbers]] and [[prime ideals]] in [[arithmetic geometry]]. 
+
+Notably the appear in the [[Selberg zeta function]] (see there) in the same way as prime ideals appear in the [[Artin L-function]], and moreover their [[asymptotics]] is controled in an analogous way by this function via the [[prime geodesic theorem]] as that of prime numbers is by the [[prime number theorem]] and the [[Riemann zeta function]].
+
+See also [Wikipedia, prime geodesic -- Number theory](http://en.wikipedia.org/wiki/Prime_geodesic#Number_theory).
+
+### Prime geodesic theorem
+
+The [[prime geodesic theorem]] (e.g. [Soundararajan-Young 13](#SoundararajanYoung13)) describes the [[asymptotic]] distribution of prime geodesics in [[analogy]] to the [[prime number theorem]].
 
 ## Related concepts
 
@@ -27,7 +40,7 @@ Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]]
 
 * Wikipedia, _[Prime geodesic](http://en.wikipedia.org/wiki/Prime_geodesic)_
 
-* K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_, 	J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
+* {#SoundararajanYoung13} K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_,J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
 
 
 * Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8
