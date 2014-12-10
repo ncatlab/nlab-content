@@ -198,6 +198,7 @@ These sections satisfy the [[sewing law]].
 
 Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95](#Freed95)).
 
+This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]], a point of view highlighted in ([Bunke 94](#Bunke94)).
 
 ## Examples
 
@@ -275,11 +276,15 @@ Discussion of the eta-invariant on manifolds with boundary is in
 
 * {#M&#252;ller94} Werner M&#252;ller, _Eta invariants and manifolds with boundary_, J. Diff. Geom. 40 (1994) 311-377 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mueller.pdf))
 
+* {#Bunke94} [[Ulrich Bunke]], _The $\eta$-Invariant as a Lagrangian of a Topological Quantum Field Theory_ ([arXiv:hep-th/9408162](http://arxiv.org/abs/hep-th/9408162))
+
 and regarding the result as taking values in the determinant line over the boundary is due to
 
 * {#DaiFreed94} [[Xianzhe Dai]] [[Daniel Freed]], _$\eta$-Invariants and Determinant Lines_, J. Math. Phys. 35 (1994),
 5155&#8211;5194 and C. R. Acad. Sci. Paris (1995),
 585&#8211;592 ([arXiv:hep-th/9405012](http://arxiv.org/abs/hep-th/9405012))
+
+
 
 with review and streamlined results in
 
