@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _prime geodesic_ is a primitive closed [[geodesic]] in a [[hyperbolic manifold]].
+
+Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]] to [[prime numbers]] in [[arithmetic geometry]]. (...)
+
+## Related concepts
+
+* The [[Selberg zeta function]] of a hyperbolic manifold is an [[infinite product]] over prime geodesics.
+
+## References
+
+* Wikipedia, _[Prime geodesic](http://en.wikipedia.org/wiki/Prime_geodesic)_
+
+* K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_, 	J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
+
+
+* Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8
+
+
+[[!redirects prime geodesics]]
