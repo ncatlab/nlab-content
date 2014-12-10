@@ -34,6 +34,10 @@ This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invaria
 
 According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwasawa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
 
+### Relation to Chern-Simons theory
+
+Analytic torsion appears as one factor in the [[perturbation theory|perturbative]] [[path integral]] [[quantization]] of [[Chern-Simons field theory]]. See there at _[Quantization -- Perturbative -- Path integral quantization](http://ncatlab.org/nlab/show/Chern-Simons+theory#PerturbativePathIntegralQuantization)_.
+
 ## References
 
 * {#RaySinger73} D. Ray, [[Isadore Singer]], _Analytic torsion for complex manifolds_, Ann. Math. __98__, 1 (1973), 154--177.
