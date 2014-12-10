@@ -28,6 +28,8 @@ Parker's code loop was used by [[John Conway]] to construct the [[Monster group]
 {#Griess}
 
 * Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. 128 (2000), no. 2, 223&#8211;232 ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X));
-{#Hsu} _Class 2 Moufang loops, small Frattini Moufang loops, and code loops_, [math.GR/9611214](http://arxiv.org/abs/math/9611214)
+{#Hsu} 
+
+* Tim Hsu, _Moufang loops of class 2 and cubic forms_, Math. Proc. Camb. Phil. Soc. __128__ (2000), 197-222 (on the arXiv as [math.GR/9611214](http://arxiv.org/abs/math/9611214) under the title _Class 2 Moufang loops, small Frattini Moufang loops, and code loops_). 
 
 [[!redirects code loops]]
