@@ -9,6 +9,8 @@ Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula 
 
 (...)
 
+There is also a Selberg zeta function for odd-dimensional manifolds "of odd type" ([Millson 78](#Millson78)).
+
 ## Properties
 
 ### Analogy with Artin L-function
@@ -16,13 +18,20 @@ Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula 
 
 That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77) [Fried 86, prop. 5](#Fried86)).
 
-That it is in particular the Euler product of characteristic polynomials of the [[monodromies]]/[[holonomies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a](#BunkeOlbrich94a)) for the odd-dimensional case.
+That it is in particular the Euler product of characteristic polynomials of the [[monodromies]]/[[holonomies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case.
 
 Notice that this is analogous to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
 ### Relation to the eta-function
+ {#RelationToTheEtaFunction}
 
-Under suitable conditions, the Selber zeta function is an exponential of the [[eta function]] of a suitable [[Dirac operator]] ([Park 01, theorem 1.2](#Park01)). 
+Under suitable conditions, the Selberg zeta function of odd type is an exponential of the [[eta function]] of a suitable [[Dirac operator]] 
+
+$$
+  \zeta_S(0) = \exp\left(i \pi \eta_D(0)\right)
+$$
+
+([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)). 
 
 ## Related concepts
 
@@ -65,6 +74,8 @@ Discussion of the relation between, on the one hand, [[zeta function of an ellip
 
 and for odd-dimensional spaces also in
 
+* {#Millson78} [[John Millson]], _Closed geodesic and the $\eta$-invariant_, Ann. of Math., 108, (1978) 1-39 ([jstor](http://www.jstor.org/stable/1970928))
+
 * {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
 
 * {#BunkeOlbrich94b} [[Ulrich Bunke]], [[Martin Olbrich]] _$\Gamma$-Cohomology and the Selbeg zeta function_ ([arXiv:dg-ga/9411004](http://arxiv.org/abs/dg-ga/9411004))
@@ -75,10 +86,12 @@ and for odd-dimensional spaces also in
 
 * {#Park01} Jinsung Park, _Eta invariants and regularized determinants for odd dimensional hyperbolic manifolds with cusps_ ([arXiv:0111175](http://arxiv.org/abs/math/0111175))
 
+
 * {#Friedman04} [[Joshua Friedman]], _The Selberg trace formula and Selberg zeta-function for cofinite Kleinian groups with finite-dimensional unitary representations_ ([arXiv:math/0410067](http://arxiv.org/abs/math/0410067))
 
 * {#Friedman06} [[Joshua Friedman]], _Regularized determinants of the Laplacian for cofinite Kleinian groups with finite-dimensional unitary representations_, Communications in Mathematical Physics ([arXiv:math/0605288](http://arxiv.org/abs/math/0605288))
 
+* {#GuillarmouMoroianuPark09} Colin Guillarmou, Sergiu Moroianu, Jinsung Park, _Eta invariant and Selberg Zeta function of odd type over convex co-compact hyperbolic manifolds_ ([arXiv:0901.4082](http://arxiv.org/abs/0901.4082))
 
 
 
