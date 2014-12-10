@@ -53,6 +53,10 @@ A geodesic may not *globally* minimize the distance between its end points.  For
 
 A geodesic which does globally minimize distance between its end points is called a **minimizing geodesic**.  The length of a minimizing geodesic between two points defines a distance function for any Riemannian manifold which makes it into a [[metric space]].
 
+## Related concepts
+
+* [[prime geodesic]]
+
 
 ## Links and literature
 
