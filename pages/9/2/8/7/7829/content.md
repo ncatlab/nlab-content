@@ -79,8 +79,29 @@ Def. \ref{EtaInvariant} means that $\eta_0$ is the
 
 ## Properties
 
+### Relation to the theta-function / Mellin transform
+
+The eta function is a kind of odd version of the [[Mellin transform]] of an odd version of the [[theta function]]:
+
+$$
+  \eta_D(s)
+  =
+  \frac{1}{\Gamma((s+1)/2)}
+  \underoverset{0}{\infty}{\int}
+  t^{(s-1)/2}
+  Tr(D\,\exp(-t D^2))
+  \,
+  d t
+  \,.
+$$
+
+e.g. ([M&#252;ller 94 (0.2)](#M&#252;ller94)).
+
+
 ### Relation to the zeta function
  {#RelationToTheZetaFunction}
+
+#### Generally
 
 Let $D$ be a [[self-adjoint operator]] such that
 
@@ -110,6 +131,10 @@ $$
   \,.
 $$
 
+#### On odd-dimensional manifolds
+
+Under suitable conditions the exponentiated $\eta$-invariant $\exp(\pi i \eta(0))$ equals the [[Selberg zeta function]] of odd type.  ([Millson 78](#Millson78), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)).
+
 ### Relation with L-function
  {#AnalogyWithLSeries}
 
@@ -118,7 +143,7 @@ Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
-### On manifolds with boundaries: as sections of the determinant line
+### On manifolds with boundaries: sections of the determinant line
  {#OnManifoldsWithBoundary}
 
 Let $\pi \colon X \to Z$ be a $Z$-parameterized collection of [[spin structure|spin]] [[Riemannian manifold]] of odd [[dimension]] with [[boundary]].
@@ -129,6 +154,8 @@ $$
   Ker^+ D_{\partial X} \simeq Ker^- D_{\partial X}
   \,.
 $$
+
+e.g. ([M&#252;ller 94, below (0.3)](#M&#252;ller94))
 
 Define then the exponentiated eta-invariant to be the element
 
@@ -176,7 +203,7 @@ Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95](#Freed95)).
 
 ### For Dirac operator on Riemann surfaces
 
-For the [[Dirac operator]] on a [[Riemann surface]]/[[complex curve]] the eta function was discussed in ([Milson 78](#Milson78), [Park 01](#Park01)), and related to the [[Selberg zeta function]].
+For the [[Dirac operator]] on a [[Riemann surface]]/[[complex curve]] the eta function was discussed in ([Millson 78](#Millson78)).
 
 See at _[[zeta function of a Riemann surface]]_ for more on this case.
 
@@ -206,7 +233,7 @@ Introductions and surveys include
 
 * {#Richardson} [[Ken Richardson]], _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
-* Xianzhe Dai, _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
+* [[Xianzhe Dai]], _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
 
 * Wikipedia, _[Eta invariant](http://en.wikipedia.org/wiki/Eta_invariant)_
 
@@ -217,7 +244,7 @@ Formulation in the broader context of bordism theory is in
 
 Further discussion of the relation to [[holonomy]] is in
 
-* Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_, [arXiv:1205.0562](http://arxiv.org/abs/1205.0562)
+* [[Xianzhe Dai]], [[Weiping Zhang]], _Eta invariant and holonomy, the even dimensional case_, [arXiv:1205.0562](http://arxiv.org/abs/1205.0562)
 
 * _Eta invariant and Selberg  zeta function of odd type over convex co-compact hyperbolic manifolds_ ([pdf](http://www.imar.ro/~sergium/fisiere/Eta-Selberg2501.pdf))
 
@@ -229,9 +256,12 @@ Discussion of relation to [[L-functions]] includes
 
 Discussion of the case over [[Riemann surfaces]] includes
 
-* {#Milson78} [[John Milson]], _Closed geodesic and the $\eta$-invariant_, Ann. of Math., 108, (1978) 1-39 ([](http://www.jstor.org/stable/1970928))
+* {#Millson78} [[John Millson]], _Closed geodesic and the $\eta$-invariant_, Ann. of Math., 108, (1978) 1-39 ([jstor](http://www.jstor.org/stable/1970928))
 
 * {#Park01} Jinsung Park, _Eta invariants and regularized determinants for odd dimensional hyperbolic manifolds with cusps_ ([arXiv:0111175](http://arxiv.org/abs/math/0111175))
+
+* {#GuillarmouMoroianuPark09} Colin Guillarmou, Sergiu Moroianu, Jinsung Park, _Eta invariant and Selberg Zeta function of odd type over convex co-compact hyperbolic manifolds_ ([arXiv:0901.4082](http://arxiv.org/abs/0901.4082))
+
 
 Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] includes
 
@@ -241,7 +271,11 @@ Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] inclu
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
-Discussion of the eta-invariant on manifolds with boundary as taking values in the determinant line is due to
+Discussion of the eta-invariant on manifolds with boundary is in
+
+* {#M&#252;ller94} Werner M&#252;ller, _Eta invariants and manifolds with boundary_, J. Diff. Geom. 40 (1994) 311-377 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mueller.pdf))
+
+and regarding the result as taking values in the determinant line over the boundary is due to
 
 * {#DaiFreed94} [[Xianzhe Dai]] [[Daniel Freed]], _$\eta$-Invariants and Determinant Lines_, J. Math. Phys. 35 (1994),
 5155&#8211;5194 and C. R. Acad. Sci. Paris (1995),
