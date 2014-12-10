@@ -58,11 +58,7 @@ where
 
 ## References
 
-The theorem is originally due to 
-
-* [[Peter Sarnak]], ...
-
-A textbook account is in 
+The original estimates are due to [[Atle Selberg]], Hejhal, Huber, and [[Peter Sarnak]].
 
 * [[Peter Sarnak]], _Prime Geodesic Theorems_, Stanford University, 1980
 
@@ -73,4 +69,10 @@ Further developments include
 * Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8, 2006 ([JSTOR](http://www.jstor.org/stable/3845331), [pdf](http://www.ams.org/journals/tran/2006-358-08/S0002-9947-06-04122-5/S0002-9947-06-04122-5.pdf))
 
 * {#SoundararajanYoung13} K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_,J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
+
+Discussion for the case of simple geodesics in hyperbolic surfaces contains
+
+* [[Igor Rivin]], _Simple Curves on Surfaces_, Geometriae Dedicata August 2001, Volume 87, Issue 1-3, pp 345-360 ([web](http://link.springer.com/article/10.1023%2FA%3A1012010721583))
+
+* [[Maryam Mirzakhani]], _Growth of the number of simple closed geodesics on hyperbolic surfaces_, Pages 97-125 from Volume 168 (2008), Issue 1 ([web](http://annals.math.princeton.edu/2008/168-1/p03))
 
