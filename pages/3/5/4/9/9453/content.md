@@ -41,7 +41,7 @@ from
 * Fernando Zalamea Traba, _Ariada y Pen&#233;lope. Redes y mixturas en el mundo contempor&#225;neo_, 2004 	
 * Fernando Zalamea Traba, _America &#8211; una trama integral: Transversalidad, bordes y abismos en la cultura americana, siglos XIX y XX_, Biblioteca abierta. Estudios interdisciplinarios 2009
 * F. Zalamea, Versus Laboratory Seminar 24: _Sheaf Logic & Philosophical Synthesis_, mp3 audio file &lt;https://archive.org/download/VersusLaboratorySeminar24SheafLogicPhilosophicalSynthesisWith/Sem24-FernandoZalamea_02.mp3>
-
+* [[Giuseppe Longo]], _[Synthetic Philosophy of Mathematics and Natural Sciences: Conceptual Analyses from a Grothendieckian Perspective. (Reflections on "Synthetic Philosophy of Contemporary Mathematics" by Fernando Zalamea).](http://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/Review-Zalamea-Grothendieck.pdf)_ 
 category: people, philosophy
 
 [[!redirects Fernando Zalamea Traba]]
