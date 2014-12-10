@@ -101,3 +101,6 @@ For the semiclassical method in [[superstring theory]] see
 [[!redirects semiclassical analysis]][[!redirects semi-classical analysis]]
 
 [[!redirects semiclassical quantization]]
+
+[[!redirects semiclassical limit]]
+[[!redirects semiclassical limits]]
