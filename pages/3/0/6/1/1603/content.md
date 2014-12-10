@@ -43,11 +43,14 @@ As with the inverse elements of a group, we can make the quotients into operatio
 ###### Definition
 
 A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product, left quotient, and right quotient) such that these equations always hold:
+
 *  $(x / y) y = x$,
 *  $x (x \backslash y) = y$,
 *  $(x y) / y = x$,
 *  $x \backslash (x y) = y$.
+
 =--
+
 Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
@@ -117,6 +120,8 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 * P&#233;ter T. Nagy, Karl Strambach, _Loops as invariant sections in groups, and their geometry_, Canad. J. Math. __46__(1994), 1027-1056 [doi](http://dx.doi.org/10.4153/CJM-1994-059-8)
 * Momo Bangoura, _Big&#232;bres quasi-Lie et boucles de Lie_,  Bull. Belg. Math. Soc. Simon Stevin __16__:4 (2009), 593-616 [euclid](http://projecteuclid.org/euclid.bbms/1257776236) [arXiv:math.SG/0607662 ](http://arxiv.org/abs/math/0607662); _Quasi-big&#232;bres de Lie et cohomologie d'alg&#232;bre de Lie_, [arxiv/1006.0677](http://arxiv.org/abs/1006.0677) 
 * Lev Vasil&#697;evich Sabinin, _Smooth quasigroups and loops: forty-five years of incredible growth_, Commentationes Mathematicae Universitatis Carolinae __41__ (2000), No. 2, 377--400 [cdml](http://dml.cz/dmlcz/119171) [pdf](http://dml.cz/dmlcz/119171)
+
+
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
 [[!redirects loop (algebra)]]
