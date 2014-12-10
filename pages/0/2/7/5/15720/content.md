@@ -6,4 +6,6 @@
 
 * [[zeta function of a Riemann surface]]
 
+* [[eta invariant]]
+
 category: people
