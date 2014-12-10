@@ -58,6 +58,16 @@ where
 
 ## References
 
+The theorem is originally due to 
+
+* [[Peter Sarnak]], ...
+
+A textbook account is in 
+
+* [[Peter Sarnak]], _Prime Geodesic Theorems_, Stanford University, 1980
+
+Further developments include
+
 * Koyama _Prime geodesic theorem for arithmetic compact surfaces_, Int Math Res Notices (1998) 1998 ([web](http://imrn.oxfordjournals.org/content/1998/8/383.extract))
 
 * Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8, 2006 ([JSTOR](http://www.jstor.org/stable/3845331), [pdf](http://www.ams.org/journals/tran/2006-358-08/S0002-9947-06-04122-5/S0002-9947-06-04122-5.pdf))
