@@ -15,7 +15,7 @@
 
 ## Idea
 
-The original _Euler product_ is an expression of the [[Riemann zeta function]] as an [[infinite product]] (instead of an [[infinite sum]] as originally defined) over all [[prime numbers]]. More generally one considers Euler product expressions for general [[zeta functions]] and [[L-functions]].
+The original _Euler product_ is an expression of the [[Riemann zeta function]] as an [[infinite product]] (instead of an [[infinite sum]] as originally defined) over all [[prime numbers]]. More generally one considers Euler product expressions for general [[zeta functions]] and [[L-functions]] (various types of L-functions are _defined_ by an Euler product, such as the [[Artin L-function]]).
 
 When the [[Riemann zeta function]] is understood as an [[adelic integral]] via [[Iwasawa-Tate theory]], then the existence of Euler product expressions follows from the fact that the integration [[measure]] on the [[idele group]] $\mathbb{I}_{\mathbb{Q}}$ used in this context is a product of measures on all [[p-adic number]]-components:
 
