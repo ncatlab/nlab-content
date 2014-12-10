@@ -143,7 +143,7 @@ The straightening functor effectively computes the fibers of a [[Cartesian fibra
 
 Then 
 
-* $C^{\triangleright} = 
+* $X^{\triangleright} = 
     \left\{
       \array{
          a &\to& b && c
