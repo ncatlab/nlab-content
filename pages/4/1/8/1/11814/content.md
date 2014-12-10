@@ -9,10 +9,26 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
+## Definition
 
 For $p \geq 2$ a [[prime number]] , then [[quotient]] $\mathbb{Z}/p\mathbb{Z}$ of the [[ring]] of [[integers]] by $p$ is a [[finite field]] denoted $\mathbb{F}_p$, a _prime field_.
 
 Prime fields have [[positive characteristic]].
+
+
+## Properties
+
+### Analogy with knots/prime geodesics
+
+The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]] are [[analogy|analogous]] to [[knots]]/[[prime geodesics]] inside a ([[hyperbolic manifold|hyperbolic]]) 3-dimensional space, see at _[Spec(Z) -- As a 3-dimensional space containing knots](http://ncatlab.org/nlab/show/Spec%28Z%29#As3dSpaceContainingKnots)_
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
 
 [[!redirects prime fields]]
