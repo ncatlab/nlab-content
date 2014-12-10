@@ -80,7 +80,7 @@ $$D = [1] + (-): \Delta^{op} \to \Delta^{op}$$
 
 the d&#233;calage functor on simplicial objects $C^{\Delta^{op}}$ (valued in a category $\mathbf{C}$) is the functor 
 
-$$P: \mathbf{C}^{\Delta^{op}} \stackrel{(\mathbf{C})^D}{\to} \mathbf{C}^{\Delta^{op}}.$$ 
+$$P: \mathbf{C}^{\Delta^{op}} \stackrel{\mathbf{C}^D}{\to} \mathbf{C}^{\Delta^{op}}.$$ 
 
 Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta^{op}$, see also at _[d&#233;calage -- comonad structure](decalage#DecalageComonad)_), and therefore $P$ also carries a comonad structure. Notice also that there is a comonad map $D \to [1]\circ !$ (where $[1]: 1 \to \Delta^{op}$ is left adjoint to $!: \Delta^{op} \to 1$ since $[1]$ is initial in $\Delta^{op}$), induced by the evident natural inclusion $[1]+i: [1]+[0] \to [1]+[m]$ in $\Delta$. This in turn induces a comonad map $P X \to {|X|}$ where 
 ${|-|}$ is the composite ("discretization"): 
@@ -178,12 +178,37 @@ that takes an algebra resolution $Y$ to its augmentation component $Y([0])$.
 
 +-- {: .num_theorem}
 ###### Theorem 
-The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$. In other words, $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is [[left adjoint]] to $G$. 
+The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$; i.e., $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is [[left adjoint]] to $G$. 
+=-- 
+
+The proof is distributed over two lemmas. 
+
++-- {: .num_lemma} 
+###### Lemma 
+Given a $T$-algebra resolution $Y$ and a $T$-algebra map $f: A \to Y([0])$, there is at most one $T$-algebra resolution map $\phi: Bar_T(A) \to Y$ such that 
+$\phi([0]) = f$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-To be filled in. 
+The $P$-coalgebra structure $h: U Bar_T(A) \to U Bar_T(A) \circ D$ is defined on components $U Bar_T(A)([n]) = T^n A$ by $h([n]) = u T^n(A): T^n(A) \to T^{n+1}(A)$. Thus in order that $U\phi$ be a $P$-coalgebra map, we must have that the diagram 
+
+$$\array{
+T^n A & \stackrel{u T^n A}{\to} & U F T^n(A) \\ 
+ _\mathllap{U\phi([n])} \downarrow & & \downarrow_\mathrlap{U\phi([n+1])} \\ 
+U Y([n]) & \underset{h_Y([n])}{\to} & U Y([n+1])
+}$$ 
+
+commutes. Here $\phi([n]): T^n (A) \to Y([n])$ determines a unique $T$-algebra map $g: F T^n(A) \to Y([n+1])$ such that 
+
+$$U(g) \circ u T^n(A) = h_Y([n]) \circ U\phi([n])$$ 
+
+since $F$ is left adjoint to $U$. Thus, starting with $\phi([0]) = f$ as given, each algebra map $\phi([n+1]) = g$ is uniquely determined from its predecessor $\phi([n])$. 
+=-- 
+
+The preceding proof does not show that the $\phi([n])$ fit together to form a map $\phi$ of simplicial $T$-algebras (i.e., to respect faces and degeneracies); it merely shows at most one such $T$-algebra resolution map is possible. 
+
+
 =-- 
 
 ## Special cases
