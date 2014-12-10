@@ -132,6 +132,7 @@ $$
 $$
 
 #### On odd-dimensional manifolds
+ {#OnOddDimensionalManifolds}
 
 Under suitable conditions the exponentiated $\eta$-invariant $\exp(\pi i \eta(0))$ equals the [[Selberg zeta function]] of odd type.  ([Millson 78](#Millson78), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)).
 
@@ -143,7 +144,7 @@ Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
-### On manifolds with boundaries: sections of the determinant line
+### Boundaries, determinant line bundles and perturbative Chern-Simons
  {#OnManifoldsWithBoundary}
 
 Let $\pi \colon X \to Z$ be a $Z$-parameterized collection of [[spin structure|spin]] [[Riemannian manifold]] of odd [[dimension]] with [[boundary]].
@@ -187,18 +188,22 @@ $$
   \,.
 $$
 
+(It is maybe noteworthy that, by the [above](#OnOddDimensionalManifolds), $\zeta_S = \exp(i \pi\, \eta_X(0))$ is the [[Selberg zeta function]].)
+
 In fact this is a smooth [[section]] of the [[determinant line bundle]] as $X$ varies. 
 
 +-- {: .num_prop}
 ###### Proposition
 
-These sections satisfy the [[sewing law]].
+These sections given by the exponentiated eta invriant satisfy the [[sewing law]].
 
 =--
 
 Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95](#Freed95)).
 
-This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]], a point of view highlighted in ([Bunke 94](#Bunke94)).
+This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]], a point of view highlighted in ([Bunke 94](#Bunke94)). 
+
+Indeed, this exponentiated eta invariant is part of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)).
 
 ## Examples
 
@@ -264,11 +269,17 @@ Discussion of the case over [[Riemann surfaces]] includes
 * {#GuillarmouMoroianuPark09} Colin Guillarmou, Sergiu Moroianu, Jinsung Park, _Eta invariant and Selberg Zeta function of odd type over convex co-compact hyperbolic manifolds_ ([arXiv:0901.4082](http://arxiv.org/abs/0901.4082))
 
 
-Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] includes
+Discussion in relation to [[analytic torsion]] and [[perturbation theory|perturbative]] quantum [[Chern-Simons theory]] goes back to
+
+* {#Witten89} [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+
+with more in  
 
 * {#Lott90} [[John Lott]], _Eta and torsion_, 1990 ([pdf](http://math.berkeley.edu/~lott/lhouches.pdf))
 
-* Lisa Jeffrey, _Symplectic quantum mechanics and Chern-Simons gauge theory I_,  ([arxiv/1210.6635](http://arxiv.org/abs/1210.6635))
+* [[Lisa Jeffrey]], _Symplectic quantum mechanics and Chern-Simons gauge theory I_,  ([arxiv/1210.6635](http://arxiv.org/abs/1210.6635))
+
+* [[Lisa Jeffrey]], Brendan McLellan, _Eta-Invariants and Anomalies in U(1) Chern-Simons Theory_ ([pdf](http://www.math.toronto.edu/mclellan/eta%20invariants%20and%20anomalies.pdf))
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
