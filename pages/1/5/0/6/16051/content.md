@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Maryam_Mirzakhani)
+
+## related $n$Lab entries
+
+* [[prime geodesic theorem]]
+
+category: people
