@@ -129,7 +129,7 @@ $$h = (U Bar_T \stackrel{u U Bar_T}{\to} T U Bar_T \cong U Bar_T D).$$
 
 +-- {: .num_prop} 
 ###### Proposition 
-The map $h$ is an acyclic structure, i.e., a right $D$-coalgebra structure. 
+The map $h$ is an acyclic structure, def. \ref{acyclic}, i.e., a right $D$-coalgebra structure. 
 =-- 
 
 +-- {: .proof} 
@@ -161,7 +161,9 @@ By Remark \ref{rem}, it follows that $U Bar_T(A)$, obtained by applying evaluati
 
 ## Properties
 
-We now state a universal property of the bar resolution $B(T, A) = U Bar_T(A)$. 
+### Universal property
+
+We now state a [[universal property]] of the bar resolution $B(T, A) = U Bar_T(A)$. 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -176,7 +178,7 @@ that takes an algebra resolution $Y$ to its augmentation component $Y([0])$.
 
 +-- {: .num_theorem}
 ###### Theorem 
-The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$. In other words, $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is left adjoint to $G$. 
+The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$. In other words, $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is [[left adjoint]] to $G$. 
 =-- 
 
 +-- {: .proof} 
