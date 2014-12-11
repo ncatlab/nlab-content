@@ -94,6 +94,8 @@ That it is in particular the Euler product of characteristic polynomials of the 
 
 So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space conraining knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
 
+See at _[Artin L-function -- Analogy with Selberg zeta function](Artin%20L-function#AnalogyWithSelbergZeta)_ for more. This analogy has been highlighted in ([Brown 09](#Brown09)).
+
 ### Relation to the eta-function
  {#RelationToTheEtaFunction}
 
@@ -136,6 +138,9 @@ Expression of the Selberg/Ruelle zeta function as an [[Euler product]] of [[char
 
 * {#Fried86} [[David Fried]], _The zeta functions of Ruelle and Selberg. I_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 19 no. 4 (1986), p. 491-517 ([Numdam](http://www.numdam.org/item?id=ASENS_1986_4_19_4_491_0))
 
+The analogy with the [[Artin L-function]] is highlighted in 
+
+* {#Brown09} Darin Brown, _Lifting properties of prime geodesics_, Rocky Mountain J. Math. Volume 39, Number 2 (2009), 437-454 ([euclid](http://projecteuclid.org/euclid.rmjm/1239113439))
 
 Discussion of the relation between, on the one hand, [[zeta function of an elliptic differential operator|zeta function]] of [[Laplace operators]]/[[eta function of a self-adjoint operator|eta funcstions]] of [[Dirac operators]] and, on the other hand, Selberg zeta functions includes
 
