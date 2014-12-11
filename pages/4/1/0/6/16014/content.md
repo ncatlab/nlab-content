@@ -25,12 +25,13 @@ The idea is to consider for any [[proposition]] $p$
 
 ## The S4 axioms
 
-For every [[modality]] one typically demands that it preserves implication, in that
+For every [[modality]] one typically demands that it preserves implication, in the sense that
 
- $\Box(p \to q) \to (\Box p \to \Box q)$
+$$\Box(p \to q) \to (\Box p \to \Box q).$$
 
+This preservation of implication is called the [[K modal logic|K-axiom]].  In traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.  In an intuitionistic modal logic, one would also demand that $\lozenge$ preserves implication in a suitable sense, such as 
 
-This preservation of implication is called the [[K modal logic|K-axiom]].  In traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.
+$$\Box(p\to \lozenge q) \to (\lozenge p \to \lozenge q).$$
 
 A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
