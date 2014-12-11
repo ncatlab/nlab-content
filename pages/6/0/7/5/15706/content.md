@@ -99,7 +99,7 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Morishita09} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv:0904.3399](http://arxiv.org/abs/0904.3399))
 
-* Masanori Morishita 2012, _Knots and Primes: An Introduction to Arithmetic Topology_, Springer
+* [[Masanori Morishita]] 2012, _Knots and Primes: An Introduction to Arithmetic Topology_, Springer
 
 * {#Reznikov00} Alexander Reznikov, _Embedded incompressible surfaces and homology of ramified coverings of three-manifolds_, Selecta Math. 6(2000), 1&#8211;39
 
@@ -107,6 +107,7 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
 
+* [[Christopher Deninger]], _A note on arithmetic topology and dynamical systems_ ([arXiv:math/0204274](http://arxiv.org/abs/math/0204274))
 
 
 [[!redirects MKR dictionary]]
