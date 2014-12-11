@@ -199,11 +199,17 @@ These sections given by the exponentiated eta invriant satisfy the [[sewing law]
 
 =--
 
-Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95](#Freed95)).
+Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95a](#Freed95a)).
 
-This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]], a point of view highlighted in ([Bunke 94](#Bunke94)). 
+This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a metric), a point of view highlighted in ([Bunke 94](#Bunke94)). 
 
-Indeed, this exponentiated eta invariant is part of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)).
+Indeed, this exponentiated eta invariant is one factor (together with [[analytic torsion]] and the classical CS invariant) of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)).
+
+Also the [[theta function]] is a section of, up to [[isomorphism]], this determinant line bundle (or maybe its inverse) ([Freed 95b, p. 31](#Freed95b)).
+
+> (and hopefully it coincides with the section given by the exponentiated $\eta$ under suitable conditions?)
+
+
 
 ## Examples
 
@@ -295,11 +301,13 @@ and regarding the result as taking values in the determinant line over the bound
 5155&#8211;5194 and C. R. Acad. Sci. Paris (1995),
 585&#8211;592 ([arXiv:hep-th/9405012](http://arxiv.org/abs/hep-th/9405012))
 
-
-
 with review and streamlined results in
 
-* {#Freed95} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002), [revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
+* {#Freed95a} [[Daniel Freed]], _Determinant line bundles revisited_ ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
+
+* {#Freed95b} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
+
 
 
 [[!redirects eta invariant]]
