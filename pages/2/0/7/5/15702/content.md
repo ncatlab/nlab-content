@@ -99,7 +99,9 @@ $$
 ### Analogy with Selberg zeta-functions and zeta functions of bundle-twisted Laplace operators
  {#AnalogyWithSelbergZeta}
 
-The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic curve]] (see at _[[algebraic fundamental group]]_). In this interpretation a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on the arithmetic curves.
+The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic curve]] (see at _[[algebraic fundamental group]]_). Thre is a direct anlogy between Frobenius elements at prime numbers in arithmetic geometry and parallel transport along [[prime geodesics]] hyperbolic geometry ([Brown 09, p. 6](#Brown09)).
+
+In this interpretation a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on the arithmetic curves.
 
 Under this interpretation, the definition of that Artin L-function is that of a product of [[characteristic polynomials]] of the [[monodromies]]/[[holonomies]] of that flat connection.
 
@@ -136,6 +138,9 @@ Further development includes
 
 * {#RamMurty94} M. Ram Murty, _Selberg's conjectures and Artin -functions_, Bull. Amer. Math. Soc. 31 (1994), 1-14 ([web](http://www.ams.org/journals/bull/1994-31-01/S0273-0979-1994-00479-3/home.html))
 
+Analogy with the [[Selberg zeta function]]
+
+* {#Brown09} Darin Brown, _Lifting properties of prime geodesics_, Rocky Mountain J. Math. Volume 39, Number 2 (2009), 437-454 ([euclid](http://projecteuclid.org/euclid.rmjm/1239113439))
 
 The analogies between Alexander polynomial and L-functions and touched upon in 
 
