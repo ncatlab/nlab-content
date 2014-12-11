@@ -25,21 +25,25 @@ The idea is to consider for any [[proposition]] $p$
 
 ## The S4 axioms
 
-For every [[modality]] one typically demands that it preserves implication, in the sense that
+For every comonadic [[modality]] $\Box$, one typically demands that it preserves implication, in the sense that
 
 $$\Box(p \to q) \to (\Box p \to \Box q).$$
 
 This preservation of implication is called the [[K modal logic|K-axiom]].  In traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.  In an intuitionistic modal logic, one would also demand that $\lozenge$ preserves implication in a suitable sense, such as 
 
-$$\Box(p\to \lozenge q) \to (\lozenge p \to \lozenge q).$$
+$$\Box(p\to q) \to (\lozenge p \to \lozenge q).$$
 
-A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
+One may also ask for a further compatibility such as $(\lozenge p \to \Box q) \to \Box(p\to q)$, as [Simpson](#Simpson) does.
+
+Similarly, the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ implies that $\Box$ preserves conjunctions, i.e. $\Box(p\wedge q) \leftrightarrow (\Box p \wedge \Box q)$.  The nullary version $\Box(\top)\leftrightarrow \top$ follows from the "necessitation rule" which says that if $p$ is provable in the empty context, then so is $\Box p$.  (This is an additional rule assumed in modal logics.)  From duality, $\Box A= \neg (\lozenge (\neg A))$ it follows that $\lozenge$ preserves disjunctions (both binary and nullary), while intuitionistically one may want to ask for this separately ([Simpson](#Simpson) does, but [Biermann and de Paiva](#BiermanPaiva92) don't).
+
+A minimum further requirement on a formalization of $\Box$ and $\lozenge$ to have the interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
 * $\Box p \rightarrow p$;
 
 * $p \rightarrow \lozenge p$,
 
-expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true. With this one speaks of [[T modal logic]].
+expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true.  With these additions to the above [[K modal logic]], one speaks of [[T modal logic]].
 
 By similar plausibility arguments one often demands that
 
@@ -47,21 +51,21 @@ By similar plausibility arguments one often demands that
 
 * $\lozenge \lozenge p \to \lozenge p$
 
-which may be read as expressing that iterating the previous reasoning does not yield any new insight.
-
-If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. 
+which may be read as expressing that iterating the previous reasoning does not yield any new insight.  This additional enhancement to T modal logic yields _[[S4 modal logic]]_. 
 
 ### The generality of S4 
 
-In terms of [[categorical logic]], the S4 axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
+In terms of [[categorical logic]] interpreting propositional logic into a [[Heyting algebra]], the S4 axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
 
-* $\Box$ is an ([[idempotent comonad|idempotent]]) [[comonad]];
+* $\Box$ is a (necessarily [[idempotent comonad|idempotent]]) [[comonad]] which is [[monoidal functor|monoidal]], hence product-preserving; and
 
-* $\lozenge$ is an ([[idempotent monad|idempotent]]) [[monad]]
+* $\lozenge$ is a (necessarily [[idempotent monad|idempotent]]) [[monad]] which is a "$\Box$-[[strong functor|strong]] functor", and (perhaps) preserves coproducts.
 
-on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_).  The above reasoning makes plausible that any operator expressing "necessity" and "possibility" should *at least* satisfy these (co)monad axioms, but not every (co)monad is sensibly interpreted this way.
+As usual, we can also replace the Heyting algebra by a [[cartesian closed category]], thereby obtaining a "proof-relevant" system; in this case monoidality of $\Box$ doesn't imply directly that it preserves products, although one might reasonably ask that it does.  See _[[monad in computer science]]_.
 
-For example there is
+The above reasoning makes plausible that any operators expressing "necessity" and "possibility" should *at least* satisfy these (co)monad axioms.  However, not every (co)monad is sensibly interpreted this way.
+
+For example, there is
 
 * the (idempotent) comonad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
 
@@ -212,7 +216,9 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 
 * [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
 
-* {#BiermanPaiva92} Gavin Bierman [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_, Studia Logica (65):383-416, 2000 (preprint from 1992) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.5279))
+* {#BiermanPaiva92} Gavin Bierman and [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_, Studia Logica (65):383-416, 2000 (preprint from 1992) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.5279))
+
+* {#Simpson} Alex K. Simpson, _The Proof Theory and Semantics of Intuitionistic Modal Logic_, Ph.D. Thesis, University of Edinburgh, 1994, [web](http://homepages.inf.ed.ac.uk/als/Research/thesis.pdf).
 
 
 [[!redirects necessity]]
