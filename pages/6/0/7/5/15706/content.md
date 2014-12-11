@@ -105,6 +105,9 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Sikora} Adam Sikora, _Analogies between group actions on 3-manifolds and number fields_, ([arxiv](http://arxiv.org/abs/math/0107210))
 
+* {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
+
+
 
 [[!redirects MKR dictionary]]
 [[!redirects MKR analogy]]
