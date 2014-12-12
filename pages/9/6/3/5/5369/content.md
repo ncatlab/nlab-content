@@ -99,6 +99,10 @@ Discussion of [[internal homs]] of dg-categories using (just) the structure of a
 
 * Alberto Canonaco, Paolo Stellari, _Internal Homs via extensions of dg functors_ ([arXiv:1312.5619](http://arxiv.org/abs/1312.5619))
 
+The derived internal Hom in the homotopy category of DG-categories is equivalent to the dg-category of A_infty-functors.
+
+* Giovanni Faonte, _A-infinity functors and homotopy theory of DG-categories_, [arXiv](http://arxiv.org/abs/1412.1255).
+
 A proof that the [[internal hom]] of Ho(DGCat) constructed by To&#235;n is in fact the right [[derived functor]] of the internal hom of DGCat is in
 
 * [[Beatriz Rodriguez Gonzalez]], _A derivability criterion based on the existence of adjunctions_, 2012, [arXiv:1202.3359](http://arxiv.org/abs/1202.3359).
@@ -114,4 +118,3 @@ The model structure with Morita equivalences as weak equivalences is discussed i
 That the Morita model structure on dg-categories presents the homotopy theory of $k$-linear [[stable (infinity,1)-categories]] was shown in
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
-
