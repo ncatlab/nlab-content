@@ -70,9 +70,10 @@ This is indeed a Moore collection, and it equals $\mathcal{B}$ if and only if $\
 ###### Definition
 
 Again let $X$ be a set, and now let $Cl$ be an operation on subsets of $X$.  Then $Cl$ is a __closure operation__ if $Cl$ is monotone, isotone, and idempotent.  That is,
+
 1.  $ A \subseteq B \;\Rightarrow\; Cl(A) \subseteq Cl(B) $,
-2.  $ A \subseteq Cl(A) $, and
-3.  $ Cl(Cl(A)) \subseteq Cl(A) $ (the reverse inclusion follows from the previous two properties).
+1.  $ A \subseteq Cl(A) $, and
+1.  $ Cl(Cl(A)) \subseteq Cl(A) $ (the reverse inclusion follows from the previous two properties).
 
 =--
 
