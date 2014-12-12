@@ -71,8 +71,8 @@ This is indeed a Moore collection, and it equals $\mathcal{B}$ if and only if $\
 
 Again let $X$ be a set, and now let $Cl$ be an operation on subsets of $X$.  Then $Cl$ is a __closure operation__ if $Cl$ is monotone, isotone, and idempotent.  That is,
 1.  $ A \subseteq B \;\Rightarrow\; Cl(A) \subseteq Cl(B) $,
-1.  $ A \subseteq Cl(A) $, and
-1.  $ Cl(Cl(A)) \subseteq Cl(A) $ (the reverse inclusion follows from the previous two properties).
+2.  $ A \subseteq Cl(A) $, and
+3.  $ Cl(Cl(A)) \subseteq Cl(A) $ (the reverse inclusion follows from the previous two properties).
 
 =--
 
@@ -81,7 +81,7 @@ Again let $X$ be a set, and now let $Cl$ be an operation on subsets of $X$.  The
 
 If $Cl$ is a closure operation, then let $\mathcal{C}$ be the collection of sets that equal their own closures (the "[[modal types]]" or "[[local objects]]").  Then $\mathcal{C}$ is a Moore collection.
 
-Conversely, if $\mathcal{C}$ is a Moore collection, then let $Cl(A)$ be the intersection of all closed ssets that contain $A$.  Then $Cl$ is a closure operator.
+Conversely, if $\mathcal{C}$ is a Moore collection, then let $Cl(A)$ be the intersection of all closed sets that contain $A$.  Then $Cl$ is a closure operator.
 
 Furthermore, the two maps above, from closure operators to Moore collections and vice versa, are inverses.
 =--
