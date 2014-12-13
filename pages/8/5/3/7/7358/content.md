@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
 #### Internal $(\infty,1)$-Categories
 +-- {: .hide}
 [[!include internal infinity-categories contents]]
@@ -15,11 +19,11 @@
 
 ## Idea
 
-A $\Gamma$-space is a model for an [[∞-groupoid]] equipped with a multiplication that is unital, associative, and commutative up to higher [[coherence|coherent]]  [[homotopies]]:  they are models for groupal [[E-∞ spaces]] / [[infinite loop spaces]] / [[abelian ∞-groups]].
+The concept of _$\Gamma$-spaces_ is a model for [[∞-groupoids]] equipped with a multiplication that is unital, associative, and commutative up to higher [[coherence|coherent]]  [[homotopies]]:  they are models for [[E-∞ spaces]] and hence, if grouplike ("very special" $\Gamma$-spaces), for [[infinite loop spaces]] / [[connective spectra]] / [[abelian ∞-groups]].
 
-The notion of $\Gamma$-space is a close variant of that of [[Segal category]] for the case that the underlying [[(∞,1)-category]] happens to be an [[∞-groupoid]], happens to be [[n-connected object in an (∞,1)-category|connected]] and is equipped with extra structure.
+The notion of $\Gamma$-space is a close variant of that of [[Segal category]] for the case that the underlying [[(∞,1)-category]] happens to be an [[∞-groupoid]], happens to be [[n-connected object of an (∞,1)-category|connected]] and is equipped with extra structure.
 
-Therefore a $\Gamma$-space can be [[delooping|delooped]] infinitely many times to produce a [[connective spectrum]].  
+
 
 $\Gamma$-spaces differ from [[operad|operadic]] models for $E_\infty$-spaces, such as in terms of  [[algebra over an operad|algebras]] over an [[E-∞ operad]], in that their multiplication is specified "[[geometric definition of higher categories|geometrically]]" rather than [[algebraic definition of higher categories|algebraically]].
 
@@ -33,11 +37,17 @@ are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline
 
 ## Properties
 
-* Note that we have a functor $\Delta\to\Gamma$, where $\Delta$ is the [[simplex category]], which takes $[n]$ to $\underline{n}$.  Thus, every $\Gamma$-space has an underlying simplicial space. This simplicial space is in fact a [[special Delta-space]] which exhibits the 1-fold delooping of the corresponding $\Gamma$-space.
+### Relation to simplicial sets
 
-* The [[topos]] $\Set^{\Gamma^{op}}$ of $\Gamma$-sets is the [[classifying topos]] for pointed objects ([MO question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify)).
+We have a functor $\Delta\to\Gamma$, where $\Delta$ is the [[simplex category]], which takes $[n]$ to $\underline{n}$.  Thus, every $\Gamma$-space has an underlying simplicial space. This simplicial space is in fact a [[special Delta-space]] which exhibits the 1-fold delooping of the corresponding $\Gamma$-space.
 
-* A model structure on $\Gamma$-spaces can be found in Bousfield and Friedlander below.
+### As classifying topos for pointed objects
+
+The [[topos]] $\Set^{\Gamma^{op}}$ of $\Gamma$-sets is the [[classifying topos]] for [[pointed objects]] ([MO question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify)). For more on this see also at _[[classifying topos for the theory of objects]]_.
+
+### Model category structure
+
+A [[model category]] structure on $\Gamma$-spaces is due to ([Bousfield-Friedlander 77](#BousfieldFriedlander77))
 
 ## Related notions
 
@@ -46,14 +56,13 @@ are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline
 
 ## References
 
-The notion goes back to 
+The concept goes back to 
 
-* [[G. Segal]], "Categories and Cohomology Theories", Topology 13 (1974).
-
+* [[G. Segal]], _Categories and Cohomology Theories_, Topology 13 (1974).
 
 The [[model category]] structure on $\Gamma$-spaces (a [[generalized Reedy model structure]]) was established in
 
-*  [[A. K. Bousfield]], [[E. M. Friedlander]], _Homotopy Theory of &#915;-spaces, Spectra, and Bisimplicial Sets_, Geometric Applications of Homotopy Theory (1977).
+* {#BousfieldFriedlander77} [[A. K. Bousfield]], [[E. M. Friedlander]], _Homotopy Theory of &#915;-spaces, Spectra, and Bisimplicial Sets_, Geometric Applications of Homotopy Theory (1977) ([pdf](http://dodo.pdmi.ras.ru/~topology/books/bousfield-friedlander.pdf))
 
 See also
 
@@ -64,8 +73,8 @@ Monoidal Categories_, Advances in Mathematics (2003).
 
 Discussion of $\Gamma$-spaces in the broader context of [[higher algebra]] in [[(infinity,1)-operad]] theory is around remark 2.4.2.2 of
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
 
 
 [[!redirects Gamma-space]]
