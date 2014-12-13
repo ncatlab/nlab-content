@@ -119,11 +119,11 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
 The conjecture goes back to 
 
-* {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of_Quantization of the Hitchin system and Hecke eigensheaves_, draft, ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
+* {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of _Quantization of the Hitchin system and Hecke eigensheaves_, ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
 
 based on
 
-* {#Laumon87} G&#233;rard Laumon, sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309{359
+* {#Laumon87} G&#233;rard Laumon, sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309-359
 
 Proof in the abelian case is due to
 
@@ -146,6 +146,11 @@ The refined version of the conjecture stated in [[derived algebraic geometry]] i
 * {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _Notes on Geometric Langlands -- A study in derived algebraic geometry_ ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
 * {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
+
+Other comments on the relation to [[TQFT]] include
+
+* {#Kapranov95} [[Mikhail Kapranov]], _Analogies between the Langlands Correspondence and Topological Quantum Field Theory_, in _Functional Analysis on the Eve of the 21st Century_ Progress in Mathematics Volume 131/132, 1995, pp 119-151
+
 
 Comments on the development of the geometric duality by R. Langlands himself include
 
