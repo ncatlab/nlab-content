@@ -733,6 +733,8 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+* [[Chern-Simons theory with complex gauge group]]
+
 * [[analytically continued Chern-Simons theory]]
 
 * [[holomorphic Chern-Simons theory]]
