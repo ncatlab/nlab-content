@@ -26,7 +26,7 @@ $$
 $$
 
 
-This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invariant of [[topological manifolds]] called _[[Reidemeister torsion]]_. The two agree for the compact Riemannian manifolds ([Cheeger 77](#Cheeger77)).
+This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invariant of [[topological manifolds]] called _[[Reidemeister torsion]]_. The two agree for compact Riemannian manifolds ([Cheeger 77](#Cheeger77)).
 
 ## Properties
 
