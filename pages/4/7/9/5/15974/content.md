@@ -15,9 +15,9 @@
 
 ## Idea
 
-In [[higher category theory]], a concept of _opetopic omega-category_ is one of _[[weak omega-category]]_ modeled [[opetope|opetopic]] [[geometric shape for higher structures|shapes]].
+In [[higher category theory]], a concept of _opetopic omega-category_ is one of _[[weak omega-category]]_ modeled on [[opetope|opetopic]] [[geometric shape for higher structures|shapes]].
 
-There arevarious flavors of the definition. Typically they all say that an opetopic omega-catgeory is an [[opetopic set]] equipped with certain [[structure]] and [[property]]. 
+There are various flavors of the definition. Typically they all say that an opetopic omega-catgeory is an [[opetopic set]] equipped with certain [[structure]] and [[property]]. 
 
 ## Definitions
 
