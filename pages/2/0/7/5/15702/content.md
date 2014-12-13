@@ -96,7 +96,7 @@ $$
 
 
 
-### Analogy with Selberg zeta-functions and zeta functions of bundle-twisted Laplace operators
+### Analogy with Selberg/Ruelle zeta-functions 
  {#AnalogyWithSelbergZeta}
 
 The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] means that one may think of it as an element of the [[fundamental group]] of the given [[arithmetic curve]] (see at _[[algebraic fundamental group]]_). Thre is a direct anlogy between Frobenius elements at prime numbers in arithmetic geometry and parallel transport along [[prime geodesics]] hyperbolic geometry ([Brown 09, p. 6](#Brown09)).
@@ -105,7 +105,7 @@ In this interpretation a [[Galois connection]] corresponds to a [[flat connectio
 
 Under this interpretation, the definition of that Artin L-function is that of a product of [[characteristic polynomials]] of the [[monodromies]]/[[holonomies]] of that flat connection.
 
-Now given, in [[differential geometry]], a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
+Now given, in [[differential geometry]], a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_ / [[Ruelle zeta function]]. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
 
 See also ([Brown 09, page 6](#Brown09), [Morishita 12, remark 12.7](#Morishita12)).
 
