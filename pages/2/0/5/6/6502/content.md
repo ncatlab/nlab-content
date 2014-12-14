@@ -71,7 +71,7 @@ This picture of model spaces rolling along was influential in the historical dev
 +-- {: .num_remark #ExamplesOfGlobalCartanPatches}
 ###### Remark
 
-In many important examples the spaces $X$ carrying a Cartan connection are not just tangentially identified with $G/H$, but are locally modeled on all of $G/H$. This is notably the case for all Cartan connections appearing in [[gravity]] and [[supergravity]]. Here $G$ is a [[Euclidean group]] or [[Poincaré group]] or [[super Poincaré group]], $H \hookrightarrow G$is the [[rotation group]] or [[Lorentz group]] and $G/H$ is [[Cartesian space]] or [[Minkowski space]] or [[super Minkowski space]], respectively. Given a manifold ([[spacetime]]) $X$ then a Cartan connection encodes a [[vielbein field]] with compatible "[[spin connection]]" and then manifold is locally diffeomorphism to copies of $G/H$.
+In many important examples the spaces $X$ carrying a Cartan connection are not just tangentially identified with $G/H$, but are locally modeled on all of $G/H$. This is notably the case for all Cartan connections appearing in [[gravity]] and [[supergravity]]. Here $G$ is a [[Euclidean group]] or [[Poincaré group]] or [[super Poincaré group]], $H \hookrightarrow G$is the [[rotation group]] or [[Lorentz group]] and $G/H$ is [[Cartesian space]] or [[Minkowski space]] or [[super Minkowski space]], respectively. Given a manifold ([[spacetime]]) $X$ then a Cartan connection encodes a [[vielbein field]] with compatible "[[spin connection]]" and the manifold is locally diffeomorphic to copies of $G/H$.
 
 =--
 
