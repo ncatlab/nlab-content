@@ -2,7 +2,7 @@ I am a fourteen-year old student aspiring to be a pure mathematician and enthusi
 
 **Email:** [rachman.jm@gmail.com](mailto:rachman.jm@gmail.com).
 
-**Websites:** [My Blog](http://jmrresearch.wordpress.com) and my [Math StackExchange](http://math.stackexchange.com/users/122519/julian-rachman).
+**Websites:** [My Blog](http://jmrresearch.wordpress.com) and my [Math StackExchange](http://math.stackexchange.com/users/200808/julian-rachman).
 _______________________________________________________________________________________
 
 ##Notes##
