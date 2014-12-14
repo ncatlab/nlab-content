@@ -60,7 +60,7 @@ For $P \to X$ a [[fiber bundle]] with typical fiber $i : F \hookrightarrow P $ a
 
 * such that restricted along $F \hookrightarrow P$ to the fiber it is $\sim \omega$;
 
-* and such that $d \omega$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the base along the bundle projection .
+* and such that $d cs$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the base along the bundle projection .
 
 See for instance section 9 of ([Borel](#Borel)).
 
