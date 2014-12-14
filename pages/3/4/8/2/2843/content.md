@@ -27,7 +27,7 @@ The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|
  
 ## Definition
 
-+-- {: .un_defn}
++-- {: num_defn}
 ###### Definition
 
 For $(X,g)$ a [[Riemannian manifold]], the **Levi-Civita connection** $\nabla_g$ on $X$ is the unique [[connection on a bundle|connection]] on the [[tangent bundle]] $T X$ that
@@ -38,9 +38,9 @@ For $(X,g)$ a [[Riemannian manifold]], the **Levi-Civita connection** $\nabla_g$
 
 =--
 
-We say in detail what this means in "[[first order formulation of gravity|first order formalism]]".
+We say in detail what this means in "[[first order formulation of gravity|first order formalism]]"/[[Cartan geometry]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $(X,g)$ a $(d-k,k)$-[[dimension]]al [[Riemannian manifold]] (for $k = 0$) or [[pseudo-Riemannian manifold]] (for $k = 1$), the **Levi-Civita connection** $\nabla_g$ on $X$ is the unique $ISO(d-k,k)$-[[connection on a bundle]] $\nabla$ (for $ISO(d-k)$ the [[Poincare group]]) such that
