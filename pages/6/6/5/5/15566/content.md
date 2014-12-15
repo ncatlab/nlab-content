@@ -32,7 +32,7 @@ $$
 
 Several properties of $Spec(\mathbb{Z})$ make it behave as if of [[dimension]] 3. For instance $Spec(\mathbb{Z}) \cup \{\infty\}$ has [[étale cohomology|étale]] [[cohomological dimension]] equal to 3, up to 2-torsion ([Mazur 73](#Mazur73)). Moreover the [[étale fundamental group]] $\hat \pi_1(Spec(\mathbb{Z}) \cup \{\infty\})$ is trivial, and hence Mazur suggested that $Spec(\mathbb{Z}) \cup \{\infty\}$ is in fact analogous to the [[3-sphere]].
 
-Similarly, the spectra $Spec(\mathbb{F}_q)$ of [[finite fields]  look like compact 1-dimensional spaces -- [[circles]] -- in that their [[étale cohomology]] with $\mathbb{Z}_l$-[[coefficients]] for $l$ coprime to $q$ is $\mathbb{Z}_l$ in degrees 0 and 1 and vanishes in all higher degrees.
+Similarly, the spectra $Spec(\mathbb{F}_q)$ of [[finite fields]]  look like compact 1-dimensional spaces -- [[circles]] -- in that their [[étale cohomology]] with $\mathbb{Z}_l$-[[coefficients]] for $l$ coprime to $q$ is $\mathbb{Z}_l$ in degrees 0 and 1 and vanishes in all higher degrees.
 
 From this it is [[folklore]] (going back to [Mazur](#Mazur) and Manin, review includes [Deninger 05, section 8](#Deninger05), [Kohno-Morishita 06](#KohnoMorishita06)) that the spectra of [[prime fields]] with their canonical embedding into $Spec(\mathbb{Z})$
 
@@ -44,14 +44,14 @@ $$
 
 Observations like this give rise to the field of [[arithmetic topology]].
 
-###&#228; As a hyperbolic 3-manifold containing prime geodesics
+### As a hyperbolic 3-manifold containing prime geodesics
 
 However, in view of the [analogy between the Selberg zeta function and the Artin L-function](Selberg%20zeta%20function#AnalogyWithArtinLFunction) it might be more appropriate to think of $Spec(\mathbb{Z})$ as analogous to a  [[hyperbolic manifold]] of dimension 3 (see also [Fujiwara 07, slide 7](#Fujiwara07)) and of these fine field spectra as analogous to the [[prime geodesics]] in there. This does not change the fact that every single $Spec(\mathbb{F}_p) \hookrightarrow Spec(\mathbb{Z})$ is like an embedded circle, hence like a knot, but it affects the perspective on which role these play. For instance there does not seem to be a differential geometric analog situation where one considers [[infinite products]] over all knots in a 3-space, but there are such situations where one considers infinite products over all [[prime geodesics]] in a space, namely the [[Selberg zeta function]] analogous to the [[Artin L-function]] with its product over [[prime ideals]].
 
 
 
 
-### Function field anlogy
+### Function field analogy
 
 
 [[!include function field analogy -- table]]
