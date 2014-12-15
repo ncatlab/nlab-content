@@ -310,6 +310,7 @@ Discussion of weak 2-categories in the style of [[A-infinity categories]] is (us
 
 * Andor Lucacs, _Dendroidal weak 2-categories_ ([arXiv:1304.4278](http://de.arxiv.org/abs/1304.4278))
 
+* [[Jonathan Chiche]], _La th&#233;orie de l'homotopie des 2-cat&#233;gories_, thesis, [arXiv](http://arxiv.org/abs/1411.6936).
 
 [[!redirects 2-category]]
 [[!redirects 2-categories]]
