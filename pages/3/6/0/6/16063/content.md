@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Tom_Kibble)
+
+## related $n$Lab entries
+
+* [[cosmic string]]
+
+* [[standard model of particle physics]]
+
+category: people
