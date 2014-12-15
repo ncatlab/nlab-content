@@ -22,7 +22,7 @@ Let $T$ be a [[triangulated category]] with arbitrary [[coproducts]]. Then $T$ i
 
 =--
 
-We recall that to say an object $S$ is $\alpha$-small in a triangulated category is to say that every map $S\to\coprod_J X_j$ factors through some $S\to\coprod_J X_j$ whenever $\vert J\vert \lt \alpha$.
+We recall that to say an object $S$ is $\alpha$-small in a triangulated category is to say that every map $S\to\coprod_J X_j$ factors through some $S\to\coprod_I X_j$ whenever $\vert I\vert \lt \alpha$ with $I$ a subset of $J$.
 
 ##References
 
