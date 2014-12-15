@@ -144,12 +144,13 @@ is a [[homotopy pullback]]. From this the [[pasting law]] implies that in the to
 +-- {: .num_example}
 ###### Example
 
+
 For $G$ a [[semisimple Lie group|semisimple]] [[compact Lie group|compact]] [[Lie group]] and $H = T\hookrightarrow G$ a [[maximal torus]], then prop. \ref{MCFormAsFiberOfDifferentialModuli} plays a central role in the stacky formulation of the [[orbit method]]. See there at _[this proposition](orbit+method#ThetaAsHomotopyFiberOfJ)_.
 
 =--
 
 
-The following is a synthetic formulation of Cartan connections, def. \ref{Traditional}, with patchwise identification, as in remark \ref{ExamplesOfGlobalCartanPatches}.
+The following is a synthetic formulation of Cartan connections, def. \ref{Traditional}. 
 
 +-- {: .num_defn}
 ###### Definition
@@ -174,17 +175,19 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
      }
    $$
 
-1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon \coprod_i G/H \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization  and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is the [[codiagonal]] of an [[equivalence]]:
+1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon U \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization  and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is [[formally étale morphism|formally étale]]:
 
 
    $$
      \array{
-       && G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})/H
+       && G/H &\stackrel{}{\longrightarrow}& \Omega^1(-,\mathfrak{g})/H
          &\longrightarrow& \mathbf{B}H
        \\
-         & {}^{\mathllap{\simeq}}\nearrow && \swArrow_{\simeq} & \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
+         & {}^{\mathllap{\phi}}\nearrow && 
+        \swArrow_{\simeq} & 
+   \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
        \\
-       \coprod_i G/H
+       U
          &\stackrel{p}{\longrightarrow}&
        X
          &\stackrel{\nabla}{\longrightarrow}&
