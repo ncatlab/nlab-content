@@ -113,6 +113,10 @@ For an $n$Lab dictionary (work in progress) of the language of mathematicians an
 
 * [[domenicofiorenza:The standard model]]
 
+A historical account is in 
+
+* [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
+
 There are tons of textbooks about the standard model, so any recommendation is hopelessly biased.
 The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
 
