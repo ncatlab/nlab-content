@@ -18,14 +18,20 @@
 
 ## Idea
 
-The notion of __Cartan connection__ is a special case of that of _[[connection on a bundle]]_ which is more general than the notion of _[[affine connection]]_ , but more special than the notion of _[[principal connection]]_ , in general: 
+A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] equipped with a certain compatibility condition with the [[tangent bundle]] of the manifold. This combination allows to express various types of geometric structures on $X$ -- such as notably ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian geometry]], [[conformal geometry]] and many more (see [below](#TableOfExamples)) -- in terms of [[connection on a bundle|connection]] data, i.e. in terms of [[nonabelian cohomology|nonabelian]] [[differential cohomology]]-data. In particular the [[first order formulation of gravity]] in terms of Cartan connections has been one of the historical motivations ([Cartan 23](#Cartan23)).
 
-it is an $G$-[[principal connection]] subject to the constraint that the connection 1-form linearly identifies each [[tangent space]] of the base space with a quotient $\mathfrak{g}/\mathfrak{h}$ of the [[Lie algebra]] $\mathfrak{g}$ of $G$ by a sub-Lie algebra $\mathfrak{h}$.
+In a little bit more detail, a Cartan connection on a manifold $X$ for a given [[subgroup]] inclusion $H \hookrightarrow G$ is data that identifies all the [[tangent spaces]] $T_x X$ of $X$ with the tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]] [[Klein geometry]] $G/H$, such that the choice of these identifications is transported along compatibly.
 
-The [[fiber]] of the [[bundle]] underlying a  Cartan connection is a [[homogeneous space]]. This notion is closely related to [[Klein geometry|Klein geometries]]. 
+Therefore a manifold equipped with a Cartan connections is also called a _[[Cartan geometry]]_ (see also there), a generalization (globalization) of the concept of [[Klein geometry]].
 
-Cartan connections are also just called _[[Cartan geometries]]_ . See there for more.
 
+In yet a little bit more detail, an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is a $G$-[[principal connection]] on $X$ equipped with a [[reduction of structure groups|reduction of its structure group]] along $H \to G$ and such that the connection 1-form linearly identifies each [[tangent space]] $T_X X$ of $X$ with tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]].
+
+## History
+
+The concept essentially originates around ([Cartan 23](#Cartan23)), but the formulation in terms of [[principal connections]] and in fact the terminology _Cartan connection_ is due to [[Charles Ehresmann]] who formulated principal connections as what in turn today are called _[[Ehresmann connections]]_ ([Ehresmann 50](#Ehresmann50)). 
+
+In ([Ehresmann 50](#Ehresmann50)) Cartan's idea  are formalized (see [Marle 14, page 9, 10](#Marle14) for review) by saying that an $(G \hookrightarrow H)$-Cartan connection is a $G$-Ehresmann connection on a $G$-[[principal bundle]] $P$ equipped with an $H$-principal subbundle $Q$, such that the restriction of the connection form along this inclusion yields a form that determines an isomorphism of each tangent space of $Q$ with $\mathfrak{g}$. 
 
 ## Definition
 
@@ -298,6 +304,11 @@ The full definition of Cartan connection demands that this identification is car
 
 ## Examples
 
+### Table of example
+ {#TableOfExamples}
+
+[[!include local and global geometry - table]]
+
 ### (pseudo-)Riemannian geometry
 
 Let $G = Iso(d,1)$ be the [[Poincare group]] and $H \subset G$ the [[orthogonal group]] $O(d,1)$. Then the quotient
@@ -329,22 +340,35 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 
   * [[higher parallel transport]]
 
-[[!include local and global geometry - table]]
+
 
 
 ## References
 
-[[Élie Cartan]] has introduced Cartan connections in his work on the Cartan's "method of moving frames" (cf. [[Cartan geometry]]).
+The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. [[Cartan geometry]]).
+
+* {#Cartan23} [[Élie Cartan]] _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
+
+The formalization in terms of [[pricipal connections]] (in their incarnation as [[Ehresmann connections]]) is due to
+
+* {#Ehresmann50} [[Charles Ehresmann]], _Les connexions infinitesimales dans un espace fibre diff&#180;erentiable_, Colloque de topologie de Bruxelles, 1950, p. 29&#8211;55.
 
 A standard textbook reference is
 
-* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
- {#Sharpe}
+* {#Sharpe} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+ 
+More on the history is in 
+
+* {#Marle14} [[Charles-Michel Marle]], _The works of Charles Ehresmann on connections: from Cartan connections to connections on fibre bundles_ ([arxiv:1401.8272](http://arxiv.org/abs/1401.8272))
+
+See also
+
+* [[Dmiti Alekseevesky]], [[Peter Michor]], _Differential geometry of Cartan connections_ Publ. Math. Debrecen 47/3-4 (1995), 349{375 ([pdf](http://www.mat.univie.ac.at/~michor/cartan.pdf))
 
 
 Further discussion of Cartan connections as models for the [[first order formulation of gravity]] is in 
 
-* [[Derek Wise]], _MacDowell-Mansouri gravity and Cartan geometry_, Class.Quant.Grav.27:155010,2010 ([arXiv:gr-qc/0611154](http://arxiv.org/abs/gr-qc/0611154/))
+*  [[Derek Wise]], _MacDowell-Mansouri gravity and Cartan geometry_, Class.Quant.Grav.27:155010,2010 ([arXiv:gr-qc/0611154](http://arxiv.org/abs/gr-qc/0611154/))
 
 * [[Gabriel Catren]], _Geometrical Foundations of Cartan Gauge Gravity_ ([arXiv:1407.7814](http://arxiv.org/abs/1407.7814))
 
