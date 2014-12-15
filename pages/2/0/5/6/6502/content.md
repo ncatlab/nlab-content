@@ -60,7 +60,9 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 ###### Remark
 **(References)**
 
-In terms of [[Cech cohomology|Cech]] [[cocycle]]-data definition \ref{Traditional} is ([Sharpe, section 5.1, def. 1.3](#Sharpe)).  The equivalent formulation as an $H$-[[principal bundle]] equipped with $\mathfrak{g}$-[[Lie algebra valued differential form]] data on its total space is in ([Sharpe, section 5.3, def. 3.1](#Sharpe)), and the equivalent formulation as a $G$-[[principal bundle]] equipped with an [[Ehresmann connection]] on its total space, subject to a constraint, is in ([Sharpe, appendix A, prop. 3.1](#Sharpe)).
+In terms of [[Cech cohomology|Cech]] [[cocycle]]-data definition \ref{Traditional} is ([Sharpe, section 5.1, def. 1.3](#Sharpe)).  The equivalent formulation as an $H$-[[principal bundle]] equipped with $\mathfrak{g}$-[[Lie algebra valued differential form]] data on its total space is in ([Sharpe, section 5.3, def. 3.1](#Sharpe)), and the equivalent formulation as a $G$-[[principal bundle]] equipped with an [[Ehresmann connection]] on its total space, subject to a constraint, is in ([Sharpe, appendix A, prop. 3.1](#Sharpe)). 
+
+Hence ([Sharpe](#Sharpe)) gives closely related equivalent definitions, but never quite says it fullly explicitly in the form of def. \ref{Traditional}. More explicit statements as above are in [Wikipedia -- Cartan connection -- As principal connectoions](http://en.wikipedia.org/wiki/Cartan_connection#Cartan_connections_as_principal_connections).
 
 =--
 
@@ -82,16 +84,16 @@ In many important examples the spaces $X$ carrying a Cartan connection are not j
 
 =--
 
-### In terms of smooth moduli stacks
+### Synthetically in terms of differential cohesion
  {#InTermsOfSmoothModuliStacks}
 
 We discuss a [[synthetic mathematics|synthetic]] formulation of Cartan connections in terms of [[differential cohesion]].
 
-> under construction. Discussion of the precise relation to the traditional concept needs to be added
+> under construction
 
 Write
 
-* $\Omega^1(-,\mathfrak{g})$ for the [[sheaf]] (on the [[site]] of [[smooth manifolds]]) of [[Lie algebra valued differential forms]], regarded as the [[smooth set|smooth]] [[moduli space]] of $\mathfrak{g}$-differential forms (as explained at _[[geometry of physics]]_ in the chapter _[[geometry of physics -- differential forms|on differential forms]]_)
+* $\Omega^1(-,\mathfrak{g})$ for the [[sheaf]] (on the [[site]] of [[formal manifold|formal]] [[smooth manifolds]]) of [[Lie algebra valued differential forms]], regarded as the [[smooth set|smooth]] [[moduli space]] of $\mathfrak{g}$-differential forms (as explained at _[[geometry of physics]]_ in the chapter _[[geometry of physics -- differential forms|on differential forms]]_)
 
 * $\mathbf{B} G_{conn} \simeq \Omega^1(-,\mathfrak{g})//G$ for the universal [[moduli stack of connections]], which is equivalently the [[homotopy quotient]] of $\Omega^1(-,\mathfrak{g})$ by the [[action]] of $G$ (regarded as a [[smooth group]]) by [[gauge transformations]];
 
@@ -137,7 +139,7 @@ $$
   }
 $$
 
-is a [[homotopy pullback]]. From this the [[pasting law]] implies that in the top left coner we have indeed $G/H$, this being the [[homotopy fiber]] of $\mathbf{B}H \to \mathbf{B}G$. Similar considerations show that the top left map is the abstractly defined [[Maurer-Cartan form]].
+is a [[homotopy pullback]]. From this the [[pasting law]] implies that in the top left corner we have indeed $G/H$, this being the [[homotopy fiber]] of $\mathbf{B}H \to \mathbf{B}G$. Similar considerations show that the top left map is the abstractly defined [[Maurer-Cartan form]].
 
 =--
 
@@ -149,10 +151,50 @@ For $G$ a [[semisimple Lie group|semisimple]] [[compact Lie group|compact]] [[Li
 
 =--
 
+We need this and one more ingredient for synthetically formalizing Cartan connections:
+
++-- {: .num_remark #FactorizationOfConnection}
+###### Remark
+
+Let $\mathbb{D}^d_x \hookrightarrow X$ be the first-oder [[infinitesimal neighbourhood]] of a point in a manifold $X$. This being first order means that every [[differential p-form]] for $p \geq 2$ vanishes on $\mathbb{D}^d$. In particular therefore every [[principal connection]] restricted to $\mathbb{D}^d$ becomes a [[flat connection]] and hence is indeed gauge equivalent to the trivial connection. In particular every map
+
+$$
+  \mathbb{D}^d_x \longrightarrow \Omega^1(-,\mathfrak{g})//H \to \mathbf{B}G_{conn}
+$$
+
+has a null-homotopy, hence fits into a square of the form
+
+$$
+  \array{
+    \mathbb{D}^d_x 
+      &\stackrel{\nabla_H}{\longrightarrow}& 
+    \Omega^1(-,\mathfrak{g})//H
+    \\
+    \downarrow &\swArrow_{\mathrlap{\simeq}}& \downarrow^{\mathrlap{\mathbf{J}}} 
+    \\
+    \ast &\longrightarrow& \mathbf{B}G_{conn}
+  }
+  \,.
+$$
+
+It follows by prop. \ref{MCFormAsFiberOfDifferentialModuli} that $\nabla_H$ here factors through the [[Maurer-Cartan form]]
+
+$$
+  \nabla_H|_{\mathbb{D}^d_x}
+  \;\colon\;
+  \mathbb{D}^d_x 
+     \stackrel{}{\longrightarrow} 
+  G/H 
+     \stackrel{\theta/H}{\longrightarrow}
+  \Omega^1(-,\mathfrak{g})//H
+  \,.
+$$
+
+=--
 
 The following is a synthetic formulation of Cartan connections, def. \ref{Traditional}. 
 
-+-- {: .num_defn}
++-- {: .num_defn #CartanConnectionSynthetically}
 ###### Definition
 
 Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is
@@ -163,7 +205,7 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
      \nabla \colon X \longrightarrow \mathbf{B}G_{conn}
    $$
 
-1. equipped with a [[reduction of the structure group]] given by a lift through $\mathbf{J}$ in prop. \ref{MCFormAsFiberOfDifferentialModuli}
+1. equipped with a [[reduction of structure groups]] given by a lift through $\mathbf{J}$ in prop. \ref{MCFormAsFiberOfDifferentialModuli}
 
    $$
      \array{
@@ -175,34 +217,83 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
      }
    $$
 
-1. such that there exists an [&#233;tale atlas](differential+cohesion#CohesivemanifoldsSeparated) $p \colon U \to X$ over which the underlying $G$-[[principal bundle]] has a trivialization  and such that the morphism $\phi$ which is universally induced from this trivialization via prop. \ref{MCFormAsFiberOfDifferentialModuli}  is [[formally étale morphism|formally étale]]:
-
+1. such that over each first-order [[infinitesimal neighbourhood]] $\mathbb{D}^d_x \hookrightarrow X$ any induced factorization, via remark \ref{FactorizationOfConnection},
 
    $$
-     \array{
-       && G/H &\stackrel{}{\longrightarrow}& \Omega^1(-,\mathfrak{g})/H
-         &\longrightarrow& \mathbf{B}H
-       \\
-         & {}^{\mathllap{\phi}}\nearrow && 
-        \swArrow_{\simeq} & 
-   \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
-       \\
-       U
-         &\stackrel{p}{\longrightarrow}&
-       X
-         &\stackrel{\nabla}{\longrightarrow}&
-       \mathbf{B}G_{conn}
-         &\longrightarrow&
-       \mathbf{B}G
-     }
+     \mathbb{D}^d_x \stackrel{}{\longrightarrow} G/H
    $$
 
-.
+   is [[formally étale morphism|formally étale]].
 
 =--
 
 
+## Properties
 
+### As encoding "rolling without sliding"
+
+It is useful to decompose the definition of Cartan connection into two states:
+
+1. the [[reduction of structure groups|reduction]] of the underlying principal bundles along $H \hookrightarrow G$;
+
+1. the compatible connection data.
+
+In the synthetic formulation [above](#InTermsOfSmoothModuliStacks) these two stages are reflected by the [[pasting law]] applied to the pullback pasting diagram of prop. \ref{MCFormAsFiberOfDifferentialModuli}: the lift
+
+$$
+  \array{
+     && G/H &\stackrel{\theta/H}{\longrightarrow}& \Omega^1(-,\mathfrak{g})//H
+     &\longrightarrow& \mathbf{B}H
+     \\
+     &{}^{\mathllap{\nabla_H}}\nearrow& \downarrow && \downarrow^{\mathrlap{\mathbf{J}}} && \downarrow
+     \\
+     X &\stackrel{\nabla}{\longrightarrow}& \ast &\longrightarrow& \mathbf{B}G_{conn} &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+may be thought of as being first of all a lift in
+
+$$
+  \array{
+     && \mathbf{B}H 
+    \\
+     & \nearrow & \downarrow
+    \\
+    X &\longrightarrow& \mathbf{B}G
+  }
+  \,.
+$$
+
+Now the [[homotopy fiber sequence]]
+
+$$
+  \array{
+     G/H &\longrightarrow& \mathbf{B}H
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}H
+  }
+$$
+
+exhibits $\mathbf{B}H \to \mathbf{B}G$ as the universal $G/H$-[[fiber bundle]] [[associated bundle|associated]] to the $G$-[[universal principal bundle]], and exhibits this lift as a [[section]] of the $G/H$-[[fiber bundle]] $P \underset{G}{\times} G/H$ associated with the given $G$-[[principal bundle]] on $X$:
+
+$$
+  \array{
+     && P \underset{G}{\times} G/H &\longrightarrow& \mathbf{B}H 
+    \\
+    &\nearrow & \downarrow && \downarrow
+    \\
+    X &=& X &\longrightarrow& \mathbf{B}G
+  }
+  \,.
+$$
+
+This section is what identifies each point of $X$ with a point in $G/H$, modulo $G$-action. More in detail, given any [[cover]] $U \to X$ equipped with a trivialization of $U \to X \to \mathbf{B}G$ then the induced map $U \to G/H$ identifies each point of this cover with a point in $G/H$.
+
+One could at this point just demand that there is such a cover and trivialization such that this induced map $U \to G/H$ is [[formally étale morphism|formally étale]] (a [[local diffeomorphism]]). This would already serve the purpose of identifying each [[tangent space]] $T_x X$ with the tangent space $T_{e H} (G/H)$.
+
+The full definition of Cartan connection demands that this identification is carried along by a compatible parallel transport. (...)
 
 
 ## Examples
