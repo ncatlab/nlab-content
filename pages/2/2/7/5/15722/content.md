@@ -44,7 +44,7 @@ Let
 
 * $E$ a [[complex vector space|complex]] [[finite dimensional vector space]] 
 
-* $\chi colon \Gamma \to U(E)$ a [[unitary representation]] of $\Gamma$.
+* $\chi \colon \Gamma \to U(E)$ a [[unitary representation]] of $\Gamma$.
 
 Then the [[quotient]]
 
@@ -64,10 +64,10 @@ for the [[subset]] of elements $[g]$ for which $n_\Gamma(g) = 1$. Regarded as el
 
 **Definition**
 
-The _Selnerg zeta function_ $\zeta_\chi$ of this data is defined for $Re(s)\gt (n-1)/2$ to be the [[infinite product]]
+The _Selberg zeta function_ $\zeta_\chi$ of this data is defined for $Re(s)\gt (n-1)/2$ to be the [[infinite product]]
 
 $$
-  \zeta_\chi(s)
+  \zeta_\chi(s) =
   \underset{{[g] \in Prim(\Gamma)} \atop {[g] \neq 1}}{\prod}
   \;
   \underoverset{k = 0}{\infty}{\prod} 
@@ -94,7 +94,7 @@ That it is in particular the Euler product of characteristic polynomials of the 
 
 This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
-So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space conraining knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
+So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
 
 See at _[Artin L-function -- Analogy with Selberg zeta function](Artin%20L-function#AnalogyWithSelbergZeta)_ for more. This analogy has been highlighted in ([Brown 09](#Brown09), [Morishita 12, remark 12.7](#Morishita12)).
 
