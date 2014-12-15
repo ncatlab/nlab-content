@@ -83,6 +83,8 @@ See also
 
 * [[Benoit Fresse]], _The Bar Complex of an E-infinity algebra_ ([pdf](http://math.univ-lille1.fr/~fresse/Bar-StructureUniqueness.pdf))
 
+* [[Birgit Richter]], [[Brooke Shipley]], _An algebraic model for commutative HZ-algebras_, [arXiv:1411.7238](http://arxiv.org/abs/1411.7238).
+
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
 [[!redirects E-∞-ring]]
