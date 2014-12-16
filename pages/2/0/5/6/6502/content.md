@@ -244,10 +244,13 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
 
 =--
 
+## Weaker definitions (pre- and semi-Cartan geometry)
 
-## Properties
+### Pre-Cartan geometry
 
-### As encoding "rolling without sliding"
+[Kuranishi 95](#Kuranishi95)
+
+### Semi-Cartan geometry
 
 It is useful to decompose the definition of Cartan connection into two states:
 
@@ -313,6 +316,8 @@ One could at this point just demand that there is such a cover and trivializatio
 The full definition of Cartan connection demands that this identification is carried along by a compatible parallel transport. (...)
 
 
+
+
 ## Examples
 
 ### Table of example
@@ -364,17 +369,21 @@ The formalization in terms of [[principal connections]] (in their incarnation as
 
 * {#Ehresmann50} [[Charles Ehresmann]], _Les connexions infinitesimales dans un espace fibre diff&#180;erentiable_, Colloque de topologie de Bruxelles, 1950, p. 29&#8211;55.
 
+reviewed in 
+
+* {#Marle14} [[Charles-Michel Marle]], _The works of Charles Ehresmann on connections: from Cartan connections to connections on fibre bundles_ ([arxiv:1401.8272](http://arxiv.org/abs/1401.8272))
+
 A standard textbook reference is
 
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
  
-More on the history is in 
 
-* {#Marle14} [[Charles-Michel Marle]], _The works of Charles Ehresmann on connections: from Cartan connections to connections on fibre bundles_ ([arxiv:1401.8272](http://arxiv.org/abs/1401.8272))
 
 See also
 
-* [[Dmiti Alekseevesky]], [[Peter Michor]], _Differential geometry of Cartan connections_ Publ. Math. Debrecen 47/3-4 (1995), 349{375 ([pdf](http://www.mat.univie.ac.at/~michor/cartan.pdf))
+* {#Kuranishi95} [[Masatake Kuranishi]], _CR geometry and Cartan geometry_, Forum mathematicum (1995) Volume: 7, Issue: 2, page 147-206 ([EuDML page](https://eudml.org/doc/186418), [page with link to pdf](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=PPN481110151_0007&DMDID=dmdlog11))
+
+* [[Dmiti Alekseevesky]], [[Peter Michor]], _Differential geometry of Cartan connections_ Publ. Math. Debrecen 47/3-4 (1995), 349-375 ([pdf](http://www.mat.univie.ac.at/~michor/cartan.pdf))
 
 
 Further discussion of Cartan connections as models for the [[first order formulation of gravity]] is in 
