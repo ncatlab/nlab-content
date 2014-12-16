@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -59,7 +58,7 @@ and we have the following definition:
 ###### Definition 
 The **bar construction** $Bar_T(A)$ is the simplicial $T$-algebra given by the composite functor 
 
-$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}.$$ 
+$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}^T.$$ 
 
 The composite 
 
@@ -68,7 +67,7 @@ $$\Delta^{op} \stackrel{Bar_T(A)}{\to} \mathbf{E}^T \stackrel{U}{\to} \mathbf{E}
 will here be called the **bar resolution** of $A$. 
 =-- 
 
-In the notation of [[two-sided bar constructions]], the bar construction would be written as $Bar_T(A) = B(T, T, A)$. 
+In the notation of [[two-sided bar constructions]], the bar construction would be written as $Bar_T(A) = B(F, T, A)$, and the bar resolution as $B(T, T, A)$. 
 
 ## D&#233;calage and resolutions 
 
@@ -106,7 +105,7 @@ An **acyclic structure** on a simplicial object $X: \Delta^{op} \to C$ is a $P$-
 
 Here a $P$-coalgebra structure on $X$ is the same as a *right* $D$-coalgebra (or $D$-comodule) structure, given by a simplicial map $h: X \to X \circ D$ satisfying evident equations. In more nuts-and-bolts terms, it consists of a series of maps $h_n: X([n]) \to X([n+1])$ satisfying suitable equations. 
 
-The map $h: X \to X D$ may be viewed a homotopy. Again, turning to the topological analogue for intuition, the corresponding $h: X \to P X$ is a homotopy (or rather, the composite $X \to P X \to X^I$ can be turned into a homotopy $I \times X \to X$). The coalgebra structure $h: X \to P X$ has a retraction given by the counit $\varepsilon: P X \to X$, so $X$ becomes a retract of an acyclic space, hence acyclic itself. 
+The map $h: X \to X D$ may be viewed as a homotopy. Again, turning to the topological analogue for intuition, the corresponding $h: X \to P X$ is a homotopy (or rather, the composite $X \to P X \to X^I$ can be turned into a homotopy $I \times X \to X$). The coalgebra structure $h: X \to P X$ has a retraction given by the counit $\varepsilon: P X \to X$, so $X$ becomes a retract of an acyclic space, hence acyclic itself. 
 
 +-- {: .num_remark #rem}
 ###### Remark 
@@ -163,52 +162,166 @@ By Remark \ref{rem}, it follows that $U Bar_T(A)$, obtained by applying evaluati
 
 ### Universal property
 
-We now state a [[universal property]] of the bar resolution $B(T, A) = U Bar_T(A)$. 
+We now state and prove a [[universal property]] of the bar construction $Bar_T(A)$. 
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $T$ be a monad on a category $\mathbf{E}$. A $T$-**algebra resolution** is a simplicial object $Y: \Delta^{op} \to \mathbf{E}^T$ together with an acyclic structure on $U Y: \Delta^{op} \to \mathbf{E}$. A morphism between $T$-algebra resolutions is a natural transformation $\phi: Y \to Y'$ such that $U\phi: U Y \to U Y'$ is a $P$-coalgebra map. 
+Let $(T, m: T T \to T, u: 1 \to T)$ be a monad on a category $\mathbf{E}$. A $T$-**algebra resolution** is a simplicial object $Y: \Delta^{op} \to \mathbf{E}^T$ together with an acyclic structure on $U Y: \Delta^{op} \to \mathbf{E}$. A morphism between $T$-algebra resolutions is a natural transformation $\phi: Y \to Y'$ such that $U\phi: U Y \to U Y'$ is a $P$-coalgebra map. 
 =-- 
 
 Let $AlgRes_T$ be the category of $T$-algebra resolutions. There is a forgetful functor 
 
 $$G: AlgRes_T \to \mathbf{E}^T$$ 
 
-that takes an algebra resolution $Y$ to its augmentation component $Y([0])$. 
+that takes an algebra resolution $Y$ to its augmentation component $Y[0]$. 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #universal}
 ###### Theorem 
 The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$; i.e., $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is [[left adjoint]] to $G$. 
 =-- 
 
 The proof is distributed over two lemmas. 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #unique} 
 ###### Lemma 
-Given a $T$-algebra resolution $Y$ and a $T$-algebra map $f: A \to Y([0])$, there is at most one $T$-algebra resolution map $\phi: Bar_T(A) \to Y$ such that 
-$\phi([0]) = f$. 
+Given a $T$-algebra resolution $Y$ and a $T$-algebra map $f: A \to Y[0]$, there is at most one $T$-algebra resolution map $\phi: Bar_T(A) \to Y$ such that 
+$\phi[0] = f$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-The $P$-coalgebra structure $h: U Bar_T(A) \to U Bar_T(A) \circ D$ is defined on components $U Bar_T(A)([n]) = T^n A$ by $h([n]) = u T^n(A): T^n(A) \to T^{n+1}(A)$. Thus in order that $U\phi$ be a $P$-coalgebra map, we must have that the diagram 
+The $P$-coalgebra structure $h: U Bar_T(A) \to U Bar_T(A) \circ D$ is defined on components $U Bar_T(A)[n] = T^n A$ by $h[n] = u T^n(A): T^n(A) \to T^{n+1}(A)$. Thus in order that $U\phi$ be a $P$-coalgebra map, we must have that the diagram 
 
 $$\array{
 T^n A & \stackrel{u T^n A}{\to} & U F T^n(A) \\ 
- _\mathllap{U\phi([n])} \downarrow & & \downarrow_\mathrlap{U\phi([n+1])} \\ 
-U Y([n]) & \underset{h_Y([n])}{\to} & U Y([n+1])
+ _\mathllap{U\phi[n]} \downarrow & & \downarrow_\mathrlap{U\phi[n+1]} \\ 
+U Y[n] & \underset{h_Y[n]}{\to} & U Y[n+1]
 }$$ 
 
-commutes. Here $\phi([n]): T^n (A) \to Y([n])$ determines a unique $T$-algebra map $g: F T^n(A) \to Y([n+1])$ such that 
+commutes. Here $\phi[n]: T^n (A) \to Y[n]$ determines a unique $T$-algebra map $g: F T^n(A) \to Y[n+1]$ such that 
 
-$$U(g) \circ u T^n(A) = h_Y([n]) \circ U\phi([n])$$ 
+$$U(g) \circ u T^n(A) = h_Y[n] \circ U\phi[n]$$ 
 
-since $F$ is left adjoint to $U$. Thus, starting with $\phi([0]) = f$ as given, each algebra map $\phi([n+1]) = g$ is uniquely determined from its predecessor $\phi([n])$. 
+since $F$ is left adjoint to $U$. Thus, starting with $\phi[0] = f$ as given, each algebra map $\phi[n]$ uniquely determines its successor $\phi[n+1] = g$. 
 =-- 
 
-The preceding proof does not show that the $\phi([n])$ fit together to form a map $\phi$ of simplicial $T$-algebras (i.e., to respect faces and degeneracies); it merely shows at most one such $T$-algebra resolution map is possible. 
++-- {: .num_remark #simp} 
+###### Remark 
+The preceding proof does not show that the $\phi[n]$ fit together to form a map $\phi$ of simplicial $T$-algebras (i.e., to respect faces and degeneracies); it merely shows at most one such $T$-algebra resolution map is possible. But once we show that $\phi$ respects faces and degeneracies, the proof of Theorem \ref{universal} will be complete. 
+=-- 
 
++-- {: .num_lemma #exist} 
+###### Lemma 
+Given a $T$-algebra resolution $Y$ and an algebra map $f: X \to Y[0]$, there is at least one $T$-algebra resolution map $\phi: Bar_T(X) \to Y$ with $\phi[0] = f$. 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+It is enough to produce such a map $\phi: Bar_T(Y[0]) \to Y$ in the case $f = 1_{Y[0]}$, since the case for general $f: X \to Y[0]$ is then given by a composite 
+
+$$Bar_T(X) \stackrel{Bar_T(f)}{\to} Bar_T(Y[0]) \stackrel{\phi}{\to} Y.$$ 
+
+We will do something slightly more general. For any category $\mathbf{C}$, the endofunctor category $[\mathbf{C}^{\Delta^{op}}, \mathbf{C}^{\Delta^{op}}]$ has a comonoid object $P = - \circ D$, so that there is an induced strong monoidal functor 
+
+$$\Delta^{op} \stackrel{\tilde{P}}{\to} [\mathbf{C}^{\Delta^{op}}, \mathbf{C}^{\Delta^{op}}]$$ 
+
+which, upon evaluating at an object $Y$ of $\mathbf{C}^{\Delta^{op}}$, gives a functor 
+
+$$B(Y, D, D) \coloneqq eval_Y \circ \tilde{P}: \Delta^{op} \to \mathbf{C}^{\Delta^{op}}$$ 
+
+with $B(Y, D, D)[n] = Y D^n$, so that $B(Y, D, D)$ is a double simplicial object. Taking $\mathbf{C} = \mathbf{E}^T$ and taking $Y$ to be a $T$-algebra resolution with acyclic structure $h: Y \to Y D$, we will produce a (double) simplicial map 
+
+$$\Phi: B(T, T, Y) \to B(Y, D, D)$$ 
+
+where $\Phi[n]: T^n Y \to Y D^n$ is defined recursively as in the proof of Lemma \ref{unique}, by setting $\Phi[0] = 1_Y$ and taking $\Phi[n+1]: T^{n+1} Y \to Y D^{n+1}$ the unique simplicial $T$-algebra map such that 
+
+$$\array{
+T^n Y & \stackrel{u T^n Y}{\to} & T^{n+1} Y \\ 
+ _\mathllap{\Phi[n]} \downarrow & & \downarrow_\mathrlap{\Phi[n+1]} \\ 
+Y D^n & \underset{h D^n}{\to} & Y D^{n+1}
+}$$ 
+
+commutes for all $n$. Once we verify the claim that $\Phi$ respects faces and degeneracies, the same will be true for $\phi[n] = \Phi[n][0]: (T^n Y)[0] = T^n(Y[0]) \to (Y D^n)[0] = Y[n]$, whence the proof will be complete by Remark \ref{simp}. 
+
+The claim is proved by induction on $n$. Let $\epsilon: D \to 1_{\Delta^{op}}$ be the counit and $\delta: D \to D D$ be the comultiplication. We have face maps 
+
+$$T^j m T^{n-j-1} Y: T^{n+1} Y \to T^n Y, \qquad Y D^j \epsilon D^{n-j}: Y D^{n+1} \to Y D^n$$ 
+
+for $j = 0$ to $n$, under the special convention that $m T^{-1}Y: T Y \to Y$ denotes the action $\alpha: T Y \to Y$. We also have degeneracy maps 
+
+$$T^j u T^{n-j} Y: T^n Y \to T^{n+1} Y, \qquad Y D^{j-1} \delta D^{n-j}: Y D^n \to Y D^{n+1}$$ 
+
+for $j = 1$ to $n$. We proceed as follows. 
+
+* To check preservation of face maps, we treat separately the cases where $j = 0$ and $j \geq 1$. 
+  * For $j = 0$, we must check commutativity of the square in 
+$$\array{
+T^n Y & \stackrel{u T^n Y}{\to} & T^{n+1} Y & \stackrel{\Phi[n+1]}{\to} & Y D^{n+1} \\ 
+ & _\mathllap{id} \searrow & \downarrow_\mathrlap{m T^{n-1} Y} & & \downarrow_\mathrlap{Y\epsilon D^n} \\ 
+ & & T^n Y & \underset{\Phi[n]}{\to} & Y D^n.
+}$$ 
+Since all the maps are algebra maps and $u T^n Y: T^n Y \to T^{n+1} Y$ exhibits $T^{n+1} Y$ as the free algebra on $T^n Y$, it suffices to check commutativity around the perimeter. (N.B.: the triangle commutes, even in the case where $n=0$ which we need to start the induction.) By definition of $\Phi[n+1]$, commutativity of the perimeter boils down to commutativity of 
+$$\array{
+T^n Y & \stackrel{u T^n Y}{\to} & T^{n+1} Y & \stackrel{\Phi[n+1]}{\to} & Y D^{n+1} \\ 
+ & _\mathllap{\Phi[n]} \searrow & & \nearrow_\mathrlap{h D^n} & \downarrow_\mathrlap{Y\epsilon D^n} \\ 
+ & & Y D^n & \underset{id}{\to} & Y D^n 
+}$$ 
+where the triangle commutes by one of the acyclic structure equations. 
+  * For $j \geq 1$, the commutativity of the right square in 
+$$\array{
+T^n Y & \stackrel{u T^n Y}{\to} & T^{n+1} Y & \stackrel{\PhiY[n+1]}{\to} & Y D^{n+1} \\ 
+ _\mathllap{T^{j-1}m T^{n-j-1} Y} \downarrow & nat. & \downarrow_\mathrlap{T^j m T^{n-j-1} Y} & & \downarrow_\mathrlap{Y D^j \epsilon D^{n-j}} \\ 
+T^{n-1} Y & \underset{u T^{n-1} Y}{\to} & T^n Y & \underset{\Phi[n]}{\to} & Y D^n \\ 
+ & _\mathllap{\Phi[n-1]} \searrow & & \nearrow_\mathrlap{h D^{n-1}} & \\ 
+ & & Y D^{n-1} & & 
+}$$ 
+is again by appeal to a freeness argument where we just need to check commutativity of the perimeter, noting commutativity of the left square by naturality and that of the bottom quadrilateral by the recursive definition of $\Phi[n]$. But the perimeter commutes by examining the diagram 
+$$\array{
+T^n Y & \stackrel{u T^n Y}{\to} & T^{n+1} Y & \stackrel{\Phi[n+1]}{\to} & Y D^{n+1} \\ 
+_\mathllap{T^{j-1}m T^{n-j-1} Y} \downarrow & _\mathllap{\Phi[n]} \searrow & & \nearrow_\mathrlap{h D^n} & \downarrow_\mathrlap{Y D^j \epsilon D^{n-j}} \\ 
+T^{n-1} Y & ind. & Y D^n & nat. & Y D^n \\ 
+ & _\mathllap{\Phi[n-1]} \searrow & \downarrow & \nearrow_\mathrlap{h D^{n-1}} & \\ 
+ & & Y D^{n-1} & & 
+}$$ 
+(where the middle vertical arrow is $Y D^{j-1} \epsilon D^{n-j}$) using the inductive hypothesis in the bottom left parallelogram. 
+
+* To check preservation of degeneracy maps, we treat separately the cases $j=1$ and $j \geq 2$. 
+  * For $j = 1$, the commutativity of the top right square in 
+$$\array{
+T^{n-1} Y & \stackrel{u T^{n-1} Y}{\to} & T^n Y & \stackrel{\Phi[n]}{\to} & Y D^n \\ 
+ _\mathllap{u T^{n-1} Y} \downarrow & nat. & \downarrow _\mathrlap{T u T^{n-1} Y} & & \downarrow_\mathrlap{Y \delta D^{n-1}} \\ 
+T^n Y & \underset{u T^n Y}{\to} & T^{n+1} Y & \underset{\Phi[n+1]}{\to} & Y D^{n+1} \\ 
+ & _\mathllap{\Phi[n]} \searrow & & \nearrow_\mathrlap{h D^n} & \\ 
+ & & Y D^n & & 
+}$$ 
+is by appeal to a freeness argument where we just need to check commutativity of the perimeter (the special case $n=1$ being used to start the induction). But this boils down to commutativity of the diagram 
+$$\array{
+T^{n-1} Y & \stackrel{u T^{n-1} Y}{\to} & T^n Y & \stackrel{\Phi[n]}{\to} & Y D^n \\ 
+ _\mathllap{u T^{n-1} Y} \downarrow & \searrow_\mathrlap{\Phi[n-1]} & & _\mathllap{h D^{n-1}} \nearrow & \downarrow_\mathrlap{Y \delta D^{n-1}} \\ 
+T^n Y & & Y D^{n-1} & & Y D^{n+1} \\ 
+ & _\mathllap{\Phi[n]} \searrow & \downarrow_\mathrlap{h D^{n-1}} & \nearrow_\mathrlap{h D^n} & \\ 
+ & & Y D^n & & 
+}$$ 
+where the bottom right quadrilateral commutes by one of the acyclic structure equations. 
+  * For $j \geq 2$, the commutativity of the top right square in 
+$$\array{
+T^{n-1} Y & \stackrel{u T^{n-1} Y}{\to} & T^n Y & \stackrel{\Phi[n]}{\to} & Y D^n \\ 
+ _\mathllap{T^{j-1} u T^{n-j} Y} \downarrow & nat. & \downarrow _\mathrlap{T^j u T^{n-j} Y} & & \downarrow_\mathrlap{Y D^{j-1} \delta D^{n-j}} \\ 
+T^n Y & \underset{u T^n Y}{\to} & T^{n+1} Y & \underset{\Phi[n+1]}{\to} & Y D^{n+1} \\ 
+ & _\mathllap{\Phi[n]} \searrow & & \nearrow_\mathrlap{h D^n} & \\ 
+ & & Y D^n & & 
+}$$
+is once again by appeal to a freeness argument where we just need to check commutativity of the perimeter. Here it boils down to commutativity of 
+$$\array{
+T^{n-1} Y & \stackrel{u T^{n-1} Y}{\to} & T^n Y & \stackrel{\Phi[n]}{\to} & Y D^n \\ 
+ _\mathllap{T^{j-1} u T^{n-j} Y} \downarrow  & \searrow_\mathrlap{\Phi[n-1]} & & _\mathllap{h D^{n-1}} \nearrow & \downarrow_\mathrlap{Y D^{j-1} \delta D^{n-j}} \\ 
+T^n Y & ind. & Y D^{n-1} & nat. & Y D^{n+1} \\ 
+ & _\mathllap{\Phi[n]} \searrow & \downarrow & \nearrow_\mathrlap{h D^n} & \\ 
+ & & Y D^n & & 
+}$$ 
+where the middle vertical arrow is $Y D^{j-2} \delta D^{n-j}$. 
+
+This completes the proof. 
 =-- 
 
 ## Special cases
