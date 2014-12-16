@@ -356,35 +356,35 @@ The WZW nature of the second term in the GS action, recognized in ([Henneaux-Mez
 discussed with its [[infinity-Lie theory|Lie theoretic]] meaning
 made fully explicit (in "FDA" language) in chater 8 of
 
-* [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
- {#AzcarragaIzqierdo}
+* {#AzcarragaIzqierdo} [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
+ 
 
 The original "brane scan" classification of GS action functionals by WZW terms is due to
 
-* Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en))
- {#AETW87}
+* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en))
+ 
 
 For $d = 11$ the relevant [[super Lie algebra]] [[Lie algebra cohomology|cocycles]] have also been discussed (but not related to the Green-Schwarz action functional) in 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
- {#DAuriaFre82}
+* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+ 
 
 A review is in 
 
-* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
-{#Duff}
+* {#Duff} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+
 
 from which the above table is taken.
 
 A decent systematic account of the principles of super Lie algebra cohomology in the GS-functional, of these cocycles is in the letter
 
-* [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989)
- {#AzcarragaTownsend89}
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989)
+ 
 
 and a detailed account building on this, which also discusses the GS/WZW terms for [[D-branes]] on the [[type II supergravity Lie 2-algebra]] (in its section 6) is in 
 
-* C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
- {#CAIB99}
+* {#CAIB99} C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+ 
 
 
 
@@ -399,18 +399,18 @@ More along these lines is in
 
 The Green-Schwarz-type action for the [[M5-brane]] was found in 
 
-* Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
- {#BLNPST}
+* {#BLNPST} Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+ 
 
-* Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
- {#APPS}
+* {#APPS} Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+ 
 
 The 7-cocycle on the [[supergravity Lie 3-algebra]] which gives the [[supergravity Lie 6-algebra]] appears in these articles (somewhat secretly) in equation ([BLNPST, equation (9)](#BLNPST)).
 
 See also
 
-* Igor Bandos, Paolo Pasti, Dmitri Sorokin, Mario Tonin, _Superbrane Actions and Geometrical Approach_ ([arXiv:hep-th/9705064](http://arxiv.org/abs/hep-th/9705064))
- {#BPST}
+* {#BPST} Igor Bandos, Paolo Pasti, Dmitri Sorokin, Mario Tonin, _Superbrane Actions and Geometrical Approach_ ([arXiv:hep-th/9705064](http://arxiv.org/abs/hep-th/9705064))
+ 
 
 The 7-cocycle for the M5-brane on the [[supergravity Lie 3-algebra]] is equation (8.8) there.
 
@@ -447,7 +447,7 @@ with further developments discussed in
 * [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 
-### Supergravity background equations of motion
+### Curved backgrounds and Supergravity background equations of motion
  {#ReferencesSupergravityBackgroundEquationsOfMotion}
 
 The consistency of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] ([Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)).
@@ -485,7 +485,7 @@ The role of the 4-form here is also amplified around (2.29) in
 
 and in section 2.2 of 
 
-* [[Igor Bandos]], Carlos Meliveo, _Three form potential in (special) minimal supergravity superspace and supermembrane supercurrent_ ([arXiv:1107.3232](arxiv.org/abs/1107.3232))
+* [[Igor Bandos]], Carlos Meliveo, _Three form potential in (special) minimal supergravity superspace and supermembrane supercurrent_ ([arXiv:1107.3232](http://arxiv.org/abs/1107.3232))
 
 All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", see at _[[D'Auria-Fré formulation of supergravity]]_.
 
