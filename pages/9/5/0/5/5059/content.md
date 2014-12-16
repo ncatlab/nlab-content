@@ -263,7 +263,7 @@ So (with notation as [above](#Supercoordinates)) we have the following.
 
 [[!include brane scan]]
 
-### Relation to supergravity equations of motion 
+### On curved spacetime and supergravity equations of motion 
 
 In the [[first order formulation of gravity]]
 a [[field (physics)|field]] configuration on a [[spacetime]]
@@ -295,7 +295,7 @@ In general this 3-form is no longer _closed_. If it is closed, then the Green-Sc
 
  The claim now is that requiring this 3-form still to be closed is, as a condition on the field of [[gravity]] $\nabla$, precisely the [[equations of motion]] of [[supergravity]] (the super-[[Einstein equations]]).
 
-This is due to ([Nilsson 81](#Nilsson81)).
+This is due to ([Nilsson 81](#Nilsson81), [Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)) and others, see the references [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
 
 
@@ -317,19 +317,21 @@ This is due to ([Nilsson 81](#Nilsson81)).
 
 The Green-Schwarz action functional (formulated for the [[superstring]]) is due to
 
-* [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
- {#GreenSchwarz84}
+* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
+ 
 
 The observation that this is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to 
 
-* [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en)) 
-  {#HenneauxMezincescu85}
+* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en)) 
+  
 
 For more references on this perspective see [below](#ReferencesWZWTerm).
 
 That the GS-action functionals is consistent on all backgrounds that satisfy the relevant [[supergravity]] [[equations of motion]] was shown in 
 
-* [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986).
+* {#BergshoeffSezginTownsend86} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986).
+
+For more on this see the references [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
 A standard textbook reference is appendix 4.A of volume 1 of
 
@@ -448,20 +450,19 @@ with further developments discussed in
 ### Supergravity background equations of motion
  {#ReferencesSupergravityBackgroundEquationsOfMotion}
 
-The consistentcy of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]].
+The consistentcy of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] ([Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)).
 
 That the [[heterotic supergravity]] equations of motion are sufficient for the 3-form super field strength $H$ to be closed was first argued in
 
-* [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192 ([spire](http://inspirehep.net/record/164253?ln=de))
- {#Nilsson81}
-
+* {#Nilsson81} [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192 ([spire](http://inspirehep.net/record/164253?ln=de))
+ 
 and the computation there was highlighted and a little simplified in 
 
 * [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986)
 
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
-* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3
+* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3 (1985)
 
 and for GS sigma-model [[D-branes]] in 
 
@@ -476,7 +477,7 @@ That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimen
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
 
-These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backroundin terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strenght has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
+These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backround in terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strenght has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
 
 The role of the 4-form here is also amplified around (2.29) in 
 
@@ -488,6 +489,11 @@ and in section 2.2 of
 
 All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", see at _[[D'Auria-Fré formulation of supergravity]]_.
 
+Discussion also including the [[RR-field]] background includes
+
+* R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
+
+
 ### Symmetries
 
 That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals should have "higher" extended symmetry algebras in some sense... is observes in 
@@ -498,22 +504,22 @@ That higher WZW functionals and hence Green-Schwarz super $p$-brane action funct
 
 The existence of $\kappa$-symmetry was first noticed around
 
-* Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
-  {#Siegel83}
+* {#Siegel83} Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
+  
 
-* Warren Siegel, _Light Cone Analysis Of Covariant Superstring_ , Nucl. Phys. B 236, 311 (1984).
-  {#Siegel84}
+* {#Siegel84} Warren Siegel, _Light Cone Analysis Of Covariant Superstring_ , Nucl. Phys. B 236, 311 (1984).
+  
 
 * [[Michael Green]], [[John Schwarz]], _Covariant Description Of Superstrings_ , Phys. Lett. B 136, 367 (1984) ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
  {#GreenSchwarz}
 
 The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Cartan geometry]] of super-[[target space]] is discussed in 
 
-* I.N. McArthur, _Kappa-Symmetry of Green-Schwarz Actions in Coset Superspaces_ ([arXiv:hep-th/9908045](http://arxiv.org/abs/hep-th/9908045))
- {#McArthur}
+* {#McArthur} I.N. McArthur, _Kappa-Symmetry of Green-Schwarz Actions in Coset Superspaces_ ([arXiv:hep-th/9908045](http://arxiv.org/abs/hep-th/9908045))
+ 
 
-* [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
- {#GKW}
+* {#GKW} [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
+ 
 
 ### Open branes ending on other branes
 
@@ -523,9 +529,7 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 * Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys.Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
 
-### GS superstrings in various backgrounds
 
-* R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
 [[!redirects Green-Schwarz action]]
 
@@ -545,4 +549,3 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 [[!redirects Green-Schwarz sigma model]]
 [[!redirects Green-Schwarz sigma models]]
-
