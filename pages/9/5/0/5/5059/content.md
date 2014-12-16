@@ -450,7 +450,7 @@ with further developments discussed in
 ### Supergravity background equations of motion
  {#ReferencesSupergravityBackgroundEquationsOfMotion}
 
-The consistentcy of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] ([Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)).
+The consistency of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] ([Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)).
 
 That the [[heterotic supergravity]] equations of motion are sufficient for the 3-form super field strength $H$ to be closed was first argued in
 
