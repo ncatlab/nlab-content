@@ -22,14 +22,14 @@ A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] e
 
 In a little bit more detail, a Cartan connection on a manifold $X$ for a given [[subgroup]] inclusion $H \hookrightarrow G$ is data that identifies all the [[tangent spaces]] $T_x X$ of $X$ with the tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]] [[Klein geometry]] $G/H$, such that the choice of these identifications is transported along compatibly.
 
-Therefore a manifold equipped with a Cartan connections is also called a _[[Cartan geometry]]_ (see also there), a generalization (globalization) of the concept of [[Klein geometry]].
+Therefore a manifold equipped with a Cartan connection is also called a _[[Cartan geometry]]_ (see also there), a generalization (globalization) of the concept of [[Klein geometry]].
 
 
 In yet a little bit more detail, an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is a $G$-[[principal connection]] on $X$ equipped with a [[reduction of structure groups|reduction of its structure group]] along $H \to G$ and such that the connection 1-form linearly identifies each [[tangent space]] $T_X X$ of $X$ with tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]].
 
 ## History
 
-The concept essentially originates around ([Cartan 23](#Cartan23)), but the formulation in terms of [[principal connections]] and in fact the terminology _Cartan connection_ is due to [[Charles Ehresmann]] who formulated principal connections as what in turn today are called _[[Ehresmann connections]]_ ([Ehresmann 50](#Ehresmann50)). 
+The concept essentially originates around ([Cartan 23](#Cartan23)), but the formulation in terms of [[principal connections]] and in fact the terminology "Cartan connection" is due to [[Charles Ehresmann]] who formulated principal connections as what, in turn, today are called _[[Ehresmann connections]]_ ([Ehresmann 50](#Ehresmann50)). 
 
 In ([Ehresmann 50](#Ehresmann50)) Cartan's idea  are formalized (see [Marle 14, page 9, 10](#Marle14) for review) by saying that an $(G \hookrightarrow H)$-Cartan connection is a $G$-Ehresmann connection on a $G$-[[principal bundle]] $P$ equipped with an $H$-principal subbundle $Q$, such that the restriction of the connection form along this inclusion yields a form that determines an isomorphism of each tangent space of $Q$ with $\mathfrak{g}$. 
 
@@ -62,15 +62,32 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
 =--
 
-+-- {: .num_remark #TraditionalReferences}
+
++-- {: .num_remark}
 ###### Remark
-**(References)**
 
-In terms of [[Cech cohomology|Cech]] [[cocycle]]-data definition \ref{Traditional} is ([Sharpe, section 5.1, def. 1.3](#Sharpe)).  The equivalent formulation as an $H$-[[principal bundle]] equipped with $\mathfrak{g}$-[[Lie algebra valued differential form]] data on its total space is in ([Sharpe, section 5.3, def. 3.1](#Sharpe)), and the equivalent formulation as a $G$-[[principal bundle]] equipped with an [[Ehresmann connection]] on its total space, subject to a constraint, is in ([Sharpe, appendix A, prop. 3.1](#Sharpe)). 
+More explicitly for various component-realizations of principal connections, this means the following:
 
-Hence ([Sharpe](#Sharpe)) gives closely related equivalent definitions, but never quite says it fullly explicitly in the form of def. \ref{Traditional}. More explicit statements as above are in [Wikipedia -- Cartan connection -- As principal connectoions](http://en.wikipedia.org/wiki/Cartan_connection#Cartan_connections_as_principal_connections).
+
+1. In terms of **[[Ehresmann connection]]-data** def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is an Ehresmann connection form $A$ on a $G$-principal bundle $P$ together with an $H$-principal bundle $Q$ and an $H$-equivariant map $i \colon Q\to P$ such that $i^\ast A$ yields an isomorphism $T Q \simeq Q\times \mathfrak{g}$.
+
+   In this form the definition is due to ([Ehresmann 50](#Ehresmann50)), recalled for instance as ([Sharpe 97, section 5.3, def. 3.1](#Sharpe), [Marle 14, def. 4](#Marle14)).
+
+1. In terms of **[[Cech cohomology|Cech]] [[cocycle]] data**, def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is a cover $\{U_i \to X\}$ equipped with 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$ and with transition functions $h_{i j} \in C^\infty(U_i \cap U_j, h)$ such that
+
+   * $h_{i j} h_{j k} = h_{i k}$ on $U_i \cap U_j \cap U_k$;
+
+   * $A_j = h_{i j}^{-1}(A_i + \mathbf{d})h_{i j}$ on $U_i \cap U_j$;
+
+   * $A_i(-)_x \colon T_x U_i \stackrel{\simeq}{\longrightarrow} \mathfrak{g}/\mathfrak{h}$.
+
+   In this form, the definition appears for instance as ([Sharpe 97, section 5.1 def. 1.3 together with section 5.2](#Sharpe)).  
+
 
 =--
+
+See also [Wikipedia -- Cartan connection -- As principal connections](http://en.wikipedia.org/wiki/Cartan_connection#Cartan_connections_as_principal_connections).
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -83,12 +100,6 @@ This picture of model spaces rolling along was influential in the historical dev
 
 =--
 
-+-- {: .num_remark #ExamplesOfGlobalCartanPatches}
-###### Remark
-
-In many important examples the spaces $X$ carrying a Cartan connection are not just tangentially identified with $G/H$, but are locally modeled on all of $G/H$. This is notably the case for all Cartan connections appearing in [[gravity]] and [[supergravity]]. Here $G$ is a [[Euclidean group]] or [[Poincaré group]] or [[super Poincaré group]], $H \hookrightarrow G$is the [[rotation group]] or [[Lorentz group]] and $G/H$ is [[Cartesian space]] or [[Minkowski space]] or [[super Minkowski space]], respectively. Given a manifold ([[spacetime]]) $X$ then a Cartan connection encodes a [[vielbein field]] with compatible "[[spin connection]]" and the manifold is locally diffeomorphic to copies of $G/H$.
-
-=--
 
 ### Synthetically in terms of differential cohesion
  {#InTermsOfSmoothModuliStacks}
@@ -349,13 +360,13 @@ The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. [[Carta
 
 * {#Cartan23} [[Élie Cartan]] _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
 
-The formalization in terms of [[pricipal connections]] (in their incarnation as [[Ehresmann connections]]) is due to
+The formalization in terms of [[principal connections]] (in their incarnation as [[Ehresmann connections]]) is due to
 
 * {#Ehresmann50} [[Charles Ehresmann]], _Les connexions infinitesimales dans un espace fibre diff&#180;erentiable_, Colloque de topologie de Bruxelles, 1950, p. 29&#8211;55.
 
 A standard textbook reference is
 
-* {#Sharpe} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+* {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
  
 More on the history is in 
 
