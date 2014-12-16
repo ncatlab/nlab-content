@@ -189,7 +189,7 @@ Similarly, one can express the descent properties of higher stacks via the usual
 
 ## Related concepts
 
-* [[deformation theory]]
+* [[deformation theory]], [[derived deformation theory]]
 
 * [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
 
