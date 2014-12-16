@@ -6,12 +6,16 @@ More generally, though, what I'm interested in is studying the following interes
 
 More precisely, I'm interested in studying stable $\infty$-categories like spectra.
 
-**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (I would prefer the first).
+**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (however, I'd prefer the first).
 
-My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems in Homotopy Theory_](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/Sanath+Devalapurkar), and [nlab page](http://ncatlab.org/nlab/show/Sanath+Devalapurkar). I am updating the first more regularly than the others.
+My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems in Homotopy Theory_](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/Sanath+Devalapurkar), and [nlab page](http://ncatlab.org/nlab/show/Sanath+Devalapurkar). I think I'll be updating the first more regularly than the others.
 <hr>
 ##Talk(s) and Notes##
-I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. I have posted [my notes](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting-notes.pdf) and [my slides](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting.pdf) on my blog at the following links. Any comments would be welcome, either on my blog, through email, or on this nlab page itself.
+ - I have given a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. Here are my [[AMS-Fall-Slides.pdf|AMS Fall Slides:file]].
+
+ - Here are my notes on [[K-theory-and-Morita-Theory.pdf|K-theory and Morita Theory:file]], which accompany the slides above.
+
+ - Lastly, here are very very informal notes on [[Hopf-Galois-extensions.pdf|Hopf-Galois extensions:file]] that very likely contain crazy things that are most likely wrong (I'm aware of a few mistakes, but do inform me if you find anything!).
 <hr>
 Category: people 
 
