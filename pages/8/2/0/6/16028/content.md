@@ -73,16 +73,16 @@ Here [[super L-∞ algebra]] is the joint generalization of [[Lie algebra]] to [
 
 $$
   \array{
-    && Lie\;Algebras
+    && Lie\;algebras
     \\
     &\swarrow && \searrow
     \\
-    Lie \; n-algebras
+   super \;Lie \; algebras
     && && L_\infty-algebras
     \\
     & \searrow && \swarrow
     \\
-    && super\; L_\infty-Algebras
+    && super\; L_\infty-algebras
   }
   \,.
 $$
