@@ -56,9 +56,12 @@ See there at _[Examples -- Stabilizers of shapes / Klein geometry](stabilizer+gr
 
 ## References
 
-The notion of _Klein geometry_ goes back to articles such as
+The notion of _Klein geometry_ goes back to 
 
-* {#Klein1892} [[Felix Klein]], _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [[KleinRetyped.pdf:file]], [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
+* {#Klein1872} [[Felix Klein]], _Vergleichende Betrachtungen &#252;ber neuere geometrische Forschungen_ (1872)
+
+  translation by M. W. Haskell, _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [[KleinRetyped.pdf:file]], [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
+
 
 in the context of what came to be known as the [[Erlangen program]].
 
