@@ -21,7 +21,7 @@
 
 A [[full subcategory|full]] [[triangulated subcategory]] is __thick__ (or __&#233;paisse__) if it is closed under [[extension]]s. 
 
-Sometimes the same definition is used in [[abelian categories]] as well. However, for many authors, including [[Pierre Gabriel]], in abelian categories, this term denotes the stronger notion of a [[topologizing subcategory]] closed under extensions; in other words, a nonempty full subcategory $T$ of an abelian category $A$ is  __thick__ (in the strong sense) iff with all objects contains all its subquotients and all extensions, i.e. for every exact sequence 
+Sometimes the same definition is used in [[abelian categories]] as well. However, for many authors, including [[Pierre Gabriel]], in abelian categories, this term denotes the stronger notion of a [[topologizing subcategory]] closed under extensions; in other words, a nonempty full subcategory $T$ of an abelian category $A$ is  __thick__ (in the strong sense) iff  for every exact sequence 
 $$
 0 \longrightarrow M\longrightarrow M''\longrightarrow M'\longrightarrow 0
 $$
