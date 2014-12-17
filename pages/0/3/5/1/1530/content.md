@@ -19,19 +19,42 @@
 
 ## Idea
 
-The _Erlangen program_ (in German, _erlanger Programm_ ) is a project, begun by [[Felix Klein]] at Erlangen in the 19th century ([Klein 1872](#Klein1872)), to study [[geometry]] from the perspective of [[group theory]]. The idea is to take the elementary building blocks of geometry to be not just [[Euclidean spaces]] but more generally [[homogeneous spaces]] $G/H$. These have then also been called _[[Klein geometries]]_ .
+The _Erlangen program_ (in German, _Erlanger Programm_ ) is a project, begun by [[Felix Klein]] at Erlangen in the 19th century ([Klein 1872](#Klein1872)), to study [[geometry]] via [[symmetry]] [[groups]] of "geometric shapes", hence from the perspective of [[group theory]]. The idea is to take the elementary building blocks of geometry to be not just [[Euclidean spaces]] but more generally [[homogeneous spaces]] $G/H$. These have then also been called _[[Klein geometries]]_ .
 
-Aspects of Klein geometry may be generalized from groups to [[groupoids]] and even [[category|categories]] or $\infty$-[[infinity-groupoid|groupoids]]. See at _[[higher Klein geometry]]_.
+In ([Klein 1872](#Klein1872)) the theme of the program is described as follows:
 
-## From local to global geometry
+> Given a manifold and a transformation group acting on it, to investigate those properties of figures [Gebilde] on that manifold which are invariant under [all] transformations of that group.
 
-While many types of geometries (such as [[Riemannian geometry]]) are not in general [[Klein geometries]], they are _locally_ like Klein geometries. This generalization of Klein geometry is known as _[[Cartan geometry]]_.
+In modern language this means to consider a group of [[homeomorphisms]] ([[diffeomorphisms]]) [[action|acting]] on a ([[smooth manifold|smooth]]) [[manifold]] together with its [[stabilizer subgroup]] of any prescribed [[submanifold]]. (The concept of [[Lie group]] only emerged at that time, in fact Klein and [[Sophus Lie]] were in close contact, see [Birkhoff-Bennett](#BirkhoffBennett).)
+
+A few lines below in ([Klein 1872](#Klein1872)) is the converse statement
+
+> Given a manifold, and a transformation group acting on it, to study its invariants.
+
+Hence to find the figures which are left invariant by a given group [[action]].
+
+When it was proposed, the Erlangen program served to unify various different kinds of geometry, discovered and studied at that time, into a common framwork. On the other hand, many kinds of geometries without global symmetries are not [[Klein geometries]], notably [[Riemannian geometry]] is (in general) not. But a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] is _locally_ (tangentially) modeled on [[Euclidean space]] ([[Minkowski spacetime]]) and this local model space _is_ a Klein geometry. The generalization of Klein geometry to such local situations is _[[Cartan geometry]]_, see [below](#CartanGeometry).
+
+## Refinements and generalizations
+
+### From local to global geometry -- Cartan geometry
+ {#CartanGeometry}
+
+While many types of geometries (such as [[Riemannian geometry]]) are not in general [[Klein geometries]], they are _locally_ like Klein geometries. This generalization of Klein geometry is known as _[[Cartan geometry]]_. 
 
  local model                |   global geometry
 ----------------------------|-----------------
  [[Klein geometry]]         |   [[Cartan geometry]]
  [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
  [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+
+In [[physics]] terminology this corresponds to "locally gauging" the [[symmetry group]]. For instance for $H \hookrightarrow G$ the inclusion of the [[Lorentz group]] into the [[Poincare group]], then the corresponding [[Klein geometry]] is just [[Minkowski spacetime]], but a corresponding [[Cartan geometry]] is any [[pseudo-Riemannian manifold]], i.e. a [[spacetime]] characterized in the [[first-order formulation of gravity]].
+
+[[!include local and global geometry - table]]
+
+### Higher Klein geometry
+
+Aspects of Klein geometry may be generalized from groups to [[groupoids]] and even [[category|categories]] or $\infty$-[[infinity-groupoid|groupoids]]. See at _[[higher Klein geometry]]_.
 
 
 ## References 
@@ -43,7 +66,7 @@ While many types of geometries (such as [[Riemannian geometry]]) are not in gene
 * [[John Baez]], [webpage on the Erlangen program](http://math.ucr.edu/home/baez/erlangen)
 
 
-* Garrett Birkhoff, M. K. Bennett, _Felix Klein and His "Erlanger Program"_ ([pdf](http://www.mcps.umn.edu/11_6Birkhoff.pdf))
+* {#BirkhoffBennett} Garrett Birkhoff, M. K. Bennett, _Felix Klein and His "Erlanger Program"_ ([pdf](http://www.mcps.umn.edu/11_6Birkhoff.pdf))
 
 * Vladimir Kisil, _Erlangen Programme at Large: An Overview_ ([arXiv:1106.1686](http://arxiv.org/abs/1106.1686))
 
