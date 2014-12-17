@@ -30,13 +30,22 @@ For the generalization of Klein geometry to [[higher category theory]] see [[hig
 ## Definition
 
 A **Klein geometry** is a pair $(G, H)$ where $G$ is a 
-[[Lie group]] and $H$ is a closed Lie subgroup of $G$ such that the (left) [[coset space]] $X = G/H$ is [[connected space|connected]]. $G$ [[action|acts]] [[transitive action|transitively]] on the homogeneous space $X$. We may think of $H$ as the [[stabilizer]] of a point in $X$.
+[[Lie group]] and $H$ is a closed Lie subgroup of $G$ such that the (left) [[coset space]] 
+
+$$
+   X \coloneqq G/H
+$$ 
+
+is [[connected space|connected]]. $G$ [[action|acts]] [[transitive action|transitively]] on the homogeneous space $X$. We may think of $H\hookrightarrow G$ as the [[stabilizer subgroup]] of a point in $X$.
+
+See there at _[Examples -- Stabilizers of shapes / Klein geometry](stabilizer+group#KleinGeometry)_.
+
 
 ## Examples
 
 * For $G = E(n)$, the [[Euclidean group]] in $n$-dimensions; $H = O(n)$, the [[orthogonal group]]; then, $X$ is $n$-dimensional [[Cartesian space]].
 
-* Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = SO(d,1)$ the [[special orthogonal group]] of rotations and [[Loretz boosts]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
+* Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = SO(d,1)$ the [[special orthogonal group]] of rotations and [[Lorentz boosts]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
 
   Passing to the corresponding [[Cartan geometry]] -- by what physicists call _gauging_ -- yields the [[first order formulation of gravity]].
 
@@ -49,7 +58,7 @@ A **Klein geometry** is a pair $(G, H)$ where $G$ is a
 
 The notion of _Klein geometry_ goes back to articles such as
 
-* [[Felix Klein]], _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
+* {#Klein1892} [[Felix Klein]], _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [[KleinRetyped.pdf:file]], [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
 
 in the context of what came to be known as the [[Erlangen program]].
 
