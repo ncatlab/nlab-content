@@ -17,7 +17,8 @@
 
 ## Definition
 
-### Explicitly
+### Tradtional
+ {#TraditionalDefinition}
 
 Given an [[action]] $G\times X\to X$ of a [[group]] $G$ on a set $X$, for every element $x \in X$,  the __stabilizer subgroup__ of x (also called the __isotropy group__ of $x$) is the set of all elements in $G$ that leave $x$ fixed:
 
@@ -29,9 +30,10 @@ $$
 If all stabilizer groups are trivial, then the action is called a _free action_.
 
 
-### General abstract characterization  {#GeneralAbstract}
+### Homotopy-theoretic formulation
+ {#GeneralAbstract}
 
-We discuss stabilizer subgroups from the [[nPOV]].
+We reformulate the tradtitional definition [above](#TraditionalDefinition) from the [[nPOV]], in terms of [[homotopy theory]].
 
 A [[group]] [[action]] $\rho\colon G \times X \to X$ is equivalently encoded in its [[action groupoid]] [[fiber sequence]] in [[Grpd]]
 
@@ -71,14 +73,34 @@ This characterization immediately generalizes to stabilizer [[∞-groups]] of [�
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $G \in \infty Grp(G)$ be an [[∞-group]] object in $\mathbf{H}$. Write $\mathbf{B}G \in \mathbf{H}$ for its [[delooping]] object.
 
-Then for $X \in \mathbf{H}$ any other object, an [[action]] of $G$ on $X$ is an object $X \sslash G$ and a [[fiber sequence]] of the form
+
+By the discussion at _[[∞-action]]_ we have the following.
+
+
++-- {: .num_prop #InfinityAction}
+###### Proposition
+
+For $X \in \mathbf{H}$ any object, an [[∞-action]] of $G$ on $X$ is equivalently an object $X \sslash G$ and a [[homotopy fiber sequence]] of the form
 
 $$
-  X \to X \sslash G \stackrel{\rho}{\to} \mathbf{B}G
+  \array{
+    X &\longrightarrow& X//G
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
   \,.
 $$
 
-The action as a morphism $X \times G \to X$ is recovered from this by the [[(∞,1)-pullback]]
+=--
+
+Here $X//G$ is the [[homotopy quotient]] of the [[∞-action]]
+
++-- {: .num_remark}
+###### Remark
+
+The action as a morphism $X \times G \to X$ is recovered from prop. \ref{InfinityAction} by the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -91,25 +113,66 @@ $$
   \,.
 $$
 
-Now for $x\colon * \to X$ any [[global element]], the **stabilizer $\infty$-group** of $\rho$ at $x$ is the [[loop space object]]
+=--
+
++-- {: .num_defn #StabilizerInInfinityTopos}
+###### Definition
+
+Given an [[∞-action]] $\rho$ of $G$ on $X$ as in prop. \ref{InfinityAction},
+and given a [[global element]]  of $X$
 
 $$
-  Stab_\rho(x) \coloneqq \Omega_x (X\sslash G)
+  x \colon \ast \to X 
+$$
+
+then the **stabilizer $\infty$-group** $Stab_\rho(x)$ of the $G$-action at $x$ is the [[loop space object]]
+
+$$
+  Stab_\rho(x) \coloneqq \Omega_x (X // G)
  \,.
 $$
 
-This is equipped with a canonical morphism of [[∞-group]] objects
+=--
+
++-- {: .num_defn}
+###### Remark
+
+Equivalently, def. \ref{StabilizerInInfinityTopos}, gives the [[loop space object]] of the [[1-image]] $\mathbf{B}Stab_\rho(x)$ of the morphism
 
 $$
-  i_x\colon Stab_\rho(x) \to G
-$$
-
-given by the [[fiber sequence|looping]] of $\rho$
-
-$$
-  i_x \coloneqq \Omega_x(\rho)
+  \ast \stackrel{x}{\to} X \to X//G
   \,.
 $$
+
+As such the [[delooping]] of the stabilizer $\infty$-group sits in a [[1-epimorphism]]/[[1-monomorphism]] factorization $\ast \to \mathbf{B}Stab_\rho(x) \hookrightarrow X//G$ which combines with the homotopy fiber sequence of prop. \ref{InfinityAction} to a diagram of the form
+
+$$
+  \array{
+    \ast &\stackrel{x}{\longrightarrow}& X &\stackrel{}{\longrightarrow}& X//G
+    \\
+    \downarrow^{\mathrlap{epi}} && & \nearrow_{\mathrlap{mono}} & \downarrow
+    \\
+    \mathbf{B} Stab_\rho(x)
+    &=&
+    \mathbf{B} Stab_\rho(x)
+    &\longrightarrow&
+    \mathbf{B}G
+  }
+ \,.
+$$
+
+In particular there is hence a canonical homomorphism of $\infty$-groups
+
+$$
+  Stab_\rho(x) \longrightarrow G
+  \,.
+$$
+
+However, in contrast to the classical situation, this morphism is not in general a monomorphism anymore, hence the stabilizer $Stab_\rho(x)$ is not a _sub_-group of $G$ in general.
+
+=--
+
+
 
 
 ## Examples
@@ -126,9 +189,30 @@ $$
 Clearly, for every point $g \in G$ we have $Stab_{\rho}(g) \simeq * \times_* * \simeq *$ is trivial. Hence the action is free.
 
 
-### Stabilizers of shapes
+### Stabilizers of shapes -- Klein geometry
+ {#KleinGeometry}
 
-For $X\sslash G \stackrel{\rho}{\to} \mathbf{B}G$ an [[action]], and $Y \in \mathbf{H}$ any other object, we get an induced action $\rho_Y$ on the [[internal hom]] $[Y,X]$ defined as the [[(∞,1)-pullback]] 
+Let $X \to X\sslash G \stackrel{\rho}{\to} \mathbf{B}G$ be an [[∞-action]] of $G$ on $X$. 
+
+Let $Y \in \mathbf{H}$ any other object, and regard it as equipped with the trivial $G$-action $Y \to Y \times \mathbf{B}G \to \mathbf{B}G$. There is then an induced [[∞-action]] $\rho_Y$ on the [[internal hom]] $[Y,X]$, the [[conjugation action]], given by internal hom in the [[slice (∞,1)-topos]] over $\mathbf{B}G$:
+
+$$
+  [Y,X] \to \underset{\mathbf{B}G}{\sum} [Y,X]_{/\mathbf{B}G} \to \mathbf{B}G
+  \,.
+$$
+
+Now given any $f \colon Y \to X$, then the stabilizer group $Stab_{\rho_Y}(f)$ is the stabilizer of $Y$ "in" $X$ under this $G$-action. 
+
+The morphism of $\infty$-groups
+
+$$
+  i_f\colon Stab_{\rho_Y}(f) \to G
+$$
+
+hence characterizes the [[higher Klein geometry]] induced by the $G$-action and by the shape $f\colon Y \to X$.
+
+
+Notice that $\underset{\mathbf{B}G}{\sum} [Y,X]_{/\mathbf{B}G}$ is equivalently the [[(∞,1)-pullback]] 
 
 $$
   \array{
@@ -147,15 +231,39 @@ $$
 
 where the bottom morphism is the [[internal hom]] [[adjunct]] of the [[projection]] $Y \times \mathbf{B}G \to \mathbf{B}G$.
 
-Then for $f\colon Y \to X$ a "shape" $Y$ in $X$, the stabilizer ∞-group of $Y$ under $\rho$ is $Stab_{\rho_Y}(f)$.
-
-The morphism of $\infty$-groups
+To see this, we check the Hom adjunction property: For any $p \colon A \to \mathbf{B}G$ we have
 
 $$
-  i_f\colon Stab_{\rho_Y}(f) \to G
+  \array{
+    && \mathbf{H}(A, [Y,X] \sslash G) &\to& \mathbf{H}(A,[Y, X \sslash G])
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{H}(A,\rho_Y)}} 
+    && 
+    \downarrow^{\mathrlap{\mathbf{H}(A,[Y, \rho])}}
+    \\
+    \ast &\stackrel{\vdash p}{\longrightarrow}& \mathbf{H}(A,\mathbf{B}G)
+    &\to&
+    \mathbf{H}(A,[Y, \mathbf{B}G])
+  }
+  \,,
 $$
 
-characterizes the [[higher Klein geometry]] induced by $f\colon Y \to X$.
+$\simeq$
+
+$$
+  \array{
+    && \mathbf{H}(A, [Y,X] \sslash G) &\to& \mathbf{H}(A \times Y, X \sslash G)
+    \\
+    \downarrow && \downarrow 
+    && 
+    \downarrow
+    \\
+    \ast &\stackrel{\vdash p}{\longrightarrow}& \mathbf{H}(A,\mathbf{B}G)
+    &\to&
+    \mathbf{H}(A \times Y,  \mathbf{B}G)
+  }
+  \,,
+$$
 
 
 ## Related concepts
