@@ -117,4 +117,7 @@ A useful set of lecture notes on the mathematical background of [[computability]
 * {#Baez} John Baez, _Recursivity in Quantum Mechanics_, [PDF](http://math.ucr.edu/home/baez/recursivity.pdf)
 [[!redirects computable quantum physics]]
 
+Ye presents a constructive development of part of quantum theory and relativity theory.
+
+* Feng Ye, _Strict Finitism and the Logic of Mathematical Applications_ [PDF preprint](http://www.phil.pku.edu.cn/cllc/people/fengye/finitismAndTheLogicOfMathematicalApplications.pdf)
 [[!redirects computability in physics]]
