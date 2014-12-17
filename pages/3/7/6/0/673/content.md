@@ -19,7 +19,7 @@ You may also find me on
 
 ## Papers ##
 
-* _A topological fibrewise fundamental groupoid_, [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
+* _A topological fibrewise fundamental groupoid_, [arXiv:1411.5779](http://arxiv.org/abs/1411.5779). Submitted for publication.
 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
