@@ -10,9 +10,9 @@ INTRODUCTION
 
 CHAPITRE 1 : Quelques rappels sur les cat&#233;gories.
 
-1. Les univers de G r o t h e n d i e c k 
+1. Les univers de Grothendieck 
 
-2. D&#233;finition des c a t &#233; g o r i e s 
+2. D&#233;finition des cat&#233;gories 
 
 3. Foncteurs 
 
