@@ -15,35 +15,37 @@
 
 ## Idea
 
-**Cartan geometry** is a common generalization of [[Riemannian geometry]], [[conformal geometry]] and [[Klein geometry]], which generalizes the linear [[tangent spaces]] of the former to the more general [[homogeneous spaces]] of the latter. 
+**Cartan geometry** is [[geometry]] of [[spaces]] that are locally (infinitesimally, tangentially) like [[coset spaces]] $G/H$, i.e. like [[Klein geometries]].  Intuitively, Cartan geometry studies the geometry of a [[manifold]] by 'rolling without sliding' the 'model geometry' $G/H$ along it. Hence Cartan geometry may be thought of as the globalization of the program of [[Klein geometry]] initiated in the [[Erlangen program]].
 
-Intuitively, Cartan geometry studies the geometry of a [[manifold]] by 'rolling' another manifold, the 'model geometry' on it. The model geometry may be any [[Klein geometry]].
+
+Cartan geometry subsumes many types of geometry, such as notably [[Riemannian geometry]], [[conformal geometry]], [[parabolic geometry]] and many more. As a Cartan geometry is defined by [[principal connection]] data (hence by [[cocycles]] in [[nonabelian cohomology|nonabelian]] [[differential cohomology]]) this means that it serves to express all these kinds of geometries in connection data. This is used notably in the [[first order formulation of gravity]], which was the motivating example in the original text ([Cartan 32](#Cartan23)).
+
 
 
 ## Definition
 
-See [[Cartan connection]].
-
+A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See there for more.
 
 ## Examples
 
-* [[parabolic geometry]]
-
-## Related concepts
-
 [[!include local and global geometry - table]]
 
-* [[Cartan connection]]
+
+## Related entries
 
 * [[Cartan geometry, Supergravity and Branes]]
 
 ## References
 
+The original article is
+
+* {#Cartan23} [[Élie Cartan]] _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
+
 A standard textbook is
 
 * R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
-For more see the references at _[[Cartan connection]]_.
+For more see at _[Cartan connection -- References](Cartan+connection#References)_.
 
 See also
 
