@@ -248,6 +248,7 @@ is an [[equivalence of (∞,1)-categories]] precisely if $v$ if an op-[[final (�
 This is ([Lurie, prop. 4.1.1.8](#Lurie)).
 
 ### Hom-spaces in a slice
+ {#HamSpacesInASlice}
 
 
 +-- {: .num_prop}
@@ -258,11 +259,11 @@ $C(A,B) \stackrel{g_*}{\to} C(A,X)$ over the morphism $f$: we have an [[(∞,1)-
 
 $$
   \array{
-     C/X(f,g) &\to& C(A,B)
+     C/X(f,g) & \longrightarrow & C(A,B)
      \\
      \downarrow && \downarrow^{\mathrlap{g_*}}
      \\
-     {*} & \stackrel{f}{\to} & C(A,X)
+     {*} & \stackrel{\vdash f}{\longrightarrow} & C(A,X)
   }
   \,.
 $$
