@@ -73,6 +73,22 @@ This is the monoid of polynomials whose terms are all equal to zero except exact
 
 1. The monoid that should come in play into the theory of [[spectral interpretation]] for zeroes and poles of global arithmetic and automorphic [[L-functions]] may be given by the monoid $\Lambda(\mathbb{A})$, where $\mathbb{A}$ is the ind-Banach ring of ad&#232;les.
 
+## Geometric interpretation (to be checked very carefully: may be problematic)
+
+One may take inspiration from the theory of $(\Phi,\Gamma)$-modules ($p$-adic Hodge structures) to define a natural notion of $\Lambda$-module in [[global analytic geometry]]. This gives a version of the notion of a "Hodge structure" that works over an integral base, which makes it quite well adapted to the global analytic situation.
+
+Let $R$ be a Banach ring, and $\overset{\circ}{D}(1,1)$ be the open unit disc on $R$. We denote (be careful, this differs from the previously used notation, because it is a different kind of object)
+$$\Lambda\subset \overset{\circ}{D}(1,1)\times \overset{\circ}{D}(1,1)$$
+the (non-strict) analytic subgroupoid of the groupoid of pairs acting on $\overset{\circ}{D}(1,1)$ given by pairs of the form $(1+x,(1+x)^a)$ where $a\in D(0,1)\cap \GL_1\subset \mathbb{A}^1$,  and
+$$(1+x)^a:=\sum_{k\geq 0}\binom{a}{k}x^k.$$
+If $R=(\mathbb{Q}_p,|\cdot|_p)$, then we have actually that $\mathbb{Z}_p-\{0\}\subset D(0,1)(\mathbb{Q}_p)$.
+
+A $\Lambda$-module over $R$ is a module over the analytic stack $B\Lambda$ that one may denote as a quotient stack $[\overset{\circ}{D}(1,1)/\Lambda]$. We then have, if $R$ contains the rational numbers, a natural logarithm map
+$$log:[\overset{\circ}{D}(1,1)/\Lambda]\to [A^1/\GL_1]$$
+that allows us to give a relation between the classical Hodge filtration of a (say) proper or logarithmically proper analytic space over $R$ to its $R$-Hodge structure, that should be a module over $[\overset{\circ}{D}(1,1)/\Lambda]$.
+
+If we suppose given a (say) strict analytic space over $R$, and one wants to define the associated $R$-Hodge structure, one may simply try to adapt Simpson's construction of the deformation to the normal bundle, to get what one wants.
+
 ## Related notion
 
 [[generalized higher loop spaces]]
