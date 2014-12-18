@@ -82,6 +82,7 @@ This characterization immediately generalizes to stabilizer [[∞-groups]] of [�
 ### For $\infty$-group actions
  {#ForInfinityGroupActions}
 
+
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $G \in \infty Grp(G)$ be an [[∞-group]] object in $\mathbf{H}$. Write $\mathbf{B}G \in \mathbf{H}$ for its [[delooping]] object.
 
 
@@ -315,8 +316,9 @@ Here the bottom map is indeed the name of $\alpha \circ p_1$ and so again by the
 =--
 
 ### For the canonical action on a coset space
+ {#ForCanonicalActionOnCosetSpace}
 
-Conversely, for $H \to G$ given, then the canonical $G$-action for which $H$ is the stabilizer group of a point is the canonical action on (the "[[coset]]") $G/H$.
+Conversely, for any [[homomorphism]] $H \to G$ of [[∞-groups]] given, then the canonical $G$-$\infty$-action for which $H$ is the stabilizer $\infty$-group of a point is the canonical action on (the "[[coset]]") $G/H$.
 
 This follows from def. \ref{StabilizerInInfinityTopos} by observing that the homotopy fiber sequence of prop. \ref{InfinityAction} for the $G$-action on $G/H$ is just 
 
@@ -336,6 +338,18 @@ $$
   Stab(x) \simeq \Omega_{x}(\mathbf{B}H) \simeq \Omega_\ast \mathbf{B}H \simeq H
   \,.
 $$
+
+### Stabilizers of coshapes
+ {#StabilizersOfCoShapes}
+
+Dually to "stabilizers of shapes", as [above](#KleinGeometry) one may consider stabilizers of "co-shapes".
+
+I.e. given a $G$-action on $X$, and given a map $f \colon X \to A$, then one may ask for the stabilizer of $f$ in the canonical $G$-action on $[X,A]$.
+
+For instance if $A$ here is $\mathbf{B}^{n}U(1)_{conn}$, and $f \colon X \to \mathbf{B}^n U(1)_{conn}$ is regarded as a [[prequantum n-bundle]] ,and $[X,A]$ is replaced by its [[differential concretification]], then these stabilizers are the [[quantomorphism n-groups]].
+
+> to be expanded on
+
 
 ## Related concepts
 
