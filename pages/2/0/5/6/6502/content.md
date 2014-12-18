@@ -91,9 +91,11 @@ See also [Wikipedia -- Cartan connection -- As principal connections](http://en.
 +-- {: .num_defn #Torsion}
 ###### Definition
 
-Given a Cartan connection $\nabla$, def. \ref{Traditional}, its [[torsion]] is the image of its [[curvature]] under the projection $\mathfrak{g} \to \mathfrak{g}/\mathfrak{h}$.
+Given a Cartan connection $\nabla$, def. \ref{Traditional}, its [[torsion of a Cartan connection]] is the image of its [[curvature]] under the projection $\mathfrak{g} \to \mathfrak{g}/\mathfrak{h}$.
 
 =--
+
+For instance ([Sharpe, section 5.3, below def. 3.1](#Sharpe))
 
 +-- {: .num_remark}
 ###### Remark
