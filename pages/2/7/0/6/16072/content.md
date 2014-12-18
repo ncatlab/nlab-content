@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Whitehead torsion](https://en.wikipedia.org/wiki/Whitehead_torsion)_
+
