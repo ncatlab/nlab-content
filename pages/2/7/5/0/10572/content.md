@@ -31,6 +31,8 @@ A general discussion is in
 
 * [[Andreas Cap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
 
+* [[Andreas Cap]], _Two constructions with parabolic geometries_, [ArXiv](http://arxiv.org/abs/math/0504389)
+
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 Relation to [[twistor spaces]] is discussed in
