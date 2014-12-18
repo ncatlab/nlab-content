@@ -1,0 +1,8 @@
+
+
+## References
+
+* Wikipedia, _[Surgery theory](https://en.wikipedia.org/wiki/Surgery_theory)_
+
+[[!redirects surgery]]
+[[!redirects surgeries]]
