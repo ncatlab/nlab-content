@@ -31,12 +31,12 @@ A general discussion is in
 
 * [[Andreas Cap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
 
-* [[Andreas Cap]], Jan Slov&#225;k, _Parabolic Geometries: Background and general theory_, American Mathematical Soc., 2009
+* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 Relation to [[twistor spaces]] is discussed in
 
-* [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
-  {#Cap01}
+* {#Cap01} [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
+  
 
 See also
 
