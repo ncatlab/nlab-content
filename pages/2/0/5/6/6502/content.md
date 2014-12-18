@@ -71,7 +71,8 @@ More explicitly for various component-realizations of principal connections, thi
 
 1. In terms of **[[Ehresmann connection]]-data** def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is an Ehresmann connection form $A$ on a $G$-principal bundle $P$ together with an $H$-principal bundle $Q$ and an $H$-equivariant map $i \colon Q\to P$ such that $i^\ast A$ yields an isomorphism $T Q \simeq Q\times \mathfrak{g}$.
 
-   In this form the definition is due to ([Ehresmann 50](#Ehresmann50)), recalled for instance as ([Sharpe 97, section 5.3, def. 3.1](#Sharpe), [Marle 14, def. 4](#Marle14)).
+   In this form the definition is due to ([Ehresmann 50](#Ehresmann50)), recalled in ([Marle 14, def. 4](#Marle14)). Often this definition is stated by describing $i^\ast A$ directly without mentioning of $A$, e.g. ([Sharpe 97, section 5.3, def. 3.1](#Sharpe), [Cap-Slov&#225;k 09, 1.5.1](#CapSlovak09)). Beware that $A$ is a [[principal connection]] but $i^\ast A$ is not.
+
 
 1. In terms of **[[Cech cohomology|Cech]] [[cocycle]] data**, def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is a cover $\{U_i \to X\}$ equipped with 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$ and with transition functions $h_{i j} \in C^\infty(U_i \cap U_j, h)$ such that
 
@@ -81,7 +82,7 @@ More explicitly for various component-realizations of principal connections, thi
 
    * $A_i(-)_x \colon T_x U_i \stackrel{\simeq}{\longrightarrow} \mathfrak{g}/\mathfrak{h}$.
 
-   In this form, the definition appears for instance as ([Sharpe 97, section 5.1 def. 1.3 together with section 5.2](#Sharpe)).  
+   In this form, the definition appears in ([Sharpe 97, section 5.1 def. 1.3 together with section 5.2](#Sharpe), [Cap-Slov&#225;k 09, 1.5.4](#CapSlovak09)).  
 
 
 =--
@@ -421,9 +422,11 @@ reviewed in
 
 * {#Marle14} [[Charles-Michel Marle]], _The works of Charles Ehresmann on connections: from Cartan connections to connections on fibre bundles_ ([arxiv:1401.8272](http://arxiv.org/abs/1401.8272))
 
-A standard textbook reference is
+Textbook accounts include
 
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+
+* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
  
 
 
