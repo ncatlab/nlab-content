@@ -88,5 +88,12 @@ Discussion in the context of [[higher algebra]]/[[higher geometry]] is in
 
 * [[Jacob Lurie]], section 4.2 of _[[Representability theorems]]_
 
+Formulation in terms of an equivalence between sheaves and cosheaves is in 
+
+* [[Peter Schneider]], _Verdier duality on the building_, Journal reine angew. Math. 494, 1998 
+
+* [[Justin Curry]], _Sheaves, Cosheaves and Applications_ ([arXiv:1303.3255](http://arxiv.org/abs/1303.3255))
+
+* [[Jacob Lurie]], section 5.3.5 of _[[Higher Algebra]]_
 
 [[!redirects Verdier dualities]]
