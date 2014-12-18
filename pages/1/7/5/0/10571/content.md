@@ -6,6 +6,8 @@
 
 * [[parabolic geometry]]
 
+* [[Cartan connection]]
+
 * [[twistor space]]
 
 
