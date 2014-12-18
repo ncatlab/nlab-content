@@ -325,9 +325,11 @@ An _$(H \to G)$ semi-Cartan geometry_ on a [[differential cohesion|differentiall
 
 1. a [[section]] $\sigma \colon X \to P \underset{G}{\times} (G/H)$ of the [[associated bundle|associated]] $G/H$-[[fiber bundle]];
 
-such that
+1. a &#233;tale [[cover]] ([[formally étale morphism|formally étale]] [[1-epimorphism]]) $U \to X$; 
 
-* there exists a [[cover]] ([[1-epimorphism]]) $U \to X$ such that the restriction  of this section to the cover, regarded as a map $\sigma|_U \colon U \to G/H$, is [[formally étale morphism|formally étale]] (a [[local diffeomorphism]]).
+such that 
+
+* the restriction  of $\sigma$ the cover, regarded as a map $\sigma|_U \colon U \to G/H$, is [[formally étale morphism|formally étale]] (a [[local diffeomorphism]]).
 
 =--
 
