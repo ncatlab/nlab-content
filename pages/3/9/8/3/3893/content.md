@@ -41,9 +41,11 @@ The original article is
 
 * {#Cartan23} [[Élie Cartan]] _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
 
-A standard textbook is
+Textbook accounts are in 
 
 * R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+
+* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 For more see at _[Cartan connection -- References](Cartan+connection#References)_.
 
