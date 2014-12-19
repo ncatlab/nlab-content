@@ -19,6 +19,8 @@
 
 The [[Cartan geometry]] induced by [[parabolic subgroup]] inclusions is called _parabolic geometry_.
 
+>Parabolic geometries are Cartan geometries of type $(G, P)$, where $G$ is a semisimple Lie group and $P \subset G$ is a parabolic subgroup. The corresponding homogeneous spaces $G/P$ are the so&#8211;called generalized flag manifolds which are among the most important examples of homogeneous spaces. Under the conditions of regularity and normality, parabolic geometries always are equivalent to underlying structures. ([Cap 05](#Cap05))
+
 ## Related concepts
 
 * [[Schubert calculus]]
@@ -31,7 +33,7 @@ A general discussion is in
 
 * [[Andreas Cap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
 
-* [[Andreas Cap]], _Two constructions with parabolic geometries_, [ArXiv](http://arxiv.org/abs/math/0504389)
+* {#Cap05} [[Andreas Cap]], _Two constructions with parabolic geometries_, [ArXiv](http://arxiv.org/abs/math/0504389)
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
