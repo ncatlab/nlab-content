@@ -24,7 +24,7 @@ An __$H$-space__ is a [[magma]] in the [[homotopy category]] of [[topological sp
 
 An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
 
-An __$H$-group__ is a [[group object]] in [[Ho(Top)]]. Oo an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
+An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
 
 To continue in this pattern, one could say that an **H-category** is an [[Ho(Top)]]-[[enriched category]].
 
@@ -44,7 +44,7 @@ There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-
 
 ## Examples
 
-The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturall even an [[A-infinity space]]. 
+The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturally even an [[A-infinity space]]. 
 
 (The main example of an [[co-H-space|H-cogroup]] in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. )
 
