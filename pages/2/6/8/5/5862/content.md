@@ -84,7 +84,7 @@ See also [[3d quantum gravity]].
 
 An introduction and survey is in 
 
-* [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ ([arXiv:hep-th/0502193](http://arxiv.org/abs/hep-th/0502193))
+* {#Zanelli05} [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ ([arXiv:hep-th/0502193](http://arxiv.org/abs/hep-th/0502193))
 
 More along these lines is in
 
