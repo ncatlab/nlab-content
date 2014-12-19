@@ -37,7 +37,7 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), [backup pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)
 
-* A. Joyal, _A letter to Grothendieck_, April 1983 (contains a Quillen model structure on simplicial presheaves). 
+* A. Joyal, Letter to [[Alexander Grothendieck]], 11.4.1984, [[lettrejoyal.pdf:file]].
 
 * A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997)  (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
 
