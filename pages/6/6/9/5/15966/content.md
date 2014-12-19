@@ -57,12 +57,12 @@ One should be able to define global analytic analogs of:
 
 1. The Grothendieck six operations on sub-analytic &#233;tale Hodge structures (given by a loop space construction of the Hodge filtration, without denominators, together with a Betti structure, given in the real case by non-strict sub-analytic &#233;tale constructible sheaves).
 
-1. The Chern character in various situations, using the formalism of Toen-Vezzosi applied to the following stacks of rigid symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
+1. The Chern character in various situations, using (a probably noncommutative generalization of) the formalism of Toen-Vezzosi applied to the following stacks of rigid (maybe non) symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
 * the stack $X\mapsto Perf(X)$ of perfect $\mathcal{O}$-modules (derived analog of coherent modules),
 * the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality.
 * one would also like to treat the case of (at least holonomic) $\mathcal{D}$-modules, either using the Ran space or another construction. It seems that Toen-Vezzosi's approach has to be modified to treat this case properly because of the compound tensor structure $(\otimes^!,\otimes^*)$ on $\mathcal{D}$-modules on the Ran space.
 
-Remark that it is quite tempting to look for a kind of Koszul duality statement for stacks of rigid symmetric $\infty$-categories.
+1. The treatment of $\mathcal{D}$-modules and $\mathcal{D}_q$-modules in a uniform setting may involve the following generalization of the Kashiwara and Schapira approach (in a Toen-Vezzosi type of setting) due to F. Petit: one must work with trace kernels, and compute the trace of their action on the Hochschild or cyclic homology of ---non-symmetric--- monoidal categories of (typically) bimodules on an associative algebra. The proper treatment of this theory will be discussed in the section [[non-commutative global analytic index theory]].
 
 ## Derived index theory
 
