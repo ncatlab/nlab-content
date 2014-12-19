@@ -51,9 +51,9 @@ $$
   G/Stab_G(S)
 $$ 
 
-of $G$ by the [[stabilizer subgroup]] of that configuration. See also there at _[Stabilizer of shapes -- Klein geometry](stabilizer%20group#KleinGeometry)_.
+of $G$ by the [[stabilizer subgroup]] of that configuration. In the case that $S$ is a point we would now call this the [[orbit]] of $S$. See also there at _[Stabilizer of shapes -- Klein geometry](stabilizer%20group#KleinGeometry)_.
 
-The text goes on to argue that spaces of this form $G/Stab_G(S)$ are of fundamtal importance:
+The text goes on to argue that spaces of this form $G/Stab_G(S)$ are of fundamental importance:
 
 > If now we desire to base our investigations upon the group, selecting at the same time certain definite configurations as space-elements, and if we wish to represent uniformly things which are of like characteristics, we must evidently choose our space-elements in such a way that their manifoldness either is itself a body or can be decomposed into bodies.
 
