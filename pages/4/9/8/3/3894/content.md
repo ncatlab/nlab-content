@@ -31,13 +31,37 @@ Both cases, in turn, can naturally be understood as special cases of [[twisted d
 
 ## Definition
 
-### Traditional
+### In terms of subbundles of the frame bundle
 
-(...)
+Given a [[smooth manifold]] $X$ of [[dimension]] $n$ with [[frame bundle]] $Fr(X)$, and given a [[Lie group]] [[monomorphism]]
+
+$$
+  G \longrightarrow GL(\mathbb{R}^n)
+$$
+
+into the [[general linear group]], then a _$G$-structure_ on $X$ is an $G$-[[principal bundle]] $P \to X$ equipped with an inclusion of [[fiber bundles]]
+
+$$
+  \array{
+    P &&\hookrightarrow&& Fr(X)
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+$$
+
+which is $G$-equivariant.
+
+### In terms of Cartan connections
+
+A $G$-structure equipped with compatible [[connection on a bundle|connection]] data is equivalently a [[Cartan connection]] for the inclusion $(G \hookrightarrow \mathbb{R}^n \rtimes G)$. 
+
+See at _[Cartan connection -- Examples -- G-structures](Cartan+connection#ExampleGStructures)_
 
 ### In terms of higher geometry
 
-We give an equivalent definition of $G$-structures in terms of [[higher geometry]] ("from the [[nPOV]]"). This serves to clarify the slightly subtle but important difference between existence and choice of $G$-structure, and seamlessly embeds the notion into the more general context of [[twisted differential c-structures]].
+We give an equivalent definition of $G$-structures in terms of [[higher differential geometry]] ("from the [[nPOV]]"). This serves to clarify the slightly subtle but important difference between existence and choice of $G$-structure, and seamlessly embeds the notion into the more general context of [[twisted differential c-structures]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -50,7 +74,13 @@ $$
 
 for the morphism of [[delooping]] [[Lie groupoids]] ( the [[smooth infinity-groupoid|smooth]] [[moduli stacks]] of smooth $K$- and $G$-[[principal bundles]], respectively).
 
-For $X$ a [[smooth manifold]] (or generally an [[orbifold]] or [[Lie groupoid]], etc.) Let $P \to X$ be a $K$-[[principal bundle]] and let $g : X \to \mathbf{B}K$ be any choice of morphism representing it.
+For $X$ a [[smooth manifold]] (or generally an [[orbifold]] or [[Lie groupoid]], etc.) Let $P \to X$ be a $K$-[[principal bundle]] and let 
+
+$$
+  k \colon X \longrightarrow \mathbf{B}K
+$$ 
+
+be any choice of morphism [[modulating morphism|modulating]] it.
 
 Write $\mathbf{H}(X, \mathbf{B}G)$ etc. for the [[derived hom space|hom-groupoid]] of [[smooth infinity-groupoid|smooth groupoids]] / smooth stacks . This is equivalently the groupoid of $G$-principal bundles over $X$ and smooth [[gauge transformations]] between them.
 
@@ -61,27 +91,45 @@ $$
   :=
   \mathbf{H}(X, \mathbf{B}G)
    \times_{\mathbf{H}(X, \mathbf{B}K)}
-  \{P\}
+  \{k\}
   \,.
 $$
 
 $$
   \array{
     \mathbf{c}Struc_{[P]}(X)
-    &\to&
-    *
+    &\longrightarrow&
+    \ast
     \\
-    \downarrow & \swArrow_\simeq& \downarrow^{g}
+    \downarrow & \swArrow_\simeq& \downarrow^{\mathrlap{k}}
     \\
     \mathbf{H}(X, \mathbf{B}G)
-     &\stackrel{\mathbf{H}(X, \mathbf{c})}{\to}&
+     &\stackrel{\mathbf{H}(X, \mathbf{c})}{\longrightarrow}&
     \mathbf{H}(X, \mathbf{B}K)
   }
 $$
 
 (the groupoid of _[[twisted differential c-structure|twisted c-structures]]_).
 
-Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[tangent bundle]] $T X$ canonically comes from a morphism $T X : X \to \mathbf{B} GL(n)$ into the [[moduli stack]] for the [[general linear group]] $K := GL(n)$. Then for any group homomorphism $G \to GL(n)$, a **$G$-structure** on $X$ is a $G$-structure on $T X$, as above.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If here $k$ is trivial in that it factors through the point, $k \colon X \to \ast \to \mathbf{B}K$ then this homotopy fiber product is $\mathbf{H}(X,K/G)$, where $K/G$ is the [[coset space]] ([[Klein geometry]]) which itself sits in the [[homotopy fiber sequence]]
+
+$$
+   K/G \to \mathbf{B}G \to \mathbf{B}K
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[frame bundle]] $Fr(X)$ is [[modulating moprhism|modulated]] by a morphism $\tau_X \colon X \to \mathbf{B} GL(n)$ into the [[moduli stack]] for the [[general linear group]] $K := GL(n)$. Then for any group homomorphism $G \to GL(n)$, a **$G$-structure** on $X$ is a $G$-structure on $Fr(X)$, as above.
 
 =--
 
@@ -175,11 +223,10 @@ Original articles include
 
 * S.S. Chern 1966, _[The geometry of G-structures](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf)_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219.
 
-The relation to [[special holonomy]] is discussed in 
+The relation to [[special holonomy]] and to [[torsion of a G-structure]] is discussed in 
 
-* [[Dominic Joyce]], _Compact manifolds with special holonomy_ , Oxford Mathematical Monogrophs (200)
-  {#Joyce}
-
+* {#Joyce} [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_ , Oxford Mathematical Monogrophs (200)
+  
 
 General textbooks of [[differential geometry]] include
 
