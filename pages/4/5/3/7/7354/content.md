@@ -66,6 +66,10 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 ### Surveys and lecture notes
 
+A general survey is 
+
+* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
+
 A detailed discussion of dualities induced on [[K3]]-compactifications is in 
 
 * [[Paul Aspinwall]], _K3-surfaces and string duality_ ([arXiv:hep-th/9611137](http://arxiv.org/abs/hep-th/9611137))
