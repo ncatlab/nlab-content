@@ -48,13 +48,17 @@ If the torsion of a Cartan connection vanishes, then it has [[flat connection|fl
 
 ### Relation to integrability of $G$-structure
 
-If the [[Cartan connection]] is regarded as proving, in particular, a [[G-structure]], then the condition that its torsion vanishes is the [[integrability of G-structures]].
+If the [[Cartan connection]] is regarded as providing, in particular, a [[G-structure]], then the condition that its torsion vanishes is the [[integrability of G-structures]].
 
 ## Examples
 
 ### (Pseudo-)Riemannian geometry
 
 For $(H \to G)$ being the inclusion $O(d)\hookrightarrow Iso(\mathbb{R}^d)$ of the [[orthogonal group]] into the [[Euclidean group]] or the inclusion $O(d-1,1)\hookrightarrow Iso(\mathbb{R}^{d-1,1})$ of the [[Lorentz group]] into the [[Poincare group]], then an $(H\to G)$-[[Cartan connection]] encodes a ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] with metric connection. Its torsion then is the [[torsion of a metric connection]]. See also at _[[first-order formulation of gravity]]_.
+
+## Related concepts
+
+* [[torsion of a G-structure]]
 
 ## References
 
