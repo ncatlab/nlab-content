@@ -293,11 +293,11 @@ Examples in physics of interaction of defects of various dimension is discussed 
 
 #### In 2d field theory
 
-* Defects in 2-dimensional [[conformal field theory]] have a long history in real-world application, for instance
+* Defects in 2-dimensional [[conformal field theory]] have a long history in real-world application, for instance in [[Kramers-Wanier duality]]
 
-  * _Kramers-Wannier duality from conformal defects_
+  * [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_ ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
 
-  * Fr&#246;lich, Fuchs, Runkel, Schweigert, _Duality and defects in rational conformal field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0607247))
+  * Fr&#246;hlich, Fuchs, Runkel, Schweigert, _Duality and defects in rational conformal field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0607247))
 
 * Defects in 2-dimension TFT have been studied a lot in the context of genus-0 TFT, where they are described using the language of [[planar algebra]]s. 
 
