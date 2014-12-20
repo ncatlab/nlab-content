@@ -329,7 +329,7 @@ For more references on this perspective see [below](#ReferencesWZWTerm).
 
 That the GS-action functionals is consistent on all backgrounds that satisfy the relevant [[supergravity]] [[equations of motion]] was shown in 
 
-* {#BergshoeffSezginTownsend86} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986).
+* {#BergshoeffSezginTownsend86} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986) ([spire](http://inspirehep.net/record/223138/?ln=en))
 
 For more on this see the references [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
@@ -346,7 +346,7 @@ and a brief paragraph in Volume II, section 10.2, page 983 of
 
 A more recent and more comprehensive review is
 
-* [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/open?pubNo=lrr-2012-3&page=articlese2.html)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+* [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/Articles/lrr-2012-3/)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
 
 ### WZW terms, super Lie algebra cohomology and the brane scan
