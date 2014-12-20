@@ -458,11 +458,11 @@ That the [[heterotic supergravity]] equations of motion are sufficient for the 3
  
 and the computation there was highlighted and a little simplified in 
 
-* [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986)
+* [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986) ([spire](http://inspirehep.net/record/214192/?ln=en))
 
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
-* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3 (1985)
+* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3 (1985) ([spire](http://inspirehep.net/record/17010))
 
 and for GS sigma-model [[D-branes]] in 
 
