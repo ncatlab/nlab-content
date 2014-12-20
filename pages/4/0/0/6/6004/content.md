@@ -13,7 +13,7 @@
 =--
 =--
 
-This entry is is to record the monograph 3 volumes
+This entry is to record the monograph 3 volumes
 
 * [[Francis Borceux]], _Handbook of Categorical Algebra_
 
