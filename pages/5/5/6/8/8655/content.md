@@ -24,6 +24,8 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 ## Examples
 
+* [[Kramers-Wannier duality]]
+
 * [[Seiberg duality]], [[AGT conjecture]]
 
 * [[S-duality]]
