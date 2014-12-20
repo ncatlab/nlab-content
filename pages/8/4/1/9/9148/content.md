@@ -11,10 +11,14 @@ The Ising model gained importance as a toy model in theoretical [[physics]]. It 
 
 Real-world [[physical systems]] that show behaviour described by the Ising model were only found later ([Wolf](#Wolf)).
 
+## Properties
+
+* [[Kramers-Wannier duality]]
+
 
 ## References
 
-* W. P. Wolf, _The Ising model and real magnetic materials_, Braz. J. Phys. vol.30 no.4 S&#227;o Paulo Dec. 2000 ([web](http://www.scielo.br/scielo.php?script=sci_arttext&pid=s0103-97332000000400030))
- {#Wolf}
+* {#Wolf} W. P. Wolf, _The Ising model and real magnetic materials_, Braz. J. Phys. vol.30 no.4 S&#227;o Paulo Dec. 2000 ([web](http://www.scielo.br/scielo.php?script=sci_arttext&pid=s0103-97332000000400030))
+ 
 
 [[!redirects Ising models]]
