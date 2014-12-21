@@ -280,7 +280,7 @@ For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivaria
 
 ## Multiplicative equivariant cohomology
 
-For [[multiplicative cohomology theorie]] there is a further refinement of equivariance where the equivariant cohomology groups are built from global sections on a [[sheaf]] over cerain systems of [[moduli spaces]]. For more on this see at 
+For [[multiplicative cohomology theories]] there is a further refinement of equivariance where the equivariant cohomology groups are built from global sections on a [[sheaf]] over cerain systems of [[moduli spaces]]. For more on this see at 
 
 * [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant)
 
