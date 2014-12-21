@@ -26,7 +26,10 @@ For instance
 
 ## References
 
-A general formalization is discussed in section 2.6 of
+* [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560.
 
 * [[Dominic Joyce]], _Compact manifolds with special holonomy_, Oxford University Press 2000
+
+See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsion constraints in supergravity]]_.
+
 
