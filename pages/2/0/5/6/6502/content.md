@@ -354,7 +354,7 @@ Textbook accounts include
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
-Discussion with an eye towards [[torsion contraints in supergravity]] is in
+Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
 * {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
