@@ -33,15 +33,17 @@ While a full theory of quantum gravity still eludes us, a theory of quantum fiel
 
 A classic reference is this:
 
-* Wald, Robert M.: Quantum field theory in curved spacetime and black hole thermodynamics. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
+* [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
-Recently published review papers:
+Reviews with emphases of the AQFT-point of view include
 
-* Romeo Brunetti, Klaus Fredenhagen: [Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _[Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)_
 
-* Robert M. Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
+* Robert Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
 
 * Robert M. Wald: [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
+
+* [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
 
 Papers about the application of [[microlocal analysis]] include
 
