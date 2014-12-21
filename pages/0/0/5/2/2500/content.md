@@ -227,6 +227,10 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 * [[special geometry]]
 
+* [[torsion constaints in supergravity]]
+
+* [[D'Auria-Fre formulation of supergravity]]
+
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
 
