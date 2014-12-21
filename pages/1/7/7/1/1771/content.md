@@ -1,18 +1,19 @@
 
+> For more see at _[[smooth ∞-groupoid]]_.
 
-#Idea#
+#Contents#
+* table of contents
+{:toc}
 
-The notion of smooth $\infty$-stack is essentially that of 
+## Idea
 
-* [[Lie ∞-groupoid]].
+The concept of smooth $\infty$-stack is essentially that of 
+
+* [[smooth ∞-groupoid]].
 
 * [[orbifold|∞-orbifold]].
 
 Following the logic described at
-
-* [[space and quantity]]
-
-  * [[generalized smooth space]]
 
 * [[motivation for sheaves, cohomology and higher stacks]]
 
@@ -22,25 +23,26 @@ a _smooth $\infty$-stack_ is the [[∞-categorification]] of [[smooth space]] an
 
 So smooth $\infty$-stacks are the objects in the [[(∞,1)-topos]] that computes _smooth_ generalized [[cohomology]]. (See [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] and the disucssion under "Models" below for more on that).
 
-# Definition #
+## Definition 
 
-Let $CartSp = \{ (\mathbb{R}^n \to \mathbb{R}^m) \in Diff| n,m \in \mathbb{N}\} \subset Diff$ be the full subcategory of [[Diff]] on the [[manifolds]] of the simple form $\mathbb{R}^n$, equipped with the standard structure of a [[site]] with the [[coverage]] given by open covers of manifolds.
+Let $CartSp = \{ (\mathbb{R}^n \to \mathbb{R}^m) \in Diff| n,m \in \mathbb{N}\} \subset Diff$ be the full subcategory [of [[Diff]] on the [[Cartesian spaces]] of the simple form $\mathbb{R}^n$, equipped with the standard structure of a [[site]] with the [[coverage]] given by [[open covers]] of manifolds.
 
 Then
 
 $$
-  \mathbf{H}_{Diff} := (\infty,1)Sh(CartSp)
+  Smooth\infty Grpd := (\infty,1)Sh(CartSp)
 $$
 
 is the [[(∞,1)-topos]] given by the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp$.
 
+This is the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]].
 
-# Models #
+## Models 
 
 There is a large number of [[model category|model structures]] [[presentable (infinity,1)-category|presenting]] $\mathbf{H}_{Diff}$: all the [[model structure on simplicial presheaves|model structures on simplicial (pre)sheaves]] on $CartSp$.
 
 
-## In terms of $\infty$-groupoids internal to smooth spaces ##
+### In terms of $\infty$-groupoids internal to smooth spaces ##
 
 Notice for instance that there is the [[model structure on simplicial sheaves]] given by the category $SSh(CartSp)$ equipped with the injective [[local model structure on simplicial presheaves]].
 
