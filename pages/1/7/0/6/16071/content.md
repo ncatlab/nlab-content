@@ -62,9 +62,13 @@ For $(H \to G)$ being the inclusion $O(d)\hookrightarrow Iso(\mathbb{R}^d)$ of t
 
 ## References
 
+Textbook accounts include
+
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+
+Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
 * {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
