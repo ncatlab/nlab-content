@@ -1,4 +1,12 @@
 
 * [website](http://math.berkeley.edu/~lott/papers.html)
 
+## related $n$Lab entries
+
+* [[fiber integration in differential K-theory]]
+
+* [[torsion of a G-structure]]
+
+* [[torsion constraints in supergravity]]
+
 category: people
