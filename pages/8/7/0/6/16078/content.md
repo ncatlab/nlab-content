@@ -20,7 +20,7 @@
 The [[integrability of G-structures]] exists precisely if a certain [[torsion]] [[obstruction]] vanishes. 
 
 
-The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_)
+The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_). ([Lott 90, p.10](#Lott90), [Joysce 00, section 2.6](#Joyce00)).
 
 Let $V$ be the linear space on which $G$ acts in this definition via [[Cartan connections]]. Then an $(G \to V \rtimes G)$-Cartan connection identifies each [[tangent space]] of the base manifold $X$ with $V$, $T_x X \simeq V$. Moreover, since $X$ is a [[manifold]], there is also an [[open neighbourhood]] $x \in U_x \subset X$ which is [[diffeomorphism|diffeomorphic]] to an open neighbourhood in $V$. But this identification may not preserve the relevant structure. Torsion is the obstruction to the existence of such neighbourhoods around each point which may be compatibly identified with open subsets of $V$.
 
@@ -32,8 +32,16 @@ It is in this sense that torsion manifestly obstructs "integrability" as it is o
 
 ## References
 
-* [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_, Oxford University Press 2000
+The concept goes back to the work of [[Eli Cartan]] ([[Cartan geometry]]).
 
-* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+Discussion with an eye towards [[torsion constraints in supergravity]] is in
+
+* {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+
+Discussion with an eye towards [[special holonomy]] is in
+
+* {#Joyce00} [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_, Oxford University Press 2000
+
+See also
 
 * Wikipedia, _[Torsion of a G-structure](https://en.wikipedia.org/wiki/G-structure#Torsion_of_a_G-structure)_
