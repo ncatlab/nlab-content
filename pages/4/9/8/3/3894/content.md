@@ -219,9 +219,9 @@ Surveys include
 
 * [Wikipedia](http://en.wikipedia.org/wiki/G-structure)
 
-Original articles include
+The idea originates with [[Eli Cartan]] (see also at _[[Cartan geometry]]_). Original articles include
 
-* S.S. Chern 1966, _[The geometry of G-structures](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf)_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219.
+* [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf))
 
 The relation to [[special holonomy]] and to [[torsion of a G-structure]] is discussed in 
 
