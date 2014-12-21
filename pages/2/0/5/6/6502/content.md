@@ -353,6 +353,11 @@ Textbook accounts include
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+
+Discussion with an eye towards [[torsion contraints in supergravity]] is in
+
+* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+
  
 See also
 
@@ -360,7 +365,6 @@ See also
 
 * [[Dmiti Alekseevesky]], [[Peter Michor]], _Differential geometry of Cartan connections_ Publ. Math. Debrecen 47/3-4 (1995), 349-375 ([pdf](http://www.mat.univie.ac.at/~michor/cartan.pdf))
 
-* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
 
 Further discussion of Cartan connections as models for the [[first order formulation of gravity]] is in 
