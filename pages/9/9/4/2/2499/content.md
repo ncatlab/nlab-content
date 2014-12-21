@@ -742,8 +742,15 @@ the expected term $r^c \wedge r^c \wedge r^c$.
 ## References 
  {#References}
 
+Precursors are
 
-The original articles that introduced th D'Auria-Fr&#233;-formalism are
+The formulation of supergravity of [[supermanifolds]] and the relevance of the [[Bianchi identities]] originates in
+
+* R. Grimm, [[Julius Wess]], [[Bruno Zumino]], _A complete solution of the Bianchi identities in superspace with supergravity constraints_, Nuclear Phys. B152 (1979), 255&#8211;265.
+
+* [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+
+The original articles that introduced specifically the D'Auria-Fr&#233;-formalism are
 
 * [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
   {#DAuriaFre80}
