@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-e.g. ([Sharpe 97, section 5.3, below def 3.1](#Sharpe97))
+e.g. ([Sharpe 97, section 5.3, below def 3.1](#Sharpe97), [Cap-Slov&#225;k 09, section 1.5.7, p. 85](#CapSlovak09))
 
 ## Properties
 
@@ -63,5 +63,9 @@ For $(H \to G)$ being the inclusion $O(d)\hookrightarrow Iso(\mathbb{R}^d)$ of t
 ## References
 
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+
+* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+
+* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
 [[!redirects torsion of Cartan connections]]
