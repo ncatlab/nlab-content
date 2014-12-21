@@ -62,6 +62,7 @@ They defined various such super dg-algebras $W(\mathfrak{g})$ and showed (paraph
 
 Their algorithm was considerably more powerful than earlier more pedestrian methods for construction such action functionals. The textbook [CastellaniDAuriaFre](#CastellaniDAuriaFre) on [[supergravity]] and [[string theory]] from the perspective of this formalism gives a comprehensive description of this approach.
 
+
 We observe here that the D'Auria-Fre-formalism is [[schreiber:∞-Chern-Simons theory]] for [[∞-Lie algebra-valued forms]] with values in super [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]].
 
 The pivotal concept that allows to pass between this interpretation and the original formulation is the concept of [[∞-Lie algebroid]] with its various incarnations:
@@ -738,6 +739,9 @@ $$
 This fails to sit in the shifted generators by the terms coming from the translation algebra. For the degree-3 element $c$ however it does produce
 the expected term $r^c \wedge r^c \wedge r^c$.
 
+## Related concepts
+
+* [[torsion constraints in supergravity]]
 
 ## References 
  {#References}
@@ -769,6 +773,7 @@ At the time of this writing the book is out of print and unavailable from booksh
 The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]] is in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+
  {#SSS}
 
 The [[Lie integration]] of that to genuine [[principal ∞-connections]] is in 
