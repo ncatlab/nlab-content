@@ -96,7 +96,7 @@ Given a Cartan connection $\nabla$, def. \ref{Traditional}, its [[torsion of a C
 
 =--
 
-For instance ([Sharpe, section 5.3, below def. 3.1](#Sharpe))
+([Sharpe, section 5.3, below def. 3.1](#Sharpe), [Cap-Slov&#225;k 09, section 1.5.7, p. 85](#CapSlovak09), [Lott 01, section 3](#Lott)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -354,13 +354,13 @@ Textbook accounts include
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
  
-
-
 See also
 
 * {#Kuranishi95} [[Masatake Kuranishi]], _CR geometry and Cartan geometry_, Forum mathematicum (1995) Volume: 7, Issue: 2, page 147-206 ([EuDML page](https://eudml.org/doc/186418), [page with link to pdf](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=PPN481110151_0007&DMDID=dmdlog11))
 
 * [[Dmiti Alekseevesky]], [[Peter Michor]], _Differential geometry of Cartan connections_ Publ. Math. Debrecen 47/3-4 (1995), 349-375 ([pdf](http://www.mat.univie.ac.at/~michor/cartan.pdf))
+
+* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
 
 Further discussion of Cartan connections as models for the [[first order formulation of gravity]] is in 
