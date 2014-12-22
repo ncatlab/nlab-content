@@ -99,9 +99,14 @@ Textbooks include
 
 * [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 
+With emphasis in [[G-structures]]:
+
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964)
+
+With emphasis on [[Cartan geometry]]:
+
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
 
-* [[Shlomo Sternberg]], _Lectures on differential geometry_
 
 Lecture notes include
 
