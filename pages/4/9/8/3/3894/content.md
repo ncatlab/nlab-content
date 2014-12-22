@@ -177,9 +177,12 @@ Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[fram
 +-- {: .num_defn #Integrability}
 ###### Definition
 
-A $G$-structure on a [[manifold]] $X$ is called _integrable_ if it is locally equivalent to the _standard flat $G$-structure_, def. \ref{StandardFlatGStructure}, i.e. if there is an [[open cover]] $\{U_i \to X\}$ by [[open subsets]] of the [[Cartesian space]] $\mathbb{R}^n$ such that the restriction of the $G$-structure to each of these is equivalent to the standard flat $G$-structure.
+A $G$-structure on a [[manifold]] $X$ is called _locally flat_ ([Sternberg 64, section VII, def. 24](#Sternberg64)) or _integrable_ (e.g. [Alekseevskii](#Alekseevskii)) if it is locally equivalent to the _standard flat $G$-structure_, def. \ref{StandardFlatGStructure}. 
+
+This means that there is an [[open cover]] $\{U_i \to X\}$ by [[open subsets]] of the [[Cartesian space]] $\mathbb{R}^n$ such that the restriction of the $G$-structure to each of these is equivalent to the standard flat $G$-structure.
 
 =--
+
 
 See at _[[integrability of G-structures]]_ for more on this
 
