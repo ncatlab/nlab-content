@@ -31,7 +31,21 @@ Both cases, in turn, can naturally be understood as special cases of [[twisted d
 
 ## Definition
 
+### General
+
+Given a [[smooth manifold]] $X$ of [[dimension]] $n$ and given a [[Lie group|Lie]] [[subgroup]] $G \hookrightarrow GL(n)$ of the [[general linear group]], then a _$G$-structure_ on $X$ is a [[reduction of structure groups|reduction of the structure group]] of the [[frame bundle]] of $X$ to $G$.
+
+There are many more explicit (and more abstract) equivalent ways to say this, which we discuss below. There are also many evident variants and generalizations. 
+
+Notably one may consider reductions of the frames in the $k$th order [[jet bundle]]. (e. g. [Alekseevskii](#Alekseevskii)) This yields order $k$ $G$-structure and the ordinary $G$-structures above are then first order.
+
+Moreover, the definition makes sense for generalized [[manifolds]] modeled on other base spaces than just [[Cartesian spaces]]. In particular there is an evident generalization to [[supermanifolds]] spring
+
 ### In terms of subbundles of the frame bundle
+ {#InTermsOfSubbundlesOfTheFrameBundle}
+
++-- {: .num_defn}
+###### Definition
 
 Given a [[smooth manifold]] $X$ of [[dimension]] $n$ with [[frame bundle]] $Fr(X)$, and given a [[Lie group]] [[monomorphism]]
 
@@ -51,7 +65,30 @@ $$
   }
 $$
 
-which is $G$-equivariant.
+which is $G$-equivariant. 
+
+=--
+
+([Sternberg 64, section VII, def. 2.1](#Sternberg64)).
+
+
++-- {: .num_remark}
+###### Remark
+
+From this perspective, a $G$-structure consists of the collection of all $G$-[[frame field|frames]] on a manifold. For instance for an [[orthogonal structure]] it consists of all those frames which are pointwise an [[orthonormal basis]] of the [[tangent bundle]] (with respect to the [[Riemannian metric]] which is defined by the orthonormal structure).
+
+=--
+
+Accordingly: 
+
++-- {: .num_defn #GStructureGeneratedByFrameField}
+###### Definition
+
+Given $G \hookrightarrow GL(n)$ and given any one [[frame field]] $\sigma \colon X \to Fr(X)$ over a [[manifold]] $X$, then acting with $G$ on $\sigma$ at each point produces a $G$-subbundle. This is called the $G$-structure _generated_ by the frame field $\sigma$.
+
+=-- 
+
+
 
 ### In terms of Cartan connections
 
@@ -59,7 +96,7 @@ A $G$-structure equipped with compatible [[connection on a bundle|connection]] d
 
 See at _[Cartan connection -- Examples -- G-structures](Cartan+connection#ExampleGStructures)_
 
-### In terms of higher geometry
+### In terms of higher differential geometry
 
 We give an equivalent definition of $G$-structures in terms of [[higher differential geometry]] ("from the [[nPOV]]"). This serves to clarify the slightly subtle but important difference between existence and choice of $G$-structure, and seamlessly embeds the notion into the more general context of [[twisted differential c-structures]].
 
@@ -133,11 +170,21 @@ Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[fram
 
 =--
 
-### Integrability
-
-For the moment see at _[[integrability of G-structures]]_.
-
 ## Properties
+
+### Integrability of $G$-structure
+
++-- {: .num_defn #Integrability}
+###### Definition
+
+A $G$-structure on a [[manifold]] $X$ is called _integrable_ if it is locally equivalent to the _standard flat $G$-structure_, def. \ref{StandardFlatGStructure}, i.e. if there is an [[open cover]] $\{U_i \to X\}$ by [[open subsets]] of the [[Cartesian space]] $\mathbb{R}^n$ such that the restriction of the $G$-structure to each of these is equivalent to the standard flat $G$-structure.
+
+=--
+
+See at _[[integrability of G-structures]]_ for more on this
+
+The [[obstruction]] to integrability of $G$-structure is the _[[torsion of a G-structure]]_. See there for more.
+
 
 ### Relation to special holonomy
 
@@ -163,6 +210,16 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 
 ## Examples
+
+### The standard flat $G$-structure
+ {#TheStandardFlatGStructure}
+
++-- {: .num_defn #StandardFlatGStructure}
+###### Definition
+
+For $G \hookrightarrow GL(n)$ a subgroup, then the _standard flat $G$-structure_ on the [[Cartesian space]] $\mathbb{R}^n$ is the $G$-structure which is generated, via def. \ref{GStructureGeneratedByFrameField}, from the canonical [[frame field]] on $\mathbb{R}^n$ (the one which is the identity at each point, under the defining identifications).
+
+=--
 
 ### Reduction of tangent bundle structure
 
@@ -215,24 +272,30 @@ See the list at [[tiwsted differential c-structure]].
 
 ### Traditional
 
-Surveys include
+The concepts originates around the work of [[Eli Cartan]] ([[Cartan geometry]]). Textbook accounts include
 
-* [Wikipedia](http://en.wikipedia.org/wiki/G-structure)
-
-The idea originates with [[Eli Cartan]] (see also at _[[Cartan geometry]]_). Original articles include
-
-* [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf))
-
-The relation to [[special holonomy]] and to [[torsion of a G-structure]] is discussed in 
-
-* {#Joyce} [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_ , Oxford Mathematical Monogrophs (200)
-  
-
-General textbooks of [[differential geometry]] include
+* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of _Lectures on differential geometry_, Prentice-Hall (1964)
 
 * Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of differential geometry_
 
-* Shlomo Sternberg, _Lectures on differential geometry_
+Original articles include
+
+* [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf))
+
+Surveys include
+
+* {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
+
+* [Wikipedia](http://en.wikipedia.org/wiki/G-structure)
+
+Discussion with an eye towards [[special holonomy]] is in 
+
+* {#Joyce} [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_ , Oxford Mathematical Monogrophs (200)
+
+Discussion with an eye towards [[torsion constraints in supergravity]] is in
+
+* {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+
 
 ### In higher geometry
 
