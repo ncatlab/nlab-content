@@ -20,13 +20,13 @@ Given a [[G-structure]] one may ask if it is "integrable" in that a certain [[to
 
 ## Definition
 
-### In terms of patchwise $G$-structure
+A $G$-structure is called _integrable_ or _locally flat_ if it is locally equivalent to the standard $G$-structure on the given model space.
 
-In ([Lott 90, page 4 of the exposition](#Lott90)) gives the following characterization of integrable $G$-structure, one that does not use differential forms.
+([Sternberg 64, section VII, def. 2.4](Sternberg64)), see also [Lott 90, page 4 of the exposition](#Lott90)).
 
 Let $V$ be a linear local model space, e.g. a [[vector space]] or [[super vector space]]. Write $GL(V)$ for its [[general linear group]]. Consider a [[group]] [[homomorphism]] $G \longrightarrow GL(V)$.
 
-Now fix a [[G-structure]] $\mathbf{c}_V$ on $V$ itself.
+Let $\mathbf{c}_V$ be the _standard flat $G$-structure_ on $V$ (see at _[G-Structure -- Examples -- Standard flat G-structure](G-structure#TheStandardFlatGStructure)_).
 
 Then a [[G-structure]] $\mathbf{c}$ on a [[manifold]] $X$ modeled on $V$ (e.g. a [[smooth manifold]] or [[supermanifold]]) is called integrable if
 
@@ -43,14 +43,23 @@ For instance if $G$-structure is modeled by $G$-subbundles $P$ of the [[frame bu
 
 $$
   \array{
-     P_0|_{U_i} &\hookrightarrow& Fr(U_i)
+     P_0|_{U_i} &\hookrightarrow& Fr(V)|_{U_i}
      \\
      {}^{\mathllap{\simeq}}\downarrow && \downarrow
      \\
-     P|_{U_i}
+     P|_{U_i} &\hookrightarrow& Fr(X)|_{U_i}
   }
+  \,.
 $$
 
+
+## Properties
+
+### In terms of adapted coordinate systems
+
+A $G$-structure on $X$ is integrable previsely if there exists an [[atlas]] of $X$ by [[coordinate charts]] with the property that their canonical [[frame fields]] are $G$-frames.
+
+([Sternberg 64, section VII, exercise 2.1](#Sternberg64))
 
 ## Examples
 For instance 
@@ -67,6 +76,8 @@ The [[obstruction]] for a $G$-structure to be integrable is its [[torsion of a G
 
 ## References
 
+* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of _Lectures on differential geometry_, Prentice-Hall (1964)
+
 * {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
@@ -79,4 +90,4 @@ Discussion with an eye towards [[special holonomy]] is in
 
 See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsion constraints in supergravity]]_.
 
-
+[[!redirects integrability of G-structures]]
