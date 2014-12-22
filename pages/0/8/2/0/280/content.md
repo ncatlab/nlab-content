@@ -25,6 +25,12 @@
 
 There are various variants of the notion of something _acting_ on something else. They are all closely related.
 
+The simplest notion of action involves one set, $X$, acting on another $Y$ as the function $act\colon X \times Y \to Y$. This can be [[currying|curried]] as $ \hat{act}\colon Y \to Y ^ X $ where $Y ^ X$ is the (monoidal) [[function set|set of functions]] from $X$ to $Y$.[^SetActions]
+
+[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the product commutes. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow labeled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
+
+Generalized notions of action use entities from categories other than $Set$ and involve an [[exponential object]] such as  $Y ^ X$.
+
 For an entity $K$ to be able to act on anything else in the first place, $K$ needs to have some notion of composition or product with itself. Quite generally this is modeled by realizing $K$ as an [[n-category]] of sorts. In particular, if $K$ is a monoidal entity with a product $K \otimes K \to K$ there is usually a [[delooping]] $\mathbf{B} K$ which encodes the same information.
 
 From this perspective one fundamental way to realize an action of some entity $K$ on some entity in the [[category]] or [[n-category]] $C$ is an ($n$-)functor
