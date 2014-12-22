@@ -1204,7 +1204,7 @@ $$
   (\mathbf{H}_{th})^{fet}_{/X} \hookrightarrow (\mathbf{H}_{th})_{/X}
 $$ 
 
-for the full [[sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] over $X$ on those maps into $X$ which are formally &eacute;tale, def. \ref{FormallyEtaleInHTh}.
+for the full [[sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] over $X$ on those maps into $X$ which are formally &#233;tale, def. \ref{FormallyEtaleInHTh}.
 
 We also write $FEt_{\mathbf{X}}$ or $Sh_{\mathbf{H}}(X)$ for $(\mathbf{H}_{th})_{/X}^{fet}$.
 
@@ -1271,7 +1271,7 @@ $$
   \,.
 $$
 
-This diagram is now indeed an [[(∞,1)-pullback]] by the fact that we have [[universal colimits]] in the [[(∞,1)-topos]] $\mathbf{H}_{th}$, hence that on the left the component $Y_i$ for each $i \in I$ is the [[(∞,1)-pullback]] of $\mathbf{\Pi}_{inf}(Y_i) \to \mathbf{\Pi}_{inf}(X)$, by assumption that we are taking an $(\infty,1)$-colimit over formally &eacute;tale morphisms.
+This diagram is now indeed an [[(∞,1)-pullback]] by the fact that we have [[universal colimits]] in the [[(∞,1)-topos]] $\mathbf{H}_{th}$, hence that on the left the component $Y_i$ for each $i \in I$ is the [[(∞,1)-pullback]] of $\mathbf{\Pi}_{inf}(Y_i) \to \mathbf{\Pi}_{inf}(X)$, by assumption that we are taking an $(\infty,1)$-colimit over formally &#233;tale morphisms.
 
 =--
 
@@ -1501,7 +1501,7 @@ $$
 
 where we are now simply including on the left the formally &#233;tale map $(U \to X)$ along $(\mathbf{H}_{th})^{fet}_{/X} \hookrightarrow (\mathbf{H}_{th})_{/X}$.
 
-In other words, the sections of the $G$-valued flat cotangent sheaf $\mathcal{O}_X(\flat_{dR}\mathbf{B}G)$ are just the sections of $X \times \flat_{dR}\mathbf{B}G \to X$ itself, only that the _domain_ of the section is constrained to be a formally &eacute; patch of $X$.
+In other words, the sections of the $G$-valued flat cotangent sheaf $\mathcal{O}_X(\flat_{dR}\mathbf{B}G)$ are just the sections of $X \times \flat_{dR}\mathbf{B}G \to X$ itself, only that the _domain_ of the section is constrained to be a formally &#233;tale patch of $X$.
 
 But then by the very nature of $\flat_{dR}\mathbf{B}G$ it follows that the flat sections of the $G$-valued cotangent bundle of $X$ are indeed nothing but the flat $G$-valued differential forms on $X$.
 
@@ -1651,6 +1651,7 @@ $$
 Since the inclusion of the point into the interval is an op-[[final (∞,1)-functor]] we have (by [this proposition](over-%28infinity%2C1%29-category#FinalFunctorsInduceEquivalentSlices)) an [[equivalence]] of [[over-(∞,1)-categories]]
 
 $$
+
   \mathbf{H}/_{Y} \simeq \mathbf{H}/_{f} \simeq (\mathbf{H}/_{X})/_f
   \,.
 $$
@@ -1907,14 +1908,14 @@ a set of [[monomorphism in an (∞,1)-category|monomorphism]] $\{\phi_i : \mathb
 
 1. the [[Cech nerve]] of $\phi \colon \coprod_i \mathbb{A}^n \to X$ is degreewise a coproduct of copies of $\mathbb{A}^n$;
 
-1. this Cech nerve, as a [[groupoid object in an (∞,1)-category]] is a formally &eacute;tale groupoid, def. \ref{FormalEtaleGroupoid}.
+1. this Cech nerve, as a [[groupoid object in an (∞,1)-category]] is a formally &#233;tale groupoid, def. \ref{FormalEtaleGroupoid}.
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-The first condition above makes $X$ an "unseparated" manifold. The second is a formalization of the [[separated geometric morphism|separation condition]] that leads to a [[Hausdorff space|Hausdorff]] structure (since in the standard models the formal &eacute;tale maps are [[local diffeomorphisms]], hence [[open maps]]).
+The first condition above makes $X$ an "unseparated" manifold. The second is a formalization of the [[separated geometric morphism|separation condition]] that leads to a [[Hausdorff space|Hausdorff]] structure (since in the standard models the formal &#233;tale maps are [[local diffeomorphisms]], hence [[open maps]]).
 
 (...)
 
@@ -1931,7 +1932,7 @@ We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifo
 ###### Definition
 
 
-For $X$ any object in differential cohesion, its _infinitesimal disk bundle_ $T_{inf}X \to X$ is the [[homotopy pullback]]
+For $X$ any object in differential cohesion, its _infinitesimal disk bundle_ $T_{inf} X \to X$ is the [[homotopy pullback]]
 
 $$
   \array{
@@ -1963,7 +1964,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the definition of formal &eacute;talness and using the [[pasting law]] we have an equivalence of [[pasting diagrams]] of [[homotopy pullbacks]] of the following form:
+By the definition of formal &#233;talness and using the [[pasting law]] we have an equivalence of [[pasting diagrams]] of [[homotopy pullbacks]] of the following form:
 
 $$
   \array{
@@ -2011,7 +2012,7 @@ for the [[automorphism ∞-group]] of this [[formal disk]].
 +-- {: .num_remark}
 ###### Remark
 
-When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, such that $\mathbb{D}^n$ is the first order infinitesimal neighbourhood of a point, then $\mathbf{Aut}(\mathbb{D}^n)$ indeed plays the role of the [[general linear group]]. When $\mathbb{D}^n$ is instead a higher order or even the whole [[formal neighbourhood]], then $GL(n)$ is rather a [[jet bundle|jet]]-version of that. We nevertheless stick with the notation "$GL(n)$" here.
+When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, such that $\mathbb{D}^n$ is the first order [[infinitesimal neighbourhood]] of a point, then $\mathbf{Aut}(\mathbb{D}^n)$ indeed plays the role of the [[general linear group]]. When $\mathbb{D}^n$ is instead a higher order or even the whole [[formal neighbourhood]], then $GL(n)$ is rather a [[jet bundle|jet]]-version of that. For order $k$-jets this is sometimes written $GL^k(d)$ We nevertheless stick with the notation "$GL(n)$" here, consistent with the fact that we have no index on the [[infinitesimal shape modality]]. More generally one may wish to keep track of a whole tower of infinitesimal shape modalities and their induced towers of concepts discussed here.
 
 =--
 
@@ -2020,7 +2021,7 @@ By lemma \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} it follows that
 +-- {: .num_prop #FormalDiskBundleOfRegularManifoldsTrivializesOverCover}
 ###### Proposition
 
-For $X$ a manifold in the sense of def. \ref{Manifold}, such that it has an &eacute;tale atlas $\underset{i}{\coprod}\mathbb{A}^n\to X$ by regular patches, def. \ref{RegularPatch}, then its formal disk bundle canonically trivializes over its cover, i.e. there is a [[homotopy pullback]] of the form
+For $X$ a manifold in the sense of def. \ref{Manifold}, such that it has an &#233;tale atlas $\underset{i}{\coprod}\mathbb{A}^n\to X$ by regular patches, def. \ref{RegularPatch}, then its formal disk bundle canonically trivializes over its cover, i.e. there is a [[homotopy pullback]] of the form
 
 $$
   \array{
@@ -2037,12 +2038,17 @@ This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^n$-[[fiber ∞-bundle]].
 
 =--
 
-By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniuely determined $\mathbf{Aut}(\mathbb{D}^n)$-[[principal ∞-bundle]]
++-- {: .num_prop #ModulatingMapOfFormalDiskBundle}
+###### Remark
+
+By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniquely determined $\mathbf{Aut}(\mathbb{D}^n)$-[[principal ∞-bundle]].
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
 
-Given a manifold $X$ with a regular &eacute;tale cover, then its $GL(n)$-principal tangent bundle is that given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover}.
+Given a manifold $X$ with a regular &#233;tale cover, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(n)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
 
 =--
 
@@ -2470,7 +2476,7 @@ The characterization of infinitesimal extensions and formal smoothness by adjoin
 
 in the context of _[[Q-categories]]_ .
 
-The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &eacute;tale objects over a given object appears in 
+The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale objects over a given object appears in 
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
  {#Lurie}
