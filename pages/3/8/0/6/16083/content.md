@@ -31,7 +31,15 @@ The [[equations of motion]] of [[supergravity]] typically imply, or are even equ
 
 ## References
 
+The formulation of supergravity equations of motion in terms of constraints on the torsion tensor goes back to 
+
+* [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+
+A mathematical formulation in terms of [[G-structures]] on [[supermanifolds]] is given in
+
 * {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+
+See also
 
 * {#Howe97} P.S. Howe, _Weyl Superspace_ ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
