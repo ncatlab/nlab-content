@@ -96,7 +96,9 @@ A $G$-structure equipped with compatible [[connection on a bundle|connection]] d
 
 See at _[Cartan connection -- Examples -- G-structures](Cartan+connection#ExampleGStructures)_
 
-### In terms of higher differential geometry
+### In higher differential geometry
+
+#### $G$-structure on a $K$-principal bundle
 
 We give an equivalent definition of $G$-structures in terms of [[higher differential geometry]] ("from the [[nPOV]]"). This serves to clarify the slightly subtle but important difference between existence and choice of $G$-structure, and seamlessly embeds the notion into the more general context of [[twisted differential c-structures]].
 
@@ -169,6 +171,63 @@ $$
 Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[frame bundle]] $Fr(X)$ is [[modulating moprhism|modulated]] by a morphism $\tau_X \colon X \to \mathbf{B} GL(n)$ into the [[moduli stack]] for the [[general linear group]] $K := GL(n)$. Then for any group homomorphism $G \to GL(n)$, a **$G$-structure** on $X$ is a $G$-structure on $Fr(X)$, as above.
 
 =--
+
+#### $G$-Structure on an etale $\infty$-grouoid
+
+We discuss the concept in the generality of [[higher differential geometry]], formalized in [[differential cohesion]].
+
+So let $\mathbf{H}$ be a [[differential cohesive (∞,1)-topos]].
+
+Let $\mathbb{A}^n \in \mathbf{H}$ be a local model space. such that its synthetic [[frame bundle]] is trivializable and trivialized $Fr(\mathbb{A}^n) \simeq \mathbb{A}^n \times \mathbb{D}^n$  with typical fiber $\mathbb{D}^n \hookrightarrow \mathbb{A}^n$ the [[formal disk]] around any point (as determined by the [[infinitesimal shape modality]]. This may be the [[infinitesimal neighbourhood]] of a point of any order $k$, and accordingly we'll get order $k$-integrability of $G$-structures).
+
+We write
+
+$$
+  GL(n) \coloneqq \mathbf{Aut}(\mathbb{D}^n)
+$$
+
+for the [[automorphism ∞-group]] of $\mathbb{D}^n$. (When $\mathbb{D}^n$ is the first order [[infinitesimal neighbourhood]] then this is indeed the [[general linear group]], when $\mathbb{D}^n$ is rather the order-$k$ infinitesimal neighbourhood or the full [[formal neighbourhood]] for $k = \infty$, then this is rather $GL^k(n)$. )
+
+
+Let $X$ be any [[étale groupoid]] modeled on $\mathbb{A}^n$, i.e. $X \in \mathbf{H}$ and there exists a morphism $\coprod_i \mathbb{A}^n \to X$ which is [[formally étale morphism|formally étale]] and [[1-epimorphism|1-epi]].
+
+Then by the discussion at [Frame bundle -- In differential cohesion](frame+bundle#InDifferentialCohesion) the [[frame bundle]] of $X$ is [[modulating morphism|modulated]] by a morphism
+
+$$
+  \tau_X \colon X \longrightarrow \mathbf{B}GL(n)
+  \,.
+$$
+
+Now let $G \in Grp(\mathbf{H})$ be any [[∞-group]] object and $G \to GL(n)$ a [[homomorphism]], hence 
+
+$$
+  G\mathbf{struc} \colon \mathbf{B}G \to \mathbf{B}GL(n)
+$$ 
+
+any morphism.
+
+Then a _[[G-structure]]_ on $X$ is a diagram in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     X && \stackrel{\mathbf{c}}{\longrightarrow} && \mathbf{B}G
+     \\
+     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\simeq}}& \swarrow_{\mathrlap{G\mathbf{Struc}}}
+     \\
+     && \mathbf{B}GL(n)
+  }
+$$
+
+hence is a morphism
+
+$$
+  \mathbf{c} \colon \tau_X \longrightarrow G\mathbf{Struc}
+$$
+
+in the [[slice (∞,1)-topos|slice]] over $\mathbf{B}GL(n)$. In fact $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(n)}$ is the [[moduli ∞-stack]] of such $G$-structures.
+
+The double [[slice (∞,1)-topos|slice]] $(\mathbf{H}_{/\mathbf{B}GL(n)})_{/G\mathbf{Struc}}$ is the [[(∞,1)-category]] of such $G$-structures.
+
 
 ## Properties
 
