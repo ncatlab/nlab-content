@@ -51,10 +51,29 @@ $$
 what shows that the transition functions are smooth (where $GL_n(k)$ has the standard differential structure). 
 
 ### In differential cohesion
+ {#InDifferentialCohesion}
 
 Formalization of frame bundles in [[differential cohesion]] is discussed there in the section _[Differential cohesion -- Frame bundles](differential+cohesion#GLnTangentBundles)_
 
 ## Properties
+
+### The canonical differential 1-form
+ {#TheCanonical1Form}
+
+The frame bundle $Fr(X)$ carries a canonical [[differential 1-form]] with values in $\mathbb{R}^n$.
+
+$$
+  \alpha \in \Omega^1(Fr(X), \mathbb{R}^n)
+$$
+
+This is defined as follows. Let $p \in Fr(X)$ be a point in the frame bundle $\pi \colon Fr(X)\to X$ over some point $x \in X$, hence a linear isomorphism $p \colon T_x \simeq \mathbb{R}^n$. For $v \in T_p Fr(X)$ a [[tangent vector]] to the frame bundle, its projection $\pi_\ast v \in T_x X$ is a [[tangent vector]] to $X$. Then the value of $\alpha$ on $v$ is the image of this $\pi_\ast(v)$ under the isomorphism $p$
+
+$$
+  \alpha(v) \coloneqq p(\pi_\ast(v))
+  \,.
+$$
+
+([Sternberg 64, section VII, (2.2)](#Sternberg64))
 
 ### Relation to $G$-structures
 
@@ -67,7 +86,8 @@ A choice sub-bundle of a frame bundle which is a $G$-[[principal bundle]] for $G
 ## References
 
 * Wikipedia (English) [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
-* [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice Hall 1964; Russian transl. Mir 1970
+
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice Hall 1964; Russian transl. Mir 1970
 
 
 [[!redirects coframe bundle]]
