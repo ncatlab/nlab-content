@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 # Frame and coframe bundles
 * table of contents
 {: toc}
@@ -43,6 +53,16 @@ what shows that the transition functions are smooth (where $GL_n(k)$ has the sta
 ### In differential cohesion
 
 Formalization of frame bundles in [[differential cohesion]] is discussed there in the section _[Differential cohesion -- Frame bundles](differential+cohesion#GLnTangentBundles)_
+
+## Properties
+
+### Relation to $G$-structures
+
+A choice sub-bundle of a frame bundle which is a $G$-[[principal bundle]] for $G\hookrightarrow GL(n)$ defines a _[[G-structure]]_. See there for more.
+
+## Related concepts
+
+* a [[section]] of a frame bundle is also called a _[[frame field]]_.
 
 ## References
 
