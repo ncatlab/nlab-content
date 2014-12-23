@@ -67,7 +67,7 @@ which means we have a Galois connection between $f$ and $g$ under this definitio
 
 * Wojciech Dzik, Jouni J&#228;rvinen, Michiro Kondo, _Characterising intermediate tense logics in terms of Galois connections_ ([arXiv:1401.7646](http://arxiv.org/abs/1401.7646)).
 
-* M. Ern&#233;, E. Klossoswki, A. Melton, G. E. Strecker, _A primer in Galois connections_ , Annals New York Academy of Sciences **704** (1993) pp.103-125. ([draft](www.math.ksu.edu/~strecker/primer.ps))
+* M. Ern&#233;, E. Klossoswki, A. Melton, G. E. Strecker, _A primer in Galois connections_ , Annals New York Academy of Sciences **704** (1993) pp.103-125. ([draft](http://www.math.ksu.edu/~strecker/primer.ps))
 
 * O. Ore, _Galois connexions_ , Trans. AMS **55** (1944) pp.493-513. ([pdf](http://www.ams.org/journals/tran/1944-055-00/S0002-9947-1944-0010555-7/S0002-9947-1944-0010555-7.pdf))
 
