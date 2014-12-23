@@ -47,6 +47,8 @@ If the universal object $(End(d),a)$ exists then there is a unique structure of 
 
 * [[endofunction]]
 
+* [[endofunctor]]
+
 
 [[!redirects endomorphism]]
 [[!redirects endomorphisms]]
