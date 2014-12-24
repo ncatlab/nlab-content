@@ -47,7 +47,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Deferential Geometry](http://deferentialgeometry.org) -- wiki started by Garrett Lisi
 
-* [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
+* [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page) -- wiki on local and global well-posedness problems for nonlinear dispersive and wave equations
 
 * [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopedia of Mathematics 
 
@@ -99,8 +99,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [#angs@t / angs+ | antwerp noncommutative geometry seminar](http://www.noncommutative.org/) the group-blog accompanying the master-course 'seminar noncommutative geometry' given at Antwerp University (Belgium)
 
-* [A Portion of the Book](http://mzargar.wordpress.com) (blog of a math undergrad - last update January 2011)
-
 * [AMS Graduate Student Blog](http://mathgradblog.williams.edu) (career advices, education and entertainment "for and by" math grad students)
 
 * [Annoying Precision](http://qchu.wordpress.com) (algebra, representation theory, combinatorics, abstract nonsense, arithmetics)
@@ -112,8 +110,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [bit-player](http://bit-player.org/) Math/computer science blog of science writer Brian Hayes (writer for American Scientist)
  
 * [Caf&#233; Matem&#225;tico ](http://cafematematico.com/2013/02/05/statement-from-cowen-and-gallardo)
-
-* [Calculatorius] (http://www.calculatorius.com) Math lessons, articles and formulas in algebra, geometry and other math topics together with online calculators.
 
 * [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
 
@@ -157,21 +153,19 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [galoisrepresentations.wordpress.com](http://galoisrepresentations.wordpress.com) -- a number theorist's blog
 
-* [Geomblog](http://geomblog.blogspot.com/)Ruminations on computational geometry, algorithms, theoretical computer science and life
+* [Geomblog](http://geomblog.blogspot.com/) Ruminations on computational geometry, algorithms, theoretical computer science and life
 
-* [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrads Wanepoel)
+* [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrad Swanepoel)
 
 * [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari: hyperbolic geometry, geometric group theory...)
 
 * [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
 
-* [Good Math, Bad Math](http://scientopia.org/blogs/goodmath/) (dedicated to chasing math crackpots)
+* [Good Math, Bad Math](http://www.goodmath.org/blog/) (largely dedicated to chasing math crackpots; also math exposition)
 
 * [Gowers's weblog](http://gowers.wordpress.com)
 
 * [Gyre and Gimble](http://www.abstractmath.org/Word%20Press/) (Charles Wells: foundations, categories, computer science)
-
-* [Holomorphusion](http://holomorphusion.wordpress.com) (commutative algebra, algebraic geometry -- last updated April 2011)
 
 * [H&#246;chste Zeit, unsern Kurs zu &#228;ndern](http://shenme.de/blog) -- model theory of fields and commutative algebra
 
@@ -182,8 +176,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Joel David Hamkins](http://jdh.hamkins.org) "mathematics and philosophy of the infinite", foundations
 
 * [Konrad Voelkel](http://blog.konradvoelkel.de) (motivic homotopy theory, arithmetic geometry, expository articles)
-
-* [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
 
 * [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]] 
 
@@ -207,9 +199,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
 
-* [Mathematical Mischief](http://mathematicalmischief.com) Josh attempts to cover a broad range of high school topics, developing free resources and funny insights into how maths is involved in our everyday world.
-
-* [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some ideas and thoughts on (higher) category theory and $K$-theory.
+* [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some of his ideas and thoughts on (higher) category theory and $K$-theory.
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
@@ -264,9 +254,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles by Rod Carvalho)
 
-* [Research of Mathematics and Others](http://jmrresearch.wordpress.com) This blog by [[Julian Rachman]] is one that talks about his journey through higher mathematical study. 
-
-* [Rigorous Trivialities](http://rigtriv.wordpress.com) (mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning)--last updated April 2011)
+* [Rigorous Trivialities](http://rigtriv.wordpress.com) (mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning) -- recently reactivated after inactivity starting in 2011)
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
@@ -383,8 +371,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 ### Blogs
 
 * [Mathematics in Australia](http://austmaths.wordpress.com)
-
-* [Nonoscience](http://nonoscience.wordpress.com)
 
 * [Numb3rs](http://www.atsweb.neu.edu/math/cp/blog)
 
