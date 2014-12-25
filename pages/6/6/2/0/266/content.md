@@ -528,7 +528,7 @@ The most prominent example of absolute Kan extensions is given by [[adjoint func
 
 #### absolute vs pointwise
 
-Absolute Kan extensions are always pointwise, as the later can be defined as those preserved by representables; there are (lots of) examples of pointwise Kan extensions which are not absolute.
+Absolute Kan extensions are always pointwise, as the latter can be defined as those preserved by representables; there are (lots of) examples of pointwise Kan extensions which are not absolute.
 
 Note that in a general 2-category, absolute Kan extensions make perfect sense, while for defining pointwise ones more structure is needed: [[comma object|comma objects]] and/or some structure which would let us work with (co)limits _inside_ that 2-category (such as a [[Yoneda structure|(co)Yoneda structure]] or a [[2-category equipped with proarrows|proarrow equipment]]).
 
