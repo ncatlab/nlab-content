@@ -1975,7 +1975,7 @@ $$
   \;\;\;
 $$
 
-Here the [[action functional]] on the right  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
+Here the [[action functional]] on the right sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
 to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$ under the [[group character]].
 
 =--
