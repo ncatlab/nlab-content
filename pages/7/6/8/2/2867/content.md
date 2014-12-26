@@ -377,7 +377,12 @@ More discussion is in
 
 * David Oury, _On the duality between trees and disks_, TAC vol. 24 ([pdf](http://www.tac.mta.ca/tac/volumes/24/16/24-16.pdf))
 
-Discussion of its embedding into strict $n$-categories is in 
+The following paper proves that $\Theta$ is a test category
+
+* [[Denis-Charles Cisinski]], [[Georges Maltsiniotis]], _La cat&#233;gorie $\Theta$ de Joyal est une cat&#233;gorie test_ , JPAA **215** no.5 (2011) pp.962-982. ([draft](webusers.imj-prg.fr/~georges.maltsiniotis/ps/dec_web.pdf))
+&#8206;
+
+Discussion of embedding of $\Theta$ into strict $n$-categories is in 
 
 * [[Michael Batanin]], [[Ross Street]], _The universal property of the multitude of trees_, J. Pure Appl. Alg. 154 (2000), 3&#8211;13.
  {#BataninStreet}
