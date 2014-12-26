@@ -9,6 +9,41 @@
 
 The _Grothendieck-Teichm&#252;ller tower_ construction involves [[moduli spaces]] outlined in [[Grothendieck]]'s _[[Esquisse d'un programme]]_ and then developed by [[Vladimir Drinfel'd]] and others. It involves the [[Teichmüller groupoids]] which are the [[fundamental groupoids]] of [[moduli stacks]] of [[genus]] $g$ [[curves]] with $n$ points removed. It is a basis for the definition of the _Grothendieck-Teichm&#252;ller group_ which is by the definition inertia-preserving [[automorphism group]] of the Grothendieck-Teichm&#252;ller tower. 
 
+## Definitions
+
+...
+
+### Grothendieck-Teichm&#252;ller Lie algebra
+
+GT Lie algebra appears as the tangent Lie algebra to the GT group.
+
+Drinfel'd defined it more explicitly as follows. 
+
+Let $\mathrak{lie}_n$ be the degree completion of the [[free Lie algebra]] on $n$-generators over a fixed ground field $K$ of characteristic $0$. 
+Let $\mathfrak{der}_n$ be the space of $K$-linear derivations $\mathfrak{lie}_n\to
+\mathfrak{lie}_n$. A derivation $u\in\mathfrak{der}_n$ is __tangential__ if there exist
+$a_i\in\mathfrak{lie}_n$ for $i=1,\ldots,n$, such that $u(x_i)=[x_i,a_i]$. In particular, $u$ is determined by elements $a_1,\ldots,a_n$ and is below denoted
+by $(a_1,\ldots,a_n)$. The tangential derivations form a Lie subalgebra
+$\mathfrak{tder}_n\subset\mathfrak{der}_n$. The __GT Lie algebra__ is the subspace
+$\mathfrak{grt}\subset\mathfrak{tder}_2$ consisting of the tangential derivations
+of the form $(0,\psi)$, where the identities
+$$
+\psi(x,y)=-\psi(y,x),\,\,\,for\,\,\,all\,\,\,x,y,
+$$
+$$
+\psi(x,y)+\psi(y,z)+\psi(z,x) = 0,\,\,\,whenever\,\,\,\,x+y+z=0,
+$$
+and the pentagon-type identity
+$$
+\psi(t^{1,2},t^{2,34})+\psi(t^{12,3},t^{3,4})=
+\psi(t^{2,3},t^{3,4})+\psi(t^{1,23},t^{23,4})+\psi(t^{1,2},t^{2,3}),
+$$
+hold, and which is equipped with the __Ihara Lie bracket__
+$$
+[\psi_1,\psi_2]_{Ihara} = (0,\psi_1)(\psi_2)-(0,\psi_2)(\psi_1)+[\psi_1,\psi_2].
+$$
+
+
 ## Properties
 
 ### Relation to Drinfeld associators
@@ -29,6 +64,8 @@ There is an inclusion of the [[absolute Galois group]] of the [[rational numbers
 ### Relation to the motivic Galois group
 
 The Grothendieck-Teichm&#252;ller group is supposed to be a [[quotient]] of the [[motivic Galois group]]. This is a conjecture due to ([Drinfeld 91](#Drinfeld91)). 
+
+
 
 ### Relation to the graph complex
  {#RelationToTheGraphComplex}
@@ -79,22 +116,21 @@ The following monograph is in progress:
 * Newton Instititute Programme Jan-April 2013: Grothendieck-Teichm&#252;ller Groups, Deformation and Operads, [seminars](http://www.newton.ac.uk/programmes/GDO/seminars/index.html) (some with videos)
 
 
-### Relation to motivic Galois group
+## References
 
 The Drinfeld conjeture is stated in
 
 * [[Vladimir Drinfel'd]], _On quasi-triangular Quasi-Hopf algebras and a group closely related with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$, Leningrad Math. J., 2 (1991), 829 - 860.
  {#Drinfeld91}
 
-### Relation to the graph complex
+Relation to the graph complex
 
 * [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_ ([arXiv:1009.1654](http://arxiv.org/abs/1009.1654))
  {#Willwacher10}
 
-## References
-
 * {#Stix04} [[Jakob Stix]], _The Grothendieck-Teichm&#252;ller group and Galois theory of the rational numbers_, 2004 ([[StiXGaloisAndGT.pdf:file]])
 
+* [[Anton Alekseev]], Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [arxiv/0802.4300](http://arxiv.org/abs/0802.4300)
 
 [[!redirects Grothendieck-Teichmueller tower]]
 [[!redirects Grothendieck-Teichmüller group]]
