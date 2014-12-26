@@ -28,7 +28,7 @@ These are both orthocomplemented:
 
 ## Related concepts
 
-* [[orthomadular lattice]]
+* [[orthomodular lattice]]
 
 ## References
 
