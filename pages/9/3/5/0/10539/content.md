@@ -30,6 +30,9 @@ A _symplectic integrator_ is a numerical discretization scheme for solving [[Ham
 * A. Lew, J. E. Marsden, M. Ortiz, M. West, _An overview of variational integrators_, In L. P. Franca (ed.), Finite Element Methods: 70's and Beyond. Barcelona (2003).
 * Jerrold E. Marsden, George W. Patrick, Steve Shkoller, _Multisymplectic geometry, variational integrators, and nonlinear PDEs_, Commun. Math. Physics __199__:2 (1998) 351-395 [math.DG/9807080](http://arxiv.org/abs/math/9807080), [doi](http://dx.doi.org/10.1007/s002200050505)
 * Fran&#231;ois Demoures, Fran&#231;ois Gay-Balmaz, Tudor S. Ratiu, _Multisymplectic variational integrators and space/time symplecticity_, [arxiv/1310.4772](http://arxiv.org/abs/1310.4772)
+* Ernst Hairer, _Backward analysis of numerical integrators and symplectic methods_, [ps](www.unige.ch/~hairer/preprints/symplect.ps)
+* Sebastian Reich, _Backward error analysis for numerical integrators_, SIAM J. Numer. Anal. 36, 1549--1570, 1996 [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.6972)
+* Y. B. Suris, _Hamiltonian Runge-Kutta type methods and their variational formulation_ (1990)
 
 category: applications
 [[!redirects multisymplectic integrator]]
