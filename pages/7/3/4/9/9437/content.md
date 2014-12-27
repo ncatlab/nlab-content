@@ -74,7 +74,7 @@ Suppose that $V$ is $\kappa$-[[compact object]] for some [[cardinal]] $\kappa$. 
 
 $$
   \array{
-     V &\longrightarrow& V/G &\longrightarrow& &\longrightarrow& \widehat{Obj}_\kappa
+     V &\longrightarrow& V/G &\longrightarrow& V/\mathbf{Aut}(V) &\longrightarrow& \widehat{Obj}_\kappa
      \\
      && \downarrow && \downarrow && \downarrow
      \\
