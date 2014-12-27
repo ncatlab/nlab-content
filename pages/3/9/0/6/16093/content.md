@@ -1,0 +1,8 @@
+* [web page](http://www.mathematik.uni-osnabrueck.de/forschung/ag_topologie_und_geometrie/roendigs_oliver.html)
+* [MathSciNet](http://ams.math.uni-bielefeld.de/mathscinet/search/publications.html?pg4=AUCN&s4=R%22ondigs%2C+O.&co4=OR&pg5=ICN&s5=R%22ondigs%2C+Oliver)
+* [math genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=86729)
+
+## Related topics
+
+* [[motivic homotopy theory]]
+* [[algebraic cobordism]]
