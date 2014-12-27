@@ -17,7 +17,7 @@
 
 A [[Lie groupoid]] is said to be _effective_ if its morphisms act locally freely, in a sense.
 
-Beware that this use of the term is entirely independent of "effective" in the sense of Giraud's axuioms, as discussed are [[groupoid object in an (infinity,1)-category]].
+(Beware that this use of the term is entirely independent of "effective" in the sense of [[Giraud theorem|Giraud's axioms]], as discussed are [[groupoid object in an (infinity,1)-category]].)
 
 ## Definition
 
@@ -43,4 +43,10 @@ The Lie groupoid $X$ is called _effective_ if this assignment of morphisms to ge
 
 ## References
 
+A standard textbook aacount is in
+
 * [[Ieke Moerdijk]], Janez Mr&#269;un _Introduction to Foliations and Lie Groupoids_ ,Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
+
+Discussion in a more general context of [[étale stacks]] is in
+
+* {#Carchedi12} [[David Carchedi]], _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
