@@ -7,7 +7,7 @@
 
 A kind of [[singular point of an algebraic variety|singularity]].
 
-For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
+For [[elliptic curves]] see at _[elliptic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
 
 ## Related concepts
 
