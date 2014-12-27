@@ -6,5 +6,7 @@
 
 
 [[!redirects Gysin maps]]
-
-
+[[!redirects Gysin morphism]]
+[[!redirects Gysin morphisms]]
+[[!redirects Gysin homomorphism]]
+[[!redirects Gysin homomorphisms]]
