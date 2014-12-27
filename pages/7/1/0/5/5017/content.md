@@ -19,7 +19,9 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$, the **Haefliger groupoid** $\Gamma^n$ is the [[groupoid]] whose set of [[objects]] is the [[Cartesian space]] $\mathbb{R}^n$ and for which a [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^n ,x) \to (\mathbb{R}^n ,y)$.
+For $n \in \mathbb{N}$, the **Haefliger groupoid** $\Gamma^n$ is the [[Lie groupoid]] whose set of [[objects]] is the [[Cartesian space]] $\mathbb{R}^n$ and for which a [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^n ,x) \to (\mathbb{R}^n ,y)$.
+
+The [[smooth stack]] represented by the Haefliger gorupoid is the _Haefliger stack_.
 
 ## Properties
 
