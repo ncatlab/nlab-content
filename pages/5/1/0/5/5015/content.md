@@ -72,6 +72,19 @@ This is ([Crainic-Moerdijk 00, theorem 1](#CrainicMoerdijk)).
 In the literature one finds, roughly speaking, two different approaches to the study of &#233;tale groupoids. One approach is based on the construction of the convolution algebras associated to an &#233;tale groupoid, in the spirit of Connes' [[noncommutative geometry]], and involves the study of [[cyclic homology|cyclic]] and [[Hochschild homology]] and [[Hochschild cohomology|cohomology]] of these algebras. The other approach uses methods of algebraic topology such as the construction of the [[classifying space]] of an
 &#233;tale groupoid and its [[abelian sheaf cohomology|(sheaf) cohomology groups]].
 
+### Relation to Haefliger groupoids
+ {#RelationToHaefligerGroupoids}
+
+For $X_\bullet$ an &#233;tale groupoid, there is a canonical morphism
+
+$$
+  X_\bullet \longrightarrow \mathcal{H}(X_0) 
+$$
+
+to the [[Haefliger groupoid]], example \ref{HaefligerGroupoid}, of its manifold of objects. The [[kernel]] of this map is the _ineffective part_ of $X_\bullet$. If the kernel vanishes, then $X$ is called an [[effective Lie groupoid]].
+
+(e.g. [Carchedi 12, section 2.2](Carchedi12))
+
 ### Characterization by convolution Hopf algebroids (Gelfand duality)
  {#GelfandDuality}
 
@@ -126,16 +139,37 @@ See at _[[differential cohesion]]_ the section _[Etale objects](http://ncatlab.o
 &#201;tale groupoids arise naturally as models for [[leaf spaces]] of [[foliations]], for [[orbifold]]s, and for [[orbit spaces]] of [[discrete group]] [[actions]].
 
 
-* Every [[topological space]] may be regarded as an &#233;tale groupoid with only identity morphisms.
++-- {: .num_example}
+###### Example
 
-* For $X$ a [[topological space]] and $\Gamma$ a [[discrete group]] with a continuous [[action]] $X \times \Gamma \to X$ on $X$, the [[action groupoid]] $X//\Gamma$ is &#233;tale.
+Every [[topological space]] may be regarded as an &#233;tale groupoid with only identity morphisms.
 
-* The [[Haefliger groupoid]] $\Gamma^q$ has the [[Cartesian space]] $\mathbb{R}^q$ as its space of objects. A [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^q,x) \to (\mathbb{R}^q, y)$.
+=--
 
-  This groupoid, and its [[geometric realization]] play a central role in [[foliation theory]].
++-- {: .num_example}
+###### Example
 
-* Every [[orbifold]] is an &#233;tale [[Lie groupoid]].
 
+For $X$ a [[topological space]] and $\Gamma$ a [[discrete group]] with a continuous [[action]] $X \times \Gamma \to X$ on $X$, the [[action groupoid]] $X//\Gamma$ is &#233;tale.
+
+=--
+
++-- {: .num_example #HaefligerGroupoid}
+###### Example
+
+
+The [[Haefliger groupoid]] $\Gamma^q$ has the [[Cartesian space]] $\mathbb{R}^q$ as its space of objects. A [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^q,x) \to (\mathbb{R}^q, y)$.
+
+This groupoid, and its [[geometric realization]] play a central role in [[foliation theory]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[orbifold]] is an &#233;tale [[Lie groupoid]].
+
+=--
 ## Related concepts
 
 * [[étale space]]
