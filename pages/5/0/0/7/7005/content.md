@@ -263,8 +263,11 @@ An accessible account of Voevodsky's proof that the universal [[Kan fibration]] 
 
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
-* [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www.pitt.edu/~krk56/fiber_bundles_univalence.pdf))
- {#Moerdijk}
+* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www.pitt.edu/~krk56/fiber_bundles_univalence.pdf))
+ 
+See also 
+
+* [[Colin McLarty]], _A univalent universe in finite order arithmetic_ ([arXiv:1412.6714](http://arxiv.org/abs/1412.6714))
 
 The [[HoTT]]-[[Coq]] code is at
 
