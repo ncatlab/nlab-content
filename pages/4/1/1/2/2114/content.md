@@ -21,7 +21,7 @@ Historically, there were several formalisms of various schools including the Ita
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either quasiprojective varity or abstract variety (in the sense of Serre). Quasiprojective unify affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either quasiprojective variety or abstract variety (in the sense of Serre). Quasiprojective unify affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
 
 
 * an embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
@@ -32,7 +32,7 @@ Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usuall
 
 * Embedded __quasiaffine__ $k$-varieties are Zariski-open subspaces of affine $k$-varieties. 
 
-* Embedded __quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. We can remove the embedding by equipping them with the shaef of regular functions and therefore considering them as [[locally ringed space]]s. In the category of locally ringed spaces, projective, affine, and quasiaffine varieties are (isomorphic to) special cases of quasiprojective. Alternatively, we can put all 4 classes without sheaves into a category, by defining regular maps directly, and we get an isomorphic category of varieties.
+* Embedded __quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. We can remove the embedding by equipping them with the sheaf of regular functions and therefore considering them as [[locally ringed space]]s. In the category of locally ringed spaces, projective, affine, and quasiaffine varieties are (isomorphic to) special cases of quasiprojective. Alternatively, we can put all 4 classes without sheaves into a category, by defining regular maps directly, and we get an isomorphic category of varieties.
 
   In fact, by noticing that the affine $k$-space is Zariski open in a projective space of the same dimension, we see that the quasiprojective case includes all others. 
 
