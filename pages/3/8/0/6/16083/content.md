@@ -39,6 +39,11 @@ A mathematical formulation in terms of [[G-structures]] on [[supermanifolds]] is
 
 * {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
+which is followed up in
+
+* Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, _J.Geom.Phys. 62 (2012) 53-60_ ([spire](http://inspirehep.net/record/1333125))
+
+
 See also
 
 * {#Howe97} P.S. Howe, _Weyl Superspace_ ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
