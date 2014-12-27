@@ -79,6 +79,7 @@ The [[groupoid convolution algebra]] $C^\ast(\mathcal{G}_\bullet)$ of a [[Lie gr
 In ([Mr&#269;un 99](#Mrcun99), [Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun07)) &#233;tale Lie groupoids are characterized dually by their Hopf algebroids  (a refinement of [[Gelfand duality]] to [[noncommutative topology]]).
 
 ### Characterization by site of manifolds and &#233;tale maps
+ {#CharacterizationBySiteOfManifolds}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -87,9 +88,9 @@ The [[2-category]] of [[étale stacks]] with [[étale maps]] between them is equ
 
 =--
 
-([Carchedi 12, therem 3.4, corollary 3.3](Carchedi12))
+([Carchedi 12, theorem 3.4, corollary 3.3](Carchedi12))
 
-+-- {: .num_prop}
++-- {: .num_prop #EtaleStackAsProlongations}
 ###### Proposition
 
 A [[smooth stack]] is an &#233;tale stack precisely if it is in the [[essential image]] of the [[left Kan extension]] along the non-full inclusion of [[sites]]
@@ -102,8 +103,18 @@ of [[smooth manifolds]], with [[local diffeomorphisms]] on the left and all [[sm
 
 =--
 
-([Carchedi 12, therem 3.5, corollary 3.4](Carchedi12))
+([Carchedi 12, theorem 3.5, corollary 3.4](Carchedi12))
 
+In particular:
+
++-- {: .num_prop}
+###### Proposition
+
+A [[smooth stack]] is an [[effective Lie groupoid|effective]] &#233;tale stack precisely if under the prolongation of prop. \ref{EtaleStackAsProlongations} it is equivalent to the image of a [[sheaf]] (i.e. of a [[0-truncated]] stack).
+
+=--
+
+([Carchedi 12, corollary 4.1, corollary 4.2](Carchedi12))
 
 ### Formalization in differential cohesion
  {#FormalizationInDifferentialCohesion}
