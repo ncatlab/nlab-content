@@ -6,7 +6,7 @@
 
 A  [[groupoid]] [[presented stack|presenting]] an [[orbifold]] (as a [[stack]]) is called an **orbifold groupoid** if it satisfies certain properties. Since in the literature there are different notions of orbifolds, there are different sets of properties the presenting groupoids are required to satisfy.
 
-The most common definition requires the presenting groupoid to be &#233;tale and proper. Note that these properties can be defined not only in smooth- or topological context. See for the moment [[open map]], the section on infinitesimal cohesion in [[cohesive (infinity,1)-topos]], and [[proper geometric morphism]].
+The most common definition requires the presenting groupoid to be [[étale groupoid|étale]] and [[proper groupoid|proper]]. Note that these properties can be defined not only in smooth- or topological context. See for the moment [[open map]], the section on infinitesimal cohesion in [[cohesive (infinity,1)-topos]], and [[proper geometric morphism]].
 
 
 
