@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -34,6 +46,13 @@ Commonly used choices for $X$ in def. \ref{Pseudogroup} include
 
 More generally, an abstract pseudogroup is a sub-[[inverse semigroup]] of the inverse semigroup of partial bijections of a set (or, even more generally, local automorphisms of an object in more general context).
 
+## Properties
+
+### Relation to effective &#233;tale stacks
+
+In the language of [[topological groupoids]]/[[Lie groupoids]] and their associated [[geometric stacks]], pseudogroups correspond to [[effective Lie groupoid|effective]] [[étale stacks]]. See ([Carchedi 12, section 2](#Carchedi12)).
+
+
 ## Related concepts
 
 * [[manifold]]
@@ -52,7 +71,7 @@ The concept was introduced in
 
 Discussion in the broader context of [[étale groupoids]]/[[étale stacks]] is in 
 
-* {#Carchedi12} [[David Carchedi]], _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+* {#Carchedi12} [[David Carchedi]], section 2 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
 
 See also
 
