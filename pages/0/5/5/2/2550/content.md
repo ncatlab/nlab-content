@@ -404,15 +404,7 @@ The stable (∞,1)-category of $H(\mathbb{Q})$-[[modules]] is equivalent to the 
 
 ### Algebraic K-theory
 
-Suppose that $S$ is a [[regular scheme]]. Then there exists a motivic $\mathbb{P}^1$-spectrum $KGL$ with the property that, for every $X\in Sm/S$,
-
-$$ KGL^{p,q}(X) = K_{2q-p}(X), $$
-
-where $K_*(X)$ are the [[algebraic K-theory]] groups of $X$ defined by [[Daniel Quillen|Quillen]]. In particular, $KGL$-cohomology is $(2,1)$-periodic: this is _Bott periodicity_ for algebraic K-theory.
-
-The multiplicative structure of algebaric K-theory makes $KGL$ into a ring spectrum (up to homotopy), which comes from a unique structure of $E_\infty$-algebra (see [Naumann-Spitzweck-Ostvaer](#NSO11)).
-
-Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it represents Weibel's homotopy invariant version of [[algebraic K-theory]] (see [Cisinski13](#Cis13)).
+See [[algebraic K-theory spectrum]].
 
 ### Algebraic cobordism
  {#AlgebraicCobordism}
@@ -421,11 +413,6 @@ See [[algebraic cobordism]].
 
 ### References
 
-* [[Niko Naumann]], [[Markus Spitzweck]], [[Paul Arne Østvær]], _Existence and uniqueness of E-infinity structures on motivic K-theory spectra_, ([arXiv](http://arxiv.org/abs/1010.3944))
-{#NSO11}
-
-* [[Denis-Charles Cisinski]], _Descente par &#233;clatements en K-th&#233;orie invariante par homotopie_, Ann. of Math. (2) 177 (2013), no. 2, pp. 425&#8211;448 ([pdf](http://hal.archives-ouvertes.fr/docs/00/52/56/40/PDF/descente3.pdf))
-{#Cis13}
 
 * [[Aravind Asok]], [[Fabien Morel]], _Smooth varieties up to A1-homotopy and algebraic h-cobordisms_, Adv. Math. 227 (5) (2011),  pp. 1990-2058 ([arXiv](http://arxiv.org/abs/0810.0324))
 {#AsokMorel}
