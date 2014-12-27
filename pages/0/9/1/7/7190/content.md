@@ -120,6 +120,7 @@ The pullback of a tidy geometric morphism is again tidy.
 
 =--
 
+
 ([VM, theorem 5.8](#MoerdijkVermeulen))
 
 ### Properness and Beck-Chevalley conditions
@@ -341,6 +342,11 @@ out of the [[slice topos]] is a proper geometric morphism. And precisely if $X$ 
 
 ([Moerdijk-Vermeulen, examples III 1.4](#MoerdijkVermeulen))
 
+### Geometric stacks
+ {#GeometricStacks}
+
+A typical condition on a  [[geometric stack]] to qualify as an [[orbifold]]/[[Deligne-Mumford stack]] is that its [[diagonal]] be proper. This is equivalent to the corresponding map of toposes being a proper geometric morphism (e.g. [Carchedi 12, section 2](#Carchedi12), [Lurie Spectral, section 3](#LurieSpectral)). 
+
 ## Related concepts
 
 * [[separated geometric morphism]], [[Hausdorff topos]]
@@ -364,9 +370,14 @@ A textbook account is in section C3.2 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+
+Discussion with relation to properness of [[geometric stacks]] includes
+
+* {#Carchedi12} [[David Carchedi]], section 2 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
 Discussion of higher compactness conditions in [[(∞,1)-topos theory]] is in section 3 of 
 
-* [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
+* {#LurieSpectral} [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
 
 and in section 2.3 of 
 
@@ -375,6 +386,7 @@ and in section 2.3 of
 and for the special case of [[spectral Deligne-Mumford stacks]] in section 1.4 of
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 
 
 
