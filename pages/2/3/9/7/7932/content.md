@@ -951,6 +951,10 @@ of $\infty$-actions is the _[[Borel model structure]]_ ([DDK 80](#DDK80)).
 
 * [[action]], **$\infty$-action**
 
+  * [[faithful ∞-action]]
+
+  * [[stabilizer ∞-group]]
+
 * [[module]], [[∞-module]]
 
 * [[representation]], [[∞-representation]]
