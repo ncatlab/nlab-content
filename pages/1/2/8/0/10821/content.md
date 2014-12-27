@@ -7,7 +7,7 @@
 
 An [[algebraic variety]] $X \hookrightarrow \mathbb{A}^n$ defined as the [[zero locus]] of [[polynomials]] $\{f^i \in R[x_1, \cdots, x_n]\}$ is _singular_ at a point $p$, if the [[Jacobian matrix]] of first [[derivatives]] at this point has [[rank]] lower than at other points.
 
-A variety is called _singular_ if it ha at least one singular point and _non-singular_ if it has none.
+A variety is called _singular_ if it has at least one singular point and _non-singular_ if it has none.
 
 ## Examples
 
