@@ -50,7 +50,7 @@ More generally, an abstract pseudogroup is a sub-[[inverse semigroup]] of the in
 
 ### Relation to effective &#233;tale stacks
 
-In the language of [[topological groupoids]]/[[Lie groupoids]] and their associated [[geometric stacks]], pseudogroups correspond to [[effective Lie groupoid|effective]] [[étale stacks]]. See ([Carchedi 12, section 2](#Carchedi12)).
+In the language of [[topological groupoids]]/[[Lie groupoids]] and their associated [[geometric stacks]], pseudogroups correspond to [[effective Lie groupoid|effective]] [[étale stacks]].  ([Lawson-Lenz 11](#LawsonLenz11), [Carchedi 12, section 2](#Carchedi12)).
 
 
 ## Related concepts
@@ -66,12 +66,28 @@ The concept was introduced in
 
 * {#Cartan09} [[Élie Cartan]], _Les groupes de transformations continus, infinis, simples_. Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure 26: 93&#8211;161, 1909 ([Numdam](http://www.numdam.org/item?id=ASENS_1909_3_26__93_0))
 
-
 * {#Golab39} St. Golab, _&#220;ber den Begriff der "Pseudogruppe von Transformationen"_ Mathematische Annalen 116: 768&#8211;780 (1939)
 
-Discussion in the broader context of [[étale groupoids]]/[[étale stacks]] is in 
+The history of the concept is reviewed in 
+
+* B. L. Reinhart
+
+who attributes the term "pseudogroup" to 
+
+* Veblen, Whitehead 1932
+
+
+The relation of pseudogroups to [[Lie groupoids]] originates with Haefliger, see at _[[Haefliger groupoid]]_. 
+
+Further discussion of the relation of psuedogroups to [[étale groupoids]]/[[étale stacks]] includes
+
+* {#LawsonLenz11} [[Mark Lawson]], [[Daniel Lenz]], _Pseudogroups and their &#233;tale groupoids_ ([arXiv:1107.5511](http://arxiv.org/abs/1107.5511))
 
 * {#Carchedi12} [[David Carchedi]], section 2 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
+A textbook account is in 
+
+* Alan Paterson, _Groupoids, Inverse Semigroups, and their Operator Algebras_
 
 See also
 
