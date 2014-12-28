@@ -1,10 +1,21 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 ## Idea
 
 _Homotopical algebraic geometry_ is a [[homotopy theory|homotopical]] generalization of [[algebraic geometry]], where the [[affine schemes]] are not necessarily [[commutative algebras]] in the usual sense, but rather [[commutative algebra in an (∞,1)-category|commutative algebra objects]] in an arbitrary [[symmetric monoidal (infinity,1)-category]].
+In other words, it is the specialization of [[higher geometry]] where the local models are [[commutative algebra in an (∞,1)-category|commutative algebras]] in a [[symmetric monoidal (infinity,1)-category]].
 
-Interesting examples are when one starts with
+Interesting examples can be obtained by starting with
 
-* the ordinary category of [[sets]] (yield ordinary [[algebraic geometry]])
+* the ordinary category of [[sets]] (yielding ordinary [[algebraic geometry]])
 * the [[(infinity,1)-category]] of [[simplicial commutative rings]] (yielding [[derived algebraic geometry]]),
 * the [[(infinity,1)-category of spectra]] (yielding [[spectral algebraic geometry]]).
 
