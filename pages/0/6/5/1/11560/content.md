@@ -26,8 +26,6 @@ Hence it is a generalization of ordinary [[algebraic geometry]] where instead of
 
 ### Elliptic cohomology
 
-1.  Universal [[elliptic cohomology]] ([[topological modular forms]]).  See [below](#elliptic_cohomology_29).
-
 Historically, the first application of spectral algebraic geometry was in the study of [[elliptic cohomology]] and [[topological modular forms]].  In particular it allowed the construction and study of the [[tmf]] [[spectrum]] as a certain [[derived moduli stack]] of [[derived elliptic curves]]. This construction is based on the [[Artin-Lurie representability theorem]].  See
 
 * [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
