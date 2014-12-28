@@ -167,6 +167,10 @@ The following contains a careful discussion of the incompleteness theorem in the
 
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
+A _bref survol technique_ of G&#246;del's theorem within the landscape of Hilbert's program can be found in the first chapters of
+
+* [[Jean-Yves Girard]], _Le point aveugle I_ , Hermann Paris 2006. ([chapters 1-2](iml.univ-mrs.fr/~girard/cours/hermann.pdf.gz))
+
 See also 
 
 * Maria Maietti, _Joyal's arithmetic universe as List-Arithmetic Pretopos_ ([pdf](http://www.math.unipd.it/~maietti/papers/jartac.pdf))
