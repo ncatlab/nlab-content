@@ -4,5 +4,16 @@ Mark Lawson is senior lecturer at Heriot-Watt University, Edinburgh.  He has pub
 
 * [homepage](http://www.ma.hw.ac.uk/~markl/)
 
+* [Heriot-Watt departmental webpage](http://www.macs.hw.ac.uk/staff-directory/mark-lawson.htm)
+
+## related $n$Lab entries
+
+* [[inverse semigroup]]
+
+* [[pseudogroup]]
+
+
+
 category:people
 [[!redirects M. V. Lawson]]
+[[!redirects Mark Lawson]]
