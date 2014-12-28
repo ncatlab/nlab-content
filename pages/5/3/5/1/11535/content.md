@@ -7,7 +7,11 @@ More generally, though, what I'm interested in is studying the following interes
 
 More precisely, I'm interested in creating a study of [[stable (infinity,1)-category|stable ∞-categories]], analagous to the already-conducted study of [[spectra]]. I'm also very interested in [[derived algebraic geometry|derived]] and [[spectral algebraic geometry]].
 
-**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (however, I'd prefer the first).
+**Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (however, I'd prefer the first). I'm also on MathOverflow:
+<br>
+<a href="http://mathoverflow.net/users/62675/ring-spectra">
+<img src="http://mathoverflow.net/users/flair/62675.png?theme=clean" width="208" height="58" alt="profile for Ring Spectra at MathOverflow, Q&amp;A for professional mathematicians" title="profile for Ring Spectra at MathOverflow, Q&amp;A for professional mathematicians">
+</a>
 
 My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems in Homotopy Theory_](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/Sanath+Devalapurkar), and [nlab page](http://ncatlab.org/nlab/show/Sanath+Devalapurkar). I think I'll be updating the first more regularly than the others.
 <hr>
