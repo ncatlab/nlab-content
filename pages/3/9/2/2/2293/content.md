@@ -20,11 +20,14 @@
 
 ## Idea
 
-Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]], or equivalently when working over a base [[field]] of [[characteristic zero]], [[nonpositive|nonpositively]] [[graded]] [[dg-algebra|commutative dg-rings]].  The fundamentals of the subject have been developed by [[Bertrand Toen]] and [[Gabriele Vezzosi]], and by [[Jacob Lurie]].
+_Derived algebraic geometry_ is the theory of [[homotopical algebraic geometry]] specialized to the [[(infinity,1)-category]] of [[simplicial commutative rings]] (or sometimes, coconnective commutative [[dg-algebras]]).
+Hence it is a generalization of ordinary [[algebraic geometry]] where instead of [[commutative rings]], [[derived schemes]] are locally modelled on [[simplicial commutative rings]].
 
-In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]], satisfying a [[descent]] condition.  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Carlos Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as a further step in this progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]].  This is motivated by classical concerns involving [[intersection theory]] and [[deformation theory]], see below.
+Derived algebraic geometry is the correct setting for certain problems arising in [[algebraic geometry]] that involve [[intersection theory]] and [[deformation theory]] (see below).
 
-Sometimes the term _derived algebraic geometry_ is also used for the related subject of [[spectral algebraic geometry]], where [[E-infinity rings]] are used instead of [[simplicial rings]].  _Derived algebraic geometry_ may also refer to the study of [[derived categories of coherent sheaves]] on [[varieties]] as studied in [[derived noncommutative algebraic geometry|noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]].
+## Terminology
+
+Sometimes the term _derived algebraic geometry_ is also used for the related subject of [[spectral algebraic geometry]], where [[commutative ring spectra]] are used instead of [[simplicial commutative rings]].  Sometimes it may also refer to the subject of [[derived noncommutative algebraic geometry]].
 
 ## Motivation
 
@@ -32,11 +35,9 @@ There are several motivations for the study of derived algebraic geometry.
 
 1.  The [[hidden smoothness principle]] of [[Maxim Kontsevich]], which conjectures that in classical [[algebraic geometry]], the non-[[smoothness]] of certain [[moduli spaces]] is a consequence of the fact that they are in fact truncations of [[derived moduli stacks]] (which are [[smooth]]).
 
-1.  Universal [[elliptic cohomology]] ([[topological modular forms]]).  See [below](#elliptic_cohomology_29).
+1.  [[intersection theory|Intersection theory]]: a [[geometric]] interpretation of the [[Serre intersection formula]] for non-flat [[intersections]].
 
-1.  [[Intersection theory]]: a [[geometric]] interpretation of the [[Serre intersection formula]] for non-[[flat]] [[intersections]].
-
-1.  [[Deformation theory]]: a [[geometric]] interpretation of the [[cotangent complex]].  (In derived algebraic geometry, the [[cotangent complex]] $\mathbf{L}_X$ of $X$ _is_ its [[cotangent space]].
+1.  [[deformation theory|Deformation theory]]: a [[geometric]] interpretation of the [[cotangent complex]].  (In derived algebraic geometry, the [[cotangent complex]] $\mathbf{L}_X$ of $X$ _is_ its [[cotangent space]].
 
 For more detail on the final two points, see [(Vezzosi, 2011)](#VezzosiWhatIs).
 
@@ -83,14 +84,6 @@ In this fashion then in [[derived noncommutative algebraic geometry]], a [[space
   $$ Pf : \DSt(k)^{op} \rightleftarrows NCSp(k) : \mathcal{M}_- $$
 where $Pf(X)$ denotes the [[dg-category]] of [[perfect complexes]] on the [[derived stack]] $X$, and $\mathcal{M}_\mathcal{C}$ denotes the [[derived moduli stack of objects in a dg-category|derived moduli stack of objects]] in the [[dg-category]] $\mathcal{C}$.  See [[derived moduli stack of objects in a dg-category]] for details.
 
-## Applications 
-
-### Elliptic cohomology
-
-More recent big success of derived algebraic geometry locally modeled on $E_\infty$-rings was [[elliptic cohomology]] and the construction and study of the [[tmf]] [[spectrum]] as a certain derived moduli  "of derived elliptic curves". This construction of moduli space is based on earlier Lurie result (not available in full) in which Lurie has proved an analogue of the Artin's representability theorem from the algebraic geometry of Grothendieck school. For more on that see
-
-* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
-
 ## Related concepts
 
 * [[homotopical algebraic geometry]]
@@ -107,57 +100,30 @@ More recent big success of derived algebraic geometry locally modeled on $E_\inf
 
 For references on [[dg-schemes]], the historical precursor to [[derived stacks]], see there.
 
-A general compact survey is
-
-* [[Bertrand Toën]], _Derived algebraic geometry_, [arxiv/1401.1044](http://arxiv.org/abs/1401.1044)
-
 ### Approach of To&#235;n-Vezzosi
 
-The two main references are
+The main references are
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry I: topos theory_, 2002, [arXiv:math/0207028](http://arxiv.org/abs/math/0207028).
+* [[Jacob Lurie]], [[Derived Algebraic Geometry]]
+
+* [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]]_
+{#LurieStructured}
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
-
-In the first volume, they develop the theory of [[stacks]] over [[simplicially enriched sites]] and [[model sites]].  In the second, they develop [[linear algebra|linear]] and [[commutative algebra]] over [[symmetric monoidal model category|symmetric monoidal]] [[model categories]], and then apply the theory of the first volume to develop the theory of [[geometric stacks]] over a [[symmetric monoidal model category|symmetric monoidal]] [[model category]].
-
-In the following lecture notes, they study in detail various [[derived moduli spaces]].
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
 NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [math.AG/0210407](http://arxiv.org/abs/math/0210407).
  {#TV-HAG-to-DAG}
 
-* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, lecture notes, 2006, [arXiv:math/0604504](http://arxiv.org/abs/math/0604504).
+The following notes deal with the theory modelled on coconnective [[commutative dg-algebras]].
 
-The following is a short exposition on some of the motivation behind derived algebraic geometry.
+* [[Dennis Gaitsgory]], _Notes on geometric Langlands: stacks_, [pdf](http://www.math.harvard.edu/~gaitsgde/GL/Stackstext.pdf).
+
+See also the surveys
+
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, lecture notes, 2006, [arXiv:math/0604504](http://arxiv.org/abs/math/0604504).
 
 * [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](http://www.ams.org/notices/201107/rtx110700955p.pdf).
 {#VezzosiWhatIs}
 
-The following is an exposition of the theory of derived schemes modelled on nonpositively graded dg-algebras.
-
-* [[Dennis Gaitsgory]], _Notes on geometric Langlands: stacks_, [pdf](http://www.math.harvard.edu/~gaitsgde/GL/Stackstext.pdf).
-
-### Approach of Lurie
-
-A general theory of [[derived geometry]] is developed in 
-
-* [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]] 
-{#LurieStructured}
-
-and specialized to geometry over $E_\infty$-rings -- [[E-∞ geometry]] -- in
-
-* [[Jacob Lurie]], _[[Spectral Schemes]]_
- {#Lurie}
-
-which merges the structural theory developed in
-
-* [[Jacob Lurie]], [[Higher Topos Theory]]
-
-with the algebraic theory developed in
-
-* [[Jacob Lurie]], _Noncommutative algebra_, _Commutative algebra_ (see [[higher algebra]]).
-
-A discussion of derived algebraic geometry over [[E-infinity ring]]s is in 
-
-* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
+* [[Bertrand Toën]], _Derived algebraic geometry_, [arxiv/1401.1044](http://arxiv.org/abs/1401.1044)
