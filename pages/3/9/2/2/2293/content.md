@@ -98,9 +98,7 @@ where $Pf(X)$ denotes the [[dg-category]] of [[perfect complexes]] on the [[deri
 
 ## References 
 
-For references on [[dg-schemes]], the historical precursor to [[derived stacks]], see there.
-
-### Approach of To&#235;n-Vezzosi
+(For references on [[dg-schemes]], the historical precursor to [[derived schemes]], see there.)
 
 The main references are
 
