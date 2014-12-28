@@ -93,7 +93,7 @@ See also
 
 * Wikipedia, _[Pseudogroup](http://en.wikipedia.org/wiki/Pseudogroup)_
 
-Abstract pseudogroups are studied in [[inverse semigroup]] literature, e.g.
+Abstract pseudogroups are studied in  the [[inverse semigroup]] literature, e.g.
 
 * [[Mark V. Lawson]], _Inverse semigroups: the theory of partial symmetries_, World Scientific, 1998.
 
