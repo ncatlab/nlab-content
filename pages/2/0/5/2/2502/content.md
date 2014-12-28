@@ -267,14 +267,13 @@ A comprehensive account and classification of the polyvector extensions of the s
 ### Super Lie algebra cohomology
  {#ReferencesLieAlgebraCohomology}
 
-The super-[[Lie algebra cohomology]] of the [[super Poincare Lie algebra]] is discussed in 
+Discussion of the super-[[Lie algebra cohomology]] of the [[super Poincare Lie algebra]] goes back to work on [[Green-Schwarz sigma models]] in
 
-* [[José de Azcárraga]] and [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
- {#AzcarragaTownsend89}
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+ 
+A rigorous classification of these cocycles was later given in
 
-and completely classified in
-
-* [[Friedemann Brandt]], _Supersymmetry algebra cohomology_ 
+* {#Brandt12-13} [[Friedemann Brandt]], _Supersymmetry algebra cohomology_ 
 
   _I: Definition and general structure_  J. Math. Phys.51:122302, 2010, ([arXiv:0911.2118](http://arxiv.org/abs/0911.2118))
 
@@ -283,7 +282,7 @@ and completely classified in
   _III: Primitive elements in four and five dimensions_, J. Math. Phys. 52:052301, 2011 ([arXiv:1005.2102](http://arxiv.org/abs/1005.2102))
 
   _IV: Primitive elements in all dimensions from $D=4$ to $D=11$_, J. Math. Phys. 54, 052302 (2013) ([arXiv:1303.6211](http://arxiv.org/abs/1303.6211))
- {#Brandt12-13}
+ 
 
 A classification of some special cases of signature/supersymmetry of this is also in the following (using a computer algebra system):
 
@@ -307,9 +306,8 @@ This subsumes some of the results in ([Azc&#225;rraga-Townend](#AzcarragaTownsen
 
 Discussion of the corresponding [[super L-∞ algebra]] [[L-∞ extensions]] in the context of [[Green-Schwarz action functionals]] and [[schreiber:∞-Wess-Zumino-Witten theory]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
- {#FSS13}
-
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ 
 
 A direct constructions of ordinary (Lie algebraic) extensions of the super Poincare Lie algebra by means of [[division algebras]] is in
 
