@@ -71,7 +71,7 @@ A textbook account in [[topos theory]] is in
 
 Discussion in the refined context of [[higher topos theory]] is in 
 
-* [[Jacob Lurie]], around prop. 5.5.2.2., remark 6.3.5.17 of _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section 6.2.4 and around prop. 5.5.2.2., remark 6.3.5.17 of _[[Higher Topos Theory]]_
 
 * [[David Carchedi]], MO discussion _[Canonical topology for infinity topoi revisited.](http://mathoverflow.net/questions/95172/canonical-topology-for-infinity-topoi-revisited)_
 
