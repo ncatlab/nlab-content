@@ -21,7 +21,7 @@
 
 _Modal type theory_ is a flavor of [[type theory]] with [[type formation rules]] for [[modalities]], hence [[type theory]] which on [[propositions]] reduces to [[modal logic]]. 
 
-Following ([Moggi91](#Moggi91), [Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Kobayashi 97](#Kobayashi)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modalities]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak also of _[[computational type theory]]_ here ([Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Fairtlough-Mendler 02](#FairtloughMendler02)).
+Following ([Moggi91](#Moggi91), [Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Kobayashi 97](#Kobayashi)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modalities]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak of _[[computational type theory]]_ here ([Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Fairtlough-Mendler 02](#FairtloughMendler02)).
 
 According to ([Benton-Bierman-de Paiva 95, p. 1-2](#BentonBiermanPaiva)) this matches well with the default interpretation of ([[S4]]) [[modal logic]] as being about the [[modality]] $T$ of "[[possibility]]":
 
