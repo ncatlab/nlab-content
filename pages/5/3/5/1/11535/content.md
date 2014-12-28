@@ -1,6 +1,6 @@
 This is my "homepage" on the world wide web.
 
-Here's some information about myself: I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. I have recently been studying the K-theory of $\infty$-operads, and seem to have answered a question posed by Gunnar Carlsson. For more information on this, read my notes available [here](https://www.sharelatex.com/project/54616b63a38cbf0748879f12/output/output.pdf?cache_bust=1418262375589).
+Here's some information about myself: I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. I have recently been studying the K-theory of $\infty$-operads, and seem to have answered a question posed by Gunnar Carlsson. For more information on this, read my notes available [here](https://www.sharelatex.com/project/54616b63a38cbf0748879f12/output/output.pdf?cache_bust=1418262375589). You can see (no) information about me at the [Math Genealogy project](http://genealogy.math.ndsu.nodak.edu/id.php?id=187940).
 
 More generally, though, what I'm interested in is studying the following interesting analogy:
 ><table><tr><th markdown="1">[[spectra|Spectra]]</th><th markdown="1">$\to$</th><th markdown="1">[[stable (infinity,1)-category|Stable ∞-categories]]</th></tr></table>
