@@ -32,12 +32,15 @@ The underlying set of the _total space_ $E$ (from 'espace') is the union of its 
 ## Properties
 
 ### Relation to sheaves
+ {#RelationToSheaves}
 
 Let $p:E\to B$ be in $Top/B$.  The (local) __[[sections]]__ of $p$ over an open set $U\subseteq B$ are the [[continuous maps]] $s:U\to E$ such that $p\circ s = \mathrm{id}_U$. It is an elementary but central fact that for an &#233;tale map $p$, _the images of local sections form a base for the topology_ of the total space $E$. The topology of $E$ is then typically non-[[Hausdorff space|Hausdorff]].
 
 The set of sections of $p$ over $U$ is denoted by $\Gamma_U p = (\Gamma p)(U) = \Gamma_U E = (\Gamma E)(U)$ and may be shown to extend to a [[functor]] $\Gamma : Top/B\to PShv_B$ where $PShv_B$ is the [[category of presheaves]] over $B$.  The functor $\Gamma$ has a [[left adjoint]] $L : PShv_B\to Top/B$, whose [[essential image]] is the [[full subcategory]] $Et/B$ of &#233;tal&#233; spaces over $B$.  The [[essential image]] of the functor $\Gamma$ is the [[category of sheaves]] $Shv_B$  over $B$, and this [[adjunction]] restricts to an [[equivalence of categories]] between $Et/B$ and $Shv_B$ (that is, it is an [[idempotent adjunction]]).
 
 If $P:Open(X)^{op}\to Set$ is a [[sheaf]], then one sometimes calls the total space $E(P)$ of the &#233;tal&#233; space $L(P) = (E(P)\to B)$ the __space of the sheaf__ $P$, having in mind the adjoint equivalence above.  (This is also called the __sheaf space__ or the __display space__; compare also a [[display morphism]] of [[contexts]].)  The associated sheaf functor $a:PShv_B\to Shv_B\hookrightarrow PShv_B$ decomposes as $a = \Gamma\circ L$, and $a$ may be considered as an endofunctor part of an [[idempotent monad]] in $PShv_B$ whose corresponding [[reflective subcategory]] is $Shv_B$.
+
+(e.g. [MacLane-Moerdijk, section II.5, II.6](#MacLaneMoerdijk))
 
 ### Relation to covering spaces
 
@@ -61,11 +64,17 @@ To quote from the [Wiktionnaire fran&#231;aise](http://fr.wiktionary.org/wiki/%C
 
 There is an interesting stanza from a song of L&#233;o Ferr&#233;:
 
-* Et que les globules figurent
-* Une math&#233;matique bleue,
-* Sur cette mer jamais &#233;tale
-* D'o&#249; me remonte peu &#224; peu
-* Cette m&#233;moire des &#233;toiles. &#8212; (L&#233;o Ferr&#233;, La m&#233;moire et la mer)
+> Et que les globules figurent
+
+> Une math&#233;matique bleue,
+
+> Sur cette mer jamais &#233;tale
+
+> D'o&#249; me remonte peu &#224; peu
+
+> Cette m&#233;moire des &#233;toiles. 
+
+> &#8212; (L&#233;o Ferr&#233;, La m&#233;moire et la mer)
 
 He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
@@ -76,6 +85,9 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
 * [[étale groupoid]], [[étale infinity-groupoid]]
 
+## References
+
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], sections II.5 and II.6 of _[[Sheaves in Geometry and Logic]]_
 
 
 [[!redirects etale space]]
