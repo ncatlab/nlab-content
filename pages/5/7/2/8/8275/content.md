@@ -32,7 +32,12 @@ A binary [[relation]] $\delta$ on the [[power set]] $P(X)$ of a [[set]] $X$ is c
 
 Note that the "if" directions of binary additivity are equivalent to *isotony*: if $A \supseteq B \;\delta\; C \subseteq D$ implies $A \;\delta\; D$.  We might specify these separately and call only the reverse direction of binary additivity 'binary additivity'.
 
-A relation satisfying merely (2) and (3) is called a __topogeny__ (between $P(X)$ and itself) at [[toddtrimble:topogeny]]; it is slightly easier to work with the lattice of topogenies than the lattice of topogenous relations, but syntopogenous spaces are built only out of those topogenies that satisfy (1).
+A relation satisfying merely (2) and (3) is called a __topogeny__ (between $P(X)$ and itself) at [[toddtrimble:topogeny]]; it is slightly easier to work with the lattice of topogenies than the lattice of topogenous relations, but syntopogenous spaces are built only out of those topogenies that satisfy (1). 
+
++-- {: .num_remark} 
+###### Remark 
+As is shown at [[toddtrimble:topogeny]], a topogenous relation can also be regarded as equivalent to a [[reflexive relation]] from $\beta X$ to $\beta X$ (see [[ultrafilter monad]]) in the [[pretopos]] of [[compact Hausdorff spaces]]. 
+=-- 
 
 It is also sometimes convenient to work with topogenous relations (or topogenies) that are described by the [[negation]] of $\delta$ (written $\bowtie$) or by the __topogenous order__ $\ll$ (which is [[transitive relation|transitive]] by (1) and isotony) given by $A \ll B$ iff $A \bowtie (X \setminus B)$.  In [[constructive mathematics]], these choices potentially make a difference.  See [[proximity space]] for complete definitions.
 
