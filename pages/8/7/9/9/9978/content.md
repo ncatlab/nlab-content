@@ -1,42 +1,54 @@
-The term _algebraic K-theory spectrum_ refers to one of the following two notions:
-
-* an object $K(C) \in \Spt$ in the [[stable (infinity,1)-category of spectra]], associated to a [[stable (infinity,1)-category]] or [[symmetric monoidal (infinity,1)-category]] $C$, whose [[homotopy groups]] give the [[algebraic K-theory]] of $C$;
-
-* a [[motivic spectrum]] $KGL \in SH(S)$ in the [[stable motivic homotopy category]], representing an $\mathbf{A}^1$-[[homotopy invariant]] version of [[algebraic K-theory]], where $S$ is a scheme.
-
-This entry is about the latter notion; for the former one, see [[algebraic K-theory]].
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-Suppose that $S$ is a [[regular scheme]]. Then there exists a [[motivic spectrum]] $KGL_S$ with the property that, for every $X\in Sm/S$,
+The _motivic Thom spectrum_ $MGL$ is the [[motivic spectrum]] in the [[stable motivic homotopy category]] representing [[algebraic cobordism]].  It is the algebraic or [[motives|motivic]] analogue of the [[Thom spectrum]] in the [[stable homotopy category]] which represents [[complex cobordism]].
 
-$$ KGL^{p,q}(X) = K_{2q-p}(X), $$
+## Definition
 
-where $K_*(X)$ are the [[algebraic K-theory]] groups of $X$ defined by [[Daniel Quillen|Quillen]]. In particular, $KGL$-cohomology is $(2,1)$-periodic: this is _Bott periodicity_ for algebraic K-theory.
+In analogy with the [[complex cobordism]] spectrum $MU$, [Voevodsky](#Voevodsky98) defined the algebraic cobordism spectrum $MGL_S$ in the [[stable motivic homotopy category]] by the formula
 
-The multiplicative structure of algebraic K-theory makes $KGL$ into a ring spectrum (up to homotopy), which comes from a unique structure of $E_\infty$-algebra (see [Naumann-Spitzweck-Ostvaer](#NSO11)).
+$$ MGL_S = colim_{n\to\infty} \Sigma_T^{\infty-n} V_n/V_n^\times, $$
 
-Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it represents Weibel's homotopy invariant version of [[algebraic K-theory]] (see [Cisinski13](#Cis13)).
+where $S$ is the base scheme, $T = \mathbf{A}^1/\mathbf{G}_m$ is the [[Tate sphere]], and $V_n$ is the tautological vector bundle over the infinite Grassmannian of $n$-planes $Gr(n)$. More precisely, $Gr(n)$ is defined as the colimit of the smooth $S$-schemes $Gr(n,k)$ as $k\to\infty$, and $V_n$ is similarly the colimit of the tautological vector bundles over $Gr(n,k)$.
+
+## Properties
+
+Like the [[motivic Eilenberg-Mac Lane spectrum]] $H\mathbf{Z}$ and the [[algebraic K-theory]] spectrum $KGL$, $MGL$ is an $E_\infty$-motivic [[ring spectrum]].
+
+The spectrum $MGL$ was used by Voevodsky in his proof of the [[Bloch-Kato conjecture]]. It is also the starting point of [[chromatic motivic homotopy theory]].
 
 ## Related concepts
 
-* [[algebraic K-theory]]
-* [[motivic homotopy theory]]
-* [[motivic cohomology]]
 * [[algebraic cobordism]]
+* [[complex cobordism]]
+* [[Thom spectrum]]
+* [[motivic homotopy theory]]
+* [[Snaith's theorem]]
+* [[motivic Eilenberg-Mac Lane spectrum]]
+* [[algebraic K-theory]]
 
 ## References
 
 * {#Voevodsky98} [[Vladimir Voevodsky]], _$\mathbf{A}^1$-Homotopy Theory_, Doc. Math., Extra Vol. ICM 1998(I), 417-442, [web](http://www.mathematik.uni-bielefeld.de/documenta/xvol-icm/00/Voevodsky.MAN.html).
 
-* {#Cis13} [[Denis-Charles Cisinski]], _Descente par &#233;clatements en K-th&#233;orie invariante par homotopie_, Ann. of Math. (2) 177 (2013), no. 2, pp. 425&#8211;448 ([pdf](http://hal.archives-ouvertes.fr/docs/00/52/56/40/PDF/descente3.pdf))
-
-* {#NSO11} [[Niko Naumann]], [[Markus Spitzweck]], [[Paul Arne Østvær]], _Existence and uniqueness of E-infinity structures on motivic K-theory spectra_, ([arXiv](http://arxiv.org/abs/1010.3944))
+* [[Ivan Panin]], K. Pimenov, [[Oliver Röndigs]], _A universality theorem for Voevodsky's algebraic cobordism spectrum_, Homology, Homotopy and Applications, 2008, 10(2), 211-226, [arXiv](http://arxiv.org/abs/0709.4116).
 
 * [[Ivan Panin]], K. Pimenov, [[Oliver Röndigs]], _On the relation of Voevodsky's algebraic cobordism to Quillen's K-theory_, Inventiones mathematicae, 2009, 175(2), 435-451, [DOI](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.244.7301), [arXiv](http://arxiv.org/abs/0709.4124).
 
+* [[Markus Spitzweck]], _Algebraic cobordism in mixed characteristic_, [arXiv](http://arxiv.org/abs/1404.2542).
+
+* [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_, [pdf](http://math.mit.edu/~hoyois/papers/hopkinsmorel.pdf), [arXiv](http://arxiv.org/abs/1210.7182).
+
 * {#GepnerSnaith08} [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817)).
 
-[[!redirects algebraic K-theory spectra]]
-[[!redirects motivic algebraic K-theory spectrum]]
-[[!redirects KGL]]
+A discussion on MathOverflow:
+
+* _Interdependence between A^1-homotopy theory and algebraic cobordism_, [MO/36659](http://mathoverflow.net/questions/36659/interdependence-between-a1-homotopy-theory-and-algebraic-cobordism/36698#36698).
+
+[[!redirects algebraic Thom spectrum]]
+[[!redirects algebraic Thom complex]]
+[[!redirects motivic cobordism spectrum]]
+[[!redirects MGL]]
