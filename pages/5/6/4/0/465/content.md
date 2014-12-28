@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -35,6 +35,8 @@ The [[duality|dual]] concept is that of [[regular monomorphism]].
 
 ## Properties
 
+### Relation to other kinds of epimorpisms
+
 The definition refers only to *some* parallel pair, but often there is a canonical choice: the [[kernel pair]] of the morphism in question.  A morphism having a kernel pair (such as any morphism in a category with [[pullback]]s) is a regular epimorphism if and only if it is the coequalizer of its kernel pair.  See, for instance Lemma 5.6.6 in _[[Practical Foundations]]_; this also follows from the theory of [[generalized kernels]]).  A regular epimorphism with a kernel pair, or equivalently a morphism that is the coequalizer of its kernel pair, is here called an __[[effective epimorphism]]__.
 
 Although the definition doesn\'t state so explicitly, it is true (and easy to prove) that any regular epimorphism is an [[epimorphism]].  In fact, every regular epimorphism is a [[strong epimorphism]], hence an [[extremal epimorphism]].  In particular, this implies that a regular epimorphism which is also a [[monomorphism]] must in fact be an [[isomorphism]].
@@ -42,6 +44,35 @@ Although the definition doesn\'t state so explicitly, it is true (and easy to pr
 Frequently (such as in a [[regular category]]), every strong or extremal epimorphism is regular.  Moreover, in a regular category, every regular epimorphism is [[pullback-stability|stable]], and therefore a [[descent morphism]].  If the category is moreover [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an [[effective descent morphism]].
 
 On the other hand, every [[split epimorphism]] is regular, but the converse holds only rarely (it is an [[internalization|internal]] form of the [[axiom of choice]]).
+
+### Pullbacks and pushouts
+
++-- {: .num_prop #StableUnderPullback}
+###### Proposition
+
+In a [[regular category]], regular epimorphisms are preserved by [[pullback]].
+
+=--
+
++-- {: .num_prop #PullbackSquareOfRegularEpisIsPushout}
+###### Proposition
+
+In a [[regular category]], if in a [[pullback]] [[diagram]] 
+
+$$
+  \array{
+     & \swarrow & \searrow
+     \\
+     & \searrow & \swarrow
+  }
+$$
+
+the two bottom morphisms are regular epis (hence by prop. \ref{StableUnderPullback} all four morphisms are), then the diagram is also a [[pushout]].
+
+=--
+
+(e.g. [Johnstone, section A, prop. 1.4.3](#Johnstone))
+
 
 ## Examples
 
@@ -63,6 +94,9 @@ On the other hand, every [[split epimorphism]] is regular, but the converse hold
 
   * [[regular epimorphism in an (∞,1)-category]]
 
+## References
+
+* {#Johnstone} [[Peter Johnstone]], Section A _[[Sketches of an Elephant]]_
 
 [[!redirects regular epimorphisms]]
 [[!redirects regular epi]]
