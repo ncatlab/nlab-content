@@ -177,6 +177,8 @@ $$
 
 =--
 
+See also at _[[Mayer-Vietoris sequence]]_ [this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal).
+
 +-- {: .proof}
 ###### Proof
 Since the objects are already fibrant, prop. \ref{HomotopyPullbackByOrdinaryPullback} implies that it is sufficient to replace one of the morphisms by a fibrant resolution.
