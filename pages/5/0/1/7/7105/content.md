@@ -2,16 +2,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Homotopy theory
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include homotopy - contents]]
 =--
 #### Limits and colimits
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -79,6 +84,8 @@ Moreover, the [[homotopy fiber]] of $X \times_B Y \to X \times Y$ is the [[loop 
 
 =--
  
+See also at _[[homotopy pullback]]_ [this corollary](homotopy+pullback#HomotopyPullbackByFactorizationLemma).
+
 +-- {: .proof}
 ###### Proof
 
@@ -112,12 +119,15 @@ which is the defining pullback for the [[loop space object]].
 
 =--
 
-Therefore the Mayer-Vietoris [[fiber sequence]] is of the form
+Therefore the Mayer-Vietoris [[homotopy fiber sequence]] is of the form
 
 $$
   \Omega B \to X \times_B Y \to X \times Y
   \,.
 $$
+
+For $\mathcal{C} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], this point of view is amplified in ([Dyer-Roitberg 80](#DyerRoitberg80)).
+
 
 +-- {: .num_cor #LongExactSequenceOfHomotopyGroups}
 ###### Corollary
@@ -135,7 +145,7 @@ $$
 
 =--
 
-This has historically been the definition of Mayer-Vietories sequences ([Eckmann-Hilton](#EckmannHilton)).
+This is what has historically been the definition of Mayer-Vietories sequences ([Eckmann-Hilton 64](#EckmannHilton)).
 
 ### Presentation by fibrant objects
  {#PresentationByFibrantObjects}
@@ -177,9 +187,9 @@ This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X 
 ### Over an $\infty$-group
  {#OverAGroupObject}
 
-We consider the special case where $B$ is an abelian [[∞-group]] in a [[presentable (∞,1)-category]] $\mathcal{C}$.
+We consider now the case where $B$ carries the structure of an  [[∞-group]] in a [[presentable (∞,1)-category]] $\mathcal{C}$.
 
-In this case we have an [[(∞,1)-pullback]]
+In this case, at least under suitable conditions (discussed in a moment), we have an [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -187,10 +197,10 @@ $$
     \\
     \downarrow^{\mathrlap{\Delta_B}} 
     &\swArrow_{\simeq}& 
-    \downarrow^\mathrlap{0}
+    \downarrow^{\mathrlap{e}}
     \\
     B \times B
-    &\stackrel{-}{\to}&
+    &\stackrel{(-)\cdot (-)^{-1}}{\to}&
     B
   }
   \,,
@@ -199,10 +209,20 @@ $$
 where the bottom horizontal morphism is the composite
 
 $$
-  - : B \times B \stackrel{(id, (-)^{-1})}{\to} B \times B \stackrel{+}{\to} B
+  (-)\cdot (-)^{-1} : B \times B \stackrel{(id, (-)^{-1})}{\to} B \times B \stackrel{\cdot}{\to} B
 $$
 
 of a morphism that sends the second argument to its inverse with the group composition operation.
+
+It then follows by the [[pasting law]] and prop. \ref{SequenceFromDiagonal} that in this case the morphism $X \times_B Y \to X \times Y$ in the Mayer-Vietoris sequence is itself the homotopy fiber of $X \times Y \stackrel{f-g}{\longrightarrow} B$, hence that we have a long homotopy fiber sequence of the form
+
+$$
+  \Omega B \longrightarrow X \times_B Y \longrightarrow X \times Y
+  \stackrel{f \cdot g^{-1}}{\longrightarrow}
+  \,.
+$$
+
+The following are two special cases where this works.
 
 +-- {: .num_example}
 ###### Example
@@ -217,6 +237,7 @@ $$
 $$
 
 As discussed there, the [[Dold-Kan correspondence]] prolongs to a [[Quillen adjunction]] on [[presheaves]] whose [[right adjoint]] is
+
 
 $$
   \Xi : 
@@ -234,7 +255,7 @@ We claim now that such $B$ satisfies the above assumption.
 
 To see this, first notice that the evident morphism $- : \tilde B \times \tilde B \to \tilde B$ is degreewise an [[epimorphism]], hence it is a fibration in $[S^{op}, Ch_{\bullet \geq 0}(Ab)]_{proj}$, and since $\Xi$ is [[Quillen adjunction|right Quillen]], so is the corresponding morphism $- : B \times B \to B$ in $[S^{op}, sSet]_{proj}$. 
 
-Therefore the ordiary pullback of presheaves of chain complexes
+Therefore the ordinary pullback of presheaves of chain complexes
 
 $$
   \array{
@@ -284,6 +305,7 @@ objectwise a [[Kan fibration]] and hence a fibration in the
 projective [[model structure on simplicial presheaves]].
 
 Let $U \in S$ be any test object. A diagram
+
 
 $$
   \array{ 
@@ -482,12 +504,12 @@ By duality (see [[universal coefficient theorem]]) an analogous statement holds 
 
 An original reference is
 
-* [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
- {#EckmannHilton}
+* {#EckmannHilton} [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
+ 
 
 A more modern review that emphasizes the role of [[fiber sequences]] is in
 
-* Eldon Dyer, Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
+* {#DyerRoitberg80} Eldon Dyer, Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
 
 [[!redirects Mayer-Vietoris sequences]]
 [[!redirects Mayer-Vietoris long exact sequence]]
