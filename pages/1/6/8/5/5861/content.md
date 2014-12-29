@@ -1946,8 +1946,9 @@ $$
 
 of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
 
-
 =-- 
+
+(The [[Atiyah groupoid]] of $T_{inf} X$ is the [[jet groupoid]] of $X$.)
 
 +-- {: .num_lemma #EtalePullbackOfFormalDiskBundleIsFormalDiskBundle}
 ###### Lemma
