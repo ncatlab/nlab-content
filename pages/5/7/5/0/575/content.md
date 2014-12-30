@@ -21,6 +21,16 @@ More explicitly, given posets $A$ and $B$, a __Galois connection__ between $A$ a
 
 A **Galois correspondence** is a Galois connection which is an [[adjoint equivalence]] (so $a = g(f(a))$ and $b = f(g(b))$ for all $a \in A$, $b \in B$). 
 
++-- {: .num_prop} 
+###### Proposition 
+Any Galois connection $f: A \to B$, $g: B \to A$ induces a Galois correspondence between $f(A)$ and $g(B)$, given by the composites $g(B) \hookrightarrow A \stackrel{f}{\to} f(A)$ and $f(A) \hookrightarrow B \stackrel{g}{\to} g(B)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For any $a \in A$ of the form $a = g(b)$, we have $a \leq (g \circ f)(a)$ and also $(g \circ f)(a) = g(f(g(b))) \leq g(b) = a$ where the inequality follows from $b \leq f(g(b))$ and antitonicity of $g$. Hence $(g \circ f)(a) = a$ for all $a \in g(B)$. Similarly $(f \circ g)(b) = b$ for all $b \in f(A)$. 
+=-- 
+
 
 ## Examples
 
@@ -56,6 +66,10 @@ $$S \times T \subseteq r$$
 $$S \subseteq g(T) := \{x: \forall_{y \in T} r(x, y)\}$$ 
 
 which means we have a Galois connection between $f$ and $g$ under this definition; since $g$ is uniquely determined by the presence of a Galois connection with $f$, we conclude that all Galois connections between power sets arise in this way, via a relation $r$ between $X$ and $Y$. 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $
 
 ## Related concepts
 
