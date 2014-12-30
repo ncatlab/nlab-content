@@ -188,7 +188,7 @@ This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X 
 ### Over an $\infty$-group
  {#OverAGroupObject}
 
-We consider now the case where $B$ carries the structure of an  [[∞-group]] in a [[presentable (∞,1)-category]] $\mathcal{C}$.
+We consider now the case where $B$ carries the structure of an  [[∞-group]] (or just a grouplike [[H-space]] object) in a [[presentable (∞,1)-category]] or [[locally Cartesian closed (∞,1)-category]] $\mathcal{C}$.
 
 In this case (as discussed in a moment), we have an [[(∞,1)-pullback]]
 
@@ -441,12 +441,12 @@ Here the composite bottom morphism is $(f - g)$.
 
 =--
 
-Finally in full generality:
+Summing this up:
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]], $B$ an [[∞-group]]-object in $\mathbf{H}$ and $f\colon X \to B$ and $g \colon Y\to B$ two morphisms, then there is a long [[homotopy fiber sequence]] of the form
+For $\mathbf{H}$ an [[(∞,1)-sheaf]] [[(∞,1)-topos]], $B$ an [[∞-group]]-object in $\mathbf{H}$ and $f\colon X \to B$ and $g \colon Y\to B$ two morphisms, then there is a long [[homotopy fiber sequence]] of the form
 
 $$
   \Omega B \longrightarrow X \times_B Y \longrightarrow X \times Y
@@ -471,6 +471,92 @@ of $\mathbf{H}$ into an [[(∞,1)-category of (∞,1)-presheaves]].
 By prop. \ref{SequenceOverGroupObjectIn1LocalicSituation} the statement
 holds in $[C^{op},\infty Grpd]$. Since embedding and reflection both preserve
 [[finite (∞,1)-limits]], it hence also holds in $\mathbf{H}$.
+
+=--
+
+Still more generally and more simply:
+
++-- {: .num_prop #HTTArgumentForPullback}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[locally Cartesian closed (∞,1)-category]].
+Let $G$ be an [[∞-group]] object (or just a grouplike [[H-space]]-object). Then for
+$\phi \colon D \longrightarrow G$ any morphism we have a [[homotopy pullback]] square of the form
+
+$$
+  \array{
+     G \times D &\longrightarrow& D
+     \\
+     \downarrow && \downarrow^{\mathrlap{\phi}}
+     \\
+     G \times G &\stackrel{(-)\cdots (-)^{-1}}{\longrightarrow}& G
+  }
+  \,.
+$$
+
+=--
+
+([nForum discussion](http://nforum.mathforge.org/discussion/6403/generality-of-mayervietoris-in-an-infinitytopos-/?Focus=51417#Comment_51417))
+
++-- {: .proof}
+###### Proof
+
+By [this discussion](locally+cartesian+closed+(infinity,1)-category#InternalLogic) we may use [[homotopy type theory]] reasoning. Starting out with the discussion at [homotopy pullback -- In homotopy type theory](homotopy+pullback#InHomotopyTypeTheory) we obtain
+
+$$ 
+\begin{aligned}
+  D\times_G  (G\times G)
+  &= \sum_{d:D} \sum_{g_1:G} \sum_{g_2:G} (g_1\cdot g_2^{-1} = \phi(d)) \\
+  &= \sum_{d:D} \sum_{g_1:G} \sum_{g_2:G} (g_1 = \phi(d)\cdot g_2) \\
+  &= \sum_{d:D} \sum_{g_2:G} \sum_{g_1:G} (g_1 = \phi(d)\cdot g_2) \\
+  &= \sum_{d:D} \sum_{g_2:G} \mathbf{1}\\
+  &= D\times G
+\end{aligned}
+  \,,
+$$
+
+where the second but last step consists of observing a contractible based [[path space object]] (see the discussion at [[factorization lemma]]).
+
+=--
+
++-- {: .num_prop }
+###### Corollary
+
+Let $\mathcal{C}$ be a [[locally Cartesian closed (∞,1)-category]].
+Let $G$ be an [[∞-group]] object (or just a grouplike [[H-space]]-object). 
+
+Then for $f \colon X \to G$ and $g \colon Y \to G$ two morphisms, there is a Mayer-Vietoris-type [[homotopy fiber sequence]] 
+
+$$
+  \cdots \to \Omega G
+  \longrightarrow 
+  X \times_G Y
+  \longrightarrow
+  X \times Y
+  \stackrel{f \cdot (g^{-1})}{\longrightarrow}
+  G
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use prop. \ref{HTTArgumentForPullback} with $\phi$ being the canonical point, i.e. the inclusion $e \colon \ast \to G$ of [[generalized the|the]] neutral element to find the homotopy pullback
+
+$$
+  \array{
+     G  &\longrightarrow& \ast
+     \\
+     \downarrow^{\mathrlap{\Delta}} && \downarrow^{\mathrlap{e}}
+     \\
+     G \times G &\stackrel{(-)\cdots (-)^{-1}}{\longrightarrow}& G
+  }
+  \,.
+$$
+
+Then use the [[pasting law]] as above.
 
 =--
 
