@@ -99,7 +99,14 @@ $$
   \,.
 $$
 
-Spelled out, this is the [[dependent sum]] over the [[dependent type|dependent]] [[identity type]] over the [[evaluation]] of $f$ and $g$.
+Spelled out, this is the [[dependent sum]] 
+
+$$
+  \underset{{a \colon A} \atop {b\colon B}}{\sum} (f(a)= g(b))
+$$
+
+
+over the [[dependent type|dependent]] [[identity type]] over the [[evaluation]] of $f$ and $g$.
 
 
 What in classical logic is interpreted as the set of pairs $(a,b)$ such that $f(a)$ and $g(b)$ are equal here becomes the restriction of a [[mapping cocylinder]].
