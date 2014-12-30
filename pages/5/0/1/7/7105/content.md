@@ -541,9 +541,18 @@ An original reference is
 * {#EckmannHilton} [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
  
 
-A more modern review that emphasizes the role of [[fiber sequences]] is in
+A more modern review that emphasizes the role of [[homotopy fiber sequences]] is in
 
 * {#DyerRoitberg80} Eldon Dyer, Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
+
+Discussion in the context of [[stable model categories]] includes
+
+* [[Peter May]], lemma 5.7 of _The additivity of traces in triangulated categories_, Adv. Math., 163(1):34-73, 2001 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf))
+
+Discussion in the context of [[homotopy type theory]] includes
+
+* E Cavallo et al, _Exactness of the Mayer-Vietoris Sequence
+in Homotopy Type Theory_ ([pdf](http://www.contrib.andrew.cmu.edu/~ecavallo/works/mayer-vietoris.pdf))
 
 [[!redirects Mayer-Vietoris sequences]]
 [[!redirects Mayer-Vietoris long exact sequence]]
