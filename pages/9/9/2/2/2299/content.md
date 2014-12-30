@@ -27,7 +27,7 @@ The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two diff
 
 A third type of axiomatization, used in [[derived noncommutative algebraic geometry]], uses [[stable (∞,1)-categories]] to represent spaces. 
 
-Under forming [[groupoid convolution algebras]] and their higher analog, at least parts of higher geometry translate to [[noncommutative geometry]].
+Notice that the proceess of forming [[groupoid convolution algebras]] is a (2,1)-functor from suitable [[differentiable stacks]] to [[C*-algebras]] with [[Hilbert bimodules]] between them. Much of [[Connes]]-style [[noncommutative geometry]] turns out to deal with objects in the image of this functor, and in this way also Connes-style noncommutative geometry may be regarded as being a way of speaking about the [[higher differential geometry]] of [[differentiable stacks]]. 
 
 ## Axiomatizations
 
@@ -83,6 +83,7 @@ Note that, since by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2
   * [[noncommutative geometry]]
 
 * [[higher differential geometry]]
+
 
   * [[motivation for higher differential geometry]]
 
