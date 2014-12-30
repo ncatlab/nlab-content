@@ -138,3 +138,11 @@ Discussion of the relation between stabilization of [[(∞,1)-categories]] (to [
 
 
 [[!redirects stabilizations]]
+[[!redirects stabilization of an (∞,1)-category]]
+[[!redirects stabilization of an (infinity,1)-category]]
+[[!redirects stabilization of an ∞-category]]
+[[!redirects stabilization of an infinity-category]]
+[[!redirects stabilization of (∞,1)-categories]]
+[[!redirects stabilization of (infinity,1)-categories]]
+[[!redirects stabilization of ∞-categories]]
+[[!redirects stabilization of infinity-categories]]
