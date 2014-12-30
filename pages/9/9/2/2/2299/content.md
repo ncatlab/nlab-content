@@ -27,7 +27,7 @@ The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two diff
 
 A third type of axiomatization, used in [[derived noncommutative algebraic geometry]], uses [[stable (∞,1)-categories]] to represent spaces. 
 
-Notice that the proceess of forming [[groupoid convolution algebras]] is a (2,1)-functor from suitable [[differentiable stacks]] to [[C*-algebras]] with [[Hilbert bimodules]] between them. Much of [[Connes]]-style [[noncommutative geometry]] turns out to deal with objects in the image of this functor, and in this way also Connes-style noncommutative geometry may be regarded as being a way of speaking about the [[higher differential geometry]] of [[differentiable stacks]]. 
+Notice that the process of forming [[groupoid convolution algebras]] is a (2,1)-functor from suitable [[differentiable stacks]] to [[C*-algebras]] with [[Hilbert bimodules]] between them. Much of [[Connes]]-style [[noncommutative geometry]] turns out to deal with objects in the image of this functor, and in this way also Connes-style noncommutative geometry may be regarded as being a way of speaking about the [[higher differential geometry]] of [[differentiable stacks]]. 
 
 ## Axiomatizations
 
@@ -58,7 +58,7 @@ A plethora of proposals for formalizations of higher geometry find their home in
 
 As above, let $\mathcal{G}$ be an [[(∞,1)-site]] whose objects are to be viewed as "local models" for a geometry. Following [[Bill Lawvere]], one can give a set of axioms that capture when it is appropriate to view [[(∞,1)-sheaves]] on $\mathcal{G}$ as generalized geometric spaces. This leads to the notion of [[cohesive (∞,1)-topos]].
 
-Given such a [[cohesive (∞,1)-topos]], one may go further and try to identify even more refined geometric objects within it. For thus, it is necessary to endow $\mathcal{G}$ with some additional structure: namely, that of a collection of [[morphisms]] that dictate how the generalized spaces can be formed from the local models by gluing. This leads to the notion of a [[homotopical algebraic geometry]] context, following [[Bertrand Toen]] and [[Gabriele Vezzosi]].
+Given such a [[cohesive (∞,1)-topos]], one may go further and try to identify even more refined geometric objects within it: the ones which are obtained from the local models by gluing along some nice class of morphisms (e.g. [[open immersions]], smooth morphisms, etc.). This leads to the notion of a [[homotopical algebraic geometry]] context, following [[Bertrand Toen]] and [[Gabriele Vezzosi]].
 
 ### Stable (∞,1)-categories
 
@@ -122,6 +122,7 @@ In
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
+
 
 an axiomatization of generalized geometry is proposed in terms of 1-[[category theory]]. The evident generalization of this to [[(∞,1)-category theory]] provides an axiomatization for higher geometry. This is discussed at
 
