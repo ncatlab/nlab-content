@@ -122,6 +122,8 @@ The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of 
 
 * [[teleparallel gravity]]
 
+Formalization in [[differential cohesion]] is discussed [there](http://ncatlab.org/nlab/show/differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles).
+
 ## References
 
 ### General
