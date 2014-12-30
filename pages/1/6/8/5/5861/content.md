@@ -821,6 +821,7 @@ By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the secon
 +-- {: .num_remark #RelationToRK}
 ###### Remark
 
+
 In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion. Notice that by <a href="http://nlab.mathforge.org/nlab/show/Q-category#DiscussionOfTheInfinitesimalThickeningFormalization">this remark</a> the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.  
 
 =--
@@ -1408,6 +1409,7 @@ For the second statement, let $p \colon \widehat Y \longrightarrow Y$ be any [[1
 
 By the fact that $Et$ is [[right adjoint]] to the inclusion, by construction, this means that it is sufficient to show that given a [[diagram]] in $\mathbf{H}_{th}$ of the form
 
+
 $$
   \array{
     && && X \times \widehat{Y}
@@ -1878,8 +1880,9 @@ $$
 
 See at _[[schreiber:derived critical locus]]_ for more discussion of this.
 
-#### Cohesive &#233;tale $\infty$-groupoids
+#### Manifolds and &#233;tale groupoids
  {#EtaleObjects}
+ {#CohesivemanifoldsSeparated}
 
 An ordinary [[topological groupoid|topological]]/[[Lie groupoid|Lie]] [[étale groupoid]] is one whose source/target map is an
 [[étale map]]. We consider now a notion that can be formulated in the presence of infinitesimal cohesion which generalizes this.
@@ -1887,46 +1890,40 @@ An ordinary [[topological groupoid|topological]]/[[Lie groupoid|Lie]] [[étale g
 +-- {: .num_defn #FormalEtaleGroupoid}
 ###### Definition
 
-Let $i : \mathbf{H} \hookrightarrow \mathbf{H}_{th}$
-be an infinitesimal cohesive neighbourhood for differential cohesion.
-
-An object $X \in \mathbf{H}$ is called a **cohesive [[étale ∞-groupoid]]** if there exists an [[atlas]] $X_0 \to X$ -- an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] out of a [[0-truncated]] object -- which is also a [[formally étale morphism]] def. \ref{FormalRelativeSmoothnessByCanonicalMorphism}.
-
+A [[groupoid object in an (∞,1)-category|groupoid object]] $\mathcal{G}_\bullet$ is an  **[[étale ∞-groupoid]]** if the equivalent (via the higher [[Giraud theorem]]) [[effective epimorphism]] (the [[atlas]]) $\mathcal{G}_0 \longrightarrow \mathcal{G}$ is a [[formally étale morphism]].
 
 =--
 
-#### Cohesive manifolds (separated)
- {#CohesivemanifoldsSeparated}
+Let now $V$ be any object
 
-Let $\mathbb{A}^1 \in \mathbf{H}$ be a canonical line object that exhibits the cohesion of $\mathbf{H}$ in the sense of _[structures in a differential infinity-topos -- A1 homotopy / The continuum](cohesive+%28infinity%2C1%29-topos+--+structures#A1HomotopyContinuum)_.
+
+(For instance let $\mathbb{A}^1 \in \mathbf{H}$ be a canonical line object that exhibits the cohesion of $\mathbf{H}$ in the sense of _[structures in a differential infinity-topos -- A1 homotopy / The continuum](cohesive+%28infinity%2C1%29-topos+--+structures#A1HomotopyContinuum)_ and take $V = \coprod_n \mathbb{A}^n$.)
 
 +-- {: .num_defn #Manifold}
 ###### Definition
 
-An object $X \in \mathbf{H}$ is a **[[manifold]]** of [[dimension]] $n \in \mathbb{N}$ if there exists 
-a set of [[monomorphism in an (∞,1)-category|monomorphism]] $\{\phi_i : \mathbb{A}^n \hookrightarrow X\}$ such that
+A **$V$-manifold** is an object $X$ such that there exists a **$V$-cover** $U$, namely a  [[correspondence]] from $V$ to $X$
 
-1. the [[Cech nerve]] of $\phi \colon \coprod_i \mathbb{A}^n \to X$ is degreewise a coproduct of copies of $\mathbb{A}^n$;
+$$
+  \array{
+     && U
+     \\
+     & \swarrow && \searrow
+     \\
+     V && && X
+  }
+$$
 
-1. this Cech nerve, as a [[groupoid object in an (∞,1)-category]] is a formally &#233;tale groupoid, def. \ref{FormalEtaleGroupoid}.
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-The first condition above makes $X$ an "unseparated" manifold. The second is a formalization of the [[separated geometric morphism|separation condition]] that leads to a [[Hausdorff space|Hausdorff]] structure (since in the standard models the formal &#233;tale maps are [[local diffeomorphisms]], hence [[open maps]]).
-
-(...)
+such that both morphisms are [[formally étale morphisms]] and such that $U \to X$ is in addition an [[effective epimorphism]].
 
 =--
 
-For the moment see also at _[smooth manifold -- general abstract geometric formulation](smooth%20manifold#GeneralAbstractCharacterization)_
+See also at _[smooth manifold -- general abstract geometric formulation](smooth%20manifold#GeneralAbstractCharacterization)_
 
 #### Frame bundles
  {#GLnTangentBundles}
 
-We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[frame bundle]] classified by a morphism $X \to \mathbf{B}GL(n)$.
+We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[frame bundle]] classified by a morphism $X \to \mathbf{B}GL(V)$.
 
 +-- {: .num_defn #FormalDiskBundle}
 ###### Definition
@@ -1936,9 +1933,9 @@ For $X$ any object in differential cohesion, its _infinitesimal disk bundle_ $T_
 
 $$
   \array{
-    T_{inf} X &\longrightarrow& X
+    T_{inf} X &\stackrel{ev}{\longrightarrow}& X
     \\
-    \downarrow && \downarrow
+    \downarrow^{\mathrlap{p}} && \downarrow
     \\
     X &\longrightarrow& &#643;_{inf} X
   }
@@ -1953,10 +1950,10 @@ of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along it
 +-- {: .num_lemma #EtalePullbackOfFormalDiskBundleIsFormalDiskBundle}
 ###### Lemma
 
-If $\iota \colon \mathbb{A}^n \to X$ is a [[formally étale morphism]], def. \ref{FormallyEtaleInHTh}, then
+If $\iota \colon U \to X$ is a [[formally étale morphism]], def. \ref{FormallyEtaleInHTh}, then
 
 $$
-  \iota^\ast T_{inf} X \simeq T_{inf}\mathbb{A}^n
+  \iota^\ast T_{inf} X \simeq T_{inf}U
   \,.
 $$
 
@@ -1973,40 +1970,47 @@ $$
      \\
      \downarrow && \downarrow && \downarrow
      \\
-     \mathbb{A}^n &\longrightarrow& X &\longrightarrow& &#643;_{inf} X
+     U &\longrightarrow& X &\longrightarrow& &#643;_{inf} X
   }
   \;\;\;\;
   \simeq
   \;\;\;\;
   \array{
-      T_{inf} \mathbb{A}^n &\longrightarrow& \mathbb{A}^n &\longrightarrow& X
+      T_{inf} U &\longrightarrow& U &\longrightarrow& X
        \\
        \downarrow && \downarrow && \downarrow
        \\
-       \mathbb{A}^n &\longrightarrow& &#643;_{inf} \mathbb{A}^n &\longrightarrow& &#643;_{inf} X
+       U &\longrightarrow& &#643;_{inf} U &\longrightarrow& &#643;_{inf} X
   }
 $$
 
 
 =--
 
-+-- {: .num_defn #RegularPatch}
++-- {: .num_defn #Framing}
 ###### Definition
 
-We say that $\mathbb{A}^n$ is _regular_ ( _regularized_ ) if it has a trivializable (trivialized) formal disk bundle, def. \ref{FormalDiskBundle}, in that there is an object $\mathbb{D}^n \hookrightarrow \mathbb{A}^n$ -- the [[formal disk]] -- and a (chosen) [[equivalence]]
+For $V$ an object, a **[[framing]]** on $V$ is a trivialization of its infinitesimal disk bundle, def. \ref{FormalDiskBundle}, i.e. an object $\mathbb{D}^V$ -- the typical [[infinitesimal disk]] or [[formal disk]] -- and a (chosen) [[equivalence]]
 
 $$
-  T_{inf} \mathbb{A}^n \simeq \mathbb{A}^n \times \mathbb{D}^n
+  \array{
+    T_{inf} V && \stackrel{\simeq}{\longrightarrow} && V \times \mathbb{D}^n
+    \\
+    & \searrow && \swarrow_{\mathrlap{p_1}}
+    \\
+    && V
+  }
   \,.
 $$
+
 
 We write
 
 $$
-  GL(n) \coloneqq \mathbf{Aut}(\mathbb{D}^n)
+  GL(V) \coloneqq \mathbf{Aut}(\mathbb{D}^V)
 $$
 
-for the [[automorphism ∞-group]] of this [[formal disk]].
+for the [[automorphism ∞-group]] of this [[infinitesimal disk]]/[[formal disk]].
 
 =--
 
@@ -2017,25 +2021,66 @@ When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, s
 
 =--
 
+
+This class of examples of framings is important:
+
++-- {: .num_prop #DifferentialCohesiveInfinityGroupIsCanonicallyFramed}
+###### Proposition
+
+Every differentially cohesive [[∞-group]] $G$ is canonically framed (def. \ref{Framing}) such that the horizontal map in def. \ref{FormalDiskBundle} is given by the left action of $G$ on its [[infinitesimal disk]] at the neutral element:
+
+$$
+  ev \colon T_{inf}G \simeq G \times \mathbb{D}^G_e \stackrel{\cdot}{\longrightarrow} G
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at _[[Mayer-Vietoris sequence]]_ in the section [Over an ∞-group](Mayer-Vietoris%20sequence#OverAGroupObject) and using that the [[infinitesimal shape modality]] preserves group structure, the defining [[homotopy pullback]] of $T_{inf} G$ is equivalent to the pasting of pullback diagrams
+
+$$
+  \array{
+    T_{inf} G &\stackrel{}{\longrightarrow}& 
+    \mathbb{D}^G_e
+    &\stackrel{}{\longrightarrow}& \ast
+    \\
+    \downarrow &&  \downarrow && \downarrow
+    \\
+    G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
+    &\stackrel{}{\longrightarrow}&
+    &#643;_{inf}G
+  }
+$$
+
+where the right square is the defining pullback for the [[infinitesimal disk]] $\mathbb{D}^G$. Finally for the left square we find by [this proposition](Mayer-Vietoris%20sequence#HTTArgumentForPullback) that $T_{inf} G \simeq G\times \mathbb{D}^G$ and that the top horizontal morphism is as claimed.
+
+=--
+
+
+
+
 By lemma \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} it follows that:
 
 +-- {: .num_prop #FormalDiskBundleOfRegularManifoldsTrivializesOverCover}
 ###### Proposition
 
-For $X$ a manifold in the sense of def. \ref{Manifold}, such that it has an &#233;tale atlas $\underset{i}{\coprod}\mathbb{A}^n\to X$ by regular patches, def. \ref{RegularPatch}, then its formal disk bundle canonically trivializes over its cover, i.e. there is a [[homotopy pullback]] of the form
+For $V$ a framed object, def. \ref{Framing}, let $X$ be a $V$-manifold, def. \ref{Manifold}. Then the infinitesimal disk bundle, def. \ref{FormalDiskBundle}, of $X$ canonically trivializes over any $V$-cover $V \leftarrow U \rightarrow X$ , i.e. there is a [[homotopy pullback]] of the form
 
 $$
   \array{
-     \coprod_i \mathbb{A}^n \times D^n &\longrightarrow& T_{inf} X
+     U \times \mathbb{D}^V &\longrightarrow& T_{inf} X
      \\
      \downarrow && \downarrow
      \\
-     \coprod_i \mathbb{A}^n &\longrightarrow& X
+     U &\longrightarrow& X
   }
   \,.
 $$
 
-This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^n$-[[fiber ∞-bundle]].
+This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^V$-[[fiber ∞-bundle]].
 
 =--
 
@@ -2046,104 +2091,84 @@ By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bu
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #FrameBundleMap}
 ###### Definition
 
-Given a manifold $X$ with a regular &#233;tale cover, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(n)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
+Given a $V$-manifold $X$ for framed $V$, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(V)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
 
 =--
 
 
-#### Integrable $G$-Structures
+#### $G$-Structures
 
-Let $\mathbb{A}^n \in \mathbf{H}$ be a local model space. such that its synthetic [[frame bundle]] is trivializable and trivialized $Fr(\mathbb{A}^n) \simeq \mathbb{A}^n \times \mathbb{D}^n$  with typical fiber $\mathbb{D}^n \hookrightarrow \mathbb{A}^n$ the [[formal disk]] around any point (as determined by the [[infinitesimal shape modality]]. This may be the [[infinitesimal neighbourhood]] of a point of any order $k$, and accordingly we'll get order $k$-integrability of $G$-structures).
-
-We write
+Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism, hence 
 
 $$
-  GL(n) \coloneqq \mathbf{Aut}(\mathbb{D}^n)
+  G\mathbf{Struc}\colon \mathbf{B}G \longrightarrow \mathbf{B}GL(V)
 $$
 
-for the [[automorphism ∞-group]] of $\mathbb{D}^n$. (When $\mathbb{D}^n$ is the first order [[infinitesimal neighbourhood]] then this is indeed the [[general linear group]], when $\mathbb{D}^n$ is rather the order-$k$ infinitesimal neighbourhood or the full [[formal neighbourhood]] for $k = \infty$, then this is rather $GL^k(n)$. )
+a morphism between the [[deloopings]].
+
++-- {: .num_defn #GStructure}
+###### Definition
 
 
-Let $X$ be any [[étale groupoid]] modeled on $\mathbb{A}^n$, i.e. $X \in \mathbf{H}$ and there exists a morphism $\coprod_i \mathbb{A}^n \to X$ which is [[formally étale morphism|formally étale]] and [[1-epimorphism|1-epi]].
-
-Then by the discussion at [Frame bundle -- In differential cohesion](frame+bundle#InDifferentialCohesion) the [[frame bundle]] of $X$ is [[modulating morphism|modulated]] by a morphism
-
-$$
-  \tau_X \colon X \longrightarrow \mathbf{B}GL(n)
-  \,.
-$$
-
-Now let $G \in Grp(\mathbf{H})$ be any [[∞-group]] object and $G \to GL(n)$ a [[homomorphism]], hence 
-
-$$
-  G\mathbf{struc} \colon \mathbf{B}G \to \mathbf{B}GL(n)
-$$ 
-
-any morphism.
-
-Then a _[[G-structure]]_ on $X$ is a diagram in $\mathbf{H}$ of the form
+For $X$ a $V$-manifold, def. \ref{Manifold}, a **[[G-structure]]** on $X$ is a lift of the structure group of its [[frame bundle]], def. \ref{FrameBundleMap}, to $G$, hence a diagram
 
 $$
   \array{
-     X && \stackrel{\mathbf{c}}{\longrightarrow} && \mathbf{B}G
+     X && \longrightarrow&&  \mathbf{B}G
      \\
-     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\simeq}}& \swarrow_{\mathrlap{G\mathbf{Struc}}}
+     & {}_{\mathllap{\tau_X}}\searrow && \swarrow_{\mathrlap{G\mathbf{Struc}}}
      \\
-     && \mathbf{B}GL(n)
+     && \mathbf{B}GL(V)
   }
 $$
 
-hence is a morphism
+hence a morphism
 
 $$
   \mathbf{c} \colon \tau_X \longrightarrow G\mathbf{Struc}
 $$
 
-in the [[slice (∞,1)-topos|slice]] over $\mathbf{B}GL(n)$. In fact $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(n)}$ is the [[moduli ∞-stack]] of such $G$-structures.
+is the [[slice (∞,1)-topos]].
+
+=--
+
+In fact $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(n)}$ is the [[moduli ∞-stack]] of such $G$-structures.
 
 The double [[slice (∞,1)-topos|slice]] $(\mathbf{H}_{/\mathbf{B}GL(n)})_{/G\mathbf{Struc}}$ is the [[(∞,1)-category]] of such $G$-structures.
 
-Now by assumption on $\mathbb{A}^n$ it carries the trivial $G$-structure, which we denote by
++-- {: .num_example}
+###### Example
+
+
+If $V$ is framed, then it carries the trivial $G$-structure, which we denote by
 
 $$
-  \mathbf{c}_0 \colon \tau_{\mathbb{A}^n} \longrightarrow G\mathbf{Struc}
+  \mathbf{c}_0 \colon \tau_{V} \longrightarrow G\mathbf{Struc}
   \,.
 $$
 
-The $G$-structure $\mathbf{c}$ is _integrable_ (torsion-free) if 
+=--
 
-1. there exists a [[formally étale morphism|formally étale]] [[1-epimorphism|cover]] $\coprod_i U_i \to X$;
++-- {: .num_defn #IntegrableGStructure}
+###### Definition
 
-   and a [[formally étale morphism]] $q \colon \mathbb{A}^n \longleftarrow \coprod_i U_i$
-
-1. such that this extends to a morphism of $G$-structures 
-
-   $$
-      \mathbf{c}_0 \longleftarrow q^\ast \mathbf{c}_0 \longrightarrow \mathbf{c}
-   $$
-
-
-This means that for each $i \in I$ there is a diagram
+For $V$ framed and $X$ a $V$-manifold, then  $G$-structure $\mathbf{c}$ on $X$ is _integrable_ (torsion-free) if there exists a $V$-cover
 
 $$
-  \array{
-    \tau_{\mathbb{A}^n}
-     &\stackrel{}{\longleftarrow}& 
-    \tau_{U_i} 
-     & \stackrel{}{\longrightarrow} & \tau_X
-    \\
-    & {}_{\mathllap{\mathbf{c}_0}}\searrow  & 
-    {}^{\mathllap{q_i^\ast\mathbf{c}_0}}\downarrow 
-    & \swarrow_{\mathrlap{\mathbf{c}}}
-    \\
-    && G\mathbf{Struc}
-  }
+  V \stackrel{q}{\leftarrow} U \rightarrow X
 $$
 
-in $\mathbf{H}_{/\mathbf{B}GL(n)}$, where the image of the top morphisms  under $\underset{\mathbf{B}GL(n)}{\sum}$ are the given patches $\mathbb{A}^n \leftarrow U_i \to X$.
+such that this extends to a morphism of $G$-structures 
+
+$$
+  \mathbf{c}_0 \longleftarrow q^\ast \mathbf{c}_0 \longrightarrow \mathbf{c}
+$$
+
+=--
+
 
 
 
@@ -2180,6 +2205,7 @@ $$
    := 
   \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), A) 
   \,.
+
 $$
 
 =--
@@ -2218,6 +2244,7 @@ is an equivalence in $A$-[[cohomology]], hence if for all $n \in \mathbb{N}$ we 
 $$
   \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}(X), \mathbf{B}^n A)
   \to 
+
   \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), \mathbf{B}^n A)
 $$
 
