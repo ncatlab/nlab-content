@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
@@ -17,7 +21,7 @@
 
 ## Idea
 
-For $(X, \omega)$ a [[symplectic manifold]] a _metaplectic structure_ on $X$ is a [[lift of structure groups]] of the [[tangent bundle]] from the [[symplectic group]] to the [[metaplectic group]] through the [[double cover]] map $Mp(2n, \mathbb{R}) \to Sp(2n, \mathbb{R})$:
+For $(X, \omega)$ a [[symplectic manifold]] a _metaplectic structure_ on $X$ is a [[G-structure]] for $G$ the [[metaplectic group]], hence a [[lift of structure groups]] of the [[tangent bundle]] from the [[symplectic group]] to the [[metaplectic group]] through the [[double cover]] map $Mp(2n, \mathbb{R}) \to Sp(2n, \mathbb{R})$:
 
 $$
   \array{
@@ -32,10 +36,17 @@ $$
 
 ## Related concepts
 
+* [[metaplectic group]]
+
 * [[spin structure]]
 
 * [[metaplectic correction (in geometric quantization)]]
 
+## References
+
+* P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+
+* Michel Cahen, [[Simone Gutt]], [[John Rawnsley]], _Symplectic Dirac Operators and $Mp^c$-structures_ ([arXiv:1106.0588](http://arxiv.org/abs/1106.0588))
 
 [[!redirects metaplectic structures]]
 
