@@ -53,7 +53,7 @@ If the complement of a filter is an ideal, then we say that the filter is __prim
 
 A filter is an __[[ultrafilter]]__, or __maximal filter__, if it is maximal among the proper filters.  (See that article for alternative formulations and applications.)  In a distributive lattice, every ultrafilter is prime; the converse holds in a [[Boolean algebra|Boolean lattice]].  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
 
-Given an element $x$ of $S$, the __principal ultrafilter__ (of subsets of $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  A principal ultrafilter is als called a __fixed ultrafilter__; more generally, a filter of subsets is __fixed__ if its [[intersection]] is [[inhabited set|inhabited]].  In contrast, if $F$ is an filter whose meet (of all elements) exists and is a [[bottom]] element (the [[empty set]] for a filter of subsets), then we call $F$ __free__.
+Given an element $x$ of $S$, the __principal ultrafilter__ (of subsets of $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  A principal ultrafilter is also called a __fixed ultrafilter__; more generally, a filter of subsets is __fixed__ if its [[intersection]] is [[inhabited set|inhabited]].  In contrast, if $F$ is an filter whose meet (of all elements) exists and is a [[bottom]] element (the [[empty set]] for a filter of subsets), then we call $F$ __free__.
 
 Free ultrafilters on Boolean algebras are important in [[nonstandard analysis]] and [[model theory]].
 
