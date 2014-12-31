@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
@@ -57,5 +61,14 @@ Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metal
 An original reference is
 
 * [[Andre Weil]], _Sur certains groupes d'op&#233;rateurs unitaires_, Acta Math. 111: 143&#8211;211. (1964).
+
+Further discussion includes
+
+* P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+
+* [[John Rawnsley]], _On the universal covering group of the real symplectic group_, Journal of Geometry and Physics 62 (2012) 2044&#8211;2058 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rawnsley.pdf))
+
+* [[Michel Cahen]], [[Simone Gutt]], _$Spin^c$, $Mp^c$ and Symplectic Dirac Operators_, Geometric Methods in Physics Trends in Mathematics 2013, pp 13-28 ([pdf](http://homepages.ulb.ac.be/~sgutt/spinbiel.pdf))
+
 
 [[!redirects metaplectic groups]]
