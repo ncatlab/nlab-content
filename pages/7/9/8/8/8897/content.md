@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 # Bondal-Orlov reconstruction theorem
 
 * table of contents
@@ -6,7 +17,7 @@
 
 ## Idea
 
-Thomason and Balmer showed that the [[triangulated categories of sheaves|derived category of coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely; see [[spectrum of a triangulated category]].  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure; moreover triangulated equivalences and autoequivalences are also important in relation to the [[homological mirror symmetry]] and similar phenomena.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its [[triangulated categories of sheaves|derived category of coherent sheaves]] when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
+Thomason and Balmer showed that the [[triangulated categories of sheaves|derived category of coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure (i.e. as a [[tensor triangulated category]]), completely determines the variety uniquely; see [[spectrum of a triangulated category]].  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure; moreover triangulated equivalences and autoequivalences are also important in relation to the [[homological mirror symmetry]] and similar phenomena.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its [[triangulated categories of sheaves|derived category of coherent sheaves]] when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
 
 ## Statement
 
@@ -80,9 +91,11 @@ $F(\alpha)$ corresponds bijectively to some $\beta \in \Hom(\mathcal{O}_Y, \omeg
 ## See also
 
 * [[triangulated categories of sheaves]]
+* [[2-ring]]
 * [[spectrum of a triangulated category]]
 * [[spectrum of an abelian category]]
 * [[Tannaka duality for geometric stacks]]
+* [[higher geometry]]
 
 ## References
 
