@@ -20,9 +20,9 @@ The definition of affine space can be made precise in various (equivalent) ways.
 
 *  An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
 
-*  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
+*  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group or _[[translation group]]_ of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
 
-*  An affine space is a [[heap]] whose automorphism group is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
+*  An affine space is a [[heap]] whose [[automorphism group]] is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
 
 *  An affine space is an [[inhabited set]] $A$ together with a vector space $V$ and a function $\Lambda\colon A \times A \to V$ (thought of $\Lambda(x,y) \coloneqq x - y$) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
 
@@ -54,7 +54,7 @@ Clearly every vector space has an underlying affine space (and every linear map 
 
 The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine space, although it does not have any particular vector space of displacements.  (See [heap#empty](heap#empty) for discussion.)
 
-Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $\mu\colon x,y,z \mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the additive group of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $\Lambda_*\colon r,x,y \mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
+Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $\mu\colon x,y,z \mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the [[translation group|additive group]] of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $\Lambda_*\colon r,x,y \mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
 
 
 ### Details and comparisons
@@ -184,6 +184,8 @@ Therefore there are attempts to axiomatize properties of categories of affine sp
 
 
 ## Related concepts
+
+* the [[automorphism group]] of an affine space is an _[[affine group]]_
 
 * [[Cartesian space]]
 
