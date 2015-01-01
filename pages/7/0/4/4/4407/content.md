@@ -74,7 +74,7 @@ we obtain a solution (since $x^2 - y^2 = a$ and $4 x^2 y^2 = b^2$).
 
 ## Classical FTA via advanced calculus 
 
-As noted above, many proofs of the fundamental theorem are known. The following proof has the advantage that it requires very little machinery; it hardly uses anything not known by [[Karl Gauss|Gauss]][^1]. 
+As noted above, many proofs of the fundamental theorem are known. The following proof, ultimately rooted in the fact that polynomial mappings on $\mathbb{C}$ are open mappings, has the advantage that it requires very little machinery; it hardly uses anything not known by [[Karl Gauss|Gauss]][^1]. 
 
 [^1]: Maybe the bit involving compactness wasn't available in Gauss's time. It would be interesting to write this bit out so that the entire proof would be understood by an eighteenth-century mathematician. 
 
@@ -83,17 +83,17 @@ Let $f\colon \mathbb{C} \to \mathbb{C}$ be a nonconstant polynomial mapping, and
 1. First, ${|f(z)|}$ attains an absolute (positive) minimum. For, choose any $z' \in \mathbb{C}$. Since $\lim_{z \to \infty} f(z) = \infty$, there exists some [[compact subspace|compact]] [[ball]] $B$ containing $z'$ so that ${|f(z)|} \gt {|f(z')|}$ whenever $z \notin B$. By compactness, ${|f(z)|}$ attains an absolute minimum for $z$ ranging over $B$; by choice of $B$, it is the same minimum as for $z$ ranging over all of $\mathbb{C}$. 
 
 2. Suppose ${|f|}$ attains an absolute minimum at $z = z_0$. The polynomial $f$ may be uniquely written in the form 
-$$f(z) = f(z_0) + (z - z_0)^n g(z)$$ 
+$$f(z) = f(z_0) + g(z)(z - z_0)^n$$ 
 where $g$ is polynomial and $g(z_0) \neq 0$. Put 
 $$F(z) = f(z_0) + g(z_0)(z - z_0)^n$$ 
 and choose $\delta \gt 0$ small so that 
 $${|z - z_0|} = \delta \Rightarrow {|g(z) - g(z_0)|} \lt {|g(z_0)|}$$ 
 
-3. $F$ maps the circle $C = \{z : {|z - z_0|} = \delta\}$ onto a circle of radius $r = {|g(z_0)|}\delta^n$ centered at $f(z_0)$. (This uses the fact that any complex number has an $n^{th}$ root, which one can prove using polar coordinate representations. We omit the details.) Choose $z' \in C$ so that $F(z')$ is on the line segment between the origin and $f(z_0)$. Then 
+3. $F$ maps the circle $C = \{z : {|z - z_0|} = \delta\}$ _onto_ a circle of radius $r = {|g(z_0)|}\delta^n$ centered at $f(z_0)$. (This uses the fact that any complex number has an $n^{th}$ root, which one can prove using polar coordinate representations. We omit the details.) Choose $z' \in C$ so that $F(z')$ is on the line segment between the origin and $f(z_0)$ (we can always choose $\delta$ so that also $r \lt {|f(z_0)|}$). Then 
 $${|F(z')|} = {|f(z_0)|} - r$$
 We also have 
 $${|f(z') - F(z')|} = {|g(z') - g(z_0)|} {|z' - z_0|^n} \lt {|g(z_0)|} \delta^n = r$$ 
-according to how we chose $\delta$. We conclude by observing 
+according to how we chose $\delta$ in 2. We conclude by observing the strict inequality 
 $${|f(z')|} \leq {|F(z')|} + {|f(z') - F(z')|} \lt {|f(z_0)|} - r + r = {|f(z_0)|},$$ 
 which yields the desired contradiction.  
 
