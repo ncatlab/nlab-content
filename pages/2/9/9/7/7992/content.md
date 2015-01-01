@@ -34,6 +34,8 @@ $$
   \,.
 $$
 
+Analogously for the [[Mp^c]]-group one considers _$Mp^c$-structures_.
+
 ## Related concepts
 
 * [[metaplectic group]]
