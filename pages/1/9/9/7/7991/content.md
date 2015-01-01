@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89))
+e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89), [Derezi&#324;ski-G&#233;rard 13, def. 10.24](#DerezinskiG&#233;rard13))
 
 ## Properties
 
@@ -93,6 +93,7 @@ Further discussion includes
 
 * [[Michel Cahen]], [[Simone Gutt]], _$Spin^c$, $Mp^c$ and Symplectic Dirac Operators_, Geometric Methods in Physics Trends in Mathematics 2013, pp 13-28 ([pdf](http://homepages.ulb.ac.be/~sgutt/spinbiel.pdf))
 
+* {#DerezinskiG&#233;rard13} Jan Derezi&#324;ski, Christian G&#233;rard, _Mathematics of Quantization and Quantum Fields_, Cambridge University Press, 2013
 
 [[!redirects metaplectic groups]]
 
