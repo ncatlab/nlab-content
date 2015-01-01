@@ -36,7 +36,7 @@ Notice that the tuple $(P,A)$ is a [[regular contact manifold]] (see the discuss
 ### In higher geometry
  {#InHigherGeometry}
 
-This perspective lends itself to a more abstract description: we may regard the [[prequantum circle bundle]] as being modulated by a morphism
+This perspective lends itself to a more abstract description in [[higher differential geometry]]: we may regard the [[prequantum circle bundle]] as being modulated by a morphism
 
 $$
   \nabla : X \to \mathbf{B} U(1)_{conn}
@@ -49,7 +49,7 @@ $$
   \underset{\mathbf{B}U(1)_{conn}}{\prod} \mathbf{Aut}(\nabla)
 $$
 
-in $\mathbf{H}$ ([Sch](#Sch)).
+in $\mathbf{H}$, or rather its [[differential concretification]] ([FRS 13](#FRS13)).
 
 From this it is clear what the quantomorphism [[∞-group]] of an [[n-plectic ∞-groupoid]] should be: for
 
@@ -83,6 +83,44 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 
 [[!include geometric quantization extensions - table]]
 
+## Examples
+
+### Covering an affine symplectic group
+ {#CoveringAnAffineSymplecticGroup}
+
+Given a [[symplectic vector space]] $(V,\omega)$ one may consider the restriction of its [[quantomorphism group]] to the [[symplectic group]] (or more generally the [[affine symplectic group]] $ASp(V,\omega)$).
+
+$$
+  \array{
+     ESp(V,\omega) &\hookrightarrow& QuantMorph(V,\omega)
+     \\
+     \downarrow && \downarrow
+     \\
+     ASp(V,\omega)
+     &\hookrightarrow&
+     HamSympl(V,\omega)
+  }
+$$
+
+In ([Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_. Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
+
+$$
+  \array{
+     Heis(V,\omega)
+     &\hookrightarrow&
+     ESp(V,\omega) &\hookrightarrow& QuantMorph(V,\omega)
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     V
+     &\hookrightarrow&
+     ASp(V,\omega)
+     &\hookrightarrow&
+     HamSympl(V,\omega)
+  }
+$$
+
+
 ## Related concepts
 
 * [[conserved current]]
@@ -110,8 +148,8 @@ Original accounts are
 
   [[Jean-Marie Souriau]], _Structure of dynamical systems - A symplectic view of physics_, Brikh&#228;user (1997)
 
-* [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_. Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
- {#Kostant}
+* {#Kostant} [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_. Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
+ 
 
 A textbook account is in section II.4 of 
 
@@ -123,14 +161,12 @@ and in
 
 The description in terms of automorphism in the slice $\infty$-topos over the moduli stack of (higher) connections is in
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+* {#FRS13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
 
 and in section 4.4.17 of
 
-* _[[schreiber:differential cohomology in a cohesive topos]]_
- {#Sch}
-
-
+* {#Sch} _[[schreiber:differential cohomology in a cohesive topos]]_
+ 
 
 
 
@@ -138,22 +174,29 @@ and in section 4.4.17 of
 
 The [[ILH manifold|ILH group]] structure on the quantomorphism group is discussed in 
 
-* H. Omori, _Infinite dimensional Lie transformation groups_, Springer lecture notes in mathematics 427 (1974)
- {#Omori}
+* {#Omori} H. Omori, _Infinite dimensional Lie transformation groups_, Springer lecture notes in mathematics 427 (1974)
+ 
 
-* T. Ratiu, R. Schmid, _The differentiable structure of three remarkable diffeomorphism groups_, Math. Z.  177 (1981)
- {#RatiuSchmid}
+* {#RatiuSchmid} T. Ratiu, R. Schmid, _The differentiable structure of three remarkable diffeomorphism groups_, Math. Z.  177 (1981)
+ 
 
 The [[convenient manifold|regular convenient Lie group]] structure is discussed in
 
-* Cornelia Vizman, _Some remarks on the quantomorphism group_ ([[VizmanQuantomorphism.pdf:file]])
- {#Vizman}
+* {#Vizman} Cornelia Vizman, _Some remarks on the quantomorphism group_ ([[VizmanQuantomorphism.pdf:file]])
+ 
 
 A [[metric]]-structure on quantomorphisms groups is discussed in 
 
 * Y. Eliashberg,; L. Polterovich, _Partially ordered groups and geometry of contact transformations_. Geom.Funct.Anal.10(2000),no.6, 1448-1476.
 
+### Examples
 
+The quantomorphisms over elements of the [[symplectic group]] of a [[symplectic vector space]] are discussed in 
+
+* {#Segal63} [[Irving Segal]], _Transforms for operators and symplectic automorphisms over a locally compact abelian group_, Math. Scand. 13 (1963) 31-43 www.mscand.dk/article/download/10686/8707
+
+
+* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
 
 
 [[!redirects quantomorphism]]
