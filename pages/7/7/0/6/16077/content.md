@@ -29,10 +29,12 @@ $$
 (\mathcal{M},\mathcal{N})\mapsto \mathcal{M}\circ\mathcal{N}:=\mathcal{M}\otimes_\mathcal{A}\mathcal{N}.
 $$
 Remark that one may define the notion of direct sum of $\mathcal{A}$-bimodule, denoted $\oplus$. We thus actually have a bimonoidal category
-$$(BiMod_f(\mathcal{A}),\circ,\oplus)$$
-that is not symmetric in $\circ$ but symmetric in $\oplus$. This is thus a categorification of an associative ring. One may easily define the notion of a seminorm $|\cdot|$ on such an associative categorical ring $(\Ac,\oplus,\circ)$, following the approach explained in [[generalized global analytic geometry]], and also define a Berkovich spectrum $\Mc(\Ac,\oplus,\circ)$. This will give a topological space or a $G$-topological space (or an $\infty$-topos, in the &#233;tale topology situation) together with a sheaf $U\mapsto \Ac(U)$ of seminormed associative categorical rings. We are thus in a conceptually abstract situation that is very close to the Toen-Vezzosi approach to the Chern character (the monoidal structure is not symmetric).
+$$(BiMod_f(\mathcal{A}),\oplus,\circ)$$
+that is not symmetric in $\circ$ but symmetric in $\oplus$. This is thus a categorification of an associative ring. One may easily define the notion of a seminorm $|\cdot|$ on such an associative categorical ring $(\Ac,\oplus,\circ)$, following the approach explained in [[generalized global analytic geometry]], and also define a Berkovich spectrum $\mathcal{M}(\mathcal{A},\oplus,\circ)$. This will give a topological space or a $G$-topological space (or an $\infty$-topos, in the &#233;tale topology situation) together with a sheaf $U\mapsto \mathcal{A}(U)$ of seminormed associative categorical rings. Remark that to every multiplicative seminorm on $\mathcal{A}$, one may associate a prime ideal in $\mathcal{A}$. We are thus in a conceptually abstract situation that is very close to the Toen-Vezzosi approach to the Chern character (the monoidal structure is not symmetric).
 
-Now a natural constraint on this situation if we look at the Kashiwara and Schapira results is to use the associated Hochschild or negative cyclic homology to define a trace: one must not suppose that $(\Ac,\circ)$ is a rigid monoidal category, because this is not true in the example of elliptic pairs (Atiyah-Singer). One should only suppose something weaker, related to the fact that one wants a trace to be defined on cyclic and/or Hochschild cohomology of the situation (a global invariant on $X$, that has a meaning in the Atiyah-Singer situation).
+2. The definition of a categorical trace for objects of $\mathcal{A}$ acting on $\mathcal{A}$ by the left tensor product $\circ$ may be given if $\mathcal{A}$ is equipped with a kind of rigidity structure. In the $\mathcal{D}$-module setting, if we work with bimodules such as $\mathcal{M}\boxtimes D\mathcal{M}$, Kashiwara and Schapira use the notion of trace kernel to define the corresponding class in Hochschild homology. One may try to give a similar construction using rigidity, e.g., the fact that a natural dual for the above bimodule is simply $D\mathcal{M}\omega\boxtimes \omega\mathcal{M}$. The diagonal $\Delta$ seems to play an important role here.
+
+Now a natural constraint on this situation if we look at the Kashiwara and Schapira results is to use the associated Hochschild or negative cyclic homology to define a trace: one must not suppose that $(\mathcal{A},\circ)$ is a rigid monoidal category, because this is not true in the example of elliptic pairs (Atiyah-Singer) (the corresponding trace kernel is given by tensor product of a $\mathcal{D}$-module kernel with a constructible kernel). One should only suppose something weaker, related to the fact that one wants a trace to be defined on cyclic and/or Hochschild cohomology of the situation (a global invariant on $X$, that has a meaning in the Atiyah-Singer situation).
 
 To be continued.
  
@@ -50,5 +52,4 @@ Arthur
 Ramados-Tang-Tsen Hochschild-Lefschetz class for $\mathcal{D}$-modules
 
 PoNing Chen, Vasiliy Dolgushev: A Simple Algebraic Proof of the Algebraic Index Theorem
-
 
