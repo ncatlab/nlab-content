@@ -23,7 +23,11 @@
 
 ### Double cover $Mp$
 
-For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(2n, \mathbb{R})$ is the [[Lie group]] which is the unique [[double cover]] of the [[symplectic group]] $Sp(2n, \mathbb{R})$.
+For $(V,\omega)$ a [[symplectic vector space]], the _metaplectic group_ $Mp(V,\omega)$ is the [[Lie group]] which is [[generalized the|the]] [[universal cover|universal]] [[double cover]] of the [[symplectic group]] $Sp(V,\omega)$.
+
+This has various more explicit presentations. 
+
+One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by paths of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
 
 ### Circle extension $Mp^c$
   {#CircleExtension}
@@ -81,15 +85,21 @@ Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metal
 
 ## References
 
-An original reference is
+Original references include
 
 * [[Andre Weil]], _Sur certains groupes d'op&#233;rateurs unitaires_, Acta Math. 111: 143&#8211;211. (1964).
 
 * {#KashiwaraVergne78} M. Kashiwara; [[Michèle Vergne]], _On the Segal-Shale-Weil Representations and Harmonic Polynomials_, Inventiones mathematicae (1978) ([EuDML](https://eudml.org/doc/142517), [pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0044&divID=LOG_0008&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0044%7C&targetFileName=PPN356556735_0044_LOG_0008.pdf&))
 
+* {#Leray81} [[Jean Leray]], _Lagrangian analysis and quantum mechanics_, MIT press 1981 [pdf](http://www.maths.ed.ac.uk/~aar/papers/leraybook.pdf)
+
+
 Further discussion includes
 
 * {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+
+* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_  Math. Z. __221__ (1996), no. 2, 307&#8211;335, ([MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118), [[RobbinSalamonMetaplectic.pdf:file]]), also  in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) 
+
 
 * [[John Rawnsley]], _On the universal covering group of the real symplectic group_, Journal of Geometry and Physics 62 (2012) 2044&#8211;2058 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rawnsley.pdf))
 
