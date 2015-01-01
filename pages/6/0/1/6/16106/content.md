@@ -23,7 +23,7 @@
 
 ## Definition
 
-Given a [[symplectic vector space]] $(V,\omega)$ one may consider the restriction of its [[quantomorphism group]] along the inclusion of the [[affine symplectic group]] $ASp(V,\omega)$) into all [[Hamiltonian symplectomorphisms]] $HamSymp(V,\omega)$ of $(V,\omega)$ regarded as a [[symplectic manifold]], i. e. the [[pullback]] group $ESp(V,\omega)$ in
+Given a [[symplectic vector space]] $(V,\omega)$ one may consider the restriction of its [[quantomorphism group]] to the [[affine symplectic group]] $ASp(V,\omega)$ ([Robbin-Salamon 93, corollary 9.3](#RobbinSalamon93))
 
 $$
   \array{
@@ -37,7 +37,7 @@ $$
   }
 $$
 
-Sometimes (e.g. [Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_, but maybe to be more specific one should at the very least say _extended affine symplectic group_ or _extended inhomogeneous symplectic group_ ([ARZ 06, prop. V.1](#ARZ06)). 
+Sometimes (e.g. [Robbin-Salamon 93, p. 30](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_, but maybe to be more specific one should at the very least say "[[extended affine symplectic group]]" or "extended inhomogeneous symplectic group" ([ARZ 06, prop. V.1](#ARZ06)). 
 
 Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
 
@@ -67,7 +67,7 @@ $$
 
 ## References
 
-* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
+* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_  Math. Z. __221__ (1996), no. 2, 307&#8211;-335, ([MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118), [[RobbinSalamonMetaplectic.pdf:file]]), also  in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) 
 
 * {#ARZ06} [[Sergio Albeverio]], J. Rezende and J.-C. Zambrini, _Probability and Quantum Symmetries. II. The Theorem of Noether in quantum mechanics_, Journal of Mathematical Physics 47, 062107 (2006) ([pdf](http://gfm.cii.fc.ul.pt/people/jczambrini/JMathPhys-47-062107.pdf))
 
