@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### Symplectic geometry
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -23,7 +28,7 @@ The further restriction to [[linear functions]] gives the [[symplectic group]] p
 
 ### Extensions
 
-There is a [[circle group|circle]] [[group extension]] $ESp(V,\omega)$ of the affine symplectic group -- -- given by restricting the [[quantomorphism group]] of $(V,\omega)$ to affine transformations. The further restriction of that to elements coming from linear translations is the [[Heisenberg group]]  $Heis(V,\omega)$.
+There is a [[circle group|circle]] [[group extension]] $ESp(V,\omega)$ of the affine symplectic group -- the _[[extended affine symplectic group]]_ -- given by restricting the [[quantomorphism group]] of $(V,\omega)$ to affine transformations. The further restriction of that to elements coming from [[translation group|translations]] is the [[Heisenberg group]]  $Heis(V,\omega)$.
 
 $$
   \array{
