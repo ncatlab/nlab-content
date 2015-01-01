@@ -21,7 +21,30 @@
 
 ## Definition
 
+### Double cover $Mp$
+
 For $n \in \mathbb{N}$, the _metaplectic group_ $Mp(2n, \mathbb{R})$ is the [[Lie group]] which is the unique [[double cover]] of the [[symplectic group]] $Sp(2n, \mathbb{R})$.
+
+### Circle extension $Mp^c$
+  {#CircleExtension}
+
+There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. This is in direct [[analogy]] to the group [[Spin^c]] and its relation to [[Spin]].
+
+Let $(V, \omega)$ be a [[symplectic vector space]]. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of its [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+
+$$
+  W(g(v)) = U_g W(v) U^{-1}_g
+  \,.
+$$
+
+The group $Mp^c$ is the [[subgroup]] of the [[unitary group]] of all such $U_g$ for $g\in Sp(V,\omega)$. The map $U_g \mapsto g$ exhibits this as a [[group extension]] by the [[circle group]]
+
+$$
+  U(1)\longrightarrow Mp^c(V,\omega) \longrightarrow Sp(V,\omega)
+  \,.
+$$
+
+e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89))
 
 ## Properties
 
@@ -64,7 +87,7 @@ An original reference is
 
 Further discussion includes
 
-* P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+* {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
 
 * [[John Rawnsley]], _On the universal covering group of the real symplectic group_, Journal of Geometry and Physics 62 (2012) 2044&#8211;2058 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rawnsley.pdf))
 
@@ -72,3 +95,6 @@ Further discussion includes
 
 
 [[!redirects metaplectic groups]]
+
+[[!redirects Mp]]
+[[!redirects Mp^c]]
