@@ -80,7 +80,7 @@ The [[conjugacy classes]] of $G$ are in bijection to $T/W(G,T)$.
 
 +-- {: .num_prop} 
 ###### Proposition 
-Under the assumptions on $G$, the exponential map $\exp: \mathfrak{g} \to G$ is surjective. 
+Under the assumptions on $G$, the [[exponential map]] $\exp: \mathfrak{g} \to G$ is [[surjection|surjective]]. 
 =-- 
 
 +-- {: .proof} 
