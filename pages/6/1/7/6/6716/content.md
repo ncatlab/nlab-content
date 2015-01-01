@@ -56,6 +56,7 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 ## Properties
 
+### Group extension
 
 +-- {: .num_prop}
 ###### Proposition
@@ -451,6 +452,10 @@ The bottom composite is the smooth $\mathbf{W}_3$ by prop \ref{SmoothRefinementO
 This implies by claim by the [[pasting law]].
 =--
 
+### Relation to metaplectic group $Mp^c$
+
+There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic groups]] [[Mp]] and [[Mp^c]] (see there for more).
+
 ## Related concepts
 
 * [[spin group]], **$Spin^c$-group**, [[spin structure]]
@@ -463,3 +468,5 @@ This implies by claim by the [[pasting law]].
 
 
 [[!redirects spin^c group]]
+
+[[!redirects Spin^c]]
