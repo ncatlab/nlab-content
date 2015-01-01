@@ -102,7 +102,7 @@ $$
   }
 $$
 
-In ([Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_. Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
+Sometimes (e.g. [Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_. Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
 
 $$
   \array{
@@ -119,6 +119,9 @@ $$
      HamSympl(V,\omega)
   }
 $$
+
+The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[Hamiltonians]] that are [[polynomials]] of degree-2 in canonical [[coordinates]] on $V$. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from homogeneous quadratic Hamiltonians. (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93), [ARZ 06, prop. V.1](#ARZ06)).
+
 
 
 ## Related concepts
@@ -197,6 +200,8 @@ The quantomorphisms over elements of the [[symplectic group]] of a [[symplectic 
 
 
 * {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
+
+* {#ARZ06} [[Sergio Albeverio]], J. Rezende and J.-C. Zambrini, _Probability and Quantum Symmetries. II. The Theorem of Noether in quantum mechanics_, Journal of Mathematical Physics 47, 062107 (2006) ([pdf](http://gfm.cii.fc.ul.pt/people/jczambrini/JMathPhys-47-062107.pdf))
 
 
 [[!redirects quantomorphism]]
