@@ -87,6 +87,8 @@ provided the Hamiltonian is time-independent.
 
 ## Related concepts
 
+* [[quadratic Hamiltonian]]
+
 [[!include Hamiltonian and Lagrangian -- table]]
 
 
