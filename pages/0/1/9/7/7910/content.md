@@ -102,7 +102,9 @@ $$
   }
 $$
 
-Sometimes (e.g. [Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_. Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
+Sometimes (e.g. [Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_, but maybe to be more specific one should at the very least say "[[extended affine symplectic group]]" or "extended inhomogeneous symplectic group" ([ARZ 06, prop. V.1](#ARZ06)). 
+
+Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
 
 $$
   \array{
@@ -120,7 +122,12 @@ $$
   }
 $$
 
-The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[Hamiltonians]] that are [[polynomials]] of degree-2 in canonical [[coordinates]] on $V$. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from homogeneous quadratic Hamiltonians. (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93), [ARZ 06, prop. V.1](#ARZ06)).
+The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[Hamiltonians]] that are [[polynomials]] of degree-2 in canonical [[coordinates]] on $V$. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from homogeneous quadratic Hamiltonians. (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93)). In fact $ESp$ is the [[semidirect product]] of the [[metaplectic group]] $Mp(V,\omega)$ with the [[Heisenberg group]] ([ARZ 06, prop. V.1](#ARZ06))
+
+$$
+  ESp(V,\omega) \simeq Heis(V,\omega) \rtimes Mp(V,\omega)
+  \,.
+$$
 
 
 
