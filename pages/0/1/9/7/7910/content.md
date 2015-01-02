@@ -122,7 +122,7 @@ $$
   }
 $$
 
-The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[quadratic Hamiltonians]]. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from [[homogeneously quadratic Hamiltonians]] (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93)). In fact $ESp$ is the [[semidirect product]] of the [[metaplectic group]] $Mp(V,\omega)$ with the [[Heisenberg group]] ([ARZ 06, prop. V.1](#ARZ06))
+The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[quadratic Hamiltonians]]. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from [[homogeneously quadratic Hamiltonians]] (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93)). In fact $ESp$ is the [[semidirect product]] of the [[metaplectic group]] $Mp(V,\omega)$ with the [[Heisenberg group]] ([ARZ 06, prop. V.1](#ARZ06), see also [Low 12](#Low12))
 
 $$
   ESp(V,\omega) \simeq Heis(V,\omega) \rtimes Mp(V,\omega)
@@ -209,6 +209,8 @@ The quantomorphisms over elements of the [[symplectic group]] of a [[symplectic 
 * {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
 
 * {#ARZ06} [[Sergio Albeverio]], J. Rezende and J.-C. Zambrini, _Probability and Quantum Symmetries. II. The Theorem of Noether in quantum mechanics_, Journal of Mathematical Physics 47, 062107 (2006) ([pdf](http://gfm.cii.fc.ul.pt/people/jczambrini/JMathPhys-47-062107.pdf))
+
+* {#Low12} Stephen G. Low, _Maximal quantum mechanical symmetry: Projective representations of the inhomogenous symplectic group_, J. Math. Phys. 55, 022105 (2014) ([arXiv:1207.6787](http://arxiv.org/abs/1207.6787))
 
 
 [[!redirects quantomorphism]]
