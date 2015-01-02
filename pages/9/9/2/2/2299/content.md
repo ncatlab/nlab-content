@@ -34,41 +34,43 @@ higher geometry = [[geometry]] + [[homotopy theory]]/[[higher category theory]]
 Higher geometry subsumes notably the theory of [[orbifolds]] and [[geometric stacks]], as well as the theory of more general [[stacks]] such as [[moduli stacks]], and generalizes all this to [[∞-stacks]] and [[derived stacks]]. 
 This way higher geometry includes what is called _[[derived geometry]]_ and it subsumes at least parts of (derived) [[noncommutative geometry]]. Many other phenomena are naturally part of higher geometry, see the list of [Examples](#Examples) below.
 
-Within the context of higher geometry, there are several different (but related) ways of formalizing concepts of [[geometry]] and of [[spaces]] in that geometry. Below in _[Formalization](#Formalizations)_ we discuss some of these axiomatizations, which are built on [[(∞,1)-topos theory]] or [[stable (∞,1)-category|stable (∞,1)-category theory]]. 
+In any given instance of higher geometry, one starts with a notion of "local models" for the geometry. An _affine space_ will then be a formal dual of such a local model, and a general [[space]] will be formed by "gluing" these affine spaces in some appropriate way. There are two ways of formalizing this idea, coming from [[Alexander Grothendieck]]'s two definitions of [[scheme]] in [[algebraic geometry]] via [[locally ringed spaces]] and [[functors of points]]. Both are built on [[(∞,1)-topos theory]]: in one direction, a [[petit topos|petit]] [[(∞,1)-topos]] (with some additional [[structured (∞,1)-topos|structure]]) encodes a [[space]] itself; in another direction, a [[space]] is an object of a [[gros topos|gros]] [[(∞,1)-topos]] of [[∞-stacks]] on some [[(∞,1)-site]]. We discuss these axiomatizations below in _[Formalization](#Formalizations)_.
 
-The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two different directions: in one direction, a [[petit topos|petit]] [[(∞,1)-topos]] (with some additional [[structured (∞,1)-topos|structure]]) encodes a [[space]] itself; in another direction, a [[space]] is an object of a [[gros topos|gros]] [[(∞,1)-topos]] of [[∞-stacks]] on some [[(∞,1)-site]]. This corresponds to the difference between the two definitions of [[scheme]] in [[algebraic geometry]] via [[locally ringed spaces]] and [[functors of points]].
-A third type of axiomatization, used in [[derived noncommutative algebraic geometry]], uses [[stable (∞,1)-categories]] to represent spaces. 
-
+These approaches do not apply to [[noncommutative algebraic geometry]], which requires a different approach to deal with a more complicated notion of gluing; we discuss this below in _[Noncommutative algebraic geometry](#NoncommutativeAlgebraicGeometry)_.
 
 ## Formalizations
  {#Formalizations}
 
-We discuss three different (but related) formalizations of these ideas.
-
-
-In
-
-* _[Structured (∞,1)-toposes](#StructuredHigherToposes)_
-
-we discuss the approach of encoding a would-be higher geometric space $X$ by a [[structured (∞,1)-topos]] to be thought of as the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] $(Sh_\infty(X), \mathcal{O}_X)$ of $X$, canonically equipped with a [[structure sheaf]] $\mathcal{O}_X$.
-
+We discuss two different (but closely related) formalizations of these ideas.
 
 In 
 
-* _[Stable (∞,1)-categories](#StableInfinityCategories)_
-
-we discuss the approach of encoding a would-be higher geometric space $X$ by a [[stable (∞,1)-category]] to be thought of as that of [[quasicoherent (∞,1)-sheaves]] of modules $QCoh_\infty(X)$ of $X$
-
-In 
-
-* _[Cohesive (∞,1)-topos](#CohesiveHigherToposes)_
+* _[Gros (∞,1)-topos](#GrosHigherToposes)_
 
 we discuss the approach of considering one big [[(∞,1)-topos]] $\mathbf{H}$ (with "big"/[[gros topos|gros]] being formalized for instance by [[cohesion]]) such that (some of) its objects are to be regarded as higher geometric spaces.
 
-### Structured (∞,1)-toposes 
- {#StructuredHigherToposes}
+In
 
-Let $\mathcal{G}$ be an [[(∞,1)-category]] whose objects will be viewed as "local models" or "test spaces" for the kind of geometry to be developed. Following [[Jacob Lurie]] (based on the theory of geometry via [[ringed toposes]] by [[Alexander Grothendieck]] and [[Monique Hakim]]), a $\mathcal{G}$-[[structured (∞,1)-topos]] is the data of an [[(∞,1)-topos]] together with a [[structure sheaf]] valued in $\mathcal{G}$. Given an appropriate choice of $\mathcal{G}$, one gets the following hierarchy of generalized spaces this way:
+* _[Petit (∞,1)-toposes](#PetitHigherToposes)_
+
+we discuss the approach of encoding a would-be higher geometric space $X$ by a [[structured (∞,1)-topos]] to be thought of as the [[petit topos|petit]] [[(∞,1)-topos]] of [[(∞,1)-sheaves]] $(Sh_\infty(X), \mathcal{O}_X)$ of $X$, canonically equipped with a [[structure sheaf]] $\mathcal{O}_X$.
+
+
+### Gros (∞,1)-toposes
+ {#GrosHigherToposes}
+
+Let $\mathcal{G}$ be an [[(∞,1)-site]] whose objects are to be viewed as "local models" or "test spaces" for a geometry. Within the context of this geometry, we make the following definitions:
+
+An **affine space** is a formal dual of an object of $\mathcal{G}$, so that the (∞,1)-category of affine spaces is the [[opposite (∞,1)-category|opposite]] of $\mathcal{G}$. A **stack** is an [[∞-stack]] on $\mathcal{G}$, so that the (∞,1)-category of stacks is the [[gros topos|gros]] [[(∞,1)-sheaf (∞,1)-topos]] on $\mathcal{G}$. Finally, a **space** is a [[stack]] $X$ that has a cover by a family of affine spaces $(f_i : U_i \to X)_i$, where each $f_i$ belongs to some nice class of morphisms (e.g. [[open immersions]], [[etale morphisms]] or [[smooth morphisms]]).
+
+When the underlying (∞,1)-category of $\mathcal{G}$ is the (∞,1)-category of [[commutative algebras in a symmetric monoidal (∞,1)-category]], this is known as _[[homotopical algebraic geometry]]_. When it is the (∞,1)-category of [[algebras over a Lawvere theory]], this is discussed at [[derived geometry]].
+
+Following [[Bill Lawvere]], one may ask for a set of [[axioms]] on the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_\infty(\mathcal{G})$ that ensure that it is appropriate to view [[(∞,1)-sheaves]] on $\mathcal{G}$ as generalized geometric spaces. One such set of axioms is _[[cohesion]]_.
+
+### Petit (∞,1)-toposes
+ {#PetitHigherToposes}
+
+As above, let $\mathcal{G}$ be an [[(∞,1)-category]] whose objects will be viewed as "local models" for the kind of geometry to be developed. Following [[Jacob Lurie]] (based on the theory of geometry via [[ringed toposes]] by [[Alexander Grothendieck]] and [[Monique Hakim]]), a $\mathcal{G}$-[[structured (∞,1)-topos]] is the data of an [[(∞,1)-topos]] together with a [[structure sheaf]] valued in $\mathcal{G}$. Given an appropriate choice of $\mathcal{G}$, one gets the following hierarchy of generalized spaces this way:
 
 * [[geometry (for structured (∞,1)-toposes)|test spaces]] $\hookrightarrow$
   [[generalized scheme|spaces locally equivalent to test spaces]]
@@ -81,6 +83,7 @@ technically modeled by:
 
 * [[geometry (for structured (∞,1)-toposes)]] $\mathcal{G}$
   $\hookrightarrow$
+
   [[generalized scheme]]s
   $\hookrightarrow$
   formal duals to $\mathcal{G}$-[[structured (∞,1)-topos]]es
@@ -89,28 +92,11 @@ technically modeled by:
 
 A plethora of proposals for formalizations of higher geometry find their home in this pattern, for instance most of the concepts listed at [[generalized smooth space]].
 
-See also at _[[homotopical algebraic geometry]]_.
+## Relation between these approaches
 
+Given a gros [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an object $X \in \mathbf{H}$, one may in turn assign to $X$ a petit [[structured (∞,1)-topos]] $Sh_{\mathbf{H}}(X)$ of [[internal sheaves]] over $X$. See at _[[differential cohesion]]_ for how this works. This connects the "gros" perspective back to the "petit" perspective.
 
-### Stable (∞,1)-categories
- {#StableInfinityCategories}
-
-In [[derived noncommutative algebraic geometry]], one considers a [[space]] to be embodied by an [[idempotent complete (∞,1)-category|idempotent complete]] [[stable (∞,1)-category]], or sometimes an idempotent complete [[pretriangulated dg-category]]. The idea is to think of this as the category of [[quasicoherent sheaves]] on the would-be space.
-
-Since by the [stable Giraud theorem](stable+(infinity%2C1)-category#StabGiraud), any [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category]] is an accessible left-exact [[localization of an (∞,1)-category|localization]] of the [[stabilization of an (∞,1)-category|stabilization]] of some [[(∞,1)-presheaves|(∞,1)-presheaf topos]], this might be thought of as a direct stable analog of the above story.
-
-But [[quasicoherent sheaves]] of an actual [[scheme]] form even a [[symmetric monoidal category]] -- i.e. [[tensor triangulated category]], [[symmetric monoidal (∞,1)-category]]) $(QCoh(X),\otimes)$. Now, one may regard monoidal stable $\infty$-categories as a [[categorification]] of [[commutative rings]] -- as _[[2-rigs]]_ -- and then there is a categorified concept of [[spectrum of a ring]] for them, see at _[[spectrum of a tensor triangulated category]]_ and _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_. Therefore regarding (affine) spaces as being formally dual to symmetric monoidal stable $(\infty,1)$-categories is an $(\infty,2)$-higher version of the basic idea in [[algebraic geometry]] of regarding spaces as formally dual to commutative rings. For more on this perspective see at _[[Bondal-Orlov reconstruction theorem]]_, _[[Tannaka duality for geometric stacks]]_, see also ([Brandenburg 14](2-rig#Brandenburg14)).
-
-However, much of the literature (notably in the context of [[homological mirror symmetry]]) disregards the monoidal structure and develops a higher geometry of spaces formally dual to just plain stable monoidal $(\infty,1)$-categories (or their presentations by [[A-infinity categories]] or [[triangulated categories]] etc.)
-
-### Cohesive (∞,1)-toposes
- {#CohesiveHigherToposes}
-
-As above, let $\mathcal{G}$ be an [[(∞,1)-site]] whose objects are to be viewed as "local models" for a geometry. Following [[Bill Lawvere]], one may ask for a set of [[axioms]] on the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_\infty(\mathcal{G})$ that ensure that it is appropriate to view [[(∞,1)-sheaves]] on $\mathcal{G}$ as generalized geometric spaces. One such set of axioms is _[[cohesion]]_.
-
-Given such a "big" [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an object $X \in \mathbf{H}$, one may in turn assign to $X$ a "petit" [[structured (∞,1)-topos]] $Sh_{\mathbf{H}}(X)$ of [[internal sheaves]] over $X$. See at _[[differential cohesion]]_ for how this works. This connects the "gros" perspective back to the "petit" perspective [above](#StructuredHigherToposes).
-
-
+Conversely, given a [[structured (∞,1)-topos]] one may consider its associated [[functor of points]], which will be an object in the [[gros topos|gros]] [[(∞,1)-topos]].
 
 ## Examples
  {#Examples}
@@ -149,11 +135,15 @@ Given such a "big" [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an object $X \in 
 
 * [[higher Cartan geometry]]
 
+### Noncommutative algebraic geometry
+ {#NoncommutativeAlgebraicGeometry}
+
+The above frameworks for higher geometry are not suitable for describing [[noncommutative algebraic geometry]], because of the more complicated notions of [[localization]], gluing and [[descent]] in the latter setting. Indeed, noncommutative spaces are supposed to be obtained from affine ones (formal duals of [[associative algebras]] or [[dg-algebras]]) by gluing along _[[bimodules]]_. A good setting for such gluing is that of [[pretriangulated dg-categories]] (or [[stable (∞,1)-categories]]). Thus in [[derived noncommutative algebraic geometry]], a noncommutative space is defined to be a [[stable (∞,1)-category]].
+
 ### Connes-style noncommutative geometry
  {#ConnesStyleNoncommutativeGeometry}
 
 The process of forming [[groupoid convolution algebras]] is a [[2-functor]] from suitable [[topological stack|topological]] and [[differentiable stacks]] to [[C*-algebras]] with [[Hilbert bimodules]] between them. Much of [[Connes]]-style [[noncommutative geometry]] turns out to deal with objects in the image of this functor, and to the extent that it does, Connes-style noncommutative geometry may be regarded as being a way of speaking about higher geometry, specifically the [[higher differential geometry]] of [[differentiable stacks]]. 
-
 
 ## Related concepts
 
@@ -166,8 +156,22 @@ For relation to [[physics]] see
 * [[geometry of physics]] 
 
 ## References
+{#Lurie}
 
-An axiomatization of higher geometry of [[little topos|little]] [[(∞,1)-topos]]es is proposed in
+In 
+
+* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+
+Both approaches to higher geometry are described, in the special case of [[derived algebraic geometry]], in
+
+* [[Jacob Lurie]], _[[Derived Algebraic Geometry]]_, Ph.D. thesis.
+
+The gros topos approach is described, in the case of [[homotopical algebraic geometry]], in
+
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
+
+A general exposition of the petit topos approach is proposed in
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_ .
 {#Lurie}
