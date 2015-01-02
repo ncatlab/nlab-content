@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+The [[exponential function]] satisfies
+
+$$
+  \exp(i x) = cos(x) + i sin(c)
+$$
+
+## Related concepts
+
+* [[trigonometric identity]]
+
+## References
+
+Named after [[Leonhard Euler]].
+
+* Wikipedia, _[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula)_
+
+[[!redirects Euler formula]]
