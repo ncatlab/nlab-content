@@ -11,7 +11,7 @@ __Affine__ $k$-variety is a locus of zeros of a set of polynomials in the affine
 
 Given a field $k$, an __affine $k$-variety__ is a [[maximal spectrum]] (= set of [[maximal ideals]]) of a finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra]] without [[nilpotent element|nilpotents]], equipped with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
-  Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
+  Affine varieties can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
 
 ## Properties
 
@@ -39,6 +39,6 @@ The converse requires in addition some finiteness condition. ([Ballico 08](#Ball
 
 ## References
 
-* {#Ballico08} E. Ballico, _A characzerization of affine varieties_ 2008
+* {#Ballico08} E. Ballico, _A characterization of affine varieties_ 2008
 
 [[!redirects affine varieties]]
