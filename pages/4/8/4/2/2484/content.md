@@ -12,4 +12,13 @@ $$
 
 The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_R$ corresponds to a non-affine scheme.
 
+## Related concepts
+
+* [[gros topos]]
+
+## References
+
+* [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, [gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228).
+
 [[!redirects functors of points]]
+
