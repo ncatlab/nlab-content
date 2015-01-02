@@ -31,7 +31,7 @@ This has various more explicit presentations. One is by [[quadratic Hamiltonians
 ### Circle extension $Mp^c$ of $Sp$
   {#CircleExtension}
 
-There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is (eg. [Cahen-Gutt 13](#CahenGutt13))
+There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is ([Forger-Hess 79 (2.4)](#ForgerHess79) [Cahen-Gutt 13](#CahenGutt13))
 
 $$
   Mp^c(V,\omega) = Mp(V,\omega) \times_{\mathbb{Z}_2} U(1)
@@ -95,6 +95,8 @@ Original references include
 * [[Andre Weil]], _Sur certains groupes d'op&#233;rateurs unitaires_, Acta Math. 111: 143&#8211;211. (1964).
 
 * {#KashiwaraVergne78} M. Kashiwara; [[Michèle Vergne]], _On the Segal-Shale-Weil Representations and Harmonic Polynomials_, Inventiones mathematicae (1978) ([EuDML](https://eudml.org/doc/142517), [pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0044&divID=LOG_0008&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0044%7C&targetFileName=PPN356556735_0044_LOG_0008.pdf&))
+
+* {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103904723))
 
 * {#Leray81} [[Jean Leray]], _Lagrangian analysis and quantum mechanics_, MIT press 1981 [pdf](http://www.maths.ed.ac.uk/~aar/papers/leraybook.pdf)
 
