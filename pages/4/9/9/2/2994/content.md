@@ -19,7 +19,9 @@ $$\array{
 D & \to & k \\
 \downarrow & & \downarrow_\mathrlap{i} \\ 
 k & \underset{[p/q] \circ i}{\to} & \mathbb{P}^1(k) 
-}$$  
+}$$ 
+
+It should also be noticed that such endofunctions $[p/q]$ on $\mathbb{P}^1(k)$ are closed under composition (except that special provision must be made for the constant function valued at $\infty$, which corresponds to the "fraction" $1/0$).  
 
 ## Properties
 
