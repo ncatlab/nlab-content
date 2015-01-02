@@ -680,7 +680,7 @@ This shows that $Extr \circ Rec = id$ and in particular that $Rec$ is a [[surjec
 #### Formulation in homotopy theory
  {#FormulationInHomotopyTheory}
 
-We discuss the classification of central group extensions by degree-2 [[group cohomology]] in the more abstract context of [[homotopy theory]], complementing the [above](CentralExtensionClassificationByGroupCohomology
+We discuss the classification of central group extensions by degree-2 [[group cohomology]] in the more abstract context of [[homotopy theory]] (via the translation discussed at _[[looping and delooping]]_), complementing the [above](CentralExtensionClassificationByGroupCohomology
 ) component-wise discussion. 
 
 
@@ -900,7 +900,7 @@ group extensions, first in the form of
 
 and then more abstractly in the language of [[homotopy theory]] in
 
-* _[Homotopy theory perspective on Schreier theory](#SchreiberTheorynPOV)_
+* _[Homotopy theory perspective on Schreier theory](#SchreierTheorynPOV)_
 
 
 #### Traditional description
@@ -1544,7 +1544,7 @@ extension satisfied.
 =--
 
 #### Formulation in homotopy theory 
- {#SchreiberTheorynPOV}
+ {#SchreierTheorynPOV}
 
 One may regard the above from the [[nPOV]] as a special case of the way cocycles in the general notion of [[cohomology]] classify their [[homotopy fibers]]. More on this is at
 
