@@ -37,6 +37,8 @@ The collection of all Lagrangian subspaces of a given space is called its [[Lagr
 
 * [[Maslov index]]
 
+* [[metaplectic structure]]
+
 [[!include (co)isotropic subspaces - table]]
 
 
