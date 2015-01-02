@@ -20,6 +20,8 @@ For $R$ a [[ring]] and $N$ an $R$-[[module]] which is finitely [[generators and 
 
 Higher order syzygies are relations between these relations, and so forth.
 
+Similar definitions apply in non-additive contexts. In the theory of [[group presentation]]s, 2-dimensional [[homotopical syzygies]] are specific representatives for [[identities among relations]] of a presentation of a group.
+
 ## Definition
 
 Let $R$ be a [[ring]], $N$ an $R$-[[module]] generated on $n$ generators. Write
