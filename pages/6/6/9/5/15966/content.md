@@ -40,7 +40,22 @@ when $P$ has constant coefficients by using the analytic continuation of the com
 
 Global analytic index theory should give a setting for index theory on [[global analytic spaces]] that gives back usual index theorems when one works over $\mathbb{C}$ or $\mathbb{R}$, but that gives new interesting theorems when one works with analytic spaces or even analytic stacks over $\mathbb{Z}$ equipped with its archimedean norm. It should also give back the p-adic index theorems of Christol-Mebkhout when one works in a Frobenius-equivariant setting over $\mathbb{Z}_p$ or $\mathbb{Q}_p$.
 
-The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion. One also needs a version of [[Grothendieck duality]] adapted to global analytic derived geometry, because it is necessary to define Hochschild homology in Kashiwara and Schapira's approach to index theory.
+The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion. One also needs a version of [[Grothendieck duality]] adapted to global analytic derived geometry, because it is necessary to define microlocal Hochschild homology in Kashiwara and Schapira's approach to index theory.
+
+## Pursuing global analytic trace kernels
+
+Recall that a trace kernel in Kashiwara and Schapira's sense
+is a $k_{M\times M}$-module $K$ together with a sequence of morphisms
+$$k_\Delta\to K\to \omega_\Delta$$
+and the corresponding class is a section of $\mu hom(k_\Delta,\omega_\Delta)$.
+
+In the coherent setting, the analog of a trace kernel associated to a coherent $\mathcal{O}$-module $\mathcal{F}$ is given by the sequence
+$$\mathcal{O}_\Delta\to \mathcal{F}\boxtimes D\mathcal{F}\to \omega^{hol}_\Delta.$$
+
+In the $\mathcal{D}$-module setting, the analog of a trace kernel of a coherent
+$\mathcal{D}$-module $\mathcal{M}$ is given by the sequence
+$$\mathcal{O}_\Delta\to \mathcal{M}\boxtimes D_\mathcal{D}\mathcal{M}\to \omega^{hol}_\Delta$$
+and one sends it to the trace kernel given by taking the de Rham functor (tensor product operation $\omega_{X\times X}\otimes_\mathcal{D}-$.
 
 ## A possible set of constraints for a coherent theory
 
@@ -57,9 +72,9 @@ One should be able to define global analytic analogs of:
 
 1. The Grothendieck six operations on sub-analytic &#233;tale Hodge structures (given by a loop space construction of the Hodge filtration, without denominators, together with a Betti structure, given in the real case by non-strict sub-analytic &#233;tale constructible sheaves).
 
-1. The Chern character in various situations, using (a probably noncommutative generalization of) the formalism of Toen-Vezzosi applied to the following stacks of rigid (maybe non) symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
+1. The Chern character in various situations, using either the formalism of Toen-Vezzosi or the formalism of Kashiwara-Schapira, applied to the following stacks of rigid (maybe non) symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
 * the stack $X\mapsto Perf(X)$ of perfect $\mathcal{O}$-modules (derived analog of coherent modules),
-* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality.
+* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality; the problem with this stack is that it doesn't take care of the derived (infinitesimal) information, so its treatment should be given in a Kashiwara-Schapira approach.
 * one would also like to treat the case of (at least holonomic) $\mathcal{D}$-modules, either using the Ran space or another construction. It seems that Toen-Vezzosi's approach has to be modified to treat this case properly because of the compound tensor structure $(\otimes^!,\otimes^*)$ on $\mathcal{D}$-modules on the Ran space.
 
 1. The treatment of $\mathcal{D}$-modules and $\mathcal{D}_q$-modules in a uniform setting may involve the following generalization of the Kashiwara and Schapira approach (in a Toen-Vezzosi type of setting) due to F. Petit: one must work with trace kernels, and compute the trace of their action on the Hochschild or cyclic homology of ---non-symmetric--- monoidal categories of (typically) bimodules on an associative algebra. The proper treatment of this theory will be discussed in the section [[non-commutative global analytic index theory]].
