@@ -17,7 +17,7 @@ For example, if we have the symmetric group $S_3$, or, isomorphically, the dihed
 
 $$S_3=\{1,a,a^2,b,ab,a^2b\}.$$
 
-What about the other words: $ba$ for instance.  If one calculates $b a$ in $S_3$ and then looks up what you get you have $ba = a^2b$, so that there is a relation between these two words. This however is not all. What about $b a b a a b a a  a b b a a $ that is a word in the $a$s and $b$s so should represent something in $S_3$, in fact if you thing in the geometric version of $D_3$ you can pick up  a triangle and interpret that word as a list of instructions for moving the triangle. You then find out what this word is out of the 6 possibles. 
+What about the other words: $ba$ for instance.  If one calculates $b a$ in $S_3$ and then looks up what you get you have $ba = a^2b$, so that there is a relation between these two words. This however is not all. What about $b a b a a b a a  a b b a a $? That is a word in the $a$s and $b$s so should represent something in $S_3$. in fact if you think in the geometric interpretation of $S_3$ as being the dihedral group, $D_3$, you can pick up  a triangle and interpret that word as a list of instructions for moving the triangle. You then find out what this word is out of the 6 possible given forms. 
 
 For a presentation, you give a set of generators $X$, so there will be an epimorphism from $F(X)$ to $G$, and then you try to find a description for the kernel of that epimorphism, which we will denote by $N$.  The description of this normal subgroup $N$ is as the [[normal closure]] of a set $R$ of relations, i.e. words in the generators or, equally validly, elements in the free group on $X$.
 
