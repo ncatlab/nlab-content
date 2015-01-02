@@ -294,13 +294,24 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 
 =--
 
+## Classes of examples
+
+* [[CR manifold]]
+
+* [[symplectic manifold]]
+
+* etc.
+
 ## Related concepts
+
 
 * [[embedding of smooth manifolds]]
 
 * [[infinite dimensional smooth manifold]]
 
 * [differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)
+
+
 
 ## References
 
