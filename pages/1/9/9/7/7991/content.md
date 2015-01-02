@@ -31,7 +31,7 @@ This has various more explicit presentations. One is by [[quadratic Hamiltonians
 ### Circle extension $Mp^c$ of $Sp$
   {#CircleExtension}
 
-There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is ([Forger-Hess 79 (2.4)](#ForgerHess79) [Cahen-Gutt 13](#CahenGutt13))
+There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is ([Forger-Hess 79 (2.4)](#ForgerHess79))
 
 $$
   Mp^c(V,\omega) = Mp(V,\omega) \times_{\mathbb{Z}_2} U(1)
@@ -39,7 +39,9 @@ $$
 
 (This is in direct [[analogy]] to the group [[Spin^c]] and its relation to [[Spin]].)
 
-Again, this has various more explicit presentations. A standard one is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+Again, this has various more explicit presentations. 
+
+By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
 
 $$
   W(g(v)) = U_g W(v) U^{-1}_g
@@ -54,6 +56,8 @@ $$
 $$
 
 e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89), [Derezi&#324;ski-G&#233;rard 13, def. 10.24](#DerezinskiG&#233;rard13))
+
+Alternatively, there is again a characterization by [[quadratic Hamiltonians]] ([Robinson-Rawnsley 89, theorem (2.4)](#RobinsonRawnsley89)
 
 ## Properties
 
