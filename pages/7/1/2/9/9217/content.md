@@ -41,6 +41,10 @@ $$
 * [[Shlomo Sternberg]], _Lectures in differential geometry_
 * L. Vitagliano, _Hamilton-Jacobi diffieties_, [arxiv/1104.0162](http://arxiv.org/abs/1104.0162)
 
+Specifically for [[quadratic Hamiltonians]]:
+
+* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], remark 3.4 in _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
+
 [[!redirects Hamilton-Jacobi equations]]
 
 [[!redirects Hamilton-Jacobi theory]]
