@@ -21,20 +21,25 @@
 
 ## Definition
 
-### Double cover $Mp$
+### Double cover $Mp$ of $Sp$
+ {#DoubleCover}
 
 For $(V,\omega)$ a [[symplectic vector space]], the _metaplectic group_ $Mp(V,\omega)$ is the [[Lie group]] which is [[generalized the|the]] [[universal cover|universal]] [[double cover]] of the [[symplectic group]] $Sp(V,\omega)$.
 
-This has various more explicit presentations. 
+This has various more explicit presentations. One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by paths of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
 
-One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by paths of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
-
-### Circle extension $Mp^c$
+### Circle extension $Mp^c$ of $Sp$
   {#CircleExtension}
 
-There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. This is in direct [[analogy]] to the group [[Spin^c]] and its relation to [[Spin]].
+There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is (eg. [Cahen-Gutt 13](#CahenGutt13))
 
-Let $(V, \omega)$ be a [[symplectic vector space]]. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of its [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+$$
+  Mp^c(V,\omega) = Mp(V,\omega) \times_{\mathbb{Z}_2} U(1)
+$$
+
+(This is in direct [[analogy]] to the group [[Spin^c]] and its relation to [[Spin]].)
+
+Again, this has various more explicit presentations. A standard one is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of its [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
 
 $$
   W(g(v)) = U_g W(v) U^{-1}_g
@@ -103,7 +108,7 @@ Further discussion includes
 
 * [[John Rawnsley]], _On the universal covering group of the real symplectic group_, Journal of Geometry and Physics 62 (2012) 2044&#8211;2058 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rawnsley.pdf))
 
-* [[Michel Cahen]], [[Simone Gutt]], _$Spin^c$, $Mp^c$ and Symplectic Dirac Operators_, Geometric Methods in Physics Trends in Mathematics 2013, pp 13-28 ([pdf](http://homepages.ulb.ac.be/~sgutt/spinbiel.pdf))
+* {#CahenGutt13} [[Michel Cahen]], [[Simone Gutt]], _$Spin^c$, $Mp^c$ and Symplectic Dirac Operators_, Geometric Methods in Physics Trends in Mathematics 2013, pp 13-28 ([pdf](http://homepages.ulb.ac.be/~sgutt/spinbiel.pdf))
 
 * {#DerezinskiG&#233;rard13} Jan Derezi&#324;ski, Christian G&#233;rard, _Mathematics of Quantization and Quantum Fields_, Cambridge University Press, 2013
 
