@@ -5,11 +5,11 @@
 
 ## Definition
 
-Given a [[commutative ring]] $R$, the commutative _ring of **rational functions**_ $R(z)$ with coefficients in $R$ is the [[field of fractions]] of the [[polynomial ring]] $R[z]$.  
+Given an [[integral domain]] $R$, the commutative _ring of **rational functions**_ $R(z)$ with coefficients in $R$ is the [[field of fractions]] of the [[polynomial ring]] $R[z]$.  
 
 Let $X$ be an [[affine variety]] over a field $k$ with the ring of [[regular function]]s $\mathcal{O}(X)$. A __rational function__ is any element of the [[field of fractions]] of $\mathcal{O}(X)$, that is the [[function field]] of the variety.
 
-In either case, rational functions are [[equivalence classes]] of fractions; they need not be [[functions]] defined everywhere.
+In either case, rational functions are [[equivalence classes]] of fractions; they need not be [[functions]] defined everywhere. If $k$ is a field, then to each fraction $\frac{p(x)}{q(x)} \in k(x)$ with $p, q \in k[x]$ relatively prime, we may associate a partial function $k \rightharpoonup k$ whose [[domain]] consists of $a \in k$ such that $q(a) \neq 0$ (defining $q(a)$ as usual as the value of $q$ under the unique $k$-algebra map $k[x] \to k$ sending $x$ to $a$), and sending each $a$ in the domain to $\frac{p(a)}{q(a)}$. For the purposes of most elementary mathematics, the domain given here may be described as the "natural domain" of the rational function. 
 
 ## Properties
 
