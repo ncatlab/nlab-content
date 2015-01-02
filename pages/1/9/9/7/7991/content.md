@@ -24,6 +24,7 @@
 ### Double cover $Mp$ of $Sp$
  {#DoubleCover}
 
+
 For $(V,\omega)$ a [[symplectic vector space]], the _metaplectic group_ $Mp(V,\omega)$ is the [[Lie group]] which is [[generalized the|the]] [[universal cover|universal]] [[double cover]] of the [[symplectic group]] $Sp(V,\omega)$.
 
 This has various more explicit presentations. One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by paths of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
@@ -59,6 +60,42 @@ e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89), [Derezi&#324;ski-G&#23
 
 Alternatively, there is again a characterization by [[quadratic Hamiltonians]] ([Robinson-Rawnsley 89, theorem (2.4)](#RobinsonRawnsley89)
 
+### Circle extension $MU^c$ of $U$
+ {#CirclExtensionMUc}
+
+A [[symplectic vector space]] $(V,\omega)$ has a compatible [[complex structure]] $J$. Write 
+
+$$
+  U(V,J) \hookrightarrow Sp(V,\omega)
+$$ 
+
+for the corresponding [[unitary group]]. 
+
++-- {: .num_prop #MUc}
+###### Definition
+
+The restriction ([[pullback]]) of $Mp^c$ [above](#CircleExtension) to this subgroup is denoted $MU^c$ in ([Robinson-Rawnsley 89, p. 22](#RobinsonRawnsley89)) 
+
+$$
+  \array{
+      U(1) &=& U(1)
+      \\
+      \downarrow && \downarrow
+      \\
+      MU^c(V,J) &\hookrightarrow& Mp^c(V,\omega)
+      \\
+      \downarrow && \downarrow
+      \\
+     U(V,J) &\hookrightarrow& Sp(V,\omega)
+  }
+$$
+
+
+=--
+
+(beware the notational clash with the [[Thom spectrum]] [[MU]], which is unrelated).
+
+
 ## Properties
 
 ### Relation to the metalinear group
@@ -68,6 +105,7 @@ Inside the [[symplectic group]] $Sp(2n, \mathbb{R})$ sits the [[general linear g
 $$
   Gl(n,\mathbb{R}) \hookrightarrow Sp(2n,\mathbb{R})
 $$
+
 
 as the subgroup that preserves the standard [[Lagrangian submanifold]] $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$. Restriction of the metaplectic [[group extension]] along this inclusion defines the [[metalinear group]] $Ml(n)$
 
@@ -83,6 +121,57 @@ $$
 $$
 
 Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metalinear structure]] on its [[Lagrangian submanifolds]].
+
+### (Non-)Triviality of extensions
+ {#NonTrivialityOfExtensions}
+
++-- {: .num_prop}
+###### Proposition
+
+The extension
+
+$$
+  U(1)\to Mp^c(V,\omega) \to Sp(V,\omega)
+$$
+
+is nontrivial (does not give a [[split exact sequence]]).
+
+=--
+
+([Robinson-Rawnsley 89, theorem (2.8)](#RobinsonRawnsley89))
+
++-- {: .num_prop #MUcExtensionSplits}
+###### Proposition
+
+The extension
+
+$$
+  U(1)\to MU^c(V,J) \to U(V,J)
+$$
+
+is trivial (does give a [[split exact sequence]]).
+
+=--
+
+([Robinson-Rawnsley 89, theorem (2.9)](#RobinsonRawnsley89))
+
++-- {: .num_cor #SpStructureLiftsToMpcStructure}
+###### Corollary
+
+Every [[symplectic manifold]] admits a [[metaplectic structure]].
+
+=--
+
+([Robinson-Rawnsley 89, theorem (6.2)](#RobinsonRawnsley89))
+
++-- {: .proof}
+###### Proof
+
+Since the [[unitary group]] $U(V,J)$ is the [[maximal compact subgroup]] of the [[symplectic group]] (see [here](maximal+compact+subgroup#ExamplesForLieGroups)) every $Sp(V,\omega)$-[[principal bundle]] has a [[reduction of the structure group|reduction]] to a $U(V,J)$-principal bundle. By prop. \ref{MUcExtensionSplits} this reduction in turn lifts to a $MU^c(V,J)$-structure. By def. \ref{MUc} this induces an $Mp^c$-structure under inclusion along $MU^c \hookrightarrow Mp^c$.
+
+=--
+
+
 
 ## Related concepts
 
