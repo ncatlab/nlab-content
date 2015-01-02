@@ -187,6 +187,8 @@ The [[automorphism group]] of the Heisenberg group is the [[symplectic group]].
 
 * [[quantomorphism group]]
 
+* [[spherical CR manifold]]
+
 * [[Heisenberg n-group]]
 
 ## References
