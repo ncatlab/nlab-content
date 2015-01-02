@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _Heisenberg group_ is a [[Lie group]] [[Lie integration|integrating]] a _[[Heisenberg Lie algebra]]_. 
+A _Heisenberg group_ (or _Weyl-Heisenberg group_) is a [[Lie group]] [[Lie integration|integrating]] a _[[Heisenberg Lie algebra]]_. 
 
 There are several such, and so the conventions in the literature vary slightly as to which one to pick by default. 
 
@@ -212,4 +212,7 @@ Discussion of the [[representation theory]] of the infinite-dimensional Heisenbe
 
 [[!redirects Heisenberg Lie group]]
 [[!redirects Heisenberg Lie groups]]
+
+[[!redirects Weyl-Heisenberg group]]
+[[!redirects Weyl-Heisenberg groups]]
 
