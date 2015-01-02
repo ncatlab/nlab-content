@@ -229,7 +229,7 @@ $$
 +-- {: .num_prop #UniversalDeterminantLineBundleMap}
 ###### Proposition
 
-Under the identificaton $Spin^c \simeq Spin \underset{\mathbb{Z}_2}{\to}$ the "universal [[determinant line bundle]] map"
+Under the identificaton $Spin^c \simeq Spin \underset{\mathbb{Z}_2}{\times} U(1)$ the "universal [[determinant line bundle]] map"
 
 $$
   det \colon Spin^c \to U(1)
