@@ -44,7 +44,7 @@ This appears as ([Paradan 09, prop. 2.2](#Paradan09)).
 
 See at 
 
-* _[geometric quantization -- Quanum space of states](#geometric+quantization#GeometricQuantizationProper)_.
+* _[geometric quantization -- Quantum space of states](#geometric+quantization#GeometricQuantizationProper)_.
 
 ## Related concepts
 
