@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[trigonometric identity]]
+
+## References
+
+* Wikipedia, _[Trigonometric function](https://en.wikipedia.org/wiki/Trigonometric_functions)_
+
+[[!redirects trigonometric functions]]
