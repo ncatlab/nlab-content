@@ -1,2 +1,4 @@
 
 Length is the [[volume]] of 1-[[dimension]]al spaces.
+
+[[!redirects lengths]]
