@@ -30,7 +30,7 @@ For $C$ a [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinit
 
 * a [[dualizable object]];
 
-* a morphism $\eta : dim(X) : ev_X \circ coev_X \to Id_x$ in $\Omega_x C$ which is [[equivariance|equivariant]] with respect to [the canonical](cobordism%20hypothesis#TheCanonicalOnAction) [[∞-action]] of the [[circle group]] $SO(2)$ on $dim(X)$ and which is the [[unit of an adjunction|counit]] for an [[adjunction]] between the [[evaluation map]] $ev_X$ and [[coevaluation map]] $coev_X$.
+* a morphism $\eta : dim(X) = ev_X \circ coev_X \to Id_x$ in $\Omega_x C$ which is [[equivariance|equivariant]] with respect to [the canonical](cobordism%20hypothesis#TheCanonicalOnAction) [[∞-action]] of the [[circle group]] $SO(2)$ on $dim(X)$ and which is the [[unit of an adjunction|counit]] for an [[adjunction]] between the [[evaluation map]] $ev_X$ and [[coevaluation map]] $coev_X$.
 
 =--
 
@@ -44,7 +44,7 @@ This is ([Lurie 09, def. 4.2.6](#Lurie09)).
 +-- {: .num_example }
 ###### Example
 
-Let $\mathbf{S}$ be a [[good symmetric monoidal (∞,1)-category|good]] [[symmetric monoidal (∞,1)-category]]. Write $Alg(\mathbf{S})$ for the [[symmetric monoidal (∞,n)-category|symmetric monoidal (∞,2)-category]] whose [[object]]s are [[algebra in an (∞,1)-category|algebra objects]] in $\mathbf{S}$ and whose [[morphisms]] are [[bimodule]] objects. 
+Let $\mathbf{S}$ be a [[good monoidal (∞,1)-category|good]] [[symmetric monoidal (∞,1)-category]]. Write $Alg(\mathbf{S})$ for the [[symmetric monoidal (∞,n)-category|symmetric monoidal (∞,2)-category]] whose [[object]]s are [[algebra in an (∞,1)-category|algebra objects]] in $\mathbf{S}$ and whose [[morphisms]] are [[bimodule]] objects. 
 
 Then a Calabi-Yau object in $Alg(\mathbf{S})$ is an algebra object $A$ equipped with an $SO(2)$-equivariant morphism
 
@@ -100,7 +100,7 @@ $$
 $$
 
 
-Its's would-be [[adjoint]], the "appearance of a circle" is not included in $Bord_2^{nc}$.
+Its would-be [[adjoint]], the "appearance of a circle" is not included in $Bord_2^{nc}$.
 
 This is closely related to the description of [[2d TQFT]] as [[TCFT]]s ([Lurie 09, theorem 4.2.13](#Lurie09)).
 
