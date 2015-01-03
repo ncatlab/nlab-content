@@ -32,8 +32,35 @@ Specifically for discussion of obtaining or approximating the [[standard model o
  {#G2Manifolds}
 
 ### The C-field
+ {#TheCField}
 
-In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance towards the end of ([Bilal-Serendinger-Sfetos 02](#BilalDerendingerSfetos)) for a derivation.
+In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance ([Bilal-Serendinger-Sfetos 02, section 6](#BilalDerendingerSfetos)):
+
+Consider a [[KK-compactification]]-Ansatz $X_{11} = (X_4,g_4) \times (X_7,g_7)$ and
+
+* $F_4 = f vol_{X_4}$;
+
+* $F_7 = \tilde g e_7^\ast \phi_4$
+
+where $e_4$, $e_7$ are given [[vielbein]] fields on $X_4$ and $X_7$ and $\phi_4$ is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]. Then the [[Einstein equations]] of [[11-dimensional supergravity]] give
+
+$$
+  R_4 = - \frac{1}{3}\left(f^2 + \frac{7}{2} \tilde g^2\right) g_4
+$$
+
+$$
+  R_7 = \frac{1}{6}\left(f^2 + 5 \tilde g^2\right) g_7
+$$
+
+(where $g_4$, $g_7$ is the [[pseudo-Riemannian metric|metric tensor]]) saying that both spaces are [[Einstein manifolds]] ([BSS 02, (5.4)](#BilalDerendingerSfetos)). The [[equations of motion]] for the [[supergravity C-field]] is
+
+$$
+  \tilde g\left(
+     d \phi - f \star\phi
+  \right)
+$$
+
+for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G2-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
 
 ### Singularities
 
@@ -64,8 +91,10 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
 
-* [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
- {#BilalDerendingerSfetos}
+* {#BilalDerendingerSfetos} [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
+ 
+* {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
+
 
 Surveys include
 
@@ -77,10 +106,11 @@ Surveys include
 
 * [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
-* Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
 
 * Adil Belhaj, _M-theory on G2 manifolds and the method of (p, q) brane webs_ (2004) ([web](http://iopscience.iop.org/0305-4470/37/18/011))
+
+* Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_ ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
 Compactificaton on [[orbifolds]] of $G_2$-manifolds, introducing ([[orbifold]]-) singularities necessary for realistic [[effective QFTs]] is discussed in 
 
@@ -105,4 +135,3 @@ A survey of the corresponding [[string phenomenology]] is in
 * [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
 [[!redirects G2 compactifications of M-theory]]
-
