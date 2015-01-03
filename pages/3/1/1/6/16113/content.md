@@ -1,0 +1,4 @@
+
+* [webpage](http://fds.duke.edu/db/aas/math/faculty/bryant/)
+
+category: people
