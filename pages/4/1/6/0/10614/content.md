@@ -7,6 +7,8 @@
   * [[quasiprojective variety]]
 * [[synthetic projective geometry]]
 
+* [[conic section]]
+
 
 ## References
 
