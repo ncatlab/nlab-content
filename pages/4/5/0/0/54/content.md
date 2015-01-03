@@ -13,11 +13,10 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 ## my position {#myposition}
 
-I have my PhD in theoretical [[physics]] but have worked in math departments ever since. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Had then a few months of guest position at [HIM](http://www.hausdorff-research-institute.uni-bonn.de) and then at [MPI](http://www.mpim-bonn.mpg.de/) in Bonn, and since 2009 have a postdoc position in Prof. [[Ieke Moerdijk]]'s group, first in Utrecht and then the group moved to Nijmegen in 2012.
+Presently I am visiting professsor at the _[Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz)_ in Prague, in Prof. [Vladim&#237;r Sou&#269;ek](http://www.karlin.mff.cuni.cz/~soucek/)'s group 
 
-This November I am spending at Paris-Diderot visiting [Gabriel Catren's group](http://www.sphere.univ-paris-diderot.fr/spip.php?article675) in a program on homotopy type theory and the foundations of physics.
+I have my PhD in theoretical [[physics]] but have worked in math departments ever since. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Had then a few months of guest researcher position at [HIM](http://www.hausdorff-research-institute.uni-bonn.de) and then at [MPI](http://www.mpim-bonn.mpg.de/) in Bonn. From 2009 to 2014 I had a postdoc position in Prof. [[Ieke Moerdijk]]'s group, first in Utrecht and then the group moved to Nijmegen in 2012. The end of 2014 I was a guest researcher at Paris-Diderot visiting [Gabriel Catren's group](http://www.sphere.univ-paris-diderot.fr/spip.php?article675) in a program on homotopy type theory and the foundations of physics.
 
-From January 2015 on I'll be visiting professsor in Prof. [Vladim&#237;r Sou&#269;ek](http://www.karlin.mff.cuni.cz/~soucek/)'s group at the _[Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz)_ in Prague. 
 
 ## my research {#myresearch}
 
