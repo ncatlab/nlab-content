@@ -1,4 +1,11 @@
 
+## Related concepts
+
+* [[conic section]]
+
+  * [[ellipse]], [[parabola]]
+
+* [[hyperbolic geometry]]
 
 ## References
 
