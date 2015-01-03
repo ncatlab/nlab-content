@@ -44,6 +44,7 @@ In contrast to topological QFTs, non-topological quantum field theories in the [
 * $S =$ [[pseudo-Riemannian metric|pseudo-Riemannian structure]] $\to$ "relativistic QFT"
 
 ## Examples
+ {#Examples}
 
 * [[2d TQFT]]
 
@@ -81,26 +82,45 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 * [[topological quantum computation]]
 
 ## References
+ {#References}
 
+See also the references at [[2d TQFT]], [[3d TQFT]] and [[4d TQFT]].
 
-### Global
+### Origin in physics
+
+The concept originates in the guise of [[cohomological quantum field theory]] motivated from TQFTs appearing in [[string theory]] in
+
+* [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys.
+Volume 117, Number 3 (1988), 353-386. ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
+
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
+
+and in the discussion of [[Chern-Simons theory]] in
+
+* [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+ 
+
+### Global (1-functorial) TQFT
 
 The [[FQFT]]-[[axioms]] for global (i.e. 1-functorial) TQFTs are due to
 
 * {#Atiyah89} [[Michael Atiyah]], _Topological quantum field theories_, Publications Math&#233;matiques de l'IH&#201;S 68 (68): 175&#8211;186,  (1989) ([Numdam](http://www.numdam.org/item?id=PMIHES_1988__68__175_0))
 
-Lecture notes include 
+Exposition of the conceptual ingrediants includes
+
+* [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspectic_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
+
+and more technical lecture notes include 
 
 * {#Walker06} [[Kevin Walker]], _TQFTs_, 2006 ([pdf](http://canyon23.net/math/tc.pdf))
 
-For [[HQFT]] see there
-
-An introduction to [[2D TQFT|2d TQFTs]] is in
+An introduction to [[2d TQFTs]] is in
 
 * [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theories_, No. 59 of LMSST, Cambridge University Press, 2003., (full information [here](http://mat.uab.es/~kock/TQFT.html)).
 
+See also the references at _[[HQFT]]_.
 
-### Local
+### Local ($n$-functorial) TQFT
 
 The local [[FQFT]] formulation (i.e. [[n-functor|n-functorial]]) together with the [[cobordism hypothesis]] was suggested in
 
@@ -110,13 +130,13 @@ and formalized and proven in
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]; _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
+This also shows how [[TCFT]] fits in, which formalizes the original proposal of 2d [[cohomological quantum field theory]].
+
 Lecture notes include
 
 * {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
 
-
-
-Othe amplifying the aspects of [[higher category theory]] is in
+A discussion amplifying the aspects of [[higher category theory]] is in
 
 * [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, ([arxiv/1004.2307](http://arxiv.org/abs/1004.2307))
 
