@@ -1,5 +1,11 @@
 > To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics. -- Jacob Bronowski, _The Ascent of Man_, page 160. 
 
+# Contents 
+* table of contents 
+{: toc} 
+
+## Introduction and History 
+
 In Euclidean geometry, the Pythagorean theorem expresses a necessary and sufficient condition on the lengths of the three sides of a triangle in order for it to be a right triangle. In the popular mind it is associated with the equation 
 
 $$a^2 + b^2 = c^2,$$ 
@@ -17,13 +23,17 @@ While it was traditional among ancient historians to credit Pythagoras with the 
 
 There are apparently hundreds of proofs. It should be noted that the Pythagorean theorem is a theorem of Euclidean geometry and depends on Euclid's parallel postulate, particularly the consequence that the sum of the interior angles of a triangle is invariably $180^\circ$. 
 
-One proof[^3] proceeds by constructing, given a right triangle with side lengths $a, b$ and hypotenuse length $c$, the unique line incident to the vertex at the right angle that meets the hypotenuse in a right angle. (N.B.: this construction is specific to Euclidean geometry.) This bisects the hypotenuse into two line segments, of length $c_1, c_2$ say with $c_1 + c_2 = c$. Moreover the given right triangle is thereby bisected into two right triangles, and due to the fact that the sum of the interior angles is always $180^\circ$, it may be seen that the two right triangles are similar (i.e., in proportion to) the given right triangle. (A picture is given [here](http://en.wikipedia.org/wiki/Pythagorean_theorem#Proof_using_similar_triangles).) Therefore, if one has side lengths $h, c_1$ and hypotenuse $a$ say, and the other has side lengths $h, c_2$ and hypotenuse $b$, we may derive proportionality equations 
+One proof[^3] proceeds by constructing, given a right triangle with side lengths $a, b$ and hypotenuse length $c$, the unique line incident to the vertex at the right angle that meets the hypotenuse in a right angle. (N.B.: this construction is specific to Euclidean geometry.) This bisects the hypotenuse into two line segments, of length $c_1, c_2$ say with $c_1 + c_2 = c$. (A picture is given [here](http://en.wikipedia.org/wiki/Pythagorean_theorem#Proof_using_similar_triangles).) Moreover the given right triangle is thereby bisected into two right triangles, and due to the fact that the sum of the interior angles is always $180^\circ$, it may be seen that the two right triangles are similar (i.e., in proportion) to the given right triangle. Therefore, if one has side lengths $h, c_1$ and hypotenuse $a$ say, and the other has side lengths $h, c_2$ and hypotenuse $b$, we may derive proportionality equations 
 
 $$c_1/a = a/c, \qquad c_2/b = b/c,$$ 
 
 from which we may derive $a^2 + b^2 = c_1 c + c_2 c = (c_1 + c_2)c = c^2$. 
 
-[^3]: The proof which appears in Book 1 of the Elements looks somewhat more elaborate, but the proof based on similar triangles perhaps had to await the development of a theory of proportion, set out in Book V. 
+[^3]: The proof which appears in Book 1 of the Elements looks somewhat more elaborate, but the proof based on similar triangles perhaps had to await the development of a theory of proportion, set out in Book 5. 
+
+## Modern points of view 
+
+(...) 
 
 ## References 
 
