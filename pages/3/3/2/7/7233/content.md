@@ -143,7 +143,6 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 * {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
  
-
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
 Surveys include
@@ -151,6 +150,9 @@ Surveys include
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+
+* [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
+
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
 
@@ -179,7 +181,8 @@ Weak $G_2$-holonomy is discussed in
 * [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
  {#BilalDerendingerSfetsos}
 
-* [[Adel Bilal]], [[Steffen Metzger]], _Compact weak $G_2$-manifolds with conical singularities_ ([pdf](http://cds.cern.ch/record/603880/files/0302021.pdf))
+* [[Adel Bilal]], Steffen Metzger, _Compact weak $G_2$-manifolds with conical singularities_ ([pdf](http://cds.cern.ch/record/603880/files/0302021.pdf))
+
 
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
