@@ -24,6 +24,8 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 ## Properties
 
+* [[Pythagorean theorem]]
+
 * [[pentagon decagon hexagon identity]]
 
 * [[Hadwiger's theorem]]
@@ -36,9 +38,15 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
+* [[parallel postulate]]
+
 * [[Riemannian geometry]]
 
 [[!include local and global geometry - table]]
+
+## References
+
+* [[Euclid]], _[[Elements]]_
 
 [[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
