@@ -19,7 +19,7 @@
 
 ## Idea
 
-The Weierstrass elliptic function $\wp$ is a doubly periodic [[meromorphic function]] on the [[complex numbers]] $\mathbb{C}$ (with the periods typically normalized to $1$ and $\tau$ satisfying $Im(\tau) \gt 0$, so that $\wp(z) = \wp(z + 1)$ and $\wp(z + \tau) = \wp(z)$) that exhibits an explicit parametrization of the form 
+The _Weierstrass elliptic function_ $\wp$ is a doubly periodic [[meromorphic function]] on the [[complex numbers]] $\mathbb{C}$ (with the periods typically normalized to $1$ and $\tau$ satisfying $Im(\tau) \gt 0$, so that $\wp(z) = \wp(z + 1)$ and $\wp(z + \tau) = \wp(z)$) that exhibits an explicit parametrization of the form 
 
 $$(\wp, \wp'): \mathbb{C}/L \to C$$ 
 
@@ -27,7 +27,7 @@ where $C \subset \mathbb{P}^2(\mathbb{C})$ is the set of solutions to the cubic 
 
 $$(\wp')^2 = 4\wp^3 + a\wp + b$$ 
 
-for some constants $a, b$, providing an explicit parametrization of an [[elliptic curve]] (a nonsingular projective cubic curve $C$ considered over $\mathbb{C}$) by a [[complex manifold|complex]] [[torus]] $\mathbb{C}/L$. 
+for some constants $a, b$, providing an explicit parametrization of an [[elliptic curve]] (a nonsingular projective [[cubic curve]] $C$ considered over $\mathbb{C}$) by a [[complex manifold|complex]] [[torus]] $\mathbb{C}/L$. 
 
 See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
@@ -45,3 +45,6 @@ See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
 [[!redirects Weierstrass elliptic functions]]
 [[!redirects Weierstrass's elliptic functions]]
+
+[[!redirects Weierstrass elliptic curve]]
+[[!redirects Weierstrass elliptic curves]]
