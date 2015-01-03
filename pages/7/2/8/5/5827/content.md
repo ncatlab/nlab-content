@@ -31,9 +31,18 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 ## Examples
 
-* A [[inner product]] on a real vector space is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).) 
+* An _[[inner product]]_ on a real vector space is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).) 
 
 * If $f \colon \mathbb{R}^n \to \mathbb{R}$ is of class $C^2$, then the [[Hessian]] of $f$ at a point defines a symmetric bilinear form. It may be degenerate, but in [[Morse theory]], a [[Morse function]] is a $C^2$ function such that the Hessian at each critical point is nondegenerate. 
+
+## Categorification and $n$POV
+ {#CategorificationsAndnPOV}
+
+Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/or [[categorification|categorifications]] of the concept of bilinear forms  include
+
+* [[2-Hilbert space]]
+
+* [[Calabi-Yau object]], [[Calabi-Yau A-infinity category]]
 
 ## Related concepts
 
@@ -44,6 +53,10 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 * [[symplectic form]], [[Kähler form]]
 
 * [[Riemannian metric]]
+
+* [[Pythagorean theorem]]
+
+* [[Cauchy–Schwarz inequality]]
 
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
