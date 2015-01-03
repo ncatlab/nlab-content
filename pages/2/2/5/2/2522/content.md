@@ -185,15 +185,21 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 ## References
 
 ### Textbooks and lectures
+ {#ReferencesTextbooksAndLectures}
 
-Texbook references include
+More mathematical accounts include
 
 * [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
 
-* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
+* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+also ([Deligne-Freed 99](#DeligneFreed99)).
 
+More physics-style accounts include
+
+* [[Joseph Polchinski]], appendix B of _[[String theory]]_, volume II, 
+
+* [[John Terning]], _Modern Supersymmetry_, Oxford Science Publications 
 
 A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in the collection
 
@@ -201,7 +207,7 @@ A fair bit of detail on supersymmetry and of [[supergravity]] with an eye toward
 
 especially in the contribution
 
-* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
 The appendix there,
 
@@ -213,7 +219,8 @@ See also
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
-* [[Joseph Polchinski]], _[[String theory]]_, volume II, appendix B
+* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+
 
 ### Classification
 
