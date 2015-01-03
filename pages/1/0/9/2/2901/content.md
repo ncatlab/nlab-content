@@ -28,6 +28,8 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 * [[pentagon decagon hexagon identity]]
 
+* [[conic section]]
+
 * [[Hadwiger's theorem]]
 
 ## Related concepts
