@@ -74,6 +74,8 @@ For more details, see at [metaplectic group -- (Non-)Triviality of Extensions](m
 
 * {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103904723))
 
+* R. J. Plymen, _The Weyl bundle_, Journal of Functional Analysis 49, 186-197 (1982) ([journal](http://www.sciencedirect.com/science/article/pii/0022123682900799))
+
 * {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
 
 * Michel Cahen, [[Simone Gutt]], [[John Rawnsley]], _Symplectic Dirac Operators and $Mp^c$-structures_ ([arXiv:1106.0588](http://arxiv.org/abs/1106.0588))
