@@ -30,14 +30,7 @@ $G_2$-manifolds may be understood as 7-dimensional analogs of real 6-dimensional
 +-- {: .num_defn #G2Structure}
 ###### Definition
 
-For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ is a choice of [[differential n-form|differential 3-form]] $\omega \in \Omega^3(X)$ such that there is an [[atlas]] over which this 3-form  locally identifies with the _[associative 3-form](G2#Definition)_ on the [[Cartesian space]] $\mathbb{R}^7$.
-
-Equivalently, this is a choice of [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion
-
-$$
-  G_2 \hookrightarrow GL(7)
-  \,.
-$$
+For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ is a [[G-structure]] for $G = $ [[G2]] $\hookrightarrow GL(7)$.
 
 =--
 
@@ -50,7 +43,6 @@ A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[R
 =--
 
 ### $G_2$-holonomy
-
 
 +-- {: .num_defn #G2manifold}
 ###### Definition
@@ -94,7 +86,7 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 
 =--
 
-(See for instance ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)).)
+(See for instance ([Bilal-Derendinger-Sfetsos 02](#BilalDerendingerSfetsos), [Bilal-Metzger 03](#BilalMetzger03)).)
 
 
 
@@ -117,7 +109,7 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 
 ### In supergravity 
 
-In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on $G_2$-manifolds (see for instance [Duff](#Duff)) can have attractive phenomenological properties, see for instance the _[[G2-MSSM]]_. 
+In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory on G2-manifolds]] (see for instance [Duff](#Duff)) can have attractive [[phenomenology|phenomenological]] properties, see for instance the _[[G2-MSSM]]_. 
 
 ## Related concepts
 
@@ -139,6 +131,14 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 ### General
 
+The concept goes back to 
+
+* E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.
+
+Non-compact $G_2$-manifolds were constructed in
+
+* [[Robert Bryant]], ; S.M. Salamon,  (1989), _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850.
+
 [[compact topological space|Compact]] $G_2$-manifolds were first found in 
 
 * {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
@@ -150,6 +150,7 @@ Surveys include
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+
 
 * [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
@@ -181,8 +182,11 @@ Weak $G_2$-holonomy is discussed in
 * [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
  {#BilalDerendingerSfetsos}
 
-* [[Adel Bilal]], Steffen Metzger, _Compact weak $G_2$-manifolds with conical singularities_ ([pdf](http://cds.cern.ch/record/603880/files/0302021.pdf))
+* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Compact weak $G_2$-manifolds with conical singularities_ ([arXiv:hep-th/0302021](http://arxiv.org/abs/hep-th/0302021))
 
+* {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
+
+For more on this see at _[[M-theory on G2-manifolds]]_
 
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
