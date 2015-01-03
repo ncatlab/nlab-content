@@ -1,0 +1,1 @@
+A polynomial all of whose monomial terms have the same degree. See [[polynomial]] for details. 
