@@ -93,6 +93,10 @@ Some of the standard lore about necessity of and the problems of quantum gravity
 
 * [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
 
+Exposition from the point of view of [[worldline formalism]] is in
+
+* {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
+
 ### Non-renormalizablity
 
 That [[Einstein gravity]] is not pertrubatively [[renormalization|renormaliable]] was shown in 
