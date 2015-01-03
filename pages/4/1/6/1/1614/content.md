@@ -87,15 +87,18 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 See also the references at [[2d TQFT]], [[3d TQFT]] and [[4d TQFT]].
 
 ### Origin in physics
+ {#OriginInPhysics}
 
 The concept originates in the guise of [[cohomological quantum field theory]] motivated from TQFTs appearing in [[string theory]] in
 
-* [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys.
+* {#Witten88} [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys.
 Volume 117, Number 3 (1988), 353-386. ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
-* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, International Journal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
-and in the discussion of [[Chern-Simons theory]] in
+* {#CordesMooreRamgoolam94} Stefan Cordes, [[Gregory Moore]], Sanjaye Ramgoolam, _Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories_, Nucl. Phys. Proc. Suppl.41:184-244,1995 ([arXiv:hep-th/9411210](http://arxiv.org/abs/hep-th/9411210))
+
+and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
 * [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
  
@@ -108,13 +111,15 @@ The [[FQFT]]-[[axioms]] for global (i.e. 1-functorial) TQFTs are due to
 
 Exposition of the conceptual ingrediants includes
 
-* [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspectic_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
+* [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
 
 and more technical lecture notes include 
 
+* [[Daniel Freed]], _Lectures on topological quantum field theory_, 1992 ([pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf))
+
 * {#Walker06} [[Kevin Walker]], _TQFTs_, 2006 ([pdf](http://canyon23.net/math/tc.pdf))
 
-An introduction to [[2d TQFTs]] is in
+An introduction specifically to [[2d TQFTs]] is in
 
 * [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theories_, No. 59 of LMSST, Cambridge University Press, 2003., (full information [here](http://mat.uab.es/~kock/TQFT.html)).
 
