@@ -96,6 +96,10 @@ Generally, the $n$-torus $T^n$ is $(S^1)^n$.
 
 * [[pseudocircle]]
 
+* [[conic section]]
+
+  * [[ellipse]], [[parabola]], [[hyperbola]]
+
 ## References
 
 A formalization in [[homotopy type theory]], along with a proof that $\Omega S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(S^1) \simeq \mathbb{Z}$), can be found in
