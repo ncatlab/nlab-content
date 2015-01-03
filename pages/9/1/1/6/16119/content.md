@@ -1,0 +1,8 @@
+
+[[Euclid]]'s textbook on [[synthetic geometry|synthetic]] [[Euclidean geometry]]
+
+## References
+
+* Wikipedia, _[[Euclid's Elements]]_
+
+[[!redirects Euclid's Elements]]
