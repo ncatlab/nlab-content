@@ -77,9 +77,13 @@ Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the *
 In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}$ with value group $G$. 
 
 
+## Related concepts
+
+* [Euclidean geometry -- Tarski's axioms](Euclidean+geometry#TarskiAxioms)
+
 ## References 
 
-* Serge Lang, _Algebra_ (3rd edition), Addison-Wesley, 1993. 
+* [[Serge Lang]], _Algebra_ (3rd edition), Addison-Wesley, 1993. 
 
 * David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
 
