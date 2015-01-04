@@ -300,7 +300,6 @@ In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] a
 
 * {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
  
-
 motivated as a formalization of ideas expressed in
 
 * {#Hegel1812} [[Georg Hegel]], _[[Science of Logic]]_, 1812
@@ -310,6 +309,10 @@ But according to
 * {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
 
 the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
+
+See also 
+
+* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letzbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
 
 * {#Wikipedia} Wikipedia, _[Hegelian dialectic](http://en.wikipedia.org/wiki/Hegelian_dialectic)_
 
