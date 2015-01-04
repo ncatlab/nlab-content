@@ -134,6 +134,176 @@ $$
 
 If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
 
+## In Homotopy Type Theory
+
+Let $FinSet$ be the type of finite sets.  A species is a type $X :
+Type$ equipped with an arrow into $Finset$:
+
+$$
+  Species \coloneqq \sum_{X : Type} (X \to FinSet)
+$$
+
+To obtain a generating function from $f : X \to FinSet$, we decategorify by
+0-truncating $FinSet$, making it equivalent to $\mathbb{N}$:
+
+$$
+  f \circ card : X \to FinSet \to {\|FinSet\|_{0}} \simeq \mathbb{N}
+$$
+
+The generating function of the species is then
+
+$$
+  {|X|}(z) 
+  \coloneqq 
+    \sum_{n=0}^{\infty} {\big| fib_{f \circ card}(n) \big|}\,  z^{n}
+  =
+  \sum_{n=0}^{\infty} {\big| fib_{f}(Fin(n)) \big|}\, \frac{z^{n}}{n!}
+$$
+
+where $Fin(n)$ is a type with exactly $n$ elements.
+
+If $\Phi : FinSet \to Type$ is a family of types, then we obtain the species
+
+$$
+  pr_{1} : \bigg(\sum_{A : FinSet} \Phi(A)\bigg) \to FinSet
+$$
+
+with generating function
+
+$$
+  {|\Phi|}(z)
+  =
+  \sum_{n=0}^{\infty} {|\Phi(Fin(n))|} \frac{z^{n}}{n!}
+$$
+
+So, if $\Phi$ is a [[stuff, structure, property|stuff, structure, or property]]
+on finite sets, then we immediately know something about its generating function, considered as an exponential generating function:
+
+* If $\Phi(A)$ is contractible for all $A$, then $\Phi(Fin(n)) = 1$, so its generating function is $e^{z}$.
+
+* If $\Phi(A)$ is a family of mere propositions, then every coefficient is either $0$ or $1$, according to whether $A$ can be equipped with a $\Phi$-structure or not
+    
+* If $\Phi(A)$ is a family of sets (i.e., a [[structure type]]), then every coefficient is an element of $\mathbb{N}$.
+    
+* If $\Phi(A)$ has a higher homotopy level (i.e., is a [[stuff type]]), then the coefficients are in $[0, \infty)$.
+
+Since any species $f : X \to Type$ is equal to
+
+$$
+  pr_{1} : \bigg(\sum_{x:X}fib_{f}(x)\bigg) \to Type
+$$
+
+every species is equal to one obtained from a stuff type.
+
+### Operations on species
+
+The five monoidal structures mentioned above under [Operations on species](#operations_on_species)
+can be represented in HoTT, along with a couple other useful operations.  We
+give four of the five monoidal structures here.
+For more operations, see ([Dougherty15](#Dougherty15)).  We assume throughout this subsection that $f : X \to \Finset$ and $g : Y \to Finset$ are two species, and $\Phi, \Psi : FinSet \to Type$ are two stuff types.
+
+#### Coproduct
+
+The recursion principle for the coproduct gives the species
+
+$$ \array{
+  (f + g) &:& X + Y \to Finset \\
+  (f + g) &:& (x, y) \mapsto f(x) + g(y)
+}$$
+
+If $X$ and $Y$ are obtained from $\Phi$ and $\Psi$, respectively, then the coproduct is equal to 
+
+$$
+  \sum_{A : FinSet} (\Phi(A) + \Psi(A))
+$$
+
+The generating function for the coproduct is
+
+$$
+  {|X + Y|}(z) = {|X|}(z) + {|Y|}(z)
+$$
+
+#### Hadamard product
+
+The Hadamard product of species is
+
+$$ \array{
+  \langle X, Y \rangle &:& X \times_{FinSet} Y \to FinSet \\
+  \langle X, Y \rangle &:& (x, y, p) \mapsto f(x)
+}$$
+
+which for stuff types is equal to
+
+$$ \array{
+  \sum_{A : FinSet} (\Phi(A) \times \Psi(A))
+}$$
+
+The generating functions are related by
+
+$$
+  {|\langle X, Y \rangle|}(z)
+  =
+  \sum_{n=0}^{\infty} n! X_{n} Y_{n} z^{n}
+$$
+
+where $X_{n}$ and $Y_{n}$ are the $n$th coefficients of the functions ${|X|}(z)$ and ${|Y|}(z)$, respectively.
+
+The name "Hadamard product" is used by Aguiar and Mahajan ([Aguiar-Mahajan10](#Aguiar10)) and Bergeron _et al._ ([Bergeron-Labelle-Leroux08](#Bergeron08)).  Baez and Dolan ([Baez-Dolan01](#Baez01)) call it the "inner product" of stuff types, because equipping the category of stuff types with this operation makes it a categorified version of the Hilbert space of a quantum harmonic oscillator.
+
+
+#### Cauchy product
+
+The Cauchy product of species is
+
+$$ \array{
+  (f \cdot g) &:& X \times Y \to FinSet \\
+  (f \cdot g) &:& (x, y) \mapsto f(x) + g(y) 
+} $$
+
+which for stuff types is equal to
+
+$$
+  \sum_{A, U, V : FinSet} \sum_{p : U + V = A} (\Phi(U) \times \Psi(V))
+$$
+
+So, $\Phi\Psi$ stuff on a finite set is the stuff of "being chopped in two, with $\Phi$ stuff on one part and $\Psi$ stuff on the other".
+
+The generating function is
+
+$$
+  {|X \cdot Y|}(z) = {|X|}(z) \cdot {|Y|}(z)
+$$
+
+
+#### Composition
+
+The composition of two species is
+
+$$ \array{
+  (f \tilde{\circ} g) &:& \bigg(\sum_{x:X}(Fin(card(f(x)) \to Y)\bigg) \to FinSet \\
+  (f \tilde{\circ} g) &:& (x, P, p) \mapsto \bigoplus_{i=1}^{card(f(x))}g(P(i))
+}$$
+
+where $\bigoplus_{i=1}^{n}g(P(i))$ is the $n$-ary direct sum of the finite sets $g(P(i))$.  For stuff types, this amounts to
+
+$$
+  \sum_{(A, C : FinSet)}\sum_{(B : Fin(card(C)) \to FinSet)} \bigg(
+  (B\vdash_{card(C)}A) \times \Phi(C) \times \prod_{k : Fin(card(C))} \Psi(B(k))
+  \bigg)
+$$
+
+That is, $\Phi \tilde{\circ} \Psi$ stuff on a finite set is a partition of the set into $card(C)$ subsets, with $\Phi$ stuff on the partition and $\Psi$ stuff on each of the subsets.
+
+The generating function of the composition is
+
+$$
+{|X \tilde{\circ} Y|}(z) = {|X|}({|Y|}(z))
+$$ 
+
+This species is also called the [[plethysm]] product.
+
+
+
 ## References
 
 The notion of species goes back to
@@ -147,11 +317,11 @@ An expositional discussion can be found at
 See also wikipedia: [combinatorial species](http://en.wikipedia.org/wiki/Combinatorial_species) and 
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Th&#233;orie des esp&#232;ces et combinatoire des structures arborescentes_ , LaCIM, Montr&#233;al (1994). English version: [[Combinatorial species and tree-like structures]], Cambridge University Press (1998).
-* F. Bergeron, G. Labelle, P. Leroux, _Introduction to the theory of
+* {#Bergeron08} F. Bergeron, G. Labelle, P. Leroux, _Introduction to the theory of
 species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_anglais_files/livre_combinatoire.pdf)
 * Fran&#231;ois Bergeron, _Species and variations on the theme of species_, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
 * G. Labelle, [video](http://www.sms.cam.ac.uk/media/937;jsessionid=9540827CB40AC9F1E61BF944127EBAF4) intro into combinatorial species at Newton Institute, Cambridge 2008
-* [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by Kenneth Brown, Stephen Chase, [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.tamu.edu/~maguiar/a.pdf))
+* {#Aguiar10} [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by Kenneth Brown, Stephen Chase, [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.tamu.edu/~maguiar/a.pdf))
 
 An application in computer science: 
 
@@ -161,7 +331,16 @@ An application in statistical mechanics:
 
 * W. Faris, _Combinatorial species and cluster expansions_, Mosc. Math. J. __10__:4 (2010), 713&#8211;727 [pdf](http://www.ams.org/distribution/mmj/vol10-4-2010/faris.pdf), [MR2791054](http://www.ams.org/mathscinet-getitem?mr=2791054)
 
+An application to Feynman diagrams:
+
+* {#Baez01} [[John Baez]] and [[James Dolan]], From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
+
+Formalization in homotopy type theory:
+
+* {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
+
 [[!redirects homotopical species]]
 [[!redirects (infinity,1) species]]
 [[!redirects ∞-species]]
 [[!redirects combinatorial species]]
+
