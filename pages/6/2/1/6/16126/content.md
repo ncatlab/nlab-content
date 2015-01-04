@@ -1,0 +1,17 @@
+
+
+
+## Related concepts
+
+* [[model theory]]
+
+* [[definable set]]
+
+* [[definable groupoid]]
+
+* [[Beth definability theorem]]
+
+* [[Craig interpolation theorem]]
+
+
+
