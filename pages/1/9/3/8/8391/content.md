@@ -64,13 +64,17 @@ For [[simple type theory]], type inhabitation is  decidable, whereas it is undec
 
 ## Related concepts
 
-* [[decidable subset]]
+* **decidability**
 
-* [[decidable object]]
+  * [[decidable subset]]
 
-* [[decidable equality]]
+  * [[decidable object]]
 
-* [[decidable proposition]]
+  * [[decidable equality]]
+
+  * [[decidable proposition]]
+
+* [[definability]]
 
 ## References
 
