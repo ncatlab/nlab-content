@@ -159,7 +159,7 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 * [[jet space]]
 
-* [[jet groupoid]]
+* [[jet group]], [[jet groupoid]]
 
 * [[metric jet]]
 
