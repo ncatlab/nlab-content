@@ -18,8 +18,9 @@ An important corollary is the [[Beth definability theorem]].
 The theorem plays an important role in [[abstract model theory]] where the question whether the Craig interpolation property can take over the role of the [[Löwenheim-Skolem theorem]] in [[Lindström's theorems]], has been called 'one of the main open problems of the field' by V&#228;&#228;n&#228;nen (2008, p.404).
 
 
-##Related Concepts
+## Related Concepts
 
+* [[definability]]
 * [[first-order logic]]
 * [[Beth definability theorem]]
 * [[Löwenheim-Skolem theorem]]
