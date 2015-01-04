@@ -33,7 +33,11 @@ For instance def. 1.4.1, def. 8.0.2 in
 
 * [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
 
-* _Renormalization scheme dependence_ [pdf](http://bolvan.ph.utexas.edu/~vadim/classes/2012f/ms.pdf)
 
+Discussion of dependence of quantities on choice of renormalization scheme includes
+
+* _Renormalization scheme dependence_, lecture notes ([pdf](http://bolvan.ph.utexas.edu/~vadim/classes/2012f/ms.pdf))
+
+* Matin Mojaza, Stanley J. Brodsky, Xing-Gang Wu, _A Systematic All-Orders Method to Eliminate Renormalization-Scale and Scheme Ambiguities in PQCD_ ([arXiv:1212.0049](http://arxiv.org/abs/1212.0049))
 
 [[!redirects renormalization schemes]]
