@@ -1,6 +1,7 @@
 
 {:formalization: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
+{:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 > under construction
 
@@ -101,20 +102,20 @@ Several examples of this appear below.
 
 Notice that indeed a fair bit of structure follows from maps of this form.
 
-For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $\int \dashv \flat$,
+For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $&#643; \dashv \flat$,
 we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28∞%2C1%29-topos#CohesiveAndDifferentialRefinement)
 
 $$
   \array{
-    &&  \int_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
+    &&  &#643;_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
     \\
-    \flat \int_{dR} \Omega A  && && A && && \int \flat_{dR}\Sigma A
+    \flat &#643;_{dR} \Omega A  && && A && && &#643; \flat_{dR}\Sigma A
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\int \theta_A}}
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{&#643; \theta_A}}
     \\
-    && \flat A && \longrightarrow && \int A
+    && \flat A && \longrightarrow && &#643; A
   }
   \,,
 $$
@@ -142,16 +143,16 @@ The following table lists proposals for possible such identifications. The conte
 | [[becoming]] | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | [[Dasein]]   | [[Aufhebung]] of [[becoming]] by [[sharp modality]] $\sharp$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
-| moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
-| quality | [[adjoint modality]] attraction $\dashv$ repulsion = $\int \dashv \flat$ | 
+| moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ |
+| quality | [[adjoint modality]] attraction $\dashv$ repulsion = $&#643; \dashv \flat$ | 
 | moment of discreteness | [[flat modality]] $\flat$ |
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
 | vanishing of infinitesimals | [[reduction modality]] |
 | being-for-self | [[reduction modality]] $\Re$ |
-| being-for-one | [[infinitesimal shape modality]] $\int_{inf}$ |
-| ideality | [[adjoint modality]] $\Re \dashv \int_{inf}$ | 
-| reality | [[adjoint modality]] $\int_{inf} \dashv \flat_{inf}$ | 
+| being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |
+| ideality | [[adjoint modality]] $\Re \dashv &#643;_{inf}$ | 
+| reality | [[adjoint modality]] $&#643;_{inf} \dashv \flat_{inf}$ | 
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
 | measure (= [[gauge field|gauge]]) | quality $\dashv$ quantity |
@@ -222,6 +223,7 @@ The orginal German is at times maybe more evocative than the established English
 #### First chapter
 
 From The Shorter Logic:
+
 * &#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
 
 * &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
@@ -412,11 +414,11 @@ Di Giovanni has
 
 * Existence is _determinate_ being;
 
-In any case, by the discussion at _[Becoming](#Becoming)_ we have that "being" is a moment of the adjunction $(\emptyset \dashv \ast)$ and the discussion at _[Relation between repulsion and attraction](#RelationBetweenRepulsionAndAttraction)_ we have that "quality" is the adjunction $(\int \dashv \flat)$. Therefore it seems that
+In any case, by the discussion at _[Becoming](#Becoming)_ we have that "being" is a moment of the adjunction $(\emptyset \dashv \ast)$ and the discussion at _[Relation between repulsion and attraction](#RelationBetweenRepulsionAndAttraction)_ we have that "quality" is the adjunction $(&#643; \dashv \flat)$. Therefore it seems that
 
 * types have "being" in the presence of $(\emptyset \dashv \ast)$
 
-  * types moreover have "existence"/Dasein in the further presence of $(\int \dashv \flat)$.
+  * types moreover have "existence"/Dasein in the further presence of $(&#643; \dashv \flat)$.
 
 For more on this see at _[Remark on reality as opposite to ideality](#RemarkOnRealityAsOppositeToDuality)_.
 
@@ -510,14 +512,15 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 * &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
+
 Compare "ideality" as "quality of infinity" with
 
 
 $$
   \array{
-    quality \colon \int \dashv \flat
+    quality \colon &#643; \dashv \flat
     \\
-    ideality \colon \Re \dashv \int_{inf}
+    ideality \colon \Re \dashv &#643;_{inf}
   }
 $$
 
@@ -553,7 +556,7 @@ $$
   \array{
     & attraction && repulsion
     \\
-    quality : & \int &\dashv& \flat
+    quality : & &#643; &\dashv& \flat
     \\
     & \bot && \bot
     \\
@@ -594,25 +597,25 @@ $$
   \array{
     & \text{f&#252;r sich sein} && \text{f&#252;r eins sein}
     \\
-    ideality & \Re &\dashv& \int_{inf}
+    ideality & \Re &\dashv& &#643;_{inf}
     \\
     & \bot && \bot
     \\
-    reality & \int_{inf} &\dashv& \flat_{inf}
+    reality & &#643;_{inf} &\dashv& \flat_{inf}
   }
 $$
 
 See also at _[The One and the Many](#EinsUndVieles)_.
 
-We might interpret this as follows: the $(\int_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
+We might interpret this as follows: the $(&#643;_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
 
 Hence in view of the previous disucssion at _[Existence As Such](#ExistenceAsSuch)_ it seems we have the following
 
 * types have "being" in the presence of $(\emptyset \dashv \ast)$
 
-  * types moreover have "existence"/Dasein in the further presence of $(\int \dashv \flat)$.
+  * types moreover have "existence"/Dasein in the further presence of $(&#643; \dashv \flat)$.
 
-    * types moreover have "reality" in the further presence of $(\int_{inf} \dashv \flat_{inf})$
+    * types moreover have "reality" in the further presence of $(&#643;_{inf} \dashv \flat_{inf})$
 
 in other words we have the following situation, in view of p. 7 of _[[Some Thoughts on the Future of Category Theory]]_:
 
@@ -629,7 +632,7 @@ $$
       \\
      && && \bot && \bot
       \\
-      && \int & \subset & \int_{inf} & \subset & id
+      && &#643; & \subset & &#643;_{inf} & \subset & id
       \\
       && \bot && \bot 
       \\
@@ -690,20 +693,20 @@ $\ast \simeq \not \emptyset$.
 
 
 To see a formalization of "the one repels itself from itself",
-suppose we have a [[shape modality]] $\int$ but without the assumption that it preserves finite product types. (This is what the term "[[shape of an (infinity,1)-topos|shape]]" really refers to).
+suppose we have a [[shape modality]] $&#643;$ but without the assumption that it preserves finite product types. (This is what the term "[[shape of an (infinity,1)-topos|shape]]" really refers to).
 
-Then given just the [[empty type]] $\emptyset$ and the [[unit type]] $\ast$, there is one new [[type]] to be formed (since necessarily $\int \emptyset \simeq \emptyset$) and this is
+Then given just the [[empty type]] $\emptyset$ and the [[unit type]] $\ast$, there is one new [[type]] to be formed (since necessarily $&#643; \emptyset \simeq \emptyset$) and this is
 
 $$
-  \int \ast 
+  &#643; \ast 
 $$
 
-Below we see that this, being a [[discrete type]], is what Hegel describes with "repulsion": The points in $\int \ast$ do not attract/cohese, they are different and repel.
+Below we see that this, being a [[discrete type]], is what Hegel describes with "repulsion": The points in $&#643; \ast$ do not attract/cohese, they are different and repel.
 
 At the same time, being a [[discrete type]] it is necessarily a [[homotopy colimit]] of copies of the [[unit type]] (see [here](limit+in+a+quasi-category#Tensoring))
 
 $$
-  \int \ast \simeq \underset{\longrightarrow}{\lim}_I \ast
+  &#643; \ast \simeq \underset{\longrightarrow}{\lim}_I \ast
 $$
 
 where the [[diagram]] $I$ that the colimit is over is $I = &#643; \ast$ itself.
@@ -842,7 +845,7 @@ $$
 
 attraction is what holds stuff together, hence this is the idea of [[cohesion]]
 
-if $X$ has continuity then the [[shape modality]] $\int X$ is the result of letting things collaps under their cohesion/attraction
+if $X$ has continuity then the [[shape modality]] $&#643; X$ is the result of letting things collaps under their cohesion/attraction
 
 
 ###### On discreteness and repulsion
@@ -879,7 +882,7 @@ we also have
 
 $$
   \array{
-    \flat X &\longrightarrow& X &\longrightarrow& \int X
+    \flat X &\longrightarrow& X &\longrightarrow& &#643; X
     \\
     repulsion &&  && { attraction/ \atop cohesion } 
   }
@@ -936,11 +939,16 @@ $$
 
 Here _Ma&#223;stab_ is translated as "standard". It can also, maybe better, be translated as "[[gauge]]". Therefore by ([699](#699)) we have 
 
++-- {: bluebox #gauge}
+###### .
+
+
+
 $$
   \array{
     & & attraction && repulsion
     \\
-    & quality : & \int &\dashv& \flat
+    & quality : & &#643; &\dashv& \flat
     \\
     gauge & \bot & \bot && \bot
     \\
@@ -949,6 +957,8 @@ $$
     & & discreteness && continuity
   }
 $$
+
+=--
 
 #### B. Specifying measure
 
@@ -1066,6 +1076,10 @@ $$
 A good survey is in 
 
 * [[Paul Redding]],  [section 3.2](http://plato.stanford.edu/entries/hegel/#SciLog) of _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
+
+detailed background, introduction and survey is in
+
+* {#Houlgate06} [[Stephen Houlgate]], _The opening of Hegel's Logic_, Purdue University Press, 2006 ([pdf](http://www.magonzalezvalerio.com/Houlgate,%20Stephen%20%20-%20The%20Opening%20of%20Hegel%27s%20Logic_From%20Being%20to%20Infinity%20-%20Purdue%20University%20Press.pdf))
 
 and a comprehensive set of lectures is at
 
