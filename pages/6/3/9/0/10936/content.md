@@ -39,6 +39,11 @@ From ([Hegel, Science of Logic, &#167;85](Science+of+Logic#85)):
 
 * [[Michael Dummett]], _The logical basis of metaphysics_, Harvard University Press ([publisher](http://www.hup.harvard.edu/catalog.php?isbn=9780674537866), [introduction pdf](http://philosophy.fas.nyu.edu/docs/IO/27735/Dummett.pdf))
 
+Discussion from a point of view of [[type theory]] is in
+
+* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/blob/master/pdfs/A-path-from-logic-to-metaphysics-1990.pdf?raw=true))
+
+
 * [[Tao Te Ching]]
 
 * [[Hegel's "Logic" as Modal Type Theory]]
