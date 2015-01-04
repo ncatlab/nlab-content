@@ -20,7 +20,7 @@ _Synthetic geometry_ is about formalization of [[geometry]] by [[axioms]] that d
 
 In the 19th century, after [[noneuclidean geometries]] were found (Lobachevski, Bolya, Gauss), mathematicians reexamined the [[foundations]] of [[geometry]]. Some schools concentrated on the [[axiom|axiomatic]] construction of geometry,  independent from the tools which were offered by the [[models]] with concrete [[coordinate]] [[algebra of functions|algebras]]. Synthetic geometry in this sense referred to doing geometry without recourse to [[algebras of functions]] and analytic computations. This was especially successful in [[projective geometry]], see _[[synthetic projective geometry]]_.
 
-The main part of synthetic geometry is the study of incidence structures in geometry, sometimes also called [[incidence geometry]].
+The main part of synthetic geometry is the study of incidence structures in geometry, sometimes also called [[incidence geometry]]. A modern point of view on incidence geometry is through the theory of [[buildings]]. 
 
 ## Comparison to synthetic differential geometry
  {#ComparisonToSDG}
