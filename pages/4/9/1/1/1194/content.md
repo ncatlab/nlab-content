@@ -534,6 +534,7 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[computational type theory]]
 
+
   * [[geometric type theory]]
 
   * [[linear type theory]]
@@ -570,7 +571,7 @@ Original articles include
 
 Surveys and introductions include
 
-* [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+* {#MartinLoef96} [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
 
 * Rober Constable, _The Triumph of Types: Creating a Logic of
 Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
@@ -631,6 +632,9 @@ for [[homological algebra]]:
 * [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
  {#CoquandSpiwack}
 
+Thoughts about type theory and [[metaphysics]] are in 
+
+* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/blob/master/pdfs/A-path-from-logic-to-metaphysics-1990.pdf?raw=true))
 
 Further online resources include
 
