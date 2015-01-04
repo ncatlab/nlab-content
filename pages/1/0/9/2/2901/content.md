@@ -42,7 +42,7 @@ Euclidean geometry in the sense of the Idea section makes reference to the extri
 
 Here we will just give an extremely sketchy description (for now, see [Wikipedia](http://en.wikipedia.org/wiki/Hilbert%27s_axioms) for a fuller account). It should be said right away that two of the Hilbert axioms are *not* first-order. 
 
-Hilbert's theory has 
+Hilbert's [[theory]] has 
 
 * Three sorts: points, line, planes (or if you like: tables, chairs, and beer mugs[^1]); 
 
@@ -50,7 +50,7 @@ Hilbert's theory has
 
 * Six relations: betweenness (a ternary relation on points), three incidence relations (one for points and lines, one for points and planes, one for lines and planes), and two congruence relations (a relation $L(a, b, c, d)$ on points whose intuitive meaning is that the the line segment $a b$ is congruent to the line segment $c d$, and a relation $A(a, b, c, d, e, f)$ on points whose intuitive meaning is that the angle $a b c$ is congruent to the angle $d e f$); 
 
-* A bunch of axioms (20 or 21 depending on which specific edition or translation or exposition one is working with; Wikipedia says 20 but actually has, confusingly, 21 -- see the Talk page for more information). They are organized as 
+* A bunch of [[axioms]] (20 or 21 depending on which specific edition or translation or exposition one is working with; Wikipedia says 20 but actually has, confusingly, 21 -- see the Talk page for more information). They are organized as 
   * Axioms of incidence (8), 
   * Axioms of betweenness (4),
   * Axioms of congruence (6), 
@@ -61,13 +61,13 @@ I ([[Todd Trimble]]) assume Hilbert's theory is, or is at least intended to be, 
 
 ### Tarski's axioms 
 
-Tarski's theory EPG (Elementary Plane [Euclidean] Geometry) is a one-sorted theory in first-order logic with equality, with variables representing points. There are no constants or operations in the signature, and just two relations: 
+Tarski's [[theory]] EPG (Elementary Plane [Euclidean] Geometry) is a one-sorted theory in first-order logic with equality, with variables representing points. There are no constants or operations in the signature, and just two relations: 
 
 * A ternary relation $B$ (betweenness), with $B(x, y, z)$ meaning $y$ is between $x$ and $z$ ($y$ is on the line segment between $x$ and $z$) -- we will write instead $B x y z$ to conserve space; 
 
 * A 4-ary relation $C$ (congruence), with $C(x, y, z, w)$ meaning that a line segment $x y$ is congruent (of the same length) as $z w$. For readability, we write this as $x y \equiv z w$. 
 
-The theory can be presented (in some sense very parsimoniously) by 10 axioms and one first-order axiom scheme. Axioms 8 and 9 constrain the dimension to $n = 2$ (Euclidean plane geometry), but there are analogues of 8 and 9 that constrain the dimension to any chosen number. Axiom 10 is an extremely disguised version of the Parallel Postulate, with a complicated history behind it. The axiom scheme 11 plays the role of a Dedekind cut axiom expressed in first-order terms. 
+The theory can be presented (in some sense very parsimoniously) by 10 axioms and one first-order axiom scheme. Axioms 8 and 9 constrain the dimension to $n = 2$ (Euclidean plane geometry), but there are analogues of 8 and 9 that constrain the dimension to any chosen number. Axiom 10 is an extremely disguised version of the [[parallel postulate|Parallel Postulate]], with a complicated history behind it. The axiom scheme 11 plays the role of a Dedekind cut axiom expressed in first-order terms. 
 
 1. $\vdash \; a b \equiv b a$, 
 
@@ -132,11 +132,10 @@ The significance of this result is that EPG is a complete and decidable theory, 
 
 * [[Euclid]], _[[Elements]]_ 
 
-* Alfred Tarski, _What is elementary geometry?_, in The axiomatic method. With special reference to geometry and physics. Proceedings of an International Symposium held at the Univ. of Calif., Berkeley, Dec. 26, 1957-Jan. 4, 1958 (ed. L. Henkin, P. Suppes, and A. Tarski), Studies in Logic and the Foundations of Mathematics, Amsterdam: North-Holland (1959), pp. 16&#8211;29. ([pdf](http://www.geographicknowledge.de/SeminarLFG/Tarski_Whatiselementarygeometry.pdf))
- {#Tarski} 
+* {#Tarski} [[Alfred Tarski]], _What is elementary geometry?_, in _The axiomatic method. With special reference to geometry and physics_ Proceedings of an International Symposium held at the Univ. of Calif., Berkeley, Dec. 26, 1957-Jan. 4, 1958 (ed. L. Henkin, P. Suppes, and A. Tarski), Studies in Logic and the Foundations of Mathematics, Amsterdam: North-Holland (1959), pp. 16&#8211;29. ([pdf](http://www.geographicknowledge.de/SeminarLFG/Tarski_Whatiselementarygeometry.pdf))  
 
-* Alfred Tarski and Steven Givant, _Tarski's system of geometry_, Bull. Symb. Logic, Vol. 5 No. 2 (1999), 175&#8211;214. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9012)) 
- {#TG} 
+* {#TG}  [[Alfred Tarski]] and Steven Givant, _Tarski's system of geometry_, Bull. Symb. Logic, Vol. 5 No. 2 (1999), 175&#8211;214. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9012)) 
+ 
 
 [[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
