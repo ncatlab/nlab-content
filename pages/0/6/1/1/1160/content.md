@@ -26,8 +26,9 @@ More generally, $X$ has __stable equality__ if any two elements of $X$ are equal
 
 
 ## Applications
+ {#Applications}
 
-Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields).  In [[analysis]], in contrast, constructivism matters right away, because the set of [[real numbers]] may not have decidable equality.  (However, the set of [[located real numbers]] does have stable equality.)
+Working with decidable subsets of sets with decidable equality makes [[constructive mathematics]] very much like [[classical mathematics]].  This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields).  In [[analysis]], in contrast, [[constructivism]] matters right away, because constructively the set of [[real numbers]] may not have decidable equality.  (However, the set of [[located real numbers]] does have stable equality.)
 
 
 ## In type theory
@@ -47,6 +48,9 @@ The converse of this is also true: if $Decidable1(A)$ holds, then not only does 
 
 For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dramatic.  For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies $Decidable2$ (which is what it means for the logic to be boolean), but only the h-sets satisfy $Decidable1$ (in accordance with Hedberg\'s theorem).
 
+## Related concepts
+
+* [[decidability]]
 
 ## References
 
