@@ -1071,7 +1071,7 @@ and a comprehensive set of lectures is at
 
 * [[Richard Dien Winfield]], _Lecture Course in Hegel's Science of Logic_ ([web](https://archive.org/details/LectureCourseInHegelsScienceOfLogic-RichardDienWinfield))
 
-Hegel himself expand on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
+Hegel himself expands on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
 
 * {#Hegel27} [[Georg Hegel]], Lectures on the Philosophy of Religion. Volume II: Determinate Religion. Edited by Peter C. Hodgson; translated by R.F. Brown, P.C. Hodgson, and J.M. Stewart, with the assistance of J.P. Fitzer and H.S. Harris. Berkeley: University of California Press, 1995 (orig. 1987). (Translation of: Vorlesungen &#252;ber die Philosophie der Religion.)  This extract (pp. 556-561) is from the Lectures of 1827; A. Immediate Religion, or Nature Religion; 1. The Religion of Magic; c. The State Religion of the Chinese Empire and the Dao. ([web](http://www.autodidactproject.org/quote/hegel-tao1.html))
 
@@ -1084,6 +1084,9 @@ Further comments on Hegel's text include
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
 
+Comments on the general aim of a fundamental logic based on [[dialectic]] are in
+
+* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letzbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
 
 Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
