@@ -52,7 +52,11 @@ from which we may derive $a^2 + b^2 = c_1 c + c_2 c = (c_1 + c_2)c = c^2$.
 
 ## Modern points of view 
 
-(...) 
+One modern point of view on the Pythagorean theorem is the following:
+
+Without loss of generality, we may consider the context of a 2-dimensional [[Euclidean space]] (the theorem being trivial in lower dimensions, and Euclidean structure on a higher-dimensional space just amounting to compatible Euclidean structure on each of its 2-dimensional subspaces). Over such a space, we consider the symmetric bilinear product taking two vectors to the oriented area of the parallelogram formed by the first and the quarter-turn of the second. (The quarter-turn operator is only canonical up to negation, but it doesn't matter for the canonicality of this product, interpreting its codomain suitably). Vectors are perpendicular just in case this product of them is zero; furthermore, the quadratic form corresponding to this product takes a vector to the area of the square formed upon it, which is to say, its squared length. Thus, we are in fact using the notions of perpendicularity and length which arise from an [[inner product space]], and the Pythagorean Theorem amounts to a special case of the simple algebraic identity $(a+b)^2=a^2+b^2+2 a b$ (which more generally is the [[Law of Cosines]]).
+
+That the Pythagorean Theorem holds in an inner product space is trivial; all that matters is establishing that one is, in fact, working in an inner product space. What it takes to establish this depends on what one is starting from (e.g., one might just as well axiomatize Euclidean geometry as the study of inner product spaces of particular dimension&#8230;), but the above approach might fairly be construed as teasing out the inner product structure inherent in geometry as an interested amateur would already be inclined to think of it.
 
 ## References 
 
