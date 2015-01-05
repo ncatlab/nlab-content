@@ -457,9 +457,9 @@ is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more det
 #### Homotopy type theory syntax
  {#TruncationHomotopyTypeTheorySyntax}
 
-Discussion of $n$-truncation of [[types]] in [[homotopy type theory]] via [[higher inductive types]] is in ([Brunerie](#Brunerie)). This sends a type to an [[h-level]] $(n+2)$-type.
+Discussion of $n$-truncation of [[types]] in [[homotopy type theory]] via [[higher inductive types]] is in ([Brunerie](#Brunerie)). This sends a type to an [[h-level]] $(n+2)$-type. The $(-1)$-truncation in the context is forming the [[bracket type]] [[hProp]].
 
-The $(-1)$-truncation in the context is forming the [[bracket type]] [[hProp]].
+See at _[[n-truncation modality]]_.
 
 ### Relation to homotopy groups {#RelationToHomotopyGroups}
 
