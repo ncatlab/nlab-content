@@ -411,11 +411,15 @@ species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_a
 
 An application in computer science: 
 
-* Brent Yorgey, _Random testing and beyond! with combinatorial species_, slides [pdf](http://www.cis.upenn.edu/~byorgey/talks/combtesting-ku-20091124.pdf); _Species and functors and types, oh my_, article, [pdf](http://www.cis.upenn.edu/~byorgey/papers/species-pearl.pdf)
+* [[Brent Yorgey]], _Random testing and beyond! with combinatorial species_, slides [pdf](http://www.cis.upenn.edu/~byorgey/talks/combtesting-ku-20091124.pdf); _Species and functors and types, oh my_, article, [pdf](http://www.cis.upenn.edu/~byorgey/papers/species-pearl.pdf)
 
-And his PhD thesis on combinatorial species in [[homotopy type theory]]
+Formalization in [[homotopy type theory]]:
 
-* Brent Yorgey, _Combinatorial Species and labelled structures._ [pdf](http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf)
+* [[Brent Yorgey]], _Combinatorial Species and labelled structures._ ([pdf](http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf))
+
+* {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
+
+
 
 An application in statistical mechanics:
 
@@ -425,9 +429,6 @@ Discussion in relation to [[Feynman diagrams]]:
 
 * {#Baez01} [[John Baez]] and [[James Dolan]], From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
-Formalization in [[homotopy type theory]]:
-
-* {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
 
 Discussion of generalised species:
 
