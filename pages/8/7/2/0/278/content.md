@@ -122,6 +122,11 @@ A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
+Discussion with emphasis on [[natural bundles]] is in
+
+* [[Ivan Kolá?]], [[Peter Michor]], [[Jan Slovák]],  _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+
+
 See also
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
