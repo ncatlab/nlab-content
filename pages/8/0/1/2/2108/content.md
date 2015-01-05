@@ -956,7 +956,10 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
  
     * [[spin-c quantization]]
  
+    * [[metaplectic quantization]]
+
     * [[geometric quantization of non-integral forms]]
+
 
   * [[path integral]]
 
