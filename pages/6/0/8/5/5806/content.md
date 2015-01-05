@@ -20,6 +20,7 @@ An _$(\infty,n)$-category of correspondences_ in [[∞-groupoid]] is an [[(∞,n
 
 * [[objects]] are [[∞-groupoids]];
 
+
 * [[morphism]]s $X \to Y$ are [[correspondences]] 
 
   $$
@@ -205,6 +206,17 @@ If $\mathcal{C}_0$ is (or is regarded as) a [[moduli stack]] for some kind of bu
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Examples of phased tensor products include
+
+* the [Cauchy product of species](species#HoTTCauchyProduct);
+
+* some [[external tensor products]] in [[indexed monoidal categories]];
+
+=--
+
 ## Properties
  {#Properties}
 
@@ -228,6 +240,7 @@ This appears as ([Lurie, remark 3.2.3](#Lurie)). A proof is written down in ([Ha
 
 +-- {: .num_conjecture }
 ###### Conjecture
+
 
 The canonical $O(n)$-[[∞-action]] on $Corr_n(\infty Grpd)$ induced via prop. \ref{CorrnGrpdHasDuals} by the [[cobordism hypothesis]] (see there at _[the canonical O(n)-action](cobordism+hypothesis#TheCanonicalOnAction)_) is trivial.
 
@@ -278,6 +291,7 @@ This appears as ([Lurie, claim 3.2.4](#Lurie)).
 * [[symplectic category]]
 
 * [[span trace]]
+
 
 * [[relations]], [[bicategory of relations]]
 
@@ -352,5 +366,11 @@ A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is
 [[!redirects higher categories of correspondences]]
 
 [[!redirects Span]]
+
+[[!redirects (∞,n)-category of n-fold correspondences]]
+[[!redirects (infinity,n)-category of n-fold correspondences]]
+
+[[!redirects phased tensor product]]
+[[!redirects phased tensor products]]
 
 
