@@ -100,7 +100,8 @@ For discussion in the context of categories of [[quasicoherent sheaves]]  in ([[
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
-[[!redirects internal tensor products]]
+[[!redirects external tensor products]]
 
 [[!redirects external product]]
 [[!redirects external products]]
+
