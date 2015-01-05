@@ -105,3 +105,5 @@ Noncommutative formal geometry, concerned with objects like infinitesimal neighb
 [[!redirects non-commutative geometry]]
 
 
+[[!redirects noncommutative space]]
+[[!redirects noncommutative spaces]]
