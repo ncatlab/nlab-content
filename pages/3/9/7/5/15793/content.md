@@ -41,6 +41,7 @@ Also "contravariantly natural" bundles such as bundle of [[covectors]] are somet
 
 ## References
 
-* {#KolarMichorSlovak} Ivan Kolar, [[Peter Michor]], Jan Slovak, _Natural Operations in Differential Geometry_
+* {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+
 
 [[!redirects natural bundles]]
