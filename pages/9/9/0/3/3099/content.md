@@ -413,6 +413,10 @@ An application in computer science:
 
 * Brent Yorgey, _Random testing and beyond! with combinatorial species_, slides [pdf](http://www.cis.upenn.edu/~byorgey/talks/combtesting-ku-20091124.pdf); _Species and functors and types, oh my_, article, [pdf](http://www.cis.upenn.edu/~byorgey/papers/species-pearl.pdf)
 
+And his PhD thesis on combinatorial species in [[homotopy type theory]]
+
+* Brent Yorgey, _Combinatorial Species and labelled structures._ [pdf](http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf)
+
 An application in statistical mechanics:
 
 * W. Faris, _Combinatorial species and cluster expansions_, Mosc. Math. J. __10__:4 (2010), 713&#8211;727 [pdf](http://www.ams.org/distribution/mmj/vol10-4-2010/faris.pdf), [MR2791054](http://www.ams.org/mathscinet-getitem?mr=2791054)
