@@ -21,7 +21,28 @@
 
 ## Idea
 
-A [[representation]] of the [[metaplectic group]]
+A [[representation]] of the [[metaplectic group]].
+
+The [Segal-Shale-Weil metaplectic representation](#SegalShaleWeilRepresentation) is also called the _[[symplectic spinor]]_ representation.
+
+## Segal-Shale-Weil representations
+ {#SegalShaleWeilRepresentation}
+
+The _Segal-Shale-Weil representation_ is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$ of a given [[symplectic vector space]].  This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+
+$$
+  W(g(v)) = U_g W(v) U^{-1}_g
+  \,.
+$$
+
+The group $Mp^c$ is the [[subgroup]] of the [[unitary group]] of all such $U_g$ for $g\in Sp(V,\omega)$. The map $U_g \mapsto g$ exhibits this as a [[group extension]] by the [[circle group]]
+
+$$
+  U(1)\longrightarrow Mp^c(V,\omega) \longrightarrow Sp(V,\omega)
+  \,.
+$$
+
+
 
 ## Related concepts
 
@@ -45,3 +66,7 @@ Lett. Math. Phys. 2 (1977/78), no. 2, 93&#8211;99, [MR473105](http://www.ams.org
 * Y. Flicker, [[D. Kazhdan]], G. Savin, _Explicit realization of a metaplectic representation_, J. Analyse Math. __55__ (1990), 17&#8211;39, [MR92c:22036](http://www.ams.org/mathscinet-getitem?mr=1094709), [doi](http://dx.doi.org/10.1007/BF02789195)
 
 * Gerald B. Folland, _Harmonic analysis in phase space_, Princeton Univ. Press 1989; ch. 4: Metaplectic representation
+
+[[!redirects metaplectic representations]]
+
+[[!redirects Segal-Shale-Weil representation]]
