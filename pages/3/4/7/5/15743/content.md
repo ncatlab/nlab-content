@@ -19,7 +19,7 @@
 
 ## Idea
 
-The **Waldhausen K-theory** of a [[dg-category]] is defined as the [[Waldhausen K-theory]] of a [[Waldhausen category]] associated to it.  It is an _additive invariant_ in the sense of [[noncommutative motives]].  There is a [[nonconnective K-theory|nonconnective]] variant studied by [[Marco Schlichting]], which is a _localizing invariant_ (again in the sense of [[noncommutative motives]]).
+The **Waldhausen K-theory** of a [[dg-category]] is defined as the [[Waldhausen K-theory]] of a [[Waldhausen category]] associated to it.  It is an _additive invariant_ in the sense of [[noncommutative motives]].  There is a [[non-connective algebraic K-theory|nonconnective]] variant studied by [[Marco Schlichting]], which is a _localizing invariant_ (again in the sense of [[noncommutative motives]]).
 
 On the other hand, one could define the K-theory of a [[pretriangulated dg-category]] as the [[algebraic K-theory]] of its [[dg-nerve]], which is a [[stable infinity-category]].  This should coincide with the Waldhausen K-theory (presumably).
 
