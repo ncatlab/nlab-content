@@ -1,0 +1,10 @@
+
+* [webpage](http://www.lepageri.eu/research-group/demeter-krupka)
+
+## related $n$Lab entries
+
+* [[differential geometry]]
+
+* [[jet group]], [[higher order frame bundle]]
+
+category: people
