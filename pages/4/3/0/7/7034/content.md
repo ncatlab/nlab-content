@@ -56,7 +56,7 @@ In [[Agda]] [[syntax]] this is
       inhab : A &#8594; isinhab A
       inhab-path : (x y : isinhab A) &#8594; x &#8801; y
 
-
+For more see at _[[n-truncation modality]]_.
 
 ## Semantics
 
