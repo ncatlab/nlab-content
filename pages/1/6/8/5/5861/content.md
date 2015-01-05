@@ -1156,6 +1156,7 @@ This is the [[infinitesimal cohesion|infinitesimal]]
 analog of the notion of objects exhibiting [[cohesion]],
 see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+(infinity,1)-topos+--+structures#A1HomotopyContinuum).
 
+
 =--
 
 For more see at _[[Lie differentiation]]_.
@@ -2014,10 +2015,10 @@ for the [[automorphism ∞-group]] of this [[infinitesimal disk]]/[[formal disk]
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #OrderOfInfinitesimalDisks}
 ###### Remark
 
-When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, such that $\mathbb{D}^n$ is the first order [[infinitesimal neighbourhood]] of a point, then $\mathbf{Aut}(\mathbb{D}^n)$ indeed plays the role of the [[general linear group]]. When $\mathbb{D}^n$ is instead a higher order or even the whole [[formal neighbourhood]], then $GL(n)$ is rather a [[jet bundle|jet]]-version of that. For order $k$-jets this is sometimes written $GL^k(d)$ We nevertheless stick with the notation "$GL(n)$" here, consistent with the fact that we have no index on the [[infinitesimal shape modality]]. More generally one may wish to keep track of a whole tower of infinitesimal shape modalities and their induced towers of concepts discussed here.
+When the [[infinitesimal shape modality]] exhibits first-order infinitesimals, such that $\mathbb{D}(V)$ is the first order [[infinitesimal neighbourhood]] of a point, then $\mathbf{Aut}(\mathbb{D}(V))$ indeed plays the role of the [[general linear group]]. When $\mathbb{D}^n$ is instead a higher order or even the whole [[formal neighbourhood]], then $GL(n)$ is rather a [[jet group]]. For order $k$-jets this is sometimes written $GL^k(V)$ We nevertheless stick with the notation "$GL(V)$" here, consistent with the fact that we have no index on the [[infinitesimal shape modality]]. More generally one may wish to keep track of a whole tower of infinitesimal shape modalities and their induced towers of concepts discussed here.
 
 =--
 
@@ -2098,6 +2099,12 @@ Given a $V$-manifold $X$ for framed $V$, then its _[[frame bundle]]_ $Fr(X)$ is 
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+As in remark \ref{OrderOfInfinitesimalDisks}, this really axiomatizes in general [[higher order frame bundles]] with the order implicit in the nature of the [[infinitesimal shape modality]].
+
+=--
 
 #### $G$-Structures
 
@@ -2234,6 +2241,7 @@ The objects on the left are **[[principal ∞-bundle]]s equipped with flat [[con
 
 For $A \in \mathbf{H}_{th}$ an abelian [[∞-group]] object we say that the **[[de Rham theorem]]** for $A$-coefficients holds in $\mathbf{H}_{th}$ if for all $X \in \mathbf{H}_{th}$ the 
 [infinitesimal path inclusion](#InclusionOfConstantIntoInfinitesimalIntoAllPaths)
+
 
 $$
   \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
