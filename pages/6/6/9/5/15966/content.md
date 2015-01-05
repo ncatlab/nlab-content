@@ -73,7 +73,9 @@ $$
 The problem is now the following: given an $R$-constructible sheaf $F$ on $M$,
 one may define a trace kernel by using the sequence
 $$\mathbb{C}_\Delta\to F\boxtimes DF\to \omega_\Delta.$$
-How can one formulate this construction in terms of $\mathcal{E}$-modules (maybe with an additional structure, such as a kind of filtration, if one takes inspiration from $p$-adic Hodge theory, with filtered modules with connections, or $p$-adic Riemann-Hilbert, with $p$-adic differential equations with Frobenius structure).
+How can one formulate this construction in terms of $\mathcal{E}$-modules (maybe with an additional structure, such as a kind of filtration, if one takes inspiration from $p$-adic Hodge theory, with filtered modules with connections, or $p$-adic Riemann-Hilbert, with $p$-adic differential equations with Frobenius structure)?
+
+The easiest thing to try is to simply use the (awful) sheaf of rings $\mathcal{E}^\infty$ of infinite order microdifferential operators. Indeed, if $F$ is an $R$-constructible sheaf, then $\mu Hom(F,\mathcal{O})$ is naturally an $\mathcal{E}^\infty$-module. Moreover, any coherent $\mathcal{D}$-module gives rise to an $\mathcal{E}$-module, and thus an $\mathcal{E}^\infty$-module. It is thus quite tempting to try to define a global version of $\mathcal{E}^\infty$ and to find a nice class of $\mathcal{E}^\infty$-modules, containing both (non-torsion) constructible sheaves and the images of coherent $\mathcal{D}$-modules.
 
 ## A possible set of constraints for a coherent theory
 
