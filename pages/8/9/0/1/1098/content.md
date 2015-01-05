@@ -73,6 +73,9 @@ Section 5.1 of
 [[!redirects ∞-prestack]]
 [[!redirects ∞-prestacks]]
 
+[[!redirects infinity-presheaf]]
+[[!redirects infinity-presheaves]]
+
 [[!redirects infinity-prestack]]
 [[!redirects infinity-prestacks]]
 
