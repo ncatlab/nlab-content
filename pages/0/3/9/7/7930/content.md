@@ -462,6 +462,8 @@ Similarly in dimensions 5,6 and 7 mod 8, the minimal real representation is obat
 
 * [[metaplectic representation]]
 
+* [[symplectic spin representation]]
+
 * [[twistor]]
 
 
