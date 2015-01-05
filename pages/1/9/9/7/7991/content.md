@@ -42,7 +42,7 @@ $$
 
 Again, this has various more explicit presentations. 
 
-By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+The _[[Segal-Shale-Weil representation]]_ is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$. This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
 
 $$
   W(g(v)) = U_g W(v) U^{-1}_g
