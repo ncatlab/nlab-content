@@ -379,7 +379,9 @@ $$
 
 ## Variants
 
-If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
+* If in the definition of combinatorial species the domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
+
+* Instead of $core(FinSet)$, we may choose as domain $\mathbf{B} A$ for a small category $A$, with objects $\langle a_i \rangle_{i \in I}$, for $I$ in $core(FinSet)$, i.e., finite families of objects of $A$. Also, instead of $Set$ valued presheaves, we may consider those valued in presheaves on a small category $B$. This joint generalisation yields what are called **generalised species**. These generalised species can be collected in a cartesian closed 2-category ([FGHW](#FGHW)).
 
 
 ## References
@@ -422,6 +424,10 @@ Discussion in relation to [[Feynman diagrams]]:
 Formalization in [[homotopy type theory]]:
 
 * {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
+
+Discussion of generalised species:
+
+* {#FGHW} M. Fiore, N. Gambino, M. Hyland, G. Winskel, _The cartesian closed bicategory of generalised species of structures_, ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/generalised-species.pdf))
 
 [[!redirects homotopical species]]
 [[!redirects (infinity,1) species]]
