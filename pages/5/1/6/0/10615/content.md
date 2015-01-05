@@ -39,8 +39,14 @@ $$
 
 and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] holds.
 
-### Relation to higher inductive types
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
+([HoTT Book, section 6.9](#HoTTBook))
+
+(...)
+
+The $(-1)$-truncation in the context is forming the [[bracket type]] [[hProp]].
 $n$-truncation is given by a [[higher inductive type]].
 
 
@@ -57,6 +63,8 @@ $n$-truncation is given by a [[higher inductive type]].
 * [[Mike Shulman]], _[All modalities are Higher Inductive Types](http://homotopytypetheory.org/2012/11/19/all-modalities-are-hits/)_
 
 * [[Guillaume Brunerie]], _[Truncations and higher inductive types](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/)_.
+
+* {#HoTTBook} [[Univalent Foundations Project]], section 6.9 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 [[!redirects n-truncation modality]]
