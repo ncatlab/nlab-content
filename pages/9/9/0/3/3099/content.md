@@ -60,6 +60,8 @@ $$
   \,,
 $$
 
+For more on this see also below the discussion _[In homotopy type theory](#InHomotopyTypeTheory)_.
+
 ### Operations on species
 
 There are in fact 5 important monoidal structures on the category of species.  For a discussion of all five, you'll currently have to read about [[Schur functors]], where these operations are discussed in the context of $Fin\Vect$-valued species, i.e. $Fin\Vect$-valued presheaves on the groupoid of finite sets.  But here are two:
@@ -88,71 +90,50 @@ $$
   \,.
 $$
 
-## Cardinality
 
-Under [[groupoid cardinality]] 
 
-$$
-  {|-|} : \infty Grpd_{tame} \to \mathbb{R}
-$$
 
-every (tame) [[∞-groupoid]] is mapped to a [[real number]]
-
-$$
-  X \mapsto {|X|} := \sum_{[x] \in \pi_0(X)}\prod_{i = 1}^{\infty} (\pi_i(X,x)^{(-1)^{i}})
-  \,.
-$$
-
-A species $\mathbf{X}$ assigns an [[∞-groupoid]] $\mathbf{X}_n$ to each [[natural number]] $n \in \mathbb{Z}$. Therefore under [[groupoid cardinality]] we may naturally think of a tame species as mapping to a [[power series]]
-
-$$
-  \mathbf{X} \mapsto {|\mathbf{X}|}
-  :=
-  \sum_{n = 0}^{\infty} \frac{1}{n!} {|\mathbf{X}_n|} z^n
-  \in 
-  \mathbb{R}[ [ z ] ]
-  \,.
-$$
-
-This cardinality operation maps the above addition and multiplication of combinatorial species to addition and multiplication of [[power series]].
-
-That [[coproduct]] of species maps to sum of their cardinalities is trivial. That [[Day convolution]] of species maps under cardinality to the product of their cardinality series depends a little bit more subtly on the combinatorial prefactors:
-
-$$
-  {| A \otimes B |}
-  =
-  {|A|} \cdot {|B|}
-  =
-  \sum_{n=0}^\infty 
-   \frac{1}{n!}
-   \sum_{k+l = n} \frac{n!}{k! l!} 
-   {|A_k|} \cdot {|B_l|}
-  \,.
-$$
-
-## Variants
-
-If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
 
 ## In Homotopy Type Theory
+ {#InHomotopyTypeTheory}
+
 
 The following discusses formalization of the concept of species in [[homotopy type theory]].
 
-Let [[FinSet]] be the [[type]] of [[finite sets]] (see at [[hSet]] and at [[universe in type theory]]).  A _species_ is a type $X :
-Type$ equipped with an arrow into $Finset$:
+Let [[FinSet]] be the [[type]] of [[finite sets]] (see at _[[hSet]]_). Notice that in [[homotopy type theory]] this automatically comes out as the [[groupoid]] of finite sets (see also at _[[universe in type theory]]_), so we may (and do) suppress writing "[[core]]" here.  
+
++-- {: .num_defn #HoTTSpecies}
+###### Definition
+
+A _species_ is a type $X \colon Type$ equipped with an arrow into $Finset$. Hence the type of all species is the [[dependent sum]]
 
 $$
   Species \coloneqq \sum_{X : Type} (X \to FinSet)
 $$
 
-To obtain a generating function from $f : X \to FinSet$, we decategorify by
-0-truncating $FinSet$, making it equivalent to $\mathbb{N}$:
+of all [[function types]] $X \to FinSet$ as $X$ ranges over the [[type of types]].
+
+=--
+
+Write 
 
 $$
-  f \circ card : X \to FinSet \to {\|FinSet\|_{0}} \simeq \mathbb{N}
+  FinSet \longrightarrow {\|FinSet\|_{0}} \simeq \mathbb{N}
 $$
 
-The generating function of the species is then
+for the [[unit of a monad|unit]] of the [[n-truncation modality|0-truncation modality]] on [[FinSet]], going into the [[type of natural numbers]].
+
+Given a species $f \colon X \to FinSet$ as in def. \ref{HoTTSpecies}, its "[[decategorification]]" is the composite
+
+$$
+  f \circ card \colon X \stackrel{f}{\longrightarrow} FinSet \to {\|FinSet\|_{0}} \simeq \mathbb{N}
+$$
+
++-- {: .num_defn #HoTTGeneratinFunction}
+###### Definition
+
+
+The _[[generating function]]_ of a species $f \colon X \to FinSet$, def. \ref{HoTTSpecies}, is 
 
 $$
   {|X|}(z) 
@@ -160,11 +141,18 @@ $$
     \sum_{n=0}^{\infty} {\big| fib_{f \circ card}(n) \big|}\,  z^{n}
   =
   \sum_{n=0}^{\infty} {\big| fib_{f}(Fin(n)) \big|}\, \frac{z^{n}}{n!}
+  \,,
 $$
 
-where $Fin(n)$ is a type with exactly $n$ elements.
+where $fib(-)$ denotes the [[homotopy fiber]] and $Fin(n)$ denotes a [[0-type]] with exactly $n$ elements.
+
+=--
+
++-- {: .num_defn }
+###### Definition
 
 If $\Phi : FinSet \to Type$ is a family of types, then we obtain the species
+
 
 $$
   pr_{1} : \bigg(\sum_{A : FinSet} \Phi(A)\bigg) \to FinSet
@@ -178,16 +166,27 @@ $$
   \sum_{n=0}^{\infty} {|\Phi(Fin(n))|} \frac{z^{n}}{n!}
 $$
 
-So, if $\Phi$ is a [[stuff, structure, property|stuff, structure, or property]]
+=--
+
++-- {: .num_example }
+###### Example
+
+
+If $\Phi$ is a [[stuff, structure, property|stuff, structure, or property]]
 on finite sets, then we immediately know something about its generating function, considered as an exponential generating function:
 
-* If $\Phi(A)$ is contractible for all $A$, then $\Phi(Fin(n)) = 1$, so its generating function is $e^{z}$.
+* If $\Phi(A)$ is [[contractible type|contractible]] for all $A$, then $\Phi(Fin(n)) = 1$, so its generating function is the [[exponential function]] $e^{z}$.
 
-* If $\Phi(A)$ is a family of mere propositions, then every coefficient is either $0$ or $1$, according to whether $A$ can be equipped with a $\Phi$-structure or not
+* If $\Phi(A)$ is a family of [[mere propositions]], then every coefficient is either $0$ or $1$, according to whether $A$ can be equipped with a $\Phi$-structure or not.
     
-* If $\Phi(A)$ is a family of sets (i.e., a [[structure type]]), then every coefficient is an element of $\mathbb{N}$.
+* If $\Phi(A)$ is a family of sets (i.e., a [[structure type]]), then every coefficient is an element of the [[type of natural numbers]] $\mathbb{N}$.
     
 * If $\Phi(A)$ has a higher homotopy level (i.e., is a [[stuff type]]), then the coefficients are in $[0, \infty)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
 
 Since any species $f : X \to Type$ is equal to
 
@@ -195,7 +194,9 @@ $$
   pr_{1} : \bigg(\sum_{x:X}fib_{f}(x)\bigg) \to Type
 $$
 
-every species is equal to one obtained from a stuff type.
+every species is equal to one obtained from a [[stuff type]].
+
+=--
 
 ### Operations on species
 
@@ -250,32 +251,59 @@ $$
 
 where $X_{n}$ and $Y_{n}$ are the $n$th coefficients of the functions ${|X|}(z)$ and ${|Y|}(z)$, respectively.
 
-The name "Hadamard product" is used by Aguiar and Mahajan ([Aguiar-Mahajan10](#Aguiar10)) and Bergeron _et al._ ([Bergeron-Labelle-Leroux08](#Bergeron08)).  Baez and Dolan ([Baez-Dolan01](#Baez01)) call it the "inner product" of stuff types, because equipping the category of stuff types with this operation makes it a categorified version of the Hilbert space of a quantum harmonic oscillator.
+The name "Hadamard product" is used in ([Aguiar-Mahajan10](#AguiarMahajan10)) and ([Bergeron-Labelle-Leroux08](#Bergeron08)).  In ([Baez-Dolan01](#Baez01)) it is called the "inner product" of stuff types, because equipping the category of stuff types with this operation makes it a categorified version of the Hilbert space of a quantum harmonic oscillator.
 
 
 #### Cauchy product
+ {#HoTTCauchyProduct}
 
-The Cauchy product of species is
+
++-- {: .num_defn #HoTTCauchyProduct}
+###### Definition
+
+The _Cauchy product_ of species is given by sending two species
+$f,g$ as in def. \ref{HoTTSpecies} to the species given by
+
 
 $$ \array{
   (f \cdot g) &:& X \times Y \to FinSet \\
   (f \cdot g) &:& (x, y) \mapsto f(x) + g(y) 
-} $$
+} 
+$$
 
-which for stuff types is equal to
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The Cauchy product, def. \ref{HoTTCauchyProduct}, is eqivalently the [phased tensor product](%28infinity,n%29-category+of+correspondences#PhasedTensorProduct) on the slice over the [[symmetric monoidal category|symmetric monoidal]] groupoid $(FinSet, \coprod)$.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+
+For [[stuff types]] $\Phi$, $\Psi$, their Cauchy product, def. \ref{HoTTCauchyProduct}, is equal to
 
 $$
   \sum_{A, U, V : FinSet} \sum_{p : U + V = A} (\Phi(U) \times \Psi(V))
 $$
 
-So, $\Phi\Psi$ stuff on a finite set is the stuff of "being chopped in two, with $\Phi$ stuff on one part and $\Psi$ stuff on the other".
+In this form the Cauchy product is discussed in ([Aguiar-Mahajan 10, def. 8.5](#AguiarMahajan10), [Aguiar-Mahajan 12, section 2.2](#AguiarMahajan12)).
+[[monoids|Monoids]] and [[comonoid]] in the resulting [[monoidal category]] of species are discussed in ([Aguiar-Mahajan 10, section 8.2](#AguiarMahajan10)) and [[Hopf monoids]] in this category in ([Aguiar-Mahajan 12, section 2.2](#AguiarMahajan12)).
+
+This means that $\Phi\Psi$ stuff on a finite set is the stuff of "being chopped in two, with $\Phi$ stuff on one part and $\Psi$ stuff on the other".
 
 The generating function is
 
 $$
   {|X \cdot Y|}(z) = {|X|}(z) \cdot {|Y|}(z)
+  \,.
 $$
 
+=--
 
 #### Composition
 
@@ -304,13 +332,61 @@ $$
 
 This species is also called the [[plethysm]] product.
 
+## Properties
+
+### Cardinality
+
+Under [[groupoid cardinality]] 
+
+$$
+  {|-|} : \infty Grpd_{tame} \to \mathbb{R}
+$$
+
+every (tame) [[∞-groupoid]] is mapped to a [[real number]]
+
+$$
+  X \mapsto {|X|} := \sum_{[x] \in \pi_0(X)}\prod_{i = 1}^{\infty} (\pi_i(X,x)^{(-1)^{i}})
+  \,.
+$$
+
+A species $\mathbf{X}$ assigns an [[∞-groupoid]] $\mathbf{X}_n$ to each [[natural number]] $n \in \mathbb{Z}$. Therefore under [[groupoid cardinality]] we may naturally think of a tame species as mapping to a [[power series]]
+
+$$
+  \mathbf{X} \mapsto {|\mathbf{X}|}
+  :=
+  \sum_{n = 0}^{\infty} \frac{1}{n!} {|\mathbf{X}_n|} z^n
+  \in 
+  \mathbb{R}[ [ z ] ]
+  \,.
+$$
+
+This cardinality operation maps the above addition and multiplication of combinatorial species to addition and multiplication of [[power series]].
+
+That [[coproduct]] of species maps to sum of their cardinalities is trivial. That [[Day convolution]] of species maps under cardinality to the product of their cardinality series depends a little bit more subtly on the combinatorial prefactors:
+
+$$
+  {| A \otimes B |}
+  =
+  {|A|} \cdot {|B|}
+  =
+  \sum_{n=0}^\infty 
+   \frac{1}{n!}
+   \sum_{k+l = n} \frac{n!}{k! l!} 
+   {|A_k|} \cdot {|B_l|}
+  \,.
+$$
+
+
+## Variants
+
+If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
 
 
 ## References
 
 The notion of species goes back to
 
-* [[André Joyal]], _Une th&#233;orie combinatoire des s&#233;ries formelles_ , Advances in Mathematics 42:1-82 (1981) <a href="http://dx.doi.org/10.1016/0001-8708(81)90052-9">doi</a>, [MR84d:05025](http://www.ams.org/mathscinet-getitem?mr=633783)
+* {#Joyal81} [[André Joyal]], _Une th&#233;orie combinatoire des s&#233;ries formelles_ , Advances in Mathematics 42:1-82 (1981) <a href="http://dx.doi.org/10.1016/0001-8708(81)90052-9">doi</a>, [MR84d:05025](http://www.ams.org/mathscinet-getitem?mr=633783)
 
 An expositional discussion can be found at
 
@@ -319,11 +395,17 @@ An expositional discussion can be found at
 See also wikipedia: [combinatorial species](http://en.wikipedia.org/wiki/Combinatorial_species) and 
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Th&#233;orie des esp&#232;ces et combinatoire des structures arborescentes_ , LaCIM, Montr&#233;al (1994). English version: [[Combinatorial species and tree-like structures]], Cambridge University Press (1998).
+
 * {#Bergeron08} F. Bergeron, G. Labelle, P. Leroux, _Introduction to the theory of
 species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_anglais_files/livre_combinatoire.pdf)
+
 * Fran&#231;ois Bergeron, _Species and variations on the theme of species_, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
+
 * G. Labelle, [video](http://www.sms.cam.ac.uk/media/937;jsessionid=9540827CB40AC9F1E61BF944127EBAF4) intro into combinatorial species at Newton Institute, Cambridge 2008
-* {#Aguiar10} [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by Kenneth Brown, Stephen Chase, [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.tamu.edu/~maguiar/a.pdf))
+
+* {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.tamu.edu/~maguiar/a.pdf))
+
+* {#AguiarMahajan12} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _Hopf monoids in the category of species_ ([arXiv:1210.3120](http://arxiv.org/abs/1210.3120))
 
 An application in computer science: 
 
@@ -333,11 +415,11 @@ An application in statistical mechanics:
 
 * W. Faris, _Combinatorial species and cluster expansions_, Mosc. Math. J. __10__:4 (2010), 713&#8211;727 [pdf](http://www.ams.org/distribution/mmj/vol10-4-2010/faris.pdf), [MR2791054](http://www.ams.org/mathscinet-getitem?mr=2791054)
 
-An application to Feynman diagrams:
+Discussion in relation to [[Feynman diagrams]]:
 
 * {#Baez01} [[John Baez]] and [[James Dolan]], From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
-Formalization in homotopy type theory:
+Formalization in [[homotopy type theory]]:
 
 * {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
 
@@ -345,4 +427,3 @@ Formalization in homotopy type theory:
 [[!redirects (infinity,1) species]]
 [[!redirects ∞-species]]
 [[!redirects combinatorial species]]
-
