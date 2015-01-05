@@ -1,4 +1,15 @@
-A 'stuff type' is a type of [[stuff]] that can placed on [[finite sets]], e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  To make this precise, we define a __stuff type__ to be a [[functor]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A 'stuff type' is a type of [[stuff]] that can placed on [[finite sets]], e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  
+
+## Definition
+
+To make this precise, we define a __stuff type__ to be a [[functor]]
 
 $$p: X \to core(FinSet)$$
 
@@ -36,6 +47,8 @@ The structure type 'being a totally ordered even set' is
 \[\frac{1}{1-Z^2} := \frac{0!}{\overline{0!}} + 0Z + \frac{2!}{\overline{2!}}Z^2 + 0Z^3 + \cdots,\]
 since there are $n!$ ways to order a set with $n$ elements and $0$ ways for an odd set to be even.
 
+## References
+
 One advantage of stuff types over the more familiar structure types (i.e., species) is that they allow one to categorify the theory of [[Feynman diagram|Feynman diagrams]]:
 
 * [[John Baez]] and [[James Dolan]], From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
@@ -43,3 +56,5 @@ One advantage of stuff types over the more familiar structure types (i.e., speci
 * Jeffrey Morton, Categorified algebra and quantum mechanics, _Theory and Applications of Categories_, **16** (2006), 785--854. ([arXiv](http://arxiv.org/abs/math/0601458))
 
 * [[John Baez]], Fall 2003 to Spring 2004 [seminar notes](http://math.ucr.edu/home/baez/qg-fall2003/).
+
+[[!redirects stuff types]]
