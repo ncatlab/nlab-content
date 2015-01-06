@@ -590,3 +590,6 @@ section A.3 in
 [[!redirects simplicial model categories]]
 [[!redirects sSet-model category]]
 [[!redirects sSet-model categories]]
+
+[[!redirects simplicial model structure]]
+[[!redirects simplicial model structures]]
