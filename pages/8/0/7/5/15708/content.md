@@ -40,6 +40,8 @@ Cohen's views of the role of continuity have affinities with Hegelianism (see at
 
 * {#Cohen83}H. Cohen, _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
 
+  (on the history of [[infinitesimals]] and [[infinitesimal objects]])
+
 * H. Cohen, _Logik der Reinen Erkenntnis_ , Berlin 1902. ([html](http://www.gleichsatz.de/b-u-t/begin/coh_0.html))
 
 * G. Edel, _Hermann Cohen und die analytische Philosophie der Gegenwart_ , pp.179-203 in R. Brandt, F. Orlik (eds.), _Philosophisches Denken &#8211; Politisches Wirken. Hermann Cohen Kolloquium Marburg 1992_, Olms Hildesheim 1993.
