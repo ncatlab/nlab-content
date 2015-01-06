@@ -174,7 +174,7 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 
 
 +-- {: bluebox #Cascade}
-###### Proce&#223;
+###### Proce&#223; der Bewegung des Seyns
 
 $$
   \array{
@@ -399,6 +399,7 @@ $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
 
 
 ###### 3. Sublating of Becoming
+
 
 > &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
 
@@ -1100,6 +1101,7 @@ The [[continuum]].
 
 > &#167;699 Abstractly expressed, in measure quality and quantity are united
 
+(Repeated in [&#167;708](#708), below.)
 
 So by the formalization of [[unity of opposites]] we have 
 
@@ -1119,10 +1121,21 @@ $$
   }
 $$
 
-See the _[Proce&#223;](#Cascade)_ diagram
+See the _[Proce&#223;](#Cascade)_ diagram.
 
 
-> &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
+> {##703} &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
+
+> {#708} &#167;708 Das Maa&#223; ist zun&#228;chst unmittelbare Einheit des Qualitativen und
+Quantitativen, so da&#223; (1) erstens ein Quantum ist, das qualitative Bedeutung hat, und als Maa&#223; ist. Dessen Fortbestimmung ist, da&#223; an ihm, dem an sich bestimmten, &#8212;der Unterschied seiner Momente, des qualitativen und quantitativen Bestimmtseyns, hervortritt. Diese Momente bestimmen sich weiter selbst zu Ganzen des Maa&#223;es, welche insofern als Selbstst&#228;ndige sind; indem sie sich wesentlich aufeinander beziehen, wird das Maa&#223; (2) zweitens Verh&#228;ltni&#223; von specifischen Quantis, als selbstst&#228;ndigen Maa&#223;en. Ihre Selbstst&#228;ndigkeit beruht aber wesentlich zugleich auf dem quantitativen Verh&#228;ltnisse und dem Gr&#246;&#223;enunterschiede; so wird ihre Selbstst&#228;ndigkeit ein &#220;bergehen in einander. Das Maa&#223; geht damit im Maa&#223;losen zu Grunde.&#8212;Die&#223; Jenseits des Maa&#223;es ist aber die Negativit&#228;t desselben nur an sich selbst; es ist dadurch (3) drittens die Indifferenz der Maa&#223;bestimmungen, und als reell mit der in ihr enthaltenen Negativit&#228;t das Maa&#223; gesetzt, als umgekehrtes Verh&#228;ltni&#223; von Maa&#223;en, welche als selbstst&#228;ndige Qualit&#228;ten wesentlich nur auf ihrer Quantit&#228;t und auf ihrer negativen Beziehung aufeinander beruhen, und damit sich erweisen, nur Momente ihrer wahrhaft selbstst&#228;ndigen Einheit zu seyn, welche ihre Reflexion-in-sich und das Setzen derselben, das Wesen, ist.
+
+> &#167;708 At first, measure is only an immediate unity of quality and quantity, so that: (1), we have a quantum with a qualitative significance, a measure. The progressive determining of this consists in explicating what is only implicit in it, namely, the difference of its moments, of its qualitatively and quantitatively determined being. These moments further develop themselves into wholes of measure which as such are self-subsistent. These are essentially in relationship with each other, and so measure becomes (2), a ratio of specific quanta having the form of self-subsistent measures. But their self-subsistence also rests essentially on quantitative relation and quantitative difference; and so their self-subsistence becomes a transition of each into the other, with the result that measure perishes in the measureless. But this beyond of measure is the negativity of measure only in principle; this results (3), in the positing of the indifference of the determinations of measure, and the positing of real measure &#8212; real through the negativity contained in the indifference &#8212; as an inverse ratio of measures which, as self-subsistent qualities, are essentially based only on their quantity and on their negative relation to one another, thereby demonstrating themselves to be only moments of their truly self-subsistent unity which is their reflection-into-self and the positing thereof, essence.
+
+> {#709} &#167;709 Die Entwickelung des Maa&#223;es, die im Folgenden versucht worden, ist eine der schwierigsten Materien; indem sie von dem unmittelbaren, &#228;u&#223;erlichen Maa&#223;e anf&#228;ngt, h&#228;tte sie einer Seits zu der abstrakten Fortbestimmung des Quantitativen (einer Mathematik der Natur) fortzugehen, anderer Seits den Zusammenhang dieser Maa&#223;bestimmung mit den Qualit&#228;ten der nat&#252;rlichen Dinge anzuzeigen, wenigstens im Allgemeinen; denn die bestimmte Nachweisung des aus dem Begriffe des konkreten Gegenstandes hervorgehenden Zusammenhangs des Qualitativen und Quantitativen geh&#246;rt in die besondere Wissenschaft des Konkreten; wovon Beispiele in der Encykl. der philos. Wissensch. 3te Aufl. _. 267 u. 270 Anm. das Gesetz des Falles und das der freien himmlischen Bewegung betreffend, nachzusehen sind. Es mag hierbei die&#223; &#252;berhaupt bemerkt werden, da&#223; die verschiedenen Formen, in welchen sich das Maa&#223; realisirt, auch verschiedenen Sph&#228;ren der nat&#252;rlichen Realit&#228;t angeh&#246;ren. Die vollst&#228;ndige, abstrakte Gleichg&#252;ltigkeit des entwickelten Maa&#223;es d. i. der Gesetze desselben kann nur in der Sph&#228;re des Mechanismus Statt haben, als in welchem das konkrete K&#246;rperliche nur die selbst abstrakte Materie ist; die qualitativen Unterschiede derselben haben wesentlich das Quantitative zu ihrer Bestimmtheit; Raum und Zeit sind die reinen &#196;u&#223;erlichkeiten selbst, und die Menge der Materien, Massen, Intensit&#228;t des Gewichts, sind ebenso &#228;u&#223;erliche Bestimmungen, die an dem Quantitativen ihre eigenth&#252;mliche Bestimmtheit haben.
+
+> &#167;709 The development of measure which has been attempted in the following chapters is extremely difficult. Starting from immediate, external measure it should, on the one hand, go on to develop the abstract determination of the quantitative aspects of natural objects (a mathematics of nature), and on the other hand, to indicate the connection between this determination of measure and the qualities of natural objects, at least in general; for the specific proof, derived from the Notion of the concrete object, of the connection between its qualitative and quantitative aspects, belongs to the special science of the concrete. Examples of this kind concerning the law of falling bodies and free, celestial motion will be found in the Encyclopedia. of the Phil. Sciences, 3rd ed., Sections 267 and 270, Remark. In this connection the general observation may be made that the different forms in which measure is realised belong also to different spheres of natural reality. The complete, abstract indifference of developed measure, i.e. the laws of measure, can only be manifested in the sphere of mechanics in which the concrete bodily factor is itself only abstract matter; the qualitative differences of such matter are essentially quantitatively determined; space and time are the purest forms of externality, and the multitude of matters, masses, intensity of weight, are similarly external determinations which have their characteristic determinateness in the quantitative element.
+
+Regarding this, see also below [&#167;714](#714).
 
 #### First chapter. Die specifische Quantit&#228;t.
  {#TheMeasureFirstChapter}
@@ -1135,7 +1148,7 @@ See the _[Proce&#223;](#Cascade)_ diagram
 
 This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _Eichma&#223;_, a _choice_ that is made (durch &#220;bereinkommen). The English translation that captures this maybe more properly than "standard" is "[[gauge]]".
 
-This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this.
+This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this. By the discussion there (see also at _[[torsor]]_), this is indeed all about ratios, just as stated in [&#167;708](#708) above. Observe that [&#167;709](#709) above said that to to develop a theory of measure, hence a theory of gauge, is to develop a "mathematics of nature".
 
 Therefore by ([&#167;699](#699)) we may label this part of the [Proce&#223;](#Cascade) as follows:
 
@@ -1320,11 +1333,14 @@ A good survey is in
 
 * [[Paul Redding]],  [section 3.2](http://plato.stanford.edu/entries/hegel/#SciLog) of _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
 
-detailed background, introduction and survey is in
+detailed background, introduction and survey includes
 
 * {#Houlgate06} [[Stephen Houlgate]], _The opening of Hegel's Logic_, Purdue University Press, 2006 ([pdf](http://www.magonzalezvalerio.com/Houlgate,%20Stephen%20%20-%20The%20Opening%20of%20Hegel%27s%20Logic_From%20Being%20to%20Infinity%20-%20Purdue%20University%20Press.pdf))
 
-and a comprehensive set of lectures is at
+* {#CarlsonMeasure} [[David Carlson]], _Hegel's theory of measure_ ([web](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=413602))
+
+* {#CarlsonActual} [[David Carlson]], _Hegel and what is actual_ ([pdf](http://www.hegel.net/carlson/Carlson2005-Hegel%20and%20What%20is%20Actual.pdf))
+
 
 * [[Richard Dien Winfield]], _Lecture Course in Hegel's Science of Logic_ ([web](https://archive.org/details/LectureCourseInHegelsScienceOfLogic-RichardDienWinfield))
 
