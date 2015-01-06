@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 When formulating a [[theory of physics]] in terms of [[mathematics]] one typically models the range of certain physical quantities by [[torsors]] over some [[group]] of transformations.  
@@ -28,6 +32,14 @@ $$
 $$
 
 where $e$ is the [[electric charge]] of the [[electron]] expressed in physical units of charge (such as [[coulomb]]s), $\hbar$ is [[Planck's constant]] etc. The resulting quotient is then independent of any choices and is hence a [[real number]] characterizing nature independently of any conventions about how to parameterize it.
+
+Notice that _choice of unit_ is also called _choice of gauge_. This is indeed the same "[[gauge]]" as in "[[gauge theory]]", as it is how ([Weyl 23](gauge#Weyl23)) introduced the concept of gauge theory: as a theory in which the choice of unit of length may change along paths in space.
+
+## References
+
+Discussion in the context of [[philosophy of science]] includes
+
+* [[Georg Hegel]], [Book I, third section, first chapter](Science+of+Logic#TheMeasureFirstChapter)  of _[[Science of Logic]]_
 
 
 [[!redirects physical unit]]
