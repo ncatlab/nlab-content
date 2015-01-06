@@ -14,6 +14,8 @@ According to ([Hegel, Science of Logic, &#167;714 ](Science+of+Logic#714)):
 
 ## Related entries
 
+* [[physical unit]]
+
 * [[gauge symmetry]]
 
 * [[gauge theory]], [[gauge field]]
@@ -32,7 +34,7 @@ A discussion of "gauge" and [[gauge transformation]] in [[metaphysics]] is in
 
 [[Hermann Weyl]]'s historical argument motivating [[gauge theory]] in [[physics]] from rescaling of units of length was given in 1918 in
 
-* [[Hermann Weyl]], _Raum, Zeit, Materie: Voerlesungen &#252;ber die Allgemeine Relativit&#228;tstheorie_, Springer Berlin Heidelberg 1923
+* {#Weyl23} [[Hermann Weyl]], _Raum, Zeit, Materie: Voerlesungen &#252;ber die Allgemeine Relativit&#228;tstheorie_, Springer Berlin Heidelberg 1923
 
 Quick reviews include
 
