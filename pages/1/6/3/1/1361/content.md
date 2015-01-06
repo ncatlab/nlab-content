@@ -75,3 +75,6 @@ is a [[Quillen bifunctor]].
 * Bertrand Guillou, [[Peter May]], _Enriched model categories and diagram categories_ ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567))
 
 [[!redirects enriched model categories]]
+
+[[!redirects enriched model structure]]
+[[!redirects enriched model structures]]
