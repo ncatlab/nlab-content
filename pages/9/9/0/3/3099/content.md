@@ -105,7 +105,7 @@ Let [[FinSet]] be the [[type]] of [[finite sets]] (see at _[[hSet]]_). Notice th
 +-- {: .num_defn #HoTTSpecies}
 ###### Definition
 
-A _species_ is a type $X \colon Type$ equipped with an arrow into $Finset$. Hence the type of all species is the [[dependent sum]]
+A _species_ is a type $X \colon Type$ equipped with a [[function]] into $FinSet$. Hence the type of all species is the [[dependent sum]]
 
 $$
   Species \coloneqq \sum_{X : Type} (X \to FinSet)
@@ -382,6 +382,7 @@ $$
 * If in the definition of combinatorial species the domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
 
 * Instead of $core(FinSet)$, we may choose as domain $\mathbf{B} A$ for a small category $A$, with objects $\langle a_i \rangle_{i \in I}$, for $I$ in $core(FinSet)$, i.e., finite families of objects of $A$. Also, instead of $Set$ valued presheaves, we may consider those valued in presheaves on a small category $B$. This joint generalisation yields what are called **generalised species**. These generalised species can be collected in a cartesian closed 2-category ([FGHW](#FGHW)).
+
 
 
 ## References
