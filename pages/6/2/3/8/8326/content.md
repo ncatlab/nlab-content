@@ -646,6 +646,43 @@ $$
 
 where "$\subset$" denotes inclusion of modal types
 
+Equivalently we may arrange this as follows.
+
++-- {: bluebox #Cascade}
+###### .
+
+
+$$
+  \array{
+    id &\dashv& id
+    \\
+    \vee && \vee 
+    \\
+    \Re &\dashv& &#643;_{inf}
+    \\
+    \bot && \bot 
+    \\
+    &#643;_{inf} &\dashv& \flat_{inf}
+    \\
+    \vee && \vee 
+    \\
+    &#643; &\dashv& \flat
+    \\
+    \bot && \bot 
+    \\
+    \flat &\dashv& \sharp
+    \\
+    \vee && \vee 
+    \\
+    \emptyset &\dashv& \ast 
+    \\
+  }
+$$
+
+=--
+
+See also the commented diagram for _[gauge](#gauge)_ below.
+
 ###### c. Eins
 
 * &#167;328 Being-for-self is the simple unity of itself and its moment, being-for-one.
@@ -937,11 +974,10 @@ $$
 
 * &#167;714 A measure taken as a standard in the usual meaning of the word is a quantum which is arbitrarily assumed as the intrinsically determinate unit relatively to an external amount. Such a unit can, it is true, also be in fact an intrinsically determinate unit, like a foot and suchlike original measures; but in so far as it is also used as a standard for other things it is in regard to them only an external measure, not their original measure. Thus the diameter of the earth or the length of a pendulum may be taken, each on its own account, as a specific quantum; but the selection of a particular fraction of the earth's diameter or of the length of the pendulum, as well as the degree of latitude under which the latter is to be taken for use as a standard, is a matter of choice. But for other things such a standard is still more something external. These have further specified the general specific quantum in a particular way and have thereby become particular things. It is therefore foolish to speak of a natural standard of things. Moreover, a universal standard ought only to serve for external comparison; in this most superficial sense in which it is taken as a universal measure it is a matter of complete indifference what is used for this purpose. It ought not to be a fundamental measure in the sense that it forms a scale on which the natural measures of particular things could be represented and from which, by means of a rule, they could be grasped as specifications of a universal measure, i.e. of the measure of their universal body. Without this meaning, however, an absolute measure is interesting and significant only as a common element, and as such is a universal not in itself but only by agreement.
 
-Here _Ma&#223;stab_ is translated as "standard". It can also, maybe better, be translated as "[[gauge]]". Therefore by ([699](#699)) we have 
+Here _Ma&#223;stab_ is translated as "standard". It can also, maybe better, be translated as "[[gauge]]". Therefore by ([699](#699)) we may label this part of the [Cascade](#Cascade) as follows:
 
 +-- {: bluebox #gauge}
 ###### .
-
 
 
 $$
@@ -959,6 +995,8 @@ $$
 $$
 
 =--
+
+
 
 #### B. Specifying measure
 
