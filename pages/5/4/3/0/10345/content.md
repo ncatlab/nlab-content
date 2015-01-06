@@ -28,7 +28,7 @@
 
 In [[physics]] the _Rarita-Schwinger field_ is a type of [[field (physics)|field]] of [[spin]] $= 3/2$.
 
-The hypothetical [[gravitino]] in [[supergravity]] is an example.
+The hypothetical [[gravitino]] in [[supergravity]] is closely related.
 
 ## Related concepts
 
@@ -38,6 +38,9 @@ The hypothetical [[gravitino]] in [[supergravity]] is an example.
 
 * Wikipedia, _[Rarita-Schwinger equation](http://en.wikipedia.org/wiki/Rarita%E2%80%93Schwinger_equation)_
 
+A good account is in 
+
+* SuchIdeas, _[Rarita Schwinger (Spin 3/2) Fields](http://suchideas.com/articles/physics/quantum/rarita-schwinger/)_
 [[!redirects Rarita-Schwinger fields]]
 
 [[!redirects Rarita-Schwinger equation]]
