@@ -57,6 +57,8 @@
 
 * [[axion]], [[dilaton]]
 
+* [[Rarita-Schwinger field]]
+
 * [[monopole]]
 
 * [[dual graviton]]
