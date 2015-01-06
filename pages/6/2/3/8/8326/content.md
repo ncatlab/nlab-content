@@ -155,7 +155,7 @@ The following table lists proposals for possible such identifications. The conte
 | reality | [[adjoint modality]] $&#643;_{inf} \dashv \flat_{inf}$ | 
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
-| measure (= [[gauge field|gauge]]) | quality $\dashv$ quantity |
+| measure (= [[gauge]]) | quality $\dashv$ quantity |
 | absolute indifference (essence) | $id \dashv id$ |
 
 Notice that the above involves the first two stages in the tower
@@ -165,6 +165,46 @@ of [[n-truncation modalities]]:
 |--|--|
 | -2 | [[unit type]] modality |
 | -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
+
+$\,$
+
+$\,$
+
+The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ into which these formalizations fit. This is the adjoint pair of adjoint triples of [[cohesion]] and [[differential cohesion]] arranged such as to match, it seems, Hegel's text. Below this is discussed with pointers to the relevant passages.
+
+
++-- {: bluebox #Cascade}
+###### Proce&#223;
+
+$$
+  \array{
+    &\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
+    \\
+    &\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    \\
+    && \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
+    \\
+    &&& \bot && \bot 
+    \\
+    &&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    \\
+    &&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
+    \\
+    &&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    \\
+    &\stackrel{bestimmtes\;Sein}{}&& \bot &\stackrel{Eichmass}{}& \bot 
+    \\
+    &&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
+    \\
+    &&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    \\
+    &\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+    \\
+  }
+$$
+
+=--
+
 
 ### On the translation of the terms
 
@@ -502,6 +542,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 
 ##### C. Die Unendlichkeit
+
 
 ###### a. Das Unendliche &#220;berhaupt
 
@@ -1041,6 +1082,7 @@ The [[continuum]].
 
 ####### Anmerkung 1
 
+
 ####### Anmerkung 2
 
 
@@ -1071,7 +1113,7 @@ $$
   \array{
     Qualitaet && \int &\dashv& \flat
     \\
-    Eichma&#223; && \bot && \bot
+    Eichmass && \bot && \bot
     \\
     Quantitaet y && \flat &\dashv& \sharp
   }
@@ -1083,6 +1125,7 @@ See the _[Proce&#223;](#Cascade)_ diagram
 > &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
 
 #### First chapter. Die specifische Quantit&#228;t.
+ {#TheMeasureFirstChapter}
 
 ##### A. Das specifische Quantum / The Specific Quantum
 
@@ -1090,9 +1133,11 @@ See the _[Proce&#223;](#Cascade)_ diagram
 
 > &#167;714 A measure taken as a standard in the usual meaning of the word is a quantum which is arbitrarily assumed as the intrinsically determinate unit relatively to an external amount. Such a unit can, it is true, also be in fact an intrinsically determinate unit, like a foot and suchlike original measures; but in so far as it is also used as a standard for other things it is in regard to them only an external measure, not their original measure. Thus the diameter of the earth or the length of a pendulum may be taken, each on its own account, as a specific quantum; but the selection of a particular fraction of the earth's diameter or of the length of the pendulum, as well as the degree of latitude under which the latter is to be taken for use as a standard, is a matter of choice. But for other things such a standard is still more something external. These have further specified the general specific quantum in a particular way and have thereby become particular things. It is therefore foolish to speak of a natural standard of things. Moreover, a universal standard ought only to serve for external comparison; in this most superficial sense in which it is taken as a universal measure it is a matter of complete indifference what is used for this purpose. It ought not to be a fundamental measure in the sense that it forms a scale on which the natural measures of particular things could be represented and from which, by means of a rule, they could be grasped as specifications of a universal measure, i.e. of the measure of their universal body. Without this meaning, however, an absolute measure is interesting and significant only as a common element, and as such is a universal not in itself but only by agreement.
 
-This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _Eichma&#223;_, a _choice_ that is made (durch &#220;bereinkommen). The English translation that captures this maybe more properly than "standard" is "gauge".
+This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _Eichma&#223;_, a _choice_ that is made (durch &#220;bereinkommen). The English translation that captures this maybe more properly than "standard" is "[[gauge]]".
 
-Therefore by ([699](#699)) we may label this part of the [Proce&#223;](#Cascade) as follows:
+This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this.
+
+Therefore by ([&#167;699](#699)) we may label this part of the [Proce&#223;](#Cascade) as follows:
 
 +-- {: bluebox #gauge}
 ###### .
@@ -1114,16 +1159,19 @@ $$
 
 =--
 
-This is striking, as at the same time precisely this [[adjoint triple]] is also an abstract axiomatization of [[gauge theory]] in [[physics]]. This is discussed for instance at _[[differential cohomology hexagon]]_.
+This is striking, as at the same time precisely this [[adjoint triple]] is also an abstract axiomatization of ([[higher gauge theory|higher]]) [[gauge theory]] in [[physics]] via [[cohesion]]. This is discussed further at _[[differential cohomology hexagon]]_.
 
 
 ##### B. Specificirendes Ma&#223; / Specifying measure
+
 
 ###### (a) Die Regel / The Rule
 
 > {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
 
 > &#167;725 The rule or standard $[$ gauge $]$, which has already been mentioned, is in the first place an intrinsically determinate magnitude which is a unit with reference to a quantum having a particular existence in a something other than the something of the rule; this other something is measured by the rule, i.e. is determined as an amount of the said unit. This comparison is an external act, the unit itself being an arbitrary magnitude which in turn can equally be treated as an amount (the foot as an amount of inches). But measure is not only an external rule; as a specifying measure its nature is to be related in its own self to an other which is a quantum.
+
+Choice of _Einheit_ unit is choice of gauge, as in _[[gauge theory]]_. See at _[[physical unit]]_ for more on this.
 
 ###### (b) Das specificirende Ma&#223; / Specifying Measure
 
@@ -1165,37 +1213,6 @@ $$
   }
 $$
 
-+-- {: bluebox #Cascade}
-###### Proce&#223;
-
-$$
-  \array{
-    &\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
-    \\
-    &\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
-    \\
-    && \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
-    \\
-    &&& \bot && \bot 
-    \\
-    &&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
-    \\
-    &&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
-    \\
-    &&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
-    \\
-    &\stackrel{bestimmtes\;Sein}{}&& \bot &Eichma&#223;& \bot 
-    \\
-    &&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
-    \\
-    &&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
-    \\
-    &\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
-    \\
-  }
-$$
-
-=--
 
 ## **Book two** Die Lehre vom Wesen / The doctrine of essence 
 
