@@ -168,11 +168,10 @@ $$
   \,.
 $$
 
-Being [[idempotent monads]] on $\mathcal{E}$, there are [[modalities]] in the [[type theory]] ([[internal logic]]) of $\mathcal{E}$. As such we call them:
+Being [[idempotent monads]]/[[comonads]] on $\mathcal{E}$, these are [[modalities]] in the [[type theory]] ([[internal logic]]) of $\mathcal{E}$. As such we call them:
 the
 
 * _[[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]_.
-
 
 =--
 
@@ -256,7 +255,6 @@ In [[tangent cohesion]] the [[points-to-pieces transform]], def. \ref{Transforma
   {#FurtherAxioms}
 
 In addition to the fundamental axioms of cohesion above, there are several further axioms that one may (or may not) want to impose in order to formalize the concept of cohesion.
-
 
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
@@ -347,6 +345,48 @@ This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces
 There is some overlap between the structures and conditions appearing here and those considered in the context of [[Q-categories]]. See there for more details.
 
 =--
+
+Another axiom to consider, also introduced by [[Lawvere]] (see at _[[Aufhebung]]_):
+
++-- {: .num_defn #AufhebungOfBecoming}
+###### Definition
+
+Say that a cohesive topos, def. \ref{CohesiveTopos}, has _[[Aufhebung]] of [[becoming]]_ if the [[sharp modality]], def. \ref{AdjointTriple}, preserves the [[initial object]]
+
+$$
+  \sharp \emptyset \simeq \emptyset
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The Aufhebungs axiom def. \ref{AufhebungOfBecoming} is satisfied by all cohesive toposes with a [[cohesive site]] of definition, see at _[Aufhebung -- Over cohesive sites](Aufhebung#ExamplesBecomingFormalization)_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the Aufhebungs-axiom of def. \ref{AufhebungOfBecoming}, the extra exactness condition on the [[shape modality]] in def. \ref{CohesiveTopos}, which says (in particular) that shape preserves the [[terminal object]]
+
+$$
+  &#643; \ast \simeq \ast
+$$
+
+
+finds a dual companion. It might make sense to consider the variant of the axioms of cohesion which say
+
+1. there is an [[adjoint triple]] of idempotent (co-)monads $&#643; \dashv \flat \dashv \sharp$;
+
+1. such that $\sharp$ satisfies Aufhebung and $&#643;$ satisfies co-Aufhebung.
+
+
+
+=--
+
 
 ## Properties 
   {#Properties}
