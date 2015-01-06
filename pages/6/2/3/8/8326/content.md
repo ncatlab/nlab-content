@@ -300,9 +300,9 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 
 * {#174} &#167;174 Das Angef&#252;hrte ist auch dieselbe Dialektik, die der Verstand gegen den Begriff braucht, den die h&#246;here Analysis von den unendlich-kleinen Gr&#246;&#223;en giebt. Von diesem Begriffe wird weiter unten ausf&#252;hrlicher gehandelt.&#8212;Diese Gr&#246;&#223;en sind als solche, bestimmt worden, die in ihrem Verschwinden sind, nicht vor ihrem Verschwinden, denn als dann sind sie endliche Gr&#246;&#223;en;&#8212;nicht nach ihrem Verschwinden, denn alsdann sind sie nichts. Gegen diesen reinen Begriff ist eingewendet und immer wiederholt worden, da&#223; solche Gr&#246;&#223;en entweder Etwas seyen, oder Nichts; da&#223; es keinen Mittelzustand (Zustand ist hier ein unpassender, barbarischer Ausdruck) zwischen Seyn und Nichtseyn gebe.&#8212;Es ist hierbei gleichfalls die absolute Trennung des Seyns und Nichts angenommen. Dagegen ist aber gezeigt worden, da&#223; Seyn und Nichts in der That dasselbe sind, oder um in jener Sprache zu sprechen, da&#223; es gar nichts giebt, das nicht ein Mittelzustand zwischen Seyn und Nichts ist. Die Mathematik hat ihre gl&#228;nzendsten Erfolge der Annahme jener Bestimmung, welcher der Verstand widerspricht, zu danken.
 
-* &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
+* {#174} &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
 
-Vanishing of [[infinitesimal objects]] is expressed by the [[reduction modality]] $\Re$.
+Mathematically, the vanishing of [[infinitesimal objects]] is exactly what is expressed by the [[reduction modality]] $\Re$.
 
 * &#167;174 there is nothing which is not an intermediate state between being and nothing.
 
@@ -508,19 +508,87 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 ###### Der &#220;bergang
 
-* &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
+* {#305} &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
 
 * &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
 
-Compare "ideality" as "quality of infinity" with
+If we take the "infinite" and the "infinitesimal" to go together, be two aspects of the same thing, then the above would give also that _ideality is the quality of the infinitesimal_. 
 
+Now we had already that quality is the [[duality of opposites]] expressed by [[shape modality]] and [[flat modality]]
 
 $$
   \array{
     quality \colon &#643; \dashv \flat
+  }
+$$
+
+and moreover, mathematically, the infinitesimal is expressed by the infinitesimal analog of this, namely the adjunction between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal shape modality]] $\flat_{inf}$.
+
+This would suggest to translate "ideality is the quality of the infinite" by the part 
+
+$$
+  \array{
+    ideality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
     \\
-    ideality \colon \Re \dashv &#643;_{inf}
+    && \vee && \vee
+    \\
+    quality &\colon&  &#643; &\dashv& \flat
+  }
+$$
+
+in the [Cascade](#Cascade).
+
+On the other hand, mathematically we actually have an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \flat_{inf}$, with the [[reduction modality]] on the  left. Recall that the reduction modality expresses precisely the "disappearance of infinitesimal quantity" in [&#167;174](#174).
+
+This may be rearranged as a second order unity of opposites
+
+$$
+  \array{
+    && \Re &\dashv& &#643;_{inf}
+    \\
+    && \bot && \bot
+    \\
+    && &#643;_{inf} &\dashv& \flat_{inf}
+  }
+$$
+
+and so "ideality" could also be translated to $\Re \dashv &#643;_{inf}$. 
+
+Now by [&#167;324](#324) the opposite moment of ideality is _reality_. Noticing that the adjoint pair $&#643;_{inf} \dashv \flat_{inf}$ is what axiomatizes [[étale toposes]], [[manifolds]], and [[étale groupoids]] (as discussed at [[differential cohesion]]), it does make sense to think of this in terms of "reality": among all the objects in a differentially cohesive $\infty$-topos, those, that are "geometric" in the sense of [[geometric stack]], hence those that would actually model, for instance, a [[spacetime]], but not those that model more "non-real" spaces such as moduli spaces, are precisely the &#233;tale objects (see also the discussion at _[[higher geometry]]_).
+
+In view of this, it makes sense to translate as follows:
+
+$$
+  \array{
+    ideality & \colon& \Re &\dashv&  &#643;_{inf}
+    \\    
+    && \bot && \bot
+    \\
+    reality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
+    \\
+    && \vee && \vee
+    \\
+    quality &\colon&  &#643; &\dashv& \flat
+  }
+$$
+
+as part of the [Cascade](#Cascade).
+
+Notice that here the bottom step upward is an [[Aufhebung]] in the mathematical sense that $\flat_{inf} \circ &#643; \simeq &#643;$. In view of this, we learn from [&#167;305](#305) 
+"Die Idealit&#228;t ... Als [[Aufhebung|Aufheben]] der Endlichkeit" that we might label this as
+
+$$
+  \array{
+    ideality & \colon& \Re &\dashv&  &#643;_{inf}
+    \\    
+    && \bot && \bot
+    \\
+    reality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
+    \\
+    Aufhebung\;der\;Endlichkeit & & \vee && \vee
+    \\
+    quality &\colon&  &#643; &\dashv& \flat
   }
 $$
 
@@ -587,7 +655,7 @@ $$
 ###### Anmerkung
  {#RemarkOnRealityAsOppositeToDuality}
 
-* &#167;324 Die Idealit&#228;t kommt zun&#228;chst den aufgehobenen Bestimmungen zu, als unterschieden von dem, worin sie aufgehoben sind, das dagegen als das Reelle genommen werden kann. So aber ist das Ideelle wieder eins der Momente und das Reale das andere; 
+* {#324} &#167;324 Die Idealit&#228;t kommt zun&#228;chst den aufgehobenen Bestimmungen zu, als unterschieden von dem, worin sie aufgehoben sind, das dagegen als das Reelle genommen werden kann. So aber ist das Ideelle wieder eins der Momente und das Reale das andere; 
 
 * &#167;324 But thus the ideal is again one of the moments, and the real the other;
 
