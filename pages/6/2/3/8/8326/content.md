@@ -184,35 +184,35 @@ The orginal German is at times maybe more evocative than the established English
 ### Allgemeiner Begriff der Logik
 
 
-* {#53} &#167;53 Die Logik ist sonach als das System der reinen Vernunft, als das Reich des reinen Gedankens zu fassen. Dieses Reich ist die Wahrheit, wie sie ohne H&#252;lle an und f&#252;r sich selbst ist. Man kann sich deswegen ausdr&#252;cken, da&#223; dieser Inhalt die Darstellung Gottes ist, wie er in seinem ewigen Wesen vor der Erschaffung der Natur und des endlichen Geistes ist.
+> {#53} &#167;53 Die Logik ist sonach als das System der reinen Vernunft, als das Reich des reinen Gedankens zu fassen. Dieses Reich ist die Wahrheit, wie sie ohne H&#252;lle an und f&#252;r sich selbst ist. Man kann sich deswegen ausdr&#252;cken, da&#223; dieser Inhalt die Darstellung Gottes ist, wie er in seinem ewigen Wesen vor der Erschaffung der Natur und des endlichen Geistes ist.
 
 
-* &#167;53 Accordingly, logic is to be understood as the system of pure reason, as the realm of pure thought. This realm is truth as it is without veil and in its own absolute nature. It can therefore be said that this content is the exposition of God as he is in his eternal essence before the creation of nature and a finite mind.
+> &#167;53 Accordingly, logic is to be understood as the system of pure reason, as the realm of pure thought. This realm is truth as it is without veil and in its own absolute nature. It can therefore be said that this content is the exposition of God as he is in his eternal essence before the creation of nature and a finite mind.
 
-* {#54} &#167;54 Anaxagoras wird als derjenige gepriesen, der zuerst den Gedanken ausgesprochen habe, da&#223; der Nus, der Gedanke, das Princip der Welt, da&#223; das Wesen der Welt als der Gedanke bestimmt ist. Er hat damit den Grund zu einer Intellektualansicht des Universums gelegt, deren reine Gestalt die Logik seyn mu&#223;. Es ist in ihr nicht um ein Denken &#252;ber etwas, das f&#252;r sich au&#223;er dem Denken zu Grunde l&#228;ge, zu thun, um Formen, welche blo&#223;e Merkmale der Wahrheit abgeben sollten; sondern die nothwendigen Formen und eigenen Bestimmungen des Denkens sind der Inhalt und die h&#246;chste Wahrheit selbst.
+> {#54} &#167;54 Anaxagoras wird als derjenige gepriesen, der zuerst den Gedanken ausgesprochen habe, da&#223; der Nus, der Gedanke, das Princip der Welt, da&#223; das Wesen der Welt als der Gedanke bestimmt ist. Er hat damit den Grund zu einer Intellektualansicht des Universums gelegt, deren reine Gestalt die Logik seyn mu&#223;. Es ist in ihr nicht um ein Denken &#252;ber etwas, das f&#252;r sich au&#223;er dem Denken zu Grunde l&#228;ge, zu thun, um Formen, welche blo&#223;e Merkmale der Wahrheit abgeben sollten; sondern die nothwendigen Formen und eigenen Bestimmungen des Denkens sind der Inhalt und die h&#246;chste Wahrheit selbst.
 
-* &#167;54 Anaxagoras is praised as the man who first declared that Nous, thought, is the principle of the world, that the essence of the world is to be defined as thought. In so doing he laid the foundation for an intellectual view of the universe, the pure form of which must be logic. What we are dealing with in logic is not a thinking about something which exists independently as a base for our thinking and apart from it, nor forms which are supposed to provide mere signs or distinguishing marks of truth; on the contrary, the necessary forms and self-consciousness of thought are the content and the ultimate truth itself.
+> &#167;54 Anaxagoras is praised as the man who first declared that Nous, thought, is the principle of the world, that the essence of the world is to be defined as thought. In so doing he laid the foundation for an intellectual view of the universe, the pure form of which must be logic. What we are dealing with in logic is not a thinking about something which exists independently as a base for our thinking and apart from it, nor forms which are supposed to provide mere signs or distinguishing marks of truth; on the contrary, the necessary forms and self-consciousness of thought are the content and the ultimate truth itself.
 
 
 ### Allgemeine Einteilung der Logik
 
-* {#85} &#167;85 Die objektive Logik tritt damit vielmehr an die Stelle der vormaligen Metaphysik, als welche das wissenschaftliche Geb&#228;ude &#252;ber die Welt war, das nur durch Gedanken aufgef&#252;hrt seyn sollte.&#8212;Wenn wir auf die letzte Gestalt der Ausbildung dieser Wissenschaft R&#252;cksicht nehmen, so ist erstens unmittelbar die Ontologie, an deren Stelle die objektive Logik tritt,&#8212;der Theil jener Metaphysik, der die Natur des Ens &#252;berhaupt erforschen sollte;&#8212;das Ens begreift sowohl Seyn als Wesen in sich, f&#252;r welchen Unterschied unsere Sprache gl&#252;cklicherweise den verschiedenen Ausdruck gerettet hat.&#8212;Alsdann aber begreift die objektive Logik auch die &#252;brige Metaphysik insofern in sich, als diese mit den reinen Denkformen die besondern, zun&#228;chst aus der Vorstellung genommenen Substrate, die Seele, die Welt, Gott, zu fassen suchte, und die Bestimmungen des Denkens das Wesentliche der Betrachtungsweise ausmachten. 
+> {#85} &#167;85 Die objektive Logik tritt damit vielmehr an die Stelle der vormaligen Metaphysik, als welche das wissenschaftliche Geb&#228;ude &#252;ber die Welt war, das nur durch Gedanken aufgef&#252;hrt seyn sollte.&#8212;Wenn wir auf die letzte Gestalt der Ausbildung dieser Wissenschaft R&#252;cksicht nehmen, so ist erstens unmittelbar die Ontologie, an deren Stelle die objektive Logik tritt,&#8212;der Theil jener Metaphysik, der die Natur des Ens &#252;berhaupt erforschen sollte;&#8212;das Ens begreift sowohl Seyn als Wesen in sich, f&#252;r welchen Unterschied unsere Sprache gl&#252;cklicherweise den verschiedenen Ausdruck gerettet hat.&#8212;Alsdann aber begreift die objektive Logik auch die &#252;brige Metaphysik insofern in sich, als diese mit den reinen Denkformen die besondern, zun&#228;chst aus der Vorstellung genommenen Substrate, die Seele, die Welt, Gott, zu fassen suchte, und die Bestimmungen des Denkens das Wesentliche der Betrachtungsweise ausmachten. 
 
 
-* &#167;85 The objective logic, then, takes the place rather of the former metaphysics which was intended to be the scientific construction of the world in terms of thoughts alone. If we have regard to the final shape of this science, then it is first and immediately ontology whose place is taken by objective logic &#8212; that part of this metaphysics which was supposed to investigate the nature of ens in general; ens comprises both being and essence, a distinction for which the German language has fortunately preserved different terms. But further, objective logic also comprises the rest of metaphysics in so far as this attempted to comprehend with the forms of pure thought particular substrata taken primarily from figurate conception, namely the soul, the world and God; and the determinations of thought constituted what was essential in the mode of consideration. 
+> &#167;85 The objective logic, then, takes the place rather of the former metaphysics which was intended to be the scientific construction of the world in terms of thoughts alone. If we have regard to the final shape of this science, then it is first and immediately ontology whose place is taken by objective logic &#8212; that part of this metaphysics which was supposed to investigate the nature of ens in general; ens comprises both being and essence, a distinction for which the German language has fortunately preserved different terms. But further, objective logic also comprises the rest of metaphysics in so far as this attempted to comprehend with the forms of pure thought particular substrata taken primarily from figurate conception, namely the soul, the world and God; and the determinations of thought constituted what was essential in the mode of consideration. 
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
 
 ### $\;\;$ Womit muss der Anfang der Wissenschaft gemacht werden?
 
 
-* {#121} &#167;121 Was somit &#252;ber das Seyn ausgesprochen oder enthalten seyn soll, in den reicheren Formen des Vorstellens von Absolutem oder Gott, die&#223; ist im Anfange nur leeres Wort, und nur Seyn; die&#223; Einfache, das sonst keine weitere Bedeutung hat, die&#223; Leere ist also schlechthin der Anfang der Philosophie.
+> {#121} &#167;121 Was somit &#252;ber das Seyn ausgesprochen oder enthalten seyn soll, in den reicheren Formen des Vorstellens von Absolutem oder Gott, die&#223; ist im Anfange nur leeres Wort, und nur Seyn; die&#223; Einfache, das sonst keine weitere Bedeutung hat, die&#223; Leere ist also schlechthin der Anfang der Philosophie.
 
-* &#167;121 Consequently, whatever is intended to be expressed or implied beyond being, in the richer forms of representing the absolute or God, this is in the beginning only an empty word and only being; this simple determination which has no other meaning of any kind, this emptiness, is therefore simply as such the beginning of philosophy.
+> &#167;121 Consequently, whatever is intended to be expressed or implied beyond being, in the richer forms of representing the absolute or God, this is in the beginning only an empty word and only being; this simple determination which has no other meaning of any kind, this emptiness, is therefore simply as such the beginning of philosophy.
 
-* &#167;122 Diese Einsicht ist selbst so einfach, da&#223; dieser Anfang als solcher, keiner Vorbereitung noch weiteren Einleitung bedarf; und diese Vorl&#228;ufigkeit von Raisonnement &#252;ber ihn konnte nicht die Absicht haben, ihn herbeizuf&#252;hren, als vielmehr alle Vorl&#228;ufigkeit zu entfernen.
+> &#167;122 Diese Einsicht ist selbst so einfach, da&#223; dieser Anfang als solcher, keiner Vorbereitung noch weiteren Einleitung bedarf; und diese Vorl&#228;ufigkeit von Raisonnement &#252;ber ihn konnte nicht die Absicht haben, ihn herbeizuf&#252;hren, als vielmehr alle Vorl&#228;ufigkeit zu entfernen.
 
-* &#167;122 This insight is itself so simple that this beginning as such requires no preparation or further introduction; and, indeed, these preliminary, external reflections about it were not so much intended to lead up to it as rather to eliminate all preliminaries.
+> &#167;122 This insight is itself so simple that this beginning as such requires no preparation or further introduction; and, indeed, these preliminary, external reflections about it were not so much intended to lead up to it as rather to eliminate all preliminaries.
 
 
 
@@ -225,17 +225,18 @@ The orginal German is at times maybe more evocative than the established English
 
 From The Shorter Logic:
 
-* &#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
+> &#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
 
-* &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
+> &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
 
-* {#88} &#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
+> {#88} &#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
 
 
 ##### A. Sein / Being
  {#OnBeingAndBecoming}
 
-* &#167;132 Being, pure being, [...] it has no diversity within itself nor any with a reference outwards.
+> &#167;132 Being, pure being, [...] it has no diversity within itself nor any with a reference outwards.
+
 
 
 
@@ -247,7 +248,7 @@ Indeed, later this is called "Das Eins"  which is maybe indeed better translated
 
 ##### B. Nichts / Nothing
 
-* &#167;133 Nothing, pure nothing: it is simply equality with itself, complete emptiness,
+> &#167;133 Nothing, pure nothing: it is simply equality with itself, complete emptiness,
 
 The [[empty type]] $\emptyset$.
 
@@ -256,7 +257,7 @@ The [[empty type]] $\emptyset$.
  {#Becoming}
 
 
-* {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
+> {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
 According to the formalization of such [[unity of opposites]] as
 [above](#OppositesAndUnity) we identify this [[becoming]] (following [Lawvere 91]({#LawvereComo})) as the universal factorization
@@ -275,11 +276,11 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 Indeed, later in [&#167;174](#174) it says:
 
-*  there is nothing which is not an intermediate state between being and nothing.
+> there is nothing which is not an intermediate state between being and nothing.
 
 Also, [below](#SomethingAndAnOther) it says
 
-* &#167;222 Being and nothing in their unity, which is determinate being
+> &#167;222 Being and nothing in their unity, which is determinate being
 
 
 
@@ -289,7 +290,7 @@ Also, [below](#SomethingAndAnOther) it says
 
 ###### $\;\;$ Remark 2: Defectiveness of the Expression "Unity, Identity of Being and Nothing"
 
-* {#152} &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothing are distinct moments; becoming only is, in so far as they are distinguished.
+> {#152} &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothing are distinct moments; becoming only is, in so far as they are distinguished.
 
 In view of the above it seems that "moment" is well translated with _[[modality]]_.
 
@@ -297,15 +298,15 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 
 ###### $\;\;$ Remark 4 Incomprehensibility of the beginning
 
-* &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
+> &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
 
-* {#174} &#167;174 Das Angef&#252;hrte ist auch dieselbe Dialektik, die der Verstand gegen den Begriff braucht, den die h&#246;here Analysis von den unendlich-kleinen Gr&#246;&#223;en giebt. Von diesem Begriffe wird weiter unten ausf&#252;hrlicher gehandelt.&#8212;Diese Gr&#246;&#223;en sind als solche, bestimmt worden, die in ihrem Verschwinden sind, nicht vor ihrem Verschwinden, denn als dann sind sie endliche Gr&#246;&#223;en;&#8212;nicht nach ihrem Verschwinden, denn alsdann sind sie nichts. Gegen diesen reinen Begriff ist eingewendet und immer wiederholt worden, da&#223; solche Gr&#246;&#223;en entweder Etwas seyen, oder Nichts; da&#223; es keinen Mittelzustand (Zustand ist hier ein unpassender, barbarischer Ausdruck) zwischen Seyn und Nichtseyn gebe.&#8212;Es ist hierbei gleichfalls die absolute Trennung des Seyns und Nichts angenommen. Dagegen ist aber gezeigt worden, da&#223; Seyn und Nichts in der That dasselbe sind, oder um in jener Sprache zu sprechen, da&#223; es gar nichts giebt, das nicht ein Mittelzustand zwischen Seyn und Nichts ist. Die Mathematik hat ihre gl&#228;nzendsten Erfolge der Annahme jener Bestimmung, welcher der Verstand widerspricht, zu danken.
+> {#174} &#167;174 Das Angef&#252;hrte ist auch dieselbe Dialektik, die der Verstand gegen den Begriff braucht, den die h&#246;here Analysis von den unendlich-kleinen Gr&#246;&#223;en giebt. Von diesem Begriffe wird weiter unten ausf&#252;hrlicher gehandelt.&#8212;Diese Gr&#246;&#223;en sind als solche, bestimmt worden, die in ihrem Verschwinden sind, nicht vor ihrem Verschwinden, denn als dann sind sie endliche Gr&#246;&#223;en;&#8212;nicht nach ihrem Verschwinden, denn alsdann sind sie nichts. Gegen diesen reinen Begriff ist eingewendet und immer wiederholt worden, da&#223; solche Gr&#246;&#223;en entweder Etwas seyen, oder Nichts; da&#223; es keinen Mittelzustand (Zustand ist hier ein unpassender, barbarischer Ausdruck) zwischen Seyn und Nichtseyn gebe.&#8212;Es ist hierbei gleichfalls die absolute Trennung des Seyns und Nichts angenommen. Dagegen ist aber gezeigt worden, da&#223; Seyn und Nichts in der That dasselbe sind, oder um in jener Sprache zu sprechen, da&#223; es gar nichts giebt, das nicht ein Mittelzustand zwischen Seyn und Nichts ist. Die Mathematik hat ihre gl&#228;nzendsten Erfolge der Annahme jener Bestimmung, welcher der Verstand widerspricht, zu danken.
 
-* {#174} &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
+> {#174} &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
 
 Mathematically, the vanishing of [[infinitesimal objects]] is exactly what is expressed by the [[reduction modality]] $\Re$.
 
-* &#167;174 there is nothing which is not an intermediate state between being and nothing.
+> &#167;174 there is nothing which is not an intermediate state between being and nothing.
 
 The universal factorization for [[unity of opposites]] of the [[empty type]] $\dashv$ [[unit type]] [[adjoint modality]]
 
@@ -324,13 +325,13 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 ###### 2. Momente des Werdens / Moments of Becoming
 
-* {#176} &#167;176 Das Werden, Entstehen und Vergehen, ist die Ungetrenntheit des Seyns und Nichts; nicht die Einheit, welche vom Seyn und Nichts abstrahirt; sondern als Einheit des Seyns und Nichts ist es diese bestimmte Einheit, oder in welcher sowohl Seyn als Nichts ist. Aber indem Seyn und Nichts, jedes ungetrennt von seinem Anderen ist, ist es nicht. Sie sind also in dieser Einheit, aber als verschwindende, nur als Aufgehobene. Sie sinken von ihrer zun&#228;chst vorgestellten Selbstst&#228;ndigkeit zu Momenten herab, noch unterschiedenen, aber zugleich aufgehobenen.
+> {#176} &#167;176 Das Werden, Entstehen und Vergehen, ist die Ungetrenntheit des Seyns und Nichts; nicht die Einheit, welche vom Seyn und Nichts abstrahirt; sondern als Einheit des Seyns und Nichts ist es diese bestimmte Einheit, oder in welcher sowohl Seyn als Nichts ist. Aber indem Seyn und Nichts, jedes ungetrennt von seinem Anderen ist, ist es nicht. Sie sind also in dieser Einheit, aber als verschwindende, nur als Aufgehobene. Sie sinken von ihrer zun&#228;chst vorgestellten Selbstst&#228;ndigkeit zu Momenten herab, noch unterschiedenen, aber zugleich aufgehobenen.
 
-* {#176} &#167;176 Becoming is the unseparatedness of being and nothing, not the unity which abstracts from being and nothing; but as the unity of being and nothing it is this determinate unity in which there is both being and nothing. But in so far as being and nothing, each unseparated from its other, is, each is not. They are therefore in this unity but only as vanishing, sublated moments. They sink from their initially imagined self-subsistence to the status of moments, which are still distinct but at the same time are sublated.
+> {#176} &#167;176 Becoming is the unseparatedness of being and nothing, not the unity which abstracts from being and nothing; but as the unity of being and nothing it is this determinate unity in which there is both being and nothing. But in so far as being and nothing, each unseparated from its other, is, each is not. They are therefore in this unity but only as vanishing, sublated moments. They sink from their initially imagined self-subsistence to the status of moments, which are still distinct but at the same time are sublated.
 
-* {#177} &#167;177 Nach dieser ihrer Unterschiedenheit sie aufgefa&#223;t, ist jedes in derselben als Einheit mit dem Anderen. Das Werden enth&#228;lt also Seyn und Nichts als zwei solche Einheiten, deren jede selbst Einheit des Seyns und Nichts ist; die eine das Seyn als unmittelbar und als Beziehung auf das Nichts; die andere das Nichts als unmittelbar und als Beziehung auf das Seyn; die Bestimmungen sind in ungleichem Werthe in diesen Einheiten.
+> {#177} &#167;177 Nach dieser ihrer Unterschiedenheit sie aufgefa&#223;t, ist jedes in derselben als Einheit mit dem Anderen. Das Werden enth&#228;lt also Seyn und Nichts als zwei solche Einheiten, deren jede selbst Einheit des Seyns und Nichts ist; die eine das Seyn als unmittelbar und als Beziehung auf das Nichts; die andere das Nichts als unmittelbar und als Beziehung auf das Seyn; die Bestimmungen sind in ungleichem Werthe in diesen Einheiten.
 
-* {#177} &#167;177 Grasped as thus distinguished, each moment is in this distinguishedness as a unity with the other. Becoming therefore contains being and nothing as two such unities, each of which is itself a unity of being and nothing; the one is being as immediate and as relation to nothing, and the other is nothing as immediate and as relation to being; the determinations are of unequal values in these unities.
+> {#177} &#167;177 Grasped as thus distinguished, each moment is in this distinguishedness as a unity with the other. Becoming therefore contains being and nothing as two such unities, each of which is itself a unity of being and nothing; the one is being as immediate and as relation to nothing, and the other is nothing as immediate and as relation to being; the determinations are of unequal values in these unities.
 
 
 An archetypical description of the [[unity of opposites]]. Here:
@@ -348,9 +349,9 @@ $$
 
 
 
-* {#178} &#167;178 Das Werden ist auf diese Weise in gedoppelter Bestimmung; in der einen ist das Nichts als unmittelbar, d. i. sie ist anfangend vom Nichts, das sich auf das Seyn bezieht, das hei&#223;t, in dasselbe &#252;bergeht, in der anderen ist das Seyn als unmittelbar d. i. sie ist anfangend vom Seyn, das in das Nichts &#252;bergeht,&#8212;Entstehen und Vergehen.
+> {#178} &#167;178 Das Werden ist auf diese Weise in gedoppelter Bestimmung; in der einen ist das Nichts als unmittelbar, d. i. sie ist anfangend vom Nichts, das sich auf das Seyn bezieht, das hei&#223;t, in dasselbe &#252;bergeht, in der anderen ist das Seyn als unmittelbar d. i. sie ist anfangend vom Seyn, das in das Nichts &#252;bergeht,&#8212;Entstehen und Vergehen.
 
-* {#178} &#167;178 Becoming is in this way in a double determination. In one of them, nothing is immediate, that is, the determination starts from nothing which relates itself to being, or in other words changes into it; in the other, being is immediate, that is, the determination starts from being which changes into nothing: the former is coming-to-be and the latter is ceasing-to-be.
+> {#178} &#167;178 Becoming is in this way in a double determination. In one of them, nothing is immediate, that is, the determination starts from nothing which relates itself to being, or in other words changes into it; in the other, being is immediate, that is, the determination starts from being which changes into nothing: the former is coming-to-be and the latter is ceasing-to-be.
  
 $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
 
@@ -359,14 +360,14 @@ $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
 
 ###### 3. Sublating of Becoming
 
-* &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
+> &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
 
-* &#167;181 This could also be expressed thus: becoming is the vanishing of being in nothing and of nothing in being and the vanishing of being and nothing generally; but at the same time it rests on the distinction between them. It is therefore inherently self-contradictory, because the determinations it unites within itself are opposed to each other; but such a union destroys itself.
+> &#167;181 This could also be expressed thus: becoming is the vanishing of being in nothing and of nothing in being and the vanishing of being and nothing generally; but at the same time it rests on the distinction between them. It is therefore inherently self-contradictory, because the determinations it unites within itself are opposed to each other; but such a union destroys itself.
 
 
-* &#167;182 This result is the vanishedness of becoming, but it is not nothing; as such it would only be a relapse into one of the already sublated determinations, not the resultant of nothing and being. It is the unity of being and nothing which has settled into a stable oneness. But this stable oneness is being, yet no longer as a determination on its own but as a determination of the whole.
+> &#167;182 This result is the vanishedness of becoming, but it is not nothing; as such it would only be a relapse into one of the already sublated determinations, not the resultant of nothing and being. It is the unity of being and nothing which has settled into a stable oneness. But this stable oneness is being, yet no longer as a determination on its own but as a determination of the whole.
 
-* &#167;183 Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
+> &#167;183 Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
 
 | |  | [[Dasein]] | |  |
 |--|--|--|--|--|
@@ -380,7 +381,7 @@ $\,$
 
 
 
-* &#167;187 The more precise meaning and expression which being and nothing receive, now that they are moments, is to be ascertained from the consideration of determinate being as the unity in which they are preserved. Being is being, and nothing is nothing, only in their contradistinction from each other; but in their truth, in their unity, they have vanished as these determinations and are now something else. Being and nothing are the same; but just because they are the same they are no longer being and nothing, but now have a different significance. In becoming they were coming-to-be and ceasing-to-be; in determinate being, a differently determined unity, they are again differently determined moments. This unity now remains their base from which they do not again emerge in the abstract significance of being and nothing.
+> &#167;187 The more precise meaning and expression which being and nothing receive, now that they are moments, is to be ascertained from the consideration of determinate being as the unity in which they are preserved. Being is being, and nothing is nothing, only in their contradistinction from each other; but in their truth, in their unity, they have vanished as these determinations and are now something else. Being and nothing are the same; but just because they are the same they are no longer being and nothing, but now have a different significance. In becoming they were coming-to-be and ceasing-to-be; in determinate being, a differently determined unity, they are again differently determined moments. This unity now remains their base from which they do not again emerge in the abstract significance of being and nothing.
 
 moment $\leftrightarrow$ [[modality]]
 
@@ -403,17 +404,17 @@ Notice that all this has a striking resemblance to the following lines from the 
 ##### A. Dasein as such / Determinate being as such
  {#ExistenceAsSuch}
 
-* {#188} &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
+> {#188} &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
 
-*  &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality. Through its quality, something is determined as opposed to an other, as alterable and finite; and as negatively determined not only against an other but also in its own self. This its negation as at first opposed to the finite something is the infinite; the abstract opposition in which these determinations appear resolves itself into the infinity which is free from the opposition, into being-for-self.
+>  &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality. Through its quality, something is determined as opposed to an other, as alterable and finite; and as negatively determined not only against an other but also in its own self. This its negation as at first opposed to the finite something is the infinite; the abstract opposition in which these determinations appear resolves itself into the infinity which is free from the opposition, into being-for-self.
 
 The first sentence here is made up by the translator, in the original it says:
 
-* Daseyn ist bestimmtes Seyn;
+> Daseyn ist bestimmtes Seyn;
 
 Di Giovanni has
 
-* Existence is _determinate_ being;
+> Existence is _determinate_ being;
 
 In any case, by the discussion at _[Becoming](#Becoming)_ we have that "being" is a moment of the adjunction $(\emptyset \dashv \ast)$ and the discussion at _[Relation between repulsion and attraction](#RelationBetweenRepulsionAndAttraction)_ we have that "quality" is the adjunction $(&#643; \dashv \flat)$. Therefore it seems that
 
@@ -426,7 +427,7 @@ For more on this see at _[Remark on reality as opposite to ideality](#RemarkOnRe
 ###### a. Dasein &#252;berhaupt / Determinant being in general
  {#DaseinUberhaupt}
 
-* {#191} &#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears
+> {#191} &#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears
 
 Above we saw that _[[becoming]]_ is formalized by the universal [[unity of opposites]] of [[nothing]] $\dashv$ [[being]], i.e. $\emptyset \dashv \ast$, exhibiting any [[type]] $X$ as intermediate (via $\emptyset$-[[unit of a monad|unit]] and $\ast$-[[counit of a comonad]])
 
@@ -448,7 +449,7 @@ $$
   \,.
 $$
 
-* {#194} &#167; 194 Determinate being corresponds to being in the previous sphere
+> {#194} &#167; 194 Determinate being corresponds to being in the previous sphere
 
 Here "sphere" is [[level of a topos|level]].
 
@@ -456,27 +457,27 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 
 ###### b. Qualit&#228;t / Quality
 
-* &#167;196 Determinateness thus isolated by itself in the form of being is quality 
+> &#167;196 Determinateness thus isolated by itself in the form of being is quality 
 
 
 ###### c. Etwas / Something
  {#Etwas}
 
-* {#208} &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present [als seiend], belonging to the sphere of determinate being. 
+> {#208} &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present [als seiend], belonging to the sphere of determinate being. 
 
   Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
 
 [[Dasein]], quality, [[type]], something
 
-* {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+> {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
 
-* {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
+> {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
 
-* {#210} &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
+> {#210} &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
 
-* {#211} &#167;211 Something is the negation of the negation in the form of being;
+> {#211} &#167;211 Something is the negation of the negation in the form of being;
 
-* {#212} &#167;212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
+> {#212} &#167;212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
 
 
 Here "double negation" is plausibly matched with the [[double negation modality]].
@@ -489,15 +490,15 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
-* &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
+> &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
 
 something : Being-for-other $\dashv$ being-in-itself
 
-* &#167;222 Being and nothing in their unity, which is determinate being
+> &#167;222 Being and nothing in their unity, which is determinate being
 
 Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[becoming]]_.
 
-* Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
+> Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
 
 
 ##### C. Die Unendlichkeit
@@ -510,12 +511,12 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 ###### Der &#220;bergang
 
-* {#305} &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
+> {#305} &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
 
-* &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
+> &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
 
-If we take the "infinite" and the "infinitesimal" to go together, be two aspects of the same thing, then the above would give also that _ideality is the quality of the infinitesimal_. 
+If we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- and to be two aspects of the same thing, then the above would give also that _ideality is the quality of the infinitesimal_. 
 
 Now we had already that quality is the [[duality of opposites]] expressed by [[shape modality]] and [[flat modality]]
 
@@ -539,7 +540,7 @@ $$
   }
 $$
 
-in the [Cascade](#Cascade).
+in the [Proce&#223;](#Cascade).
 
 On the other hand, mathematically we actually have an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \flat_{inf}$, with the [[reduction modality]] on the  left. Recall that the reduction modality expresses precisely the "disappearance of infinitesimal quantity" in [&#167;174](#174).
 
@@ -559,6 +560,10 @@ and so "ideality" could also be translated to $\Re \dashv &#643;_{inf}$.
 
 Now by [&#167;324](#324) the opposite moment of ideality is _reality_. Noticing that the adjoint pair $&#643;_{inf} \dashv \flat_{inf}$ is what axiomatizes [[étale toposes]], [[manifolds]], and [[étale groupoids]] (as discussed at [[differential cohesion]]), it does make sense to think of this in terms of "reality": among all the objects in a differentially cohesive $\infty$-topos, those, that are "geometric" in the sense of [[geometric stack]], hence those that would actually model, for instance, a [[spacetime]], but not those that model more "non-real" spaces such as moduli spaces, are precisely the &#233;tale objects (see also the discussion at _[[higher geometry]]_).
 
+The view that [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
+
+> F&#252;r diesen H&#246;hepunkt kritischer Naturerkenntnis bildet die Charakteristik der infinitesimalen Gr&#246;&#223;e als intensiver die notwendige Vermittlung;  denn die kritische Bedeutung der Realit&#228;t wird  vorzugsweise  an der  infinitesimalen Intensit&#228;t  durchgef&#252;hrt.
+
 In view of this, it makes sense to translate as follows:
 
 $$
@@ -575,7 +580,7 @@ $$
   }
 $$
 
-as part of the [Cascade](#Cascade).
+as part of the [Proce&#223;](#Cascade).
 
 Notice that here the bottom step upward is an [[Aufhebung]] in the mathematical sense that $\flat_{inf} \circ &#643; \simeq &#643;$. In view of this, we learn from [&#167;305](#305) 
 "Die Idealit&#228;t ... Als [[Aufhebung|Aufheben]] der Endlichkeit" that we might label this as
@@ -597,11 +602,11 @@ $$
 
 #### Third chapter. Das F&#252;rsichsein / Being for self
 
-* {#318} &#167;318 Im F&#252;rsichseyn ist das qualitative Seyn vollendet;
+> {#318} &#167;318 Im F&#252;rsichseyn ist das qualitative Seyn vollendet;
 
-* &#167;318 In being-for-self, qualitative being finds its consummation;
+> &#167;318 In being-for-self, qualitative being finds its consummation;
 
-* &#167;319 Being-for-self is first, immediately a being-for-self &#8212; the One.
+> &#167;319 Being-for-self is first, immediately a being-for-self &#8212; the One.
 
   Secondly, the One passes into a plurality of ones &#8212; repulsion &#8212; and this otherness of the ones is sublated in their ideality &#8212; attraction.
 
@@ -645,21 +650,21 @@ $$
 
 ###### a. Dasein und F&#252;rsichsein / Determinate being and Being-for-self
 
-* {#321} &#167;321 Das F&#252;rsichseyn ist, wie schon erinnert ist, die in das einfache Seyn zusammengesunkene Unendlichkeit; es ist Daseyn, insofern die negative Natur der Unendlichkeit, welche Negation der Negation ist, in der nunmehr gesetzten Form der Unmittelbarkeit des Seyns, nur als Negation &#252;berhaupt, als einfache qualitative Bestimmtheit ist.
+> {#321} &#167;321 Das F&#252;rsichseyn ist, wie schon erinnert ist, die in das einfache Seyn zusammengesunkene Unendlichkeit; es ist Daseyn, insofern die negative Natur der Unendlichkeit, welche Negation der Negation ist, in der nunmehr gesetzten Form der Unmittelbarkeit des Seyns, nur als Negation &#252;berhaupt, als einfache qualitative Bestimmtheit ist.
 
-* &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
+> &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
 
 ###### b. Sein-f&#252;r-Eines / Being-for-one
 
-* &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
+> &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
 
 
 ###### Anmerkung
  {#RemarkOnRealityAsOppositeToDuality}
 
-* {#324} &#167;324 Die Idealit&#228;t kommt zun&#228;chst den aufgehobenen Bestimmungen zu, als unterschieden von dem, worin sie aufgehoben sind, das dagegen als das Reelle genommen werden kann. So aber ist das Ideelle wieder eins der Momente und das Reale das andere; 
+> {#324} &#167;324 Die Idealit&#228;t kommt zun&#228;chst den aufgehobenen Bestimmungen zu, als unterschieden von dem, worin sie aufgehoben sind, das dagegen als das Reelle genommen werden kann. So aber ist das Ideelle wieder eins der Momente und das Reale das andere; 
 
-* &#167;324 But thus the ideal is again one of the moments, and the real the other;
+> &#167;324 But thus the ideal is again one of the moments, and the real the other;
 
 hence another [[unity of opposites]] is $ideality \dashv reality$.
 
@@ -745,17 +750,17 @@ $$
   }
 $$
 
-to exhibit a cascade (Bewegung) of oppositions and their Aufhebung.
+to exhibit a Proce&#223; (Bewegung) of oppositions and their Aufhebung.
 
-See the labeled [Cascade](#Cascade) below.
+See the labeled diagram _[Proce&#223;](#Cascade)_ below.
 
 See also the commented diagram for _[gauge](#gauge)_ below.
 
 ###### c. Eins
 
-* &#167;328 Being-for-self is the simple unity of itself and its moment, being-for-one.
+> &#167;328 Being-for-self is the simple unity of itself and its moment, being-for-one.
 
-* &#167;329 The moments which constitute the Notion of the one as a being-for-self fall asunder in the development. They are: (1) negation in general, (2) two negations, (3) two that are therefore the same, (4) sheer opposites, (5) self-relation, identity as such, (6) relation which is negative and yet to its own self.
+> &#167;329 The moments which constitute the Notion of the one as a being-for-self fall asunder in the development. They are: (1) negation in general, (2) two negations, (3) two that are therefore the same, (4) sheer opposites, (5) self-relation, identity as such, (6) relation which is negative and yet to its own self.
 
 If we translate "moment" as [[modality]] then here the 
 [[double negation modality]] comes to mind.
@@ -765,24 +770,24 @@ Notice that the [[empty type]] and the [[unit type]] are the [[modal types]] for
 ##### B. Eins und Vieles. / The One and the Many
  {#EinsUndVieles}
 
-* Die Idealit&#228;t des F&#252;rsichseyns als Totalit&#228;t schl&#228;gt so f&#252;rs erste in die Realit&#228;t um, und zwar in die festeste, abstrakteste, als Eins.
+> Die Idealit&#228;t des F&#252;rsichseyns als Totalit&#228;t schl&#228;gt so f&#252;rs erste in die Realit&#228;t um, und zwar in die festeste, abstrakteste, als Eins.
 
 ###### a. Das Eins an ihm selbst
 
 ###### b. Das Eins und das Leere / The One and the Void
 
-* &#167;335 The one is the void as the abstract relation of the negation to itself. 
+> &#167;335 The one is the void as the abstract relation of the negation to itself. 
 
 ###### $\;\;$ Remark: Atomism
  {#Atomism}
 
-* &#167;337 The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
+> &#167;337 The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
 
 Eins: [[atom]], [[infinitesimally thickened point]]
 
 ###### c. Viele Eins. Repulsion. / Many ones. Repulsion.
 
-* &#167;340 The one and the void constitute the first stage of the determinate being of being-for-self. Each of these moments has negation for its determination and is at the same time posited as a determinate being; according to the former determination the one and the void are the relation of negation to negation as of an other to its other: the one is negation in the determination of being, and the void is negation in the determination of non-being.
+> &#167;340 The one and the void constitute the first stage of the determinate being of being-for-self. Each of these moments has negation for its determination and is at the same time posited as a determinate being; according to the former determination the one and the void are the relation of negation to negation as of an other to its other: the one is negation in the determination of being, and the void is negation in the determination of non-being.
 
 Das Eins (the One): $\ast$ [[unit type]]
 
@@ -792,9 +797,9 @@ Negation $(\not X) \coloneqq (X \to \emptyset)$
 
 $\ast \simeq \not \emptyset$.
 
-* &#167;342 the one repels itself from itself. The negative relation of the one to itself is repulsion.
+> &#167;342 the one repels itself from itself. The negative relation of the one to itself is repulsion.
 
-* &#167;343 This repulsion as thus the positing of many ones but through the one itself, is the one's own coming-forth-from-itself but to such outside it as are themselves only ones. This is repulsion according to its Notion, repulsion in itself. The second repulsion is different from it, it is what is immediately suggested to external reflection: repulsion not as the generation of ones, but only as the mutual repelling of ones presupposed as already present. 
+> &#167;343 This repulsion as thus the positing of many ones but through the one itself, is the one's own coming-forth-from-itself but to such outside it as are themselves only ones. This is repulsion according to its Notion, repulsion in itself. The second repulsion is different from it, it is what is immediately suggested to external reflection: repulsion not as the generation of ones, but only as the mutual repelling of ones presupposed as already present. 
 
 
 To see a formalization of "the one repels itself from itself",
@@ -823,7 +828,7 @@ $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 ###### $\;\;$ Remark: The Monad of Leibniz
  {#TheMonadOfLeibniz}
 
-* &#167;348 We have previously referred to the [[Gottfried Leibniz|Leibnizian]] idealism. We may add here that this idealism which started from the ideating [[monad (disambiguation)|monad]], which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
+> &#167;348 We have previously referred to the [[Gottfried Leibniz|Leibnizian]] idealism. We may add here that this idealism which started from the ideating [[monad (disambiguation)|monad]], which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
 
   The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self. 
 
@@ -896,14 +901,14 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
  {#RelationBetweenRepulsionAndAttraction}
 
 
-* {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
+> {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
 
-* &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
+> &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
 
 
-* &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
+> &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
 
-* &#167;370 With this, the development of being-for-self is completed and has reached its conclusion.
+> &#167;370 With this, the development of being-for-self is completed and has reached its conclusion.
 
 Since _Dasein_ and _F&#252;rsichsein_ both are qualitative being/are quality ([&#167;188](#188), [&#167;318](#318), [&#167;321](#321))  the above gives us the [[unity of opposites]]
 
@@ -914,7 +919,7 @@ $$
 ###### Remark: The Kantian Construction of Matter from the Forces of Attraction and Repulsion
 
 
-* &#167;374 Kant, as we know, constructed matter from the forces of attraction and repulsion, or at least he has, to use his own words, set up the metaphysical elements of this construction.
+> &#167;374 Kant, as we know, constructed matter from the forces of attraction and repulsion, or at least he has, to use his own words, set up the metaphysical elements of this construction.
 
 Not about actual [[forces]] in [[matter]] so much as about what makes the points in the [[continuum]] both stay apart (repulsion) and at the same time hang together (attraction/cohesion).
 
@@ -929,7 +934,7 @@ Not about actual [[forces]] in [[matter]] so much as about what makes the points
  {#PureQuantity}
 
 
-* &#167;398 Quantity is the unity of these moments of continuity and discreteness
+> [&#167;398](#398) Quantity is the unity of these moments of continuity and discreteness
 
 By [[unity of opposites]] and since the [[flat modality]] matches the "moment of discreteness" this is the duality with the [[sharp modality]]
 
@@ -946,7 +951,7 @@ $$
 
 ###### On attraction / cohesion 
 
-* &#167;395 Attraction is in this way the moment of continuity in quantity.
+> &#167;395 Attraction is in this way the moment of continuity in quantity.
 
 attraction is what holds stuff together, hence this is the idea of [[cohesion]]
 
@@ -956,12 +961,12 @@ if $X$ has continuity then the [[shape modality]] $&#643; X$ is the result of le
 ###### On discreteness and repulsion
  {#OnDiscretenessAndRepulsion}
 
-* &#167;397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
+> &#167;397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
 
 continuous object $X$ possesses moment 
 of [[discrete object|discreteness]]= [[flat modality]] $\flat X$
 
-* &#167;398 Quantity is the unity of these moments of continuity and discreteness,
+> &#167;398 Quantity is the unity of these moments of continuity and discreteness,
 
 
 By the formalization of [[unity of opposites]] this must mean that 
@@ -1008,7 +1013,7 @@ The [[continuum]].
 
 ###### On space, time, matter
 
-* &#167;432 Space, time, matter, and so forth are continuous magnitudes 
+> &#167;432 Space, time, matter, and so forth are continuous magnitudes 
 
 
 
@@ -1018,15 +1023,40 @@ The [[continuum]].
 
 #### Second chapter. Quantum
 
+##### A. Die Zahl
+
+##### B. Extensives und Intensives Quantum
+
+##### C. Die quantitative Unendlichkeit
+
+###### a. Begriff derselben
+
+###### b. Der quantitative unendliche Progre&#223;
+
+> [&#167;502](#502) Die Kontinuit&#228;t des Quantums in sein Anderes bringt die Verbindung beider in dem Ausdruck eines Unendlich-Gro&#223;en oder Unendlich-Kleinen hervor. Da beide die Bestimmung des Quantums noch an ihnen haben, bleiben sie ver&#228;nderliche und die absolute Bestimmtheit, die ein F&#252;r-sichseyn w&#228;re, ist also nicht erreicht. Die&#223; Au&#223;ersichseyn der Bestimmung ist in dem gedoppelten Unendlichen, das sich nach dem Mehr und Weniger entgegengesetzt ist, dem Unendlich-gro&#223;en und Kleinen, gesetzt. An jedem selbst ist das Quantum im perennirenden Gegensatze gegen sein Jenseits erhalten. Das Gro&#223;e noch so sehr erweitert, schwindet zur Unbetr&#228;chtlichkeit zusammen; indem es sich auf das Unendliche als auf sein Nichtseyn bezieht, ist der Gegensatz qualitativ; das erweiterte Quantum hat daher dem Unendlichen nichts abgewonnen; dieses ist vor wie nach das Nichtseyn desselben. Oder, die Vergr&#246;&#223;erung des Quantums ist keine N&#228;herung zum Unendlichen, denn der Unterschied des Quantums und seiner Unendlichkeit hat wesentlich auch das Moment ein nicht quantitativer Unterschied zu seyn. Es ist nur der ins Engere gebrachte Ausdruck des Widerspruchs; es soll ein Gro&#223;es d. i. ein Quantum, und unendlich, d. i. kein Quantum seyn.&#8212;Eben so das Unendlichkleine ist als Kleines ein Quantum und bleibt daher absolut d. h. qualitativ zu gro&#223; f&#252;r das Unendliche, und ist diesem entgegengesetzt. Es bleibt in beiden der Widerspruch des unendlichen Progresses erhalten der in ihnen sein Ziel gefunden haben sollte.
+
+
+> &#167;502 The continuity of quantum with its other produces the conjunction of both in the expression of an infinitely great or infinitely small. Since both still bear the character of quantum they remain alterable, and the absolute determinateness which would be a being-for-self is, therefore, not attained. This self-externality of the determination is posited in the dual infinite &#8212; which is opposed to itself as a 'more' and a 'less' &#8212; in the infinitely great and infinitely small. In each, the quantum is maintained in perpetual opposition to its beyond. No matter how much the quantum is increased, it shrinks to insignificance; because quantum is related to the infinite as to its non-being, the opposition is qualitative; the increased quantum has therefore gained nothing from the infinite, which is now, as before, the non-being of quantum. In other words, the increase of quantum brings it no nearer to the infinite; for the difference between quantum and its infinity is essentially not a quantitative difference. The expression 'the infinitely great' only throws the contradiction into sharper relief; it is supposed to be great, that is, a quantum, and infinite, that is, not a quantum. Similarly, the infinitely small is, as small, a quantum, and therefore remains absolutely, that is, qualitatively, too great for the infinite and is opposed to it. In both, there remains the contradiction of the infinite progress which in them should have reached its goal.
+
+
+####### Anmerkung 1
+
+####### Anmerkung 2
+
+
+
+###### c. Die Unendlichkeit des Quantums
+
+
 
 
 
 ### Third section. The measure.
  {#TheMeasure}
 
-* {#699} &#167;699 Im Maa&#223;e sind, abstrakt ausgedr&#252;ckt, Qualit&#228;t und Quantit&#228;t vereinigt.
+> {#699} &#167;699 Im Maa&#223;e sind, abstrakt ausgedr&#252;ckt, Qualit&#228;t und Quantit&#228;t vereinigt.
 
-* &#167;699 Abstractly expressed, in measure quality and quantity are united
+> &#167;699 Abstractly expressed, in measure quality and quantity are united
 
 
 So by the formalization of [[unity of opposites]] we have 
@@ -1047,20 +1077,22 @@ $$
   }
 $$
 
-See the [Cascade](#Cascade)
+See the _[Proce&#223;](#Cascade)_ diagram
 
 
-* &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
+> &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
 
 #### First chapter. Die specifische Quantit&#228;t.
 
 ##### A. Das specifische Quantum / The Specific Quantum
 
-* {#714} &#167;714 Ein Maa&#223;, als Maa&#223;stab im gew&#246;hnlichen Sinne, ist ein Quantum, das als die an sich bestimmte Einheit gegen &#228;u&#223;erliche Anzahl willk&#252;rlich angenommen wird. Eine solche Einheit kann zwar auch in der That an sich bestimmte Einheit seyn, wie Fu&#223; und dergleichen urspr&#252;ngliche Maa&#223;e; insofern sie aber als Maa&#223;stab zugleich f&#252;r andere Dinge gebraucht wird, ist sie f&#252;r diese nur &#228;u&#223;erliches, nicht ihr urspr&#252;ngliches Maa&#223;.&#8212;So mag der Erddurchmesser, oder die Pendell&#228;nge, als specifisches Quantum f&#252;r sich genommen werden. Aber es ist willk&#252;rlich, den wievielsten Theil des Erddurchmessers oder der Pendell&#228;nge und unter welchem Breitengrade man diese nehmen wolle, um sie als Maa&#223;stab zu gebrauchen. Noch mehr aber ist f&#252;r andere Dinge ein solcher Maa&#223;stab etwas &#196;u&#223;erliches. Diese haben das allgemeine specifische Quantum wieder auf besondere Art specificirt, und sind dadurch zu besondern Dingen gemacht. Es ist daher th&#246;richt, von einem nat&#252;rlichen Maa&#223;stab der Dinge zu sprechen. Ohnehin soll ein allgemeiner Maa&#223;stab nur f&#252;r die &#228;u&#223;erliche Vergleichung dienen; in diesem oberfl&#228;chlichsten Sinne, in welchem er als allgemeines Maa&#223; genommen wird, ist es v&#246;llig gleichg&#252;ltig, was daf&#252;r gebraucht wird. Es soll nicht ein Grundmaa&#223; in dem Sinne seyn, da&#223; die Naturmaa&#223;e der besondern Dinge daran dargestellt und daraus nach einer Regel, als Specifikationen Eines allgemeinen Maa&#223;es, des Maa&#223;es ihres allgemeinen K&#246;rpers, erkannt w&#252;rden. Ohne diesen Sinn aber hat ein absoluter Maa&#223;stab nur das Interesse und die Bedeutung eines Gemeinschaftlichen, und ein solches ist nicht an sich, sondern durch &#220;bereinkommen ein Allgemeines.
+> {#714} &#167;714 Ein Maa&#223;, als Maa&#223;stab im gew&#246;hnlichen Sinne, ist ein Quantum, das als die an sich bestimmte Einheit gegen &#228;u&#223;erliche Anzahl willk&#252;rlich angenommen wird. Eine solche Einheit kann zwar auch in der That an sich bestimmte Einheit seyn, wie Fu&#223; und dergleichen urspr&#252;ngliche Maa&#223;e; insofern sie aber als Maa&#223;stab zugleich f&#252;r andere Dinge gebraucht wird, ist sie f&#252;r diese nur &#228;u&#223;erliches, nicht ihr urspr&#252;ngliches Maa&#223;.&#8212;So mag der Erddurchmesser, oder die Pendell&#228;nge, als specifisches Quantum f&#252;r sich genommen werden. Aber es ist willk&#252;rlich, den wievielsten Theil des Erddurchmessers oder der Pendell&#228;nge und unter welchem Breitengrade man diese nehmen wolle, um sie als Maa&#223;stab zu gebrauchen. Noch mehr aber ist f&#252;r andere Dinge ein solcher Maa&#223;stab etwas &#196;u&#223;erliches. Diese haben das allgemeine specifische Quantum wieder auf besondere Art specificirt, und sind dadurch zu besondern Dingen gemacht. Es ist daher th&#246;richt, von einem nat&#252;rlichen Maa&#223;stab der Dinge zu sprechen. Ohnehin soll ein allgemeiner Maa&#223;stab nur f&#252;r die &#228;u&#223;erliche Vergleichung dienen; in diesem oberfl&#228;chlichsten Sinne, in welchem er als allgemeines Maa&#223; genommen wird, ist es v&#246;llig gleichg&#252;ltig, was daf&#252;r gebraucht wird. Es soll nicht ein Grundmaa&#223; in dem Sinne seyn, da&#223; die Naturmaa&#223;e der besondern Dinge daran dargestellt und daraus nach einer Regel, als Specifikationen Eines allgemeinen Maa&#223;es, des Maa&#223;es ihres allgemeinen K&#246;rpers, erkannt w&#252;rden. Ohne diesen Sinn aber hat ein absoluter Maa&#223;stab nur das Interesse und die Bedeutung eines Gemeinschaftlichen, und ein solches ist nicht an sich, sondern durch &#220;bereinkommen ein Allgemeines.
 
-* &#167;714 A measure taken as a standard in the usual meaning of the word is a quantum which is arbitrarily assumed as the intrinsically determinate unit relatively to an external amount. Such a unit can, it is true, also be in fact an intrinsically determinate unit, like a foot and suchlike original measures; but in so far as it is also used as a standard for other things it is in regard to them only an external measure, not their original measure. Thus the diameter of the earth or the length of a pendulum may be taken, each on its own account, as a specific quantum; but the selection of a particular fraction of the earth's diameter or of the length of the pendulum, as well as the degree of latitude under which the latter is to be taken for use as a standard, is a matter of choice. But for other things such a standard is still more something external. These have further specified the general specific quantum in a particular way and have thereby become particular things. It is therefore foolish to speak of a natural standard of things. Moreover, a universal standard ought only to serve for external comparison; in this most superficial sense in which it is taken as a universal measure it is a matter of complete indifference what is used for this purpose. It ought not to be a fundamental measure in the sense that it forms a scale on which the natural measures of particular things could be represented and from which, by means of a rule, they could be grasped as specifications of a universal measure, i.e. of the measure of their universal body. Without this meaning, however, an absolute measure is interesting and significant only as a common element, and as such is a universal not in itself but only by agreement.
+> &#167;714 A measure taken as a standard in the usual meaning of the word is a quantum which is arbitrarily assumed as the intrinsically determinate unit relatively to an external amount. Such a unit can, it is true, also be in fact an intrinsically determinate unit, like a foot and suchlike original measures; but in so far as it is also used as a standard for other things it is in regard to them only an external measure, not their original measure. Thus the diameter of the earth or the length of a pendulum may be taken, each on its own account, as a specific quantum; but the selection of a particular fraction of the earth's diameter or of the length of the pendulum, as well as the degree of latitude under which the latter is to be taken for use as a standard, is a matter of choice. But for other things such a standard is still more something external. These have further specified the general specific quantum in a particular way and have thereby become particular things. It is therefore foolish to speak of a natural standard of things. Moreover, a universal standard ought only to serve for external comparison; in this most superficial sense in which it is taken as a universal measure it is a matter of complete indifference what is used for this purpose. It ought not to be a fundamental measure in the sense that it forms a scale on which the natural measures of particular things could be represented and from which, by means of a rule, they could be grasped as specifications of a universal measure, i.e. of the measure of their universal body. Without this meaning, however, an absolute measure is interesting and significant only as a common element, and as such is a universal not in itself but only by agreement.
 
-Here _Ma&#223;stab_ is translated as "standard". It can also, maybe better, be translated as "[[gauge]]". Therefore by ([699](#699)) we may label this part of the [Cascade](#Cascade) as follows:
+This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _Eichma&#223;_, a _choice_ that is made (durch &#220;bereinkommen). The English translation that captures this maybe more properly than "standard" is "gauge".
+
+Therefore by ([699](#699)) we may label this part of the [Proce&#223;](#Cascade) as follows:
 
 +-- {: bluebox #gauge}
 ###### .
@@ -1082,15 +1114,16 @@ $$
 
 =--
 
+This is striking, as at the same time precisely this [[adjoint triple]] is also an abstract axiomatization of [[gauge theory]] in [[physics]]. This is discussed for instance at _[[differential cohomology hexagon]]_.
 
 
 ##### B. Specificirendes Ma&#223; / Specifying measure
 
 ###### (a) Die Regel / The Rule
 
-* {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
+> {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
 
-* &#167;725 The rule or standard $[$ gauge $]$, which has already been mentioned, is in the first place an intrinsically determinate magnitude which is a unit with reference to a quantum having a particular existence in a something other than the something of the rule; this other something is measured by the rule, i.e. is determined as an amount of the said unit. This comparison is an external act, the unit itself being an arbitrary magnitude which in turn can equally be treated as an amount (the foot as an amount of inches). But measure is not only an external rule; as a specifying measure its nature is to be related in its own self to an other which is a quantum.
+> &#167;725 The rule or standard $[$ gauge $]$, which has already been mentioned, is in the first place an intrinsically determinate magnitude which is a unit with reference to a quantum having a particular existence in a something other than the something of the rule; this other something is measured by the rule, i.e. is determined as an amount of the said unit. This comparison is an external act, the unit itself being an arbitrary magnitude which in turn can equally be treated as an amount (the foot as an amount of inches). But measure is not only an external rule; as a specifying measure its nature is to be related in its own self to an other which is a quantum.
 
 ###### (b) Das specificirende Ma&#223; / Specifying Measure
 
@@ -1109,9 +1142,9 @@ $$
 ##### C. &#220;bergang in das Wesen.
  {#UeberGangInDasWesen}
 
-* {#803} &#167;803 Die absolute Indifferenz ist die letzte Bestimmung des Seyns, ehe dieses zum Wesen wird; 
+> {#803} &#167;803 Die absolute Indifferenz ist die letzte Bestimmung des Seyns, ehe dieses zum Wesen wird; 
 
-* &#167;803 Absolute indifference is the final determination of being before it becomes essence; but it does not attain to essence.
+> &#167;803 Absolute indifference is the final determination of being before it becomes essence; but it does not attain to essence.
 
 Under the formalization of [[unity of opposites]], "absolute indifference" is plausibly the name of the trivial adjunction $id\dashv id$ which describes a difference that is none, hence an indifference.
 
@@ -1133,31 +1166,31 @@ $$
 $$
 
 +-- {: bluebox #Cascade}
-###### .
+###### Proce&#223;
 
 $$
   \array{
-    && id &\stackrel{Das\;Wesen}{\dashv}& id
+    &\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
     \\
-    && \vee &Aufhebung \atop {der\;Differenzen}& \vee 
+    &\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    && \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
+    && \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
-    && \bot && \bot 
+    &&& \bot && \bot 
     \\
-    && &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    &&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
     \\
-    && \vee &{Aufhebung \atop {der\;Endlichkeit}}& \vee 
+    &&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    &Attraktion& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & Repulsion
+    &&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
     \\
-    && \bot && \bot 
+    &\stackrel{bestimmtes\;Sein}{}&& \bot &Eichma&#223;& \bot 
     \\
-    &Diskretion& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & Kontinuum
+    &&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
     \\
-    && \vee &Aufhebung& \vee 
+    &&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
     \\
-    &Nichts& \emptyset &\stackrel{Werden}{\dashv}& \ast & Sein
+    &\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
   }
 $$
@@ -1182,16 +1215,16 @@ $$
 
 ###### $\;\;$ Remark $A = A$
 
-* {#863} &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
+> {#863} &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
 
 The reflector(!) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
 
 ###### A Identity
  {#Identity}
 
-* &#167;869 Essence is therefore simple identity with self.
+> &#167;869 Essence is therefore simple identity with self.
 
-* &#167;869 This identity-with-self is the immediacy of reflection.
+> &#167;869 This identity-with-self is the immediacy of reflection.
 
 The reflector(!) [[term constructor]] in an [[identity type]].  Below this is called te _[First original law of thought](#FirstOriginalLawOfThought)_.
 
@@ -1200,7 +1233,7 @@ The reflector(!) [[term constructor]] in an [[identity type]].  Below this is ca
 ###### $\;\;$ Remark 2: First original law of thought
  {#FirstOriginalLawOfThought}
 
-* &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
+> &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
 
   This proposition in its positive expression $A = A$ is, in the first instance, nothing more than the expression of an empty tautology. 
 
@@ -1216,16 +1249,16 @@ The reflector [[term constructor]] in an [[identity type]].
  {#LawOfDiversity}
 
 
-* {#903} &#167;903 All things are different; or: there are no two things like each other.
+> {#903} &#167;903 All things are different; or: there are no two things like each other.
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
 
 ###### C Contradiction
 
-* &#167;903 When all the conditions of a fact are present, it enters into Existence.
+> &#167;903 When all the conditions of a fact are present, it enters into Existence.
 
 
-* &#167;1035 The fact emerges from the ground. It is not grounded or posited by it in such a manner that ground remains as a substrate; on the contrary, the positing is the movement of the ground outwards to itself and its simple vanishing.
+> &#167;1035 The fact emerges from the ground. It is not grounded or posited by it in such a manner that ground remains as a substrate; on the contrary, the positing is the movement of the ground outwards to itself and its simple vanishing.
 
   $[..]$
 
@@ -1236,21 +1269,22 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 (...)
 
-* {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
+> {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
 
 (..)
 
-* &#167;1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
+> &#167;1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
 
-* Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
+> Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
 
-* &#167; 1192 Actuality is formal in so far as, being primary actuality, it is _only immediate_, _unreflected_ actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a _being or Existence_ in general. But because it is _essentially_ not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the _in-itself or possibility. What is actual is possible._
+> &#167; 1192 Actuality is formal in so far as, being primary actuality, it is _only immediate_, _unreflected_ actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a _being or Existence_ in general. But because it is _essentially_ not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the _in-itself or possibility. What is actual is possible._
 
 so 
 
 $$
   Wirklichkeit \colon Ansichsein/inner \dashv outer
 $$
+
 
 ## **Book three** Die Lehre vom Begriff / The doctrine of the notion
 
@@ -1293,6 +1327,10 @@ Further comments on Hegel's text include
 Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
 * {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+Related discussion in view of [[infinitesimals]] is in
+
+* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
 
 Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
