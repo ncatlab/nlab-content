@@ -18,7 +18,7 @@
 
 According to _Hans-Georg Gadamer_ who was PhD-student of Natorp, the principal idea of the Marburg school is the formulation of the _transcendental concepts_ of [[Kant]] as methods of the generation of reality through pure thought modeled on the role of continuity and infinitesimals in the mathematical sciences programmatically expressed in ([Cohen 1883](#Cohen83)).
 
-Cohen's views of the role of continuity have affinities with Hegelianism and can be viewed as philosophical complement to [[F.W. Lawvere]]'s concept of [[infinitesimal generation]] for [[cohesive toposes]] although the latter explicitly rejected the idealist idea of generation of reality from pure thought.
+Cohen's views of the role of continuity have affinities with Hegelianism (see at _[[Science of Logic]]_) and may be viewed as philosophical complement to [[F.W. Lawvere]]'s concept of [[infinitesimal generation]] for [[cohesive toposes]] (although the latter explicitly rejected the idealist idea of generation of reality from pure thought).
 
 ## Related entries
 
