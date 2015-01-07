@@ -52,10 +52,15 @@ If the localization in is a [[topological localization]] then $\mathbf{H}$ is an
 
 =--
 
-### By $(\infty,1)$-Giraud's axioms 
+### By Giraud-Rezk-Lurie axioms 
  {#GiraudAxioms}
 
-Equivalently: an $(\infty,1)$-topos $\mathbf{H}$ is
+Equivalently: 
+
++-- {: .num_prop}
+###### Proposition
+
+An $(\infty,1)$-topos $\mathbf{H}$ is
 
 an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
 
@@ -64,27 +69,42 @@ an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [
 * [[coproduct]]s in $\mathbf{H}$ are [[disjoint coproduct|disjoint]];
 * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathbf{H}$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
-The equivalence of these two characterizations is 
-part of the statement of [[Higher Topos Theory|HTT, theorm 6.1.0.6]].
+=--
+
+This is  part of the statement of [[Higher Topos Theory|HTT, theorm 6.1.0.6]].
 
 This is derived from the following equivalent one:
 
-an [[(∞,1)-topos]] is
++-- {: .num_prop #CharacterizationByObjectClassifier}
+###### Proposition
 
-* a [[presentable (∞,1)-category]]
+An [[(∞,1)-topos]] is
 
-* with [[universal colimits]]
+* a [[presentable (∞,1)-category]] with [[universal colimits]]
 
-* and with [[object classifier]]s.
+* that has [[object classifiers]].
+
+=--
+
++-- {: .num_remark #ReflectonOnCharacterizationByObjectClassifier}
+###### Remark
+
+An [[object classifier]] is a (small) _self-reflections_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
+
+=--
 
 A further equivalent one (essentially by an invocation of the adjoint functor theorem) is:
 
-an [[(∞,1)-topos]] is
++-- {: .num_prop}
+###### Proposition
+
+An [[(∞,1)-topos]] is
 
 * a [[presentable (∞,1)-category]]
 
 * in which all colimits are [[van Kampen colimits]].
  
+=--
 
 ### Morphisms
 
@@ -417,6 +437,7 @@ should be.
 
 * [[(0,1)-topos]]
 
+
 * [[topos]]
 
 * [[2-topos]]
@@ -472,13 +493,13 @@ A useful collection of facts of [[simplicial homotopy theory]] and [[(infinity,1
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 
-### $\infty$-Giraud axioms
+### Giraud-Rezk-Lurie axioms
 
 A discussion of the $(\infty,1)$-[[universal colimits]] in terms of [[model category]] presentations is due to
 
 * [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/~rezk/rezk-sharp-maps.pdf))
 
-More on this with an eye on [[associated ∞-bundle]]s is in 
+More on this with an eye on [[associated ∞-bundles]] is in 
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
 
