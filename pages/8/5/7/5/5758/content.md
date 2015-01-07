@@ -19,7 +19,7 @@
 
 ## Idea
 
-The category of [[dg-modules]] over a [[dg-algebra]], or more generally a [[dg-category]], admits [[dg-model structures]] which present the [[derived (infinity,1)-category of dg-modules]].
+The category of [[dg-modules]] over a [[dg-algebra]], or more generally a [[dg-category]], admits [[dg-model structures]] which present the [[derived dg-category]].
 
 In the case of [[dg-algebras]] in an [[abelian category]] $\mathcal{A}$, [[dg-modules]] are the same as [[module over an algebra over an operad|modules]] over [[algebra over an operad|algebras]] over the [[associative operad]] in $Ch(\mathcal{A})$. These admit model structures as described in [[model structure on modules over an algebra over an operad]], [[transferred model structure|transferred]] from the [[model structures on chain complexes]] in $\mathcal{A}$.
 
@@ -37,59 +37,10 @@ There is a [[cofibrantly generated model structure]] on the category of [[dg-mod
 There is a [[model structure]] on the category of [[dg-modules]], called the **injective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
 =--
 
-See ([Toen 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2). These model structures present the [[derived (infinity,1)-category of dg-modules]].
+See ([Toen 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2). These model structures present the [[derived dg-category]].
 
 ## Properties
  {#Properties}
-
-Let $k$ be a [[field]] of [[characteristic]] 0.
-
-Write $Ch^\bullet(k)$ for the [[category of chain complexes]]. 
-
-Let $A \in Mon(Ch^\bullet(k)) = dgAlg_k$ be a [[differential graded algebra]]. 
-
-Write $A Mod$ for the category of _dg-modules_ over $A$: [[module]]s in $Ch^\bullet(k)$ over $A$:
-
-+-- {: .num_prop}
-###### Proposition
-
-If $A$ is commutative, then $A Mod$ is a [[closed monoidal category|closed]] [[symmetric monoidal category]].
-
-=--
-
-This is a standard construction, for instance [Bernstein, p. 5](#Bernstein).
-
-
-
-+-- {: .num_prop}
-###### Proposition
-
-If $A$ is cofibrant as an object in $Ch^\bullet(k)$ then the [[transferred model structure]] along
-
-$$
-  (F \dashv U) : 
-   A Mod \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
-   Ch^\bullet(k)
-$$
-
-exists. 
-
-=--
-
-This appears as ([Fresse, prop. 11.2.6](#Fresse)).
-
-(...)
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[homotopy fiber|homotopy cofiber]]s in $A Mod$ are given by the usual [[mapping cone]]s of dg-modules in the [[model structure on chain complexes]].
-
-=--
-
-This follows from ([Bernstein, 10.3.5](#Bernstein)).
-
-
 
 ## References
 
@@ -128,6 +79,3 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
-
-[[!redirects dg-module]]
-[[!redirects dg-modules]]
