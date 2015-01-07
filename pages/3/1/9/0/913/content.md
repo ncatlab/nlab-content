@@ -5,7 +5,7 @@
 
 ## Definitions
 
-A __sequence__ is [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.)
+A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.)
 
 Up to [[bijection]], the only possible sources are those of the form
 $$ \{i\colon \mathbb{Z} \;|\; 0 \leq i \lt n\} $$
