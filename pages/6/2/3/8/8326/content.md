@@ -1148,7 +1148,9 @@ Regarding this, see also below [&#167;714](#714).
 
 This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _Eichma&#223;_, a _choice_ that is made (durch &#220;bereinkommen). The English translation that captures this maybe more properly than "standard" is "[[gauge]]".
 
-This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this. By the discussion there (see also at _[[torsor]]_), this is indeed all about ratios, just as stated in [&#167;708](#708) above. Observe that [&#167;709](#709) above said that to to develop a theory of measure, hence a theory of gauge, is to develop a "mathematics of nature".
+This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this. By the discussion there (see also at _[[torsor]]_), this is indeed all about ratios, just as stated in [&#167;708](#708) above. 
+
+(Observe also that [&#167;709](#709) above said that to develop a theory of measure, hence a theory of gauge, is to develop a "mathematics of nature". Moreover, by [Philosophy of Nature &#167;202](Philosophy+of+Nature#202) "The truly philosophical science of mathematics as theory of magnitude would be the science of measures".)
 
 Therefore by ([&#167;699](#699)) we may label this part of the [Proce&#223;](#Process) as follows:
 
