@@ -178,27 +178,27 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 
 $$
   \array{
-    &\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
+    &&\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
     \\
-    &\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    &&\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    && \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
+    &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
-    &&& \bot && \bot 
+    \stackrel{Unendlichkeit}{} &&&& \bot && \bot 
     \\
-    &&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    &&&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
     \\
-    &&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
+    &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    &&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    &&&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
     \\
-    &\stackrel{bestimmtes\;Sein}{}&& \bot &\stackrel{Eichmass}{}& \bot 
+    &&\stackrel{bestimmtes\;Sein}{}&& \bot &\stackrel{Eichmass}{}& \bot 
     \\
-    &&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
+    \stackrel{Endlichkeit}{} &&&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
     \\
-    &&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
     \\
-    &\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+    &&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
   }
 $$
@@ -551,6 +551,19 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 ###### c. Die affirmative Unendlichkeit
 
+
+> {#303} &#167;303 Das Endliche ist nicht das Reale, sondern das Unendliche.
+
+> It is not the finite which is the real, but the infinite
+
+> {#304} &#167;304 In Beziehung auf Realit&#228;t und Idealit&#228;t wird aber der Gegensatz des Endlichen und Unendlichen so gefa&#223;t, da&#223; das Endliche f&#252;r das Reale gilt, das Unendliche aber f&#252;r das Ideelle gilt; wie auch weiterhin der Begriff als ein Ideelles und zwar als ein nur Ideelles, das Daseyn &#252;berhaupt dagegen als das Reale betrachtet wird.
+
+> With reference to reality and ideality, however, the opposition of finite and infinite is grasped in such a manner that the finite ranks as the real but the infinite as the 'ideal' [das Ideelle]; in the same way that further on the Notion, too, is regarded as an 'ideal', that is, as a mere 'ideal', in contrast to determinate being as such which is regarded as the real.
+
+Taking from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the infinite progression in the mathematical sense of passing to a [[limit of a sequence]]. 
+Hence if we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then [&#167;304](#204) gives that  "the [[infintesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
+
+
 ###### Der &#220;bergang
 
 > {#305} &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
@@ -558,7 +571,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 > &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
 
-If we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- and to be two aspects of the same thing, then the above would give also that _ideality is the quality of the infinitesimal_. 
+If we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then the above would give also that _ideality is the quality of the infinitesimal_. 
 
 Now we had already that quality is the [[duality of opposites]] expressed by [[shape modality]] and [[flat modality]]
 
@@ -568,7 +581,7 @@ $$
   }
 $$
 
-and moreover, mathematically, the infinitesimal is expressed by the infinitesimal analog of this, namely the adjunction between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal shape modality]] $\flat_{inf}$.
+and moreover, mathematically, the infinitesimal is expressed by the infinitesimal analog of this, namely the [[adjunction]] between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal shape modality]] $\flat_{inf}$.
 
 This would suggest to translate "ideality is the quality of the infinite" by the part 
 
@@ -600,13 +613,13 @@ $$
 
 and so "ideality" could also be translated to $\Re \dashv &#643;_{inf}$. 
 
-Now by [&#167;324](#324) the opposite moment of ideality is _reality_. Noticing that the adjoint pair $&#643;_{inf} \dashv \flat_{inf}$ is what axiomatizes [[étale toposes]], [[manifolds]], and [[étale groupoids]] (as discussed at [[differential cohesion]]), it does make sense to think of this in terms of "reality": among all the objects in a differentially cohesive $\infty$-topos, those, that are "geometric" in the sense of [[geometric stack]], hence those that would actually model, for instance, a [[spacetime]], but not those that model more "non-real" spaces such as moduli spaces, are precisely the &#233;tale objects (see also the discussion at _[[higher geometry]]_).
+Now by [&#167;324](#324) the opposite moment of ideality is _reality_. Noticing that the adjoint pair $&#643;_{inf} \dashv \flat_{inf}$ is what axiomatizes [[étale toposes]], [[manifolds]], and [[étale groupoids]] (as discussed at [[differential cohesion]]), it does make sense to think of this in terms of "reality": among all the objects in a differentially cohesive $\infty$-topos, those, that are "geometric" in the sense of [[geometric stack]], hence those that would actually model, for instance, a [[spacetime]], but not those that model more "non-real" spaces such as moduli spaces, are precisely the &#233;tale objects (see also the discussion at _[[higher geometry]]_). This may also fit with [&#167;304](#304) above.
 
-The view that [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
+The view that the concept of [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
 
 > F&#252;r diesen H&#246;hepunkt kritischer Naturerkenntnis bildet die Charakteristik der infinitesimalen Gr&#246;&#223;e als intensiver die notwendige Vermittlung;  denn die kritische Bedeutung der Realit&#228;t wird  vorzugsweise  an der  infinitesimalen Intensit&#228;t  durchgef&#252;hrt.
 
-In view of this, it makes sense to translate as follows:
+In view of all this, it makes sense to translate as follows:
 
 $$
   \array{
@@ -1074,6 +1087,11 @@ The [[continuum]].
 ###### a. Begriff derselben
 
 ###### b. Der quantitative unendliche Progre&#223;
+ {#DerQuantitativeUnendlicheProgress}
+
+> &#167;500 The progress to infinity is in general the expression of contradiction, here, of that which is implicit in the quantitative finite, or quantum as such. It is the reciprocal determining of the finite and infinite which was considered in the sphere of quality, with the difference that, as just remarked, in the sphere of quantity the limit in its own self dispatches and continues itself into its beyond and hence, conversely, the quantitative infinite too is posited as having quantum within it; for quantum in its self-externality is also its own self, its externality belongs to its determination.
+
+> &#167;501 Now the infinite progress is only the expression of this contradiction, not its resolution; but because the one determinateness is continued into its other, the progress gives rise to the show of a solution in a union of both. As at first posed, it is the problem of attaining the infinite, not the actual reaching of it; it is the perpetual generation of the infinite, but it does not get beyond quantum, nor does the infinite become positively present. It belongs to the Notion of quantum to have a beyond of itself. This beyond is first, the abstract moment of the non-being of quantum: the vanishing of quantum is its own act; it is thus related to its beyond as to its infinity, in accordance with the qualitative moment of the opposition. Secondly, however, quantum is continuous with its beyond; quantum consists precisely in being the other of itself, in being external to itself; this externality is, therefore, no more an other than quantum itself; the beyond or the infinite is, therefore, itself a quantum. In this way, the beyond is recalled from its flight and the infinite is attained. But because the infinite now affirmatively present is again a quantum, what has been posited is only a fresh limit; this, too, as a quantum, has again fled from itself, is as such beyond itself and has repelled itself into its non-being, into its own beyond, and as it thus repels itself into the beyond, so equally does the beyond perpetually become a quantum.
 
 > [&#167;502](#502) Die Kontinuit&#228;t des Quantums in sein Anderes bringt die Verbindung beider in dem Ausdruck eines Unendlich-Gro&#223;en oder Unendlich-Kleinen hervor. Da beide die Bestimmung des Quantums noch an ihnen haben, bleiben sie ver&#228;nderliche und die absolute Bestimmtheit, die ein F&#252;r-sichseyn w&#228;re, ist also nicht erreicht. Die&#223; Au&#223;ersichseyn der Bestimmung ist in dem gedoppelten Unendlichen, das sich nach dem Mehr und Weniger entgegengesetzt ist, dem Unendlich-gro&#223;en und Kleinen, gesetzt. An jedem selbst ist das Quantum im perennirenden Gegensatze gegen sein Jenseits erhalten. Das Gro&#223;e noch so sehr erweitert, schwindet zur Unbetr&#228;chtlichkeit zusammen; indem es sich auf das Unendliche als auf sein Nichtseyn bezieht, ist der Gegensatz qualitativ; das erweiterte Quantum hat daher dem Unendlichen nichts abgewonnen; dieses ist vor wie nach das Nichtseyn desselben. Oder, die Vergr&#246;&#223;erung des Quantums ist keine N&#228;herung zum Unendlichen, denn der Unterschied des Quantums und seiner Unendlichkeit hat wesentlich auch das Moment ein nicht quantitativer Unterschied zu seyn. Es ist nur der ins Engere gebrachte Ausdruck des Widerspruchs; es soll ein Gro&#223;es d. i. ein Quantum, und unendlich, d. i. kein Quantum seyn.&#8212;Eben so das Unendlichkleine ist als Kleines ein Quantum und bleibt daher absolut d. h. qualitativ zu gro&#223; f&#252;r das Unendliche, und ist diesem entgegengesetzt. Es bleibt in beiden der Widerspruch des unendlichen Progresses erhalten der in ihnen sein Ziel gefunden haben sollte.
 
@@ -1089,6 +1107,22 @@ The [[continuum]].
 
 
 ###### c. Die Unendlichkeit des Quantums
+
+####### Anmerkung 1
+
+> In R&#252;cksicht der Erhaltung des Verh&#228;ltnisses im Verschwinden der Quantorum findet sich (anderw&#228;rts, wie bei Carnot, R&#233;flexions sur la M&#233;taphysique du Calcul Infinit&#233;simal.) der Ausdruck, da&#223; verm&#246;ge des Gesetzes der St&#228;tigkeit die verschwindenden Gr&#246;&#223;en noch das Verh&#228;ltni&#223;, aus dem sie herkommen, ehe sie verschwinden, behalten. &#8212;Diese Vorstellung dr&#252;ckt die wahre Natur der Sache aus, insofern nicht die St&#228;tigkeit des Quantums verstanden wird, die es im unendlichen Progre&#223; hat, sich in sein Verschwinden so zu kontinuiren, da&#223; im Jenseits seiner wieder nur ein endliches Quantum, ein neues Glied der Reihe entsteht; ein st&#228;tiger Fortgang wird aber immer so vorgestellt, da&#223; die Werthe durchloffen werden, welche noch endliche Quanta sind.
+
+> In demjenigen &#220;bergange dagegen, welcher in das wahrhafte Unendliche gemacht wird, ist das Verh&#228;ltni&#223; das st&#228;tige; es ist so sehr st&#228;tig und sich erhaltend, da&#223; er vielmehr allein darin besteht, das Verh&#228;ltni&#223; rein herauszuheben, und die verh&#228;ltni&#223;lose Bestimmung, d. i. da&#223; ein Quantum, welches Seite des Verh&#228;ltnisses ist, auch au&#223;er dieser Beziehung gesetzt, noch Quantum ist, verschwinden zu machen. &#8212;Diese Reinigung des quantitativen Verh&#228;ltnisses ist insofern nichts anders, als wenn ein empirisches Daseyn begriffen wird. Die&#223; wird hierdurch so &#252;ber sich selbst erhoben, da&#223; sein Begriff dieselben Bestimmungen enth&#228;lt, als es selbst, aber in ihrer Wesentlichkeit und in die Einheit des Begriffes gefa&#223;t, worin sie ihr gleichg&#252;ltiges, begriffloses Bestehen verloren haben.
+
+
+
+
+
+
+
+
+
+
 
 
 
