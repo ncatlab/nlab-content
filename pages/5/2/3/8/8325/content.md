@@ -79,6 +79,8 @@ but
 
 * _[[Science of Logic]]_
 
+* _[[Philosophy of Nature]]_
+
 * _[[Phenomenology of Spirit]]_
 
 * [[unity of opposites]], [[Aufhebung]]
