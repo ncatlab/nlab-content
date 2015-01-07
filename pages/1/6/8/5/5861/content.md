@@ -1228,6 +1228,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
+
 By the general discussion at _[[reflective factorization system]]_, the reflection is given by sending a morphism $f \colon Y \to X$ to 
 $X \times_{\mathbf{\Pi}_{inf}(X)} \mathbf{\Pi}_{inf}(Y) \to Y$ and the reflection [[unit of an adjunction|unit]] is the left horizontal morphism in 
 
@@ -1284,6 +1285,30 @@ $$
   \flat_{inf} \simeq Et_{/\ast}
   \,.
 $$
+
+Indeed, for any $X$ then $\flat_{inf}X \to \ast$ is a [[formally étale morphism]] since
+
+$$
+  \array{
+    \flat_{inf}X &\longrightarrow& &#643;_{inf}\flat_{inf} X
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& &#643;_{inf} \ast
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    \flat_{inf}X &\stackrel{\simeq}{\longrightarrow}& \flat_{inf} X
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\stackrel{\simeq}{\longrightarrow}& \ast
+  }
+$$
+
+is a [[homotopy pullback]].
 
 =--
 
@@ -1690,7 +1715,7 @@ We discuss the abstract formulation of sheaves of [[modules]] and of [[quasicohe
 +-- {: .num_defn}
 ###### Definition
 
-For $X \in \mathbf{H}_{th}$ an object and $(Sh_{\mathbf{H}}(X), \mathcal{O}_X)$ its $\mathbf{H}_{th}$-[[structured (infinity,1)-topos]], according to def. \ref{TheStructureSheafOfX} and remark \ref{StructureSheafRestrictedToH}, consider the composite functor
+For $X \in \mathbf{H}_{th}$ an object and $(Sh_{\mathbf{H}}(X), \mathcal{O}_X)$ its $\mathbf{H}_{th}$-[[structured (infinity,1)-topos]], according to def. \ref{TheStructureSheafOfX}, consider the composite functor
 
 $$
   \mathcal{O}_X^{\mathbf{H}} \;\colon\; \mathbf{H} \stackrel{i_!}{\hookrightarrow} \mathbf{H}_{th} \stackrel{Et X^\ast}{\longrightarrow} Sh_{\mathbf{H}}(X)
@@ -1910,6 +1935,7 @@ See also at _[smooth manifold -- general abstract geometric formulation](smooth%
  {#GLnTangentBundles}
 
 We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[frame bundle]] classified by a morphism $X \to \mathbf{B}GL(V)$.
+
 
 +-- {: .num_defn #FormalDiskBundle}
 ###### Definition
