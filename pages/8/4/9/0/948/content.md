@@ -269,8 +269,7 @@ In
 
 the following comment about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
 
-> All the same, while proof is essential in the case of mathematical
-knowledge, it still does not have the significance and nature of being
+> {#PoSOnProofRelevance} All the same, while proof is essential in the case of mathematical knowledge, it still does not have the significance and nature of being
 a moment in the result itself; the proof is over when we get the
 result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
 
