@@ -154,7 +154,8 @@ Recall the slight but crucial difference between the two notions of "[[simplicia
 
 [[!redirects Dwyer-Kan equivalence]]
 [[!redirects Dwyer-Kan weak equivalence]]
+[[!redirects Dwyer-Kan equivalence of simplicial categories]]
 
 [[!redirects Dwyer-Kan equivalences]]
 [[!redirects Dwyer-Kan weak equivalences]]
-
+[[!redirects Dwyer-Kan equivalences of simplicial categories]]
