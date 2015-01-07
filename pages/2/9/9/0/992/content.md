@@ -162,6 +162,7 @@ a stable $(\infty,1)$-category $Sp(C)$ that can be defined as the [[limit in a q
 
 $$
   Sp(C) := holim(   \cdots \to C \stackrel{\Omega}{\to} C \stackrel{\Omega}{\to} C )
+
   \,.
 $$
 
@@ -388,5 +389,10 @@ The enrichment over spectra is made precise in
 [[!redirects stable (∞, 1)-category]]
 [[!redirects stable (∞,1)-categories]]
 [[!redirects stable (∞, 1)-categories]]
+
+[[!redirects stable infinity-category]]
+[[!redirects stable infinity-categories]]
+[[!redirects stable ∞-category]]
+[[!redirects stable ∞-categories]]
 
 [[!redirects stable (infinity,1)-topos]]
