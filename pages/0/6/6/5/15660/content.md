@@ -22,6 +22,12 @@ A left (resp. right) **dg-module** over $T$ is a [[module over an enriched categ
 
 Note that when $T$ is a [[dg-category]] with a single object, a dg-module over $T$ is the same thing as a dg-module over the [[dg-algebra]] of [[endomorphisms]] of the unique object.
 
++-- {: .un_defn}
+###### Definition
+The **shift** of a dg-module $M$ over $T$ by an [[integer]] $n$ is the dg-module $M[n]$ defined by composing $M$ with the shift [[endofunctor]] $-[n]$ on $dg-mod_k$.
+=--
+
+
 ## Properties
 
 By general [[enriched category theory]], dg-modules themselves form a [[dg-category]] which we denote $dg-mod_T$. The [[enriched Yoneda lemma|enriched Yoneda embedding]] is a [[fully faithful]] functor of [[dg-categories]]
@@ -31,11 +37,22 @@ This induces the [[dg-Yoneda embedding]]
   $$ h : T \hookrightarrow D(T) $$
 into the [[derived dg-category]] of $T$.
 
++-- {: .un_defn}
+###### Definition
+A dg-module $M \in D(T)$ is called **representable** if it is in the [[essential image]] of the [[dg-Yoneda embedding]].
+$M$ is called **free** if it is equivalent to a [[direct sum]] of shifts of representable dg-modules.
+=--
+
+
 ## References
 
 Section 3 in
 
 * [[B. Toen]], _The homotopy theory of dg-categories and derived Morita theory_, [arXiv:math/0408337](http://arxiv.org/abs/math/0408337).
+
+Paragraph 2.2 of
+
+* [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv:1402.7364](http://arxiv.org/abs/1402.7364).
 
 [[!redirects dg-modules]]
 
