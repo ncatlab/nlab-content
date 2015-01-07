@@ -117,6 +117,10 @@ The [[model structure]] presenting pretriangulated dg-categories is discussed in
 
 * {#Tabuada07} [[Goncalo Tabuada]], _Theorie homotopique des DG-categories_, Ph.D. thesis, Universite Denis Diderot - Paris 7, [arXiv:0710.4303](http://arxiv.org/abs/0710.4303).
 
+See also paragraph 2.3 of
+
+* [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv:1402.7364](http://arxiv.org/abs/1402.7364).
+
 For a summary of the various [[model structures on dg-categories]], see Section 2 of the paper
 
 * {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Non-connective K-theory via universal invariants_, Compositio Math. 147 (2011), 1281-1320, [arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf).
@@ -126,6 +130,8 @@ The relation to [[stable (infinity,1)-categories]] is discussed in
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
 [[!redirects pretriangulated dg-categories]]
+[[!redirects strongly pretriangulated dg-category]]
+[[!redirects strongly pretriangulated dg-categories]]
 [[!redirects pre-triangulated dg-category]]
 [[!redirects pre-triangulated dg-categories]]
 [[!redirects stable dg-category]]
