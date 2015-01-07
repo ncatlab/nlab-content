@@ -30,9 +30,11 @@ This is similarr to [[ETop∞Grpd]], which models cohesibion in the form of [[Eu
 
 ## Definition
 
-Let $CTop$ be some small version (...details missing...) of the site of [[locally contractible topological space|locally contractible]] [[contractible space|contractible topological space]]s with [[continuous map]]s betwen them and equpped with the standard [[open cover]] [[coverage]].
+Let $CTop$ be some [[small category|small]] version (...details missing...) of the [[site]] of [[locally contractible topological space|locally contractible]] [[contractible topological spaces]] with [[continuous maps]] betwen them and equipped with the standard [[open cover]] [[coverage]].
 
-This is a [[cohesive site]] (...for the evident generalization of that definitions where Cech covers are generalized to hypercovers...). The key axiom to check is that for $Y \to U$ a [[hypercover]] of $U \in CTop$ degreewise by a [[coproduct]] of contractibles, also the simplicial set $\lim_\to Y$ obtained by sending each contractible to a point is contractible. This follows with [ArtinMazur](#ArtinMazur). See the [proposition below](...)
+This is a [[cohesive site]] (for the evident generalization of that definitions where Cech covers are generalized to hypercovers). The key axiom to check is that for $Y \to U$ a [[hypercover]] of $U \in CTop$ degreewise by a [[coproduct]] of contractibles, also the simplicial set $\lim_\to Y$ obtained by sending each contractible to a point is contractible. This follows as pointed out [on MO here](http://mathoverflow.net/a/187891/381).[^ack] 
+
+[^ack]:Thanks to [[David Carchedi]] for highlighting this.
 
 Define then 
 
@@ -42,30 +44,18 @@ $$
 
 to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CTop$. 
 
-This is a [[cohesive (∞,1)-topos]].
+This is an [[cohesive (∞,1)-topos]].
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : LCTop\infty Grpd \to \infty Grpd
   \,.
 $$
 
+## Related concepts
 
-Proposition. For $X \in LCTop \hookrightarrow LC\infty Grpd$ a [[locally contractible space]] (...maybe with some local size restriction, depending on the details of $CTop$...), regarded as a [[0-truncated]] locally contractible topological $\infty$-groupoid, we have that the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor applied to $X$ coincides, up to equivalence, with the standard [[fundamental ∞-groupoid]] of $X$.
+* [[ETop∞Grpd]]
 
-$$
-  \Pi(X) \simeq Sing X
-  \,.
-$$
 
-Proof. By the analogous arguments as at [[ETop∞Grpd]] we may present $\Pi$ by the left [[derived functor]] of the [[colimit]] functor on [[simplicial presheaves]]. This is the ordinary colimit applied to a cofibrant [[resolution]] of $X$ in $[CTop^{op}, sSet]_{proj,loc}$. By Dugger's cofibrant replacement theorem recalled at [[model structure on simplicial presheaves]], such is given by a [[split hypercover]] $Y \to X$ degreewise a coproduct of objects in $CTop$. By 
-[ArtinMazur](#ArtinMazur) there is a [[weak homotopy equivalence]] $\lim_\to Y\to Sing X$.
-
-(...)
-
-## References
-
-* Artin-Mazur, _&#201;tale Homotopy_ , SLNM 100
-{#ArtinMazur}
 
 [[!redirects locally contractible topological ∞-groupoid]]
 [[!redirects LCTop∞Grpd]]
