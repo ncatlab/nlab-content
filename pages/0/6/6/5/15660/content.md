@@ -30,17 +30,15 @@ The **shift** of a dg-module $M$ over $T$ by an [[integer]] $n$ is the dg-module
 
 ## Properties
 
-By general [[enriched category theory]], dg-modules themselves form a [[dg-category]] which we denote $dg-mod_T$. The [[enriched Yoneda lemma|enriched Yoneda embedding]] is a [[fully faithful]] functor of [[dg-categories]]
-  $$ h : T \hookrightarrow dg-mod_T. $$
-
-This induces the [[dg-Yoneda embedding]]
-  $$ h : T \hookrightarrow D(T) $$
-into the [[derived dg-category]] of $T$.
+By general [[enriched category theory]], dg-modules themselves form a [[dg-category]] which we denote $dg-mod_T$.
 
 +-- {: .un_defn}
 ###### Definition
-A dg-module $M \in D(T)$ is called **representable** if it is in the [[essential image]] of the [[dg-Yoneda embedding]].
+A dg-module $M \in dg-mod_T$ is called **representable** if it is in the [[essential image]] of the [[dg-Yoneda embedding]].
+
 $M$ is called **free** if it is equivalent to a [[direct sum]] of shifts of representable dg-modules.
+
+$M$ is called **semi-free** if it admits a [[filtration]] whose [[associated graded objects]] are free dg-modules.
 =--
 
 
