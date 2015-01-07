@@ -52,5 +52,5 @@ Equivalently, $f$ is an equivalence if it is the image of a functor of quasi-cat
 [[!redirects equivalence in an (infinity,1)-category]]
 
 [[!redirects equivalences in an (∞,1)-category]]
-
+[[!redirects equivalences in an (infinity,1)-category]]
 
