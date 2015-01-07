@@ -27,3 +27,5 @@ Before [[mathematics]] was found to be 'the language with which God has written 
 
 * [[philosophy of physics]]
 
+* [[Georg Hegel]], _[[Philosophy of Nature]]_
+
