@@ -157,6 +157,7 @@ The following table lists proposals for possible such identifications. The conte
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
 | measure (= [[gauge]]) | quality $\dashv$ quantity |
 | absolute indifference (essence) | $id \dashv id$ |
+| essence as reflection in itself | [[object classifier]] = [[type of types]] = [[universe]] |
 
 Notice that the above involves the first two stages in the tower
 of [[n-truncation modalities]]:
@@ -174,27 +175,29 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 
 
 +-- {: bluebox #Process}
-###### Proce&#223; der Bewegung des Seyns
+###### Weg des Wissens [&#167;808](#808),  Bewegung des Seyns [&#167;809](#809)
 
 $$
   \array{
-    &&\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
+    \stackrel{Wesen}{}
     \\
-    &&\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
+    \\
+    &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
     &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
     \stackrel{Unendlichkeit}{} &&&& \bot && \bot 
     \\
-    &&&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    &&\stackrel{Fuersichsein}{}&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
     \\
     &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    &&&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
     \\
-    &&\stackrel{bestimmtes\;Sein}{}&& \bot &\stackrel{Eichmass}{}& \bot 
+    &&&& \bot &\stackrel{Eichmass}{}& \bot 
     \\
-    \stackrel{Endlichkeit}{} &&&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
+    \stackrel{Endlichkeit}{} &&\stackrel{Dasein}{}&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
     \\
     &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
     \\
@@ -442,7 +445,7 @@ Notice that all this has a striking resemblance to the following lines from the 
 
 #### Second chapter. Dasein / Determinate Being 
 
-##### A. Dasein as such / Determinate being as such
+##### A. Dasein als solches / Determinate being as such
  {#ExistenceAsSuch}
 
 > {#188} &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
@@ -560,8 +563,8 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 
 > With reference to reality and ideality, however, the opposition of finite and infinite is grasped in such a manner that the finite ranks as the real but the infinite as the 'ideal' [das Ideelle]; in the same way that further on the Notion, too, is regarded as an 'ideal', that is, as a mere 'ideal', in contrast to determinate being as such which is regarded as the real.
 
-Taking from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the infinite progression in the mathematical sense of passing to a [[limit of a sequence]]. 
-Hence if we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then [&#167;304](#204) gives that  "the [[infintesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
+Notice here from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the _infinite progression_ that in mathematics is referred to as _[[sequences]]_ and _[[series]]_, and that what "ideal" ( _ideell_ ) about them is that they need not converge to any finite value, but be regarded as sequences--- such as [[formal power series]]. 
+Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#204) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
 
 
 ###### Der &#220;bergang
@@ -1234,6 +1237,7 @@ Choice of _Einheit_ unit is choice of gauge, as in _[[gauge theory]]_. See at _[
 
 ##### A. Die absolute Indifferenz
 
+
 ##### B. Die Indifferenz als umgekehrtes Verh&#228;ltni&#223; ihrer Faktoren.
 
 ##### C. &#220;bergang in das Wesen.
@@ -1262,12 +1266,53 @@ $$
   }
 $$
 
+See also [&#167;812](#812)
+
 
 ## **Book two** Die Lehre vom Wesen / The doctrine of essence 
 
+
 ### Reflection
 
-#### Section 1. Essence as Reflection within Itself
+> {#807} &#167;807 Die Wahrheit des Seins is das Wesen.
+
+> &#167;807 The truth of being is essence.
+
+> {#808} &#167;808 Diese Bewegung, als Weg des Wissens vorgestellt, so erscheint dieser Anfang vom Seyn und der Fortgang, der es aufhebt und beim Wesen als einem Vermittelten anlangt, eine Th&#228;tigkeit des Erkennens zu seyn, die dem Seyn &#228;u&#223;erlich sey und dessen eigene Natur nichts angehe.
+
+> {#809} &#167;809 Aber dieser Gang ist die Bewegung des Seyns selbst. Es zeigte sich an diesem, da&#223; es durch seine Natur sich erinnert, und durch die&#223; Insichgehen zum Wesen wird.
+
+Bewegung des Seins from pure being to essence. The [Proce&#223;](#Process).
+
+> {#812} &#167;812 Das Wesen aber, wie es hier geworden ist, ist das, was es ist, nicht durch eine ihm fremde Negativit&#228;t, sondern durch seine eigne, die unendliche Bewegung des Seyns. Es ist An-und-F&#252;rsichseyn; absolutes Ansichseyn, indem es gleichg&#252;ltig gegen alle Bestimmtheit des Seyns ist, das Andersseyn und die Beziehung auf anderes schlechthin aufgehoben worden ist. 
+
+> &#167;812 But essence as it has here come to be, is what it is, through a negativity which is not alien to it but is its very own, the infinite movement of being. It is being that is in itself and for itself; it is absolute being-in-itself in that it is indifferent to every determinateness of being, and otherness and relation-to-other have been completely sublated.
+
+So Essence is the ultimate [[Aufhebung]], hence the topmost [[level of a topos|level]] 
+
+$$
+  \array{
+     Wesen &\colon& id &\dashv& id
+     \\
+     && \vee && \vee
+     \\
+     && \vdots && \vdots
+  }
+$$
+
+See the [Proce&#223;](#Process).
+
+
+
+
+#### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself
+ {#WesenAlsReflexionInIhmSelbst}
+
+> Das Wesen als Reflexion in im selbst.
+
+> Essence as Reflection within itself.
+
+By [&#167;803](#803), [&#167;812](#812) the essence is the topmost [[level of a topos]], hence it is the entire [[topos]] ([[(infinity,1)-topos|infinity-topos]]). The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
 
 ##### Chapter 1 Illusory Being
  
@@ -1400,6 +1445,7 @@ Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 Related discussion in view of [[infinitesimals]] is in
 
 * {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+
 
 Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
