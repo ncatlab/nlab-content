@@ -1336,14 +1336,6 @@ We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 
 =--
 
-+-- {: .num_remark #StructureSheafRestrictedToH}
-###### Remark
-
-Often it is desireable to regard $Sh_{\mathbf{H}}(X)$ only as $\mathbf{H}$-structured, under precomposition of the above $\mathcal{O}_X$ with the left exact $i_! \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{th}$ from definition \ref{InfinitesimalCohesiveInfTopos} of differential cohesion. By convenient abuse of notation we usually write $\mathcal{O}_X$ for this restricted structure sheaf, too. 
-
-Then a choice of lift back to an $\mathbf{H}_{th}$-structure is equivalently a choice of $\mathcal{O}_X$-module. This we discuss below in _[Sheaves of modles](#SheavesOfModules)_.
-
-=--
 
 
 +-- {: .num_remark }
@@ -1693,22 +1685,23 @@ $$
 
 We discuss the abstract formulation of sheaves of [[modules]] and of [[quasicoherent sheaves]] on petit $\infty$-toposes in differential cohesion.
 
+> under construction -- check
 
 +-- {: .num_defn}
 ###### Definition
 
-For $X \in \mathbf{H}_{th}$ an object and $(Sh_{\mathbf{H}}(X), \mathcal{O}_X)$ its $\mathbf{H}$-[[structured (infinity,1)-topos]], according to def. \ref{TheStructureSheafOfX} and remark \ref{StructureSheafRestrictedToH}, exhibited by the composite functor
+For $X \in \mathbf{H}_{th}$ an object and $(Sh_{\mathbf{H}}(X), \mathcal{O}_X)$ its $\mathbf{H}_{th}$-[[structured (infinity,1)-topos]], according to def. \ref{TheStructureSheafOfX} and remark \ref{StructureSheafRestrictedToH}, consider the composite functor
 
 $$
-  \mathcal{O}_X \;\colon\; \mathcal{C} \hookrightarrow \mathbf{H} \stackrel{i_!}{\hookrightarrow} \mathbf{H}_{th} \stackrel{Et X^\ast}{\longrightarrow} Sh_{\mathbf{H}}(X)
+  \mathcal{O}_X^{\mathbf{H}} \;\colon\; \mathbf{H} \stackrel{i_!}{\hookrightarrow} \mathbf{H}_{th} \stackrel{Et X^\ast}{\longrightarrow} Sh_{\mathbf{H}}(X)
   \,,
 $$
 
-then an **$\mathcal{O}_X$-module** $\mathcal{F}$ on $X$ is an extension of $\mathcal{O}_X$ by a limit-preserving functor through $i_!$
+then an **$\mathcal{O}_X$-module** $\mathcal{F}$ on $X$ is an extension of $\mathcal{O}_X^{\mathbf{H}}$ by a limit-preserving functor through $i_!$
 
 $$
   \array{
-    \mathbf{H} &\stackrel{\mathcal{O}_X}{\longrightarrow}& Sh_{\mathbf{H}}(X)
+    \mathbf{H} &\stackrel{\mathcal{O}_X^{\mathbf{H}}}{\longrightarrow}& Sh_{\mathbf{H}}(X)
     \\
      {}^{\mathllap{i_!}}\downarrow & \nearrow_{\mathrlap{\mathcal{F}}}
     \\
@@ -1726,12 +1719,6 @@ In particular $\mathcal{O}_X$ is canonically a module over itself by setting $\m
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-If both $(Sh_{\mathbf{H}}, \mathcal{O}_X)$ and $(Sh_{\mathbf{H}}, (\mathcal{O}_X, \mathcal{F}))$ are suitably [[locally representable structured (∞,1)-toposes]] then $\mathcal{F}$ is a [[quasicoherent sheaf]].
-
-=--
 
 This is a slight abstraction of the definition in ([Lurie QC,  section 2.3](quasicoherent+sheaf#LurieQC)). See at _[quasicoherent sheaf -- In higher geometry -- As extension of the structure sheaf](quasicoherent+sheaf#HigherGeometryAsExtensionsOfStructureSheaf)_.
 
