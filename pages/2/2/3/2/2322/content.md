@@ -40,6 +40,13 @@ This statement is originally due to [[Charles Rezk]]. It is reproduced as ([[Hig
 
 In terms of [[homotopy type theory]] these object classifiers are _[[types of types]]_. See there for more details and see at _[[relation between category theory and type theory]]_.
 
++-- {: .num_remark #ReflectonOnCharacterizationByObjectClassifier}
+###### Remark
+
+An [[object classifier]] is a (small) _self-reflections_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
+
+=--
+
 ## Definition
 
 For simplicity, the following is phrased in classical categorical terms. Of course, it can be translated into "$\infty$"-language by prefixing every word by "$\infty$-". We leave this translation to the reader.
@@ -308,60 +315,6 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 
 * [[Jacob Lurie]],  section 6.1.6 of _[[Higher Topos Theory]]_ 
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 
