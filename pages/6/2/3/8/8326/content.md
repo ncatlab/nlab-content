@@ -103,7 +103,7 @@ Several examples of this appear below.
 Notice that indeed a fair bit of structure follows from maps of this form.
 
 For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $&#643; \dashv \flat$,
-we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28∞%2C1%29-topos#CohesiveAndDifferentialRefinement)
+we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)
 
 $$
   \array{
@@ -1270,9 +1270,8 @@ See also [&#167;812](#812)
 
 
 ## **Book two** Die Lehre vom Wesen / The doctrine of essence 
+ {#LehreVomWesen}
 
-
-### Reflection
 
 > {#807} &#167;807 Die Wahrheit des Seins is das Wesen.
 
@@ -1305,58 +1304,84 @@ See the [Proce&#223;](#Process).
 
 
 
-#### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself
- {#WesenAlsReflexionInIhmSelbst}
+### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself {#WesenAlsReflexionInIhmSelbst}
 
 > Das Wesen als Reflexion in im selbst.
 
 > Essence as Reflection within itself.
 
+(see [&#167;834](#834))
+
 By [&#167;803](#803), [&#167;812](#812) the essence is the topmost [[level of a topos]], hence it is the entire [[topos]] ([[(infinity,1)-topos|infinity-topos]]). The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
 
-##### Chapter 1 Illusory Being
+
+Notice the following characteristic properties of [[(infinity,1)-topos|infinity-topos]] in relation to WdL:
+
+1. [[locally Cartesian closed (∞,1)-category|local cartesian closure]],  equivalently incarnated in the [[base change]] [[adjoint triples]] whose associated [[monad]]/[[comonad]] [[adjoint pairs]] are nothing but the [[possibility]]$\dashv$[[necessity]]-[[adjunction]] as discussed at _[Possible worlds via homotopy type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_
+
+   This matches neatly with [&#167;1160](#1160).
+
+1. [[identity types]], characterized by their [[term introduction rule]] via the reflector $refl: (A = A)$, w
+
+   This matches neatly with [&#167;863](#863), [&#167;903](#903).
+
+1. [[object classifier]]=[[type of types]]=[[universe]]=self-relfecton
+
+   This matches neatly with [Essence as reflection within itself](#WesenAlsReflexionInIhmSelbst).
+
+In summary the formalization dictionary gives fairly accurately that in _Das Wegen_ Hegel speak about [[locally Cartesian closed (∞,1)-categories]] with [[object classifier]].
+
+This is pretty close to being the proposed definition of _[[elementary (∞,1)-topos]]_, 
+
+#### Chapter 1 Der Schein / Illusory Being
  
-###### A The essential and the unessential
+##### A Das Wesentliche und das Unwesentliche / The essential and the unessential
 
-###### B Illusory being
+##### B Der Schein / Illusory being
 
-###### C Reflection
+##### C Die Reflexion / Reflection
 
-##### Chapter 2 The Essentialities or Determination of Reflection
+> {#834} &#167;834 Das Wesen ist Reflexion;
 
-###### $\;\;$ Remark $A = A$
+> &#167;834 Essence is reflection
+
+See discussion at _[Wesen als Reflexion in Ihm Selbst](#WesenAlsReflexionInIhmSelbst)_
+
+#### Chapter 2 The Essentialities or Determination of Reflection
+
+##### $\;\;$ Remark $A = A$
 
 > {#863} &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
 
 The reflector(!) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
 
-###### A Identity
+##### A Identity
  {#Identity}
 
 > &#167;869 Essence is therefore simple identity with self.
 
 > &#167;869 This identity-with-self is the immediacy of reflection.
 
-The reflector(!) [[term constructor]] in an [[identity type]].  Below this is called te _[First original law of thought](#FirstOriginalLawOfThought)_.
+Below this is called te _[First original law of thought](#FirstOriginalLawOfThought)_.
 
-###### $\;\;$ Remark 1: Abstract identity
+##### $\;\;$ Remark 1: Abstract identity
 
-###### $\;\;$ Remark 2: First original law of thought
+##### $\;\;$ Remark 2: First original law of thought
  {#FirstOriginalLawOfThought}
 
-> &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
+> {#875} &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
 
   This proposition in its positive expression $A = A$ is, in the first instance, nothing more than the expression of an empty tautology. 
 
 The reflector [[term constructor]] in an [[identity type]].
 
-###### B Difference
+##### B Difference
 
-###### $\;\;$ (a) Absolute difference
+##### $\;\;$ (a) Absolute difference
 
-###### $\;\;$ (b) Diversity
+##### $\;\;$ (b) Diversity
 
-###### $\;\;$ Remark: The Law of Diversity
+##### $\;\;$ Remark: The Law of Diversity
  {#LawOfDiversity}
 
 
@@ -1364,7 +1389,7 @@ The reflector [[term constructor]] in an [[identity type]].
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
 
-###### C Contradiction
+##### C Contradiction
 
 > &#167;903 When all the conditions of a fact are present, it enters into Existence.
 
@@ -1386,7 +1411,9 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 > &#167;1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
 
-> Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
+> Die Wirklichkeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
+
+[[possibility]]
 
 > &#167; 1192 Actuality is formal in so far as, being primary actuality, it is _only immediate_, _unreflected_ actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a _being or Existence_ in general. But because it is _essentially_ not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the _in-itself or possibility. What is actual is possible._
 
@@ -1395,6 +1422,47 @@ so
 $$
   Wirklichkeit \colon Ansichsein/inner \dashv outer
 $$
+
+### Section 2. Die Erscheinung
+
+
+### Section 3. Die Wirklichkeit
+ {#DieWirklichkeit}
+
+> &#167;1158 Die Wirklichkeit ist die Einheit des Wesens und der Existenz;
+
+> &#167;1158 Actuality is the unity of essence and Existence
+
+> {#1160} &#167;1160 Zweitens die eigentliche Wirklichkeit.  Wirklichkeit, M&#246;glichkeit und Nothwendigkeit machen die formellen Momente des Absoluten, oder die Reflexion desselben aus.
+
+> &#167;1160 Secondly, we have actuality proper. Actuality, possibility and necessity constitute the formal moments of the absolute, or its reflection.
+
+This is a [[unity of opposites]]:
+
+The Absolute : [[possibility]] $\dashv$ [[necessity]]
+
+(beware that the [[possibility]] [[monad]] and [[necessity]] [[comonad]] are not in general [[idempotent monad|idempotent]]).
+
+#### Chapter 1. Das Absolute
+
+#### Chapter 2. Die Wirklichkeit {#DieWirklichkeitKapitel2}
+
+
+##### A Zuf&#228;lligkeit oder formelle Wirklichkeit, M&#246;glichkeit und Nothwendigkeit/ Formal Actuality, Possibility and Necessity
+ {#PossibilityAndNecessity}
+
+> {#1192} &#167;1192 1. Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
+
+> &#167;1192 1. Actuality is formal in so far as, being primary actuality, it is only immediate, unreflected actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a being or Existence in general. But because it is essentially not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the in-itself or possibility. What is actual is possible.
+
+##### B. Relative Nothwendigkeit oder reale Wirklichkeit, M&#246;glichkeit und
+Nothwendigkeit / Relative Necessity, or Real Actuality, Possibility and Necessity
+
+##### C. Absolute Nothwendigkeit / Absolute Necessity
+
+
+
+#### Chapter 3. Das absolute Verh&#228;ltni&#223;
 
 
 ## **Book three** Die Lehre vom Begriff / The doctrine of the notion
