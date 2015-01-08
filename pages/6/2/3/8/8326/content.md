@@ -1302,36 +1302,42 @@ $$
 See the [Proce&#223;](#Process).
 
 
+> {#816} &#167;816 Das Wesen scheint zuerst in sich selbst, oder ist Reflexion
+
+> &#167;816 At first, essence shines or shows within itself, or is reflection
+
+With the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to: [^ScheinenIstErscheinen]
+
+[^ScheinenIstErscheinen]: Notice that by all the context to go by, the "scheint" here is really short for "erscheint", hence for "appears" and _not_ for "is an illusion" as in some translations, see [&#167;1036](#1036), [&#167;1037](#1037) for repetition with the explicit appearance of "erscheint".
+
+> The ambient category appears within itslef
+
+See also [&#167;834](#834), [&#167;1036](#1036), [&#167;1037](#1037) below. 
+
+The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
+
+Notice the following characteristic properties of [[(infinity,1)-topos|infinity-topos]] in relation to WdL:
+
+1. [[identity types]], characterized by their [[term introduction rule]] via the reflector $refl: (A = A)$, w
+
+   This matches neatly with section 1, chapter 2 [&#167;863](#863), [&#167;903](#903).
+
+1. [[object classifier]]=[[type of types]]=[[universe]]=self-relfecton
+
+   This matches neatly with section 2 [&#167;1037](#1037), also [&#167;834](#834) etc.
+
+1. [[locally Cartesian closed (∞,1)-category|local cartesian closure]],  equivalently incarnated in the [[base change]] [[adjoint triples]] whose associated [[monad]]/[[comonad]] [[adjoint pairs]] are nothing but the [[possibility]]$\dashv$[[necessity]]-[[adjunction]] as discussed at _[Possible worlds via homotopy type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_
+
+   This matches neatly with section 3 [&#167;1160](#1160).
+
+
+In summary the formalization dictionary gives fairly accurately that in _Das Wegen_ Hegel speak about [[locally Cartesian closed (∞,1)-categories]] with [[object classifier]].
+
+This is pretty close to being the proposed definition of _[[elementary (∞,1)-topos]]_, as in ([Shulman 12](elementary+infinity-topos#Shulman12)).
 
 
 ### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself {#WesenAlsReflexionInIhmSelbst}
 
-> Das Wesen als Reflexion in im selbst.
-
-> Essence as Reflection within itself.
-
-(see [&#167;834](#834))
-
-By [&#167;803](#803), [&#167;812](#812) the essence is the topmost [[level of a topos]], hence it is the entire [[topos]] ([[(infinity,1)-topos|infinity-topos]]). The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
-
-
-Notice the following characteristic properties of [[(infinity,1)-topos|infinity-topos]] in relation to WdL:
-
-1. [[locally Cartesian closed (∞,1)-category|local cartesian closure]],  equivalently incarnated in the [[base change]] [[adjoint triples]] whose associated [[monad]]/[[comonad]] [[adjoint pairs]] are nothing but the [[possibility]]$\dashv$[[necessity]]-[[adjunction]] as discussed at _[Possible worlds via homotopy type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_
-
-   This matches neatly with [&#167;1160](#1160).
-
-1. [[identity types]], characterized by their [[term introduction rule]] via the reflector $refl: (A = A)$, w
-
-   This matches neatly with [&#167;863](#863), [&#167;903](#903).
-
-1. [[object classifier]]=[[type of types]]=[[universe]]=self-relfecton
-
-   This matches neatly with [Essence as reflection within itself](#WesenAlsReflexionInIhmSelbst).
-
-In summary the formalization dictionary gives fairly accurately that in _Das Wegen_ Hegel speak about [[locally Cartesian closed (∞,1)-categories]] with [[object classifier]].
-
-This is pretty close to being the proposed definition of _[[elementary (∞,1)-topos]]_, 
 
 #### Chapter 1 Der Schein / Illusory Being
  
@@ -1371,7 +1377,7 @@ Below this is called te _[First original law of thought](#FirstOriginalLawOfThou
 
 > {#875} &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
 
-  This proposition in its positive expression $A = A$ is, in the first instance, nothing more than the expression of an empty tautology. 
+> This proposition in its positive expression $A = A$ is, in the first instance, nothing more than the expression of an empty tautology. 
 
 The reflector [[term constructor]] in an [[identity type]].
 
@@ -1425,6 +1431,17 @@ $$
 
 ### Section 2. Die Erscheinung
 
+> {#1036} &#167;1036 Das Wesen mu&#223; erscheinen.
+
+> &#167;1036 Essence must appear
+
+Notice that by [&#167;816](#816) this "appear" is short for "appear in itself". 
+
+> {#1037} &#167;1037 So erscheint das Wesen. Die Reflexion ist das Scheinen des Wesens in ihm selbst.
+
+> Thus appears essence . Reflection is the appearance of essence within itself.
+
+This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
 ### Section 3. Die Wirklichkeit
  {#DieWirklichkeit}
