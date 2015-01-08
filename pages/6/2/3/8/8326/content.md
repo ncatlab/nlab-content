@@ -31,6 +31,13 @@ This page collects resources related to
   ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/works/hl/),
  [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
++-- {: bluebox #gauge}
+###### nPOV
+
+Or rather, while going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the "objective logic" to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]]. The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
+
+=--
+
 The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
 Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
@@ -121,12 +128,13 @@ $$
 $$
 
 ### Formalization dictionary
+ {#FormalizationDictionary}
 
-[[Hegel]]'s "Science of Logic" may seem rather mysterious. Over the decades, [[William Lawvere]] had suggested, more or less explicitly, that parts of it are usefully understood as being about -- or conversely as being formalized and hence interpreted by -- aspects of [[categorical logic]]. For instance Lawvere suggested that the recurring notion of "unity and identity of opposites" is usefully thought of in terms of certain [[adjunctions]], as discussed in _[Formalization of Unity of Opposites](#OppositesAndUnity)_.
+[[Hegel]]'s "Science of Logic" may seem rather mysterious. Over the decades, [[William Lawvere]] had suggested, more or less explicitly, that parts of it are usefully understood as being about -- or conversely as being formalized and hence interpreted by -- aspects of [[categorical logic]]. For instance Lawvere suggested that the recurring notion of "unity and identity of opposites" is usefully thought of in terms of certain [[adjunctions]], as discussed in _[Formalization of Unity of Opposites](#OppositesAndUnity)_ and _[[Aufhebung]]_.
 
 In view of this one may notice that modern [[foundations]] of [[constructive mathematics]] via [[type theory]] and in particular via [[homotopy type theory]] may offer more opportunities like this to give Hegel's intuitions a formalized home or incarnation in a useful way. 
 
-The following table lists proposals for possible such identifications. The content below means to provide for each keyword commented passages in _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject at least to debate.
+The following table lists proposals for possible such identifications. The content to follow below means to provide for each keyword a commented passages in the _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject to debate. It is however noteworthy that the formalization arrived at is of genuine mathematical interest in itself.
 
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
 |-----|------|
@@ -159,7 +167,9 @@ The following table lists proposals for possible such identifications. The conte
 | absolute indifference  | $id \dashv id$ |
 | Wesen, essence | the ambient [[category]]  |
 | absolute reality | unity of [[possibility]] and [[necessity]] in Wesen, hence ambient [[locally cartesian closed category]] |
-| essense appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] |
+| essense appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ |
+| essence as infinite return-into-self | hierarchy of uuniverse levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ |
+
 
 Notice that the above involves the first two stages in the tower
 of [[n-truncation modalities]]:
@@ -1459,28 +1469,11 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
   This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
 
-[[term introduction]] in [[natural deduction]]
 
 
-(...)
 
-> {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
 
-(..)
 
-> &#167;1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
-
-> Die Wirklichkeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
-
-[[possibility]]
-
-> &#167; 1192 Actuality is formal in so far as, being primary actuality, it is _only immediate_, _unreflected_ actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a _being or Existence_ in general. But because it is _essentially_ not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the _in-itself or possibility. What is actual is possible._
-
-so 
-
-$$
-  Wirklichkeit \colon Ansichsein/inner \dashv outer
-$$
 
 #### Chapter 3. Der Grund
 
@@ -1527,7 +1520,7 @@ This nicely explicitly re-iterates [&#167;816](#816). See the discussion there a
 
 > {#1159} &#167;1159 Diese Einheit des Innern und &#196;u&#223;ern ist die absolute Wirklichkeit. Diese Wirklichkeit aber ist zun&#228;chst das Absolute als solches;
 
-> This unity of inner and outer is absolute actuality. But this actuality is, in the first instance, the absolute as such &#8212; in so far as it is posited as a unity in which form has sublated itself and made itself into the empty or outer difference of an outer and inner.
+> &#167;1159 This unity of inner and outer is absolute actuality. But this actuality is, in the first instance, the absolute as such &#8212; in so far as it is posited as a unity in which form has sublated itself and made itself into the empty or outer difference of an outer and inner.
 
 > {#1160} &#167;1160 Zweitens die eigentliche Wirklichkeit.  Wirklichkeit, M&#246;glichkeit und Nothwendigkeit machen die formellen Momente des Absoluten, oder die Reflexion desselben aus.
 
@@ -1543,8 +1536,12 @@ Notice by [&#167;1159](#1159) that the Absolute is the absolute reality
 
 (beware that the [[possibility]] [[monad]] and [[necessity]] [[comonad]] are not in general [[idempotent monad|idempotent]]).
 
+Also beware that by [&#167;1190](#1190), [&#167;1192](#1192) below there is also plain (not absolute) reality which goes along with possibility at the same level, so that maybe one should write something like
 
-And by the discussion at _[necessity and possibility -- As modality in dependent type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_ the adjuncgtion ([[possibility]] $\dashv$ [[necessity]]) characterizes [[locally cartesian closed category]]. So with the "Wesen" ("Essence") translating to the ambient category by [&#167;812](#812), the _absolute reality_ here translates to this ambient category being a [[locally Cartesian closed category]].
+* absolute reality : reality/[[possibility]] $\dashv$ [[necessity]]
+
+
+In any case, by the discussion at _[necessity and possibility -- As modality in dependent type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_ the adjunction ([[possibility]] $\dashv$ [[necessity]]) characterizes [[locally cartesian closed category]]. So with the "Wesen" ("Essence") translating to the ambient category by [&#167;812](#812), the _absolute reality_ here translates to this ambient category being a [[locally Cartesian closed category]].
  
 
 > {#1161} &#167;1161 Drittens die Einheit des Absoluten und seiner Reflexion ist das absolute Verh&#228;ltni&#223;, oder vielmehr das Absolute als Verh&#228;ltni&#223; zu sich selbst; Substanz.
@@ -1557,10 +1554,18 @@ So by [&#167;1159](#1159) "the absolute (absolute reality)" here translates to t
 
 
 
-
 #### Chapter 1. Das Absolute
 
 #### Chapter 2. Die Wirklichkeit {#DieWirklichkeitKapitel2}
+
+> {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
+
+> &#167;1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
+
+
+again: (Wirklichkeit-[[possibility]])-[[necessity]], see [&#167;1160](#1160) above.
+
+
 
 
 ##### A Zuf&#228;lligkeit oder formelle Wirklichkeit, M&#246;glichkeit und Nothwendigkeit/ Formal Actuality, Possibility and Necessity
@@ -1570,8 +1575,11 @@ So by [&#167;1159](#1159) "the absolute (absolute reality)" here translates to t
 
 > &#167;1192 1. Actuality is formal in so far as, being primary actuality, it is only immediate, unreflected actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a being or Existence in general. But because it is essentially not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the in-itself or possibility. What is actual is possible.
 
-##### B. Relative Nothwendigkeit oder reale Wirklichkeit, M&#246;glichkeit und
-Nothwendigkeit / Relative Necessity, or Real Actuality, Possibility and Necessity
+again: Wirklichkeit $\rightarrow$ [[possibility]]
+
+
+##### B. Relative Nothwendigkeit oder reale Wirklichkeit, M&#246;glichkeit und Nothwendigkeit / Relative Necessity, or Real Actuality, Possibility and Necessity
+
 
 ##### C. Absolute Nothwendigkeit / Absolute Necessity
 
