@@ -156,8 +156,10 @@ The following table lists proposals for possible such identifications. The conte
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
 | measure (= [[gauge]]) | quality $\dashv$ quantity |
-| absolute indifference (essence) | $id \dashv id$ |
-| essence as reflection in itself | [[object classifier]] = [[type of types]] = [[universe]] |
+| absolute indifference  | $id \dashv id$ |
+| Wesen, essence | the ambient [[category]]  |
+| absolute reality | unity of [[possibility]] and [[necessity]] in Wesen, hence ambient [[locally cartesian closed category]] |
+| essense appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] |
 
 Notice that the above involves the first two stages in the tower
 of [[n-truncation modalities]]:
@@ -1343,6 +1345,7 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
  
 ##### A Das Wesentliche und das Unwesentliche / The essential and the unessential
 
+
 ##### B Der Schein / Illusory being
 
 ##### C Die Reflexion / Reflection
@@ -1446,9 +1449,13 @@ This nicely explicitly re-iterates [&#167;816](#816). See the discussion there a
 ### Section 3. Die Wirklichkeit
  {#DieWirklichkeit}
 
-> &#167;1158 Die Wirklichkeit ist die Einheit des Wesens und der Existenz;
+> {#1158} &#167;1158 Die Wirklichkeit ist die Einheit des Wesens und der Existenz;
 
 > &#167;1158 Actuality is the unity of essence and Existence
+
+> {#1159} &#167;1159 Diese Einheit des Innern und &#196;u&#223;ern ist die absolute Wirklichkeit. Diese Wirklichkeit aber ist zun&#228;chst das Absolute als solches;
+
+> This unity of inner and outer is absolute actuality. But this actuality is, in the first instance, the absolute as such &#8212; in so far as it is posited as a unity in which form has sublated itself and made itself into the empty or outer difference of an outer and inner.
 
 > {#1160} &#167;1160 Zweitens die eigentliche Wirklichkeit.  Wirklichkeit, M&#246;glichkeit und Nothwendigkeit machen die formellen Momente des Absoluten, oder die Reflexion desselben aus.
 
@@ -1456,9 +1463,27 @@ This nicely explicitly re-iterates [&#167;816](#816). See the discussion there a
 
 This is a [[unity of opposites]]:
 
-The Absolute : [[possibility]] $\dashv$ [[necessity]]
+* The Absolute : [[possibility]] $\dashv$ [[necessity]]
+
+Notice by [&#167;1159](#1159) that the Absolute is the absolute reality
+
+* absolute reality : [[possibility]] $\dashv$ [[necessity]]
 
 (beware that the [[possibility]] [[monad]] and [[necessity]] [[comonad]] are not in general [[idempotent monad|idempotent]]).
+
+And by the discussion at _[necessity and possibility -- As modality in dependent type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_ the adjuncgtion ([[possibility]] $\dashv$ [[necessity]]) characterizes [[locally cartesian closed category]]. So with the "Wesen" ("Essence") translating to the ambient category by [&#167;812](#812), the _absolute reality_ here translates to this ambient category being a [[locally Cartesian closed category]].
+ 
+
+> {#1161} &#167;1161 Drittens die Einheit des Absoluten und seiner Reflexion ist das absolute Verh&#228;ltni&#223;, oder vielmehr das Absolute als Verh&#228;ltni&#223; zu sich selbst; Substanz.
+
+> Thirdly, the unity of the absolute and its reflection is the absolute relation, or rather the absolute as relation to itself &#8212; substance.
+
+So by [&#167;1159](#1159) "the absolute (absolute reality)" here translates to the locally Cartesian closed ambient category and by [&#167;816](#816) etc. the reflection here translates to the [[type of types]], so the above would then translate to 
+
+* Substance = ambient locally Cartesian closed category equipped with type universe.
+
+
+
 
 #### Chapter 1. Das Absolute
 
