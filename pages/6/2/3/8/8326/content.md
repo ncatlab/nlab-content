@@ -1,7 +1,7 @@
 
 {:formalization: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-{:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:1px 1px;padding:0 1em;margin:0 1em;"}
 
 > under construction
 
@@ -181,29 +181,33 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 
 $$
   \array{
-    \stackrel{Wesen}{}
+    {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
     \\
-    &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
     \\
-    &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    &&\stackrel{best.\; Reflexionen}{}&& && \stackrel{Wesen}{} && \stackrel{setzende \atop Reflexion}{} &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}& \stackrel{auessere \atop Reflexion}{} & 
     \\
-    &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
-    \stackrel{Unendlichkeit}{} &&&& \bot && \bot 
+    && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
     \\
-    &&\stackrel{Fuersichsein}{}&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
+    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
-    &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    && && \stackrel{Unendlichkeit}{} &&&& \bot && \bot 
     \\
-    &&&& \bot &\stackrel{Eichmass}{}& \bot 
+    && && &&\stackrel{Fuersichsein}{}&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
     \\
-    \stackrel{Endlichkeit}{} &&\stackrel{Dasein}{}&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
+    && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
     \\
-    &&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+    && && &&&& \bot &\stackrel{Eichmass}{}& \bot 
+    \\
+    && && \stackrel{Endlichkeit}{} &&\stackrel{Dasein}{}&\stackrel{Diskretion}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuitaet}{}
+    \\
+    && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    \\
+    && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
   }
 $$
@@ -529,6 +533,7 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 Here "double negation" is plausibly matched with the [[double negation modality]].
 
 Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] there is _something_ of this type if the type is [[inhabited]]. But [[classical logic|classically]] this is expressed by by its [[double negation modality]]. Hence: there is something of some quality/type if that is a double-negation [[modal type]].
+
 
 
 ##### B. Die Endlichkeit / Finitude.
@@ -993,8 +998,9 @@ Not about actual [[forces]] in [[matter]] so much as about what makes the points
 ##### A. Die reine Quantit&#228;t / Pure quantity
  {#PureQuantity}
 
+> [&#167;398](#398) Die Quantit&#228;t ist die Einheit dieser Momente, der Kontinuit&#228;t und Diskretion
 
-> [&#167;398](#398) Quantity is the unity of these moments of continuity and discreteness
+> &#167;398 Quantity is the unity of these moments of continuity and discreteness
 
 By [[unity of opposites]] and since the [[flat modality]] matches the "moment of discreteness" this is the duality with the [[sharp modality]]
 
@@ -1318,6 +1324,18 @@ See also [&#167;834](#834), [&#167;1036](#1036), [&#167;1037](#1037) below.
 
 The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
 
+(Indeed, [&#167;850](#850) below highlights that "Reflexion" here does _not_ mean the usual "to reflect on a topic" (but means "Reflexion &#252;berhaupt", for what it's worth).)
+
+There is of course not just one [[object classifier]]/[[type of types]] but a hierarchy of them (see also at _[[universe polymorphism]]_)
+
+$$
+  Type_1 \subset Type_2 \subset Type_3 \subset Type_4 \subset \cdots
+$$
+
+By the above this should correspond to an infinite Reflexion of the Wesen inside itself, and sure enough, this is what [&#167;860](#860) below says.
+
+
+
 Notice the following characteristic properties of [[(infinity,1)-topos|infinity-topos]] in relation to WdL:
 
 1. [[identity types]], characterized by their [[term introduction rule]] via the reflector $refl: (A = A)$, w
@@ -1340,6 +1358,12 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 
 ### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself {#WesenAlsReflexionInIhmSelbst}
 
+> {#817} &#167;817 Das Wesen ist erstens Reflexion. Die Reflexion bestimmt sich; ihre Bestimmungen sind ein Gesetztseyn, das zugleich Reflexion in sich ist; es sind
+
+> zweitens diese Reflexions-Bestimmungen oder die Wesenheiten zu betrachten.
+
+> Drittens macht sich das Wesen als die Reflexion des Bestimmens in sich selbst, zum Grunde, und geht in die Existenz und Erscheinung &#252;ber.
+
 
 #### Chapter 1 Der Schein / Illusory Being
  
@@ -1356,7 +1380,33 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 
 See discussion at _[Wesen als Reflexion in Ihm Selbst](#WesenAlsReflexionInIhmSelbst)_
 
-#### Chapter 2 The Essentialities or Determination of Reflection
+(1) Die setzende Reflexion
+
+(2) Die &#228;u&#223;ere Reflexion
+
+Anmerkung
+
+> {#850} &#167;850 Es ist aber hier nicht, weder von der Reflexion des Bewu&#223;tseyns, noch von der bestimmteren Reflexion des Verstandes, die das Besondere und Allgemeine zu ihren Bestimmungen hat, sondern von der Reflexion &#252;berhaupt die Rede. Jene Reflexion, der Kant das Aufsuchen des Allgemeinen zum gegebenen Besondern zuschreibt, ist, wie erhellt, gleichfalls nur die &#228;u&#223;ere Reflexion, die sich auf das Unmittelbare als auf ein gegebenes bezieht.
+
+> Reflection is usually taken in a subjective sense as the movement of the faculty of judgement that goes beyond a given immediate conception and seeks universal determinations for it or compares such determinations with it. Kant opposes reflective judgement to determining judgement. He defines the faculty of judgement in general as the ability to think the particular as subsumed under the universal.
+
+(3) Bestimmende Reflexion
+
+> {#845} &#167;853 Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten. Die &#228;u&#223;ere Reflexion f&#228;ngt vom unmittelbaren Seyn all, die setzende vom Nichts.
+
+> &#167;853 Determining reflection is in general the unity of positing and external reflection. This is to be considered in more detail. 1. External reflection starts from immediate being, positing reflection from nothing.
+
+#### Chapter 2. Die Wesenheiten oder die Reflexions-Bestimmungen / The Essentialities or Determination of Reflection
+
+> {#860} &#167;860 Die Reflexion ist das Scheinen des Wesens in sich selbst. Das Wesen als unendliche R&#252;ckkehr in sich ist nicht unmittelbare, sondern negative Einfachheit; es ist eine Bewegung durch unterschiedene Momente, absolute Vermittelung mit sich. Aber es scheint in diese seine Momente; sie sind daher selbst in sich reflektirte Bestimmungen.
+
+> &#167;860 Reflection is the showing of the illusory being of essence within essence itself. Essence, as infinite return-into-self, is not immediate but negative simplicity; it is a movement through distinct moments, absolute self-mediation. But it reflects itself into these its moments which consequently are themselves determinations reflected into themselves.
+
+$$
+  Type_1 \subset Type_2 \subset Type_3 \subset Type_4 \subset \cdots 
+$$
+
+See above at [&#167;816](#816)
 
 ##### $\;\;$ Remark $A = A$
 
@@ -1432,6 +1482,28 @@ $$
   Wirklichkeit \colon Ansichsein/inner \dashv outer
 $$
 
+#### Chapter 3. Der Grund
+
+> {#964} &#167;964 Das Wesen bestimmt sich selbst als Grund.
+
+> &#167;964 Essence determines itself as ground.
+
+##### A. Der absolute Grund
+
+###### a. Form und Wesen
+
+###### b. Form und Materie
+
+> {#978} &#167;978 Das Wesen wird zur Materie, indem seine Reflexion sich bestimmt, zu demselben als zu dem formlosen Unbestimmten sich zu verhalten. 
+
+> &#167;978 Essence becomes matter in that its reflection is determined as relating itself to essence as to the formless indeterminate.
+
+> {#981} &#167;981 2. Die Form bestimmt daher die Materie, und die Materie wird von der Form bestimmt.
+
+> &#167;981 2. Hence form determines matter, and matter is determined by form.
+
+###### c. Form und Inhalt.
+
 ### Section 2. Die Erscheinung
 
 > {#1036} &#167;1036 Das Wesen mu&#223; erscheinen.
@@ -1470,6 +1542,7 @@ Notice by [&#167;1159](#1159) that the Absolute is the absolute reality
 * absolute reality : [[possibility]] $\dashv$ [[necessity]]
 
 (beware that the [[possibility]] [[monad]] and [[necessity]] [[comonad]] are not in general [[idempotent monad|idempotent]]).
+
 
 And by the discussion at _[necessity and possibility -- As modality in dependent type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_ the adjuncgtion ([[possibility]] $\dashv$ [[necessity]]) characterizes [[locally cartesian closed category]]. So with the "Wesen" ("Essence") translating to the ambient category by [&#167;812](#812), the _absolute reality_ here translates to this ambient category being a [[locally Cartesian closed category]].
  
@@ -1519,6 +1592,7 @@ Nothwendigkeit / Relative Necessity, or Real Actuality, Possibility and Necessit
 * [[Aufhebung]]
 
 ## References
+
 
 A good survey is in 
 
