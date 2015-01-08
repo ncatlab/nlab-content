@@ -123,11 +123,11 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ### General
 
-* [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
- {#Grothendieck}
+* {#Grothendieck} [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
+ 
 
-* [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
- {#Fresse}
+* {#Fresse} [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
+ 
 
 * Shigkaki T&#244;g&#244;, _Note of formal Lie groups_ , American Journal of Mathematics, Vol. 81, No. 3, Jul., 1959 ([JSTOR](http://www.jstor.org/stable/2372919))
 
@@ -135,6 +135,8 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * Michel [[Demazure, lectures on p-divisible groups]]
  
+* [[Jean Dieudonné]], _Introduction to the Theory of Formal Groups_
+
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
 
 [[Quillen's theorem on MU]] is due to
