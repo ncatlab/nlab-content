@@ -64,6 +64,188 @@ $$
   \,.
 $$
 
+## Example
+
+
+Let $(V,\omega) = (\mathbb{R}^2, \mathbf{d}p\wedge \mathbf{d}q)$
+be the 2-dimensional [[symplectic vector space]].
+
+Write
+
+$$
+  q,p \colon \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$
+
+for its two canonical coordinates functions (the "[[canonical coordinates]] and [[canonical momenta]]").
+
+Write 
+
+$$
+  i \colon \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$
+
+for the [[constant function]] with value 1. 
+
+The [[Poisson bracket]] is
+
+$$
+  \{p.q\} = i 
+  \,.
+$$
+
+Any [[smooth function]] $H \colon \mathbb{R}^2 \to \mathbb{R}$ we may call a [[Hamiltonian]]. Given a Hamiltonian $H$, its [[Hamiltonian flow]] is the [[flow]] given by the [[vector field]] (the [[Hamiltonian vector field]]) corresponding to the [[derivation]] $\{H,-\}$ on $C^\infty(\mathbb{R}^2)$.
+
+Those Hamiltonians whose Hamiltonian flows are [[linear functions]] on $\mathbb{R}^2$ are precisely the [[homogeneously quadratic Hamiltonians]]:
+
+
+$$
+  \exp(t\{\tfrac{1}{2}p^2,-\}) 
+  \colon 
+  \left[
+    \array{  
+       q 
+       \\
+       p
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+       q +t p 
+       \\
+       p
+    }
+  \right]
+$$
+
+$$
+  \exp(\{\tfrac{1}{2}q^2,-\}) 
+  \colon 
+  \left[
+    \array{  
+       q
+       \\
+       p
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+       q 
+       \\
+       p + t q
+    }
+  \right]
+$$
+
+$$
+  \exp(t \{q p,-\}) 
+  \colon 
+  \left[
+    \array{  
+       q
+       \\
+       p
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+       e^t q 
+       \\
+       e^{-t} p
+    }
+  \right]
+$$
+
+The general element of the [[metaplectic group]] $Mp(\mathbb{R}^2,\mathbf{d}q \wedge \mathbf{d}p)$ is hence
+
+
+$$
+  \exp(t_1 \tfrac{1}{2}p^2 + t_2 \tfrac{1}{2}q^2 + t_3 q p)
+$$
+
+By [[differentiation|differentiating]] this by $t$ at $t = 0$ we obtain a [[basis]] for the [[Lie algebra]]  $\mathfrak{sp}(V,\omega)$ of, both, the [[symplectic group]] $Sp(V,\omega)$ as well as its [[metaplectic group]] $Mp(V,\omega)$
+
+$$
+  \left[
+    \array{
+      0 & 0
+      \\
+      1 & 0
+    }
+  \right]
+  \,,
+  \;\;\;
+  \left[
+    \array{
+       0 & 1
+       \\
+       0 & 0
+     }
+  \right]
+  \,,
+  \;\;\;
+  \left[
+     \array{
+       1 & 0
+       \\
+       0 & -1
+     }
+  \right]
+$$
+
+The Hamiltonians that generate translations are precisely the homogeneously linear Hamiltonians:
+
+$$
+  \exp(t\{p,-\}) 
+  \colon 
+  \left[
+    \array{  
+       q
+       \\
+       p
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+       q + t
+       \\
+       p
+    }
+  \right]
+$$
+
+$$
+  \exp(t\{q,-\}) 
+  \colon 
+  \left[
+    \array{  
+       q
+       \\
+       p
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+       q 
+       \\
+       p - t
+    }
+  \right]
+$$
+
+This is the key point where the extension appears: While these two linear translation operations themselves (i.e. the underlying [[symplectomorphisms]]) of course commute with each other, their generating Hamiltonians do not Poisson commute but instead form the [[Heisenberg algebra]] extension of the [[translation group]].
+
+The general element of the extended affine symplectic group $ESp(\mathbb{R}^2, \mathbf{d}q \wedge \mathbf{d}p)$ is 
+
+$$
+  \exp(t_1 \tfrac{1}{2}p^2 + t_2 \tfrac{1}{2}q^2 + t_3 q p + t_4 p + t_5 q + t_6 i)
+  \,.
+$$
+
 
 ## References
 
