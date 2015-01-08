@@ -46,7 +46,7 @@ Let $\mathcal{C}$ be a [[category]] with [[pullbacks]] that has all [[dependent 
 
 $$
   \mathcal{C}_{/E}
-    \stackrel{\overset{\sum_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{\prod_f}{\to}}}
+    \stackrel{\overset{\sum_f}{\longrightarrow}}{\stackrel{\overset{f^*}{\longleftarrow}}{\underset{\prod_f}{\longrightarrow}}}
   \mathcal{C}_{/X}
   \,.
 $$
@@ -54,7 +54,7 @@ $$
 Then the [[internal hom]] in a slice $\mathcal{C}_{/X}$ exists and is given by 
 
 $$
-  [\langle E \stackrel{f}{\to} X\rangle \; ,\;  -]_{\mathcal{C}_{/X}}
+  [\langle E \stackrel{f}{\longrightarrow} X\rangle \; ,\;  -]_{\mathcal{C}_{/X}}
   \simeq
   \prod_f \circ f^* 
   \,.
@@ -66,7 +66,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discusson at _[[overcategory]]-[Limits and colimits](overcategory#LimitsAndColimits)_ the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\to} X\rangle$ and $\langle E_1 \stackrel{f_2}{\to} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
+By the discusson at _[[overcategory]]-[Limits and colimits](overcategory#LimitsAndColimits)_ the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\longrightarrow} X\rangle$ and $\langle E_1 \stackrel{f_2}{\longrightarrow} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
 
 $$ 
   (-) \times_{\mathcal{C}_{/X}} \langle E \stackrel{f}{\to} X\rangle
@@ -220,7 +220,7 @@ $$A \stackrel{\langle \phi, \tilde{g} \rangle}{\to} X \times Y^Z$$
 (where $\tilde{g} \colon A \to Y^Z$ is obtained by [[currying]] $g \colon A \times Z \to Y$ in $C$). This proves that $X \times - \colon C \to C/x$ preserves exponentials. 
 =-- 
 
-+-- {: .num_corollary} 
++-- {: .num_cor} 
 ###### Corollary 
 For any $f \colon X \to Y$ in $C$, the base change $f^\ast \colon C/Y \to C/X$ preserves exponentials. In other words, the dependent sum functor $\sum_f$ and the dependent product functor $\prod_f$ satisfy [[Frobenius reciprocity]]. 
 =-- 
