@@ -99,6 +99,11 @@ A symplectomorphisms $\phi \;\colon\; (X_1, \omega_1) \longrightarrow (X_2, \ome
 
 ## Examples
 
+### Linear symplectomorphisms
+
+Given a [[symplectic vector space]] $(V,\omega)$ regarded as a [[symplectic manifold]], then those symplectomorphisms which are [[linear maps]] on $V$ form, under composition, the [[symplectic group]] $Sp(V,\omega)$.
+
+The linear Hamiltonian symplectomorphisms are also known as the _[[Hamiltonian matrices]]_.
 
 ### A curious example: volumes of balls 
 
