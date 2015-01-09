@@ -31,31 +31,28 @@ This page collects resources related to
   ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/works/hl/),
  [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
-+-- {: bluebox #gauge}
+The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
+
+Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
+
+* {#EPSBOI} _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
+
+Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
+
+
+> With Hegel you're getting what seems to us today a curious package. The whole dynamic (or '[[dialectic]]') of the unfolding of the [[logos|Logik]] is prior to any actual thinking, realised in concrete humans. In fact, the world, and that part of it which is human thought, is the Idea (or Spirit) realising itself. I say 'curious', but in a way I'm hearing echoes of this in things Urs is suggesting, as though the universe worked itself out according to [[type theory]]. For Hegel one isn't to be a Kantian, where what one theorises about the universe is just how the universe is taken up by the human understanding, with the further idea that this will be limited in certain ways, e.g., no access to the thing-in-itself. For Hegel, the human mind itself is part of the universe and as such part of the unfolding of the Idea/Spirit. $[\cdots]$ It's a dizzying picture which tends either to delight or revolt people. $[$ See at _[[absolute idealism]]_ $]$ ([Corfield](http://nforum.mathforge.org/discussion/4117/the-wiki-history-of-the-universe/?Focus=34343#Comment_34343))
+
++-- {: bluebox #nPOVRemark}
 ###### nPOV
 
 While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the "objective logic" to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
 
 =--
 
-The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
-
-Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
-
-Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
-
-* _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992).
-
-  [Encyclopedia of the Philosophical Sciences in Basic Outline, Part I: Science of Logic](http://www.marxists.org/reference/archive/hegel/sl_index.htm)
- {#EPSBOI}
-
-> With Hegel you're getting what seems to us today a curious package. The whole dynamic (or '[[dialectic]]') of the unfolding of the [[logos|Logik]] is prior to any actual thinking, realised in concrete humans. In fact, the world, and that part of it which is human thought, is the Idea (or Spirit) realising itself. I say 'curious', but in a way I'm hearing echoes of this in things Urs is suggesting, as though the universe worked itself out according to [[type theory]]. For Hegel one isn't to be a Kantian, where what one theorises about the universe is just how the universe is taken up by the human understanding, with the further idea that this will be limited in certain ways, e.g., no access to the thing-in-itself. For Hegel, the human mind itself is part of the universe and as such part of the unfolding of the Idea/Spirit. $[\cdots]$ It's a dizzying picture which tends either to delight or revolt people. $[$ See at _[[absolute idealism]]_ $]$ ([Corfield](http://nforum.mathforge.org/discussion/4117/the-wiki-history-of-the-universe/?Focus=34343#Comment_34343))
-
 
 #Contents#
 * table of contents
 {:toc}
-
 
 
 
@@ -136,61 +133,77 @@ In view of this one may notice that modern [[foundations]] of [[constructive mat
 
 The following table lists proposals for possible such identifications. The content to follow below means to provide for each keyword a commented passages in the _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject to debate. It is however noteworthy that the formalization arrived at is of genuine mathematical interest in itself.
 
-| Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
-|-----|------|
-| Begriff | [[type]] |
-| Urteil | [[judgement]] |
-| Schluss | [[natural deduction]] |
-| Grund (unmittlebar) | [[antecedent]] |
-| das Begr&#252;ndete (vermittelt) | [[succedent]]/[[consequent]] |
-| moment | [[modality]] |
-| unity of opposites |  [[adjoint modality]] |
-| sphere | [[level of a topos|level]] |
-| Aufhebung | [[Aufhebung]] |
-| entering into existence | [[term introduction]] |
-| all things are different | [[intensional identity]] |
-| [[being]], One  | ([[context]] of) [[unit type]] |
-| [[nothing]] | [[empty type]] |
-| [[becoming]] | [[adjoint modality]]  $\emptyset \dashv \ast$ |
-| [[Dasein]]   | [[Aufhebung]] of [[becoming]] by [[sharp modality]] $\sharp$ |
-| moment of repulsion | [[flat modality]] $\flat$ |
-| moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ |
-| quality | [[adjoint modality]] attraction $\dashv$ repulsion = $&#643; \dashv \flat$ | 
-| moment of discreteness | [[flat modality]] $\flat$ |
-| moment of continuity | [[sharp modality]] $\sharp$ |
-| quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
-| measure (= [[gauge]]) | (quality $\dashv$ quantity) = ($&#643; \dashv \flat \dashv \sharp$) |
-| vanishing of infinitesimals | [[reduction modality]] |
-| being-for-self | [[reduction modality]] $\Re$ |
-| being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |
-| ideality | [[adjoint modality]] $\Re \dashv &#643;_{inf}$ | 
-| reality | [[adjoint modality]] $&#643;_{inf} \dashv \flat_{inf}$ | 
-| moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
-| something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
-| absolute indifference  | $id \dashv id$ |
-| Wesen, essence | the ambient [[category]]  |
-| absolute reality | unity of [[possibility]] and [[necessity]] in Wesen, hence ambient [[locally cartesian closed category]] |
-| essense appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ |
-| essence as infinite return-into-self | hierarchy of uuniverse levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ |
++-- {: bluebox #Dictionary}
+###### The formalization dictionary
 
+| Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
+|-----|------|---|
+| **Subjektive Logic** |    |   |
+| **Begriffslogik** | **[[type theory]]/[[natural deduction]]** |  |
+| Begriff | [[type]] | [MaL&#246;73](#MartinLoef73), [LaPr14](#LadymanPresnel14) |
+| Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
+| Schluss | [[natural deduction]] | [Ge35](#Gentzen35) |
+| Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
+| das Begr&#252;ndete (vermittelt) | [[succedent]]/[[consequent]] | [&#167;1021](#1021), [&#167;1035](#1035) |
+| entering into existence | [[term introduction]] | [&#167;1033](#1033), [&#167;1035](#1035) |
+| moment | [[modality]], [[modal operator]] |  |
+| unity of opposites |  [[adjoint modality]] (moment $\dashv$ co-moment) | [[Some Thoughts on the Future of Category Theory|Law91]], [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]], [[Unity and Identity of Opposites in Calculus and Physics|Law96]] |
+| unity of opposite unities of opposites | [[adjoint triple]] [[adjoint modality]] $\left(\array{moment &\dashv& comoment \\ \bot && \bot \\ comoment &\dashv& cocomoment }\right)$  |  |
+| sphere | [[level of a topos|level]] | [&#167;194](#194) |
+| Aufhebung | [[Aufhebung]], inclusion of adjoint modality in higher [[level of a topos|level]] | [Law89](Aufhebung#Law89b) |
+| **Objektive Logik** |    |  |
+| **Seinslogik** | **[[modal type theory]]** |  |
+| moment of two negations, something | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] | [&#167;210](#210) |
+| [[being]], One  | [[unit type]] $\ast$ | [&#167;86](#86), [&#167;132](#132) |
+| [[nothing]] | [[empty type]] $\emptyset$ | [&#167;133](#133) |
+| [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [[Some Thoughts on the Future of Category Theory|Law91]] |
+| everything is an intermediate stage between nothing and being | [[points-to-pieces transform|comparison map]] via [[counit of a comonad|counit]]/[[unit of a monad|uni]]-factorization $(\emptyset \to X \to \ast)$,  | [&#167;174](#174) |
+| [[Dasein]]   | [[Aufhebung]] of [[becoming]] by [[sharp modality]] $\sharp$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;209](#209) [&#167;222](#222) |
+| moment of repulsion | [[flat modality]] $\flat$ |  |
+| moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
+| quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;342](#342) |
+| moment of discreteness | [[flat modality]] $\flat$ |  |
+| moment of continuity | [[sharp modality]] $\sharp$ |  |
+| quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
+| measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
+| vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174)  |
+| being-for-self | [[reduction modality]] $\Re$ |  |
+| being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |  |
+| ideality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;305](#305), [&#167;322](#322)   |
+| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \flat_{inf}$) |   |
+| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \flat_{inf}} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214) |
+| absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
+| **Wesenslogik** | **[[homotopy type theory]]** |   |
+| Wesen, essence | the ambient [[category]]  |  |
+| possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge$ = [[dependent sum]] followed by [[context extension]] |  |
+| necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] |  |
+| absolute reality, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
+| essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
+| essence as infinite return-into-self | hierarchy of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
+| everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
+| all things are different | [[intensional identity]] | [&#167;903](#903) |
 
-Notice that the above involves the first two stages in the tower
-of [[n-truncation modalities]]:
+=--
+
+Notice that the [above dictionary](#Dictionary) involves the first two stages in the tower of [[n-truncation modalities]]:
 
 | $n$ | [[n-truncation modality]] |
 |--|--|
 | -2 | [[unit type]] modality |
 | -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
+| $\vdots$ | $\vdots$ |
 
 $\,$
 
 $\,$
 
-The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ into which these formalizations fit. This is the adjoint pair of adjoint triples of [[cohesion]] and [[differential cohesion]] arranged such as to match, it seems, Hegel's text. Below this is discussed with pointers to the relevant passages.
+The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ which the formalization of the Seinslogik forms. This is the adjoint pair of adjoint triples of [[cohesion]] and [[differential cohesion]] arranged such as to match, it seems, Hegel's text. Below this is discussed with pointers to the relevant passages.
 
 
 +-- {: bluebox #Process}
-###### Weg des Wissens [&#167;808](#808),  Bewegung des Seyns [&#167;809](#809)
+###### Weg des Wissens,  Bewegung des Seyns 
+([&#167;808](#808), [&#167;809](#809))
+
 
 $$
   \array{
@@ -207,7 +220,7 @@ $$
     \\
     && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
     \\
-    && && \stackrel{Unendlichkeit}{} &&&& \bot && \bot 
+    && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
     \\
     && && &&\stackrel{Fuersichsein}{}&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
     \\
@@ -265,6 +278,7 @@ The orginal German is at times maybe more evocative than the established English
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
 
+
 ### $\;\;$ Womit muss der Anfang der Wissenschaft gemacht werden?
 
 
@@ -285,13 +299,13 @@ The orginal German is at times maybe more evocative than the established English
 
 #### First chapter
 
-From The Shorter Logic:
+From  the [shorter Logic](#EPSBOI):
 
-> &#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
+> EL&#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
 
-> &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
+> EL&#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
 
-> {#88} &#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
+> {EL#88} EL&#167;88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
 
 
 ##### A. Sein / Being
@@ -342,7 +356,7 @@ Indeed, later in [&#167;174](#174) it says:
 
 Also, [below](#SomethingAndAnOther) it says
 
-> &#167;222 Being and nothing in their unity, which is determinate being
+> {#222} &#167;222 Being and nothing in their unity, which is determinate being
 
 
 
@@ -533,6 +547,7 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 
 [[Dasein]], quality, [[type]], something
 
+
 > {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
 
 > {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
@@ -566,6 +581,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 > Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
 
 
+
 ##### C. Die Unendlichkeit
 
 
@@ -585,7 +601,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 > With reference to reality and ideality, however, the opposition of finite and infinite is grasped in such a manner that the finite ranks as the real but the infinite as the 'ideal' [das Ideelle]; in the same way that further on the Notion, too, is regarded as an 'ideal', that is, as a mere 'ideal', in contrast to determinate being as such which is regarded as the real.
 
 Notice here from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the _infinite progression_ that in mathematics is referred to as _[[sequences]]_ and _[[series]]_, and that what "ideal" ( _ideell_ ) about them is that they need not converge to any finite value, but be regarded as sequences--- such as [[formal power series]]. 
-Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#204) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
+Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#304) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
 
 
 ###### Der &#220;bergang
@@ -735,7 +751,7 @@ $$
 
 ###### b. Sein-f&#252;r-Eines / Being-for-one
 
-> &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
+> {#322} &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
 
 
 ###### Anmerkung
@@ -745,7 +761,13 @@ $$
 
 > &#167;324 But thus the ideal is again one of the moments, and the real the other;
 
-hence another [[unity of opposites]] is $ideality \dashv reality$.
+Hence we have another [[unity of opposites]] is $ideality \dashv reality$. See also at _[The One and the Many](#EinsUndVieles)_.
+
+It seems that in _Science of Logic_ there is no _name_ given to this unity. But in the "shorter logic" in the _Encyclopedia of Philosophical Sciences_ there is:
+
+> {#EL214} EL&#167;214 The Idea may be described in many ways. It may be called reason; (and this is the proper philosophical signification of reason); subject-object; the unity of the ideal and the real, of the finite and the infinite, of soul and body; the possibility which has its actuality in its own self; that of which the nature can be thought only as existent, etc. 
+
+So in the [Dictionary](#Dictionary) we add
 
 $$
   \array{
@@ -753,13 +775,12 @@ $$
     \\
     ideality & \Re &\dashv& &#643;_{inf}
     \\
-    & \bot && \bot
+    & \bot &Idea& \bot
     \\
     reality & &#643;_{inf} &\dashv& \flat_{inf}
   }
 $$
 
-See also at _[The One and the Many](#EinsUndVieles)_.
 
 We might interpret this as follows: the $(&#643;_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
 
@@ -876,7 +897,7 @@ Negation $(\not X) \coloneqq (X \to \emptyset)$
 
 $\ast \simeq \not \emptyset$.
 
-> &#167;342 the one repels itself from itself. The negative relation of the one to itself is repulsion.
+> {#342} &#167;342 the one repels itself from itself. The negative relation of the one to itself is repulsion.
 
 > &#167;343 This repulsion as thus the positing of many ones but through the one itself, is the one's own coming-forth-from-itself but to such outside it as are themselves only ones. This is repulsion according to its Notion, repulsion in itself. The second repulsion is different from it, it is what is immediately suggested to external reflection: repulsion not as the generation of ones, but only as the mutual repelling of ones presupposed as already present. 
 
@@ -913,7 +934,7 @@ $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 
   It does, however, go beyond mere indifferent plurality; the atoms become further determined in regard to one another even though, strictly speaking, this involves an inconsistency; whereas, on the contrary, in that indifferent independence of the monads, plurality remains as a fixed fundamental determination, so that the connection between them falls only in the monad of monads, or in the philosopher who contemplates them.
 
-To summarize, in &#167;322 we get a clear prescription:
+To summarize, in [&#167;322](#322) we get a clear prescription:
 
 > To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
 
@@ -983,6 +1004,7 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 > {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
 
 > &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
+
 
 
 > &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
@@ -1093,6 +1115,7 @@ The [[continuum]].
 
 ###### On space, time, matter
 
+
 > &#167;432 Space, time, matter, and so forth are continuous magnitudes 
 
 
@@ -1172,6 +1195,7 @@ $$
 and since quantity and quality are already themselves unities of opposites, we find that Ma&#223; (Eichma&#223;) is the second-order adjunction
 
 $$
+
   \array{
     Qualitaet && \int &\dashv& \flat
     \\
@@ -1249,6 +1273,7 @@ This is striking, as at the same time precisely this [[adjoint triple]] is also 
 Choice of _Einheit_ unit is choice of gauge, as in _[[gauge theory]]_. See at _[[physical unit]]_ for more on this.
 
 ###### (b) Das specificirende Ma&#223; / Specifying Measure
+
 
 ###### (c) Verh&#228;ltnis beider Seiten als Qualit&#228;ten / Relation of the two Sides as Qualities
 
@@ -1329,9 +1354,7 @@ See the [Proce&#223;](#Process).
 
 > &#167;816 At first, essence shines or shows within itself, or is reflection
 
-With the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to: [^ScheinenIstErscheinen]
-
-[^ScheinenIstErscheinen]: Notice that by all the context to go by, the "scheint" here is really short for "erscheint", hence for "appears" and _not_ for "is an illusion" as in some translations, see [&#167;1036](#1036), [&#167;1037](#1037) for repetition with the explicit appearance of "erscheint".
+With the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to: 
 
 > The ambient category appears within itslef
 
@@ -1496,19 +1519,6 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 ###### c. Form und Inhalt.
 
-### Section 2. Die Erscheinung
-
-> {#1036} &#167;1036 Das Wesen mu&#223; erscheinen.
-
-> &#167;1036 Essence must appear
-
-Notice that by [&#167;816](#816) this "appear" is short for "appear in itself". 
-
-> {#1037} &#167;1037 So erscheint das Wesen. Die Reflexion ist das Scheinen des Wesens in ihm selbst.
-
-> Thus appears essence . Reflection is the appearance of essence within itself.
-
-This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
 ##### B. Der bestimmte Grund
 
@@ -1522,7 +1532,9 @@ This nicely explicitly re-iterates [&#167;816](#816). See the discussion there a
 
 ###### a. Das relativ Unbedingte
 
-> Der Grund ist das Unmittelbare und das Begr&#252;ndete das Vermittelte.
+> {#1021} &#167;1021 Der Grund ist das Unmittelbare und das Begr&#252;ndete das Vermittelte.
+
+> &#167;1021 Ground is the immediate, and the grounded the mediated.
 
 |  | Begriffslogik | [[natural deduction]] |
 |  |---------------|-----------------------|
@@ -1546,6 +1558,19 @@ This is [[term introduction]] via the [[natural deduction]] from the [[anteceden
 
 >  This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
 
+### Section 2. Die Erscheinung
+
+> {#1036} &#167;1036 Das Wesen mu&#223; erscheinen.
+
+> &#167;1036 Essence must appear
+
+Notice that by [&#167;816](#816) this "appear" is short for "appear in itself". 
+
+> {#1037} &#167;1037 So erscheint das Wesen. Die Reflexion ist das Scheinen des Wesens in ihm selbst.
+
+> Thus appears essence . Reflection is the appearance of essence within itself.
+
+This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
 
 ### Section 3. Die Wirklichkeit
@@ -1690,3 +1715,25 @@ Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have
 Related commentary is in 
 
 * [[Andrei Rodin]], section 4.8 of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478))
+
+Discussion of formalization of the topics of the "subjective logic" within [[type theory]] include
+
+* {#MartinLoef96} [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+
+which gives a detailed discussion of the term [[judgement]] as used  in the history  [[philosophy]] and then in [[type theory]].
+
+The formalization of _Schluss_ by [[natural deduction]] originates in
+
+* {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
+
+The idea that the [[types]] in [[type theory]] are (mathematical) concepts is implicit in the original 
+
+* {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+where it says:
+
+> Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
+
+The explicit proposal that "[[type]]" in ([[homotopy type theory|homotopy]]-)[[type theory]] is to be read as a formalization of the word "concept" (i.e. "Begriff", as in the [formalization dictionary](#Dictionary) above ) appears in 
+
+* {#LadymanPresnel14} [[James Ladyman]], [[Stuart Presnell]], _Does Homotopy Type Theory Provide a Foundation for Mathematics?_, 2014 ([web](http://philsci-archive.pitt.edu/11143/))
