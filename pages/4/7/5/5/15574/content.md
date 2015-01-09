@@ -32,7 +32,7 @@
 
 [^LQ]: ([Lawvere 1989](#Law89b), p.74).
 
-**Aufhebung** (sublation) is a central concept[^ref] in the dialectical logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
+**Aufhebung** (sublation) is a central concept[^ref] in the [[dialectic|dialectical]] logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
 
 [^ref]:  A pertinent passage is e.g. [SoL &#167;209](Science+of+Logic#209).
 
@@ -48,9 +48,9 @@ The 'Wissenschaft der Logik' has to be viewed against the background of philosop
 
 Heavily influenced by the transcendental deductions and the chapters on dialectical paralogisms in Kant's 'Kritik der reinen Vernunft' he intends to start from [[nothing]] and justify the autonomous development of the system of categories. Here dialectics and Aufhebung enter the picture as Hegel conceives the categories not only as not given apriorily but as actually [[becoming]]: _logic ceases to be an inventory of categories but becomes a system of transformations of categories!_ (Had Eilenberg and MacLane in 1945 intended their terminological loans from philosophy as a kind of joke, Lawvere would 25 years later take this terminological proximity at face value.)
 
-Hegel parts with the traditional conception mainly in two points: the foundations of his logic coalesce with ontology into an **objective logic** as the first part is titled (a 'logic of things' as [[Charles Sanders Peirce|C.S. Peirce]] would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic unity of [[being]] and [[nothing|nothingness]] in the idea of [[becoming]]. It is precisely this 'positively being negative' that finds its expression in the concept of 'Aufhebung'. 
+Hegel parts with the traditional conception mainly in two points: the foundations of his logic coalesce with [[ontology]] into an **objective logic** as the first part is titled (a 'logic of things' as [[Charles Sanders Peirce|C.S. Peirce]] would later put it), i.e. he rejects the subject as a possible ground for logic, and he reassesses the status of **negativity** or conflict-contradiction in logic. The cornerstone of the edifice is the anti-eleatic unity of [[being]] and [[nothing|nothingness]] in the idea of [[becoming]]. It is precisely this 'positively being negative' that finds its expression in the concept of 'Aufhebung'. 
 
-A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of 'being', 'nothingness', and their unity in 'becoming' Hegel determines **dialectics** as 'the higher rational movement... in which the precondition of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)).
+A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the first chapter ([I.1.1Cc, p.113](#WdL)): after a deduction of the categories of '[[being]]', '[[nothing|nothingness]]', and their unity in '[[becoming]]' Hegel determines **[[dialectics]]** as 'the higher rational movement... in which the precondition of the separatedness (of the seemingly separated) is lifted ( _sich aufhebt_ )' ([p.111](#WdL)).
 
 He goes on ([p.113](#WdL)) to explicate _Aufheben_ as one of the most important concepts in all of philosophy that constantly recurs everywhere. The sublated - _das Aufgehobene_ is not nothing which is an _unmediated_, but is a mediated - _ein Vermitteltes_; it is nothing - _das Nichtseiende_, but as a result that originated from a being and therefore still carries with it the determination from which it derives. We see here how Hegel tries to combine Leibniz' identification of being with being determinate with Spinoza's 'omnis determinatio est negatio': **Aufhebung** is the mode of this coexistence of negation-affirmation.
 
