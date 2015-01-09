@@ -138,13 +138,15 @@ The following table lists proposals for possible such identifications. The conte
 
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
 |-----|------|
+| Begriff | [[type]] |
+| Urteil | [[judgement]] |
+| Schluss | [[natural deduction]] |
+| Grund | [[antecedent]] |
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
 | sphere | [[level of a topos|level]] |
 | Aufhebung | [[Aufhebung]] |
-| ground | [[antecedent]] |
 | entering into existence | [[term introduction]] |
-| immediacy of reflection | reflector term in [[identity type]] |
 | all things are different | [[intensional identity]] |
 | [[being]], One  | ([[context]] of) [[unit type]] |
 | [[nothing]] | [[empty type]] |
@@ -156,6 +158,7 @@ The following table lists proposals for possible such identifications. The conte
 | moment of discreteness | [[flat modality]] $\flat$ |
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
+| measure (= [[gauge]]) | (quality $\dashv$ quantity) = ($&#643; \dashv \flat \dashv \sharp$) |
 | vanishing of infinitesimals | [[reduction modality]] |
 | being-for-self | [[reduction modality]] $\Re$ |
 | being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |
@@ -163,7 +166,6 @@ The following table lists proposals for possible such identifications. The conte
 | reality | [[adjoint modality]] $&#643;_{inf} \dashv \flat_{inf}$ | 
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
-| measure (= [[gauge]]) | quality $\dashv$ quantity |
 | absolute indifference  | $id \dashv id$ |
 | Wesen, essence | the ambient [[category]]  |
 | absolute reality | unity of [[possibility]] and [[necessity]] in Wesen, hence ambient [[locally cartesian closed category]] |
@@ -195,7 +197,7 @@ $$
     \\
     && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
     \\
-    &&\stackrel{best.\; Reflexionen}{}&& && \stackrel{Wesen}{} && \stackrel{setzende \atop Reflexion}{} &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}& \stackrel{auessere \atop Reflexion}{} & 
+    &&\stackrel{best.\; Reflexionen}{}&& && \stackrel{Wesen}{} &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
     \\
     \\
     && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
