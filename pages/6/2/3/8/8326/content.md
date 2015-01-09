@@ -1,7 +1,7 @@
 
 {:formalization: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-{:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:1px 1px;padding:0 1em;margin:0 1em;"}
+{:bluebox: .un_remark }
 
 > under construction
 
@@ -34,7 +34,7 @@ This page collects resources related to
 +-- {: bluebox #gauge}
 ###### nPOV
 
-Or rather, while going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the "objective logic" to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]]. The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
+While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the "objective logic" to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
 
 =--
 
@@ -193,6 +193,7 @@ $$
   \array{
     {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
     \\
+    && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
     \\
     &&\stackrel{best.\; Reflexionen}{}&& && \stackrel{Wesen}{} && \stackrel{setzende \atop Reflexion}{} &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}& \stackrel{auessere \atop Reflexion}{} & 
     \\
@@ -243,8 +244,7 @@ The orginal German is at times maybe more evocative than the established English
 ### Allgemeiner Begriff der Logik
 
 
-> {#53} &#167;53 Die Logik ist sonach als das System der reinen Vernunft, als das Reich des reinen Gedankens zu fassen. Dieses Reich ist die Wahrheit, wie sie ohne H&#252;lle an und f&#252;r sich selbst ist. Man kann sich deswegen ausdr&#252;cken, da&#223; dieser Inhalt die Darstellung Gottes ist, wie er in seinem ewigen Wesen vor der Erschaffung der Natur und des endlichen Geistes ist.
-
+> {#53} &#167;53 Die reine Wissenschaft setzt somit die Befreiung von dem Gegensatze des Bewu&#223;tseyns voraus. Sie enth&#228;lt den Gedanken, insofern er eben so sehr die Sache an sich selbst ist, oder die Sache an sich selbst, insofern sie ebenso sehr der reine Gedanke ist. Als Wissenschaft ist die Wahrheit das reine sich entwicklende Selbstbewu&#223;tseyn, und hat die Gestalt des Selbst, da&#223; das an und f&#252;r sich seyende gewu&#223;ter Begriff, der Begriff als solcher aber das an und f&#252;r sich seyende ist. Dieses objektive Denken ist denn der Inhalt der reinen Wissenschaft. Sie ist daher so wenig formell, sie entbehrt so wenig der Materie zu einer wirklichen und wahren Erkenntni&#223;, da&#223; ihr Inhalt vielmehr allein das absolute Wahre, oder wenn man sich noch des Worts Materie bedienen wollte, die wahrhafte Materie ist,&#8212;eine Materie aber, der die Form nicht ein &#196;u&#223;erliches ist, da diese Materie vielmehr der reine Gedanke, somit die absolute Form selbst ist. Die Logik ist sonach als das System der reinen Vernunft, als das Reich des reinen Gedankens zu fassen. Dieses Reich ist die Wahrheit, wie sie ohne H&#252;lle an und f&#252;r sich selbst ist. Man kann sich deswegen ausdr&#252;cken, da&#223; dieser Inhalt die Darstellung Gottes ist, wie er in seinem ewigen Wesen vor der Erschaffung der Natur und des endlichen Geistes ist.
 
 > &#167;53 Accordingly, logic is to be understood as the system of pure reason, as the realm of pure thought. This realm is truth as it is without veil and in its own absolute nature. It can therefore be said that this content is the exposition of God as he is in his eternal essence before the creation of nature and a finite mind.
 
@@ -413,6 +413,7 @@ $$
 > {#178} &#167;178 Becoming is in this way in a double determination. In one of them, nothing is immediate, that is, the determination starts from nothing which relates itself to being, or in other words changes into it; in the other, being is immediate, that is, the determination starts from being which changes into nothing: the former is coming-to-be and the latter is ceasing-to-be.
  
 $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
+
 
 
 
@@ -1383,6 +1384,7 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 ##### B Der Schein / Illusory being
 
 ##### C Die Reflexion / Reflection
+
 
 > {#834} &#167;834 Das Wesen ist Reflexion;
 
