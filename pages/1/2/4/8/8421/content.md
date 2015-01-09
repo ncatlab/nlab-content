@@ -155,8 +155,8 @@ The four classes of rules of natural deduction are close to being specifications
 
 The original source (which treated [[h-propositions]] in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]]) is
 
-* [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
- {#Gentzen}
+* {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
+ 
 
 
 
