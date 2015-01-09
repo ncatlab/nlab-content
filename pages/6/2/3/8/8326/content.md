@@ -140,7 +140,7 @@ The following table lists proposals for possible such identifications. The conte
 |-----|------|---|
 | **Subjektive Logic** |    |   |
 | **Begriffslogik** | **[[type theory]]/[[natural deduction]]** |  |
-| Begriff | [[type]] | [MaL&#246;73](#MartinLoef73), [LaPr14](#LadymanPresnel14) |
+| Begriff, concept, notion | [[type]] | [MaL&#246;73](#MartinLoef73), [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
 | Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
 | Schluss | [[natural deduction]] | [Ge35](#Gentzen35) |
 | Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
@@ -154,7 +154,7 @@ The following table lists proposals for possible such identifications. The conte
 | **Objektive Logik** |    |  |
 | **Seinslogik** | **[[modal type theory]]** |  |
 | moment of two negations, something | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] | [&#167;210](#210) |
-| [[being]], One  | [[unit type]] $\ast$ | [&#167;86](#86), [&#167;132](#132) |
+| [[being]], One  | [[unit type]] $\ast$ | [&#167;86](#86), [&#167;132](#132), [&#167;1663](#1663) |
 | [[nothing]] | [[empty type]] $\emptyset$ | [&#167;133](#133) |
 | [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [[Some Thoughts on the Future of Category Theory|Law91]] |
 | everything is an intermediate stage between nothing and being | [[points-to-pieces transform|comparison map]] via [[counit of a comonad|counit]]/[[unit of a monad|uni]]-factorization $(\emptyset \to X \to \ast)$,  | [&#167;174](#174) |
@@ -171,10 +171,10 @@ The following table lists proposals for possible such identifications. The conte
 | being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |  |
 | ideality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;305](#305), [&#167;322](#322)   |
 | reality | [[adjoint modality]] ($&#643;_{inf} \dashv \flat_{inf}$) |   |
-| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \flat_{inf}} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214) |
+| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \flat_{inf}} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
-| Wesen, essence | the ambient [[category]]  |  |
+| Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
 | possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge$ = [[dependent sum]] followed by [[context extension]] |  |
 | necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] |  |
 | absolute reality, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
@@ -208,6 +208,14 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 $$
   \array{
     {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
+    \\
+    \\
+    && && && \stackrel{Grund}{} && \vdots && \vdots
+    \\
+    && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
+    \\
+    && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
+    \\
     \\
     && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
     \\
@@ -274,6 +282,7 @@ The orginal German is at times maybe more evocative than the established English
 > {#85} &#167;85 Die objektive Logik tritt damit vielmehr an die Stelle der vormaligen Metaphysik, als welche das wissenschaftliche Geb&#228;ude &#252;ber die Welt war, das nur durch Gedanken aufgef&#252;hrt seyn sollte.&#8212;Wenn wir auf die letzte Gestalt der Ausbildung dieser Wissenschaft R&#252;cksicht nehmen, so ist erstens unmittelbar die Ontologie, an deren Stelle die objektive Logik tritt,&#8212;der Theil jener Metaphysik, der die Natur des Ens &#252;berhaupt erforschen sollte;&#8212;das Ens begreift sowohl Seyn als Wesen in sich, f&#252;r welchen Unterschied unsere Sprache gl&#252;cklicherweise den verschiedenen Ausdruck gerettet hat.&#8212;Alsdann aber begreift die objektive Logik auch die &#252;brige Metaphysik insofern in sich, als diese mit den reinen Denkformen die besondern, zun&#228;chst aus der Vorstellung genommenen Substrate, die Seele, die Welt, Gott, zu fassen suchte, und die Bestimmungen des Denkens das Wesentliche der Betrachtungsweise ausmachten. 
 
 
+
 > &#167;85 The objective logic, then, takes the place rather of the former metaphysics which was intended to be the scientific construction of the world in terms of thoughts alone. If we have regard to the final shape of this science, then it is first and immediately ontology whose place is taken by objective logic &#8212; that part of this metaphysics which was supposed to investigate the nature of ens in general; ens comprises both being and essence, a distinction for which the German language has fortunately preserved different terms. But further, objective logic also comprises the rest of metaphysics in so far as this attempted to comprehend with the forms of pure thought particular substrata taken primarily from figurate conception, namely the soul, the world and God; and the determinations of thought constituted what was essential in the mode of consideration. 
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
@@ -311,12 +320,10 @@ From  the [shorter Logic](#EPSBOI):
 ##### A. Sein / Being
  {#OnBeingAndBecoming}
 
-> &#167;132 Being, pure being, [...] it has no diversity within itself nor any with a reference outwards.
+> {#132} &#167;132 Being, pure being, [...] it has no diversity within itself nor any with a reference outwards.
 
 
-
-
-This is the _[[unit type]]_ $\ast$. 
+This is the _[[unit type]]_ $\ast$. See also [&#167;1663](#1663).
 
 
 Indeed, later this is called "Das Eins"  which is maybe indeed better translated as "The Unit" instead of as "The One" as commonly done.
@@ -545,6 +552,7 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 
   Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
 
+
 [[Dasein]], quality, [[type]], something
 
 
@@ -590,6 +598,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 ###### b. Wechselwirkung des Endlichen und Unendlichen
 
 ###### c. Die affirmative Unendlichkeit
+
 
 
 > {#303} &#167;303 Das Endliche ist nicht das Reale, sondern das Unendliche.
@@ -695,6 +704,11 @@ $$
 $$
 
 
+
+> {#316} &#167;316 Anmerkung 2. Der Satz, da&#223; das Endliche ideell ist, macht den Idealismus aus. Der Idealismus der Philosophie besteht in nichts anderem, als darin, das Endliche nicht als ein wahrhaft Seyendes anzuerkennen. Jede Philosophie ist wesentlich Idealismus, oder hat denselben wenigstens zu ihrem Princip, und die Frage ist dann nur, inwiefern dasselbe wirklich durchgef&#252;hrt ist. Die Philosophie ist es so sehr als die Religion; denn die Religion anerkennt die Endlichkeit ebenso wenig als ein wahrhaftes Seyn, als ein Letztes, Absolutes, oder als ein Nicht-Gesetztes, Unerschaffenes, Ewiges. Der Gegensatz von idealistischer und realistischer Philosophie ist daher ohne Bedeutung. Eine Philosophie, welche dem endlichen Daseyn als solchem wahrhaftes, letztes, absolutes Seyn zuschriebe, verdiente den Namen Philosophie nicht; Principien &#228;lterer oder neuerer Philosophien, das Wasser, oder die Materie oder die Atome sind Gedanken, Allgemeine, Ideelle, nicht Dinge, wie sie sich unmittelbar vorfinden, d. h. in sinnlicher Einzelnheit, selbst jenes thaletische Wasser nicht; denn, obgleich auch das empirische Wasser, ist es au&#223;erdem zugleich das Ansich oder Wesen aller anderen Dinge; und diese sind nicht selbstst&#228;ndige, in sich gegr&#252;ndete, sondern aus einem Anderen, dem Wasser, gesetzte, d. i. ideelle. Indem vorhin das Princip, das Allgemeine, das Ideelle genannt worden, wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist, und dann wiederum die einzelnen sinnlichen Dinge als ideell im Princip, im Begriffe, noch mehr im Geiste, als aufgehoben sind, so ist dabei auf dieselbe Doppelseite vorl&#228;ufig aufmerksam zu machen, die bei dem Unendlichen sich gezeigt hat, n&#228;mlich da&#223; das eine Mal das Ideelle das Konkrete, Wahrhaftseyende ist, das andere Mal aber ebenso sehr seine Momente das Ideelle, in ihm Aufgehobene sind, in der That aber nur das Eine konkrete Ganze ist, von dem die Momente untrennbar sind.
+
+
+
 #### Third chapter. Das F&#252;rsichsein / Being for self
 
 > {#318} &#167;318 Im F&#252;rsichseyn ist das qualitative Seyn vollendet;
@@ -763,9 +777,12 @@ $$
 
 Hence we have another [[unity of opposites]] is $ideality \dashv reality$. See also at _[The One and the Many](#EinsUndVieles)_.
 
-It seems that in _Science of Logic_ there is no _name_ given to this unity. But in the "shorter logic" in the _Encyclopedia of Philosophical Sciences_ there is:
+It seems that in _Science of Logic_ there is no _name_ given to this unity. But in the [shorter logic](#EPSBOI) there is: 
 
 > {#EL214} EL&#167;214 The Idea may be described in many ways. It may be called reason; (and this is the proper philosophical signification of reason); subject-object; the unity of the ideal and the real, of the finite and the infinite, of soul and body; the possibility which has its actuality in its own self; that of which the nature can be thought only as existent, etc. 
+
+(Regarding "soul and body" see also the comments at _[The monad of Leibniz](#TheMonadOfLeibniz)_, where the similarity to the standard terminology "soul" and "body" for (super-)infinitesimals is pointed out.)
+
 
 So in the [Dictionary](#Dictionary) we add
 
@@ -781,6 +798,7 @@ $$
   }
 $$
 
+(See below _[The idea](#TheIdea)_ and notice [PN&#167;192](#PN192).)
 
 We might interpret this as follows: the $(&#643;_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
 
@@ -981,7 +999,7 @@ $$
   \,.
 $$
 
-Notice that in [[superalgebra]] one says "[[soul]]" for these "antennas" and "[[body]]" for what remains. Therefore it seems plausible to conclude that the formalization of the [[unity of opposites]]
+Notice that in [[superalgebra]] one says "[[soul]]" for these "antennas" and "[[body]]" for what remains. (This happens to fit well with [EL&#167;214](#EL214)) Therefore it seems plausible to conclude that the formalization of the [[unity of opposites]]
 
 $$
   Ideality \;\colon\; BeingForSelf \dashv BeingForOne
@@ -1268,6 +1286,7 @@ This is striking, as at the same time precisely this [[adjoint triple]] is also 
 
 > {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
 
+
 > &#167;725 The rule or standard $[$ gauge $]$, which has already been mentioned, is in the first place an intrinsically determinate magnitude which is a unit with reference to a quantum having a particular existence in a something other than the something of the rule; this other something is measured by the rule, i.e. is determined as an amount of the said unit. This comparison is an external act, the unit itself being an arbitrary magnitude which in turn can equally be treated as an amount (the foot as an amount of inches). But measure is not only an external rule; as a specifying measure its nature is to be related in its own self to an other which is a quantum.
 
 Choice of _Einheit_ unit is choice of gauge, as in _[[gauge theory]]_. See at _[[physical unit]]_ for more on this.
@@ -1491,7 +1510,21 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 
 
+> Der aufgel&#246;ste Widerspruch ist also der Grund,
 
+[[Aufhebung]] des Widerspruchs ist der Grund
+
+$$
+  \array{
+    Grund &&\vdots && \vdots
+    \\
+    &&\vee && \vee
+    \\
+    &&\emptyset &\stackrel{Widersoruch}{\dashv}& \ast
+    \\
+    Wesen
+  }
+$$
 
 
 
@@ -1652,14 +1685,43 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 ## **Book three** Die Lehre vom Begriff / The doctrine of the notion
 
+### Section 1. Subjectivity.
+
+### Section 2. Objectivity
+
+### Section 3. The Idea
+ {#TheIdea}
+
+> {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
+
+Indeed, in [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[unit type]] $\ast$, which is exactly what was identified as formalizing _being_ above at [&#167;132](#132).
 
 
+> {#1634} &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity,
 
-## Related entries
+> {#1636} &#167;1636 Die Idee ist die Einheit des Bregiffs und der Realit&#228;t
 
-* [[unity of opposites]]
+> &#167;1636 The Idea being the unity of Notion and reality, 
 
-* [[Aufhebung]]
+> {#1638} &#167;1638 However, the Idea has not merely the more general meaning of the true being, of the unity of Notion and reality, but the more specific one of the unity of subjective Notion and objectivity.
+
+So 
+
+* Idee = Begriff & Realit&#228;t
+
+See also [EL&#167;214](#EL214), which instead has
+
+* Idee = das Ideelle & das Reelle .
+
+But of course the the Notion is _ideell_, by [&#167;316](#316) "wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist".
+
+## **Philosophy of nature**
+ {#PhilosophyOfNature}
+
+> {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben.
+
+> PN&#167;192 Nature has come into being as the idea in the form of otherness".
+
 
 ## References
 
@@ -1726,14 +1788,22 @@ The formalization of _Schluss_ by [[natural deduction]] originates in
 
 * {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
 
-The idea that the [[types]] in [[type theory]] are (mathematical) concepts is implicit in the original 
+The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_/_notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original 
 
 * {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
-where it says:
+where it says in section 1.1:
 
 > Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
 
-The explicit proposal that "[[type]]" in ([[homotopy type theory|homotopy]]-)[[type theory]] is to be read as a formalization of the word "concept" (i.e. "Begriff", as in the [formalization dictionary](#Dictionary) above ) appears in 
+The explicit statement "a type is a concept"  appears for instance (referring both to types of mathematical objects as well as to [[data types]] in [[computer science]]) in:
+
+* {#Sale77} [[Arhtur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
+
+The explicit statement "a type is a 'mathematical' concept" appears on p. 6 of
+
+* {#Sergeraert94} [[Francis Sergeraert]], _The computability problem in algebraic topology_, Advances in mathematics 104, 1-29, 1994 [pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Advances.pdf)
+
+An explicit suggestion that "[[type]]" in [[homotopy type theory]] should be read as a "concept"  is in
 
 * {#LadymanPresnel14} [[James Ladyman]], [[Stuart Presnell]], _Does Homotopy Type Theory Provide a Foundation for Mathematics?_, 2014 ([web](http://philsci-archive.pitt.edu/11143/))
