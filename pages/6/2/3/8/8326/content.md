@@ -141,7 +141,8 @@ The following table lists proposals for possible such identifications. The conte
 | Begriff | [[type]] |
 | Urteil | [[judgement]] |
 | Schluss | [[natural deduction]] |
-| Grund | [[antecedent]] |
+| Grund (unmittlebar) | [[antecedent]] |
+| das Begr&#252;ndete (vermittelt) | [[succedent]]/[[consequent]] |
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
 | sphere | [[level of a topos|level]] |
@@ -1152,6 +1153,7 @@ The [[continuum]].
 
 
 
+
 ### Third section. The measure.
  {#TheMeasure}
 
@@ -1464,14 +1466,7 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 ##### C Contradiction
 
-> &#167;903 When all the conditions of a fact are present, it enters into Existence.
 
-
-> &#167;1035 The fact emerges from the ground. It is not grounded or posited by it in such a manner that ground remains as a substrate; on the contrary, the positing is the movement of the ground outwards to itself and its simple vanishing.
-
-  $[..]$
-
-  This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
 
 
 
@@ -1514,6 +1509,44 @@ Notice that by [&#167;816](#816) this "appear" is short for "appear in itself".
 > Thus appears essence . Reflection is the appearance of essence within itself.
 
 This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
+
+##### B. Der bestimmte Grund
+
+###### a. Der formelle Grund
+
+###### b. Der reale Grund
+
+###### c. Der vollstaendige Grund
+
+##### C. Die Bedingung
+
+###### a. Das relativ Unbedingte
+
+> Der Grund ist das Unmittelbare und das Begr&#252;ndete das Vermittelte.
+
+|  | Begriffslogik | [[natural deduction]] |
+|  |---------------|-----------------------|
+| unmittlebar | Grund         | [[antecedent]]        |
+| vermittelt  | das Begr&#252;ndete | [[succedent]]/[[consequent]] |
+
+
+###### b. Das absolute Unbedingte
+
+###### c. Hervorgang der Sache in die Existenz
+
+> {#1033} &#167;1033 Wenn alle Bedingungen einer Sache vorhanden sind, so tritt sie in die Existenz.
+
+> &#167;1033 When all the conditions of a fact are present, it enters into Existence. 
+
+This is [[term introduction]] via the [[natural deduction]] from the [[antecedent]] of the term introduction rule. More of this in [&#167;1035](#1035)
+
+> {#1035} &#167;1035 Die Sache geht aus dem Grunde hervor. Sie wird nicht durch ihn so begr&#252;ndet oder gesetzt, da&#223; er noch unten bliebe, sondern das Setzen ist die Herausbewegung des Grundes zu sich selbst, und das einfache Verschwinden desselben. Er erh&#228;lt durch die Vereinigung mit den Bedingungen die &#228;u&#223;erliche Unmittelbarkeit und das Moment des Seyns.
+
+> &#167;1035 The fact emerges from the ground. It is not grounded or posited by it in such a manner that ground remains as a substrate; on the contrary, the positing is the movement of the ground outwards to itself and its simple vanishing.
+
+>  This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
+
+
 
 ### Section 3. Die Wirklichkeit
  {#DieWirklichkeit}
