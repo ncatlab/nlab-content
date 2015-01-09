@@ -464,7 +464,7 @@ There is an important distinction between *[[extensional type theory|extensional
 
 A [[function type]] $Y^X$ is said to be **extensional** if whenever $f,g\colon X\to Y$ are functions such that $f(x)=g(x)$ for all $x\in X$, then in fact $f=g$ as elements of $Y^X$.  This clearly corresponds to the modeling of function types by [[function sets]] in the set-theoretic semantics, or more generally by [[exponential objects]] in the categorical semantics discussed above.  The uniqueness clause of the defining assertion of an exponential object, i.e. that any map $Z\times X\to Y$ factors through a *unique* map $Z\to Y^X$, precisely models this "extensionality" property.  Thus, the standard categorical semantics is most closely allied to type theories which have such an "extensionality" axiom.
 
-By contrast, suppose that $X$ and $Y$ are interpreted by data types in some programming language, and $Y^X$ is interpreted by some type of computable functions from $Y^X$.  Of course, many differently coded functions can have the same "extensional behavior," i.e. the same output for any given input, but we may still want to distinguish between these functions because they may not share other properties (such as running time or complexity).  Thus, this type $Y^X$ is not extensional---equality of functions, as elements of $Y^X$, is "implementation-sensitive," a finer measure than mere equality on all inputs.  We say instead that these function types are **intensional**.
+By contrast, suppose that $X$ and $Y$ are interpreted by [[data types]] in some [[programming language]], and $Y^X$ is interpreted by some type of computable functions from $Y^X$.  Of course, many differently coded functions can have the same "extensional behavior," i.e. the same output for any given input, but we may still want to distinguish between these functions because they may not share other properties (such as running time or complexity).  Thus, this type $Y^X$ is not extensional---equality of functions, as elements of $Y^X$, is "implementation-sensitive," a finer measure than mere equality on all inputs.  We say instead that these function types are **intensional**.
 
 In type theory, extensional function-types generally come with both a "$\beta$-rule," which specifies the computational behavior of a $\lambda$-abstraction (i.e. $(\lambda x. t)(y) = t[y/x]$), and an "$\eta$-rule," which specifies that a $\lambda$-abstraction is determined by its behavior (i.e. $f = (\lambda x. f(x))$).  In the categorical semantics, the first specifies the existence of factorizations, while the second requires them to be unique.  In intensional type theory, we generally keep the $\beta$-rule (it is certainly natural from a computational standpoint) but discard the $\eta$-rule.  Thus, one natural sort of semantics for intensional type theory is valued in a category with "weak exponentials," i.e. objects which satisfy the existence but not uniqueness property of an exponential (and similarly for dependent type theory with $\Pi$-types and weak [[dependent product]]s).
 
@@ -553,6 +553,9 @@ The following particular type theories are important enough to (potentially) hav
 
   [[opetopic type theory]]
 
+* [[computer science]]
+
+  * [[data type]]
 
 [[!include notions of type]]
 
@@ -560,13 +563,16 @@ The following particular type theories are important enough to (potentially) hav
 ## References
  {#References}
 
-Original articles include
+Original articles on mathematical type theory include
 
-* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+* {#MartinLoef74} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
+
+Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
 
 
 Surveys and introductions include
