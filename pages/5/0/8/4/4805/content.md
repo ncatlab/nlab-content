@@ -15,7 +15,7 @@
 
 ## Definition
 
-For an [[object]] $X$ in a [[category]] with [[coproducts]], the **codiagonal** of $X$ is the canonical [[morphism]]
+For an [[object]] $X$ in a [[category]] with [[coproducts]], the **codiagonal** of $X$ (or _fold morphism_) is the canonical [[morphism]]
 
 $$
   \nabla : X \coprod X \stackrel{(Id,Id)}{\to} X
@@ -41,3 +41,8 @@ The term 'codiagonal' is also sometimes used in the context of the theory of [[b
 [[!redirects codiagonals]]
 [[!redirects codiagonal morphism]]
 [[!redirects codiagonal morphisms]]
+
+[[!redirects fold morphism]]
+[[!redirects fold morphisms]]
+[[!redirects fold map]]
+[[!redirects fold maps]]
