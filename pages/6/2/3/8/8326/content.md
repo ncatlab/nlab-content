@@ -782,6 +782,7 @@ quantity : discreteness $\dashv$ continuity
 
 and by the above we take the 
 
+
 continuum :  attraction $\dashv$  repulsion
 
 to be quality, then we get from the [[adjoint triple]] 
@@ -1727,8 +1728,8 @@ This is just what is reflected by the [[shape modality]].
 > &#167;1021 Ground is the immediate, and the grounded the mediated.
 
 |  | Begriffslogik | [[natural deduction]] |
-|  |---------------|-----------------------|
-| unmittlebar | Grund         | [[antecedent]]        |
+|--|---------------|-----------------------|
+| unmittlebar | Grund         | [[antecedent]]       |
 | vermittelt  | das Begr&#252;ndete | [[succedent]]/[[consequent]] |
 
 
@@ -1856,7 +1857,7 @@ In [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[unit type
 
 > {#1634} &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity,
 
-> {#1636} &#167;1636 Die Idee ist die Einheit des Bregiffs und der Realit&#228;t
+> {#1636} &#167;1636 Die Idee ist die Einheit des Begriffs und der Realit&#228;t
 
 > &#167;1636 The Idea being the unity of Notion and reality, 
 
@@ -1880,13 +1881,26 @@ But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin d
 
 Now that the idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)):
 
-> {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben.
+> {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben. [...]  die &#196;u&#223;erlichkeit macht die Bestimmung aus, in welcher [die Idee] als Natur ist.
 
 > PN&#167;192 Nature has come into being as the idea in the form of otherness".
 
 Here _the Idea_ is, by [&#167;1636](#1636), the unity of concept and reality, or of ideality and reality. 
 
-* {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
+> &#167;193 Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
+
+> Weil sie jedoch, [ ... ] Darstellung der Idee ist, 
+
+> &#167; 193. Hence nature exhibits no freedom in its existence, but only necessity and contingency.
+
+> But because, even in this element, nature is a representation of the idea, 
+
+[[model]] of the [[theory]]
+
+
+> &#167;195. Nature is, in itself a living whole. The movement of its idea through its sequence of stages is more precisely this: the idea posits itself as that which it is in itself; or, what is the same thing, it goes into itself out of that immediacy and externality which is death in order to go into itself; yet further, it suspends this determinacy of the idea, in which it is only life, and becomes spirit, which is its truth.
+
+> {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
 ## **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
