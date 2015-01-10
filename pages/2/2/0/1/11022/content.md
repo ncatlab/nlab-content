@@ -16,3 +16,5 @@
 
 * [[subjective idealism]]
 
+* [[idealism and constructivism]]
+
