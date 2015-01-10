@@ -188,6 +188,7 @@ The following table lists proposals for possible such identifications. The conte
 | Aufhebung des Widerspruchs | [Aufhebung of absolute contradiction via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv& \sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;943](#943), [&#167;944](#944), [&#167;945](#945) |
 | abs. Grund | [[base topos]] of [[sharp modality|sharp]]-[[modal types]] | [&#167;945](#945) |
 | Form | [[shape modality]] $&#643;$ | [&#167;973](#973) | 
+| Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
 
 =--
 
@@ -218,7 +219,7 @@ $$
     \\
     && && &&  && \vdots && \vdots
     \\
-    && && && &\stackrel{Form}{}& &#643; &\dashv& \flat
+    && && && &\stackrel{Form}{}& &#643; &\dashv& \flat & \stackrel{Inhalt}{}
     \\
     && && && && \bot && \bot
     \\
@@ -955,7 +956,7 @@ Eins: [[atom]], [[infinitesimally thickened point]]
 
 ###### c. Viele Eins. Repulsion. / Many ones. Repulsion.
 
-> &#167;340 The one and the void constitute the first stage of the determinate being of being-for-self. Each of these moments has negation for its determination and is at the same time posited as a determinate being; according to the former determination the one and the void are the relation of negation to negation as of an other to its other: the one is negation in the determination of being, and the void is negation in the determination of non-being.
+> {#340} &#167;340 The one and the void constitute the first stage of the determinate being of being-for-self. Each of these moments has negation for its determination and is at the same time posited as a determinate being; according to the former determination the one and the void are the relation of negation to negation as of an other to its other: the one is negation in the determination of being, and the void is negation in the determination of non-being.
 
 Das Eins (the One): $\ast$ [[unit type]]
 
@@ -1683,14 +1684,18 @@ On this see the discussion around [&#167;945](#945)
 
 > Der Form geh&#246;rt &#252;berhaupt alles Bestimmte an; es ist Formbestimmung, insofern es ein Gesetztes, hiermit von einem solchen, dessen Form es ist, Unterschiedenes ist; die Bestimmtheit als Qualit&#228;t ist eins mit ihrem Substrat, dem Seyn; das Seyn ist das unmittelbar Bestimmte, das von seiner Bestimmtheit noch nicht unterschieden,&#8212;oder das in ihr noch nicht in sich reflektirt, so wie diese daher eine seyende, noch nicht eine Gesetzte ist.&#8212;Die Formbestimmungen des Wesens sind ferner als die Reflexions-Bestimmtheiten, ihrer n&#228;hern Bestimmtheit nach, die oben betrachteten Momente der Reflexion. Die Identit&#228;t, und der Unterschied, dieser Theils als Verschiedenheit, Theils als Gegensatz. Ferner aber geh&#246;rt auch die Grundbeziehung dazu, insofern sie zwar die aufgehobene Reflexions-Bestimmung aber dadurch das Wesen zugleich als Gesetztes ist. Dagegen geh&#246;rt zur Form nicht die Identit&#228;t, welche der Grund in sich hat, n&#228;mlich da&#223; das Gesetztseyn als aufgehobenes und das Gesetztseyn als solches,&#8212;der Grund und das Begr&#252;ndete,&#8212;Eine Reflexion ist, welche das Wesen als einfache Grundlage ausmacht, die das Bestehen der Form ist. Allein die&#223; Bestehen ist im Grunde gesetzt; oder die&#223; Wesen ist selbst wesentlich als bestimmtes; somit ist es auch wieder das Moment der Grundbeziehung und Form.&#8212;Die&#223; ist die absolute Wechselbeziehung der Form und des Wesens, da&#223; dieses einfache Einheit des Grundes und des Begr&#252;ndeten, darin aber eben selbst bestimmt oder Negatives ist, und sich als Grundlage von der Form unterscheidet, aber so zugleich selbst Grund und Moment der Form wird.
 
-> {#&#167;973} &#167;973 Das Wesen hat eine Form,
+> {#973} &#167;973 Das Wesen hat eine Form,
 
 > &#167;973 Essence has a form
 
-Notice that "Form" also means _shape_.
+Notice that "Form" also means _shape_. By the discussion at [&#167;812](#812),[&#167;816](#816),  the Essence  is formalized as the ambient [[(infinity,1)-topos|topos]]. In view of this [&#167;973](#973) translates to "The topos has a shape", and indeed there is the concept of [[shape of an (infinity,1)-topos|shape of an infinity-topos]].
+This is just what is reflected by the [[shape modality]] $&#643;$.
 
-By the above, the Essence is formalized as the ambient [[(infinity,1)-topos|topos]]. In view of this [&#167;973](#973) translates to "The topos has a shape", and indeed there is the concept of [[shape of an (infinity,1)-topos|shape of an infinity-topos]].
-This is just what is reflected by the [[shape modality]].
+Morover, given a [[type]] $X$ in the Wesen, hence in [[cohesive homotopy type theory]], it makes good sense to refer to $&#643; X$ as the  _shape_ of that [[homotopy type]] -- which is in the established traditional sense of _[[shape theory]]_ . This is indeed what the name "shape modality" is alluding to.
+
+See the discussion below [&#167;989](#989) for the dual moment.
+
+
 
 ###### b. Form und Materie
 
@@ -1703,6 +1708,27 @@ This is just what is reflected by the [[shape modality]].
 > &#167;981 2. Hence form determines matter, and matter is determined by form.
 
 ###### c. Form und Inhalt.
+
+> {#989} &#167;989 Die Form steht zuerst dem Wesen gegen&#252;ber; so ist sie Grundbeziehung &#252;berhaupt, und ihre Bestimmungen, der Grund und das Begr&#252;ndete. Alsdenn steht sie der Materie gegen&#252;ber; so ist sie bestimmende Reflexion und ihre Bestimmungen sind die Reflexionsbestimmung selbst und das Bestehen derselben. Endlich steht sie dem Inhalte gegen&#252;ber,
+
+> &#167;989 At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded. Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination. Lastly, it stands opposed to content;
+
+Above in the discussion at [&#167;973](#973) we identified the moment of "form" with the shape modality at the reflected level of the Wesen, since for $X$ a [[type]] in [[cohesive homotopy type theory]], then $&#643; X$ is indeed naturally pronounced as the "shape of the homotopy type" in the traditional sense of [[shape theory]]. 
+
+In this vein, the collection of all global points $\ast \to X$ in $X$, hence its [[flat modality]] $\flat X$ is naturally pronounced as the "content" of that type. It is literally the collection of unit types ( _ones_ [&#167;340](#340))-- that it _contains_ .
+
+Indeed, if one thinks of $X$ as a [[cohesive homotopy type]], then $\flat X$ is the _underlying bare homotopy type_ with its cohesion forgotten. This terminology is motivated from and well adapted to the picture in chemistry (see at _[[motivation for cohesive toposes]]_): imagine a chunk of chemical substance, then its plan _content_ of substance is the collection of all the separate molecules -- quantified by the number of moles of the substance -- whereas in remembering just this number  all memory of the shape and cohesion of the substance has been forgotten. Indeed, by [&#167;1068](#1068) this reference to chemistry seems to be entirely intended in here.
+
+Therefore it is natural to pronounce the [[flat modality]] $\flat$, as the _content_, _Inhalt_. And so then by [&#167;973](#973) its [[adjunction]] with the [[shape modality]] yields a [[unity of opposites]]
+
+$$
+  \array{
+     form & &#643; & \dashv & \flat & content
+  }
+$$
+
+which is naturally identified with what the text in [&#167;989](#989) alludes to.
+
 
 
 ##### B. Der bestimmte Grund
@@ -1757,6 +1783,24 @@ Notice that by [&#167;816](#816) this "appear" is short for "appear in itself".
 
 This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
+#### Chapter 1. Die Existenz
+
+##### A. Das Ding und seine Eigenschaften.
+
+###### a. Ding an sich und Existenz.
+
+###### b. Die Eigenschaft.
+
+###### c. Die Wechselwirkung der Dinge.
+
+##### B. Das Bestehen des Dings aus Materien.
+ {#BestehenDesDingsAusMaterien}
+
+> {#1068} &#167;1068 Der &#220;bergang der Eigenschaft in eine Materie oder in einen selbstst&#228;ndigen Stoff ist der bekannte &#220;bergang, den an der sinnlichen Materie die Chemie macht, indem sie die Eigenschaften der Farbe, des Geruchs, des Geschmacks u.s.f. als Lichtstoff, F&#228;rbestoff, Riechstoff, sauren, bittern u.s.f. Stoff darzustellen sucht oder andere wie den W&#228;rmestoff, die elektrische, magnetische Materie geradezu nur annimmt, und damit die Eigenschaften in ihrer Wahrhaftigkeit zu handhaben &#252;berzeugt ist.&#8212;Ebenso gel&#228;ufig ist der Ausdruck, da&#223; die Dinge aus verschiedenen Materien oder Stoffen bestehen. Man h&#252;tet sich, diese Materien oder Stoffe Dinge zu nennen; ob man wohl auch einr&#228;umen wird, da&#223; z.B. ein Pigment, ein Ding ist; ich wei&#223; aber nicht, ob z.B. auch der Lichtstoff, der W&#228;rmestoff, oder die elektrische Materie u.s.f. Dinge genannt werden. Man unterscheidet die Dinge und ihre Bestandtheile, ohne genau anzugeben, ob diese und in wie weit sie auch Dinge, oder etwa nur Halbdinge seyen; aber Existirende &#252;berhaupt sind sie wenigstens.
+
+> &#167;1068 The transition of property into a matter or into a self-subsistent stuff is the familiar transition performed on sensible matter by chemistry when it seeks to represent the properties of colour, smell, taste and so on, as luminous matter, colouring matter, odorific matter, sour, bitter matter and so on, or merely straightway postulates others like heat matter or caloric, electrical and magnetic matter, in the conviction that it has got hold of properties in their truth. Equally current is the expression that things consist of various matters. One is careful not to call these matters things; although it would certainly be admitted that, e.g. a pigment is a thing; but I do not know whether e.g. luminous matter, heat matter or electrical matter and so on, are also called things. Things and their constituents are distinguished without it being exactly stated whether and to what extent the latter are also things or perhaps only half things; but they are at least existents in general.
+
+Despite and in fact via this cautioning remark, this says that by _Materie_ here is indeed meant what the physical world is made of. Notice how the reference to chemical substances harmonizes with the chemical imagery going with [[cohesion]] in the discussion below [&#167;989](#989).
 
 ### Section 3. Die Wirklichkeit
  {#DieWirklichkeit}
