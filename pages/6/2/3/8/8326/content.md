@@ -107,7 +107,7 @@ Several examples of this appear below.
 Notice that indeed a fair bit of structure follows from maps of this form.
 
 For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $&#643; \dashv \flat$,
-we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28?%2C1%29-topos#CohesiveAndDifferentialRefinement)
+we have, as discussed at _[[differential cohomology hexagon]]_, that the dualities generate for each type a hexagonal web of which the above unifying tripl is the bottom stage.
 
 $$
   \array{
@@ -123,6 +123,8 @@ $$
   }
   \,,
 $$
+
+This appears below in two stages, first in the Seinslogik at around [&#167;714](#714), and then ("reflected") in the Wesenslogik around [&#167;989](#989).
 
 ### Formalization dictionary
  {#FormalizationDictionary}
@@ -163,6 +165,7 @@ The following table lists proposals for possible such identifications. The conte
 | moment of repulsion | [[flat modality]] $\flat$ | [&#167;342](#342), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
 | quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;342](#342) |
+| $\to$ Etwas  |   |  [&#167;1056](#1056)  |
 | moment of discreteness | [[flat modality]] $\flat$ |  |
 | moment of continuity | [[sharp modality]] $\sharp$ |  |
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
@@ -189,6 +192,8 @@ The following table lists proposals for possible such identifications. The conte
 | abs. Grund | [[base topos]] of [[sharp modality|sharp]]-[[modal types]] | [&#167;945](#945) |
 | Form | [[shape modality]] $&#643;$ | [&#167;973](#973) | 
 | Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
+| Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
+| $\to$ Ding |   |  [&#167;1048](#1048)  |
 
 =--
 
@@ -219,11 +224,15 @@ $$
     \\
     && && &&  && \vdots && \vdots
     \\
-    && && && &\stackrel{Form}{}& &#643; &\dashv& \flat & \stackrel{Inhalt}{}
+    && && && 
+    \stackrel{Existenz}{}
+    &\stackrel{Form}{} & &#643; 
+    &\stackrel{Ding}{\stackrel{Materie/Eichfelder}{\dashv}}& \flat &
+     \stackrel{Inhalt}{}
     \\
     && && && && \bot && \bot
     \\
-    && && && \stackrel{Existenz}{} && \flat &\dashv& \sharp & \stackrel{abs.\,Grund}{}
+    && && &&  && \flat &\dashv& \sharp & \stackrel{abs.\,Grund}{}
     \\
     && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
     \\
@@ -248,7 +257,10 @@ $$
     \\
     && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{} & 
+    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& 
+    &#643; 
+    &\stackrel{Etwas}{\stackrel{Qualitaet}{\dashv}}& 
+   \flat & \stackrel{Repulsion}{} & 
     \stackrel{Sein-fuer-Anderes}{}
     \\
     && && &&&& \bot &\stackrel{Eichmass}{}& \bot 
@@ -634,7 +646,33 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 
 > &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
 
-(which [[adjoint modality]] is to be found here ?)
+
+Hence a [[unity of opposites]]:
+
+$$
+  \array{
+    Ansichsein &\stackrel{Etwas}{\dashv}& Sein-fuer-Anderes
+  }
+  \,.
+$$
+
+This will repeat in the Wesenslogik with _Etwas_ replaced by _Ding_,
+see [&#167;1048](#1048). 
+
+|  | moment  |  unity   | comoment |
+|--|---|-----|--| 
+| **Seinslogik** | Ansichseyn | Etwas | Sein-fuer-Anderes |
+| **Wesenslogik**  | Existenz   | Ding |   |
+
+
+Notice that there in the discussion of _Ding_ is a comment hidden that concerns the _Etwas_ here:
+
+> [&#167;1056](#1056) Die Qualit&#228;t ist die unmittelbare Bestimmtheit des Etwas; das Negative selbst, wodurch das Seyn Etwas ist.
+
+> &#167;1056 Quality is the immediate determinateness of something, the negative itself through which being is something. 
+
+This says that the the "immediate determinateness" of the adjunction in [&#167;221](#221)
+is the adjunction [[shape modality]]$\dashv$[[flat modality]] that we identify with _quality_. We display this in the _[Process](#Process)_.
 
 
 > &#167;222 Being and nothing in their unity, which is determinate being
@@ -684,6 +722,7 @@ We discuss below [&#167;305](#305) the [[adjunction]] that $\Re$-participates in
 If here we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then the above would give also that _ideality is the quality of the infinitesimal_. 
 
 Now we have from [&#167;699](#699) that _quality_, being the oppisite moment of quantity, is the [[duality of opposites]] formalized by [[shape modality]] and [[flat modality]]
+
 
 $$
   \array{
@@ -1329,6 +1368,7 @@ $$
 
 This is striking, as at the same time precisely this [[adjoint triple]] is also an abstract axiomatization of ([[higher gauge theory|higher]]) [[gauge theory]] in [[physics]] via [[cohesion]]. This is discussed further at _[[differential cohomology hexagon]]_.
 
+Moreover, below after transition from the Seinslogik to the Wesenslogik, find gauge fields again, with the above structure repeated in the Wesenslogik, see the discussion around [&#167;714](#714).
 
 ##### B. Specificirendes Ma&#223; / Specifying measure
 
@@ -1336,6 +1376,7 @@ This is striking, as at the same time precisely this [[adjoint triple]] is also 
 ###### (a) Die Regel / The Rule
 
 > {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
+
 
 
 > &#167;725 The rule or standard $[$ gauge $]$, which has already been mentioned, is in the first place an intrinsically determinate magnitude which is a unit with reference to a quantum having a particular existence in a something other than the something of the rule; this other something is measured by the rule, i.e. is determined as an amount of the said unit. This comparison is an external act, the unit itself being an arbitrary magnitude which in turn can equally be treated as an amount (the foot as an amount of inches). But measure is not only an external rule; as a specifying measure its nature is to be related in its own self to an other which is a quantum.
@@ -1502,6 +1543,7 @@ Anmerkung
 > Reflection is usually taken in a subjective sense as the movement of the faculty of judgement that goes beyond a given immediate conception and seeks universal determinations for it or compares such determinations with it. Kant opposes reflective judgement to determining judgement. He defines the faculty of judgement in general as the ability to think the particular as subsumed under the universal.
 
 (3) Bestimmende Reflexion
+
 
 > {#845} &#167;853 Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten. Die &#228;u&#223;ere Reflexion f&#228;ngt vom unmittelbaren Seyn all, die setzende vom Nichts.
 
@@ -1698,16 +1740,22 @@ See the discussion below [&#167;989](#989) for the dual moment.
 
 
 ###### b. Form und Materie
+ {#FormUndMaterie}
 
 > {#978} &#167;978 Das Wesen wird zur Materie, indem seine Reflexion sich bestimmt, zu demselben als zu dem formlosen Unbestimmten sich zu verhalten. 
 
 > &#167;978 Essence becomes matter in that its reflection is determined as relating itself to essence as to the formless indeterminate.
 
+> {#980} &#167;980 Die Materie mu&#223; daher formirt werden, und die Form mu&#223; sich materialisiren,
+
 > {#981} &#167;981 2. Die Form bestimmt daher die Materie, und die Materie wird von der Form bestimmt.
 
 > &#167;981 2. Hence form determines matter, and matter is determined by form.
 
+Notice by [&#167;1068](#1068) that here indeed _Materie_ refers to the physical world (even if physical _nature_ only appears much further down in [PN&#167;192](#PN192)) and explicitly refers also to [[physical fields]].
+
 ###### c. Form und Inhalt.
+ {#FormUndInhalt}
 
 > {#989} &#167;989 Die Form steht zuerst dem Wesen gegen&#252;ber; so ist sie Grundbeziehung &#252;berhaupt, und ihre Bestimmungen, der Grund und das Begr&#252;ndete. Alsdenn steht sie der Materie gegen&#252;ber; so ist sie bestimmende Reflexion und ihre Bestimmungen sind die Reflexionsbestimmung selbst und das Bestehen derselben. Endlich steht sie dem Inhalte gegen&#252;ber,
 
@@ -1717,7 +1765,9 @@ Above in the discussion at [&#167;973](#973) we identified the moment of "form" 
 
 In this vein, the collection of all global points $\ast \to X$ in $X$, hence its [[flat modality]] $\flat X$ is naturally pronounced as the "content" of that type. It is literally the collection of unit types ( _ones_ [&#167;340](#340))-- that it _contains_ .
 
-Indeed, if one thinks of $X$ as a [[cohesive homotopy type]], then $\flat X$ is the _underlying bare homotopy type_ with its cohesion forgotten. This terminology is motivated from and well adapted to the picture in chemistry (see at _[[motivation for cohesive toposes]]_): imagine a chunk of chemical substance, then its plan _content_ of substance is the collection of all the separate molecules -- quantified by the number of moles of the substance -- whereas in remembering just this number  all memory of the shape and cohesion of the substance has been forgotten. Indeed, by [&#167;1068](#1068) this reference to chemistry seems to be entirely intended in here.
+Indeed, if one thinks of $X$ as a [[cohesive homotopy type]], then $\flat X$ is the _underlying bare homotopy type_ with its cohesion forgotten. 
+
+This terminology is motivated from and well adapted to the picture in chemistry (see at _[[motivation for cohesive toposes]]_): imagine a chunk of chemical substance, then its plain content of substance is the collection of all the separate molecules -- quantified by the number of moles of the substance -- whereas in remembering just this number  all memory of the shape and cohesion of the substance has been forgotten. Indeed, by [&#167;1068](#1068), this reference to chemistry seems to be entirely intended.
 
 Therefore it is natural to pronounce the [[flat modality]] $\flat$, as the _content_, _Inhalt_. And so then by [&#167;973](#973) its [[adjunction]] with the [[shape modality]] yields a [[unity of opposites]]
 
@@ -1728,6 +1778,35 @@ $$
 $$
 
 which is naturally identified with what the text in [&#167;989](#989) alludes to.
+
+It remains to find the name of this [[unity of opposites]]:
+
+
+> {#990} &#167;990 Der Inhalt hat erstlich eine Form und eine Materie, die ihm angeh&#246;ren und wesentlich sind; er ist ihre Einheit.
+
+> &#167;990 The content is, first, a form and a matter which belong to it and are essential; it is their unity
+
+So form-content-matter form a [[unity of opposites]].  The exact form of [&#167;990](#990) suggests to take $(form \stackrel{content}{\dashv} matter)$, which however seems a bit awkward. But by [&#167;989](#989) there seems to be some flexibility in these three terms opposing each other, and if we appeal to that and declare that we should put
+
+$$
+  \array{
+     form & &#643; & \stackrel{matter}{\dashv} & \flat & content
+  }
+$$
+
+then it works out nicely:  Notice by [&#167;1068](#1068) that "matter" here includes _[[physical fields]]_ such as explicitly the [[electromagnetic field]], hence _[[gauge fields]]_. Now this matches: by the discussion at _[[differential cohomology hexagon]]_ the adjunction $&#643; \dashv \flat$ is precisely what axiomatizes [[higher gauge fields]] in the form of [[cocycles]] in [[differential cohomology]].
+
+This fits indeed rather well, as it means that we recover at the stage of the Wesenslogik what we already had at the stage of the Seinslogik (where the appearance of [[gauge fields]] via the above adjunction is discussed around [&#167;714](#714)).
+
+But we should maybe make notationally more explicit (than would have been possibl in 1812) that, by [&#167;1068](#1068), "matter" here means "[[physical fields]] and matter" and specifically [[gauge fields]]. Therefore in the [Proce&#223;](#Process) we add the stage:
+
+$$
+  \array{
+     form & &#643; & \stackrel{(gauge)\,fields}{\dashv} & \flat & content
+  }
+  \,.
+$$
+
 
 
 
@@ -1783,13 +1862,33 @@ Notice that by [&#167;816](#816) this "appear" is short for "appear in itself".
 
 This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
-#### Chapter 1. Die Existenz
+#### Chapter 1. Die Existenz / Existence. 
+
+> {#1040} &#167;1040 Just as the proposition of ground states that whatever is has a ground, or is something posited or mediated, so too we must formulate a proposition of Existence, and in these terms: whatever is, exists. The truth of being is to be, not a first immediate, but essence that has emerged into immediacy.
 
 ##### A. Das Ding und seine Eigenschaften.
+
+> {#1048} &#167;1048 Das Ding wird von seiner Existenz unterschieden, wie das Etwas von seinem Seyn unterschieden werden kann.
+
+> &#167;1048 The thing is distinct from its Existence just as something can be distinguished from its being.
+
+This means that the _Ding_ repeats (reflected) the _Etwas_ from the Seinslogik in [&#167;221](#221):
+
+|  | moment  |  unity   | comoment |
+|--|---|-----|--| 
+| **Seinslogik** | Ansichseyn | Etwas | Sein-fuer-Anderes |
+| **Wesenslogik**  | Existenz   | Ding |   |
+
+Hence we locate these terms at matching positions in the _[Proce&#223;](#Process)_.
+
 
 ###### a. Ding an sich und Existenz.
 
 ###### b. Die Eigenschaft.
+
+> {#1056} &#167;1056 Die Qualit&#228;t ist die unmittelbare Bestimmtheit des Etwas; das Negative selbst, wodurch das Seyn Etwas ist.
+
+> &#167;1056 Quality is the immediate determinateness of something, the negative itself through which being is something. 
 
 ###### c. Die Wechselwirkung der Dinge.
 
@@ -1800,7 +1899,25 @@ This nicely explicitly re-iterates [&#167;816](#816). See the discussion there a
 
 > &#167;1068 The transition of property into a matter or into a self-subsistent stuff is the familiar transition performed on sensible matter by chemistry when it seeks to represent the properties of colour, smell, taste and so on, as luminous matter, colouring matter, odorific matter, sour, bitter matter and so on, or merely straightway postulates others like heat matter or caloric, electrical and magnetic matter, in the conviction that it has got hold of properties in their truth. Equally current is the expression that things consist of various matters. One is careful not to call these matters things; although it would certainly be admitted that, e.g. a pigment is a thing; but I do not know whether e.g. luminous matter, heat matter or electrical matter and so on, are also called things. Things and their constituents are distinguished without it being exactly stated whether and to what extent the latter are also things or perhaps only half things; but they are at least existents in general.
 
-Despite and in fact via this cautioning remark, this says that by _Materie_ here is indeed meant what the physical world is made of. Notice how the reference to chemical substances harmonizes with the chemical imagery going with [[cohesion]] in the discussion below [&#167;989](#989).
+Despite -- and in fact via -- this cautioning remark, this says that the word _Materie_ as used before in _[Form und Materie](#FormUndMaterie)_ and _[Form und Inhalt](#FormUndInhalt)_ is indeed meant what the physical world is made of. Notice 
+
+1. how the reference to chemical substances harmonizes with the chemical imagery going with [[cohesion]] in the discussion below [&#167;989](#989);
+
+1. that not just genuine matter but also what in modern parlance is called _[[physical fields]]_, notably  _[[gauge fields]]_ ("Lichtstoff" = [[light]], "elektrische Materie" =[[electromagnetic field]]), is explicitly included.
+
+To highlight this we should maybe write  _Materiefelder_ or just _Felder_ or even _Eichfelder_ instead, which is what we do in the [Proce&#223;](#Process)-diagram.
+
+It is maybe noteworthy that some physics appears here in the Wesenslogik, even though _nature_ will not appear before [PN&#167;192](#PN192).
+
+
+
+> Die Nothwendigkeit, von den Eigenschaften zu Materien &#252;berzugehen, oder da&#223; die Eigenschaften in Wahrheit Materien sind, hat sich daraus ergeben, da&#223; sie das Wesentliche und damit das wahrhaft Selbstst&#228;ndige der Dinge sind.
+
+
+
+##### C. Die Aufl&#246;sung des Dinges.
+
+> Die Existenz hat in diesem Dinge ihre Vollst&#228;ndigkeit erreicht, n&#228;mlich in Einem an sich seyendes Seyn oder selbstst&#228;ndiges Bestehen, und unwesentliche Existenz zu seyn; die Wahrheit der Existenz ist daher, ihr Ansichseyn in der Unwesentlichkeit, oder ihr Bestehen in einem Andern und zwar dem absolut Andern, oder zu ihrer Grundlage ihre Nichtigkeit zu haben. Sie ist daher Erscheinung.
 
 ### Section 3. Die Wirklichkeit
  {#DieWirklichkeit}
@@ -1925,6 +2042,9 @@ Now that the idea has appeared in the _Logic_, nature springs out of it (as anno
 
 Here _the Idea_ is, by [&#167;1636](#1636), the unity of concept and reality, or of ideality and reality. 
 
+Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).
+
+
 > &#167;193 Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
 
 > Weil sie jedoch, [ ... ] Darstellung der Idee ist, 
@@ -1981,6 +2101,7 @@ Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 * {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
 
 Related discussion in view of [[infinitesimals]] is in
+
 
 * {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
 
