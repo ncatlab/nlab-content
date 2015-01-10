@@ -209,6 +209,9 @@ Other articles with content relating to constructive mathematics (rather incompl
 
 In principle, every article could explain how it applies to constructive mathematics, but that will probably never happen.
 
+There is also
+
+* [[constructivism and idealism]]
 
 ## References
 
