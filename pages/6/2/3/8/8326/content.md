@@ -158,7 +158,7 @@ The following table lists proposals for possible such identifications. The conte
 | [[nothing]] | [[empty type]] $\emptyset$ | [&#167;133](#133) |
 | [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [[Some Thoughts on the Future of Category Theory|Law91]] |
 | everything is an intermediate stage between nothing and being | [[points-to-pieces transform|comparison map]] via [[counit of a comonad|counit]]/[[unit of a monad|uni]]-factorization $(\emptyset \to X \to \ast)$,  | [&#167;174](#174) |
-| [[Dasein]]   | [[Aufhebung]] of [[becoming]] by [[sharp modality]] $\sharp$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;209](#209) [&#167;222](#222) |
+| [[Dasein]]   | [Aufhebung of becoming via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv&\sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;194](#194) |
 | moment of repulsion | [[flat modality]] $\flat$ |  |
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
 | quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;342](#342) |
@@ -170,18 +170,20 @@ The following table lists proposals for possible such identifications. The conte
 | being-for-self | [[reduction modality]] $\Re$ |  |
 | being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |  |
 | ideality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;305](#305), [&#167;322](#322)   |
-| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \flat_{inf}$) |   |
+| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \flat_{inf}$) | [&#167;304](#304) , [&#167;305](#305) |
 | idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \flat_{inf}} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
 | possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge$ = [[dependent sum]] followed by [[context extension]] |  |
 | necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] |  |
-| absolute reality, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
+| absolute actuality/Wirklichkeit, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
 | essence as infinite return-into-self | hierarchy of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
 | everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
+| absoluter Widerspruch / absolute contradiction  |  [[adjoint modality]] ([[false]] $\dashv$ [[true]]) = ($\emptyset \dashv \ast$) | [&#167;931](#931)  [&#167;934](#934) |
+| Aufhebung des Widerspruchs | [Aufhebung of absolute contradiction via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv& \sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;943](#943), [&#167;944](#944), [&#167;945](#945) |
 
 =--
 
@@ -210,7 +212,9 @@ $$
     {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
     \\
     \\
-    && && && \stackrel{Grund}{} && \vdots && \vdots
+    && && &&  && \vdots && \vdots
+    \\
+    && && && \stackrel{Grund}{} && \flat &\dashv& \sharp
     \\
     && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
     \\
@@ -256,11 +260,9 @@ The orginal German is at times maybe more evocative than the established English
 
 * "f&#252;r sich sein", which standard sources translate as "being-for-self", really means to be alone and undisturbed. One says: "Ich gehe jetzt in mein B&#252;ro, ich muss mal f&#252;r mich sein um mich zu konzentrieren." (I'll retreat to my office to be alone and undisturbed.)
 
-* "f&#252;r eins sein" which Hegel uses, is not proper German and probably wasn't even at his time, but it is clearly meant to rhyme with "f&#252;r sich sein", and the similar phrase that does exist is "f&#252;r einander sein", which means: to be available for others.
-
 * "Dasein", which in the standard translations appears as "determinate being" is really much more immediate "being there", "existing". "Wann sollen wir da sein?" means "When are we supposed to be there?" In more formal speech "das Dasein" means "existence" as in "Ach, das Dasein ist doch zwecklos." (Note that di Giovanni has 'existence' here.)
 
-(...)
+* "Grund" may be translated to "ground", and probably Hegel is happy about that connotation, but "der Grund fuer etwas" is the "_reason_" for something.
 
 
 ## **Introduction**
@@ -304,7 +306,7 @@ The orginal German is at times maybe more evocative than the established English
 ### $\;\;$ Allgemeine Einteilung des Seins
 
 
-### First section: Determinateness (Quality)
+### First sectio Bestimmtheit (Qualit&#228;t) / Determinateness (Quality)
 
 #### First chapter
 
@@ -336,7 +338,7 @@ Indeed, later this is called "Das Eins"  which is maybe indeed better translated
 The [[empty type]] $\emptyset$.
 
 
-##### C. Werden Becoming
+##### C. Werden / Becoming
  {#Becoming}
 
 
@@ -344,6 +346,7 @@ The [[empty type]] $\emptyset$.
 
 According to the formalization of such [[unity of opposites]] as
 [above](#OppositesAndUnity) we identify this [[becoming]] (following [Lawvere 91]({#LawvereComo})) as the universal factorization
+
 
 $$
   \array{
@@ -365,7 +368,7 @@ Also, [below](#SomethingAndAnOther) it says
 
 > {#222} &#167;222 Being and nothing in their unity, which is determinate being
 
-
+which points to the [[Aufhebung]] of this duality via the [[sharp modality]].
 
 ###### 1. Unity of Being and Nothing
 
@@ -442,17 +445,49 @@ $\;\;$ [[nothing]] $\dashv$ [[being]]  $\;\colon\;$ [[ceasing]]
 
 
 
-###### 3. Sublating of Becoming
+###### 3. Aufheben des Werdens / Sublating of Becoming
+ {#AufhebenDesWerdens}
 
+> {#180} &#167;180 Das Gleichgewicht, worein sich Entstehen und Vergehen setzen, ist zun&#228;chst das Werden selbst. Aber dieses geht eben so in ruhige Einheit zusammen. Seyn und Nichts sind in ihm nur als verschwindende; aber das Werden als solches ist nur durch die Unterschiedenheit derselben. Ihr Verschwinden ist daher das Verschwinden des Werdens, oder Verschwinden des Verschwindens selbst. Das Werden ist eine haltungslose Unruhe, die in ein ruhiges Resultat zusammensinkt.
 
 > &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
 
+> {#181} &#167;181 Die&#223; k&#246;nnte auch so ausgedr&#252;ckt werden: Das Werden ist das Verschwinden von Seyn in Nichts, und von Nichts in Seyn, und das Verschwinden von Seyn und Nichts &#252;berhaupt; aber es beruht zugleich auf dem Unterschiede derselben. Es widerspricht sich also in sich selbst, weil es solches in sich vereint, das sich entgegengesetzt ist; eine solche Vereinigung aber zerst&#246;rt sich.
+
 > &#167;181 This could also be expressed thus: becoming is the vanishing of being in nothing and of nothing in being and the vanishing of being and nothing generally; but at the same time it rests on the distinction between them. It is therefore inherently self-contradictory, because the determinations it unites within itself are opposed to each other; but such a union destroys itself.
 
+> {#182} &#167;182 Die&#223; Resultat ist das Verschwundenseyn, aber nicht als Nichts; so w&#228;re es nur ein R&#252;ckfall in die eine der schon aufgehobenen Bestimmungen, nicht Resultat des Nichts und des Seyns. Es ist die zur ruhigen Einfachheit gewordene Einheit des Seyns und Nichts. Die ruhige Einfachheit aber ist Seyn, jedoch ebenso, nicht mehr f&#252;r sich, sondern als Bestimmung des Ganzen.
 
 > &#167;182 This result is the vanishedness of becoming, but it is not nothing; as such it would only be a relapse into one of the already sublated determinations, not the resultant of nothing and being. It is the unity of being and nothing which has settled into a stable oneness. But this stable oneness is being, yet no longer as a determination on its own but as a determination of the whole.
 
+> {#183} &#167;183 Das Werden so &#220;bergehen in die Einheit des Seyns und Nichts, welche als seyend ist, oder die Gestalt der einseitigen unmittelbaren Einheit dieser Momente hat, ist das Daseyn.
+
 > &#167;183 Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
+
+By the discussion around [&#167;177](#177) the [[unity of opposites]] of [[nothing]] and [[being]] is to be expressed by the [[adjunction]]
+
+$$
+  \emptyset \dashv \ast
+$$
+
+between the [[modalities]] which are constant on the [[empty type]]/[[initial object]] and on the [[unit type]]/[[terminal object]], respectively.
+
+To exhibit [[Aufhebung]] of this duality we are now to produce another such [[adjunction]] of the form $(\flat \dashv \sharp)$ which characterizes a higher [[level of a topos]], and such that both $\emptyset$ and $\ast$ are $\sharp$-[[modal types]]. 
+
+This is the case for $\flat$ the [[flat modality]] and $\sharp$ the [[sharp modality]] over a [[cohesive site]], this is discussed at _[Aufhebung -- over cohesive sites](Aufhebung#ExamplesBecomingFormalization)_.
+
+So the first step to further determination in the [Proce&#223;](#Process) is this:
+
+$$
+  \array{
+    && && &&\stackrel{Dasein}{}&& \flat &\stackrel{}{\dashv}& \sharp & 
+    \\
+    && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    \\
+    && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+ }
+$$
+
 
 | |  | [[Dasein]] | |  |
 |--|--|--|--|--|
@@ -465,6 +500,7 @@ $\,$
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
 
+> {#187} &#167;187 Der n&#228;here Sinn und Ausdruck, den Seyn und Nichts, indem sie nunmehr Momente sind, erhalten, hat sich bei der Betrachtung des Daseyns, als der Einheit, in der sie aufbewahrt sind, zu ergeben. Seyn ist Seyn, und Nichts ist Nichts nur in ihrer Unterschiedenheit von einander; in ihrer Wahrheit aber, in ihrer Einheit, sind sie als diese Bestimmungen verschwunden, und sind nun etwas anderes. Seyn und Nichts sind dasselbe; darum weil sie dasselbe sind, sind sie nicht mehr Seyn und Nichts, und haben eine verschiedene Bestimmung; im Werden waren sie Entstehen und Vergehen; im Daseyn als einer anders bestimmten Einheit sind sie wieder anders bestimmte Momente. Diese Einheit bleibt nun ihre Grundlage, aus der sie nicht mehr zur abstrakten Bedeutung von Seyn und Nichts heraustreten.
 
 > &#167;187 The more precise meaning and expression which being and nothing receive, now that they are moments, is to be ascertained from the consideration of determinate being as the unity in which they are preserved. Being is being, and nothing is nothing, only in their contradistinction from each other; but in their truth, in their unity, they have vanished as these determinations and are now something else. Being and nothing are the same; but just because they are the same they are no longer being and nothing, but now have a different significance. In becoming they were coming-to-be and ceasing-to-be; in determinate being, a differently determined unity, they are again differently determined moments. This unity now remains their base from which they do not again emerge in the abstract significance of being and nothing.
 
@@ -556,9 +592,10 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 [[Dasein]], quality, [[type]], something
 
 
-> {#209} &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
-
 > {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
+
+>  &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+
 
 > {#210} &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
 
@@ -584,7 +621,7 @@ something : Being-for-other $\dashv$ being-in-itself
 
 > &#167;222 Being and nothing in their unity, which is determinate being
 
-Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[becoming]]_.
+This is [[Aufhebung]].
 
 > Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
 
@@ -612,6 +649,7 @@ Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[be
 Notice here from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the _infinite progression_ that in mathematics is referred to as _[[sequences]]_ and _[[series]]_, and that what "ideal" ( _ideell_ ) about them is that they need not converge to any finite value, but be regarded as sequences--- such as [[formal power series]]. 
 Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#304) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
 
+This way we may think of the "ideal" here as related to the idealization of [[infinitesimals]], which are "not real" in an evident sense and of the "real" hence of the _finite_, the non-infinitesimal. We discuss below [&#167;305](#305) an [[adjunction]] that accurately captures infinitesimals, and whose dual adjunction is a plausible candidate for "reality".
 
 ###### Der &#220;bergang
 
@@ -1506,25 +1544,63 @@ The reflector [[term constructor]] in an [[identity type]].
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
 
-##### C Contradiction
+##### C Der Widerspruch / Contradiction
 
+###### 1. Der Unterschied ueberhaupt
 
+> {#931} &#167;931 Der Unterschied &#252;berhaupt enth&#228;lt seine beiden Seiten als Momente; in der Verschiedenheit fallen sie gleichg&#252;ltig auseinander; im Gegensatze als solchem sind sie Seiten des Unterschiedes, eines nur durchs andere bestimmt, somit nur Momente; aber sie sind ebenso sehr bestimmt an ihnen selbst, gleichg&#252;ltig gegen einander und sich gegenseitig ausschlie&#223;end; die selbstst&#228;ndigen Reflexions-Bestimmungen.
 
-> Der aufgel&#246;ste Widerspruch ist also der Grund,
+> &#167;931 Difference as such contains its two sides as moments; in diversity they fall indifferently apart; in opposition as such, they are sides of the difference, one being determined only by the other, and therefore only moments; but they are no less determined within themselves, mutually indifferent and mutually exclusive: the self-subsistent determinations of reflection.
 
-[[Aufhebung]] des Widerspruchs ist der Grund
+> {#934} &#167;934 Der Unterschied &#252;berhaupt ist schon der Widerspruch an sich; denn er ist die Einheit von solchen, die nur sind, insofern sie nicht eins sind,&#8212;und die Trennung solcher, die nur sind als in derselben Beziehung getrennte. Das Positive und Negative aber sind der gesetzte Widerspruch, weil sie als negative Einheiten, selbst das Setzen ihrer, und darin jedes das Aufheben seiner und das Setzen seines Gegentheils ist.&#8212;Sie machen die bestimmende Reflexion als ausschlie&#223;ende aus; weil das Ausschlie&#223;en Ein Unterscheiden, und jedes der Unterschiedenen als Ausschlie&#223;endes selbst das ganze Ausschlie&#223;en ist, so schlie&#223;t jedes in ihm selbst sich aus.
+
+> &#167;934 Difference as such is already implicitly contradiction; for it is the unity of sides which are, only in so far as they are not one-and it is the separation of sides which are, only as separated in the same relation. But the positive and negative are the posited contradiction because, as negative unities, they are themselves the positing of themselves, and in this positing each is the sublating of itself and the positing of its opposite. They constitute the determining reflection as exclusive; and because the excluding of the sides is a single act of distinguishing and each of the distinguished sides in excluding the other is itself the whole act of exclusion, each side in its own self excludes itself.
+
+Here we need a [[unity of opposites]] that expresses "difference as such". The obvious candidate is the opposition between [[false]] and [[true]]. And indeed, in [[type theory]]/[[categorical logic]] these are again given by [[empty type]] $\emptyset$ and [[unit type]] $\ast$ which form an [[adjunction]]
+
+$$
+  Abs.\,Contradiction 
+  \colon 
+  \array{
+     false & \emptyset &\dashv& \ast & true
+  }
+$$
+
+Technically this is the same adjunction as that between [[nothing]] and [[being]] as around [&#167;134](#134) in the Seinslogik. Indeed that makes sense: the tower of determination of the Seinslokig should repeat in the Wesenslogik, but reflected, and hence with different meaning.
+
+###### 2. Der Widerspruch l&#246;st sich auf
+
+> {#943} &#167;943 Nach dieser positiven Seite, da&#223; die Selbstst&#228;ndigkeit im Gegensatze, als ausschlie&#223;ende Reflexion sich zum Gesetztseyn macht, und es ebenso sehr aufhebt, Gesetztseyn zu seyn, ist der Gegensatz nicht nur zu Grunde, sondern in seinen Grund zur&#252;ckgegangen.&#8212; Die ausschlie&#223;ende Reflexion des selbstst&#228;ndigen Gegensatzes macht ihn zu einem Negativen, nur Gesetzten; sie setzt dadurch ihre zun&#228;chst selbstst&#228;ndigen Bestimmungen, das Positive und Negative, zu solchen herab, welche nur Bestimmungen sind; und indem so das Gesetztseyn zum Gesetztseyn gemacht wird, ist es &#252;berhaupt in seine Einheit mit sich zur&#252;ckgekehrt; es ist das einfache Wesen, aber das Wesen als Grund. Durch das Aufheben der sich an sich selbst widersprechenden Bestimmungen des Wesens, ist dieses wiederhergestellt, jedoch mit der Bestimmung, ausschlie&#223;ende Reflexionseinheit zu seyn,&#8212;einfache Einheit, welche sich selbst als Negatives bestimmt, aber in diesem Gesetztseyn unmittelbar sich selbst gleich und mit sich zusammen-gegangen ist.
+
+> &#167; 943 According to this positive side, in which the self-subsistence in opposition, as the excluding reflection, converts itself into a positedness which it no less sublates, opposition is not only destroyed [zugrunde gegangen] but has withdrawn into its ground. The excluding reflection of the self-subsistent opposition converts this into a negative, into something posited; it thereby reduces its primarily self-subsistent determinations, the positive and negative, to the status of mere determinations; and the positedness, being thus made into a positedness, has simply returned into its unity with itself; it is simple essence, but essence as ground. Through the sublating of its inherently self-contradictory determinations, essence has been restored, but with this determination, that it is the excluding unity of reflection-a simple unity that determines itself as a negative, but in this positedness is immediately like itself and united with itself.
+
+> {#944} &#167;944 Zun&#228;chst geht also der selbstst&#228;ndige Gegensatz durch seinen Widerspruch in den Grund zur&#252;ck; jener ist das Erste, Unmittelbare, von dem angefangen wird, und der aufgehobene Gegensatz oder das aufgehobene Gesetztseyn ist selbst ein Gesetztseyn. Somit ist das Wesen als Grund ein Gesetztseyn, ein Gewordenes. Aber umgekehrt hat sich nur die&#223; gesetzt, da&#223; der Gegensatz oder das Gesetztseyn ein Aufgehobenes, nur als Gesetztseyn ist. Das Wesen ist also als Grund so ausschlie&#223;ende Reflexion, da&#223; es sich selbst zum Gesetztseyn macht, da&#223; der Gegensatz, von dem vorhin der Anfang gemacht wurde und der das Unmittelbare war, die nur gesetzte, bestimmte Selbstst&#228;ndigkeit des Wesens ist, und da&#223; er nur das sich an ihm selbst Aufhebende, das Wesen aber das in seiner Bestimmtheit in sich Reflektirte ist. Das Wesen schlie&#223;t als Grund sich von sich selbst aus, es setzt sich; sein Gesetztseyn,&#8212;welches das Ausgeschlossene ist,&#8212;ist nur als Gesetztseyn, als Identit&#228;t des Negativen mit sich selbst. Die&#223; Selbstst&#228;ndige ist das Negative, gesetzt als Negatives; ein sich selbst Widersprechendes, das daher unmittelbar im Wesen als seinem Grunde bleibt.
+
+* &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posits itself; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
+
+> {#945} &#167;945 Der aufgel&#246;ste Widerspruch ist also der Grund,
+
+> &#167;945 The resolved contradiction is therefore ground, essence as unity of the positive and negative.
+
+By the discussion at [&#167;931](#931) the contradiction in question is given by the adjunction between [[false]]=[[empty type]] and [[true]]=[[unit type]]. The [[Aufhebung]] of that proceeds via the [[sharp modality]] exactly as for [[becoming]] as discussed around [&#167;183](#183) following the technical discussion at _[Aufhebung -- over cohesive sites](Aufhebung#ExamplesBecomingFormalization)_.
+
 
 $$
   \array{
-    Grund &&\vdots && \vdots
+    && \vdots && \vdots
+    \\
+    && \bot && \bot
+    \\
+    Grund && \flat && \sharp
     \\
     &&\vee && \vee
     \\
-    &&\emptyset &\stackrel{Widersoruch}{\dashv}& \ast
+    &&\emptyset &\stackrel{Widerspruch}{\dashv}& \ast
     \\
     Wesen
   }
 $$
+
 
 
 
@@ -1707,13 +1783,15 @@ Indeed, in [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[u
 
 So 
 
-* Idee = Begriff & Realit&#228;t
+* Idee = Begriff & Realit&#228;t 
 
 See also [EL&#167;214](#EL214), which instead has
 
 * Idee = das Ideelle & das Reelle .
 
-But of course the the Notion is _ideell_, by [&#167;316](#316) "wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist".
+But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin der Begriff als ein Ideelles und zwar als ein nur Ideelles" and [&#167;316](#316) "wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist".
+
+
 
 ## **Philosophy of nature**
  {#PhilosophyOfNature}
