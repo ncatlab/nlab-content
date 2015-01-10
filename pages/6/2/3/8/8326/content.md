@@ -167,12 +167,13 @@ The following table lists proposals for possible such identifications. The conte
 | moment of continuity | [[sharp modality]] $\sharp$ |  |
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
-| vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174)  |
+| vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
 | being-for-self | [[reduction modality]] $\Re$ |  |
 | being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |  |
-| ideality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;305](#305), [&#167;322](#322)   |
-| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \flat_{inf}$) | [&#167;304](#304) , [&#167;305](#305) |
-| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \flat_{inf}} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
+| ideality (inf. quality) | [[adjoint modality]] ($&#643;_{inf} \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
+| Aufhebung of finiteness | $\left(\array{&#643;_{inf} &\dashv& \Im \\ \vee && \vee \\ #643;_{inf} &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
+| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \Im$) | [&#167;304](#304) , [&#167;305](#305) |
+| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
@@ -237,11 +238,12 @@ $$
     \\
     {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
+    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& &#643;_{inf}
     \\
     && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
     \\
-    && && &&\stackrel{Fuersichsein}{}&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    && && &&\stackrel{Fuersichsein}{}&& &#643;_{inf} 
+    &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im
     \\
     && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
@@ -630,7 +632,7 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 
 > &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
 
-which [[adjoint modality]] is to be found here 
+(which [[adjoint modality]] is to be found here ?)
 
 
 > &#167;222 Being and nothing in their unity, which is determinate being
@@ -654,18 +656,21 @@ For the last one, see below [&#167;1636](#1636).
 
 
 
-> {#303} &#167;303 Das Endliche ist nicht das Reale, sondern das Unendliche.
-
-> It is not the finite which is the real, but the infinite
 
 > {#304} &#167;304 In Beziehung auf Realit&#228;t und Idealit&#228;t wird aber der Gegensatz des Endlichen und Unendlichen so gefa&#223;t, da&#223; das Endliche f&#252;r das Reale gilt, das Unendliche aber f&#252;r das Ideelle gilt; wie auch weiterhin der Begriff als ein Ideelles und zwar als ein nur Ideelles, das Daseyn &#252;berhaupt dagegen als das Reale betrachtet wird.
 
 > With reference to reality and ideality, however, the opposition of finite and infinite is grasped in such a manner that the finite ranks as the real but the infinite as the 'ideal' [das Ideelle]; in the same way that further on the Notion, too, is regarded as an 'ideal', that is, as a mere 'ideal', in contrast to determinate being as such which is regarded as the real.
 
-Notice here from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the _infinite progression_ that in mathematics is referred to as _[[sequences]]_ and _[[series]]_, and that what "ideal" ( _ideell_ ) about them is that they need not converge to any finite value, but be regarded as sequences--- such as [[formal power series]]. 
-Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#304) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305)
+Notice here from _[Der quantitative unendliche Progress](#DerQuantitativeUnendlicheProgress)_ that "infinite" refers much to the _infinite progression_ that in mathematics is referred to as _[[sequences]]_ and _[[series]]_, and that what "ideal" ( _ideell_ ) about them is that they need not converge to any finite value, but be regarded as sequences --- such as [[formal power series]]. 
+Hence if we take the "infinite" and the "infinitesimal" to go together -- as also in [&#167;502](#502) -- then [&#167;304](#304) gives that  "the [[infinitesimal]] ranks as the ideal", whereas "the [[reduced object|reduced]] ranks as the real". See also the discussion below [&#167;305](#305).
 
-This way we may think of the "ideal" here as related to the idealization of [[infinitesimals]], which are "not real" in an evident sense and of the "real" hence of the _finite_, the non-infinitesimal. We discuss below [&#167;305](#305) an [[adjunction]] that accurately captures infinitesimals, and whose dual adjunction is a plausible candidate for "reality".
+This way we may think of the "ideal" here as related to the idealization involved in the concept of [[infinitesimals]], which are "not real" in an evident sense and of the "real" hence of the _finite_, the non-infinitesimal. 
+
+Now the [[reduction modality]] $\Re$ is the operation that makes all infinitesimal vanish, i.e. it expresses precisely the "vanishing of infinitesimals" in [&#167;174](#174). Hence its [[modal types]] are precisely those without infinitesimal extension. It is perfectly plausible to think of these as the _real types_.
+
+Moreover, the $\Re$-[[anti-modal types]] are indeed precisely those that consist entirely only of [[infinitesimals]] (the [[infinitesimally thickened points]]), hence those which are "ideel" but not "real" in the sense of [&#167;304](#304).
+
+We discuss below [&#167;305](#305) the [[adjunction]] that $\Re$-participates in and the [[unity of opposites]] that this may be thought to express.
 
 ###### Der &#220;bergang
 
@@ -674,9 +679,9 @@ This way we may think of the "ideal" here as related to the idealization of [[in
 > &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
 
 
-If we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then the above would give also that _ideality is the quality of the infinitesimal_. 
+If here we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then the above would give also that _ideality is the quality of the infinitesimal_. 
 
-Now we had already that quality is the [[duality of opposites]] expressed by [[shape modality]] and [[flat modality]]
+Now we have from [&#167;699](#699) that _quality_, being the oppisite moment of quantity, is the [[duality of opposites]] formalized by [[shape modality]] and [[flat modality]]
 
 $$
   \array{
@@ -684,13 +689,15 @@ $$
   }
 $$
 
-and moreover, mathematically, the infinitesimal is expressed by the infinitesimal analog of this, namely the [[adjunction]] between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal shape modality]] $\flat_{inf}$.
+This indeed has a direct infinitesimal analog, namely the [[adjunction]] between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal flat modality]] $\Im$. 
 
-This would suggest to translate "ideality is the quality of the infinite" by the part 
+This clearly suggests to translate "ideality is the quality of the infinite"
+in [&#167;305](#305)  as the [[unity of opposites]] which is expressed by the [[adjunction]] $&#643;_{inf} \dashv \Im$
+
 
 $$
   \array{
-    ideality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
+    {ideality/ \atop {inf.\,quality}} & \colon&  &#643;_{inf} &\dashv& \Im
     \\
     && \vee && \vee
     \\
@@ -698,11 +705,12 @@ $$
   }
 $$
 
-in the [Proce&#223;](#Process).
+as part of the [Proce&#223;](#Process). In fact, this provides [[Aufhebung]] for quality, as indicated, which we may read as the Aufhebung of the finite as it passes into the infinite (which we read as expressed via the infinitesimal). 
 
-On the other hand, mathematically we actually have an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \flat_{inf}$, with the [[reduction modality]] on the  left. Recall that the reduction modality expresses precisely the "disappearance of infinitesimal quantity" in [&#167;174](#174).
 
-This may be rearranged as a second order unity of opposites
+Moreover, this extends to an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \Im$, with the [[reduction modality]] $\Re$ (from the discussion below [&#167;304](#304)) on the left
+
+This hence gives a second order unity of opposites
 
 $$
   \array{
@@ -710,50 +718,75 @@ $$
     \\
     && \bot && \bot
     \\
-    && &#643;_{inf} &\dashv& \flat_{inf}
+    && &#643;_{inf} &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
   }
 $$
 
-and so "ideality" could also be translated to $\Re \dashv &#643;_{inf}$. 
+and hence exibits a dual moment of ideality, which, by the discussion below [&#167;304](#304), is related to reality.
 
-Now by [&#167;324](#324) the opposite moment of ideality is _reality_. Noticing that the adjoint pair $&#643;_{inf} \dashv \flat_{inf}$ is what axiomatizes [[étale toposes]], [[manifolds]], and [[étale groupoids]] (as discussed at [[differential cohesion]]), it does make sense to think of this in terms of "reality": among all the objects in a differentially cohesive $\infty$-topos, those, that are "geometric" in the sense of [[geometric stack]], hence those that would actually model, for instance, a [[spacetime]], but not those that model more "non-real" spaces such as moduli spaces, are precisely the &#233;tale objects (see also the discussion at _[[higher geometry]]_). This may also fit with [&#167;304](#304) above.
+Now by [&#167;324](#324) the opposite moment of ideality is indeed supposed to be _reality_. So we should write
+
+$$
+  \array{
+    && \Re &\stackre{reality}{\dashv}& &#643;_{inf}
+    \\
+    && \bot && \bot
+    \\
+    && &#643;_{inf} &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
+  }
+$$
+
+and interpret not just the [[reduction modality]] alone as being about reality, but as being just one moment of it, the other moment being expresed by the [[infinitesimal shape modality]] $&#643;_{inf}$. 
+
+This happens to make good sense: the [[modal types]] of $&#643;_{inf}$ in [[context]] $X$ are the [[étale spaces]] over $X$, exhibiting [[étale groupoids]] (see the discussion at _[[differential cohesion]]_ for details). In terms of [[geometry]] this is what characterizes among all generalized geometric objects those that are _[[manifolds]]_, _[[orbifolds]]_ and generally, _[[geometric stacks]]_. These are indeed "the real spaces" as opposed to non-&#233;tale spaces such as generic [[moduli stacks]], in that a "real space" such as a [[spacetime]] is an [[geometric stack]], while some "abstract", hence maybe "ideal" space such as that of "all electromagnetic field configurations" (a [[moduli stack]]) of not an &#233;tale groupoid. (See also the discussion of this point at _[[higher geometry]]_).
+
+Therefore the [[infinitesimal shape modality|infinitesimal shape]]-[[modal types]] certainly qualify as one "aspect of reality" in any mathematical description of [[physics]] (see also at _[[geometry of physics]]_), and so we conclude that reading the adjunction as
+
+$$
+  reality \colon \Re \dashv &#643;_{inf}
+$$
+
+makes good sense. 
+
+Notice that -- and this is of course precisely what the second-order duality with $ideality \colon &#643;_{inf} \dashv \Im $ expresses -- while this is all about reality, in the above sense, it is so only _via_ ideal (ideelle) infinitesimals. This is of course in a way just the big insight of [[Leibniz]] when formulating [[differential calculus]] in terms of infinitesimals (today: [[syntehtic differential geometry]]): in order to express the physical _reality_ that is described, notably, by [[differential equations]], it is most useful to consider the idealized concept of infinitesimals, itself without reality, but nevertheless serving to characterize reality. 
 
 The view that the concept of [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
 
 > F&#252;r diesen H&#246;hepunkt kritischer Naturerkenntnis bildet die Charakteristik der infinitesimalen Gr&#246;&#223;e als intensiver die notwendige Vermittlung;  denn die kritische Bedeutung der Realit&#228;t wird  vorzugsweise  an der  infinitesimalen Intensit&#228;t  durchgef&#252;hrt.
 
-In view of all this, it makes sense to translate as follows:
+In conclusion, we add to the [Proce&#223;](#Process) the following piece
+
 
 $$
   \array{
-    ideality & \colon& \Re &\dashv&  &#643;_{inf}
+     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  &#643;_{inf}
     \\    
     && \bot && \bot
     \\
-    reality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
+    & &  &#643;_{inf} &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}& \Im
     \\
     && \vee && \vee
     \\
-    quality &\colon&  &#643; &\dashv& \flat
+    &&  &#643; &\stackrel{quality}{\dashv}& \flat
   }
 $$
 
-as part of the [Proce&#223;](#Process).
 
-Notice that here the bottom step upward is an [[Aufhebung]] in the mathematical sense that $\flat_{inf} \circ &#643; \simeq &#643;$. In view of this, we learn from [&#167;305](#305) 
+Moreover, here the bottom step upward is an [[Aufhebung]] in the mathematical sense that $\Im \circ &#643; \simeq &#643;$. In view of this, we learn from [&#167;305](#305) 
 "Die Idealit&#228;t ... Als [[Aufhebung|Aufheben]] der Endlichkeit" that we might label this as
 
 $$
   \array{
-    ideality & \colon& \Re &\dashv&  &#643;_{inf}
+     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  &#643;_{inf}
     \\    
     && \bot && \bot
     \\
-    reality & \colon&  &#643;_{inf} &\dashv& \flat_{inf}
+    & &  &#643;_{inf} &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}&   
+    \Im
     \\
-    Aufhebung\;der\;Endlichkeit & & \vee && \vee
+    && \vee &\stackrel{Aufhebung \atop {der.\, Endlichkeit}}{}& \vee
     \\
-    quality &\colon&  &#643; &\dashv& \flat
+    &&  &#643; &\stackrel{quality}{\dashv}& \flat
   }
 $$
 
@@ -837,98 +870,10 @@ It seems that in _Science of Logic_ there is no _name_ given to this unity. But 
 
 > {#EL214} EL&#167;214 The Idea may be described in many ways. It may be called reason; (and this is the proper philosophical signification of reason); subject-object; the unity of the ideal and the real, of the finite and the infinite, of soul and body; the possibility which has its actuality in its own self; that of which the nature can be thought only as existent, etc. 
 
+But see below _[The idea](#TheIdea)_, where the idea is given as the unity of the _notion_ and the real. See the discussion below [&#167;1683](#1638).
+
 (Regarding "soul and body" see also the comments at _[The monad of Leibniz](#TheMonadOfLeibniz)_, where the similarity to the standard terminology "soul" and "body" for (super-)infinitesimals is pointed out.)
 
-
-So in the [Dictionary](#Dictionary) we add
-
-$$
-  \array{
-    & \text{f&#252;r sich sein} && \text{f&#252;r eins sein}
-    \\
-    ideality & \Re &\dashv& &#643;_{inf}
-    \\
-    & \bot &Idea& \bot
-    \\
-    reality & &#643;_{inf} &\dashv& \flat_{inf}
-  }
-$$
-
-(See below _[The idea](#TheIdea)_ and notice [PN&#167;192](#PN192).)
-
-We might interpret this as follows: the $(&#643;_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
-
-Hence in view of the previous disucssion at _[Existence As Such](#ExistenceAsSuch)_ it seems we have the following
-
-* types have "being" in the presence of $(\emptyset \dashv \ast)$
-
-  * types moreover have "existence"/Dasein in the further presence of $(&#643; \dashv \flat)$.
-
-    * types moreover have "reality" in the further presence of $(&#643;_{inf} \dashv \flat_{inf})$
-
-in other words we have the following situation, in view of p. 7 of _[[Some Thoughts on the Future of Category Theory]]_:
-
-$$
-   \array{
-      reines\;Sein && Dasein && Realitaet
-      \\
-      being && existence && reality
-      \\
-       pure\,being && determinate\,being 
-      \\
-      \\
-      && && \Re & \subset & id
-      \\
-     && && \bot && \bot
-      \\
-      && &#643; & \subset & &#643;_{inf} & \subset & id
-      \\
-      && \bot && \bot 
-      \\
-      \emptyset &\subset& \flat & \subset & \flat_{inf}
-      \\
-      \bot & & \bot && 
-      \\
-      \ast & \subset& \sharp      
-   }
-$$
-
-where "$\subset$" denotes inclusion of modal types
-
-Equivalently we may arrange this as follows
-
-$$
-  \array{
-    id &\dashv& id
-    \\
-    \vee && \vee 
-    \\
-    \Re &\dashv& &#643;_{inf}
-    \\
-    \bot && \bot 
-    \\
-    &#643;_{inf} &\dashv& \flat_{inf}
-    \\
-    \vee && \vee 
-    \\
-    &#643; &\dashv& \flat
-    \\
-    \bot && \bot 
-    \\
-    \flat &\dashv& \sharp
-    \\
-    \vee && \vee 
-    \\
-    \emptyset &\dashv& \ast 
-    \\
-  }
-$$
-
-to exhibit a Proce&#223; (Bewegung) of oppositions and their Aufhebung.
-
-See the labeled diagram _[Proce&#223;](#Process)_ below.
-
-See also the commented diagram for _[gauge](#gauge)_ below.
 
 ###### c. Eins
 
