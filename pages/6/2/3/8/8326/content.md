@@ -136,6 +136,7 @@ The following table lists proposals for possible such identifications. The conte
 +-- {: bluebox #Dictionary}
 ###### The formalization dictionary
 
+
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
 |-----|------|---|
 | **Subjektive Logic** |    |   |
@@ -159,7 +160,7 @@ The following table lists proposals for possible such identifications. The conte
 | [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [[Some Thoughts on the Future of Category Theory|Law91]] |
 | everything is an intermediate stage between nothing and being | [[points-to-pieces transform|comparison map]] via [[counit of a comonad|counit]]/[[unit of a monad|uni]]-factorization $(\emptyset \to X \to \ast)$,  | [&#167;174](#174) |
 | [[Dasein]]   | [Aufhebung of becoming via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv&\sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;194](#194) |
-| moment of repulsion | [[flat modality]] $\flat$ |  |
+| moment of repulsion | [[flat modality]] $\flat$ | [&#167;342](#342), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
 | quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;342](#342) |
 | moment of discreteness | [[flat modality]] $\flat$ |  |
@@ -184,6 +185,8 @@ The following table lists proposals for possible such identifications. The conte
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
 | absoluter Widerspruch / absolute contradiction  |  [[adjoint modality]] ([[false]] $\dashv$ [[true]]) = ($\emptyset \dashv \ast$) | [&#167;931](#931)  [&#167;934](#934) |
 | Aufhebung des Widerspruchs | [Aufhebung of absolute contradiction via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv& \sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;943](#943), [&#167;944](#944), [&#167;945](#945) |
+| abs. Grund | [[base topos]] of [[sharp modality|sharp]]-[[modal types]] | [&#167;945](#945) |
+| Form | [[shape modality]] $&#643;$ | [&#167;973](#973) | 
 
 =--
 
@@ -214,16 +217,20 @@ $$
     \\
     && && &&  && \vdots && \vdots
     \\
-    && && && \stackrel{Grund}{} && \flat &\dashv& \sharp
+    && && && &\stackrel{Form}{}& &#643; &\dashv& \flat
+    \\
+    && && && && \bot && \bot
+    \\
+    && && && \stackrel{Existenz}{} && \flat &\dashv& \sharp & \stackrel{abs.\,Grund}{}
     \\
     && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
     \\
-    && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
+    && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{abs.\,Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
     \\
     \\
-    && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
+    && && \stackrel{Wesen}{} && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
     \\
-    &&\stackrel{best.\; Reflexionen}{}&& && \stackrel{Wesen}{} &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
+    &&\stackrel{best.\; Reflexionen}{}&& &&  &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
     \\
     \\
     && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
@@ -264,6 +271,8 @@ The orginal German is at times maybe more evocative than the established English
 
 * "Grund" may be translated to "ground", and probably Hegel is happy about that connotation, but "der Grund fuer etwas" is the "_reason_" for something.
 
+* "Form" also translates as "shape"
+
 
 ## **Introduction**
 
@@ -273,6 +282,8 @@ The orginal German is at times maybe more evocative than the established English
 > {#53} &#167;53 Die reine Wissenschaft setzt somit die Befreiung von dem Gegensatze des Bewu&#223;tseyns voraus. Sie enth&#228;lt den Gedanken, insofern er eben so sehr die Sache an sich selbst ist, oder die Sache an sich selbst, insofern sie ebenso sehr der reine Gedanke ist. Als Wissenschaft ist die Wahrheit das reine sich entwicklende Selbstbewu&#223;tseyn, und hat die Gestalt des Selbst, da&#223; das an und f&#252;r sich seyende gewu&#223;ter Begriff, der Begriff als solcher aber das an und f&#252;r sich seyende ist. Dieses objektive Denken ist denn der Inhalt der reinen Wissenschaft. Sie ist daher so wenig formell, sie entbehrt so wenig der Materie zu einer wirklichen und wahren Erkenntni&#223;, da&#223; ihr Inhalt vielmehr allein das absolute Wahre, oder wenn man sich noch des Worts Materie bedienen wollte, die wahrhafte Materie ist,&#8212;eine Materie aber, der die Form nicht ein &#196;u&#223;erliches ist, da diese Materie vielmehr der reine Gedanke, somit die absolute Form selbst ist. Die Logik ist sonach als das System der reinen Vernunft, als das Reich des reinen Gedankens zu fassen. Dieses Reich ist die Wahrheit, wie sie ohne H&#252;lle an und f&#252;r sich selbst ist. Man kann sich deswegen ausdr&#252;cken, da&#223; dieser Inhalt die Darstellung Gottes ist, wie er in seinem ewigen Wesen vor der Erschaffung der Natur und des endlichen Geistes ist.
 
 > &#167;53 Accordingly, logic is to be understood as the system of pure reason, as the realm of pure thought. This realm is truth as it is without veil and in its own absolute nature. It can therefore be said that this content is the exposition of God as he is in his eternal essence before the creation of nature and a finite mind.
+
+To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636) and then nature appears from that in [PN&#167;192](#PN192) "as the idea in the form of otherness".
 
 > {#54} &#167;54 Anaxagoras wird als derjenige gepriesen, der zuerst den Gedanken ausgesprochen habe, da&#223; der Nus, der Gedanke, das Princip der Welt, da&#223; das Wesen der Welt als der Gedanke bestimmt ist. Er hat damit den Grund zu einer Intellektualansicht des Universums gelegt, deren reine Gestalt die Logik seyn mu&#223;. Es ist in ihr nicht um ein Denken &#252;ber etwas, das f&#252;r sich au&#223;er dem Denken zu Grunde l&#228;ge, zu thun, um Formen, welche blo&#223;e Merkmale der Wahrheit abgeben sollten; sondern die nothwendigen Formen und eigenen Bestimmungen des Denkens sind der Inhalt und die h&#246;chste Wahrheit selbst.
 
@@ -615,15 +626,20 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
+> {221} &#167;221 Seyn-f&#252;r-Anderes und Ansichseyn machen die zwei Momente des Etwas aus.
+
 > &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
 
-something : Being-for-other $\dashv$ being-in-itself
+which [[adjoint modality]] is to be found here 
+
 
 > &#167;222 Being and nothing in their unity, which is determinate being
 
-This is [[Aufhebung]].
+This is the [[Aufhebung]] discussed around [&#167;182](#182), [&#167;183](#183)
 
 > Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
+
+For the last one, see below [&#167;1636](#1636).
 
 
 
@@ -755,9 +771,9 @@ $$
 
 > &#167;319 Being-for-self is first, immediately a being-for-self &#8212; the One.
 
-  Secondly, the One passes into a plurality of ones &#8212; repulsion &#8212; and this otherness of the ones is sublated in their ideality &#8212; attraction.
+> Secondly, the One passes into a plurality of ones &#8212; repulsion &#8212; and this otherness of the ones is sublated in their ideality &#8212; attraction.
 
-  Thirdly, we have the alternating determination of repulsion and attraction in which they collapse into equilibrium, and quality, which in being-for-self reached its climax, passes over into quantity.
+> Thirdly, we have the alternating determination of repulsion and attraction in which they collapse into equilibrium, and quality, which in being-for-self reached its climax, passes over into quantity.
 
 Here we have a second-order unity of opposites: quantity itself is
 
@@ -766,7 +782,7 @@ quantity : discreteness $\dashv$ continuity
 
 and by the above we take the 
 
-continuum : repulsion $\dashv$ attraction 
+continuum :  attraction $\dashv$  repulsion
 
 to be quality, then we get from the [[adjoint triple]] 
 
@@ -798,6 +814,7 @@ $$
 ###### a. Dasein und F&#252;rsichsein / Determinate being and Being-for-self
 
 > {#321} &#167;321 Das F&#252;rsichseyn ist, wie schon erinnert ist, die in das einfache Seyn zusammengesunkene Unendlichkeit; es ist Daseyn, insofern die negative Natur der Unendlichkeit, welche Negation der Negation ist, in der nunmehr gesetzten Form der Unmittelbarkeit des Seyns, nur als Negation &#252;berhaupt, als einfache qualitative Bestimmtheit ist.
+
 
 > &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
 
@@ -1460,6 +1477,8 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 > Drittens macht sich das Wesen als die Reflexion des Bestimmens in sich selbst, zum Grunde, und geht in die Existenz und Erscheinung &#252;ber.
 
 
+
+
 #### Chapter 1 Der Schein / Illusory Being
  
 ##### A Das Wesentliche und das Unwesentliche / The essential and the unessential
@@ -1574,9 +1593,10 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 
 > &#167; 943 According to this positive side, in which the self-subsistence in opposition, as the excluding reflection, converts itself into a positedness which it no less sublates, opposition is not only destroyed [zugrunde gegangen] but has withdrawn into its ground. The excluding reflection of the self-subsistent opposition converts this into a negative, into something posited; it thereby reduces its primarily self-subsistent determinations, the positive and negative, to the status of mere determinations; and the positedness, being thus made into a positedness, has simply returned into its unity with itself; it is simple essence, but essence as ground. Through the sublating of its inherently self-contradictory determinations, essence has been restored, but with this determination, that it is the excluding unity of reflection-a simple unity that determines itself as a negative, but in this positedness is immediately like itself and united with itself.
 
+
 > {#944} &#167;944 Zun&#228;chst geht also der selbstst&#228;ndige Gegensatz durch seinen Widerspruch in den Grund zur&#252;ck; jener ist das Erste, Unmittelbare, von dem angefangen wird, und der aufgehobene Gegensatz oder das aufgehobene Gesetztseyn ist selbst ein Gesetztseyn. Somit ist das Wesen als Grund ein Gesetztseyn, ein Gewordenes. Aber umgekehrt hat sich nur die&#223; gesetzt, da&#223; der Gegensatz oder das Gesetztseyn ein Aufgehobenes, nur als Gesetztseyn ist. Das Wesen ist also als Grund so ausschlie&#223;ende Reflexion, da&#223; es sich selbst zum Gesetztseyn macht, da&#223; der Gegensatz, von dem vorhin der Anfang gemacht wurde und der das Unmittelbare war, die nur gesetzte, bestimmte Selbstst&#228;ndigkeit des Wesens ist, und da&#223; er nur das sich an ihm selbst Aufhebende, das Wesen aber das in seiner Bestimmtheit in sich Reflektirte ist. Das Wesen schlie&#223;t als Grund sich von sich selbst aus, es setzt sich; sein Gesetztseyn,&#8212;welches das Ausgeschlossene ist,&#8212;ist nur als Gesetztseyn, als Identit&#228;t des Negativen mit sich selbst. Die&#223; Selbstst&#228;ndige ist das Negative, gesetzt als Negatives; ein sich selbst Widersprechendes, das daher unmittelbar im Wesen als seinem Grunde bleibt.
 
-* &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posits itself; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
+> &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posits itself; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
 
 > {#945} &#167;945 Der aufgel&#246;ste Widerspruch ist also der Grund,
 
@@ -1591,11 +1611,38 @@ $$
     \\
     && \bot && \bot
     \\
-    Grund && \flat && \sharp
+    && \flat &\dashv& \sharp
     \\
-    &&\vee && \vee
+    &&\vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee
     \\
-    &&\emptyset &\stackrel{Widerspruch}{\dashv}& \ast
+    &&\emptyset &\stackrel{abs.\,Widerspruch}{\dashv}& \ast
+    \\
+    Wesen
+  }
+$$
+
+The question then remains which part of this diagram is to carry the name "Grund".
+From [&#167;945](#945) Grund might be the Aufhebung itself, that would make it the analog in the Wesenslogik of the Dasein in the Seinslogik, which was the Aufhebung of [[becoming]].
+
+However, the analog of Dasein in the Wesen should be another determination of being, and "Grund" seems not to be the right word for a determination of being. It seems rather that Grund is to go along with "Existenz" which is a decent name for a determination of being.
+
+So if Grund is not the process of the above Aufhebung, then maybe it is that wherein which we have Aufhebung. By the above these are the [[sharp modality|sharp]]-[[modal types]].
+
+This now has a certain charm to it, because these of course form the [[base topos]]/[[base (infinity,1)-topos|base infinity topos]] of the topos which is the Wesen, and for _that_ the term "Grund" is rather fitting.
+
+So in the [Proce&#223;](#Process) we tentatively label the fragment as
+
+$$
+  \array{
+    && \vdots && \vdots
+    \\
+    && \bot && \bot
+    \\
+    && \flat &\dashv& \sharp & \stackrel{Grund}{}
+    \\
+    &&\vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee
+    \\
+    &&\emptyset &\stackrel{abs.\;Widerspruch}{\dashv}& \ast
     \\
     Wesen
   }
@@ -1604,17 +1651,51 @@ $$
 
 
 
-
-
 #### Chapter 3. Der Grund
 
 > {#964} &#167;964 Das Wesen bestimmt sich selbst als Grund.
 
+> Wie das Nichts zuerst mit dem Seyn in einfacher unmittelbarer Einheit, so ist auch hier zuerst die einfache Identit&#228;t des Wesens mit seiner absoluten Negativit&#228;t in unmittelbarer Einheit. Das Wesen ist nur diese seine Negativit&#228;t, welche die reine Reflexion ist. Es ist diese reine Negativit&#228;t als die R&#252;ckkehr des Seyns in sich; so ist es an sich oder f&#252;r uns bestimmt, als der Grund, in dem sich das Seyn aufl&#246;st. Aber diese Bestimmtheit ist nicht durch es selbst gesetzt; oder es ist nicht Grund, eben insofern es diese seine Bestimmtheit nicht selbst gesetzt hat. Seine Reflexion aber besteht darin, sich als das, was es an sich ist, als Negatives zu setzen und sich zu bestimmen. Das Positive und Negative machen die wesenhafte Bestimmung aus, in die es als in seine Negation verloren ist. Diese selbstst&#228;ndigen Reflexions-Bestimmungen heben sich auf, und die zu Grunde gegangene Bestimmung ist die wahrhafte Bestimmung des Wesens.
+
+> {#964} &#167;964 Essence determines itself as ground.
+
+> &#167;964 Just as nothing is at first in simple immediate unity with being, so here too the simple identity of essence is at first in immediate unity with its absolute negativity. Essence is only this its negativity, which is pure reflection. It is this pure negativity as the return of being into itself; as such, it is determined in itself, or for us, as ground in which being is dissolved. But this determinateness is not posited by essence itself; in other words, essence is not ground except in so far as it has itself posited this its determinateness. Its reflection, however, consists in its positing and determining itself as that which it is in itself, as a negative. The positive and negative constitute that determination of essence in which essence is lost in its negation. These self-subsistent determinations of reflection sublate themselves, and the determination that has fallen to the ground [zugrunde gegangene] is the true determination of essence.
+
+On this see the discussion around [&#167;945](#945)
+
+
 > &#167;964 Essence determines itself as ground.
+
+> {#968} &#167;968 Der Grund ist zuerst absoluter Grund, in dem das Wesen zun&#228;chst als Grundlage &#252;berhaupt f&#252;r die Grundbeziehung ist; n&#228;her bestimmt er sich aber als Form und Materie, und giebt sich einen Inhalt.
+
+> Zweitens ist er bestimmter Grund, als Grund von einem bestimmten Inhalt; indem die Grundbeziehung sich in ihrer Realisirung &#252;berhaupt &#228;u&#223;erlich wird, geht sie in die bedingende Vermittelung &#252;ber.
+
+> Drittens, der Grund setzt eine Bedingung voraus; aber die Bedingung setzt ebenso sehr den Grund voraus; das Unbedingte ist ihre Einheit, die Sache an sich, die durch die Vermittelung der bedingenden Beziehung in die Existenz &#252;bergeht.
+
+> Ground is first, absolute ground, in which essence is, in the first instance, a substrate for the ground relation; but it further determines itself as form and matter and gives itself a content.
+
+> Secondly, it is a determinate ground as ground of a determinate content; in that the ground relation in its realisation as such becomes external to itself, it passes over into conditioning mediation.
+
+> Thirdly, ground presupposes a condition; but the condition no less presupposes the ground; the unconditioned is their unity, the fact in itself, which through the mediation of the conditioning relation passes over into Existence.
 
 ##### A. Der absolute Grund
 
 ###### a. Form und Wesen
+
+> {#970} &#167;970 der Grund ist als das aufgehobene Bestimmtseyn nicht das Unbestimmte, sondern das durch sich selbst bestimmte Wesen, aber als unbestimmt oder als aufgehobenes Gesetztseyn Bestimmtes. Er ist das Wesen, das in seiner Negativit&#228;t mit sich identisch ist.
+
+> &#167;970 The determination of reflection, in so far as it withdraws into ground, is a first, an immediate determinate being in general, which forms the starting point. But determinate being still has only the meaning of positedness and essentially presupposes a ground-in the sense that it does not really posit a ground, that this positing is a sublating of itself, that really it is the immediate that is the posited, and ground the not-posited. As we have seen, this presupposing is positing that recoils on that which posits: ground, as the determination that has been sublated, is not indeterminate; it is essence determined through itself, but determined as undetermined, or as a sublated positedness. Ground is essence that in its negativity is identical with itself.
+
+> Der Form geh&#246;rt &#252;berhaupt alles Bestimmte an; es ist Formbestimmung, insofern es ein Gesetztes, hiermit von einem solchen, dessen Form es ist, Unterschiedenes ist; die Bestimmtheit als Qualit&#228;t ist eins mit ihrem Substrat, dem Seyn; das Seyn ist das unmittelbar Bestimmte, das von seiner Bestimmtheit noch nicht unterschieden,&#8212;oder das in ihr noch nicht in sich reflektirt, so wie diese daher eine seyende, noch nicht eine Gesetzte ist.&#8212;Die Formbestimmungen des Wesens sind ferner als die Reflexions-Bestimmtheiten, ihrer n&#228;hern Bestimmtheit nach, die oben betrachteten Momente der Reflexion. Die Identit&#228;t, und der Unterschied, dieser Theils als Verschiedenheit, Theils als Gegensatz. Ferner aber geh&#246;rt auch die Grundbeziehung dazu, insofern sie zwar die aufgehobene Reflexions-Bestimmung aber dadurch das Wesen zugleich als Gesetztes ist. Dagegen geh&#246;rt zur Form nicht die Identit&#228;t, welche der Grund in sich hat, n&#228;mlich da&#223; das Gesetztseyn als aufgehobenes und das Gesetztseyn als solches,&#8212;der Grund und das Begr&#252;ndete,&#8212;Eine Reflexion ist, welche das Wesen als einfache Grundlage ausmacht, die das Bestehen der Form ist. Allein die&#223; Bestehen ist im Grunde gesetzt; oder die&#223; Wesen ist selbst wesentlich als bestimmtes; somit ist es auch wieder das Moment der Grundbeziehung und Form.&#8212;Die&#223; ist die absolute Wechselbeziehung der Form und des Wesens, da&#223; dieses einfache Einheit des Grundes und des Begr&#252;ndeten, darin aber eben selbst bestimmt oder Negatives ist, und sich als Grundlage von der Form unterscheidet, aber so zugleich selbst Grund und Moment der Form wird.
+
+> {#&#167;973} &#167;973 Das Wesen hat eine Form,
+
+> &#167;973 Essence has a form
+
+Notice that "Form" also means _shape_.
+
+By the above, the Essence is formalized as the ambient [[(infinity,1)-topos|topos]]. In view of this [&#167;973](#973) translates to "The topos has a shape", and indeed there is the concept of [[shape of an (infinity,1)-topos|shape of an infinity-topos]].
+This is just what is reflected by the [[shape modality]].
 
 ###### b. Form und Materie
 
@@ -1770,7 +1851,7 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 > {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
 
-Indeed, in [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[unit type]] $\ast$, which is exactly what was identified as formalizing _being_ above at [&#167;132](#132).
+In [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[unit type]] $\ast$ as discussed around [&#167;934](#934), which is exactly what was identified as formalizing _being_ above at [&#167;132](#132).
 
 
 > {#1634} &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity,
@@ -1791,24 +1872,35 @@ See also [EL&#167;214](#EL214), which instead has
 
 But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin der Begriff als ein Ideelles und zwar als ein nur Ideelles" and [&#167;316](#316) "wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist".
 
+(Notice that it is _Realit&#228;t_ [&#167;304](#304), [&#167;305](#305) which appears here, not _Wirklichkeit_ (_actuality_) as in [&#167;1160](#1160).)
 
 
-## **Philosophy of nature**
+## **Philosophy of Nature**
  {#PhilosophyOfNature}
+
+Now that the idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)):
 
 > {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben.
 
 > PN&#167;192 Nature has come into being as the idea in the form of otherness".
 
+Here _the Idea_ is, by [&#167;1636](#1636), the unity of concept and reality, or of ideality and reality. 
+
+* {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
+
+## **Philosophy of Spirit**
+ {#PhilosophyOfSpirit}
+
+> PS&#167;299 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
+
+
+
 
 ## References
 
-
-A good survey is in 
+Text with background, introduction and survey include
 
 * [[Paul Redding]],  [section 3.2](http://plato.stanford.edu/entries/hegel/#SciLog) of _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
-
-detailed background, introduction and survey includes
 
 * {#Houlgate06} [[Stephen Houlgate]], _The opening of Hegel's Logic_, Purdue University Press, 2006 ([pdf](http://www.magonzalezvalerio.com/Houlgate,%20Stephen%20%20-%20The%20Opening%20of%20Hegel%27s%20Logic_From%20Being%20to%20Infinity%20-%20Purdue%20University%20Press.pdf))
 
