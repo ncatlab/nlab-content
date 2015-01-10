@@ -168,11 +168,11 @@ The following table lists proposals for possible such identifications. The conte
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
 | vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
-| being-for-self | [[reduction modality]] $\Re$ |  |
-| being-for-one | [[infinitesimal shape modality]] $&#643;_{inf}$ |  |
-| ideality (inf. quality) | [[adjoint modality]] ($&#643;_{inf} \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
-| Aufhebung of finiteness | $\left(\array{&#643;_{inf} &\dashv& \Im \\ \vee && \vee \\ #643;_{inf} &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
-| reality | [[adjoint modality]] ($&#643;_{inf} \dashv \Im$) | [&#167;304](#304) , [&#167;305](#305) |
+| being-for-one | [[infinitesimal flat modality]] $\Im$ | [&#167;322](#322) |
+| being-for-self | [[infinitesimal shape modality]] $&#643;_{inf}$ | [&#167;305](#305) |
+| ideality (inf. quality) | [[unity of opposites]] ($&#643;_{inf} \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
+| Aufhebung of finiteness | $\left(\array{&#643;_{inf} &\dashv& \Im \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
+| reality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;304](#304) , [&#167;305](#305) |
 | idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
@@ -242,12 +242,13 @@ $$
     \\
     && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
     \\
-    && && &&\stackrel{Fuersichsein}{}&& &#643;_{inf} 
-    &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im
+    && && &&\stackrel{Fuersichsein}{} && &#643;_{inf} 
+    &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im &&\stackrel{Fuer-eines-sein}{}
     \\
     && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
     \\
-    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{} & 
+    \stackrel{Sein-fuer-Anderes}{}
     \\
     && && &&&& \bot &\stackrel{Eichmass}{}& \bot 
     \\
@@ -628,7 +629,7 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
-> {221} &#167;221 Seyn-f&#252;r-Anderes und Ansichseyn machen die zwei Momente des Etwas aus.
+> {#221} &#167;221 Seyn-f&#252;r-Anderes und Ansichseyn machen die zwei Momente des Etwas aus.
 
 > &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
 
@@ -697,15 +698,29 @@ in [&#167;305](#305)  as the [[unity of opposites]] which is expressed by the [[
 
 $$
   \array{
-    {ideality/ \atop {inf.\,quality}} & \colon&  &#643;_{inf} &\dashv& \Im
+    & &  &#643;_{inf} &\stackrel{ideality}{\stackrel{inf\, quality}{\dashv}}& \Im
     \\
     && \vee && \vee
     \\
-    quality &\colon&  &#643; &\dashv& \flat
+    &&  &#643; &\stackrel{quality}{\dashv}& \flat
   }
 $$
 
-as part of the [Proce&#223;](#Process). In fact, this provides [[Aufhebung]] for quality, as indicated, which we may read as the Aufhebung of the finite as it passes into the infinite (which we read as expressed via the infinitesimal). 
+as part of the [Proce&#223;](#Process). From [&#167;322](#322) we see what the moments here are to be called:
+
+$$
+  \array{
+    & \text{being-for-self} &  &#643;_{inf} &\stackrel{ideality /}{\stackrel{inf.\, quality}{\dashv}}& \Im & \text{being-for-one}
+    \\
+    && \vee && \vee
+    \\
+    & attraction &  &#643; &\stackrel{quality}{\dashv}& \flat & repulsion
+  }
+$$
+
+
+
+In fact, this provides [[Aufhebung]] for quality, as indicated, which we may read as the Aufhebung of the finite as it passes into the infinite (which we read as expressed via the infinitesimal). 
 
 
 Moreover, this extends to an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \Im$, with the [[reduction modality]] $\Re$ (from the discussion below [&#167;304](#304)) on the left
@@ -728,7 +743,7 @@ Now by [&#167;324](#324) the opposite moment of ideality is indeed supposed to b
 
 $$
   \array{
-    && \Re &\stackre{reality}{\dashv}& &#643;_{inf}
+    && \Re &\stackrel{reality}{\dashv}& &#643;_{inf}
     \\
     && \bot && \bot
     \\
@@ -748,7 +763,7 @@ $$
 
 makes good sense. 
 
-Notice that -- and this is of course precisely what the second-order duality with $ideality \colon &#643;_{inf} \dashv \Im $ expresses -- while this is all about reality, in the above sense, it is so only _via_ ideal (ideelle) infinitesimals. This is of course in a way just the big insight of [[Leibniz]] when formulating [[differential calculus]] in terms of infinitesimals (today: [[syntehtic differential geometry]]): in order to express the physical _reality_ that is described, notably, by [[differential equations]], it is most useful to consider the idealized concept of infinitesimals, itself without reality, but nevertheless serving to characterize reality. 
+Notice that -- and this is of course precisely what the second-order duality with $ideality \colon &#643;_{inf} \dashv \Im $ expresses -- while this is all about reality, in the above sense, it is so only _via_ ideal (ideelle) infinitesimals. This is of course in a way just the big insight of [[Leibniz]] when formulating [[differential calculus]] in terms of infinitesimals (today: [[synthetic differential geometry]]): in order to express the physical _reality_ that is described, notably, by [[differential equations]], it is most useful to consider the idealized concept of infinitesimals, itself without reality, but nevertheless serving to characterize reality. 
 
 The view that the concept of [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
 
@@ -779,7 +794,7 @@ $$
   \array{
      & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  &#643;_{inf}
     \\    
-    && \bot && \bot
+    && \bot &\stackrel{Idee}{}& \bot
     \\
     & &  &#643;_{inf} &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}&   
     \Im
@@ -852,9 +867,43 @@ $$
 
 > &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
 
-###### b. Sein-f&#252;r-Eines / Being-for-one
+###### b. Seyn-f&#252;r-eines / Being-for-one
 
-> {#322} &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
+> {#322} &#167;322  Seyn-f&#252;r-eines -- Die&#223; Moment dr&#252;ckt aus, wie das Endliche in seiner Einheit mit dem Unendlichen oder als Ideelles ist.
+
+> F&#252;r-sich-seyn und F&#252;r-Eines-seyn sind also nicht verschiedene Bedeutungen der Idealit&#228;t, sondern sind wesentliche, untrennbare Momente derselben.
+
+> &#167;322 Being-for-one -- This moment expresses the manner in which the finite is present in its unity with the infinite, or is an ideal being [Ideelles].
+
+> &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
+
+By the discussion below [&#167;305](#305) the inclusion of [[flat modality|flat modal]] types into [[infinitesimal flat modality|infinitesimal flat modality]] [[modal types]]
+
+$$
+  \array{
+    \Im
+    \\
+    \vee
+    \\
+    \flat
+  }
+$$
+
+reflects the [[Aufhebung]] which is the passage from the finite to the infinitesimal.
+
+So we may pronounce, in the [Proce&#223;](#Process) the [[infinitesimal flat modality]] as _Seyn-fuer-eines_, _being-for-one_.
+
+
+
+Below [&#167;305](#305) we find the [[adjunction]] which plausibly captures the [[unity of opposites]] called ideality, and hence by [&#167;322](#322) what its moments are to be called. 
+
+$$
+  \array{
+    Fuersichsein & &#643;_{inf} &\stackrel{Idealitaet}{\dashv}& \Im & Fuereinssein
+  }
+$$
+
+See also the discussion below [&#167;348](#348) 
 
 
 ###### Anmerkung
@@ -947,7 +996,7 @@ $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 ###### $\;\;$ Remark: The Monad of Leibniz
  {#TheMonadOfLeibniz}
 
-> &#167;348 We have previously referred to the [[Gottfried Leibniz|Leibnizian]] idealism. We may add here that this idealism which started from the ideating [[monad (disambiguation)|monad]], which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
+> {#348} &#167;348 We have previously referred to the [[Gottfried Leibniz|Leibnizian]] idealism. We may add here that this idealism which started from the ideating [[monad (disambiguation)|monad]], which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
 
   The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self. 
 
