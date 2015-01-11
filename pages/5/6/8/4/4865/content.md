@@ -168,6 +168,12 @@ And it seems that this is the same term later also redicovered around equation (
 
 * E. Cremmer, [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_ Phys. Lett. 76B (1978) 409
 
+Formulation in terms of [[supergeometry]] is in 
+
+* {#Cremmerferrara80} E. Cremmer, S. Ferrara, _Formulation of Eleven-Dimensional Supergravity in Superspace_, Phys.Lett. B91 (1980) 61
+
+* [[Lars Brink]], [[Paul Howe]], _Eleven-Dimensional Supergravity on the Mass-Shell in Superspace_, Phys.Lett. B91 (1980) 384
+
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
@@ -224,13 +230,13 @@ Discussin of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] in
 
 See also the relevant references at _[[M5-brane]]_.
 
-* [[Dan Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
+* [[Danile Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
 
 * Adel Bilal, Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_ ([arXiv:hep-th/0307152](http://arxiv.org/abs/hep-th/0307152))
 
 
 ### Description by exceptional generalized geometry
 
-* Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+* Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
 [[!redirects 11d supergravity]]
