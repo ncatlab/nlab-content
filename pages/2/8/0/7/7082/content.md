@@ -42,10 +42,13 @@ $$
   f \colon A \to B, b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)
 $$
 
-and 
+and the [[proposition]] that the homotopy fiber is a (dependently) [[contractible type]]:
 
 $$
-  f \colon A \to B \vdash isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))
+  f \colon A \to B 
+   \vdash 
+   isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))
+  \,.
 $$
 
 We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
