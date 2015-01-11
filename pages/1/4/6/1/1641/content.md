@@ -116,6 +116,9 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 
 *  If $X$ is a [[regular monomorphism|regular]] [[subobject|subalgebra]] of some $U(S)$, then the inclusion homomorphism makes $X$ into a _[[subspace]]_ of $S$, which is also a subobject in $C$.  Every regular subobject of $S$ is of this form; note however that there may be nonregular subobjects in $C$ even if all subobjects in $D$ are regular.
 
+## Familiarly fibrations
+
+Topological functors can be developed along the lines of Grothendieck theory of fibrations, where  _cartesian morphisms_  are reeplaced by  _cartesian families_. In this way just as by definition  "A functor is a _fibration_ if it creates cartesian morphisms and cartesian morphism compose", there is the definition "A functor is _topological_  if it creates cartesian families and cartesian families compose". 
 
 ## References
 
@@ -127,6 +130,9 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 * Gerhard Preuss; 2002; _Foundations of Topology: An Approach to Convenient Topology_; Kluwer ISBN 1-4020-0891-0.
 
 * [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)
+
+* Eduardo J. Dubuc, Luis Espa\~nol, *Topological functors as familiarly fibrations* 
+arXiv:math/0611701v1 [math.CT] (2006)
 
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
