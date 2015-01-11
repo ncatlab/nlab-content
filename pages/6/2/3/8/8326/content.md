@@ -184,7 +184,7 @@ The following table lists proposals for possible such identifications. The conte
 | necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] |  |
 | absolute actuality/Wirklichkeit, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
-| essence as infinite return-into-self | hierarchy of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
+| essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
 | everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
 | absoluter Widerspruch / absolute contradiction  |  [[adjoint modality]] ([[false]] $\dashv$ [[true]]) = ($\emptyset \dashv \ast$) | [&#167;931](#931)  [&#167;934](#934) |
@@ -1475,7 +1475,7 @@ The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) stat
 
 (Indeed, [&#167;850](#850) below highlights that "Reflexion" here does _not_ mean the usual "to reflect on a topic" (but means "Reflexion &#252;berhaupt", for what it's worth).)
 
-There is of course not just one [[object classifier]]/[[type of types]] but a hierarchy of them (see also at _[[universe polymorphism]]_)
+There is of course not just one [[object classifier]]/[[type of types]] but a [[universe enlargement|cumulative hierarchy]] of them (see also at _[[universe polymorphism]]_)
 
 $$
   Type_1 \subset Type_2 \subset Type_3 \subset Type_4 \subset \cdots
