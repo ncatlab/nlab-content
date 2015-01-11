@@ -47,6 +47,54 @@ $$
 
 Since in the effective theory around $\phi_0$ the [[vacuum]] state where all the $\delta \phi$ have no excitations (or rather: are in their ground state) corresponds to $\phi_0$ itself one says in this context that _a quantum theory exhibits spontaneouly broken symmetry if its vacuum state is not invariant under the pertinent symmetries_ .
 
+## Formalization in cohesive homotopy-type theory
+ {#FormalizaitonInCohesion}
+
+We indicate the formalization of the concept in the axiomatics of [[cohesion]].
+
+Let $\mathbb{G}$ be a cohesive [[abelian infinity-group]] (for instance $\mathbb{G}$ the [[circle group]] $U(1)$ in [[smooth infinity-groupoid|smooth cohesion]]).
+
+Then a [[prequantum line bundle]] on a [[phase space]] $P$ is given by a [[modulating morphism]]
+
+$$
+  P \longrightarrow \mathbf{B}\mathbb{G}_{conn}
+$$
+
+to the [[moduli stack]] $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal connections]].
+
+A symmetry of the theory means that there is a cohesive [[infinity-group]] $G$ [[infinity-action|infinity-acting]] on $P$ such that the prequantum bundle descends to the [[homotopy quotient]]
+
+$$
+  \array{
+     P  &\longrightarrow& \mathbf{B}\mathbb{G}_{conn}
+     \\
+     \downarrow & \nearrow
+     \\
+     P/G
+   }
+$$
+
+Now given an [[infinity-action]] of $\mathbb{G}$ on some $V$ (take $\mathbb{G} = U(1)$ and $V = \mathbb{C}$ for traditional quantum mechanics) then a [[quantum state]] (a [[wavefunction]]) is a [[section]] of the [[associated infinity-bundle]], hence a diagram of the form
+
+$$
+   \array{
+         P &\stackrel{\Psi}{\longrightarrow}& V/\mathbb{G}
+         \\
+         \downarrow &\swArrow_{\simeq}& \downarrow
+         \\
+         \mathbf{B}\mathbb{G}_{conn}
+         &\longrightarrow&
+         \mathbf{B}\mathbb{G}
+    }
+$$
+
+So this is something defined on phase space $P$. If that also descends to the [[homotopy quotient]] $P/G$ (this is hard to draw here, but should be clear) then that makes the wavefunction also $G$-equivariant. If not, then the wavefunction $\Psi$ "breaks" the $G$-symmetry.
+
+Now if on top of this we have that the given $\Psi$ is a "ground state", then if it does not descend to the homotopy quotient we say "the $G$-symmetry is spontaneously broken".
+
+To axiomatize what "ground state" means: introduce another $\mathbb{R}$-action on $P$ which is a [[Hamiltonian action]], i.e. with respect to which the prequantum bundle is required to be equivariant. Then ask $\Psi$ to  (be [[polarization|polarized]] and) be a minimal eigenstate of the respective Hamiltonian. That makes it a "ground state".
+
+For more on the general translation between traditional [[geometric quantization]] and [[cohesion|cohesive]] homotopy theory see at _[[schreiber:Higher geometric prequantum theory]]_.
 
 ## Examples
 
