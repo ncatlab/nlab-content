@@ -1,5 +1,5 @@
 
-> this page is to eventually collect material on [[Hegel]]'s "Philosophy of Nature" 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,7 +15,29 @@
 =--
 =--
 
-([English hypertext version](https://www.marxists.org/reference/archive/hegel/works/na/naconten.htm))
+
+this page is to eventually collect material on 
+
+* {#EPSBOI} [[Georg Hegel]], 
+
+  _Philosophie der Natur_  
+
+  in 
+
+  _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ 
+
+  (1830) 
+
+  in W. Bonsiepen und H.-C. Lucas (eds.), _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) 
+
+  ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
+
+on, roughly, [[natural philosophy]]. For the moment see at 
+
+* _[Science of Logic -- Philosophy of Nature](Science+of+Logic#PhilosophyOfNature)_.
+
+
+## Some material...
 
 > {#202} &#167;202 Other mathematical determinations, such as infinity and its relationships, the infinitesimal, factors, powers, and so on, have their true concepts in philosophy itself. It is awkward to want to take and derive these from mathematics, where they are employed in a nonconceptual, often meaningless way; rather, they must await their justification and significance from philosophy. 
 
