@@ -68,9 +68,9 @@ $$\frac{A:U}{El(A)\;type}$$
 
 We usually also have operations on the universe corresponding to (but not identical to) type formers, such as
 
-$$\frac{A:U\quad B:A\to U}{pi(A, B) : U}$$
+$$\frac{A:U\quad B:A\to U}{\pi(A, B) : U}$$
 
-with an [[equality]] $El(pi(A,B))=\Pi \, El(A)\, El(B)$. Usually this latter equality (and those for other type formers) is a [[judgmental equality]]. If it is only an [[equivalence in homotopy type theory|equivalence]] (i.e. we have a rule which gives us a canonical term of the equivalence type), we may speak of a **weakly &#224; la Tarski universe** ([Gallozzi 14, p. 49-50](#Gallozzi14)).
+with an [[equality]] $El(\pi(A,B))=\Pi \, El(A)\, El(B)$. Usually this latter equality (and those for other type formers) is a [[judgmental equality]]. If it is only an [[equivalence in homotopy type theory|equivalence]] (i.e. we have a rule which gives us a canonical term of the equivalence type), we may speak of a **weakly &#224; la Tarski universe** ([Gallozzi 14, p. 49-50](#Gallozzi14)).
 
 We can give a slightly different definition of weakly &#224; la Tarski universe using [[propositional equality]] and a larger universe. More precisely, we can consider two (or many) universes $U$ and $U'$ with the usual rules for the relative reflection $el(a):U'$ for any $a:U$, a choice of weakly or strongly a la Tarski computational rules for the reflections $El$ and $El'$, and a computation rule for the relative reflection el of $U$ inside $U'$ based on propositional equality, which gives us canonical elements of the identity types $Id_{U'}(\pi'(el(a),el(b)),el(\pi(a,b)))$ and similarly for the other type formers.
 
