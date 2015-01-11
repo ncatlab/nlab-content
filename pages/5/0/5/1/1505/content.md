@@ -1,4 +1,4 @@
-<div style="right;margin:0 20px 10px 20px;"><img width = "350" src="http://owpdb.mfo.de/photoNormal?id=7420" alt="Gabriele Vezzosi and Bertrand Toen" /></div>
+<div style="float: right;margin:0 20px 10px 20px;"><img width = "350" src="http://owpdb.mfo.de/photoNormal?id=7420" alt="Gabriele Vezzosi and Bertrand Toen" /></div>
 
 Bertrand To&euml;n is a mathematician at Universit&#233; Paul Sabatier in Toulouse.
 
