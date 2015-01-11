@@ -756,12 +756,12 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 The original articles that introduced specifically the D'Auria-Fr&#233;-formalism are
 
-* [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
-  {#DAuriaFre80}
+* {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
+  
 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]] _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
-{#DAuriaFre} 
+* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+
 
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
@@ -772,14 +772,14 @@ At the time of this writing the book is out of print and unavailable from booksh
 
 The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]] is in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+* {#SSS} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
- {#SSS}
+ 
 
 The [[Lie integration]] of that to genuine [[principal ∞-connections]] is in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:?ech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
-  {#FiorenzaSchreiberStasheff10}
+* {#FiorenzaSchreiberStasheff10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:?ech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+  
 
 The [[super L-∞ algebras]] that govern the construction are interpreted in the [[higher gauge theory]] of an [[schreiber:∞-Wess-Zumino-Witten theory]] description of the [[Green-Schwarz sigma-model]]-type $p$-[[branes]] in
 
