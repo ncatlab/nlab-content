@@ -1315,6 +1315,9 @@ $$
 
 See the _[Proce&#223;](#Process)_ diagram.
 
+Notice that in [PN&#167;202b](#PN202b) it says 
+
+> The truly philosophical science of mathematics as theory of magnitude would be the science of measures, but this already presupposes the real particularity of things, which is only at hand in concrete nature.
 
 > {##703} &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
 
@@ -2030,33 +2033,47 @@ But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin d
 
 (Notice that it is _Realit&#228;t_ [&#167;304](#304), [&#167;305](#305) which appears here, not _Wirklichkeit_ (_actuality_) as in [&#167;1160](#1160).)
 
+Now that the Idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)). The _[shorter Logic](#EPSBOI)_ ends with:
+
+>  {#EL244} EL&#167;244 Die Idee, welche f&#252;r sich ist, nach dieser ihrer Einheit mit sich betrachtet, ist sie Anschauen, und die anschauende Idee Natur. Als Anschauen aber ist die Idee in einseitiger Bestimmung der Unmittelbarkeit oder Negation durch &#228;u&#223;erliche Reflexion gesetzt. Die absolute Freiheit der Idee aber ist, da&#223; sie nicht blo&#223; ins Leben &#252;bergeht, noch als endliches Erkennen dasselbe in sich scheinen l&#228;&#223;t, sondern in der absoluten Wahrheit ihrer selbst sich entschlie&#223;t, das Moment ihrer Besonderheit oder des ersten Bestimmens und Andersseins, die unmittelbare Idee als ihren Widerschein, sich als Natur frei aus sich zu entlassen.
+
 
 ## **Philosophy of Nature**
  {#PhilosophyOfNature}
 
-Now that the idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)):
+The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_.
+
+It starts continuing from [EL&#167;244](#EL244):
 
 > {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben. [...]  die &#196;u&#223;erlichkeit macht die Bestimmung aus, in welcher [die Idee] als Natur ist.
 
 > PN&#167;192 Nature has come into being as the idea in the form of otherness".
 
-Here _the Idea_ is, by [&#167;1636](#1636), the unity of concept and reality, or of ideality and reality. 
-
 Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).
 
 
-> &#167;193 Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
+> PN&#167;193a Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
 
-> Weil sie jedoch, [ ... ] Darstellung der Idee ist, 
-
-> &#167; 193. Hence nature exhibits no freedom in its existence, but only necessity and contingency.
-
-> But because, even in this element, nature is a representation of the idea, 
-
-[[model]] of the [[theory]]
+> PN&#167;193a Hence nature exhibits no freedom in its existence, but only necessity and contingency.
 
 
-> &#167;195. Nature is, in itself a living whole. The movement of its idea through its sequence of stages is more precisely this: the idea posits itself as that which it is in itself; or, what is the same thing, it goes into itself out of that immediacy and externality which is death in order to go into itself; yet further, it suspends this determinacy of the idea, in which it is only life, and becomes spirit, which is its truth.
+> PN&#167;193b Weil sie jedoch, [ $\cdots$ ] Darstellung der Idee ist, 
+
+> PN&#167;193b [ $\cdots$ ] nature is a representation of the idea, 
+
+Darstellung/representation: [[model]] of the [[theory]]
+
+
+> PN&#167;195. Nature is, in itself a living whole. The movement of its idea through its sequence of stages is more precisely this: the idea posits itself as that which it is in itself; or, what is the same thing, it goes into itself out of that immediacy and externality which is death in order to go into itself; yet further, it suspends this determinacy of the idea, in which it is only life, and becomes spirit, which is its truth.
+
+
+> {#PN202a} PN&#167;202a Other mathematical determinations, such as infinity and its relationships, the infinitesimal, factors, powers, and so on, have their true concepts in philosophy itself. It is awkward to want to take and derive these from mathematics, where they are employed in a nonconceptual, often meaningless way; rather, they must await their justification and significance from philosophy. 
+
+On the importance of the discussion of _Measure_ [above](#TheMeasure) in the passage to nature:
+
+> {#PN202b} PN&#167;202b The truly philosophical science of mathematics as theory of magnitude would be the science of measures, but this already presupposes the real particularity of things, which is only at hand in concrete nature.
+
+The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
