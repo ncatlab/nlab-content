@@ -1,4 +1,4 @@
 
-* [webpage](http://www.math.ku.dk/~xvd217/)
+* [webpage](http://www.math.ntnu.no/~markussz)
 
 category: people
