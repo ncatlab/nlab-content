@@ -472,7 +472,7 @@ and for GS sigma-model [[D-branes]] in
 
 That the supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the GS-string on that background being consistent was then claimed in
 
-* [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987
+* [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
 
 
 That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87))
