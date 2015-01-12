@@ -56,7 +56,7 @@ $$
 
 for the subset of the set of [[differential 3-forms]] on those that, as [[sections]] to the exterior power of the [[cotangent bundle]], are pointwise in $\Lambda^3_+(\mathbb{R}^7)^\ast$. 
 
-These are also called the _definite forms_ on $X$.
+These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the _definite forms_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
 
 =--
 
@@ -70,7 +70,7 @@ a choice of definite 3-form $\sigma$ on $X$, def. \ref{Definite3Forms}.
 
 =--
 
-(e.g. [Bryant 05, section 3.1.1](#Bryant05))
+(e.g. [Joyce 00, p. 243](Joyce00), [Bryant 05, section 3.1.1](#Bryant05))
 
 The following is important for the analysis:
 
@@ -81,7 +81,7 @@ The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^
 
 =--
 
-(e.g. [Bryant 05, 2.8](#Bryant05))
+(e.g. [Joyce 00, p. 243](#Joyce00), [Bryant 05, 2.8](#Bryant05))
 
 
 ### Closed $G_2$-structure
@@ -141,6 +141,8 @@ $$
 where $\flat_{dR}\mathbf{B}^3\mathbb{R}$ is the [[moduli infinity-stack|higher moduli stack]] of flat 3-forms with 2-form gauge transformations between them (and 1-form gauge transformation between these). The diagram expresses the 3-form $\sigma$ as a map to this moduli stack, which when restricted to the cover $U$ becomes gauge equivalent to the pullback of the [[associative 3-form]] $\phi$, similarly regarded as a map, to the cover, where the gauge equivalence is exhibited by a [[homotopy]]  (of maps of formal smooth $\infty$-groupoids) which is the 2-form $\beta$ on $U$.
 
 =--
+
+Since the GL-transformations in questions define a [[vielbein]] field $E$, one may also ask for $\sigma$ to be locally of the form $\phi_{a_1 a_2 a_3}E^{a_1}\wedge E^{a_2}\wedge E^{a_3}$ (...) (e.g. [BGGG 01 (2.9)](#BGGG01))
 
 
 ### $G_2$-holonomy
@@ -245,7 +247,7 @@ Non-compact $G_2$-manifolds were constructed in
 
 * {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
  
-* [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+* {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
 Surveys include
 
@@ -278,6 +280,10 @@ The following references discuss the role of $G_2$-manifolds in [[M-theory on G2
 A survey of the corresponding [[string phenomenology]] for [[M-theory on G2-manifolds]] (see there for more) is in
 
 * [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
+
+See also
+
+* {#BGGG01} Andreas Brandhuber, Jaume Gomis, Steven S. Gubser, [[Sergei Gukov]], _Gauge Theory at Large N and New G_2 Holonomy Metrics_, Nucl.Phys. B611 (2001) 179-204 ([arXiv:hep-th/0106034](http://arxiv.org/abs/hep-th/0106034))
 
 Weak $G_2$-holonomy is discussed in
 
