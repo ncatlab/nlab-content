@@ -83,6 +83,12 @@ The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^
 
 (e.g. [Joyce 00, p. 243](#Joyce00), [Bryant 05, 2.8](#Bryant05))
 
++-- {: .proof}
+###### Proof
+
+By definition of $G_2$ as the [[stabilizer group]] of the [[associative 3-form]], the [[orbit]] it generates under the $GL_+(7)$-action is the [[coset]] $GL_+(7)/G_2$. The [[dimension]] of this as a [[smooth manifold]] is 49-14 = 35. This is however already the full dimension $\left(7 \atop 3\right) = 35$ of the space of 3-forms in 7d that the orbit sits in. Therefore (since $G_+(7)/G_2$ does not have a [[manifold with boundary|boundary]]) the orbit must be an open subset.
+
+=--
 
 ### Closed $G_2$-structure
  {#ClosedG2Structure}
