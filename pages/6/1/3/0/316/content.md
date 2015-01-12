@@ -1,4 +1,6 @@
 
+> This entry is mostly about cones in [[homotopy theory]] and [[category theory]]. For more geometric cones see at _[[cone (Riemannian geometry)]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,7 +16,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
