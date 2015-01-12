@@ -72,6 +72,8 @@ the addition of [[Wilson lines]] and a final breakdown of $D = 4$, $N = 1$ super
 
 See at _[References - Models in heterotic string theory](#ReferencesHeteroticModels)_
 
+The lift of these heterotic CY3-compactifications to [[M-theory]] is _[[M-theory on G2-manifolds]]_, discussed [below](#ModelsInMTheory).
+
 ### Models in type II string theory / F-theory
  {#ModelsInTypeIIWithIntersectingBranes}
 
@@ -93,7 +95,7 @@ For references see below at _[References - Models in type II string theory](#Ref
 ### Models in M-theory
  {#ModelsInMTheory}
 
-Another approach is to start with [[11-dimensional supergravity]] with some of its "[[M-theory]]"-corrections taken into account and then apply [[Kaluza-Klein compactification]] in that context. If one again aims for an [[MSSM]]-type of standard model then the analog of the condition that the 6d compact space is a [[Calabi-Yau manifold]] now is that it is a [[G-manifold]] of dimension 7.
+The lift of the [heterotic models](#HeteroticStandardModels) compactified on [[Calabi-Yau manifolds]] to  [[11-dimensional supergravity]] with some of its "[[M-theory]]"-corrections taken into account is _[[M-theory on G2-manifolds]], hence M-theory  [[Kaluza-Klein compactification|KK-compactified]] on [[G2-manifolds]] (or rather: [[orbifolds]]) of, necessarily, [[dimension]] 7. 
 
 Accordingly, models in this context go by the name _[[G2-MSSM]]_.
 
