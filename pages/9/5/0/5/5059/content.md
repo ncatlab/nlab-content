@@ -222,7 +222,7 @@ $$
 ### Siegel- or $\kappa$-symmetry
  {#KappaSymmetry}
 
-The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)).
+The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)). Discussion from the point of view of the [[D'Auria-Fré formulation of supergravity]] is in ([Fr&#233;-Grassi 07, section 2.2](#FreGrassi07)).
 
 ### Dimensions -- the brane scan
  {#BraneScan}
@@ -537,7 +537,7 @@ Discussion also including the [[RR-field]] background includes
 
 ### Symmetries
 
-That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals should have "higher" extended symmetry algebras in some sense... is observes in 
+That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals should have "higher" extended symmetry algebras in some sense... is observed in 
 
 * [[José de Azcárraga]], Jerome P. Gauntlett, J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([web](http://inspirehep.net/record/26393?ln=en))
 
@@ -561,6 +561,9 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 
 * {#GKW} [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
  
+Discussion from the point of view of [[D'Auria-Fré formulation of supergravity]] is in 
+
+* {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl.Phys.B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
 ### Open branes ending on other branes
 
