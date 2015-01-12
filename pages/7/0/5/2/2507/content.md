@@ -109,10 +109,10 @@ $$
 =--
 
 
-+-- {: .num_remark }
++-- {: .num_remark #Supertorsion}
 ###### Remark
 
-The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *supertorsion* of the supervielbein $e$, because the defining equation
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the supervielbein $e$, because the defining equation
 
 $$
   d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
