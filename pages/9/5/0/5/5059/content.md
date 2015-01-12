@@ -312,7 +312,7 @@ find that consistency requires that (in a given [[coordinate chart]] with super-
 
 where the first term is super-Lie algebra cocycle that classifies the [[supergravity Lie 3-algebra]] and the second is the [[field strength]] of the [[supergravity C-field]] proper (hence a purely bosonic differential form).  
 
-Moreover the [[supertorsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(Gamma^a)^\alpha{}_\beta$.
+Moreover the [[supertorsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(\Gamma^a)^\alpha{}_\beta$.
 
 In addition the [[Bianchi identities]] have to hold:
 
