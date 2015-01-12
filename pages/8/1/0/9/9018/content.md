@@ -24,7 +24,7 @@
 
 ## Idea
 
-The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]].
+The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_).
 
 Specifically for discussion of obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
@@ -64,7 +64,7 @@ for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02
 
 ### Singularities
 
-For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Achary 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
+For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[conical singularities]] and [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Achary 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
 
 ## Related concepts
 
@@ -85,7 +85,7 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 ## References
 
 
-* [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([pdf](http://www.intlpress.com/journals/ATMP/archive/2002/6-1-1.pdf))
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
 * [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and C.N. Pope, _Supersymmetric M3-branes and G2 Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
 
