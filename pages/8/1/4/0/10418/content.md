@@ -76,7 +76,7 @@ For instance
 
 * a $GL(n,\mathbb{C}) \to GL(2n,\mathbb{R})$-[[G-structure|structure]] is an _[[almost complex structure]]_ and the integrability condition makes it a genuine [[complex structure]].
 
-* a $Sp(n) \hookrightarrow GL(2n)$-[[G-structure|structure]] is an _[[almost symplectic structure]]_ and the integrability condition makes it a genuine [[symplectic structure]].
+* a $Sp(n) \hookrightarrow GL(2n)$-[[G-structure|structure]] is an _[[almost symplectic structure]]_ and the integrability condition makes it a genuine [[symplectic structure]]. This follows from [[Darboux's theorem]] (e.g. [Pasquotto, theorem 2.41](#Pasquotto)).
 
 ## Properties
 
@@ -91,6 +91,10 @@ The [[obstruction]] for a $G$-structure to be integrable to first order is its [
 * {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
 
 * {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
+
+Lecture notes include
+
+* {#Pasquotto} Federica Pasquotto, _Linear $G$-structures by example_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf))
 
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
