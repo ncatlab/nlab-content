@@ -10,3 +10,4 @@
 * [[Galois topos]]
 
 category: people
+[[!redirects Eduardo J. Dubuc]]
