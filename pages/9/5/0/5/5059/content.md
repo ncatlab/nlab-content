@@ -503,7 +503,7 @@ and the computation there was highlighted and a little simplified around p. 17 o
 
 * [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986) ([spire](http://inspirehep.net/record/214192/?ln=en))
 
-A more comprehensive result arguin that the heterotic supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the heterotic GS-string on that background being consistent was then claimed in
+A more comprehensive result arguing that the heterotic supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the heterotic GS-string on that background being consistent was then claimed in
 
 * {#ShapiroTaylor87} [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
 
@@ -521,7 +521,7 @@ and for GS sigma-model [[D-branes]] in
 
 
 
-That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87))
+That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)).
 
 The role of the 4-form here is also amplified around (2.29) in 
 
@@ -535,9 +535,9 @@ following
 
 * {#OvrutWaldram97} [[Burt Ovrut]], [[Daniel Waldram]], _Membranes and Three-form Supergravity_, Nucl.Phys. B506 (1997) 236-266 ([arXiv:hep-th/9704045](http://arxiv.org/abs/hep-th/9704045))
 
-All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", see at _[[D'Auria-Fré formulation of supergravity]]_.
+All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", of the _[[D'Auria-Fré formulation of supergravity]]_, this is discussed in ([AFFFTT 98, section 3.1](#AFFFTT98), [Fr&#233;-Grassi 07](#FreGrassi07)).
 
-Discussion also including the [[RR-field]] background includes
+Discussion including also the [[RR-field]] background includes
 
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
@@ -573,6 +573,9 @@ Discussion from the point of view of [[D'Auria-Fré formulation of supergravity]
 * {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194,1999, ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl.Phys.B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
+
+AFFFTT98
+FreGrassi07
 
 ### Open branes ending on other branes
 
