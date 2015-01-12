@@ -318,15 +318,19 @@ In addition the [[Bianchi identities]] have to hold:
 
 * $D T^A = E^B \wedge R_{B}{}^{A}$
 
-* D H = 0 ([[covariant derivative|covariant constancy]]).
+* $D H = 0$ ([[covariant derivative|covariant constancy]]).
 
-ALl this is supposed to be implied by the [[equations of motion]] of [[11-dimensional supergravity]].
+All this is supposed to be implied by the [[equations of motion]] of [[11-dimensional supergravity]].
   
 Notice that (eq:HConstraintEquationForMembraneIn11d) is directly analous to the  [chart-wise characterization of closed G2-structure](G2+manifold#ClosedG2StructureByAtlas).
+
+Discussion of this in the somewhat more streamlined [[D'Auria-Fré formulation of supergravity]] is in ([AFFFTT 98, section 3.1](#AFFFTT98)).
 
 #### Heterotic string
 
 Discussion that for the GS-version of the [[heterotic string]] consistency of the background is equivalent to the equations of motion of [[heterotic supergravity]] is in  ([Shapiro-Taylor 87](#ShapiroTaylor87)).
+
+Discussion with the hetetoric gauge field included is in ([Atick-Dhar-Ratra 86](#AtickDharRatra86)).
 
 
 #### Type II string
@@ -431,7 +435,7 @@ More along these lines is in
 
 The Green-Schwarz-type action for the [[M5-brane]] was found in 
 
-* {#BLNPST} Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+* {#BLNPST} [[Igor Bandos]], Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
  
 
 * {#APPS} Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
@@ -441,7 +445,7 @@ The 7-cocycle on the [[supergravity Lie 3-algebra]] which gives the [[supergravi
 
 See also
 
-* {#BPST} Igor Bandos, Paolo Pasti, Dmitri Sorokin, Mario Tonin, _Superbrane Actions and Geometrical Approach_ ([arXiv:hep-th/9705064](http://arxiv.org/abs/hep-th/9705064))
+* {#BPST} [[Igor Bandos]], Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Superbrane Actions and Geometrical Approach_ ([arXiv:hep-th/9705064](http://arxiv.org/abs/hep-th/9705064))
  
 
 The 7-cocycle for the M5-brane on the [[supergravity Lie 3-algebra]] is equation (8.8) there.
@@ -503,6 +507,9 @@ A more comprehensive result arguin that the heterotic supergravity equations of 
 
 * {#ShapiroTaylor87} [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
 
+Discussion of this with the heterotic gauge-field included (hence including the [[Green-Schwarz anomaly cancellation]]) is in 
+
+* {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, Bharat Ratra, _Superspace Formulation of Ten-dimensional $N=1$ Supergravity Coupled to $N=1$ Superyang-mills Theory_, Phys.Rev. D33 (1986) 2824 ([spire](https://inspirehep.net/record/219734), [pdf](http://www-lib.kek.jp/cgi-bin/img_index?8602074))
 
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
@@ -562,6 +569,8 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 * {#GKW} [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
  
 Discussion from the point of view of [[D'Auria-Fré formulation of supergravity]] is in 
+
+* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194,1999, ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl.Phys.B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
