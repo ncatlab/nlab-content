@@ -33,13 +33,14 @@ Suppose $f\colon X \to Y$ is a [[quasi-compact map|quasi-compact]] and [[quasi-s
 ## Dualizing Complexes
 
 Let $X$ be a noetherian scheme. A dualizing complex on $X$ is a complex 
-$R \in \mathsf{D}(\mathsf{Mod} X)$ that has these three properties:
+$\mathcal{R} \in \mathsf{D}(\mathsf{Mod} X)$ that has these three properties:
 
-* $R \in \mathsf{D}^{\mathrm{b}}_{\mathrm{c}}(\mathsf{Mod} X)$ (i.e. $R$ has bounded coherent cohomology sheaves).
+* $\mathcal{R} \in \mathsf{D}^{\mathrm{b}}_{\mathrm{c}}(\mathsf{Mod} X)$ (i.e. $\mathcal{R}$ has bounded coherent cohomology sheaves).
 
-* $R$ has finite injective dimension. 
+* $\mathcal{R}$ has finite injective dimension. 
 
-* The canonical morphism $\mathcal{O}_X \to \mathrm{R} Hom_{X}(R, R)$ 
+* The canonical morphism 
+$\mathcal{O}_X \to \mathrm{R} \mathcal{Hom}_{X}(\mathcal{R}, \mathcal{R})$ 
 in $\mathsf{D}(\mathsf{Mod} X)$ is an isomorphism. 
 
 The following two structures are basically equivalent to each other, for a given category of noetherian schemes $\mathsf{S}$:
@@ -51,7 +52,7 @@ that assigns a functor
 to each map of schemes $f : X \to Y$ in $\mathsf{S}$, 
 and has several known properties.
 
-* A dualizing complex $R_X$ for every scheme $X$ in the category 
+* A dualizing complex $\mathcal{R}_X$ for every scheme $X$ in the category 
 $\mathsf{S}$, with several known functorial properties. 
 
 The relation between these two structures is demonstrated in the following Example. 
@@ -61,16 +62,16 @@ The relation between these two structures is demonstrated in the following Examp
 Suppose $K$ is a regular finite dimensional noetherian ring, and let $\mathsf{S}$ be the category of finite type $K$-schemes. 
 Given a twisted inverse image psudofunctor $f \mapsto f^!$, we define dualizing complexes as follows: on any $X \in \mathsf{S}$ with structural morphism 
 $\pi_X : X \to \operatorname{Spec} K$, we let
-$R_X := \pi_X^!(K)$. 
+$\mathcal{R}_X := \pi_X^!(K)$. 
 
-Conversely, suppose we are given a dualizing complex $R_X$ on each 
+Conversely, suppose we are given a dualizing complex $\mathcal{R}_X$ on each 
 $X \in \mathsf{S}$. This gives rise to a duality (contrvariant equivalence)
 $D_X$ of $\mathsf{D}^{}_{\mathrm{c}}(\mathsf{Mod} X)$,
 exchanging $\mathsf{D}^{+}_{\mathrm{c}}(\mathsf{Mod} X)$ with 
 $\mathsf{D}^{-}_{\mathrm{c}}(\mathsf{Mod} X)$, with formula
-\[ D_X(M) := \mathrm{R} Hom_{X}(M, R_X) . \]
+\[ D_X(\mathcal{M}) := \mathrm{R} \mathcal{Hom}_{X}(\mathcal{M}, \mathcal{R}_X) . \]
 We then define
-\[ f^!(M) := D_Y( \mathrm{L} f^* ( D_X(M) )) . \]
+\[ f^!(\mathcal{M}) := D_Y( \mathrm{L} f^* ( D_X(\mathcal{M}) )) . \]
 
 
 ### Rigid Dualizing Complexes 
@@ -124,7 +125,7 @@ Moreover, the rigidity method works also for finite type **Deligne-Mumford stack
 * J. Ayoub, _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique. I._, Ast&#233;risque No. 314 (2007), x+466 pp. (2008) [MR2009h:14032](http://www.ams.org/mathscinet-getitem?mr=2423375); _II._ Ast&#233;risque No. 315 (2007), vi+364 pp. (2008) [MR2009m:14007](http://www.ams.org/mathscinet-getitem?mr=2438151); 
 also a file at K-theory archive [THESE.pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf)
 
-* Amnon Yekutieli, James Zhang,
+* [[Amnon Yekutieli]], James Zhang,
 Rings with Auslander Dualizing Complexes, J. Algebra 213 (1999), 1-51;
 _Rigid dualizing complexes over commutative rings_, Algebr. Represent. Theory __12__ (2009), no. 1, 19&#8211;52, [doi](http://dx.doi.org/10.1007/s10468-008-9102-9);
 Dualizing Complexes and Perverse Sheaves on Noncommutative Ringed Schemes,
@@ -132,7 +133,7 @@ Selecta Math. 12 (2006), 137-177;
 Dualizing Complexes and Perverse Modules over Differential Algebras,
 Compositio Mathematica 141 (2005), 620-654.
 
-* Amnon Yekutieli, 
+* [[Amnon Yekutieli]], 
 An Explicit Construction of the Grothendieck Residue Complex, Ast&#233;risque **208** (1992);
 The residue complex of a noncommutative graded algebra, J. Algebra __186__ (1996), no. 2, 522&#8211;543; _Smooth formal embeddings and the residue complex_, Canad. J. Math. __50__ (1998), no. 4, 863&#8211;896, [MR99i:14004](http://www.ams.org/mathscinet-getitem?mr=1638635); _Rigid dualizing complexes via differential graded algebras (survey)_, in: Triangulated categories, 452&#8211;463, London Math. Soc. Lecture Note Ser. __375__, Cambridge Univ. Press 2010, [MR2011h:18015](http://www.ams.org/mathscinet-getitem?mr=2681716);
  Residues and Differential Operators on Schemes,
