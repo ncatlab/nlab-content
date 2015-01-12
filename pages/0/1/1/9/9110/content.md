@@ -25,7 +25,7 @@
 
 The _Freund-Rubin compactification_ is a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a 7-manifold $X_7$ (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
 
-If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions.
+If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions, discussed at _[[M-theory on G2-manifolds]]_.
 
 ## Related concepts
 
