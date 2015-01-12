@@ -6,6 +6,12 @@
 
 ## Related concepts
 
+* [[conical singularity]]
+
 * [[flop transition]]
+
+[[!redirects conifold]]
+[[!redirects conifolds]]
+
 
 [[!redirects conifold transitions]]
