@@ -16,3 +16,5 @@
 * Wikipedia, _[Analogy](http://en.wikipedia.org/wiki/Analogy)_
 
 [[!redirects analogies]]
+
+[[!redirects analogs]]
