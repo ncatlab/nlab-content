@@ -23,7 +23,9 @@
 
 ## Idea
 
-The [[equations of motion]] of [[supergravity]] typically imply, or are even equivalent to (e.g. [Howe 97](#Howe97)), that some -- but not all -- of the components of the super-[[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanish. At least in some cases this may be understood as the vanishing [[torsion of a G-structure]] for a suitable [[supergroup]] $G$ ([Lott 01](#Lott01)).
+The [[equations of motion]] of [[supergravity]] typically imply, or are even equivalent to (e.g. [Howe 97](#Howe97)), that some -- but not all -- of the components of the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanish. At least in some cases this may be understood via "twisted" [[torsion of a G-structure]] for a suitable [[supergroup]] $G$ ([Lott 01](#Lott01)).
+
+For instance in [[11-dimensional supergravity]] the constraint is ([Bergshoeff-Sezgin-Townsend 87, equation (14)](#BergshoeffSezginTownsend87)) that the spinorial component of the supertorsion is locally given by $(\Gamma^a)_{\alpha \beta}$.
 
 ## Related concepts
 
@@ -34,6 +36,10 @@ The [[equations of motion]] of [[supergravity]] typically imply, or are even equ
 The formulation of supergravity equations of motion in terms of constraints on the torsion tensor goes back to 
 
 * [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+
+Discussio nof torsion constrains for [[11-dimensional supergravity]] inclides
+
+* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
 
 A mathematical formulation in terms of [[G-structures]] on [[supermanifolds]] is given in
 
