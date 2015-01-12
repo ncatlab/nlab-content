@@ -15,7 +15,7 @@
 
 ## Warning
 
-The term 'topological category' is traditional, and comes from the frequent examples in [[topology]].  It does *not* mean an [[internal category]] or [[enriched category]] in [[Top]]!  (Fortunately the term [[topological groupoid]] is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$ is [[terminal category|trivial]].  On the other hand, they do seem to use the term 'topological functor', which here we avoid.)
+The term 'topological category' is traditional, and comes from the frequent examples in [[topology]].  It does *not* mean an [[internal category]] or [[enriched category]] in [[Top]]!  (Fortunately the term [[topological groupoid]] is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$ is [[terminal category|trivial]].  On the other hand, there is use of the term 'topological functor', which  we tend to  avoid other than below.)
 
 
 ## Idea
@@ -118,7 +118,7 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 
 ## Familiarly fibrations
 
-Topological functors can be developed along the lines of Grothendieck theory of fibrations, where  _cartesian morphisms_  are reeplaced by  _cartesian families_. In this way just as by definition  "A functor is a _fibration_ if it creates cartesian morphisms and cartesian morphism compose", there is the definition "A functor is _topological_  if it creates cartesian families and cartesian families compose". 
+The theory of topological functors can be developed along the lines of Grothendieck's theory of fibrations, where  _cartesian morphisms_  are replaced by  _cartesian families_. In this way just as by definition  "A functor is a _fibration_ if it creates cartesian morphisms and cartesian morphism compose", there is the definition "A functor is _topological_  if it creates cartesian families and cartesian families compose". 
 
 ## References
 
@@ -131,7 +131,7 @@ Topological functors can be developed along the lines of Grothendieck theory of 
 
 * [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)
 
-* Eduardo J. Dubuc, Luis Espa\~nol, *Topological functors as familiarly fibrations* 
+* [[Eduardo J. Dubuc]], Luis Espa&#241;ol, *Topological functors as familiarly fibrations* 
 arXiv:math/0611701v1 [math.CT] (2006)
 
 [[!redirects topological concrete category]]
