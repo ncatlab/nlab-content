@@ -15,17 +15,18 @@
 
 ## Idea
 
-A _$G_2$-structure_ on a [[manifold]] of [[dimension]] 7 is a choice of [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of [[G2]] into $GL(7)$.
+A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G2]]. Hence it is a reduction of the structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
 
 Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
-A _$G_2$-manifold_ is a manifold equipped with an "integrable" or "parallel" $G_2$-structure. This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
+A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is integrable/torsion free to first order. This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
 
-$G_2$-manifolds may be understood as 7-dimensional analogs of real 6-dimensional [[Calabi-Yau manifolds]].
+$G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]].
 
 ## Definition
 
 ### $G_2$-structure
+ {#G2Structure}
 
 +-- {: .num_defn #G2Structure}
 ###### Definition
@@ -39,19 +40,120 @@ For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ 
 
 A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[Riemannian metric]].
 
+=--
+
+Given the definition of [[G2]] as the [[stabilizer group]] of the [[associative 3-form]] on $\mathbb{R}^7$, there is accordingly an equivalent formulation of def. \ref{G2Structure} in terms of [[differential forms]]:
+
+
++-- {: .num_defn #Definite3Forms}
+###### Definition
+
+Write $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^7)^\ast $ for the [[orbit]] of the [[associative 3-form]] $\phi$ under the canonical $GL(7)$-[[action]]. Similarly for $X$ a [[smooth manifold]] of [[dimension]] 7, write 
+
+$$
+  \Omega^3_+(X) \hookrightarrow \Omega^3(X)
+$$
+
+for the subset of the set of [[differential 3-forms]] on those that, as [[sections]] to the exterior power of the [[cotangent bundle]], are pointwise in $\Lambda^3_+(\mathbb{R}^7)^\ast$. 
+
+These are also called the _definite forms_ on $X$.
 
 =--
 
+(e.g. [Bryant 05, definition 2](#Bryant05))
+
++-- {: .num_prop #G2StructureViaDefinite3Form}
+###### Proposition
+
+A $G_2$-structure on $X$, def. \ref{G2Structure}, is equivalently 
+a choice of definite 3-form $\sigma$ on $X$, def. \ref{Definite3Forms}.
+
+=--
+
+(e.g. [Bryant 05, section 3.1.1](#Bryant05))
+
+The following is important for the analysis:
+
++-- {: .num_remark #Definition3FormsGiveOpenSubset}
+###### Remark
+
+The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^7)^\ast $ in def. \ref{Definite3Forms} is an [[open subset]].
+
+=--
+
+(e.g. [Bryant 05, 2.8](#Bryant05))
+
+
+### Closed $G_2$-structure
+ {#ClosedG2Structure}
+
+
++-- {: .num_defn #ClosedG2Structure}
+###### Definition
+
+A $G_2$-structure, def. \ref{G2Structure}, is called _closed_ if the definite 3-form $\sigma$ corresponding to it via prop. \ref{G2StructureViaDefinite3Form} is a closed differential form, $\mathbf{d}\sigma = 0$.
+
+=--
+
+(e.g. [Bryant 05, (4.31)](#Bryant05))
+
++-- {: .num_prop #ClosedG2StructureByAtlas}
+###### Proposition
+
+For a closed $G_2$-structure, def. \ref{ClosedG2Structure}, on a manifold $X$ there exists an [[atlas]] by [[open subsets]] 
+
+$$\mathbb{R}^7 \underoverset{et}{f}{\leftarrow} U \underset{et}{\rightarrow} X$$ 
+
+such that the globally defined 3-form $\sigma \in \Omega^3_+(X)$ is locally gauge equivalent to the canonical [[associative 3-form]] $\phi$
+
+$$
+  \sigma|_U = f^\ast \phi + \mathbf{d}\beta
+$$
+
+via a 2-form $\beta$ on $U$.
+
+=--
+
+(e.g. [Bryant 05, p. 21](#Bryant05))
+
+This follows from the fact, remark \ref{Definition3FormsGiveOpenSubset}, that the definite 3-forms are an [[open subset]] inside all 3-forms: given a chart centered around any point then there is $\beta$ with $\mathbf{d}\beta$ vanishing at that point such that $\sigma|_U \simeq f^\ast \phi + \mathbf{d}\beta$ at that point. But since the $GL(7)$-action on $\phi$ is open, there is an open neighbourhood around that point where this is still the case.
+
++-- {: .num_remark #AtlasForClosedG2tructureInTermsOfHigherGeometry}
+###### Remark
+
+When regarding [[smooth manifolds]] in the wider context of [[higher differential geometry]], then the situation of prop. \ref{ClosedG2StructureByAtlas} corresponds to a diagram of [[formal smooth infinity-groupoids]] of the following form:
+
+$$
+  \array{
+    && U
+    \\
+    & {}^{\mathllap{f}}\swarrow && \searrow
+    \\
+    \mathbb{R}^7 && \swArrow_{\mathrlap{\beta}} && X
+    \\
+    & {}_{\mathllap{\phi}}\searrow && \swarrow_{\mathrlap{\sigma}}
+    \\
+    && \flat_{dR}\mathbf{B}^3\mathbb{R}
+  }
+  \,,
+$$
+
+where $\flat_{dR}\mathbf{B}^3\mathbb{R}$ is the [[moduli infinity-stack|higher moduli stack]] of flat 3-forms with 2-form gauge transformations between them (and 1-form gauge transformation between these). The diagram expresses the 3-form $\sigma$ as a map to this moduli stack, which when restricted to the cover $U$ becomes gauge equivalent to the pullback of the [[associative 3-form]] $\phi$, similarly regarded as a map, to the cover, where the gauge equivalence is exhibited by a [[homotopy]]  (of maps of formal smooth $\infty$-groupoids) which is the 2-form $\beta$ on $U$.
+
+=--
+
+
 ### $G_2$-holonomy
+ {#G2Holonomy}
 
 +-- {: .num_defn #G2manifold}
 ###### Definition
 
 A manifold equipped with a $G_2$-structure $\omega$, def. \ref{G2Structure}, is called a **$G_2$-manifold** if $\omega$ is "parallel" or "integrable" in that 
 
-1. $d \omega = 0$ 
+1. $\mathbf{d} \omega = 0$ 
 
-1. $d \star \omega = 0$
+1. $\mathbf{d} \star \omega = 0$
 
 (where $d$ is the [[de Rham differential]] and $\star$ is the [[Hodge star operator]] of the canonical [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric}).
 
@@ -152,7 +254,7 @@ Surveys include
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
 
-* [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
+* {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
