@@ -84,7 +84,7 @@ Universes defined internally via [[induction-recursion]] are (strongly) &#224; l
 ### Universe enlargement
  {#UniverseEnlargement}
 
-Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe enlargement]] automatically; Agda's is more advanced (universe polymorphism), whereas Coq's is good enough for many purposes but tends to produce "universe inconsistencies" when working with [[univalence]].  
+Both [[Coq]] and [[Agda]] support [[universe polymorphism]] to deal with the issue of universe enlargement. Moreover, Coq supports [[typical ambiguity]].
 
 ### Categorical semantics
  {#CategoricalSemantics}
