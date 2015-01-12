@@ -89,6 +89,8 @@ Examples of regular categories include the following:
 
 * The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
 
+* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. 
+
 * Any [[abelian category]] is regular. 
 
 * If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
