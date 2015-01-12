@@ -1,0 +1,30 @@
+
+> For other, related, concepts of a similar name see at _[[cone]]_.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In ([[pseudo-Riemannian geometry|pseudo-]])[[Riemannian geometry]], a _cone_ is a part of a  (pseudo-)[[Riemannian manifold]] where the metric  [[metric tensor]] is locally of the form $d s^2 = d r^2 + r^2 d s^2_1$. The point that would correspond to $r = 0$ is the "conical singularity". 
+
+## Examples
+
+### $G_2$-manifolds
+ {#ExamplesG2Manifolds}
+
+Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be known: cones on $\mathbb{C}P^3$, $SU(3)/U(1)\times U(1)$ and $S^3 \times S^3$. ([Atiyah-Witten 01](#AtiyahWitten01))
+
+## Related concepts
+
+* [[conifold]]
+
+## References
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
+
+
+[[!redirects conical singularity]] 
+[[!redirects conical singularities]] 
