@@ -71,10 +71,16 @@ $R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $A^{n,an}_\Z$,
 given by all (Artin-type) multiplicative seminorms on the polynomial ring.
 We will work with the associated ind-seminormed topological rig categories.
 
-In addition to the above rig categories, we will also use the valuation rig categories $\mathcal{V}^\dagger(R)$ of algebras of functions $\mathcal{O}^\dagger(R)$ on non-strict rational domains
-$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $A^{n,an}_\Z$
-that project surjectively on the full archimedean branch of $\mathcal{M}(\mathbb{Z})$ and such that the archimedean fiber $R_{(\mathbb{R},|\cdot|_\infty)}$ is compact.
+In addition to the above rig categories, we will also use the valuation rig categories $\mathcal{V}^\dagger(R)$ of algebras of functions $\mathcal{O}^\dagger(R)$ on non-strict non-compact rational domains
+$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $A^{n,an}_\mathbb{Z}$
+that project surjectively on an interval
+$$\{|2|\geq 2^t\}\cong[|\cdot|_\infty^t,|\cdot|_\infty^\infty[$$
+of the archimedean branch of $\mathcal{M}(\mathbb{Z})$ and such that the fiber $R_{(\mathbb{Z},|\cdot|^t_\infty)}$ is compact. The valuation rig category
+$\mathcal{V}^\dagger(R)$ is defined concretely as the sub-rig category of $\mathcal{O}^\dagger(R)$ given by functions $f$ such that for every $x\in \mathcal{M}(FMod(\mathcal{O}^\dagger(R)))$, $|f(x)|\leq 1$. Here, we use the set of seminorms on free modules that are continuous and bounded on $\End(\mathbb{1})$ by the given seminorms on $\mathcal{O}^\dagger(R)$.
 
+One defines rational embeddings $R\to S$ of usual rational domains as usual,
+and this defines also the notion of rational embedding morphisms
+$\mathcal{M}(\mathcal{V}^\dagger(R))\to \mathcal{M}(\mathcal{V}^\dagger(S))$.
 
 ## References
 
