@@ -19,17 +19,15 @@
 
 ## Definition
 
-For $\Gamma : \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[discrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[left adjoint]] $Disc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
+For $\Gamma : \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[discrete objects]]_ if it has a  [[full and faithful functor|full and faithful]] [[left adjoint]] $Disc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
 
 An object in the [[essential image]] of $Disc$ is called a **discrete object.
 
 This is for instance the case for the [[global section]] [[geometric morphism]] of a [[connected topos]] $ (Disc \dashv \Gamma ) : \mathcal{E} \to \mathcal{B}$. 
 
-If one thinks of $\mathcal{E}$ as a [[category]] of [[spaces]], then the discrete objects are called [[discrete spaces]].
+In this situation, we say that a **co-concrete object** $X \in \mathcal{E}$ is one for which the $(Disc\dashv \Gamma)$-[[unit of an adjunction]] is an [[epimorphism]].
 
-The dual notion is that of _[[codiscrete objects]]_.
-
-
+The dual concept is the of a _[[concrete object]]_.
 
 ## References
 
