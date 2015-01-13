@@ -1,4 +1,5 @@
 John Henry Constantine Whitehead (11 November 1904&#8211;8 May 1960), was one of the founders of modern algebraic topology. His contributions include
+
  * CW complexes; these were introduced in his papers on
  * [[combinatorial homotopy]], which in turn were one prime  source of inspiration for [[Ronnie Brown|Brown]], [[Higgins]] and Sivera's, [[Nonabelian Algebraic Topology]] and also for Baues' extensive work on, for instance, [[Combinatorial Homotopy and 4-Dimensional Complexes]];
  * [[simple homotopy theory]];
