@@ -44,7 +44,7 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Dec. 16, 2014: A talk on T-dualities by Bei. 
 
-* Jan. 6, 2015: Factorization algebra by Dennis. CG: Chap 6-7.
+* Jan. 6, 2015: Factorization algebra by Dennis. Weiss cover and Ran space, descent condition with respect to three topologies (a la Beilinson-Drinfeld, Lurie and Costello-Gwilliam), (co)sheafification vs glue, a recast of $E_n$-algebras, locally constant factorization algebras and $E_n$-algebras are equivalent (as $(\infty,1)$-categories). Lurie: Chap 5, CG: Chap 6, Ginot: Chap 4.
 
 * Jan. 13, 2015: TBA by Owen Gwilliam.
 
@@ -68,7 +68,11 @@ An out-dated version is available on Costello's webpage. Participants can also j
 
 A more mathematical introduction to factorization algebra is given in 
 
-* G. Ginot, Notes on factorization algebras, factorization homology and applications, arXiv:1307.5213[math.AT].
+* [Ginot] G. Ginot, Notes on factorization algebras, factorization homology and applications, arXiv:1307.5213[math.AT].
+
+A much more elaborated treatment (using slightly different languages from the formers):
+
+* [Lurie] J. Lurie, Higher Algebra. [pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf).
 
 The introduction to operads is based on
 
