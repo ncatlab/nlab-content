@@ -1,0 +1,3 @@
+An n-cat is just an ordinary cat enriched over the category (n-1)-cat.
+
+But what category is nyan-cat enriched over?
