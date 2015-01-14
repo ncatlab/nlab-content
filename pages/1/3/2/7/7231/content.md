@@ -90,16 +90,17 @@ Surveys are in
 
 The definitions are reviewed for instance in 
 
-* [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
- {#Joyce}
+* {#Joyce} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
+ 
 
 * _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
 
+* [[John Baez]], _$G_2$_ ([web](http://math.ucr.edu/home/baez/octonions/node14.html))
 
 Discussion in terms of the [[Heisenberg group]] in [[2-plectic geometry]] is in 
 
-* Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
- {#Ibort}
+* {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
+ 
 
 
 Cohomological properties are discussed in 
@@ -111,5 +112,4 @@ Cohomological properties are discussed in
 Discussion of [[Yang-Mills theory]] with $G_2$ as [[gauge group]] is in 
 
 * Ernst-Michael Ilgenfritz, Axel Maas, _Topological aspects of G2 Yang-Mills theory_ ([arXiv:1210.5963](http://arxiv.org/abs/1210.5963))
-
 
