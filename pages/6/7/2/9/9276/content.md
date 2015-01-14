@@ -17,13 +17,29 @@
 
 Darboux's theorem states that a [[smooth manifold]] $X$ equipped with a [[differential 1-form]] $\theta$ which is sufficiently non-degenerate admits local [[coordinate charts]] $\phi_i \colon\mathbb{R}^{2n} \to X$ on which $\theta$ takes the canonical form $\phi_i^\ast \theta = \sum_{k} x^{2k} \mathbf{d} x^{2k+1}$.
 
-In particular for $(X, \omega)$ a [[symplectic manifold]] there are local charts in which the [[symplectic form]] $\omega$ takes the form $\phi_i^\ast \omega = \sum_{k} \mathbf{d} x^{2k} \wedge \mathbf{d} x^{2k+1}$.
+In particular 
+
+* for $(X, \omega)$ a [[symplectic manifold]] there are local charts in which the [[symplectic form]] $\omega$ takes the form $\phi_i^\ast \omega = \sum_{k} \mathbf{d} x^{2k} \wedge \mathbf{d} x^{2k+1}$;
+
+* similarly, for [[contact manifolds]] there are adapated local charts.
+
+(e.g. [Arnold 78, p. 362](#Arnold78))
 
 ## Related concepts
 
 * [[integrable G-structure]]
 
 ## References
+
+Lecture notes include
+
+* [[Andreas Cap]], section 1.8 of _Differential Geometry 2_, 2011/2012 ([pdf](http:///www.mat.univie.ac.at/~cap/files/Diffgeom2.pdf))
+
+Textbook accounts include
+
+* {#Arnold78} [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate texts in Mathematics 60 (1978)
+
+See also
 
 * Wikipedia, _[Darboux theorem](http://en.wikipedia.org/wiki/Darboux%27s_theorem)_
 
