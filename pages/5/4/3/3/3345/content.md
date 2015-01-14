@@ -115,7 +115,7 @@ In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the 
 
 ## References
 
-Using that the [[cube category]] is a [[test category]] a model structure on cubical sets follows as a spcial case of the [[model structure on presheaves over a test category]], due to 
+Using that the [[cube category]] is a [[test category]] a model structure on cubical sets follows as a special case of the [[model structure on presheaves over a test category]], due to 
 
 * [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Asterisque __308__.
   {#Cisinksi}
