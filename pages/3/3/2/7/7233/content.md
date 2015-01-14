@@ -157,13 +157,20 @@ Since the GL-transformations in questions define a [[vielbein]] field $E$, one m
 +-- {: .num_defn #G2manifold}
 ###### Definition
 
-A manifold equipped with a $G_2$-structure $\omega$, def. \ref{G2Structure}, is called a **$G_2$-manifold** if $\omega$ is "parallel" or "integrable" in that 
+A manifold equipped with a $G_2$-structure, def. \ref{G2Structure}, is called a **$G_2$-manifold** if the 3-form $\omega$ corresponding to it via prop. \ref{G2StructureViaDefinite3Form} satisfies 
 
 1. $\mathbf{d} \omega = 0$ 
 
 1. $\mathbf{d} \star \omega = 0$
 
 (where $d$ is the [[de Rham differential]] and $\star$ is the [[Hodge star operator]] of the canonical [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric}).
+
+Equivalently this means that $\omega$ is [[covariant derivative|covariantly constant]]
+
+$$
+  \nabla \omega = 0
+  \,.
+$$
 
 =--
 
