@@ -77,11 +77,9 @@ A detailed discussion is in
 
 * [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
-* [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33.
-{#BrownHiggins}
+* {#BrownHiggins} [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33. 
 
-* F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.
-{#Al-Agl/Brown/Steiner}
+* F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118. [ArXiv](http://arxiv.org/abs/math/0007009){#Al-Agl/Brown/Steiner}
 
 * R. Brown, P.J.Higgins, R. Sivera, _Nonabelian algebraic topology: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics vol 15, 650 pages (autumn 2010 to appear). ([Nonabelian algebraic topology](http://www.bangor.ac.uk/r.brown/nonab-a-t.html))
 
