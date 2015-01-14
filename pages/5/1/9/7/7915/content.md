@@ -27,6 +27,11 @@ A [[diffeomorphism]] $f : P \to P$ of a contact manifold $(P,A)$ is called a _co
 
 ## Properties
 
+### Darboux theorem
+
+There is a [[Darboux theorem]] for contact structures, stating how they are locally equivalent to a standard contact structure (e.g. [Arnold 78, page 362](#Arnold78))
+
+### Relation to $U(1)$-principal connections
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -70,11 +75,11 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 Monographs and introductions include 
 
-* [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([pdf](http://www.cmi.ac.in/~aneesh/textbooks/Geiges.pdf))
- {#Geiges}
+* {#Geiges} [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([pdf](http://www.cmi.ac.in/~aneesh/textbooks/Geiges.pdf))
+ 
 
-* Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ ([pdf](http://math.ucr.edu/~xl/contact.pdf))
-  {#Lin}
+* {#Lin}Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ ([pdf](http://math.ucr.edu/~xl/contact.pdf))
+  
 
 * John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
 
@@ -82,12 +87,15 @@ A [[higher differential geometry]]-generalization of contact geometry in line wi
 
 * Luca Vitagliano, _L-infinity Algebras From Multicontact Geometry_ ([arXiv.1311.2751](http://arxiv.org/abs/1311.2751))
 
+* {#Arnold78} [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate texts in Mathematics 60 (1978)
+ 
+
 ### Characterization
 
 The observation that regular contact manifolds are prequantum circle bundles is due to
 
-* W. M. Boothby and H. C. Wang, _On contact manifolds_, Ann. of Math. (2) 68 (1958) 721&#8211;734. ([JSTOR](http://www.jstor.org/stable/10.2307/1970165))
- {#BoothbyWang}
+* {#BoothbyWang} W. M. Boothby and H. C. Wang, _On contact manifolds_, Ann. of Math. (2) 68 (1958) 721&#8211;734. ([JSTOR](http://www.jstor.org/stable/10.2307/1970165))
+ 
 
 A modern review of this is in ([Geiges, section 7.2](#Geiges)).
 
@@ -97,12 +105,16 @@ An analogous result for a weaker form of regularity is discussed in
 
 A characterization of $S^1$-invariant contact structures on [[circle bundles]] is in 
 
-* Fan Ding, [[Hansjörg Geiges]], _Contact structures on principal circle bundle_, Bull. London Math. Soc, ([arXiv:1107.4948](http://arxiv.org/abs/1107.4948))
- {#DingGeiges}
+* {#DingGeiges} Fan Ding, [[Hansjörg Geiges]], _Contact structures on principal circle bundle_, Bull. London Math. Soc, ([arXiv:1107.4948](http://arxiv.org/abs/1107.4948))
+ 
 
 For the special case of 2-dimensional base manifolds ($n = 1$) this was obtained before in 
 
 * R. Lutz, _Structures de contact sur les fibr&#233;s principaux en cercles de dimension trois_, Ann. Inst. Fourier (Grenoble) 27 (1977) no. 3, 1&#8211;15.
+
+See also
+
+* John Bland, Tom Duchamp, _The Group of Contact Diffeomorphisms for Compact Contact Manifolds_ ([arXiv:1007.2036](http://arxiv.org/abs/1007.2036))
 
 ### Further 
 
@@ -122,6 +134,9 @@ Invent. Math. 121 (1995), 147-209.
 [[!redirects contactomorphism]]
 [[!redirects contactomorphisms]]
 
+
+[[!redirects contact structure]]
+[[!redirects contact structures]]
 
 [[!redirects regular contact manifold]]
 [[!redirects regular contact manifolds]]
