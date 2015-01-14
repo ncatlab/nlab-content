@@ -350,10 +350,13 @@ This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
 
 ## Examples
 
+A large class of examples of $(\infty,1)$-adjunctions arises from [[Quillen adjunctions]] of [[model categories]], or adjunctions in [[sSet]]-[[enriched category theory]].
+
+### Quillen adjunctions
+
+Any [[Quillen adjunction]] induces an adjunction of [[(infinity,1)-categories]] on the [[simplicial localizations]]. See [Mazel-Gee 15](#MazelGee15).
+
 ### Simplicial and derived adjunctions {#SimplicialAndDerived}
-
-A large class of examples of $(\infty,1)$-adjunctions arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
-
 
 We want to produce Cartesian/coCartesian fibration $K \to \Delta[1]$ from a given [[sSet]]-[[enriched category theory|enriched]] adjunction. For that first consider the following characterization
 
@@ -520,12 +523,22 @@ and further discussion, including also that of [[(infinity,1)-monads]] is in
 
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
+The proof that an [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in full generality in
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
+
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
 [[!redirects adjoint (∞,1)-functors]]
 
 [[!redirects (∞,1)-adjunction]]
 [[!redirects (∞,1)-adjunctions]]
+
+[[!redirects adjunction of (infinity,1)-categories]]
+[[!redirects adjunctions of (infinity,1)-categories]]
+
+[[!redirects adjunction of (∞,1)-categories]]
+[[!redirects adjunctions of (∞,1)-categories]]
 
 [[!redirects adjoint infinity-functor]]
 [[!redirects adjoint infinity-functors]]
