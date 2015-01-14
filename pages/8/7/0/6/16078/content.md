@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. 
+The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. This is the first in an infinite tower of tensor invariants associated with a $G$-structure that obstruct its integrability (flatness).
 
 
 The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_) ([Sternberg 64, from p. 317 on](#Sternberg64), [Lott 90, p.10](#Lott90), [Joyce 00, section 2.6](#Joyce00)).
@@ -43,6 +43,10 @@ Discussion with an eye towards [[torsion constraints in supergravity]] is in
 Discussion with an eye towards [[special holonomy]] is in
 
 * {#Joyce00} [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_, Oxford University Press 2000
+
+Further mentioning of the higher order torsion invariants includes
+
+* {#Bryant05} [[Robert Bryant]], section 4.2 of _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
 See also
 
