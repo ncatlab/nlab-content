@@ -68,6 +68,7 @@ It follows from the definition that
 To show this for instance for $R$, we may argue as in a 
 [[category of fibrant objects]] and apply the _factorization lemma_
 which shows that every weak equivalence between fibrant objects may be
+
 factored, up to [[homotopy]], as a [[span]] of acyclic fibrations.
 
 These weak equivalences are preserved by $R$ and hence by [[category with weak equivalences|2-out-of-3]] the claim follows. 
@@ -154,8 +155,16 @@ This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 
 See [[simplicial Quillen adjunction]] for more details.
 
+### Associated (infinity,1)-adjunction
 
++-- {: .un_theorem}
+###### Theorem
+Let $F : C \rightleftarrows D : G$ be a Quillen adjunction between [[model categories]] (which are not assumed to admit functorial factorizations or infinite (co)limits).  Then there is an induced [[adjunction of (infinity,1)-categories]]
+  $$ F : C[W_C^{-1}] \rightleftarrows D[W_D^{-1}] : G $$
+where $C[W_C^{-1}]$ and $D[W_D^{-1}]$ denote the respective [[simplicial localizations]] at the respective classes of [[weak equivalences]]. 
+=--
 
+See ([Mazel-Gee 15](#MazelGee15), Theorem 2.1).
 
 ## Related concepts
 
@@ -174,6 +183,10 @@ See the references at _[[model category]]_. For instance
 
 * [[Philip Hirschhorn]], _Model categories and their localization_
  {#Hirschhorn}
+
+The proof that an Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in full generality in
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
 
 [[!redirects Quillen adjunctions]]
 
