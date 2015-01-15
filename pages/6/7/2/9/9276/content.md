@@ -25,6 +25,8 @@ In particular
 
 (e.g. [Arnold 78, p. 362](#Arnold78))
 
+For the case of symplectic manifolds the Darboux theorem may also be read as saying that a [[G-structure]] for $G = Sp(2n)$ the [[symplectic group]] (hence an [[almost symplectic structure]]) is an [[integrable G-structure]] already when it is first-order integrable, i.e. [[torsion of a G-structure|torsion]]-free, i.e. symplectic.
+
 ## Related concepts
 
 * [[integrable G-structure]]
@@ -43,16 +45,22 @@ See also
 
 * Wikipedia, _[Darboux theorem](http://en.wikipedia.org/wiki/Darboux%27s_theorem)_
 
+A version for [[supergeometry]] is due to
 
-"Higher" Darboux' theorems for [[shifted symplectic structures]] ([[BV-BRST complex|BV-brackets]]) on [[stacks]] are discussed in 
+* [[Bertram Kostant]], in Lecture Notes in Mathematics vol.570, 177, (Bleuler, K. and Reetz, A.eds), Proc. Conf. on Diff. Geom. Meth. in Math. Phys., Bonn 1975., Springer-Verlag, Berlin, 1977
+
+A version for prequantized symplectic manifolds ([[prequantum bundles]]) is discussed in
+
+* {#FaureTsujii12} Fr&#233;d&#233;ric Faure, Masato Tsujii, around prop. 2.15 of _Prequantum transfer operator for symplectic Anosov diffeomorphism_ ([arXiv:1206.0282](http://arxiv.org/abs/1206.0282))
+
+
+A version for [[shifted symplectic structures]] ([[BV-BRST complex|BV-brackets]]) on [[stacks]] is discussed in 
 
 * [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux theorem' for derived schemes with shifted symplectic structure_ ([arXiv:1305.6302](http://arxiv.org/abs/1305.6302))
 
 * [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_ ([arXiv:1312.0090](http://arxiv.org/abs/1312.0090))
 
-A "prequantum" Darboux theorem for [[prequantum bundles]] is discussed in
 
-* {#FaureTsujii12} Fr&#233;d&#233;ric Faure, Masato Tsujii, around prop. 2.15 of _Prequantum transfer operator for symplectic Anosov diffeomorphism_ ([arXiv:1206.0282](http://arxiv.org/abs/1206.0282))
 
 [[!redirects Darboux theorem]]
 
