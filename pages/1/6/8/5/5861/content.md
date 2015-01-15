@@ -602,6 +602,20 @@ This happens notably for the model of [[formal smooth ∞-groupoids]] and all it
 
 (...)
 
++-- {: .num_prop #CounitOfFlatRelIsFormallyEtale}
+###### Proposition
+
+The [[counit of a comonad|counit]] of the relative flat modality is a [[formally étale morphism]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+From the fact that the [[infinitesimal shape modality]] is [[idempotent monad|idempotent]] and preserves [[homotopy pullbacls]].
+
+=--
 
 
 
@@ -655,6 +669,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 * $\mathbf{\Pi}_{inf}(X)$ is the **[[infinitesimal path ∞-groupoid]]** 
   of $X$;
+
 
   The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] 
 
@@ -1153,6 +1168,7 @@ is exhibited by the [[infinitesimal shape modality]] $&#643;_{inf}$.
 This is the [[infinitesimal cohesion|infinitesimal]] 
 analog of the notion of objects exhibiting [[cohesion]],
 see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+(infinity,1)-topos+--+structures#A1HomotopyContinuum).
+
 
 
 =--
@@ -2016,13 +2032,19 @@ $$
 $$
 
 
-We write
+
+=--
+
++-- {: .num_defn #GeneralLinearGroup}
+###### Definition
+
+For $V$ a framed object, def. \ref{Framing}, we write
 
 $$
   GL(V) \coloneqq \mathbf{Aut}(\mathbb{D}^V)
 $$
 
-for the [[automorphism ∞-group]] of this [[infinitesimal disk]]/[[formal disk]].
+for the [[automorphism ∞-group]] of its typical [[infinitesimal disk]]/[[formal disk]].
 
 =--
 
@@ -2106,7 +2128,7 @@ By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bu
 +-- {: .num_defn #FrameBundleMap}
 ###### Definition
 
-Given a $V$-manifold $X$ for framed $V$, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(V)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
+Given a $V$-manifold $X$, def. \ref{Manifold}, for framed $V$, def. \ref{Framing}, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(V)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
 
 =--
 
@@ -2117,9 +2139,19 @@ As in remark \ref{OrderOfInfinitesimalDisks}, this really axiomatizes in general
 
 =--
 
-#### $G$-Structures
++-- {: .num_remark #FrameBundlesFunctorial}
+###### Remark
 
-Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism, hence 
+By prop. \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} the construction of frame bundles in def. \ref{FrameBundleMap} is functorial in [[formally étale maps]] between $V$-manifolds.
+
+=--
+
+#### $G$-Structures
+ {#structures}
+
+We discuss the formalization of [[G-structures]] and [[integrability of G-structures]] in differential cohesion
+ 
+Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism to the general linear group of $V$, def. \ref{GeneralLinearGroup}, hence 
 
 $$
   G\mathbf{Struc}\colon \mathbf{B}G \longrightarrow \mathbf{B}GL(V)
@@ -2129,7 +2161,6 @@ a morphism between the [[deloopings]].
 
 +-- {: .num_defn #GStructure}
 ###### Definition
-
 
 For $X$ a $V$-manifold, def. \ref{Manifold}, a **[[G-structure]]** on $X$ is a lift of the structure group of its [[frame bundle]], def. \ref{FrameBundleMap}, to $G$, hence a diagram
 
@@ -2157,11 +2188,11 @@ In fact $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(n)}$ is the [[moduli ∞-s
 
 The double [[slice (∞,1)-topos|slice]] $(\mathbf{H}_{/\mathbf{B}GL(n)})_{/G\mathbf{Struc}}$ is the [[(∞,1)-category]] of such $G$-structures.
 
-+-- {: .num_example}
++-- {: .num_example #TrivialGStructure}
 ###### Example
 
 
-If $V$ is framed, then it carries the trivial $G$-structure, which we denote by
+If $V$ is framed, def. \ref{Framing}, then it carries the trivial $G$-structure, which we denote by
 
 $$
   \mathbf{c}_0 \colon \tau_{V} \longrightarrow G\mathbf{Struc}
@@ -2173,20 +2204,78 @@ $$
 +-- {: .num_defn #IntegrableGStructure}
 ###### Definition
 
-For $V$ framed and $X$ a $V$-manifold, then  $G$-structure $\mathbf{c}$ on $X$ is _integrable_ (torsion-free) if there exists a $V$-cover
+For $V$ framed, def. \ref{Framing}, and $X$ a $V$-manifold, def. \ref{Manifold}, then  $G$-structure $\mathbf{c}$ on $X$ is _[[integrability of G-structures|integrable]]_ (or _locally flat_) if there exists a $V$-cover
 
 $$
-  V \stackrel{q}{\leftarrow} U \rightarrow X
+  \array{
+     && U
+     \\
+     & \swarrow && \searrow
+     \\
+     V && && X
+  }
 $$
 
-such that this extends to a morphism of $G$-structures 
+such that the [[correspondence]] of [[frame bundles]] induced via remark \ref{FrameBundlesFunctorial}
 
 $$
-  \mathbf{c}_0 \longleftarrow q^\ast \mathbf{c}_0 \longrightarrow \mathbf{c}
+  \array{
+     && \tau_U
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && && \tau_X
+  }
 $$
+
+(a diagram in $\mathbf{H}_{/\mathbf{B}GL(V)}$) extends to a sliced correspondence between $\mathbf{c}$ and the trivial $G$-structure $\mathbf{c}_0$ on $V$, example \ref{TrivialGStructure}, hence to a diagram in $\mathbf{H}_{/\mathbf{B}GL(V)}$ of the form
+
+$$
+  \array{
+     && \tau_U
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow_{\mathrlap{\simeq}}  && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_0}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G\mathbf{Struct}
+  }
+$$
+
+On the other hand, $\mathbf{c}$ is called _infinitesimally integrable_ (or _torsion-free_) if such an extension exists (only) after restriction to all [[infinitesimal disks]] in $X$ and $U$, hence after composition with the [[counit of a comonad|counit]] 
+
+$$
+  \flat^{rel} U \longrightarrow U
+$$
+
+of the [[relative flat modality]], def. \ref{InducedRelativeShapeAndFlat} (using that by prop. \ref{CounitOfFlatRelIsFormallyEtale} this is also formally &#233;tale and hence induces map of frame bundles):
+
+$$
+  \array{
+     && \tau_{\flat^{rel} U}
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow_{\mathrlap{\simeq}}  && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_0}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G\mathbf{Struct}
+  }
+ \,.
+$$
+
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+As before, if the given [[reduction modality]] encodes order-$k$ infinitesimals, then the infinitesimal integrability in def. \ref{IntegrableGStructure} is order-$k$ integrability. For $k = 1$ this is [[torsion of a G-structure|torsion-freeness]].
+
+=--
 
 
 
@@ -2243,6 +2332,7 @@ $$
   \mathbf{H}(X,A)
 $$
 
+
 The objects on the left are **[[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]** . The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
 
 =--
@@ -2283,6 +2373,7 @@ where on the right we have ordinary cohomology in [[Top]] (for instance realized
 In certain contexts of infinitesimal neighbourhoods of cohesive $\infty$-toposes the de Rham theorem in this form has been considered in ([SimpsonTeleman](#SimpsonTeleman)).
 
 
+
 #### Formal cohesive $\infty$-groupoids
  {#FormalInfinityGroupoids}
 
@@ -2320,6 +2411,7 @@ is both geometrically contractible and has as underlying discrete $\infty$-group
 * $\Gamma X \simeq {*}$.
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
