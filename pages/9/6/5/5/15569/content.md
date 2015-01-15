@@ -687,7 +687,7 @@ $$
   \mathbf{H} \to \mathbf{H}_{infinitesimal} \to \mathbf{H}
 $$
 
-which we call the _relative [[shape modality]]_, _relative [[flat modality]]_ and _relative [[sharp modality]]_, respectively.
+which we call the _[[relative shape modality]]_, _[[relative flat modality]]_ and _[[relative sharp modality]]_, respectively.
 
 =--
 
