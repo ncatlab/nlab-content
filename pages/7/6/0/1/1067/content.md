@@ -24,9 +24,9 @@ Chain complexes are the basic objects of study in [[homological algebra]].
 
 ### Basic
 
-A _chain complex_ $V_\bullet$ is a sequence $\{V_n\}_{n \in \mathbb{N}}$ of [[abelian groups]] or [[modules]] (for instance [[vector spaces]]) or similar equipped with linear maps $\{d_n : V_{n+1} \to V_n\}$ such that $d^2 = 0$, i.e. the composite of two consecutive such maps is the [[zero morphism]] $d_n \circ d_{n+1} = 0$.
+A _chain complex_ $V_\bullet$ is a sequence $\{V_n\}_{n \in \mathbb{Z}}$ of [[abelian groups]] or [[modules]] (for instance [[vector spaces]]) or similar equipped with linear maps $\{d_n : V_{n+1} \to V_n\}$ such that $d^2 = 0$, i.e. the composite of two consecutive such maps is the [[zero morphism]] $d_n \circ d_{n+1} = 0$.
 
-A basic example is the [[singular chain complex]] of a [[topological space]], or the [[de Rham complex]] of a [[smooth manifold]].
+A basic example is the [[singular chain complex]] of a [[topological space]], or the [[de Rham complex]] of a [[smooth manifold]]. Another type of example occurs with the [[Dold-Kan correspondence]] as the [[Moore complex]] of a [[simplicial abelian group]] or similar. Both the first and the third of these types of example correspond, on the surface, to chain complexes in which the grading is by $\mathbb{N}$, not $\mathbb{Z}$.  Dually the [[de Rham complex]] example can be included by indexing by the non-positive integers,  but  by defining them to take trivial, that is zero, values in other dimensions they become chain complexes in the sense used here. The more general definition is important as it is (i) more inclusive and (ii) leads to objects that behave well with respect to shift / translation operators, (see below).
 
 Chain complexes crucially come with their _[[chain homology]]_ [[groups]]. When regarding [[chain maps]] between them that induce [[isomorphisms]] on these groups ([[quasi-isomorphisms]]) as [[weak equivalences]], chain complexes form a useful presentation for aspects of [[stable homotopy theory]]. More on this aspect [below](#MeaningInHomotopyTheory).
 
@@ -132,7 +132,7 @@ The [[duality|dual]] notion:
 +-- {: .num_defn}
 ###### Definition
 
-A **[[cochain complex]]** in $\mathcal{C}$ is a chain complex in the [[opposite category]] $\mathcal{C}^{op}$. Hence a tower of morphisms as above, but with each [[differential]] $d_n : V^n \to V^{n+1}$ increasing the degree.
+A **[[cochain complex]]** in $\mathcal{C}$ is a chain complex in the [[opposite category]] $\mathcal{C}^{op}$. Hence a tower of objects and morphisms as above, but with each [[differential]] $d_n : V^n \to V^{n+1}$ increasing the degree.
 
 =--
 
