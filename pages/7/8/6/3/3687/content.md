@@ -73,6 +73,8 @@ A review and status report is in
 
 * M. Ballard, _Meet homological mirror symmetry_ ([arxiv:0801.2014](http://arxiv.org/abs/0801.2014))
 
+* A. Port, _An Introduction to Homological Mirror Symmetry and the Case of Elliptic Curves_ ([arXiv:1501.00730](http://arxiv.org/abs/1501.00730))
+
 
 Other reviews include
 
