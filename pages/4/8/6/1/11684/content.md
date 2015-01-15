@@ -1,7 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The _Newlander-Nirenberg theorem_ states that an [[almost complex structure]] comes from a [[complex structure]] precisely if its [[Nijenhuis tensor]] vanishes.
+
+For discussion of this in terms of [[integrability of G-structures]] see there  at _[Examples -- Complex structure](integrability+of+G-structures#ExampleComplexStructure)_.
 
 ## Related concepts
 
