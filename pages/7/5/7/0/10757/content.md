@@ -13,7 +13,7 @@ This entry is about 'generalized Eilenberg-MacLane spaces' as used in Stable Hom
 
 A _generalized Eilenberg-MacLane space_ is a [[topological space]] with the [[homotopy type]] of a [[Cartesian product]] of (finitely many) [[Eilenberg-MacLane spaces]].
 
-Accordingly a _generalized Eilenberg-MacLane spectrum_ is a [[spectrum]] equivalent to a wedge of [[Eilenberg-MacLane spectra]]. 
+Accordingly a _generalized Eilenberg-MacLane spectrum_ is a [[spectrum]] equivalent to a [[wedge sum]] of [[Eilenberg-MacLane spectra]]. 
 
 > to be expanded... please add if you have the time
 
