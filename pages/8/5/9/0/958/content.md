@@ -21,7 +21,9 @@
 
 The __wedge sum__ $A \vee B$ of two [[pointed sets]] $A$ and $B$ is the [[quotient set]] of the [[disjoint union]] $A \uplus B$ where both copies of the basepoint (the one in $A$ and the one in $B$) are identified.  The wedge sum $A \vee B$ can be identified with a [[subset]] of the [[cartesian product]] $A \times B$; if this subset is collapsed to a point, then the result is the [[smash product]] $A \wedge B$.
 
-The wedge sum can be generalised to [[pointed objects]] in any category $C$ with [[pushouts]], and is the [[coproduct]] in the category of pointed objects in $C$ (which is the [[coslice category]] $*/C$).  A very commonly used case is when $C=$[[Top]] is a category of [[topological spaces]].  
+The wedge sum can be generalised to [[pointed objects]] in any category $C$ with [[pushouts]], and is the [[coproduct]] in the category of pointed objects in $C$ (which is the [[coslice category]] $*/C$).  A very commonly used case is when $C=$[[Top]] is a category of [[topological spaces]].
+
+In particular, if $C$ itself is a [[pointed category]], then every object is uniquely a pointed object, so that the coproduct in $C$ itself may be called a _wedge sum_.  A commonly used case is when $C=$[[Spectra]] is a category of [[spectra]].
 
 Also, the wedge sum also makes sense for any [[family]] of pointed objects, not just for two of them, as long as $C$ has pushouts of that size.
 
