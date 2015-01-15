@@ -92,7 +92,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[complex manifold]] on $X$. Every such defines  an almost complex structure and almost complex structures arising this way are called _integrable_  (see at _[[integrability of G-structures]]_).
+A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[complex manifold]] on $X$. Every such defines  an almost complex structure and almost complex structures arising this way are called _integrable_  (see also at _[[integrability of G-structures]]_ the section _[Examples -- Complex structure](integrability+of+G-structures#ExampleComplexStructure)_).
 
 =--
 
@@ -103,6 +103,7 @@ A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[compl
 
 The _[[Newlander-Nirenberg theorem]]_ states that an almost complex structure $J$ on a smooth manifold is integrable (see also at _[[integrability of G-structures]]_) precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
 
+See also at _[[integrability of G-structures]]_ the section _[Examples -- Complex structure](integrability+of+G-structures#ExampleComplexStructure)_.
 
 ### On 2-dimensional manifolds
 
