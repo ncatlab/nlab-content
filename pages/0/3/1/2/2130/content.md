@@ -109,7 +109,7 @@ $$
   \,.
 $$
 
-Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ -- the condition for [[integrability of G-structures]] -- makes it a genuine symplectic structure.
+Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ -- the condition for [[integrability of G-structures]] -- makes it a genuine symplectic structure. See at _[integrability of G-structures -- Examples -- Symplectic structure](integrability+of+G-structures#ExampleSymplecticStructure)_.
 
 A _[[metaplectic structure]]_ on a symplectic or almost symplectic manifold is in turn [[lift of the structure group]] to the [[metaplectic group]]. 
 
@@ -215,6 +215,10 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 ## References
 
 See the references at [[symplectic geometry]].
+
+Discussion of the [[torsion of a G-structure|torsion-invariants]] of almost symplectic structures includes
+
+* {#AlbuquerquePicken11} Rui Albuquerque, Roger Picken, _On invariants of almost symplectic connections_ ([arXiv:1107.1860](http://arxiv.org/abs/1107.1860))
 
 The generalization of the notion of symplectic manifolds to [[dg-manifolds]] is sometimes known as _[[NQ-supermanifolds|PQ-supermanifolds]]_ , due to
 
