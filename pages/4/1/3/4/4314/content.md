@@ -25,7 +25,7 @@ It is fairly strong as large cardinal axioms go: its consistency follows from th
 
 Vop&#283;nka's principle has many equivalent statements.  Here are a few:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The VP is equivalent to the statement:
@@ -34,7 +34,7 @@ Every [[discrete category|discrete]] [[full subcategory]] of a [[locally present
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The VP is equivalent to the statement:
@@ -43,7 +43,7 @@ For every [[proper class]] sequence $\langle M_\alpha | \alpha \in Ord\rangle$ o
 
 =--
 
-+-- {: .un_theorem #ColimitsCoreflective}
++-- {: .num_theorem #ColimitsCoreflective}
 ###### Theorem
 
 The VP is equivalent to the statement:
@@ -55,7 +55,7 @@ For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hook
 This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The VP is equivalent to the statement:
@@ -66,14 +66,14 @@ Every [[cofibrantly generated model category]] (in a slightly more general sense
 
 This is in ([Rosicky](#Rosicky))
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If one insists on the traditional stricter definition of cofibrant generated model category, then the VP still implies that these are all combinatorial. But the VP is slightly stronger than this statement.
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 The VP is equivalent to both of the statements:
 
@@ -88,7 +88,7 @@ This is in ([BCMR](#BagariaCasacubertaMathiasRosicky)).
 
 The Vop&#283;nka principle implies the weak Vop&#283;nka principle.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The weak VP is equivalent to the statement:
@@ -104,7 +104,7 @@ This is [AdamekRosicky, theorem 6.22 and example 6.23](#AdamekRosicky)
 
 Vop&#283;nka's principle can be relativized to levels of the [[Lévy hierarchy]] by restricting the complexity of the (definable) classes to which it is applied.  The following theorems are from ([BCMR](#BagariaCasacubertaMathiasRosicky)).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 For any $n\ge 1$, the following statements are equivalent.
 
@@ -114,7 +114,7 @@ For any $n\ge 1$, the following statements are equivalent.
 
 The "$n=0$ case" of this is:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 For any $n\ge 1$, the following statements are equivalent.
 
@@ -133,7 +133,7 @@ From a category-theoretic perspective, Vop&#283;nka's principle can be motivated
 ## Consequences {#Consequences}
 
 
-+-- {: .un_theorem #ConsequenceForBousfieldLoc}
++-- {: .num_theorem #ConsequenceForBousfieldLoc}
 ###### Theorem
 
 The VP implies the statement:
@@ -145,7 +145,7 @@ Let $C$ be a [[left proper model category|left proper]] [[combinatorial model ca
 This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
 
 
-+-- {: .un_corollary #ConsequenceForReflectiveInfCatLoc}
++-- {: .num_corollary #ConsequenceForReflectiveInfCatLoc}
 ###### Corollary
 
 The VP implies the statement:
