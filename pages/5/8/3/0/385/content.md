@@ -77,7 +77,7 @@ A detailed discussion is in
 
 * [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
-* {#BrownHiggins} [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33. [DOI](http://dx.doi.org/10.1016%2f0022-4049(87)90099-5)
+* {#BrownHiggins} [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33. [PDF](http://www.sciencedirect.com/science/article/pii/0022404987900995)
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118. [ArXiv](http://arxiv.org/abs/math/0007009){#Al-Agl/Brown/Steiner}
 
