@@ -99,7 +99,7 @@ $$
   X
 $$
 
-is an [[exact sequence]], and traditionally the condition is often stated this way. But it somewhat hides the true meaning of the resolution and notably the fact that $(Q X)_0$ and $X$ are to be regared as being in the same degree. It also does not naturally generalize to the case where $X$ itself is already a chain complex not concentrated in lowest degree (discussed [below](#LeftHyper)).
+is an [[exact sequence]], and traditionally the condition is often stated this way. But it somewhat hides the true meaning of the resolution and notably the fact that $(Q X)_0$ and $X$ are to be regarded as being in the same degree. It also does not naturally generalize to the case where $X$ itself is already a chain complex not concentrated in lowest degree (discussed [below](#LeftHyper)).
 
 =--
 
