@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. This is the first in an infinite tower of tensor invariants associated with a $G$-structure that obstruct its integrability (flatness).
+The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. This is the first in an infinite tower of tensor invariants in [[Spencer cohomology]] associated with a $G$-structure that obstruct its integrability (local flatness) ([Guillemin 65](#Guillemin65)).
 
 
 The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_) ([Sternberg 64, from p. 317 on](#Sternberg64), [Lott 90, p.10](#Lott90), [Joyce 00, section 2.6](#Joyce00)).
@@ -32,9 +32,15 @@ The _torsion of a $G$-structure_ is defined to be the space in which the invaria
 
 The concept goes back to the work of [[Eli Cartan]] ([[Cartan geometry]]).
 
+
 Textbook accounts include
 
 * {#Sternberg64} [[Shlomo Sternberg]], section VII of _Lectures on differential geometry_, Prentice Hall 1964; Russian transl. Mir 1970
+
+Discussion including the higher order obstructions in [[Spencer cohomology]] to [[integrability of G-structures]] is in
+
+* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
