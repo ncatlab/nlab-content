@@ -104,7 +104,7 @@ $$
 If $X$ is a [[finite spectrum]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
 
 $$
-  f_0 \coloneqq (c_i)_I \;\; X \longrightarrow K_0 \coloneqq \wedge_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
+  f_0 \coloneqq (c_i)_I \;\; X \longrightarrow K_0 \coloneqq \bigvee_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
 $$
 
 into a [[generalized Eilenberg-MacLane spectrum]]. As before, this map classifies its [[homotopy fiber]]
