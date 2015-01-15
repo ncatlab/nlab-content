@@ -21,6 +21,11 @@
 
 Around every point of a [[Riemannian manifold]] there is a [[coordinate system]] such that the [[Levi-Civita connection]] of the metric pulled back to these coordinates vanishes _at that point_. (Notice that the [[Riemann curvature]] will not in general vanish even at that point).
 
+In the context of [[general relativity]] this reflects aspects of the [[equivalence princile (physics)]].
+
+In the sense of [[integrability of G-structures]], Riemann normal coordinates exhibit the first-order integrability of [[orthogonal structure]], see at _[integrability of G-structures -- Examples -- Orthogonal structure](integrability+of+G-structures#ExamplesOrthogonalStructure)_.
+
+
 ## Related concepts
 
 * [[general covariance]]
