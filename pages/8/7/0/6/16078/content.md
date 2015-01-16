@@ -16,6 +16,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. This is the first in an infinite tower of tensor invariants in [[Spencer cohomology]] associated with a $G$-structure that obstruct its integrability (local flatness) ([Guillemin 65](#Guillemin65)).
 
