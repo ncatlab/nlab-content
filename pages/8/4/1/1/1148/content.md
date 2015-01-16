@@ -299,6 +299,8 @@ $$
 
 * [[Dolbeault cohomology]]
 
+* [[Spencer cohomology]]
+
 * [[Deligne cohomology]]
 
 * [[etale cohomology]]
