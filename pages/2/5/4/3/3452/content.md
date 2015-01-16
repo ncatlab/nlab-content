@@ -25,3 +25,5 @@ We have $Y$ here as a set; but in fact, $Y$ may be given any [[topological struc
 * a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
 
 A locally constant sheaf / $\infty$-stack is also called a [[local system]].
+
+[[!redirects locally constant functions]]
