@@ -19,7 +19,7 @@ A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-
 
 Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
-A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is integrable/torsion free to first order. This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
+A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integrability of G-structures|integrable to first order]], i.e. [[torsion of a G-structure|torsion-free]] (prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes} below). This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
 
 $G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]].
 
@@ -185,11 +185,30 @@ Here
 
 For instance ([Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00)).
 
++-- {: .num_prop #CovariantlyConstantDefinite3FormMeansTorsionVanishes}
+###### Proposition
+
+The conditions on a $G_2$-[[G-structure|structure]] in def. \ref{G2Structure} are equivalent to the [[torsion of a G-structure|torsion]] of the $G_2$-structure to vanish.
+
+=--
+
+([Bryant 05, prop. 2](#Bryant05)).
+
++-- {: .num_remark}
+###### Remark
+
+The higher [[torsion of a G-structure|torsion invariants]] of $G_2$-structures do not necessarily vanish (contrary to the case for instance of [[symplectic structure]] and [[complex structure]], see at [integrability of G-structures -- Examples](integrability+of+G-structures#Examples)). Therefore, even in view of prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes}, a $G_2$-manifold, def. \ref{G2manifold}, does not, in general admit an [[atlas]] be adapted [[coordinate charts]] equal to $(\mathbb{R}^7, \phi)$.
+
+The space of second order torsion invariants of $G_2$-structures is for instance in ([Bryant 05 (4.7)](#Bryant05)).
+
+=--
+
+
 
 ### Weak $G_2$-holonomy
  {#WeakG2Holonomy}
 
-There is a useful weakened notion of $G_2$-holonomy. 
+There is a weakened notion of $G_2$-holonomy. 
 
 +-- {: .num_defn #WeakG2Holonomy}
 ###### Definition
@@ -197,13 +216,13 @@ There is a useful weakened notion of $G_2$-holonomy.
 A 7-dimensional manifold is said to be of _weak $G_2$-holonomy_ if it carries a 3-form $\omega$ with the relation of def. \ref{G2manifold} generalized to
 
 $$
-  d \omega = \lambda \star \omega
+  \mathbf{d} \omega = \lambda \star \omega
 $$
 
 and hence
 
 $$
-  d \star \omega = 0
+  \mathbf{d} \star \omega = 0
 $$
 
 for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-holonomy, by \ref{G2manifold}. 
@@ -221,9 +240,11 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 +-- {: .num_prop }
 ###### Proposition
 
-A 7-manifold admits a $G_2$-structure, def. \ref{G2Structure}, precisely if it admits a [[spin structure]].
+A 7-manifold admits a $G_2$-structure, def. \ref{G2Structure}, precisely if it admits an [[orientation]] and a [[spin structure]].
 
 =--
+
+That orientability and spinnability is necessary follows directly from the fact that $G_2 \hookrightarrow GL(7)$ is connected and simply connected. That these conditions are already sufficient is due to ([Gray 69](#Gray69)), see also ([Bryant 05, remark 3](#Bryant05)).
 
 ### Metric structure
 
@@ -259,7 +280,7 @@ The concept goes back to
 
 * E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.
 
-Non-compact $G_2$-manifolds were constructed in
+Non-compact $G_2$-manifolds were first  constructed in
 
 * [[Robert Bryant]], ; S.M. Salamon,  (1989), _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850.
 
@@ -268,6 +289,10 @@ Non-compact $G_2$-manifolds were constructed in
 * {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
  
 * {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+
+The sufficiency of spin structure for $G_2$-structure is due to
+
+* {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
 
 Surveys include
 
