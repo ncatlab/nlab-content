@@ -26,17 +26,18 @@ Beware that some authors use the term "integrable" for "torsion-free". This orig
 ## Definition
  {#Definition}
 
-A $G$-structure is called _locally flat_ ([Sternberg 64, section VII, def. 2.4](#Sternberg64)) or _integrable_ (e.g. [Alekseevskii](#Alekseevskii)) if it is locally equivalent to the standard $G$-structure on the given model space (see also [Lott 90, page 4 of the exposition](#Lott90)).
+### Traditional
+
 
 
 Let $V$ be a linear local model space, e.g. a [[vector space]] in plain [[differential geometry]] or [[super vector space]] in [[supergeometry]], etc.. Write $GL(V)$ for its [[general linear group]]. Consider a [[group]] [[homomorphism]] $G \longrightarrow GL(V)$.
 
-Let $\mathbf{c}_V$ be the _standard flat $G$-structure_ on $V$ (see at _[G-Structure -- Examples -- Standard flat G-structure](G-structure#TheStandardFlatGStructure)_).
+Write $\mathbf{c}_0$ for the _standard flat $G$-structure_ on $V$ (see at _[G-Structure -- Examples -- Standard flat G-structure](G-structure#TheStandardFlatGStructure)_).
 
 +-- {: .num_defn}
 ###### Definition
 
-A[[G-structure]] $\mathbf{c}$ on a [[manifold]] $X$ modeled on $V$ (e.g. a [[smooth manifold]] or [[supermanifold]]) is called integrable if
+A [[G-structure]] $\mathbf{c}$ on a [[manifold]] $X$ modeled on $V$ (e.g. a [[smooth manifold]] or [[supermanifold]]) is called integrable if
 
 1. there exists [[cover]] $\{U_i \hookrightarrow X\}$ by [[open subsets]]  $U_i \hookrightarrow V$;
 
@@ -49,10 +50,14 @@ A[[G-structure]] $\mathbf{c}$ on a [[manifold]] $X$ modeled on $V$ (e.g. a [[smo
 
 =--
 
+This is due to ([Sternberg 64, section VII, def. 2.4](#Sternberg64), [Guillemin 65, section 3](#Guillemin65)).  For review see also ([Alekseevskii](#Alekseevskii), [Lott 90, page 4 of the exposition](#Lott90)).
 
-### In terms of subbundles
 
-For instance if $G$-structure is modeled by $G$-subbundles $P$ of the [[frame bundle]] (as discussed at _[G-structure -- In terms of subbundles of the frame bundle](G-structure#InTermsOfSubbundlesOfTheFrameBundle)_ ), then it is integrable if each $P \hookrightarrow Fr(X)$ restricts on each patch to $P_0 \hookrightarrow Fr(V)$
++-- {: .num_remark}
+###### Remark
+
+
+More concretely, if $G$-structure is modeled by $G$-subbundles $P$ of the [[frame bundle]] (as discussed at _[G-structure -- In terms of subbundles of the frame bundle](G-structure#InTermsOfSubbundlesOfTheFrameBundle)_ ), then it is integrable if each $P \hookrightarrow Fr(X)$ restricts on each patch to $P_0 \hookrightarrow Fr(V)$
 
 $$
   \array{
@@ -65,8 +70,18 @@ $$
   \,.
 $$
 
+=--
 
-### In terms of differential cohesion
++-- {: .num_defn}
+###### Definition
+
+For $k \in \mathbb{N}$, a [[G-structure]] $\mathbf{c}$ on a [[manifold]] $X$ modeled on $V$ (e.g. a [[smooth manifold]] or [[supermanifold]]) is called _order-$k$ infinitesimally integrable_ if at each point $x \in X$ its restriction to the order-$k$ [[infinitesimal neighbourhood]] $\mathbb{D}^V_0 \simeq \mathbb{D}_x^X \hookrightarrow X$ is equal to the default $G$-structure $\mathbf{c}_0$.
+
+=--
+
+([Guillemin 65, section 4](#Guillemin65))
+
+### In higher differential cohesive geometry 
  {#IntermOfDifferentialCohesion}
 
 
@@ -251,7 +266,7 @@ A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[tors
 
 * {#Sternberg64} [[Shlomo Sternberg]], chapter VII of _Lectures on differential geometry_, Prentice-Hall (1964)
 
-* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
 
 * {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
 
