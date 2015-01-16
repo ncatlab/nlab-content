@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _vielbein_ or _soldering form_ on a [[manifold]] $X$ is a linear identification of a [[tangent bundle]] with a [[vector bundle]] with explicit [[orthogonal structure]].
+A _vielbein_ or _solder form_ on a [[manifold]] $X$ is a linear identification of a [[tangent bundle]] with a [[vector bundle]] with explicit [[orthogonal structure]].
 
 Any such choice encodes a [[Riemannian metric]] on $X$. 
 
@@ -203,7 +203,7 @@ $$
 $$
 
 
-A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle through $\mathbf{c}$, up to a smooth [[homotopy]].
+A choice of [[orthogonal structure]] on $T X$ a [[G-structure]] for $G = O(n)$, hence is a factorization of the above $GL(n)$-valued cocycle through $\mathbf{c}$, up to a smooth [[homotopy]].
 
 $$
   \array{
@@ -467,6 +467,34 @@ The above discussion seamlessly generalizes to many other related cases. For ins
 and so on. More examples are discussed for instance at 
 _[[twisted smooth cohomology in string theory]]_.
 
+### In terms of basic forms on the frame bundle
+ {#InTermsOfBasicFormsOnFrameBundle}
+
+A [[G-structure]] on $X$ for $G = O(n)$ the [[orthogonal group]] is equivalently an $O(n)$-[[principal bundle|principal]] subbundle of the [[frame bundle]] $\pi \colon Fr(X)\to X$.
+
+This frame bundle carries a universal "basic" $\mathbb{R}^n$-valued differential form
+
+$$
+  \tau_{b} \in \Omega^1(Fr(X), \mathbb{R}^n)
+$$
+
+defined on a [[tangent vector]] $v\in \Gamma_{f \in Fr(X)}$ by 
+
+$$
+  \tau_b(v) \coloneqq f^{-1}(d \pi(v))
+  \,,
+$$
+
+where $d\pi \colon T Fr(X)\to T X$ is the [[differential]] of the bundle projection $\pi$ and $f$ is the given frame regarded as a linear [[isomorphism]] $f\colon \mathbb{R}^n \stackrel{\simeq}{\longrightarrow} T_x X$.
+
+Then given an orthogonal structure in the form of an $O(n)$-subbundle $i \colon Fr_O(X) \hookrightarrow Fr(X)$ and given finally a local section $\sigma$ of $Fr_O(X)$, then the vielbein field with respect to that local trivialization is the [[pullback of differential forms|pullback]] form
+
+$$
+ \tau = \sigma^\ast i^\ast \tau_b
+  \,.
+$$
+
+(exposition of this in the wider context of [[integrability of G-structures]] includes [Lott 90, p. 4](#Lott90)).
 
 ## Related concepts
 
@@ -478,6 +506,12 @@ _[[twisted smooth cohomology in string theory]]_.
 * [[generalized vielbein]], [[exceptional generalized geometry]]
 
 See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28physics%29#OrdinaryGravity)_.
+
+## References
+
+Discussion in the general context of [[G-structures]] includes
+
+* {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
 
 
@@ -493,6 +527,10 @@ See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28ph
 
 [[!redirects vielbein field]]
 [[!redirects vielbein fields]]
+
+[[!redirects solder form]]
+[[!redirects solder forms]]
+
 
 [[!redirects soldering form]]
 [[!redirects soldering forms]]
