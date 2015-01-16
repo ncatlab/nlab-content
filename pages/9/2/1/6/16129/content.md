@@ -32,10 +32,19 @@ In terms of [[synthetic differential geometry]]/[[differential cohesion]] a [[ge
 
 ## References
 
+Lecture notes include
+
 * [[Demeter Krupka]], Josef Jany&#353;ka,  _Lectures on differential invariants_, Univerzita JEP, Brno, 1990.
 
 * [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 13 of _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
 
+Original discussion (in the context of [[integrability of G-structures]]) is due to
+
+* {#Guillemin65} [[Victor Guillemin]], section 3 of _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+
+See also
+
 * Wikipedia, _[Jet group](https://en.wikipedia.org/wiki/Jet_group)_
 
 * [MO discussion](http://mathoverflow.net/a/55322/381)
+
