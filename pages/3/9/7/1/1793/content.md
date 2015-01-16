@@ -1048,7 +1048,7 @@ and noticed as cofibrantly generated model structure on p. 7 of
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
  {#SchwedeShipley98}
 
-That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thius a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in 
+That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in 
 
 * [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
  {#RezkSchwedeShipley01}
