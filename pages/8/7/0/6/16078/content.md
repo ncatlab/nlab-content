@@ -20,8 +20,9 @@
 The [[integrability of G-structures]] exists to first order, precisely if a certain [[torsion]] [[obstruction]] vanishes. This is the first in an infinite tower of tensor invariants in [[Spencer cohomology]] associated with a $G$-structure that obstruct its integrability (local flatness) ([Guillemin 65](#Guillemin65)).
 
 
-The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_) ([Sternberg 64, from p. 317 on](#Sternberg64), [Lott 90, p.10](#Lott90), [Joyce 00, section 2.6](#Joyce00)).
+The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_) ([Sternberg 64, from p. 317 on](#Sternberg64), [Guillemin 65, section 4](#Guillemin65)), for review see also ([Lott 90, p.10](#Lott90), [Joyce 00, section 2.6](#Joyce00)).
 
+The order $k$-torsion of a $G$-structure (counting may differ by 1) is an element in a certain [[Spencer cohomology]] [[cohomology group|group]] ([Guillemin 65, prop. 4.2](#Guillemin65)) and is the [[obstruction]] to lifting an order-$k$-[[integrable G-structure]] to order $k+1$ ([Guillemin 65, theorem 4.1](#Guillemin65)).
 
 
 ## Related concepts
@@ -39,7 +40,7 @@ Textbook accounts include
 
 Discussion including the higher order obstructions in [[Spencer cohomology]] to [[integrability of G-structures]] is in
 
-* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
 
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
