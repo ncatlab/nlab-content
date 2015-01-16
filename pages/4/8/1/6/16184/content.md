@@ -1,0 +1,6 @@
+
+
+The [[homology]] dual of [[group cohomology]].
+
+See for instance at _[group cohomology -- In terms of homological algebra](group+cohomology#InTermsOfHomologicalAlgebra)_ and replace [[Ext]] by [[Tor]].
+
