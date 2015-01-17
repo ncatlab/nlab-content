@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,6 +20,8 @@ For [[Cartan geometry]] of the [[super Poincare group]] ([[supergravity]]) the [
 For the moment see at [[super Minkowski spacetime]] for more, around [this remark](super+Minkowski+spacetime#Supertorsion)
 
 ## Related concepts
+
+* [[super-vielbein]]
 
 * [[torsion constraints in supergravity]]
 
