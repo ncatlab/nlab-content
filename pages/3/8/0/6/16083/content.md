@@ -23,9 +23,64 @@
 
 ## Idea
 
-The [[equations of motion]] of [[supergravity]] typically imply, or are even equivalent to (e.g. [Howe 97](#Howe97)), that some -- but not all -- of the components of the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanish. At least in some cases this may be understood via "twisted" [[torsion of a G-structure]] for a suitable [[supergroup]] $G$ ([Lott 01](#Lott01)).
+The [[equations of motion]] of [[supergravity]] typically imply, or are even equivalent to (e.g. [Howe 97](#Howe97)), that some -- but not all -- of the components of the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanish. 
 
-For instance in [[11-dimensional supergravity]] the constraint is ([Bergshoeff-Sezgin-Townsend 87, equation (14)](#BergshoeffSezginTownsend87)) that the spinorial component of the supertorsion is locally given by $(\Gamma^a)_{\alpha \beta}$.
+
+
+### From the canonical torsion of super-Minkowski spacetime
+ {#CanonicalTorsionOfSuperMinkowskiSpacetime}
+
+The torsion constraint is naturally understood by regarding [[supergravity]] as [[Cartan geometry]] for the inclusion of the [[orthogonal group]] into a [[super Poincare group]] and by noticing that the corresponding local model space, which is [[super-Minkowski spacetime]] $\mathbb{R}^{d|N}$, canonically has non-vanishing torsion.
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the [[super translation group]]. Then the [[left-invariant 1-forms]] are
+
+* $\psi^\alpha = d \theta^\alpha$.
+
+* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
+
+Here the extra summand in the equation for $e^a$ (necessary to make it left-invariant) causes it to be non-closed:
+
+$$ 
+  \begin{aligned}
+    d e^a & = d (d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
+    \\
+    & = \frac{i}{2} d \overline{\theta}\Gamma^a d \theta
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+  \,.
+$$
+
+Taking the [[spin connection]] $(\omega^a{}_b)$ on $\mathbb{R}^{d|N}$ to vanish, as usual, this means that there is non-vanishing [[torsion]]:
+
+$$
+  \begin{aligned}
+    \tau^a & = \mathbf{d} e^a + \omega^a{}_b \wedge e^b 
+    \\
+    & = \mathbf{d} e^a
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+$$
+
+Depending on perspective one might say that it is the [[supertorsion]] that vanishes (see at _[[super-Minkowski spacetime]]_ and at _[[D'Auria-Fre formulation of supergravity]]_ for this perspective), or, alternatively, that one is dealing with [[Cartan geometry]]/[[G-structure]] whose local model space carries non-vanishing torsion, see [below](#InTermsOfTorsionTwistedGStructure). 
+
+### Examples
+
+In accord with the [above](#CanonicalTorsionOfSuperMinkowskiSpacetime), typically the [[equations of motion]] of a [[supergravity]] theory constrain the spinorial part of the torsion to have components $(\Gamma^a)_{\alpha \beta}$.
+
+For instance in [[11-dimensional supergravity]] this is ([Bergshoeff-Sezgin-Townsend 87, equation (14)](#BergshoeffSezginTownsend87)).
+
+
+### In terms of torsion-twisted $G$-structure
+ {#InTermsOfTorsionTwistedGStructure}
+
+Given a [[subgroup]] $G\hookrightarrow GL(V)$ of the [[general linear group]] of a linear model space $V$ (e.g. [[super-Minkowski spacetime]] $\mathbb{R}^{d|N}$), then a [[G-structure]] is [[integrability of G-structure|first-order integrable]] if on the first-order [[infinitesimal neighbourhoods]] of any point it is equal to the canonical (trivial) $G$-structure on $V$. Ordinarily the standard [[torsion]] on $V$ vanishs, and if so then so does that of any first-order integrable $G$-structire, which is the reason why for these the [[torsion of a G-structure]] vanishes.
+
+But in the situation of $V$ being [[super-Minkowski spacetime]] as [above](#CanonicalTorsionOfSuperMinkowskiSpacetime), the torsion of the local model space does not vanish, and so accordingly neither does that of a first-order integrable $G$-structure in this case.
+
+This perspective on the torsion constraints in supergravity is adopted in ([Lott 01](#Lott01)), see there around (38) of the original article or section 4 of the review on the arXiv.
+
 
 ## Related concepts
 
