@@ -16,7 +16,11 @@
 
 ## Idea
 
-Homological algebra is, roughly speaking, the [[homotopy theory]] of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (generally in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (hence the name).  It can be regarded as any of the following:
+In an [[abelian category]] $\mathcal{A}$, _homological algebra_ is the [[homotopy theory]] of [[chain complexes]] in $\mathcal{A}$ up to [[quasi-isomorphism of chain complexes]]. Hence it is the study of the [[(infinity,1)-categorical localization]] of the [[category of chain complexes]] at the class of [[quasi-isomorphism of chain complexes|quasi-isomorphisms]], or in other words the [[derived (infinity,1)-category]] of $\mathcal{A}$.
+
+When considering nonnegatively graded chain complexes, homological algebra may be viewed as a linearized version of the [[homotopy theory]] of [[homotopy types]] or [[infinity-groupoids]], by the [[Dold-Kan correspondence]]. When considering unbounded chain complexes, it may be viewed as a linearized and stabilized version, by the [[stable Dold-Kan correspondence]]. Conversely, we may view [[homotopical algebra]] as a nonabelian generalization of homological algebra.
+
+Hence homological algebra is
 
 * The study of a particularly simple sort of [[stable (∞,1)-categories]], namely those derived from categories of chain complexes.  See _[As a toolbox in stable homotopy theory](#ToolboxInStableHomotopyTheory)_ below and the discussion at [[cosmic cube]].
 
@@ -47,6 +51,7 @@ Historically this modern perspective has developed only in stages out of more "c
 ### Non-abelian variants
 
 There are variants of the tools of homological algebra that can also be applied to more non-linear phenomena, see for instance at [[Dold-Kan correspondence]] the section _[non-abelian case](Dold-Kan%20correspondence#StatementGeneral)_.  These include non-Abelian (co)homology and crossed and quadratic versions that use a small degree of non-linearity in the models.  These latter theories make extensive use of techniques from [[homotopical algebra]] in the wide sense of that term and [[simplicial homotopy theory]] to avoid the crushing of homotopical information that can occur when passing to chain complexes.
+
 
 
 
