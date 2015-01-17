@@ -107,6 +107,9 @@ $$
 
 * in the context of [[exceptional generalized geometry]] one considers vielbeins arising from reduction along $H_n \to E_n$ for $E_n$ an [[exceptional Lie group]].
 
+## Related concepts
+
+* [[super-vielbein]]
 
 ## References
 
