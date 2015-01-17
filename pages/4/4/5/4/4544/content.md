@@ -61,6 +61,10 @@ Accordingly, [[chain complex]] of vector spaces, possibly that generating a [[se
 
 Beware however that the terminology clashes with the use in [[homotopy theory]], there the concept of _[[finite homotopy type]]_ is crucially different from _[[homotopy type with finite homotopy groups]]_.
 
+### In stable homotopy theory
+
+A [[spectrum]] (in the sense of [[stable homotopy theory]]) is one whose cohomology is finitely generated in each degree, but could exist in infinitely many degrees.
+
 ## References
 
 * [[Nicolae Popescu]], _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
