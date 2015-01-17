@@ -46,6 +46,7 @@ The _[[super-translation group]]_. See there for more details.
 ## Properties
 
 ### Canonical coordinates
+ {#CanonicalCoordinates}
 
 We briefly review some basics of the canonical [[coordinates]] and the super [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] and [[super Minkowski space]] (see also at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_).
 
@@ -92,7 +93,7 @@ Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifo
 
 * $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
 
-Notice that this then gives the above formula for the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
+Notice that this then gives the above formula for the differential of the [[super-vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
 
 $$ 
   \begin{aligned}
@@ -112,7 +113,7 @@ $$
 +-- {: .num_remark #Supertorsion}
 ###### Remark
 
-The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the supervielbein $e$, because the defining equation
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
 
 $$
   d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
