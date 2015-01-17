@@ -37,7 +37,7 @@ The formulation of supergravity equations of motion in terms of constraints on t
 
 * [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
 
-Discussio nof torsion constrains for [[11-dimensional supergravity]] inclides
+Discussion of torsion constrains for [[11-dimensional supergravity]] from the point of view of consistency of the [[membrane]] [[Green-Schwarz action functional]] is in
 
 * {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
 
