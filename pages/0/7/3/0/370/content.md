@@ -175,6 +175,11 @@ A more systematic discussion is in section 12 of
 [[!redirects quasi-isomorphisms]]
 [[!redirects quasiisomorphism]]
 [[!redirects quasiisomorphisms]]
+[[!redirects quasi-isomorphism of chain complexes]]
+[[!redirects quasi-isomorphisms of chain complexes]]
+[[!redirects quasiisomorphism of chain complexes]]
+[[!redirects quasiisomorphisms of chain complexes]]
+
 [[!redirects homology isomorphism]]
 [[!redirects H-*-isomorphism]]
 [[!redirects H*-isomorphism]]
