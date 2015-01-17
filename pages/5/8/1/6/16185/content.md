@@ -30,6 +30,8 @@ where the index $a$ ranges from 1 to the bosonic dimension $p+q$ and where $\alp
 
 * [[generalized vielbein]]
 
+* [[super-torsion]]
+
 [[!redirects supervielbein]]
 
 [[!redirects super-vielbein field]]
