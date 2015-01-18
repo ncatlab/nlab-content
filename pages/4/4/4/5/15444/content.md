@@ -17,4 +17,5 @@
 
 [[!redirects analogies]]
 
+[[!redirects analog]]
 [[!redirects analogs]]
