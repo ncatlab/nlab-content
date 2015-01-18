@@ -133,13 +133,13 @@ The original articles are
 
 The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]] in [[equivariant de Rham cohomology]] is in the appendix of 
 
-* [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
- {#Witten92}
+* {#Witten92} [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
+ 
 
 This is expanded on in 
 
-* [[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
-  {#FigueroaOFarrillStanciu94}
+* {#FigueroaOFarrillStanciu94}[[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
+  
 
 A quick review of this class of 3-cocycles in equivariant de Rham cohomology is also in section 4.1 of 
 
@@ -159,7 +159,11 @@ See also
 
 The [[partition function]]/[[elliptic genus]] of the SU(2)/U(1) gauged WZW model is considered in 
 
-* [[Måns Henningson]], _N=2 gauged WZW models and the elliptic genus_, Nucl.Phys. B413 (1994) 73-83 ([arXiv:hep-th/9307040](http://arxiv.org/abs/hep-th/9307040))
- {#Henningson94}
+* {#Henningson94} [[Måns Henningson]], _N=2 gauged WZW models and the elliptic genus_, Nucl.Phys. B413 (1994) 73-83 ([arXiv:hep-th/9307040](http://arxiv.org/abs/hep-th/9307040))
+ 
+
+[[!redirects gauged WZW models]]
+
 
 [[!redirects gauged Wess-Zumino-Witten model]]
+[[!redirects gauged Wess-Zumino-Witten modesl]]
