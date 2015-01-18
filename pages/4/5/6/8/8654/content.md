@@ -35,6 +35,11 @@ For more details and further pointers see at _[[BRST complex]]_ and in particula
 [[!redirects ghost fields]]
 [[!redirects ghost]]
 [[!redirects ghosts]]
+
+[[!redirects ghost-of-ghosts]]
+[[!redirects ghosts-of-ghosts]]
+
+
 [[!redirects ghost-of-ghost field]]
 [[!redirects ghost-of-ghost fields]]
 
