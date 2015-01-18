@@ -122,7 +122,7 @@ The objects of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infini
 
 ### Higher holonomy
 
-We now define thee ([[David Roberts|DR]] - three? where are the other two?) higher analogs of [[holonomy]] for the case that $\Sigma$ is closed.
+We now define the higher [[analogs]] of [[holonomy]] for the case that $\Sigma$ is closed.
 
 +-- {: .un_defn}
 ###### Definition
@@ -700,8 +700,21 @@ in turn based on constructions in
 
 Remarks on $\infty$-parallel transport in [[Top]] are in
 
-* [[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
-{#Stasheff}
+* {#Stasheff}[[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
+
 
 
 [[!redirects surface holonomy]]
+[[!redirects surface holonomies]]
+
+
+[[!redirects volume holonomy]]
+[[!redirects volume holonomies]]
+
+[[!redirects higher holonomy]]
+[[!redirects higher holonomies]]
+
+[[!redirects higher volume holonomy]]
+[[!redirects higher volume holonomies]]
+
+
