@@ -446,9 +446,12 @@ The original "textbook" references are
 
 Readable introductions to the subject are:
 
+* [[Bjørn Ian Dundas]], [[Marc Levine]], [[P.A. Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]], _Motivic Homotopy Theory: Lectures at a Summer School in Nordfjordeid, Norway, August 2002_, Springer, Universitext, (2006).
+
 * [[Marc Levine]], _Motivic Homotopy Theory_, Milan j. math (2008), ([pdf](http://www.math.unam.mx/javier/levine.pdf))
 
 * [[Fabien Morel]], _An introduction to $\mathbb{A}^1$ homotopy theory_, ICTP Trieste July 2002 ([directory](http://publications.ictp.it/lns/vol15/vol15toc.html), [pdf](http://www.ictp.it/%7Epub_off/lectures/lns015/Morel/Morel.pdf), [ps](http://www.ictp.it/%7Epub_off/lectures/lns015/Morel/Morel.ps))
+
 
 * [[Fabien Morel]], _On the motivic &#960;&#8320; of the sphere spectrum_ ([ps](http://www.mathematik.uni-muenchen.de/~morel/Newton.ps))
 
