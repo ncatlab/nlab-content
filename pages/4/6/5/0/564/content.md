@@ -62,6 +62,8 @@ Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set
 
 Examples appear at 
 
+* [[Stone duality]]
+
 * [[star-autonomous category]]
 
 * [[Chu construction]]
