@@ -247,6 +247,10 @@ as the [[surface holonomy]] of a [[circle 2-bundle with connection]]. See also t
 
 For the fully general understanding as the [[surface holonomy]] of a [[circle 2-bundle with connection]] see the references [below](#ReferencesRelationToGerbesAndCS).
 
+See also 
+
+* [[Edward Witten]], _On holomorphic factorization of WZW and coset models_, Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([Euclid](http://projecteuclid.org/euclid.cmp/1104249222))
+
 ### Introductions and surveys
 
 An survey of and introduction to the topic is in 
