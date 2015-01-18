@@ -26,6 +26,9 @@
 Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of general [[topology]] and topological algebra.
 
 
+
+
+
 ## Particular cases
 
 ### Locales and frames
@@ -48,7 +51,52 @@ Any [[distributive lattice]] generates a [[free object|free]] frame.  The locale
 
 The duality which is due to [[Marshall Stone]], and which gives its name to the subject, is the duality between [[Stone spaces]] and [[Boolean algebras]].  Specifically, a [[distributive lattice]] is a Boolean algebra precisely when the free frame it generates is the topology of a Stone space, and any continuous map of Stone spaces is coherent.  Therefore, the category of Stone spaces is dual to the category of Boolean algebras.  The Boolean algebra corresponding to a Stone space consists of its [[clopen sets]].
 
-One way of explaining this classical Stone duality is via the following sequence of [[equivalences of categories]]
+
+This duality may be realized via a [[dualizing object]] as follows. The two-element [[Boolean algebra]] may be regarded as a Boolean algebra object $\mathbf{2}$ [[internalization|internal to]] the [[category]] of [[compact Hausdorff spaces]] $CH$. Thus, for each finitary Boolean algebra operation $\theta\colon \mathbf{2}^n \to \mathbf{2}$, there is a corresponding operation on the [[representable functor]] $CH(-, \mathbf{2}): CH^{op} \to Set$ given by 
+
+$$CH(-, \mathbf{2})^n \cong CH(-, \mathbf{2}^n) \stackrel{CH(-, \theta)}{\to} CH(-, \mathbf{2})$$ 
+
+and therefore we obtain a lift 
+
+$$CH(-, \mathbf{2}): CH^{op} \to BoolAlg$$ 
+
+A _[[Stone space]]_ is by definition a [[totally disconnected topological space|totally disconnected]] [[compact topological space|compact]] [[Hausdorff topological space]]. Let $Stone \hookrightarrow CH$ denote the [[full subcategory]] of Stone spaces. 
+
++-- {: .num_thm}
+###### Theorem (Stone representation)
+
+The representable functor restricts to an [[equivalence of categories]] $Stone^{op} \to BoolAlg$. 
+=-- 
+
+This important theorem can be exploited to give a third description of the free Boolean algebra on a set $X$: 
+
+$$Bool(X) \cong CH(2^X, \mathbf{2})$$ 
+
+where $2$ denotes the 2-element compact Hausdorff space, and $2^X$ the product space $\prod_X 2$. Indeed, the inverse equivalence 
+
+$$BoolAlg^{op} \to Stone$$ 
+
+takes a Boolean algebra $B$ to its [[spectrum]], i.e., the space of Boolean algebra maps $Bool(B, 2)$ (*this* $2$ is the two-element Boolean algebra $\mathbb{Z}_2$!) equipped with the [[Zariski topology]]. Applied to $B = Bool(X)$, we have 
+
+$$BoolAlg(B, 2) \cong Set(X, 2) = 2^X$$ 
+
+where the Zariski topology coincides with the [[product topology]] on $2^X$. By the equivalence, we therefore retrieve $Bool(X)$ as $CH(2^X, \mathbf{2})$. This in turn is identified with the Boolean algebra of [[clopen subset]]s of the generalised [[Cantor space]] $2^X$.
+
+A second description of the inverse equivalence $BoolAlg^{op} \to Stone$ comes about through the yoga of [[ambimorphic object|ambimorphic objects]]. Namely, the Boolean compact Hausdorff space $\mathbf{2}$ can equally well be seen as a [[compact Hausdorff object]] in the category of Boolean algebras. Thus, the representable functor $Bool(-, \mathbf{2}): Bool^{op} \to Set$ lifts canonically to a functor 
+$$Bool^{op} \to CH$$ 
+and in fact part of the Stone representation theorem is that this factors through the inclusion $Stone \hookrightarrow CH$ as the inverse equivalence $Bool^{op} \to Stone$. In particular this lift determines the topology, providing an description alternative to the description in terms of the Zariski topology (although they are of course the same). 
+
+
+
+An extension of the classical Stone duality to the category of Boolean spaces (= zero-dimensional locally compact Hausdorff spaces) and continuous maps (respectively, perfect maps) was obtained by G. D. Dimov (respectively, by H. P. Doctor) (see the references below). 
+
+
+### Stone spaces and profinite sets
+ {#StoneSpacesAndProfiniteSets}
+
+Note that a finite [[Stone space]] is necessarily [[discrete space|discrete]], and these correspond to the finite Boolean algebras, i.e. $FinSet \simeq FinStoneTop \simeq FinBool^{op}$.  However, since Boolean algebras form a [[locally finitely presentable category]], we have $Bool \simeq Ind(FinBool) \simeq Pro(FinSet)^{op}$ (see [[ind-object]] and [[pro-object]]).  In consequence, $StoneTop \simeq Pro(FinSet)$: i.e. [[Stone spaces]] are equivalent to *[[profinite sets]]*, in this context then often called _[[profinite spaces]]_.
+
+One way of explaining this classical Stone duality is hence via the following sequence of [[equivalences of categories]]
 
 $$
   Bool \simeq Ind(FinBool) \simeq Ind(FinSet^{op}) \simeq Pro(FinSet)^{op}
@@ -56,13 +104,6 @@ $$
 $$
 
 where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[ind-objects]], "$Pro$" for [[pro-objects]] and ${}^{op}$ for the [[opposite category]] and the [[equivalence of categories|equivalence]] $FinSet^{op} \simeq FinBool$ is that discussed at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
-
-An extension of the classical Stone duality to the category of Boolean spaces (= zero-dimensional locally compact Hausdorff spaces) and continuous maps (respectively, perfect maps) was obtained by G. D. Dimov (respectively, by H. P. Doctor) (see the references below). 
-
-
-### Stone spaces and profinite sets
-
-Note that a finite [[Stone space]] is necessarily [[discrete space|discrete]], and these correspond to the finite Boolean algebras, i.e. $FinSet \simeq FinStoneTop \simeq FinBool^{op}$.  However, since Boolean algebras form a [[locally finitely presentable category]], we have $Bool \simeq Ind(FinBool) \simeq Pro(FinSet)^{op}$ (see [[ind-object]] and [[pro-object]]).  In consequence, $StoneTop \simeq Pro(FinSet)$: i.e. [[Stone spaces]] are equivalent to *[[profinite sets]]*, in this context then often called _[[profinite spaces]]_.
 
 
 ### Profinite algebras
