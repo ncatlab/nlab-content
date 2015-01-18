@@ -55,9 +55,8 @@ We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy
 
 ## Higher holonomy
 
-* Hossein Abbaspour, Friedrich Wagemann, _On 2-holonomy_, [arxiv/1202.2292](http://arxiv.org/abs/1202.2292)
 
-Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
+The [[higher holonomy]] (see there) of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
 
 ## Related concepts
 
@@ -81,10 +80,7 @@ Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles wi
 
 
 [[!redirects holonomies]]
-[[!redirects higher holonomy]]
 
 [[!redirects Ambrose-Singer theorem]]
 
 
-[[!redirects higher volume holonomy]]
-[[!redirects higher volume holonomies]]
