@@ -23,7 +23,15 @@
 
 There are several ways in which the _[[Riemann hypothesis]]_ has or might have an incarnation in or leave an imprint on [[physics]], specifically in [[quantum physics]].
 
-By the general discussion at _[[zeta function]]_ and at _[[functional determinant]]_ zeta functions are closely related to 1-loop [[vacuum amplitudes]] and to [[vacuum energy]] in [[quantum field theory]] in general and in [[string theory]] in particular. Concretely, the [[Rankin-Selberg-Zagier method]] implies that the [[partition function]] of the [[superstring]] asymptotes for small [[proper time]] to a constant times a converging oscillatory term (reminiscent of the [[explicit formulae for L-functions]]) whose [[frequencies]] are proportional to the imaginary values of the zeros of the [[Riemann zeta function]] ([ACER 11](#ACER11)).
+### Via string theory
+
+By the general discussion at _[[zeta function]]_ and at _[[functional determinant]]_ zeta functions are closely related to 1-loop [[vacuum amplitudes]] and to [[vacuum energy]] in [[quantum field theory]] in general and in [[string theory]] in particular. 
+
+Concretely, the [[Rankin-Selberg-Zagier method]] implies that the [[partition function]] of the [[superstring]] asymptotes for small [[proper time]] to a constant times a converging oscillatory term (reminiscent of the [[explicit formulae for L-functions]]) whose [[frequencies]] are proportional to the imaginary values of the zeros of the [[Riemann zeta function]] ([ACER 11](#ACER11)).
+
+Similarly there the [[Veneziano amplitude]] of the string has an expression in terms of the [[Riemann zeta function]] ([HJM 15](#HJM15)).
+
+### Via noncommutative geometry
 
 In other parts of the literature there is the desire to interpret the Riemann zeta function instead as a [[partition function]] of a [[quantum mechanical system]]. (Notice that the 1-loop [[vacuum amplitude]] mentioned before is instead a [[Mellin transform]] of the partition function.) The main example here is maybe the [[Bost-Connes system]].
 
@@ -37,6 +45,7 @@ In other parts of the literature there is the desire to interpret the Riemann ze
 
 ## References
 
+### Via string theory
 
 via [[string theory]]:
 
@@ -48,6 +57,9 @@ via [[string theory]]:
 
 * Sergio L. Cacciatori, Matteo A. Cardella, _Uniformization, Unipotent Flows and the Riemann Hypothesis_ ([arXiv:1102.1201](http://arxiv.org/abs/1102.1201))
 
+* {#HJM15} Yang-Hui He, Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
+
+### Via noncommutative geometry
 
 via [[noncommutative geometry]]:
 
