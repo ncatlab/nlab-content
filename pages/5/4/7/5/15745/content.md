@@ -22,3 +22,5 @@
 [[!redirects Galileo group]]
 
 * David Hilbert, Nick Huggett, _Groups in Mind_ ([pdf](http://tigger.uic.edu/~huggett/Nick/My%20Work_files/groups.pdf))
+
+[[!redirects Galilei group]]
