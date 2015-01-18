@@ -37,4 +37,8 @@ Historically, this amplitude first arose in [[dual resonanace models]] and the r
 
 * _The Veneziano amplitude_ [pdf](http://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset8.pdf)
 
+Discussion in the context of [[Riemann hypothesis and physics]] is in
+
+* {#HJM15} Yang-Hui He, Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
+
 [[!redirects Veneziano amplitudes]]
