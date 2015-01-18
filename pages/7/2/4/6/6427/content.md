@@ -64,3 +64,6 @@ Also
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
 [[!redirects super Poincare group]]
+
+[[!redirects super-Poincare group]]
+[[!redirects super-Poincaré group]]
