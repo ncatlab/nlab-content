@@ -132,6 +132,16 @@ The algebraic statement and proof is in
 
 * [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
 
+The Blakers-Massey's Theorem was shown to be a consequense of Farjoun's "cellular inequalities" 
+
+* Farjoun, _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
+
+is Theorem 1.B of 
+
+* [[Wojciech Chachólski]], _A generalization of the triad theorem of Blakers-Massey_ Topology 36.6 (1997): 1381-1400
+
+This would constitute a purely [[homotopy theory|homotopy-theoretic]] proof.
+
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
 * [[Ronnie Brown|R. Brown]] and [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
@@ -158,13 +168,6 @@ The methods work because of their equivalence between cat$^n$-groups and crossed
 
 * [[Jean-Louis Loday]],  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
 
-The Blakers-Massey's Theorem was shown to be a consequense of Farjoun's "cellular inequalities" 
-
-* Farjoun, _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
-
-is Theorem 1.B of 
-
-* [[Wojciech Chachólski]], _A generalization of the triad theorem of Blakers-Massey_ Topology 36.6 (1997): 1381-1400
 
 
 Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
