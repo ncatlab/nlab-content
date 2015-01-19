@@ -58,6 +58,11 @@ More generally, the __generalized flag variety__ is the complex projective varie
 * [[Armand Borel]], _Linear algebraic groups_, Springer
 
 
+Flag varieties of [[loop groups]] are discussed in
+
+
+* {#Kumar02} [[Shrawan Kumar]], _Kac-Moody Groups, their Flag Varieties and Representation Theory_, Birkh&#228;user 2002
+
 
 [[!redirects flag varieties]]
 [[!redirects flag manifold]]
