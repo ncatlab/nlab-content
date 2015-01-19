@@ -15,7 +15,10 @@
 
 ## Idea
 
-A [[group]] corresponding to a [[Kac-Moody algebra]] (not necessarily affine).
+A [[group]] corresponding to a [[Kac-Moody algebra]] is a Kac-Moody group. 
+
+This subsumes the case of [[affine Lie algebras]] in which case the corresponding Kac-Moody group is a centrally extended [[loop group]] (see there for more) and often the words "Kac-Moody group" are used synonomously with "centrally extended loop group". 
+
 
 ## Properties
 
