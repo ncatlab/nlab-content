@@ -24,14 +24,14 @@
 
 A _dualizing object_ $D$ in a [[closed category]] $\mathcal{D}$ is an [[object]] such that the [[internal hom]] $[-,D] \colon \mathcal{C} \to \mathcal{C}^{op}$ into it serves as an [[involution|involutive]] [[duality]] operation on $\mathcal{C}$ in that applying it twice yields an [[equivalence of categories]] $[[-,D],D] \colon \mathcal{C} \to \mathcal{C}$.
 
-Typically one assumes $\mathcal{C}$ to be a [[closed monoidal category]] and requires that the [[adjunct]] of the [[evaluation map]] (the [[unit of a monad|unit]] of the [[continuation monad]] of $D$) provides a [[natural equivalence]] 
+Typically one assumes $\mathcal{C}$ to be a [[symmetric monoidal closed category]] and requires that the [[adjunct]] of the [[evaluation map]] (the [[unit of a monad|unit]] of the [[continuation monad]] of $D$) provides a [[natural equivalence]] 
 
 $$
   id_{\mathcal{C}} \stackrel{\simeq}{\longrightarrow} [[-,D],D]
   \,.
 $$
 
-In this form dualizing objects appear for instance in the definition of [[star-autonomous categories]].
+Note that a [[star-autonomous category]] is by definition a symmetric monoidal closed category equipped with such a dualizing object $D$.
 
 More specifically in [[homological algebra]] and [[stable homotopy theory]] there are typically also certain [[finite object|finiteness conditions]] imposed on a dualizing object $D$ and one speaks of specifically of _[[dualizing modules]]_ (See for instance ([Heard Stojanoska 14, def. 3.1](#HeardStojanoska14) and [[Representability Theorems|Lurie, section 4.2]]). 
 
