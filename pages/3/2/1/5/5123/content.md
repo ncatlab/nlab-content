@@ -52,13 +52,13 @@ $$
 and the corresponding degeneracy maps are
 
 $$
-  s_{\mu} = s_{\mu_p} \circ \cdots s_{\mu_2} \circ s_{\mu_1}
+  s_{\mu} = s_{\mu_p - 1} \circ \cdots s_{\mu_2 - 1} \circ s_{\mu_1 - 1}
 $$
 
 and
 
 $$
-  s_{\nu} = s_{\nu_q} \circ \cdots s_{\nu_2} \circ s_{\nu_1}
+  s_{\nu} = s_{\nu_q - 1} \circ \cdots s_{\nu_2 - 1} \circ s_{\nu_1 - 1}
   \,.
 $$
 
