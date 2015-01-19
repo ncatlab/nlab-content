@@ -276,6 +276,7 @@ $$
 This is [[Higher Topos Theory|HTT 5.5.6.18]].
 
 
+
 Indeed, as the notation suggests, $C_{\leq n}$ is the [[essential image]] of $C$ under $\tau_{\leq n}$. The image  $\tau_{\leq n} A$ of an object $A$ under this operation is the **$n$-truncation** of $A$.
 
 So $n$-truncated objects form a [[reflective sub-(∞,1)-category]] 
@@ -376,10 +377,10 @@ evidently commutes, since it just expresses this restriction.
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #nTruncationInToposPreservesFiniteProducts}
 ###### Proposition
 
-If $C$ is an [[(∞,1)-topos]], then truncation $\tau_{\leq n} : C \to C$ preserves finite [[limit in a quasi-category|products]].
+If $C$ is an [[(∞,1)-topos]], then truncation $\tau_{\leq n} : C \to C$ preserves [[finite (∞,1)-limit|finite]] [[products]].
 
 =--
 
@@ -667,6 +668,7 @@ if its diagonal is (-2)-truncated (hence an [[equivalence in an (∞,1)-category
 
 
 +-- {: .num_example}
+
 ###### Example
 
 Let $X$ be an object that is $n$-truncated. This means that 
@@ -747,3 +749,5 @@ Discussion in the context of [[homotopy type theory]] is in
 [[!redirects truncated object of an (∞,1)-topos]]
 [[!redirects truncated object in an (infinity,1)-topos]]
 [[!redirects truncated object in an (∞,1)-topos]]
+
+[[!redirects n-truncated object of an infinity-category]]
