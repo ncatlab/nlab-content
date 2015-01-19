@@ -60,6 +60,10 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 * [pdf](http://verbit.ru/MATH/TALKS/Israel/kahler-3.pdf)
 
+Discussion relating manifolds with spinor bundles to [[supergeometry]] includes
+
+* [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
+
 
 [[!redirects spinor bundles]]
 
