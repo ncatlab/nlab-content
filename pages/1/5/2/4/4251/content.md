@@ -219,7 +219,8 @@ See also the discussion at [[locally contractible (∞,1)-topos]].
 
 
 
-## In terms of monodromy and Galois theory {#Monodromy}
+## In terms of monodromy and Galois theory 
+ {#Monodromy}
 
 Given an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(C)$ we define the [[∞-groupoid]] of [[locally constant ∞-stack]]s on an object $X \in \mathbf{H}$ to be
 
@@ -332,6 +333,7 @@ $$
 
 
 ### References
+ {#InTermsOfMonodromyReferences}
 
 The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. The state of the art treatment of the Galois theory of coverings in a topos is in
 
