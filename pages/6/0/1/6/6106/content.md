@@ -221,6 +221,10 @@ The relation between representations of loop groups an [[equivariant elliptic co
 * {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
 Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
 
+Discussion with respect to [[flag varieties]] is in 
+
+* {#Kumar02} [[Shrawan Kumar]], _Kac-Moody Groups, their Flag Varieties and Representation Theory_, Birkh&#228;user 2002
+
 [[!redirects loop group]]
 [[!redirects loop groups]]
 
