@@ -18,20 +18,30 @@
 {: toc}
 
 ## Idea
-Recent work in domain theory has shown direct connections between operations in [[type theory]] and [[general topology]]. Martin Escardo has given the following translations between the two fields;
+
+The formal system of [[type theory]] has semantics in many [[categories]], and in particular in many categories of "spaces".  Thus types may be regarded not just as [[sets]] but as [[general topology|topological objects]].  Interestingly, a good deal of this "topology" can be detected intrinsically in type theory, often corresponding to the possible failure of principles of [[classical mathematics]].
+
+## Dictionary
+
+Martin Escardo has given the following translations between the two fields;
 
 | general topology | type theory |
 |--|--|
-| [[topological space|space]] | type |
-| [[continuous function]] | [[computable function]]
+| [[topological space|space]] | [[type]] |
+| [[continuous function]] | [[function]] |
 | [[clopen set]] | decidable set |
 | [[open set]] | semi-decidable set |
 | [[closed set]] | set with semi-decidable complement |
 | [[discrete space]] | type with decidable equality |
 | [[Hausdorff space]] | type with semi-decidable inequality |
+| [[convergent sequence]] | map out of $\mathbb{N}_\infty$ (see below) |
 | [[compact set]] | exhaustively searchable set, in a finite number of steps |
 
-This may hint at an extension to [[computational trinitarianism]].
+It should be stressed that the concepts on the right are not the *only* ways to represent the topological concepts on the left in type theory.  For instance, in [[cohesive homotopy type theory]] there is a notion of "discrete space" that has nothing to do with decidable equality (in particular, in homotopy type theory a type with decidable equality is necessarily an [[hset]], whereas discrete spaces don't need to be hsets).
+
+## Semantics
+
+There are many different topological semantics for type theory, but one which seems especially closely related to the above dictionary is the [[topological topos]].  For instance, in that case the internally defined set $\mathbb{N}_\infty$ (the set of infinity non-decreasing binary sequences) really does get interpreted semantically as the "generic convergent sequence".
 
 ## Implementation
 
