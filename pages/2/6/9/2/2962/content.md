@@ -408,7 +408,7 @@ On original source is
 
 The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with [[differential geometry]]:
 
-*  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
+*  [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, Extensions of Lie algebras
 [math.DG/0005042](http://arxiv.org/abs/math/0005042)
 
 A more conceptual picture is in a work of [[Danny Stevenson]] which extends also to its [[categorification]], extensions of [[Lie 2-algebra]]s. See
