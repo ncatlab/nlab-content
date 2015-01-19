@@ -164,7 +164,7 @@ Let $F : C \rightleftarrows D : G$ be a Quillen adjunction between [[model categ
 where $C[W_C^{-1}]$ and $D[W_D^{-1}]$ denote the respective [[simplicial localizations]] at the respective classes of [[weak equivalences]]. 
 =--
 
-See ([Mazel-Gee 15](#MazelGee15), Theorem 2.1).
+See ([Hinich 14](#Hinich14), Proposition 1.5.1) or ([Mazel-Gee 15](#MazelGee15), Theorem 2.1).
 
 ## Related concepts
 
@@ -184,7 +184,11 @@ See the references at _[[model category]]_. For instance
 * [[Philip Hirschhorn]], _Model categories and their localization_
  {#Hirschhorn}
 
-The proof that an Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in full generality in
+The proof that a Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in
+
+* {#Hinich14} [[V. Hinich]], _Dwyer-Kan localization revisited_, [arXiv:1311.4128](http://arxiv.org/abs/1311.4128).
+
+and also in
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
 
