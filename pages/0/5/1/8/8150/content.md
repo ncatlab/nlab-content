@@ -233,7 +233,7 @@ $$
   \,.
 $$
 
-All other contributions that are potentiall present in $(I \otimes I)_\bullet$ vanish (are the [[trivial group|0-module]]) because all higher terms in $I_\bullet$ are.
+All other contributions that are potentially present in $(I \otimes I)_\bullet$ vanish (are the [[trivial group|0-module]]) because all higher terms in $I_\bullet$ are.
 
 The tensor product basis elements appearing in the above expressions have a clear [[geometry|geometric]] interpretation: we can label a square with them as follows
 
