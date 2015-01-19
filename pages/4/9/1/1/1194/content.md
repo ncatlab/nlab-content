@@ -543,6 +543,10 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[Bishop set]], [[predicative topos]]
  
+* [[relation between category theory and type theory]]
+
+* [[relation between type theory and topology]]
+
 * [[2-type theory]], [[2-logic]]
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
