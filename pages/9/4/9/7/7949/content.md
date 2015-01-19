@@ -46,7 +46,7 @@ we may call $im_1(f) \hookrightarrow Y$ the **image** of $f$.
 In a sufficiently well-behaved 1-[[category]], the [[coimage|(co)image]] of a morphism $f \colon X \to Y$ may be defined as the [[coequalizer]] of its [[kernel pair]], hence by the fact that 
 
 $$
-  X \times_Y X \stackrel{\to}{\to} X \stackrel{}{\to} im(f)
+  X \times_Y X \stackrel{\longrightarrow}{\longrightarrow} X \stackrel{}{\longrightarrow} im(f)
 $$
 
 is a [[colimit|colimiting]] [[cocone]] under the [[parallel morphism]] [[diagram]].
@@ -55,7 +55,7 @@ In an [[(∞,1)-topos]] the 1-image is the [[(∞,1)-colimit]] not just of these
 
 $$
   \cdots
-   \stackrel{\to}{\stackrel{\to}{\stackrel{\longrightarrow}{\longrightarrow}}}
+   \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
   X \times_Y X \times_Y X
    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}} 
   X \times_Y X \stackrel{\longrightarrow}{\longrightarrow} X \stackrel{}{\longrightarrow} im(f)
@@ -64,7 +64,7 @@ $$
 
 (Here all degeneracy maps are notionally suppressed.)
 
-To see that this gives the same notion of image as given by the epi-mono factorization as discussed [above](#ViaEpiMonoFactorization), let $f \colon X \stackrel{f}{\to} im(f) \hookrightarrow Y$ be such a factorization. Then using (by the discussion at _[truncated morphism -- Recursive characterization](n-truncated+object+of+an+%28infinity%2C1%29-category#RecursiveDefinition)_) that the [[(∞,1)-pullback]] of a [[monomorphism in an (∞,1)-category|monomorphism]] is its domain, we find a [[pasting diagram]] of [[(∞,1)-pullback]] squares of the form
+To see that this gives the same notion of image as given by the epi-mono factorization as discussed [above](#ViaEpiMonoFactorization), let $f \colon X \stackrel{f}{\longrightarrow} im(f) \hookrightarrow Y$ be such a factorization. Then using (by the discussion at _[truncated morphism -- Recursive characterization](n-truncated+object+of+an+%28infinity%2C1%29-category#RecursiveDefinition)_) that the [[(∞,1)-pullback]] of a [[monomorphism in an (∞,1)-category|monomorphism]] is its domain, we find a [[pasting diagram]] of [[(∞,1)-pullback]] squares of the form
 
 $$
   \array{ 
@@ -316,4 +316,3 @@ Disucssion in [[homotopy type theory]] is in
 [[!redirects 2-images]]
 [[!redirects 3-image]]
 [[!redirects 3-images]]
-
