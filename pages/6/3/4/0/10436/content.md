@@ -158,6 +158,14 @@ The methods work because of their equivalence between cat$^n$-groups and crossed
 
 * [[Jean-Louis Loday]],  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
 
+The Blakers-Massey's Theorem was shown to be a consequense of Farjoun's "cellular inequalities" 
+
+* Farjoun, _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
+
+is Theorem 1.B of 
+
+* [[Wojciech Chachólski]], _A generalization of the triad theorem of Blakers-Massey_ Topology 36.6 (1997): 1381-1400
+
 
 Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
 
