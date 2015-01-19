@@ -48,11 +48,13 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Jan. 13, 2015: Guest lecture by Owen Gwilliam. The general picture of QFT: classical field theory is about critical loci, while quantization involves integration over the critical loci plus that along the "normal directions". To deal with the singular critical loci, one considers the derived deformation theory. A family version of it leads to $L_\infty$ spaces. Derived loop spaces as an example. GG.
 
-* Jan. 20, 2015: Quantum BV formalism (I) by Dennis. CG: Chap 13-14.
+* Jan. 20, 2015: Quantum BV formalism by Dennis. CG: Chap 13-14.
 
-* Jan. 27, 2015: Quantum BV formalism (II) by Dorothea. CG: Chap 13-14.
+In the following meetings we shall look into various applications and comparisons relevant to other parts of mathematics.
 
-* Feb. 3, 2015: TBA by Dmitri.
+* Jan. 27, 2015: Quantum BV formalism in AQFT by Dorothea.
+
+* Feb. 3, 2015: Factorization algebras and Goodwillie Calculus by Dmitri.
 
 * Feb. 10, 2015:
 
