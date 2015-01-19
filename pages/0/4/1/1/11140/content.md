@@ -16,6 +16,8 @@ Pro Simplicial Sheaves, and the Relative Etale Homotopy Type_, [arXiv:1109.5477]
 *  [[I. Barnea]] and T. M. Schlank, 2013, _Functorial Factorizations in Pro 
 Categories_, [arXiv:1305.4607](http://arxiv.org/abs/1305.4607). 
 
+* [[I. Barnea]] and T. M. Schlank, (2014), _Model Structures on Ind Categories and the Accessibility Rank of Weak Equivalences_, [arXiv:1407.1817](http://arxiv.org/abs/1407.1817)
+
 * Yonatan Harpaz, Tomer M. Schlank, _Homotopy Obstructions to Rational Points_, [arXiv:1110.0164](http://arxiv.org/abs/1110.0164)
 
 category:people
