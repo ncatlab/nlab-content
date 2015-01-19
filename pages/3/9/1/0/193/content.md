@@ -205,6 +205,8 @@ See at _[monad -- Relation to adjunctions](monad#RelationToAdjunctionsAndMonadic
 
 * [[adjoint monad]]
 
+* [[heteromorphism]]
+
 * [[adjoint triple]], [[adjoint quadruple]]
 
 * [[ambidextrous adjunction]]
