@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Idea
+Recent work in domain theory has shown direct connections between operations in [[type theory]] and [[general topology]]. Martin Escardo has given the following translations between the two fields;
+
+| general topology | type theory |
+|--|--|
+| [[topological space|space]] | type |
+| [[continuous function]] | [[computable function]]
+| [[clopen set]] | decidable set |
+| [[open set]] | semi-decidable set |
+| [[closed set]] | set with semi-decidable complement |
+| [[discrete space]] | type with decidable equality |
+| [[Hausdorff space]] | type with semi-decidable inequality |
+| [[compact set]] | exhaustively searchable set, in a finite number of steps |
+
+This may hint at an extension to [[computational trinitarianism]].
+
+## Implementation
+
+Many of the results that have originated from this view have been implemented in an [[Agda]] [library](http://www.cs.bham.ac.uk/~mhe/agda/)
+
+
+## References
+ {#References}
+
+* {#EscardoPopl2012} The topology of Seemingly impossible functional programs ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf))
