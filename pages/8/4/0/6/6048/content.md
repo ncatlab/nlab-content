@@ -83,10 +83,13 @@ Infeld, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion
 Proc. Roy. Soc. A270, (1962) 354-356.
 
 
-The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) appears in 
+The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
 
-* [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
-  {#BergshoeffSezginTownsend87}
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
+  
+
+* [[Mike Duff]], K. S. Stelle, _Multimembrane solutions of $D = 11$ supergravity_,
+Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386?ln=en))
 
 and its [[quantization]] was first explored in 
 
@@ -100,25 +103,29 @@ The interpretation of the membrane as as an object related to [[string theory]],
 
 around the time when [[M-theory]] was envisioned in
 
-* [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
- {#Witten95}
+* {#Witten95} [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+ 
 
-The interpretation of the M2-brane [[worldvolume]] theory as realted to the matrix model of [[D0-branes]] is discussed in some detail in 
+The interpretation of the M2-brane [[worldvolume]] theory as related to the matrix model of [[D0-branes]] is discussed in some detail in 
 
-* [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
-  {#NicolaiHelling98}
+* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
+  
 
 * Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
 Meanwhile [[AdS-CFT duality]] was recognized in 
 
-* [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
- {#Maldacena97}
+* {#Maldacena97} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
+ 
 
 where a dual description of the [[worldvolume]] theory of M2-brane appears in seciton 3.2.  More on this is in 
 
-* [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
-  {#KlebanovTorri10}
+* {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
+  
+
+Discussion of the history includes
+
+* [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
 
 Other recent developments are discussed in 
 
