@@ -354,7 +354,7 @@ A large class of examples of $(\infty,1)$-adjunctions arises from [[Quillen adju
 
 ### Quillen adjunctions
 
-Any [[Quillen adjunction]] induces an adjunction of [[(infinity,1)-categories]] on the [[simplicial localizations]]. See [Mazel-Gee 15](#MazelGee15).
+Any [[Quillen adjunction]] induces an adjunction of [[(infinity,1)-categories]] on the [[simplicial localizations]]. See [Hinich 14](#Hinich14) or [Mazel-Gee 15](#MazelGee15).
 
 ### Simplicial and derived adjunctions {#SimplicialAndDerived}
 
@@ -523,7 +523,11 @@ and further discussion, including also that of [[(infinity,1)-monads]] is in
 
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
-The proof that an [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in full generality in
+The proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in
+
+* {#Hinich14} [[V. Hinich]], _Dwyer-Kan localization revisited_, [arXiv:1311.4128](http://arxiv.org/abs/1311.4128).
+
+and also in
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
 
