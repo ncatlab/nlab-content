@@ -306,7 +306,7 @@ motivated as a formalization of ideas expressed in
  
 But according to 
 
-* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
 
 the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
 
