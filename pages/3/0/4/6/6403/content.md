@@ -56,6 +56,15 @@ A discussion with an eye towards applications in [[supersymmetry]] is around pag
 
 * [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+Discussion relating to [[special holonomy]] includes
+
+* Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
+
+Discussion relating to [[Killing vectors]] in [[supergeometry]] includes
+
+* [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
+
+
 [[!redirects Killing spinors]]
 
 [[!redirects covariantly constant spinor]]
