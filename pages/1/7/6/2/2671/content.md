@@ -67,6 +67,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[Einstein-Maxwell theory]], [[Einstein-Yang-Mills theory]]
 
+* [[higher order curvature corrections]]
+
 * [[supergravity]]
 
 * [[spacetime]]
