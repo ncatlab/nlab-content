@@ -304,6 +304,10 @@ An axiomatization of cubical sets in [[constructive set theory]]/[[type theory]]
 
 * {#Docherty14} Simon Docherty, _A model of type theory in cubical sets with connection_, 2014 ([pdf](http://www.illc.uva.nl/Research/Publications/Reports/MoL-2014-12.text.pdf))
 
+See also
+
+* [[Dan Licata]], [[Guillaume Brunerie]], _A cubical approach to synthetic homotopy theory_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf))
+
 For more on this see at _[[relation between category theory and type theory]]_.
 
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
