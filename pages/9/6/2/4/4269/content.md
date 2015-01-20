@@ -51,7 +51,7 @@ The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an 
 $$
   \pi = (\pi_! \dashv \pi^* \dashv \pi_*) : 
   \mathbf{H}_{/X}
-   \stackrel{\overset{\pi_!}{\to}}{\stackrel{\overset{\pi^*}{\leftarrow}}{\underset{\pi_*}{\to}}}
+   \stackrel{\overset{\pi_!}{\longrightarrow}}{\stackrel{\overset{\pi^*}{\longleftarrow}}{\underset{\pi_*}{\longrightarrow}}}
   \mathbf{H}
   \,.
 $$
@@ -165,7 +165,7 @@ A [[geometric morphism]] $(f^* \dashv f_*) : \mathbf{K} \to \mathbf{H}$ is &#233
 For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RecoveringAToposFromItsSlices}
 ###### Proposition
 **(Recovering a topos from its etale overcategory)
 
