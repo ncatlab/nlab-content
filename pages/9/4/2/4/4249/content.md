@@ -54,6 +54,8 @@ Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\
 
 * [[spacetime]]
 
+* [[Planck mass]]
+
 [[!redirects mass]]
 [[!redirects masses]]
 
