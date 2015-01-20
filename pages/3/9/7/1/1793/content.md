@@ -163,7 +163,7 @@ Then there is a model category structure on non-negatively graded cochain comple
 
 See [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf).
 
-If $A$ has enough [[injective object]]s and $\mathcal{G}$ is the clss of all of them, this reproduces the 
+If $A$ has enough [[injective object]]s and $\mathcal{G}$ is the class of all of them, this reproduces the 
 [standard Quillen model structure](#StandardQuillenOnBounded) discussed above:
 
 +-- {: .num_cor}
@@ -732,7 +732,7 @@ We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure
 #### Examples 
  {#ExamplesOfStructuresOnUnboundedComplexes}
 
-We list some example for the model structure on chain complexes is unbounded degree discussed [above](#InUnboundedDegreeGeneralResults).
+We list some examples for the model structures on chain complexes in unbounded degree discussed [above](#InUnboundedDegreeGeneralResults).
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
