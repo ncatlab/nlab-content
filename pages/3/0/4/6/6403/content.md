@@ -56,6 +56,8 @@ A discussion with an eye towards applications in [[supersymmetry]] is around pag
 
 * [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+
+
 Discussion relating to [[special holonomy]] includes
 
 * Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
@@ -64,6 +66,15 @@ Discussion relating to [[Killing vectors]] in [[supergeometry]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
+Original articles include
+
+* [[Thomas Friedrich]], _Zur Existenz paralleler Spinorfelder &#252;ber Riemannschen Mannigfaltigkeiten_ Czechoslavakian-GDR-Polish scientific school on differential geometry Boszkowo/ Poland 1978, Sci. Comm., Part 1,2; 104-124 (1979)
+
+* [[Thomas Friedrich]], _Zur Existenz paralleler Spinorfelder &#252;ber Riemannschen Mannigfaltigkeiten_, Colloquium Mathematicum vol. XLIV, Fasc. 2 (1981), 277-290.
+
+Discussion relating to [[G2-structures]] includes
+
+* [[Thomas Friedrich]], Stefan Ivanov, _Parallel spinors and connections with skew-symmetric torsion in string theory_, AsianJ.Math.6:303-336,2002 ([arXiv:math/0102142](http://arxiv.org/abs/math/0102142))
 
 [[!redirects Killing spinors]]
 
@@ -72,3 +83,9 @@ Discussion relating to [[Killing vectors]] in [[supergeometry]] includes
 
 [[!redirects Killing spinor field]]
 [[!redirects Killing spinor fields]]
+
+[[!redirects parallel spinor]]
+[[!redirects parallel spinors]]
+
+[[!redirects parallel spinor field]]
+[[!redirects parallel spinor fields]]
