@@ -37,7 +37,11 @@ $$
 
 * [[gravity]]
 
+* [[higher order curvature corrections]]
+
 [[!redirects Riemann curvature]]
 [[!redirects Riemannian curvature]]
 
 [[!redirects Riemann tensor]]
+
+[[!redirects Riemann curvature tensor]]
