@@ -23,7 +23,7 @@ It is the [[transferred model structure]] along the [[forgetful functor]] of the
 
 The model structure was given in
 
-* [[Ronnie Brown]], Marek Golasinski; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0)) Cahiers Topologie G&#233;om. Diff&#233;rentielle 30 (1989) 61-82. 
+* [[Ronnie Brown]], [[Marek Golasinski]]; _A model structure for the homotopy theory of crossed complexes_ ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1989__30_1_61_0)) Cahiers Topologie G&#233;om. Diff&#233;rentielle 30 (1989) 61-82. 
 {#BrownGolasinski}
 
 The relation to the model structure on strict $\omega$-categories was established in
