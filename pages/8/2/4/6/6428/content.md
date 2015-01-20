@@ -159,7 +159,7 @@ those [[diffeomorphism]]s that are not _spontaneously broken_ by this solution.
 
 In this case, though, there are also [[supersymmetry]] analogs of the plain diffeomorphism action. Such a local supersymmetry remains unbroken in the given solution if it comes from a [[Killing spinor field]].
 
-Therefore KK-reductions to 4-dimensional [[Minkowski space]] in supergravity that admit precisely four Killing spinors of the form $(\psi_4 = const \otimes \psi_d = covariantly const)$ give rise to [[effective field theories]] with exactly one remaining global [[supersymmetry]]. 
+Therefore KK-reductions to 4-dimensional [[Minkowski space]] in supergravity that admit precisely four Killing spinors of the form $(\psi_4 = const \otimes \psi_d = covariantly const)$ give rise to [[effective field theories]] with exactly one remaining global [[supersymmetry]]. See also at _[[supersymmetry breaking]]_.
 
 For more see [[supersymmetry and Calabi-Yau manifolds]].
 
@@ -195,7 +195,7 @@ Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in th
 [[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
  {#Strominger}
 
-Discussion of spontaneous [[supersymmetry]] breaking is in 
+Discussion of spontaneous [[supersymmetry breaking]] is in 
 
 * Yael Shadmi, _Supersymmetry breaking_ ([arXiv:hep-th/0601076](http://arxiv.org/abs/hep-th/0601076)) 
 
