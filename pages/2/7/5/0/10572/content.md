@@ -31,15 +31,15 @@ The [[Cartan geometry]] induced by [[parabolic subgroup]] inclusions is called _
 
 A general discussion is in 
 
-* [[Andreas Cap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
+* [[Andreas ?ap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
 
-* {#Cap05} [[Andreas Cap]], _Two constructions with parabolic geometries_, [arXiv:0504389](http://arxiv.org/abs/math/0504389)
+* {#Cap05} [[Andreas ?ap]], _Two constructions with parabolic geometries_, [arXiv:0504389](http://arxiv.org/abs/math/0504389)
 
-* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+* {#CapSlovak09} [[Andreas ?ap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 Relation to [[twistor spaces]] is discussed in
 
-* {#Cap01} [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
+* {#Cap01} [[Andreas ?ap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
   
 
 See also
