@@ -148,6 +148,8 @@ The success of the Einstein-Hilbert [[action principle]] in the formulation of [
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
+* [[higher order curvature corrections]]
+
 [[!include standard model of fundamental physics - table]]
 
 ## References
