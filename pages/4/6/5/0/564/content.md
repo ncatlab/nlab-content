@@ -45,8 +45,7 @@ It has been convincingly argued by [[Tom Leinster]] (blog comment [here](http://
 
 ## Definition
 
-
-Let $A$ and $B$ be two [[concrete category|concrete categories]], i.e. categories equipped with faithful functor to [[Set]]
+Let $A$ and $B$ be two categories over $Set$, given by functors 
 
 $$
   U : A \to Set
@@ -54,9 +53,59 @@ $$
 $$
   V : B \to Set
   \,.
-$$
+$$ 
 
-Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the references Dimov-Tholen below).
+(Traditionally in what follows, one assumed $U$ and $V$ to be faithful, i.e., one considered $A$ and $B$ to be categories of sets with [[stuff, structure, property|extra structure]], aka [[concrete categories]], although we won't actually need this. Or, sometimes one sees the hypothesis that $U, V$ are representable, but we won't require this either.) 
+
+The situation described in the Idea section asks us to consider contravariantly [[adjoint functors]] $T: A \to B$, $S: B \to A$ such that $U S: B \to Set$ and $V T: A \to Set$ are representable, i.e., are given by isomorphisms $B(-, \mathbf{b}) \cong U S$ (with representing element $\phi \in U S \mathbf{b}$) and $A(-, \mathbf{a}) \cong V T$ (with representing element $\psi \in V T \mathbf{a}$). Let $\eta: 1_A \to S T$ and $\epsilon: 1_B \to T S$ denote the universal maps of the adjunction (so that if we write $T$ and $S$ in covariant form as $T: A^{op} \to B$ and $S: B \to A^{op}$, we would have $S \dashv T$ with $\eta$ as unit and $\epsilon$ as counit). 
+
++-- {: .num_prop} 
+###### Proposition 
+The representing data $\phi \in U S \mathbf{b}, \psi \in V T \mathbf{a}$ induce a canonical isomorphism $\omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b}$. It is given by the evident composite 
+
+$$U \mathbf{a} \stackrel{U\eta \mathbf{a}}{\to} U S T \mathbf{a} \stackrel{\sim}{\to} B(T \mathbf{a}, \mathbf{b}) \to Set(V T \mathbf{a}, V \mathbf{b}) \stackrel{eval_\psi}{\to} V \mathbf{b}.$$ 
+
+(The inverse is given by a similar composite but switching the roles of $\mathbf{a}$ and $\mathbf{b}$, $\phi$ and $\psi$, $\eta$ and $\epsilon$, $S$ and $T$, and $U$ and $V$.) 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Letting $x$ be an element of $U \mathbf{a}$, the element $\omega(x) \in V \mathbf{b}$ is by definition $(V g)(\psi)$ where $g: T \mathbf{a} \to \mathbf{b}$ is the unique map (by representability) such that $(U \eta \mathbf{a})(x) = (U S g)(\phi)$. The alleged inverse $\widebar{\omega}: V \mathbf{b} \to U \mathbf{a}$ takes an element $y \in V \mathbf{b}$ to $(U f)(\phi)$, where $f: S \mathbf{b} \to \mathbf{a}$ is the unique map such that $(V T f)(\psi) = (V \epsilon \mathbf{b})(y)$. 
+
+To check these maps are inverse, one may check simply $(\omega \widebar{\omega})(y) = y$ for any $y \in V \mathbf{b}$; the other equation $\widebar{\omega} \omega = id$ follows by symmetry. With notation as above, put $x = \widebar{\omega}(y)$, so $x = (U f)(\phi) \in U \mathbf{a}$. Now we embark on a diagram chase, starting with 
+
+$$\array{
+U S \mathbf{b} & \stackrel{U f}{\to} & U \mathbf{a} & \stackrel{U \eta \mathbf{a}}{\to} & U S T \mathbf{a} \\ 
+ _\mathllap{\phi} \uparrow & \searrow_\mathrlap{U \eta S \mathbf{b}} & & _\mathllap{U S T f} \nearrow & \uparrow_\mathrlap{\cong} \\ 
+1 & & U S T S \mathbf{b} & & B(T \mathbf{a}, \mathbf{b}) \\ 
+ & _\mathllap{\xi} \searrow & \uparrow_\mathrlap{\cong} & \nearrow _\mathrlap{B(T f, \mathbf{b})} \\ 
+ & & B(T S \mathbf{b}, \mathbf{b}) & & 
+}$$ 
+
+where the top and right quadrilaterals commute by naturality, and $\xi: T S \mathbf{b} \to \mathbf{b}$ is the unique arrow making the left quadrilateral commute. In fact $\xi$ is the structure map for a $T S$-algebra structure on $\mathbf{b}$, although for our purposes we will only need the unit axiom for such a structure. Following along the bottom of this diagram, we see 
+
+$$g = (T \mathbf{a} \stackrel{T f}{\to} T S \mathbf{b} \stackrel{\xi}{\to} \mathbf{b})$$ 
+
+is the unique arrow $g: T \mathbf{a} \to \mathbf{b}$ such that $(U S g)(\phi) = (U \eta \mathbf{a})(x)$. Continuing on our way, applying $V$ to $g$ and evaluating at $\psi$, we have only to check that the composite 
+
+$$1 \stackrel{\psi}{\to} V T \mathbf{a} \stackrel{V T f}{\to} V T S \mathbf{b} \stackrel{V \xi}{\to} V \mathbf{b}$$ 
+
+equals $y: 1 \to V \mathbf{b}$. But already we said $(V T f)(\psi) = (V \epsilon \mathbf{b})(y)$, so the last composite is 
+
+$$1 \stackrel{y}{\to} V \mathbf{b} \stackrel{V \epsilon \mathbf{b}}{\to} V T S \mathbf{b} \stackrel{V \xi}{\to} V \mathbf{b}$$ 
+
+and all we need to do now is check the unit equation $\xi \circ (\epsilon \mathbf{b}) = 1_\mathbf{b}$. But this follows from representability of $U S$, applied to the diagram 
+
+$$\array{
+U S \mathbf{b} & \stackrel{U \eta S \mathbf{b}}{\to} & U S T S \mathbf{b} & \stackrel{U S \epsilon \mathbf{b}}{\to} & U S \mathbf{b} \\ 
+ _\mathllap{\phi} \uparrow & & \uparrow_\mathrlap{\cong} & & \uparrow_\mathrlap{\cong} \\ 
+1 & \underset{\xi}{\to} & B(T S \mathbf{b}, \mathbf{b}) & \underset{B(\epsilon \mathbf{b}, \mathbf{b})}{\to} & B(\mathbf{b}, \mathbf{b}) 
+}$$ 
+
+where the top horizontal composite is the identity by a triangular equation. 
+=-- 
+
+Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the references Dimov-Tholen below). 
 
 ## Examples
 
