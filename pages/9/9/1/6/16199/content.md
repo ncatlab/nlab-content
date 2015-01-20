@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Viatcheslav_Mukhanov)
+
+## related $n$Lab entries
+
+* [[Starobinsky model of cosmic inflation]]
+
+category: people
