@@ -105,6 +105,10 @@ A survey of interpretation of [[black holes in string theory]] is in Chapter 5 o
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
  {#AGMOO}
 
+Discussion in view of [[higher curvature corrections]] includes
+
+* [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+
 See also
 
 * MO question, [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
