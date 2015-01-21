@@ -187,7 +187,7 @@ which is manifestly the naive definition of [[image]].
 ### Compatibility with limits
 
 
-+-- {: .num_prop}
++-- {: .num_prop #nImagePreservesProducts}
 ###### Proposition
 
 In an [[(∞,1)-topos]] $\mathbf{H}$, the $n$-image of a product is the product of $n$-images:
