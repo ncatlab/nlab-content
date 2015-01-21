@@ -30,3 +30,6 @@ In [[higher topos theory]] there are corresponding analogs of this theorem
 
 [[!redirects Giraud-Rezk-Lurie axiom]]
 [[!redirects Giraud-Rezk-Lurie axioms]]
+
+[[!redirects Giraud-Rezk-Lurie theorem]]
+[[!redirects Giraud-Rezk-Lurie theorem]]
