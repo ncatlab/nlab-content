@@ -14,7 +14,7 @@
 =--
 
 
-#Contemts#
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -42,9 +42,9 @@ There is also some result by Bourbaki that I have to look up that numerable cove
 
 ## References ##
 
-* A. Dold, _Partitions of unity in the theory of fibrations_
+* A. Dold, _Partitions of unity in the theory of fibrations_, Ann. of Math. (2) 78 1963 223&#8211;255 [MR0155330](http://www.ams.org/mathscinet-getitem?mr=155330) [jstor](http://www.jstor.org/stable/1970341) [doi](http://dx.doi.org/10.2307/1970341)
 
-Another one by Dold, will look it up - it talks about stacked covers in the appendix: these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
+Another one by Dold talks about stacked covers in the appendix: these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
 
 [[!redirects numerable open covers]]
 
