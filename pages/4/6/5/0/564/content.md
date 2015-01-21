@@ -57,7 +57,7 @@ $$
 
 (Traditionally in what follows, one assumed $U$ and $V$ to be faithful, i.e., one considered $A$ and $B$ to be categories of sets with [[stuff, structure, property|extra structure]], aka [[concrete categories]], although we won't actually need this. Or, sometimes one sees the hypothesis that $U, V$ are representable, but we won't require this either.) 
 
-The situation described in the Idea section asks us to consider contravariantly [[adjoint functors]] $T: A \to B$, $S: B \to A$ such that $U S: B \to Set$ and $V T: A \to Set$ are representable, i.e., are given by isomorphisms $B(-, \mathbf{b}) \cong U S$ (with representing element $\phi \in U S \mathbf{b}$) and $A(-, \mathbf{a}) \cong V T$ (with representing element $\psi \in V T \mathbf{a}$). Let $\eta: 1_A \to S T$ and $\epsilon: 1_B \to T S$ denote the universal maps of the adjunction (so that if we write $T$ and $S$ in covariant form as $T: A^{op} \to B$ and $S: B \to A^{op}$, we would have $S \dashv T$ with $\eta$ as unit and $\epsilon$ as counit). 
+The situation described in the Idea section asks us to consider contravariantly [[adjoint functors]] $T: A \to B$, $S: B \to A$ such that $U S: B \to Set$ and $V T: A \to Set$ are representable, i.e., are given by isomorphisms $B(-, \mathbf{b}) \cong U S$ (with representing element $\phi \in U S \mathbf{b}$) and $A(-, \mathbf{a}) \cong V T$ (with representing element $\psi \in V T \mathbf{a}$). Let $\eta: 1_A \to S T$ and $\epsilon: 1_B \to T S$ denote the universal maps of the adjunction (so that if we write $T$ and $S$ in covariant form as $T: A \to B^{op}$ and $S: B^{op} \to A$, we would have $T \dashv S$ with $\eta$ as unit and $\epsilon$ as counit). 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -65,7 +65,7 @@ The representing data $\phi \in U S \mathbf{b}, \psi \in V T \mathbf{a}$ induce 
 
 $$U \mathbf{a} \stackrel{U\eta \mathbf{a}}{\to} U S T \mathbf{a} \stackrel{\sim}{\to} B(T \mathbf{a}, \mathbf{b}) \to Set(V T \mathbf{a}, V \mathbf{b}) \stackrel{eval_\psi}{\to} V \mathbf{b}.$$ 
 
-(The inverse is given by a similar composite but switching the roles of $\mathbf{a}$ and $\mathbf{b}$, $\phi$ and $\psi$, $\eta$ and $\epsilon$, $S$ and $T$, and $U$ and $V$.) 
+The inverse is given by a similar composite but switching the roles of $\mathbf{a}$ and $\mathbf{b}$, $\phi$ and $\psi$, $\eta$ and $\epsilon$, $S$ and $T$, and $U$ and $V$. 
 =-- 
 
 +-- {: .proof} 
@@ -82,7 +82,7 @@ U S \mathbf{b} & \stackrel{U f}{\to} & U \mathbf{a} & \stackrel{U \eta \mathbf{a
  & & B(T S \mathbf{b}, \mathbf{b}) & & 
 }$$ 
 
-where the top and right quadrilaterals commute by naturality, and $\xi: T S \mathbf{b} \to \mathbf{b}$ is the unique arrow making the left quadrilateral commute. In fact $\xi$ is the structure map for a $T S$-algebra structure on $\mathbf{b}$, although for our purposes we will only need the unit axiom for such a structure. Following along the bottom of this diagram, we see 
+where the top and right quadrilaterals commute by naturality, and $\xi: T S \mathbf{b} \to \mathbf{b}$ is the unique arrow making the left quadrilateral commute. In fact $\xi$ is the structure map for a $T S$-algebra structure on $\mathbf{b}$, although for our purposes we will only need the unit axiom for such a structure. Following the perimeter of this diagram, we see 
 
 $$g = (T \mathbf{a} \stackrel{T f}{\to} T S \mathbf{b} \stackrel{\xi}{\to} \mathbf{b})$$ 
 
@@ -102,10 +102,21 @@ U S \mathbf{b} & \stackrel{U \eta S \mathbf{b}}{\to} & U S T S \mathbf{b} & \sta
 1 & \underset{\xi}{\to} & B(T S \mathbf{b}, \mathbf{b}) & \underset{B(\epsilon \mathbf{b}, \mathbf{b})}{\to} & B(\mathbf{b}, \mathbf{b}) 
 }$$ 
 
-where the top horizontal composite is the identity by a triangular equation. 
+where the top horizontal composite is an identity, according to a triangular equation. 
 =-- 
 
-Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the references Dimov-Tholen below). 
+
+The canonical identification of sets $\omega: U \mathbf{a} = V \mathbf{b}$ means that we have an object "sitting in two categories" (Lawvere), namely an $A$-structure $\mathbf{a}$ on this set and a $B$-structure $\mathbf{b}$ on the same set, with $T: A^{op} \to B$ providing a lift of $A(-, \mathbf{a}): A^{op} \to Set$ through $V: B \to Set$, and $S: B^{op} \to A$ lifting $B(-, \mathbf{b}): B^{op} \to Set$ through $U: A \to Set$. Thus the triplet $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ forms what may be called an ($(A, B)$-)*ambimorphic object*, living in an evident pseudo-pullback of $U$ and $V$ [check that this is the correct terminology]. 
+
+We now record some conditions which ensure an equivalence between suitably represented adjunctions over $Set$ as above and suitable ambimorphic objects, due to Dimov-Tholen (see the references below). Suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above, let 
+
+$$- \cdot_U -: A(a, a') \times U a \to U a'$$ 
+
+(similarly, $- \cdot_V -$) denote the left (covariant) action of $A$ on $U: A \to Set$; here $a, a'$ should be read as dummy variables. Let 
+
+$$- \cdot_{V T} -: V T a' \times A(a, a') \to V T a$$ 
+
+(similarly, $- \cdot_{U S} -$) denote the right (contravariant) action of $A$ on $V T: A^{op} \to Set$. 
 
 ## Examples
 
