@@ -35,7 +35,7 @@ For the case of symplectic manifolds the Darboux theorem may also be read as say
 
 Lecture notes include
 
-* [[Andreas Cap]], section 1.8 of _Differential Geometry 2_, 2011/2012 ([pdf](http:///www.mat.univie.ac.at/~cap/files/Diffgeom2.pdf))
+* [[Andreas Čap]], section 1.8 of _Differential Geometry 2_, 2011/2012 ([pdf](http:///www.mat.univie.ac.at/~cap/files/Diffgeom2.pdf))
 
 * {#Pasquotto} Federica Pasquotto, _Linear $G$-structures by example_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf))
 
