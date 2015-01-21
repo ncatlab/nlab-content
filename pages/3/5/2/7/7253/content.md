@@ -16,24 +16,17 @@
 
 ## Idea
 
-A special case of _[[G-structure]]_.
 
 For $G \to K$ a [[monomorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _reduction_ of the [[structure group]] from $K$ to $G$.
 
 Alternatively, for $G \to K$ an [[epimorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _lift_ of the structure group from $K$ to $G$.
 
+A $G$-reduction of the [[frame bundle]] of a [[smooth manifold]] is called a _[[G-structure]]_.
+
 +-- {: .num_remark #EpiMonoNonintrinsic}
 ###### Remark
 
-The distinction between epimorphism and monomorphism, hence between reduction and lift of structure groups is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
-
-$$
-  Spin(n) \to SO(n) \hookrightarrow O(n) (\hookrightarrow GL(n))
-$$
-
-the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
-
-See ([NSS, section 4.3](#NSS)).
+As one passes to [[higher differential geometry]], the [[(epi, mono) factorization system]] dissolves into the infinite tower of [[(n-epi, n-mono) factorization systems]], and hence the distinction between reduction and lift of structure groups blurs. One may just consider generally for $G\to K$ a homomorphism of [[∞-groups]] the problem of factoring a [[modulating morphism]] $X\to \mathbf{B}K$ through this morphism, up to a chosen [[homotopy]].
 
 =--
 
