@@ -56,6 +56,7 @@ of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
  \label{LInfinityJacobiIdentity}
   \sum_{i+j = n+1} 
   \sum_{\sigma \in UnShuff(i,j)}
+
   (-1)^{sgn(\sigma)} 
    l_i \left(
      l_j \left( v_{\sigma(1)}, \cdots, v_{\sigma(j)} \right),
@@ -138,8 +139,8 @@ where each $D_i$ acts as $l_i$ when evaluated on a homogeneous element of the fo
 For instance $D_2$ acts on homogeneous elements of word lenght 3 as
 
 $$
-  D_3(t_1 \vee t_2 \vee t_3) = 
-  [t_1, t_2]\vee t_3 \pm permutations
+  D_2(t_1 \vee t_2 \vee t_3) = 
+  D_2(t_1, t_2)\vee t_3 \pm permutations
   \,.
 $$
 
