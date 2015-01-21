@@ -54,7 +54,7 @@ Let $(X,\omega)$ be a [[symplectic manifold]] and $L \subset T X$ a subbundle of
 +-- {: .num_theorem}
 ###### Theorem
 
-Every [[symplectic group|Sp]]-[[principal bundle]] has a ift [[lift of structure group|lift]] to an [[Mp^c]]-[[principal bundle]].
+Every [[symplectic group|Sp]]-[[principal bundle]] has a [[lift of structure group|lift]] to an [[Mp^c]]-[[principal bundle]].
 
 =--
 
