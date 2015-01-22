@@ -32,6 +32,10 @@
 
 A _K&#228;hler polarization_ of a [[symplectic manifold]] is a [[polarization]] of induced by a compatible [[Kähler manifold]] structure.
 
+In terms of [[G-structures]] this means that it is a lift from an [[integrability of G-structures|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure to a first-order integrable $U(n) \hookrightarrow Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure.
+
+In terms of distributions it means that (...)
+
 $$
   \mathcal{P} \subset T_{\mathbb{C}} T X
 $$
