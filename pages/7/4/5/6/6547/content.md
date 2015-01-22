@@ -66,6 +66,7 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 ## Related concepts
 
+* [[stable form]], [[definite form]]
 
 * [[connection on a bundle]]
 
@@ -83,15 +84,16 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 The classification in [[Berger's theorem]] is due to
 
-* M. Berger, _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
+* {#Berger} M. Berger, _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
 vari&#233;t&#233;s riemanniennes_, Bull. Soc. Math. France 83 (1955)
- {#Berger}
+ 
 
 For more see
 
-* [[Dominic Joyce]], _Compact manifolds with special holonomy_ , Oxford Mathematical Monogrophs (200)
-  {#Joyce}
+* [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
+* {#Joyce} [[Dominic Joyce]], _Compact manifolds with special holonomy_ , Oxford Mathematical Monographs (200o)
+  
 * Luis J. Boya, _Special Holonomy Manifolds in Physics_ Monograf&#237;as de la Real Academia de Ciencias de Zaragoza. 29: 37&#8211;47, (2006). ([pdf](http://www.unizar.es/acz/05Publicaciones/Monografias/MonografiasPublicadas/Monografia29/037.pdf))
 
 Discussion of the relation to [[Killing spinors]] includes
