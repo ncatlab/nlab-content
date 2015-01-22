@@ -163,7 +163,7 @@ The following is important for the analysis:
 +-- {: .num_remark #Definition3FormsGiveOpenSubset}
 ###### Remark
 
-The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^7)^\ast $ in def. \ref{Definite3Forms} is an [[open subset]].
+The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^7)^\ast $ in def. \ref{Definite3Forms} is an [[open subset]], hence $\phi$ is a _[[stable form]]_ (e.g. [Hitchin, def. 1.1](#Hitchin)).
 
 =--
 
@@ -175,6 +175,8 @@ The subset $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^
 By definition of $G_2$ as the [[stabilizer group]] of the [[associative 3-form]], the [[orbit]] it generates under the $GL_+(7)$-action is the [[coset]] $GL_+(7)/G_2$. The [[dimension]] of this as a [[smooth manifold]] is 49-14 = 35. This is however already the full dimension $\left(7 \atop 3\right) = 35$ of the space of 3-forms in 7d that the orbit sits in. Therefore (since $G_+(7)/G_2$ does not have a [[manifold with boundary|boundary]]) the orbit must be an open subset.
 
 =--
+
+
 
 ### Closed $G_2$-structure
  {#ClosedG2Structure}
@@ -393,6 +395,8 @@ Surveys include
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+
+* {#Hitchin} [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
