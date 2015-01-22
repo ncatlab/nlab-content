@@ -25,7 +25,7 @@
 
 The _Fourier-Mukai transform_ is a [[categorification|categorified]] [[integral transform]] roughly similar to the standard [[Fourier transform]].
 
-Generally, for $X,Y$ two suitably well-behaved [[schemes]] (e.g. affine, smooth, complex) and with $D(X)$, $D(Y)$ their [[derived categories]] of [[quasicoherent sheaves]], then a _Fourier-Mukai transform_ with [[integral kernel]] $P \in D(X\times Y)$ is a [[functor]] (of [[triangulated categories]]/[[stable (infinity,1)-categories]])
+Generally, for $X,Y$ two suitably well-behaved [[schemes]] (e.g. affine, smooth, complex) and with $D(X)$, $D(Y)$ their [[derived categories]] of [[quasicoherent sheaves]], then a _Fourier-Mukai transform_ with [[integral kernel]] $E \in D(X\times Y)$ is a [[functor]] (of [[triangulated categories]]/[[stable (infinity,1)-categories]])
 
 $$
   \Phi \colon D(X)\longrightarrow D(Y)
@@ -46,6 +46,20 @@ $$
 $$
 
 (where here we implicitly understand all operations as [[derived functors]]). (e.g. [Huybrechts 08, page 4](#Huybrechts08))
+
+Hence this is a pul-tensor-push [[integral transform]] through the product [[correspondence]]
+
+$$
+  \array{
+    && X \times Y
+    \\
+    & \swarrow && \searrow
+    \\
+    X && && Y
+  }
+$$
+
+with twist $E$ on the correspondence space.
 
 Such concept of [[integral transform]] is rather general and may be considered also in [[derived algebraic geometry]] (e.g. [BenZvi-Nadler-Preygel 13](#BenZviNadlerPreygel13)) and lots of other contexts.
 
