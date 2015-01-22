@@ -30,11 +30,28 @@
 
 ## Idea
 
-A _K&#228;hler polarization_ of a [[symplectic manifold]] is a [[polarization]] of induced by a compatible [[Kähler manifold]] structure.
+A _K&#228;hler polarization_ of a [[symplectic manifold]] is a [[polarization]] by a compatible [[Kähler manifold]] structure.
 
-In terms of [[G-structures]] this means that it is a lift from an [[integrability of G-structures|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure to a first-order integrable $U(n) \hookrightarrow Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure.
+Given a [[prequantization]] of a K&#228;hler polarized symplectic manifold by a [[holomorphic line bundle]], then the polarized sections are the _[[holomorphic sections]]_.
 
-In terms of distributions it means that (...)
+Hence the concept of K&#228;hler polarization is that special case of _[[polarization]]_ which connects most intimately the [[symplectic geometry]] to [[complex analytic geometry]]. The generalization of this from [[complex analytic geometry]] to more general [[algebraic geometry]] is the concept of a _[[polarized algebraic variety]]_.
+
+
+For more see at
+
+* _[polarization -- K&#228;hler polarizations](polarization#K%C3%A4hlerPolarization)_ 
+
+* _[geometric quantization -- Quantum state space as space of polarized sections](http://ncatlab.org/nlab/show/geometric%20quantization#Polarizations)_
+
+## Definition
+
+### In terms of $G$-structures
+
+In terms of [[G-structures]] this means that it is a lift from an [[integrability of G-structures|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-[[G-structure]] ([[integrability of G-structure|integrable]] [[almost symplectic structure]]) to a first-order integrable $U(n) \hookrightarrow Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-[[G-structure|structure]] ([[integrable G-structure|first-order integrable]] [[almost Hermitian structure]]).
+
+### In terms of distributions in the complexified tangent bundle
+
+(...)
 
 $$
   \mathcal{P} \subset T_{\mathbb{C}} T X
@@ -47,17 +64,6 @@ $$
 $$
   \mathcal{P} = \left\{J v - i v \;|\; v \in T X \right\}
 $$
-
-Given a [[prequantization]] of this by a [[holomorphic line bundle]], then the polarized sections are the _holomorphic sections_.
-
-Hence the concept of K&#228;hler polarization is that special case of _[[polarization]]_ which connects most intimately the [[symplectic geometry]] to [[complex analytic geometry]]. The generalization of this from [[complex analytic geometry]] to more general [[algebraic geometry]] is the concept of a _[[polarized algebraic variety]]_.
-
-
-For more see at
-
-* _[polarization -- K&#228;hler polarizations](polarization#K%C3%A4hlerPolarization)_ 
-
-* _[geometric quantization -- Quantum state space as space of polarized sections](http://ncatlab.org/nlab/show/geometric%20quantization#Polarizations)_
 
 
 ## Related concepts
