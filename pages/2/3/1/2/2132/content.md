@@ -34,6 +34,17 @@ If the symplectic structure is not compatibly present, it is just a [[Hermitian 
 [[complex structure]] | [[Hermitian structure]] | [[Kähler structure]] |
 
 
+### In terms of $G$-Structure
+ {#InTermsOfGStructure}
+
+A K&#228;hler manifold is a [[integrability of G-structure|first-order integrable]] [[almost Hermitian structure]], hence a first order integrable [[G-structure]] for $G = U(n) \hookrightarrow GL(2n,\mathbb{R})$ the [[unitary group]] (e.g. [Verbitsky 09](#Verbitsky09)).
+
+By the fact (see at _[unitary group -- relation to orthogonal, symplectic and general linear group](unitary+group#RelationToOrthogonalSymplecticAndGeneralLinearGroup)_) that $U(n) \simeq O(2n) \underset{GL(2n,\mathbb{R})}{\times} Sp(2n,\mathbb{R}) \underset{GL(2n,\mathbb{R})}{\times} GL(n,\mathbb{C})$ this means that a K&#228;hler manifold structure is precisely a joint [[orthogonal structure]]/[[Riemannian manifold]] structure, [[symplectic manifold]] structure and [[complex manifold]] structure.
+
+
+
+
+### In terms of differential form data
 
 Where a Riemannian manifold is a real [[smooth manifold]] equipped with a nondegenerate smooth symmetric 2-form $g$ (the [[Riemannian metric]]), an __almost K&#228;hler manifold__ is a [[complex manifold|complex holomorphic manifold]] equipped with a nondegenerate hermitian 2-form $h$ (the __K&#228;hler $2$-form__).  The real [[cotangent bundle]] is replaced with the complex cotangent bundle, and symmetry is replaced with hermitian symmetry. An almost K&#228;hler manifold is a __K&#228;hler manifold__ if it satisfies an additional integrability condition.
 
@@ -154,7 +165,12 @@ Textbook accounts include
 
 Lecture notes include
 
-* Andrei Moroianu, _Lectures on K&#228;hler Geometry_ ([pdf](http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf))
+* Andrei Moroianu, _Lectures on K&#228;hler Geometry_ ([pdf]
+(http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf))
+
+Discussion in terms of [[integrability of G-structure|first-order integrable]] [[G-structure]] include
+
+* {#Verbitsky09} Misha Verbitsky, _K&#228;hler manifolds_, lecture notes 2009 ([pdf](http://verbit.ru/MATH/TALKS/Unicamp-kahler-1.pdf))
 
 Discussion of [[spin structures]] in K&#228;hler manifolds is for instance in 
 
@@ -184,4 +200,3 @@ Discussion of [[Hodge theory]] on K&#228;hler manifolds is in
 [[!redirects Kähler structures]]
 [[!redirects Kaehler structure]]
 [[!redirects Kaehler structures]]
-
