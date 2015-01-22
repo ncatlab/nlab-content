@@ -9,6 +9,7 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 This semester, we are holding a [[seminar on factorization algebras]]. 
 
 ***
+3 April -- 4 April, a [[mini-workshop on Poisson geometry]] in [Huazhong University of Science and Technology](http://english.hust.edu.cn/) Wuhan, China
 
 28 Feb--5 March, going to Berkeley :). 
 
