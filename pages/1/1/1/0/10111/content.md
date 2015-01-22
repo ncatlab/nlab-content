@@ -25,6 +25,8 @@ An _(alomst) Hermitian manifold_ is a [[smooth manifold]] compatibly equipped wi
 
 * [[Riemannian structure]].
 
+Equivalently an _[[almost Hermitian structure]]_, namely a [[G-structure]] for $G = U(n) \hookrightarrow GL(2n,\mathbb{R})$ the [[unitary group]].
+
 If in addition it carries compatibly [[symplectic structure]] it is called a _[[Kähler manifold]]_.
 
 | [[complex structure]] | + [[Riemannian structure]] | + [[symplectic structure]] |
