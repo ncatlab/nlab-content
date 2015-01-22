@@ -99,7 +99,7 @@ $$
 By [[Darboux's theorem]] every symplectic manifold has an [[atlas]] by [[coordinate charts]] $\mathbb{R}^{2n} \simeq U \hookrightarrow X$ on which the [[symplectic form]] takes the canonical form $\omega|_U = \sum_{k = 1}^n d x^{2k} \wedge d x^{2 k+1}$.
 
 
-### Symplectic and almost symplectic structure
+### Relation to almost symplectic structure
  {#SymplecticStructure}
 
 The existence of a 2-form $\omega \in \Omega^2(X)$ which is non-degenerate (but not necessarily closed) is equivalent to the existence of a [[G-structure|Sp-structure]] on $X$, a [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of the [[symplectic group]] into the [[general linear group]]
@@ -112,6 +112,13 @@ $$
 Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ -- the condition for [[integrability of G-structures]] -- makes it a genuine symplectic structure. See at _[integrability of G-structures -- Examples -- Symplectic structure](integrability+of+G-structures#ExampleSymplecticStructure)_.
 
 A _[[metaplectic structure]]_ on a symplectic or almost symplectic manifold is in turn [[lift of the structure group]] to the [[metaplectic group]]. 
+
+### Relation to almost Hermitian and K&#228;hler structure
+
+By the [above](#SymplecticStructure), a symplectic manifold structure is an
+[[integrable G-structure|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure. Further [[reduction of the structure group]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] $U(n) \hookrightarow Sp(2n,\mathbb{R})$ yields is an [[almost Hermitian structure]]. If that is again [[integrable G-structure|first order integrable]] then it is _[[Kähler structure]]_. 
+
+Such  a refinement from symplectic to K&#228;hler structure is also called a choice of _[[Kähler polarization]]_.
 
 ### Symplectomorphisms
 
