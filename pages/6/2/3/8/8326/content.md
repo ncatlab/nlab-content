@@ -172,11 +172,11 @@ The following table lists proposals for possible such identifications. The conte
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
 | vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
 | being-for-one | [[infinitesimal flat modality]] $\Im$ | [&#167;322](#322) |
-| being-for-self | [[infinitesimal shape modality]] $&#643;_{inf}$ | [&#167;305](#305) |
-| ideality (inf. quality) | [[unity of opposites]] ($&#643;_{inf} \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
-| Aufhebung of finiteness | $\left(\array{&#643;_{inf} &\dashv& \Im \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
-| reality | [[adjoint modality]] ($\Re \dashv &#643;_{inf}$) | [&#167;304](#304) , [&#167;305](#305) |
-| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& &#643;_{inf} \\ \bot&\stackrel{idea}{}& \bot && \\ &#643;_{inf} &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
+| being-for-self | [[infinitesimal shape modality]] $\& $ | [&#167;305](#305) |
+| ideality (inf. quality) | [[unity of opposites]] ($ \& \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
+| Aufhebung of finiteness | $\left(\array{\& &\dashv& \Im \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
+| reality | [[adjoint modality]] ($\Re \dashv  \&$) | [&#167;304](#304) , [&#167;305](#305) |
+| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \& \\ \bot&\stackrel{idea}{}& \bot && \\  \& &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
@@ -248,11 +248,11 @@ $$
     \\
     {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& &#643;_{inf}
+    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& \&
     \\
     && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
     \\
-    && && &&\stackrel{Fuersichsein}{} && &#643;_{inf} 
+    && && &&\stackrel{Fuersichsein}{} && \& 
     &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im &&\stackrel{Fuer-eines-sein}{}
     \\
     && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
@@ -730,15 +730,15 @@ $$
   }
 $$
 
-This indeed has a direct infinitesimal analog, namely the [[adjunction]] between the [[infinitesimal shape modality]] $&#643;_{inf}$ and [[infinitesimal flat modality]] $\Im$. 
+This indeed has a direct infinitesimal analog, namely the [[adjunction]] between the [[infinitesimal shape modality]] $\& $ and [[infinitesimal flat modality]] $\Im$. 
 
 This clearly suggests to translate "ideality is the quality of the infinite"
-in [&#167;305](#305)  as the [[unity of opposites]] which is expressed by the [[adjunction]] $&#643;_{inf} \dashv \Im$
+in [&#167;305](#305)  as the [[unity of opposites]] which is expressed by the [[adjunction]] $ \& \dashv \Im$
 
 
 $$
   \array{
-    & &  &#643;_{inf} &\stackrel{ideality}{\stackrel{inf\, quality}{\dashv}}& \Im
+    & &  \& &\stackrel{ideality}{\stackrel{inf\, quality}{\dashv}}& \Im
     \\
     && \vee && \vee
     \\
@@ -750,7 +750,7 @@ as part of the [Proce&#223;](#Process). From [&#167;322](#322) we see what the m
 
 $$
   \array{
-    & \text{being-for-self} &  &#643;_{inf} &\stackrel{ideality /}{\stackrel{inf.\, quality}{\dashv}}& \Im & \text{being-for-one}
+    & \text{being-for-self} &  \& &\stackrel{ideality /}{\stackrel{inf.\, quality}{\dashv}}& \Im & \text{being-for-one}
     \\
     && \vee && \vee
     \\
@@ -763,17 +763,17 @@ $$
 In fact, this provides [[Aufhebung]] for quality, as indicated, which we may read as the Aufhebung of the finite as it passes into the infinite (which we read as expressed via the infinitesimal). 
 
 
-Moreover, this extends to an [[adjoint triple]] $\Re \dashv &#643;_{inf} \dashv \Im$, with the [[reduction modality]] $\Re$ (from the discussion below [&#167;304](#304)) on the left
+Moreover, this extends to an [[adjoint triple]] $\Re \dashv \& \dashv \Im$, with the [[reduction modality]] $\Re$ (from the discussion below [&#167;304](#304)) on the left
 
 This hence gives a second order unity of opposites
 
 $$
   \array{
-    && \Re &\dashv& &#643;_{inf}
+    && \Re &\dashv& \&
     \\
     && \bot && \bot
     \\
-    && &#643;_{inf} &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
+    && \& &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
   }
 $$
 
@@ -783,27 +783,27 @@ Now by [&#167;324](#324) the opposite moment of ideality is indeed supposed to b
 
 $$
   \array{
-    && \Re &\stackrel{reality}{\dashv}& &#643;_{inf}
+    && \Re &\stackrel{reality}{\dashv}& \&
     \\
     && \bot && \bot
     \\
-    && &#643;_{inf} &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
+    && \& &\stackrel{{ideality/ \atop {inf.\,quality}}}{\dashv}& \Im
   }
 $$
 
-and interpret not just the [[reduction modality]] alone as being about reality, but as being just one moment of it, the other moment being expresed by the [[infinitesimal shape modality]] $&#643;_{inf}$. 
+and interpret not just the [[reduction modality]] alone as being about reality, but as being just one moment of it, the other moment being expresed by the [[infinitesimal shape modality]] $\& $. 
 
-This happens to make good sense: the [[modal types]] of $&#643;_{inf}$ in [[context]] $X$ are the [[étale spaces]] over $X$, exhibiting [[étale groupoids]] (see the discussion at _[[differential cohesion]]_ for details). In terms of [[geometry]] this is what characterizes among all generalized geometric objects those that are _[[manifolds]]_, _[[orbifolds]]_ and generally, _[[geometric stacks]]_. These are indeed "the real spaces" as opposed to non-&#233;tale spaces such as generic [[moduli stacks]], in that a "real space" such as a [[spacetime]] is an [[geometric stack]], while some "abstract", hence maybe "ideal" space such as that of "all electromagnetic field configurations" (a [[moduli stack]]) of not an &#233;tale groupoid. (See also the discussion of this point at _[[higher geometry]]_).
+This happens to make good sense: the [[modal types]] of $\& $ in [[context]] $X$ are the [[étale spaces]] over $X$, exhibiting [[étale groupoids]] (see the discussion at _[[differential cohesion]]_ for details). In terms of [[geometry]] this is what characterizes among all generalized geometric objects those that are _[[manifolds]]_, _[[orbifolds]]_ and generally, _[[geometric stacks]]_. These are indeed "the real spaces" as opposed to non-&#233;tale spaces such as generic [[moduli stacks]], in that a "real space" such as a [[spacetime]] is an [[geometric stack]], while some "abstract", hence maybe "ideal" space such as that of "all electromagnetic field configurations" (a [[moduli stack]]) of not an &#233;tale groupoid. (See also the discussion of this point at _[[higher geometry]]_).
 
 Therefore the [[infinitesimal shape modality|infinitesimal shape]]-[[modal types]] certainly qualify as one "aspect of reality" in any mathematical description of [[physics]] (see also at _[[geometry of physics]]_), and so we conclude that reading the adjunction as
 
 $$
-  reality \colon \Re \dashv &#643;_{inf}
+  reality \colon \Re \dashv \&
 $$
 
 makes good sense. 
 
-Notice that -- and this is of course precisely what the second-order duality with $ideality \colon &#643;_{inf} \dashv \Im $ expresses -- while this is all about reality, in the above sense, it is so only _via_ ideal (ideelle) infinitesimals. This is of course in a way just the big insight of [[Leibniz]] when formulating [[differential calculus]] in terms of infinitesimals (today: [[synthetic differential geometry]]): in order to express the physical _reality_ that is described, notably, by [[differential equations]], it is most useful to consider the idealized concept of infinitesimals, itself without reality, but nevertheless serving to characterize reality. 
+Notice that -- and this is of course precisely what the second-order duality with $ideality \colon \& \dashv \Im $ expresses -- while this is all about reality, in the above sense, it is so only _via_ ideal (ideelle) infinitesimals. This is of course in a way just the big insight of [[Leibniz]] when formulating [[differential calculus]] in terms of infinitesimals (today: [[synthetic differential geometry]]): in order to express the physical _reality_ that is described, notably, by [[differential equations]], it is most useful to consider the idealized concept of infinitesimals, itself without reality, but nevertheless serving to characterize reality. 
 
 The view that the concept of [[infinitesimals]] are closely related to reality is also expressed in [Cohen83, secion 19](#Cohen83):
 
@@ -814,11 +814,11 @@ In conclusion, we add to the [Proce&#223;](#Process) the following piece
 
 $$
   \array{
-     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  &#643;_{inf}
+     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  \&
     \\    
     && \bot && \bot
     \\
-    & &  &#643;_{inf} &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}& \Im
+    & &  \& &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}& \Im
     \\
     && \vee && \vee
     \\
@@ -832,11 +832,11 @@ Moreover, here the bottom step upward is an [[Aufhebung]] in the mathematical se
 
 $$
   \array{
-     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  &#643;_{inf}
+     & \stackrel{vanishing \atop {of\, infinitesimals}}{} & \Re &\stackrel{reality}{\dashv}&  \&
     \\    
     && \bot &\stackrel{Idee}{}& \bot
     \\
-    & &  &#643;_{inf} &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}&   
+    & &  \& &\stackrel{ideality/ \atop {inf.\, quality} }{\dashv}&   
     \Im
     \\
     && \vee &\stackrel{Aufhebung \atop {der.\, Endlichkeit}}{}& \vee
@@ -939,7 +939,7 @@ Below [&#167;305](#305) we find the [[adjunction]] which plausibly captures the 
 
 $$
   \array{
-    Fuersichsein & &#643;_{inf} &\stackrel{Idealitaet}{\dashv}& \Im & Fuereinssein
+    Fuersichsein & \& &\stackrel{Idealitaet}{\dashv}& \Im & Fuereinssein
   }
 $$
 
