@@ -171,12 +171,6 @@ Since the [[unitary group]] $U(V,J)$ is the [[maximal compact subgroup]] of the 
 
 =--
 
-+-- {: .num_remark #NonIntegrabilityOfMpcLift}
-###### Remark
-
-The argument in the proof of prop. \ref{SpStructureLiftsToMpcStructure} does not in general preserve [[integrability of G-structures]]: starting with a [[symplectic structure]] this is an integrable $Sp(2n,\mathbb{R})\hookrightarrow GL(2n,\mathbb{R})$-[[G-structure|structure]], but while a lift to a $U(n) \hookrightarrow Sp(2n,\mathbb{R})$-[[G-structure|structure]] and hence to an $Mp^c$-structure always exists, it being a lift to a first-order _integrable_ $U(n)$-structure means being [[Kähler manifold]] structure, and such a [[Kähler polarization]] does not need to exist on a given symplectic manifold. Worse, fully [[integrable G-structure|integrable]] $U(n) \hookrightarrow Sp(2n,\mathbb{R})\hookrightarrow GL(2n,\mathbb{R})$-structure means [[flat connection|flat]] K&#228;hler structure, which is very restrictive.
-
-=--
 
 
 
