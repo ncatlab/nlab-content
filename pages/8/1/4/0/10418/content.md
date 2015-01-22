@@ -256,6 +256,19 @@ An $Sp(n) \hookrightarrow GL(2n)$-[[G-structure|structure]] is an _[[almost symp
 
 An $O(n)\to GL(n)$-[[G-structure|structure]] is an [[orthogonal structure]], hence a [[vielbein]], hence a [[Riemannian metric]]. The [[fundamental theorem of Riemannian geometry]] says that in this case the [[torsion of a G-structure]] vanishes, exhibited by the existence of the [[Levi-Civita connection]]. The corresponding first-order integrability is the existence of [[Riemann normal coordinates]] (since these identify the given [[vielbein]] at any point to first order with the trivial (identity) vielbein). The higher order obstructions to integrability turn out to all be proportional to combinations of the [[Riemann curvature]]. Full integrability is equivalent to the vanishing of Riemann tensor, hence to the LC-connection being a [[flat connection]]. 
 
+### Unitary structure
+ {#UnitaryStructure}
+
+The case of unitary structure is precisely the combination of the above three cases.
+
+By the fact (see at _[unitary group -- relation to orthogonal, symplectic and general linear group](unitary+group#RelationToOrthogonalSymplecticAndGeneralLinearGroup)_) that the [[unitary group]] is the intersection 
+
+$$
+  U(n) \simeq O(2n) \underset{GL(2n,\mathbb{R})}{\times} Sp(2n,\mathbb{R}) \underset{GL(2n,\mathbb{R})}{\times} GL(n,\mathbb{C})
+$$ 
+
+a $U(n) \hookrightarrow GL(2n,\mathbb{R})$-structure -- called an _[[almost Hermitian structure]]_ -- is precisely a joint [[orthogonal structure]], [[almost symplectic structure]] and [[almost complex structure]]. Hence if first order integrable -- called a [[Kähler manifold]] structure -- this is precisely a joint [[orthogonal structure]]/[[Riemannian manifold]] structure, [[symplectic manifold]] structure, [[complex manifold]] structure.
+
 ### $G_2$-Structure
  {#ExampleG2Structure}
 
