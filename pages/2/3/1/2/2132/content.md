@@ -33,6 +33,11 @@ If the symplectic structure is not compatibly present, it is just a [[Hermitian 
 |--|--|--|
 [[complex structure]] | [[Hermitian structure]] | [[Kähler structure]] |
 
+Where a Riemannian manifold is a real [[smooth manifold]] equipped with a nondegenerate smooth symmetric 2-form $g$ (the [[Riemannian metric]]), an __almost K&#228;hler manifold__ is a [[complex manifold|complex holomorphic manifold]] equipped with a nondegenerate hermitian 2-form $h$ (the __K&#228;hler $2$-form__).  The real [[cotangent bundle]] is replaced with the complex cotangent bundle, and symmetry is replaced with hermitian symmetry. An almost K&#228;hler manifold is a __K&#228;hler manifold__ if it satisfies an additional integrability condition.
+
+The K&#228;hler 2-form can be decomposed as $h = g+i\omega$; here $g$ is a [[Riemannian metric]] and $\omega$ a [[symplectic form]]. 
+
+## Definition
 
 ### In terms of $G$-Structure
  {#InTermsOfGStructure}
@@ -43,16 +48,9 @@ By the fact (see at _[unitary group -- relation to orthogonal, symplectic and ge
 
 
 
-
-### In terms of differential form data
-
-Where a Riemannian manifold is a real [[smooth manifold]] equipped with a nondegenerate smooth symmetric 2-form $g$ (the [[Riemannian metric]]), an __almost K&#228;hler manifold__ is a [[complex manifold|complex holomorphic manifold]] equipped with a nondegenerate hermitian 2-form $h$ (the __K&#228;hler $2$-form__).  The real [[cotangent bundle]] is replaced with the complex cotangent bundle, and symmetry is replaced with hermitian symmetry. An almost K&#228;hler manifold is a __K&#228;hler manifold__ if it satisfies an additional integrability condition.
-
-The K&#228;hler 2-form can be decomposed as $h = g+i\omega$; here $g$ is a [[Riemannian metric]] and $\omega$ a [[symplectic form]]. 
-
 ## Examples
 
-There is a unique up to a scalar hermitian metric on a complex projective space (which can be normalized), the Fubini--Study metric. All analytic subvarieties of a complex projective space are in fact [[algebraic variety|algebraic subvarieties]] and they inherit the K&#228;hler structure from the projective space. Examples include complex tori $\mathbb{C}^n/L$ where $L$ is a lattice in $\mathbb{C}^n$, K3-surfaces, compact Calabi-Yau manifolds, quadrics, products of projective spaces and so on. 
+There is a unique up to a scalar hermitian metric on a complex [[projective space]] (which can be normalized), the [[Fubini-Study metric]]. All analytic subvarieties of a complex projective space are in fact [[algebraic variety|algebraic subvarieties]] and they inherit the K&#228;hler structure from the projective space. Examples include complex tori $\mathbb{C}^n/L$ where $L$ is a lattice in $\mathbb{C}^n$, [[K3-surfaces]], compact [[Calabi-Yau manifolds]], quadrics, products of projective spaces and so on. 
 
 ## Properties
 
@@ -81,6 +79,10 @@ Now the condition for $X$ to be a K&#228;hler is that $X$ be a [[complex manifol
 Equivalently that for the [[Levi-Civita connection]] $\nabla$ of $G$ we have $\nabla \omega = 0$ or $\nabla J = 0$. 
 
 Hence given a [[complex manifold]] $X$, together with a  *closed* real $2$-form $\omega$, the only additional condition required to ensure that it defines a  K&#228;hler metric is that it be a positive $(1,1)$-form.
+
+### Relation to symmplectic manifolds
+
+Lifting a [[symplectic manifold]] structure to a K&#228;hler manifold structure is also called choosing a _[[Kähler polarization]]_.
 
 ### Relation to Spin-structures
 
