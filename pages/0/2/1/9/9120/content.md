@@ -24,7 +24,7 @@
 
 * ([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]) 
 
-  $(\Re \dashv &#643;_{inf} \dashv \flat_{inf})$
+  $(\Re \dashv \& \dashv \Im)$
 
   * [[reduced object]], [[coreduced object]], [[formally smooth object]]
 
@@ -39,7 +39,7 @@ $$
      \\
      \vee && \vee
      \\
-     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
+     \Re &\dashv& \& &\dashv& \Im
      \\
       && \vee && \vee
      \\
