@@ -167,7 +167,14 @@ Every [[symplectic manifold]] admits a [[metaplectic structure]].
 +-- {: .proof}
 ###### Proof
 
-Since the [[unitary group]] $U(V,J)$ is the [[maximal compact subgroup]] of the [[symplectic group]] (see [here](maximal+compact+subgroup#ExamplesForLieGroups)) every $Sp(V,\omega)$-[[principal bundle]] has a [[reduction of the structure group|reduction]] to a $U(V,J)$-principal bundle. By prop. \ref{MUcExtensionSplits} this reduction in turn lifts to a $MU^c(V,J)$-structure. By def. \ref{MUc} this induces an $Mp^c$-structure under inclusion along $MU^c \hookrightarrow Mp^c$.
+Since the [[unitary group]] $U(V,J)$ is the [[maximal compact subgroup]] of the [[symplectic group]] (see [here](maximal+compact+subgroup#ExamplesForLieGroups)) every $Sp(V,\omega)$-[[principal bundle]] has a [[reduction of the structure group|reduction]] to a $U(V,J)$-principal bundle. By prop. \ref{MUcExtensionSplits} this reduction in turn lifts to a $MU^c(V,J)$-structure. By def. \ref{MUc} this induces an $Mp^c$-structure under inclusion along $MU^c \hookrightarrow Mp^c$. 
+
+=--
+
++-- {: .num_remark #NonIntegrabilityOfMpcLift}
+###### Remark
+
+The argument in the proof of prop. \ref{SpStructureLiftsToMpcStructure} does not in general preserve [[integrability of G-structures]]: starting with a [[symplectic structure]] this is an integrable $Sp(2n,\mathbb{R})\hookrightarrow GL(2n,\mathbb{R})$-[[G-structure|structure]], but while a lift to a $U(n) \hookrightarrow Sp(2n,\mathbb{R})$-[[G-structure|structure]] and hence to an $Mp^c$-structure always exists, it being a lift to a first-order _integrable_ $U(n)$-structure means being [[Kähler manifold]] structure, and such a [[Kähler polarization]] does not need to exist on a given symplectic manifold. Worse, fully [[integrable G-structure|integrable]] $U(n) \hookrightarrow Sp(2n,\mathbb{R})\hookrightarrow GL(2n,\mathbb{R})$-structure means [[flat connection|flat]] K&#228;hler structure, which is very restrictive.
 
 =--
 
