@@ -20,7 +20,27 @@
 
 ## Definition
 
-An _almost Hermitian structure_ on an [[almost complex manifold]] is a further [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of the [[unitary group]] $U(n) \hookrightarrow GL(n,\mathbb{C})$.
+An _almost Hermitian structure_ a [[reduction of the structure group]] along the inclusion $U(n) \hookrightarrow GL(n,\mathbb{C})$ of the [[unitary group]] into the [[complex numbers|complex]] [[general linear group]].
+
+Under further embedding $U(n) \hookrightarrow GL(n,\mathbb{C}) \hookrightarrow GL(2n,\mathbb{R})$ an almost hermitian structure on the [[frame bundle]] of a [[smooth manifold]], hence a [[G-structure]] for $G = U(n)$, is first of all the choice of an [[almost complex structure]] and then an [[almost Hermitian manifold]] structure.
+
+An [[integrability of G-structure|first-order intgrable]] $U(n)$-structure (almost Hermitian manifold) structure is _[[Kähler manifold]]_ structure.
+
+## Properties
+
+### Relation to almost complex structure
+
+Since the inclusion $U(n) \hookrightarrow GL(2n,\mathbb{R})$ factors through the [[symplectic group]] via the [[maximal compact subgroup]] inclusion
+
+$$
+  U(n) \hookrightarrow Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})
+$$
+
+an almost Hermitian manifold structure is in particular an [[almost complex structure]]. Conversely, since the [[maximal compact subgroup]] inclusion is a [[homotopy equivalence]], there is no [[obstruction]] to lifting an almost complex structure to an almost Hermitian structure.
+
+### Relation to K&#228;hler manifolds
+
+An [[integrable G-structure|first-order integrable]] almost Hermitian structure is a _[[Kähler manifold]] structure_.
 
 ## Related concepts
 
