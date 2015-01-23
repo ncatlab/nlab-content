@@ -11,11 +11,17 @@
 
 * [[Moritz Kerz]], [[Shuji Saito]], _Chow group of 0-cycles with modulus and higher dimensional class fiedl theory_, [arXiv:1304.4400](http://arxiv.org/abs/1304.4400).
 
+* [[Amalendu Krishna]], [[Jinhyun Park]], _A module structure and a vanishing theorem for cycles with modulus_, [arXiv:1412.7396](http://arxiv.org/abs/1412.7396).
+
+### Historical precursors
+
 * [[Bruno Kahn]], [[Shuji Saito]], [[Takao Yamakazi]], _Reciprocity sheaves, I_, [arXiv:1402.4201](http://arxiv.org/abs/1402.4201).
 
 * [[Bruno Kahn]], _Reciprocity sheaves_, notes from a talk in "Homotopical methods in algebraic geometry", USC, Los Angeles, May 28 &#8211; June 1, 2013, [pdf](http://webusers.imj-prg.fr/~bruno.kahn/preprints/reciprocity-USC.pdf).
 
 * [[Florian Ivorra]], Kay R&#252;lling, _K-groups of reciprocity functors_, [arXiv:1209.1217](http://arxiv.org/abs/1209.1217).
+
+* [[Spencer Bloch]], [[Hélène Esnault]], _An additive version of higher Chow groups_, [arXiv:math/0112101](http://arxiv.org/abs/math/0112101).
 
 [[!redirects Chow group with modulus]]
 [[!redirects higher Chow group with modulus]]
