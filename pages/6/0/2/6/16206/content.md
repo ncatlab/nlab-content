@@ -8,21 +8,38 @@ April 3--4, Wuhan at [Huazhong University of Science and Technology](http://engl
 
 Zhangju Liu (Beijing University)
 
+Chengming Bai (Chern Institute, Nankai University)
+
+Zhujun Zheng (South China University of Technology)
+
+Zhuo Chen (Tsinghua University)
+
+####Participants####
+
+Zhangju Liu (Beijing University)
+
+Chengming Bai (Chern Institute, Nankai University)
+
+Zhujun Zheng (South China University of Technology)
+
+Zhuo Chen (Tsinghua University)
+
+Yunhe Sheng (Jilin University)
+
+Tao Zhang (Henan Normal University)
+
 ####Organizers####
-[[Chenchang Zhu]] (Gottingen, Germany)
+Jinqiao Duan and [[Chenchang Zhu]] (Gottingen, Germany)
 
 ###Schedule###
 
 
 |               | Friday      | Saturday | 
 | ------------- | -------------|--------| 
-| 9:30--10:30   |      |[[Chen]] | 
-| 10:30--11:00  |  Registration     |Break| 
-| 11:00--12:00  | [[Liu]]             |[[Zhang]]|
-| 12:00--13:00  |  Lunch            |Lunch     |       
-| 13:00--14:00  | Lunch |Lunch     | 
-| 14:00--15:00  | [[Sheng]]  |free discussion| 
-| 15:00--15:30  | Break        |free discussion|                             
-| 15:30--16:30  |[[Zheng]]   |free discussion |
-| 16:45--17:45  |  [[Bai]]|  free discussion |
-|18:00--|dinner| |         
+| 9:00--10:00   |   Zhangju Liu   | Zhujun Zheng | 
+| 10:300--10:30  |  Break     |Break| 
+| 10:30--11:30  | Chengming Bai             |Zhuo Chen |
+| 12:00--14:00  |  Lunch            |Lunch     |       
+| 14:00--17:00  | free discussion |free discussion     | 
+
+         
