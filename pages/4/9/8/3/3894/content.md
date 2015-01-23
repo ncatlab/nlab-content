@@ -293,7 +293,7 @@ The concepts originates around the work of [[Eli Cartan]] ([[Cartan geometry]]).
 
 Original articles include
 
-* [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf))
+* [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf), [Euclid](http://projecteuclid.org/euclid.bams/1183527777))
 
 Surveys include
 
