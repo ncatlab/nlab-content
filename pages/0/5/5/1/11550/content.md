@@ -1,4 +1,4 @@
 [[!redirects Jan Erik Roos]]
-Jan-Erik Roos is a Swedish mathematician whose reserach interests are in Abelian category theory, homological algebra and related areas.
+Jan-Erik Roos is a Swedish mathematician whose research interests are in Abelian category theory, homological algebra and related areas.
 
 category:people
