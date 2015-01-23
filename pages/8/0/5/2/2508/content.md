@@ -24,15 +24,15 @@
 
 This entry is about the textbook
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _Supergravity and Superstrings - A Geometric Perspective_
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _Supergravity and Superstrings - A Geometric Perspective_
 
-on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fre formulation of supergravity]].
+on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré formulation of supergravity]].
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
 ## Description
 
-  This book focuses on the discussion of [[supergravity]]-aspects of [[string theory]] from the point of view of the [[D'Auria-Fre formulation of supergravity]]. Therefore, while far, far from being written in the style of a mathematical treatise, this book stands out as making a consistent proposal for what the central ingredients of a mathematical formalization might be: as explained at the above link, secretly this book is all about describing supergravity in terms of [[connection on an infinity-bundle|infinity-connections]] with values in [[super L-infinity algebra]]s such as the [[supergravity Lie 3-algebra]].
+  This book focuses on the discussion of [[supergravity]]-aspects of [[string theory]] from the point of view of the [[D'Auria-Fré formulation of supergravity]]. Therefore, while far, far from being written in the style of a mathematical treatise, this book stands out as making a consistent proposal for what the central ingredients of a mathematical formalization might be: as explained at the above link, secretly this book is all about describing supergravity in terms of [[connection on an infinity-bundle|infinity-connections]] with values in [[super L-infinity algebra]]s such as the [[supergravity Lie 3-algebra]].
 
 See also [[higher category theory and physics]].
 
@@ -48,19 +48,9 @@ The interpretation of the D'Auria-Fr&#233;-formalism in terms of [[∞-Lie algeb
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
-This had been preceded by some blog discussion, for instance
-
-* [[Urs Schreiber]], _Castellani on FDA in SuGra: gauge 3-group of M-theory_ ([blog](http://golem.ph.utexas.edu/string/archives/000840.html))
-
-This is, as far as [[Urs Schreiber|I]] am aware, the first occurence of the explicit observation that the FDA-formalism is about higher gauge theory, based on hearing a talk on
-
-* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_ ([arXiv](http://arxiv.org/abs/hep-th/0508213))
-
-* [[Urs Schreiber]], _SuGra 3-connection reloaded_ ([blog](http://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html))
-
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
-* [[Pietro Fre]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
 
 An attempt at a comprehensive discussion of the formalism in the context of [[cohesive (∞,1)-topos]]-theory for 
 [[smooth super ∞-groupoid]]s is in the last section of 
@@ -69,13 +59,13 @@ An attempt at a comprehensive discussion of the formalism in the context of [[co
 
 Here are some more references:
 
-* Pietro Fr&eacute;, _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
+* [[Pietro Fré]], _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
 
-* Pietro Fr&eacute; and Pietro Antonio Grassi,
-_Pure spinors, free differential algebras, and the supermembrane_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0606171))
+* [[Pietro Fré]], Pietro Antonio Grassi,
+_Pure spinors, free differential algebras, and the supermembrane_ ([arXiv:hep-th/0606171] (http://www.arxiv.org/abs/hep-th/0606171))
 
-* Pietro Fr&eacute; and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
-([arXiv] (http://www.arxiv.org/abs/0801.3076))
+* [[Pietro Fré]] and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
+([arXiv:0801.3076] (http://www.arxiv.org/abs/0801.3076))
 
 
 category: reference
