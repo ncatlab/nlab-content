@@ -59,7 +59,7 @@ $$
 
 The situation described in the Idea section asks us to consider contravariantly [[adjoint functors]] $T: A \to B$, $S: B \to A$ such that $U S: B \to Set$ and $V T: A \to Set$ are representable, i.e., are given by isomorphisms $B(-, \mathbf{b}) \cong U S$ (with representing element $\phi \in U S \mathbf{b}$) and $A(-, \mathbf{a}) \cong V T$ (with representing element $\psi \in V T \mathbf{a}$). Let $\eta: 1_A \to S T$ and $\epsilon: 1_B \to T S$ denote the universal maps of the adjunction (so that if we write $T$ and $S$ in covariant form as $T: A \to B^{op}$ and $S: B^{op} \to A$, we would have $T \dashv S$ with $\eta$ as unit and $\epsilon$ as counit). 
 
-+-- {: .num_prop} 
++-- {: .num_prop #sitting} 
 ###### Proposition 
 The representing data $\phi \in U S \mathbf{b}, \psi \in V T \mathbf{a}$ induce a canonical isomorphism $\omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b}$. It is given by the evident composite 
 
@@ -106,21 +106,61 @@ where the top horizontal composite is an identity, according to a triangular equ
 =-- 
 
 
-The canonical identification of sets $\omega: U \mathbf{a} = V \mathbf{b}$ means that we have an object "sitting in two categories" (Lawvere), namely an $A$-structure $\mathbf{a}$ on this set and a $B$-structure $\mathbf{b}$ on the same set, with $T: A^{op} \to B$ providing a lift of $A(-, \mathbf{a}): A^{op} \to Set$ through $V: B \to Set$, and $S: B^{op} \to A$ lifting $B(-, \mathbf{b}): B^{op} \to Set$ through $U: A \to Set$. Thus the triplet $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ forms what may be called an ($(A, B)$-)*ambimorphic object*, living in an evident pseudo-pullback of $U$ and $V$ [check that this is the correct terminology]. 
+The canonical identification of sets $\omega: U \mathbf{a} = V \mathbf{b}$ means that we have an object "sitting in two categories" (Lawvere), namely an $A$-structure $\mathbf{a}$ on this set and a $B$-structure $\mathbf{b}$ on the same set, with $T: A^{op} \to B$ providing a lift of $A(-, \mathbf{a}): A^{op} \to Set$ through $V: B \to Set$, and $S: B^{op} \to A$ lifting $B(-, \mathbf{b}): B^{op} \to Set$ through $U: A \to Set$. Thus the triplet $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ forms what may be called an ($(A, B)$-)*ambimorphic object*, living in an evident pseudo-pullback of $U$ and $V$ [check that this is the correct terminology] which we denote by $Ambi(U, V)$. 
 
-We now record some conditions which ensure an equivalence between suitably represented adjunctions over $Set$ as above and suitable ambimorphic objects, due to Dimov-Tholen (see the references below). Suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above, let 
+Given functors $U: A \to Set$, $V: B \to Set$, let $Adj_{rep}(U, V)$ be the category whose objects are contravariantly adjoint pairs $(S: B \to A, T: A \to B)$ such that $U S$ and $V T$ are representable. Morphisms $(S, T) \to (S', T')$ are pairs of natural transformations $\alpha: S \to S'$, $\beta: T \to T'$ such that the diagrams 
 
-$$- \cdot_U -: A(a, a') \times U a \to U a'$$ 
+$$\array{
+1_A & \stackrel{\eta'}{\to} & S' T' \\ 
+ _\mathllap{\eta} \downarrow & & \downarrow_\mathrlap{S' \beta} \\ 
+S T & \underset{\alpha T}{\to} & S' T
+}$$ 
 
-(similarly, $- \cdot_V -$) denote the left (covariant) action of $A$ on $U: A \to Set$; here $a, a'$ should be read as dummy variables. Let 
+$$\,$$ 
 
-$$- \cdot_{V T} -: V T a' \times A(a, a') \to V T a$$ 
+$$\array{
+T S' & \stackrel{T \alpha}{\to} & T S \\ 
+ _\mathllap{\beta S'} \downarrow & & \downarrow_\mathrlap{\epsilon} \\ 
+T' S' & \underset{\epsilon'}{\to} & 1_B 
+}$$ 
 
-(similarly, $- \cdot_{U S} -$) denote the right (contravariant) action of $A$ on $V T: A^{op} \to Set$. 
+commute. In conjunction with the [[Yoneda lemma]], the preceding proposition can be read as giving the construction of a functor $\Phi: Adj_{rep}(U, V) \to Ambi(U, V)$. 
+
+We are now ready for the key definition. 
+
++-- {: .num_defn} 
+###### Definition 
+Given $U: A \to Set$, $V: B \to Set$, a $(U, V)$-**dualizing object** is an ambimorphic object in the essential image of $\Phi$. 
+=-- 
+
+The definition can be tightened by putting some more conditions on representable contravariant adjoint pairs $(S, T) \in Adj_{rep}(U, V)$, due to Dimov-Tholen (see the references below). Suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above. We thus have maps 
+
+$$\gamma \coloneqq (U \stackrel{U \eta}{\to} U S T \cong B(T-, \mathbf{b})), \qquad \delta \coloneqq (V \stackrel{V \epsilon}{\to} V T S \cong A(U-, \mathbf{a}))$$ 
+
+so that for each object $a$ of $A$ and $x \in U a$, we have a corresponding map $(\gamma a)(x): T a \to \mathbf{b}$ (playing the role of $g$ in the proof of Proposition \ref{sitting}), and similarly for each object $b$ of $B$ and $y \in V b$, we have a map $(\delta b)(y): S b \to \mathbf{a}$ (playing the role of $f$ in Proposition \ref{sitting}). 
+
++-- {: .num_defn} 
+###### Definition 
+The adjunction between $S$ and $T$ is *naturally* represented if the family 
+$\{(\gamma a)(x): T a \to \mathbf{b}\}_{x \in U a}$ is $V$-[[topological functor|initial]] for each $a \in Ob(A)$, and the family $\{(\delta b)(y): S b \to \mathbf{a}\}_{y \in V b}$ is $U$-initial for each $b \in Ob(B)$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+The restriction of $\Phi: Adj_{rep}(U, V) \to Ambi(U, V)$ to the full subcategory whose objects are naturally represented adjoint pairs is full and faithful. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+See [Dimov-Tholen](#DT), Proposition 2.3. 
+=-- 
+
 
 ## Examples
 
-Examples appear at 
+One easy general example is where $C$ is a [[symmetric monoidal category|symmetric]] [[monoidal closed category]] and $d$ is an object therein. Here we may take $U = V = C(I, -): C \to Set$ where $I$ is the monoidal unit, and the contravariant representable functor $C(-, d): C \to Set$ lifts to a contravariant enriched hom $[-, d]: C \to C$; the symmetry isomorphism can be exploited to show how $[-, d]$ is adjoint to itself. See [here](http://ncatlab.org/nlab/show/duality#concrete_dualities) for more. 
+
+Further examples appear at 
 
 * [[Stone duality]]
 
@@ -135,10 +175,11 @@ Examples appear at
 ## References
 
 * G. D. Dimov, W. Tholen, _A Characterization of Representable Dualities,_
-In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357.
+In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357. 
 
 * G. D. Dimov, W. Tholen, _Groups of Dualities,_ Trans. Amer. Math. Soc.,
-336 (2), 901-913, 1993. ([pdf](http://www.ams.org/journals/tran/1993-336-02/S0002-9947-1993-1100693-0/S0002-9947-1993-1100693-0.pdf))
+336 (2), 901-913, 1993. ([pdf](http://www.ams.org/journals/tran/1993-336-02/S0002-9947-1993-1100693-0/S0002-9947-1993-1100693-0.pdf)) 
+ {#DT} 
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
