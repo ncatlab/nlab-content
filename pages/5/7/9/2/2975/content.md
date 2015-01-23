@@ -72,6 +72,8 @@ are invertible for all $X \in \Sm_k$.
 
 * [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_, [pdf](http://math.mit.edu/~hoyois/papers/hopkinsmorel.pdf), [arXiv](http://arxiv.org/abs/1210.7182).
 
+* [[Marc Levine]], [[Girja Shanker Tripathi]], _Quotients of MGL, their slices and their geometric parts_, [arXiv:1501.02436](http://arxiv.org/abs/1501.02436).
+
 A discussion on MathOverflow:
 
 * _Interdependence between A^1-homotopy theory and algebraic cobordism_, [MO/36659](http://mathoverflow.net/questions/36659/interdependence-between-a1-homotopy-theory-and-algebraic-cobordism/36698#36698).
