@@ -44,7 +44,7 @@ These consistency conditions include the following:
 
 1. There is a [[natural transformation]]  $f_! \to f_*$ which is a [[natural equivalence]] when $f$ is a [[proper map]]. 
 
-1. [[Beck-Chevalley condition]]: given a ([[homotopy pullback|homotopy]]) [[pullback]] [[diagram]]
+1. [[Beck-Chevalley condition]] (base change formulas): given a ([[homotopy pullback|homotopy]]) [[pullback]] [[diagram]]
 
    $$
      \array{
@@ -114,6 +114,7 @@ General abstract discussion is in
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
 
 The traditional applications ([[quasicoherent sheaves of modules]]) are discussed in
 
