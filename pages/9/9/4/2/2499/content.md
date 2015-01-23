@@ -258,6 +258,7 @@ $$
 This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞-Lie algebroid valued curvature]] that is explicitly given by:
 
 
+
 * connection forms / field configuration
 
   * $E \in \Omega^1(X,\mathbb{R}^{10,1})$ -- the **vielbein** (part of the _graviton field_)
@@ -448,19 +449,33 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 ### Rheonomy 
  {#Rheonomy}
 
-(...)
+In the formulation here the [[field (physics)|fields]] of [[supergravity]] are modeled by  [[super differential forms]] on a [[supermanifold]] $\tilde X$, and this very fact serves to make local [[supersymmetry]] manifest, i.e.serves to model geometry by [[higher supergeometry|higher supergeometric]] [[higher Cartan geometry]].
 
-equivalent to what elsewhere is called "superspace constraints", see 
-([AFFFTT 98, below (3.12)](#AFFFTT98))
+But the actual fields of supergravity are supposed to be fields on actual [[spacetime]] $X$ (an ordinary [[smooth manifold]]) $X \hookrightarrow \tilde X$.
+Hence one is to impose a constraint that ensures that the [[super differential forms]] used on $\tilde X$ are uniquely determined by their restriction to ordinary [[differential forms]] on $X$. This constraint is called _rheonomy_ ([Castellani-D'Auria-Fr&#233; 91, vol 2, section III.3.3](#CastellaniDAuriaFre)), alluding to the idea that the constrains allow to "flow" the field data from spacetime $X$ to the [[super spacetime]] $\tilde X$.
 
-(...)
+The idea here is [[analogy|analogous]] ([Castellani-D'Auria-Fr&#233; 91, vol 2, p. 660](#CastellaniDAuriaFre), [Fr&#233;-Grassi 08, p. 4](#FreGrassi08)) to how the [[Cauchy-Riemann equations]] impose the constraint for a [[function]] on the [[complex plane]] $\mathbb{C}$ to be a [[holomorphic function]] and hence to be already fixed by its values on the [[real line]] $\mathbb{R} \hookrightarrow \mathbb{C}$.
+
+In ([Castellani-D'Auria-Fr&#233;, vol 2, section III.3.3](#CastellaniDAuriaFre)) this idea is formalized by the constraint that for the given super-$L_\infty$-algebra connection as above, those components of the [[curvature]] forms which carry fermionic indices must be [[linear combinations]] of the components carrying no fermionic indices.
+
+This rheonomy constraint is equivalent to what elsewhere is called "superspace constraints", see ([AFFFTT 98, below (3.12)](#AFFFTT98)).
+
 
 ## Dynamics
 
-A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. We discuss how actional functionals for supergravity theories are special cases of this.
+### Field equations of motion
+
+A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. 
+
+The major statement/claim is that all the [[supergravity]] [[equations of motion]] specify just precisely those super-$L_\infty$-connections -- satisfying their [[Bianchi identities]]-- which are [rheonomic](#Rheonomy).
+
+
 
 
 ### Cosmo-cocycle equations {#ChernSimonsElements}
+
+We discuss how actional functionals for supergravity theories are special cases of this.
+
 
 In [[first-order formulation of gravity]] where the field of [[gravity]] is encoded in a [[vielbein]] $E$ and a [[spin connection]] $\Omega$, the [[Einstein-Hilbert action]] takes the _Palatini_ form
 
@@ -769,8 +784,8 @@ The original articles that introduced specifically the D'Auria-Fr&#233;-formalis
 
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-{#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
@@ -787,12 +802,12 @@ The [[Lie integration]] of that to genuine [[principal ∞-connections]] is in
 
 The [[super L-∞ algebras]] that govern the construction are interpreted in the [[higher gauge theory]] of an [[schreiber:∞-Wess-Zumino-Witten theory]] description of the [[Green-Schwarz sigma-model]]-type $p$-[[branes]] in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
- {#FSS}
+* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+ 
 
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
+* {#FreGrassi08} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv:0801.3076](http://arxiv.org/abs/0801.3076))
 
 An attempt at a comprehensive discussion of the formalism in the context of [[cohesive (∞,1)-topos]]-theory for 
 [[smooth super ∞-groupoid]]s is in the last section of 
@@ -806,7 +821,6 @@ To compare D'Auria-Fre with our language here, notice the following points in th
 
 * What we identify as gauge transformations and shifts by the characterization of [[curvature]] forms on the [[cylinder object]] $U \times \Delta^{1|p}$ is their equation (I.3.36).
 
-* The _[[rheonomy]]_ condition is around (III.3.32) .
 
 
 
