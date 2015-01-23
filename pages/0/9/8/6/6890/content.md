@@ -58,7 +58,7 @@ Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
 
 It uses a version of the [[calculus of constructions]] to implement [[natural deduction]].
 
-A [[dependent type theory]] software similar to Coq is _[[Agda]]_.
+[[Dependent type theory]] softwares similar to Coq are _[[Agda]]_ and _[[Lean]]_.
 
 Similar but non-dependent type theory software includes _[[Haskell]]_.
 
