@@ -177,23 +177,28 @@ Formulation in terms of [[supergeometry]] is in
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_
-{#DAuriaFre} 
+* {#DAuriaFre} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_
+ 
 
 of which a textbook account is in 
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
-{#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+
 
 The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
 
-* [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], _Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes_, Nucl. Phys. B522 (1998) 214-233 ([arXiv:hep-th/9711055](http://arxiv.org/abs/hep-th/9711055))
- {#BandosBerkovitsSorokin97}
+* {#BandosBerkovitsSorokin97} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], _Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes_, Nucl. Phys. B522 (1998) 214-233 ([arXiv:hep-th/9711055](http://arxiv.org/abs/hep-th/9711055))
+ 
 
 and around (4.2) of
  
-* Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
- {#Tsimpis04}
+* {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
+ 
+
+Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
+
+* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
+Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
 ### Classical solutions
 	
