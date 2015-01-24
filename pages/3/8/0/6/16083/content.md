@@ -23,7 +23,7 @@
 
 ## Idea
 
-The [[equations of motion]] of [[supergravity]] typically imply, or are even equivalent to (e.g. [Howe 97](#Howe97)), that some -- but not all -- of the components of the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanish. 
+The [[equations of motion]] of [[supergravity]] typically imply -- or are even equivalent to (e.g. [Howe 97](#Howe97)), that the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanishes. At least in some cases these _supergravity torsion constraints_ may naturally be understood as saying that supergravity solutions are ([[higher Cartan geometry|higher]]) [[supergeometry|super]] [[Cartan geometries]] modeled on [[extended super Minkowski spacetime]] _with_ its canonical [[torsion of a G-structure]], due to the fact that the [[left invariant 1-forms]] on super-Minkowski space are not closed.
 
 
 
@@ -176,22 +176,35 @@ But in the situation of $V$ being [[super-Minkowski spacetime]] as [above](#Cano
 
 This perspective on the torsion constraints in supergravity is adopted in ([Lott 01](#Lott01)), see there around (38) of the original article or section 4 of the review on the arXiv.
 
+## Properties
+
+### Relation to supergravity equations of motion
+
+The [[supergravity]] [[equations of motion]] typically imply the torsion constraints. See at [super p-brane -- On curved spacetimes](Green-Schwarz+action+functional#OnCurvedSpacetime) for more.
+
+With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulaiton of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravoty]] ([Howe 97](#Howe97)) and maybe its maximally supersymmetric [[KK-compactifications]].
+
+
+### Relation to CR-geometry
+
+A close [[analogy]] between [[CR geometry]] and [[supergravity]] [[superspacetimes]] (as both being [[torsion of a G-structure|torsion-ful]] [[integrable G-structures]]) is pointed out in ([Lott 01 exposition (4.2)](Lott01)).
+
 
 ## Related concepts
+
+* [[CR manifold]]
 
 * [[D'Auria-Fre formulation of supergravity]]
 
 ## References
 
+### General
+
 The formulation of supergravity equations of motion in terms of constraints on the torsion tensor goes back to 
 
 * [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
 
-Discussion of torsion constrains for [[11-dimensional supergravity]] from the point of view of consistency of the [[membrane]] [[Green-Schwarz action functional]] is in
-
-* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
-
-A mathematical formulation in terms of [[G-structures]] on [[supermanifolds]] is given in
+A mathematical formulation in terms of [[torsion of a G-structure|torsion-full]] [[first-order integrable G-structure|first-order integrable]] [[G-structures]] on [[supermanifolds]] (for low dimensional supergravity theories) is given in
 
 * {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
@@ -200,14 +213,38 @@ which is followed up in
 * Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, _J.Geom.Phys. 62 (2012) 53-60_ ([spire](http://inspirehep.net/record/1333125))
 
 
-See also
+### For 11d supergravity
 
-* {#Howe97} P.S. Howe, _Weyl Superspace_ ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+Discussion of torsion constrains for [[11-dimensional supergravity]] from the point of view of consistency of the [[membrane]] [[Green-Schwarz action functional]] is in
+
+* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+
+
+The claim that this torsion constraint in  [[11-dimensional supergravity]] is already equivalent to all of the [[equations of motion]] is due to
+
+* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
+Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+
+For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
+
+* [[Martin Cederwall]], Ulf Gran, Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
+
+### For 10d heterotic supergravity
+
+Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([Nilsson 81](Green-Schwarz+action+functional#Nilsson81)) and includes
+
+* [[Paul Howe]], A. Umerski, _On superspace supergravity in ten dimensions_, Phys. Lett. B 177 (1986) 163.
+
+* [[Paul Howe]], _Heterotic supergeometry revisited_ ([arXiv:0805.2893](http://arxiv.org/abs/0805.2893))
+
+* {#Nilsson00} [[Bengt Nilsson]], _A superspace approach to branes and supergravity_ ([arXiv:hep-th/0007017](http://arxiv.org/abs/hep-th/0007017))
+
+### For 2d supergravity / superstring worldsheets / super Riemann surfaces
 
 * [[Suresh Govindarajan]], [[Burt Ovrut]], _A geometric interpretation for the torsion constrains of $(2,0)$-heterotic worldhseet supergravity_, Mod. Phys. Lett. A6(1991), 3341. ([pdf](http://www.physics.iitm.ac.in/~suresh/sgtalk/talk_html/torsion.pdf))
+
 
 [[!redirects supergravity torsion constraint]]
 [[!redirects supergravity torsion constraints]]
 
 [[!redirects torsion constraints of supergravity]]
-
