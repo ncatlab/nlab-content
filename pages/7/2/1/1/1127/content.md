@@ -62,7 +62,7 @@ A Grothendieck category $C$ satisfies the following properties.
 
 * it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$
 
-Much of the localization theory of rings generalize to general Grothendieck categories. 
+Much of the localization theory of rings generalizes to general Grothendieck categories. 
 
 ## Examples
 
