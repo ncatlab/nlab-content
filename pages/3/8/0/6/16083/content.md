@@ -227,7 +227,7 @@ Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/970718
 
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
-* [[Martin Cederwall]], Ulf Gran, Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
+* {#CGNN00} [[Martin Cederwall]], Ulf Gran, Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
 
 ### For 10d heterotic supergravity
 
