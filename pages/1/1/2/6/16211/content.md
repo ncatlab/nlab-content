@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Lars_Brink)
+
+## related $n$Lab entriees
+
+* [[string theory]]
+
+* [[11-dimensional supergravity]]
+
+category: people
