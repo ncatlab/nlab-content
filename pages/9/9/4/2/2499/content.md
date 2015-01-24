@@ -456,7 +456,7 @@ Hence one is to impose a constraint that ensures that the [[super differential f
 
 The idea here is [[analogy|analogous]] ([Castellani-D'Auria-Fr&#233; 91, vol 2, p. 660](#CastellaniDAuriaFre), [Fr&#233;-Grassi 08, p. 4](#FreGrassi08)) to how the [[Cauchy-Riemann equations]] impose the constraint for a [[function]] on the [[complex plane]] $\mathbb{C}$ to be a [[holomorphic function]] and hence to be already fixed by its values on the [[real line]] $\mathbb{R} \hookrightarrow \mathbb{C}$.
 
-In ([Castellani-D'Auria-Fr&#233;, vol 2, section III.3.3](#CastellaniDAuriaFre)) this idea is formalized by the constraint that for the given super-$L_\infty$-algebra connection as above, those components of the [[curvature]] forms which carry fermionic indices must be [[linear combinations]] of the components carrying no fermionic indices.
+In ([Castellani-D'Auria-Fr&#233;, vol 2, section III.3.3](#CastellaniDAuriaFre)) this idea is formalized by the constraint that for the given super-$L_\infty$-algebra connection as above, those components of the [[curvature]] forms which carry fermionic indices must be [[linear combinations]] of the components carrying no fermionic indices. (See also at _[L-∞ algebra valued differential forms -- integration of transformation](infinity-Lie+algebroid-valued+differential+form#InfGaugeTrafo)_.)
 
 This rheonomy constraint is equivalent to what elsewhere is called "superspace constraints", see ([AFFFTT 98, below (3.12)](#AFFFTT98)).
 
