@@ -16,7 +16,9 @@
 
 ## Idea
 
-Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the _end compactification_ adjoins one point for each [[connected component]] of infinity.
+Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the _end compactification_ adjoins one point for each [[connected component]] of infinity. 
+
+The theory of ends was invented by [[Hans Freudenthal]] in his dissertation, who gave a number of interesting applications (see below). 
 
 
 ## Definition
@@ -54,13 +56,26 @@ The end compactification of the [[real line]] is the [[extended real number]] li
 
 ## Applications
 
-Ends are important in [[proper homotopy theory]].
+Ends are important in [[proper homotopy theory]]. 
+
+According to [Peschke](#Peschke), Freudenthal was led to his theory of ends by the following observation. For a space $X$, consider a path-connected family $F \subseteq Homeo(X)$ containing the identity $1_X$. Let $K \subseteq X$ be compact, and let $U$ be a connected component of $X \setminus K$. Then for all $f \in F$, it may be shown $f(U) \setminus U$ is contained in a compact subset of $X$. The upshot is that $f$ extends to a homeomorphism on the end compactification that is *pointwise fixed* on the ends. If in addition for each pair $(x, y) \in X^2$ there is $f \in F$ with $f(x) = y$, then there is a severe constraint on the ends; in particular Freudenthal showed the following. 
+
++-- {: .num_theorem} 
+###### Theorem 
+A path-connected topological group has at most two ends. 
+=-- 
+
+For example, it follows that the space obtained by removing two points from $\mathbb{R}^3$ cannot be given a topological group structure. 
 
 
 ## References
 
 *  [Wikipedia](https://en.wikipedia.org/wiki/End_%28topology%29)
 
+* G. Peschke, _The Theory of Ends_, Nieuw Archief voor Wiskunde, 8 (1990), 1&#8211;12. ([pdf](https://www.ualberta.ca/~gepe/pdf/Peschke_TheoryOfEnds.pdf)) 
+ {#Peschke} 
+
+*  H. Freudenthal, _&#220;ber die Enden topologischer R&#228;ume und Gruppen_, Math. Z. 33 (1931), 692&#8211;713. ([web](http://dspace.library.uu.nl/bitstream/handle/1874/7437/1930-freudenthal-dissertatie.pdf?sequence=1)) 
 
 [[!redirects end compactification]]
 [[!redirects end compactifications]]
