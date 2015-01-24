@@ -37,12 +37,12 @@ The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoi
 
 Let $X$ be a [[topological space]], and consider the [[poset]] $Comp(X)$ of [[compact subspaces]] of $X$, ordered by [[inclusion]].  For each compact subspace $K$, consider its [[complement]] $X \setminus K$, and consider the [[set]] $\Pi_0(X \setminus K)$ of its [[connected components]].  For each inclusion $K \hookrightarrow K'$, we have a [[function]] $\Pi_0(X \setminus K') \to \Pi_0(X \setminus K)$.  This defines a [[contravariant functor]] from $Comp(X)$ to [[Set]]; its [[limit]] is the __set of ends__ of $X$.
 
-For the [[topological structure|topology]], each compact subspace $K$ defines a topological space $K \uplus \Pi_0(X \setminus K)$; here, the points of $\Pi_0(K \setminus K)$ are all [[isolated point|isolated]].  For each inclusion $K \hookrightarrow K'$, we have a [[continuous map]] $K' \uplus \Pi_0(X \setminus K') \to K \uplus \Pi_0(X \setminus K)$.  This defines a [[contravariant functor]] from $Comp(X)$ to [[Top]]; its [[limit]] is the __end compactification__ of $X$.
+For the [[topological structure|topology]], each compact subspace $K$ defines a topological space $K \uplus \Pi_0(X \setminus K)$; here, the points of $\Pi_0(K \setminus K)$ are all [[isolated point|isolated]].  For each inclusion $K \hookrightarrow K'$, we have a [[continuous map]] $K' \uplus \Pi_0(X \setminus K') \to K \uplus \Pi_0(X \setminus K)$; it sends $x$ to itself if $x \in K$, and $x$ to the connected component $[x] \in \Pi_0(X \setminus K)$ if $x \in K' \setminus K$.  This defines a [[contravariant functor]] from $Comp(X)$ to [[Top]]; its [[limit]] is the __end compactification__ of $X$.
 
 
 ### Concrete
 
-Let $X$ be a [[topological space]].  An __end__ of $X$ assigns, to each [[compact subspace]] $K$ of $X$, a [[connected component]] of its [[complement]] $X \setminus K$.  The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e\colon K \mapsto e_K$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $U_K \subseteq V$ for some compact subspace $K$.
+Let $X$ be a [[topological space]].  An __end__ of $X$ assigns, to each [[compact subspace]] $K$ of $X$, a [[connected component]] $e_K$ of its [[complement]] $X \setminus K$, in such a way that $e_{K'} \subseteq e_K$ whenever $K \subseteq K'$.  The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e\colon K \mapsto e_K$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $e_K \subseteq V$ for some compact subspace $K$.
 
 
 ## Examples
