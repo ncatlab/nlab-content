@@ -103,7 +103,7 @@ $$
 where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invariant polynomial]]s. 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms is the [[Kan complex]]
@@ -137,7 +137,7 @@ to the untruncated [[Lie integration]] of $\mathfrak{g}$ is given by restriction
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Here we are thinking of $U \times \Delta^k \to U$ as a trivial [[bundle]].
@@ -166,7 +166,7 @@ that define [[connections on ∞-bundles]]. More on this in the [Properties](#Pr
 
 ### Curvature characteristics
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $A \in \exp(\mathfrak{g})_{conn}(U,[k])$ a $\mathfrak{g}$-valued form on $U \times \Delta^k$ and for $\langle - \rangle \in W(\mathfrak{g})$ any [[invariant polynomial]], the corresponding [[curvature characteristic form]] $\langle F_A \rangle \in \Omega^\bullet(U \times \Delta^k)$ descends down to $U$.
@@ -195,7 +195,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_remark}
 ###### Remark
 
 For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not closed, hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
@@ -235,7 +235,7 @@ in [[dgAlg]].
 
 The commutativity of this diagram is implied by $\iota_v F_A = 0$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Write $\exp(\mathfrak{g})_{CW}(U)$ for the $\infty$-groupoid of $\mathfrak{g}$-valued forms fitting into such diagrams.
@@ -270,7 +270,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If we just consider the top horizontal morphism in this diagram we obtain the object
@@ -356,7 +356,7 @@ This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [
 The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a 1-morphism in $\exp(\mathfrak{g})(X)$, represented by $\mathfrak{g}$-valued forms
@@ -389,8 +389,8 @@ $$
   \,.
 $$
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
 
 By the nature of the [[Weil algebra]] we have
@@ -408,15 +408,19 @@ where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{
 
 =--
 
-In [[Cartan calculus]] for $\mathfrak{g}$ an ordinary one writes the corresponding  **[[Ehresmann connection|second Ehremsnn condition]]** $\iota_{\partial_s} F_A = 0$ equivalently
++-- {: .num_remark}
+###### Remark
+
+In [[Cartan calculus]] for $\mathfrak{g}$ an ordinary Lie algebra may write (see [here](Ehresmann+connection#FormulationInTermsOfCurvatureForm)) the corresponding  [[Ehresmann connection|second Ehresmann condition]] $\iota_{\partial_s} F_A = 0$ equivalently
 
 $$
   \mathcal{L}_{\partial_s} A = ad_\lambda A
   \,.
 $$
 
+=--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Define the **[[covariant derivative]] of the gauge parameter** to be
@@ -437,7 +441,7 @@ In this notation we have
     \label{ShiftedGaugeTrafo}
   \]
 
-* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]** $\iota_{\partial_s} F_A = 0$, the [[differential equation]]
+* the **horizontality** or **[[Ehresmann connection|second Ehresmann condition]]** (or "strict [rheonomy](D%27Auria-Fre+formulation+of+supergravity#Rheonomy)") $\iota_{\partial_s} F_A = 0$, the [[differential equation]]
 
   \[
     \frac{d}{d s} A_U = \nabla \lambda
@@ -449,12 +453,12 @@ This is known as the equation for **infinitesimal [[gauge transformation]]s** of
 
 
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
 By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
 
-The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
+The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the [[gauge transformation]] $\exp(\lambda)$. 
 
 =--
 
@@ -465,7 +469,7 @@ The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 
 
 ### Lie algebra valued 1-forms
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(connections on ordinary bundles)**
 
@@ -535,8 +539,8 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 For $n \in \mathbb{N}$, $n \geq 1$ we have that $b^{n-1}\mathbb{R}$-valued differential forms are in natural bijection to ordinary closed [[differential form]]s in degree $n$
 
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
 Notice that under addition of differential forms, $\exp(b^{n-1}\mathbb{R})_{conn}$ is over each $U \in CartSp$ an abelian [[simplicial group]].
 
@@ -546,7 +550,7 @@ Under the [[Dold-Kan correspondence]] $Ch_\bullet^+ \stackrel{\overset{N}{\lefta
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The degreewise [[fiber integration]] of differential forms over simplices
