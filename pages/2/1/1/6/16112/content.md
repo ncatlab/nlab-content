@@ -40,3 +40,6 @@ Discussion of spherical CR manifolds locally modeled on the [[Heisenberg group]]
 
 [[!redirects spherical CR manifold]]
 [[!redirects spherical CR manifolds]]
+
+[[!redirects CR geometry]]
+[[!redirects CR geometries]]
