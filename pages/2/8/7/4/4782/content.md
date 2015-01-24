@@ -14,6 +14,8 @@
 
   * [[Chern-Simons form]] 
 
+* [[CR manifold]]
+
 [[!redirects Chern]]
 
 category: people
