@@ -22,13 +22,19 @@
 =--
 
 
-This entry is about the textbook
+This entry contains material related to the textbook
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _Supergravity and Superstrings - A Geometric Perspective_
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], 
 
-on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré formulation of supergravity]].
+  _Supergravity and Superstrings - A Geometric Perspective_
 
-At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
+  World Scientific, 1991
+
+on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré formulation of supergravity]], based on
+
+* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+
+
 
 ## Description
 
