@@ -67,6 +67,18 @@ A path-connected topological group has at most two ends.
 
 For example, it follows that the space obtained by removing two points from $\mathbb{R}^3$ cannot be given a topological group structure. 
 
+## Related concepts
+
+* [[compactification]]
+
+  * [[One-point compactification]]
+
+  * [[Stone–Cech compactification]]
+
+  * **End compactification
+
+  * [[Bohr compactification]]
+
 
 ## References
 
