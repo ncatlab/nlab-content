@@ -54,17 +54,17 @@ If $H$ is a topological group and $J \subseteq H$ is a subgroup, then the topolo
 
 +-- {: .proof} 
 ###### Proof 
-For $X, Y$ arbitrary topological spaces and subsets $A \subseteq X$, $B \subseteq Y$, it is elementary that $\widebar{A \times B} = \widebar{A} \times \widebar{B}$. Hence for any operation $m: H^n \to H$ that $J$ is closed under, $\widebar{J}^n = \widebar{J^n}$ is contained in $m^{-1}(\widebar{J}$ (by continuity of $m$), so that $m$ restricts to an operation $\widebar{J}^n \to \widebar{J}$ as required. 
+For $X, Y$ arbitrary topological spaces and subsets $A \subseteq X$, $B \subseteq Y$, it is elementary that $\widebar{A \times B} = \widebar{A} \times \widebar{B}$. Hence for any operation $m: H^n \to H$ that $J$ is closed under, $\widebar{J}^n = \widebar{J^n}$ is contained in $m^{-1}(\widebar{J})$ (by continuity of $m$), so that $m$ restricts to an operation $\widebar{J}^n \to \widebar{J}$ as required. 
 =-- 
 
 +-- {: .num_remark} 
 ###### Remark 
-The construction of the Bohr compactification is a little more elegant if $G$ is a topological *abelian* group: if $S = S^1$ is the unit [[circle]], then $Bohr(G)$ may be taken to be the closure of the image of $G$ under the canonical map $G \to S^{TopAb(G, S)}$. The argument is that it suffices to consider only compact Hausdorff abelian groups $K$, where $K$ embeds as a closed subgroup of $S^{TopAb(K, S)}$ by [[Pontryagin duality]]; using a pullback similar to the above, the argument is easily completed. Note that the construction becomes even simpler if $G$ is a locally compact Hausdorff abelian group; here $Bohr(G)$ is the Pontryagin dual of the discretization of the Pontryagin dual of $G$. 
+The Bohr compactification admits a more elegant construction if $G$ is a topological *abelian* group: if $S = S^1$ is the unit [[circle]], then $Bohr(G)$ may be taken to be the closure of the image of $G$ under the canonical map $G \to S^{TopAb(G, S)}$. The argument is that it suffices to consider only compact Hausdorff abelian groups $K$, where $K$ embeds as a closed subgroup of $S^{TopAb(K, S)}$ by [[Pontryagin duality]]; using a pullback similar to the above, the argument is easily completed. The description simplifies further if $G$ is a locally compact Hausdorff abelian group; here $Bohr(G)$ is the Pontryagin dual of the discretization of the Pontryagin dual of $G$. 
 =-- 
 
 ## Example 
 
-A MathOverflow question from 2011 asks whether, for $G$ a compact Hausdorff abelian group, can $\mathbb{Z}$ appear as a quotient of $G$ *considered as an abstract group*? 
+A MathOverflow question from 2011 asks whether, for $G$ a compact Hausdorff group, can $\mathbb{Z}$ appear as a quotient of $G$ *considered as an abstract group*? 
 
 A truly simple answer was [given](http://mathoverflow.net/questions/80966/morphism-from-a-compact-group-to-z#) by Sean Eberhard using the Bohr compactification, as follows. A quotient $p: G \to \mathbb{Z}$ admits a section $i: \mathbb{Z} \to G$ which extends to the Bohr compactification $\widehat{i}: Bohr(\mathbb{Z}) \to G$. The composite $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ is still surjective as its restriction along the unit $\mathbb{Z} \to Bohr(\mathbb{Z})$ is the identity. According to the remark above, $Bohr(\mathbb{Z})$ is the Pontryagin dual of the discrete group $S^1 \cong \mathbb{R}_{disc} \oplus \mathbb{Q}/\mathbb{Z}$, so $Bohr(\mathbb{Z}) \cong \mathbb{R}_{disc}' \oplus (\mathbb{Q}/\mathbb{Z})'$. Now the Pontryagin dual of a discrete torsionfree group such as $\mathbb{R}_{disc}$ is divisible (more generally, if $Q$ is an injective module over a commutative ring and $F$ is flat, then $\hom(F, Q)$ is also injective), so the restriction of $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ to the summand $\mathbb{R}_{disc}'$ is zero. But the restriction to the other summand $(\mathbb{Q}/\mathbb{Z})' \cong \widehat{\mathbb{Z}} = \prod_p \mathbb{Z}_p^\wedge$ is also zero, as the further restriction to $\mathbb{Z}_2^\wedge$ is zero by 3-divisibility, and the restriction to $\prod_{p \neq 2} \mathbb{Z}_p^\wedge$ is zero by 2-divisibility. 
 
