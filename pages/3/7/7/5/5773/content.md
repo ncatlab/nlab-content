@@ -17,12 +17,22 @@ There is a special classical case due to Lefschetz. In SGA 7.II, [[Deligne]] pro
 * [[Masaki Kashiwara]], _Vanishing cycle sheaves and holonomic systems of differential equations_, [pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/vanishing.pdf); in: Algebraic geometry (Tokyo/Kyoto, 1982), 134&#8211;142, Lecture Notes in Math. __1016__, Springer 1983. 
 
 * Mihai Tib&#259;r, _Polynomials and vanishing cycles_, Cambridge Tracts in Mathematics __170__, 2007. xii+253 pp. [MR2008m:32048](http://www.ams.org/mathscinet-getitem?mr=2360234)
-* Ryan Reich, _Notes on Beilinson's "How to glue perverse sheaves"_, [arxiv/1002.1686](http://arxiv.org/abs/1002.1686)
+
+* [[A.A. Beilinson]], _How to glue perverse sheaves_, [pdf transcription](
+http://www.math.harvard.edu/~gaitsgde/grad_2009/Beilinson%20--%20How%20to%20glue%20perverse%20sheaves.pdf).
+
+* [[Ryan Reich]], _Notes on Beilinson's "How to glue perverse sheaves"_, [arxiv/1002.1686](http://arxiv.org/abs/1002.1686)
+
+* [[Sam Lichtenstein]], _Vanishing cycles for algebraic D-modules_, Harvard senior thesis (adv. [[D. Gaitsgory]]) March 2009, <a href="http://math.harvard.edu/~gaitsgde/grad_2009/Lichtenstein(2009).pdf">pdf</a>
+
+* [[Alexander Beilinson]], [[Dennis Gaitsgory]], _A corollary of the b-function lemma_, [arXiv:0810.1504](http://xxx.lanl.gov/abs/0810.1504).
+
+* [[A. Beilinson]], [[J. Bernstein]], _A proof of Jantzen conjectures_, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf).
+
 * Ofer Gabber, _Gersten's conjecture for some complexes of vanishing cycles_, [MR1305746](http://www.ams.org/mathscinet-getitem?mr=1305746), [doi](http://dx.doi.org/10.1007/BF02568202)
 * There is a number of related preprints of D. Massey, cf. [here](http://www.massey.math.neu.edu/Massey/Massey_docs/preprints.html) including lecture notes on [[perverse sheaves]] and v.c. [pdf](http://www.massey.math.neu.edu/Massey/Massey_preprints/perverse_notes.pdf)
 * C. Sabbah, _Proximit&#233; &#233;vanescente_, Compos. Math. __62__, 283-328, 1987.
 * Dirk Siersma, _Vanishing cycles and special fibres_, in: Singularity theory and its applications I_ (Coventry, 1988/1989), 292&#8211;301, Springer LNM __1462__, 1991, [MR92j:32129](http://www.ams.org/mathscinet-getitem?mr=1129039), [doi](http://dx.doi.org/10.1007/BFb0086389)
 * P. Seidel, _Fukaya categories and Picard-Lefschetz theory_, Zurich Lectures in Advanced Mathematics. European Mathematical Society, Z&#252;rich, 2008. viii+326 pp. [MR2009f:53143](http://www.ams.org/mathscinet-getitem?mr=2441780), [doi](http://dx.doi.org/10.4171/063)
-* Sam Lichtenstein, _Vanishing cycles for algebraic D-modules_, Harvard senior thesis (adv. [[D. Gaitsgory]]) March 2009, <a href="http://math.harvard.edu/~gaitsgde/grad_2009/Lichtenstein(2009).pdf">pdf</a>
 * A. Dimca, _Sheaves in topology_, Springer 2004, chap. 4. 
 [[!redirects vanishing cycles]]
