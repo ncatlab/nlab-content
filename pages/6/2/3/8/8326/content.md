@@ -1243,6 +1243,7 @@ The [[continuum]].
 ###### a. Begriff derselben
 
 ###### b. Der quantitative unendliche Progre&#223;
+
  {#DerQuantitativeUnendlicheProgress}
 
 > &#167;500 The progress to infinity is in general the expression of contradiction, here, of that which is implicit in the quantitative finite, or quantum as such. It is the reciprocal determining of the finite and infinite which was considered in the sphere of quality, with the difference that, as just remarked, in the sphere of quantity the limit in its own self dispatches and continues itself into its beyond and hence, conversely, the quantitative infinite too is posited as having quantum within it; for quantum in its self-externality is also its own self, its externality belongs to its determination.
@@ -2037,6 +2038,7 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 > {#EL244} EL&#167;244 Die Idee, welche f&#252;r sich ist, nach dieser ihrer Einheit mit sich betrachtet, ist sie Anschauen, und die anschauende Idee Natur. Als Anschauen aber ist die Idee in einseitiger Bestimmung der Unmittelbarkeit oder Negation durch &#228;u&#223;erliche Reflexion gesetzt. Die absolute Freiheit der Idee aber ist, da&#223; sie nicht blo&#223; ins Leben &#252;bergeht, noch als endliches Erkennen dasselbe in sich scheinen l&#228;&#223;t, sondern in der absoluten Wahrheit ihrer selbst sich entschlie&#223;t, das Moment ihrer Besonderheit oder des ersten Bestimmens und Andersseins, die unmittelbare Idee als ihren Widerschein, sich als Natur frei aus sich zu entlassen.
 
+The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
 ## **Philosophy of Nature**
  {#PhilosophyOfNature}
@@ -2082,6 +2084,7 @@ The last paragraph is
 
 > PS&#167;299 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
 
+The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
 
 
@@ -2097,8 +2100,11 @@ Text with background, introduction and survey include
 
 * {#CarlsonActual} [[David Carlson]], _Hegel and what is actual_ ([pdf](http://www.hegel.net/carlson/Carlson2005-Hegel%20and%20What%20is%20Actual.pdf))
 
-
 * [[Richard Dien Winfield]], _Lecture Course in Hegel's Science of Logic_ ([web](https://archive.org/details/LectureCourseInHegelsScienceOfLogic-RichardDienWinfield))
+
+A quick survey of the theme of the idea expressing itself via the spirit in nature is in
+
+* {#PSEJul14} musingsofacigarettesmokingman, _[P.SE comment](http://philosophy.stackexchange.com/a/14554/5473)_, July 2014
 
 Hegel himself expands on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
 
