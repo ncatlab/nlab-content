@@ -1,4 +1,8 @@
 
 * [webpage](http://math.northwestern.edu/~nrozen/)
 
+* [[Notes on geometric Langlands]]
+
 category: people
+
+[[!redirects N. Rozenblyum]]
