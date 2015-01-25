@@ -43,6 +43,8 @@ An object $X$ in a topos $\mathcal{E}$ is called _locally decidable_ (or, a _quo
 
 * Locally decidable toposes are 'co-&#233;tendues' in the sense that for a small $\mathcal{C}$ the functor category $[\mathcal{C},Set]$ is locally decidable precisely if $[\mathcal{C}^{op},Set]$ is an [[étendue]]. Also the all-epic-site property is dual to the all-monic-site property of &#233;tendues. Both concepts are subsumed under the notion of having a (sub canonical) site representation with no (non-trivial) [[idempotents]] (McLarty 2006, Lawvere 2007,2008).
 
+* A locally decidable topos has a [[localic topos|localic geometric morphism]] to the [[Schanuel topos]] (cf. Johnstone 2002, p.794).
+
 ##Related concepts
 
 * [[Boolean topos]]
