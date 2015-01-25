@@ -147,6 +147,10 @@ A quick list of the axioms with a  Grothendieck's six operations with an eye tow
 * [[Denis-Charles Cisinski]], Fr&#233;d&#233;ric D&#233;glise, _Triangulated categories of mixed motives_ ([arXiv:0912.2110](http://arxiv.org/abs/0912.2110))
  {#CisinskiDeglise09}
 
+The six operations for [[derived categories]] of [[quasi-coherent sheaves]], [[ind-coherent sheaves]], and [[D-modules]] on [[derived stacks]] are developed in
+
+* [[Dennis Gaitsgory]], [[Notes on geometric Langlands]], [web](http://www.math.harvard.edu/~gaitsgde/GL/).
+
 Six operations in the setup of [[o-minimal structure]]s is discussed in 
 
 * Mario J. Edmundo, Luca Prelli, _The six Grothendieck operations on o-minimal sheaves_, [arxiv/1401.0846](http://arxiv.org/abs/1401.0846)
