@@ -24,7 +24,7 @@
 
 ## Idea
 
-The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_).
+The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_).
 
 Specifically for discussion of obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
@@ -98,7 +98,7 @@ Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "wi
 
 Surveys include
 
-* [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+* [[Michael Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
 
 
 * [[Sergei Gukov]], _M-theory on manifolds with exceptional holonomy_, Fortschr. Phys. 51 (2003), 719&#8211;731 ([pdf](http://research.physics.unc.edu/string/gukov.pdf))
@@ -114,12 +114,13 @@ Surveys include
 
 Compactificaton on [[orbifolds]] of $G_2$-manifolds, introducing ([[orbifold]]-) singularities necessary for realistic [[effective QFTs]] is discussed in 
 
-* [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_ ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
- {#Achary98}
+* {#Achary98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_ ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+ 
 
-* [[Bobby Acharya]], F. Denef, C. Hofman, N. Lambert, _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
- {#AcharyaDenefHofmanLambert03}
+* {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, N. Lambert, _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
+ 
 
+* [[James Halverson]], David Morrison, _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
 
 The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
 
