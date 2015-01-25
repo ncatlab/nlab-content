@@ -19,110 +19,108 @@
 
 ## Idea
 
-A _differential graded category_ is a category enriched
-over complexes of modules for some commutative ring $k$.
-Given a differential graded category $D$, one can form
-a $k$-linear category $H^{0}(D)$ with the same objects as $D$
-but with morphisms between two objects $X$ and $Y$ defined to be the $0$th cohomology group of the complex of morphisms
-between $X$ and $Y$ in $D$.
+_Differential graded categories_ or _dg-categories_ are linear analogues of [[spectral categories]]. In other words they are [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]]. It is common and useful to view them as [[enhanced triangulated categories]].
 
-The derived category of an abelian category $\mathcal{A}$
-having enough injectives (or projectives) can be constructed
-as $H^{0}$ of the differential graded category consisting
-of complexes of injective (or projective) objects in $\mathcal{A}$ with morphisms between two complexes $X$ and $Y$ being the Hom-complex from $X$ to $Y$. One can check that
-$H^{0}$ of the Hom-complex between $X$ and $Y$ is precisely
-homotopy classes of chain maps from $X$ to $Y$. 
+## Definition
 
-## Definition 
+A _dg-category_ over a [[commutative ring]] $k$ is an [[(infinity,1)-category]] [[enriched (infinity,1)-category|enriched]] in the [[(infinity,1)-category]] of [[chain complexes]] of $k$-[[modules]].  Equivalently, it is an ordinary category [[enriched category|strictly enriched]] in [[chain complexes]] (see [Haugseng 13](#Haugseng13)).
 
-A **dg-category** or **differential graded category** is a category [[enriched category|enriched]] over a [[symmetric monoidal category]] of [[category of chain complexes|chain complexes]], usually taken to be that of [[chain complex]]es of $k$-vector spaces for some field $k$: $dgCat := Ch(Mod_k)\Cat$.
-
-Notice that a dg-category $\mathbf{B}A$ with a single object is a _differential graded algebra_ (see [[dg-algebra]]), $A$.
-
-+--{.query}
-
-[[Tim Porter|Tim]] : Would it be better to say cochain complexes as both Keller and Toen use the cochain convention?  This can be confusing. (In other words I am confused!) Things related to this seem central to several questions elsewhere. Perhaps a word here would be a good idea.
-
-To get from a simplicially enriched category to a chain enriched one is easy (it is linearisation plus Dold-Kan, looked at by Tabuada in arXiv:0711.3845) but to get to a dg-category in the sense of Keller or Toen  (i.e. cochain enriched) is more interesting and complicated.
-=--
-Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C-star-category|C*-category]], which is a $C^*$-algebroid.)
-
-A **left dg-module** over a dg-category $C$ is a dg-functor $L : C\to \mathrm{Com}_k$ where $\mathrm{Com}_k$ is the dg-category of complexes of $k$-vector spaces (that is Ch(Mod_k) with inner hom); similarly a right dg-module is a contravariant right dg-module. Morphisms between left dg-modules $L$ and $L'$ are elements of $Z^0\mathbf{Hom}(L,L')$ where the inner hom $\mathbf{Hom}$ is the complex of graded morphisms. Left dg-modules and their morphisms make a category $dgMod C$
-which has a natural structure of [[Quillen exact category]],
-which is in fact [[Frobenius category|Frobenius]].
-There is a *Yoneda functor* $Z^0(C)\to dgMod C$ given by $X\mapsto C(-,X)$. 
-
-+--{: .query}
-[[Zoran Škoda]]: If one talks about left modules then we have category dgMod-C, and if talk about right modules then C-dgMod. When it is all the time clear which one we talk about than one can use either notation, but as long as we talk about left and right, then we should use A-Mod for left and Mod-A for right as it is usual in noncommutative algebra. 
-
-_Toby_:  Good system, but there shouldn\'t be a minus sign in either version!  (You can get a hyphen, if you really need one, either by moving out of the dollar signs (the quick and dirty way) or (more properly) by using the Unicode hyphen: $dgMod$-$C$ or $dgMod&#8208;C$.)
-=--
-
-## Pre-triangulated dg-categories 
-
-A [[pretriangulated dg-category]] is roughly a dg-category whose homotopy category is a [[triangulated category]].
-
-Pretriangulated dg-categories linear over field $k$ of characteristic 0 are equivalent to $k$-linear [[A-infinity-category|A-infinity-categories]] and both are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
-
-+--{: .query}
-[[Hanno Becker]]: Hello! Maybe one could add that in a pretriangulated dg-category $C$, the Frobenius-structure on dg-mod(C) pulls back to a Frobenius-structure on $Z^0(C)$ via the Yoneda-functor, and that dividing out its injective-projective objects turns out to be equivalent to passing to the homotopy category. Thus, the stable category of $Z^0(C)$ equals the homotopy category, which is then triangulated. 
-
-Do you assume the existence of a zero-object in a pretriangulated dg-category (there are interesting examples of dg-categories not possessing a zero object, e.g. the dg-categories of matrix-factorizations)?
-
-_Zoran_: I took the conventions from Keller's article, as far as I recall. You are welcome to enter and explain the equivalent variants of the definition, and other variations if you are currently thinking on this subject. If you can cite the references for the proofs or reasoning supporting it, even better. I am concentrating on another subject at the very moment.
-=--
+Hence a dg-category is a category with [[mapping complexes]] of morphisms between any two objects. By taking the [[homologies]] of these [[chain complexes]] in degree zero, one gets an ordinary category, called the [[homotopy category of a dg-category]].
+Notice that a dg-category with a single object is the same thing as a [[dg-algebra]].
 
 ## Properties
 
-### Modal category structure
+### The (infinity,1)-category of dg-categories
 
-There are several _[[model structure on dg-categories]]_.
+The [[Dwyer-Kan model structure on dg-categories]] presents the [[(infinity,1)-category of dg-categories]].
 
 ### Relation to stable $\infty$-categories
 
-The [[Morita model structure on dg-categories]] presents the [[(infinity,1)-category]] of [[idempotent complete (infinity,1)-category|idempotent complete]] [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
+The [[Morita model structure on dg-categories]] presents the [[(infinity,1)-category]] of [[idempotent complete (infinity,1)-category|idempotent complete]] [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)). The idea is the [[stable Dold-Kan correspondence]].
+
+## Aspects of dg-categories
+
+* [[homotopy category of a dg-category]].
+* [[equivalence of dg-categories]]
+* [[dg-modules]], [[perfect dg-modules]]
+* [[derived dg-category]]
+* [[dg-Yoneda embedding]]
+* [[pretriangulated dg-category]]
+* [[dg-localization]], [[dg-quotient]]
+* [[dg-nerve]]
+* [[Waldhausen K-theory of a dg-category]]
+* [[semi-topological K-theory of a dg-category]]
+* [[derived moduli stack of objects in a dg-category]]
 
 ## Related concepts
 
-* [[dg-nerve]]
-
 * [[enhanced triangulated category]]
-
 * [[A-infinity category]]
-
+* [[spectral category]]
 * [[stable (infinity,1)-category]]
-
-* [[Waldhausen K-theory of a dg-category]]
 
 ## References
 
+Historically, dg-categories were introduced in
+
 *  A. I. Bondal, [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
+
+### Overviews
+
+For concise reviews of the theory, see section 1 of
+
+* [[A. Beilinson]], [[V. Vologodsky]], _DG guide to Voevodsky's motives_.
+
+as well as the introduction and appendices to
+
+* [[V. Drinfeld]], _DG quotients of DG categories_, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/DGquotients.pdf).
+
+For longer surveys, see
 
 * [[Bernhard Keller]], _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
 
-* [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)) (these lectures also inspired [[Dmitry Kaledin]]'s [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul))
+and
+
+* [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)).
+
+### Homotopy theory of dg-categories
+
+The [[homotopy theory]] of [[dg-categories]] is studied in
+
+* [[Gonçalo Tabuada]], _Homotopy theory of DG categories_, Thesis, Paris, 2007, [pdf](http://people.math.jussieu.fr/~keller/TabuadaThese.pdf).
+
+* [[Gonçalo Tabuada]], _Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories_,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
+
+The equivalence with the [[homotopy theory]] of [[stable (infinity,1)-categories]] is discussed in
+
+* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
+
+(Note that the proof works over any ring, even though it is stated there for [[characteristic zero]].)
+
+In the following it is shown that the [[homotopy theory]] of [[(infinity,1)-categories]] enriched in the [[(infinity,1)-category]] of [[chain complexes]] is equivalent to the [[homotopy theory]] of ordinary categories strictly enriched in [[chain complexes]].
+
+* {#Haugseng13} [[Rune Haugseng]], _Rectification of enriched infinity-categories_, [arXiv:1312.3881](http://arxiv.org/abs/1312.3881v2).
+
+### Noncommutative geometry
+
+The following references discuss the use of dg-categories in [[derived noncommutative algebraic geometry]] and [[noncommutative motives]].
+
+* [[Gonçalo Tabuada]], _Invariants additifs de DG-cat&#233;gories_, Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.
+
+* [[Marco Robalo]], _Th&#233;orie homotopique motivique des espaces noncommutatifs_, [pdf](http://webusers.imj-prg.fr/~marco.robalo/these.pdf).
+
+* S. Mahanta, _Noncommutative geometry in the framework of differential graded categories_, (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
+
+### Other aspects
 
 * [[Bernhard Keller]], _Deriving DG categories_,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
-
-* [[Bernhard Keller|B. Keller]], _A remark on tilting theory and DG algebras_,  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
 
 * [[Dmitry Tamarkin]], _What do dg-categories form?_,
 Compos. Math. 143 (2007), no. 5, 1335--1358. 
 
 * [[Michael Batanin|M. Batanin]], _What do dg-categories form_ (after Tamarkin), talks at Paris 7 and Australian category seminar (<a href="http://www.maths.usyd.edu.au/u/AusCat/abstracts/060726mb.html">abstract</a>), [math.CT/0606553](http://arxiv.org/abs/math.CT/0606553)
 
-* [[Gonçalo Tabuada]], _Invariants additifs de DG-cat&#233;gories_, Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.; Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
-
-* [[Goncalo Tabuada]], _Homotopy theory of DG categories_, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
-
-* S. Mahanta, _Noncommutative geometry in the framework of differential graded categories_ (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
-
 * [[Oren Ben-Bassat]], [[Jonathan Block]], _Cohesive DG categories I: Milnor descent_, [arxiv/1201.6118](http://arxiv.org/abs/1201.6118)
-
-The relation to [[stable (infinity,1)-categories]] is discussed in
-
-* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
-
 
 
 [[!redirects dg-category]]
