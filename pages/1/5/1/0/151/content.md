@@ -57,18 +57,19 @@ where the first arrow uses the unit of an adjunction $(- \otimes B) \dashv [B, -
 $$1_{C^\ast} = (\delta_C)^\ast \circ \delta_{C^\ast}$$ 
 for an adjunction $[-, D]^{op} \dashv [-, D]$. Under certain circumstances, we have perfect duality, i.e., double dualization $[[-, D], D]: \mathcal{C} \to \mathcal{C}$ is an equivalence; see [[dualizing object in a closed category]] and [[star-autonomous category]]. Particular special cases of this may obtain when $D = I$, the monoidal unit, or even more particularly when every object has a [[dual object]] in the sense of [[monoidal categories]]; see also [[compact closed category]]. On the other hand, there is also a mild generalization of this type of example where we deal with a [[biclosed monoidal category]]; here the double dualization will involve both the left and right internal hom. 
 
-* More general still is a concrete duality induced by a [[dualizing object]]. In this case one has a pair of categories together with underlying-set functors 
+* More general still is a concrete duality induced by a [[dualizing object]]. In this case one is given a pair of categories together with underlying-set functors 
 $$U: \mathcal{C} \to Set, \qquad V: \mathcal{D} \to Set$$ 
-(and often when one says "concrete", one intends that these functors be faithful as well, so that $\mathcal{C}, \mathcal{D}$ can be viewed as "sets with structure"; see [[stuff, structure, property]]), and a pair of objects $C \in \mathcal{C}, D \in \mathcal{D}$ together with an isomorphism $U C \cong V D$. 
-(Must complete later...) 
+(and often when one says "concrete", one intends that these functors be faithful as well, so that $\mathcal{C}, \mathcal{D}$ can be viewed as "sets with structure"; see [[stuff, structure, property]]). The concrete duality consists of a pair of objects $C \in \mathcal{C}, D \in \mathcal{D}$ together with an isomorphism $\omega: U C \cong V D$, such that the contravariant homs $\hom(-, C): C^{op} \to Set$ and $\hom(-, D): D^{op} \to Set$ lift to a contravariant adjunction between $C$ and $D$, in the sense described [here](/nlab/show/dualizing+object#ambi). Frequently in practice, such concrete dualities are "naturally represented" in the sense described [here](/nlab/show/dualizing+object#natural), involving certain lifts adapted from the theory of [[topological concrete categories]]. 
 
+Again, in all of these examples, one can consider the further condition of "perfect duality" where the units and counits of the (lifted) adjunctions are isomorphisms.  
 
+### Adjunctions 
 
-* **adjunction** -- another categorical concept of duality is that of [[adjunction]], as in pairs of [[adjoint functors]]. Via the many incarnations of [[universal constructions]] in [[category theory]] this accounts for all dualities that arise as instances as the dual pairs 
+Perhaps the loosest general notion of "duality" is that of [[adjunction]], as in pairs of [[adjoint functors]]. Here one may omit any concretizations via functors to $Set$, or even for that matter any explicit mention of opposite categories, and just work at the level of abstract categories themselves. 
+
+Nevertheless, many adjunctions come packaged in "dual pairs". A famous slogan from [[Categories for the Working Mathematician]] is that "all concepts are Kan extensions", and in that light the dual pairs are instances of the general dual pair "(right Kan extension, left Kan extension)" which are formal duals in the axiomatic sense described earlier. Via the many incarnations of [[universal constructions]] in [[category theory]], we have for example 
 
    * [[limit]] and [[colimit]]
-
-   * left and right [[Kan extension]]
 
    * [[end]] and [[coend]]
 
@@ -76,11 +77,9 @@ $$U: \mathcal{C} \to Set, \qquad V: \mathcal{D} \to Set$$
 
    * [[existential quantification]] and [[universal quantification]]
 
-   (Given that the saying has it that "Everything in mathematics is a Kan extension", this goes some way in explaining the ubiquity of duality in mathematics.)
+When the adjoint functors are [[monads]] and hence [[modalities]], then adjointness between them has been argued to specifically express the concept of [[duality of opposites]].
 
-   When the adjoint functors are [[monads]] and hence [[modalities]], then adjointness between them has been argued to specifically express the concept of [[duality of opposites]].
-
-   Adjunctions and specifically [[dual adjunctions]] ("[[Galois connections]]") may be thought of as a generalized version of the above abstract duality: every [[dual adjunction]] induces a _maximal dual equivalence_ between [[subcategories]].
+Again, adjunctions and specifically [[dual adjunctions]] ("[[Galois connections]]") may be thought of as generalized dualities, more general than "perfect duality" which involves equivalences between categories ("Galois correspondences"). However, it should also be noted that any such adjunction (or [[dual adjunction]]) restricts to a _maximal (dual) equivalence_ between [[subcategories]], by considering objects where the appropriate units and counits are isomorphisms. This generalizes the manner by which any Galois connection induces a Galois correspondence (where in this special case, one need only take the images of the poset maps which constitute the connection). 
 
 
 
