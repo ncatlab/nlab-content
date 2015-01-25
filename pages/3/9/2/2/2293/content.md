@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Derived algebraic geometry_ is the theory of [[homotopical algebraic geometry]] specialized to the [[(infinity,1)-category]] of [[simplicial commutative rings]] (or sometimes, coconnective commutative [[dg-algebras]]).
+_Derived algebraic geometry_ is the specialization of [[higher geometry]] and [[homotopical algebraic geometry]] to the [[(infinity,1)-category]] of [[simplicial commutative rings]] (or sometimes, coconnective commutative [[dg-algebras]]).
 Hence it is a generalization of ordinary [[algebraic geometry]] where instead of [[commutative rings]], [[derived schemes]] are locally modelled on [[simplicial commutative rings]].
 
 Derived algebraic geometry is the correct setting for certain problems arising in [[algebraic geometry]] that involve [[intersection theory]] and [[deformation theory]] (see below).
