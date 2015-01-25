@@ -948,6 +948,13 @@ See also
 [[!redirects limits in an (∞,1)-category]]
 [[!redirects limits in (∞,1)-categories]]
 
+[[!redirects colimit in an (infinity,1)-category]]
+[[!redirects colimits in an (infinity,1)-category]]
+[[!redirects colimits in (infinity,1)-categories]]
+[[!redirects colimit in an (∞,1)-category]]
+[[!redirects colimits in an (∞,1)-category]]
+[[!redirects colimits in (∞,1)-categories]]
+
 [[!redirects (∞,1)-powering]]
 [[!redirects (∞,1)-tensoring]]
 [[!redirects (∞,1)-copower]]
