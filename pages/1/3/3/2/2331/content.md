@@ -233,7 +233,7 @@ Bibliography_ ([pdf](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf))
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Deformation theory I_ ([ps](http://www.math.ksu.edu/~soibel/Book-vol1.ps)); _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241) -- two parts of large unfinished books on the subject; [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
 
-* [[Maxim Kontsevich]], _Topics in deformation theory_ (A rough write up of a Berkeley course, early 90-s), [ps](www.math.uchicago.edu/~mitya/langlands/kontsdef.ps)
+* [[Maxim Kontsevich]], _Topics in deformation theory_ (A rough write up of a Berkeley course, early 90-s), [ps](http://www.math.uchicago.edu/~mitya/langlands/kontsdef.ps)
 * [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091)) -- describes a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed. An application: J. Lurie, _Moduli problems for ring spectra_, [moduli.pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf).
 
 * E. Sernesi, _Deformations of algebraic schemes_ (monograph)
