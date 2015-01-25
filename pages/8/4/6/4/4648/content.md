@@ -49,7 +49,7 @@ $$
 $$
 
 ([Arinkin-Gaitsgory 12, conjecture 0.1.6](#ArinkinGaitsgory12)).
-
+This form is called the [[categorical geometric Langlands conjecture]].
 
 Since [[D-modules]] on [[moduli stacks of G-principal bundles]] play a central role in [[gauge theory|gauge]] [[quantum field theory]] (in particular as [[Hitchin connections]] on bundles of [[conformal blocks]] of $G$-[[Chern-Simons theory]] [[holographic principle|holographically]] dual to the [[WZW model]] [[2d conformal field theory]]) and since the [[Langlands dual group]] also appears in [[electric-magnetic duality]], it has long been suggested ([Atiyah 77](S-duality#Atiyah77)) that geometric Langlands duality has a distinguished meaning also in [[mathematical physics]] in general and in [[string theory]] in particular. One proposal for a realization of the correspondence as an incarnation of [[mirror symmetry]]/[[S-duality]] is due to ([Kapustin-Witten 06](#KapustinWitten06)), which however has not been turned into [[theorems]] yet. Another proposal for realizing the [[local Langlands correspondence|local]] correspondence via another incarnation of [[mirror symmetry]] is due to ([Gerasimov-Lebedev-Oblezin 09](#GerasimovLebedevOblezin09)).
 
@@ -141,9 +141,9 @@ Proof that the original version of the conjecture is false in general is due to
 
 * {#Lafforgue09} [[Vincent Lafforgue]], _Quelques calculs reli&#233;s &#224; la correspondance de Langlands g&#233;om&#233;trique pour $\mathbb{P}^1$ (version provisoire)_ 2009 ([web](http://www.math.jussieu.fr/~vlafforg/), [pdf](http://vlafforg.perso.math.cnrs.fr/geom.pdf))
 
-The refined version of the conjecture stated in [[derived algebraic geometry]] is due to
+The refined version of the conjecture stated in [[derived algebraic geometry]], called the [[categorical geometric Langlands conjecture]], is due to
 
-* {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _Notes on Geometric Langlands -- A study in derived algebraic geometry_ ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
+* {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _[[Notes on Geometric Langlands]], ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
 * {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
 
