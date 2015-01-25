@@ -40,9 +40,11 @@ His other works concentrated on [[motives]], [[higher regulators]], [[epsilon-fa
 * [[derived noncommutative algebraic geometry]]
 
 [[!redirects Beilinson]]
-[[!redirects Beĭlinson]]
-[[!redirects Sasha Beilinson]]
 [[!redirects A. A. Beilinson]]
-[[!redirects A. A. Beĭlinson]]
+[[!redirects A.A. Beilinson]]
 [[!redirects A. Beilinson]]
+[[!redirects Sasha Beilinson]]
+
+[[!redirects Beĭlinson]]
+[[!redirects A. A. Beĭlinson]]
 [[!redirects A. Beĭlinson]]
