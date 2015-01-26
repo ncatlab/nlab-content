@@ -48,7 +48,7 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Jan. 13, 2015: Guest lecture by Owen Gwilliam. The general picture of QFT: classical field theory is about critical loci, while quantization involves integration over the critical loci plus that along the "normal directions". To deal with the singular critical loci, one considers the derived deformation theory. A family version of it leads to $L_\infty$ spaces. Derived loop spaces as an example. GG.
 
-* Jan. 20, 2015: Quantum BV formalism by Dennis. CG: Chap 13-14.
+* Jan. 20, 2015: Quantum BV formalism by Dennis. Kontsevich quantization of Poisson algebras (operadically $P_1\to E_1$), Etingof-Kazhdan quantization of Lie bialgebras ($P_2\to E_2$), an operadic description of the BV formalism, which quantizes a $P_0$ stricture into a $BD$(, or $E_0$) structure. CG: Chap 8,13.
 
 In the following meetings we shall look into various applications and comparisons relevant to other parts of mathematics.
 
