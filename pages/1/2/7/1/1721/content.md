@@ -25,7 +25,6 @@ This means that generalized Eilenberg-Steenrod cohomology is the [[cohomology]] 
 
 The archetypical example of this is $\mathbf{H} = Sp(Top)$, the [[stable (∞,1)-category of spectra]] and this is the context in which generalized Eilenberg-Steenrod cohomology is usually understood. So
 
-
 +-- {: .standout}
 
 Generalized Eilenberg-Steenrod cohomology is 
@@ -35,7 +34,7 @@ Generalized Eilenberg-Steenrod cohomology is
 
 ## The Eilenberg-Steenrod axioms 
 
-**remark** Originally Eilenberg and Steenrod had written down axioms that characterized the behaviour of ordinary integral cohomology, what is now understood to be cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]. Generalized Eilenberg-Steenrod cohomology is originally defined as anything that satisfies this list of axioms except the first one. Later it was proven, by the [[Brown representability theorem]], that all the models for these axioms arise in terms of homotopy classes of maps into a [[spectrum]]. In our revisionist perspective above, we take this historically secondary point of view as the conceptually primary one.
+One may conceptualize the axioms as ensuring that certain nice properties that hold in the category Top will be preserved by our cohomology functor.
 
 The Eilenberg-Steenrod axioms are this:
 
@@ -49,21 +48,23 @@ $$
   A^n : Top^{op} \to Ab
 $$
 
-from the category [[Top]] of [[topological space]]s to the category [[Ab]] of abelian groups, that satisfies the following axioms, for all $n \in \mathbb{Z}$:
+from the category [[Top]] of [[topological space]]s to the category [[Ab]] of abelian groups, that satisfies the following axioms, for all $n \in \mathbb{Z}$.
 
-1. if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]];
+It may also be defined as a functor from pairs of topological spaces, if only one space is listed, the subspace is assumed to be the empty set.
 
-   i.e. $A^n$ is a [[homotopical functor]] with respect to the standard structure of a [[homotopical category]] on [[Top]],
+Let U and X be topological spaces, such that U is a subspace of X. Notation: $(X,A) := A \hookrightarrow X$ 
 
-1. ...
+1. *Additivity*: If $\coprod_i X_i = X$, then $\coprod_i A^n(X_i) = A^n(X)$.
 
-1. ...
+1. *Weak homotopy equivalence*: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]];
 
-1. ...
+1. *Excision*: Let S be a subspace of U, the natural inclusion of the pair $i:(X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism $A^n(i): A^n(X-U, A-U) \to A^n(X, A)$.
 
-1. ...
+1. *Exactness*: Preserves exact sequences, in other words $(A, \emptyset) \to (X, \emptyset) \to (X, A)$ ...
 
 =--
+
+Ordinary cohomology theories require and additional axiom, the dimension axiom $A^n(pt) = 0$.
 
 ## Examples 
 
@@ -87,6 +88,9 @@ from the category [[Top]] of [[topological space]]s to the category [[Ab]] of ab
 * [[bivariant cohomology theory]]
 
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
+**remark** Originally Eilenberg and Steenrod had written down axioms that characterized the behaviour of ordinary integral cohomology, what is now understood to be cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]. Generalized Eilenberg-Steenrod cohomology is originally defined as anything that satisfies this list of axioms except the first one. Later it was proven, by the [[Brown representability theorem]], that all the models for these axioms arise in terms of homotopy classes of maps into a [[spectrum]]. In our revisionist perspective above, we take this historically secondary point of view as the conceptually primary one.
+
 
 ## References 
 
