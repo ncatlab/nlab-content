@@ -113,16 +113,17 @@ In ([Atiyah](#Atiyah1990)) it is shown how a framing on a compact connected orie
 Discussion of 2-framing entirely in terms of bounding 4-manifolds is for instance in ([Sawin](#Sawin)).
 
 ### Relation to String-structures
+ {#RelationToStringStructures}
 
-By ([Atiyah 2.1](#Atiyah1990)) a 2-framing of a 3-manifold $X$ is equivalently a  
-$p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]], hence a homotopy class of a trivialization of
+By ([Atiyah 2.1](#Atiyah1990)) an Atiyah 2-framing of a 3-manifold $X$ is equivalently a  
+$p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]], hence is a homotopy class of a trivialization of
 
 $$
   p_1(X) \colon X \to B SO(3) \stackrel{p_1}{\to} K(\mathbb{Z},4)
   \,.
 $$
 
-This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, page 6, slide 5](#Freed08)).
+This perspective on Atiyah 2-framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, page 6, slide 5](#Freed08)).
 
 
 
