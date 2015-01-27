@@ -176,7 +176,7 @@ The following table lists proposals for possible such identifications. The conte
 | ideality (inf. quality) | [[unity of opposites]] ($ \& \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
 | Aufhebung of finiteness | $\left(\array{\& &\dashv& \Im \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
 | reality | [[adjoint modality]] ($\Re \dashv  \&$) | [&#167;304](#304) , [&#167;305](#305) |
-| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \& \\ \bot&\stackrel{idea}{}& \bot && \\  \& &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](324#), [EL&#167;214](#EL214), [&#167;1636](#1636) |
+| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \& \\ \bot&\stackrel{idea}{}& \bot && \\  \& &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](#324), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
@@ -957,11 +957,21 @@ Hence we have another [[unity of opposites]] is $ideality \dashv reality$. See a
 
 It seems that in _Science of Logic_ there is no _name_ given to this unity. But in the [shorter logic](#EPSBOI) there is: 
 
-> {#EL214} EL&#167;214 The Idea may be described in many ways. It may be called reason; (and this is the proper philosophical signification of reason); subject-object; the unity of the ideal and the real, of the finite and the infinite, of soul and body; the possibility which has its actuality in its own self; that of which the nature can be thought only as existent, etc. 
+> {#EL214} EL&#167;214 Die Idee kann als die Vernunft, (dies ist die eigentliche philosophische Bedeutung der Vernunft), ferner als das Subjekt-Objekt, als die Einheit des Ideellen und Reellen, des Endlichen und Unendlichen, der Seele und des Leibs, als die M&#246;glichkeit, die ihre Wirklichkeit an ihr selbst hat, als das, dessen Natur nur als existierend begriffen werden kann, u.s.f gefa&#223;t werden; weil in ihr alle Verh&#228;ltnisse des Verstandes, aber in ihrer unendlichen R&#252;ckkher, und Identit&#228;t in sich enthalten sind.
+
+> EL&#167;214 The Idea may be described in many ways. It may be called reason; (and this is the proper philosophical signification of reason); subject-object; the unity of the ideal and the real, of the finite and the infinite, of soul and body; the possibility which has its actuality in its own self; that of which the nature can be thought only as existent, etc. 
+
+|      |       |
+|------|-------|       
+| real | ideal |
+| finite | infinitesimal |
+| body | soul |
+
+(Regarding "soul and body" see also the comments at _[The monad of Leibniz](#TheMonadOfLeibniz)_, where the similarity to the standard terminology "soul" and "body" for (super-)infinitesimals is pointed out.)
+
 
 But see below _[The idea](#TheIdea)_, where the idea is given as the unity of the _notion_ and the real. See the discussion below [&#167;1683](#1638).
 
-(Regarding "soul and body" see also the comments at _[The monad of Leibniz](#TheMonadOfLeibniz)_, where the similarity to the standard terminology "soul" and "body" for (super-)infinitesimals is pointed out.)
 
 
 ###### c. Eins
@@ -2002,11 +2012,26 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 ## **Book three** Die Lehre vom Begriff / The doctrine of the notion
 
-### Section 1. Subjectivity.
+> {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
-### Section 2. Objectivity
 
-### Section 3. The Idea
+### Section 1. Der subjektive Begriff / Subjectivity.
+
+#### a. Begriff als solcher
+
+#### b. Urtheil
+
+#### c. Schluss
+
+### Section 2. Das Objekt / Objectivity
+
+#### a. Mechanismus
+
+#### b. Chemismus
+
+#### c. Teleologie
+
+### Section 3. Die Idee / The Idea
  {#TheIdea}
 
 > {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
@@ -2034,13 +2059,24 @@ But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin d
 
 (Notice that it is _Realit&#228;t_ [&#167;304](#304), [&#167;305](#305) which appears here, not _Wirklichkeit_ (_actuality_) as in [&#167;1160](#1160).)
 
-Now that the Idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)). The _[shorter Logic](#EPSBOI)_ ends with:
+Now that the Idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)). The _[shorter Logic](#EPSBOI)_ ends with [EL&#167;244](#EL244).
+
+
+
+#### a. Leben
+
+> {#EL2126} EL&#167;216  Die unmittelbare Idee ist das Leben. Der Begriff ist als Seele in einem Leibe realisiert.
+
+
+#### b. Erkennen
+
+#### c. Absolute Idee
 
 > {#EL244} EL&#167;244 Die Idee, welche f&#252;r sich ist, nach dieser ihrer Einheit mit sich betrachtet, ist sie Anschauen, und die anschauende Idee Natur. Als Anschauen aber ist die Idee in einseitiger Bestimmung der Unmittelbarkeit oder Negation durch &#228;u&#223;erliche Reflexion gesetzt. Die absolute Freiheit der Idee aber ist, da&#223; sie nicht blo&#223; ins Leben &#252;bergeht, noch als endliches Erkennen dasselbe in sich scheinen l&#228;&#223;t, sondern in der absoluten Wahrheit ihrer selbst sich entschlie&#223;t, das Moment ihrer Besonderheit oder des ersten Bestimmens und Andersseins, die unmittelbare Idee als ihren Widerschein, sich als Natur frei aus sich zu entlassen.
 
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
-## **Wissenschaft der Natur** / **Philosophy of Nature**
+## **Naturphilosophie** / **Philosophy of Nature**
  {#PhilosophyOfNature}
 
 The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_.
@@ -2053,6 +2089,7 @@ It starts continuing from [EL&#167;244](#EL244):
 
 Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).
 
+&#196;u&#223;erlichkeit: external $\to$ model.
 
 > PN&#167;193a Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
 
@@ -2075,18 +2112,26 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 > {#PN202b} PN&#167;202b The truly philosophical science of mathematics as theory of magnitude would be the science of measures, but this already presupposes the real particularity of things, which is only at hand in concrete nature.
 
+> {#PN250} PN&#167;250 Der Widerspruch der Idee, indem sie als Natur sich selbst &#228;u&#223;erlich ist
+
 The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
-## **Wissenschaft des Geistes** / **Philosophy of Spirit**
+## **Die Philosophiedes Geistes** / **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
 
 > PS&#167;299 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
 
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
+### Begriff des Geistes
 
+> &#167;381 Der Geist hat f&#252;r uns die Natur zu seiner Voraussetzung, deren Wahrheit und damit deren absolut Erstes er ist. In dieser Wahrheit ist die Natur verschwunden, und der Geist hat sich als die zu ihrem F&#252;rsichsein gelangte Idee ergeben, deren Objekt ebensowohl als das Subjekt der Begriff ist. Diese Identit&#228;t ist absolute Negativit&#228;t, weil in der Natur der Begriff seine vollkommene &#228;u&#223;erliche Objektivit&#228;t hat, diese seine Ent&#228;u&#223;erung aber aufgehoben und er in dieser identisch mit sich geworden ist. Er ist diese Identit&#228;t somit zugleich nur als Zur&#252;ckkommen aus der Natur.
+
+> &#167; 384 Das Offenbaren, welches als das Offenbaren der abstrakten Idee unmittelbarer &#220;bergang, Werden der Natur ist, ist als Offenbaren des Geistes, der frei ist, Setzen der Natur als seiner Welt; ein Setzen, das als Reflexion zugleich Voraussetzen der Welt als selbst&#228;ndiger Natur ist. Das Offenbaren im Begriffe ist Erschaffen derselben als seines Seins, in welchem er die Affirmation und Wahrheit seiner Freiheit sich gibt. 
+
+> Das Absolute ist der Geist, dies ist die h&#246;chste Definition des Absoluten. &#8211; Diese Definition zu finden und ihren Sinn und Inhalt zu begreifen, dies, kann man sagen, war die absolute Tendenz aller Bildung und Philosophie, auf diesen Punkt hat sich alle Religion und Wissenschaft gedr&#228;ngt; aus diesem Drang allein ist die Weltgeschichte zu begreifen. &#8211; Das Wort und die Vorstellung des Geistes ist fr&#252;h gefunden, und der Inhalt der christlichen Religion[29] ist, Gott als Geist zu erkennen zu geben. Dies, was hier der Vorstellung gegeben und was an sich das Wesen ist, in seinem eigenen Elemente, dem Begriffe, zu fassen, ist die Aufgabe der Philosophie, welche so lange nicht wahrhaft und immanent gel&#246;st ist, als der Begriff und die Freiheit nicht ihr Gegenstand und ihre Seele ist.[30]
 
 ## References
 
