@@ -1,6 +1,6 @@
-banerjeeATmathDOTjhuDOTedu
+romieATiiserbDOTacDOTin
 
-* [website](http://www.math.jhu.edu/~banerjee)
+* [website](http://sites.google.com/site/romiebanerjee)
 
 
 category: people
