@@ -36,8 +36,11 @@ Generalized Eilenberg-Steenrod cohomology is
 
 One may conceptualize the axioms as ensuring that certain nice properties that hold in the category Top will be preserved by our cohomology functor.
 
-The Eilenberg-Steenrod axioms are this:
+Let $U$ and $X$ be topological spaces, such that $U$ is a subspace of $X$. Notation: $(X,U) := U \hookrightarrow X$.
 
+Note that if only one space is listed, the subspace is assumed to be the empty set $(X, \emptyset)$.
+
+The Eilenberg-Steenrod axioms are the following:
 
 +-- {: .num_defn}
 ###### Definition
@@ -45,22 +48,21 @@ The Eilenberg-Steenrod axioms are this:
 A [[cohomology theory]] is a collection $\{A^n\}_{n \in \mathbb{Z}}$ of [[functor]]s
 
 $$
-  A^n : Top^{op} \to Ab
+  A^n : (Top \times Top)^{op} \to Ab
 $$
 
-from the category [[Top]] of [[topological space]]s to the category [[Ab]] of abelian groups, that satisfies the following axioms, for all $n \in \mathbb{Z}$.
+from the [[homotopy category]] of pairs of [[topological space]]s to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
 
-It may also be defined as a functor from pairs of topological spaces, if only one space is listed, the subspace is assumed to be the empty set.
+1. *Exactness*: The following sequence is exact. Note that the inclusions $U \hookrightarrow X$ and $(X, \emptyset) \hookrightarrow (X, U)$ induce the unlabeled arrows. 
 
-Let U and X be topological spaces, such that U is a subspace of X. Notation: $(X,A) := A \hookrightarrow X$ 
+$ \cdots \to A^n(X, U) \to A^n(X, \emptyset) \to A^n(U, \emptyset) \xrightarrow{\delta} A^{n+1}(X, U) \to \cdots $
 
-1. *Additivity*: If $\coprod_i X_i = X$, then $\coprod_i A^n(X_i) = A^n(X)$.
+1. *Weak homotopy equivalence*: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]]
 
-1. *Weak homotopy equivalence*: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]];
+1. *Additivity*: If $ (X, U) = \coprod_i (X_i, U_i)$, then $A^n(X, U) = \coprod_i A^n(X_i, U_i)$.
 
-1. *Excision*: Let S be a subspace of U, the natural inclusion of the pair $i:(X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism $A^n(i): A^n(X-U, A-U) \to A^n(X, A)$.
+1. *Excision*: Let $S$ be a subspace of $U$, the natural inclusion of the pair $i:(X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $A^n(i): A^n(X-S, U-S) \to A^n(X, U)$.
 
-1. *Exactness*: Preserves exact sequences, in other words $(A, \emptyset) \to (X, \emptyset) \to (X, A)$ ...
 
 =--
 
@@ -102,6 +104,7 @@ A comprehensive account is in
 
 * _Generalized cohomology_ ([[GeneralizedCohomology.pdf:file]])
 
+* [[Peter May]] Concise Course on Algebraic Topology: [Chapter 18](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
 More references relating to the [[nPOV]] on cohomology include:
 
