@@ -237,7 +237,7 @@ Work by [[Carlos Simpson]] on nonabelian Hodge theory includes
 
 The nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) is generalized to [[twisted bundles]] in 
 
-* {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
+* {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([arXiv:1501.05872](http://arxiv.org/abs/1501.05872), [pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
 
 
 [[!redirects nonabelian Hodge theorem]]
