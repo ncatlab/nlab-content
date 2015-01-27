@@ -29,11 +29,11 @@ This page collects resources related to
   1812, 1831
 
   ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/works/hl/),
- [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
+ [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German html raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [full text pdf-s](http://hegel.net/hegelwerke/), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
 The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
+Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _[The Philosophy of Nature](#PhilosophyOfNature)_ and _[The Philosophy of Spirit](#PhilosophyOfSpirit)_. This first part is often referred to as the _Shorter Logic_. 
 
 * {#EPSBOI} _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
 
@@ -2040,7 +2040,7 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
-## **Philosophy of Nature**
+## **Wissenschaft der Natur** / **Philosophy of Nature**
  {#PhilosophyOfNature}
 
 The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_.
@@ -2079,7 +2079,7 @@ The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
-## **Philosophy of Spirit**
+## **Wissenschaft des Geistes** / **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
 
 > PS&#167;299 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
