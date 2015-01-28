@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[logic]], a __deduction__ or __derivation__ is a part of a [[proof]], drawing a conclusion from certain [[premise]]s.  See:
+In [[logic]], a __deduction__ or __derivation__ is a part of a [[proof]], drawing a conclusion from certain [[premises]].  See:
 
 * [[natural deduction]]
 
@@ -25,11 +25,14 @@ In [[logic]], a __deduction__ or __derivation__ is a part of a [[proof]], drawin
 
 * [[deduction theorem]]
 
+
 ## Related concepts
 
 * [[deductive reasoning]]
 
 * [[induction]]
+
+* [[syllogism]]
 
 
 [[!redirects deduction]]
