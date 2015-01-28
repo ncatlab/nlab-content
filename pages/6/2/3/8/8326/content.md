@@ -33,7 +33,7 @@ This page collects resources related to
 
 The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _[The Philosophy of Nature](#PhilosophyOfNature)_ and _[The Philosophy of Spirit](#PhilosophyOfSpirit)_. This first part is often referred to as the _Shorter Logic_. 
+Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _[The Philosophy of Nature](#PhilosophyOfNature)_ and _[The Philosophy of Spirit](#PhilosophyOfSpirit)_. This first part is often referred to as the _Shorter Logic_. Similarly the _[The Philosophy of Spirit](#PhilosophyOfSpirit)_ subsumes, in condensed outline, the main parts of the _Phenomenology of the Spirit_.
 
 * {#EPSBOI} _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
 
@@ -56,26 +56,17 @@ While going through Hegel's text, this page here attempts to spell out as much a
 
 
 
-## Topics of Volume One: The objective logic
 
-The following extracts some paragraphs from the text, with comments on how to possibly think about this in terms of [[homotopy type theory]], along the lines that [[William Lawvere]] has been suggesting over the decades. 
 
-The paragraph numbers refer to the numbers as given in the English translation at _[Hegel-by-hypertext](http://www.marxists.org/reference/archive/hegel/index.htm)_ _[Hegel's science of logic](http://www.marxists.org/reference/archive/hegel/works/hl/)_.
+## Formalization of the process
 
-Before we get to the content, here some remarks.
-
-### Heraclitus and the Logos of Becoming
- {#Heraclitus}
+Hegel famously invokes a process or movement of opposing moments that via their synthesis lead to new phenomena, which then may again participte as opposing moments in a further synthesis. Accordingly the whole text is structured by triads of chapters each with triads of sections, etc. see [Inwood 83, p. 263](#Inwood1983) for a diagram.
 
 Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
 
 "[[Heraclitus]] is the one who first declared the nature of the infinite and first grasped nature as in itself infinite, that is, its essence as process. The origin of [[philosophy]] is to be dated from Heraclitus. His is the persistent Idea that is the same in all philosophers up to the present day, as it was the Idea of Plato and Aristotle."
 
 "... there is no proposition of Heraclitus which I have not adopted in my logic."
-
-### Triads of Opposites and their Unity
-
-Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis. The whole text is structured by triads of chapters each with triads of sections, etc. see [Inwood 83, p. 263](#Inwood1983) for a diagram.
 
 
 ### Formalization of Unity of Opposites
@@ -194,6 +185,7 @@ The following table lists proposals for possible such identifications. The conte
 | Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
+| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192) [#PN193b](PN&#167;193b) |
 
 =--
 
@@ -219,7 +211,24 @@ The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ 
 
 $$
   \array{
+    Geist &&  && && 
+    \\
+    && &&  &&  && \vdots && \vdots
+    \\
+    Natur &&   &&  && 
+    & & \rho(&#643;) &\dashv& \rho(\flat) &
+    \\
+    && && && && \bot && \bot
+    \\
+    && && &&  && \rho(\flat) &\dashv& \rho(\sharp) & 
+    \\
+    && && &&&& \vee && \vee 
+    \\
+    && &&&&\stackrel{}{}&& \rho(\emptyset) &\dashv& \rho(\ast) & 
+    \\
+    \\
     {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
+    \\
     \\
     \\
     && && &&  && \vdots && \vdots
@@ -277,18 +286,6 @@ $$
 =--
 
 
-### On the translation of the terms
-
-The orginal German is at times maybe more evocative than the established English translations 
-
-* "f&#252;r sich sein", which standard sources translate as "being-for-self", really means to be alone and undisturbed. One says: "Ich gehe jetzt in mein B&#252;ro, ich muss mal f&#252;r mich sein um mich zu konzentrieren." (I'll retreat to my office to be alone and undisturbed.)
-
-* "Dasein", which in the standard translations appears as "determinate being" is really much more immediate "being there", "existing". "Wann sollen wir da sein?" means "When are we supposed to be there?" In more formal speech "das Dasein" means "existence" as in "Ach, das Dasein ist doch zwecklos." (Note that di Giovanni has 'existence' here.)
-
-* "Grund" may be translated to "ground", and probably Hegel is happy about that connotation, but "der Grund fuer etwas" is the "_reason_" for something.
-
-* "Form" also translates as "shape"
-
 
 ## **Introduction**
 
@@ -314,7 +311,8 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 > &#167;85 The objective logic, then, takes the place rather of the former metaphysics which was intended to be the scientific construction of the world in terms of thoughts alone. If we have regard to the final shape of this science, then it is first and immediately ontology whose place is taken by objective logic &#8212; that part of this metaphysics which was supposed to investigate the nature of ens in general; ens comprises both being and essence, a distinction for which the German language has fortunately preserved different terms. But further, objective logic also comprises the rest of metaphysics in so far as this attempted to comprehend with the forms of pure thought particular substrata taken primarily from figurate conception, namely the soul, the world and God; and the determinations of thought constituted what was essential in the mode of consideration. 
 
-## **Book one** Die Lehre vom Sein / The Doctrine of Being
+
+## **Die Lehre vom Sein** / **The Doctrine of Being**
 
 
 ### $\;\;$ Womit muss der Anfang der Wissenschaft gemacht werden?
@@ -333,7 +331,7 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 ### $\;\;$ Allgemeine Einteilung des Seins
 
 
-### First sectio Bestimmtheit (Qualit&#228;t) / Determinateness (Quality)
+### First section. Bestimmtheit (Qualit&#228;t) / Determinateness (Quality)
 
 #### First chapter
 
@@ -1254,6 +1252,7 @@ The [[continuum]].
 
 ###### b. Der quantitative unendliche Progre&#223;
 
+
  {#DerQuantitativeUnendlicheProgress}
 
 > &#167;500 The progress to infinity is in general the expression of contradiction, here, of that which is implicit in the quantitative finite, or quantum as such. It is the reciprocal determining of the finite and infinite which was considered in the sphere of quality, with the difference that, as just remarked, in the sphere of quantity the limit in its own self dispatches and continues itself into its beyond and hence, conversely, the quantitative infinite too is posited as having quantum within it; for quantum in its self-externality is also its own self, its externality belongs to its determination.
@@ -1442,7 +1441,7 @@ $$
 See also [&#167;812](#812)
 
 
-## **Book two** Die Lehre vom Wesen / The doctrine of essence 
+## **Die Lehre vom Wesen** / **The doctrine of essence**
  {#LehreVomWesen}
 
 
@@ -1649,6 +1648,7 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 > {#944} &#167;944 Zun&#228;chst geht also der selbstst&#228;ndige Gegensatz durch seinen Widerspruch in den Grund zur&#252;ck; jener ist das Erste, Unmittelbare, von dem angefangen wird, und der aufgehobene Gegensatz oder das aufgehobene Gesetztseyn ist selbst ein Gesetztseyn. Somit ist das Wesen als Grund ein Gesetztseyn, ein Gewordenes. Aber umgekehrt hat sich nur die&#223; gesetzt, da&#223; der Gegensatz oder das Gesetztseyn ein Aufgehobenes, nur als Gesetztseyn ist. Das Wesen ist also als Grund so ausschlie&#223;ende Reflexion, da&#223; es sich selbst zum Gesetztseyn macht, da&#223; der Gegensatz, von dem vorhin der Anfang gemacht wurde und der das Unmittelbare war, die nur gesetzte, bestimmte Selbstst&#228;ndigkeit des Wesens ist, und da&#223; er nur das sich an ihm selbst Aufhebende, das Wesen aber das in seiner Bestimmtheit in sich Reflektirte ist. Das Wesen schlie&#223;t als Grund sich von sich selbst aus, es setzt sich; sein Gesetztseyn,&#8212;welches das Ausgeschlossene ist,&#8212;ist nur als Gesetztseyn, als Identit&#228;t des Negativen mit sich selbst. Die&#223; Selbstst&#228;ndige ist das Negative, gesetzt als Negatives; ein sich selbst Widersprechendes, das daher unmittelbar im Wesen als seinem Grunde bleibt.
 
 > &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posits itself; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
+
 
 > {#945} &#167;945 Der aufgel&#246;ste Widerspruch ist also der Grund,
 
@@ -2010,7 +2010,7 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 #### Chapter 3. Das absolute Verh&#228;ltni&#223;
 
 
-## **Book three** Die Lehre vom Begriff / The doctrine of the notion
+## **Die Lehre vom Begriff** / **The doctrine of the notion**
 
 > {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
@@ -2076,7 +2076,7 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
-## **Naturphilosophie** / **Philosophy of Nature**
+## **Die Philosophie der Natur** / **Philosophy of Nature**
  {#PhilosophyOfNature}
 
 The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_.
@@ -2095,10 +2095,9 @@ Notice however that "matter" and in fact "[[physical fields]]" were already in t
 
 > PN&#167;193a Hence nature exhibits no freedom in its existence, but only necessity and contingency.
 
+> PN&#167;193b Weil sie jedoch, [ ... ] Darstellung der Idee ist, 
 
-> PN&#167;193b Weil sie jedoch, [ $\cdots$ ] Darstellung der Idee ist, 
-
-> PN&#167;193b [ $\cdots$ ] nature is a representation of the idea, 
+> PN&#167;193b [ $... ] nature is a representation of the idea, 
 
 Darstellung/representation: [[model]] of the [[theory]]
 
@@ -2118,22 +2117,95 @@ The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
-## **Die Philosophiedes Geistes** / **Philosophy of Spirit**
+## **Die Philosophie des Geistes** / **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
 
-> PS&#167;299 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
 
-The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
+
+### Einleitung
 
 ### Begriff des Geistes
 
-> &#167;381 Der Geist hat f&#252;r uns die Natur zu seiner Voraussetzung, deren Wahrheit und damit deren absolut Erstes er ist. In dieser Wahrheit ist die Natur verschwunden, und der Geist hat sich als die zu ihrem F&#252;rsichsein gelangte Idee ergeben, deren Objekt ebensowohl als das Subjekt der Begriff ist. Diese Identit&#228;t ist absolute Negativit&#228;t, weil in der Natur der Begriff seine vollkommene &#228;u&#223;erliche Objektivit&#228;t hat, diese seine Ent&#228;u&#223;erung aber aufgehoben und er in dieser identisch mit sich geworden ist. Er ist diese Identit&#228;t somit zugleich nur als Zur&#252;ckkommen aus der Natur.
+> PG&#167;381 Der Geist hat f&#252;r uns die Natur zu seiner Voraussetzung, deren Wahrheit und damit deren absolut Erstes er ist. In dieser Wahrheit ist die Natur verschwunden, und der Geist hat sich als die zu ihrem F&#252;rsichsein gelangte Idee ergeben, deren Objekt ebensowohl als das Subjekt der Begriff ist. Diese Identit&#228;t ist absolute Negativit&#228;t, weil in der Natur der Begriff seine vollkommene &#228;u&#223;erliche Objektivit&#228;t hat, diese seine Ent&#228;u&#223;erung aber aufgehoben und er in dieser identisch mit sich geworden ist. Er ist diese Identit&#228;t somit zugleich nur als Zur&#252;ckkommen aus der Natur.
+
+> PS&#167;381 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
+
+The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
+
+> PG&#167;381 Das Wesen des Geistes ist deswegen formell die Freiheit
 
 > &#167; 384 Das Offenbaren, welches als das Offenbaren der abstrakten Idee unmittelbarer &#220;bergang, Werden der Natur ist, ist als Offenbaren des Geistes, der frei ist, Setzen der Natur als seiner Welt; ein Setzen, das als Reflexion zugleich Voraussetzen der Welt als selbst&#228;ndiger Natur ist. Das Offenbaren im Begriffe ist Erschaffen derselben als seines Seins, in welchem er die Affirmation und Wahrheit seiner Freiheit sich gibt. 
 
 > Das Absolute ist der Geist, dies ist die h&#246;chste Definition des Absoluten. &#8211; Diese Definition zu finden und ihren Sinn und Inhalt zu begreifen, dies, kann man sagen, war die absolute Tendenz aller Bildung und Philosophie, auf diesen Punkt hat sich alle Religion und Wissenschaft gedr&#228;ngt; aus diesem Drang allein ist die Weltgeschichte zu begreifen. &#8211; Das Wort und die Vorstellung des Geistes ist fr&#252;h gefunden, und der Inhalt der christlichen Religion[29] ist, Gott als Geist zu erkennen zu geben. Dies, was hier der Vorstellung gegeben und was an sich das Wesen ist, in seinem eigenen Elemente, dem Begriffe, zu fassen, ist die Aufgabe der Philosophie, welche so lange nicht wahrhaft und immanent gel&#246;st ist, als der Begriff und die Freiheit nicht ihr Gegenstand und ihre Seele ist.[30]
+ 
 
-## References
+### Erste Abteilung. Der subjektive Geist
+
+#### A. Anthropologie
+
+##### a. Nat&#252;rliche Seele
+
+##### b. tr&#228;umende Seele
+
+##### c. Wirkliche Seele
+
+#### B. Ph&#228;nomenologie
+
+##### a. Bewu&#223;tsein als solches
+
+##### b. Selbstbewu&#223;tsein
+
+##### c. Vernunft
+
+#### B. Psychologie
+
+##### a. Theoretischer Geist
+
+##### b. Praktischer Geist
+
+###### $\alpha$. Praktisches Gef&#252;hl
+
+###### $\beta$. Trieb
+
+###### $\gamma$. Willk&#252;r und Gl&#252;ckseligkeit
+
+### Zweite Abteilung. Der objektive Geist
+
+#### A. Das Recht
+
+#### B. Die Moralit&#228;t
+
+#### C. Die Sittlichkeit
+
+### Dritte Abteilung. Der absolute Geist
+
+
+#### A. Die Kunst
+
+#### B. Die geoffenbarte Religion
+
+#### C. Die Philosophie
+ 
+
+
+> PG&#167;574 Dieser Begriff der Philosophie ist die sich denkende Idee, die wissende Wahrheit (&#167; 236), das Logische mit der Bedeutung, da&#223; es die im konkreten Inhalte als in seiner Wirklichkeit bew&#228;hrte Allgemeinheit ist. Die Wissenschaft ist auf diese Weise in ihren Anfang zur&#252;ckgegangen und das Logische so ihr Resultat als das Geistige, da&#223; es aus dem voraussetzenden Urteilen, worin der Begriff nur an sich und der Anfang ein Unmittelbares war, hiermit aus der Erscheinung, die es darin an ihm hatte, in sein reines Prinzip zugleich als in sein Element sich erhoben hat.
+
+return to the beginning
+
+The second edition of the _Enzyklop&#228;die der philos. Wiss._ from 1827 ends here. Later the following three paragraphs are added, concerning three kinds of _Schlu&#223;_.
+
+> PG&#167;575 Es ist dieses Erscheinen, welches zun&#228;chst die weitere Entwicklung begr&#252;ndet. Die erste Erscheinung macht der Schlu&#223; aus, welcher das Logische zum Grunde als Ausgangspunkt und die Natur zur Mitte hat, die den Geist mit demselben zusammenschlie&#223;t. Das Logische wird zur Natur und die Natur zum Geiste. Die Natur, die zwischen dem Geiste und seinem Wesen steht, trennt sie zwar nicht zu Extremen endlicher Abstraktion, noch sich von ihnen zu einem Selbst&#228;ndigen, das als Anderes nur Andere zusammenschl&#246;sse; denn der Schlu&#223; ist in der Idee und die Natur wesentlich nur als Durchgangspunkt und negatives Moment bestimmt und an sich die Idee; aber die Vermittlung des Begriffs hat die &#228;u&#223;erliche Form des &#220;bergehens und die Wissenschaft die des Ganges der Notwendigkeit, so da&#223; nur in dem einen Extreme die Freiheit des Begriffs als sein Zusammenschlie&#223;en mit sich selbst gesetzt ist.
+
+$$
+  Logik \stackrel{Natur}{\longrightarrow} Geist
+$$
+
+> PG&#167;576 Diese Erscheinung ist im zweiten Schl&#252;sse insoweit aufgehoben, als dieser bereits der Standpunkt des Geistes selbst ist, welcher das Vermittelnde des Prozesses ist, die Natur voraussetzt und sie mit dem Logischen zusammenschlie&#223;t. Es ist der Schlu&#223; der geistigen Reflexion in der Idee; die Wissenschaft erscheint als ein subjektives Erkennen, dessen Zwecks die Freiheit und es selbst der Weg ist, sich dieselbe hervorzubringen.
+
+> &#167;577 Der dritte Schlu&#223; ist die Idee der Philosophie, welche die sich wissende Vernunft, das Absolut-Allgemeine zu ihrer Mitte hat, die sich in Geist und Natur entzweit, jenen zur Voraussetzung als den Proze&#223; der subjektiven T&#228;tigkeit der Idee und diese zum allgemeinen Extreme macht, als den Proze&#223; der an sich, objektiv, seienden Idee. Das Sich-Urteilen der Idee in die beiden Erscheinungen (&#167; 575/6) bestimmt dieselben als ihre (der sich wissenden Vernunft) Manifestationen, und es vereinigt sich in ihr, da&#223; die Natur der Sache, der Begriff, es ist, die sich fortbewegt und entwickelt, und diese Bewegung ebensosehr die T&#228;tigkeit des Erkennens ist, die ewige an und f&#252;r sich seiende Idee sich ewig als absoluter Geist bet&#228;tigt, erzeugt und genie&#223;t.[394]
+
+
+## **References**
 
 Text with background, introduction and survey include
 
