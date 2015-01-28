@@ -29,8 +29,8 @@ There is supposed to be a $(p=3)$-[[brane]] in 6-dimensional [[supersymmetry|sup
 
 The original construction is in 
 
-* James Hughes, Jun Liu, [[Joseph Polchinski]], _Supermembranes_, Physics Letters B Volume 180, Issue 4, 20 November 1986, Pages 370&#8211;374 ([spire](http://inspirehep.net/record/20685))
- {#HughesLiuPolchinski86}
+* {#HughesLiuPolchinski86} James Hughes, Jun Liu, [[Joseph Polchinski]], _Supermembranes_, Physics Letters B Volume 180, Issue 4, 20 November 1986, Pages 370&#8211;374 ([spire](http://inspirehep.net/record/20685))
+ 
 
 Discussion building on that includes
 
@@ -38,12 +38,12 @@ Discussion building on that includes
 
 Discussion of the 3-brane in 6d explicitly as a 3-brane soliton in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] is due to
 
-* P.S. Howe, [[Neil Lambert]], [[Pete West]], _The Threebrane Soliton of the M-Fivebrane_, Phys.Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
-  {#HoweLambertWest97}
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Pete West]], _The Threebrane Soliton of the M-Fivebrane_, Phys.Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+  
 
 and the understanding of this configuration as resulting from two intersecting M5-branes is due to 
 
-* G. Papadopoulos and [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
+* [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
 
 * [[Arkady Tseytlin]], Nucl. Phys. B475 (1996) 149.
 
