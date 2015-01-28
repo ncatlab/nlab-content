@@ -152,7 +152,7 @@ The four classes of rules of natural deduction are close to being specifications
 
 ## References
 
-In a broad sense, the idea of natural deduction can be traced back to Aristotle's **Prior Analytics** as classical work by J. Bacon, J. Corcoran and T. Smiley around 1970 has argued that his theory of syllogism can be viewed as a fragment of natural deduction. For more on this see e.g.
+In a broad sense, the idea of natural deduction can be traced back to [[Aristotle]]'s **Prior Analytics** as classical work by J. Bacon, J. Corcoran and T. Smiley around 1970 has argued that his theory of [[syllogism]] can be viewed as a [[fragment]] of natural deduction. For more on this see e.g.
 
 * J. Bacon, _Natural-deduction rules for syllogistic_ , JSL **31** (1966) pp.686-7.
 
@@ -164,13 +164,13 @@ The next step to the modern conception was an observation by the Polish logician
 
 * S. Jaskowski, _On the rules of suppositions in formal logic_ , Studia Logica **1** Warsaw 1934. ([pdf](http://www.logik.ch/daten/jaskowski.pdf))
 
-At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century mathematical logic introducing the concept of cut-elimination and proof systems for '[[h-propositions]]' in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] that was published as
+At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century [[mathematical logic]] introducing the concept of [[cut-elimination]] and proof systems for '[[h-propositions]]' in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] that was published as
 
 * {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ **39**(1), Springer-Verlag 1934-35. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
 
 [^Dummett]: *It can be said of Gentzen that it was he who first showed how proof theory should be done*. (M. Dummett, _Frege- Philosophy of Language_ , Harvard UP 1981$^2$. p.434)
  
-In order to prove the famous *Hauptsatz* for proof normalization Gentzen invented the [[sequent calculus]] though he sketched a similar result for natural deduction in his later work on the consistency of arithmetics. Normalization for systems of natural deduction was established by D. Prawitz in his thesis in 1965:
+In order to prove the famous *[[Gentzen's Hauptsatz|Hauptsatz]]* for proof normalization Gentzen invented the [[sequent calculus]] though he sketched a similar result for natural deduction in his later work on the [[consistency]] of [[arithmetics]]. Normalization for systems of natural deduction was established by D. Prawitz in his thesis in 1965:
 
 * D. Prawitz, _Natural Deduction - A Proof-theoretical Study_ , Dover reprint New York 2006[1965].
 
