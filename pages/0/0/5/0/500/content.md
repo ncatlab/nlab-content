@@ -15,7 +15,7 @@
 
 ## Idea
 
-The term _Yoneda reduction_ is was coined by [[Todd Trimble]] in his (unpublished) thesis. It refers to a technique based on the [[Yoneda lemma]] for performing a number of [[end|end and coend]] calculations which arise in [[coherence]] theory and [[enriched category theory]]. 
+The term _Yoneda reduction_ was coined by [[Todd Trimble]] in his (unpublished) thesis. It refers to a technique based on the [[Yoneda lemma]] for performing a number of [[end|end and coend]] calculations which arise in [[coherence]] theory and [[enriched category theory]]. 
 
 ## The module perspective on the Yoneda lemma
 
