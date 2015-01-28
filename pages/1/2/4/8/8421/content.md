@@ -22,8 +22,7 @@
 {: toc}
 
 ## Idea
-
-The framework of _natural deduction_ describes a particular class of [[deductive systems]] which formalize "natural" _[[deductive reasoning]]_ or _reasoning from assumptions_.  It is used particularly to describe the [[syntax]] of formal [[logic]] and [[type theory]].
+Formalization of mathematical reasoning can be presented in different forms. The framework of **natural deduction** describes a particular class of [[deductive systems]] which is supposed to be close to "natural" _[[deductive reasoning]]_ insofar it is based on the idea of _reasoning from assumptions_ in contrast to proof systems that reason from 'truths' in the tradition of Hilbertian axiomatics.  It is used particularly to present the [[syntax]] of formal [[logic]] and [[type theory]].
 
 +-- {: .un_remark}
 ###### Remark
@@ -153,12 +152,31 @@ The four classes of rules of natural deduction are close to being specifications
 
 ## References
 
-The original source (which treated [[h-propositions]] in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]]) is
+In a broad sense, the idea of natural deduction can be traced back to Aristotle's **Prior Analytics** as classical work by J. Bacon, J. Corcoran and T. Smiley around 1970 has argued that his theory of syllogism can be viewed as a fragment of natural deduction. For more on this see e.g.
 
-* {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
+* J. Bacon, _Natural-deduction rules for syllogistic_ , JSL **31** (1966) pp.686-7.
+
+* J. Corcoran, _Completeness of an ancient logic_ , JSL **37** (1972) pp.696-702.
+
+* T. Smiley, _What is a syllogism_ , JPL **2** (1973) pp.136-154.
+
+The next step to the modern conception was an observation by the Polish logician (and Aristotle scholar) J. Lukasiewicz in 1926 that the formalization of mathematical reasoning proposed by [[David Hilbert|D. Hilbert]] or *Principia Mathematica* fails to comply with the actual reasoning style of mathematicians. This was taken up by S. Jaskowski  who published a system of natural deduction in 1934:
+
+* S. Jaskowski, _On the rules of suppositions in formal logic_ , Studia Logica **1** Warsaw 1934. ([pdf](http://www.logik.ch/daten/jaskowski.pdf))
+
+At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century mathematical logic introducing the concept of cut-elimination and proof systems for '[[h-propositions]]' in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] that was published as
+
+* {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ **39**(1), Springer-Verlag 1934-35. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
+
+[^Dummett]: *It can be said of Gentzen that it was he who first showed how proof theory should be done*. (M. Dummett, _Frege- Philosophy of Language_ , Harvard UP 1981$^2$. p.434)
  
+In order to prove the famous *Hauptsatz* for proof normalization Gentzen invented the [[sequent calculus]] though he sketched a similar result for natural deduction in his later work on the consistency of arithmetics. Normalization for systems of natural deduction was established by D. Prawitz in his thesis in 1965:
 
+* D. Prawitz, _Natural Deduction - A Proof-theoretical Study_ , Dover reprint New York 2006[1965].
 
+A standard textbook that describes proof systems in natural deduction format, sequent calculi or Hilbert-style systems is
+
+* A. S. Troelstra, H. Schwichtenberg, _Basic Proof Theory_ , CUP 2000$^2$.
 
 An introductory lecture using [[dependent type theory]] in [[intuitionistic logic]] is
 
