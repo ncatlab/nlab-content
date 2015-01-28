@@ -246,9 +246,17 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 A modern reference for the diverse flavours of supergravity theories is
 
-* Antoine Van Proeyen, _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
+* [[Antoine Van Proeyen]], _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
 
-Introductory lecture notes are in 
+from which derives the textbook
+
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press, 2012
+
+lecture notes following which are in
+
+* [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
+
+Further untroductory lecture notes are in 
 
 * [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
 
@@ -258,7 +266,7 @@ A fair bit of detail on [[supersymmetry]] and on supergravity is in
 
 The original article that introduced the [[D'Auria-Fre formulation of supergravity]] is
 
-* R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
+* [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
  
 The standard textbook monograph on supergravity and [[string theory]] using these tools is
 
