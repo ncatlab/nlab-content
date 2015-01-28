@@ -84,6 +84,11 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 
 ## References
 
+The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special holonomy]] was originally considered in
+
+* {#DauriaFreCastellani91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter V.6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys.Lett.B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
@@ -104,7 +109,7 @@ Surveys include
 * [[Sergei Gukov]], _M-theory on manifolds with exceptional holonomy_, Fortschr. Phys. 51 (2003), 719&#8211;731 ([pdf](http://research.physics.unc.edu/string/gukov.pdf))
 
 
-* [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
 
 
