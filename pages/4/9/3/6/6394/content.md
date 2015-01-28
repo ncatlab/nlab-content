@@ -7,6 +7,8 @@
 
 * [[supergravity torsion constraints]]
 
+* [[3-brane in 6d]]
+
 category: people
 
 [[!redirects P. S. Howe]]
