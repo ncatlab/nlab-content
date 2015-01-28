@@ -182,8 +182,9 @@ This perspective on the torsion constraints in supergravity is adopted in ([Lott
 
 The [[supergravity]] [[equations of motion]] typically imply the torsion constraints. See at [super p-brane -- On curved spacetimes](Green-Schwarz+action+functional#OnCurvedSpacetime) for more.
 
-With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulaiton of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravoty]] ([Howe 97](#Howe97)) and maybe its maximally supersymmetric [[KK-compactifications]].
+With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulation of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravity]] ([Howe 97](#Howe97)) and maybe its maximally supersymmetric [[KK-compactifications]].
 
+More in detail, ([Howe 97](#Howe97)) shows that imposing (on some chart) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ implies the equations of motion of [[11d supergravity]]. These equations (see e.g. [D'Auria-Fr&#233; 82, p. 31](11-dimensional%20supergravity#DAuriaFre)) then show that furthermore requiring $\mathbf{d} \psi + \tfrac{1}{2}\omega_{a b} \Gamma^{a b}\psi = 0$ (and hence requiring the full supertorsion tensor to be that of super-Minkowski spacetime) puts the [[field strength]] of the [[gravitino]] and of the [[supergravity C-field]] to 0. Hence this implies solutions to the ordinary vacuum [[Einstein equations]] in 11d. Such solutions are considered notably in the context of [[M-theory on G2-manifolds]] (see e.g. [Acharya 02, p. 9](M-theory+on+G2-manifolds#Acharya02)). 
 
 ### Relation to CR-geometry
 
