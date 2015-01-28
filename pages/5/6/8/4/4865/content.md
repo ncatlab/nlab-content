@@ -177,7 +177,7 @@ Formulation in terms of [[supergeometry]] is in
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
-* {#DAuriaFre} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_
+* {#DAuriaFre} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
  
 
 of which a textbook account is in 
@@ -193,7 +193,10 @@ The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 
 and around (4.2) of
  
 * {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
- 
+
+More recent textbook accounts include
+
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], section 10 of _Supergravity_, Cambridge University Press, 2012 
 
 Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
 
