@@ -138,7 +138,9 @@ The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]]
 
 This is expanded on in 
 
-* {#FigueroaOFarrillStanciu94}[[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
+* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
+
+* [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ ([arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192))
   
 
 A quick review of this class of 3-cocycles in equivariant de Rham cohomology is also in section 4.1 of 
@@ -149,7 +151,7 @@ which further generalizes the discussion to non-compact Lie groups.
 
 See also
 
-* [[Edward Witten]], _The N matrix model and gauged WZW models_, Nuclear Physics B Volume 371, Issues 1&#8211;2, 2 March 1992, Pages 191&#8211;245
+* [[Edward Witten]], _The $N$ matrix model and gauged WZW models_, Nuclear Physics B Volume 371, Issues 1&#8211;2, 2 March 1992, Pages 191&#8211;245
 
 * Stephen-wei Chung, S.-H. Henry Tye, _Chiral Gauged WZW Theories and Coset Models in Conformal Field Theory_, Phys. Rev. D47:4546-4566,1993 ([arXiv:hep-th/9202002](http://arxiv.org/abs/hep-th/9202002))
 
