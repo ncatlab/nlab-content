@@ -2132,10 +2132,25 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 #### A. Raum und Zeit
 
+##### a. Der Raum
+
+> Die erste oder unmittelbare Bestimmung der Natur ist die abstrakte Allgemeinheit ihres Au&#223;ersichseins, &#8211; dessen vermittlungslose Gleichg&#252;ltigkeit, der Raum. Er ist das ganz ideelle Nebeneinander, weil er das Au&#223;ersichsein ist, und schlechthin kontinuierlich, weil dies Au&#223;ereinander noch ganz. abstrakt ist und keinen bestimmten Unterschied in sich hat.
+
+> Von Raumpunkten zu sprechen, als ob sie das positive Element des Raums ausmachten, ist unstatthaft,
+
+> Da&#223; die Linie nicht aus Punkten, die Fl&#228;che nicht aus Linien besteht, geht aus ihrem Begriffe hervor, da die Linie vielmehr der Punkt als au&#223;er sich seiend, n&#228;mlich sich auf den Raum beziehend und sich aufhebend, die Fl&#228;che ebenso die aufgehobene, au&#223;er sich seiende Linie ist. &#8211;
+
+##### b. Die Zeit
+
+##### c. Der Ort und die Bewegung
+
+
 #### B. Materie und Bewegung. Endliche Mechanik
 
 #### C. Absolute Mechanik
 
+
+> Die Gravitation ist der wahrhafte und bestimmte Begriff der materiellen K&#246;rperlichkeit, der zur Idee realisiert ist
 
 ### Zweite Abteilung. Die Physik
 
