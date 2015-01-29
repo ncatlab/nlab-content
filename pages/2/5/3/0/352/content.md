@@ -17,7 +17,7 @@
 
 The term "$\infty$-category" refers to a joint higher generalization of the notion of [[groupoid]], [[category]], and [[2-groupoid]], [[3-groupoid]], ... [[∞-groupoid]]. 
 
-In generalization to how an ordinary [[category]] has [[morphisms]] going between [[objects]], and a [[2-category]] has both morphisms (or _[[1-morphisms]]_ or _1-cells_) between objects and _[[2-morphisms]]_ (or _2-cells_) going between 1-morphisms, in an $\infty$-category, there are [[n-morphism|k-morphisms]] going between $(k-1)$-morphisms for all $k = 1, 2, \ldots$.  (The $0$-morphisms are the objects of the $\infty$-category.)
+Generlaising how in an ordinary [[category]], one has [[morphisms]] going between [[objects]], and in a [[2-category]], one has both morphisms (or _[[1-morphisms]]_ or _1-cells_) between objects and _[[2-morphisms]]_ (or _2-cells_) going between 1-morphisms, in an $\infty$-category, there are [[n-morphism|k-morphisms]] going between $(k-1)$-morphisms for all $k = 1, 2, \ldots$.  (The $0$-morphisms are the objects of the $\infty$-category.)
 
 There are two crucially different uses of the term: 
 
