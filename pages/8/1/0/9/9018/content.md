@@ -26,12 +26,21 @@
 
 The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_).
 
-Specifically for discussion of obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
+Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
 ## Details
  {#G2Manifolds}
 
-### The C-field
+### Vacuum solutions and the supergravity torsion constraints
+ {#VacuumSolutionsAndTorsion}
+
+Genuine [[G2-manifold]]/[[orbifold]] fibers, these having vanishing [[Ricci curvature]], correspond to [[vacuum]] solutions of the [[Einstein equations]] of [[11d supergravity]], i.e. with vanishing [[field strength]] of the [[gravitino]] and the [[supergravity C-field]] (see e.g. [Acharya 02, p. 9](#Acharya02)).
+(If one includes non-vanishing $C$-field strength one finds "weak $G_2$-holonomy" instead, see [below](#TheCField)).
+
+Notice that vanishing [[gravitino]] [[field strength]] (i.e. [[covariant derivative]]) means that the [[torsion of a Cartan connection|torsion]] of the super-[[vielbein]] is in each [[tangent space]] the canonical torsion of the [[super Minkowski spacetime]]. This [[supergravity torsion constraint|torsion constraint]] already just for the bosonic part $(E^a)$ of the super-vielbein $(E^a, E^\alpha)$ already implies (together with the [[Bianchi identities]]) the [[equations of motion]] of supergravity, hence here the vacuum [[Einstein equations]] in the 11d [[spacetime]]. 
+
+
+### With non-vanishing $C$-field strength
  {#TheCField}
 
 In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance ([Bilal-Serendinger-Sfetos 02, section 6](#BilalDerendingerSfetos)):
@@ -90,9 +99,22 @@ The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special h
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys.Lett.B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
+Specifically [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to
+
+* [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+
+* [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
+
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+* [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of G2 Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+
+See also
+
 * [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and C.N. Pope, _Supersymmetric M3-branes and G2 Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
+
+* {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
+
 
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
 
@@ -101,7 +123,7 @@ Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "wi
 * {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
 
-Surveys include
+Survey and further discussion includes
 
 * [[Michael Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
 
@@ -112,20 +134,13 @@ Surveys include
 * {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
 
-
 * Adil Belhaj, _M-theory on G2 manifolds and the method of (p, q) brane webs_ (2004) ([web](http://iopscience.iop.org/0305-4470/37/18/011))
 
 * Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_ ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
-Compactificaton on [[orbifolds]] of $G_2$-manifolds, introducing ([[orbifold]]-) singularities necessary for realistic [[effective QFTs]] is discussed in 
-
-* {#Achary98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_ ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
  
 
-* {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, N. Lambert, _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
- 
-
-* [[James Halverson]], David Morrison, _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
+ * [[James Halverson]], David Morrison, _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
 
 The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
 
