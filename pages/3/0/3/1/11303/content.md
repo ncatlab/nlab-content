@@ -23,7 +23,7 @@
 
 ## Idea
 
-By embedding [[quantum field theories]] into [[string theory]]  -- typically as the [[worldvolume]] theories of various [[branes]], e.g. [[super Yang-Mills theory]] on [[D-branes]], [[6d (2,0)-superconformal QFT]] on [[M5-branes]] -- the various [[duality in string theory|dualities of string theory]] will relate different QFTs in way that are typically far from obvious from just looking at these QFTs themselves. 
+By embedding [[quantum field theories]] into [[string theory]]  -- typically as the [[worldvolume]] theories of various [[branes]], e.g. [[super Yang-Mills theory]] on [[D-branes]], [[6d (2,0)-superconformal QFT]] on [[M5-branes]], or else at [[O-planes]] -- the various [[duality in string theory|dualities of string theory]] will relate different QFTs in way that are typically far from obvious from just looking at these QFTs themselves. 
 
 The investigation specifically of [[N=2 D=4 super Yang-Mills theory]] and [[N=1 D=4 super Yang-Mills theory]] in this fashion has come to be known as _geometric engineering of quantum field theory_ ([Katz-Klemm-Vafa 97](#KatzKlemmVafa97), [Katz-Klemm 96](#KatzKlemm96) ).
 
@@ -32,6 +32,8 @@ For more relations between QFTs found via string theory see at _[[string theory 
 ## Related concepts
 
 * [[quiver gauge theory]]
+
+* [[M-theory on G2-manifolds]]
 
 ## References
 
