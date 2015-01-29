@@ -72,17 +72,16 @@ The set of filters $Filters(L)$ is a poset in its own right w.r.t. inclusion and
 
 If $f$ satisfies stronger properties than mere monotony, then $f_\ast$ will be better behaved as well:
 
-* If $L$ is a meet-[[semilattice]], then $Filters(L)$ is a complete join-semilattice: $\bigvee_{i\in I} F_i = \left\langle \bigwedge_{j\in J} A_j \mid J\subseteq I\text{ finite}, A_j\in F_j\right\rangle$. If $f:L_1\to L_2$ is a monotone map between meet-semilattices (i.e. $f(A\wedge A')\leq f(A)\wedge f(A')$ holds, but equality need not hold!), then $f_\ast$ automatically respects all joins.
+* If $L$ is a meet-[[semilattice]], then $Filters(L)$ is a complete join-semilattice: $\bigvee_{i\in I} F_i = \left\langle \bigwedge_{j\in J} A_j \mid J\subseteq I\text{ finite}, A_j\in F_j\right\rangle$. If $f:L_1\to L_2$ respects finite meets, then $f_\ast$ respects all joins. If $f$ is merely monotone, then $f_\ast$ respects all filtered joins.
 * If $L$ has all $|I|$-fold joins for some indexing set $I$, then $Filters(L)$ has $|I|$-fold meets: $\bigwedge_{i\in I} F_i = \lbrace \bigvee_{i\in I} A_i \mid A_i\in F_i\rbrace$. If $f$ respects $|I|$-fold joins, then $f_\ast$ respects $|I|$-fold meets.
 * If $L$ is a [[distributive lattice]], then $Filters(L)$ is a [[frame]], i.e. the infinite distributive law $F \wedge \bigvee_{i\in I} G_i = \bigvee_{i\in I} (F\wedge G_i)$ holds. The other distributive law also holds for finite meets: $F \vee \bigwedge_{i\in I} G_i = \bigwedge_{i\in I} (F\vee G_i)$ if $I$ is finite. It holds more generally if $L$ has all $|I|$-fold meets, the $|I|$-fold distributive law $A\wedge \bigvee_{i\in I} = \bigvee_{i\in I} (A\wedge B_i)$ holds in $L$ and $F$ is closed under $|I|$-fold meets.
 
-* If $L$ is a [[frame]], then $Filters(L)$ is a complete lattice. If $f$ respects all joins, then $f_\ast$ respects all joins and all meets. In this case $f_\ast$ has both a right and a left adjoint $f^!, f^\ast: L_2\to L_1$ which are given by $f^\ast(G) = \bigwedge \lbrace F | G\subseteq f_\ast(F)\rbrace$ and $f^!(G) = \bigvee \lbrace F | f_\ast(F)\subseteq G\rbrace$ respectively so that
-$f^\ast(G)\subseteq F \iff G\subseteq f_\ast(F)$ and $f_\ast(F)\subseteq H \iff F\subseteq f^!(H)$ hold.
+* If $L$ is a complete join-semilattice, then $Filters(L)$ is a complete lattice. If $f$ respects all joins, then $f_\ast$ respects all meets. In this case $f_\ast$ has a [[left adjoint]] $f^\ast: L_2\to L_1$ which is given by $f^\ast(G) = \bigwedge \lbrace F | G\subseteq f_\ast(F)\rbrace$ so that $f^\ast(G)\subseteq F \iff G\subseteq f_\ast(F)$ holds. As a left adjoint $f^\ast$ respects all joins.
 
 ### Examples
 
-* If $L_1=(P(X),\subseteq), L_2=(P(Y),\subseteq)$ for some sets $X,Y$ and $\alpha:X\to Y$ is any map, then $f:L_1\to L_2, A\mapsto \alpha(A)$ is monotone and respects arbitrary joins. Therefore $f_\ast: Filters(L_1)\to Filters(L_2)$ respects arbitrary meets and joins. Note that even though $L_1, L_2$ are meet-semilattices, $f$ does not respect meets in general, because $\alpha(A\cap A')\subseteq \alpha(A)\cap\alpha(A')$ holds, but equality is equivalent to $\alpha$ being injective.
-* The left adjoint $f^\ast$ in this case is given by taking preimage filters: $f^\ast(G) = \langle f^{-1}(B) | B\in G\rangle$
+* If $L_1=(P(X),\subseteq), L_2=(P(Y),\subseteq)$ for some sets $X,Y$ and $\alpha:X\to Y$ is any map, then $f:L_1\to L_2, A\mapsto \alpha(A)$ is monotone and respects arbitrary joins. Therefore $f_\ast: Filters(L_1)\to Filters(L_2)$ respects arbitrary meets. Note that even though $L_1, L_2$ are meet-semilattices, $f$ does not respect meets in general, because $\alpha(A\cap A')\subseteq \alpha(A)\cap\alpha(A')$ holds, but equality is equivalent to $\alpha$ being injective.
+* The left adjoint $f^\ast$ in this case is given by taking preimage filters: $f^\ast(G) = \langle f^{-1}(B) | B\in G\rangle$. In this case $f^\ast$ not only preserves joins but all meets as well.
 
 ## Application to analysis and topology
 
