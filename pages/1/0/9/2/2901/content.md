@@ -32,6 +32,8 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 * [[Hadwiger's theorem]]
 
+* [[Non-Euclidean geometry]]
+
 
 ## Axiomatizations 
  {#Axiomatizations}
