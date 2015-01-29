@@ -54,6 +54,8 @@ Original articles include
 
 A review of the specific phenomenological properties is in 
 
-
 * [[Bobby Acharya]], [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
+More recent predictions are in
+
+* Sebastian A.R. Ellis, [[Gordon Kane]], Bob Zheng, _Superpartners at LHC and Future Colliders: Predictions from Constrained Compactified M-Theory_ ([arXiv:1408.1961](http://arxiv.org/abs/1408.1961))
