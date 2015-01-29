@@ -58,4 +58,4 @@ A review of the specific phenomenological properties is in
 
 More recent predictions are in
 
-* Sebastian A.R. Ellis, [[Gordon Kane]], Bob Zheng, _Superpartners at LHC and Future Colliders: Predictions from Constrained Compactified M-Theory_ ([arXiv:1408.1961](http://arxiv.org/abs/1408.1961))
+* {#EllisKaneZheng014} Sebastian A.R. Ellis, [[Gordon Kane]], Bob Zheng, _Superpartners at LHC and Future Colliders: Predictions from Constrained Compactified M-Theory_ ([arXiv:1408.1961](http://arxiv.org/abs/1408.1961))
