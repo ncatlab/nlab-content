@@ -369,6 +369,7 @@ The [[empty type]] $\emptyset$.
 
 > {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
+
 According to the formalization of such [[unity of opposites]] as
 [above](#OppositesAndUnity) we identify this [[becoming]] (following [Lawvere 91]({#LawvereComo})) as the universal factorization
 
@@ -2079,25 +2080,29 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 ## **Die Philosophie der Natur** / **Philosophy of Nature**
  {#PhilosophyOfNature}
 
-The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_.
+The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_. It starts continuing from [EL&#167;244](#EL244) in [PN&#167;192](#PN192).
+(Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).)
 
-It starts continuing from [EL&#167;244](#EL244):
+### Betrachtungsweisen der Natur
 
-> {#PN192} PN&#167;192. Die Natur has sich als die Idee in der Form des Andersseins ergeben. [...]  die &#196;u&#223;erlichkeit macht die Bestimmung aus, in welcher [die Idee] als Natur ist.
+### Begriff der Natur
+
+
+
+> {#PN192} PN&#167;192.  Die Natur hat sich als die Idee in der Form des Andersseins ergeben. Da die Idee so als das Negative ihrer selbst oder sich &#228;u&#223;erlich ist, so ist die Natur nicht &#228;u&#223;erlich nur relativ gegen diese Idee (und gegen die subjektive Existenz derselben, den Geist), sondern die &#196;u&#223;erlichkeit macht die Bestimmung aus, in welcher sie als Natur ist.
 
 > PN&#167;192 Nature has come into being as the idea in the form of otherness".
 
-Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).
+Hence Nature is the externalization of the Idea, and, by [PN&#167;193b](#PN193b) is _representation_ of the Idea. By the above, the Idea is the last stage in the system of modalities. Possible technical terminology for a [[model]] of the [[modal type theory]] is essentially verbatim "representation" and "externalization".
 
-&#196;u&#223;erlichkeit: external $\to$ model.
 
 > PN&#167;193a Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
 
 > PN&#167;193a Hence nature exhibits no freedom in its existence, but only necessity and contingency.
 
-> PN&#167;193b Weil sie jedoch, [ ... ] Darstellung der Idee ist, 
+> {#PN193b} PN&#167;193b Weil sie jedoch, $[$ ... $]$ Darstellung der Idee ist, 
 
-> PN&#167;193b [ $... ] nature is a representation of the idea, 
+> PN&#167;193b $[$ ... $]$ nature is a representation of the idea, 
 
 Darstellung/representation: [[model]] of the [[theory]]
 
@@ -2107,15 +2112,47 @@ Darstellung/representation: [[model]] of the [[theory]]
 
 > {#PN202a} PN&#167;202a Other mathematical determinations, such as infinity and its relationships, the infinitesimal, factors, powers, and so on, have their true concepts in philosophy itself. It is awkward to want to take and derive these from mathematics, where they are employed in a nonconceptual, often meaningless way; rather, they must await their justification and significance from philosophy. 
 
+### Einteilung
+
+> Die Idee als Natur ist:
+
+> I. in der Bestimmung des Au&#223;ereinander, der unendlichen Vereinzelung, au&#223;erhalb welcher die Einheit der Form, diese daher als eine ideelle, nur an sich seiende und daher nur gesuchte ist, die Materie und deren ideelles System, &#8211; Mechanik;
+
+> II. in der Bestimmung der Besonderheit, so da&#223; die Realit&#228;t mit immanenter Formbestimmtheit und an ihr existierender Differenz gesetzt ist, ein Reflexionsverh&#228;ltnis, dessen Insichsein die nat&#252;rliche Individualit&#228;t ist, &#8211; Physik;
+
+> III. in der Bestimmung der Subjektivit&#228;t, in welcher die realen Unterschiede der Form ebenso zur ideellen Einheit, die sich selbst gefunden und f&#252;r sich ist, zur&#252;ckgebracht sind, &#8211; Organik
+
 On the importance of the discussion of _Measure_ [above](#TheMeasure) in the passage to nature:
 
 > {#PN202b} PN&#167;202b The truly philosophical science of mathematics as theory of magnitude would be the science of measures, but this already presupposes the real particularity of things, which is only at hand in concrete nature.
 
 > {#PN250} PN&#167;250 Der Widerspruch der Idee, indem sie als Natur sich selbst &#228;u&#223;erlich ist
 
+### Erste Abteilung. Die Mechanik
+
+#### A. Raum und Zeit
+
+#### B. Materie und Bewegung. Endliche Mechanik
+
+#### C. Absolute Mechanik
+
+
+### Zweite Abteilung. Die Physik
+
+### Dritte Abteilung. Organische Physik
+
+#### A. Die geologische Natur
+
+#### B. Die vegetabilische Natur
+
+#### C. Der tierische Organismus
+
+
 The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
+
+
 
 ## **Die Philosophie des Geistes** / **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
