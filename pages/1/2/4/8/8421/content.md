@@ -164,7 +164,7 @@ The next step to the modern conception was an observation by the Polish logician
 
 * S. Jaskowski, _On the rules of suppositions in formal logic_ , Studia Logica **1** Warsaw 1934. ([pdf](http://www.logik.ch/daten/jaskowski.pdf))
 
-At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century [[mathematical logic]] introducing the concept of [[cut-elimination]] and proof systems for '[[h-propositions]]' in [[propositional logic]] and untyped [[predicate logic]], both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] that was published as
+At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century [[mathematical logic]] introducing proof systems for [[predicate logic]] (in both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] versions) and the concept of [[cut-elimination]] - that was published as
 
 * {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ **39**(1), Springer-Verlag 1934-35. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
 
