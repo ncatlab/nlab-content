@@ -213,7 +213,6 @@ $$
   \array{
     Geist &&  && && 
     \\
-    {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
     \\
     && &&  &&  && \rho(id) & \dashv & \rho(id)
     \\ 
@@ -221,7 +220,7 @@ $$
     \\ 
     && &&  &&  && \rho(\Re) & & \rho(\&)
     \\ 
-    && &&  &&  && \bot & Raum & \bot
+    && &&  &&  && \bot & Raumzeit & \bot
     \\ 
     && &&  &&  && \rho(\&) &\dashv & \rho(\Im)
     \\ 
@@ -239,10 +238,10 @@ $$
     && &&&&\stackrel{}{}&& \rho(\emptyset) &\dashv& \rho(\ast) & 
     \\
     \\
-    && && && && Entausserung
+    && && && && & Entausserung
     \\
     \\
-    && && &&  && id &\dashv& id
+    && && &&  && 'id' &\dashv& 'id'
     \\
     && && &&  && \vdots && \vdots
     \\
@@ -254,16 +253,16 @@ $$
     \\
     && && && && \bot && \bot
     \\
-    && && &&  && \flat &\dashv& \sharp & \stackrel{abs.\,Grund}{}
+    && && &&  && '\flat' &\dashv& '\sharp' & \stackrel{abs.\,Grund}{}
     \\
     && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
     \\
-    && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{abs.\,Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
+    && &&&&\stackrel{}{}&\stackrel{falsch}{}& '\emptyset' &\stackrel{abs.\,Widerspruch}{\dashv}& '\ast' & \stackrel{wahr}{}
     \\
     \\
     && && \stackrel{Wesen}{} 
     \\
-    && && && && Erscheinung
+    && && && && & Erscheinung
     \\
     &&\stackrel{best.\; Reflexionen}{}&& &&  &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
     \\
