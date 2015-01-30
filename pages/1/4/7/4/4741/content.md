@@ -60,7 +60,7 @@ But the role of the associator, which now is a 3-morphism witnessing the non-ass
 ###### Example
 **(monoidal categories)**
 
-The [[coherence theorem for monoidal categories]] asserts that the with the standar definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
+The [[coherence theorem for monoidal categories]] asserts that the with the standard definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
 
 =--
 
