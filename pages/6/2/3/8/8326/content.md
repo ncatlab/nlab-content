@@ -213,6 +213,7 @@ $$
   \array{
     Geist &&  && && 
     \\
+    {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
     \\
     && &&  &&  && \rho(id) & \dashv & \rho(id)
     \\ 
@@ -238,9 +239,10 @@ $$
     && &&&&\stackrel{}{}&& \rho(\emptyset) &\dashv& \rho(\ast) & 
     \\
     \\
-    {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
+    && && && && Entausserung
     \\
     \\
+    && && &&  && id &\dashv& id
     \\
     && && &&  && \vdots && \vdots
     \\
@@ -259,7 +261,9 @@ $$
     && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{abs.\,Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
     \\
     \\
-    && && \stackrel{Wesen}{} && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
+    && && \stackrel{Wesen}{} 
+    \\
+    && && && && Erscheinung
     \\
     &&\stackrel{best.\; Reflexionen}{}&& &&  &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
     \\
@@ -291,6 +295,8 @@ $$
     \\
     && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
+    \\
+    && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
   }
 $$
 
@@ -2148,6 +2154,8 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 > {#PN254a} PN&#167;254a Die erste oder unmittelbare Bestimmung der Natur ist die abstrakte Allgemeinheit ihres Au&#223;ersichseins, &#8211; dessen vermittlungslose Gleichg&#252;ltigkeit, der Raum. Er ist das ganz ideelle Nebeneinander, weil er das Au&#223;ersichsein ist, und schlechthin kontinuierlich, weil dies Au&#223;ereinander noch ganz. abstrakt ist und keinen bestimmten Unterschied in sich hat.
 
+"ideelles Nebeneinander" [[étale stack]] via [[infinitesimal shape modality]] $\&$
+
 > {#PN254b} PN&#167;254b Von Raumpunkten zu sprechen, als ob sie das positive Element des Raums ausmachten, ist unstatthaft,
 
 > PN&#167;254b To speak of points of space, as if they constituted the positive element of space, is inadmissible
@@ -2192,7 +2200,7 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 #### Endliche Mechanik -- Materie und Bewegung. 
 
 
-#### Absolute Mechanik -- Astronomie
+#### Absolute Mechanik -- Gravitation
 
 ##### Die allgemeine Gravitation
 
