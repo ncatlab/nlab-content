@@ -18,7 +18,7 @@
 
 > To speak of points of space, as if they constituted the positive element of space, is inadmissible ([PdN&#167;254b](Science+of+Logic#PN254b))
 
-> That the line does not consist of points, nor the plane of lines, follows from their concepts ([PdN&#167;256](Science+of+Logic#PN256))
+> That the line does not consist of points, nor the plane of lines, follows from their concepts ([PdN&#167;256b](Science+of+Logic#PN256b))
 
 
 _Synthetic geometry_ is about formalization of [[geometry]] by [[axioms]] that directly speak about the fundamental concepts of geometry -- such as points and lines -- instead of about a backdrop for such objects -- such as [[Cartesian spaces]].
