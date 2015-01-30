@@ -58,7 +58,9 @@ Hegel's system is the revelation of a dynamical process of intrinsic oppositions
 
 Accordingly Hegel's system has often been and is being rejected as being obfuscating. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formal [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic.
 
-However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] constructions such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's system, notably his concepts of [[unity of opposites]] and of [[Aufhebung]], have an accurate and interesting formalization in [[categorical logic]].
+> [&#167;1798](#1798)  On this point, formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
+
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's system, notably his concepts of [[unity of opposites]] and of [[Aufhebung]], have an accurate and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches nicely under this translation from [[philosophy]] to [[mathematics]].
 
 +-- {: bluebox #nPOVRemark}
 ###### nPOV
@@ -204,7 +206,9 @@ The following table lists proposals for possible such identifications. The conte
 | Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
-| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192) [#PN193b](PN&#167;193b) |
+| **Idee**       | collection of [[types]] and [[terms]] contructible from these operations, in particular the true and provable [[propositions]] | [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634) |
+| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [EL&#167;244](#EL244), [PN&#167;192](#PN192), [PN&#167;193b](#PN193b) |
+| Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
 
 =--
 
@@ -216,11 +220,24 @@ Notice that the [above dictionary](#Dictionary) involves the first two stages in
 | -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
 | $\vdots$ | $\vdots$ |
 
-$\,$
+### Overview of the formalized process
 
-$\,$
+The following diagram means to show the development of the system as formalized
+[above](#FormalizationDictionary). Unities of opposites at a given stage are shown as [[adjoint modalities]] organized horizontally. There are different ways in which passage happens vertically:
 
-The following shows that system of _[[unity of opposites]]_ and _[[Aufhebung]]_ which the formalization of the Seinslogik forms. This is the adjoint pair of adjoint triples of [[cohesion]] and [[differential cohesion]] arranged such as to match, it seems, Hegel's text. Below this is discussed with pointers to the relevant passages.
+1. further determinations of being (these are the transitions within each book of the system)
+
+   1. second order unity of opposites, coming from an [[adjoint triple]], arranges to a square of adjoints, with [[adjunctions]] going vertically. This is progression by opposition. The name of the given second order unity is indicated in the middle of these squares.
+
+   1. [[Aufhebung]], by which a new [[adjoint modality]] appears whose [[modal types]] include the modal types of the previous stage, indicated by a vertical inclusion sign $\vee$.
+
+1. reiteration of the system of adjoint modalities (these are the transitions between the books of the system) 
+
+   1. First there is the plain system of modalities, starting from the smallest subcategories $\emptyset \dashv \ast$ and ending at the maximal subcategories, the whole category itself $id \dashv id$. 
+
+   1. Then, passing to the _Essence_, this system _appears_ _reflected_, namely as type names in the [[type universe]]. Now all the previous modalities repeat in quotation marks (following standard notation as discussed for instance at [[propositional extensionality]]).
+
+   1. Next, passing to _Nature_, the system _externalizes_ or _represents_ itself via a [[model]] $\rho$ (as discussed at _[[relation between type theory and category theory]]_). Now each modality $(-)$ re-appears as its representation $\rho(-)$ in that model.
 
 
 +-- {: bluebox #Process}
@@ -237,9 +254,9 @@ $$
     \\ 
     && &&  &&  && \vee & & \vee
     \\ 
-    && &&  &&  && \rho(\Re) & & \rho(\&)
+    && &&  &&  && \rho(\Re) & \dashv & \rho(\&)
     \\ 
-    && &&  &&  && \bot & Raumzeit & \bot
+    && &&  &&  && \bot & \stackrel{Raumzeit}{} & \bot
     \\ 
     && &&  &&  && \rho(\&) &\dashv & \rho(\Im)
     \\ 
@@ -2072,9 +2089,25 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 ### Die Idee / The Idea
  {#TheIdea}
 
-> Die Idee ist der ad&#228;quate Begriff, das objektive Wahre oder das Wahre als solches. Wenn irgend etwas Wahrheit hat, hat es sie durch seine Idee, oder etwas hat nur Wahrheit, insofern es Idee ist.
+> {#1631} &#167;1631 Die Idee ist der ad&#228;quate Begriff, das objektive Wahre oder das Wahre als solches. Wenn irgend etwas Wahrheit hat, hat es sie durch seine Idee, oder etwas hat nur Wahrheit, insofern es Idee ist.
 
-With _Begriff_ being [[type]] and _[[true]]_ being (under [[propositions as types]]) [[inhabited type]], the _Idea_ is the system of [[terms]] that may be constructed.
+> &#167;1631 The Idea is the adequate Notion, that which is objectively true, or the true as such. When anything whatever possesses truth, it possesses it through its Idea, or, something possesses truth only in so far as it is Idea.
+
+> &#167;1633 Indem nun der Ausdruck Idee f&#252;r den objektiven oder realen Begriff zur&#252;ckbehalten und von dem Begriff selbst
+
+> &#167;1633 Reserving then the expression 'Id>ea' for the objective or real Notion and distinguishing it from the Notion itself
+
+> &#167;1634 Indem sich aber das Resultat ergeben hat, da&#223; die Idee die Einheit des Begriffs und der Objektivit&#228;t, das Wahre ist, so ist sie nicht nur als ein Ziel zu betrachten, dem sich anzun&#228;hern sei, das aber selbst immer eine Art von Jenseits bleibe, sondern da&#223; alles Wirkliche nur insofern ist, als es die Idee in sich hat und sie ausdr&#252;ckt. Der Gegenstand, die objektive und subjektive Welt &#252;berhaupt sollen mit der Idee nicht blo&#223; kongruieren, sondern sie sind selbst die Kongruenz des Begriffs und der Realit&#228;t; diejenige Realit&#228;t, welche dem Begriffe nicht entspricht, ist blo&#223;e Erscheinung, das Subjektive, Zuf&#228;llige, Willk&#252;rliche, das nicht die Wahrheit ist. 
+
+> &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity, is the true, it must not be regarded merely as a goal to which we have to approximate but which itself always remains a kind of beyond; on the contrary, we must recognise that everything actual is only in so far as it possesses the Idea and expresses it. It is not merely that the object, the objective and subjective world in general, ought to be congruous with the Idea, but they are themselves the congruence of Notion and reality; the reality that does not correspond to the Notion is mere Appearance, the subjective, contingent, capricious element that is not the truth.
+
+With _Notion/Begriff_ being _[[type]]_ and _[[true]]_ being (under [[propositions as types]]) [[inhabited types]] or rather particular [[terms]] inhabiting a type, the _Idea_ is the system of [[terms]] that may be constructed (from the basic type [[term introduction rules]] and those coming with the above [[modal operators]]). In particular under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the actual facts that may be [[proof|proven]] from the given [[modal type theory]].
+
+> &#167;1635 When it is said that no object is to be found in experience that is perfectly congruous with the Idea, one is opposing the Idea as a subjective standard to the actual; but what anything actual is supposed in truth to be, if its Notion is not in it and if its objectivity docs not correspond to its Notion at all, it is impossible to say; for it would be nothing. It is true that the mechanical and chemical object, like the nonspiritual subject and the spirit that is conscious only of the finite, not of its essence, do not, according to their various natures, have their Notion existent in them in its own free form.
+
+> But they can only be true at all in so far as they are the union of their Notion and reality, of their soul and their body. Wholes like the state and the church cease to exist when the unity of their Notion and their reality is dissolved; man, the living being, is dead when soul and body are parted in him; dead nature, the mechanical and chemical world &#8212; taking, that is, the dead world to mean the inorganic world, otherwise it would have no positive meaning at all &#8212; dead nature, then, if it is separated into its Notion and its reality, is nothing but the subjective abstraction of a thought form and a formless matter. Spirit that was not Idea, was not the unity of the Notion with its own self, or the Notion that did not have the Notion itself for its reality would be dead, spiritless spirit, a material object.
+
+> &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth; therefore what now is is only what is Idea.
 
 > Der Gegenstand, die objektive und subjektive Welt &#252;berhaupt sollen mit der Idee nicht blo&#223; kongruieren, sondern sie sind selbst die Kongruenz des Begriffs und der Realit&#228;t;
 
@@ -2105,6 +2138,8 @@ But of course the Notion is _ideell_, by [&#167;304](#304) "wie auch weiterhin d
 
 (Notice that it is _Realit&#228;t_ [&#167;304](#304), [&#167;305](#305) which appears here, not _Wirklichkeit_ (_actuality_) as in [&#167;1160](#1160).)
 
+> &#167;1640  As this relation, the Idea is the process of sundering itself into individuality and its inorganic nature, and again of bringing this inorganic nature under the power of the subject and returning to the first simple universality. The identity of the Idea with itself is one with the process; the thought which liberates actuality from the illusory show of purposeless mutability and transfigures it into the Idea must not represent this truth of actuality as a dead repose, as a mere picture, lifeless, without impulse or movement, as a genius or number, or an abstract thought; by virtue of the freedom which the Notion attains in the Idea, the Idea possesses within itself also the most stubborn opposition; its repose consists in the security and certainty with which it eternally creates and eternally overcomes that opposition, in it meeting with itself
+
 Now that the Idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)). The _[shorter Logic](#EPSBOI)_ ends with [EL&#167;244](#EL244).
 
 
@@ -2113,6 +2148,8 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 > {#EL2126} EL&#167;216  Die unmittelbare Idee ist das Leben. Der Begriff ist als Seele in einem Leibe realisiert.
 
+> &#167;1645 The Idea of Life is concerned with a subject matter so concrete, and if you will, so real, that with it we may seem to have overstepped the domain of logic as it is commonly conceived.
+
 
 #### b. Erkennen
 
@@ -2120,7 +2157,11 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 > {#EL244} EL&#167;244 Die Idee, welche f&#252;r sich ist, nach dieser ihrer Einheit mit sich betrachtet, ist sie Anschauen, und die anschauende Idee Natur. Als Anschauen aber ist die Idee in einseitiger Bestimmung der Unmittelbarkeit oder Negation durch &#228;u&#223;erliche Reflexion gesetzt. Die absolute Freiheit der Idee aber ist, da&#223; sie nicht blo&#223; ins Leben &#252;bergeht, noch als endliches Erkennen dasselbe in sich scheinen l&#228;&#223;t, sondern in der absoluten Wahrheit ihrer selbst sich entschlie&#223;t, das Moment ihrer Besonderheit oder des ersten Bestimmens und Andersseins, die unmittelbare Idee als ihren Widerschein, sich als Natur frei aus sich zu entlassen.
 
+> &#167;1782 It is the sole subject matter and content of philosophy. Since it contains all determinations within it, and its essential nature is to return to itself through its self-determination or particularisation, it has various shapes, and the business of philosophy is to cognise it in these. Nature and spirit are in general different modes of presenting its existence, art and religion its different modes of apprehending itself and giving itself an adequate existence. Philosophy has the same content and the same end as art and religion; but it is the highest mode of apprehending the absolute idea, because its mode is the highest mode, the Notion.
+
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
+
+> {#1798} &#167;1798  On this point, formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion. Formal thinking does in fact think contradiction, only it at once looks away from it, and in saying that it is unthinkable it merely passes over from it into abstract negation.
 
 ## **Die Philosophie der Natur** / **Philosophy of Nature**
  {#PhilosophyOfNature}
