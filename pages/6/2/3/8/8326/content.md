@@ -186,7 +186,7 @@ The following table lists proposals for possible such identifications. The conte
 | ideality (inf. quality) | [[unity of opposites]] ($ \& \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
 | Aufhebung of finiteness | $\left(\array{\& &\dashv& \Im \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
 | reality | [[adjoint modality]] ($\Re \dashv  \&$) | [&#167;304](#304) , [&#167;305](#305) |
-| idea, unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \& \\ \bot&\stackrel{idea}{}& \bot && \\  \& &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](#324), [EL&#167;214](#EL214), [&#167;1636](#1636) |
+| unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \& \\ \bot&\stackrel{}{}& \bot && \\  \& &\dashv&  \Im} \right)$ | [&#167;304](#304), [&#167;324](#324), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
@@ -237,7 +237,7 @@ $$
     \\ 
     && &&  &&  && \vee & & \vee
     \\ 
-    && &&  &&  && \rho(\Re) & \dashv & \rho(\&)
+    && &&  &&  && \rho(\Re) & & \rho(\&)
     \\ 
     && &&  &&  && \bot & Raumzeit & \bot
     \\ 
@@ -293,7 +293,7 @@ $$
     \\
     && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& \&
     \\
-    && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
+    && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{}{}& \bot 
     \\
     && && &&\stackrel{Fuersichsein}{} && \& 
     &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im &&\stackrel{Fuer-eines-sein}{}
@@ -2053,28 +2053,36 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 > {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
 
-### Section 1. Der subjektive Begriff / Subjectivity.
+### Der subjektive Begriff / Subjectivity.
 
-#### a. Begriff als solcher
+#### Begriff 
 
-#### b. Urtheil
+#### Urtheil
 
-#### c. Schluss
+#### Schluss
 
-### Section 2. Das Objekt / Objectivity
+### Der objektive Begriff / Objectivity
 
-#### a. Mechanismus
+#### Mechanismus
 
-#### b. Chemismus
+#### Chemismus
 
-#### c. Teleologie
+#### Teleologie
 
-### Section 3. Die Idee / The Idea
+### Die Idee / The Idea
  {#TheIdea}
 
-> {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
+> Die Idee ist der ad&#228;quate Begriff, das objektive Wahre oder das Wahre als solches. Wenn irgend etwas Wahrheit hat, hat es sie durch seine Idee, oder etwas hat nur Wahrheit, insofern es Idee ist.
 
-In [[categorical logic]]/[[type theory]], _[[true]]_ is given by the [[unit type]] $\ast$ as discussed around [&#167;934](#934), which is exactly what was identified as formalizing _being_ above at [&#167;132](#132).
+With _Begriff_ being [[type]] and _[[true]]_ being (under [[propositions as types]]) [[inhabited type]], the _Idea_ is the system of [[terms]] that may be constructed.
+
+> Der Gegenstand, die objektive und subjektive Welt &#252;berhaupt sollen mit der Idee nicht blo&#223; kongruieren, sondern sie sind selbst die Kongruenz des Begriffs und der Realit&#228;t;
+
+> Sein hat die Bedeutung der Wahrheit erreicht, indem die Idee die Einheit des Begriffs und der Realit&#228;t ist; es ist also nunmehr nur das, was Idee ist.
+
+> Die Idee hat aber nicht nur den allgemeineren Sinn des wahrhaften Seins, der Einheit von Begriff und Realit&#228;t, sondern den bestimmteren von subjektivem Begriffe und der Objektivit&#228;t.
+
+> {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
 
 
 > {#1634} &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity,
