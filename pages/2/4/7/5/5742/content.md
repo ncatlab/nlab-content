@@ -110,7 +110,7 @@ Cohomologies p-adiques et applications arithm&#233;tiques, II.
 
 Brief surveys include
 
-* {#Pottharst} Pottharst, _Logarithmic structures on schemes_ ([pdf](http://math.bu.edu/people/potthars/writings/log.str.pdf))
+* {#Pottharst} Pottharst, _Logarithmic structures on schemes_ ([pdf](http://vbrt.org/writings/log.str.pdf))
 
 * [[Arthur Ogus]], _Logarithmic geometry_, talk slides 2009 ([pdf](http://math.berkeley.edu/~ogus/preprints/colloqhandout.pdf))
 
