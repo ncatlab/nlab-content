@@ -97,7 +97,9 @@ Alternatively, we may define proof nets by reference to MLL sequent calculus, as
 
 To each deduction or derivation tree in MLL sequent calculus, one may give an associated proof net. This is by induction; one considers the last step of a deduction $\delta$ whose premises have given derivations $\delta_i: \Gamma_i \to \Delta_i$, which have been given assigned proof nets $N(\delta_i)$, and uses this to assign a net to the full deduction $\delta$. 
 
-We recall the rules for MLL over a list of variable types $\mathbf{T}$, and associated rules for forming nets. The rules for forming nets will sound pretty repetitive! But don't worry; that just means they're really easy. In summary, all we do for each rule besides the axioms is take the disjoint union of the KM-graphs occurring for the (derivations of the) premises, to get the KM-graph of the conclusion. 
+We recall the rules for MLL over a list of variable types $\mathbf{T}$, and associated rules for forming nets. As remarked above, for a deduction $\delta$ of a given sequent $\Gamma \to \Delta$, the net $N(\delta)$ is determined up to its KM-links, and so we will give just the rules for computing the KM-graph.
+
+The rules for forming KM-graphs will sound pretty repetitive! But don't worry; that just means they're really easy. In summary, all we do for each rule besides the axioms is take the disjoint union of the KM-graphs occurring for the (derivations of the) premises, to get the KM-graph of the conclusion. 
 
 +-- {: .num_remark} 
 ###### Remark 
