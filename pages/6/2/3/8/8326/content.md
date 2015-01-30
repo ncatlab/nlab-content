@@ -2141,19 +2141,35 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 > PN&#167;254b To speak of points of space, as if they constituted the positive element of space, is inadmissible
 
-> {#PN256} PN&#167;256 Da&#223; die Linie nicht aus Punkten, die Fl&#228;che nicht aus Linien besteht, geht aus ihrem Begriffe hervor, da die Linie vielmehr der Punkt als au&#223;er sich seiend, n&#228;mlich sich auf den Raum beziehend und sich aufhebend, die Fl&#228;che ebenso die aufgehobene, au&#223;er sich seiende Linie ist. &#8211;
+[[synthetic geometry]], see also [PN&#167;256b](#PN256b)
 
-> PN&#167;256 That the line does not consist of points, nor the plane of lines, follows from their concepts
+> {#PN256a} PN&#167;256a Aber der Unterschied ist wesentlich bestimmter, qualitativer Unterschied. Als solcher ist er $\alpha$) zun&#228;chst Negation des Raumes selbst, weil dieser das unmittelbar unterschiedlose Au&#223;ersichsein ist, -- der Punkt. $\beta$) Die Negation ist aber Negation des Raumes, d. i. sie ist selbst r&#228;umlich; der Punkt als wesentlich diese Beziehung, d.i. als sich aufhebend, ist die Line, das erste anders-, d.i. R&#228;umlich-sein des Punktes. $\gamma$) Die Wahrheit des Andersseins ist aber die Negation der Negation. Die Linie geht daher in die Fl&#228;che &#252;ber, welche einerseits eine Bestimmtheit gegen Linie und Punkt, und so Fl&#228;che &#252;berhaupt, andererseits aber die aufgehobene Negation des Raumes ist, somit Wiederherstellung der  r&#228;umlichen Totalit&#228;t, welche nunmehr das negative Moment an ihr hat; -- umschlie&#223;ende Overfl&#228;che, die einen einzelnen ganzen Raum absondert.
 
-this is [[synthetic geometry]]
+modern terminology here would be: [[spacetime]] [[event]]
+
+[[schreiber:The brane bouquet|the brane bouquet]]: form the (super-)point $\mathbb{R}^{0|N}$ emanate the $\mathbb{R}^{d|N}$ by central extension via the $(-\Gamma-)$.
+
+> {#PN256b} PN&#167;256b Da&#223; die Linie nicht aus Punkten, die Fl&#228;che nicht aus Linien besteht, geht aus ihrem Begriffe hervor, da die Linie vielmehr der Punkt als au&#223;er sich seiend, n&#228;mlich sich auf den Raum beziehend und sich aufhebend, die Fl&#228;che ebenso die aufgehobene, au&#223;er sich seiende Linie ist. &#8211;
+
+> PN&#167;256b That the line does not consist of points, nor the plane of lines, follows from their concepts
+
+[[synthetic geometry]], see also [PN&#167;254b](#PN254b)
 
 ##### b. Die Zeit
 
 ##### c. Der Ort und die Bewegung
 
+> {#PN260} PN&#167;260 Der Raum ist in sich selbst der Widerspruch des gleichg&#252;ltigen Auseinanderseins und der unterschiedlosen Kontinuit&#228;t, die reine Negativit&#228;t seiner selbst und das &#220;bergehen zun&#228;chst in die Zeit. Ebenso ist die Zeit, da deren in Eins zusammengehaltene entgegengesetzte Momente sich unmittelbar aufheben, das unmittelbare Zusammenfallen in die Indifferenz, in das ununterschiedene Au&#223;ereinander oder den Raum. So ist an diesem die negative Bestimmung, der ausschlie&#223;ende Punkt, nicht mehr nur an sich dem Begriffe nach, sondern gesetzt und in sich concret durch die totale Negativit&#228;t welche die Zeit ist; -- der so konkrete Punkt ist der Ort. 
+
+> {#PN261} PN&#167;261 Dies Vergehen und Sich-wiedererzeugen des Raumes in der Zeit und der Zeit im Raum, $[$...$]$ ist die Bewegung. Dies Werden ist aber selbst eben so sehr das in sich Zusammenfallen seines Widerspruchs, die unmittelbar identische daseiende Einheit beider, die Materie.
+
 > This disappearance and regeneration of space in time and of time in space is motion;-- a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter.
 
+> $[$ dies $]$ ist f&#252;r den Verstand unbegreiflich.
 
+So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word is clearly [[spacetime]]. Moreover, this unity of space and time in spacetime is [[matter]]. This is indeed the perspective of the modern concept of [[KK-compactification]] in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
+
+In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
 
 #### B. Materie und Bewegung. 
 
