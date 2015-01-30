@@ -303,6 +303,8 @@ In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] a
 motivated as a formalization of ideas expressed in
 
 * {#Hegel1812} [[Georg Hegel]], _[[Science of Logic]]_, 1812
+
+See there particularly the very last section _[The absolute idea (The dialectical method)](Science+of+Logic#DialektischeMethode)_.
  
 But according to 
 
