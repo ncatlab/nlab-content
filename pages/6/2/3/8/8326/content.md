@@ -15,8 +15,7 @@
 =--
 =--
 
-This page collects resources related to
-
+This page is about
 
 * [[Georg Hegel]]
 
@@ -31,21 +30,40 @@ This page collects resources related to
   ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/works/hl/),
  [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German html raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [full text pdf-s](http://hegel.net/hegelwerke/), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
-The English translation is by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
+  English translation by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _[The Philosophy of Nature](#PhilosophyOfNature)_ and _[The Philosophy of Spirit](#PhilosophyOfSpirit)_. This first part is often referred to as the _Shorter Logic_. Similarly the _[The Philosophy of Spirit](#PhilosophyOfSpirit)_ subsumes, in condensed outline, the main parts of the _Phenomenology of the Spirit_.
+and about the further body of text that this is a part of, which consists of the earlier
 
-* {#EPSBOI} _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
+* [[Georg Hegel]], _Ph&#228;nomenologie des Geistes_, 1807
 
-Here the _objective logic_ is not quite _[[logic]]_ in the usual sense, but rather something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). Something closer to the usual notion of logic is what Hegel calls the "subjective logic", though of course he also talks about both being the same.
+and the later
 
+* [[Georg Hegel]], _Enzyklop&#228;die der Philosophischen Wissenschaften im Grundrisse_
 
-> With Hegel you're getting what seems to us today a curious package. The whole dynamic (or '[[dialectic]]') of the unfolding of the [[logos|Logik]] is prior to any actual thinking, realised in concrete humans. In fact, the world, and that part of it which is human thought, is the Idea (or Spirit) realising itself. I say 'curious', but in a way I'm hearing echoes of this in things Urs is suggesting, as though the universe worked itself out according to [[type theory]]. For Hegel one isn't to be a Kantian, where what one theorises about the universe is just how the universe is taken up by the human understanding, with the further idea that this will be limited in certain ways, e.g., no access to the thing-in-itself. For Hegel, the human mind itself is part of the universe and as such part of the unfolding of the Idea/Spirit. $[\cdots]$ It's a dizzying picture which tends either to delight or revolt people. $[$ See at _[[absolute idealism]]_ $]$ ([Corfield](http://nforum.mathforge.org/discussion/4117/the-wiki-history-of-the-universe/?Focus=34343#Comment_34343))
+  1. _Die Wissenschaft der Logik_
+
+  1. _Die Philosophie der Natur_ / _[The Philosophy of Nature](#PhilosophyOfNature)_
+
+  1. _Die Philosophie des Geistes_ / _[The Philosophy of Spirit](#PhilosophyOfSpirit)_
+
+  1817, 1827, 1830, 1845
+
+  (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
+
+Together these lay out what has come to be called _Hegel's system_.  Notice that these texts overlap. The first part of _The Encyclopedia of the Philosophical Sciences_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
+
+Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _subjective logic_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
+
+Hegel's system is the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, carried now as souls by living organisms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself. Where Hegel speaks of his system as _science_ "Wissenschaft" this is to claim that this process is indeed being systematically derived, or even being observed. Therefore Hegel is speaking mostly in a mystic or gnostic tone, revealing truths by the way of a seer. 
+
+Accordingly Hegel's system has often been and is being rejected as being obfuscating. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formal [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic.
+
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] constructions such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's system, notably his concepts of [[unity of opposites]] and of [[Aufhebung]], have an accurate and interesting formalization in [[categorical logic]].
 
 +-- {: bluebox #nPOVRemark}
 ###### nPOV
 
-While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the "objective logic" to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
+While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
 
 =--
 
@@ -59,14 +77,15 @@ While going through Hegel's text, this page here attempts to spell out as much a
 
 
 ## Formalization of the process
+ {#FormalizationOfTheProcess}
 
 Hegel famously invokes a process or movement of opposing moments that via their synthesis lead to new phenomena, which then may again participte as opposing moments in a further synthesis. Accordingly the whole text is structured by triads of chapters each with triads of sections, etc. see [Inwood 83, p. 263](#Inwood1983) for a diagram.
 
 Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
 
-"[[Heraclitus]] is the one who first declared the nature of the infinite and first grasped nature as in itself infinite, that is, its essence as process. The origin of [[philosophy]] is to be dated from Heraclitus. His is the persistent Idea that is the same in all philosophers up to the present day, as it was the Idea of Plato and Aristotle."
+> {#HegelOnHeraclitus} [[Heraclitus]] is the one who first declared the nature of the infinite and first grasped nature as in itself infinite, that is, its essence as process. The origin of [[philosophy]] is to be dated from Heraclitus. His is the persistent Idea that is the same in all philosophers up to the present day, as it was the Idea of Plato and Aristotle."
 
-"... there is no proposition of Heraclitus which I have not adopted in my logic."
+> ... there is no proposition of Heraclitus which I have not adopted in my logic.
 
 
 ### Formalization of Unity of Opposites
@@ -218,7 +237,7 @@ $$
     \\ 
     && &&  &&  && \vee & & \vee
     \\ 
-    && &&  &&  && \rho(\Re) & & \rho(\&)
+    && &&  &&  && \rho(\Re) & \dashv & \rho(\&)
     \\ 
     && &&  &&  && \bot & Raumzeit & \bot
     \\ 
@@ -238,8 +257,9 @@ $$
     && &&&&\stackrel{}{}&& \rho(\emptyset) &\dashv& \rho(\ast) & 
     \\
     \\
-    && && && && & Entausserung
+    && && && && & Entaeusserung
     \\
+    Idee
     \\
     && && &&  && 'id' &\dashv& 'id'
     \\
@@ -1312,6 +1332,7 @@ The [[continuum]].
 
 
 
+
 ### Third section. The measure.
  {#TheMeasure}
 
@@ -2272,6 +2293,7 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 ##### a. Theoretischer Geist
 
 ##### b. Praktischer Geist
+
 
 ###### $\alpha$. Praktisches Gef&#252;hl
 
