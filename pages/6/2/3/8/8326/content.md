@@ -2151,8 +2151,14 @@ this is [[synthetic geometry]]
 
 ##### c. Der Ort und die Bewegung
 
+> This disappearance and regeneration of space in time and of time in space is motion;-- a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter.
 
-#### B. Materie und Bewegung. Endliche Mechanik
+
+
+#### B. Materie und Bewegung. 
+
+
+##### Endliche Mechanik
 
 #### C. Absolute Mechanik
 
