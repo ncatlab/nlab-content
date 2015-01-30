@@ -2128,11 +2128,11 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 > {#PN250} PN&#167;250 Der Widerspruch der Idee, indem sie als Natur sich selbst &#228;u&#223;erlich ist
 
-### Erste Abteilung. Die Mechanik
+### Die Mechanik
 
-#### A. Raum und Zeit
+#### Mathematische Mechanik -- Raum und Zeit
 
-##### a. Der Raum
+##### Der Raum
  {#DerRaum}
 
 > {#PN254a} PN&#167;254a Die erste oder unmittelbare Bestimmung der Natur ist die abstrakte Allgemeinheit ihres Au&#223;ersichseins, &#8211; dessen vermittlungslose Gleichg&#252;ltigkeit, der Raum. Er ist das ganz ideelle Nebeneinander, weil er das Au&#223;ersichsein ist, und schlechthin kontinuierlich, weil dies Au&#223;ereinander noch ganz. abstrakt ist und keinen bestimmten Unterschied in sich hat.
@@ -2143,9 +2143,8 @@ On the importance of the discussion of _Measure_ [above](#TheMeasure) in the pas
 
 [[synthetic geometry]], see also [PN&#167;256b](#PN256b)
 
-> {#PN256a} PN&#167;256a Aber der Unterschied ist wesentlich bestimmter, qualitativer Unterschied. Als solcher ist er $\alpha$) zun&#228;chst Negation des Raumes selbst, weil dieser das unmittelbar unterschiedlose Au&#223;ersichsein ist, -- der Punkt. $\beta$) Die Negation ist aber Negation des Raumes, d. i. sie ist selbst r&#228;umlich; der Punkt als wesentlich diese Beziehung, d.i. als sich aufhebend, ist die Line, das erste anders-, d.i. R&#228;umlich-sein des Punktes. $\gamma$) Die Wahrheit des Andersseins ist aber die Negation der Negation. Die Linie geht daher in die Fl&#228;che &#252;ber, welche einerseits eine Bestimmtheit gegen Linie und Punkt, und so Fl&#228;che &#252;berhaupt, andererseits aber die aufgehobene Negation des Raumes ist, somit Wiederherstellung der  r&#228;umlichen Totalit&#228;t, welche nunmehr das negative Moment an ihr hat; -- umschlie&#223;ende Overfl&#228;che, die einen einzelnen ganzen Raum absondert.
+> {#PN256a} PN&#167;256a Aber der Unterschied ist wesentlich bestimmter, qualitativer Unterschied. Als solcher ist er $\alpha$) zun&#228;chst Negation des Raumes selbst, weil dieser das unmittelbar unterschiedlose Au&#223;ersichsein ist, -- der Punkt. $\beta$) Die Negation ist aber Negation des Raumes, d. i. sie ist selbst r&#228;umlich; der Punkt als wesentlich diese Beziehung, d.i. als sich aufhebend, ist die Line, das erste anders-, d.i. R&#228;umlich-sein des Punktes. $\gamma$) Die Wahrheit des Andersseins ist aber die Negation der Negation. Die Linie geht daher in die Fl&#228;che &#252;ber, welche einerseits eine Bestimmtheit gegen Linie und Punkt, und so Fl&#228;che &#252;berhaupt, andererseits aber die aufgehobene Negation des Raumes ist, somit Wiederherstellung der  r&#228;umlichen Totalit&#228;t, welche nunmehr das negative Moment an ihr hat; -- umschlie&#223;ende Oberfl&#228;che, die einen einzelnen ganzen Raum absondert.
 
-modern terminology here would be: [[spacetime]] [[event]]
 
 [[schreiber:The brane bouquet|the brane bouquet]]: form the (super-)point $\mathbb{R}^{0|N}$ emanate the $\mathbb{R}^{d|N}$ by central extension via the $(-\Gamma-)$.
 
@@ -2155,11 +2154,17 @@ modern terminology here would be: [[spacetime]] [[event]]
 
 [[synthetic geometry]], see also [PN&#167;254b](#PN254b)
 
-##### b. Die Zeit
+##### Die Zeit
 
-##### c. Der Ort und die Bewegung
+##### Einheit von Raum und Zeit
+
+###### Ort und Bewegung
 
 > {#PN260} PN&#167;260 Der Raum ist in sich selbst der Widerspruch des gleichg&#252;ltigen Auseinanderseins und der unterschiedlosen Kontinuit&#228;t, die reine Negativit&#228;t seiner selbst und das &#220;bergehen zun&#228;chst in die Zeit. Ebenso ist die Zeit, da deren in Eins zusammengehaltene entgegengesetzte Momente sich unmittelbar aufheben, das unmittelbare Zusammenfallen in die Indifferenz, in das ununterschiedene Au&#223;ereinander oder den Raum. So ist an diesem die negative Bestimmung, der ausschlie&#223;ende Punkt, nicht mehr nur an sich dem Begriffe nach, sondern gesetzt und in sich concret durch die totale Negativit&#228;t welche die Zeit ist; -- der so konkrete Punkt ist der Ort. 
+
+modern terminology here would be: [[spacetime]] [[event]]
+
+###### Materie und Bewegung
 
 > {#PN261} PN&#167;261 Dies Vergehen und Sich-wiedererzeugen des Raumes in der Zeit und der Zeit im Raum, $[$...$]$ ist die Bewegung. Dies Werden ist aber selbst eben so sehr das in sich Zusammenfallen seines Widerspruchs, die unmittelbar identische daseiende Einheit beider, die Materie.
 
@@ -2167,23 +2172,29 @@ modern terminology here would be: [[spacetime]] [[event]]
 
 > $[$ dies $]$ ist f&#252;r den Verstand unbegreiflich.
 
-So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word is clearly [[spacetime]]. Moreover, this unity of space and time in spacetime is [[matter]]. This is indeed the perspective of the modern concept of [[KK-compactification]] in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
+So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word for this is clearly _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
 
-In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
+Moreover, this unity of space and time in spacetime is [[matter]]. This is indeed the perspective of the modern concept of [[KK-compactification]] in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
 
-#### B. Materie und Bewegung. 
+A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
 
-
-##### Endliche Mechanik
-
-#### C. Absolute Mechanik
+#### Endliche Mechanik -- Materie und Bewegung. 
 
 
-> Die Gravitation ist der wahrhafte und bestimmte Begriff der materiellen K&#246;rperlichkeit, der zur Idee realisiert ist
+#### Absolute Mechanik -- Astronomie
 
-### Zweite Abteilung. Die Physik
+##### Die allgemeine Gravitation
 
-### Dritte Abteilung. Organische Physik
+> {#PN269} PN&#167;269 Die Gravitation ist der wahrhafte und bestimmte Begriff der materiellen K&#246;rperlichkeit, der zur Idee realisiert ist
+
+##### Die Kepplerschen Gesetze
+
+##### Die Totalit&#228;t des Sonnen-Systems
+
+
+### Die Physik
+
+### Die Organik
 
 #### A. Die geologische Natur
 
@@ -2320,6 +2331,14 @@ Further comments on Hegel's text include
 Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
 * {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in 
+
+* {#Wandschneider82} [[Dieter Wandschneider]], _Raum, Zeit, Relativit&#228;t_m 1982 [web](http://www.klostermann.de/Wandschneider-Raum-Zeit-Relativitaet)
+
+and the idea of matter emerging from space and time has apparently influenced
+
+* {#Weyl19} [[Hermann Weyl]], _Raum, Zeit,Materie_, 1919 ([web](https://archive.org/details/raumzeitmateriev00weyl))
 
 Related discussion in view of [[infinitesimals]] is in
 
