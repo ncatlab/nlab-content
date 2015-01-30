@@ -22,6 +22,8 @@
 
 _Proof nets_ are a graphical way to denote [[proofs]] in [[linear logic]].
 
+They were introduced by [[Jean-Yves Girard|J.-Y. Girard]] in 1987 in order to remove spurious notational redundancies introduced by sequential rule application or indeterminacy of [[cut elimination]] and can be viewed as graphical normal forms of proofs freed from 'the bureaucracy of syntax' (Girard).
+
 Bearing in mind the [[categorical semantics]] of (multiplicative intuitionistic) [[linear logic]] in (closed) [[monoidal categories]], proof nets are closely related to [[Kelly-Mac Lane graphs]] that are used to track compositions of [[extranatural transformations]] definable in such categorical structures. More generally they may be compared to [[string diagrams]] that are evaluated in these categories (with various ways of making the comparison more precise). Proof nets for full linear logic have been thus described by [Melli&#232;s 06](#Mellies06) as string diagrams equipped with "boxes" to account for the [[exponential modality]]. 
 
 With [[linear logic]]/[[linear type theory]] interpreted as [[quantum logic]]/[[quantum computation]], proof nets correspond to [[quantum circuits]] or [[Feynman diagrams]] ([Blute-Panangaden](#BlutePanangaden)).
@@ -162,6 +164,11 @@ A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected 
 The proof is quite technical, but it is of fundamental importance in the analysis of proof nets. The method is to "sequentialize" a proof structure that satisfies this graphical criterion (i.e., provide a sequent deduction for it). This is by an inductive procedure which first removes consideration of outer par switches (replacing a proof structure of type $\Gamma, A \otimes B, \Delta \to \Sigma$ by an 'equivalent' structure of type $\Gamma, A, B, \Delta \to \Sigma$, and similarly a proof structure of type $\Gamma \to A \multimap B, \Delta$ by an equivalent one of type $\Gamma, A \to B, \Delta$). Once these have been removed, the hard part is to show there exists an outer $\otimes$ switch with parent $(A \otimes B)^+$ or $(A \multimap B)^-$, such that removal of the parent and edges to its children splits the graph cleanly into two connected components, each of which then satisfies the graphical criterion. The proof of existence is by a tricky combinatorial analysis on graphs. Once this is done, each of the two graph components is sequentializable by the inductive hypothesis, and the induction can then be pushed through. 
 =-- 
 
++-- {: .num_remark} 
+###### Remark 
+[[François Métayer]] ([1994](#Metayer94)) showed that the Danos-Regnier criterion on a proof structure's 'convergence to a proofnet' can equivalently be expressed as a criterion on the [[homology]] of a suitable associated graph.
+=--
+
 The Danos-Regnier criterion, stated according to the definition above, might appear exponential in complexity since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. (More recently, the problem has actually been shown to be complete for non-deterministic log space [JdNM08](#JdNM08).)
 
 +-- {: .num_remark #DR} 
@@ -227,20 +234,25 @@ There are various possibilities for translating the language of proof nets into 
 
 ## References
 
-* {#Trimble94} [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories_, Rutgers 1994
+Proofnets originated with Girard's seminal paper introducing linear logic: 
 
+* {#Girard87} [[Jean-Yves Girard]] , _Linear Logic_ , Theor. Comp. Sci. **50** (1987) pp. 1-102. ([draft](iml.univ-mrs.fr/~girard/Synsem.pdf.gz&#8206;))
+
+* {#Trimble94} [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories_, Rutgers 1994
 
 * {#BCST96} [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X))
 
 * {#JdNM08} Paulin Jacob&#233; de Naurois and Virgile Mogbil, _Correctness of Linear Logic Proof Structures is NL-Complete_ ([pdf](https://hal.archives-ouvertes.fr/hal-00360894/document))
 
-* Francois Lamarche, _Proof nets for intuitionistic linear logic: Essential nets_ ([pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf))
+* Fran&#231;ois Lamarche, _Proof nets for intuitionistic linear logic: Essential nets_ ([pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf))
 
 * [[Paul-André Melliès]], _A topological correctness criterion for non-commutative logic_ , London Mathematical Society Lecture Notes Series 316, 2004. ([pdf](https://hal.inria.fr/hal-00154204/document))
  
 * {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Proceedings of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
 
 * [[Paul-André Melliès]], _Categorical semantics of linear logic_ ([pdf](http://profs.sci.univr.it/~bellin/panorama.pdf))
+
+* {#Metayer94} [[François Métayer]], _Homology of proofnets_ ,Arch. Math. Logic **33** (1994) pp.169-188. ([draft](http://www.pps.univ-paris-diderot.fr/~metayer/PDF/hpn.pdf))
 
 Relation to [[Feynman diagrams]] is discussed in
 
