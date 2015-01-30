@@ -83,7 +83,7 @@ In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is can
  
 There is a long history of logical frameworks of "linear type" and their categorical semantics in various [[doctrines]] of monoidal and closed monoidal categories, even though much of the early history predates Girard's introduction of linear logic (and which therefore do not bear the term "linear"). We give a thumbnail sketch of some of this below. 
 
-The founding father could be said to be [[Joachim Lambek]], who was the first to apply deductive systems and particularly the method of Gentzen cut-elimination to what we would now recognize as [[categorification]]s of various [[fragments]] of propositional logic. It is noteworthy that one of the various first applications of this categorified cut-elimination was to the (*linear*) doctrine of [[monoidal biclosed categories]], in which Lambek was interested in connection with his linguistic research; see ([Lambek 68](#Lambek68), [Lambek 69](#Lambek69)). A principal goal in these papers was to study (and partially solve) the coherence problem for such structures. 
+The founding father could be said to be [[Joachim Lambek]], who was the first to apply deductive systems and particularly the method of Gentzen cut-elimination to what we would now recognize as [[categorification]]s of various [[fragments]] of propositional logic. It is noteworthy that one of the various first applications of this categorified cut-elimination was to the (*linear*) doctrine of [[monoidal biclosed categories]], in which Lambek was interested in connection with his linguistic research ([Lambek 58](#Lambek58)); see ([Lambek 68](#Lambek68), [Lambek 69](#Lambek69)). A principal goal in these papers was to study (and partially solve) the coherence problem for such structures. 
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -124,15 +124,13 @@ Finally, in addition to these usual "denotational" categorical semantica, linear
 
 ### General
 
-The original notion of [[linear logic]] was introduced in 
+The original article on [[linear logic]] is
 
-*  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
- {#Girard87}
+* {#Girard87} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
 
-A review is in
+A review of linear logic is in
 
-* [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
- {#Girard11}
+* {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
 
 Linear type theory as such is made explicit for instance in 
 
@@ -140,6 +138,16 @@ Linear type theory as such is made explicit for instance in
 4th International Conference, TLCA '99, ed. J.-Y. Girard, Lecture Notes in Computer Science 1581, Springer, Berlin, 1999 ([pdf](http://www.kurims.kyoto-u.ac.jp/~hassei/papers/tlca99.pdf))
 
 * [pdf](http://www.cs.cmu.edu/~fp/courses/15816-f01/handouts/lintt.pdf)
+
+### Lambek's syntactic calculus
+
+Several decades before Girard's article on linear logic, Lambek introduced a sequent calculus without weakening, contraction, or exchange in order to model aspects of the syntactic structure of natural language, generalizing previous work by Ajdukiewicz and Bar-Hillel on [[categorial grammar]]:
+
+* {#Lambek58} [[Joachim Lambek]]. _The mathematics of sentence structure_ . American mathematical monthly, 154-170, 1958. [link](http://www.jstor.org/stable/2310058)
+
+Lambek called his system the "syntactic calculus", while nowadays it is often called _Lambek calculus_.  It can also be considered as the "implication-only fragment of intuitionistic, non-commutative linear logic", and may be interpreted in [[closed monoidal category|(bi)closed monoidal categories]].
+
+In "Towards a geometry of interaction" (1989), Girard references Lambek's 1958 article, and writes that "this work must be acknowledged as a true ancestor to linear logic" (p.81).
 
 ### Categorical semantics
 
@@ -149,32 +157,24 @@ The following articles are about "logics of linear type" and their categorical s
  
 
 * {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
- 
 
-* G.E. Minc, _Closed categories and the theory of proofs_, translated from an article in Russian in Zapiski Nauchnykh Seminarov Leningradskogo Otdeleniya Mat. Instituta im. V.A. Steklova AN SSSR 68 (1977), 83-114. 
- {#Minc77}
+* {#Minc77} G.E. Minc, _Closed categories and the theory of proofs_, translated from an article in Russian in Zapiski Nauchnykh Seminarov Leningradskogo Otdeleniya Mat. Instituta im. V.A. Steklova AN SSSR 68 (1977), 83-114. 
 
-* M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
- {#Szabo78}
+* {#Szabo78} M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
 
-* C.B. Jay, _Languages for monoidal categories_, JPAA 59 (1989), 61-85. 
- {#Jay89}
+* {#Jay89} C.B. Jay, _Languages for monoidal categories_, JPAA 59 (1989), 61-85. 
 
-* C.B. Jay, _Coherence in category theory and the Church-Rosser property_. Unpublished preprint (1990), cited in the following reference. 
- {#Jay90a}
+* {#Jay90a} C.B. Jay, _Coherence in category theory and the Church-Rosser property_. Unpublished preprint (1990), cited in the following reference. 
 
-* C.B. Jay, _The structure of free closed categories_, JPAA 66 (1990), 271-285. 
- {#Jay90b}
+* {#Jay90b} C.B. Jay, _The structure of free closed categories_, JPAA 66 (1990), 271-285. 
 
 The [[categorical semantics]] of linear type theory in [[star-autonomous categories]] was first described in 
 
-*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- {#Seely89} 
+* {#Seely89} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz)) 
 
 with the first non-syntactic, mathematical categorical model in the same volume: 
 
-* [[Valeria de Paiva]], _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
- {#dePaiva89}
+* {#dePaiva89} [[Valeria de Paiva]], _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
 
 As mentioned above, generalization of this semantics, restricted to the "multiplicative fragment" but covering doctrines of more general symmetric monoidal closed type (with specific reference to Girard's work) is given in 
 
@@ -193,19 +193,16 @@ An decent review of some of this is in
 
 Extensions of the coherence-theoretic applications of proof nets in Blute's thesis, to give full solutions to coherence problems, were given in 
 
-* [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories, Rutgers 1994
- {#Trimble94}
+* {#Trimble94} [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories, Rutgers 1994
 
-* [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X)) 
- {#BluteCockettSeelyTrimble96}
+* {#BluteCockettSeelyTrimble96} [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X)) 
 
 Type theory for full linear logic, together with its categorical interpretation, was developed in 
 
 * {#BentonBiermanPaivaHyland92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666))
  
 
-* [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp.273-291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
- {#HylandPaiva93}
+* {#HylandPaiva93} [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp.273-291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
 
 * {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, PhD Thesis, Edinburgh 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
  
@@ -217,19 +214,16 @@ Further review and discussion is in
 
 The more general case of general [[symmetric monoidal categories]] is reviewed and further discussed in 
 
-* Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/&#8764;schalk/notes/llmodel.pdf))
- {#Schalk04}
+* {#Schalk04} Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/&#8764;schalk/notes/llmodel.pdf))
 
 * [[Richard Blute]], Philip Scott, _Category theory for linear logicians_, 2004 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.83.6250))
 
-* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
- {#Mellies09}
+* {#Mellies09} [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
 
 The interpretation of Girard's $!$-modality as the [[comonad]] induced from a [[monoidal adjunction]] between the closed [[symmetric monoidal category]] and a [[cartesian closed category]] is due to
 
-* G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
+* {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
 Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
- {#Bierman95}
 
 * {#Benton95} [[Nick Benton]], _A mixed linear and non-linear logic; proofs, terms and
 models_, In _Proceedings of Computer Science Logic_ '94, vol. 933 of
@@ -258,9 +252,8 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 * [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://homepages.ulb.ac.be/~rduncan/papers/rduncan-thesis.pdf))
 
-* Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
+* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
 Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
-  {#CCGP09}
 
 
 * [[Ugo Dal Lago]], Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
