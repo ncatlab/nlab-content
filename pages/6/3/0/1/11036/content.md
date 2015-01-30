@@ -71,7 +71,7 @@ Proof nets are those proof structures that arise by taking the KM-graphs of morp
 
 More exactly, let $F[\mathbf{T}]$ be the free $\ast$-autonomous category on $\mathbf{T}$ (as discrete category), viewing $\ast$-autonomous categories and functors that preserve $\ast$-autonomous category _strictly_ as a 1-category that is 1-monadic over $Cat$, the category of small categories and functors. Observe that the objects of $F[\mathbf{T}]$ may be identified with MLL formulas. We view the morphisms of $F[\mathbf{T}]$ as representing morphisms that are definable (starting with the datum $\mathbf{T}$). 
 
-As $Struct[\mathbf{T}]$ is $\ast$-autonomous, the obvious inclusion $\mathbf{T} \hookrightarrow Struct[\mathbf{T}]$ induces a unique strict $\ast$-autonomous functor $S: F[\mathbf{T}] \to Struct[\mathbf{T}]$, which may be called the _graphical semantics_ funcor. 
+As $Struct[\mathbf{T}]$ is $\ast$-autonomous, the obvious inclusion $\mathbf{T} \hookrightarrow Struct[\mathbf{T}]$ induces a unique strict $\ast$-autonomous functor $S: F[\mathbf{T}] \to Struct[\mathbf{T}]$, which may be called the _graphical semantics_ functor. 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -162,7 +162,7 @@ A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected 
 The proof is quite technical, but it is of fundamental importance in the analysis of proof nets. The method is to "sequentialize" a proof structure that satisfies this graphical criterion (i.e., provide a sequent deduction for it). This is by an inductive procedure which first removes consideration of outer par switches (replacing a proof structure of type $\Gamma, A \otimes B, \Delta \to \Sigma$ by an 'equivalent' structure of type $\Gamma, A, B, \Delta \to \Sigma$, and similarly a proof structure of type $\Gamma \to A \multimap B, \Delta$ by an equivalent one of type $\Gamma, A \to B, \Delta$). Once these have been removed, the hard part is to show there exists an outer $\otimes$ switch with parent $(A \otimes B)^+$ or $(A \multimap B)^-$, such that removal of the parent and edges to its children splits the graph cleanly into two connected components, each of which then satisfies the graphical criterion. The proof of existence is by a tricky combinatorial analysis on graphs. Once this is done, each of the two graph components is sequentializable by the inductive hypothesis, and the induction can then be pushed through. 
 =-- 
 
-The Danos-Regnier criterion, stated according to the definition above, might appear exponential in complexity since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. 
+The Danos-Regnier criterion, stated according to the definition above, might appear exponential in complexity since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. (More recently, the problem has actually been shown to be complete for non-deterministic log space [JdNM08](#JdNM08).)
 
 +-- {: .num_remark #DR} 
 ###### Description 
@@ -232,14 +232,13 @@ There are various possibilities for translating the language of proof nets into 
 
 * {#BCST96} [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X))
 
-* Paulin Jacob&#233; de Naurois and Virgile Mogbil, _Correctness of Linear Logic Proof Structures is NL-Complete_ ([pdf](https://hal.archives-ouvertes.fr/hal-00360894/document))
+* {#JdNM08} Paulin Jacob&#233; de Naurois and Virgile Mogbil, _Correctness of Linear Logic Proof Structures is NL-Complete_ ([pdf](https://hal.archives-ouvertes.fr/hal-00360894/document))
 
 * Francois Lamarche, _Proof nets for intuitionistic linear logic: Essential nets_ ([pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf))
 
 * [[Paul-André Melliès]], _A topological correctness criterion for non-commutative logic_ , London Mathematical Society Lecture Notes Series 316, 2004. ([pdf](https://hal.inria.fr/hal-00154204/document))
  
-* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Proceedings of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
- {#Mellies06}
+* {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Proceedings of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
 
 * [[Paul-André Melliès]], _Categorical semantics of linear logic_ ([pdf](http://profs.sci.univr.it/~bellin/panorama.pdf))
 
