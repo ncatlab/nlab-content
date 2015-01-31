@@ -50,22 +50,25 @@ and the later
 
   (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
 
-Together these lay out what has come to be called _Hegel's system_.  Notice that these texts overlap. The first part of _The Encyclopedia of the Philosophical Sciences_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
+Together these lay out what has come to be called _Hegel's system_ ([&#167;1805](#1805)).  Notice that these texts overlap. The first part of _The Encyclopedia of the Philosophical Sciences_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
 
-Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _subjective logic_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology%20of%20Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
+Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _subjective logic_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology+of+Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
 
-Hegel's system is the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, carried now as souls by living organisms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself. Where Hegel speaks of his system as _science_ "Wissenschaft" this is to claim that this process is indeed being systematically derived, or even being observed. Therefore Hegel is speaking mostly in a mystic or gnostic tone, revealing truths by the way of a seer. 
+Hegel's system is the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). Where Hegel speaks of his system as _science_ "Wissenschaft" and _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, or even being observed -- by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking mostly in a mystic or gnostic tone, revealing truths by the way of a seer. 
 
-Accordingly Hegel's system has often been and is being rejected as being obfuscating. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formal [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic.
+Accordingly Hegel's system has often been and is being rejected as being obfuscating and irrational. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic. Hegel was aware of this problem, but nevertheless insisted:
 
 > [&#167;1798](#1798)  On this point, formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
-However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's system, notably his concepts of [[unity of opposites]] and of [[Aufhebung]], have an accurate and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches nicely under this translation from [[philosophy]] to [[mathematics]].
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's system, notably his concepts of [[unity of opposites]] and of [[Aufhebung]], have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches well under this translation from [[philosophy]] to [[mathematics]].
+
+> [&#167;1799](#1799) Now the negativity just considered constitutes the turning point of the movement of the Notion. It is the simple point of the negative relation to self, the innermost source of all activity of all animate and spiritual self-movement, the dialectical soul that everything true possesses and through which alone it is true; for on this subjectivity alone rests the sublating of the opposition between the Notion and reality, and the unity that is truth. The second negative, the negative of the negative, at which we have arrived, is this sublating of the contradiction, but just as little as the contradiction is it an act of external reflection, but rather the innermost, most objective moment of life and spirit through which a subject, a person, a free being, exists.
+
 
 +-- {: bluebox #nPOVRemark}
 ###### nPOV
 
-While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is discussed below in _[The formalization dictionary](#FormalizationDictionary)_.
+While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, following various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is summarized below in _[The formalization dictionary](#FormalizationDictionary)_. A diagram showing the resulting process is in _[Overview of the formalization process](#OverviewOfTheFormalizationProcess)_.
 
 =--
 
@@ -176,7 +179,7 @@ The following table lists proposals for possible such identifications. The conte
 | [[Dasein]]   | [Aufhebung of becoming via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv&\sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;194](#194) |
 | moment of repulsion | [[flat modality]] $\flat$ | [&#167;342](#342), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
-| quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;342](#342) |
+| quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;369](#369), [&#167;370](#370), [&#167;342](#342) |
 | $\to$ Etwas  |   |  [&#167;1056](#1056)  |
 | moment of discreteness | [[flat modality]] $\flat$ |  |
 | moment of continuity | [[sharp modality]] $\sharp$ |  |
@@ -207,8 +210,9 @@ The following table lists proposals for possible such identifications. The conte
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
 | **Idee**       | collection of [[types]] and [[terms]] contructible from these operations, in particular the true and provable [[propositions]] | [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634) |
-| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [EL&#167;244](#EL244), [PN&#167;192](#PN192), [PN&#167;193b](#PN193b) |
+| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1817](#1817) |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
+| Gravitation | [[adjoint modality]] $(&#643; \dashv \flat)$  | [PN&#167;204](#PN204)  |
 
 =--
 
@@ -221,6 +225,7 @@ Notice that the [above dictionary](#Dictionary) involves the first two stages in
 | $\vdots$ | $\vdots$ |
 
 ### Overview of the formalized process
+ {#OverviewOfTheFormalizationProcess}
 
 The following diagram means to show the development of the system as formalized
 [above](#FormalizationDictionary). Unities of opposites at a given stage are shown as [[adjoint modalities]] organized horizontally. There are different ways in which passage happens vertically:
@@ -263,7 +268,7 @@ $$
     && &&  &&  && \vee && \vee
     \\
     Natur &&   &&  && 
-    & & \rho(&#643;) &\dashv& \rho(\flat) &
+    & \stackrel{Attraktion}{} & \rho(&#643;) &\stackrel{Gravitation}{\dashv}& \rho(\flat) & \stackrel{Repulsion}{}
     \\
     && && && && \bot && \bot
     \\
@@ -363,6 +368,7 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 
 > &#167;85 The objective logic, then, takes the place rather of the former metaphysics which was intended to be the scientific construction of the world in terms of thoughts alone. If we have regard to the final shape of this science, then it is first and immediately ontology whose place is taken by objective logic &#8212; that part of this metaphysics which was supposed to investigate the nature of ens in general; ens comprises both being and essence, a distinction for which the German language has fortunately preserved different terms. But further, objective logic also comprises the rest of metaphysics in so far as this attempted to comprehend with the forms of pure thought particular substrata taken primarily from figurate conception, namely the soul, the world and God; and the determinations of thought constituted what was essential in the mode of consideration. 
+
 
 
 ## **Die Lehre vom Sein** / **The Doctrine of Being**
@@ -466,6 +472,7 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 > &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
 
 > {#174} &#167;174 Das Angef&#252;hrte ist auch dieselbe Dialektik, die der Verstand gegen den Begriff braucht, den die h&#246;here Analysis von den unendlich-kleinen Gr&#246;&#223;en giebt. Von diesem Begriffe wird weiter unten ausf&#252;hrlicher gehandelt.&#8212;Diese Gr&#246;&#223;en sind als solche, bestimmt worden, die in ihrem Verschwinden sind, nicht vor ihrem Verschwinden, denn als dann sind sie endliche Gr&#246;&#223;en;&#8212;nicht nach ihrem Verschwinden, denn alsdann sind sie nichts. Gegen diesen reinen Begriff ist eingewendet und immer wiederholt worden, da&#223; solche Gr&#246;&#223;en entweder Etwas seyen, oder Nichts; da&#223; es keinen Mittelzustand (Zustand ist hier ein unpassender, barbarischer Ausdruck) zwischen Seyn und Nichtseyn gebe.&#8212;Es ist hierbei gleichfalls die absolute Trennung des Seyns und Nichts angenommen. Dagegen ist aber gezeigt worden, da&#223; Seyn und Nichts in der That dasselbe sind, oder um in jener Sprache zu sprechen, da&#223; es gar nichts giebt, das nicht ein Mittelzustand zwischen Seyn und Nichts ist. Die Mathematik hat ihre gl&#228;nzendsten Erfolge der Annahme jener Bestimmung, welcher der Verstand widerspricht, zu danken.
+
 
 > {#174} &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
 
@@ -769,6 +776,7 @@ We discuss below [&#167;305](#305) the [[adjunction]] that $\Re$-participates in
 > {#305} &#167;305 Die Idealit&#228;t kann die Qualit&#228;t der Unendlichkeit genannt werden; aber sie ist wesentlich der Proce&#223; des Werdens und damit ein &#220;bergang, wie des Werdens in Daseyn, der nun anzugeben ist. Als [[Aufhebung|Aufheben]] der Endlichkeit, d. i. der Endlichkeit als solcher und ebenso sehr der ihr nur gegen&#252;berstehenden, nur negativen Unendlichkeit ist diese R&#252;ckkehr in sich, Beziehung auf sich selbst, Seyn. Da in diesem Seyn Negation ist, ist es Daseyn, aber da sie ferner wesentlich Negation der Negation, die sich auf sich beziehende Negation ist, ist sie das Daseyn, welches F&#252;rsichseyn genannt wird.
 
 > &#167;305 Ideality can be called the _quality_ of infinity; but it is essentially the process of _becoming_, and hence a transition &#8212; like that of becoming in determinate being &#8212; which is now to be indicated. As a sublating of finitude, that is, of finitude as such, and equally of the infinity which is merely its opposite, merely negative, this return into self is _self-relation_, _being_. As this being contains negation it is _determinate_, but as this negation further is essentially negation of the negation, the self-related negation, it is that determinate being which is called _being-for-self_.
+
 
 
 If here we take the "infinite" and the "infinitesimal" to go together -- as in [&#167;502](#502) -- then the above would give also that _ideality is the quality of the infinitesimal_. 
@@ -1078,7 +1086,7 @@ suppose we have a [[shape modality]] $&#643;$ but without the assumption that it
 Then given just the [[empty type]] $\emptyset$ and the [[unit type]] $\ast$, there is one new [[type]] to be formed (since necessarily $&#643; \emptyset \simeq \emptyset$) and this is
 
 $$
-  &#643; \ast 
+  &#643; {}_{\ast} 
 $$
 
 Below we see that this, being a [[discrete type]], is what Hegel describes with "repulsion": The points in $&#643; \ast$ do not attract/cohese, they are different and repel.
@@ -1086,14 +1094,12 @@ Below we see that this, being a [[discrete type]], is what Hegel describes with 
 At the same time, being a [[discrete type]] it is necessarily a [[homotopy colimit]] of copies of the [[unit type]] (see [here](limit+in+a+quasi-category#Tensoring))
 
 $$
-  &#643; \ast \simeq \underset{\longrightarrow}{\lim}_I \ast
+  &#643; {}_{\ast} \simeq \underset{\longrightarrow}{\lim}_I \ast
 $$
 
-where the [[diagram]] $I$ that the colimit is over is $I = &#643; \ast$ itself.
+where the [[diagram]] $I$ that the colimit is over is $I = &#643; {}_{\ast}$ itself.
 
-For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Einsen ](#LawvereLauterEinsen))_. On p. 6 there is suggested that the [[unity of opposites]] "all elements of a set are indistinguishable and yet distinct" is captured by the fact that both
-
-$\flat X$ as well as $\sharp X$ have the same image under $\flat$.
+For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Einsen ](#LawvereLauterEinsen))_. On p. 6 there is suggested that the [[unity of opposites]] "all elements of a set are indistinguishable and yet distinct" is captured by the fact that both $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 
 ###### $\;\;$ Remark: The Monad of Leibniz
  {#TheMonadOfLeibniz}
@@ -1171,29 +1177,51 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
  {#RelationBetweenRepulsionAndAttraction}
 
 
+> {#361} &#167;361 The difference of the one and the many is now determined as the difference of their relation to one another, with each other, a relation which splits into two, repulsion and attraction, each of which is at first independent of the other and stands apart from it, the two nevertheless being essentially connected with each other. Their as yet indeterminate unity is to be more precisely ascertained
+
+So we are looking now for a [[unity of opposites]] of the form
+
+$$
+  attraction \dashv repulsion
+  \,.
+$$
+
+
+
 > {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
 
 > &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
-
 
 
 > &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
 
 > &#167;370 With this, the development of being-for-self is completed and has reached its conclusion.
 
-Since _Dasein_ and _F&#252;rsichsein_ both are qualitative being/are quality ([&#167;188](#188), [&#167;318](#318), [&#167;321](#321))  the above gives us the [[unity of opposites]]
+> {#372} &#167;372 This unity is, therefore, $[$...$]$ determinate being
+
+
+Since _determinate being_, _Dasein_ and _F&#252;rsichsein_ both are qualitative being/are quality ([&#167;188](#188), [&#167;318](#318), [&#167;321](#321))  the [[unity of opposites]] from [&#167;361](#361) should be _quality_ 
 
 $$
   quality \;\colon\; attraction \dashv repulsion
 $$
 
+Notice that later when _Nature_ has appeared, the unity of attraction and repulsion becomes _gravity_ [PN&#167;204](#PN204).
+
+
+> &#167;372 This unity is, therefore, [a] being, only as affirmative, that is immediacy, which is self-mediated through negation of the negation; being is posited as the unity which pervades its determinatenesses, limit, etc., which are posited in it as sublated; [b] determinate being: in such determination it is the negation or determinateness as a moment of affirmative being, yet determinateness no longer as immediate, but as reflected into itself, as related not to an other but to itself; a being determined simply in itself-the one; the otherness as such is itself a being-for-self; [c] being-for-self, as that being which continues itself right through the determinateness and in which the one and the intrinsic determinedness is itself posited as sublated. The one is determined simultaneously as having gone beyond itself, and as unity; hence the one, the absolutely determined limit, is posited as the limit which is no limit, which is present in being but is indifferent to it.
+
+
+
 ###### Remark: The Kantian Construction of Matter from the Forces of Attraction and Repulsion
+ {#ConstructionOfMatterFromTheForces}
 
 
 > &#167;374 Kant, as we know, constructed matter from the forces of attraction and repulsion, or at least he has, to use his own words, set up the metaphysical elements of this construction.
 
-Not about actual [[forces]] in [[matter]] so much as about what makes the points in the [[continuum]] both stay apart (repulsion) and at the same time hang together (attraction/cohesion).
+Not (yet) about actual [[forces]] in [[matter]] so much as about what makes the points in the [[continuum]] both stay apart (repulsion) and at the same time hang together (attraction/cohesion).
 
+But later when _Nature_ has appeared, the unity of attraction and repulsion indeed becomes _gravity_ [PN&#167;204](#PN204).
 
 
 
@@ -1227,7 +1255,7 @@ $$
 
 attraction is what holds stuff together, hence this is the idea of [[cohesion]]
 
-if $X$ has continuity then the [[shape modality]] $&#643; X$ is the result of letting things collaps under their cohesion/attraction
+if $X$ has continuity then the [[shape modality]] $&#643; X$ is the result of letting things collapse under their cohesion/attraction
 
 
 ###### On discreteness and repulsion
@@ -1333,6 +1361,7 @@ The [[continuum]].
 > In R&#252;cksicht der Erhaltung des Verh&#228;ltnisses im Verschwinden der Quantorum findet sich (anderw&#228;rts, wie bei Carnot, R&#233;flexions sur la M&#233;taphysique du Calcul Infinit&#233;simal.) der Ausdruck, da&#223; verm&#246;ge des Gesetzes der St&#228;tigkeit die verschwindenden Gr&#246;&#223;en noch das Verh&#228;ltni&#223;, aus dem sie herkommen, ehe sie verschwinden, behalten. &#8212;Diese Vorstellung dr&#252;ckt die wahre Natur der Sache aus, insofern nicht die St&#228;tigkeit des Quantums verstanden wird, die es im unendlichen Progre&#223; hat, sich in sein Verschwinden so zu kontinuiren, da&#223; im Jenseits seiner wieder nur ein endliches Quantum, ein neues Glied der Reihe entsteht; ein st&#228;tiger Fortgang wird aber immer so vorgestellt, da&#223; die Werthe durchloffen werden, welche noch endliche Quanta sind.
 
 > In demjenigen &#220;bergange dagegen, welcher in das wahrhafte Unendliche gemacht wird, ist das Verh&#228;ltni&#223; das st&#228;tige; es ist so sehr st&#228;tig und sich erhaltend, da&#223; er vielmehr allein darin besteht, das Verh&#228;ltni&#223; rein herauszuheben, und die verh&#228;ltni&#223;lose Bestimmung, d. i. da&#223; ein Quantum, welches Seite des Verh&#228;ltnisses ist, auch au&#223;er dieser Beziehung gesetzt, noch Quantum ist, verschwinden zu machen. &#8212;Diese Reinigung des quantitativen Verh&#228;ltnisses ist insofern nichts anders, als wenn ein empirisches Daseyn begriffen wird. Die&#223; wird hierdurch so &#252;ber sich selbst erhoben, da&#223; sein Begriff dieselben Bestimmungen enth&#228;lt, als es selbst, aber in ihrer Wesentlichkeit und in die Einheit des Begriffes gefa&#223;t, worin sie ihr gleichg&#252;ltiges, begriffloses Bestehen verloren haben.
+
 
 
 
@@ -1876,6 +1905,7 @@ $$
   \,.
 $$
 
+Notice that in the Naturphilosophie [PN&#167;204](#PN204) this unity of opposites of attraction and repulsion becomes _gravity_.
 
 
 
@@ -2144,30 +2174,73 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 
 
-#### a. Leben
+#### Leben
+ {#Leben}
 
 > {#EL2126} EL&#167;216  Die unmittelbare Idee ist das Leben. Der Begriff ist als Seele in einem Leibe realisiert.
 
 > &#167;1645 The Idea of Life is concerned with a subject matter so concrete, and if you will, so real, that with it we may seem to have overstepped the domain of logic as it is commonly conceived.
 
 
-#### b. Erkennen
+#### Erkennen
 
-#### c. Absolute Idee
+#### Absolute Idee
 
 > {#EL244} EL&#167;244 Die Idee, welche f&#252;r sich ist, nach dieser ihrer Einheit mit sich betrachtet, ist sie Anschauen, und die anschauende Idee Natur. Als Anschauen aber ist die Idee in einseitiger Bestimmung der Unmittelbarkeit oder Negation durch &#228;u&#223;erliche Reflexion gesetzt. Die absolute Freiheit der Idee aber ist, da&#223; sie nicht blo&#223; ins Leben &#252;bergeht, noch als endliches Erkennen dasselbe in sich scheinen l&#228;&#223;t, sondern in der absoluten Wahrheit ihrer selbst sich entschlie&#223;t, das Moment ihrer Besonderheit oder des ersten Bestimmens und Andersseins, die unmittelbare Idee als ihren Widerschein, sich als Natur frei aus sich zu entlassen.
 
 > &#167;1782 It is the sole subject matter and content of philosophy. Since it contains all determinations within it, and its essential nature is to return to itself through its self-determination or particularisation, it has various shapes, and the business of philosophy is to cognise it in these. Nature and spirit are in general different modes of presenting its existence, art and religion its different modes of apprehending itself and giving itself an adequate existence. Philosophy has the same content and the same end as art and religion; but it is the highest mode of apprehending the absolute idea, because its mode is the highest mode, the Notion.
 
-The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
+
+
+##### (Die dialektische Methode)
+ {#DialektischeMethode}
+
+> &#167;1783a The logical aspect of the absolute Idea may also be called a mode of it; but whereas mode signifies a particular kind, a determinateness of form, the logical aspect, on the contrary, is the universal mode in which all particular modes are sublated and enfolded. The logical Idea os the Idea itself in its pure essence, the Idea enclosed in simple identity within its Notion prior to its immediate reflection in a form-determinateness.
+
+> &#167;1783b Hence logic exhibits the self-movement of the absolute Idea only as original word, which is an outwardising or utterance, but an utterance that in being has immediately vanished again as something outer; the Idea is, therefore, only in this self-determination of apprehending itself; it is in pure thought, in which difference is not yet otherness, but is and remains perfectly transparent to itself. Thus the logical Idea has itself as the infinite form for its content &#8212; form which constitutes the opposite to content to this extent that the content is the form-determination withdrawn into itself and sublated in the identity in such a manner that this concrete identity stands opposed to the identity explicated as form; the content has the shape of an other and a datum as against the form which as such stands simply in relation, and its determinateness is at the same time posited as an illusory being. More exactly, the determination is its own completed totality, the pure Notion. Now the determinateness of the Idea and the entire course followed by this determinateness has constituted the subject matter of the science of logic, from which course the absolute Idea itself has issued into an existence of its own; but the nature of this existence has shown itself to be this, that determinateness does not have the shape of content, but exists wholly as form, and that accordingly the Idea is the absolutely universal Idea. Therefore what remains to be considered here is not a content as such, but the universal aspect of its form &#8212; that is, the method.
+
+
+
+> &#167;1785a Accordingly, what is to be considered here as method is only the movement of the Notion itself, the nature of which movement has already been cognised; but first, there is now the added significance that the Notion is everything, and its movement is the universal absolute activity, the self-determining and self-realising movement. The method is therefore to be recognised as the unrestrictedly universal, internal and external mode; and as the absolutely infinite force, to which no object, presenting itself as something external, remote from and independent of reason, could offer resistance or be of a particular nature in opposition to it, or could not be penetrated by it. It is therefore soul and substance, and anything whatever is comprehended and known in its truth only when it is completely subjugated to the method; it is the method proper to every subject matter because its activity is the Notion. This is also the truer meaning if its universality; according to the universality of reflection it is regarded merely as the method for everything; but according to the universality of the Idea, it is both the manner peculiar to cognition, to the subjectively selfknowing Notion, and also the objective manner, or rather the substantiality, of things &#8212; that is of Notions, in so far as they appear primarily to representation and reflection as others. It is therefore not only the highest force, or rather the sole and absolute force of reason, but also its supreme and sole urge to find and cognise itself by means of itself in everything. Here, secondly, is indicated the difference of the method from the Notion as such, the particular aspect of the method. The Notion, when it was considered by itself, appeared in its immediacy; the reflection, or the Notion that considered it, fell within our knowing.
+
+> &#167;1785b The method is this knowing itself, for which the Notion is not merely the subject matter, but knowing's own subjective act, the instrument and means of the cognising activity, distinguished from that activity, but only as the activity's own essentiality. In the cognition of enquiry, the method likewise occupies the position of an instrument, of a means standing on the subjective side by which this side relates itself to the object. In this syllogism the subject is one extreme and the object the other, and the former by means of its method unites with the latter, but in doing so it does not unite with itself. The extremes remain diverse because subject, method, and object are not posited as the one identical Notion; the syllogism is therefore still the formal syllogism; the premises in which the subject posits the form on its side as its method is an immediate determination, and therefore contains the determinations of form, as we have seen, of definition, division, and so forth, as facts found existing in the subject. In true cognition on the contrary, the method is not merely an aggregate of certain determinations, but the Notion that is determined in and for itself; and the Notion is the middle term only because it has equally the significance of the objective, and consequently in the conclusion the objective does not merely attain an external determinateness by means of the method, but is posited in its identity with the subjective Notion.
+
+
+> {#1786a} &#167;1786a 1. Thus what constitute the method are the determinations of the Notion itself and their relations, which we have now to consider in their significance as determinations of the method. In doing so we must first begin with the beginning. Of the beginning we have already spoken at the beginning of the Logic itself, and also above, when dealing with subjective cognition, and we have shown that, if it is not made arbitrarily and with a categorical unconsciousness, it may indeed seem to involve a number of difficulties but nevertheless is of an extremely simple nature. Because it is the beginning, its content is an immediate, but an immediate that has the significance and form of abstract universality. Be it otherwise a content of being, or of essence, or of the Notion, it is as an immediate something assumed, found already in existence, assertorical. But first of all it is not an immediate of sensuous intuition or of representation, but of thinking, which on account of its immediacy may also be called a supersensuous inner intuition.
+
+> &#167;1786b The immediate of sensuous intuition is a manifold and an individual. But cognition is thinking by means of notions, and therefore its beginning also is only in the element of thought &#8212; it is a simple and a universal. This form has already been discussed under definition. At the beginning of finite cognition universality is likewise recognised as an essential determination, but it is taken as a determination of thought and of Notion only in opposition to being. In point of fact this first universality is an immediate one, and for that reason has equally the significance of being; for being is precisely this abstract relation-to-self. Being requires no further derivation, as though it belonged to the abstract product of definition only because it is taken from sensuous intuition or elsewhere, and in so far as it is pointed out to us. This pointing out and derivation is a matter of mediation, which is more than a mere beginning, and is a mediation of a kind that does not belong to a comprehension by means of thinking, but is the elevation of ordinary thinking, of the empirical and ratiocinative consciousness, to the standpoint of thought. According to the current opposition of thought or concept and being it is regarded as an important truth that no being belongs as yet to the former, taken on its own, and that the latter has a ground of its own that is independent of thought. But the simple determination of being is in itself so meagre that, if only for that reason, there is no need to make much fuss about it; the universal is immediately itself this immediate, since as abstract it also is merely the abstract relation-to-self, which is being. As a matter of fact, the demand that being should be exhibited for us to see has a further, inner meaning involving more than this abstract determination; what is meant by it is in general the demand for the realisation of the Notion, which realisation does not lie in the beginning itself, but is rather the goal and the task of the entire further development of cognition. Further, since the content of the beginning is supposed to be justified and authenticated as something true or correct by its being pointed out in inner or outer perception, it is no longer the form of universality as such that is meant, but its determinateness, of which we shall need to speak presently. The authentication of the determinate content with which the beginning is made seems to lie behind it; but in fact it is to be considered as an advance, that is, if it belongs to philosophical cognition.
 
 > {#1798} &#167;1798  On this point, formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion. Formal thinking does in fact think contradiction, only it at once looks away from it, and in saying that it is unthinkable it merely passes over from it into abstract negation.
+
+
+> {#1799} &#167;1799 Now the negativity just considered constitutes the turning point of the movement of the Notion. It is the simple point of the negative relation to self, the innermost source of all activity of all animate and spiritual self-movement, the dialectical soul that everything true possesses and through which alone it is true; for on this subjectivity alone rests the sublating of the opposition between the Notion and reality, and the unity that is truth. The second negative, the negative of the negative, at which we have arrived, is this sublating of the contradiction, but just as little as the contradiction is it an act of external reflection, but rather the innermost, most objective moment of life and spirit through which a subject, a person, a free being, exists.
+
+> {#1805} &#167;1805 It is here that the content of cognition as such first enters into the circle of consideration, since, as deduced, it now belongs to the method. The method itself by means of this moment expands itself into a system. At first the beginning had to be, for the method, wholly indeterminate in respect of content; to this extent it appears as the merely formal soul, for and by which the beginning was determined simply and solely in regard to its form, namely, as the immediate and the universal. Through the movement we have indicated, the subject matter has obtained for itself a determinateness that is a content, because the negativity that has withdrawn into simplicity is the sublated form, and as simple determinateness stands over against its development, and first of all over against its very opposition to universality.
+
+> {#1812} &#167;1812 It is in this manner that each step of the advance in the process of further determination, while getting further away from the indeterminate beginning is also getting back nearer to it, and that therefore, what at first sight may appear to be different, the retrogressive grounding of the beginning, and the progressive further determining of it, coincide and are the same. The method, which thus winds itself into a circle, cannot anticipate in a development in time that the beginning is, as such, already something derived; it is sufficient for the beginning in its immediacy that it is simple universality. In being that, it has its complete condition; and there is no need to deprecate the fact that it may only be accepted provisionally and hypothetically. Whatever objections to it might be raised &#8212; say, the limitations of human knowledge, the need to examine critically the instrument of cognition before starting to deal with the subject matter &#8212; are themselves presuppositions, which as concrete determinations involve the demand for their mediation and proof. Since therefore they possess no formal advantage over the beginning with the subject matter against which they protest, but on the contrary themselves require deduction on account of their more concrete content, their claim to prior consideration must be treated as an empty presumption. They have an untrue content, for they convert what we know to be finite and untrue into something incontestable and absolute, namely, a limited cognition determined as form and instrument relatively to its content; this untrue cognition is itself also the form, the process of seeking grounds, that is retrogressive.. The method of truth, too, knows the beginning to be incomplete, because it is a beginning; but at the same time it knows this incompleteness to be a necessity, because truth only comes to be itself through negativity of immediacy.
+
+> {#1814} &#167;1814 By virtue of the nature of the method just indicated, the science exhibits itself as a circle returning upon itself, the end being wound back into the beginning, the simple ground, by the mediation; this circle is moreover a circle of circles, for each individual member as ensouled by the method is reflected into itself, so that in returning into the beginning it is at the same time the beginning of a new member. Links of this chain are the individual sciences [of logic, nature and spirit], each of which has an antecedent and a successor &#8212; or, expressed more accurately, has only the antecedent and indicates its successor in its conclusion
+
+> {#1815} &#167;1815 Thus then logic, too, in the absolute Idea, has withdrawn into that same simple unity which its beginning is; the pure immediacy of being in which at first every determination appears to be extinguished or removed by abstraction, is the Idea that has reached through mediation, that is, through the sublation of mediation, a likeness correspondent to itself. The method is the Pure Notion that relates itself only to itself; it is therefore the simple self-relation that is being. But now it is also fulfilled being, the Notion that comprehends itself, being as the concrete and so absolutely intensive totality. In conclusion, there remains only this to be said about this Idea, that in it, first, the science of logic has grasped its own Notion.
+
+##### (&#220;bergang zur Natur)
+
+> &#167;1816a In the sphere of being, the beginning of its content, its Notion appears as a knowing in a subjective reflection external to that content. But in the Idea of absolute cognition the Notion has become the Idea's own content. The Idea is itself the pure Notion that has itself for subject matter and which, in running itself as subject matter through the totality of its determinations, develops itself into the whole of its reality, into the system of the science [of logic], and concludes by apprehending this process of comprehending itself, thereby superseding its standing as content and subject matter and cognising the Notion of the science.
+
+> &#167;1816b Secondly, this Idea is still logical, it is enclosed within pure thought and is the science only of the divine Notion. True, the systematic exposition is itself a realisation of the Idea but confined within the same sphere. Because the pure Idea of cognition is so far confined within subjectivity, it is the urge to sublate this, and pure truth as the last result becomes also the beginning of another sphere and science. It only remains here to indicate this transition.
+
+> {#1817} &#167;1817 The Idea, namely, in positing itself as absolute unity of the pure Notion and its reality and thus contracting itself into the immediacy of being, is the totality in this form &#8212; nature. $\,\,\,\,\,\,\,$ But this determination has not issued from a process of becoming, nor is it a transition, as when above, the subjective Notion in its totality becomes objectivity, and the subjective end becomes life. On the contrary, the pure Idea in which the determinateness or reality of the Notion is itself raised into Notion, is an absolute liberation for which there is no longer any immediate determination that is not equally posited and itself Notion; in this freedom, therefore, no transition takes place; the simple being to which the Idea determines itself remains perfectly transparent to it and is the Notion that, in its determination, abides with itself. The passage is therefore to be understood here rather in this manner, that the Idea freely releases itself in its absolute self-assurance and inner poise. By reason of this freedom, the form of its determinateness is also utterly free &#8212; the externality of space and time existing absolutely on its own account without the moment of subjectivity. In so far as this externality presents itself only in the abstract immediacy of being and is apprehended from the standpoint of consciousness, it exists as mere objectivity and external life; but in the Idea it remains essentially and actually [in and for itself] the totality of the Notion, and science in the relationship to nature of divine cognition. $\,\,\,\,\,\,\,$ But in this next resolve of the pure Idea to determine itself as external Idea, it thereby only posits for itself the mediation out of which the Notion ascends as a free Existence that has withdrawn into itself from exteranlity, that completes its self-liberation in the science of spirit, and that finds the supreme Notion of itself in the science of logic as the self-comprehending pure Notion.
+
+The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
+
+
+
 
 ## **Die Philosophie der Natur** / **Philosophy of Nature**
  {#PhilosophyOfNature}
 
 The next book in the system, after the _Science of Logic_, is the _[[Philosophy of Nature]]_. It starts continuing from [EL&#167;244](#EL244) in [PN&#167;192](#PN192).
-(Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068).)
+(Notice however that "matter" and in fact "[[physical fields]]" were already in the Wesenslogik, around [&#167;1068](#1068), and "life" was already in the Begriffslogik [above](#Leben).)
 
 ### Betrachtungsweisen der Natur
 
@@ -2282,6 +2355,26 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 
 ### Die Physik
 
+> {#PN204} PN&#167;204 Matter in itself holds itself apart from itself through the moment of its negativity, diversity, or abstract separation into parts; it has repulsion. Its being apart from itself is just as essential, however, because these differences are one and the same: the negative unity of this existence apart from itself as being for itself, and thus continuous. Matter therefore has attraction. The unity of these moments is gravity.
+
+So we have a [[unity of opposites]]:
+
+$$
+  attraction \stackrel{gravity}{\dashv} repulsion
+$$
+
+Notice that before in the Seinslogik, the unity of attraction with repulsion was in [&#167;369](#369), where we interpreted it as the [[unity of opposites]] $&#643; \dashv \flat$ of the [[shape modality]] and the [[flat modality]]. By the discussion below  [&#167;990](#990), this unity indeed describes [[gauge fields]] (via the [[differential cohomology hexagon]]) among which one may count [[gravity]] (when thinking of it as a [[Cartan connection]]).
+
+See also on _Science of Logic_ the [Comment on the Construction of Matter from the Forces](#ConstructionOfMatterFromTheForces).
+
+#### Mechanik
+
+#### Elementare Physik
+
+> PN&#167;218 Gravity, as the essence of matter existing in itself only inner identity, transforms, since its concept is the essential externality, into the manifestation of the essence. As such it is the totality of the determinations of reflection, but these as thrown apart from each other, so that each appears as particular, qualified matter which, not yet determined as individuality, is a formless element. 
+
+#### Physics of Individuality
+
 ### Die Organik
 
 #### A. Die geologische Natur
@@ -2295,11 +2388,8 @@ The last paragraph is
 
 > {#PN298} PN&#167;298. In this way nature has passed over into its truth, into the subjectivity of the concept, whose objectivity is itself the suspended immediacy of individuality, the concrete generality, the concept which has the concept as its existence &#8212; into the spirit.
 
-
-
 ## **Die Philosophie des Geistes** / **Philosophy of Spirit**
  {#PhilosophyOfSpirit}
-
 
 
 ### Einleitung
@@ -2309,6 +2399,8 @@ The last paragraph is
 > PG&#167;381 Der Geist hat f&#252;r uns die Natur zu seiner Voraussetzung, deren Wahrheit und damit deren absolut Erstes er ist. In dieser Wahrheit ist die Natur verschwunden, und der Geist hat sich als die zu ihrem F&#252;rsichsein gelangte Idee ergeben, deren Objekt ebensowohl als das Subjekt der Begriff ist. Diese Identit&#228;t ist absolute Negativit&#228;t, weil in der Natur der Begriff seine vollkommene &#228;u&#223;erliche Objektivit&#228;t hat, diese seine Ent&#228;u&#223;erung aber aufgehoben und er in dieser identisch mit sich geworden ist. Er ist diese Identit&#228;t somit zugleich nur als Zur&#252;ckkommen aus der Natur.
 
 > PS&#167;381 Spirit has for us nature as its presupposition, of which it is truth. In this truth, its concept, nature has disappeared; spirit has therefore produced itself as idea, of which the concept is both the object and the subject. This identity is absolute negativity, because in nature the concept has its completely external objectivity. But it has suspended its articulation, and in this it has become identical with itself. It is this identity only insofar as it is a return from nature.
+
+> The essence of the spirit is therefore freedom, the identity of the absolute negativity of the concept with itself. It can distance itself from everything external and from its own externality as well as from its being, and thus bear infinite pain, the negation of its individual immediacy; in other words, it can be identical for itself in this negativity. This possibility is its self-contained being in itself its simple concept, or absolute generality itself.
 
 The theme of the idea expressing itself via the spirit in nature is summarized well [here](#PSEJul14).
 
@@ -2321,15 +2413,21 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 
 ### Erste Abteilung. Der subjektive Geist
 
-#### A. Anthropologie
+#### A. Die Seele -- Anthropologie
+
+> {#PS308} PS&#167;308 Spirit came into being as the truth of nature which has translated and suspended itself. But spirit is, then, not merely true and primordial: its transition into the realm of the concept is not only reflection into others and reflection into itself but it is also free judgment. The becoming of spirit in this way indicates that nature suspends itself in itself as untruth, and that spirit no longer presupposes itself as immediacy self-externalised in physical individuality, but as general and as that immediacy, simple in its concreteness, in which it is soul.
 
 ##### a. Nat&#252;rliche Seele
 
-##### b. tr&#228;umende Seele
+> {#PS311} PS&#167;311 Spirit as the abstract soul of nature is simple, sidereal, and terrestrial life. It is the [[nous]] of the ancients, the simple, unconscious thought, which (a) as this general essence is the inner idea and would have its reality in the underlying externality of nature. But since it, as soul, is immediate substance, its existence is the particularisation of its natural being, an immediate and natural determinacy, which has its presupposed reality in the individual earth.
+
+##### b. Tr&#228;umende Seele
 
 ##### c. Wirkliche Seele
 
-#### B. Ph&#228;nomenologie
+> {#309} PN&#167;308 Spirit came into being as the truth of nature which has translated and suspended itself. But spirit is, then, not merely true and primordial: its transition into the realm of the concept is not only reflection into others and reflection into itself but it is also free judgment. The becoming of spirit in this way indicates that nature suspends itself in itself as untruth, and that spirit no longer presupposes itself as immediacy self-externalised in physical individuality, but as general and as that immediacy, simple in its concreteness, in which it is soul.
+
+#### B. Bewu&#223;tsein -- Ph&#228;nomenologie
 
 ##### a. Bewu&#223;tsein als solches
 
@@ -2337,9 +2435,15 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 
 ##### c. Vernunft
 
-#### B. Psychologie
+#### B. Geist -- Psychologie
 
 ##### a. Theoretischer Geist
+
+> {#PS363} PS&#167;363 Spirit has shown itself as the unity of the soul and consciousness, &#8212; the former a simple immediate totality, and the latter is knowledge which is not limited by any object, and no longer stands in relation to it, but is knowledge of the simple, neither subjective nor objective totality. Spirit originates, therefore, only from its own being, and only relates itself to its own determinations.
+
+> {#PS356} PS&#167;365 The progress of the spirit is development, because its existing phase, knowledge, involves consciousness in and for itself as the purpose or rationale. Thus the action of translating this purpose into reality is strictly only this formal transition into manifestation. Insofar as knowledge is infinite negativity, this translation in the concept is creativity in general. Insofar as knowledge is only abstract or formal, the spirit in it does not conform to its concept, and its purpose is to bring forth the absolute fulfilment and the absolute freedom of its knowledge.
+
+
 
 ##### b. Praktischer Geist
 
@@ -2360,6 +2464,7 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 
 ### Dritte Abteilung. Der absolute Geist
 
+> {#PS553} PS&#167;553 The concept of the spirit has its reality in the spirit. If this reality is in completed identity with that concept as the knowledge of the absolute idea, then the necessary aspect is that the implicitly free intelligence liberates itself for its concept, in order for it to be a shape worthy of it. The subjective and the objective spirit can therefore be seen as the path on which this side of reality or existence forms itself (&#167; 304). Conversely, this path also has the significance that the subjective spirit is seen as the first entity which exists in its immediacy without the concept, grasps its essence and forms itself from there, and thereby reaches its free identity with the concept, its absolute reality.
 
 #### A. Die Kunst
 
@@ -2457,6 +2562,7 @@ Discussion of formalization of the topics of the "subjective logic" within [[typ
 which gives a detailed discussion of the term [[judgement]] as used  in the history  [[philosophy]] and then in [[type theory]].
 
 The formalization of _Schluss_ by [[natural deduction]] originates in
+
 
 * {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
 
