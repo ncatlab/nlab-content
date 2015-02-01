@@ -230,6 +230,9 @@ For some doctrines, the syntactic category of any theory is naturally equipped w
 
 In each of these cases, the [[category of sheaves]] on the syntactic site is the [[classifying topos]] of the theory.  In other words, it has the universal property that for any [[Grothendieck topos]] $\mathcal{E}$, [[geometric morphism]]s $\mathcal{E} \to Sh(Con(T))$ are equivalent to [[model]]s of the [[theory]] $T$ in $\mathcal{E}$.
 
+## Related concepts
+
+* More or less the same concept is that of _[[term model]]_.
 
 ## References
 
