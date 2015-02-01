@@ -221,7 +221,9 @@ The group $G$ canonically [[action|acts]] on the [[coset space]] $G/G_{\lambda}$
 ### Wilson loops and 1d Chern-Simons $\sigma$-models with target the coadjoint orbit
  {#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit}
 
-Above (...) we discussed how an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ is encoded by the [[prequantization]] of a  [[coadjoint orbit]] $(\mathcal{O}_\lambda, \nu_\lambda)$. Here we discuss how to express [[Wilson loops]]/[[holonomy]] of $G$-[[principal connections]] in this representation as the [[path integral]] of a topological particle charged under this background field, whose [[action functional]] is that of a [[1-dimensional Chern-Simons theory]].
+[Above](#DefinitionsAndConstructions)  we discussed how an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ is encoded by the [[prequantization]] of a  [[coadjoint orbit]] $(\mathcal{O}_\lambda, \nu_\lambda)$. Here we discuss how to express [[Wilson loops]]/[[holonomy]] of $G$-[[principal connections]] in this representation as the [[path integral]] of a topological particle charged under this background field, whose [[action functional]] is that of a [[1-dimensional Chern-Simons theory]]. 
+
+This was hinted at in [Witten 89, p. 22, 23](#Witten89), details are in ([Beasley, section 4](#Beasley)).
 
 Let $A|_{S^1} \in \Omega^1(S^1, \mathfrak{g})$ be a [[Lie algebra valued 1-form]] on the circle, equivalently a $G$-[[principal connection]] on the circle. 
 
@@ -302,7 +304,7 @@ Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of [[finite number|fin
  {#FormulationInHigherGeometry}
 
 
-We discuss here a natural equivalent reformulation of the [above](#DefinitionsAndConstructions) ingredients of the orbit method in terms of the [[higher geometry]] of [[smooth ∞-groupoids]], and specifically in terms of the [[extended prequantum field theory]] of [[Chern-Simons theory]] with [[Wilson line]] [[QFT with defects|defects]] ([FSS](#FSS)).
+We discuss here a natural equivalent reformulation of the [above](#DefinitionsAndConstructions) ingredients of the orbit method in terms of the [[higher differential geometry]] of [[smooth ∞-groupoids]], and specifically in terms of the [[extended prequantum field theory]] of [[Chern-Simons theory]] with [[Wilson line]] [[QFT with defects|defects]] ([FSS](#FSS)).
 
 1. [Survey](#FormulationInHigherGeometrySurvey)
 
@@ -838,7 +840,7 @@ $$
   \,.
 $$
 
-One checks that this is indeed the correct prequantization as considered in ([Witten 98, p. 22](#Witten)).
+One checks that this is indeed the correct prequantization as considered in ([Witten 89, p. 22](#Witten89)).
 
 
 ## Formulation in equivariant K-theory (Dirac induction)
@@ -905,7 +907,7 @@ Introductions and surveys include
 
 * [[David Vogan]], _Geometry and representations of reductive groups_ (2007) ([pdf](http://www-math.mit.edu/~dav/rittC.pdf))
 
-* J. Maes, _An introduction to the orbit method_, Master thesis (2011) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2011/Jeroen%20Maes.pdf), [pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
+* J. Maes, _A introduction to the orbit method_, Master thesis (2011) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2011/Jeroen%20Maes.pdf), [pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
 
 * Craig Jackson, _Symplectic manifolds, geometric quantization, and unitary representations of Lie groups_ ([pdf](http://go.owu.edu/~chjackso/Papers/topic.pdf))
 
@@ -924,18 +926,22 @@ Original references include
 * L. Auslander, [[Bertram Kostant]], _Quantization and representations of solvable Lie groups_, Bull. Amer. Math. Soc. __73__, 1967, 692&#8211;695, [pdf](http://www.ams.org/journals/bull/1967-73-05/S0002-9904-1967-11829-9/S0002-9904-1967-11829-9.pdf); _Polarization and unitary representations of
 solvable Lie groups_, Invent. Math. __14__ (1971), 255&#8211;354, [MR293012](http://www.ams.org/mathscinet-getitem?mr=293012), [doi](http://dx.doi.org/10.1007/BF01389744)
 
-* W. Graham, [[David Vogan]], _Geometric quantization for nilpotent coadjoint orbits_, in Geometry and Representation Theory of real and p-adic groups.
+* {#GrahamVogan} W. Graham, [[David Vogan]], _Geometric quantization for nilpotent coadjoint orbits_, in Geometry and Representation Theory of real and p-adic groups.
 Birkh&#228;user, Boston-Basel-Berlin (1998)
- {#GrahamVogan}
+ 
 
-* [[David Vogan]], _The method of coadjoint orbits for real reductive groups_, in Representation Theory of Lie Groups. IAS/Park City Mathematics Series 8 (1999), 179&#8211;238
- {#Vogan99}
+* {#Vogan99} [[David Vogan]], _The method of coadjoint orbits for real reductive groups_, in Representation Theory of Lie Groups. IAS/Park City Mathematics Series 8 (1999), 179&#8211;238
+ 
 
-Discussion with an eye towards application in [[gauge theory]] and in particular for [[Wilson loop]] observables in [[Chern-Simons theory]] (hinted at on p. 22, 23 of [[Edward Witten]]'s _[QFT and the Jones polynomial](http://projecteuclid.org/euclid.cmp/1104178138)_) is in section 4 of 
 
-* [[Chris Beasley]], _Localization for Wilson Loops in Chern-Simons Theory_, in J. Andersen, H. Boden, A. Hahn, and B. Himpel (eds.) _Chern-Simons Gauge Theory: 20 Years After_, , AMS/IP Studies in Adv. Math., Vol. 50, AMS, Providence, RI, 2011. ([arXiv:0911.2687](http://arxiv.org/abs/0911.2687))
- {#Beasley}
+Discussion with an eye towards application in [[gauge theory]] and in particular for [[Wilson loop]] observables in [[Chern-Simons theory]], hinted at on  
 
+* {#Witten89} [[Edward Witten]], p. 22, 23 of _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+ 
+is in section 4 of 
+
+* {#Beasley} [[Chris Beasley]], _Localization for Wilson Loops in Chern-Simons Theory_, in J. Andersen, H. Boden, A. Hahn, and B. Himpel (eds.) _Chern-Simons Gauge Theory: 20 Years After_, , AMS/IP Studies in Adv. Math., Vol. 50, AMS, Providence, RI, 2011. ([arXiv:0911.2687](http://arxiv.org/abs/0911.2687))
+ 
 referring to 
 
 * S. Elitzur, [[Greg Moore]], A. Schwimmer, and [[Nathan Seiberg]], _Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory_, Nucl. Phys. B 326 (1989) 108&#8211;134.
@@ -950,16 +956,16 @@ A program of applying the orbit method to real nilpotent orbits of real semisimp
 
 Discussion of the orbit method in terms of [[equivariant K-theory]] and [[Dirac induction]] is in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, section 1 of _[[Loop Groups and Twisted K-Theory]]_
- {#HFT}
+* {#HFT} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, section 1 of _[[Loop Groups and Twisted K-Theory]]_
+ 
 
-* [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
- {#Hochs12}
+* {#Hochs12} [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
+ 
 
 The generalization of this to [[elliptic cohomology]] is discussed in 
 
-* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
- {#Ganter12}
+* {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ 
 
 Generalization to [[supergeometry]] is discussed in:
 
@@ -971,8 +977,8 @@ A generalization to [[higher geometry]] and [[2-group]] [[2-representations]] is
 
 The above discussion of the interpretation of the orbit method in terms of higher [[moduli stacks]] for [[differential cohomology]] appears in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
- {#FSS}
+* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 3.4.5 of _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
+ 
 
 See also
 
