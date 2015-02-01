@@ -1,9 +1,19 @@
 
-A class of relatively simple [[2d CFTs]], such as the [[WZW model]], characterized by the fact that their spaces of [[conformal blocks]] are finite dimensional
+#Contents#
+* table of contents
+{:toc}
 
-Locallygiven by a [[rational vertex operator algebra]].
+## Idea
 
-The [[FRS-theorem on rational 2d CFT]] provides a complete classification.
+_Rational 2d conformal field theories_ are that class of relatively simple [[2d CFTs]], such as the [[WZW model]], which are characterized by the fact that their spaces of [[conformal blocks]] are [[finite dimensional vector spaces]].
+
+Locally such 2d CFTs are given by a [[rational vertex operator algebra]].
+
+## Properties
+
+### Classification
+
+The [[FRS-theorem on rational 2d CFT]] provides a complete classification of rational 2d CFT via the [[CS-WZW correspondence]] and the [[Reshetikhin-Turaev construction]] of [[3d Chern-Simons theory]].
 
 [[!redirects rational 2d conformal field theories]]
 
