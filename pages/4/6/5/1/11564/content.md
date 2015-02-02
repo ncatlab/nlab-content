@@ -730,7 +730,7 @@ $$
     \Pi_{dR}(\cdots) && \stackrel{\mathbf{d}}{\longrightarrow} &&
     \flat_{dR}(\cdots)
     \\
-    \simeq && \simeq 
+    \simeq && \simeq  && \simeq
     \\
     \Omega(-,D)^{\bullet \lt 0}
     &&
