@@ -16,7 +16,7 @@ The importance of fixed points all throughout mathematics is difficult to overst
 
 A typical application of fixed points in analysis is through the following general theorem: 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem 
 Suppose $X$ is an (inhabited) [[complete metric space]] with distance function $d$ and $f \colon X \to X$ is a function with Lipschitz constant $r$ less than $1$, i.e., $d(f(x), f(y)) \leq r \cdot d(x, y)$ for all $x, y \in X$. Then $f$ has a unique fixed point. 
 =-- 
@@ -45,9 +45,11 @@ By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used
 
 ### Knaster-Tarski theorem 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem 
+
 If $L$ is a [[complete lattice]], then every monotone (i.e., order-preserving) map $f \colon L \to L$ has a fixed point (in fact, the fixed points of $f$ form a complete lattice). 
+
 =-- 
 
 +-- {: .proof} 
@@ -65,7 +67,7 @@ A virtual corollary of this theorem is the [[Cantor-Schroeder-Bernstein theorem]
 
 The following significantly strengthens the Knaster-Tarski theorem, and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of directed subsets. 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem (Pataraia) 
 If $L$ is an ipo, then every monotone map $f \colon L \to L$ has a (least) fixed point. 
 =-- 
@@ -95,7 +97,7 @@ One may mimic the last part of the proof of the Knaster-Tarski theorem to show t
 
 Various classical fixed-point theorems for monotone functions on posets can be "categorified" to give appropriate fixed-point theorems for endofunctors on categories. An example is that Kleene's fixed-point theorem generalizes to Adamek's fixed-point theorem: 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem 
 Let $C$ be a category with an initial object $0$ and colimits of $\kappa$-directed diagrams for some regular cardinal $\kapa$, and suppose $F \colon C \to C$ preserves $\kappa$-directed colimits. Then $F$ has an initial algebra (which by Lambek's theorem is a fixed point of $F$). 
 =-- 
@@ -119,7 +121,7 @@ A typical application is where $C$ is a $\kappa$-accessible category and $F \col
 
 An arguably more elegant viewpoint on this is given in the following theorem and proof. 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem 
 Suppose $C$ is [[locally presentable category|locally presentable]], i.e., [[accessible category|accessible]] and [[complete category|complete]]/[[cocomplete category|cocomplete]], and suppose $F \colon C \to C$ is an [[accessible functor]]. Then the category of $F$-[[algebra of an endofunctor|algebras]] is also locally presentable. In particular, there exists an initial $F$-algebra. Moreover, the category of fixed points, i.e., the category of $F$-algebras $X$ for which the structure $F X \to X$ is an isomorphism is also locally presentable (in particular, cocomplete and complete). 
 =-- 
@@ -137,7 +139,7 @@ Paul Taylor has built an elegant theory of locating certain initial algebras ins
 
 ### Fixed points of left exact idempotent endofunctors 
 
-+-- {: .un_theorem} 
++-- {: .num_theorem} 
 ###### Theorem (Par&#233;, Rosebrugh, Wood) 
 Let $E$ be a topos, and let $F \colon E \to E$ be a left-exact idempotent _functor_. Then the category of $F$-coalgebras $X$ whose structure maps $\theta \colon X \to F(X)$ are isomorphisms is a topos. 
 =-- 
@@ -158,11 +160,12 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 ## References 
 
-* Claudio Hermida, Bart Jacobs, _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
+* [[Claudio Hermida]], [[Bart Jacobs]], _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
 
-* Michael Makkai and Robert Par&#233;, _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
+* [[Michael Makkai]], [[Robert Paré]], _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
 {#MakkaiPare}
 
 
 [[!redirects fixed points]]
 
+[[!redirects Knaster-Tarski theorem]]
