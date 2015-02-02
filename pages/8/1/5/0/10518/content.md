@@ -304,13 +304,21 @@ This is now the [[interaction]] term for the corresponding [[brane]] [[sigma-mod
 
 ## References
 
-Parameterized WZW models as [[target spaces]] in [[heterotic string theory]] are discussed in section 7 of
+Parameterized WZW models as [[sigma models]] for the [[heterotic string]] originate in
+
+* {#GatesSiegel88} [[Jim Gates]], [[Warren Siegel]], _Leftons, Rightons, Nonlinear $\sigma$-Models, and Superstrings_, Phys.Lett. B206 (1988) 631 ([spire](https://inspirehep.net/record/251286/))
+
+* [[Jim Gates]], S. Ketov, S. Kozenko, O. Solovev, _Lagrangian chiral coset construction of heterotic string theories in $(1,0)$ superspace_, Nucl.Phys. B362 (1991) 199-231 ([spire](http://inspirehep.net/record/314337/?ln=en))
+
+* [[Jim Gates]], _Strings, superstrings, and two-dimensional lagrangian field theory_, pp. 140-184 in Z. Haba, J. Sobczyk (eds.) _Functional integration, geometry, and strings_, proceedings of the XXV Winter School of Theoretical Physics, Karpacz, Poland (Feb. 1989), , Birkh&#228;user, 1989.
+
+Discussion relating this to equivariant [[elliptic genera]] is in section 7 of
 
 * {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
   
-related to earlier discussion in
+Review of this includes
 
-* {#GatesSiegel88} [[Jim Gates]], [[Warren Siegel]], _Leftons, Rightons, Nonlinear $\sigma$-Models, and Superstrings_, Phys.Lett. B206 (1988) 631 ([spire](https://inspirehep.net/record/251286/))
+* [[Eric Sharpe]], _Recent developments in heterotic compactifications_, in [[Eric Sharpe]], [[Arthur Greenspoon]], _[Advances in String Theory: The First Sowers Workshop in Theoretical Physics](http://www.ams.org/bookstore-getitem/item=AMSIP-44)_, AMS 2008 ([pdf slides (39-49)](http://www.phys.vt.edu/sowers/talks/sharpe-sowers.pdf))
 
 The corresponding [[elliptic genera]] had been considered in 
 
@@ -323,6 +331,10 @@ and with more emphasis on [[equivariant elliptic cohomology]] in
 The discussion of the relevant [[Heisenberg n-group]] theory is in 
 
 * {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+
+with more details in 
+
+* [[Urs Schreiber]], _[[schreiber:Obstruction theory for parameterized higher WZW terms]]_
   
 
 
