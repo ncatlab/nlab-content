@@ -10,7 +10,7 @@
 ###### Definition
 
 A morphism in $FinSet^{*/}$ is called an 
-**[[inert morphism]]** if it is an [[injection]] on those elements that are not sent to the base point.
+**[[inert morphism]]** if it is surjective and an [[injection]] on those elements that are not sent to the base point.
 
 A morphism in $FinSet^{*/}$ is called an **[[active morphism]]** if only the basepoint goes to the basepoint.
 
