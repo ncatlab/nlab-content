@@ -76,6 +76,8 @@ $$
 
 * [[arithmetic topology]]
 
+* [[Frobenioid]]
+
 ## References
 
 * Dino Lorenzini, _An Invitation to Arithmetic Geometry_ (Graduate Studies in Mathematics, Vol 9) GSM/9
