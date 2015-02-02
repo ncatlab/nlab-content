@@ -1,0 +1,7 @@
+
+
+* [webpage](http://insti.physics.sunysb.edu/~siegel/plan.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Warren_Siegel)
+
+category: people
