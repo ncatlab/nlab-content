@@ -306,8 +306,11 @@ This is now the [[interaction]] term for the corresponding [[brane]] [[sigma-mod
 
 Parameterized WZW models as [[target spaces]] in [[heterotic string theory]] are discussed in section 7 of
 
-* [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
-  {#DistlerSharpe10}
+* {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
+  
+related to earlier discussion in
+
+* {#GatesSiegel88} [[Jim Gates]], [[Warren Siegel]], _Leftons, Rightons, Nonlinear $\sigma$-Models, and Superstrings_, Phys.Lett. B206 (1988) 631 ([spire](https://inspirehep.net/record/251286/))
 
 The corresponding [[elliptic genera]] had been considered in 
 
@@ -319,14 +322,14 @@ and with more emphasis on [[equivariant elliptic cohomology]] in
 
 The discussion of the relevant [[Heisenberg n-group]] theory is in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
-  {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  
 
 
 General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
-  {#FiorenzaSatiSchreiber13}
+* {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+  
 
 [[!redirects parameterized WZW models]]
 [[!redirects parameterized Wess-Zumino-Witten model]]
