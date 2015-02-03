@@ -19,7 +19,7 @@ In the [[physics]] of [[cosmology]], what is called _chaotic cosmic inflation_ (
 
 The name comes about since the model naturally predicts an ambient [[spacetime]] [[manifold]] in which local regions stochastically undergo [[cosmic inflation]]. The idea is that one such region would be what we observe from the inside as our [[observable universe]].  This large-scale picture of chaotic inflation has later come to be referred to as a _[[multiverse]]_ (but see the caveats there).
 
-While the theory of [[cosmic inflation]] in general is in excellent agreement with astrophysical [[experiment]], chaotic inflation specifically is thought to be strongly favored among other variants of inflation by the results of the [[BICEP2]]-[[experiment]].
+While the theory of [[cosmic inflation]] in general is in excellent agreement with astrophysical [[experiment]], chaotic inflation, which generically predicts large values of the tensor-to-scalar ratio $r$ is disfavored by recent measurements which show low upper bounds on $r$ ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15)). (These low values of $r$ instead prefer the [[Starobinsky model of cosmic inflation]].)
 
 ## Description
 
@@ -61,6 +61,13 @@ Reviews include
 * [[Andrei Linde]], _Eternally Existing Self-Reproducing Chaotic Inflationary Universe_ Physics Letters B 175 (4): 395&#8211;400. ([pdf](http://www.stanford.edu/~alinde/Eternal86.pdf))
 
 * Wikipedia, _[Eternal inflation](http://en.wikipedia.org/wiki/Eternal_inflation)_
+
+The relevant experimental results (disfavoring the model) are due to
+
+* {#PlanckCollaboration13} _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
+
+* {#BICEPKeckPlanck15} _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
+
 
 [[!redirects chaotic inflation]]
 
