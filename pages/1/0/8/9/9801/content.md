@@ -100,7 +100,7 @@ $$
   \,.
 $$
 
-This condition had originally been seen as a [[anomaly cancellation]]-condition of the gauged WZW model. A systematic discussion of these obstructions in [[equivariant de Rham cohomology]] is in ([Figueroa-O'Farrill+Stanciu 94](#FigueroaOFarrillStanciu94)).
+This condition had originally been seen as a [[anomaly cancellation]]-condition of the gauged WZW model. A systematic discussion of these obstructions in [[equivariant de Rham cohomology]] is in ([Figueroa-O'Farrill-Stanciu 94](#FigueroaOFarrillStanciu94)).
 
 Now by [[schreiber:∞-Wess-Zumino-Witten theory]], the corresponding WZW model has as target the [[smooth groupoid]] $\tilde G//H$ such that maps into it are locally a map $g$ into $G$ together with 1-form potentials $A^a$ for the $F^a$, and the WZW term is locally a 2-form built from $d g$ and $A^a$ such that its curvature 3-form is $\tilde H$. This is the **gauged WZW model** ([Witten 92, (A.16)](#Witten92)).
 
