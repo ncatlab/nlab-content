@@ -52,7 +52,7 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 In the following meetings we shall look into various applications and comparisons relevant to other parts of mathematics.
 
-* Jan. 27, 2015: Quantum BV formalism in AQFT by Dorothea.
+* Jan. 27, 2015: Quantum BV formalism in AQFT by Dorothea. QFT in globally hyperbolic spacetime: free theory as an example, the functorial description, the classical observables. The quantum description involves three types of product: the star product, the (naive) pointwise product and the time-ordered product. Time-ordering operator relates the last two, while the connection to the star product is given by the casual structure. FR1, FR2.
 
 * Feb. 3, 2015: Factorization algebras and Goodwillie Calculus by Dmitri.
 
@@ -101,3 +101,9 @@ For the application to topological manifold, see
 On $L_\infty$ space, see
 
 * [GG] R. Grady and O. Gwilliam, L-infinity spaces and derived loop spaces, arXiv:1404.5426[math.AG].
+
+On Algebraic Quantum Field Theory, see
+
+* [FR1] K. Fredenhagen and K. Rejzner, Batalin-Vilkovisky formalism in the functional approach to classical field theory, Commun.Math.Phys. 314 (2012) 93-127, arXiv:1101.5112[math-ph].
+
+* [FR2] K. Fredenhagen and K. Rejzner, Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory, Commun.Math.Phys. 317 (2013) 697-725, arXiv:1110.5232[math-ph].
