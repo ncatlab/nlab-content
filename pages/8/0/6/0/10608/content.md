@@ -52,7 +52,7 @@ On page 11, Lawvere discusses categories intermediate between the original cohes
 
 The text by Cantor that Lawvere refers to is
 
-> {#Cantor1895} [[Georg Cantor]], _Beitr&#228;ge zur Begr&#252;ndung der transfiniten Mengenlehre_, Math. Ann. 46 (1895) pp.481-512, reprinted from p. 282 on in [[Ernst Zermelo]] (ed.), _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin 1932 ([online English translation](https://archive.org/details/contributionstof00cant))
+* {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. 46 (1895) pp.481-512, reprinted from p. 282 on in [[Ernst Zermelo]] (ed.), _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin 1932 ([online English translation](https://archive.org/details/contributionstof00cant))
 
 category: reference
 
