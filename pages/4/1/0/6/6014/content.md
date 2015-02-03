@@ -11,7 +11,7 @@ $$
 
 where the colimit runs through all subobjects $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. The quotient functor $Q: A\to A/T$ is obvious. 
 
-A basic example is the quotient of the category of abelian groups modulo the torsion groups. This category is equivalent to the category of $\mathbb{Q}$-vector spaces, by the functor which maps an abelian group $M$ to the scalar extension $M \otimes_{\mathbb{Z}} \mathbb{Q}$.
+A basic example is the quotient of the category of abelian groups modulo the torsion groups. This category is equivalent to the category of $\mathbb{Q}$-vector spaces, by the functor which maps an abelian group $M$ to the scalar extension $M \otimes_{\mathbb{Z}} \mathbb{Q}$. (See the [Stacks Project, Tag 0B0J](http://stacks.math.columbia.edu/tag/0B0J) for a proof.)
 
 A thick subcategory (here always in the strong sense) is said to be [[localizing subcategory|localizing]] if and $Q$ admits a right adjoint $A/T\to A$, often called the __section functor__. Every coreflective thick subcategory admits a section functor, and the converse holds if $A$ has injective envelopes. A thick subcategory $T\subset A$ is a coreflective iff $(T,F)$ is a [[torsion theory]], where
 
