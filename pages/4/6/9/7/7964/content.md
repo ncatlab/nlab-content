@@ -70,6 +70,7 @@ The original articles explaining what is now called the Higgs mechanism by [[spo
 
 While all these articles essentially describe the Higgs mechanism, appearently only the one by Peter Higgs explicitly points out that this mechanism predicts the existence of a new, then unobserved, boson, the one therefore now called the _Higgs boson_.
 
+
 The general theory of [[spontaneous symmetry breaking]] is reviewed in
 
 * Jeremy Bernstein, _Spontaneous symmetry breaking, gauge theories, the Higgs mechanism and all that_, Rev. Mod. Phys. 46, 7&#8211;48 (1974)  ([pdf](http://www.calstatela.edu/faculty/kaniol/p544/rmp46_p7_higgs_goldstone.pdf))
@@ -77,6 +78,15 @@ The general theory of [[spontaneous symmetry breaking]] is reviewed in
 The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discussed in 
 
 * Marcela Carena, Howard E. Haber, _Higgs Boson Theory and Phenomenology_, Prog.Part.Nucl.Phys.50:63-152,2003 ([arXiv:hep-ph/0208209](http://arxiv.org/abs/hep-ph/0208209))
+
+Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
+
+* {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
+
+* [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
+
+(a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
+
 
 [[!redirects Higgs fields]]
 
