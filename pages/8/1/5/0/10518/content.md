@@ -24,11 +24,17 @@
 
 
 ## Idea
+ {#Idea}
+
+Where a _[[WZW model]]_ is a [[sigma model]] [[quantum field theory]] whose [[target space]] is a [[group]] $G$, a _parameterization_ of such a model is a sigma-model (subject usually to some constraints) whose target space now is the total space of a $G$-[[principal bundle]] such that the [[action functional]] when restricted to fields that take values only in any one [[fiber]], reduces to the given un-parameterized model.
+
+Parameterized WZW models have been argued to provide a more geometric and more complete description of the [[current algebra]]-sector of [[heterotic string]] backgrounds than the traditional construction in terms of worldsheet fermions  ([Gates-Siegel 88](#GatesSiegel88), [Gates-Ketov-Kozenko-Solovev 91](#GKKS91), [Distler-Sharpe 10, section 7](#DistlerSharpe10)). In particular the [[Green-Schwarz anomaly]] of the heterotic string finds a natural interpretation as the [[obstruction]] to parameterizing the given WZW term over the given principal bundle:
+
 
 A ([[schreiber:∞-Wess-Zumino-Witten theory|higher]]) [[WZW model]] is an $n$-dimensional [[sigma-model]] [[field theory]] whose [[target space]] is a [[group]] $G$ and whose [[interaction]]-part of the [[action functional]] is the [[higher holonomy]] of a [[circle n-bundle with connection]] 
 
 $$
-  \mathcal{L}_{WZW}
+  \mathbf{L}_{WZW}
   \;\colon\;
   G \longrightarrow 
   \mathbf{B}^n U(1)_{conn}
@@ -48,168 +54,24 @@ $$
   }
 $$
 
-over some base space $B$ which admits a [[lift of the structure group]] to the [[Heisenberg n-group]] of $\mathcal{L}_{WZW}$ regarded as a [[prequantum n-bundle]], then the [[fiber]]-wise copies of $G$ and $\mathcal{L}_{WZW}$ glue to a single [[circle n-bundle with connection]] 
+over some base space $B$, then a [[lift of the structure group]] to the [[Heisenberg n-group]] $Heis_G(\mathbf{L}_{WZW})$ of $\mathbf{L}_{WZW}$ regarded as a [[prequantum n-bundle]], is the structure necessary and sufficient for the [[fiber]]-wise copies of $G$ and $\mathbf{L}_{WZW}$ glue fiberwise to a single [[circle n-bundle with connection]] 
 
 $$
-  \mathcal{L}_{WZW}^X \;\colon\; X \longrightarrow \mathbf{B}^n U(1)_{conn}
+  \mathbf{L}_{WZW}^X \;\colon\; X \longrightarrow \mathbf{B}^n U(1)_{conn}
 $$
 
 on the total space $X$ of this bundle. This hence yields what one may think of as a coherent collection of [[WZW models]] _parameterized_ over base space $B$.
 
-## Definition
-
-
-### Higher WZW models and their Heisenberg $n$-groups
-
-Given an ambient [[differential cohesion|differentially]] [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an [[∞-group]] $G \in Grp(\mathbf{H})$, then (the [[interaction]] part of) an $n$-dimensional [[schreiber:∞-Wess-Zumino-Witten theory]] [[sigma-model]] over $G$ is determined ([Fiorenz-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) by a [[circle n-bundle with connection]] on $G$, hence by a morphism
+For the case that $G$ is a [[compact Lie group|compact]] [[semisimple Lie group]] and $\mathbf{L}_{WZW}$ its canonical WZW term (the [[circle n-bundle with connection|2-connection]] on the [[string 2-group]]), then 
 
 $$
-  \mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^n U(1)_{conn}
+  Heis_G(\mathbf{L}_{WZW})\simeq String(G)
 $$
 
-to the [[higher moduli stack]] of [[circle n-bundle with connection]].
-
-This may be regarded equivalently as the [[prequantum n-bundle]] of the higher [[WZW model]]. From this perspective, there is the _[[Heisenberg n-group]]_ $Heis(\mathcal{L}_{WZW})$ which is the group of [[∞-automorphisms]] of $\mathcal{L}_{WZW}$ covering the [[∞-action]] of $G$ on itself, hence the [[cohesive]] [[automorphism ∞-group]]
-
-$$
-  Heis(\mathcal{L}_{WZW})
-  \hookrightarrow
-  \underset{\mathbf{B}^n U(1)_{conn}}{\prod}
-  [\mathcal{L}_{WZW},\mathcal{L}_{WZW}]_{/\mathbf{B}^n U(1)_{conn}}^\simeq
-$$
-
-of $\mathcal{L}_{WZW}$ regarded as an object of the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$ (the full [[∞-group]] on the right is the [[quantomorphism n-group]]).
-
-By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group]] is (for connected $\Pi(X)$, without restriction of generality) a $\mathbf{B}^{n-1}U(1)$-[[∞-group extension]] of $G$, 
+and hence the [[obstruction]] to the existence of a parameterization is precisely a [[string structure]], recovering the traditional statement of the [[Green-Schwarz anomaly]] (see [cwzw](#cwzw) for details of this claim).
 
 
-### Globalization from a Heisenberg-structure
- {#GlobalizationFromAHeisenbergStructure}
 
-> the following is an old argument. There is now a stronger statement and proof in section 3.6.16.2 of [[schreiber:differential cohomology in a cohesive topos|dcct]]
-
-+-- {: .num_prop }
-###### Proposition
-
-Given $\mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^n U(1)_{conn}$ in $\mathbf{H}$ then a [[Heisenberg n-group]] [[cocycle]] $\hat g \;\colon\; B \longrightarrow \mathbf{B}Heis(\mathcal{L}_{WZW})$ on some base object $B \in \mathbf{H}$ induces a $G$-[[fiber ∞-bundle]] $X \to B$ equipped with a [[circle n-bundle with connection]] $\mathcal{L}^X_{WZW}$ which restricts on each [[fiber]] to $\mathcal{L}_{WZW}$:
-
-$$
-  \array{
-     \mathcal{L}_{WZW} \colon & G &\longrightarrow& X &\stackrel{\mathcal{L}^X_{WZW}}{\longrightarrow}& \mathbf{B}^n U(1)_{conn}
-     \\
-     & && \downarrow
-     \\
-     & & g \colon & B &\stackrel{\hat g}{\longrightarrow}& \mathbf{B}Heis(\mathcal{L}_{WZW}) &\longrightarrow& \mathbf{B}G
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[base change]] ([[context extension]] $\dashv$ [[dependent product]])-[[(∞,1)-adjunction]] the map
-
-$$
-  B \longrightarrow \mathbf{B}Heis(\mathcal{L}_{WZW}) \hookrightarrow \underset{\mathbf{B}^n U(1)_{conn}}{\prod} \mathbf{B}\mathbf{Aut}(\mathcal{L}_{WZW})
-$$
-
-in $\mathbf{H}$ corresponds to a map of the form
-
-$$
-  B \times \mathbf{B}^n U(1)_{conn} \longrightarrow \mathbf{B}\mathbf{Aut}(\mathcal{L}_{WZW})
-$$
-
-in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$. This modulates a $\mathcal{L}_{WZW}$-[[fiber ∞-bundle]] by [[homotopy pullback]] of the universal [[associated ∞-bundles]]:
-
-$$
-  \array{
-     \mathcal{L}_{WZW} &\longrightarrow& E &\longrightarrow& \mathcal{L}_{WZW}//\mathbf{Aut}(\mathcal{L}_{WZW})
-     \\
-     && \downarrow &{}^{(pb)}& \downarrow
-     \\
-     && B \times \mathbf{B}^n U(1)_{conn} &\stackrel{}{\longrightarrow}& \mathbf{B} \mathbf{Aut}(\mathcal{L}_{WZW})
-  }
-$$
-
-in $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$.
-
-Now observe that [[dependent sum]] 
-
-$$
-  \underset{\mathbf{B}^n U(1)_{conn}}{\sum}
-  \;\colon\;
-  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
-  \longrightarrow
-   \mathbf{H}
-$$
-
-preserves [[homotopy fiber products]], by [this proposition](dependent%20sum#AbsoluteDependentSumPreservesFiberProducts). Therefore the above induces for each point $b \in B$ a [[homotopy pullback]] diagram in $\mathbf{H}$ of the form
-
-$$
-  \array{
-    G &\longrightarrow& \underset{\mathbf{B}^n U(1)_{conn}}{\sum} E
-    \\
-    {}^{\mathllap{\mathcal{L}_{WZW}}}\downarrow &{}^{(pb)}& \downarrow
-    \\
-    \mathbf{B}^n U(1)_{conn} &\stackrel{(b,Id)}{\longrightarrow}& B \times \mathbf{B}^n U(1)_{conn}
-  }
-  \,.
-$$
-
-Moreover, by the same argument [[dependent sum]] preserves [[1-epimorphisms]] and hence [[covers]] so that we find that there is a [[cover]] $p \;\colon\; U \longrightarrow B$ such that the $\infty$-bundle
-
-$$
-  X \coloneqq \underset{\mathbf{B}^n U(1)_{conn}}{\sum} E
-$$
-
-is equivalent over $U$ to the trivial $G$-[[fiber ∞-bundle]] $U \times G$: over 
-
-$$
-  \array{
-    U \times G &\longrightarrow& X
-    \\
-    {}^{\mathllap{(Id,\mathcal{L}_{WZW}})}\downarrow &{}^{(pb)}& \downarrow
-    \\
-    U \times \mathbf{B}^n U(1)_{conn} &\stackrel{(p,Id)}{\longrightarrow}& B \times \mathbf{B}^n U(1)_{conn}
-  }
-  \,.
-$$
-
-This exhibits $X \to B$ as a $G$-[[fiber ∞-bundle]] with the claimed property.
-
-=--
-
-### Parameterized WZW models
-
-By the abive the [[Heisenberg n-group]] is precisely such that a lift of a $G$-[[cocycle]] $B \longrightarrow \mathbf{B}G$ modulating a $G$-[[principal ∞-bundle]] $X \to B$ to a $Heis(\mathcal{L}_{WZW})$ cocycle
-
-$$
-  \array{
-    && \mathbf{B}Heis(\mathcal{L}_{WZW})
-    \\
-    & \nearrow & \downarrow
-    \\
-    B &\longrightarrow& \mathbf{B}G
-  }
-$$
-
-is a single global WZW term 
-
-$$
-  \mathcal{L}^X_{WZW} \;\colon\; X \longrightarrow \mathbf{B}^n U(1)_{conn}
-$$
-
-which restricts on each [[fiber]] to $\mathcal{L}_{WZW}$.
-
-But the [[Heisenberg n-group]] [[∞-group extension]] is itself classified by an [[∞-group cohomology|∞-group cocycle]] 
-
-$$
-  \chi \;\colon\; \mathbf{B}G \longrightarrow \mathbf{B}^n U(1)
-$$
-
-and so this is the [[universal characteristic class]] which measures the [[obstruction]] for such a lift to exist.
 
 ## Examples
 
@@ -220,7 +82,7 @@ The [[heterotic string]] [[worldsheet]] [[theory (physics)|theory]] is a [[sigma
 By ([Fiorenza-Rogers-Schreiber 13, section 2.6.1](#FiorenzaRogersSchreiber13)) we find in this case that the [[Heisenberg 2-group]] is the [[string 2-group]]
 
 $$
-  Heis(\mathcal{L}_{WZW^{het}})
+  Heis(\mathbf{L}_{WZW^{het}})
   \simeq
   String(G)
   \,.
@@ -233,10 +95,10 @@ On the level of [[action functionals]] in [[codimension]] 0 this observation is 
 
 ### The Green-Schwarz super $p$-branes on curved super spacetime
 
-By [Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13) the super-[[branes]] of [[string theory]]/[[M-theory]] on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1;N}$ classified by the [[brane scan]]/[[schreiber:The brane bouquet]] are [[schreiber:∞-Wess-Zumino-Witten theory]] [[sigma-model]]
+By [Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13) the super-[[branes]] of [[string theory]]/[[M-theory]] on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1;N}$ classified by the [[brane scan]]/[[schreiber:The brane bouquet|the brane bouqet]] are [[schreiber:∞-Wess-Zumino-Witten theory]] [[sigma-model]]
 
 $$
-  \mathcal{L}_{WZW^{brane}}
+  \mathbf{L}_{WZW^{brane}}
   \;\colon\;
   \mathbb{R}^{d-1,1;N} \longrightarrow \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
   \,,
@@ -245,58 +107,17 @@ $$
 where $\Gamma$ is the group of [[periods]] of the defining [[super L-∞ algebra]] [[L-∞ algebra cohomology|L-∞ cocycle]]
 
 $$
-  \mathbf{B} sIso_N(d-1,d) \longrightarrow \mathbf{B}^{p+2}(\mathbb{R}/\Gamma)
+  \mathbf{B} sIso_N(d-1,1) \longrightarrow \mathbf{B}^{p+2}(\mathbb{R}/\Gamma)
   \,.
 $$
 
-In order to extend this construction from [[super Minkowski spacetime]] to [[supermanifolds]] $X$ that are more general curved solutions to [[supergravity]], we may consider the corresponding parameterized WZW model on each [[tangent space]] 
+A necessary structure globalizing this to a curved super-spacetime $X$ is a [[G-structure]] on $X$ for $G = \mathbf{QuantMorph}(\mathbf{L}_{WZW^{brane}}^{inf})$ the restriction of the WZW term to the [[infinitesimal disk]].
 
-$$
-  T_x X \simeq \mathbb{R}^{d-1,1;N}
-$$
-
-separately, using the fact that by [[higher Cartan geometry]] a configuration of [[supergravity]] is encoded in an an $sIso(d-1,1;N)$-[[principal bundle]] and using that the [[super Poincare group]] is a [[semidirect product]]
-
-$$
-  sIso_N(d-1,1) \simeq O(d-1,1) \ltimes \mathbb{R}^{d-1,1;N}
-$$
-
-of [[super Minkowski spacetime]] (regarded as a [[super translation group]]) with the [[Lorentz group]].
-
-This means that whenever $X$ admits a "higher super-brane structure" in that there is a trivialization of the [[obstruction]]
-
-$$
-  X \stackrel{\tau_X}{\longrightarrow} \mathbf{B} sIso(d-1,1;N)
-  \stackrel{}{\longrightarrow}
-  \mathbf{B}^{p+2}(\mathbb{R}/\Gamma)
-$$
-
-then the [[Green-Schwarz action functional]] refined to a [[local prequantum field theory]] datum $\mathcal{L}_{WZW^{brane}}$ globalizes to the [[tangent bundle]] of [[super spacetime]]
-
-$$
-  \mathcal{L}_{WZW^{brane}}
-  \;\colon\;
-  T X
-  \longrightarrow 
-  \mathbf{B}^{p+1} (\mathbb{R}/\Gamma)_{conn}
-  \,.
-$$
+Given this then the [[Green-Schwarz action functional]] refines to a [[local prequantum field theory]] datum $\mathbf{L}_{WZW^{brane}}$ globally defined on $X$.
 
 (For [[branes]] on which other branes may end, such as the [[D-branes]] and the [[M5-brane]], here [[super Minkowski spacetime]] is replaced by a [[extended Minkowski super spacetime]], as discussed in ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13))).
 
-Now (...)
-
-$$
-  \mathcal{L}^{X}_{WZW^{brane}}
-  \;\colon\;
-  X \stackrel{\sigma_0}{\longrightarrow}
-  T^\ast X \otimes \mathbb{R}^{d-1,1;N}
-   \stackrel{\mathcal{L}^{T X}_{WZW^{brane}}}{\longrightarrow}
- \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
-  \,.
-$$
-
-This is now the [[interaction]] term for the corresponding [[brane]] [[sigma-model]] on the curved [[super spacetime]].
+More details are in ([cwzw](#cwzw)).
 
 ## Related concepts
 
@@ -308,9 +129,9 @@ Parameterized WZW models as [[sigma models]] for the [[heterotic string]] origin
 
 * {#GatesSiegel88} [[Jim Gates]], [[Warren Siegel]], _Leftons, Rightons, Nonlinear $\sigma$-Models, and Superstrings_, Phys.Lett. B206 (1988) 631 ([spire](https://inspirehep.net/record/251286/))
 
-* [[Jim Gates]], S. Ketov, S. Kozenko, O. Solovev, _Lagrangian chiral coset construction of heterotic string theories in $(1,0)$ superspace_, Nucl.Phys. B362 (1991) 199-231 ([spire](http://inspirehep.net/record/314337/?ln=en))
-
 * [[Jim Gates]], _Strings, superstrings, and two-dimensional lagrangian field theory_, pp. 140-184 in Z. Haba, J. Sobczyk (eds.) _Functional integration, geometry, and strings_, proceedings of the XXV Winter School of Theoretical Physics, Karpacz, Poland (Feb. 1989), , Birkh&#228;user, 1989.
+
+* {#GKKS91} [[Jim Gates]], S. Ketov, S. Kozenko, O. Solovev, _Lagrangian chiral coset construction of heterotic string theories in $(1,0)$ superspace_, Nucl.Phys. B362 (1991) 199-231 ([spire](http://inspirehep.net/record/314337/?ln=en))
 
 Discussion relating this to equivariant [[elliptic genera]] is in section 7 of
 
@@ -334,7 +155,7 @@ The discussion of the relevant [[Heisenberg n-group]] theory is in
 
 with more details in 
 
-* [[Urs Schreiber]], _[[schreiber:Obstruction theory for parameterized higher WZW terms]]_
+* {#cwzw} [[Urs Schreiber]], _[[schreiber:Obstruction theory for parameterized higher WZW terms]]_
   
 
 
@@ -350,6 +171,7 @@ General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 [[!redirects parametrized WZW model]]
 [[!redirects parametrized WZW models]]
 [[!redirects parametrized Wess-Zumino-Witten model]]
+
 [[!redirects parametrized Wess-Zumino-Witten models]]
 
 
