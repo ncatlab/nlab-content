@@ -158,6 +158,11 @@ For a generalization of cardinality from sets to [[groupoids]] see [[groupoid ca
 
 ## References
 
+The original article is
+
+* {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. 46 (1895) pp.481-512, reprinted from p. 282 on in [[Ernst Zermelo]] (ed.), _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin 1932 ([online English translation](https://archive.org/details/contributionstof00cant))
+
+
 The book
 
 * Peter J Cameron, _Sets, Logic and Categories_  (ISBN: 1-85233-056-2 )
