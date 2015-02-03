@@ -29,7 +29,9 @@ This page collects material related to the article
 
 on [[adjoint cylinders]] and [[cohesive toposes]].
 
-This is in part motivated from attempts to formalize thoughts appearing in [[Georg Hegel]]'s _[[Science of Logic]]_ on [[unity of opposites]].
+The article claims that [[Georg Cantor]]'s original use of terminology ([Cantor 1895](#Cantor1895)) was distorted by its editors to become what we now take to be the standard meaning of [[sets]] and their [[cardinality]] in [[set theory]]. But that instead Cantor really meant "[[cohesion|cohesive types]]" when saying "Menge" and used "Kardinale" really for what we call the underlying set $\flat X$ of a cohesive type $X$.
+
+Beyond this, the article is in part motivated from attempts to formalize thoughts appearing in [[Georg Hegel]]'s _[[Science of Logic]]_ on [[unity of opposites]].
 
 Concretely it is about the [[unity of opposites]] that in a set all elements are "distinct, but indistinguishable". Lawvere argues that this and Cantor's original notion of _[[cardinality]]_ is captured by the [[adjoint modality]] given by [[flat modality]] $\dashv$ [[sharp modality]]. 
 
@@ -45,6 +47,12 @@ In view of the relationship between cohesion and modality, Lawvere's distinction
 
 On page 11, Lawvere discusses categories intermediate between the original cohesive category and the base. This relates to the discussion, pp. 10-11 of [[Some Thoughts on the Future of Category Theory]], which remarks on dimensional levels of increasing determinateness, including infinitesimal increases.
 
+
+## References
+
+The text by Cantor that Lawvere refers to is
+
+> {#Cantor1895} [[Georg Cantor]], _Beitr&#228;ge zur Begr&#252;ndung der transfiniten Mengenlehre_, Math. Ann. 46 (1895) pp.481-512, reprinted from p. 282 on in [[Ernst Zermelo]] (ed.), _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin 1932 ([online English translation](https://archive.org/details/contributionstof00cant))
 
 category: reference
 
