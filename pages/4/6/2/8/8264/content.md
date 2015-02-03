@@ -21,7 +21,7 @@ The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[F
 
 Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
 
-More recent experiments ([[BICEP2]]) seem to favor the variant known as [[chaotic inflation]].
+The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-Keck-Planck 15](#BICEPKeckPlanck15)) favors the [[Starobinsky model of cosmic inflation]].
 
 ## Variants
 
@@ -106,11 +106,13 @@ see _[[Starobinsky model of cosmic inflation]]_
 
 * H .V. Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
 
-* [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
+* {#PlanckCollaboration13} [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
   * Resonaances, _[Planck about inflation](http://resonaances.blogspot.de/2013/04/planck-about-inflation.html)_
 
-* [[BICEP2]]
+  * {#Linde14} [[Andrei Linde]], _Inflationary Cosmology after Planck 2013_ ([arXiv:1402.0526](http://arxiv.org/abs/1402.0526))
+ 
+* {#BICEPKeckPlanck15} _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
 
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
@@ -155,5 +157,4 @@ See also at _[[string phenomenology]]_.
 [[!redirects inflatons]]
 [[!redirects inflaton field]]
 [[!redirects inflaton fields]]
-
 
