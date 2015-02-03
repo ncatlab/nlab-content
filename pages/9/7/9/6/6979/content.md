@@ -66,6 +66,10 @@ _[[relation between type theory and category theory]]_.
 
 * [[Martin-Löf dependent type theory]].
 
+## Related concepts
+
+* [[linear dependent type theory]]
+
 ## References
 
 All the essential ingredients are listed in 
@@ -85,8 +89,8 @@ See also
 
 A discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
-* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
-  {#Seely}
+* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  
 
 For more see the references at _[[Martin-Löf dependent type theory]]_.
 
