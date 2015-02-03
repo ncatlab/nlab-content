@@ -54,7 +54,7 @@ Together these lay out what has come to be called _Hegel's system_ ([&#167;1805]
 
 Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _subjective logic_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology+of+Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
 
-Hegel's system is the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). Where Hegel speaks of his system as _science_ "Wissenschaft" and _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, or even being observed -- by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking mostly in a mystic or gnostic tone, revealing truths by the way of a seer. 
+Hegel's system is the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). Where Hegel speaks of his system as _science_ "Wissenschaft" and _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, in fact being observed [PdGPreface15](#PdGPreface15) -- by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking mostly in a mystic or gnostic tone, revealing truths by the way of a seer. 
 
 Accordingly Hegel's system has often been and is being rejected as being obfuscating and irrational. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic. Hegel was aware of this problem, but nevertheless insisted:
 
@@ -289,8 +289,8 @@ $$
     \\
     && && && 
     \stackrel{Existenz}{}
-    &\stackrel{Form}{} & &#643; 
-    &\stackrel{Ding}{\stackrel{Materie/Eichfelder}{\dashv}}& \flat &
+    &\stackrel{Form}{} & '&#643;' 
+    & \stackrel{Ding}{\dashv}& '\flat' &
      \stackrel{Inhalt}{}
     \\
     && && && && \bot && \bot
@@ -2429,6 +2429,10 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 
 #### B. Bewu&#223;tsein -- Ph&#228;nomenologie
 
+
+
+> {#PdGPreface15} PdGPreface15 Hence the important thing for the student of science is to make himself undergo the strenuous toil of conceptual reflection, of thinking in the form of the notion. This demands concentrated attention on the notion as such, on simple and ultimate determinations like being-in-itself, being-for-itself, self-identity, and so on; for these are elemental, pure, self-determined functions of a kind we might call souls, were it not that their conceptual nature denotes something higher than that term contains. The interruption by conceptual thought of the habit of always thinking in figurative ideas (Vorstellungen) is as annoying and troublesome to this way of thinking as to that process of formal intelligence which in its reasoning rambles about with no real thoughts to reason with. The former, the habit, may be called materialised thinking, a fortuitous mental state, one that is absorbed in what is material, and hence finds it very distasteful at once to lift its self clear of this matter and be with itself alone. The latter, the process of raisonnement, is, on the other hand, detachment from all content, and conceited superiority to it. What is wanted here is the effort and struggle to give up this kind of freedom, and instead of being a merely arbitrary principle directing the content anyhow, this freedom should sink into and pervade the content, should let it be directed and controlled by its own proper nature, i.e. by the self as its own self, and should observe this process taking place. We must abstain from interrupting the immanent rhythm of the movement of conceptual thought; we must refrain from arbitrarily interfering with it, and introducing ideas and reflections that have been obtained elsewhere. Restraint of this sort is itself an essential condition of attending to and getting at the real nature of the notion.
+
 ##### a. Bewu&#223;tsein als solches
 
 ##### b. Selbstbewu&#223;tsein
@@ -2528,7 +2532,7 @@ Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in 
 
-* {#Wandschneider82} [[Dieter Wandschneider]], _Raum, Zeit, Relativit&#228;t_m 1982 [web](http://www.klostermann.de/Wandschneider-Raum-Zeit-Relativitaet)
+* {#Wandschneider82} [[Dieter Wandschneider]], _Raum, Zeit, Relativit&#228;t_, 1982 [web](http://www.klostermann.de/Wandschneider-Raum-Zeit-Relativitaet)
 
 and the idea of matter emerging from space and time has apparently influenced
 
