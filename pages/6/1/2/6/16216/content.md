@@ -10,7 +10,7 @@ where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic ze
 
 ## References
 
-* [[Dennis Gaitsgory]], _Notes on geometric Langlands_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
+* [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
 
 * [[D. Gaitsgory]], [[N. Rozenblyum]], _[[A study in derived algebraic geometry]]_.
 
