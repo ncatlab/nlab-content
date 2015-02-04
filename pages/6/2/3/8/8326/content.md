@@ -209,7 +209,7 @@ The following table lists proposals for possible such identifications. The conte
 | Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
-| **Idee**       | collection of definable [[types]] and [[terms]]  ($\sim$ the [[term model]] of the above [[modal type theory]]), in particular the true [[propositions]]  | [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634) |
+| **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the true [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1817](#1817) |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
 | Gravitation | [[adjoint modality]] $(&#643; \dashv \flat)$  | [PN&#167;204](#PN204)  |
@@ -364,6 +364,8 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 [[general abstract]], [[concrete general]]
 
+
+
 ### Allgemeine Einteilung der Logik
 
 > {#85} &#167;85 Die objektive Logik tritt damit vielmehr an die Stelle der vormaligen Metaphysik, als welche das wissenschaftliche Geb&#228;ude &#252;ber die Welt war, das nur durch Gedanken aufgef&#252;hrt seyn sollte.&#8212;Wenn wir auf die letzte Gestalt der Ausbildung dieser Wissenschaft R&#252;cksicht nehmen, so ist erstens unmittelbar die Ontologie, an deren Stelle die objektive Logik tritt,&#8212;der Theil jener Metaphysik, der die Natur des Ens &#252;berhaupt erforschen sollte;&#8212;das Ens begreift sowohl Seyn als Wesen in sich, f&#252;r welchen Unterschied unsere Sprache gl&#252;cklicherweise den verschiedenen Ausdruck gerettet hat.&#8212;Alsdann aber begreift die objektive Logik auch die &#252;brige Metaphysik insofern in sich, als diese mit den reinen Denkformen die besondern, zun&#228;chst aus der Vorstellung genommenen Substrate, die Seele, die Welt, Gott, zu fassen suchte, und die Bestimmungen des Denkens das Wesentliche der Betrachtungsweise ausmachten. 
@@ -399,6 +401,10 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 > {#EL61} EL&#167;61 If we are to believe the Critical philosophy, thought is subjective, and its ultimate and invincible mode is abstract universality or formal identity. Thought is thus set in opposition to Truth, which is no abstraction, but concrete universality. In this highest mode of thought, which is entitled Reason, the Categories are left out of account. The extreme theory on the opposite side holds thought to be an act of the particular only, and on that ground declares it incapable of apprehending the Truth. This is the Intuitional theory.
 
 [[abstract general]], [[concrete general]]
+
+In [Hibben-Luft, p. 143](#HibbenLuft) is says about the _Shorter Logic_:
+
+> Particularity and individuality are related as "abstract" and "concrete", respectively. The particular is the "abstract individual". The individual is the "concrete particular". The universal is their union, and may be either "abstract" or "concrete". The so-called "concrete universal" is Hegel's gold standard for conceptual thought $[$...$]$.
 
 #### N&#228;herer Begriff und Einteilung der Logik
 
@@ -1186,7 +1192,12 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 
 ###### a. Ausschli&#223;en des Eins.
 
-###### b. Das Eine Eins der Attraktion
+{#UnityOfTheOneAndTheMany} **Remark: The unity of the One and the Many**
+
+> {#357} &#167;357 It is an ancient proposition that the one is many and especially that the many are one. We may repeat here the observation that the truth of the one and the many expressed in propositions appears in an inappropriate form, that this truth is to be grasped and expressed only as a becoming, as a process, a repulsion and attraction-not as being, which in a proposition has the character of a stable unity. We have already mentioned and recalled the dialectic of Plato in the Parmenides concerning the derivation of the many from the one, namely, from the proposition: the one is. The inner dialectic of the Notion has been stated; it is easiest to grasp the dialectic of the proposition, that the many are one, as an external reflection; and it may properly be grasped externally here inasmuch as the object too, the many, are mutually external. It directly follows from this comparison of the many with one another that any one is determined simply like any other one; each is a one, each is one of the many, is by excluding the others &#8212; so that they are absolutely the same, there is present one and only one determination. This is the fact, and all that has to be done is to grasp this simple fact. The only reason why the understanding stubbornly refuses to do so is that it has also in mind, and indeed rightly so, the difference; but the existence of this difference is just as little excluded because of the said fact, as is the certain existence of the said fact in spite of the difference. One could, as it were, comfort understanding for the naive manner in which it grasps the fact of the difference, by assuring it that the difference will 
+
+
+###### b. Das eine Eins der Attraktion
 
 ###### c. Die Beziehung der Repulsion und der Attraktion
  {#RelationBetweenRepulsionAndAttraction}
@@ -1201,6 +1212,7 @@ $$
   \,.
 $$
 
+The natural choice is [[shape modality]] $\dahsv$ [[flat modality]] $&#643; \dashv \flat$. For instance for $\mathbb{R}^n$ a [[Cartesian space]] then $&#643; \mathbb{R}^n \simeq \ast$ is a One into which all the points of the space have collapsed, whereas $\flat \mathbb{R}^n$ is the many Ones out of which this space consist.
 
 
 > {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
@@ -1220,6 +1232,23 @@ Since _determinate being_, _Dasein_ and _F&#252;rsichsein_ both are qualitative 
 $$
   quality \;\colon\; attraction \dashv repulsion
 $$
+
+By [&#167;361](#361) we put
+
+$$
+ \array{
+    attraction & &#643; & \stackrel{quality}{\dashv}  & \flat & repulsion
+ }
+ \,.
+$$
+
+Continuing the example from [&#167;361](#361) this makes perfect sense: given a [[Cartesian space]] $\mathbb{R}^n$ then the opposition between 
+
+1. the single One $&#643; \mathbb{R}^n$ obtained by having all its points collapse under the attraction of its [[cohesion]];
+
+1. the many Ones $\flat \mathbb{R}^n$ obtained by having the points of $\mathbb{R}^n$ repel each other against their cohesive attraction
+
+exhibits exactly the [[cohesion|cohesive]] ([[topology|continuous]], [[smooth structure|smooth]]) quality of $\mathbb{R}^n$, the quality that distinguishes it from the bare set $\flat \mathbb{R}^n$ of its underlying points, as well as from the bare contractible [[homotopy type]] $\int X$ obtained from it.
 
 Notice that later when _Nature_ has appeared, the unity of attraction and repulsion becomes _gravity_ [PN&#167;204](#PN204).
 
@@ -1266,7 +1295,7 @@ $$
 
 ###### On attraction / cohesion 
 
-> &#167;395 Attraction is in this way the moment of continuity in quantity.
+> {#395} &#167;395 Attraction is in this way the moment of continuity in quantity.
 
 attraction is what holds stuff together, hence this is the idea of [[cohesion]]
 
@@ -2125,6 +2154,8 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 [[abstract general]], [[concrete general]], [[concrete particular]]
 
+see also [EL&#167;61](#EL61)
+
 > {#1324a} &#167;1324a In the first instance, it is the pure Notion or the determination of universality. But the pure or universal Notion is also only a determinate or particular Notion, which takes its place alongside other Notions. Because the Notion is a totality, and therefore in its universality or pure identical self-relation is essentially a determining and a distinguishing, it therefore contains within itself the standard by which this form of its self-identity, in pervading and embracing all the moments, no less immediately determines itself to be only the universal over against the distinguishedness of the moments.
 
 > {#1324b} &#167;1324b Secondly, the Notion is thereby posited as this particular or determinate Notion, distinct from others.
@@ -2170,6 +2201,8 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 > {#1630b} &#167;1630b The movement of the end has now reached the stage where the moment of externality is not merely posited in the Notion, where the end is not merely an ought-to-be and a striving to realise itself, but as a concrete totality is identical with the immediate objectivity. This identity is on the one hand the simple Notion and the equally immediate objectivity, but on the other hand, it is just as essentially a mediation, and only through the latter as a self-sublating mediation is it that simple immediacy; the Notion is therefore essentially this: to be distinct as an explicit identity from its implicit objectivity, and thereby to possess externality, yet in this external totality to be the totality's self-determining identity. As such, the Notion is now the Idea.
 
+a [[concrete general]] as in [&#167;1323](#1323).
+
 ### Die Idee / The Idea
  {#TheIdea}
 
@@ -2179,13 +2212,17 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 > &#167;1633 Indem nun der Ausdruck Idee f&#252;r den objektiven oder realen Begriff zur&#252;ckbehalten und von dem Begriff selbst
 
-> &#167;1633 Reserving then the expression 'Id>ea' for the objective or real Notion and distinguishing it from the Notion itself
+> &#167;1633 Reserving then the expression 'Idea' for the objective or real Notion and distinguishing it from the Notion itself
 
 > &#167;1634 Indem sich aber das Resultat ergeben hat, da&#223; die Idee die Einheit des Begriffs und der Objektivit&#228;t, das Wahre ist, so ist sie nicht nur als ein Ziel zu betrachten, dem sich anzun&#228;hern sei, das aber selbst immer eine Art von Jenseits bleibe, sondern da&#223; alles Wirkliche nur insofern ist, als es die Idee in sich hat und sie ausdr&#252;ckt. Der Gegenstand, die objektive und subjektive Welt &#252;berhaupt sollen mit der Idee nicht blo&#223; kongruieren, sondern sie sind selbst die Kongruenz des Begriffs und der Realit&#228;t; diejenige Realit&#228;t, welche dem Begriffe nicht entspricht, ist blo&#223;e Erscheinung, das Subjektive, Zuf&#228;llige, Willk&#252;rliche, das nicht die Wahrheit ist. 
 
 > &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity, is the true, it must not be regarded merely as a goal to which we have to approximate but which itself always remains a kind of beyond; on the contrary, we must recognise that everything actual is only in so far as it possesses the Idea and expresses it. It is not merely that the object, the objective and subjective world in general, ought to be congruous with the Idea, but they are themselves the congruence of Notion and reality; the reality that does not correspond to the Notion is mere Appearance, the subjective, contingent, capricious element that is not the truth.
 
-With _Notion/Begriff_ being _[[type]]_ and _[[true]]_ being (under [[propositions as types]]) [[inhabited types]] or rather particular [[terms]] inhabiting a type, the _Idea_ is the system of definable [[terms]] that may be constructed (from the basic type [[term introduction rules]] and those coming with the above [[modal operators]]). Essentially this collection is also called the _[[term model]]_ of the [[modal type theory]]. In particular under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the actual facts that may be [[proof|proven]] from the given [[modal type theory]].
+With _Notion/Begriff_ being _[[type]]_ and _[[true]]_ being (under [[propositions as types]]) [[inhabited types]] or rather particular [[terms]] inhabiting a type, the _Idea_ is the system of definable [[terms]] that may be constructed (from the basic type [[term introduction rules]] and those coming with the above [[modal operators]]). 
+
+Moreover, by [&#167;1630b](#1630b) this is to have a _concrete_ and _external_ aspect to it. Hence both by the understanding of _externalization_ as [[representation]]/[[model]] as well as by the understanding of _[[concrete general]]_ as a [[category]] of [[models]] of a [[theory]] the Idea is to be thought of as the [[category]] of these definable terms. This is known as the _[[term model]]_ of the given ([[modal type theory|modal]] [[type theory]]).
+
+Specifically, under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the "true concepts", the actual facts that may be [[proof|proven]] from the given [[modal type theory]].
 
 > &#167;1635 When it is said that no object is to be found in experience that is perfectly congruous with the Idea, one is opposing the Idea as a subjective standard to the actual; but what anything actual is supposed in truth to be, if its Notion is not in it and if its objectivity docs not correspond to its Notion at all, it is impossible to say; for it would be nothing. It is true that the mechanical and chemical object, like the nonspiritual subject and the spirit that is conscious only of the finite, not of its essence, do not, according to their various natures, have their Notion existent in them in its own free form.
 
@@ -2235,6 +2272,32 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 > &#167;1645 The Idea of Life is concerned with a subject matter so concrete, and if you will, so real, that with it we may seem to have overstepped the domain of logic as it is commonly conceived.
 
+##### The living individual
+
+##### The life-process
+
+##### The genus
+ {#TheGenus}
+
+> &#167;1669 The living individual, at first disengaged from the universal Notion of life, is a presupposition that is not as yet authenticated by the living individual itself. Through its process with the simultaneously presupposed world, it has posited itself on its own account as the negative unity of its otherness, as the foundation of itself; as such it is the actuality of the Idea, in such a manner that now the individual brings itself forth out of actuality, whereas before it proceeded only from the Notion, and that its genesis which was an act of presupposing, now becomes its production.
+
+> &#167;1670 But the further determination that it has attained by the sublation of the opposition is that of being the genus as identity of itself with its previously indifferent otherness. This Idea of the individual, since it is this essential identity, is essentially the particularisation of itself. This its diremption, in accordance with the totality from which it proceeds, is the duplication of the individual &#8212; a presupposing of an objectivity that is identical with it, and a relationship of the living being to itself as to another living being.
+
+> &#167;1671 This universal is the third stage, the truth of life in so far as this is still confined within its sphere. This sphere is the self-related process of the individual, where externality is its immanent moment; secondly, this externality is itself, as a living totality, an objectivity that for the individual is its own self, an objectivity in which, not as sublated but as persisting, the individual has the certainty of itself.
+
+> &#167;1672 Now because the relationship of the genus is the identity of individual self-feeling in what is at the same time another self-subsistent individual, it is contradiction; thus the living being is again an urge. Now the genus is indeed the consummation of the Idea of life, but at first it is still within the sphere of immediacy; this universality is therefore actual in an individual shape &#8212; the Notion, whose reality has the form of immediate objectivity. Consequently, though the individual is indeed in itself genus, it is not explicitly or for itself the genus; what is for it is as yet only another living individual; the Notion distinguished from itself has for object, with which it is identical, not itself as Notion but a Notion that as a living being has at the same time external objectivity for it, a form that is therefore immediately reciprocal.
+
+> &#167;1673a The identity with the other individual, the individual's universality, is thus as yet only internal or subjective; it therefore has the longing to posit this and to realise itself as a universal. But this urge of the genus can realise itself only by sublating the single individualities which are still particular relatively to one another.
+
+> &#167;1673b In that first instance, in so far as it is these latter which, in themselves, universal, satisfy the tension of their longing and dissolve themselves into the universality of their genus, their realised end identity is the negative unity of the genus that is reflected into itself out of its disremption.
+
+> &#167;1674 It is thus the individuality of life itself, generated no longer from its Notion, but from the actual Idea. In the first instance, it is itself only Notion that has yet to objectify itself, but it is the actual Notion &#8212; the germ of a living individual. The germ is visible evidence to ordinary perception of what the Notion is, and it demonstrates that the subjective Notion has external actuality. For the germ of the living being is the complete concretion of individuality, in which all its diverse aspects, properties and articulated differences are contained in their entire determinateness, and the initially immaterial, subjective totality is undeveloped, simple and non-sensuous; the germ is thus the entire living being in the inner form of the Notion.
+
+> &#167;1675 The reflection of the genus into itself is from this side the means whereby it obtains actuality, the moment of negative unity and individuality being thereby posited in it &#8212; the propagation of the living species. The Idea, which as life, is still in the form of immediacy, thus falls back into actuality and this its reflection is only repetition and the infinite progress, in which it does not emerge from the finitude of its immediacy. But this return into its first Notion has also the higher side, that the Idea has not merely run through the mediation of its processes within its immediacy, but by this very act has sublated this immediacy and thereby raised itself to a higher form of its existence.
+
+> &#167;1676 That is to say, the process of the genus, in which the single individuals sublate in one another their indifferent immediate existence and in this negative unity expire, has further for the other side of its product the realised genus, which has posited itself identical with the Notion. In the genus process, the separated individualities of individual life perish; the negative identity in which the genus returns into itself, while it is on the one hand the process of generating individuality, is on the other hand the sublating of it, and is thus the genus coming together with itself, the universality of the Idea in process of becoming for itself. In copulation the immediacy of the living individuality perishes; the death of this life is the procession of spirit. The Idea, which as genus is implicit, is now explicit, in that it has sublated its particularity which constituted the living species, and has thereby given itself a reality that is itself simple universality. As such it is the Idea that relates itself to itself as Idea, the universal that has universality for its determinateness and existence &#8212; the Idea of cognition.
+
+See also [PS&#167;456b](#PS456b).
 
 #### Erkennen
 
@@ -2501,7 +2564,9 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 
 > {#PS356} PS&#167;365 The progress of the spirit is development, because its existing phase, knowledge, involves consciousness in and for itself as the purpose or rationale. Thus the action of translating this purpose into reality is strictly only this formal transition into manifestation. Insofar as knowledge is infinite negativity, this translation in the concept is creativity in general. Insofar as knowledge is only abstract or formal, the spirit in it does not conform to its concept, and its purpose is to bring forth the absolute fulfilment and the absolute freedom of its knowledge.
 
+> {#PS456b} PS&#167;456b This common element is either any one particular side of the object raised to the form of universality, such as, for example, in the rose, the red colour; or the concrete universal, the genus, for example, in the rose, the plant; 
 
+[[concrete general]], see also at _[The genus](#TheGenus)_.
 
 ##### b. Praktischer Geist
 
@@ -2551,17 +2616,24 @@ $$
 
 ## **References**
 
-Text with background, introduction and survey include
+Texts with background, introduction and survey include
+
+* John McTaggart, _A Commentary on Hegel's Logic_ Cambridge University Press, 1910 ([web](https://www.marxists.org/reference/archive/mctaggart/logic/))
 
 * [[Paul Redding]],  [section 3.2](http://plato.stanford.edu/entries/hegel/#SciLog) of _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
 
 * {#Houlgate06} [[Stephen Houlgate]], _The opening of Hegel's Logic_, Purdue University Press, 2006 ([pdf](http://www.magonzalezvalerio.com/Houlgate,%20Stephen%20%20-%20The%20Opening%20of%20Hegel%27s%20Logic_From%20Being%20to%20Infinity%20-%20Purdue%20University%20Press.pdf))
+
+* {#HibbenLuft} John Grier Hibben, Eric v.d. Luft, _Hegel's Shorter Logic: An Introduction and Commentary_
 
 * {#CarlsonMeasure} [[David Carlson]], _Hegel's theory of measure_ ([web](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=413602))
 
 * {#CarlsonActual} [[David Carlson]], _Hegel and what is actual_ ([pdf](http://www.hegel.net/carlson/Carlson2005-Hegel%20and%20What%20is%20Actual.pdf))
 
 * [[Richard Dien Winfield]], _Lecture Course in Hegel's Science of Logic_ ([web](https://archive.org/details/LectureCourseInHegelsScienceOfLogic-RichardDienWinfield))
+
+
+A Commentary on Hegel's Logic
 
 A quick survey of the theme of the idea expressing itself via the spirit in nature is in
 
