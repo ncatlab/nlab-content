@@ -52,6 +52,17 @@ and see [references below](#DualityWithFTheory).
 
 [[!include genera and partition functions - table]]
 
+### General gauge backgrounds and parameterized WZW models
+ {#GeneralGaugeBackgroundsAndParameterizedWZWModels}
+
+The traditional construction of the [[worldsheet]] theory of the heterotic string produces via the [[current algebra]] of the left-moving worldheet [[fermions]] only those [[E8]]-[[background gauge fields]] which are reducible to $Spin(16)/\mathbb{Z}_2$-[[principal connections]] ([Distler-Sharpe 10, sections 2-4](#DistlerSharpe10)). But is in known that instance the [[duality between F-theory and heterotic string theory]] produces more general gauge backgrounds ([Distler-Sharpe 10, section 5](#DistlerSharpe10)). 
+
+In ([Distler-Sharpe 10, section 7](#DistlerSharpe10)), following ([Gates-Siegel 88](#GatesSiegel88)), it is argued that the way to fix this is to consider [[parameterized WZW models]], parameterized over the [[E8]]-[[principal bundle]] over [[spacetime]]. This does allow to incorporate all $E_8$-background gauge fields, and the [[Green-Schwarz anomaly]] (and its cancellation) of the heterotic string now comes out as being equivalently the [[obstruction]] (and its lifting) for such a parameterized WZW term to exist.
+
+Moreover, where the traditional construction only produces level-1 [[current algebras]], this construction accomodates all levels, and it is argued ([Distler-Sharpe 10, section 8.5](#DistlerSharpe10)) that the [[elliptic genus]] of the resulting [[parameterized WZW models]] are the [[equivariant elliptic genera]] found by Liu and Ando ([Ando 07](#Ando07))
+
+However, presently questions remain concerning formulating a [[sigma-model]] for strings propagating on the total space of the bundle, as it is only the chiral part of the geometric WZW model that appears in the heterotic string. (...)
+
 
 ## Related concepts
 
@@ -121,6 +132,26 @@ Textbook accounts include
 
 For more mathematically precise discussion in the context of [[elliptic cohomology]] and the [[Witten genus]] see also the references at _[Witten genus -- Heterotic (twisted) Witten genus, loop group representations and parameterized WZW models](Witten+genus#TwistedWittenGenus)_.
 
+### General flux backgrounds and parameterized WZW models
+
+Discussion of heterotic strings whoe [[current algebra]]-sector is parameterized by a [[principal bundle]] originates with
+
+* {#GatesSiegel88} [[Jim Gates]], [[Warren Siegel]], _Leftons, Rightons, Nonlinear $\sigma$-Models, and Superstrings_, Phys.Lett. B206 (1988) 631 ([spire](https://inspirehep.net/record/251286/))
+
+* [[Jim Gates]], _Strings, superstrings, and two-dimensional lagrangian field theory_, pp. 140-184 in Z. Haba, J. Sobczyk (eds.) _Functional integration, geometry, and strings_, proceedings of the XXV Winter School of Theoretical Physics, Karpacz, Poland (Feb. 1989), , Birkh&#228;user, 1989.
+
+* {#GKKS91} [[Jim Gates]], S. Ketov, S. Kozenko, O. Solovev, _Lagrangian chiral coset construction of heterotic string theories in $(1,0)$ superspace_, Nucl.Phys. B362 (1991) 199-231 ([spire](http://inspirehep.net/record/314337/?ln=en))
+
+and is further expanded on in
+
+* {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
+
+The relation of this to [[equivariant elliptic cohomology]] is amplified in
+
+* {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
+
+
+
 ### As higher super-GS-WZW type $\sigma$-models
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
@@ -130,11 +161,6 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 
 
-### Compactifications
-
-Subtleties in the realization of general [[E8]] [[background gauge field]]s for the heterotic string are discussed in
-
-* [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_ Adv. Theor. Math. Phys.14:335-398 (2010) ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
 #### On elliptic fibrations
 
