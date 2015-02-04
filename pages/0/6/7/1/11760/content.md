@@ -38,3 +38,6 @@ On a space with [[Fivebrane structure]] a _ninebrane structure_ is a trivializat
 * {#Sati14} [[Hisham Sati]], _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
 
 [[!redirects ninebrane structures]]
+
+[[!redirects Ninebrane structure]]
+[[!redirects Ninebrane structures]]
