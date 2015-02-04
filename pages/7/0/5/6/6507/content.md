@@ -62,15 +62,32 @@ An object in there is some [[group]]: a concrete particular.
 ## References
 
 The [[category theory|category-theoretic]] formalization of these notions as proposed by Bill Lawvere is disussed in print for instance in
-
-* [[Bill Lawvere]], _Categorical refinement of a Hegelian principle_, section 1 of [[Bill Lawvere]], _Tools for the advancement of objective Logic: Closed categories and toposes_, in John Macnamara, [[Gonzalo Reyes]], _the logical foundations of cognition_, Oxford University Press (1994)
-  {#Lawvere}
+n
+* {#Lawvere} [[Bill Lawvere]], _Categorical refinement of a Hegelian principle_, section 1 of [[Bill Lawvere]], _Tools for the advancement of objective Logic: Closed categories and toposes_, in John Macnamara, [[Gonzalo Reyes]], _the logical foundations of cognition_, Oxford University Press (1994)
+  
 
 See also an email comment recorded [here](http://conceptualmathematics.wordpress.com/2012/06/09/general-concepts-and-reality-prof-f-william-lawvere/).
 
 For discussion of "particular" and related in [[philosophy]] see also
 
 * Wikipedia, _[Particular](http://en.wikipedia.org/wiki/Particular)_, _[Abstract particular](http://en.wikipedia.org/wiki/Abstract_particulars)_
+
+The terminology "abstract general" etc is inspired by 
+
+* [[Georg Hegel]], _[[Science of Logic]]_,
+
+for instance 
+
+> [EL&#167;61](Science+of+Logic#EL61) If we are to believe the Critical philosophy, thought is subjective, and its ultimate and invincible mode is abstract universality or formal identity. Thought is thus set in opposition to Truth, which is no abstraction, but concrete universality. In this highest mode of thought, which is entitled Reason, the Categories are left out of account. The extreme theory on the opposite side holds thought to be an act of the particular only, and on that ground declares it incapable of apprehending the Truth. This is the Intuitional theory.
+
+> [&#167;71](Science+of+Logic#71) It is only after profounder acquaintance with the other sciences that logic ceases to be for subjective spirit a merely abstract universal and reveals itself as the universal which embraces within itself the wealth of the particular 
+
+> [&#167;1323](Science+of+Logic#1323) This universal Notion, which we have now to consider here, contains the three moments: universality, particularity and individuality.
+
+> [&#167;1337b](Science+of+Logic#1337b) When people talk of the determinate Notion, what is usually meant is merely such an abstract universal.
+
+> [&#167;1599](Science+of+Logic#1599) Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity 
+
 
 [[!redirects abstract general]]
 [[!redirects abstract generals]]
