@@ -70,7 +70,7 @@ A review of the basic properties of perfect modules in [[derived algebraic geome
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], section 3.1 of _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
-
+* [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]: Quasi-coherent sheaves_.
 
 [[!redirects perfect modules]]
 
