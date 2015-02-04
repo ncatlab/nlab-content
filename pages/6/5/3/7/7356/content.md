@@ -17,9 +17,9 @@
 ## Idea
  {#Idea}
 
-_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]]. See also at _[[duality in string theory]]_.
+_F-theory_ is a toolbox for describing [[type IIB string theory]] backgrounds -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]] [[group]]. See also at _[[duality in string theory]]_.
 
-More technically, F-theory is what results when [[KK-compactification|KK-compactifying]] [[M-theory]] on a [[elliptic fibration]] (which yields [[type IIA superstring theory]] compactified on a [[circle]] bundle) followed by [[T-duality]] with respect to one of the two cycles of the elliptic fiber. The result is (uncompactified) [[type IIB superstring theory]] with [[axio-dilaton]] given by the moduli of the original elliptic fibration. 
+More technically, F-theory is what results when [[KK-compactification|KK-compactifying]] [[M-theory]] on an [[elliptic fibration]] (which yields [[type IIA superstring theory]] compactified on a [[circle]]-[[fiber bundle]]) followed by [[T-duality]] with respect to one of the two cycles of the elliptic fiber. The result is (uncompactified) [[type IIB superstring theory]] with [[axio-dilaton]] given by the moduli of the original elliptic fibration, see [below](#From11dSupergravity). 
 
 Or rather, this is type IIB string theory with some [[non-perturbative effects]] included. With a full description of [[M-theory]] available also F-theory should be a full non-perturbative description of type IIB string theory, but absent that it is some kind of approximation. For instance while the [[modular group|modular]] [[structure group]] of the [[elliptic fibration]] in principle encodes (necessarily non-perturbative) [[S-duality]] effects, it is presently not actually known in full detail how this affects the full theory, notably the proper charge quantization law of the 3-form fluxes, see at _[S-duality -- Cohomological nature of the fields under S-duality](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_  for more on that.
 
@@ -89,7 +89,7 @@ An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory d
 The degeneration locus of the elliptic fibration is that of [[D7-branes]] and [[O-planes|O7-planes]].
 
 
-Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
+Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
 
 ### Relation to heterotic string theory
@@ -133,6 +133,12 @@ An early survey of its relation to [[M-theory]] with [[M5-branes]] is in
 Lecture notes include
 
 * [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+
+Related conferences include
+
+* _[Physics and Geometry of F-theory 2014](http://www.match.uni-heidelberg.de/GPF/)_
+
+* _[Physics and Geometry of F&#8209;theory 2015](http://f-theory15.mpp.mpg.de)_
 
 
 ### Relation to orientifolds
