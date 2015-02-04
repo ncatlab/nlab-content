@@ -62,7 +62,7 @@ An object in there is some [[group]]: a concrete particular.
 ## References
 
 The [[category theory|category-theoretic]] formalization of these notions as proposed by Bill Lawvere is disussed in print for instance in
-n
+
 * {#Lawvere} [[Bill Lawvere]], _Categorical refinement of a Hegelian principle_, section 1 of [[Bill Lawvere]], _Tools for the advancement of objective Logic: Closed categories and toposes_, in John Macnamara, [[Gonzalo Reyes]], _the logical foundations of cognition_, Oxford University Press (1994)
   
 
@@ -70,13 +70,11 @@ See also an email comment recorded [here](http://conceptualmathematics.wordpress
 
 For discussion of "particular" and related in [[philosophy]] see also
 
-* Wikipedia, _[Particular](http://en.wikipedia.org/wiki/Particular)_, _[Abstract particular](http://en.wikipedia.org/wiki/Abstract_particulars)_
-
-The terminology "abstract general" etc is inspired by 
+The terminology is inspired by 
 
 * [[Georg Hegel]], _[[Science of Logic]]_,
 
-for instance 
+{#HegelQuotes} for instance 
 
 > [EL&#167;61](Science+of+Logic#EL61) If we are to believe the Critical philosophy, thought is subjective, and its ultimate and invincible mode is abstract universality or formal identity. Thought is thus set in opposition to Truth, which is no abstraction, but concrete universality. In this highest mode of thought, which is entitled Reason, the Categories are left out of account. The extreme theory on the opposite side holds thought to be an act of the particular only, and on that ground declares it incapable of apprehending the Truth. This is the Intuitional theory.
 
@@ -87,6 +85,19 @@ for instance
 > [&#167;1337b](Science+of+Logic#1337b) When people talk of the determinate Notion, what is usually meant is merely such an abstract universal.
 
 > [&#167;1599](Science+of+Logic#1599) Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity 
+
+Survey of this includes
+
+* {#HibbenLuft} John Grier Hibben, Eric v.d. Luft, _Hegel's Shorter Logic: An Introduction and Commentary_
+
+where on p. 143 it says about the _Shorter Logic_:
+
+> Particularity and individuality are related as "abstract" and "concrete", respectively. The particular is the "abstract individual". The individual is the "concrete particular". The universal is their union, and may be either "abstract" or "concrete". The so-called "concrete universal" is Hegel's gold standard for conceptual thought $[$...$]$.
+
+For general related discussion see also
+
+* Wikipedia, _[Particular](http://en.wikipedia.org/wiki/Particular)_, _[Abstract particular](http://en.wikipedia.org/wiki/Abstract_particulars)_
+
 
 
 [[!redirects abstract general]]
