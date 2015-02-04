@@ -69,7 +69,7 @@ This is [DAG XI, Theorem 2.24](#DAGXI). As a consequence, [[Postnikov tower]]s a
 
 ## Related concepts
 
-[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ **Nisnevich site** $\to$ [[Zariski site]]
+* [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ **Nisnevich site** $\to$ [[Zariski site]]
 
 * [[cd-structure]]
 
@@ -96,3 +96,8 @@ A self-contained account of the Nisnevich $(\infty,1)$-topos including the non-N
 [[!redirects Nisnevich topology]]
 [[!redirects Nisnevich topos]]
 [[!redirects Nisnevich (∞,1)-topos]]
+
+[[!redirects Nisnevich sheaf]]
+[[!redirects Nisnevich sheaves]]
+
+[[!redirects Nisnevich descent]]
