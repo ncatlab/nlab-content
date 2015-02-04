@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,15 +12,14 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
-A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ is called **perfect** if it [[quasi-isomorphism|quasi-isomorphic]] to
+A _perfect complex_ over a [[commutative ring]] $A$ is a [[perfect module]] over the [[Eilenberg-Mac Lane spectrum]] $H(A)$.
+Under the [[stable Dold-Kan correspondence]], perfect complexes correspond to [[bounded chain complexes]] of [[finitely generated module|finitely generated]] [[projective modules]].
 
-* a [[bounded chain complex]];
-
-* of [[projective module|projective]]
-
-* and [[finitely generated modules]].
+Viewing [[commutative rings]] as [[affine schemes]], this definition generalizes to arbitrary [[stacks]].
+In this generality, perfect modules still coincide with the [[dualizable object|dualizable objects]], but not always with the [[compact object in an (infinity,1)-category|compact objects]].
+The latter does hold for quasi-compact quasi-separated [[schemes]] by work of [[Robert Thomason|Thomason]], [[Amnon Neeman|Neeman]], [[Alexei Bondal|Bondal]]-[[Michel Van den Bergh|Van den Bergh]].
 
 ## Properties
 
@@ -47,16 +45,24 @@ This is a [[triangulated category|triangulated subcategory]], see [[triangulated
 
 ## Related concepts
 
+* [[perfect module]]
+* [[perfect dg-module]]
+* [[triangulated categories of sheaves]]
+
 [[!include finite objects -- table]]
 
 ## References
 
-For perfect complexes of sheaves see the references at [[triangulated categories of sheaves]].
+* [[R. Thomason]], T. Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, in The Grothendieck Festschrift, Vol. III (1990), pp. 247-436.
+
+* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc., vol. 9, no. 1, 1996, pp. 205-236.
+
+* [[Raphaël Rouquier]], _Dimensions of triangulated categories_, Journal of K-theory, 1 (2008), pp. 1-36, [arXiv:math/0310134](http://arxiv.org/abs/math/0310134), [pdf](http://people.maths.ox.ac.uk/rouquier/papers/dimension.pdf).
 
 * [[The Stacks Project]], _[Characterizing perfect objects](http://stacks.math.columbia.edu/tag/07LQ)_
 
 [[!redirects perfect complex]]
-
 [[!redirects perfect complexes]]
 [[!redirects perfect chain complexes]]
 [[!redirects perfect complex of sheaves]]
+[[!redirects perfect complexes of sheaves]]
