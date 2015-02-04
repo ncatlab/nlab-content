@@ -55,6 +55,8 @@ This is a [[triangulated category|triangulated subcategory]], see [[triangulated
 
 * [[R. Thomason]], T. Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, in The Grothendieck Festschrift, Vol. III (1990), pp. 247-436.
 
+* [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and  noncommutative geometry_, Moscow Math. Vol. 3, no. 1 (2003), pp. 1-36, [arXiv:math/0204218](http://arxiv.org/abs/math/0204218), [pdf](http://www.ams.org/distribution/mmj/vol3-1-2003/bondal-vandenbergh.pdf).
+
 * [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc., vol. 9, no. 1, 1996, pp. 205-236.
 
 * [[Raphaël Rouquier]], _Dimensions of triangulated categories_, Journal of K-theory, 1 (2008), pp. 1-36, [arXiv:math/0310134](http://arxiv.org/abs/math/0310134), [pdf](http://people.maths.ox.ac.uk/rouquier/papers/dimension.pdf).
