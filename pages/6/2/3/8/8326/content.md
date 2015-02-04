@@ -360,6 +360,9 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 > &#167;54 Anaxagoras is praised as the man who first declared that Nous, thought, is the principle of the world, that the essence of the world is to be defined as thought. In so doing he laid the foundation for an intellectual view of the universe, the pure form of which must be logic. What we are dealing with in logic is not a thinking about something which exists independently as a base for our thinking and apart from it, nor forms which are supposed to provide mere signs or distinguishing marks of truth; on the contrary, the necessary forms and self-consciousness of thought are the content and the ultimate truth itself.
 
+> {#71} &#167;71 At first, therefore, logic must indeed be learnt as something which one understands and sees into quite well but in which, at the beginning, one feels the lack of scope and depth and a wider significance. It is only after profounder acquaintance with the other sciences that logic ceases to be for subjective spirit a merely abstract universal and reveals itself as the universal which embraces within itself the wealth of the particular &#8212; just as the same proverb, in the mouth of a youth who understands it quite well, does not possess the wide range of meaning which it has in the mind of a man with the experience of a lifetime behind him, for whom the meaning is expressed in all its power. Thus the value of logic is only apprehended when it is preceded by experience of the sciences; it then displays itself to mind as the universal truth, not as a particular knowledge alongside other matters and realities, but as the essential being of all these latter. 
+
+[[general abstract]], [[concrete general]]
 
 ### Allgemeine Einteilung der Logik
 
@@ -374,7 +377,7 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 ## **Die Lehre vom Sein** / **The Doctrine of Being**
 
 
-### $\;\;$ Womit muss der Anfang der Wissenschaft gemacht werden?
+### Womit muss der Anfang der Wissenschaft gemacht werden?
 
 
 > {#121} &#167;121 Was somit &#252;ber das Seyn ausgesprochen oder enthalten seyn soll, in den reicheren Formen des Vorstellens von Absolutem oder Gott, die&#223; ist im Anfange nur leeres Wort, und nur Seyn; die&#223; Einfache, das sonst keine weitere Bedeutung hat, die&#223; Leere ist also schlechthin der Anfang der Philosophie.
@@ -385,9 +388,21 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 > &#167;122 This insight is itself so simple that this beginning as such requires no preparation or further introduction; and, indeed, these preliminary, external reflections about it were not so much intended to lead up to it as rather to eliminate all preliminaries.
 
+### Vorbegriff (Enzyklop&#228;die)
 
+#### Erste Stellung des Gedankens zur Objektivit&#228;t
 
-### $\;\;$ Allgemeine Einteilung des Seins
+#### Zweite Stellung des Gedankens zur Objektivit&#228;t
+
+#### Dritte Stellung des Gedankens zur Objektivit&#228;t
+
+> {#EL61} EL&#167;61 If we are to believe the Critical philosophy, thought is subjective, and its ultimate and invincible mode is abstract universality or formal identity. Thought is thus set in opposition to Truth, which is no abstraction, but concrete universality. In this highest mode of thought, which is entitled Reason, the Categories are left out of account. The extreme theory on the opposite side holds thought to be an act of the particular only, and on that ground declares it incapable of apprehending the Truth. This is the Intuitional theory.
+
+[[abstract general]], [[concrete general]]
+
+#### N&#228;herer Begriff und Einteilung der Logik
+
+###  Allgemeine Einteilung des Seins
 
 
 ### First section. Bestimmtheit (Qualit&#228;t) / Determinateness (Quality)
@@ -2104,6 +2119,30 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 #### Begriff 
 
+> {#1322} &#167;1322 Understanding is the term usually employed to express the faculty of notions; as so used, it is distinguished from the faculty of judgment and the faculty of syllogisms, of the formal reason But it is with reason that it is especially contrasted; in that case, however, it does not signify the faculty of the notion in general, but of determinate notions, and the idea prevails that the notion is only a determinate notion. When the understanding in this signification is distinguished from the formal faculty of judgment and from the formal reason, it is to be taken as the faculty of the single determinate notion. For the judgment and the syllogism or reason are, as formal, only a product of the understanding since they stand under the form of the abstract determinateness of the Notion. Here, however, the Notion emphatically does not rank as something merely abstractly determinate; consequently, the understanding is to be distinguished from reason only in the sense that the former is merely the faculty of the notion in general.
+
+> {#1323} &#167;1323 This universal Notion, which we have now to consider here, contains the three moments: universality, particularity and individuality. The difference and the determinations which the Notion gives itself in its distinguishing, constitute the side which was previously called positedness. As this is identical in the Notion with being-in-and-for-self, each of these moments is no less the whole Notion than it is a determinate Notion and a determination of the Notion.
+
+[[abstract general]], [[concrete general]], [[concrete particular]]
+
+> {#1324a} &#167;1324a In the first instance, it is the pure Notion or the determination of universality. But the pure or universal Notion is also only a determinate or particular Notion, which takes its place alongside other Notions. Because the Notion is a totality, and therefore in its universality or pure identical self-relation is essentially a determining and a distinguishing, it therefore contains within itself the standard by which this form of its self-identity, in pervading and embracing all the moments, no less immediately determines itself to be only the universal over against the distinguishedness of the moments.
+
+> {#1324b} &#167;1324b Secondly, the Notion is thereby posited as this particular or determinate Notion, distinct from others.
+
+> {#1324c} &#167;1324c Thirdly, individuality is the Notion reflecting itself out of the difference into absolute negativity. This is, at the same time, the moment in which it has passed out of its identity into its otherness, and becomes the judgment.
+
+##### Der allgemeine Begriff
+
+##### Der besondere Begriff
+
+> {#1337a} &#167;1337a Now determinateness, it is true, is the abstract, as against the other, determinateness; but this other is only universality itself which is, therefore, also abstract, and the determinateness of the Notion, or particularity, is again nothing more than a determinate universality. In this, the Notion is outside itself; since it is the Notion that is here outside itself, the abstract universal contains all the moments of the Notion. It is (a) universality, (b) determinateness, (c) the simple unity of both; but this unity is immediate, and therefore particularity is not present as totality. In itself it is also this totality and mediation; it is essentially an exclusive relation to an other, or sublation of the negation, namely, of the other determinateness &#8211; an other, however, that exists only in imagination, for it vanishes immediately and shows itself to be the same as its supposed other. Therefore, what makes this universality abstract is that the mediation is only a condition or is not posited in the universality itself. Because it is not posited, the unity of the abstract universality has the form of immediacy, and the content has the form of indifference to its universality, for the content is not present as the totality which is the universality of absolute negativity. Hence the abstract universal is, indeed, the Notion, yet it is without the Notion; it is the Notion that is not posited as such.
+
+> {#1337b} &#167;1337b When people talk of the determinate Notion, what is usually meant is merely such an abstract universal. Even by notion as such, what is generally understood is only this notion that is no Notion, and the understanding denotes the faculty of such notions. Demonstration appertains to this understanding in so far as it progresses by notions, that is to say, merely by determinations. Such a progression by notions, therefore, does not get beyond finitude and necessity; for it, the highest is the negative infinite, the abstraction of the supreme being [des h&#246;chsten Wesen], which is itself the determinateness of indeterminateness. Absolute substance, too, though it is not this empty abstraction &#8211; from the point of view of its content it is rather the totality &#8211; is nevertheless abstract because it lacks the absolute form; its inmost truth is not constituted by the Notion; true, it is the identity of universality and particularity, or of thought and asunderness, yet this identity is not the determinateness of the Notion; on the contrary, outside substance there is an understanding &#8211; and just because it is outside it, a contingent understanding &#8211; in which and for which substance is present in various attributes and modes.
+
+> {#1337c} &#167;1337c Moreover, abstraction is not empty as it is usually said to be; it is the determinate Notion and has some determinateness or other for its content. Even the supreme being, the pure abstraction, has, as already remarked, the determinateness of indeterminateness; but indeterminateness is a determinateness, because it is supposed to stand opposed to the determinate. But the enunciation of what it is, itself sublates what it is supposed to be; it is enunciated as one with determinateness, and in this way, out of the abstraction is established its truth and the Notion. But every determinate Notion is, of course, empty in so far as it does not contain the totality, but only a one-sided determinateness. Even when it has some other concrete content, for example man, the state, animal, etc., it still remains an empty Notion, since its determinateness is not the principle of its differences; a principle contains the beginning and the essential nature of its development and realization; any other determinateness of the notion, however, is sterile. To reproach the Notion generally with being empty, is to misjudge that absolute determinateness of the Notion which is the difference of the Notion and the only true content in the element of the Notion.
+
+##### Das Einzelne
+
 #### Urtheil
 
 #### Schluss
@@ -2115,6 +2154,21 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 #### Chemismus
 
 #### Teleologie
+
+
+> {#1599} &#167;1599 However unsatisfactory, therefore, the discussion of the teleological principle is in respect of its essential point of view, nevertheless the position that Kant gives to it is worthy of note. In ascribing it to a reflective judgment, he makes it a connecting middle term between the universal of reason and the individual of intuition; further, he distinguishes this reflective judgment from the determining judgment, the latter merely subsuming the particular under the universal. Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity and externality and is therefore active and the urge to repel itself from itself. The Notion, as end, is of course an objective judgment in which one determination, the subject, namely the concrete Notion, is self-determined, while the other is not merely a predicate but external objectivity. But the end relation is not for that reason a reflective judging that considers external objects only according to a unity, as though an intelligence had given this unity for the convenience of our cognitive faculty; on the contrary it is the absolute truth that judges objectively and determines external objectivity absolutely. Thus the end relation is more than judgment; it is the syllogism of the self-subsistent free Notion that unites itself with itself through objectivity.
+
+[[concrete general]]
+
+##### Der subjektive Zweck
+
+##### Das Mittel
+
+##### Der ausgef&#252;hrte Zweck
+
+> {#1630a} &#167;1630a First we saw subjectivity, the Notion's being-for-self, pass over; into its in-itself, objectivity, to be followed by the reappearance in the latter of the negativity of the Notion's being-for-self; in that negativity the Notion has determined itself in such a manner that its particularity is an external objectivity, or it has determined itself as a simple concrete unity whose externality is its self-determination.
+
+> {#1630b} &#167;1630b The movement of the end has now reached the stage where the moment of externality is not merely posited in the Notion, where the end is not merely an ought-to-be and a striving to realise itself, but as a concrete totality is identical with the immediate objectivity. This identity is on the one hand the simple Notion and the equally immediate objectivity, but on the other hand, it is just as essentially a mediation, and only through the latter as a self-sublating mediation is it that simple immediacy; the Notion is therefore essentially this: to be distinct as an explicit identity from its implicit objectivity, and thereby to possess externality, yet in this external totality to be the totality's self-determining identity. As such, the Notion is now the Idea.
 
 ### Die Idee / The Idea
  {#TheIdea}
