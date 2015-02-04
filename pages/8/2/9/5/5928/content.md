@@ -170,5 +170,11 @@ category: algebraic geometry
 [[!redirects Zariski topology]]
 [[!redirects Zariski topos]]
 [[!redirects big Zariski topos]]
+
+[[!redirects Zariski sheaf]]
+[[!redirects Zariski sheaves]]
+
+[[!redirects Zariski descent]]
+
 [[!redirects theory of local rings]]
 [[!redirects geometric theory of local rings]]
