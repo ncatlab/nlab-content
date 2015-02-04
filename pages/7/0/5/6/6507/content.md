@@ -34,9 +34,9 @@ as well as
 
 We have:
 
-* a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_;
+* a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_ or _abstract universal_ (_abstraktes Allgemeines_)
 
-* the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_;
+* the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_ or _concrete universal_
 
 * an [[object]] of any $T Mod(E)$ is a _particular_.
 
@@ -84,15 +84,24 @@ The terminology is inspired by
 
 > [&#167;1337b](Science+of+Logic#1337b) When people talk of the determinate Notion, what is usually meant is merely such an abstract universal.
 
-> [&#167;1599](Science+of+Logic#1599) Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity 
+> [&#167;1599](Science+of+Logic#1599) Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity
 
-Survey of this includes
+> [PS&#167;456b](Science+of+Logic#PS456b) This common element is either any one particular side of the object raised to the form of universality, such as, for example, in the rose, the red colour; or the concrete universal, the genus, for example, in the rose, the plant; 
+
+See also in and around the section [The genus](Science+of+Logic#TheGenus)
+
+Survey of thes Hegelian ideas includes
 
 * {#HibbenLuft} John Grier Hibben, Eric v.d. Luft, _Hegel's Shorter Logic: An Introduction and Commentary_
 
 where on p. 143 it says about the _Shorter Logic_:
 
 > Particularity and individuality are related as "abstract" and "concrete", respectively. The particular is the "abstract individual". The individual is the "concrete particular". The universal is their union, and may be either "abstract" or "concrete". The so-called "concrete universal" is Hegel's gold standard for conceptual thought $[$...$]$.
+
+as well as
+
+* Robert Stern, _Hegel, british idealism, and the curious case of the concrete universal_, British Journal for the History of Philosophy 15(1) 2007: 115 &#8211; 153 ([pdf](http://www.sheffield.ac.uk/polopoly_fs/1.101730!/file/concrete-universal-published.pdf))
+
 
 For general related discussion see also
 
@@ -103,6 +112,8 @@ For general related discussion see also
 [[!redirects abstract general]]
 [[!redirects abstract generals]]
 
+[[!redirects abstract universal]]
+
 [[!redirects general abstract]]
 
 [[!redirects concrete general]]
@@ -111,6 +122,7 @@ For general related discussion see also
 [[!redirects concrete general]]
 [[!redirects concrete generals]]
 
+[[!redirects concrete universal]]
 
 [[!redirects concrete particular]]
 [[!redirects concrete particulars]]
