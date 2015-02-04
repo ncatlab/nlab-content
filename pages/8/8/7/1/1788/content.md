@@ -1,5 +1,3 @@
-testing
-
 **Obstructions to globalizing higher WZW terms over Cartan geometries**
 
 #Contents#
