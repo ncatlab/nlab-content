@@ -41,6 +41,8 @@ In good cases, the [[stable (infinity,1)-category]] $Mod(X)$ is [[compactly gene
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], section 3.1 of _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
+* [[B. Toen]], _Derived Azumaya algebras and generators for twisted derived categories_, [arXiv:1002.2599](http://arxiv.org/abs/1002.2599).
+
 [[!redirects modules over a derived stack]]
 [[!redirects modules over derived stacks]]
 [[!redirects module over a derived scheme]]
