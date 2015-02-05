@@ -1084,7 +1084,7 @@ This is just the $\Sigma$-functor of def. \ref{Sigma}:
 
 
 $$ 
-  \mathbb{D}\int_Z id d\mu_f
+  \mathbb{D}\int_Z id \, d\mu_f
   =
   \Sigma(f)
   \;
