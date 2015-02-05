@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -504,6 +503,8 @@ In the case of general (commutative) schemes, every presheaf of $O_X$-modules wh
 * [[coherent sheaf]]
 
 * [[Bondal-Orlov reconstruction theorem]]
+
+* [[module over a derived stack]]
 
 ### D-Modules
 
