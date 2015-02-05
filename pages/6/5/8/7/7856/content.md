@@ -1,6 +1,7 @@
+[[!redirects Luis Javier Hernández]]
 [[!redirects Luis Javier Hernandez]]
 [[!redirects Luis Javier Hernandez]]
-Luis Javier Hern&#225;ndez is a Spanish topologist, who has worked on [[proper homotopy theory]], [[shape theory
+Luis Javier Hern&#225;ndez Paricio is a Spanish topologist, who has worked on [[proper homotopy theory]], [[shape theory
 ]] and on adapting ideas from those areas to give new insights into [[dynamical systems]].
 
 He is based at the University of La Rioja, Spain.
@@ -26,5 +27,6 @@ include
 
 *  J. Garc&#237;a Calcines, L. J. Hern&#225;ndez, and [[Teresa Rivas|M.T. Rivas]],  _Limit and end functors of dynamical systems via exterior spaces, _ [Preprint (2011)](http://www.unirioja.es/cu/luhernan/puben.html).
 
+* J. I. Extremiana Aldana, [[Luis Javier Hernández Paricio]] and Maria Teresa Rivas Rodriguez, _A closed model category for $(n-1)$-connected spaces_ , Proc. AMS, 124, Number 11,  1996 ([pdf](http://www.ams.org/proc/1996-124-11/S0002-9939-96-03606-4/S0002-9939-96-03606-4.pdf))
 
 category: people
