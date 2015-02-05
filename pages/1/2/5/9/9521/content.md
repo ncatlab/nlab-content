@@ -1,6 +1,15 @@
 
 * [webpage](http://www.rssd.esa.int/index.php?project=planck)
 
+  [publication](http://www.cosmos.esa.int/web/planck/publications)
+
+## related $n$Lab entries
+
+* [[cosmic inflation]]
+
+* [[Starobinsky model of cosmic inflation]]
+
+
 category: people
 
 
