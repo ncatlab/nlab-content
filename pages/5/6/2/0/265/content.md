@@ -265,7 +265,7 @@ $$ 0 \to A \to B \to C \to 0$$
 in $\mathcal{A}$.  Assuming $\mathcal{A}$ has enough projectives, we can then find projective resolutions $Q A$, $Q B$, and $Q C$ of $A$, $B$, and $C$, respectively, such that
 $$ 0 \to Q A \to Q B \to Q C \to 0 $$
 is a short exact sequence of chain complexes.  But since $Q C$ is projective, this short exact sequence is split, and therefore preserved by any additive functor.  Thus we have another short exact sequence
-$$ F Q A \to F Q B \to F Q C $$
+$$ 0 \to F Q A \to F Q B \to F Q C \to 0 $$
 which therefore gives rise to a long exact sequence in homology:
 $$ \cdots \to H_1(F Q A) \to H_1(F Q B) \to H_1(F Q C) \to H_0 (F Q A) \to H_0(F Q B) \to H_0(F Q C). $$
 Of course, these homology groups are precisely the left derived functors of $F$, in the traditional homological algebra sense, applied to $A$, $B$, and $C$.
