@@ -21,7 +21,7 @@ The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[F
 
 Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
 
-The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-Keck-Planck 15](#BICEPKeckPlanck15)) favors the [[Starobinsky model of cosmic inflation]].
+The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15)) strongly favors the [[Starobinsky model of cosmic inflation]].
 
 ## Variants
 
@@ -114,7 +114,7 @@ see _[[Starobinsky model of cosmic inflation]]_
  
 * {#BICEPKeckPlanck15} _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
 
-* Planck 2015 Overview of results ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_I_Overview_Products_Results.pdf/14d90465-03c2-4e3c-b8d1-73181248673d))
+* {#PlanckCollaboration15} [[Planck Collaboration]], _Planck 2015, Overview of results_ ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_I_Overview_Products_Results.pdf/14d90465-03c2-4e3c-b8d1-73181248673d))
 
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
