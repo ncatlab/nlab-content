@@ -46,6 +46,7 @@ Accordingly (as discussed at [[group]]) a simplicial group $G$ gives rise to
   $$
   which is the [[generalized universal bundle|universal G-bundle]].
 
+Simplicial abelian groups are models for [[connective spectrum|connective]] [[module spectrum|modules]] over the [[Eilenberg-Mac Lane spectrum]] $H \mathbf{Z}$; see [[Dold-Kan correspondence]] and [[stable Dold-Kan correspondence]].
 
 ## Definition
 
