@@ -337,6 +337,10 @@ The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
+A model by [[stratified spaces]] is in 
+
+* {#AyalaFrancisRozenblyum15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], _A stratified homotopy hypothesis_ ([arXiv:1502.01713](http://arxiv.org/abs/1502.01713))
+
 ### Surveys and lecture notes 
  {#LectureNotes}
 
