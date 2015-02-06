@@ -32,7 +32,7 @@ The case $k=2$ is straight-forward enough: given three homogeneous classes $ [u]
 
 ### Relation to $A_\infty$-algebra
 
-For $A$ a [[dg-algebra]], its [[chain homology]] $H^\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H^\bullet(A)^n$ is given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$. 
+For $A$ a [[dg-algebra]], its [[chain homology]] $H_\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H_\bullet(A)^n$ is given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$. 
 
 For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appears as ([LPWZ, theorem 3.1](#LPWZ)). 
 
