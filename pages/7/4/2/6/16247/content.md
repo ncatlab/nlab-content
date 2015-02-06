@@ -1,0 +1,14 @@
+
+
+## Related concepts
+
+* [[ADE classification]]
+
+## References
+
+* Wikipedia, _[Dynkin diagram](http://en.wikipedia.org/wiki/Dynkin_diagram)_
+
+[[!redirects Dynkin diagrams]]
+
+[[!redirects simply laced Dynkin diagram]]
+[[!redirects simply laced Dynkin diagrams]]
