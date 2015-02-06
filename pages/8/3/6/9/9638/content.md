@@ -57,8 +57,8 @@ General discussions include
 
 * Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000 ([[NielsenChuangQuantumComputation.pdf:file]])
 
-* [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
- {#Kuperberg05}
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+ 
 
 
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
