@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 # Bayesian reasoning
 * table of contents
 {: toc}
@@ -49,11 +60,19 @@ Some such restrictions are generally accepted. If, for example, all I know of an
 
 Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution over $\{1, 2, 3, 4, 5, 6\}$ should be chosen which maximizes [[entropy]], subject to the constraint that the mean is 4. Many familiar distributions are maximum entropy distributions, subject to moment constraints. For instance, the Normal distribution, $N(\mu, \sigma^2)$, is the distribution over the reals which maximises entropy subject to having mean $\mu$ and variance $\sigma^2$.
 
-##References
+## References
 
 * {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003.
+
 * {#Jaynes} [[Edwin Jaynes]], _Probability Theory: The Logic of Science_, Cambridge University Press, 2003.
+
 * {#Polya} [[George Polya]], _Mathematics and Plausible Reasoning: Vol. II: Patterns of Plausible Inference_, Princeton University Press, 1954.
+
+Discussion of applications in [[astronomy]] and [[cosmology]] includes
+
+* [[Jörg Rachen]] _Bayesian Classification of Astronomical Objects -- and what is behind it_ ([arXiv:1302.2429](http://arxiv.org/abs/1302.2429))
+
+
 [[!redirects Bayesian reasoning]]
 [[!redirects Bayesian induction]]
 [[!redirects Bayesian probability]]
