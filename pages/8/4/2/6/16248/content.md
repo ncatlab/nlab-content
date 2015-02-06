@@ -1,0 +1,13 @@
+
+## Related concepts
+
+* [[ADE classification]]
+
+## References
+
+* Wikipedia, _[Platonic solid](http://en.wikipedia.org/wiki/Platonic_solid)_
+
+[[!redirects Platonic solids]]
+
+[[!redirects platonic solid]]
+[[!redirects platonic solids]]
