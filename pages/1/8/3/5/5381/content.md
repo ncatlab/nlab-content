@@ -38,7 +38,7 @@ For instance [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
 
 ### Perfect complexes on a ringed space
 
-Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
+Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[coherent sheaf|finite type]].
 
 Let $D(Mod(\mathcal{O}_X))$ be the [[derived category]] of $\mathcal{O}_X$-modules.  Let $Pf(X) \subset D(Mod(\mathcal{O}_X))$ denote the [[full subcategory]] of perfect complexes.
 This is a [[triangulated category|triangulated subcategory]], see [[triangulated categories of sheaves]].
