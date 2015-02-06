@@ -18,9 +18,13 @@
 A **split epimorphism** in a [[category]] $C$ is a [[morphism]] $e\colon A \to B$ in $C$ such that there exists a morphism $s\colon B \to A$ such that the [[composite]] $e \circ s$ equals the [[identity morphism]] $1_B$.  Then the morphism $s$, which satisfies the [[duality|dual]] condition, is a __[[split monomorphism]]__.
 
 We say that:
+
 * $s$ is a __[[section]]__ of $e$,
+
 * $e$ is a __[[retraction]]__ of $s$,
+
 * $B$ is a __[[retract]]__ of $A$,
+
 * the pair $(e,s)$ is a __[[split idempotent|splitting]]__ of the [[idempotent]] $s \circ e\colon A \to A$.  
 
 A split epimorphism in $C$ can be equivalently defined as a morphism $e\colon A \to B$ such that for every [[object]] $X\colon C$, the [[function]] $C(X,e)$ is a [[surjection]] in $\mathbf{Set}$; the preimage of $1_B$ under $C(B,e)$ yields a section $s$.
