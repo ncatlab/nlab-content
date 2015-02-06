@@ -25,7 +25,7 @@
 
 ## Idea
 
-What has been called _Geometry of Interaction_ ([Girard 89](#Girard89)) is a kind of [[semantics]] for [[linear logic]]/[[linear type theory]] that is however different in method from the usual [[categorical semantics]] in [[monoidal categories]]. Instead of interpreting a [[proof]] of linear implication $A\multimap B$ as a [[morphism]] between [[objects]] $A$ and $B$ in a [[monoidal category]] as in [[categorical semantics]], the _Geometry of Interaction_ interprets it as an [[endomorphism]] on the object $A\multimap B$. This has been named _operational semantics_ to contrast with the traditional _denotational semantics_.
+What has been called _Geometry of Interaction_ ([Girard 89](#Girard89)) is a kind of [[semantics]] for [[linear logic]]/[[linear type theory]] that is however different in method from the usual [[categorical semantics]] in [[monoidal categories]]. Instead of interpreting a [[proof]] of a linear entailment $A\vdash B$ as a [[morphism]] between [[objects]] $A$ and $B$ in a [[monoidal category]] as in [[categorical semantics]], the _Geometry of Interaction_ interprets it as an [[endomorphism]] on the object $A\multimap B$. This has been named _operational semantics_ to contrast with the traditional _denotational semantics_.
 
 That also the "operational semantics" of GoI has an interpretation in [[category theory]], though, namely in [[compact closed categories]] induced from [[traced monoidal categories]] was first suggested in ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) and then developed in ([Haghverdi 00](#Haghverdi00), [Abramsky-Haghverdi-Scott 02](#AbramskyHaghverdiScott02), [Haghverdi-Scott 05](#HaghverdiScott05)). See ([Shirahata](#Shirahata)) for a good review.
 
@@ -110,6 +110,8 @@ Reviews include
 * [[Samson Abramsky]], E. Haghverdi and P. Scott, "Geometry of Interaction and linear combinatory algebra," Mathematical Structures in Computer Science (2002), vol. 12, pp. 625-665. ([ps](http://www.cs.ox.ac.uk/files/328/ahs.ps))
 
 * [[Samson Abramsky]] and R. Jagadeesan, "New Foundations for the Geometry of Interaction," Proceedings 7th Annual IEEE Symp. on Logic in Computer Science, LICS'92, Santa Cruz, CA, USA, 22&#8211;25 June 1992. ([pdf](http://www.cs.ox.ac.uk/files/300/nfgoi.pdf))
+
+* Harry G. Mairson, "From Hilbert Spaces to Dilbert Spaces: Context Semantics Made Simple", Proceedings of FST TCS 2002. ([pdf](http://www.cs.brandeis.edu/~mairson/Papers/fsttcs02.pdf))
 
 * Linear Logic Wiki, _[Geometry of Interaction](http://llwiki.ens-lyon.fr/mediawiki/index.php/Geometry_of_interaction)_
 
