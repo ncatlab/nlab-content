@@ -718,7 +718,7 @@ discusses simplicial groups in the context of [[nonabelian algebraic topology]].
 * [[Rick Jardine]], Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
  {#JardineLuo}
 
-* [[A. Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_ ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
+* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_ ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
  {#CegarraRemedios}
 
 category: simplicial object
