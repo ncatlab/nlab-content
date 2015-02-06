@@ -15,7 +15,7 @@
 
 ## Idea
 
-A long list of mathematical structures happens to have a classification that is in bijection with the [[simply laced Dynkin diagrams]] of types A, D and E (but excluding type B and C), for instance 
+A long list of mathematical structures happens to have a classification that is in [[bijection]] with the [[simply laced Dynkin diagrams]] of types A, D and E (but excluding type B and C), for instance 
 
 * [[simply laced Dynkin diagrams]] (their [[simple Lie groups]])
 
@@ -27,11 +27,13 @@ A long list of mathematical structures happens to have a classification that is 
 
 * certain [[2d CFTs]]
 
+* certain [[6d (2,0)-supersymmetric QFT|6d CFTs]]
+
 and many more. 
 
 The obvious question for what might be the conceptual origin of this joint classification is attributed to ([Arnold 76](#Arnold76)). 
 
-Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on [[orbifolds]] of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
+Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _ADE-[[orbifolds]]_ of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
 
 ## Related concepts
 
@@ -39,7 +41,7 @@ Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many
 
 ## References
 
-### Surveys
+### General Surveys
 
 * {#Arnold76} [[Vladimir Arnold]], _Problems in present day mathematics_, (1976) in Felix E. Browder, _Mathematical developments arising from Hilbert problems_, Proceedings of symposia in pure mathematics 28, American Mathematical Society, p. 46, _Problem VIII. The A-D-E classifications_ (V. Arnold).
 
@@ -53,14 +55,13 @@ which in turn is summarized in
 
 * {#Siegel14} Kyler Siegel, _The Ubiquity of the ADE classification in Nature_ , 2014 ([pdf](http://math.stanford.edu/~ksiegel/ADEClassifications.pdf))
 
-
 See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
 
-### Origin in string theory
+### In string theory
 
-The original articles include
+The original articles explaining the appearance of ADE classification from within [[string theory]] include
 
 * {#DouglasMoore96} [[Michael Douglas]], [[Gregory Moore]], _D-branes, Quivers, and ALE Instantons_ ([arXiv:hep-th/9603167](http://arxiv.org/abs/hep-th/9603167))
 
@@ -72,18 +73,16 @@ The original articles include
 
 * Andrea Cappelli, Jean-Bernard Zuber, _A-D-E Classification of Conformal Field Theories_ ([arXiv:0911.3242](http://arxiv.org/abs/0911.3242))
 
-
 Surveys include
 
-* MO discussion [ADE classification from string theory](http://mathoverflow.net/a/34680/381)
+* MO discussion, _[ADE classification from string theory](http://mathoverflow.net/a/34680/381)_
 
 * [[José Figueroa-O'Farrill]], _Supersymmetric M2-branes and ADE_, 2010 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
-Specifically the ADE classficaiton of the [[(2,0)-superconformal field theory]] on the [[M5-brane]] is discussed in 
+Specifically the ADE classfication involved in the [[6d (2,0)-supersymmetric QFT]] on the [[M5-brane]] is discussed in 
 
 * {#Witten95} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
-
-* {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
+* {#HeckmannMorrisonVafa13} [[Jonathan Heckman]], [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
 
 [[!redirects A-D-E classification]]
