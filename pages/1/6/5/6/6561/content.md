@@ -72,13 +72,13 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 The first indication of a 6d theory with a self-dual 2-form field appears in section 1 of 
 
-* [[Edward Witten]], _Some comments on string dynamics_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
+* {#Witten95} [[Edward Witten]], _Some comments on string dynamics_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
 
 Surveys include
 
-* [[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in
+* {#Moore}[[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in
 Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
-  {#Moore}
+  
 
 * [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
 
@@ -109,18 +109,22 @@ Relation to [[BFSS matrix model]] on tori:
 
 * Micha Berkooz, Moshe Rozali, Nathan Seiberg, _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
 
+### ADE classification
+
+Discussion of the [[ADE classification]] of the 6d theories includes, after ([Witten95](#Witten95))
+
+* {#HeckmannMorrisonVafa13} [[Jonathan Heckman]], [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
+
+
 ### Models and special properties
  {#ModelsAndSpecialProperties}
 
-Realization of the 6d theory in [[F-theory]] is discussed in 
-
-* {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
-
+Realization of the 6d theory in [[F-theory]] is discussed in ([Heckmann-Morrison-Vafa 13](#HeckmannMorrisonVafa13)).
 
 A proposal for related higher nonabelian differential form data is made in 
 
-* [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
- {#SSW11}
+* {#SSW11} [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
+ 
 
 Since by [[transgression]] every nonabelian [[principal 2-bundle]]/[[gerbe]] gives rise to some kind of nonabelian 1-bundle on [[loop space]] it is clear that some parts (but not all) of the nonabelian gerbe theory on the 5-brane has an equivalent reformulation in terms of ordinary gauge theory on the [[loop space]] of the 5-brane and possibly for gauge group the [[loop group]] of the original gauge group. 
 
@@ -138,16 +142,16 @@ In fact, via the [[strict 2-group]] version of the [[string 2-group]] there is a
 The basics of the relation of the 6d theory to a 7d theory under [[AdS-CFT]] is reviewed [[holographic principle|holographic duality]]
 
 
-* [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
- {#Maldacena}
+* {#Maldacena} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+ 
 
 The argument that the abelian [[7d Chern-Simons theory]] of a [[circle n-bundle with connection|3-connection]] yields this way the [[conformal blocks]] of the abelian [[self-dual higher gauge theory]] of the 6d theory on a _single_ brane is due to
 
-* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
- {#WittenI}
+* {#WittenI} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ 
 
-* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
- {#Witten98}
+* {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ 
 
 The nonabelian generalization of this 7d action functional that follows from taking the quantum corrections ([[Green-Schwarz mechanism]] and flux quantization) of the [[supergravity C-field]] into account is discussed in 
 
@@ -155,18 +159,18 @@ The nonabelian generalization of this 7d action functional that follows from tak
 
 See also
 
-* [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
+* {#HEGK} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
 
   _Exact Half-BPS Flux Solutions in M-theory I
 Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 
-  _Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$ ([arXiv:0810.4647](http://arxiv.org/abs/0810.4647))
-  {#HEGK}
+   _Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$ ([arXiv:0810.4647](http://arxiv.org/abs/0810.4647))
+  
 
 ### Solitonic 1-brane excitations
 
-* [[Jerome Gauntlett]], [[Joaquim Gomis]], [[Paul Townsend]], _BPS Bounds for Worldvolume Branes_ ([arXiv:hep-th/9711205](http://arxiv.org/abs/hep-th/9711205))
- {#GGT}
+* {#GGT} [[Jerome Gauntlett]], [[Joaquim Gomis]], [[Paul Townsend]], _BPS Bounds for Worldvolume Branes_ ([arXiv:hep-th/9711205](http://arxiv.org/abs/hep-th/9711205))
+ 
 
 * P.S. Howe, [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
