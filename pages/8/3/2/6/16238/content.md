@@ -1,3 +1,4 @@
+[[!redirects module over a derived stack]]
 ## Idea
 
 Let $Sch^{aff}$ and $Stk$ denote the [[(infinity,1)-categories]] of affine [[derived schemes]] and [[derived stacks]], respectively.
