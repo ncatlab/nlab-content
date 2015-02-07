@@ -13,6 +13,8 @@ $$
 \frac{\Gamma, x: B \vdash f(x) : C(x) \; \; \; \Gamma \vdash a : A \;\;\;\Gamma \vdash A \lt_{c} B : Type}{\Gamma \vdash f(a) = f(c(a)) : C(c(a))}
 $$
 
+All the coercions of a type system must be coherent in the sense that any two typing derivations of one type as a subtype of another must agree.
+
 ### Related concepts
 
 * [[subtype]]
