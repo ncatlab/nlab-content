@@ -60,7 +60,7 @@ Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 
 
 ## Talks ##
 
-* _ Homogeneous bundles and higher geometry_, [Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz/), 24 February 2015
+* _Homogeneous bundles and higher geometry_, [Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz/), 24 February 2015
 
 * _A new String group model from LG_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
 
