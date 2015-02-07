@@ -58,7 +58,7 @@ Generally, every morphism can be replaced by a
 
 ## Transports and classifying spaces 
 
-There is a classical thorem that [[covering spaces]] $p:E\to B$ of a [[locally connected space]] $B$ (which have _unique_ path lifting) are equivalent to functors $\Pi(B)\to Set$ from the [[fundamental groupoid]] of $B$ to [[Set]] (hence to [[permutation representations]] of the [[fundamental group]] ).  
+There is a classical theorem that [[covering spaces]] $p:E\to B$ of a [[locally connected space]] $B$ (which have _unique_ path lifting) are equivalent to functors $\Pi(B)\to Set$ from the [[fundamental groupoid]] of $B$ to [[Set]] (hence to [[permutation representations]] of the [[fundamental group]] ).  
 
 The functor corresponding to $p:E\to B$ takes a point $b\in B$ to its fiber $p^{-1}(b)$, and a path $\alpha$ from $b$ to $b'$ to the function $p^{-1}(b) \to p^{-1}(b')$ defined by "the endpoint of the lift of $\alpha$."
 
