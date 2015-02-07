@@ -60,7 +60,9 @@ Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 
 
 ## Talks ##
 
-* _A new coherent model for the string 2-group_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
+* _ Homogeneous bundles and higher geometry_, [Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz/), 24 February 2015
+
+* _A new String group model from LG_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
 
 * _String structures on homogeneous bundles_, [8th Australia New Zealand Mathematics Convention](http://www.austms2014.ms.unimelb.edu.au/), 12 December 2014 ([Abstract](http://www.mathematics.org.au/sys/shared/talk.php?talk=2626&conf_id=22))
 
