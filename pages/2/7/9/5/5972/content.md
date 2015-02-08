@@ -16,7 +16,7 @@
 
 ## Idea
 
-[[Madhav Nori]] invented an original approach to [[mixed motives]], in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortuntaley his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
+[[Madhav Nori]] invented an original approach to [[mixed motives]], in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortunately his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
 
 ## References
 
