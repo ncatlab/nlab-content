@@ -10,7 +10,7 @@ $$\frac{e:A \qquad A \le B}{e:B}$$
 
 One possibility (sometimes called the **inclusion interpretation** of subtyping) is based on the idea of interpreting types as _properties_ of terms (what is also sometimes called "types &#224; la Curry", or the _extrinsic_ view of typing).  Under this interpretation, the subsumption rule can be read more or less literally, as asserting that if $e$ satisfies the property $A$, and $A$ entails $B$, then $e$ also satisfies the property $B$.  One potential drawback of this interpretation, though, is that it commits you to giving a semantics to "untyped" terms (or at least commits you to a two-layer approach, where terms are assumed to be typed in some pre-existing type system).
 
-A different possibility (sometimes called the **coercion interpretation** of subtyping) is to read the subsumption rule as introducing an implicit coercion from $A$ to $B$.  Under this interpretation, subtyping can be seen as simply providing a convenient shorthand notation, when having to write out these coercions explicitly would be too burdensome.  However, this interpretation introduces a subtle issue of _coherence_: if there is more than one way of deriving the subtyping judgment $A \le B$, we need to know that all of these result in equivalent coercions from $A$ to $B$.
+A different possibility (sometimes called the **coercion interpretation** of subtyping) is to read the subsumption rule as introducing an implicit coercion from $A$ to $B$.  Under this interpretation, subtyping can be seen as simply providing a convenient shorthand notation, when having to write out these coercions explicitly would be too burdensome.  This interpretation allows one to maintain an "intrinsic" ("&#224; la Church") view of typing, but on the other hand it introduces a subtle issue of _coherence_: if there is more than one way of deriving the subtyping judgment $A \le B$, we need to know that all of these result in equivalent coercions from $A$ to $B$.
 
 ### In dependent type theory
 
@@ -18,7 +18,7 @@ Consider a dependent proposition $A: Type, x:A \vdash P(x):Prop$. Then the [[dep
 
 For example, we might have introduced 'Eve' as a term of type $Woman$, and then wish to form a type $Relatives(Eve)$, when $Relatives(x)$ had been introduced as a type depending on $x: Human$. If $Woman$ had been defined as $\sum_{x:Human} Female(x)$, then $Eve$ has projections to the underlying human and to a warrant for Eve's being female. It would be clumsy to insist on $Relatives(\pi_1(Eve))$. Coercion along this projection allows us to form $Relatives(Eve)$.
 
-Luo (1999) proposed a way of formalizing coercions in dependent type theory, through what he calls the _coercive definition rule_:
+[Luo (1999)](#Luo99) proposed a way of formalizing coercions in dependent type theory, through what he calls the _coercive definition rule_:
 
 $$
 \frac{\Gamma, x: B \vdash f(x) : C(x) \; \; \; \Gamma \vdash a : A \;\;\;\Gamma \vdash A \lt_{c} B : Type}{\Gamma \vdash f(a) = f(c(a)) : C(c(a))}
@@ -30,6 +30,18 @@ In this notation, a coercion between two types $A$ and $B$ is denoted $A \lt_{c}
 
 In [[homotopy type theory]], the inclusion of a smaller [[universe|universe in type theory]] in a larger one is often considered as a coercion.
 
+### Coherence
+
+[Reynolds (2000)](#Reynolds00) gave an interesting proof of coherence for a coercion interpretation of a language with subtyping.  The proof works by first building a [[logical relation]] between this "intrinsic semantics" and a separate extrinsic semantics of the language (the latter based on interpreting programs as elements of a universal [[domain theory|domain]]), and then establishing a "bracketing theorem" which says essentially that there are embedding-retraction pairs $(\phi_A : [[A]] \to U, \psi_A : U \to [[A]])$ between the intrinsic interpretation of any type and the universal domain $U$.  Together, these imply that the coercion $[[\alpha]] : [[A]] \to [[B]]$ associated to any derivation $\alpha$ of a subtyping judgment $A \le B$ can be factored as 
+
+$$
+\begin{matrix}
+ [[A]] &\overset{\phi_A}{\to} & U & \overset{\psi_B}{\to} & [[B]]
+\end{matrix}
+$$
+
+and hence in particular that any two derivations $\alpha_1,\alpha_2$ of $A \le B$ result in the same coercion $[[\alpha_1]] = [[\alpha_2]] = (\phi_A;\psi_B) : [[A]] \to [[B]]$.
+
 ### Related concepts
 
 * [[subtype]]
@@ -37,10 +49,10 @@ In [[homotopy type theory]], the inclusion of a smaller [[universe|universe in t
 
 ### References
 
-* John C. Reynolds, _The Coherence of Languages with Intersection Types_. TACS 1991. ([ps](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/tempdir/coherence.ps))
+* {#Reynolds91} John C. Reynolds, _The Coherence of Languages with Intersection Types_. TACS 1991. ([ps](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/tempdir/coherence.ps))
 
-* John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. BRICS Report RS-00-32, Aarhus University, December 2000. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci))
+* {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. BRICS Report RS-00-32, Aarhus University, December 2000. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci))
 
-* Z. Luo, Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
+* {#Luo99} Z. Luo, Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
 
 * Z. Luo., Type-Theoretical Semantics with Coercive Subtyping, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/SALT20.pdf)
