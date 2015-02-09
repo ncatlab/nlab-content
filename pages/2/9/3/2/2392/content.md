@@ -151,7 +151,7 @@ $$
 
 of [[quasi-categories]] such that the following conditions hold:
 
-1. For every [[inert morphism]] in $FinSet^{*/}$ and every [[object]] over it, there is a lift to a $p$-[[coCartesian morphism]] in $\mathcal{O}^\otimes$. In particular, for $f \colon \langle n_1\rangle \to \langle n_2\rangle$ inter, there is an induced [[(∞,1)-functor]]
+1. For every [[inert morphism]] in $FinSet^{*/}$ and every [[object]] over it, there is a lift to a $p$-[[coCartesian morphism]] in $\mathcal{O}^\otimes$. In particular, for $f \colon \langle n_1\rangle \to \langle n_2\rangle$ inert, there is an induced [[(∞,1)-functor]]
 
    $$
      f_! 
@@ -164,7 +164,7 @@ of [[quasi-categories]] such that the following conditions hold:
 
 1. The coCartesian lifts of the inert projection morphisms induce an equivalence of [[derived hom-spaces]] in $\mathcal{O}^{\otimes}$ between maps into multiple objects and the products of the maps into the separete objects:
 
-   For $f \colon \langle n_1 \rangle \to \langle n_2 \rangle$ write $\mathcal{O}^\otimes_f(-,-) \hookrightarrow \mathcal{O}^\otimes(-,-)$ for the components of the [[derived hom-space]] covering $f, then the $(\infty,1)$-functor
+   For $f \colon \langle n_1 \rangle \to \langle n_2 \rangle$ write $\mathcal{O}^\otimes_f(-,-) \hookrightarrow \mathcal{O}^\otimes(-,-)$ for the components of the [[derived hom-space]] covering $f$, then the $(\infty,1)$-functor
 
    $$  
      \mathcal{O}^\otimes_f(C_1,C_2)
@@ -175,7 +175,7 @@ of [[quasi-categories]] such that the following conditions hold:
 
    induced as above is an [[equivalence of infinity-groupoids|equivalence]].
 
-1. For every finite collection of objects $C_1, \cdots c_n \in \mathcal{O}^\otimes_{\langle 1\rangle}$ there exists a multiobject $C \in \mathcal{O}^\otimes_\langle n\rangle$ and a collection of $p$-[[coCartesian morphisms]] $\{C \to C_i\}$ covering $\rho^i$.
+1. For every finite collection of objects $C_1, \cdots c_n \in \mathcal{O}^\otimes_{\langle 1\rangle}$ there exists a multiobject $C \in \mathcal{O}^\otimes_{\langle n\rangle}$ and a collection of $p$-[[coCartesian morphisms]] $\{C \to C_i\}$ covering $\rho^i$.
 
    Equivalently (given the first two conditions): for all $n \in \mathbb{N}$ the $(\infty,1)$-functors $\{(\rho^i)_!\}_{1 \leq i \leq n}$ induce an [[equivalence of (∞,1)-categories]]
 
@@ -273,6 +273,7 @@ See there for more details.
 
 
 #### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
+
 
 There is a [[model category]] that [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] $(\infty,1)Cat_{Oper}$ of $(\infty,1)$-categories of operations.
 
