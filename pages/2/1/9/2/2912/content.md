@@ -25,6 +25,8 @@
 
 * [[Kan complex]]
 
+* [[relative category]]
+
 category: people
 
 [[!redirects Dan Kan]]
