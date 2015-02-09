@@ -34,7 +34,7 @@ Let $A$ be a colored [[symmetric operad]] over [[Set]] ( hence a symmetric [[mul
 
 * whose [[objects]] are finite sequences $(c_1, \cdots, c_n)$ of colors of $A$;
 
-* whose [[morphisms]] $F : (c_1, \cdots, c_n) \to (d_1, \cdots, d_n)$ are given by a collection consisting of
+* whose [[morphisms]] $F : (c_1, \cdots, c_n) \to (d_1, \cdots, d_m)$ are given by a collection consisting of
 
   * a morphism $\phi : \langle n \rangle \to \langle m\rangle$ in $FinSet_*$;
 
