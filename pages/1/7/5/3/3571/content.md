@@ -1,9 +1,9 @@
 
 * [webpage](http://www.math.cornell.edu/~kbrown/)
 
-## related $n$Lab entries
+* K. Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_.
 
-* [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]
+* K. Brown, [[Stephen Gersten]], _Algebraic K-theory as generalized sheaf cohomology_, Algebraic K-theory, I: Higher K-theories (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266&#8211;292. Lecture Notes in Math., Vol. 341, Springer, Berlin, 1973, [pdf](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.pdf), [djvu](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.ocr.djv)
 
 category: people
 
