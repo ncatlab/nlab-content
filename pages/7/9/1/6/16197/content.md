@@ -33,11 +33,15 @@ where $N$ is the number of $e$-foldings during inflation (see e.g. [Kehagias-Diz
 
 Models of this type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15)) which give a low upper bound on $r$ around $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values), see ([PlanckCollaboration 13, page 12](#PlanckCollaboration13)).
 
-With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
+With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
 
 {#Figure1} <div style="float:left;margin:0 10px 10px 0;"><img src="http://4.bp.blogspot.com/-WmnPcijsQgM/VNFk0OGgLxI/AAAAAAAAAig/HtyHFDugScw/s1600/B87t4g2IMAAmGPL.png" alt="PlanckExperimentDataPlot" /></div>
 
-This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)).
+This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://3.bp.blogspot.com/-DhdSMZ8AMJI/VNYRg0FTQlI/AAAAAAAABkM/dK0-7XEVHbc/s1600/Inflation-Planck2015.png" alt="PlanckExperimentDataPlot" /></div>
+
+
 
 See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
 
@@ -72,6 +76,9 @@ The experimental data supporting the model is due to
 * {#PlanckCollaboration15} [[Planck Collaboration]], _Planck 2015, Overview of results_ ([arXiv:1502.01582](http://xxx.lanl.gov/abs/1502.01582))
 
 * {#PlanckCollaboration15XIII} [[Planck Collaboration]], _Planck 2015 results. XIII. Cosmological parameters_ ([arXiv:1502.01589](http://xxx.lanl.gov/abs/1502.01589))
+
+* {#PlanckCollaboration15XX} [[Planck Collaboration]], _Planck 2015 results. XX. Constraints on inflation_ ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_XX_Constraints_Inflation.pdf/))
+
 
 Review and exposition includes
 
