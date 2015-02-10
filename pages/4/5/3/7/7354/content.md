@@ -74,4 +74,9 @@ A detailed discussion of dualities induced on [[K3]]-compactifications is in
 
 * [[Paul Aspinwall]], _K3-surfaces and string duality_ ([arXiv:hep-th/9611137](http://arxiv.org/abs/hep-th/9611137))
 
+Also
+
+* [[Cumrun Vafa]], sround 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
+
+
 [[!redirects dualities in string theory]]
