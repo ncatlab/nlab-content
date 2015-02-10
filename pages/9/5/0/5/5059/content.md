@@ -543,6 +543,10 @@ following
 
 * {#OvrutWaldram97} [[Burt Ovrut]], [[Daniel Waldram]], _Membranes and Three-form Supergravity_, Nucl.Phys. B506 (1997) 236-266 ([arXiv:hep-th/9704045](http://arxiv.org/abs/hep-th/9704045))
 
+See also
+
+* Bernard de Wit, Kasper Peeters, Jan Plefka, _Superspace Geometry for Supermembrane Backgrounds_, Nucl.Phys. B532 (1998) 99-123 ([arXiv:hep-th/9803209](http://arxiv.org/abs/hep-th/9803209))
+
 All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", of the _[[D'Auria-Fré formulation of supergravity]]_, this is discussed in ([AFFFTT 98, section 3.1](#AFFFTT98), [Fr&#233;-Grassi 07](#FreGrassi07)).
 
 Discussion including also the [[RR-field]] background includes
@@ -582,8 +586,6 @@ Discussion from the point of view of [[D'Auria-Fré formulation of supergravity]
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl.Phys.B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
-AFFFTT98
-FreGrassi07
 
 ### Open branes ending on other branes
 
