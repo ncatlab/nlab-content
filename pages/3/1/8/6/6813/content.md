@@ -22,6 +22,8 @@
 
 The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
 
+Particularly the [[BPS states]] among the black branes in [[supergravity]] include configurations that look like the strong-coupling vesion of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not not strictly speaking "black" solutions.)
+
 ## Properties
 
 ### Weak coupling correspondence
@@ -53,11 +55,15 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 ## References
 
-Reviews include
+Original articles include
 
-section 1.3 of 
+* [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_ ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* [[Mike Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
+
+Review includes,
+
+* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 Recent developments include
 
