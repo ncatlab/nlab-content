@@ -42,7 +42,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 
 ### In 11d Supergravity 
 
-In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS states (e.g. [EHKNT 07](#EHKNT07)):
+In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS states (e.g. [Stelle 98, section 3](#Stelle98) [EHKNT 07](#EHKNT07)):
 
 * the [[M2-brane]];
 
@@ -125,7 +125,7 @@ A survey of progress on the most general picture is in
 
 ### In supergravity
 
-* [[Kai Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+* {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
  
