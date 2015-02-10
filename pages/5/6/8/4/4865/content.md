@@ -130,6 +130,20 @@ And it seems that this is the same term later also redicovered around equation (
 
 
 
+### BPS states
+
+The basic [[BPS spates]] of 11d SuGra are
+
+* the [[M2-brane]]
+
+* the [[M5-brane]]
+
+* the [[M-wave]]
+
+* the [[Kaluza-Klein monopole]]
+
+(e.g. [EHKNT 07](#EHKNT07))
+
 
 ## Related concepts
 
@@ -203,7 +217,7 @@ Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the 
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
 Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
-### Classical solutions
+### Classical solutions and BPS states
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
 
@@ -224,6 +238,10 @@ Some of the above is taken from [this TP.SE thread](http://theoreticalphysics.st
 A classification of symmetric solutions is discussed in
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
+
+Discussion of [[BPS states]] includes
+
+* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
 
 ### Truncations and compactifications
 
