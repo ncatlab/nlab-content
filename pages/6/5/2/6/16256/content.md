@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one of the types of [[BPS states]] of [[11-dimensional supergravity]].
+
+## References
+
+* {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _The world in eleven dimensions_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
+
+[[!redirects Kaluza-Klein monopoles]]
+
+[[!redirects KK monopole]]
+[[!redirects KK monopoles]]
