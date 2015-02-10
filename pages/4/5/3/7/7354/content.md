@@ -76,7 +76,7 @@ A detailed discussion of dualities induced on [[K3]]-compactifications is in
 
 Also
 
-* [[Cumrun Vafa]], sround 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
+* [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
 
 [[!redirects dualities in string theory]]
