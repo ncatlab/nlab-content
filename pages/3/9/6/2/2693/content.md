@@ -56,7 +56,7 @@ This defines the **projective [[model category]] structure** on $Alg_k^\Delta$.
 
 There is also the structure of an [[sSet]]-[[enriched category]] of $Alg_k^\Delta$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $X$ a [[simplicial set]] and $A \in Alg_k$ let $A^X  \in Alg_k^\Delta$ be the corresponding $A$-valued [[cochains on simplicial sets]]
@@ -68,7 +68,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -84,7 +84,7 @@ where the tensor product is the degreewise tensor product of $k$-algebras.
 
 See also [CasCor, p. 10](http://arxiv1.library.cornell.edu/abs/math/0306289v2).
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -99,7 +99,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 For $B \in Alg_k$ regarded as a constant cosimplicial object under the canonical embedding $Alg_k \hookrightarrow Alg_k^\Delta$ we have
@@ -157,7 +157,7 @@ The above [[sSet]]-[[enriched category theory|enrichment]] makes $Alg_k^\Delta$ 
 
 And this is compatible with the model category structure: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 With the definitions as above, $Alg_k^\Delta$ is a [[simplicial model category]].
@@ -182,7 +182,7 @@ Details are in section 2.1 of
 
 See also
 
-* [[Paul Goerrs]], [[Frederick Jardine]], _[[Simplicial homotopy theory]]_
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_
 
 The generalization to arbitrary cosimplicial rings is proposition 9.2 of
 
