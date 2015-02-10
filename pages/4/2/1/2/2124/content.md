@@ -25,12 +25,15 @@ In [[supersymmetry|supersymmetric]] [[quantum field theory]] with [[extended sup
 
 They exist also in some models of [[soliton]] theory
 (English Wikipedia: [Bogomol'nyi&#8211;Prasad&#8211;Sommerfield bound](http://en.wikipedia.org/wiki/Bogomol'nyi%E2%80%93Prasad%E2%80%93Sommerfield_bound)). 
+The fact that a certain fraction (typically one half or fourth of supersymmetry generators) of [[supersymmetry]] is retained implies the saturation of the BPS-bound, which does make sense a bit more generally. The retained generators generate a nontrivial subalgebra of the full [[supersymmetry]] algebra and carry [[conserved charges]]; the mass is exactly determined in terms of these charges.
 
-The fact that a certain fraction (typically one half or fourth of supersymmetry generators) of [[supersymmetry]] is retained implies the saturation of the BPS-bound, which does make sense a bit more generally. The retained generators generate a nontrivial subalgebra of the full supersymmetry algebra and carry conserved charges; the mass is exactly determined in terms of these charges.
-
-In geometric models, like variants of the [[superstring theory]], it is very important to investigate [[moduli space]]s of classical [[vacua]] (e.g. the ground states for the [[D-brane]] systems). BPS-states correspond just to a part of the moduli problem which is often the most tractable.
+BPS states play a central role in the investigation of [[moduli spaces]] of classical [[vacua]] as they form part of the moduli problem which is often the most tractable.
 
 Several mathematical theories in [[geometry]] are interpreted as counting BPS-states in the sense of integration on appropriate compactification of the moduli space of BPS-states in a related physical model attached to the underlying geometry: most notably the [[Gromov-Witten invariants]], [[Donaldson-Thomas invariants]] and the [[Thomas-Pandharipande invariants]]; all the three seem to be deeply interrelated though they are defined in rather very different terms. The compactification of the moduli space involves various stability conditions. 
+
+### In supergravity
+
+In the context of [[supergravity]] BPS states correspond to [[super spacetimes]] admitting [[Killing vectors]]. These notably include extremal [[black brane]] solutions.
 
 ### In superstring theory
 
@@ -53,6 +56,8 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS st
 * the [[Kaluza-Klein monopole]].
 
 ## Related concepts
+
+* [[Killing spinor]]
 
 * [[supermultiplet]]
 
@@ -117,21 +122,33 @@ A survey of progress on the most general picture is in
 
 * Katzutoshi Ohta, _BPS state counting and related physics_ (2005) ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft/2005/slides/ohta.pdf))
 
+
+### In supergravity
+
+Discussion of extremmal/BPS [[black branes]] in [[supergravity]] includes
+
+* {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+
+* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+
+Discussion of more general classification of solutions to [[supergravity]] preserving some [[supersymmetry]], i.e. admitting some [[Killing spinors]] includes
+ 
+* Jerome P. Gauntlett, Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
+
+* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047,2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
+
+
 ### Spectral networks
  {#SpectralNetworksReferences}
 
 * [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Spectral networks_ ([arXiv:1204.4824](http://arxiv.org/abs/1204.4824), 
 [illustrating animations](http://www.ma.utexas.edu/users/neitzke/spectral-network-movies/))
 
-### In supergravity
-
-* {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
-
-* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
- 
-
 
 [[!redirects BPS state]]
 [[!redirects BPS states]]
 [[!redirects BPS-states]]
 [[!redirects BPS-state]]
+
+[[!redirects BPS invariant]]
+[[!redirects BPS invariants]]
