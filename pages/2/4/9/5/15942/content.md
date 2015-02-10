@@ -54,9 +54,9 @@ In the following meetings we shall look into various applications and comparison
 
 * Jan. 27, 2015: Quantum BV formalism in AQFT by Dorothea. QFT in globally hyperbolic spacetime: free theory as an example, the functorial description, the classical observables. The quantum description involves three types of product: the star product, the (naive) pointwise product and the time-ordered product. Time-ordering operator relates the last two, while the connection to the star product is given by the casual structure. FR1, FR2.
 
-* Feb. 3, 2015: Factorization algebras and Goodwillie Calculus by Dmitri.
+* Feb. 3, 2015: Factorization algebras and Goodwillie Calculus by Dmitri. The Eilenberg-Steenrod axioms give a collection of (homology) functors from spaces to chain complexes that are represented by their values at a point. With a slight generalization, one considers functors from the category $Man_n$ of manifolds with embeddings to a general symmetric monoidal $\infty$-category $\mathcal{D}$ subject to similarly defined axioms. There is an equivalence between those functors and the little-disk algebras valued in $\mathcal{D}$ induced by the evaluation map, whose inverse is given by factorization homology. Given one such functor $A: Man_n\to \mathcal{D}$, one defines $k$-th Taylor (co)tower $P_k A$ via the left Kan extension from $Disk_n^{\leq k}$ to $Man_n$, and $A$ is analytic if $P_\infty A\to A$ is an equivalence, which encodes the factorization descent condition. Homotopy fibers $D_\bullet A$ of the (co)tower $P_\bullet A$ at each stage can be defined. In the homotopy context for Taylor towers $P_\bullet \mathcal{F}$, the results of Goodwillie allow one to describe $D_\bullet \mathcal{F}$ quite explicitly. Fra.
 
-* Feb. 10, 2015:
+* Feb. 10, 2015: will not meet today. We shall soon launch a discussion session during the break, so please stay tuned!
 
 
 
@@ -95,6 +95,8 @@ For the perturbative quantum field theory, and for the intuition of BV formalism
 * K. Costello, Renormalization and effective field theory, Surveys and monographs, American Mathematical Society, 2011.
 
 For the application to topological manifold, see
+
+* [Fra] J. Francis, Factorization homology of topological manifolds, arXiv:1206.5522[math.AT].
 
 * D. Ayala, J. Francis and H. Tanaka, Structured singular manifolds and factorization homology, arXiv:1206.5164[math.AT].
 
