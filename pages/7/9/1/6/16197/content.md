@@ -41,7 +41,8 @@ This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboratio
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://3.bp.blogspot.com/-DhdSMZ8AMJI/VNYRg0FTQlI/AAAAAAAABkM/dK0-7XEVHbc/s1600/Inflation-Planck2015.png" alt="PlanckExperimentDataPlot" /></div>
 
-
+> $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
+than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
 
 See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
 
