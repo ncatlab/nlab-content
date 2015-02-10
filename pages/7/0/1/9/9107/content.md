@@ -1,6 +1,7 @@
 
 * [webpage](http://hamilton.uchicago.edu/~harvey/)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jeffrey_A._Harvey)
 category: people
 
 [[!redirects Jeff Harvey]]
