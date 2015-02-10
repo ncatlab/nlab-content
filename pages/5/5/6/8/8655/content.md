@@ -225,5 +225,6 @@ There is also a duality in the _description_ of physics:
 
 * {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
+* [[Cumrun Vafa]], sround 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
 [[!redirects dualities in physics]]
