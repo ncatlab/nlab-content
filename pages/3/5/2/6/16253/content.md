@@ -10,8 +10,9 @@ Where a [[simplicial object]] is a [[functor]] $\Delta^{op} \to \mathcal{C}$ out
 ## Properties
 
 ### Simplicial enrichment
+ {#SimplicialEnrichment}
 
-When $\mathcal{C}$ has [[finite limits]] and finite [[colimits]], then $\mathcal{C}^{\Delta}$ is canonically a [[simplicially enriched category]]. This enrichment is called the _external simplicial structure_ in ([Quillen 67, II.1.7](#Quillen67)). Review includes ([Bousfield 03, section 2.10](#Bousfield03)).
+When $\mathcal{C}$ has [[finite limits]] and finite [[colimits]], then $\mathcal{C}^{\Delta}$ is canonically a [[simplicially enriched category]] with is [[tensoring|tensored]] and [[powering|powered]] over [[sSet]]. This is called the _external simplicial structure_ in ([Quillen 67, II.1.7](#Quillen67)). Review includes ([Bousfield 03, section 2.10](#Bousfield03)).
  
 
 More generally, for any $\mathcal{C}$, we can make $\mathcal{C}^{\Delta}$ into a simplicially enriched category using the [[end]] formula
