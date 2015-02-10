@@ -42,7 +42,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 
 ### In 11d Supergravity 
 
-In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds ofBPS states:
+In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS states (e.g. [EHKNT 07](#EHKNT07)):
 
 * the [[M2-brane]];
 
@@ -75,20 +75,20 @@ The original article identifying the role of BPS states in supersymmetric field 
 
 Further developments are in
 
-*  J. A. Harvey, [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); 
+*  [[Jeffrey Harvey]], [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); 
 
-*  J. A. Harvey, [[Greg Moore]],_On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
+*  [[Jeffrey Harvey]], [[Greg Moore]], _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
 
 
 
-* A. H. Chamseddine, M. S. Volkov, _Non-abelian BPS
+* [[Ali Chamseddine]], M. S. Volkov, _Non-abelian BPS
 monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;3346 (1997) [hep-th/9707176](http://arxiv.org/abs/hep-th/9707176).
 
-* S. Weinberg, _The quantum theory of fields_, vol. II
+* [[Steven Weinberg]], _The quantum theory of fields_, vol. II
 
-* Tudor Dimofte, Sergei Gukov, _Refined, Motivic, and Quantum_, [arXiv:0904.1420](http://arXiv.org/abs/0904.1420) 
+* [[Tudor Dimofte]], [[Sergei Gukov]], _Refined, Motivic, and Quantum_, [arXiv:0904.1420](http://arXiv.org/abs/0904.1420) 
 
-* Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Wall-crossing, Hitchin systems, and the WKB approximation_, [arxiv:0907.3987](http://arxiv.org/abs/0907.3987)
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation_, [arxiv:0907.3987](http://arxiv.org/abs/0907.3987)
 
 * R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](http://arxiv.org/abs/0711.3899)
 
@@ -96,13 +96,14 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * Duiliu-Emanuel Diaconescu, _Moduli of ADHM sheaves and local Donaldson-Thomas theory_, [arXiv:0801.0820](http://arXiv.org/abs/0801.0820) 
 
-* Tom Bridgeland, _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237)
+* [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237)
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arxiv/0910.4315](http://arxiv.org/abs/0910.4315)
 
 * [[Dominic Joyce]], Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
+
 
 ### Introductions, surveys and lectures
  {#IntroductoryReferences}
@@ -121,6 +122,12 @@ A survey of progress on the most general picture is in
 
 * [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Spectral networks_ ([arXiv:1204.4824](http://arxiv.org/abs/1204.4824), 
 [illustrating animations](http://www.ma.utexas.edu/users/neitzke/spectral-network-movies/))
+
+### In supergravity
+
+* [[Kai Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+
+* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
  
 
 
