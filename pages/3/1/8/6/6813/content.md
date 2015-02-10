@@ -22,7 +22,7 @@
 
 The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
 
-Particularly the [[BPS states]] among the black branes in [[supergravity]] include configurations that look like the strong-coupling vesion of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not not strictly speaking "black" solutions.)
+Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling vesion of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
 
 ## Properties
 
@@ -64,6 +64,8 @@ Original articles include
 Review includes,
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+
+* {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
 
 Recent developments include
 
