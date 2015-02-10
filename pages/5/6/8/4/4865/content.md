@@ -217,6 +217,11 @@ Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the 
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
 Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
+following 
+
+*  A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
+
+
 ### Classical solutions and BPS states
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
@@ -261,6 +266,7 @@ See also the relevant references at _[[M5-brane]]_.
 * [[Danile Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
 
 * Adel Bilal, Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_ ([arXiv:hep-th/0307152](http://arxiv.org/abs/hep-th/0307152))
+
 
 
 ### Description by exceptional generalized geometry
