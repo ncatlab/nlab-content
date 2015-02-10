@@ -32,7 +32,7 @@ A **simplicial object** in a [[category]] $C$ is a [[functor]] $\Delta^{op} \to 
 
 More generally, a simplicial object in an [[(∞,1)-category]] is an [[(∞,1)-functor]] $\Delta^{op} \to C$.
 
-A **cosimplicial object** in $C$ is similarly a functor out of the [[opposite category]], $\Delta \to C$.
+A **[[cosimplicial object]]** in $C$ is similarly a functor out of the [[opposite category]], $\Delta \to C$.
 
 Accordingly, simplicial and cosimplicial objects in $C$ themselves form a [[category]] in an obvious way, namely the [[functor category]] $[\Delta^{op},C]$ and $[\Delta,C]$, respectively.
 
@@ -165,12 +165,10 @@ $$
 
 
 [[!redirects simplicial objects]]
-[[!redirects cosimplicial object]]
-[[!redirects cosimplicial objects]]
+
 
 [[!redirects category of simplicial objects]]
-[[!redirects category of cosimplicial objects]]
 
 [[!redirects categories of simplicial objects]]
-[[!redirects categories of cosimplicial objects]]
+
 category: simplicial object
