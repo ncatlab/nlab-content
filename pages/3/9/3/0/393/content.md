@@ -43,6 +43,8 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 #Related concepts#
 
+* [[relative category]]
+
 * [[category of fibrant objects]]
 
 * [[cofibration category]]
