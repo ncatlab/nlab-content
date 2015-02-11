@@ -754,7 +754,7 @@ establishes a [[natural equivalence]] (a [[natural bijection]] of sets in this c
 $$
   Act_{\mathbf{H}}(G)(V, [\Sigma,X])
   \simeq
-  Act_{\mathbf{H}}(G)(V \times \Sigma, X])
+  Act_{\mathbf{H}}(G)(V \times \Sigma, X)
   \,,
 $$
 
@@ -860,6 +860,7 @@ the [[stabilization]] of the $\infty$-category of $G$-actions.
 For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]] structure, the semidirect product group $G \ltimes A$ from [above](#SemidirectProductGroups) exhibits $A$ as a $G$-module in the sense of def. \ref{InfinityModuleOverAnInfinityGroup}.
 
 =--
+
 
 #### Actions in a slice
  {#ExamplesActionsInASlice}
