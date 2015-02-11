@@ -31,7 +31,7 @@ In fact, already the definition of [[module]] has to be freed from it concrete r
 
 * Dan Quillen, _Homotopical algebra_
 
-and in Jon Beck's thesis, and is discussed in more detail in the entry [[module]]: Beck and Quillen noticed that the [[category]] $R Mod$ of modules over an ordinary commutative ring $R$ is canonically [[equivalence of categories|equivalent]] to the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] $CRing/R$ of all rings, over the given ring $R$:
+and in Jon Beck's thesis, and is discussed in more detail in the entries _[[module]]_ and _[[Beck module]]_ : Beck and Quillen noticed that the [[category]] $R Mod$ of modules over an ordinary commutative ring $R$ is canonically [[equivalence of categories|equivalent]] to the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] $CRing/R$ of all rings, over the given ring $R$:
 
 $$
   R Mod \simeq Ab(CRing/R)
