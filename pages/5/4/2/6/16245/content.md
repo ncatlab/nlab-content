@@ -32,7 +32,12 @@ In [[homotopy type theory]], the inclusion of a smaller [[universe|universe in t
 
 ### Coherence
 
-[Reynolds (2000)](#Reynolds00) gave an interesting proof of coherence for a coercion interpretation of a language with subtyping.  The proof works by first building a [[logical relation]] between this "intrinsic semantics" and a separate extrinsic semantics of the language (the latter based on interpreting programs as elements of a universal [[domain theory|domain]]), and then establishing a "bracketing theorem" which says essentially that there are embedding-retraction pairs $(\phi_A : [[A]] \to U, \psi_A : U \to [[A]])$ between the intrinsic interpretation of any type and the universal domain $U$.  Together, these imply that the coercion $[[\alpha]] : [[A]] \to [[B]]$ associated to any derivation $\alpha$ of a subtyping judgment $A \le B$ can be factored as 
+[Reynolds (2000)](#Reynolds00) gave an interesting proof of coherence for a coercion interpretation of a language with subtyping.  The proof works by first building a [[logical relation]] between this "intrinsic semantics" and a separate untyped semantics of the language (the latter based on interpreting programs as elements of a universal [[domain theory|domain]] $U$), and then establishing a "bracketing theorem" which says that for any domain $[[A]]$ in the image of the intrinsic semantics, there are a pair of functions $\phi_A : [[A]] \to U$ and $\psi_A : U \to [[A]]$ such that
+
+* for any $a\in [[A]]$, $a$ is logically related to $\phi_A(a)$
+* if $a$ is logically related to $x$, then $a = \psi_A(x)$
+
+Combined, the logical relations theorem and the bracketing theorem imply that the coercion $[[\alpha]] : [[A]] \to [[B]]$ associated to any derivation $\alpha$ of a subtyping judgment $A \le B$ can be factored as 
 
 $$
 \begin{matrix}
