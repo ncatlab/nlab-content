@@ -274,6 +274,10 @@ reviewed in section 8.8. of
 
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
+and specifically for super-[[D-branes]] this discussion is in 
+
+* Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
+
 The role of polyvector extended supersymmetry algebras in [[supergravity]] and [[string theory]] is further highlighted in
 
 * [[Paul Townsend]], _$p$-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
