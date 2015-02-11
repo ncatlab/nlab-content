@@ -149,12 +149,15 @@ $$
 
 ### Modules as tangents to rings {#OrdinaryModules}
 
-+-- {: .un_prop}
+
++-- {: .num_prop}
 ###### Proposition
 
 For $C = $ [[CRing]] we have $T_C \simeq $ [[Mod]]. 
 
 =--
+
+(More generally for $C =$ [[Ring]] then $T_C$ is the category of [[bimodules]], see at _[Beck module -- Over associative algebras](Beck+module#OverAssociativeAlgebras)_).
 
 +-- {: .proof}
 ###### Proof
@@ -178,7 +181,7 @@ is an [[equivalence of categories]]. This is shown at [[module]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The domain projection $Mod \to CRing$ has a left adjoint, namely the functor assigning to each commutative ring $A$ the pair $(A, \Omega_A)$, where $\Omega_A$ is the $A$-module of [[Kähler differentials]].
@@ -205,7 +208,7 @@ $$
 
 to the underlying ordinary [[ring]]s.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 {#TangentOfSmoothAlgTheorem}
 
@@ -223,14 +226,14 @@ where on the right we have the strict [[pullback]] (i.e. taken in the 1-category
 
 We give the proof below. First some remarks and corollaries.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We may regard an object in $T_{SmoothAlg}$ as a module over a [[smooth algebra]]. The above says in particular that modules over smooth algebras are just modules over the underlying ordinary rings. However, the category structure on $T_{SmoothAlg}$ does reflect that modules over smooth algebras have a different nature than just bare modules, notably in that the left adjoint to the projection $T_{SmoothAlg} \to SmoothAlg$ produces the correct $C^\infty$-[[derivation]]s and $C^\infty$-[[Kähler differential]]s (see there) as opposed to the purely algebraic ones.
  
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 For any category $S$ we have that 
@@ -247,7 +250,7 @@ So in particular for $S = \Delta$ the [[simplex category]] we have that [[simpli
 
 For proving the [above theorem](#TangentOfSmoothAlgTheorem) the main step is the following lemma. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For a fixed smooth algebra $R$, the [[forgetful functor]] 
