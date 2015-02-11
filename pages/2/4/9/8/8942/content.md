@@ -32,6 +32,12 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 ### General
 
+Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
+
+* [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+
+The term "M9-brane" maybe originates in
+
 * Eric Bergshoeff, Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
 
 A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
