@@ -107,6 +107,10 @@ and in the broader context of [[WZW model]] terms in
 
 * {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.3 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
+following 
+
+* [[José de Azcárraga]], _Wess-Zumino terms, extended algebras and anomalies in classical physics_, Contemp.Math. 132 (1992) 75-98 ([spire](https://inspirehep.net/record/320052?ln=de))
+
 
 [[!redirects classical anomalies]]
 
