@@ -135,15 +135,15 @@ See [[module over an enriched category]].
  {#DefWithOCat}
 
 There is a general definition of modules in terms of 
-stabilized slice-categories of the category of monoids:
-[[tangent (infinity,1)-categories]]. 
+stabilized slice-categories of the category of monoids: _[[Beck modules]]_,
+_[[tangent (infinity,1)-categories]]_. 
 
 #### Modules over a ring
  {#ModulesOverARingInTermsOfStabilizedSlices}
 
 The ordinary case of modules over rings is phrased 
 in terms of stabilized overcategories by the following
-observation, which goes back at least to Jon Beck's 1967 thesis, and is found in the important paper of  [[Daniel Quillen]]; both listed below.
+observation, which goes back at least to ([Beck 67](#Beck67)), and is found in the important paper of  ([Quillen 70](#Quillen70)); both listed below. For more see at _[[Beck module]]_.
 
 +-- {: .num_prop #Square0ExtensionsOfRingsAreAbelianSliceObjectsAreModules}
 ###### Proposition
@@ -444,13 +444,15 @@ $$
 
   * [[Noetherian module]]
 
-  * [[Fredholm module]]
-
   * [[completion of a module]]
 
   * [[quasicoherent module]]
 
     [[module over a derived stack]]
+
+  * [[Fredholm module]]
+
+  * [[Beck module]]
 
 * [[representation]], [[∞-representation]]
 
@@ -487,13 +489,13 @@ See also the references at [[enriched category theory]] and at [[profunctor]].
 
 ### On modules as stabilized overcategories
 
-The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ was used by Quillen:
+The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ ([[Beck module]]) is due to
 
-* [[Daniel G. Quillen]], _On the (co-)homology of commutative rings_, in Proc. Symp. on Categorical Algebra, 65 &#8211; 87, American Math. Soc.,  1970.
+* {#Beck67} [[Jon Beck]], _Triples, algebras and cohomology_, Ph.D. thesis, Columbia University, 1967, Reprints in Theory and Applications of Categories, No. 2 (2003) pp 1-59 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html))
 
-More 'classical' references for this include Jon Beck's thesis
+* {#Quillen70} [[Daniel G. Quillen]], _On the (co-)homology of commutative rings_, in Proc. Symp. on Categorical Algebra, 65 &#8211; 87, American Math. Soc.,  1970.
 
-* Jon M.  Beck, _Triples, algebras and cohomology_, [thesis](http://www.tac.mta.ca/tac/reprints/articles/2/tr2.pdf). 
+
 
 The fully abstract higher categorical concept in terms of [[stabilization|stabilized]] [[overcategory|overcategories]] and the [[tangent (∞,1)-category]] appears in 
 
