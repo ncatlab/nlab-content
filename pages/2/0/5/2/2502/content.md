@@ -199,6 +199,10 @@ The super-Poincar&#233; Lie algebra has a class of super [[Lie algebra extension
 
 For instance the "[[M-theory Lie algebra]]" is a polyvector extension of the super Poincar&#233; Lie algebra $\mathfrak{siso}_{N=1}(10,1)$ by polyvectors of rank $p = 2$ and $p=5$ (the [[M2-brane]] and the [[M5-brane]] in the [[brane scan]]), see below [Polyvector extensions as automorphism Lie algebras](#PolyvectorExtensionsAsAutomorphismLieAlgebras).
 
+##### As current algebras of the GS super $p$-branes
+
+The polyvector extensions arise as the super Lie algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] ([AGIT 89](#AGIT89)).
+
 ##### As automorphism Lie algebras of Lie $n$-superalgebras
  {#PolyvectorExtensionsAsAutomorphismLieAlgebras}
 
@@ -264,7 +268,12 @@ The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ (the "[[M-th
 
 Polyvector extensions were found as the algebra of [[conserved currents]] of the [[Green-Schwarz super p-branes]] in
 
-* [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
+
+reviewed in section 8.8. of 
+
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
 
 
 A comprehensive account and classification of the polyvector extensions of the super Poincar&#233; Lie algebras is in
