@@ -19,7 +19,7 @@
 
 #Idea#
 
-A _homotopical category_ is a construction used in [[homotopy theory]], related to but more flexible than a [[model category]].
+A _homotopical category_ is a structure used in [[homotopy theory]], related to but more flexible than a [[model category]].
 
 
 #Definition#
@@ -32,7 +32,7 @@ A _homotopical category_ is a [[category with weak equivalences]] where on top o
 
 * The 2-out-of-6-property implies the [[2-out-of-3]] property, hence every homotopical category is a [[category with weak equivalences]].
 
-* Every [[model category]] is a homotopical category.
+* Every [[model category]] yields a homotopical category.
 
 * A functor $F : C \to D$ between homotopical categories which preserves weak equivalences is a [[homotopical functor]].
 
