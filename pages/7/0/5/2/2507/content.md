@@ -64,15 +64,15 @@ The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on
 with the differential defined by
 
 $$
-  d_{CE} \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
 $$
 
 $$
-  d_{CE} e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
 $$
 
 $$
-  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
   \,.
 $$
 
