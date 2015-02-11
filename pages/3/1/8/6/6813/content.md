@@ -22,7 +22,7 @@
 
 The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
 
-Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling vesion of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
+Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
 
 ## Properties
 
@@ -67,10 +67,16 @@ Review includes,
 
 * {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
 
-Recent developments include
+Further developments include
+
+ 
+* Gerard Clement, Dmitri Gal'tsov, Cedric Leygnac, _Black branes on the linear dilaton background_, Phys. Rev. D71 (2005) 084014 ([arXiv:hep-th/0412321](http://arxiv.org/abs/hep-th/0412321))
+
+* D. Gal'tsov, S. Klevtsov, D. Orlov, G. Clement, _More on general $p$-brane solutions_, Int.J.Mod.Phys.A21:3575-3604, 2006 ([arXiv:hep-th/0508070](http://arxiv.org/abs/hep-th/0508070))
 
 * Jay Armas, Joan Camps, Troels Harmark, Niels A. Obers, _The Young Modulus of Black Strings and the Fine Structure of Blackfolds_ ([arXiv:1110.4835](http://arxiv.org/abs/1110.4835)) 
- 
+
+
 [[!redirects black branes]]
 [[!redirects black p-brane]]
 [[!redirects black p-branes]]
