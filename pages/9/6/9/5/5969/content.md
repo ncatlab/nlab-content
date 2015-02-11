@@ -126,6 +126,7 @@ Every [[symmetry]] induces a conserved current.
 This is [[Noether's theorem]]. See there for more details.
 
 ## In higher prequantum geometry
+ {#InHigherPrequantumGeometry}
 
 The following discusses conserved currently in the context of [[higher prequantum geometry]]. This follows ([Schreiber 13](#Schreiber13)). Similar observations have been made by [[Igor Khavkine]].
 
@@ -135,7 +136,7 @@ The following discusses conserved currently in the context of [[higher prequantu
 Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]]. For $\mathbf{Fields} \in \mathbf{H}$ a [[moduli ∞-stack]] of [[field (physics)|fields]] a [[local Lagrangian]] for an $n$-dimensional [[prequantum field theory]] is equivalently a [[prequantum n-bundle]] given by a map
 
 $$
-  \mathcal{L} \;\colon\; \mathbf{Fields} \longrightarrow \mathbf{B}^n U(1)_{conn}
+  \mathbf{L} \;\colon\; \mathbf{Fields} \longrightarrow \mathbf{B}^n U(1)_{conn}
 $$
 
 
@@ -149,7 +150,8 @@ The following is effectively the direct higher geometric analog of the [Hamilton
 A transformation of the [[field (physics)|fields]] is an [[equivalence]]
 
 $$
-  \mathbf{Fields} \underoverset{\simeq}{\phi}{\longrightarrow}
+  \mathbf{Fields} 
+    \underoverset{\simeq}{\phi}{\longrightarrow}
   \mathbf{Fields}
   \,.
 $$
@@ -161,33 +163,37 @@ $$
     \mathbf{Fields} &&\underoverset{\simeq}{\phi}{\longrightarrow}&&
     \mathbf{Fields}
     \\
-    & {}_{\mathllap{\mathcal{L}}}\searrow &\swArrow^\simeq_\alpha& \swarrow_{\mathrlap{\mathcal{L}}}
+    & {}_{\mathllap{\mathbf{L}}}\searrow &\swArrow^\simeq_\alpha& \swarrow_{\mathrlap{\mathbf{L}}}
     \\
     && \mathbf{B}^n U(1)_{conn}
   }
   \,.
 $$
 
-(With $\mathcal{L}$ equivalently regarded as [[prequantum n-bundle]] this is equivalently a [higher quantomorphism](quantomorphism%20group#InHigherGeometry). These are the transformations studied in ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13))) 
+(With $\mathbf{L}$ equivalently regarded as [[prequantum n-bundle]] this is equivalently a [higher quantomorphism](quantomorphism%20group#InHigherGeometry). These are the transformations studied in ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13))) 
 
-For $\phi$ an [[infinitesimal object|infinitesimal]] operation an $L$ locally the Lagrangian $n$-form, this means
+For $\phi$ an [[infinitesimal object|infinitesimal]] operation an $L$ locally the Lagrangian $n$-form, this means that the [[Lie derivative]] $\mathcal{L}_{\delta \phi}$ of $L$ has a potential,
 
 $$
   \mathcal{L}_{\delta \phi} L = \mathbf{d} \alpha
 $$
 
-hence that the Lagrangian changes under the [[Lie derivative]] by an exact term. By [[Cartan's magic formula]] this means
+hence that the Lagrangian changes under the [[Lie derivative]] by an exact term, hence by a [[divergence]] on the [[worldvolume]] (since the degree of the Lagrangian form is the [[dimension]] of the worldvolume). This is the situation of the [[Noether theorem]] for the general case of "weak" symmetries (see at [Noether theorem -- schematic idea  -- weak symmetries](Noether+theorem#WeakSymmetrySchematicIdea)).
+ 
+
+By [[Cartan's magic formula]] the above means
 
 $$
   \mathbf{d}\left(
-    \alpha - \iota_{\delta\phi} \mathcal{L} 
+    \alpha - \iota_{\delta\phi} \mathbf{L} 
   \right)
    = 
   \iota_{\delta \phi} \omega  
   \,.
 $$
 
-Hence (...)
+
+and hence the combination $\alpha - \iota_{\delta\phi} \mathbf{L}$ is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see e.g. at [[schreiber:infinity-Chern-Simons theory -- covariant phase space]]). (Notice that here $\mathbf{L}$ being directly a [[differential form]] on the space of fields (instead of on a [[jet bundle]] of a [[field bundle]]) means that it depends on the derivatives of the fields exclusively via de Rham differentials, and hence the contraction $\iota_{\delta \phi}\mathbf{L}$ corresponds indeed to the variation $\frac{\delta L}{\delta \dot\phi} \delta \phi$ as it appears in the traditional statement of [[Noether's theorem]]).
 
 
 ## Related concepts
