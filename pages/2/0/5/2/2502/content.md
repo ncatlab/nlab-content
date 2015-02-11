@@ -274,6 +274,9 @@ reviewed in section 8.8. of
 
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
+The role of polyvector extended supersymmetry algebras in [[supergravity]] and [[string theory]] is further highlighted in
+
+* [[Paul Townsend]], _$p$-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
 
 
 A comprehensive account and classification of the polyvector extensions of the super Poincar&#233; Lie algebras is in
