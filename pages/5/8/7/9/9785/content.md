@@ -24,7 +24,16 @@ A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#Polyv
 
 ## Properties
 
-Arises ([Castellani 05](#Castellani05), [FSS 13](#FSS13)) as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there).
+### As the algebra of conserved currents of the M-branes
+
+In ([AGIT 89](#AGIT89)) it is shows that the M-algebra-like polyvector extensions arise as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]].
+
+By the discussion at [conserved current -- In higher prequantum geometry](conserved+current#InHigherPrequantumGeometry) this means that this is the degree-0 piece in the [[Heisenberg Lie n-algebra]] which is induced by regarding the WZW-curvature terms as super [[n-plectic forms]] on $\mathbb{R}^{10,1|32}$.
+
+### As the Lie algebra of derivation of the SuGra Lie 3-algebra
+
+In ([Castellani 05](#Castellani05)) it is 
+implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
 ## Related concepts
 
@@ -36,13 +45,21 @@ Arises ([Castellani 05](#Castellani05), [FSS 13](#FSS13)) as the [[derivations]]
 
 The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ were first considered in 
 
-* {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+* {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
  * [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d=2,3,4 \,mod\, 8$_ J.Phys. A15, 3763 (1982).
 
-* [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
  * [[Paul Townsend]], _p-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
+
+They were identified as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
+
+reviewed in section 8.8. of 
+
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
 
 The full extension was named "M-algebra" in
 
