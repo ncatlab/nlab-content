@@ -109,6 +109,7 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * [[Dominic Joyce]], Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
+* [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
 
 ### Introductions, surveys and lectures
  {#IntroductoryReferences}
@@ -123,6 +124,7 @@ A survey of progress on the most general picture is in
 * Katzutoshi Ohta, _BPS state counting and related physics_ (2005) ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft/2005/slides/ohta.pdf))
 
 
+
 ### In supergravity
 
 Discussion of extremal/BPS [[black branes]] in [[supergravity]] includes
@@ -130,6 +132,8 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] includes
 * {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+
+* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](http://arxiv.org/abs/0712.3235))
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
