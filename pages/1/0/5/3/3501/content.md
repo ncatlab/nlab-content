@@ -5,7 +5,32 @@
 
 ## Idea
 
-To a space (typically with singularities) of a certain kind (there are variants) one associates a category whose objects are called **perverse sheaves**. They are neither perverse nor sheaves, but they are related to some sheaf categories and notably generalize the [[intersection cohomology]]. Perversity is there a parameter involved in the grading of intersection cohomology groups. Another feature similar to sheaves is that they are somehow determined by the local data; there is a famous gluing due to [[Sasha Beilinson]]. In one of the approaches (see MacPherson's notes) there are even modified Steenrod-Eilenberg axioms stated for intersection cohomology. 
+To a space (typically with singularities) of a certain kind (there are variants) one associates a category whose objects are called **perverse sheaves**. They are neither perverse nor sheaves, 
+
+They are related to some sheaf categories and notably generalize the [[intersection cohomology]]. Perversity is there a parameter involved in the grading of intersection cohomology groups. Another feature similar to sheaves is that they are somehow determined by the local data; there is a famous gluing due to [[Sasha Beilinson]]. In one of the approaches (see MacPherson's notes) there are even modified Steenrod-Eilenberg axioms stated for intersection cohomology. 
+
+##Defintions
+
+In this set of examples, $X$ is a complex [[stratified space]] (i.e. a stratification $S$ of $X$ is a collection of locally complex submanifolds which satisfy some conditions). 
+
+We can alternatively define $X$ as an [[algebraic variety]] (where a stratification $S$ of $X$ is a collection of subvarieties which satisfy some conditions).
+
+1. $Shv(X)$ := sheaves of complex vector spaces on X (assisgns to every connected open set a vector space)
+
+1. Look at (bounded) chain complexes in $Shv(X)$ (up to homotopy) =: $K^b(X)$
+
+1. formally invert quasi-isomorphisms in $K^b(X)$, making this a [[derived category]] =: $D^b(X)$
+
+1. $D_s^b(X)$ :=  subcategory of $D^b(X)$, all sheaves are constructible; 
+
+* where $F \in D_s^b(X)$ if for all strata $S$, $i: \hookrightarrow X$; 
+* $H^k(i^*F)$ is a finite rank local system on $S$ for all $k$, where $k = \text{dim}_{\mathbb{C}}(S)$.
+
+1. $P_S(X)$ := the category of perverse sheaves, an abelian subcategory of the (non-abelian) derived category of sheaves on $X$, $D_s^b(X)$.
+
+In other words, a [[perverse sheaf]] is an object $C$ of the bounded derived category of sheaves with constructible cohomology on a space (X), satisfying some conditions.
+
+(...)
 
 ## Terminology
  {#Terminology}
