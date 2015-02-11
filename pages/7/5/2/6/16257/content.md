@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -15,11 +19,11 @@
 
 ## Idea
 
-One usually defines [[cohomology]] with respect to some coefficient objects:
+One usually defines [[cohomology]] with respect to some [[coefficient]] objects:
 
 * For [[group cohomology]] of a [[group]] $G$, the coefficients come from a (left) $G$-[[module]].
 * For [[Lie algebra cohomology]] of a [[Lie algebra]] $\mathfrak{g}$, the coefficients come from a (left) $\mathfrak{g}$-module.
-* For [[Hochschild cohomology]] of an [[associative algebra]] $A$, the coefficients come from an $A$-bimodule.
+* For [[Hochschild cohomology]] of an [[associative algebra]] $A$, the coefficients come from an $A$-[[bimodule]].
 
 **Beck modules** are a simultaneous generalisation of all three.
 
@@ -27,9 +31,11 @@ One usually defines [[cohomology]] with respect to some coefficient objects:
 
 Let $\mathcal{C}$ be a [[category]] with [[pullback]]s and let $A$ be an object in $\mathcal{C}$. A **Beck module** over $A$ is an [[abelian group object]] in the slice category $\mathcal{C}_{/ A}$. In particular, if $A$ is the terminal object, this reduces to the notion of an abelian group object in $\mathcal{C}$. We write $\mathbf{Ab}(\mathcal{C}_{/ A})$ for the category of Beck modules over $A$.
 
+([Beck 67, def. 5](#Beck67))
+
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{C}$ be an [[effective regular category]] (resp. [[locally presentable category]]) and let $A$ be an object in $\mathcal{C}$. Then $\mathbf{Ab}(\mathcal{C}_{/ A})$ is an [[abelian category]] (resp. locally presentable category).
@@ -43,7 +49,7 @@ If $\mathcal{C}$ is a effective regular category (resp. locally presentable cate
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{C}$ be an effective regular category with [[filtered colimits]] and let $A$ be an object in $\mathcal{C}$. If filtered colimits in $\mathcal{C}$ preserve finite [[limits]], then $\mathbf{Ab}(\mathcal{C}_{/ A})$ (is an abelian category and) satisfies axiom AB5.
@@ -57,7 +63,7 @@ The forgetful functor $\mathcal{C}_{/ A} \to \mathcal{C}$ [[created limit|create
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 Let $\mathcal{C}$ be a locally finitely presentable effective regular category and let $A$ be an object in $\mathcal{C}$. Then $\mathbf{Ab}(\mathcal{C}_{/ A})$ is a [[Grothendieck category]].
@@ -79,7 +85,7 @@ for the set of $M$-valued derivations of $A$. The **Beck module of differentials
 
 The Beck module $\Omega_A$ is not guaranteed to exist in general. When the functor $U : \mathbf{Ab}(\mathcal{C}_{/ A}) \to \mathcal{C}_{/ A}$ has a left adjoint, $\Omega_A$ is simply the value of the left adjoint at $1_A$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{C}$ be a locally presentable category and let $A$ be an object in $\mathcal{C}$. Then the forgetful functor $U : \mathbf{Ab}(\mathcal{C}_{/ A}) \to \mathcal{C}_{/ A}$ has a left adjoint.
@@ -96,8 +102,9 @@ The forgetful functor $\mathbf{Ab}(\mathcal{C}_{/ A}) \to \mathcal{C}_{/ A}$ cre
 ## Examples
 
 ### Beck modules over associative algebras
+ {#OverAssociativeAlgebras}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{C}$ be the category of (not necessarily commutative) [[rings]] and let $A$ be a ring. Then $\mathbf{Ab}(\mathcal{C}_{/ A})$ is equivalent to the category of $A$-bimodules.
@@ -133,7 +140,7 @@ Thus, we have an equivalence between $\mathbf{Ab}(\mathcal{C}_{/ A})$ and the ca
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $A$ be a ring. Then the Beck module $\Omega_A$ is isomorphic to the $A$-bimodule of [[Kähler differentials]] (relative to $\mathbb{Z}$).
@@ -152,7 +159,7 @@ i.e. a derivation $A \to M$ (over $\mathbb{Z}$). Thus, the Beck module $\Omega_A
 
 ### Beck modules over groups
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{C}$ be the category of (not necessarily abelian) [[groups]] and let $G$ be a group. Then $\mathbf{Ab}(\mathcal{C}_{/ G})$ is equivalent to the category of left $G$-modules.
@@ -186,7 +193,7 @@ Thus, we have an equivalence between $\mathbf{Ab}(\mathcal{C}_{/ G})$ and the ca
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $G$ be a group and let $M$ be a left $G$-module. Under the above identification of Beck modules over $G$ with left $G$-modules, $M$-valued derivations of $G$ are precisely crossed homomorphisms $G \to M$, i.e. maps $\delta : G \to M$ satisfying the following equation:
@@ -208,6 +215,16 @@ which is equivalent to the defining equation for crossed homomorphisms.
 One may assemble the individual categories of Beck modules over the objects of $\mathcal{C}$ into a category fibred over $\mathcal{C}$, called the [[tangent category]].
 
 ## References
+
+The concept is due to
+
+* {#Beck67} [[Jon Beck]], _Triples, algebras and cohomology_, Ph.D. thesis, Columbia University, 1967, Reprints in Theory and Applications of Categories, No. 2 (2003) pp 1-59 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html))
+
+and was popularized in
+
+* {#Quillen70} [[Daniel G. Quillen]], _On the (co-)homology of commutative rings_, in Proc. Symp. on Categorical Algebra, 65 &#8211; 87, American Math. Soc.,  1970.
+
+See also
 
 * [[Michael Barr]], _Acyclic models_, Chapter 6, &#167;1.
 
