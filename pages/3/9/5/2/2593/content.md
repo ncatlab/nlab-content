@@ -167,7 +167,7 @@ in section 6 of
 
 with a brief summary in
 
-* [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
+* [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
 
 
 chapter 7 of
