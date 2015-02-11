@@ -133,7 +133,7 @@ Discussion of extremmal/BPS [[black branes]] in [[supergravity]] includes
 
 Discussion of more general classification of solutions to [[supergravity]] preserving some [[supersymmetry]], i.e. admitting some [[Killing spinors]] includes
  
-* Jerome P. Gauntlett, Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
+* [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
 * {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047,2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
 
