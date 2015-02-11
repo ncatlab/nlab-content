@@ -73,6 +73,14 @@ For instance definition 2.1 in
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv](http://arxiv.org/abs/1106.4068)).
 
+See also
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _Higher geometric prequantum theory_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+
+Higher geometric prequantum theory
+
+
+[[!redirects n-plectic forms]]
 
 [[!redirects multisymplectic form]]
 
