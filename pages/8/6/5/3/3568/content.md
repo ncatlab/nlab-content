@@ -13,6 +13,9 @@ This semester, we are holding a [[seminar on factorization algebras]].
 
 28 Feb--5 March, going to Berkeley :). 
 
+
+16 February--19 February, Hamburg [Christoph Wockel's conference](http://www.math.uni-hamburg.de/ids2015/)
+
 Urs Schreiber is visiting 29 Jan and gives a talk at [GRK colloquium] (http://www.uni-goettingen.de/de/207450.html).  
 
 
