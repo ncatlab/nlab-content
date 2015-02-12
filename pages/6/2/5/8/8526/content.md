@@ -19,6 +19,8 @@ It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a pr
 
 * [[Frobenioid]]
 
+* [[étale theta function]]
+
 ## References
 
 * [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
@@ -27,8 +29,8 @@ It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a pr
 
 * [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory III, Canonical splittings of the Log-theta-lattice_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20III.pdf))
 
-* [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory IV, Log-volume computations and set-theoretic foundations_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20IV.pdf))
- {#Mochizuki12d}
+* {#Mochizuki12d} [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory IV, Log-volume computations and set-theoretic foundations_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20IV.pdf))
+ 
 
 Surveys include
 
