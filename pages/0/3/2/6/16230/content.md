@@ -3,6 +3,11 @@
 
 A concept in [[arithmetic geometry]] introduced by [[Shinichi Mochizuki]] in the context of his [[inter-universal Teichmüller theory]].
 
+### Related concepts
+
+* [[étale theta function]]
+
+
 ## References
 
 * Wikipedia, _[Frobenioid](http://en.wikipedia.org/wiki/Frobenioid)_
