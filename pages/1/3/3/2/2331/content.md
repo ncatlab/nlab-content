@@ -282,5 +282,8 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 
 * [[Dennis Gaitsgory]], _Lie theory from the point of view of derived algebraic geometry_, Lecture notes from a mini-course, Nantes, 2014, [web](http://www.math.harvard.edu/~gaitsgde/Nantes14/).
 
+* Vladimir Dotsenko, Sergey Shadrin, [[Bruno Vallette]], _Pre-Lie deformation theory_, [arxiv/1502.03280](http://arxiv.org/abs/1502.03280)
+ 
+
 [[!redirects deformation]]
 [[!redirects deformations]]
