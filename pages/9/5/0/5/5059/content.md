@@ -345,7 +345,10 @@ Discussion with the hetetoric gauge field included is in ([Atick-Dhar-Ratra 86](
 
 Discussion for the GS-version of the [[type II superstring]] in [[type II supergravity]]-backgrounds is in ([GHMNT 85](#GHMNT85)), and for the [[D-branes]] in type II in ([CGNSW 97](#CGNSW97)).
 
+### Conserved currents
+ {#ConservedCurrents}
 
+The super-WZW term of the GS action functionals is invariant under [[supersymmetry] only up to a [[divergence]]. Hence the [[Noether theorem]] in its generality for "weak" symmetries applies and gives that the [[conserved currents]] receive an extra contribution from this divergence term. The resulting algebra is a central extension of the given [[super translation Lie algebra]], extending to the famous [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) "by brane charges" of the [[super Poincaré Lie algebra]] ([AGIT 89](#AGIT89)).
 
 
 ## Related concepts
@@ -554,11 +557,22 @@ Discussion including also the [[RR-field]] background includes
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
 
-### Symmetries
+### Conserved current algebra
+ {#ReferencesConservedCurrentAlgebra}
 
-That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals should have "higher" extended symmetry algebras in some sense... is observed in 
+That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals have [[conserved current]] algebras which are [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) of the supersymmetry algebras was observed in
 
-* [[José de Azcárraga]], Jerome P. Gauntlett, J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([web](http://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+
+reviewed in section 8.8. of 
+
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
+Specifically for the super-[[D-branes]] this is discussed in
+
+* Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
+
+
 
 ### $\kappa$-Symmetry 
 
