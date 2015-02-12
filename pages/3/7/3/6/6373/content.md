@@ -15,7 +15,7 @@
 
 ## Idea
 
-__Class field theory__ studies finite-dimensional abeliean [[field extensions]] of [[number fields]] and of [[function fields]], hence of [[global fields]] by relating them to the [[idele class group]].
+__Class field theory__ studies finite-dimensional abelian [[field extensions]] of [[number fields]] and of [[function fields]], hence of [[global fields]] by relating them to the [[idele class group]].
 
 Class field theory clarifies the origin of various [[reciprocity]] laws in [[number theory]]. The basic (one dimensional) class field theory stems from the ideas of Kronecker and Weber, and results of Hilbert soon after them. Main results of the theory belong to the first half of the 20th century (Hilbert, Artin, Tate, Hasse...) and are quite different for the [[local field]] from the [[global field]] case. One of the basic objects the class group, is related to the [[Picard group]] in algebraic geometry. 
 Generalizations for higher dimensional fields came later under now active higher class field theory, which is usually formulated in terms of algebraic K-theory and is closely related to deep questions of algebraic geometry (Par&#353;in, Tate, Kato, Saito etc.).
