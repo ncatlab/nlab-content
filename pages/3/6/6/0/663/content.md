@@ -20,7 +20,7 @@
 
 ## Idea
 
-A mathematical structure is _essentially algebraic_ if its definition involves [[functional relation|partially defined operations]] satisfying equational laws, where the domain of any given operation is a subset where various other operations happen to be equal.  An actual [[algebraic theory]] is one where all operations are total [[function]]s.
+A [[mathematical structure]] is _essentially algebraic_ if its definition involves [[functional relation|partially defined operations]] satisfying equational laws, where the [[domain]] of any given operation is a subset where various other operations happen to be equal.  An actual [[algebraic theory]] is one where all operations are total [[function]]s.
 
 The most familiar example may be the ([[strict category|strict]]) notion of [[category]]: a [[small category]] consists of a set $C_0$ of objects, a set $C_1$ of morphisms, source and target maps $s,t : C_1 \to C_0$ and so on, but composition is only defined for pairs of morphisms where the source of one happens to equal the target of the other.
 
@@ -108,6 +108,16 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 * [[operad]] / [[(∞,1)-operad]]
 
 * [[generalized algebraic theory]]
+
+## References
+ {#References}
+
+* [[Peter Freyd]], _Aspects of Topoi_, Bull. Austr. Math. Soc. 7, pp. 1--76, 467--80. 1972 ([pdf](http://journals.cambridge.org/article_S0004972700045408))
+
+* [[Ji?í Adámek]],  M. H&#233;bert,  [[Ji?í Rosický]], _On essentially algebraic theories and their generalizations_, Algebra Universalis, August 1999, Volume 41, Issue 3, pp 213-227
+
+* {#AdamekRosicky} [[Ji?í Adámek]], [[Ji?í Rosický]], section 3.D of _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+ 
 
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
