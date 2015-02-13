@@ -289,7 +289,7 @@ See also
  {#ReferencesRelationToGerbesAndCS}
 
 
-Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] (WZW term) in this language is in 
+Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] ([[WZW term]]) in this language is in 
 
 * [[Krzysztof Gawedzki]], Nuno Reis, _WZW branes and gerbes_, Rev.Math.Phys. 14 (2002) 1281-1334 ([arXiv:hep-th/0205233](http://arxiv.org/abs/hep-th/0205233))
  {#GW}
@@ -414,6 +414,9 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 
 [[!redirects WZW term]]
 [[!redirects WZW terms]]
+[[!redirects WZW-term]]
+[[!redirects WZW-terms]]
+
 
 [[!redirects WZW gerbe]]
 [[!redirects WZW gerbes]]
