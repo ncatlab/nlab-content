@@ -1,12 +1,14 @@
+
 ## Seminar on Factorization Algebras at Goettingen: 2014 Fall - 2015 Winter ##
 ***
 
-
-**Meeting time: Every Tuesday, 12:45-14:45 (plus epsilon)
-
 **Place: Sitzungssaal,  [Page in studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=a829cf0bce827ed6bc8a6ae2413e96bf) for people at Gottingen, and its [Google group](https://groups.google.com/forum/?hl=en#!forum/factorizationalgebras).
 
+* table of contents
+{: toc}
+
 ### Objectives ###
+{#Objectives}
 
 The aim of this seminar is bi-fold: to learn factorization algebra, and to understand perturbative quantum field theory. 
 
@@ -21,10 +23,12 @@ Factorization algebra is broadly connected to different branches in mathematics,
 * contribute to this exciting area from our own expertise.
 
 ### Prerequisite ###
+{#Prerequisite}
 
 Graduate-level courses on abstract algebra, differential geometry and topology. No knowledge on classical/quantum field theory is assumed. It would be good to have in mind some possible connections/applications of factorization algebras in your research topics. Or, if you are not sure at this point, feel free to raise up a discussion among the participants.
 
 ### Plan of Talks ###
+{#Plan}
 
 We initiated the first several talks, which give a gentle introduction to the topic. The future talks will be the on more specific developments. 
 
@@ -56,11 +60,45 @@ In the following meetings we shall look into various applications and comparison
 
 * Feb. 3, 2015: Factorization algebras and Goodwillie Calculus by Dmitri. The Eilenberg-Steenrod axioms give a collection of (homology) functors from spaces to chain complexes that are represented by their values at a point. With a slight generalization, one considers functors from the category $Man_n$ of manifolds with embeddings to a general symmetric monoidal $\infty$-category $\mathcal{D}$ subject to similarly defined axioms. There is an equivalence between those functors and the little-disk algebras valued in $\mathcal{D}$ induced by the evaluation map, whose inverse is given by factorization homology. Given one such functor $A: Man_n\to \mathcal{D}$, one defines $k$-th Taylor (co)tower $P_k A$ via the left Kan extension from $Disk_n^{\leq k}$ to $Man_n$, and $A$ is analytic if $P_\infty A\to A$ is an equivalence, which encodes the factorization descent condition. Homotopy fibers $D_\bullet A$ of the (co)tower $P_\bullet A$ at each stage can be defined. In the homotopy context for Taylor towers $P_\bullet \mathcal{F}$, the results of Goodwillie allow one to describe $D_\bullet \mathcal{F}$ quite explicitly. Fra.
 
-* Feb. 10, 2015: will not meet today. We shall soon launch a discussion session during the break, so please stay tuned!
 
+### Discussion Sessions ###
+{#Discussion}
 
+We launched a discussion program, as certain kind of continuation of the factorization algebra seminar during the break. The aim is to promote relaxing and enlightening discussions on factorization algebra and nearby areas among people at Goettingen.
+
+For each session, there will be one-hour long presentation given by the leader/speaker (so to "tell the story"), s/he may also bring up some points to discuss during the tea break and the extra discussion hours. If people are interested, we could also go for joint dinner later that day.
+
+* Session 1 @ Sitzungssaal
+
+| February 23       |    Leader                        |    Topic                   | 
+| ------------- | --------------------| ---------------- |
+| 12:40 - 13:40   |    Xiaoyi Cui                   |                               |
+| 13:40 - 14:10   |    tea time                                                     ||
+| 14:10 - 15:10   |    Dmitri Pavlov              |                               |
+| 15:10 - 18:00[^1]   |    tea time                                               ||
+
+* Session 2 @ Sitzungssaal
+
+| March 5             |    Leader                        |    Topic                   | 
+| ------------- | --------------------| ---------------- |
+| 13:00 - 14:00   |    Jan Jitse Venselaar     |                                |
+| 14:00 - 14:30   |    tea time                                                     ||
+| 14:30 - 15:30   |    Vadim Alekseev         |                                |
+| 15:30 - 18:00[^1]   |    tea time                                               ||
+
+* Session 3 @ Sitzungssaal
+
+| March 19           |    Leader                        |    Topic                   | 
+| ------------- | --------------------| ---------------- |
+| 13:00 - 14:00   |    David Buecher            |                                |
+| 14:00 - 14:30   |    tea time                                                     ||
+| 14:30 - 15:30   |    TBD                            |                                |
+| 15:30 - 18:00[^1]   |    tea time                                               ||
+
+[^1]: The room has been reserved till 18:00 to allow for further discussion.
 
 ### References ###
+{#References}
 
 The main relation/application to quantum field theory is given by the following book, which also contains a careful introduction to the notion of factorization algebra.
 
