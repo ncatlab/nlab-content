@@ -2,15 +2,16 @@
 
 ## Content
 
+
 1. **[[locally presentable categories]]**
 
 1. **[[accessible categories]]**: see also [[sketch]]
 
-1. **algebraic categories**: see [[algebraic category]], [[equationally presentable category]], and [[variety of algebras]]
+1. **algebraic categories**: see [[algebraic category]],  [[equationally presentable category]], [[essentially algebraic theory]], and [[variety of algebras]]
 
 1. **[[injectivity class]]es**: see also [[weak factorization system]]
 
-1. **categories of models**: see [[internal logic]], [[theory]], [[model]]
+1. **categories of models**: see [[internal logic]], [[theory]], [[essentially algebraic theory]], [[model]]
 
 1. **[[Vopěnka's principle]]**
 
