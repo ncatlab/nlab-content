@@ -182,6 +182,8 @@ This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives t
 
 ## Related concepts
 
+* [[Kac-Moody group]]
+
 * [[Verlinde ring]]
 
 * [[string group]]
@@ -233,3 +235,6 @@ Discussion with respect to [[flag varieties]] is in
 
 [[!redirects Kac-Moody central extension]]
 [[!redirects Kac-Moody central extensions]]
+
+[[!redirects Kac-Moody loop group]]
+[[!redirects Kac-Moody loop groups]]
