@@ -41,6 +41,72 @@ Specifically in [[superstring theory]] BPS states in [[target space]] correspond
 
 The degeneracy of BPS states in string theory has been used to provide a microscopic interpretation of [[Bekenstein-Hawking entropy]] of [[black holes]], see at _[[black holes in string theory]]_.
 
+## Formalization in higher differential geometry
+ {#InTermsOfHigherDifferentialGeometry}
+
+> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]].
+
+Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
+
+$$
+  \phi \coloneqq \bar \psi \wedge E^{\wedge p} \wedge \psi \in \Omega^{p+2}(\mathbb{R}^{d-1,1|N})
+$$
+
+for the correspoding [[super Lie algebra]] [[Lie algebra cohomology|cocycle]], as discussed at _[[Green-Schwarz action functional]]_, see ([FSS 13](#FSS13)) for the perspective invoked here.
+
+Consider then $X$ a [[super-spacetime]] locally modeled on $\mathbb{R}^{d-1,1|N}$ as a [[Cartan geometry]], solving the relevant [[supergravity]] [[equations of motion]] (e.g. [[11-dimensional supergravity]] for $d= 11$, [[heterotic supergravity]] for $d = 10$ and $N = (1,0)$, [[type IIA supergravity]] for $d = 10$ and $N= (1,1)$ or [[type IIB supergravity]] for $d = 10$ $N= (2,0)$).
+
+This means in particular that $X$ carries a [[super differential form]]
+
+$$
+  \omega \in \Omega^{p+2}(X)
+$$
+
+which is [[definite form|definite]] on $\phi$. This is the [[curvature]] of the [[WZW-term]] which defines the relevant [[super p-brane sigma-model]] with [[target space]] $X$.
+
+By ([AGIT 89](#AGIT89)) $X$ is a BPS state to the extent that it carries [[Killing spinors]] which form a central [[Lie algebra extension]] of a sub-algebra of the [[supersymmetry]] algebra (i.e. of the [[super translation Lie algebra]]) by $H^p_{dR}(X)$ which is classified by the [[Lie algebra cohomology|cocycle]] given by
+
+$$
+  (\epsilon_1, \epsilon_2) \mapsto
+  \omega(\epsilon_1,\epsilon_2)
+  \in 
+  \Omega^p(X)_{cl}/im(\mathbf{d}_{dR})
+  \,.
+$$
+
+Now we observe that by ([hgpII, theorem 3.3.1](#hgpII)) this is precisely the [[0-truncation]] of the [[super L-infinity algebra|super]]-[[Poisson bracket Lie n-algebra]] $\mathfrak{Pois}(X,\omega)$ induced by regarding $(X,\omega)$ as an [[pre-n-plectic manifold|pre-n-plectic]] [[supermanifold]] and restricting along the inclusion of the [[Killing vectors]]/[[Killing spinors]] into all the [[Hamiltonian vector fields]].
+
+$$
+  H^p_{dR}(X) \to \tau_0 \mathfrak{Pois}(X,\omega) \to Vect_{Ham}(X)
+$$
+
+(Here we are using that if an [[n-type]] is an extension of a [[0-type]], then its 0-truncation is still an extension by the 0-truncation of the original homotopy fiber.)
+
+The elements in $H^p_{dR}(X)$ here are precisely the $p$-brane charges, as discussed in ([AGIT 89, p. 8](#AGIT89)).
+
+Hence $X$ is the more BPS the more odd-graded elements there are in $\tau_0 \mathfrak{Pois}(X,\omega)$ (or its restriction to super-isometries). Hence $X$ is a 1/2 BPS state of supergravity if the odd dimension of this is half that of $\mathbb{R}^{d-1,d|N}$, it is 1/4 BPS if the odd dimension is one fourth of that of $\mathbb{R}^{d-1,d|N}$, etc.
+
+Notice that if 
+
+$$
+  \array{
+    &&     
+     \mathbf{B}^{p+1} (\mathbb{R}/\Gamma)_{conn}
+    \\
+    &  {}^{\mathllap{\mathbf{L}_{WZW}}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}   
+    \\
+    X 
+    &\stackrel{\omega}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+  } 
+$$
+
+is a [[prequantum line n-bundle|prequantization]] of $\omega$, i.e. an actual [[WZW term]] with [[curvature]] $\omega$, then $\mathfrak{Pois}(X,\omega)$ is supposed to be the [[Lie differentiation]] of the [[stabilizer group]] of $\mathbf{L}_{WZW}$, which is the [[quantomorphism n-group]] $QuantMorph(\mathbf{L}_{WZW})$. (This Lie differentiation statement is strictly shown only for $p = 0$ and $p = 1$ in [[schreiber:differential cohomology in a cohesive topos|dcct]] but clearly should hold generally.)
+
+Hence we may regard $\mathbf{QuantMorph}(\mathbf{L}_{WZW})$ (or its restriction to super-[[isometries]]) as the [[Lie integration]] of the brane-charge extended supersymmetry algebra. By the discussion at _[conserved current -- In higher differential geometry](conserved+current#InHigherPrequantumGeometry)_ this is indeed the [[n-group]] of conserved currents of $\mathbf{L}_{WZW}$ regraded as a [[local Lagrangian]], and so this conceptually connects back to the considerations in ([AGIT 89](#AGIT89)).
+
+
+
 ## Examples
 
 ### In 11d Supergravity 
@@ -147,6 +213,17 @@ Discussion of more general classification of solutions to [[supergravity]] prese
 
 * {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047,2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
 
+The conceptual identification of the relevant brane-charge extension of the [[supersymmetry]] algebra as that of the [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] is due to
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+
+The structure found in that article matches the general extension structure discussed in 
+
+* {#hgpII} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107 &#8211; 142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+
+in view of
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 ### Spectral networks
  {#SpectralNetworksReferences}
