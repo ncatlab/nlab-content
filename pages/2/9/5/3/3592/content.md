@@ -39,7 +39,9 @@ An algebraic lattice is a [[poset]] which is [[locally finitely presentable cate
 This formulation suggests useful a way of viewing algebraic lattices in terms 
 of [[Gabriel-Ulmer duality]] (but with regard to enrichment in [[truth values]], instead of in $Set$). 
 
-As this last formulation suggests, algebraic lattices typically arise as [[subobject lattices]] for objects in locally finitely presentable categories. As an example, for any (finitary) [[Lawvere theory]] $T$, the subobject lattice of an object in $T$-$Alg$ is an algebraic lattice (this class of examples explains the origin of the term "algebraic lattice", which is due to Garrett Birkhoff). 
+As this last formulation suggests, algebraic lattices typically arise as [[subobject lattices]] for objects in locally finitely presentable categories. As an example, for any (finitary) [[Lawvere theory]] $T$, the subobject lattice of an object in $T$-$Alg$ is an algebraic lattice (this class of examples explains the origin of the term "algebraic lattice", which is due to Garrett Birkhoff). In fact, all algebraic lattices arise this way (see Theorem \ref{GS} below). 
+
+It is trivial that every finite lattice is algebraic. 
 
 ## Properties
 
@@ -112,7 +114,20 @@ If $C$ is a [[locally finitely presentable category]] and $X$ is an object of $C
 are all algebraic lattices. 
 =-- 
 
-This is due to [Porst](#Porst).
+This is due to [Porst](#Porst). Of course if $C$ is the category of algebras of an Lawvere theory, then the lattice of quotient objects of an algebra is isomorphic to its congruence lattice, as such $C$ is an [[exact category]]. 
+
+### Congruence lattices 
+
+The following result is due to Gr&#228;tzer and Schmidt: 
+
++-- {: .num_theorem #GS} 
+###### Theorem 
+Every algebraic lattice is isomorphic to the congruence lattice of some [[model]] $X$ of some finitary algebraic theory. 
+=-- 
+
+In particular, since every finite lattice is algebraic, every finite lattice arises this way. Remarkably, it is not known at this time whether every finite lattice arises as the congruence lattice of a *finite* algebra $X$. It has been conjectured that this is in fact **false**: see this [MO discussion](http://mathoverflow.net/a/196074/2926). 
+
+Another problem which had long remained open is the congruence lattice problem: is every *distributive* algebraic lattice the congruence lattice (or lattice of quotient objects) of some lattice $L$? The answer is negative, as shown by Wehrung in 2007: see this [Wikipedia article](http://en.m.wikipedia.org/wiki/Congruence_lattice_problem). 
 
 ### Completely distributive lattices
 
@@ -144,7 +159,11 @@ See also [[compact element]], [[compact element in a locale]].
 The relation to [[locally finitely presentable categories]] is discussed in
 
 * [[Hans Porst]], _Algebraic lattices and locally finitely presentable categories_ ([pdf](http://www.math.uni-bremen.de/~porst/dvis/PORST_AlgebraicLattices_revfinAU.pdf))
- {#Porst}
+ {#Porst} 
+
+That every algebraic lattice is a congruence lattice is proved in 
+
+* G. Gr&#228;tzer and E. T. Schmidt, _Characterizations of congruence lattices of abstract algebras_, Acta Sci. Math. (Szeged) 24 (1963), 34&#8211;59.
 
 
 [[!redirects algebraic lattice]]
