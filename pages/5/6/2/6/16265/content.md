@@ -17,7 +17,7 @@ is not surjective, by the hypothesis ${|A_j|} \lt {|B_j|}$. Thus for each $j \in
 
 +-- {: .num_cor} 
 ###### Corollary 
-For any cardinal $\kappa$, the cardinal $2^\kappa$ has cofinality greater than $\kappa$. 
+For any infinite cardinal $\kappa$, the cardinal $2^\kappa$ has cofinality greater than $\kappa$. 
 =-- 
 
 +-- {: .proof} 
