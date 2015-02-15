@@ -125,6 +125,29 @@ The associated-sheaf functor sends $g$ to a monomorphism in the Cohen topos.
 
 If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of choice]] both hold in G&#246;del's [[constructible universe]] $L$ built from $V$.
 
+## Generalization: Easton's theorem 
+
+Just how general can the power operation $\kappa \mapsto 2^\kappa$ be? There are of course some constraints. An obvious one is that $2^\kappa \leq 2^\lambda$ whenever $\kappa \leq \lambda$. A second one is a consequence of [[König's theorem]], and states that 
+
+* $\kappa \lt cof(2^\kappa)$ 
+
+where the right side is the [[cofinality]] of $2^\kappa$. 
+
+A remarkable illustration of the power of the forcing method is Easton's theorem, which says that as far as [[regular cardinals]] go, these are really the *only* constraints. 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Easton)** 
+Suppose $\mathcal{M}$ is a model of ZFC in which the generalized continuum hypothesis (GCH) holds. Let $F$ be a partial function from the class of regular cardinals to the class of cardinals such that 
+
+* $F$ preserves the order $\leq$; 
+
+* $\kappa$ is less than the cofinality of $F(\kappa)$ for all $\kappa \in dom(F)$. 
+
+Then there is a generic extension $\mathcal{M}[G]$ of $\mathcal{M}$ with the same cardinals and cofinalities, such that $\mathcal{M}[G] \models 2^\kappa = F(\kappa)$ for all $\kappa \in dom(F)$. 
+=-- 
+
+On the other hand, the behavior of the power operation on [[regular cardinal|singular cardinals]] is not so unconstrained. For example, in a model of ZFC, the smallest cardinal for which GCH fails can never be singular. The so-called "[[pcf theory]]" (for "possible cofinalities"), due to [[Saharon Shelah]], gives some information on possible bounds for the power operation on singular cardinals (among other things). 
 
 ## Links
 
