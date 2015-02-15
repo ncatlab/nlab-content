@@ -41,7 +41,7 @@ The [[Jacobian variety]] of an algebraic variety is principally polarized by the
 
 See also [this MO discussion](http://mathoverflow.net/q/95288/381).
 
-More generally the higher [[intermediate Jacobians]] with their Weil complex structure are polarized. On the other hand, when equipped with the  Griffith complex strucure they carry a [[p-convex polarization]] which is [[symplectomorphism|symplectomorphic]] but not [[biholomorphism|biholomorphic]] to the Weil polarization.
+More generally the higher [[intermediate Jacobians]] with their Weil complex structure are polarized. On the other hand, when equipped with the  Griffith complex structure they carry a [[p-convex polarization]] which is [[symplectomorphism|symplectomorphic]] but not [[biholomorphism|biholomorphic]] to the Weil polarization.
 
 ## Related concepts
 
