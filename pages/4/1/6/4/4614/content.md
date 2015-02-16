@@ -97,13 +97,13 @@ where the [[equivalence relation]] "$\sim_+$" identifies $(x,f_* p) \in X_l\time
 The geometric realization of the point --- the [[simplicial topological space]] that is in each degree the 1-point topological space --- is [[homeomorphic]] to the point, but the fat geometric realization of the point is an "infinite dimensional topological ball": the [[terminal object|terminal]] morphism
 
 $$
-  {\vert * \vert} \stackrel{\simeq_{iso}}{\to} *
+  {\vert * \vert} \stackrel{\simeq_{iso}}{\longrightarrow} *
 $$
 
 is an [[isomorphism]], but the morphism
 
 $$
-  {\Vert * \Vert} \stackrel{\simeq_{h.e.}}{\to} *
+  {\Vert * \Vert} \stackrel{\simeq_{h.e.}}{\longrightarrow} *
 $$
 
 is just a [[homotopy equivalence]].
@@ -164,7 +164,7 @@ $$
   ({\vert- \vert} \dashv Sing) 
    \colon  
   Top
-    \stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} 
+    \stackrel{\overset{{|-|}}{\longleftarrow}}{\underset{Sing}{\longrightarrow}} 
   sSet
 $$  
 
@@ -200,7 +200,7 @@ The second sentence follows directly by the remarks above.
 Note that there is nothing special about ${|Sing(-)|}$ in the proof; any functorial CW replacement would do just as well (such as that obtained by the [[small object argument]]).  However, ${|Sing(-)|}$ has the advantage that its geometric realization can be computed alternately in terms of diagonals of bisimplicial sets, as we now show.
 
 If $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ is a [[bisimplicial set]], we write $d S$ for its [[diagonal]], which is the composite
-$$\Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set.$$
+$$\Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\longrightarrow} Set.$$
 On the other hand, we can also consider a bisimplicial set as a simplicial object in $sSet$ and take its "geometric realization":
 $$ {|S_{\bullet,\bullet}|} \coloneqq \int^{n\in\Delta^{op}} S_{n,\bullet} \times \Delta^n_{sSet} $$
 where $\Delta^n_{sSet}$ denotes the $n$-simplex as a simplicial set, i.e. the representable functor $\Delta(-,[n])\colon \Delta^{op}\to Set$.
@@ -286,7 +286,7 @@ Geometric realization of simplicial topological spaces has a [[right adjoint|rig
 $$
   ({\vert - \vert} \dashv \underline{Sing})  \colon 
    sTop
-   \stackrel{\overset{{\vert - \vert}}{\to}}{\underset{\underline{Sing}} {\leftarrow}}
+   \stackrel{\overset{{\vert - \vert}}{\longrightarrow}}{\underset{\underline{Sing}} {\longleftarrow}}
    Top
   \,,
 $$
@@ -354,7 +354,7 @@ This appears as ([Segal74, prop. A.1](#Segal)).
 If the simplicial topological space $X_\bullet$ is [good](#GoodAndProper) then the natural morphism from its [fat geometric realization](#FatGeometricRealization) to its [ordinary geometric realization](#GeometricRealization) is a [[homotopy equivalence]]
 
 $$
-  {\Vert X_\bullet \Vert} \stackrel{\simeq}{\to} {|X_\bullet|}
+  {\Vert X_\bullet \Vert} \stackrel{\simeq}{\longrightarrow} {|X_\bullet|}
   \,.
 $$
 
