@@ -124,11 +124,15 @@ Since [[filtered colimits]] commute even with all [[finite limits]], they in par
 
 ## Related concepts
 
+* [[distributivity of products and colimits]]
+
 * **sifted category**, [[sifted (∞,1)-category]]
 
 * [[filtered category]], [[filtered (∞,1)-category]]
 
 * [[direct category]]
+
+
 
 ## References
 
