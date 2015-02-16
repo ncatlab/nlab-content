@@ -16,7 +16,9 @@ This page records material related to the talk
 
   [review and discussion of further issuees (pdf)](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-oxford.pdf)
 
-  [lecture video 1](http://video.ias.edu/files/ams/2014/LanglandsEdit.mp4), [video 2](http://video.ias.edu/files/ams/2014/LanglandsP1.mp4), [video 3](http://video.ias.edu/files/ams/2014/LanglandsP2.mp4). (Be aware that the  [home page](https://publications.ias.edu/node/2617) for these files says: *"Please note that the following videos might not play in Mozilla Firefox, but should in Google Chrome and possibly other browsers.*")  
+  [lecture video 1](http://video.ias.edu/files/ams/2014/LanglandsEdit.mp4), [video 2](http://video.ias.edu/files/ams/2014/LanglandsP1.mp4), [video 3](http://video.ias.edu/files/ams/2014/LanglandsP2.mp4). 
+
+(Be aware that the  [home page](https://publications.ias.edu/node/2617) for these files says: *"Please note that the following videos might not play in Mozilla Firefox, but should in Google Chrome and possibly other browsers.*" If your computer runs a recent version of Quicktime (e.g. 10.3) then copy the address from here and paste it into the `location' bar in Quicktime and it will work. This difficulty should be resolved with up-dates of Firefox and other browsers.)  
 
   [technical remarks on the video material (pdf)](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-comments.pdf)
 
