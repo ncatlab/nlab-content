@@ -97,6 +97,16 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[motivic sphere]]
 
+## References
+
+Axiomatization of the [[homotopy type]] of the 1-sphere (the [[circle]]) and the 2-sphere, as [[higher inductive types]], is in 
+
+* [[Univalent Foundations Project]], section 6.4 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+Visualization of the idea of the construction for the 2-sphere is in 
+
+* [[Andrej Bauer]], _HoTT $S^2$_ ([video](https://vimeo.com/119606901))
+
 [[!redirects n-sphere]]
 [[!redirects spheres]]
 [[!redirects infinite sphere]]
