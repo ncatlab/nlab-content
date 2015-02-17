@@ -5,7 +5,7 @@ The Parmenides dialogue has influenced and its topics (and mysterious style) hav
 
 ## References
 
-* Wikipedia _[Parmenides (dialogue)](http://en.wikipedia.org/wiki/Parmenides_(dialogue)_
+* Wikipedia _[Parmenides (dialogue)](http://en.wikipedia.org/wiki/Parmenides_%28dialogue%29)_
 
 * {#HegelWdL} [[Georg Hegel]], _[[Science of Logic]]_
 
