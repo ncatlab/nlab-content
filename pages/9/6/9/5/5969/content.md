@@ -178,7 +178,10 @@ $$
   \mathcal{L}_{\delta \phi} L = \mathbf{d} \alpha
 $$
 
-hence that the Lagrangian changes under the [[Lie derivative]] by an exact term, hence by a [[divergence]] on the [[worldvolume]] (since the degree of the Lagrangian form is the [[dimension]] of the worldvolume). This is the situation of the [[Noether theorem]] for the general case of "weak" symmetries (see at [Noether theorem -- schematic idea  -- weak symmetries](Noether+theorem#WeakSymmetrySchematicIdea)).
+hence that the Lagrangian changes under the [[Lie derivative]] by an exact term, hence by a [[divergence]] on the [[worldvolume]] (since the degree of the Lagrangian form is the [[dimension]] of the worldvolume). See also ([Azcarraga-Izquierdo 95 (8.1.13)](#AzcarragaIzquierdo95)).
+
+
+This is the situation of the [[Noether theorem]] for the general case of "weak" symmetries (see at [Noether theorem -- schematic idea  -- weak symmetries](Noether+theorem#WeakSymmetrySchematicIdea)).
  
 
 By [[Cartan's magic formula]] the above means
@@ -193,7 +196,7 @@ $$
 $$
 
 
-and hence the combination $j \coloneqq \alpha - \iota_{\delta\phi} \mathbf{L}$ (a _[[Hamiltonian form]]_ for $\delta \phi$ with respect to $\omega$) is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see e.g. at [[schreiber:infinity-Chern-Simons theory -- covariant phase space]]). (Notice that here $\mathbf{L}$ being directly a [[differential form]] on the space of fields (instead of on a [[jet bundle]] of a [[field bundle]]) means that it depends on the derivatives of the fields exclusively via de Rham differentials, and hence the contraction $\iota_{\delta \phi}\mathbf{L}$ corresponds indeed to the variation $\frac{\delta L}{\delta \dot\phi} \delta \phi$ as it appears in the traditional statement of [[Noether's theorem]]).
+and hence the combination $j \coloneqq \alpha - \iota_{\delta\phi} \mathbf{L}$ (a _[[Hamiltonian form]]_ for $\delta \phi$ with respect to $\omega$) is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see ([Azcarraga-Izquierdo 95 (8.1.14)](#AzcarragaIzquierdo95))). 
 
 ## Examples
 
@@ -244,7 +247,11 @@ Higher conserved currents are discussed for instance in
 
 ### In higher prequantum theory
 
-In the context of [[higher prequantum geometry]] conserved currents of the [[WZW model]] and in [[schreiber:∞-Wess-Zumino-Witten theory]] are briefly indicated on the last page of
+Conserved currents for Lagrangians written as [[WZW terms]] are discussed in
+
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.1 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+
+Building on that, in the context of [[higher prequantum geometry]] conserved currents of the [[WZW model]] and in [[schreiber:∞-Wess-Zumino-Witten theory]] are briefly indicated on the last page of
 
 * [[Urs Schreiber]], _Higher geometric prequantum theory and The Brane Bouquet_, notes for a [[schreiber:The brane bouquet|talk]] at [Bayrischzell 2013](http://hep.itp.tuwien.ac.at/~miw/bzell2013/) ([pdf notes](http://ncatlab.org/schreiber/files/hpqWZWintro.pdf))
  {#Schreiber13}
