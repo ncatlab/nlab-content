@@ -288,9 +288,24 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 ## References
 
+### Traditional
+
+The concept of _dialectical reasoning_ is often attributed to  
+
+* [[Plato]], second part of the _[[Parmenides dialogue]]_ . 
+
+This is much amplified and expanded in
+ 
+* {#Hegel1812} [[Georg Hegel]], _[[Science of Logic]]_, 1812
+
+The origins of its proposed formalization in [[category theory]] are recalled in
+
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
+
+
 ### In terms of adjoint triples of (co-)reflections and localizations
 
-In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
+Formalized in terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
 
 * {#Lawvere91} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
  
@@ -300,17 +315,12 @@ In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] a
 
 * {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
  
-motivated as a formalization of ideas expressed in
+motivated as a formalization of ideas expressed in ([Hegel 1812](#Hegel1812)).
 
-* {#Hegel1812} [[Georg Hegel]], _[[Science of Logic]]_, 1812
 
 See there particularly the very last section _[The absolute idea (The dialectical method)](Science+of+Logic#DialektischeMethode)_.
  
-But according to 
-
-* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
-
-the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
+But according to ([Lambek 82](#Lambek82)) the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
 
 See also 
 
