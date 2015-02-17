@@ -9,6 +9,8 @@
 =--
 =--
 
+> There are good reasons why the theorems should all be easy and the definitions hard. ([[Michael Spivak]], preface to "[[Calculus on Manifolds]]" )
+
 
 #Contents#
 * table of contents
