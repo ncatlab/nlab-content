@@ -1,0 +1,15 @@
+
+
+
+This page collects material related to the textbook
+
+
+* [[Michael Spivak]],
+
+  _Calculus on Manifolds_ -- A Modern Approach To Classical Theorems Of Advanced Calculus
+
+  1971
+
+on [[calculus]] and [[differential geometry]].
+
+category: reference
