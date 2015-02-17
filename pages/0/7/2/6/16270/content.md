@@ -1,7 +1,24 @@
 
-One of the dialogues by [[Plato]]. The first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
 
-The Parmenides dialogue has influenced and its topics (and mysterious style) have been picked up by [Hegel WdL](#HegelWdL), eg. in [&#167;357](Science%20of%20Logic#357).
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+One of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. 
+
+The Parmenides dialogue has influenced, and its topics (and mysterious style) have been picked up, by [Hegel WdL](#HegelWdL), eg. in [&#167;357](Science%20of%20Logic#357).
 
 ## References
 
