@@ -75,9 +75,9 @@ The original reference is
 
 A standard textbook reference is 
 
-* [[Charles Weibel]], _Homological algebra_
+* [[Charles Weibel]], section 4.5 of _Homological algebra_ ([pdf](http://www.math.unam.mx/javier/weibel.pdf))
 
-A generalization of Koszul complexes to (appropriate resolutions of algebras over) operads is in 
+A generalization of Koszul complexes to (appropriate resolutions of) [[algebras over operads]] is in 
 
 * Joan Mill&#232;s, _The Koszul complex is the cotangent complex_, MPIM2010-32, [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=4143) 
 
