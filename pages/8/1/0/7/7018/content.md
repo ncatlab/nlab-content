@@ -13,6 +13,8 @@
 =--
 =--
 
+> There are good reasons why the theorems should all be easy and the definitions hard. ([[Michael Spivak]], preface to "[[Calculus on Manifolds]]" )
+
 # Theorems
 * table of contents
 {: toc}
@@ -62,6 +64,7 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 * [[Thomas Hales]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
+
 
 
 [[!redirects theorem]]
