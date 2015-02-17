@@ -1,0 +1,8 @@
+
+
+* Wikipedia, _[Plato](http://en.wikipedia.org/wiki/Plato)_
+
+## Related entries
+
+* [[doctrine of ideas]]
+
