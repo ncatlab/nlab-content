@@ -216,7 +216,7 @@ The **monad of a Lawvere theory $C$** is the monad $T: Set/S \to Set/S$ associat
 Now let $T: Set/S \to Set/S$ be a [[monad]] on $Set/S$, with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
 
 +-- {: .un_def}
-######Definition 
+###### Definition 
 The **large Lawvere theory** $Th(T)$ **of $T$** is the [[opposite category|opposite]] of the [[Kleisli category]], $Kl(T)^{op}$. 
 =-- 
 
@@ -227,12 +227,12 @@ $$(Set/S)^{op} \to Kl(T)^{op}$$
 which is a bijection on the classes of objects. Therefore $Kl(T)^{op}$ is indeed a (large, multi-sorted) Lawvere theory. 
 
 +-- {: .un_thm} 
-######Theorem 2
+###### Theorem 2
 Let $T$ be a monad on $Set/S$. The monad associated with the theory $Th(T)$ is isomorphic to $T$. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 In other words, we claim the monad of the adjunction 
 
 $$Set/S \stackrel{\Pi^{op}}{\to} Kl(T) \stackrel{y}{\to} Prod(Kl(T)^{op}, Set)) \dashv (Prod(Kl(T)^{op}, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set) \simeq Set/S$$ 
@@ -245,20 +245,20 @@ takes an object $f: X \to S$ to
 
 $$Kl(T)(\Pi^{op}-, \Pi(f)) \cong Set/S(-, U \Pi(f)) \cong Set/S(-, T(f))$$ 
 
-and since the equivalence $Prod((Set/S)^{op}, Set) \to Set$ is adjoint to the yoneda embedding, it takes $Set/S(-, T(f))$ to $T(f)$. This proves the claim. 
+and since the equivalence $Prod((Set/S)^{op}, Set) \to Set/S$ is adjoint to the yoneda embedding, it takes $Set/S(-, T(f))$ to $T(f)$. This proves the claim. 
 =-- 
 
 In the other direction, we have 
 
 +-- {: .un_thm}
-######Theorem 3
+###### Theorem 3
 Let $C$ be an $S$-sorted Lawvere theory. Then the Lawvere theory of the monad of $C$ is equivalent to $C$. 
 =-- 
 
 We assume for convenience that the product-preserving functor $\Pi: (Set/S)^{op} \to C$ is the identity on the class of objects. 
 
 +-- {: .proof}
-######Proof 
+###### Proof 
 We need to exhibit a comparison functor $Kl(T)^{op} \to C$, where $T$ is the monad of $C$. Such a comparison functor exists provided that $\Pi: (Set/S)^{op} \to C$ has a left adjoint whose associated monad is isomorphic to $T$. Now the composite 
 
 $$C^{op} \stackrel{y}{\to} Prod(C, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set)$$ 
@@ -294,12 +294,12 @@ has a left adjoint such that the associated monad is $T$, and this yields a comp
 $$A: Prod(Kl(T)^{op}, Set) \to Alg(T)$$ 
 
 +-- {: .un_thm}
-######Theorem 4
+###### Theorem 4
 $A$ is an equivalence. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 In outline, this proceeds as follows: 
 
 * $A$ is essentially surjective, because if $X$ is a $T$-algebra, then $M_X: Kl(T)^{op} \to Set$ is a product-preserving functor such that $A(M_X) \cong X$. 
