@@ -24,6 +24,11 @@ infinitesimal calculus and its generalizations and analogues without usage of pr
 
 In order to mark the subject and ideas, the $n$Lab tag [formal calculus](/nlab/list/formal+calculus) will be used for the analogues of infinitesimal calculus defined in areas or in a manner not using mathematical analysis. The tag will not be used for entries on various "calculi" which are not analogues of infinitesimal calculus. 
 
+## References
+
+* [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
+
+
 category: disambiguation, analysis, formal calculus
 
 [[!redirects calculi]]
