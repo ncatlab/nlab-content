@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 What has come to be called the _doctrine of ideas_ or the _theory of forms_ is  a central part of the [[philosophy]] of [[Plato]], going back mostly to the [[Parmenides dialogue]].
 
 ## References
