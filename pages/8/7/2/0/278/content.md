@@ -97,6 +97,8 @@ Textbooks include
 
 * [[Michael Spivak]], _A comprehensive introduction to differential geometry_ (5 Volumes) 
 
+* [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
+
 * [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 
 With emphasis in [[G-structures]]:
