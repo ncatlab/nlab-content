@@ -162,10 +162,13 @@ and for discussion in the context of the [[M2-brane]] from p. 7 on in
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]] II: Twisted $String$ and $String^c$-structures_  ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419)).
 
-The relation to [[string structures]] is made explicit in section 2.3 of 
+The relation to $p_1$-structure is made explicit in 
 
-* {#BunkeNaumann} [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_ ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
+* {#BunkeNaumann} [[Ulrich Bunke]], [[Niko Naumann]], section 2.3 of _Secondary Invariants for String Bordism and tmf_, Bull. Sci. Math. 138 (2014), no. 8, 912&#8211;970 ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
  
+* C. Blanchet, N. Habegger, [[Gregor Masbaum]], P.Vogel, _Topological quantum field theories derived from the Kauffman bracket_, Topology Vol 34, No. 4, pp. 883-927 (1995) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/bhmv.pdf))
+
+
 
 More discussion in terms of bounding 4-manifolds is in 
 
