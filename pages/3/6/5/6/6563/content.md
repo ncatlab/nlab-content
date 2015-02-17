@@ -102,10 +102,12 @@ General sources:
 * [[Terence Tao|T. Tao]] (2010), "A second draft of a non-technical article on universality" ([web](http://terrytao.wordpress.com/2010/09/14/a-second-draft-of-a-non-technical-article-on-universality/))
 
 Statistical distributions:
+
 * Wikipedia, [stable distribution](http://en.wikipedia.org/wiki/Stable_distribution)
 * Wikipedia, [Fisher&#8211;Tippett&#8211;Gnedenko theorem](http://en.wikipedia.org/wiki/Fisher%E2%80%93Tippett%E2%80%93Gnedenko_theorem)
 
 Equilibrium critical phenomena:
+
 * B. Berche _et al._ (2009), "Critical phenomena: 150 years since Cagniard de la Tour" _J. Phys. Studies_ **13**: 3201, [arXiv:0905.1886](http://arxiv.org/abs/0905.1886).
 * J. P. Sethna (2006), _Statistical Physics: Entropy, Order Parameters, and Complexity_. Oxford University Press. [Available on the author's website](http://pages.physics.cornell.edu/sethna/StatMech/).  See in particular chapter 12.
   {#Sethna2006}
@@ -123,10 +125,12 @@ Equilibrium critical phenomena:
   {#LeveltSengers1976}
 
 Random matrix theory:
+
 * Yan Fyodorov (2011) Random matrix theory. Scholarpedia, 6(3):9886 ([web](http://www.scholarpedia.org/article/Random_matrix_theory))
 * this conversation at the n-Category Caf&#233; on [the Tenfold Way](http://golem.ph.utexas.edu/category/2010/12/the_threefold_way_part_2.html#c035973).
 
 Nonequilibrium critical phenomena:
+
 * P. C. Hohenberg and B. I. Halperin (1977). "Theory of dynamic critical phenomena" _Rev. Mod. Phys._ **49**: 435. ([web](http://www.physics.mcgill.ca/~omid/Hohenberg_Halperin.pdf))
 * _Nonequilibrium Phase Transitions_ (2008) by Henkel _et al._
 * Vollmayr-Lee's talks on the "field theory approach to diffusion-limited reactions", [Boulder School for Condensed Matter and Materials Physics](http://boulder.research.yale.edu/Boulder-2009/Lectures/index.html) (2009), in particular lecture 4
