@@ -5,3 +5,6 @@ A positively [[graded algebra]] $A$ is called **Koszul** (after [[Jean-Louis Kos
 
 The algebra $(A^!)^{\op}$ is itself Koszul and is called the _[[Koszul dual]]_ of $A$.
 
+
+
+[[!redirects Koszul algebras]]
