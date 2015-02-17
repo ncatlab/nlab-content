@@ -1,0 +1,6 @@
+
+A medieval christian mystic.
+
+## References
+
+* Wikipediam, _[Meister Eckart](http://en.wikipedia.org/wiki/Meister_Eckhart)_
