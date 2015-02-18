@@ -99,7 +99,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-If $\Sigma, \Sigma' \subset X$ are homolous, the associated charge is the same
+If $\Sigma, \Sigma' \subset X$ are homologous, the associated charge is the same
 
 $$
   Q_{\Sigma} = Q_{\Sigma'}
