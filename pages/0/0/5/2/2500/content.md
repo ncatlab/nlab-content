@@ -264,6 +264,10 @@ Lecture notes include
 
 * [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
 
+Furrther surveys include
+
+* {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
+
 
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
