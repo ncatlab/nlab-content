@@ -9,12 +9,6 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
-
-## Idea
-
 This page collects material related to
 
 * [[Plato]]
@@ -27,9 +21,25 @@ This page collects material related to
 
   ([plain text](http://www.sacred-texts.com/cla/plato/parmeni.htm))
 
-one of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. 
+one of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. It concludes as follows:
+
+> $[$...$]$ whether one is or is not, one and the others in
+relation to themselves and one another, all of them, in every way, are
+and are not, and appear to be and appear not to be.
+
+> Most true.
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Hegel's interpretation
+
 
 The Parmenides dialogue has influenced, and its topics (and mysterious style) have been picked up, by [Hegel WdL](#HegelWdL), eg. in [&#167;357](Science%20of%20Logic#357).
+
+> Hegel's interpretation of Plato's Parmenides during the early Jena period focuses largely on its methodological value as a radical exercise in negative skepticism, and, as such, as introduction to proper philosophizing. In his Relation of Skepticism to Philosophy, for example, Hegel characterizes Plato's dialogue as exhibiting "the negative side of the knowledge of the absolute" (die negative Seite der Erkenntnis des Absoluten). According to this interpretation, the dialogue's role in the history of philosophy is twofold. On the one hand, the negative dialectic of ideas that constitutes its backbone would exhibit the inadequacy of the understanding to provide true cognition. By showing that concepts (here understood as "determinations of the understanding [Verstandes-bestimmungen]") like similar and dissimilar, older and younger, continuous and discrete, or, more crucially, same and other, are intimately connected with their respective contradictory, Plato would demonstrate that to deny or attribute these opposites simultaneously to "finite" or "badly infinite," that is, non-self-reflexive, objects of thinking leads to utter unintelligibility. On the other hand, Hegel believes also that the dialogue works as indirect proof of the validity of a different cognitive mode - namely, reason - that Plato intends to display and account for in a separate trilogy: the Sophistes, the Politicos, and, in definitive form, the Philosophos. The Parmenides would then tacitly imply that "truly infinite," self-reflexive objects of thinking may actually be made intelligible precisely by the dialectic contradictions of which the dialogue shows only the negative results. ... ([de Laurentiis 04](#deLaurentiis04))
 
 ## References
 
@@ -38,6 +48,9 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 * Stanford Endcyclopedia of Philosophy, _[Plato's Parmenides](http://plato.stanford.edu/entries/plato-parmenides/)_
 
 * {#HegelWdL} [[Georg Hegel]], _[[Science of Logic]]_
+
+* {#deLaurentiis04} A. de Laurentiis, _On Hegel's reading of Plato's Parmenides_, 2004 
+
 
 
 [[!redirects Parmenides]]
