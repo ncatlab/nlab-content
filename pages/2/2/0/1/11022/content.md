@@ -12,9 +12,14 @@
 
 ## Related entries
 
-* [[objective idealism]]
+* [[doctrine of ideas]]
 
-* [[subjective idealism]]
+* idealism
 
-* [[idealism and constructivism]]
+  * [[objective idealism]]
+
+  * [[subjective idealism]]
+
+  * [[absolute idealism]]
+
 
