@@ -128,9 +128,9 @@ This is [[Noether's theorem]]. See there for more details.
 ## In higher prequantum geometry
  {#InHigherPrequantumGeometry}
 
-> under construction
+The following discusses conserved currents in the context of [[higher prequantum geometry]], closely related to [Azcarraga-Izquierdo 95, section 8.1](#AzcarragaIzquierdo95). This follows ([classicalinhigher, section 3.3.](#classicalinhigher), going back to [Schreiber 13](#Schreiber13)). Similar observations have been made by [[Igor Khavkine]].
 
-The following discusses conserved currents in the context of [[higher prequantum geometry]], closely related to [Azcarraga-Izquierdo 95, section 8.1](#AzcarragaIzquierdo95). This follows ([Schreiber 13](#Schreiber13)). Similar observations have been made by [[Igor Khavkine]].
+> this section needs much polishing. For the moment better see [classicalinhigher, section 3.3](#classicalinhigher)
 
 
 ### Context
@@ -257,13 +257,14 @@ Conserved currents for Lagrangians written as [[WZW terms]] are discussed in
 
 Building on that, in the context of [[higher prequantum geometry]] conserved currents of the [[WZW model]] and in [[schreiber:∞-Wess-Zumino-Witten theory]] are briefly indicated on the last page of
 
-* [[Urs Schreiber]], _Higher geometric prequantum theory and The Brane Bouquet_, notes for a [[schreiber:The brane bouquet|talk]] at [Bayrischzell 2013](http://hep.itp.tuwien.ac.at/~miw/bzell2013/) ([pdf notes](http://ncatlab.org/schreiber/files/hpqWZWintro.pdf))
- {#Schreiber13}
+* {#Schreiber13} [[Urs Schreiber]], _Higher geometric prequantum theory and The Brane Bouquet_, notes for a [[schreiber:The brane bouquet|talk]] at [Bayrischzell 2013](http://hep.itp.tuwien.ac.at/~miw/bzell2013/) ([pdf notes](http://ncatlab.org/schreiber/files/hpqWZWintro.pdf))
+
+* {#classicalinhigher} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_ 
 
 The same structure is considered in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013
-  {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013
+  
 
 as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local currents.
 
