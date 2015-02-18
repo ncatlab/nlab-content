@@ -15,8 +15,19 @@
 
 ## Idea
 
+This page collects material related to
 
-One of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. 
+* [[Plato]]
+
+  _Parmenides_
+
+  370 BC
+
+  English translation by Benjamin Jowett, 1871 
+
+  ([plain text](http://www.sacred-texts.com/cla/plato/parmeni.htm))
+
+one of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. 
 
 The Parmenides dialogue has influenced, and its topics (and mysterious style) have been picked up, by [Hegel WdL](#HegelWdL), eg. in [&#167;357](Science%20of%20Logic#357).
 
@@ -32,3 +43,5 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 [[!redirects Parmenides]]
 
 [[!redirects Parmenides (dialogue)]]
+
+category:reference
