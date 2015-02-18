@@ -108,6 +108,7 @@ is said to have **positive energy** or to be a **[[positive energy representatio
 =--
 
 #### By geometric quantization (looped orbit method)
+ {#ByGeometricQuantization}
 
 We discuss the [[quantization of loop groups]] in the sense of [[geometric quantization]] of their canonical [[prequantum bundle]].
 
