@@ -42,6 +42,7 @@ $$
 
 (whose [[curvature]] is given by the global [[Maurer-Cartan form]] on $G$).
 
+
 If one has a $G$-[[principal bundle]] 
 
 $$
@@ -179,3 +180,6 @@ General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 [[!redirects fibered WZW models]]
 [[!redirects fibered Wess-Zumino-Witten model]]
 [[!redirects fibered Wess-Zumino-Witten models]]
+
+[[!redirects parameterized WZW term]]
+[[!redirects parameterized WZW terms]]
