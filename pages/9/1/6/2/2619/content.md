@@ -67,6 +67,17 @@ Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of 
 
 =--
 
+
+### In categories of modules over rings
+
+The only tiny object in the category of modules over some ring is the zero module: If $M$ is a tiny object in a category of modules, the map
+$$
+  Hom(M,M) \amalg Hom(M,M) \longrightarrow Hom(M,M \oplus M)
+$$
+is bijective and in particular surjective. Therefore the diagonal embedding $x \mapsto (x,x)$ can be written as $\iota \circ f$ for some linear map $f : M \to M$, where $\iota$ is one of the inclusions $M \to M \oplus M$. This shows that any element of $M$ is zero.
+
+
+
 ### In presheaf categories
 
 
