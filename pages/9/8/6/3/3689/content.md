@@ -379,6 +379,10 @@ See for instance ([Kiersz, prop. 3](#Kiersz)).
 
 [[!include structure on algebras and their module categories - table]]
   
+### Tiny objects
+ {#TinyObjects}
+
+The only [[tiny object]] in the category of modules over a ring is the zero module, see. For details see at _[tiny object -- Examples -- In categories of modules over rings](tiny+object#InCategoriesOfModulesOverRings)_.
 
 ## Related concepts
 
@@ -424,4 +428,3 @@ category: category
 
 [[!redirects category of modules]]
 [[!redirects categories of modules]]
-
