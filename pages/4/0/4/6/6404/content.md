@@ -69,6 +69,7 @@ Similar comments apply to [[type II superstring theory]], where $N=1$ target spa
 * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 ## References
+ {#References}
 
 Original references include
 
@@ -101,8 +102,8 @@ Lecure notes in a more general context of [[string phenomenology]] include
 
 Discussion of generalized Calabi-Yau backgrounds is for instance in 
 
-* Mariana Gra&#241;a, Ruben Minasian, Michela Petrini, Alessandro Tomasiello, _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
-  {#GMPT}
+* {#GMPT} [[Mariana Graña]], Ruben Minasian, Michela Petrini, Alessandro Tomasiello, _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
+  
 
 
 
