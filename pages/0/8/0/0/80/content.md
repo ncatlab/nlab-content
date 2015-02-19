@@ -64,7 +64,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[metaphysics]]
 
-* [[hermeticism]]
+* [[hermeticism]], [[mysticism]], [[gnosticism]]
 
 * [[logic]], [[reasoning]]
 
