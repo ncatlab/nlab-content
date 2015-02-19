@@ -40,9 +40,9 @@ Here we informally survey motivation for higher Cartan geometry from phenomena a
 
 1. [Higher pre-quantization and Parameterized WZW terms](#MotivationDefiniteParameterizationOfWZWTerms)
 
-1. [Interlude: Super Cartan geometry](#MotivationSuperCartanGeometry)
-
 1. [Higher pre-quantization and Globalized WZW terms](#MotivationDefiniteGlobalizationOfWZWTerms)
+
+1. [Interlude: Super Cartan geometry](#MotivationSuperCartanGeometry)
 
 1. [Higher Cartan connections and stacky Cartan geometry](#HigherCartanConnectionsAndStackyCartanGeometries)
 
@@ -54,30 +54,247 @@ Alternatively, higher Cartan geometry may be motivated intrinsically simply as t
 ### Pre-quantization of symplectic geometry
  {#MotivationPrequantizationOfSymplectic}
 
-While a [[symplectic manifold]] structure $(X,\omega)$ is an example of an ([[integrable G-structure|integrable]]) [[G-structure]], hence of a [[Cartan geometry]], in many applications [[symplectic forms]] $\omega$ are to be refined to [[circle-bundles with connection]] $\nabla$ (with [[curvature]] $F_\nabla = \omega$), a refinement known as [[prequantization]]. Notice that while two [[differential forms]] on $X$ are either [[equal]] or not, two [[principal connections]] on $X$ may be different and still [[equivalence|equivalent]]: while there is just a [[set]] and hence a [[homotopy 0-type]] of [[symplectic forms]] on $X$, there is a [[groupoid]] and hence a [[homotopy 1-type]] of [[principal connections]] on $X$. It is in this sense that the pair $(X,\nabla)$ involves [[higher geometry]], namely [[homotopy n-types]] for $n \gt 0$.
+While a [[symplectic manifold]] structure $(X,\omega)$ is an example of an ([[integrable G-structure|integrable]]) [[G-structure]], hence of a [[Cartan geometry]], in many applications [[symplectic forms]] $\omega$ are to be refined to [[complex line bundles]] with [[connection on a bundle|connection]], equivalently [[circle-bundles with connection]] $\mathbf{L}$ (with [[curvature]] $F_{\mathbf{L}} = \omega$), a refinement known as _[[geometric prequantization]]_. 
 
-In this way the pair $(X,\nabla)$ is still clearly a geometry of sorts, but not a Cartan geometry. On the other hand, it is still similar enough to be usefully regarded form this perspective:
+$$
+  (X,\omega) \stackrel{pre-quantization}{\mapsto} (X,\mathbf{L})
+$$
 
-Just like, by the [[Darboux theorem]], every symplectic manifold has an [[atlas]] by [[charts]] [[isomorphism|isomorphic]] to $(\mathbb{R}^{2n}, \mathbf{d}p_i \wedge \mathbf{d}q^i)$, so every [[prequantum line bundle]] $\nabla$ on $X$ refining $\omega$ is [[equivalence|equivalent]] over this atlas to the $U(1)$-[[principal connection]] given by the globally defined connection for $\theta \coloneqq p_i \wedge \mathbf{d}q^i$. 
+While two [[differential forms]] on $X$ are either [[equal]] or not, two [[principal connections]] on $X$ may be different and still [[equivalence|equivalent]]. The connection $\nabla$ may have non-trivial _[[automorphisms]]_, while a differential form $\omega$ does not. (Readers may be more familiar with this kind of phenomenon from the discussion of the _[[moduli stack of elliptic curves]]_.)
 
-Moreover, just like the [[affine symplectic group]] is the [[stabilizer group]] of the local model $\mathbf{d}p_i \wedge \mathbf{d}q^i$ under the canonical [[Euclidean group]]-[[action]] on $\mathbb{R}^{2n}$, so the [[homotopy stabilizer group]] of $\theta$ covering this is the [[extended affine symplectic group]] which is the [[semidirect product]] of the [[Heisenberg group]] and the [[metaplectic group]]. In this sense [[metaplectic quantization]] is a pre-quantized higher analog of symplectic structure. 
+
+Hence while there is just a [[set]] and hence a [[homotopy 0-type]] of [[symplectic forms]] on $X$, there is a [[groupoid]] and hence a [[homotopy 1-type]] of [[principal connections]] on $X$. It is in this sense that the pair $(X,\nabla)$ involves [[higher geometry]], namely [[homotopy n-types]] for $n \gt 0$.
+
+$$
+  \array{
+     \left\{ \omega \right\} && \left\{ \mathbf{L} \right\}
+     \\
+     0-type && 1-type
+  }
+$$
+
+This implies notably that where $\omega$ has a [[stabilizer group]] under the [[diffeomorphism]] [[action]] on $X$ -- the [[symplectomorphism group]] --, $\mathbf{L}$ instead has a "[[homotopy stabilizer group]]", consisting of pairs of a [[diffeomorphism]] $\phi$ and an [[isomorphism]] $\phi^\ast \mathbf{L} \stackrel{\simeq}{\to} \mathbf{L}$. This is called the _[[quantomorphism group]]_.
+
+$$
+  \array{
+    Stab^h_{Diff(X)}(\mathbf{L}) = QuantMorph(\mathbf{L})
+    \\
+    Stab_{Diff(X)}(\omega) = SymplMorph(\omega)    
+  }  
+$$
+
+Hence the [[prequantum geometry]] $(X,\mathbf{L})$ is still clearly a geometry of sorts, but not a Cartan geometry. On the other hand, it is still similar enough to be usefully regarded form this perspective:
+
+Just like, by the [[Darboux theorem]], every symplectic manifold $(X,\omega)$ has an [[atlas]] by [[charts]] [[isomorphism|isomorphic]] to a [[symplectic vector space]] 
+
+$$
+  (V \simeq \mathbb{R}^{2n}, \omega_V = \mathbf{d}p_i \wedge \mathbf{d}q^i)
+  \,,
+$$ 
+
+so every [[prequantum line bundle]] $\mathbf{L}$ on $X$ refining $\omega$ is [[equivalence|equivalent]] over this atlas to the $U(1)$-[[principal connection]] given by the globally defined connection for 
+
+$$
+  \mathbf{L}_{V} \coloneqq p_i \wedge \mathbf{d}q^i
+  \,.
+$$ 
+
+Moreover, just like the [[affine symplectic group]] $ASp(V,\omega_V)$ is the [[stabilizer group]] of $\omega_V$ under the canonical [[Euclidean group]]-[[action]] on $V$, so the [[homotopy stabilizer group]] of $\mathbf{L}_V$ (the "[[quantomorphism group]]" $QuantMorph(\mathbf{L}_V)$ covering this is the [[extended affine symplectic group]] $ESp(V,\omega_V)$.
+
+$$
+  \array{
+     && Stab^h_{Iso(V)}(\mathbf{L}_V)
+     \\
+     && \simeq
+     \\
+     Heis(V,\omega_V)
+     &\hookrightarrow&
+     ESp(V,\omega_V) 
+     &\hookrightarrow& 
+     QuantMorph(V,\mathbf{L}_V)
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     V
+     &\hookrightarrow&
+     ASp(V,\omega_V)
+     &\hookrightarrow&
+     SympMorph(V,\omega_V)
+     \\
+     && \simeq
+     \\
+     && Stab_{Iso(V)}(\omega_V)
+  }
+$$
+
+This is the [[semidirect product]] of the [[Heisenberg group]] and the [[metaplectic group]]. 
+
+$$
+  ESp(V,\omega_V) \simeq Heis(V,\omega_V) \rtimes Mp(V,\omega_V)
+  \,.
+$$
+
+In this sense [[metaplectic quantization]] is higher analog of symplectic geometry. 
+
 
 While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considered [below](#MotivationDefiniteParameterizationOfWZWTerms).
+
 
 ### Higher pre-quantization and Parameterized WZW terms
  {#MotivationDefiniteParameterizationOfWZWTerms}
 
-A particularly interesting example of a pre-quantization as above is the Kac-Moody [[central extension]] of [[loop groups]] of [[compact Lie group|compact]] [[semisimple Lie group]] $G$ (see [here](loop+group#ByGeometricQuantization)). These may be understood as the [[transgression]] to [[loop space]] of a  higher-degree analog of traditional [[pre-quantization]] down on $G$: the canonical [[left invariant form|left invariant]] [[differential 3-form]] $\omega_3 = \langle-,[-,-]\rangle$ lifts to a [[circle 2-bundle with connection]] $\nabla^G$. This is also called the _[[WZW gerbe]]_ or _WZW term_, as its [[volume holonomy]] serves as the [[gauge interaction]] [[action functional]] for the [[Wess-Zumino-Witten sigma model]] with [[target space]] $G$.
+A particularly interesting example of a pre-quantization as above is the Kac-Moody [[central extension]] of [[loop groups]] of [[compact Lie group|compact]] [[semisimple Lie group]] $G$ (see [here](loop+group#ByGeometricQuantization)). 
 
-Since the 2-connections on $G$ form a [[2-groupoid]] hence a [[homotopy 2-type]], the pair $(G,\nabla^G)$ may be regarded as being an object in yet a bit higher differential geometry.
+Loop groups are naturally symplectic geometries, whose symplectic form is the [[transgression]] of the canonical [[left invariant form|left invariant]] [[differential 3-form]] $\omega_3 = \langle-,[-,-]\rangle$ on $G$:
 
-Now given a $G$-[[principal bundle]] $P\to X$, then a natural question is whether there is a _[[parameterized WZW  term|definite parameterization]]_ of $\nabla^G$ to a 2-form connection on $P$ which restricts fiberwise to $\nabla^G$ in a suitable sense up to [[gauge transformation]]. Such _[[parameterized WZW terms]]_ play a key role in [[heterotic string theory]] and [[equivariant elliptic cohomology]].
+$$
+  (G, \omega_3)
+  \stackrel{transgression}{\mapsto}
+  (L G, \omega_2)
+$$
 
-One finds that such [[parameterized WZW term|definite parameterizations]] are equivalent to [[lift of structure group|lifts of structure group]] of the bundle from $G$ to the [[homotopy stabilizer group]] of $\nabla^G$ under the right $G$-action on itself, and this turns out to be the [[string 2-group]] $String(G)$. 
 
-While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle here is not a [[tangent bundle]], it contains in it the key aspect of definite parameterizations of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
+Similarly their central extension is the [[transgression]] to [[loop space]] of a  higher-degree analog of traditional [[pre-quantization]] down on $G$: the canonical [[left invariant form|left invariant]] [[differential 3-form]] $\omega_3 = \langle-,[-,-]\rangle$ lifts to a [[circle 2-bundle with connection]] $\mathbf{L}_3$, whose [[curvature]] 3-form is $F_{\mathbf{L}_3} = \omega_3$:
 
-More generally, one considers this situation for WZW terms on [[coset spaces]] $G/H$ (the _[[gauged WZW model]]_), and their definite parameterization over $G/H$-[[fiber bundles]]. 
+$$
+  (G, \mathbf{L}_3)
+  \stackrel{transgression}{\mapsto}
+  (L G, \mathbf{L}_2)
+$$
+
+This $\mathbf{L}_3$ is also called the _[[WZW gerbe]]_ or _WZW term_, as its [[volume holonomy]] serves as the [[gauge interaction]] [[action functional]] for the [[Wess-Zumino-Witten sigma model]] with [[target space]] $G$.
+
+
+Now the 2-connections on $G$ form a [[2-groupoid]] hence a [[homotopy 2-type]], the pair $(G,\nabla^G)$ may be regarded as being an object in yet a bit higher differential geometry.
+
+$$
+  \array{
+     \left\{ \omega_3 \right\} && \left\{ \mathbf{L}_3 \right\}
+     \\
+     0-type && 2-type
+  }
+$$
+
+
+Now given a $G$-[[principal bundle]] 
+
+$$
+  \array{
+    \mathbf{L}_3 && \mathbf{L}_3^P
+    \\
+    G &\stackrel{}{\longrightarrow}& P
+    \\
+    && \downarrow
+    \\
+    && X
+  }
+$$
+
+then a natural question is whether there is a _[[parameterized WZW  term|definite parameterization]]_ $\mathbf{L}_3^P$ of $\mathbf{L}_3$ to a 2-form connection on $P$ which restricts fiberwise to $\nabla^G$ in a suitable sense up to [[gauge transformation]]. Such _[[parameterized WZW terms]]_ play a key role in [[heterotic string theory]] and [[equivariant elliptic cohomology]].
+
+One finds that such [[parameterized WZW term|definite parameterizations]] are equivalent to [[lift of structure group|lifts of structure group]] of the bundle from $G$ to the [[homotopy stabilizer group]] of $\mathbf{L}_3$ under the right $G$-action on itself, and this turns out to be the [[string 2-group]] $String(G)$, which is itself the [[homotopy quotient]] of the group of based paths of $G$ by the Kac-Moody loop group of $G$. By the above we may also think of this as a [[Heisenberg 2-group]]:
+
+$$
+  Heis(\mathbf{L}_3)
+  =
+  Stab^h_{G}(\mathbf{L}_3)
+  \simeq
+  String(G)
+  \simeq
+  (P_\ast G) // \widehat{L G}
+$$
+
+Hence a definite parameterization of $\mathbf{L}_3$ over $P$ is a [[string structre]] on $P$. The [[obstruction]] to that is
+
+* for $G = SU(N)$: the [[second Chern class]] $\c_2(P)$
+
+* for $G = Spin$: the [[first fractional Pontryagin class]] $\tfrac{1}{2}p_1(P)$.
+
+These are the obstructions famous from [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]].
+
+While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle $P$ here is not a [[tangent bundle]], it contains in it the key aspect of [[parameterized WZW model|definite parameterizations]] of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
+
+But more generally, one considers this situation for WZW terms on [[coset spaces]] $G/H$, relevant in  _[[gauged WZW model]]_. 
+
+
+### Higher pre-quantization and Globalized WZW terms
+ {#MotivationDefiniteGlobalizationOfWZWTerms}
+
+Given a [[vector space]] $V$ equipped with a (constant, i.e. translationally [[left invariant form|left invariant]]) [[differential n-form|differential (p+2)-form]]
+
+$$
+  \omega_V \in \Omega^{p+2}(V)
+$$
+
+a natural question to ask is for a $V$-manifold $X$ (i.e. an $n$-dimensional manifold if $V \simeq \mathbb{R}^n$) to carry a differential form
+
+$$
+  \omega \in \Omega^2(X)
+$$
+
+which is a [[definite form]], definite on $\omega_V$, in that its restriction to each [[tangent space]] is equal, up to a $GL(V)$-transformation, to $\omega_V$.
+
+Standard theory of [[G-structures]] easily shows that such definite forms correspond to $Stab_{GL(V)}(\omega_V)$-structures on $X$, for $Stab_{GL(V)}(\omega_V)$ the [[stabilizer group]] of $\omega_V$ under the canonical $GL(V)$-[[action]] (by [[pullback of differential forms]]).
+
+For instance if $V = \mathbb{R}^7$ and $\omega_V \in \Omega^3(V)$ is the [[associative 3-form]], then $Stab_{GL(V)}(\omega_V) = G_2$ is the [[exceptional Lie group]] [[G2]] and this yields [[G2-structures]]. 
+
+
+But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discussion one is led to re-state this question for the case that $(V,\omega_V)$ is refined to a [[prequantum n-bundle|prequantum (p+1)-bundle]] $(V,\mathbf{L}_{p+2})$. 
+
+Just as a 1-connection is precisely the data needed to define [[holonomy|line holonomy]], so an $(p+1)$-connection is precisely the data needed to define $(p+1)$-[[volume holonomy]]
+
+$$
+  \array{
+     \left\{ \omega_{p+2} \right\} && \left\{ \mathbf{L}_{p+2} \right\}
+     \\
+     0-type && (p+1)-type
+  }
+$$
+
+
+
+A _[[definite globalization]]_ of such $\mathbf{L}_{p+2}$ over a $V$-manifold $X$ should be a [[circle n-bundle with connection|circle (p+1)-connection]] $\mathbf{L}_{p+1}^X$ on $X$ which suitably, up to the relevant [[higher gauge transformations]], restricts locally to $\mathbf{L}_V$.
+
+For instance for first-order integrable such globalizations one would require that (in particular) for each [[infinitesimal disk]] $\mathbb{D}$ in a $V$-cover $U$ we have an [[equivalence]]
+
+$$
+  \array{
+    & \mathbf{L}_{p+2}|_{|\mathbb{D}} & \simeq & \mathbf{L}_{p+2}^X|_{|\mathbb{D}}
+    \\
+    && \mathbb{D} 
+    \\
+    && \downarrow 
+    \\
+    && U && && 
+    \\
+    & \swarrow && \searrow
+    \\
+    V && && X
+    \\
+    \mathbf{L}_{p+2} && && \mathbf{L}_{p+2}^X
+  }
+$$
+
+This problem indeed appears in the formulation of [[super p-brane sigma models]] on [[target space|target]] [[super-spacetimes]]. Here $V$ is a [[super Minkowski spacetime]], $\omega_V$ is an exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] of degree $(p+2)$ and the formulation of the [[Green-Schwarz sigma model]] requires that it is refined (higher pre-quantized) to a higher WZW term, a $p$-form connection. The [[supergravity]] [[equations of motion]] imply a [[definite globalization]] $\omega$ of $\omega_V$ of a [[super-spacetime]], but to globally define the GS-WZW model one hence needs to lift this globalization to a $(p+1)$-connection, too (thereby "canceling the [[classical anomaly]]" of the model).
+
+These [[definite globalizations]] are in particular [[parameterized WZW term|definite parameterizations]], as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, and hence they imply higher $G$-structure along the above lines. 
+
+$$
+  \array{
+     \mathbf{L}_{p+2}|_{|\mathbb{D}} && \mathbf{L}_{p+2}^X|_{T_{inf}X}
+     \\
+     \mathbb{D} & \longrightarrow& T_{inf}X
+     \\
+     && \downarrow
+     \\
+     && X
+  }
+$$
+
+It is here that developing a theory of higher Cartan geometry has real potential, since, while the globalizations of the forms $\omega_V$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms $\mathbf{L}_{p+2}$ has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
+ 
+More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to now.
+
 
 ### Interlude: Super-Cartan geometry
  {#MotivationSuperCartanGeometry}
@@ -117,37 +334,6 @@ Indeed, all the traditional literature on supergravity (e.g. ([Castellani-D'Auri
 
 It so happens that from within such super-Cartan geometry there appear some of the most interesting examples of what should be higher Cartan geometry, hence _higher super-Cartan geometry_. This we turn to [below](#MotivationDefiniteGlobalizationOfWZWTerms).
 
-### Higher pre-quantization and Globalized WZW terms
- {#MotivationDefiniteGlobalizationOfWZWTerms}
-
-Given a [[vector space]] $V$ equipped with a (constant, i.e. translationally [[left invariant form|left invariant]]) [[differential n-form|differential (p+2)-form]]
-
-$$
-  \phi \in \Omega^{p+2}(V)
-$$
-
-a natural question to ask is for a $V$-manifold $X$ (i.e. an $n$-dimensional manifold if $V \simeq \mathbb{R}^n$) to carry a differential form
-
-$$
-  \omega \in \Omega^2(X)
-$$
-
-which is a [[definite form]], definite on $\phi$, in that its restriction to each [[tangent space]] is equal, up to a $GL(V)$-transformation, to $\phi$.
-
-Standard theory of [[G-structures]] easily shows that such definite forms correspond to $Stab_{GL(V)}(\phi)$-structures on $X$, for $Stab_{GL(V)}(\phi)$ the [[stabilizer group]] of $\phi$ under the canonical $GL(V)$-[[action]] (by [[pullback of differential forms]]).
-
-For instance if $V = \mathbb{R}^7$ and $\phi \in \Omega^3(V)$ is the [[associative 3-form]], then $Stab_{GL(V)}(\phi) = G_2$ is the [[exceptional Lie group]] [[G2]] and this yields [[G2-structures]]. 
-
-
-But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discussion one is led to re-state this question for the case that $\phi$ is refined to a [[prequantum n-bundle|prequantum (p+1)-bundle]] $\nabla$. A _[[definite globalization]]_ of this over a $V$-manifold $X$ should be a [[circle n-bundle with connection|circle (p+1)-connection]] on $X$ which suitably, up to the relevant [[higher gauge transformations]], restricts locally to $\nabla$.
-
-This problem indeed appears in the formulation of [[super p-brane sigma models]] on [[target space|target]] [[super-spacetimes]]. Here $V$ is a [[super Minkowski spacetime]], $\phi$ is an exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] of degree $(p+2)$ and the formulation of the [[Green-Schwarz sigma model]] requires that it is refined (higher pre-qauntized) to a higher WZW term, a $p$-form connection. The [[supergravity]] [[equations of motion]] imply a [[definite globalization]] $\omega$ of $\phi$ of a [[super-spacetime]], but to globally define the GS-WZW model one hence needs to lift this globalization to a $(p+1)$-connection, too (thereby "canceling the [[classical anomaly]]" of the model).
-
-These [[definite globalizations]] are in particular [[parameterized WZW term|definite parameterizations]], as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, and hence they imply higher $G$-structure along the above lines. 
-
-It is here that developing a theory of higher Cartan geometry has real potential, since, while the globalizations of the forms $\phi$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
- 
-More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to now.
 
 
 ### Higher Cartan connections and Stacky Cartan geometries
@@ -276,7 +462,7 @@ This means that a global description of the geometry which ([Castellani-D'Auria-
 
 Once such a higher Cartan super-spacetime $X$ as [above](#HigherCartanConnectionsAndStackyCartanGeometries) has been obtained, then we are back to the [above](#MotivationDefiniteGlobalizationOfWZWTerms) question of constructing [[definite globalizations of WZW terms]] over it.
 
-Indeed, the [[super p-brane sigma-models]] of the [[D-branes]] and the [[M5-brane]] have [[WZW terms]] defined not on plain [[super Minkowski spacetimes]], but on the above [[extended super Minkowski spacetimes]].  For instance the WZW term of the [[M5-brane]] sigma model is a [[higher prequantization]] of the 7-form 
+Indeed, the [[super p-brane sigma-models]] of the [[D-branes]] and the [[M5-brane]] have [[WZW terms]] defined not on plain [[super Minkowski spacetimes]], but on the above [[extended super Minkowski spacetimes]].  For instance the WZW term of the [[M5-brane]] sigma model is a [[higher prequantization]] of the following 7-form  ([D'Auria-Fr&#233; 82](#DAuriaFre82))
 
 $$
   \omega_7 
@@ -289,7 +475,7 @@ $$
   CE^7(\widehat{\mathbb{R}}^{10,1|N=1})
 $$
 
-on the above extended super-Minkowski spacetime, where $c_3$ is the extra degree-3 generator discussed above.
+on the above [[extended super-Minkowski spacetime]], where $c_3$ is the extra degree-3 generator discussed above.
 
 Under [[Lie integration]] this becomes ([FSS 13](#FSS13)) a degree-7 WZW term defined on a [[smooth super infinity-groupoid|supergeometric 3-group]] $G/H$ and defining the M5-brane sigma model on a curved supergravity target space means to construct [[definite globalizations]] of this over higher Cartan geometries $X$ modeled on this [[homotopy quotient]] $G/H$.
 
