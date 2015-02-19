@@ -32,6 +32,10 @@ From ([Hegel, Science of Logic, &#167;85](Science+of+Logic#85)):
 
 * [[category of being]]
 
+* [[???]]
+
+* [[hermeticism]]
+
 
 ## References
 
