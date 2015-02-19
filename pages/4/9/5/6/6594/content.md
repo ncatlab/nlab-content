@@ -54,7 +54,7 @@ Alternatively, higher Cartan geometry may be motivated intrinsically simply as t
 ### Pre-quantization of symplectic geometry
  {#MotivationPrequantizationOfSymplectic}
 
-While a [[symplectic manifold]] structure $(X,\omega)$ is an example of an ([[integrable G-structure|integrable]]) [[G-structure]], hence of a [[Cartan geometry]], in many applications [[symplectic forms]] $\omega$ are to be refined to [[circle-bundles with connection]] $\nabla$ (with [[curvature]] $F_\nabla = \omega$), a refinement known as [[prequantization]]. Notice that while two [[differential forms]] on $X$ are either [[equal]] or not, two [[principal connections]] on $X$ may be different and still [[equivalence|equivalent]]: while there is just a [[set]] and hence a [[homotopy 0-type]] of [[symplectic forms]] on $X$, there is a [[groupoid]] and hence a [[homotopy 1-type]] of [[principal connections]] on $X$. It is in this sense that the pair $(X,\nabla)$ involves [[higher geometry]], namley [[homotopy n-types]] for $n \gt 0$.
+While a [[symplectic manifold]] structure $(X,\omega)$ is an example of an ([[integrable G-structure|integrable]]) [[G-structure]], hence of a [[Cartan geometry]], in many applications [[symplectic forms]] $\omega$ are to be refined to [[circle-bundles with connection]] $\nabla$ (with [[curvature]] $F_\nabla = \omega$), a refinement known as [[prequantization]]. Notice that while two [[differential forms]] on $X$ are either [[equal]] or not, two [[principal connections]] on $X$ may be different and still [[equivalence|equivalent]]: while there is just a [[set]] and hence a [[homotopy 0-type]] of [[symplectic forms]] on $X$, there is a [[groupoid]] and hence a [[homotopy 1-type]] of [[principal connections]] on $X$. It is in this sense that the pair $(X,\nabla)$ involves [[higher geometry]], namely [[homotopy n-types]] for $n \gt 0$.
 
 In this way the pair $(X,\nabla)$ is still clearly a geometry of sorts, but not a Cartan geometry. On the other hand, it is still similar enough to be usefully regarded form this perspective:
 
@@ -62,7 +62,7 @@ Just like, by the [[Darboux theorem]], every symplectic manifold has an [[atlas]
 
 Moreover, just like the [[affine symplectic group]] is the [[stabilizer group]] of the local model $\mathbf{d}p_i \wedge \mathbf{d}q^i$ under the canonical [[Euclidean group]]-[[action]] on $\mathbb{R}^{2n}$, so the [[homotopy stabilizer group]] of $\theta$ covering this is the [[extended affine symplectic group]] which is the [[semidirect product]] of the [[Heisenberg group]] and the [[metaplectic group]]. In this sense [[metaplectic quantization]] is a pre-quantized higher analog of symplectic structure. 
 
-While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considerd [below](#MotivationDefiniteParameterizationOfWZWTerms).
+While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considered [below](#MotivationDefiniteParameterizationOfWZWTerms).
 
 ### Higher pre-quantization and Parameterized WZW terms
  {#MotivationDefiniteParameterizationOfWZWTerms}
@@ -75,16 +75,16 @@ Now given a $G$-[[principal bundle]] $P\to X$, then a natural question is whethe
 
 One finds that such definite parameterizations are equivalent to [[lift of structure group|lifts of structure group]] of the bundle from $G$ to the [[homotopy stabilizer group]] of $\nabla^G$ under the right $G$-action on itself, and this turns out to be the [[string 2-group]] $String(G)$. 
 
-While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle here is not a [[tangent bundle]], it contains in it the key aspect of definitie parameterizations of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
+While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle here is not a [[tangent bundle]], it contains in it the key aspect of definite parameterizations of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
 
 More generally, one considers this situation for WZW terms on [[coset spaces]] $G/H$ (the _[[gauged WZW model]]_), and their definite parameterization over $G/H$-[[fiber bundles]]. 
 
 ### Interlude: Super-Cartan geometry
  {#MotivationSuperCartanGeometry}
 
-Before further motiviating ever higher Cartan geometry, it serves to pause and realize that while passing from manifolds to [[stacks]], we are in particular first of all generalizing to [[sheaves]]. So even before going higher in homotopy degree, one may ask how much of Cartan geometry may be formulated in [[sheaf toposes]], first over the [[site]] of [[smooth manifolds]] itself, which leads to Cartan geoemtry in the generality of [[smooth spaces]], and next over [[sites]] other than that of [[smooth manifolds]]. 
+Before further motivating ever higher Cartan geometry, it serves to pause and realize that while passing from manifolds to [[stacks]], we are in particular first of all generalizing to [[sheaves]]. So even before going higher in homotopy degree, one may ask how much of Cartan geometry may be formulated in [[sheaf toposes]], first over the [[site]] of [[smooth manifolds]] itself, which leads to Cartan geoemtry in the generality of [[smooth spaces]], and next over [[sites]] other than that of [[smooth manifolds]]. 
 
-One key example for this is [[supergeometry]]. Where a major application of traditonal Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]]. 
+One key example for this is [[supergeometry]]. Where a major application of traditional Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]]. 
 
 More in detail, after picking a [[dimension]] $d\in \mathbb{N}$ and writing $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ for the [[Poincaré Lie algebra]], then a choice of "number of supersymmetries" is a choice of [real spin representation](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature) $N$. Then the [[direct sum]] 
 
@@ -139,7 +139,7 @@ Standard theory of [[G-structures]] easily shows that such definite forms corres
 For instance if $V = \mathbb{R}^7$ and $\phi \in \Omega^3(V)$ is the [[associative 3-form]], then $Stab_{GL(V)}(\phi) = G_2$ is the [[exceptional Lie group]] [[G2]] and this yields [[G2-structures]]. 
 
 
-But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discussion one is led to re-state this question for the case that $\phi$ is refined to a [[prequantum n-bundle|prequantum (p+1)-bundle]] $\nabla$. A _[[definite globalization]]_ of this over a $V$-manifold $X$ should be a [[circle n-bundle with connection|circle (p+1)-connection]] on $X$ which suitably, up to the relavant [[higher gauge transformations]], restrics locally to $\nabla$.
+But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discussion one is led to re-state this question for the case that $\phi$ is refined to a [[prequantum n-bundle|prequantum (p+1)-bundle]] $\nabla$. A _[[definite globalization]]_ of this over a $V$-manifold $X$ should be a [[circle n-bundle with connection|circle (p+1)-connection]] on $X$ which suitably, up to the relevant [[higher gauge transformations]], restricts locally to $\nabla$.
 
 This problem indeed appears in the formulation of [[super p-brane sigma models]] on [[target space|target]] [[super-spacetimes]]. Here $V$ is a [[super Minkowski spacetime]], $\phi$ is an exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] of degree $(p+2)$ and the formulation of the [[Green-Schwarz sigma model]] requires that it is refined (higher pre-qauntized) to a higher WZW term, a $p$-form connection. The [[supergravity]] [[equations of motion]] imply a [[definite globalization]] $\omega$ of $\phi$ of a [[super-spacetime]], but to globally define the GS-WZW model one hence needs to lift this globalization to a $(p+1)$-connection, too (thereby "canceling the [[classical anomaly]]" of the model).
 
@@ -147,13 +147,13 @@ These definite globalizations are in particular definite parameterizations, as a
 
 It is here that developing a theory of higher Cartan geometry has real potential, since, while the globalizations of the forms $\phi$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
  
-More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geoemtric space. This leads us to higher Cartan geometry proper. This we turn to now.
+More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to now.
 
 
 ### Higher Cartan connections and Stacky Cartan geometries
  {#HigherCartanConnectionsAndStackyCartanGeometries}
 
-A traditonal [[Cartan connection]], being a [[principal connection]] satisfying some extra conditions, is locally (on some [[chart]] $U \to X$) in particular a [[Lie algebra valued differential form]] $A \in \Omega^1(U,\mathfrak{g})$. Following Cartan, this is equivalently a [[homomorphism]] of [[dg-algebras]] of the form
+A traditional [[Cartan connection]], being a [[principal connection]] satisfying some extra conditions, is locally (on some [[chart]] $U \to X$) in particular a [[Lie algebra valued differential form]] $A \in \Omega^1(U,\mathfrak{g})$. Following Cartan, this is equivalently a [[homomorphism]] of [[dg-algebras]] of the form
 
 $$
   \Omega^\bullet(U) \longleftarrow W(\mathfrak{g}) \colon A
