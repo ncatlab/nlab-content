@@ -18,6 +18,8 @@
 
 Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V$, and given a [[smooth manifold]] modeled on the [[vector space]] $V$, then a [[differential form]] $\omega \in \Omega^p(X)$ is _definite_ on $\phi$ ([Bryant 05, section 3.1.1](#Bryant05)) or _stable at each point_ ([Hitchin, p. 3](#Hitchin)) if at each point it is in this open orbit.
 
+The [[higher prequantization]] of a definition form is a [[definite globalization of a WZW term]].
+
 ## Examples
 
 ### $G_2$-manifolds
