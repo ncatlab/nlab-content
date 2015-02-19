@@ -56,9 +56,9 @@ Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual s
 
 Hegel's system is implied to be the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
 
-Where Hegel speaks of his system as being _science_ "Wissenschaft", and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mystical second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the [Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)), much like the medieval mystic [[Meister Eckart]] did in his texts.
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft", and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_), much like for instance the medieval mystic [[Meister Eckart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts.
 
-Accordingly Hegel's system has often been and is being rejected as being obfuscating and irrational. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize any part of it in predicate logic. Hegel was aware of this problem, but nevertheless insisted:
+Accordingly Hegel's system has often been and is being rejected as being obfuscating and irrational. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
 
 > [&#167;1798](#1798)  On this point, formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
@@ -1394,6 +1394,7 @@ The [[continuum]].
 > &#167;502 The continuity of quantum with its other produces the conjunction of both in the expression of an infinitely great or infinitely small. Since both still bear the character of quantum they remain alterable, and the absolute determinateness which would be a being-for-self is, therefore, not attained. This self-externality of the determination is posited in the dual infinite &#8212; which is opposed to itself as a 'more' and a 'less' &#8212; in the infinitely great and infinitely small. In each, the quantum is maintained in perpetual opposition to its beyond. No matter how much the quantum is increased, it shrinks to insignificance; because quantum is related to the infinite as to its non-being, the opposition is qualitative; the increased quantum has therefore gained nothing from the infinite, which is now, as before, the non-being of quantum. In other words, the increase of quantum brings it no nearer to the infinite; for the difference between quantum and its infinity is essentially not a quantitative difference. The expression 'the infinitely great' only throws the contradiction into sharper relief; it is supposed to be great, that is, a quantum, and infinite, that is, not a quantum. Similarly, the infinitely small is, as small, a quantum, and therefore remains absolutely, that is, qualitatively, too great for the infinite and is opposed to it. In both, there remains the contradiction of the infinite progress which in them should have reached its goal.
 
 
+
 ####### Anmerkung 1
 
 
@@ -2642,8 +2643,6 @@ Texts with background, introduction and survey include
 * [[Richard Dien Winfield]], _Lecture Course in Hegel's Science of Logic_ ([web](https://archive.org/details/LectureCourseInHegelsScienceOfLogic-RichardDienWinfield))
 
 
-A Commentary on Hegel's Logic
-
 A quick survey of the theme of the idea expressing itself via the spirit in nature is in
 
 * {#PSEJul14} musingsofacigarettesmokingman, _[P.SE comment](http://philosophy.stackexchange.com/a/14554/5473)_, July 2014
@@ -2656,7 +2655,6 @@ Further comments on Hegel's text include
 
 * {#Heidegger58} [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
   
-
 * {#Inwood1983} Inwood, _Hegel_, 1983
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
@@ -2664,6 +2662,10 @@ Further comments on Hegel's text include
 Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
 * {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+A text amplifying the [[hermeticism]] of Hegel's system is
+
+* {#Magee01} [[Glenn Alexander Magee]], _Hegel and the Hermetic Tradition_, Cornell University Press, 2001 ([introduction html](https://www.marxists.org/reference/subject/philosophy/works/en/magee.htm))
 
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in 
 
