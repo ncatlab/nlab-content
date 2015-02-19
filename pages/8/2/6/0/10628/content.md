@@ -31,7 +31,9 @@ Here "my logic" refers to what Hegel lays out in _[[Science of Logic]]_, where i
 
 * [[Nous]]
 
-* [[Tao Te Ching]]
+* [[???]]
+
+* [[hermeticism]]
 
 ## References
 
