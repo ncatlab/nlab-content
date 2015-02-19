@@ -124,6 +124,10 @@ More details are in ([cwzw](#cwzw)).
 
 * [[gauged WZW model]]
 
+* [[definite globalization of WZW term]]
+
+* [[higher Cartan geometry]]
+
 ## References
 
 Parameterized WZW models as [[sigma models]] for the [[heterotic string]] originate in
@@ -157,8 +161,9 @@ The discussion of the relevant [[Heisenberg n-group]] theory is in
 with more details in 
 
 * {#cwzw} [[Urs Schreiber]], _[[schreiber:Obstruction theory for parameterized higher WZW terms]]_
-  
 
+* [[Urs Schreiber]], section "definite forms" in _[[schreiber:differential cohomology in a cohesive topos]]_
+  
 
 General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 
@@ -183,3 +188,8 @@ General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 
 [[!redirects parameterized WZW term]]
 [[!redirects parameterized WZW terms]]
+
+[[!redirects definite parameterization of WZW term]]
+[[!redirects definite parameterization of WZW terms]]
+[[!redirects definite parameterization of higher WZW term]]
+[[!redirects definite parameterization of higher WZW terms]]
