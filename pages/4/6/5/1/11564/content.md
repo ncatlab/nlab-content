@@ -310,7 +310,7 @@ $$
   }
 $$
 
-Here in the middle column we are showing the homotopy fiber product defining $\hat E$. On the left we have its image under $\flat$, with the $\flat$-counits running horizontally and using that $\flat$ preserves [[(∞,1)-limits]] and that $E$ and $\Pi \Omega^{\bullet \geq 0}$ are $\flat$-[[modal types]] by assumption and by [[cohesion]], while $\Omega^{\bullet \geq 0}$ is $\flat$-[[anti-modal type|anti modal]] by assumption. This and using that by [[stability]] all [[finite (∞,1)-limits]] and [[finite (∞,1)-colimits]] commutes produces the [[homotopy cofiber]] morphisms going to the right. 
+Here in the middle column we are showing the homotopy fiber product defining $\hat E$. On the left we have its image under $\flat$, with the $\flat$-counits running horizontally and using that $\flat$ preserves [[(∞,1)-limits]] and that $E$ and $\Pi \Omega^{\bullet \geq 0}$ are $\flat$-[[modal types]] by assumption and by [[cohesion]], while $\Omega^{\bullet \geq 0}$ is $\flat$-[[anti-modal type|anti modal]] by assumption. This and using that by [[stability]] all [[finite (∞,1)-limits]] and [[finite (∞,1)-colimits]] commute produces the [[homotopy cofiber]] morphisms going to the right. 
 
 This shows that $\Omega^{\bullet \geq 0} \simeq \flat_{dR} \hat E$ and that the [[projection]] $E \underset{\Pi_{dR}\Omega^{\bullet \geq 0}}{\times} \Omega^{\bullet \geq 0} \to \Omega^{\bullet \geq 0}$ is equivalently the $\flat_{dR}$-[[unit of a monad|unit]] on $\hat E$.
 
@@ -1222,6 +1222,7 @@ $$
 which both are differential refinements, def. \ref{DifferentialCoefficients}, of [[KU]].
 
 ([Bunke-Nikolaus-V&#246;lkl 13, section 6.3](#BunkeNikolausVoelkl13))
+
 
 ### Complex-analytic differential generalized cohomology
 
