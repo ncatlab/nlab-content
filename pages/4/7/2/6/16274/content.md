@@ -10,13 +10,17 @@
 =--
 
 > [[Isaac Newton]] placed great faith in the concept of an unadulterated, pure, ancient doctrine, which he studied vigorously to aid his understanding of the physical world.[14] Many of Newton's manuscripts&#8212;most of which are still unpublished[14]&#8212;detail his thorough study of the Corpus Hermeticum, writings said to have been transmitted from ancient times, in which the secrets and techniques of influencing the stars and the forces of nature were revealed. ([Wikipedia](#Wikipedia))
+
+
 ## Related entries
+
+
+* [[mysticism]]
 
 * [[logos (in philosophy)]], [[nous]]
 
 * [[???]]
 
-* [[Meister Eckart]]
 
 ## References
 
