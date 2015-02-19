@@ -7,13 +7,14 @@ The term "logos" is used
 
 * in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]]).
 
+
 ## References
 
-* [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
- {#FreydScedrov}
+* {#FreydScedrov} [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
+ 
 
-* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
-  {#Joyal08}
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  
 
 category: disambiguation
 
