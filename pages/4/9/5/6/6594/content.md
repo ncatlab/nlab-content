@@ -84,7 +84,36 @@ More generally, one considers this situation for WZW terms on [[coset spaces]] $
 
 Before further motiviating ever higher Cartan geometry, it serves to pause and realize that while passing from manifolds to [[stacks]], we are in particular first of all generalizing to [[sheaves]]. So even before going higher in homotopy degree, one may ask how much of Cartan geometry may be formulated in [[sheaf toposes]], first over the [[site]] of [[smooth manifolds]] itself, which leads to Cartan geoemtry in the generality of [[smooth spaces]], and next over [[sites]] other than that of [[smooth manifolds]]. 
 
-One key example for this is [[supergeometry]]. Where a major application of traditonal Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]]. Indeed, all the traditional literature on supergravity (e.g. ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91))) is phrased, more or less explicitly, in terms of [[Cartan connections]] for the inclusion of the [[Lorentz group]] into the [[super Poincaré group]], this being the formalization of what physicists mean when saying that they pass to "local supersymmetry".
+One key example for this is [[supergeometry]]. Where a major application of traditonal Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]]. 
+
+More in detail, after picking a [[dimension]] $d\in \mathbb{N}$ and writing $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ for the [[Poincaré Lie algebra]], then a choice of "number of supersymmetries" is a choice of [real spin representation](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature) $N$. Then the [[direct sum]] 
+
+$$
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
+  \coloneqq
+  \underbrace{\mathfrak{Iso}(\mathbb{R}^{d-1,1})}_{even} \oplus \underbrace{N}_{odd}
+$$
+
+regarded as a [[super vector space]] with $N$ in odd degree becomes a [[super Lie algebra]] by letting the $[even,odd]$ bracket to be given by the defining [[action]] and by letting the $[odd,odd]$ bracket be given by a canonically induced bilinear and $\mathfrak{o}$-equivariant pairing -- the [[super Poincaré Lie algebra]]. This still canonical contains the [[Lorentz Lie algebra]] $\mathfrak{o}(\mathbb{R}^{d-1,1})$ and the [[quotient]]
+
+$$
+  \mathbb{R}^{d-1,1|N} 
+  \coloneqq
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{o}(\mathbb{R}^{d-1,1})
+$$
+
+is called [[super Minkowski spacetime]] (equipped with its [[super translation Lie algebra]] structure).
+
+From this, a super-Cartan geometry is defined in direct analogy to the Cartan formulation of Riemannian geometry
+
+
+| [[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
+|---------------------|----------------|----------------|-----------------------------|
+| [[pseudo-Riemannian geometry]]/[[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1}$ |
+| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
+
+
+Indeed, all the traditional literature on supergravity (e.g. ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91))) is phrased, more or less explicitly, in terms of [[Cartan connections]] for the inclusion of the [[Lorentz group]] into the [[super Poincaré group]], this being the formalization of what physicists mean when saying that they pass to "local supersymmetry".
 
 It so happens that from within such super-Cartan geometry there appear some of the most interesting examples of what should be higher Cartan geometry, hence _higher super-Cartan geometry_. This we turn to [below](#MotivationDefiniteGlobalizationOfWZWTerms).
 
