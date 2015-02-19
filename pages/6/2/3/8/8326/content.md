@@ -56,7 +56,7 @@ Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual s
 
 Hegel's system is implied to be the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the bare logos develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft", and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_), much like for instance the medieval mystic [[Meister Eckart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts.
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft", and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived, in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[gnosticism]] ([Bauer 1835](#Bauer35)), [[hermeticism]] ([Magee 01](#Magee01)) or [[mysticism]] ([Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts.
 
 Accordingly Hegel's system has often been and is being rejected as being obfuscating and irrational. The whole field of _[[analytic philosophy]]_ defines itself to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aims for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
 
@@ -1475,6 +1475,7 @@ Quantitativen, so da&#223; (1) erstens ein Quantum ist, das qualitative Bedeutun
 
 Regarding this, see also below [&#167;714](#714).
 
+
 #### First chapter. Die specifische Quantit&#228;t.
  {#TheMeasureFirstChapter}
 
@@ -2663,9 +2664,15 @@ Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
 * {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
 
-A text amplifying the [[hermeticism]] of Hegel's system is
+Texts amplifying the [[hermeticism]], [[gnosticism]] and [[mysticism]] of Hegel's system include
+
+* {#Bauer35} Christian Bauer's _Die christliche Gnosis_ (1835). 
+
+* {#Copleston71} Frederick Copleston _Hegel and the Rationalization of Mysticism_, 1971. 
 
 * {#Magee01} [[Glenn Alexander Magee]], _Hegel and the Hermetic Tradition_, Cornell University Press, 2001 ([introduction html](https://www.marxists.org/reference/subject/philosophy/works/en/magee.htm))
+
+* {#Stanfield14} Phil Stanfield, _Hegel, Mystic_, 2014 ([part I](http://philipstanfield.com/2014/09/22/hegel-mystic/), [part II](http://philipstanfield.com/2014/09/23/hegel-mystic-part-two/), [part III](http://philipstanfield.com/2014/09/24/hegel-mystic-part-three-2/))
 
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in 
 
