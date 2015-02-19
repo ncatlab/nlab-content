@@ -1,4 +1,6 @@
 
+{:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -73,7 +75,23 @@ $$
   }
 $$
 
-This implies notably that where $\omega$ has a [[stabilizer group]] under the [[diffeomorphism]] [[action]] on $X$ -- the [[symplectomorphism group]] --, $\mathbf{L}$ instead has a "[[homotopy stabilizer group]]", consisting of pairs of a [[diffeomorphism]] $\phi$ and an [[isomorphism]] $\phi^\ast \mathbf{L} \stackrel{\simeq}{\to} \mathbf{L}$. This is called the _[[quantomorphism group]]_.
+This implies notably that where $\omega$ has a [[stabilizer group]] under the [[diffeomorphism]] [[action]] on $X$ -- the [[symplectomorphism group]] --, $\mathbf{L}$ instead has a "[[homotopy stabilizer group]]", 
+
+$$
+  Stab^h_{Diff(X)}(\mathbf{L})
+  =
+  \left\{
+    \left(
+       \array{
+         \phi \colon X \stackrel{\simeq}{\to} X\,,
+         \\
+         \eta \colon \phi^\ast \mathbf{L} \stackrel{\simeq}{\to} \mathbf{L}
+       }
+    \right)
+  \right\}
+$$
+
+consisting of pairs of a [[diffeomorphism]] $\phi$ and an [[isomorphism]] $\phi^\ast \mathbf{L} \stackrel{\simeq}{\to} \mathbf{L}$. This is called the _[[quantomorphism group]]_.
 
 $$
   \array{
@@ -99,45 +117,37 @@ $$
   \,.
 $$ 
 
-Moreover, just like the [[affine symplectic group]] $ASp(V,\omega_V)$ is the [[stabilizer group]] of $\omega_V$ under the canonical [[Euclidean group]]-[[action]] on $V$, so the [[homotopy stabilizer group]] of $\mathbf{L}_V$ (the "[[quantomorphism group]]" $QuantMorph(\mathbf{L}_V)$ covering this is the [[extended affine symplectic group]] $ESp(V,\omega_V)$.
+Moreover, just like the [[symplectic group]] $Sp(V,\omega_V)$ is the [[stabilizer group]] of $\omega_V$ under the canonical [[general linear group]]-[[action]] on $V$, so the [[homotopy stabilizer group]] of $\mathbf{L}_V$ (the part of the [[quantomorphism group]] $QuantMorph(\mathbf{L}_V)$ covering this) is the [[Mp^c]]-group, $Mp^c(V,\omega_V) = Mp(V,\omega_V)\underset{\mathbb{Z}/2\mathbb{Z}}{\times}U(1)$, the $U(1)$-vertion of the [[metaplectic group]] $Mp(V,\omega_V)$  , 
 
 $$
   \array{
-     && Stab^h_{Iso(V)}(\mathbf{L}_V)
+     && Stab^h_{GL(V)}(\mathbf{L}_V)
      \\
      && \simeq
      \\
-     Heis(V,\omega_V)
-     &\hookrightarrow&
-     ESp(V,\omega_V) 
+     &&
+     Mp^c(V,\omega_V) 
      &\hookrightarrow& 
      QuantMorph(V,\mathbf{L}_V)
      \\
      \downarrow && \downarrow && \downarrow
      \\
-     V
-     &\hookrightarrow&
-     ASp(V,\omega_V)
+     &&
+     Sp(V,\omega_V)
      &\hookrightarrow&
      SympMorph(V,\omega_V)
      \\
      && \simeq
      \\
-     && Stab_{Iso(V)}(\omega_V)
+     && Stab_{GL(V)}(\omega_V)
   }
 $$
 
-This is the [[semidirect product]] of the [[Heisenberg group]] and the [[metaplectic group]]. 
-
-$$
-  ESp(V,\omega_V) \simeq Heis(V,\omega_V) \rtimes Mp(V,\omega_V)
-  \,.
-$$
-
-In this sense [[metaplectic quantization]] is higher analog of symplectic geometry. 
-
+In this sense [[metaplectic quantization]] is a higher analog of symplectic geometry. 
 
 While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considered [below](#MotivationDefiniteParameterizationOfWZWTerms).
+
+In particular a recurring theme are [[circle n-bundles with connection]] $\mathbf{L}$ and their [[homotopy stabilizer groups]]/[[higher quantomorphism groups]]. spring
 
 
 ### Higher pre-quantization and Parameterized WZW terms
@@ -204,7 +214,7 @@ $$
   (P_\ast G) // \widehat{L G}
 $$
 
-Hence a definite parameterization of $\mathbf{L}_3$ over $P$ is a [[string structre]] on $P$. The [[obstruction]] to that is
+Hence a definite parameterization of $\mathbf{L}_3$ over $P$ is a [[string structure]] on $P$. The [[obstruction]] to that is
 
 * for $G = SU(N)$: the [[second Chern class]] $\c_2(P)$
 
@@ -212,13 +222,27 @@ Hence a definite parameterization of $\mathbf{L}_3$ over $P$ is a [[string struc
 
 These are the obstructions famous from [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]].
 
+
 While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle $P$ here is not a [[tangent bundle]], it contains in it the key aspect of [[parameterized WZW model|definite parameterizations]] of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
 
 But more generally, one considers this situation for WZW terms on [[coset spaces]] $G/H$, relevant in  _[[gauged WZW model]]_. 
 
 
+
++-- {: goal}
+
+Higher Cartan geometry is to provide [[obstruction]] classes for [[definite parameterizations of higher WZW terms]].
+
+=--
+
+This we consider [below](#ObstructionClassesForDefiniteParameterizations)
+
+
+
 ### Higher pre-quantization and Globalized WZW terms
  {#MotivationDefiniteGlobalizationOfWZWTerms}
+
+Often one wants to consider definite parameterizations as above along the tangent bundle of a $V$-manifold $X$, such that the parameterization comes from a _global_ $\mathbf{L}$ on $X$, a [[definite globalization of a WZW term]].
 
 Given a [[vector space]] $V$ equipped with a (constant, i.e. translationally [[left invariant form|left invariant]]) [[differential n-form|differential (p+2)-form]]
 
@@ -277,7 +301,7 @@ $$
 
 This problem indeed appears in the formulation of [[super p-brane sigma models]] on [[target space|target]] [[super-spacetimes]]. Here $V$ is a [[super Minkowski spacetime]], $\omega_V$ is an exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] of degree $(p+2)$ and the formulation of the [[Green-Schwarz sigma model]] requires that it is refined (higher pre-quantized) to a higher WZW term, a $p$-form connection. The [[supergravity]] [[equations of motion]] imply a [[definite globalization]] $\omega$ of $\omega_V$ of a [[super-spacetime]], but to globally define the GS-WZW model one hence needs to lift this globalization to a $(p+1)$-connection, too (thereby "canceling the [[classical anomaly]]" of the model).
 
-These [[definite globalizations]] are in particular [[parameterized WZW term|definite parameterizations]], as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, and hence they imply higher $G$-structure along the above lines. 
+These [[definite globalizations]] are in particular [[parameterized WZW term|definite parameterizations]], as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, 
 
 $$
   \array{
@@ -291,7 +315,15 @@ $$
   }
 $$
 
-It is here that developing a theory of higher Cartan geometry has real potential, since, while the globalizations of the forms $\omega_V$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms $\mathbf{L}_{p+2}$ has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
+Notice that for the [[infinitesimal disk]] every [[diffeomorphism]] is a [[linear transformation]], hence
+
+$$
+  Aut(\mathbb{D}) \simeq GL(V)
+$$
+
+and therefore by the above a definite globalization determines a [[G-structure]] for $G = Stab^h_{GL(V)}(\mathbf{L}_{p+2})$. Conversely, the [[obstruction]] to such a structure is an obstruction to a definite globalization.
+
+It is here that developing a theory of higher Cartan geometry has much potential, since, while the globalizations of the forms $\omega_V$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms $\mathbf{L}_{p+2}$ has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
  
 More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to now.
 
@@ -475,22 +507,13 @@ $$
   CE^7(\widehat{\mathbb{R}}^{10,1|N=1})
 $$
 
-on the above [[extended super-Minkowski spacetime]], where $c_3$ is the extra degree-3 generator discussed above.
+on the above [[extended super Minkowski spacetime]], where $c_3$ is the extra degree-3 generator discussed above.
 
 Under [[Lie integration]] this becomes ([FSS 13](#FSS13)) a degree-7 WZW term defined on a [[smooth super infinity-groupoid|supergeometric 3-group]] $G/H$ and defining the M5-brane sigma model on a curved supergravity target space means to construct [[definite globalizations]] of this over higher Cartan geometries $X$ modeled on this [[homotopy quotient]] $G/H$.
 
 The result $(X,\mathbf{L}^X)$ is a pair which is still analogous to the [[symplectic geometry|symplectic geometries]] that we started with, but is now in higher geometric homotopy theory in every possible sense.
 
-There is much interesting structure known to be hidden in this pair. One finds ([dcct, sections 1.2.11.3 and 1.2.15.3.3](#dcct)) that the higher analog of [[symplectomorphisms]], namely [[quantomorphism n-group|higher quantomorphisms]]
-
-$$
-  \phi \colon X \stackrel{\simeq}{\longrightarrow} X
-$$
-
-$$
-  \eta \colon \phi^\ast \mathbf{L}^X \stackrel{\simeq}{\longrightarrow} \mathbf{L}
-$$
-
+There is much interesting structure known to be hidden in this pair. One finds ([dcct, sections 1.2.11.3 and 1.2.15.3.3](#dcct)) the [[quantomorphism n-group]]
 for the [[smooth super infinity-groupoid|supergeometric 7-group]] with is the [[Lie integration]] of the [[M-theory Lie algebra]] of $X$, witnessing the degree of $X$ being a "[[BPS state]]" of 11d supergravity. These BPS states are known to be an immensely rich mathematical topic (e.g. "[[wall crossing]]"), but one sees here that it is but the local and infinitesimal shadow of a much richer structure: higher isometries in higher super-Cartan geometry.
 
 
@@ -500,6 +523,20 @@ for the [[smooth super infinity-groupoid|supergeometric 7-group]] with is the [[
 (...)
 
 see at _[[differential cohesion]]_ the section _[structures](differential+cohesive+%28infinity%2C1%29-topos#structures)_.
+
+(...)
+
+## Obstruction theorems
+
+(...)
+
+### Obstructions classes for definite parameterizations
+ {#ObstructionClassesForDefiniteParameterizations}
+
+(...)
+
+### Obstruction classes for definite globalizations
+ {#ObstructionClassesForDefiniteGlobalizations}
 
 (...)
 
