@@ -64,6 +64,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[metaphysics]]
 
+* [[hermeticism]]
+
 * [[logic]], [[reasoning]]
 
 * _[[Science of Logic]]_
