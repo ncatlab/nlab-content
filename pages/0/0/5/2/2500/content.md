@@ -65,16 +65,112 @@ The [[gauge transformation]]s on the space of such connections that are paramete
 
 The condition of [[gauge invariance]] of an action functional on $\mathfrak{siso}$-connections is considerably more restrictive than for one on $\mathfrak{iso}$-connections. For instance there is, under mild assumptions, a _unique_ maximally supersymmetric supergravity extension of the ordinary [[Einstein-Hilbert action]] on a 4-dimensional manifold. This in turn is obtained from the _unique_ (under mild assumptions) maximally supersymmetric supergravity action functional on a (10,1)-dimensional [[spacetime]] by thinking of the 4-dimensional action function as being a [[dimensional reduction]] of the 11-dimensional one.
 
+
 This uniqueness (under mild conditions) is one reason for interest in supergravity theories. Another important reason is that supergravity theories tend to remove some of the problems that are encountered when trying to realize [[gravity]] as a [[quantum field theory]]. Originally there had been high hopes that the maximally supersymmetric supergravity theory in 4-dimensions is fully [[renormalizable]]. This couldn't be shown computationally -- until recently: triggered by new insights recently there there has been lots of renewed activity on the renormalizability of maximal supergravity. 
 
 
-### As a gauge theory
+### As a gauge theory -- Super Cartan geometry
+ {#SuperCartanGeometry}
 
-The non-spinorial part of [[action functional]]s of supergravity theories are typically given in [[first-order formulation of gravity|first order formulation]] as functional on a space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] $\mathfrak{iso}(n,1)$. Including the fermionic fields, this becomes connections with values in the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$. 
+Ordinary [[Einstein gravity]] has a natural formulation in terms of [[Cartan geometry]] for the inclusion of the [[Lorentz Lie algebra]] into the [[Poincaré Lie algebra]] $\mathfrak{o}(d-1,1) \hookrightarrow \mathfrak{Iso}(\mathbb{R}^{d-1,1})$. In this [[first order formulation of gravity]] a [[field (physics)|field]] configuration is a [[Cartan connection]] with such [[coefficients]].
 
-This might suggest that supergravity is to be thought of as a [[gauge theory]]. There are indeed various action functionals of [[Chern-Simons theory]]-form for supergravity theories ([Zanelli](#Zanelli)). These yield theories whose bosonic action functional is the [[Einstein-Hilbert action]] in certain contraction limits.
+This persepctive directly generalizes to [[supergeometry]] and yields the _superspace formulation_ of theories of supegravity.
 
-More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shown that at least some versions, such as the maximal 11-dimensional supergravity, are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
+After picking a [[dimension]] $d\in \mathbb{N}$ and writing $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ for the [[Poincaré Lie algebra]], then a choice of "number of supersymmetries" is a choice of [real spin representation](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature) $N$. Then the [[direct sum]] 
+
+$$
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
+  \coloneqq
+  \underbrace{\mathfrak{Iso}(\mathbb{R}^{d-1,1})}_{even} \oplus \underbrace{N}_{odd}
+$$
+
+regarded as a [[super vector space]] with $N$ in odd degree becomes a [[super Lie algebra]] by letting the $[even,odd]$ bracket to be given by the defining [[action]] and by letting the $[odd,odd]$ bracket be given by a canonically induced bilinear and $\mathfrak{o}$-equivariant pairing -- the [[super Poincaré Lie algebra]]. This still canonical contains the [[Lorentz Lie algebra]] $\mathfrak{o}(\mathbb{R}^{d-1,1})$ and the [[quotient]]
+
+$$
+  \mathbb{R}^{d-1,1|N} 
+  \coloneqq
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{o}(\mathbb{R}^{d-1,1})
+$$
+
+is called [[super Minkowski spacetime]] (equipped with its [[super translation Lie algebra]] structure).
+
+From this, a super-Cartan geometry is defined in direct analogy to the Cartan formulation of Riemannian geometry
+
+
+| ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
+|---------------------|----------------|----------------|-----------------------------|
+| [[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1}$ |
+| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
+| [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert N=1})$ | $\mathfrak{o}(d-1,1)$ | $\widehat{\mathbb{R}}^{10,1\vert N=1}$ |
+
+Indeed, all the traditional literature on supergravity (e.g. ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91))) is phrased, more or less explicitly, in terms of [[Cartan connections]] for the inclusion of the [[Lorentz group]] into the [[super Poincaré group]] this way, this being the formalization of what physicists mean when saying that they pass to "local supersymmetry".
+
+One subtlety to take care of is that this makes [[spacetime]] a [[super-spacetime]] locally modeled on [[super Minkowski spacetime]]. But the resulting theory is supposed to be a field theory on an ordinary [[spacetime]] locally modeled on ordinary [[Minkowski spacetime]]. This is enforced by a further constraint on the super-Cartan connection which forces it to be determing by the bosonic manifold underlying the given supermanifold. This constraint is variously known as the _superspace constraints_ or as _[rheonomy](D%27Auria-Fre+formulation+of+supergravity#Rheonomy)_ .
+
+The other subtlety to take care of is that a key aspect of higher dimensional [[supergravity]] theories is that their [[field (physics)|field]] content necessarily includes, in addition to the [[graviton]] and the [[gravitino]], higher [[differential n-form]] fields, notably the 2-fom [[B-field]] of 10-dimensional [[type II supergravity]] and [[heterotic supergravity]] as well as the 3-form [[C-field]] of [[11-dimensional supergravity]].
+
+This means that these higher dimensional supergravity theories are not in fact entirely described  by super-[[Cartan geometry]] -- by by super-[[higher Cartan geometry]]. 
+
+This follows a key insight due to ([D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80), [D'Auria-Fr&#233; 82](#DAuriaFre82)) -- the _[[D'Auria-Fre formulation of supergravity]]_ -- that the "tensor multiplet" fields of higher dimensional supergravity theories as above are naturally brought into the previous perspective if only one allows more general [[Chevalley-Eilenberg algebras]]. 
+
+Namely, we may add to the above CE-algabra
+
+* a single generator $c_3$ of degree $(3,even)$ 
+
+and extend the differential to that by the formula
+
+$$
+  d_{CE} \, c_3 = \frac{1}{2}\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b
+  \,.
+$$
+
+This still squares to zero due to the remarkable property of 11d [[super Minkowski spacetime]] by which $\frac{1}{2}\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b \in CE^4(\mathfrak{Iso}(10,1|N=1))$ is a representative of an exception [[super Lie algebra|super]]-[[Lie algebra cohomology]] class. (The collection of all these exceptional classes constitutes what is known as the _[[brane scan]]_).
+
+In the textbook ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91)) a beautiful algorithm for constructing and handling higher supergravity theories based on such generalized CE-algebras is presented, but it seems fair to say that the authors struggle a bit with the right mathematical perspective to describe what is really happening here.
+
+But from a modern perspective this becomes crystal clear: these generalized CE algebras are CE-algebras not of [[Lie algebras]] but of [[strong homotopy Lie algebra]], hence of [[L-infinity algebras]], in fact of [[Lie n-algebras|Lie (p+1)-algebras]] for $(p+1)$ the degree of the relevant differential form field. 
+
+Specifically, me may write the above generalized CE-algebra with the extra degree-3 generator $c_3$ as the CE-algebra $CE(\mathfrak{m}2\mathfrak{brane}) $
+
+of the _[[supergravity Lie 3-algebra]]_ $\mathfrak{m}2\mathfrak{brane}$.
+
+Now a morphism
+
+$$
+  \Omega^\bullet(U) \stackrel{}{\longleftarrow} CE(\mathfrak{m}2\mathfrak{brane}) \;\colon\; A
+$$
+
+encodes [[graviton]] and [[gravitino]] fields as above, but in addition it encodes a 3-form
+
+$$
+  C_3 \coloneqq A(c_3) \in \Omega^{(3,even)}(U)
+$$
+
+whose [[curvature]] 
+
+$$
+  G_4 = \mathbf{d}C_3 + \frac{1}{2}\bar \Psi \Gamma^{a b} \wedge \Psi \wedge E_a \wedge E_b
+$$
+
+satisfies a modified [[Bianchi identity]], crucial for the theory of [[11-dimensional supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)).
+
+So this collection of differential form data is no longer a [[Lie algebra valued differential form]], it is an [[L-infinity algebra valued differential form]], with values in the [[supergravity Lie 3-algebra]]. 
+
+The quotient
+
+$$
+  \widehat{\mathbb{R}}^{10,1|N=1}
+  \coloneqq
+  \mathfrak{g}/\mathfrak{h}
+  =
+  \mathfrak{m}2\mathfrak{brane} / \mathfrak{o}(\mathbb{R}^{10,1|N=1})
+$$
+
+is known as _[[extended super Minkowski spacetime]]_.
+
+The [[Lie integration]] of this is a [[smooth infinity-group|smooth 3-group]] $G$ which receives a map from the [[Lorentz group]].
+
+This means that a global description of the geometry which ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91)) discuss locally on [[charts]] has to be a higher kind of Cartan geometry which is locally modeled not just on [[cosets]], but on the [[homotopy quotients]] of ([[smooth infinity-group|smooth]], [[smooth super infinity-groupoid|supergeometric]], ...) [[infinity-groups]] -- [[higher Cartan geometry]].
 
 ### Solutions with global supersymmetry
  {#SolutionsWithGlobalSupersymmetry}
@@ -250,7 +346,7 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 Textbook accounts include
 
-* {#DauriaFreCastellani} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press, 2012
 
