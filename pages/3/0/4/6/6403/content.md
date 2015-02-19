@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _Killing spinor_ on a ([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian manifold]] is a _[[spinor]]_  -- a [[section]] of some [[spinor bundle]] $v \in \Gamma(S)$ that -- that is taken by the  [[covariant derivative]] of the corresponding [[Levi-Civita connection]] to a multiple of itself
+A _Killing spinor_ on a ([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian manifold]] is a _[[spinor]]_  -- a [[section]] of some [[spinor bundle]] $v \in \Gamma(S)$ -- that is taken by the  [[covariant derivative]] of the corresponding [[Levi-Civita connection]] to a multiple of itself
 
 $$
   \nabla_v \psi = \kappa \gamma_v \psi
