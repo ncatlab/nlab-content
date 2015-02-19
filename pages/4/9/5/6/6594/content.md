@@ -46,7 +46,7 @@ Here we informally survey motivation for higher Cartan geometry from phenomena a
 
 1. [Higher Cartan connections and stacky Cartan geometry](#HigherCartanConnectionsAndStackyCartanGeometries)
 
-1. [Combining it all: Definite higher WZW terms on stacky Cartan geometries](#DefiniteWZWTermsOnStackyCartanGeometries)
+1. [Definite higher WZW terms on stacky Cartan geometries](#DefiniteWZWTermsOnStackyCartanGeometries)
 
 
 Alternatively, higher Cartan geometry may be motivated intrinsically simply as the result of [[synthetic geometry|synthetically]] formulating [[Cartan geometry]] in [[homotopy type theory]]. This is the way in which the _[definition below](#Definition)_ below proceeds. In the _[Examples](#Examples)_ we discuss how this abstract theory indeed serves to inform the motivating phenomena lister here.
@@ -271,7 +271,7 @@ The [[Lie integration]] of this is a [[smooth infinity-group|smooth 3-group]] $G
 
 This means that a global description of the geometry which ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91)) discuss locally on [[charts]] has to be a higher kind of Cartan geometry which is locally modeled not just on [[cosets]], but on the [[homotopy quotients]] of ([[smooth infinity-group|smooth]], [[smooth super infinity-groupoid|supergeometric]], ...) [[infinity-groups]].
 
-### Combining it all: Definite higher WZW terms on stacky Cartan geometries
+### Definite higher WZW terms on stacky Cartan geometries
  {#DefiniteWZWTermsOnStackyCartanGeometries}
 
 Once such a higher Cartan super-spacetime $X$ as [above](#HigherCartanConnectionsAndStackyCartanGeometries) has been obtained, then we are back to the [above](#MotivationDefiniteGlobalizationOfWZWTerms) question of constructing [[definite globalizations of WZW terms]] over it.
@@ -369,7 +369,7 @@ A formalization of higher Cartan geometry via [[differential cohesion]] is in
 
 * {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-* [[Urs Schreiber]], _[[schreiber:Higher Cartan Geometry]]_, Differential geometry seminar, Charles University Prague, 2015
+* [[Urs Schreiber]], _[[schreiber:Higher Cartan Geometry]]_, Harmonic analysis seminar, Charles University Prague, 2015
 
 [[!redirects Cartan 2-geometry]]
 
