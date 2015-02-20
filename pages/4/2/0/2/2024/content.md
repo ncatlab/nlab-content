@@ -51,6 +51,19 @@ Note that overtness is expressed only in terms of a [[left adjoint]], whereas op
 
 An overt space may also be called **locally $(-1)$-connected**, since this condition is the [[(0,1)-topos]]-theoretic version of the notion of [[locally connected topos]] and [[locally n-connected (n,1)-topos]].  A similar thing happens for higher local connectivity involving the Frobenius reciprocity condition, which must be imposed on general [[geometric morphisms]] to make them locally $n$-connected, but is automatic for morphisms to the point.
 
+## References
+
+The notion of an open [[locale]] was originally introduced by Joyal and Tierney (and developed by Johnstone in [[Stone Spaces]]):
+
+* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
+
+The term "overt" is due to [[Paul Taylor]].  For example, it appears in:
+
+* [[Paul Taylor]], _A lambda calculus for real analysis_, Journal of Logic and Analysis 2(5), pp.1-115, 2010. ([web](http://www.paultaylor.eu/ASD/lamcra/))
+
+Some of the history is described in the introduction to:
+
+* [[Bas Spitters]], _Locatedness and Overt Sublocales_, Annals of Pure and Applied Logic, 162:1, October 2010, Pages 36&#8211;54. ([arxiv](http://arxiv.org/abs/math/0703561))
 
 [[!redirects overt space]]
 [[!redirects overt spaces]]
