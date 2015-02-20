@@ -286,9 +286,13 @@ In the broader context of smooth [[higher geometry]] this is discussed in sectio
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-See also
+Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
-* Peter Bouwknegt, [[Branislav Jur?o]], _AKSZ construction of topological open p-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
+* [[Peter Bouwknegt]], [[Branislav Jur?o]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
+
+* {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
+
+See also
 
 * Theodore Th. Voronov, _Vector fields on mapping spaces and a converse to the AKSZ construction_, [arxiv/1211.6319](http://arxiv.org/abs/1211.6319)
 
