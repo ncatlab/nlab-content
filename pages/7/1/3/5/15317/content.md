@@ -5,4 +5,6 @@
 
 * [[Montonen-Olive duality]] ([[S-duality]])
 
+* [[BPS state]]
+
 category: people
