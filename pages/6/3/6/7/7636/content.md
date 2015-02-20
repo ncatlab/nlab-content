@@ -366,10 +366,16 @@ Notice that this statement, once realized, makes (or would make) Univalent HoTT+
 ## References
  {#References}
 
+
+An elementary exposition of in terms of the [[Haskell]] [[programming language]] is in
+
+* WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
+
+
 The [[equivalence of categories]] between [[first order logic|first order theories]] and [[hyperdoctrines]] is discussed in
 
-* [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r Math. Logik und grundlagen der Math. (1984) ([pdf](http://www.math.mcgill.ca/rags/ZML/ZML.PDF))
- {#SeelyA}
+* {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r Math. Logik und grundlagen der Math. (1984) ([pdf](http://www.math.mcgill.ca/rags/ZML/ZML.PDF))
+ 
 
 A lecture reviewing aspects involved in this equivalence is (see the discussion building up to the theorem on  [slide 96](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
 
@@ -381,8 +387,8 @@ See also
 
 The equivalence between [[linear logic]] and [[star-autonomous categories]] is due to
 
-*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- {#Seely89}
+* {#Seely89} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ 
 
 and reviews/further developments are in 
 
@@ -393,7 +399,9 @@ and reviews/further developments are in
 
 * [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
 
+
 For [[dependent linear type theory]] see
+
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
@@ -404,8 +412,8 @@ An [[adjunction]] between the category of [[type theory|type theories]] with [[p
 
 The [[equivalence of categories]] between [[locally cartesian closed categories]] and [[dependent type theories]] was originally claimed in 
 
-* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
-  {#Seely}
+* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  
 
 following a statement earlier conjectured in 
 
@@ -490,7 +498,7 @@ A discussion of the correspondence between type theories and categories of vario
 * Maria Emilia Maietti, _Modular correspondence between dependent type
 theories and categories including pretopoi and topoi_, Math. Struct. in Comp. Science (2005), vol. 15, pp. 1089&#8211;1149 ([gzipped ps](http://www.math.unipd.it/~maietti/papers/tumscs.ps.gz)) ([doi](http://dx.doi.org/10.1017/S0960129505004962))
 
-[[!redirects relation between type theory and category theory]]
-[[!redirects the relation between type theory and category theory]]
+
 [[!redirects relation between category theory and type theory]]
+[[!redirects the relation between type theory and category theory]]
 [[!redirects the relation between category theory and type theory]]
