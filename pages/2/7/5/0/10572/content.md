@@ -49,4 +49,11 @@ See also
 
 * Wikipedia, _[Parabolic geometry (differential geometry)](http://en.wikipedia.org/wiki/Parabolic_geometry_(differential_geometry%29)_
 
+A relation to [[Courant Lie 2-algebroids]] is discussed in 
+
+* {#ArmstrongLu11} Stuart Armstrong, [[Rongmin Lu]], _Courant Algebroids in Parabolic Geometry_ ([arXiv:1112.6425](http://arxiv.org/abs/1112.6425))
+
+* Xu Xiaomeng, _Twisted Courant algebroids and coisotropic Cartan geometries_, Journal of Geometry and Physics Volume 82, August 2014, Pages 124&#8211;131 ([arXiv:1206.2282](http://arxiv.org/abs/1206.2282))
+
+
 [[!redirects parabolic geometries]]
