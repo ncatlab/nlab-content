@@ -7,6 +7,17 @@
 
 The *Henstock integral* (also attributed to Kurzweil, Denjoy, Luzin, and Perron) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions than either the [[Riemann integral]] or the [[Lebesgue integral]] and is in some ways better behaved as well.
 
+For instance, the (even) function
+$$
+t\mapsto \frac{\sin(1/t^3)}{t},\quad t \in \mathbb{R}\setminus\{0\}
+$$
+is not Lebesgue integrable on any interval containing 0, but it has ([[David Roberts|DR]]: according to WolframAlpha) Henstock integral
+$$
+\int_{0}^x \frac{\sin (1/t^3)}{t} = \frac{1}{3}\left( \pi - 2 Si(1/x^3)\right)
+$$
+where $Si(x)$ is the [[sine integral]] $\int_0^x \frac{\sin(t)}{t}dt $ (note that $Si$ extends to an [[entire function]] on $\mathbb{C}$).
+
+
 However, the Lebesgue integral is more commonly used by working mathematicians because it fits more naturally into the general theory of [[measure]], while the Riemann/Darboux integral is more commonly used in introductory calculus courses because its definition is simpler.
 
 
@@ -113,6 +124,8 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 [[!redirects Luzin integrals]]
 [[!redirects Luzin integrable function]]
 [[!redirects Luzin integrable functions]]
+
+
 [[!redirects Perron integral]]
 [[!redirects Perron integrals]]
 [[!redirects Perron integrable function]]
