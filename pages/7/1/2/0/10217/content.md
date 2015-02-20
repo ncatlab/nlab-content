@@ -152,6 +152,7 @@ The proof of theorem \ref{fix} was written to lay bare its provenance as a speci
 * [[arithmetic universe]]
 
 ## References 
+ {#References}
 
 * {#Yanofsky03} Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
 
@@ -162,6 +163,11 @@ A brief review discussion explicitly in the context of [[type theory]]/[[topos t
 A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is given in
 
 * [[Russell O'Connor]], _Essential Incompleteness of Arithmetic Verified by Coq_ ([web](http://r6.ca/Goedel/goedel1.html))
+
+Formal proof of the second incompoletenss theorem is discussed in
+
+* Lawrence Paulson, _A Mechanised Proof of G&#168;odel's Incompleteness Theorems
+using Nominal Isabelle_ ([pdf](https://www.cl.cam.ac.uk/~lp15/papers/Isabelle/Goedel-ar.pdf))
 
 The following contains a careful discussion of the incompleteness theorem in the context of categorical foundations using the [[free topos]]:
 
