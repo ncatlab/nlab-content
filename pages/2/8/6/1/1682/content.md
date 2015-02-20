@@ -270,7 +270,7 @@ For instance $tmf_0(2)$ (for the [[congruence subgroup]] which preserves an NS-R
 The first few [[homotopy groups]] of $tmf$ are ([Hopkins 02, section 4.3](#Hopkins02))
 
 
-| $k$ |  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| $k$ |  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |-----|----|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | $\pi_k(tmf)$ | $\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}/2\mathbb{Z}$ | 0 | $\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z}$ | $(\mathbb{Z}/2\mathbb{Z})^2$ | $\mathbb{Z}/6\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}/3\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ |
 
@@ -486,6 +486,7 @@ The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$
 * [[Michael Hopkins]], _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
 
 * {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850
+
 
 * [[Michael Hopkins]], _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
