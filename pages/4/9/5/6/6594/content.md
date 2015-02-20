@@ -27,11 +27,13 @@
 
 _Higher Cartan geometry_ is supposed to be the generalization of [[Cartan geometry]] to [[higher geometry]]; hence the theory of [[geometric homotopy types]] ([[manifolds]], [[orbifolds]], [[Lie groupoids]], [[geometric stacks]], [[smooth groupoids]], [[smooth infinity-groupoids]], ...) which are locally modeled on [[homotopy quotients]] $G/H$ of geometric [[infinity-groups]] -- the globalized version of [[higher Klein geometry]] (see also the [survey table](#Survey) below). 
 
-This means that given a morphism $H \to G$ of suitably geometric [[∞-groups]] then a _higher Cartan geometry_ modeled on the [[homotopy quotient]] $G/H$ is a higher geometric space $X$ such as an [[orbifold]], [[geometric ∞-stack]], [[derived scheme]] etc. which, in some suitable sense, has its [[tangent spaces]] identified with an [[infinitesimal neighbourhood]] in $G/H$.
+More in detail, this means that given a morphism $H \to G$ of suitably geometric [[∞-groups]] then a _higher Cartan geometry_ modeled on the [[homotopy quotient]] $G/H$ is a higher geometric space $X$ such as an [[orbifold]], [[geometric ∞-stack]], [[derived scheme]] etc. which, in some suitable sense, has its [[tangent spaces]] identified with an [[infinitesimal neighbourhood]] in $G/H$.
 
 Just like traditional [[Cartan geometry]] (in particular in the guise of [[G-structures]]) captures a plethora of relevant kinds of geometries (([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian geometry]] ([Cartan 23](#Cartan23)), [[conformal geometry]], ... [[complex geometry]], [[symplectic geometry]], ..., [[parabolic geometry]]) so higher Cartan geometry is supposed to similarly govern types of [[higher differential geometry]].
 
 A class of examples where aspects of higher Cartan geometry may be seen to secretly underly traditional discussion is the theory of [[super p-brane sigma-models]] on [[supergravity]] [[target space|target]]-[[super-spacetimes]]. This we consider in the examples [below](#SuperBraneGeometry).
+
+It is therefore maybe curious to note that while [[Cartan geometry]] as originating in ([Cartan 23](#Cartan23)) drew its motivation from the mathematical formulation of the theory of [[Einstein gravity]], higher Cartan geometry is well motivated by higher dimensional [[supergravity]] such as 10d [[type II supergravity]] and [[heterotic supergravity]] as well as [[11-dimensional supergravity]].
 
 ## Motivation
  {#Motivation}
@@ -43,6 +45,8 @@ Here we informally survey motivation for higher Cartan geometry from phenomena a
 1. [Higher pre-quantization and Parameterized WZW terms](#MotivationDefiniteParameterizationOfWZWTerms)
 
 1. [Higher pre-quantization and Globalized WZW terms](#MotivationDefiniteGlobalizationOfWZWTerms)
+    
+   $\,$
 
 1. [Interlude: Super Cartan geometry](#MotivationSuperCartanGeometry)
 
@@ -50,8 +54,9 @@ Here we informally survey motivation for higher Cartan geometry from phenomena a
 
 1. [Definite higher WZW terms on stacky Cartan geometries](#DefiniteWZWTermsOnStackyCartanGeometries)
 
+$\,$
 
-Alternatively, higher Cartan geometry may be motivated intrinsically simply as the result of [[synthetic geometry|synthetically]] formulating [[Cartan geometry]] in [[homotopy type theory]]. This is the way in which the _[definition below](#Definition)_ below proceeds. In the _[Examples](#Examples)_ we discuss how this abstract theory indeed serves to inform the motivating phenomena lister here.
+Alternatively, higher Cartan geometry may be motivated intrinsically simply as the result of [[synthetic geometry|synthetically]] formulating [[Cartan geometry]] in [[homotopy type theory]]. This is the way in which the _[definition below](#Definition)_ proceeds. In the _[Examples](#Examples)_ we discuss how this abstract theory indeed serves to inform the motivating phenomena listed here.
 
 ### Pre-quantization of symplectic geometry
  {#MotivationPrequantizationOfSymplectic}
@@ -147,7 +152,11 @@ In this sense [[metaplectic quantization]] is a higher analog of symplectic geom
 
 While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considered [below](#MotivationDefiniteParameterizationOfWZWTerms).
 
-In particular a recurring theme are [[circle n-bundles with connection]] $\mathbf{L}$ and their [[homotopy stabilizer groups]]/[[higher quantomorphism groups]]. spring
+In particular a recurring themes are 
+
+1. [[circle n-bundles with connection]] $\mathbf{L}$ [[higher prequantization|higher prequantizing]] [[definite forms]] $\omega$;
+
+1. their [[homotopy stabilizer groups]]/[[higher quantomorphism groups]] and the [[infinity-group extension]] they form and the higher [[G-structures]] associated with them.
 
 
 ### Higher pre-quantization and Parameterized WZW terms
@@ -230,8 +239,9 @@ But more generally, one considers this situation for WZW terms on [[coset spaces
 
 
 +-- {: goal}
+#### Goal 1 of higher Cartan geometry
 
-Higher Cartan geometry is to provide [[obstruction]] classes for [[definite parameterizations of higher WZW terms]].
+Provide [[obstruction]] classes for [[definite parameterizations of higher WZW terms]].
 
 =--
 
@@ -323,9 +333,69 @@ $$
 
 and therefore by the above a definite globalization determines a [[G-structure]] for $G = Stab^h_{GL(V)}(\mathbf{L}_{p+2})$. Conversely, the [[obstruction]] to such a structure is an obstruction to a definite globalization.
 
+This construction extends to [[forgetful functor]] (an [[(infinity,1)-functor]])
+
+$$
+  \left\{
+    \array{
+       definite \; globalizations \; \mathbf{L}_{p+2}^X
+       \\
+       of\; \mathbf{L}_{p+2} \; over \; X
+    }
+  \right\}
+  \longrightarrow
+  \left\{
+     \array{
+        Stab^h_{GL(V)}(\mathbf{L}_{p+2}|_{\mathbb{D}})-structures
+        \\
+        on \; X
+     }
+  \right\}
+  \,.
+$$
+
+(
+
+For instance in the case of applications to [[supergravity]] that we turn to [below](#MotivationSuperCartanGeometry), these structures are extensions of strutures given by solutions to the super-[[Einstein equations]].
+
 It is here that developing a theory of higher Cartan geometry has much potential, since, while the globalizations of the forms $\omega_V$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms $\mathbf{L}_{p+2}$ has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
- 
-More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to now.
+
+More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to [below](#MotivationSuperCartanGeometry).
+
+)
+
+
+Accordingly, now the symmetries of $\mathbf{L}_{p+2}^X$ form an extension of the _[[isometries]]_ of the induced $Stab^h_{GL(V)}(\mathbf{L}_{p+2}|_{\mathbb{D}})$-structure.
+
+$$
+  (\mathbf{B}^p U(1))FlatConn(X)
+  \longrightarrow
+  Stab^h_{Diff(X)}(\mathbf{L}_{p+2}^X)
+  \longrightarrow
+  Isom(X)
+$$
+
+One finds that after [[Lie differentiation]] these extensions are of the kind konwn in the phyiscs literature as [[BPS charge]] extensions.
+
++-- {: goal}
+### Goal 2 of higher Cartan geometry
+
+Classify these refined and generalized [[BPS states]].
+
+=--
+
+This we turn to [below](#HigherExtended IsometryGroups).
+
+So far these examples point to higher Cartan geometry modeled on homomorphisms
+
+$$
+  Stab^h_{GL(V)}(\mathbf{L}_{p+2})
+  \longrightarrow
+  V \rtimes Stab^h_{GL(V)}(\mathbf{L}_{p+2})
+$$
+
+where the [[homotopy stabilizer group]] $Stab^h_{GL(V)}(\mathbf{L}_{p+2})$ is a [[infinity-group]], but where $V$ is still an ordinary manifold. We now turn ([below](#HigherCartanConnectionsAndStackyCartanGeometries)) to examples that also turn the local model space $V$ into an higher [[geometric homotopy type]]. But first we need a little [interlude](#MotivationSuperCartanGeometry).
+
 
 
 ### Interlude: Super-Cartan geometry
@@ -365,6 +435,7 @@ From this, a super-Cartan geometry is defined in direct analogy to the Cartan fo
 Indeed, all the traditional literature on supergravity (e.g. ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91))) is phrased, more or less explicitly, in terms of [[Cartan connections]] for the inclusion of the [[Lorentz group]] into the [[super Poincaré group]], this being the formalization of what physicists mean when saying that they pass to "local supersymmetry".
 
 It so happens that from within such super-Cartan geometry there appear some of the most interesting examples of what should be higher Cartan geometry, hence _higher super-Cartan geometry_. This we turn to [below](#MotivationDefiniteGlobalizationOfWZWTerms).
+
 
 
 
@@ -511,10 +582,20 @@ on the above [[extended super Minkowski spacetime]], where $c_3$ is the extra de
 
 Under [[Lie integration]] this becomes ([FSS 13](#FSS13)) a degree-7 WZW term defined on a [[smooth super infinity-groupoid|supergeometric 3-group]] $G/H$ and defining the M5-brane sigma model on a curved supergravity target space means to construct [[definite globalizations]] of this over higher Cartan geometries $X$ modeled on this [[homotopy quotient]] $G/H$.
 
-The result $(X,\mathbf{L}^X)$ is a pair which is still analogous to the [[symplectic geometry|symplectic geometries]] that we started with, but is now in higher geometric homotopy theory in every possible sense.
+The result $(X,\mathbf{L}^X_7)$ is a pair which is still analogous to the [[symplectic geometry|symplectic geometries]] that we started with, but is now in higher geometric homotopy theory in every possible sense.
 
-There is much interesting structure known to be hidden in this pair. One finds ([dcct, sections 1.2.11.3 and 1.2.15.3.3](#dcct)) the [[quantomorphism n-group]]
-for the [[smooth super infinity-groupoid|supergeometric 7-group]] with is the [[Lie integration]] of the [[M-theory Lie algebra]] of $X$, witnessing the degree of $X$ being a "[[BPS state]]" of 11d supergravity. These BPS states are known to be an immensely rich mathematical topic (e.g. "[[wall crossing]]"), but one sees here that it is but the local and infinitesimal shadow of a much richer structure: higher isometries in higher super-Cartan geometry.
+Computing for this case the higher extensions of isometries as [above](#MotivationDefiniteGlobalizationOfWZWTerms), one finds ([dcct, sections 1.2.11.3 and 1.2.15.3.3](#dcct)) the [[quantomorphism n-group]]
+for the [[smooth super infinity-groupoid|supergeometric 7-group]] with is the [[Lie integration]] of the [[M-theory Lie algebra]] of $X$, witnessing the degree of $X$ being a "[[BPS state]]" of 11d supergravity. These BPS states are known to be an immensely rich mathematical topic (e.g. via their "[[wall crossing]] phenomena"), but one sees here that it is but the local and infinitesimal shadow of a much richer structure: higher isometries in higher super-Cartan geometry. 
+
+In terms of the physics this refinement corresponds to [[classical anomaly]]-cancellation of [[super p-brane sigma models]], a problem that is by and large open.
+
++-- {: goal}
+#### Goal 3 of higher Cartan geometry
+
+Provide [[classical anomaly]] cancellation for [[super p-brane sigma-models]] such as the [[M5-brane]].
+
+=--
+
 
 
 ## Definition
@@ -526,17 +607,16 @@ see at _[[differential cohesion]]_ the section _[structures](differential+cohesi
 
 (...)
 
-## Obstruction theorems
+## Properties
 
-(...)
-
-### Obstructions classes for definite parameterizations
+### Obstruction theorems
  {#ObstructionClassesForDefiniteParameterizations}
 
 (...)
 
-### Obstruction classes for definite globalizations
- {#ObstructionClassesForDefiniteGlobalizations}
+### Higher extended isometry groups (BPS)
+ {#HigherExtended IsometryGroups}
+
 
 (...)
 
