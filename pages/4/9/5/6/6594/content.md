@@ -31,7 +31,7 @@ More in detail, this means that given a morphism $H \to G$ of suitably geometric
 
 Just like traditional [[Cartan geometry]] (in particular in the guise of [[G-structures]]) captures a plethora of relevant kinds of geometries (([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian geometry]] ([Cartan 23](#Cartan23)), [[conformal geometry]], ... [[complex geometry]], [[symplectic geometry]], ..., [[parabolic geometry]]) so higher Cartan geometry is supposed to similarly govern types of [[higher differential geometry]].
 
-A class of examples where aspects of higher Cartan geometry may be seen to secretly underly traditional discussion is the theory of [[super p-brane sigma-models]] on [[supergravity]] [[target space|target]]-[[super-spacetimes]]. This we consider in the examples [below](#SuperBraneGeometry).
+A class of examples where aspects of higher Cartan geometry may be seen to secretly underlie traditional discussion is the theory of [[super p-brane sigma-models]] on [[supergravity]] [[target space|target]]-[[super-spacetimes]]. This we consider in the examples [below](#SuperBraneGeometry).
 
 It is therefore maybe curious to note that while [[Cartan geometry]] as originating in ([Cartan 23](#Cartan23)) drew its motivation from the mathematical formulation of the theory of [[Einstein gravity]], higher Cartan geometry is well motivated by higher dimensional [[supergravity]] such as 10d [[type II supergravity]] and [[heterotic supergravity]] as well as [[11-dimensional supergravity]].
 
@@ -122,7 +122,7 @@ $$
   \,.
 $$ 
 
-Moreover, just like the [[symplectic group]] $Sp(V,\omega_V)$ is the [[stabilizer group]] of $\omega_V$ under the canonical [[general linear group]]-[[action]] on $V$, so the [[homotopy stabilizer group]] of $\mathbf{L}_V$ (the part of the [[quantomorphism group]] $QuantMorph(\mathbf{L}_V)$ covering this) is the [[Mp^c]]-group, $Mp^c(V,\omega_V) = Mp(V,\omega_V)\underset{\mathbb{Z}/2\mathbb{Z}}{\times}U(1)$, the $U(1)$-vertion of the [[metaplectic group]] $Mp(V,\omega_V)$  , 
+Moreover, just like the [[symplectic group]] $Sp(V,\omega_V)$ is the [[stabilizer group]] of $\omega_V$ under the canonical [[general linear group]]-[[action]] on $V$, so the [[homotopy stabilizer group]] of $\mathbf{L}_V$ (the part of the [[quantomorphism group]] $QuantMorph(\mathbf{L}_V)$ covering this) is the [[Mp^c]]-group, $Mp^c(V,\omega_V) = Mp(V,\omega_V)\underset{\mathbb{Z}/2\mathbb{Z}}{\times}U(1)$, the $U(1)$-version of the [[metaplectic group]] $Mp(V,\omega_V)$  , 
 
 $$
   \array{
@@ -152,7 +152,7 @@ In this sense [[metaplectic quantization]] is a higher analog of symplectic geom
 
 While one may well reason, evidently, about pre-quantization of symplectic manifolds without a general theory of higher Cartan geometry in hand, this class of examples serves as a first blueprint for what higher Cartan geometry should be like, and points the way to its higher-degree generalizations considered [below](#MotivationDefiniteParameterizationOfWZWTerms).
 
-In particular a recurring themes are 
+In particular, recurring themes are 
 
 1. [[circle n-bundles with connection]] $\mathbf{L}$ [[higher prequantization|higher prequantizing]] [[definite forms]] $\omega$;
 
