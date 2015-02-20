@@ -135,14 +135,14 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS st
 
 The BPS bound derives its name from
 
-* (E. B. Bogomolnyj) &#1045;. &#1041;. &#1041;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1100;&#1085;&#1080;&#1081;, _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
+* (E. B. Bogomolnyj) [[?. ?. ???????????]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
 
-* M. K. Prasad, C . M. Sommerfield, _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
+* M. K. Prasad, [[Charles Sommerfield]], _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
 
 
 The original article identifying the role of BPS states in supersymmetric field theory is
 
-* [[Edward Witten]], D. Olive, _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
+* [[Edward Witten]], [[David Olive]], _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
 
 Further developments are in
 
@@ -175,7 +175,6 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * [[Dominic Joyce]], Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
-* [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
 
 ### Introductions, surveys and lectures
  {#IntroductoryReferences}
@@ -195,7 +194,11 @@ A survey of progress on the most general picture is in
 
 Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [[11-dimensional supergravity]] and 10d [[type II supergravity]]) includes
 
+
 * {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+
+* {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
+
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
 
