@@ -21,6 +21,8 @@ The [[Cartan geometry]] induced by [[parabolic subgroup]] inclusions is called _
 
 >Parabolic geometries are Cartan geometries of type $(G, P)$, where $G$ is a semisimple Lie group and $P \subset G$ is a parabolic subgroup. The corresponding homogeneous spaces $G/P$ are the so&#8211;called generalized flag manifolds which are among the most important examples of homogeneous spaces. Under the conditions of regularity and normality, parabolic geometries always are equivalent to underlying structures. ([Cap 05](#Cap05))
 
+A key application of parabolic Cartan geometry is to the construction of curved generalizations of the [[BGG resolution]].
+
 ## Related concepts
 
 * [[Schubert calculus]]
@@ -41,9 +43,11 @@ Relation to [[twistor spaces]] is discussed in
 
 * {#Cap01} [[Andreas ?ap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
 
-Discussion of [[BGG sequences]] in parabolic geometry is in
+Discussion of [[BGG sequences]] in parabolic geometry includes
 
 * [[David Calderbank]], Tammo Diemer, _Differential invariants and curved Bernstein-Gelfand-Gelfand sequences_, J.Reine Angew.Math. 537 (2001) 67-103 ([arXiv:math/0001158](http://arxiv.org/abs/math/0001158))  
+
+for more see the references at _[BGG resolution -- References -- Curved generalization to parabolic Cartan geometries](BGG+resolution#ReferencesCurved)_.
 
 See also
 
