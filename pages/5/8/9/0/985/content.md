@@ -16,7 +16,7 @@
 
 ## Idea
 
-For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point;. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
+For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
 
 Grothendieck's [[Galois theory]] was constructed in order to define for [[scheme]]s an analogue of the familiar correspondence
 
@@ -56,7 +56,7 @@ J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundam
 
 and copied also in 
 
-* [[Eduardo Dubuc]], C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
+* [[Eduardo Dubuc]], C. S. de la Vega _On the Galois theory of Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
 Some terminology: $X\in C$ is called _finite_ if $F(X)$ is a finite [[set]]. Let $\int_F C$ denote the [[category of elements]] of $F$, in which an object $(X,a)$ is called finite if $X$ is finite.
 
@@ -81,7 +81,7 @@ The functor $F$ is called the *fibre functor*, and the pair $(C,F)$ is sometimes
 
 It follows from the axioms that $F$ is a [[pro-representable functor]]. The [[automorphism group]] of the [[pro-object]] $P$ representing $F$ is (should be. I'm not familiar enough with pro-objects) a [[profinite group]] $\pi$. This acts on $F(X) = [P,-]$ by precomposition (talking out of my depth here -- it's getting a bit vague) and so $F$ lifts to a functor to $\pi-Set$, and Grothendieck's result is that this functor is an [[equivalence of categories]].
 
-There are several modifications one can make the above. In the case that $C$ is the category of covering spaces of a nice enough space, the functor $F$ is [[representable functor|representable]] by the [[universal covering space]], and so there is a 'representable' version of the above, not needing to utilise profinite groups. One can also consider just the connected-objects version, and end up with an equivalence to the category of _transitive_ $\pi$-sets.
+There are several modifications one can make the above. In the case that $C$ is the category of covering spaces of a nice enough space, the functor $F$ is [[representable functor|representable]] by the [[universal covering space]], and so there is a 'representable' version of the above, not needing to utilise profinite groups. One can also consider just the connected-objects version, and end up with an equivalence to the category of _[[transitive action|transitive]]_ $\pi$-sets.
 
 ## The classical case of fields
 
