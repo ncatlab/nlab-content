@@ -29,3 +29,10 @@ The _coherence theorem for [[symmetric monoidal bicategories]]_, like many [[coh
 
 * [[Nick Gurski]] and [[Angelica Osorno]], "Infinite loop spaces, and 
 coherence for symmetric monoidal bicategories", [arXiv](http://arxiv.org/abs/1210.1174)
+
+* [[Bruce Bartlett]], "Quasistrict symmetric monoidal 2-categories via wire diagrams", [arXiv](http://arxiv.org/abs/1409.2148)
+
+* [[Bruce Bartlett]], "Quasistrict symmetric monoidal 2-categories via wire diagrams", [n-Cafe](https://golem.ph.utexas.edu/category/2014/09/quasistrict_symmetric_monoidal.html)
+
+Despite the terminology, the result by Chris Schommer-Pries explained by Bruce Bartlett goes further than the earlier result of Gurski and Osorno.  The result in the n-Cafe post seems to go even further.
+ 
