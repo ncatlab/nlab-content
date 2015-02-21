@@ -343,7 +343,7 @@ $$
 
 in $Vect$. Finally using that $FinVect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
 
-As before, more work is required to show that ven for $A$ itself not finite dimensional, it is still recovered in terms of the above (co)end over just its finite dimensional modules.
+As before, more work is required to show that even for $A$ itself not finite dimensional, it is still recovered in terms of the above (co)end over just its finite dimensional modules.
 
 ### For Lie groupoids
 
