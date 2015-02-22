@@ -28,7 +28,7 @@ Sometimes one says that a **sieve in** a category $\mathcal{C}$ is a [[full subc
 
 _Sieves on_  objects are an equivalent way to talk about [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
-The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves.
+The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 Accordingly, the classical examples of _sieves on_ an object are
 [[Grothendieck topologies]], used to present the [[presheaves]] that behave like [[coverings]]. They are used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
