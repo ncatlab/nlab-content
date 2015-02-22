@@ -1,6 +1,6 @@
 ## Idea
 
-In general an assignation of an object of linear algebra to a $p$-divisible group is called a [[Dieudonné theory]].
+In general an assignment of an object of linear algebra to a $p$-divisible group is called a [[Dieudonné theory]].
 
 There is a Dieudonn&#233; theory assigning to a formal $p$-divisible group $X$ over an excellent [[p-adic ring]] $R$ an object called *a display*. On the display one can read off the structural equations for the [[Cartier module]] of $X$.
 
