@@ -61,9 +61,9 @@ where the first equation holds because $f$ is a coalgebra map. This completes th
 
 To construct terminal coalgebras, the following result is useful and practical. See [[Adámek's theorem on terminal coalgebras]] for an extension of this result. 
 
-+-- {: .num_theorem}
-###### Theorem (Ad&#225;mek)
-
++-- {: .num_theorem #Adam}
+###### Theorem 
+**(Ad&#225;mek)** 
 If $C$ has a terminal object $1$ and the limit $L$ of the diagram 
 
 $$\ldots F^3 1 \stackrel{F^2 !}{\to} F^2 1 \stackrel{F !}{\to} F 1 \stackrel{!}{\to} 1 \qquad (1)$$ 
@@ -122,7 +122,7 @@ As first observed by [[Peter Freyd]], the [[unit interval]] $[0, 1] \hookrightar
 
 Consider the [[category]] of [[intervals]] $Int$, i.e., linearly ordered sets with separate [[top]] and [[bottom]] elements $1$ and $0$, and let 
 
-$$F\colon Int \to Int$$ 
+$$F: Int \to Int$$ 
 
 be the endofunctor which takes an interval $X$ to $X \vee X$, the linear order obtained by taking two copies of $X$ and gluing the top element of the first copy to the bottom element of the second. The real interval $[0, 1]$ becomes a coalgebra if we identify $[0, 1] \vee [0, 1]$ with $[0, 2]$ and consider the multiplication-by-2 map $[0, 1] \to [0, 2]$ as giving a coalgebra structure. 
 
