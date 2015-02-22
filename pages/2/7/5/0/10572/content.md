@@ -21,7 +21,12 @@ The [[Cartan geometry]] induced by [[parabolic subgroup]] inclusions is called _
 
 >Parabolic geometries are Cartan geometries of type $(G, P)$, where $G$ is a semisimple Lie group and $P \subset G$ is a parabolic subgroup. The corresponding homogeneous spaces $G/P$ are the so&#8211;called generalized flag manifolds which are among the most important examples of homogeneous spaces. Under the conditions of regularity and normality, parabolic geometries always are equivalent to underlying structures. ([Cap 05](#Cap05))
 
+Parabolic geometries include [[conformal geometry]], [[projective geometry]], almost quaternionic structures, almost Grassmannian structures, hypersurface type [[CR structures]], systems of 2nd order ODEs, and various bracket-generating distributions. An example of a Cartan geometry that is not parabolic is [[Riemannian geometry]].
+
 A key application of parabolic Cartan geometry is to the construction of curved generalizations of the [[BGG resolution]].
+
+All parabolic geometries admit a fundamental curvature quantity called harmonic curvature $\kappa_H$, which is a complete obstruction
+to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in conformal geometry.
 
 ## Related concepts
 
