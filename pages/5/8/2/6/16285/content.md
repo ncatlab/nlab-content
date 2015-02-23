@@ -48,6 +48,10 @@ On _[[speculative philosophy]]_:
 
 > Spekulative Philosophie ist das Bewusstsein der Idee, so da&#223; alles als Idee aufgefasst wird; die Idee aber ist das Wahre in Gedanken, nicht als blo&#223;e Anschauung oder Vorstellung. Das Wahre in Gedanken ist n&#228;her dieses, da&#223; es konkret sei, in sich entzweit gesetzt, und zwar so, da&#223; die zwei Seiten des Entzweiten entgegengesetzte Denkbestimmungen sind, als deren Einheit die Idee gefasst werden muss. Spekulativ denken hei&#223;t, ein Wirkliches aufl&#246;sen und dieses in sich so entgegensetzen, da&#223; die Unterschiede nach Denkbestimmungen entgegengesetzt sind und der Gegenstand als Einheit beider aufgefasst wird.
 
+## Related 
+
+* _[[Lectures on the Philosophy of History]]_
+
 ## References
 
 * Wikipedia, _[Lectures of the Philosophy of Religion](http://en.wikipedia.org/wiki/Lectures_on_the_Philosophy_of_Religion)_
