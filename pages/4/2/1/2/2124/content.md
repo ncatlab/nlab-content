@@ -44,7 +44,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 ## Formalization in higher differential geometry
  {#InTermsOfHigherDifferentialGeometry}
 
-> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]]. More details are in [classicalinhigher, section 3.3](#classicalinhigher) and [[schreiber:differential cohomology in a cohesive topos|dcct, section 1.2.15.3.3]].
+> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]]. More details are in [classicalinhigher, section 3.3](#classicalinhigher) and [[schreiber:differential cohomology in a cohesive topos|dcct, section 1.2.15.3.3]]. See also _[current algebra --  As a homotopy Lie algebra](current%20algebra#AsAHomotopyLieAlgebra)_.
 
 Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
 
