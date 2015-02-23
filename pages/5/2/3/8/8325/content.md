@@ -73,9 +73,20 @@ but
 
 >A _Phenomenology_ which does not reckon with pure mathematics, a science hardly come to years of discretion when Hegel wrote, will be the same pitiful club-footed affair that Hegel produced. (CP 5.40).
 
-## Related entries
+## Related concepts
 
-* [[objective idealism]]
+* [[idealism]], 
+
+  [[objective idealism]], [[subjective idealism]]
+
+  [[absolute idealism]]
+
+* [[unity of opposites]], [[Aufhebung]],
+
+  [[abstract general, concrete general and concrete particular]]
+
+
+## Texts
 
 * _[[Science of Logic]]_
 
@@ -83,7 +94,8 @@ but
 
 * _[[Phenomenology of Spirit]]_
 
-* [[unity of opposites]], [[Aufhebung]]
+* _[[Lectures on the Philosophy of Religion]]_
+
 
 ## References
 
