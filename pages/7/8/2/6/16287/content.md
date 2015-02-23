@@ -1,0 +1,30 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+This page collecs material related to 
+
+* [[Georg Hegel]],
+
+  _Lectures on the Philosophy of History_
+
+  published posthumously, starting 1837
+
+
+  ([English hypertext version](https://www.marxists.org/reference/archive/hegel/works/hi/hiconten.htm))
+
+The introduction of these lectures contains some of the famous statements about how the _spirit_ supposedly realizes itself in the course of human history.
+
+## Related
+
+* _[[Lectures on the Philosophy of Religion]]_
+
+category: reference
