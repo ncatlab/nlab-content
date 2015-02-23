@@ -324,7 +324,7 @@ It is unclear whether there is a notion of exterior differential which is signif
 
 Historical reference saved for later reading:
 
-Henk Bos (1973). Differentials, Higher-Order Differentials and the Derivative in the Leibnizian Calculus. Archive for History of Exact Sciences 14:1--90. [DOI](http://dx.doi.org/10.1007%2FBF00327456). [PDF](http://www.tau.ac.il/~corry/teaching/toldot/download/Bos1974.pdf) hosted by Leo Corry.
+* Henk Bos (1973). Differentials, Higher-Order Differentials and the Derivative in the Leibnizian Calculus. Archive for History of Exact Sciences 14:1--90. [DOI](http://dx.doi.org/10.1007%2FBF00327456). [PDF](http://www.tau.ac.il/~corry/teaching/toldot/download/Bos1974.pdf) hosted by Leo Corry.
 
 
 [[!redirects cogerm differential form]]
