@@ -54,9 +54,9 @@ A cd-structure $\chi$ is called **complete** if every [[morphism]] whose target 
 A cd-structure $\chi$ is called **regular** if (i) each $\chi$-distinguished square $Q$ is [[cartesian square|cartesian]], (ii) the lower horizontal morphism $j : c \to d$ is a [[monomorphism]], and (iii) for each $Q \in \chi$, the induced commutative square
 $$
 \begin{matrix}
-  a& \to & c \\
+  a& \to & b \\
   \downarrow& &\, \downarrow\\
-  a \times_b a &\to & c \times_d c
+  a \times_c a &\to & b \times_d b
 \end{matrix}
 $$
 belongs to $\chi$.
