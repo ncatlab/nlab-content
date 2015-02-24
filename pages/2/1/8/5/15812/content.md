@@ -35,6 +35,10 @@ Review and discussion includes
 
 * Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_ ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf))
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Impact
 
 As a literal theory of [[physics]] the vortex atom hypothesis lasted no more than 30 years, even Thomson himself giving up on it by 1890 ([Krage 02, p. 34](#Krage)), but it did make [[Peter Tait]] start thinking about classification of [[knots]], which eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
@@ -51,6 +55,7 @@ However, according to ([Krage 02, p. 33](#Krage)):
 >In spite of the similarities, there are marked differences between the Victorian theory and Descartes's conception of matter. Thus, although Descartes's plenum was indefinitely divisible, his ethereal vortices nonetheless consisted of tiny particles in whirling motion. It was non-atomistic, yet particulate. Moreover, the French philosopher assumed three different species of matter, corresponding to emission, transmission, and reflection of light (luminous, "subtle", and material particles). The vortex theory, on the other hand, was strictly a unitary continuum theory.
 
 ## Similarlity to concepts of modern particle physics
+ {#SimilarityToParticlePhysics}
 
 It is however striking that the modern concept of [[baryogenesis]] via the [[chiral anomaly]] and its sensitivity to [[instantons]] is not too far away from Kelvin's intuition.
 
