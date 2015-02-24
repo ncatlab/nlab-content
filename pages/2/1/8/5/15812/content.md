@@ -54,18 +54,18 @@ However, according to ([Krage 02, p. 33](#Krage)):
 
 >In spite of the similarities, there are marked differences between the Victorian theory and Descartes's conception of matter. Thus, although Descartes's plenum was indefinitely divisible, his ethereal vortices nonetheless consisted of tiny particles in whirling motion. It was non-atomistic, yet particulate. Moreover, the French philosopher assumed three different species of matter, corresponding to emission, transmission, and reflection of light (luminous, "subtle", and material particles). The vortex theory, on the other hand, was strictly a unitary continuum theory.
 
-## Similarlity to concepts of modern particle physics
+## Similarity to concepts of modern particle physics
  {#SimilarityToParticlePhysics}
 
 It is however striking that the modern concept of [[baryogenesis]] via the [[chiral anomaly]] and its sensitivity to [[instantons]] is not too far away from Kelvin's intuition.
 
 To play this out in the most pronounced scenario, consider, for the sake of it, a [[no boundary proposal|Hartle-Hawking no-boundary spacetime]] carrying $N$ [[Yang-Mills instantons]]. Notice that an [[instanton]] is in a precise sense the modern higher dimensional and [[gauge theory|gauge theoretic]] version of what Kelvin knew as a fluid [[vortex]].
 
-Then the non-[[conservation law]] of the [[baryon]] [[conserved current]] due to the [[chiral anomaly]] says precisely the following: the net baryon number in the early universe is an steadily increasing number -- this is the modern mechanism of [[baryogenesis]] -- such that as one approachs the asymptotically late time after the "[[Big Bang]]" this number converges onto the integer $N$, the number of instantons.
+Then the non-[[conservation law]] of the [[baryon]] [[conserved current]] due to the [[chiral anomaly]] says precisely the following: the net baryon number in the early universe is a steadily increasing number -- this is the modern mechanism of [[baryogenesis]] -- such that as one approaches the asymptotically late time after the "[[Big Bang]]" this number converges onto the integer $N$, the number of instantons.
 
 Hence while in the modern picture of baryogenesis via [[gauge anomaly]] an [[elementary particle]] is not literally identified with an instanton, nevertheless each instanton induces precisely one net [[baryon]].
 
-(If one doesnt want to consider a [[no boundary proposal|Hartle-Hawking-type]] Euclidean no-boundary spacetime but instead a [[globally hyperbolic spacetime]] then the conclusion still holds, just not relative to vanishing baryon number at the "south pole" of the cosmic 4-spehere, but relative to the net baryon  number at any chosen spatial reference slice. )
+(If one doesn't want to consider a [[no boundary proposal|Hartle-Hawking-type]] Euclidean no-boundary spacetime but instead a [[globally hyperbolic spacetime]] then the conclusion still holds, just not relative to vanishing baryon number at the "south pole" of the cosmic 4-sphere, but relative to the net baryon  number at any chosen spatial reference slice. )
 
 
 
