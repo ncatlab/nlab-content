@@ -5,13 +5,14 @@ This page collects material related to
 
   _Ph&#228;nomenologie des Geistes_
 
-  (_The Phenomenology of Spirit_)
+  ( _The Phenomenology of Spirit_ )
 
   1807
 
   ([Wikipedia entry](http://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit))
 
 
+A brief version of roughly this material is in _[[Encyclopedia of the Philosophical Sciences]]_, third part, first section, B.
 
 ## Das Prinzip ist nicht die Vollendung
 
