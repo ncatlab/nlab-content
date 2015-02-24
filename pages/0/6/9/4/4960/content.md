@@ -1482,7 +1482,12 @@ In
 
 the term _category of Being_ is used for a notion resembling that of a cohesive topos (with an [[adjoint quadruple]] but not considering _pieces have points_ or _discrete objects are concrete_). Behaviour of objects with respect to the extra left adjoined is interpreted in terms of properties of _Becoming_. The terminology here is probably inspired from
 
-* [[Hegel]], _[[Science of Logic]]_ (see  _[On being and becoming](#http://ncatlab.org/nlab/show/Science+of+Logic#OnBeingAndBecoming)_ ).
+* [[Georg Hegel]], _[[Science of Logic]]_ (see  _[On being and becoming](#http://ncatlab.org/nlab/show/Science+of+Logic#OnBeingAndBecoming)_ ).
+
+and specifically the term "cohesion" probably from
+
+* [[Georg Hegel]], part II "Philosophy of Nature", second section "Phyiscs", B c) "cohesion", in _[[Encyclopedia of the Philosophical Sciences]]_
+
 
 In 
 
@@ -1497,6 +1502,7 @@ The left and right adjoint to the global section functor as a means to identify 
 on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
 The precise term _cohesive topos_ apparently first appeared publically in the lecture 
+
 
 * [[William Lawvere]], _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ Como (2008)
 
