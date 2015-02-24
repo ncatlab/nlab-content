@@ -122,7 +122,7 @@ $$
 $$
 
 
-i.e. the universal cone that commutes up to a [[natural transformation]]
+i.e. the [[universal cone]] that commutes up to a [[natural transformation]]
 
 $$
   \array{
