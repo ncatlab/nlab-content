@@ -78,7 +78,7 @@ But the $\mathfrak{Pois}(\mathbf{L})$ contains in addition the equivalence betwe
 
 ## References
 
-* Sam Treiman,  [[Roman Jackiw]], [[David Gross]],  _Lectures on current algebra and its applications_ , Princeton University Press. (1972) 
+* Sam Treiman,  [[Roman Jackiw]], [[David Gross]],  _Lectures on current algebra and its applications_ , Princeton University Press. (1972)  ([publisher](http://press.princeton.edu/titles/2071.html))
 
 * [[Steven Weinberg]], _Current Algebra and Gauge Theories. I_ Phys. Rev. D 8, 605&#8211;625 (1973) 
 
