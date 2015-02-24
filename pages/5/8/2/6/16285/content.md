@@ -42,6 +42,8 @@ The preliminaries of the lectures state that religion and [[philosophy]] have th
 
 > Diese Verkn&#252;pfung der Theologie und Philosophie sehen wir auch im Mittelalter; scholastische Philosophie ist eins und dasselbe mit der Theologie; Philosophie ist Theologie und Theologie ist Philosophie.
 
+In ([Hegel, EncPhil, third part, third section](#HegelEnc)) art, religion and philosophy are discussed as three stages of the _absolute spirit_.
+
 ## More
 
 On _[[speculative philosophy]]_:
@@ -55,5 +57,7 @@ On _[[speculative philosophy]]_:
 ## References
 
 * Wikipedia, _[Lectures of the Philosophy of Religion](http://en.wikipedia.org/wiki/Lectures_on_the_Philosophy_of_Religion)_
+
+* {#HegelEnc} [[Georg Hegel]], _[[Encyclopedia of the Philosophical Sciences]]_
 
 category: reference
