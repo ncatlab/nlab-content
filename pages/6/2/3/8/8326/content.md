@@ -159,8 +159,8 @@ The following table lists proposals for possible such identifications. The conte
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
 |-----|------|---|
 | **Subjektive Logic** |    |   |
-| **Begriffslogik** | **[[type theory]]/[[natural deduction]]** |  |
-| Begriff, concept, notion | [[type]] | [MaL&#246;73](#MartinLoef73), [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
+| **Begriffslogik** | **[[type theory]]/[[natural deduction]]** | [&#167;1280](#1280) |
+| Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
 | Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
 | Schluss | [[natural deduction]] | [Ge35](#Gentzen35) |
 | Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
@@ -211,6 +211,7 @@ The following table lists proposals for possible such identifications. The conte
 | Inhalt | [[flat modality]] $\flat$ | [&#167;989](#989) | 
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
+| Substanz   | the whole [[differential cohesion|differential]] [[cohesive (∞,1)-topos]]/[[cohesive homotopy type theory]]   |  [&#167;1235](#1235), [&#167;1238](#1238), [&#167;1281](#1281) | 
 | **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the true [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1817](#1817) |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
@@ -285,7 +286,7 @@ $$
     \\
     Idee
     \\
-    && && &&  && 'id' &\dashv& 'id'
+    && && && \stackrel{Substanz}{} && 'id' &\dashv& 'id'
     \\
     && && &&  && \vdots && \vdots
     \\
@@ -304,7 +305,7 @@ $$
     && &&&&\stackrel{}{}&\stackrel{falsch}{}& '\emptyset' &\stackrel{abs.\,Widerspruch}{\dashv}& '\ast' & \stackrel{wahr}{}
     \\
     \\
-    && && \stackrel{Wesen}{} 
+    && && && Wesen 
     \\
     && && && && & Erscheinung
     \\
@@ -338,8 +339,11 @@ $$
     \\
     && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
+    && && && Sein
     \\
     && && && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
+    \\
+    {Subjektive \atop Logik}{} && && && Begriff
   }
 $$
 
@@ -1454,7 +1458,7 @@ $$
     \\
     Eichmass && \bot && \bot
     \\
-    Quantitaet y && \flat &\dashv& \sharp
+    Quantitaet  && \flat &\dashv& \sharp
   }
 $$
 
@@ -1668,7 +1672,7 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 
 
 
-#### Chapter 1 Der Schein / Illusory Being
+#### Der Schein / Illusory Being
  
 ##### A Das Wesentliche und das Unwesentliche / The essential and the unessential
 
@@ -1842,7 +1846,7 @@ $$
 
 
 
-#### Chapter 3. Der Grund
+#### Der Grund
 
 > {#964} &#167;964 Das Wesen bestimmt sich selbst als Grund.
 
@@ -1851,6 +1855,7 @@ $$
 > {#964} &#167;964 Essence determines itself as ground.
 
 > &#167;964 Just as nothing is at first in simple immediate unity with being, so here too the simple identity of essence is at first in immediate unity with its absolute negativity. Essence is only this its negativity, which is pure reflection. It is this pure negativity as the return of being into itself; as such, it is determined in itself, or for us, as ground in which being is dissolved. But this determinateness is not posited by essence itself; in other words, essence is not ground except in so far as it has itself posited this its determinateness. Its reflection, however, consists in its positing and determining itself as that which it is in itself, as a negative. The positive and negative constitute that determination of essence in which essence is lost in its negation. These self-subsistent determinations of reflection sublate themselves, and the determination that has fallen to the ground [zugrunde gegangene] is the true determination of essence.
+
 
 On this see the discussion around [&#167;945](#945)
 
@@ -2002,7 +2007,7 @@ This is [[term introduction]] via the [[natural deduction]] from the [[anteceden
 
 >  This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
 
-### Section 2. Die Erscheinung
+### Die Erscheinung
 
 > {#1036} &#167;1036 Das Wesen mu&#223; erscheinen.
 
@@ -2016,7 +2021,7 @@ Notice that by [&#167;816](#816) this "appear" is short for "appear in itself".
 
 This nicely explicitly re-iterates [&#167;816](#816). See the discussion there about translating this to "The ambient category appears reflected within itself".
 
-#### Chapter 1. Die Existenz / Existence. 
+#### Die Existenz / Existence. 
 
 > {#1040} &#167;1040 Just as the proposition of ground states that whatever is has a ground, or is something posited or mediated, so too we must formulate a proposition of Existence, and in these terms: whatever is, exists. The truth of being is to be, not a first immediate, but essence that has emerged into immediacy.
 
@@ -2073,7 +2078,7 @@ It is maybe noteworthy that some physics appears here in the Wesenslogik, even t
 
 > Die Existenz hat in diesem Dinge ihre Vollst&#228;ndigkeit erreicht, n&#228;mlich in Einem an sich seyendes Seyn oder selbstst&#228;ndiges Bestehen, und unwesentliche Existenz zu seyn; die Wahrheit der Existenz ist daher, ihr Ansichseyn in der Unwesentlichkeit, oder ihr Bestehen in einem Andern und zwar dem absolut Andern, oder zu ihrer Grundlage ihre Nichtigkeit zu haben. Sie ist daher Erscheinung.
 
-### Section 3. Die Wirklichkeit
+### Die Wirklichkeit
  {#DieWirklichkeit}
 
 > {#1158} &#167;1158 Die Wirklichkeit ist die Einheit des Wesens und der Existenz;
@@ -2112,13 +2117,13 @@ In any case, by the discussion at _[necessity and possibility -- As modality in 
 
 So by [&#167;1159](#1159) "the absolute (absolute reality)" here translates to the locally Cartesian closed ambient category and by [&#167;816](#816) etc. the reflection here translates to the [[type of types]], so the above would then translate to 
 
-* Substance = ambient locally Cartesian closed category equipped with type universe.
+* Substance = ambient locally Cartesian closed category equipped with [[type universe]] and equipped with all the [[adjoint modalities]]
 
 
 
-#### Chapter 1. Das Absolute
+#### Das Absolute
 
-#### Chapter 2. Die Wirklichkeit {#DieWirklichkeitKapitel2}
+#### Die Wirklichkeit {#DieWirklichkeitKapitel2}
 
 > {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
 
@@ -2147,10 +2152,36 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 
 
-#### Chapter 3. Das absolute Verh&#228;ltni&#223;
+#### Das absolute Verh&#228;ltni&#223;
+
+##### The relation of substantiality
+
+
+> {#1235} &#167;1235 Absolute necessity is absolute relation because it is not being as such, but being that is because it is, being as absolute self-mediation. This being is substance; as the final unity of essence and being it is the being in all being; it is neither the unreflected immediate, nor an abstract being standing behind Existence and Appearance, but it is immediate actuality itself and this as absolute reflectedness-into-self, as a subsisting in and for itself. Substance as this unity of being and reflection is essentially the reflective movement [Scheinen] and positedness of itself. The reflective movement is the reflective movement that is self-related, and it is thus that it is; this being is substance as such. Conversely, this being is only the positedness that is identical with itself, and as such it is totality in the form of illusory being, accidentality.
+
+> {#1238} &#167;1238 Substance, as this identity of the reflective movement, is the totality of the whole and embraces accidentality within it, and accidentality is the whole substance itself. 
+
+
+Under the above dictionary, the "final unity of essence and being" is the implementation of all the [[adjoint modalities]] in the [[locally Cartesian closed (infinity,1)-category]] with its [[type universe]], hence in the [[(infinity,1)-topos]]. Since this is _substance_, we label in the _[Process](#Process)_ to $\infty$-topos as its own maximal subcategory as "substance".
+
+##### The relation of causality
+
+##### Reciprocity
+
 
 
 ## **Die Lehre vom Begriff** / **The doctrine of the notion**
+
+
+### Vom Begriff im Allgemeinen
+
+> {#1280} &#167;1280 Der Begriff ist von dieser Seite zun&#228;chst &#252;berhaupt als das Dritte zum Seyn und Wesen, zum Unmittelbaren und zur Reflexion anzusehen. Seyn und Wesen sind insofern die Momente seines Werdens; er aber ist ihre Grundlage und Wahrheit, als die Identit&#228;t, in welcher sie untergegangen und enthalten sind. Sie sind in ihm, weil er ihr Resultat ist, enthalten, aber nicht mehr als Seyn und als Wesen; diese Bestimmung haben sie nur, insofern sie noch nicht in diese ihre Einheit zur&#252;ckgegangen sind. 
+
+> &#167;1280 From this aspect the Notion is to be regarded in the first instance simply as the third to being and essence, to the immediate and to reflection. Being and essence are so far the moments of its becoming; but it is their foundation and truth as the identity in which they are submerged and contained. 
+
+This justifies, despite the order of the books and chapters, to order the Notion below Being and the Essence in the _[Process](#Process)_. We read _concept/notion_ as _[[type]]_ and so the doctrine of the notion as the ambient [[type theory]], literally the _[[foundation]]_ in which the determinations of being (the [[adjoint modalities]]) and the reflections of essence (the [[type of types]]) are formulated.
+
+> {#1281} &#167;1281 Objective logic therefore, which treats of being and essence constitutes properly the genetic exposition of the Notion. More precisely, substance is already real essence, or essence in so far as it is united with being and has entered into actuality. Consequently, the Notion has substance for its immediate presupposition; what is implicit in substance is manifested in the Notion. Thus the dialectical movement of substance through causality and reciprocity is the immediate genesis of the Notion, the exposition of the process of its becoming. But the significance of its becoming, as of every becoming is that it is the reflection of the transient into its ground and that the at first apparent other into which the former has passed constitutes its truth. Accordingly the Notion is the truth of substance; and since substance has necessity for its specific mode of relationship, freedom reveals itself as the truth of necessity and as the mode of relationship proper to the Notion.
 
 > {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
