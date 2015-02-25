@@ -15,52 +15,145 @@
 
 
 ## Idea
+ {#Idea}
 
 _Deligne cohomology_ -- or _[[Pierre Deligne|Deligne]]-[[Alexander Beilinson|Beilinson]] cohomology_ -- is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]].
-Roughly, it is a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]].
 
-The standard _Deligne complex_ (of [[abelian sheaf cohomology|abelian sheaves]]) is under the [[Dold-Kan correspondence]] the sheaf of
-[[n-groupoid]]s of smooth [[n-functor]]s from the [[path n-groupoid]] to the $n$-fold [[delooping]] $\mathbf{B}^n U(1)$:
+The _Deligne complex_ is like a truncated [[de Rham complex]] but, crucially, with the sheaf of 0-forms -- the [[structure sheaf]] $\mathcal{O}$ - replaced by the [[multiplicative group]] $\mathcal{O}^\times$ under the [[exponential map]]
 
 $$
-  \mathbb{Z}(n+1)_D^\infty
+  \left[
+     \mathcal{O}^\times
+     \stackrel{d log}{\longrightarrow}
+     \Omega^1
+     \stackrel{d}{\longrightarrow}
+     \Omega^2
+     \stackrel{d}{\longrightarrow}
+     \cdots
+     \stackrel{d}{\longrightarrow}
+     \Omega^n
+  \right]
+  \,.
+$$
+
+Deligne cohomology $H^{n+1}_{conn}(X, \mathbb{Z})$ in degree $(n+1)$ is the [[abelian sheaf cohomology]] with [[coefficients]] in this [[chain complex]] of [[sheaves of abelian groups]] ("[[hypercohomology]]"). 
+
+This was introduced in ([Deligne 71](#Deligne71)) in the context of [[analytic geometry]] (hence using [[holomorphic differential forms]]) as a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]]. But the form of the definition applies more generally, in particular also in smooth [[differential geometry]], a fact amplified and popularized in ([Brylinski 93](#Brylinski93)).
+
+In smooth [[differential geometry]] the typical minor variant has the sheaf $\underline{U}(1) = C^\infty(-,U(1))$ of [[circle group]]-valued [[smooth functions]] in degree $n$:
+
+$$
+  \left[
+     C^\infty(-,U(1))
+     \stackrel{d log}{\longrightarrow}
+     \Omega^1
+     \stackrel{d}{\longrightarrow}
+     \Omega^2
+     \stackrel{d}{\longrightarrow}
+     \cdots
+     \stackrel{d}{\longrightarrow}
+     \Omega^n
+  \right]
+  \,.
+$$
+
+Given any [[manifold]] $X$, then the resulting complex of abelian groups is, under the [[Dold-Kan correspondence]], the [[n-groupoid]] of [[circle n-bundles with connection]] whose underlying [[circle n-group|circle (n-1)-group]]-[[principal infinity-bundle]] is trivialized. Passing to the [[abelian sheaf cohomology]] implicitly corresponds to considering the [[infinity-stackification]] of this $n$-groupoid valued presheaf, and in this way Deligne cohomology computes equivalence classes of [[circle n-bundles with connection]]. Another way to say this is that under the [[Dold-Kan correspondence]] and [[infinity-stackification]], the above Deligne complex defines a [[smooth infinity-stack]] $\mathbf{B}^n U(1)_{conn}$ which is the [[moduli infinity-stack]] for [[circle n-bundles with connection]], and Deligne cohomology computes the [[homotopy classes]] of maps (of [[infinity-stacks]]) into this ([FSS 10](#FSS10))
+
+$$
+  H^{n+1}_{conn}(X,\mathbb{Z})
   \simeq
-  \bar \mathbf{B}^n U(1)
-  \stackrel{N}{\to^\simeq}
-  [P_n(-), \mathbf{B}^n U(1)]
+  \pi_0(X \to \mathbf{B}^n U(1)_{conn})
+  \,.
+$$
+
+In this way Deligne cohomology, or rather the collection of Deligne [[cocycles]] with [[coefficients]] in the Deligne complex that defines it, is considerably richer than other models for [[ordinary differential cohomology]] such as [[Cheeger-Simons differential characters]], which see only the [[cohomology group]], but not the full [[moduli infinity-stack|moduli n-stack]].
+
+Explicitly, computing the [[abelian sheaf cohomology]] with coefficients in the [[Deligne complex]] via [[Cech cohomology]] gives that a [[cocycle]] $\overline{A}$ on some [[space]] $X$ is represented with respect to a suitable [[covering]] $\{U_i \to X\}$ by a collection of [[differential forms]] and functions
+
+$$
+  \overline{A}
+  = 
+  \left\{
+     A_{i_0, \cdots, i_k}
+     \in \Omega^{n-k}(U_{i_0, \cdots i_k})
+  \right\}_{k = 0}^{n}
+  \cup
+  \{
+     g_{i_0, \cdots, i_n} \in \mathcal{O}^\times(U_{i_0, \cdots, i_{n+1}})
+  \}
+$$
+
+such that the failure of the $(n-k+1)$-forms to glue on $(k+1)$-fold intersections of charts is given by the de Rham differential of the $(n-k)$-forms
+
+$$
+  \sum_{j = 0}^k
+  (-1)^j
+  A_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_{k+1}}
+  =
+  d_{dR} A_{i_0, \cdots, i_{k+1}}
   \,.
 $$
 
 
-Smooth Deligne cohomology in degree $n$, 
-of a [[smooth space]] $X$ is [[cohomology]] with
-coefficients in $\bar \mathbf{B}^n U(1)$.
+This evidently generalizes the familiar Cech cocycle data for traditional [[line bundles with connection]].
 
+As the notation indicates, Deligne cohomology is a [[differential cohomology]] refinement of [[ordinary cohomology]] with [[integer]] [[coefficients]], exhibited by a canonical forgetful map
 
 $$
-  Deligne cohomology = H(X, \bar \mathbf{B}^n U(1)) 
-  \,.
+  \array{
+    H^{n+1}_{conn}(X,\mathbb{Z})
+    \\
+    & \searrow
+    \\
+    && H^{n+1}(X,\mathbb{Z})   
+  }
 $$
 
-Here the notation on the right is as at the end of [[motivation for sheaves, cohomology and higher stacks]].
+which is induced by the evident morphism of [[chain complexes]]. This is one map in an exact [[differential hexagon]] which exhibits Deligne cohomology as the differential refinement of ordinary integral cohomology by closed [[curvature]] [[differential form]] data.
 
-This is a realization of the 
-[[differential cohomology|differential refinement]] (or smooth extension) $\bar H^n(X,\mathbb{Z})$ of the 
-[[integral cohomology]] $H^n(X, \mathbb{Z})$ of $X$ in terms of
-[[abelian sheaf cohomology]].
+$$
+  \array{
+    0 & && && && & 0
+    \\
+    & \searrow && && &&  \nearrow 
+    \\
+    && \Omega^{n}(X)/\Omega^n(X)_{\mathbb{Z}} && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
+    \\
+    & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
+    \\
+    H^{n}(X, \mathbb{R})
+    && &&
+    H^{n+1}_{conn}(X,\mathbb{Z})
+    && &&
+    H^{n+1}(X,\mathbb{R})
+    \\
+    & \searrow && \nearrow && \searrow && \nearrow
+    \\
+    && H^{n}(X,U(1)) && \underset{}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+    \\
+    & \nearrow && && &&  \searrow 
+    \\
+    0 & && && && & 0
+    \\
+    \\
+    &&  connection\;forms\;on\;trivial\;bundles && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
+    \\
+    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && geometric\;bundles\;with\;flat\;connection && \underset{comparison/regulator\;map}{\longrightarrow} && shape\;of\;bundle
+  }
+$$
 
-[[differential cohomology|Recall]] 
-that analogous to how $H^n(X,\mathbb{Z})$ classifies line $(n-1)$-bundles 
-and equivalently line $(n-2)$-gerbes on $X$, $\bar H^n(X, \mathbb{Z})$
-classifies line $(n-2)$-gerbes with connection.
 
-Accordingly, the _Deligne complex_ of sheaves $\mathbb{Z}(n)^\infty_D$
-is a complex of sheaves of differential forms.
 
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $k \in \mathbb{N}$
@@ -142,7 +235,7 @@ $$
 
 clearly induces isomorphism on [[homology]] groups: the homology in degree $n$ is locally constant $\mathbb{R}$-valued functions modulo locally constant $\mathbb{Z}$-valued functions in the first case and constant $U(1)$-valued functions in the second case, which is the same.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 **Deligne cohomology** in degree $n+1$ of $X$ is the 
@@ -285,7 +378,7 @@ $$
 }
 $$
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 These two morphisms exhibit Deligne cohomology as a refinement in [[differential cohomology]] of ordinary (i.e. integral [[Eilenberg-MacLane spectrum|Eilenberg-MacLane]]) [[cohomology]], in that the diagram
@@ -433,7 +526,7 @@ As described in some detail at [[electromagnetic field]] in abelian higher [[gau
 
 Deligne cohomology was introduced in [[complex analytic geometry]] (by a [[chain complex]] of [[holomorphic differential forms]]) in 
 
-* [[Pierre Deligne]], _Th&#233;orie de Hodge II_ , IHES Pub. Math. (1971), no. 40, 5&#8211;57 ([pdf](http://www.math.jussieu.fr/~ai/d/Theory%20of%20Hodge%202.pdf))
+* {#Deligne71} [[Pierre Deligne]], _Th&#233;orie de Hodge II_ , IHES Pub. Math. (1971), no. 40, 5&#8211;57 ([pdf](http://www.math.jussieu.fr/~ai/d/Theory%20of%20Hodge%202.pdf))
 
 with applications to [[Hodge theory]] and [[intermediate Jacobians]]. The same definition appears in 
 
@@ -449,7 +542,7 @@ with the application to [[Beilinson regulators]]. Later the evident version of t
 
 Surveys and introductions in the context of [[differential geometry]] include
 
-* [[Jean-Luc Brylinski]], section 5 of _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
+* {#Brylinski93} [[Jean-Luc Brylinski]], section 5 of _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkh&#228;user 1993
 
 * {#Bunke12} [[Ulrich Bunke]], section 3 of _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
 
@@ -467,9 +560,18 @@ See also
 
 * {#Voisin02} [[Claire Voisin]], section 12 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
-The following article contains a reformulation of Deligne cohomology in terms of [[simplicial presheaves]].
+Discussion of Deligne cohomology in terms of [[simplicial presheaves]] and [[higher stacks]] includes
 
-* [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv](http://arxiv.org/abs/1212.2173v3).
+* {#FSS10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
+
+* [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv:1212.2173](http://arxiv.org/abs/1212.2173).
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _A higher stacky perspective on Chern-Simons theory_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
 
 See also the references given at _[differential cohomology hexagon -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_.
 
