@@ -32,11 +32,7 @@ This page is about
 
   English translation by A. V. Miller in 1969. More recently George di Giovanni has published a new translation, Cambridge University Press, 2010.
 
-and about the further body of text that this is a part of, which consists of the earlier
-
-* [[Georg Hegel]], _Ph&#228;nomenologie des Geistes_, 1807
-
-and the later
+and about the further body of text that this is a part of, which consists of the later
 
 * [[Georg Hegel]], _[[Enzyklopädie der Philosophischen Wissenschaften im Grundrisse]]_
 
@@ -50,19 +46,28 @@ and the later
 
   (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
 
-Together these lay out what has come to be called _Hegel's system_ ([&#167;1805](#1805)).  Notice that these texts overlap. The first part of the _[[Encyclopedia of the Philosophical Sciences]]_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
+which in turn subsumes, in outline, the earlier
+
+* [[Georg Hegel]], _[[Phenomenology of Spirit|Phänomenologie des Geistes]]_, 1807.
+
+
+Together these texts lay out what has come to be called _Hegel's system_ ([&#167;1805](#1805)) (following ([&#167;1287](#1287)) _[[Spinoza's system]]_).  Notice that these texts overlap. The first part of the _[[Encyclopedia of the Philosophical Sciences]]_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
 
 Here the _objective logic_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _subjective logic_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology+of+Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
 
-Hegel's system is implied to be the revelation of a dynamical process of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the _[[logos (in philosophy)|logos]]_ develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to the _Idea_. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
+Hegel's system is meant to be the revelation of a dynamical [[ontology|ontological]] process (a diagram is [below](#Process)) of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the _[[logos (in philosophy)|logos]]_ develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to, roughly, _the Idea_, a kind of absolute of Plato's [[doctrine of ideas]]. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft", and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[gnosticism]] ([Bauer 1835](#Bauer35)), [[mysticism]] ([Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means.
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[gnosticism]] ([Bauer 1835](#Bauer35)), [[mysticism]] ([Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. In any case, what is certainly evident is that, in an ironic meta-contradiction, the harder Hegel tries, by his own account, to make philosophy a _science_, to make it _logical_ and to root it in _observation_, the further he may seem to depart from what is "commonly" understood by these very words.
 
-Accordingly, Hegel's system has often (see [here](Georg+Hegel#PerceptionOfHegelsPhilosophy) for further references) been rejected and ridiculed, famously so by [[Bertrand Russell]] in _[[A History of Western Philosophy]]_, as being obfuscating and in fact nonsensical. Following Russell, the whole field of _[[analytic philosophy]]_ defined itself -- in what is known as the "[revolt against idealism](http://en.wikipedia.org/wiki/Bertrand_Russell%27s_views_on_philosophy#Analytic_philosophy)" -- to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aimed, in contrast, for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
+Accordingly, after a phase of great popularity in the philosophical community of the 19th century ("[[German idealism]]", [&#167;316](#316)), Hegel's system has variously (see [here](Georg+Hegel#PerceptionOfHegelsPhilosophy) for examples) been rejected and outright ridiculed, famously so by [[Bertrand Russell]] in _[[A History of Western Philosophy]]_, as being obfuscating and in fact nonsensical. Following the lead of Russell, the whole field of _[[analytic philosophy]]_ defined itself -- in what is known as the "[revolt against idealism](http://en.wikipedia.org/wiki/Bertrand_Russell%27s_views_on_philosophy#Analytic_philosophy)" -- to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aimed, in contrast, for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
 
 > [&#167;1798](#1798)  formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
-However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_, have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches well under this translation from [[philosophy]] to [[mathematics]]. Lawvere also proposed formalizations of various terms appearing in the [[Encyclopedia of the Philosophical Sciences|Philosophy of Nature]], such as _[[cohesion]]_ and _[[intensive or extensive quantity]]_.
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_, have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches well under this translation from [[philosophy]] to [[mathematics]]. 
+
+[[Lawvere]] also proposed formalizations in [[category theory]] and [[topos theory]] of various terms appearing prominently in Hegel's _[[Encyclopedia of the Philosophical Sciences|Philosophy of Nature]]_, such as the concept of _[[intensive or extensive quantity]]_  and of _[[cohesion]]_. While, when taken at face value, these are hardly deep concepts in [[physics]], and were not at Hegel's time, in Lawvere's formalization and then transported to [[homotopy type theory]] (as [[cohesive homotopy type theory]]), they do impact on open problems in fundamental physics and even in pure mathematics (see also at _[Have professional philosophers contributed to other fields in the last 20 years?](http://philosophy.stackexchange.com/a/9814/5473)_), a feat that the comparatively simplistic mathematics that is considered in [[analytic philosophy]] seems to have little chance of achieving.
+
+Therefore:
 
 
 +-- {: bluebox #nPOVRemark}
@@ -70,9 +75,9 @@ However, there is more to formal logic than plain predicate logic. [[foundations
 
 While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, inspired by various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is summarized below in _[The formalization dictionary](#FormalizationDictionary)_. A diagram showing the resulting process is in _[Overview of the formalization process](#OverviewOfTheFormalizationProcess)_.
 
-Curiously, the [[type theory]] which, this way, might be regarded as provinding formalized substance to Hegel's _Logic_, goes back, ultimately, to [[Bertrand Russell]]'s _[[Principa Mathematica]]_.
-
 =--
+
+(Ironically, the [[type theory]] which, this way, may be argued to provide intelligibility for Hegel's _Logic_, goes back, ultimately, to [[Bertrand Russell]]'s theory of [[ramified types]] laid out in his _[[Principia Mathematica]]_.)
 
 
 #Contents#
@@ -457,6 +462,7 @@ The [[empty type]] $\emptyset$.
 > {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
 
+
 According to the formalization of such [[unity of opposites]] as
 [above](#OppositesAndUnity) we identify this [[becoming]] (following [Lawvere 91]({#LawvereComo})) as the universal factorization
 
@@ -731,6 +737,7 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
+
 > {#221} &#167;221 Seyn-f&#252;r-Anderes und Ansichseyn machen die zwei Momente des Etwas aus.
 
 > &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
@@ -787,6 +794,7 @@ For the last one, see below [&#167;1636](#1636).
 
 
 > {#304} &#167;304 In Beziehung auf Realit&#228;t und Idealit&#228;t wird aber der Gegensatz des Endlichen und Unendlichen so gefa&#223;t, da&#223; das Endliche f&#252;r das Reale gilt, das Unendliche aber f&#252;r das Ideelle gilt; wie auch weiterhin der Begriff als ein Ideelles und zwar als ein nur Ideelles, das Daseyn &#252;berhaupt dagegen als das Reale betrachtet wird.
+
 
 > With reference to reality and ideality, however, the opposition of finite and infinite is grasped in such a manner that the finite ranks as the real but the infinite as the 'ideal' [das Ideelle]; in the same way that further on the Notion, too, is regarded as an 'ideal', that is, as a mere 'ideal', in contrast to determinate being as such which is regarded as the real.
 
@@ -939,6 +947,7 @@ $$
 
 > {#316} &#167;316 Anmerkung 2. Der Satz, da&#223; das Endliche ideell ist, macht den Idealismus aus. Der Idealismus der Philosophie besteht in nichts anderem, als darin, das Endliche nicht als ein wahrhaft Seyendes anzuerkennen. Jede Philosophie ist wesentlich Idealismus, oder hat denselben wenigstens zu ihrem Princip, und die Frage ist dann nur, inwiefern dasselbe wirklich durchgef&#252;hrt ist. Die Philosophie ist es so sehr als die Religion; denn die Religion anerkennt die Endlichkeit ebenso wenig als ein wahrhaftes Seyn, als ein Letztes, Absolutes, oder als ein Nicht-Gesetztes, Unerschaffenes, Ewiges. Der Gegensatz von idealistischer und realistischer Philosophie ist daher ohne Bedeutung. Eine Philosophie, welche dem endlichen Daseyn als solchem wahrhaftes, letztes, absolutes Seyn zuschriebe, verdiente den Namen Philosophie nicht; Principien &#228;lterer oder neuerer Philosophien, das Wasser, oder die Materie oder die Atome sind Gedanken, Allgemeine, Ideelle, nicht Dinge, wie sie sich unmittelbar vorfinden, d. h. in sinnlicher Einzelnheit, selbst jenes thaletische Wasser nicht; denn, obgleich auch das empirische Wasser, ist es au&#223;erdem zugleich das Ansich oder Wesen aller anderen Dinge; und diese sind nicht selbstst&#228;ndige, in sich gegr&#252;ndete, sondern aus einem Anderen, dem Wasser, gesetzte, d. i. ideelle. Indem vorhin das Princip, das Allgemeine, das Ideelle genannt worden, wie noch mehr der Begriff, die Idee, der Geist, Ideelles zu nennen ist, und dann wiederum die einzelnen sinnlichen Dinge als ideell im Princip, im Begriffe, noch mehr im Geiste, als aufgehoben sind, so ist dabei auf dieselbe Doppelseite vorl&#228;ufig aufmerksam zu machen, die bei dem Unendlichen sich gezeigt hat, n&#228;mlich da&#223; das eine Mal das Ideelle das Konkrete, Wahrhaftseyende ist, das andere Mal aber ebenso sehr seine Momente das Ideelle, in ihm Aufgehobene sind, in der That aber nur das Eine konkrete Ganze ist, von dem die Momente untrennbar sind.
 
+[[idealism]]
 
 
 #### Third chapter. Das F&#252;rsichsein / Being for self
@@ -1658,6 +1667,7 @@ Notice the following characteristic properties of [[(infinity,1)-topos|infinity-
 In summary the formalization dictionary gives fairly accurately that in _Das Wegen_ Hegel speak about [[locally Cartesian closed (∞,1)-categories]] with [[object classifier]].
 
 
+
 This is pretty close to being the proposed definition of _[[elementary (∞,1)-topos]]_, as in ([Shulman 12](elementary+infinity-topos#Shulman12)).
 
 
@@ -2160,6 +2170,8 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 > {#1235} &#167;1235 Absolute necessity is absolute relation because it is not being as such, but being that is because it is, being as absolute self-mediation. This being is substance; as the final unity of essence and being it is the being in all being; it is neither the unreflected immediate, nor an abstract being standing behind Existence and Appearance, but it is immediate actuality itself and this as absolute reflectedness-into-self, as a subsisting in and for itself. Substance as this unity of being and reflection is essentially the reflective movement [Scheinen] and positedness of itself. The reflective movement is the reflective movement that is self-related, and it is thus that it is; this being is substance as such. Conversely, this being is only the positedness that is identical with itself, and as such it is totality in the form of illusory being, accidentality.
 
+according to [&#167;1287](#1287) this _substance_ is the substance of [[Spinoza's system]]
+
 > {#1238} &#167;1238 Substance, as this identity of the reflective movement, is the totality of the whole and embraces accidentality within it, and accidentality is the whole substance itself. 
 
 
@@ -2191,6 +2203,8 @@ This justifies, despite the order of the books and chapters, to order the Notion
 > {#1287} &#167;1287 Es ist schon fr&#252;her im zweiten Buch der objektiven Logik S. 194 f. Anm. erinnert worden, da&#223; die Philosophie, welche sich auf den Standpunkt der Substanz stellt und darauf stehen bleibt, das System des Spinoza ist.
 
 > &#167;1287 I have already mentioned in the Second Book of the Objective Logic that the philosophy which adopts the standpoint of substance and stops there is the system of Spinoza.
+
+_[[Spinoza's system]]_
 
 > {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
@@ -2228,6 +2242,7 @@ see also [EL&#167;61](#EL61)
 #### Urtheil
 
 #### Schluss
+
 
 ### Der objektive Begriff / Objectivity
 
