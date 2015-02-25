@@ -1,1 +1,49 @@
-* [wikipedia page](http://en.wikipedia.org/wiki/Taub%E2%80%93NUT_space)
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+
+A kind of [[spacetime]].
+
+Consider the [[left invariant 1-forms]] on the [[3-sphere]] $\simeq$ 
+[[special unitary group|SU(2)]], which in terms of [[Euler angles]] are
+
+$$
+  \begin{aligned}
+     \sigma_1 &= \sin \psi \, d \theta - \cos \psi \sin \theta \, d \phi
+     \\
+     \sigma_2 & = \cos \psi \, d \theta + \sin \psi \sin \theta \, d \phi
+     \\
+     \sigma_3 &= d \psi + \cos \theta \, d \phi
+  \end{aligned}
+$$
+
+Then the [[pseudo-Riemannian metric]] defining the Taub-NUT geometry is 
+
+$$
+  (d s)^2 = \frac{1}{4} \frac{r+n}{r-n} (d r)^2 + \frac{r-n}{r+n} n^2 {\sigma_3}^2 + \frac{1}{4}(r^2 - n^2)({\sigma_1}^2 + {\sigma_2}^2)
+$$
+
+## References
+
+
+* Wikipedia, _[Taub-NUT space](http://en.wikipedia.org/wiki/Taub%E2%80%93NUT_space)_
+
+* Wikipedia, _[Gravitational instanton](http://en.wikipedia.org/wiki/Gravitational_instanton)_
+
+[[!redirects Taub-NUT spacetimes]]
+
+[[!redirects Taub-NUT space]]
+[[!redirects Taub-NUT spaces]]
