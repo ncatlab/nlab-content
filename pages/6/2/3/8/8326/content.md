@@ -372,6 +372,7 @@ To wit, the _Logic_ ends with the appearance of _the idea_ in [&#167;1636](#1636
 
 
 
+
 ### Allgemeine Einteilung der Logik
 
 > {#85} &#167;85 Die objektive Logik tritt damit vielmehr an die Stelle der vormaligen Metaphysik, als welche das wissenschaftliche Geb&#228;ude &#252;ber die Welt war, das nur durch Gedanken aufgef&#252;hrt seyn sollte.&#8212;Wenn wir auf die letzte Gestalt der Ausbildung dieser Wissenschaft R&#252;cksicht nehmen, so ist erstens unmittelbar die Ontologie, an deren Stelle die objektive Logik tritt,&#8212;der Theil jener Metaphysik, der die Natur des Ens &#252;berhaupt erforschen sollte;&#8212;das Ens begreift sowohl Seyn als Wesen in sich, f&#252;r welchen Unterschied unsere Sprache gl&#252;cklicherweise den verschiedenen Ausdruck gerettet hat.&#8212;Alsdann aber begreift die objektive Logik auch die &#252;brige Metaphysik insofern in sich, als diese mit den reinen Denkformen die besondern, zun&#228;chst aus der Vorstellung genommenen Substrate, die Seele, die Welt, Gott, zu fassen suchte, und die Bestimmungen des Denkens das Wesentliche der Betrachtungsweise ausmachten. 
@@ -2182,6 +2183,14 @@ Under the above dictionary, the "final unity of essence and being" is the implem
 This justifies, despite the order of the books and chapters, to order the Notion below Being and the Essence in the _[Process](#Process)_. We read _concept/notion_ as _[[type]]_ and so the doctrine of the notion as the ambient [[type theory]], literally the _[[foundation]]_ in which the determinations of being (the [[adjoint modalities]]) and the reflections of essence (the [[type of types]]) are formulated.
 
 > {#1281} &#167;1281 Objective logic therefore, which treats of being and essence constitutes properly the genetic exposition of the Notion. More precisely, substance is already real essence, or essence in so far as it is united with being and has entered into actuality. Consequently, the Notion has substance for its immediate presupposition; what is implicit in substance is manifested in the Notion. Thus the dialectical movement of substance through causality and reciprocity is the immediate genesis of the Notion, the exposition of the process of its becoming. But the significance of its becoming, as of every becoming is that it is the reflection of the transient into its ground and that the at first apparent other into which the former has passed constitutes its truth. Accordingly the Notion is the truth of substance; and since substance has necessity for its specific mode of relationship, freedom reveals itself as the truth of necessity and as the mode of relationship proper to the Notion.
+
+> {#1286} &#167;1286 Diese unendliche Reflexion in sich selbst, da&#223; das An- und F&#252;rsichseyn erst dadurch ist, da&#223; es Gesetztseyn ist, ist die Vollendung der Substanz. Aber diese Vollendung ist nicht mehr die Substanz selbst, sondern ist ein H&#246;heres, der Begriff das Subjekt. Der Uebergang des Substantialit&#228;ts-Verh&#228;ltnisses geschieht durch seine eigene immanente Nothwendigkeit, und ist weiter nichts, als die Manifestation ihrer selbst, da&#223; der Begriff ihre Wahrheit, und die Freiheit die Wahrheit der Nothwendigkeit ist.
+
+> &#167;1286 This infinite reflection-into-self, namely, that being is in and for itself only in so far as it is posited, is the consummation of substance. But this consummation is no longer substance itself but something higher, the Notion, the subject. The transition of the relation of substantiality takes place through its own immanent necessity and is nothing more than the manifestation of itself, that the Notion is its truth, and that freedom is the truth of necessity.
+
+> {#1287} &#167;1287 Es ist schon fr&#252;her im zweiten Buch der objektiven Logik S. 194 f. Anm. erinnert worden, da&#223; die Philosophie, welche sich auf den Standpunkt der Substanz stellt und darauf stehen bleibt, das System des Spinoza ist.
+
+> &#167;1287 I have already mentioned in the Second Book of the Objective Logic that the philosophy which adopts the standpoint of substance and stops there is the system of Spinoza.
 
 > {#B160} &#167;B160 Der Begriff ist das Freie, als die f&#252;r sich seiende Macht der Substanz; -- und als die Totalit&#228;t dieser Negativit&#228;t, in welcher jedes der Momente das Ganze ist, das er ist, und als ungetrennte Einheit mit ihm gesetzt ist, ist er in seiner Identit&#228;t mit sich das an und f&#252;r sich bestimmte.  
 
