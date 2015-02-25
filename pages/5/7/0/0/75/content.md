@@ -117,11 +117,13 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## References
 
-* L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
- {#Harrington}
+* [[Bertrand Russell]], _[[Principia Mathematics]]_, 1910
 
-* [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
- {#Lawvere}
+* {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
+ 
+
+* {#Lawvere} [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps), [Euclid](http://projecteuclid.org/euclid.bsl/1052669290))
+ 
 
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
