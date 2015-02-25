@@ -115,6 +115,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[Ludwig Wittgenstein]], _[[Tractatus Logico-Philosophicus]]_
 
+* [[Bertrand Russell]], _[[A History of Western Philosophy]]_
+
 * [[Albert Lautman]], _Mathematics, ideas and the physical real_, 2011 translation by Simon B. Duffy; English edition of _Les Math&#233;matiques, les id&#233;es et le r&#233;el physique_, Librairie Philosophique, J. VRIN, 2006
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
@@ -152,5 +154,6 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * [Simplicity](http://s-i-m-p-l-i-c-i-t-y.org/index.html] conference: Ideals of Practice in Mathematics & the Arts
 
 category: philosophy
+
 [[!redirects philosophy]]
 [[!redirects Philosophy]]
