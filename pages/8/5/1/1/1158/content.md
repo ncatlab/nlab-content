@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Deligne cohomology_ -- or _[[Pierre Deligne|Deligne]]-[[Alexander Beilinson|Beilinson]] cohomology_ is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]].
+_Deligne cohomology_ -- or _[[Pierre Deligne|Deligne]]-[[Alexander Beilinson|Beilinson]] cohomology_ -- is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]].
 Roughly, it is a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]].
 
 The standard _Deligne complex_ (of [[abelian sheaf cohomology|abelian sheaves]]) is under the [[Dold-Kan correspondence]] the sheaf of
