@@ -18,7 +18,7 @@
 
 _Analytic philosophy_ is a school of [[philosophy]] emphasizing clarity of argument, [[formal logic]], and aiming for strong connections with natural [[sciences]] such as [[physics]]. 
 
-Analytic philosophy to some extent defined itself, via people like [[Bertrand Russell]], in opposition to forms of German idealism, such as the [[objective idealism]] of [[Georg Hegel]] as expressed for instance in his _[[Science of Logic]]_. See at _[Perception of Hegel's Naturphilosophie](Georg+Hegel#PerceptionOfHegelsPhilosophy)_ for more on this.
+Analytic philosophy to some extent defined itself, via people like [[Bertrand Russell]] in a movement known as the "revolt again idealism", in opposition to forms of German idealism, such as the [[objective idealism]] of [[Georg Hegel]] as expressed for instance in his _[[Science of Logic]]_. See at _[Perception of Hegel's Naturphilosophie](Georg+Hegel#PerceptionOfHegelsPhilosophy)_ for more on this.
 
 Specifically, analytic philosophy aims to detect the underlying logical form of propositions and analyse the concepts they rely upon. Since the surface grammar of natural language is taken to be often misleading, this work of analysis is often done in terms of formal languages such as [[first-order logic]] or [[modal logic]]. 
 
