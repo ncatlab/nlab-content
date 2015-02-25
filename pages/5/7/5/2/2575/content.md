@@ -991,7 +991,7 @@ A textbook account of this relation is in
 
 ### As a relative extended TQFT
 
-Discussion of quantum Chern-Simons theory as a 3-2-1 [[extended TQFT]] is for insance in 
+Discussion of quantum Chern-Simons theory as a 3-2-1 [[extended TQFT]] is for instance in 
 
 * R. Gelca, _Topological quantum field theory with corners based on the Kauffman bracket_ ([pdf](http://www.math.ttu.edu/~rgelca/bra3.pdf))
 
@@ -1000,6 +1000,10 @@ Discussion as a (relative) 3-2-1-0 [[extended TQFT]] is in
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+A gentle introduction leading up to one proposal for what Chern-Simons theory assigns to a point (a category of [[positive energy representations]] of the based [[loop group]]) is in
+
+* [[Andre Henriques]], _Chern-Simons lectures_, Berkeley December 2014, [pdf](http://www.staff.science.uu.nl/~henri105/PDF/Chern-Simons-2014.pdf)
 
 ### Computations
 
