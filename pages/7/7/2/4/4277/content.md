@@ -83,13 +83,41 @@ Hence the cobordism ring in degree $n$ is the [[decategorification]] of the $n$-
 
 ## Examples
 
-### Oriented cobordism over the point
+### Oriented cobordism
+ {#OrientedCobordismRing}
+
++-- {: .num_prop #OrientedCobordismOverPoint}
+###### Proposition
+
+The cobordism ring over the point for [[orientation|oriented]] manifolds starts out as
 
 | $k$             | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | $\geq 9$ |
 |-----------------|---|---|---|---|---|---|---|---|---|---|
 | $\Omega^{SO}_k$ | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | 0 | 0 | $\mathbb{Z}\oplus \mathbb{Z}$ | $\neq 0$ |
 
+=--
+
 see e.g. ([ManifoldAtlas](#ManifoldAtlas))
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[CW-complex]] (for instance a [[manifold]]), then  the oriented cobordism ring is expressed in terms of the [[ordinary homology]] $H_q(X,\Omega^{SO}_{p-q})$ of $X$ with [[coefficients]] in the cobordism ring over the point, prop. \ref{OrientedCobordismOverPoint}, as
+
+$$
+  \Omega_p^{SO}(X)
+  =
+  \oplus_{q = 0}^p
+  H_q(X,\Omega_{p-q}^{SO})
+  \;
+  mod\; odd \; torsion
+  \,.
+$$
+
+=--
+
+e.g. [Connor-Floyd 62, theorem 14.2](#ConnorFloyd62)
+
 
 ## References
 
@@ -97,9 +125,11 @@ An useful review of the central definitions and theorems about the cobordism rin
 
 * [[Gerald Höhn]], _Komplexe elliptische Geschlechter und $S^1$-&#228;quivariante Kobordismustheorie_ (german) ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
-Discussion of oriented cobordism is in 
+Discussion of oriented cobordism includes
 
 * {#ManifoldAtlas} Manifold Atlas, _[Oriented bordism](http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
+
+* {#ConnorFloyd62} P. E. Conner, E. E. Floyd, _Differentiable periodic maps_, Bull. Amer. Math. Soc. Volume 68, Number 2 (1962), 76-86. ([Euclid](http://projecteuclid.org/euclid.bams/1183524501), [pdf](http://www.maths.ed.ac.uk/~aar/papers/cf1.pdf))
 
 A historical review in the context of [[complex cobordism cohomology theory]]/[[Brown-Peterson theory]] is in 
 
