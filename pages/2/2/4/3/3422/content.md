@@ -710,7 +710,13 @@ The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ 
 
 =--
 
+## Proerties
 
+### As an (op)lax $\infty$-colomit
+
+The $(\infty,1)$-Grothendieck construction on an $\infty$-functor is equivalently its [[lax (infinity,1)-colimit]] ([Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15)).
+
+See also at _[[Grothendieck construction]]_  _[as a lax colimit](Grothendieck%20construction#AsALaxColimit)_.
 
 
 
@@ -995,5 +1001,8 @@ More on model-category theoretic construction of the $\infty$-Grothendieck const
 
 * {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
+Discussion in terms of [[lax (infinity,1)-colimits]] is in
+
+* {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
 [[!redirects (∞,1)-Grothendieck construction]]
