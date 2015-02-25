@@ -34,17 +34,17 @@ Notice that there are technical conditions on a [[site]] and a [[cover]] to ensu
 
 ### More technical idea
 
-From the discussion at [[abelian sheaf cohomology]] we know that the [[right derived functor]] definition computes the hom-set in the [[homotopy category of an (infinity,1)-category|homotopy category]] of an [[(infinity,1)-topos]] $\mathbf{H}$ that may alternatively be computed as a colimit over resolutions of the domain object
+From the discussion at [[abelian sheaf cohomology]] we know that the [[right derived functor]] definition computes the hom-set in the [[homotopy category of an (infinity,1)-category|homotopy category]] of an [[(infinity,1)-topos]] $\mathbf{H}$ that may alternatively be computed as a [[colimit]] over [[resolutions]] of the [[domain]] object
 
 $$
   H(X,A)
-  := 
+  \coloneqq
   \pi_0 \mathbf{H}(X,A)
-  = colim_{Y \stackrel{\in W \cap F}{\to} X} 
+  = colim_{Y \stackrel{\in W \cap F}{\longrightarrow} X} 
   C_H(Y,A)/_{homotopy}
 $$
 
-where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
+where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap F}{\longrightarrow} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
 
 Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[?ech covers]]. The resulting formula
 
@@ -64,8 +64,8 @@ $$
   Y := \left( 
     \cdots
     U \times_X U \times_X U
-    \stackrel{\to}{\stackrel{\to}{\to}}
-    U \times_X U \stackrel{\to}{\to} U 
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+    U \times_X U \stackrel{\longrightarrow}{\longrightarrow} U 
   \right)
   \simeq
   hocolim_{[k] \in \Delta} U^{\times_X k}
@@ -81,7 +81,8 @@ If $Y$ is not simply a [[?ech cover]] but also not the most general [[hypercover
 
 
 
-## General ("nonabelian") &#268;ech cohomology ##
+## General ("nonabelian") &#268;ech cohomology 
+ {#NonabelianCechCohomology}
 
 We start with describing the general " _nonabelian_ " &#268;ech cohomology (compare the terminology and remarks at [[cohomology]] and [[nonabelian cohomology]]), i.e. the plain unwrapping of the above definition, before assuming that our coefficient object is [[abelian sheaf cohomology|abelian]] and before applying the [[Moore complex]] functor that sends the following simplicial computation to the maybe more familiar one in [[chain complexes]].
 
@@ -131,15 +132,15 @@ $$
     \vdots && \vdots
     \\
     \Delta^2
-    &\stackrel{f}{\to}&
+    &\stackrel{f}{\longrightarrow}&
     \prod_{i j k} A(U_{i j k})
     \\
     \Delta^1
-    &\stackrel{g}{\to}&
+    &\stackrel{g}{\longrightarrow}&
     \prod_{i j}A(U_{ i j})
     \\
     \Delta^0
-    &\stackrel{a}{\to}&
+    &\stackrel{a}{\longrightarrow}&
     \prod_i A(U_i)
   }
   \right)
@@ -156,7 +157,7 @@ $$
     \uparrow
     \\
     \Delta^2
-    &\stackrel{f}{\to}&
+    &\stackrel{f}{\longrightarrow}&
     \prod_{i j k} A(U_{i j k})
     \\
     \uparrow
@@ -542,21 +543,10 @@ $$
 
 on [[chain complexes]] with values in [[simplicial sets]] that happen to be abelian [[simplicial groups]], the computation of &#268;ech cocycles may be entirely pulled back to the world of [[homological algebra]] by making use of the [[Dold-Kan correspondence]] that provides an [[adjoint equivalence]] between simplicial sets with values in abelian groups and non-negatively graded chain complexes.
 
-### Relation of abelian to nonabelian &#268;ech cohomology
- {#RelationAbelianNonabelian}
 
-+-- {: .num_remark}
-###### Remark
+### Definition
 
- The following derivation of abelian &#268;ech cohomology from nonabelian &#268;ech cohomology restricted to nerves of chain complexes needs of the [[Dold-Kan correspondence]] only that it is an [[adjunction]], not that it is an [[adjoint equivalence]]. 
-
-=--
-
-The following structure arises, 
-when one computes &#268;ech cohomology in this context,
-as shown below.
-
-+-- {: .num_defn}
++-- {: .num_defn #CechComplex}
 ###### Definition
 **(&#268;ech complex)**
 
@@ -600,7 +590,18 @@ When $A_\bullet$ is not concentrated in a single degree, the above is often call
 
 =--
 
-As the following derivation will show, this complex encodes a linearization of the simplicial nonabelian cocycle depicted above. It may be helpful to keep the following pictures in mind to match the signs to the orientations of simplices.
+### Relation to nonabelian &#268;ech cohomology
+ {#RelationAbelianNonabelian}
+
+
+We discuss how the abelian Cech complex of def. \ref{CechComplex} arises as a special case of the simplicial nonabelian cocycle complex of general nonabelian Cech cohomology [above](#NonabelianCechCohomology). 
+
+
++-- {: .num_remark}
+###### Remark
+
+
+It may be helpful to keep the following pictures in mind to match the signs to the orientations of simplices.
 
 In dimension one we have:
 
@@ -646,9 +647,18 @@ Here the relation on the right is the
 [[Dold-Kan correspondence]] relating coboundaries in the
 complex $A_\bullet$ to simplices .
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The following derivation of abelian &#268;ech cohomology from nonabelian &#268;ech cohomology restricted to nerves of chain complexes needs of the [[Dold-Kan correspondence]] only that it is an [[adjunction]], not that it is an [[adjoint equivalence]]. 
+
+=--
+
 
 +-- {: .num_prop }
-###### Proposition (abelian &#268;ech cohomology)
+###### Proposition (recovering abelian &#268;ech cohomology)
 
 Let $A_\bullet$ be a sheaf with values in $Ch_+$
 and write $N(A_\bullet)$ for the corresponding
@@ -833,7 +843,7 @@ To see that one just needs to observe that the normalized [[Moore complex]] of t
 
 =--
 
-### Relation to abelian sheaf cohomology ###
+### Relation to abelian sheaf cohomology
 
 For $A$ a complex of sheaves, there is a canonical morphism
 
@@ -979,6 +989,7 @@ as they are unambiguously obviuous in every case.
 
 
 #### Line bundle gerbes ####
+
 
 Similarly by shifting $U(1)$ ever higher in chain degree,
 one finds &#268;ech cocycles for [[bundle gerbes]], bundle 2-gerbes, etc.
