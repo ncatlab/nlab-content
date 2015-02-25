@@ -153,147 +153,323 @@ $$
 
 ## Definition
 
-+-- {: .num_defn}
+### General
+
+In any context where these symbols make the evident sense, the Deligne complex of degree $(n+1)$ is the [[chain complex]] $\mathcal{O}^\times \stackrel{d log}{\to}\Omega^1 \stackrel{d}{\to} \Omega^2 \to \cdots \to \Omega^n$, and Deligne cohomology in degree $(n+1)$ is the [[abelian sheaf cohomology]] with [[coefficients]] in this complex. 
+
+More generally one considers any [[discrete group]] $A$ and inclusion $A \hookrightarrow \mathcal{O}$ into the [[structure sheaf]], then the corresponding Deligne complex is $A \hookrightarrow \mathcal{O} \stackrel{d}{\to} \Omega^1 \to \cdots \to \Omega^n$.
+
+### In smooth differential geometry
+ {#DefinitionInSmooth}
+
+For definiteness we consider here the Deligne complex in the smooth differential geometric context. Most variants work directly analogously, but it may be useful to have a specific case in hand.
+
++-- {: .num_defn #Smooth0Types}
 ###### Definition
 
-For $k \in \mathbb{N}$
-write $\Omega^k(-) : U \mapsto \Omega^k(U)$ for the [[sheaf]] of smooth differential $k$-forms on $X$
-and $C^\infty(-,V)$ for the sheaf of smooth $V$-valued functions on  $X$. 
+Write [[CartSp]] for the [[site]] whose 
 
-The degree $(n+1)$ **Deligne complex** is the complex of sheaves
+* [[objects]] are [[Cartesian space]]  $\mathbb{R}^n$ for $n \in \mathbb{N}$, 
+
+* [[morphisms]] are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between these;
+
+*  whose [[coverage]] is given by "differentially [[good open covers]]", those [[open covers]] of $\mathbb{R}^n$s all whose finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]], hence again to $\mathbb{R}^n$.
+
+Write $PSh(CartSp) = Func(CartSp^{op},Set)$ for the [[category of presheaves]] over this site. Write
 
 $$
-  \mathbb{Z}(n+1)_D^\infty
-  \;
-    :=
-  \;
-  \left(
-  \cdots \to 0 \to C^\infty(-,\mathbb{Z}) \hookrightarrow
-   C^\infty(-,\mathbb{R}) \stackrel{d }{\to}
-    \Omega^1(-) \stackrel{d}{\to} \cdots \stackrel{d}{\to}
-    \Omega^n(-)
-  \right)
+  Smooth0Type \coloneqq Sh(CartSp)
+$$
+
+for its [[category of sheaves]], also called the [[cohesive topos]] of [[smooth spaces]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The assignment $C^\infty(-,\mathbb{R}) \colon \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n,\mathbb{R})$ of [[smooth functions]] with values in the [[real numbers]] is a [[sheaf]]. Since this is [[representable functor|representable]] we are entitled to identify this with the [[smooth manifold]] $\mathbb{R}$ (the [[real line]]) itself, and just write $\mathbb{R} \in Sooth0Type$. 
+
+Similarly for $X$ any other [[smooth manifold]], it represents a sheaf on [[CartSp]] and we just write $X \in Smooth0Type$ for this.
+
+Of particular interest below is the case where $X = S^1 = U(1)$ is the [[circle]], to be regarded as the [[circle group]].
+
+Notice that traditionally the sheaf represented by $\mathbb{R}$ or $U(1)$ is indicated by an underline as in $\underline{\mathbb{R}}$ and $\underline{U}(1)$, but we do not follow this tradition here. 
+
+Instead, if we consider the other sheaf that might deserve to be denoted by $\mathbb{R}$, namely the [[constant sheaf]] on $\mathbb{R}$, which sends each $U \in CartSp$ to the set underlying $\mathbb{R}$, then we write $\flat \mathbb{R}$ for that. Similarly 
+
+$$
+  \flat U(1) \in Smooth0Type
+$$ 
+
+is the sheaf sending each test manifold to the set of points in the circle, and each smooth function between Cartesian spaces to the identity function on that set.
+=--
+
++-- {: .num_example #SheavesOfFormsAndDeRhamDifferential}
+###### Example
+
+For $k \in \mathbb{N}$ write 
+
+$$
+  \mathbf{\Omega}^k \in Sh(CartSp)
+$$ 
+
+for the [[sheaf]] $\mathbf{\Omega}^k \colon U \mapsto \Omega^k(U)$ of smooth [[differential n-forms|differential k-forms]] on $X$.
+The [[de Rham differential]] extends to a morphism of sheaves
+
+$$
+  \mathbf{d} \colon \mathbf{\Omega}^k \to \mathbf{\Omega}^{k+1}
+  \,.
+$$
+
+Its [[kernel]] is the [[subfunctor|sub-sheaf]]
+
+$$
+  \mathbf{\Omega}^k_{cl} \hookrightarrow \mathbf{\Omega}^k
+$$
+
+of closed differential forms.
+
+=--
+
+In the background, what plays a role for the following is the full [[cohesive (∞,1)-topos|cohesive]] [[homotopy theory]] of [[smooth ∞-groupoids]]. This receives a map from the following coarse [[homotopy theory]] of [[chain complexes]] of [[abelian sheaves]], which is all that is necessary for the present purpose.
+
++-- {: .num_defn #FibrantOnjectStructureOnChSmooth}
+###### Definition
+
+Write
+
+$$
+  Ch_+(Smooth0Type)
+  =
+  Ch_+(Sh(CartSp))
+  =
+  Sh(CartSp,Ch_+)
+$$
+
+for the [[category of chain complexes]] in the smooth sheaves of def. \ref{Smooth0Types}, hence for the [[1-category]] whose objects are [[chain complexes]] of [[abelian sheaves]] on $CartSp$.
+
+Regard this as equipped with the structure of a [[category of fibrant objects]] induced by the [[projective model structure on chain complexes]], hence with classes of [[morphisms]] labeled as follows: a [[chain map]] $f_\bullet \colon A_\bullet \to B_\bullet$ is called
+
+*  a _[[weak equivalence]]_ if it is a [[quasi-isomorphism]], hence if it induces [[isomorphisms]] on ([[sheaves]] of) [[chain homology]] groups;
+
+* a _[[fibration]]_ if it is an [[epimorphism]] (of [[abelian sheaves]]) in positive degree.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+That the properties in def. \ref{FibrantOnjectStructureOnChSmooth} 
+are interpreted in sheaves simply means that they apply [[stalk]]-wise.
+For instance a morphism of chain complexes of presheaves
+$f_\bullet \colon A_\bullet \to B_\bullet$ is a weak equivalence
+precisely if the underlying presheaf of chain complexes becomes
+a [[quasi-isomorphism]] for each point $x$ in each Cartesian space
+$\mathbb{R}^n$ after restricting 
+(via the presheaf structure maps) to a small enough [[open neighbourhood]]
+of that point. Similarly for epimorphisms.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There is a canonical map of [[homotopy theories]] from $Ch_+(Smooth0Type)$ to the full [[(∞,1)-topos]] [[Smooth∞Grpd]] which is given by applying the [[Dold-Kan correspondence]] followed by [[∞-stackification]]. The key point is that this map preserves [[homotopy fiber products]], which is the [[universal construction]] that already captures most of the relevant properties of the Deligne complex. In this way it is sufficient to concentrate on $Ch_+(Smooth0Type)$ for much of the theory.
+
+=--
+
+When writing out the components of chain complexes we will use square brackets always denote the group in degree-0 to the far right, and the group in degree $k$ being $k$ steps to the left from that.
+
++-- {: .num_example}
+###### Example
+
+Under addition of differential forms, the sheaves $\mathbf{\Omega}^k$ of example \ref{SheavesOfFormsAndDeRhamDifferential} becomes [[abelian sheaves]], and we will implicitly understand them this way now.
+Write $(\flat_{dR}\mathbf{B}^n \mathbb{R})_\bullet \in Ch(Smooth0Type)$ for the complex of sheaves given by the [[de Rham complex]] truncated as follows:
+
+$$
+  (\flat_{dR}\mathbf{B}^n \mathbb{R})_\bullet
+  \coloneqq
+  \left[
+    \mathbf{\Omega}^1
+    \stackrel{\mathbf{d}}{\to}
+    \mathbf{\Omega}^2
+    \stackrel{\mathbf{d}}{\to}
+    \cdots
+    \stackrel{\mathbf{d}}{\to}
+    \mathbf{\Omega}^n_{cl}
+  \right]
   \,.
 $$
 
 =--
 
++-- {: .num_example #LogDiffInSmoothContext}
+###### Example
 
-Often it is useful to consider the [[quasi-isomorphism|quasi-isomorphic]] complex
+There is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth},
 
 $$
-  \bar \mathbf{B}^n U(1)
-  \;\;
-  :=
-  \;\;
-  \left(
-  \cdots 0 \to   C^\infty(-,U(1)) \stackrel{d log}{\to}
-    \Omega^1(-) \stackrel{d}{\to} \cdots \stackrel{d}{\to}
-    \Omega^n(-)
-  \right)
+  \left[\mathbb{Z}\to \mathbb{R} \right]
+  \stackrel{\simeq}{\longrightarrow}
+  U(1)
+  \,.
 $$
 
-Here $C^\infty(-,U(1)) \stackrel{d log}{\to} \Omega^1(-)$ 
-is the 
-morphism of sheaves induced by regarding a $U(1) \simeq \mathbb{R}/\mathbb{Z}$-valued function locally
-as a $\mathbb{R}$-valued function and applying the deRham differential $d$ to that.
-
-The obvious morphism of complexes
+The de Rham differential [[extension|extends]] through this equivalence
+to produce a morphism denoted $\mathbf{d} log$:
 
 $$
   \array{
-    C^\infty(-,\mathbb{Z})    
-    &\hookrightarrow&
-    C^\infty(-,\mathbb{R}) 
-      &\stackrel{d log}{\to}&
-     \Omega^1(-) 
-     &\stackrel{d}{\to}& 
-       \cdots 
-     &\stackrel{d}{\to}&
-     \Omega^n(-)
+    (\mathbb{Z} \to \mathbb{R}) &\stackrel{\mathbf{d}}{\longrightarrow}&
+    \mathbf{\Omega}^1
     \\
-    \downarrow
-    &&
-    \downarrow^{(-)/\mathbb{Z}}
-    &&
-    \downarrow^{Id}
-    &&
-    &&
-    \downarrow^{Id}
+    \downarrow^{\mathrlap{\simeq}} & \nearrow_{\mathrlap{\mathbf{d} log}}
     \\
-    0 
-    &\to&
-    C^\infty(-,U(1)) 
-      &\stackrel{d log}{\to}&
-     \Omega^1(-) 
-     &\stackrel{d}{\to}& 
-       \cdots 
-     &\stackrel{d}{\to}&
-     \Omega^n(-)
+    U(1) 
+    \,.
   }
 $$
 
-clearly induces isomorphism on [[homology]] groups: the homology in degree $n$ is locally constant $\mathbb{R}$-valued functions modulo locally constant $\mathbb{Z}$-valued functions in the first case and constant $U(1)$-valued functions in the second case, which is the same.
-
-+-- {: .num_defn}
-###### Definition
-
-**Deligne cohomology** in degree $n+1$ of $X$ is the 
-[[cohomology]] (which is [[abelian sheaf cohomology]] in this case) with coefficients in $\bar \mathbf{B}^n U(1)$.
+On a given $U(1)$-valued function this is given by
+representing the function by a smooth $\mathbb{R}$-valued function
+under mod-$\mathbb{Z}$-reduction
+(which is always possible over a [[Cartesian space]]) and applying the 
+de Rham differential to that.
 
 =--
 
+
+
++-- {: .num_defn #TheSmoothDeligneComplex}
+###### Definition
+
+
+For $n \in \mathbb{N}$ the **smooth Deligne complex** of degree $n$
+
 $$
-  H(X, \mathbb{Z}(n+1)_D^\infty)
-  \simeq 
-  H(X, \bar \mathbf{B}^n U(1))
-  \,.
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+  \in 
+  Ch_+(Smooth0Type)
 $$
 
-Here the notation on the right is motivated from the discussion at the end of [[motivation for sheaves, cohomology and higher stacks]].
+is the [[chain complex]] of [[abelian sheaves]] given by
+
+$$
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+  \;
+   \coloneqq
+  \;
+  \left[
+    U(1) \stackrel{\mathbf{d} log}{\to}
+    \mathbf{\Omega}^1
+    \stackrel{\mathbf{d}}{\to} 
+     \cdots 
+    \stackrel{\mathbf{d}}{\to}
+    \mathbf{\Omega}^n
+  \right]
+$$
+
+with $U(1)$ in degree $n$ and with the differentials as
+in def. \ref{SheavesOfFormsAndDeRhamDifferential} and example \ref{LogDiffInSmoothContext}.
+
+=--
+
++-- {: .num_remark #RModZResolutionOfU1DeligneComplex}
+###### Remark
+
+By example \ref{LogDiffInSmoothContext}
+the obvious [[chain map]]
+
+$$
+  \array{
+    \mathbb{Z}    
+    &\hookrightarrow&
+    \mathbb{R}
+      &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^1
+     &\stackrel{\mathbf{d}}{\to}& 
+       \cdots 
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^n
+    \\
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{(-)/\mathbb{Z}}}
+    &&
+    \downarrow^{id}
+    &&
+    &&
+    \downarrow^{id}
+    \\
+    0 
+    &\to&
+    U(1)
+      &\stackrel{\mathbf{d} log}{\to}&
+     \mathbf{\Omega}^1
+     &\stackrel{\mathbf{d}}{\to}& 
+       \cdots 
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^n
+  }
+$$
+
+is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth},
+and one could define the top chain complex here as "the" Deligne complex,
+just as well. In the context of [[homotopy theory]]/[[homological algebra]],
+all that matters is the complex up to [[zig-zags]] of
+weak equivalences.
+
+=--
+
 
 
 ## Properties
 
-### Characteristic classes of Deligne cocycles 
+### Characteristic maps out of and into Deligne cocycles 
 
-There are two natural morphisms of abelian [[cohomology group]]s out of Deligne cohomology:
 
-* the map to the underlying non-differential cocycle, the class of the underlying [[principal infinity-bundle]]:
+There are two natural morphisms of abelian [[cohomology groups]] out of Deligne cohomology:
 
- $$
-  cl
-  :
-  H(X,\bar \mathbf{B}^n U(1))
-  \to 
-  H(X,\mathbf{B}^n U(1))
-  \simeq
-  H(X, \mathbf{B}^{n+1} \mathbb{Z})
-  \simeq
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  (\mathbf{B}^{n+1} \mathbb{Z})_{\bullet}
+  \coloneqq
+  \left[
+     \mathbb{Z}
+     \to 0 \to \cdots \to 0
+  \right]
+$$
+
+for the [[chain complex]] concentrated on the [[integers]], regarded as a [[constant sheaf]], in degree $(n+1)$.
+
+Write 
+
+$$
+  (\mathbf{B}}^n U(1)_{conn})_{\bullet}
+  \stackrel{\simeq}{\longleftarrow}
+  \longrightarrow
+  \mathbf{B}^n \mathbb{Z}_{\bullet}
+$$
+
+for the [[zig-zag]] of chain complexes where the left 
+weak equivalence is that  of remark \ref{RModZResolutionOfU1DeligneComplex}.
+
+=--
+
+on [[abelian sheaf cohomology]] this gives a morphism
+
+$$
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \longrightarrow
   H^{n+1}(X,\mathbb{Z})
- $$
-
-* the map to the curvature characteristic class
-
-$$
-  [F]
-  :
-  H(X,\bar \mathbf{B}^n U(1))
-  \to 
-  H_{dR}^{n+1}(X)
-  \,.
 $$
 
-These are induced from the canonical morphisms of coefficient objects
-
-$$
-  \bar \mathbf{B}^n U(1) \simeq
-  \mathbb{Z}(n+1)_D^\infty
-  \to 
-  \mathbf{B}^{n+1} \mathbb{Z}
-$$
-
-given by
 
 $$
   \array{
@@ -327,7 +503,39 @@ $$
      0  }
 $$
 
+
+* the map to the underlying non-differential cocycle, the class of the underlying [[principal infinity-bundle]]:
+
+ $$
+  cl
+  \colon
+  H(X,\bar \mathbf{B}^n U(1))
+  \to 
+  H(X,\mathbf{B}^n U(1))
+  \simeq
+  H(X, \mathbf{B}^{n+1} \mathbb{Z})
+  \simeq
+  H^{n+1}(X,\mathbb{Z})
+ $$
+
+
+These are induced from the canonical morphisms of coefficient objects
+
+
+
 and
+
+* the map to the curvature characteristic class
+
+$$
+  [F]
+  :
+  H(X,\bar \mathbf{B}^n U(1))
+  \to 
+  H_{dR}^{n+1}(X)
+  \,.
+$$
+
 
 $$
   \bar \mathbf{B}^n U(1) \simeq
@@ -494,11 +702,11 @@ One useful statement is: given an [[smooth scheme|smooth]] [[algebraic variety]]
 
 ## Examples 
 
-As described in some detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Čech cohomology|Čech]]--Deligne cocycle, i.e. a [[Čech cohomology|Čech cocycle]] representative with values in the Deligne complex.
+As described in some detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[?ech cohomology|?ech]]--Deligne cocycle, i.e. a [[?ech cohomology|?ech cocycle]] representative with values in the Deligne complex.
 
 * Degree 2 Deligne cohomology classifies $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]]. The Deligne complex $\bar \mathbf{B}U(1)$ in this case coincides with the [[groupoid of Lie-algebra valued forms]] for the Lie algebra of $U(1)$.
 
-  * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[Čech cohomology|Čech]]--Deligne cohomology from physical input.
+  * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[?ech cohomology|?ech]]--Deligne cohomology from physical input.
 
 * Degree 3 Deligne cohomology classifies [[bundle gerbe]]s with connection.
 
