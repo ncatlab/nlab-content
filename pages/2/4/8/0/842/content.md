@@ -1,3 +1,4 @@
+[[!redirects limit in a quasi-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -871,6 +872,8 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
   * [[finite (∞,1)-limit]], [[relative (∞,1)-limit]]
 
   * [[homotopy limit]]
+
+  * [[lax (∞,1)-colimit]]
 
 
 ## References
