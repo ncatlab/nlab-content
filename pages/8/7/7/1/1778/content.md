@@ -360,7 +360,7 @@ We now plug in some concrete coefficient object
 $n$-types for low $n$ and reproduce some concrete formulas
 from this.
 
-### Nonabelian 1-cocycles: principal bundles ###
+### Nonabelian 1-cocycles: principal bundles 
 
 For $G$ a [[group]] let 
 $\mathbf{B} G$ by abuse of notation denote 
@@ -443,7 +443,7 @@ $$
 =--
 
 
-### Nonabelian 2-cocycles: gerbes and principal 2-bundles ###
+### Nonabelian 2-cocycles: gerbes and principal 2-bundles
 
 
 In one degree higher the general [[homotopy n-type|homotopy 2-type]] coefficient object is modeled using a strict [[2-group]] $H$ coming from a [[crossed module]]
@@ -530,7 +530,7 @@ this is the nonabelian cohomology classifying
 [[gerbes]].
 
 
-## Abelian &#268;ech cohomology ##
+## Abelian &#268;ech cohomology 
  {#AbelianCechCohomology}
 
 In much of the literature _&#268;ech cohomology_ denotes exclusively the abelian case, which we now describe.
@@ -545,40 +545,111 @@ on [[chain complexes]] with values in [[simplicial sets]] that happen to be abel
 
 
 ### Definition
+ {#AbelianCechCohomologyDefinition}
+ 
+ 
+
+We discuss the [[double complex]] which gives the traditional definition of Cech cohomology with coefficients in [[sheaves of abelian groups]].
+
+Let 
+
+* $X$ be a [[topological space]];
+
+* $A_\bullet = (\cdots \stackrel{\partial}{\to} A_2 \stackrel{\partial}{\to} A_1 \stackrel{\partial}{\to} A_0)$ be a [[chain complex]] of [[abelian sheaves]] on $X$ (i.e. on the [[category of open subsets]] $S \colon Op(X)$ of $X$, regarded as a [[site]] with the usal [[covering]] [[Grothendieck topology]]);
+
+* $\{U_i \to X\}$ be an [[open cover]] of $X$.
+
+We write 
+
+$$
+  U_{i_0,\cdots i_k}
+  \coloneqq
+  U_{i_0}
+  \underset{X}{\times}
+  U_{i_1}
+  \underset{X}{\times}
+  \cdots  
+  \underset{X}{\times}
+  U_{i_k}
+$$
+
+for the $k$-fold intersections of these open subsets. Given an inclusion of open subsets $U_1 \to U_2$ and given any group element $a\in A_\bullet(U_2)$ we write $a|_{U_1}$ for its restriction along this map.
+
+More generally, we may allow $S$ to be any [[site]]. For simplicity of the following formulas assume that $S$ has [[finite products]] (which in the case that $S$ is a [[category of open subsets]] are the [[fiber products]] above.) Then $A_\bullet$ is a chain complex of [[abelian sheaves]] on that site. 
 
 +-- {: .num_defn #CechComplex}
 ###### Definition
 **(&#268;ech complex)**
 
-Let $\{U_i \to X\}$ be a collection of open subsets
-of $X$
-and let $A_\bullet$ be a sheaf with coefficients
-in non-negatively graded chain complexes $Ch_+$.
 
-Then define the **&#268;ech chain complex** $C(U,A_\bullet)$ 
-of $A_\bullet$ relative to $U$ by
+The **&#268;ech cochain complex** $C^\bullet((X,\{U_i\}),A_\bullet)$ 
+of $X$ with respect to the cover $\{U_i \to X\}$ and with [[coefficients]] in $A_\bullet$ is in degree $k \in \mathbb{N}$ given by the [[abelian group]]
 
 $$
-  C(U,A_\bullet)_k :=
-  \oplus_{k = l-n}
-  \prod_{i_0, i_1, \cdots, i_n}
-  A_l(U_{i_1, \cdots, i_n})
+  C_k((X,\{U_i\}),A_\bullet)
+  \coloneqq
+  \oplus_{{l,n} \atop {k = l-n}}
+  \oplus_{i_0, i_1, \cdots, i_n}
+  A_l(U_{i_0, \cdots, i_n})
 $$
 
-where $U_{i_1, \cdots, i_n} = U_{i_0} \cap \cdots \cap U_{i_n}$ if all indices are pairwise different, and empty otherwise, and
-with differential given by
+which is the [[direct sum]] of the values of $A_\bullet$ on the given intersections as indicated; and whose [[differential]] 
 
 $$
-  (d a)_{i_0, \cdots, i_n} = 
-  d_A a_{i_0, \cdots, i_n}
-  +
-  (-1)^n
-  \sum_{0 \leq j \leq n} (-1)^{j}
-  a_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_n} 
-  |_{U_{i_0, \cdots, i_n}}
+  d
+  \colon
+  C^{k}((X,\{U_i\}),A_\bullet)
+  \longrightarrow
+  C^{k+1}((X,\{U_i\}),A_\bullet)
 $$
 
-where on the right we sum over all components of $a$ obtained by discarding one of the original $(n+1)$ subscripts.
+is defined componentwise (see at [[matrix calculus]] for conventions on maps between [[direct sums]]) by
+
+$$
+  \begin{aligned}
+    (d a)_{i_0, \cdots, i_{k+1}} 
+    & \coloneqq 
+    (\partial_A + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
+    \\
+    & \coloneqq
+    \partial_A a_{i_0, \cdots, i_{k+1}}
+    +
+    (-1)^k
+    \sum_{0 \leq j \leq k+1} (-1)^{j}
+    a_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_{k+1}} 
+    |_{U_{i_0, \cdots, i_{k+1}}}
+  \end{aligned}
+$$
+
+where on the right the sum is over all components of $a$ obtained via the canonical restrictions obtained by discarding one of the original $(k+1)$ subscripts.
+
+The **Cech cohomology** groups of $X$ with coefficients in $A_\bullet$ __relative to the given cover__ are the [[chain homology]] groups of the Cech complex
+
+$$
+  H_{Cech}^k((X,\{U_i\}), A_\bullet)
+  \coloneqq
+  H^k(C^\bullet((X,\{U_i\}),A_\bullet))
+  \,.
+$$
+
+The **Cech cohomology** groups as such as the [[colimit]] of these groups over refinements of covers
+
+$$
+  H^k_{Cech}(X, A_\bullet)
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_{\{U_i \to X\}}
+  H_{Cech}^k((X,\{U_i\}), A_\bullet)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Often Cech cohomology is considered for the case that $A_\bullet$ is concentrated in a single degree, in which case the first term in the sum defining the differential in def. \ref{CechComplex} disappears. 
+When $A_\bullet$ is not concentrated in a single degree, then for emphasis and following terminology of _[[hypercohomology]]_ 
+one may speak of the **&#268;ech hypercomplex** computing **&#268;ech hypercohomology**.
 
 =--
 
@@ -586,15 +657,42 @@ where on the right we sum over all components of $a$ obtained by discarding one 
 +-- {: .num_remark}
 ###### Remark
 
-When $A_\bullet$ is not concentrated in a single degree, the above is often called the **&#268;ech hypercomplex** and its cohomology is called **&#268;ech hypercohomology**.
+The Cech chain complex in def. \ref{CechComplex} is the [[total complex]] of the [[double complex]] whose vertical differential is that of $A_\bullet$ and whose horizontal differential is the _Cech differential_ $\delta$ given by alternating sums over restrictions along patch inclusions
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \downarrow^{\mathrlap{\partial_A}}
+     &&
+     \downarrow^{\mathrlap{\partial_A}}
+     \\
+     \oplus_i A_1(U_i)
+     &\stackrel{\delta}{\longrightarrow}&
+     \oplus_{i_1, i_2} A_1(U_{i_1, i_2})
+     &\stackrel{\delta}{\longrightarrow}&
+     \cdots
+     \\
+     \downarrow^{\mathrlap{\partial_A}}
+     &&
+     \downarrow^{\mathrlap{\partial_A}}
+     \\
+     \oplus_i A_0(U_i)
+     &\stackrel{\delta}{\longrightarrow}&
+     \oplus_{i_1, i_2} A_0(U_{i_1, i_2})
+     &\stackrel{\delta}{\longrightarrow}&
+     \cdots
+  }
+$$
 
 =--
+
 
 ### Relation to nonabelian &#268;ech cohomology
  {#RelationAbelianNonabelian}
 
 
-We discuss how the abelian Cech complex of def. \ref{CechComplex} arises as a special case of the simplicial nonabelian cocycle complex of general nonabelian Cech cohomology [above](#NonabelianCechCohomology). 
+We discuss how the abelian Cech complex of def. \ref{CechComplex} arises as a special case of the simplicial nonabelian cocycle complex of general nonabelian Cech cohomology [above](#NonabelianCechCohomology), under the [[Dold-Kan correspondence]].
 
 
 +-- {: .num_remark}
@@ -608,6 +706,7 @@ In dimension one we have:
 $$
   (0 \to 1)
   \;\;\;
+
   \mapsto
   \;\;\;
   (a_0 \stackrel{a_{0 1}}{\to} a_1)
@@ -728,6 +827,7 @@ $$
 assigns to a test domain $W$ the complex that in
 each degree is the free abelian group on these 
 elements.
+
 
 
 
@@ -884,6 +984,7 @@ $$
   H_0(C(U,A)_\bullet) \to H(X,A)
 $$
 
+
 from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
 
 +-- {: .num_theorem }
@@ -988,7 +1089,7 @@ Here and from now on we shall notationally suppress the restriction maps $(-)|_{
 as they are unambiguously obviuous in every case.
 
 
-#### Line bundle gerbes ####
+#### Line bundle gerbes 
 
 
 Similarly by shifting $U(1)$ ever higher in chain degree,
@@ -1023,7 +1124,7 @@ $$
 
 
 
-#### &#268;ech-Deligne cohomology ####
+#### &#268;ech-Deligne cohomology 
 
 When refining the complexes of sheaves $U(1)[n]$
 to the [[Deligne cohomology|Deligne complex]]
@@ -1055,6 +1156,7 @@ in the Deligne complex, we obtain the formulas for
   Such cocycles classify $U(1)$-[[principal bundles]]
   with [[connection on a bundle|connection]].
 
+
   These $n=1$ &#268;ech-Deligne cocycles appear naturally in the study of the [[electromagnetic field]].
 
 * For $n = 2$ a cocycle is a collection
@@ -1072,6 +1174,7 @@ in the Deligne complex, we obtain the formulas for
     A_{i j} - A_{i k} + A_{j k} + d log g_{i j k} = 0
   $$
   and for all $i, j, k ,l$
+
   $$
     g_{i j k} g_{i k l} = g_{i j l} g_{j k l}    
     \,.
