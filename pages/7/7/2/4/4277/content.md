@@ -81,13 +81,25 @@ Really on the left we have the $\infty$-groupoidification of that [[∞-category
 
 Hence the cobordism ring in degree $n$ is the [[decategorification]] of the $n$-fold [[loop space object|looping]] of the $\infty$-category of cobordisms.
 
+## Examples
 
+### Oriented cobordism over the point
+
+| $k$             | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | $\geq 9$ |
+|-----------------|---|---|---|---|---|---|---|---|---|---|
+| $\Omega^{SO}_k$ | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | 0 | 0 | $\mathbb{Z}\oplus \mathbb{Z}$ | $\neq 0$ |
+
+see e.g. ([ManifoldAtlas](#ManifoldAtlas))
 
 ## References
 
 An useful review of the central definitions and theorems about the cobordism ring is in chapter 1 of
 
 * [[Gerald Höhn]], _Komplexe elliptische Geschlechter und $S^1$-&#228;quivariante Kobordismustheorie_ (german) ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
+
+Discussion of oriented cobordism is in 
+
+* {#ManifoldAtlas} Manifold Atlas, _[Oriented bordism](http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
 
 A historical review in the context of [[complex cobordism cohomology theory]]/[[Brown-Peterson theory]] is in 
 
