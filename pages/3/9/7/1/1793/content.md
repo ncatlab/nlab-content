@@ -103,10 +103,9 @@ Dually
 +-- {: .num_theorem #InjectiveModelStructure}
 ###### Theorem
 
-There is a [[model category]] structure on non-negatively graded [[cochain complex]]es 
-$Ch^{\bullet \geq 0 }(A)$ whose
+There is a [[model category]] structure on non-negatively graded [[cochain complexes]]  $Ch^{\bullet \geq 0 }(\mathcal{A})$ whose
 
-* weak equivalences are [[quasi-isomorphism]]s;
+* weak equivalences are [[quasi-isomorphisms]];
 
 * cofibrations are the morphisms that are [[monomorphism]]s in $R Mod$ in each _positive_ degree;
 
