@@ -149,7 +149,7 @@ In this case,
 ### As an oplax colimit
  {#AsALaxColimit}
 
-The Grothendieck construction on $F : C \to Cat$ is equivalently the [[oplax colimit]] of $F$.  That means that for each category $X$ there is an [[equivalence|equivalence of categories]]
+The Grothendieck construction on $F : C \to Cat$ is equivalently the [[oplax colimit]] of $F$ (e.g [Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15)).  That means that for each category $X$ there is an [[equivalence|equivalence of categories]]
 
 $$
   Lax(F, \Delta X) \simeq [{\textstyle \int} F, X]
@@ -573,3 +573,8 @@ A [[model category]] presentation of the Grothendieck construction is given in
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, [arXiv](http://arxiv.org/abs/1404.1852).
+
+Discussion of the Grothendieck construciton as a lax colimit includes (see also at [[(infinity,1)-Grothendieck construction]])
+
+
+* {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
