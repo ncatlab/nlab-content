@@ -2,6 +2,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Baruch_Spinoza)
 
+* [Stanford Encycl. of Phil. entry](http://plato.stanford.edu/entries/spinoza/)
+
 ## related entries
 
 * [[Spinoza's system]]
