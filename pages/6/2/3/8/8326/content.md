@@ -63,9 +63,12 @@ Accordingly, after a phase of great popularity in the philosophical community of
 
 > [&#167;1798](#1798)  formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
-However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing, more or less explicitly, that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_, have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept of _[[category]]_ and of _[[modality]]_ matches well under this translation from [[philosophy]] to [[mathematics]]. 
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing (review includes [Rodin 14](#Rodin14)), more or less explicitly, that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_ as well as the concepts of _objective logic_ and _subjective logic_ as such ([Law94b](#Lawvere94b)) have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept and terminology of _[[category]]_ and of _[[modality]]_ matches well under this translation from [[philosophy]] to [[mathematics]]. 
 
 [[Lawvere]] also proposed formalizations in [[category theory]] and [[topos theory]] of various terms appearing prominently in Hegel's _[[Encyclopedia of the Philosophical Sciences|Philosophy of Nature]]_, such as the concept of _[[intensive or extensive quantity]]_  and of _[[cohesion]]_. While, when taken at face value, these are hardly deep concepts in [[physics]], and were not at Hegel's time, in Lawvere's formalization and then transported to [[homotopy type theory]] (as [[cohesive homotopy type theory]]), they do impact on open problems in fundamental physics and even in pure mathematics (see also at _[Have professional philosophers contributed to other fields in the last 20 years?](http://philosophy.stackexchange.com/a/9814/5473)_), a feat that the comparatively simplistic mathematics that is considered in [[analytic philosophy]] seems to have little chance of achieving.
+
+> [Lawvere 92](#Lawvere92): It is my belief that in the next decade and in the next century the technical advances forged by category theorists will be of value to dialectical philosophy, lending precise form with disputable mathematical models to ancient philosophical distinctions such as general vs. particular, objective vs. subjective, being vs. becoming, space vs. quantity, equality vs. difference, quantitative vs. qualitative etc. In turn the explicit attention by mathematicians to such philosophical questions is necessary to achieve the goal of making mathematics (and hence other sciences) more widely learnable and useable. Of course this will require that philosophers learn mathematics and that mathematicians learn philosophy.
+
 
 Therefore:
 
@@ -164,7 +167,7 @@ The following table lists proposals for possible such identifications. The conte
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
 |-----|------|---|
 | **Subjektive Logic** |    |   |
-| **Begriffslogik** | **[[type theory]]/[[natural deduction]]** | [&#167;1280](#1280) |
+| **Begriffslogik** | **[[type theory]]/[[natural deduction]]** | [&#167;1280](#1280), [Law94b](#Lawvere94b) |
 | Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
 | Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
 | Schluss | [[natural deduction]] | [Ge35](#Gentzen35) |
@@ -177,7 +180,7 @@ The following table lists proposals for possible such identifications. The conte
 | sphere | [[level of a topos|level]] | [&#167;194](#194) |
 | Aufhebung | [[Aufhebung]], inclusion of adjoint modality in higher [[level of a topos|level]] | [Law89](Aufhebung#Law89b) |
 | **Objektive Logik** |    |  |
-| **Seinslogik** | **[[modal type theory]]** |  |
+| **Seinslogik** | **[[modal type theory]]** | [Law94b](#Lawvere94b) |
 | moment of two negations, something | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] | [&#167;210](#210) |
 | [[being]], One  | [[unit type]] $\ast$ | [&#167;86](#86), [&#167;132](#132), [&#167;1663](#1663) |
 | [[nothing]] | [[empty type]] $\emptyset$ | [&#167;133](#133) |
@@ -507,6 +510,7 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 > &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
 
 > {#174} &#167;174 Das Angef&#252;hrte ist auch dieselbe Dialektik, die der Verstand gegen den Begriff braucht, den die h&#246;here Analysis von den unendlich-kleinen Gr&#246;&#223;en giebt. Von diesem Begriffe wird weiter unten ausf&#252;hrlicher gehandelt.&#8212;Diese Gr&#246;&#223;en sind als solche, bestimmt worden, die in ihrem Verschwinden sind, nicht vor ihrem Verschwinden, denn als dann sind sie endliche Gr&#246;&#223;en;&#8212;nicht nach ihrem Verschwinden, denn alsdann sind sie nichts. Gegen diesen reinen Begriff ist eingewendet und immer wiederholt worden, da&#223; solche Gr&#246;&#223;en entweder Etwas seyen, oder Nichts; da&#223; es keinen Mittelzustand (Zustand ist hier ein unpassender, barbarischer Ausdruck) zwischen Seyn und Nichtseyn gebe.&#8212;Es ist hierbei gleichfalls die absolute Trennung des Seyns und Nichts angenommen. Dagegen ist aber gezeigt worden, da&#223; Seyn und Nichts in der That dasselbe sind, oder um in jener Sprache zu sprechen, da&#223; es gar nichts giebt, das nicht ein Mittelzustand zwischen Seyn und Nichts ist. Die Mathematik hat ihre gl&#228;nzendsten Erfolge der Annahme jener Bestimmung, welcher der Verstand widerspricht, zu danken.
+
 
 
 > {#174} &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
@@ -1227,6 +1231,7 @@ So we are looking now for a [[unity of opposites]] of the form
 
 $$
   attraction \dashv repulsion
+
   \,.
 $$
 
@@ -1803,6 +1808,7 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 > {#944} &#167;944 Zun&#228;chst geht also der selbstst&#228;ndige Gegensatz durch seinen Widerspruch in den Grund zur&#252;ck; jener ist das Erste, Unmittelbare, von dem angefangen wird, und der aufgehobene Gegensatz oder das aufgehobene Gesetztseyn ist selbst ein Gesetztseyn. Somit ist das Wesen als Grund ein Gesetztseyn, ein Gewordenes. Aber umgekehrt hat sich nur die&#223; gesetzt, da&#223; der Gegensatz oder das Gesetztseyn ein Aufgehobenes, nur als Gesetztseyn ist. Das Wesen ist also als Grund so ausschlie&#223;ende Reflexion, da&#223; es sich selbst zum Gesetztseyn macht, da&#223; der Gegensatz, von dem vorhin der Anfang gemacht wurde und der das Unmittelbare war, die nur gesetzte, bestimmte Selbstst&#228;ndigkeit des Wesens ist, und da&#223; er nur das sich an ihm selbst Aufhebende, das Wesen aber das in seiner Bestimmtheit in sich Reflektirte ist. Das Wesen schlie&#223;t als Grund sich von sich selbst aus, es setzt sich; sein Gesetztseyn,&#8212;welches das Ausgeschlossene ist,&#8212;ist nur als Gesetztseyn, als Identit&#228;t des Negativen mit sich selbst. Die&#223; Selbstst&#228;ndige ist das Negative, gesetzt als Negatives; ein sich selbst Widersprechendes, das daher unmittelbar im Wesen als seinem Grunde bleibt.
 
 > &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posits itself; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
+
 
 
 > {#945} &#167;945 Der aufgel&#246;ste Widerspruch ist also der Grund,
@@ -2862,15 +2868,18 @@ Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have
 * {#LawvereComo} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_, 1991
  
 
-* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
-  {#LawvereLauterEinsen}
+* {#LawvereLauterEinsen} [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
 
-* [[William Lawvere]] _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
- {#LawvereMotion}
+* {#Lawvere94b} [[William Lawvere]], _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
+pages 43-56, 1994.  
+
+* {#LawvereMotion} [[William Lawvere]] _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+ 
+* {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_ in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
 
 Related commentary is in 
 
-* [[Andrei Rodin]], section 4.8 of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478))
+* {#Rodin14} [[Andrei Rodin]], section 5.8 _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478)), Springer 1914
 
 Discussion of formalization of the topics of the "subjective logic" within [[type theory]] include
 
