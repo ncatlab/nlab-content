@@ -119,7 +119,7 @@ $$
     \\
     && \Omega^{n}(X)/\Omega^n(X)_{\mathbb{Z}} && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
     \\
-    & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
+    & \nearrow && \searrow^{\mathrlap{a}} && {}^{\mathllap{F_{(-)}}}\nearrow && \searrow
     \\
     H^{n}(X, \mathbb{R})
     && &&
@@ -127,9 +127,9 @@ $$
     && &&
     H^{n+1}(X,\mathbb{R})
     \\
-    & \searrow && \nearrow && \searrow && \nearrow
+    & \searrow && \nearrow && \searrow^{\mathrlap{DD}} && \nearrow
     \\
-    && H^{n}(X,U(1)) && \underset{}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+    && H^{n}(X,U(1)) && \underset{\beta}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
     \\
     & \nearrow && && &&  \searrow 
     \\
@@ -144,7 +144,7 @@ $$
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
     \\
-    && geometric\;bundles\;with\;flat\;connection && \underset{comparison/regulator\;map}{\longrightarrow} && shape\;of\;bundle
+    && geometric\;bundles\;with\;flat\;connection && \underset{Bockstein\,homomorphism}{\longrightarrow} && shape\;of\;bundle
   }
 $$
 
@@ -556,7 +556,7 @@ in degree $n$.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_prop #TwoEquivalentModelsForFlatBnU1}
 ###### Proposition
 
 For $(\flat \mathbf{B}^n U(1))_\bullet$ as in def. \ref{FlatBnU1},
@@ -595,7 +595,7 @@ is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth}.
 +-- {: .proof}
 ###### Proof
 
-By the [[Poincaré Lemma]]. This _is_ the Poincar&#233; Lemma.
+By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
 
 =--
 
@@ -610,18 +610,28 @@ By the [[Poincaré Lemma]]. This _is_ the Poincar&#233; Lemma.
 We discuss the construction of two canonical morphisms out of Deligne cohomology,
 and two canonical morphisms into it. Below in ... these are shown to form two interlocking [[exact sequences]] and in fact an exact [[differential cohomology hexagon]] which accurately characterizes Deligne cohomology as the [[differential cohomology]] extension of integral [[ordinary cohomology]] by [[differential forms]].
 
-+-- {: .num_defn}
+Throughout, for ease of notation, we assume $n \in \mathbb{N}$ to be positive, 
+
+$$
+  n \geq 1
+  \,.
+$$
+
+The remaining case $n = 0$ describes "circle 0-bundles with connection", which are just $U(1)$-valued functions, and is hence essentially trivial in itself.
+
+In the following $X$ is any [[smooth manifold]].
+
++-- {: .num_defn #UnderlyingBundleMap}
 ###### Definition
 
-
-Let $(\mathbf{B}^{n+1}\mathbb{Z})_\bullet in Ch_+(Smooth0Type)$
+Let $(\mathbf{B}^{n+1}\mathbb{Z})_\bullet \in Ch_+(Smooth0Type)$
 be as in example \ref{DeloopingsOfAbelianSheaf}. Write 
 
 $$
   (\mathbf{B}^n U(1)_{conn})_{\bullet}
   \stackrel{\simeq}{\longleftarrow}
-  \longrightarrow
-  \mathbf{B}^{n+1} \mathbb{Z}_{\bullet}
+  \stackrel{DD_\bullet}{\longrightarrow}
+  (\mathbf{B}^{n+1} \mathbb{Z})_{\bullet}
 $$
 
 for the [[zig-zag]] of chain complexes where the left 
@@ -686,7 +696,7 @@ $$
   \array{
      H^{n+1}_{conn}(X,\mathbb{Z})
      \\
-     & \searrow
+     & \searrow^{\mathrlap{DD}}
      \\
      && H^{n+1}(X,\mathbb{Z})
   }
@@ -694,9 +704,13 @@ $$
 
 from Deligne cohomology to [[ordinary cohomology]] with [[integer]] [[coefficients]] in degree $n+1$.
 
+For $[\nabla] \in H^{n+1}_{conn}(X,\mathbb{Z})$ 
+we call $DD(\nabla) \in H^{n+1}(X,\mathbb{Z})$  
+the [[Dixmier-Douady class]] of the _underlying [[circle n-bundle]]_.
+
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CurvatureMap}
 ###### Definition
 
 Write
@@ -755,49 +769,70 @@ $$
   \array{
      && \Omega^{n+1}_{cl}(X)
      \\
-     & \nearrow 
+     & {}^{\mathllap{F_{(-)}}}\nearrow 
      \\
      H^{n+1}_{conn}(X,\mathbb{Z})
   }
 $$
 
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-Let
-
+We call this the _[[curvature]] map_, i.e. for 
+$[\nabla] \in H^{n+1}_{conn}(X,\mathbb{Z})$ 
+the class of a Deligne cocycle, we call
 
 $$
-  \mathbf{\Omega}^{n}/im(\mathbf{d})
+  F_\nabla \in \Omega^{n+1}_{cl}(X)
+$$
+
+its _[[curvature form]]_.
+
+=--
+
++-- {: .num_defn #InclusionOfGloballyDefinedConnectionForms}
+###### Definition
+
+Consider the [[zig-zag]] 
+
+$$
+  \mathbf{\Omega}^n/im(\mathbf{d})
   \stackrel{\simeq}{\longleftarrow}
   \stackrel{}{\longrightarrow}
   (\mathbf{B}^n U(1)_{conn})_\bullet
 $$
 
-be the [[zig-zag]] of morphisms given by the [[chain maps]]
+given by the [[chain maps]]
 
 $$
   \array{
-    0 
-    &\to&
-    0
-    &\to&
-    \cdots
-    &\to&
-    0
-    &\to&
-    \mathbf{\Omega}^n/im(\mathbf{d})
+    0 &\to& 0 &\stackrel{}{\to}& 0 &\stackrel{}{\to}& \cdots &\stackrel{}{\to}& 0
+   &\stackrel{}{\to}& \mathbf{\Omega}^n/im(\mathbf{d})
     \\
-    \uparrow && \uparrow^{\mathrm{id}}  && \cdots && \uparrow^{\mathrm{id}}
+    \uparrow && \uparrow && \uparrow^{\mathrm{id}}  
+    && \cdots && \uparrow^{\mathrm{id}} && \uparrow^{\mathrm{id}}
     \\
-    0 &\to& \mathbf{\Omega}^1 &\stackrel{\mathbf{d}}{\to}& \cdots &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
+    0 &\to& \mathbb{R} &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1 &\stackrel{\mathbf{d}}{\to}& \cdots &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
     \\
-    \downarrow && \downarrow^{\mathrm{id}}  && \cdots && \downarrow^{\mathrm{id}}
+    \downarrow && \downarrow && \downarrow^{\mathrm{id}}  
+    && \cdots && \downarrow^{\mathrm{id}} && \downarrow^{\mathrm{id}}
     \\
-    U(1) 
+    \mathbb{Z}
+    &\hookrightarrow&
+    \mathbb{R}
+     &\stackrel{\mathbf{d}}{\to}& 
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n-1}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^n
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrm{id}}  
+    && \cdots && \downarrow^{\mathrm{id}} && \downarrow^{\mathrm{id}}
+    \\
+    0
+    &\to&
+    U(1)
      &\stackrel{\mathbf{d}log}{\to}& 
     \mathbf{\Omega}^1
     &\stackrel{\mathbf{d}}{\to}&
@@ -809,8 +844,10 @@ $$
   }
 $$
 
+where the bottom [[quasi-isomorphism]] is from remark  \ref{RModZResolutionOfU1DeligneComplex} and the top one is a quasi-iso by 
+the [[Poincaré lemma]], as in prop. \ref{TwoEquivalentModelsForFlatBnU1}.
 
-After passing to [[abelian sheaf cohomology]] this give a morphism 
+On passing to [[abelian sheaf cohomology]] this gives a morphism 
 
 $$
   \array{
@@ -818,12 +855,167 @@ $$
     \\
     & \searrow
     \\
-    && H^{n+1}_{conn}(X,}mathbb{Z})
+    && H^{n+1}_{conn}(X,\mathbb{Z})
   }
 $$
 
 =--
 
++-- {: .num_defn #InclusionOfFlatConnections}
+###### Definition
+
+Consider the canonical morphism
+
+$$
+  (\flat \mathbf{B}^n U(1))_\bullet
+  \stackrel{\simeq}{\longrightarrow}
+  (\mathbf{B}^n U(1)_{flat})_\bullet
+  \longrightarrow
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+$$
+
+via def. \ref{FlatSmoothDeligneComplex}, 
+prop. \ref{TwoEquivalentModelsForFlatBnU1}.
+
+Passing to [[abelian sheaf cohomology]] this induces
+a morphism
+
+$$
+  \array{
+    && H^{n+1}_{conn}(X,\mathbb{Z})
+    \\
+    & \nearrow
+    \\
+    H^n(X,U(1))
+  }
+$$
+
+We call this map the _inclusion of the [[flat infinity-connections]]_
+into all [[circle n-connections]].
+
+=--
+
+Combining what we have so far:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[composition|composite]] of the morphisms
+of def. \ref{InclusionOfGloballyDefinedConnectionForms} and of the curvature morphism of def. \ref{CurvatureMap}
+
+$$
+  \array{
+    \Omega^n(X)/im(\mathbf{d}) && \stackrel{\mathbf{d}}{\longrightarrow} &&
+    \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \nearrow_{\mathrlap{F_{(-)}}}
+    \\
+    && H^{n+1}_{conn}(X,\mathbb{Z})
+  }
+$$
+
+is given by the de Rham differential $\mathbf{d}$ on differential forms.
+
+The composite of the morphisms of def. \ref{InclusionOfFlatConnections}
+and def. \ref{UnderlyingBundleMap} is
+the [[Bockstein homomorphism]]:
+
+$$
+  \array{
+    && H^{n+1}_{conn}(X,\mathbb{Z})
+    \\
+    & \nearrow && \searrow^{\mathrlap{DD}}
+    \\
+    H^n(X,U(1))
+    &&
+     \underset{\beta}{\longrightarrow}
+    &&
+    H^{n+1}(X,\mathbb{Z})
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By composing the defining zig-zags of [[chain maps]]
+the statement is immediate. 
+
+=--
+
+### The exact sequences for curvature and DD-class
+
+We discuss how the Deligne [[cohomology groups]]
+$H^{n+1}_{conn}(X,\mathbb{Z})$
+constitute a [[group extension]] 
+
+1. of integral [[ordinary cohomology]] by differential $n$-forms modula integral forms;
+
+1. of closed $(n+1)$-forms by $U(1)$-valued ordinary cohomology.
+
++-- {: .num_pro}
+###### Proposition
+
+There are [[short exact sequences]]: the 
+
+**curvature exact sequence**
+
+$$  
+  0
+  \to
+  H^n(X,U(1))
+  \longrightarrow
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \stackrel{F_{(-)}}{\longrightarrow}
+  \Omega^{n+1}_{int}(X)
+  \to 0
+$$
+
+and the **characteristic class exact sequence**
+
+$$
+  0
+  \to
+  \Omega^{n}(X)/Omega^n_{int}(X)
+  \stackrel{}{\longrightarrow}
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \stackrel{DD}{\longrightarrow}
+  H^{n+1}(X,\mathbb{Z})
+  \to 0
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[chain map]] that represents the [[Dixmier-Douady class]]
+by def. \ref{UnderlyingBundleMap} is manifestly 
+a fibration in the sense of def. \ref{FibrantOnjectStructureOnChSmooth}.
+Therefore its ordinary [[fiber]] is already its [[homotopy fiber]].
+That ordinary fiber is evidently the domain of the morphism
+constructed in def. \ref{InclusionOfGloballyDefinedConnectionForms},
+in its second weakly equivalent incarnation as displayed there.
+
+Therefore the [[long exact sequence in homology]], induced by 
+the [[chain map]] $DD_\bullet$ goes as
+
+$$
+  \cdots
+  \longrightarrow
+  H^n(X,\mathbb{Z})
+  \longrightarrow
+  \Omega^n(X)/im(\mathbf{d})
+  \stackrel{}{\longrightarrow}
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \stackrel{DD}{\longrightarrow}
+  H^{n+1}(X,\mathbb{Z})
+$$
+
+Form the above it follows that the rightmost morphism is an [[epimorphism]]. Hence we get a short exact sequence by dividing out the image of $H^n(X,\mathbb{Z})$ in $\Omega^n/im(\mathbf{d})$. That image is $\Omega^n_{int}(X)$. Since this includes $im(\mathbf{d})$ the resulting quotient is $\Omega^n(X)/Omega^n_{in}(X)$ and the claim follows.
+
+=--
 
 ### The exact differential cohomology hexagon
 
@@ -943,6 +1135,7 @@ One useful statement is: given an [[smooth scheme|smooth]] [[algebraic variety]]
 As described in some detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[?ech cohomology|?ech]]--Deligne cocycle, i.e. a [[?ech cohomology|?ech cocycle]] representative with values in the Deligne complex.
 
 * Degree 2 Deligne cohomology classifies $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]]. The Deligne complex $\bar \mathbf{B}U(1)$ in this case coincides with the [[groupoid of Lie-algebra valued forms]] for the Lie algebra of $U(1)$.
+
 
   * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[?ech cohomology|?ech]]--Deligne cohomology from physical input.
 
