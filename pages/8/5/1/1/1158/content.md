@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 =--
 =--
 
@@ -117,7 +121,7 @@ $$
     \\
     & \searrow && && &&  \nearrow 
     \\
-    && \Omega^{n}(X)/\Omega^n(X)_{\mathbb{Z}} && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
+    && \Omega^{n}(X)/\Omega^n_{int}(X) && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
     \\
     & \nearrow && \searrow^{\mathrlap{a}} && {}^{\mathllap{F_{(-)}}}\nearrow && \searrow
     \\
@@ -162,7 +166,7 @@ More generally one considers any [[discrete group]] $A$ and inclusion $A \hookri
 ### In smooth differential geometry
  {#DefinitionInSmooth}
 
-For definiteness we consider here the Deligne complex in the smooth differential geometric context. Most variants work directly analogously, but it may be useful to have a specific case in hand.
+For definiteness we consider here in detail the Deligne complex in the smooth differential geometric context. Most variants work directly analogously, but it may be useful to have a specific case in hand.
 
 +-- {: .num_defn #Smooth0Types}
 ###### Definition
@@ -247,7 +251,10 @@ $$
 
 =--
 
+
 In the background, what plays a role for the following is the full [[cohesive (∞,1)-topos|cohesive]] [[homotopy theory]] of [[smooth ∞-groupoids]]. This receives a map from the following coarse [[homotopy theory]] of [[chain complexes]] of [[abelian sheaves]], which is all that is necessary for the present purpose.
+
+
 
 +-- {: .num_defn #FibrantOnjectStructureOnChSmooth}
 ###### Definition
@@ -272,7 +279,7 @@ Regard this as equipped with the structure of a [[category of fibrant objects]] 
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #HomotopyFibersViaFactorizationLemma}
 ###### Remark
 
 For our purpose the main use of this structure is to compute [[homotopy fibers]] via the [[factorization lemma]]. Namely 
@@ -299,13 +306,15 @@ of that point. Similarly for epimorphisms.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #HomotopyPullbacksPreservedbyInclusionIntoAllSmoothHomotopyTypes}
 ###### Remark
 
 There is a canonical map of [[homotopy theories]] from $Ch_+(Smooth0Type)$ to the full [[(∞,1)-topos]] [[Smooth∞Grpd]] which is given by applying the [[Dold-Kan correspondence]] followed by [[∞-stackification]]. The key point is that this map preserves [[homotopy fiber products]], which is the [[universal construction]] that already captures most of the relevant properties of the Deligne complex. In this way it is sufficient to concentrate on $Ch_+(Smooth0Type)$ for much of the theory.
 
 
+
 =--
+
 
 When writing out the components of chain complexes we will use square brackets always denote the group in degree-0 to the far right, and the group in degree $k$ being $k$ steps to the left from that.
 
@@ -332,27 +341,126 @@ for the [[chain complex]] of sheaves concentrated on $A$ in degree $n$.
 
 Under addition of differential forms, the sheaves $\mathbf{\Omega}^k$ of example \ref{SheavesOfFormsAndDeRhamDifferential} becomes [[abelian sheaves]], and we will implicitly understand them this way now.
 
-+-- {: .num_example}
-###### Example
 
-Write $(\flat_{dR}\mathbf{B}^n \mathbb{R})_\bullet \in Ch(Smooth0Type)$ for the complex of sheaves given by the [[de Rham complex]] truncated as follows:
++-- {: .num_defn #DeRhamResolutionOfConstantFunctions}
+###### Definition
+
+Write $\widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet \in Ch(Smooth0Type)$ for the complex of sheaves given by the truncated [[de Rham complex]]:
 
 $$
-  (\flat_{dR}\mathbf{B}^n \mathbb{R})_\bullet
+  \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
   \coloneqq
   \left[
+    \mathbb{R}
+    \stackrel{\mathbf{d}}{\to}
     \mathbf{\Omega}^1
     \stackrel{\mathbf{d}}{\to}
     \mathbf{\Omega}^2
     \stackrel{\mathbf{d}}{\to}
-    \cdots
+    \cdots    
     \stackrel{\mathbf{d}}{\to}
-    \mathbf{\Omega}^n_{cl}
+    \mathbf{\Omega}^{n+1}_{cl}
   \right]
   \,.
 $$
 
 =--
+
++-- {: .num_prop #TheDeRhamResolutionOfConstantFunctions}
+###### Proposition
+
+The morphism
+
+$$
+  (\flat \mathbf{B}^{n+1}\mathbb{R})_\bullet
+  \longrightarrow
+  \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+$$
+
+given by the canonical [[chain map]]
+
+$$
+  \array{
+    \flat \mathbb{R}
+    &\stackrel{}{\to}&
+    0
+    &\stackrel{}{\to}&
+    0
+    &\stackrel{}{\to}&
+    \cdots    
+    &\stackrel{}{\to}&
+    0
+    \\
+    \downarrow && \downarrow && \downarrow && \cdots
+    && \downarrow
+    \\
+    \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^2
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots    
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n+1}_{cl}
+  }
+$$
+
+is a weak equivalence in the sense of def. \ref{FibrantOnjectStructureOnChSmooth}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
+
+=--
+
++-- {: .num_remark #DeRhamTheorem}
+###### Remark
+
+Passing to [[abelian sheaf cohomology]],
+then prop. \ref{TheDeRhamResolutionOfConstantFunctions}
+is the [[de Rham theorem]].
+
+=--
+
+We will have need to give names to truncations of the de Rham complex. One is this:
+
++-- {: .num_defn #TruncatedDeRham}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  \mathbf{\Omega}^{\bullet \leq n} \in Ch_+(Smooth0Type)
+$$
+
+for the [[chain complex]] of the form
+
+$$
+  \mathbf{\Omega}^{\bullet \leq n}
+  \coloneqq
+  \left[
+     \mathbb{R}
+     \stackrel{\mathbf{d}}{\to}
+     \mathbf{\Omega}^1 
+     \stackrel{\mathbf{d}}{\to}
+     \cdots
+     \stackrel{\mathbf{d}}{\to}
+     \mathbf{\Omega}^{n-1}
+     \stackrel{\mathbf{d}}{\to}
+     \mathbf{\Omega}^{n}
+  \right]
+$$
+
+with all $n$-forms, not just the closed ones, in degree 0.
+
+
+=--
+
+
 
 +-- {: .num_example #LogDiffInSmoothContext}
 ###### Example
@@ -617,7 +725,7 @@ By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
 
 ## Properties
 
-### Characteristic maps out of and into Deligne cohomology
+### Curvature and characteristic classes
  {#CharacteristicMaps}
 
 We discuss the construction of two canonical morphisms out of Deligne cohomology,
@@ -729,6 +837,8 @@ the [[Dixmier-Douady class]] of the _underlying [[circle n-bundle]]_.
 Write
 
 $$
+  (F_{(-)})_\bullet
+  \colon
   (\mathbf{B}^n U(1)_{conn})_\bullet
   \stackrel{}{\longrightarrow}
   \mathbf{\Omega}^{n+1}_{cl}
@@ -806,22 +916,16 @@ its _[[curvature form]]_.
 Consider the [[zig-zag]] 
 
 $$
-  \mathbf{\Omega}^n/im(\mathbf{d})
-  \stackrel{\simeq}{\longleftarrow}
+  \mathbf{\Omega}^{\bullet\leq n}  
   \stackrel{}{\longrightarrow}
   (\mathbf{B}^n U(1)_{conn})_\bullet
 $$
 
+out of the complex of def. \ref{TruncatedDeRham},
 given by the [[chain maps]]
 
 $$
   \array{
-    0 &\to& 0 &\stackrel{}{\to}& 0 &\stackrel{}{\to}& \cdots &\stackrel{}{\to}& 0
-   &\stackrel{}{\to}& \mathbf{\Omega}^n/im(\mathbf{d})
-    \\
-    \uparrow && \uparrow && \uparrow^{\mathrm{id}}  
-    && \cdots && \uparrow^{\mathrm{id}} && \uparrow^{\mathrm{id}}
-    \\
     0 &\to& \mathbb{R} &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1 &\stackrel{\mathbf{d}}{\to}& \cdots &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
     \\
@@ -857,8 +961,7 @@ $$
   }
 $$
 
-where the bottom [[quasi-isomorphism]] is from remark  \ref{RModZResolutionOfU1DeligneComplex} and the top one is a quasi-iso by 
-the [[Poincaré lemma]], as in prop. \ref{TwoEquivalentModelsForFlatBnU1}.
+where the bottom [[quasi-isomorphism]] is from remark  \ref{RModZResolutionOfU1DeligneComplex}.
 
 On passing to [[abelian sheaf cohomology]] this gives a morphism 
 
@@ -910,7 +1013,7 @@ into all [[circle n-connections]].
 
 Combining what we have so far:
 
-+-- {: .num_prop}
++-- {: .num_prop #BocksteinHomomorphism}
 ###### Proposition
 
 The [[composition|composite]] of the morphisms
@@ -957,15 +1060,358 @@ the statement is immediate.
 
 =--
 
-### The exact sequences for curvature and DD-class
+### The Chern character 
+ {#TheChernCharacter}
+
+While the explicit definition of the Deligne complex 
+in def. \ref{TheSmoothDeligneComplex} is easy enough, all its 
+good abstract properties are best understood by realizing that it is the [[homotopy fiber product]] of a kind of higher abelian [[Chern character]] map with the closed differential forms $\mathbf{\Omega}^{n+1}_{cl}$. This is the content of prop. \ref{HomotopyFiberProductCharacterization} below.
+
++-- {: .num_defn #ChernCharacterMap}
+###### Definition
+
+Write
+
+$$
+  ch_\bullet
+   \colon
+  (\mathbf{B}^{n+1}\mathbb{Z})_\bullet
+  \longrightarrow
+  (\flat \mathbf{B}^{n+1}\mathbb{R})_\bullet
+$$
+
+for the morphism given as the composite
+
+$$
+  (\mathbf{B}^{n+1}\mathbb{Z})_\bullet
+  =
+  (\flat \mathbf{B}^{n+1}\mathbb{Z})_\bullet
+  \longrightarrow
+  (\flat \mathbf{B}^{n+1}\mathbb{R})_\bullet
+$$
+
+where the second morphism is induced by the canonical inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$.
+
+Passing to [[abelian sheaf cohomology]] this induces a morphism
+
+$$
+  \array{
+    && H^{n+1}(X,\mathbb{R})
+    \\
+    & \nearrow_{\mathrlap{ch}}
+    \\
+    H^{n+1}(X,\mathbb{Z})
+  }
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The morphism in def. \ref{ChernCharacterMap} 
+is just the traditional map from [[ordinary cohomology]] with [[integer]] coefficients to that with [[real numbers]] coefficients given for instance via [[singular cohomology]] simply by forming the [[tensor product of abelian groups]] with $\mathbb{R}$. In the broader context of [[differential cohomology]] however it is useful to think of this map as the _[[Chern character]]_, whence the notation.
+
+While this is easy enough to construct in itself, 
+the underlying [[chain map]] here is not a fibration in the 
+sense of def. \ref{FibrantOnjectStructureOnChSmooth} (having as non-trivial component the inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$, which is evidently not an epimorphism). But the [[homotopy fiber]] of this map plays a crucial role in the theory, and so in view of remark \ref{HomotopyFibersViaFactorizationLemma} we consider now a fibration [[resolution]] of this map
+
+=--
 
 
-+-- {: .num_prop #CurvatureAndClassShortExactSequences}
++-- {: .num_defn #DifferentialResolutionOfIntegralCoefficients}
+###### Definition
+
+Consider the chain complex
+
+$$
+  \widehat {(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+  \coloneqq
+  \left[
+  \array{
+    \mathbb{Z} &\stackrel{}{\hookrightarrow}& \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1  &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
+    \\
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \cdots
+    &\nearrow_{\mathrlap{id}}&
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \\
+    \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^2 &\underset{\mathbf{d}}{\to}& \cdots
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n}
+    &&
+  }
+  \right]
+$$
+
+where we use [[matrix calculus]]-notation as for [[mapping cones]] 
+(see at _[mapping cone -- Examples -- In chain complexes](mapping+cone#InChainComplexes)_).
+
+Write
+
+$$
+  \widehat {(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+  \stackrel{\widehat{ch}_\bullet}{\longrightarrow}
+  \widehat {(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+$$
+
+for the morphism to the chain complex of  def. \ref{DeRhamResolutionOfConstantFunctions} which is given by the chain map that 
+in positive degree projects onto the lower row in the above [[direct sum]] expression and in degree 0 is given by the de Rham differential:
+
+$$
+  \array{
+    \mathbb{Z} &\stackrel{}{\hookrightarrow}& \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1  
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}& 
+    \mathbf{\Omega}^{n-1}
+    &\stackrel{\mathbf{d}}{\to}& 
+    \mathbf{\Omega}^n
+    \\
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \cdots
+    &\nearrow_{\mathrlap{id}}&
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \\
+    \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^2 &\underset{\mathbf{d}}{\to}& \cdots
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n}
+    &&
+    \\
+    \downarrow && \downarrow && \downarrow && \cdots 
+    && \downarrow && \downarrow^{\mathrlap{\mathbf{d}}}
+    \\
+    \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^2
+    &\stackrel{\mathbf{d}}{\to}&  
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}& 
+    \mathbf{\Omega}^{n}
+    &\stackrel{\mathbf{d}}{\to}& 
+    \mathbf{\Omega}^{n+1}
+  }
+$$ 
+
+Finally write
+
+$$
+  (\mathbf{B}^{n+1}\mathbb{Z})_\bullet
+  \longrightarrow
+  \widehat {(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+$$
+
+for the morphism given by the chain map which in degree $n+1$ is given by 
+
+$$
+  \mathbb{Z} \to \mathbb{Z} \oplus \mathbb{R}
+$$
+
+$$  
+  n \mapsto (n,-n)
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #ChernCharacterResolution}
+###### Lemma
+
+The construction in def. \ref{DifferentialResolutionOfIntegralCoefficients}
+gives a fibration resolution of the 
+Chern character morphism of def. \ref{ChernCharacterMap}
+in that it gives a [[commuting diagram]] of [[chain maps]]
+
+$$
+  \array{
+    (\mathbf{B}^{n+1}\mathbb{Z})_\bullet
+    &\stackrel{ch_\bullet}{\longrightarrow}&
+    (\flat\mathbf{B}^{n+1} \mathbb{R})_\bullet
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \widehat {(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+    &\stackrel{\widehat {ch}_\bullet}{\longrightarrow}&
+    \widehat {(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+  }
+$$
+
+with, on the right, the weak equivalence of prop. \ref{TheDeRhamResolutionOfConstantFunctions}, where
+
+1. the left vertical morphism is a weak equivalence;
+
+1. the bottom horizontal morphism $\widehat{ch}_\bullet$ is a fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the diagram commutes is a straightforward inspection, unwinding the definitions. That $\widehat{ch}_\bullet$ is a fibration according to def. \ref{FibrantOnjectStructureOnChSmooth} is by its very construction, being a [[projection]] in positive degree. That the left morphism is a weak equivalence comes down to the [[Poincaré lemma]], in a slight variant of the simple argument that proves prop. \ref{TheDeRhamResolutionOfConstantFunctions}.
+
+=--
+
++-- {: .num_defn #MapFromClosedFormsToHyperDeRhamCoefficients}
+###### Definition
+
+Write
+
+$$
+  \mathbf{\Omega}^{n+1}_{cl}
+  \stackrel{\iota_\bullet}{\longrightarrow}
+  \widehat{\flat \mathbf{B}^{n+1}\mathbb{R}}_\bullet
+  \stackrel{\simeq}{\longleftarrow}
+  (\flat \mathbf{B}^{n+1}\mathbb{R})_\bullet
+$$
+
+for the [[zig-zag]] whose right morphism
+is the weak equivalence of prop. \ref{TheDeRhamResolutionOfConstantFunctions}
+and whose left morphism is given by the [[chain map]]
+
+$$
+  \array{
+    0 &\to& 0 &\to& \cdots &\to& 0 &\to& \mathbf{\Omega}^{n+1}_{cl}
+    \\
+    \downarrow && \downarrow && \vdots && \downarrow && \downarrow^{\mathrlap{id}}
+    \\
+    \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n+1}_{cl}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #HomotopyFiberProductCharacterization}
 ###### Proposition
 
-There are [[short exact sequences]]: the 
+The chain maps  
 
-**curvature exact sequence**
+* $(F_{(-)})_\bullet$, def. \ref{CurvatureMap};
+
+* $DD_\bullet$, def. \ref{UnderlyingBundleMap};
+
+* $\iota_\bullet$, def. \ref{MapFromClosedFormsToHyperDeRhamCoefficients}
+
+* $\widehat{ch}_\bullet$, def. \ref{DifferentialResolutionOfIntegralCoefficients}
+
+fit into a [[commuting diagram]]
+
+$$
+  \array{
+     && \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     & {}^{\mathllap{(F_{(-)})_\bullet }}\nearrow && \searrow^{\mathrlap{\iota_\bullet}}
+     \\
+     (\mathbf{B}^n U(1)_{conn})_\bullet
+     && && \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+     \\
+     & {}_{\mathllap{DD_\bullet}}\searrow && 
+     \nearrow_{\mathrlap{\widehat{ch}_\bullet}}
+     \\
+     && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+  }
+$$
+
+which is a [[pullback diagram]] in $Ch_+(Smooth0Type)$.
+This exhibits the  Deligne complex $(\mathbf{B}^n U(1)_{conn})_\bullet$
+as the [[homotopy pullback]]
+of the inclusion of $\mathbf{\Omega}^{n+1}_{cl}$
+along the Chern character map $ch_\bullet$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement follows straightforwardly by inspection,
+using that pullbacks of chain complexes are computed componentwise.
+From this the second statement follows then since by 
+\ref{ChernCharacterResolution} $\widehat{ch}_\bullet$ is 
+a fibration resolution of $ch_\bullet$.
+
+=--
+
+
+### The exact sequences for curvature and characteristic classes
+ {#ExactSequenceForCurvatureAndCharacteristicClass}
+
+
++-- {: .num_defn #IntegralDifferentialForms}
+###### Definition
+
+Write
+
+$$
+  \Omega^{n+1}_{int}(X)
+  \hookrightarrow
+  \Omega^{n+1}_{cl}(X)
+$$
+
+for the inclusion of those closed [[differential forms]] whose [[periods]] ([[integration of differential forms|integration]] over $(n+1)$-cycles) takes values in the [[integers]].
+
+=--
+
++-- {: .num_prop #ImageOfCurvatureInIntegralDifferentialForms}
+###### Proposition
+
+The [[image]] of the curvature map 
+$F_{(-)} \colon H^{n+1}_{conn}(X,\mathbb{Z}) \longrightarrow \Omega^{n+1}_{cl}(X)$
+of def. \ref{CurvatureMap} are the integral forms of 
+def. \ref{IntegralDifferentialForms}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[homotopy pullback]] characterization of
+of prop. \ref{HomotopyFiberProductCharacterization} 
+implies that the image consists of precisely those closed differential forms
+which under the [[de Rham theorem]], remark \ref{DeRhamTheorem}, represent
+real cohomology classes that are in the image of integral
+cohomology classes. These are the differential forms
+with integral periods.
+
+=--
+
+
++-- {: .num_prop #CurvatureExactSequence}
+###### Proposition
+**(curvature exact sequence)**
+
+The Deligne cohomology group fits into a [[short exact sequence]] 
+(of [[abelian groups]]) of the form
 
 $$  
   0
@@ -978,7 +1424,57 @@ $$
   \to 0
 $$
 
-and the **characteristic class exact sequence**
+where $F_{(-)}$ is the [[curvature]] map of def. \ref{CurvatureMap}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ImageOfCurvatureInIntegralDifferentialForms} the
+morphism on the right is indeed an epimorphism. 
+It remains to determine its [[kernel]]. 
+
+To that end, consider the [[pasting diagram]] of [[homotopy pullbacks]]
+obtained form the homotopy pullback in 
+prop. \ref{HomotopyFiberProductCharacterization}.
+Using the [[pasting law]] and the fact that 
+the [[loop space object]] of a 
+[[0-truncated]] object such as $\mathbf{\Omega}^{n+1}_{cl}$ is trivial,
+this is of the form
+
+$$
+  \array{
+     0 &\longrightarrow& \widehat{(\flat \mathbf{B}^{n}(\mathbb{R}/\mathbb{Z}))}_\bullet &\longrightarrow& 0
+     \\
+     \downarrow && \downarrow && \downarrow^{}
+     \\
+     0 &\longrightarrow& (\mathbf{B}^n U(1)_{conn})_\bullet
+     &\stackrel{(F_{(-)}_\bullet)}{\longrightarrow}&
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     && \downarrow^{\mathrlap{DD_\bullet}} && \downarrow^{\mathrlap{\iota_\bullet}}
+     \\     
+     && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+     &\stackrel{\widehat{ch}_\bullet}{\longrightarrow}&
+     \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+  }
+  \,.
+$$
+
+Passing to [[abelian sheaf cohomology]]
+and the induced [[long exact sequence in homology]] implies the claim.
+
+=--
+
+
++-- {: .num_prop #CharacteristicClassExactSequence}
+###### Proposition
+**(characteristic class exact sequence)**
+
+The Deligne cohomology group fits into a [[short exact sequence]] 
+(of [[abelian groups]]) of the form
+
 
 $$
   0
@@ -990,6 +1486,9 @@ $$
   H^{n+1}(X,\mathbb{Z})
   \to 0
 $$
+
+where $DD$ is the characteristic class map of
+def. \ref{UnderlyingBundleMap}.
 
 =--
 
@@ -1019,14 +1518,16 @@ $$
   H^{n+1}(X,\mathbb{Z})
 $$
 
-Form the above it follows that the rightmost morphism is an [[epimorphism]]. Hence we get a short exact sequence by dividing out the image of $H^n(X,\mathbb{Z})$ in $\Omega^n/im(\mathbf{d})$. That image is $\Omega^n_{int}(X)$. Since this includes $im(\mathbf{d})$ the resulting quotient is $\Omega^n(X)/Omega^n_{in}(X)$ and the claim follows.
+As in the proof of prop. \ref{ImageOfCurvatureInIntegralDifferentialForms}
+it follows that the rightmost morphism is an [[epimorphism]]. Hence we get a [[short exact sequence]] by dividing out the image of $H^n(X,\mathbb{Z})$ in $\Omega^n/im(\mathbf{d})$. That image is $\Omega^n_{int}(X)$. Since this image contains $im(\mathbf{d})$ (as the closed differential forms all whose periods are $0 \in \mathbb{N}$ ) the resulting quotient is $\Omega^n(X)/Omega^n_{int}(X)$ and the claim follows.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In words the statement of prop. \ref{CurvatureAndClassShortExactSequences}
+In words the statement of prop. \ref{CurvatureExactSequence}
+and prop. \ref{CharacteristicClassExactSequence}
 is that Deligne [[cohomology groups]]
 $H^{n+1}_{conn}(X,\mathbb{Z})$
 constitute a [[group extension]] 
@@ -1037,63 +1538,124 @@ constitute a [[group extension]]
 
 The first statement is what gives the name to "[[differential cohomology]]" as it makes precise how $H^{n+1}_{conn}(X)$ is a combination of ordinary integral cohomology with _[[differential form]]_-data.
 
-The second statement is secretly of the same flavor, if maybe not as manifestly so: the $U(1)$-valued ordinary cohomology is really what classifies _[[flat infinity-connections|flat]]_ [[circle n-connections]] on [[circle n-group]] [[principal infinity-bundles]] (either, depending on perspective, by def. \ref{FlatSmoothDeligneComplex} or else, more intrinsically, by the very statement of prop. \ref{CurvatureAndClassShortExactSequences}) and hence again describes a combination of underlying bundles with differential form data.
+The second statement is secretly of the same flavor, if maybe not as manifestly so: the $U(1)$-valued ordinary cohomology is really what classifies _[[flat infinity-connections|flat]]_ [[circle n-connections]] on [[circle n-group]] [[principal infinity-bundles]] (either, depending on perspective, by def. \ref{FlatSmoothDeligneComplex} or else, more intrinsically, by the very statement of prop. \ref{CurvatureExactSequence}) and hence again describes a combination of underlying bundles with differential form data.
 
 =--
 
-$$
-  \array{
-    \mathbb{Z} &\stackrel{}{\hookrightarrow}& \mathbb{R}
-    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1  &\stackrel{\mathbf{d}}{\to}&
-    \cdots
-    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
-    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
-    \\
-    \oplus 
-    &\nearrow_{\mathrlap{id}}& 
-    \oplus 
-    &\nearrow_{\mathrlap{id}}& 
-    \oplus
-    &\nearrow_{\mathrlap{id}}&
-    \cdots
-    &\nearrow_{\mathrlap{id}}&
-    \oplus
-    &\nearrow_{\mathrlap{id}}&
-    \oplus
-    \\
-    \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
-    &\underset{\mathbf{d}}{\to}&
-    \mathbf{\Omega}^2 &\underset{\mathbf{d}}{\to}& \cdots
-    &\underset{\mathbf{d}}{\to}&
-    \mathbf{\Omega}^{n}
-    &\underset{\mathbf{d}}{\to}&
-    \mathbf{\Omega}^{n+1}_{cl}
-  }
-$$
+
+
 
 
 ### The exact differential cohomology hexagon
+ {#TheExactDifferentialCohomologyHexagon}
 
 
-These two morphisms exhibit Deligne cohomology as a refinement in [[differential cohomology]] of ordinary (i.e. integral [[Eilenberg-MacLane spectrum|Eilenberg-MacLane]]) [[cohomology]], in that the diagram
+Summing up,
+the homotopy  pullback square of prop. \ref{HomotopyFiberProductCharacterization}
+together with the maps of 
+prop. \ref{BocksteinHomomorphism} form a [[commuting diagram]]
+in $Ch_+(Smooth0Type)$ of the form.
 
 $$
   \array{
-    H(X,\bar \mathbf{B}^\bullet U(1))
-    &\stackrel{[F]}{\to}&
-    H^{\bullet+1}_{dR}(X)
-    \\
-    \downarrow^{cl} && \downarrow
-    \\
-    H^{\bullet+1}(X,\mathbb{Z})
-    &\to&
-    H^{\bullet + 1}(X,\mathbb{R})
+     \mathbf{\Omega}^{\bullet \leq n} && 
+     \stackrel{\mathbf{d}}{\longrightarrow} && \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     &\searrow& & {}^{\mathllap{(F_{(-)})_\bullet }}\nearrow && \searrow^{\mathrlap{\iota_\bullet}}
+     \\
+     && (\mathbf{B}^n U(1)_{conn})_\bullet
+     && && \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+     \\
+     &\nearrow& & {}_{\mathllap{DD_\bullet}}\searrow && 
+     \nearrow_{\mathrlap{\widehat{ch}_\bullet}}
+     \\
+     \widehat{(\flat \mathbf{B}^n U(1))}_\bullet
+     && \underset{\beta}{\longrightarrow} && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
   }
 $$
 
-is the cohomology of a homotopy pullback diagram, i.e. satisfies the axioms described at [[differential cohomology]].
++-- {: .num_prop #TheDifferentialHexagonForDeligne}
+###### Proposition
 
+This extends to a diagram in $Ch_+(Smooth0Type)$ of the form
 
+$$
+  \array{
+     && \mathbf{\Omega}^{\bullet \leq n} && 
+     \stackrel{\mathbf{d}}{\longrightarrow} && \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     & \nearrow& &\searrow& & {}^{\mathllap{(F_{(-)})_\bullet }}\nearrow && \searrow^{\mathrlap{\iota_\bullet}}
+     \\
+     \widehat{(\flat \mathbf{B}^n \mathbb{R})}_{\bullet}
+     && && (\mathbf{B}^n U(1)_{conn})_\bullet
+     && && \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+     \\
+     &\searrow & &\nearrow& & {}_{\mathllap{DD_\bullet}}\searrow && 
+     \nearrow_{\mathrlap{\widehat{ch}_\bullet}}
+     \\
+     && \widehat{(\flat \mathbf{B}^n U(1))}_\bullet
+     && \underset{\beta}{\longrightarrow} && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+  }
+$$
+
+such that
+
+1. both square are [[homotopy pullback]] squares;
+
+1. both diagonals are [[homotopy fiber sequences]];
+
+1. the two outer sequences are [[long homotopy fiber sequences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement consider the pasting of homotopy pullback diagrams as in the proof of prop. \ref{CurvatureExactSequence}, now extended to the left,
+via the [[pasting law]], as
+
+$$
+  \array{
+     \widehat{(\flat \mathbf{B}^n \mathbb{R})}_\bullet &\longrightarrow& \widehat{(\flat \mathbf{B}^{n}(\mathbb{R}/\mathbb{Z}))}_\bullet &\longrightarrow& 0
+     \\
+     \downarrow && \downarrow && \downarrow^{}
+     \\
+     \mathbf{\Omega}^{\bullet \leq n}
+     &\longrightarrow& (\mathbf{B}^n U(1)_{conn})_\bullet
+     &\stackrel{(F_{(-)}_\bullet)}{\longrightarrow}&
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     && \downarrow^{\mathrlap{DD_\bullet}} && \downarrow^{\mathrlap{\iota_\bullet}}
+     \\     
+     && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+     &\stackrel{\widehat{ch}_\bullet}{\longrightarrow}&
+     \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+  }
+  \,.
+$$
+
+That the NE-diagonal is a homotopy fiber sequence is the statement in the proof
+of prop. \ref{CurvatureExactSequence}. That the SE-diagonal is a homotopy fiber sequence follows by inspection as remarked in the proof of prop. \rerf{CharacteristicClassExactSequence}.
+
+From this the last statement now is implied by using the [[pasting law]] 
+yet once more, as show in the proof [here](differential+cohomology+diagram#TheDifferentialDiagram).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The form of the exact hexagon characterizing the Deligne 
+complex via prop. \ref{TheDifferentialHexagonForDeligne}
+is in fact a general abstract consequence of the
+fact that all universal constructions in $Ch_+(Smooth0Type)$
+considered here indeed may be understood as
+taking place in the
+[[cohesive (∞,1)-topos|cohesive]] [[homotopy theory]] of [[smooth ∞-groupoids]],
+via remark \ref{HomotopyPullbacksPreservedbyInclusionIntoAllSmoothHomotopyTypes}.
+This is discussed in detail at _[[differential cohomology hexagon]]_.
+
+=--
 
 ### Interpretation in terms of higher parallel transport
 
