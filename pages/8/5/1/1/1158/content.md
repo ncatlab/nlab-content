@@ -185,7 +185,7 @@ for its [[category of sheaves]], also called the [[cohesive topos]] of [[smooth 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RepresentableSheavesAndTheirConstantVersion}
 ###### Example
 
 The assignment $C^\infty(-,\mathbb{R}) \colon \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n,\mathbb{R})$ of [[smooth functions]] with values in the [[real numbers]] is a [[sheaf]]. Since this is [[representable functor|representable]] we are entitled to identify this with the [[smooth manifold]] $\mathbb{R}$ (the [[real line]]) itself, and just write $\mathbb{R} \in Sooth0Type$. 
@@ -203,6 +203,8 @@ $$
 $$ 
 
 is the sheaf sending each test manifold to the set of points in the circle, and each smooth function between Cartesian spaces to the identity function on that set.
+
+
 =--
 
 +-- {: .num_example #SheavesOfFormsAndDeRhamDifferential}
@@ -222,13 +224,26 @@ $$
   \,.
 $$
 
-Its [[kernel]] is the [[subfunctor|sub-sheaf]]
+For positive $k$ its [[kernel]] is the [[subfunctor|sub-sheaf]]
 
 $$
+  0 \to 
   \mathbf{\Omega}^k_{cl} \hookrightarrow \mathbf{\Omega}^k
+  \stackrel{\mathbf{d}}{\longrightarrow}
+  \mathbf{\Omega}^{k+1}
 $$
 
-of closed differential forms.
+of closed differential forms; and for $k = 0$ its kernel is the
+[[subfunctor|sub-sheaf]] of constant functions
+
+$$
+  0 \to
+  \flat \mathbb{R} \hookrightarrow \mathbb{R} 
+  \stackrel{\mathbf{d}}{\longrightarrow}
+  \mathbf{\Omega}^1
+  \,.
+$$
+
 
 =--
 
@@ -282,10 +297,32 @@ There is a canonical map of [[homotopy theories]] from $Ch_+(Smooth0Type)$ to th
 
 When writing out the components of chain complexes we will use square brackets always denote the group in degree-0 to the far right, and the group in degree $k$ being $k$ steps to the left from that.
 
++-- {: .num_example #DeloopingsOfAbelianSheaf}
+###### Example
+
+For $A \in Ab(Smooth0Type) = Sh(CartSp,Ab)$ any [[abelian sheaf]] and for $n \in \mathbb{N}$ we write
+
+$$
+  (\mathbf{B}^n A)_{\bullet}
+  \coloneqq
+  A[-n]
+  =
+  \left[
+     A
+     \to 0 \to \cdots \to 0
+  \right]
+$$
+
+for the [[chain complex]] of sheaves concentrated on $A$ in degree $n$.
+
+
+=--
+
+Under addition of differential forms, the sheaves $\mathbf{\Omega}^k$ of example \ref{SheavesOfFormsAndDeRhamDifferential} becomes [[abelian sheaves]], and we will implicitly understand them this way now.
+
 +-- {: .num_example}
 ###### Example
 
-Under addition of differential forms, the sheaves $\mathbf{\Omega}^k$ of example \ref{SheavesOfFormsAndDeRhamDifferential} becomes [[abelian sheaves]], and we will implicitly understand them this way now.
 Write $(\flat_{dR}\mathbf{B}^n \mathbb{R})_\bullet \in Ch(Smooth0Type)$ for the complex of sheaves given by the [[de Rham complex]] truncated as follows:
 
 $$
@@ -314,8 +351,21 @@ $$
   \left[\mathbb{Z}\to \mathbb{R} \right]
   \stackrel{\simeq}{\longrightarrow}
   U(1)
-  \,.
 $$
+
+given by the [[chain map]]
+
+$$
+  \array{
+     \mathbb{Z} &\hookrightarrow& \mathbb{R}
+     \\
+     \downarrow && \downarrow^{\mathrlap{mod\,\mathbb{Z}}}
+     \\
+     0 &\to& U(1)
+  }
+$$
+
+(which is just the [[exponential sequence]] regarded as a chain map).
 
 The de Rham differential [[extension|extends]] through this equivalence
 to produce a morphism denoted $\mathbf{d} log$:
@@ -337,6 +387,18 @@ representing the function by a smooth $\mathbb{R}$-valued function
 under mod-$\mathbb{Z}$-reduction
 (which is always possible over a [[Cartesian space]]) and applying the 
 de Rham differential to that.
+
+The [[kernel]] of that is the constant sheaf $\flat U(1)$ 
+of example \ref{RepresentableSheavesAndTheirConstantVersion}
+
+$$
+  0 \to
+  \flat U(1) \hookrightarrow U(1)
+  \stackrel{\mathbf{d} log}{\longrightarrow}
+  \mathbf{\Omega}^1
+  \,.
+$$
+
 
 =--
 
@@ -423,171 +485,348 @@ weak equivalences.
 
 =--
 
+Observe that in the above constructions the de Rham complex is truncated to the right by discarding what would be the next differentials, without passing to their [[kernel]]. This simple point is the key aspect of the Deligne complex. If one instead truncates while preserving the chain homology in in the lowest degree, then one obtains the following complex with the sheaf $\mathbf{\Omega}^{n}_{cl}$ of _closed_ forms in lowest degree, which gives [[ordinary cohomology]]:
 
++-- {: .num_defn #FlatSmoothDeligneComplex}
+###### Definition
 
-## Properties
+For $n \in \mathbb{N}$ the **flat smooth Deligne complex** of degree $n$
 
-### Characteristic maps out of and into Deligne cocycles 
+$$
+  (\mathbf{B}^n U(1)_{flat})_\bullet
+  \in 
+  Ch_+(Smooth0Type)
+$$
 
+is the [[chain complex]] of [[abelian sheaves]] given by
 
-There are two natural morphisms of abelian [[cohomology groups]] out of Deligne cohomology:
+$$
+  (\mathbf{B}^n U(1)_{flat})_\bullet
+  \;
+   \coloneqq
+  \;
+  \left[
+    U(1) \stackrel{\mathbf{d} log}{\to}
+    \mathbf{\Omega}^1
+    \stackrel{\mathbf{d}}{\to} 
+     \cdots 
+    \stackrel{\mathbf{d}}{\to}
+    \mathbf{\Omega}^n_{cl}
+  \right]
+$$
 
-+-- {: .num_defn}
+with $U(1)$ in degree $n$ and with the differentials as
+in def. \ref{SheavesOfFormsAndDeRhamDifferential} and example \ref{LogDiffInSmoothContext}, and with the _closed_ $n$-forms
+on the right.
+
+=--
+
++-- {: .num_defn #FlatBnU1}
 ###### Definition
 
 Write 
 
 $$
-  (\mathbf{B}^{n+1} \mathbb{Z})_{\bullet}
-  \coloneqq
+  (\flat\mathbf{B}^n U(1))_\bullet
+  =
+  (\mathbf{B}^n \flat U(1))_\bullet
+  \in 
+  Ch_+(Smooth0Type)
+$$
+
+for the [[chain complex]] of [[abelian sheaves]] given by
+
+$$
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+  \;
+   \coloneqq
+  \;
   \left[
-     \mathbb{Z}
-     \to 0 \to \cdots \to 0
+    \flat U(1) \stackrel{}{\to}
+    0
+    \stackrel{}{\to} 
+     \cdots 
+    \stackrel{}{\to}
+    0
   \right]
 $$
 
-for the [[chain complex]] concentrated on the [[integers]], regarded as a [[constant sheaf]], in degree $(n+1)$.
-
-Write 
-
-$$
-  (\mathbf{B}}^n U(1)_{conn})_{\bullet}
-  \stackrel{\simeq}{\longleftarrow}
-  \longrightarrow
-  \mathbf{B}^n \mathbb{Z}_{\bullet}
-$$
-
-for the [[zig-zag]] of chain complexes where the left 
-weak equivalence is that  of remark \ref{RModZResolutionOfU1DeligneComplex}.
+with the constant sheaf $\flat U(1)$ of example \ref{RepresentableSheavesAndTheirConstantVersion} 
+in degree $n$.
 
 =--
 
-on [[abelian sheaf cohomology]] this gives a morphism
++-- {: .num_defn}
+###### Proposition
+
+For $(\flat \mathbf{B}^n U(1))_\bullet$ as in def. \ref{FlatBnU1},
+then the morphism 
 
 $$
-  H^{n+1}_{conn}(X,\mathbb{Z})
+  (\flat \mathbf{B}^n U(1))_\bullet
+  \stackrel{\simeq}{\longrightarrow}
+  (\mathbf{B}^n U(1)_{flat})_\bullet
+$$
+
+given by the [[chain map]]
+
+$$
+  \array{
+    \flat U(1) &\to& 0 &\to& \cdots &\to& 0
+    \\
+    \downarrow && \downarrow  && \cdots && \downarrow 
+    \\
+    U(1) 
+     &\stackrel{\mathbf{d}log}{\to}& 
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^n_{cl}
+  }
+$$
+
+(with the vertical morphism on the left being the 
+inclusion of example \ref{LogDiffInSmoothContext}) 
+is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Poincaré Lemma]]. This _is_ the Poincar&#233; Lemma.
+
+=--
+
+
+
+
+## Properties
+
+### Characteristic maps out of and into Deligne cohomology
+ {#CharacteristicMaps}
+
+We discuss the construction of two canonical morphisms out of Deligne cohomology,
+and two canonical morphisms into it. Below in ... these are shown to form two interlocking [[exact sequences]] and in fact an exact [[differential cohomology hexagon]] which accurately characterizes Deligne cohomology as the [[differential cohomology]] extension of integral [[ordinary cohomology]] by [[differential forms]].
+
++-- {: .num_defn}
+###### Definition
+
+
+Let $(\mathbf{B}^{n+1}\mathbb{Z})_\bullet in Ch_+(Smooth0Type)$
+be as in example \ref{DeloopingsOfAbelianSheaf}. Write 
+
+$$
+  (\mathbf{B}^n U(1)_{conn})_{\bullet}
+  \stackrel{\simeq}{\longleftarrow}
   \longrightarrow
-  H^{n+1}(X,\mathbb{Z})
+  \mathbf{B}^{n+1} \mathbb{Z}_{\bullet}
 $$
 
+for the [[zig-zag]] of chain complexes where the left 
+weak equivalence is that  of remark \ref{RModZResolutionOfU1DeligneComplex}, i.e. for the [[chain maps]] given by
 
 $$
   \array{
-    C^\infty(-,\mathbb{Z})    
-    &\hookrightarrow&
-    C^\infty(-,\mathbb{R}) 
-      &\stackrel{d }{\to}&
-     \Omega^1(-) 
-     &\stackrel{d}{\to}& 
-       \cdots 
-     &\stackrel{d}{\to}&
-     \Omega^n(-)
-    \\
-    \downarrow^{Id}
-    &&
-    \downarrow^{0}
-    &&
-    \downarrow^{0}
-    &&
-    &&
-    \downarrow^{0}
-    \\
-    C^\infty(-, \mathbb{Z})
-    &\to&
-    0 
-      &\to&
-     0
-     &\to& 
-       \cdots 
+     \mathbb{Z} 
      &\to&
-     0  }
+     0
+     &\to&
+     0
+     &\to&
+     \cdots  
+     &\to&
+     0
+     \\
+     \uparrow^{\mathrlap{id}}
+     &&
+     \uparrow^{\mathrlap{}}
+     &&
+     \uparrow^{\mathrlap{}}
+     &&
+     \cdots
+     &&
+     \uparrow^{\mathrlap{}}   
+     \\
+     \mathbb{Z}
+     &\hookrightarrow&
+     \mathbb{R}
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^1
+     &\stackrel{\mathbf{d}}{\to}&
+     \cdots
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^n
+     \\
+     \downarrow^{\mathrlap{0}}
+     &&
+     \downarrow^{\mathrlap{mod\,\mathbb{Z}}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \cdots
+     &&
+     \downarrow^{\mathrlap{id}}
+     \\
+     0 &\to&
+     U(1)
+     &\stackrel{\mathbf{d} log}{\to}&
+     \mathbf{\Omega}^1
+     &\stackrel{\mathbf{d}}{\to}&
+     \cdots
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^n
+  }
 $$
 
-
-* the map to the underlying non-differential cocycle, the class of the underlying [[principal infinity-bundle]]:
-
- $$
-  cl
-  \colon
-  H(X,\bar \mathbf{B}^n U(1))
-  \to 
-  H(X,\mathbf{B}^n U(1))
-  \simeq
-  H(X, \mathbf{B}^{n+1} \mathbb{Z})
-  \simeq
-  H^{n+1}(X,\mathbb{Z})
- $$
-
-
-These are induced from the canonical morphisms of coefficient objects
-
-
-
-and
-
-* the map to the curvature characteristic class
-
-$$
-  [F]
-  :
-  H(X,\bar \mathbf{B}^n U(1))
-  \to 
-  H_{dR}^{n+1}(X)
-  \,.
-$$
-
-
-$$
-  \bar \mathbf{B}^n U(1) \simeq
-  \mathbb{Z}(n+1)_D^\infty
-  \to 
-  (\Omega^0(-)
-   \stackrel{d}{\to}
-   \Omega^1(-)
-   \stackrel{d}{\to}
-   \cdots
-   \stackrel{d}{\to}
-   \Omega^{n+1}(-)
-  )
-$$
-
-given by
+Passing to [[abelian sheaf cohomology]] this gives a morphism
 
 $$
   \array{
-    C^\infty(-,\mathbb{Z})    
-    &\hookrightarrow&
-    C^\infty(-,\mathbb{R}) 
-      &\stackrel{d }{\to}&
-     \Omega^1(-) 
-     &\stackrel{d}{\to}& 
-       \cdots 
-     &\stackrel{d}{\to}&
-     \Omega^n(-)
-    \\
-    \downarrow^{0}
-    &&
-    \downarrow^d
-    &&
-    \downarrow^d
-    &&
-    &&
-    \downarrow^d
-    \\
-    C^\infty(-,\mathbb{R}) 
-     &\stackrel{d}{\to}&
-      \Omega^1(-)
-     &\stackrel{d}{\to}& 
-      \Omega^2(-)
-     &\stackrel{d}{\to}& 
-       \cdots 
-     &\stackrel{d}{\to}&
-     \Omega^{n+1}(-)
-}
+     H^{n+1}_{conn}(X,\mathbb{Z})
+     \\
+     & \searrow
+     \\
+     && H^{n+1}(X,\mathbb{Z})
+  }
 $$
 
-+-- {: .num_theorem }
-###### Theorem
+from Deligne cohomology to [[ordinary cohomology]] with [[integer]] [[coefficients]] in degree $n+1$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+  \stackrel{}{\longrightarrow}
+  \mathbf{\Omega}^{n+1}_{cl}
+$$
+
+for the morphism given by the chain map which is just the
+de Rham differential in degree 0
+
+$$
+  \array{
+     0 &\to&
+     U(1)
+     &\stackrel{\mathbf{d} log}{\to}&
+     \mathbf{\Omega}^1
+     &\stackrel{\mathbf{d}}{\to}&
+     \cdots
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^{n-1}
+     &\stackrel{\mathbf{d}}{\to}&
+     \mathbf{\Omega}^n
+     \\
+     \downarrow
+     &&
+     \downarrow
+     &&
+     \downarrow
+     &&
+     \cdots
+     &&
+     \downarrow^{\mathrlap{}}
+     &&
+     \downarrow^{\mathrlap{\mathbf{d}}}
+     \\
+     0 
+     &\to&
+     0
+     &\to&
+     0
+     &\to&
+     \cdots
+     &\stackrel{}{\to}&
+     0
+     &\to&
+     \mathbf{\Omega}^{n+1}_{cl}     
+  }
+$$
+
+Passing to [[abelian sheaf cohomology]] this gives a morphism of the form
+
+$$
+  \array{
+     && \Omega^{n+1}_{cl}(X)
+     \\
+     & \nearrow 
+     \\
+     H^{n+1}_{conn}(X,\mathbb{Z})
+  }
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let
+
+
+$$
+  \mathbf{\Omega}^{n}/im(\mathbf{d})
+  \stackrel{\simeq}{\longleftarrow}
+  \stackrel{}{\longrightarrow}
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+$$
+
+be the [[zig-zag]] of morphisms given by the [[chain maps]]
+
+$$
+  \array{
+    0 
+    &\to&
+    0
+    &\to&
+    \cdots
+    &\to&
+    0
+    &\to&
+    \mathbf{\Omega}^n/im(\mathbf{d})
+    \\
+    \uparrow && \uparrow^{\mathrm{id}}  && \cdots && \uparrow^{\mathrm{id}}
+    \\
+    0 &\to& \mathbf{\Omega}^1 &\stackrel{\mathbf{d}}{\to}& \cdots &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
+   &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
+    \\
+    \downarrow && \downarrow^{\mathrm{id}}  && \cdots && \downarrow^{\mathrm{id}}
+    \\
+    U(1) 
+     &\stackrel{\mathbf{d}log}{\to}& 
+    \mathbf{\Omega}^1
+    &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n-1}
+    &\stackrel{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^n
+  }
+$$
+
+
+After passing to [[abelian sheaf cohomology]] this give a morphism 
+
+$$
+  \array{
+    \Omega^n(X)/im(\mathbf{d})
+    \\
+    & \searrow
+    \\
+    && H^{n+1}_{conn}(X,}mathbb{Z})
+  }
+$$
+
+=--
+
+
+### The exact differential cohomology hexagon
+
 
 These two morphisms exhibit Deligne cohomology as a refinement in [[differential cohomology]] of ordinary (i.e. integral [[Eilenberg-MacLane spectrum|Eilenberg-MacLane]]) [[cohomology]], in that the diagram
 
@@ -607,7 +846,6 @@ $$
 
 is the cohomology of a homotopy pullback diagram, i.e. satisfies the axioms described at [[differential cohomology]].
 
-=--
 
 
 ### Interpretation in terms of higher parallel transport
