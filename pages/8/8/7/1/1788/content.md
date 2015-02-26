@@ -1,6 +1,4 @@
 
-| [[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
-|---------------------|----------------|----------------|-----------------------------|
-| [[pseudo-Riemannian geometry]]/[[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1}$ |
-| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
 
+
+hey
