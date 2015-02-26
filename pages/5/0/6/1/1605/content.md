@@ -16,9 +16,11 @@
 
 ## Idea
 
-A **doctrine**, as the word was originally used by [[Jon Beck]], is a [[vertical categorification|categorification]] of a "[[theory]]".  Thus, a doctrine could also reasonably be called a "2-theory."
+The concept of **doctrine**, as the word was originally used by [[Jon Beck]], is a [[vertical categorification|categorification]] of the concept of "[[theory]]".  Thus, a doctrine could also reasonably be called a "2-theory."
 
-Here we are using the word "theory" in a vague non-precise sense.  For instance, there is a theory of [[group]]s, a theory of [[abelian group]]s, a theory of [[commutative ring]]s, and so on.  Likewise, there is a doctrine of [[monoidal categories]], a doctrine of [[cartesian monoidal category|categories with finite product]]s, a doctrine of [[rig category|rig categories]], and so on.
+
+
+Here we are using the word "theory" in a vague non-precise sense.  For instance, there is a theory of [[groups]], a theory of [[abelian group]]s, a theory of [[commutative ring]]s, and so on.  Likewise, there is a doctrine of [[monoidal categories]], a doctrine of [[cartesian monoidal category|categories with finite product]]s, a doctrine of [[rig category|rig categories]], and so on.
 
 Moreover, just as categories are objects of a 2-category (the categorification of a category), ordinary _theories_ are objects of some _doctrine_.  The doctrine in which a theory lives specifies the structure on categories in which models of that theory can be [[internalization|internalized]].  For instance, the theory of groups lives naturally in the doctrine of categories with finite products, since a [[group object]] can be defined in any such category.  Likewise, the theory of [[monoid]]s lives in the doctrine of monoidal categories, and so on.
 
@@ -59,6 +61,10 @@ The word "doctrine" can also be used to design a particular setting for categori
 
 
 ## References
+
+[[William Lawvere]], [23 Mar 2006](http://www.acsu.buffalo.edu/~wlawvere/Beck%20posting.htm):
+
+>  The word "doctrine" itself is entirely due to [[Jon Beck]] and signifies something which is like a theory, except appropriate to be interpreted in the category of categories, rather than, for example, in the category of sets; of course, an important example of a doctrine is a 2-monad, and among 2-monads there are key examples whose category of "algebras" is actually a category of theories in the set-interpretable sense. Among such "theories of theories", there is a special kind whose study I proposed in that paper. This kind has come to be known as "Kock-Zoeberlein" doctrine in honor of those who first worked out some of the basic properties and ramifications, but the recognition of its probable importance had emerged from those discussions with Jon.
 
 General discussions of the "doctrine" concept:
 
