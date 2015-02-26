@@ -140,15 +140,16 @@ $$
     0 & && && && & 0
     \\
     \\
-    &&  connection\;forms\;on\;trivial\;bundles && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
+    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{de\;Rham\;differential}{\longrightarrow} && 
+   {{curvature} \atop {forms}}
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
     \\
-    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
+    {{flat} \atop {differential\;forms}}  && && {{geometric\;bundles} \atop {with \;connection}} && && {{rationalized} \atop {bundles}}
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
     \\
-    && geometric\;bundles\;with\;flat\;connection && \underset{Bockstein\,homomorphism}{\longrightarrow} && shape\;of\;bundle
+    && {{flat} \atop {connections}} && \underset{Bockstein\,homomorphism}{\longrightarrow} && {{shape} \atop {of\;bundle}}
   }
 $$
 
@@ -196,7 +197,7 @@ The assignment $C^\infty(-,\mathbb{R}) \colon \mathbb{R}^n \mapsto C^\infty(\mat
 
 Similarly for $X$ any other [[smooth manifold]], it represents a sheaf on [[CartSp]] and we just write $X \in Smooth0Type$ for this.
 
-Of particular interest below is the case where $X = S^1 = U(1)$ is the [[circle]], to be regarded as the [[circle group]].
+Of particular interest below is the case where $X = S^1 = \mathbb{R}/\mathbb{Z} = U(1)$ is the [[circle]], to be regarded as the [[circle group]].
 
 Notice that traditionally the sheaf represented by $\mathbb{R}$ or $U(1)$ is indicated by an underline as in $\underline{\mathbb{R}}$ and $\underline{U}(1)$, but we do not follow this tradition here. 
 
@@ -606,7 +607,42 @@ weak equivalences.
 
 =--
 
-Observe that in the above constructions the de Rham complex is truncated to the right by discarding what would be the next differentials, without passing to their [[kernel]]. This simple point is the key aspect of the Deligne complex. If one instead truncates while preserving the chain homology in in the lowest degree, then one obtains the following complex with the sheaf $\mathbf{\Omega}^{n}_{cl}$ of _closed_ forms in lowest degree, which gives [[ordinary cohomology]]:
++-- {: .num_remark #GoodCoverCechCohomologyIsHomotopicallyGood}
+###### Remark
+
+For analyzing the properties of Deligne cohomology [below](#Properties), all one needs is the following fact about [[Cech cohomology]], which is discussed for instance at  _[[infinity-cohesive site]]_:
+
+For $X$ a [[smooth manifold]] (in particular [[paracompact topological space|paracompact]]), 
+
+1. $X$ admits a [[good open cover]] $\{U_i \to X\}$ (by [[charts]] $U_i$ all whose finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]]/[[Cartesian space]] $\mathbb{R}^n$);
+
+1. for any such good open cover the [Cech complex](&#268;ech+cohomology#CechComplex) $C^\bullet((X,\{U_i\}),A_\bullet)$ already computes Cech cohomology (i.e. there is no further need to form the [[colimit]] of Cech complexes over refinements of covers);
+
+1. the functor $C^\bullet((X,\{U_i\}),-) \colon Ch_+(Smooth0Type) \to Ch_+$ preserves weak equivalences and fibrations. 
+
+This means in particular that if $X_\bullet \to Y_\bullet \to Z_\bullet$ is a [[homotopy fiber sequence]] in $Ch_+(Smooth0Type)$, then also 
+
+$$
+  C^\bullet((X,\{U_i\}), X_\bullet) 
+    \to 
+  C^\bullet((X,\{U_i\}), Y_\bullet)
+    \to 
+  C^\bullet((X,\{U_i\}), Z_\bullet)
+$$
+
+is a homotopy fiber sequence of chain complexes, and therefore the [[cohomology groups]] sit in the [[long exact sequence in homology]] of this sequence of chain complexes.
+
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+
+In def. \ref{TheSmoothDeligneComplex} the de Rham complex is truncated to the right by discarding what would be the next differentials, without passing to their [[kernel]], i.e. in degree 0 the Deligne complex has all differential $n$-forms, not just the closed $n$-fomrs. This simple point is the key aspect of the Deligne complex. If one instead truncates while preserving the chain homology in the lowest degree, then one obtains the following complex with the sheaf $\mathbf{\Omega}^{n}_{cl}$ of _closed_ forms in lowest degree, which gives [[ordinary cohomology]].
+
+=--
 
 +-- {: .num_defn #FlatSmoothDeligneComplex}
 ###### Definition
@@ -658,7 +694,7 @@ $$
 for the [[chain complex]] of [[abelian sheaves]] given by
 
 $$
-  (\mathbf{B}^n U(1)_{conn})_\bullet
+  (\flat \mathbf{B}^n U(1))_\bullet
   \;
    \coloneqq
   \;
@@ -716,7 +752,8 @@ is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth}.
 +-- {: .proof}
 ###### Proof
 
-By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
+By the [[Poincaré lemma]], this is just an immediate variant of 
+prop. \ref{TheDeRhamResolutionOfConstantFunctions}.
 
 =--
 
@@ -724,6 +761,7 @@ By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
 
 
 ## Properties
+  {#Properties}
 
 ### Curvature and characteristic classes
  {#CharacteristicMaps}
@@ -1463,7 +1501,7 @@ $$
 $$
 
 Passing to [[abelian sheaf cohomology]]
-and the induced [[long exact sequence in homology]] implies the claim.
+and applying the induced [[long exact sequence in homology]], in view of remark \ref{GoodCoverCechCohomologyIsHomotopicallyGood}, implies the claim.
 
 =--
 
@@ -1504,7 +1542,8 @@ constructed in def. \ref{InclusionOfGloballyDefinedConnectionForms},
 in its second weakly equivalent incarnation as displayed there.
 
 Therefore the [[long exact sequence in homology]], induced by 
-the [[chain map]] $DD_\bullet$ goes as
+the [[chain map]] $DD_\bullet$ under passage to [[abelian sheaf cohomology]]
+(in view of remark \ref{GoodCoverCechCohomologyIsHomotopicallyGood}) goes as
 
 $$
   \cdots
