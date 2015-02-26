@@ -269,18 +269,18 @@ $$
     \\ 
     && &&  &&  && \rho(\Re) & \dashv & \rho(\&)
     \\ 
-    && &&  &&  && \bot & \stackrel{Raumzeit}{} & \bot
+    && &&  &&  && \bot & \stackrel{}{} & \bot
     \\ 
-    && &&  &&  && \rho(\&) &\dashv & \rho(\Im)
+    && &&  &&  &\stackrel{Weichheit}{}& \rho(\&) &\stackrel{Elastizitaet}{\dashv} & \rho(\Im) & \stackrel{Haerte}{}
     \\ 
     && &&  &&  && \vee && \vee
     \\
     Natur &&   &&  && 
-    & \stackrel{Attraktion}{} & \rho(&#643;) &\stackrel{Gravitation}{\dashv}& \rho(\flat) & \stackrel{Repulsion}{}
+    & \stackrel{Attraktion}{} & \rho(&#643;) &\stackrel{Gravitation \atop Kohaesion}{\dashv}& \rho(\flat) & \stackrel{Repulsion}{}
     \\
     && && && && \bot && \bot
     \\
-    && && &&  && \rho(\flat) &\dashv& \rho(\sharp) & 
+    && && && \stackrel{Dichtigkeit}{} && \rho(\flat) &\dashv& \rho(\sharp) & 
     \\
     && && &&&& \vee && \vee 
     \\
@@ -1958,6 +1958,7 @@ It remains to find the name of this [[unity of opposites]]:
 
 So form-content-matter form a [[unity of opposites]].  The exact form of [&#167;990](#990) suggests to take $(form \stackrel{content}{\dashv} matter)$, which however seems a bit awkward. But by [&#167;989](#989) there seems to be some flexibility in these three terms opposing each other, and if we appeal to that and declare that we should put
 
+
 $$
   \array{
      form & &#643; & \stackrel{matter}{\dashv} & \flat & content
@@ -2440,6 +2441,7 @@ see also in [PN&#167;193b](#PN193b), [PN&#167;250](#PN250)
 
 > {#1799} &#167;1799 Now the negativity just considered constitutes the turning point of the movement of the Notion. It is the simple point of the negative relation to self, the innermost source of all activity of all animate and spiritual self-movement, the dialectical soul that everything true possesses and through which alone it is true; for on this subjectivity alone rests the sublating of the opposition between the Notion and reality, and the unity that is truth. The second negative, the negative of the negative, at which we have arrived, is this sublating of the contradiction, but just as little as the contradiction is it an act of external reflection, but rather the innermost, most objective moment of life and spirit through which a subject, a person, a free being, exists.
 
+
 > {#1805} &#167;1805 It is here that the content of cognition as such first enters into the circle of consideration, since, as deduced, it now belongs to the method. The method itself by means of this moment expands itself into a system. At first the beginning had to be, for the method, wholly indeterminate in respect of content; to this extent it appears as the merely formal soul, for and by which the beginning was determined simply and solely in regard to its form, namely, as the immediate and the universal. Through the movement we have indicated, the subject matter has obtained for itself a determinateness that is a content, because the negativity that has withdrawn into simplicity is the sublated form, and as simple determinateness stands over against its development, and first of all over against its very opposition to universality.
 
 > {#1812} &#167;1812 It is in this manner that each step of the advance in the process of further determination, while getting further away from the indeterminate beginning is also getting back nearer to it, and that therefore, what at first sight may appear to be different, the retrogressive grounding of the beginning, and the progressive further determining of it, coincide and are the same. The method, which thus winds itself into a circle, cannot anticipate in a development in time that the beginning is, as such, already something derived; it is sufficient for the beginning in its immediacy that it is simple universality. In being that, it has its complete condition; and there is no need to deprecate the fact that it may only be accepted provisionally and hypothetically. Whatever objections to it might be raised &#8212; say, the limitations of human knowledge, the need to examine critically the instrument of cognition before starting to deal with the subject matter &#8212; are themselves presuppositions, which as concrete determinations involve the demand for their mediation and proof. Since therefore they possess no formal advantage over the beginning with the subject matter against which they protest, but on the contrary themselves require deduction on account of their more concrete content, their claim to prior consideration must be treated as an empty presumption. They have an untrue content, for they convert what we know to be finite and untrue into something incontestable and absolute, namely, a limited cognition determined as form and instrument relatively to its content; this untrue cognition is itself also the form, the process of seeking grounds, that is retrogressive.. The method of truth, too, knows the beginning to be incomplete, because it is a beginning; but at the same time it knows this incompleteness to be a necessity, because truth only comes to be itself through negativity of immediacy.
@@ -2595,13 +2597,78 @@ Notice that before in the Seinslogik, the unity of attraction with repulsion was
 
 See also on _Science of Logic_ the [Comment on the Construction of Matter from the Forces](#ConstructionOfMatterFromTheForces).
 
-#### Mechanik
-
-#### Elementare Physik
 
 > PN&#167;218 Gravity, as the essence of matter existing in itself only inner identity, transforms, since its concept is the essential externality, into the manifestation of the essence. As such it is the totality of the determinations of reflection, but these as thrown apart from each other, so that each appears as particular, qualified matter which, not yet determined as individuality, is a formless element. 
 
-#### Physics of Individuality
+#### Die Physik der allgemeinen Individualit&#228;t
+
+#### Die Physik der besonderen Individualit&#228;t
+
+##### Die spezifische Schwere
+
+> PN&#167;293 {#PN293} Die einfache, abstrakte Spezifikation ist die spezifische Schwere oder Dichtigkeit der Materie, ein Verh&#228;ltnis des Gewichts der Masse zu dem Volumen, wodurch das Materielle als selbstisch sich von dem abstrakten Verh&#228;ltnisse zum Zentralk&#246;rper, der allgemeinen Schwere, losrei&#223;t, aufh&#246;rt, die gleichf&#246;rmige Erf&#252;llung des Raums zu sein, und dem abstrakten Au&#223;ereinander ein spezifisches Insichsein entgegensetzt.
+
+this being the first abstract determination, by comparison with the
+previous stages it should be at the level of $\flat \dashv \sharp$.
+In the Seinslogik this was the, the quantity/cardinality 
+"of points in space", which harmonizes with the suggestion of 
+specific weight.
+
+> &#167;294 Die Dichtigkeit ist nur erst einfache Bestimmtheit der schweren Materie; aber indem die Materie das wesentliche Au&#223;ereinander bleibt, so ist die Formbestimmung weiter eine spezifische Weise der r&#228;umlichen Beziehung ihres Vielfachen aufeinander, - Koh&#228;sion.
+
+##### Die Koh&#228;sion
+
+	
+ 
+
+b. Koh&#228;sion
+
+> PN&#167;295 {#PN295} In der Koh&#228;sion setzt die immanente Form eine andere Weise des r&#228;umlichen Nebeneinanderseins der materiellen Teile, als durch die Richtung der Schwere bestimmt ist. Diese somit spezifische Weise des Zusammenhalts des Materiellen ist erst am Verschiedenen &#252;berhaupt gesetzt, noch nicht zu in sich beschlossener Totalit&#228;t (Gestalt) zur&#252;ckgegangen; sie kommt somit nur gegen gleichfalls verschiedene, und koh&#228;rent verschiedene, Massen zur Erscheinung und zeigt sich daher als eine eigent&#252;mliche Weise des Widerstands im mechanischen Verhalten gegen andere Massen.
+
+[[cohesion]]
+
+> PN&#167;296 {#PN296} Die eigentliche qualitative Koh&#228;sion ist ein Zusammenhalten der homogenen Massen durch immanente, eigent&#252;mliche Form oder Begrenzung, welche sich hier als die abstrakten Dimensionen des Raums expliziert. Die eigent&#252;mliche Gestaltung kann n&#228;mlich keine andere sein als eine Weise bestimmter R&#228;umlichkeit, die der K&#246;rper an sich zeichnet. Denn die Koh&#228;renz ist die Identit&#228;t des K&#246;rpers in seinem Au&#223;ereinander, die qualitative Koh&#228;renz ist also eine bestimmte Weise des Au&#223;ereinanderseins, d. h. eine Raumdetermination. Diese Einheit ist in der individuellen Materie selbst, als ein Zusammenhalten gegen die allgemeine Einheit, welche sie in der Schwere sucht. Die Materie erh&#228;lt jetzt nach vielerlei Seiten eigent&#252;mliche Richtungen in sich selbst, die von der nur vertikalen Richtung der Schwere verschieden sind. Diese Koh&#228;sion, obgleich Individualit&#228;t, ist aber zugleich noch bedingte Individualit&#228;t, weil sie nur durch das Einwirken von anderen K&#246;rpern zum Vorschein kommt; sie ist noch nicht die freie Individualit&#228;t als Gestalt, d. h. noch nicht die Individualit&#228;t als Totalit&#228;t ihrer durch sie gesetzten Formen. Die totale Gestalt n&#228;mlich ist da, mechanisch bestimmt, mit solchen Seiten und Winkeln. Hier aber ist der Charakter der Materie nur erst die innere Gestalt derselben, d. h. eben eine solche, die noch nicht in ihrer Bestimmtheit und Entwicklung da ist. 
+
+> &#167;297 &#947;) Das K&#246;rperliche, gegen dessen Gewalt ein K&#246;rperliches im Nachgeben zugleich seine Eigent&#252;mlichkeit behauptet, ist ein anderes K&#246;rperindividuum. Aber als koh&#228;rent ist der K&#246;rper auch an ihm selbst au&#223;ereinanderseiende Materialit&#228;t, deren Teile, indem das Ganze Gewalt leidet, gegeneinander Gewalt aus&#252;ben und nachgeben, aber als ebenso selbst&#228;ndig die erlittene Negation aufheben und sich herstellen. Das Nachgeben und darin die eigent&#252;mliche Selbsterhaltung nach au&#223;en ist daher unmittelbar verkn&#252;pft mit diesem inneren Nachgeben und Selbsterhalten gegen sich selbst, die Elastizit&#228;t.
+
+> Die Elastizit&#228;t ist die Koh&#228;sion, die sich in der Bewegung darstellt, das Ganze der Koh&#228;sion.  
+
+[[elasticity]]
+
+
+> PN&#167;298 {#PN298} Wenn hier und sonst von materiellen Teilen die Rede ist, so sind nicht Atome, noch Molek&#252;le, d. h. nicht abgesondert f&#252;r sich bestehende zu verstehen, sondern nur quantitativ oder zuf&#228;llig unterschiedene, so da&#223; ihre Kontinuit&#228;t wesentlich von ihrer Unterschiedenheit nicht zu trennen ist; die Elastizit&#228;t ist die Existenz der Dialektik dieser Momente selbst. Der Ort des Materiellen ist sein gleichg&#252;ltiges bestimmtes Bestehen; die Idealit&#228;t dieses Bestehens ist somit die als reelle Einheit gesetzte Kontinuit&#228;t, d. i. da&#223; zwei vorher au&#223;ereinander bestehende materielle Teile, die also als in verschiedenen Orten befindlich vorzustellen sind, jetzt in einem und demselben Orte sich befinden. Es ist dies der Widerspruch, und er existiert hier materiell. Es ist derselbe Widerspruch, welcher der Zenonischen Dialektik der Bewegung zum Grunde liegt, nur da&#223; er bei der Bewegung abstrakte Orte betrifft, hier aber materielle Orte, materielle Teile. In der Bewegung setzt sich der Raum zeitlich und die Zeit r&#228;umlich (&#167; 260); die Bewegung f&#228;llt in die Zenonische Antinomie, die unaufl&#246;slich ist, wenn die Orte als Raumpunkte und die Zeitmomente als Zeitpunkte isoliert werden, und die Aufl&#246;sung der Antinomie, d. i. die Bewegung, ist nur so zu fassen, da&#223; Raum und Zeit in sich kontinuierlich sind und der sich bewegende K&#246;rper in demselben Orte zugleich ist und nicht, d. i. zugleich in einem anderen ist, und ebenso derselbe Zeitpunkt zugleich ist und nicht, d. i. ein anderer zugleich ist.  So ist in der Elastizit&#228;t der materielle Teil, Atom, Molek&#252;l, zugleich als affirmativ seinen Raum einnehmend, bestehend gesetzt, und ebenso zugleich nicht bestehend, - als Quantum, in einem als extensive Gr&#246;&#223;e und als nur intensive Gr&#246;&#223;e. 
+
+Zeno's paradox of motion is what is resolved by modern [[analysis]], by the concept of the [[infinitesimal]], encoded by the [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\Im \dashv \&$
+
+Hence "elasticity is the existence of the dialetic of these moments themselves" points to a [[unity of opposites]]  
+
+$\rho(\Im) \stackrel{Elastizitaet}{\dashv} \rho(\&)$.
+
+> Indem ein K&#246;rper sich im andern setzt und sie jetzt von einer gewissen Dichtigkeit sind, so wird erstens die spezifische Schwere dessen, in dem sich der andere setzt, ver&#228;ndert. Das zweite Moment ist das Widerstandleisten, das Negieren, das sich abstrakt Verhalten; das dritte ist, da&#223; der K&#246;rper reagiert und den ersten von sich abst&#246;&#223;t. Das sind die drei Momente, die als Weichheit, H&#228;rte und Elastizit&#228;t bekannt sind. 
+
+hence we further label this [[unity of opposites]] as
+
+$$
+  \array{
+    Weichheit & \rho(\Im) & \stackrel{Elastizitaet}{\dashv} & \rho(\&) & Haerte
+  }
+$$
+
+
+
+##### Der Klang
+
+> PN&#167;300 {#PN300} Die spezifische Einfachheit der Bestimmtheit, welche der K&#246;rper in der Dichtigkeit und dem Prinzip seiner Koh&#228;sion hat, diese zuerst innerliche Form, hindurchgegangen durch ihr Versenktsein in das materielle Au&#223;ereinander, wird frei in der Negation des f&#252;r sich Bestehens dieses seines Au&#223;ereinanderseins. Es ist dies das &#220;bergehen der materiellen R&#228;umlichkeit in materielle Zeitlichkeit. Damit, da&#223; diese Form so im Erzittern, d. i. durch die momentane ebenso Negation der Teile wie Negation dieser ihrer Negation, die aneinander gebunden eine durch die andere erweckt wird, und so, als ein Oszillieren des Bestehens und der Negation der spezifischen Schwere und Koh&#228;sion, am Materiellen als dessen Idealit&#228;t ist, ist die einfache Form f&#252;r sich existierend und kommt als diese mechanische Seelenhaftigkeit zur Erscheinung.
+
+##### Die W&#228;rme
+
+#### Die Physik der totalen Individualit&#228;t
+
+##### Die Gestalt
+
+##### Die Besonderheit des individuellen K&#246;rpers
+
+##### Der chemische Proze&#223;
 
 ### Die Organik
 
