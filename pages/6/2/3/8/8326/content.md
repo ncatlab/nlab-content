@@ -1506,6 +1506,7 @@ This concept of _Ma&#223;stab_ in [&#167;714](#714) is very explicitly that of _
 
 This aspect is further amplified below in [&#167;725](#725), which states that this choice is the choice of _Einheit_ (unit), i.e. Ma&#223;einheit. Mathematically, indeed, the choice of units is precisely a choice of [[gauge]] as in [[gauge theory]]. See at _[[physical unit]]_ for more on this. By the discussion there (see also at _[[torsor]]_), this is indeed all about ratios, just as stated in [&#167;708](#708) above. 
 
+
 (Observe also that [&#167;709](#709) above said that to develop a theory of measure, hence a theory of gauge, is to develop a "mathematics of nature". Moreover, by [Philosophy of Nature &#167;202](Philosophy+of+Nature#202) "The truly philosophical science of mathematics as theory of magnitude would be the science of measures".)
 
 Therefore by ([&#167;699](#699)) we may label this part of the [Proce&#223;](#Process) as follows:
@@ -2128,7 +2129,9 @@ In any case, by the discussion at _[necessity and possibility -- As modality in 
 
 So by [&#167;1159](#1159) "the absolute (absolute reality)" here translates to the locally Cartesian closed ambient category and by [&#167;816](#816) etc. the reflection here translates to the [[type of types]], so the above would then translate to 
 
-* Substance = ambient locally Cartesian closed category equipped with [[type universe]] and equipped with all the [[adjoint modalities]]
+* Substance = ambient locally Cartesian closed category equipped with [[type universe]], hence the ambient [[(infinity,1)-topos]]
+
+But this is made more precise below in [&#167;1235](#1235) where it is explicit that the unity embodied by _substance_ also includes all the determinations of being, hence and all the [[adjoint modalities]]. So _substance_ is the full [[differential cohesion|differential]] [[cohesive homotopy theory]].
 
 
 
@@ -2170,12 +2173,41 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 
 > {#1235} &#167;1235 Absolute necessity is absolute relation because it is not being as such, but being that is because it is, being as absolute self-mediation. This being is substance; as the final unity of essence and being it is the being in all being; it is neither the unreflected immediate, nor an abstract being standing behind Existence and Appearance, but it is immediate actuality itself and this as absolute reflectedness-into-self, as a subsisting in and for itself. Substance as this unity of being and reflection is essentially the reflective movement [Scheinen] and positedness of itself. The reflective movement is the reflective movement that is self-related, and it is thus that it is; this being is substance as such. Conversely, this being is only the positedness that is identical with itself, and as such it is totality in the form of illusory being, accidentality.
 
-according to [&#167;1287](#1287) this _substance_ is the substance of [[Spinoza's system]]
+
+So
+
+* _substance_ is the unity of being and reflection
+
+recall also the announcement of substance in [&#167;1161](#1161). 
 
 > {#1238} &#167;1238 Substance, as this identity of the reflective movement, is the totality of the whole and embraces accidentality within it, and accidentality is the whole substance itself. 
 
+Since above we identified
 
-Under the above dictionary, the "final unity of essence and being" is the implementation of all the [[adjoint modalities]] in the [[locally Cartesian closed (infinity,1)-category]] with its [[type universe]], hence in the [[(infinity,1)-topos]]. Since this is _substance_, we label in the _[Process](#Process)_ to $\infty$-topos as its own maximal subcategory as "substance".
+1. the logic of being with the system of [[adjoint modalities]] of [[differential cohesion|differential]] [[cohesion]];
+
+1. the logic of essence with the theory of the [[type universe]], hence with the ambient [[homotopy type theory]]/[[(infinity,1)-topos]];
+
+the union of the two is the totality of the whole, the full [[differential cohesion|differential]] [[cohesive homotopy type theory]]/[[cohesive (infinity,1)-topos]].
+
+Therefore we label in the _[Process](#Process)_ the $\infty$-topos as its own maximal subcategory as "substance".
+
+A modern imagery may be suggestive here: consider this [[differential cohesion|differential]] [[cohesive homotopy type theory]] coded (as has partially been done already, see the [cohesive HoTT -- References](http://ncatlab.org/nlab/show/cohesive%20homotopy%20type%20theory#References)) in a [[programming language]] such as [[Coq]]. Then it is a piece of _software_, the modern absolute substance. If one now sets out, as the aim is, to use this as a kind of computer algebra system for reasoning about fundamental physics, then this software is farily literally the _substance_ on which the world, nature, is to be modeled. 
+
+This imagery also seems to be well suited to do away with the notorious issue with whether [[Spinoza's system|Spinoza's substance]] is "material". No, it is not [[matter]] as in the nature which "runs" on it, still, it is in evident sense the substance out of which this nature is formed, but, if one wishes, a substance of a more [[idealism|idealistic]] form that plain matter.
+
+Compare this to the statement of [&#167;1287](#1287) that this _substance_ is the substance of [[Spinoza's system]], which [[Spinoza]] introduces as
+
+> [Per Substantiam Intelligo](Spinoza%27s+system#PerSubstantiamIntelligo)-- By substance I understand what is in itself and is conceived through itself, i.e., that whose concept does not require the concept of another thing, from which it must be formed.
+
+Back in the imagery of a computer algebra software for formalized fundamental physics, this is indeed the situation after the moment of booting the system and seeing the green prompt on an empty black screen. Nothing has been introduced yet on the basis of anything, all we have is the software kernel running, from which now everything is to be formed. In this imagery, Spinoza's 
+
+> [Prop 15](Spinoza%27s+system#Prop15) Whatever is, is in the substance, and nothing can be or be conceived without the substance.
+
+seems clear.
+
+
+
 
 ##### The relation of causality
 
