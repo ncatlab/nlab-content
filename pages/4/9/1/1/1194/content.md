@@ -568,23 +568,34 @@ The following particular type theories are important enough to (potentially) hav
 ## References
  {#References}
 
-The concept of typing in the [[foundations of mathematics]] goes back to 
+The concept of typing in the [[foundations of mathematics]] is implicit in [[Gottlob Frege]]'s work and, inspired by that, appears explicitly for the first time in
 
 * [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910
 
-Original articles on type theory proper in the modern sense ("intuitionistic type theory") include
+and later work by Russell, where it is used to prevent [[paradoxes]] of [[set theory]] such as the [[liar's paradox]] (via a "[[ramified type|ramified hierarchy]]" of types) and [[Russell's paradox]] (via an "extensional hierarchy" of types). This then evolved into the theory of "simple types":
+
+* [[Alonzo Church]], _A Formulation of the Simple Theory of Types_, The Journal of Symbolic Logic Vol. 5, No. 2 (Jun., 1940), pp. 56-68 ([JSTOR](http://www.jstor.org/stable/2266170?seq=1#page_scan_tab_contents))
+
+The introduction of [[identity types]] in "intuitionistic type theory" is due to
 
 * {#MartinLoef74} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
+The development of that to [[homotopy type theory]] followed insights by ([Hofmann-Streicher 98](#HofmannStreicher98)) and others and was laid out in
+
+* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013
+
+A survey of the history of type theory is in 
+
+* Stanford Encyclopedia of Mathematics, _[Type theory](http://plato.stanford.edu/entries/type-theory/)_
+
+Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
+
+Surveys of and introductions to type theory include
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
 
-Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
-
-
-Surveys and introductions include
 
 * {#MartinLoef96} [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
 
@@ -599,9 +610,6 @@ Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
 
   _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) ([ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]])
 
-
-* Stanford Enc. of Philosophy, _[type theory](http://plato.stanford.edu/entries/type-theory)_
-
 * wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
 
 Textbook accounts in from the point of view of [[programming languages]] include
@@ -609,10 +617,6 @@ Textbook accounts in from the point of view of [[programming languages]] include
 * Bengt Nordstr&#246;m, Kent Petersson Jan M. Smith, _Programming in Martin-L&#246;f's type theory_, Oxford University Press 1990 ([pdf](http://www.cse.chalmers.se/research/group/logic/book/book.pdf))
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
-
-A textbook account in the context of [[homotopy type theory]] is in 
-
-* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 Further discussion of type theory in the context of [[programming languages]] includes
@@ -625,15 +629,15 @@ Further discussion of type theory in the context of [[programming languages]] in
 
 Discussion aimed at [[foundations]] include
 
-* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
- {#Taylor99}
+* {#Taylor99} [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
+ 
 
-* [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
- {#Taylor}
+* {#Taylor} [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
+ 
 
-Discussion aimed towards [[homotopy type theory]] includes
+Work leading up to [[homotopy type theory]] includes
 
-* [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_,  in Sambin, Giovanni (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19--21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998) [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_,  in Sambin, Giovanni (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19--21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998) [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
 
 * [[Thomas Streicher]], _Identity Types and Weak Omega-Groupoids_ 2006 [pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/TALKS/uppsala.pdf.gz)
 
@@ -644,8 +648,8 @@ Formalization of parts of [[mathematics]] in type theory is discussed in
 
 for [[homological algebra]]:
 
-* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
- {#CoquandSpiwack}
+* {#CoquandSpiwack} [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
+ 
 
 Thoughts about type theory and [[metaphysics]] are in 
 
