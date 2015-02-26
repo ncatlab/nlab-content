@@ -846,7 +846,7 @@ $$
   }
 $$
 
-where on the the right runs the [[Hodge filtration]],
+where on the right runs the [[Hodge filtration]],
 with the notation $\mathbf{B}^n U(1) = \mathbb{Z}[n+1]_{conn,n}$ as at [[circle n-group]] and  $\mathbf{B}^n U(1)_{conn} = \mathbb{Z}[n+1]_{conn,0}$ as at _[[circle n-bundle with connection]]_.
 
 Hence for all $n \in \mathbb{N}$
@@ -1236,6 +1236,7 @@ _[complex analytic ∞-groupoid -- Properties -- Differential cohomology](comple
 [[!include arithmetic cohesion -- table]]
 
 ## Related concepts
+
 
 * [[intermediate Jacobian]]
 
