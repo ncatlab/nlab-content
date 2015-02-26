@@ -30,11 +30,17 @@ _Generalized Tate spaces_, PhD thesis, Yale 2010 [record](http://gradworks.umi.c
 * [[M. Kapranov]], _Infinite-dimensional objects in algebraic geometry_, Pathways lectures, Keio university 2007,
 real audio videos at [link](http://www.math.hc.keio.ac.jp/coe/videos/kapranov2007)
 * D. Gaitsgory, D. Kazhdan, _Representations of algebraic groups over a 2-dimensional local field_,  GAFA 14 (2004), 535&#8211;574, [math.RT/0302174](http://arxiv.org/abs/math/0302174)
+* D. V. Osipov, A. N. Parshin, _Harmonic analysis on local fields and adelic spaces I_, Izvestiya: Mathematics 2008, 72:5, pp. 915-976 [arxiv/0707.1766](http://arxiv.org/abs/0707.1766)
 
 The following work of Drinfeld does not treat ind-pro-objects (only ind-schemes and some pro-modules over them), but has 
 influenced many of the works above on Tate objects:
 
 * [[Vladimir Drinfeld]], _Infinite-dimensional vector bundles in algebraic geometry: an introduction_, in: The unity of mathematics, 263&#8211;304, Progr. Math., 244, Birkh&#228;user Boston 2006, [math.AG/0309155](http://arxiv.org/abs/math/0309155)
+
+A category $C_1$ somewhat similar to that of Beilinson and Kato, and its higher analogues $C_n$ were studied in
+
+* D.V. Osipov, _Adeles on $n$-dimensional schemes and categories $C_n$_, Intern. J. Math. __18__:3 (2007) 269-279, [math.AG/0509189](http://arxiv.org/abs/math/0509189)
+
 [[!redirects ind-pro-objects]]
 [[!redirects pro-ind-object]]
 [[!redirects pro-ind-objects]]
