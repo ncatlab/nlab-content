@@ -37,7 +37,7 @@ Set-theoretically, the mapping cylinder is usually represented as the [[quotient
 
 As any other pushout, the mapping cylinder has a [[universal property]]: for any space $Z$ and mapping $g_1:X\times I\to Z$, $g_2:Y\to Z$ such that $g_1(x,0)=g_2(f(x))$ for all $x\in X$, there is a unique $k:Cyl(f)\to Z$, such that the composition $X\times I\to Cyl(f)\stackrel{k}\to Z$ equals $g_1$ and the composition $Y\to Cyl(f)\stackrel{k}\to Z$ equals $g_2$.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Let $f:X\to Y$ be any continuous map.
 The canonical map $j:=f_*(\sigma_0):Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. 
@@ -57,17 +57,17 @@ It is easy to see that $H(-,0) = \id_{Cyl(f)}$,
 $H(-,1)=[-,0]=[f(-)]$ hence $j\circ\tilde{f}\sim id_{Cyl(f)}$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 A continuous map $i:A\to X$ is a [[Hurewicz cofibration]] iff there is a [[retraction]] $r:X\times I\to Cyl(f)$ for the canonical map $X\times I \to Cyl(f)$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 A continuous map $f:X\to Y$ is a [[homotopy equivalence]] iff $X = X\times\{0\}$ is a [[deformation retract]] of the cylinder $Cyl(f)$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 For any $f:X\to Y$, the composition 
 
