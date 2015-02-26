@@ -42,7 +42,7 @@ Also related:
 
 There are a number of possible resolutions of Russell's paradox.
 
-* In _[[Principia Mathematica]]_ Russell himself introduced a concept of [[ramified types]] in order to rule ou the paradoxical operations.
+* In _[[Principia Mathematica]]_ Russell himself introduced a concept of ""[[ramified types]] (maybe the earliest [[type theory]]) in order to rule out the paradoxical operations.
 
 * The "[[classical mathematics|classical]]" solution, adopted in [[ZFC]] and thus by most mainstream mathematicians, is to restrict the axiom of [[comprehension]] so as to disallow the formation of the set $R$: one requires that the set being constructed be a subset of some already existing set.  The restricted axiom is usually given a different name such as the [[axiom of separation]].
 
