@@ -805,3 +805,6 @@ Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathe
 [[!redirects (∞,1)-fibers]]
 [[!redirects (∞,1)-fibre]]
 [[!redirects (∞,1)-fibres]]
+
+[[!redirects long homotopy fiber sequence]]
+[[!redirects long homotopy fiber sequences]]
