@@ -124,10 +124,8 @@ Here "restricted" refers to Remark \ref{restrict}. See _[[Puiseux series]]_ for 
 
 * Igor Frenkel, James Lepowsky, and Arne Meurman, _Vertex Operator Algebras and the Monster_, Volume 134 in Pure and Applied Mathematics, Academic Press 1988. 
 {#FLM} 
-
-See also 
-
 * [Doubly Infinite Laurent Series](http://math.rutgers.edu/~sdurst/DILS.html), lectures for formal Laurent series in [[vertex operator algebra]] context 
+* Alexander Zheglov, _Wild division algebras over Laurent series fields_, [math.NT/0503637](http://arxiv.org/abs/math/0503637)
 
 For discussion of products of distributions, see 
 
