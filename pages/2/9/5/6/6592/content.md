@@ -174,5 +174,14 @@ This higher Klein geometry is the local model for the [[higher Cartan geometry]]
 
 [[!include local and global geometry - table]]
 
+## References
+
+That there ought to be a systematic study of [[higher Klein geometry]] and higher Cartan geoemtry has been amplified by [[David Corfield]] since 2006.
+
+Such a formalization is offered in 
+
+* [[schreiber:differential cohomology in a cohesive topos]]
+
+For more on this see at _[[higher Cartan geometry]]_ and _[[schreiber:Higher Cartan Geometry]]_.
 
 [[!redirects higher Klein geometries]]
