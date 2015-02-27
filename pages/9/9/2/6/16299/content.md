@@ -136,3 +136,4 @@ _Everything in Its Right Place: Spinoza and Life by the Light of Nature_, Joseph
 
 [[!redirects Spinozism]]
 [[!redirects Spinozaism]]
+[[!redirects Spinoza's System]] 
