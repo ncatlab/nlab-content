@@ -56,14 +56,9 @@ For a (somewhat random) list of further links see also at "[conceptual mathemati
 Lawvere invented [[categorical logic]] and introduced the eponymous [[Lawvere theories]] as a [[category theory|category-theoretic]] way to describe finitary [[algebraic theories]].  He generalised [[Grothendieck toposes]] to [[elementary toposes]], revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the [[foundation]] in [[structural set theory]] called [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]] as a foundation for [[differential geometry]] and [[equations of motion]] in [[continuum physics]]. Later he introdcued the notion of _[[cohesive topos]]_ as a more general foundation of [[geometry]]. 
 
 
-### Relation to Hegelian ontology
-
-Lawvere's work tends to adopt terminology from  [[Georg Hegel]]'s _[[Science of Logic]]_, for instance in the term "categories of [[being]] and [[becoming]]" for [[cohesive toposes]] in _[[Some Thoughts on the Future of Category Theory]]_ and in the emphasis of the duality between [[intensive and extensive]] in _[[Categories in Continuum Physics]]_.
-
-Indeed, Lawvere essentially proposed that [[Hegel]]'s "[[unity of opposites]]" is usefully formalized by the notion of [[adjoint triples]] inducing [[adjoint pairs]] of [[idempotent monad|idempotent]] ([[comonad|co]]-)[[monads]]. For more on this see at _[Science of Logic -- Formalization of unity of opposites](Science+of+Logic#OppositesAndUnity)_
 
 
-### Motivation from foundations of physics
+### Mathematics relating to Phyiscs
  {#MotivationFromFoundationsOfPhysics}
 
 A central motivation for Lawvere's work is the search for a good  mathematical [[foundations]] of [[physics]], specifically of ([[classical physics|classical]]) [[continuum mechanics]] (or at least some [[kinematics|kinematical]] aspects thereof, Lawvere does not seem to mention [[Hamiltonians]], [[Lagrangians]] or [[action functionals]]).
@@ -122,6 +117,20 @@ The [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere) concludes:
 
 See also at _[[higher category theory and physics]]_ for more on this.
 
+### Mathematics relating to Philosophy
+ {#RelationToPhilosophy}
+
+Lawvere has proposed formalizations in [[category theory]], [[categorical logic]] and [[topos theory]] of concepts which are motivated from [[philosophy]], notably in [[Georg Hegel]]'s _[[Science of Logic]]_ (see there for more). This includes for instance definitions of concepts found there such as: 
+
+* _[[objective and subjective logic]], _[[abstract general]]_, _[[concrete general]]_, _[[concrete particular]]_, _[[unity of opposites]]_, _[[Aufhebung]]]_, _[[being]]_, _[[becoming]]_, _[[space and quantity]]_, _[[cohesion]]_, _[[intensive and extensive quantity]]_ 
+
+(see the references in these entries for pointers).
+
+In ([Lawvere 02](#Lawvere92)) it says:
+
+> It is my belief that in the next decade and in the next century the technical advances forged by category theorists will be of value to dialectical philosophy, lending precise form with disputable mathematical models to ancient philosophical distinctions such as general vs. particular, objective vs. subjective, being vs. becoming, space vs. quantity, equality vs. difference, quantitative vs. qualitative etc. In turn the explicit attention by mathematicians to such philosophical questions is necessary to achieve the goal of making mathematics (and hence other sciences) more widely learnable and useable. Of course this will require that philosophers learn mathematics and that mathematicians learn philosophy.
+
+
 ## Talks, Lecture notes and Publications
 
 The following is a list of texts by Lawvere, equipped with brief comments and hyperlinks to further material on the $n$Lab. See also the 
@@ -179,14 +188,19 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   (on -- implicitly -- [[cohesive topos]]es);
 
-* _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
+* {#Lawvere92} _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
 
-  (on [[space and quantity]])
+  (on [[space and quantity]] and on formalizing concepts from [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]]
 
 
 * _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
   
   (an early version of the notion of [[cohesive topos]]es)
+
+* {#Lawvere94b} _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
+pages 43-56, 1994.
+
+  on formalizing [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]].  
 
 * _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
 
@@ -199,8 +213,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 * _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
 
   (the origin of the concept of [[synthetic differential geometry]])
- j
-s
+ 
 * _[[Comments on the development of topos theory]]_ in Jean-Paul Pier (ed.) _Development of mathematics 1950-2000_, Birkh&#228;user, 2000
 
 * _Metric spaces, generalized logic and closed categories_ Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
