@@ -570,11 +570,19 @@ The following particular type theories are important enough to (potentially) hav
 
 The concept of typing in the [[foundations of mathematics]] is implicit in [[Gottlob Frege]]'s work and, inspired by that, appears explicitly for the first time in
 
-* [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910
+* [[Bertrand Russell]], appendix of _[The principles of mathematics](http://en.wikipedia.org/wiki/The_Principles_of_Mathematics)_ 1903
 
-and later work by Russell, where it is used to prevent [[paradoxes]] of [[set theory]] such as the [[liar's paradox]] (via a "[[ramified type|ramified hierarchy]]" of types) and [[Russell's paradox]] (via an "extensional hierarchy" of types). This then evolved into the theory of "simple types":
+* [[Bertrand Russell]], [[Alfred Whitehead]],  _[[Principia Mathematica]]_, 1910
+
+and later work by Russell, where it is used to prevent [[paradoxes]] of [[set theory]] such as the [[liar's paradox]] (via a "[[ramified type|ramified hierarchy]]" of types) and [[Russell's paradox]] (via an "extensional hierarchy" of types). This then evolved into the "[[simple type theory]]":
+
+* [[Bertrand Russell]], _Mathematical Logic as Based on the Theory of Types_, American Journal of Mathematics, Vol. 30, No. 3 (Jul., 1908), pp. 222-262
 
 * [[Alonzo Church]], _A Formulation of the Simple Theory of Types_, The Journal of Symbolic Logic Vol. 5, No. 2 (Jun., 1940), pp. 56-68 ([JSTOR](http://www.jstor.org/stable/2266170?seq=1#page_scan_tab_contents))
+
+This is reviewed for instance in
+
+* Jean van Heijenoort, _From Frege to G&#246;del_, A Source Book in Mathematical Logic, 1879-1931
 
 The introduction of [[identity types]] in "intuitionistic type theory" is due to
 
