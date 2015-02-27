@@ -42,6 +42,8 @@ A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in 
 
 * [[doctrine of ideas]]
 
+* [[objective logic]]
+
 * [[idealism]]
 
   * objective idealism
