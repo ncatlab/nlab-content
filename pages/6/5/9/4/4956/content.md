@@ -332,6 +332,12 @@ This is the differential of $f$ regarded as a map of tangent bundles.
 
 ## References
 
+Discussion of this history of the concept, with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
+
+* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
+
+
 Discussion of differential forms as functions on infinitesimal simplices is in 
 
 * [[Herman Stel]], _Cosimplicial $C^\infty$ rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
