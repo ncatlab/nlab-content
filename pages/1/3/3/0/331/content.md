@@ -148,6 +148,7 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
+* [[objective and subjective logic]]
 
 ## References
 
