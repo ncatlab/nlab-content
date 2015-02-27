@@ -54,6 +54,12 @@ See also disambiguation entry [[calculus]].
 
 There are many web resources (including wikipedia) for mathematical analysis (this seems to hold also for [[combinatorics]] and [[number theory]], cf. e.g. [Tao's blog](http://terrytao.wordpress.com)).
 
+
+Discussion of the history, amplifying its roots all the way back in [[Zeno's paradoxes of motion]] is in 
+
+* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
+
 ### Constructive analysis
  {#ReferencesConstructiveAnalysis}
 
