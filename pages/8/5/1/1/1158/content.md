@@ -158,16 +158,16 @@ $$
 
 ## Definition
 
-### General
-
 In any context where these symbols make the evident sense, the Deligne complex of degree $(n+1)$ is the [[chain complex]] $\mathcal{O}^\times \stackrel{d log}{\to}\Omega^1 \stackrel{d}{\to} \Omega^2 \to \cdots \to \Omega^n$, and Deligne cohomology in degree $(n+1)$ is the [[abelian sheaf cohomology]] with [[coefficients]] in this complex. 
 
 More generally one considers any [[discrete group]] $A$ and inclusion $A \hookrightarrow \mathcal{O}$ into the [[structure sheaf]], then the corresponding Deligne complex is $A \hookrightarrow \mathcal{O} \stackrel{d}{\to} \Omega^1 \to \cdots \to \Omega^n$.
 
-### In smooth differential geometry
- {#DefinitionInSmooth}
+For definiteness we consider here in detail the Deligne complex in the context of [[differential geometry]] modeled on [[smooth manifolds]]. All variants work essentially directly analogously, but it may be useful to have a specific case in hand.
 
-For definiteness we consider here in detail the Deligne complex in the smooth differential geometric context. Most variants work directly analogously, but it may be useful to have a specific case in hand.
+### Preliminaries on sheaf cohomology
+ {#PreliminariesOnSheafCohomology}
+
+In order to be somewhat self-contained, this section reviews some elements of [[abelian sheaf cohomology]] specified to the context that we need. It also sets up some notation. The definition of the Deligne complex itself is [below](#TheDeligneComplex) in def. \ref{TheSmoothDeligneComplex}.
 
 +-- {: .num_defn #Smooth0Types}
 ###### Definition
@@ -187,6 +187,13 @@ $$
 $$
 
 for its [[category of sheaves]], also called the [[cohesive topos]] of [[smooth spaces]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Instead of the site [[CartSp]] of def. \ref{Smooth0Types} one could use the site [[SmoothMfd]] of all smooth manifolds. All of the statements and constructions in the following go through in that case just as well. In fact [[CartSp]] is a [[dense subsite]] of [[SmoothMfd]]. On the one hand this implies that the [[abelian sheaf cohomology]] is the same for both sites, but on the other hand means that it is convenient to restrict to the much "smaller" site of Cartesian spaces. In fact since the [[stalks]] of sheaves over smooth manifolds are evaluations on small [[open balls]] and since every open ball is [[diffeomorphism|diffeomorphic]] to a Cartesian space, many statements that are true (only) stalkwise over [[SmoothMfd]] are actually true globally over $CartSp$. It is the "[[descent]]" or "[[infinity-stackification]]" which is implicit in abelian sheaf cohomology that takes care of these global statements over [[CartSp]] to translate into the same local statements as one gets over [[SmoothMfd]].
 
 =--
 
@@ -331,6 +338,7 @@ $$
   =
   \left[
      A
+
      \to 0 \to \cdots \to 0
   \right]
 $$
@@ -339,6 +347,69 @@ for the [[chain complex]] of sheaves concentrated on $A$ in degree $n$.
 
 
 =--
+
++-- {: .num_example #LogDiffInSmoothContext}
+
+###### Example
+
+There is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth},
+
+
+$$
+  \left[\mathbb{Z}\to \mathbb{R} \right]
+  \stackrel{\simeq}{\longrightarrow}
+  U(1)
+$$
+
+given by the [[chain map]]
+
+$$
+  \array{
+     \mathbb{Z} &\hookrightarrow& \mathbb{R}
+     \\
+     \downarrow && \downarrow^{\mathrlap{mod\,\mathbb{Z}}}
+     \\
+     0 &\to& U(1)
+  }
+$$
+
+(which is just the [[exponential sequence]] regarded as a chain map).
+
+The de Rham differential [[extension|extends]] through this equivalence
+to produce a morphism denoted $\mathbf{d} log$:
+
+$$
+  \array{
+    (\mathbb{Z} \to \mathbb{R}) &\stackrel{\mathbf{d}}{\longrightarrow}&
+    \mathbf{\Omega}^1
+    \\
+    \downarrow^{\mathrlap{\simeq}} & \nearrow_{\mathrlap{\mathbf{d} log}}
+    \\
+    U(1) 
+    \,.
+  }
+$$
+
+On a given $U(1)$-valued function this is given by
+representing the function by a smooth $\mathbb{R}$-valued function
+under mod-$\mathbb{Z}$-reduction
+(which is always possible over a [[Cartesian space]]) and applying the 
+de Rham differential to that.
+
+The [[kernel]] of that is the constant sheaf $\flat U(1)$ 
+of example \ref{RepresentableSheavesAndTheirConstantVersion}
+
+$$
+  0 \to
+  \flat U(1) \hookrightarrow U(1)
+  \stackrel{\mathbf{d} log}{\longrightarrow}
+  \mathbf{\Omega}^1
+  \,.
+$$
+
+
+=--
+
 
 Under addition of differential forms, the sheaves $\mathbf{\Omega}^k$ of example \ref{SheavesOfFormsAndDeRhamDifferential} becomes [[abelian sheaves]], and we will implicitly understand them this way now.
 
@@ -418,10 +489,155 @@ By the [[Poincaré lemma]]. This _is_ the Poincar&#233; Lemma.
 
 =--
 
-+-- {: .num_remark #DeRhamTheorem}
+Every $A_\bullet \in Ch_+(Smooth0Type)$ serves as the [[coefficients]] for an [[abelian sheaf cohomology]] theory on smooth manifolds. Abelian sheaf cohomology has a general abstract characterization (see at _[[cohomology]]_) in terms of [[derived hom-spaces]]. For definiteness, we recall the model for this construction given by [[Cech cohomology]]
+.
++-- {: .num_defn #CechComplex}
+###### Definition
+**(&#268;ech complex)**
+
+Let $X$ be a [[smooth manifold]] and let $A_\bullet \in Ch_+(Smooth0Type)$ be a sheaf of chain complexes. Let $\{U_i \to X\}$ be a [[good open cover]] of $X$, i.e. an open cover such that each finite non-empty intersection $U_{i_0, \cdots, i_k}$ is [[diffeomorphism|diffeomorphic]] to an [[open ball]]/[[Cartesian space]].
+
+The **&#268;ech cochain complex** $C^\bullet((X,\{U_i\}),A_\bullet)$ 
+of $X$ with respect to the cover $\{U_i \to X\}$ and with [[coefficients]] in $A_\bullet$ is in degree $k \in \mathbb{N}$ given by the [[abelian group]]
+
+$$
+  C_k((X,\{U_i\}),A_\bullet)
+  \coloneqq
+  \oplus_{{l,n} \atop {k = l-n}}
+  \oplus_{i_0, i_1, \cdots, i_n}
+  A_l(U_{i_0, \cdots, i_n})
+$$
+
+
+which is the [[direct sum]] of the values of $A_\bullet$ on the given intersections as indicated; and whose [[differential]] 
+
+$$
+  d
+  \colon
+  C^{k}((X,\{U_i\}),A_\bullet)
+  \longrightarrow
+  C^{k+1}((X,\{U_i\}),A_\bullet)
+$$
+
+is defined componentwise (see at [[matrix calculus]] for conventions on maps between [[direct sums]]) by
+
+$$
+  \begin{aligned}
+    (d a)_{i_0, \cdots, i_{k+1}} 
+    & \coloneqq 
+    (\partial_A + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
+    \\
+    & \coloneqq
+    \partial_A a_{i_0, \cdots, i_{k+1}}
+    +
+    (-1)^k
+    \sum_{0 \leq j \leq k+1} (-1)^{j}
+    a_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_{k+1}} 
+    |_{U_{i_0, \cdots, i_{k+1}}}
+  \end{aligned}
+$$
+
+where on the right the sum is over all components of $a$ obtained via the canonical restrictions obtained by discarding one of the original $(k+1)$ subscripts.
+
+The **Cech cohomology** groups of $X$ with coefficients in $A_\bullet$ __relative to the given cover__ are the [[chain homology]] groups of the Cech complex
+
+$$
+  H_{Cech}^k((X,\{U_i\}), A_\bullet)
+  \coloneqq
+  H^k(C^\bullet((X,\{U_i\}),A_\bullet))
+  \,.
+$$
+
+The **Cech cohomology** groups as such as the [[colimit]] of these groups over refinements of covers
+
+$$
+  H^k_{Cech}(X, A_\bullet)
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_{\{U_i \to X\}}
+  H_{Cech}^k((X,\{U_i\}), A_\bullet)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
 ###### Remark
 
-Passing to [[abelian sheaf cohomology]],
+Often Cech cohomology is considered for the case that $A_\bullet$ is concentrated in a single degree, in which case the first term in the sum defining the differential in def. \ref{CechComplex} disappears. 
+When $A_\bullet$ is not concentrated in a single degree, then for emphasis one sometimes speaks of _[[hypercohomology]]_. This is the case of relevance for Deligne cohomology.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The Cech chain complex in def. \ref{CechComplex} is the [[total complex]] of the [[double complex]] whose vertical differential is that of $A_\bullet$ and whose horizontal differential is the _Cech differential_ $\delta$ given by alternating sums over restrictions along patch inclusions
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \downarrow^{\mathrlap{\partial_A}}
+     &&
+     \downarrow^{\mathrlap{\partial_A}}
+     \\
+     \oplus_i A_1(U_i)
+     &\stackrel{\delta}{\longrightarrow}&
+     \oplus_{i_1, i_2} A_1(U_{i_1, i_2})
+     &\stackrel{\delta}{\longrightarrow}&
+     \cdots
+     \\
+     \downarrow^{\mathrlap{\partial_A}}
+     &&
+     \downarrow^{\mathrlap{\partial_A}}
+     \\
+     \oplus_i A_0(U_i)
+     &\stackrel{\delta}{\longrightarrow}&
+     \oplus_{i_1, i_2} A_0(U_{i_1, i_2})
+     &\stackrel{\delta}{\longrightarrow}&
+     \cdots
+  }
+$$
+
+=--
+
+
++-- {: .num_remark #GoodCoverCechCohomologyIsHomotopicallyGood}
+###### Remark
+
+For analyzing the properties of Deligne cohomology [below](#Properties), all one needs is the following fact about [[Cech cohomology]], which is discussed for instance at  _[[infinity-cohesive site]]_:
+
+For $X$ a [[smooth manifold]] (in particular [[paracompact topological space|paracompact]]), 
+
+1. $X$ admits a [[good open cover]] $\{U_i \to X\}$ (by [[charts]] $U_i$ all whose finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]]/[[Cartesian space]] $\mathbb{R}^n$);
+
+1. for any such good open cover the [Cech complex](&#268;ech+cohomology#CechComplex) $C^\bullet((X,\{U_i\}),A_\bullet)$ already computes Cech cohomology (i.e. there is no further need to form the [[colimit]] of Cech complexes over refinements of covers);
+
+1. the functor $C^\bullet((X,\{U_i\}),-) \colon Ch_+(Smooth0Type) \to Ch_+$ preserves weak equivalences and fibrations. 
+
+This means in particular that if $X_\bullet \to Y_\bullet \to Z_\bullet$ is a [[homotopy fiber sequence]] in $Ch_+(Smooth0Type)$, then also 
+
+$$
+  C^\bullet((X,\{U_i\}), X_\bullet) 
+    \to 
+  C^\bullet((X,\{U_i\}), Y_\bullet)
+    \to 
+  C^\bullet((X,\{U_i\}), Z_\bullet)
+$$
+
+is a homotopy fiber sequence of chain complexes, and therefore the [[cohomology groups]] sit in the [[long exact sequence in homology]] of this sequence of chain complexes.
+
+
+=--
+
+
+
+
++-- {: .num_example #DeRhamTheorem}
+###### Example
+
+Passing to [[abelian sheaf cohomology]] (e.g. via def. \ref{CechComplex}),
 then prop. \ref{TheDeRhamResolutionOfConstantFunctions}
 is the [[de Rham theorem]].
 
@@ -461,70 +677,22 @@ with all $n$-forms, not just the closed ones, in degree 0.
 
 =--
 
-
-
-+-- {: .num_example #LogDiffInSmoothContext}
++-- {: .num_example #CohomologyWithCoefficientsInTruncatedDeRham}
 ###### Example
 
-There is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth},
-
-
-$$
-  \left[\mathbb{Z}\to \mathbb{R} \right]
-  \stackrel{\simeq}{\longrightarrow}
-  U(1)
-$$
-
-given by the [[chain map]]
-
-$$
-  \array{
-     \mathbb{Z} &\hookrightarrow& \mathbb{R}
-     \\
-     \downarrow && \downarrow^{\mathrlap{mod\,\mathbb{Z}}}
-     \\
-     0 &\to& U(1)
-  }
-$$
-
-(which is just the [[exponential sequence]] regarded as a chain map).
-
-The de Rham differential [[extension|extends]] through this equivalence
-to produce a morphism denoted $\mathbf{d} log$:
-
-$$
-  \array{
-    (\mathbb{Z} \to \mathbb{R}) &\stackrel{\mathbf{d}}{\longrightarrow}&
-    \mathbf{\Omega}^1
-    \\
-    \downarrow^{\mathrlap{\simeq}} & \nearrow_{\mathrlap{\mathbf{d} log}}
-    \\
-    U(1) 
-    \,.
-  }
-$$
-
-On a given $U(1)$-valued function this is given by
-representing the function by a smooth $\mathbb{R}$-valued function
-under mod-$\mathbb{Z}$-reduction
-(which is always possible over a [[Cartesian space]]) and applying the 
-de Rham differential to that.
-
-The [[kernel]] of that is the constant sheaf $\flat U(1)$ 
-of example \ref{RepresentableSheavesAndTheirConstantVersion}
-
-$$
-  0 \to
-  \flat U(1) \hookrightarrow U(1)
-  \stackrel{\mathbf{d} log}{\longrightarrow}
-  \mathbf{\Omega}^1
-  \,.
-$$
-
+The [[abelian sheaf cohomology]] of the truncated
+de Rham complex in def. \ref{TruncatedDeRham}
+is $\Omega^n(X)/im(\mathbf{d})$.
 
 =--
 
 
+
+
+
+
+### The Deligne complex
+ {#TheDeligneComplex}
 
 +-- {: .num_defn #TheSmoothDeligneComplex}
 ###### Definition
@@ -607,33 +775,6 @@ weak equivalences.
 
 =--
 
-+-- {: .num_remark #GoodCoverCechCohomologyIsHomotopicallyGood}
-###### Remark
-
-For analyzing the properties of Deligne cohomology [below](#Properties), all one needs is the following fact about [[Cech cohomology]], which is discussed for instance at  _[[infinity-cohesive site]]_:
-
-For $X$ a [[smooth manifold]] (in particular [[paracompact topological space|paracompact]]), 
-
-1. $X$ admits a [[good open cover]] $\{U_i \to X\}$ (by [[charts]] $U_i$ all whose finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]]/[[Cartesian space]] $\mathbb{R}^n$);
-
-1. for any such good open cover the [Cech complex](&#268;ech+cohomology#CechComplex) $C^\bullet((X,\{U_i\}),A_\bullet)$ already computes Cech cohomology (i.e. there is no further need to form the [[colimit]] of Cech complexes over refinements of covers);
-
-1. the functor $C^\bullet((X,\{U_i\}),-) \colon Ch_+(Smooth0Type) \to Ch_+$ preserves weak equivalences and fibrations. 
-
-This means in particular that if $X_\bullet \to Y_\bullet \to Z_\bullet$ is a [[homotopy fiber sequence]] in $Ch_+(Smooth0Type)$, then also 
-
-$$
-  C^\bullet((X,\{U_i\}), X_\bullet) 
-    \to 
-  C^\bullet((X,\{U_i\}), Y_\bullet)
-    \to 
-  C^\bullet((X,\{U_i\}), Z_\bullet)
-$$
-
-is a homotopy fiber sequence of chain complexes, and therefore the [[cohomology groups]] sit in the [[long exact sequence in homology]] of this sequence of chain complexes.
-
-
-=--
 
 
 +-- {: .num_remark}
@@ -757,6 +898,13 @@ prop. \ref{TheDeRhamResolutionOfConstantFunctions}.
 
 =--
 
+### Cup product in Deligne cohomology
+
+The [[cup product]] on [[ordinary cohomology]] refines
+to Deligne cohomology.
+
+For more on this see at _[[Beilinson-Deligne cup-product]]_.
+
 
 
 
@@ -767,7 +915,7 @@ prop. \ref{TheDeRhamResolutionOfConstantFunctions}.
  {#CharacteristicMaps}
 
 We discuss the construction of two canonical morphisms out of Deligne cohomology,
-and two canonical morphisms into it. Below in ... these are shown to form two interlocking [[exact sequences]] and in fact an exact [[differential cohomology hexagon]] which accurately characterizes Deligne cohomology as the [[differential cohomology]] extension of integral [[ordinary cohomology]] by [[differential forms]].
+and two canonical morphisms into it. Below these are shown to form two interlocking [[exact sequences]] and in fact an exact [[differential cohomology hexagon]] which accurately characterizes Deligne cohomology as the [[differential cohomology]] extension of integral [[ordinary cohomology]] by [[differential forms]].
 
 Throughout, for ease of notation, we assume $n \in \mathbb{N}$ to be positive, 
 
@@ -1001,7 +1149,8 @@ $$
 
 where the bottom [[quasi-isomorphism]] is from remark  \ref{RModZResolutionOfU1DeligneComplex}.
 
-On passing to [[abelian sheaf cohomology]] this gives a morphism 
+On passing to [[abelian sheaf cohomology]] this gives, 
+by example \ref{CohomologyWithCoefficientsInTruncatedDeRham}, a morphism 
 
 $$
   \array{
@@ -1174,15 +1323,15 @@ $$
     &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
     \\
     \oplus 
-    &\nearrow_{\mathrlap{id}}& 
+    &\nearrow_{-\mathrlap{id}}& 
     \oplus 
-    &\nearrow_{\mathrlap{id}}& 
+    &\nearrow_{+\mathrlap{id}}& 
     \oplus
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{-\mathrlap{id}}&
     \cdots
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{\pm\mathrlap{id}}&
     \oplus
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{\mp\mathrlap{id}}&
     \\
     \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
     &\underset{\mathbf{d}}{\to}&
@@ -1220,15 +1369,15 @@ $$
     \mathbf{\Omega}^n
     \\
     \oplus 
-    &\nearrow_{\mathrlap{id}}& 
+    &\nearrow_{-\mathrlap{id}}& 
     \oplus 
-    &\nearrow_{\mathrlap{id}}& 
+    &\nearrow_{+\mathrlap{id}}& 
     \oplus
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{-\mathrlap{id}}&
     \cdots
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{\pm\mathrlap{id}}&
     \oplus
-    &\nearrow_{\mathrlap{id}}&
+    &\nearrow_{\mp\mathrlap{id}}&
     \\
     \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
     &\underset{\mathbf{d}}{\to}&
@@ -1269,7 +1418,7 @@ $$
 $$
 
 $$  
-  n \mapsto (n,-n)
+  n \mapsto (n,n)
   \,.
 $$
 
@@ -1674,7 +1823,7 @@ $$
 $$
 
 That the NE-diagonal is a homotopy fiber sequence is the statement in the proof
-of prop. \ref{CurvatureExactSequence}. That the SE-diagonal is a homotopy fiber sequence follows by inspection as remarked in the proof of prop. \rerf{CharacteristicClassExactSequence}.
+of prop. \ref{CurvatureExactSequence}. That the SE-diagonal is a homotopy fiber sequence follows by inspection as remarked in the proof of prop. \ref{CharacteristicClassExactSequence}.
 
 From this the last statement now is implied by using the [[pasting law]] 
 yet once more, as show in the proof [here](differential+cohomology+diagram#TheDifferentialDiagram).
@@ -1696,9 +1845,27 @@ This is discussed in detail at _[[differential cohomology hexagon]]_.
 
 =--
 
+### GAGA
+ {#GAGA}
+
+The Deligne complex is naturally defined in smooth [[differential geometry]] as well as in [[complex analytic geometry]] as well as in [[algebraic geometry]] over the complex numbers. In the spirit of [[GAGA]] it is of interest to know how Deligne cohomology in these different settings relates.
+
+One useful statement is: given an [[smooth scheme|smooth]] [[algebraic variety]] over the [[complex numbers]], then a sufficient condition for a complex-analytic Deligne cocycle over its [[analytification]] to lift to an algebraic Deligne cocycle is that its [[curvature form]] is an [[Kähler form|algebraic form]] ([Esnault 89, corollary 1.3](#Esnault89)). 
+
+
+### Moduli and deformation theory
+
+The [[moduli spaces]] of holomorphic Deligne cohomology groups
+are closely related to [[intermediate Jacobians]], see there fore more.
+
+The [[deformation theory]] of Deligne cohomology groups is given by [[Artin-Mazur formal group]], see there for more
+
+[[!include moduli of higher lines -- table]]
+
+
 ### Interpretation in terms of higher parallel transport
 
-There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth [[higher parallel transport]] [[n-functor]]s. This perspective is helpful for understanding how Deligne cohomology relates to the bigger picture of [[differential cohomology]].
+There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth [[higher parallel transport]] [[n-functors]]. 
 
 We start by discussing this in low degree.
 
@@ -1769,21 +1936,6 @@ For more on this see [[infinity-Chern-Weil theory introduction]].
 For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
 
-
-### Cup product
-
-See [[Beilinson-Deligne cup-product]].
-
-### Moduli and deformation theory
-
-[[!include moduli of higher lines -- table]]
-
-### GAGA
- {#GAGA}
-
-The Deligne complex is naturally defined in smooth [[differential geometry]] as well as in [[complex analytic geometry]] as well as in [[algebraic geometry]] over the complex numbers. In the spirit of [[GAGA]] it is of interest to know how Deligne cohomology in these different settings relates.
-
-One useful statement is: given an [[smooth scheme|smooth]] [[algebraic variety]] over the [[complex numbers]], then a sufficient condition for a complex-analytic Deligne cocycle over its [[analytification]] to lift to an algebraic Deligne cocycle is that its [[curvature form]] is an [[Kähler form|algebraic form]] ([Esnault 89, corollary 1.3](#Esnault89)). 
 
 
 ## Examples 
