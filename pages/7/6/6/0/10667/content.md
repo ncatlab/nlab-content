@@ -11,7 +11,7 @@ either to the geometry as seen either by point spectra of [[spectral theory]] (o
 
 ### Geometry seen by operator spectra
 
-For the notion of [[spectrum of an operator]] spectral geometry is geometry as seen by the spectra of operators, which is geometry as seen by [[spectral triple]] (often inaccurately referred to  "[[noncommutative geometry]]").
+For the notion of [[spectrum of an operator]] spectral geometry is geometry as seen by the spectra of operators ("[[hearing the shape of a drum]]"), which is geometry as seen by [[spectral triples]] (often inaccurately referred to  "[[noncommutative geometry]]").
 
 See also
 
