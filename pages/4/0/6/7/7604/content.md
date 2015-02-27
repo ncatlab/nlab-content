@@ -1,6 +1,14 @@
 
-* [mathematics genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=98613)
+Fran&#231;ois Conduch&#233; was a student of [[Ehresmann]].  
 
-category: people
+* [mathematics genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=98613)
 
-[[!redirects François Conduche]]
+
+####Related pages ####
+
+* [[Conduché functor]]
+
+category:people
+
+[[!redirects F. Conduché]]
+[[!redirects F. Conduche]]
