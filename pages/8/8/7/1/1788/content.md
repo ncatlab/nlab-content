@@ -1,36 +1,3 @@
-$$
-  \array{
-    0 & && && && & 0
-    \\
-    & \searrow && && &&  \nearrow 
-    \\
-    && \Omega^{n}(X)/\Omega^n_{int}(X) && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
-    \\
-    & \nearrow && \searrow^{\mathrlap{a}} && {}^{\mathllap{F_{(-)}}}\nearrow && \searrow
-    \\
-    H^{n}(X, \mathbb{R})
-    && &&
-    H^{n+1}_{conn}(X,\mathbb{Z})
-    && &&
-    H^{n+1}(X,\mathbb{R})
-    \\
-    & \searrow && \nearrow && \searrow^{\mathrlap{DD}} && \nearrow
-    \\
-    && H^{n}(X,U(1)) && \underset{\beta}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
-    \\
-    & \nearrow && && &&  \searrow 
-    \\
-    0 & && && && & 0
-    \\
-    \\
-    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
-    \\
-    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
-    \\
-    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
-    \\
-    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
-    \\
-    && geometric\;bundles\;with\;flat\;connection && \underset{Bockstein\,homomorphism}{\longrightarrow} && shape\;of\;bundle
-  }
-$$
+
+
+$\mp$
