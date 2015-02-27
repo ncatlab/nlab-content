@@ -15,7 +15,7 @@
 
 This page collects material related to 
 
-* [[Bertrand Russell]],
+* [[Bertrand Russell]], [[Alfred Whitehead]]
 
   _Principia Mathematica_
 
