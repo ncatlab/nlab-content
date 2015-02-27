@@ -28,6 +28,10 @@ In order to mark the subject and ideas, the $n$Lab tag [formal calculus](/nlab/l
 
 * [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
 
+Discussion of the history of differential calculus with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
+
+* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
 
 category: disambiguation, analysis, formal calculus
 
