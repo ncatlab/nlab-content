@@ -23,6 +23,8 @@ The notion of _pseudo-Riemannian metric_ is a slight variant of that of _[[Riema
 
 Where a Riemannian metric is governed by a positive-definite [[bilinear form]], a Pseudo-Riemannian metric is governed by an indefinite bilinear form.
 
+This is equivalently the [[Cartan geometry]] modeled on the inclusion of a [[Lorentz group]] into a [[Poincaré group]].
+
 ## Definition
 
 A **pseudo-Riemannian "metric"** is a nondegenerate [[quadratic form]] on a real vector space $\mathbb{R}^n$. A [[Riemannian metric]] is a positive-definite quadratic form on a real vector space. The data of such a quadratic form may be equivalently given by a nondegenerate symmetric bilinear pairing $\langle\, , \, \rangle$ on $\mathbb{R}^n$. 
