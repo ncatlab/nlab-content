@@ -290,9 +290,11 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 ### Traditional
 
-The concept of _dialectical reasoning_ is often attributed to  
+The concept of _dialectical reasoning_ is usually attributed to  
 
 * [[Plato]], second part of the _[[Parmenides dialogue]]_ . 
+
+Hegel in his _[History of Philosophy](https://www.marxists.org/reference/archive/hegel/works/hp/hpeleatics.htm)_ writes that dialectic begins with [[Zeno]] (one of the characters in that dialogue).
 
 This is much amplified and expanded in
  
