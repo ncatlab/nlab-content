@@ -33,6 +33,8 @@ The [[functional determinant]] of Laplace operator on a given space of [[differe
 
 * [[harmonic form]], [[Hodge theory]]
 
+* [[hearing the shape of a drum]]
+
 ## References
 
 Lecture notes include
