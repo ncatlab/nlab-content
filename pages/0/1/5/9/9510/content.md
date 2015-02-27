@@ -101,6 +101,16 @@ The [[limits]] of [[category theory]] are a great generalization of an analogy w
 * [[radius of convergence]]
 
 
+## References
+
+* Wikipedia, _[Limit (mathematics)](http://en.wikipedia.org/wiki/Limit_(mathematics))_
+
+Discussion of this history of the concept, with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
+
+* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
+
+
 category: analysis
 
 [[!redirects convergence]]
