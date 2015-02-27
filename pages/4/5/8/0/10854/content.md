@@ -72,6 +72,8 @@ Lawvere's terminology is probably inspired by
 
 * [[Georg Hegel]], part II "Philosophy of Nature", second section "Physics", B, in _[[Encyclopedia of the Philosophical Sciences]]_
 
+see also at _[[Science of Logic]]_.
+
 
 [[!redirects intensive or extensive]]
 [[!redirects intensive or extensive quantity]]
@@ -91,3 +93,6 @@ Lawvere's terminology is probably inspired by
 [[!redirects extensive]]
 [[!redirects extensive quantity]]
 [[!redirects extensive quantities]]
+
+[[!redirects intensive and extensive quantity]]
+[[!redirects intensive and extensive quantities]]
