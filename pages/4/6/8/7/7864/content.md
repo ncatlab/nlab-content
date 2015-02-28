@@ -1,4 +1,4 @@
 
-* [webpage](http://www.math.northwestern.edu/people/gradStudentProfiles/jesse.wolfson.html)
+* [webpage](https://jpwolfson.wordpress.com/)
 
 category: people
