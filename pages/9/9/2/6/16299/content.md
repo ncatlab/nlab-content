@@ -19,7 +19,7 @@ The [[philosophy|philosophical]] system laid out by [[Baruch Spinoza]]. Titled "
 
 ## Substance
 
-At the heart of Spinoza's system is his concept of _substance_
+At the heart of Spinoza's system is his concept of _[[substance]]_
 
 > {#PerSubstantiamIntelligo} **Ethik, def. 3** Per substantiam intelligo id quod in se est et per se concipitur; hoc est id cuius conceptus non indiget conceptu alterius rei, a quo formari debeat
 
@@ -42,6 +42,7 @@ and states:
 [[Georg Hegel]] in his _[[Science of Logic]]_ claims to describe a system which subsumes Spinoza's, but which refines it by extending it to more fundamental stages. _Hegel's system_ proceeds from (what he calls) stages of determinations of _[[being]]_ to stages of determinations of the _essence_ to culminate in _substance_, "the final unity of essence and being" ([WdL &#167;1235](Science+of+Logic#1235)), which Hegel claims ([WdL &#167;1287](Science+of+Logic#1287)) to be the _substance_ of Spinoza's system.
 
 ## Hegel on Spinoza's system
+ {#HegelOnSpinoza}
 
 From [[Georg Hegel]], _[Lectures on the history of Philosophy --  Spinoza](https://www.marxists.org/reference/archive/hegel/works/hp/hpspinoz.htm)_:
 
