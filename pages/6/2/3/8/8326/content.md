@@ -53,11 +53,15 @@ which in turn subsumes, in outline, the earlier
 
 Together these texts lay out what has come to be called _Hegel's system_ ([&#167;1805](#1805)) (following ([&#167;1287](#1287)) _[[Spinoza's system]]_).  Notice that these texts overlap. The first part of the _[[Encyclopedia of the Philosophical Sciences]]_ , widely known as the  "Shorter Logic", covers the material of the _Science of Logic_ in more condensed but also slightly re-worked form. Similarly the topics of the _Phenomenology of the Spirit_ re-appear in condensed and slightly re-worked form inside the third piece of the Encyclopedia. 
 
-Here the _[[objective logic]]_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _[[subjective logic]]_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Hegel on Heraclitus](#HegelOnHeraclitus), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology+of+Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
+Here the _[[objective logic]]_ is not _[[logic]]_ in the usual sense -- that usual sense of logic Hegel calls instead the _[[subjective logic]]_. The _objective logic_ is rather like the  _[[logos]]_ in the old sense of [[Heraclitus]] ([HistPhil](Heraclitus#HegelHistory1b), [Heidegger 58](#Heidegger58), [Lambek 82](#Lambek82))) or the _[[Nous]]_ in the sense of [[Anaxagoras]] ([&#167;54](#54), [PoS pref. &#167;55](Phenomenology+of+Spirit#Vorrede55)) or _[[metaphysics]]_ ([&#167;85](#85)). 
 
 Hegel's system is meant to be the revelation of a dynamical [[ontology|ontological]] process (a diagram is [below](#Process)) of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the _[[logos (in philosophy)|logos]]_ develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to, roughly, _the Idea_, a kind of absolute of Plato's [[doctrine of ideas]]. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that this process is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([Hegel, Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
+Other philosophical systems Hegel claims are subsumed by and find their place in his more comprehensive system, notably [[Heraclitus]]'s _[[logos (in philosophy)|logos]]_ ([HistPhil](Heraclitus#HegelHistory1b)) and _[[becoming]]_, [[Zeno]]'s and [[Plato]]'s/[[Parmenides]]'s _[[dialectics]]_ ([HistPhil](Zeno#HegelHistory1)), [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287)), [[Plato]]'s [[doctrine of ideas]] as "actualized" by [[Aristotle]] ([HistPhil](doctrine+of+ideas#HegelPerspective)).
+
+
+
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that the _process_ is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([Hegel, Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
 
 In any case, in an ironic meta-contradiction, the harder Hegel tries, by his own account, to make philosophy a _science_, to make it _logical_ and to root it in _observation_, the further he may seem to depart from what is "commonly" understood by these very words.
 
@@ -92,17 +96,8 @@ While going through Hegel's text, this page here attempts to spell out as much a
 
 
 
-
 ## Formalization of the process
  {#FormalizationOfTheProcess}
-
-Hegel famously invokes a process or movement of opposing moments that via their synthesis lead to new phenomena, which then may again participte as opposing moments in a further synthesis. Accordingly the whole text is structured by triads of chapters each with triads of sections, etc. see [Inwood 83, p. 263](#Inwood1983) for a diagram.
-
-Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
-
-> {#HegelOnHeraclitus} [[Heraclitus]] is the one who first declared the nature of the infinite and first grasped nature as in itself infinite, that is, its essence as process. The origin of [[philosophy]] is to be dated from Heraclitus. His is the persistent Idea that is the same in all philosophers up to the present day, as it was the Idea of Plato and Aristotle."
-
-> ... there is no proposition of Heraclitus which I have not adopted in my logic.
 
 
 ### Formalization of Unity of Opposites
@@ -1713,6 +1708,7 @@ This is pretty close to being the proposed definition of _[[elementary (∞,1)-t
 
 
 
+
 ### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself {#WesenAlsReflexionInIhmSelbst}
 
 > {#817} &#167;817 Das Wesen ist erstens Reflexion. Die Reflexion bestimmt sich; ihre Bestimmungen sind ein Gesetztseyn, das zugleich Reflexion in sich ist; es sind
@@ -2211,6 +2207,7 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 #### Das absolute Verh&#228;ltni&#223;
 
 ##### The relation of substantiality
+ {#TheRelationOfSubstantiality}
 
 
 > {#1235} &#167;1235 Absolute necessity is absolute relation because it is not being as such, but being that is because it is, being as absolute self-mediation. This being is substance; as the final unity of essence and being it is the being in all being; it is neither the unreflected immediate, nor an abstract being standing behind Existence and Appearance, but it is immediate actuality itself and this as absolute reflectedness-into-self, as a subsisting in and for itself. Substance as this unity of being and reflection is essentially the reflective movement [Scheinen] and positedness of itself. The reflective movement is the reflective movement that is self-related, and it is thus that it is; this being is substance as such. Conversely, this being is only the positedness that is identical with itself, and as such it is totality in the form of illusory being, accidentality.
