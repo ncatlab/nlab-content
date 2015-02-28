@@ -5,7 +5,7 @@ a category $ind(pro(C))$. Similarly, there is a category
 $pro(ind(C))$ of pro-ind-objects 
 and its iterated versions. For example,
 __higher local fields__ can be considered as ring objects
-in (iterated versions of $pro(ind(C))$).
+in (iterated versions of) $pro(ind(C))$.
 
 Regarding that there is a natural map from colimit of a limit to the limit of a colimit, but in general not the 
 other way around, every ind-pro-object provides a
