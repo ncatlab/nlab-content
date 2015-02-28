@@ -61,7 +61,7 @@ Other philosophical systems Hegel claims are subsumed by and find their place in
 
 
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that the _process_ is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([Hegel, Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  this is to claim that the _process_ is indeed being systematically derived and proven ([[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
 
 In any case, in an ironic meta-contradiction, the harder Hegel tries, by his own account, to make philosophy a _science_, to make it _logical_ and to root it in _observation_, the further he may seem to depart from what is "commonly" understood by these very words.
 
@@ -96,7 +96,7 @@ While going through Hegel's text, this page here attempts to spell out as much a
 
 
 
-## Formalization of the process
+## Formalization in Categorical logic / in  Modal type theory
  {#FormalizationOfTheProcess}
 
 
@@ -155,7 +155,22 @@ This appears below in two stages, first in the Seinslogik at around [&#167;714](
 
 In view of this one may notice that modern [[foundations]] of [[constructive mathematics]] via [[type theory]] and in particular via [[homotopy type theory]] may offer more opportunities like this to give Hegel's intuitions a formalized home or incarnation in a useful way. 
 
-The following table lists proposals for possible such identifications. The content to follow below means to provide for each keyword a commented passages in the _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject to debate. It is however noteworthy that the formalization arrived at is of genuine mathematical interest in itself.
+The following table lists proposals for possible such identifications. The content to follow below means to provide for each keyword commented passages in the _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject to debate. 
+
+Our **paragraph numbering** is as follows:
+
+* for the _Science of Logic_ itself (which has no paragraph numbering in the original), we follow the English translation by Miller as found online at _[Hegel-by-Hyper-Text](https://www.marxists.org/reference/archive/hegel/works/hl/)_;
+
+  **&#167;xyz** for the _Science of Logic_
+
+* for the _Encyclopedia of the Philosophical Sciences_ where the original does have paragraph numbering in the main text, but not in the preface and introduction, we follow the original numbering in the main text (and still need to figure out what to do about the rest);
+
+  **EL&#167;xyz** for the _Shorter Logic_;
+
+  **PN&#167;xyz** for the _Philosophy of Nature_;
+
+  **PG&#167;xyz** for the _Philosophy of the Spirit_
+
 
 +-- {: bluebox #Dictionary}
 ###### The formalization dictionary
@@ -356,7 +371,13 @@ $$
 
 
 
-## **Introduction**
+## **Introduction** and Prefaces
+
+### Vorrede zur ersten Ausgabe / Preface of first edition
+
+> {#3} &#167;3 Indem so die Wissenschaft und der gemeine Menschenverstand sich in die H&#228;nde arbeiteten, den Untergang der Metaphysik zu bewirken, so schien das sonderbare Schauspiel herbeigef&#252;hrt zu werden, ein gebildetes Volk ohne Metaphysik zu sehen, &#8211; wie einen sonst mannigfaltig ausgeschm&#252;ckten Tempel ohne Allerheiligstes. &#8211; Die Theologie, welche in fr&#252;heren Zeiten die Bewahrerin der spekulativen Mysterien und der obzwar abh&#228;ngigen Metaphysik war, hatte diese Wissenschaft gegen Gef&#252;hle, gegen das Praktisch-Popul&#228;re und gelehrte Historische aufgegeben.
+
+> &#167;3 Philosophy [Wissenschaft] and ordinary common sense thus co-operating to bring about the downfall of metaphysics, there was seen the strange spectacle of a cultured nation without metaphysics &#8211; like a temple richly ornamented in other respects but without a holy of holies. Theology, which in former times was the guardian of the speculative mysteries and of metaphysics (although this was subordinate to it) had given up this science in exchange for feelings, for what was popularly matter-of-fact, and for historical erudition.
 
 ### Allgemeiner Begriff der Logik
 
@@ -1247,6 +1268,7 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 {#UnityOfTheOneAndTheMany} **Remark: The unity of the One and the Many**
 
 > {#357} &#167;357 It is an ancient proposition that the one is many and especially that the many are one. We may repeat here the observation that the truth of the one and the many expressed in propositions appears in an inappropriate form, that this truth is to be grasped and expressed only as a becoming, as a process, a repulsion and attraction-not as being, which in a proposition has the character of a stable unity. We have already mentioned and recalled the dialectic of Plato in the [[Parmenides]] concerning the derivation of the many from the one, namely, from the proposition: the one is. The inner dialectic of the Notion has been stated; it is easiest to grasp the dialectic of the proposition, that the many are one, as an external reflection; and it may properly be grasped externally here inasmuch as the object too, the many, are mutually external. It directly follows from this comparison of the many with one another that any one is determined simply like any other one; each is a one, each is one of the many, is by excluding the others &#8212; so that they are absolutely the same, there is present one and only one determination. This is the fact, and all that has to be done is to grasp this simple fact. The only reason why the understanding stubbornly refuses to do so is that it has also in mind, and indeed rightly so, the difference; but the existence of this difference is just as little excluded because of the said fact, as is the certain existence of the said fact in spite of the difference. One could, as it were, comfort understanding for the naive manner in which it grasps the fact of the difference, by assuring it that the difference will 
+
 
 
 ###### b. Das eine Eins der Attraktion
