@@ -50,7 +50,7 @@ Universal localization is much used in algebraic K-theory, algebraic L-theory an
 
 Original articles include
 
-* P. M. Cohn, _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__:5-6, pp. 679&#8211;691, 1973 [doi](http://dx.doi.org/10.1002/cpa.3160260510) 
+* [[P. M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__:5-6, pp. 679&#8211;691, 1973 [doi](http://dx.doi.org/10.1002/cpa.3160260510) 
 
 Reviews and lecture notes include
 
@@ -68,7 +68,7 @@ London Math. Soc. Lecture Notes Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar
 
 One can also look at localization with inverses just from one side:
 
-* P. M. Cohn, _One-sided localization in rings_, J. Pure Appl. Algebra __88__ (1993), no. 1-3, 37&#8211;42 []()
+* [[P. M. Cohn]], _One-sided localization in rings_, J. Pure Appl. Algebra __88__ (1993), no. 1-3, 37&#8211;42 []()
 
 Universal localization of [[group rings]] is discussed in
 
