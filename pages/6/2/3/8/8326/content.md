@@ -1744,7 +1744,14 @@ In summary the formalization dictionary gives fairly accurately that in _Das Weg
 
 This is pretty close to being the proposed definition of _[[elementary (∞,1)-topos]]_, as in ([Shulman 12](elementary+infinity-topos#Shulman12)).
 
+Hence we formalize _Wesen_ by _$\infty$-topos_.
 
+This fits well also with [Phen&#167;760](#Phen760): "der Begriff des Wesens ist die absolute Abstraktion, welche reines Denken ist", "the notion of being is the absolute abstract, which is pure thought"
+
+> {#Phen760} Phen&#167;760  Denn der Begriff des Wesens, erst indem er seine einfache Reinheit erlangt hat, ist er die absolute Abstraktion, welche reines Denken und damit die reine Einzelnheit des Selbsts, so wie um seiner Einfachheit willen das Unmittelbare oder Sein ist. Was das sinnliche Bewu&#223;tsein genannt wird, ist eben diese reine Abstraktion, es ist dies Denken, f&#252;r welches das Sein das Unmittelbare ist.
+
+
+> Phen&#167;760 For only when the notion of Being has reached its simple purity of nature, is it both the absolute abstraction, which is pure thought and hence the pure singleness of self, and immediacy or objective being, on account of its simplicity. What is called sense-consciousness is just this pure abstraction; it is this kind of thought for which being is the immediate.
 
 
 ### Section 1.Das Wesen als Reflexion in ihm selbst. /  Essence as Reflection within Itself {#WesenAlsReflexionInIhmSelbst}
