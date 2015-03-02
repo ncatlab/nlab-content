@@ -42,6 +42,10 @@ Here we construct [[Voevodsky]]'s [[triangulated category]] of mixed motives fol
 
 * [[motive]]
 
+  * mixed motive,
+
+    * [[mixed Tate motive]]
+
   * [[pure motive]], 
 
     * [[Chow motive]], [[numerical motive]]
