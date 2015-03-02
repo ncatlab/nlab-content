@@ -374,8 +374,9 @@ An elementary exposition of in terms of the [[Haskell]] [[programming language]]
 
 The [[equivalence of categories]] between [[first order logic|first order theories]] and [[hyperdoctrines]] is discussed in
 
-* {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r Math. Logik und grundlagen der Math. (1984) ([pdf](http://www.math.mcgill.ca/rags/ZML/ZML.PDF))
+* {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r Math. Logik und Grundlagen der Math. (1984) ([pdf](http://www.math.mcgill.ca/rags/ZML/ZML.PDF))
  
+
 
 A lecture reviewing aspects involved in this equivalence is (see the discussion building up to the theorem on  [slide 96](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
 
