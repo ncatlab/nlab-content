@@ -57,6 +57,7 @@ The classical subfields of mathematical logic are
 * [[proof theory]]
 
 ### Categorical logic
+ {#CategoricalLogic}
 
 By a convergence and unification of concepts that has been named _[[computational trinitarianism]]_, mathematical logic is equivalently incarnated in 
 
