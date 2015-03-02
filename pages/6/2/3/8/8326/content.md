@@ -75,7 +75,7 @@ Other philosophical systems Hegel claims are subsumed by and find their place in
 
 In any case, in an ironic meta-contradiction, the harder Hegel tries, by his own account, to make philosophy a _science_, to make it _logical_ and to root it in _observation_, the further he may seem to depart from what is "commonly" understood by these very words.
 
-Accordingly, after a phase of great popularity in the philosophical community of the 19th century ("[[German idealism]]", [&#167;316](#316)), Hegel's system has variously (see [here](Georg+Hegel#PerceptionOfHegelsPhilosophy) for examples) been rejected and outright ridiculed, famously so by [[Bertrand Russell]] in _[[A History of Western Philosophy]]_, as being obfuscating and in fact nonsensical. Following the lead of Russell, the whole field of _[[analytic philosophy]]_ defined itself -- in what is known as the "[revolt against idealism](http://en.wikipedia.org/wiki/Bertrand_Russell%27s_views_on_philosophy#Analytic_philosophy)" -- to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aimed, in contrast, for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
+Accordingly, after a phase of great popularity in the philosophical community of the 19th century ("[[German idealism]]", [&#167;316](#316)), Hegel's system has variously (see [here](Georg+Hegel#PerceptionOfHegelsPhilosophy) for examples) been rejected and outright ridiculed, famously so by [[Bertrand Russell]] in _[[A History of Western Philosophy]]_, as being obfuscating and in fact nonsensical (e.g. [Carnap 32](http://www.gleichsatz.de/b-u-t/trad/carn1a.html#dies)). Following the lead of Russell, the whole field of _[[analytic philosophy]]_ defined itself -- in what is known as the "[revolt against idealism](http://en.wikipedia.org/wiki/Bertrand_Russell%27s_views_on_philosophy#Analytic_philosophy)" -- to a large extent in opposition to Hegels _[[absolute idealism]]_ (and more generally to "continental philosophy"), and aimed, in contrast, for undisputable clarity of argument, optimally by use of formalized [[predicate logic]]. Indeed Hegel's system clearly defies any attempt to formalize it in predicate logic. Hegel was aware of this, but insisted:
 
 > [&#167;1798](#1798)  formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
@@ -3011,12 +3011,11 @@ The formalization of _Schluss_ by [[natural deduction]] originates in
 
 * {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)  
 
-The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_/_notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original 
+The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_ or _notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original 
 
 * {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
 where it says in section 1.1:
-
 
 > Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
 
