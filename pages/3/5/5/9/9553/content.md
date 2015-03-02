@@ -132,8 +132,6 @@ The generalization to [[Lie groupoids]] is due to
 * [[Jean-Louis Tu]], _The Baum-Connes conjecture for groupoids_, 1999 ([[JLTBaumConnesForGroupoids.pdf:file]])
  {#Tu99}
 
-* Markus Land, _The Analytical Assembly Map and Index Theory_, ([arXiv:1306.5657](http://arxiv.org/abs/1306.5657))
- {#Land13}
 
 Proofs for some cases are in 
 
