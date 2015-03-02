@@ -3,3 +3,6 @@
 
 category: people
 
+[[!redirects Stephen H. Schanuel]] 
+[[!redirects Steve Schanuel]] 
+[[!redirects Schanuel]] 
