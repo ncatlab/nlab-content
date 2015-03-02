@@ -112,7 +112,7 @@ The basic inference was that $\tan(z)$ must therefore be irrational for rational
 
 The transcendence of $\pi$ was finally established by Lindemann in 1882, by adapting methods of Hermite who had established the transcendence of [[e]] in 1873. This definitively proved the impossibility of solving the problem of "squaring the circle" by means of ruler-and-compass constructions. A far more general theorem was then established by Weierstrass: 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #LindWeier} 
 ###### Theorem 
 If $\alpha_1, \ldots, \alpha_n$ are algebraic numbers linearly independent over $\mathbb{Q}$, then $\exp(\alpha_1), \ldots, \exp(\alpha_n)$ are _algebraically_ independent over $\mathbb{Q}$ (which is to say that the [[field]] $\mathbb{Q}(\exp(\alpha_1), \ldots, \exp(\alpha_n))$ has [[transcendence degree]] $n$ over $\mathbb{Q}$). 
 =-- 
