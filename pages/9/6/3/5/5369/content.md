@@ -101,7 +101,7 @@ Discussion of [[internal homs]] of dg-categories using (just) the structure of a
 
 The derived internal Hom in the homotopy category of DG-categories is equivalent to the dg-category of A_infty-functors.
 
-* Giovanni Faonte, _A-infinity functors and homotopy theory of DG-categories_, [arXiv](http://arxiv.org/abs/1412.1255).
+* [[Giovanni Faonte]], _A-infinity functors and homotopy theory of DG-categories_, [arXiv](http://arxiv.org/abs/1412.1255).
 
 A proof that the [[internal hom]] of Ho(DGCat) constructed by To&#235;n is in fact the right [[derived functor]] of the internal hom of DGCat is in
 
