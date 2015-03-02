@@ -513,6 +513,7 @@ Alles Vern&#252;nftige ist somit zugleich als mystisch zu bezeichnen, womit jedo
 
 > &#167;127 This only perhaps can be remarked, that hitherto the determination of quantity has been made to precede quality and this as is mostly the case &#8212; for no given reason. It has already been shown that the beginning is made with being as such, therefore, with qualitative being. It is easily seen from a comparison of quality with quantity that the former by its nature is first. For quantity is quality which has already become negative; magnitude is the determinateness which is no longer one with being but is already differentiated from it, sublated quality which has become indifferent. It includes the alterableness of being, although the category itself, namely Being, of which it is the determination, is not altered by it. The qualitative determinateness, on the other hand, is one with its being: it neither goes beyond it nor is internal to it, but is its immediate limitedness. Quality therefore, as the immediate determinateness, is primary and it is with it that the beginning must be made.
 
+
 > {#128} &#167;128 Das Maa&#223; ist eine Relation, aber nicht die Relation &#252;berhaupt, sondern bestimmt der Qualit&#228;t und Quantit&#228;t zu einander; die Kategorien, die Kant unter der Relation befa&#223;t, werden ganz anderw&#228;rts ihre Stelle nehmen. Das Maa&#223; kann auch f&#252;r eine Modalit&#228;t, wenn man will, angesehen werden; aber indem bei Kant diese nicht mehr eine Bestimmung des Inhalts ausmachen, sondern nur die Beziehung desselben auf das Denken, auf das Subjektive, angehen soll, so ist die&#223; eine ganz heterogene, hierher nicht geh&#246;rige Beziehung.
 
 > &#167;128 Measure is a relation, but not relation in general, for it is the specific relation between quality and quantity; the categories which Kant includes under relation will come up for consideration in quite another place. Measure can also, if one wishes, be regarded as a modality; but since with Kant modality is supposed no longer to constitute a determination of the content, but to concern only the relation of the content to thought, to the subjective element, it is a quite heterogeneous relation and is not pertinent here.
@@ -1077,6 +1078,7 @@ to be quality, then we get from the [[adjoint triple]]
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 the duality of dualities
+
 
 $$
   \array{
@@ -2938,7 +2940,7 @@ A quick survey of the theme of the idea expressing itself via the spirit in natu
 
 Hegel himself expands on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
 
-* {#Hegel27} [[Georg Hegel]], Lectures on the Philosophy of Religion. Volume II: Determinate Religion. Edited by Peter C. Hodgson; translated by R.F. Brown, P.C. Hodgson, and J.M. Stewart, with the assistance of J.P. Fitzer and H.S. Harris. Berkeley: University of California Press, 1995 (orig. 1987). (Translation of: Vorlesungen &#252;ber die Philosophie der Religion.)  This extract (pp. 556-561) is from the Lectures of 1827; A. Immediate Religion, or Nature Religion; 1. The Religion of Magic; c. The State Religion of the Chinese Empire and the Dao. ([web](http://www.autodidactproject.org/quote/hegel-tao1.html))
+* {#Hegel27} [[Georg Hegel]], _[[Lectures on the Philosophy of Religion]]_, Volume II: Determinate Religion. Edited by Peter C. Hodgson; translated by R.F. Brown, P.C. Hodgson, and J.M. Stewart, with the assistance of J.P. Fitzer and H.S. Harris. Berkeley: University of California Press, 1995 (orig. 1987). (Translation of: Vorlesungen &#252;ber die Philosophie der Religion.)  This extract (pp. 556-561) is from the Lectures of 1827; A. Immediate Religion, or Nature Religion; 1. The Religion of Magic; c. The State Religion of the Chinese Empire and the Dao. ([web](http://www.autodidactproject.org/quote/hegel-tao1.html))
 
 Further comments on Hegel's text include
 
