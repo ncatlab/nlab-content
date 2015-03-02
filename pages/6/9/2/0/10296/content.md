@@ -40,7 +40,7 @@ $$
 A^\circ = \{ f\in A^* \, | \, Ker(f)\, \text{contains an ideal of finite codimension in}\, A\}
 $$
 
-There are several other characterizations of the finite dual.  
+There are several other characterizations of the finite dual. Alternative terminologies are restricted dual and Hopf dual. 
 
 ## Actions on duals
 
@@ -70,7 +70,7 @@ or
 
 $$
 \langle g, f &#8640; c\rangle = \langle f, c_{(2)}\rangle
-\langle g, c_{(2)}\rangle = \langle g f, c\rangle
+\langle g, c_{(1)}\rangle = \langle g f, c\rangle
 $$
 
 According to the suggestion of Nichols, one reads $f$&#8640;$c$
@@ -124,5 +124,7 @@ Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
 
 * Matthieu Anel, [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](http://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
 
-[[!redirects dual gebra]]
 [[!redirects dual gebras]]
+[[!redirects Hopf pairing]]
+[[!redirects dual bialgebra]]
+[[!redirects dual Hopf algebra]]
