@@ -1,7 +1,7 @@
 There is a very beautiful story on several families of stable classes of the compactification $\mathcal{M}_{g,n}$ of the moduli space of algebraic genus $g$ curves with $n$ marked points, playing major role in geometry (especially intersection theory), Gromov-Witten theory, etc. They are sometimes referred by standard notation and sometimes by their names; one has families of Mumford-Miller classes and of Morita classes. 
 
 Kontsevich associates to any cyclic/symplectic $A_\infty$-algebra certain partition function which is a inhomogeneous class in [[graph homology]]. 
-Igusa and Mondello have substantiated Kontsevich's claim that the Mumford-Miller-Morita classes are induced from certain family of $A_\infty$-algebras; Hamilton-Lazarev have shown that the recipe for the classes from the $A_\infty$-algebra is a homotopy invariant and that the partition function takes values in the relative homology of an infinite-dimensional algebra of *noncommutative Hamiltonians*. They interpret the class as being somewhat analogous to Chern classes and call it a  characteristic class of the $A_\infty$-algebra. 
+Igusa and Mondello have substantiated Kontsevich's claim that the Mumford-Miller-Morita classes are induced from certain family of $A_\infty$-algebras; 
 
 Related entries [[Witten conjecture]], [[mapping class group]].
 
@@ -16,8 +16,7 @@ Related entries [[Witten conjecture]], [[mapping class group]].
 * K. Igusa, _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
 * Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, in: Handbook of Teichm&#252;ller theory. Vol. II,  151--215, IRMA Lect. Math. Theor. Phys., 13, Eur. Math. Soc., Z&#252;rich, 2009; draft with index: [pdf](http://www.mat.uniroma1.it/~mondello/me/papers/ober-definitive.pdf), arxiv version [math.AG/0705.1792](http://arxiv.org/abs/0705.1792), [MR2010f:32012](http://www.ams.org/mathscinet-getitem?mr=2010f:32012)
 * G. Mondello, _Combinatorial classes on $\mathcal{M}_{g,n}$ are tautological_, Int. Math. Res. Not. __44__ (2004), 2329-&#8211;2390, [MR2005g:14056](http://www.ams.org/mathscinet-getitem?mr=2005g:14056), [doi](http://dx.doi.org/10.1155/S1073792804131462), [math.AG/0303207](http://arxiv.org/abs/math/0303207)
-* [[Alastair Hamilton]], [[Andrey Lazarev]], _Characteristic classes of A-infinity algebras_, J. Homotopy Relat. Struct. __3__ (2008), no. 1, 65--111, [math.QA/0608395](http://arxiv.org/abs/math/0608395)
-* [[Alastair Hamilton]], _Classes on compactifications of the moduli space of curves through solutions to the quantum master equation_, Lett. Math. Phys. __89__ (2009), no. 2, 115--130.
+
 [[!redirects Mumford classes]]
 [[!redirects Mumford's class]]
 [[!redirects Mumford's classes]]
