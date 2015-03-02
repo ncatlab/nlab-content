@@ -57,7 +57,17 @@ Here the _[[objective logic]]_ is not _[[logic]]_ in the usual sense -- that usu
 
 Hegel's system is meant to be the revelation of a dynamical [[ontology|ontological]] process (a diagram is [below](#Process)) of intrinsic oppositions and unifications ("Bewegung des Wissens", "Werden des Seins") by which the _[[logos (in philosophy)|logos]]_ develops from nothingness over various stages of _determinations of being_ (Seinsbestimmungen) to, roughly, _the Idea_, a kind of absolute of Plato's [[doctrine of ideas]]. The idea then _appears_ in the _Essence_ (erscheint im Wesen), next _externalizes_ itself in the form of _Nature_, where, eventually, embodied now as the soul [PN&#167;308](#PN308) of nature ([[nous]]) and of its life forms, it grows into the concious and then self-concious _Spirit_. Eventually by introspection the Spirit recovers this dynamical process of being inside itself (and so the system reiterates [&#167;1812](#1812), [&#167;1814](#1814)). 
 
-Other philosophical systems Hegel claims are subsumed by and find their place in his more comprehensive system, notably [[Heraclitus]]'s _[[logos (in philosophy)|logos]]_ ([HistPhil](Heraclitus#HegelHistory1b)) and _[[becoming]]_, [[Zeno]]'s and [[Plato]]'s/[[Parmenides]]'s _[[dialectics]]_ ([HistPhil](Zeno#HegelHistory1)), [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287)), [[Plato]]'s [[doctrine of ideas]] as "actualized" by [[Aristotle]] ([HistPhil](doctrine+of+ideas#HegelPerspective)).
+Other philosophical systems Hegel claims are subsumed by and find their place in his more comprehensive and "scientific" system, notably 
+
+* [[Heraclitus]]'s _[[logos (in philosophy)|logos]]_ ([HistPhil](Heraclitus#HegelHistory1b)) and _[[becoming]]_, 
+
+* [[Plato]]'s [[doctrine of ideas]] as "actualized" by [[Aristotle]] ([HistPhil](doctrine+of+ideas#HegelPerspective)), 
+
+* [[Zeno]]'s and [[Plato]]'s/[[Parmenides]]'s _[[dialectics]]_ ([HistPhil](Zeno#HegelHistory1)), 
+
+* [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287));
+
+* [[Kant]]'s [[category (philosophy)|categories]] ([&#167;126](#126), [&#167;127](#127)).
 
 
 
@@ -491,6 +501,25 @@ Alles Vern&#252;nftige ist somit zugleich als mystisch zu bezeichnen, womit jedo
 
 
 ###  Allgemeine Einteilung des Seins
+
+
+> {#126} &#167;126 Diese Eintheilung ist hier, wie in der Einleitung von diesen Eintheilungen &#252;berhaupt erinnert worden, eine vorl&#228;ufige Anf&#252;hrung; ihre Bestimmungen haben erst aus der Bewegung des Seyns selbst zu entstehen, sich dadurch zu definiren und zu rechtfertigen. &#220;ber die Abweichung dieser Eintheilung von der gew&#246;hnlichen Auff&#252;hrung der Kategorien, n&#228;mlich als Quantit&#228;t, Qualit&#228;t, Relation und Modalit&#228;t, was &#252;brigens bei Kant nur die Titel f&#252;r seine Kategorien seyn sollen, in der That aber selbst, nur allgemeinere, Kategorien sind,&#8212;ist hier nichts zu erinnern, da die ganze Ausf&#252;hrung das &#252;berhaupt von der gew&#246;hnlichen Ordnung und Bedeutung der Kategorien Abweichende zeigen wird.
+
+> &#167;126 At this stage, this division is, as was remarked of these divisions generally in the Introduction, a preliminary statement; its determinations have first to arise from the movement of being itself and in so doing define and justify themselves. As regards the divergence of this classification from the usual presentation of the categories, namely, as quantity, quality, relation and modality &#8212; these moreover with Kant are supposed to be only titles for his categories though they are, in fact, themselves categories, only more general ones &#8212; this calls for no special comment here, as the entire exposition will show a complete divergence from the usual arrangement and significance of the categories.
+
+[[category (philosophy)]]
+
+> {#127} &#167;127 Nur die&#223; kann etwa bemerkt werden, da&#223; sonst die Bestimmung der Quantit&#228;t von der Qualit&#228;t aufgef&#252;hrt wird,&#8212;und die&#223;&#8212;wie das Meiste&#8212;ohne weiteren Grund. Es ist bereits gezeigt worden, da&#223; der Anfang sich mit dem Seyn als solchem macht, daher mit dem qualitativen Seyn. Aus der Vergleichung der Qualit&#228;t mit der Quantit&#228;t erhellt leicht, da&#223; jene die der Natur nach erste ist. Denn die Quantit&#228;t ist die schon negativ gewordenen Qualit&#228;t; die Gr&#246;&#223;e ist die Bestimmtheit, die nicht mehr mit dem Seyn Eins, sondern schon von ihm unterschieden, die aufgehobene, gleichg&#252;ltig gewordenen Qualit&#228;t ist. Sie schlie&#223;t die Ver&#228;nderlichkeit des Seyns ein, ohne da&#223; die Sache selbst, das Seyn, dessen Bestimmung sie ist, durch sie ver&#228;ndert werde; da hingegen die qualitative Bestimmtheit mit ihrem Seyn Eins ist, nicht dar&#252;ber hinausgeht, noch innerhalb desselben steht, sondern dessen unmittelbare Beschr&#228;nktheit ist. Die Qualit&#228;t ist daher, als die unmittelbare Bestimmtheit die erste und mit ihr der Anfang zu machen.
+
+> &#167;127 This only perhaps can be remarked, that hitherto the determination of quantity has been made to precede quality and this as is mostly the case &#8212; for no given reason. It has already been shown that the beginning is made with being as such, therefore, with qualitative being. It is easily seen from a comparison of quality with quantity that the former by its nature is first. For quantity is quality which has already become negative; magnitude is the determinateness which is no longer one with being but is already differentiated from it, sublated quality which has become indifferent. It includes the alterableness of being, although the category itself, namely Being, of which it is the determination, is not altered by it. The qualitative determinateness, on the other hand, is one with its being: it neither goes beyond it nor is internal to it, but is its immediate limitedness. Quality therefore, as the immediate determinateness, is primary and it is with it that the beginning must be made.
+
+> {#128} &#167;128 Das Maa&#223; ist eine Relation, aber nicht die Relation &#252;berhaupt, sondern bestimmt der Qualit&#228;t und Quantit&#228;t zu einander; die Kategorien, die Kant unter der Relation befa&#223;t, werden ganz anderw&#228;rts ihre Stelle nehmen. Das Maa&#223; kann auch f&#252;r eine Modalit&#228;t, wenn man will, angesehen werden; aber indem bei Kant diese nicht mehr eine Bestimmung des Inhalts ausmachen, sondern nur die Beziehung desselben auf das Denken, auf das Subjektive, angehen soll, so ist die&#223; eine ganz heterogene, hierher nicht geh&#246;rige Beziehung.
+
+> &#167;128 Measure is a relation, but not relation in general, for it is the specific relation between quality and quantity; the categories which Kant includes under relation will come up for consideration in quite another place. Measure can also, if one wishes, be regarded as a modality; but since with Kant modality is supposed no longer to constitute a determination of the content, but to concern only the relation of the content to thought, to the subjective element, it is a quite heterogeneous relation and is not pertinent here.
+
+> {#129} &#167;129 Die dritte Bestimmung des Seyns f&#228;llt innerhalb des Abschnittes, der Qualit&#228;t, indem es sich als abstrakte Unmittelbarkeit zu einer einzelnen Bestimmtheit gegen seine anderen innerhalb seiner Sph&#228;re herabsetzt.
+
+> &#167;129 The third determination of being falls within the section Quality, for as abstract immediacy it reduces itself to a single determinateness in relation to its other determinatenesses within its sphere.
 
 
 ### First section. Bestimmtheit (Qualit&#228;t) / Determinateness (Quality)
