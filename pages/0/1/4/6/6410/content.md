@@ -13,4 +13,4 @@ $$\phi\colon C \to \mathbb{P}^1(\mathbb{C})$$
 
 which contravariantly induces a field homomorphism $\mathbb{C}(x) \to Mer(C)$. 
 
-In the other direction, to each field $K$ of transcendence degree 1 over $\mathbb{C}$, there is a Riemann surface whose points may be identified with [[valuation rings]] in $K$. (More precisely, with the _discrete_ valuation rings in $K$. All valuation rings of $K$ are discrete except for $K$ itself, which plays the role of a "generic point".) 
+In the other direction, to each field $K$ of [[transcendence degree]] 1 over $\mathbb{C}$, there is a Riemann surface whose points may be identified with [[valuation rings]] in $K$. (More precisely, with the _discrete_ valuation rings in $K$. All valuation rings of $K$ are discrete except for $K$ itself, which plays the role of a "generic point".) 
