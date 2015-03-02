@@ -1,8 +1,8 @@
-Given two [[bialgebra]]s $A$ and $B$ in Hopf pairing $\lt, \gt$ (i.e. making comultiplication on one transposed to multiplication to another and viceversa), one define a left [[Hopf action]] $\triangleright$ of $B$ on $A$ by formulas
+Given a field $k$ and two $k$-[[bialgebra]]s $A$ and $B$ with [[Hopf pairing]] $\lt, \gt : A\otimes B\to k$, one defines a left [[Hopf action]] $\blacktriangleright$ of $B$ on $A$ by formulas
 $$
-b\triangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \tau\Delta_A(a))
+b\blacktriangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \tau\Delta_A(a))
 $$
-one forms the __Heisenberg double__ corresponding to these data as the crossed product algebra ("smash product") $A\sharp B$ associated to the Hopf action $\triangleright$. 
+one forms the __Heisenberg double__ corresponding to these data as the crossed product algebra ("smash product") $A\sharp B$ associated to the Hopf action $\blacktriangleright$. 
 
 For example if $A = S(V)$ is the symmetric (Hopf) algebra on a finite-dimensional vector space $V$, and $B$ its algebraic dual $(S(V))^*\cong \hat{S}(V^*)$, considered as its dual topological Hopf algebra, the result is the [[Weyl algebra]] of [[regular differential operators]], completed with respect to the filtration corresponding to the degree of differential operator. If $B$ is just the finite dual of $S(V)$ which is a usual Hopf algebra, then there is no completion, of course. 
 
