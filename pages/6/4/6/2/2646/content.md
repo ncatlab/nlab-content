@@ -15,6 +15,8 @@
 
 * _[[Combinatorial model categories have presentations]]_
 
+* _Sheaves and homotopy theory_, [pdf](http://math.mit.edu/~dspivak/files/cech.pdf).
+
 [[!redirects Dan Dugger]]
 
 category: people
