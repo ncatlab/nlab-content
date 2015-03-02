@@ -31,14 +31,20 @@ According to [[Kant]] the four fundamental categories are
 
 1. [[modality]]
 
+According to [[Hegel]] there is refinement of the table, both by adding more categories (and maybe by omitting some?) and by claiming to relate them more systematically by a system of [[unity of opposites]] and of [[Aufhebung|sublation]] of these oppositions. See at _[[Science of Logic]]_ for more on this. Hegel calls the categories the _determinations of being_.
+
+According to [[Lawvere]] the system of categories of Hegel are usefully formalized in [[categorical logic]] ("[[objective logic]]") as systems of (co-)[[reflective subcategories]] (in the sense of [[category]] in [[category theory]]) of some ambient [[topos]]. See also at _[[Science of Logic]]_ for more on this.
+
 ## Related entries
 
 * [[category of being]]
 
 ## References
 
-* German Wikipedia, _[Kategorie (Philosophie)](http://de.wikipedia.org/wiki/Kategorie_(Philosophie))_
+* German Wikipedia, _[Kategorie (Philosophie)](http://de.wikipedia.org/wiki/Kategorie_(Philosophie)_
 
-* Wikipedia, _[Categories (Aristotle)](http://en.wikipedia.org/wiki/Categories_(Aristotle))_
+* Wikipedia, _<a href="http://en.wikipedia.org/wiki/Categories_(Aristotle)">Categories (Aristotle)</a>_
 
-* Wikipedia, _[Category (Kant)](http://en.wikipedia.org/wiki/Category_(Kant))_
+* Wikipedia, _<a href="http://en.wikipedia.org/wiki/Category_(Kant)">Category (Kant)</a>_
+
+* Stanford Encyclopedia of Philosophy, _[Categories](http://plato.stanford.edu/entries/categories/)_
