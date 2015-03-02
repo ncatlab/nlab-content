@@ -373,7 +373,7 @@ Note that profunctors can also be characterized by their collages, these being t
 
 *  [[fibration in a 2-category]], 
 
-** two-sided fibration**, 
+* ** two-sided fibration**, 
 
 *  [[Conduche functor]]
 
