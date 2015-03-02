@@ -291,7 +291,17 @@ hence
 
 ## References
 
+In 
+
+* [[Kant]], _Critique of pure reason_ 1781
+
+is discussion of _modality_ as one of the [[category (philosophy)|categories of pure thought]], with sub-categories _necessity_, _possibility_ and _actuality_ (Wirklichkeit).
+
+In 
+
 * [[Georg Hegel]], [book 2, section 3](http://ncatlab.org/nlab/show/Science+of+Logic#DieWirklichkeit), especially [book 2, section 3, chapter 2](http://ncatlab.org/nlab/show/Science+of+Logic#DieWirklichkeitKapitel2) in  _[[Science of Logic]]_ (1812)
+
+this is picked up and claimed to be refined to a [[dialectic]] system of [[unity of opposites|unities of opposites]].
 
 * {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
 
