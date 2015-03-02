@@ -45,6 +45,7 @@ $$
   \,.
 $$
 
+It is topologized via identification with the set $\{(x, x^{-1}) \in \mathbb{A}_\mathbb{Q}^2: \; x \in \mathbb{I}_\mathbb{Q}\}$, seen as a subspace of $\mathbb{A}_\mathbb{Q}^2$. 
 =--
 
 The same definition holds for the [[ring of adeles]] of any other [[global field]] $K$, here one writes
