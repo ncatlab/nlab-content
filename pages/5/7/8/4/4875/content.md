@@ -55,7 +55,7 @@ where $W$ is a [[module]] of finite rank over $R$ and consisting of nilpotent el
 
 In the literature on [[synthetic differential geometry]] an algebra $A$ of this form is also called a **Weil algebra**. Notice that this is unrelated to the notion of Weil algebra in [[Lie theory]]. For more on that, see [[Weil algebra]]. 
 
-Over more general base fields, this is called an **[[Artin algebra]]**.
+Over more general base fields, this is called a **[[local Artin algebra]]**.
 
 =--
 
