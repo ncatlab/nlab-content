@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
 Nakayama's lemma is a simple but fundamental result of commutative algebra frequently used to lift information from the [[fiber]] of a [[sheaf]] over a point (as for example a [[coherent sheaf]] over a [[scheme]]) to give information on the [[stalk]] at that point. 
@@ -39,3 +44,5 @@ A map between complex projective varieties of dimension $n$ which is a bijection
 We turn now to a general statement of Nakayama's lemma. 
 
 (To be continued)
+
+[[!redirects Nakayama lemma]]
