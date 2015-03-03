@@ -60,8 +60,8 @@ for that of super smooth $\infty$-groupoid
 ### Cohesion
 
 
-+-- {: .num_remark #SequenceOfSites}
-###### Remark
++-- {: .num_prop #SequenceOfSites}
+###### Proposition
 
 The [[sites]] in question are alternatingly (co-)[[reflective subcategories]] of each other (we always display [[left adjoints]] above their right adjoints)
 
@@ -87,6 +87,7 @@ Here
 
 =--
 
+See for instance at _[superalgebra -- Adjoints to the inclusion of plain algebras](super+algebra#AdjointsToInclusionOfPlainAlgebra)_.
 
 Passing to [[(∞,1)-categories of (∞,1)-sheaves]], this yields, via [[(∞,1)-Kan extension]] a sequence of [[adjoint quadruples]] as follows:
 
