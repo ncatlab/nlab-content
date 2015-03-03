@@ -360,6 +360,7 @@ where the single odd generator satisfies $u \cdot u = 1$.
  {#Properties}
 
 #### Relation to ordinary commutative algebras
+ {#RelationToOrdinaryCommutativeAlgebra}
 
 +-- {: .num_defn #InclusionOfCommutativeSuperalgebras}
 ###### Definition
@@ -402,7 +403,7 @@ $$
   SCAlg_k
 $$
 
-and hence an [[adjoint cylinder]], which induces a pair of [[adjoint modalities]].
+and hence an [[adjoint cylinder]], which induces a pair of [[adjoint modalities]] ([[fermionic modality]] $\dashv$ [[bosonic modality]]).
 See at _[[super smooth infinity-groupoid]]_ for more on this.
 
 =--
