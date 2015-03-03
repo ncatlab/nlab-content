@@ -45,3 +45,8 @@ is called the [[de Rham space]] of $X$.
 
 [[!redirects reduced ring]]
 [[!redirects reduced rings]]
+
+[[!redirects reduced algebra]]
+[[!redirects reduced algebras]]
+
+
