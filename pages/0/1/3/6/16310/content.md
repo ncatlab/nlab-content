@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the _[[cohesion]]_ of some substance. [[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]] (see there for references), i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
@@ -21,3 +25,6 @@ Moreover, according to [PN&#167;298](Science+of+Logic#PN298) this elasticity is 
 
 > (And so maybe it would be suggestive to rename "differential cohesion" to "elastic cohesion"?)
 
+## Related entries
+
+* [[super smooth infinity-groupoid]]
