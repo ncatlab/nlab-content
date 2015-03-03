@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+
+## Idea
+
+A point in a [[spacetime]].
+
+## Related concepts
+
+* [[spacelike]], [[timelike]], [[lightlike]]
+
+## References
+
+* Wikipedia, _[Event (relativity)](http://en.wikipedia.org/wiki/Event_%28relativity%29)_
