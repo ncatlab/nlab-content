@@ -58,6 +58,7 @@ for that of super smooth $\infty$-groupoid
 ## Properties
 
 ### Cohesion
+ {#Cohesion}
 
 
 +-- {: .num_prop #SequenceOfSites}
@@ -123,7 +124,7 @@ Hence passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempote
 
 * in the middle yields the [[reduction modality]] $\Re$, the [[infinitesimal shape modality]] $\&$ and the [[infinitesimal flat modality]] $\Im$. 
 
-* on the right we get an adjoint triple whose left piece $\epsilon$ produces _super-even_, whose middle bit $\beta$ produced the _[[body]]_ or _[[boson|bosonic]]_ parts. 
+* on the right we get an adjoint triple whose left piece $\epsilon$ produces _super-even_ components, and whose middle bit $\beta$ is the [[bosonic modality]] 
 
 Hence we get a process of [[adjoint modalities]] of the form
 
