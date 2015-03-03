@@ -30,8 +30,6 @@ this page is to eventually collect material on
 
   in W. Bonsiepen und H.-C. Lucas (eds.), _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992) 
 
-  ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/sl_index.htm)) 
-
 on, roughly, [[natural philosophy]]. For the moment see at 
 
 * _[Science of Logic -- Philosophy of Nature](Science+of+Logic#PhilosophyOfNature)_.
@@ -46,5 +44,15 @@ on, roughly, [[natural philosophy]]. For the moment see at
 Compare to [Science of Logic &#167;709](Sciene+of+Logic#709): 
 
 > SoL &#167;709 The development of measure which has been attempted in the following chapters is extremely difficult. Starting from immediate, external measure it should, on the one hand, go on to develop the abstract determination of the quantitative aspects of natural objects (a mathematics of nature), and on the other hand, to indicate the connection between this determination of measure and the qualities of natural object
+
+## References
+
+Beware that the first version greatly differs from the third. English translations of the final version are in 
+
+* A. V. Miller, Oxford Clarendon Press 1970
+
+* M. J. Petry, London 1970
+
+for review of these see [jstor/3750018](http://www.jstor.org/stable/3750018)
 
 category: reference
