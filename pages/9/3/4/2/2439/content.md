@@ -391,7 +391,7 @@ to its even part;
 
 This is immediate. See further discussion see for instance [Carchedi-Roytenberg 12, example 3.18](#CarchediRoytenberg12)
 
-+-- {: .num_remark }
++-- {: .num_remark #AdjointTripleBetweenPlainAndSuperalgebra}
 ###### Remark
 
 Prop. \ref{AdjointsToInclusionOfPlainAlgebra} 
