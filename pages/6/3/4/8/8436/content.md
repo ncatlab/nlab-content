@@ -22,6 +22,8 @@ The [[physics]] of condensed [[matter]] ([[fermions]], due to the [[Pauli exclus
 
 * [[rigid body dynamics]]
 
+* [[degeneracy pressure]]
+
 * [[Levin-Wen model]]
 
 * [AdS-CFT -- Relation to solid state physics](AdS-CFT#ToCondensedMatterPhysics)
