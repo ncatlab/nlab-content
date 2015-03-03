@@ -1394,6 +1394,7 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
  {#RelationBetweenRepulsionAndAttraction}
 
 
+
 > {#361} &#167;361 The difference of the one and the many is now determined as the difference of their relation to one another, with each other, a relation which splits into two, repulsion and attraction, each of which is at first independent of the other and stands apart from it, the two nevertheless being essentially connected with each other. Their as yet indeterminate unity is to be more precisely ascertained
 
 So we are looking now for a [[unity of opposites]] of the form
@@ -2747,13 +2748,18 @@ modern terminology here would be: [[spacetime]] [[event]]
 
 > This disappearance and regeneration of space in time and of time in space is motion;-- a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter.
 
-> {#PN261b} PN&#167;261b $[$ dies $]$ ist f&#252;r den Verstand unbegreiflich.
 
 So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word for this is clearly _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
 
-Moreover, this unity of space and time in spacetime is [[matter]]. This is indeed the perspective of the modern concept of [[KK-compactification]] in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
+Moreover, this unity of space and time in spacetime is [[matter]] and by [PN&#167;26d](#PN26d) it is matter _with_ the [[forces]] acting on it included. This is very much the perspective of the modern concept of _[[Kaluza-Klein compactification]]_ in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are theories of pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
 
 A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
+
+> {#PN261b} PN&#167;261b Der Uebergang von der Idealit&#228;t zur Realit&#228;t, von der Abstraktion zum konkreten Dasein, hier von Raum und Zeit zu der Realit&#228;t, welche als Materie erscheint, ist f&#252;r den Verstand unbegreiflich 
+
+> {#PN261c} PN&#167;261c Die gel&#228;ufige Vorstellung ist, Raum und Zeit als leer, gleichgueltig gegen ihre Erfuellung, und doch immer als voll zu betrachten, sie als leer von au&#223;en her mit der Materie erfuellen zu lassen, und einerseits auf diese Weise die materiellen Dinge als gleichgueltig  gegen Raum ind Zeit, und andererseits zugleich als wesentlich r&#228;umlich und zeitlich anzunehmen.
+
+> {#PN261d} PN&#167;26d Es gehlrt ferner zu dieser begrifflosen Reflexion, die sogenannten Kr&#228;fte als der Materie eingepflanzt, das ist, als ihr urpsr&#252;nglich &#228;u&#223;erlich anzusehen, so da&#223; eben diese Identit&#228;t der Zeit und des Raumes, welche bei der Reflexionsbestimmung von Kraft vorschwebt und welche in Wahrheit das Wesen der Materie ausmacht, als etwas ihr fremdes und Zuf&#228;lliges von au&#223;en in sie gebrachtes gesetzt ist.
 
 #### Endliche Mechanik -- Materie und Bewegung. 
 
