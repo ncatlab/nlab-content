@@ -40,6 +40,8 @@ A [[curve]] $\gamma : \mathbb{R} \to X$ is called _timelike_  or _lightlike_ or 
 
 ## Related concepts
 
+* [[event]]
+
 * [[time]]
 
 * [[light cone]], [[future cone]]
