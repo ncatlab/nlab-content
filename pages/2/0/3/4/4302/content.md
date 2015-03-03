@@ -36,7 +36,7 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 ## Related entries
 
-* [[Pauli exclusion principle]]
+* [[Pauli exclusion principle]], [[degeneracy pressure]]
 
 * [[chiral fermion]]
 
