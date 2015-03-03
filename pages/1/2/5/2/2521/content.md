@@ -29,7 +29,7 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 * [[superpoint]]
 
-* [[super ∞-groupoid]], [[smooth super ∞-groupoid]]
+* [[super ∞-groupoid]], [[smooth super ∞-groupoid]], [[super smooth ∞-groupoid]]
 
 * [[supermanifold]]
 
@@ -42,6 +42,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 * [[supergravity]]
 
 * [[Super Gerbes]]
+
+* [[bosonic modality]]
 
 ## References
  {#References}
