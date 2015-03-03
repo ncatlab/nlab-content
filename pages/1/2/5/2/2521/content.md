@@ -52,7 +52,9 @@ Some historically influential general considerations are in
 
 Introductory lecture notes include
 
-* [[Dan Freed]], _[[Five lectures on supersymmetry]]_
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
+
+* L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
@@ -84,6 +86,11 @@ A review of all this as geometry in the [[topos]] over the category of [[superpo
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
  {#Sachse} 
 
+Formulation in terms of [[synthetic differential supergeometry]] is in
+
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories, Vol. 28, 2013, No. 30, pp 1022-1098. ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [TAC](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html))
+
+
 For many more references see at _[[supermanifold]]_.
 
 Plenty of discussion of supergeometry with an eye towards [[supersymmetry]] in [[quantum field theory]] is in
@@ -110,4 +117,3 @@ For more on this see at _[[superalgebra]]_.
 Discussion related to [[G-structure]] and [[Killing spinors]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
-
