@@ -152,7 +152,7 @@ If $E$ corresponds to $H$, then we have
 
 1. for every $\sigma \in G$ we have that $\sigma[E]$ corresponds to $\sigma H \sigma^{-1}$;
 
-1. $L \subset E$ is Galois precisely if $H$ is a [[normal subgroup]] of $G$;
+1. $K \subset E$ is Galois precisely if $H$ is a [[normal subgroup]] of $G$;
 
    $Gal(E/K) \simeq G/H$ (as [[topological group]]s) if $K \subset E$ is Galois. 
 
