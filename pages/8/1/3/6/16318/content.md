@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[physics]], the principle that no two [[fermions]] may inhabit the same [[quantum state]].
+
+Mathematically this is the statement that fermion [[field (physics)|fields]] are the odd-graded elements of a [[superalgebra]] of functions in [[supergeometry]].
+
+The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]], may form [[solid state physics|solid bodies]] that do not necessarily collapse under their own [[gravity]] (see at _[[Fermi sea]]_ and _[[neutron star]]_).
+
+
+## References
+
+* Wikipedia, _[Pauli exclusion principle](http://en.wikipedia.org/wiki/Pauli_exclusion_principle)_
