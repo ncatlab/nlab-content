@@ -244,10 +244,13 @@ Our **paragraph numbering** is as follows:
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
 | Substanz   | the whole [[differential cohesion|differential]] [[cohesive (∞,1)-topos]]/[[cohesive homotopy type theory]]   |  [&#167;1235](#1235), [&#167;1238](#1238), [&#167;1281](#1281) | 
-| **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the true [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
+| **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the [[true]] [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
-| Gravitation | [[adjoint modality]] $(&#643; \dashv \flat)$  | [PN&#167;262](#PN262)  |
+| Licht | [[bosonic modality]] $\beta$ | [PN&#167;276](#PN276) |
+| K&#246;rper der Starrheit | [[fermionic modality]] $\epsilon$ | [PN&#167;279](#PN279) |
+| Au&#223;ereinander der Materie | [[unity of opposites]] ($\epsilon \dashv \beta$)   | [PN&#167;290](#PN290)  |
+| opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\epsilon) &\dashv& \rho(\beta) \\ \bot && \bot \\ \rho(\beta) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262](#PN262), [PN&#167;290](#PN290) | 
 
 =--
 
@@ -293,6 +296,15 @@ $$
     && &&  &&  && \rho(id) & \dashv & \rho(id)
     \\ 
     && &&  &&  && \vee & & \vee
+    \\
+    && &&  &&  &\stackrel{starre \atop Materie}{}& \rho(\epsilon) & 
+    \stackrel{Aussereinandersein}{\dashv} & \rho(\beta) & \stackrel{Licht}{}
+    \\
+    && &&  &&  && \bot & \stackrel{Materie}{} & \bot
+    \\
+    && &&  &&  && \rho(\beta) & \stackrel{Schwere}{\dashv} & \rho(\,\,)
+    \\
+    && &&  &&  && \vee & & \vee
     \\ 
     && &&  &&  && \rho(\Re) & \dashv & \rho(\&)
     \\ 
@@ -303,7 +315,7 @@ $$
     && &&  &&  && \vee && \vee
     \\
     Natur &&   &&  && 
-    & \stackrel{Attraktion}{} & \rho(&#643;) &\stackrel{Gravitation \atop Kohaesion}{\dashv}& \rho(\flat) & \stackrel{Repulsion}{}
+    &  & \rho(&#643;) &\stackrel{Kohaesion}{\dashv}& \rho(\flat) & 
     \\
     && && && && \bot && \bot
     \\
@@ -617,6 +629,7 @@ The [[empty type]] $\emptyset$.
 
 
 > {#134} &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
+
 
 
 
@@ -1699,6 +1712,7 @@ Moreover, below after transition from the Seinslogik to the Wesenslogik, find ga
 ##### B. Specificirendes Ma&#223; / Specifying measure
 
 
+
 ###### (a) Die Regel / The Rule
 
 > {#725} &#167;725 Die Regel oder der Maa&#223;stab, von dem schon gesprochen worden, ist zun&#228;chst als eine an sich bestimmte Gr&#246;&#223;e, welche Einheit gegen ein Quantum ist, das eine besondere Existenz ist, an einem andern Etwas, als das Etwas der Regel ist, existirt,&#8212;an ihr gemessen, d. i. als Anzahl jener Einheit bestimmt wird. Diese Vergleichung ist ein &#228;u&#223;erliches Thun, jene Einheit selbst eine willk&#252;rliche Gr&#246;&#223;e, die ebenso wieder als Anzahl (der Fu&#223; als eine Anzahl von Zollen) gesetzt werden kann. Aber das Maa&#223; ist nicht nur &#228;u&#223;erliche Regel, sondern als specifisches ist es die&#223;, sich an sich selbst zu seinem Andern zu verhalten, das ein Quantum ist.
@@ -2750,10 +2764,10 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 So we have a [[unity of opposites]]:
 
 $$
-  attraction \stackrel{}{\dashv} repulsion/asunderness
+  Aussereinander \dashv Schwere
 $$
 
-See also [PN&#167;293](#PN293).
+Below in [PN&#167;290](#PN290) we see more in detail what _Au&#223;ereinander_ / _asunderness is_ and we give the formalization of this opposition there.
 
 Notice that before in the Seinslogik, the unity of attraction with repulsion was in [&#167;369](#369), where we interpreted it as the [[unity of opposites]] $&#643; \dashv \flat$ of the [[shape modality]] and the [[flat modality]]. By the discussion below  [&#167;990](#990), this unity indeed describes [[gauge fields]] (via the [[differential cohomology hexagon]]) among which one may count [[gravity]] (when thinking of it as a [[Cartan connection]]).
 
@@ -2779,13 +2793,51 @@ See also on _Science of Logic_ the [Comment on the Construction of Matter from t
 
 #### Die Physik der allgemeinen Individualit&#228;t
 
+##### Die freien physikalischen K&#246;rper
+
+###### Das Licht
+
+> {#PN276} PN&#167;276 Also das abstrakte Selbst der Materie ist das Licht das absolute-leichte, und als Materie, und als Materie ist sie unendliches Au&#223;ersichsein aber als reines Manifestieren, materielle Idealit&#228;t untrennbares und einfaches Au&#223;ersichsein
+
+We may grant [[light]] here as a placeholder for the modern concept of [[bosons]] and relate "light" to the [[bosonic modality]].
+
+###### Die K&#246;rper des Gegensatzes
+
+> {#PN279} PN&#167;279 Das Dunkle, zun&#228;chst das Negative des Lichts, ist der Gegensatz gegen dessen abstrakte-identische Idealit&#228;t, -- der Gegensatz an ihm selbst; er hat materielle Realit&#228;t under zerf&#228;llt in sich in die Zweihet, $\alpha$) der k&#246;rperlichen Verschiedenheit, d.i.  des materiellen F&#252;rsichseins, der Starrheit, $\beta$) der Entgegensetzung...
+
+This material reality and rigidity opposing _light_ which by [PN&#167;276](#PN276) we identified with the [[bosonic modality]]  is clearly captured well by its [[left adjoint]], the [[fermionic modality]]. Hence we have a [[unity of opposites]]
+
+rigid matter $\,$ [[fermionic modality]] $\dashv$ [[bosonic modality]] $\,$ light
+
+
+
+
+
+
 #### Die Physik der besonderen Individualit&#228;t
 
-> PN&#167;293 {#PN290} Die vorher elementarischen Bestimmtheiten nun der individuellen Einheit unterworfen, so ist diese die immanente Form, welche f&#252;r sich die Materie gegen ihre Schwere bestimmt. Die Schwere als suchen des Einheitspunktes tut dem Au&#223;ereinander der Materie keinen Eintrag, d.i. der Raum und zwar nach einem Quantum ist das Maa&#223; der Besonderungen der Unterschiede der schweren Materie, der Massen, (...) jetzt durch die gesetzte Individualit&#228;t der Materie ist sie in ihrem Au&#223;ereinander selbst ein Zentralisieren gegen die&#223; ihr Au&#223;ereinander und gegen dessen suchen der Individualit&#228;t, different gegen das ideelle Zentralisieren der Schwere, ein immanentes anderes Bestimmenn der materiellen R&#228;umlichkeit als durch die Schwere nach der Richtung derselben. Dieser Teil der Physik ist die individualisierende Mechanik, indem die Materie durch die immanente Form und zwar nach dem R&#228;umlichen bestimmt wird. 
+
+> {#PN290} PN&#167;290  Die vorher elementarischen Bestimmtheiten nun der individuellen Einheit unterworfen, so ist diese die immanente Form, welche f&#252;r sich die Materie gegen ihre Schwere bestimmt. Die Schwere als suchen des Einheitspunktes tut dem Au&#223;ereinander der Materie keinen Eintrag, d.i. der Raum und zwar nach einem Quantum ist das Maa&#223; der Besonderungen der Unterschiede der schweren Materie, der Massen, (...) jetzt durch die gesetzte Individualit&#228;t der Materie ist sie in ihrem Au&#223;ereinander selbst ein Zentralisieren gegen die&#223; ihr Au&#223;ereinander und gegen dessen suchen der Individualit&#228;t, different gegen das ideelle Zentralisieren der Schwere, ein immanentes anderes Bestimmenn der materiellen R&#228;umlichkeit als durch die Schwere nach der Richtung derselben. Dieser Teil der Physik ist die individualisierende Mechanik, indem die Materie durch die immanente Form und zwar nach dem R&#228;umlichen bestimmt wird. 
 
 
 
-In modern perspective the _asunderness_ (see also [PN&#167;262](#PN262)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the even modality $\dashv$ [[body]]-modality [[adjunction]] on [[super smooth infinity-groupoids]]. 
+In modern terminology, this _asunderness_ (see also [PN&#167;262](#PN262)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the even modality $\dashv$ [[body]]-modality [[adjunction]] on [[super smooth infinity-groupoids]], the [[fermionic modality]] $\dashv$ [[bosonic modality]]. This was identified above in [PN&#167;279](#PN279) with the [[unity of opposites]] between rigid matter and light. Hence we find
+
+rigid matter $\,$ [[fermionic modality]] $\stackrel{asunderness}{\dashv}$ [[bosonic modality]] $\,$ light
+
+Since there is a further [[right adjoint]] (by the discussion at _[[super smooth infinity-groupoid]]_) we get a second order duality, and since by [PN&#167;262](#PN262) this opposite of _asunderness_ is _Schwere_, i.e. _gravity_ we add to the _[Process](#Process))_ the level:
+
+$$
+  \array{
+     \stackrel{starre \atop Materie}{} & \rho(\epsilon) &\stackrel{Aussereinander}{\dashv}& \rho(\beta) & \stackrel{Licht}{}
+     \\
+     \bot && \bot
+     \\
+     & \rho(\beta) &\stackrel{Schwere}{\dashv}& \rho(\,) 
+  }
+$$
+
+Notice that this fits well in [[11-dimensional supergravity]] (which by [PN&#167;261](#PN261) is indeed the case at hand), where the bosonic part of the [[physical fields]] is the [[graviton]], which after [[KK-compactification]] becomes also [[light]] and the other bosonic [[force]] field, and the rest is the fermionic matter content resisting its gravitational collapse via the [[Pauli exclusion principle]].
 
 ##### Die spezifische Schwere
 
@@ -2973,6 +3025,7 @@ return to the beginning
 The second edition of the _Enzyklop&#228;die der philos. Wiss._ from 1827 ends here. Later the following three paragraphs are added, concerning three kinds of _Schlu&#223;_.
 
 > PG&#167;575 Es ist dieses Erscheinen, welches zun&#228;chst die weitere Entwicklung begr&#252;ndet. Die erste Erscheinung macht der Schlu&#223; aus, welcher das Logische zum Grunde als Ausgangspunkt und die Natur zur Mitte hat, die den Geist mit demselben zusammenschlie&#223;t. Das Logische wird zur Natur und die Natur zum Geiste. Die Natur, die zwischen dem Geiste und seinem Wesen steht, trennt sie zwar nicht zu Extremen endlicher Abstraktion, noch sich von ihnen zu einem Selbst&#228;ndigen, das als Anderes nur Andere zusammenschl&#246;sse; denn der Schlu&#223; ist in der Idee und die Natur wesentlich nur als Durchgangspunkt und negatives Moment bestimmt und an sich die Idee; aber die Vermittlung des Begriffs hat die &#228;u&#223;erliche Form des &#220;bergehens und die Wissenschaft die des Ganges der Notwendigkeit, so da&#223; nur in dem einen Extreme die Freiheit des Begriffs als sein Zusammenschlie&#223;en mit sich selbst gesetzt ist.
+
 
 $$
   Logik \stackrel{Natur}{\longrightarrow} Geist
