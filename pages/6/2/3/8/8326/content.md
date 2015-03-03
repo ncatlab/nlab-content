@@ -247,7 +247,7 @@ Our **paragraph numbering** is as follows:
 | **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the true [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
-| Gravitation | [[adjoint modality]] $(&#643; \dashv \flat)$  | [PN&#167;204](#PN204)  |
+| Gravitation | [[adjoint modality]] $(&#643; \dashv \flat)$  | [PN&#167;262](#PN262)  |
 
 =--
 
@@ -2743,6 +2743,22 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 
 #### Endliche Mechanik -- Materie und Bewegung. 
 
+> {#PN262} PN&#167;262 Die Materie h&#228;lt sich gegen ihre Identit&#228;t mit sich, durch das Moment ihrer Negativit&#228;t, ihrer Abstrakten Vereinzelung, auseinander; die Repulsion der Materie. Ebenso wesentlich ist, weil diese Verschiedenen ein und dasselbe sind, die negative Einheit dieses au&#223;ereinander-seienden F&#252;rsichseins; die Materie is somit kontinuierlich -- ihre Attraktion. Die Materie ist untrennbar beides, und negative Einheit dieser Momente, Einzelnheit, aber gegen das unmittelbare Au&#223;ereinander der Materie noch unterschieden und darum selbst noch nicht als materiell gesetzte, idelle Einzelheit, Mittelpunkt -- die Schwere.
+
+>  PN&#167;262 Matter in itself holds itself apart from itself through the moment of its negativity, diversity, or abstract separation into parts; it has repulsion. Its being apart from itself is just as essential, however, because these differences are one and the same: the negative unity of this existence apart from itself as being for itself, and thus continuous. Matter therefore has attraction. The unity of these moments is gravity.
+
+So we have a [[unity of opposites]]:
+
+$$
+  attraction \stackrel{}{\dashv} repulsion/asunderness
+$$
+
+See also [PN&#167;293](#PN293).
+
+Notice that before in the Seinslogik, the unity of attraction with repulsion was in [&#167;369](#369), where we interpreted it as the [[unity of opposites]] $&#643; \dashv \flat$ of the [[shape modality]] and the [[flat modality]]. By the discussion below  [&#167;990](#990), this unity indeed describes [[gauge fields]] (via the [[differential cohomology hexagon]]) among which one may count [[gravity]] (when thinking of it as a [[Cartan connection]]).
+
+See also on _Science of Logic_ the [Comment on the Construction of Matter from the Forces](#ConstructionOfMatterFromTheForces).
+
 
 #### Absolute Mechanik -- Gravitation
 
@@ -2757,17 +2773,6 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 
 ### Die Physik
 
-> {#PN204} PN&#167;204 Matter in itself holds itself apart from itself through the moment of its negativity, diversity, or abstract separation into parts; it has repulsion. Its being apart from itself is just as essential, however, because these differences are one and the same: the negative unity of this existence apart from itself as being for itself, and thus continuous. Matter therefore has attraction. The unity of these moments is gravity.
-
-So we have a [[unity of opposites]]:
-
-$$
-  attraction \stackrel{gravity}{\dashv} repulsion
-$$
-
-Notice that before in the Seinslogik, the unity of attraction with repulsion was in [&#167;369](#369), where we interpreted it as the [[unity of opposites]] $&#643; \dashv \flat$ of the [[shape modality]] and the [[flat modality]]. By the discussion below  [&#167;990](#990), this unity indeed describes [[gauge fields]] (via the [[differential cohomology hexagon]]) among which one may count [[gravity]] (when thinking of it as a [[Cartan connection]]).
-
-See also on _Science of Logic_ the [Comment on the Construction of Matter from the Forces](#ConstructionOfMatterFromTheForces).
 
 
 > PN&#167;218 Gravity, as the essence of matter existing in itself only inner identity, transforms, since its concept is the essential externality, into the manifestation of the essence. As such it is the totality of the determinations of reflection, but these as thrown apart from each other, so that each appears as particular, qualified matter which, not yet determined as individuality, is a formless element. 
@@ -2775,6 +2780,12 @@ See also on _Science of Logic_ the [Comment on the Construction of Matter from t
 #### Die Physik der allgemeinen Individualit&#228;t
 
 #### Die Physik der besonderen Individualit&#228;t
+
+> PN&#167;293 {#PN290} Die vorher elementarischen Bestimmtheiten nun der individuellen Einheit unterworfen, so ist diese die immanente Form, welche f&#252;r sich die Materie gegen ihre Schwere bestimmt. Die Schwere als suchen des Einheitspunktes tut dem Au&#223;ereinander der Materie keinen Eintrag, d.i. der Raum und zwar nach einem Quantum ist das Maa&#223; der Besonderungen der Unterschiede der schweren Materie, der Massen, (...) jetzt durch die gesetzte Individualit&#228;t der Materie ist sie in ihrem Au&#223;ereinander selbst ein Zentralisieren gegen die&#223; ihr Au&#223;ereinander und gegen dessen suchen der Individualit&#228;t, different gegen das ideelle Zentralisieren der Schwere, ein immanentes anderes Bestimmenn der materiellen R&#228;umlichkeit als durch die Schwere nach der Richtung derselben. Dieser Teil der Physik ist die individualisierende Mechanik, indem die Materie durch die immanente Form und zwar nach dem R&#228;umlichen bestimmt wird. 
+
+
+
+In modern perspective the _asunderness_ (see also [PN&#167;262](#PN262)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the even modality $\dashv$ [[body]]-modality [[adjunction]] on [[super smooth infinity-groupoids]]. 
 
 ##### Die spezifische Schwere
 
