@@ -41,5 +41,9 @@ Here $\Re$ is the **reduction modality**. The [[reflective subcategory]] that it
 
 [[!include cohesion - table]]
 
+[[!redirects reduction modalities]]
+
+[[!redirects reduction]]
+[[!redirects reductions]]
 
 
