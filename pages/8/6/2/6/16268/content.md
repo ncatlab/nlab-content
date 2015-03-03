@@ -27,6 +27,13 @@ What has come to be called the _doctrine of ideas_ or the _theory of forms_ is  
 
 > Hegel contrasts Plato's Idea with "Aristotle's Idea" (sic), ... in contrast to Plato's it makes the end effective ([Ferrarin 04, p. 106](#Ferrarin04))
 
+* [[Georg Hegel]], _[[Science of Logic]]_:
+
+> [WdL &#167;55](Science+of+Logic#55) Um dies in die Vorstellung wenigstens aufzunehmen, ist die Meinung auf die Seite zu legen, als ob die Wahrheit etwas Handgreifliches sein m&#252;sse. Solche Handgreiflichkeit wird zum Beispiel selbst noch in die Platonischen Ideen, die in dem Denken Gottes sind, hineingetragen, als ob sie gleichsam existierende Dinge, aber in einer anderen Welt oder Region seien, au&#223;erhalb welcher die Welt der Wirklichkeit sich befinde und eine von jenen Ideen verschiedene, erst durch diese Verschiedenheit reale Substantialit&#228;t habe. Die Platonische Idee ist nichts anderes als das Allgemeine oder bestimmter der Begriff des Gegenstandes; nur in seinem Begriffe hat etwas Wirklichkeit; insofern es von seinem Begriffe verschieden ist, h&#246;rt es auf, wirklich zu sein, und ist ein Nichtiges; die Seite der Handgreiflichkeit und des sinnlichen[44] Au&#223;ersichseins geh&#246;rt dieser nichtigen Seite an.
+
+> &#167;55 To get some idea of this one must discard the prejudice that truth must be something tangible. Such tangibility is, for example, imported even into the Platonic Ideas which are in God's thinking, as if they are, as it were, existing things but in another world or region; while the world of actuality exists outside that region and has a substantial existence distinct from those Ideas and only through this distinction is a substantial reality. The Platonic Idea is the universal, or more definitely the Notion of an object; only in its Notion does something possess actuality and to the extent that it is distinct from its Notion it ceases to be actual and is a non-entity; the side of tangibility and sensuous self-externality belongs to this null aspect. But on the other side, one can appeal to the conceptions of ordinary logic itself; for it is assumed, for example, that the determinations contained in definitions do not belong only to the knower, but are determinations of the object, constituting its innermost essence and its very own nature. Or, if from given determinations others are inferred, it is assumed that what is inferred is not something external and alien to the object, but rather that it belongs to the object itself, that to the thought there is a correspondent being.
+
+
 * [[Georg Hegel]], _[History of Philosophy](https://www.marxists.org/reference/archive/hegel/works/hp/hpconten.htm)_:
 
 > Chapter III: First Period, Third Division
