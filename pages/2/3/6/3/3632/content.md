@@ -125,7 +125,11 @@ Discussion of this can be found for instance in
 
 ### In $E_\infty$-rings
 
-The Postnikov tower of a connective [[E-∞ ring]] is a sequence of [[square-zero extensions]]. [Lurie "Higher Algebra", section 8.4](#LurieAlgebra).
+The Postnikov tower of a connective [[E-∞ ring]] is a sequence of [[square-zero extensions]]. See [Basterra 99](#Basterra99) and [Lurie "Higher Algebra", section 8.4](#LurieAlgebra) (the result is due to [Kriz](#Kriz93)).
+
+### In simplicial commutative rings
+
+(A special case of the above:) The Postnikov tower of a [[simplicial commutative ring]] is a sequence of [[square-zero extensions]]. See [Toen-Vezzosi](#TVHAGII).
 
 ## Properties
 
@@ -160,6 +164,17 @@ Section 6.5...
 For $E_\infty$-rings:  section 8.4 of
 
 * {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
+
+and in more classical language, section 8 of
+
+* {#Basterra99} [[M. Basterra]], _Andre-Quillen cohomology of commutative S-algebras_, J. Pure Appl. Algebra 144 (1999), no. 2, 111&#8211;143.
+
+* {#Kriz93} [[Igor Kriz]], _Towers of $E_\infty$-ring spectra with an application to BP_, preprint, 1993.
+
+For [[simplicial commutative rings]],
+
+* {#TVHAGII} [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
+
 
 [[!redirects Postnikov tower in an (∞,1)-category]]
 [[!redirects Postnikov system in an (∞,1)-category]]
