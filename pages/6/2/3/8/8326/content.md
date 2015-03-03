@@ -250,7 +250,7 @@ Our **paragraph numbering** is as follows:
 | Licht | [[bosonic modality]] $\beta$ | [PN&#167;276](#PN276) |
 | K&#246;rper der Starrheit | [[fermionic modality]] $\epsilon$ | [PN&#167;279](#PN279) |
 | Au&#223;ereinander der Materie | [[unity of opposites]] ($\epsilon \dashv \beta$)   | [PN&#167;290](#PN290)  |
-| opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\epsilon) &\dashv& \rho(\beta) \\ \bot && \bot \\ \rho(\beta) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262](#PN262), [PN&#167;290](#PN290) | 
+| opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\epsilon) &\dashv& \rho(\beta) \\ \bot && \bot \\ \rho(\beta) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) | 
 
 =--
 
@@ -404,6 +404,7 @@ $$
 > &#167;3 Philosophy [Wissenschaft] and ordinary common sense thus co-operating to bring about the downfall of metaphysics, there was seen the strange spectacle of a cultured nation without metaphysics &#8211; like a temple richly ornamented in other respects but without a holy of holies. Theology, which in former times was the guardian of the speculative mysteries and of metaphysics (although this was subordinate to it) had given up this science in exchange for feelings, for what was popularly matter-of-fact, and for historical erudition.
 
 ### Allgemeiner Begriff der Logik
+ {#AllgemeinerBregiffDerLogik}
 
 
 
@@ -2763,7 +2764,19 @@ A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In th
 
 #### Endliche Mechanik -- Materie und Bewegung. 
 
-> {#PN262} PN&#167;262 Die Materie h&#228;lt sich gegen ihre Identit&#228;t mit sich, durch das Moment ihrer Negativit&#228;t, ihrer Abstrakten Vereinzelung, auseinander; die Repulsion der Materie. Ebenso wesentlich ist, weil diese Verschiedenen ein und dasselbe sind, die negative Einheit dieses au&#223;ereinander-seienden F&#252;rsichseins; die Materie is somit kontinuierlich -- ihre Attraktion. Die Materie ist untrennbar beides, und negative Einheit dieser Momente, Einzelnheit, aber gegen das unmittelbare Au&#223;ereinander der Materie noch unterschieden und darum selbst noch nicht als materiell gesetzte, idelle Einzelheit, Mittelpunkt -- die Schwere.
+> {#PN262a} PN&#167;262a Die Materie h&#228;lt sich gegen ihre Identit&#228;t mit sich, durch das Moment ihrer Negativit&#228;t, ihrer Abstrakten Vereinzelung, auseinander; die Repulsion der Materie. 
+
+In modern terminology this intrinsic _repulsion_ which keeps [[solid state physics|solid matter]] from collapsing to a [[condensate]] is the [[degeneracy pressure]] of [[fermion]] [[matter]] induced by the [[Pauli exclusion principle]]. See also [PN&#167;290](#PN290).
+
+> {#PN262b} PN&#167;262b Ebenso wesentlich ist, weil diese Verschiedenen ein und dasselbe sind, die negative Einheit dieses au&#223;ereinander-seienden F&#252;rsichseins; die Materie is somit kontinuierlich -- ihre Attraktion. 
+
+> {#PN262c} PN&#167;262c Die Materie ist untrennbar beides, und negative Einheit dieser Momente, Einzelnheit, aber gegen das unmittelbare Au&#223;ereinander der Materie noch unterschieden und darum selbst noch nicht als materiell gesetzte, idelle Einzelheit, Mittelpunkt -- die Schwere.
+
+{#PN262d} PN&#167;262d Die Schwere ist von der blo&#223;en Attraktion wesentlich zu unterscheiden.
+
+{#PN262e} PN&#167;262e Die Schwere macht die Substantialit&#228;t der Materie aus, diese selbst ist das Streben nach dem -- aber, -- dies ist die andere Wesentliche Bestimmung, au&#223;er ihr fallenden Mittelpunkt.
+
+See also [PN&#167;271](#PN271).
 
 >  PN&#167;262 Matter in itself holds itself apart from itself through the moment of its negativity, diversity, or abstract separation into parts; it has repulsion. Its being apart from itself is just as essential, however, because these differences are one and the same: the negative unity of this existence apart from itself as being for itself, and thus continuous. Matter therefore has attraction. The unity of these moments is gravity.
 
@@ -2790,9 +2803,9 @@ See also on _Science of Logic_ the [Comment on the Construction of Matter from t
 
 ##### Die Totalit&#228;t des Sonnen-Systems
 
+> {#PN271} PN&#167;271 Die Substanz der Materie, die Schwere, zur Totalit&#228;t der Form entwickelt hat das au&#223;ersichsein der Materie nicht mehr au&#223;er ihr. ... Ihr abstraktes dumpfes In-sich-sein, als schwer ueberhaupt, ist zur Form entschlossen, sie ist die qualifizierte Materie; -- Physik.
 
 ### Die Physik
-
 
 
 > PN&#167;218 Gravity, as the essence of matter existing in itself only inner identity, transforms, since its concept is the essential externality, into the manifestation of the essence. As such it is the totality of the determinations of reflection, but these as thrown apart from each other, so that each appears as particular, qualified matter which, not yet determined as individuality, is a formless element. 
@@ -2803,7 +2816,9 @@ See also on _Science of Logic_ the [Comment on the Construction of Matter from t
 
 ###### Das Licht
 
-> {#PN276} PN&#167;276 Also das abstrakte Selbst der Materie ist das Licht das absolute-leichte, und als Materie, und als Materie ist sie unendliches Au&#223;ersichsein aber als reines Manifestieren, materielle Idealit&#228;t untrennbares und einfaches Au&#223;ersichsein
+> {#PN275} PN&#167;275 Die erste qualifizierte Materie... existierende allgemeine Selbst der Materie ist das Licht.
+
+> {#PN276} PN&#167;276 Als das abstrakte Selbst der Materie ist das Licht das absolute-leichte, und als Materie, und als Materie ist sie unendliches Au&#223;ersichsein aber als reines Manifestieren, materielle Idealit&#228;t untrennbares und einfaches Au&#223;ersichsein
 
 We may grant [[light]] here as a placeholder for the modern concept of [[bosons]] and relate "light" to the [[bosonic modality]].
 
@@ -2816,7 +2831,10 @@ This material reality and rigidity opposing _light_ which by [PN&#167;276](#PN27
 rigid matter $\,$ [[fermionic modality]] $\dashv$ [[bosonic modality]] $\,$ light
 
 
+###### Die K&#246;rper der Individualit&#228;t
 
+
+##### Die Elemente
 
 
 
@@ -2827,11 +2845,11 @@ rigid matter $\,$ [[fermionic modality]] $\dashv$ [[bosonic modality]] $\,$ ligh
 
 
 
-In modern terminology, this _asunderness_ (see also [PN&#167;262](#PN262)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the even modality $\dashv$ [[body]]-modality [[adjunction]] on [[super smooth infinity-groupoids]], the [[fermionic modality]] $\dashv$ [[bosonic modality]]. This was identified above in [PN&#167;279](#PN279) with the [[unity of opposites]] between rigid matter and light. Hence we find
+In modern terminology, this _asunderness_ (see also [PN&#167;262c](#PN262c)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the ([[fermionic modality]] $\dashv$ [[bosonic modality]])-[[adjunction]] on [[super smooth infinity-groupoids]]. This was identified above in [PN&#167;279](#PN279) with the [[unity of opposites]] between rigid matter and light. Hence we find
 
 rigid matter $\,$ [[fermionic modality]] $\stackrel{asunderness}{\dashv}$ [[bosonic modality]] $\,$ light
 
-Since there is a further [[right adjoint]] (by the discussion at _[[super smooth infinity-groupoid]]_) we get a second order duality, and since by [PN&#167;262](#PN262) this opposite of _asunderness_ is _Schwere_, i.e. _gravity_ we add to the _[Process](#Process))_ the level:
+Since there is a further [[right adjoint]] (by the discussion at _[[super smooth infinity-groupoid]]_) we get a second order duality, and since by [PN&#167;262c](#PN262c) this opposite of _asunderness_ is _Schwere_, i.e. _gravity_ we add to the _[Process](#Process))_ the level:
 
 $$
   \array{
