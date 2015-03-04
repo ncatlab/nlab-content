@@ -34,7 +34,7 @@ In [[physics]] and especially in [[continuum mechanics]] and [[thermodynamics]],
 
 For instance for a [[solid body]] its [[temperature]] is intensive, but its [[mass]] is extensive: there is a temperature assigned to every point of the body (in the idealization of [[classical mechanics|classical]] [[continuum mechanics]] anyway) but a mass is assigned only to every little "extended" piece of the body, not to a single point.
 
-This terminology in [[physics]] apparently originates with [[Richard Tolman]] in 1917.
+This terminology in [[physics]] appears vaguely in ([Hegel 1812](#Hegel1812)), [Hegel 1817](#Hegel1817)), more precisely in ([Grassmann 1844](#Grassmann1844)) and in its fully modern form is maybe due to [[Richard Tolman]] in 1917.
 
 ### In geometry and algebra
 
@@ -66,7 +66,7 @@ More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corr
 
 The concepts of intensive and extensive quantity are highlighted in
 
-* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+* {#Grassmann1814} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
 
 which states (p. xxiv, xxv) that intensive quantity is the topic of [[differential calculus]] and [[integration]] theory, while extension quantity is the topic of this very _Ausdehnungslehre_.
 
@@ -78,9 +78,11 @@ A formalization in [[categorical logic]]/[[topos theory]] is proposed in
 
 * {#Lawvere86} [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
  
-Lawvere's terminology is probably inspired by  
+Lawvere's terminology is probably (see at _[[objective logic]]_) inspired by  
 
-* [[Georg Hegel]], part II "Philosophy of Nature", second section "Physics", B, in _[[Encyclopedia of the Philosophical Sciences]]_
+* {#Hegel1812} [[Georg Hegel]], section _[Extensives und Intensives Quantum](Science+of+Logic#ExtensiveAndIntensiveQuantity)_, in _[[Science of Logic]]_, 1812
+
+* {#Hegel1817} [[Georg Hegel]], part II "Philosophy of Nature", second section "Physics", B, [&#167;298b](Science+of+Logic#PN298b) in _[[Encyclopedia of the Philosophical Sciences]]_
 
 and meant to be a formalization of this part of the "[[objective logic]]", see also at _[[Science of Logic]]_.
 
