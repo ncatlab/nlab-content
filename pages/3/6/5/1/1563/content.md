@@ -240,6 +240,9 @@ pages 43-56, 1994.
 
   (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
 
+* _Grassmann's Dialectics and Category Theory_, in _Hermann G&#252;nther Gra&#223;mann (1809&#8211;1877): Visionary Mathematician, Scientist and Neohumanist Scholar_, Boston Studies in the Philosophy of Science Volume 187, 1996, pp 255-264 ([publisher](http://link.springer.com/chapter/10.1007%2F978-94-015-8753-2_21))
+
+
 * _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
   (a more formal definition of [[cohesive topos]]es)  
