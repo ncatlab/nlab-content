@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Charles_W._Misner)
+
+## related $n$Lab entries
+
+* _[[Gravitation]]_
+
+category: people
