@@ -1,6 +1,6 @@
 
 
-The first observation of the [[spin]] of [[fermions]].
+The first observation of the [[spin]] of [[fermions]]. Hence, mathematically, of [[supergeometry]].
 
 ## References
 
