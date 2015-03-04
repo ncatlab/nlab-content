@@ -130,6 +130,7 @@ In ([Lawvere 02](#Lawvere92)) it says:
 
 > It is my belief that in the next decade and in the next century the technical advances forged by category theorists will be of value to dialectical philosophy, lending precise form with disputable mathematical models to ancient philosophical distinctions such as general vs. particular, objective vs. subjective, being vs. becoming, space vs. quantity, equality vs. difference, quantitative vs. qualitative etc. In turn the explicit attention by mathematicians to such philosophical questions is necessary to achieve the goal of making mathematics (and hence other sciences) more widely learnable and useable. Of course this will require that philosophers learn mathematics and that mathematicians learn philosophy.
 
+A precursor to this undertaking is [[Hermann Grassmann]] with his _[[Ausdehnungslehre]]_ ([Lawvere 95](#Lawvere95)), see there for more. spring
 
 ## Talks, Lecture notes and Publications
 
