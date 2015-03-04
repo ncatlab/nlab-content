@@ -44,6 +44,10 @@ Indeed, this is the statement of [SoL &#167;174](Science+of+Logic#174): _there i
 
 * [[Hegel]], _[[Science of Logic]]_, Volume One: _The Objective Logic_, Book One: _The Doctrine of Being_, Chapter 1 _Being_, C _Becoming_
 
+
+* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
+
 * {#Lawvere91} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_1991
 
 [[!redirects Werden]]
