@@ -125,7 +125,7 @@ or of [[Zinbiel algebra]]s, see there.
 
 ## Literature 
 
-* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/LodayPira1993%28Leibniz%29.pdf)
+* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/93LodayPira%28Leibniz%29.pdf)
 * J-L. Loday, _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday%28LeibnizConj%29.pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
 * [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
 * Jerry M. Lodder, _Leibniz homology, characteristic classes and K-theory, [K-theory archive/0493](http://www.math.uiuc.edu/K-theory/0493); _Leibniz cohomology and the calculus of variations_, [arXiv:math/9808036](http://arxiv.org/abs/math/9808036)
