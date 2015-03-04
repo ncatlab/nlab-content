@@ -1,0 +1,21 @@
+
+This pages collects material related to the textbook
+
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]],
+
+  _Gravitation_
+
+  1973
+
+on the [[theory (physics)|theory]] of [[Einstein gravity]] ([[general relativity]]).
+
+## Related entries
+
+* [[rubber-sheet analogy of gravity]]
+
+## References
+
+* Wikipediam _[Gravitation (book)](http://en.wikipedia.org/wiki/Gravitation_%28book%29)_
+
+category: reference
+
