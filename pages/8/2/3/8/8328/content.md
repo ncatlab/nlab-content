@@ -66,6 +66,8 @@ A [[category]] equipped with such a notion of being is, naturally, called a _[[c
  
 
 * {#Lawvere91} [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ (1991)
+
+* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
   
 
 * German Wikipedia, _[Sein](http://de.wikipedia.org/wiki/Sein)_
