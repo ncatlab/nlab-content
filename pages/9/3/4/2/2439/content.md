@@ -640,6 +640,10 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 ### Definition
 
+The concept of [[Grassmann algebra]] is due to
+
+* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
 Discussion of superalgebra as algebra in certain [[symmetric monoidal category|symmetric monoidal]] [[tensor categories]] is in 
 
 * [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_ ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
