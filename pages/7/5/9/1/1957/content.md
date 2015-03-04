@@ -52,7 +52,7 @@ by the relations
 
 \[ \label{antisymmetric} v \wedge w = - w \wedge v \]
 
-for all $v, w \in V$.  If we can divide by $2$, then the relations (eq:antisymmetric) imply (eq:alternating), while the converse holds in any characteristic.
+for all $v, w \in V$ ([Grassmann 1844, &#167;37, &#167;55](#Grassmann1844)).  If we can divide by $2$, then the relations (eq:antisymmetric) imply (eq:alternating), while the converse holds in any characteristic.
 
 The exterior algebra of a vector space is also called the **Grassmann algebra** or **alternating algebra**.  It is also denoted $\bigwedge V$, $\bigwedge^\bullet V$, or $Alt V$.
 
@@ -147,8 +147,11 @@ This is really a special case of the previous class of examples, as $\Omega^\bul
 
 ## References
 
-* {#Grassmann44} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+The concept originates in
 
+* {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
+where the graded-commutativity of the exterior product appears in  &#167;37, &#167;55.
 
 For the case of [[modules]] over a [[commutative ring]], see
 
