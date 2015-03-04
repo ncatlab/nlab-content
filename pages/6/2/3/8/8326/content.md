@@ -2366,7 +2366,7 @@ again: Wirklichkeit $\rightarrow$ [[possibility]]
 > {#1235} &#167;1235 Absolute necessity is absolute relation because it is not being as such, but being that is because it is, being as absolute self-mediation. This being is substance; as the final unity of essence and being it is the being in all being; it is neither the unreflected immediate, nor an abstract being standing behind Existence and Appearance, but it is immediate actuality itself and this as absolute reflectedness-into-self, as a subsisting in and for itself. Substance as this unity of being and reflection is essentially the reflective movement [Scheinen] and positedness of itself. The reflective movement is the reflective movement that is self-related, and it is thus that it is; this being is substance as such. Conversely, this being is only the positedness that is identical with itself, and as such it is totality in the form of illusory being, accidentality.
 
 
-So
+This means that
 
 * _substance_ is the unity of being and reflection
 
@@ -2382,7 +2382,9 @@ Since above we identified
 
 the union of the two is the totality of the whole, the full [[differential cohesion|differential]] [[cohesive homotopy type theory]]/[[cohesive (infinity,1)-topos]].
 
-Therefore we label in the _[Process](#Process)_ the $\infty$-topos as its own maximal subcategory as "substance".
+Therefore we label in the _[Process](#Process)_ the $\infty$-topos as its own maximal subcategory $\mathbf{H}$ as "substance".
+
+Notice here that every (higher) topos has two geometric interpretations (see at _[topos -- Idea](topos#Idea)_): on the one hand as a _category of spaces_ and on the other hand as one single [[space]] (see there) itself, the latter at least if it is a [[ringed topos]] or more generally a [[structured (infinity,1)-topos]]. The latter is canonically the case for $\mathbf{H}$, by the discussion at _[differential cohesion -- structure sheaves](differential+cohesion#StructureSheaves)_. Under this interpretation, all the objects (types/concepts) inside $\mathbf{H}$ may naturally be interpreted as _spaces modeled on the space $\mathbf{H}$_, hence as _spaces built out of the substance $\mathbf{H}$_.
 
 A modern imagery may be suggestive here: consider this [[differential cohesion|differential]] [[cohesive homotopy type theory]] coded (as has partially been done already, see the [cohesive HoTT -- References](http://ncatlab.org/nlab/show/cohesive%20homotopy%20type%20theory#References)) in a [[programming language]] such as [[Coq]]. Then it is a piece of _software_, the modern absolute substance. If one now sets out, as the aim is, to use this as a kind of computer algebra system for reasoning about fundamental physics, then this software is farily literally the _substance_ on which the world, nature, is to be modeled. 
 
