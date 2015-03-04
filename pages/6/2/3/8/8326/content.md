@@ -247,10 +247,10 @@ Our **paragraph numbering** is as follows:
 | **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the [[true]] [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
-| Licht | [[bosonic modality]] $\beta$ | [PN&#167;276](#PN276) |
+| Licht | [[bosonic modality]] $\rightsquigarrow$ | [PN&#167;276](#PN276) |
 | K&#246;rper der Starrheit | [[fermionic modality]] $\epsilon$ | [PN&#167;279](#PN279) |
-| Au&#223;ereinander der Materie | [[unity of opposites]] ($\epsilon \dashv \beta$)   | [PN&#167;290](#PN290)  |
-| opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\epsilon) &\dashv& \rho(\beta) \\ \bot && \bot \\ \rho(\beta) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) | 
+| Au&#223;ereinander der Materie | [[unity of opposites]] ($\e \dashv \rightsquigarrow$)   | [PN&#167;290](#PN290)  |
+| opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\e) &\dashv& \rho(\rightsquigarrow) \\ \bot && \bot \\ \rho(\rightsquigarrow) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) | 
 
 =--
 
@@ -297,12 +297,12 @@ $$
     \\ 
     && &&  &&  && \vee & & \vee
     \\
-    && &&  &&  &\stackrel{starre \atop Materie}{}& \rho(\epsilon) & 
-    \stackrel{Aussereinandersein}{\dashv} & \rho(\beta) & \stackrel{Licht}{}
+    && &&  &&  &\stackrel{starre \atop Materie}{}& \rho(\e) & 
+    \stackrel{Aussereinandersein}{\dashv} & \rho(\rightsquigarrow) & \stackrel{Licht}{}
     \\
     && &&  &&  && \bot & \stackrel{Materie}{} & \bot
     \\
-    && &&  &&  && \rho(\beta) & \stackrel{Schwere}{\dashv} & \rho(\,\,)
+    && &&  &&  && \rho(\rightsquigarrow) & \stackrel{Schwere}{\dashv} & \rho(\,\,)
     \\
     && &&  &&  && \vee & & \vee
     \\ 
@@ -1149,6 +1149,7 @@ to be quality, then we get from the [[adjoint triple]]
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 the duality of dualities
+
 
 
 $$
@@ -2829,9 +2830,9 @@ We may grant [[light]] here as a placeholder for the modern concept of [[bosons]
 
 > {#PN279} PN&#167;279 Das Dunkle, zun&#228;chst das Negative des Lichts, ist der Gegensatz gegen dessen abstrakte-identische Idealit&#228;t, -- der Gegensatz an ihm selbst; er hat materielle Realit&#228;t under zerf&#228;llt in sich in die Zweihet, $\alpha$) der k&#246;rperlichen Verschiedenheit, d.i.  des materiellen F&#252;rsichseins, der Starrheit, $\beta$) der Entgegensetzung...
 
-This material reality and rigidity opposing _light_ which by [PN&#167;276](#PN276) we identified with the [[bosonic modality]]  is clearly captured well by its [[left adjoint]], the [[fermionic modality]]. Hence we have a [[unity of opposites]]
+This material reality and rigidity opposing _light_ which by [PN&#167;276](#PN276) we identified with the [[bosonic modality]]  is clearly captured well by its [[left adjoint]], the [[fermionic modality]] $\e$. Hence we have a [[unity of opposites]]
 
-rigid matter $\,$ [[fermionic modality]] $\dashv$ [[bosonic modality]] $\,$ light
+rigid matter $\,$ [[fermionic modality]] $\e \dashv \rightsquigarrow$ [[bosonic modality]] $\,$ light
 
 
 ###### Die K&#246;rper der Individualit&#228;t
@@ -2848,19 +2849,19 @@ rigid matter $\,$ [[fermionic modality]] $\dashv$ [[bosonic modality]] $\,$ ligh
 
 
 
-In modern terminology, this _asunderness_ (see also [PN&#167;262c](#PN262c)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the ([[fermionic modality]] $\dashv$ [[bosonic modality]])-[[adjunction]] on [[super smooth infinity-groupoids]]. This was identified above in [PN&#167;279](#PN279) with the [[unity of opposites]] between rigid matter and light. Hence we find
+In modern terminology, this _asunderness_ (see also [PN&#167;262c](#PN262c)) of matter that opposes its gravitational collapse is the [[Pauli exclusion principle]] obeyed by [[fermions]]. Mathematically this originates in the [[graded algebra|odd grading]] involved in [[superalgebra]]/[[supergeometry]]. In terms of [[adjoint modalities]]/[[unity of opposites]], this is embodied by the [adjoint triple between plain and superalgebra](super+algebra#AdjointTripleBetweenPlainAndSuperalgebra), hence by the ([[fermionic modality]] $\e \dashv \rightsquigarrow$ [[bosonic modality]])-[[adjunction]] on [[super smooth infinity-groupoids]]. This was identified above in [PN&#167;279](#PN279) with the [[unity of opposites]] between rigid matter and light. Hence we find
 
-rigid matter $\,$ [[fermionic modality]] $\stackrel{asunderness}{\dashv}$ [[bosonic modality]] $\,$ light
+rigid matter $\,$ [[fermionic modality]] $\e \stackrel{asunderness}{\dashv} \rightsquigarrow$ [[bosonic modality]] $\,$ light
 
 Since there is a further [[right adjoint]] (by the discussion at _[[super smooth infinity-groupoid]]_) we get a second order duality, and since by [PN&#167;262c](#PN262c) this opposite of _asunderness_ is _Schwere_, i.e. _gravity_ we add to the _[Process](#Process))_ the level:
 
 $$
   \array{
-     \stackrel{starre \atop Materie}{} & \rho(\epsilon) &\stackrel{Aussereinander}{\dashv}& \rho(\beta) & \stackrel{Licht}{}
+     \stackrel{starre \atop Materie}{} & \rho(\e) &\stackrel{Aussereinander}{\dashv}& \rho(\rightsquigarrow) & \stackrel{Licht}{}
      \\
      \bot && \bot
      \\
-     & \rho(\beta) &\stackrel{Schwere}{\dashv}& \rho(\,) 
+     & \rho(\rightsquigarrow) &\stackrel{Schwere}{\dashv}& \rho(\,) 
   }
 $$
 
