@@ -5,6 +5,8 @@
 
 * [[MKR analogy]]
 
+* [[rubber-sheet analogy of gravity]]
+
 ## Related entries
 
 * [[folklore]]
