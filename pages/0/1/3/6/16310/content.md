@@ -42,7 +42,7 @@ Sticking to imagery from [[solid state physics]], these modalities are reminisce
 
 #### Rubber-sheet geometry
 
-Notice further that these modalities induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
+These modalities induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
 
 In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton))
 
@@ -56,18 +56,11 @@ Moreover, these modalities induce an axiomatizatioon of [[Cartan geometry]], hen
 
 A popular imagery for that illustrates the gravitational effect of massive bodies on light by a deformation of spacetime visualizes as an elastic wire frame. This is known as the _rubber-sheet analogy_ for gravity (e.g. [Das 11, p. 69](#Das), [Gabor](#Gabor), [Volk, fig. 4 on p. 537](#Volk)).
 
-$\,$
+This seems to go back to the technical result of ([Sakharov 67](#Sakharov67)), which is informally summarized in the seminal textbook ([Misner-Thorne-Wheeler 73](#MisnerThorneWheeler73)) as saying that
 
-$\,$
+> gravity is "an elasticity of space that arises from particle physics"
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
+Further references discussing the analogy between the mathematical theory of elasticity and that of gravity are collected in ([Tartaglia 95](#Tartaglia95)).
 
 ## Related entries
 
@@ -77,13 +70,37 @@ $\,$
 
 ## References
 
+### As an analogy for topology/differential geometry
+
 * {#Britton} Jill Britton, _[Rubber sheet geometry](http://jwilson.coe.uga.edu/EMT668/EMAT6680.F99/Estes/unit/dayten/topology1.html)_
 
-*  {#Das11} [[Ashok Das]], _Lectures on Gravitation_, WorldScientific 2011 ([publisher](http://www.worldscientific.com/worldscibooks/10.1142/7990), [GoogleBooks](https://books.google.de/books?id=oupB7VUGzGcC&pg=PA69&lpg=PA69&dq=manifold+"rubber-sheet"&source=bl&ots=ajbiJu7T_m&sig=MPsA2KWds_Mmf_UCscieaGVJzJk&hl=en&sa=X&ei=8Ob2VLmSIcvNygOTjoGIBA&ved=0CCUQ6AEwAQ#v=onepage&q=manifold%20%22rubber-sheet%22&f=false))
+### As an analogy for gravity
+
+The "rubber-sheet analogy of gravity" might go back to results in
+
+* {#Sakharov67} [[Andrei Sakharov]], _Vacvuum fluctuations in curved space and the theory of gravitation_, Doklady Akad. Nauk S.S.S.R. 177 70-71 (1967)
+
+which were informally summarized in 
+
+* {#MisnerThorneWheeler73} [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
+
+* [[John Wheeler]], _Sakharov: A man of humility, understanding and leadership_, in _Andrei Sakharov, Facets of a Life_ ([GoogleBooks](https://books.google.co.uk/books?id=BTIziWmTX_0C&pg=PA647#v=onepage&q&f=false))
+
+as saying that gravity is "an elasticity of space that arises from particle physics".
+
+The mathematical similarity between gravity and the physics of elasticity is discussed further in references collected in
+
+* {#Tartaglia95} A. Tartaglia, _Four Dimensional Elasticity and General Relativity_ ([arXiv:gr-qc/9509043](http://arxiv.org/abs/gr-qc/9509043))
+
+The analogy is mentioned for expositional purpose for instance in 
 
 * {#Gabor} Gabor, _[Gravity: Space as a rubber sheet](http://theory.uwinnipeg.ca/users/gabor/black_holes/slide5.html)_
 
 * {#Volk} Greg Volk, _19th Natural Philosophy Alliance Proceedings_ ([online](https://books.google.de/books?id=tZnZAwAAQBAJ&pg=PA537&lpg=PA537&dq=manifold+"rubber-sheet"&source=bl&ots=WAhzUMxkOR&sig=p2qNCPCR9-gnPi6_nb1S_Bz3-AI&hl=en&sa=X&ei=8Ob2VLmSIcvNygOTjoGIBA&ved=0CCIQ6AEwAA#v=onepage&q=manifold%20%22rubber-sheet%22&f=false))
+*  {#Das11} [[Ashok Das]], _Lectures on Gravitation_, WorldScientific 2011 ([publisher](http://www.worldscientific.com/worldscibooks/10.1142/7990), [GoogleBooks](https://books.google.de/books?id=oupB7VUGzGcC&pg=PA69&lpg=PA69&dq=manifold+"rubber-sheet"&source=bl&ots=ajbiJu7T_m&sig=MPsA2KWds_Mmf_UCscieaGVJzJk&hl=en&sa=X&ei=8Ob2VLmSIcvNygOTjoGIBA&ved=0CCUQ6AEwAQ#v=onepage&q=manifold%20%22rubber-sheet%22&f=false))
+
+
+
 
 
 [[!redirects rubber-sheet geometry]]
