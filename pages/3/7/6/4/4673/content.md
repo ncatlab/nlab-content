@@ -36,6 +36,8 @@ If one is interested in tensor products as well, then one gets a generalization 
 
 ## References
 
+* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_ , 1844
+
 * wikipedia [linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)
 * [[Jean Dieudonné]], _Linear algebra and geometry_, Translated from the French Houghton Mifflin Co., Boston, Mass. 1969, 207 pp
 * I. M. Gel&#697;fand, _Lekcii po line&#301;no&#301; algebre_ [2d ed.] Gosudarstv. Izdat. Tehn.-Teor. Lit., Moscow-Leningrad, 1951; Eng. transl: _Lectures on linear algebra_, Interscience Tracts in Pure and Applied Mathematics __9__, 1961 ix+185 pp
