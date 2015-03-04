@@ -461,6 +461,8 @@ In ([Castellani-D'Auria-Fr&#233;, vol 2, section III.3.3](#CastellaniDAuriaFre))
 
 This rheonomy constraint is equivalent to what elsewhere is called "superspace constraints", see ([AFFFTT 98, below (3.12)](#AFFFTT98)).
 
+See also at _[[rheonomy modality]]_.
+
 
 ## Dynamics
 
