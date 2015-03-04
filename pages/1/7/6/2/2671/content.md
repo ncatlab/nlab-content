@@ -55,6 +55,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[Einstein-Hilbert action]], [[Einstein equation]]
 
+* [[rubber-sheet analogy of gravity]]
+
 * [[general covariance]]
 
 * [[Penrose-Hawking theorem]], [[cosmic censorship hypothesis]]
