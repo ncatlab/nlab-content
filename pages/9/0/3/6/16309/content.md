@@ -20,6 +20,10 @@ Physical oscillations (of elastic bodies) are described via a [[wave equation]] 
 
 In fact there are counter-examples, and it is not in general possible to identify a Riemannian manifold from just the spectrum of a Laplace operator. But from a little bit more of information, enhancing the Laplace operator to a _[[spectral triple]]_ it is possible. This theorem due to [[Alain Connes]] is the motivation for the formulation of all of metric geometry via [[spectral triples]], a program which is known as Connes' _[[noncommutative geometry]]_.
 
+## Related concepts
+
+* [[rubber-sheet analogy of gravity]]
+
 ## References
 
 * Wikipedia, _[Hearing the shape of a drum](http://en.wikipedia.org/wiki/Hearing_the_shape_of_a_drum)_
