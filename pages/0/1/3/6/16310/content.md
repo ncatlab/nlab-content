@@ -40,16 +40,18 @@ According to [PN&#167;298](Science+of+Logic#PN298) this elasticity is related to
 
 Sticking to imagery from [[solid state physics]], these modalities are reminiscent of concepts in [infinitesimal strain theory](http://en.wikipedia.org/wiki/Infinitesimal_strain_theory). Notice that this applies to 
 
-> structures built from relatively stiff elastic materials 
+> {#RelativelyStiffElasticity} structures built from relatively stiff elastic materials 
 
 (And so maybe it would be suggestive to rename "differential cohesion" to "elastic cohesion"?)
 
 
 #### Rubber-sheet geometry
+ {#RubberSheetGeometry}
 
 These modalities [above](#InCategoricalLogic) induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
 
-In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton))
+In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton)).
+
 
 #### Rubber-sheet analogy of gravity
 
@@ -66,6 +68,10 @@ This seems to go back to the technical result of ([Sakharov 67](#Sakharov67)), w
 > gravity is "an elasticity of space that arises from particle physics"
 
 Further references discussing the analogy between the mathematical theory of elasticity and that of gravity are collected in ([Tartaglia 95](#Tartaglia95)).
+
+In order to think of not just [[topology]] but [[Riemannian geometry]] in the [above](#RubberSheetGeometry) context of elasticity, the _rigidity_ mentioned [further above](#RelativelyStiffElasticity) seems advisable. A _rigidly elastic_ body is to be expected to produce sound when struck. This is a common imagery in Riemannian geometry, as in "[[hearing the shape of a drum]]".
+
+
 
 ## Related entries
 
