@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Kip_Thorne)
+
+## related $n$Lab entry
+
+* _[[Gravitation]]_
+
+category: people
