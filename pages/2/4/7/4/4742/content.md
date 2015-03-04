@@ -43,6 +43,12 @@ For instance the associativity law in an [[A-infinity algebra]] is the special c
 
 * [[unitality]]
 
+## References
+
+The [[coherence law]] of associativity is stated in 
+
+* [[Hermann Grassmann]], &#167;3 of _[[Ausdehnungslehre]]_, 1844
+
 [[!redirects associativity]]
 [[!redirects associativity law]]
 [[!redirects associativity laws]]
