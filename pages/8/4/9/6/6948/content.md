@@ -109,7 +109,7 @@ This interpretation of universal quantification as the right adjoint to context 
 
 ## Examples
 
-Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numebrs. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
+Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numbers. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
 
 Then the [[dependent product]] 
 
