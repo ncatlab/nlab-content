@@ -1565,6 +1565,9 @@ The [[continuum]].
 ##### A. Die Zahl
 
 ##### B. Extensives und Intensives Quantum
+ {#ExtensiveAndIntensiveQuantity}
+
+[[extensive and intensive quantity]]
 
 ##### C. Die quantitative Unendlichkeit
 
@@ -2893,7 +2896,7 @@ tale Gestalt n&#228;mlich ist da, mechanisch bestimmt, mit solchen Seiten und Wi
 [[elasticity]]
 
 
-> PN&#167;298 {#PN298} Wenn hier und sonst von materiellen Teilen die Rede ist, so sind nicht Atome, noch Molek&#252;le, d. h. nicht abgesondert f&#252;r sich bestehende zu verstehen, sondern nur quantitativ oder zuf&#228;llig unterschiedene, so da&#223; ihre Kontinuit&#228;t wesentlich von ihrer Unterschiedenheit nicht zu trennen ist; die Elastizit&#228;t ist die Existenz der Dialektik dieser Momente selbst. Der Ort des Materiellen ist sein gleichg&#252;ltiges bestimmtes Bestehen; die Idealit&#228;t dieses Bestehens ist somit die als reelle Einheit gesetzte Kontinuit&#228;t, d. i. da&#223; zwei vorher au&#223;ereinander bestehende materielle Teile, die also als in verschiedenen Orten befindlich vorzustellen sind, jetzt in einem und demselben Orte sich befinden. Es ist dies der Widerspruch, und er existiert hier materiell. Es ist derselbe Widerspruch, welcher der Zenonischen Dialektik der Bewegung zum Grunde liegt, nur da&#223; er bei der Bewegung abstrakte Orte betrifft, hier aber materielle Orte, materielle Teile. In der Bewegung setzt sich der Raum zeitlich und die Zeit r&#228;umlich (&#167; 260); die Bewegung f&#228;llt in die Zenonische Antinomie, die unaufl&#246;slich ist, wenn die Orte als Raumpunkte und die Zeitmomente als Zeitpunkte isoliert werden, und die Aufl&#246;sung der Antinomie, d. i. die Bewegung, ist nur so zu fassen, da&#223; Raum und Zeit in sich kontinuierlich sind und der sich bewegende K&#246;rper in demselben Orte zugleich ist und nicht, d. i. zugleich in einem anderen ist, und ebenso derselbe Zeitpunkt zugleich ist und nicht, d. i. ein anderer zugleich ist.  So ist in der Elastizit&#228;t der materielle Teil, Atom, Molek&#252;l, zugleich als affirmativ seinen Raum einnehmend, bestehend gesetzt, und ebenso zugleich nicht bestehend, - als Quantum, in einem als extensive Gr&#246;&#223;e und als nur intensive Gr&#246;&#223;e. 
+> {#PN298} PN&#167;298 Wenn hier und sonst von materiellen Teilen die Rede ist, so sind nicht Atome, noch Molek&#252;le, d. h. nicht abgesondert f&#252;r sich bestehende zu verstehen, sondern nur quantitativ oder zuf&#228;llig unterschiedene, so da&#223; ihre Kontinuit&#228;t wesentlich von ihrer Unterschiedenheit nicht zu trennen ist; die Elastizit&#228;t ist die Existenz der Dialektik dieser Momente selbst. Der Ort des Materiellen ist sein gleichg&#252;ltiges bestimmtes Bestehen; die Idealit&#228;t dieses Bestehens ist somit die als reelle Einheit gesetzte Kontinuit&#228;t, d. i. da&#223; zwei vorher au&#223;ereinander bestehende materielle Teile, die also als in verschiedenen Orten befindlich vorzustellen sind, jetzt in einem und demselben Orte sich befinden. Es ist dies der Widerspruch, und er existiert hier materiell. Es ist derselbe Widerspruch, welcher der Zenonischen Dialektik der Bewegung zum Grunde liegt, nur da&#223; er bei der Bewegung abstrakte Orte betrifft, hier aber materielle Orte, materielle Teile. In der Bewegung setzt sich der Raum zeitlich und die Zeit r&#228;umlich (&#167; 260); die Bewegung f&#228;llt in die Zenonische Antinomie, die unaufl&#246;slich ist, wenn die Orte als Raumpunkte und die Zeitmomente als Zeitpunkte isoliert werden, und die Aufl&#246;sung der Antinomie, d. i. die Bewegung, ist nur so zu fassen, da&#223; Raum und Zeit in sich kontinuierlich sind und der sich bewegende K&#246;rper in demselben Orte zugleich ist und nicht, d. i. zugleich in einem anderen ist, und ebenso derselbe Zeitpunkt zugleich ist und nicht, d. i. ein anderer zugleich ist.  
 
 [[Zeno's paradox of motion]] is what is resolved by modern [[analysis]], by the concept of the [[infinitesimal]], encoded by the [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\Im \dashv \&$
 
@@ -2911,6 +2914,9 @@ $$
   }
 $$
 
+> {#PN298b} PN&#167;298b So ist in der Elastizit&#228;t der materielle Teil, Atom, Molek&#252;l, zugleich als affirmativ seinen Raum einnehmend, bestehend gesetzt, und ebenso zugleich nicht bestehend, - als Quantum, in einem als extensive Gr&#246;&#223;e und als nur intensive Gr&#246;&#223;e. 
+
+[[extensive and intensive quantity]]
 
 
 ##### Der Klang
