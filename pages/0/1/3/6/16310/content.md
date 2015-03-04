@@ -15,7 +15,7 @@
 
 ## Idea
 
-### In physics
+### In solid state physics
 
 In [[physics]], specifically in _[[solid state physics]]_, _elasticity_ is the tendency of solid materials to return to their original shape after being deformed. The mechanics of elastic bodies is the topic of _[infinitesimal strain theory](http://en.wikipedia.org/wiki/Infinitesimal_strain_theory)_.
 
@@ -23,9 +23,14 @@ In [[physics]], specifically in _[[solid state physics]]_, _elasticity_ is the t
 
 Elasticity is commonly used as an illustration via [[analogy]] of the nature of [[space]] in [[physics]], specifically that of [[manifolds]] and [[spacetimes]].
 
-### In natural philosophy
+#### In natural philosophy
 
-In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the _[[cohesion]]_ of some [[substance]] of [[space]]. [[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]] (see there for references), i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
+In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ (1817) there is discussion (in the section _[Physik -- Die Koh&#228;sion](Science%20of%20Logic#Kohaesion)_) of the _[[cohesion]]_ and _elasticity_ of some [[substance]] which Hegel says is is the [[unity of opposites|unity]] of [[space]] and [[time]] ([PN&#167;261](Science%20of%20Logic#PN261)). 
+
+#### In categorical logic / topos theory
+ {#InCategoricalLogic}
+
+[[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]] (see there for references), i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
 
 But Hegel goes on to speak of cohesion being refined to _elasticity_:
 
@@ -42,14 +47,14 @@ Sticking to imagery from [[solid state physics]], these modalities are reminisce
 
 #### Rubber-sheet geometry
 
-These modalities induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
+These modalities [above](#InCategoricalLogic) induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
 
 In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton))
 
 #### Rubber-sheet analogy of gravity
 
 
-Moreover, these modalities induce an axiomatizatioon of [[Cartan geometry]], hence in particular of [[pseudo-Riemannian geometry]] and hence of [[gravity]] ("[[general relativity]]") on these manifolds. 
+Moreover, these modalities [above](#InCategoricalLogic) induce an axiomatizatioon of [[Cartan geometry]], hence in particular of [[pseudo-Riemannian geometry]] and hence of [[gravity]] ("[[general relativity]]") on these manifolds. 
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GPB_circling_earth.jpg/450px-GPB_circling_earth.jpg" alt="mass curving spacetime" /></div>
 
