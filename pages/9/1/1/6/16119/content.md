@@ -1,5 +1,5 @@
 
-[[Euclid]]'s textbook on [[synthetic geometry|synthetic]] [[Euclidean geometry]]
+[[Euclid]]'s series of books on [[synthetic geometry|synthetic]] [[Euclidean geometry]], elementary [[number theory]], and other mathematical topics. 
 
 ## References
 
