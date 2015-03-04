@@ -3,6 +3,8 @@
 
 ## References
 
-* Wikipedia, _[[Euclid's Elements]]_
+* Wikipedia, _[Euclid's Elements](http://en.wikipedia.org/wiki/Euclid%27s_Elements)_ 
+
+* David Joyce's page on Euclid's Elements ([web](http://aleph0.clarku.edu/~djoyce/java/elements/elements.html)) 
 
 [[!redirects Euclid's Elements]]
