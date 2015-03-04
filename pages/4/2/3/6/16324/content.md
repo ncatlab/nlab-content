@@ -30,6 +30,10 @@ Grassmann advertizes his work (p. xxv) as being the theory of _[[extensive quant
 
 Discussion of the book includes
 
+* {#Lawvere96} [[William Lawvere]], _Grassmann's Dialectics and Category Theory_, in _Hermann G&#252;nther Gra&#223;mann (1809&#8211;1877): Visionary Mathematician, Scientist and Neohumanist Scholar_, Boston Studies in the Philosophy of Science Volume 187, 1996, pp 255-264 ([publisher](http://link.springer.com/chapter/10.1007%2F978-94-015-8753-2_21))
+
+and the similar text
+
 * {#Lawvere95} [[William Lawvere]], _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
 
 which says at one point that full appreciation of the _Ausdehnungslehre_ requires concepts of [[category theory]]
