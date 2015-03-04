@@ -73,7 +73,7 @@ Other philosophical systems, Hegel claims, are subsumed by and find their place 
 
 
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  [&#167;62](#62), [&#167;63](#63) this is to claim that the _process_ is indeed being systematically derived and proven ([50](#50), [[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  [&#167;62](#62), [&#167;63](#63) this is to claim that the _process_ is indeed being systematically derived and proven ([&#167;50](#50), [[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). Indeed, the text at times pauses to comment on its own incomprehensibility (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_ or of matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts. Hegel himself acknowledges accomplishments of gnosticism and mysticism for philosophy, but indicates that he regards his system as more refined ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]). In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means. 
 
 In any case, in an ironic meta-contradiction, the harder Hegel tries, by his own account, to make philosophy a _science_, to make it _logical_ and to root it in _observation_, the further he may seem to depart from what is "commonly" understood by these very words.
 
@@ -248,7 +248,7 @@ Our **paragraph numbering** is as follows:
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\&$-[[modal types]] | [PN&#167;254a](#PN254a) |
 | Licht | [[bosonic modality]] $\rightsquigarrow$ | [PN&#167;276](#PN276) |
-| K&#246;rper der Starrheit | [[fermionic modality]] $\epsilon$ | [PN&#167;279](#PN279) |
+| K&#246;rper der Starrheit | [[fermionic modality]] $\e$ | [PN&#167;279](#PN279) |
 | Au&#223;ereinander der Materie | [[unity of opposites]] ($\e \dashv \rightsquigarrow$)   | [PN&#167;290](#PN290)  |
 | opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\e) &\dashv& \rho(\rightsquigarrow) \\ \bot && \bot \\ \rho(\rightsquigarrow) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) | 
 
@@ -2470,6 +2470,7 @@ see also [EL&#167;61](#EL61)
 #### Schluss
 
 
+
 ### Der objektive Begriff / Objectivity
 
 #### Mechanismus
@@ -3142,7 +3143,7 @@ and, apparently following this, according to
 
 * {#Lawvere95} [[William Lawvere]], _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
 
-proposals for formalization of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
+proposals for formalization of Hegel's [[objective logic]] in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
 * {#LawvereComo} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_, 1991
  
