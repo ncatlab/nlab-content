@@ -145,35 +145,35 @@ Hence we get a process of [[adjoint modalities]] of the form
 
 $$
   \array{
-    id &\dashv& id 
+    && id &\dashv& id 
     \\
-    \vee && \vee
+    && \vee && \vee
     \\
-    \e &\dashv& \rightsquigarrow
+    &\stackrel{fermionic}{}& \e &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
     \\
-    \bot && \bot
+    && \bot && \bot
     \\
-    \rightsquigarrow &\dashv& \R
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& \R & \stackrel{rheonomic}{}
     \\
-    \vee && \vee
+    && \vee && \vee
     \\
-    \Re &\dashv& \&
+    &\stackrel{reduced}{} & \Re &\dashv& \& & \stackrel{infinitesimal}{}
     \\
-    \bot && \bot
+    && \bot && \bot
     \\
-    \& &\dashv& \Im
+    &\stackrel{infinitesimal}{}& \& &\dashv& \Im & \stackrel{\text{&#233;tale}}{}
     \\
-    \vee && \vee
+    && \vee && \vee
     \\
-    &#643; &\dashv& \flat
+    &\stackrel{contractible}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
     \\
-    \bot && \bot
+    && \bot && \bot
     \\
-    \flat &\dashv& \sharp
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{differential}{}
     \\
-    \vee && \vee
+    && \vee && \vee
     \\
-    \emptyset &\dashv& \ast
+    && \emptyset &\dashv& \ast
   }
 $$
 
