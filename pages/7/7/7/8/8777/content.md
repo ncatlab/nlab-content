@@ -1709,8 +1709,21 @@ This is discussed in detail at _[[differential cohomology hexagon]]_.
 ### Semantic Layer
  {#SemanticsLayer}
 
+We give now a general abstract formulation of principal connections in any [[cohesive (∞,1)-topos]] $\mathbf{H}$. The structures discussed above turn out to be models for these axioms.
 
 Throughout, let $\mathbb{G}$ be a [[braided ∞-group]] in the given [[cohesive (∞,1)-topos]], write $\mathbf{B}\mathbb{G}$ for its [[delooping]] and assume that this is precisely [[n-truncated]]. Write $\mathbf{B}^2 \mathbb{G}$ for the second delooping, given by the braidedness.
+
+Write $\flat$ for the [[flat modality]] and recall the [[homotopy fiber sequence]] of its [[counit of a comonad|counit]]
+
+$$
+  \mathbf{B}\mathbb{G}
+  \stackrel{\theta_{\mathbf{B}\mathbb{G}}}{\longrightarrow}
+  \flat_{dR} \mathbf{B}^2 \mathbb{G}
+   \stackrel{}{\longrightarrow}
+  \flat \mathbf{B}^2\mathbb{G} \longrightarrow \mathbf{B}^2 \mathbb{G}
+$$
+
+where $\theta_{\mathbf{B}\mathbb{G}}$ is the _[[Maurer-Cartan form]]_ of the group $\mathbf{B}\mathbb{G}$. This will appear as the [[curvature characteristic form]] for $\mathbb{G}$-[[principal ∞-bundles]] now.
 
 +-- {: .num_defn #HodgeFiltration}
 ###### Definition
@@ -1728,7 +1741,35 @@ $$
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_example #TraditionalHodgeFiltrationAsExampleOfGeneralConcept}
+###### Example
+
+Consider $\mathbf{H} = $ [[Smooth∞Grpd]] and for $n \gt 1$ consider $\mathbb{G} \coloneqq \mathbf{B}^{n-1} U(1)$ the [[circle n-group]]. Then  (as in prop. \ref{TheDeRhamResolutionOfConstantFunctions})
+
+$$
+  \flat \mathbf{B}^2\mathbb{G}
+  = 
+  \flat \mathbf{B}{n+1} U(1)
+  \simeq 
+  L DK
+  \left[
+    U(1) \stackrel{\mathbf{d}log}{\to} \mathbf{\Omega}^1 \stackrel{\mathbf{d}}{\to}
+    \cdots
+    \stackrel{\mathbf{d}}{\to}
+    \mathbf{\Omega}^{n+1}_{cl}
+  \right]
+  \,,
+$$
+
+where on the right we have the image of the truncated [[de Rham complex]]/flat smooth Deligne complex, def. \ref{FlatSmoothDeligneComplex}, under the [[Dold-Kan correspondence]] $DK$ followed by [[∞-stackification]] $L$.
+
+
+The traditional [[Hodge filtration]] provides a filtration on this, in the general abstract sense of def. \ref{HodgeFiltration}, whence the terminology.
+ 
+=--
+
+
++-- {: .num_defn #BraidedDifferentialCohomology}
 ###### Definition
 
 Given a $\mathbb{G}$-[[Hodge filtration]], def. \ref{HodgeFiltration}, write $\mathbf{B}\mathbb{G}_{conn^\bullet}$ for the induced cofiltration given by [[homotopy pullback]] of the [[Maurer-Cartan form]] $\theta_{\mathbf{B}\mathbb{G}} \longrightarrow \flat_{dR}\mathbf{B}^2 \mathbb{G}$ along the Hodge filtration, i.e. the left sequence in the following [[pasting diagram]] of [[homotopy pullbacks]]
@@ -1760,12 +1801,34 @@ $$
   }
 $$
 
+We say that $\mathbf{B}\mathbb{G}_{conn}$ here is the coefficient object for $\mathbb{G}$-[[differential cohomology]] (with the given choice of Hodge filtration understood).
+
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+With the choices as in example \ref{TraditionalHodgeFiltrationAsExampleOfGeneralConcept}, then 
+the general abstract def. \ref{BraidedDifferentialCohomology} of $\mathbb{G}$-differential coefficient object is represented by the smooth Deligne complex, def. \ref{TheSmoothDeligneComplex}:
+
+$$
+
+  \mathbf{B}^n U(1)_{conn}
+  \simeq
+  L DK
+  (\mathbf{B}^n U(1)_{conn})_\bullet
+$$
+
+where $L DK$ denotes the [[Dold-Kan correspondence]] followed by [[∞-stackification]].
+
 =--
 
 
 ### Syntactic Layer
 
-> under construciton
+> under construction
 
 #### The dependent curvature type
 
