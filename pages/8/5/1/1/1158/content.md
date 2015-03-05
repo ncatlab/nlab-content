@@ -162,7 +162,7 @@ In any context where these symbols make the evident sense, the Deligne complex o
 
 More generally one considers any [[discrete group]] $A$ and inclusion $A \hookrightarrow \mathcal{O}$ into the [[structure sheaf]], then the corresponding Deligne complex is $A \hookrightarrow \mathcal{O} \stackrel{d}{\to} \Omega^1 \to \cdots \to \Omega^n$.
 
-For definiteness we consider here in detail the Deligne complex in the context of [[differential geometry]] modeled on [[smooth manifolds]]. All variants work essentially directly analogously, but it may be useful to have a specific case in hand.
+For definiteness we consider here in detail the Deligne complex in the context of [[differential geometry]] modeled on [[smooth manifolds]]. All variants work essentially directly analogously, but it may be useful to have a specific case in hand. This discussion overlaps with and is put into a broader context at _[[geometry of physics -- principal connections]]_.
 
 ### Preliminaries on sheaf cohomology
  {#PreliminariesOnSheafCohomology}
