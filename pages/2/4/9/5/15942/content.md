@@ -79,12 +79,12 @@ For each session, there will be one-hour long presentation given by the leader/s
 
 * Session 2 @ Sitzungssaal
 
-| March 5             |    Leader                        |    Topic                   | 
+| March 5 [^2]            |    Leader                        |    Topic                   | 
 | ------------- | --------------------| ---------------- |
 | 13:00 - 14:00   |    Jan Jitse Venselaar     |     Factorization algebras for noncommutative geometry.                           |
 | 14:00 - 14:30   |    tea time                                                     ||
-| 14:30 - 15:30   |    Vadim Alekseev         |                                |
-| 15:30 - 18:00[^1]   |    tea time                                               ||
+| 15:00 - 16:00   |    Vadim Alekseev         |     Groups, operator algebras and ergodic theory.               |
+| 16:00 - 18:00[^1]   |    tea time                                               ||
 
 * Session 3 @ Sitzungssaal
 
@@ -96,6 +96,7 @@ For each session, there will be one-hour long presentation given by the leader/s
 | 15:30 - 18:00[^1]   |    tea time                                               ||
 
 [^1]: The room has been reserved till 18:00 to allow for further discussion.
+[^2]: Please note that the second talk will start at 15:00. 
 
 ### References ###
 {#References}
