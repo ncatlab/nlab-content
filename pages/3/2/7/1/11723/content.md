@@ -18,7 +18,7 @@
 
 ## Idea
 
-Given a [[modal operator|(co-)modal operator]] $\Box$, then a [[type]] $X$ may be called _$\Box$-anti-modal_ if $\Box X \simeq \ast$.
+Given a [[modal operator|(co-)modal operator]] $\Box$, then a [[type]] $X$ may be called _$\Box$-anti-modal_ (or _co-modal_) if $\Box X \simeq \ast$.
 
 Since a type $Y$ is called a _$\Box$-[[modal type]]_ if $\Box Y \simeq Y$, being anti-modal is in a sense indeed the opposite extreme of being modal.
 
@@ -40,3 +40,8 @@ The term "anti-modal type" appears in
 [[!redirects anti-modal types]]
 [[!redirects anti modal type]]
 [[!redirects anti modal types]]
+
+[[!redirects comodal type]]
+[[!redirects comodal types]]
+[[!redirects co-modal type]]
+[[!redirects co-modal types]]
