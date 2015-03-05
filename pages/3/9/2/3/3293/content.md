@@ -31,11 +31,11 @@ In analogy to how a [[smooth manifold]] is a [[manifold]] modeled on a [[Cartesi
 
 ### Fr&#233;chet manifolds
 
-It is possible to define, analog to the finite dimensional case, the notion of smooth functions of [[Fréchet spaces]], see there. Therefore, the usual definition of a manifold carries over word by word:
+It is possible to define, analogous to the finite dimensional case, the notion of [[smooth functions]] between [[Fréchet spaces]], see there. Therefore, the usual definition of _manifold_ carries over word by word:
 
 +-- {: .num_defn}
 ###### Definition
-A **Fr&#233;chet manifold** is a Hausdorff topological space with an atlas of coordinate charts taking their value in Fr&#233;chet spaces, such that the coordinate transition functions are all smooth functions between Fr&#233;chet spaces.
+A **Fr&#233;chet manifold** is a [[Hausdorff topological space]] with an [[atlas]] of [[coordinate charts]] taking their value in [[Fréchet spaces]], such that the coordinate transition functions are all smooth functions between Fr&#233;chet spaces.
 =--
 
 It is possible to generalize some concepts of differential geometry from the finite case to the Fr&#233;chet case, one has to be careful, however:
@@ -87,7 +87,7 @@ where $TM$ is the tangent bundle.
 
 ## Properties
 
-### Embedding of Fr&#233;chet manifolds into diffeological spaces {#RelationBetweenDeffeologicalAndFrechetStructure}
+### Relation to diffeological spaces  {#RelationBetweenDeffeologicalAndFrechetStructure}
 
 We discuss how Fr&#233;chet manifolds form a [[full subcategory]] of that of [[diffeological spaces]].
 
@@ -147,6 +147,8 @@ Standard examples of Fr&#233;chet manifolds are smooth mapping spaces such as th
 * [[convenient manifold]]
 
 * [[F-star-algebra]]
+
+* [[geometry of physics -- smooth sets]]
 
 ## References
 
