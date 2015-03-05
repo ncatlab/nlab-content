@@ -16,7 +16,7 @@
 
 ## Definition
 
-A **finite limit** is a [[limit]] over a [[diagram]] that is a [[finite category]].
+A **finite limit** is a [[limit]] over a [[diagram]] whose shape is a [[finite category]].
 
 More generally, in [[higher category theory]], a finite limit is a [[limit]] of a diagram that is a finite [[(n,r)-category]].
 
