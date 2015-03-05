@@ -20,6 +20,7 @@
 ## Idea
 
 In a [[monoidal category]], there is a notion of [[modules]] over [[monoid objects]] which generalizes the classical notion of [[modules]] over [[rings]].
+This is a special case of [[module over a monad]] where the monad is taken to be $A \otimes -$, with $A$ some [[monoid object]].
 
 ## Definition
 
@@ -293,9 +294,19 @@ This reformulation of linear $G$-[[actions]] in terms of [[modules]] allows to t
 
 ## References
 
-A standard textbook is
+The basic properties of categories of modules over [[monoid objects]] in [[symmetric monoidal categories]] are spelled out in sections 1.2 and 1.3 of
 
-* F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992)
+* Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
+
+A summary is in section 4.1 of
+
+* [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
+
+See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category), and the references at [[modules over a monad]].
+
+For the classical case of the [[symmetric monoidal category]] [[Ab]], a standard textbook is
+
+* F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992).
 
 [[!redirects modules over a monoid]]
 [[!redirects modules over monoids]]
