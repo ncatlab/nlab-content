@@ -16,7 +16,7 @@
 
 ## Idea
 
-Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_. A descending filtration a sequence of [[monomorphisms]] of the form
+Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_. A descending filtration is a sequence of [[monomorphisms]] of the form
 
 $$
    \cdots \hookrightarrow X_{(n)}\hookrightarrow \cdots \hookrightarrow X_{(2)}  
