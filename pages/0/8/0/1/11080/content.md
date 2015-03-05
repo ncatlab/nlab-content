@@ -3,9 +3,7 @@
 
 > previous chapter: _[[ geometry of physics -- coordinate systems|coordinate systems]]_
 
-> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_,
-
-> _[[geometry of physics -- smooth homotopy types]]_
+> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
