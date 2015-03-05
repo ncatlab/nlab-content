@@ -26,7 +26,7 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 ## Definition
  {#Definition}
 
-+-- {: .num_defn}
++-- {: .num_defn #Connectedness}
 ###### Definition
 
 An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $ -1 \leq n \in \mathbb{Z}$ if
@@ -72,10 +72,11 @@ Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphism
 ### General
  {#PropertiesGeneral}
 
-+-- {: .num_prop}
++-- {: .num_prop #ConnectednessViaTruncationComodalness}
 ###### Proposition
 
-An object $X$ is $n$-connected (for $n \geq -2$) precisely if its [[n-truncated object in an (∞,1)-category|n-truncation]] $\tau_{\leq n} X$ is [[generalized the|the]] [[terminal object]] of $\mathbf{H}$.
+An object $X$ is $n$-connected, def. \ref{Connectedness}, precisely if its [[n-truncated object in an (∞,1)-category|n-truncation]] $\tau_{\leq n} X$ is [[generalized the|the]] [[terminal object]] of $\mathbf{H}$ (hence precisely if it is $\tau_{\leq n}$-[[comodal type|comodal]]).
+
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]].
@@ -146,6 +147,7 @@ This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A con
 
 ### The truncated / connected clock
  {#Clock}
+
 
 In a [[hypercomplete (∞,1)-topos]] the $\infty$-connected morphisms are precisely the [[equivalence in an (∞,1)-category|equivalences]].
 
