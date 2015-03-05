@@ -81,24 +81,22 @@ Accordingly, after a phase of great popularity in the philosophical community of
 
 > [&#167;1798](#1798)  formal thinking lays down for its principle that contradiction is unthinkable; but as a matter of fact the thinking of contradiction is the essential moment of the Notion.
 
-However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and [[type theory]] subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing (review includes [Rodin 14](#Rodin14)), more or less explicitly and apparently ([Lawvere 95](#Lawvere95)) inspired by ([Grassmann 1844](#Grassmann1844)), that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_ as well as the concepts of _[[objective logic]]_ and _[[subjective logic]]_ as such ([Law94b](#Lawvere94b)) have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept and terminology of _[[category]]_, _[[modality]]_, _[[theory]]_ and _[[doctrine]]_ matches well under this translation from [[philosophy]] to [[categorical logic]].
+However, there is more to formal logic than plain predicate logic. [[foundations|Foundational]] systems of [[categorical logic]] and of [[type theory]] (which happens to have its roots in ([Russell 08](type+theory#Russell08))) subsume first-order logic but also allow for richer [[category theory|category-theoretic]] [[universal constructions]] such as notably [[adjunctions]] and [[modal operators]] (see at _[[modal type theory]]_). That [[adjunctions]] stand a good chance of usefully formalizing recurring themes of _[[duality]]_ (of opposites) in philosophy was observed in the 1980s ([Lambek 82](#Lambek82)) notably by [[William Lawvere]]. Since then, Lawvere has been proposing (review includes [Rodin 14](#Rodin14)), more or less explicitly and apparently ([Lawvere 95](#Lawvere95)) inspired by ([Grassmann 1844](#Grassmann1844)), that at least some key parts of Hegel's _Logic_, notably his concepts of _[[unity of opposites]]_, of _[[Aufhebung]]_ (sublation) and of _[[abstract general, concrete general and concrete particular]]_ as well as the concepts of _[[objective logic]]_ and _[[subjective logic]]_ as such ([Law94b](#Lawvere94b)) have an accurate, useful and interesting formalization in [[categorical logic]]. Not the least, the concept and terminology of _[[category]]_, _[[modality]]_, _[[theory]]_ and _[[doctrine]]_ matches well under this translation from [[philosophy]] to [[categorical logic]].
 
 [[Lawvere]] also proposed formalizations in [[category theory]] and [[topos theory]] of various terms appearing prominently in Hegel's _[[Encyclopedia of the Philosophical Sciences|Philosophy of Nature]]_, such as the concept of _[[intensive or extensive quantity]]_  and of _[[cohesion]]_. While, when taken at face value, these are hardly deep concepts in [[physics]], and were not at Hegel's time, in Lawvere's formalization and then transported to [[homotopy type theory]] (as [[cohesive homotopy type theory]]), they do impact on open problems in fundamental physics and even in pure mathematics (see also at _[Have professional philosophers contributed to other fields in the last 20 years?](http://philosophy.stackexchange.com/a/9814/5473)_), a feat that the comparatively simplistic mathematics that is considered in [[analytic philosophy]] seems to have little chance of achieving.
 
 > [Lawvere 92](#Lawvere92): It is my belief that in the next decade and in the next century the technical advances forged by category theorists will be of value to dialectical philosophy, lending precise form with disputable mathematical models to ancient philosophical distinctions such as general vs. particular, objective vs. subjective, being vs. becoming, space vs. quantity, equality vs. difference, quantitative vs. qualitative etc. In turn the explicit attention by mathematicians to such philosophical questions is necessary to achieve the goal of making mathematics (and hence other sciences) more widely learnable and useable. Of course this will require that philosophers learn mathematics and that mathematicians learn philosophy.
 
 
-Therefore:
 
 
 +-- {: bluebox #nPOVRemark}
 ###### nPOV
 
-While going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization, inspired by various suggestions by [[William Lawvere]] (an [[nPOV]]). The way this formalization dictionary works is summarized below in _[The formalization dictionary](#FormalizationDictionary)_. A diagram showing the resulting process is in _[Overview of the formalization process](#OverviewOfTheFormalizationProcess)_.
+Therefore, while going through Hegel's text, this page here attempts to spell out as much as seems possible the translation of the system to a [[category theory|category-theoretic]] or [[modal type theory|modal]] [[type theory|type-theoretic]] formalization (an "[[nPOV]]"). The way this formalization works in general is indicated below in _[Formalization of unities of opposite determinations](#OppositesAndUnity)_;  a dictionary version of the formalization that we arrive at is in  _[The formalization dictionary](#FormalizationDictionary)_; and diagram showing the resulting process is in _[Survey diagram](#OverviewOfTheFormalizationProcess)_.
 
 =--
 
-(Ironically, the [[type theory]] which, this way, may be argued to provide intelligibility for Hegel's _Logic_, goes back, ultimately, to [[Bertrand Russell]]'s theory of [[ramified types]] laid out in his _[[Principia Mathematica]]_.)
 
 
 #Contents#
@@ -111,63 +109,144 @@ While going through Hegel's text, this page here attempts to spell out as much a
 ## Formalization in Categorical logic / in  Modal type theory
  {#FormalizationOfTheProcess}
 
+We introduce and survey here the formalization of Hegel's Logic
+in [[categorical logic]]/[[type theory]], in the vein of the [above remark](Science+of+Logic#nPOVRemark),
+which is discussed incrementally in the main text below.
 
-### Formalization of Unity of Opposites
+1. _[Formalization of unities of opposite determinations](#OppositesAndUnity)_
+
+1. _[Formalization dictionary](#FormalizationDictionary)_
+
+1. _[Survey diagram](#OverviewOfTheFormalizationProcess)_
+
+### Formalization of unities of opposite determinations
  {#OppositesAndUnity}
 
-On p. 11 of _[Cohesive toposes and Cantor's Lauter Einsen](#LawvereLauterEinsen)_ [[William Lawvere]] proposes that these _triads_ of [[unity of opposites]] are captured by [[adjoint pairs]] of [[idempotent]] [[monads]]/[[comonads]] ("[[adjoint cylinders]]"), such as
+A _determination of being_ or _mode of being_ we identify with a [[modality]] in the sense of [[modal type theory]]. These [[modal operators]] come in two different flavors, either as [[idempotent monads]] (on the type system, see at _[[monad in computer science]]_) or as idempotent [[comonads]]. It is useful to agree to match this terminology as follows:
 
-$\flat \dashv \sharp$
+| [[modal type theory]] | [[category theory]]    |
+|-----------------------|------------------------|
+| [[comodality]]        | [[idempotent monad]]   |
+| [[modality]]          | [[idempotent comonad]] |
 
-[[flat modality]] $\dashv$ [[sharp modality]]
 
-This gives unifying triples of the form
+The _mode of being_ or _determination of being_ 
+expressed by a modality is that enjoyed by all its [[modal types]],
+while for a comodality it is that enjoyed by all its [[comodal types]].
+
+By the discussion at _[[unity of opposites]]_, we formalize these by [[adjunctions]] between such (co-)[[modal operators]].  
+
+There are two kinds of oppositions, depending on whether the modality is [[left adjoint]] to the comodality
+
+$$
+  Mod \dashv CoMod
+$$
+
+or [[right adjoint]] to it
+
+$$
+  CoMod \dashv Mod
+  \,.
+$$
+
+
+The [[unit of a monad|unit]] of the comodality
+and the [[counit of a comonad|counit]] of the modality
+produce for every [[object]]/[[type]]/concept $X$ a
+sequence
+
 
 $$
   \array{
-    \flat X &\longrightarrow& X &\longrightarrow& \sharp X
+    Mod X &\longrightarrow& X &\longrightarrow& CoMod X
     \\
     \\
     opposite\;1 && unity && opposite\;2
   }
-  \,.
 $$
 
-for any [[type]] $X$.
-
-
-Several examples of this appear below.
-
-Notice that indeed a fair bit of structure follows from maps of this form.
-
-For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $&#643; \dashv \flat$,
-we have, as discussed at _[[differential cohomology hexagon]]_, that the dualities generate for each type a hexagonal web of which the above unifying tripl is the bottom stage.
+which expresses $X$ as in between the opposites $Mod X$ and $CoMod X$.
+In fact, for the fine analysis it matters that this sequence of oppositions
+refines to a [[differential hexagon|hexagon]] of [[fracture squares]],
+which for [[stable homotopy types]] $A$ is of this form:
 
 $$
   \array{
-    &&  &#643;_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
+    &&  CoMod_{dR} \Omega A && \longrightarrow && Mod_{dR} \Sigma A
     \\
-    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
+    & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat &#643;_{dR} \Omega A  && && A && && &#643; \flat_{dR}\Sigma A
+    Mod CoMod_{dR} \Omega A  && && A && && CoMod Mod_{dR} \Sigma A
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{&#643; \theta_A}}
+    & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
-    && \flat A && \longrightarrow && &#643; A
+    && Mod A && \longrightarrow && CoMod A
   }
   \,,
 $$
 
-This appears below in two stages, first in the Seinslogik at around [&#167;714](#714), and then ("reflected") in the Wesenslogik around [&#167;989](#989).
+
+If a (co-)modality has both a left and a right adjoint
+(i.e. it participates in an [[adjoint triple]]), then we take this to
+be an _opposition of oppositions_ or _second order opposition_,
+where it is two unities of previous opposites that are now in turn 
+opposing each other:  in the diagrams of [[adjoint triples]]
+
+$$
+  \array{
+    CoMod_1 &\stackrel{Unity_1}{\dashv}& Mod
+    \\
+    \bot && \bot
+    \\
+    Mod &\stackrel{Unity_2}{\dashv}& CoMod_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    Mod_1 &\stackrel{Unity_1}{\dashv}& CoMod
+    \\
+    \bot && \bot
+    \\
+    CoMod &\stackrel{Unity_2}{\dashv}& Mod_2
+  }
+$$
+
+the first stage of oppositions are horizontal as before,
+while the vertical adjunctions express the opposition of the
+unities of these.
+
+
+All this appears below in three stages, 
+
+1. in the Seinslogik at around [&#167;714](#714), where the modalities are implemented in a bare [[homotopy type theory]];
+
+1. then "reflected" in the Wesenslogik around [&#167;989](#989), where the type theory is now equipped with a [[type universe]] and where every modality $Mod$ now has a "reflection" $'Mod'$ in the type universe;
+
+1. then "externalized" in Nature, given by a [[model]]  $\rho$ of this [[modal type theory]] on a particular [[(infinity,1)-topos]] $\mathbf{H}$, where now every abstract modality $Mod$ has a representation $\rho(Mod)$ as an actual [[(infinity,1)-comonad]] on $\mathbf{H}$.
 
 ### Formalization dictionary
  {#FormalizationDictionary}
 
-[[Hegel]]'s "Science of Logic" may seem rather mysterious. Over the decades, [[William Lawvere]] had suggested, more or less explicitly, that parts of it are usefully understood as being about -- or conversely as being formalized and hence interpreted by -- aspects of [[categorical logic]]. For instance Lawvere suggested that the recurring notion of "unity and identity of opposites" is usefully thought of in terms of certain [[adjunctions]], as discussed in _[Formalization of Unity of Opposites](#OppositesAndUnity)_ and _[[Aufhebung]]_.
+We here survey in the form of a dictionary which concepts in 
+Hegel's Logic we are formalizing by which structure in [[modal type theory]]
+according to the general procedure laid out [above](#OppositesAndUnity).
+Each entry of the dictionary is equipped with citations pointing to 
+those paragraphs in Hegel's texts, as well as to parts of the secondary literature,
+which we argue, below, as suggesting and supporting this identification.
 
-In view of this one may notice that modern [[foundations]] of [[constructive mathematics]] via [[type theory]] and in particular via [[homotopy type theory]] may offer more opportunities like this to give Hegel's intuitions a formalized home or incarnation in a useful way. 
+Of course, as with the formalization of anything 
+that is vague and informal, this identification
+involves choices that are subjective, based on one's sense of the
+mathematics, the philosophy and notably the 
+mystic speculative poetry that is the very nature of Hegel's work.
+Hence this table should be regarded as a proposal whose purpose is not
+to claim a formalization set in stone, but to provide a convenient 
+survey and summary of what is happening in the bulk text below.
 
-The following table lists proposals for possible such identifications. The content to follow below means to provide for each keyword commented passages in the _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject to debate. 
+
 
 Our **paragraph numbering** is as follows:
 
@@ -205,7 +284,6 @@ Our **paragraph numbering** is as follows:
 | Aufhebung | [[Aufhebung]], inclusion of adjoint modality in higher [[level of a topos|level]] | [Law89](Aufhebung#Law89b) |
 | **Objektive Logik** |    |  |
 | **Seinslogik** | **[[modal type theory]]** | [Law94b](#Lawvere94b) |
-| moment of two negations, something | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] | [&#167;210](#210) |
 | [[being]], One  | [[unit type]] $\ast$ | [&#167;86](#86), [&#167;132](#132), [&#167;1663](#1663) |
 | [[nothing]] | [[empty type]] $\emptyset$ | [&#167;133](#133) |
 | [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [[Some Thoughts on the Future of Category Theory|Law91]] |
@@ -219,7 +297,7 @@ Our **paragraph numbering** is as follows:
 | moment of continuity | [[sharp modality]] $\sharp$ |  |
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
-| vanishing of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
+| non-being of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
 | being-for-one | [[infinitesimal flat modality]] $\Im$ | [&#167;322](#322) |
 | being-for-self | [[infinitesimal shape modality]] $\& $ | [&#167;305](#305) |
 | ideality (inf. quality) | [[unity of opposites]] ($ \& \dashv \Im$ ) | [&#167;305](#305), [&#167;322](#322)   |
@@ -254,19 +332,13 @@ Our **paragraph numbering** is as follows:
 
 =--
 
-Notice that the [above dictionary](#Dictionary) involves the first two stages in the tower of [[n-truncation modalities]]:
 
-| $n$ | [[n-truncation modality]] |
-|--|--|
-| -2 | [[unit type]] modality |
-| -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
-| $\vdots$ | $\vdots$ |
-
-### Overview of the formalized process
+### Survey diagram
  {#OverviewOfTheFormalizationProcess}
 
 The following diagram means to show the development of the system as formalized
-[above](#FormalizationDictionary). Unities of opposites at a given stage are shown as [[adjoint modalities]] organized horizontally. There are different ways in which passage happens vertically:
+[above](#FormalizationDictionary). Unities of opposites at a given stage are shown as [[adjoint modalities]] organized horizontally. 
+As discussed [above](#OppositesAndUnity), there are different ways in which passage happens vertically:
 
 1. further determinations of being (these are the transitions within each book of the system)
 
@@ -360,7 +432,7 @@ $$
     \\
     {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
     \\
-    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& \&
+    && && &&& \stackrel{{Nichtsein\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& \& & \stackrel{{Sein\;der}\atop{Infinitesimalen}}{}
     \\
     && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{}{}& \bot 
     \\
@@ -2483,6 +2555,7 @@ see also [EL&#167;61](#EL61)
 > {#1599} &#167;1599 However unsatisfactory, therefore, the discussion of the teleological principle is in respect of its essential point of view, nevertheless the position that Kant gives to it is worthy of note. In ascribing it to a reflective judgment, he makes it a connecting middle term between the universal of reason and the individual of intuition; further, he distinguishes this reflective judgment from the determining judgment, the latter merely subsuming the particular under the universal. Such a universal which merely subsumes, is an abstraction which only becomes concrete in something else, in the particular. End, on the contrary, is the concrete universal, which possesses in its own self the moment of particularity and externality and is therefore active and the urge to repel itself from itself. The Notion, as end, is of course an objective judgment in which one determination, the subject, namely the concrete Notion, is self-determined, while the other is not merely a predicate but external objectivity. But the end relation is not for that reason a reflective judging that considers external objects only according to a unity, as though an intelligence had given this unity for the convenience of our cognitive faculty; on the contrary it is the absolute truth that judges objectively and determines external objectivity absolutely. Thus the end relation is more than judgment; it is the syllogism of the self-subsistent free Notion that unites itself with itself through objectivity.
 
 [[concrete general]]
+
 
 ##### Der subjektive Zweck
 
