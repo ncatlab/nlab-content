@@ -157,11 +157,11 @@ $$
     \\
     && \vee && \vee
     \\
-    &\stackrel{reduced}{} & \Re &\dashv& \& & \stackrel{infinitesimal}{}
+    &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
     \\
     && \bot && \bot
     \\
-    &\stackrel{infinitesimal}{}& \& &\dashv& \Im & \stackrel{\text{&#233;tale}}{}
+    &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
     \\
     && \vee && \vee
     \\
