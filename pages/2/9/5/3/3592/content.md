@@ -36,7 +36,7 @@ Here is an alternative formulation:
 An algebraic lattice is a [[poset]] which is [[locally finitely presentable category|locally finitely presentable]] as a category. 
 =-- 
 
-This formulation suggests useful a way of viewing algebraic lattices in terms 
+This formulation suggests a useful way of viewing algebraic lattices in terms 
 of [[Gabriel-Ulmer duality]] (but with regard to enrichment in [[truth values]], instead of in $Set$). 
 
 As this last formulation suggests, algebraic lattices typically arise as [[subobject lattices]] for objects in locally finitely presentable categories. As an example, for any (finitary) [[Lawvere theory]] $T$, the subobject lattice of an object in $T$-$Alg$ is an algebraic lattice (this class of examples explains the origin of the term "algebraic lattice", which is due to Garrett Birkhoff). In fact, all algebraic lattices arise this way (see Theorem \ref{GS} below). 
