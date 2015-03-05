@@ -24,7 +24,7 @@
 
 * ([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]) 
 
-  $(\Re \dashv \& \dashv \Im)$
+  $(\Re \dashv \Im \dashv \&)$
 
   * [[reduced object]], [[coreduced object]], [[formally smooth object]]
 
@@ -32,21 +32,44 @@
 
   * [structures in differential cohesion](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StructuresInDifferentialCohesion)
 
+**[[super smooth infinity-groupoid|graded differential cohesion]]**
+
+* [[fermionic modality]] $\dashv$ [[bosonic modality]] $\dashv$ [[rheonomy modality]]
+
+  $(\e \dashv \rightsquigarrow \dashv R)$
+
+
 
 $$
   \array{
-     id & \dashv & id
-     \\
-     \vee && \vee
-     \\
-     \Re &\dashv& \& &\dashv& \Im
-     \\
-      && \vee && \vee
-     \\
-     && &#643; &\dashv& \flat &\dashv& \sharp
-     \\
-     && && \vee && \vee
-     \\
-     && && \emptyset &\dashv& \ast
+    && id &\dashv& id 
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{fermionic}{}& \e &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& \R & \stackrel{rheonomic}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{contractible}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{differential}{}
+    \\
+    && \vee && \vee
+    \\
+    && \emptyset &\dashv& \ast
   }
 $$
