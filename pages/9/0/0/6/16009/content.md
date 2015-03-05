@@ -1,7 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
 
 [[philosophy]] of science
 
 * [[philosophy of physics]]
 
 * [[philosophy of mathematics]]
+
+
+## References
+
+
+* {#Friedman01} [[Michael Friedman]], _The idea of scientific philosophy_, chapter 1 in  _Dynamics of Reason_, Chicago 2001 ([chapter pdf](http://web.stanford.edu/group/cslipublications/cslipublications/pdf/1575862921.pdf), [publisher webpage](http://press.uchicago.edu/ucp/books/book/distributed/D/bo3634648.html))
