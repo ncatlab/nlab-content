@@ -29,27 +29,27 @@ In a context of [[differential cohesion]] the _infinitesimal shape modality_ or 
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  \Re \dashv \& \dashv \Im
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $\Re$ and $\Im$ are [[idempotent monad|idempotent]] [[comonads]] and $\& $ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im $ is an [[idempotent monad]].
 
-Here $\& $ is the **infinitesimal shape modality**. The [[reflective subcategory]] that it defines is that of [[coreduced objects]].
+Here $\Im $ is the **infinitesimal shape modality**. The [[reflective subcategory]] that it defines is that of [[coreduced objects]].
 
 ## Properties
 
 ### Relation for formally &#233;tale morphisms
 
-The [[modal types]] of $\& $ in the context of some $X$, i.e. those $(Y\to X) \in \mathbf{H}_{/Y}$ for which the naturality square of the $\& $-[[unit of a monad|unit]] 
+The [[modal types]] of $\Im $ in the context of some $X$, i.e. those $(Y\to X) \in \mathbf{H}_{/Y}$ for which the naturality square of the $\Im $-[[unit of a monad|unit]] 
 
 $$
   \array{
-     X &\longrightarrow& \& X
+     X &\longrightarrow& \Im X
      \\
      \downarrow && \downarrow
      \\
-     Y &\longrightarrow& \& Y
+     Y &\longrightarrow& \Im Y
   }
 $$
  
@@ -57,7 +57,7 @@ is a ([[homotopy pullback|homotopy]]) [[pullback]] square, are the [[formally é
 
 ### Relation to de Rham spaces
 
-For $X$ a [[geometric homotopy type]], the result of applying the infinitesimal shape modality yields a type $ \& X$ which has the interpretation of the [[de Rham space]] of $X$. See there for more.
+For $X$ a [[geometric homotopy type]], the result of applying the infinitesimal shape modality yields a type $ \Im X$ which has the interpretation of the [[de Rham space]] of $X$. See there for more.
 
 ### Relation to jet bundles
 
@@ -65,7 +65,7 @@ For $E$ a [[dependent type]] on $X$, its [[dependent product]] along the [[unit 
 
 ### Relation to crystalline cohomology
 
-The [[cohomology]] of $\& X$ has the interpretation of [[crystalline cohomology]] of $X$. See there for more.
+The [[cohomology]] of $\Im X$ has the interpretation of [[crystalline cohomology]] of $X$. See there for more.
 
 ## Related concepts
 
