@@ -21,7 +21,7 @@
 
 A [[cohesive (∞,1)-topos]] is a context of [[∞-groupoid]]s that are equipped with a [[geometry|geometric]] notion of _cohesion_ on their collections of [[object]]s and [[k-morphism]]s, for instance [[Euclidean-topological ∞-groupoid|topological cohesion]] or [[smooth ∞-groupoid|smooth cohesion]].
 
-While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal spaces]], they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension. 
+While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal spaces]], they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension.
 
 Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of _differential cohesion_ .
 
@@ -30,12 +30,12 @@ In a cohesion $(\infty,1)$-topos with differential cohesion there are for instan
 ## Differential cohesion
 
 We discuss [[extra structure]] on a [[cohesive (∞,1)-topos]]
-that encodes a refinement of the corresponding notion of cohesion to 
+that encodes a refinement of the corresponding notion of cohesion to
 _[[infinitesimal object|infinitesimal]] cohesion_ . More precisely, we consider inclusions
-$\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ of cohesive 
+$\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ of cohesive
 
 $(\infty,1)$-toposes that exhibit the objects of $\mathbf{H}_{th}$
-as infinitesimal cohesive neighbourhoods of objects in 
+as infinitesimal cohesive neighbourhoods of objects in
 $\mathbf{H}$.
 
 ### Definition
@@ -45,13 +45,13 @@ $\mathbf{H}$.
 +-- {: .num_defn #InfinitesimalCohesiveInfTopos}
 ###### Definition
 
-Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
+Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that
 an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
 is another cohesive $(\infty,1)$-topos $\mathbf{H}_{th}$
 equipped with an  [[adjoint quadruple]] of [[adjoint (∞,1)-functors]] of the form
 
 $$
-  (i_! \dashv i^* \dashv i_* \dashv i^!) : 
+  (i_! \dashv i^* \dashv i_* \dashv i^!) :
   \mathbf{H}
     \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\hookrightarrow}}{\underset{i^!}{\leftarrow}}}}
   \mathbf{H}_{th}
@@ -85,7 +85,7 @@ This implies that also $i_*$ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s 
+By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s
 the condition on $i_!$ is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \dashv i^* i_*)$ it follows by essential uniqueness of [[adjoint (∞,1)-functor]]s that also $i^* i_* \simeq Id$.
 
 =--
@@ -93,12 +93,12 @@ the condition on $i_!$ is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \da
 +-- {: .num_remark}
 ###### Remark
 
-This definition captures the characterization of an [[infinitesimal object]] as having a single [[global element|global point]] surrounded by an infinitesimal neighbourhood: as we shall see in more detail [below](#InfinitesimalPathsAndReduction), the [[(∞,1)-functor]] $i^*$ may be thought of as contracting away any infinitesimal extension of an object. Thus $X$ being an [infinitesimal object](#InfinitesimalObject) amounts to  $i^* X \simeq *$, and the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(i_! \dashv i^*)$ then indeed guarantees that $X$ has only a single global point, since 
+This definition captures the characterization of an [[infinitesimal object]] as having a single [[global element|global point]] surrounded by an infinitesimal neighbourhood: as we shall see in more detail [below](#InfinitesimalPathsAndReduction), the [[(∞,1)-functor]] $i^*$ may be thought of as contracting away any infinitesimal extension of an object. Thus $X$ being an [infinitesimal object](#InfinitesimalObject) amounts to  $i^* X \simeq *$, and the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(i_! \dashv i^*)$ then indeed guarantees that $X$ has only a single global point, since
 
 $$
   \begin{aligned}
-    \mathbf{H}_{th}(*, X) 
-      & \simeq \mathbf{H}_{th}(i_! *, X) 
+    \mathbf{H}_{th}(*, X)
+      & \simeq \mathbf{H}_{th}(i_! *, X)
       \\
       & \simeq \mathbf{H}(*, i^* X)
       \\
@@ -123,7 +123,7 @@ $$
      \\
      & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
      \\
-     && \infty Grpd 
+     && \infty Grpd
   }
 $$
 
@@ -132,12 +132,12 @@ $(i_* \dashv i^!) : \mathbf{H}_{th} \to \mathbf{H}$
 
 $$
   \array{
-     \mathbf{H}_{th} && \stackrel{(i_* \dashv i^!)}{\to} 
+     \mathbf{H}_{th} && \stackrel{(i_* \dashv i^!)}{\to}
       && \mathbf{H}
      \\
      & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
      \\
-     && \infty Grpd 
+     && \infty Grpd
   }
   \,.
 $$
@@ -156,13 +156,13 @@ that preserves the [[terminal object]]. Therefore
 $$
   \begin{aligned}
     \Gamma_{\mathbf{H}_{th}}( i_* X )
-    & 
+    &
     \simeq
     \mathbf{H}_{th}(*, i_* X)
     \\
     & \simeq \mathbf{H}(i^* *, X)
     \\
-    & 
+    &
     \simeq \mathbf{H}(*, X)
     \\
     & \simeq \Gamma_{\mathbf{H}}(X)
@@ -175,11 +175,11 @@ Analogously in the second case.
 =--
 
 
-We shall write 
+We shall write
 
 $$
   (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
-  := 
+  :=
   (i^* \dashv i_* \dashv i^!)
 $$
 
@@ -200,9 +200,9 @@ We also consider the [[(∞,1)-monads]]/comonads induced from these reflections:
 
 1. the [[reduction modality]] $\Re \coloneqq i_! i^\ast$ ;
 
-1. the [[infinitesimal shape modality]] $&#643;_{inf} \coloneqq i_\ast i^\ast$;
+1. the [[infinitesimal shape modality]] $\Im \coloneqq i_\ast i^\ast$;
 
-1. the [[infinitesimal flat modality]] $\flat_{inf} \coloneqq i_* i^!$.
+1. the [[infinitesimal flat modality]] ${\&}  \coloneqq i_* i^!$.
 
 The above says that these interact with the modalities of the ambient cohesion, i.e.
 
@@ -220,15 +220,15 @@ $$
       \\
      && && \bot
       \\
-      && &#643; & \subset & &#643;_{inf}
+      && &#643; & \subset & \Im
       \\
-      && \bot && \bot 
+      && \bot && \bot
       \\
-      \emptyset &\subset& \flat & \subset & \flat_{inf}
+      \emptyset &\subset& \flat & \subset & {\&}
       \\
-      \bot & & \bot && 
+      \bot & & \bot &&
       \\
-      \ast & \subset& \sharp      
+      \ast & \subset& \sharp
    }
 $$
 
@@ -249,17 +249,17 @@ We give a presentation of classes of infinitesimal neighbourhoods by [[simplicia
 +-- {: .num_defn #InfinitesimalNeighBourhoodSite}
 ###### Definition
 
-Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$ 
+Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$
 
 * equipped with a [[coreflective subcategory|coreflective embedding]]
 
   $$
-    (i \dashv p) : 
+    (i \dashv p) :
      C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}}
     C_{th}
   $$
 
-* such that 
+* such that
 
   * $i$ preserves [[pullback]]s along morphisms in [[covering]] families;
 
@@ -275,7 +275,7 @@ is an **infinitesimal neighbourhood site** of $C$.
 +-- {: .num_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
 ###### Proposition
 
-Let $C$ be an [[∞-cohesive site]] and  $(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite). 
+Let $C$ be an [[∞-cohesive site]] and  $(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite).
 
 Then the [[(∞,1)-category of (∞,1)-sheaves]] on $C_{th}$ is a cohesive $(\infty,1)$-topos and the restriction $i^*$ along $i$ exhibits it as an [infinitesimal neighbourhood](#InfinitesimalNeighbourhoodIsOverInfGroupoid) of the cohesive $(\infty,1)$-topos over $C$.
 
@@ -308,7 +308,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We [[presentable (∞,1)-category|present]] the [[(∞,1)-sheaf (∞,1)-category]] $Sh_{(\infty,1)}(C_{th})$ by the projective [[model structure on simplicial presheaves]] [[Bousfield localization of model categories|left Bousfield localized]] at the [[covering]] [[sieve]] inclusions 
+We [[presentable (∞,1)-category|present]] the [[(∞,1)-sheaf (∞,1)-category]] $Sh_{(\infty,1)}(C_{th})$ by the projective [[model structure on simplicial presheaves]] [[Bousfield localization of model categories|left Bousfield localized]] at the [[covering]] [[sieve]] inclusions
 
 $$
   Sh_{(\infty,1)}(C_{th}) \simeq
@@ -322,14 +322,14 @@ Consider the right [[Kan extension]] $Ran_i : [C^{op}, sSet] \to [C_{th}^{op},sS
 
 $$
   \begin{aligned}
-    \mathrm{Ran}_{i} F : \mathbf{K} 
-    & \mapsto 
+    \mathrm{Ran}_{i} F : \mathbf{K}
+    & \mapsto
     \int_{U \in C} \mathrm{sSet}( C_{\mathrm{th}}(i(U), \mathbf{K})  , F(U))
     \\
-    & \simeq 
+    & \simeq
     \int_{U \in C} \mathrm{sSet}( C(U, p(\mathbf{K}))  , F(U))
     \\
-    & \simeq 
+    & \simeq
     F(p(\mathbf{K}))
     \\
     & =: (p^* F)(\mathbf{K})
@@ -337,12 +337,12 @@ $$
   \,,
 $$
 
-where in the last step we use the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. 
+where in the last step we use the [[Yoneda reduction]]-form of the [[Yoneda lemma]].
 
 This shows that the [[right adjoint]] to $(-)\circ i$ is itself given by precomposition with a functor, and hence has itself a further right adjoint, which gives us a total of four [[adjoint functor]]s
 
 $$
-  [C^{op}, sSet]  
+  [C^{op}, sSet]
     \stackrel{\overset{Lan_i}{\longrightarrow}}{\stackrel{\overset{(-)\circ i}{\longleftarrow}}{\stackrel{\overset{(-)\circ p}{\longrightarrow}}{\underset{Ran_p}{\longleftarrow}}}}
 
   [C_{th}^{op}, sSet]
@@ -352,7 +352,7 @@ $$
 From this are directly induced the corresponding [[simplicial Quillen adjunction]]s on the global projective and injective [[model structure on simplicial presheaves]]
 
 $$
-  (Lan_i \dashv (-) \circ i) : 
+  (Lan_i \dashv (-) \circ i) :
   [C^{op}, sSet]_{proj}
    \stackrel{\overset{Lan_i}{\to}}{\underset{(-)\circ i}{\leftarrow}}
   [C_{th}^{op}, sSet]_{proj}
@@ -360,7 +360,7 @@ $$
 $$
 
 $$
-  ((-)\circ i \dashv (-) \circ p) : 
+  ((-)\circ i \dashv (-) \circ p) :
   [C^{op}, sSet]_{proj}
    \stackrel{\overset{(-)\circ i}{\longleftarrow}}
     {\underset{(-)\circ p}{\longrightarrow}}
@@ -369,7 +369,7 @@ $$
 $$
 
 $$
-  ((-) \circ p \dashv Ran_p) : 
+  ((-) \circ p \dashv Ran_p) :
   [C^{op}, sSet]_{inj}
    \stackrel{\overset{(-)\circ p}{\longrightarrow}}{\underset{Ran_p}{\longleftarrow}}
   [C_{th}^{op}, sSet]_{inj}
@@ -393,29 +393,29 @@ $$
   \,.
 $$
 
-By the discussion at [[simplicial Quillen adjunction]] for the above Quillen adjunctions to descend to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. 
+By the discussion at [[simplicial Quillen adjunction]] for the above Quillen adjunctions to descend to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects.
 
-We first check that $(-) \circ i$ sends locally fibrant objects to locally fibrant objects.  
+We first check that $(-) \circ i$ sends locally fibrant objects to locally fibrant objects.
 
 To that end, let $\{U_i \to U\}$ be a [[covering family]] in $C$. Write $\int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} (j(U_{i_0}) \times_{j(U)} j(U_{i_1}) \times_{j(U)} \cdots \times_{j(U)} j(U_k))$ for its [[Cech nerve]], where $j$ denotes the [[Yoneda embedding]]. Recall by the definition of the [[∞-cohesive site]] $C$ that all the [[fiber product]]s of representable presheaves here are again themselves representable, hence $\cdots = \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} (j(U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k))$. This means that the [[left adjoint]] $Lan_i$ preserves not only the [[coend]] and [[tensoring]], but by the remark in the previous paragraph and the assumption that $i$ preserves [[pullback]]s along covers we have that
 
 $$
   \begin{aligned}
-    Lan_i 
+    Lan_i
     C(\{U_i \to U\})
-    & \simeq 
-     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} Lan_i (j(U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k))    
+    & \simeq
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} Lan_i (j(U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k))
      \\
      & \simeq
-     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} 
-  j i (U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k)    
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+  j i (U_{i_0} \times_U U_{i_1} \times_U \cdots \times_U U_k)
     \\
     & \simeq
-     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} 
-  j (i(U_{i_0}) \times_{i(U)} i(U_{i_1}) \times_{i(U)} \cdots \times_{i(U)} i(U_k))      
+     \int^{[k] \in \Delta} \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+  j (i(U_{i_0}) \times_{i(U)} i(U_{i_1}) \times_{i(U)} \cdots \times_{i(U)} i(U_k))
   \end{aligned}
    \,.
-$$ 
+$$
 
 By the assumption that $i$ preserves covers, this is the [[Cech nerve]] of a [[covering family]] in $C_{th}$. Therefore for $F \in [C_{th}^{op}, sSet]_{proj,loc}$ fibrant we have for all [[covering]]s $\{U_i \to U\}$ in $C$ that the [[descent]] morphism
 
@@ -429,8 +429,8 @@ $$
 
 is a weak equivalence, hence that $i^* F$ is locally fibrant.
 
-To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for 
-$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$ 
+To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for
+$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$
 a covering family in $C_{th}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
 
 $$
@@ -448,8 +448,8 @@ and using that $p$ preserves covers by assumption.
 
 Therefore $(-) \circ i$ is a left and right local [[Quillen adjunction|Quillen functor]] with left local Quillen adjoint $Lan_i$ and right local Quillen adjoint $(-)\circ p$.
 
-It follows that $i^* : Sh_{(\infty,1)}(C_{th}) \to Sh_{(\infty,1)}(C)$ is given by the left [[derived functor]] of restriction along $i$, and 
-$i_* : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ is given by the right [[derived functor]] of restriction along $p$. 
+It follows that $i^* : Sh_{(\infty,1)}(C_{th}) \to Sh_{(\infty,1)}(C)$ is given by the left [[derived functor]] of restriction along $i$, and
+$i_* : Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(C_{th})$ is given by the right [[derived functor]] of restriction along $p$.
 
 Finally to see that also $Ran_p$ preserves locally fibrant objects by the same reasoning as above, notice that for every [[covering]] family $\{U_i \to U\}$ in $C$ and every morphism $\mathbf{K} \to p^* U$ in $C_{th}$ we may find a covering $\{\mathbf{K}_j  \to \mathbf{K}\}$ of $\mathbf{K}$ such that we find commuting diagrams on the left of
 
@@ -481,7 +481,7 @@ This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the termin
 This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
 
 It remains to see that $i_!$ is full and faithful.
-For that notice the general fact that left 
+For that notice the general fact that left
 [[Kan extension]] (see the properties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
 
 
@@ -494,7 +494,7 @@ For that notice the general fact that left
 Conversely this implies that $Sh_{(\infty,1)}(C_{th})$ is an [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
 
 $$
-  (i^* \dashv i_* \dashv i^!) : 
+  (i^* \dashv i_* \dashv i^!) :
   SynthDiff \infty Grpd \to Smooth \infty Grpd
   \,.
 $$
@@ -518,7 +518,7 @@ Given differential cohesion, def. \ref{InfinitesimalCohesiveInfTopos},
 
 $$
   \array{
-     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
+     \Re &\dashv& \Im &\dashv& {\&}
      \\
      && \vee && \vee
      \\
@@ -533,7 +533,7 @@ $$
 $$
 
 $$
-  \flat^{rel} X \coloneqq (\flat X) \underset{&#643;_{inf}}{\times} X
+  \flat^{rel} X \coloneqq (\flat X) \underset{\Im}{\times} X
   \,.
 $$
 
@@ -557,7 +557,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \flat X &\longrightarrow& &#643;_{inf} X
+    \flat X &\longrightarrow& \Im X
   }
   \,.
 $$
@@ -573,7 +573,7 @@ The relative shape and flat modalities of def. \ref{InducedRelativeShapeAndFlat}
 
 1. form an [[adjoint pair]] $(&#643;^{rel} \dashv \flat^{rel})$;
 
-1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to &#643;_{inf}$ is an [[equivalence]];
+1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to \Im$ is an [[equivalence]];
 
 1. $&#643;^{rel}$ preserves the [[terminal object]].
 
@@ -589,13 +589,13 @@ $$
      \\
      \flat &\dashv& \sharp
      \\
-     \vee && \vee 
+     \vee && \vee
      \\
      \emptyset &\dashv& \ast
   }
 $$
 
-hence an intermediate subtopos 
+hence an intermediate subtopos
 $\infty Grpd \hookrightarrow \mathbf{H}_{infinitesimal}\hookrightarrow \mathbf{H}_{th}$ which is [[infinitesimal cohesion|infinitesimally cohesive]].
 
 This happens notably for the model of [[formal smooth ∞-groupoids]] and all its variants such as formal [[complex analytic ∞-groupoids]] etc. But in this case $(\flat^{rel} \dashv \sharp^{rel})$ does not provide  [[Aufhebung]] for $(\flat \dashv \sharp)$.
@@ -613,7 +613,7 @@ The [[counit of a comonad|counit]] of the relative flat modality is a [[formally
 +-- {: .proof}
 ###### Proof
 
-From the fact that the [[infinitesimal shape modality]] is [[idempotent monad|idempotent]] and preserves [[homotopy pullbacls]].
+From the fact that the [[infinitesimal shape modality]] is [[idempotent monad|idempotent]] and preserves [[homotopy pullbacks]].
 
 =--
 
@@ -622,7 +622,7 @@ From the fact that the [[infinitesimal shape modality]] is [[idempotent monad|id
 ### Structures in a differential cohesive $(\infty,1)$-topos
  {#StructuresInDifferentialCohesion}
 
-We discuss structures that are canonically present in 
+We discuss structures that are canonically present in
 a cohesive $(\infty,1)$-topos equipped with differential cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
 
 
@@ -630,7 +630,7 @@ a cohesive $(\infty,1)$-topos equipped with differential cohesion. These structu
 
 #### Infinitesimal paths and de Rham spaces
   {#InfinitesimalPaths}
- 
+
 In the presence of [differential cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
 ##### Infinitesimal path $\infty$-groupoid
@@ -641,12 +641,12 @@ In the presence of [differential cohesion](#InfinitesimalCohesiveInfTopos) there
 Define the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s corresponding to the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$:
 
 $$
- (\Re \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
- : 
- (i_! i^* \dashv i_* i^* \dashv i_* i^! ) 
+ (\Re \dashv \Im \dashv \& )
+ :
+ (i_! i^* \dashv i_* i^* \dashv i_* i^! )
   :
- \mathbf{H}_{th} 
-  \to 
+ \mathbf{H}_{th}
+  \to
  \mathbf{H}_{th}
   \,.
 $$
@@ -655,26 +655,26 @@ We say that
 
 * $\Re$ is the **[[reduction modality]]**.
 
-* $\mathbf{\Pi}_{inf}$ or $&#643;_{inf}$ is the **[[infinitesimal shape modality]]**.
+* $\Im$ is the **[[infinitesimal shape modality]]**.
 
-* $\flat_{inf}$ is the **[[infinitesimal flat modality]]**.
+* $\& $ is the **[[infinitesimal flat modality]]**.
 
 An object in the full sub-$\infty$-category
 
 * of $\Re$ we call a **[[reduced object]]**
 
-* of $\mathbf{\Pi}_{inf}$ we call a **[[coreduced object]]**.
+* of $\Im$ we call a **[[coreduced object]]**.
 
 For $X\in \mathbf{H}_{th}$ we say that
 
-* $\mathbf{\Pi}_{inf}(X)$ is the **[[infinitesimal path ∞-groupoid]]** 
+* $\Im$ is the **[[infinitesimal path ∞-groupoid]]**
   of $X$;
 
 
-  The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] 
+  The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]]
 
   $$
-    X \to \mathbf{\Pi}_{inf}(X)
+    X \to \Im(X)
   $$
 
 
@@ -683,7 +683,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 * $\Re(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
   $X$.
 
-  The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
+  The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]]
 
   $$
     \Re X \to X
@@ -692,14 +692,14 @@ For $X\in \mathbf{H}_{th}$ we say that
 
   we call the **inclusion of the reduced part** of $X$.
 
-=-- 
+=--
 
 +-- {: .num_remark #TerminologyDeRhamspace}
 ###### Remark
 
 
-In traditional contexts see ([SimpsonTeleman, p. 7](#SimpsonTeleman)) the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
-Here we may tend to avoid this terminology, since by the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with differential cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
+In traditional contexts see ([SimpsonTeleman, p. 7](#SimpsonTeleman)) the object $\Im(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
+Here we may tend to avoid this terminology, since by the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with differential cohesion. From this point of view the object $\Im(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
 
 =--
 
@@ -710,18 +710,18 @@ Here we may tend to avoid this terminology, since by the discussion at <a href="
 There is a canonical [[natural transformation]]
 
 $$
-  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+  \Im(X) \to \int(X)
 $$
 
 that factors the finite path inclusion through the infinitesimal one
 
 $$
   \array{
-    && \mathbf{\Pi}_{inf}(X)
+    && \Im(X)
     \\
     & \nearrow && \searrow
     \\
-    X &&\to&& \mathbf{\Pi}(X)
+    X &&\to&& \int(X)
   }
   \,.
 $$
@@ -767,12 +767,12 @@ For any object $X \in \mathbf{H}$ write
 
 $$
   Jet : \mathbf{H}/X \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}
-  \mathbf{H}/\mathbf{\Pi}_{inf}(X)
+  \mathbf{H}/\Im(X)
 $$
 
-for the [[base change geometric morphism]] induced by the constant infinitesimal path inclusion $i : X \to \mathbf{\Pi}_{inf}(X)$, def. \ref{InfinitesimalPathsAndReduction}.
+for the [[base change geometric morphism]] induced by the constant infinitesimal path inclusion $i : X \to \Im(X)$, def. \ref{InfinitesimalPathsAndReduction}.
 
-For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as well as its pullback $i^* Jet(E) \to X$ (depending on context) the **[[jet bundle]]** of $E \to X$.
+For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \Im(X)$ as well as its pullback $i^* Jet(E) \to X$ (depending on context) the **[[jet bundle]]** of $E \to X$.
 
 =--
 
@@ -784,7 +784,7 @@ For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as w
 +-- {: .num_defn #FormalSmoothness}
 ###### Definition
 
-We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion, $X \to \mathbf{\Pi}_{inf}(X)$, def. \ref{InfinitesimalPathsAndReduction},
+We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion, $X \to \Im(X)$, def. \ref{InfinitesimalPathsAndReduction},
 
 is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
@@ -819,9 +819,9 @@ $$
   i_!
 
    \stackrel{\eta i_!}{\to}
-  \mathbf{\Pi}_{inf} i_! := i_* i^* i_!
+  \Im i_! := i_* i^* i_!
    \stackrel{\simeq}{\to}
-  i_*  
+  i_*
   \,.
 $$
 
@@ -835,7 +835,7 @@ By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the secon
 ###### Remark
 
 
-In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion. Notice that by <a href="http://nlab.mathforge.org/nlab/show/Q-category#DiscussionOfTheInfinitesimalThickeningFormalization">this remark</a> the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.  
+In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion. Notice that by <a href="http://nlab.mathforge.org/nlab/show/Q-category#DiscussionOfTheInfinitesimalThickeningFormalization">this remark</a> the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
 
 =--
 
@@ -844,13 +844,13 @@ Therefore we have the following more general definition.
 +-- {: .num_defn #FormalRelativeSmoothnessByCanonicalMorphism}
 ###### Definition
 
-For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that 
+For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that
 
 1. $f$ is a **[[formally smooth morphism]]** if the canonical morphism
 
    $$
-     i_! X 
-      \to 
+     i_! X
+      \to
      i_! Y \prod_{i_* Y} i_* Y
    $$
 
@@ -889,19 +889,19 @@ Even more generally we can formulate formal smoothness in $\mathbf{H}_{th}$:
 +-- {: .num_defn #FormallyEtaleInHTh}
 ###### Definition
 
-A morphism $f \colon X \to Y$ in $\mathbf{H}_{th}$ is **[[formally etale morphism|formally étale]]** if it is $\mathbf{\Pi}_{inf}$-[[Pi-closed morphism|closed]], hence if its $\mathbf{\Pi}_{inf}$-unit naturality square
+A morphism $f \colon X \to Y$ in $\mathbf{H}_{th}$ is **[[formally etale morphism|formally étale]]** if it is $\Im$-[[Pi-closed morphism|closed]], hence if its $\Im$-unit naturality square
 
 $$
   \array{
-    X &\to& \mathbf{\Pi}_{inf}(X)
-    \\  
-    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\mathbf{\Pi}_{inf}(f)}}
+    X &\to& \Im(X)
     \\
-    Y &\to& \mathbf{\Pi}_{inf}(y)
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im(f)}}
+    \\
+    Y &\to& \Im(y)
   }
 $$
 
-is an [[(∞,1)-pullback]]. 
+is an [[(∞,1)-pullback]].
 
 =--
 
@@ -915,15 +915,15 @@ A morphism $f$ in $\mathbf{H}$ is formally etale in the sense of def. \ref{Forma
 +-- {: .proof}
 ###### Proof
 
-This is again given by the fact that $\mathbf{\Pi}_{inf} = i_* i^*$ by definition and that $i_!$ is fully faithful, so that 
+This is again given by the fact that $\Im = i_* i^*$ by definition and that $i_!$ is fully faithful, so that
 
 $$
   \array{
-    i_! X &\to& \mathbf{\Pi}_{inf}(i_! X) \simeq i_* i^* i_! X &\stackrel{\simeq}{\to}& i_* X
+    i_! X &\to& \Im(i_! X) \simeq i_* i^* i_! X &\stackrel{\simeq}{\to}& i_* X
     \\
     \downarrow^{\mathrlap{i_! f}} && \downarrow^{\mathrlap{i_* i^* i_! f}} && \downarrow^{\mathrlap{i_* f}}
     \\
-    i_! Y &\to& \mathbf{\Pi}_{inf}(i_! Y) \simeq i_* i^* i_! Y &\stackrel{\simeq}{\to}& i_* Y 
+    i_! Y &\to& \Im(i_! Y) \simeq i_* i^* i_! Y &\stackrel{\simeq}{\to}& i_* Y
   }
   \,.
 $$
@@ -967,8 +967,8 @@ The statements about closure under composition and pullback appears as([Kontsevi
 
 The first statement follows since $\infty$-pullbacks are well defined up to quivalence.
 
-The second two statements follow by the [[pasting law]] for [[(∞,1)-pullback]]s: let $f : X \to Y$ and $g : Y \to Z$ be two 
-morphisms and consider the [[pasting diagram]] 
+The second two statements follow by the [[pasting law]] for [[(∞,1)-pullback]]s: let $f : X \to Y$ and $g : Y \to Z$ be two
+morphisms and consider the [[pasting diagram]]
 
 $$
   \array{
@@ -976,14 +976,14 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    i_* X &\stackrel{i_* f }{\to}& i_* Y &\stackrel{i_* g}{\to}& i_* Z    
+    i_* X &\stackrel{i_* f }{\to}& i_* Y &\stackrel{i_* g}{\to}& i_* Z
   }
   \,.
 $$
 
 If $f$ and $g$ are formally &#233;tale then both small squares are pullback squares. Then the pasting law says that so is the outer rectangle and hence $g \circ f$ is formally &#233;tale. Similarly, if $g$ and $g \circ f$ are formally &#233;tale then the right square and the total reactangle are pullbacks, so the pasting law says that also the left square is a pullback and so also $f$ is formally &#233;tale.
 
-For the fourth claim, let $Id \simeq (g \to f \to g)$ be a [[retract]] in the [[arrow category|arrow (∞,1)-category]] $\mathbf{H}^I$. By applying the natural transformation $\phi : i_! \to I_*$ we obtain a retract 
+For the fourth claim, let $Id \simeq (g \to f \to g)$ be a [[retract]] in the [[arrow category|arrow (∞,1)-category]] $\mathbf{H}^I$. By applying the natural transformation $\phi : i_! \to I_*$ we obtain a retract
 
 $$
   Id \simeq ((i_! g \to i_*g) \to  (i_! f \to i_*f) \to (i_! g \to i_*g))
@@ -991,7 +991,7 @@ $$
 
 in the category of squares $\mathbf{H}^{\Box}$. We claim that generally, if the middle piece in a retract in $\mathbf{H}^\Box$ is an [[(∞,1)-pullback]] square, then so is its retract sqare. This implies the fourth claim.
 
-To see this, we use that 
+To see this, we use that
 
 1. [[(∞,1)-limit]]s are computed by [[homotopy limit]]s in any [[presentable (∞,1)-category]] $C$ presenting $\mathbf{H}$;
 
@@ -1020,7 +1020,7 @@ $$
   \array{
     i_! A \times_Y X &\to& i_! X &\stackrel{\phi_X}{\to}&  i_* X
     \\
-    \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_! f}} 
+    \downarrow^{\mathrlap{i_! p}} && \downarrow^{\mathrlap{i_! f}}
                         && \downarrow^{\mathrlap{i_* f}}
     \\
     i_! A &\to& i_! Y &\stackrel{\phi_Y}{\to}& i_* Y
@@ -1060,7 +1060,7 @@ Counting left to right and top to bottom, we have that
 +-- {: .num_remark #AsOpenMaps}
 ###### Remark
 
-The properties listed in prop. \ref{PropertiesOfFormallyEtaleMorphisms} correspond to the axioms on the _[[open map]]s_ ("admissible maps") in a [[geometry (for structured (∞,1)-toposes)]]  ([Lurie, def. 1.2.1](#LurieStSp)). This means that a notion of formally &#233;tale morphisms induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)toposes]]/[[structured (∞,1)-toposes]] in a cohesive context. This is discuss in 
+The properties listed in prop. \ref{PropertiesOfFormallyEtaleMorphisms} correspond to the axioms on the _[[open map]]s_ ("admissible maps") in a [[geometry (for structured (∞,1)-toposes)]]  ([Lurie, def. 1.2.1](#LurieStSp)). This means that a notion of formally &#233;tale morphisms induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)toposes]]/[[structured (∞,1)-toposes]] in a cohesive context. This is discuss in
 
 * [[cohesive (∞,1)-topos -- structure ∞-sheaves]].
 
@@ -1082,15 +1082,7 @@ $$
 Accordingly also
 
 $$
-  \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf} \simeq \mathbf{\Pi}_{inf}
-$$
-
-and
-
-$$
-  \mathbf{\flat}_{inf} \mathbf{\flat}_{inf} \simeq 
-  \mathbf{\flat}_{inf}
-  \,.
+  \Im \Im \simeq \Im
 $$
 
 
@@ -1100,14 +1092,14 @@ $$
 ###### Proof
 
 By definition of infinitesimal neighbourhood we have that
-$i_!$ is a [[full and faithful (∞,1)-functor]]. It follows that 
+$i_!$ is a [[full and faithful (∞,1)-functor]]. It follows that
 $i^* i_! \simeq Id$ and hence
 
 $$
   \begin{aligned}
     \Re \Re
     & \simeq
-    i_! i^* i_! i^* 
+    i_! i^* i_! i^*
     \\
     & \simeq i_! i^*
     \\
@@ -1121,17 +1113,17 @@ $$
 +-- {: .num_cor #PiInfXIsFormallySmooth}
 ###### Observation
 
-For every $X \in \mathbf{H}_{th}$, we have that $\mathbf{\Pi}_{inf}(X)$ is formally smooth according to def. \ref{FormalSmoothness}.
+For every $X \in \mathbf{H}_{th}$, we have that $\Im(X)$ is formally smooth according to def. \ref{FormalSmoothness}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{RedIsIdempotent} we have that 
+By prop. \ref{RedIsIdempotent} we have that
 
 $$
-  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf}X
+  \Im(X) \to \Im \Im X
 
 $$
 
@@ -1146,9 +1138,9 @@ is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in parti
 ###### Definition
 
 A set of objects $\{D_\alpha \in \mathbf{H}_{th}\}_\alpha$
-is said to **exhibit the differential structure** or 
-**exhibit the infinitesimal thickening** if the 
-[[localization of an (∞,1)-category|localization]] 
+is said to **exhibit the differential structure** or
+**exhibit the infinitesimal thickening** if the
+[[localization of an (∞,1)-category|localization]]
 
 $$
   L_{\{D_\alpha\}_\alpha} \mathbf{H}_{th}
@@ -1158,14 +1150,14 @@ $$
 
 of $\mathbf{H}_{th}$
 at the morphisms of the form $D_\alpha \times X \to X$
-is exhibited by the [[infinitesimal shape modality]] $&#643;_{inf}$.
+is exhibited by the [[infinitesimal shape modality]] $\Im$.
 
 =--
 
 +-- {: .num_Remark }
 ###### Remark
 
-This is the [[infinitesimal cohesion|infinitesimal]] 
+This is the [[infinitesimal cohesion|infinitesimal]]
 analog of the notion of objects exhibiting [[cohesion]],
 see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+(infinity,1)-topos+--+structures#A1HomotopyContinuum).
 
@@ -1182,15 +1174,15 @@ For more see at _[[Lie differentiation]]_.
 We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale (∞,1)-topos]] $Sh_{\mathbf{H}_{th}}(X)$.
 
 
-For $X \in \mathbf{H}_{th}$ any object in a differential cohesive $\infty$-topos, we formulate 
+For $X \in \mathbf{H}_{th}$ any object in a differential cohesive $\infty$-topos, we formulate
 
 1. the [[(∞,1)-topos]] denoted $\mathcal{X}$ or $Sh_\infty(X)$ of [[(∞,1)-sheaves]] over $X$, or rather of formally &#233;tale maps into $X$;
 
 1. the [[structure (∞,1)-sheaf]] $\mathcal{O}_{X}$ of $X$.
 
-The resulting structure is essentially that discussed ([Lurie, Structured Spaces](#Lurie)) if we regard $\mathbf{H}_{th}$ equipped with its formally &#233;tale morphisms, def. \ref{FormallyEtaleInHTh}, as a ([[large category|large]]) [[geometry for structured (∞,1)-toposes]]. 
+The resulting structure is essentially that discussed ([Lurie, Structured Spaces](#Lurie)) if we regard $\mathbf{H}_{th}$ equipped with its formally &#233;tale morphisms, def. \ref{FormallyEtaleInHTh}, as a ([[large category|large]]) [[geometry for structured (∞,1)-toposes]].
 
-One way to motivate this is to consider structure sheaves of flat differential forms. To that end, let $G \in Grp(\mathbf{H}_{th})$ a differential cohesive [[∞-group]] with [de Rham coefficient object](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology) $\flat_{dR}\mathbf{B}G$ and for $X \in \mathbf{H}_{th}$ any differential homotopy type, the product projection 
+One way to motivate this is to consider structure sheaves of flat differential forms. To that end, let $G \in Grp(\mathbf{H}_{th})$ a differential cohesive [[∞-group]] with [de Rham coefficient object](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology) $\flat_{dR}\mathbf{B}G$ and for $X \in \mathbf{H}_{th}$ any differential homotopy type, the product projection
 
 
 $$
@@ -1210,7 +1202,7 @@ $$
 of the formally &#233;tale maps of def. \ref{FormallyEtaleInHTh} into $X$. Since on formally &#233;tale covers the sections should be those given by $\flat_{dR}\mathbf{B}G$, one finds that the corresponding "cotangent bundle" must be the [[coreflective subcategory|coreflection]] along this inclusion. The following proposition establishes that this coreflection indeed exists.
 
 
- 
+
 +-- {: .num_defn #EtaleSlice}
 ###### Definition
 
@@ -1218,7 +1210,7 @@ For $X \in \mathbf{H}_{th}$ any object, write
 
 $$
   (\mathbf{H}_{th})^{fet}_{/X} \hookrightarrow (\mathbf{H}_{th})_{/X}
-$$ 
+$$
 
 for the full [[sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] over $X$ on those maps into $X$ which are formally &#233;tale, def. \ref{FormallyEtaleInHTh}.
 
@@ -1233,7 +1225,7 @@ We also write $FEt_{\mathbf{X}}$ or $Sh_{\mathbf{H}}(X)$ for $(\mathbf{H}_{th})_
 The inclusion $\iota$ of def. \ref{EtaleSlice} is both [[reflective sub-(∞,1)-category|reflective]] as well as [[coreflective subcategory|coreflective]], hence it fits into an [[adjoint triple]] of the form
 
 $$
-  (\mathbf{H}_{th})_{/X}^{fet} 
+  (\mathbf{H}_{th})_{/X}^{fet}
   \stackrel{\overset{L}{\leftarrow}}{\stackrel{\overset{\iota}{\hookrightarrow}}{\underset{Et}{\leftarrow}}}
   (\mathbf{H}_{th})_{/X}
   \,.
@@ -1245,21 +1237,21 @@ $$
 ###### Proof
 
 
-By the general discussion at _[[reflective factorization system]]_, the reflection is given by sending a morphism $f \colon Y \to X$ to 
-$X \times_{\mathbf{\Pi}_{inf}(X)} \mathbf{\Pi}_{inf}(Y) \to Y$ and the reflection [[unit of an adjunction|unit]] is the left horizontal morphism in 
+By the general discussion at _[[reflective factorization system]]_, the reflection is given by sending a morphism $f \colon Y \to X$ to
+$X \times_{\Im(X)} \Im(Y) \to Y$ and the reflection [[unit of an adjunction|unit]] is the left horizontal morphism in
 
 $$
   \array{
-    Y &\to& X \times_{\mathbf{\Pi}_{inf}(Y)} \mathbf{\Pi}_{inf}(Y) &\to& \mathbf{\Pi}_{inf}(Y)
+    Y &\to& X \times_{\Im(Y)} \Im(Y) &\to& \Im(Y)
    \\
-    & \searrow & \downarrow^{} && \downarrow^{\mathrlap{\mathbf{\Pi}_{inf}(f)}}
+    & \searrow & \downarrow^{} && \downarrow^{\mathrlap{\Im(f)}}
    \\
-   && X &\to& \mathbf{\Pi}_{inf}(X)
+   && X &\to& \Im(X)
   }
   \,.
-$$ 
+$$
 
-Therefore $(\mathbf{H}_{th})_{/X}^{fet}$, being a reflective subcategory of a [[locally presentable (∞,1)-category]], is (as discussed there) itself locally presentable. Hence by the [[adjoint (∞,1)-functor theorem]] it is now sufficient to show that the inclusion preserves all small [[(∞,1)-colimits]] in order to conclude that it also has a right [[adjoint (∞,1)-functor]]. 
+Therefore $(\mathbf{H}_{th})_{/X}^{fet}$, being a reflective subcategory of a [[locally presentable (∞,1)-category]], is (as discussed there) itself locally presentable. Hence by the [[adjoint (∞,1)-functor theorem]] it is now sufficient to show that the inclusion preserves all small [[(∞,1)-colimits]] in order to conclude that it also has a right [[adjoint (∞,1)-functor]].
 
 So consider any [[diagram]] [[(∞,1)-functor]] $I \to (\mathbf{H}_{th})_{/X}^{fet}$ out of a [[small (∞,1)-category]]. Since the inclusion of $(\mathbf{H}_{th})_{/X}^{fet}$ is full, it is sufficient to show that the $(\infty,1)$-colimit over this diagram taken in $(\mathbf{H}_{th})_{/X}$ lands again in $(\mathbf{H}_{th})_{/X}^{fet}$ in order to have that $(\infty,1)$-colimits are preserved by the inclusion. Moreover, colimits in a slice of $\mathbf{H}_{th}$ are computed in $\mathbf{H}_{th}$ itself (this is discussed at _[slice category - Colimits](overcategory#LimitsAndColimits)_).
 
@@ -1267,56 +1259,56 @@ Therefore we are reduced to showing that the square
 
 $$
   \array{
-    \underset{\to_i}{\lim} Y_i &\to& \mathbf{\Pi}_{inf} \underset{\to_i}{\lim} Y_i 
+    \underset{\to_i}{\lim} Y_i &\to& \Im \underset{\to_i}{\lim} Y_i
     \\
     \downarrow && \downarrow
     \\
-    X &\to& \mathbf{\Pi}_{inf}(X)
+    X &\to& \Im(X)
   }
 $$
 
-is an [[(∞,1)-pullback]] square. But since $\mathbf{\Pi}_{inf}$ is a [[left adjoint]] it commutes with the $(\infty,1)$-colimit on objects and hence this diagram is equivalent to 
+is an [[(∞,1)-pullback]] square. But since $\Im$ is a [[left adjoint]] it commutes with the $(\infty,1)$-colimit on objects and hence this diagram is equivalent to
 
 $$
   \array{
-    \underset{\to_i}{\lim} Y_i &\to& \underset{\to_i}{\lim} \mathbf{\Pi}_{inf} Y_i 
+    \underset{\to_i}{\lim} Y_i &\to& \underset{\to_i}{\lim} \Im Y_i
     \\
     \downarrow && \downarrow
     \\
-    X &\to& \mathbf{\Pi}_{inf}(X)
+    X &\to& \Im(X)
   }
   \,.
 $$
 
-This diagram is now indeed an [[(∞,1)-pullback]] by the fact that we have [[universal colimits]] in the [[(∞,1)-topos]] $\mathbf{H}_{th}$, hence that on the left the component $Y_i$ for each $i \in I$ is the [[(∞,1)-pullback]] of $\mathbf{\Pi}_{inf}(Y_i) \to \mathbf{\Pi}_{inf}(X)$, by assumption that we are taking an $(\infty,1)$-colimit over formally &#233;tale morphisms.
+This diagram is now indeed an [[(∞,1)-pullback]] by the fact that we have [[universal colimits]] in the [[(∞,1)-topos]] $\mathbf{H}_{th}$, hence that on the left the component $Y_i$ for each $i \in I$ is the [[(∞,1)-pullback]] of $\Im(Y_i) \to \Im(X)$, by assumption that we are taking an $(\infty,1)$-colimit over formally &#233;tale morphisms.
 
 =--
 
 +-- {: .num_example #EtalificationOverThePoint}
 ###### Example
 
-For the case that $X \simeq \ast$ in prop. \ref{EtalificationIsCoreflection}, then the proof there shows that the &#233;talification operation over the point is just $\flat_{inf}$:
+For the case that $X \simeq \ast$ in prop. \ref{EtalificationIsCoreflection}, then the proof there shows that the &#233;talification operation over the point is just ${\&} $:
 
 $$
-  \flat_{inf} \simeq Et_{/\ast}
+  {\&}  \simeq Et_{/\ast}
   \,.
 $$
 
-Indeed, for any $X$ then $\flat_{inf}X \to \ast$ is a [[formally étale morphism]] since
+Indeed, for any $X$ then ${\&} X \to \ast$ is a [[formally étale morphism]] since
 
 $$
   \array{
-    \flat_{inf}X &\longrightarrow& &#643;_{inf}\flat_{inf} X
+    {\&} X &\longrightarrow& \Im{\&}  X
      \\
      \downarrow && \downarrow
      \\
-     \ast &\longrightarrow& &#643;_{inf} \ast
+     \ast &\longrightarrow& \Im \ast
   }
   \;\;\;
   \simeq
   \;\;\;
   \array{
-    \flat_{inf}X &\stackrel{\simeq}{\longrightarrow}& \flat_{inf} X
+    {\&} X &\stackrel{\simeq}{\longrightarrow}& {\&}  X
      \\
      \downarrow && \downarrow
      \\
@@ -1339,14 +1331,14 @@ The $\infty$-category $(\mathbf{H}_{th})_{/X}^{fet}$ is an [[(∞,1)-topos]] and
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{EtalificationIsCoreflection} the inclusion $(\mathbf{H}_{th})_{/X}^{fet} \hookrightarrow (\mathbf{H}_{th})_{/X}$ is [[reflective sub-(infinity,1)-category|reflective]] with reflector given by the $(\mathbf{\Pi}_{inf}-equivalences , \mathbf{\Pi}_{inf}-closed)$ factorization system. Since $\mathbf{\Pi}_{inf}$ is a [[right adjoint]] and hence in particular preserves [[(∞,1)-pullbacks]], the $\mathbf{\Pi}_{inf}$-equivalences are stable under pullbacks. By the discussion at _[[stable factorization system]]_ this is the case precisely if the corresponding reflector preserves [[finite (∞,1)-limits]]. Hence the embedding is a [[geometric embedding]] which exhibits a [[sub-(∞,1)-topos]] inclusion.
+By prop. \ref{EtalificationIsCoreflection} the inclusion $(\mathbf{H}_{th})_{/X}^{fet} \hookrightarrow (\mathbf{H}_{th})_{/X}$ is [[reflective sub-(infinity,1)-category|reflective]] with reflector given by the $(\Im-equivalences , \Im-closed)$ factorization system. Since $\Im$ is a [[right adjoint]] and hence in particular preserves [[(∞,1)-pullbacks]], the $\Im$-equivalences are stable under pullbacks. By the discussion at _[[stable factorization system]]_ this is the case precisely if the corresponding reflector preserves [[finite (∞,1)-limits]]. Hence the embedding is a [[geometric embedding]] which exhibits a [[sub-(∞,1)-topos]] inclusion.
 
 =--
 
 +-- {: .num_defn #TheStructureSheafOfX}
 ###### Definition
 
-For $X \in \mathbf{H}_{th}$ we speak of 
+For $X \in \mathbf{H}_{th}$ we speak of
 
 $$
   \mathcal{X} \coloneqq Sh_{\mathbf{H}_{th}}(X)
@@ -1360,14 +1352,14 @@ or the _[[étale (∞,1)-topos]]_ of $X$.
 Write
 
 $$
-  \mathcal{O}_X 
+  \mathcal{O}_X
     \colon
   \mathbf{H}_{th}
     \stackrel{(-) \times X}{\to}
   (\mathbf{H}_{th})_{/X}
     \stackrel{Et}{\to}
-  (\mathbf{H}_{th})_{/X}^{fet}  
-  = 
+  (\mathbf{H}_{th})_{/X}^{fet}
+  =
   Sh_{\mathbf{H}_{th}}(X)
 $$
 
@@ -1382,15 +1374,15 @@ We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 +-- {: .num_remark }
 ###### Remark
 
-For $X, A \in \mathbf{H}_{th}$ and for $U \to X$ a [[formally étale morphism]] in $\mathbf{H}_{th}$ (hence like an [[open subset]] of $X$), we have that 
+For $X, A \in \mathbf{H}_{th}$ and for $U \to X$ a [[formally étale morphism]] in $\mathbf{H}_{th}$ (hence like an [[open subset]] of $X$), we have that
 
 $$
   \begin{aligned}
-    \mathcal{O}_{X}(A)(U) 
+    \mathcal{O}_{X}(A)(U)
     & \coloneqq
     Sh_{\mathbf{H}_{th}}(X)( U , \mathcal{O}_{X}(A) )
     \\
-    & \coloneqq   
+    & \coloneqq
     Sh_{\mathbf{H}_{th}}(X)( U , Et(X \times A) )
     \\
     & \simeq
@@ -1407,7 +1399,7 @@ $$
 
 where we used the [[adjoint (∞,1)-functor|∞-adjunction]] $(\iota \dashv Et)$ of prop. \ref{EtalificationIsCoreflection} and the [[(∞,1)-Yoneda lemma]].
 
-This means that $\mathcal{O}_{X}(A)$ behaves as the _sheaf of $A$-valued functions over $X$_. 
+This means that $\mathcal{O}_{X}(A)$ behaves as the _sheaf of $A$-valued functions over $X$_.
 
 
 =--
@@ -1428,11 +1420,11 @@ This is the analog of ([[Structured Spaces|Lurie, Structured Spaces, prop. 2.2.1
 We need to check that $\mathcal{O}_{X}$ preserves [[finite (∞,1)-limits]] and [[formally étale morphism|formally étale]] [[covers]] (where covers here in the [[canonical topology]] on the given toposes are [[1-epimorphisms]]). The first statement follows since $\mathcal{O}_{X}$ is [[right adjoint]] to the forgetful functor
 
 $$
-  Sh_{\mathbf{H}}(X) 
-    \simeq 
-  (\mathbf{H}_{th})_{/X}^{fet} 
-    \hookrightarrow 
-  (\mathbf{H}_{th})_{/X} 
+  Sh_{\mathbf{H}}(X)
+    \simeq
+  (\mathbf{H}_{th})_{/X}^{fet}
+    \hookrightarrow
+  (\mathbf{H}_{th})_{/X}
     \stackrel{\underset{X}{\sum}}{\to}
   \mathbf{H}_{th}
 $$
@@ -1472,7 +1464,7 @@ $$
   }
 $$
 
-with $\widehat{U} \to U$ a formally &#233;tale 1-epimorphism. But since both [[1-epimorphisms]] as well as [[formally étale morphisms]] are stable under [[(∞,1)-pullback]] we can take $\widehat U \coloneqq \widehat{Y} \times_Y U$. 
+with $\widehat{U} \to U$ a formally &#233;tale 1-epimorphism. But since both [[1-epimorphisms]] as well as [[formally étale morphisms]] are stable under [[(∞,1)-pullback]] we can take $\widehat U \coloneqq \widehat{Y} \times_Y U$.
 
 =--
 
@@ -1493,13 +1485,13 @@ $$
 ###### Example
 
 Let $G \in Grp(\mathbf{H}_{th})$ be an [[∞-group]] and write $\flat_{dR} \mathbf{B}G \in \mathbf{H}_{th}$ for the corresponding de Rham coefficient object.
-Then 
+Then
 
 $$
   \mathcal{O}_X(\flat_{dR}\mathbf{B}G)
-  \in 
+  \in
   Sh_{\mathbf{H}}(X)
-$$ 
+$$
 
 we may call the **$G$-valued flat cotangent sheaf** of $X$.
 
@@ -1564,36 +1556,36 @@ $$
   Sh_{\mathbf{H}}(X)
 $$
 
-preserves [[(∞,1)-limits]], so that it has a further 
-[[left adjoint]]. Here $L$ is the 
-reflector from prop. \ref{EtalificationIsCoreflection}. 
-Inspection shows that this composite sends an object $A \in \infty Grpd$ to 
-$\mathbf{\Pi}_{inf}(Disc(A)) \times X \to X$:
+preserves [[(∞,1)-limits]], so that it has a further
+[[left adjoint]]. Here $L$ is the
+reflector from prop. \ref{EtalificationIsCoreflection}.
+Inspection shows that this composite sends an object $A \in \infty Grpd$ to
+$\Im(Disc(A)) \times X \to X$:
 
 $$
 
   \array{
-    \mathbf{\Pi}_{inf}(Disc(A)) \times X
+    \Im(Disc(A)) \times X
      &\longrightarrow&
-    \mathbf{\Pi}_{inf}(Disc(A) \times X) & \simeq \mathbf{\Pi}_{inf}(Disc(A)) \times \mathbf{\Pi}_{inf}(X)
+    \Im(Disc(A) \times X) & \simeq \Im(Disc(A)) \times \Im(X)
     \\
     \downarrow &{}^{(pb)}& \downarrow
     \\
-    X &\longrightarrow& \mathbf{\Pi}_{inf}(X)
+    X &\longrightarrow& \Im(X)
   }
   \,.
 $$
 
- 
+
 By the discussion at [slice (∞,1)-category -- Limits and colimits](slice+infinity-category#LimitsAndColimits) an [[(∞,1)-limit]] in the slice $(\mathbf{H}_{th})_{/X}$ is computed as an [[(∞,1)-limit]] in $\mathbf{H}$ of the [[diagram]] with the slice [[cocone]] adjoined. By [[right adjoint|right adjointness]] of the inclusion $Sh_{\mathbf{H}}(X) \hookrightarrow (\mathbf{H}_{th})_{/X}$ the same is then true for $Sh_{\mathbf{H}}(X) \coloneqq (\mathbf{H}_{th})_{/X}^{et}$.
 
-Now for $A \colon J \to \infty Grpd$ a [[diagram]], it is taken to the diagram $j \mapsto \mathbf{\Pi}_{inf}(Disc(A_j)) \times X \to X$ in $Sh_{\mathbf{H}}(X)$ and so its $\infty$-limit is computed in $\mathbf{H}$ over the diagram locally of the form
+Now for $A \colon J \to \infty Grpd$ a [[diagram]], it is taken to the diagram $j \mapsto \Im(Disc(A_j)) \times X \to X$ in $Sh_{\mathbf{H}}(X)$ and so its $\infty$-limit is computed in $\mathbf{H}$ over the diagram locally of the form
 
 $$
   \array{
-     X \times \mathbf{\Pi}_{inf}(Disc(A_{j}))
+     X \times \Im(Disc(A_{j}))
      &&\longrightarrow&&
-     X \times \mathbf{\Pi}_{inf}(Disc(A_{j'}))
+     X \times \Im(Disc(A_{j'}))
      \\
      & \searrow && \swarrow
      \\
@@ -1601,9 +1593,9 @@ $$
   }
   \simeq
   \array{
-     X \times \mathbf{\Pi}_{inf}(Disc(A_{j}))
+     X \times \Im(Disc(A_{j}))
      &&\longrightarrow&&
-     X \times \mathbf{\Pi}_{inf}(Disc(A_{j'}))
+     X \times \Im(Disc(A_{j'}))
      \\
      & \searrow && \swarrow
      \\
@@ -1614,22 +1606,22 @@ $$
 
 Since $\infty$-limits commute with each other this limit is the product of
 
-1.  $\underset{\leftarrow}{\lim}_j \mathbf{\Pi}_{inf}(Disc(A_j))$ 
+1.  $\underset{\leftarrow}{\lim}_j \Im(Disc(A_j))$
 
 1. $\underset{\leftarrow}{\lim}_{J \star \Delta^0} X$ (over the co-coned diagram constant on $X$).
 
-For the first of these, since the [[infinitesimal shape modality]] $\mathbf{\Pi}_{inf}$
-is in particular a [[right adjoint]] (with [[left adjoint]] the 
+For the first of these, since the [[infinitesimal shape modality]] $\Im$
+is in particular a [[right adjoint]] (with [[left adjoint]] the
 [[reduction modality]]), and since $Disc$ is also [[right adjoint]] by [[cohesion]], we have a [[natural equivalence]]
 
 $$
-  \underset{\leftarrow}{\lim}_j \mathbf{\Pi}_{inf}(Disc(A_j))
+  \underset{\leftarrow}{\lim}_j \Im(Disc(A_j))
   \simeq
-   \mathbf{\Pi}_{inf}(Disc(\underset{\leftarrow}{\lim}_j(A_j)))
+   \Im(Disc(\underset{\leftarrow}{\lim}_j(A_j)))
   \,.
 $$
 
-For the second, the $\infty$-limit over an $\infty$-category $J \star \Delta^0$ of a functor constant on $X$ is 
+For the second, the $\infty$-limit over an $\infty$-category $J \star \Delta^0$ of a functor constant on $X$ is
 
 $$
   \begin{aligned}
@@ -1643,7 +1635,7 @@ $$
      & \simeq
      [{\vert {J \star \Delta^0}\vert}, X]
      \\
-     & \simeq 
+     & \simeq
      [\ast, X] \simeq X
   \end{aligned}
   \,,
@@ -1665,7 +1657,7 @@ there is an [[étale geometric morphism]]
 $$
   Sh_{\mathbf{H}}(Y)
   \simeq
-  Sh_{\mathbf{H}}(X)/_{f} 
+  Sh_{\mathbf{H}}(X)/_{f}
    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}}
   Sh_{\mathbf{H}}(X)
 $$
@@ -1693,14 +1685,14 @@ $$
 Since $f$ is formally &#233;tale by assumption and since [[formally étale morphisms]] are closed under [[composition]], this restricts to an [[equivalence]]
 $Sh_{\mathbf{H}}(Y) \simeq (Sh_{\mathbf{H}}(X))/_f$.
 
-For the equivalence of structure sheaves it is sufficient to show for each 
-[[coefficient]] $A \in \mathbf{H}_{th}$  an equivalence 
+For the equivalence of structure sheaves it is sufficient to show for each
+[[coefficient]] $A \in \mathbf{H}_{th}$  an equivalence
 
 $$
   \mathcal{O}_Y(A) \simeq (f^\ast \mathcal{O}_X(A))
 $$
 
-in $Sh_{\mathbf{H}}(Y)$. But by definition (\ref{TheStructureSheafOfX}) $\mathcal{O}_Y(A) \coloneqq Et(A \times Y)$ and similarly for $\mathcal{O}_X$ and since $Et$ is [[right adjoint]] to the inclusion $Sh_{\mathbf{H}}(Y) \hookrightarrow \mathbf{H}_{Y}$ we have 
+in $Sh_{\mathbf{H}}(Y)$. But by definition (\ref{TheStructureSheafOfX}) $\mathcal{O}_Y(A) \coloneqq Et(A \times Y)$ and similarly for $\mathcal{O}_X$ and since $Et$ is [[right adjoint]] to the inclusion $Sh_{\mathbf{H}}(Y) \hookrightarrow \mathbf{H}_{Y}$ we have
 
 $$
   f^\ast \mathcal{O}_X(A)
@@ -1790,9 +1782,9 @@ This $\theta_X(A)$ we call the **Liouville-Poincar&#233; $A$-cocycle** on $\unde
 +-- {: .num_example }
 ###### Example
 
-Consider the model of differential cohesion given by $\mathbf{H}_{th} =$ [[SynthDiff∞Grpd]]. Write $\Omega^1 \in \mathbf{H }\stackrel{i_!}{\hookrightarrow} \mathbf{H}_{th}$ for the abstract [[sheaf]] of [[differential 1-forms]]. 
+Consider the model of differential cohesion given by $\mathbf{H}_{th} =$ [[SynthDiff∞Grpd]]. Write $\Omega^1 \in \mathbf{H }\stackrel{i_!}{\hookrightarrow} \mathbf{H}_{th}$ for the abstract [[sheaf]] of [[differential 1-forms]].
 
-Then for $X \in SmthMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]], we have that 
+Then for $X \in SmthMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]], we have that
 
 $$
 
@@ -1808,13 +1800,13 @@ $$
 of the manifold: because for $i_U \colon U \to X$ an open subset of the manifold regarded as an object of $Sh_{\mathbf{H}}(X)$, a section $\iota(\sigma_U)$ of $T^* X|_U \to U$ is equivalently a map $\sigma \colon i_U \to \mathcal{O}_X(\Omega^1)$ in $Sh_{\mathbf{H}_{th}}(X)$, which by the $(\iota \dashv Et)$-[[adjunction]] is a map $\iota(i_U) \to X \times \Omega^1$ in $(\mathbf{H}_{th})_{/X}$ which finally is equivalently a map $U \to \Omega^1$ in $\mathbf{H}_{th}$ hence an element in $\Omega^1(U)$.
 
 
-So the Liouville-Poincar&#233; $\Omega^1$-cocycle according to \ref{TheLiouvillePoincareCocycle} is a [[differential 1-form]] 
+So the Liouville-Poincar&#233; $\Omega^1$-cocycle according to \ref{TheLiouvillePoincareCocycle} is a [[differential 1-form]]
 
 $$
   \theta
   \;\colon\;
   \underset{X}{\sum}\iota \mathcal{O}_X(\Omega^1)
-  \to 
+  \to
   \Omega^1
 $$
 
@@ -1875,7 +1867,7 @@ $$
   \,.
 $$
 
-Since the identity on $X$ is formally &#233;tale, This we may regard as a section of the $G$-valued flat cotangent sheaf, def. \ref{CotangentBundle}, 
+Since the identity on $X$ is formally &#233;tale, This we may regard as a section of the $G$-valued flat cotangent sheaf, def. \ref{CotangentBundle},
 
 $$
   \array{
@@ -1965,13 +1957,13 @@ $$
     \\
     \downarrow^{\mathrlap{p}} && \downarrow
     \\
-    X &\longrightarrow& &#643;_{inf} X
+    X &\longrightarrow& \Im X
   }
 $$
 
 of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
 
-=-- 
+=--
 
 (The [[Atiyah groupoid]] of $T_{inf} X$ is the [[jet groupoid]] of $X$.)
 
@@ -1998,7 +1990,7 @@ $$
      \\
      \downarrow && \downarrow && \downarrow
      \\
-     U &\longrightarrow& X &\longrightarrow& &#643;_{inf} X
+     U &\longrightarrow& X &\longrightarrow& \Im X
   }
   \;\;\;\;
   \simeq
@@ -2008,7 +2000,7 @@ $$
        \\
        \downarrow && \downarrow && \downarrow
        \\
-       U &\longrightarrow& &#643;_{inf} U &\longrightarrow& &#643;_{inf} X
+       U &\longrightarrow& \Im U &\longrightarrow& \Im X
   }
 $$
 
@@ -2077,7 +2069,7 @@ By the discussion at _[[Mayer-Vietoris sequence]]_ in the section [Over an ∞-g
 
 $$
   \array{
-    T_{inf} G &\stackrel{}{\longrightarrow}& 
+    T_{inf} G &\stackrel{}{\longrightarrow}&
     \mathbb{D}^G_e
     &\stackrel{}{\longrightarrow}& \ast
     \\
@@ -2085,7 +2077,7 @@ $$
     \\
     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
     &\stackrel{}{\longrightarrow}&
-    &#643;_{inf}G
+    \ImG
   }
 $$
 
@@ -2150,8 +2142,8 @@ By prop. \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} the constructio
  {#structures}
 
 We discuss the formalization of [[G-structures]] and [[integrability of G-structures]] in differential cohesion
- 
-Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism to the general linear group of $V$, def. \ref{GeneralLinearGroup}, hence 
+
+Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism to the general linear group of $V$, def. \ref{GeneralLinearGroup}, hence
 
 $$
   G\mathbf{Struc}\colon \mathbf{B}G \longrightarrow \mathbf{B}GL(V)
@@ -2244,7 +2236,7 @@ $$
   }
 $$
 
-On the other hand, $\mathbf{c}$ is called _infinitesimally integrable_ (or _torsion-free_) if such an extension exists (only) after restriction to all [[infinitesimal disks]] in $X$ and $U$, hence after composition with the [[counit of a comonad|counit]] 
+On the other hand, $\mathbf{c}$ is called _infinitesimally integrable_ (or _torsion-free_) if such an extension exists (only) after restriction to all [[infinitesimal disks]] in $X$ and $U$, hence after composition with the [[counit of a comonad|counit]]
 
 $$
   \flat^{rel} U \longrightarrow U
@@ -2292,12 +2284,12 @@ We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity
 For $X, A \in \mathbf{H}_{th}$ we say that
 
 $$
-  H_{infflat}(X,A) := \pi_0 \mathbf{H}(\mathbf{\Pi}_{inf}(X), A)
+  H_{infflat}(X,A) := \pi_0 \mathbf{H}(\Im(X), A)
    \simeq
    \pi_0 \mathbf{H}(X, \mathbf{\flat}_{inf}A)
 $$
 
-(where $(\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is given by def. \ref{InfinitesimalPathsAndReduction}) is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
+(where $(\Im \dashv \mathbf{\flat}_{inf})$ is given by def. \ref{InfinitesimalPathsAndReduction}) is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
 
 =--
 
@@ -2308,9 +2300,9 @@ $$
 In traditional contexts this is also called _[[crystalline cohomology]]_ or just _[[de Rham cohomology]]_ . Since we already have an <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">intrinsic notion of de Rham cohomology</a> in any [[cohesive (∞,1)-topos]], which is similar to but may slightly differ from infinitesimal flat differential cohomology, we shall say **[[synthetic differential geometry|synthetic]] de Rham cohomology** for the notion of def. \ref{InfinitesimalFlatCohomology} if we wish to honor traditional terminology. In this case we shall write
 
 $$
-  H_{dR,synth}(X,A) 
-   := 
-  \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), A) 
+  H_{dR,synth}(X,A)
+   :=
+  \pi_0 \mathbf{H}_{th}(\Im(X), A)
   \,.
 
 $$
@@ -2321,12 +2313,12 @@ $$
 ###### Note
 
 
-By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths) 
+By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths)
 we have canonical morphisms
 
 $$
-  \mathbf{H}_{flat}(X,A) 
-    \to  
+  \mathbf{H}_{flat}(X,A)
+    \to
   \mathbf{H}_{infflat}(X,A)
     \to
   \mathbf{H}(X,A)
@@ -2340,21 +2332,21 @@ The objects on the left are **[[principal ∞-bundle]]s equipped with flat [[con
 +-- {: .num_defn #deRhamTheorem}
 ###### Definition
 
-For $A \in \mathbf{H}_{th}$ an abelian [[∞-group]] object we say that the **[[de Rham theorem]]** for $A$-coefficients holds in $\mathbf{H}_{th}$ if for all $X \in \mathbf{H}_{th}$ the 
+For $A \in \mathbf{H}_{th}$ an abelian [[∞-group]] object we say that the **[[de Rham theorem]]** for $A$-coefficients holds in $\mathbf{H}_{th}$ if for all $X \in \mathbf{H}_{th}$ the
 [infinitesimal path inclusion](#InclusionOfConstantIntoInfinitesimalIntoAllPaths)
 
 
 $$
-  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+  \Im(X) \to \mathbf{\Pi}(X)
 $$
 
-is an equivalence in $A$-[[cohomology]], hence if for all $n \in \mathbb{N}$ we have that 
+is an equivalence in $A$-[[cohomology]], hence if for all $n \in \mathbb{N}$ we have that
 
 $$
   \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}(X), \mathbf{B}^n A)
-  \to 
+  \to
 
-  \pi_0 \mathbf{H}_{th}(\mathbf{\Pi}_{inf}(X), \mathbf{B}^n A)
+  \pi_0 \mathbf{H}_{th}(\Im(X), \mathbf{B}^n A)
 $$
 
 is an [[isomorphism]].
@@ -2382,18 +2374,18 @@ The genuine infinitesimal analog of [exponentiated ∞-Lie algebras](#LieAlgebra
 +-- {: .num_defn #InfinitesimalObject}
 ###### Definition
 
-An object $X \in \mathbf{H}_{th}$ is an 
-**infinitesimal cohesive $\infty$-groupoid** if 
-$\mathbf{\Pi}_{inf} X \simeq *$.
+An object $X \in \mathbf{H}_{th}$ is an
+**infinitesimal cohesive $\infty$-groupoid** if
+$\Im X \simeq *$.
 
-An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[formal ∞-group]]** . 
+An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[formal ∞-group]]** .
 
-For $X \in \mathbf{H}$ any object, we say 
+For $X \in \mathbf{H}$ any object, we say
 $\mathfrak{a} \in \mathbf{H}_{th}$ is a
-**[[formal cohesive ∞-groupoid]] over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
+**[[formal cohesive ∞-groupoid]] over $X$** if $\Im(\mathfrak{a}) \simeq \Im(X)$; equivalently: if there is a morphism
 
 $$
-  \mathfrak{a} \to \mathbf{\Pi}_{inf}(X)
+  \mathfrak{a} \to \Im(X)
 $$
 
 that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
@@ -2416,13 +2408,13 @@ is both geometrically contractible and has as underlying discrete $\infty$-group
 +-- {: .proof}
 ###### Proof
 
-The first statement is implied by the fact that 
+The first statement is implied by the fact that
 both $i_!$ as well as $i_*$ are full and faithful. This means that
 if $\mathbf{\Pi}_{\mathrm{inf}}(X) \simeq *$ then already $i^* X = \Pi_{\mathrm{inf}}(X) \simeq *$.
-Since $\Pi_{\mathbf{H}_{\mathrm{th}}} \simeq \Pi_{\mathbf{H}} \Pi_{\mathrm{inf}}$ and 
+Since $\Pi_{\mathbf{H}_{\mathrm{th}}} \simeq \Pi_{\mathbf{H}} \Pi_{\mathrm{inf}}$ and
 $\Pi_{\mathbf{H}}$ preserves the terminal object by cohesiveness, this implies the first claim.
- 
-The second statement follows by 
+
+The second statement follows by
 $$
   \begin{aligned}
     \Gamma X & \simeq \mathbf{H}_{\mathrm{th}}(*,X)
@@ -2445,7 +2437,7 @@ $$
 +-- {: .num_prop}
 ###### Observation
 
-For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
+For all $X \in \mathbf{H}$, we have that $X$ and $\Im(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
 
 =--
 
@@ -2468,19 +2460,19 @@ The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#In
 +-- {: .proof}
 ###### Proof
 
-Since both $i^*$ and $i_*$ are [[right adjoint]], the [infinitesimal path ∞-groupoid functor](#InfinitesimalPathsAndReduction) commutes with [[delooping]]. Therefore 
+Since both $i^*$ and $i_*$ are [[right adjoint]], the [infinitesimal path ∞-groupoid functor](#InfinitesimalPathsAndReduction) commutes with [[delooping]]. Therefore
 
 $$
   \begin{aligned}
-    \mathbf{\Pi}_{inf} \mathbf{B}\mathfrak{g}
+    \Im \mathbf{B}\mathfrak{g}
     & \simeq
-    \mathbf{B} \mathbf{\Pi}_{inf} \mathfrak{g}
+    \mathbf{B} \Im \mathfrak{g}
     \\
     & \simeq \mathbf{B} *
     \\
     & \simeq *
     \\
-    & \simeq \mathbf{\Pi}_{inf} *
+    & \simeq \Im *
   \end{aligned}
   \,.
 $$
@@ -2491,7 +2483,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
+An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject)
 $X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAsGeometricallyContractible) and has as underlying [[discrete ∞-groupoid]] the point:
 
 * $\Pi X \simeq *$
@@ -2505,7 +2497,7 @@ $X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAs
 
 This follows with using the [above observation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
 
-The former implies that with $\mathbf{\Pi}_{inf}(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
+The former implies that with $\Im(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
 
 For the latter we compute
 
@@ -2515,7 +2507,7 @@ $$
      \\
      & \simeq \mathbf{H}_{th}(\Re*, X)
      \\
-     & \simeq \mathbf{H}_{th}(*, \mathbf{\Pi}_{inf}(X))
+     & \simeq \mathbf{H}_{th}(*, \Im(X))
      \\
      & \simeq \mathbf{H}_{th}(*,*)
      \\
@@ -2527,7 +2519,7 @@ $$
 =--
 
 
-#### Lie theory {#LieTheory} 
+#### Lie theory {#LieTheory}
 
 (...)
 
@@ -2538,10 +2530,10 @@ The discussion at _[synthetic differential ∞-groupoid -- Lie differentiation](
 
 
 
-#### Deformation theory 
+#### Deformation theory
  {#StrucDeformationTheory}
 
-For $C^{op}$ any [[(∞,1)-site]] the construction of the 
+For $C^{op}$ any [[(∞,1)-site]] the construction of the
 [[tangent (∞,1)-category]] $T_{C} \to C$ provides a canonical infinitesimal thickening of $C$:
 
 
@@ -2549,11 +2541,11 @@ $$
   C
   \stackrel{\overset{cod}{\leftarrow}}{\stackrel{\overset{\Delta}{\to}}{\underset{dom}{\leftarrow}}}
   C^{\Delta[1]}
-  \stackrel{\overset{L}{\to}}{\underset{\Omega^\infty}{\leftarrow}}  
+  \stackrel{\overset{L}{\to}}{\underset{\Omega^\infty}{\leftarrow}}
   \,,
 $$
 
-where the $\infty$-functor pair on the right forms a 
+where the $\infty$-functor pair on the right forms a
 $cod$-[[relative (∞,1)-adjunction]]. The composite $L \circ i$ is the [[cotangent complex]] functor for $C$ and $\Omega^\infty$ is fiberwise the canonical map out of the [[stabilization]].
 
 The image of $i$ is contained in that of $\Omega^\infty$. Therefore we may restrict the $(cod \dashv i)$-adjunction on the right to the [[full sub-(∞,1)-category]] $\tilde T_C$ of $C^{\Delta[1]}$ on thise objects in the image of $\Omega^\infty$. This yields an infinitesimal neighbourhood of [[(∞,1)-sites]]
@@ -2594,28 +2586,28 @@ See at _[[differential cohesion and idelic structure]]_.
 
 The material discussed here corresponds to the most part to sections 3.5 and 3.10 of
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 For references on the general notion of _[[cohesive (∞,1)-topos]]_, see there.
 
 The following literature is related to or subsumes by the discussion here.
 
-Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
+Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  of
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
-The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 there.
+The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \Im \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 there.
 
-The characterization of infinitesimal extensions and formal smoothness by adjoint functors (in 1-[[category theory]]) is considered in 
+The characterization of infinitesimal extensions and formal smoothness by adjoint functors (in 1-[[category theory]]) is considered in
 
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([pdf](http://nlab.mathforge.org/nlab/files/KontsevichRosenbergNCSpaces.pdf), [ps](http://www.mpim-bonn.mpg.de/preblob/2331), [dvi](http://www.mpim-bonn.mpg.de/preblob/2303))
  {#KontsevichRosenbergSpaces}
 
 in the context of _[[Q-categories]]_ .
 
-The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale objects over a given object appears in 
+The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale objects over a given object appears in
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
  {#Lurie}
@@ -2636,4 +2628,4 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale o
 [[!redirects differential cohesive (infinity,1)-toposes]]
 [[!redirects differential cohesive infinity-toposes]]
 
-[[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]]
+[[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]] 
