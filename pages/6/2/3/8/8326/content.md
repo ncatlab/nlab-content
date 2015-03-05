@@ -1219,6 +1219,7 @@ continuum :  attraction $\dashv$  repulsion
 
 to be quality, then we get from the [[adjoint triple]]
 
+
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 the duality of dualities
@@ -2590,7 +2591,14 @@ With _Notion/Begriff_ being _[[type]]_ and _[[true]]_ being (under [[proposition
 
 Moreover, by [&#167;1630b](#1630b) this is to have a _concrete_ and _external_ aspect to it. Hence both by the understanding of _externalization_ as [[representation]]/[[model]] as well as by the understanding of _[[concrete general]]_ as a [[category]] of [[models]] of a [[theory]] the Idea is to be thought of as the [[category]] of these definable terms. This is known as the _[[term model]]_ of the given ([[modal type theory|modal]] [[type theory]]).
 
-Specifically, under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the "true concepts", the actual facts that may be [[proof|proven]] from the given [[modal type theory]].
+Specifically, under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the "true concepts", the actual facts that may be [[proof|proven]] from the given [[modal type theory]]. 
+
+Compare this to [[Wittgenstein]]'s:
+
+> **Prop 4.11** The totality of true propositions is the whole of natural science (or the whole corpus of the natural sciences). ([[Tractatus Logico-Philosophicus]])
+
+especially in view of Hegel's [PN&#167;192](#PN192) and following, by which Nature is the representation of the Idea.
+
 
 > &#167;1635 When it is said that no object is to be found in experience that is perfectly congruous with the Idea, one is opposing the Idea as a subjective standard to the actual; but what anything actual is supposed in truth to be, if its Notion is not in it and if its objectivity docs not correspond to its Notion at all, it is impossible to say; for it would be nothing. It is true that the mechanical and chemical object, like the nonspiritual subject and the spirit that is conscious only of the finite, not of its essence, do not, according to their various natures, have their Notion existent in them in its own free form.
 
@@ -3097,6 +3105,7 @@ The theme of the idea expressing itself via the spirit in nature is summarized w
 > {#PS456b} PS&#167;456b This common element is either any one particular side of the object raised to the form of universality, such as, for example, in the rose, the red colour; or the concrete universal, the genus, for example, in the rose, the plant;
 
 [[concrete general]], see also at _[The genus](#TheGenus)_.
+
 
 ##### b. Praktischer Geist
 
