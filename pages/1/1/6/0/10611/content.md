@@ -154,3 +154,14 @@ Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory
 [[!redirects modalities]]
 [[!redirects modal operator]]
 [[!redirects modal operators]]
+
+[[!redirects comodality]]
+[[!redirects comodalities]]
+[[!redirects comodal operator]]
+[[!redirects comodal operators]]
+
+[[!redirects co-modality]]
+[[!redirects co-modalities]]
+[[!redirects co-modal operator]]
+[[!redirects co-modal operators]]
+
