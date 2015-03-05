@@ -1709,83 +1709,63 @@ This is discussed in detail at _[[differential cohomology hexagon]]_.
 ### Semantic Layer
  {#SemanticsLayer}
 
-#### Differential cohomology
- {#SmoothDifferentialCohomology}
 
-We discuss now a general abstract construction of differential coefficient objects using the axioms of [[cohesion]]. When applied in the model of [[smooth infinity-groupoids]] we find that the [[Deligne complex]] considered [above](#DeligneCohomology) is a realization of this axiomatics
+Throughout, let $\mathbb{G}$ be a [[braided ∞-group]] in the given [[cohesive (∞,1)-topos]], write $\mathbf{B}\mathbb{G}$ for its [[delooping]] and assume that this is precisely [[n-truncated]]. Write $\mathbf{B}^2 \mathbb{G}$ for the second delooping, given by the braidedness.
 
-
-Let $G \in Grp(\mathbf{H})$ be a [[braided ∞-group]]. Equivalently, let its [[delooping]] $\mathbf{B}G \in \mathbf{H}$ be itself equipped with the structure of an [[∞-group]]. Write
-
-$$
-  \mathbf{B}^2 G \in \mathbf{H}
-$$
-
-for the corresponding double [[delooping]].
-
-+-- {: .num_defn #UniversalCurvatureCharacteristic}
++-- {: .num_defn #HodgeFiltration}
 ###### Definition
 
-Write 
+A $\mathbb{G}$-[[Hodge filtration]] is a choice of [[filtration]] of $\flat \mathbf{B}^2 \mathbb{G}$ (using the [[flat modality]]) such that the first stage
+$F^1 \flat \mathbf{B}^2 \mathbb{G}\longrightarrow F^0 \flat \mathbf{B}^2\mathbb{G}$ is equivalent to the canonical morphism $\flat_{dR} \mathbf{B}\mathbb{G} \longrightarrow \flat \mathbf{B}^2 \mathbb{G}$.
+
+For the $n+1$st stage of the filtration we write 
 
 $$
-  curv_{G} 
-   \coloneqq 
-  \theta_{\mathbf{B}\mathbb{G}}
-  \colon
-  \mathbf{B}G
-  \to
-  \flat_{dR} \mathbf{B}^2 G
-$$
-
-for the [[Maurer-Cartan form]] on the [[∞-group]] $\mathbf{B}G$, def. \ref{GeneralAbstractMaurerCartanForm}. We call this the **universal curvature characteristic** of $G$.
-
-=--
-
-+-- {: .num_defn #GeneralConcreteDifferentialCohomology}
-###### Definition
-
-The **[[differential cohomology]]** with [[coefficients]] in $\mathbf{B}G$ is [[cohomology]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\flat_{dR} \mathbf{B}^2 G}$ with [[coefficients]] in $curv_G$
-
-$$
-  \mathbf{H}_{/\flat_{dR}\mathbf{B}^2 G}(-, curv_G)
+  \Omega^2_{cl}(-,\mathbb{G}) \coloneqq F^{n+1}\flat\mathbf{B}^2 \mathbb{G}
   \,.
 $$
 
 =--
 
-#### Differential-form curvatures
 
++-- {: .num_defn}
+###### Definition
+
+Given a $\mathbb{G}$-[[Hodge filtration]], def. \ref{HodgeFiltration}, write $\mathbf{B}\mathbb{G}_{conn^\bullet}$ for the induced cofiltration given by [[homotopy pullback]] of the [[Maurer-Cartan form]] $\theta_{\mathbf{B}\mathbb{G}} \longrightarrow \flat_{dR}\mathbf{B}^2 \mathbb{G}$ along the Hodge filtration, i.e. the left sequence in the following [[pasting diagram]] of [[homotopy pullbacks]]
 
 $$
   \array{
-     \mathbf{B} \mathbb{G}_{conn} &\to& \Omega^{n+1}_{cl}(-)
-     \\
-     \downarrow &pb& \downarrow^{\mathrlap{}}
-     \\
-     \mathbf{B}\mathbb{G} 
-       &\stackrel{curv}{\to}&
-     \flat_{dR} \mathbf{B}^2 \mathbb{G}
+    \flat \mathbf{B}\mathbb{G} &\longrightarrow& \ast & = & \{0\}
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{B}\mathbb{G}_{conn} &\longrightarrow& F^{n+1}\flat \mathbf{B}^2\mathbb{G} & \simeq & \Omega^2_{cl}(-,\mathbb{G}) 
+    \\
+    \downarrow && \downarrow
+    \\
+    \vdots && \vdots 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}\mathbb{G}_{conn^2} &\longrightarrow& F^3 \flat \mathbf{B}^2 \mathbb{G}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}\mathbb{G}_{conn^1} &\longrightarrow& F^2 \flat \mathbf{B}^2 \mathbb{G}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}\mathbb{G} &\stackrel{\theta_{\mathbf{B}\mathbb{G}}}{\longrightarrow}& F^1 \flat \mathbf{B}^2 \mathbb{G}
+    &\simeq& \flat_{dR} \mathbf{B}^2 \mathbb{G}
   }
 $$
 
-presented by [[ordinary differential cohomology]]
+=--
 
-
-#### Higher holonomy
- {#Holonomy}
-
-* [[higher holonomy]]
-
-$$
-  \exp(2 \pi i \int_{\Sigma}(-))
-  \colon
-  [\Sigma,\mathbf{B}^n U(1)_{conn}]
-  \stackrel{conc \circ \tau_0}{\to}
-  U(1)
-$$
 
 ### Syntactic Layer
+
+> under construciton
 
 #### The dependent curvature type
 
