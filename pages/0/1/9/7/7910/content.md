@@ -31,7 +31,9 @@ $$
 
 to be the [[subgroup]] of the [[diffeomorphism group]] $P \stackrel{\simeq}{\to} P$ on those [[diffeomorphisms]] that preserve $A$. In other words, the quantomorphism group is the group of equivalences of [[connection on a bundle|bundles with connection]] that need not cover the identity [[diffeomorphism]] on the base manifold $X$.
 
-Notice that the tuple $(P,A)$ is a [[regular contact manifold]] (see the discussion there), and so the quantomorphism group is equivalently that of contactomorphisms $(P,A) \to (P,A)$ of weight 0.
+Notice that the tuple $(P,A)$ is a [[regular contact manifold]] (see the discussion there), and so the quantomorphism group is equivalently that of [[contactomorphisms]] $(P,A) \to (P,A)$ of weight 0.
+
+This is an infinite-dimensional [[Lie group]]. References discussing its [[infinite-dimensional manifold]]-structure are collected [below](#SmoothManifoldStructure). But the group has immediately the structure of a group in [[diffeological spaces]] (making it a [[smooth group]]) ([Souriau 79](#Souriau79)).
 
 ### In higher geometry
  {#InHigherGeometry}
@@ -181,6 +183,12 @@ and in section 4.4.17 of
 
 
 ### Smooth manifold structure
+ {#SmoothManifoldStructure}
+
+The [[diffeological space]]-structure ([[diffeological group]], [[smooth group]] structure) on the quantomorphism group is at least implicit in 
+
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+
 
 The [[ILH manifold|ILH group]] structure on the quantomorphism group is discussed in 
 
@@ -198,6 +206,7 @@ The [[convenient manifold|regular convenient Lie group]] structure is discussed 
 A [[metric]]-structure on quantomorphisms groups is discussed in 
 
 * Y. Eliashberg,; L. Polterovich, _Partially ordered groups and geometry of contact transformations_. Geom.Funct.Anal.10(2000),no.6, 1448-1476.
+
 
 ### Examples
 
