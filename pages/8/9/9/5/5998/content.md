@@ -75,7 +75,13 @@ thus giving the classic example of a non-terminating program.
 
 In pure untyped lambda calculus, we can define [[natural numbers]] using the [[Church numerals]]: the number $n$ is represented by the operation of $n$-fold iteration.  Thus for instance we have $2 = \lambda f. (\lambda x.f (f x))$, the function which takes a function $f$ as input and returns a function that applies $f$ twice.  Similarly $1 = \lambda f. (\lambda x.f x)$ is the identity on functions, while $0 = \lambda f. (\lambda x . x)$ takes any function $f$ to the identity function (the 0th iterate of $f$).  We can then construct (very inefficiently) all of arithmetic, and prove that the arithmetic functions expressible by lambda terms are exactly the same as those computable by Turing machines or (total) recursive functions.
 
-The most natural sort of *model* of pure lambda calculus is a set or other object $D$ which is equivalent to its own [[exponential]] $D^D$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $D$ is that every term $f \colon D^D$ have a fixed-point; see [[fixed-point combinator]]. 
+The most natural sort of *model* of pure lambda calculus is a [[reflexive object]] in a cartesian closed category, that is, an object $U$ together with a pair of maps
+
+$$
+\array{U & \overset{a}{\underset{\ell}{\rightleftarrows}} & U^U} 
+$$
+
+representing $a$pplication and $\ell$ambda, such that $a \circ \ell = 1$ (to validate the $\beta$ equation).  Such data thereby witnesses the [[exponential object]] $U^U$ as a [[retract]] of $U$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $U$ is that every term $f \colon U^U$ have a fixed-point; see [[fixed-point combinator]]. 
 
 From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such an object $D$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, the normalizing terms of pure lambda calculus can be characterized precisely as those which are typable in an [[intersection type]] system.
 
@@ -110,7 +116,7 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
-The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $D$ such that the exponential $D^D$ is a [[retract]] of $D$) was formulated explicitly by [[Dana Scott]] in
+The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $U$ such that the exponential $U^U$ is a [[retract]] of $U$) was formulated explicitly by [[Dana Scott]] in
 
 * Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
 
