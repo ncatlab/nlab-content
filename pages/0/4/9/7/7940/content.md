@@ -1,6 +1,8 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Jean-Marie_Souriau)
 
+* [Souriau's works](http://sites.univ-provence.fr/souriau90/Souriau90/Works.html)
+
 ## Related entries
 
 * [[geometric quantization]]
@@ -9,3 +11,6 @@
 
 * [[diffeological space]]
 
+* [[diffeological group]]
+
+category: people
