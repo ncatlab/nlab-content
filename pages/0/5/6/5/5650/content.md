@@ -188,6 +188,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 2.4.3 CoCartesian Symmetric Monoidal Structure
 
+* [[cocartesian monoidal (∞,1)-category]]
+
 #### 2.4.4 Wreath Products
 
 
