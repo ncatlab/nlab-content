@@ -204,7 +204,15 @@ $$
 If $X$ is Seifert via an $S^1$-action, then the component of $Diff(X)$ are typically $\Pi(S^1)$-s.
 
 
+
 ## References
+
+### Smooth structure
+
+The observation that infinite-dimensional  [[smooth groups]] such as diffeomorphism groups (and [[quantomorphism groups]] etc.) are naturally regarded as [[internal groups]] in [[diffeological spaces]] -- [[diffeological groups]] -- is due to
+
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+
 
 ### For 2-manifolds (surfaces)
 
