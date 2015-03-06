@@ -90,6 +90,10 @@ A [[functor]] from the category of  [[BRST complex|BRST]]-VOAs to that of [[A-in
 
 and argued to algebraically encode the [[effective QFT|effective]] [[string theory]] background encoded by the [[CFT]] given by the VOA.
 
+### Relation to conformal nets
+
+Subject to some conditions, from a vertex operator algebra one may induce a [[conformal net]] and conversely ([Capri-Kawahigahshi-Longo-Weiner 15](#CapriKawahigahshiLongoWeiner15)).
+
 ## Examples
 
 A class of examples are _[[current algebras]]_ .
@@ -198,6 +202,10 @@ Much algebraic insight to algebaric structures in CFT is in unfinished notes
 ### Relation to 2d conformal field theory
 
 * [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_  Birkh&#228;user (1997)
+
+Relation specifically to [[conformal nets]] is discussed in
+
+* {#CapriKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_ ([arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
 
 ### Category of vertex operator algebras
 
