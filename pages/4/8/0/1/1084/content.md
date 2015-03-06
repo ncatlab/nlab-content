@@ -104,7 +104,7 @@ Heuristically it is clear that this way every [[cycle]] in $Y$ that happens to b
 +-- {: .num_remark }
 ###### Remark
 
-A morphism $\eta : cyl(X) \to Y$ out of a [[cylinder object]] is a [[left homotopy]] $\eta : g \Rightarrow h$ between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cyclinder boundaries
+A morphism $\eta : cyl(X) \to Y$ out of a [[cylinder object]] is a [[left homotopy]] $\eta : g \Rightarrow h$ between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cylinder boundaries
 
 $$
   \array{
@@ -196,7 +196,7 @@ $$
   }
 $$
 
-defines es the **mapping cone** $cone(f)$ of $f$: the result of forming the cyclinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cylinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
 
 =--
 
