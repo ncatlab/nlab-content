@@ -67,7 +67,7 @@ $$
    G_{i_1, ..., i_n}: M_n \to \mathbb{C} 
 $$
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 1
 **locality**
 
@@ -79,7 +79,7 @@ $$
 
 In this context, covariance is meant with respect to the [[Euclidean group]] $E = E_2$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 2
 **covariance**
 
@@ -120,7 +120,7 @@ $$
 
 Finally let $\underline{ \mathcal{S}^+ }$ the space of all sequences $\underline{f} = (f_i)_{i \in B}$ with $f_i \in \mathcal{S}_n^+$ fpr $i \in B_0^n$ with only finitely many entries $\ne 0$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 3
 **reflection positivity**
 
@@ -152,14 +152,14 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Both a Hilbert space and the field operators of the theory can be (re-) constructed from axioms 1, 2 and 3.
 
 TODO: Details
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 4
 **scaling covariance**
 
@@ -173,7 +173,7 @@ $$
 
 Given axioms 1-4, the 2-point functions can be fully classified, see below.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 5
 **existence of the energy-momentum tensor**
 
@@ -196,7 +196,7 @@ $$
 
 The energy momentum tensor allows us to define two densly defined operators $L_{-n}, \overline{L_{-n}}$ that both define unitary representations of the [[Virasoro algebra]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **L&#252;scher-Mack**
 
@@ -211,7 +211,7 @@ $$
 are well defined and satisfy the commutation relations of two commuting [[Virasoro algebra|Virasoro algebras]] with the same central charge.
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **primary field**
 
@@ -226,7 +226,7 @@ So, primary fields are the fields whose correlation functions are covariant "inf
 
 The fields are operator valued distributions and cannot be multiplied in general. The possibility of multiplication of fields evaluated at different points and some control of the singularities of this product are part of the axioms of conformal field theory:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Pseudodefinition
 **operator product expansion**
 
@@ -243,7 +243,7 @@ A rigorous interpretation of an OPE would interpret the given relation as a rela
 An OPE is called **associative** if the expansion of a product of more than two fields does not depend on the order of the expansion of the products of two factors. 
 Since the OPE has no interpretation as defining products of operators, or more generally the product in a ring, the notion of associativity does not refer to the associativity of a product in a ring, as the term may suggest.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Axiom 6
 **existence of associative operator product expansion**
 
@@ -254,7 +254,7 @@ Many _formal_ calculations of physicists in CFT involving OPE can be justified b
 
 ### Properties ###
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Any 2-point function satisfying axioms 1-4 has the following form:
 $$
@@ -279,14 +279,15 @@ The [[Liouville cocycle]] appears when one moves from genuine [[representation]]
 
 In [[AQFT]] conformal field theory is modeled in terms of [[local net]]s that are [[conformal net]]s.
 
-## Full versus chiral CFT {#FullAndChiral}
+## Full versus chiral CFT 
+ {#FullAndChiral}
 
 
 > some discussion of full vs. chiral CFT goes here... then:
 
-The following result establishes which pairs of [[vertex operator algebras]] can appear as the left and right chiral parts of a full field algebra in the sense of Huang, Lepowski, [[Liang Kong|Kong]], etc. (see [[vertex operator algebra]]).
+The following result establishes which pairs of [[vertex operator algebras]] can appear as the left and right chiral parts of a _[[full field algebra]]_ in the sense of ([Huang-Kong 05](#HuangKong05)), etc. (see [[vertex operator algebra]]).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Two [[modular tensor categories]] are said to have the same **Witt class**
@@ -322,7 +323,7 @@ $$
   \,.
 $$
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **([[Michael Müger]])**
 
@@ -330,7 +331,7 @@ If $S$ is a [[spherical category]] then $\mathcal{Z}(S)$ is a [[modular tensor c
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **([[Michael Müger]])**
 
@@ -347,7 +348,7 @@ $$
 =--
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Two [[vertex operator algebra]]s $V$ may appear as the left and right chiral 
@@ -430,12 +431,17 @@ A textbook directed at mathematicians and explaining the "classical" concept of 
 
 * Martin Schottenloher: _A mathematical introduction to conformal field theory_ (2nd edition, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1161.17014&format=complete))
 
-A survey of some of the basic manipulationsin chiral CFT, motivated from a [[path integral]] perspective is at
+A survey of some of the basic manipulations in chiral CFT, motivated from a [[path integral]] perspective is at
 
 * [[Domenico Fiorenza]], _[[domenicofiorenza:Vertex algebras avant Borcherds]]_
 
 See also the references at [[vertex operator algebra]].
 
+Discussion of full field algebra includes
+
+* {#HuangKong05} [[Yi-Zhi Huang]], [[Liang Kong]], _Full field algebras_, Commun.Math.Phys.272:345-396,2007 ([arXiv:0511328](http://arxiv.org/abs/math/0511328))
+
+* [[Liang Kong]], _Full field algebras, operads and tensor categories_, 	Adv. Math.213:271-340, 2007 ([arXiv:0603065](http://arxiv.org/abs/math/0603065))
 
 ### CFT on complex curves/surfaces of arbitrary genus
 
@@ -490,12 +496,12 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 
 
-* [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT
+* {#KapustinSaulina} [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT
 _ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
- {#KapustinSaulina}
+ 
 
-* [[Liang Kong]] _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
- {#Kong}
+* {#Kong} [[Liang Kong]] _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
+ 
 
 
 ...
