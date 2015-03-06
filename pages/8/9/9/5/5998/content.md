@@ -83,7 +83,7 @@ $$
 
 representing $a$pplication and $\ell$ambda, such that $a \circ \ell = 1$ (to validate the $\beta$ equation).  Such data thereby witnesses the [[exponential object]] $U^U$ as a [[retract]] of $U$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $U$ is that every term $f \colon U^U$ have a fixed-point; see [[fixed-point combinator]]. 
 
-From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such an object $D$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, the normalizing terms of pure lambda calculus can be characterized precisely as those which are typable in an [[intersection type]] system.
+From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such a reflexive object $U$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, the normalizing terms of pure lambda calculus can be characterized precisely as those which are typable in an [[intersection type]] system.
 
 ### Simply typed lambda calculus
 
@@ -126,7 +126,7 @@ This followed his earlier work constructing an explicit such model in the catego
 
 * Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
 
-Another, more recent take on pure lambda calculus (as a "semi-closed algebraic theory") can be found in
+Another, more recent take on pure lambda calculus as a certain kind of [[algebraic theory]] (called a "[[lambda theory]]") can be found in
 
 * [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
 
