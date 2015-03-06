@@ -20,6 +20,7 @@
 ## Idea
 
 A _cartesian monoidal (∞,1)-category_ is a [[symmetric monoidal (∞,1)-category]] whose [[tensor product]] is given by the categorical [[product]]. 
+This is dual to the notion of [[cocartesian monoidal (∞,1)-category]].
 
 In the special case that the underlying [[(∞,1)-category]] is equivalent to just a [[1-category]], then this is equivalently a [[cartesian monoidal category]].
 
