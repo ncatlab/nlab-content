@@ -26,7 +26,7 @@ A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By defau
 
 ### Embedding into the category of diffeological spaces
 
-The category of smooth Banach manifolds has a [[full and faithful functor]] into the category of [[diffeological spaces]]. In terms of Chen smooth spaces this was observed in ([Hain](#Hain)).
+The category of smooth Banach manifolds has a [[full and faithful functor]] into the category of [[diffeological spaces]]. In terms of Chen smooth spaces this was observed in ([Hain](#Hain)). For more see at _[Fr&#233;chet manifold -- Relation to diffeological spaces](#Fr&#233;chet+manifold#RelationBetweenDeffeologicalAndFrechetStructure)_.
 
 ## Related concepts
 
@@ -44,8 +44,8 @@ For general references see at _[[infinite-dimensional manifold]]_.
 
 The embedding into the category of diffeological spaces is discussed in 
 
-* [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
- {#Hain}
+* {#Hain} [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
+ 
 
 
 [[!redirects Banach manifolds]]
