@@ -374,6 +374,9 @@ $$
 $$
 
 (which is just the [[exponential sequence]] regarded as a chain map).
+That this is a weak equivalence is the statement that every smooth 
+$U(1)$-valued function is locally the quotient of a smooth $\mathbb{R}$-valued function by a $\mathbb{Z}$-valued function. In fact on [[Cartesian spaces]]
+this is of course true even globally.
 
 The de Rham differential [[extension|extends]] through this equivalence
 to produce a morphism denoted $\mathbf{d} log$:
@@ -501,9 +504,9 @@ The **&#268;ech cochain complex** $C^\bullet((X,\{U_i\}),A_\bullet)$
 of $X$ with respect to the cover $\{U_i \to X\}$ and with [[coefficients]] in $A_\bullet$ is in degree $k \in \mathbb{N}$ given by the [[abelian group]]
 
 $$
-  C_k((X,\{U_i\}),A_\bullet)
+  C^k((X,\{U_i\}),A_\bullet)
   \coloneqq
-  \oplus_{{l,n} \atop {k = l-n}}
+  \oplus_{{l,n} \atop {k = n-l}}
   \oplus_{i_0, i_1, \cdots, i_n}
   A_l(U_{i_0, \cdots, i_n})
 $$
@@ -525,7 +528,7 @@ $$
   \begin{aligned}
     (d a)_{i_0, \cdots, i_{k+1}} 
     & \coloneqq 
-    (\partial_A + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
+    (\partial_A a + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
     \\
     & \coloneqq
     \partial_A a_{i_0, \cdots, i_{k+1}}
@@ -548,7 +551,7 @@ $$
   \,.
 $$
 
-The **Cech cohomology** groups as such as the [[colimit]] of these groups over refinements of covers
+The **Cech cohomology** groups as such are the [[colimit]] ("[[direct limit]]") of these groups over refinements of covers
 
 $$
   H^k_{Cech}(X, A_\bullet)
@@ -582,9 +585,9 @@ $$
      &&
      \downarrow^{\mathrlap{\partial_A}}
      \\
-     \oplus_i A_1(U_i)
+     \oplus_i A_1(U_{i_0})
      &\stackrel{\delta}{\longrightarrow}&
-     \oplus_{i_1, i_2} A_1(U_{i_1, i_2})
+     \oplus_{i_0, i_1} A_1(U_{i_0, i_1})
      &\stackrel{\delta}{\longrightarrow}&
      \cdots
      \\
@@ -594,7 +597,7 @@ $$
      \\
      \oplus_i A_0(U_i)
      &\stackrel{\delta}{\longrightarrow}&
-     \oplus_{i_1, i_2} A_0(U_{i_1, i_2})
+     \oplus_{i_0, i_1} A_0(U_{i_0, i_1})
      &\stackrel{\delta}{\longrightarrow}&
      \cdots
   }
@@ -631,7 +634,30 @@ is a homotopy fiber sequence of chain complexes, and therefore the [[cohomology 
 
 =--
 
++-- {: .num_example #OrdinaryCohomologyFromCechCohomology}
+###### Example
 
+For $A_\bullet = (\mathbf{B}^{n+1}\mathbb{Z})_\bullet$ as in example \ref{DeloopingsOfAbelianSheaf}, then for $X$ a [[smooth manifold]] 
+
+$$
+  H^0_{Cech}(X, (\mathbf{B}^{n+1}\mathbb{Z})_\bullet)
+  \simeq
+  H^{n+1}(X,\mathbb{Z})  
+$$
+
+is the [[ordinary cohomology]] of $X$ with [[integer]] [[coefficients]], the cohomology which is also computed as the [[singular cohomology]] of the underlying [[topological space]] of $X$.
+
+Similarly for $A_\bullet = (\flat \mathbf{B}^n U(1))_{\bullet}$ then 
+
+$$
+  H^0_{Cech}(X, (\flat\mathbf{B}^{n}U(1))_\bullet)
+  \simeq
+  H^{n}(X,U(1))  
+$$
+
+is the [[ordinary cohomology]] of $X$ with [[circle group]] [[coefficients]], the cohomology which is also computed as the [[singular cohomology]] of the underlying [[topological space]] of $X$ with $U(1)$-coefficients.
+
+=--
 
 
 +-- {: .num_example #DeRhamTheorem}
@@ -726,6 +752,16 @@ $$
 with $U(1)$ in degree $n$ and with the differentials as
 in def. \ref{SheavesOfFormsAndDeRhamDifferential} and example \ref{LogDiffInSmoothContext}.
 
+We write
+
+$$
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \coloneqq
+  H^0_{Cech}(X,(\mathbf{B}^n U(1)_{conn})_\bullet)
+$$
+
+for its [[abelian sheaf cohomology]].
+
 =--
 
 +-- {: .num_remark #RModZResolutionOfU1DeligneComplex}
@@ -816,6 +852,7 @@ $$
 with $U(1)$ in degree $n$ and with the differentials as
 in def. \ref{SheavesOfFormsAndDeRhamDifferential} and example \ref{LogDiffInSmoothContext}, and with the _closed_ $n$-forms
 on the right.
+
 
 =--
 
@@ -997,7 +1034,7 @@ $$
   }
 $$
 
-Passing to [[abelian sheaf cohomology]] this gives a morphism
+Passing to [[abelian sheaf cohomology]] this gives, by def. \ref{TheSmoothDeligneComplex} and example \ref{OrdinaryCohomologyFromCechCohomology}, a morphism
 
 $$
   \array{
