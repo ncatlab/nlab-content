@@ -1,5 +1,8 @@
 
-> This is a sub-entry of _[[geometry of physics]]_.
+> This entry contains one chapter of _[[geometry of physics]]_.
+
+> previous chapter: _[de Rham coefficients](geometry+of+physics#deRhamCoefficients)_
+
 
 ***
 
