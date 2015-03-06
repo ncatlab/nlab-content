@@ -52,7 +52,7 @@ Given a specification of $S$ and $A$, it may be that there exist certain states 
 
 People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]] (for more on this suggestion see also at _[[Bohr topos]]_), and people have implied (in the first paper at [Fuchs, n.d.](#Fuchs)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, n.d.](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
 
-The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have seen, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)) (and this is not the origin of these ideas either), but here he does not yet say 'Bayes'.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, n.d.](#Fuchs)).
+The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have seen, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)) (and this is not the origin of these ideas either), but this still allows other interpretations.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, n.d.](#Fuchs)).
 
 
 ## Related interpretations
@@ -73,7 +73,7 @@ In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to
 * Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
   {#CFS2001}
 
-* [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [web](http://www.perimeterinstitute.ca/personal/cfuchs/).
+* [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.perimeterinstitute.ca/personal/cfuchs/).
   {#Fuchs}
 
 * Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
