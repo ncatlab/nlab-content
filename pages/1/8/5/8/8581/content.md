@@ -26,6 +26,7 @@
 The notion of _smooth groupoid_ is the first generalization of the notion of _[[smooth space]]_ to [[higher differential geometry]].
 A _smooth groupoid_ is a [[stack]] on the [[site]] [[CartSp]]${}_{smooth}$. This is equivalently an [[n-truncated object in an (infinity,1)-topos|1-truncated]] [[smooth infinity-groupoid]].
 
+This concepts contains notably the [[deloopings]] of [[Lie groups]] and more generally of [[diffeological groups]], and the concept of [[Lie groupoid]].
 
 ## Definition
 
@@ -102,6 +103,10 @@ For $G$ a [[smooth group]], its [[delooping]] $\mathbf{B}G$ is a smooth groupoid
 * [[centrally extended groupoid]]
 
 ## References
+
+Discussion of [[diffeological groups]] (such as [[diffeomorphism groups]] and [[quantomorphism groups]]) goes back to 
+
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
 
 Discussion of smooth stacks as [[target spaces]] for [[sigma-model]] [[quantum field theories]] is in 
 
