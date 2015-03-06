@@ -57,7 +57,7 @@ In this context the [[topology]] of [[manifolds]] is often referred to as _rubbe
  {#RubberSheetAnalogyOfGravity}
 
 
-Moreover, these modalities [above](#InCategoricalLogic) induce an axiomatizatioon of [[Cartan geometry]], hence in particular of [[pseudo-Riemannian geometry]] and hence of [[gravity]] ("[[general relativity]]") on these manifolds. 
+Moreover, these modalities [above](#InCategoricalLogic) induce an axiomatization of [[Cartan geometry]], hence in particular of [[pseudo-Riemannian geometry]] and hence of [[gravity]] ("[[general relativity]]") on these manifolds. 
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GPB_circling_earth.jpg/450px-GPB_circling_earth.jpg" alt="mass curving spacetime" /></div>
 
