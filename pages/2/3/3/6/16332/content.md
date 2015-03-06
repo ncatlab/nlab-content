@@ -6,4 +6,7 @@
 
 * [[philosophy of science]]
 
+* [[David Corfield]], _[[davidcorfield:Friedman's Dynamics of Reason]]_
+
+
 category: people
