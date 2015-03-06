@@ -25,8 +25,7 @@ A **diffeological spaces** is a type of [[generalized smooth space]].  As with t
 
 In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the category of open subsets of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
 
-Diffeological spaces were originally introduced by [[Jean-Marie Souriau]] in the beginning of the 1980s. They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who wrote a [textbook](http://www.ams.org/bookstore-getitem/item=SURV-185) on the subject.
-
+Diffeological spaces were originally introduced in ([Souriau 79](#Souriau79)). They have subsequently been developed in the textbook ([Iglesias-Zemmour 13](#PIZ))
 
 ## Definition
 
@@ -476,7 +475,7 @@ into the [[(∞,1)-topos]] [{[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[
 ## References 
  {#References}
 
-The basic idea of understanding a smooth space as a concrete sheaf on a site of smooth test spaces originates in work of Chen. In 
+The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of Chen. In 
 
 * [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246.
 
@@ -493,15 +492,15 @@ and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of
 
 The variant of this idea with the site of convex subsets replaced by that of open subsets (and hence equivalently by the site [[CartSp]]${}_{smooth}$) appeared in
 
-* [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_ , in -Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979),
-Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128.
-([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+The [[diffeological space]]-structure is at least implicit in 
 
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+
+motivated from the desire to realize the infinite dimensional groups that appear in [[geometric quantization]], such that (Hamiltonian) [[diffeomorphism group]] and their [[group extensions]] by [[quantomorphism groups]] as [[diffeological groups]].
 
 A detailed discusson of the relations of these and other variants of the definition is in
 
-* [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
-{#Stacey}
+* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
 
 The article 
 
@@ -509,11 +508,10 @@ The article
 
 amplifies the point that diffeological spaces are [[concrete sheaves]].
 
-A textbook on [[differential geometry]] with diffeological spaces is
+A textbook about [[differential geometry]] formulated in terms of diffeological spaces is 
 
-* [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://www.umpa.ens-lyon.fr/~iglesias/Site/The%20Book.html))
- {#PIZ}
-
+* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://www.umpa.ens-lyon.fr/~iglesias/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
+ 
 The term "diffeological space" originates in the work of this author.
 
 The thesis
