@@ -26,7 +26,37 @@
 
 ## Idea
 
-This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _smooth sets_ or _smooth spaces_. The definition subsumes that of [[smooth manifolds]], [[Frechet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful. 
+This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _smooth sets_ or _smooth spaces_ or _smooth 0-types_. 
+
+The definition subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
+
+In fact smooth sets are an early stage in a long sequence of generalized smooth spaces used in [[higher differential geometry]]:
+
+$\{$[[coordinate systems]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth manifolds]]$\}$ 
+ $\hookrightarrow$
+$\{$[[Hilbert manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[Banach manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[Fréchet manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[diffeological spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[orbifold|smooth orbifolds]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth groupoids]]$\}$ 
+ $\hookrightarrow $
+$\{$[[smooth 2-groupoids]]$\}$ 
+ $\hookrightarrow 
+ \cdots
+ \hookrightarrow $
+$\{$[[smooth ∞-groupoids]]$\}$ 
+
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -673,23 +703,7 @@ Later we define/see the following:
 
   (This need not be the case in a general smooth space, important counterexamples are the _universal smooth moduli spaces of differential forms_ in [Smooth moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)).
 
-  
-
-We will establish a long sequence of [[faithful functor|faithful]] inclusions 
-
-$\{$[[coordinate systems]]$\}$ 
- $\hookrightarrow$
-$\{$[[smooth manifolds]]$\}$ 
- $\hookrightarrow$
-$\{$[[Fréchet manifolds]]$\}$
- $\hookrightarrow$
-$\{$[[diffeological spaces]]$\}$ 
- $\hookrightarrow$
-$\{$[[smooth spaces]]$\}$ 
- $\hookrightarrow$
-$\{$[[smooth groupoids]]$\}$ 
- $\hookrightarrow \cdots $
-
+ 
 
 =--
 
