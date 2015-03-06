@@ -90,8 +90,9 @@ A "curved" generalization is discussed in
 
 [[Bernhard Keller]] and his student Lef&#232;vre-Hasegawa
 described rather general framework for Koszul duality using dg-(co)algebras and [[twisting cochain]]s:
+
 * [[Bernhard Keller]], _Koszul duality and coderived categories (after Lef&#232;vre-Hasegawa)_ (2003) [abstract](http://www.math.jussieu.fr/~keller/publ/kdcabs.html) [dvi](http://www.math.jussieu.fr/~keller/publ/kdc.dvi) [pdf](http://www.math.jussieu.fr/~keller/publ/kdc.pdf) [ps](http://www.math.jussieu.fr/~keller/publ/kdc.ps)
-* Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf)
+* Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf) [math/0310337](http://arxiv.org/abs/math.CT/0310337)
 * Leonid Positselski, _Two kinds of derived categories, Koszul duality, and comodule-contramodule correspondence_, [arxiv/0905.2621](http://arxiv.org/abs/0905.2621)
 * Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arxiv/1306.6708](http://arxiv.org/abs/1306.6708)
 * M. M. Kapranov, _On DG-modules over the de rham complex and the vanishing cycles functor_, Algebraic Geometry, 
