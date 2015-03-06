@@ -59,15 +59,23 @@ Thus the only difference from the usual Cartesian product of simplicial sets is 
 
 *  A twisting function is an analogue of a [[twisting cochain]] in the context of [[simplicial set]]s although historically the development went the other way, it seems as the basic theory of twisting cochains was introduced by Ed Brown in his paper 
 
-   * Edgar H. Brown Jr. _Twisted tensor products. I._  Ann. of Math. (2)  69  (1959) 223--246.
+## Literature
 
-*  The link between Kan fibrations and simplicial fibre bundles, and thus TCPs is neatly summarised in Curtis 
+* [[Henri Cartan]], _Sur la th&#233;orie de Kan_, S&#233;minaire Henri Cartan, 9 (1956-1957), Expos&#233; No. 1, 19 p. [numdam](http://www.numdam.org/item?id=SHC_1956-1957__9__A1_0)
+
+* Edgar H. Brown Jr. _Twisted tensor products. I._  Ann. of Math. (2)  69  (1959) 223--246.
+
+The link between Kan fibrations and simplicial fibre bundles, and thus TCPs is neatly summarised in 
 
    *  E. Curtis, _Simplicial Homotopy Theory_, Advances in Math. __6__ (1971) 107 &#8211; 209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <a href="http://dx.doi.org/10.1016/0001-8708(71)90015-6">doi</a>
 
-*  For one of the foundational papers:
+For one of the foundational papers:
 
-   * M. G. Barratt, V. K. A. M. Gugenheim, J. C. Moore, _On semisimplicial fibre-bundles_, Amer. J. Math. __81__ 1959 639&#8211;657. MR0111028 (22 #1895)
+   * M. G. Barratt, V. K. A. M. Gugenheim, J. C. Moore, _On semisimplicial fibre-bundles_, Amer. J. Math. __81__ 1959, 639&#8211;657. MR0111028 (22 #1895)
+
+Detailed exposition is also in the book 
+
+* P. May, _Simplicial objects in algebraic topology_, University of Chicago Press, 1967 [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)
 
 [[!redirects twisting functions]]
 
