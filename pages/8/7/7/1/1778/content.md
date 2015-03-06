@@ -221,6 +221,7 @@ This picks
 
 * a 2-morphism 
   $$ 
+
     \array{
       && \pi_{2}^* a
       \\
@@ -586,9 +587,9 @@ The **&#268;ech cochain complex** $C^\bullet((X,\{U_i\}),A_\bullet)$
 of $X$ with respect to the cover $\{U_i \to X\}$ and with [[coefficients]] in $A_\bullet$ is in degree $k \in \mathbb{N}$ given by the [[abelian group]]
 
 $$
-  C_k((X,\{U_i\}),A_\bullet)
+  C^k((X,\{U_i\}),A_\bullet)
   \coloneqq
-  \oplus_{{l,n} \atop {k = l-n}}
+  \oplus_{{l,n} \atop {k = n-l}}
   \oplus_{i_0, i_1, \cdots, i_n}
   A_l(U_{i_0, \cdots, i_n})
 $$
@@ -609,7 +610,7 @@ $$
   \begin{aligned}
     (d a)_{i_0, \cdots, i_{k+1}} 
     & \coloneqq 
-    (\partial_A + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
+    (\partial_A a + (-1)^k \delta a)_{i_0, \cdots, i_{k+1}} 
     \\
     & \coloneqq
     \partial_A a_{i_0, \cdots, i_{k+1}}
@@ -632,7 +633,7 @@ $$
   \,.
 $$
 
-The **Cech cohomology** groups as such as the [[colimit]] of these groups over refinements of covers
+The **Cech cohomology** groups as such are the [[colimit]] ("[[directed limit]]") of these groups over refinements of covers
 
 $$
   H^k_{Cech}(X, A_\bullet)
