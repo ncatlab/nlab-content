@@ -116,6 +116,11 @@ In particular, for $C$ complete, a functor $G\colon C \to D$ that preserves wide
 
 * [[parametric right adjoint]]
 
+* [[connected category]] 
+
+* [[wide pullback]] 
+
+* [[wide pushout]] 
 
 ## References
 
