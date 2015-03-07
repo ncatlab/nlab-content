@@ -74,7 +74,7 @@ $$
   }
 $$
 
-In other words, local systems are [[locally constant ∞-stacks]] or equivalenlty their classifying [[cocycles]] for [[cohomology with constant coefficients]].
+In other words, local systems are [[locally constant ∞-stacks]] or equivalently their classifying [[cocycles]] for [[cohomology with constant coefficients]].
 
 =--
 
