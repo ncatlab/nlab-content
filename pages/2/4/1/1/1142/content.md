@@ -126,13 +126,13 @@ $$F\star G = U \mapsto \int^{U_1,U_2\in X} Hom_X(U, U_1\otimes U_2) \times F(U_1
 
 Then we can define two right adjoints 
 
-$$F\star - \dashv [F,-]^\star_\ell
-\qquad -\star G \dashv [G,-]^\star_r$$
+$$F\star - \dashv F \backslash -
+\qquad -\star G \dashv - / G$$
 
 by the following [[end]] formulas:
 
-$$[F,H]^\star_\ell = V \mapsto \int_{U\in X} F(U) \to H(U\otimes V)$$
-$$[G,H]^\star_r = U \mapsto \int_{V\in X} G(V) \to H(U\otimes V)$$
+$$F \backslash H = V \mapsto \int_{U\in X} F(U) \to H(U\otimes V)$$
+$$H / G = U \mapsto \int_{V\in X} G(V) \to H(U\otimes V)$$
 
 In the case where the monoidal structure on $X$ is cartesian, the induced closed monoidal structure on $Psh(X)$ coincides with the cartesian closed structure described in the previous sections.
 
