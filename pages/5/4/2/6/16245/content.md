@@ -70,6 +70,8 @@ and hence in particular that any two derivations $\alpha_1,\alpha_2$ of $A \le B
 
 ## References
 
+* {#Reynolds80} [[John C. Reynolds]], _Using Category Theory to Design Implicit Conversions and Generic Operators_, In Proceedings of the Aarhus Workshop on Semantics-Directed Compiler Generation (January 14-18, 1980), Springer-Verlag. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2276&context=compsci))
+
 * {#Reynolds91} John C. Reynolds, _The Coherence of Languages with Intersection Types_. TACS 1991. ([ps](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/tempdir/coherence.ps))
 
 * {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. BRICS Report RS-00-32, Aarhus University, December 2000. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci))
