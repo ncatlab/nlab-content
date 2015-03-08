@@ -71,7 +71,7 @@ The distinction between ad hoc and parametric polymorphism is originally due to 
 
 * Christopher Strachey, _Fundamental concepts in programming languages_, Lecture Notes from August 1967 (International Summer School in Computer Programming, Copenhagen), later published in Higher-Order and Symbolic Computation, 13, 11-49, 2000. ([pdf](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf))
 
-[[John Reynolds]] wrote several classic papers on the subject:
+[[John C. Reynolds]] wrote several classic papers on the subject:
 
 * John C. Reynolds, _Towards a Theory of Type Structure_, Lecture Notes in Computer Science 19, 408-425, 1974. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2289&context=compsci))
 
