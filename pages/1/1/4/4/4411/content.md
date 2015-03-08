@@ -1,36 +1,45 @@
-#Contents#
+# Contents #
 * automatic table of contents goes here
 {:toc}
 
-## Definition-Proposition
+## Definition and Properties 
 
-A **valuation ring** is a commutative [[integral domain]] $O$ which satisfies any of the following equivalent conditions
+A **valuation ring** is a commutative[^fine] [[integral domain]] $O$ which satisfies any of the following equivalent conditions: 
 
-* for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$. 
-* The ideals of $O$ are totally ordered by inclusion
-* The principal ideals of $O$ are totally ordered by inclusion
+* for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$; 
 
-+-- {: .un_prop}
-######Proposition 
+* the ideals of $O$ are totally ordered by inclusion;
+
+* the principal ideals of $O$ are totally ordered by inclusion. 
+
+[^fine]: There are also noncommutative versions, which the nLab may get around to at some point. 
+
++-- {: .num_prop}
+###### Proposition 
 A valuation ring $O$ is a [[local ring]]. Its maximal ideal is said to be the [[valuation ideal]]. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 Suppose $x$, $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
 =--
 
-+-- {: .un_prop}
-######Proposition
++-- {: .num_prop}
+###### Proposition
 A valuation ring $O$ is integrally closed in its field of fractions $F$. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 Suppose $x \in F$ satisfies an equation $x^n + a_{n-1}x^{n-1} + \ldots + a_0 = 0$ where the $a_i$ belong to $O$. Either $x$ or $1/x$ belongs to $O$, and if $1/x$ belongs to $O$, then so does $x$ because 
 $$x = a_{n-1}x^{-1} + a_{n-1}x^{-2} + \ldots + a_0 x^{-n}$$ 
 and this completes the proof. 
-=--
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+A valuation ring is a [[Prüfer domain]]. 
+=-- 
 
 ### Example: germs of definable functions
 
@@ -133,8 +142,11 @@ from fields to posets. Here $V$ assigns to a field $K$ the poset of equivalence 
 ## Literature
 
 Related entries: [[valuation]], [[discrete valuation]], [[class field theory]]
+
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.  
+
 * Serge Lang, _Algebraic number theory_. GTM 110, Springer 1970, 2000
+
 * O. Zariski, Samuel, _Commutative algebra_
 
 [[!redirects valuation rings]]
