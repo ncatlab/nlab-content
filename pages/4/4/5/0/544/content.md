@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-Coderivations on free coalgebras are entirely determined by their "value on cogenerators", which allows to decompose
+Coderivations on free coalgebras are entirely determined by their "value on cogenerators", which allows one to decompose $D$ as a sum:
 
 $$
   D = D_1 + D_2 + D_3 + \cdots
@@ -180,6 +180,10 @@ A brief survey is in section 1.8 of
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
 * [pdf](http://math.bnu.edu.cn/~ccxi/Notes/notes-lu.pdf)
+
+The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analogues of [[minimal model]]s for $A_\infty$ alebras$. It was pub lished in TAC much later.
+
+* [[Alain Prouté]], _Alg&#232;bres Diff&#233;rentielles Fortement Homotopiquement Associatives ($A_\infty$-alg&#232;bres)_ thesis, available as _{Reprints in Theory and Applications of Categories, No. 21, 2011, pp. 1&#8211;99](http://www.logique.jussieu.fr/~alp/these_A_Proute-TAC.pdf)_
 
 [[!redirects A-infinity-algebras]]
 [[!redirects A-infinity algebra]]
