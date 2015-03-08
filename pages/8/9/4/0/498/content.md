@@ -33,6 +33,17 @@ Here are a few equivalent ways to phrase the combined condition:
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an [[anti-ideal]].)
 
+## Results 
+
+### Kaplansky's theorem 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Kaplansky)** 
+A projective module over a commutative local ring is free. 
+=-- 
+
+An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363). 
 
 ## In geometry
 
