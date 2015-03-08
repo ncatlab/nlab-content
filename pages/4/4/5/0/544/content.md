@@ -179,9 +179,8 @@ A brief survey is in section 1.8 of
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
-* [pdf](http://math.bnu.edu.cn/~ccxi/Notes/notes-lu.pdf)
 
-The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analogues of [[minimal model]]s for $A_\infty$ alebras$. It was pub lished in TAC much later.
+The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analogues of [[minimal model]]s for $A_\infty$ algebras. It was published in TAC much later.
 
 * [[Alain Prouté]], _Alg&#232;bres diff&#233;rentielles fortement homotopiquement associatives ($A_\infty$-alg&#232;bres)_, thesis, available as [Reprints in Theory and Applications of Categories, No. 21, 2011, pp. 1&#8211;99](http://www.logique.jussieu.fr/~alp/these_A_Proute-TAC.pdf)
 
