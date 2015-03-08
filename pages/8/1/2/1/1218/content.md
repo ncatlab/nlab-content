@@ -551,8 +551,7 @@ The largest [[topological space|topology]] on the set which underlies a diffeolo
 
 Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topological spaces]] is discussed in 
 
-* [[Dan Christensen|J. Daniel Christensen]],  Enxin Wu, _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_ ([arXiv:1311.6394]
-(http://arxiv.org/abs/1311.6394))
+* [[Dan Christensen|J. Daniel Christensen]],  Enxin Wu, _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_ ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 Discussion in the context of applications to [[continuum mechanics]] is in 
 
