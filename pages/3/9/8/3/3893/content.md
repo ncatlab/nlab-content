@@ -33,6 +33,8 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 ## Related entries
 
+* [[super-Cartan geometry]]
+
 * [[Cartan geometry, Supergravity and Branes]]
 
 ## References
