@@ -14,9 +14,9 @@ such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $
 
 ## Remarks
 
-* Given a reflexive object $(U,a,\ell)$, any closed term $t$ of pure lambda calculus can be interpreted as a [[global element]] $[[t]] : 1 \to U$, while in general a term with $n$ free variables can be interpreted as a morphism $[[t]] : U^n \to U$.  (Technically, one can view this interpretation as first representing $t$ as [[higher-order abstract syntax]], and then using the morphisms $a$ and $\ell$ to interpret $a$pplication and $\ell$ambda, respectively.)
+* Given a reflexive object $(U,a,\ell)$, any closed term $t$ of pure lambda calculus can be interpreted as a [[global element]] $[[t]] : 1 \to U$, while in general a term with $n$ free variables can be interpreted as a morphism $[[t]] : U^n \to U$.  Formally, one can view this interpretation as first passing via the representation of $t$ as [[higher-order abstract syntax]], and then using the morphisms $a$ and $\ell$ to interpret $a$pplication and $\ell$ambda, respectively.
 
-* The equation $a \circ \ell = 1$ ("application after lambda is the identity") represents the $\beta$ reduction rule $(\lambda x.t)u \to t[u/x]$ in undirected form.  The additional equation $\ell \circ a = 1$ corresponds to the undirected form of $\eta$, and is not assumed as part of the standard definition of reflexive object.
+* The equation $a \circ \ell = 1$ ("application after lambda is the identity") represents the $\beta$ reduction rule $(\lambda x.t)u \to t[u/x]$ in undirected form.  The additional equation $\ell \circ a = 1$ corresponds to the undirected form of $\eta$, but is not assumed as part of the standard definition of reflexive object.
 
 * Note that the definition may be naturally generalized to any [[closed category]], not necessarily cartesian.  For example, a reflexive object in a [[symmetric monoidal closed category]] is a model of [[linear logic|linear lambda calculus]].
 
