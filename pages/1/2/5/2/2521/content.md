@@ -45,6 +45,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 * [[bosonic modality]]
 
+* [[super-Cartan geometry]]
+
 ## References
  {#References}
 
