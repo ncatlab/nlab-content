@@ -1,0 +1,36 @@
+## Idea
+
+Generalizing the classical notion of [[commutative monoid]], one can define a _commutative monoid_ (or _commutative monoid object_) in any [[symmetric monoidal category]] $(C,\otimes,I)$.
+These are [[monoids in a monoidal category]] whose multiplicative operation is commutative.
+Classical commutative monoids are of course just commutative monoids in [[Set]] with the [[cartesian product]].
+
+## Definition
+
+...
+
+## Related concepts
+
+* [[monoid]], [[commutative monoid]]
+* [[monoid in a monoidal category]]
+* [[category of monoids]]
+* [[module over a monoid]]
+* [[commutative monoid in a symmetric monoidal (infinity,1)-category]]
+
+## References
+
+Categorical properties of [[commutative monoid objects]] in [[symmetric monoidal categories]] are spelled out in sections 1.2 and 1.3 of
+
+* Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
+
+A summary is in section 4.1 of
+
+* [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
+
+See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
+[[!redirects commutative monoids in a monoidal category]]
+[[!redirects commutative monoids in monoidal categories]]
+
+[[!redirects commutative monoid object in a monoidal category]]
+[[!redirects commutative monoid objects in a monoidal category]]
+[[!redirects commutative monoid objects in monoidal categories]]
