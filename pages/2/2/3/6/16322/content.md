@@ -1,6 +1,6 @@
 ## Idea
 
-A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] validating the $\beta$ equation (and sometimes also the $\eta$ equation).
+A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] validating the $\beta$ law (and sometimes also the $\eta$ law) as an equation between morphisms.
 
 ## Definition
 
@@ -12,13 +12,19 @@ $$
 
 such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.   A reflexive object is said to be *strict* when also $\ell \circ a = 1$, so that there is an isomorphism $U^U \cong U$.
 
-Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.  For example, a reflexive object in a [[symmetric monoidal closed category]] is a model of [[linear logic|linear lambda calculus]].
+## Remarks
+
+* Given a reflexive object $(U,a,\ell)$, any closed term $t$ of pure lambda calculus can be interpreted as a [[global element]] $[[t]] : 1 \to U$, while in general a term with $n$ free variables can be interpreted as a morphism $[[t]] : U^n \to U$.  (Technically, one can view this interpretation as first representing $t$ as [[higher-order abstract syntax]], and then using the morphisms $a$ and $\ell$ to interpret $a$pplication and $\ell$ambda, respectively.)
+
+* The equation $a \circ \ell = 1$ ("application after lambda is the identity") represents the $\beta$ reduction rule $(\lambda x.t)u \to t[u/x]$ in undirected form.  The additional equation $\ell \circ a = 1$ corresponds to the undirected form of $\eta$, and is not assumed as part of the standard definition of reflexive object.
+
+* Note that the definition may be naturally generalized to any [[closed category]], not necessarily cartesian.  For example, a reflexive object in a [[symmetric monoidal closed category]] is a model of [[linear logic|linear lambda calculus]].
 
 ## Examples
 
 The [[terminal object]] of a ccc provides a degenerate example of a (strict) reflexive object, and for cardinality reasons, this is the only reflexive object in [[Set]].
 
-A non-degenerate model of untyped lambda calculus was first described by [[Dana Scott]], who solved the cardinality issue by replacing sets with [[algebraic lattices]], and arbitrary set-theoretic functions by [[Scott topology|Scott-continuous]] functions.  In ([Scott 1976](#Scott76)), he constructed a (non-strict) reflexive object with carrier the lattice $P\omega$ of all [[subsets]] of the non-negative integers, and with the maps $a$ and $\ell$ (called "fun" and "graph") defined as follows:
+A non-degenerate model of untyped lambda calculus was first described by [[Dana Scott]], who solved the cardinality issue by replacing sets with [[algebraic lattices]], and arbitrary set-theoretic functions by [[Scott topology|Scott-continuous]] functions.  In ([Scott 1976](#Scott76)), he constructed a (non-strict) reflexive object with carrier the lattice $P\omega$ of all [[subsets]] of the non-negative integers, and with the maps $a$ and $\ell$ (there called "fun" and "graph") defined as follows:
 
 $$a(u)(x) = \{m \mid \exists e_n \subseteq x. (n,m) \in u\}$$
 
