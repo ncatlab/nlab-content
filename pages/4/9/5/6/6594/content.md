@@ -31,7 +31,7 @@ More in detail, this means that given a morphism $H \to G$ of suitably geometric
 
 Just like traditional [[Cartan geometry]] (in particular in the guise of [[G-structures]]) captures a plethora of relevant kinds of geometries (([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian geometry]] ([Cartan 23](#Cartan23)), [[conformal geometry]], ... [[complex geometry]], [[symplectic geometry]], ..., [[parabolic geometry]]) so higher Cartan geometry is supposed to similarly govern types of [[higher differential geometry]].
 
-A class of examples where aspects of higher Cartan geometry may be seen to secretly underlie traditional discussion is the theory of [[super p-brane sigma-models]] on [[supergravity]] [[target space|target]]-[[super-spacetimes]]. This we consider in the examples [below](#SuperBraneGeometry).
+A class of examples where aspects of higher Cartan geometry may be seen to secretly underlie traditional discussion is the theory of [[super p-brane sigma-models]] on [[supergravity]] [[target space|target]]-[[super-spacetimes]]. This we consider in the examples [below](#SuperBraneGeometry). See also at _[[super-Cartan geometry]]_.
 
 It is therefore maybe curious to note that while [[Cartan geometry]] as originating in ([Cartan 23](#Cartan23)) drew its motivation from the mathematical formulation of the theory of [[Einstein gravity]], higher Cartan geometry is well motivated by higher dimensional [[supergravity]] such as 10d [[type II supergravity]] and [[heterotic supergravity]] as well as [[11-dimensional supergravity]].
 
@@ -401,9 +401,9 @@ where the [[homotopy stabilizer group]] $Stab^h_{GL(V)}(\mathbf{L}_{p+2})$ is a 
 ### Interlude: Super-Cartan geometry
  {#MotivationSuperCartanGeometry}
 
-Before further motivating ever higher Cartan geometry, it serves to pause and realize that while passing from manifolds to [[stacks]], we are in particular first of all generalizing to [[sheaves]]. So even before going higher in homotopy degree, one may ask how much of Cartan geometry may be formulated in [[sheaf toposes]], first over the [[site]] of [[smooth manifolds]] itself, which leads to Cartan geoemtry in the generality of [[smooth spaces]], and next over [[sites]] other than that of [[smooth manifolds]]. 
+Before further motivating ever higher Cartan geometry, it serves to pause and realize that while passing from manifolds to [[stacks]], we are in particular first of all generalizing to [[sheaves]]. So even before going higher in homotopy degree, one may ask how much of Cartan geometry may be formulated in [[sheaf toposes]], first over the [[site]] of [[smooth manifolds]] itself, which leads to Cartan geometry in the generality of [[smooth spaces]], and next over [[sites]] other than that of [[smooth manifolds]] -- _[[super-Cartan geometry]]_.
 
-One key example for this is [[supergeometry]]. Where a major application of traditional Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]]. 
+One key example for this is [[supergeometry]]. Where a major application of traditional Cartan geometry is its restriction to [[orthogonal structures]] encoding ([[pseudo-Riemannian geometry|pseudo]]-)[[Riemannian geometry]] of particular relevance in the theory of [[gravity]], the analogous orthogonal structures in [[supergeometry]] serve to set up the theory of [[supergravity]].
 
 More in detail, after picking a [[dimension]] $d\in \mathbb{N}$ and writing $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ for the [[Poincaré Lie algebra]], then a choice of "number of supersymmetries" is a choice of [real spin representation](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature) $N$. Then the [[direct sum]] 
 
