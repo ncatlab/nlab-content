@@ -38,7 +38,7 @@ on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré
 
 ## Description
 
-  This book focuses on the discussion of [[supergravity]]-aspects of [[string theory]] from the point of view of the [[D'Auria-Fré formulation of supergravity]]. Therefore, while far, far from being written in the style of a mathematical treatise, this book stands out as making a consistent proposal for what the central ingredients of a mathematical formalization might be: as explained at the above link, secretly this book is all about describing supergravity in terms of [[connection on an infinity-bundle|infinity-connections]] with values in [[super L-infinity algebra]]s such as the [[supergravity Lie 3-algebra]].
+This book focuses on the discussion of [[supergravity]]-aspects of [[string theory]] from the point of view of the [[D'Auria-Fré formulation of supergravity]], which is implicitly a formulation via [[supergeometry|supergeometry]] [[higher Cartan geometry]]. Therefore, while far, far from being written in the style of a mathematical treatise, this book stands out as making a consistent proposal for what the central ingredients of a mathematical formalization might be: as explained at the above link, secretly this book is all about describing supergravity in terms of [[connection on an infinity-bundle|infinity-connections]] with values in [[super L-infinity algebra]]s such as the [[supergravity Lie 3-algebra]].
 
 See also [[higher category theory and physics]].
 
