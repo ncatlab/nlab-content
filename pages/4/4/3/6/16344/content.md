@@ -1,0 +1,22 @@
+_Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by Richard Statman, who was a student of [[Georg Kreisel]] at Stanford University.  Among other contributions, the thesis is notable for defining a notion of "[[genus]] of a proof", as a global measure of complexity more interesting than (but analogous to) number of inferences, depth of the proof tree, etc.
+
+## Chapters
+
+### 1: The Effect of the Elimination of Explicit Definitions on the Complexity of Proofs
+
+### 2: The Effect of the Choice of Recursion Equations and Rules on the Lengths of Equational Proofs
+
+### 3: Strong Normalization of Classical Analysis with Some Applications to the Length of Proofs 
+
+## References
+
+* Richard Statman. _Structural Complexity of Proofs_, Ph.D. Thesis (1974), Stanford University.
+
+* Alessandra Carbone. _Logical structures and the genus of proofs_, APAL 161:2, 2009. ([doi](http://dx.doi.org/10.1016/j.apal.2009.05.007))
+
+## Related pages
+
+* [[proof net]]
+* [[natural deduction]]
+* [[lambda calculus]]
+* [[proof theory]]
