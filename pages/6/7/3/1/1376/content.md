@@ -1,4 +1,6 @@
-
+[[!redirects algebra in an (infinity,1)-category]]
+[[!redirects algebra in an (infinity,1)-category]]
+[[!redirects algebra in an (infinity,1)-category]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,19 +21,11 @@
 
 ## Idea
 
-Recall that a [[monoid]] object or algebra object in a [[monoidal category]] $C$ is the same as a lax monoidal functor
-
-$$
-  * \to C
-  \,.
-$$
-
-This definition generalized to [[monoidal (infinity,1)-category|monoidal (∞,1)-categories]] and defines algebra objects for these.
-
+The notion of _monoid_ (or _monoid object_, _algebra_, _algebra object_) in a [[monoidal (infinity,1)-category]] $C$ is the [[(infinity,1)-category theory|(infinity,1)-categorical]] generalization of [[monoid in a monoidal category]].
 
 ## Definition
 
-For $C$ a [[monoidal (infinity,1)-category|monoidal (∞,1)-category]] with monoidal structure determined by the [[(∞,1)-functor]] 
+For $C$ a [[monoidal (∞,1)-category]] with monoidal structure determined by the [[(∞,1)-functor]] 
 
 $$
   p_\otimes : C^\otimes \to N(\Delta)^{op}
@@ -43,9 +37,16 @@ $$
   N(\Delta)^{op} \to C^\otimes
 $$
 
+This generalizes how, for [[monoidal categories]], [[monoid in a monoidal category|monoid objects]] are the same as lax monoidal functors
+
+$$
+  * \to C
+  \,.
+$$
+
 ## Examples
 
-* An algebra object in the [[stable (infinity,1)-category of spectra]] is an [[A-infinity ring|A-∞ ring]]. If it is a commutative monoid, it is an [[E-infinity ring|E-∞ ring]].
+* A monoid in the [[stable (infinity,1)-category of spectra]] is an [[A-infinity ring|A-∞ ring]]. If it is a commutative monoid, it is an [[E-infinity ring|E-∞ ring]].
 
 ## Related concepts
 
@@ -55,7 +56,7 @@ $$
 
 * [[En-algebra]]
 
-* [[commutative monoid in an (∞,1)-category]]
+* [[commutative monoid in a symmetric monoidal (∞,1)-category]]
 
 ## References
 
@@ -67,12 +68,10 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 
 * [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
  
-
 [[!redirects monoid in an (∞,1)-category]]
 [[!redirects monoid in an (infinity,1)-category]]
 [[!redirects monoids in an (∞,1)-category]]
 [[!redirects monoids in an (infinity,1)-category]]
-
 
 [[!redirects monoid object in an (∞,1)-category]]
 [[!redirects monoid object in an (infinity,1)-category]]
@@ -85,11 +84,11 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 [[!redirects monoid objects in a monoidal (∞,1)-category]]
 
 [[!redirects algebra in an (∞,1)-category]]
-[[!redirects monoid in an (∞,1)-category]]
-[[!redirects monoid in an (infinity,1)-category]]
+[[!redirects algebra in an (infinity,1)-category]]
+[[!redirects algebra object in an (∞,1)-category]]
+[[!redirects algebra object in an (infinity,1)-category]]
 
 [[!redirects ∞-monoid]]
 [[!redirects ∞-monoids]]
 [[!redirects infinity-monoid]]
 [[!redirects infinity-monoids]]
-
