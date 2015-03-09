@@ -76,6 +76,14 @@
 
 * [[symmetric monoidal functor]]
 
+## Internal monoids
+
+* [[monoid in a monoidal category]]
+
+* [[commutative monoid in a symmetric monoidal category]]
+
+* [[module over a monoid]]
+
 ## Examples
 
 * [[tensor product]]
