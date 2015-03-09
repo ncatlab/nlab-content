@@ -34,20 +34,7 @@ $$ 1 \cdot x = x = x \cdot 1 .$$
 ### In a monoidal category
 {#inamonoidalcategory}
 
-More generally, we can define a monoid (sometimes called **monoid object**) in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
-
-![A pic](http://upload.wikimedia.org/wikipedia/commons/b/b1/Monoid_mult.png)
-
-and the **left and right unit laws**:
-
-![A pic](http://upload.wikimedia.org/wikipedia/commons/1/10/Monoid_unit.png)
-
-Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
-
-Classical monoids are of course just monoids in [[Set]] with the [[cartesian product]].
-
-By the [[microcosm principle]], in order to define monoid objects in $C$, $C$ itself must be a "categorified monoid" in some way.  The natural requirement is that it be a [[monoidal category]].  In fact, it suffices if $C$ is a [[multicategory]].  Contrast this with a [[group object]], which can only be defined in a [[cartesian monoidal category]] (or a [[cartesian multicategory]]).
-
+See [[monoid in a monoidal category]].
 
 ### In terms of string diagrams
 
