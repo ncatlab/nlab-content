@@ -57,7 +57,7 @@ A [[morphism]] of supermanifolds is a morphism of [[ringed space]]s (...).
 
 =--
 
-Forgetting the graded part by projecting out the nilpotent ideal in $O_X$ yields the underlying ordinary smooth [[manifold]] $X_{red}$.
+Forgetting the graded part by projecting out the [[nilpotent ideal]] in $O_X$ (i.e. applying the [[bosonic modality]]) yields the underlying ordinary  [[smooth manifold]] $X_{red}$.
 
 One just writes $C^\infty(X)$ for the [[super algebra]] $O_X(X)$ of global sections.
 
@@ -121,7 +121,7 @@ But we have the following useful characterization of morphisms of supermanifolds
 +-- {: .num_theorem #MorphismsOfSupermanifoldsByAlgebras}
 ###### Theorem
 
-* There is a natural bijection
+* There is a [[natural bijection]]
 
   $$
     SDiff(X,Y) \simeq SAlgebras(C^\infty(Y), C^\infty(X)),
@@ -340,6 +340,8 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 * [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
 
 There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
+
+See also [pdf](http://www.math.uni-hamburg.de/home/sachse/handoutbatchelor.pdf)
 
 [[!redirects super manifold]]
 
