@@ -32,7 +32,7 @@ A valuation ring $O$ is integrally closed in its field of fractions $F$.
 +-- {: .proof} 
 ###### Proof 
 Suppose $x \in F$ satisfies an equation $x^n + a_{n-1}x^{n-1} + \ldots + a_0 = 0$ where the $a_i$ belong to $O$. Either $x$ or $1/x$ belongs to $O$, and if $1/x$ belongs to $O$, then so does $x$ because 
-$$x = a_{n-1}x^{-1} + a_{n-1}x^{-2} + \ldots + a_0 x^{-n}$$ 
+$$-x = a_{n-1} + a_{n-1}x^{-1} + \ldots + a_0 x^{-n+1}$$ 
 and this completes the proof. 
 =-- 
 
