@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Hermann_Minkowski)
+
+## related $n$Lab entries
+
+* [[quadratic form]]
+
+* [[Minkowski space]]
+
+category: people
