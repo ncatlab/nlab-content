@@ -30,6 +30,8 @@ for some constant $\kappa$.
 
 If that constant is 0, hence if the spinor is _covariant constant_, then one also speaks of a _covariant constant spinor_ or _parallel spinor_ (with respect to the given metric structure).
 
+Notice however that a Killing spinor with non-vanishing $\kappa$ may be understood as a genuine covariantly constant spinor, but with respect to a [[super-Cartan geometry]] modeled not on [[super-Euclidean space]]/[[super-Minkowski spacetime]], but on its spherical/hyperbolic or deSitter/anti-deSitter versions spring
+
 
 Similarly a _[[Killing vector]]_ is a covariantly constant [[vector field]].
 
@@ -53,20 +55,24 @@ Lecture notes include
 
 * _Parallel and Killing spinor fields_ ([[KillingSpinors.pdf:file]])
 
-A discussion with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
+Discussion relating to [[Killing vectors]] in [[supergeometry]] originates around
 
-* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
+Discussion regarding the conceptualization of Killing spinors in [[super-Cartan geometry]] is in
+
+* {#EgeilehChami13} Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
 Discussion relating to [[special holonomy]] includes
 
 * Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
 
-Discussion relating to [[Killing vectors]] in [[supergeometry]] includes
+A discussion with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
 
-* [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-Original articles include
+
+Discussion of classification includes
 
 * [[Thomas Friedrich]], _Zur Existenz paralleler Spinorfelder &#252;ber Riemannschen Mannigfaltigkeiten_ Czechoslavakian-GDR-Polish scientific school on differential geometry Boszkowo/ Poland 1978, Sci. Comm., Part 1,2; 104-124 (1979)
 
