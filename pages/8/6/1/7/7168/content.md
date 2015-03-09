@@ -81,6 +81,22 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 
 ## References
 
+The theory of quadratic forms emerged as a part of (elementary)
+number theory, dealing with quadratic diophantine equations, initially
+over the rational integers
+
+First classification results were due to 
+
+* [[Herrmann Minkowski]], _Grundlagen f&#168;ur eine Theorie der quadratischen Formen mit ganzzahligen Koeffizienten, M&#233;moires pr&#233;sent&#233;s par divers savants a l'Acad&#180;emie des Sciences de l'institut national de France_, Tome
+XXIX, No. 2. 1884.
+
+* [[Herrmann Minkowski]], _Untersuchungen &#168;uber quadratische Formen. Bestimmung der
+Anzahl verschiedener Formen, die ein gegebenes Genus enth&#228;lt_, K&#246;nigsberg 1885; Acta Mathematica 7 (1885), 201&#8211;258
+
+See also
+
+* Rudolf Scharlau, _Martin Kneser's work on quadratic forms and algebraic groups_, 2007 ([pdf](http://inst-mat.utalca.cl/qfc2007/Talks/scharlau.pdf))
+
 Course notes include for instance
 
 * _On the relation between quadratic and bilinear forms_ ([pdf](http://www.maths.manchester.ac.uk/~khudian/Etudes/Algebra/quadrform2.pdf))
