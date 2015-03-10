@@ -5,6 +5,10 @@ Discoverer of _[[Clifford algebra]]_, following [[Hermann Grassmann]]'s [[Grassm
 
 *  _Applications of Grassmann's extensive algebra_. American Journal of Mathematics 1 (4): 350&#8211;358. (1878)doi:10.2307/2369379.
 
+## related entries
+
+* _[[On the Space-Theory of Matter]]_
+
 category: people
 
 [[!redirects William Kingdon Clifford]]
