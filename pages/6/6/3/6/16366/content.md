@@ -1,0 +1,13 @@
+
+
+* [[William Clifford]],
+
+  _On the Space-Theory of Matter_,
+
+  Proceedings of the Cambridge philosophical society (1864-1876 - Printed 1876), 2: 157-158
+
+## References
+
+* Wikipedia, _[On the Space-Theory of Matter](http://en.wikisource.org/wiki/On_the_Space-Theory_of_Matter)_
+
+category: reference
