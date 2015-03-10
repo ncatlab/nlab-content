@@ -196,6 +196,8 @@ $$
 that sends a [[vector field]] $v$ to the derivation $v(-) : C^\infty(X) \to C^\infty(X)$ is a bijection.
 =--
 
+See also at _[[derivations of smooth functions are vector fields]]_.
+
 +-- {: .proof}
 ###### Proof
 This is true because $C^\infty(X)$ satisfies the [[Hadamard lemma]].
@@ -216,7 +218,7 @@ $$
 Similarly, by translation, at all other points. Therefore $\delta$ is already fixed by its action of the coordinate functions $\{x_i \in C^\infty(X)\}$. Let $v_\delta \in T \mathbb{R}^n$ be the [[vector field]] 
 
 $$
-  v_\delta = = \sum_i \delta(x_i) \frac{\partial}{\partial x_i}
+  v_\delta \coloneqq \sum_i \delta(x_i) \frac{\partial}{\partial x_i}
 $$
 
 then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Vect(X) \to Der(C^\infty(X))$.
@@ -233,7 +235,7 @@ The derivations $\delta : C(X) \to C(X)$ are all tivial.
 
 +-- {: .proof}
 ###### Proof
-Observe that generally every derivation vanishes on the function 1 that is constant on $1 \in \mathbb{R}$. Therefore it is sufficient to show that if $f \in C(X)$ vanishes at $x_0 \in X$ also $\delta(f)$ vanishes att $x_0$, because we may write every function $g$ as $(g  - g(x_0)) + g(x_0)$.
+Observe that generally every derivation vanishes on the function 1 that is constant on $1 \in \mathbb{R}$. Therefore it is sufficient to show that if $f \in C(X)$ vanishes at $x_0 \in X$ also $\delta(f)$ vanishes at $x_0$, because we may write every function $g$ as $(g  - g(x_0)) + g(x_0)$.
 
 So let $f \in C(X)$ with $f(x_0) = 0$. Then we may write $f$ as a product
 
