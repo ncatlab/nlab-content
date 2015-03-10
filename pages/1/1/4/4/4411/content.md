@@ -6,13 +6,15 @@
 
 A **valuation ring** is a commutative[^fine] [[integral domain]] $O$ which satisfies any of the following equivalent conditions: 
 
-* for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$; 
+1. for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$; 
 
-* the ideals of $O$ are totally ordered by inclusion;
+1. the ideals of $O$ are totally ordered by inclusion;
 
-* the principal ideals of $O$ are totally ordered by inclusion. 
+1. the principal ideals of $O$ are totally ordered by inclusion. 
 
 [^fine]: There are also noncommutative versions, which the nLab may get around to at some point. 
+
+These equivalences are not difficult to establish. For example, if 1. holds and $I, J$ are distinct ideals, then some element $x$ belongs to one but not the other, say $x \in J$, $x \notin I$. Then for each $y \in I$, the condition $x/y \in O$ leads to $x = y(x/y) \in I$ which is false; therefore $y/x \in O$, whence $y = x(y/x) \in J$, and we conclude $I \subset J$. That 2. implies 3. is trivial, and if 3. holds and $x \in K$, write $x = a/b$ where $a, b \in O$, and conclude either $(a) \subseteq (b)$ or $(b) \subseteq (a)$, where $x \in O$ in the former case and $x^{-1} \in O$ in the latter. 
 
 +-- {: .num_prop}
 ###### Proposition 
@@ -39,6 +41,11 @@ and this completes the proof.
 +-- {: .num_theorem} 
 ###### Theorem 
 A valuation ring is a [[Prüfer domain]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+There are many characterizations of Pr&#252;fer domains, but one is that the lattice of ideals is distributive, which is obviously the case if the lattice is linearly ordered. 
 =-- 
 
 ### Example: germs of definable functions
