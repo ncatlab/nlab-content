@@ -128,13 +128,13 @@ Since the formula looks the same for all $S$, one often just writes it without m
 
 Discussion in the context of the [[brane scan]] is in section 2.1 of 
 
-* C. Chryss omalakos, [[José de Azcárraga]], J.M. Izquierdo, J.C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl.Phys.B567:293-330, 2000 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
- {#CAIP99}
+* {#CAIP99} C. Chryssomalakos, [[José de Azcárraga]], J.M. Izquierdo, J.C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl.Phys.B567:293-330, 2000 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+ 
 
 and more generally in the context of [[schreiber:The brane bouquet]] in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
- {#FSS13}
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ 
 
 [[!redirects super-translation groups]]
 
