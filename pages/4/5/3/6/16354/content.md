@@ -1,0 +1,4 @@
+### Contact ###
+bartosz@relisoft.com
+### Publications ###
+[Bartosz Milewski's Programming Cafe](http://bartoszmilewski.com). The latest project is a series of blog posts (a book?) _Categories for Programmers_.
