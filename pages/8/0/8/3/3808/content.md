@@ -45,9 +45,11 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 ## References
 
+* [[Carl Gauss]], _[[Disquisitiones Arithmeticae]]_, 1801
+
 * wikipedia en:[number theory](http://en.wikipedia.org/wiki/Number_theory), fr:l'[arithm&#233;tique modulaire](http://fr.wikipedia.org/wiki/Arithm%C3%A9tique_modulaire) 
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965. 
-* Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics _27__, 1993
+* Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27**, 1993
 
 The following survey of Connes-Marcolli work has an accessible quick introduction to algebraic number theory
 
