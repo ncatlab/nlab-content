@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Continuum mechanics_ refers to the [[physics]]/[[mechanics]] of continuous bodies such as notably [[fluids]]. As opposed to the mechanics of point [[particles]] (to which it is of course related by various limiting processes).
+_Continuum mechanics_ refers to the [[physics]]/[[mechanics]] of continuous bodies such as notably [[fluids]] but also [[solids]] ([[solid state physics]]). As opposed to the mechanics of point [[particles]] (to which it is of course related by various limiting processes).
 
 ## Related concepts
 
@@ -27,6 +27,7 @@ _Continuum mechanics_ refers to the [[physics]]/[[mechanics]] of continuous bodi
 
 * [[Hamiltonian mechanics]], [[Lagrangian mechanics]]
 
+* [[cohesion]], [[elasticity]], [[solidity]]
 
 ## References
 
@@ -44,7 +45,7 @@ and to the notion of [[cohesion]]
 
 * [[William Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-For more on this see also the collecgtion
+For more on this see also the collection
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
