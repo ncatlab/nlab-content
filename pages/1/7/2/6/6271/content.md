@@ -51,6 +51,7 @@ This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
 
 * the [[Steenrod-Wockel approximation theorem]]
 
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 ## References
 
