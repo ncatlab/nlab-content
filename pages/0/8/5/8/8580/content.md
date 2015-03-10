@@ -561,7 +561,7 @@ We call this the **[[petit (∞,1)-topos]] of $X$**.
 
 ###### Proposition
 
-The petit topos $Sh_{\mathbf{H}}(X)$ of def. \ref{PetitTopos} is indeed an [[(∞,1)-topos]]. Moreover the defining inclusion into the [[slice (∞,1)-topos]] is both [[reflective (∞,1)-category|reflective]] as well as coreflective.
+The petit topos $Sh_{\mathbf{H}}(X)$ of def. \ref{PetitTopos} is indeed an [[(∞,1)-topos]]. Moreover the defining inclusion into the [[slice (∞,1)-topos]] is both [[reflective sub-(∞,1)-category|reflective]] as well as coreflective.
 
 =--
 
