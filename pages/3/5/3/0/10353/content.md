@@ -27,6 +27,8 @@ A statement about sufficient data for extensions of a [[smooth function]] from a
 
 * [[Steenrod-Wockel approximation theorem]]
 
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
 ## References
 
 The original article is
