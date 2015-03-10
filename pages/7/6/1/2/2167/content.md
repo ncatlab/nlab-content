@@ -48,3 +48,5 @@ Some concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{D}$, but
 [[!redirects dual number systems]]
 [[!redirects ring of dual numbers]]
 [[!redirects rings of dual numbers]]
+
+[[!redirects algebra of dual numbers]]
