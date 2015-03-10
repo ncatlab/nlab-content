@@ -80,17 +80,29 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 * [[polarization identity]]
 
 ## References
+ {#References}
 
 The theory of quadratic forms emerged as a part of (elementary)
-number theory, dealing with quadratic diophantine equations, initially
+[[number theory]], dealing with quadratic [[diophantine equations]], initially
 over the rational integers
 
-First classification results were due to 
+The terminology "form" possibly originated with 
 
-* [[Herrmann Minkowski]], _Grundlagen f&#168;ur eine Theorie der quadratischen Formen mit ganzzahligen Koeffizienten, M&#233;moires pr&#233;sent&#233;s par divers savants a l'Acad&#180;emie des Sciences de l'institut national de France_, Tome
+* [[Leonhard Euler]],  _Novae demonstrations circa divisors numerorum formae $x x + n y y$..._, Acad. Petrop. recitata, Nov 20, 1775, published poshumously
+
+(which is cited as such in [Gauss 1798, paragraph 151](#Gauss1798)).
+
+
+First classification results for forms over the [[integers]] were due to 
+
+* {#Gauss1798} [[Carl Gauss]], section V of _[[Disquisitiones Arithmeticae]]_, 1798
+
+(which speaks of _formas secundi gradus_)
+
+* [[Herrmann Minkowski]], _Grundlagen f&#252;r eine Theorie der quadratischen Formen mit ganzzahligen Koeffizienten, M&#233;moires pr&#233;sent&#233;s par divers savants a l'Acad&#180;emie des Sciences de l'institut national de France_, Tome
 XXIX, No. 2. 1884.
 
-* [[Herrmann Minkowski]], _Untersuchungen &#168;uber quadratische Formen. Bestimmung der
+* [[Herrmann Minkowski]], _Untersuchungen &#252;ber quadratische Formen. Bestimmung der
 Anzahl verschiedener Formen, die ein gegebenes Genus enth&#228;lt_, K&#246;nigsberg 1885; Acta Mathematica 7 (1885), 201&#8211;258
 
 See also
