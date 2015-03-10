@@ -136,16 +136,25 @@ and more generally in the context of [[schreiber:The brane bouquet]] in
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
  {#FSS13}
 
+[[!redirects super-translation groups]]
 
 [[!redirects super-Heisenberg group]]
+[[!redirects super-Heisenberg groups]]
 
 [[!redirects super translation Lie algebra]]
+[[!redirects super translation Lie algebras]]
 
 [[!redirects translation super-Lie algebra]]
+[[!redirects translation super-Lie algebras]]
 
 [[!redirects super translation algebra]]
+[[!redirects super translation algebras]]
 [[!redirects super-translation algebra]]
+[[!redirects super-translation algebras]]
 [[!redirects super translation Lie algebra]]
+[[!redirects super translation Lie algebras]]
 [[!redirects super-translation Lie algebra]]
+[[!redirects super-translation Lie algebras]]
 
 [[!redirects super translation group]]
+[[!redirects super translation groups]]
