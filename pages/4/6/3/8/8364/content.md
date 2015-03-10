@@ -21,6 +21,8 @@ A part of [[mathematical logic]] concerned with the notion of [[proof]].
 
 * Wikipedia, _[Proof theory](http://en.wikipedia.org/wiki/Proof_theory)_.
 
+*  [[Richard Statman]], _[[Structural Complexity of Proofs]]_, 1974
+
 * [[Jean-Yves Girard]], [[Yves Lafont]], and [[Paul Taylor]], _Proofs and Types_, 1990. ([web](http://www.paultaylor.eu/stable/Proofs+Types.html))
 
 * [[Martin Hyland]] provides some abstract perspectives on proof theory as a subject in the introduction to his essay, [Proof Theory in the Abstract](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2002/pta02.pdf).
