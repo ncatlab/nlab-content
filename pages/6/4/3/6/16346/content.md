@@ -43,7 +43,7 @@ Physics literature usually refers to the "superspace formulation" of [[supergrav
 
 One physics references which makes the super-Cartan-geometric picture of [[supergravity]] very explicit is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (These authors in fact also make the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at [[D'Auria-Fré formulation of supergravity]].), even though these authors do not use this mathematical terminology. Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
 
-A reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article finally makes the terminology "Cartan geometry" fully explicit in this supergeometric context. These authors observe for instance that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
+An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77](#Baaklini77)), which however seems to have gone essentially unnoticed.  A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
 
 This provides ample example and application of super-Cartan geometry for the case where $G/H$ is a [[super vector space]], hence for the case corresponding to [[G-structure]]. More general super-Cartan geometry apparently remains to be explored.
 
@@ -55,7 +55,7 @@ This provides ample example and application of super-Cartan geometry for the cas
 
 ### The solid topos
 
-It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and maybe more illumimnating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_.
+It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and possibly more illumimnating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_. 
 
 #### Coordinate systems: super-Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
@@ -604,7 +604,9 @@ with both morphisms being local diffeos and the right one in addition being a [[
 
 ## References
 
-Traditional literature that involves super-Cartan geometry more or less explicitly includes
+Traditional literature that involves super-Cartan geometry more or less explicitly andn the context of [[supergravity]] includes
+
+* {#Baaklini77} N.S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
