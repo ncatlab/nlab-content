@@ -45,7 +45,7 @@ A valuation ring is a [[Prüfer domain]].
 
 +-- {: .proof} 
 ###### Proof 
-There are many characterizations of Pr&#252;fer domains, but one is that the lattice of ideals is distributive, which is obviously the case if the lattice is linearly ordered. 
+There are many characterizations of Pr&#252;fer domains, but one is that the [[lattice]] of [[ideals]] is [[distributive lattice|distributive]], which is obviously the case if the lattice is [[linear order|linearly ordered]]. 
 =-- 
 
 ### Example: germs of definable functions
