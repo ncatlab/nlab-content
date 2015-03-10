@@ -86,7 +86,7 @@ $$
 
 ## Definitions
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 [[CartSp]] is the full subcategory of [[Diff]]
@@ -95,7 +95,7 @@ on manifolds of the form $\mathbb{R}^n$.
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A $C^\infty$-algebra is a finite [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]], i.e. a finite [[product]] preserving [[functor]]
@@ -112,7 +112,7 @@ The category of such functors and [[natural transformation]]s between them we de
 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark on terminology
 
 The standard name in the literature for generalized smooth algebras is
@@ -787,6 +787,10 @@ The generalization of the notion of smooth algebra for  [[(∞,1)-category theor
 The generalization to [[supergeometry]] is
 
 * [[smooth superalgebra]].
+
+## Related concepts
+
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 ## References {#References}
 
