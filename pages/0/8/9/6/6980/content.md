@@ -89,7 +89,10 @@ and automated reasoning_ (2014) ([pdf](http://www.andrew.cmu.edu/user/avigad/Tal
 A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
  
 * {#Miquel} [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
- 
+
+Texts on genuine [[proof theory]] include
+
+*  [[Richard Statman]], _[[Structural Complexity of Proofs]]_, 1974
 
 
 Projects aiming to formalize parts of mathematics include
