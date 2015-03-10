@@ -1,0 +1,82 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+This page collects material related to the ten volme textbook series
+
+* [[Lev Landau]], [[Evgeny Lifshitz]], 
+
+  _Course of Theoretical Physics_
+
+on theoretical [[physics]].
+
+The popular name of the books is simly _Landau-Lifschitz_.
+
+
+The series was envisioned but not finished in writing by Landau himself. It is used extensively by several generation of physicists, well known for clarity of the arguments. It reflects mainly the role of the main author, [[Lev Landau]]; his pupil Lifschitz helped with all volumes, while some other coauthors contributed to some volumes or revisions; volume 4 is written by Beresteckii, Lifschitz and Pitaevskii, without Landau. 
+
+Landau wrote most of volume 1, significant parts of volumes 2,3,5,6,9, and minor part in other volumes. Volume 6 on hydrodynamics reflects his own approach, where he derived most of hydrodynamics from scratch and on the way discovered some of the things classics overlooked. Notice that Lifschitz had a brother, also a theoretical physicist, who actually gave more significant contributions to condensed matter physics. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## I Mechanics
+
+* [[mechanics]]
+
+## II The classical theory of fields 
+
+(mainly electrodynamics and gravity; in Russian original the title is _Field theory_)
+
+* [[classical field theory]]
+
+## III Quantum mechanics
+
+* [[quantum mechanics]]
+
+## IV Quantum electrodynamics
+
+* [[quantum electrodynamics]]
+
+## V Statistical physics, Part I
+
+* [[statistical physics]]
+
+## VI Fluid mechanics (Russian original is _Hydrodynamics_)
+
+* [[fluid mechanics]]
+
+## VII Elasticity
+
+* [[elasticity]]
+
+  * [[stress tensor]]
+
+  * [[strain tensor]]
+
+## VIII Electrodynamics of continua
+
+## IX Statistical physics, Part II
+
+## X Physical kinetics
+
+
+## References
+
+* Wikipedia, _[Course of Theoretical Physics](http://en.wikipedia.org/wiki/Course_of_Theoretical_Physics)_
+
+* Wikipedia, _[Lev Landau -- Course of Theoretical Physics](http://en.wikipedia.org/wiki/Lev_Landau#Landau_and_Lifshitz_Course_of_Theoretical_Physics)_
+
+
+category: reference
+
+[[!redirects Landau-Lifschitz]]
