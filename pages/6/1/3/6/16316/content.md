@@ -7,7 +7,9 @@ The [[stable (infinity,1)-category]] of _mixed Tate motives_ $DTM(S)$ is the [[l
 
 ## Properties
 
-$DTM(S)$ can be described as a [[coreflective sub-(infinity,1)-category]] of $DM(S)$, since it follows from a theorem of [[Amnon Neeman]] that the inclusion admits a [[right adjoint]].  The existence of a [[left adjoint]] is related to the [[Tate-Beilinson conjecture]].
+* $DTM(S)$ can be described as a [[coreflective sub-(infinity,1)-category]] of $DM(S)$, since it follows from a theorem of [[Amnon Neeman]] that the inclusion admits a [[right adjoint]].
+
+* The existence of a [[left adjoint]] is false for [[algebraically closed fields]] that are not the [[algebraic closure]] of a [[finite field]], while for fields [[algebraic extension|algebraic]] over a [[finite field]], the [[Tate-Beilinson conjecture]] would imply that the inclusion is a [[Frobenius functor]], i.e. that the [[right adjoint]] is also a [[left adjoint]].  See ([Totaro 15](#Totaro15)).
 
 ## Related concepts
 
@@ -25,6 +27,6 @@ Section 7 in
 
 * [[Burt Totaro]], _The motive of a classifying space_, [arXiv:1407.1366](http://arxiv.org/abs/1407.1366).
 
-* [[Burt Totaro]], _Adjoint functors on the derived category of motives_, [arXiv:1502.05079](http://arxiv.org/abs/1502.05079).
+* {#Totaro15} [[Burt Totaro]], _Adjoint functors on the derived category of motives_, [arXiv:1502.05079](http://arxiv.org/abs/1502.05079).
 
 [[!redirects mixed Tate motives]]
