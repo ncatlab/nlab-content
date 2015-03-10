@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[physics]] of condensed [[matter]] ([[fermions]], due to the [[Pauli exclusion principle]]).
+The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to the [[Pauli exclusion principle]]).
 
 ## Related concepts
 
@@ -40,6 +40,8 @@ The [[physics]] of condensed [[matter]] ([[fermions]], due to the [[Pauli exclus
 
 * Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
 
+* Ulrich R&#246;ssler, _Solid State Theory: An Introduction_, 2009
+
 
 [[!redirects condensed matter physics]]
 
@@ -47,4 +49,3 @@ The [[physics]] of condensed [[matter]] ([[fermions]], due to the [[Pauli exclus
 
 [[!redirects solid body]]
 [[!redirects solid bodies]]
-
