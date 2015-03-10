@@ -20,6 +20,8 @@ Exposition includes
 * [[Jim Pivarski]], _[Why stuff is hard](https://cornellmath.wordpress.com/2007/08/08/why-stuff-is-hard/)_
 
 Textbook accounts include
+
 * Ulrich R&#246;ssler, _Solid State Theory: An Introduction_, 2009
 
 [[!redirects solid]]
+[[!redirects solids]]
