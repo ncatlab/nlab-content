@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,10 +10,28 @@
 =--
 =--
 
-In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the _[[cohesion]]_ of some substance. [[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]], i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
+#Contents#
+* table of contents
+{:toc}
+
+## In solid state physics
+
+In [[physics]] and [[chemistry]] ([[solid state physics]]), _cohesion_ refers to the tendency of certain types of [[matter]]/[[substance]] to hold together.
+
+> In physics, the intermolecular attractive force acting between two adjacent portions of a substance, particularly of a solid or liquid. It is this force that holds a piece of matter together. ([Enc. Britannica](http://www.britannica.com/EBchecked/topic/124597/cohesion)).
+
+## Analogy with a quality of space
+
+### In natural philosophy
+
+In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the _[[cohesion]]_ of some substance. 
+
+### In categorical logic / topos theory
+
+[[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]], i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
 
 
-Entries discussing aspects of _cohesion_ include the following
+Entries discussing aspects of _cohesion_ in this sense include the following
 
 * [[motivation for cohesion]], [[geometry of physics]]
 
@@ -66,6 +85,10 @@ Moreover, according to [PN&#167;298](Science+of+Logic#PN298) this elasticity is 
 * [[local prequantum field theory]]
 
 * [[motivic quantization]]
+
+## Related concepts
+
+* [[elasticity]], [[solidity]]
 
 category: adjective
 
