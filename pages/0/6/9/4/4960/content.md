@@ -23,7 +23,8 @@
 * table of contents
 {:toc}
  
-## Idea {#Idea}
+## Idea 
+ {#Idea}
 
 The definition of _cohesive topos_ or _category of cohesion_ aims to axiomatize properties of a [[topos]] that make it a [[gros topos]] of [[spaces]] inside of which [[geometry]] may take place. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
