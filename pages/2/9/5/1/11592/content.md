@@ -5,6 +5,8 @@
 
 * [[fundamental theorem of algebra]]
 
+* _[[Disquisitiones Arithmeticae]]_
+
 
 category: people
 
