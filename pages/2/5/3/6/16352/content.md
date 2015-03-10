@@ -1,0 +1,7 @@
+
+
+textbook on [[differential geometry]]:
+
+* _Smooth manifolds and Observables_, Graduate texts in mathematics 218, 2003
+
+category: people
