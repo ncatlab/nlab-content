@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In a [[model (in theoretical physics)]] of [[gravity]] coupled to other fields, the _energy momentum tensor_ or _stress energy tensor_ T is the [[variational calculus|variation]] of the matter part $S_{fields}$ in the [[Einstein-Hilbert action]] with respect to the metric, $\delta S_{fields} = T \delta g$.
 
 It is a measure for the [[energy]] and [[momentum]] density of the matter contribution to the theory. 
@@ -9,6 +25,10 @@ $$
   G = T
   \,.
 $$
+
+## Related concepts
+
+* [[stress tensor]]
 
 [[!redirects energy momentum tensor]]
 [[!redirects energy-momentum tensor]]
