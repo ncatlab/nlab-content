@@ -598,6 +598,7 @@ $$
   \simeq
   \mathbf{H}(U,A)
   =
+
   A(U)
   \,.
 $$
@@ -1806,6 +1807,11 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 * [[smooth super infinity-groupoid]]
 
+* [[super smooth infinity-groupoid]]
+
+* [[super-Cartan geometry]]
+
+
 ### Syntactic Layer
 
 (...)
@@ -2631,6 +2637,7 @@ For the following, let $\langle \lambda, - \rangle \in \mathfrak{g}^*$ be a _reg
 
 As usual, write 
 
+
 $$
   \mathbf{B}G_{conn} \simeq \Omega^1(-,\mathfrak{g})//G
   \in 
@@ -2886,6 +2893,7 @@ be a [[submanifold]] inclusion of the [[circle]]: a [[knot]] in $\Sigma$.
 
 Let $R$ be an [[irreducible representation|irreducible]] 
 [[unitary representation]] of $G$ and let $\langle \lambda,-\rangle$ be a [[weight (in representation theory)|weight]] corresponding to it by the [[Borel-Weil-Bott theorem]].
+
 
 Regarding the inclusion $C$ as an object in the [[arrow (∞,1)-topos]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with 
 [[Wilson loop]] $C$ and labeled by the [[representation]] $R$ is a map
