@@ -51,12 +51,14 @@ This provides ample example and application of super-Cartan geometry for the cas
 
 
 ## Introduction
+ {#Introduction}
 
 ### The solid topos
 
 It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and maybe more illumimnating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_.
 
 #### Coordinate systems: super-Cartesian spaces
+ {#CoordinareSystemsSuperCartesianSpaces}
 
 Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_.
 
@@ -307,6 +309,14 @@ $$
 
 of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ as in def. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} with algebras corresponding to infinitesimally thickened points $D$ as above.
 
+The [[sheaf topos]]
+
+$$
+  FormalSmooth0Type \coloneqq Sh(CartSp \rtimes InfPoint)
+$$
+
+is traditionally known as the _[[Cahiers topos]]_.
+
 =--
 
 +-- {: .num_example}
@@ -324,7 +334,7 @@ which are the identity after restricton along $\mathbb{R}^n \to \mathbb{R}^n \ti
 
 $$
   C^\infty(\mathbb{R}^n)\otimes_{\mathbb{R}} \langle \epsilon\rangle
-  \longrightarrow
+  \longleftarrow
   C^\infty(\mathbb{R}^n)
 $$
 
@@ -351,9 +361,9 @@ $$
   \,.
 $$
 
-This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]].
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]]. (See at _[[derivations of smooth functions are vector fields]]_).
 
-Similarly one finds that maps
+In particular one finds that maps
 
 $$
   \mathbb{D} \longrightarrow \mathbb{R}^n
@@ -362,26 +372,42 @@ $$
 are equivalently single [[tangent vectors]].
 
 
+
 =--
 
++-- {: .num_defn}
+###### Definition
 
-
-* $SuperPoint \coloneqq WAlg_{super}^{op}$ for the category of [[superpoints]], by which we here mean the [[formal duals]] to commutative [[superalgebras]] which 
-are super-[[Weil algebras]].
-
-There are then "semidirect product" sites $CartSp \rtimes InfinPoint$ and $CartSp \rtimes SuperPoint$ (whose objects are [[Cartesian products]] of the given form inside [[synthetic differential supergeometry]] and whose morphisms are all morphisms in that context (not just the product morphisms)).
-
-Set then 
+Write  
 
 $$
-  FormalSmooth0Type \coloneqq Sh(CartSp \rtimes InfPoint)
+  SuperInfPoint \hookrightarrow SuperCAlg_{\mathbb{R}}^{op}
+$$ 
+
+for the [[full subcategory]] on those [[formal duals]] of [[commutative superalgebras]] over the [[real numbers]] on those of the form $\mathbb{R}\oplus V$ with $V$ a finite dimensional [[nilpotent ideal]].
+
+We call this the category of [[infinitesimally thickened point|infinitesimally thickened]] [[superpoints]].
+
+Similarly write
+
+$$
+  CartSp \rtimes SuperInfPoint
+  \hookrightarrow
+  SuperCAlg_{\mathbb{R}}^{op}
+$$ 
+
+for the [[full subcategory]] on [[formal duals]] of [[tensor products]] of an algebra $C^\infty(\mathbb{R}^n)$ of [[smooth functions]] and an algebra $C^\infty(D)$ on an infinitesimally thickened superpoint.
+
+The [[sheaf topos]]
+
+$$
+  SuperSmooth0Type \coloneqq Sh(CartSp \rtimes SuperInfPoint)
 $$
 
-for the collection of [[formal smooth ∞-groupoids]] (see there) and finally
+we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
 
-$$
-  SuperSmooth0Type \coloneqq Sh(CartSp \rtimes SuperPoint)
-$$
+=--
+
 
 #### The reflective categories
 
@@ -588,7 +614,7 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 
 * {#FigueroaOFarrill08} [[José Figueroa-O'Farrill]], _The homogeneity conjecture for supergravity backgrounds_, J.Phys.Conf.Ser.175:012002, 2009 ([arXiv:0812.1258](http://arxiv.org/abs/0812.1258))
 
-* {#EgeilehChami13} Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
+* {#EgeilehChami13} [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
 A formalization as discussed above is considered in 
 
