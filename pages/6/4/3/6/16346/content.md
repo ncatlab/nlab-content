@@ -39,11 +39,11 @@ While the general abstract [[theory]] of super-Cartan geometry proceeds in direc
 
 While the terminology "super-Cartan geometry" is not much used traditionally (but see ([Egeileh-Chami 13](#EgeilehChami13))), nevertheless the key ingredients of super-Cartan geometry are well known in the literature, and all the more is it useful to make them explicit as what they are.
 
-Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]]. Essentially all of the literature on [[supergravity]] formulated in "superspace" is implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]].
+Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]] and uses terms such as "Einstein-Cartan theory" to refer to the [[first order formulation of gravity]]. Essentially all of the literature on [[supergravity]] formulated this way in "superspace" is more or less implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]].
 
 One physics references which makes the super-Cartan-geometric picture of [[supergravity]] very explicit is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (These authors in fact also make the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at [[D'Auria-Fré formulation of supergravity]].), even though these authors do not use this mathematical terminology. Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
 
-An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77](#Baaklini77)), which however seems to have gone essentially unnoticed.  A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
+An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b)), which however seems to have gone unnoticed. The only genuine citation to this article is in the list of references of the survey ([Nieuwenhuizen 81](#Nieuwenhuizen81)) which however does not actually refer the article in its text.  A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
 
 This provides ample example and application of super-Cartan geometry for the case where $G/H$ is a [[super vector space]], hence for the case corresponding to [[G-structure]]. More general super-Cartan geometry apparently remains to be explored.
 
@@ -411,6 +411,38 @@ we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
 
 #### The reflective categories
 
+The [[sites]] considered above are related by a sequence of [[reflective 
+subcategory|reflections]] and [[coreflective subcategory|coreflections]] as follows
+
++-- {: .num_defn #InclusionOfSites}
+###### Definition
+
+Write
+
+$$
+  \ast \hookrightarrow CartSp
+  \hookrightarrow
+  CartSp\rtimes InfPoint
+  \hookrightarrow
+  CartSp \rtimes SuperInfPoint 
+$$
+
+for the evident [[full inclusions]]:
+
+1. the first one picks the [[terminal object]] $\mathbb{R}^0$;
+
+1. the second one regards $\mathbb{R}^n$ as a [[formal manifold]] equipped with no infinitesimal thickening;
+
+1. the third one regards $\mathbb{R}^n \times D$ as a supergeometric space with no odd-graded (no fermionic) component.
+
+=--
+
+
++-- {: .num_prop #CoReflectionsOfSites}
+###### Proposition
+
+The full inclusions of def. \ref{InclusionOfSites} have [[adjoints]] as follows
+
 $$
   \ast
   \stackrel{\longleftarrow}{\hookrightarrow}
@@ -418,20 +450,28 @@ $$
   \stackrel{\hookrightarrow}{\longleftarrow}
   CartSp\rtimes InfPoint
   \stackrel{\longleftarrow}{\stackrel{\hookrightarrow}{\longleftarrow}}
-  CartSp \rtimes SuperPoint  
-  \,.
+  CartSp \rtimes SuperInfPoint  
+  \,,
 $$
 
+where we display [[left adjoints]] vertically above their [[right adjoints]]. In other words the first inclusion is [[reflective subcategory|reflective]], the second is [[coreflective subcategory|coreflective]] and the third is both.
 
-Here
+Explicitly, 
 
-* the first inclusion picks the [[terminal object]] $\mathbb{R}^0$;
+1. the first reflection is, necessarily, the trivial one;
 
-* the second inclusion is that of [[reduced objects]]; the coreflection is [[reduction]], sending an algebra to its [[reduced algebra]];
+1. the second coreflection is [[reduction]]: it sends a [[commutative algebra]] to the [[quotient]] by its [[nilpotent ideal]];
 
-* the third inclusion is that of even-graded algebras, the reflection sends a $\mathbb{Z}_2$-graded algebra to its even-graded part, the co-reflection sends a $\mathbb{Z}_2$-graded algebra to its quotient by the ideal generated by its odd part, see at _[superalgebra -- Adjoints to the inclusion of plain algebras](super+algebra#AdjointsToInclusionOfPlainAlgebra)_.
+1. the third reflection sends a $\mathbb{Z}/2\mathbb{Z}$-graded algebra to its even-graded part, the co-reflection sends a $\mathbb{Z}_2$-graded algebra to its quotient by the ideal generated by its odd part, see at _[superalgebra -- Adjoints to the inclusion of plain algebras](super+algebra#AdjointsToInclusionOfPlainAlgebra)_.
 
-Passing to [[(∞,1)-categories of (∞,1)-sheaves]], this yields, via [[(∞,1)-Kan extension]], a sequence of [[adjoint quadruples]] as follows:
+=--
+
+All the (co-)reflections in prop. \ref{CoReflectionsOfSites} are immediate in themselves, but, as with all [[adjunctions]], it is useful to make them explicit as such. For the last one possibly the only place in the literature where it is made explicit is [Carchedi-Roytenberg 12, example 3.18](http://ncatlab.org/nlab/show/super+algebra#CarchediRoytenberg12).
+
++-- {: .num_prop #CoReflectonsOfToposes}
+###### Proposition
+
+Passing to [[categories of sheaves]], the (co-)reflections on [[sites]] in prop. \ref{CoReflectionsOfSites} yields, via [[Kan extension]], a sequence of [[adjoint quadruples]] as follows:
 
 $$
   \array{
@@ -443,13 +483,13 @@ $$
     \\
     \Delta \colon
     & 
-    \infty Grpd
+    Set
     &\hookrightarrow&
-    Smooth \infty Grpd
+    Smooth0Type
     &\hookrightarrow&
-    FormalSmooth \infty Grpd
+    FormalSmooth0Type
     &\hookrightarrow&
-    SuperSmooth \infty Grpd
+    SuperFormalSmooth0Type
     \\
     & &\longleftarrow& &\longleftarrow&
     \\
@@ -457,20 +497,117 @@ $$
   }
 $$
 
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first adjoint quadruple on the left this is the statement that [[smooth spaces]] form a [[cohesive topos]], which follows as discussed there and at _[[cohesive site]]_. 
+
+For the second adjoint quadruple this is the statement that the [[Cahiers topos]] has [[differential cohesion]] relative to that of [[smooth spaces]], as discussed at _[[formal smooth infinity-groupoids]]_.
+
+For the third adjoint quadruple this is the statement that [[super formal smooth infinity-groupoids]] exhibits [[graded differential cohesion]] over formal smooth $\infty$-groupoids.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Any [[reflective subcategory]]
+
+$$
+  \mathcal{C}
+  \stackrel{\overset{L}{\longleftarrow}}{\underset{i}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+induces an [[idempotent monad]] on $\mathbf{H}$, i.e. an [[endofunctor]]
+
+$$
+  \bigcirc \;\coloneqq\; i \circ L \colon \mathbf{H} \longrightarrow \mathbf{H}
+$$
+
+equipped with a [[natural transformation]]
+
+$$
+  \epsilon_X \colon X \longrightarrow \bigcirc X
+$$
+
+such that applying $\bigcirc$ again to that transformation it becomes an [[isomorphism]].
+
+Dually, any [[coreflective subcategory]]
+
+$$
+  \mathcal{C}
+  \stackrel{\overset{i}{\hookrightarrow}}{\underset{R}{\longleftarrow}}
+  \mathbf{H}
+$$
+
+induces an [[idempotent comonad]]
+
+$$
+  \Box \;\coloneqq\; i \circ R \colon \mathbf{H} \longrightarrow \mathbf{H}
+  \,.
+$$
+
+If moreover these two cases combine to an [[adjoint triple]] of the form
+
+$$
+  \mathcal{C}
+   \stackrel{\hookrightarrow}{\stackrel{\longleftarrow}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+or of the form
+
+$$
+  \mathcal{C}
+   \stackrel{\longleftarrow}{\stackrel{\hookrightarrow}{\longleftarrow}}
+  \mathbf{H}
+$$
 
 
-he total composite labeled $\Delta$ is indeed the [[locally constant infinity-stack]]-functor: let $X$ be any object in its image, and $U \times D_s \in CartSp \rtimes SuperPoint$. Then by adjunction $SuperSmooth\infty Grpd(U\times D_s, X)$ is equivalently homs in $FormalSmooth \infty Grpd$ of out the dual of the Weil algebra which is the quotient of the original one by the ideal generated by its odd part. Hence this, in turn, is equivalently homs in $Smooth\infty Grpd$ out of $U$ and that finally is equivalently homs in $\infty Grpd$ out of $\ast$ into the given $\infty$-groupoid.
+then these (co-)monads themselves are [[adjunction|adjoint]] to each other as
+
+$$
+  \Box \dashv \bigcirc
+$$
+
+or as
+
+$$
+  \bigcirc \dashv \Box
+  \,,
+$$
+
+respectively, forming an "[[adjoint cylinder]]".
 
 
-Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] which this induces, then yields 
 
-* on the left the [[shape modality]] $\int$, [[flat modality]] $\flat$ and [[sharp modality]] $\sharp$, 
 
-* in the middle yields the [[reduction modality]] $\Re$, the [[infinitesimal shape modality]] $\&$ and the [[infinitesimal flat modality]] $\Im$. 
 
-* on the right we get an adjoint triple whose whose middle bit $\rightsquigarrow$ is the [[bosonic modality]] and whose left piece $\e$ produces _super-even_ components, containing all the "[[fermion]] [[currents]]" if one wishes , which in this [[unity of opposites]] hence deserves to be called the _[[fermionic modality]]_. The further right adjoint $\Re$ is the [[rheonomy modality]].
+=--
 
-Hence we get a process of [[adjoint modalities]] of the form
+Notice the following:
+
++-- {: .num_prop }
+###### Proposition
+
+The total composite labeled $\Delta$ in prop. \ref{CoReflectonsOfToposes}
+is indeed the [[locally constant sheaf]]-functor for $SuperFormalSmooth0Type$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X$ be any object in image of this total funcotr, and let $U \times D_s \in CartSp \rtimes SupeInfPoint$. Then by adjunction $SuperFormalSmooth0Type(U\times D_s, X)$ is equivalently homs in $FormalSmooth0Type$ out of the dual of the Weil algebra which is the quotient of the original one by the ideal generated by its odd part. Hence this, in turn, is equivalently homs in $Smooth0Type$ out of $U$ and that finally is equivalently homs in $Set$ out of $\ast$ into the given set.
+
+=--
+
+
+Therefore passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] 
+
 
 $$
   \array{
@@ -506,11 +643,49 @@ $$
   }
 $$
 
-where "$\vee$" denotes inclusion of [[modal types]]. The first level is [[cohesion]], the second is [[differential cohesion]] ([[elasticity]]), the third is a further refinement given by supergeometry, which takes further "square roots" of all infinitesimal generators.
+
+* [[graded differential cohesion|solidity]]
+
+  * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]]
+
+  * **[[bosonic modality]] $\rightsquigarrow$** -- sends a super-space to the underlying bosonic space;
+
+  * **[[rheonomy modality]] $\R$**
+
+* [[elasticity]]
+
+  * **[[reduction modality]] $\Re$** -- removes infinitesimal thickening;
+ 
+  * **[[infinitesimal shape modality]] $\Im$** -- sends a space to its [[de Rham space]];
+
+  * **[[infinitesimal flat modality]] $\&$**
+
+* [[cohesion]]
+  
+  * **[[shape modality]]  $\int$** -- sends a space to its set $\pi_0$ of [[connected components]]; or rather, once we lift the discussion here from [[sheaves]] to [[infinity-stacks]], then this sends a space to its [[fundamental infinity-groupoid]];
+
+  * **[[flat modality]] $\flat$** -- sends a space to the [[discrete space]] formed by its points;
+
+  * **[[sharp modality]] $\sharp$**
+ 
 
 ### Super-Cartan geometry
 
+Above we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three lebels of geoemtric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
+
+Here we now formulate super-Cartan geometry in this context and using these operations. 
+
+
 #### The super-Klein geometry: super-Minkowski spacetime
+
+we want to establish this analogy:
+
+| ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
+|---------------------|----------------|----------------|-----------------------------|
+| [[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1}$ |
+| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
+| [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert N=1})$ | $\mathfrak{o}(d-1,1)$ | $\widehat{\mathbb{R}}^{10,1\vert N=1}$ |
+
 
 real [[spin representation]], 
 
@@ -548,9 +723,13 @@ which is
 
 1. $Spin(V)$-equivariant.
 
+
+This is what in the [[physics]] literature is expressed in components by the Gamma matrices with "indices lowered" using the _[[charge conjugation matrix]]_.
+
 This allows to form the [[super Poincaré Lie algebra]] 
 hence the [[super Poincaré group]] $sIso(d-1,1|N)$ in each of these cases. 
 
+Finally then: 
 
 [[quotient]] by [[spin group]] is [[super-Minkowski spacetime]]
 
@@ -604,9 +783,13 @@ with both morphisms being local diffeos and the right one in addition being a [[
 
 ## References
 
-Traditional literature that involves super-Cartan geometry more or less explicitly andn the context of [[supergravity]] includes
+Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] includes
 
-* {#Baaklini77} N.S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
+* {#Baaklini77a} N. S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
+
+* {#Baaklini77b} N. S. Baaklini _Cartan's Geometrical Structure of Supergravity_, Lett. Math. Phys. 2 (1977) 115.
+
+* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
