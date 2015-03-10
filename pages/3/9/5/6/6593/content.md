@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-A _super-translation group_  is a [[supergroup]] generalization of the [[translation group]], hence of the additive [[Lie group]] $\mathbb{R}^n$. Its underlying [[supermanifold]] is [[super-Minkowski spacetime]].
+A _super-translation group_  is a [[supergroup]] generalization of the [[translation group]], hence of the additive [[Lie group]] $\mathbb{R}^n$. Its underlying [[supermanifold]] is a [[super-Euclidean space]] or [[super-Minkowski spacetime]].
 
 ## Definition
 
