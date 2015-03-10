@@ -35,13 +35,13 @@
 ## Idea
  {#Idea}
 
-The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
+The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural "superspace" formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
 
 This proceeds in generalization of how [[Einstein gravity]] in [[first order formulation of gravity]] is equivalently the [[Cartan geometry]] for the inclusion of the [[Lorentz group]] inside the [[Poincare group]]: a [[field (physics)|field]] configuration of the field of [[gravity]] is equivalently a [[Cartan connection]] for this [[subgroup]] inclusion. 
 
-Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]] is equivalently the [[Cartan geometry]] of the inclusion of the [[Lorentz group]] into the [[super Poincaré group]].
+Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]] is equivalently the [[super-Cartan geometry]] of the inclusion of the [[spin group]] into the [[super Poincaré group]].
 
-What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]].
+What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]]. This is the refinement of [[super-Cartan geometry]] to [[higher Cartan geometry]].
 
 
 
