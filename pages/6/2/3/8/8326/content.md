@@ -372,24 +372,24 @@ $$
     && &&  &&  &\stackrel{starre \atop Materie}{}& \rho(\e) &
     \stackrel{Aussereinandersein}{\dashv} & \rho(\rightsquigarrow) & \stackrel{Licht}{}
     \\
-    && &&  &&  && \bot & \stackrel{Materie}{} & \bot
+    && &&  &&  && \bot & \stackrel{{feste} \atop {Materie}}{} & \bot
     \\
     && &&  &&  && \rho(\rightsquigarrow) & \stackrel{Schwere}{\dashv} & \rho(\,\,)
     \\
     && &&  &&  && \vee & & \vee
     \\
-    && &&  &&  && \rho(\Re) & \dashv & \rho(\Im)
+    && &&  &&  && \rho(\Re) & \stackrel{Weichheit}{\dashv} & \rho(\Im)
     \\
-    && &&  &&  && \bot & \stackrel{}{} & \bot
+    && &&  &&  && \bot & \stackrel{Elastizitaet}{} & \bot
     \\
-    && &&  &&  &\stackrel{Weichheit}{}& \rho(\Im) &\stackrel{Elastizitaet}{\dashv} & \rho(\& ) & \stackrel{Haerte}{}
+    && &&  &&  &\stackrel{}{}& \rho(\Im) &\stackrel{Haerte}{\dashv} & \rho(\& ) & \stackrel{}{}
     \\
     && &&  &&  && \vee && \vee
     \\
     Natur &&   &&  &&
-    &  & \rho(&#643;) &\stackrel{Kohaesion}{\dashv}& \rho(\flat) &
+    &  & \rho(&#643;) &\stackrel{}{\dashv}& \rho(\flat) &
     \\
-    && && && && \bot && \bot
+    && && && && \bot &\stackrel{Kohaesion}{}& \bot
     \\
     && && && \stackrel{Dichtigkeit}{} && \rho(\flat) &\dashv& \rho(\sharp) &
     \\
