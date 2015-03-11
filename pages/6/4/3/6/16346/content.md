@@ -53,11 +53,31 @@ This provides ample example and application of super-Cartan geometry for the cas
 ## Introduction
  {#Introduction}
 
-### The solid topos
+It is traditional to introduce [[supergeometry]] as being about [[supermanifolds]] and to intoduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct, possibly more illuminating, and certainly more powerful way, following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_. 
 
-It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and possibly more illuminating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_. 
+Below in 
 
-#### Coordinate systems: super-Cartesian spaces
+* _[The geometric substance](#TheGeometricSubstance)_
+
+we consider the full [[topos]] of [[supergeometry]] and find how its structure reflects the special qualities of supergeometry. 
+
+Then in 
+
+* _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ 
+
+we discuss how to formulate [[manifolds]] and their [[Cartan geometry]] generally in such a context. Finally in 
+
+* _[Super Cartan geometry](#SuperCartanGeometry)_
+
+we put this together and discuss supermanifolds equipped with super Cartan geometry.
+
+
+
+### **1)** The geometric substance
+ {#TheGeometricSubstance}
+
+
+#### Coordinate systems: super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
 
 Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_.
@@ -410,7 +430,7 @@ we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
 =--
 
 
-#### The reflective categories
+#### The geometric determinations 
 
 The [[sites]] considered above are related by a sequence of [[reflective 
 subcategory|reflections]] and [[coreflective subcategory|coreflections]] as follows
@@ -777,10 +797,11 @@ $$
 
 =--
 
-#### $G$-Structure and Cartan geometry
+
+### **2)** $G$-Structure and Cartan geometry
  {#TheCurvedCase}
 
-Given a context of [[differential cohesion]] as in corollary \ref{SystemOfModalities} above, then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of $V$-[[manifolds]] and  [[G-structures]] on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$.
+Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we briefly recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan geometry.
 
 
 
@@ -823,7 +844,8 @@ $$
 +-- {: .num_defn #VManifold}
 ###### Definition
 
-Given $V$ a [[super vector space]] and $X \in \mathbf{H}$, then we say that $X$ is a $V$-[[manifold]] if there is
+Let $V \in \mathbf{H}$ be given, equipped with the structure of a [[group]]
+(typically an [[abelian group]]). Then a _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
 
 $$
   \array{
@@ -835,7 +857,7 @@ $$
   }
 $$
 
-with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]] (hence an [[atlas]]).
+with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]], hence an [[atlas]].
 
 =--
 
@@ -889,9 +911,20 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 +-- {: .num_defn #InfinitesimalDiskBundle}
 ###### Definition
 
-Infinitesimal disk bundle
+Given $X \in \mathbf{H}$, its _infinitesimal disk bundle_ $T_{inf} X\to X$
+is the [[pullback]] of the [[unit of a monad|unit]] of the 
+[[infinitesimal shape modality]] along itself
 
-RelativeFlat
+$$
+  \array{
+    T_{inf} X &\stackrel{}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\longrightarrow& \Im X
+  }
+  \,.
+$$
 
 
 =--
@@ -1006,7 +1039,8 @@ It is _infintesimally integrable_ if this holds true at least after restriction 
 =--
 
 
-### Super-Cartan geometry
+### **3)** Super-Cartan geometry
+ {#SuperCartanGeometry}
 
 Above we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three lebels of geoemtric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
 
@@ -1075,9 +1109,136 @@ $$
   \,.
 $$
 
-#### Cartan connections: Graviton and gravitino field
 
-(...)
+
+#### De Rham complex of super differential forms
+
+We discuss the [[de Rham complex]] of [[super differential forms]] on a [[super Cartesian space]]. (See also at _[[signs in supergeometry]]_.)
+
+Accordingly, by the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
+
+$$
+  \Omega^\bullet(\mathbb{R}^{p|q})
+  = 
+  C^\infty(\mathbb{R}^{p|q})
+  \left[
+   \left\{
+     \mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} 
+     \wedge 
+     \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}
+   \right\}
+  \right]
+  \,.
+$$
+
+This [[de Rham complex]] now carries the structure of a 
+
+* differential graded-commutative graded commutative superalgebra 
+
+which should be thought of as bracketet as follows
+
+* differential graded-commutative graded (commutative superalgebra).
+
+This means in effect that elements of $\Omega^\bullet(\mathbb{R}^{p|q})$ carry a $\mathbb{Z} \times \mathbb{Z}_2$-[[graded object|grading]], where we may say that 
+
+* $\mathbb{Z}$ corresponds to the "cohomological grading";
+
+* $\mathbb{Z}_2$ corresponds to the super-grading.
+
+We write 
+
+$$
+  (n,\sigma)\in \mathbb{Z} \times \mathbb{Z}_2
+$$ 
+
+for elements in this grading group. 
+
+In this notation the grading of the elements in $\Omega^\bullet(\mathbb{R}^{p|q})$ is all induced by the fact that the de Rham differential $\mathbf{d}$ itself is a [[derivation]] of degree $(1,even)$.
+
+| generator | bi-degree |
+|--|--|
+| $x^a$ | (0,even) |
+| $\theta^\alpha$ | (0,odd) |
+| $\mathbf{d}$ | (1,even) |
+
+Here the last line means that we have
+
+| generator | bi-degree |
+|--|--|
+| $x^a$ | (0,even) |
+| $\theta^\alpha$ | (0,odd) |
+| $\mathbf{d}x^a$ | (1,even) |
+| $\mathbf{d}\theta^\alpha$ | (1,odd) |
+
+
+The formula for the "cohomologically- and super-graded commutativity" in $\Omega^\bullet(\mathbb{R}^{p|q})$ is 
+
+$$
+  \alpha \wedge \beta 
+  = 
+  \;
+  (- 1)^{n_\alpha n_\beta + \sigma_\alpha \sigma_\beta}
+  \;
+  \beta \wedge \alpha
+$$
+
+for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\mathbb{Z}\times \mathbb{Z}_2$-degree. Hence there are _two_ contributions to the sign picked up when exchanging two super-differential forms in the wedge product:
+
+1. there is a "cohomological sign" which for commuting a $p_1$-forms past a $p_2$-form is $(-1)^{p_1 p_2}$;
+
+1. in addition there is a "super-grading" sich which for commuting a $\sigma_1$-graded coordinate function past a $\sigma_2$-graded coordinate function (possibly under the de Rham differential) is $(-1)^{\sigma_1 \sigma_2}$.
+
+
+Some examples:
+
+$$
+  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
+$$
+
+
+$$
+  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
+$$
+
+$$
+  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
+   = 
+  - (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
+$$
+
+$$
+  \mathbf{d}x^{a_1}
+  \wedge
+  \mathbf{d} x^{a_2}
+  =
+  -
+  \mathbf{d} x^{a_2}
+  \wedge
+  \mathbf{d} x^{a_1}
+$$
+
+
+$$
+  \mathbf{d}x^a
+  \wedge
+  \mathbf{d} \theta^{\alpha}
+  =
+  -
+  \mathbf{d}\theta^{\alpha}
+  \wedge
+  \mathbf{d} x^a
+$$
+
+$$
+  \mathbf{d}\theta^{\alpha_1}
+  \wedge
+  \mathbf{d} \theta^{\alpha_2}
+  =
+  +
+  \mathbf{d}\theta^{\alpha_2}
+  \wedge
+  \mathbf{d} \theta^{\alpha_1}
+$$
 
 #### Cohomology of super-Minkowski spacetime
 
@@ -1100,28 +1261,6 @@ $$
   \,.
 $$
 
-
-
-More generally the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
-
-* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
-
-* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
-
-with the differential defined by
-
-$$
-  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
-$$
-
-$$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
-$$
-
-$$
-  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
-  \,.
-$$
 
 +-- {: .num_remark }
 ###### Remark
@@ -1180,6 +1319,87 @@ is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
 =--
 
 
+#### Cartan connections: Graviton and gravitino field
+
+the [[super Poincaré Lie algebra]]
+
+its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+with the differential defined by
+
+$$
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+$$
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+Accordingly its [[Weil algebra]] 
+$W(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$
+has these generators together with a further degree-shifted copy of each $\{t^a\}$, $\{r^{a b}\}$ and $\{\rho^{\alpha}\}$ with differential given by
+
+$$
+  d_{W} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c} + r^{a b}
+$$
+
+$$
+  d_{W} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi + t^a
+$$
+
+$$
+  d_{W} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi + \rho
+  \,.
+$$
+
+
+A local field configuration on a [[supermanifold]] $X$ in the [[classical field theory]] is a morphism
+ 
+$$
+  T X \stackrel{(A, F_A)}{\to}
+  inn(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))
+$$
+
+from the [[tangent Lie algebroid]] to the inner-derivation Lie 4-algebra $inn(\mathfrak{sugra}(10,1))$, defined as the formal dual of the [[Weil algebra]] of $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$). So dually this is a morhism of [[dg-algebras]] from the [[Weil algebra]] $W(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ to the [[deRham dg-algebra]] $\Omega^\bullet(X)$ of $X$:
+
+$$
+  \Omega^\bullet(X)
+   \leftarrow
+   W(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))
+   :
+   (A,F_A)  
+   \,.
+$$
+
+This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞-Lie algebroid valued curvature]] that is explicitly given by:
+
+
+
+* connection forms / field configuration
+
+  * $E \in \Omega^1(X,\mathbb{R}^{d-1,1|N})$ -- the **[[vielbein]]** (part of the _[[graviton]] [[field (physics)|field]]_)
+
+  * $\Omega \in \Omega^1(X, \mathfrak{so}(\mathbb{R}^{d-1,1}))$ -- the **[[spin connection]]** (part of the _[[graviton]] [[field (physics)|field]]_)
+
+  * $\Psi \in \Omega^ 1(X,S)$ -- the **[[spinor]]** (the [[gravitino]] [[field (physics)|field]])
+
+
+* [[curvature]] forms / [[field strength]]s
+
+  * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{d-1,1})$ - the **[[torsion of a metric connection|torsion]]**
+
+  * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **[[Riemann curvature]]**
+
+  * $\rho = d \Psi + (\Omega \wedge \Psi) \in \Omega^2(X, S)$ -- the **[[covariant derivative]] of the spinor**
 
 
 
@@ -1208,3 +1428,5 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 A formalization as discussed above is considered in 
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
+
+[[!redirects super Cartan geometry]]
