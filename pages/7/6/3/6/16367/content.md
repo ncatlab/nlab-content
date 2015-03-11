@@ -1,0 +1,95 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+For $C$ a [[symmetric monoidal model category]] there are various conditions under which the category $CMon(C)$ of [[commutative monoids]] in $C$ inherits a natural [[model structure]] such that the [[weak equivalences]] and [[fibrations]] are defined as in $C$.
+
+## Distinction between E-infinity monoids
+
+Recall that $CMon(C)$ can be described as the category of [[algebras over an operad]] over the [[operad]] [[Comm]].
+If the operad [[Comm]] were [[cofibrant object|cofibrant]], then for the existence of the induced model structure on $CMon(C)$ it would be sufficient to require the [[monoid axiom in a monoidal model category|monoid axiom]], and to use the [[model structure on algebras over an operad]] as discussed there.
+However [[Comm]] is in general not cofibrant, and this is the distinction between [[Comm]] and the [[E-infinity operad]]: the latter is a [[cofibrant replacement]] of the former.
+This is why the [[model structure]] on [[commutative monoids]] may not always exist even when the model structure on [[E-infinity monoids in a symmetric monoidal model category]] does.
+
+For example, take $C$ to be the category of [[chain complexes]] over a [[field]] of [[positive characteristic]].
+Then the category of [[commutative monoids]] in $C$ is the category of [[commutative dg-algebras]].
+This does not have an induced [[model structure]], as explained in [MO/23885/2503](http://mathoverflow.net/a/23885/2503).
+
+## Definition
+
+Let $C$ be a [[symmetric monoidal model category]] and let $CMon(C)$ denote the category of [[commutative monoids]] in the underlying category of $C$.
+Define a [[weak equivalence]] (resp. [[fibration]]) of [[commutative monoids]] to be a [[weak equivalence]] (resp. [[fibration]]) of the underlying objects of $C$.
+Below we will give sufficient conditions for this to define a [[model structure]] on $CMon(C)$.
+
+## Existence
+
+To state the existence theorem, we will need some set-theoretic assumptions.
+Suppose that $C$ is [[cofibrantly generated model category|cofibrantly generated]] by a set of [[cofibrations]] $I$ and a set of [[trivial cofibrations]] $J$.
+Let $I \otimes C$-cell denote the closure of $I \otimes C = \{ i \otimes \id_X : i \in I, X \in Ob(C) \}$ under [[cobase change]] and [[transfinite composition]], and similarly for $J \otimes C$-cell.
+
++-- {: .un_theorem}
+###### Theorem
+Suppose that
+  * $C$ is [[cofibrantly generated model category|cofibrantly generated]] by a set of cofibrations $I$ and a set of fibrations $J$,
+  * the [[domains]] of the morphisms in $I$ (resp. $J$) are [[small objects]] relative to $(I\otimes C)$-cell (resp. $(J\otimes C)$-cell),
+  * $C$ satisfies the [[monoid axiom in a monoidal model category]]
+  * $C$ satisfies the _commutative monoid axiom_, i.e. ...
+
+Then the category $CMon(C)$ is a [[cofibrantly generated model category]] with [[weak equivalences]] (resp. [[fibrations]]) as defined above.
+
+If $C$ is further [[simplicial model category|simplicial]] (resp. [[combinatorial model category|combinatorial]], [[tractable model category|tractable]]), then so is $CMon(C)$.
+=--
+
+See ([White 14](#White14), Theorem 3.2).
+
+## Rectification
+
+Rectification is the question whether the [[weak equivalence]] between the [[operads]] [[Comm]] and the [[E-infinity operad]] induces a [[Quillen equivalence]] on the [[model category of algebras over an operad|model categories of algebras]].
+
+* Rectification holds in the [[model category of symmetric spectra]].
+* It does not hold in the [[model category of simplicial sets]].
+
+See ([White 14](#White14), Paragraph 4.2) for more discussion.
+
+## Related concepts
+
+* [[model structure on E-infinity monoids in a symmetric monoidal model category]]
+
+* [[model structure on monoids in a monoidal model category]]
+
+* [[model structure on algebras over an operad]]
+
+* [[model structure on algebras over a monad]]
+
+* [[model structure on simplicial T-algebras]]
+
+## References
+
+* {#White14} [[David White]], _Model Structures on Commutative Monoids in General Model Categories_, [arXiv:1403.6759](http://arxiv.org/abs/1403.6759).
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_.
+
+[[!redirects model structure on monoids]]
+
+[[!redirects model structures on monoids]]
