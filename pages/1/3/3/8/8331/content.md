@@ -27,13 +27,13 @@ Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mat
 +-- {: .num_defn}
 ###### Definition
 
-For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], it **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]]
+For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], its associated **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]]
 
 $$
   Tot(C)_n = \bigoplus_{k+l = n} C_{k,l}
 $$
 
-and whose [[differentials]] are give by the [[linear combination]]
+and whose [[differentials]] are given by the [[linear combination]]
 
 $$
   \partial^{Tot}
@@ -60,7 +60,7 @@ The [[chain homology]] of the total complex $Tot(C)_\bullet$ is sometimes called
 +-- {: .num_remark }
 ###### Remark
 
-A tool for computing the homology of a total complex, hence for computing total homology of a double complex, is the _[[spectral sequence of a double complex]]_.
+A tool for computing the homology of a total complex, hence for computing the total homology of a double complex, is the _[[spectral sequence of a double complex]]_.
 See there for more details.
 
 =--
