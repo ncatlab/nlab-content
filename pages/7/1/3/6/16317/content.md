@@ -198,3 +198,6 @@ where "$\vee$" denotes inclusion of [[modal types]]. The first level is [[cohesi
 
 [[!redirects super smooth ∞-groupoid]]
 [[!redirects super smooth ∞-groupoids]]
+
+[[!redirects SuperFormalSmooth∞Grpd]]
+[[!redirects SuperFormalSmooth?Type]]
