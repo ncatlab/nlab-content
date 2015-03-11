@@ -2761,7 +2761,7 @@ The next book in the system, after the _Science of Logic_, is the _[[Philosophy 
 Hence Nature is the externalization of the Idea, and, by [PN&#167;193b](#PN193b) is _representation_ of the Idea. By the above, the Idea is the last stage in the system of modalities. Possible technical terminology for a [[model]] of the [[modal type theory]] is essentially verbatim "representation" and "externalization".
 
 
-> PN&#167;193a Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
+> {#PN193a} PN&#167;193a Die Natur zeigt daher in ihrem Dasein keine Freiheit, sondern Notwendigkeit und Zuf&#228;lligkeit.
 
 > PN&#167;193a Hence nature exhibits no freedom in its existence, but only necessity and contingency.
 
