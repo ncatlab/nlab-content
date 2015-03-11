@@ -30,12 +30,13 @@ and in appendix B.1 of
 * D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
  {#ACDP}
 
-The matrix component yoga used in physics is summarized for instance in section 3.1 of 
+The matrix component yoga used in physics is summarized for instance in   
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
-
-and in
+* [[Antoine Van Proeyen]], section 3.1 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
 * [[Joseph Polchinski]], volume II, appendix B of  _[[String theory]]_
+
+* {#Brandt12-13} [[Friedemann Brandt]], section 2.1, 2.3 of _Supersymmetry algebra cohomology_  _I: Definition and general structure_  J. Math. Phys.51:122302, 2010, ([arXiv:0911.2118](http://arxiv.org/abs/0911.2118))
+
 
 [[!redirects charge conjugation matrices]]
