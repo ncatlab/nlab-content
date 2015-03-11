@@ -39,6 +39,8 @@ His other works concentrated on [[motives]], [[higher regulators]], [[epsilon-fa
 
 * [[derived noncommutative algebraic geometry]]
 
+* [[p-adic Hodge theory]]
+
 [[!redirects Beilinson]]
 [[!redirects A. A. Beilinson]]
 [[!redirects A.A. Beilinson]]
