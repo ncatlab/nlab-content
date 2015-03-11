@@ -22,8 +22,23 @@
 
 A [[model category]] structure on a [[category]] of [[algebras over an operad]] enriched in some suitable [[homotopical category]] $\mathcal{E}$ is supposed to be a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-operad]].
 
-
 ## Definition
+
+## Existence
+
+### Cofibrant operads
+
++-- {: .un_theorem}
+###### Theorem
+Let $C$ be a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]].
+Let $O$ be a [[cofibrant object|cofibrant]] [[operad]].
+If $C$ satisfies the [[monoid axiom in a monoidal model category]], then there is an induced [[model structure]] on the category $Alg_C(O)$ of [[algebras over an operad]].
+=--
+
+See ([Spitzweck 01](#Spitzweck01), Theorem 4).
+
+
+### $G$-objects
 
 +-- {: .num_defn}
 ###### Assumption
@@ -56,6 +71,8 @@ preserves and reflects fibrations and weak equivalences.
 =--
 
 This is discussed in the examples at _[[monoidal model category]]_.
+
+### Coloured operads
 
 For $C \in $ [[Set]] a set of colours and $P$ a $C$-[[coloured operad]] in $\mathcal{E}$ we write $Alg_{\mathcal{E}}(P)$ for the category of $P$-[[algebras over an operad]]. There is a [[forgetful functor]]
 
@@ -364,6 +381,10 @@ A general discussion of the [[model structure on operads]] is in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
 {#BergerMoerdijkHomotopy}
+
+See also
+
+* {#Spitzweck01} [[Markus Spitzweck]], _Operads, Algebras and Modules in General Model Categories_, [arXiv:math/0101102](http://arxiv.org/abs/math/0101102).
 
 The concrete construction of the specific cofibrant resolutions in these structures going by the name [[Boardman-Vogt resolution]] is in 
 
