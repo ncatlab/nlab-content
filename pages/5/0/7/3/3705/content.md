@@ -20,7 +20,7 @@ A **subtopos** of a topos is a generalization of the concept of a subspace of a 
 ##Definition
 For $\mathcal{E}$ a [[topos]], a **subtopos** is another topos $\mathcal{F}$ equipped with a  [[geometric embedding]] $\mathcal{F} \hookrightarrow \mathcal{E}$.
 
-If this is an [[open geometric morphism]] (or an [[essential geometric morphism]]) one speaks of an **open subtopos** (an **essential subtopos**, respectively, also called a _[[level of a topos]]_).
+If this is an [[open geometric morphism]] (or an [[essential geometric morphism]]) one speaks of an **[[open subtopos]]** (an **essential subtopos**, respectively, also called a _[[level of a topos]]_).
 
 
 ##Properties
@@ -48,7 +48,11 @@ The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the 2
 
 ([Caramello (2009), prop. 10.1 p.58](#Caramello09)).
 
+## Related pages
 
+* [[open subtopos]]
+* [[closed subtopos]]
+* [[dense subtopos]]
 
 ##References
 
@@ -66,9 +70,6 @@ The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the 2
 [[!redirects Subtopos]]
 [[!redirects subtoposes]]
 [[!redirects Subtoposes]]
-
-[[!redirects open subtopos]]
-[[!redirects open subtoposes]]
 
 [[!redirects lattice of subtoposes]]
 [[!redirects lattices of subtoposes]]
