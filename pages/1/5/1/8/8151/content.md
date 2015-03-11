@@ -40,13 +40,13 @@ $$
 Then for $A \in Sh(X,Ab)$ a sheaf of abelian groups on $X$ there is a cohomology spectral sequence
 
 $$
-  E_r^{p,q} := H^p(Y, R^q f_* A)
+  E_2^{p,q} := H^p(Y, R^q f_* A)
 $$
 
 that converges as
 
 $$
-  E_r^{p,q} \Rightarrow H^{p+q}(X, A)
+  E_2^{p,q} \Rightarrow H^{p+q}(X, A)
 $$
 
 and hence computes the [[abelian sheaf cohomology]] of $X$ with coefficients in $A$ in terms of the cohomology of $Y$ with coefficients in the derived [[direct image]] of $A$.
