@@ -613,8 +613,10 @@ Let $X$ be any object in image of this total funcotr, and let $U \times D_s \in 
 
 =--
 
++-- {: .num_cor #SystemOfModalities}
+###### Corollary
 
-Therefore passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] 
+Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] 
 
 
 $$
@@ -652,6 +654,7 @@ $$
 $$
 
 
+
 * [[solidity]]
 
   * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]]
@@ -675,6 +678,21 @@ $$
   * **[[flat modality]] $\flat$** -- sends a space to the [[discrete space]] formed by its points;
 
   * **[[sharp modality]] $\sharp$**
+
+=--
+
+
++-- {: .num_example }
+###### Example
+
+* For $X \in SmoothMfd \hookrightarrow Smooth0Type \hookrightarrow FormalSmooth0Type \hookrightarrow SuperFormalSmooth0Type$  any ordinary [[smooth manifold]], this is a [[bosonic modality|bosonic]] [[modal type]] $\stackrel{\rightsquigarrow}{X} \simeq X$.
+
+* The [[odd line]] $\mathbb{R}^{0|1}$ is purely [[fermionic modality|fermionic]] in that it is an $\e$-[[comodal type]]: $\e(\mathbb{R}^{0|1})\simeq \ast$.
+
+* All [[super Cartesian spaces]] $\mathbb{R}^{p|q}$ have [[contractible]] [[shape]] in that $\int \mathbb{R}^{p|q} \simeq \ast$.
+
+=--
+
 
 +-- {: .num_prop #Sublations}
 ###### Proposition
@@ -713,6 +731,262 @@ $$
 $$
 
 =--
+
+#### Principal bundles and Higher geometry 
+
+
+The point of the system of modalities in corollary \ref{SystemOfModalities} is that they allow to carry theory across [[models]]. If we formulate traditional [[Cartan geometry]] in $FormalSmooth0Type$ with just these operations, then we may just carry that verbatim to $SuperFormalSmooth0Type$ to get a theory of super-Cartan geometry.
+
+In the same vein, we may increace the $n$ in $SuperFormalSmooth n Type$ to $n \gt 0$ and get [[higher Cartan geometry]]. 
+
+In fact at least $ n \geq 1$ is necessary in order to formalize [[frame bundles]] via their [[modulating morphisms]] to the [[delooping]] $\mathbf{B}GL(V)$. The case $n = 1$ is obtained by replacing in the above [[sheaves]] of [[sets]] with [[stacks]] of [[groupoids]]. The case $n = \infty$ is obtained by further refining this to [[infinity-stacks]] of [[infinity-groupoids]].
+
+Here we just recall some bare minimum of this [[higher differential geometry]], for formulating Cartan geometry we need to speak of [[frame bundles]] and hence here we mainly need the concept of [[principal infinity-bundle]], for more see at _[[geometry of physics -- principal bundles]]_.
+
++-- {: .num_prop}
+###### Proposition
+
+The [[(infinity,1)-category theory]] [[analogy|analog]] of prop. \ref{CoReflectonsOfToposes} still holds, and produces via the direct analog corollary \ref{SystemOfModalities} a system of [[modal operators]] on $\mathbf{H} =$ [[SuperFormalSmooth?Type]].
+
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $G$ a [[group object]] ([[∞-group]]), the $G$-[[principal infinity-bundle|principal bundles]] $P \to X$ on any $X$ are equivalent to morphisms $X \longrightarrow \mathbf{B}G$ into the [[delooping]] object of $G$, the equivalence being established by sending such a morphism to its [[homotopy fiber]]
+
+$$
+  \array{
+    P &\longrightarrow & \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\longrightarrow& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+#### $G$-Structure and Cartan geometry
+ {#TheCurvedCase}
+
+Given a context of [[differential cohesion]] as in corollary \ref{SystemOfModalities} above, then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of $V$-[[manifolds]] and  [[G-structures]] on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$.
+
+
+
++-- {: .num_defn #LocalDiffeomorphisms}
+###### Definition
+
+Given $X,Y\in \mathbf{H}$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
+
+$$
+  \array{
+    X &\longrightarrow& \Im X
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \\
+    Y &\longrightarrow& \Im Y
+  }
+$$
+
+is a [[pullback]] square. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a local diffeo if the diagram of [[tangent bundles]]
+
+$$
+  \array{
+    T X &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{T f}} && \downarrow^{\mathrlap{f}}
+    \\
+    T Y &\longrightarrow& Y
+  }
+$$
+
+=--
+
++-- {: .num_defn #VManifold}
+###### Definition
+
+Given $V$ a [[super vector space]] and $X \in \mathbf{H}$, then we say that $X$ is a $V$-[[manifold]] if there is
+
+$$
+  \array{
+    && U
+    \\
+    & \swarrow && \searrow
+    \\
+    V && && X
+  }
+$$
+
+with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]] (hence an [[atlas]]).
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+If $f\colon X \longrightarrow Y$ is a [[local diffeomorphism]],
+def. \ref{LocalDiffeomorphisms}, then so is image
+$\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
+
+$$
+  \array{
+    X &\longrightarrow& \Im X
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \\
+    Y &\longrightarrow& \Im Y
+  }
+$$
+
+with $\rightsquigarrow\;\;$ yields a pullback diagram
+
+$$
+  \array{
+    \stackrel{\rightsquigarrow}{X} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{X}
+    \\
+    \downarrow^{\mathrlap{\stackrel{\rightsquigarrow}{f}}} && \downarrow^{\mathrlap{\Im \stackrel{\rightsquigarrow}{f}}}
+    \\
+    \stackrel{\rightsquigarrow}{Y} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{Y}
+  }
+$$
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying 
+a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
+
+=--
+
++-- {: .num_prop #FrameBundle}
+###### Proposition
+
+There is a canonical assignment, natural in locla diffeomorphisms,
+of $GL(V)$-[[principal infinity-bundle|principal]] [[frame bundles]] $Fr(X) \to X$ to $V$-manifolds $X$.
+
+=--
+
+We write $\tau_X \colon X \longrightarrow \mathbf{B} GL(V)$ for the [[modulating morphism]] of the [[frame bundle]], fitting into a [[homotopy pullback]] square
+
+$$
+  \array{
+    Fr(X) &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\tau_X}{\longrightarrow}& \mathbf{B} GL(V)
+  }
+$$
+
++-- {: .num_defn #Framing}
+###### Definition
+
+A [[framing]] of a $V$-manifold is a trivialization of its [[frame bundle]], hence a lift of the form
+
+$$
+  \array{
+    X && \longrightarrow && \ast
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}GL(V)
+  }
+$$
+
+=--
+
++-- {: .num_prop #LeftTranslationFraming}
+###### Proposition
+
+For $V$ equipped with the structure of a [[group object]], then $V$ regarded as a $V$-manifold carries a canonical framing, def. \ref{Framing}, induced by left translation. 
+
+=--
+
+
++-- {: .num_defn #GStructure}
+###### Definition
+
+Given a homomorphism of groups $G \longrightarrow GL(V)$, a _[[G-structure]]_ on a $V$-manifold $X$ is a lift $\mathbf{c}$ of the frame bundle $\tau_X$ of prop. \ref{FrameBundle} through this map
+
+$$
+  \array{
+    X && \stackrel{}{\longrightarrow} && G
+    \\
+    & {}_{\mathllap{\tau_X}}\searrow &\swArrow& \swarrow
+    \\
+    & \mathbf{B}GL(V)
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example #GStructureFromLeftTranslationFraming}
+###### Example
+
+A [[framing]] induces a [[G-structure]] for any $G$, via the composition
+
+$$
+  \array{
+     X &\longrightarrow& \ast &\longrightarrow&
+     \\
+     & \searrow & \downarrow & \swarrow
+     \\
+     && \mathbf{B}GL(V)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $V$ a [[group object]] and $X$ a $V$-manifold, then 
+a [[G-structure]] on $X$, def. \ref{GStructure}, is 
+_[[integrable G-structure|integrable]]_ if for any $V$-[[atlas]] $V \leftarrow U \rightarrow X$  the pullback of the $G$-structure on $X$ to $V$ is equivalent there to  the pullback of the canonical $G$-structure on $V$ of example \ref{GStructureFromLeftTranslationFraming}, i.e. if
+
+$$
+  \array{
+     && \tau_U
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_{LI}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G \mathbf{Struc}
+  }
+  \,.
+$$
+
+It is _infintesimally integrable_ if this holds true at least after restriction along $\flat^{rel} U \to U$ to all the infinitesimal disks in $U$.
+
+=--
+
 
 ### Super-Cartan geometry
 
@@ -885,114 +1159,7 @@ is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
 
 
 
-#### The curved case
- {#TheCurvedCase}
 
-
-+-- {: .num_defn #LocalDiffeomorphisms}
-###### Definition
-
-Given $X,Y\in \mathbf{H}$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
-
-$$
-  \array{
-    X &\longrightarrow& \Im X
-    \\
-    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
-    \\
-    Y &\longrightarrow& \Im Y
-  }
-$$
-
-is a [[pullback]] square. 
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-This comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a local diffeo if the diagram of [[tangent bundles]]
-
-$$
-  \array{
-    T X &\longrightarrow& X
-    \\
-    \downarrow^{\mathrlap{T f}} && \downarrow^{\mathrlap{f}}
-    \\
-    T Y &\longrightarrow& Y
-  }
-$$
-
-=--
-
-+-- {: .num_defn #VManifold}
-###### Definition
-
-Given $V$ a [[super vector space]] and $X \in \mathbf{H}$, then we say that $X$ is a $V$-[[manifold]] if there is
-
-$$
-  \array{
-    && U
-    \\
-    & \swarrow && \searrow
-    \\
-    V && && X
-  }
-$$
-
-with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]] (hence an [[atlas]]).
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-If $f\colon X \longrightarrow Y$ is a [[local diffeomorphism]],
-def. \ref{LocalDiffeomorphisms}, then so is image
-$\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
-
-$$
-  \array{
-    X &\longrightarrow& \Im X
-    \\
-    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
-    \\
-    Y &\longrightarrow& \Im Y
-  }
-$$
-
-with $\rightsquigarrow\;\;$ yields a pullback diagram
-
-$$
-  \array{
-    \stackrel{\rightsquigarrow}{X} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{X}
-    \\
-    \downarrow^{\mathrlap{\stackrel{\rightsquigarrow}{f}}} && \downarrow^{\mathrlap{\Im \stackrel{\rightsquigarrow}{f}}}
-    \\
-    \stackrel{\rightsquigarrow}{Y} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{Y}
-  }
-$$
-
-
-
-=--
-
-+-- {: .num_cor}
-###### Corollary
-
-The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying 
-a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold.
-
-=--
-
-(...)
 
 
 
