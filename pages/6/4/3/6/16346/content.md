@@ -694,6 +694,13 @@ $$
 =--
 
 
++-- {: .num_defn #RelativeFlat}
+###### Definition
+
+[[formal disk]], [[relative flat modality]]
+
+=--
+
 +-- {: .num_prop #Sublations}
 ###### Proposition
  
@@ -879,11 +886,22 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 
 =--
 
++-- {: .num_defn #InfinitesimalDiskBundle}
+###### Definition
+
+Infinitesimal disk bundle
+
+RelativeFlat
+
+
+=--
+
 +-- {: .num_prop #FrameBundle}
 ###### Proposition
 
-There is a canonical assignment, natural in locla diffeomorphisms,
-of $GL(V)$-[[principal infinity-bundle|principal]] [[frame bundles]] $Fr(X) \to X$ to $V$-manifolds $X$.
+For $X$ a $V$-manifold, then its infinitesimal disk bundle,
+def. \ref{InfinitesimalDiskBundle}, is [[associated infinity-bundle|associated]]
+to a $GL(V)$-[[principal infinity-bundle|principal]] [[frame bundle]] $Fr(X) \to X$.
 
 =--
 
@@ -1056,6 +1074,10 @@ $$
   \mathbb{R}^{d-1,1|N} = sIso(d-1,1|N)/Spin(d-1,1)
   \,.
 $$
+
+#### Cartan connections: Graviton and gravitino field
+
+(...)
 
 #### Cohomology of super-Minkowski spacetime
 
