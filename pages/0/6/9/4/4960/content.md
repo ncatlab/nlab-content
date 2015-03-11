@@ -68,6 +68,10 @@ $$
   \,.
 $$
 
++-- {: .query}
+[[NikolajK]]: $E$ to $\mathcal{E}$ above?
+=--
+
 It is the fact that $\mathcal{E}$ is a [[local topos]] that allows to identify $Conc_\Gamma(E)$.
 
 To ensure that there is a minimum of points, one can add further axioms. From the above adjunctions one gets a canonical natural morphism
