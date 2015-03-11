@@ -1,6 +1,6 @@
-{: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Cohomology
 +--{: .hide}
@@ -11,14 +11,23 @@
 [[!include non-archimedean geometry - contents]]
 =--
 =--
+=--
 
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+A surprising parallel between classical [[Hodge theory]] and the theory of [[Galois representations]] was noted in the beginning of the 60's; shortly [[John Tate|Tate]] and [[Alexander Grothendieck|Grothendieck]] attempted to understand the topology of p-adic [[algebraic variety|varieties]] in light of this analogy.
+A series of precise conjectures about p-adic Hodge theory was formulated by [[Jean-Marc Fontaine|Fontaine]] at the beginning of the 80's; three different proofs were proposed by [[Gerd Faltings|Faltings]], [[Wieslawa Niziol|Niziol]] and [[Takeshi Tsuji|Tsuji]].
+A significantly simpler approach was developed recently in works of [[Alexander Beilinson|Beilinson]] and [[Bhargav Bhatt|Bhatt]].
+
+_This paragraph is translated from the abstract of ([Beilinson's Yaroslavl' lectures](#BeilinsonLectures2014))._
+
 ## Overview
 
-p-adic _Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic cristalline) [[cohomology]] (and [[motives]]) of [[non-archimedean varieties]]. The p-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
+_p-adic Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic cristalline) [[cohomology]] (and [[motives]]) of [[non-archimedean varieties]]. The p-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
 
 * p-adic de Rham cohomology equipped with the Hodge filtration,
 
@@ -78,4 +87,16 @@ well adapted to the study of torsion phenomena in finite characteristic.
 Indeed, as explained by Bhatt at the end of his paper, one may use derived de Rham cohomology
 over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic variety]].
 
-## (Very) short list of references
+## References
+
+### Beilinson-Bhatt approach
+
+* [[Alexander Beilinson]], _p-adic periods and derived de Rham cohomology_, [arXiv:1102.1294](http://arxiv.org/abs/1102.1294).
+
+* [[Alexander Beilinson]], _On the crystalline period map_, [arXiv:1111.3316](http://arxiv.org/abs/1111.3316).
+
+* [[Bhargav Bhatt]], _p-adic derived de Rham cohomology_, [arXiv:1204.6560](http://arxiv.org/abs/1204.6560).
+
+* [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_ (Preliminary notes), 2013, [pdf](http://www.math.u-psud.fr/~illusie/derived-deRham3.pdf).
+
+* {#BeilinsonLectures2014} [[Alexander Beilinson]], _p-adic Hodge theory_, lectures from Yaroslavl' summer school 2014, [videos](http://bogomolov-lab.ru/SHKOLA2014/talks/beilinson.html).
