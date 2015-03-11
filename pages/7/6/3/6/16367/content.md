@@ -39,21 +39,24 @@ This does not have an induced [[model structure]], as explained in [MO/23885/250
 
 See [Rectification](#Rectification) for some results on when the [[model structures]] on [[E-infinity monoids]] and [[commutative monoids]] are [[Quillen equivalent]], though.
 
-## Definition
+## Model structure
 
 Let $C$ be a [[symmetric monoidal model category]] and let $CMon(C)$ denote the category of [[commutative monoids]] in the underlying category of $C$.
 Define a [[weak equivalence]] (resp. [[fibration]]) of [[commutative monoids]] to be a [[weak equivalence]] (resp. [[fibration]]) of the underlying objects of $C$.
 Below we will give sufficient conditions for this to define a [[model structure]] on $CMon(C)$.
 
-## Existence
-
 +-- {: .un_theorem}
 ###### Theorem
 Suppose that
+
   * $C$ is [[combinatorial model category|combinatorial]],
+
   * $C$ is _freely powered_, i.e.
+
     * $C$ satisfies the [[monoid axiom in a monoidal model category]],
+
     * $C$ is [[left proper model category|left proper]] and ...
+
     * every cofibration in $C$ is a _power cofibration_, i.e. ...
 
 Then the category $CMon(C)$ is a [[combinatorial model category]] with [[weak equivalences]] and [[fibrations]] as defined above.
@@ -68,9 +71,13 @@ Let $I \otimes C$-cell denote the closure of $I \otimes C = \{ i \otimes \id_X :
 +-- {: .un_theorem}
 ###### Theorem
 Suppose that
+
   * $C$ is [[cofibrantly generated model category|cofibrantly generated]] by a set of cofibrations $I$ and a set of fibrations $J$,
+
   * the [[domains]] of the morphisms in $I$ (resp. $J$) are [[small objects]] relative to $(I\otimes C)$-cell (resp. $(J\otimes C)$-cell),
+
   * $C$ satisfies the [[monoid axiom in a monoidal model category]]
+
   * $C$ satisfies the _commutative monoid axiom_, i.e. ...
 
 Then the category $CMon(C)$ is a [[cofibrantly generated model category]] with [[weak equivalences]] and [[fibrations]] as defined above.
