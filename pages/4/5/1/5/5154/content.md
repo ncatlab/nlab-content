@@ -403,3 +403,6 @@ More discussion on the transport of operad algebra structures along [[Quillen ad
 * [[Javier Gutiérrez]], _Transfer of algebras over operads along derived Quillen adjunctions_, Journal of the London Mathematical Society 86 (2012), 607-625 ([arXiv:1104.0584](http://arxiv.org/abs/1104.0584))
 
 [[!redirects model structures on algebras over an operad]]
+
+[[!redirects model category of algebras over an operad]]
+[[!redirects model categories of algebras over an operad]]
