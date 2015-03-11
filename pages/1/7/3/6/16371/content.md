@@ -1,0 +1,12 @@
+## Definition
+
+Let $U$ be a [[subterminal object]] of a [[topos]].  Then $o_U(V)\coloneqq (U\Rightarrow V)$ defines a [[Lawvere-Tierney topology]] on $E$, whose corresponding [[subtopos]] is called the **open subtopos** associated to $U$.
+
+The reflector into the topos of sheaves can be constructed explicitly as $O_U(X) = X^U$.
+
+## Related pages
+
+* [[closed subtopos]]
+
+[[!redirects open subtoposes]]
+
