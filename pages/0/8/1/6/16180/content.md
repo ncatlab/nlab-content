@@ -35,7 +35,7 @@ Given [[differential cohesion]],
 
 $$
   \array{
-     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
+     \Re &\dashv& \Im &\dashv& \&
      \\
      && \vee && \vee
      \\
@@ -50,7 +50,7 @@ $$
 $$
 
 $$
-  \flat^{rel} X \coloneqq (\flat X) \underset{&#643;_{inf}}{\times} X
+  \flat^{rel} X \coloneqq (\flat X) \underset{\Im}{\times} X
   \,.
 $$
 
@@ -74,7 +74,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \flat X &\longrightarrow& &#643;_{inf} X
+    \flat X &\longrightarrow& \Im X
   }
   \,.
 $$
@@ -92,7 +92,7 @@ The relative shape and flat modalities of def. \ref{InducedRelativeShapeAndFlat}
 
 1. form an [[adjoint pair]] $(&#643;^{rel} \dashv \flat^{rel})$;
 
-1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to &#643;_{inf}$ is an [[equivalence]];
+1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to \Im$ is an [[equivalence]];
 
 1. $&#643;^{rel}$ preserves the [[terminal object]].
 
