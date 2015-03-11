@@ -485,15 +485,18 @@ For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[super
 
 and for the traditional component notation used in physics see
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_, Lectures in the spring school in Calimanesti, Romania, April 1998 ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
-  {#vanProeyen99}
+* {#vanProeyen99} [[Antoine Van Proeyen]], _Tools for supersymmetry_, Lectures in the spring school in Calimanesti, Romania, April 1998 ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+  
 
-* [[Joseph Polchinski]], part II, appendix B of _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
- {#Polchinski01}
+* {#Polchinski01} [[Joseph Polchinski]], part II, appendix B of _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
+ 
+
+* {#Brandt09} [[Friedemann Brandt]], section 2 of _Supersymmetry algebra cohomology_  _I: Definition and general structure_  J. Math. Phys.51:122302, 2010, ([arXiv:0911.2118](http://arxiv.org/abs/0911.2118))
+
 
 For good math/physics discussion with special emphasis on the symplectic Majorana spinors and their role in the [[6d (2,0)-superconformal QFT]] see
 
-* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spiniors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
 [[!redirects spin representations]]
 
