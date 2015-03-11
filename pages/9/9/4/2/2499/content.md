@@ -262,21 +262,21 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
 * connection forms / field configuration
 
-  * $E \in \Omega^1(X,\mathbb{R}^{10,1})$ -- the **vielbein** (part of the _graviton field_)
+  * $E \in \Omega^1(X,\mathbb{R}^{10,1})$ -- the **[[vielbein]]** (part of the _[[graviton]] [[field (physics)|field]]_)
 
-  * $\Omega \in \Omega^1(X, \mathfrak{so}(10,1))$ -- the **spin connection** (part of the _graviton field_)
+  * $\Omega \in \Omega^1(X, \mathfrak{so}(10,1))$ -- the **[[spin connection]]** (part of the _[[graviton]] [[field (physics)|field]]_)
 
-  * $\Psi \in \Omega^ 1(X,S)$ -- the **spinor** (the gravitino field)
+  * $\Psi \in \Omega^ 1(X,S)$ -- the **[[spinor]]** (the [[gravitino]] [[field (physics)|field]])
 
-  * $C \in \Omega^3(X)$ -- a 3-form (the [[supergravity C-field]])
+  * $C \in \Omega^3(X)$ -- a [[differential 3-form]] (the [[supergravity C-field]])
 
 * [[curvature]] forms / [[field strength]]s
 
   * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{10,1})$ - the **[[torsion of a metric connection|torsion]]**
 
-  * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **Riemann curvature**
+  * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **[[Riemann curvature]]**
 
-  * $\rho = d \Psi + (\Omega \wedge \Psi) \in \Omega^2(X, S)$ -- the **covariant derivative of the spinor**
+  * $\rho = d \Psi + (\Omega \wedge \Psi) \in \Omega^2(X, S)$ -- the **[[covariant derivative]] of the [[spinor]]**
 
   * $G = d C + \mu_4(\psi, E) \in \Omega^4(X)$ -- the **4-form field strength**
 
