@@ -1,20 +1,15 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
-=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
-#### Chern-Weil theory
+#### Gravity
 +--{: .hide}
-[[!include infinity-Chern-Weil theory - contents]]
+[[!include gravity contents]]
 =--
 =--
 =--
@@ -75,6 +70,14 @@ we put this together and discuss supermanifolds equipped with super Cartan geome
 
 ### **1)** The geometric substance
  {#TheGeometricSubstance}
+
+1. _[Coordinate systems: super Cartesian spaces](#CoordinareSystemsSuperCartesianSpaces)_
+
+1. _[The geometric determinations](#TheGeometricDeterminations)_
+
+
+1. _[Principal bundles and Higher geometry](#PrincipalBundlesAndHigherGeometry)_
+
 
 
 #### Coordinate systems: super Cartesian spaces
@@ -431,6 +434,7 @@ we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
 
 
 #### The geometric determinations 
+ {#TheGeometricDeterminations}
 
 The [[sites]] considered above are related by a sequence of [[reflective 
 subcategory|reflections]] and [[coreflective subcategory|coreflections]] as follows
@@ -538,7 +542,7 @@ $$
   \,.
 $$
 
-+-- {: .num_remark }
++-- {: .num_remark #FromAdjunctionsToMonads}
 ###### Remark
 
 Any [[reflective subcategory]]
@@ -636,7 +640,7 @@ Let $X$ be any object in image of this total funcotr, and let $U \times D_s \in 
 +-- {: .num_cor #SystemOfModalities}
 ###### Corollary
 
-Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] 
+Passing, via remark \ref{FromAdjunctionsToMonads}, from the sequence of [[adjoint quadruples]] in prop. \ref{CoReflectonsOfToposes}, yields the following system of [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]]:
 
 
 $$
@@ -673,7 +677,11 @@ $$
   }
 $$
 
+where $\vee$ denotes inclusion of [[modal types]].
 
+=--
+
+We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
 * [[solidity]]
 
@@ -699,7 +707,6 @@ $$
 
   * **[[sharp modality]] $\sharp$**
 
-=--
 
 
 +-- {: .num_example }
@@ -777,6 +784,7 @@ $$
 
 =--
 
+There are some further relations between the modalities to take note of:
 
 +-- {: .num_prop #Sublations}
 ###### Proposition
@@ -817,9 +825,10 @@ $$
 =--
 
 #### Principal bundles and Higher geometry 
+ {#PrincipalBundlesAndHigherGeometry}
 
 
-The point of the system of modalities in corollary \ref{SystemOfModalities} is that they allow to carry various geometric [[theory]] across different [[models]] of geometry. If we formulate traditional [[Cartan geometry]] in $FormalSmooth0Type$ with just these operations, then we may just carry that verbatim to $SuperFormalSmooth0Type$ to get a theory of super-Cartan geometry.
+The point of the system of modalities in corollary \ref{SystemOfModalities} is that they allow to carry various geometric [[theory]] across different [[models]] of geometry. If we formulate traditional [[Cartan geometry]] in $FormalSmooth0Type$ with just these operations, then we may just carry that verbatim to $SuperFormalSmooth0Type$ to get a theory of super-Cartan geometry. This we get to below.
 
 In the same vein, we may increace the $n$ in $SuperFormalSmooth n Type$ to $n \gt 0$ and get [[higher Cartan geometry]]. 
 
@@ -855,12 +864,21 @@ $$
 =--
 
 
-### **2)** $G$-Structure and Cartan geometry
+### **2)** General Cartan geometry
  {#GStructureAndCartanGeometry}
 
-Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we briefly recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan geometry.
+Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan 
+geometry.
+
+1. _[V-Manifolds](#Manifolds)_
+
+1. _[Frame bundles](#FrameBundles)_
+
+1. _[G-Structure](#GStructure)_
 
 
+#### $V$-Manifolds
+ {#Manifolds}
 
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
@@ -884,7 +902,7 @@ is a [[pullback]] square.
 +-- {: .num_remark}
 ###### Remark
 
-This comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a local diffeo if the diagram of [[tangent bundles]]
+The abstract definition \ref{LocalDiffeomorphisms} comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a [[local diffeomorphism]] if the diagram of [[tangent bundles]]
 
 $$
   \array{
@@ -896,13 +914,23 @@ $$
   }
 $$
 
+To see this, notice by the discussion at _[[synthetic differential geometry]]_ that for $D$ an [[infinitesimally thickened point]], then for any $X \in \mathbf{H}$ the [[mapping space]] $[D,X]$ is the [[jet bundle]] of $X$ with jets of order as encoded by the infinitesimal order of $D$. In particular if $\mathbb{D}^1(1)$ is the first order infinitesimal interval defined by the fact that its [[algebra of functions]] is the [[algebra of dual numbers]] $C^\infty(\mathbb{D}^1(1)) = (\mathbb{R} \oplus \epsilon \mathbb{R})/(\epsilon^2)$, and $X$ is a [[smooth manifold]], then 
+
+$$
+  [\mathbb{D}^1(1), X]\simeq T X
+$$
+
+is the ordinary [[tangent bundle]] of $X$. Now use that the [[internal hom]] $[D,-]$ preserves [[limits]] in its second argument, and that, by the hom-adjunction, $\mathbf{H}(U, [D,X]) \simeq \mathbf{H}(U \times D, X)$ and finally use that $\mathbf{H}(U \times D, \Im X)\simeq \mathbf{H}(\Re(U \times D), X)\simeq \mathbf{H}(U,X)$.
+
+
 =--
+
+Let now $V \in \mathbf{H}$ be given, equipped with the structure of a [[group]] ([[infinity-group]]).
 
 +-- {: .num_defn #VManifold}
 ###### Definition
 
-Let $V \in \mathbf{H}$ be given, equipped with the structure of a [[group]]
-(typically an [[abelian group]]). Then a _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
+A _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
 
 $$
   \array{
@@ -965,11 +993,25 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 
 =--
 
+#### Frame bundles
+ {#FrameBundles}
+
++-- {: .num_defn #GeneralLinearGroup}
+###### Definition
+
+The _[[general linear group]]_ $GL(V)$ is the [[automorphism infinity-group]] of the [[infinitesimal neighbourhood]] $\mathbb{D}^V_e$, def. \ref{InfinitesimalDiskBundle}, of the neutral element $e \colon \ast \to \mathbb{D}^V_e \to V$:
+
+$$
+  GL(V) \coloneqq \mathbf{Aut}(\mathbb{D}^V_e)
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop #FrameBundle}
 ###### Proposition
 
-For $X$ a $V$-manifold, then its infinitesimal disk bundle,
+For $X$ a $V$-manifold, def. \ref{VManifold}, then its infinitesimal disk bundle $T_{inf} X \to X$,
 def. \ref{InfinitesimalDiskBundle}, is [[associated infinity-bundle|associated]]
 to a $GL(V)$-[[principal infinity-bundle|principal]] $Fr(X) \to X$ -- to be called the _[[frame bundle]]_, [[modulating morphism|modulated]] by a map to be called $\tau_X$, producing [[homotopy pullbacks]] of the form
 
@@ -997,7 +1039,7 @@ $$
 +-- {: .num_defn #Framing}
 ###### Definition
 
-A [[framing]] of a $V$-manifold is a trivialization of its [[frame bundle]], hence a lift of the form
+A [[framing]] of a $V$-manifold is a trivialization of its [[frame bundle]], prop. \ref{FrameBundle}, hence a diagram in $\mathbf{H}$ of the fomr
 
 $$
   \array{
@@ -1009,15 +1051,31 @@ $$
   }
 $$
 
+
+=--
+
++-- {: .num_remark #ModuliForFramings}
+###### Remark
+
+It is useful to express def. \ref{Framing} in terms of the [[slice topos]] $\mathbf{H}_{/\mathbf{B}GL(V)}$. Write $V\mathbf{Frame}\in \mathbf{H}_{/\mathbf{B}GL(V)}$ for the canonical morphism $\ast \to \mathbf{B}GL(V)$ regarded as an object in the slice. Then a framing as in def. \ref{Framing} is equivalently a morphism
+
+$$
+  \phi \colon \tau_X \longrightarrow V\mathbf{Frame}
+$$
+
+in $\mathbf{H}_{/\mathbf{B}GL(V)}$.
+
 =--
 
 +-- {: .num_prop #LeftTranslationFraming}
 ###### Proposition
 
-For $V$ equipped with the structure of a [[group object]], then $V$ regarded as a $V$-manifold carries a canonical framing, def. \ref{Framing}, induced by left translation. 
+The[[group object]] $V$, canonically regarded as a $V$-manifold, carries a canonical framing, def. \ref{Framing}, $\phi_{li}$, induced by left translation. 
 
 =--
 
+#### $G$-Structure
+ {#GStructure}
 
 +-- {: .num_defn #GStructure}
 ###### Definition
@@ -1030,18 +1088,31 @@ $$
     \\
     & {}_{\mathllap{\tau_X}}\searrow &\swArrow& \swarrow
     \\
-    & \mathbf{B}GL(V)
+    && \mathbf{B}GL(V)
   }
   \,.
 $$
 
+=--
+
++-- {: .num_remark #ModuliForGStructures}
+###### Remark
+
+As in remark \ref{ModuliForFramings}, it is useful to express def. \ref{GStructure} in terms of the [[slice topos]] $\mathbf{H}_{/\mathbf{B}GL(V)}$. Write $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(V)}$ for the given map $\mathbf{B}G\to \mathbf{B}GL(V)$ regarded as an object in the slice. Then a $G$-structure according to def. \ref{GStructure} is equivalently a choice of morphism in $\mathbf{H}_{/\mathbf{B}GL(V)}$ of the form
+
+$$
+  \mathbf{c} \;\colon\; \tau_X \longrightarrow G\mathbf{Struc}
+  \,.
+$$
+
+In other words, $G\mathbf{Struc} \in \mathbf{H}_{/\mathbf{B}GL(v)}$ is the _[[moduli stack]]_ for $G$-structures.
 
 =--
 
 +-- {: .num_example #GStructureFromLeftTranslationFraming}
 ###### Example
 
-A [[framing]] induces a [[G-structure]] for any $G$, via the composition
+A choice of [[framing]] $\phi$, def. \ref{Framing}, on a $V$-manifold $X$ induces a [[G-structure]] for any $G$, given by the [[pasting diagram]] in $\mathbf{H}$
 
 $$
   \array{
@@ -1051,17 +1122,26 @@ $$
      \\
      && \mathbf{B}GL(V)
   }
-  \,.
 $$
+
+or equivalently, via remark \ref{ModuliForFramings} and remark \ref{ModuliForGStructures}, given as the [[composition]]
+
+$$
+  \mathbf{c}_{li}
+  \;\colon\;
+  \tau_X \stackrel{\phi}{\longrightarrow} V\mathbf{Frame} \longrightarrow G\mathbf{Struc}\,.
+$$
+
+We call this the _left invariant $G$-structure_.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #IntegrabilityOfGStructure}
 ###### Definition
 
-For $V$ a [[group object]] and $X$ a $V$-manifold, then 
+For $X$ a $V$-manifold, then 
 a [[G-structure]] on $X$, def. \ref{GStructure}, is 
-_[[integrable G-structure|integrable]]_ if for any $V$-[[atlas]] $V \leftarrow U \rightarrow X$  the pullback of the $G$-structure on $X$ to $V$ is equivalent there to  the pullback of the canonical $G$-structure on $V$ of example \ref{GStructureFromLeftTranslationFraming}, i.e. if
+_[[integrable G-structure|integrable]]_ if for any $V$-[[atlas]] $V \leftarrow U \rightarrow X$  the pullback of the $G$-structure on $X$ to $V$ is equivalent there to  the left-inavariant $G$-structure on $V$ of example \ref{GStructureFromLeftTranslationFraming}, i.e. if we have an [[correspondence]] in the double [[slice topos]] $(\mathbf{H}_{/\mathbf{B}GL(V)})_{/G\mathbf{Struc}}$ of the form
 
 $$
   \array{
@@ -1071,14 +1151,14 @@ $$
      \\
      \tau_V && \swArrow && \tau_X
      \\
-     & {}_{\mathllap{\mathbf{c}_{LI}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     & {}_{\mathllap{\mathbf{c}_{li}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
      \\
      && G \mathbf{Struc}
   }
   \,.
 $$
 
-It is _infintesimally integrable_ if this holds true at least after restriction along the [[relative shape modality]] $\flat^{rel} U \to U$, def. \ref{RelativeFlat}, to all the infinitesimal disks in $U$:
+The $G$-structure is _infintesimally integrable_ if this holds true at at after restriction along the [[relative shape modality]] $\flat^{rel} U \to U$, def. \ref{RelativeFlat}, to all the infinitesimal disks in $U$:
 
 $$
   \array{
@@ -1088,7 +1168,7 @@ $$
      \\
      \tau_V && \swArrow && \tau_X
      \\
-     & {}_{\mathllap{\mathbf{c}_{LI}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     & {}_{\mathllap{\mathbf{c}_{li}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
      \\
      && G \mathbf{Struc}
   }
@@ -1097,9 +1177,33 @@ $$
 
 =--
 
++-- {: .num_defn #CartanGeometry}
+###### Definition
+
+
+Consider an [[infinity-action]] of $GL(V)$ on $V$ which linearizes to the canonical $GL(V)$-action on $\mathbb{D}^V_e$ by def. \ref{GeneralLinearGroup}. Form the [[semidirect product]] $GL(V) \rtimes V$. Consider any group homomorphism $G\to GL(V)$. 
+
+A _$(G\to G\rtimes V)$-[[Cartan geometry]]_ is a $V$-manifold $X$ equipped with a $G$-structure, def. \ref{GStructure}. The Cartan geometry is called _(infinitesimally) integrable_ if the $G$-structure is so, according to def. \ref{IntegrabilityOfGStructure}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $V$ an [[abelian group]], then in traditional contexts the infinitesimal integrability of def. \ref{IntegrabilityOfGStructure} comes down to the [[torsion of a G-structure]] vanishing. But for $V$ a [[nonabelian group]], this definition instead enforces that the torsion is on each [[infinitesimal disk]] the intrinsic left-invariant torsion of $V$ itself.
+
+Traditonally this is rarely considered, matching the fact that ordinary [[vector spaces]], regarded as [[translation groups]] $V$, are [[abelian groups]]. But [[super vector spaces]] regarded (in suitable dimension) as [[super translation groups]] are _[[nonabelian groups]]_ (we discuss this in detail below in _[The super-Klein geometry: super-Minkowski spacetime](#SuperMinkowskiSpacetime)_). Therefore super-vector spaces $V$ may carry intrinsic torsion, and therefore first-order integrable $G$-structures on $V$-manifolds are torsion-ful. 
+
+Indeed, this is a phenomenon known as the [[torsion constraints in supergravity]]. Curiously, as discussed there, for the case of [[11-dimensional supergravity]] the [[equations of motion]] of the gravity theory are _equivalent_ to the super-Cartan geometry satisfying this torsion constraint. This way super-Cartan geometry gives a direct general abstract route right into the heart of [[M-theory]].
+
+=--
+
+This we come to now in _[Super-Cartan geometry for Supergravity](#SuperCartanGeometry)_.
 
 ### **3)** Super-Cartan geometry for Supergravity
  {#SuperCartanGeometry}
+
+> under construction
 
 Above in _[The geometric substance](#TheGeometricSubstance)_ we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three levels of geometric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
 
@@ -1109,6 +1213,7 @@ Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Mi
 
 
 #### The super-Klein geometry: super-Minkowski spacetime
+ {#SuperMinkowskiSpacetime}
 
 we want to establish this analogy:
 
@@ -1301,7 +1406,7 @@ $$
   \mathbf{d} \theta^{\alpha_1}
 $$
 
-#### Cohomology of super-Minkowski spacetime
+#### Cohomology of super-Minkowski spacetime 
 
 Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the [[left-invariant 1-forms|left invariant]] [[super differential forms|super-differential 1-forms]] are
 
@@ -1375,9 +1480,11 @@ $$
     \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
 $$
 
-is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
+is a [[cocycle]]. 
 
 =--
+
+[[!include brane scan]]
 
 
 #### Cartan connections: Graviton and gravitino field
@@ -1487,7 +1594,7 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 
 * {#EgeilehChami13} [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
-A formalization as discussed above is considered in 
+The formalization as discussed above is from
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
 
