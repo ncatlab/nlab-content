@@ -41,9 +41,9 @@ $$
 
 ### De Rham complex of differential forms
 
-We discuss the [[de Rham complex]] of [[differential forms]] on a super Cartesian space. (See also at _[[signs in supergeometry]]_.)
+We discuss the [[de Rham complex]] of [[super differential forms]] on a super Cartesian space. (See also at _[[signs in supergeometry]]_.)
 
-Accordingly, by the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
+Accordingly, by the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
 
 $$
   \Omega^\bullet(\mathbb{R}^{p|q})
