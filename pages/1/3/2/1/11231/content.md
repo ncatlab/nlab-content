@@ -1,5 +1,5 @@
 
-* [webpage](http://en.wikipedia.org/wiki/Georg_Kreisel)
+* [Wikipedia](http://en.wikipedia.org/wiki/Georg_Kreisel)
 
 category: people
 
