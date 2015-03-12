@@ -36,7 +36,7 @@ While the specific terminology "super-Cartan geometry" is traditionally not used
 
 Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]] and uses terms such as "Einstein-Cartan theory" to refer to the [[first order formulation of gravity]] (e.g. [Nieuwenhuizen 81](#Nieuwenhuizen81)). But all of the literature on [[supergravity]] formulated this way in "superspace" is implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]]. The main point to be aware of is that physics literature in general tends to by default outright ignore all global issues (such as nontrivial [[principal bundles]]) and instead discuss these only when absolutely necessary as extra phenomena going by names such as _[[instantons]]_ and _[[anomalies]]_.
 
-With this understood, one physics references which explores the super-Cartan-geometric picture of [[supergravity]] in much detail is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (These authors in fact also make even the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at _[[D'Auria-Fré formulation of supergravity]]_), even though also these authors do not use this mathematical terminology. Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
+With this understood, one physics references which explores the super-Cartan-geometric picture of [[supergravity]] in much detail is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (In part I These authors speak of 'Poincar&#233; gravity'. In part II they make even the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at _[[D'Auria-Fré formulation of supergravity]]_). Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
 
 An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b)), which however seems to have gone unnoticed. (The only non-self citation to this article is in the list of references of the survey ([Nieuwenhuizen 81](#Nieuwenhuizen81)) which however does not actually refer the article in its text.) A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
 
@@ -1223,6 +1223,7 @@ Indeed, this is a phenomenon known as the [[torsion constraints in supergravity]
 
 This we come to now in _[Super-Cartan geometry for Supergravity](#SuperCartanGeometry)_.
 
+
 ### **3)** Super-Cartan geometry for Supergravity
  {#SuperCartanGeometry}
 
@@ -1234,25 +1235,431 @@ Then in _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ we hav
 
 Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Minkowski spacetimes]].
 
-1. _[The super-Klein geometry: super-Minkowski spacetime](#SuperMinkowskiSpacetime)_
+1. _[Super differential forms](#DeRhamComplexOfSuperDifferentialForms)_
 
-1. _[De Rham complex of super differential forms](#DeRhamComplexOfSuperDifferentialForms)_
+1. _[Super Lie algebra valued super differential forms](#SuperLieAlgebraValuedSuperDifferentialForms)_
 
-1. _[Cartan connections: Graviton and gravitino field](#GravitonAndGravitino)_
+1. _[Supersymmetry and Super-Minkowski spacetime](#SuperMinkowskiSpacetime)_
+
+1. _[Poincar&#233; connections: Graviton and gravitino field](#GravitonAndGravitino)_
 
 1. _[Cohomology of super Minkowski spacetime](#CohomologyOfSuperMinkowskiSpacetime)_
 
 
 
+#### Super differential forms
+ {#DeRhamComplexOfSuperDifferentialForms}
+
+Recall from def. \ref{SuperCartesianSpace}:
+
+A [[super Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]]
+of the [[commutative superalgebra]] 
+
+$$
+  C^\infty(\mathbb{R}^{p|q})
+  \coloneqq 
+  C^\infty(\mathbb{R}^p)\otimes_{\mathbb{R}}\wedge^\bullet \mathbb{R}^q
+$$
+
+in that a smooth function 
+$\mathbb{R}^{p_1|q_1}\longrightarrow \mathbb{R}^{p_2|q_2}$
+is equivalently (by definition!) a superalgebra homomorphism
+
+$$
+  C^\infty(\mathbb{R}^{p_1|q_1})
+  \longleftarrow
+  C^\infty(\mathbb{R}^{p_2|q_2})
+  \,.
+$$
+
+Notice then that from knowledge of an [[algebra of functions]]
+one obtains the corresponding [[de Rham complex]] by the idea
+of [[Kähler differentials]]. As discussed there, this statement requires
+a little care in the smooth context, but the result is still
+immediate:
+
+For $\mathbb{R}^n$ a [[Cartesian space]], then its [[de Rham complex]] is the $\mathbb{Z}$-graded commutative [[dg-algebra]] whose underlying $\mathbb{Z}$-[[graded vector space]] is
+
+$$
+  \Omega^\bullet(\mathbb{R}^p)
+  =
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet \langle \mathbf{d}x^1, \cdots, \mathbf{d}x^p\rangle
+$$
+
+and whose [[differential]] is defined in degree-0 by
+
+$$
+  \mathbf{d} f \coloneqq \sum_{i = 1}^p \frac{\partial f}{\partial x^i} \mathbf{d}x^i
+$$
+
+and extended from there to all degree by the graded Leibnitz rule.
+
+It is immediate to generalize this to the super-context, one just needs to be sure to apply the [[signs in supergeometry|sign rule]] throughout.
 
 
-#### The super-Klein geometry: super-Minkowski spacetime
- {#SuperMinkowskiSpacetime}
-
-+-- {: .num_defn}
++-- {: .num_defn #SuperDeRhamComplex}
 ###### Definition
 
-A [[super Lie algebra]] is 
+The de Rham complex of [[super differential forms]] $\Omega^\bullet(\mathbb{R}^{p|q})$ on a [[super Cartesian space]] $\mathbb{R}^{p|q}$ is the $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative algebra
+
+$$
+  \Omega^\bullet(\mathbb{R}^{p|q})
+  =
+  C^\infty(\mathbb{R}^{p|q}) 
+    \otimes_{\mathbb{R}} 
+   \wedge^\bullet \langle 
+      \mathbf{d}x^1, \cdots, \mathbf{d}x^p,
+      \; 
+      \mathbf{d}\theta^1, \cdots, \mathbf{d}\theta^q
+   \rangle
+$$
+
+whose [[differential]] is defined in degree-0 by
+
+$$
+  \mathbf{d} f \coloneqq \sum_{i = 1}^p \frac{\partial f}{\partial x^i} \mathbf{d}x^i
+$$
+
+and extended from there to all degree by the graded Leibnitz rule.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+We may write 
+
+$$
+  (n,\sigma)\in \mathbb{Z} \times \mathbb{Z}_2
+$$ 
+
+for elements in this bigrading group. 
+
+In this notation the grading of the elements in $\Omega^\bullet(\mathbb{R}^{p|q})$ is all induced by the fact that the de Rham differential $\mathbf{d}$ itself is a [[derivation]] of degree $(1,even)$.
+
+| generator | bi-degree |
+|--|--|
+| $x^a$ | (0,even) |
+| $\theta^\alpha$ | (0,odd) |
+| $\mathbf{d}$ | (1,even) |
+
+Here the last line means that we have
+
+| generator | bi-degree |
+|--|--|
+| $x^a$ | (0,even) |
+| $\theta^\alpha$ | (0,odd) |
+| $\mathbf{d}x^a$ | (1,even) |
+| $\mathbf{d}\theta^\alpha$ | (1,odd) |
+
+
+The formula for the "cohomologically- and super-graded commutativity" in $\Omega^\bullet(\mathbb{R}^{p|q})$ is 
+
+$$
+  \alpha \wedge \beta 
+  = 
+  \;
+  (- 1)^{n_\alpha n_\beta + \sigma_\alpha \sigma_\beta}
+  \;
+  \beta \wedge \alpha
+$$
+
+for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\mathbb{Z}\times \mathbb{Z}_2$-degree. Hence there are _two_ contributions to the sign picked up when exchanging two super-differential forms in the wedge product:
+
+1. there is a "cohomological sign" which for commuting a $n_1$-forms past an $n_2$-form is $(-1)^{n_1 n_2}$;
+
+1. in addition there is a "super-grading" sich which for commuting a $\sigma_1$-graded coordinate function past a $\sigma_2$-graded coordinate function (possibly under the de Rham differential) is $(-1)^{\sigma_1 \sigma_2}$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+
+$$
+  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
+$$
+
+
+$$
+  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
+$$
+
+$$
+  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
+   = 
+  - (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
+$$
+
+$$
+  \mathbf{d}x^{a_1}
+  \wedge
+  \mathbf{d} x^{a_2}
+  =
+  -
+  \mathbf{d} x^{a_2}
+  \wedge
+  \mathbf{d} x^{a_1}
+$$
+
+
+$$
+  \mathbf{d}x^a
+  \wedge
+  \mathbf{d} \theta^{\alpha}
+  =
+  -
+  \mathbf{d}\theta^{\alpha}
+  \wedge
+  \mathbf{d} x^a
+$$
+
+$$
+  \mathbf{d}\theta^{\alpha_1}
+  \wedge
+  \mathbf{d} \theta^{\alpha_2}
+  =
+  +
+  \mathbf{d}\theta^{\alpha_2}
+  \wedge
+  \mathbf{d} \theta^{\alpha_1}
+$$
+
+=--
+
+See at _[[signs in supergeometry]]_ for further discussion, for literature, and for mentioning of _another_ popular sign convention, which is different but in the end yields the same cohomology.
+
+
+#### Super Lie algebra valued super differential forms
+ {#SuperLieAlgebraValuedSuperDifferentialForms}
+
+
+We want to discuss the generalization of the concept of 
+[[Lie algebra valued differential forms]] from ordinary 
+[[differential geometry]] to [[supergeometry]]. To that end, 
+we first recall the following neat formulation of ordinary
+Lie algebra valued differential forms due to Cartan. This will lend itself
+in fact not only to the generalization to [[super Lie algebras]]
+but further to _[[super L-∞ algebras]]_, which is what is needed 
+for the desciption of higher dimensional [[supergravity]].
+
+
++-- {: .num_defn #CEAlgebra}
+###### Definition
+
+The _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ of a finite dimensional [[Lie algebra]] $\mathfrak{g}$ is the [[semifree dga|semifree]] graded-commutative [[dg-algebra]] whose underlying graded algebra is the [[Grassmann algebra]] 
+
+$$
+  \wedge^\bullet \mathfrak{g}^*
+  = 
+  k \oplus \mathfrak{g}^* \oplus (\mathfrak{g}^* \wedge \mathfrak{g}^* ) \oplus \cdots
+$$ 
+
+(with the $n$th skew-symmetrized power in degree $n$)
+
+and whose [[differential]] $d$ (of degree +1) is on $\mathfrak{g}^*$ the dual of the Lie bracket
+
+$$
+  d|_{\mathfrak{g}^*} := [-,-]^* : \mathfrak{g}^* \to \mathfrak{g}^* \wedge \mathfrak{g}^*
+$$
+
+extended uniquely as a graded [[derivation]] on $\wedge^\bullet \mathfrak{g}^*$.
+
+That this differential indeed squares to 0, $d \circ d = 0$, is precisely the fact that the Lie bracket satisfies the [[Jacobi identity]].
+
+=--
+
++-- {: .num_remark #CEAlgebraInTermsOfBasis}
+###### Remark
+
+If in the situation of prop. \ref{CEAlgebra} we choose a dual basis $\{t^a\}$ of $\mathfrak{g}^*$ and let $\{C^a{}_{b c}\}$ be the structure constants of the Lie bracket in that basis, then the action of the differential on the basis generators is
+
+$$
+  d t^a = - \frac{1}{2} C^a{}_{b c} t^b \wedge t^c
+  \,,
+$$
+
+where here and in the following a sum over repeated indices is implicit.
+
+=--
+
++-- {: .num_prop #CEIfFullyFaithful}
+###### Proposition
+
+The construction of Chevalley-Eilenberg algebras in def. \ref{CEAlgebra}
+yields a [[fully faithful functor]]
+
+$$
+  CE(-)
+  \colon
+  LieAlg
+  \longrightarrow
+  dgAlg^{op}
+$$
+
+embedding [[Lie algebras]] into [[formal duals]] of [[differential graded algebras]]. Its image consists of precisely of the [[semifree dg-algebras]], those whose underlying [[graded algebra]] (forgetting the [[differential]]) is a [[Grassmann algebra]] generated on a [[vector space]].
+
+=--
+
+
+
++-- {: .num_defn #WeilForLInfinitityAlgebra}
+###### Definition
+
+Given a [[Lie algebra]] $\mathfrak{g}$, its **[[Weil algebra]]** $W(\mathfrak{g})$ is the [[semi-free dga]] whose underlying graded-commutative algebra is the [[exterior algebra]]
+
+$$
+  \wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
+$$
+
+on $\mathfrak{g}^*$ and a shifted copy of $\mathfrak{g}^*$,
+and whose [[differential]] is the sum
+
+$$
+  d_{W(\mathfrak{g})} = d_{CE(\mathfrak{g})} + \mathbf{d}
+$$
+
+of two graded [[derivations]] of degree +1 defined by
+
+* $\mathbf{d}$ acts by degree shift $\mathfrak{g}^* \to \mathfrak{g}^*[1]$ on elements in $\mathfrak{g}^*$ and by 0 on elements of $\mathfrak{g}^*[1]$;
+
+* $d_{CE(\mathfrak{g})}$ acts on unshifted elements in $\mathfrak{g}^*$ as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ and is extended uniquely to shifted generators by graded-commutattivity 
+ 
+  $$
+    [d_{CE(\mathfrak{g}}, \mathbf{d}] = 0
+  $$
+
+  with $\mathbf{d}$:
+
+  $$
+    d_{CE(\mathfrak{g})} \mathbf{d} \omega :=
+    - \mathbf{d} d_{CE(\mathfrak{g})} \omega
+  $$
+
+  for all $\omega \in \wedge^1 \mathfrak{g}^*$.
+
+=--
+
+
+
++-- {: .num_prop #LieAlgValuedFormsViaDgAlgHoms}
+###### Proposition
+
+Given a [[Lie algebra]] $\mathfrak{g}$, then 
+a [[Lie algebra valued differential form]] on, say, 
+a [[Cartesian space]] $\mathbb{R}^n$, is 
+equivalently a dg-algebra homomorphims
+
+$$
+  \Omega^\bullet(\mathbb{R}^p)
+  \longleftarrow
+  W(\mathfrak{g})
+  \colon
+  A
+  \,,
+$$ 
+
+hence there is a [[natural bijection]]
+
+$$
+  \Omega^1(\mathbb{R}^p, \mathfrak{g})
+  \simeq
+  Hom_{dgAlg}(W(\mathfrak{g}), \Omega^\bullet(\mathbb{R}^p))
+  \,.
+$$
+
+The form $A$ is _flat_ in that its [[curvature]] [[differential 2-form]] $F_A$ vanishes, precisely if this morphism factors through the CE-algebra. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+With a choice of basis as in remark \ref{CEAlgebraInTermsOfBasis}, then the content of prop. \ref{LieAlgValuedFormsViaDgAlgHoms} is seen in components as follows:
+
+a dg-algebra homomorphism is first of all a homomorphism of [[graded algebras]], and since the domain $W(\mathfrak{g})$ is free as a graded algebra, such is entirely determined by what it does to the generators
+
+$$
+  \array{
+    t^a, &\mapsto& A^a & \in \Omega^1(\mathbb{R}^n)
+    \\ 
+    r^a &\mapsto& F^a & \in \Omega^2(\mathbb{R}^n)
+  }
+  \,.
+$$
+
+But being a dg-algebra homomorphism, this assignment needs to respect the differentials on both sides. For the original generators this gives
+
+$$
+  \array{
+    t^a &\mapsto&&&  A^a
+    \\
+    \downarrow^{\mathrlap{d_{W(\mathfrak{g})}}} &&&& \downarrow^{\mathrlap{\mathbf{d}_{dR}}}
+    \\
+    - \frac{1}{2} C^a{}_{b c} t^b \wedge t^c
+    + r^a
+    &\mapsto&
+    (- \frac{1}{2} C^a{}_{b c} A^b \wedge A^c + F^a)
+    &=&
+    \mathbf{d}_{dR} A^a 
+  }
+  \,.
+$$
+
+With this satisfied, then, by the very nature of the [[Weil algebra]],
+the differential is automatically respected also on the shifted generators. This statement is the _[[Bianchi identity]]_.
+
+=--
+
+Now to pass this to [[superalgebra]]. 
+
++-- {: .num_defn #SuperGrassmannAlgebra}
+###### Definition
+
+For $V = V_{even} \oplus V_{odd}$ a [[super vector space]], then its [[Grassmann algebra]] $\wedge^\bullet V$ is the free $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative algebra
+subject to
+
+$$
+  v_1 \wedge v_2 = (-1) (-1)^{\sigma_1 \sigma_2}
+  \,.
+$$
+
+=--
+
+In the spirit of prop. \ref{CEIfFullyFaithful} we may then simply say that:
+
++-- {: .num_defn #SuperLieAlgebraViaCE}
+###### Definition
+
+A [[super Lie algebra]] structure on a [[super vector space]] $\mathfrak{g}$ is 
+the [[formal dual]] of a $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative
+differential algebra 
+
+$$
+  CE(\mathfrak{g}) = \left(
+   \wedge^\bullet V^\ast, \; d
+  \right)
+$$ 
+
+(with differential $d$ of degree (1,even))
+such that the underlying graded algebra is the super Grassmann algebra
+$\wedge^\bullet \mathfrak{g}^\ast$ via def. \ref{SuperGrassmannAlgebra}.
+
+We call this again the [[Chevalley-Eilenberg algebra]] of the super Lie algebra
+dually defined thereby.
+
+Similarly, the [[Weil algebra]] $W(\mathfrak{g})$ is obtained from this by adding a generator in degree $(2,\sigma)$ for each previous generator in degree $(1,\sigma)$ and extending the differential as in def. \ref{WeilForLInfinitityAlgebra}.
+
+=--
+
+Unwinding what this means, one finds that it is equivalent to the 
+following more traditional definition:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] is equivalently
 
 1. a [[super vector space]] $\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
 
@@ -1264,19 +1671,85 @@ A [[super Lie algebra]] is
 
    which is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
 
-1. that satisfied the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),degz)\in \mathbb{Z}$ then
+1. that satisfied the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z)\in \mathbb{Z}_2$ then
 
    $$
-     [x, [y, z]] = [[x,y],z] + (-1)^{deg(x)\cdot deg(y)} [y, [x,z]]
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
      \,.
    $$
 
 =--
 
+But with def. \ref{SuperLieAlgebraViaCE} we immediately known, in view of 
+prop. \ref{LieAlgValuedFormsViaDgAlgHoms}, what _super Lie algebra valued super differential forms_ should be:
+
++-- {: .num_defn #SuperLieAlgValuedDiffForms}
+###### Definition
+
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, def. \ref{SuperLieAlgebraViaCE}, prop. \ref{SuperLieAlgebraTraditional}, then a $\mathfrak{g}$-valued super-differential form on the [[super Cartesian space]] $\mathbb{R}^{p|q}$ is a $(\mathbb{Z},\mathbb{Z}_2)$-graded dg-algebra homomorphism
+
+$$
+  \Omega^\bullet(\mathbb{R}^{p|q})
+  \longleftarrow
+  W(\mathfrak{g})
+  \;\colon\;
+  A
+$$
+
+from the [[Weil algebra]] according to def. \ref{SuperLieAlgebraViaCE}, to the super de Rham complex of def. \ref{SuperDeRhamComplex}.
+
+Accordingly we write
+
+$$
+  \Omega^1(\mathbb{R}^{p|q}, \mathfrak{g})
+  \coloneqq
+  Hom_{dgAlg}(W(\mathfrak{g}), \Omega^\bullet(\mathbb{R}^{p|q}))
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Let $\mathfrak{g} \coloneqq \mathbb{R}^{1|0} = \mathbb{R}$ be the ordinary abelian [[line Lie algebra]].
+Then
+
+$$
+  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{1|0})
+  \simeq
+  \Omega^1(\mathbb{R}^{p|q})_{even}
+$$
+
+is the set of super-differential forms in degree $(1,even)$.
+
+Similarly with $\mathfrak{g} = \mathbb{R}^{0|1}$ the [[odd line]] regarded as an abelian super Lie algebra, then
+
+$$
+  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{0|1})
+  \simeq
+  \Omega^1(\mathbb{R}^{p|q})_{odd}
+ \,.
+$$
+
+So generally for $\mathfrak{g}$ an ordinary Lie algebra regarded as a super Lie algebra, then $\Omega^1(\mathbb{R}^{p|q}, \mathfrak{g})$ is bigger than $\Omega^1(\mathbb{R}^p,\mathfrak{g})$.
+
+This is an issue to be dealt with when describing [[supergravity]] in terms of Cartan fields on [[supermanifolds]] $X$, because the actual [[spacetime]] manifold one cares about is just the [[bosonic modality|bosonic part]] $\stackrel{\rightsquiqarrow}{X}$. This issue is deal with by the concept of [rheonomy](D%27Auria-Fre+formulation+of+supergravity#Rheonomy).
+
+
+=--
+
+
+#### Supersymmetry and Super-Minkowski spacetime
+ {#SuperMinkowskiSpacetime}
+
+We consider now very specific [[super Lie algebras]], def. \ref{SuperLieAlgebraViaCE}, those of _[[supersymmetry]]_.
+
 Just as traditional [[Cartan geometry]] involves a pair of [[Lie algebras]] $\mathfrak{h} \hookrightarrow \mathfrak{g}$, so super-Cartan geometry involves a similar pair of [[super Lie algebras]].
-
-
-We want to establish an [[superalgebra]]-[[analogy|analog]] of the inclusion of the [[Lorentz Lie algebra]] $\mathfrak{h} = \mathfrak{so}(\mathbb{R}^{d-1,1})$ into the [[Poincaré Lie algebra]] $\mathfrak{g} = \mathfrak{Iso}(\mathbb{R}^{d-1,1})$.
+For describing [[supergravity]], we now
+want to establish an [[superalgebra]]-[[analogy|analog]] of the inclusion of the [[Lorentz Lie algebra]] $\mathfrak{h} = \mathfrak{so}(\mathbb{R}^{d-1,1})$ into the [[Poincaré Lie algebra]] $\mathfrak{g} = \mathfrak{Iso}(\mathbb{R}^{d-1,1})$.
 
 | ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
 |---------------------|----------------|----------------|-----------------------------|
@@ -1381,7 +1854,7 @@ Its [[Lie integration]] to a [[super Lie group]] is the
 The [[quotient]] of that by the [[spin group]] is [[super-Minkowski spacetime]]
 
 $$
-  \mathbb{R}^{d-1,1|N} \coloneqq \mathfral{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{so}(\mathbb{R}^{d-1,1|N})
+  \mathbb{R}^{d-1,1|N} \coloneqq \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{so}(\mathbb{R}^{d-1,1|N})
   \,.
 $$
 
@@ -1396,143 +1869,12 @@ The space underlying the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in
 
 
 
-#### De Rham complex of super differential forms
- {#DeRhamComplexOfSuperDifferentialForms}
-
-Since signs play some role in this business, we pause to 
-discuss the [[de Rham complex]] of [[super differential forms]] on a [[super Cartesian space]], def. \ref{SuperCartesianSpace}
-(see at _[[signs in supergeometry]]_ for more).
-
-By the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
-
-$$
-  \Omega^\bullet(\mathbb{R}^{p|q})
-  = 
-  C^\infty(\mathbb{R}^{p|q})
-  \left[
-   \left\{
-     \mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} 
-     \wedge 
-     \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}
-   \right\}
-  \right]
-  \,.
-$$
-
-This [[de Rham complex]] now carries the structure of a 
-
-* differential graded-commutative graded commutative superalgebra 
-
-which should be thought of as bracketet as follows
-
-* differential graded-commutative graded (commutative superalgebra).
-
-This means in effect that elements of $\Omega^\bullet(\mathbb{R}^{p|q})$ carry a $\mathbb{Z} \times \mathbb{Z}_2$-[[graded object|grading]], where we may say that 
-
-* $\mathbb{Z}$ corresponds to the "cohomological grading";
-
-* $\mathbb{Z}_2$ corresponds to the super-grading.
-
-We write 
-
-$$
-  (n,\sigma)\in \mathbb{Z} \times \mathbb{Z}_2
-$$ 
-
-for elements in this grading group. 
-
-In this notation the grading of the elements in $\Omega^\bullet(\mathbb{R}^{p|q})$ is all induced by the fact that the de Rham differential $\mathbf{d}$ itself is a [[derivation]] of degree $(1,even)$.
-
-| generator | bi-degree |
-|--|--|
-| $x^a$ | (0,even) |
-| $\theta^\alpha$ | (0,odd) |
-| $\mathbf{d}$ | (1,even) |
-
-Here the last line means that we have
-
-| generator | bi-degree |
-|--|--|
-| $x^a$ | (0,even) |
-| $\theta^\alpha$ | (0,odd) |
-| $\mathbf{d}x^a$ | (1,even) |
-| $\mathbf{d}\theta^\alpha$ | (1,odd) |
 
 
-The formula for the "cohomologically- and super-graded commutativity" in $\Omega^\bullet(\mathbb{R}^{p|q})$ is 
-
-$$
-  \alpha \wedge \beta 
-  = 
-  \;
-  (- 1)^{n_\alpha n_\beta + \sigma_\alpha \sigma_\beta}
-  \;
-  \beta \wedge \alpha
-$$
-
-for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\mathbb{Z}\times \mathbb{Z}_2$-degree. Hence there are _two_ contributions to the sign picked up when exchanging two super-differential forms in the wedge product:
-
-1. there is a "cohomological sign" which for commuting a $p_1$-forms past a $p_2$-form is $(-1)^{p_1 p_2}$;
-
-1. in addition there is a "super-grading" sich which for commuting a $\sigma_1$-graded coordinate function past a $\sigma_2$-graded coordinate function (possibly under the de Rham differential) is $(-1)^{\sigma_1 \sigma_2}$.
-
-
-Some examples:
-
-$$
-  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
-$$
-
-
-$$
-  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
-$$
-
-$$
-  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
-   = 
-  - (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
-$$
-
-$$
-  \mathbf{d}x^{a_1}
-  \wedge
-  \mathbf{d} x^{a_2}
-  =
-  -
-  \mathbf{d} x^{a_2}
-  \wedge
-  \mathbf{d} x^{a_1}
-$$
-
-
-$$
-  \mathbf{d}x^a
-  \wedge
-  \mathbf{d} \theta^{\alpha}
-  =
-  -
-  \mathbf{d}\theta^{\alpha}
-  \wedge
-  \mathbf{d} x^a
-$$
-
-$$
-  \mathbf{d}\theta^{\alpha_1}
-  \wedge
-  \mathbf{d} \theta^{\alpha_2}
-  =
-  +
-  \mathbf{d}\theta^{\alpha_2}
-  \wedge
-  \mathbf{d} \theta^{\alpha_1}
-$$
-
-
-#### Cartan connections: Graviton and gravitino field
+#### Poincar&#233; connections: Graviton and gravitino field
  {#GravitonAndGravitino}
 
-the [[super Poincaré Lie algebra]]
+We may now apply the general discussion of super Lie algebra valued super differential forms, def. \ref{SuperLieAlgValuedDiffForms}, to the case of the [[super Poincare Lie algebra]], def. \ref{SuperPoincareAndSuperMinkowski}.
 
 its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ is generated on 
 
@@ -1573,14 +1915,7 @@ $$
 $$
 
 
-A local field configuration on a [[supermanifold]] $X$ in the [[classical field theory]] is a morphism
- 
-$$
-  T X \stackrel{(A, F_A)}{\to}
-  inn(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))
-$$
-
-from the [[tangent Lie algebroid]] to the inner-derivation Lie 4-algebra $inn(\mathfrak{sugra}(10,1))$, defined as the formal dual of the [[Weil algebra]] of $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$). So dually this is a morhism of [[dg-algebras]] from the [[Weil algebra]] $W(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ to the [[deRham dg-algebra]] $\Omega^\bullet(X)$ of $X$:
+Differential form data with values in this is a morphism of [[dg-algebras]] from the [[Weil algebra]] $W(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ to the [[deRham dg-algebra]] $\Omega^\bullet(\mathbb{R}^{p|q})$, def. \ref{SuperDeRhamComplex}
 
 $$
   \Omega^\bullet(X)
