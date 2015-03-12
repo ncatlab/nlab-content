@@ -1227,7 +1227,6 @@ This we come to now in _[Super-Cartan geometry for Supergravity](#SuperCartanGeo
 ### **3)** Super-Cartan geometry for Supergravity
  {#SuperCartanGeometry}
 
-> under construction
 
 Above in _[The geometric substance](#TheGeometricSubstance)_ we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three levels of geometric structure in supergeometry: smooth structure, infinitesimal thickening and fermionic odd grading.
 
@@ -1813,7 +1812,7 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 The last column in prop. \ref{RealSpinRepresentations} implies that in each dimension there exists a [[linear map]]
 
 $$
-  \Gamma \;\colon\; S^\ast \otimes S^\ast \longrightarrow \mathbb{R}^{d-1,1}
+  \overline{(-)}\Gamma(-) \;\colon\; S^\ast \otimes S^\ast \longrightarrow \mathbb{R}^{d-1,1}
 $$
 
 which is 
@@ -1951,6 +1950,128 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 #### Cohomology of super-Minkowski spacetime 
  {#CohomologyOfSuperMinkowskiSpacetime}
 
+The [[Chevalley-Eilenberg algebras]] which in def. \ref{CEAlgebra} and def. \ref{SuperLieAlgebraViaCE} we used to _characterize_ the corresponding (super) Lie algebras are of course traditionally introduced as the [[cochain complexes]] whose [[cochain cohomology]] is [[Lie algebra cohomology]]. We may conceptualize this as follows:
+
++-- {: .num_defn #SiteCartSp}
+###### Definition
+
+For $n \in \mathbb{N}$ write $\mathbb{R}^{1|0}[n]$ for the _[[line Lie n-algebra|line Lie (n+1)-algebra]]_, the [[super L-infinity algebra]] defined simply as the [[formal dual]] to the $(\mathbb{Z},\mathbb{Z}_2)$-graded commutative [[dg-algebra]]
+
+$$
+  CE(\mathbb{R}^{1|0}[n]) \coloneqq
+  \left(
+    \wedge^\bullet \mathbb{R}^{1|0}[n],
+    \;
+    d = 0
+  \right)
+$$
+
+whose underlying [[graded algebra]] is freely generated from a single generator in degree $(n,even)$, and whose differential vanishes.
+
+=--
+
++-- {: .num_remark #LieAlgebraCohomologAsHomomorphism}
+###### Remark
+
+Recall that being a "[[formal dual]]" to a dg-algebra here simply means that for $\mathfrak{g}$ any [[super Lie algebra]], the homomorphisms of [[super L-infinity algebras]] of the form
+
+$$
+  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathbb{R}^{1|0}[n]
+$$
+
+are equivalently (by definition!) homomorphisms of [[dg-algebras]] of the form
+
+$$
+  CE(\mathfrak{g})
+  \longleftarrow
+  CE(\mathbb{R}^{1|0}[n])
+  \,.
+$$ 
+
+Since the underlying graded algebra of $CE(\mathbb{R}^{1|0}[n])$ is free on a single generator $c$ in degree $n+1$, such a homomorphism is determined by the image of this generator
+
+$$
+  c \mapsto \mu \in CE(\mathfrak{g})
+  \,.
+$$
+
+Moreover, the condition that this map respects the differentials, and since the differential on $CE(\mathbb{R}^{1|0}[n])$ vanishes by definition, this means that
+
+$$
+  \array{
+     c &\mapsto& && \mu
+     \\
+     \downarrow^{\mathrlap{d_{\mathbb{R}^{1|0}[n]}}}
+     && &&
+    \downarrow^{\mathrlap{d_{\mathfrak{g}}}}
+     \\
+     0 &\mapsto& 0 &=& d_{\mathfrak{g}}\mu
+  }
+  \,.
+$$
+
+Hence such a moprhism $\mu$ is equivalently a _closed_ element of degree $(n+1)$ in $CE(\mathfrak{g})$, hence is equivalently a [[Lie algebra cohomology|super Lie algebra cocycle]] of degree $n+1$ on $\mathfrak{g}$.
+
+This way [[line Lie n-algebra|line Lie (n+1)-algebra]] $\mathbb{R}^{1|0}[n]$ is the _[[moduli object]]_ for degree-$(n+1)$ Lie algebra cohomology in direct [[analogy]] of how for instance the familiar [[Eilenberg-MacLane space]] $B^{n+1}\mathbb{R} = K(\mathbb{Z},n+1)$ is the classifying space for degree $n+1$ [[ordinary cohomology]] of [[topological spaces]].
+
+=--
+
+One advantange of conceptualizing Lie algebra cocycles as in remark \ref{LieAlgebraCohomologAsHomomorphism} is that it neatly connects to the formulation of [[Lie algebra valued forms]] according to def. \ref{LieAlgValuedFormsViaDgAlgHoms}, def. \ref{SuperLieAlgValuedDiffForms}:
+
+
++-- {: .num_remark }
+###### Remark
+
+A $\mathbb{R}^{1|0}[n]$-valued differential form is simply an even closed differential $(n+1)$-form:
+
+$$
+  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{1|0}[n])
+  \simeq
+  Hom(CE(\mathbb{R}^{1|0}[n]), \Omega^\bullet(\mathbb{R}^{p|q}))
+  \simeq
+  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
+  \,.
+$$
+
+Hence a super Lie algebra $(n+1)$-cocycle $\mu$ on 
+$\mathfrak{g}$ naturally determines a map
+
+
+$$
+  \mu(-)
+  \colon
+  \Omega^1(\mathbb{R}^{p|q},\mathfrak{g})
+  \longrightarrow
+  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
+$$
+
+given by forming the composite with the morphism representing the cocycle $\mu$
+
+$$
+  \left(
+    \Omega^\bullet(\mathbb{R}^{p|q})
+     \stackrel{A}{\longleftarrow}
+  CE(\mathfrak{g})
+  \right)
+  \mapsto
+  \left(
+  \Omega^\bullet(\mathbb{R}^{p|q})
+   \stackrel{A}{\longleftarrow}
+  CE(\mathfrak{g})
+  \stackrel{\mu^\ast}{\longleftarrow}
+  CE(\mathbb{R}^{1|0}[n])
+  \right)
+$$
+
+sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$.
+
+
+=--
+
+But an even closed $(n+1)$-form on $\mathbb{R}^{p|q}$ depending on other field data may be understood as the [[WZW term]] in a [[local Lagrangian]] for the [[sigma-model]] of an $(n-1)$-[[brane]] propagating on $\mathbb{R}^{p|q}$. Therefore it is of key interest to classify these for the case that $\mathfrak{g}$ is a [[super Minkowski spacetime]].
+
+
+
 Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ underlying the super translation group. Then the [[left-invariant 1-forms|left invariant]] [[super differential forms|super-differential 1-forms]] are
 
 * $\psi^\alpha = \mathbf{d} \theta^\alpha$.
@@ -1969,6 +2090,8 @@ $$
   \end{aligned}
   \,.
 $$
+
+These relation consistute $CE(\mathbb{R}^{d-1,1|N})$.
 
 
 +-- {: .num_remark }
@@ -2026,15 +2149,45 @@ is a [[cocycle]].
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+Lorentz-invariant super Lie algebra cocycles on a 
+[[super Minkowski spacetime]] [[super translation Lie algebra]]
+$\mathbb{R}^{d-1,1|N}$ in degree $(p+2)$ appear precisely 
+once (up to scalar multiple) for each combination $(d,p,N)$
+for which in [[string theory]] there is a [[super p-brane]]
+propagating on a $d$-dimensional [[supergravity]] background
+with $N$-[[supersymmetries]].
+
 [[!include brane scan]]
+
+=--
 
 #### Definite super-froms
 
-(...)
+In order to extend these [[super p-brane]] [[sigma models]]
+not just on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ but on a
+$\mathfrak{so}(\mathbb{R}^{d-1,1|N})\hookrightarrow 
+\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$-super Cartan geometry,
+the corresponding cocycle form from the [[brane scan]]
+above needs to be extended as a [[definite form]] over this spacetime.
 
-[[definite form]], [[super p-brane]], [[parameterized WZW model]]
+This is a direct supergeometry analog of how a [[G2-manifold]]
+is a 7-manifold equipped with a [[definite form]] that is definite
+on the [[associative 3-form]] on $\mathbb{R}^7$.
 
-(...)
+In fact this is just a necessary condition, giving the 
+globalization of the [[curvature]] of the [[WZW term]].
+The full [[WZW term]] is a higher [[Super Gerbes]] which is a
+[[higher prequantization]] of this cocycle, and 
+hence its definition requires the lift of the definite cocycle form
+to a [[parameterized WZW model]] over superspacetime.
+
+Discussion of this [[classical anomaly]]-cancellation problem 
+for [[super p-branes]] on curved supergravity targets
+is the content at _[[schreiber:Higher Cartan Geometry]]_.
+
 
 
 ## References
