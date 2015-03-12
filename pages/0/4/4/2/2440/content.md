@@ -13,7 +13,7 @@
 =--
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -44,12 +44,12 @@ This means that a super Lie algebra is
      [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
    $$
 
-   that is _graded_ skew-symmetric: is is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
+   that is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
 
-1. that satisfied the $\mathbb{Z}_2$-graded Jacobi identity:
+1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three element $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),degz)\in \mathbb{Z}$ then
 
    $$
-     [x, [y, z]] = [[x,y],z] + (-1)^{deg x deg y} [y, [x,z]]
+     [x, [y, z]] = [[x,y],z] + (-1)^{deg(x)\cdot deg(y)} [y, [x,z]]
      \,.
    $$
 
@@ -58,7 +58,7 @@ This means that a super Lie algebra is
 +-- {: .num_note}
 ###### Note
 
-Equivalently, a super Lie algebra is a "super-representable" Lie algebra internal to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super point]]s. 
+Equivalently, a super Lie algebra is a "super-representable" Lie algebra internal to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]]. 
 
 See the discussion at [[superalgebra]] for details on this.
 
