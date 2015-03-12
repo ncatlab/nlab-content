@@ -132,7 +132,7 @@ gravity_, Prog. Theor. Exp. Phys. 2013, 123B04 ([pdf](http://ptep.oxfordjournals
 
 * {#FerrarKehagias14} Sergio Ferrara, [[Alex Kehagias]], _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:org](http://arxiv.org/abs/1407.5187))
 
-* {#DFKRU14} [[Ioannis Dalianis]], [[Fotis Farakos]], [[Alex Kehagias]], A. Riotto, R. von Unge, _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
+* {#DFKRU14} [[Ioannis Dalianis]], [[Fotis Farakos]], [[Alex Kehagias]], A. Riotto, [[Rikard von Unge]], _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
 
 
 * {#DalianisFarakos15} [[Ioannis Dalianis]], [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_ ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
