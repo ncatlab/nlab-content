@@ -274,9 +274,9 @@ $$Sub: E^{op} \to Set$$
 which takes an object $F$ of $E$ to the collection of subobjects of $F$, $Sub(F)$. In other words, $Sub(F) \cong \hom_E(F, \Omega)$. Applied to $F = \hom_C(-, c)$, we have then 
 $$Sub(\hom_C(-, c)) \cong \hom_{Set^{C^{op}}}(\hom_C(-, c), \Omega) \stackrel{Yoneda}{\cong} \Omega(c)$$ 
 In other words, we find that the functor $\Omega: C^{op} \to Set$ is defined by 
-$$\Omega(c) = \{sieves on c\}$$ 
+$$\Omega(c) = \{sieves\,on\,c\}$$ 
 
-Next, if $J$ is a Grothendieck topology on $C$, then the collection of $J$-covering sieves on $c$ [which we denote by $J(c)$] is a subcollection of all sieves on $c$, and so we have an inclusion 
+Next, if $J$ is a Grothendieck topology on $C$, then the collection of $J$-covering sieves on $c$ (which we denote by $J(c)$( is a subcollection of all sieves on $c$, and so we have an inclusion 
 $$J(c) \hookrightarrow \Omega(c)$$ 
 and this inclusion is natural in $c$, by virtue of the first axiom on covering sieves. Thus we have a subobject
 $$J \hookrightarrow \Omega$$ 
