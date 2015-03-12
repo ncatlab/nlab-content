@@ -8,7 +8,7 @@
 
 The notion of coring is a generalization of that of [[coalgebra]]. 
 
-Whereas a coalgebra structure is defined on a [[vector space]] -- which may be regarded as a [[bimodule]] over the ground field -- a coring structure is defined on a bimodule over a general [[ring]].
+Whereas a coalgebra structure is often defined on a [[vector space]] -- which may be regarded as a [[bimodule]] over the ground field -- a coring structure is defined on a bimodule over a general [[ring]].
 
 
 ## Definition
