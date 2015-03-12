@@ -204,7 +204,21 @@ In other words, for two [[Cartesian spaces]] $X,Y$ there is a [[natural bijectio
 
 See at _[[embedding of smooth manifolds into formal duals of R-algebras]]_ for more on this.
 
-It is an observation from [[experiment]], originating in the [[Stern-Gerlach experiment]], that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] ony commute with each other up to picking up a minus sign. 
++-- {: .num_remark}
+###### Remark
+
+One has to be careful that prop. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} might seem to imply more than it does. In order that all constructions on algebras have the desired dual effect on spaces (e.g. construction of [[products]]/[[coproducts]], or construction of [[Kähler differentials]]) one needs to refine plain commutative algebras over $\mathbb{R}$ to _[[smooth algebras]]_. See there for more. 
+
+=--
+
+Now to pass to [[superalgebra]]
+
++-- {: .num_remark}
+###### Remark
+
+It is an observation from [[experiment]] (from the [[Stern-Gerlach experiment]] via the [[spin-statistics theorem]]), that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] only commute with each other up to picking up a minus sign. 
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
