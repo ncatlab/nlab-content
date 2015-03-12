@@ -1,6 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
-The first observation of the [[spin]] of [[fermions]]. Hence, mathematically, of [[supergeometry]].
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Stern-Gerlach experiment_ was the first [[experimental observation]] of the elementary [[spin]] $\frac{1}{2}$ of [[fermions]]. 
+
+## Implications
+
+Via the [[Pauli exclusion principle]], hence the [[spin-statistics theorem]], this implies that [[wavefunctions]] depending on fermionic variable commute with each other only up to a sign, forming a commutative [[superalgebra]]. This way the Stern-Gerlach experiment is ultimately the observation that physical reality is described by [[supergeometry]]. (Notice that there is [[supergeometry]] independently of [[supersymmetry]], which may or may not be present in addition).
 
 ## References
 
