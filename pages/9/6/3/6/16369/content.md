@@ -38,6 +38,37 @@ $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense su
 
 ([Johnstone, below Corollary 4.5.20](#Johnstone02))
 
+### (Dense,Closed)-Factorization
+
+A [[geometric embedding]] of [[elementary toposes]]
+
+$$
+  Sh_j(\mathcal{E}) \hookrightarrow \mathcal{E}
+$$
+
+
+factors as
+
+$$
+  Sh_j(\mathcal{E}) 
+    \hookrightarrow
+  Sh_{c(ext(j))} 
+    \hookrightarrow
+  \mathcal{E}
+$$
+
+where $ext(j)$ (the "exterior" of $j$) denotes the $j$-closure of $\emptyset \hookrightarrow \ast$ and 
+
+$$
+  \bar j \coloneqq c(ext(j))
+$$ 
+
+the corresponding [[closure operator]].
+
+Here the first inclusion exhibits a dense subtopos and the second a [[closed subtopos]].
+
+This is the _[[(dense,closed)-factorization]]_.
+
 
 ### Relation to Aufhebung
 
