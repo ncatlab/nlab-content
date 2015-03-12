@@ -1659,7 +1659,7 @@ is a [[cocycle]].
 
 (...)
 
-[[definite form]], [[super p-brane]], [[parameteriedz WZW model]]
+[[definite form]], [[super p-brane]], [[parameterized WZW model]]
 
 (...)
 
