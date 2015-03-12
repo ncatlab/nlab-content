@@ -117,7 +117,7 @@ for the [[sheaf topos]] of all these.
 +-- {: .num_remark}
 ###### Remark
 
-The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth function from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
+The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
 
 Under the [[Yoneda embedding]] 
 
@@ -134,9 +134,9 @@ $$
 
 Hence the set that the Cartesian space $X$, regarded as a sheaf, assigns to a coordinate system $\mathbb{R}^n$ is just the set of all ways of mapping that coordinate system smoothly into $X$.
 
-Hence given any $X \in Smooth0Type$, we are entitled to think of it as a [[generalized smooth space]] which need not be given as a [[set]] equipped with [[smooth structure]], but whose nature we instead we detect or _probe_ by mapping Cartesian spaces into it: given  $\mathbb{R}^n$ then we think of the set $X(\mathbb{R}^n)$ which $X$, being a [[sheaf]] on [[CartSp]], assigns, as playing the role of the set of all smooth functions "$\mathbb{R}^n \longrightarrow X$" into the would-be space $X$. 
+Hence given any $X \in Smooth0Type$, we are entitled to think of it as a [[generalized smooth space]] which need not be given as a [[set]] equipped with [[smooth structure]], but whose nature instead we detect or _probe_ by mapping Cartesian spaces into it: given  $\mathbb{R}^n$ then we think of the set $X(\mathbb{R}^n)$, which the sheaf $X$ assigns, as playing the role of the set of all smooth functions "$\mathbb{R}^n \longrightarrow X$" into the would-be space $X$. 
 
-The [[Yoneda lemma]] gives that this is not circular, but consistent: once we identify Cartesian spaces themselves as smooth spaces via the Yoneda embedding, then the previous statement becomes literally true and we may remove the quotation marks:
+The [[Yoneda lemma]] gives that this is not circular, but consistent: once we identify Cartesian spaces themselves as smooth spaces via the [[Yoneda embedding]], then the previous statement becomes literally true and we may remove the quotation marks:
 
 $$
   X(\mathbb{R}^n)
@@ -207,11 +207,11 @@ See at _[[embedding of smooth manifolds into formal duals of R-algebras]]_ for m
 +-- {: .num_remark}
 ###### Remark
 
-One has to be careful that prop. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} might seem to imply more than it does. In order that all constructions on algebras have the desired dual effect on spaces (e.g. construction of [[products]]/[[coproducts]], or construction of [[Kähler differentials]]) one needs to refine plain commutative algebras over $\mathbb{R}$ to _[[smooth algebras]]_. See there for more. 
+One has to be careful that prop. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} might seem to imply more than it does. In order that all constructions on all commutative algebras have the desired dual effect on formally dual smooth spaces (e.g. construction of [[products]]/[[coproducts]], or construction of [[Kähler differentials]]) one needs to refine plain commutative algebras over $\mathbb{R}$ to _[[smooth algebras]]_. See there for more on this point, which however for our purposes here is not of further concern. 
 
 =--
 
-Now to pass to [[superalgebra]]
+Now to pass to [[superalgebra]]:
 
 +-- {: .num_remark}
 ###### Remark
@@ -223,7 +223,7 @@ It is an observation from [[experiment]] (from the [[Stern-Gerlach experiment]] 
 +-- {: .num_defn}
 ###### Definition
 
-A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by
+A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by ([[Ausdehnunglehre|Grassmann 1844, §37, §55]])
 
 $$
   a \cdot b = (-1)^{deg(a) deg(b)} b \cdot a
@@ -1228,9 +1228,9 @@ This we come to now in _[Super-Cartan geometry for Supergravity](#SuperCartanGeo
 
 > under construction
 
-Above in _[The geometric substance](#TheGeometricSubstance)_ we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three levels of geometric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
+Above in _[The geometric substance](#TheGeometricSubstance)_ we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three levels of geometric structure in supergeometry: smooth structure, infinitesimal thickening and fermionic odd grading.
 
-Then in _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ we have used these [[modal operators]] to formulate Cartan geometry on $V$-manifold, def. \ref{VManifold}, for any given local model group space $V$.
+Then in _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ we have used these [[modal operators]] to formulate Cartan geometry on $V$-manifolds, def. \ref{VManifold}, for any given local model group space $V$.
 
 Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Minkowski spacetimes]].
 
@@ -1246,19 +1246,43 @@ Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Mi
 
 
 
-
-
-
 #### The super-Klein geometry: super-Minkowski spacetime
  {#SuperMinkowskiSpacetime}
 
-We want to establish this analogy:
++-- {: .num_defn}
+###### Definition
+
+A [[super Lie algebra]] is 
+
+1. a [[super vector space]] $\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a bilinear bracket
+ 
+   $$
+     [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
+
+1. that satisfied the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),degz)\in \mathbb{Z}$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{deg(x)\cdot deg(y)} [y, [x,z]]
+     \,.
+   $$
+
+=--
+
+Just as traditional [[Cartan geometry]] involves a pair of [[Lie algebras]] $\mathfrak{h} \hookrightarrow \mathfrak{g}$, so super-Cartan geometry involves a similar pair of [[super Lie algebras]].
+
+
+We want to establish an [[superalgebra]]-[[analogy|analog]] of the inclusion of the [[Lorentz Lie algebra]] $\mathfrak{h} = \mathfrak{so}(\mathbb{R}^{d-1,1})$ into the [[Poincaré Lie algebra]] $\mathfrak{g} = \mathfrak{Iso}(\mathbb{R}^{d-1,1})$.
 
 | ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
 |---------------------|----------------|----------------|-----------------------------|
-| [[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1}$ |
-| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
-| [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert N=1})$ | $\mathfrak{o}(d-1,1)$ | $\widehat{\mathbb{R}}^{10,1\vert N=1}$ |
+| [[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\mathbb{R}^{d-1,1}$ |
+| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\mathbb{R}^{d-1,1\vert N}$ |
+| [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}}$ |
 
 To that end, consider the structure of any [[super Lie algebra]] 
 
@@ -1270,15 +1294,15 @@ $$
   \right)
 $$ 
 
-that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$. Any such extension involves involves:
+that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ by some odd-[[graded vector space]] $N$. Any such extension involves involves:
 
-1. the even-odd superbracket $[\mathfrak{so},N]$ is an [[action]] of the [[Lorentz Lie algebra]] on  $N$;
+1. the even-odd superbracket $[\mathfrak{so},N]$, which hence is an [[action]] of the [[Lorentz Lie algebra]] on  $N$;
 
-1. the even-even-odd [[Jacobi identity]] is the action property of that action;
+1. the even-even-odd [[Jacobi identity]], which is the action property of that action;
 
-1. the odd-odd superbracket $[N,N]$ is a _symmetric_ [[bilinear form]] $N \otimes N \to \mathbb{R}^{d-1,1}$
+1. the odd-odd superbracket $[N,N]$ which is a _symmetric_ [[bilinear form]] $N \otimes N \to \mathbb{R}^{d-1,1}$
 
-1. the even-odd-odd [[Jacobi identity]] says that this bilinear form is $\mathfrak{o}(d-1,1)$-[[equivariance|equivariant]].
+1. the even-odd-odd [[Jacobi identity]], which says that this bilinear form is $\mathfrak{o}(d-1,1)$-[[equivariance|equivariant]].
 
 
 Such structure exists on [[real structure|real]] [[spin representation]]:
@@ -1687,6 +1711,7 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 * {#Baaklini77b} N. S. Baaklini _Cartan's Geometrical Structure of Supergravity_, Lett. Math. Phys. 2 (1977) 115.
 
 * {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
+
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
