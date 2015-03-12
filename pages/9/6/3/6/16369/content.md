@@ -1,8 +1,70 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
+
 ## Definition
 
-A **dense subtopos** is a [[subtopos]] whose corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(0)=0$.
+A **dense subtopos** is a [[subtopos]] such that, equivalently
+
+* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\emptyset) \simeq \emptyset$;
+
+* the corresponding [[localization]] $L$ satisfies $L(\emptyset) \simeq \emptyset$;
+
+## Properties
+
+### Relation to double-negation topology
+
+For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the smallest dense subtopos.
+
++-- {: .num_prop }
+###### Proposition
+$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
+=--
+
+([Johnstone, below Corollary 4.5.20](#Johnstone02))
+
+
+### Relation to Aufhebung
+
+Notice that, since the [[localization]] $L$ corresponding to a subtopos is necessarily a [[left exact functor]], all subtoposes necessarily contain the [[terminal object]] $\ast$ of the ambient topos. Moreover, the [[idempotent comonad]] and [[idempotent monad]] constant on the [[initial object]] and [[terminal object]], respectively, are [[adjoint functor|adjoint]] to each other (forming an [[adjoint modality]]). Denoting by "$\vee$" the inclusion of [[modal objects]], then the general situation for any subtopos localized on by $L$ is depicted by
+
+$$
+  \array{
+     && L
+     \\
+     && \vee
+     \\
+     \emptyset &\dashv& \ast
+  }
+  \,.
+$$ 
+
+In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $(\emptyset \dashv \ast)$ ("[[becoming]]").
 
 ## Related pages
 
 * [[(dense,closed)-factorization]]
 * [[double negation]]
+
+## References
+
+* {#Johnstone02} [[Peter Johnstone]], (pp.211,219-220) in _[[Sketches of an Elephant]] I_, Oxford UP 2002. 
+
+
+
+[[!redirects dense subtoposes]]
