@@ -286,9 +286,11 @@ Geometric T-duality is identified as an [[isomorphism]] of [[standard Courant al
 
 * [[Gil Cavalcanti]], [[Marco Gualtieri]], _Generalized complex geometry and T-duality_ ([arXiv:1106.1747](http://arxiv.org/abs/1106.1747))
 
-A discussion of the [[sigma-model]] description of T-duality in this context is in
+Discussion of the [[sigma-model]] description of T-duality in this context includes
 
-* Jonas Persson, _T-duality and Generalized Complex Geometry_ ([arXiv](http://arxiv.org/abs/hep-th/0612034))
+* [[Ulf Lindstöm]], [[Martin Rocek]], Itai Ryb, [[Rikard von Unge]], [[Maxim Zabzine]], _T-duality and Generalized K&#228;hler Geometry_, JHEP 0802:056,2008 ([arXiv:0707.1696](http://arxiv.org/abs/0707.1696))
+
+* Jonas Persson, _T-duality and Generalized Complex Geometry_ ([arXiv:hep-th/0612034](http://arxiv.org/abs/hep-th/0612034))
 
 Further references are
 
@@ -304,6 +306,5 @@ For references on [[topological T-duality]] see there.
 
 The relation to [[Langlands dual groups]] is discussed in
 
-* Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
- {#DaenzerErp}
-
+* {#DaenzerErp} [[Calder Daenzer]], [[Erik Van Erp]], _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
+ 
