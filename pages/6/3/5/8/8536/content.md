@@ -52,4 +52,8 @@ it was claimed that from Girard's paradox one could actually construct a fixed-p
 
 * Douglas Howe, "The Computational Behaviour of Girard's Paradox", Cornell University Technical Report, 1987, [link](http://hdl.handle.net/1813/6660).
 
+Further analysis is in
+
+* Herman Geuvers and Joep Verkoelen, "On Fixed point and Looping Combinators in Type Theory", [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.1478)
+
 [[!redirects looping combinators]]
