@@ -104,6 +104,10 @@ A useful PhD thesis covering Lie superalgebras and superalgebras more generally 
 
 * D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
+Discussion of  [[Lie algebra extensions]] for super Lie algebras includes
+
+* [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
+
 
 [[!redirects Lie superalgebra]]
 [[!redirects super Lie algebras]]
