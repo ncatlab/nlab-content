@@ -83,7 +83,7 @@ The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ correspond
 
 This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma 4.5.21](#Johnstone)).
 
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
@@ -101,7 +101,7 @@ Both of the preceeding results imply in particular that **$0$ is always a $\not\
 
 +-- {: .num_prop}
 ###### Proposition
-$\not\not$ is the unique topology $j$ such that (1) $j$ is dense, i.e. $j(0)=0$, and (2) the sheaf topos $E_j$ is Boolean.
+$\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $E_j$ is [[Boolean topos|Boolean]].
 =--
 +-- {: .proof}
 ###### Proof
