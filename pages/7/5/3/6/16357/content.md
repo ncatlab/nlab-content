@@ -15,5 +15,5 @@ is a [[constant function]], i.e., is [[fixed point|fixed]] under the action of $
 
 $$0 \to A^G \to G \ltimes A^G \to G \to 1$$ 
 
-given by $k: G \to A^G \rtimes G$, with $k(g) \coloneqq (\phi_m(g), g)$. Of course we also have the trivial splitting $j(g) \coloneqq (0, g)$. But note that the [[restrictions]] along $i: H \hookrightarrow G$ coincide: $j \circ i = k \circ i$ since $\phi_m(h) = 0$ for all $h \in H$ (as $H$ acts trivially on the right on [[cosets]] $g H$). Since $i$ is epic, we conclude $j = k$, or that $\phi_m \equiv 0$, as was to be shown. 
+given by $k: G \to G \ltimes A^G$, with $k(g) \coloneqq (g, \phi_m(g))$. Of course we also have the trivial splitting $j(g) \coloneqq (g, 0)$. But note that the [[restrictions]] along $i: H \hookrightarrow G$ coincide: $j \circ i = k \circ i$ since $\phi_m(h) = 0$ for all $h \in H$ (as $H$ acts trivially on the right on [[cosets]] $g H$). Since $i$ is epic, we conclude $j = k$, or that $\phi_m \equiv 0$, as was to be shown. 
 =-- 
