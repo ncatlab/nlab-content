@@ -169,6 +169,10 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 
 * [[Veeravalli Varadarajan]], section 7.1 of _[[Supersymmetry for mathematicians]]: An introduction_
 
+Discussion of [[group extensions]] of supergroups includes
+
+* {#Drupieski14} [[Christopher Drupieski]], _Strict polynomial superfunctors and universal extension classes for algebraic supergroups_ ([arXiv:1408.5764](http://arxiv.org/abs/1408.5764))
+
 
 [[!redirects supergroups]]
 
