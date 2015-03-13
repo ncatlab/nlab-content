@@ -25,7 +25,9 @@ A __normed division algebra__ is equivalently
 
 * a [[normed algebra]] $(A, \|-\|)$ with multiplicative norm ([[absolute value]]  $\| a \cdot b \| = \| a \| \cdot \| b \|$);
 
-* a [[Banach algebra]] that is also a [[division algebra]].
+* a [[Banach algebra]] that is also a [[division algebra]]:
+
+* an [[alternative algebra]] that is a [[division algebra]].
 
 While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
 
@@ -67,8 +69,9 @@ see [[division algebra and supersymmetry]]
 
 ## References
 
-*  [[John Baez]], [Normed Division Algebras](http://math.ucr.edu/home/baez/octonions/node2.html)
-*  John Baez, [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
+* [[John Baez]], _[Normed Division Algebras](http://math.ucr.edu/home/baez/octonions/node2.html)_
+
+* [[John Baez]], [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
 
 
 * {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
