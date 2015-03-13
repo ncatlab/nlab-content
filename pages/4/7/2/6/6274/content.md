@@ -9,6 +9,8 @@ A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian met
 
 The [[homomorphisms]] of conformal structures are called _[[conformal transformations]]_.
 
+In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal connections]], a type of [[parabolic geometry]].
+
 ## Related concepts
 
 * [[CFT]]
