@@ -36,7 +36,7 @@ This is _connective_ as in _[[connective spectrum]]_. Hence a connective chain c
 
 ## Properties
 
-### Relation to simplicial groups
+### Relation to simplicial abelian groups
 
 The [[Dold-Kan correspondence]] asserts that connective chain complexes of [[abelian groups]] are equivalent to [[abelian group|abelian]] [[simplicial groups]]. 
 
