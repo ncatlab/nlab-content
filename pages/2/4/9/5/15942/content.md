@@ -90,7 +90,7 @@ For each session, there will be one-hour long presentation given by the leader/s
 
 | March 19           |    Leader                        |    Topic                   | 
 | ------------- | --------------------| ---------------- |
-| 13:00 - 14:00   |    David Buecher            |                                |
+| 13:00 - 14:00   |    David Buecher            |       Holomorphic field theories and vertex algebras                       |
 | 14:00 - 14:30   |    tea time                                                     ||
 | 14:30 - 15:30   |    Dmitri Pavlov               |        Bundle n-gerbes with connection as field theories.                        |
 | 15:30 - 18:00[^1]   |    tea time                                               ||
