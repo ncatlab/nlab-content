@@ -21,14 +21,22 @@ A normed division algebra is a generalisation of the [[real numbers]], [[complex
 
 ## Definition
 
-A __normed division algebra__ is a [[Banach algebra]] that is also a [[division algebra]].
+A __normed division algebra__ is equivalently
+
+* a [[normed algebra]] $(A, \|-\|)$ with multiplicative norm ([[absolute value]]  $\| a \cdot b \| = \| a \| \cdot \| b \|$);
+
+* a [[Banach algebra]] that is also a [[division algebra]].
+
+While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
 
 
 ## Properties
 
-While the norm in a Banach algebra is normally only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
+### Classification
 
-The [[generalized the|only]] normed division algebra over the [[complex numbers]] is the algebra of complex numbers themselves.  Up to [[isomorphism]], there are exactly four finite-dimensional normed division algebras over the [[real numbers]]:
+Over the [[complex numebrs]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
+
+Over the [[real numebrs]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
 
 *  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
