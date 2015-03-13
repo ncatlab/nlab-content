@@ -28,6 +28,12 @@ A key application of parabolic Cartan geometry is to the construction of curved 
 All parabolic geometries admit a fundamental curvature quantity called harmonic curvature $\kappa_H$, which is a complete obstruction
 to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in conformal geometry.
 
+## Examples
+
+* [[conformal geometry]] via [[conformal connections]]
+
+* [[CR geometry]]
+
 ## Related concepts
 
 * [[Schubert calculus]]
