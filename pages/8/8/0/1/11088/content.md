@@ -13,7 +13,7 @@ The word _bilimit_ is used in two unrelated senses:
 
 * **2-categorical limits** -- In the context of [[bicategory]] theory, _bilimit_ is the relevant notion of categorical [[limit]]. If one adopts the convention that _[[2-categories]]_ are understood in the most general sense and subsume bicategories, then these are just called **[[2-limits]]**. See there for more on this sense of the word.
 
-* **limits coinciding with colimits** -- It is commen to speak of [[biproducts]] to mean categorical [[products]] that coincide with [[coproducts]]. Since a product is a special kind of [[limit]], this terminology conflicts with the above one. Indeed, some references use "bilimit" to mean [[limits]] that coincide with [[colimits]] (e.g. Selinger 97 ([[SelingerThesis.pdf:file]])). 
+* **limits coinciding with colimits** -- It is common to speak of [[biproducts]] to mean categorical [[products]] that coincide with [[coproducts]]. Since a product is a special kind of [[limit]], this terminology conflicts with the above one. Indeed, some references use "bilimit" to mean [[limits]] that coincide with [[colimits]] (e.g. Selinger 97 ([[SelingerThesis.pdf:file]])). 
 
   In a category [[enriched category|enriched]] over [[CMon]] (in particular over [[Ab]]) biproducts are a special case of [[absolute colimits]], see at _[absolute colimit -- Examples -- Weights for absolute colimits](absolute+colimit#WExampleseightsForAbsoluteColimits)_.
 
