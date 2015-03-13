@@ -1,0 +1,12 @@
+
+## Idea
+
+The [[super p-brane]] [[sigma model]] on a $d$-dimensional [[superspacetimes]] for $p=2$ and $d = 4$.
+
+## Related entries
+
+[[!include brane scan]]
+
+## References
+
+* Carlos Meliveo, _On Supermembrane in $D=4$, multiple M0-brane in $D=11$ and Supersymmetric Higher Spin Theories_ ([arXiv:1312.3512](http://arxiv.org/abs/1312.3512))
