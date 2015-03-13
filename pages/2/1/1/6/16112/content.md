@@ -8,7 +8,7 @@
 
 ### As first-order integrable $G$-structure
 
-CR manifold structure are equivalently certain [[first-order integrable G-structures]] ([Dragomi-Tomassini 06, section 1.6](#DragomiTomassini06)).
+CR manifold structure are equivalently certain [[first-order integrable G-structures]] ([Dragomi-Tomassini 06, section 1.6](#DragomiTomassini06)), a type of [[parabolic geometry]].
 
 ## Properties
 
