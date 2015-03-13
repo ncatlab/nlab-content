@@ -59,8 +59,11 @@ Asymptotically ant-de Sitter spaces play a central role in the realization of th
 
 * [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_
  ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
+
 * Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
 
+
+* Abdelghani Zeghib, _On closed anti de Sitter spacetimes_, Math. Ann. 310, 695&#8211;716 (1998) ([pdf](http://www.umpa.ens-lyon.fr/~zeghib/Anti.de.Sitter.pdf))
 
 [[!redirects anti de Sitter space]]
 [[!redirects anti de Sitter spaces]]
