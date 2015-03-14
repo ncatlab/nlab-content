@@ -42,4 +42,6 @@ A standard textbook is
  {#JoyalMoerdijk}
 
 [[!redirects algebraic set theories]]
+[[!redirects small maps]]
+[[!redirects small map]]
 
