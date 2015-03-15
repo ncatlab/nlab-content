@@ -161,7 +161,7 @@ Section 6.5...
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
  
-For $E_\infty$-rings:  section 8.4 of
+For $E_\infty$-rings:  section 7.4 of
 
 * {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
 
