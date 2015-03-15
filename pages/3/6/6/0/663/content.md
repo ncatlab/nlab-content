@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -118,7 +117,7 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 * {#AdamekRosicky} [[Ji?í Adámek]], [[Ji?í Rosický]], section 3.D of _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  
-
+[[!redirects essentially algebraic]]
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
 [[!redirects finite limits theory]]
