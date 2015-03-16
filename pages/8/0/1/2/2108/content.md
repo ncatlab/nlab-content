@@ -201,7 +201,7 @@ corresponding to $f$;
 ### Geometric quantization
  {#GeometricQuantizationProper}
 
-Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group pf (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
+Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group of (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
 
 #### Quantum states
  {#QuantumStates}
@@ -230,7 +230,7 @@ This general _[[geometric quantization by push-forward]]_ is discussed below at
 
 In the special case that the [[prequantum line bundle]] admits a [[Kähler polarization]] this push-forward quantization has a direct expression in terms of the [[complex geometry|complex]] [[abelian sheaf cohomology]] and of the [[Dolbeault operator]] of the prequantum [[holomorphic line bundle]]. Now the choice of [[metaplectic correction]] is precisely a  [[spin structure]] (a "[[Theta characteristic]]") and the [[index]] is now that of the [[Dolbeault-Dirac operator]] which is equivalently just the [[Euler characteristic]] of the holomorphic [[abelian sheaf cohomology]] of the [[prequantum line bundle]]. This complex Dolbeault quantization case we discuss in 
 
-* _[Quantum state space as Euler characteristic of pequantum sheaf cohomology](#EulerCharacteristicOfSheafCohomology)_
+* _[Quantum state space as Euler characteristic of prequantum sheaf cohomology](#EulerCharacteristicOfSheafCohomology)_
 
 and
 
