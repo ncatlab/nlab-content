@@ -16,29 +16,47 @@
 
 ## Idea
 
-A normed division algebra is a generalisation of the [[real numbers]], [[complex numbers]], [[quaternions]], and [[octonions]].  Amazingly, there are no other examples!
+A normed division algebra is an [[associative algebra]] (over some [[ground field]]) that is both a [[division algebra]] as well as a multiplicatively [[normed algebra]]. 
+
+It turns out that over the [[real numbers]] there are precisely only four normed divition algebras up to [[isomorphism]]: the algebras of 
+
+1. [[real numbers]], 
+
+1. [[complex numbers]], 
+
+1. [[quaternions]], 
+
+1. [[octonions]].
+
+In this sense real normed division algebras may be thought of as a natural generalization of the more familiar real and complex numbers. 
+
+This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]. Notably patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
+
+
 
 
 ## Definition
 
-A __normed division algebra__ is equivalently
+A __normed division algebra__ is 
 
-* a [[normed algebra]] $(A, \|-\|)$ with multiplicative norm ([[absolute value]]  $\| a \cdot b \| = \| a \| \cdot \| b \|$);
+* a [[division algebra]];
 
-* a [[Banach algebra]] that is also a [[division algebra]]:
+* that is also a [[Banach algebra]].
 
-* an [[alternative algebra]] that is a [[division algebra]].
+While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] 
+and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
 
-While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
+Accordingly, a normed division algebras is in particular a division [[composition algebra]].
+
 
 
 ## Properties
 
 ### Classification
 
-Over the [[complex numebrs]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
+Over the [[complex numbers]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
 
-Over the [[real numebrs]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
+The [[Hurwitz theorem]] says that over the [[real numebrs]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
 
 *  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
@@ -69,12 +87,27 @@ see [[division algebra and supersymmetry]]
 
 ## References
 
+
+The classification of real divsion composition algebras is originally due ([[Hurwitz theorem]]) to 
+
+* {#Hurwitz1898} [[Adolf Hurwitz]], _&#220;ber die Composition der quadratischen Formen von beliebig vielen Variabeln_, Nachr. Ges. Wiss. G&#246;ttingen (1898) 309&#8211;316
+
+General discussion includes includes
+
+* {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
+
+* Silvio Aurora, _On normed rings with monotone multiplication_, Pacific J. Math.
+Volume 33, Number 1 (1970), 15-20 ([JSTOR](http://projecteuclid.org/euclid.pjm/1102977236))
+
+
+
+Exposition with emphasis on the [[octonions]] is in
+
 * [[John Baez]], _[Normed Division Algebras](http://math.ucr.edu/home/baez/octonions/node2.html)_
 
 * [[John Baez]], [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
 
 
-* {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
 
 
 [[!redirects normed division algebra]]
