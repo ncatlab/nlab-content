@@ -17,10 +17,15 @@ Mathematicians working in the field of nonassociative algebras often say simply 
 
 Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[Leibniz algebra]], [[alternative algebra]], [[associative unital algebra]], [[composition algebra]]...
 
+The [[octonions]] are a (slightly) non-associative real [[normed division algebra]].
 
 ## Related concepts
 
 * [[noncommutative algebra]], [[nonunital algebra]]
+
+## References
+
+* Richard D. Schafer, _Introduction to Non-Associative Algebras_, Dover, New York, 1995. ([pdf](http://www.gutenberg.org/files/25156/25156-pdf.pdf))
 
 
 [[!redirects nonassociative algebra]]
