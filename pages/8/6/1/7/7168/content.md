@@ -75,9 +75,12 @@ $$
 This means that a quadratic refinement by a [[quadratic form]] always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
 
 
+
 ## Related concepts
 
 * [[polarization identity]]
+
+* [[Hermitian form]]
 
 ## References
  {#References}
