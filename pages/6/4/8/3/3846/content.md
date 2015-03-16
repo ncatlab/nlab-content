@@ -10,14 +10,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
 Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
 
-* A nondegenerate symmetric bilinear form $\langle , \rangle: V \otimes V \to k$, 
+* A nondegenerate symmetric [[bilinear form]] $\langle , \rangle: V \otimes V \to k$, 
 
 * A multiplication map, i.e., a linear map $- \cdot -: V \otimes V \to V$, 
 
@@ -47,7 +47,7 @@ Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \ne
 
 The arrangements of the proofs below are based in part on the treatments by Conway and Smith, and by Springer and Veldkamp (see references below). 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Scaling)
 $\langle u v, u w \rangle = N(u)\langle v, w \rangle$ and $\langle u w, v w \rangle = \langle u, v \rangle N(w)$
 =--
@@ -65,7 +65,7 @@ $$N(u v + u w) = N(u v) + 2\langle u v, u w \rangle + N(u w) = N(u)N(v) + 2\lang
 and the result follows by cancellation and division by $2$. 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Exchange)
 $\langle u v, w x \rangle = 2\langle u, w \rangle \langle v, x \rangle - \langle u x, w v \rangle$
 =--
@@ -93,7 +93,7 @@ Observe that $\bar{v} = v$ just when $v$ is a scalar multiple of the identity. B
 
 The next few propositions develop properties of conjugation. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Adjointness)
 $\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$. $\langle w, u v \rangle = \langle \bar{u} w, v \rangle$ and $\langle w, u v \rangle = \langle w\bar{v}. u \rangle$. 
 =-- 
@@ -107,7 +107,7 @@ $$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, e \rangle - \langle 
 The second adjointness equation is proved similarly; the final two come from symmetry of the form.  
 =--
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition (Involution) 
 $v = \bar{\bar{v}}$ for all $v$. 
 =-- 
@@ -121,7 +121,7 @@ $$\langle u, v \rangle = \langle u\bar{v}, e \rangle = \langle u, \bar{\bar{v}} 
 and the result follows from nondegeneracy. 
 =-- 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition (Unitarity) 
 $\langle u, v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$.  
 =-- 
@@ -131,7 +131,7 @@ $\langle u, v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar
 $\langle u, v \rangle = \langle e, \bar{u}v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$ where the last equation is symmetry of the bilinear form. 
 =-- 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Anti-automorphism) 
 $\bar{u} \bar{v} = \widebar{v u}$. 
 =-- 
@@ -147,7 +147,7 @@ using involution and unitarity. The result follows from nondegeneracy of the for
 
 By the involution and anti-automorphism properties, we see that $\bar{v}v$ is fixed under conjugation: is "real". Better yet, 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Reality)
 $\bar{u} \cdot (u v) = N(u)v$. 
 =-- 
@@ -179,7 +179,7 @@ This has as further consequence the fact that an algebra admits at most one norm
 
 A final corollary of **Reality** is 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition (Alternative law) 
 
 $u \cdot (u v) = u^2 \cdot v$ and $u \cdot v^2 = (u v) \cdot v$. 
@@ -198,7 +198,7 @@ This is essentially the same as the [[Cayley-Dickson construction]], but in this
 
 We begin with a simple observation: 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition
 Let $V$ be a finite-dimensional vector space with a nondegenerate bilinear form, and let $W$ be a subspace such that the form on $V$ restricts to a nondegenerate form on $W$. Then 
 
@@ -220,7 +220,7 @@ so that, by nondegeneracy of the form on $W$, $\alpha W \cap W = \{0\}$. Indeed,
 
 Now let us fix such an $\alpha$, and put $\lambda = N(\alpha)$. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition
 For elements $u, v, w, x \in W$, 
 
@@ -240,7 +240,7 @@ Consequently, if $\langle u + \alpha v, w \rangle = 0$ for all $w \in W$, we mus
 
 Now we want to show that the double $W + \alpha W$ is closed under multiplication, hence forms a composition subalgebra. It follows immediately from all this that, starting from the trivial composition subalgebra $k \cdot e$ of dimension 1, $dim(V)$ must be a power of 2, and in fact we will see later that the only possible dimensions are 1, 2, 4, and 8. Indeed, the possible structures of composition algebras are very tightly constrained. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition (Conjugation on the double)
 We have $\widebar{u + \alpha v} = \bar{u} - \alpha v$. Consequently, $\alpha v = - \widebar{\alpha v} = - \bar{v} \bar{\alpha} = \bar{v} \alpha$, and $\widebar{\alpha} = -\alpha$.  
 =--
@@ -250,7 +250,7 @@ We have $\widebar{u + \alpha v} = \bar{u} - \alpha v$. Consequently, $\alpha v =
 $\widebar{\alpha v} = 2\langle \alpha v, e \rangle e - \alpha v = -\alpha v$. 
 =--
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem (Closure under multiplication)
 For all $u, v, w, x \in W$, $(u + \alpha v)(w + \alpha x) = (u w - \lambda x \bar{v}) + \alpha (w v + \bar{u} x)$.
 =--
@@ -326,13 +326,14 @@ Hence the doubling process may be iterated three times at most.
 
 This same result can also be proven using [[string diagram]] calculus.  See [this paper](http://math.ucr.edu/home/baez/Hurwitz.pdf) for a nice exposition of that route.
 
-### Hurwitz's Theorem {#HurwitzTheoremSection}
+### Hurwitz's Theorem 
+ {#HurwitzTheoremSection}
 
-The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local field]]s) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$, where the results have been known for a long time. 
+The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local fields]]) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$ is the [[real numbers]], where the results have been known for a long time, known as the _[[Hurwitz theorem]]_. 
 
 A fundamental dichotomy is whether or not the composition algebra has zero divisors, i.e., elements $v$ such that $N(v) = 0$. If not, then the composition algebra is a division algebra (every nonzero element is invertible). If so, then the composition algebra is called a **split** composition algebra. We analyze each in turn. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition
 In a division composition algebra, all nonzero elements have positive norm. 
 =--
@@ -365,11 +366,11 @@ $$a + b i + c j + d k \mapsto a - b i - c j - d k$$
 
 * $dim(V) = 8$. In that case $W$ is a 4-dimensional division composition algebra, hence isomorphic to $\mathbb{H}$, and $V$ is an alternative division algebra over $\mathbb{R}$ given by $V = \mathbb{H} + j\mathbb{H}$, with $j^2 = -1$. ($V$ is not associative because $W$ is not commutative.) The structure of multiplication is given by the theorem above and the resulting algebra is the algebra of octonions, with the standard norm and conjugation. 
 
-Thus, we have established 
+Thus, we have established the [[Hurwitz theorem]]
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem (Hurwitz) 
-The only division composition algebras over $\mathbb{R}$ are the reals, complexes, quaternions, and octonions. 
+The only [[division algebra|division]] composition algebras over the [[real numbers]] $\mathbb{R}$ are the [[real numbers]], [[complex numbers]], [[quaternions]], and [[octonions]]. 
 =-- 
 
 #### Split composition algebras
@@ -455,7 +456,7 @@ $$(u v)(w u) = (u(v w))(e u) = (u(v w))u, \qquad (u v)(w u) = (u e)((v w)u) = u(
 which completes the proof. 
 =--
  
-+-- {: .un_cor}
++-- {: .num_cor}
 ######Corollary
 For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v u) = (u v)u$.
 =-- 
@@ -482,3 +483,5 @@ An exposition of the [[string diagram]] proof of the [Hurwitz' theorem](HurwitzT
 Related $n$lab entries: [[alternative algebra]], [[Cayley-Dickson construction]]
 
 Related eom entries: [Lie-admissible algebra](http://eom.springer.de/l/l058360.htm)
+
+[[!redirects composition algebras]]
