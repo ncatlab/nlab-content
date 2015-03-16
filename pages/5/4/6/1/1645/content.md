@@ -235,7 +235,7 @@ Discussion in the context of [[extended topological field theory]] includes
 
 The original work on the [[chiral anomaly]] is due to
 
-* [[Steven Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
+* [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
 
 * [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: &#960;0&#8594;&#947;&#947; in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
 
