@@ -16,7 +16,7 @@
 
 ## Statement
 
-The only Eudlidean [[composition algebras]] / [[division algebra|division]] [[composition algebras]] over the [[real numbers]] (i.e. real [[normed division algebras]]) are, up to [[isomorphism]], the algebras of
+The only Euclidean [[composition algebras]] / [[division algebra|division]] [[composition algebras]] over the [[real numbers]] (i.e. real [[normed division algebras]]) are, up to [[isomorphism]], the algebras of
 
 1. [[real numbers]]
 
