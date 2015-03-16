@@ -322,6 +322,9 @@ The generalization to [[multisymplectic geometry]]/[[n-plectic geometry]]: [[Ham
 
 ## References
 
+Named after [[William Rowan Hamilton]].
+
+
 A textbook reference is section II.3 in 
 
 * [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user.
