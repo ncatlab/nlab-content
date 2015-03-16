@@ -119,6 +119,7 @@ Quite detailed treatment of duality of gebras is in
 * Sorin D&#259;sc&#259;lescu, Constantin N&#259;st&#259;sescu, Serban Raianu, _Hopf algebras: an introduction_, Marcel & Dekker 2000
 * Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
 * Shahn Majid, _Foundations of quantum group theory_, Cambridge Univ. Press
+* Eiichi Abe, _Hopf algebras_, Cambridge Tracts in Mathematics 74, 1977
 
 Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
 
