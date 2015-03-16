@@ -1756,6 +1756,8 @@ want to establish an [[superalgebra]]-[[analogy|analog]] of the inclusion of the
 | [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\mathbb{R}^{d-1,1\vert N}$ |
 | [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}}$ |
 
+(Here the hat in the lowest row indicates an [[extended super-Minkowski spacetime]], which involves [[higher Cartan geometry]].)
+
 To that end, consider the structure of any [[super Lie algebra]] 
 
 $$
@@ -1850,7 +1852,7 @@ Its [[Lie integration]] to a [[super Lie group]] is the
 [[super Poincaré group]] $Iso(\mathbb{R}^{d-1,1|N})$.
 
 
-The [[quotient]] of that by the [[spin group]] is [[super-Minkowski spacetime]]
+The [[quotient]] of the [[super Poincaré Lie algebra]] by the [[Lorentz Lie algebra]] is [[super-Minkowski spacetime]] regarded as a [[super Lie algebra]]:
 
 $$
   \mathbb{R}^{d-1,1|N} \coloneqq \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{so}(\mathbb{R}^{d-1,1|N})
