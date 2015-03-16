@@ -333,6 +333,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[interpretation of quantum mechanics]]
 
+  * [[quaternionic quantum mechanics]]
+
 * [[quantum field theory]]
 
   * [[FQFT]], [[AQFT]]
