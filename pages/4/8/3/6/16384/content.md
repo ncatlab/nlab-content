@@ -47,7 +47,9 @@ The classification matches that of [[Hopf invariant one]] maps. See there for mo
 
 Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 
-* {#Hurwitz1898} [[Adolf Hurwitz]], _&#220;ber die Composition der quadratischen Formen von beliebig vielen Variabeln_, Nachr. Ges. Wiss. G&#246;ttingen (1898) 309&#8211;316
+* {#Hurwitz1898} [[Adolf Hurwitz]], _&#220;ber die Composition der quadratischen Formen von beliebig vielen Variabeln_, Nachr. Ges. Wiss. G&#246;ttingen (1898) pp 309--316 ([GDZ pdf](http://gdz.sub.uni-goettingen.de/download/PPN252457811_1898/LOG_0034.pdf), [EuDML entry](https://eudml.org/doc/58420))
+
+* [[Adolf Hurwitz]],  _&#220;ber die Komposition der quadratischen Formen_, Math. Ann. 88 (1923) pp 1--25, doi:[10.1007/bf01448439](http://dx.doi.org/10.1007/bf01448439) ([GDZ pdf](http://gdz.sub.uni-goettingen.de/download/PPN235181684_0088/LOG_0005.pdf), [EuDML entry](https://eudml.org/doc/158975))
 
 
 * Wikipedia, _[Hurwitz theorem (composition algebras)](http://en.wikipedia.org/wiki/Hurwitz%27s_theorem_%28composition_algebras%29)_
