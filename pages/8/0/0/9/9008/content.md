@@ -8,9 +8,14 @@ Terry Wall is a British mathematician, who was particularly involved with the de
 
 * [[Brauer group]], [[superalgebra]]
 
+* [[Wall's finiteness obstruction]]
+
+* [[Hermitian form]]
+
 category: people
 
 [[!redirects Charles Terence Clegg Wall]]
 [[!redirects Charles Wall]]
 
 [[!redirects C. T. C. Wall]]
+[[!redirects C.T.C. Wall]]
