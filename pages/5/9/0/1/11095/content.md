@@ -9,9 +9,9 @@ The  [[compact object in an (infinity,1)-category|compact objects]]in [[∞Grpd]
 
 ## References
 
-* [[C.T.C Wall]], _Finiteness conditions for CW-complexes I_  [pdf](http://math.uchicago.edu/~shmuel/tom-readings/wall%20finiteness%201.pdf)
+* [[C. T. C. Wall]], _Finiteness conditions for CW-complexes I_  [pdf](http://math.uchicago.edu/~shmuel/tom-readings/wall%20finiteness%201.pdf)
 
-* [[C.T.C Wall]], _Finiteness conditions for CW-complexes II_  [pdf](http://www.maths.ed.ac.uk/~aar/papers/findom2.pdf)
+* [[C. T. C. Wall]], _Finiteness conditions for CW-complexes II_  [pdf](http://www.maths.ed.ac.uk/~aar/papers/findom2.pdf)
 
 [[!redirects Wall finiteness obstruction]]
 
