@@ -96,7 +96,7 @@ $$
 $$
 one has in every $(\infty,1)$-[[(infinity,1)-topos|topos]], see [[loop space object]]. For $G$ a nonabelian group, Gottlieb proves the following nonabelian analogue of the above result: let $X$ be a finite dimensional connected CW-complex; for a fixed map $f:X\to K(G,1)$, let $C_f$ be the centralizer in $G=\pi_1 K(G,1)$ of $f_*(\pi_1(X))$. Then the connected component of $f$ in $\mathbf{Top}(X,K(G,1))$ is a $K(C_f,1)$.
 
-Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
+Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple form $\mathbf{B}^n A$ with more general $\infty$-groupoids.
 
 ## Generalizations
 
