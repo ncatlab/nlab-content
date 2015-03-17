@@ -27,7 +27,7 @@
 
 ## Idea
 
-[[CFT]] with [[supersymmetry]] 
+[[CFT]] with [[supersymmetry]], i.e. with [[superconformal geometry|superconformal symmetry]]
 
 ## Examples
 
@@ -62,6 +62,8 @@
 
 ### Classification
  {#Classification}
+
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
 
 * S. Minwalla, _Restrictions imposed by superconformal invariance on quantum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
 ([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
