@@ -29,6 +29,10 @@ In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal 
 
 * [[eom]], _[Conformal structure](http://www.encyclopediaofmath.org/index.php/Conformal_structure)_
 
+Discussion of conformal [[Cartan geometry]] includes
+
+* [[Andree Lischewski]], section 2 of _Conformal superalgebras via tractor calculus_, Class.Quant.Grav. 32 (2015) 015020 ([spire](https://inspirehep.net/record/1334198), [arXiv:1408.2238](http://arxiv.org/abs/1408.2238))
+
 [[!redirects conformal structures]]
 
 [[!redirects conformal geometry]]
