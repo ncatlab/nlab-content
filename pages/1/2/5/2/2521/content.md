@@ -47,6 +47,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 * [[super-Cartan geometry]]
 
+  * [[superconformal geometry]]
+
 ## References
  {#References}
 
