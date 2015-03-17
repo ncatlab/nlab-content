@@ -25,7 +25,7 @@ A [[symmetry]] is (in most classical situations) invariance under a [[group]] [[
 
 In the general sense of the word, a **supersymmetry** is invariance under a [[supergroup]] action or a [[super Lie algebra]] action. 
 
-In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to [[Lie superalgebra]] extensions of the [[Poincaré Lie algebra]] -- the [[super Poincaré Lie algebra]], often called the **supersymmetry algebra** in this context. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator**.
+In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to [[Lie superalgebra]] extensions of the [[Poincaré Lie algebra]] -- the [[super Poincaré Lie algebra]], often called the **supersymmetry algebra** in this context. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator**. Or more generally, if the basic [[spacetime]] geometry is taken to be [[conformal geometry]] or [[de Sitter space]]/[[anti-de Sitter space]], then one considers supergeometric extensions of these.
 
 ### Global supersymmetry and superparticles
 
@@ -226,7 +226,9 @@ See also
 
 The seminal classification of simple supersymmetry [[super Lie algebras]] (including higher dimensions and conformal/de Sitter supersymmetry) is due to
 
-* [[Werner Nahm]], _Supersymmetries and their Representations_, Nucl.Phys. B135 (1978) 149 ([spire](http://inspirehep.net/record/120988?ln=en))
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+
+* [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
 For more on this see at _[[super Poincaré Lie algebra]]_.
 
