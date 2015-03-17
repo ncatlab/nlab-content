@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Hopf invariant one_ refers to maps of [[Hopf invariant]] equal to 1.
+_Hopf invariant one_ refers to maps with [[Hopf invariant]] equal to 1.
 
 ## Properties
 
@@ -35,6 +35,6 @@ A theorem due to ([Adams 60](#Adams60)) says that these correspond precisely to 
 
 Discussion using the [[BP]]-[[Adams-Novikov spectral sequence]] is in 
 
-* [[Doug Ravenel]], chapter 5, section 2_[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]], chapter 5, section 2 _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 [[!redirects Hopf invariant 1]]
