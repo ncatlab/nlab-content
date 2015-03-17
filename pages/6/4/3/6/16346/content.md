@@ -2167,6 +2167,7 @@ with $N$-[[supersymmetries]].
 =--
 
 #### Definite super-froms
+ {#DefiniteSuperForms}
 
 A rich source of traditional [[Cartan geometry]] comes from [[special holonomy]] induced by [[definite forms]]. We discuss here the analogous phenomenon for super-differential forms which are definite on one of the exceptional closed forms appearing in the [[brane scan]] as discussed above.
 
@@ -2197,7 +2198,7 @@ For $V = \mathbb{R}^7$ and $\phi$ the [[associative 3-form]], then its [[stabili
 
 =--
 
-Now the [[super differential forms]] $\phi = \overline{\psi} \wedge E^{a_1} \wedge \cdots E^{a_p}\wedge \psi$ on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in the [[brane scane]] serve as [[curvature]] forms for the [[Green-Schwarz super p-brane]] [[sigma models]] on super-Minkowki spacetime. The globalization of these [[sigma models]] to curved [[superspacetimes]] $X$ requires, in particular, that these $\phi$ are extended as [[definite forms|definite]] [[super differential forms]] over $X$. 
+Now the [[super differential forms]] $\phi = \overline{\psi} \wedge E^{a_1} \wedge \cdots E^{a_p}\wedge \psi$ on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in the [[brane scan]] serve as [[curvature]] forms for the [[Green-Schwarz super p-brane]] [[sigma models]] on super-Minkowki spacetime. The globalization of these [[sigma models]] to curved [[superspacetimes]] $X$ requires, in particular, that these $\phi$ are extended as [[definite forms|definite]] [[super differential forms]] over $X$. 
 
 +-- {: .num_example}
 ###### Side Remark
@@ -2266,6 +2267,7 @@ $$
 
 =--
 
+This means that for applications to [[supergravity]] the inclusion of [[supergroups]] for the corresponding super Cartan geometry is not so much a choice made by hand, as rather being analogous to the [[G2-structure]] which is automatically imposed once one demands a differential form definite on the [[associative 3-form]].
 
 ## References
 
