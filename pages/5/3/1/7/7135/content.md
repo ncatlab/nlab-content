@@ -7,6 +7,6 @@
 
 * [[Green-Schwarz super p-brane]]
 
-* [[super 1-brane in 3d]]
+* [[super 1-brane in 3d]], [[super 2-brane in 4d]]
 
 category: people
