@@ -22,7 +22,7 @@ A [[cover]] which is locally a [[finite cover]].
 
 A [[cover]] ([[open cover]]) $\{U_\alpha\}$ of a [[topological space]] $X$ is **locally finite** if for all $x\in X$, there is an neighbourhood $N \ni x$ such that $N \cap U_\alpha \neq \emptyset$ for only a finite number of $\alpha$.
 
-Open covers defined by [[partitions of unity]] are locally finite. (CHECK!)
+Any open cover defined by a (generalized) [[partition of unity]] has a locally finite shrinking. 
 
 ## Related concepts
 
