@@ -1,4 +1,12 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
 
+## related $n$Lab entries
+
+* [[string theory]]
+
+* [[Green-Schwarz super p-brane]]
+
+* [[super 1-brane in 3d]]
+
 category: people
