@@ -1,9 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The [[super p-brane]] [[sigma model]] on a $d$-dimensional [[superspacetimes]] for $p=2$ and $d = 4$.
+By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =2 $ ([[supermembrane]]) with [[target space]] being $d = 4$ dimensional [[super Minkowski spacetime]] or else a [[supermanifold]] locally modeled on that.
 
 ## Related entries
+
+* [[super 1-brane in 3d]]
 
 [[!include brane scan]]
 
