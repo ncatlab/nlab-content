@@ -2,6 +2,8 @@
 
 A **non-unital operad** is a structure like an [[operad]] but without a unit or operadic identity. However, in contrast to operads where the multiplication operation substitutes $m$ operations simultaneously into a single $m$-ary operation, the primary operations for a non-unital operad are ones which substitute only one operation at a time. 
 
+It is possible to package these individual substitution operations into a single operation, using not the [[plethysm|plethystic]] or substitution monoidal product (usually denoted $\circ$) but a certain lax monoidal product introduced below, called the *graft product*. At all events, it must be understood that the desired notion is not simply a species equipped $F$ equipped with an associative product $F \circ F \to F$, because that is not expressive enough. 
+
 ## Definitions  
 
 There are various possible notions of non-unital operad; here we focus on the permutative and non-permutative cases. 
@@ -12,7 +14,7 @@ Let $FB$ be the monoidal groupoid of finite sets and bijections, where the monoi
 
 $$(F \ast G)[S] = \sum_{T \subseteq S} F[S/T] \otimes G[T]$$ 
 
-where $S/T$ denotes the pushout of $T \to 1$ along the inclusion $T \subseteq S$. This includes the degenerate case where $T = 0$; in this case $S/0$ is the result of freely adjoining a point to $S$. In the theory of species, there is a fundamental differentiation functor $F \mapsto F'$ defined by the formula $F'[S] = F[S/0]$. 
+where $S/T$ denotes the pushout of $T \to 1$ along the inclusion $T \subseteq S$ in the category of finite sets. This includes the degenerate case where $T = 0$; in this case $S/0$ is the result of freely adjoining a point to $S$. In the theory of species, there is a fundamental differentiation functor $F \mapsto F'$ defined by the formula $F'[S] = F[S/0]$. 
 
 The set $S/T$ has $T/T$ as distinguished basepoint, and if $U$ is complementary to $T$, we have natural bijections $S/T \cong U + \{T/T\} \cong U/0$. It follows that 
 
@@ -42,7 +44,7 @@ For $V = Set$, a structure of species $F \ast G$ is given by three data:
 
 ### Lax monoidal structure of graft product 
 
-The graft poduct is not associative up to isomorphism, but there is a lax associativity. Specifically, we calculate 
+The graft poduct is not associative up to isomorphism, but there is a lax associativity. Specifically, we calculate (using a categorified [[Leibniz rule]]) 
 
 $$\array{
 (F \ast G) \ast H & \cong & (F' \otimes G)' \otimes H \\
@@ -54,7 +56,7 @@ so that there is a noninvertible associativity (an inclusion)
 
 $$\alpha_{F G H}: F \ast (G \ast H) \to (F \ast G) \ast H$$ 
 
-which is natural in each of its arguments $F$, $G$, and $H$, and which satisfies an evident pentagon coherence condition. Additionally, there is a lax unit, defined as the species $X$ for which $X[S]$ is the monoidal unit of $V$ if $card(S) = 1$, else $X[S]$ is initial, for which we have evident natural maps 
+which is natural in each of its arguments $F$, $G$, and $H$, and which satisfies an evident pentagon coherence condition. Additionally (although we won't really need this here), there is a lax monoidal unit, defined as the species $X$ for which $X[S]$ is the monoidal unit of $V$ if $card(S) = 1$, else $X[S]$ is initial, for which we have evident natural maps 
 
 $$\lambda_F: X \ast F \to F, \qquad \rho_F: F \ast X \to F$$
 
@@ -62,26 +64,26 @@ The first map $\lambda_F$ is invertible, but the second is not: its component at
 
 $$\nabla: S \cdot F[S] \to F[S]$$ 
 
-However, the standard unit coherence conditions for monoidal categories hold. We may call such a structure, relaxing the condition of invertibility of $\alpha$ and $\rho$ but retaining the naturality and coherence conditions, a **lax monoidal category**. 
+However, the standard unit coherence conditions for monoidal categories hold. We may call such a structure, relaxing the condition of invertibility of $\alpha$ and $\rho$ but retaining the usual naturality and coherence conditions, a **lax monoidal category**. 
 
 In the sequel, $F^{\ast n}$ will denote the iterated graft product defined recursively by 
 
 $$F^{\ast 0} = X, \qquad F^{\ast (n+1)} = F^{\ast n} \ast F$$ 
 
-so that all parentheses in $F^{\ast n}$ are to the left. We have a partial coherence theorem: 
+so that all parentheses in $F^{\ast n}$ are to the left. We state without proof the following partial coherence theorem: 
 
 +-- {: .num_prop} 
 ###### Proposition 
 Any two maps 
 $$F^{\ast m} \ast F^{\ast n} \to F^{\ast (m+n)}$$ 
-definable in the language of lax monoidal categories are equal. This map by $\alpha_{m n}$. 
+definable in the language of lax monoidal categories are equal. We denote this map by $\alpha_{m n}$. 
 =--
 
 ### Permutative non-unital operads 
 
 +-- {: .num_defn} 
 ###### Definition 
-A _non-unital operad_ in a [[cosmos]] $V$ is a [[species]] $F: FB^{op} \to V$ equipped with a multiplication $m: F \ast F \to F$, satisfying the following associativity axioms: 
+A (permutative) _non-unital operad_ in a [[cosmos]] $V$ is a [[species]] $F: FB^{op} \to V$ equipped with a multiplication $m: F \ast F \to F$, satisfying the following two associativity axioms: 
 
 1. $$\array{
 F \ast (F \ast F) & \stackrel{1 \ast m}{\to} & F \ast F & \\
@@ -100,10 +102,22 @@ induced by the nonidentity involution $2 \to 2$, and $\sigma_2$ is the symmetry 
 
 =-- 
 
+Of course the notion can be reformulated perfectly well in a general symmetric monoidal category; the use of coproducts just makes for a more efficient packaging. 
+
 ### Graft product of (non-permutative) species 
 
-A non-permutative species in a [[monoidally cocomplete category]] $V$ is simply an $\mathbb{N}$-[[graded object]] in $V$, which we may think of as equivalent to a functor $\mathbb{N} \to V$ from the groupoid of finite [[linear orders]]. If $S$ is a finite linear order and $T = [a, b] \subseteq S$ is a [[subinterval]] of $S$, then we may again define $S/T$ via a pushout construction, and define a corresponding graft product by the formula 
+A non-permutative species in a [[monoidally cocomplete category]] $V$ is simply an $\mathbb{N}$-[[graded object]] in $V$, which we may think of as equivalent to a functor $\mathbb{N} \to V$ from the monoidal groupoid of finite [[linear orders]], with the monoidal product given by restriction of the [[ordinal sum]] to the [[core]] groupoid. If $S$ is a finite linear order and $T = [a, b] \subseteq S$ is a [[subinterval]] of $S$, then we may again define $S/T$ via a pushout construction in the category of finite linear orders, and define a corresponding graft product by the formula 
 
 $$(F \ast G)[S] = \sum_{subintervals T} F[S/T] \otimes G[T].$$ 
 
+This graft product shares certain formal properties with the permutative graft product defined above, such as the fact that it is a lax monoidal product. A triple graft product $(F \ast G) \ast H$ cab be decomposed as a coproduct of parts, the first being  
 
+$$F \ast (G \ast H)[S] = \sum_{subintervals T_1 \subseteq T_2} F[S/T_2] \otimes G[T_2/T_1] \otimes H[T_1]$$ 
+
+and the second being 
+
+$$\sum_{subint. T_1, T_2: T_1 \cap T_2 = \emptyset} F[S/(T_1, T_2)] \otimes G[T_1] \otimes H[T_2]$$ 
+
+where $S/(T_1, T_2)$ denotes the pushout of the inclusion $T_1 + T_2 \hookrightarrow S$ along the quotient $! + !: T_1 + T_2 \to 1 + 1$. By interchanging the roles of $T_1$ and $T_2$, we get a nontrivial involution on the second part. 
+
+To be continued... 
