@@ -288,7 +288,11 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 * The notion of generalized muticategories is even more general than this; for instance it also includes [[globular operads]] and [[topological spaces]].  See [[generalized multicategory]] for details.
 
-* In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]].   
+* In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]]. 
+
+* Finally, it is sometimes useful to consider non-unital versions of the notion of operad; an example is the original example of [[associahedron|associahedral operad]] due to [[James D. Stasheff|Stasheff]]. Here one has an array of structure maps 
+$$sub_i: C(m) \times C(n) \to C(m+n-1)$$ 
+which encode the idea of substituting an $n$-ary operation into the $i-th$ argument of an $m$-ary operation, to get an $(m+n-1)$-ary operation. Formal details will be made available ... 
 
 ## The monad attached to an operad 
 
