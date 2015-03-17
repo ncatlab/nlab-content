@@ -36,6 +36,13 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 ## Properties
 
+### Characterization by Lie groupoids
+ {#CharacterizatiobByLieGroupoids}
+
+Sending a [[Lie groupoid]] to the [[smooth stack]] it represents constitutes an [[equivalence of (infinity,1)-categories]] between [[Lie groupoids]] with Morita morphisms/[[bibundles]] between them and differentiable stacks.
+
+(e.g. [Blohmann 07](#Blohmann), [Carchedi 11](#Carchedi11)). For review in a broader context see also [Nuiten 13, around prop. 2.2.34](#Nuiten13)
+
 ### Other descriptions
 
 A differentible stack is in particular an object in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] that is 
@@ -44,7 +51,7 @@ A differentible stack is in particular an object in the [[cohesive (∞,1)-topos
 
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete</a>.
 
-It is however more special than that. The general 1-truncated concrete [[smooth ∞-groupoid]]s are [[internal groupoid]]s in [[diffeological spaces]].
+It is however more special than that. The general 1-truncated concrete [[smooth ∞-groupoids]] are [[internal groupoids]] in [[diffeological spaces]].
 
 ### Mapping stacks
 
@@ -79,14 +86,18 @@ For $X$, $Y$ two differentiable stacks, there is the [[mapping stack]] $[X,Y]$, 
 
 ## References
 
-* [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
- {#Blohmann}
+* {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
+ 
 
 * [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_ J. Symplectic Geom. Volume 9, Number 3 (2011), 285-341. ([arXiv:math/0605694](http://arxiv.org/abs/arXiv:math/0605694))
 
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
 
 * [[Richard Hepworth]], _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
+
+* {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011
+
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, MSc thesis, Utrecht, August 2013
 
 See also the references at [[geometric stack]] and [[topological stack]].
 
