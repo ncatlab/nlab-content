@@ -1,0 +1,15 @@
+
+
+This page collects material related to the article
+
+* [[Werner Nahm]], 
+
+  _Supersymmetries and their Representations_, 
+
+  Nucl.Phys. B135 (1978) 149 
+
+  ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+
+on the classification of [[supersymmetry]] [[super Lie algebras]].
+
+category: reference
