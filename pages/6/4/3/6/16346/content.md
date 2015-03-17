@@ -2218,7 +2218,7 @@ is the content at _[[schreiber:Higher Cartan Geometry]]_.
 
 Since the cocycles in the [[brane scan]] are not just closed forms, but are also [[super Lie algebra]] [[Lie algebra cohomology|cocycles]], it is natural to ask not for the [[stabilizer subgroup]] under the action of the whole [[general linear group]] $GL(\mathbb{R}^{d-1,1|N})$, but just under the [[automorphism group]] of the super-[[Lie bracket]], i.e. to ask for stabilization both of the [[cocycle]] form as well as the bracket.
 
-+-- {: .num_prop}
++-- {: .num_prop #StabilizerOfSupersymmetryJointWith3Cocycle}
 ###### Proposition
 
 Let $\mathbb{R}^{d-1,1,N}$ be [[super Minkowski spacetime]] in [[dimension]] $d \in \{3,4,6,10\}$ and let $\phi \in \Omega^{3}(\mathbb{R}^{d-1,1|N})$ the corresponding 3-form characterizing the [[super p-brane|super-1-brane]] ([[superstring]]) in this dimension, according to the [[brane scan]] . Then the [[stabilizer subgroup]] of both the super Lie bracket and the cocycle is the [[Spin group]] $Spin(d-1,1)$:
