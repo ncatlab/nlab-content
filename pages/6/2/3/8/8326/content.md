@@ -298,6 +298,8 @@ Our **paragraph numbering** is as follows:
 | moment of discreteness | [[flat modality]] $\flat$ |  |
 | moment of continuity | [[sharp modality]] $\sharp$ |  |
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
+| extensive quantity | $\sharp$-[[anti-modal types]] |  |
+| intensive quantity | $\sharp$-[[separated objects]] |  |
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
 | non-being of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
 | being-for-one | [[infinitesimal flat modality]] $\& $ | [&#167;322](#322) |
@@ -328,6 +330,7 @@ Our **paragraph numbering** is as follows:
 | **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\Im$-[[modal types]] | [PN&#167;254a](#PN254a) |
 | Licht | [[bosonic modality]] $\rightsquigarrow$ | [PN&#167;276](#PN276) |
+
 | K&#246;rper der Starrheit | [[fermionic modality]] $\e$ | [PN&#167;279](#PN279) |
 | Au&#223;ereinander der Materie | [[unity of opposites]] ($\e \dashv \rightsquigarrow$)   | [PN&#167;290](#PN290)  |
 | opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\e) &\dashv& \rho(\rightsquigarrow) \\ \bot && \bot \\ \rho(\rightsquigarrow) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) |
@@ -1509,6 +1512,7 @@ The natural choice is [[shape modality]] $\dahsv$ [[flat modality]] $&#643; \das
 > &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
 
 
+
 > &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
 
 > &#167;370 With this, the development of being-for-self is completed and has reached its conclusion.
@@ -1597,6 +1601,11 @@ $$
     discreteness & \flat &\stackrel{quantity}{\dashv}& \sharp & continuity
   }
 $$
+
+
+> [EL&#167;99](#EL99) Die Quantit&#228;t ist das reine Sein, an dem die Bestimmtheit nicht mehr als eins mit dem Sein selbst, sondern als aufgehoben oder gleichg&#252;ltig gesetzt ist.
+
+>  EL&#167;99 Quantity is pure Being, where the mode or character is no longer taken as one with the being itself, but explicitly put as superseded or indifferent.
 
 ###### On attraction / cohesion
 
@@ -1689,6 +1698,25 @@ The [[continuum]].
  {#ExtensiveAndIntensiveQuantity}
 
 [[extensive and intensive quantity]]
+
+In modern [[thermodynamics]] 
+
+* an _[[extensive quantity]]_ is one expressed by a [[differential form]] in positve degree (for instance a mass density 3-form on Euclidean 3-space) -- this is close to the "extension" of differential forms in [[Grassmann]]'s _[[Ausdehnungslehre]]_;
+
+* an _[[intensive quantity]]_ is one expressed by a differential form of degree 0, namely by a function (for instance a temperator function on that Euclidean 3-space).
+
+
+The existence and difference between these two concepts is neatly encoded by the [[sharp modality]] $\sharp$: 
+
+an intensive quantity object such as the smooth sheaf $\mathbb{R}$ of real numbers is characterized by being a [[concrete object]], witnessed by the fact that the [[unit of a monad|unit]] of the sharp modality is a [[monomorphism]]
+
+$\mathbb{R} \hookrightarrow \sharp \mathbb{R}$.
+
+On the other hand extensive quantities such as given by the sheaves $\mathbf{\Omega}^p$ of differential forms in positive degree $p \geq 1$ are $\sharp$-[[anti-modal objects]] $\sharp \mathbf{\Omega}^p \simeq \ast$.
+
+
+
+
 
 ##### C. Die quantitative Unendlichkeit
 
