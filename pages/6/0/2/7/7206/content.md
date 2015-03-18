@@ -27,7 +27,9 @@
 
 The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]] in 10 dimension by [[Kaluza-Klein mechanism|compactification]] on a 6-[[torus]].
 
-The $N=1$-version alternatively from [[M-theory on G2-manifolds]].
+The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]]. This hosts the [[super 2-brane in 4d]].
+
+
 
 ## Related entries
 
@@ -64,6 +66,33 @@ The $N=1$-version alternatively from [[M-theory on G2-manifolds]].
 
 * [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
 
+### On $N=1$ $d = 4$ supergravity
+
+There are two different off-shell formulations, the "old minimal"
+
+* [[Kellogg Stelle]] and [[Pete West]], Phys. Lett. 74B (1978) 330; 
+
+* S. Ferrara and P. van Nieuwenhuizen, Phys. Lett. 74B (1978) 333
+
+and the "new minimal" supergravity
+
+* V. Akulov, D. Volkov and V. Soroka, Theor. Math. Phys. 31 (1977) 285; M.F. Sohnius
+and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
+
+* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and
+its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
+
+* S.J. Gates, M. Rocek and W. Siegel, Nucl. Phys. B198 (1982) 113
+
+These two versions were later understood to be two different [[gauge fixings]] of N=1 d=4 coformal supergravity. Yet other gauge fixings are discussed in
+
+
+* S. James Gates, Jr., Hitoshi Nishino, _Will the Real 4D, $N=1$ SG Limit of Superstring/M-Theory Please Stand Up?_, Phys.Lett.B492:178-186,2000 ([arXiv:hep-th/0008206](http://arxiv.org/abs/hep-th/0008206))
+
+See also
+
+* Nicolas Boulanger, Mboyo Esole, _A Note on the uniqueness of $D = 4$, $N=1$ supergravity_, Class.Quant.Grav. 19 (2002) 2107-2124 ([arXiv:gr-qc/0110072](http://arxiv.org/abs/gr-qc/0110072))
+
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
@@ -71,4 +100,5 @@ The $N=1$-version alternatively from [[M-theory on G2-manifolds]].
 [[!redirects N=1 d=4 supergravity]]
 [[!redirects N=1 D=4 supergravity]]
 
-
+[[!redirects d=4 N=1 supergravity]]
+[[!redirects D=4 N=1 supergravity]]
