@@ -66,6 +66,14 @@ See also
 
 * Martin Pol&#225;&#269;ek, [[Warren Siegel]], _T-duality off shell in 3D Type II superspace_ ([arXiv:1403.6904](http://arxiv.org/abs/1403.6904))
 
+### Branes
+
+Discussion of [[D-branes]] in 3d supergravity includes
+
+* Bj&#246;rn Brinne, Svend E. Hjelmeland, Ulf Lindstr&#246;m, _World-Volume Locally Supersymmetric Born-Infeld Actions_, Phys.Lett. B459 (1999) 507-514 ([arXiv:hep-th/9904175](http://arxiv.org/abs/hep-th/9904175))
+
+* Bj&#246;rn Brinne, _3D supergravity and a spinning D2-brane _
+
 
 ### Gauged
 
