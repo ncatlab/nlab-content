@@ -1,0 +1,7 @@
+##Idea 
+
+**Derived Morita equivalence** is a generalization of [[Morita equivalence]] to the derived context. Just as two $k$-algebras are Morita equivalent if and only if their categories of left modules are equivalent, the coarser equivalence relation of derived Morita equivalence holds whenever for two [[differential graded algebras]] their (bounded) derived categories of modules, along with their triangulated structure, are equivalent.
+
+## References
+
+* [[Stefan Schwede]] _Morita theory in abelian, derived and stable model categories_ ([arXiv:math/0310146](http://arxiv.org/abs/math/0310146))
