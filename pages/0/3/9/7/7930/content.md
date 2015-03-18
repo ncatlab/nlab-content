@@ -692,7 +692,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebraOneDimHigher} the bilinear pairings 
+Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebraOneDimHigher} of the bilinear pairings 
 
 $$
   \overline{(-)}(-) \;\colon\; S \otimes S \longrightarrow \mathbb{R}
@@ -704,16 +704,14 @@ $$
   \overline{(-)}\Gamma (-) \;\colon\; S  \otimes S \longrightarrow V
 $$
 
-of remark \ref{BilinearPairingForRealRepresentations} are given, respectively, by 
+of remark \ref{BilinearPairingForRealRepresentations},  the first is given by 
 
 $$
-  \overline{(-)}(-) \colon S\otimes S \longrightarrow \mathbb{R}
-$$
-$$
-  (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \Gamma^0 \phi)
+  (\psi,\phi)\mapsto \overline\psi\phi \coloneqq 
+  \overline{\psi} \phi \coloneqq Re(\psi^\dagger \Gamma^0 \phi)
 $$
 
-and characterized by
+and the second is characterized by
 
 $$
   \begin{aligned}
@@ -724,7 +722,7 @@ $$
     &=
     \overline{\psi}(\Gamma(A)\phi)
     \\
-    & = Re( \psi^\dagger, \Gamma^0 \Gamma(A)\phi)
+    & = Re( \psi^\dagger \Gamma^0 \Gamma(A)\phi)
   \end{aligned}
   \,.
 $$
