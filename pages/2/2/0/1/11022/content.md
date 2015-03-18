@@ -34,4 +34,8 @@ According to [[Georg Hegel]]:
 
 * Wikipedia, _[German idealism](http://en.wikipedia.org/wiki/German_idealism)_
 
+* Encyclopedia Britannica, _[Idealism](http://www.britannica.com/EBchecked/topic/281802/idealism)_
+
+* {#Ewing74} [[Alfred Ewing]], _Idealism: A Critical Survey_, Barnes & Noble (1974) ([PhiPapers](http://philpapers.org/rec/EWIIAC), [Review on JSTOR](http://www.jstor.org/stable/2249864))
+
 [[!redirects German idealism]]
