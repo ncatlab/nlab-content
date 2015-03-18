@@ -1,6 +1,7 @@
 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/A._C._Ewing)
+* [Obituary](http://www.anthonyflood.com/blanshardewing.htm), Brand Blanshard
 
 ## some writings
 
