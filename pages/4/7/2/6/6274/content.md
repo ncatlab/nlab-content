@@ -34,7 +34,7 @@ Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]) includes
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], sections 1.1.5, 1.6 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
-* [[Felipe Leitner]], _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_, 2007 ([pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf))
+* [[Felipe Leitner]], part 1, section 6 of _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_, 2007 ([pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf))
 
 * [[Andree Lischewski]], section 2 of _Conformal superalgebras via tractor calculus_, Class.Quant.Grav. 32 (2015) 015020 ([spire](https://inspirehep.net/record/1334198), [arXiv:1408.2238](http://arxiv.org/abs/1408.2238))
 
