@@ -57,7 +57,7 @@ for more.
 
 One should beware that the use of the word "duality" in physics is in general different from concepts called "[[duality]]" in [[mathematics]].
 
-For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]]. However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
+For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]]. Indeed, in [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]]. However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
 
 One way to pseudo-formalize accurately most of what is usually meant by "duality" in physics might instead be the following.
 
@@ -226,5 +226,8 @@ There is also a duality in the _description_ of physics:
 * {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
+
+* {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
+
 
 [[!redirects dualities in physics]]
