@@ -1,1 +1,1 @@
-nothing here
+nothing here  $\bigcirc$
