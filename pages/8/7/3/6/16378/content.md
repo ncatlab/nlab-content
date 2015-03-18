@@ -21,6 +21,8 @@
 
 By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =2 $ ([[supermembrane]]) with [[target space]] being $d = 4$ dimensional [[super Minkowski spacetime]] with [[spin representation|N=1]] [[supersymmetry]],  or more generally a [[superspacetime]] which is a  [[super Cartan geometry]] solving the [[equations of motion]] of [[d=4 N=1 supergravity]] (The literature traditionally knows ths is the "4d supermembrane".)
 
+Its [[double dimensional reduction]] is the [[super 1-brane in 3d]] (see there) for $N=(1,1)$ [[3d supergravity]].
+
 ## Related entries
 
 * [[super 1-brane in 3d]]
