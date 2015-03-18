@@ -674,6 +674,20 @@ Under restriction along $Spin(n+2,1) \hookrightarrow Cl(n+2,1)$ this is isomorph
 
 ([Baez-Huerta 10, p. 10, prop. 8, prop. 9](#BaezHuerta09))
 
+Write 
+
+$$
+  \Gamma^0 \coloneqq 
+  \left(
+     \array{
+       0 & - 1_{2x2}
+       \\
+       1_{2\times 2} & 0
+     }
+  \right)
+  \,.
+$$
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -681,16 +695,16 @@ Under restriction along $Spin(n+2,1) \hookrightarrow Cl(n+2,1)$ this is isomorph
 Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebraOneDimHigher} the bilinear pairings 
 
 $$
-  \overline{(-)}(-) \;\colon\; S_+ \otimes S_-\longrightarrow \mathbb{R}
+  \overline{(-)}(-) \;\colon\; S \otimes S \longrightarrow \mathbb{R}
 $$
 
 and
 
 $$
-  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
+  \overline{(-)}\Gamma (-) \;\colon\; S  \otimes S \longrightarrow V
 $$
 
-of remark \ref{BilinearPairingForRealRepresentations} are given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]] 
+of remark \ref{BilinearPairingForRealRepresentations} are given, respectively, by 
 
 $$
   \overline{(-)}(-) \colon S\otimes S \longrightarrow \mathbb{R}
@@ -699,14 +713,20 @@ $$
   (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \Gamma^0 \phi)
 $$
 
-and by forming 
+and characterized by
 
 $$
-  S \otimes S \longrightarrow V
-$$
-$$
-  (\psi , \phi) \mapsto \overline{\psi}\Gamma \phi \coloneqq 
-  ...
+  \begin{aligned}
+    \eta
+    \left(
+      \overline{\psi}\Gamma\phi, A
+    \right)
+    &=
+    \overline{\psi}(\Gamma(A)\phi)
+    \\
+    & = Re( \psi^\dagger, \Gamma^0 \Gamma(A)\phi)
+  \end{aligned}
+  \,.
 $$
 
 
