@@ -5,6 +5,8 @@ Sylvester James Gates Jr., known as Jim Gates, works on [[supersymmetry]], [[sup
 
 ## related $n$Lab entries 
 
+* [[4d supergravity]]
+
 * [[parameterized WZW model]]
 
 
