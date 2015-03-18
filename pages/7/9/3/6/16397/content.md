@@ -1,7 +1,18 @@
-##Idea 
 
-**Derived Morita equivalence** is a generalization of [[Morita equivalence]] to the derived context. Just as two $k$-algebras are Morita equivalent if and only if their categories of left modules are equivalent, the coarser equivalence relation of derived Morita equivalence holds whenever for two [[differential graded algebras]] their (bounded) derived categories of modules, along with their triangulated structure, are equivalent.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+**Derived Morita equivalence** is a generalization of [[Morita equivalence]] to the "derived" context ([[homotopy theory]] of [[dg-algebras]]). Just as two $k$-[[associative algebra|algebras]] are Morita equivalent if and only if their [[category of modules|categories of left modules]] are [[equivalence of categories|equivalent]], the coarser equivalence relation of derived Morita equivalence holds whenever for two [[differential graded algebras]] their (bounded) [[derived categories]] [[category of modules|of modules]], along with their [[triangulated category]] structure, are equivalent.
+
+## Examples
+
+A derived Morita equivalence in the context of [[homological mirror symmetry]] appears in ([Okada 09](#Okada09))
 
 ## References
 
 * [[Stefan Schwede]] _Morita theory in abelian, derived and stable model categories_ ([arXiv:math/0310146](http://arxiv.org/abs/math/0310146))
+
+* {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
