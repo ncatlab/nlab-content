@@ -64,6 +64,12 @@ Here we at last descend to something concrete.  Given $\alpha\colon C'(-,x)\to \
 $$\alpha_y(f) = \alpha_y(f\circ 1_x) \cong \overline{F}(f)(\alpha_x(1_x)) = \overline{F}(f)(a) = \beta_y(f).$$
 We then simply verify that these isomorphisms are the components of an (invertible) modification $\alpha\cong \beta$.  This completes the proof.
 
+##References
+
+An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bicategories
+
+* Niles Johnson, _Morita Theory For Derived Categories: A Bicategorical Perspective_ ([arXiv:0805.3673](http://arxiv.org/abs/0805.3673))
+
 
 [[!redirects bicategorical Yoneda lemma]]
 [[!redirects 2-Yoneda lemma]]
