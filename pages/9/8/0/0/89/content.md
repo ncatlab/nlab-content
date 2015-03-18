@@ -76,6 +76,7 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 ## Related Concepts
 
+* [[derived Morita equivalence]]
 * [[Morita context]]
 * [[Eilenberg-Watts theorem]]
 * [[generator]]
