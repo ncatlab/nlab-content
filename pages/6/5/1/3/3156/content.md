@@ -106,6 +106,11 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * [[Thomas Athorne]], _The coalgebraic structure of cell complexes_, [TAC](http://www.tac.mta.ca/tac/volumes/26/11/26-11abs.html)
 
+* [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems I: accessible AWFS_, [arXiv](http://arxiv.org/abs/1412.6559).
+
+* [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems I: categories of weak maps_, [arXiv](http://arxiv.org/abs/1412.6560).
+
+
 [[!redirects algebraic weak factorisation system]]
 [[!redirects natural weak factorisation system]]
 [[!redirects natural weak factorization system]]
@@ -116,4 +121,3 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 [[!redirects algebraic weak factorization systems]]
 [[!redirects AWFS]]
 [[!redirects awfs]]
-
