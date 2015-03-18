@@ -72,7 +72,7 @@ There are two different off-shell formulations, the "old minimal"
 
 * [[Kellogg Stelle]] and [[Pete West]], Phys. Lett. 74B (1978) 330; 
 
-* S. Ferrara and P. van Nieuwenhuizen, Phys. Lett. 74B (1978) 333
+* S. Ferrara and [[Peter van Nieuwenhuizen]], Phys. Lett. 74B (1978) 333
 
 and the "new minimal" supergravity
 
@@ -82,12 +82,12 @@ and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 
 * M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and
 its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
 
-* S.J. Gates, M. Rocek and W. Siegel, Nucl. Phys. B198 (1982) 113
+* [[Jim Gates]], M. Rocek and [[Warren Siegel]], Nucl. Phys. B198 (1982) 113
 
 These two versions were later understood to be two different [[gauge fixings]] of N=1 d=4 coformal supergravity. Yet other gauge fixings are discussed in
 
 
-* S. James Gates, Jr., Hitoshi Nishino, _Will the Real 4D, $N=1$ SG Limit of Superstring/M-Theory Please Stand Up?_, Phys.Lett.B492:178-186,2000 ([arXiv:hep-th/0008206](http://arxiv.org/abs/hep-th/0008206))
+* [[Jim Gates]], Jr., Hitoshi Nishino, _Will the Real 4D, $N=1$ SG Limit of Superstring/M-Theory Please Stand Up?_, Phys.Lett.B492:178-186,2000 ([arXiv:hep-th/0008206](http://arxiv.org/abs/hep-th/0008206))
 
 See also
 
