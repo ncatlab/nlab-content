@@ -7,6 +7,8 @@
 
 **Derived Morita equivalence** is a generalization of [[Morita equivalence]] to the "derived" context ([[homotopy theory]] of [[dg-algebras]]). Just as two $k$-[[associative algebra|algebras]] are Morita equivalent if and only if their [[category of modules|categories of left modules]] are [[equivalence of categories|equivalent]], the coarser equivalence relation of derived Morita equivalence holds whenever for two [[differential graded algebras]] their (bounded) [[derived categories]] [[category of modules|of modules]], along with their [[triangulated category]] structure, are equivalent.
 
+The existence of a tilting complex is necessary and sufficient for an equivalence between the unbounded derived categories of two rings. A tilting complex is a special small generator of the derived category. It is a bounded complex $T$ of finitely generated projective $R$-modules which generates the derived category $\mathcal{D}(R)$ and whose graded ring of self maps $\mathcal{D}(R)(T, T)_{\ast}$ is concentrated in dimension zero.
+
 ## Examples
 
 A derived Morita equivalence in the context of [[homological mirror symmetry]] appears in ([Okada 09](#Okada09))
