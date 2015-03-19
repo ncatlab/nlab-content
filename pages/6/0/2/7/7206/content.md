@@ -93,6 +93,16 @@ See also
 
 * Nicolas Boulanger, Mboyo Esole, _A Note on the uniqueness of $D = 4$, $N=1$ supergravity_, Class.Quant.Grav. 19 (2002) 2107-2124 ([arXiv:gr-qc/0110072](http://arxiv.org/abs/gr-qc/0110072))
 
+Textbook accounts include
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapter III.2, III.3.5, III.3.10 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+Survey includes
+
+
+* Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
+
+
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
