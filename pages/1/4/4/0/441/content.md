@@ -27,15 +27,38 @@ $$
 
 be the standard simplicial $n$-[[simplex]] in [[SimpSet]].
 
-Then, for each $i$, $0 \leq i \leq n$, we can form, within $\Delta[n] $, a subsimplicial set, $\Lambda^i[n]$, called the **$(n,i)$-horn** or **$(n,i)$-box**, by  taking the union of all faces but the  $i^{th}$ one.
++-- {: .num_defn #Horn}
+###### Definition
 
-Since $SimpSet$  is a presheaf topos, unions of subobjects make sense, they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
+For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box** 
+is the subsimplicial set 
+
+$$
+  \Lambda^i[n]
+  \hookrightarrow
+  \Delta[n] 
+$$
+
+which is the [[union]] of all faces _except_ the  $i^{th}$ one.
+
+This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **inner horn**.
 
 
+=--
 
-The horn $\Lambda^k[n]$ is an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **inner horn**.
++-- {: .num_remark }
+###### Remark
+
+
+Since [[sSet]]  is a [[presheaf topos]], [[unions] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
+
+=--
+
 
 ##Examples##
+
++-- {: .num_example}
+###### Example
 
 The inner horn of the 2-simplex 
 
@@ -51,7 +74,7 @@ $$\Delta^2 =
      \right\}
 $$
 
-with boundary 
+with [[boundary]]
 
 $$\partial \Delta^2 =   \left\{
       \array{
@@ -78,6 +101,7 @@ $$
         0 &&&& 2
       } 
      \right\}
+ \,.
 $$
 
 The two outer horns look like
@@ -110,6 +134,8 @@ $$
 
 respectively. 
 
+=--
+
 ##Relation to other concepts##
 
 * A [[Kan fibration]] is a morphism of simplicial sets which has the right [[lifting property]] with respect to all horn inclusions $\Lambda^k[n] \hookrightarrow \Delta^n$.
@@ -117,28 +143,7 @@ respectively.
 * A [[Kan complex]] is a simplicial set in which "*all horns have fillers*": a simplicial set for which the morphism to the point is a Kan fibration.
 
 * A [[quasi-category]] is a simplicial set in which *all inner* horns have fillers*.
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
+
 * The [[boundary of a simplex]] is the union of its faces.
 
 * The [[spine]] of a [[simplex]] is the [[union]] of all its generating 1-cells.
