@@ -17,7 +17,7 @@
 
 The _Moore complex_ of a [[simplicial group]] -- also known in its normalized version as the **complex of normalized chains** -- is a [[chain complex]] whose [[differential]] is built from the face maps of the simplicial group.
 
-The operation of forming the Moore complex of chains of a [[simplicial group]] is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[group]]s and [[chain complex]]es.
+The operation of forming the Moore complex of chains of a [[simplicial group]] is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[groups]] with [[chain complexes]].
 
 Recall that a [[simplicial group]] $G$, being in particular a [[Kan complex]], may be thought of, in the sense of the [[homotopy hypothesis]], as a combinatorial space equipped with a group structure. The Moore complex of $G$ is a [[chain complex]] 
 
@@ -29,48 +29,47 @@ This is entirely analogous to how a [[crossed complex]] is obtained from a [[str
 
 ## Definition
 
-### On general simplicial groups
+### For general simplicial groups
+ {#ForGeneralSimplicialGroups}
 
-+-- {: .num_defn}
++-- {: .num_defn #NormalizedChainComplexOnGeneralGroup}
 ###### Definition
 
-Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex $((N G)_\bullet,\partial )$ of (possibly nonabelian) groups is 
+Given a [[simplicial group]] $G$, its _[[normalized chain complex]]_ or _Moore complex_ is the $\mathbb{N}$-graded [[chain complex]] $((N G)_\bullet,\partial )$ of (possibly [[nonabelian group|nonabelian]]) groups which
 
-* in degree $n$ the joint [[kernel]] 
+* is in degree $n$ the joint [[kernel]] 
 
   $$
     (N G)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
   $$
 
-  of all face maps except the 0-face
+  of all face maps except the 0-face;
 
-* with differential given by the remaining 0-face
+* with differential given by the remaining 0-face map
 
   $$
    \partial_n := d_0^n|_{(N G)_n} : (N G)_n \rightarrow (N G)_{n-1}
+   \,.
   $$ 
 
 =--
 
 
 
-+-- {: .num_defn}
++-- {: .num_remark}
 ###### Remark
 
-Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining  face map,  $d_n^n$, to be the differential.
+In def. \ref{NormalizedChainComplexOnGeneralGroup} one may equivalently take the  joint [[kernel]] of all but the $n$-face map and take that remaining face map,  $d_n^n$, to be the differential.
 
 =--
 
-It is important to note, and simple to prove, that $N G$ is a [[normal complex of groups]], so that it is easy to take the homology of the complex, even though the groups involved may be non-abelian. 
-
-
-+-- {: .num_defn}
++-- {: .num_remark}
 ###### Remark
 
-We may think of the elements of the complex $N G$ in degree $k$
-as being $k$-dimensional [[disk]]s in $G$:
+We may think of the elements of the complex $N G$, def. \ref{NormalizedChainComplexOnGeneralGroup}, in degree $k$
+as being $k$-dimensional [[disks]] in $G$ all whose [[boundary]] is captured by a single face:
 
-* an element in degree 1 element $g \in N G_1$ is a 1-disk
+* an element $g \in N G_1$ in degree 1 is a 1-disk
 
   $$
     1 \stackrel{g}{\to} \partial g
@@ -111,47 +110,58 @@ etc.
 
 =--
 
-+-- {: .num_lemma}
-###### Lemma
 
-For every simplicial group $G$ the complex $(N G)_\bullet$ is a [[normal complex of groups]].
++-- {: .num_prop}
+###### Proposition
+
+For every [[simplicial group]] $G$ the normalized chain complex $(N G)_\bullet$ in def. \ref{NormalizedChainComplexOnGeneralGroup} is a [[normal complex of groups]], 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that is easy to take the homology of the complex, even though the groups involved may be non-abelian. 
 
 =--
 
 
 
-### On abelian simplicial groups
 
-Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is an ordinary [[connective chain complex|connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
 
-There are two other chain complexes naturally associated with $A$:
+### For simplicial abelian groups
+ {#ForSimplicialAbelianGroups}
+
+Let now $A$ be a [[simplicial abelian group]]. Then its [[normalized chain complex]] $(N A)_\bullet \in Ch_\bullet^+$ of def. \ref{NormalizedChainComplexOnGeneralGroup} is an ordinary [[connective chain complex|connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
+
+In this abelian cases are two other chain complexes naturally associated with $A$:
 
 +-- {: .num_defn #AlternatingFaceMapComplex}
 ###### Definition
 
-The **alternating face map complex** $C A$ of $A$ is 
+For $A$ a [[simplicial abelian group]] its **alternating face map complex** $(C A)_\bullet$ of $A$ is the [[chain complex]] which 
 
-* in degree $n$ given by the group $A_n$ itself
+* in degree $n$ is given by the group $A_n$ itself
 
   $$
     (C A)_n := A_n
   $$
 
 
-* with the differential given by the alternating sum of face maps (using the abelian group structure on $A$)
+* with [[differential]] given by the alternating sum of face maps (using the abelian group structure on $A$)
 
   $$
-    \partial_n := \sum_{i = 0}^n (-1)^i d_i : (C A)_n \to (C A)_{n-1}
+    \partial_n \coloneqq \sum_{i = 0}^n (-1)^i d_i  \;\colon\; (C A)_n \to (C A)_{n-1}
     \,.
   $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #ComplexModuloDegeneracies}
 ###### Definition
 
 
-The **complex modulo degeneracies**, $(C A)/D(A)$ is the complex
+For $A$ a [[simplicial abelian group]] its **complex modulo degeneracies**, $(C A)/D(A)$ is the [[chain complex]]
 
 * which in degree $n$ is given by the [[quotient]] group obtained by dividing out the group
 
@@ -174,7 +184,7 @@ The **complex modulo degeneracies**, $(C A)/D(A)$ is the complex
 +-- {: .num_lemma #LeftCosetsDisjoint}
 ###### Lemma
 
-This is indeed well defined in that
+Def. \ref{ComplexModuloDegeneracies} is indeed well defined in that
 the alternating face boundary map satisfies 
 $\partial \circ \partial = 0$ in $C_\bullet(A)$
 and restricts to a boundary map on the degenerate subcomplex
@@ -250,25 +260,25 @@ which is again a combination of elements in the image of the degeneracy maps.
 
 ### Normalization
 
-Let $A$ be a simplicial abelian group.
 
 +-- {: .num_prop }
 ###### Proposition
 
-There is a splitting
+For $A$ a [[simplicial abelian group]], there is a splitting
 
 $$
   C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
 $$
 
-where the first summand is naturally isomorphic to the Moore complex as defined above.
+of the alternating face map complex, def. \ref{AlternatingFaceMapComplex} as a [[direct sum]],
+where the first direct summand is [[natural isomorphism|naturally isomorphic]] to the [[normalized chain complex]] of def. \ref{NormalizedChainComplexOnGeneralGroup} and the second is the degenerate cells from def. \ref{ComplexModuloDegeneracies}.
 
 =--
 
-Explicitly, 
+Explicitly:
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The evident composite of natural morphisms
@@ -276,16 +286,16 @@ The evident composite of natural morphisms
 $$
   N A \stackrel{i}{\hookrightarrow} A 
   \stackrel{p}{\to}
-  (C A)/D(A)
+  (C A)/(D A)
 $$
 
 (inclusion followed by projection to the quotient) is a [[natural isomorphism]] of chain complexes.
 
 =--
 
-This appears as theorem 2.1 in ([GoerssJardine](#GoerssJardine)).
+(e.g. [Goerss-Jardine, theorem 2.1](#GoerssJardine)).
 
-+-- {: .un_theorem #EMTheorem}
++-- {: .num_theorem #EMTheorem}
 ###### Theorem (Eilenberg-MacLane)
 
 The inclusion 
@@ -301,7 +311,7 @@ is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natu
 +-- {: .proof}
 ###### Proof
 
-Following the proof of theorem 2.1 in ([GoerssJardine](#GoerssJardine)) we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
+Following the proof of theorem 2.1 in ([Goerss-Jardine](#GoerssJardine)) we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
 
 $$
   N_n(A)_j :=  \cap_{i=0}^j ker (d_i) \subset A_n
@@ -330,14 +340,21 @@ is an isomorphism of all $j \lt n$. For $j = n-1$ this is then the desired resul
 
 ### Equivalence of categories
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
-The functor $N : sAb \to Ch_\bullet^+(A)$ is an [[equivalence of categories]].
+The [[normalized chain complex]] [[functor]] of def. \ref{NormalizedChainComplexOnGeneralGroup} restricts on [[simplicial abelian groups]] to an [[equivalence of categories]]
+
+$$
+  N \colon 
+  sAb \stackrel{\simeq}{\longrightarrow} Ch_\bullet^+(A)
+$$
+
+between [[sAb]] and the [[category of chain complexes]] in non-negative degree.
 
 =--
 
-This is the statement of the [[Dold-Kan correspondence]]. See there for details.
+This is the statement of the _[[Dold-Kan correspondence]]_. See there for details.
 
 
 ### Homology and homotopy groups
@@ -350,7 +367,7 @@ $$
 
 for the $n$-th [[simplicial homotopy group]] of $G$. Notice that due to the group structure of $G$ in this case also $\pi_0(G)$ is indeed canonically a group, not just a set.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $A$ a simplicial abelian group there are [[natural isomorphism]]s
@@ -370,7 +387,7 @@ The first isomorphism follows with the [[Eckmann-Hilton argument]]. The second d
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 Both $sAb$ as well as $Ch_\bullet^+$ are naturally [[categories with weak equivalences]] given by those morphisms that induce [[isomorphism]]s on all [[simplicial homotopy group]] and on all [[chain homology]] groups, respectively. So the above statement says that the Moore complex functor $N$ respects these weak equivalences.
@@ -381,7 +398,7 @@ In fact, it induces an equivalence of categories also on the corresponding [[hom
 
 ### Hypercrossed complex structure {#HypercrossedComplex}
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The Moore complex of a [[simplicial group]] is naturally a [[hypercrossed complex]].
@@ -423,8 +440,8 @@ A proof by Cartan is in
 
 A standard textbook reference for the abelian version is
 
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([chapter 3](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi))
-{#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], chapter 3 of _[[Simplicial homotopy theory]]_ 
+
 
 Notice that these authors write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
 
@@ -435,8 +452,8 @@ A discussion with an emphasis of the generalization to non-abelian simplicial gr
  
 The discusson of the hypercrossed complex structure on the Moore complex of a general simplicial group is in
 
-* [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
-{#Carrasco-Cegarra}
+* {#Carrasco-Cegarra} [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
+
 
 [[!redirects Moore complexes]]
 
@@ -447,4 +464,3 @@ The discusson of the hypercrossed complex structure on the Moore complex of a ge
 [[!redirects normalized chain complex]]
 
 [[!redirects alternating face map complex]]
-
