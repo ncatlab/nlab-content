@@ -19,7 +19,7 @@
 
 ## Idea
 
-In his _[[Science of Logic]]_ [[Georg Hegel]] makes a distinction between _subjective logic_, which involves _[[type|coneceps]]_, _[[judgements]]_ and _[[deduction]]_ (as usual for [[logic]]), and _objective logic_ which is concerned with something like the _[[logos]]_, a kind of [[ontology]] or [[metaphysics]], not unlike the ontological deductions of [[Spinoza's system]].
+In his _[[Science of Logic]]_ [[Georg Hegel]] makes a distinction between _subjective logic_, which involves _[[type|concepts]]_, _[[judgements]]_ and _[[deduction]]_ (as usual for [[logic]]), and _objective logic_ which is concerned with something like the _[[logos]]_, a kind of [[ontology]] or [[metaphysics]], not unlike the ontological deductions of [[Spinoza's system]].
 
 This _objective logic_ as presented by Hegel is hence rather unlike common [[predicate logic]], a fact that led to the rejection of this school of [[objective idealism]] by [[Bertrand Russell]] and the school of [[analytic philosophy]].
 
