@@ -15,9 +15,11 @@
 
 ## Idea 
 
-In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]] --- or more precisely, what is called [[extensional type theory|here]] "propositonally extensional type theory".
+In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]] --- or more precisely, what is called [[extensional type theory|here]] "propositonally extensional type theory". In the language of [[homotopy type theory]], this means that all types are [[h-sets]], accordingly axiom K is incompatible with the [[univalence axiom]].
 
 Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $Id_A(x,x)$ (of [[equivalences]] of a [[term]] $x \colon A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_x \colon Id_A(x,x)$. 
+
+See also at _[extensional type theory -- Propositional extensionality](extensional+type+theory#PropositionalExtensionality)_.
 
 
 ## Statement
@@ -51,6 +53,11 @@ For a review and discussion of the implementation in [[Coq]], see
 
 * Pierre Corbineau, _The K axiom  in Coq (almost) for free_ ([pdf](http://coq.inria.fr/files/adt-2fev10-corbineau.pdf)) 
 
+Discussion in the context of [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+around theorem 7.2.1
 
 [[!redirects axiom K]]
 [[!redirects Streicher axiom K]]
