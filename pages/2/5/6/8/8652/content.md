@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
 =--
 =--
 
@@ -44,3 +48,5 @@ For more see at _[[geometry of physics]]_.
 [[!redirects gauge-of-gauge transformation]]
 [[!redirects gauge-of-gauge transformations]]
 
+[[!redirects gauge-of-gauge equivalence]]
+[[!redirects gauge-of-gauge equivalences]]
