@@ -516,6 +516,7 @@ defined on [[nLab:basis]] elements $\sigma \in S_n$ to be the alternating sum of
 
 =--
 
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -821,7 +822,7 @@ $\{C_n \in Ab\}_{n}$ of abelian groups together with group homomorphisms $\{\par
 
 =--
 
-We turn to this definition in more detail in the [next section](#CategoriesOfChainComplexes). The thrust of this construction lies in the fact that the chain complex $C_\bullet(Sing X)$ remembers the [[nLab:abelianization|abelianized]] [[nLab:fundamental group]] of $X$, as well as aspects of the higher [[nLab:homotopy groups]]: in its _[[nLab:chain homology]]_.
+We turn to this definition in more detail in the [below](#CategoriesOfChainComplexes). The thrust of this construction lies in the fact that the chain complex $C_\bullet(Sing X)$ remembers the [[nLab:abelianization|abelianized]] [[nLab:fundamental group]] of $X$, as well as aspects of the higher [[nLab:homotopy groups]]: in its _[[nLab:chain homology]]_.
 
 +-- {: .num_defn }
 ###### Definition
