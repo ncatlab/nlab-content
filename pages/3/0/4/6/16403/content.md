@@ -1,0 +1,7520 @@
+
+
+> This entry contains one chapter of the material at _[[geometry of physics]]_.
+
+> previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_, 
+
+> next chapter: _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## **Homotopy types**
+
+### Motivation: The gauge principle
+
+One of the fundamental principles of modern physics is the _[[gauge principle]]_. It says that every [[field (physics)|field]] configuration in physics -- hence everything in physics --is, in general, a _[[gauge field]]_ configuration. This in turn means that given two field configurations $\Phi_1$ and $\Phi_2$, then it makes no sense to ask whether they are _[[equality|equal]]_ or not. Instead what makes sense to ask is for a [[gauge transformation]] $g$ that, if it exists, exhibits $\Phi_1$ as being gauge [[equivalence|equivalent]] to $\Phi_2$ via $g$.
+
+$$
+  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
+  \,.
+$$
+
+This satisfies obvious rules, so obvious that physics textbooks usually don't even mention this. First of all, if there is yet another field configuration $\Phi_3$ and a gauge transformation from $\Phi_2$ to $\Phi_3$, then there is also the [[composition|composite]] gauge transformation
+
+$$
+  g' \circ g
+  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
+  \underoverset{\simeq}{g'}{\longrightarrow}
+  \Phi_3
+  \,.
+$$
+
+Morever, these being [[equivalences]] means that they have [[inverses]], 
+
+$$
+  \Phi_2 \underoverset{\simeq}{g^{-1}}{\longrightarrow} \Phi_1
+$$
+
+such that the compositions
+
+$$
+  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
+  \underoverset{\simeq}{g^{-1}}{\longrightarrow}
+  \Phi_1
+$$
+
+and
+
+$$
+  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
+  \underoverset{\simeq}{g^{-1}}{\longrightarrow}
+  \Phi_1
+$$
+
+equal the [[identity]] transformation. 
+
+Obvious as this is, in [[mathematics]] this structure gets a name: this is a _[[groupoid]]_ or _[[homotopy 1-type]]_ whose _[[objects]]_ are [[field (physics)|field configurations]] and whose _[[morphisms]]_ are [[gauge transformations]].
+
+But notice that in the last statement about inverses, we were actually vialoting the [[gauge principle]]: we asked for a gauge transformation of the form $g^{-1}\circ g$ (transforming one way and then just transforming back) to be [[equality|equal]] to the identity transformation $id$.
+
+But the gauge principle applies also to gauge transformations themselves. This is the content of [[higher gauge theory]]. For instance a 2-form gauge field such as the [[Kalb-Ramond field]] has [[gauge-of-gauge transformations]]. In the physics literature these are best known in their [[infinitesimal]] approximation, which are called [[ghost-of-ghost fields]] (for some historical reasons...).
+
+This means that in general it make no sense to ask whether two gauge transformations are equal or not. What makes sense is to ask for a [[gauge-of-gauge transformation]] that turns one into the other
+
+$$
+  \array{
+     \Phi_1 & \stackrel{g}{\longrightarrow} & \Phi_2
+     \\
+     & \Downarrow^{\mathrlap{\simeq}}
+     \\
+     \Phi_1 & \underset{g'}{\longrightarrow} & \Phi_2
+  }
+  \,.
+$$
+
+Now it is clear that gauge-of-gauge transformations may be composed with each other, and that, being [[equivalences]], they have inverses under this composition. Moreover, this composition of gauge-of-gauge transformations is to be compatible with the already existing composition of the first order gauge transformations themselves.
+
+This structure, when made explicit, is in mathematics called a _[[2-groupoid]]_ or _[[homotopy 2-type]]_.
+
+But now it is clear that this pattern continues: next we may have a yet [[higher gauge theory]] such as that of a 3-form [[C-field]], and then there are third order gauge transformations which we must use to identify, ifpossible, second order gauge transformations. They may in turn be composed and have inverses under this composition, and the the resulting structure, when made explicit, is called a _[[3-groupoid]]_ or _[[homotopy 3-type]]_.
+
+This logic of the [[gauge principle]] keeps applying, and hence we obtain an infinite sequence of concepts, which at stage $n \in \mathbb{N}$ are called _[[n-groupoids]]_ or _[[homotopy n-types]]_. The limiting case where we never assume that some high order gauge-of-gauge transformation has no yet higher order transformations between them, the structure in this limiting case accordingly goes by the name of _[[infinity-groupoid]]_ or just _[[homotopy type]]_.
+
+The mathematics theory of these systems of higher-order gauge-of-gauge transformations is called _[[homotopy theory]]_ or _[[higher category theory]]_ in the flavor of _[[(infinity,1)-category theory]]_.
+
+More motivation and exposition along these lines is at _[[schreiber:Higher field bundles for gauge fields]]_.
+
+### Model layer
+
+#### Chain complexes
+
+##### Categories of chain complexes
+
+From the traditional concept of [[singular cohomology]] the idea of the [[chain complex]] of formal linear combinations of [[simplices]] in a [[topological space]] is familar. Here we discuss such [[nLab:chain complexes]] in their own right in a bit more depth.
+
+Often a singular chain is taken to be a formal sum of singular simplices with [[nLab:coefficients]] in the [[nLab:abelian group]] of [[nLab:integers]] $\mathbb{Z}$. It is just as straightforward, natural and useful to allow the [[nLab:coefficients]] to be an arbitrary [[nLab:abelian group]] $A$, or in fact to be a [[nLab:module]] over a ring. 
+
+So we start by developing a bit of the theory of [[nLab:abelian groups]], [[nLab:rings]] and [[nLab:modules]].
+
++-- {: .num_defn}
+###### Definition
+
+Write [[nLab:Ab]] $\in $ [[nLab:Cat]] for the [[nLab:category]] of [[nLab:abelian groups]] and [[nLab:group homomorphisms]] between them: 
+
+* an [[nLab:object]] is a [[nLab:group]] $A$ such that for all elements $a_1, a_2 \in A$ we have that the group product of $a_1$ with $a_2$ is the same as that of $a_2$ with $a_1$, which we write $a_1 + a_2 \in A$ (and the neutral element is denoted by $0 \in A$);
+
+* a [[nLab:morphism]] $\phi : A_1 \to A_2$ is a [[nLab:group homomorphism]], hence a [[nLab:function]] of the underlying sets, such that for all elements as above $\phi(a_1 + a_2) = \phi(a_1) + \phi(a_2)$.
+
+=--
+
+Among the basic constructions that produce new abelian groups from given ones are the _[[nLab:tensor product of abelian groups]]_ and the _[[nLab:direct sum]]_ of abelian groups. These we discuss now.
+
++-- {: .num_defn #BilinearOnAbelianGroups}
+###### Definition
+
+For $A$, $B$ and $C$ [[nLab:abelian groups]] and $A \times B$ the [[nlab:cartesian product]] group, a **[[nLab:bilinear map]]** 
+
+$$
+  f : A \times B \to C
+$$
+
+is a [[nLab:function]] of the underlying [[nLab:sets]] which is linear -- hence is a [[nLab:group homomorphism]] -- in each argument separately. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In terms of [[nLab:elements]] this means that 
+a bilinear map $f : A \times B \to C$ is a function of sets that satisfies for all elements $a_1, a_2 \in A$ and $b_1, b_2 \in B$ the two relations
+
+$$
+  f(a_1 + a_2, b_1) = f(a_1,b_1) + f(a_2, b_1)
+$$
+
+and
+
+$$
+  f(a_1, b_1 + b_2) = f(a_1, b_1) + f(a_1, b_2)
+  \,.
+$$
+
+Notice that this is _not_ a group homomorphism out of the product group.
+The product group $A \times B$ is the group whose elements are pairs $(a,b)$ with $a \in A$ and $b \in B$, and whose group operation is 
+
+$$
+  (a_1, b_1) + (a_2, b_2) = (a_1 + a_2 \;,\; b_1 + b_2)
+  \,.
+$$
+
+A _[[nLab:group homomorphism]]_
+
+$$
+  \phi : A \times B \to C
+$$
+
+hence satisfies
+
+$$
+  \phi( a_1+a_2, b_1 + b_2 ) = \phi(a_1,b_1) + \phi(a_2, b_2)
+$$
+
+and hence in particular
+
+$$
+  \phi( a_1+a_2, b_1  ) = \phi(a_1,b_1) + \phi(a_2, 0)
+$$
+
+$$
+  \phi( a_1, b_1 + b_2 ) = \phi(a_1,b_1) + \phi(0, b_2)
+$$
+
+which is (in general) different from the behaviour of a bilinear map.
+
+=--
+
++-- {: .num_defn #ExplicitTensorProduct}
+###### Definition
+
+For $A, B$ two [[nLab:abelian groups]], their **[[nLab:tensor product of abelian groups]]** is the abelian group $A \otimes B$ which is the [[nLab:quotient group]] of the [[nLab:free group]] on the [[nLab:product]] ([[nLab:direct sum]]) $A \times B$
+by the [[nLab:generators and relations|relations]] 
+
+* $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ 
+
+* $(a,b_1)+(a,b_2)\sim (a,b_1+b_2)$
+
+for all $a, a_1, a_2 \in A$ and $b, b_1, b_2 \in B$.
+
+=--
+
+In words: it is the group whose elements are presented by pairs of elements in $A$ and $B$ and such that the group operation for one argument fixed is that of the other group in the other argument.
+
+
+
++-- {: .num_remark #TheCanonicalMap}
+###### Remark
+
+There is a canonical [[nLab:function]] of the underlying sets
+
+$$
+  A \times B \stackrel{\otimes}{\to} A \otimes B
+  \,.
+$$
+
+On elements this sends $(a,b)$ to the equivalence class that it represents under the above equivalence relations.
+
+=--
+
++-- {: .num_defn}
+###### Proposition
+
+A [[nLab:function]] of underlying sets $f : A \times B \to C$
+is a [[nLab:bilinear function]] precisely if it factors by the morphism of \ref{TheCanonicalMap} through a [[nLab:group homomorphism]] $\phi : A \otimes B \to C$ out of the tensor product:
+
+$$
+  f : A \times B \stackrel{\otimes}{\to}    
+      A \otimes B
+      \stackrel{\phi}{\to}
+      C
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #MonoidalStructureOnAb}
+###### Proposition
+
+Equipped with the tensor product $\otimes$ of def. \ref{ExplicitTensorProduct} [[nlab:Ab]] becomes a [[nLab:monoidal category]]. 
+
+The [[nLab:unit object]] in $(Ab, \otimes)$ is the additive group of [[nLab:integers]] $\mathbb{Z}$. 
+
+=--
+
+This means: 
+
+1. forming the tensor product is a [[nLab:functor]] in each argument
+
+   $$
+     A \otimes (-) : Ab \to Ab
+     \,,
+   $$
+
+1. there is an [[nLab:associativity law|associativity]] [[nLab:natural isomorphism]] $(A \otimes B) \otimes C \stackrel{\simeq}{\to} A \otimes (B \otimes C) $ which is "[[nLab:coherence law|coherent]]" in the sense that all possible ways of using it to rebracket a given expression are equal.
+
+1. There is a [[nLab:unit law|unit]] [[nLab:natural isomorphism]] $A \otimes \mathbb{Z} \stackrel{\simeq}{\to} A$ which is compatible with the asscociativity isomorphism in the evident sense.
+
+
++-- {: .proof}
+###### Proof
+
+To see that $\mathbb{Z}$ is the unit object, consider for any abelian group $A$ the map
+
+$$
+  A \otimes \mathbb{Z} \to A
+$$
+
+which sends for $n \in \mathbb{N} \subset \mathbb{Z}$
+
+$$
+  (a, n) \mapsto n \cdot a \coloneqq \underbrace{a + a + \cdots + a}_{n\;summands}
+  \,.
+$$
+
+Due to the quotient relation defining the tensor product, the element on the left is also equal to 
+
+$$
+  (a, n) = (a, \underbrace{1 + 1 \cdots + 1}_{n\; summands})
+  =
+  \underbrace{ (a,1) + (a,1) + \cdots + (a,1) }_{n\; summands}
+  \,.
+$$
+
+This shows that $A \otimes \mathbb{Z} \to A$ is in fact an [[nLab:isomorphism]].
+
+The other properties are similarly direct to check.
+
+=--
+
+We see simple but useful examples of tensor products of abelian groups put to work below in the context of example \ref{SquareAsTensorProduct} and then in many of the applications to follow. An elementary but not entirely trivial example that may help to illustrate the nature of the tensor product is the following.
+
++-- {: .num_example}
+###### Example
+
+For $a,b \in \mathbb{N}$ and positive, we have
+
+$$
+  \mathbb{Z}_a \otimes \mathbb{Z}_b \simeq \mathbb{Z}_{LCM(a,b)}
+  \,,
+$$
+
+where $LCM(-,-)$ denotes the [[nLab:least common multiple]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $I \in $ [[nLab:Set]] be a [[nLab:set]] and $\{A_i\}_{i \in I}$ an $I$-indexed family of abelian groups. The **[[nLab:direct sum]]** $\oplus_{i \in I} \in Ab$ is the [[nLab:coproduct]] of these objects in [[nLab:Ab]].
+
+This means: the direct sum is an abelian group equipped with a collection of 
+homomorphisms
+
+$$
+  \array{
+    A_j &&\cdots && A_k
+    \\
+    & {}_{\mathllap{\iota_j} }\searrow &\cdots& \swarrow_{\mathrlap{\iota_{k}}}
+    \\
+    && \oplus_{i \in I} A_i
+  }
+  \,,
+$$
+
+which is characterized (up to unique [[nLab:isomorphism]]) by the following [[nLab:universal property]]: for every other abelian group $K$ equipped with maps 
+
+$$
+  \array{
+    A_j &&\cdots && A_k
+    \\
+    & {}_{\mathllap{f_j} }\searrow &\cdots& \swarrow_{\mathrlap{f_{k}}}
+    \\
+    && K
+  }
+$$
+
+there is a unique homomorphism $\phi : \oplus_{i \in I} A_i \to K$ such that 
+$ f_i = \phi \circ \iota_i$ for all $i \in I$.
+
+=--
+
+Explicitly in terms of elements we have:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[nLab:direct sum]] $\oplus_{i \in I} A_i$ is the abelian group whose ements are formal sums
+
+$$
+  a_1 + a_2 + \cdots + a_k
+$$
+
+of _finitely_ many elements of the $\{A_i\}$, with addition given by componentwise addition in the corresponding $A_i$.
+
+=--
+
++-- {: .num_prop}
+###### Example
+
+If each $A_i = \mathbb{Z}$, then the direct sum is again the [[nLab:free abelian group]] on $I$
+
+$$
+  \oplus_{i \in I} \mathbb{Z} \simeq \mathbb{Z}[I]
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #TensorProductDistributes}
+###### Proposition
+
+The [[nLab:tensor product of abelian groups]] [[nLab:distributivity law|distributes]] over arbitrary [[nLab:direct sums]]: 
+
+$$
+  A \otimes (\oplus_{i \in I} B_i) \simeq \oplus_{i \in I} A \otimes B_o
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $I \in Set$ and $A \in Ab$, the [[nLab:direct sum]] of ${\vert I\vert}$ copies of $A$ with itself is equivalently the [[nLab:tensor product of abelian groups]] of the [[nLab:free abelian group]] on $I$ with $A$:
+
+$$
+  \oplus_{i \in I} A \simeq (\oplus_{i \in I} \mathbb{Z}) \otimes A
+  \simeq (\mathbb{Z}[I]) \otimes A
+  \,.
+$$ 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Together, tensor product and direct sum of abelian groups make [[nLab:Ab]] into what is called a _[[nLab:bimonoidal category]]_.
+
+=--
+
+This now gives us enough structure to define [[nLab:rings]] and consider basic examples of their [[nLab:modules]].
+
++-- {: .num_defn}
+###### Definition
+
+A [[nlab:ring]] (unital and not-necessarily commutative) 
+is an [[nLab:abelian group]] $R$ equipped with 
+
+1. an element $1 \in R$ 
+
+1. a [[nLab:bilinear function|bilinear operation]], hence a [[nLab:group homomorphism]]
+
+   $$
+     \cdot : R \otimes R \to R
+   $$
+
+   out of the [[nLab:tensor product of abelian groups]], 
+
+such that this is [[nLab:associativity law|associative]] and [[nLab:unit law|unital]] with respect to 1.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The fact that the product is a [[nLab:bilinear map]] is the 
+**[[nLab:distributivity law]]**: for all $r, r_1, r_2 \in R$ we have
+
+$$
+  r \cdot (r_1 + r_2) = r \cdot r_1 + r \cdot r_2
+$$
+
+and
+
+$$
+  (r_1 + r_2) \cdot r = (r_1 + r_2) \cdot r
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+* The [[nLab:integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. 
+
+* For each  $n$, this induces a ring structure on the [[nLab:cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
+
+* The [[nLab:rational numbers]] $\mathbb{Q}$, [[nLab:real numbers]] $\mathbb{R}$ and [[nLab:complex numbers]] are rings under their standard operations (in fact these are even _[[nLab:fields]]_).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $R$ a ring, the [[nLab:polynomials]] 
+
+$$
+  r_0 + r_1 x + r_2 x^2 + \cdots + r_n x^n
+$$
+
+(for arbitrary $n \in\mathbb{N}$) in a [[nLab:variable]] $x$ with [[nLab:coefficients]] in $R$ form another ring, the _[[nLab:polynomial ring]]_ denoted $R[x]$.
+This is the [[nLab:free construction|free]] $R$-[[nLab:associative algebra]] on a single generator $x$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $R$ a ring and $n \in \mathbb{N}$, the set 
+$M(n,R)$
+of $n \times n$-[[nLab:matrices]] with [[nLab:coefficients]] in $R$
+is a ring under elementwise addition and [[nLab:matrix multiplication]].
+
+=--
+
++-- {: .num_example #FunctionsOnTopologicalSpace}
+###### Example
+
+For $X$ a [[nLab:topological space]], the set of [[nLab:continuous functions]]
+$C(X,\mathbb{R})$ or $C(X,\mathbb{C})$ with values in the 
+[[nLab:real numbers]] or [[nLab:complex numbers]] is a ring under pointwise 
+(points in $X$) addition and multiplication.
+
+=--
+
+Just as an outlook and a suggestion for how to think geometrically of the objects appearing here, we mention the following.
+
++-- {: .num_remark #GelfandDuality}
+###### Remark
+
+The _[[nLab:Gelfand duality]] theorem_ says that if one remembers certain extra structure on the rings of functions $C(X, \mathbb{C})$ in example \ref{FunctionsOnTopologicalSpace} -- called the structure of a _[[nLab:C-star algebra]]_, then this construction 
+
+$$
+  C(-,\mathbb{C}) : Top \stackrel{\simeq}{\to} C^\ast Alg^{op} \stackrel{forget}{\to}
+  Ring^op
+$$
+
+is an [[nLab:equivalence of categories]] between that of topological spaces, and the [[nLab:opposite category]] of $C^\ast$-algebras. Together with remark \ref{SerreSwan} further below this provides a useful dual geometric way of thinking about the theory of modules.
+
+=--
+
+
+
+From now on and throughout, we take $R$ to be a [[nLab:commutative ring]]. 
+
+
++-- {: .num_defn }
+###### Definition
+
+A **module** $N$ over a ring $R$ is
+
+1. an [[nLab:object]] $N \in $ [[nLab:Ab]], hence an [[nLab:abelian group]];
+
+1. equipped with a [[nLab:morphism]]
+
+   $$
+     \alpha : R \otimes N \to N
+   $$ 
+
+   in [[nLab:Ab]]; hence a [[nLab:function]] of the underlying [[nLab:sets]] that sends elements
+
+   $$
+     (r,n) \mapsto  r n  \coloneqq \alpha(r,n)
+   $$
+
+   and which is a [[nLab:bilinear function]] in that it satisfies
+
+   $$
+    (r, n_1 + n_2) \mapsto r n_1 + r n_2
+   $$
+
+   and
+
+   $$
+    (r_1 + r_2, n) \mapsto r_1 n + r_2 n
+   $$
+
+   for all $r, r_1, r_2 \in R$ and $n,n_1, n_2 \in N$;
+
+1. such that the [[nLab:diagram]]
+
+   $$
+     \array{
+        R \otimes R \otimes N 
+        &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
+        \\
+        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
+        && 
+        \downarrow^{\mathrlap{\alpha}}
+        \\
+        R \otimes N &\to& N 
+     }
+   $$
+
+   [[nLab:commuting diagram|commutes]] in [[nLab:Ab]],  which means that for all elements as before we have
+
+   $$
+     (r_1 \cdot r_2) n = r_1 (r_2 n)
+      \,.
+   $$
+
+1. such that the diagram
+
+   $$
+     \array{
+        1 \otimes N &&\stackrel{1 \otimes id_N}{\to}&& R \otimes N
+        \\
+        & \searrow && \swarrow_{\mathrlap{\alpha}}
+        \\
+        && N
+     }
+   $$
+     
+   commutes, which means that on elements as above 
+
+   $$
+     1 \cdot n = n
+     \,.
+   $$
+
+=--
+
++-- {: .num_example #RingAsModuleOverItself}
+###### Example
+
+The ring $R$ is naturally a module over itself, by regarding its multiplication map $R \otimes R \to R$ as a module action $R \otimes N \to N$ with $N \coloneqq R$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+More generally, for $n \in \mathbb{N}$ the $n$-fold [[nLab:direct sum]] of the [[nLab:abelian group]] underlying $R$ is naturally a module over $R$
+
+$$
+  R^n \coloneqq R^{\oplus_n} \coloneqq \underbrace{R \oplus R \oplus \cdots \oplus R}_{n\;summands}
+  \,.
+$$
+
+The module action is componentwise:
+
+$$
+  r \cdot (r_1, r_2, \cdots, r_n) = (r \cdot r_1, r\cdot r_2, \cdot r \cdot r_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Even more generally, for $I \in $ [[nLab:Set]] any [[nLab:set]], the direct sum
+$\oplus_{i \in I} R$ is an $R$-module.
+
+This is the **[[nLab:free module]]** (over $R$) on the set $S$.
+
+The set $I$ serves as the [[nLab:basis of a free module]]: a general element $v \in \oplus_i R$ is a [[nLab:formal linear combination]] of elements of $I$ with [[nLab:coefficients]] in $R$.
+
+=--
+
+For special cases of the ring $R$, the notion of $R$-module is equivalent to other notions:
+
+
++-- {: .num_example}
+###### Example
+
+For $R = \mathbb{Z}$ the [[nLab:integers]], an $R$-module is equivalently just an [[nLab:abelian group]].
+
+=--
+
++-- {: .num_example #VectorSpacesArekModules}
+###### Example
+
+For $R = k$ a [[nLab:field]], an $R$-module is equivalently a [[nLab:vector space]] over $k$.
+
+Every finitely-generated free $k$-module is a [[nLab:free module]], hence every finite dimensional vector space has a [[nLab:basis of a free module|basis]]. For infinite dimensions this is true if the [[nLab:axiom of choice]] holds.
+
+=--
+
++-- {: .num_example #SubmodulesInExamples}
+###### Example
+
+For $N$ a [[nLab:module]] and $\{n_i\}_{i \in I}$ a set of elements, the
+[[nLab:linear span]]
+
+$$
+  \langle n_i\rangle_{i \in I} \hookrightarrow N
+  \,,
+$$
+
+(hence the completion of this set under addition in $N$ and multiplication by $R$) is a [[nLab:submodule]] of $N$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider example \ref{SubmodulesInExamples} for the case that the module is $N = R$, the ring itself, as in example \ref{RingAsModuleOverItself}. Then a [[nLab:submodule]] is equivalently (called) an _[[nLab:ideal]]_ of $R$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $R$[[nLab:Mod]] for the [[nLab:category]] or $R$-[[nLab:modules]]
+and $R$-[[nLab:linear maps]] between them.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $R = \mathbb{Z}$ we have $\mathbb{Z} Mod \simeq Ab$.
+
+=--
+
+
++-- {: .num_example #ModulesOfSectionsOfTopologicalVectorBundle}
+###### Example
+
+Let $X$ be a [[nLab:topological space]] and let 
+
+$$
+  R \coloneqq  C(X,\mathbb{C})
+$$
+
+be the ring of [[nLab:continuous functions]] on $X$ with values in the 
+[[nLab:complex numbers]]. 
+
+Given a complex [[nLab:vector bundle]] $E \to X$ on $X$, write $\Gamma(E)$
+for its set of continuous sections. Since for each point $x \in X$ the [[nLab:fiber]] $E_x$ of $E$ over $x$ is a $\mathbb{C}$-module (by example \ref{VectorSpacesArekModules}), $\Gamma(X)$ is a $C(X,\mathbb{C})$-module.
+
+=--
+
+Just as an outlook and a suggestion for how to think of modules geometrically, we mention the following.
+
++-- {: .num_remark #SerreSwan}
+###### Remark
+
+The _[[nLab:Serre-Swan theorem]]_ says that 
+if $X$ is [[nLab:Hausdorff topological space|Hausdorff]] and [[nLab:compact topological space|compact]] with ring of functions $C(X,\mathbb{C})$ -- as in remark \ref{GelfandDuality} above
+-- then $\Gamma(X)$ is a _[[nLab:projective module|projective]]_ $C(X,\mathbb{C})$-module and indeed there is an 
+[[nLab:equivalence of categories]] between projective $C(X,\mathbb{C})$-modules and complex vector bundles over $X$.
+(We introduce the notion of _[[nLab:projective modules]]_ below in [Derived categories and derived functors](#DerivedCategoriesAndDerivedFunctors).)
+
+=--
+
+
+
+We now discuss a bunch of properties of the category $R$[[nLab:Mod]] which together will show that there is a reasonable concept of [[nLab:chain complexes]] of $R$-modules, in generalization of how there is a good concept of chain complexes of abelian groups. In a more abstract [[nLab:category theory|category theoretical]] context than we invoke here, all of the following properties are summarized in the following statement. 
+
++-- {: .num_theorem #RModIsAbelian}
+###### Theorem
+
+Let $R$ be a [[nLab:commutative ring]]. Then $R Mod$ is an [[nLab:abelian category]].
+
+=--
+
+But for the moment we ignore this further abstraction and just consider the following list of properties.
+
++-- {: .num_defn}
+###### Definition
+
+An [[nLab:object]] in a [[nLab:category]] which is both an [[nLab:initial object]] and a [[nLab:terminal object]] is called a **[[nLab:zero object]]**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that $0 \in \mathcal{C}$ is a zero object precisely if for every other object $A$ there is a unique [[nLab:morphism]] $A \to 0$ to the zero object as well as a unique morphism $0 \to A$ from the zero object.
+
+=--
+
+
++-- {: .num_prop #RModHasZeroObject}
+###### Proposition
+
+The [[nLab:trivial group]] is a [[nLab:zero object]] in [[nLab:Ab]].
+
+The trivial module is a [[nLab:zero object]] in $R$[[nLab:Mod]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Clearly the 0-module $0$ is a [[nLab:terminal object]], since every morphism $N \to 0$ has to send all elements of $N$ to the unique element of $0$, and every such morphism is a [[nLab:homomorphism]].
+Also, 0 is an [[nLab:initial object]] because a morphism $0 \to N$ always exists and is unique, as it has to send the unique element of 0, which is the neutral element, to the neutral element of $N$.
+
+=--
+
+
+
++-- {: .num_defn}
+###### Definition
+
+In a [[nLab:category]] with an [[nLab:initial object]] $0$ and [[nLab:pullbacks]], the __kernel__ $ker(f)$ of a [[nLab:morphism]] $f: A \to B$ is the [[nLab:pullback]] $ker(f) \to A$ along $f$ of the unique morphism $0 \to B$
+
+$$
+  \array{
+    ker(f)
+    &\to&
+    0
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow
+    \\
+    A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+More explicitly, this characterizes the object $ker(f)$ as [[nLab:generalized the|the]] object (unique up to unique [[nLab:isomorphism]]) that satisfies the following [[nLab:universal property]]:
+
+for every object $C$ and every morphism $h : C \to A$ such that $f\circ h = 0$ is the [[nLab:zero morphism]], there is a unique morphism $\phi : C \to ker(f)$ such that $h = p\circ \phi$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In the [[nLab:category]] [[nLab:Ab]] of abelian groups, the kernel of a [[nLab:group homomorphism]] $f : A \to B$ is the [[nLab:subgroup]] of $A$ on the set $f^{-1}(0)$ of elements of $A$ that are sent to the zero-element of $B$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+More generally, for $R$ any [[nLab:ring]], this is true in $R$[[nLab:Mod]]: the kernel of a morphism of modules is the [[nLab:preimage]] of the zero-element at the level of the underlying sets, equipped with the unique sub-module structure on that set.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+In a [[nLab:category]] with [[nLab:zero object]], the **cokernel** of a [[nLab:morphism]] $f : A \to B$ is the [[nLab:pushout]] $coker(f)$ in
+
+$$
+  \array{
+    A &\stackrel{f}{\to}& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{i}}
+    \\
+    0 &\to& coker(f)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+More explicitly, this characterizes the object $coker(f)$ as [[nLab:generalized the|the]] object (unique up to unique [[nLab:isomorphism]]) that satisfies the following [[nLab:universal property]]:
+
+for every object $C$ and every morphism $h : B \to C$ such that $h \circ f = 0$ is the [[nLab:zero morphism]], there is a unique morphism $\phi : coker(f) \to C$ such that $h = \phi \circ i$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In the category [[nLab:Ab]] of [[nLab:abelian groups]] the cokernel of a morphism $f : A \to B$ is the [[nLab:quotient group]] of $B$ by the [[nLab:image]] (of the underlying morphism of [[nLab:sets]]) of $f$.
+
+=--
+
+
+
++-- {: .num_prop #RModHasKernelsAndCokernels}
+###### Proposition
+
+$R Mod$ has all [[nLab:kernels]]. The kernel of a homomorphism $f : N_1 \to N_2$ is the set-theoretic [[nLab:preimage]] $U(f)^{-1}(0)$ equipped with the induced $R$-module structure.
+
+$R Mod$ has all [[nLab:cokernels]]. The cokernel of a homomorphism $f : N_1 \to N_2$ is the [[nLab:quotient]] abelian group 
+
+$$
+  coker f = \frac{N_2}{im(f)}
+$$
+
+of $N_2$ by the [[nLab:image]] of $f$.
+
+=--
+
+The reader unfamiliar with the general concept of [[nLab:monomorphism]] and [[nLab:epimorphism]] may take the following to _define_ these in [[nLab:Ab]] to be simply the [[nLab:injections]] and [[nLab:surjections]].
+
++-- {: .num_prop }
+###### Proposition
+
+$U : R Mod \to Set$ preserves and reflects [[nLab:monomorphisms]] and [[nLab:epimorphisms]]:
+
+A homomorphism $f : N_1 \to N_2$ in $R Mod$ is a [[nLab:monomorphism]] / [[nLab:epimorphism]] precisely if $U(f)$ is an [[nLab:injection]] / [[nLab:surjection]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose that $f$ is a [[nLab:monomorphism]], hence that $f : N_1 \to N_2$ is such that for all morphisms $g_1, g_2 : K \to N_1$ such that $f \circ g_1 = f \circ g_2$ already $g_1 = g_2$. Let then $g_1$ and $g_2$ be the inclusion of [[nLab:submodules]] generated by a single element $k_1 \in K$ and $k_2 \in K$, respectively. It follows that if $f(k_1) = f(k_2)$ then already $k_1 = k_2$ and so $f$ is an [[nLab:injection]].  Conversely, if $f$ is an injection then its image is a [[nLab:submodule]] and it follows directly that $f$ is a monomorphism.
+
+Suppose now that $f$ is an [[nLab:epimorphism]] and hence that $f : N_1 \to N_2$ is such that for all morphisms $g_1, g_2 : N_2 \to K$ such that $f \circ g_1 = f \circ g_2$ already $g_1 = g_2$. 
+Let then $g_1 : N_2 \to \frac{N_2}{im(f)}$ be the natural projection. and let $g_2 : N_2 \to 0$ be the [[nLab:zero morphism]]. Since by construction $f \circ g_1 = 0$ and $f \circ g_2 = 0$ we have that $g_1 = 0$, which means that $\frac{N}{im(f)} = 0$ and hence that $N = im(f)$ and so that $f$ is surjective. The other direction is evident on elements.
+
+=--
+
+
++-- {: .num_defn #AbelianGroupStructureOnHoms}
+###### Definition
+
+For $N_1, N_2 \in R Mod$ two modules, define on the [[nLab:hom set]] $Hom_{R Mod}(N_1,N_2)$ the structure of an [[nLab:abelian group]] whose addition is given by argumentwise addition in $N_2$: $(f_1 + f_2) : n \mapsto f_1(n) + f_2(n)$.
+
+
+=--
+
++-- {: .num_prop #RModIsAbEnriched}
+###### Proposition
+
+With def. \ref{AbelianGroupStructureOnHoms} $R Mod$ composition of morphisms
+
+$$
+  \circ : Hom(N_1, N_2) \times Hom(N_2, N_3) \to Hom(N_1,N_3)
+$$
+
+is a [[nLab:bilinear map]], hence is equivalently a morphism
+
+$$
+  Hom(N_1, N_2) \otimes Hom(N_2,N_3) \to Hom(N_1, N_3)
+$$
+
+out of the [[nLab:tensor product of abelian groups]]. 
+
+This makes $R Mod$ into an [[nLab:Ab-enriched category]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Linearity of composition in the second argument is immediate from the pointwise definition of the abelian group structure on morphisms. 
+Linearity of the composition in the first argument comes down to linearity of the second module homomorphism.
+
+=--
+
+
+
++-- {: .num_remark }
+###### Remark
+
+In fact $R Mod$ is even a [[nLab:closed category]], but this we do not need for showing that it is abelian.
+
+=--
+
+Prop. \ref{RModHasZeroObject} and prop. \ref{RModIsAbEnriched} together say that:
+
++-- {: .num_cor #RModIsAdditive}
+###### Corollary
+
+$R Mod$ is an [[nLab:pre-additive category]]. 
+
+=--
+
++-- {: .num_prop #RModHasProductsAndCoproducts}
+###### Proposition
+
+$R Mod$ has all [[nLab:products]] and [[nLab:coproducts]], being [[nLab:direct products]] and  [[nLab:direct sums]]. 
+
+The products are given by [[nLab:cartesian product]] of the underlying sets with componentwise addition and $R$-action.
+
+The direct sum is the subobject of the product consisting of tuples of elements such that only finitely many are non-zero.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The defining [[nLab:universal properties]] are directly checked. Notice that the direct product $\prod_{i \in I} N_i$ consists of arbitrary tuples because it needs to have a projection map 
+
+$$
+  p_j : \prod_{i \in I} N_i \to N_j
+$$
+
+to each of the modules in the product, reproducing all of a possibly infinite number of non-trivial maps $\{K \to N_j\}$. On the other hand, the direct sum just needs to contain all the modules in the sum
+
+$$
+  \iota_j : N_j \to \oplus_{i \in I} N_i
+$$
+
+and since, being a module, it needs to be closed only under addition of _finitely_ many elements, so it consists only of [[nLab:linear combinations]] of the elements in the $N_j$, hence of finite formal sums of these.
+
+=--
+
+
+
+Together cor. \ref{RModIsAdditive} and prop. \ref{RModHasProductsAndCoproducts} say that:
+
++-- {: .num_cor #RModIsAdditive}
+###### Corollary
+
+$R Mod$ is an [[nLab:additive category]].
+
+=--
+
+
++-- {: .num_prop #InRModMonosAreKernelOfTheirCokernel}
+###### Proposition
+
+In $R Mod$
+
+* every [[nLab:monomorphism]] is the [[nLab:kernel]] of its [[nLab:cokernel]];
+
+* every [[nLab:epimorphism]] is the [[nLab:cokernel]] of its [[nLab:kernel]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the underlying sets: given a monomorphism $K \hookrightarrow N$, its cokernel is $N \to \frac{N}{K}$, The kernel of that morphism is evidently $K \hookrightarrow N$.
+
+=--
+
+Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
+
+Now we finally have all the ingredients to talk about chain complexes of $R$-modules. The following definitions are the direct analogs of the definitions of chain complexes of abelian groups in _[Simplicial and singular homology](#SimplicialHomology)_ above.
+
++-- {: .num_defn}
+###### Definition
+
+A ($\mathbb{Z}$-graded) **chain complex** in $R$[[nLab:Mod]] is 
+
+* a collection of [[nLab:objects]] $\{C_n\}_{n\in\mathbb{Z}}$, 
+
+* and of [[nLab:morphisms]] $\partial_n : C_n \to C_{n-1}$
+
+$$ 
+  \cdots \overset{\partial_3}{\to} C_2 \overset{\partial_2}{\to} C_1 \overset{\partial_1}{\to} C_0 \overset{\partial_0}{\to} C_{-1} \overset{\partial_{-1}}{\to} \cdots
+$$
+
+such that 
+
+$$
+  \partial_n  \circ \partial_{n+1} = 0
+$$ 
+
+(the [[nLab:zero morphism]]) for all $n \in \mathbb{N}$.  
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $C_\bullet$ a chain complex and $n \in \mathbb{N}$
+
+* the morphisms $\partial_n$ are called the **[[nLab:differentials]]** or **[[nLab:boundary]] maps**;
+
+* the [[nLab:element in an abelian category|elements]] of $C_n$
+  are called the **$n$-[[nLab:chains]]**;
+
+* for $n \geq 1$ the elements in the [[nLab:kernel]] 
+
+  $$
+    Z_n \coloneqq ker(\partial_{n-1})
+  $$
+
+  of $\partial_{n-1} : C_n \to C_{n-1}$ are called the **$n$-[[nLab:cycles]]** 
+
+  and for $n = 0$ we say that every 0-chain is a 0-cycle
+
+  $$
+    Z_0 \coloneqq C_0
+  $$
+
+  (equivalently we declare that $\partial_{-1} = 0$).
+
+* the elements in the [[nLab:image]] 
+
+  $$
+    B_n \coloneqq im(\partial_n)
+  $$
+
+  of $\partial_{n} : C_{n+1} \to C_{n}$ are called the **$n$-[[nLab:boundaries]]**;
+
+Notice that due to $\partial \partial = 0$ we have canonical inclusions
+
+$$
+  0 \hookrightarrow B_n \hookrightarrow Z_n \hookrightarrow C_n
+  \,.
+$$
+
+* the [[nLab:cokernel]] 
+
+  $$
+    H_n \coloneqq Z_n/B_n
+  $$
+
+  is called the degree-$n$ **[[nLab:chain homology]]** of $C_\bullet$.
+
+$$
+  0 \to B_n \to Z_n \to H_n \to 0
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A **chain map** $f : V_\bullet \to W_\bullet$ is a collection of [[nLab:morphism]] $\{f_n : V_n \to W_n\}_{n \in \mathbb{Z}}$ in $\mathcal{A}$ such that all the [[nLab:diagrams]]
+
+$$
+  \array{
+    V_{n+1} &\stackrel{d^V_n}{\to}& V_n
+    \\
+    \downarrow^{\mathrlap{f_{n+1}}} 
+    &&
+    \downarrow^{\mathrlap{f_{n}}} 
+    \\
+    W_{n+1} &\stackrel{d^W_n}{\to} & W_n
+  }
+$$ 
+
+[[nLab:commuting diagram|commute]], hence such that all the [[nLab:equations]]
+
+$$
+  f_n \circ d^V_n = d^W_{n+1} \circ f_{n+1}
+$$
+
+hold.
+
+=--
+
++-- {: .num_prop #OnHomology}
+###### Proposition
+
+For $f : C_\bullet \to D_\bullet$ a chain map, it respects [[nLab:boundaries]] and [[nLab:cycles]], so that for all $n \in \mathbb{Z}$ it restricts to a morphism
+
+$$
+  B_n(f) : B_n(C_\bullet) \to B_n(D_\bullet)
+$$
+
+and
+
+$$
+  Z_n(f) : Z_n(C_\bullet) \to Z_n(D_\bullet)
+  \,.
+$$
+
+In particular it also respects [[nLab:chain homology]]
+
+$$
+  H_n(f) : H_n(C_\bullet) \to H_n(D_\bullet)
+  \,.
+$$
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+Conversely this means that taking [[nLab:chain homology]] is a [[nLab:functor]]
+
+$$
+  H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+$$
+
+from the [[nLab:category of chain complexes]] in $\mathcal{A}$ to $\mathcal{A}$ itself.
+
+=--
+
+This establishes the basic objects that we are concerned with in the following. But as before, we are not so much interested in chain complexes up to chain map isomorphism, rather, we are interested in them up to a notion of [[nLab:homotopy]] equivalence. This we begin to study in the next section _[Homology exact sequences and homotopy fiber sequences](#HomotopyHomologyFiberSequence)_. But in order to formulate that neatly, it is useful to have the _[[nLab:tensor product of chain complexes]]_. We close this section with introducing that notion.
+
++-- {: .num_defn #TensorProductOfChainComplexes}
+###### Definition
+
+For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $X \otimes Y \in Ch_\bullet(\mathcal{A})$ for the chain complex whose component in degree $n$ is given by the [[nLab:direct sum]]
+
+$$
+  (X \otimes Y)_n := \oplus_{i + j = n} X_i \otimes_R Y_j
+$$
+
+over all tensor products of components whose degrees sum to $n$,
+and whose [[nLab:differential]] is given on elements $(x,y)$ of homogeneous degree by
+
+$$
+  \partial^{X \otimes Y} (x, y) = (\partial^X x, y) + (-1)^{deg(x)} (x, \partial^Y y)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #SquareAsTensorProduct}
+###### Example
+**(square as tensor product of interval with itself)**
+
+For $R$ some [[nLab:ring]], let $I_\bullet \in Ch_\bullet(R Mod)$ be the chain complex given by
+
+$$
+  I_\bullet =
+  \left[
+     \cdots \to 0 \to 0 \to R \stackrel{\partial^{I}_0}{\to} R \oplus R
+  \right]
+  \,,
+$$
+
+where $\partial^I_0 = (-id, id)$. 
+
+This is the [[nLab:normalized chain complex]] of the [[nLab:chain on a simplicial set|simplicial chain complex]] of the standard simplicial interval, the 1-[[nLab:simplex]] $\Delta_1$, which means: we may think of 
+
+$$
+ I_0 = R \oplus R \simeq R[ \{(0), (1)\} ]
+$$
+
+as the $R$-[[nLab:linear span]] of two [[nLab:basis]] elements labelled "$(0)$" and "$(1)$", to be thought of as the two 0-[[nLab:chain on a simplicial set|chains]] on the endpoints of the interval. Similarly we may think of
+
+$$
+  I_1 = R \simeq R[\{(0 \to 1)\}]
+$$
+
+as the free $R$-module on the single basis element which is the unique non-degenerate 1-[[nLab:simplex]] $(0 \to 1)$ in $\Delta^1$.
+
+Accordingly, the [[nLab:differential]] $\partial^I_0$ is the oriented [[nLab:boundary]] map of the interval, taking this basis element to
+
+$$
+  \partial^I_0 : (0 \to 1) \mapsto (1) - (0) 
+$$
+
+and hence a general element $r\cdot(0 \to 1)$ for some $r \in R$ to 
+
+$$
+  \partial^I_0 : r\cdot(0 \to 1) \mapsto r\cdot (1) - r\cdot(0) 
+  \,.
+$$
+
+We now write out in full details the tensor product of chain complexes of $I_\bullet$ with itself, according to def. \ref{TensorProductOfChainComplexes}:
+
+$$
+  S_\bullet \coloneqq I_\bullet \otimes I_\bullet
+  \,.
+$$
+
+By definition and using the above choice of [[nLab:basis]] element, this is in low degree given as follows:
+
+$$
+  \begin{aligned}
+    S_0 
+    &=  
+    I_0 \oplus I_0 
+    \\
+    & =
+    (R \oplus R) \otimes (R \oplus R)
+    \\
+    & \simeq R \oplus R \oplus R \oplus R
+    \\
+    & = 
+    \left\{
+       r_{00} \cdot ((0),(0)')
+       +
+       r_{01} \cdot ((0),(1)')
+       +
+       r_{10} \cdot ((1),(0)')
+       +
+       r_{11} \cdot ((1),(1)')
+       |
+       r_{\cdot, \cdot} \in R
+    \right\}
+  \end{aligned}
+  \,,
+$$
+
+where in the last line we express a general element as a linear combination of the canonical basis elements which are obtained as tensor products $(a,b) \in R\otimes R$ of the previous basis elements. Notice that by the definition of [[nLab:tensor product of modules]] we have relations like
+
+$$
+  r ( (0), (1)') = (r(0), (1)') = ((0), r(1)')
+$$
+
+etc. 
+
+Similarly then, in degree-1 the tensor product chain complex is
+
+$$
+  \begin{aligned}
+     (I \otimes I)_1 
+     & =
+     (I_0 \otimes I_1) \oplus (I_1 \otimes I_0)
+     \\
+     & \simeq
+     R \otimes (R \oplus R) \oplus (R \oplus R) \otimes R
+     \\
+     & \simeq
+     R \oplus R \oplus R \oplus R
+     \\
+     & \simeq
+     \left\{
+       r_{0} \cdot ((0),(0\to 1)')
+       + 
+       r_{1} \cdot ((1), (0 \to 1)')
+       + 
+       \bar r_0 \cdot ((0\to 1), (0)')
+       +
+       \bar r_1 \cdot ((0 \to 1), (1)')
+       |
+       r_{\cdot}, \bar r_{\cdot} \in R
+     \right\}
+  \end{aligned}
+  \,.
+$$
+
+And finally in degree 2 it is 
+
+$$
+  \begin{aligned}
+     (I \otimes I)_2
+     & \simeq
+     I_1 \otimes I_1
+     \\
+     & \simeq
+     R \otimes R
+     \\
+     & \simeq R
+     \\
+     & \simeq
+     \left\{
+       r\cdot ((0 \to 1), (0 \to 1)')
+       |
+       r \in R
+     \right\}
+  \end{aligned}
+  \,.
+$$
+
+All other contributions that are potentially present in $(I \otimes I)_\bullet$ vanish (are the [[nLab:trivial group|0-module]]) because all higher terms in $I_\bullet$ are.
+
+The tensor product basis elements appearing in the above expressions have a clear [[nLab:geometry|geometric]] interpretation: we can label a square with them as follows
+
+$$
+  \array{
+     ((0),(1)')
+     &&\underset{((0\to 1),(0))}{\to}&&
+     ((1),(1)')
+     \\
+     \\
+     {}^{\mathllap{((0),(0\to 1)')}}\uparrow 
+     &&\righttoleftarrow^{((0 \to 1), (0\to 1)')}&& 
+     \uparrow^{\mathrlap{((1),(0 \to 1)')}}
+     \\
+     \\
+     ((0),(0)')
+     &&\underset{((0\to 1),(0)')}{\to}&&
+     ((1),(0)')
+  }
+  \,.
+$$
+
+This diagram indicates a [[nLab:cellular complex|cellular]] square and identifies its canonical [[nLab:singular chains]] with the elements of $(I \otimes I)_\bullet$. The arrows indicate the orientation. For instance the fact that
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes I} ((0 \to 1), (0)')
+    & =
+    (\partial^I (0 \to 1), (0)')
+    + (-1)^1
+    ((0\to 1), \partial^I (0))
+    \\
+    & = 
+    ( (1) - (0), \;(0)' )
+    - 0
+    \\
+    & = 
+    ((1), (0)') - ((0), (0)')
+  \end{aligned} 
+$$
+
+says that the oriented [[nLab:boundary]] of the bottom morphism is the bottom right element (its target) minus the bottom left element (its source), as indicated. Here we used that the differential of a degree-0 element in $I_\bullet$ is 0, and hence so is any tensor product with it.
+
+Similarly the oriented boundary of the square itself is computed to
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes I} ((0 \to 1), (0 \to 1)')
+    &=
+    (\partial^I (0 \to 1), (0 \to 1)')
+    - 
+    ((0 \to 1), \partial^I(0 \to 1))
+    \\
+    & = 
+    ((1)- (0), (0 \to 1)')
+    -
+    ((0 \to 1), (1)' - (0)')
+    \\
+    & = 
+    ((1), (0 \to 1)')
+    -
+    ((0), (0 \to 1)')
+    -
+    ((0 \to 1), (1)')
+    +
+    ((0 \to 1), (0)')
+  \end{aligned}
+  \,,
+$$
+
+which can be read as saying that the boundary is the evident boundary thought of as oriented by drawing it _counterclockwise_ into the plane, so that the right arrow (which points up) contributes with a +1 prefactor, while the left arrow (which also points up) contributes with a -1 prefactor.
+
+
+=--
+
+
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+Equipped with the standard [[nLab:tensor product of chain complexes]] $\otimes$, def. \ref{TensorProductOfChainComplexes}
+the category of chain complexes is a [[nLab:monoidal category]]
+$(Ch_\bullet(R Mod), \otimes)$. The [[nLab:unit object]]
+is the chain complex concentrated in degree 0 on the tensor unit $R$ of $R Mod$. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+We write $Ch_\bullet^{ub}$ for the category of _unbounded_ chain complexes.
+
+=--
+
++-- {: .num_defn #ExplicitDefinitionOfInternalHom}
+###### Definition
+
+For $X,Y \in Ch^{ub}_\bullet(\mathcal{A})$ any two [[nLab:objects]], define a chain complex $[X,Y] \in Ch^{ub}_\bullet(\mathcal{A})$ to have components
+
+$$
+  [X,Y]_n := \prod_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
+$$ 
+
+(the collection of degree-$n$ maps between the underlying [[nLab:graded object|graded]] modules) and whose [[nLab:differential]] is defined on homogeneously graded elements $f \in [X,Y]_n$ by
+
+$$
+  d f := d_Y \circ f - (-1)^{n} f \circ d_X
+  \,.
+$$
+
+This defines a [[nLab:functor]]
+
+$$
+  [-,-] 
+   : 
+  Ch^{ub}_\bullet(\mathcal{A})^{op} \times
+  Ch^{ub}_\bullet(\mathcal{A})
+  \to 
+  Ch^{ub}_\bullet(\mathcal{A})
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+This functor 
+
+$[-,-] : Ch^{ub}_\bullet \times Ch^{ub}_\bullet \to Ch^{ub}_\bullet$
+
+is the [[nLab:internal hom]] of the [[nLab:category of chain complexes]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The collection of [[nLab:cycles]] of the [[nLab:internal hom]] $[X,Y]_\bullet$ in degree 0 coincides with the external [[nLab:hom functor]]
+
+$$
+  Z_0([X,Y]) \simeq Hom_{Ch^{ub}_\bullet}(X,Y)
+  \,.
+$$
+
+The [[nLab:chain homology]] of the [[nLab:internal hom]] $[X,Y]$ in degree 0 coincides with the [[nLab:homotopy classes]] of [[nLab:chain maps]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By Definition \ref{ExplicitDefinitionOfInternalHom} the 0-cycles in $[X,Y]$ are collections of morphisms $\{f_k : X_k \to Y_k\}$ such that 
+
+$$
+  f_{k+1} \circ d_X = d_Y \circ f_k
+  \,.
+$$
+
+This is precisely the condition for $f$ to be a [[nLab:chain map]].
+
+Similarly, the [[nLab:boundaries]] in degree 0 are precisely the collections of morphisms of the form
+
+$$
+  \lambda_{k+1} \circ d_X + d_Y \circ \lambda_k
+$$
+
+for a collection of maps $\{\lambda_k : X_k \to Y_{k+1}\}$. This are
+precisely the [[nLab:null homotopies]].
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[nLab:monoidal category]] $(Ch_\bullet, \otimes)$ is a [[nLab:closed monoidal category]], 
+the [[nLab:internal hom]] is the standard [[nLab:internal hom of chain complexes]].
+
+=--
+
+
+
+##### Homology exact sequences 
+ {#HomotopyHomologyFiberSequence}
+
+With the basic definition of the [[nLab:category of chain complexes]] in hand,
+we now consider the first application, which is as simple as it is of ubiquituous use in [[nLab:mathematics]]: _[[nLab:long exact sequences in homology]]_. This is the "[[nLab:abelianization]]", in the sense of the discussion in [2)](#SimplicialHomology) above, of what in [[nLab:homotopy theory]] are _[[nLab:long exact sequences of homotopy groups]]_. But both concepts, in turn, are just the shadow on [[nLab:homology groups]]/[[nLab:homotopy groups]], respectively of [[nLab:homotopy fiber sequences]] of the underlying chain complexes/topological spaces themselves. Since these are even more useful, in particular in chapter [III)](#AbelianHomotopyTheory) below, we discuss below in [5)](#MappingCones) how to construct these using _[[nLab:chain homotopy]]_ and _[[nLab:mapping cones]]_.
+
+First we need the fundamental notion of _exact sequences_. As before, we fix some [[nLab:commutative ring]] $R$ throughout and consider the [[nLab:category of modules]] over $R$, which we will abbreviate
+
+$$
+  \mathcal{A} \coloneqq R Mod
+  \,.
+$$
+
++-- {: .num_defn #ExactSequence}
+###### Definition
+
+An **[[nLab:exact sequence]]** in $\mathcal{A}$ is a [[nLab:chain complex]] $C_\bullet$ in $\mathcal{A}$ with vanishing [[nLab:chain homology]] in each degree:
+
+$$
+  \forall n \in \mathbb{N} . H_n(C) = 0 
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #ShortExactSequence}
+###### Definition
+
+A **[[nLab:short exact sequence]]** is an [[nLab:exact sequence]], def. \ref{ExactSequence} of the form
+
+$$
+  \cdots \to 0 \to 0 \to A \to B \to C \to 0 \to 0 \to \cdots
+  \,.
+$$
+
+One usually writes this just "$0 \to A \to B \to C \to 0$" or even just "$A \to B \to C$". 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A general exact sequence is sometimes called a **long exact sequence**, to distinguish from the special case of a short exact sequence.
+
+Beware that there is a difference between $A \to B \to C$ being exact (at $B$) and $A \to B \to C$ being a "short exact sequence" in that $0 \to A \to B \to C \to 0$ is exact at $A$, $B$ and $C$. This is illustrated by the following proposition.
+
+=--
+
+
++-- {: .num_prop #CharacterizationOfShortExactSequences}
+###### Proposition
+
+Explicitly, a sequence of morphisms 
+
+$$ 
+  0 \to A \stackrel{i}\to B \stackrel{p}\to C  \to 0
+$$
+
+in $\mathcal{A}$ is short exact, def. \ref{ShortExactSequence}, precisely if
+
+1. $i$ is a [[nLab:monomorphism]],
+
+1. $p$ is an [[nLab:epimorphism]], 
+
+1. and the [[nLab:image]] of $i$ equals the [[nLab:kernel]] of $p$  (equivalently, the [[nLab:coimage]] of $p$ equals the [[nLab:cokernel]] of $i$).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The third condition is the definition of exactness at $B$. So we need to show that the first two conditions are equivalent to exactness at $A$ and at $C$.
+
+This is easy to see by looking at elements when $\mathcal{A} \simeq R$[[nLab:Mod]], for some ring $R$ (and the general case can be reduced to this one using one of the [embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)):
+
+The sequence being exact at 
+
+$$
+  0 \to A \to B
+$$
+
+means, since the [[nLab:image]] of $0 \to A$ is just the element $0 \in A$, that the [[nLab:kernel]] of $A \to B$ consists of just this element. But since $A \to B$ is a [[nLab:group homomorphism]], this means equivalently that $A \to B$ is an [[nLab:injection]]. 
+
+Dually, the sequence being exact at
+
+$$
+  B \to C \to 0
+$$
+
+means, since the [[nLab:kernel]] of $C \to 0$ is all of $C$, that also the [[nLab:image]] of $B \to C$ is all of $C$, hence equivalently that $B \to C$ is a [[nLab:surjection]].
+
+=--
+
++-- {: .num_example #MultiplicationAndCyclicGroup}
+###### Example
+
+Let $\mathcal{A} = \mathbb{Z}$[[nLab:Mod]] $\simeq$ [[nLab:Ab]]. For $n \in \mathbb{N}$ with $n \geq 1$ let $\mathbb{Z} \stackrel{\cdot n}{\to} \mathbb{Z}$ be the [[nLab:linear map]]/[[nLab:homomorphism]] of [[nLab:abelian groups]] which acts by the ordinary multiplication of [[nLab:integers]] by $n$. This is clearly an [[nLab:injection]]. The [[nLab:cokernel]] of this morphism is the projection to the [[nLab:quotient group]], which is the [[nLab:cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n\mathbb{Z}$. Hence we have a short exact sequence
+
+$$
+  0 \to \mathbb{Z} \stackrel{\cdot n}{\to} \mathbb{Z}
+  \to \mathbb{Z}_n
+  \,.
+$$
+
+=--
+
+
+A typical use of a long exact sequence, notably of the _[[nLab:homology long exact sequence]]_ to be discussed, is that it allows to determine some of its entries in terms of others.
+
+The characterization of short exact sequences in prop. \ref{CharacterizationOfShortExactSequences} is one example for this. Another is this:
+
++-- {: .num_prop }
+###### Proposition
+
+If part of an exact sequence looks like
+
+$$
+  \cdots \to 0 \to C_{n+1} \stackrel{\partial_n}{\to} C_n \to 0 \to \cdots
+  \,,
+$$
+
+then $\partial_n$ is an [[nLab:isomorphism]] and hence 
+
+$$
+  C_{n+1} \simeq C_n
+  \,.
+$$
+
+=--
+
+Often it is useful to make the following strengthening of short exactness explicit.
+
++-- {: .num_defn #SplitnessInAbelianCategory}
+###### Definition
+
+A [[nLab:short exact sequence]] $0\to A \stackrel{i}{\to} B \stackrel{p}{\to} C\to 0$ in $\mathcal{A}$  is called **split** if either of the following equivalent conditions hold
+
+1. There exists a [[nLab:section]] of $p$, hence a homomorphism $s \colon B\to C$ such that $p \circ s = id_C$.
+
+1. There exists a [[nLab:retract]] of $i$, hence a homomorphism $r \colon B\to A$ such that $r \circ i = id_A$.
+
+1. There exists an [[nLab:isomorphism]] of sequences with the sequence 
+
+   $$
+     0\to A\to A\oplus C\to C\to 0
+   $$
+
+   given by the [[nLab:direct sum]] and its canonical injection/projection morphisms.
+
+=--
+
++-- {: .num_prop #SplittingLemma}
+###### Proposition
+**(splitting lemma)**
+
+The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[nLab:equivalence|equivalent]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that the third condition implies the first two: take the section/retract to be given by the canonical injection/projection maps that come with a [[nLab:direct sum]].
+
+Conversely, suppose we have a retract $r \colon B \to A$ of $i \colon A \to B$. Write $P \colon B \stackrel{r}{\to} A \stackrel{i}{\to} B$ for the composite.  Notice that by $r\circ i = id$ this is an [[nLab:idempotent]]: $P \circ P = P$, hence a [[nLab:projector]]. 
+
+Then every element $b \in B$ can be decomposed as $b = (b - P(b)) + P(b)$ hence with $b - P(b) \in ker(r)$ and $P(b) \in im(i)$. Moreover this decomposition is unique since if $b = i(a)$ while at the same time $r(b) = 0$ then $0 = r(i(a)) = a$. This shows that $B \simeq im(i) \oplus ker(r)$ is a [[nLab:direct sum]] and that $i \colon A \to B$ is the canonical inclusion of $im(i)$. By exactness it then follows that $ker(r) \simeq ker(p)$ and hence that $B \simeq A \oplus C$ with the canonical inclusion and projection.
+
+The implication that the second condition also implies the third is formally dual to this argument. 
+
+=--
+
+
+Moreover, of particular interest are exact sequences _of chain complexes_. We consider this concept in full beauty below in section [5)](#DoubleComplexesAndSalamander). In order to motivate the discussion there we here content ourselves with the following quick definition, which already admits discussion of some of its rich consequences.
+
++-- {: .num_defn #ShortExactSequenceOfChainComplexes}
+###### Definition
+
+A sequence of [[nLab:chain maps]] of [[nLab:chain complexes]]
+
+$$
+  0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0
+$$
+
+is a **short exact sequence of chain complexes** in $\mathcal{A}$ if for each $n$ the component
+
+$$
+  0 \to A_n \to B_n \to C_n \to 0
+$$
+
+is a short exact sequence in $\mathcal{A}$, according to def. \ref{ShortExactSequence}.
+
+=--
+
++-- {: .num_defn #ConnectingForHomologyInComponents}
+###### Definition
+
+Consider a short exact sequence of chain complexes as in 
+def. \ref{ShortExactSequenceOfChainComplexes}.
+For $n \in \mathbb{Z}$, define a [[nLab:group homomorphism]]
+
+$$
+  \delta_n : H_n(C) \to H_{n-1}(A)
+  \,,
+$$
+
+called the $n$th **[[nLab:connecting homomorphism]]** of the short exact sequence, by sending
+
+$$
+  \delta_n : [c] \mapsto [\partial^B \hat c]_A
+  \,,
+$$
+
+where 
+
+1. $c \in Z_n(C)$ is a [[nLab:cycle]] representing the given [[nLab:homology group]] $[c]$; 
+
+1. $\hat c \in C_n(B)$ is any lift of that cycle to an element in $B_n$, which exists because $p$ is a [[nLab:surjection]] (but which no longer needs to be a cycle itself);
+
+1. $[\partial^B \hat c]_A$ is the $A$-homology class of $\partial^B \hat c$  which is indeed in $A_{n-1} \hookrightarrow B_{n-1}$ by exactness (since $p(\partial^B \hat c) = \partial^C p(\hat c) = \partial^C c = 0$) and indeed in $Z_{n-1}(A) \hookrightarrow A_{n-1}$ since $\partial^A \partial^B \hat c = \partial^B \partial^B \hat c = 0$.
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Def. \ref{ConnectingForHomologyInComponents} is indeed well defined in that 
+the given map is independent of the choice of lift $\hat c$ involved and in that the group structure is respected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the construction is well-defined, let $\tilde c \in B_{n}$ be another lift. Then $p(\hat c - \tilde c) = 0$ and hence 
+$\hat c - \tilde c \in A_n \hookrightarrow B_n$.
+This exhibits a homology-equivalence $[\partial^B\hat c]_A \simeq [\partial^B \tilde c]_A$ since
+$
+  \partial^A(\hat c - \tilde c) 
+  = 
+  \partial^B \hat c - \partial^B \tilde c$.
+
+
+To see that $\delta_n$ is a group homomorphism, let $[c] = [c_1] + [c_2]$ be a sum. Then $\hat c \coloneqq \hat c_1 + \hat c_2$ is a lift and by linearity of $\partial$ we have $[\partial^B \hat c]_A = [\partial^B \hat c_1] + [\partial^B \hat c_2]$.
+
+=--
+
++-- {: .num_prop #HomologyLongExactSequence}
+###### Proposition
+
+Under [[nLab:chain homology]] $H_\bullet(-)$ the morphisms in the short exact sequence together with the [[nLab:connecting homomorphisms]] yield the **[[nLab:homology long exact sequence]]**
+
+$$
+  \cdots
+   \to
+  H_n(A) \to H_n(B) \to H_n(C) 
+   \stackrel{\delta_n}{\to}
+  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)   
+   \to
+  \cdots
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider first the exactness of $H_n(A) \stackrel{H_n(i)}{\to} H_n(B) 
+\stackrel{H_n(p)}{\to} H_n(C)$.
+
+It is clear that if $a \in Z_n(A) \hookrightarrow Z_n(B)$ then the image of $[a] \in H_n(B)$ is $[p(a)] = 0 \in H_n(C)$.
+Conversely, an element $[b] \in H_n(B)$ is in the kernel of $H_n(p)$ if there is $c \in C_{n+1}$ with $\partial^C c = p(b)$. Since $p$ is surjective let $\hat c \in B_{n+1}$ be any lift, then $[b] =  [b - \partial^B \hat c]$ but $p(b - \partial^B c) = 0$ hence by exactness $b - \partial^B \hat c \in Z_n(A) \hookrightarrow Z_n(B)$ and so $[b]$ is in the image of $H_n(A) \to H_n(B)$. 
+
+
+It remains to see that
+
+1. the [[nLab:image]] of $H_n(B) \to H_n(C)$ is the [[nLab:kernel]] of $\delta_n$;
+
+1. the [[nLab:kernel]] of $H_{n-1}(A) \to H_{n-1}(B)$ is the [[nLab:image]] of $\delta_n$.
+
+This follows by inspection of the formula in def. \ref{ConnectingForHomologyInComponents}. We spell out the first one:
+
+If $[c]$ is in the image of $H_n(B) \to H_n(C)$ we have a lift $\hat c$ with $\partial^B \hat c = 0$ and so $\delta_n[c] = [\partial^B \hat c]_A  = 0$. Conversely, if for a given lift $\hat c$ we have that $[\partial^B \hat c]_A = 0$ this means there is $a \in A_n$ such that $\partial^A a \coloneqq \partial^B a = \partial^B \hat c$. But then $\tilde c \coloneqq \hat c - a$ is another possible lift of $c$ for which $\partial^B \tilde c = 0$ and so $[c]$ is in the image of $H_n(B) \to H_n(C)$.
+ 
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+The [[nLab:connecting homomorphism]] of the [[nLab:long exact sequence in homology]] induced from short exact sequences of the form in example \ref{MultiplicationAndCyclicGroup} is called a _[[nLab:Bockstein homomorphism]]_.
+
+=--
+
+We now discuss a deeper, more conceptual way of understanding the origin of long exact sequences in homology and the nature of connecting homomorphisms. This will give first occasion to see some actual [[nLab:homotopy theory]] of chain complexes at work, and hence serves also as a motivating example for the discussions to follow in [chapter III)](#AbelianHomotopyTheory). 
+
+For this we need the notion of _[[nLab:chain homotopy]]_, which is the abelianized analog of the notion of _[[nLab:homotopy]]_ of continuous maps above in def. \ref{LeftHomotopyContinousMaps}. We now first introduce this concept by straightforwardly mimicking the construction in def. \ref{LeftHomotopyContinousMaps} with topological spaces replaced by chain complexes. Then we use chain homotopies to construct [[nLab:mapping cones]] of [[nLab:chain maps]]. Finally we explain how these refine the above long exact sequences in homology groups to _[[nLab:homotopy cofiber sequences]]_ of the chain complexes themselves.
+
+
+A _chain homotopy_ is a [[nLab:homotopy]] in $Ch_\bullet(\mathcal{A})$. We first give the explicit definition, the more abstract characterization is below in prop. \ref{AsALeftHomotopy}.
+
++-- {: .num_defn}
+###### Definition
+
+A _chain homotopy_ $\psi : f \Rightarrow g$ between two [[nLab:chain maps]] $f,g : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is a sequence of morphisms
+
+$$
+  \{ (\psi_n : C_n \to D_{n+1}) \in \mathcal{A} | n \in \mathbb{N} \}
+$$
+
+in $\mathcal{A}$ such that 
+
+$$
+  f_n - g_n = \partial^D \circ  \psi_n + \psi_{n-1} \partial^C
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It may be useful to illustrate this with the following graphics, which however is _not_ a [[nLab:commuting diagram]]:
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    \downarrow && \downarrow
+    \\
+    C_{n+1} &\stackrel{f_{n+1} - g_{n+1}}{\to}& D_{n+1}
+    \\
+    \downarrow^{\mathrlap{\partial^C_{n}}} 
+    &\nearrow_{\mathrlap{\psi_{n}}}& 
+    \downarrow^{\mathrlap{\partial^D_{n}}}
+    \\
+    C_n &\stackrel{f_n - g_n}{\to}& D_n
+    \\
+    \downarrow^{\mathrlap{\partial^C_{n-1}}} 
+    &\nearrow_{\mathrlap{\psi_{n-1}}}& 
+    \downarrow^{\mathrlap{\partial^D_{n-1}}}
+    \\
+    C_{n-1} &\stackrel{f_{n-1} - g_{n-1}}{\to}& D_{n-1}
+    \\
+    \downarrow && \downarrow
+    \\
+    \vdots && \vdots
+  }
+  \,.
+$$
+
+=--
+
+Instead, a way to encode chain homotopies by genuine diagrammatics is below in prop. \ref{AsALeftHomotopy}, for which we introduce the _interval object_ for chain complexes:
+
++-- {: .num_defn #NormalizedChainInterval}
+###### Definition
+
+Let 
+
+$$
+  I_\bullet \coloneqq N_\bullet(C(\Delta[1]))
+$$
+
+be the [[nLab:normalized chain complex]] in $\mathcal{A}$ of the [[nLab:chain on a simplicial set|simplicial chains]] on the simplicial 1-[[nLab:simplex]]:
+
+$$
+  I_\bullet = 
+  [
+    \cdots \to 0 \to 0 \to R \stackrel{(-id,id)}{\to}
+   R \oplus R
+  ]
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is the standard _[[nLab:interval in chain complexes]]_. Indeed it is manifestly the "abelianization" of the standard interval object $\Delta^1$ in [[nLab:sSet]]/[[nLab:Top]]: the 1-[[nLab:simplex]].
+
+=--
+
+
++-- {: .num_prop #AsALeftHomotopy}
+###### Proposition
+
+A chain homotopy $\psi : f \Rightarrow g$ is equivalently a [[nLab:commuting diagram]]
+
+$$
+  \array{
+    C_\bullet
+    \\
+    \downarrow & \searrow^{\mathrlap{f}}
+    \\
+    I_\bullet \otimes C_\bullet 
+    &\stackrel{(f,g,\psi)}{\to}&
+    D_\bullet
+    \\
+    \uparrow & \nearrow_{\mathrlap{g}}
+    \\
+    C_\bullet
+  }
+$$
+
+in $Ch_\bullet(\mathcal{A})$, hence a genuine [[nLab:left homotopy]] with respect to the [[nLab:interval object in chain complexes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For notational simplicity we discuss this in $\mathcal{A} = $ [[nLab:Ab]].
+
+Observe that $N_\bullet(\mathbb{Z}(\Delta[1]))$ is the chain complex
+
+$$
+  (  \cdots  \to 0   \to 0 \to \mathbb{Z} \stackrel{(-id,id)}{\to}  \mathbb{Z} \oplus \mathbb{Z} \to 0 \to 0 \to \cdots)
+$$
+
+where the term $\mathbb{Z} \oplus \mathbb{Z}$ is in degree 0: this is the [[nLab:free abelian group]] on the set $\{(0),(1)\}$ of 0-simplices in $\Delta[1]$. The other copy of $\mathbb{Z}$ is the free abelian group on the single non-degenerate edge $(0 \to 1)$ in $\Delta[1]$. (All other [[nLab:simplices]] of $\Delta[1]$ are degenerate and hence do not contribute to the [[nLab:normalized chain complex]] which we are discussing here.) The single nontrivial [[nLab:differential]] sends $1 \in \mathbb{Z}$ to 
+$(-1,1) \in \mathbb{Z} \oplus \mathbb{Z}$, reflecting the fact that one of the vertices is the 0-[[nLab:boundary]] the other the 1-boundary of the single nontrivial edge.
+
+It follows that the [[nLab:tensor product of chain complexes]] 
+$I_\bullet \otimes C_\bullet $ is
+
+$$
+  \array{
+  && (I \otimes C)_2 &\to& (I \otimes C)_1 &\to& (I \otimes C)_0 &\to& \cdots
+  \\
+  \cdots
+  &\to& 
+  C_1 \oplus C_{2} \oplus C_2
+  &\to& 
+  C_0 \oplus C_{1} \oplus C_{1} 
+  &\to&  
+  C_{-1} \oplus C_0 \oplus C_0 
+  &\to& \cdots
+  }
+ \,.
+$$
+
+Therefore a chain map $(f,g,\psi) :  I_\bullet \otimes C_\bullet  \to D_\bullet$ that restricted to the two copies of $C_\bullet$ is $f$ and $g$, respectively,  is characterized by a collection of commuting diagrams
+
+$$
+  \array{
+    C_{n+1}\oplus C_{n+1} \oplus C_{n} 
+      &\stackrel{(f_{n+1},g_{n+1}, \psi_n)}{\to}& D_n
+    \\
+    {}^{\mathllap{\partial^{I \otimes C}}}\downarrow && \downarrow^{\mathrlap{\partial^D}}
+    \\
+     C_{n} \oplus C_{n} \oplus C_{n-1} &\stackrel{(f_n,g_n,\psi_{n-1})}{\to}
+    & 
+    D_{n-1}
+  }
+  \,.
+$$
+
+On the elements $(1,0,0)$ and $(0,1,0)$ in the top left this reduces to the chain map condition for $f$ and $g$, respectively. On the element $(0,0,1)$ this is the equation for the chain homotopy
+
+$$
+  f_n - g_n - \psi_{n-1} d_C = d_D \psi_{n}
+  \,.
+$$
+
+=--
+
+Let $C_\bullet, D_\bullet \in Ch_\bullet(\mathcal{A})$
+be two chain complexes.
+
++-- {: .num_defn }
+###### Definition
+
+Define the [[nLab:relation]] _chain homotopic_ on 
+$Hom(C_\bullet, D_\bullet)$ by
+
+$$
+  (f \sim g)
+    \Leftrightarrow
+  \exists (\psi : f \Rightarrow g)
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Chain homotopy is an [[nLab:equivalence relation]] on $Hom(C_\bullet,D_\bullet)$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write $Hom(C_\bullet,D_\bullet)_{\sim}$ for the [[nLab:quotient]] of the [[nLab:hom set]] $Hom(C_\bullet,D_\bullet)$ by chain homotopy.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+This quotient is compatible with [[nLab:composition]] of [[nLab:chain maps]].
+
+=--
+
+Accordingly the following [[nLab:category]] exists:
+
++-- {: .num_defn #TheStrongHomotopyCategory}
+###### Definition
+
+Write $\mathcal{K}_\bullet(\mathcal{A})$ for the category whose
+[[nLab:objects]] are those of $Ch_\bullet(\mathcal{A})$, and whose [[nLab:morphisms]]
+are chain homotopy classes of chain maps:
+
+$$
+  Hom_{\mathcal{K}_\bullet(\mathcal{A})}(C_\bullet, D_\bullet)
+  \coloneqq
+  Hom_{Ch_\bullet(\mathcal{A})}(C_\bullet, D_\bullet)_\sim
+  \,.
+$$
+
+This is usually called the **(strong) [[nLab:homotopy category of chain complexes]]**
+in $\mathcal{A}$. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Beware, as we will discuss in detail below in [8)](#DerivedCategoriesAndDerivedFunctors), that another category that would deserve to  carry this name instead is called the _[[nLab:derived category]]_ of $\mathcal{A}$.
+In the derived category one also quotients out chain homotopy, but one allows that first the [[nLab:domain]] of the two chain maps $f$ and $g$ is refined along a [[nLab:quasi-isomorphism]]. 
+
+=--
+
+
+
++-- {: .num_defn #QuasiIsos}
+###### Definition
+
+A [[nLab:chain map]] $f_\bullet : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is called a  **[[nLab:quasi-isomorphism]]** if for each $n \in \mathbb{N}$ the induced morphisms on [[nLab:chain homology]] groups
+
+$$
+  H_n(f) \colon H_n(C) \to H_n(D)
+$$
+
+is an [[nLab:isomorphism]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms** or **$H_\bullet$-isomorphisms**.  See at _[[nLab:homology localization]]_ for more on this.
+
+=--
+
+
+
+With the homotopy theoretic notions of [[nLab:chain homotopy]] and [[nLab:quasi-isomorphism]] in hand, we can now give a deeper explanation of long exact sequences in homology. We first give now a heuristic discussion that means to serve as a guide through the constructions to follow. The reader wishing to skip this may directly jump ahead to definition \ref{HomotopyCofiberByFactorizationLemma}.
+
+
+While the notion of a [[nLab:short exact sequence]] of [[nLab:chain complexes]] is very useful for computations, it does not have invariant meaning if one considers chain complexes as objects in (abelian) [[nLab:homotopy theory]], where one takes into account [[nLab:chain homotopies]] between [[nLab:chain maps]] and takes [[nLab:equivalence]] of chain complexes not to be given by [[nLab:isomorphism]], but by [[nLab:quasi-isomorphism]].
+
+For if a [[nLab:chain map]] $A_\bullet \to B_\bullet$ is the degreewise [[nLab:kernel]] of a chain map $B_\bullet \to C_\bullet$, then if $\hat A_\bullet \stackrel{\simeq}{\to} A_\bullet$ is a [[nLab:quasi-isomorphism]] (for instance a [[nLab:projective resolution]] of $A_\bullet$) then of course the composite chain map $\hat A_\bullet \to B_\bullet$ is in general far from being the degreewise kernel of $C_\bullet$. Hence the notion of degreewise kernels of chain maps and hence that of short exact sequences is not meaningful in the homotopy theory of chain complexes in $\mathcal{A}$ (for instance: not in the [[nLab:derived category]] of $\mathcal{A}$).
+
+That short exact sequences of chain complexes nevertheless play an important role in [[nLab:homological algebra]] is due to what might be called a "technical coincidence":
+
++-- {: .num_prop }
+###### Proposition
+
+If $A_\bullet \to B_\bullet \to C_\bullet$ is a 
+[[nLab:short exact sequence]] of [[nLab:chain complexes]], then the [[nLab:commuting square]]
+
+$$
+  \array{
+     A_\bullet &\to& 0
+     \\
+     \downarrow && \downarrow
+     \\
+     B_\bullet &\to& C_\bullet
+  }
+$$
+
+is not only a [[nLab:pullback]] square in $Ch_\bullet(\mathcal{A})$, exhibiting $A_\bullet$ as the [[nLab:fiber]] of $B_\bullet \to C_\bullet$ over $0 \in C_\bullet$, it is in fact also a _[[nLab:homotopy pullback]]_.
+
+=--
+
+This means it is [[nLab:universal property|universal]] not just among commuting such squares, but also among such squares which commute possibly only up to a [[nLab:chain homotopy]] $\phi$:
+
+$$
+  \array{
+     Q_\bullet &\to& 0
+     \\
+     \downarrow &\swArrow_{\phi}& \downarrow
+     \\
+     B_\bullet &\to& C_\bullet
+  }
+$$
+
+and with morphisms between such squares being maps $A_\bullet \to A'_\bullet$ correspondingly with further chain homotopies filling all diagrams in sight.
+
+
+Equivalently, we have the formally dual result
+
++-- {: .num_prop }
+###### Proposition
+
+If $A_\bullet \to B_\bullet \to C_\bullet$ is a 
+[[nLab:short exact sequence]] of [[nLab:chain complexes]], then the [[nLab:commuting square]]
+
+$$
+  \array{
+     A_\bullet &\to& 0
+     \\
+     \downarrow && \downarrow
+     \\
+     B_\bullet &\to& C_\bullet
+  }
+$$
+
+is not only a [[nLab:pushout]] square in $Ch_\bullet(\mathcal{A})$, exhibiting $C_\bullet$ as the [[nLab:cofiber]] of $A_\bullet \to B_\bullet$ over $0 \in C_\bullet$, it is in fact also a _[[nLab:homotopy pushout]]_.
+
+=--
+
+But a central difference between [[nLab:fibers]]/[[nLab:cofibers]] on the one hand and [[nLab:homotopy fibers]]/[[nLab:homotopy cofibers]] on the other is that while the (co)fiber of a (co)fiber is necessarily trivial, the homotopy (co)fiber of a homotopy (co)fiber is in general far from trivial: it is instead the [[nLab:looping]] $\Omega(-)$  or [[nLab:suspension]] $\Sigma(-)$ of the codomain/domain of the original morphism: by the [[nLab:pasting law]] for homotopy pullbacks the [[nLab:pasting]] composite of successive [[nLab:homotopy cofibers]] of a given morphism $f : A_\bullet \to B_\bullet$ looks like this:
+
+$$
+  \array{
+     A_\bullet &\stackrel{f}{\to}& B_\bullet &\to& 0
+     \\
+     \downarrow &\swArrow_{\mathrlap{\phi}}& \downarrow &\swArrow& \downarrow
+     \\
+     0 &\to& cone(f) &\to& A[1]_{\bullet} &\stackrel{}{\to}& 0
+     \\
+     && \downarrow &\swArrow& \downarrow^{\mathrlap{f[1]}}  &\swArrow& \downarrow
+     \\
+     && 0 &\to& B[1] &\to& cone(f)[1]_\bullet &\to& \cdots
+     \\
+     && && \downarrow && \downarrow &\ddots&
+     \\
+     && && \vdots && && 
+  }
+$$ 
+
+here
+
+* $cone(f)$ is a specific representative of the [[nLab:homotopy cofiber]] of $f$ called the _[[nLab:mapping cone]]_ of $f$, whose construction comes with an explicit [[nLab:chain homotopy]] $\phi$ as indicated, hence $cone(f)$ is homology-equivalence to $C_\bullet$ above, but is in general a "bigger" model of the homotopy cofiber;
+
+* $A[1]$ etc. is the [[nLab:suspension of a chain complex]] of $A$, hence the same chain complex but pushed up in degree by one.
+
+
+In conclusion we get from every morphim of chain complexes a 
+long **[[nLab:homotopy cofiber sequence]]**
+
+$$
+    \cdots 
+  \to 
+     A_\bullet \stackrel{f}{\to}B_\bullet
+  \stackrel{}{\to} 
+  cone(f)
+   \stackrel{}{\to}
+  A[1]_\bullet
+   \stackrel{f[1]}{\to}
+  B[1]_\bullet
+   \stackrel{}{\to}   
+  cone(f)[1]_\bullet
+   \to 
+  \cdots
+  \,.
+$$
+
+And applying the [[nLab:chain homology]] functor to this yields the long exact sequence in chain homology which is traditionally said to be associated to the short exact sequence $A_\bullet \to B_\bullet \to C_\bullet$.
+
+In conclusion this means that it is not really the passage to homology groups which "makes a short exact sequence become long". It's rather that passing to homology groups is a shadow of passing to chain complexes regarded up to quasi-isomorphism, and _this_ is what makes every short exact sequence be realized as but a special presentation of a stage in a long [[nLab:homotopy fiber sequence]].
+
+We give a precise account of this story in the next section.
+
+
+##### Homotopy fiber sequences and mapping cones
+ {#MappingCones}
+
+We have seen in [4)](#HomotopyHomologyFiberSequence) the [[nLab:long exact sequence in homology]] implied by a [[nLab:short exact sequence]] of [[nLab:chain complexes]], constructed by an elementary if somewhat un-illuminating formula for the [[nLab:connecting homomorphism]]. We ended [4)](#HomotopyHomologyFiberSequence) by sketching how this formula arises as the shadow under the homology functor of a _[[nLab:homotopy fiber sequence]]_ of chain complexes, constructed using _[[nLab:mapping cones]]_. This we now discuss in precise detail.
+
+In the following we repeatedly mention that certain chain complexes are [[nLab:colimits]] of certain diagrams of chain complexes. The reader unfamiliar with colimits may simply ignore them and regard the given chain complex as arising by definition. However, even a vague intuitive understanding of the indicated colimits as formalizations of "gluing" of chain complexes along certain maps should help to motivate why these definitions are what they are. The reader unhappy even with this can jump ahead to prop. \ref{CylinderOverAChainComplex} and take this and the following propositions up to and including prop. \ref{ComponentsOfMappingConeInChainComplexes} as definitions.
+
+
+The notion of a [[nLab:mapping cone]] that we introduce now is something that makes sense whenever 
+
+1. there is a notion of [[nLab:cylinder object]], such as the topological cylinder $[0,1] \times X$ over a [[nLab:topological space]], or the chain complex cylinder $I_\bullet \otimes X_\bullet$ of a chain complex from def. \ref{NormalizedChainInterval}.
+
+1. there is a way to _glue_ objects along maps between them, a notion of [[nLab:colimit]].
+
++-- {: .num_prop #HomotopyCofiberByFactorizationLemma}
+###### Definition
+
+For $f : X \to Y$ a morphism in a category with [[nLab:cylinder objects]] $cyl(-)$, the **[[nLab:mapping cone]]** or **[[nLab:homotopy cofiber]]** of $f$ is the [[nLab:colimit]] in the following diagram
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} && \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& cyl(X)
+    \\
+    \downarrow && &\searrow & \downarrow
+    \\
+    {*} &\to& &\to& cone(f) 
+  }
+$$
+
+in $C$ using any [[nLab:cylinder object]] $cyl(X)$ for $X$.
+
+=--
+
++-- {: .num_remark #GeometryOfMappingCone}
+###### Remark
+
+Heuristically this says that $cone(f)$ is the object obtained by
+
+1. forming the cylinder over $X$;
+
+1. gluing to one end of that the object $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+Heuristically it is clear that this way every [[nLab:cycle]] in $Y$ that happens to be in the image of $X$ can be "continuously" translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it becomes the point. This means that every [[nLab:homotopy group]] of $Y$ in the image of $f$ vanishes in the mapping cone. Hence in the mapping cone **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it clear how $cone(f)$ is a homotopy-version of the [[nLab:cokernel]] of $f$. And therefore the name "mapping cone".
+
+=--
+
+Another interpretation of the mapping cone is just as important:
+
++-- {: .num_remark }
+###### Remark
+
+A morphism $\eta : cyl(X) \to Y$ out of a [[nLab:cylinder object]] is a [[nLab:left homotopy]] $\eta : g \Rightarrow h$ between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cylinder boundaries
+
+$$
+  \array{
+     X
+     \\
+     \downarrow^{\mathrlap{i_0}} & \searrow^{\mathrlap{g}}
+     \\
+     cyl(X) &\stackrel{\eta}{\to}& Y
+     \\
+     \uparrow^{\mathrlap{i_1}} & \nearrow_{\mathrlap{h}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
+the mapping cone is the [[nLab:universal property|universal]] object with a morphism $i$ from $Y$ and a [[nLab:left homotopy]] from $i \circ f$ to the [[nLab:zero morphism]]. 
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow &\swArrow_{\eta}& \downarrow
+    \\
+    * &\to& cone(f)
+  }
+$$
+
+The interested reader can find more on the conceptual background of this construction at _[[nLab:factorization lemma]]_ and at _[[nLab:homotopy pullback]]_.
+
+=--
+
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+This colimit, in turn, may be computed in two stages by two consecutive [[nLab:pushouts]] in $C$, and in two ways by the following [[nLab:pasting diagram]]:
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{i_1} && \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& cyl(X) &\to & cyl(f)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& cone(X) &\to& cone(f) 
+  }
+  \,.
+$$
+
+Here every square is a [[nLab:pushout]], (and so by the [[nLab:pasting law]] is every rectangular pasting composite).
+
+=--
+
+This now is a basic fact in ordinary [[nLab:category theory]]. The pushouts appearing here go by the following names:
+
++-- {: .num_defn #CylindersAndCones}
+###### Definition
+
+The pushout
+
+$$
+  \array{
+     X &\stackrel{i_0}{\to}& cyl(X)
+     \\
+     \downarrow && \downarrow
+     \\
+     {*} &\to& cone(X)
+  }
+$$
+
+defines the **[[nLab:cone]]** $cone(X)$ over $X$ (with respect to the chosen [[nLab:cylinder object]]): the result of taking the [[nLab:cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[nLab:point]].
+
+The pushout 
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    cyl(X) &\to& cyl(f)
+  }
+$$
+
+defines the **[[nLab:mapping cylinder]]** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
+
+The pushout 
+
+$$
+  \array{
+    cyl(x) &\to& cyl(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    cone(X) &\to& cone(f)
+  }
+$$
+
+defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cyclinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+As in remark \ref{GeometryOfMappingCone} all these step have evident heuristic geometric interpretations:
+
+1. $cone(X)$ is obtained from the cylinder over $X$ by contracting one end of the cylinder to the point;
+
+1. $cyl(f)$ is obtained from the cylinder over $X$ by gluing $Y$ to one end of the cylinder, as specified by the map $f$;
+
+=--
+
+We discuss now this general construction of the mapping cone $cone(f)$ for a [[nLab:chain map]] $f$ between [[nLab:chain complexes]].
+The end result is prop. \ref{ComponentsOfMappingConeInChainComplexes} below,
+reproducing the classical formula for the mapping cone.
+
++-- {: .num_defn }
+###### Definition
+
+Write $*_\bullet \in Ch_\bullet(\mathcal{A})$ for the chain complex
+concentrated on $R$ in degree 0
+
+$$
+  *_\bullet 0 
+   = 
+  [\cdots \to 0 \to 0 \to R]
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This may be understood as the [[nLab:normalized chain complex]] of [[nLab:simplicial homology|chains of simplices]] on the terminal [[nLab:simplicial set]] $\Delta^0$, the 0-[[nLab:simplex]].
+
+=--
+
++-- {: .num_defn #BoundaryInclusionIntoChainComplexIntervalObject}
+###### Definition
+
+Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
+
+$$
+  I_\bullet
+  = 
+  (\cdots 0 \to 0 \to R \stackrel{(-id,id)}{\to} R \oplus R)
+  \,.
+$$
+
+Denote by
+
+$$
+  i_0 : *_\bullet \to I_\bullet
+$$
+
+the [[nLab:chain map]] which in degree 0 is the canonical inclusion into the second summand of a [[nLab:direct sum]] and by
+
+$$
+  i_1 : *_\bullet \to I_\bullet
+$$
+
+correspondingly the canonical inclusion into the first summand.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+This is the standard [[nLab:interval object in chain complexes]].
+
+It is in fact the [[nLab:normalized chain complex]] of [[nLab:chains on a simplicial set]] for the canonical simplicial interval, the 1-[[nLab:simplex]]:
+
+$$
+  I_\bullet = C_\bullet(\Delta[1])
+  \,.
+$$
+
+The [[nLab:differential]] $\partial^I = (-id, id)$ here expresses the [[nLab:alternating face map complex]] [[nLab:boundary]] operator, which in terms of the three non-degenerate [[nLab:basis]] elements is given by
+
+$$
+  \partial ( 0 \to 1 ) = (1) - (0)
+  \,.
+$$
+
+
+=--
+
+
+We decompose the proof of this statement is a sequence of substatements.
+
+
++-- {: .num_prop #CylinderOverAChainComplex}
+###### Proposition
+
+For $X_\bullet \in Ch_\bullet$ the
+[[nLab:tensor product of chain complexes]] 
+
+$$
+  (I \otimes X)_\bullet
+  \in
+  Ch_\bullet
+$$
+
+is a [[nLab:cylinder object]] of $X_\bullet$
+for the structure of a [[nLab:category of cofibrant objects]] on $Ch_\bullet$
+whose cofibrations are the [[nLab:monomorphisms]] and whose weak equivalences are the [[nLab:quasi-isomorphisms]] (the substructure of the standard [[nLab:injective model structure on chain complexes]]).
+
+=--
+
++-- {: .num_example }
+###### Example
+
+In example \ref{SquareAsTensorProduct} above we saw the 
+cyclinder over the interval itself: the square.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The complex $(I \otimes X)_\bullet$ has components
+
+$$
+  (I \otimes X)_n
+  = 
+  X_n \oplus X_n \oplus X_{n-1}
+$$
+
+and the [[nLab:differential]] is given by
+
+$$
+  \array{
+    X_{n+1} \oplus X_{n+1} &\stackrel{\partial^X \oplus \partial^X}{\to}& X_n \oplus X_n
+    \\
+    \oplus &\nearrow_{(-id,id)}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+hence in [[nLab:matrix calculus]] by
+
+$$
+  \partial^{I \otimes X}
+   =
+  \left(
+    \array{
+      \partial^X \oplus \partial^X & (-id, id)
+      \\
+      0 & -\partial^X
+    }
+  \right)
+  : 
+  (X_{n+1} \oplus X_{n+1}) \oplus X_{n}
+  \to
+  (X_{n} \oplus X_{n}) \oplus X_{n-1}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the formula discussed at [[nLab:tensor product of chain complexes]]
+the components arise as the [[nLab:direct sum]]
+
+$$
+  (I \otimes X )_n
+  =
+  (R_{(0)} \otimes X_n )
+  \oplus
+  (R_{(1)} \otimes X_n )
+  \oplus 
+  (R_{(0 \to 1)} \otimes X_{(n-1)} )
+$$
+
+and the [[nLab:differential]] picks up a sign when passed past the 
+degree-1 term $R_{(0 \to 1)}$:
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes X}
+    (
+      (0 \to 1), x
+    )
+    &= 
+    ( (\partial^I (0 \to 1)), x )
+    -
+    ( (0\to 1), \partial^X x )
+    \\
+    & = 
+    ( - (0) + (1), x )
+    -
+    ( (0 \to 1), \partial^X x )  
+    \\
+    & = -((0), x) + ((1), x) -  ( (0 \to 1), \partial^X x )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #InclusionOfChainComplexIntoItsCylinder}
+###### Remark
+
+The two boundary inclusions of $X_\bullet$ into the cylinder
+are given in terms of def. \ref{BoundaryInclusionIntoChainComplexIntervalObject} by
+
+$$
+  i^X_0 
+   : 
+  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+   \stackrel{i_0 \otimes id_X}{\to} (I\otimes X)_\bullet
+$$
+
+and
+
+$$
+  i^X_1 
+   : 
+  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+   \stackrel{i_1 \otimes id_X}{\to} (I\otimes X)_\bullet
+$$
+
+which in components is the inclusion of the second or first 
+direct summand,
+respectively
+
+$$
+  X_n \hookrightarrow X_n \oplus X_n \oplus X_{n-1}
+  \,.
+$$
+
+=--
+
+One part of definition \ref{CylindersAndCones} now reads:
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet : X_\bullet \to Y_\bullet $ a [[nLab:chain map]],
+the [[nLab:mapping cylinder]] $cyl(f)$ is the [[nLab:pushout]]
+
+$$
+  \array{
+    cyl(f)_\bullet &\leftarrow& Y_\bullet
+    \\
+    \uparrow && \uparrow^{\mathrlap{f}}
+    \\
+    I_\bullet \otimes X_\bullet  &\stackrel{i_0}{\leftarrow}& X_\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The components of $cyl(f)$ are
+
+$$
+  cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
+$$
+
+and the [[nLab:differential]] is given by
+
+$$
+  \array{
+    X_{n+1} \oplus Y_{n+1} &\stackrel{\partial^X \oplus \partial^Y}{\to}& X_n \oplus Y_n
+    \\
+    \oplus &\nearrow_{(-id,f)}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+hence in [[nLab:matrix calculus]] by
+
+$$
+  \partial^{cyl(f)}
+   =
+  \left(
+    \array{
+      \partial^X \oplus \partial^Y & (-id, f_n)
+      \\
+      0 & -\partial^X
+    }
+  \right)
+  : 
+  (X_{n+1} \oplus Y_{n+1}) \oplus X_{n}
+  \to
+  (X_{n} \oplus Y_{n}) \oplus X_{n-1}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[nLab:colimits]] in a [[nLab:category of chain complexes]] $Ch_\bullet(\mathcal{A})$ are computed in the underlying 
+[[nLab:presheaf category]] of [[nLab:towers]] in $\mathcal{A}$. 
+There they are computed 
+degreewise in $\mathcal{A}$
+(see at [limits in presheaf categories](limits+and+colimits+by+example#limitsinpresheafcat)). 
+Here the statement is evident:
+
+the pushout identifies one [[nLab:direct sum|direct summand]] $X_n$
+with $Y_n$ along $f_n$ and so where previously a $id_{X_n}$
+appeared on the diagonl, there is now $f_n$.
+
+
+=--
+
+The last part of definition \ref{CylindersAndCones} now reads:
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet : X_\bullet \to Y_\bullet $ a [[nLab:chain map]],
+the **mapping cone** $cone(f)$ is the [[nLab:pushout]]
+
+$$
+  \array{
+    cone(f) &\leftarrow& cyl(f)
+    \\
+    \uparrow && \uparrow
+    \\
+    cone(X) &\leftarrow& X \otimes I
+    \\
+    \uparrow && \uparrow^{\mathrlap{i_1}}
+    \\
+    0 &\leftarrow& X
+  }
+$$
+
+=--
+
+
++-- {: .num_prop #ComponentsOfMappingConeInChainComplexes}
+###### Proposition
+
+The components of the mapping cone $cone(f)$ are
+
+$$
+  cone(f)_n =   Y_n \oplus X_{n-1} 
+$$
+
+with differential given by
+
+$$
+  \array{
+    Y_{n+1} &\stackrel{\partial^Y}{\to}& Y_n
+    \\
+    \oplus &\nearrow_{f_n}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+and hence in [[nLab:matrix calculus]] by
+
+$$
+  \partial^{cone(f)}
+   =
+  \left(
+    \array{
+      \partial^Y_n & f_n
+      \\
+      0 & -\partial^X_n
+    }
+  \right)
+  : 
+  Y_{n+1} \oplus X_{n}
+  \to
+  Y_{n} \oplus X_{n-1}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As before the pushout is computed degreewise.
+This identifies the remaining unshifted copy of $X$ with 0. 
+
+=--
+
++-- {: .num_prop #InclusionIntoChainComplexCone}
+###### Proposition
+
+For $f : X_\bullet \to Y_\bullet$ a [[nLab:chain map]], 
+the canonical inclusion $i : Y_\bullet \to cone(f)_\bullet$ 
+of $Y_\bullet$ into the  mapping cone of $f$ is given in 
+components
+
+$$
+ i_n : Y_n \to cone(f)_n = Y_n \oplus X_{n-1}
+$$
+
+by the canonical inclusion of a summand into a [[nLab:direct sum]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by starting with 
+remark \ref{InclusionOfChainComplexIntoItsCylinder} and then 
+following these inclusions through the formation of the two colimits
+as discussed above.
+
+=--
+
+
+Using these mapping cones of chain maps, we now explain how the long exact sequences of homology groups, prop. \ref{HomologyLongExactSequence}, are a shadow under homology of genuine [[nLab:homotopy cofiber sequences]] of the chain complexes themselves.
+
+Let $f : X_\bullet \to Y_\bullet$ be a [[nLab:chain map]]
+and write $cone(f) \in Ch_\bullet(\mathcal{A})$
+for its mapping cone
+as explicitly given in prop. \ref{ComponentsOfMappingConeInChainComplexes}.
+
+
++-- {: .num_defn #ProjectionOutOfChainComplexMappingCone}
+###### Definition
+
+Write $X[1]_\bullet \in Ch_\bullet(\mathcal{A})$
+for the [[nLab:suspension of a chain complex]] of $X$. Write
+
+$$
+  p : cone(f) \to X[1]_\bullet
+$$
+
+for the [[nLab:chain map]] which in components 
+
+$$
+  p_n : cone(f)_n \to X[1]_n
+$$
+
+is given, via prop. \ref{ComponentsOfMappingConeInChainComplexes}, 
+by the canonical projection out of a direct sum
+
+$$
+  p_n : Y_\n \oplus X_{n-1} \to X_{n-1}
+  \,.
+$$
+
+=--
+
+This defines the mapping cone construction on chain complex. Its definition as a universal left homotopy should make the following proposition at least plausible, which we cannot prove yet at this point, but which we state nevertheless to highlight the meaning of the mapping cone construction. The tools for the proof of propositions like this are discussed further below in [7) Derived categories and derived functors](#DerivedCategoriesAndDerivedFunctors).
+
++-- {: .num_prop #ProjectionOutOfChainComplexMappingConeIsHoCofiber}
+###### Proposition
+
+The chain map $p : cone(f)_\bullet \to X[1]_\bullet$
+represents the [[nLab:homotopy cofiber]] of the 
+canonical map 
+$i : Y_\bullet \to cone(f)_\bullet$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{InclusionIntoChainComplexCone} and 
+def. \ref{ProjectionOutOfChainComplexMappingCone} the sequence
+
+$$
+  Y_\bullet 
+    \stackrel{i}{\to}
+  cone(f)_\bullet
+    \stackrel{p}{\to}
+  X[1]_\bullet
+$$
+
+is a [[nLab:short exact sequence]] of chain complexes (since it is so degreewise, in fact degreewise it is even a [[nLab:split exact sequence]], def. \ref{SplitnessInAbelianCategory}). In particular we have a [[nLab:cofiber]] [[nLab:pushout]] diagram
+
+$$
+  \array{
+     Y_\bullet &\stackrel{i}{\hookrightarrow}& cone(f)_\bullet
+     \\
+     \downarrow && \downarrow
+     \\
+     0 &\to& X[1]_\bullet
+  }
+  \,.
+$$
+
+Now, in the [[nLab:injective model structure on chain complexes]] all chain complexes are [[nLab:cofibrant objects]] and an inclusion such as $i : Y_\bullet \hookrightarrow cone(f)_\bullet$ is a [[nLab:cofibration]]. By the detailed discussion at [[nLab:homotopy limit]] this means that the ordinary colimit here is in fact a [[nLab:homotopy colimit]], hence exhibits $p$ as the [[nLab:homotopy cofiber]] of $i$.
+
+=--
+
+Accordingly one says:
+
++-- {: .num_cor #HomotopyCofiberSequenceOfChainMap}
+###### Corollary
+
+For $f_\bullet : X_\bullet \to Y_\bullet$ a [[nLab:chain map]], 
+there is a **[[nLab:homotopy cofiber sequence]]** of the form
+
+$$
+  X_\bullet 
+    \stackrel{f_\bullet}{\to}
+  Y_\bullet
+    \stackrel{i_\bullet}{\to}
+  cone(f)_\bullet
+    \stackrel{p_\bullet}{\to}
+  X[1]_\bullet
+    \stackrel{f[1]_\bullet}{\to}
+  Y_\bullet
+    \stackrel{i[1]_\bullet}{\to}
+  cone(f)_\bullet
+    \stackrel{p[1]_\bullet}{\to}
+  X[2]_\bullet
+    \to 
+  \cdots
+$$
+
+=--
+
+
+In order to compare this to the discussion of [[nLab:connecting homomorphisms]], we now turn attention to the case that $f_\bullet$ happens to be a [[nLab:monomorphism]].  Notice that this we can always assume, up to [[nLab:quasi-isomorphism]], for instance by prolonging $f$ by the map into its [[nLab:mapping cylinder]]
+
+$$
+  X_\bullet \to Y_\bullet \stackrel{\simeq}{\to} cyl(f) 
+  \,.
+$$
+
+By the axioms on an [[nLab:abelian category]] in this case we have a [[nLab:short exact sequence]]
+
+$$
+  0 \to X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \stackrel{p_\bullet}{\to} Z_\bullet \to 0
+$$
+
+of chain complexes. The following discussion revolves around the fact that now $cone(f)_\bullet$ as well as $Z_\bullet$ are both models for the homotopy cofiber of $f$.
+
+
+
++-- {: .num_lemma #ConeInjectionEquivalentToZigzag}
+###### Lemma
+
+Let 
+$$
+  X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \stackrel{p_\bullet}{\to} Z_\bullet
+$$
+
+be a [[nLab:short exact sequence]] of [[nLab:chain complexes]]. 
+
+
+The collection of linear maps
+
+$$
+  h_n : Y_n \oplus X_{n-1} \to Y_n \stackrel{}{\to} Z_n
+$$
+
+constitutes a [[nLab:chain map]]
+
+$$
+  h_\bullet : cone(f)_\bullet \to Z_\bullet
+  \,.
+$$
+
+
+This is a [[nLab:quasi-isomorphism]]. The inverse of $H_n(h_\bullet)$ is given by sending a representing [[nLab:cycle]] $z \in Z_n$ to 
+
+$$
+  (\hat z_n, \partial^Y \hat z_n) \in Y_n \oplus X_{n+1}
+  \,,
+$$
+
+where $\hat z_n$ is any choice of lift through $p_n$ and where $\partial^Y \hat z_n$ is the formula expressing the [[nLab:connecting homomorphism]] in terms of elements, as discussed at [Connecting homomorphism -- In terms of elements](connecting%20homomorphism#OnHomologyInTermsOfElements).
+ 
+Finally, the morphism $i_\bullet : Y_\bullet \to cone(f)_\bullet$ is eqivalent in the [[nLab:homotopy category]] (the [[nLab:derived category]]) to the [[nLab:zigzag]]
+
+$$
+  \array{
+    && cone(f)_\bullet 
+    \\
+    && \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
+    \\
+    Y_\bullet &\to& Z_\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $h_\bullet$ defines a chain map recall the differential $\partial^{cone(f)}$ from prop. \ref{ComponentsOfMappingConeInChainComplexes}, which acts by
+
+$$
+  \partial^{cone(f)} (x_{n-1}, \hat z_n)
+  = 
+  (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+$$
+
+and use that $x_{n-1}$ is in the [[nLab:kernel]] of $p_n$ by exactness, hence
+
+$$
+  \begin{aligned}
+    h_{n-1}\partial^{cone(f)}(x_{n-1}, \hat z_n)
+    &= 
+    h_{n-1}( -\partial^X x_{n-1}, \partial^Y \hat z_n + x_{n-1}  )
+    \\
+    & = p_{n-1}( \partial^Y \hat z_n + x_{n-1})
+    \\
+    & = p_{n-1}( \partial^Y \hat z_n )
+    \\
+    & = \partial^Z p_n \hat z_n
+    \\
+    & = \partial^Z h_n(x_{n-1}, \hat z_n)
+  \end{aligned}
+  \,.
+$$
+
+It is immediate to see that we have a [[nLab:commuting diagram]] of the form
+
+$$
+  \array{
+    && cone(f)_\bullet 
+    \\
+    & {}^{\mathllap{i_\bullet}}\nearrow& \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
+    \\
+    Y_\bullet &\to& Z_\bullet
+  }
+$$
+
+since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$. 
+
+Abstractly, this already implies that $cone(f)_\bullet \to Z_\bullet$ is a [[nLab:quasi-isomorphism]], 
+for this diagram gives a morphism of [[nLab:cocones]] under the diagram defining $cone(f)$ in prop. \ref{HomotopyCofiberByFactorizationLemma} and by the above both of these cocones are [[nLab:homotopy colimit|homotopy-colimiting]].
+
+But in checking the claimed inverse of the induced map on homology groups, we verify this also explicity:
+
+We first determine those cycles $(x_{n-1}, y_n) \in cone(f)_n$ which lift a cycle $z_n$. By lemma \ref{HomotopyCofiberByFactorizationLemma}
+a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift of $z_n$ through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
+By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on it by
+
+$$
+  \partial^{cone(f)} (x_{n-1}, \hat z_n)
+  = 
+  (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+$$
+
+and so the condition is that 
+
+$x_{n-1} \coloneqq -\partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = -\partial^X \partial^Y \hat z_n = -\partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
+
+This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumption that we have a [[nLab:short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
+
+To see that it is also injective we need to show that 
+if a [[nLab:cycle]] $(-\partial^Y \hat z_n, \hat z_n) \in cone(f)_n$ maps to a cycle $z_n = p_n(\hat z_n)$ that is trivial in $H_n(Z)$ in that there is $c_{n+1}$ with $\partial^Z c_{n+1} = z_n$, then also the original cycle was trivial in homology, in that there is $(x_n, y_{n+1})$ with
+
+$$
+  \partial^{cone(f)}(x_n, y_{n+1})
+  \coloneqq
+  (-\partial^X x_n, \partial^Y y_{n+1} + x_n)
+  =
+  (-\partial^Y \hat z_n, \hat z_n)
+  \,.
+$$
+
+For that let $\hat c_{n+1} \in Y_{n+1}$ be a lift of $c_{n+1}$ through $p_n$, which exists again by surjectivity of $p_{n+1}$. Observe that
+
+$$
+  p_{n}( \hat z_n -  \partial^Y \hat c_{n+1})
+  = 
+  z_n -\partial^Z ( p_n \hat c_{n+1} )
+  = 
+  z_n - \partial^Z ( c_{n+1} ) 
+  = 
+  0
+$$
+
+by assumption on $z_n$ and $c_{n+1}$,
+and hence that $\hat z_n - \partial^Y \hat c_{n+1}$ is in $X_n$ by exactness.
+
+Hence 
+$(z_n - \partial^Y \hat c_{n+1}, \hat c_{n+1}) \in cone(f)_n$
+trivializes the given cocycle:
+
+$$
+  \begin{aligned}
+    \partial^{cone(f)}( \hat z_n - \partial^Y \hat c_{n+1}  , \hat c_{n+1})
+    & = 
+   (-\partial^X(\hat z_n - \partial^Y \hat c_{n+1} ), \partial^Y \hat c_{n+1} + (\hat z_n - \partial^Y \hat c_{n+1} ) )
+    \\
+    & = (-\partial^Y(\hat z_n - \partial^Y \hat c_{n+1}),  \hat z_n )
+    \\
+    & =
+    ( -\partial^Y \hat z_n, \hat z_n )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_theorem }
+###### Theorem
+
+Let 
+$$
+  X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \to Z_\bullet
+$$
+
+be a [[nLab:short exact sequence]] of [[nLab:chain complexes]]. 
+
+Then the  [[nLab:chain homology]] functor
+
+$$
+  H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+$$
+
+sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, to the 
+[[nLab:long exact sequence in homology]] induced by the given short
+exact sequence, hence to
+
+$$
+  H_n(X_\bullet)
+  \to
+  H_n(Y_\bullet)
+   \to 
+  H_n(Z_\bullet)
+   \stackrel{\delta}{\to}
+  H_{n-1}(X_\bullet)
+   \to 
+  H_{n-1}(Y_\bullet)
+   \to 
+  H_{n-1}(Z_\bullet)
+   \stackrel{\delta}{\to}
+  H_{n-2}(X_\bullet)
+   \to \cdots
+  \,,
+$$
+
+where $\delta_n$ is the $n$th [[nLab:connecting homomorphism]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{ConeInjectionEquivalentToZigzag} the 
+homotopy cofiber sequence is equivalen to the [[nLab:zigzag]]
+
+$$
+  \array{
+     && && && && && cone(f)[1]_\bullet &\to& \cdots
+     \\
+     && && && && && \downarrow^{\mathrlap{h[1]_\bullet}}_{\mathrlap{\simeq}}
+     \\
+     && && cone(f)_\bullet &\to& X[1]_\bullet &\stackrel{f[1]_\bullet}{\to}& Y[1]_\bullet &\to& Z[1]_\bullet
+     \\
+     && && \downarrow^{\mathrlap{h_\bullet}}_{\mathrlap{\simeq}}
+     \\
+     X_\bullet 
+       &\stackrel{f_\bullet}{\to}&
+     Y_\bullet
+       &\stackrel{}{\to}&
+     Z_\bullet
+  }
+  \,.
+$$
+
+Observe that 
+
+$$
+  H_n( X[k]_\bullet) \simeq H_{n-k}(X_\bullet)
+  \,.
+$$
+
+It is therefore sufficient to check that 
+
+$$
+  H_n
+  \left(
+    \array{
+      cone(f)_\bullet &\to& X[1]_\bullet
+      \\
+      \downarrow^{\mathrlap{\simeq}}
+      \\
+      Z_\bullet
+    }
+  \right)
+  \;\;
+   : 
+  \;\;
+  H_n(Z_\bullet) \to H_n(cone(f)_\bullet) \to H_{n-1}(X_\bullet)
+$$
+
+equals the [[nLab:connecting homomorphism]] $\delta_n$ induced by the short exact sequence.
+
+By prop. \ref{ConeInjectionEquivalentToZigzag} the inverse of the vertical map is given by choosing lifts and forming the corresponding element given by the connecting homomorphism.
+By prop. \ref{ProjectionOutOfChainComplexMappingConeIsHoCofiber} the horizontal map is just the projection, and hence the assignment is of the form
+
+$$
+  [z_n] \mapsto [x_{n-1}, y_n] \mapsto [x_{n-1}]
+  \,.
+$$
+
+So in total the image of the zig-zag under homology sends
+
+$$
+  [z_n]_Z \mapsto -[\partial^Y \hat z_n]_X
+  \,.
+$$
+
+By the discussion [there](http://www.ncatlab.org/nlab/show/connecting%20homomorphism#OnHomologyInTermsOfElements), this is indeed the action of the [[nLab:connecting homomorphism]].
+
+=--
+
+**In summary**, the [above](#HomologyExactSequencesAndFiberSequences) says that for every [[nLab:chain map]] $f_\bullet : X_\bullet \to Y_\bullet$ we obtain maps
+
+$$
+  X_\bullet \stackrel{f}{\to}
+  Y_\bullet
+  \stackrel{
+    \left(
+      \array{
+          0 
+          \\
+          id_{Y_\bullet}
+      }
+    \right)
+  }{\to}
+   cone(f)_\bullet
+  \stackrel{
+    \left(
+      \array{
+         id_{X[1]_\bullet} & 0
+      }
+    \right)
+  }{\to}
+  X[1]_\bullet
+$$
+
+which form a [[nLab:homotopy fiber sequence]] and such that this sequence continues by forming [[nLab:suspension of a chain complex|suspensions]], hence for all $n \in \mathbb{Z}$ we have
+
+$$
+  X[n]_\bullet \stackrel{f}{\to}
+  Y[n]_\bullet
+  \stackrel{
+    \left(
+      \array{
+          0 
+          \\
+          id_{Y[n]_\bullet}
+      }
+    \right)
+  }{\to}
+   cone(f)[n]_\bullet
+  \stackrel{
+    \left(
+      \array{
+         id_{X[n+11]_\bullet} & 0
+      }
+    \right)
+  }{\to}
+  X[n+1]_\bullet
+$$
+
+To amplify this quasi-cyclic behaviour one sometimes depicts the situation as follows:
+
+$$
+  \array{
+     X_\bullet &&\stackrel{f}{\to}&& Y_\bullet
+     \\
+     & {}_{\mathllap{[1]}}\nwarrow && \swarrow
+     \\
+     && cone(f)_\bullet
+  }
+$$
+
+and hence speaks of a "triangle", or **distinguished triangle** or **mapping cone triangle** of $f$. 
+
+* [[nLab:distinguished triangle]] = period of [[nLab:homotopy fiber sequence]] .
+
+Due to these "triangles" one calls the [[nLab:homotopy category]] of chain complexes [[nLab:localization|localized]] at the [[nLab:quasi-isomorphisms]], hence the  [[nLab:derived category]] which we discuss below in [8)](#DerivedCategoriesAndDerivedFunctors), a **[[nLab:triangulated category]]**.
+
+
+
+#####  Double complexes and the diagram chasing lemmas
+ {#DoubleComplexesAndSalamander}
+
+We have seen in the discussion of the [[nLab:connecting homomorphism]]
+in the [[nLab:homology long exact sequence]] in  [4)](#HomotopyHomologyFiberSequence) above that given an _exact sequence of chain complexes_ -- hence in particular a chain complex of chain complexes -- there are interesting ways to relate elements on the far right to elements on the far left in lower degree. In [5)](#MappingCones) we had given the conceptual explanation of this phenomenon in terms of long [[nLab:homotopy fiber sequences]]. But often it is just computationally useful to be able to efficiently establish and compute these "long diagram chase"-relations, independently of a homotopy-theoretic interpretation. Such computational tools we discuss here.
+
+A _chain complex of chain complex_ is called a _[[nLab:double complex]]_ and so we first introduce this elementary notion and the corresponding notion notion of [[nLab:total complex]]. (Total complexes are similarly elementary to define but will turn out to play a deeper role as models for [[nLab:homotopy colimits]], this we indicate further below in chapter [V)](#RelationToHomotopyTheory)).
+
+There is a host of classical diagram-chasing lemmas that relate far-away entries in double complexes that enjoy suitable exactness properties. These go by names such as the _[[nLab:snake lemma]]_ or the _[[nLab:3x3 lemma]]_. The underlying mechanism of all these lemmas is made most transparent in the _[[nLab:salamander lemma]]_. This is fairly trivial to establish, and the notions it induces allow quick transparent proofs of all the other diagram-chasing lemmas.
+
+> The discussion to go here is kept at **[[nLab:salamander lemma]]**. See there.
+
+
+#### Abelian homotopy theory
+ {#AbelianHomotopyTheory}
+
+We have seen in section [II)](#ChapterOnChainComplexes) that the most interesting properties of the category of chain complexes is all secretly controled by the phenomenon of [[nLab:chain homotopy]] and [[nLab:quasi-isomorphism]]. Strictly speaking these two phenomena point beyond plain [[nLab:category theory]] to the richer context of general abstract _[[nLab:homotopy theory]]_. Here we discuss properties of the category of chain complexes from this genuine homotopy-theoretic point of view. The result of passing the category of chain complexes to genuine homotopy theory is called the [[nLab:derived category]] (of the underlying [[nLab:abelian category]] $\mathcal{A}$, say of [[nLab:modules]]) and we start in [7)](#ChainHomotopyAndResolution) with a motivation of the phenomenon of this "homotopy derivation" and the discussion of the necessary _[[nLab:resolutions]]_ of chain complexes. This naturally gives rise to the general notion of [[nLab:derived functors]] which we discuss in [8)](#ExamplesOfDerivedFunctors). Examples of these are ubiquituous in [[nLab:homological algebra]], but as in ordinary [[nLab:enriched category theory]] two stand out as being of more fundamental importance, the derived functor "[[nLab:Ext]]" of the [[nLab:hom-functor]] and the derived functor "[[nLab:Tor]]" of the [[nLab:tensor product]] functor. Their properties and uses we discuss in [9)](#ExamplesOfDerivedFunctors).
+
+
+
+##### Chain homotopy and resolutions
+ {#ChainHomotopyAndResolution}
+
+We now come back to the [[nLab:category]] $\mathcal{K}(\mathcal{A})$ of def. \ref{TheStrongHomotopyCategory}, the "[[nLab:homotopy category of chain complexes]]" in which chain-homotopic chain maps are identified. This would seem to be the right context to study the [[nLab:homotopy theory]] of chain complexes, but one finds that there are still chain maps which ought to be identified in [[nLab:homotopy theory]], but which are still not identified in $\mathcal{K}(\mathcal{A})$. This is our motivating example \ref{AChainMapThatOughtToBeNullHomotopicButIsNot} below. 
+
+We discuss then how this problem is fixed by allowing to first "[[nLab:resolution|resolve]]" chain complexes [[nLab:quasi-isomorphism|quasi-isomorphically]] by "good representatives" called _[[nLab:projective resolutions]]_ or _[[nLab:injective resolutions]]_. Many of the computations in the following sections -- and in homological algebra in general -- come down to operating on such resolutions. We end this section by prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} below, which shows that the above problem indeed goes away when allowing chain complexes to be resolved.
+
+In the next section, [8)](#DerivedCategoriesAndDerivedFunctors), we discuss how this process of forming resolutions functorially extends to the whole category of modules.
+
+
+So we start here with this simple example that shows the problem with bare chain homotopies and indicates how these have to be _resolved_:
+
++-- {: .num_example #AChainMapThatOughtToBeNullHomotopicButIsNot}
+###### Example
+
+In $Ch_\bullet(\mathcal{A})$ for $\mathcal{A} = $ [[nLab:Ab]] consider the [[nLab:chain map]]
+
+$$
+  \array{
+    \cdots &\to& 0 &\to& 0 &\to& 0 &\to& \mathbb{Z}_2
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{id}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+The [[nLab:codomain]] of this map is an [[nLab:exact sequence]], hence is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the 0-chain complex. Thereofore in [[nLab:homotopy theory]] it should behave entirely as the 0-complex itself. In particular, every [[nLab:chain map]] to it should be [[nLab:chain homotopy|chain homotopic]] to the [[nLab:zero morphism]] (have a _[[nLab:null homotopy]]_).
+
+But the above chain map is chain homotopic precisely only to itself. This is because the degree-0 component of any chain homotopy out of this has to be a homomorphism of abelian groups $\mathbb{Z}_2 \to \mathbb{Z}$, and this must be the 0-morphism, because $\mathbb{Z}$ is a [[nLab:free group]], but $\mathbb{Z}_2$ is not.
+
+This points to the problem: the components of the domain chain complex are not _free enough_ to admit sufficiently many maps out of it. 
+
+Consider therefore a [[nLab:free resolution]] of the above domain complex by the [[nLab:quasi-isomorphism]]
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& 0 &\to& 0 &\to& \mathbb{Z}_2
+  }
+  \,,
+$$
+
+where now the domain complex consists entirely of [[nLab:free groups]]. 
+The composite of this with the original chain map is now
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+    && \downarrow && \downarrow && \downarrow^{0} && \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+This is the corresponding [[nLab:resolution]] of the original chain map. And _this_ indeed has a [[nLab:null homotopy]]: 
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+      && 
+    \downarrow 
+     &\swarrow& 
+    \downarrow 
+      &\swarrow_{-id}& 
+    \downarrow^{0} 
+      &\swarrow_{\mathrlap{id}}& 
+    \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+=--
+
+So _resolving the domain by a sufficiently free complex_ makes otherwise missing chain homotopies exist.
+Below in lemma \ref{MapsProjectiveIntoExactAreNullHomotopic} we discuss the general theory behind the kind of situation of this example. But to get there we first need some basic notions and facts.
+
+Notably, in general it is awkward to insist on actual _free resolutions_. But it is easy to see, and this we discuss now, that essentially just as well is a resolution by modules which are [[nLab:direct sum|direct summands]] of [[nLab:free modules]].
+
+
++-- {: .num_defn #ProjectiveObject}
+###### Definition
+
+An [[nLab:object]] $P$ of a [[nLab:category]] $C$ is a **projective object**  if it has the [[nLab:left lifting property]] against [[nLab:epimorphisms]]. 
+
+This means that $P$ is projective if for any [[nLab:morphism]] $f:P \to B$ and any [[nLab:epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
+
+$$
+  \array{
+    && A
+    \\
+    &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{q}} 
+    \\
+    P &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+=--
+
+
+An equivalent way to say  this is that:
+
+
++-- {: .num_defn #ByCovHomPreservingEpis}
+###### Definition
+
+An object $P$ is projective precisely if the [[nLab:hom-functor]] $Hom(P,-)$ preserves [[nLab:epimorphisms]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The point of this [[nLab:lifting property]] will become clear when we discuss the construction of [[nLab:projective resolutions]] a bit further below: they are built by applying this property degreewise to obtain suitable chain maps.
+
+=--
+
+We will be interested in projective objects in the category $R$[[nLab:Mod]]: _[[nLab:projective modules]]_. Before we come to that, notice the following example (which the reader may on first sight feel is pedantic and irrelevant, but for the following it is actually good to make this explicit).
+
++-- {: .num_example #ProjectivesInSet}
+###### Example
+
+In the [[nLab:category]] [[nLab:Set]] of [[nLab:sets]] the following are equivalent
+
+* every object is projective;
+
+* the [[nLab:axiom of choice]] holds.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+We will assume here throughout the [[nLab:axiom of choice]] in [[nLab:Set]], as usual. The point of the above example, however, is that one could just as well replace [[nLab:Set]] by another "[[nLab:base topos]]" which will behave essentially precisely like [[nLab:Set]], but in general will not validate the axiom of choice. Homological algebra in such a more general context is the theory of complexes of [[nLab:abelian sheaves]]/[[nLab:sheaves of abelian groups]] and ultimately the theory of _[[nLab:abelian sheaf cohomology]]_. 
+
+This is a major aspect of homological algebra. While we will not discuss this further here in this introduction, the reader might enjoy keeping in mind that all of the following discussion of resolutions of $R$-modules goes through in this wider context of [[nLab:sheaves of modules]] except for subtleties related to the (partial) failure of example \ref{ProjectivesInSet} for the [[nLab:category of sheaves]].
+
+=--
+
+We now characterize projective modules.
+
++-- {: .num_lemma #FreeModulesAreProjective}
+###### Lemma
+
+Assuming the [[nLab:axiom of choice]],
+a [[nLab:free module]] $N \simeq R^{(S)}$ is projective.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Explicitly: if $S \in Set$ and $F(S) = R^{(S)}$ is the [[nLab:free module]] on $S$, then a module homomorphism $F(S) \to N$ is specified equivalently by a [[nLab:function]] $f : S \to U(N)$ from $S$ to the underlying set of $N$, which can be thought of as specifying the images of the unit elements in $R^{(S)} \simeq \oplus_{s \in S} R$ of the ${\vert S\vert}$ copies of $R$.
+
+Accordingly then for $\tilde N \to N$ an epimorphism, the underlying function $U(\tilde N) \to U(N)$ is an epimorphism, and the [[nLab:axiom of choice]] in [[nLab:Set]] says that we have all lifts $\tilde f$ in
+
+$$
+  \array{
+     && U(\tilde N)
+     \\
+     & {}^{\tilde f} \nearrow & \downarrow
+     \\
+     S &\stackrel{f}{\to}& U(N)
+  }
+  \,.
+$$
+
+By [[nLab:adjunction]] these are equivalently lifts of module homomorphisms
+
+$$
+  \array{
+     && \tilde N
+     \\
+     & \nearrow & \downarrow
+     \\
+     R^{(S)} &\stackrel{}{\to}& N
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_lemma #DirectSummandOfFreeIsProjective}
+###### Lemma
+
+If $N \in R Mod$ is a [[nLab:direct sum|direct summand]] of a [[nLab:free module]], hence if there is $N' \in R Mod$ and $S \in Set$ such that 
+
+$$
+  R^{(S)} \simeq N \oplus N'
+  \,,
+$$
+
+then $N$ is a projective module.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Let $\tilde K \to K$ be a surjective homomorphism of modules and 
+$f : N \to K$ a homomorphism. We need to show that there is a lift $\tilde f$ in
+
+$$
+  \array{
+    && \tilde K
+    \\
+    & {}^{\mathllap{\tilde f}}\nearrow & \downarrow
+    \\
+    N &\stackrel{f}{\to}& K 
+  }
+  \,.
+$$
+
+By definition of [[nLab:direct sum]] we can factor the [[nLab:identity]] on $N$ as
+
+$$
+  id_N : N \to N \oplus N' \to N
+  \,.
+$$
+
+Since $N \oplus N'$ is free by assumption, and hence projective by lemma \ref{FreeModulesAreProjective}, there is a lift $\hat f$ in 
+
+$$
+  \array{
+    && && \tilde K
+    \\
+    && & {}^{\mathllap{\hat f}}\nearrow & \downarrow
+    \\
+    N &\to& N \oplus N'  &\to& K
+  }
+  \,.
+$$
+
+Hence $\tilde f : N \to N \oplus N' \stackrel{\hat f}{\to} \tilde K$ is a lift of $f$.
+
+=--
+
++-- {: .num_prop #CharacterizationOfProjectiveAsDirectSummandOfFree}
+###### Proposition
+
+An $R$-module $N$ is projective precisely if it is the [[nLab:direct summand]] of a [[nLab:free module]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{DirectSummandOfFreeIsProjective} if $N$ is a direct summand then it is projective. So we need to show the converse.
+
+Let $F(U(N))$ be the [[nLab:free module]] on the [[nLab:set]] $U(N)$ underlying $N$, hence the [[nLab:direct sum]]
+
+$$
+  F(U(n)) = \oplus_{n \in U(n)} R
+  \,.
+$$
+
+There is a canonical module homomorphism
+
+$$
+  \oplus_{n \in U(N)} R \to N
+$$
+
+given by sending the unit $1 \in R_n$ of the copy of $R$ in the direct sum labeled by $n \in U(n)$ to $n \in N$.
+
+(Abstractly this is the [[nLab:counit of an adjunction|counit]] 
+$\epsilon : F(U(N)) \to N$
+of the [[nLab:free functor|free]]/[[nLab:forgetful functor|forgetful]]-[[nLab:adjunction]] $(F \dashv U)$.) 
+
+This is clearly an [[nLab:epimorphism]]. Thefore if $N$ is projective, there is a [[nLab:section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
+
+=--
+
+We discuss next how to build resolutions of chain complexes by projective modules. But before we come to that it is useful to also introduce the _[[nLab:duality|dual]]_ notion. So far we have concentrated on chain complexes with degrees in the natural numbers: non-negative degrees. For a discussion of resolutions we need a more degree-symmetric perspective, which of course is straightforward to obtain.
+
++-- {: .num_defn}
+###### Definition
+
+A [[nLab:cochain complex]] $C^\bullet$ in $\mathcal{A} = R Mod$ is a sequence of morphism
+
+$$
+  C^0 \stackrel{d^0}{\to} C^1 \stackrel{d^1}{\to} C^2 \stackrel{d^2}{\to}
+  \cdots
+$$
+
+in $\mathcal{A}$ such that $d\circ d = 0$. A [[nLab:homomorphism]] of cochain complexes $f^\bullet : C^\bullet \to D^\bullet$ is a collection of morphisms $\{f^n : C^n \to D^n\}$ such that $d^n_D \circ f^n = f^n \circ d^n_C$ for all $n \in \mathbb{N}$.
+
+We write $Ch^\bullet(\mathcal{A})$ for the [[nLab:category of cochain complexes]].
+
+=--
+
+
++-- {: .num_example #DualCochainComplexOfAChainComplex}
+###### Example
+
+Let $N \in \mathcal{A}$ be a fixed module and $C_\bullet \in Ch_\bullet(\mathcal{A})$ a chain complex. Then applying degreewise the [[nLab:hom-functor]] out of the components of $C_\bullet$ into $N$ yields a [[nLab:cochain complex]] in $\mathbb{Z} Mod \simeq $ [[nLab:Ab]]:
+
+$$
+  Hom_{\mathcal{A}}(C_\bullet, N)
+  = 
+  \left[
+    Hom_{\mathcal{A}}(C_0, N)
+     \stackrel{Hom_{\mathcal{A}}(\partial_0, N)}{\to}
+    Hom_{\mathcal{A}}(C_1, N)
+     \stackrel{Hom_{\mathcal{A}}(\partial_1, N)}{\to}
+    Hom_{\mathcal{A}}(C_2, N)
+     \stackrel{Hom_{\mathcal{A}}(\partial_2, N)}{\to}
+    \cdots
+  \right]
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+In example \ref{DualCochainComplexOfAChainComplex} let $\mathcal{A} = \mathbb{Z}$[[nLab:Mod]] $=$ [[nLab:Ab]], let $N = \mathbb{Z}$ and let $C_\bullet = \mathbb{Z}[Sing(X)]$ be the [[nLab:singular simplicial complex]] of a [[nLab:topological space]] $X$. Write 
+
+$$
+  C^\bullet(X) \coloneqq Hom_{\mathbb{Z}[Sing X], \mathbb{Z}}
+  \,.
+$$
+
+Then $H^\bullet(C(X))$ is called the _[[nLab:singular cohomology]]_ of $X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Example \ref{DualCochainComplexOfAChainComplex} is just a special case of the [[nLab:internal hom]] of def. \ref{ExplicitDefinitionOfInternalHom}: we may regard cochain complexes in non-negative degree equivalently as chain complexes in positive degree.
+
+Accordingly we say for $C^\bullet$ a cochain complex that
+
+* an element in $C^n$ is an $n$-[[nLab:cochain]]
+
+
+* an element in $im(d^{n-1})$ is an $n$-[[nLab:coboundary]]
+
+* al element in $ker(d^n)$ is an $n$-[[nLab:cocycle]].
+
+But equivalently we may regard a [[nLab:cochain]] in degree $n$ as a [[nLab:chain]] in degree $(-n)$ and so forth. And this is the perspective used in all of the following.
+
+=--
+
+The role of projective objects, def. \ref{ProjectiveObject}, for chain complexes is played, dually, by _[[nLab:injective objects]]_ for cochain complexes:
+
++-- {: .num_defn #InjectiveObject}
+###### Definition
+
+
+An object $I$ a category is **injective** if all [[nLab:diagrams]] of the form
+
+$$
+  \array{
+    X &\to& I
+    \\
+    {}^{}\downarrow 
+    \\
+    Z
+  }
+$$
+
+with $X \to Z$ a [[nLab:monomorphism]] admit an extension
+
+$$
+  \array{
+    X &\to& I
+    \\
+    {}^{}\downarrow & \nearrow_{\mathrlap{\exists}}
+    \\
+    Z
+  }
+  \,.
+$$
+
+=--
+
+Since we are interested in refining modules by projective or injective modules, we have the following terminology.
+
++-- {: .num_defn #EnoughInjectivesEnoughProjectives}
+###### Definition
+
+A category 
+
+* **has enough projectives** if for every object $X$ there is a [[nLab:projective object]] $Q$ equipped with an [[nLab:epimorphism]] $Q \to X$;
+
+* **has enough injectives** if for every object $X$ there is an [[nLab:injective object]] $P$ equipped with a [[nLab:monomorphism]] $X \to P$.
+
+=--
+
+We have essentially already seen the following statement.
+
++-- {: .num_prop #ModHasEnoughProjectives}
+###### Proposition
+
+Assuming the [[nLab:axiom of choice]], the category $R$[[nLab:Mod]] has enough projectives.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $F(U(N))$ be the [[nLab:free module]] on the [[nLab:set]] $U(N)$ underlying $N$. By lemma \ref{FreeModulesAreProjective} this is a projective module.
+
+The canonical morphism
+
+$$
+  F(U(n)) = \oplus_{n \in U(n)} R \to N
+$$
+
+is clearly a [[nLab:surjection]], hence an [[nLab:epimorphism]] in $R$[[nLab:Mod]].
+
+=--
+
+We now show that similarly $R Mod$ has enough injectives. This is a little bit more work and hence we proceed with a few preparatory statements.
+
+The following basic statement of [[nLab:algebra]] we cite here without proof (but see at _[[nLab:injective object]]_ for details). 
+
++-- {: .num_prop #InjectiveAbelianGroupIsDivisibleGroup}
+###### Proposition
+
+Assuming the [[nLab:axiom of choice]],
+an [[nLab:abelian group]] $A$ is injective as a $\mathbb{Z}$-module precisely if it is a [[nLab:divisible group]], in that for all [[nLab:integers]] $n \in \mathbb{N}$ we have $n G = G$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} the following [[nLab:abelian groups]] are injective in [[nLab:Ab]].
+
+The group of [[nLab:rational numbers]] $\mathbb{Q}$ is injective in [[nLab:Ab]], as is the additive group of [[nLab:real numbers]] $\mathbb{R}$ and generally that underlying any [[nLab:field]]. The additive group underlying any [[nLab:vector space]] is injective. The [[nLab:quotient]] of any injective group by any other group is injective.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+**Not** injective in [[nLab:Ab]] are the [[nLab:cyclic group|cyclic groups]] $\mathbb{Z}/n\mathbb{Z}$.
+
+=--
+
++-- {: .num_prop #AbHasEnoughInjectives}
+###### Proposition
+
+Assuming the [[nLab:axiom of choice]],
+the [[nLab:category]] $\mathbb{Z}$[[nLab:Mod]] $\simeq$ [[nLab:Ab]] has [[nLab:injective object|enough injectives]].
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[nLab:abelian group]]
+is an injective $\mathbb{Z}$-module precisely if it is a [[nLab:divisible group]]. So we need to show that every [[nLab:abelian group]] is a [[nLab:subgroup]] of a [[nLab:divisible group]].
+
+To start with, notice that the group $\mathbb{Q}$ of [[nLab:rational numbers]] is divisible and hence the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[nLab:integers]] embeds into an injective $\mathbb{Z}$-module.
+
+Now by the discussion at _[[nLab:projective module]]_ every [[nLab:abelian group]] $A$ receives an [[nLab:epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[nLab:free group|free]] abelian group, hence is the [[nLab:quotient group]] of a [[nLab:direct sum]] of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
+
+$$
+  \array{
+    ker &\stackrel{=}{\to}& ker 
+    \\
+    \downarrow && \downarrow
+    \\
+    (\oplus_{s \in S} \mathbb{Z}) &\hookrightarrow& (\oplus_{s \in S} \mathbb{Q})
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\hookrightarrow& \tilde A
+  }
+$$
+
+Here $\tilde A$ is divisible because the [[nLab:direct sum]] of divisible groups is again divisible, and also the [[nLab:quotient group]] of a divisible groups is again divisble. So this exhibits an embedding of any $A$ into a divisible abelian group, hence into an injective $\mathbb{Z}$-module.
+
+
+=--
+
++-- {: .num_prop #ModEnoughInjectives}
+###### Proposition
+
+Assuming the [[nLab:axiom of choice]],
+for $R$ a [[nLab:ring]], the category $R$[[nLab:Mod]] has [[nLab:injective object|enough injectives]].
+
+=--
+
+The proof uses the following lemma.
+
+Write $U\colon R Mod \to Ab$ for the [[nLab:forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$. 
+
++-- {: .num_lemma #CoextensionOfScalarsForRModToZMod}
+###### Lemma
+
+The [[nLab:functor]] $U\colon R Mod \to Ab$ has a [[nLab:right adjoint]] 
+
+$$
+  R_* : Ab \to R Mod
+$$
+
+given by sending an [[nLab:abelian group]] $A$ to the abelian group
+
+$$
+  U(R_*(A)) \coloneqq Ab(U(R),A)
+$$
+
+equipped with the $R$-[[nLab:module]] struture by which for $r \in R$ an element $(U(R) \stackrel{f}{\to} A) \in U(R_*(A))$ is sent to the element $r f$ given by
+
+$$
+  r f : r' \mapsto f(r' \cdot r)
+  \,.
+$$ 
+
+This is called the **[[nLab:coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
+
+The [[nLab:unit of an adjunction|unit]] of the $(U \dashv R_*)$ [[nLab:adjunction]]
+
+$$
+  \epsilon_N : N \to R_*(U(N))
+$$
+
+is the $R$-module homomorphism
+
+$$
+  \epsilon_N : N \to Hom_{Ab}(U(R), U(N))
+$$
+
+given on $n \in N$ by
+
+$$
+  j(n) : r \mapsto r n
+  \,.
+$$
+
+=--
+
++-- {: .proof} 
+###### Proof 
+**of prop. \ref{ModEnoughInjectives}**
+
+Let $N \in R Mod$. We need to find a monomorphism $N \to \tilde N$ such that $\tilde N$ is an injective $R$-module.
+
+
+By prop. \ref{AbHasEnoughInjectives} there exists a monomorphism
+
+$$
+  i \colon U(N) \hookrightarrow D
+$$
+
+of the underlying abelian group into an injective abelian group $D$.
+
+
+Now consider the $(U \dashv R_*)$-[[nLab:adjunct]] 
+
+$$
+  N \to R_*(D)
+$$
+
+of $i$, hence the composite
+
+$$
+  N \stackrel{\eta_N}{\to} R_*(U(N)) \stackrel{R_*(i)}{\to} R_*(D)
+$$
+
+with $R_*$ and $\eta_N$ from lemma \ref{CoextensionOfScalarsForRModToZMod}. On the underlying abelian groups this is
+
+$$
+  U(N) \stackrel{U(\eta_N)}{\to} Hom_{Ab}(U(R), U(N)) \stackrel{Hom_{Ab}(U(R),i)}{\to}
+  Hom_{Ab}(U(R),U(D))
+  \,.
+$$
+
+Hence this is monomorphism. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
+
+This follows from the existence of the [[nLab:adjunction]] [[nLab:isomorphism]] given by lemma \ref{CoextensionOfScalarsForRModToZMod}
+
+$$
+  Hom_{Ab}(U(K),U(D))
+  \simeq
+  Hom_{R Mod}(K, Hom_{Ab}(U(R), U(D)))
+$$
+
+[[nLab:natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. 
+
+$$
+  \array{
+      U(K) &\to& D
+      \\
+      \downarrow & \nearrow
+      \\
+      U(L)
+  }
+  \;\;\;\;\;
+  \leftrightarrow
+  \;\;\;\;\;
+  \array{
+      K &\to& R_*D
+      \\
+      \downarrow & \nearrow
+      \\
+      L
+  }
+  \,.
+$$
+
+=--
+
+
+Now we can state the main definition of this section and discuss its central properties.
+
++-- {: .num_defn #InjectiveResolution}
+###### Definition
+
+For $X \in \mathcal{A}$ an [[nLab:object]], an **injective resolution** of $X$ is a [[nLab:cochain complex]] $J^\bullet \in Ch^\bullet(\mathcal{A})$ (in non-negative degree) equipped with a [[nLab:quasi-isomorphism]]
+
+$$
+  i : X \stackrel{\sim}{\to} J^\bullet
+$$
+
+such that $J^n \in \mathcal{A}$ is an [[nLab:injective object]] for all $n \in \mathbb{N}$.
+
+=--
+
++-- {: .num_remark #InjectiveResolutionInComponents}
+###### Remark
+
+In components the quasi-isomorphism of def. \ref{InjectiveResolution}
+is a [[nLab:chain map]] of the form
+
+$$
+  \array{
+    X &\to& 0 &\to& \cdots &\to& 0 &\to& \cdots
+    \\
+    \downarrow^{\mathrlap{i^0}} && \downarrow && && \downarrow
+    \\
+    J^0 &\stackrel{d^0}{\to}& J^1 &\stackrel{d^1}{\to}& \cdots &\to&
+    J^n &\stackrel{d^n}{\to}&\cdots 
+  }
+  \,.
+$$
+
+Since the top complex is concentrated in degree 0, this being a [[nLab:quasi-isomorphism]] happens to be equivalent to the sequence
+
+$$
+  0 \to X \stackrel{i^0}{\to} J^0 \stackrel{d^0}{\to} J^1 \stackrel{d^1}{\to}
+  J^2 \stackrel{d^2}{\to}
+  \cdots
+$$
+
+being an [[nLab:exact sequence]]. In this form one often finds the definition of injective resolution in the literature.
+
+=--
+
++-- {: .num_defn #ProjectiveResolution}
+###### Definition
+
+For $X \in \mathcal{A}$ an [[nLab:object]], a **projective resolution** of $X$ is a [[nLab:chain complex]] $J_\bullet \in Ch_\bullet(\mathcal{A})$ (in non-negative degree) equipped with a [[nLab:quasi-isomorphism]]
+
+$$
+  p : J_\bullet \stackrel{\sim}{\to} X
+$$
+
+such that $J_n \in \mathcal{A}$ is a [[nLab:projective object]] for all $n \in \mathbb{N}$.
+
+=--
+
++-- {: .num_remark #ProjectiveResolutionInComponents}
+###### Remark
+
+In components the quasi-isomorphism of def. \ref{ProjectiveResolution}
+is a [[nLab:chain map]] of the form
+
+$$
+  \array{
+    \cdots &\stackrel{\partial_n}{\to}& J_n &\stackrel{\partial_{n-1}}{\to}&
+    \cdots &\to& J_1 &\stackrel{\partial_0}{\to}& J_0
+    \\
+    && \downarrow && && \downarrow && \downarrow^{\mathrlap{p_0}}
+    \\
+    \cdots &\to& 0 &\to& \cdots &\to& 0 &\to& X
+  }
+  \,.
+$$
+
+Since the bottom complex is concentrated in degree 0, this being a [[nLab:quasi-isomorphism]] happens to be equivalent to the sequence
+
+$$
+  \cdots J_2 \stackrel{\partial_1}{\to} J_1 \stackrel{\partial_0}{\to} J_0 \stackrel{p_0}{\to}
+  X \to 0
+$$
+
+being an [[nLab:exact sequence]]. In this form one often finds the definition of projective resolution in the literature.
+
+=--
+
+We first discuss the existence of injective/projective resolutions, and then the [[nLab:functor|functoriality]] of their constructions.
+
++-- {: .num_prop #ExistenceOfInjectiveResolutions}
+###### Proposition
+
+Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]], such as our $R$[[nLab:Mod]] for some [[nLab:ring]] $R$.
+
+Then every object $X \in \mathcal{A}$ has an [[nLab:injective resolution]], 
+def. \ref{InjectiveResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \in \mathcal{A}$ be the given object. 
+By remark \ref{InjectiveResolutionInComponents} we need to 
+construct an [[nLab:exact sequence]] of the form
+
+$$
+  0 \to X \to J^0 \stackrel{d^0}{\to} J^1 \stackrel{d^1}{\to}
+  J^2 \stackrel{d^2}{\to} \cdots \to J^n \to \cdots 
+$$
+
+such that all the $J^\cdot$ are [[nLab:injective objects]].
+
+This we now construct by [[nLab:induction]] on the degree $n \in \mathbb{N}$.
+
+In the first step, by the assumption of enough enjectives we find an injective object $J^0$ and a [[nLab:monomorphism]]
+
+$$
+  X \hookrightarrow J^0
+$$
+
+hence an [[nLab:exact sequence]]
+
+$$
+  0 \to X \to J^0
+  \,.
+$$
+
+Assume then by induction hypothesis that for $n \in \mathbb{N}$ an [[nLab:exact sequence]]
+
+$$
+  X \to J^0 \stackrel{d^0}{\to} \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n
+$$
+
+has been constructed, where all the $J^\cdot$ are injective objects. Forming the [[nLab:cokernel]] of $d^{n-1}$ yields the [[nLab:short exact sequence]]
+
+$$
+  0 \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{p}{\to} J^n/J^{n-1} \to 0
+  \,.
+$$
+
+By the assumption that there are enough injectives in $\mathcal{A}$ we may now again find a monomorphism $J^n/J^{n-1} \stackrel{i}{\hookrightarrow} J^{n+1}$ into an injective object $J^{n+1}$. This being a monomorphism means that 
+
+$$
+  J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{d^n \coloneqq i \circ p}{\longrightarrow} J^{n+1}
+$$
+
+is [[nLab:exact sequence|exact]] in the middle term. Therefore we now have an [[nLab:exact sequence]]
+
+$$
+  0 \to X \to J^0 \to \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{d^{n}}{\to} J^{n+1}
+$$
+
+which completes the [[nLab:induction]] step.
+
+=--
+
+The following proposition is  [[nLab:duality|formally dual]] to prop. \ref{ExistenceOfInjectiveResolutions}. 
+
++-- {: .num_prop #ExistenceOfProjectiveResolution}
+###### Proposition
+
+Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:projective object|enough projectives]] (such as $R$[[nLab:Mod]] for some [[nLab:ring]] $R$).
+
+Then every object $X \in \mathcal{A}$ has a [[nLab:projective resolution]], 
+def. \ref{ProjectiveResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \in \mathcal{A}$ be the given object. 
+By remark \ref{ProjectiveResolutionInComponents} we need to 
+construct an [[nLab:exact sequence]] of the form
+
+$$
+  \cdots \stackrel{\partial_2}{\to}
+  J_2 \stackrel{\partial_1}{\to}
+  J_1 \stackrel{\partial_0}{\to}
+  J_0 \to X \to 0
+$$
+
+such that all the $J_\cdot$ are [[nLab:projective objects]]. 
+
+This we we now construct by [[nLab:induction]] on the degree $n \in \mathbb{N}$.
+
+In the first step, by the assumption of enough projectives we find a projective object $J_0$ and an [[nLab:epimorphism]]
+
+$$
+  J_0 \to X
+$$
+
+hence an [[nLab:exact sequence]]
+
+$$
+  J_0 \to X \to 0
+  \,.
+$$
+
+Assume then by induction hypothesis that for $n \in \mathbb{N}$ an [[nLab:exact sequence]]
+
+$$
+  J_n \stackrel{\partial_{n-1}}{\to}
+  J_{n-1}
+  \to 
+  \cdots
+  \stackrel{\partial_0}{\to}
+  J_0
+  \to 
+  X
+  \to 
+  0
+$$
+
+has been constructed, where all the $J_\cdot$ are projective objects. Forming the [[nLab:kernel]] of $\partial_{n-1}$ yields the [[nLab:short exact sequence]]
+
+$$
+  0 \to ker(\partial_{n-1})
+  \stackrel{i}{\to}
+   J_n \stackrel{\partial_{n-1}}{\to}
+  J_{n-1}
+  \to 
+  0
+  \,.
+$$
+
+By the assumption that there are enough projectives in $\mathcal{A}$ we may now again find an epimorphism 
+$ p : J_{n+1} \to ker(\partial_{n-1})$ out of a projective object $J_{n+1}$. This being an epimorphism means that 
+
+$$
+  J_{n+1} \stackrel{\partial_{n} \coloneqq i\circ p}{\to}
+  J_n \stackrel{\partial_{n-1}}{\to}
+$$
+
+is [[nLab:exact sequence|exact]] in the middle term. Therefore we now have an [[nLab:exact sequence]]
+
+$$
+  J_{n+1} 
+    \stackrel{\partial_n}{\to}
+  J_n
+    \stackrel{\partial_{n-1}}{\to}
+  \cdots
+   \stackrel{\partial_0}{\to}
+  J_0
+  \to 
+  X
+  \to 
+  0
+  \,,
+$$
+
+which completes the [[nLab:induction]] step.
+
+=--
+
+To conclude this section we now show that all this work indeed serves to solve the problem indicated above in example \ref{AChainMapThatOughtToBeNullHomotopicButIsNot}.
+
++-- {: .num_prop #MapsOutOfExactIntoInjectiveAreNullHomotopic}
+###### Proposition
+
+Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[nLab:chain map]] of cochain complexes in non-negative degree, out of an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[nLab:null homotopy]] 
+
+$$
+  \eta : 0 \Rightarrow f^\bullet
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[nLab:chain homotopy]] we need to construct a sequence of morphisms $(\eta^{n+1} : X^{n+1} \to J^{n})_{n \in \mathbb{N}}$ such that 
+
+$$
+  f^n = \eta^{n+1} \circ d^n_X + d^{n-1}_J \circ \eta^n
+  \,.
+$$
+
+for all $n$. We now construct this by [[nLab:induction]] over $n$. 
+
+It is convenient to start at $n = -1$, take $\eta^{\leq 0} \coloneqq 0$ and $f^{\lt 0} \coloneqq 0$. Then the above condition holds for $n = -1$.
+
+Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above condition for $f^{\lt n}$ 
+
+First define now 
+
+$$
+  g^n \coloneqq f^n - d_J^{n-1} \circ \eta^n
+$$
+
+and observe that by induction hypothesis
+
+$$
+  \begin{aligned}
+    g^n \circ d_X^{n-1} 
+    & =
+    f^n \circ d^{n-1}_X - d^{n-1}_J \circ \eta^n \circ d^{n-1}_X
+    \\
+    & = f^n \circ d^{n-1}_X - d^{n-1}_J \circ f^{n-1} 
+        + d^{n-1}_J \circ d^{n-2}_J \circ \eta^{n-1}
+    \\
+    & = 0 + 0
+    \\
+    & = 0
+  \end{aligned}
+  \,.
+$$
+
+This means that $g^n$ factors as 
+
+$$
+  X^n \to X^n / im(d^{n-1}_X) \stackrel{g^n}{\to} J^n
+  \,,
+$$ 
+
+where the first map is the [[nLab:projection]] to the [[nLab:quotient]].
+
+Observe then that by exactness of $X^\bullet$ the morphism
+$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[nLab:monomorphism]]. Together this gives us a diagram of the form
+
+
+$$
+  \array{
+    X^n / im(d^{n-1}_X) &\stackrel{d^n_X}{\to}& X^{n+1}
+   \\
+    \downarrow^{\mathrlap{g^n}} & \swarrow_{\mathrlap{\eta^{n+1}}}
+    \\
+    J^n   }
+  \,,
+$$ 
+
+
+where the morphism $\eta^{n+1}$ may be found due to the defining [[nLab:right lifting property]] of the [[nLab:injective object]] $J^n$ against the top monomorphism.
+
+Observing that the [[nLab:commuting diagram|commutativity]] of this diagram is the chain homotopy condition involving $\eta^n$ and $\eta^{n+1}$, this completes the induction step.
+
+=--
+
+The formally dual statement of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} is the following.
+
++-- {: .num_lemma #MapsProjectiveIntoExactAreNullHomotopic}
+###### Lemma
+
+Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[nLab:chain map]] of [[nLab:chain complexes]] in non-negative degree, into an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[nLab:projective object|projective]] complex $X^\bullet$. Then there is a [[nLab:null homotopy]] 
+
+$$
+  \eta : 0 \Rightarrow f_\bullet
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is formally dual to the proof of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}.
+
+=--
+
+
+Hence we have seen now that injective and projective resolutions of chain complexes serve to make [[nLab:chain homotopy]] interact well with [[nLab:quasi-isomorphism]]. In the next section we show that this construction lifts from single chain complexes to chain maps between chain complexes and in fact to the whole [[nLab:category of chain complexes]]. The resulting "resolved" category of chain complexes is the _[[nLab:derived category]]_, the true home of the abelian homotopy theory of chain complexes.
+
+
+##### The derived category
+ {#DerivedCategoriesAndDerivedFunctors}
+
+In the previous section we have seen that every object $A \in \mathcal{A}$ admits an [[nLab:injective resolution]] and a [[nLab:projective resolution]]. Here we lift this construction to morphisms and then to the whole category of chain complexes, up to chain homotopy.
+
+
+The following proposition says that, when injectively resolving objects, the morphisms between these objects lift to the resolutions, and the following one, prop. \ref{HomotopyUniquenessOfResolutionOfMorphism}, says that this lift is unique up to chain homotopy.
+
++-- {: .num_prop #InjectiveResolutionOfCodomainRespectsMorphisms}
+###### Proposition
+
+Let $f : X \to Y$ be a morphism in $\mathcal{A}$. Let
+
+$$
+  i_Y : Y \stackrel{\sim}{\to} Y^\bullet
+$$
+
+be an [[nLab:injective resolution]] of $Y$ and 
+
+$$
+  i_X : X \stackrel{\sim}{\to} X^\bullet
+$$
+
+any [[nLab:monomorphism|monomorphism]] that is a [[nLab:quasi-isomorphism]] (possibly but not necessarily an injective resolution). Then there is a [[nLab:chain map]] $f^\bullet : X^\bullet \to Y^\bullet$ giving a [[nLab:commuting diagram]]
+
+$$
+  \array{
+    X &\stackrel{\sim}{\to}& X^\bullet
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f^\bullet}}
+    \\
+    Y &\stackrel{\sim}{\to}& Y^\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[nLab:chain map]] we need to construct
+[[nLab:morphisms]] $(f^n : X^n \to Y^n)_{n \in \mathbb{N}}$ such that 
+for all $n \in \mathbb{N}$ the [[nLab:diagrams]]
+
+$$
+  \array{
+    X^{n} &\stackrel{d^n_X}{\to}& X^{n+1}
+    \\
+    \downarrow^{\mathrlap{f^n}} && \downarrow^{\mathrlap{f^{n+1}}}
+    \\
+    Y^{n} &\stackrel{d^n_Y}{\to}& Y^{n+1}
+  }
+$$
+
+[[nLab:commuting diagram|commute]] (the defining condition on a [[nLab:chain map]]) and such that the diagram
+
+$$
+  \array{
+    X &\stackrel{i_X}{\to}& X^0
+    \\
+    \downarrow^{f} && \downarrow^{\mathrlap{f^0}}
+    \\
+    Y &\stackrel{i_Y}{\to}& Y^0
+  }
+$$
+
+commutes in $\mathcal{A}$ (which makes the full diagram in $Ch^\bullet(\mathcal{A})$ commute).
+
+We construct these $f^\bullet = (f^n)_{n \in \mathbb{N}}$ by [[nLab:induction]].
+
+
+To start the induction, the morphism $f^0$ in the last diagram above can be found by the defining [[nLab:right lifting property]] of the [[nLab:injective object]] $Y^0$ against the [[nLab:monomorphism]] $i_X$.
+
+Assume then that for some $n \in \mathbb{N}$ component maps $f^{\bullet \leq n}$ have been obtained such that $d^k_Y\circ f^k = f^{k+1}\circ d^k_X$ for all $0 \leq k \lt n$ . In order to construct $f^{n+1}$ consider the following diagram, which we will describe/construct stepwise from left to right:
+
+$$
+  \array{
+    X^n &\stackrel{}{\to}& X^n/im(d^{n-1}_X) &\stackrel{d^n_X}{\hookrightarrow}& X^{n+1}
+    \\
+    {}^{\mathllap{f^n}}\downarrow & \searrow^{\mathrlap{g^n}}
+    & \downarrow^{\mathrlap{h^n}} & \swarrow_{\mathrlap{f^{n+1}}}
+    \\
+    Y^n &\underset{d^n_Y}{\to}& Y^{n+1}
+  }
+  \,.
+$$
+
+Here the morphism $f^n$ on the left is given by induction assumption and we define the diagonal morphism to be the composite
+
+$$
+ g^n \coloneqq d^n_Y \circ f^n
+ \,.
+$$
+
+Observe then that by the chain map property of the $f^{\bullet \leq n}$ we have
+
+$$
+  d^n_Y \circ f^n \circ d^{n-1}_X = d^n_Y \circ d^{n-1}_Y \circ f^{n-1} = 0
+$$
+
+and therefore $g^n$ factors through $X^n/im(d^{n-1}_X)$ via some $h^n$ as indicated in the middle of the above diagram. Finally the morphism on the top right is a monomorphism by the fact that $X^{\bullet}$ is [[nLab:exact sequence|exact]] in positive degrees (being [[nLab:quasi-isomorphism|quasi-isomorphic]] to a complex concentrated in degree 0) and so a lift $f^{n+1}$ as shown on the far right of the diagram exists by the defining lifting property of the injective object $Y^{n+1}$. 
+
+The total outer diagram now [[nLab:commuting diagram|commutes]], being built from commuting sub-diagrams, and this is the required chain map property of $f^{\bullet \leq n+1}$ This completes the induction step. 
+
+
+=--
+
+
++-- {: .num_prop #HomotopyUniquenessOfResolutionOfMorphism}
+###### Proposition
+
+The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} is the unique one up to [[nLab:chain homotopy]] making the given diagram commute.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given two cochain maps $g_1^\bullet, g_2^\bullet$ making the diagram commute, a [[nLab:chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[nLab:null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
+
+$$
+  \array{
+    X &\underoverset{h^\bullet}{\sim}{\to}& X^\bullet
+    \\
+    \downarrow^{\mathrlap{0}} && \downarrow^{\mathrlap{f^\bullet \coloneqq g_2^\bullet - g_1^\bullet}}
+    \\
+    Y &\stackrel{\sim}{\to}& Y^\bullet
+  }
+$$
+
+with the left vertical morphism being the [[nLab:zero morphism]]
+(and the bottom an injective resolution). Hence we have to show that in such a diagram $f^\bullet$ is null-homotopic.
+
+This we may reduce to the statement of prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}
+by considering instead of $f^\bullet$ the induced chain map of augmented complexes
+
+
+$$
+  \array{
+     0 
+       &\stackrel{}{\to}& 
+     X 
+       &\stackrel{h^0}{\to}& 
+     X^0 
+       &\stackrel{d^0_X}{\to}& 
+     X^1 
+       &\to&
+    \cdots
+     \\
+     \downarrow^{\mathrlap{f^{-2} = 0}}
+     &&
+     \downarrow^{\mathrlap{f^{-1} = 0}}
+     &&
+     \downarrow^{f^0}
+     &&
+     \downarrow^{f^1}
+     \\
+     0 
+       &\to& 
+     Y 
+       &\to& 
+     Y^0 
+       &\stackrel{d^0_J}{\to}& 
+     Y^1 
+       &\to& 
+     \cdots  
+  }
+  \,,
+$$
+
+where the second square from the left commutes due to the commutativity of the original square of chain complexes in degree 0.
+
+Since $h^\bullet$ is a [[nLab:quasi-isomorphism]], the top chain complex is [[nLab:exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Moreover the bottom complex consists of [[nLab:injective objects]] from the second degree on (the former degree 0). Hence 
+the induction in the proof of prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} implies the existence of a [[nLab:null homotopy]]
+
+
+$$
+  \array{
+     0 
+       &\stackrel{}{\to}& 
+     X 
+       &\stackrel{}{\to}&
+     X^0 
+       &\stackrel{d^0_X}{\to}&
+     X^1 
+       &\to& 
+     \cdots
+     \\
+     \downarrow^{\mathrlap{f^{-2} = 0}}
+       &\swarrow_{\mathrlap{\eta^{-1} = 0}}&
+     \downarrow^{\mathrlap{f^{-1} = 0}}
+       &\swarrow_{\mathrlap{\eta^0 = 0} }&
+     \downarrow^{f^0}
+       &\swarrow_{\mathrlap{\eta^1}}&
+     \downarrow^{f^1}
+     \\
+     0 &\to& Y &\to& Y^0 &\stackrel{d^0_Y}{\to}& Y^1 &\to& \cdots  
+  }
+$$
+
+starting with $\eta^{-1} = 0$ and $\eta^{0 } = 0$ (notice that the proof prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} was formulated exactly this way), which works because $f^{-1} = 0$. The de-augmentation $\{f^{\bullet \geq 0}\}$ of this is the desired [[nLab:null homotopy]] of $f^\bullet$.
+
+
+=--
+
+
+We now discuss how the injective/projective resolutions constructed above are [[nLab:functor|functorial]] if regarded in the [[nLab:homotopy category of chain complexes]], def. \ref{TheStrongHomotopyCategory}. For definiteness, to be able to distinguish chain complexes from cochain complexes, introduce the following notation.
+
++-- {: .num_defn #DerivedCategory}
+###### Definition
+**(the derived category)**
+
+Write as before
+
+$$
+  \mathcal{K}_\bullet(\mathcal{A}) \in Cat
+$$ 
+
+for the strong chain homotopy category of chain complexes, from def. \ref{TheStrongHomotopyCategory}.
+
+Write similarly now 
+
+$$
+  \mathcal{K}^\bullet(\mathcal{A})  \in Cat
+$$
+
+for the strong chain homotopy category of co-chain complexes. 
+
+Write furthermore
+
+$$
+  \mathcal{D}_\bullet(\mathcal{A})
+   \coloneqq
+   \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
+    \hookrightarrow
+  \mathcal{K}_\bullet(\mathcal{A})
+$$
+
+
+for the [[nLab:full subcategory]] on the degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]], and 
+
+$$
+  \mathcal{D}^\bullet(\mathcal{A})
+  \coloneqq
+  \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+    \hookrightarrow
+  \mathcal{K}^\bullet(\mathcal{A})
+$$
+
+for the [[nLab:full subcategory]] on the degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]].
+
+These subcategories -- or any category [[nLab:equivalence of categories|equivalent]] to them -- are called the (strictly bounded above/below) **[[nLab:derived category]]** of $\mathcal{A}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Often one defines the [[nLab:derived category]] by more general abstract means than we have introduced here, namely as the _[[nLab:localization]]_ of the category of chain complexes at the quasi-isomorphims. If one does this, then the simple definition def. \ref{DerivedCategory} is instead a _theorem_. The interested reader can find more details and further pointers _[here](http://ncatlab.org/nlab/show/derived%20category#InTermsOfResolutions)_.
+
+=--
+
++-- {: .num_theorem #InjectiveResolutionFunctors}
+###### Theorem
+
+If $\mathcal{A}$ has [[nLab:injective object|enough injectives]], def. \ref{EnoughInjectivesEnoughProjectives}, then there exists a [[nLab:functor]]
+
+$$
+  P : \mathcal{A} \to \mathcal{D}^\bullet(\mathcal{A}) = \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+$$
+
+together with [[nLab:natural isomorphisms]]
+
+$$
+  H^0(-) \circ P \simeq id_{\mathcal{A}}
+$$
+
+and
+
+$$
+  H^{n \geq 1}(-) \circ P \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} every object $X^\bullet \in Ch^\bullet(\mathcal{A})$ has an injective resolution. 
+Proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that for $X \to X^\bullet$ and $X \to \tilde X^\bullet$ two resolutions there is a morphism $X^\bullet \to \tilde X^\bullet$ in $\mathcal{K}^\bullet(\mathcal{A})$ and prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} says that this morphism is unique in $\mathcal{K}^\bullet(\mathcal{A})$. In particular it is therefore an [[nLab:isomorphism]] in $\mathcal{K}^\bullet(\mathcal{A})$ (since the composite with the reverse lifted morphism, also being unique, has to be the identity). 
+
+So choose one such injective resolution $P(X)^\bullet$ for each $X^\bullet$.
+
+Then for $f : X \to Y$ any morphism in $\mathcal{A}$, 
+proposition \ref{ExistenceOfInjectiveResolutions} again says that it can be lifted to a morphism between $P(X)^\bullet$ and $P(Y)^\bullet$ and proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that there is an image in $\mathcal{K}^\bullet(\mathcal{A})$, unique for morphism making the given diagram commute. 
+
+This implies that this assignment of morphisms is [[nLab:functor|functorial]], since then also the composites are unique. 
+
+=--
+
+Dually we have:
+
++-- {: .num_theorem #ProjectiveResolutionFunctors}
+###### Theorem
+
+If $\mathcal{A}$ has [[nLab:projective object|enough projectives]], def. \ref{EnoughInjectivesEnoughProjectives}, then there exists a [[nLab:functor]]
+
+$$
+  Q : \mathcal{A} \to \mathcal{D}_\bullet(\mathcal{A}) =\mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
+$$
+
+together with [[nLab:natural isomorphisms]]
+
+$$
+  H_0(-) \circ P \simeq id_{\mathcal{A}}
+$$
+
+and
+
+$$
+  H_{n \geq 1}(-) \circ P \simeq 0
+  \,.
+$$
+
+=--
+
+For actually working with the [[nLab:derived category]], the following statement is of central importance, which we record here without proof (which requires a bit of [[nLab:localization]] theory). It says that for computing [[nLab:hom-sets]] in the derived category, it is in fact sufficient to just resolve the domain or the codomain.
+
++-- {: .num_prop #ResolutuionInOneArgumentIsSufficientForDerivedHom}
+###### Proposition
+
+Let $X_\bullet, Y_\bullet \in Ch_\bullet(\mathcal{A})$. We have [[nLab:natural isomorphisms]]
+
+$$
+  \mathcal{D}_\bullet(Q(X)_\bullet, Q(Y)_\bullet)
+  \simeq
+  \mathcal{K}_\bullet(Q(X)_\bullet, Y_\bullet)
+  \,. 
+$$
+
+Dually, for $X^\bullet, Y^\bullet \in Ch^\bullet(\mathcal{A})$, we have a natural isomorphism
+
+$$
+  \mathcal{D}^\bullet(P(X)_\bullet, P(Y)^\bullet)
+  \simeq
+  \mathcal{K}^\bullet(X^\bullet, P(Y)^\bullet)
+  \,.
+$$
+
+=--
+
+In conclusion we have found that there are _resolution functors_ that embed $\mathcal{A}$ in the homotopically correct context of resolved chain complexes with chain maps up to chain homotopy between them. 
+
+In the next section we discuss the general properties of this "homotopically correct context": the [[nLab:derived category]].
+
+##### Derived functors
+ {#DerivedFunctors}
+
+In the previous section we have seen how the entire category $\mathcal{A}$ (= $R$[[nLab:Mod]]) embeds into its [[nLab:derived category]], the category of degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]] 
+
+$$
+  P : \mathcal{A} \to \mathcal{D}^\bullet(\mathcal{A}) = \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+$$
+
+or degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]] 
+
+$$
+ Q : \mathcal{A} \to \mathcal{D}_\bullet(\mathcal{A}) =  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
+$$
+
+
+modulo [[nLab:chain homotopy]]. This construction of the derived category naturally gives rise to the following notion of [[nLab:derived functors]].
+
++-- {: .num_defn #AdditiveFunctor}
+###### Definition
+
+For $\mathcal{A}, \mathcal{B}$ two [[nLab:abelian categories]] (e.g. $R$[[nLab:Mod]] and $R'$[[nLab:Mod]]), a [[nLab:functor]]
+
+$$
+  F \colon \mathcal{A} \to \mathcal{B}
+$$
+
+is called an **[[nLab:additive functor]]** if 
+
+1. $F$ maps [[nLab:generalized the|the]] [[nLab:zero object]] to the zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
+
+1. given any two [[nLab:objects]] $x, y \in \mathcal{A}$, there is an [[nLab:isomorphism]] $F(x \oplus y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[nLab:direct sum]]:
+
+$$
+\array { x &          &            &          & y \\
+           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
+           &          & x \oplus y \\
+           & {}^{\mathllap{p_x}}\swarrow &            & \searrow^{\mathrlap{p_y}} \\
+         x &          &            &          & y }
+\quad\quad\stackrel{F}{\mapsto}\quad\quad
+\array { F(x) &          &                                      &          & F(y) \\
+              & {}_{\mathllap{i_{F(x)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(y)}}} \\
+              &          & F(x \oplus y) \cong F(x) \oplus F(y) \\
+              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(y)}}} \\
+         F(x) &          &                                      &          & F(y) }
+$$
+
+=--
+
+
++-- {: .num_defn #ProlongationOfFunctorToChainComplexes}
+###### Definition
+
+Given an [[nLab:additive functor]] $F : \mathcal{A} \to \mathcal{A}'$, it canonically induces a functor 
+
+$$
+  Ch_\bullet(F) \colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{A}')
+$$
+
+between [[nLab:categories of chain complexes]] (its "prolongation") by applying it to each [[nLab:chain complex]] and to all the diagrams in the definition of a [[nLab:chain map]]. Similarly it preserves [[nLab:chain homotopies]] and hence it passes to the quotient given by the strong [[nLab:homotopy category of chain complexes]]
+
+$$
+  \mathcal{K}(F) \colon \mathcal{K}(\mathcal{A}) \to \mathcal{K}(\mathcal{A}')
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If $\mathcal{A}$ and $\mathcal{A}'$ have [[nLab:projective object|enough projectives]], then their [[nLab:derived categories]] are
+
+$$
+  \mathcal{D}_\bullet(\mathcal{A}) 
+   \simeq 
+  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
+$$
+
+and 
+
+$$
+  \mathcal{D}^\bullet(\mathcal{A}) \simeq \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+$$
+
+etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A})$ between these derived categories. It is immediate to achieve this on the domain category, there we can simply precompose and form
+
+$$
+  \mathcal{A}  
+    \to 
+  \mathcal{D}_\bullet(\mathcal{A})
+   \simeq
+  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}}) 
+   \hookrightarrow
+  \mathcal{K}_\bullet(\mathcal{A})
+   \stackrel{\mathcal{K}_\bullet(F)}{\to}
+  \mathcal{K}_\bullet(\mathcal{A}')
+  \,.
+$$
+
+But the resulting composite lands in $\mathcal{K}_\bullet(\mathcal{A}')$ and in general does not factor through the inclusion $\mathcal{D}_\bullet(\mathcal{A}') = \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}'}) \hookrightarrow \mathcal{K}_\bullet(\mathcal{A}')$.
+
+In a more general abstract discussion than we present here, one finds that by applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by definition of [[nLab:resolution]], the resulting chain complex is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite. 
+
+This means that if one is only interested in the "weak chain homology type" of the chain complex in the image of a [[nLab:derived functor]], then forming [[nLab:chain homology]] groups of the chain complexes in the images of the above composite gives the desired information. This is what def. \ref{RightDerivedFunctorOfLeftExactFunctor} and def. \ref{LeftDerivedFunctorOfRightExactFunctor} below do.
+
+=--
+
++-- {: .num_defn #LeftRightExactFunctor}
+###### Definition
+
+Let $\mathcal{A}, \mathcal{A}'$ be two [[nLab:abelian categories]], for instance $\mathcal{A} = R $[[nLab:Mod]] and $\mathcal{A}' = R'$[[nLab:Mod]]. Then a [[nLab:functor]] $F \colon \mathcal{A} \to \mathcal{A}'$ 
+which preserves [[nLab:direct sums]] (and hence in particular the [[nLab:zero object]]) is called
+
+* a **[[nLab:left exact functor]]** if it preserves [[nLab:kernels]];
+
+* a **[[nLab:right exact functor]]** if it preserves [[nLab:cokernels]];
+
+* an **[[nLab:exact functor]]** if it is both left and right exact.
+
+=--
+
+Here to "preserve kernels" means that for every morphism $X \stackrel{f}{\to} Y$ in $\mathcal{A}$ we have an [[nLab:isomorphism]] on the left of the following [[nLab:commuting diagram]]
+
+$$
+  \array{
+    F(ker(f)) &\to& F(X) & \stackrel{F(f)}{\to} & F(Y)
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{=}}
+    \\
+    ker(F(f)) &\to& F(X) &\stackrel{F(f)}{\to}& F(Y)
+  }
+  \,,
+$$
+
+hence that both rows are [[nLab:exact sequence|exact]]. And dually for right exact functors.
+
+We record the following immediate consequence of this definition (which in the literature is often taken to be the definition).
+
++-- {: .num_prop #LeftRightExactFunctorsCharacterizedByExactSequences}
+###### Proposition
+
+If $F$ is a left exact functor, then for every [[nLab:exact sequence]]  of the form
+
+$$
+  0 \to A \to B \to C
+$$
+
+also 
+
+$$
+  0 \to F(A) \to F(B) \to F(C)
+$$
+
+is an exact sequence. Dually, if $F$ is a right exact functor, then for every [[nLab:exact sequence]] of the form
+
+$$
+  A \to B \to C \to 0
+$$
+
+also 
+
+$$
+  F(A) \to F(B) \to F(C) \to 0
+$$
+
+is an exact sequence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $0 \to A \to B \to C$ is exact then $A \hookrightarrow B$ is a [[nLab:monomorphism]] by prop. \ref{CharacterizationOfShortExactSequences}.
+But then the statement that $A \to B \to C$ is exact at $B$ says 
+precisely that $A$ is the [[nLab:kernel]] of $B \to C$. 
+So if $F$ is left exact then by definition also $F(A) \to F(B)$
+is the kernel of $F(B) \to F(C)$ and so is in particular also 
+a monomorphism.
+Dually for right exact functors.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Proposition \ref{LeftRightExactFunctorsCharacterizedByExactSequences} is
+clearly the motivation for the terminology in def. \ref{LeftRightExactFunctor}: a functor is left exact if is preserves short exact sequences to the left, and right exact if it preserves them to the right.
+
+=--
+
+Now we can state the main two definitions of this section.
+
++-- {: .num_defn #RightDerivedFunctorOfLeftExactFunctor}
+###### Definition
+
+Let 
+
+$$
+  F : \mathcal{A} \to \mathcal{A}'
+$$
+
+be a [[nLab:left exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has enough injectives. For $n \in \mathbb{N}$ the **$n$th [[nLab:right derived functor]]** of $F$ is the composite
+
+$$
+  R^n F : 
+  \mathcal{A}
+   \stackrel{P}{\to}
+  \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+   \stackrel{\mathcal{K}^\bullet(F)}{\to}
+  \mathcal{K}^\bullet(\mathcal{A}')
+    \stackrel{H^n(-)}{\to}
+  \mathcal{A}'
+  \,,
+$$
+
+where
+
+* $P$ is the [[nLab:injective resolution]] functor of theorem \ref{InjectiveResolutionFunctors};
+
+* $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
+
+* $H^n(-)$ is the $n$-[[nLab:chain homology]] functor. Hence
+
+$$
+  (R^n F)(X^\bullet) \coloneqq H^n(F(P(X)^\bullet))
+  \,.
+$$
+
+=--
+
+Dually:
+
++-- {: .num_defn #LeftDerivedFunctorOfRightExactFunctor}
+###### Definition
+
+Let 
+
+$$
+  F : \mathcal{A} \to \mathcal{A}'
+$$
+
+be a [[nLab:right exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has enough projectives. For $n \in \mathbb{N}$ the **$n$th [[nLab:left derived functor]]** of $F$ is the composite
+
+$$
+  L_n F : 
+  \mathcal{A}
+   \stackrel{Q}{\to}
+  K_\bullet(\mathcal{P}_{\mathcal{A}})
+   \stackrel{\mathcal{K}_\bullet(F)}{\to}
+  \mathcal{K}_\bullet(\mathcal{A}')
+    \stackrel{H_n(-)}{\to}
+  \mathcal{A}'
+  \,,
+$$
+
+where
+
+* $Q$ is the [[nLab:projective resolution]] functor of theorem \ref{ProjectiveResolutionFunctors};
+
+* $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
+
+* $H_n(-)$ is the $n$-[[nLab:chain homology]] functor. Hence
+
+$$
+  (L_n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
+  \,.
+$$
+
+=--
+
+The following proposition says that in degree 0 these derived functors coincide with the original functors. 
+
++-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
+###### Proposition
+
+Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[nLab:left exact functor]], def. \ref{LeftRightExactFunctor} in the presence of [[nLab:injective object|enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[nLab:natural isomorphism]]
+
+$$
+  R^0F(X) \simeq F(X)
+  \,.
+$$
+
+Dually, if $F$ is a [[nLab:right exact functor]] in the presence of [[nLab:projective object|enough projectives]], then 
+
+$$
+  L_0 F(X) \simeq F(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first statement, the second is formally dual. 
+
+By remark \ref{InjectiveResolutionInComponents} an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
+
+$$
+  0 \to X \hookrightarrow X^0 \to X^1 \to \cdots
+  \,.
+$$
+
+If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+
+$$
+  0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
+$$
+
+is an exact sequence. But this means that 
+
+$$
+  R^0 F(X) \coloneqq ker(F(X^0) \to F(X^1)) \simeq F(X)
+  \,.
+$$
+
+=--
+
+The following immediate consequence of the definition is worth recording:
+
++-- {: .num_prop #LeftDerivedFunctorOnProjectiveVanishes}
+###### Proposition
+
+Let $F$ be an [[nLab:additive functor]]. 
+
+* If $F$ is [[nLab:right exact functor|right exact]] and $N \in \mathcal{A}$ is a [[nLab:projective object]], then 
+
+  $$
+    L_n F(N) = 0 \;\;\;\; \forall n \geq 1
+    \,.
+  $$
+
+* If $F$ is [[nLab:left exact functor|left exact]] and $N \in \mathcal{A}$ is a [[nLab:injective object]], then 
+
+  $$
+    R^n F(N) = 0 \;\;\;\; \forall n \geq 1
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $N$ is projective then the chain complex $[\cdots \to 0 \to 0 \to N]$ is already a [[nLab:projective resolution]] and hence by definition $L_n F(N) \simeq H_n(0)$ for $n \geq 1$. Dually if $N$ is an injective object.
+
+=--
+
+For proving the basic property of derived functors below in prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} which continues these basis statements to higher degree, in a certain way, we need the following technical lemma.
+
++-- {: .num_lemma #ProjectiveResolutionOfExactSequenceByExactSequence}
+###### Lemma
+
+For $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ a [[nLab:short exact sequence]]
+in an [[nLab:abelian category]] with [[nLab:projective object|enough projectives]], 
+there exists a [[nLab:commuting diagram]] of [[nLab:chain complexes]]
+
+$$
+  \array{
+    0 &\to& A_\bullet &\to& B_\bullet &\to& C_\bullet &\to& 0
+    \\
+      && 
+    \downarrow^{\mathrlap{f_\bullet}}
+      && 
+    \downarrow^{\mathrlap{g_\bullet}}
+      && 
+    \downarrow^{\mathrlap{h_\bullet}}
+    \\
+    0 &\to& A &\stackrel{i}{\to}& B &\stackrel{p}{\to}& C &\to& 0
+  }
+$$
+
+where 
+
+* each vertical morphism is a [[nLab:projective resolution]];
+
+and in addition
+
+* the top row is again a [[nLab:short exact sequence]] of chain complexes.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} we can choose $f_\bullet$ and $h_\bullet$. The task is now to construct the third resolution $g_\bullet$ such as to obtain a short exact sequence of chain complexes, hence degreewise a short exact sequence, in the two row.
+
+To construct this, let for each $n \in \mathbb{N}$
+
+$$
+  B_n \coloneqq A_n \oplus C_n
+$$
+
+be the [[nLab:direct sum]] and let the top horizontal morphisms be the canonical inclusion and projection maps of the direct sum.
+
+Let then furthermore (in [[nLab:matrix calculus]] notation)
+
+$$
+  g_0 = 
+   \left(
+     \array{
+        (j_0)_A  
+        & 
+        (j_0)_B
+      }
+  \right)
+ : A_0 \oplus C_0 \to B
+$$
+
+be given in the first component by the given composite
+
+$$
+ (g_0)_A : A_0 \oplus C_0 \stackrel{}{\to} A_0 \stackrel{f_0}{\to} A \stackrel{i}{\hookrightarrow} B
+$$
+
+and in the second component we take
+
+$$
+  (j_0)_C : A_0 \oplus C_0 \to C_0 \stackrel{\zeta}{\to} B
+$$
+
+to be given by a lift in
+
+$$
+  \array{
+    && B
+    \\
+    & {}^{\mathllap{\zeta}}\nearrow & \downarrow^{\mathrlap{p}}
+    \\
+    C_0 &\stackrel{h_0}{\to}& C
+  }
+  \,,
+$$
+
+which exists by the [[nLab:left lifting property]] of the [[nLab:projective object]]
+$C_0$ (since $C_\bullet$ is a projective resolution) against the [[nLab:epimorphism]] $p : B \to C$ of the [[nLab:short exact sequence]].
+
+In total this gives in degree 0
+
+$$
+  \array{
+    A_0 &\hookrightarrow& A_0 \oplus C_0 &\to& C_0
+    \\
+    \downarrow^{\mathrlap{f_0}} && {}^{\mathllap{((g_0)_A, (g_0)_C)}}\downarrow &\swarrow_{\zeta}& \downarrow^{\mathrlap{h_0}}
+    \\
+    A &\stackrel{i}{\hookrightarrow}& B &\stackrel{p}{\to}& C
+  }
+  \,.
+$$
+
+Let then the [[nLab:differentials]] of $B_\bullet$ be given by
+
+$$
+  d_k^{B_\bullet} 
+    = 
+  \left(
+    \array{
+      d_k^{A_\bullet} & (-1)^k e_k
+      \\
+      0 & d_k^{C_\bullet}
+    }
+  \right)
+  : 
+  A_{k+1} \oplus C_{k+1}
+  \to
+  A_k \oplus C_k
+  \,,
+$$
+
+where the $\{e_k\}$ are constructed by [[nLab:induction]] as follows. Let $e_0$ be a lift in 
+
+$$
+  \array{   
+    & && A_0
+    \\
+    & & {}^{\mathllap{e_0}}\nearrow & \downarrow^{\mathrlap{f_0}}
+    \\
+    \zeta \circ d^{C_\bullet}_0 \colon & C_1 &\stackrel{}{\to}& A &\hookrightarrow B&
+  }
+$$
+
+which exists since $C_1$ is a [[nLab:projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that by exactness the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and  the chain complex property of $C_\bullet$ gives 
+
+$$
+  \begin{aligned}
+    p \circ \zeta \circ d^{C_\bullet}_0 
+    &= 
+    h_0 \circ d^{C_\bullet}_0
+    \\
+    & = 0 \circ h_1
+    \\
+    & = 0 
+  \end{aligned}
+  \,.
+$$ 
+
+Now in the induction step, assuming that $e_{n-1}$ has been been found satisfying the chain complex property, let $e_n$ be a lift in
+
+$$
+  \array{
+    & && A_n
+    \\
+    & & {}^{\mathllap{e_{n}}}\nearrow & \downarrow^{\mathrlap{d^{A_\bullet}_{n-1}}}
+    \\
+    e_{n-1}\circ d_n^{C_\bullet} \colon & C_{n+1} &\stackrel{}{\hookrightarrow}& ker(d^{A_\bullet}_{n-1}) = im(d^{A_\bullet}_{n-1})) &\to& A_{n-1}
+  }
+  \,,
+$$
+
+
+which again exists since $C_{n+1}$ is projective. That the bottom morphism factors as indicated is the chain complex property of $e_{n-1}$ inside $d^{B_\bullet}_{n-1}$.
+
+To see that the $d^{B_\bullet}$ defines this way indeed squares to 0 notice that
+
+$$
+  d^{B_\bullet}_{n}
+  \circ
+  d^{B_\bullet}_{n+1}
+  = 
+  \left(
+    \array{
+       0 &  (-1)^{n}\left(e_{n} \circ d^{C_\bullet}_{n+1} - d^{A_\bullet}_n \circ e_{n+1} \right) 
+       \\
+       0 & 0
+     }
+  \right)
+  \,.
+$$
+
+This vanishes by the very commutativity of the above diagram.
+
+
+This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence, in fact a [[nLab:split exact sequence]], by construction. 
+
+To see that $g_\bullet$ is indeed a quasi-isomorphism, consider the [[nLab:homology long exact sequence]] associated to the short exact sequence of cochain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$. In positive degrees it implies that the chain homology of $B_\bullet$ indeed vanishes. In degree 0 it gives the short sequence $0 \to A \to H_0(B_\bullet) \to B\to 0$ sitting in a commuting diagram
+
+$$
+  \array{
+    0 &\to& A &\hookrightarrow& H_0(B_\bullet) &\to& C &\to& 0
+    \\
+    \downarrow && \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}} && \downarrow
+    \\
+    0 &\to& A &\hookrightarrow& B &\to& C &\to& 0 
+    \,,
+  }
+$$
+
+where both rows are exact. That the middle vertical morphism is an [[nLab:isomorphism]] then follows by the [[nLab:five lemma]].
+
+=--
+
+
+The formally dual statement to lemma \ref{ProjectiveResolutionOfExactSequenceByExactSequence} is the following.
+
++-- {: .num_lemma #InjectiveResolutionOfExactSequenceByExactSequence}
+###### Lemma
+
+For $0 \to A \to B \to C \to 0$ a [[nLab:short exact sequence]]
+in an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]], 
+there exists a [[nLab:commuting diagram]] of cochain complexes
+
+$$
+  \array{
+    0 &\to& A &\to& B &\to& C &\to& 0
+    \\
+      && 
+    \downarrow^{\mathrlap{}}
+      && 
+    \downarrow^{\mathrlap{}}
+      && 
+    \downarrow^{\mathrlap{}}
+    \\
+    0 &\to& A^\bullet &\to& B^\bullet &\to& C^\bullet &\to& 0
+  }
+$$
+
+where 
+
+* each vertical morphism is an [[nLab:injective resolution]];
+
+and in addition
+
+* the bottom row is again a [[nLab:short exact sequence]] of cochain complexes.
+
+=--
+
+The central general fact about derived functors to be discussed here is now the following.
+
++-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
+###### Proposition
+
+Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and assume that $\mathcal{A}$ has [[nLab:injective object|enough injectives]].
+
+Let $F : \mathcal{A} \to \mathcal{B}$ be a [[nLab:left exact functor]] and let
+
+$$
+  0 \to A \to B \to C \to 0
+$$
+
+be a [[nLab:short exact sequence]] in $\mathcal{A}$.  
+
+Then there is a [[nLab:long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
+
+$$
+  \array{
+    0 &\to& R^0F (A)  &\to&  R^0 F(B)  &\to&  R^0 F(C) 
+     &\stackrel{\delta_0}{\to}& 
+    R^1 F(A) &\to& R^1 F(B) &\to& R^1F(C)
+     &\stackrel{\delta_1}{\to}&
+    R^2 F(A) &\to& \cdots
+    \\
+    && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    0 &\to& F(A) &\to& F(B) &\to& F(C)
+  }
+$$
+
+in $\mathcal{B}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{InjectiveResolutionOfExactSequenceByExactSequence} we can find an injective resolution
+
+$$
+  0 \to A^\bullet \to B^\bullet \to C^\bullet \to 0
+$$
+
+of the given exact sequence which is itself again an exact sequence of cochain complexes.
+
+Since $A^n$ is an [[nLab:injective object]] for all $n$, its component sequences $0 \to A^n \to B^n \to C^n \to 0$ are indeed [[nLab:split exact sequences]] (see the discussion there). Splitness is preserved by any functor $F$ (and also since $F$ is [[nLab:additive functor|additive]] it even preserves the [[nLab:direct sum]] structure that is chosen in the proof of lemma \ref{ProjectiveResolutionOfExactSequenceByExactSequence}) and so it follows that
+
+$$
+  0 \to F(\tilde A^\bullet) \to F(\tilde B^\bullet) \to F(\tilde C^\bullet) \to 0
+$$
+
+is a again short exact sequence of cochain complexes, now in $\mathcal{B}$. Hence we have the corresponding [[nLab:homology long exact sequence]] from prop. \ref{HomologyLongExactSequence}:
+
+
+$$
+  \cdots
+   \to
+  H^{n-1}(F(A^\bullet)) \to H^{n-1}(F(B^\bullet)) \to H^{n-1}(F(C^\bullet))
+    \stackrel{\delta}{\to}
+  H^n(F(A^\bullet)) \to H^n(F(B^\bullet)) \to H^n(F(C^\bullet))
+    \stackrel{\delta}{\to}
+  H^{n+1}(F(A^\bullet)) \to H^{n+1}(F(B^\bullet)) \to H^{n+1}(F(C^\bullet))
+   \to
+  \cdots
+  \,.
+$$
+
+By construction of the resolutions and by def. \ref{RightDerivedFunctorOfLeftExactFunctor}, this is equal to
+
+$$
+  \cdots
+   \to
+  R^{n-1}F(A) \to R^{n-1}F(B) \to R^{n-1}F(C) 
+   \stackrel{\delta}{\to}
+  R^{n}F(A) \to R^{n}F(B) \to R^{n}F(C) 
+    \stackrel{\delta}{\to}
+  R^{n+1}F(A) \to R^{n+1}F(B) \to R^{n+1}F(C) 
+   \to
+  \cdots
+  \,.
+$$
+
+Finally the equivalence of the first three terms with $F(A) \to F(B) \to F(C)$ is given by prop. \ref{BasicPropertiesOfDerivedFunctors}.
+
+
+=--
+
++-- {: .num_remark #DerivedFunctorAsObstructionToExactness}
+###### Remark
+
+Prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} implies that one way to interpret $R^1 F(A)$ is as a "measure for how a [[nLab:left exact functor]] $F$ fails to be an [[nLab:exact functor]]". For, with $A \to B \to C$ any [[nLab:short exact sequence]], this proposition gives the exact sequence
+
+$$
+  0 \to F(A) \to F(B) \to F(C) \to R^1 F(A)
+$$
+
+and hence $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
+
+Dually, if $F$ is [[nLab:right exact functor]], then $L_1 F (C)$ "measures how $F$ fails to be exact" for then 
+
+$$
+  L_1F (C) \to F(A) \to F(B) \to F(C) \to 0
+$$
+
+is an exact sequence and hence is a short exact sequence precisely if $L_1F(C) \simeq 0$.
+
+=--
+
+Notice that in fact we even have the following statement (following directly from the definition).
+
++-- {: .num_prop #DerivedFunctorOfExactFunctor}
+###### Proposition
+
+
+Let $F$ be an [[nLab:additive functor]] which is an [[nLab:exact functor]]. Then 
+
+$$
+  R^{\geq 1} F = 0 
+$$
+
+and
+
+$$  
+  L_{\geq 1} F = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because an [[nLab:exact functor]] preserves all [[nLab:exact sequences]]. If $Y_\bullet \to A$ is a projective resolution then also $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
+
+=--
+
+Conversely:
+
++-- {: .num_defn #AcyclicObject}
+###### Definition
+
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive functor. An object $A \in \mathcal{A}$ is called an $F$-**[[nLab:acyclic object]]** is all positive-degree right/left derived functors of $F$ are zero. 
+
+=--
+
+Acyclic objects are useful for computing derived functors on non-acyclic objects. More generally, we now discuss how the derived functor of an additive functor $F$ may also be computed not necessarily with genuine injective/projective resolutions, but with (just) "$F$-injective"/"$F$-projective resolutions".
+
+While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[nLab:left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[nLab:right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is then often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss now. A special case of both are _$F$-[[nLab:acyclic resolutions]]_.
+
+Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor]]. 
+
++-- {: .num_defn #FInjectives}
+###### Definition
+
+Assume that $F$ is [[nLab:left exact functor|left exact]]. An [[nLab:additive category|additive]] [[nLab:full subcategory]] $\mathcal{I} \subset \mathcal{A}$ is called **$F$-injective** (or: consisting of $F$-injective objects) if
+
+1. for every object $A \in \mathcal{A}$ there is a [[nLab:monomorphism]] $A \to \tilde A$ into an object $\tilde A \in \mathcal{I} \subset \mathcal{A}$;
+
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A, B \in \mathcal{I} \subset \mathcal{A}$ also $C \in \mathcal{I} \subset \mathcal{A}$;
+
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+
+=--
+
+And dually:
+
++-- {: .num_defn #FProjectives}
+###### Definition
+
+Assume that $F$ is [[nLab:right exact functor|right exact]]. An [[nLab:additive category|additive]] [[nLab:full subcategory]] $\mathcal{P} \subset \mathcal{A}$ is called **$F$-projective** (or: consisting of $F$-projective objects) if
+
+1. for every object $A \in \mathcal{A}$ there is an [[nLab:epimorphism]] $\tilde A \to A$ from an object $\tilde A \in \mathcal{P} \subset \mathcal{A}$;
+
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$ also $A \in \mathcal{P} \subset \mathcal{A}$;
+
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+
+=--
+
+With the $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
+
++-- {: .num_defn #FProjectivesResolution}
+###### Definition
+
+For $A \in \mathcal{A}$, 
+
+* an **$F$-injective resolution** of $A$ is a [[nLab:cochain complex]] $I^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
+
+  $$
+    A \stackrel{\simeq_{qi}}{\to} I^\bullet
+  $$ 
+
+* an **$F$-projective resolution** of $A$ is a [[nLab:cochain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
+
+  $$
+    Q_\bullet \stackrel{\simeq_{qi}}{\to} A
+    \,.
+  $$ 
+
+=--
+
+Let now $\mathcal{A}$ have enough projectives / enough injectives, respectively, def. \ref{EnoughInjectivesEnoughProjectives}.
+
++-- {: .num_example #FAcyclicObjectsAreFProjectiveObjects}
+###### Example
+
+For $F \colon \mathcal{A} \to \mathcal{B}$ an [[nLab:additive functor]],
+let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:acyclic objects]], def. \ref{AcyclicObject}. Then
+
+* if $F$ is [[nLab:left exact functor|left exact]], then $\mathcal{I} \coloneqq Ac$ is a subcategory of $F$-injective objects;
+
+* if $F$ is [[nLab:right exact functor|right exact]], then $\mathcal{P} \coloneqq Ac$ is a subcategory of $F$-projective objects.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the case that $F$ is right exact. The other case works dually.
+Then the first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these. 
+
+For the second and third condition of def. \ref{FInjectives} use that there is the [[nLab:long exact sequence]] of [[nLab:derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
+
+$$
+  0 \to A \to B \to C \to R^1 F(A) \to R^1 F(B) \to R^1 F(C) \to R^2 F(A) \to R^2 F(B) \to R^2 F(C) \to \cdot
+  \,.
+$$
+
+For the second condition, by assumption on $A$ and $B$ and definition of $F$-[[nLab:acyclic object]] we have $R^n F(A) \simeq 0$ and $R^n F(B) \simeq 0$ for $n \geq 1$ and hence short exact sequences
+
+$$
+  0 \to 0 \to R^n F(C) \to 0
+$$
+
+which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, hence that $C$ is acyclic. 
+
+Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$. 
+
+=--
+
++-- {: .num_example #FAcyclicResolution}
+###### Example
+
+The $F$-projective/injective resolutions by [[nLab:acyclic objects]] as in example \ref{FAcyclicObjectsAreFProjectiveObjects} are called **$F$-acyclic resolutions**.
+
+=--
+
+
+Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]].
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additive]] [[nLab:left exact functor]] with [[nLab:right derived functor]] $R_\bullet F$, def. \ref{RightDerivedFunctorOfLeftExactFunctor}. Finally let $\mathcal{I} \subset \mathcal{A}$ be a subcategory of $F$-injective objects, def. \ref{FInjectives}.
+
+
++-- {: .num_lemma #FPreservesNullnessOfFInjectiveComplexes}
+###### Lemma
+
+If a [[nLab:cochain complex]] $A^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0, 
+
+$$
+  X^\bullet \stackrel{\simeq_{qi}}{\to} 0
+$$
+
+then also $F(X^\bullet) \in Ch^\bullet(\mathcal{B})$ is quasi-isomorphic to 0
+
+$$
+  F(X^\bullet) \stackrel{\simeq_{qi}}{\to} 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following collection of [[nLab:short exact sequences]] obtained from the [[nLab:long exact sequence]] $X^\bullet$:
+
+$$
+  0 \to X^0 \stackrel{d^0}{\to} X^1 \stackrel{d^1}{\to} im(d^1) \to 0
+$$
+
+$$
+  0 \to im(d^1) \to X^2 \stackrel{d^2}{\to} im(d^2) \to 0
+$$
+
+$$
+  0 \to im(d^2) \to X^3 \stackrel{d^3}{\to} im(d^3) \to 0
+$$
+
+and so on. Going by [[nLab:induction]] through this list and using the second condition in def. \ref{FInjectives} we have that all the $im(d^n)$ are in $\mathcal{I}$. Then the third condition in def. \ref{FInjectives} says that all the sequences
+
+$$
+  0 \to F(im(d^n)) \to F(X^n+1) \to F(im(d^{n+1})) \to 0
+$$
+
+are [[nLab:short exact sequence|exact]]. But this means that 
+
+$$
+  0 \to F(X^0)\to F(X^1) \to F(X^2) \to \cdots
+$$
+
+is exact, hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
+
+
+=--
+
+
++-- {: .num_theorem #DerivedFFromFInjectiveResolution}
+###### Theorem
+
+For $A \in \mathcal{A}$ an object with $F$-injective resolution $A \stackrel{\simeq_{qi}}{\to} I_F^\bullet$, def. \ref{FProjectivesResolution}, we have for each $n \in \mathbb{N}$ an [[nLab:isomorphism]]
+
+$$  
+  R^n F(A) \simeq H^n(F(I_F^\bullet))
+$$
+
+between the $n$th right derived functor, def. \ref{RightDerivedFunctorOfLeftExactFunctor} of $F$ evaluated on $A$ and the [[nLab:cochain cohomology]] of $F$ applied to the $F$-injective resolution $I_F^\bullet$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} we can also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} there is a lift of the identity on $A$ to a [[nLab:chain map]] $I^\bullet_F \to I^\bullet$ such that the [[nLab:diagram]]
+
+$$
+  \array{
+     A &\stackrel{\simeq_{qi}}{\to}& I_F^\bullet
+     \\
+     \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+     \\
+     A &\stackrel{\simeq_{qi}}{\to}& I^\bullet
+  }
+$$
+
+[[nLab:commuting diagram|commutes]] in $Ch^\bullet(\mathcal{A})$. Therefore by the [[nLab:2-out-of-3]] property of [[nLab:quasi-isomorphisms]] it follows that $f$ is a quasi-isomorphism
+
+Let $Cone(f) \in Ch^\bullet(\mathcal{A})$ be the [[nLab:mapping cone]] of $f$ and let $I^\bullet \to Cone(f)$ be the canonical [[nLab:chain map]] into it. By the explicit formulas for mapping cones, we have that 
+
+1. there is an [[nLab:isomorphism]] $F(Cone(f)) \simeq Cone(F(f))$;
+
+1. $Cone(f) \in Ch^\bullet(\mathcal{I})\subset Ch^\bullet(\mathcal{A})$ (because $F$-injective objects are closed under [[nLab:direct sum]]).
+
+The first implies that we have a [[nLab:homology exact sequence]]
+
+$$
+  \cdots \to H^n(I^\bullet) \to H^n(I_F^\bullet) \to H^n(Cone(f)^\bullet)
+   \to H^{n+1}(I^\bullet) \to H^{n+1}(I_F^\bullet) \to H^{n+1}(Cone(f)^\bullet) \to \cdots
+  \,.
+$$
+
+Observe that with $f^\bullet$ a quasi-isomorphism $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore 
+the second item above implies with lemma \ref{FPreservesNullnessOfFInjectiveComplexes} that also $F(Cone(f))$ is quasi-isomorphic to 0. This finally means that the above homology exact sequences consists of exact pieces of the form
+
+$$
+  0 \to (R^n F(A)\coloneqq H^n(I^\bullet) \stackrel{\simeq}{\to} H^n(I_F^\bullet) \to 0
+  \,.
+$$
+
+=--
+
+
+This concludes the discussion of the general definition and the general properties of derived functors that we will consider here. In the next section we discuss the two archetypical examples.
+
+##### Fundamental examples of derived functors 
+  {#ExamplesOfDerivedFunctors}
+
+We introduce here the two archetypical examples of [[nLab:derived functors]] and discuss their basic properties. In the next chapter _[IV) The fundamental theorems](#TheFundamentalTheorems)_ we discuss how to use these derived functors for obtaining deeper statements.
+
+Above we have seen the definition and basic general properties of _[[nLab:derived functors]]_ obtained from left/right [[nLab:exact functors]] between [[nLab:abelian categories]]. 
+
+Of all [[nLab:functors]], a most fundamental one is the [[nLab:hom-functor]] of a given category. For categories such as  $R$[[nLab:Mod]] considered here, it comes with its _[[nLab:left adjoint]]_, the [[nLab:tensor product]] functor, which is hence equally fundamentally important. Here we discuss the [[nLab:derived functors]] of these two basic functors in detail.
+
+For simplicity -- this here being an introduction -- we will discuss various statements only over $R = \mathbb{Z}$, hence for [[nLab:abelian groups]]. The main simplification that this leads to is the following.
+
++-- {: .num_prop #NielsenSchreierTheorem}
+###### Proposition
+
+Every [[nLab:subgroup]] of a [[nLab:free group|free]] [[nLab:abelian group]] is itself a [[nLab:free group]].
+
+=--
+
+This is a classical fact going back to Dedekind, now known (in its generalization to not-necessarily abelian groups) as the [[nLab:Nielsen-Schreier theorem]]. For us it is interesting due to the following consequence
+
++-- {: .num_prop #ShortProjectiveResolutionsForAbelianGroups}
+###### Proposition
+
+Assuming the [[nLab:axiom of choice]], every [[nLab:abelian group]] $A$ admits a [[nLab:projective resolution]], def. \ref{ProjectiveResolution}, concentrated in degree 0 and degree 1, hence a resolution which under remark \ref{ProjectiveResolutionInComponents} corresponds to a [[nLab:short exact sequence]]
+
+$$
+  0 \to F_1 \to F_0 \to A \to 0
+$$
+
+where $F_0$ and $F_1$ are [[nLab:projective object|projective]], indeed [[nLab:free abelian group|free]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the proof of prop. \ref{ModHasEnoughProjectives} there is an [[nLab:epimorphism]] $F_0 \to A$ out of a [[nLab:free abelian group]] (take for instance $F_0 = F(U(A))$, the free abelian group in the underlying set of $A$). By prop. \ref{NielsenSchreierTheorem} the [[nLab:kernel]] of this epimorphism is itself a free group, and hence by prop. \ref{CharacterizationOfProjectiveAsDirectSummandOfFree} is itself projective. Take this kernel to be $F_1 \hookrightarrow F_0$.
+
+=--
+
+This fact drastically constrains the complexity of right derived functors on abelian groups: 
+
++-- {: .num_prop }
+###### Proposition
+
+Let $F \colon Ab \to Ab$ be an [[nLab:additive functor]] which is [[nLab:left exact functor]]. Then its [[nLab:right derived functors]] $R^n F$ vanish for all $n \geq 2$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ShortProjectiveResolutionsForAbelianGroups} there is a projective resolution of any $A \in Ab$ of the form $F_\bullet = [\cdots \to 0 \to 0 \to F_1 \to F_0]$.  This implies the claim by def. \ref{RightDerivedFunctorOfLeftExactFunctor}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The conclusion of prop. \ref{ShortProjectiveResolutionsForAbelianGroups} holds more generally over every ring which is a [[nLab:principal ideal domain]]. This includes in particular $R = k$ a [[nLab:field]], in which case $R Mod \simeq k$[[nLab:Vect]]. On the other hand, every $k$-vector space is already projective itself, so that in this case the whole theory of right derived functors trivializes. 
+
+=--
+
+
+###### The derived Hom functor and group extensions
+ {#DerivedHomFunctorAndGroupExtensions}
+
+
+For $\mathcal{A}$ an [[nLab:abelian category]], such as $R$[[nLab:Mod]], the [[nLab:hom-sets]] naturally have the structure of an [[nLab:abelian group]] themselves. This means that the [[nLab:hom-functor]] of $\mathcal{A}$ is
+
+$$
+  Hom_{\mathcal{A}}(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab
+  \,,
+$$
+
+where $\mathcal{A}^{op}$ is the [[nLab:opposite category]] of $\mathcal{A}$.  This functor sends a morphism
+
+$$
+  \array{
+    (X_1 , A_1)
+    \\
+    (\uparrow , \downarrow)
+    \\
+    (X_2, A_2)
+  }
+  \;\;\;
+  \in 
+  \mathcal{A}^{op} \times \mathcal{A}
+$$
+
+to the [[nLab:linear map]] which sends a [[nLab:homomorphism]] $(X_1 \stackrel{f}{\to} A_1) \in Hom(X_1,A_1)$ to the [[nLab:composition|composite]] homomorphism
+
+$$
+  \array{
+    X_1 &\stackrel{f}{\to}& A_2
+    \\
+    \uparrow^{\mathrlap{}} && \downarrow
+    \\
+    X_2 && A_2
+  }
+  \;\;\;\;
+  \in Hom(X_2, A_2)
+  \,.
+$$
+
+In particular if we hold the first argument fixed on an object $X \in \mathcal{A}$, then this yields a functor
+
+$$
+  Hom(X,-) \colon \mathcal{A} \to Ab
+$$
+
+and if we keep the second argument fixed on an object $A \in \mathcal{A}$, then this yields a functor
+
+$$
+  Hom(-,A) \colon \mathcal{A}^{op} \to Ab
+  \,.
+$$
+
+This functor we have already seen above in example \ref{DualCochainComplexOfAChainComplex}.
+
+A very basic fact is the following.
+
++-- {: .num_prop #LeftExactnessOfHom}
+###### Proposition
+
+The functor $Hom(-,-)\colon \mathcal{A}^{op} \times \mathcal{A} \to Ab$
+is a left exact functor, def. \ref{LeftRightExactFunctor}. In particular for every $X \in \mathcal{A}$ the functor $Hom(X,-)\colon \mathcal{A} \to Ab$ is left exact, and for every $A \in \mathcal{A}$ the functor $Hom(-,A) \colon \mathcal{A}^{op} \to Ab$ is left exact.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A [[nLab:kernel]] in the [[nLab:opposite category]] $\mathcal{A}^{op}$ is equivalently a [[nLab:cokernel]] in $\mathcal{A}$. Hence if we regard $Hom(-,A)$ instead as a [[nLab:contravariant functor]] from $\mathcal{A}$ to [[nLab:Ab]], then the statement that it is left exact means that (on top of preserving [[nLab:direct sums]]) it sends [[nLab:cokernels]] in $\mathcal{A}$ to [[nLab:kernels]] in [[nLab:Ab]].
+
+=--
+
+We therefore have the corresponding right [[nLab:derived functor]]:
+
+
++-- {: .num_defn #ExtFunctorAsRightDerivedContravariantHom}
+###### Definition
+
+For given $A \in \mathcal{A}$, write
+
+$$
+  Ext^\bullet(-,A) \coloneqq R^\bullet Hom(-,A) \colon \mathcal{A} \to Ab
+$$
+
+for the right derived functor, def. \ref{RightDerivedFunctorOfLeftExactFunctor}, of the [[nLab:hom-functor]] in the first argument, according to prop. \ref{LeftExactnessOfHom}.
+
+This is called the **[[nLab:Ext]]**-functor.
+
+=--
+
+The basic property of the derived Hom-functor/[[nLab:Ext]]-functor is that it classifies _[[nLab:group extensions]]_ by (suspensions of) $A$. This we now discuss in detail, starting from a basic discussion of group extensions themselves.
+
+The following definition essentially just repeats that of a short exact sequence above in def. \ref{ShortExactSequence}, but now we consider it for $G$ a possibly nonabelian group and think of it slightly differently regarding these sequences up to homomorphisms as in def. \ref{MorphismOfGroupExtensions} below. Equivalently we may think of the following as a discussion of the _classification_ of short exact sequences when the leftmost and rightmost component are held fixed.
+
++-- {: .num_defn #GroupExtension}
+###### Definition
+
+Two consecutive [[nLab:homomorphisms]] of [[nLab:groups]]
+
+\[\label{shortExtension} 
+  A
+  \overset{i}\hookrightarrow \hat G\overset{p}\to G
+\]
+
+are a **[[nLab:short exact sequence]]** if 
+
+1. $i$ is [[nLab:monomorphism]], 
+
+1. $p$ an [[nLab:epimorphism]] 
+
+1. the [[nLab:image]] of $i$ is all of the [[nLab:kernel]] of $p$: $ker(p)\simeq im(i)$. 
+
+We say that such a short exact sequence exhibits $\hat G$ as a **[[nLab:group extension]]** of $G$ by $A$.
+
+If $A \hookrightarrow \hat G$ factors through the [[nLab:center]] of $\hat G$ we say that this is a **[[nLab:central extension]]**.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Sometimes in the literature one sees $\hat G$ called an extension "of $A$ by $G$". This is however in conflict with terms such as _[[nLab:central extension]]_, _[[nLab:extension of principal bundles]]_, etc, where the extension is always regarded _of the base, by the [[nLab:fiber]]_.
+
+=--
+
++-- {: .num_defn #MorphismOfGroupExtensions}
+###### Definition
+
+A [[nLab:homomorphism]] of extensions $f : \hat G_1 \to \hat G_2$
+of a given $G$ by a given $A$ is a [[nLab:group homomorphism]] of this form which fits into a [[nLab:commuting diagram]]
+
+$$
+  \array{
+     && \hat G_1
+    \\
+    & \nearrow && \searrow
+    \\
+    A &&\downarrow^{\mathrlap{f}}&& G
+    \\
+    & \searrow && \nearrow
+    \\
+    && \hat G_2
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+A morphism of extensions as in def. \ref{MorphismOfGroupExtensions} is necessarily an [[nLab:isomorphism]].
+
+\[
+  \label{equivExt}
+  \array{
+     1\to &A&\stackrel{i}\to &\hat G_1&\stackrel{p}\to &G&\to 1
+     \\
+    &\downarrow\mathrlap{=}&&\downarrow\mathrlap\epsilon&&\downarrow\mathrlap=&
+    \\
+    1\to &A&\stackrel{i'}\to &\hat G_2&\stackrel{p'}\to& G&\to 1
+  }
+  \,.
+\]
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[nLab:short five lemma]].
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $G$ and $A$  [[nLab:groups]], write 
+$Ext(G,A)$ for the set of [[nLab:equivalence classes]] of extensions of $G$ by $A$, as above and $CentrExt(G,A) \hookrightarrow Ext(G,A)$ for for the [[nLab:central extensions]]. If $G$ and $A$ are both abelian, write
+
+$$
+  AbExt(G,A) \hookrightarrow CentrExt(G,A)
+$$
+
+for the subset of _abelian groups_ $\hat G$ that are (necessarily central) extensions of $G$ by $A$. 
+
+=--
+
+We discuss now the following two ways that the $Ext^1$ knows about such group extensions.
+
+1. Central extensions of a possibly non-abelian group $G$ are classified by the degree-2 [[nLab:group cohomology]] $H^2_{Grp}(G,A)$ of $G$ with [[nLab:coefficients]] in $A$, and this in turn is equivalently computed by $Ext^1_{\mathbb{Z}[G] Mod}(\mathbb{Z}, A)$, where $\mathbb{Z}[G]$ is the [[nLab:group ring]] of $G$.
+
+   This is theorem \ref{Degree2GroupCohomologyByExt1} below.
+
+1. Abelian extensions of an abelian gorup $G$ are classified by $Ext^1_{Ab}(G,A)$. In fact, generally, in an [[nLab:abelian category]] $\mathcal{A}$ extensions of $G \in \mathcal{A}$ by $A \in \mathcal{A}$ (in the sense of [[nLab:short exact sequences]] $A \to \hat G \to G$) are classified by $Ext^1_{\mathcal{A}}(G,A)$.
+
+  This is prop \ref{Ext1ClassifiesExtensions} below.
+
+
+We first discuss now _[[nLab:group cohomology]]_:
+
++-- {: .num_defn #Group2CocycleInAbelianGroupWithTrivialAction}
+###### Definition
+
+Let $G$ be group and $A$ an [[nLab:abelian group|abelian]] group (regarded as being equipped with the trivial $G$-[[nLab:action]]).
+
+Then a **group 2-[[nLab:cocycle]]** on $G$ with [[nLab:coefficients]] in $A$ is a [[nLab:function]]
+
+$$
+  c \colon G \times G \to A
+$$
+
+such that for all $(g_1, g_2) \in G \times G$ it satisfies the [[nLab:equation]]
+
+\[
+  \label{2CocycleConditionForCentralExtension}
+  c(g_1, g_2)
+  -
+  c(g_1, g_2 \cdot g_3)
+  +
+  c(g_1 \cdot g_2, g_3)
+  - 
+  c(g_2, g_3)
+  = 
+  0
+  \;\;\;\; \in A
+\]
+
+(called the **2-cocycle condition**). 
+
+For $c, \tilde c$ two such cocycles, a **[[nLab:coboundary]]** $h \colon c \to \tilde c$ between them is a [[nLab:function]]
+
+$$
+  h \colon G \to A
+$$
+
+such that for all $(g_1,g_2) \in G \times G$ the [[nLab:equation]]
+
+\[
+  \label{Group2CoboundaryEquation}
+  \tilde c(g_1, g_2)
+  = 
+  (c + d h)(g_1, g_2)
+  \,,
+\]
+
+holds in $A$, where
+
+$$
+  (d h)(g_1, g_2) \coloneqq h(g_1 g_2) - h(g_1) - h(g_2)
+$$
+
+
+is a **2-coboundary**. 
+
+The degree-2 **group cohomology** is the set 
+
+$$
+  H^2_{Grp}(G,A) = 2Cocycles(G,A) / Coboundaries(G,A)
+$$
+
+of [[nLab:equivalence classes]] of group 2-cocycles modulo group coboundaries. This is itself naturally an [[nLab:abelian group]] under pointwise addition of cocycles in $A$
+
+$$
+  [c_1] + [c_2] = [c_1 + c_2]
+$$
+
+where
+
+$$
+  c_1 + c_2 \colon (g_1, g_2) \mapsto c_1(g_1,g_2) + c_2(g_1, g_2)
+  \,.
+$$
+   
+
+=--
+
+The following says that in the computation of $H^2_{Grp}(G,A)$ one may concentrate on nice representatives that are called _normalized_ cocycles:
+
++-- {: .num_defn #Normalized2Cocycle}
+###### Definition
+
+A group 2-cocycle $c \colon G \times G \to A$, def. \ref{Group2CocycleInAbelianGroupWithTrivialAction} is called **normalized** if 
+
+$$
+  \forall_{g_0,g_1 \in G}
+  \;\;
+  \left(g_0 = e \;or\; g_1 = e \right)
+  \Rightarrow
+  \left( c(g_0,g_1) = 0 \right)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_lemma #2CocycleOngeisSameasOnee}
+###### Lemma
+
+For $c \colon G \times G \to A$ a group 2-cocycle, we have for all $g \in G$
+that 
+
+$$
+  c(e,g) = c(e,e) = c(g,e)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The cocycle condition (eq:2CocycleConditionForCentralExtension) evaluated on
+
+$$
+  (g^{-1},  g,  e) \in G^3
+$$
+
+says that
+
+$$
+ c(g^{-1}, g) + c(e, e) = c(g, e) + c(g^{-1}, g )
+$$
+
+hence that
+
+$$
+  c(e,e) = c(g, e)
+  \,.
+$$
+
+Similarly the 2-cocycle condition applied to 
+
+$$
+  (e,  g,  g^{-1}) \in G^3
+$$
+
+says that
+
+$$
+  c(e,g) + c(g,g^{-1}) = c(g,g^{-1}) + c(e,e)
+$$
+
+hence that
+
+$$
+  c(e,g) = c(e,e)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #EveryGroup2CocycleIsNormalizable}
+###### Proposition
+
+Every group 2-cocycle $c \colon G \times G \to A$ is 
+cohomologous to a normalized one, def. \ref{Normalized2Cocycle}.
+
+=--
+
++-- {: .num_proof}
+###### Proof
+
+By lemma \ref{2CocycleOngeisSameasOnee} it is sufficient to 
+show that $c$ is cohomologous to a cocycle $\tilde c$ satisfying
+$\tilde c(e,e) = e$.
+Now given $c$, let $h \colon G \to A$ be given by 
+
+$$
+  h(g) \coloneqq c(g,g)
+  \,.
+$$
+
+Then $\tilde c \coloneqq c + d c$ has the desired property, with (eq:Group2CoboundaryEquation):
+
+$$
+  \begin{aligned}
+    \tilde c(e,e)
+    & \coloneqq
+    (c + d h)(e,e) 
+    \\
+    & = 
+    c(e,e)  + c(e \cdot e, e \cdot e) - c(e,e) - c(e,e)
+    \\  
+    & = 
+    0
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+The fundamental classification theorem is now the following. This does not yet involve the [[nLab:Ext]]-functor explicitly.
+
++-- {: .num_theorem #EquivalenceBetween2CocyclesAndGroupExtensions}
+###### Theorem
+
+There is a [[nLab:natural equivalence]]
+
+$$
+  CentrExt(G,A) \simeq H^2_{Grp}(G,A)
+  \,.
+$$
+
+
+=--
+
+We prove this below as prop. \ref{ExtractionAndReconstructionConsituteEquivalence}. Here we first introduce stepwise the ingredients that go into the proof.
+
++-- {: .num_defn #CentralExtensionAssociatedTo2Cocycle}
+###### Definition
+**(central extension associated to group 2-cocycle)**
+
+Let $[c] \in H^2_{Grp}(G,A)$ be a group 2-cocycle.
+Choose $c \colon G \times G \to A$ to be a representative of the cohomology class by a normalized cocycle, def. \ref{Normalized2Cocycle}, which can always be done by prop. \ref{EveryGroup2CocycleIsNormalizable}.
+
+Define a group 
+
+$$
+  G \times_c A \in Grpd
+$$
+
+as follows. 
+
+
+Let the underlying set of $G \times_c A$ be the [[nLab:cartesian product]] $U(G) \times U(A)$ of the underlying sets of $G$ and $A$. The group operation on this is given by
+
+$$
+  (g_1, a_1) \cdot (g_2, a_2)
+  \coloneqq
+  (g_1 \cdot g_2 ,\; a_1 + a_2 + c(g_1, g_2))
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+This defines indeed a group: the [[nLab:cocycle]] condition on $c$ gives precisely the  [[nLab:associativity]] of the product on $G \times_c A$.
+Moreover, the construction extends to a [[nLab:homomorphism]]
+
+$$
+  Rec : H^2_{Grp}(G,A) \to Ext(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Forming the product of three elements of $G \times_c A$ bracketed to the left is, according to def. \ref{CentralExtensionAssociatedTo2Cocycle},
+
+$$
+  \left(
+    \left(g_1, a_1\right) \cdot \left(g_2, a_2\right)
+  \right)
+  \cdot
+  \left(
+    g_3, a_3
+  \right)
+ = 
+  \left( 
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
+    + 
+    c(g_1, g_2) +  c\left(  g_1 g_2, g_3 \right) 
+  \right)
+  \,.
+$$
+
+Bracketing the same three elements to the right yields
+
+$$
+  \left(g_1, a_1\right) 
+   \cdot 
+  \left(
+     \left(g_2, a_2\right)
+     \cdot
+   \left(
+    g_3, a_3
+  \right)
+ \right)
+ = 
+  \left( 
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
+    + 
+    c(g_2, g_3) +  c\left(  g_1 , g_2 g_3 \right) 
+  \right)
+  \,.
+$$
+
+The difference between the two expressions is read off to be precisely
+
+$$
+  (1, (d c) (g_1, g_2, g_3))
+ \,,
+$$
+
+where $d c$ denotes the group cohomology differential of $c$. Hence this vanishes precisely if $c$ is a group 2-cocycle, hence we have an associative product.
+
+To see that it has inverses, notice that for all $(g,a)$ we have
+
+$$
+  (g,a)
+  \cdot
+  (g^{-1}, - a - c(g,g^{-1}))
+  = 
+  (e, a - a - c(g,g^{-1})+ c(g,g^{-1}) )
+$$
+
+and hence inverses in $G \times_c A$ are given by 
+
+$$
+  (g,a)^{-1} = (g^{-1}, -a - c(g,g^{-1}))
+  \,.
+$$
+
+Therefore $G \times_c A$ is indeed a group. 
+
+Using that $c$ is a normalized cocycle by assumption, we find that the inclusion 
+
+$$
+  i \colon A \to G \times_c A
+$$
+
+given by $a \mapsto (e,a)$ is a group homomorphism. Moreover, the projection on the underlying sets evidently yields a group homomorphism $p \colon G \times_c A \to G$ given by $(g,a) \mapsto g$. The kernel of this is $A$, and hence 
+
+$$
+  A \stackrel{i}{\hookrightarrow} G \times_c A \stackrel{p}{\to} G
+$$
+
+is indeed a group extension. It is a [[nLab:central extension]] again using the assumption that $c$ is normalized $c(g,e) = c(e,g) = 0$:
+
+$$
+  (g,a) \cdot (e,\tilde a) = (g, a + \tilde a + 0) = (e,\tilde a) \cdot (g,a)
+  \,.
+$$
+
+To see that the construction is independent of the choice of coycle $c$ representing $[c]$, let $\tilde c$ be another representative which differs by a [[nLab:coboundary]] $h \colon G \to A$ with
+
+$$
+  \tilde c (g_1,g_2) \coloneqq c(g_1,g_2) - h(g_1) - h(g_2) + h(g_1 g_2)
+  \,.
+$$
+
+We claim that then we have a homomorphism of central extensions (hence an isomorphism) of the form
+
+$$  
+  \array{
+     A &\to& G \times_c A &\to& G
+     \\
+     \downarrow^{\mathrlap{=}} 
+      && 
+     \downarrow^{\mathrlap{(id_G, p_2 -h \circ p_1)}} && \downarrow^{\mathrlap{=}}
+     \\
+     A &\to& G \times_{\tilde c} A &\to& G
+  }
+  \,.
+$$
+
+To see this we check for all elements that
+
+$$
+  \begin{aligned}
+   (g_1, a_1 - h(g_1)) \cdot (g_2, a_2 - h(g_2))
+   & = 
+   (g_1 g_2, a_1 + a_2 - h(g_1) - h(g_2) + c(g_1, g_2))
+   \\
+   & = 
+  (g_1 g_2, a_1 + a_2 + \tilde c(g_1, g_2) - h(g_1 g_2) )
+  \end{aligned}
+  \,.
+$$
+
+Hence the construction of $G \times_c A$ indeed defines a function $H^2_{Grp}(G,A) \to CentrExt(G,A)$. 
+
+=--
+
+Assume the [[nLab:axiom of choice]] in the ambient [[nLab:foundations]].
+
++-- {: .num_defn #2CocycleExtractedFromCentralExtension}
+###### Definition
+**(2-cocycle extracted from central extension)**
+
+Given a central extension $A \to \hat G \to B$ define a group 2-cocycle $c : G \times G \to A$ as follows.
+
+Choose a [[nLab:section]] $\sigma : U(G) \to U(\hat G)$ of the underlying [[nLab:sets]] (which exists by the [[nLab:axiom of choice]] and the fact that $p : \hat G \to G$ is by definition an [[nLab:epimorphism]]). Then define $c$ by
+
+$$
+  c
+  \colon
+  (g_1, g_2) 
+    \mapsto
+  -\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
+  \in A
+  \,,
+$$
+
+where on the right we are using that by the section-property of $\sigma$ and the group homomorphism property of $p$
+
+$$
+  p(\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)) = 1
+$$
+
+and hence by the exactness of the extension the argument is in $A \hookrightarrow \hat G$.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The construction of prop. \ref{2CocycleExtractedFromCentralExtension} indeed yields a 2-cocycle in [[nLab:group cohomology]]. It extends to a morphism
+
+$$
+  Extr \colon Ext(G,A) \to H^2_{Grp}(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The cocycle condition to be checked is that 
+
+$$
+  c(g_1, g_2) - c(g_0 g_1, g_2) + c(g_0, g_1 g_2) - c(g_0, g_1)
+  = 
+  1
+$$
+
+for all $g_0, g_1, g_2 \in G$. Writing this out with def. \ref{2CocycleExtractedFromCentralExtension} yields
+
+$$
+  \sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
+  \left(\sigma(g_0 g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_0 g_1 g_2)\right)^{-1}
+  \sigma(g_0)^{-1} \sigma(g_1 g_2)^{-1} \sigma(g_0 g_1 g_2)
+  \left( \sigma(g_0)^{-1} \sigma(g_1)^{-1} \sigma(g_0 g_1)  \right)^{-1}
+  \,.
+$$
+
+Here it is sufficient to observe that for every term also the inverse term appears.
+
+To see that this is a well-defined map to $H^2_{grp}(G,A)$ we need to check that for $\tilde \sigma : G \to \hat G$ a different choice of section, the corresponding cocycles differ by a group coboundary $\tilde c - c = d h$. Clearly this is obtained by setting
+
+$$
+  h \colon g \mapsto \tilde \sigma(g)\sigma(g)^{-1}
+  \,,
+$$
+
+where we use that the right hand side is in $A \hookrightarrow \hat G$ since because both $\sigma$ and $\tilde \sigma$ are sections of $p$, the image of the right hand under $p$ is the neutral element in $G$.
+
+=--
+
++-- {: .num_prop #ExtractionAndReconstructionConsituteEquivalence}
+###### Proposition
+
+The two morphisms of  def. \ref{CentralExtensionAssociatedTo2Cocycle} and
+def. \ref{2CocycleExtractedFromCentralExtension} exhibit an [[nLab:bijection]]
+
+$$
+  H^2_{Grp}(G,A) \stackrel{\underoverset{\simeq}{Extr}{\leftarrow}}{\underset{Rec}{\to}} CentrExt(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $[c] \in H^2_{Grp}(G,A)$. Then by construction of $\hat G \coloneqq G \times_c A$ there is a canonical section of the underlying function of sets $U(G \times_c A) \to U(G)$ given by $(id_{U(G)}, 0) U(G) \to U(G) \times U(A)$. The cocycle induced by this section sends
+
+$$
+  \begin{aligned}
+    (g_1, g_2) & \mapsto (g_1, 0) (g_2, 0) (g_1 g_2, 0)^{-1}
+    \\
+    & = 
+    (g_1, 0) (g_1, 0) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
+    \\
+    & =  (g_1 g_2, c(g_1, g_2) ) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
+    \\
+    & = (e, c(g_1, g_2) - c(g_1 g_2, (g_1 g_2)^{-1}) + c(g_1 g_2, (g_1 g_2)^{-1}))
+   \\
+   & = (e, c(g_1, g_2))
+  \end{aligned}
+  \,,
+$$
+
+which is $c(g_1, g_2) \in A \hookrightarrow G \times_c A$, and hence this recovers the 2-cocycle that we started with.
+
+
+
+This shows that $Extr \circ Rec = id$ and in particular that $Rec$ is a [[nLab:surjection]]. It is readily seen that the [[nLab:kernel]] of $Rec$ is trivial, and so it is an equivalence.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The central extension of an abelian group $G$ by an abelian group $A$ need not itself be abelian.
+
+=--
+
+But from the above classification we can read off the condition for the extension to be central.
+
++-- {: .num_prop }
+###### Proposition
+
+The central extension of an abelian group $G$ is itself abelian if the coresponding cocycle $c \colon G \times G \to A$ is symmetric, in that
+
+$$
+  c(g_1, g_2) = c(g_2, g_1)
+$$
+
+for all $g_1, g_2 \in G$.
+
+=--
+
+
+
+With the general classification of group extensions in hand, we now turn back to the [[nLab:Ext]]-functor. First we discuss a choice of [[nLab:projective resolution]] that yields group cocycles.
+
+
++-- {: .num_defn }
+###### Definition
+
+For $G$ a [[nLab:group]], the **[[nLab:group ring]]** $\mathbb{Z}[G]$ is the [[nLab:ring]]
+
+1. whose underlying [[nLab:abelian group]] is the [[nLab:free abelian group]] on the underlying set of $G$;
+
+1. whose multiplication is given on [[nLab:basis]] elements by the group operation.
+
+=--
+
++-- {: .num_defn #AugmentationMap}
+###### Definition
+
+Write
+
+$$
+  \epsilon \colon \mathbb{Z}[G] \to \mathbb{Z}
+$$
+
+for the [[nLab:homomorphism]] of [[nLab:abelian groups]] which forms the sum of $R$-[[nLab:coefficients]] of the [[nLab:formal linear combinations]] that constitute the group ring
+
+$$
+  \epsilon \colon r \mapsto \sum_{g \in G} r_g
+  \,. 
+$$
+
+This is called the [[nLab:augmentation]] map.
+
+=--
+
++-- {: .num_defn #ProjectiveResolutionForZAsZGModule}
+###### Definition
+
+For $n \in \mathbb{N}$ let 
+
+$$
+  Q^u_n \coloneqq F(U(G)^{\times^{n}})
+$$ 
+
+be the [[nLab:free module]] over the [[nLab:group ring]] $\mathbb{Z}[G]$ on $n$-[[nLab:tuples]] of elements of $G$ (hence $Q^u_0 \simeq \mathbb{Z}[G]$ is the free module on a single generator).
+
+For $n \geq 1$ let $\partial_{n-1} \colon Q^u_n \to Q^u_{n-1}$ be given on [[nLab:basis]] elements by
+
+$$
+  \partial_{n-1} (g_1, \cdots, g_n)
+  \coloneqq 
+  g_1 [g_2, \cdots, g_n]
+  + 
+  \sum_{i = 1}^{n-1} (-1)^i [g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n]
+  + 
+  (-1)^n [g_1, \cdots, g_{n-1}]
+  \,,
+$$
+
+where in the first summand we have the coefficient $g_1 \in G \hookrightarrow \mathbb{Z}[G]$ times the basis element $[g_2, \cdots, g_n]$ in $F(U(G)^{n-1})$.
+
+In particular
+
+$$
+  \partial_0 \colon [g] \mapsto g[*] - [*] =  g-e \in \mathbb{Z}[G]
+  \,.
+  \,.
+$$
+
+Write furthermore $Q_n$ for the [[nLab:quotient]] module $Q^u_n \to Q^n$ which is the [[nLab:cokernel]] of the inclusion of those elements for which one of the $g_i$ is the unit element.
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The construction in def. \ref{ProjectiveResolutionForZAsZGModule} defines [[nLab:chain complexes]] $Q^u_\bullet$ and $Q_\bullet$ of $\mathbb{Z}[G]$-modules. 
+Moreover, with the augmentation map of def. \ref{AugmentationMap} these are projective resolutions
+
+$$
+  \epsilon \colon Q^u_\bullet \stackrel{\simeq_{qi}}{\to} \mathbb{Z}
+$$
+
+$$
+  \epsilon \colon Q_\bullet \stackrel{\simeq_{qi}}{\to} \mathbb{Z}
+$$
+
+of $\mathbb{Z}$ equipped with the trivial $\mathbb{Z}[G]$-module structure in $\mathbb{Z}[G]$[[nLab:Mod]].
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+The proof that we have indeed a chain complex is much like the proof of the existence of the [[nLab:alternating face map complex]] of a [[nLab:simplicial group]], because writing
+
+$$
+  \partial^0_n [g_1, \cdots, g_n] \coloneqq g_1 [g_2, \cdots, g_n]
+$$
+
+$$
+  \partial^i_n [g_1, \cdots, g_n] \coloneqq [g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n]
+  \;\;
+  for 1 \leq i \leq n-1
+$$
+
+$$
+  \partial_n [g_1, \cdots, g_n] \coloneqq [g_1, \cdots, g_{n-1}]
+$$
+
+one finds that these satisfy the [[nLab:simplicial identities]] and that $\partial_n = \sum_{i = 0}^n (-1)^i \partial^i_n$.
+
+That the augmentation map is a [[nLab:quasi-isomorphism]] is equivalent, by remark \ref{ProjectiveResolutionInComponents}, to the [[nLab:augmentation]]
+
+$$
+  \cdots 
+  \stackrel{\partial_2}{\to} \mathbb{Z}[G]^2 
+  \stackrel{\partial_1}{\to}  
+  \mathbb{Z}[G] \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
+$$
+
+being an [[nLab:exact sequence]]. In fact we show that it is a [[nLab:split exact sequence]] by constructing for the canonical chain map to the 0-complex a [[nLab:null homotopy]] $s_\bullet$.
+To that end, let 
+
+$$
+  s_{-1} \colon \mathbb{Z} \to Q^u_0
+$$
+
+be given by sending $1 \in \mathbb{Z}$ to the single basis element in $Q^u_0 \coloneqq \mathbb{Z}[G][*] \simeq \mathbb{Z}[G]$, and let for $n \in \mathbb{N}$
+
+$$
+  s_n \colon Q^u_n \to Q^u_{n+1}
+$$
+
+be given on basis elements by 
+
+$$
+  s_n(g[g_1, \cdots, g_n]) \coloneqq [g, g_1, \cdots, g_n]
+  \,.
+$$
+
+In the lowest degrees we have
+
+$$
+  \epsilon \circ s_{-1} = id_{\mathbb{Z}}
+$$
+
+because 
+
+$$
+  \epsilon(s_{-1}(1)) = \epsilon([*]) = \epsilon(e) = 1
+$$
+
+and
+
+$$
+  \partial_0 \circ s_0 + s_{-1}\circ \epsilon = id_{Q^u_0}
+$$
+
+because for all $g \in G$ we have
+
+$$
+  \begin{aligned}
+    \partial_0 (s_0(g[*])) + s_{-1}(\epsilon(g[*]))
+    & = 
+    \partial_0( [g] ) + s_{-1}(1)
+    \\
+    & = g[*] - [*] + [*]
+    \\
+    & = 
+    g[*]
+  \end{aligned}
+  \,.
+$$
+
+For all remaining $n \geq 1$ we find
+
+$$
+  \partial_n \circ  s_n + s_{n-1} \circ \partial_{n-1}
+  = 
+  id_{Q^u_n}
+$$
+
+by a lengthy but straightforward computation. This shows that every cycle is a boundary, hence that we have a resolution.
+
+Finally, since the chain complex $Q^u_\bullet$ consists by construction degreewise of [[nLab:free modules]] hence of a [[nLab:projective modules]], it is a [[nLab:projective resolution]].
+
+=--
+
++-- {: .num_theorem #Degree2GroupCohomologyByExt1}
+###### Theorem
+
+For $A$ an [[nLab:abelian group]] equipped with a linear $G$-[[nLab:action]] and for $n \in \mathbb{N}$, the degree-$n$ [[nLab:group cohomology]] $H^n_{grp}(G, A)$ of $G$ with [[nLab:coefficients]] in $A$ is equivalently given by
+
+$$
+  \begin{aligned}
+    H^n_{Grp}(G,A) & \simeq Ext^n_{\mathbb{Z}[G]}(\mathbb{Z}, A)
+    \\
+    & \simeq H^n(Hom_{\mathbb{Z}[G]}(Q^u_n, A))
+    \\
+    & \simeq H^n(Hom_{\mathbb{Z}[G]}(Q_n, A))
+    \,.
+  \end{aligned}
+  \,,
+$$
+
+where on the right we canonically regard $A \in \mathbb{Z}[G]$[[nLab:Mod]].
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+By the [[nLab:free functor]] [[nLab:adjunction]] we have that 
+
+$$
+  Hom_{\mathbb{Z}[G]}(F^u_n, A)  
+  \simeq
+  Hom_{Set}(U(G)^{\times n}, U(A))
+$$
+
+is the set of [[nLab:functions]] from $n$-tuples of elements of $G$ to elements of $A$. It is immediate to check that these are in the [[nLab:kernel]] of $Hom_{\mathbb{Z}[G]}(\partial_{n}, A)$ precisely if they are [[nLab:cocycles]] in the [[nLab:group cohomology]] (by comparison with the explicit formulas there) and that they are gorup cohomology [[nLab:coboundaries]] precisely if they are in the [[nLab:image]] of $Hom_{\mathbb{Z}[G]}(\partial_{n-1}, A)$. This establishes the first equivalences.
+
+Similarly one finds that $H^n(Hom(F_n, A)))$ is the sub-group of _normalized_ cocycles. By the discussion at _[[nLab:group cohomology]]_ these already support the entire group cohomology (every cocycle is comologous to a normalized one).
+
+=--
+
+This finishes the discussion of the classification of [[nLab:central extensions]] of groups by $Ext^1_{\mathbb{Z}[G]}$. 
+
+Now we discuss the general statement that $Ext^1_{\mathcal{A}}$ classifies extensions in $\mathcal{A}$, hence in particular _abelian extension_ of abelian groups if $\mathcal{A} = $ [[nLab:Ab]].
+
++-- {: .num_defn #Extensions}
+###### Definition
+
+Given $A, G \in \mathcal{A}$, an **[[nLab:extension]]** of $G$ by $A$
+is a [[nLab:short exact sequence]] of the form
+
+$$ 
+  0 \to A \to \hat G \to G \to 0
+  \,.
+$$
+
+Two extensions $\hat G_1$ and $\hat G_2$ are called _equivalent_ if there is a morphism $f : \hat G_1 \to \hat G_2$ in $\mathcal{A}$ such that we have a [[nLab:commuting diagram]]
+
+$$
+  \array{
+     && \hat G_1
+     \\
+     & \nearrow && \searrow
+    \\
+    A &&\downarrow^{\mathrlap{f}}&& G
+    \\
+    & \searrow && \nearrow
+    \\
+    && \hat G_2
+  }
+  \,.
+$$
+
+Write $Ext(G,A)$ for the set of [[nLab:equivalence classes]] of extensions of $G$ by $A$.
+
+=--
+
++-- {: .num_remark #MorphismOfExtensionIsIsomorphism}
+###### Remark
+
+By the [[nLab:short five lemma]] a morphism $f$ as above is necessarily an [[nLab:isomorphism]] and hence we indeed have an [[nLab:equivalence relation]].
+
+=--
+
+
++-- {: .num_defn #MapFromExtensionsToExtGroup}
+###### Definition
+
+If $\mathcal{A}$ has [[nLab:projective object|enough projectives]], define a function
+
+$$
+  Extr \colon Ext(G,A) \to Ext^1(G,A)
+$$
+
+from the group of extensions, def. \ref{Extensions}, to the first [[nLab:Ext functor]] group as follows. Choose any projective resolution $Y_\bullet \stackrel{\simeq_{qi}}{\to} G$, which exists by prop. \ref{ExistenceOfInjectiveResolutions}. Regard then $A \to \hat G \to G\to 0$ as a resolution
+
+$$
+  \array{
+     \cdots &\to& 0 &\to& 0 &\to& A &\to& \hat G
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots &\to& 0 &\to& 0 &\to& 0 &\to& G    
+  }
+$$
+
+of $G$, by remark \ref{ProjectiveResolutionInComponents}. By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} there exists then a [[nLab:commuting diagram]] of the form
+
+$$
+  \array{
+     Y_2 &\to& 0 
+     \\
+     \downarrow^{\mathrlap{\partial_1^{Y}}} && \downarrow
+     \\
+     Y_1 &\stackrel{c}{\to}& A
+     \\
+     \downarrow^{\mathrlap{\partial_0^Y}} && \downarrow
+     \\
+     Y_0 &\to& \hat G
+     \\
+     \downarrow && \downarrow
+     \\
+     G &\stackrel{id}{\to}& G
+  }
+$$
+
+lifting the identity map on $G$ two a [[nLab:chain map]] between the two resolutions.
+
+By the commutativity of the top square, the morphism $c$ is 1-[[nLab:cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. 
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The construction of def. \ref{MapFromExtensionsToExtGroup} is indeed well defined in that it is independent of the choice of projective resolution as well as of the choice of chain map between the projective resolutions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the same projective resolution but another lift $\tilde c$ of the identity.
+By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into a commuting diagram as above is related by a [[nLab:chain homotopy]] to $c$.
+
+$$
+  \array{
+     Y_2 &\to& 0 
+     \\
+     \downarrow^{\mathrlap{\partial_1^{Y}}} &\nearrow_{\eta_1 = 0}& \downarrow
+     \\
+     Y_1 &\stackrel{c - \tilde c}{\to}& A
+     \\
+     \downarrow^{\mathrlap{\partial_0^Y}} &\nearrow_{\eta_0}& \downarrow
+     \\
+     Y_0 &\to& \hat G
+     \\
+     \downarrow &\nearrow_{}& \downarrow
+     \\
+     G &\to& G
+  }
+  \,.
+$$
+
+The chain homotopy condition here says that 
+
+$$
+  c - \tilde c = \eta_0 \circ \partial^{Y}_0 
+$$
+
+and hence that in $Hom(Y_\bullet,N)$ we have that $d \eta_0 = c - \tilde c$ is a [[nLab:coboundary]]. Therefore for the given choice of resolution $Y_\bullet$ we have obtained a well-defined map
+
+$$
+  Ext(G,A) \to Ext^1(G,A)
+  \,.
+$$
+
+If moreover $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resolution, with respect to which we define such a map as above, then lifting the identity map on $G$ to a chain map between these resolutions in both directions, by prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms}, establishes an isomorphism between the resulting maps, and hence the construction is independent also of the choice of resolution.
+
+=--
+
++-- {: .num_prop #ExtensionFromAnElementOfExt1}
+###### Definition
+
+Define a function 
+
+$$
+  Rec \colon Ext^1(G,A) \to Ext(G,A)
+$$ 
+
+as follows. For $Y_\bullet \to G$ a projective resolution of $G$ and $[c] \in Ext^1(G,A) \simeq H^1(Hom_{\mathcal{A}}(F_\bullet,A))$ an element of the $Ext$-group, let
+
+$$
+  \array{
+    Y_2 &\to& 0
+    \\
+    \downarrow && \downarrow
+    \\
+    Y_1 &\stackrel{c}{\to}& A
+    \\
+    \downarrow
+    \\
+    Y_0
+    \\
+    \downarrow
+    \\
+    G
+  }
+$$
+
+be a representative. By the commutativity of the top square this restricts to a morphism
+
+$$
+  \array{
+     Y_1/Y_2 &\stackrel{c}{\to}& A
+     \\
+     \downarrow 
+     \\
+     Y_0
+     \\
+     \downarrow
+     \\
+     G
+  }
+  \,,
+$$
+
+where now the left column is itself an extension of $G$ by the [[nLab:cokernel]] $Y_1/Y_2$ (because by exactness the kernel of $Y_1 \to Y_0$ is the image of $Y_2$ so that the kernel of $Y_1/Y_2 \to Y_0$ is zero). Form then the [[nLab:pushout]] of the horizontal map along the two vertical maps. This yields
+
+$$
+  \array{
+    Y_1/Y_2 &\stackrel{c}{\to}& A
+    \\
+    \downarrow && \downarrow
+    \\
+    Y_0 &\to& Y_0 \coprod_{Y_1/Y_2} A
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{id}{\to}& G
+  }
+  \,.
+$$
+
+Here the top right is indeed $G$, by the [[nLab:pasting law]] for pushouts and using that the left vertical composite is the [[nLab:zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[nLab:injection]]. Similarly the top right morphism is an epimorphism. 
+
+Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which we assign to $c$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The construction of def. \ref{ExtensionFromAnElementOfExt1} is indeed well defined in that it is independent of the choice of projective resolution as well as of the choice of representative of the $Ext$-element.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The coproduct $Y_0 \coprod_{Y_1/Y_2} A$ is equivalently 
+
+$$
+  coker(Y_1/Y_2 \stackrel{(incl,-c)}{\to} Y_0 \oplus A)
+  \,.
+$$
+
+For a different representative $\tilde c$ of $[c]$ there is by construction a
+
+$$
+  \array{
+     Y_1 &\stackrel{\tilde c - c}{\to}& A
+     \\
+     {}^{\mathllap{\partial_0}}\downarrow & \nearrow_{\lambda}
+     \\
+     Y_0
+  }
+  \,.
+$$
+
+Define from this a map between the two cokernels induced by the [[nLab:commuting diagram]]
+
+$$
+  \array{
+    Y_1/Y_2 &\stackrel{id}{\to}& Y_1/Y_2
+    \\
+    \downarrow^{\mathrlap{(id,-c)}} && \downarrow^{\mathrlap{(id,-\tilde c)}}
+    \\
+    Y_0 \oplus A 
+      &\stackrel{\left(\array{ id & 0 \\ \lambda & id }\right)}{\to}& 
+    Y_0 \oplus A
+  }
+  \,.
+$$
+
+By construction this respects the inclusion of 
+$A \stackrel{(0,id)}{\hookrightarrow} Y_0 \oplus A \to Y_0 \coprod_{Y_1/Y_2} A$. It also manifestly respects the projection to $G$. Therefore this defines a morphism and hence by remark \ref{MorphismOfExtensionIsIsomorphism} even an isomorphism of extensions.
+
+
+=--
+
+
++-- {: .num_prop #Ext1ClassifiesExtensions}
+###### Proposition
+
+The functions
+
+$$
+  Extr \colon Ext(G,A) \leftrightarrow Ext^1(G,A) \colon Rec
+$$
+
+from def. \ref{MapFromExtensionsToExtGroup} to def. \ref{ExtensionFromAnElementOfExt1} are [[nLab:inverses]] of each other and hence exhibit a [[nLab:bijection]] between extensions of $G$ by $A$ and $Ext^1(G,A)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By straightforward unwinding of the definitions.
+
+In one direction, starting with a $c \in Ext^1(G,A)$ and constructing the extension by pushout, the resulting pushout diagram
+
+$$
+  \array{
+     Y_1 &\stackrel{c}{\to}& A
+     \\
+     \downarrow && \downarrow
+     \\
+     Y_0 &\to& Y_0 \coprod^c_{Y_1/Y_2} A
+     \\
+     \downarrow && \downarrow
+     \\
+     G &\stackrel{id}{\to}& G
+  }
+$$
+
+at the same time exhibits $c$ as the cocycle extracted from the extension $A \to Y_0 \coprod^c_{Y_1/Y_2} A \to G$. 
+
+Conversely, when starting with an extension $A \to \hat G \to G$ then extracting a $c$ by a choice of projective resolution and constructing from that another extension by pushout, the [[nLab:universal property]] of the pushout yields a morphism of exensions, which by remark \ref{MorphismOfExtensionIsIsomorphism} is an isomorphism of extensions, hence an equality in $Ext(G,A)$.
+
+=--
+
+This concludes our discussion of the derived Hom-functor  and its relation to [[nLab:extensions]] and [[nLab:group extensions]] in low degree. Of course also the higher $Ext$-groups classify [[nLab:infinity-group extension|higher extensions]], but this we will not discuss here. Instead we turn now to the [[nLab:left adjoint]] of Hom-functor, the functor that forms [[nLab:tensor product of modules|tensor product of modules]].
+
+
+###### The derived tensor product functor and torsion subgroups
+ {#DerivedTensorProductAndTorsionSubgroups}
+
+We discuss now the construction and the basic properties of the [[nLab:derived functors]] of the following tensor product functors.
+
+Let $R$ be a [[nLab:commutative ring]]. Above in def. \ref{ExplicitTensorProduct} we considered the [[nLab:tensor product of abelian groups]], hence of $\mathbb{Z}$-modules. This directly generalizes to a tensor product of $R$-modules as follows.
+
++-- {: .num_defn #TensorProductOfModules}
+###### Definition
+
+For $N, N' \in R$[[nLab:Mod]] two $R$-[[nLab:modules]], their [[nLab:tensor product of modules]] over $R$
+
+$$
+  N \otimes_R N' \in R Mod
+$$
+
+is defined to be the $R$-module 
+
+* whose underlying [[nLab:abelian group]] is the [[nLab:quotient]] of the [[nLab:free abelian group]] on $U(N) \times U(N')$, hence on the set of pairs $\{(n,n')| n \in N, n' \in N'\}$, by the [[nLab:bilinear map|bilinearity]] [[nLab:generators and relations|relations]] (for all tuples of elements for which these expressions makes sense)
+
+  $$
+    (n_1 + n_2, n') = (n_1, n') + (n_2, n')
+  $$
+
+  and
+
+  $$
+    (n, n'_1 + n'_2) = (n,n'_1) + (n,n'_2)
+  $$
+
+  (as for tensor products of abelian groups) 
+
+  and
+
+  $$
+    (r n , n') = (n , r n')
+    \,.
+  $$
+
+* whose $R$-[[nLab:action]] is given by 
+
+  $$
+    r (n,n') = (r n, n') \sim (n,r n')
+    \,.
+  $$
+
+=--
+
+We then have statements analog to those for tensor products of abelian groups. or instance as in prop. \ref{MonoidalStructureOnAb} we have:
+
++-- {: .num_example}
+###### Example
+
+For $N \in R$[[nLab:Mod]] any module and for $R$ regarded as a module over itself, example \ref{RingAsModuleOverItself}, there is an [[nLab:isomorphism]]
+
+$$
+  R \otimes_R N \stackrel{\simeq}{\to} N
+$$
+
+given by sending
+
+$$
+ (r, n) \sim (1 r, n) \sim (1,n ) \mapsto n
+ \,.
+$$
+
+=--
+
++-- {: .num_defn #TensorProductOfModulesFunctor}
+###### Definition
+
+Let $R \in R$[[nLab:Mod]] be an $R$-[[nLab:module]]. The operation of forming the [[nLab:tensor product of modules]] with $N$ extends to a [[nLab:functor]]
+
+$$
+  (-)\otimes_R N \colon R Mod \to R Mod
+$$
+
+by sending a [[nLab:homomorphism]] $f \colon N_1 \to N_2$ of $R$-modules to the homomorphism
+
+$$
+  f \otimes_R N \colon N_1 \otimes_R N \to N_2 \otimes_R N
+$$
+
+given by 
+
+$$
+  (n_1,n) \mapsto (f(n_1), n)
+  \,.
+$$
+
+=--
+
+This is well-defined precisely by the fact that $f$ is a [[nLab:homomorphism]] of $R$-modules by assumption.
+
++-- {: .num_prop}
+###### Proposition
+
+For every $N \in R$[[nLab:Mod]], the functor $(-)\otimes_R N$ from def. \ref{TensorProductOfModulesFunctor} 
+
+* is an [[nLab:additive functor]];
+
+* is a [[nLab:right exact functor]].
+
+=--
+
+Therefore we may consider its [[nLab:left derived functor]], according to def. \ref{LeftDerivedFunctorOfRightExactFunctor}.
+
++-- {: .num_defn #TorFunctor}
+###### Definition
+
+For $N \in R Mod$ and $n \in \mathbb{N}$, write
+
+$$
+  Tor_n^{R}(-,N) \coloneqq L_n ((-)\otimes_R N) \colon R Mod \to R Mod
+$$
+
+for the [[nLab:left derived functor]] of the [[nLab:tensor product of modules]]-functor -- the **[[nLab:Tor]]-functor**.
+
+=--
+
++-- {: .num_remark #DerivationOfTensorProductLooseEnd}
+###### Remark
+
+We could just as well consider deriving the tensor product functor in the second variable. Indeed both choices give the same result. We postpone the proof of this until we have developed the tool of [[nLab:spectral sequences]] below in [12)](#SSFC). See prop. \ref{TensorProductDerivedInEitherArgument} below.
+
+=--
+
+
+The name "Tor" derives from the basic relation of this functor to [[nLab:torsion subgroups]]. This we discuss now. 
+
+
++-- {: .num_prop}
+###### Definition
+
+An [[nLab:abelian group]] is called _[[nLab:torsion]]_ if its elements are "nilpotent", hence if all its elements have finite [[nLab:order]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $A \in $ [[nLab:Ab]] and $p \in \mathbb{N}$, write
+
+$$
+  {}_p A \coloneqq \{ a \in A | p \cdot a = 0 \}
+$$ 
+
+for the **$p$-[[nLab:torsion]] [[nLab:subgroup]]** consisting of all those elements whose $p$-fold sum with themselves gives 0.
+
+=--
+
++-- {: .num_prop #TorOutOfCyclicGroup}
+###### Proposition
+
+For $p \in \mathbb{N}$, $p \geq 1$, for $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ the [[nLab:cyclic group]] and for $A \in $ [[nLab:Ab]] $\simeq \mathbb{Z}$[[nLab:Mod]] any [[nLab:abelian group]], we have an [[nLab:isomorphism]]
+
+$$
+  Tor_1^\mathbb{Z}(\mathbb{Z}_p, A)
+  \simeq
+  {}_p A
+  \,.
+$$
+
+For $p = 0$ we have
+
+$$
+  Tor_1^{\mathbb{Z}}(\mathbb{Z}, A) \simeq 0
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, the [[nLab:short exact sequence]]
+
+$$
+  0 \to \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{mod\, p}{\to}
+  \mathbb{Z}/p\mathbb{Z} \to 0
+$$
+
+constitutes a [[nLab:projective resolution]] (even a [[nLab:free resolution]]) of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
+
+$$
+  \begin{aligned}
+    Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
+    &\simeq
+    H_1( [\cdots\to 0 \to \mathbb{Z}\otimes A \stackrel{(\cdot p) \otimes A}{\to} \mathbb{Z} \otimes A )
+    \\
+    & \simeq
+    ker( (\cdot p) \otimes A )
+    \\
+    & \simeq 
+    \{ a\in A | p\cdot a = 0 \}
+  \end{aligned}
+  \,.
+$$
+
+Here in the last step we use that $(\cdot p)\otimes A$ acts as
+
+$$
+  \begin{aligned}
+    (1, a) &\mapsto  (p,a)
+    \\
+    & = p \cdot (1,a)
+    \\
+    & = (1, p \cdot a)
+  \end{aligned}
+  \,.
+$$
+
+The second statement follows since $\mathbb{Z}$ is already free so that $[\cdots \to 0 \to 0 \to \mathbb{Z}]$ is a projective resolution.
+
+=--
+
+
++-- {: .num_prop #Tor1RespectsDirectSum}
+###### Proposition
+
+For $N \in R$[[nLab:Mod]], the functor $Tor_n^R(-,N)$ respects [[nLab:direct sums]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $S \in$ [[nLab:Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[nLab:modules]]. Observe that 
+
+1. if $\{(F_s)_\bullet\}_{s \in S}$ is a family of [[nLab:projective resolutions]], then their degreewise [[nLab:direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$. 
+
+1. the tensor product functor distributes over direct sums, by prop. \ref{TensorProductDistributes};
+
+1. the [[nLab:chain homology]] functor preserves direct sums.
+
+Using this we have
+
+$$
+  \begin{aligned}
+    Tor_n^R(\oplus_{s \in S} N_n, N)
+    & \simeq
+    H_n\left( \left( \left(\oplus_{s \in S} F\right) \otimes  N \right)_\bullet \right)
+    \\
+    & \simeq
+    H_n\left( \oplus_{s \in S} \left(F_s \otimes N \right)_\bullet  \right)
+    \\
+    & \simeq \oplus_{s \in S} H_n( (F_s \otimes N)_\bullet )
+    \\
+    & \simeq \oplus_{s \in S} Tor_n(N_s, N)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #TorOfFiniteAbelianGroup}
+###### Proposition
+
+Let $A$ be a [[nLab:finite abelian group]] and $B$ any abelian group. Then
+$Tor_1(A,B)$ is a [[nLab:torsion group]].
+Specifically, $Tor_1(A,B)$ is a [[nLab:direct sum]] of [[nLab:torsion subgroups]] of $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a fundamental fact about [[nLab:finite abelian groups]] (see _[this theorem](http://ncatlab.org/nlab/show/finite+abelian+group#FiniteAbelianGroupIsDirectSumOfCyclics)_), $A$ is a [[nLab:direct sum of abelian groups|direct sum]] of [[nLab:cyclic groups]] $A \simeq \oplus_k \mathbb{Z}_{p_k}$. By prop. \ref{Tor1RespectsDirectSum} $Tor_1$ respects this direct sum, so that
+
+$$
+  Tor_1(A,B) \simeq \oplus_k Tor_1(\mathbb{Z}_{p_k}, B)
+  \,.
+$$
+
+By prop. \ref{TorOutOfCyclicGroup} every direct summand on the right is a torsion group and hence so is the whole direct sum.
+
+=--
+
+In fact this statement is true without assuming finiteness. The full statement is theorem \ref{TorOfAbelianGroup} below, which we come to after preparing a few more properties of $Tor$.
+
+
+One aspect here is that the order of $A$ and $B$ does not matter:
+
++-- {: .num_prop #SymmetryOfTor}
+###### Proposition
+
+For $N_1, N_2 \in $[[nLab:Ab]] and $n \in \mathbb{N}$ there is a [[nLab:natural isomorphism]]
+
+$$
+  Tor_n(A,B) \simeq Tor_n(B,A)
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} there is always a [[nLab:short exact sequence]]
+
+$$
+  0 \to F_1 \to F_0 \to N \to 0
+$$
+
+exhibiting a [[nLab:projective resolution]] of any module $N$. It follows that $Tor_{n \geq 2}(-,-) = 0$.
+
+Let then $0 \to F_1 \to F_2 \to N_2 \to 0$ be such a short resolution for $N_2$. Then by the long exact sequence of a derived functor, prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}, this induces an [[nLab:exact sequence]] of the form
+
+$$
+  0 \to Tor_1(N_1, F_1) \to Tor_1(N_1, F_0) \to Tor_1(N_1, N_2) \to N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
+  \,.
+$$
+
+By prop. \ref{LeftDerivedFunctorOnProjectiveVanishes}, since by construction $F_0$ and $F_1$ are already [[nLab:projective modules]] themselves this collapses to an exact sequence
+
+$$
+  0 \to Tor_1(N_1, N_2) \hookrightarrow N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
+  \,.
+$$
+
+To the last three terms we apply the natural [[nLab:braided monoidal category|symmetric braiding]] in $(R Mod, \otimes_R)$ isomorphism to get 
+
+$$
+  \array{
+    0 &\to& Tor_1(N_1, N_2) &\hookrightarrow& N_1 \otimes F_1 &\to& N_1 \otimes F_0 &\to& N_1 \otimes N_2 &\to& 0
+    \\
+    && \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} 
+  && 
+    \\ 
+    0 &\to& Tor_1(N_2, N_1) &\hookrightarrow& F_1 \otimes N_1 &\to& F_0 \otimes N_1 &\to& N_2 \otimes N_1 &\to& 0
+  }
+  \,.
+$$
+
+This exhibits a morphism $Tor_1(N_1,N_2) \to Tor_1(N_2, N_1)$ as the morphism induced on [[nLab:kernels]] from an isomorphism between two morphisms. Hence this is itself an isomorphism. (This is just by the [[nLab:universal property]] of the [[nLab:kernel]], but one may also think of it as a simple application of the [[nLab:four lemma]]/[[nLab:five lemma]].)
+
+=--
+
+In order to understand more of theorem \ref{TorOfAbelianGroup} we need  to understand the [[nLab:acyclic objects]] of the tensor product functor, def. \ref{AcyclicObject}. These are called the _[[nLab:flat modules]]_.
+
++-- {: .num_defn #FlatModule}
+###### Definition
+
+An $R$-[[nLab:module]] $N$ is __flat__ if [[nLab:tensor product of modules|tensoring]] with $N$ over $R$ as a [[nLab:functor]] from $R$[[nLab:Mod]] to itself
+$$
+  (-)\otimes_R N : R Mod \to R Mod
+$$
+
+is an [[nLab:exact functor]], def. \ref{LeftRightExactFunctor}.  
+
+=--
+
++-- {: .num_remark #ImmediateReformulationOfFlatness}
+###### Remark
+
+The condition in def. \ref{FlatModule} has the following immediate equivalent reformulations:
+
+1. $N$ is flat precisely if $(-)\otimes_R N$ is a [[nLab:left exact functor]],
+
+   because tensoring with any module is generally already a [[nLab:right exact functor]];
+
+1. $N$ is flat precisely if $(-)\otimes_R N$ sends [[nLab:monomorphisms]] ([[nLab:injections]]) to monomorphisms,
+
+   because for a right exact functor to also be left exact the only remaining condition is that it preserves the monomorphisms on the left of a [[nLab:short exact sequence]];
+
+1. $N$ is flat precisely if the degree-1 [[nLab:Tor]]-[[nLab:functor]] $Tor_1^{R Mod}(-,N)$ is zero,
+
+   because by remark \ref{DerivedFunctorAsObstructionToExactness} $L_1 F$ is the obstruction to a [[nLab:right exact functor]] $F$ being left exact;
+
+1. $N$ is flat precisely if all higher [[nLab:Tor]] functors $Tor_{\geq 1}(R Mod)(-,N)$ are zero,
+
+   by prop. \ref{DerivedFunctorOfExactFunctor};
+
+1. $N$ is flat precisely if $N$ is an [[nLab:acyclic object]] with respect to the tensor product functor;
+
+   because the [[nLab:Tor]] functor is symmetric in both arguments by prop. \ref{SymmetryOfTor} and by definition of acyclic object, def. \ref{AcyclicObject}.
+
+=--
+
+A particularly simple kind of injection of $R$-modules are the injections of [[nLab:finitely generated module|finitely generated]] [[nLab:ideals]] 
+$I \hookrightarrow R$ into the ring $R$, regarded as a module over itself, by example \ref{RingAsModuleOverItself}. According to remark \ref{ImmediateReformulationOfFlatness} $N$ being flat implies that also $I \otimes_R N \to R \otimes_R N \simeq N$ is a monomorphism. The following theorem says that this is indeed already sufficient to imply that $(-)\otimes_R N$ preserves also all other monomorphisms.
+
++-- {: .num_theorem #CharacterizationOnIdealInclusions}
+###### Theorem
+
+An $R$-module $N$ is flat already if for all inclusions $I \hookrightarrow R$ of a [[nLab:finitely generated module|finitely generated]] [[nLab:ideal]] into $R$, regarded as a module over itself, the induced morphism
+
+$$  
+  I \otimes_R N \to R \otimes_R N \simeq N
+$$
+
+is an injection.
+
+=--
+
+We will not prove this here. But this does imply the following explicit element-wise characterization of flat modules.
+
++-- {: .num_prop #RelationsFromCharacterizationonIdealInclusion}
+###### Proposition
+
+A module $N$ is flat precisely if for every finite [[nLab:linear combination]] of zero, $\sum_i r_i n_i  = 0\in N$ with $\{r_i \in R\}_i$,  $\{n_i \in N\}$ there are elements $\{\tilde n_j \in N\}_j$ and linear combinations
+
+$$
+  n_i = \sum_j b_{i j} \tilde n_j \;\;\in  N
+$$
+
+with $\{b_{i j} \in R\}_{i,j}$ such that for all $j$ we have linear combinations of 0 in $R$
+
+$$
+  \sum_i r_i b_{i j}  = 0\;\;\; \in R
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A finite set $\{r_i \in R\}_i$ corresponds to the inclusion of a finitely generated ideal $I \hookrightarrow R$. 
+
+By theorem \ref{CharacterizationOnIdealInclusions} $N$ is flat precisely if $I \otimes_R N \to N$ is an injecton. This in turn is the case precisely if the only element of the tensor product $I \otimes_R R$ that is 0 in $R \otimes_R N = N$ is already 0 on $I \otimes_R N$.
+
+Now by definition of [[nLab:tensor product of modules]] an element of $I \otimes_R N$ is of the form $\sum_i (r_i ,n_i)$ for some $\{n_i \in N\}$. Under the inclusion $I \otimes_R N \to N$ this maps to the actual linear combination $\sum_i r_i n_i$. This map is injective if whenever this linear combination is 0, already $\sum_i (r_i, n_i)$ is 0.
+
+But the latter is the case precisely if this is equal to a combination $\sum_j (\tilde r_j  , \tilde n_j)$ where all the $\tilde r_j$ are 0. This implies the claim.
+
+=--
+
+By the same kind of reasoning as in the proof of prop. \ref{RelationsFromCharacterizationonIdealInclusion} one finds:
+
++-- {: .num_prop #LazardCriterion}
+###### Proposition
+**([[nLab:Lazard's criterion]])**
+
+A module is flat if and only if it is a [[nLab:filtered colimit]] of [[nLab:free modules]]. 
+
+=--
+
+Using this we can now show the following.
+
++-- {: .num_prop #TorPreservesFilteredColimits}
+###### Proposition
+
+For $N \in R Mod$ a module and $n \in \mathbb{N}$, the functor 
+
+$$
+  Tor_n^R(-,N) \colon R Mod \to R Mod
+$$
+
+respects [[nLab:filtered colimits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let hence $A \colon I \to R Mod$ be a [[nLab:filtered category|filtered]] [[nLab:diagram]] of modules. For each $A_i$, $i \in I$ we may find a [[nLab:projective resolution]] and in fact a [[nLab:free resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[nLab:chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that 
+
+$$
+  (\underset{\to_i}{\lim} Y_i)_\bullet \to A
+$$
+
+is still a [[nLab:quasi-isomorphism]]. Moreover, by [[nLab:Lazard's criterion]], def. \ref{LazardCriterion} the degreewise filtered colimits of [[nLab:projective modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[nLab:flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[nLab:flat resolution]] of $A$. By remark \ref{ImmediateReformulationOfFlatness} this means that it is a $(-)\otimes N$-[[nLab:acyclic resolution]]. Then by example \ref{FAcyclicObjectsAreFProjectiveObjects} and theorem \ref{DerivedFFromFInjectiveResolution} it follows that 
+
+$$
+  Tor_n^\mathbb{Z}(A,N)
+  \simeq
+  H_n( (\underset{\to_i}{\lim} Y_i) \otimes N )
+  \,.
+$$
+
+Now the [[nLab:tensor product of modules]] is a [[nLab:left adjoint]] [[nLab:functor]] (the [[nLab:right adjoint]] being the [[nLab:internal hom]] of modules) and so it commutes over the filtered colimit to yield, using again that [[nLab:chain homology]] commutes with filtered colimits,
+
+$$
+  \begin{aligned}
+  \cdots 
+    & 
+    \simeq 
+    H_n( \underset{\to_i}{\lim} (Y_i \otimes N) )
+    \\
+    & \simeq
+   \underset{\to_i}{\lim} H_n( Y_i \otimes N )   
+    \\
+    & \simeq
+    \underset{\to_i}{\lim} Tor_n( A_i, N)
+ \end{aligned}
+  \,.
+$$
+
+=--
+
+Using this we now can now proof the generalization of prop. \ref{TorOfFiniteAbelianGroup}.
+
++-- {: .num_theorem #TorOfAbelianGroup}
+###### Theorem
+
+For $A, B \in $ [[nLab:Ab]], $Tor_1(A,B)$ is a torsion group which is a [[nLab:filtered colimit]] of [[nLab:direct sums]] of [[nLab:torsion subgroups]] of either $A$ or $B$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The group $A$ may be expressed as a [[nLab:filtered colimit]] 
+
+$$
+  A \simeq \underset{\to_i}{\lim} A_i
+$$
+
+of all its finitely generated [[nLab:subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[nLab:direct sum]] of [[nLab:cyclic groups]]. 
+
+By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every summand is sent to a torsion subgroup (of either $A$ or $B$).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
+
+=--
+
+This concludes our discussion of the basic properties of the $Tor$-functor. In the next chapter _[The fundamental theorems](#TheFundamentalTheorems)_ we see [[nLab:Ext]] and [[nLab:Tor]] put to work to yield deeper statements.
+
+
+#### Kan complexes and Simplicial homotopy theory
+
+An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
+
+$$
+  K : \Delta^{op} \to Set
+$$
+
+as specifying
+
+* a set $[0] \mapsto K_0$ of [[object]]s;
+
+* a set $[1] \mapsto K_1$ of [[morphism]];
+
+* a set $[2] \mapsto K_2$ of [[2-morphism]];
+
+* a set $[3] \mapsto K_3$ of [[3-morphism]];
+
+and generally
+
+* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+
+as well as specifying
+
+* functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
+  that send $n+1$-morphisms to their boundary $n$-morphisms;
+
+* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
+  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
+  on them.
+
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
+These are called the [[simplicial identities]].
+
+But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
+
+For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+
+$$
+  \Lambda^1[2] = \left\{
+    \array{
+       && 1
+       \\
+       & \nearrow && \searrow
+       \\
+       0 &&&& 2
+    }
+  \right\}
+$$
+
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
+
+$$
+    \array{
+       && x_1
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
+       \searrow^{\mathrlap{g}}
+       \\
+       x_0 &&\stackrel{h}{\to}&& x_2
+    }
+  \,.
+$$
+
+From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+
+$$
+  \array{
+    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists h}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
+
+For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+
+$$
+  \Lambda^2[2] = \left\{
+    \array{
+       && 1
+       \\
+       & && \searrow
+       \\
+       0 &&\to&& 2
+    }
+  \right\}
+$$
+
+the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
+
+$$
+  (g,h) : \Lambda^2[2] \to K
+$$
+
+two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
+
+$$
+  \array{
+    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists f}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+
+let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
+
+Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
+
+$$
+  \array{
+     \Lambda^i[n] &\stackrel{f}{\to}& K
+     \\
+     \downarrow & \nearrow_{\mathrlap{\sigma}}
+     \\
+     \Delta[n]
+  }
+  \,.
+$$
+
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
+
+### Semantic layer
+
+#### Model categories
+
+* [[model structure on simplicial sets]]
+
+* [[model structure on simplicial presheaves]]
+
+
+### Syntactic layer
+
