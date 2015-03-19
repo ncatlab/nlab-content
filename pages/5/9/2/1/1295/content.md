@@ -130,12 +130,12 @@ This statement and its proof remain valid in [[homotopy theory]]. More in detail
 
 As a special case of the above one obtains [[exponential objects]]/[[internal homs]].
 
-Let $\mathcal{C}$ have a [[terminal object]] $* \in \mathcal{C}$. Let $X \in \mathcal{C}$ be any object and let $X \colon X \to *$ be the terminal morphism.
+Let $\mathcal{C}$ have a [[terminal object]] $* \in \mathcal{C}$. Let $A$ and $X$ in $\mathcal{C}$ be objects and let $A \colon A \to *$ and $X \colon X \to *$ be the terminal morphisms. 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The dependent product along $X$ of the (arrow obtained via) base change along $X$ is the [[exponential object]]/[[internal hom]] $[X,A]$
+The dependent product along $X$ of the arrow obtained by base change of $A$ along $X$ is the exponential object $[X,A]$:
 
 $$
   \prod_{X} X^* A \simeq [X,A]  \in \mathcal{C}
@@ -150,6 +150,9 @@ $$
 This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
 
 =--
+
+As an example, we are going to follow the chain from $[X,A]$ to $\prod_{X} X^* A$ in ${Set}$: Firstly, the exponential object $[X,A]$ is characterized in $[Y,[X,A]]$ as right adjoint to $[Y\times X,A]$. 
+Secondly, the elements  $\theta$ of $[Y\times X,A]$ are in turn in bijection with those functions $(y,x)\mapsto (\theta(y,x),x)$ from $[Y\times X,A\times X]$, that leave the second component fixed. The condition just stated is the definition of arrows in the overcategory ${Set}/X$, between the right projections out of $Y\times X$ resp. $A\times X$. If we identify objects $Z\in{Set}$ with their terminal morphisms $Z:Z\to *$ in ${Set}/*$, those two right projections are the pullbacks $X^* Y$ and $X^* A$, respectively. Thirdly, thus, the subset of $[Y\times X,A\times X]$ we are interested in corresponds to $[X^* Y,X^* A]$ in ${Set}/X$. Finally, the right adjoint to $X^*$ is a functor $\prod_{X}$ from ${Set}/X$ to ${Set}/*$, such that $[X^* Y,X^* A]\simeq [Y, \prod_{X} X^* A]$. Hence $\prod_{X} X^* A$ must correspond to $[X,A]$.
 
 ### Relation to type theory and quantification in logic
 
