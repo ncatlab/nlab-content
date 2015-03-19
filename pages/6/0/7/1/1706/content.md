@@ -289,7 +289,7 @@ In the language of [[∞-actions]] (as discussed there), the space $Top_{O(n)}(\
 
 $$
   \array{
-     X && \longrigtarrow && \tilde X//O(n)
+     X && \longrightarrow && \tilde X//O(n)
      \\
      & \searrow && \swarrow
      \\
