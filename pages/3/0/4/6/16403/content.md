@@ -13,9 +13,9 @@
 
 ## **Homotopy types**
 
-Traditionally mathematics and physics eqhas been founded on _[[sets]]_, "bags of points". But fundamental [[physics]] is all governed by the [[gauge principle]] which says that fundamentally the points in these bags are connected, possibly, by various [[gauge transformation]] [[equivalences]]. In fact fundamental physics involves [[higher gauge theory]], which asserts that in general there are [[gauge-of-gauge transformation]] between these gauge transformations, and so ever on. This means that what naively may have looked spaces made of points are really in general more like [[orbifolds]], "[[orbispaces]]". Since these are generalizations of [[groups]] of [[symmetries]] to a situation where symmetries act between "different" objects, one speaks of _[[groupoids]]_, and if the ever higher [[gauge-of-gauge equivalences]] are taken into account one speaks of _[[infinity-groupoids]]_. The field of mathematics that studies these structures is called _[[homotopy theory]]_. Here "[[gauge equivalences]]" are also called _[[homotopies]]_ and [[n-groupoids]] (structures with $n$-fold [[gauge-of-gauge transformations]]) are called _[[homotopy n-types]]_.
+Traditionally, mathematics and physics have been [[foundations|founded]] on _[[sets]]_, "bags of points". But fundamental [[physics]] is all governed by the [[gauge principle]] which says that fundamentally the points in these bags are connected, possibly, by various [[gauge transformation]] [[equivalences]]. In fact fundamental physics involves [[higher gauge theory]], which asserts that in general there are [[gauge-of-gauge transformations]] between these gauge transformations, and so ever on. This means that what naively may have looked like spaces made of points are really in general like [[orbifolds]], "[[orbispaces]]". Since these are generalizations of [[groups]] of [[symmetries]] to a situation where symmetries act on and between various objects, one speaks of _[[groupoids]]_, and if the ever higher [[gauge-of-gauge equivalences]] are taken into account one speaks of _[[infinity-groupoids]]_. The field of mathematics that studies these structures is called _[[homotopy theory]]_. Here "[[gauge equivalences]]" are also called _[[homotopies]]_ and [[n-groupoids]] (structures with $n$-fold [[gauge-of-gauge transformations]]) are called _[[homotopy n-types]]_.
 
-Here we discuss the basics of [[homotopy theory]] irrespective of any [[geometry]]. In the next chapter _[[geometry of physics -- smooth homotopy types]]_ we then combine the concept of _[[geometry of physics -- smooth spaces|smooth sets]]_ of the previous chapter with the idea of generalizeing sets to _[[smooth homotopy types]]_. These subsume the objects of actual interest in physics, such as notably the [[moduli stacks]] of [[field (physics)|fields]] in any [[gauge theory]] and [[higher gauge theory]].
+Here we discuss the basics of [[homotopy theory]] irrespective of any [[geometry]]. In the next chapter _[[geometry of physics -- smooth homotopy types]]_ we then combine the concept of _[[geometry of physics -- smooth spaces|smooth sets]]_ of the previous chapter with the idea of generalizing sets to _[[smooth homotopy types]]_. These subsume the objects of actual interest in physics, such as notably the [[moduli stacks]] of [[field (physics)|fields]] in any [[gauge theory]] and [[higher gauge theory]].
 
 
 ### Motivation
@@ -43,24 +43,25 @@ While standard and traditional, this story hides a bit how utmost fundamental th
 #####The gauge principle
  {#MotivationFromGaugePrinciple}
 
-One of the fundamental principles of modern physics is the _[[gauge principle]]_. It says that every [[field (physics)|field]] configuration in physics -- hence everything in physics --is, in general, a _[[gauge field]]_ configuration. This in turn means that given two field configurations $\Phi_1$ and $\Phi_2$, then it makes no sense to ask whether they are _[[equality|equal]]_ or not. Instead what makes sense to ask is for a [[gauge transformation]] $g$ that, if it exists, exhibits $\Phi_1$ as being gauge [[equivalence|equivalent]] to $\Phi_2$ via $g$.
+One of the fundamental principles of modern physics is the _[[gauge principle]]_. It says that every [[field (physics)|field]] configuration in physics -- hence absolutely everything in physics -- is, in general, a _[[gauge field]]_ configuration. This in turn means that given two field configurations $\Phi_1$ and $\Phi_2$, then it makes no sense to ask whether they are _[[equality|equal]]_ or not. Instead what makes sense to ask for is a [[gauge transformation]] $g$ that, if it exists, exhibits $\Phi_1$ as being gauge [[equivalence|equivalent]] to $\Phi_2$ via $g$:
 
 $$
   \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
   \,.
 $$
 
-This satisfies obvious rules, so obvious that physics textbooks usually don't even mention this. First of all, if there is yet another field configuration $\Phi_3$ and a gauge transformation from $\Phi_2$ to $\Phi_3$, then there is also the [[composition|composite]] gauge transformation
+This satisfies obvious rules, so obvious that physics textbooks usually don't bother to mention this. First of all, if there is yet another field configuration $\Phi_3$ and a gauge transformation $g'$ from $\Phi_2$ to $\Phi_3$, then there is also the [[composition|composite]] gauge transformation
 
 $$
   g' \circ g
   \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
   \underoverset{\simeq}{g'}{\longrightarrow}
   \Phi_3
-  \,.
 $$
 
-Morever, these being [[equivalences]] means that they have [[inverses]], 
+and this [[composition]] is [[associative]].
+
+Moreover, these being [[equivalences]] means that they have [[inverses]], 
 
 $$
   \Phi_2 \underoverset{\simeq}{g^{-1}}{\longrightarrow} \Phi_1
@@ -84,13 +85,13 @@ $$
 
 equal the [[identity]] transformation. 
 
-Obvious as this is, in [[mathematics]] this structure gets a name: this is a _[[groupoid]]_ or _[[homotopy 1-type]]_ whose _[[objects]]_ are [[field (physics)|field configurations]] and whose _[[morphisms]]_ are [[gauge transformations]].
+Obvious as this may be, in [[mathematics]] such [[structure]] gets a name: this is a _[[groupoid]]_ or _[[homotopy 1-type]]_ whose _[[objects]]_ are [[field (physics)|field configurations]] and whose _[[morphisms]]_ are [[gauge transformations]].
 
-But notice that in the last statement about inverses, we were actually vialoting the [[gauge principle]]: we asked for a gauge transformation of the form $g^{-1}\circ g$ (transforming one way and then just transforming back) to be [[equality|equal]] to the identity transformation $id$.
+But notice that in the last statement above about inverses, we were actually violating the [[gauge principle]]: we asked for a gauge transformation of the form $g^{-1}\circ g$ (transforming one way and then just transforming back) to be [[equality|equal]] to the identity transformation $id$.
 
-But the gauge principle applies also to gauge transformations themselves. This is the content of [[higher gauge theory]]. For instance a 2-form gauge field such as the [[Kalb-Ramond field]] has [[gauge-of-gauge transformations]]. In the physics literature these are best known in their [[infinitesimal]] approximation, which are called [[ghost-of-ghost fields]] (for some historical reasons...).
+But the gauge principle applies also to gauge transformations themselves. This is the content of [[higher gauge theory]]. For instance a 2-form gauge field such as the [[Kalb-Ramond field]] has [[gauge-of-gauge transformations]]. In the physics literature these are best known in their [[infinitesimal]] approximation, which are called [[ghost-of-ghost fields]] (for some historical reasons). In fact physicists know the [[infinitesimal]] "[[Lie algebroid]]" version of [[Lie groupoids]] and their higher versions as [[BRST complexes]].
 
-This means that in general it make no sense to ask whether two gauge transformations are equal or not. What makes sense is to ask for a [[gauge-of-gauge transformation]] that turns one into the other
+This means that in general it makes no sense to ask whether two gauge transformations are equal or not. What makes sense is to ask for a [[gauge-of-gauge transformation]] that turns one into the other
 
 $$
   \array{
@@ -104,10 +105,9 @@ $$
 $$
 
 Now it is clear that gauge-of-gauge transformations may be composed with each other, and that, being [[equivalences]], they have inverses under this composition. Moreover, this composition of gauge-of-gauge transformations is to be compatible with the already existing composition of the first order gauge transformations themselves.
-
 This structure, when made explicit, is in mathematics called a _[[2-groupoid]]_ or _[[homotopy 2-type]]_.
 
-But now it is clear that this pattern continues: next we may have a yet [[higher gauge theory]] such as that of a 3-form [[C-field]], and then there are third order gauge transformations which we must use to identify, ifpossible, second order gauge transformations. They may in turn be composed and have inverses under this composition, and the the resulting structure, when made explicit, is called a _[[3-groupoid]]_ or _[[homotopy 3-type]]_.
+But now it is clear that this pattern continues: next we may have a yet [[higher gauge theory]], for instance that of a 3-form [[C-field]], and then there are third order gauge transformations which we must use to identify, when possible, second order gauge transformations. They may in turn be composed and have inverses under this composition, and the resulting structure, when made explicit, is called a _[[3-groupoid]]_ or _[[homotopy 3-type]]_.
 
 This logic of the [[gauge principle]] keeps applying, and hence we obtain an infinite sequence of concepts, which at stage $n \in \mathbb{N}$ are called _[[n-groupoids]]_ or _[[homotopy n-types]]_. The limiting case where we never assume that some high order gauge-of-gauge transformation has no yet higher order transformations between them, the structure in this limiting case accordingly goes by the name of _[[infinity-groupoid]]_ or just _[[homotopy type]]_.
 
