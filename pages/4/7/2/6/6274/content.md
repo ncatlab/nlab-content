@@ -23,6 +23,8 @@ In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal 
 
 * [[superconformal geometry]]
 
+[[!include local and global geometry - table]]
+
 ## References
 
 
