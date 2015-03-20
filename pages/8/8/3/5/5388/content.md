@@ -22,15 +22,24 @@ In [[physics]] the [[theory (physics)|theory]] of _[[special relativity]]_ the L
 ## Related concepts
 
 * [[Lorentzian manifold]]
+
 * quantum group version: [[quantum Lorentz group]]
 
 * [[Galilelan group]]
+
+* [[Minkowski spacetime]]
+
+* [[de Sitter spacetime]]
+
+* [[anti de Sitter spacetime]]
 
 [[!include table of orthogonal groups and related]] 
 
 ## References
 
 * Wikipedia, _[Lorentz group](https://en.wikipedia.org/wiki/Lorentz_group)_
+
+[[!redirects Lorentz groups]]
 
 [[!redirects Lorentz transformation]]
 [[!redirects Lorentz transformations]]
