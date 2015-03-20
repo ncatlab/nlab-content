@@ -47,7 +47,7 @@ $$ A \to \pi(A) \to Cl_{wk^*}(\pi(A)) = A'' .$$
 +-- {: .num_defn #doubledual}
 ###### Definition
 
-Think of $A$ as a [[Banach space]], and consider its [[double dual]] $A^{**}$.  We have (as with any Banach space) a [[short linear map]] $i\colon A \to A^{**}$, so that $i(A)$ has the structure of a $C^*$-algebra.  Since $i(A)$ is [[dense subspace|dense]] in $A^{**}$ and the $C^*$-algebraic operations are [[continuous map|continuous]], they extend to $A^{**}$, making it a [[Banach algebra]]; the $C^*$ identity also extends, making $A^{**}$ into $C^*$-algebra.  Since $A^{**}$ has $A^*$ as a [[predual]], it is a von Neumann algebra, the __enveloping von Neumann algebra__ of $A$.
+Think of $A$ as a [[Banach space]], and consider its [[double dual]] $A^{**}$.  We have (as with any Banach space) a [[short linear map]] $i\colon A \to A^{**}$, so that $i(A)$ has the structure of a $C^*$-algebra.  Since $i(A)$ is weak-*-[[dense subspace|dense]] in $A^{**}$ and the $C^*$-algebraic operations are [[continuous map|continuous]], they extend to $A^{**}$. These extensions turn $A^{**}$ into a [[Banach algebra]]; the $C^*$ identity also extends, making $A^{**}$ into $C^*$-algebra.  Since $A^{**}$ has $A^*$ as a [[predual]], it is a von Neumann algebra, the __enveloping von Neumann algebra__ of $A$.
 =--
 
 Here, the [[unit of the adjunction]] is simply $i$.
