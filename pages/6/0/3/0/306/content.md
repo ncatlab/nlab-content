@@ -29,6 +29,7 @@ In this sense $\Omega$ is the [[classifying space|classifying object]] for subob
 ## Definition
 
 +-- {: .num_defn}
+
 ###### Definition
 
 In a [[category]] $C$ with [[finite limit]]s, a **subobject classifier** is a [[monomorphism]] $true : * \to \Omega$ out of the [[terminal object]], such that for every [[monomorphism]] $U \to X$ in $C$ there is a unique morphism $\chi_U : X \to \Omega$ such that there is a [[pullback]] [[diagram]]
@@ -46,7 +47,7 @@ $$
 
 =--
 
-See for instance ([MacLane-Moerdijk, p. 22](#MacLaneMoerdijk)).
+See for instance ([MacLane-Moerdijk, p. 32](#MacLaneMoerdijk)).
 
 +-- {: .num_remark}
 ###### Remark
