@@ -245,11 +245,7 @@ The formulation of [[cohesive topos|axiomatic cohesion]] on 1-[[categories]] is 
 The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy cohesion]] is discussed in 
 
 * {#ShulmanInternalizing} [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
- 
 
-The corresponding Coq-code library is at 
-
-* [[Mike Shulman]], _[https://github.com/mikeshulman/HoTT/tree/modalities/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/modalities/Coq/Subcategories)_
 
 In the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) formerly known as traditional mathematics, homotopy cohesion is discussed in
 
