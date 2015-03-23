@@ -224,11 +224,15 @@ See also
 
 ### Classification
 
-The seminal classification of simple supersymmetry [[super Lie algebras]] (including higher dimensions and conformal/de Sitter supersymmetry) is due to
+Results on the classification of supersymmetry [[super Lie algebras]] (including higher dimensions and conformal/de Sitter supersymmetry) includes
 
 * {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
 
 * [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
+
+* [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383
+
+Review includes
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter II.2.2 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
