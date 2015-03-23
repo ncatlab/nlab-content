@@ -70,7 +70,7 @@ A [[compact space|compact]] [[convex subset|convex]] [[subset]] $D$ in $\mathbb{
 
 +-- {: .proof}
 ###### Proof
-Without loss of generality we may suppose the origin is an interior point of $D$. We claim that the map $\phi: v \mapsto v/\|v\|$ maps the boundary $\partial D$ homeomorphically onto $S^{n-1}$. By convexity, $D$ is homeomorphic to the cone on $\partial D$, and therefore to the cone on $S^{n-1}$ which is $D^n$. 
+Without loss of generality we may suppose the origin is an interior point of $D$. We claim that the map $\phi: v \mapsto v/{\|v\|}$ maps the boundary $\partial D$ homeomorphically onto $S^{n-1}$. By convexity, $D$ is homeomorphic to the cone on $\partial D$, and therefore to the cone on $S^{n-1}$ which is $D^n$. 
 
 The claim reduces to the following three steps. 
 
@@ -162,32 +162,25 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 +-- {: .num_remark}
 ###### Remark
 
-This is a _folk theorem_ . But explicit proofs in the literature are very hard to find. See the discussion at [Refereces](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).
+This is a *folk theorem*. But explicit proofs in the literature are very hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).
 
 =--
 
-+-- {: .remark}
++-- {: .proof}
 ###### Proof
-Suppose $T$ is a star-shaped open subset of ${\mathbb {R}}^n$ centered at the origin.
-Theorem 2.29 in Lee proves that there is a function $f$ on ${\mathbb{R}}^n$ such that $f\gt 0$ on $T$ and $f$ vanishes on the complement of $T$.
-By applying bump functions we can assume that $f\le1$ everywhere and $f=1$ in an open $\epsilon$-neighborhood of the origin, by rescaling the ambient space we can assume $\epsilon=2$.
+Suppose $T$ is a star-shaped open subset of ${\mathbb {R}}^n$ centered at the origin. Theorem 2.29 in [Lee](#Lee) proves that there is a function $f$ on ${\mathbb{R}}^n$ such that $f\gt 0$ on $T$ and $f$ vanishes on the complement of $T$. By applying bump functions we can assume that $f\le 1$ everywhere and $f=1$ in an open $\epsilon$-neighborhood of the origin; by rescaling the ambient space we can assume $\epsilon=2$.
 
-The smooth vector field $V\colon x\mapsto f(x)\cdot x/\|x\|$ is defined on the complement of the origin in $T$.
-Multiply $V$ by a smooth bump function $0\le b\le1$ such that $b=1$ for $\|x\|\gt 1/2$ and $b=0$ in a neighborhood of 0.
-The new vector field $V$ extends smoothly to the origin and defines a smooth global flow $F\colon R\times T\to T$.
-(The domain of the flow is $R$ and not some interval $(-\infty,A)$ because the norm of $V$ is bounded by 1.)
-Observe that for $1/2\lt \|x\|\lt 2$ the vector field $V$ equals $x\mapsto x/\|x\|$.
-Also, all flow lines of $V$ are radial rays.
+The smooth vector field $V\colon x\mapsto f(x)\cdot x/{\|x\|}$ is defined on the complement of the origin in $T$. Multiply $V$ by a smooth bump function $0\le b\le 1$ such that $b=1$ for ${\|x\|} \gt 1/2$ and $b=0$ in a neighborhood of 0.
+The new vector field $V$ extends smoothly to the origin and defines a smooth global flow $F\colon \mathbb{R} \times T\to T$. (The parameter of the flow is all of $\mathbb{R}$ and not just some interval $(-\infty,A)$ because the norm of $V$ is bounded by 1.) Observe that for $1/2\lt {\|x\|} \lt 2$ the vector field $V$ equals $x\mapsto x/{\|x\|}$. Also, all flow lines of $V$ are radial rays.
 
-Now define the flow map $p\colon{\mathbb{R}}^n_{\gt 1/2}\to T_{\gt 1/2}$ as $x\mapsto F(\|x\|-1,x/\|x\|)$ for $\|x\|\gt 1/2$.
-(The subscript $\gt 1/2$ removes the closed ball of radius $1/2$.)
-The flow map is the composition of two diffeomorphisms: ${\mathbb{R}}^n_{\gt 1/2}\to(-1/2,\infty)\times S^n\to T_{\gt 1/2}$,
-hence itself is a diffeomorphism.
-(The latter map is surjective by elementary properties of flow lines.)
+Now define the flow map $p\colon{\mathbb{R}}^n_{\gt 1/2}\to T_{\gt 1/2}$ as $x\mapsto F({\|x\|}-1, \frac{x}{{\|x\|}})$ for ${\|x\|} \gt 1/2$. (The subscript $\gt 1/2$ removes the closed ball of radius $1/2$.) The flow map is the composition of two diffeomorphisms, 
 
-Finally, define the desired diffeomorphism $d\colon{\mathbb{R}}^n\to T$ as the gluing of the identity map for $\|x\|\lt 2$ and as $p$ for $\|x\|\gt 1/2$.
-The map $g$ is smooth because for $1/2\lt \|x\|\lt 2$ both definitions give the same value.
+$${\mathbb{R}}^n_{\gt 1/2}\to(-1/2,\infty)\times S^{n-1} \to T_{\gt 1/2},$$ 
 
+hence itself is a diffeomorphism. (Note particularly that the latter map is surjective. In detail: a flow line is a smooth map of the form $L: (A,B) \to T$, where $A$ and $B$ can be finite or infinite. If $B$ is finite and the limit of $L(t)$ as $t \to B$ exists, then the vector field $V$ vanishes at $B$. In our case $V$ can only vanish at the boundary of $T$, which is precisely what we want for surjectivity.)
+
+Finally, define the desired diffeomorphism $d\colon{\mathbb{R}}^n\to T$ as the gluing of the identity map for ${\|x\|} \lt 2$ and as $p$ for ${\|x\|}\gt 1/2$.
+The map $g$ is smooth because for $1/2\lt {\|x\|} \lt 2$ both definitions give the same value.
 =--
 
 +-- {: .num_example}
@@ -267,6 +260,7 @@ it says:
 And in 
 
 * Jeffrey Lee, _Manifolds and differential geometry_  (2009)
+ {#Lee} 
 
 one finds the statement:
 
