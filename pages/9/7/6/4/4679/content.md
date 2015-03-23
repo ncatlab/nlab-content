@@ -35,7 +35,7 @@ For $n \gt 2$, $\mathfrak{so}(n)$ is a [[simple Lie algebra]], either $\mathfrak
 For $V$ an [[inner product space]], 
 the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebra of [[bivectors]] in the [[Clifford algebra]] $Cl(V)$ under the Clifford [[commutator]] bracket. 
 
-## Related Lie concepts
+## Related concepts
 
 * **special orthogonal Lie algebra** , [[unitary Lie algebra]], [[Poincare Lie algebra]]
 
@@ -43,6 +43,7 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 
 * [[fivebrane Lie 6-algebra]]
 
+* [[orthosymplectic super Lie algebra]]
 
 [[!redirects orthogonal Lie algebra]]
 [[!redirects orthogonal Lie algebras]]
