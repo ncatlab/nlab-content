@@ -1,0 +1,32 @@
+[[!redirects osp]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One of the classes of classical simple [[super Lie algebras]].
+
+## Related concepts
+
+* [[orthogonal Lie algebra]]
+
+## References
+
+* [[Manfred Scheunert]], chapter II, 4.3.A of _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
+
