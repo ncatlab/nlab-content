@@ -60,6 +60,8 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 
 * [[extended affine symplectic group]]
 
+* [[orthosymplectic supergroup]]
+
 * A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G2]] (see there for more details).
 
 ## References
