@@ -224,7 +224,9 @@ Schartz showed that compactifications on Morita equivalent noncommutative tori a
 
 [BMRS08](#BMRS08) discusses an axiomatic definition of topological open string T-duality generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
-In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]]. 
+In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]].
+
+Morita theoretic ideas are also involved in [[factorization homology]], the [[blob complex]] and premodular TQFTS, see [MW10](#MW10), [BZBJ15](#BZBJ15), and [Scheimbauer](#Scheimbauer) for the Morita $(\infty, n)$-category of $E_n$-algebras.
 
 
 ## Related concepts
@@ -251,7 +253,11 @@ There is also a duality in the _description_ of physics:
 
 * {#Schwartz98} Albert Schwartz, _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
+{#BZBJ15} David Ben-Zvi, Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
 
+{#MW10} Scott Morrison, Kevin Walker, _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
+
+{#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
 
 
 [[!redirects dualities in physics]]
