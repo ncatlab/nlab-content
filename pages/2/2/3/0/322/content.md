@@ -469,7 +469,7 @@ Monographs include:
 
 * [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995).
 
-* [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
+* [[Martin Markl]], [[Steve Shnider]], [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
 
