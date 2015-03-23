@@ -1,0 +1,15 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Steve_Shnider)
+
+* [Mathematics Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=69034)
+
+## related $n$Lab entries
+
+* [[operad]], [[associahedron]]
+
+* [[supersymmetry]]
+
+category: people
+
+[[!redirects Steve Shnider]]
