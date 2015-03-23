@@ -216,12 +216,15 @@ It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] t
 ##Relation to Morita equivalence
 {#Morita}
 
+According to [[Albert Schwartz]],
 
-[[Albert Schwartz]] showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to[[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+>I am convinced that the mathematical notion of Morita equivalence of associative algebras and its generalization for differential associative algebras should be regarded as the mathematical foundation of dualities in string/M-theory. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
+
+Schartz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+
+[BMRS08](#BMRS08) discusses an axiomatic definition of topological open string T-duality generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
 In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]]. 
-
-According to [[Richard Szabo]], open string T-duality as categorical KK-equivalence refines and generalizes Morita equivalence ([Szabo](#Szabo)).
 
 
 ## Related concepts
@@ -238,6 +241,8 @@ There is also a duality in the _description_ of physics:
 
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
+* {#BMRS08}, J. Brodzki, V. Mathai, J. Rosenberg and R.J. Szabo, _D-branes, KK-theory and duality on noncommutative spaces_, ([pdf](http://eprints.soton.ac.uk/46524/1/D-branes,_KK-theory_and__duality_on_noncommutative_spaces_BRMS_Published_JoP.pdf))
+
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
 
 * B. Pioline, A. Schwarz, _Morita equivalence and T-duality (or $B$ versus $\Theta$)_, ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
@@ -246,7 +251,7 @@ There is also a duality in the _description_ of physics:
 
 * {#Schwartz98} Albert Schwartz, _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
-* {#Szabo} Richard Szabo, _D_Branes and Bivazriant K-theory_, ([slides](http://www.ncatlab.org/nlab/files/Szabo09.pdf))
+
 
 
 [[!redirects dualities in physics]]
