@@ -199,7 +199,9 @@ These appear notably in the following applications:
 
 * for $p = 0$ symmetric bilinears $(-,-) \;\colon\; S \otimes S \longrightarrow k$ define a [[metric]] on the space of [[spinors]], also known as a _[[charge conjugation matrix]]_. This appears for instance in the [[Lagrangian]] for a [[spinor]] [[field (physics)|field]] $\psi$, which is of the form $\psi \mapsto (\psi, D \psi)$, for $D$ a [[Dirac operator]];
 
-* for $p = 1$ symmetric bilinear $Spin(V)$-[[homomorphisms]] $\Gamma \;\colon\; S \otimes S \longrightarrow V$ constitutes the odd [[Lie bracket]] in a [[super Poincaré Lie algebra]] [[Lie algebra extension|extension]] of the a [[Poincaré Lie algebra]] by $S$.
+* for $p = 1$ symmetric bilinear $Spin(V)$-[[homomorphisms]] $\Gamma \;\colon\; S \otimes S \longrightarrow V$ constitutes the odd-odd [[Lie bracket]] in a [[super Poincaré Lie algebra]] [[Lie algebra extension|extension]] of the a [[Poincaré Lie algebra]] by $S$.
+
+* for $p=2$ these homomorphisms appeare as the odd-odd bracket in a [[superconformal]] super Lie algebra;
 
 * for $p \geq 2$ higher spin bilinears $S \otimes S \longrightarrow \wedge^p V$ appear in further [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions).
 
