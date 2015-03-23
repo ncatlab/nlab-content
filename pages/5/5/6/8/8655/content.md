@@ -57,7 +57,7 @@ for more.
 
 One should beware that the use of the word "duality" in physics is in general different from concepts called "[[duality]]" in [[mathematics]].
 
-For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]]. Indeed, in [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]]. However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
+For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]], see [Relation to Morita equivalence](#Morita). However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
 
 One way to pseudo-formalize accurately most of what is usually meant by "duality" in physics might instead be the following.
 
@@ -213,6 +213,17 @@ b) quantization is the result of forming the [[homotopy quotient]] of the space 
 
 It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] that these two perspectives are equivalent.
 
+##Relation to Morita equivalence
+{#Morita}
+
+
+[[Albert Schwartz]] showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to[[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+
+In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]]. 
+
+According to [[Richard Szabo]], open string T-duality as categorical KK-equivalence refines and generalizes Morita equivalence ([Szabo](#Szabo)).
+
+
 ## Related concepts
 
 * [[parent action functional]]
@@ -228,6 +239,14 @@ There is also a duality in the _description_ of physics:
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
+
+* B. Pioline, A. Schwarz, _Morita equivalence and T-duality (or $B$ versus $\Theta$)_, ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
+
+* {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_, ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
+
+* {#Schwartz98} Albert Schwartz, _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+
+* {#Szabo} Richard Szabo, _D_Branes and Bivazriant K-theory_, ([slides](http://www.ncatlab.org/nlab/files/Szabo09.pdf))
 
 
 [[!redirects dualities in physics]]
