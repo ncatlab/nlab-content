@@ -80,29 +80,25 @@ See the discussion at [[superalgebra]] for details on this.
 
 One of the original references (or the original reference?) is
 
-* [[Victor Kac]], _Lie superalgebras_. Advances in Math. 26 (1977), no. 1, 8--96.
+* [[Victor Kac]], _Lie superalgebras_, Advances in Math. 26 (1977), no. 1, 8--96.
 
 Discussion of classification is in 
 
 * {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
 
+* {#Shnider88} [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383
+
 * [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
-Surveys:
+Introductions and surveys include
 
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
 
-A useful survey with more pointers to the literature is
-
 * L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
-
-Another useful survey is
 
 * D. Leites, _Lie superalgebras_, J. Soviet Math. 30 (1985), 2481--2512 ([web](http://dx.doi.org/10.1007/BF02249121))
 
 * M. Scheunert, _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
-
-A useful PhD thesis covering Lie superalgebras and superalgebras more generally is 
 
 * D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
