@@ -98,7 +98,7 @@ Introductions and surveys include
 
 * D. Leites, _Lie superalgebras_, J. Soviet Math. 30 (1985), 2481--2512 ([web](http://dx.doi.org/10.1007/BF02249121))
 
-* M. Scheunert, _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
+* [[Manfred Scheunert]], _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
 
 * D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
