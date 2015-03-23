@@ -244,6 +244,11 @@ $$
 
 * [[Euclidean group]]
 
+* [[general linear supergroup]], [[orthosymplectic supergroup]]
+
 * [[Lorentz group]], [[Poincare group]]
 
 * [[super Poincaré group ]]
+
+
+[[!redirects Euclidean supergroup]]
