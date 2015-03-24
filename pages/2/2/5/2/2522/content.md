@@ -135,10 +135,19 @@ The classification of minimal real spin representations in Lorentzian signature 
 #### Superconformal symmetry
  {#ClassificationSuperconformal}
 
-+-- {: .num_prop}
+##### In dimension 2
+ {#ClassificationSuperconformalInDim2}
+
+Discussion of classification of [[2d SCFT]] algebras includes ([Kac 03, section 2](#Kac03)).
+
+(...)
+
+##### In dimension $d \gt 2$
+
++-- {: .num_prop }
 ###### Proposition
 
-There exist [[superconformal]] extensions of the [[isometries]] of [[super Minkowski spacetime]] in [[dimension]] 3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
+There exist [[superconformal]] extensions of the [[super Poincaré Lie algebra]], (besides dimension $\leq 2$) in [[dimensions]] 3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
 
 | $d$ | $N$ | superconformal [[super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
 |-----|-----|--|---|--|
@@ -146,13 +155,70 @@ There exist [[superconformal]] extensions of the [[isometries]] of [[super Minko
 | 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k,4)$ | $SO(2k)$ | [[M2-brane]] |
 | 4   | $k+1$  | $A(3,k)$ | $U(k+1)$ | [[D3-brane]] |
 | 5   |  1  | $F(4)$ | $SO(3)$  |  |
-| 6   | $k$ | [[osp]]$(8,2k)$ | $Sp(k)$  | [[M5-brane]] |
+| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8,2k)$ | $Sp(k)$  | [[M5-brane]] |
 
-There exists no [[superconformal]] extension of the [[isometries]] of [[super Minkowski spacetime]] in [[dimension]] $d \gt 6$.
+There exists no [[superconformal]] extension of the [[super Poincaré Lie algebra]] in [[dimension]] $d \gt 6$.
 
 =--
 
 This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)).
+
++-- {: .proof #ProofOfClassificationOfSuperconformal}
+###### Proof (sketch)
+
+By realizing the conformal real Lie algebra $\mathfrak{so}(\mathbb{R}^{d,2})$ as a real form of the complexified $\mathfrak{so}(\mathbb{C}^{d+2})$ one is reduced to finding those (finite dimensional) simple super Lie algebras over the complex numbers whose even-graded part extends $\mathfrak{so}(\mathbb{C}^{d+2})$ and such that the implied [[representation]] of that on the odd-graded part contains the [[spin representation]].
+
+The complex finite dimensional simple super Lie algebras have been classified, see at _[super Lie algebra -- Classification](super+Lie+algebra#Classification)_. By the tables shown there
+
+| $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{odd}$ |
+|----------------|-------------------------|------------------|
+| $B(m,n)$  | $B_m \oplus C_n$  | vector $\otimes$ vector |
+| $D(m,n)$  | $D_m \oplus C_n$  | vector $\otimes$ vector |
+| $D(2,1,\alpha)$ |  $A_1 \oplus A_1 \oplus A_1$ | vector $\otimes$ vector $\otimes$ vector |
+| $F(4)$ | $B_3\otimes A_1$ | spinor $\otimes$ vector |
+| $G(3)$ | $G_2\oplus A_1$ | spinor $\otimes$ vector |
+| $Q(n)$ | $A_n$ | adjoint |
+
+| $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{{-1}}$ |
+|----------------|-------------------------|------------------|
+| $A(m,n)$ |  $A_m \oplus A_n \oplus C$ | vector $\otimes$ vector $\otimes$ $\mathbb{C}$ |
+| $A(m,m)$ | $A_m \oplus A_n$ | vector $\otimes$ vector |
+| $C(n)$ | $\mathbb{C}_{-1} \oplus \mathbb{C}$ | vector $\otimes$ $\mathbb{C}$ | 
+
+
+the only manifest spinor representation of $\mathfrak{so}(2k+1) = B_k$ or of $\mathfrak{so}(2k) = D_k$ appears in the exceptional super Lie algebra $F(4)$, which contains $B_3 = \mathfrak{so}(7)$ in its even parts acting spinorially on its odd part. This hence gives a superconformal super Lie algebra in dimension $7-2 = 5$, as shown in the proposition.
+
+But other spinor representations may still disguise as vector representations of other Lie algebras under one of the [exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms). These exist only in low dimensions, and hence to conclude the proof it is sufficient to just list all candidates.
+
+First there is the exceptional isomorphism
+
+$$
+  \mathfrak{so}(5) \simeq \mathfrak{sp}(2) = C_2
+$$
+
+with the spinor representation of $\mathfrak{so}(5)$ being the vector representation of $\mathfrak{sp}(2) = C_2$. This we find in the above tables as a summand in the even-graded subalgebra of $B(m,2)$ and of $D(m,2)$. Hence these are superconformal super Lie algebras in dimension $5-2 = 3$, as shown in the statement.
+
+The other exceptional isomorphism of relevance is
+
+$$
+  \mathfrak{so}(6)\simeq \mathfrak{su}(4) = A_3
+$$
+
+with the spinor representation of $\mathfrak{so}(6)$ being the vector representation of $\mathfrak{su}(4) = A_3$. By the above tables this appears as a summand in the even-graded subalgebra of the super Lie algebra $A(3,k)$, and so this is the superconformal algebra in dimension $6-2 = 4$.
+
+Finally by [[triality]] the vector representation of $\mathfrak{so}(8) = D_4$ is isomorphic to its spinor representation. By the above tables this means that $D(4,k)$ is a superconformal algebra in dimension $8-2 = 6$. For details on this see ([Shnider 88, last paragraphs](#Shnider88))
+
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+Further constraints follow from requiring unitary representations ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfralk{osp}(8,2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
+
+=--
+
 
 ### Superymmetry multiplets and BPS states
 
@@ -292,7 +358,11 @@ Review includes
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter II.2.2 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
+* {#Kac03} [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
+
+
+
+* {#Duff08} [[Michael Duff]], section A of _Near-horizon brane scan revived_, Nucl. Phys. B810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 
 For more on this see at _[[super Poincaré Lie algebra]]_.
