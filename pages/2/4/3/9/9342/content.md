@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,6 +34,11 @@ Full [[quantum field theory]] is sometimes called -- for emphasis and in contras
 A textbook account in the school of [[AQFT]] is in 
 
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
+
+Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
+
+* John Terning, _TASI-2002 Lectures: Non-perturbative Supersymmetry_ ([arXiv:hep-th/0306119](http://arxiv.org/abs/hep-th/0306119))
+
 
 
 [[!redirects non-perturbative QFT]]
