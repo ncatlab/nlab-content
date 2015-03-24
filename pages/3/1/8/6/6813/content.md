@@ -24,6 +24,8 @@ The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] soluti
 
 Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
 
+The near-horizon geometry of these black branes is generically that of [[anti de Sitter spacetime]]. To the extent that the [[worldvolume]] theory of the branes is a [[superconformal QFT]], this is the origin of the [[AdS-CFT correspondence]].
+
 ## Properties
 
 ### Weak coupling correspondence
@@ -59,7 +61,7 @@ Original articles include
 
 * [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_ ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
 
-* [[Mike Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
+* [[Michael Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
 
 Review includes,
 
@@ -73,6 +75,8 @@ Further developments include
 * Gerard Clement, Dmitri Gal'tsov, Cedric Leygnac, _Black branes on the linear dilaton background_, Phys. Rev. D71 (2005) 084014 ([arXiv:hep-th/0412321](http://arxiv.org/abs/hep-th/0412321))
 
 * D. Gal'tsov, S. Klevtsov, D. Orlov, G. Clement, _More on general $p$-brane solutions_, Int.J.Mod.Phys.A21:3575-3604, 2006 ([arXiv:hep-th/0508070](http://arxiv.org/abs/hep-th/0508070))
+
+* {#Duff08} [[Michael Duff]], _Near-horizon brane scan revived_, Nucl. Phys. B810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 * Jay Armas, Joan Camps, Troels Harmark, Niels A. Obers, _The Young Modulus of Black Strings and the Fine Structure of Blackfolds_ ([arXiv:1110.4835](http://arxiv.org/abs/1110.4835)) 
 
