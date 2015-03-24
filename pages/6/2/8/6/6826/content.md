@@ -44,4 +44,8 @@ Some examples are discussed at
 
 * {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
+Discussion in the context of the [[D'Auria-Fré formulation of supergravity]] is in 
+
+* {#Fre05} [[Pietro Fré]], _M-theory FDA, Twisted Tori and Chevalley Cohomology_, Nucl.Phys.B742:86-123, 2006 ([arXiv:hep-th/0510068](http://arxiv.org/abs/hep-th/0510068))
+
 [[!redirects gauged supergravities]]
