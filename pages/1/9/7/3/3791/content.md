@@ -2,6 +2,8 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * wikipedia [German](http://de.wikipedia.org/wiki/Albert_S._Schwarz)
 
+* Albert Schwarz, _My life in science_ ([pdf](http://www.math.ucdavis.edu/~schwarz/bion.pdf))
+
 ## Selected publications
 
 (See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
