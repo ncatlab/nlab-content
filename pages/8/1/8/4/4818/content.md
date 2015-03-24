@@ -78,3 +78,5 @@
 [[!redirects SCFTs]]
 [[!redirects supersymmetric conformal field theories]]
 [[!redirects superconformal field theories]]
+
+[[!redirects superconformal QFT]]
