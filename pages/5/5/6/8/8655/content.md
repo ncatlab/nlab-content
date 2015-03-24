@@ -216,13 +216,13 @@ It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] t
 ##Relation to Morita equivalence
 {#Morita}
 
-According to [[Albert Schwartz]],
+According to [[Albert Schwarz]],
 
 >I am convinced that the mathematical notion of Morita equivalence of associative algebras and its generalization for differential associative algebras should be regarded as the mathematical foundation of dualities in string/M-theory. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
 
-Schartz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+Scharz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
 
-[BMRS08](#BMRS08) discusses an axiomatic definition of topological open string T-duality generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
+[BMRS08](#BMRS08) discusses an axiomatic definition of [[topological T-duality]] generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
 In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of [[derived Morita equivalence]].
 
@@ -243,21 +243,22 @@ There is also a duality in the _description_ of physics:
 
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
-* {#BMRS08}, J. Brodzki, V. Mathai, J. Rosenberg and R.J. Szabo, _D-branes, KK-theory and duality on noncommutative spaces_, ([pdf](http://eprints.soton.ac.uk/46524/1/D-branes,_KK-theory_and__duality_on_noncommutative_spaces_BRMS_Published_JoP.pdf))
+* {#BMRS08} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-branes, KK-theory and duality on noncommutative spaces_, ([pdf](http://eprints.soton.ac.uk/46524/1/D-branes,_KK-theory_and__duality_on_noncommutative_spaces_BRMS_Published_JoP.pdf))
 
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
 
-* B. Pioline, A. Schwarz, _Morita equivalence and T-duality (or $B$ versus $\Theta$)_, ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
+* B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_, ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
 
 * {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_, ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
 
-* {#Schwartz98} Albert Schwartz, _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+* {#Schwartz98} [[Albert Schwarz]], _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
-{#BZBJ15} David Ben-Zvi, Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
+* {#BZBJ15} [[David Ben-Zvi]], Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
 
-{#MW10} Scott Morrison, Kevin Walker, _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
+* {#MW10} [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
 
-{#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
+* {#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
 
 
 [[!redirects dualities in physics]]
+
