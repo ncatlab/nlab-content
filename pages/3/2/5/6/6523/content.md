@@ -42,7 +42,12 @@ The [[Lie algebra]] of $Iso(X,g)$ is spanned by the [[Killing vector]]s of $(X,g
 
 ## Examples
 
-* The isometry group of [[Minkowski space]] is the [[Poincaré group]].
+* The isometry group of [[Minkowski spacetime]] is the [[Poincaré group]].
+
+* The isometry group of [[anti de Sitter spacetime]] is the [[anti de Sitter group]].
+
+* The isometry group of [[de Sitter spacetime]] is the [[de Sitter group]].
+
 
 ## Related concepts
 
