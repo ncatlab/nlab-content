@@ -1,0 +1,10 @@
+
+
+* [webpage](https://sergeyfrolov.wordpress.com)
+
+## related $n$Lab entries
+
+* [[Green-Schwarz superstring]]
+
+category: people
+
