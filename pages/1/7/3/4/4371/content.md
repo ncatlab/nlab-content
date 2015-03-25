@@ -113,15 +113,8 @@ To show this, first note that the Boolean negation in $B$ is the restriction of 
 =--
 
 
-**Remark**
-As the [[Aufhebung]] $\mathcal{E}_j$ of $0\vdash 1$ is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos. (For further details cf. [[Aufhebung]].)
-
-The second part of the [proposition](#boolean_subtopos) follows also from the [above](#largest_topology) together with a more general result in [(Johnstone 2002, p.220)](#Johnstone) :
-
-+--{: .num_prop}
-###### Proposition
-Let $j$ be a topology on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is closed.
-=--
+**Remark.**
+As the [[Aufhebung]] $\mathcal{E}_j$ of $0\vdash 1$ is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos (For further details cf. [[Aufhebung]]).
 
 The next two propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
 
