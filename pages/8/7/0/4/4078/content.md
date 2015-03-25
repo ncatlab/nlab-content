@@ -35,6 +35,7 @@ Notice that for $t= 1$ this is also the [[anti de Sitter group]], the [[isometry
 
 * [[conformal field theory]]
 
+[[!include table of orthogonal groups and related]]
 
 [[!include local and global geometry - table]]
 
