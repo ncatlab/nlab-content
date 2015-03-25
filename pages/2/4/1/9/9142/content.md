@@ -5,7 +5,7 @@
 
 ## Definition
 
-A [[diffeomorphism]] that preserves a [[conformal structure]].
+A _conformal transformation_ is a [[diffeomorphism]] that preserves a [[conformal structure]]. The [[group]] of transformation transformations is the _[[conformal group]]_.
 
 ## Properties
 
@@ -16,6 +16,10 @@ A [[diffeomorphism]] that preserves a [[conformal structure]].
 ## Related concepts
 
 * [[conformal geometry]]
+
+* [[conformal connection]]
+
+* [[conformal field theory]]
 
 ## References
 
