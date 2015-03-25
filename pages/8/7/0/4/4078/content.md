@@ -1,7 +1,47 @@
-## Intuition 
 
-A _conformal transformation_ (conformal mapping) is a transformation of a space which preserves the angles between the curves. In other words, it preserves the angels infinitesimally. __Conformal group__ of a space which has well defined notion of angles between the curves is the group of space automorphisms which are also conformal transformations. 
+#Contemts#
+* table of contents
+{:toc}
 
-## Description in euclidean space
+## Idea
 
-In euclidean $n$-space for $n\gt 2$ a general conformal transformation is some composition of a translation, dilation, rotation and possibly an inversion with respect to a $n-1$-sphere.  For $n=2$, i.e. in a complex plane, this still holds for (the group of) global conformal transformations but one also has nontrivial local automorphisms. One has in fact infinite-dimensional family of local conformal transformations, which can be described by an arbitrary holomorphic or an antiholomorphic automorphism (in fact one writes $z$ and $\bar{z}$ as independent coordinates in the complexification $\mathbb{C}^2$ and restricts to the real part $\mathbb{R}^2\cong \mathbb{C}$). This is important for CFT in 2d.  
+A _[[conformal transformation]]_ (conformal mapping) is a transformation of a space which preserves the angles between the curves. In other words, it preserves the angels infinitesimally. __Conformal group__ of a space which has well defined notion of angles between the curves is the group of space automorphisms which are also conformal transformations. 
+
+
+## Examples
+
+### Of euclidean space
+
+In euclidean $n$-space for $n\gt 2$ a general conformal transformation is some composition of a translation, dilation, rotation and possibly an inversion with respect to a $n-1$-sphere.  
+
+For $n=2$, i.e. in a complex plane, this still holds for (the group of) global conformal transformations but one also has nontrivial local automorphisms. One has in fact infinite-dimensional family of local conformal transformations, which can be described by an arbitrary holomorphic or an antiholomorphic automorphism (in fact one writes $z$ and $\bar{z}$ as independent coordinates in the complexification $\mathbb{C}^2$ and restricts to the real part $\mathbb{R}^2\cong \mathbb{C}$). This is important for CFT in 2d.  
+
+
+### Of $\mathbb{R}^{d,t}$
+
+For $d,t \in \mathbb{N}$ write $\mathbb{R}^{d,1}$ for the [[pseudo-Riemannian manifold]] which is the [[Cartesian space]] $\mathbb{R}^{d+t}$ equipped with the constant metric of [[signature of a quadratic form|signator]  $(d,t)$. I.e. for $t = 0$ this is [[Euclidean space]] and for $t=1 $ this is [[Minkowski spacetime]]. 
+
+If $d+t \gt 2$ then the conformal group of $\mathbb{R}^{d,t}$ is the [[orthogonal group]] $P(d+1, t+1)/\{\pm 1\}$. The [[connected component]] of the neutral element is the [[special orthogonal group]] $SO(d+1,t+1)$. (e.g [Schottenloher 08, chapter 2, theorem 2.9](#Schottenloher08)).
+
+Notice that for $t= 1$ this is also the [[anti de Sitter group]], the [[isometry group]] of [[anti de Sitter spacetime]] of dimension $d+1+t$. This equivalence is the basis of the [[AdS-CFT correspondence]].
+
+## Related concepts
+
+* [[Möbius group]]
+
+* [[conformal geometry]]
+
+* [[conformal connection]]
+
+* [[conformal field theory]]
+
+
+[[!include local and global geometry - table]]
+
+## References
+
+* {#Schottenloher08} [[Martin Schottenloher]], _The conformal group_, chapter 2 of _A mathematical introduction to conformal field theory_, 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/02_978-3-540-68625-5_Ch02_23-08-08.pdf))
+
+* Wikipedia, _[Conformal group](http://en.wikipedia.org/wiki/Conformal_group)_
+
+[[!redirects conformal groups]]
