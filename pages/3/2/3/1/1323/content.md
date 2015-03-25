@@ -52,6 +52,10 @@ Any [[extensive category]] is distributive, but the converse is not true.
 
   * [[distributive monoidal category]]
 
+  * [[bipermutative category]]
+
+  * [[linearly distributive category]]
+
   * [[rig category]]
 
 ## References 
