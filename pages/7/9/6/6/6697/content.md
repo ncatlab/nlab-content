@@ -50,6 +50,10 @@ Asymptotically ant-de Sitter spaces play a central role in the realization of th
 
 * [[anti de Sitter group]]
 
+* [[de Sitter spacetime]]
+
+* [[super anti de Sitter spacetime]]
+
 ## References
 
 * Ingemar Bengtsson, _Anti-de Sitter space_ lecture notes ([pdf](http://www.physto.se/~ingemar/Kurs.pdf))
