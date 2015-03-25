@@ -110,6 +110,8 @@ where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (
 
 ## Related concepts
 
+* [[conformal group]]
+
 * [[elliptic fibration]]
 
 * [[congruence subgroup]]
