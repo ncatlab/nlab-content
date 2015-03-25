@@ -67,12 +67,12 @@ In the unstable range for low $n$ they instead start out as follows
 | $SO(4)$ | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ | $\mathbb{Z}_{15}\oplus \mathbb{Z}_{15}$|$\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ |$\mathbb{Z}_{2}^{\oplus 4}$ |
 | $SO(5)$ | " | " | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |$\mathbb{Z}_{120}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$|
 | $SO(6)$ | " | " | " | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{24}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{120}\oplus\mathbb{Z}_2$| $\mathbb{Z}_{4}$| $\mathbb{Z}_{60}$|
-| $SO(7)$ | " | " | " | " | 0 | 0 | $\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}_{8}$| $\mathbb{Z}\oplus\mathbb{Z}_{12}$| 0|
+| $SO(7)$ | " | " | " | " | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{8}$| $\mathbb{Z}\oplus\mathbb{Z}_{2}$| 0|
 | $SO(8)$ | " | " | " | " | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{24} \oplus \mathbb{Z}_{8}$ | $\mathbb{Z} \oplus \mathbb{Z}_{2}$ | 0 |
 | $SO(9)$ | " | " | " | " | " | " | $\mathbb{Z}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ |$\mathbb{Z}_{8}$ | $\mathbb{Z}\oplus \mathbb{Z}_{2}$ | 0 |
 |$SO(10)$| " | " | " | " | " | " | " | $\mathbb{Z}_{2}$ | $\mathbb{Z}\oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{4}$| $\mathbb{Z}$ | $\mathbb{Z}_{12}$ |
 |$SO(11)$| " | " | " | " | " | " | " | " |$\mathbb{Z}_{2}$ |$\mathbb{Z}_{2}$ | $\mathbb{Z}$ | $\mathbb{Z}_{2}$ |
-|$SO(12)$| " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}\oplus \mathbb{Z}_{2}$ |
+|$SO(12)$| " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ |
 
 The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). Otherwise the table is given in columns $\pi_i$, $i=10,11,12$, and in rows $SO(n)$, $n=8,\ldots,12$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
