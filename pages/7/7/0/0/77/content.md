@@ -145,6 +145,10 @@ See
 
   * [[Lie-Poisson structure]]
 
+  * [[Lie algebra extension]]
+
+  * [[Lie algebra contraction]]
+
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
 * [[L-∞ algebra]], [[smooth ∞-group]]
