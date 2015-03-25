@@ -83,7 +83,6 @@ The claim reduces to the following three steps.
 So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between [[compact Hausdorff space]]s, is a homeomorphism. 
 =--
 
-By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. For, we may assume every point in the closure is connected to the origin by a line segment in the closure. Steps 1 and 2 above hold without modification, and as for step 3, for any open neighborhood of the line segment between the origin and $w$, any convex open subneighborhood of the segment contains $v$ as an interior point. 
 
 +-- {: .num_cor}
 ###### Corollary
