@@ -567,6 +567,17 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 *  [[monoidal 2-category]]
 *  [[premonoidal category]]
 
+* [[distributivity for monoidal structures]]
+
+  * [[distributive monoidal category]]
+
+  * [[bipermutative category]]
+
+  * [[linearly distributive category]]
+
+  * [[rig category]]
+
+
 higher versions
 
 * [[monoidal bicategory]]
