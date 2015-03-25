@@ -269,7 +269,6 @@ So (with notation as [above](#Supercoordinates)) we have the following.
 ### On curved spacetime and supergravity equations of motion 
  {#OnCurvedSpacetime}
 
-> under construction
 
 In the [[first order formulation of gravity]]
 a [[field (physics)|field]] configuration on a [[spacetime]]
@@ -348,6 +347,7 @@ Discussion with the hetetoric gauge field included is in ([Atick-Dhar-Ratra 86](
 
 Discussion for the GS-version of the [[type II superstring]] in [[type II supergravity]]-backgrounds is in ([GHMNT 85](#GHMNT85)), and for the [[D-branes]] in type II in ([CGNSW 97](#CGNSW97)).
 
+
 ### Conserved currents
  {#ConservedCurrents}
 
@@ -359,7 +359,7 @@ The [[quantization]] of the Green-Schwarz super $p$-brane [[sigma models]] is di
 
 This is actually how the Green-Schwarz superstring was first introduced in ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82)) before its [[general covariance|generally covariant]] formulation was found in ([Green-Schwarz 84](#GreenSchwarz84)). A textbook account of this is in ([Green-Schwarz-Witten, section 5](#GreenSchwarzWitten)).
 
-While, by the [[brane scan]] discussed above, the action functional for the Green-Schwarz superstring exists for target [[super Minkowski spacetimes]] of dimension $d = 3$, 4, 6, and 10, its [[light-cone gaueg quantization]] produces a [[quantum anomaly]] for the spacetime [[Lorentz group]] symmetry in dimension $d = 4$ and $d = 6$. For $d = 10$ the anomaly disappears and the thus quantized Green-Schwarz string becomes equivalent to the quantum [[NSR string]], hence to "the" critical string (of [[heterotic string theory]], [[type II string theory]]). 
+While, by the [[brane scan]] discussed above, the action functional for the Green-Schwarz superstring exists for target [[super Minkowski spacetimes]] of dimension $d = 3$, 4, 6, and 10, its [[light-cone gauge quantization]] produces a [[quantum anomaly]] for the spacetime [[Lorentz group]] symmetry in dimension $d = 4$ and $d = 6$. For $d = 10$ the anomaly disappears and the thus quantized Green-Schwarz string becomes equivalent to the quantum [[NSR string]], hence to "the" critical string (of [[heterotic string theory]], [[type II string theory]]). 
 
 Curiously, the light-cone gauge quantization of the GS-string also does wor however for $d = 3$, see at _[[super 1-brane in 3d]]_ for more on this.
 
@@ -418,7 +418,7 @@ The observation that this is an example of a [[WZW-model]] on [[super-Minkowski 
 For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 
 
-For references on curved background see [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
+For references on curved backgrounds see [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
 ### WZW terms, super Lie algebra cohomology and the brane scan
  {#ReferencesWZWTerm}
@@ -519,8 +519,23 @@ with further developments discussed in
 
 * [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
+### anti de Sitter backgrounds
 
-### Curved backgrounds and Supergravity background equations of motion
+Discussion of Green-Schwarz strings on [[anti de Sitter spacetimes]] includes
+
+* [[Ruslan Metsaev]], [[Arkaday Tseytlin]], _Type IIB superstring action in AdS_5 x S^5 background_, Nucl.Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](http://arxiv.org/abs/hep-th/9805028))
+
+* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
+
+* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, 	Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
+
+### Self-dual strings in 6d
+
+Discussion of the [[self-dual string]] in 6d as a Green-Schwarz-type sigma model includes
+
+* Par Arvidsson, Erik Flink, [[Mans Henningson]], _Supersymmetric coupling of a self-dual string to a $(2,0)$ tensor multiplet background_, JHEP0311:015,2003 ([arXiv:hep-th/0309244](http://arxiv.org/abs/hep-th/0309244))
+
+### General curved backgrounds and Supergravity background equations of motion
  {#ReferencesSupergravityBackgroundEquationsOfMotion}
 
 The consistency of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] 
