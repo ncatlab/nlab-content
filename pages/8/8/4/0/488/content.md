@@ -58,6 +58,14 @@ For $\mathcal{E}$ a [[topos]], then the following are equivalent:
 
 ([Johnstone, prop. A 4.5.22](#Johnstone))
 
+
++--{: .num_prop}
+###### Proposition
+Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is closed.
+=--
+
+[(Johnstone 2002, p.220)](#Johnstone)
+
 +-- {: .num_prop}
 ###### Proposition
 
