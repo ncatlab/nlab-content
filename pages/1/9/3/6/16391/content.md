@@ -21,6 +21,8 @@ The joint generalization of [[conformal geometry]] and [[supergeometry]].
 
 * [[supersymmetry]]
 
+* [[superconformal super Lie group]]
+
 * [[superconformal field theory]]
 
 
