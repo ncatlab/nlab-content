@@ -1,0 +1,13 @@
+
+
+A construction in [[conformal geometry]].
+
+## Related concepts
+
+* [[Fefferman-Graham ambient construction]]
+
+## References
+
+* Wikipedia, _[Tractor bundle](http://en.wikipedia.org/wiki/Tractor_bundle)_
+
+[[!redirects tractor bundles]]
