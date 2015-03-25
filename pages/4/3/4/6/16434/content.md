@@ -7,7 +7,7 @@ A _superconformal super Lie group_ is a [[Lie group]] [[analogy|analog]] of a [[
 
 * [[super Poincare group]]
 
-* [[super anti de Sitter group]]
+* [[super anti de Sitter group]], [[super anti de Sitter spacetime]]
 
 [[!include table of orthogonal groups and related]]
 
@@ -16,3 +16,5 @@ A _superconformal super Lie group_ is a [[Lie group]] [[analogy|analog]] of a [[
 
 
 [[!redirects superconformal super Lie algebra]]
+
+[[!redirects super anti de Sitter group]]
