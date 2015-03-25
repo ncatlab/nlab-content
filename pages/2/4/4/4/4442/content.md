@@ -21,7 +21,7 @@
 
 The _AdS-CFT correspondence_ (or _[Maldacena](Maldacena) duality_ ) is a class of cases for which there is strong evidence that it realizes the more general and more conjectural [[holographic principle|holographic duality]]:
 
-the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an asymptotically [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
+the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an [[asymptotically anti de Sitter spacetime|asymptotically]] [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
 
 ## Examples
 
