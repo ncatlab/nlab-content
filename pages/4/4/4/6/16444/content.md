@@ -1,3 +1,6 @@
+## Example
+
+The conformal compactification of [[Minkowski space]] $\mathbb{R}^{n,1}$ is $S^n\times S^1$.
 
 ## Related entries
 
