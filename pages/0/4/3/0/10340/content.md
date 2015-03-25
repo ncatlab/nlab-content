@@ -11,6 +11,7 @@
 |       |  [[conformal group]] $O(d,t+1)$ | conformal parabolic subgroup  | [[Möbius space]] $S^{d,t}$  |  | [[conformal geometry]] | [[conformal connection]] | [[conformal gravity]] | 
 | [[supergeometry]] | [[super Lie group]] $G$ | [[subgroup]] ([[monomorphism]]) $H \hookrightarrow G$ | [[quotient]] ("[[coset space]]") $G/H$ | super Klein geometry    |    [[super Cartan geometry]]  | Cartan [[superconnection]] |      |
 | examples      | [[super Poincaré group]]  | [[spin group]] | [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert N}$ | Lorentzian [[supergeometry]] |  [[supergeometry]]  | [[superconnection]]  | [[supergravity]] |
+|     | [[super anti de Sitter group]]  | | [[super anti de Sitter spacetime]]  |  |   |   |  |
 | [[higher differential geometry]] | [[smooth 2-group]] $G$ | [[2-monomorphism]] $H \to G$ | [[homotopy quotient]] $G//H$    | [[Klein 2-geometry]]   |    [[Cartan 2-geometry]] |   |      |
 |  | [[cohesive]] [[∞-group]] | [[n-monomorphism|∞-monomorphism]] (i.e. any [[homomorphism]]) $H \to G$  | [[homotopy quotient]] $G//H$ of [[∞-action]]  | [[higher Klein geometry]]  |    [[higher Cartan geometry]] | [[higher Cartan connection]]  |   |
 | examples |  | | [[extended superspacetime|extended super Minkowski spacetime]] |  | extended supergeometry  |    | [[higher gauge theory|higher]] [[supergravity]]: [[type II supergravity|type II]], [[heterotic supergravity|heterotic]], [[11-dimensional supergravity|11d]] |  
