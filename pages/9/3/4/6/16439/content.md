@@ -1,0 +1,11 @@
+
+
+* [webpage](http://en.didattica.unipd.it/offerta/docente/FC75C5CDA5B9043EC22C8D3710567C83)
+
+## related $n$Lab entries
+
+* [[M5-brane]]
+
+* [[AdS-CFT]]
+
+category: people
