@@ -560,7 +560,7 @@ For the [[M2-brane]]:
 
 * {#deWitPeetersPlefkaSevrin98} [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], Alexander Sevrin, _The M-Theory Two-Brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$_, Phys.Lett. B443 (1998) 153-158 ([arXiv:hep-th/9808052v1](http://arxiv.org/abs/hep-th/9808052v1))
 
-* Makoto Sakaguchi, Hyeonjoon Shin, Kentaroh Yoshida, _Semiclassical Analysis of M2-brane in $AdS_4$ x $S^7 / \mathbb{Z}_k$_, JHEP 1012:012,2010 ([arXiv:1007.3354](http://arxiv.org/abs/1007.3354))
+* Makoto Sakaguchi, Hyeonjoon Shin, Kentaroh Yoshida, _Semiclassical Analysis of M2-brane in $AdS_4 \times S^7 / \mathbb{Z}_k$_, JHEP 1012:012,2010 ([arXiv:1007.3354](http://arxiv.org/abs/1007.3354))
 
 For the [[M2-brane]] and the [[M5-brane]]:
 
