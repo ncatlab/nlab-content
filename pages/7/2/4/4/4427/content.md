@@ -1,7 +1,14 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -9,7 +16,7 @@
 
 ## Idea
 
-_Higher Lie theore_ is the refinement of [[Lie theory]] to [[higher geometry]].  It studies [[smooth ∞-groupoids]] and [[L-∞ algebroids]] and their relation. 
+_Higher Lie theore_ is the refinement of [[Lie theory]] to [[higher geometry]] ([[higher differential geometry]]).  It studies [[smooth ∞-groupoids]] and [[L-∞ algebroids]] and their relation via [[Lie integration]] and [[Lie differentiation]].
 
 ## Related concepts
 
