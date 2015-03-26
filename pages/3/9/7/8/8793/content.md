@@ -1,4 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hans_Duistermaat)
 
+## related $n$Lab entries 
+
+* [[Lie group]]
+
 category: people
