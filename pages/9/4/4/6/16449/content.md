@@ -1,0 +1,10 @@
+
+* [webpage](http://www.southampton.ac.uk/maths/about/staff/ks8e11.page)
+
+## related $n$Lab entries
+
+* [[AdS-CFT correspondence]]
+
+* [[Fefferman-Graham ambient construction]]
+
+category: people
