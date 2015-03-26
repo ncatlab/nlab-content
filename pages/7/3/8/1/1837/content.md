@@ -255,7 +255,7 @@ A discussion of "[[gauge]]" and [[gauge transformation]] in [[metaphysics]] is i
 
 [[Hermann Weyl]]'s historical argument motivating gauge theory in [[physics]] from rescaling of units of length was given in 1918 in
 
-* [[Hermann Weyl]], _Raum, Zeit, Materie: Voerlesungen &#252;ber die Allgemeine Relativit&#228;tstheorie_, Springer Berlin Heidelberg 1923
+* [[Hermann Weyl]], _Raum, Zeit, Materie: Vorlesungen &#252;ber die Allgemeine Relativit&#228;tstheorie_, Springer Berlin Heidelberg 1923
 
 Quick reviews include
 
