@@ -14,6 +14,8 @@ The **genus** of $M$ is defined as the [[genus of a surface|genus]] of the surfa
 
 * [[combinatorial map]]
 
+* [[ribbon graph]]
+
 * [[child's drawing]]
 
 ## References
