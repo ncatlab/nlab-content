@@ -25,7 +25,7 @@ In [[formal logic]] and specifically in [[type theory]], a _resizing rule_ is an
 ## References
 
 * [[Vladimir Voevodsky]], _Resizing Rules - their use and semantic
-justication_, 2011 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_Bergen.pdf))
+justification_, 2011 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_Bergen.pdf))
 
 [[!redirects resizing axioms]]
 
