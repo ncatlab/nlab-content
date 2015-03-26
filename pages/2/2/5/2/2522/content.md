@@ -145,6 +145,7 @@ Discussion of classification of [[2d SCFT]] algebras includes ([Kac 03, section 
 (...)
 
 ##### In dimension $d \gt 2$
+ {#ClassificationSuperconformalInDimgt2}
 
 +-- {: .num_prop }
 ###### Proposition
