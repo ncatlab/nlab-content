@@ -1,0 +1,1 @@
+The **Klein&#8211;Gordon equation**, named after [[Oskar Klein]] and [[Walter Gordon]], is a relativistic version of the Schr&#246;dinger equation.
