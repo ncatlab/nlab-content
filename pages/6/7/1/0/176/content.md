@@ -452,7 +452,7 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
 
-### Formulaton by conformal nets
+### Formulation by conformal nets
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
