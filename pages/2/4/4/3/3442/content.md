@@ -158,11 +158,13 @@ In this diagram now
 
 * [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 ([pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf))
 * Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_, [pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)
+* Arthemy Kiselev, _The twelve lectures in the (non)commutative geometry of differential equations_, preprint IHES M/12/13 [pdf](http://preprints.ihes.fr/2012/M/M-12-13.pdf)
 * Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [arXiv:1107.1179](http://arxiv.org/abs/1107.1179)
+* [[Mikhail Gromov]], _Partial differential relations_, Ergebnisse der Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)], 9. Springer-Verlag, Berlin, 1986. x+363 pp.
 
 A [[domain specific programming language]] for differential equations is presented in
 
-* {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_ ([arXiv:1211.4047](http://arxiv.org/abs/1211.4047))
+* {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_, [arXiv:1211.4047](http://arxiv.org/abs/1211.4047)
 
 [[!redirects differential equation]]
 [[!redirects differential equations]]
