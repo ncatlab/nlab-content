@@ -81,14 +81,14 @@ The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ correspond
 
 =--
 
-This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma 4.5.21](#Johnstone)).
+This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
 
 +-- {: .num_prop }
 ###### Proposition
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
 
-([Johnstone, below Corollary 4.5.20](#Johnstone))
+([Johnstone, below Corollary A4.5.20](#Johnstone))
 
 +-- {: .num_prop #largest_topology}
 ###### Proposition
