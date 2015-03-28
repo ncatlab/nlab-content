@@ -61,20 +61,20 @@ $$
 
 With this notation one has the following rules for computation:
 
-* matrix addition
+* matrix addition, where $f,g : X \to Y$,
 
   $$
     (f + g)^i_j = f^i_j + g^i_j
   $$
 
 
-* matrix multiplication
+* matrix multiplication, where $f:X \to Y$, $g:Y \to Z$,
 
   $$
     (g \circ f)^i_j
     =
     \sum_k
-     g^k_j \circ f^i_k
+     g^i_k \circ f^k_j
     \,,
   $$
 
