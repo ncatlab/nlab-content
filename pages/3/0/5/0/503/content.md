@@ -387,7 +387,7 @@ $$
 and the canonical $\mathcal{V}$-[[enriched functor]]
 
 $$
-  \mathcal{V}Func(I,C) \hookrightarrow \mathcal{V}Profuc(I,C)
+  \mathcal{V}Func(I,C) \hookrightarrow \mathcal{V}Profunc(I,C)
 $$
 
 is the enriched [[Yoneda embedding]].
