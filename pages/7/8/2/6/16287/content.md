@@ -29,4 +29,6 @@ In the _[[Encyclopedia of the Philosophical Sciences]]_ these lectures roughly c
 
 * _[[Lectures on the Philosophy of Religion]]_
 
+* _[[Lectures on the History of Philosophy]]_
+
 category: reference
