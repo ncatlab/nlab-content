@@ -115,6 +115,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[Ludwig Wittgenstein]], _[[Tractatus Logico-Philosophicus]]_
 
+* [[Hegel]], _[[Lectures on the History of Philosophy]]_
+
 * [[Bertrand Russell]], _[[A History of Western Philosophy]]_
 
 * [[Albert Lautman]], _Mathematics, ideas and the physical real_, 2011 translation by Simon B. Duffy; English edition of _Les Math&#233;matiques, les id&#233;es et le r&#233;el physique_, Librairie Philosophique, J. VRIN, 2006
