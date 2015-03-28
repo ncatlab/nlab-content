@@ -28,4 +28,6 @@
 
 * [[Georg Hegel]], _[[Science of Logic]]_
 
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]]_
+
 category: people
