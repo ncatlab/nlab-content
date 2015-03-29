@@ -50,6 +50,8 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 
 * {#HegelWdL} [[Georg Hegel]], _[[Science of Logic]]_
 
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Plato -- Dialectic -- Parmenides dialogue](Lectures+on+the+History+of+Philosophy#ParmenidesDialogue)_
+
 * {#deLaurentiis04} A. de Laurentiis, _On Hegel's reading of Plato's Parmenides_, 2004 
 
 * {#Priest12} G. Priest , _The Parmenides: a Dialetheic Interpretation_ ,  Plato J.Int. Plato Soc.**12** (2012)([link](http://gramata.univ-paris1.fr/Plato/article120.html))
