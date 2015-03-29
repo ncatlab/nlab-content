@@ -16,6 +16,7 @@ __Gottfried Leibniz__ is responsible for lots of stuff:
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
 
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Leibniz](Lectures+on+the+History+of+Philosophy#Leibniz)_
 
 category: people
 
