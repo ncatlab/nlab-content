@@ -39,7 +39,7 @@
 
 ## Idea
 
-String theory is a [[theory (physics)|theory]] in fundamental [[physics]].
+String theory is a [[theory (physics)|theory]] in fundamental [[physics]]. Certainly it is, mathematically, a structure that contains in various limits a plethora of [[nLab:quantum field theories]]. Its interest for experimental high energy physics lies in the hypothesis that it provides a [[theory of everything]] in the sense of fundamental physics, but the jury on that is still out.
 
 Below we indicate the basic idea and provide pointers to further details. See also the _[[string theory FAQ]]_.
 
