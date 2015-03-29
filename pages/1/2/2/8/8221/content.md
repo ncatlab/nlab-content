@@ -41,6 +41,8 @@ The current model assumes that the energy density of the [[observable universe]]
 
 * [[MOND]]
 
+* [[theory of everything]]
+
 * [string theory FAQ -- Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?](string+theory+FAQ#InsightsIntoCosmology)
 
 [[!include standard model of fundamental physics - table]]
