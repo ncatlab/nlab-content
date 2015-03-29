@@ -84,7 +84,7 @@ There are various other variations, too.
 
 * [[technicolor]], [[supersymmetry]]
 
-* [[Grand Unified Theory]]
+* [[Grand Unified Theory]], [[theory of everything]]
 
 * [[gauge coupling unification]]
 
