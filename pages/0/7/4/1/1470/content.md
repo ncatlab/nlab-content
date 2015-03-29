@@ -119,6 +119,10 @@ An account is given in [chapter 47](http://www.math.columbia.edu/algebraic_geome
 * [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
 
+Course notes are in
+
+* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
+
 A brief overview is in
 
 * [[Anatoly Preygel]], _Algebraic stacks_, Seminar notes: Quantization of Hitchin's integrable system and Hecke eigensheaves, 2009, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Sept15-17%28stacks%29.pdf).
