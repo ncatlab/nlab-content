@@ -339,6 +339,10 @@ The concept of _dialectical reasoning_ is usually attributed to
 
 * [[Plato]], second part of the _[[Parmenides dialogue]]_ . 
 
+See 
+
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Plato -- Dialectic -- Parmenides dialogue](Lectures+on+the+History+of+Philosophy#ParmenidesDialogue)_
+
 Hegel in his _[History of Philosophy](https://www.marxists.org/reference/archive/hegel/works/hp/hpeleatics.htm)_ writes that dialectic begins with [[Zeno]] (one of the characters in that dialogue).
 
 This is much amplified and expanded in
