@@ -33,5 +33,7 @@ The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_
 * [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies
 Volume 39 (1980).
 
+* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
+
 [[!redirects functors of points]]
 
