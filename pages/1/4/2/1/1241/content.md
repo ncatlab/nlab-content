@@ -46,7 +46,7 @@ A survey of arguments for the hypothesis of grand unification with an eye toward
 
 A good introduction to GUTs for mathematicians is
 
-* {#BeazHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_ ([arXiv](http://arxiv.org/abs/0904.1556))
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
 
 
