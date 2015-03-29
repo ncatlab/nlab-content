@@ -104,6 +104,8 @@ The [[classical field theory]] of [[gravity]] is a physical theory which asserts
 
 * [[model (physics)]], [[experiment]], [[coordination]]
 
+* [[theory of everything]]
+
 * [[computable physics]]
 
 * [[mathematical physics]]
