@@ -116,7 +116,7 @@ To show this, first note that the Boolean negation in $B$ is the restriction of 
 +-- {: .num_prop #RelationToAufhebungof01}
 ###### Proposition
 
-As the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfiny $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. _[[Aufhebung]]_).
+As the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. _[[Aufhebung]]_).
 
 =--
 
