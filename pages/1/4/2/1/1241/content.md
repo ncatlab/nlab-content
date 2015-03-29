@@ -27,6 +27,8 @@ Since no GUT has been fully validated yet, GUTs are [[model (physics)|models]] "
 
 ## Related concepts
 
+* [[theory of everything]]
+
 * [[gauge coupling unification]]
 
 * [[supersymmetry]]
@@ -60,5 +62,9 @@ Blog discussion of this is at
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
 [[!redirects grand unified theories]]
+
+[[!redirects grand unified field theory]]
+[[!redirects grand unified field theories]]
+
 
 [[!redirects Grand Unified Theory]]
