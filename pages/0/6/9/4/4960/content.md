@@ -57,7 +57,7 @@ In total this gives an [[adjoint quadruple]]
 A cohesive topos is a topos whose terminal [[geometric morphism]] admits an extenson to such a quadruple of adjoints, satisfying some further properties.
 
 
-Notice that most objects in a cohesive topos are far from being just sets with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $E$ that we may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
+Notice that most objects in a cohesive topos are far from being just sets with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $\mathcal{E}$ that we may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(\mathcal{E})$ of the [[concrete sheaves]] inside $\mathcal{E}$
 
 $$
   Set 
@@ -68,9 +68,6 @@ $$
   \,.
 $$
 
-+-- {: .query}
-[[NikolajK]]: $E$ to $\mathcal{E}$ above?
-=--
 
 It is the fact that $\mathcal{E}$ is a [[local topos]] that allows to identify $Conc_\Gamma(E)$.
 
