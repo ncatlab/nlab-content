@@ -50,7 +50,7 @@ A **reduced object** or **reduced type** is one in the [[full subcategory]] defi
 ## Examples
  {#Examples}
 
-### In smooh differential geometry
+### In smooth differential geometry
 
 Consider the [[Cahiers topos]] 
 
