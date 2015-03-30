@@ -22,6 +22,8 @@ The **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the
 
 * [[child's drawing]]
 
+* [[branched cover of the Riemann sphere]]
+
 ## References
 
 Fairly elementary sources for background material include:
