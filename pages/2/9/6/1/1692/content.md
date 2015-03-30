@@ -31,7 +31,7 @@ $$Chu(C, d)^{op} \to Chu(C, d)$$
 
 which takes an object $(a, b; r: a \otimes b \to d)$ to 
 
-$$(b, a; r^\dagger = [b \otimes a \overset{s}{\cong} a \otimes b \overset{r}{\to} d])$$ 
+$$(b, a; r^\dagger = [b \otimes a \overset{\sigma}{\cong} a \otimes b \overset{r}{\to} d])$$ 
 
 where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$. 
 
