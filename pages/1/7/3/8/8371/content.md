@@ -30,6 +30,8 @@ In the nineteenth century, syllogism became seen to be insufficiently expressive
 
 * Stanford Encyclopedia of Philosophy, _[Aristotle's logic](http://plato.stanford.edu/entries/aristotle-logic/)_
 
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Aristotle -- Logic](Lectures+on+the+History+of+Philosophy#AristotleLogic)_
+
 A proposal for formalization of syllogisms within [[linear logic]] is in 
 
 
