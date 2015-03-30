@@ -32,3 +32,5 @@ use both expressions in my writings and every day usage.
 * [[cyclic set]],  [[skew-simplicial set]]
 
 [[!redirects symmetric simplicial set]]
+[[!redirects symmetric simplicial sets]]
+[[!redirects symmetric sets]]
