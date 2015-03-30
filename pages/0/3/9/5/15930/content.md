@@ -14,6 +14,10 @@ This page collects material related to
 
 A brief version of roughly this material is in _[[Encyclopedia of the Philosophical Sciences]]_, third part, first section, B.
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Das Prinzip ist nicht die Vollendung
 
 ## Vorrede (Preface)
@@ -22,11 +26,15 @@ A brief version of roughly this material is in _[[Encyclopedia of the Philosophi
 ([German full text](https://www.marxists.org/deutsch/philosophie/hegel/phaenom/vorrede.htm#p3), [English translation](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm))
 
 
-## 2 Das Element des Wahren ist der Begriff
-
 * {#Vorrede5} &#167; 5 Daran mitzuarbeiten, da&#223; die Philosophie der Form der Wissenschaft n&#228;her komme &#8211; dem Ziele, ihren Namen der Liebe zum Wissen ablegen zu k&#246;nnen und wirkliches Wissen zu sein &#8211;, ist es, was ich mir vorgesetzt.
 
 * To help to bring philosophy nearer to the form of science &#8211; that goal where it can lay aside the name of love of knowledge and be actual knowledge &#8211; that is what I have set before me.
+
+> {#ArbeitDesBegriffs} Wahre Gedanken und wissenschaftliche Einsicht ist nur in der Arbeit des Begriffs zu gewinnen.
+
+> Er allein kann die Allgemeinheit des Wissens hervorbringen,  welche weder die gemeine Unbestimmtheit und D&#252;rftigkeit des gemeinen Menschenverstandes, sondern gebildete und vollst&#228;ndige Erkenntnis,  noch die ungemeine Allgemeinheit der durch Tr&#228;gheit und Eigend&#252;nkel von Genie sich verderbenden Anlage der Vernunft,  sondern die zu ihrer einheimischen Form gediehene Wahrheit, - welche f&#228;hig ist, das Eigentum aller selbstbewu&#223;ten Vernunft zu sein.
+
+
 
 ## Vom wissenshcaftlichen Erkennen
 
@@ -70,6 +78,8 @@ On "speculative sentences" as opposed to the usual "rational sentences"
 ## related Entries
 
 * [[Georg Hegel]], _[[Science of Logic]]_
+
+## References
 
 [[!redirects Phänomenologie des Geistes]]
 
