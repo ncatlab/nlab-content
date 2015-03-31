@@ -17,6 +17,7 @@
 
 A _(quasi-)triangular Hopf algebra_ is a [[Hopf algebra]] whose underlying [[bialgebra]] is a [[quasitriangular bialgebra|(quasi-)triangular]].  This means that its [[category of modules]] is not just a [[rigid monoidal category]] but a [[braided monoidal category]]/[[symmetric monoidal category]].
 
+If this rigid symmetric monoidal category in addition satisfies a certain regularity condition (see [here](Deligne%27s+theorem+on+tensor+categories#Regularity)) then the corresponding triangular Hopf algebra is equivalent to a  [[superalgebra|supercommutative]]] Hopf algebra, hence to the [[formal dual]] of a affine algebraic [[supergroup]]. See at _[[Deligne's theorem on tensor categories]]_ for more on this.
 
 ## Definition
 
@@ -42,14 +43,18 @@ A _(quasi-)triangular Hopf algebra_ is a [[Hopf algebra]] whose underlying [[bia
 
 ## References
 
-* Shlomo Gelaki, _On the classification of finite-dimensional triangular Hopf algebras_, New directions in Hopf algebras, MSRI publications volume 43 (2002) ([pdf](http://library.msri.org/books/Book43/files/gelaki.pdf))
- {#Gelaki}
+* {#Gelaki} [[Shlomo Gelaki]], _On the classification of finite-dimensional triangular Hopf algebras_, New directions in Hopf algebras, MSRI publications volume 43 (2002) ([pdf](http://library.msri.org/books/Book43/files/gelaki.pdf))
+ 
 
 * Wikipedia, _[Quasitriangular Hopf algebra](http://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra)_
 
 * Nicolas Andruskiewitsch, [[Pavel Etingof]], Shlomo Gelaki, _Triangular Hopf algebras with the Chevalley property_ ([arXiv:math/0008232](http://arxiv.org/abs/math/0008232))
 
-* [[Pavel Etingof]], Shlomo Gelaki, _On families of triangular Hopf algebras_ ([arXiv:math/0110043](http://arxiv.org/abs/math/0110043))
+* [[Pavel Etingof]], [[Shlomo Gelaki]], _On families of triangular Hopf algebras_ ([arXiv:math/0110043](http://arxiv.org/abs/math/0110043))
+
+Discussion in view of [[Deligne's theorem on tensor categories]] is in
+
+* [[Pavel Etingof]], [[Shlomo Gelaki]], _The classification of finite-dimensional triangular Hopf algebras over an algebraically closed field of characteristic 0_ ([arXiv:0202258](http://de.arxiv.org/abs/math/0202258))
 
 
 [[!redirects triangular Hopf algebras]]
