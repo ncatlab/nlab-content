@@ -17,7 +17,7 @@
 
 ## Algebraic super groups
 
-An algebraic super group is the [[formal dual]]  of a [[superalgebra|super]] [[Hopf algebra]] which is supercommutative. 
+An [[affine scheme|affine]] algebraic super group is the [[formal dual]]  of a [[superalgebra|super]] [[Hopf algebra]] which is supercommutative. 
 
 ## Super Lie groups
 
@@ -171,6 +171,8 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 [[Deligne's theorem on tensor categories]] says that every suitably well-behave linear [[tensor category]] is the [[category of representations]] of an algebraic supergroup.
 
 ## References
+
+* [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
 
