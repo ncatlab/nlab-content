@@ -11,6 +11,8 @@ Named after [[Sergio Doplicher]] and [[John Roberts]]. Serves in [[AQFT]] as an 
 
 ## Related concepts
 
+* [[Deligne's theorem on tensor categories]]
+
 * [[Wigner classification]]
 
   * [[unitary representation of the Poincaré group]]
@@ -20,9 +22,8 @@ Named after [[Sergio Doplicher]] and [[John Roberts]]. Serves in [[AQFT]] as an 
 
 ## References
 
-The appendix of 
 
-* [[Hans Halvorson]], [[Michael Müger]], _Algebraic quantum field theory_ in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036))
+* [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $\ast$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
 contains statement and proof of the theorem.
 
