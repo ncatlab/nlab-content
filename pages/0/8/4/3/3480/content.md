@@ -319,7 +319,7 @@ In
 
 and
 
-* Pierre Deligne, [[Catégories Tannakiennes]]
+* [[Pierre Deligne]], _[[Catégories Tannakiennes]]_
 
 it is shown that $A$ is recovered as the [[coend]]
 
@@ -433,13 +433,15 @@ More on this is at [[cohesive (∞,1)-topos -- structures]] in the section <a hr
 
 * [[Tannakian category]]
 
+* [[Deligne's theorem on tensor categories]]
+
 ## References
 
 * [[André Joyal]], [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)
 
 * B.J. Day, _Enriched Tannaka reconstruction_, J. Pure Appl. Algebra __108__ (1996) 17-22, <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
 
-* Pierre Deligne, [[Catégories Tannakiennes]]
+* [[Pierre Deligne]], _[[Catégories Tannakiennes]]_
 
 The following paper shortens the Deligne's proof 
 
