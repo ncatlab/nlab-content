@@ -182,6 +182,12 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 [[Mike Shulman]]: In addition to lots of examples, I think it would be also nice to include here a *non* example, of a case where the putative transferred model structure provably *doesn't* exist.
 =--
 
+* A non-example is provided as Example 3.7 of ([GoerssSchemmerhorn](#GoerssShemm)). Let $k$ be a field of characteristic 2 and consider the adjunction
+$$
+ (S \dashv U )\; : \; CGA_k \stackrel{\overset{S}{\leftarrow}}{\underset{U}{\to}} Ch_*k
+$$
+of the symmetric algebra functor and the forgetful functor between graded commutative DGAs and chain complexes. One sees that $S$ does not preserve the weak equivalence between 0 and the complex with one copy of $k$ in degrees $n$ and $n-1$. Since all chain complexes are cofibrant this means that $(S \dashv U )$ cannot be upgrade to a Quillen adjunction. 
+
 
 ## References
 
@@ -209,6 +215,7 @@ See also prop. 1.4.23 of
 A summary of the result is on [p. 20](http://arxiv.org/PS_cache/math/pdf/0609/0609537v2.pdf#page=20) of
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
+{#GoerssShemm}
 
 and on p. 6 of
 
