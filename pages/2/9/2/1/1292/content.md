@@ -80,3 +80,6 @@ $$
 [[!redirects épaisse subcategory]]
 [[!redirects épaisse subcategories]]
 [[!redirects Serre quotient category]]
+
+[[!redirects thick ideal]]
+[[!redirects thick ideals]]
