@@ -168,7 +168,7 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 
 ### Representations, Tannaka duality and Deligne's theorem
 
-[[Deligne's theorem on tensor categories]] says that every suitably well-behave linear [[tensor category]] is the [[category of representations]] of an algebraic supergroup.
+[[Deligne's theorem on tensor categories]] says that every suitably well-behave linear [[tensor category]] is the [[category of representations]] of an algebraic supergroup. In particular the [[Hopf algebra]] of functions on an affine algebraic supergroup is a [[triangular Hopf algebra]].
 
 ## References
 
