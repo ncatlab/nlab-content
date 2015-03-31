@@ -8,9 +8,9 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-Note that the last condition implies that $G$ must be a connected graph (i.e., that there is a sequence of edges connecting any pair of vertices).
+Note that the last condition implies that $G$ must be a connected graph (i.e., that there is a path between any pair of vertices).
 
-Topological maps are always considered up to homeomorphism.  It is useful to assume that the underlying surface $X$ is [[oriented]] (since such embedded graphs have a close connection with [[combinatorial maps]]), but it is also possible to consider topological maps on non-oriented surfaces.
+Topological maps are always considered up to homeomorphism.  In particular, graphs embedded in [[oriented]] surfaces also have a purely combinatorial representation (known as a [[combinatorial map]]) as a pair/triple of permutations, which describe the topological map up to homeomorphism.
 
 The **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
 
