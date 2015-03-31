@@ -32,9 +32,7 @@ Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Qu
 ## Download
 
 For an account of the origins of the manuscript, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm), where a large downloadable .ps file may be found. 
-Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB), [here](http://www.math.umn.edu/~messing/docs/) (djvu and pdf - 252MB), or [here](http://preschema.com/pursuing-stacks/) (png images) (some of these links seem no longer to work!).
-
-
+Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB), [here](http://www.math.umn.edu/~messing/docs/) (djvu and pdf - 252MB), or [here](http://preschema.com/pursuing-stacks/) (png images) (some of these links seem no longer to work!). [Page](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps.html) by Maltsiniotis.
  
 ## Content and influence on current research
 
