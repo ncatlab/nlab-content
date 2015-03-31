@@ -5,7 +5,7 @@
 
 ## Idea
 
-In the context of [[gauge theory]], _group averaging_ is the idea of turning an arbitrary [[function]] of the [[field (physics)|fields]] into a [[gauge invariance|gauge invariant]] function by suitably averaging it over the [[action]] of the group of [[gauge transformations]], hence by taking the [[integral]] against a [[measure]] on the group of [[gauge transformations]] of the function pulled back by the gauge action.
+In the context of [[gauge theory]], _group averaging_ is the idea of turning an arbitrary [[function]] of the [[field (physics)|fields]] into an [[invariant]] ([[gauge invariance|gauge invariant]]) function by suitably averaging it over the [[action]] of the group of [[gauge transformations]], hence by taking the [[integral]] against a [[measure]] on the group of [[gauge transformations]] of the function pulled back by the gauge action.
 
 For groups of gauge transformations which are finite dimensional [[compact Lie groups]] (typical in [[quantum mechanics]]) this just works, but most groups of gauge transformations appearing in [[quantum field theory]] are infinite-dimensional (at best) and non-compact, hence much of the literature on group averaging in gauge theory is concerned with making sense of regularizing the naive prescription.
 
@@ -13,6 +13,10 @@ For groups of gauge transformations which are finite dimensional [[compact Lie g
 
 
 ## References
+
+Textbook accounts include
+
+* {#Olver99} [[Peter Olver]], around (4.8) in _Classical invariant theory_, 1999
 
 Reviews include
 
