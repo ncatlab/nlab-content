@@ -15,14 +15,13 @@
 * table of contents
 {:toc}
 
-## Bare super groups
+## Algebraic super groups
 
-(...)
+An algebraic super group is the [[formal dual]]  of a [[superalgebra|super]] [[Hopf algebra]] which is supercommutative. 
 
 ## Super Lie groups
 
 ### Definition
-
 
 A _super Lie group_ is a [[group object]] in the [[category]] [[SDiff]] of [[supermanifold]]s, that is a super [[Lie group]].
 
@@ -165,6 +164,11 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 
 ...
 
+## Properties
+
+### Representations, Tannaka duality and Deligne's theorem
+
+[[Deligne's theorem on tensor categories]] says that every suitably well-behave linear [[tensor category]] is the [[category of representations]] of an algebraic supergroup.
 
 ## References
 
