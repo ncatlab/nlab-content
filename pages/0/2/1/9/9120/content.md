@@ -36,7 +36,7 @@
 
 * [[fermionic modality]] $\dashv$ [[bosonic modality]] $\dashv$ [[rheonomy modality]]
 
-  $(\e \dashv \rightsquigarrow \dashv R)$
+  $(\rightrightarrows \dashv \rightsquigarrow \dashv R)$
 
 
 
@@ -46,7 +46,7 @@ $$
     \\
     && \vee && \vee
     \\
-    &\stackrel{fermionic}{}& \e &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
+    &\stackrel{fermionic}{}& \rightrightarrows &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
     \\
     && \bot && \bot
     \\
