@@ -71,6 +71,11 @@ Section 5 of
 
 some summary of which is at _[[Ek-Algebras]]_.
 
+Discussion of [[derived noncommutative geometry]] over [[formal duals]] of $E_n$-algebras is in 
+
+* [[John Francis]], _Derived algebraic geometry over $\mathcal{E}_n$-Rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/thezrev.pdf))
+
+* [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/cotangentcomplex.pdf))
 
 
 
