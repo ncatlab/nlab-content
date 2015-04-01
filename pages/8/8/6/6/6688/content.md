@@ -37,7 +37,7 @@ For $k = 1$ this reduces to the notion of [[Killing vector]].
 
 ## Properties
 
-For every Killing tensor $K$ on $(X,g)$ the [[dynamics]] of the [[relativistic particle]] on $X$ has a further conserved quantity. In the canonical case $K = g$ this quantity is the energy [[Hamiltonian]] of the particle.
+For every Killing tensor $K$ on $(X,g)$ the [[dynamics]] of the [[relativistic particle]] on $X$ has a further conserved quantity. In the canonical case $K = g$ this quantity is the [[Hamiltonian]] of the particle (in the case of a relativistic particle it's four-velocity normalization).
 
 The analog of this for [[spinning particle]]s and [[superparticle]]s are [[Killing-Yano tensor]]s.
 
