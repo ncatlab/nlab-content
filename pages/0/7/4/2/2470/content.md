@@ -17,6 +17,7 @@
 
 ## Idea
 
+
 In [[noncommutative algebraic geometry]] one represents a [[scheme]] by an [[abelian category]] of [[quasicoherent sheaf|quasicoherent sheaves]] on the [[scheme]], and looks at more general abelian categories as being categories of quasicoherent sheaves on a noncommutative space.  
 
 In _derived (higher) noncommutative (algebraic) geometry_ one instead considers the [[derived category]] of [[quasicoherent sheaf|quasicoherent sheaves]], or more precisely its [[enhanced triangulated category|dg-enhancement]] or [[A-infinity-category|A-infinity-enhancement]]; dg-enhancements for the derived categories of quasiprojective smooth varieties are essentially unique by the results of Lunts and Orlov. Taking the derived category instead of the abelian loses a bit of information but sometimes the information is sufficient. 
@@ -97,6 +98,17 @@ Homological mirror symmetry is one of the main motivations and statements of the
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological mirror symmetry and torus fibrations_, in Symplectic geometry and mirror symmetry (Seoul, 2000),  203--263, World Sci. Publ., River Edge, NJ, 2001. 
 
 * [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv](http://arxiv.org/abs/1402.7364v1).
+
+Algebraic geometry over [[formal duals]] of [[E-n algebras]] is considered in 
+
+* [[John Francis]], _Derived algebraic geometry over $\mathcal{E}_n$-Rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/thezrev.pdf))
+
+* [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/cotangentcomplex.pdf))
+
+Notice that for $n \geq 2$ the underlying ordinary rings (under $\pi_0$) are commutative. Therefore this has similarities with the [[formal geometry|formal]] [[noncommutative algebraic geometry]] perturbating around abelian schemes that is discussed in
+
+* {#Kapranov98} [[Mikhail Kapranov]], _Noncommutative geometry based on commutator expansions_ ([arXiv:9802041](http://arxiv.org/abs/math/9802041))
+
 
 
 [[!redirects derived noncommutative algebraic geometry]] 
