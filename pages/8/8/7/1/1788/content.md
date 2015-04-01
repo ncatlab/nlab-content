@@ -1,23 +1,6 @@
-$$
-  \array{
-    & && && &\longleftarrow& 
-    \\
-    & && &\hookrightarrow& &\hookrightarrow& 
-    \\
-    & &\longleftarrow& &\longleftarrow& &\longleftarrow&
-    \\
-    \Delta \colon
-    & 
-    \infty Grpd
-    &\hookrightarrow&
-    Smooth \infty Grpd
-    &\hookrightarrow&
-    FormalSmooth \infty Grpd
-    &\hookrightarrow&
-    SuperFormalSmooth \infty Grpd
-    \\
-    & &\longleftarrow& &\longleftarrow&
-    \\
-    & &\hookrightarrow&
-  }
-$$
+
+
+| [[nLab:real line]] | [[nLab:odd line]] |
+|---|---|
+| $\mathbb{R} = \mathbb{R}^{1\vert 0}$ | $\mathbb{R}^{0\vert 1}$ |
+| $&#643; \simeq loc_{\mathbb{R}}$ | $\rightrightarrows \simeq loc_{\mathbb{R}^{0\vert 1}}$ |
