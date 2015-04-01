@@ -125,3 +125,10 @@ See also the surveys
 {#VezzosiWhatIs}
 
 * [[Bertrand Toën]], _Derived algebraic geometry_, [arxiv/1401.1044](http://arxiv.org/abs/1401.1044)
+
+Discussion of [[derived noncommutative algebra]] over [[E-n algebras]] is in 
+
+* [[John Francis]], _Derived algebraic geometry over $\mathcal{E}_n$-Rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/thezrev.pdf))
+
+* [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([pdf](http://math.northwestern.edu/~jnkf/writ/cotangentcomplex.pdf))
+
