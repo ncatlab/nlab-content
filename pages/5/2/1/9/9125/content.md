@@ -98,7 +98,7 @@ Fields defined as sections of field bundles cannot capture gauge phenomena in a 
 
    But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because _locally_ every $G$-[[principal bundle]] has trivial class, so that locally there is always only a single (the trivial) instanton sector. 
 
-This failure of locality is often not recognized in the literature, since many if not most descriptions of physics restrict to trivial spacetime topology and/or restrict to [[perturbation theory]] only. A formulation accurate and encompassing enough to see this issue is _[[AQFT on curved spacetimes]]_. A reference that explicitly runs into this non-locality issue of the field bundle in gauge theory in this context is ([Benini-Dappiaggi-Schenkel 13](field+bundle#BDS), [Schenkel 14](field+bundle#Schenkel14)): the authors define a [[functor]] from [[spacetimes]] equipped with a $G$-[[principal bundle]] that assigns the [[algebras of observables]] of the corresponding [[Yang-Mills fields]] built from the field bundle of connections on the given principal bundles; and they observe that the result fails to be a [[local net]] in that the inclusion of observables of a smaller spacetime into a larger patch may fail the isotony axiom ([BDS, remark 5.6](field+bundle#BDS)). The authors then try to circumvent this by restricting to trivial instanton sectors.
+This failure of locality is often not recognized in the literature, since many if not most descriptions of physics restrict to trivial spacetime topology and/or restrict to [[perturbation theory]] only. A formulation accurate and encompassing enough to see this issue is _[[AQFT on curved spacetimes]]_. A reference that explicitly runs into this non-locality issue of the field bundle in gauge theory in this context is ([Benini-Dappiaggi-Schenkel 13](field+bundle#BDS), [Schenkel 14](field+bundle#Schenkel14)): the authors define a [[functor]] from [[spacetimes]] equipped with a $G$-[[principal bundle]] that assigns the [[algebras of observables]] of the corresponding [[Yang-Mills fields]] built from the field bundle of connections on the given principal bundles; and they observe that the result fails to be a [[local net]] in that the inclusion of observables of a smaller spacetime into a larger patch may fail the isotony axiom ([BDS, remark 5.6](field+bundle#BDS)). The authors then try to circumvent this by restricting to trivial instanton sectors. The fix later appears in ([Benini-Schenkel-Szabo 15](#BeniniSchenkelSzabo15)), where the authors then consider proper [[stacks]] of fields.
 
 But notice that instanton sectors is a non-negligible phenomenon. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors (see at _[[instanton in QCD]]_ for more on this).  And there are field theories where the fields consist entirely of "[[instanton sectors]]" and where there is no infinitesimal information about the gauge group at all: these are theories whose gauge group is a [[discrete group]], which includes notably [[Dijkgraaf-Witten theory]] and its higher analogy such as the [[Yetter model]]. This means that for these [[theory (physics)|theories]] a local field bundle formalism can see nothing of the actual fields and also traditional tools applied to a global field bundle (such as traditional [[BV-BRST formalism]]) see nothing of the actual fields. All this is fixed by the formulation that we discuss [below](#Definition).
 
@@ -2696,6 +2696,10 @@ Some examples of fields in this sense are called "relative fields" in
 * [[Daniel Freed]], [[Constantin Teleman]], _Relative quantum field theory_ ([arXiv:1212.1692](http://arxiv.org/abs/1212.1692))
  {#FreedTeleman}
 
+Discussion of [[AQFT]] with stacky fields and co-stacky [[local nets of observables]] is in 
+
+* {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
 ### Original articles on special cases
 
 The supergeometric nature of the [[B-field]] in [[type II string theory]] had been pointed out in 
@@ -2722,4 +2726,3 @@ The formulation of this in [[smooth super infinity-groupoids]] is ([FSS, section
 
 [[!redirects field configuration]]
 [[!redirects field configurations]]
-
