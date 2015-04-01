@@ -1,0 +1,9 @@
+
+
+* [cv](http://fisica.unipv.it/personale/PersFiles/Curr_308.pdf)
+
+## related $n$Lab entries
+
+* [[AQFT]]
+
+category: people
