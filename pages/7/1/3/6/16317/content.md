@@ -116,7 +116,7 @@ $$
     &\hookrightarrow&
     FormalSmooth \infty Grpd
     &\hookrightarrow&
-    SuperSmooth \infty Grpd
+    SuperFormalSmooth \infty Grpd
     \\
     & &\longleftarrow& &\longleftarrow&
     \\
