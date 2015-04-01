@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -186,7 +186,7 @@ Section A.1 of
 See also the references at [[geometric homotopy groups in an (∞,1)-topos]].
 
 
-
+[[!redirects locally constant infinity-stacks]]
 
 [[!redirects locally constant ∞-stack]]
 [[!redirects locally constant (∞,1)-sheaf]]
