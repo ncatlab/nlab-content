@@ -1,4 +1,36 @@
-[[Mikhail Kapranov]] introduced a framework of [[noncommutative algebraic geometry]], which could be interpreted as the study of infinitesimal thickenings of commutative schemes within bigger noncommutative spaces. The idea is to look at commutative schemes together with a sheaf of nilpotent noncommutative O-algebras; the formalism utilizes the filtrations relating to the commutator expansions from Maslov-Feynman calculus. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[Mikhail Kapranov]] introduced a framework of [[noncommutative algebraic geometry]], which could be interpreted as the study of [[formal geometry|infinitesimal thickenings]] of commutative [[schemes]] within bigger [[noncommutative geometry|noncommutative spaces]]. The idea is to look at commutative schemes together with a sheaf of nilpotent noncommutative O-algebras; the formalism utilizes the filtrations relating to the commutator expansions from Maslov-Feynman calculus. 
+
+## Related concepts
+
+* [[noncommutative algebraic geometry]]
+
+* [[derived noncommutative geometry]]
+
+
+## References
 
 * M. Kapranov, _Noncommutative geometry based on commutator expansions_,  J. reine und angew. Math. __505__ (1998), 73-118, [math.AG/9802041](http://arxiv.org/abs/math/9802041).
 
