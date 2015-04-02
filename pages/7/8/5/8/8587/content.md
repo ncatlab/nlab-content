@@ -125,8 +125,10 @@ For [[Chen spaces]] and [[diffeological spaces]], the story is similar. Each cat
 
 ## References ##
 
-* {: #MR764972 } Michor, P. (1984). A convenient setting for differential geometry and global analysis. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 63&#8211;109.
+* {: #MR764972 } P. Michor, (1984). A convenient setting for differential geometry and global analysis. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 63&#8211;109.
 
-* {: #MR767683 } Michor, P. (1984). A convenient setting for differential geometry and global analysis. II. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 113&#8211;178.
+* {: #MR767683 } P. Michor, (1984). A convenient setting for differential geometry and global analysis. II. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 113&#8211;178.
+
+* Andreas Kriegl, [[Peter Michor]], [[The Convenient Setting of Global Analysis]], Mathematical Surveys and Monographs, 53 AMS (1997) [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
 
 * {: #MR2805746 } Stacey, A. (2011). Comparative smootheology. _Theory Appl. Categ._, _25_, No. 4, 64&#8211;117.
