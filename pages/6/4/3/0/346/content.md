@@ -90,8 +90,11 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 
 ### Embedding into closed monoidal categories {#EmbedIntoCloseMon}
 
-By a result due to Miguel LaPlaza, every closed category embeds [[full and faithful functor|fully and faithfully]] into a [[closed monoidal category]] by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.
+By a result due to Miguel LaPlaza, every closed category embeds [[full and faithful functor|fully and faithfully]] into a [[closed monoidal category]] by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.  In particular, this functor is defined as the composition $q = y \circ p$ of the functor
 
+$$p : C \to E^\op$$
+
+sending an object $X \in C$ to the object (endofunctor) $[X,-] \in E = [C,C]$, together with the [[Yoneda embedding]] $y : E^\op \to [E, Set]$.  The closed monoidal structure on the presheaf category $[E,Set]$ is given by the [[Day convolution|Day construction]], using the monoidal structure of the category of endofunctors $E$ (see [[closed monoidal structure on presheaves#presheaves_over_a_monoidal_category|closed monoidal structure on presheaves over a monoidal category]]).
 
 ### Monadicity and 2-categories
 
