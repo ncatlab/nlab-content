@@ -77,6 +77,8 @@ The third axiom is actually redundant, being an instance of the induction scheme
 
 ## References
 
+Named after [[Guiseppe Peano]]
+
 * Wikipedia, _[Peano axioms](http://en.wikipedia.org/wiki/Peano_axioms)_
 
 [[!redirects Peano axioms]]
