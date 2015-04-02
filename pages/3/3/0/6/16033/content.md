@@ -1,5 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Johann_Gottlieb_Fichte)
 * [Stanford Encyclopedia of Philosophy entry](http://plato.stanford.edu/entries/johann-fichte/)
+
+> Die Fichtesche Philosophie hat den gro&#223;en Vorzug und das Wichtige, aufgestellt zu haben, da&#223; Philosophie Wissenschaft aus h&#246;chstem Grundsatz sein mu&#223;, woraus alle Bestimmungen notwendig abgeleitet sind. Das Gro&#223;e ist die Einheit des Prinzips und der Versuch, wissenschaftlich konsequent den ganzen Inhalt des Bewu&#223;tseins daraus zu entwickeln oder, wie man es nannte, die ganze Welt zu konstruieren. Man hat sich dar&#252;ber aufgehalten. Es ist Bed&#252;rfnis der Philosophie, eine lebendige Idee zu enthalten. Die Welt ist eine Blume, die aus einem Samenkorn ewig hervorgeht. ([Hegel, Lect Hist Phil](Lectures+on+the+History+of+Philosophy#FichteVorzugWissenschaft))
 
 ## related entries
 
