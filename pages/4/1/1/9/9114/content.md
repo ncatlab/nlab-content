@@ -2545,7 +2545,7 @@ A similar analysis for higher dimensional cells shows that the fact that a Kan c
 ###### 1-Groupoids as Kan complexes
  {#1GroupoidsAsKanComplexes}
 
-We review how [[1-groupoids]] are incarnated as Kan complexes via their [[nerve]]. For more along these lines see at _[[geometry of physics -- homotopy theory]]_.
+We review how [[1-groupoids]] are incarnated as Kan complexes via their [[nerve]]. For more along these lines see at _[[geometry of physics -- homotopy types]]_.
 
 +-- {: .num_defn #Groupoid}
 ###### Definition
@@ -2588,43 +2588,175 @@ such that
 +-- {: .num_defn #NerveOfGroupoid}
 ###### Definition
 
-For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, 
+its _[[simplicial nerve]]_ $N(\mathcal{G}_\bullet)_\bullet$ is 
+the [[simplicial set]] with 
 
 $$
-  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
+  N(\mathcal{G}_\bullet)_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
 $$ 
 
-for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$;
+
+with face maps
+
+$$
+  d_k \colon N(\mathcal{G}_\bullet)_{n+1} \to N(\mathcal{G}_\bullet)_{n}
+$$
+
+being, 
+
+* for $n = 0$ the functions that remembers the $k$th object;
+
+* for $n \geq 1$ 
+
+  * the two outer face maps $d_0$ and $d_n$ are given by forgetting the first and the last morphism in such a sequence, respectively; 
+
+  * the $n-1$ inner face maps $d_{0 \lt k \lt n}$ are given by composing the $k$th morphism with the $k+1$st in the sequence.
+
+The degeneracy maps
+
+$$
+  s_k \colon N(\mathcal{G}_\bullet)n \to N(\mathcal{G}_\bullet)_{n+1}
+  \,.
+$$
+
+are given by inserting an [[identity]] morphism on $x_k$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Spelling this out in more detail: write
 
 $$
   \mathcal{G}_n = 
   \left\{
     x_0 
-      \stackrel{f_1}{\to} 
+      \stackrel{f_{0,1}}{\to} 
     x_1
-      \stackrel{f_2}{\to}
+      \stackrel{f_{1,2}}{\to}
     x_2
-      \stackrel{f_2}{\to}
+      \stackrel{f_{2,3}}{\to}
     \cdots
-      \stackrel{f_n}{\to}
+      \stackrel{f_{n-1,n}}{\to}
     x_n
   \right\}
+$$
+
+for the set of sequences of $n$ composable morphisms. Given any element of 
+this set and $0 \lt k \lt n $, write 
+
+$$
+  f_{i-1,i+1} \coloneqq f_{i,i+1} \circ f_{i-1,i}
+$$
+
+for the comosition of the two morphism that share the $i$th vertex. 
+
+With this, face map $d_k$ acts simply by "removing the index $k$":
+
+$$
+  d_0
+  \colon 
+  (x_0 \stackrel{f_{0,1}}{\to}  x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )
+  \mapsto
+  (x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )  
+$$
+
+$$
+  d_{0\lt k \lt n}
+   \colon
+  (
+    x_0 
+    \cdots 
+    \stackrel{}{\to}
+    x_{k-1}
+    \stackrel{f_{k-1,k}}{\to}
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \stackrel{}{\to}
+    \cdots
+    x_n
+  )
+  \mapsto
+  (
+    x_0 
+    \cdots 
+    \stackrel{}{\to}
+    x_{k-1}
+    \stackrel{f_{k-1,k+1}}{\to}
+    x_{k+1}
+    \stackrel{}{\to}
+    \cdots
+    x_n
+  )  
+$$
+
+$$
+  d_n 
+  \colon
+  (
+    x_0 \stackrel{f_{0,1}}{\to}
+    \cdots
+    \stackrel{f_{n-2,n-1}}{\to} 
+    x_{n-1}
+    \stackrel{f_{n-1,n}}{\to}
+    x_n
+  )
+  \mapsto
+  (
+    x_0 \stackrel{f_{0,1}}{\to}
+    \cdots
+    \stackrel{f_{n-2,n-1}}{\to} 
+    x_{n-1}
+  )
   \,.
 $$
 
-For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+
+Similarly, writing
 
 $$
-  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
+  f_{k,k} \coloneqq id_{x_k}
+$$
+
+for the identity morphism on the object $x_k$, 
+then the degenarcy map acts by
+"repeating the $k$th index"
+
+$$
+  s_k
+  \colon
+  (
+    x_0 \stackrel{}{\to}
+    \cdots 
+    \to
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \to
+    \cdots
+  )
+  \mapsto
+  (
+    x_0 \stackrel{}{\to}
+    \cdots 
+    \to
+    x_k
+     \stackrel{f_{k,k}}{\to}
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \to
+    \cdots
+  )
   \,.
 $$
 
-Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
-
-$$
-  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
-  \,.
-$$
+This makes it manifest that these functions organise into a [[simplicial set]].
 
 =--
 
