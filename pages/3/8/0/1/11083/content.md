@@ -74,6 +74,7 @@ This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]]
 
 #### Smooth 1-groupoids
 
+
 ###### Motivation: Fields and gauge transformations in electromagnetism
  {#GaugeTransformationsInElectromagnetism}
 
@@ -508,8 +509,7 @@ $$
   \,.
 $$
 
-For instance for $G$ a [[Lie group]], we write $\mathbf{B}G \in Grpd(Smooth0Type)$
-for the Lie groupoid which 
+For instance for $G$ a [[Lie group]], we write $(\mathbf{B}G)_\bullet \in Grpd(Smooth0Type)$ for the Lie groupoid which 
 
 $$
   (\mathbf{B}G)_\bullet
@@ -650,7 +650,8 @@ $$
 
 =--
 
-###### Smooth groupoids proper
+
+###### Gluing 
  
 
 The "bootstrap"-definition of pre-smooth groupoids [above](#PreSmoothGroupoids) works as intended, by prop. \ref{YonedaForPreSmoothGroupoids}, it just needs to be restricted now to something a little less general. The issue is that while this definition consistently identifies a smooth-structure-to-be by what its possible smooth probes are, it does not enforce yet the consistent _gluing_ of probes:
@@ -685,7 +686,7 @@ $$
 $$
 
 
-+-- {: .num_defn }
++-- {: .num_defn #DescentForPreSmoothGroupoids}
 ###### Definition
 
 A pre-smooth groupoid $X \in PreSmooth1Type$, def. \ref{PreSmoothGroupoid}, is a genuine _smooth groupoid_ if for all $n \in \mathbb{N}$ and for all differentiably [[good open covers]] $\{U_i \to \mathbb{R}^n\}$ of the $n$-dimensional abstract [[coordinate chart]], the functor
@@ -698,25 +699,59 @@ $$
 
 given by pre-composition with $C(\{U_i\}) \to X$, is an [[equivalence of groupoids]].
 
-We write
+=--
 
-$$
-  Smooth1Type
-  \hookrightarrow
-  PreSmooth1Type
-$$
++-- {: .num_remark}
+###### Remark
 
-for the [[Grpd]]-[[enriched category|enriched]] [[full subcategory]] on the genuine smooth groupoiids.
+The condition in def. \ref{DescentForPreSmoothGroupoids} is called the _stack condition_, or the condition of _[[descent]]_, alluding to the fact that it says that $X$ "descends" down along the cover projection. So a smooth groupoid is a _[[stack]]_ on the [[site]] [[CartSp]]. This is a higher analog of the [[sheaf]] condition (see the next example) and hence a more systematic terminology would be to say that such $X$ is a _[[2-sheaf]]_ or rather a _[[(2,1)-sheaf]]_ (since it takes values in [[groupoids]] as opposed to in more general [[categories]]).
 
 =--
 
-This is called the _[[stack]] [[property]]_. It generalizes the [[sheaf]] property discussed for [[smooth sets]]. (In fact by embedding pre-smooth sets into pre-smooth groupoids, the fact that there the concept of Cech groupoid is available gives this neat equivalent reformulation of the sheaf condition as usually given more in components.)
++-- {: .num_prop}
+###### Proposition
 
-This property is not enjoyed by all pre-smooth groupoids. Indeed, this property that pre-composition with a morphism $A \to B$ gives an equivalence of hom-objects $Hom(B,X)\to Hom(A,X)$ for all $X$ is satisfied precisely by the [[isomorphisms]] ([[equivalences]]). But the morphism $C(\{U_i\}) \to X$ is in general far from being an isomorphism of pre-smooth groupoids: unless the cover contains a trivial chart that covers all of $X$, then there is _no_ smooth map back from $X$ to $C(\{U_i\})$. The idea of enforcing the stack condition by [[localization]] is to _force_ these maps to become equivalences. 
+Let $X \in Premooth0Type \hookrightarrow PreSmooth1Type$ be a pre-smooth groupoid which is really just a pre-smooth set, hence a presheaf on $CartSp$ that takes values in groupoids with only identity morphisms
 
-(... notation needs to be harmonized for the following ...)
+$$
+  X \colon CartSp^{op} \longrightarrow Set \hookrightarrow Grp
+  \,.
+$$ 
 
-+-- {: .num_defn }
+Then $X$ is a smooth groupoid in the sense of def. \ref{DescentForPreSmoothGroupoids} precisely if it is a [[smooth set]], hence precisely if, as a presheaf, it satisfies the [[sheaf]] condition.
+
+=--
+
++-- {: .num_example #SmoothManifoldsSatisfyDescentAsPreSmoothGroupoids}
+###### Example
+
+In particular, for $X \in SmoothMfs \hookrightarrow PreSmooth0Type \hookrightarrow PreSmooth1Type$ a [[smooth manifold]], it satisfies descent as a pre-smooth groupoid.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There is an alternative formulation of the whole theory where instead of the [[site]] [[CartSp]] one uses the site [[SmoothMfd]] of all [[smooth manifolds]]. Everything discussed so far goes through verbatim for that site, too, but the [[descent]] condition in def. \ref{DescentForPreSmoothGroupoids} is a much stronger condition.
+
+For instance the presheaves of the form $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \ast)$ from example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type} satisfy descent on $CartSp$, but not all $SmoothMfd$. Still, once we have defined the higher category of smooth groupoids, the definition wil be equivalent for both choices of sites. 
+
+The choice of the smaller site is the one that is easier to work with, and therefore we stick with that. In fact, most every example of a pre-smooth groupoid that one runs into satisfies descent on $CartSp$.
+
+=--
+
+
+
+###### Weak equivalences
+
+While the morphisms of pre-smooth groupoids defined above correctly encode
+morphisms of smooth structures (by taking smooth probes compatibly to smooth probes),
+they are not sensitive enough yet to the required concept of [[equivalence]].
+This is because smooth structure, being about existence of [[differentiation]],
+is to be detected entirely locally, namely [[stalk]]-wise. If for instance $X$ is a [[smooth manifold]], then its smooth structure is determined, around any of its points, by the smooth structure of an arbitrarily small [[open ball]] around that point.
+
++-- {: .num_defn #Stalks}
 ###### Definition
 
 For $n \in \mathbb{N}$, and $0 \lt r \lt 1 \in \mathbb{R}$ let 
@@ -725,37 +760,111 @@ $$
   \mathbb{R}^n \simeq D^n_r \hookrightarrow \mathbb{R}^n
 $$
 
-Be the smooth function that regards $\mathbb{R}^n$ as the standard $n$-[[disk]] of radius $r$ around the origin in $\mathbb{R}^n$.
+be the [[smooth function]] that regards the [[Cartesian space]] $\mathbb{R}^n$ as the standard $n$-[[disk]] of [[radius]] $r$ around the origin in $\mathbb{R}^n$. 
 
-For $X \in gPSh(CartSp)$ we write
-
-$$
-  (D^n)^* X \coloneqq {\lim_\to}_r X(D^n_r) \in Grpd
-$$
-
-for the [[stalk]] of $X$ at the origin of $\mathbb{R}^n$. This is a [[functor]]
+For $X \in PreSmooth1Type$ we write
 
 $$
-  (D^n)^* \colon gPSh(CartSp) \to Grpd
+  (D^n)^* X \coloneqq {\underset{\longrightarrow_r}{\lim}} X(D^n_r) \in Grpd
+$$
+
+for the [[colimit]] (in the 1-category of groupoids) of the restrictions of its groupoids of plots along the inclusion of these open balls -- the _$n$-[[stalk]]_ of $X$. This extends to a [[functor]]
+
+$$
+  (D^n)^* \colon PreSmooth1Type \longrightarrow Grpd
+$$
+
+=--
+
+This means that objects in $(D^n)^\ast X$ are [[equivalence classes]] of pairs $(r,x_r)$ where $0 \lt r \lt 1$ and where $x_r \in X(D^n_r)$, with two such pairs being equivalent $(r_1, x_{r_1})\sim (r_2, x_{r_2})$ precisely if there is $r_0 \lt r_1,r_2$ such that $x_{r_1}$ becomes equal to $x_{r_2}$ after restriction to $D^n_{r_0}$.
+
++-- {: .num_defn #LocalWeakEquivalence}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids}, is called a 
+_local [[weak equivalence]]_ if for every $n \in \mathbb{N}$
+the $n$-stalk, def. \ref{Stalks}, is an [[equivalence of groupoids]]
+
+$$
+  ((D^n)^* f) \colon (D^n)^* X \stackrel{}{\longrightarrow} (D^n)^* Y
   \,.
 $$
 
 =--
 
-+-- {: .num_defn }
-###### Definition
+We write $X\stackrel{\simeq}{\longrightarrow} Y$ for local
+weak equivalences of pre-smooth groupoids. We will mostly just say
+_weak equivalence_ for short.
 
-A morphism $f \colon X \to Y$ in $gPSh(CartSp)$ we call a 
-_local [[weak equivalence]]_ if for every $n \in \mathbb{N}$
-the stalk 
 
-$$
-  (D^n)^* f \colon (D^n)^* X \to (D^n)^* Y
-$$
++-- {: .num_prop #CoveringMapIsLocalWeakEquivalence}
+###### Proposition
 
-is an [[equivalence of groupoids]].
+For $X$ a [[smooth manifold]] and $\{U_i \to X\}$ an [[open cover]] for it, then 
+the canonical morphism from the corresponding [[Cech groupoid]] to $X$, 
+def. \ref{GroupoidOfCover}, is a local weak equivalence in the sense of
+def. \ref{LocalWeakEquivalence}.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+The $n$-stalk of the smooth manifold $X$ regarded as a presheaf is the set of equivalence classes of maps from open pointed $n$-disks into it, where two such are identified if they coincide on some small joint sub-disk of their domain. We may call this the set of _[[germs]]_ of $X$ (but beware that this terminology is typically used for something a little bit more restrictive, namely for the case that $n$ is the dimension of $X$ and that all maps from the disks into $X$ are required to be [[embeddings]]).
+
+On the other hand the $n$-stalk of $C(\{U_i\})$ is the groupoid whose set of objects is the set of germs, in this sense, of the disjoint union $\underset{i}{\coprod} U_i$, and whose set of morphisms is the set of germs of the disjoint union $\underset{i,j}{\coprod} U_i \underset{X}{\times} U_j$.
+
+But now since the cover is by _[[open subset|open]]_ subsets, it follows that for every $(x,i,j) \in \underset{i,j}{\coprod} U_i \underset{X}{\times} U_j$, then every germ of objects $[g]$ around $(x,i)$  has a representative $g$ that factors through this double intersection charts:  $g \colon D^n_r \to U_i \underset{X}{\times} U_j \to \underset{i}{\coprod} U_u$. And similarly for $(x,j)$.
+
+This means that the groupoid of $n$-stalks is a disjoint union of groupoids, one for each germ of $X$, all whose components are groupoids in which there is a unique morphism between any two objects, which are copies of this germ regarded as sitting in one of the charts of the cover. This means that each of these connected components is [[equivalence of groupoids|equivalent]] to the point.
+
+Now the canonical cover projection sends each of these connected components to the germ that it corresponds to. Hence this is a an [[equivalence of groupoids]].
+
+=--
+
+###### Hypercovers
+
++-- {: .num_defn #SplitHypercover}
+###### Definition
+
+A morphism $p \colon Y \longrightarrow X$ of pre-smooth groupoids
+is called a [[split hypercover]] if 
+
+1. $Y$ is 
+
+   1. degreewise a [[coproduct]] of [[Cartesian spaces]];
+
+   1. such that the degenerate elements split off as a dijoint summand.
+
+1. $p$ is a weak equivalence, def. \ref{LocalWeakEquivalence}.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $X$ a [[smooth manifold]] and $\{U_i \to X\}$ an [[open cover]],
+then the canonical projection $C(\{U_i\}) \to X$
+from the corresponding [[Cech groupoid]], def. \ref{GroupoidOfCover},
+is a split hypercover precisely if the cover is differentiably [[good open cover|good]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every cover the map is a weak equivalence, by prop. \ref{CoveringMapIsLocalWeakEquivalence}.
+
+For the Cech groupoid the condition of cofibrancy in def. \ref{SplitHypercover} means that every non-empty finite intersection of patches is [[diffeomorphism|diffeomorphic]] to a [[Cartesian space]], hence to an [[open ball]].
+This is precisely the definition of differentialbly [[good open cover]].
+
+=--
+
+
+
+
+
+###### The $(2,1)$-category of smooth groupoids
 
 +-- {: .num_defn }
 ###### Definition
@@ -765,10 +874,10 @@ Write
 $$
   Smooth1Type 
    \coloneqq
-  L_{lwe} gPSh(CartSp)
+  L_{lwe} PreSmooth1Type
 $$
 
-for the [[(2,1)-category]] which is the [[simplicial localization]] of groupoid-valued presheaves at the local weak equivalences.
+for the [[(2,1)-category]] which is the [[simplicial localization]] of groupoid-valued presheaves at the local weak equivalences, def. \ref{LocalWeakEquivalence}.
 
 An [[object]] $X \in Smooth1Type$ we call a **[[smooth groupoid]]** or
 **[[smooth homotopy type|smooth homotopy 1-type]]**.
@@ -776,57 +885,27 @@ An [[object]] $X \in Smooth1Type$ we call a **[[smooth groupoid]]** or
 =--
 
 
-+-- {: .num_example }
-###### Example
-
-Every [[smooth space]] is canonically a [[smooth groupoid]] with only identity morphisms.
-
-=--
-
 +-- {: .num_prop }
 ###### Proposition
 
-The canonical identification yields a [[full subcategory]]
+Let $X,A \in PreSmooth1Type$ such that $A$ satisfies descent, 
+def. \ref{DescentForPreSmoothGroupoids}. Let $Y \to X$
+be a [[split hypercover]] of $X$, def. \ref{SplitHypercover}.
+
+Then there is an [[equivalence of groupoids]]
 
 $$
-  Smooth0Type \hookrightarrow Smooth1Type
-  \,.
+  Smooth1Type(X,A)
+  \simeq
+  PreSmooth1Type(Y,A)
 $$
+
+between the [[hom-groupoid]] of smooth groupoids from $X$ to $A$,
+and that of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids},
+from $Y$ to $A$.
+
 
 =--
-
-+-- {: .num_example }
-###### Example
-
-For $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
-
-$$\rho : X \times G \to X
-$$ 
-
-an [[action]] then  the [[action groupoid]]
- 
-$$
-  X // G \in Smooth1Type
-
-$$
-
-$$
-  X // G = 
-  \left(
-    X \times G 
-     \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
-    X
-  \right)
-$$
-
-is a [[smooth groupoid]].
-
-=--
-
-
-
-
-
 
 
 
@@ -1407,6 +1486,7 @@ $$
   (CE(\mathfrak{g}) \stackrel{A}{\longrightarrow} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
   \mapsto
   (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
+
 $$
 
 provides fillers for all [[horns]] over all $U \in $ [[CartSp]].
