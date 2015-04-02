@@ -208,7 +208,7 @@ The topos of smooth spaces has an evident generalization from [[geometry]] to [[
 
 Lecture notes are at
 
-* _[[geometry of physics]] -- [smooth spaces](geometry+of+physics#SmoothSpaces)_ 
+* _[[geometry of physics -- smooth sets]]_
 
 
 The [[concrete objects|concrete]] smooth spaces are known as _[[diffeological spaces]]_. See there for more references.
