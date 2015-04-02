@@ -77,12 +77,12 @@ Of course, in general, $\mathrm{d}\omega$ may not be defined on as many curves a
 If $X$ is a smooth space, so that we have a notion of *smooth curve*, then we say that a cogerm differential 1-form $\omega$ is **smooth** if 
 
 1. $\omega$ is defined on all germs of smooth curves, and
-1. $\mathrm{d}\omega$ is smooth ([[coinductive definition|coinductively]]).
+2. $\mathrm{d}\omega$ is smooth ([[coinductive definition|coinductively]]).
 =--
 
-For example, if $f:X\to \mathbb{R}$ is a [[smooth function]], then it is also a smooth cogerm differential 1-form, and its differentials $\mathrm{d}^n f$ are those mentioned above.  By stopping the coinduction at an appropriate point and requiring only [[continuous function|continuity]], we obtain an analogous definition of $k$-times [[continuously differentiable function]].  (But the obvious definition of [[differentiable function]] without continuity is too weak, even if we require $\mathrm{d}\omega$ to be defined on all differentiable germs, as the classic example of $x y^2/(x^2 + y^2)$ shows.)
+For example, if $f:X\to \mathbb{R}$ is a [[smooth function]], then it is also a smooth cogerm differential 1-form, and its differentials $\mathrm{d}^n f$ are those mentioned above.  By stopping the coinduction at an appropriate point and requiring only [[continuous function|continuity]], we obtain an analogous definition of $k$-times [[continuously differentiable function]] $C^k$; for example, $\omega$ is $C^2$ if $\omega$, $\mathrm{d}\omega$, and $\mathrm{d}^2\omega$ are defined on all smooth curves and the last of these is continuous.  (But the obvious definition of [[differentiable function]] without continuity is too weak, even if we require $\mathrm{d}\omega$ to be defined on all differentiable germs, as the classic example of $x y^2/(x^2 + y^2)$ shows; extended continuously to the origin, this and its differential are defined on all smooth curves, although the differential is not continuous, but this function is not differentiable, which we know because its differential is not linear as a covector form.)
 
-Note that the cogerm differential $\mathrm{d}$ is *not* the same as the exterior differential, except when applied to $0$-forms.  In particular, $\mathrm{d}^2\neq 0$.
+Note that the cogerm differential $\mathrm{d}$ is *not* the same as the exterior differential, except when applied to $0$-forms.  In particular, $\mathrm{d}^2 \neq 0$.
 
 We have the expected multivariable chain rule:
 
@@ -116,7 +116,7 @@ Let $c:[a,b] \to X$ be a curve and $\omega$ a cogerm differential 1-form; we wou
 
 The **naive integral** of $\omega$ over $c$ is defined to be
 
-$$\int_c \omega = \int_{t=a}^b \langle \omega | c_t \rangle dt. $$
+$$\int_c \omega = \int_{t=a}^b \langle \omega | c_t \rangle \mathrm{d}t. $$
 
 if this exists.  If $\omega$ is an exterior differential 1-form, then this agrees with its usual line integral over $c$.
 
@@ -260,7 +260,7 @@ An alternative approach to proving FTC would be to observe that essentially by d
 $$ f(x+\mathrm{d}x) - f(x) - \mathrm{d}f $$
 is $o(dx)$.  Therefore, $\int_c \mathrm{d}f = \int_c (f(x+\mathrm{d}x)-f(x))$ if either exists.  If the latter integral can be calculated using only partitions tagged by their left endpoint, then it is obviously $f(c(b))-f(c(a))$ --- but it is not clear that such partitions suffice.
 
-In the list of examples above, we denoted $f(x+\mathrm{d}x)-f(x)$ by $\Delta f$.  More generally, we might expect that integration of $\Delta f$ (perhaps multiplied by another function $g$) is a sort of [[Riemann-Stieltjes integration]].  However, it is again not clear whether left endpoints suffice.
+In the list of examples above, we denoted $f(x+\mathrm{d}x)-f(x)$ by $\Delta f$.  More generally, we might expect that integration of $\Delta f$ (perhaps multiplied by another function $g$) is a sort of [[Stieltjes integration]].  However, it is again not clear whether left endpoints suffice.
 
 We can, at least, show that the second definition of the [[Dirac delta function]] has its expected properties.  Recall that this was
 $$ \delta =
