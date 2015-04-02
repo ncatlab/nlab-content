@@ -3,7 +3,7 @@
 
 ## related entries
 
-* _[[Grundlage der gesammten Wissenschaftslehre]]_
+* _[[Grundlage der gesamten Wissenschaftslehre]]_
 
 * _[[Grundriss des Eigenthümlichen der Wissenschaftslehre]]_
 
