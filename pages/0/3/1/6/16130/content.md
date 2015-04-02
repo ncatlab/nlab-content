@@ -1,4 +1,4 @@
 
-* [webpage](http://acsweb.ucsd.edu/~jedoughe/) 
+* [webpage](http://www.johnedougherty.com) 
 
 category: people
