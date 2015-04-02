@@ -58,9 +58,15 @@ This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
 
 ## References
 
+The original reference is
+
+* &#201;mile Borel, _Sur quelques points de la th&#233;orie des fonctions_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 12 (1895), 
+p. 9-55 [numdam](http://www.numdam.org/item?id=ASENS_1895_3_12__9_0)
+
 Chapter I of
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
  {#MoerdijkReyes}
 
 [[!redirects Borel theorem]]
+[[!redirects Borel's theorem on power series]]
