@@ -9,11 +9,18 @@ This page collects material related to
 
   ([web archive](https://archive.org/details/grundlagedergesa00fich))
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Grunds&#228;tze der gesammten Wissenschaftslehre
 
 ### &#167;1 Erster, schlechthin unbedingter Grundsatz
+ {#ErsterGrundsatz}
 
 > Das Ich setzt sich selbst, und es ist, verm&#246;ge dieses blo&#223;en Setzens durchs sich selbst; und umgekehrt: Das Ich ist, und es setzt sein Sein, verm&#246;ge seines blo&#223;en Seins. - Es ist zugleich das Handelnde, und das Produkt der Handlung; das T&#228;tige, und das, was durch die T&#228;tigkeit hervorgebracht wird; Handlung, und Tat sind Eins und ebendasselbe; und daher ist das: Ich bin Ausdruck einer Tathandlung.
+
+According to ([Hegel, Science of Logic, &#167;1291b](Science+of+Logic#1291b)) this is closely related to the pure _Notion_ as discussed there.
 
 ### &#167;2 Zweiter, seinem Gehalte nach bedingter Grundsatz
 
