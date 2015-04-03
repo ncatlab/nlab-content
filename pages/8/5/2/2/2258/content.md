@@ -12,6 +12,12 @@
 
 * (with Marie La Palme Reyes and Houman Zolfaghari), _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
+## Related $n$Lab entries
 
+* [[Marie La Palme Reyes]]
+
+* [[Models for Smooth Infinitesimal Analysis]]
+
+* [[syllogism]]
 
 category: people
