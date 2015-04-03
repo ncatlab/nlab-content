@@ -83,6 +83,14 @@ The Freyd cover of a [[topos]] is a [[local topos]], and in fact freely so. Ever
 
 See ([Johnstone, lemma C3.6.4](#Johnstone)).
 
+## Related entries
+
+* [[Artin gluing]]
+
+* [[comma category]]
+
+* [[Sierpinski topos]]
+
 ## References
 
 You can find more on [[Artin gluing]] in this important (and nice) paper:
@@ -104,7 +112,11 @@ Some of the above material is taken from
 
 The argument given above for properties of the free topos is an amplification of
 
-* [[Peter Freyd|Freyd]] and Scedrov, [[Categories, Allegories]], 1.(10)31 (page 192)
+* [[Peter Freyd|P. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.  (1.(10)31, p.192)
+
+For more on the free topos and the first appearance in print of Freyd's observation see
+
+* [[Joachim Lambek|J. Lambek]], P. J. Scott, _Intuitionist Type Theory and the Free Topos_ , JPAA **19** (1980) pp.215-257.
 
 [[!redirects scone]]
 [[!redirects Sierpinski cone]]
