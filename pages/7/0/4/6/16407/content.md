@@ -1,6 +1,6 @@
 ## Definition
 
-A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]]) [[surface]] $X$ in such a way that:
+A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]] without [[boundary]]) [[surface]] $X$ in such a way that:
 
 1. vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
 
@@ -10,9 +10,9 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 Note that the last condition implies that $G$ must be a connected graph (i.e., that there is a path between any pair of vertices).
 
-Topological maps are always considered up to homeomorphism.  In particular, graphs embedded in [[oriented]] surfaces also have a purely combinatorial representation (known as a [[combinatorial map]]) as a pair/triple of permutations, which describe the topological map up to homeomorphism.
+Topological maps are always considered up to homeomorphism, and the **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
 
-The **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
+There are different variations of topological maps, but the most common also requires that the surface $X$ is [[oriented]].  Such maps have an alternative, purely combinatorial representation as a triple (or a pair) of permutations, known as [[combinatorial maps]].
 
 ## Related concepts
 
