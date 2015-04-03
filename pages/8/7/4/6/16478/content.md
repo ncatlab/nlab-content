@@ -1,0 +1,11 @@
+
+
+* [webpage](http://reyes-reyes.com)
+
+## related $n$Lab entries
+
+* [[Gonzalo Reyes]]
+
+* [[syllogism]]
+
+category: people
