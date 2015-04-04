@@ -743,7 +743,7 @@ $$
 
 
 
-So there is a 2-dimensional space of [[isomorphisms]] of [[super Minkowski spacetime]] [[super translation Lie algebras]] 
+So there is in particular the 2-dimensional space of [[isomorphisms]] of [[super Minkowski spacetime]] [[super translation Lie algebras]] 
 
 $$
   \mathbb{R}^{2,1|\mathbf{2}}
