@@ -1,7 +1,7 @@
 
 > This entry is about [[geometry]] based on the study of _[[analytic functions]]_, hence about [[analytic varieties]]. 
 
-> This is unrelated to "analytic geometry" in the sense of methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); which is usually combined with linear algebra taught in a geometric way. For Bassthis latter meaning see at _[[coordinate system]]_.
+> This is unrelated to "analytic geometry" in the sense of methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); which is usually combined with linear algebra taught in a geometric way. For this latter meaning see at _[[coordinate system]]_.
 
 
 +-- {: .rightHandSide}
