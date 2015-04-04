@@ -1361,6 +1361,7 @@ This being abelian just means that there is specified a [[nLab:delooping]] type 
 For the present purpose we will assume in addition that $\mathbb{G}$ is [[nLab:0-truncated]], which makes it simply an [[nLab:abelian group]].
 
 +-- {: .num_defn }
+
 ###### Definition
 
 A _[[nLab:Hodge filtration]]_ is a compatible system of [[nLab:filtrations]] of $\flat \mathbf{B}^2\mathbb{G}$ of the form
@@ -2717,7 +2718,6 @@ Our **paragraph numbering** is as follows:
 | Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
 | das Begr&#252;ndete (vermittelt) | [[succedent]]/[[consequent]] | [&#167;1021](#1021), [&#167;1035](#1035) |
 | entering into existence | [[term introduction]] | [&#167;1033](#1033), [&#167;1035](#1035) |
-| der Mechanismus |  code execution | [&#167;1529b](#1529b), [&#167;1552b](#1552b), [&#167;1572](#1572) | 
 | moment | [[modality]], [[modal operator]] |  |
 | unity of opposites |  [[adjoint modality]] (moment $\dashv$ co-moment) | [Law91](#Lawvere91), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]], [[Unity and Identity of Opposites in Calculus and Physics|Law96]] |
 | unity of opposite unities of opposites | [[adjoint triple]] [[adjoint modality]] $\left(\array{moment &\dashv& comoment \\ \bot && \bot \\ comoment &\dashv& cocomoment }\right)$  |  |
@@ -2765,11 +2765,14 @@ Our **paragraph numbering** is as follows:
 | Matter/([[gauge]]-)Fields | $(&#643; \dashv \flat)$ | [&#167;989](#989), [&#167;1068](#1068)  |
 | $\to$ Ding |   |  [&#167;1048](#1048)  |
 | Substanz   | the whole [[differential cohesion|differential]] [[cohesive (∞,1)-topos]]/[[cohesive homotopy type theory]]   |  [&#167;1235](#1235), [&#167;1238](#1238), [&#167;1281](#1281) |
-| **Idee**       | the [[term model]] of the above [[modal type theory]], in particular the [[true]] [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
-| **Natur**      | [[model]] (representation) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
+| **Objektivit&#228;t des Begriffs** |  |  |
+| der Mechanismus |  code execution | [&#167;1529b](#1529b), [&#167;1552b](#1552b), [&#167;1572](#1572) | 
+| das Gesetz | laws of nature, [[equations of motion]]  |  ([&#167;1572](#1572), [&#167;1575](#1575))  |
+| die Teleologie | [[boundary conditions]] for the laws of nature |  [&#167;1597e](#1597e)  |
+| Idee       | the [[term model]] of the above [[modal type theory]], in particular the [[true]] [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
+| **Natur**      | [[model]] (representation, [[categorical semantics]]) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum-Zeit      | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\Im$-[[modal types]] | [PN&#167;254a](#PN254a) |
 | Licht | [[bosonic modality]] $\rightsquigarrow$ | [PN&#167;276](#PN276) |
-
 | K&#246;rper der Starrheit | [[fermionic modality]] $\e$ | [PN&#167;279](#PN279) |
 | Au&#223;ereinander der Materie | [[unity of opposites]] ($\e \dashv \rightsquigarrow$)   | [PN&#167;290](#PN290)  |
 | opposition of Au&#223;ereinander and Schwere | $\left(\array{ \rho(\e) &\dashv& \rho(\rightsquigarrow) \\ \bot && \bot \\ \rho(\rightsquigarrow) &\dashv& \rho(\,)  }\right)$ | [PN&#167;262c](#PN262c), [PN&#167;290](#PN290) |
@@ -5149,7 +5152,7 @@ see [above](#FormalizationConcepts)
 
 #### Mechanismus
 
-See also ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesMechanism))
+To gaueg the terminology here, see also the discussion of ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesMechanism)) of the _Mechanismus des [[Descartes]]_ via deterministic laws of nature, these appear further below in ([&#167;1572](#1572), [&#167;1575](#1575)) 
 
 > {#1543} &#167;1543 Da die Objektivit&#228;t die in ihre Einheit zur&#252;ckgegangene Totalit&#228;t des Begriffes ist, so ist damit ein Unmittelbares gesetzt, das an und f&#252;r sich jene Totalit&#228;t und auch als solche gesetzt ist, in der aber die negative Einheit des Begriffs sich noch nicht von der Unmittelbarkeit dieser Totalit&#228;t abgeschieden hat; &#8211; oder die Objektivit&#228;t ist noch nicht als Urteil gesetzt. Insofern sie den Begriff immanent in sich hat, so ist der Unterschied desselben an ihr vorhanden; aber um der objektiven Totalit&#228;t willen sind die Unterschiedenen vollst&#228;ndige und selbst&#228;ndige Objekte, die sich daher auch in ihrer Beziehung nur als selbst&#228;ndige zueinander verhalten und sich in jeder Verbindung &#228;u&#223;erlich bleiben. &#8211; Dies macht den Charakter des Mechanismus aus, da&#223;, welche Beziehung zwischen den Verbundenen stattfindet, diese Beziehung ihnen eine fremde ist, welche ihre Natur[409] nichts angeht und, wenn sie auch mit dem Schein eines Eins verkn&#252;pft ist, nichts weiter als Zusammensetzung, Vermischung, Haufen usf. bleibt. Wie der materielle Mechanismus, so besteht auch der geistige darin, da&#223; die im Geiste Bezogenen sich einander und ihm selbst &#228;u&#223;erlich bleiben. Eine mechanische Vorstellungsweise, ein mechanisches Ged&#228;chtnis, die Gewohnheit, eine mechanische Handlungsweise bedeuten, da&#223; die eigent&#252;mliche Durchdringung und Gegenwart des Geistes bei demjenigen fehlt, was er auffa&#223;t oder tut. Obzwar sein theoretischer oder praktischer Mechanismus nicht ohne seine Selbstt&#228;tigkeit, einen Trieb und Bewu&#223;tsein stattfinden kann, so fehlt darin doch die Freiheit der Individualit&#228;t, und weil sie nicht darin erscheint, erscheint solches Tun als ein blo&#223; &#228;u&#223;erliches.
 
@@ -5199,11 +5202,16 @@ mechanism is vorgestellte causality
 
 > &#167;1572 This totality, whose moments are themselves the complete relationships of the Notion, the syllogisms in which each of the three different objects runs through the determination of middle term and of extremes, constitutes free mechanism. In it the different objects have for their basic determination the objective universality, the pervasive gravity that maintains its identity in the particularisation. The relations of pressure, thrust, attraction and the like, as also aggregations or mixtures, belong to the relationship of externality which forms the basis of the third of this group of syllogisms. Order, which is the merely external determinateness of objects, has passed over into the determination that is immanent and objective; this is Law.
 
-i.e. natural law, preconfiguring the physics discussed once the mechanism has further become the Idea and then externalized itself as Nature
+This means that this law is _natural law_, preconfiguring the physics discussed once the mechanism has further become the Idea and then externalized itself as Nature
 
 ###### Das Gesetz
 
->  Diese selbstbestimmende, die &#228;u&#223;erliche Objektivit&#228;t in die Idealit&#228;t absolut zur&#252;ckf&#252;hrende Einheit ist Prinzip von Selbstbewegung; die Bestimmtheit dieses Beseelenden, welche der Unterschied des Begriffes selbst ist, ist das Gesetz.
+> {#1575} &#167;1575 Diese selbstbestimmende, die &#228;u&#223;erliche Objektivit&#228;t in die Idealit&#228;t absolut zur&#252;ckf&#252;hrende Einheit ist Prinzip von Selbstbewegung; die Bestimmtheit dieses Beseelenden, welche der Unterschied des Begriffes selbst ist, ist das Gesetz.
+
+> &#167;1575 This self-determining unity that absolutely reduces external objectivity to ideality is the principle of self-movement the determinateness of this animating principle, which is the difference of the Notion itself, is law. 
+
+This law of the mechanism, is the deterministic physical laws of nature, this is made more explicit below in ([&#167;1597e](#1597e)).
+
 
 ##### Uebergang des Mechanismus
 
@@ -5230,12 +5238,18 @@ i.e. natural law, preconfiguring the physics discussed once the mechanism has fu
 
 [[concrete general]]
 
-> {#1597} &#167;1597 Die Thesis der hier zu betrachtenden lautet: &#187;Die Kausalit&#228;t nach Gesetzen der Natur ist nicht die einzige, aus welcher die Erscheinungen der Welt insgesamt abgeleitet werden k&#246;nnen. Es ist noch eine Kausalit&#228;t durch Freiheit zu Erkl&#228;rung derselben anzunehmen notwendig.&#171;
+> {#1597a} &#167;1597a Die Thesis der hier zu betrachtenden lautet: &#187;Die Kausalit&#228;t nach Gesetzen der Natur ist nicht die einzige, aus welcher die Erscheinungen der Welt insgesamt abgeleitet werden k&#246;nnen. Es ist noch eine Kausalit&#228;t durch Freiheit zu Erkl&#228;rung derselben anzunehmen notwendig.&#171;
 Die Antithesis: &#187;Es ist keine Freiheit, sondern alles in der Welt geschieht lediglich nach Gesetzen der Natur.&#171;
 
-> &#167;1597 The thesis of the antinomy here to be considered runs thus: Causality according to natural laws is not the sole causality from which the phenomena of the world can one and all be derived. For their explanation a causality through freedom must be assumed as well. The antithesis is: There is no freedom, but everything in the world happens solely according to natural laws.
+> &#167;1597a The thesis of the antinomy here to be considered runs thus: Causality according to natural laws is not the sole causality from which the phenomena of the world can one and all be derived. For their explanation a causality through freedom must be assumed as well. The antithesis is: There is no freedom, but everything in the world happens solely according to natural laws.
 
-> Zum Beweise der Thesis soll n&#228;mlich zuerst angenommen werden, es gebe keine andere Kausalit&#228;t als nach Gesetzen der Natur, d. i. nach der Notwendigkeit des Mechanismus[441] &#252;berhaupt, den Chemismus mit eingeschlossen. Dieser Satz widerspreche sich aber darum, weil das Gesetz der Natur gerade darin bestehe, da&#223; ohne hinreichend a priori bestimmte Ursache, welche somit eine absolute Spontaneit&#228;t in sich enthalte, nichts geschehe; &#8211; d.h. die der Thesis entgegengesetzte Annahme ist darum widersprechend, weil sie der Thesis widerspricht.
+> {#1597e} &#167;1597e Zum Beweise der Thesis soll n&#228;mlich zuerst angenommen werden, es gebe keine andere Kausalit&#228;t als nach Gesetzen der Natur, d. i. nach der Notwendigkeit des Mechanismus &#252;berhaupt, den Chemismus mit eingeschlossen. Dieser Satz widerspreche sich aber darum, weil das Gesetz der Natur gerade darin bestehe, da&#223; ohne hinreichend a priori bestimmte Ursache, welche somit eine absolute Spontaneit&#228;t in sich enthalte, nichts geschehe; &#8211; d.h. die der Thesis entgegengesetzte Annahme ist darum widersprechend, weil sie der Thesis widerspricht.
+
+> &#167;1597e Thus in order to prove the thesis we have first to assume that there is no other causality than that according to natural laws, that is, according to the necessity of mechanism in general, including chemism. This proposition w e find to be selfcontradictory, because we take natural law to consist just in this, that nothing happens without a cause sufficiently determined a priori, which cause therefore must contain an absolute spontaneity within itself; that is, the assumption opposed to the thesis is contradictory because it contradicts the thesis.
+
+In modern terminology this is the issue of choice of [[boundary conditions]] for the [[equations of motion]] that are taken as the laws of nature. 
+
+[[David Hilbert]] has famoulsy reflected on the issue of bundary conditions for _Weltgesetze_ (today roughly: [[theory of everything|theories of everything]]) in view of the modern theory of [[gravity]] ([[general relativity]]) and has wondered whether imposing certain canonical boundary conditions (such as periodic boundary conditions in time) would lead to what he called "Hegelian physiscs" where the nature of the world follows from pure thought. This is reproduced in ([Sauer-Majer 09, p. 417, 423](#SauerMajer09))
 
 ##### Der subjektive Zweck
 
@@ -5996,7 +6010,7 @@ An explicit suggestion that "[[type]]" in [[homotopy type theory]] should be rea
 
 Reflections by [[David Hilbert]] on the claim that laws of physics may follow from pure concepts, in view of more modern developments in physics, are reproduced around pages 417, 423 of
 
-* {#SauerMajer} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
+* {#SauerMajer09} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
 
 Further references referred to in the context of the formalization discussed [above])(#FormalizationOfTheProcess) includes
 
