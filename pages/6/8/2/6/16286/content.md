@@ -24,6 +24,8 @@ Evidently, later this attitute widely changed.
 
 Various paragraphs by [[Hegel]] on _speculative philosophy_:
 
+According to the _[[Lectures on the History of Philosophy]]_ ([here ](Lectures+on+the+History+of+Philosophy#DescartesNonSpeculative)) this kind of speculation originates with [[Fichte]].
+
 > [WdL &#167;3](Science+of+Logic#3) Indem so die Wissenschaft und der gemeine Menschenverstand sich in die H&#228;nde arbeiteten, den Untergang der Metaphysik zu bewirken, so schien das sonderbare Schauspiel herbeigef&#252;hrt zu werden, ein gebildetes Volk ohne Metaphysik zu sehen, &#8211; wie einen sonst mannigfaltig ausgeschm&#252;ckten Tempel ohne Allerheiligstes. &#8211; Die Theologie, welche in fr&#252;heren Zeiten die Bewahrerin der spekulativen Mysterien und der obzwar abh&#228;ngigen Metaphysik war, hatte diese Wissenschaft gegen Gef&#252;hle, gegen das Praktisch-Popul&#228;re und gelehrte Historische aufgegeben.
 
 > Science and ordinary common sense thus co-operating to bring about the downfall of metaphysics, there was seen the strange spectacle of a cultured nation without metaphysics &#8211; like a temple richly ornamented in other respects but without a holy of holies. Theology, which in former times was the guardian of the speculative mysteries and of metaphysics (although this was subordinate to it) had given up this science in exchange for feelings, for what was popularly matter-of-fact, and for historical erudition.
@@ -54,4 +56,3 @@ In [Hegel, Lectures on Religion](#HegelLectures):
 [[!redirects speculations]]
 
 [[!redirects speculative philosophy]]
-
