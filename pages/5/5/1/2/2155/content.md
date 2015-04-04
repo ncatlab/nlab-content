@@ -135,6 +135,8 @@ In [[complex geometry]] for purposes of [[Cech cohomology]] the role of Cartesia
 
 ## References
 
+Named after [[René Descartes]].
+
 * [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
 {#Stallings}
 
