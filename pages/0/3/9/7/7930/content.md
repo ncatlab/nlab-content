@@ -189,7 +189,7 @@ These appear notably in the following applications:
 
 * for $p = 1$ symmetric bilinear $Spin(V)$-[[homomorphisms]] $\Gamma \;\colon\; S \otimes S \longrightarrow V$ constitutes the odd-odd [[Lie bracket]] in a [[super Poincaré Lie algebra]] [[Lie algebra extension|extension]] of the a [[Poincaré Lie algebra]] by $S$.
 
-* for $p=2$ these homomorphisms appeare as the odd-odd bracket in a [[superconformal]] super Lie algebra;
+* for $p=2$ symmetric bilineat spin pairings appear as the odd-odd bracket in a [[superconformal]] super Lie algebra;
 
 * for $p \geq 2$ higher spin bilinears $S \otimes S \longrightarrow \wedge^p V$ appear in further [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions).
 
@@ -429,6 +429,11 @@ See for instance ([Freed 99, p. 53](#Freed)).
 
 Similarly in dimensions 5,6 and 7 mod 8, the minimal real representation is obatained from tensoring the complex spinors with the complex 2-dimensional canonical quaternionic representation $W$ (as in the [above table](#RealIrreducibleSpinRepresentationInLorentzSignature)). These are also called _symplectic Majorana_ representations. For instance in in 6d one typically speaks of the [[6d (2,0)-superconformal QFT]] to refer to that with a single "symplectic Majorana-Weyl" supersymmetry (e.g. [Figueroa-OFarrill, p. 9](#FigueroaOFarrill)), which might therefore be counted as $(1,0)$ real supersymmetric, but which involves two complex irreps and is hence often denoted counted as $(2,0)$.
 
+#### $p = 2$ -- superconformal bracket
+
+For the moment see at _[supersymmetry -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_.
+
+
 ### Expression of real representations via real normed division algebras
  {#ExpressionInTermsOfNormedDivisionAlgebras}
 
@@ -527,7 +532,7 @@ Under restriction along $Spin(n+1,1) \hookrightarrow Cl(n+1,1)$ this is isomorph
 (e.g. [Baez-Huerta 09, p. 6](#BaezHuerta09))
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
 ###### Proposition
 
 Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebra} the bilinear pairings 
@@ -582,6 +587,200 @@ $$
 =--
 
 (e.g. [Baez-Huerta 09, prop. 8, prop. 9](#BaezHuerta09)).
+
+
++-- {: .num_example #RealSpinorRepsIn3d}
+###### Example
+
+Consider the case $\mathbb{K} = \mathbb{R}$ of [[real numbers]]. 
+
+Now $V= Mat_{2\times 2}(\mathbb{R})^{symm}$ is the space of symmetric 2x2-matrices with real numbers. 
+
+$$
+  V = 
+  \left\{
+  \left.
+  \left(
+    \array{
+      t + x & y
+      \\
+      y & t - x
+    }
+  \right)
+  \right\vert
+   t,x,y\in \mathbb{R}
+  \right\}
+$$
+
+
+The "light-cone"-[[basis]] for this space would be
+
+$$
+  \left\{
+  v^+
+  \coloneqq
+  \left(
+     \array{
+        1 & 0
+        \\
+         0 & 0
+     }
+  \right)
+  \,,
+  \;
+  v^-
+  \coloneqq
+  \left(
+     \array{
+        0 & 0
+        \\
+         0 & 1
+     }
+  \right)
+  \,,
+  \;
+  v^y
+  \coloneqq
+  \left(
+     \array{
+        0 & 1
+        \\
+        1 & 0
+     }
+  \right)
+  \right\}
+$$
+
+Its trace reversal is
+
+$$
+  \left\{
+  \tilde{v}^+
+  \coloneqq
+  \left(
+     \array{
+        0 & 0
+        \\
+         0 & -1
+     }
+  \right)
+  \,,
+  \;
+  \tilde v^-
+  \coloneqq
+  \left(
+     \array{
+        -1 & 0
+        \\
+         0 & 0
+     }
+  \right)
+  \,,
+  \;
+  \tilde v^y
+  \coloneqq
+  \left(
+     \array{
+        0 & 1
+        \\
+        1 & 0
+     }
+  \right)
+  \right\}
+$$
+
+
+As vector spaces $S_{\pm} = \mathbb{R}^2$.
+
+The bilinear spinor pairing $\overline{(-)}(-) \colon S_+ \otimes S_- \to \mathbb{R}$ is given by
+
+$$
+  \begin{aligned}
+     \overline{\psi}\phi  
+     &= \psi^t \cdot \phi
+     \\
+     & = \psi_1  \phi_1 + \psi_2 \phi_2
+  \end{aligned}
+  \,.
+$$
+
+The spinor pairing $S_+ \otimes S_+ \otimes V^\ast \to \mathbb{R}$
+from prop. \ref{RealSpinorPairingsViaDivisionAlg} is given on an $A = A_+ v^+ + A_- v^- + A_y v^y $ ($A_+, A_-, A_y \in \mathbb{R}$) 
+by
+
+$$
+  \begin{aligned}
+    \eta(\overline{\psi}\Gamma\phi,v)
+    &=
+    \psi^t \cdot A \cdot \phi
+    \\
+    & = 
+    \psi_1 \phi_1 A_+
+    + 
+    \psi_2 \phi_2 A_-
+    +
+    (\psi_1 \phi_2 + \psi_2 \phi_1) A_y
+  \end{aligned}
+$$
+
+and $S_- \otimes S_- \otimes V^\ast \to \mathbb{R}$ is given by
+
+$$
+  \begin{aligned}
+    \eta(\overline{\psi}\Gamma\phi,A)
+    &=
+    \psi^t \cdot \tilde A \cdot \phi
+    \\
+    &= 
+    -\psi_1 \phi_1 A_+
+    - 
+    \psi_2 \phi_2 A_-
+    +
+    (\psi_1 \phi_2 + \psi_2 \phi_1) A_y    
+  \end{aligned}
+  \,.
+$$
+
+
+
+So there is a 2-dimensional space of [[isomorphisms]] of [[super Minkowski spacetime]] [[super translation Lie algebras]] 
+
+$$
+  \mathbb{R}^{2,1|\mathbf{2}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{2,1|\bar\mathbf{2}}
+$$
+
+(not though of the corresponding [[super Poincaré Lie algebras]], because for them the difference in the Spin-representation does matter) spanned by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (\theta_1, -\theta_2, -\vec e)
+$$
+
+and by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (-\theta_1, \theta_2, -\vec e)
+  \,.
+$$
+
+Hence there is a 1-dimensional space of non-trivial [[automorphism]]
+
+$$
+  \mathbb{R}^{2,1|\mathbf{2}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{2,1|\mathbf{2}}
+$$
+
+spanned by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (-\theta_1, -\theta_2, \vec e)
+  \,.
+$$
+
+
+=--
 
 
 #### In dimensions 4,5,7,11
