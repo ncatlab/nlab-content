@@ -42,5 +42,6 @@ The [[higher geometry]] version of [[complex analytic geometry]], for instance (
 
   talk notes on how _[[cohesion]]_ is a faithful axiomatization of generalized [[differential cohomology hexagon|differential cohomology]] including differential [[nLab:moduli stack]] constructions such as that of  [[nLab:intermediate Jacobians]] in higher complex analytic geometry.
 
+* [[Mauro Porta]], [[Tony Yue Yu]], _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
 
 [[!redirects complex analytic higher geometry]]
