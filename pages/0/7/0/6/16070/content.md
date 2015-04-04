@@ -20,3 +20,5 @@
 * [[Timo Schuerg]], _Deformation theory of commutative algebras_, lecture notes by Gregor Bruns, Humboldt Universitaet zu Berlin, 2013, [[schuergdeformation.pdf:file]].
 
 * [[Dennis Gaitsgory]], _Lie theory from the point of view of derived algebraic geometry_, Lecture notes from a mini-course, Nantes, 2014, [web](http://www.math.harvard.edu/~gaitsgde/Nantes14/).
+
+* [[Mauro Porta]], _Derived formal moduli problems_, master thesis, [pdf](http://algant.eu/documents/theses/porta.pdf).
