@@ -153,69 +153,155 @@ All this appears below in three stages,
 
 ##### Judgement
 
-If $X$ is a concept, a type, then a [[nLab:judgement]]
+**All $B$ is $A$**
+
+If $C$ is a concept, a type, then a [[nLab:judgement]]
 
 $$
-  x \colon X
+  c \colon C
 $$ 
 
-says that $x$ is an instance of the concept $X$, or that $x$ is a [[nLab:term]] of type $X$.
+says that $c$ is an instance of the concept $C$, or that $c$ is a [[nLab:term]] of type $C$.
 
-Given concepts/types $X$ and $X$ there is the concept of maps between them, the [[function type]] $X\to Y$. The judgement that there is a [[function]]
+Given concepts/types $A$ and $B$ there is the concept of maps between them, the [[nLab:function type]] $B\to A$. The judgement that there is a [[nLab:function]]
 
 $$
-  A \colon X \longrightarrow Y
+  f \colon B \longrightarrow A
 $$ 
 
-says that $A$ takes instances/terms of $X$ to instances/terms of $Y$. At least if this is a [[nLab:monomorphism]] $A \colon X \hookrightarrow Y$ (so that the corresponding $y\colon Y \dashv A^{-1}(y)$ is a [[proposition]]) then this says in words that $A$ wittnesses the fact that
+says that $f$ takes instances/terms of $B$ to instances/terms of $A$. At least if this is a [[nLab:monomorphism]] $f \colon B \hookrightarrow A$ (so that the corresponding $a\colon A \dashv f^{-1}(a)$ is a [[nLab:proposition]]) then this says in words that $f$ wittnesses the fact that
 
-> All instances of $X$ are instances of $Y$.
+> All instances of $B$ are instances of $A$.
 
 or for short just
 
-> All $X$ are $Y$.
+> All $B$ are $A$
 
-There is the [[nLab:unit type]] $\ast$ of which there is a unique instance. As a concept, this may be regarded as the concept of pure being: since any two instance of the concept just purely are, there is no distinction and hence there is a unique instance.
+hence that if $A$ is das **A**llgemeine (universal) concept then $B$ is das **B**esondere (particular).
 
-Hence a function of the form $I \colon \ast \longrightarrow X$ is equivalently an instance/term $x$ of $X$. In words this says that
+Notice that the choice of $f$ here is an important part of the formalization which is missing in Aristotle's informal logic and this causing ambiguity there.
 
-> Some $x$ is an instance of $X$.
+For instance all [[nLab:natural numbers]] are [[nLab:real numbers]], but there are many inequivalent [[nLab:subgroup]] inclusions $\mathbb{Z}\hookrightarrow \mathbb{R}$ realizing this. For the purposes of [[nLab:prequantum field theory]] these choices correspond to the choice of [[nLab:Planck's constant]].
+
+**Individual $E$ is $B$**
+
+There is the [[nLab:unit type]] 
+
+$$
+  E = \ast
+$$ 
+
+of which there is a unique instance, das **E**inzelne (individual). As a concept, this may be regarded as the concept of pure being: since any two instances of the concept $E$ just purely are, there is no distinction and hence there is a unique instance.
+
+Hence a function of the form $E \longrightarrow B$ is equivalently an instance/term $b$ of $B$. In words this says that
+
+> The individual $b$ is an instance of the general concept $A$.
 
 of for short just
 
-> Some $x$ is $X$.
+> Individual $b$ is $B$.
 
-##### Deduction
+**Some $B_1$ is $B_2$**
 
-Functions may be [[nLab:composition|composed]]. Given $I \colon \ast \to X$ and $A \colon X \to Y$, their composite is a function $A I \colon \ast \to B$. In type theory this is an example of [[nLab:natural deduction]] ([[cut elimination]]), in words this is a [[nLab:syllogism]]
+In order to formalize judgements of [[nLab:intersection]] of concepts of the form
 
-> All $X$ are $Y$.
+> Some $B_1$ is $B_2$.
 
-> Some $x$ is $X$.
+it is necessary to specify a [[nLab:context]]. Regard both $B_1$ and $B_2$ as [[nLab:dependent types]] witnessed by [[nLab:display maps]]
 
-See also ([LaPalmeReyes-Macnamara-Reyes 94, 2.3](#PalmeReyesMacnamaraReyes94)).
+$f_i \colon B_i \longrightarrow A$
 
-Hence
+to a common context $A$. Then the [[nLab:product type]] in context, hence, in the [[nLab:categorical semantics]], the [[nLab:homotopy fiber product]]
 
-> Some $x$ is $Y$. 
+$$
+  B_1 \underset{A}{\times} B_2 
+$$
 
-In summary:
+is the type which represents the [[nLab:judgement]] that some instances of $B_1$ are instances of $B_2$ in the context of $A$.
 
-| [[nLab:Aristotle's logic]] | [[nLab:type theory]] |
-|----------------------------|----------------------|
-| concept $X$                | [[type]] $X$ |
-| judgement                  | [[judgement]] $t \colon T$ |
-| All $X$ are $Y$.           | $A \colon X \hookrightarrow Y $. |
-| Some $x$ is $X$.           | $I \colon \ast \to X$. |
-| [[nLab:syllogism]]         | [[nLab:natural deduction]] |
-| Some $x$ are $Y$.          | $ A I \colon \ast \to X$. |
+In summary we have:
 
-Notice that the single [[introduction rule]] for [[identity types]] gives for all $X$ the statement
+| [[nLab:Aristotle's logic]] | [[nLab:type theory]] |   |
+|----------------------------|----------------------|---|
+| concept $C$                |  $C$                 |  [[nLab:type]] |
+| judgement                  |  $c \colon C$ | typing [[nLab:judgement]] | 
+| All $B$ are $A$.           | $f \colon B \hookrightarrow A $ | [[nLab:function type]] |
+| Some $B_1$ is $B_2$.       | $B_1 \underset{A}{\times} B_2$ | [[nLab:product type]] |
+| Individual $E$ is $B$.     | $e \colon E \to B$. | [[nLab:unit type]]/[[nLab:global element]] |
+| [[nLab:syllogism]]         | [[nLab:natural deduction]] |  |
+
+
+Hence a judgement in Aristotle's logic we may read as the informal version of a type-construction plus a judgement in type theory.
+
+(...)
+
+
+
++-- {: .num_remark}
+###### Remark
+
+The single [[nLab:introduction rule]] for [[nLab:identity types]] gives for all $X$ the statement
 
 $$
   r_X \colon X = X
   \,.
 $$
+
+=--
+
+
+##### Deduction
+
+Functions may be [[nLab:composition|composed]]. Given $b \colon E \to B$ and $f \colon B \to A$, then their composite is a function $f e \colon E \to A$. In type theory this is an example of [[nLab:natural deduction]] ([[nLab:cut elimination]]), in words this is a [[nLab:syllogism]]
+
+> All $B$ are $A$.
+
+> Individual $E$ is $B$.
+
+See also ([LaPalmeReyes-Macnamara-Reyes 94, 2.3](#PalmeReyesMacnamaraReyes94)).
+
+Hence
+
+> Individual $E$ is $A$. 
+
+
+
+Of course type theory is a much more refined formalization of subjective logic, and much traditional discussion in Aristotle's logic is suffering from ambiguity arising from imprecision. But the above shows that a concept of type (hence a _Begriff des Begriffes_) and of functions between types is the core _intention_ of Aristotle's logic.
+
+Some imprecision of Aristotle's logic are already made manifest fixed by the above: the choice of $f$ says precisely _how_ all $B$ are $A$. There may be different such ways. 
+
+
+In homotopy type theory this is asking for the [[nLab:homotopy fibers]] of $f$.
+
++-- {: .num_remark #HomotopyFibersAsDeductions}
+###### Remark
+
+In the [[nLab:categorical semantics]] of [[nLab:(infinity,1)-topos theory|homotopy toposes]], such maps between objects are equivalently [[nLab:cocycles]] on $B$ in [[nLab:nonabelian cohomology]] with [[nLab:coefficients]] in $A$. 
+
+Specifically if $A$ here is [[nLab:pointed object|pointed]] and [[nLab:n-connected object in an (infinity,1)-topos|connected]], then it is equivalently the [[nLab:delooping]] $\mathbf{B}G$ of its [[nLab:infinity-group]] of [[nLab:loop space object|loops]]
+
+$$
+  G \simeq \Omega \mathbf{B}G
+$$
+
+and then one speaks of cohomology with coefficients in $G$. In this case the [[nLab:homotopy fiber]] of $f$ is the $G$-[[nLab:principal infinity-bundle]] $P \to B$ classified by $f$, fitting into the [[nLab:homotopy pullback]] square.
+
+$$
+  \array{
+    P &\longrightarrow& E
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\stackrel{f}{\longrightarrow} & A
+  }
+$$
+
+In [[nLab:homotopy type theory]] a judgement $p \colon P$ is the judgement that 
+
+> Some $B$ are $E$ among $A$.
+
+=--
+
 
 
 #### The method (absolute Idea)
@@ -268,16 +354,16 @@ Further, it makes sense to refer to moments $\Box,\;\bigcirc$ also as _[[nLab:mo
 +-- {: .num_prop #bigcircpureObjectsAreEMObjects}
 ###### Proposition
 
-The category $\mathbf{H}_{\bigcirc}$ is equivalently the [[Eilenberg-Moore category]] of $\bigcirc$. 
+The category $\mathbf{H}_{\bigcirc}$ is equivalently the [[nLab:Eilenberg-Moore category]] of $\bigcirc$. 
 
 =--
 
-This is a standard fact in [[category theory]], see at _[idempotent monad -- Algebras]( idempotent+monad#AlgebrasForAnIdempotentMonad)_. 
+This is a standard fact in [[nLab:category theory]], see at _[idempotent monad -- Algebras]( idempotent+monad#AlgebrasForAnIdempotentMonad)_. 
 
 +-- {: .num_remark #PurityForNonIdempotent}
 ###### Remark
 
-Prop. \ref{bigcircpureObjectsAreEMObjects} means that we may naturally make sense of "pure qualtity" also for ([[comonad|co-]])[[monads]] that are not [[idempotent monad|idempotent]], the pure types should be taken to be the "[[algebras over a monad|algebras]]" over the monad. 
+Prop. \ref{bigcircpureObjectsAreEMObjects} means that we may naturally make sense of "pure qualtity" also for ([[nLab:comonad|co-]])[[nLab:monads]] that are not [[nLab:idempotent monad|idempotent]], the pure types should be taken to be the "[[nLab:algebras over a monad|algebras]]" over the monad. 
 
 =--
 
@@ -758,7 +844,7 @@ $$
 
 From this perspective it seems as if alternatively $(\id \dashv \id)$ could be referred to as the initial opposition.
 
-Notice for completeness that the negative \ref{#NegativeMoment} of $\emptyset$ is the [[maybe monad]]. (This is however not a moment in the sense of def. \ref{Moments} since it is not [[idempotent monad|idempotent]].)
+Notice for completeness that the negative \ref{#NegativeMoment} of $\emptyset$ is the [[nLab:maybe monad]]. (This is however not a moment in the sense of def. \ref{Moments} since it is not [[nLab:idempotent monad|idempotent]].)
 
 
 
@@ -1328,7 +1414,7 @@ We conclude the process at this point. One may explore it further by continuing 
 
 #### Objectivity
 
-Given a concept logic as above, we are led to consider [[correspondences]]
+Given a concept logic as above, we are led to consider [[nLab:correspondences]]
 of concepts
 
 $$
@@ -1342,18 +1428,18 @@ $$
   \,.
 $$
 
-The encode _processes_, a fact that is familiar in traditional theory from the concept of [[Lagrangian correspondences]]:
+The encode _processes_, a fact that is familiar in traditional theory from the concept of [[nLab:Lagrangian correspondences]]:
 
 every instance/term $y\colo Y$ may be thought of as a process under which $i(y) \colon X_1$ turns into $o(y) \colon X_2$.
 
-Developing this basic idea further, one obtains formalization of [[classical mechanics]] (in fact [[prequantum field theory]]) and [[quantum mechanics]].
+Developing this basic idea further, one obtains formalization of [[nLab:classical mechanics]] (in fact [[nLab:prequantum field theory]]) and [[nLab:quantum mechanics]].
 
 ##### Classical mechanics (Mechanism)
 
 
 For details see at 
 
-* _[[prequantized Lagrangian correspondence]]_
+* _[[nLab:prequantized Lagrangian correspondence]]_
 
 * _[[schreiber:Classical mechanics via Cohesive homotopy types]]_.
 
@@ -1377,7 +1463,7 @@ $$
 
 ##### Quantum mechanics ((quantum-)Chemism)
 
-Recall from remark \ref{AspectsOfTheInitialOpposition} that the initial opposition gave rise also to the [[maybe monad]], as the negative of the empty moment: $\overline{\empty} = maybe$.
+Recall from remark \ref{AspectsOfTheInitialOpposition} that the initial opposition gave rise also to the [[nLab:maybe monad]], as the negative of the empty moment: $\overline{\empty} = maybe$.
 
 > The negative of $\id$ is $\ast$.
 
@@ -1386,15 +1472,15 @@ Recall from remark \ref{AspectsOfTheInitialOpposition} that the initial oppositi
 > The negative of $\empty$ is $maybe$.
 
 
-While $maybe$ is not [[idempotent monad|idempotent]], by remark \ref{PurityForNonIdempotent} we may still ask for the types which are pure with respect to it in that they they are objects in its [[Eilenberg-Moore category]]. These are precisely the [[pointed objects|pointed types]].
+While $maybe$ is not [[nLab:idempotent monad|idempotent]], by remark \ref{PurityForNonIdempotent} we may still ask for the types which are pure with respect to it in that they they are objects in its [[nLab:Eilenberg-Moore category]]. These are precisely the [[nLab:pointed objects|pointed types]].
 
-On pointed types the [[smash product]] yields a [[symmetric monoidal category|symmetric monoidal]] structure which is not [[Cartesian monoidal category|Cartesian]], and we enter the realm of [[linear type theory]] in the generality of [[dependent linear type theory]]. As discussed there, [[dependent sum]] and [[dependent product]] here now naturally yield the concept of [[secondary integral transforms]], across [[correspondences]], which in view of the above interpretation of correspondences as spaces of [[trajectories]] are really [[path integrals]]. Developing this one finds that correspondences in linear homotopy type theory give rise to formalization of [[quantization]] and [[quantum mechanics]].
+On pointed types the [[nLab:smash product]] yields a [[nLab:symmetric monoidal category|symmetric monoidal]] structure which is not [[nLab:Cartesian monoidal category|Cartesian]], and we enter the realm of [[nLab:linear type theory]] in the generality of [[nLab:dependent linear type theory]]. As discussed there, [[nLab:dependent sum]] and [[nLab:dependent product]] here now naturally yield the concept of [[nLab:secondary integral transforms]], across [[nLab:correspondences]], which in view of the above interpretation of correspondences as spaces of [[nLab:trajectories]] are really [[nLab:path integrals]]. Developing this one finds that correspondences in linear homotopy type theory give rise to formalization of [[nLab:quantization]] and [[nLab:quantum mechanics]].
 
 For details see at _[[schreiber:Quantization via Linear homotopy types]]_.
 
 ##### Boundary conditions (Teleology)
 
-In this context a [[boundary condition]] is given by a ([[prequantized Lagrangian correspondence|prequantized]]) [[correspondence]] which on one end is just the [[unti type]]
+In this context a [[nLab:boundary condition]] is given by a ([[nLab:prequantized Lagrangian correspondence|prequantized]]) [[nLab:correspondence]] which on one end is just the [[nLab:unit type]]
 
 $$
   \array{
@@ -1409,7 +1495,7 @@ $$
 
 For more on this see at
 
-* _[[schreiber:master thesis Nuiten:Cohomological quantization of local prequantum boundary field theory]]_
+* _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_
 
 * _[[schreiber:Local prequantum field theory]]_
 
@@ -2416,9 +2502,9 @@ into the [[nLab:formal dual]] of the [[nLab:algebra of dual numbers]].
 
 We discuss now how in the externalization of the theory given by theorem \ref{SupergeometryIsModel} there naturally appears [[nLab:spacetime]] from [the idea](#TheIdea).
 
-Recall that in addition to the progressive system of moments itself, the idea contains, by prop. \ref{DeterminateNegationsRealized}, two god-given types:
+The progressive system of moments above, yields, by prop. \ref{DeterminateNegationsRealized}, two god-given objects:
 
-| [[nLab:real line]] | [[nLab:odd line]] |
+| [[nLab:real line]] | [[nLab:superpoint]] |
 |---|---|
 | $\mathbb{R} = \mathbb{R}^{1\vert 0}$ | $\mathbb{R}^{0\vert 1}$ |
 | $&#643; \simeq loc_{\mathbb{R}}$ | $\rightrightarrows \simeq loc_{\mathbb{R}^{0\vert 1}}$ |
@@ -2426,39 +2512,20 @@ Recall that in addition to the progressive system of moments itself, the idea co
 
 Both have familiar structure of an [[nLab:abelian group]] object, $\mathbb{R}$ being the [[nLab:additive group]], hence there are arbitrary [[nLab:deloopings]] $\mathbf{B}^n \mathbb{R}^{0|1}$ and $\mathbf{B}^{n}\mathbb{R}$.
 
-We may form the [[nLab:Cartesian products]]
+Given two types, there are the [[nLab:judgements]] in which these appear as 
+subject and as predicate. By remark \ref{HomotopyFibersAsDeductions} any such judgement in turn leads to the deduction of the object which is the homotopy fibers of the corresponding maps. From these one obtains further judgements, then further objects, and so forth. This way a "bouquet" of objects is induced from the initial ones. 
 
+We now discuss how this bouquet first of all yields [[nLab:super Minkowski spacetime]] and then further the [[nLab:extended super Minkowski spacetimes]] arising from [[nLab:super p-brane]] condensates ([FSS](#FSS)).
 
-$$
-  \mathbb{R}^p = (\mathbb{R})^{\times_p}
-  \;\;\;\;\;\;
-  \mathbb{R}^{0|q} = (\mathbb{R}^{0|1})^{\times_q}
-  \;.
-$$
-
-
-Given just this data, the main structure that it induces is the collection of maps
-
-
-$$
-  \mathbf{B}\mathbb{R}^{0|q}
-  \longrightarrow
-  \mathbf{B}^n \mathbb{R}^p
-  \,.
-$$
-
-These are degree-$n$ [[nLab:cocycles]] in [[nLab:group cohomology]], and they induce [[nLab:∞-group extensions]] and then ever higher extensions, much like in a [[nLab:Whitehead tower]]. This way a _bouquet_ of objects emanates from these given two.
-
-We now analyse these _bouquets_ ([FSS](#FSS)) and find [[nLab:super Minkowski spacetimes]] with [[nLab:super p-branes]] propagating on them.
 
 ###### Minkowski spacetime
 
-Consider now first the smallest [[nLab:superpoint]] $\mathbb{R}^{0|1}$.
+Consider first the [[nLab:superpoint]] $\mathbb{R}^{0|1}$.
 
 +-- {: .num_remark}
 ###### Remark
 
-This is the unique 0-truncated object whose quality is
+This is the unique 0-truncated object which is
 
 1. purely negative to bosonic moment;
 
@@ -2477,11 +2544,24 @@ $$
 
 =--
 
+Since $\mathbb{R}^{0|1}$ (and the other objects obtained in a moment) are contractible as [[nLab:super Lie groups]], we may conveniently discuss them as [[nLab:super Lie algebras]].
+Regarding $\mathbb{R}^{0\vert 1}$ as a [[nLab:super Lie algebra]], then its [[nLab:Chevalley-Eilenberg algebra]] is freely generated from a $(1,odd)$-bigraded element $d\theta$
+
+$$
+  CE(\mathbb{R}^{0\vert 1})
+  =
+  \left(
+    \wedge^\bullet \langle d\theta \rangle, d_{CE} = 0
+  \right)
+  \,.
+$$
 
 It is evident that
 
 +-- {: .num_prop}
 ###### Proposition
+
+The second [[nLab:super Lie algebra|super]] [[nLab:Lie algebra cohomology]] of $\mathbb{R}^{0\vert 1}$ is
 
 $$
   H^{2}(\mathbb{R}^{0\vert 1}, \mathbb{R})
@@ -2489,15 +2569,15 @@ $$
   \mathbb{R}
 $$
 
-represented by the 
-2-cocycles of the form
+represented by the  2-cocycles of the form
 
 $$
   d\theta\wedge d\theta
   \in CE(\mathbb{R}^{0\vert 1})
+  \,.
 $$ 
 
-The [[nLab:infinity-group extension|extension]]
+The [[nLab:Lie algebra extension]]
 
 $$
   \array{
@@ -2518,15 +2598,14 @@ classified by this is the [[nLab:super translation group]] in 1-dimension.
 This is the [[nLab:worldline]] of the [[nLab:superparticle]].
 
 
-
 There are no further non-trivial cocycles here giving further extensions.
 
 
-Next consider
+Hence next consider the [[nLab:Cartesian product]] of the initial superpoint with itself.
 
 $$
   \mathbb{R}^{0|2}
-  = 
+  =
   \mathbb{R}^{0|1}\times \mathbb{R}^{0|1}
   \,.
 $$
@@ -2534,7 +2613,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is still purely negative to bosonic quality in that 
+This is still purely of negative bosonic moment in that 
 $e(\mathbb{R}^{0|2}) \simeq \mathbb{R}^{0|2}$, but it is no longer has purely no moment opposed to bosonic moment (witnessing that the fermionic opposition is not complete, lemma \ref{CompletenessOfOppositionsInSuperFormalSmoothTypes}), instead
 
 $$
@@ -2551,6 +2630,7 @@ is the first-order [[nLab:infinitesimal interval]] (the [[nLab:formal dual]] of 
 +-- {: .num_pro}
 ###### Proposition
 
+The second [[nLab:super Lie algebra|super]] [[nLab:Lie algebra cohomology]] of $\mathbb{R}^{0\vert 2}$ is
 
 $$
   H^2(\mathbb{R}^{0\vert 2}, \mathbb{R})
@@ -2562,12 +2642,15 @@ represented by the cocycles of the form
 
 $$
   a_{11}
+  \,
   d\theta_1 \wedge d\theta_1
    +
   a_{22}
+  \,
   d\theta_2 \wedge d\theta_2
   +
   a_{12}
+  \,
   d\theta_1 \wedge d\theta_2
   \,.
 $$
@@ -2593,8 +2676,9 @@ is 3-dimensional [[nLab:super Minkowski spacetime]].
 +-- {: .proof}
 ###### Proof
 
-By inspection of the Majorana spin representations 
-in dimension 3(see [here](http://ncatlab.org/nlab/show/spin%20representation#InTermsOfNormedDivisionAlgebraInDimension3To10)).
+This follows by inspection of the real [[nLab:spin representations]]
+in dimension 3, see the details spelled out at 
+_[spin representation -- via division algebras -- Example d=3](http://ncatlab.org/nlab/show/spin%20representation#RealSpinorRepsIn3d)_).
 
 =--
 
@@ -2624,17 +2708,68 @@ $$
 
 =--
 
-Next we have the [[nLab:fiber product]]
++-- {: .num_prop}
+###### Proposition
+
+The joint [[nLab:stabilizer]] of $GL(\mathbb{R}^{2,1\vert 2})$
+of the Lie bracket and the 3-cocycle is the [[nLab:spin group]] $Spin(2,1)$,
+the [[nLab:double cover]] of the [[nLab:Lorentz group]] $SO(2,1)$.
+
+There are two inequivalent ways to embed $Spin(2,1) \to GL(\mathbb{R}^{2,1\vert 2})$.
+We write $\mathbb{R}^{2,1\vert \mathbf{2}}$ and 
+$\mathbb{R}^{2,1\vert \overline{\mathbf{2}}}$ to distinuish 
+3d super Minkowski spacetime equipped with these two actions.
+
+=--
+
+This is one special case of a more general statement which we come to as prop. \ref{StabilizerOfSupersymmetryJointWith3Cocycle} below.
+
+Consider then $\mathbb{R}^{2,1\vert 4}$
 
 $$
-  \mathbb{R}^{3,1\vert \mathbf{2} +\overline{\mathbf{2}} }
-  \simeq
-  \mathbb{R}^{2,1\vert \mathbf{2}} 
-    \underset{\mathbb{R}^3}{\times}
-  \mathbb{R}^{2,1\vert \overline{\mathbf{2}}}
+  \array{
+    && \mathbb{R}^{2,1\vert 4}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbb{R}^{2,1|2} && && \mathbb{R}^{2,1\vert 2}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B} \mathbb{R}^3
+  }
+  \,.
 $$
 
-This is 4d $N=(1,1)$ [[nLab:super Minkowski spacetime]].
++-- {: .num_prop}
+###### Proposition
+
+There is a 1-dimensional space of $Spin(2,1)$-invariant 2-cocycles
+on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}}$.
+The [[nLab:Lie algebra extension]] classified by that 
+is 4d [[nLab:super Minkowski spacetime]]
+
+$$
+  \array{
+    \mathbb{R}^{3,1\vert 4} 
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{2,1\vert \mathbf{2}+\overline{\mathbf{2}}}
+    &\longrightarrow&
+    \mathbf{B}\mathbb{R}
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By inspection of the real [[nLab:spin representations]] in dimension 4.
+
+=--
+
 
 Now the old [[nLab:brane scan]] gives:
 
@@ -2642,7 +2777,7 @@ Now the old [[nLab:brane scan]] gives:
 ###### Proposition
 
 $$
-  H^4(\mathbb{R}^{3,1\vert \mathbf{2}}) = \mathbb{R}
+  H^4(\mathbb{R}^{3,1\vert \mathbf{4}}) = \mathbb{R}
 $$
 
 represented by the 4-cocycle which, as a [[nLab:left invariant differential form|left invariant]] [[nLab:super differential form]] on $\mathbb{R}^{3,1\vert \mathbf{2}}$
@@ -2654,7 +2789,7 @@ $$
      \\
      \downarrow
      \\
-     \mathbb{R}^{3,1\vert \mathbf{2} + \overline{\mathbf{2}}}
+     \mathbb{R}^{3,1\vert  \mathbf{4} }
       &\stackrel{}{\longrightarrow}&
      \mathbf{B}^3 \mathbb{R}
   }
@@ -2784,7 +2919,7 @@ $$
 
 These are branches of [[schreiber:The brane bouquet]] of string theory, see there for more. By prop. \ref{WZWTermFromCocycle} each branch here gives the WZW form for the corresponing [[nLab:Green-Schwarz super p-brane]] sigma model.
 
-##### Gravity
+###### Gravity
 
 Now consider the globalization of these WZW terms to $V$-manifolds $X$ for $V$ the super-Minkowski spacetime that we found, these describe the propagation of these super $p$-branes on $X$. By prop. \ref{DefiniteGlobalizationsToGStructure} these globalizations induce infinitesimally integrable $G$-structure on $X$.  
 
@@ -4076,6 +4211,7 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 
 
 ###### b. Das eine Eins der Attraktion
+
 
 ###### c. Die Beziehung der Repulsion und der Attraktion
  {#RelationBetweenRepulsionAndAttraction}
