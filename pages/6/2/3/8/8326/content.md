@@ -325,12 +325,12 @@ Via the above translation this is an Aristotlean judgement of the form "Some $B$
 
 In summary we have that basic judgements in Aristotle's logic, when some implicit assumptions are made explicit and the broad intention is retained, are naturally taken to be formalized in [[nLab:type theory]] as combinations of [[nLab:type former]] and a [[nLab:judgement]] asserting a [[nLab:term]] of that type, as follows.
 
-| [[nLab:Aristotle's logic]] | formal [[nLab:syntac]] |  [[nLab:type theory]] |
+| [[nLab:Aristotle's logic]] | formal [[nLab:syntax]] |  [[nLab:type theory]] |
 |----------------------------|----------------------|---|
 | concept $C$                |  $C$                 |  [[nLab:type]] |
 | judgement                  |  $c \colon C$ | typing [[nLab:judgement]] | 
 | All $B$ are $A$.           | $f \colon B \hookrightarrow A $ | [[nLab:function type]] |
-| Some $B_1$ is $B_2$.       | $B_1 \underset{A}{\times} B_2$ | [[nLab:product type]] |
+| Some $B_1$ is $B_2$.       | $s \colon B_1 \underset{A}{\times} B_2$ | [[nLab:product type]] |
 | Individual $E$ is $B$.     | $e \colon E \to B$. | [[nLab:unit type]]/[[nLab:global element]] |
 
 
@@ -1503,7 +1503,7 @@ For details see at
 
 * _[[nLab:prequantized Lagrangian correspondence]]_
 
-* _[[schreiber:Classical mechanics via Cohesive homotopy types]]_.
+* _[[schreiber:Classical field theory via Cohesive homotopy types]]_.
 
 $$
   \array{
@@ -1536,7 +1536,7 @@ Recall from remark \ref{AspectsOfTheInitialOpposition} that the initial oppositi
 
 While $maybe$ is not [[nLab:idempotent monad|idempotent]], by remark \ref{PurityForNonIdempotent} we may still ask for the types which are pure with respect to it in that they they are objects in its [[nLab:Eilenberg-Moore category]]. These are precisely the [[nLab:pointed objects|pointed types]].
 
-On pointed types the [[nLab:smash product]] yields a [[nLab:symmetric monoidal category|symmetric monoidal]] structure which is not [[nLab:Cartesian monoidal category|Cartesian]], and we enter the realm of [[nLab:linear type theory]] in the generality of [[nLab:dependent linear type theory]]. As discussed there, [[nLab:dependent sum]] and [[nLab:dependent product]] here now naturally yield the concept of [[nLab:secondary integral transforms]], across [[nLab:correspondences]], which in view of the above interpretation of correspondences as spaces of [[nLab:trajectories]] are really [[nLab:path integrals]]. Developing this one finds that correspondences in linear homotopy type theory give rise to formalization of [[nLab:quantization]] and [[nLab:quantum mechanics]].
+On pointed types the [[nLab:smash product]] yields a [[nLab:symmetric monoidal category|symmetric monoidal]] structure which is not [[nLab:cartesian monoidal category|Cartesian]], and we enter the realm of [[nLab:linear type theory]] in the generality of [[nLab:dependent linear type theory]]. As discussed there, [[nLab:dependent sum]] and [[nLab:dependent product]] here now naturally yield the concept of [secondary integral transforms](http://ncatlab.org/nlab/show/dependent+linear+type+theory#SecondaryIntegralTransforms), across [[nLab:correspondences]], which in view of the above interpretation of correspondences as spaces of [[nLab:trajectories]] are really [[nLab:path integrals]]. Developing this one finds that correspondences in linear homotopy type theory give rise to formalization of [[nLab:quantization]] and [[nLab:quantum mechanics]].
 
 For details see at _[[schreiber:Quantization via Linear homotopy types]]_.
 
