@@ -37,7 +37,7 @@ One of the first applications of the Freyd cover was to deduce facts about the [
 
 +-- {: .num_lemma}
 ###### Lemma 
-For any category $C$ with a terminal object $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is connected and projective, i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
+For any category $C$ with a [[terminal object]] $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is [[small-projective]], i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
 =-- 
 
 +-- {: .proof} 
@@ -51,7 +51,7 @@ preserves limits, because the contravariant power set functor $P = 2^-$ is monad
 
 +-- {: .num_theorem}
 ###### Theorem 
-The terminal object in the initial topos $\mathcal{T}$ is connected and projective, i.e., $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite colimits. 
+The terminal object in the initial topos $\mathcal{T}$ is [[connected object|connected]] and [[projective object|projective]] in the sense that $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite colimits. 
 =-- 
 
 +-- {: .proof} 
@@ -73,8 +73,9 @@ This is important because it implies that the [[internal logic]] of the free top
 
 * The *existence property*: if "there exists an $x\in A$ such that $P(x)$" is provable in the empty context, then there exists a [[global element]] $x\colon 1\to A$ such that $P(x)$ is provable in the empty context.  (Again, this is clearly a [[constructive mathematics|constructivity]] property.)
 
-* The *negation property*: False is not provable in the empty context.
+* The *negation property*: False is not provable in the empty context. 
 
+* All numerals in the free topos are "standard", i.e., the global sections functor $\Gamma = \hom(1, -): \mathcal{T} \to Set$ preserves the [[natural numbers object]] $N$ (because $N$ can be characterized in terms of finite colimits and $1$, by a theorem of Freyd). 
 
 ### As a local topos
  {#AsALocalTopos}
