@@ -4868,6 +4868,12 @@ This fits well also with [Phen&#167;760](#Phen760): "der Begriff des Wesens ist 
 
 See discussion at _[Wesen als Reflexion in Ihm Selbst](#WesenAlsReflexionInIhmSelbst)_
 
+> {#835} &#167;835 Das Werden im Wesen, seine reflektierende Bewegung, ist daher die Bewegung von Nichts zu Nichts und dadurch zu sich selbst zur&#252;ck.
+
+> &#167;835 Consequently, becoming is essence, its reflective movement, is the movement of nothing to nothing, and so back to itself.
+
+$id \dashv id$
+
 (1) Die setzende Reflexion
 
 (2) Die &#228;u&#223;ere Reflexion
