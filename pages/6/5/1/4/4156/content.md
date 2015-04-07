@@ -97,11 +97,17 @@ A **PCT theorem** in this context is a theorem that states sufficient conditions
 
 * Wikipedia: [CPT symmetry](http://en.wikipedia.org/wiki/CPT_symmetry)
 
-Jost's proof for Wightman fields:
+Proof for Wightman fields:
 
 * Res Jost: _Eine Bemerkung zum CPT Theorem_ Helv. Phys. Acta 30 (1957), p.409-416
 
+See also
+
 * Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ ([arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020))
+
+Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomatics) is in 
+
+* Hilary Greaves, [[Teruji Thomas]], _The CPT theorem_, Studies in History and Philosophy of Modern Physics 45 (2014) 46-66 ([arXiv:1204.4674](http://arxiv.org/abs/1204.4674))
 
 [[!redirects PCT]]
 [[!redirects PCT symmetry]]
