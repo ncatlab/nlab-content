@@ -32,7 +32,7 @@ $$
   \mathcal{O}^\otimes \to Assoc^\otimes
 $$
 
-to the [[assoiative operad]]/[[A-∞ operad]]. ([Lurie, def. 4.1.1.6](#Lurie))
+to the [[associative operad]]/[[A-∞ operad]]. ([Lurie, def. 4.1.1.6](#Lurie))
 
 ## Properties
 
