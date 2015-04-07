@@ -89,7 +89,7 @@ Accordingly, weak homotopy equivalences are the [[weak equivalences]] in the cla
 +-- {: .num_prop }
 ###### Proposition
 
-A continuous map $f : X \to Y$ is a weak homotopy equivalence
+A continuous map $f : X \to Y$ is a weak homotopy equivalence which is also a [[Serre fibration]]
 precisely if for all $n \in \mathbb{N}$ and for all [[commuting diagrams]] of continuous maps of the form
 
 $$
