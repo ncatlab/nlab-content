@@ -186,7 +186,7 @@ and hence $g a g^{-1}$ is in the [[kernel]] of $p$. By the defining exactness pr
 For $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ a group extension, we have that $p : \hat G \to G$ is an $A$-[[torsor]] over $G$ where  the [[action]] of $A$ on $\hat G$ is defined by
 
 $$  
-  \rho : A \times \hat G \stackrel{(i,Id)}{\to} \hat G \times \hat G \stackrel{\cdot}{\to} \hat G
+  \rho : A \times_G \hat G \stackrel{(i,Id)}{\to} \hat G \times_G \hat G \stackrel{\cdot}{\to} \hat G
   \,.
 $$
 
@@ -200,11 +200,11 @@ That $\rho$ is indeed an action _over_ $B$ in that
 
 $$
   \array{  
-     A \times \hat G &&\stackrel{\rho}{\to}&& \hat G
+     A \times_G \hat G &&\stackrel{\rho}{\to}&& \hat G
      \\
      & {}_{\mathllap{ p \circ p_2}}\searrow && \swarrow_{\mathrlap{p}}
      \\
-     && \hat G 
+     &&  G 
   }
 $$
 
@@ -213,7 +213,7 @@ follows from the fact that $p$ is a group homomorphism and that $A$ is in its [[
 That $A$ is actually _equal_ to the kernel gives the principality condition
 
 $$
-  (\rho, p_2) : A\times \hat G \stackrel{\simeq}{\to} \hat G \times_G \hat G
+  (\rho, p_2) : A\times_G \hat G \stackrel{\simeq}{\to} \hat G \times_G \hat G
   \,.
 $$
 
