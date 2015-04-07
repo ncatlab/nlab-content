@@ -80,7 +80,7 @@ Ordinary (permutative/symmetric) operads, and their generalization to [[symmetri
 
 ### Relation to monoidal categories
 
-There is a [[faithful functor]] from [[monoidal categories]] to [[multicategories]], given by forming [[representable multicategories|represented multicategories]].
+There is a [[faithful functor]] from [[monoidal categories]] to [[multicategories]], given by forming [[representable multicategories|represented multicategories]].  Conversely, to any multicategory $C$ there is an associated (strict) monoidal category $F(C)$, whose objects (respectively, arrows) are [[lists]] of objects (respectively, arrows) of $C$, and where the tensor product in $F(C)$ is given by concatenation.
 
 ## Examples and special cases
 
