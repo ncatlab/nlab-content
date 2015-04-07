@@ -45,7 +45,7 @@ This comes with the obvious composition operation induced from the composition i
 
 For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism operad** of $C$ is the restriction of the endomorphism operad defined to the set of colors being $S$.
 
-In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphism $c^{\otimes n}\to c$ in $C$.
+In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphisms $c^{\otimes n}\to c$ in $C$.
 
 ### In terms of Cartesian monads
 
