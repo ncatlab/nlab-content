@@ -38,11 +38,11 @@ is open.
 
 ## References
 
-* related ideas include [[pseudocompact ring]], [[Gabriel filter]], [[topologizing subcategory]], [[Gabriel-Oberst duality]]
+* related ideas include [[pseudocompact ring]], [[Gabriel filter]], [[topologizing subcategory]], [[Gabriel-Oberst duality]], [[linearly compact module]]
 
 *  [[Pierre Gabriel]],  __Des cat&#233;gories ab&#233;liennes__, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
-*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, ([pdf](http://www.sciencedirect.com/science/article/pii/0021869370900517)).
+*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, [pdf](http://www.sciencedirect.com/science/article/pii/0021869370900517)
 
 
 [[!redirects linear topological ring]]
