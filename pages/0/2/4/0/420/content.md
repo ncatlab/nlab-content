@@ -5,7 +5,7 @@
 
 ## Idea
 
-The __$n$-dimensional cube__, or simply __$n$-cube__, is a generalisation of the ordinary cube (or $3$-cube) to arbitrary dimensions.  It comes in may guises.
+The __$n$-dimensional cube__, or simply __$n$-cube__, is a generalisation of the ordinary cube (or $3$-cube) to arbitrary dimensions.  It comes in many guises.
 
 
 ## As a cubical set
