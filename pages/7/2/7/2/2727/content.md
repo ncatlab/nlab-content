@@ -31,7 +31,7 @@ Not all type theories follow this paradigm; among those that do, [[Martin-Löf t
 
 Even when the paradigm is not adopted, however, there is still a close relationship between logical and type-theoretic operations, called the __Curry--Howard isomorphism__ or (if it is not clear in which category this [[isomorphism]] is supposed to exist) the __Curry--Howard correspondence__. Or maybe better ([Harper](#Harper)) the **[[Brouwer-Heyting-Kolmogorov interpretation]]**. This correspondence is most precise and well-developed for [[intuitionistic logic]].
 
-Accordingly, [[logic|logical]] operations on propositions have immediate analogs on [[types]]. For instance logical _[[and]]_ coresponds to forming the [[product type]] $A \times B$ (a [[proof]] of $A$ and a proof of $B$), the [[universal quantifier]] corresponds to [[dependent product]], the [[existential quantifier]] to [[dependent sum]].
+Accordingly, [[logic|logical]] operations on propositions have immediate analogs on [[types]]. For instance logical _[[and]]_ corresponds to forming the [[product type]] $A \times B$ (a [[proof]] of $A$ and a proof of $B$), the [[universal quantifier]] corresponds to [[dependent product]], the [[existential quantifier]] to [[dependent sum]].
 
 ### Propositions as some types
  {#PropositionsAsSomeTypes}
