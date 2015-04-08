@@ -26,7 +26,7 @@ The concept generalises immediately to [[enriched category|enriched categories]]
 
 Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __left adjoint__ of $U$ is a monotone function $F: D \to C$ such that
 $$ F(x) \leq y \;\Leftrightarrow\; x \leq U(y) $$
-for all $x$ in $C$ and $y$ in $D$.
+for all $x$ in $D$ and $y$ in $C$.
 
 Given [[locally small categories]] $C$ and $D$ and a [[functor]] $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with a [[natural isomorphism]] between the [[hom-set]] functors
 $$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
