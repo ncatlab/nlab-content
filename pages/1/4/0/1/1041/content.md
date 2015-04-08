@@ -251,7 +251,7 @@ Textbook discussion is also in
 
 * [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
-* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+* N. Popescu, [[Abelian categories with applications to rings and modules]], London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 
 Reviews include
 
