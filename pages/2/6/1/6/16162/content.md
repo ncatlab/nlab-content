@@ -1,4 +1,10 @@
 
 * [webpage](http://www.bristol.ac.uk/school-of-arts/people/james-a-ladyman/)
 
+## related $n$Lab entries
+
+* [[philosophy of science]]
+
+* [[homotopy type theory]]
+
 category: people
