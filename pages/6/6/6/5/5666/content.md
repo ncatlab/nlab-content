@@ -86,6 +86,7 @@ If we introduce a bit of abstraction we can see the beauty of all this. Let $D=\
 
 * Jesse Kass, notes on Dieudonn&#233; modules
 
+* (expositional) Aaron Mazel-Gee, _Dieudonn&#233; modules and the classification of formal groups_, [pdf](https://math.berkeley.edu/~aaron/xkcd/dieudonne-modules.pdf)
 
 [[!redirects Dieudonné module]][[!redirects Dieudonne modules]][[!redirects Dieudonné modules]]
 
