@@ -107,8 +107,7 @@ name          | rule                                                            
 
 #### Lambda cube #### 
 
-The lambda cube consists of eight systems arranged in a cube.
-The most expressive is given by the following choice of sorts, axioms and relations:
+The _lambda cube_ ([Barendregt 91](#Barendregt91)) consists of eight systems arranged in a cube. The most expressive is given by the following choice of sorts, axioms and relations:
 
 | symbol | actual value
 |--------|-------------
@@ -116,7 +115,7 @@ The most expressive is given by the following choice of sorts, axioms and relati
 | $A =$  | $\{(\ast : \square)\}$
 | $R =$  | $\{(\ast, \ast), (\ast, \square), (\square, \ast), (\square, \square)\}$ 
 
-(Here $\{\ast, \Box\}$ denotes the 2-element set.)
+(Here $\{\ast, \Box\}$ denotes the 2-element set, see [Barendregt 91, 2.1](#Barendregt91))
 
 The other systems omit some of the last three relations.
 Some specific systems are the following:
@@ -169,6 +168,8 @@ But there is an example with even non-circular system of axioms:
 The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introducing [[inductive types]].
 
 ## References ##
+
+* {#Barendregt91} Henk Barendregt, _Introduction to generalized type systems_, J. Funct. Program. 1(2), 1991 ([pdf](http://patryshev.com/books/barendregt.pdf))
 
 * Henk Barendregt (Catholic University Nijmegen), _[[Lambda calculi with types]]_, To appear in [[Samson Abramsky]], D.M. Gabbay and T.S.E. Maibaum
 (eds.) _Handbook of Logic in Computer Science_, Volume II,
