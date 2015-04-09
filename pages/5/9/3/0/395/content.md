@@ -604,7 +604,7 @@ is also a weak equivalence.
 
 A central lemma in the theory of categories of fibrant objects is the following [[factorization lemma]].
 
-+-- {: .num_lemma }
++-- {: .num_lemma #FactorizationLemma}
 ###### Lemma (factorization lemma)
 
 For every morphism $f : C \to D$ in a category
@@ -1093,6 +1093,7 @@ and the right one an acyclic fibration.
 
 Then the pullback diagram in question may be decomposed
 into two consecutive pullback diagrams
+
 $$
   \array{
     E \times_B B' &\to& B'
@@ -1101,7 +1102,7 @@ $$
     \\
     Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
     \\
-    \;\;\downarrow^{\mathrlap{\in W \cap F\}} 
+    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
     && \;\;\downarrow^{\mathrlap{\in W \cap F}}
     \\
     E &\stackrel{\in F}{\to}& B
@@ -1573,7 +1574,7 @@ $$
   }
 $$
 
-and apply the factorization lemma to factor 
+and apply the [[factorization lemma]], lemma \ref{FactorizationLemma}, to factor 
 the universal morphism $A \to X \times_B E \to E$
 into the pullback as
 
