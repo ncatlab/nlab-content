@@ -30,7 +30,7 @@ Given any family $(A_i)_{i:I}$ of sets, the (external) __disjoint union__ $\bigu
 
 As stated, the second element of such a pair depends on the first element, which is natural in dependent type theory and certainly feasible in material set theory; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].  If you\'re trying to be [[predicative mathematics|predicative]] too, consider adopting the existence of disjoint unions as an axiom (the __axiom of disjoint unions__) in your [[foundations]].
 
-There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and its common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$.  So if no confusion can result (in particular, when the notation for an elements of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
+There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and it is common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$. So if no confusion can result (in particular, when the notation for an element of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
 
 
 ## Special cases
