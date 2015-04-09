@@ -141,13 +141,16 @@ Linear type theory as such is made explicit for instance in
 
 ### Lambek's syntactic calculus
 
-Several decades before Girard's article on linear logic, Lambek introduced a sequent calculus without weakening, contraction, or exchange in order to model aspects of the syntactic structure of natural language, generalizing previous work by Ajdukiewicz and Bar-Hillel on [[categorial grammar]]:
+Several decades before Girard's article on linear logic, Lambek introduced a sequent calculus without weakening, contraction, or exchange, and described its applications to modeling aspects of natural language (generalizing previous work by Ajdukiewicz and Bar-Hillel on [[categorial grammar]]):
 
 * {#Lambek58} [[Joachim Lambek]]. _The mathematics of sentence structure_ . American mathematical monthly, 154-170, 1958. [link](http://www.jstor.org/stable/2310058)
 
-Lambek called his system the "syntactic calculus", while nowadays it is often called _Lambek calculus_.  It can also be considered as the "implication-only fragment of intuitionistic, non-commutative linear logic", and may be interpreted in [[closed monoidal category|(bi)closed monoidal categories]].
+Lambek called his system the "syntactic calculus", while nowadays it is often called _Lambek calculus_ in linguistics.
 
-In "Towards a geometry of interaction" (1989), Girard references Lambek's 1958 article, and writes that "this work must be acknowledged as a true ancestor to linear logic" (p.81).
+In "Towards a geometry of interaction" (1989), Girard references Lambek's 1958 article, and writes that "this work must be acknowledged as a true ancestor to linear logic; its connection to linguistics can be seen as the first serious evidence against the exclusive focus on mathematics" (p.81).  On the other hand, Lambek later wrote that his original motivations were actually in [[homological algebra]]:
+
+> I would now call this system "bilinear logic", meaning "non-commutative linear logic" or "logic without Gentzen's three structural rules". My original name had been "syntactic calculus", because of its intended application to linguistics; but actually it had been developed in collaboration with George Findlay [1955] in an attempt to understand some basic homological algebra. Alas, our paper was rejected on the grounds that most of our results were to appear in a book by Cartan and Eilenberg [1956], the publication of which had been delayed because of a paper shortage. (Lambek, "Bilinear logic in algebra and linguistics", _Advances in Linear Logic_, CUP, 1995)
+
 
 ### Categorical semantics
 
