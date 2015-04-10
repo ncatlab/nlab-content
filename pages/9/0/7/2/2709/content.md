@@ -9,19 +9,23 @@
 
 * [[derivator]]
 
-* [[mixed motives]]
+* [[motives]]
+
+  * [[mixed motives]]
 
   * [[category of motives]]
   * [[motivic homotopy theory]]
   * [[motivic cohomology]]
   * [[algebraic K-theory]]
 
-* [[noncommutative motives]]
+  * [[noncommutative motives]]
 
 * [[(∞,1)-operad]]s
 
   * [[model structure on dendroidal sets]] 
 
 * [[homotopy groups in an (∞,1)-topos]]
+
+* [[univalence axiom]]
 
 category: people
