@@ -238,7 +238,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #bfEGAsPairGroupoid}
 ###### Remark
 
 The groupoid $(\mathbf{E}G)_\bullet$ of def. \ref{EGAsASmoothGroupoid} has at most one morphism for every ordered pair of objects, hence the morphisms are uniquely identified by giving their source and target.
@@ -275,6 +275,8 @@ $$
   \right\}
   \,.
 $$
+
+This means that it is [[isomorphism|isomorphic]], as a pre-smooth groupoid, to the [[pair groupoid]] of $G$.
 
 =--
 
@@ -341,9 +343,13 @@ $$
    G\times G \stackrel{\longrightarrow}{\longrightarrow} 
    G
  \right)
+ \,.
 $$
 
-each of which is given by group multiplication in two consecutive copies of $G$.
+If here $(\mathbf{E}G)_\bullet$ is though of isomorphically as $(G//G)_\bullet$, then  
+these face maps are such that all except one outermost (say the topmost) in each degree are given by group multiplication in two consecutive copies of $G$, with the remaining outermost one given by projection.
+
+If on the other hand $(\mathbf{E}G)_\bullet$ is thought of isomorphically as the [[pair groupoid]] of $G$, via remark \ref{bfEGAsPairGroupoid}, then the $k$th face map in each degree is given simply by projecting out the $k$th factor (starting counting at 0).
 
 
 =--
@@ -451,7 +457,31 @@ $$
 $$
 
 Such a triangle exists precisely if $g_2 = g_1 h$, which gives 
-$\mathbf{E}G$ as in def. \ref{EGAsASmoothGroupoid}.
+$\mathbf{E}G$ as in def. \ref{EGAsASmoothGroupoid}, thought of as:
+
+* objects = $\left\{
+      \array{
+         && \bullet
+         \\
+         & {}^g\swarrow
+         \\
+         \bullet
+      }
+    \right\}
+  $
+
+* morphisms = $\left\{
+      \array{
+         && \bullet
+         \\
+         & {}^g\swarrow && \searrow^{g' = g h}
+         \\
+         \bullet &&\stackrel{h}{\longrightarrow}&& \bullet
+      }
+    \right\}
+    \,.
+  $
+
 
 =--
 
@@ -504,6 +534,39 @@ $$
 ###### Proof
 
 Pullbacks of pre-smooth groupoids are computed componentwise. Hence a morphism in $C(\{U_i\})_\bullet\underset{(\mathbf{B}G)_\bullet}{\times} (\mathbf{E}G)_\bullet$ is a pair consisting of a morphism $(x,i,j)$ in $C(\{U_i\})_\bullet$ and a morphism $(g_1, h)$ in $(\mathbf{E}G)_\bullet$ such that $h$ is the value of the cocycle on $(x,i,j)$.
+
+With $(\mathbf{E}G)_\bullet$ thought of as in remark \ref{bfEGAsPairGroupoid}, then the pullback looks like:
+
+* objects = 
+  $$
+   \left\{
+   \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow
+     \\
+     \bullet
+     \\
+     (x,i)
+   }
+   \right\}
+  $$
+
+* morphisms =
+  $$
+   \left\{
+   \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow && \searrow^{g'}
+     \\
+     \bullet &&\stackrel{g_{i j }(x)}{\to}&& \bullet
+     \\
+     (x,i) &&\stackrel{}{\to}&& (x,j)
+   }
+   \right\}   
+  $$
+
 
 This means that the morphisms in the pullback are of the form
 
