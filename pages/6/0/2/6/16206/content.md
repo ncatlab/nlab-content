@@ -1,7 +1,10 @@
 ## Mini-workshop in Poisson Geometry ##
 
 ***
-April 3, Wuhan at [Huazhong University of Science and Technology](http://english.hust.edu.cn/). 
+April 3, Wuhan at [the Center for Mathematical Sciences](http://mathcenter.hust.edu.cn/) of [Huazhong University of Science and Technology](http://english.hust.edu.cn/). 
+
+***
+####[Official Webpage](http://mathcenter.hust.edu.cn/activities/meeting/51.html) (some information in Chinese)
 
 ***
 ####Speakers####
