@@ -19,7 +19,7 @@
 
 ## The canonical model structure on $Cat$
 
-The **canonical model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[canonical model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors. See the
+The [[canonical model structure]] on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[canonical model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors. See the
 _[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory 
 of this structure. 
 
@@ -209,6 +209,8 @@ The existence of this model structure implies, in particular, that under COSHEP 
 Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
 
 ## Related concepts
+
+* [[canonical model structure]]
 
 * **canonical model structure on $Cat$**
 
