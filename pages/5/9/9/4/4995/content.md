@@ -43,7 +43,7 @@ The functor $\Gamma$ itself may be thought of as sending a cohesive [[∞-groupo
 
 Conversely, $Disc$ and $CoDisc$ send an $\infty$-groupoid $A$ either to the [[discrete space|discrete ∞-groupoid]] $Disc(A)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space|codiscrete ∞-groupoid]] $Codisc(A)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]). 
 
-This kind of [[adjoint quadruple]], directly analgous to the structure introduced by [[William Lawvere]] for [[cohesive toposes]], induces two [[adjoint modalities]] which in turn are adjoint to each other, to yield the adjoint string [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] $\int \dashv \flat \dashv \sharp$, which may be thought of as expressing "contiuum" and "quantity" in the sense of [[Georg Hegel]]'s _[[Science of Logic]]_ (as explained in detail there.)
+This kind of [[adjoint quadruple]], directly analogous to the structure introduced by [[William Lawvere]] for [[cohesive toposes]], induces three [[adjoint modalities]] which in turn are adjoint to each other, to yield the adjoint string [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] $\int \dashv \flat \dashv \sharp$, which may be thought of as expressing "continuum" and "quantity" in the sense of [[Georg Hegel]]'s _[[Science of Logic]]_ (as explained in detail there.)
 
 The existence of such an [[adjoint quadruple]] of adjoint $(\infty,1)$-functors alone implies a rich [[internalization|internal]] [[higher geometry]] in $\mathbf{H}$ that comes with its internal notion of [[Galois theory]], [[Lie theory]], [[differential cohomology]], [[Chern-Weil theory]]. 
 
