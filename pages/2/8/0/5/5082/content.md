@@ -41,6 +41,16 @@ For $(\Pi \dashv \Gamma \dashv LConst) :  \mathbf{H} \to \infty Grpd$ a [[locall
 
 * [[geometric realization of cohesive ∞-groupoids]]
 
+## References
+
+* [[schreiber:differential cohomology in a cohesive topos]]
+
+See also
+
+* {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
+
+for further discussion of the smooth [[shape modality]] of cohesion (the [[etale homotopy type]] operation in the context of [[smooth infinity-stacks]]) as applied to [[nLab:orbifolds]] and [[étale groupoids]] and generally [[étale ∞-groupoids]].
+
 
 [[!redirects fundamental infinity-groupoid in a locally ∞-connected (infinity,1)-topos]]
 [[!redirects fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
