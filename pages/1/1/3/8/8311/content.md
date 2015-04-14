@@ -225,9 +225,9 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 
 ## References
 
-An general exposition is in 
+An general exposition was in 
 
-* Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+* Collin Roberts, _Introduction to the tensor product_ ([dead link](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
 
 Detailed discussion specifically for tensor products of modules is in
 
