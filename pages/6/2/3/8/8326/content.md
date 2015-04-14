@@ -184,7 +184,7 @@ $$
   f \colon B \longrightarrow A
 $$ 
 
-says that $f$ is a rule that takes instances/terms of $B$ to instances/terms of $A$. At least if this is a [[nLab:monomorphism]] $f \colon B \hookrightarrow A$ (so that the corresponding $a\colon A \dashv f^{-1}(a)$ is a [[nLab:proposition]]) then this says in words that $f$ wittnesses the fact that
+says that $f$ is a rule that takes instances/terms of $B$ to instances/terms of $A$. At least if this is a [[nLab:monomorphism]] $f \colon B \hookrightarrow A$ (so that the corresponding $a\colon A \vdash f^{-1}(a)$ is a [[nLab:proposition]]) then this says in words that $f$ wittnesses the fact that
 
 > All instances of $B$ are instances of $A$.
 
@@ -276,41 +276,41 @@ In order to formalize judgements of [[nLab:intersection]] of concepts of the for
 
 it is necessry to specify a [[nLab:context]]. Regard both $B_1$ and $B_2$ as [[nLab:dependent types]] witnessed by [[nLab:display maps]]
 
-$f_i \colon B_i \longrightarrow B$
+$f_i \colon B_i \longrightarrow C$
 
-to a common context $B$. Then the [[nLab:product type]] in context, hence, in the [[nLab:categorical semantics]], the [[nLab:homotopy fiber product]]
+to a common context $C$. Then the [[nLab:product type]] in context, hence, in the [[nLab:categorical semantics]], the [[nLab:homotopy fiber product]]
 
 $$
-  B_1 \underset{B}{\times} B_2 
+  B_1 \underset{C}{\times} B_2 
 $$
 
 is the type whose terms are the "some" instances of $B_1$ which are also instances of $B_2$, and vice versa. Indeed, the fiber product canonically sits in the [[nLab:homotopy pullback]] [[nLab:diagram]]
 
 $$
   \array{
-    B_1 \underset{B}{\times} B_2
+    B_1 \underset{C}{\times} B_2
     &\longrightarrow& 
     B_2
     \\
     \downarrow && \downarrow
     \\
-    B_1 &\longrightarrow& B
+    B_1 &\longrightarrow& C
   }
 $$
  
-and if we read $B_1 \underset{B}{\times} B_2$ as "some $B_1$" then according to the previous paragraph the top morphism expresses that "all of these particular $B_1$ (but not necessarily all of $B_1$ itself) are $B_2$". 
+and if we read $B_1 \underset{C}{\times} B_2$ as "some $B_1$" then according to the previous paragraph the top morphism expresses that "all of these particular $B_1$ (but not necessarily all of $B_1$ itself) are $B_2$". 
 
 +-- {: .num_example #PrincipalBundlesAsJudgements}
 ###### Example
 **(principal infinity-bundles as judgements)**
 
-Specifically if $B = \mathbf{B}G$ here is [[nLab:pointed object|pointed]] and [[nLab:n-connected object in an (infinity,1)-topos|connected]], hence equivalently the [[nLab:delooping]] of its [[nLab:infinity-group]] $G$ of [[nLab:loop space object|loops]], then a map of types
+Specifically if $C = \mathbf{B}G$ here is [[nLab:pointed object|pointed]] via a map from $B_2 = E = \ast$, and [[nLab:n-connected object in an (infinity,1)-topos|connected]], hence equivalently the [[nLab:delooping]] of its [[nLab:infinity-group]] $G$ of [[nLab:loop space object|loops]], then (writing now $B$ for $B_1$) a map of types
 
 $$
-  c \colon X \longrightarrow \mathbf{B}G
+  c \colon B \longrightarrow \mathbf{B}G
 $$ 
 
-may be thought of as a [[nLab:cocycle]] on $X$ with [[nLab:coefficients]] in $G$, representing a class in the [[nLab:nonabelian cohomology]] of $X$. See at _[[nLab:cohomology]]_ for more on this general concept of cohomology.
+may be thought of as a [[nLab:cocycle]] on $B$ with [[nLab:coefficients]] in $G$, representing a class in the [[nLab:nonabelian cohomology]] of $B$. See at _[[nLab:cohomology]]_ for more on this general concept of cohomology.
 
 In this case the [[nLab:homotopy fiber]] of $f$ is the $G$-[[nLab:principal infinity-bundle]] $P \to B$ classified by $f$, fitting into the [[nLab:homotopy pullback]] square.
 
@@ -320,7 +320,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    B &\stackrel{f}{\longrightarrow} & \mathbf{B}G
+    B &\stackrel{c}{\longrightarrow} & \mathbf{B}G
   }
 $$
 
@@ -1408,6 +1408,33 @@ $$
   }
 $$ 
 
+More in detail, we may ask just _how_ small these small paths are. Hence we demand more generally an infinite tower
+
+$$
+  &#643; 
+  \lt
+  \Im
+  = 
+  \Im_{(0)}
+  \lt 
+  \Im_{(1)}
+  \lt
+  \Im_{(2)}
+  \lt 
+  \Im_{(3)}
+  \lt 
+  \cdots
+  \lt 
+  id
+$$
+
+of [[nLab:infinitesimal shape modality|infinitesimal shape modalities]], yielding a further factorization of the shape unit as
+
+$$
+  X \to \cdots \to \Im_{(3)}X \to \Im_{(2)}X \to \Im_{(1)}X \to \Im X \to &#643; X
+  \,.
+$$
+
 ###### Differential
 
 In total, so far these are the axioms of [[nLab:differential cohesion]] ([dcct](#dcct)).
@@ -1758,6 +1785,7 @@ A _[[nLab:Hodge filtration]]_ is a compatible system of [[nLab:filtrations]] of 
 $$
   \mathbf{\Omega}^{2}_{cl}
   \to
+
   \cdots  
   \to
   \flat_{dR} \mathbf{B}^2 \mathbb{G}
@@ -2036,6 +2064,32 @@ $$
   \,.
 $$
 
+More generally, for $k \in \mathbb{N}$ then the $k$th order infinitesimal disk bundle is
+
+$$
+  \array{
+    T_{(k)} X &\stackrel{}{\longrightarrow}& \Im_{(k)} X
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\longrightarrow& \Im X
+  }
+$$
+
+and accordigly the $k$th order infinitsimal neighbourhood is
+
+$$
+  \array{
+    \mathbb{D}(k)_x &\longrightarrow & T_{(k)} X &\stackrel{}{\longrightarrow}& \Im_{(k)}X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \ast &\stackrel{x}{\longrightarrow} & X &\longrightarrow& \Im X
+  }
+  \,.
+$$
+
+
 =--
 
 
@@ -2044,7 +2098,7 @@ It is natural not to pick any point, but to collect all infinitesimal disks arou
 +-- {: .num_defn #RelativeFlat}
 ###### Definition
 
-The _[[nLab:relative shape modality]]_ is the operation $\flat^{rel}$ that sends $X \in \mathbf{H}$ to the [[nLab:homotopy pullback]]
+The _[[nLab:relative flat modality]]_ is the operation $\flat^{rel}$ that sends $X \in \mathbf{H}$ to the [[nLab:homotopy pullback]]
 
 $$
   \array{
@@ -2056,6 +2110,20 @@ $$
   }
   \,.
 $$ 
+
+More generally, for any $k \in \mathbb{N}$ then the _order $k$ relative flat modality_ is the pullback in 
+
+$$
+  \array{
+    \flat^{rel}_{(k)} &\longrightarrow& \Im_{(k)} X
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat X &\longrightarrow& \Im X
+  }
+  \,.
+$$ 
+
 
 =--
 
@@ -2240,6 +2308,8 @@ $$
   \,.
 $$
 
+Finally, the $G$-structure is _order $k$ infinitesimally integrable_ if this holds for the order-$k$ relative shape modality $\flat^{rel}_{(k)}$.
+
 =--
 
 +-- {: .num_defn #CartanGeometry}
@@ -2423,7 +2493,6 @@ $$
   \ast
   \stackrel{\longleftarrow}{\hookrightarrow}
   CartSp
-
   \stackrel{\hookrightarrow}{\longleftarrow}
   CartSp\rtimes InfPoint
   \stackrel{\longleftarrow}{\stackrel{\hookrightarrow}{\longleftarrow}}
@@ -2500,12 +2569,53 @@ To see that $\Delta$ is as given, let $X$ be any object in its image, and $U \ti
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The model in def. \ref{SupergeometricModel} admits also the refinement of the [[nLab:infinitesimal shape modality]] to an infinite tower
+
+$$
+  &#643; 
+  \lt
+  \Im
+  = 
+  \Im_{(0)}
+  \lt 
+  \Im_{(1)}
+  \lt
+  \Im_{(2)}
+  \lt 
+  \Im_{(3)}
+  \lt 
+  \cdots
+$$
+
+characterizing $k$th order infinitesimals. Let 
+
+$$
+  \ast
+  =
+  InfPoint_{(0)}
+  \hookrightarrow
+  InfPoint_{(1)}
+  \hookrightarrow
+  InfPoint_{(2)}
+  \hookrightarrow
+  InfPoint_{(3)}
+  \hookrightarrow
+  \cdots
+  InfPoint
+$$
+
+be the stratification of $InfPoint$ by its [[nLab:full subcategory|full subcategories]] on those objects whose coresponding [[nLab:Weil algebras]]/[[nlab:local Artin algebras]] are of the form $\mathbb{R} \oplus V$ with $V^k = 0$. Each of these inclusions has [[nLab:coreflective subcategory|coreflection]], given by [[nLab:projection]] onto the [[nLab:quotient]] by the ideal $V^k$, as $k$ ranges
+
+=--
 
 +-- {: .num_prop #DeterminateNegationsRealized}
 ###### Proposition
 
  
-The model in def. \ref{SupergeometricModel} verfies the required determinate negations 
+The model in def. \ref{SupergeometricModel} verifies the required determinate negations 
 
 1. determinate negations I:
  
@@ -3107,7 +3217,7 @@ Plugging the concrete individuals into the general abstract theory, we hence obt
 
 $$
   \array{
-     && \flat^{rel} U
+     && \flat^{rel}_{(1)} U
      \\
      & \swarrow && \searrow
      \\
@@ -3125,15 +3235,15 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $V = \hat \mathbb{R}^{10,1\vert \mathbf{32}}$ then 
-a first-order integrable [[nLab:definite form|definite extension]] of the curvature form of $\mathbf{L}_{WZW}^{M5}$ over some $V$-manifold $X$ is equivalent to $X$ solving the [[nLab:equations of motion]] of [[nLab:11-dimensional supergravity]].
+For $V = \mathbb{R}^{10,1\vert \mathbf{32}}$ then 
+a first-order integrable [[nLab:definite form|definite extension]] of the curvature form of $\mathbf{L}_{WZW}^{M2}$ over some $V$-manifold $X$ is implies that $X$ solves the [[nLab:equations of motion]] of [[nLab:11-dimensional supergravity]].
 
 =--
 
 +-- {: .proof}
-###### Proof sketch
+###### Proof
 
-The extension induces a first-order integrable $SO(\mathbb{R}^{10,1\vert \mathbf{32}})$-structure relative the intrinsic [[nLab:torsion of a G-structure|torsion]] of $\mathbb{R}^{10,1\vert \mathbf{32}}$. This is one of the [[nLab:torsion constraints of supergravity]]. As discussed there, for [[nLab:11-dimensional supergravity]] this is already equivalent to the equations of motion of the theory.
+By prop. \ref{DefiniteGlobalizationsToGStructure} the globalization  induces a first-order integrable $SO(\mathbb{R}^{10,1\vert \mathbf{32}})$-structure relative the intrinsic [[nLab:torsion of a G-structure|torsion]] of $\mathbb{R}^{10,1\vert \mathbf{32}}$. This is one of the [[nLab:torsion constraints of supergravity]]. As discussed there, for [[nLab:11-dimensional supergravity]] this is already equivalent to the equations of motion of the theory.
 
 =--
 
@@ -5062,6 +5172,7 @@ The reflector [[term constructor]] in an [[identity type]].
 Given a moment $\bigcirc$ and two types $X$ and $Y$ that are not equivalent, then if also $\bigcirc X$ is not equivalent to $\bigcirc Y$ we may say that $X$ and $Y$ are different _in that_ their $\bigcirc$-moments are (already) different. 
 
 If hower these moments are equivalent, then $X$ and $Y$ are similar in this respect. [similarity](#MomentsAndSimilarity).
+
 
 ###### (b) Die Verschiedenheit / Diversity
 
