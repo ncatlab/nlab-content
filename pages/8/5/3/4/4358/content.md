@@ -27,6 +27,12 @@ see at _[[Riemann hypothesis]]_
 
 see at _[[prime number theorem]]_
 
+## Specific classes of prime numbers
+
+* [[Fermat prime]]
+* [[Mersenne prime]]
+* [[twin prime]]
+
 ## Related concepts
 
 * [[prime factor]]
