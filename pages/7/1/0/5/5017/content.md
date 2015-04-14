@@ -154,6 +154,10 @@ Discussion of [[jet groupoids]] includes
 * {#Lorenz09} Arne Lorenz, _Jet Groupoids, Natural Bundles
 and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf)) 2009
 
+The [[geometric realization]]/[[shape modality]] for Haefliger-type groupoids is discussed in
+
+* {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
+
 
 [[!redirects Haefliger groupoids]]
 
