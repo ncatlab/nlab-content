@@ -28,3 +28,7 @@ edited by E. Ballico, F. Catanese, C. Ciliberto, Lecture Notes in Math.
 These are summarized in section 2 of the following notes
 
 * [[Claire Voisin]], _Some aspects of the Hodge conjecture_, notes from Takagi lectures, Kyoto 2006, [pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/takagifinal.pdf).
+
+and section 4 of 
+
+* [[Arnaud Beauville]], _The Hodge conjecture_, [pdf](http://math.unice.fr/~beauvill/pubs/Hodge.pdf).
