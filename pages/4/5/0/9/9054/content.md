@@ -3,4 +3,9 @@
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Claire_Voisin)
 
+* [[Hodge theory]]
+  * [[Hodge conjecture]], [[integral Hodge conjecture]]
+
 category: people
+
+[[!redirects C. Voisin]]
