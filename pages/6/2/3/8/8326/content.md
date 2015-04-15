@@ -3365,8 +3365,9 @@ Our **paragraph numbering** is as follows:
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
 | absolute Wirklichkeit | [[univalence]] | [&#167;1159](#1159) |
 | Ding | [[object]] of the [[category]] | [&#167;1065a](#1065a) |
-| possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge$ = [[dependent sum]] followed by [[context extension]] |  |
-| necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] |  |
+| possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge$ = [[dependent sum]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
+| necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box$ = [[dependent product]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
+| randomness, contingency | [[context extension]] followed by [[dependent product]] | [&#167;1191](#1191) etc. |
 | eigentliche Wirklichkeit, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
 | everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
@@ -5657,7 +5658,8 @@ This we come to in more detail below.
 #### Das Absolute
 
 
-#### Die Wirklichkeit {#DieWirklichkeitKapitel2}
+#### Die Wirklichkeit / Actuality
+  {#DieWirklichkeitKapitel2}
 
 > {#1190} &#167;1190 Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
 
@@ -5665,15 +5667,70 @@ This we come to in more detail below.
 
 
 
+> {#1191} &#167;1191 Aber zun&#228;chst, indem Wirkliches und M&#246;gliches formelle Unterschiede sind, ist ihre Beziehung gleichfalls nur formell, und besteht nur darinn, da&#223; das Eine wie das Andere ein Gesetztseyn ist, oder in der Zuf&#228;lligkeit.
+
+> &#167;1191 But first of all, since the actual and the possible are formal differences, their relation is likewise merely formal and consist only in the fact that the one like the other is a positedness, or in contingency.
 
 
-again: (Wirklichkeit-[[possibility]])-[[necessity]], see [&#167;1160](#1160) above.
+Let $W$ be a type (space) of [[possible worlds semantics|possible worlds]] in some contex and consider the [[adjoint triple]] of [[dependent sum]] $\sum_W$, [[context extension]] $W^\ast$ and [[dependent product]] $\prod_X$ over $X$
 
+$$
+  \mathbf{H}_{/X}
+    \stackrel{\overset{\sum_X}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_X}{\longrightarrow}}}
+  \mathbf{H}
+  \,.
+$$
 
+Then, as discussed in some detail at _[[necessity and possibility]]_ in the section, we have that
 
+* the [[dependent sum]] $\sum_X$ expresses _[[possibility]]_: if $P$ is a [[proposition]] about elements of $W$, then $\sum_W P$ is the type which under [[propositions as types]] expresses the proposition that there is a $w \in W$ such that $P(w)$ holds, hence such that it is possible (in some world $w$) that $P$ holds;
 
+* the [[dependent product]] $\prod_X$ expresses _[[necessity]]_: if $P$ is a [[proposition]] about elements of $W$, then $\prod_W P$ holds when $P$ holds for all $w \in W$, hence when $P$ holds necessarily, independently of which particular possible world is realized.
 
-##### A Zuf&#228;lligkeit oder formelle Wirklichkeit, M&#246;glichkeit und Nothwendigkeit/ Formal Actuality, Possibility and Necessity
+Or rather, to stay in the context of the possible worlds $W$, we consider the possibility [[monad]]
+
+$$
+  \lozenge_W \coloneqq W^\ast \sum_W
+$$
+
+and the necessity comonad
+
+$$
+  \Box_W \coloneqq W^\ast \prod_W
+  \,,
+$$
+
+both operating on the [[slice topos|slice]] $\mathbf{H}_{/W}$.
+
+But then there is also the induced monad operating on $\mathbf{H}$, given by
+
+$$
+  \prod_W W^\ast
+  \,.
+$$
+
+To see which meaning this has we need to consider its action on a type which is not a [[mere proposition]] (for a mere proposition $P$ in the absolute context is either [[true]] or [[false]] and hence so is $\prod_W W^\ast$, there is nothing interesting happening in this case). We may just as well take the [[type universe]] itself, or at least the [[type of propositions]] $\Omega$. Then 
+
+$$
+  \prod_W W^\ast \Omega
+  \simeq
+  [W,\Omega]
+$$
+
+is the collection of all [[subtypes]]/[[subobjects]] of $W$. Hence a term of this type is a random choice of elements of $W$.
+
+This way, $\prod_W W^\ast$ expresses aspects of _Zuf&#228;lligkeit_, _randomness_, _contingency_.
+
+Hence we get
+
+$$
+  (possibility \dashv necessity) \;\;\;,\;\;\;\;\; randomness
+  \,.
+$$
+
+By the discussion at _[[dependent linear type theory]]_ and _[[schreiber:Quantization via Linear homotopy types]]_ the [secondary integral transforms](dependent%20linear%20type%20theory#SecondaryIntegralTransforms) on [[linear types|linear types]] which formalize aspects of [[path integral quantization]] are all controled by the [[linear type theory]] version of this _randomness_ monad. Of course an intrinsic randomness is the very hallmark of [[quantum mechanics]], which is the actual reality.
+
+##### A Zuf&#228;lligkeit oder formelle Wirklichkeit, M&#246;glichkeit und Nothwendigkeit/ Randomness or Formal Actuality, Possibility and Necessity
  {#PossibilityAndNecessity}
 
 > {#1192} &#167;1192 1. Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
