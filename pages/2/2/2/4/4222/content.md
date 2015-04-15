@@ -153,6 +153,8 @@ where each of the arrows is a homotopy equivalence.
 
 +--{.query}
 I'm going on sheer memory here of May's Geometry of Iterated Loop Spaces, and it's quite possible that I'm missing hypotheses in some directions and that hypotheses could be weakened in other directions, e.g., replacing the connectedness assumption with a group completion assumption. This is in need of expert attention.
+
+[[JCMcKeown]] : Hi, Todd (five years later); hmm. The first thing that comes to mind is that $C_n$ the monad-of-the-operad $E_{(n)}$ of little-$n$-cubes isn't objectwise homotopy-equivalent to $\Omega^n S^n$; it's a big wedge, rather: $C_n X = \bigvee_k E^{k}_{(n)}((X^k))$ for some sensible idea of $E^k_{(n)}((-))$.  The idea one gets from trying to read May is that: the particular operad/monad/algebraic theory doesn't matter, so long as it has the right category of Algebras --- and in this light, it may help that little-$n$-cubes is closely related to the Snaith Splitting: $S^n \Omega^n S^n$ *is* a big wedge of decorated configuration spaces.  But I don't really understand all the mechanics involved.  Will Keep Thinking.
 =--
 
 ### Homotopy colimits ### 
