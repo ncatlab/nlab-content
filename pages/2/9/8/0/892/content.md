@@ -28,13 +28,13 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
 
-+-- {: .num_axiom}
++-- {: .num_defn}
 ###### Axiom (power sets)
 
 If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
 =--
 
-One can then use the axiom of separation ([[bounded separation]] is enough) to prove that $\mathcal{P}$ may be chosen so that the subsets of $A$ are the *only* members of $\mathcal{P}$; the [[axiom of extensionality]] proves that this $\mathcal{P}$ is unique.
+One can then use the [[axiom of separation]] ([[bounded separation]] is enough) to prove that $\mathcal{P}$ may be chosen so that the subsets of $A$ are the *only* members of $\mathcal{P}$; the [[axiom of extensionality]] proves that this $\mathcal{P}$ is unique.
 
 In [[structural set theory]], we state rather that there exists a set $\mathcal{P}$ which indexes the subsets of $A$ and prove uniqueness [[generalised the|up to unique isomorphism]].
 
