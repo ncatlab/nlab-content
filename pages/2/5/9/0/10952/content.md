@@ -8,4 +8,6 @@
 
   on [[foundations]] in [[categorical logic]] in view of [[homotopy type theory]] and other modern developments
 
+* Andrei Rodin, _On Constructive Axiomatic Method_, [arXiv:1408.3591](http://arxiv.org/abs/1408.3591)
+
 category: people
