@@ -22,6 +22,8 @@ Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left
 
 * [[adjoint bundle]]
 
+* [[tractor bundle]]
+
 ## Related concepts
 
 * [[associated infinity-bundle]]
