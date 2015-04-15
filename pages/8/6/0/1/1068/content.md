@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _category with translations_ is a [[category]] equipped with a rudimentary notion of [[suspension objects]]. Categories with translation underly [[triangulated categories]] where the "translation" becomes a genuine suspension as in [[homotopy fiber sequences]].
+A _category with translations_ is a [[category]] equipped with a rudimentary notion of [[suspension objects]]. Categories with translation underlie [[triangulated categories]] where the "translation" becomes a genuine suspension as in [[homotopy fiber sequences]].
 
 ## Definition
 
