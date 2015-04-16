@@ -543,10 +543,13 @@ and section 3.6.2 of
 
 
 
-
+[[!redirects (infinity,1)-categorical hom-spaces]]
 
 
 [[!redirects (∞,1)-categorical hom-space]]
+[[!redirects (∞,1)-categorical hom-spaces]]
+
+
 [[!redirects (infinity,1)-categorical hom space]]
 [[!redirects (∞,1)-categorical hom space]]
 [[!redirects (infinity,1)-categorial hom-space]]
