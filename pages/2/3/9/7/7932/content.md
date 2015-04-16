@@ -101,6 +101,7 @@ form [[group objects in an (∞,1)-category]] to the [[(∞,1)-category]] of [[c
 
 Every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V \sslash G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
 
+
 $$
   \array{
     V
@@ -582,6 +583,219 @@ Any $G$-action on an infinitesimal disk is a linear action, given by a homomorph
 
 
 ## Examples
+
+### Discrete group actions on sets and groupoids
+
+As the simplest special case, we discuss how the traditional concept of [[discrete groups]] acting on a [[sets]] ("[[permutation representations]]") is recoverd from the above general abstract concepts.
+
+Write [[Grpd]] for the [[(2,1)-category]] of [[groupoids]], the [[full sub-(infinity,1)-category]] of [[∞Grpd]] on the [[1-truncated objects]].
+
+For $G$ a [[discrete group]], then $\mathbf{B}G$ is the [[groupoid]] $(G \stackrel{\longrightarrow}{\longrightarrow}\ast)$ with [[composition]] operation given by the product in the group. Of the two possible ways of making this identification, we agree to use
+
+$$
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
+    \\
+    \ast && \underset{g_1 \cdot g_2}{\longrightarrow} && \ast
+  }
+  \,.
+$$
+
++-- {: .num_defn #Action1Groupoid}
+###### Definition
+
+Given a [[discrete group]] $G$ and an [[action]] $\rho$ of $G$ on a [[set]] $S$
+
+$$
+  \rho \colon S \times G \longrightarrow S
+$$
+
+then the corresponding _[[action groupoid]]_ is 
+
+$$
+  (S//G)_\bullet
+  \coloneqq
+  \left(
+    S\times G
+    \stackrel{\overset{p_1}{\longrightarrow}}{\underset{\rho}{\longrightarrow}}
+    S
+  \right)
+$$
+
+with [[composition]] given by the product in $G$. Hence the [[objects]] of $S$ are the elements of $S$, and the morphisms $s \stackrel{}{\longrightarrow } t$ are labeled by elements $g\in G$ and are such that $t = \rho(s)(g)$. 
+
+=--
+
+Schematically:
+
+$$
+  S//G =
+  \left\{
+    \array{
+      && s_2
+      \\
+      & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
+      \\
+      s_1 && \underset{g_1 g_2}{\longrightarrow} && s_2
+    }
+  \right\}
+  \,.
+$$
+
++-- {: .num_example}
+###### Example
+
+For the unique and trivial $G$-action on the singleton set $\ast$, we have
+
+$$
+  \ast//G \simeq \mathbf{B}G
+  \,.
+$$
+
+=--
+
+This makes it clear that:
+
++-- {: .num_defn #MapFromActionGroupoidOnSetBackToBG}
+###### Definition
+
+In the situation of def. \ref{Action1Groupoid}, 
+there is a canonical morphism of groupoids
+
+$$
+  p_\rho \;\colon\; S//G \longrightarrow \mathbf{B}G
+$$
+
+which, in the above presentation, forgets the labels of the objects and is the identity on the labels of the morphisms.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[homotopy fiber]] of the morphism in def. \ref{MapFromActionGroupoidOnSetBackToBG} is [[equivalence of groupoids|equivalent]] to the set $S$, regarded as a groupoid with only identity morphisms, hence we have a [[homotopy fiber sequence]] of the form
+
+$$
+  \array{
+    S &\longrightarrow& S//G
+    \\
+    && \downarrow^{\mathrlap{p_\rho}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In the presentation $(S//G)_\bullet$ of def. \ref{Action1Groupoid}, $p_\rho$ is clearly an [[isofibration]]. Hence its [[homotopy fibers]] are equivalent to its ordinary fibers computed in the 1-category of 1-groupoids. Since $p_\rho$ is the identity on the labels of the morphisms in this presentation, this ordinary fiber is precisely the sub-groupoid of $(S//G)_\bullet$ consisting of only the identity morphismss, hence is the set $S$ regarded as a groupoid.
+
+=--
+
+Conversely, the following construction extract a group action from a homotopy fiber sequence of groupoids of this form.
+
++-- {: .num_defn #ActionMapFromFiberSequenceSetToGroupoidToBG}
+###### Definition
+
+Given a [[homotopy fiber sequence]] of [[groupoids]] of the form
+
+$$
+  \array{
+    S &\stackrel{i}{\longrightarrow}& E
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+such that $S$ is [[equivalence of groupoids|equivalent]] to a [[set]] $S$, define a $G$-[[action]] on this set as follows.
+
+Consider the [[homotopy fiber product]] 
+
+$$
+  S \underset{E}{\times} S
+  \stackrel{\overset{}{\longrightarrow}}{\underset{}{\longrightarrow}}
+  S
+$$ 
+
+of $i$ with itself. By the [[pasting law]] applied to the total homotopy pullback diagram
+
+$$
+  \array{
+    S \underset{E}{\times} S &\longrightarrow& S  
+    \\
+    \downarrow && \downarrow^{\mathrlap{i}} 
+    \\
+    S &\stackrel{i}{\longrightarrow}& E 
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}} 
+    \\
+    \ast &\longrightarrow& \mathbf{B}G 
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    S\times G &\longrightarrow& S  
+    \\
+    \downarrow && \downarrow 
+    \\
+    G &\stackrel{}{\longrightarrow}& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& \mathbf{B}G 
+  }
+$$
+
+there is a canonical [[equivalence of groupoids]]
+
+$$
+  S \underset{E}{\times} S \simeq S \times G
+$$
+
+such that one of the two canonical maps from the fiber product to $S$ is projection on the first factor. The _other_ map under this equivalence we denote by $\rho$:
+
+$$
+  S \times G
+  \stackrel{\overset{p_1}{\longrightarrow}}{\underset{\rho}{\longrightarrow}}
+  S
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The morphism $\rho$ constructed in def. \ref{ActionMapFromFiberSequenceSetToGroupoidToBG} is a $G$-[[action]] in that it satisfies the action propery, which says that the [[diagram]] (of [[sets]])
+
+$$
+  \array{
+    S\times G \times G &\stackrel{}{\longrightarrow}& S \times G
+    \\
+    \downarrow && \downarrow^{\mathrlap{\rho}}
+    \\
+    S \times G &\stackrel{\rho}{\longrightarrow}& 
+  }
+$$
+
+[[commuting diagram|commutes]].
+
+=--
+
+spring
++-- {: .proof}
+###### Proof
+
+=--
+
 
 ### Of $\infty$-group actions in an $\infty$-topos
 
