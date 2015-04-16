@@ -34,7 +34,7 @@ This defines convex spaces as a [[variety of algebras]], with one binary operati
 
 The intended interpretation is that $c_p(x,y) = x + p(y-x) = (1-p)x + py$. i.e., $c_p(x,y)$ is the $p$-weighted average of $x$ and $y$, where $x$ gets weight $1-p$ and $y$ gets weight $p$. By thinking of $p$ as a continuous parameter, this interpretation has the advantage of "starting" at $x$, then moving toward $y$ at "rate" $p$.
 
-This interpretation is '[[bias|biased]]', in the sense that the centered choice $p=0$ favors $x$. It is also possible to give an '[[bias|unbiased]]' definition, which characterizes to convex-linear combinations of many points. This is an $n$-ary operation parametrised by a list $p := (p_1,\ldots,p_n)$ satisfying $\sum_{i = 1}^n p_i = 1$. If $x := (x^1,\ldots, x^n), then $c_p(x) := \sum_i p_i x^i$.
+This interpretation is '[[bias|biased]]', in the sense that the centered choice $p=0$ favors $x$. It is also possible to give an '[[bias|unbiased]]' definition, which characterizes to convex-linear combinations of many points. This is an $n$-ary operation parametrised by a list $p := (p_1,\ldots,p_n)$ satisfying $\sum_{i = 1}^n p_i = 1$. If $x := (x^1,\ldots, x^n)$, then $c_p(x) := \sum_i p_i x^i$.
 
 A [[homomorphism]] of convex spaces may be called a __convex-linear map__ or an __affine linear map__ (since an [[affine space]] is a convex space with extra properties, as in the examples below).  It should probably *not* be called a 'convex map', which (between affine spaces) is something more general.
 
