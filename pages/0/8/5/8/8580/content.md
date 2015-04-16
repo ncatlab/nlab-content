@@ -548,124 +548,13 @@ this chapter is at _[[geometry of physics -- G-structure and Cartan geometry]]_
 ## **Representations and Associated bundles**
  {#AssociatedNBundle}
 
-### Model Layer
 
-#### Actions
-
-* [[action]]
-
-
-#### Spin geometry
- {#SpinGeometry}
-
-* [[spin group]]
-
-* [[spin representation]]
-
-
-
-$$
-  \array{
-    V &\to& V \sslash Spin
-    \\
-    && \downarrow
-    \\
-    && \mathbf{B}Spin
-  }
-$$
-
-* [[spinor bundle]]
-
-* [[spinor]]
-
-$$
-  \array{
-    X &&\stackrel{\psi}{\to}&& V \sslash Spin
-    \\
-    & \searrow &\swArrow& \swarrow
-    \\
-    && \mathbf{B}Spin
-  }
-$$
-
-#### Associated bundle
-
-* [[associated bundle]]
-
-#### Representations up to coherent homotopy
-
-* [[infinity-representation]]
-
-
-
-### Semantic Layer
-
-
-#### $\infty$-Actions
-
-[[∞-action]]
-
-  $$
-    \array{
-      V &\to& V\sslash G
-      \\
-      && \downarrow
-      \\
-      && \mathbf{B}G
-    }
-  $$
-
-#### Associated $\infty$-bundles
-
-* [[associated infinity-bundle]]
-
-$$
-  \array{
-    E &\to& V\sslash G
-    \\
-    \downarrow &pb& \downarrow
-    \\
-    \tilde X &\to& \mathbf{B}G
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    X
-  }
-$$
-
-* [[section]]
-
-$$
-  \array{
-    X &&\stackrel{\sigma}{\to}&& V \sslash G
-    \\
-    & \searrow &\swArrow_{\simeq}& \swarrow
-    \\
-    && \mathbf{B}G
-  }
-$$
-
-
-### Syntactic Layer
-
-
-#### The context of a pointed connected type: representation theory
-
-(...)
-
-#### Dependent product over a pointed connected type: invariants
-
-(...)
-
-#### Dependent sum over a pointed connected type: quotients 
-
-(...)
-
+this chapter is at _[[geometry of physics -- representations and associated bundles]]_
 
 ## **Modules**
  {#Modules}
 
- for the moment see the sub-entry _[[geometry of physics - modules]]_
+this chapter is at _[[geometry of physics - modules]]_
 
 
 ## **Flat connections**
