@@ -77,6 +77,10 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[weak equivalence]]
 
+* [[equivalence of groupoids]], [[equivalence of categories]]
+
+* [[equivalence of 2-categories]], [[equivalence of (2,1)-categories]]
+
 * [[homotopy equivalence]], [[weak homotopy equivalence]], [[Quillen equivalence]]
 
 * [[Bousfield equivalence]]
