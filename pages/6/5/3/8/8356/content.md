@@ -35,6 +35,8 @@ This is otherwise known as the paradigm of _[[propositions as types]]_ and _[[pr
 
 * Wikipedia, _[BHK interpretation](http://en.wikipedia.org/wiki/BHK_interpretation)_
 
+* A. Kolmogoroff, _Zur Deutung der intuitionistischen Logik_ , Math. Z. **35** 1932 pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
+
 * [[Jean-Yves Girard]], _Proofs and Types_ 
 
 * [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
