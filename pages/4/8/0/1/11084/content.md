@@ -3,7 +3,7 @@
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_. _[[geometry of physics -- smooth homotopy types|smooth homotopy type]]_
 
-> next chapter: _[[geometry of physics -- manifolds and orbifolds]]_
+> next chapter: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifold]]_, _[[geometry of physics -- representations and associated bundles|representations and associated bundles]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
