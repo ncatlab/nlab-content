@@ -41,7 +41,7 @@ More generally, $A$ here may be equipped with a $G$-[[action]] $\rho \colon A \t
 
 $$
   \array{
-    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && \mathbf{B}^n A \sslash G
+    \mathbf{B}G && \stackrel{\mathbf{c}}{\longrightarrow}  && \mathbf{B}^n A \sslash G
     \\
     & \searrow &\swArrow& \swarrow 
     \\
@@ -56,7 +56,7 @@ All this generalizes to $G$ itself any [[∞-group]] and $\mathbf{B}^n A$ replac
 
 $$
   \array{
-    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && V \sslash G
+    \mathbf{B}G && \stackrel{\mathbf{c}}{\longrightarrow}  && V \sslash G
     \\
     & \searrow &\swArrow& \swarrow 
     \\
@@ -253,11 +253,11 @@ $$
   = 
   \left[
     Hom_{\mathbb{Z}[G]Mod}(F_0, A) 
-      \stackrel{d^0}{\to} 
+      \stackrel{d^0}{\longrightarrow} 
     Hom_{\mathbb{Z}[G]Mod}(F_1,A) 
-      \stackrel{d^1}{\to} 
+      \stackrel{d^1}{\longrightarrow} 
     Hom_{\mathbb{Z}[G]Mod}(F_2,A) 
-      \stackrel{d^2}{\to} 
+      \stackrel{d^2}{\longrightarrow} 
       \cdots
   \right]
 $$
@@ -341,9 +341,9 @@ $$
   = 
   \left(
     \cdots \to G \times G \times G
-    \stackrel{\to}{\stackrel{\to}{\to}}
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
     G  \times G
-    \stackrel{\to}{\to}
+    \stackrel{\longrightarrow}{\longrightarrow}
     G
     \to 
     {*}
@@ -467,7 +467,7 @@ $$
     & {}^{g_1}\nearrow && \searrow^{g_2}
     \\
     {*}
-    &&\stackrel{g_1 g_2}{\to}&& {*}
+    &&\stackrel{g_1 g_2}{\longrightarrow}&& {*}
   }
   \right|
   g_1, g_2 \in G
@@ -483,24 +483,24 @@ $$
   \left\{
   \left.
   \array{
-    {*} &&\stackrel{g_2}{\to}&& {*}
+    {*} &&\stackrel{g_2}{\longrightarrow}&& {*}
     \\
     \uparrow^{g_1} &&{}^{g_1 g_2}\nearrow&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_1 g_2 g_3}{\to}&&
+    &&\stackrel{g_1 g_2 g_3}{\longrightarrow}&&
     {*}
   }
   \;\;\;\;
   \Rightarrow
   \;\;\;\;   
   \array{
-    {*} &&\stackrel{g_2}{\to}&& {*}
+    {*} &&\stackrel{g_2}{\longrightarrow}&& {*}
     \\
     \uparrow^{g_1} &&\searrow^{g_2 g_3}&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_1 g_2 g_3}{\to}&&
+    &&\stackrel{g_1 g_2 g_3}{\longrightarrow}&&
     {*}
   }
   \right|
@@ -552,12 +552,12 @@ $$
   \;\;\;
   \left(
   \array{
-    {*} &&\stackrel{g_2}{\to}&& {*}
+    {*} && \stackrel{g_2}{\longrightarrow} && {*}
     \\
     \uparrow^{g_1} &&{}^{g_2 g_1}\nearrow&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_3 g_2 g_1}{\to}&&{*}
+    && \stackrel{g_3 g_2 g_1}{\longrightarrow} && {*}
   }
   \;\;\;\;
   \Rightarrow
@@ -575,33 +575,33 @@ $$
   & \mapsto
   \left(
   \array{
-    {*} &&\stackrel{{*}}{\to}&& {*}
+    {*} &\stackrel{}{\longrightarrow} & &\stackrel{}{\longrightarrow}& {*}
     \\
-    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2)}
-    &{}^{{*}}\nearrow&\Downarrow^{c(g_2,g_3)}& 
-    \downarrow^{{*}}
+    \uparrow &\Downarrow^{c(g_1,g_2)}
+    &\nearrow&\Downarrow^{c(g_2,g_3)}& 
+    \downarrow
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&{*}
+    &\longrightarrow&&\longrightarrow&{*}
   }
   \;\;\;\;
   \stackrel{}{\Rightarrow}
   \;\;\;\;   
   \array{
-    {*} &&\stackrel{{*}}{\to}&& {*}
+    {*} &\longrightarrow&&\longrightarrow& {*}
     \\
-    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2 g_3)}
-    &\searrow^{{*}}&\Downarrow^{c(g_2, g_3)}& \downarrow^{{*}}
+    \uparrow &\Downarrow^{c(g_1,g_2 g_3)}
+    &\searrow &\Downarrow^{c(g_2, g_3)}& \downarrow
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&{*}
+    &\longrightarrow&&\longrightarrow&{*}
   }
   \right)
   \end{aligned}  
   \,.
 $$
 
-Since there is a unique 3-cell in $DK(A[2])$ whenever the oriented su, of the $A$-labels of the boundary of the corresponding tetrahedron vanishes, the existence of the 3-cell on the right here is precisely the claimed cocycle condition.
+Since there is a unique 3-cell in $DK(A[2])$ whenever the oriented sum of the $A$-labels of the boundary of the corresponding tetrahedron vanishes, the existence of the 3-cell on the right here is precisely the claimed cocycle condition.
 
 A similar argument gives the coboundaries
 
@@ -732,7 +732,7 @@ In parts of the literature cohomology of structured groups $G$ is defined in dir
 
 $$
   \left(
-    \cdots G \times G\stackrel{\to}{\stackrel{\to}{\to}}G \stackrel{\to}{\to} *
+    \cdots G \times G\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}G \stackrel{\longrightarrow}{\longrightarrow} *
   \right)
 $$
 
@@ -744,9 +744,10 @@ Specifically, for a [[Lie group]] $G$, the object
 
 $$
   \left(
-    \cdots G \times G\stackrel{\to}{\stackrel{\to}{\to}}G \stackrel{\to}{\to} *
+    \cdots G \times G\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}G \stackrel{\longrightarrow}{\longrightarrow} *
   \right)
 $$
+
 
 has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
 
@@ -997,6 +998,7 @@ Group cohomology of the [[spin group]] (cohomology of the [[classifying space]] 
 Volume 22 Issue 3, Sept. (1986) ([web](http://dl.acm.org/citation.cfm?id=23393)) 
  
 Group cohomology of the [[string group]] (cohomology of the [[classifying space]] $B String$) is discussed in
+
 
 * _On the integral cohomology of the seven-connective cover of B O_ Bull. Austral. Math. Soc. Vol 38 (1988) ([pdf](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ38_01%2FS0004972700027179a.pdf&code=8374f17b7aa6ffb83f42f347c677729f))
 
