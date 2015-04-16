@@ -1,26 +1,37 @@
 
+
 $$
   \array{
-    E \times_B B' &\to& B'
+    && && S \underset{E}{\times} S \underset{E}{\times} S
     \\
-    \downarrow && \downarrow
+    && & \swarrow && \searrow
     \\
-    Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
+    && S \underset{E}{\times} S && && S \underset{E}{\times} S
     \\
-    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
-    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
+    & \swarrow && \searrow && \swarrow && \searrow
     \\
-    E &\stackrel{\in F}{\to}& B
+    S && && S && && S
+    \\
+    & \searrow && \swarrow && \searrow && \swarrow
+    \\
+    && E && = && E
   }
-  \,,
 $$
 
-this is a list:
-
-* first item
-
-* second item with a displayed equation
-$$x = y$$
-and more text
-
-* third item
+$$
+  \array{
+    && && S \underset{E}{\times} S \underset{E}{\times} S
+    \\
+    && & \swarrow && \searrow
+    \\
+    && S \times G && && S\times G
+    \\
+    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{\rho}} && {}^{\mathllap{\rho}}\swarrow && \searrow^{\mathrlap{p_1}}
+    \\
+    S && && S && && S
+    \\
+    & \searrow && \swarrow && \searrow && \swarrow
+    \\
+    && E && = && E
+  }
+$$
