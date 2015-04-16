@@ -1,5 +1,10 @@
+[[!redirects geometric quantization with KU-coefficients]]
 
-> this is a sub-chapter of _[[geometry of physics]]_. See there for context.
+> This entry is a chapter of _[[geometry of physics]]_. See there for context.
+
+> previous chapters: _[[geometry of physics -- modules|modules]]_
+
+***
 
 #Contents#
 * table of contents
