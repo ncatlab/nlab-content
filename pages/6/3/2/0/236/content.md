@@ -191,6 +191,13 @@ Higgins used this idea to lift presentations of a group $G$ to presentations of 
 In the case where the action is [[internalization|internal]] to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S//G$.
 
 
+## Properties
+
+### Relation to representation theory
+
+The action groupoids $X//G$ of a group $G$ come equipped with a canonical map to $\mathbf{B}G \simeq \ast //G$. Regarded via this map as objects in the [[slice (infinity,1)-category|slice]] of groupoids over $\mathbf{B}G$, action groupoids are in fact [[equivalence|equivalent]] to the actions that they arise from.
+
+For more on this see at _[[infinity-action]]_ and also at _[[geometry of physics -- representations and associated bundles]]_.
 
 ## Action $\infty$-groupoid {#ActionooGrpd}
 
