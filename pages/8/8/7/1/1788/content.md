@@ -35,3 +35,16 @@ $$
     && E && = && E
   }
 $$
+
+$$
+  \array{
+    \mathbf{B}G && \stackrel{\sigma}{\longrightarrow} && S//G
+    \\
+    & {}_{\mathllap{id}}\searrow 
+    &\swArrow_{\mathrlap{\simeq}}& 
+    \swarrow_{\mathrlap{p_\phi}}
+    \\
+    && \mathbf{B}G
+  }
+  \,,
+$$
