@@ -690,7 +690,7 @@ cohomologous to a normalized one, def. \ref{Normalized2Cocycle}.
 
 =--
 
-+-- {: .num_proof}
++-- {: .proof}
 ###### Proof
 
 By lemma \ref{2CocycleOngeisSameasOnee} it is sufficient to 
