@@ -5,6 +5,7 @@
 ## Related entries
 
 * [[Lefschetz trace formula]]
+* [[Lefschetz theorem on (1,1)-classes]]
 
 category: people
 
