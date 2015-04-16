@@ -37,14 +37,15 @@ $$
 $$
 
 $$
-  \array{
-    \mathbf{B}G && \stackrel{\sigma}{\longrightarrow} && S//G
-    \\
-    & {}_{\mathllap{id}}\searrow 
-    &\swArrow_{\mathrlap{\simeq}}& 
-    \swarrow_{\mathrlap{p_\phi}}
-    \\
-    && \mathbf{B}G
-  }
-  \,,
+  \tilde \phi
+  \;\colon\;
+  (\rho_3(s_3)(g), s_1)
+  \mapsto
+  \rho_2
+  (
+     \phi(s_3)( \rho_1(s_1)(g^{-1})))(g) 
+  )
+ \,.
 $$
+
+
