@@ -27,4 +27,8 @@ A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and 
 
 * [[continuation monad]]
 
+* [[state monad]]
+
+* [[function monad]] (reader monad)
+
 [[!redirects state monads]]
