@@ -18,7 +18,7 @@ In the context of [[modal logic]], by _possible world semantics_ one means the i
 
 For formalization of this in terms of [[hyperdoctrines]]/[[dependent type theory]] see at _[necessity and possibility -- In first-order logic and dependent type theory](http://ncatlab.org/nlab/show/necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_.
 
-Under [[categorical semantics]] such a context interprets as an [[object]] of some [[category]] whose interpretation is similar to that of a [[probability space]] in [[measure theory]] -- which is indeed one sensible example of semantics for possible worlds.
+Under [[categorical semantics]] such a context interprets as an [[object]] of some [[category]] whose interpretation is similar to that of a [[probability space]] in [[measure theory]] -- which is one sensible formalization of possible worlds (e.g. [Toronto-McCarthy 10, slide 23](#TorontoMcCarthy10)).
 
 ## Related concepts
 
@@ -30,6 +30,8 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 
 * Stanford Encyclopedia of Mathematics _[Possible Worlds](http://plato.stanford.edu/entries/possible-worlds/)_
 
-* Stanford Encyclopedia of Mathematics, _[Modal Logic -- Possible words semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+* Stanford Encyclopedia of Mathematics, _[Modal Logic -- Possible worlds semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+
+* {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
 [[!redirects possible worlds]]
