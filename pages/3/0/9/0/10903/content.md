@@ -1045,6 +1045,8 @@ A [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longr
 
 This is conceptually just how the [[path integral]] in [[physics]] is supposed to work, only that mostly it doesn't due to lack of a definition. However, at least some path integrals for [[topological field theories]] may be realized as secondary integral transforms of the above kind.
 
+Notice that the while in [[modal type theory]] the ([[comonad|co-]])[[monads]] $(f^\ast \sum_f \dashv f^\ast \prod_f)$ are prononced as _[[possibility]]_ and _[[necessity]]_, the monad $\prod_f f^\ast$ appearing above, via def. \ref{FiberwiseFundamentalClass}, may be pronounced _randomness_, see at _[[function monad]]_ for more.
+
 =--
 
 +-- {: .num_example #SigmaFunctorAsSecondaryTransform}
