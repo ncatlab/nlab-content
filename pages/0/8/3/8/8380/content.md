@@ -95,6 +95,8 @@ Various monads are _definable_ in terms of the the standard type-forming operati
 
 * A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer monad]].
 
+  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$. 
+
 Other monads may be supplied "axiomatically" by the programming language, 
 This includes
 
