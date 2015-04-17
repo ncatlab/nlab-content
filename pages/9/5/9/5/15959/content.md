@@ -331,6 +331,85 @@ given by forming [[loop space objects]] and by forming deloopings.
 =--
 
 
+
+
+##### Topological and Lie groups
+
+* [[topological group]]
+
+* [[Lie group]]
+
+* [[smooth group]]
+
+
+#### 2-Groups
+
+With the above perspective on ordinary groups, it is now essentially clear what [[infinity-groups|higher groups]] in [[homotopy theory]] are to be. We discuss this in full generality below, but of course it serves to highlight the first higher case, that of [[2-groups]].
+
+The idea is clear: where a group is equivalently a pointed connected [[homotopy 1-type]]/[[groupoid]] in that it is the [[loop space object]] of such a pointed connected type, a [[2-group]] is equivalently a pointed connected [[homotopy 2-type]]/[[2-groupoid]] in that it is its [[loop space object]].
+
+In general this means that a [[2-group]] is a [[groupoid]] that is equipped with the structure of a group for which the usual axioms ([[associativity]], [[inverses]]) hold (only) up to [[coherence|coherent]] [[homotopy]]. One hence speaks of _[[weak 2-groups]]_.
+
+But it turns out that in this low degree there is not too much space for such weakening to happen. Indeed, every [[2-groupoid]]/[[homotopy 2-type]] has a model by a [[strict 2-groupoid]], see also at _[homotopy hypothesis -- for homotopy 2-types](homotopy+hypothesis#For2Groupoids)_. Accordingly, every (discrete) [[2-group]] is equivalent to one which is a [[groupoid]] equipped with strict group structure, where the axioms hold "on the nose". The algebraic data encoded by such is known as a _[[crossed module]]_ of groups.
+
+##### Discrete 
+
+* [[2-group]]
+
+* [[crossed module]]
+
+##### Braided and abelian
+
+* [[braided 2-group]]
+
+* [[symmetric 2-group]]
+
+#### Simplicial groups
+ {#SimplicialGroups}
+
+
+##### Discrete
+
+* [[simplicial group]]
+
+##### Abelian
+
+* [[abelian group]]
+
+##### Topological and Lie simplicial groups
+
+* [[simplicial topological space]]
+
+* [[geometric realization of simplicial topological spaces]]
+
+
+#### Chain complexes and Spectra
+
+##### Chain complexes and the Dold-Kan correspondence
+
+At _[[geometry of physics -- homotopy types]]_
+is discussed how the [[Dold-Kan correspondence]] allows to think of [[chain complexes]] in non-negative degree as [[homotopy types]], namely as [[Kan complexes]] underlying [[simplicial abelian groups]] which are [[equivalence of categories|equivalent]] to the chain complexes, via the [[normalized chain complex]] operation, see the section _[geometry of physics -- homotopy types -- Dold-Kan correspondence](geometry%20of%20physics%20--%20homotopy%20types#DoldKanCorrespondence)_.
+
+But by the discussion [above](#SimplicialGroups) of [[simplicial groups]],
+this means that actually the Dold-Kan correspondence identifies chain complexes with a certain class of [[abelian ∞-groups]].
+
+(...)
+
+##### Spectra and the stable Dold-Kan correspondence
+
+While, under the [[Dold-Kan correspondences]], 
+chain complexes are [[abelian ∞-groups]], they do not exhaust the space of all objects that deserve to be called such. The general concept of [[abelian ∞-groups]]
+is the concept called _[[spectrum]]_ in [[algebraic topology]], [[stable homotopy types]].
+
+* [[stable Dold-Kan correspondence]]
+
+
+
+
+
+#### Group cohomology
+
+
 ##### Discrete group cohomology
 
 One of the remarkable conceptual simplifications brought about by general [[homotopy theory]] pertains to the general concept of [[cohomology]]: effectively every flavor of cohomology that has been considered turns out to be nothing but the theory of [[derived hom space|(infinity,1)-categorical hom spaces]] in a suitable [[(infinity,1)-topos]].
@@ -795,116 +874,9 @@ $$
 
 
 
-##### Topological and Lie groups
-
-* [[topological group]]
-
-* [[Lie group]]
-
-#### Simplicial groups
-
-
-##### Discrete
-
-* [[simplicial group]]
-
-##### Abelian
-
-* [[abelian group]]
-
-##### Topological and Lie simplicial groups
-
-* [[simplicial topological space]]
-
-* [[geometric realization of simplicial topological spaces]]
-
-#### Connected groupoids
-
-any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
-  
-$$
-  \mathbf{B}G
-  =
-  * \sslash G
-  = 
-  \left(
-     G \stackrel{\to}{\to} * 
-  \right)
-  \,.
-$$
-
-
-#### 2-Groups
-
-##### Discrete
-
-* [[2-group]]
-
-* [[crossed module]]
-
-##### Braided and abelian
-
-* [[braided 2-group]]
-
-* [[symmetric 2-group]]
-
-#### Abelian $\infty$-groups
-
-##### Chain complex
-
-* [[chain complex]]
-
-##### Spectrum
-
-* [[spectrum]], [[infinite loop space]]
-
-##### Dold-Kan correspondence
-
-* [[simplicial group]], [[Dold-Kan correspondence]], [[chain complex]]
-
-* [[stable Dold-Kan correspondence]]
-
-+-- {: .num_defn #DKMap}
-###### Definition
-
-Write 
-
-$$
-  DK 
-  \colon
-  Ch_\bullet(Ab(Smooth0Type))
-  \stackrel{\Xi}{\to}
-  sAb(Smooth0Type)
-  \to
-  Smooth0Type^{\Delta^{op}}
-  \to
-  L_{whe} Smooth0Type^{\Delta^{op}}
-  \simeq
-  Smooth \infty Grpd
-$$
-
-for the functor that sends a [[chain complex]] of [[abelian group|abelian]] [[group objects]] in [[smooth spaces]] first to the [[simplicial abelian group]] in [[smooth spaces]] given by the [[Dold-Kan correspondence]], then [[forgetful functor|forgets]] the abelian group structure and finally regards the resulting [[simplicial object|simplicial]] smooth space as a [[smooth ∞-groupoid]] under [[simplicial localization]].
-
-=--
-
-#### Cohomology
-
-* [[cohomology]]
-
-##### Nonabelian cohomology
-
-
-* [[nonabelian cohomology]]
-
-##### Abelian sheaf cohomology
- {#AbelianSheafCohomology}
-
-* [[abelian sheaf cohomology]]
-
-* [[Cech cohomology]]
-
-
 ### Semantic Layer
+
+(...)
 
 #### $A_\infty$-types
 
