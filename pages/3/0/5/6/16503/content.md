@@ -68,3 +68,6 @@ Discussion from a point of view of [[type theory]]/[[computer science]] includes
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
 [[!redirects random variables]]
+
+[[!redirects stochastic variable]]
+[[!redirects stochastic variables]]
