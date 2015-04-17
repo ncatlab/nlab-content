@@ -97,6 +97,17 @@ That we have [[adjoint functor]]s/[[adjoint (∞,1)-functor]]s $(f_! \dashv f^*)
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The ([[comonad|co-]])[[monads]] induced by the [[adjoint triple]] in prop. \ref{BaseChangeIsEssentialGeometricMorphism} have special names in some contexts:
+
+* $f_\ast f^\ast$ is also called the [[function monad]] (or "[[reader monad]]", see at _[[monad (in computer science)]]_).
+
+* in [[modal type theory]] $f^\ast f_\ast$ is _[[necessity]]_ while $f_! f^\ast$ is _[[possibility]]_.
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
