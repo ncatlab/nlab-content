@@ -95,6 +95,7 @@ The [[2-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s, and [[natural transf
 =--
 
 ### For 2-groupoids
+ {#For2Groupoids}
 
 (...) [[2-groupoid]]s model all [[homotopy n-type|homotopy 2-type]]s (...)
 
