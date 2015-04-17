@@ -36,7 +36,9 @@ A strict 2-groupoid is in particular a [[strict 2-category]] and a [[2-groupoid]
 
 Strict $2$-groupoids embed into all $2$-groupoids (modeled by [[bigroupoids]]) by regarding a strict $2$-category as a special case of a [[bicategory]].  They embed into all $2$-groupoids modeled as [[Kan complex]]es via the [[omega-nerve]].
 
-A strict 2-groupoid can also be identified with a [[crossed complex]] of the form $(G_2 \to G_1 \stackrel{\to}{\to} G_0)$.
+A strict 2-groupoid can also be identified with a [[crossed complex]] of the form $(G_2 \to G_1 \stackrel{\longrightarrow}{\longrightarrow} G_0)$.
+
+Strict 2-groupoids still model all [[homotopy 2-types]]. See also at _[homotopy hypothesis -- for homotopy 2-types](homotopy+hypothesis#For2Groupoids)_.
 
 ## Examples
 
