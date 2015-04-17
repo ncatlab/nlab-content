@@ -141,5 +141,9 @@ Tom Leinster at nCafe [here](http://golem.ph.utexas.edu/category/2010/03/a_persp
 * John C. Baez, Jacob D. Biamonte, _A course on
 quantum techniques for stochastic mechanics_, [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
 
+Discussion from a perspective of [[formal logic]]/[[type theory]] is in 
+
+* {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014 ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
+
 [[!redirects probability]]
 [[!redirects probabilities]]
