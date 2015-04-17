@@ -11,6 +11,7 @@
 
 * _[[A History of Western Philosophy]]_, 1945
 
+* _[[Logic as the Essence of Philosophy]]_
 
 ## Related entries
 
