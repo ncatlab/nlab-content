@@ -18,7 +18,11 @@ In the context of [[modal logic]], by _possible world semantics_ one means the i
 
 For formalization of this in terms of [[hyperdoctrines]]/[[dependent type theory]] see at _[necessity and possibility -- In first-order logic and dependent type theory](http://ncatlab.org/nlab/show/necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_.
 
+Under [[categorical semantics]] such a context interprets as an [[object]] of some [[category]] whose interpretation is similar to that of a [[probability space]] in [[measure theory]] -- which is indeed one sensible example of semantics for possible worlds.
+
 ## Related concepts
+
+* [[probability space]]
 
 * [[multiverse]]
 
