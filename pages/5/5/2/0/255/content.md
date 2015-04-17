@@ -128,6 +128,22 @@ Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adj
 
 ## Examples 
 
+### General
+
+General types of monads that have standard usages also as [[monad (computer science)|monads in computer science]] include
+
+* [[state monad]]
+
+* [[continuation monad]]
+
+* [[maybe monad]]
+
+* [[function monad]]
+
+also 
+
+* [[necessity]] and [[possibility]] monad.
+
 ### Monads in Cat
 
 Monads are often considered in the 2-category [[Cat]] where they are given by [[endofunctors]] with a monoid structure on them.  In particular, monads _in_ [[Cat]] _on_ [[Set]] are equivalent to the equational theories studied in universal algebra.  In this context, a monad abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
