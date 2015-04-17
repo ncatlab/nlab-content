@@ -361,7 +361,7 @@ See also
 
 An survey of and introduction to the topic is in 
 
-* Patrick Meessen, _Strings Moving on Group Manifolds: The WZW Model_ ([pdf](http://www.unioviedo.es/meessen/fysica/zooi/WZW_ClassMunoz.pdf))
+* Patrick Meessen, _Strings Moving on Group Manifolds: The WZW Model_ ([pdf](http://www.unioviedo.es/hepth/people/Patrick/fysica/zooi/WZW_ClassMunoz.pdf))
 
 A classical textbook accounts include
 
@@ -405,6 +405,7 @@ Discussion of [[circle n-bundle with connection|circle 2-bundles with connection
 Discussion of how this 2-bundle arises from the [[Chern-Simons circle 3-bundle]] is in
 
 * [[Alan Carey]], Stuart Johnson, [[Michael Murray]], [[Danny Stevenson]], [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_ 	Commun.Math.Phys. 259 (2005) 577-613 ([arXiv:math/0410013](http://arxiv.org/abs/math/0410013))
+
 
 and related discussion is in
 
