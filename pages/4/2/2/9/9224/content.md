@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $(X, \mu)$ a [[measure space]] of finite total measure $\int_X \mu$ and for $f$ an [[measurable function]] on $X$, its **expectation value** is 
+For $(X, \mu)$ a [[measure space]] of finite total measure $\int_X \mu$ and for $f$ an [[measurable function]] on $X$, a _[[random variable]]_, then its **expectation value** is 
 
 $$
   \langle f\rangle
