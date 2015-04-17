@@ -29,7 +29,7 @@ Notice that in this respect probability theory has a similar status as (other(?!
 
 ### Basic theory
 
-Random variables are defined typically in terms of probability spaces, cf. the basic entries on [[measure space]], [[probability space]], [[conditional expectation|conditional probability]]. Modern point of view is emphasising that many facts on random variables do not depend much on the choice of the probability spaces; the random variables are also often identified with their distributions.
+[[random variable|Random variables]] are defined typically in terms of [[probability spaces]], cf. the basic entries on [[measure space]], [[probability space]], [[conditional expectation|conditional probability]]. The modern point of view  emphasises that many facts about [[random variables]] do not depend much on the choice of the probability spaces; the random variables are also often identified with their distributions.
 
 Some argue that in the study of measure and probability, one should start not only with sigma algebra of measurable sets but also another of null sets. Somehow this is abstractly captured by the approach of commutative [[von Neumann]] algebras. 
 
