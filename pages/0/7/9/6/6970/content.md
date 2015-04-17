@@ -113,6 +113,8 @@ $$
   \,.
 $$
 
+See also at _[[function monad]]_.
+
 ### Application in logic
 
 In [[logic]], functions types express [[implication]]. More precisely, for $\phi, \psi$ two [[propositions]], under [[propositions as types]] the [[implication]] $\phi \Rightarrow \psi$ is the function type $\phi \to \psi$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
@@ -120,6 +122,8 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 ## Related concepts
 
 * [[function application]]
+
+* [[function monad]]
 
 * [[dependent product type]]
 
