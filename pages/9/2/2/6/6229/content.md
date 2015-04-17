@@ -15,9 +15,15 @@
 
 ## Idea
 
-A _probability space_ is a [[measure space]] whose [[measure]] is a [[probability distribution]]: its [[integral]] is 1.
+In _[[probability theory]]_, a _probability space_ is a [[measure space]] $(X,\mu)$ whose [[measure]] $\mu$ is a [[probability distribution]]: its [[integral]] is $\int_X \mu = 1$.
+
+One thinks of the elements $x\in X$ as possible configurations of a system subject to randomness, hence of $X$ as a space of "[[possible worlds]]" in the idealized situation under consideration, and for any [[subset]] $U \subset X$ one thinks of $\int_U \mu$ as the [[probability]] that the system is found in a configuration $x$ which lies in $U$.
+
+Accordingly, a [[measurable function]] $f$ on a probability space has the interpretation of a _[[random variable]]_. Its [[integral]] $\langle f\rangle \coloneqq \int_X f \cdot\mu$ is its [[expectation value]].
 
 ## Related concepts
+
+* [[random variable]]
 
 * [[expectation value]], [[moment]]
 
