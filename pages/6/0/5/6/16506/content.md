@@ -39,6 +39,10 @@ that produces the [[internal hom]] out of $W$, i.e. the [[function type]] out of
 
 In the context of [[monad (in computer science)|monads in computer science]] (notably in the [[Haskell]] [[programming language]]) this is called the _reader monad_ or the _environment monad_.
 
+It also makes sense to think of $[W,-]$ as producing spaces of [[random variables]] ([Verdier 14](#Verdier14)) depending on [[possible worlds]] $w\in W$ ([Toronto-McCarthy 10, slide 24](#TorontoMcCarthy10)). 
+
+>  The intuition behind the Reader monad, for a mathematician, is perhaps stochastic variables. A stochastic variable is a function from a probability space to some other space. So we see a stochastic variable as a monadic value. ([Verdier 14](#Verdier14))
+
 (While, from the perspective of [[modal type theory]], its siblings $W^\ast \prod_W$ and $W^\ast \sum_W$ may be called _[[necessity]]_ and _[[possibility]]_, respectively).
 
 ## Related concepts
@@ -52,6 +56,10 @@ In the context of [[monad (in computer science)|monads in computer science]] (no
 ## References
 
 * Wikipedia, _[Environment monad](http://en.wikipedia.org/wiki/Monad_%28functional_programming%29#Environment_monad)_.
+* {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+
+* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
+
 
 [[!redirects reader monads]]
 
