@@ -85,7 +85,7 @@ Other philosophical systems, Hegel claims (see also ([[Lectures on the History o
 
 * [[Fichte]]'s principle that philosophy should be _deriving_ determinations  ([LectHistPhil-Fichte](Lectures+on+the+History+of+Philosophy#FichteVorzugWissenschaft)) by "[[speculation]]" ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesNonSpeculative))
 
-Also there is clearly for instance some serious [[structuralism]] (e.g. [&#167;1065a](#1065a)) in the _Science of Logic_.
+Also there is some serious [[structuralism]] (e.g. [&#167;1065a](#1065a)) in the _Science of Logic_.
 
 {#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  [&#167;62](#62), [&#167;63](#63) this is to claim that the _process_ is indeed being systematically derived and proven ([&#167;50](#50), [[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) as the _Arbeit des Begriffs_ ([PhenVorr](Phenomenology+of+Spirit#ArbeitDesBegriffs)) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). 
 Indeed, in [PhenGeistVorrede]() and in [&#167;8](#8), [&#167;9](#9), [&#167;10](#10), [&#167;11](#11), [&#167;50](#50), [&#167;51](#51), [&#167;52](#52), [&#167;53a](#53a), [&#167;53b](#53b) Hegel explains that the _Phenomenolgy of the Spirit_ is to be regarded as the "first part of the system" in that it establishes the necessary spiritual background to embark on the intellectual project of the _Science of Logic_, that a spirit which is to see and follow the speculative dialectics and the "work on the notion" that is the content of the _Science of Logic_ needs to previously have worked itself through the stages all the way starting from sensual perception, conciousness, reason, via moral and intellectual education, through various stages of religion, to finally achieve the stage of "absolute knowledge".
@@ -2439,6 +2439,7 @@ We now find an externalization of the idea such that
 
 This is a "[[nLab:theory of everything]]" in the sense of modern fundamental physics, which is beeing argued to have viable [[nLab:string phenomenology|phenomenology]], see at _[[nLab:G2-MSSM]]_ for more on this. Even if it turns out that there are no [[nLab:model (physics)|models]] in this theory which match quantitative measurements in [[nLab:experiment]], it is noteworthy that the qualitative structure of this theory is that of [[nLab:Einstein-Yang-Mills-Dirac-Higgs theory]] and hence matches faithfully the qualitative features of nature that is in [[nLab:experiment]]. Given our starting point [above](#TheGround) this is maybe not to be lightly dismissed.
 
+
 ##### Externalization
  {#Externalization}
 
@@ -3368,7 +3369,7 @@ Our **paragraph numbering** is as follows:
 | Ding | [[object]] of the [[category]] | [&#167;1065a](#1065a) |
 | M&#246;glichkeit, possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge_W = W^\ast \sum_W$ = [[dependent sum]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
 | Notwendigkeit, necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box = W^\ast \prod_W$ = [[dependent product]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
-| Zuf&#228;lligkeit, randomness, contingency | [[function monad]] $\prod_W W^\ast$ = [[context extension]] followed by [[dependent product]] | [&#167;1191](#1191) etc., [Ver14](function+monad#Verdier14), [Tor-McCac10](function+monad#TorontoMcCarthy10) |
+| Zuf&#228;lligkeit, randomness, contingency | [[function monad]] $\prod_W W^\ast$ = [[context extension]] followed by [[dependent product]] | [&#167;1191](#1191) etc., [TorMcCar10a](function+monad#TorontoMcCarthy10a), [TorMcCar10b](function+monad#TorontoMcCarthy10b), [Ver14](function+monad#Verdier14) |
 | eigentliche Wirklichkeit, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
 | everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
@@ -3644,6 +3645,7 @@ mechanical nature of [[formal logic]]
 
 
 > {#62} &#167;62 Das Einzige, um den wissenschaftlichen Fortgang zu gewinnen &#8211; und um dessen ganz einfache Einsicht sich wesentlich zu bem&#252;hen ist &#8211;, ist die Erkenntnis des logischen Satzes, da&#223; das Negative ebensosehr positiv ist oder da&#223; das sich Widersprechende sich nicht in Null, in das abstrakte Nichts aufl&#246;st, sondern wesentlich nur in die Negation seines besonderen Inhalts, oder da&#223; eine solche Negation nicht alle Negation, sondern die Negation der bestimmten Sache, die sich aufl&#246;st, somit bestimmte Negation ist; da&#223; also im Resultate wesentlich das enthalten ist, woraus es resultiert, &#8211; was eigentlich eine Tautologie ist, denn sonst w&#228;re es ein Unmittelbares, nicht ein Resultat. Indem das Resultierende, die Negation, bestimmte Negation ist, hat sie einen Inhalt. Sie ist ein neuer Begriff, aber der h&#246;here, reichere Begriff als der vorhergehende; denn sie ist um dessen Negation oder Entgegengesetztes reicher geworden, enth&#228;lt ihn also, aber auch mehr als ihn, und ist die Einheit seiner und seines Entgegengesetzten. &#8211; In diesem Wege hat sich das System der Begriffe &#252;berhaupt zu bilden &#8211; und in unaufhaltsamem, reinem, von au&#223;en nichts hereinnehmendem Gange sich zu vollenden.
+
 
 > &#167;62 All that is necessary to achieve scientific progress &#8212; and it is essential to strive to gain this quite simple insight &#8212; is the recognition of the logical principle that the negative is just as much positive, or that what is self-contradictory does not resolve itself into a nullity, into abstract nothingness, but essentially only into the negation of its particular content, in other words, that such a negation is not all and every negation but the negation of a specific subject matter which resolves itself, and consequently is a specific negation, and therefore the result essentially contains that from which it results; which strictly speaking is a tautology, for otherwise it would be an immediacy, not a result. Because the result, the negation, is a specific negation, it has content. It is a fresh Notion but higher and richer than its predecessor; for it is richer by the negation or opposite of the latter, therefore contains it, but also something more, and is the unity of itself and its opposite. It is in this way that the system of Notions as such has to be formed &#8212; and has to complete itself in a purely continuous course in which nothing extraneous is introduced.
 
@@ -5734,15 +5736,19 @@ $$
   (W\to V)
 $$
 
-is the space of $V$-valued functions on the space of [[possible worlds]]. A modern mathematical incarnation of spaces of "possible worlds" (possible configurations of a system under consideration) are [[probability spaces]] (e.g. [Toronto-McCarthy 10, slide 23](function+monad#TorontoMcCarthy10)). Now the space of ([[measurable function|measurable]]) functions on a probability space $W$ is to be interpreted as its space of _[[random variables]]_ ([[stochastic variables]]). 
+is the space of $V$-valued functions on the space of [[possible worlds]]. A modern mathematical incarnation of spaces of "possible worlds" (possible configurations of a system under consideration) are [[probability spaces]] (e.g. [Toronto-McCarthy 10b, slide 23](function+monad#TorontoMcCarthy10b)). Now the space of ([[measurable function|measurable]]) functions on a probability space $W$ is to be interpreted as its space of _[[random variables]]_ ([[stochastic variables]]). 
 
-In the context of [[monad (in computer science)|monads in computr science]], the [[function monad]] $[W,-]$ is called the _[[reader monad]]_. [Verdier 14](function+monad#Verdier14) writes:
+In the context of [[monad (in computer science)|monads in computer science]], the [[function monad]] $[W,-]$ is called the _[[reader monad]]_. [Verdier 14](function+monad#Verdier14) writes:
 
 > The intuition behind the Reader monad, for a mathematician, is perhaps stochastic variables. A stochastic variable is a function from a probability space to some other space. So we see a stochastic variable as a monadic value.
 
-The same point is in ([Toronto-McCarthy 10, slide 24](http://ncatlab.org/nlab/show/function+monad#TorontoMcCarthy10))
+The same point is in ([Toronto-McCarthy 10b, slide 24](http://ncatlab.org/nlab/show/function+monad#TorontoMcCarthy10b)) and then  [Toronto-McCarthy 10b, slide 35](function+monad#TorontoMcCarthy10b) writes:
 
-Therefore $\prod_W W^\ast$ expresses aspects of _Zuf&#228;lligkeit_, _randomness_, _contingency_.
+> you could interpret this by regarding random variables as reader monad computations. 
+
+Accordingly, [Toronto-McCarthy 10a, 2.2](function+monad#TorontoMcCarthy10b) calls $\prod_W W^\ast = [W,-]$ the _random variable idiom_.
+
+Hence we conclude that $\prod_W W^\ast$ expresses core aspects of _Zuf&#228;lligkeit_, _randomness_, _contingency_ much like $W^\ast \prod_W$ expresses [[necessity]].
 
 More concretely, by the discussion at _[[dependent linear type theory]]_ and _[[schreiber:Quantization via Linear homotopy types]]_, the [secondary integral transforms](dependent+linear+type+theory#SecondaryIntegralTransforms) on [[linear types|linear types]] which formalize aspects of [[path integral quantization]] are all controled by the actoin of $\prod_W W^\ast$ on [[linear type theory|linear types]]. Of course an intrinsic randomness is the very hallmark of [[quantum mechanics]], which is the actual reality, hence we see that in [[linear homotopy type theory]] the relation of $\prod_W W^\ast$ to aspects of randomness is stronger still.
 
