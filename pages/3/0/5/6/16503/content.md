@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[probability theory]] a _random variable_ is meant to be quantity that is subject to random variation.
+In [[probability theory]] a _random variable_ or _stochastic variable_ is meant to be quantity that is subject to random variation.
 
 ## Definition
 
@@ -31,6 +31,17 @@ $$
 
 of $f$ against the [[probability measure]], i.e. the average value of the random variable over all possible configuration, weighted by their [[probability]].
 
+## Properties
+
+### Relation to type theoretic constructions
+
+There is at least some similarity of the concept of random variables to usage of the [[function monad]] ("[[reader monad]]") in the context of [[monad (in computer science)|monads in computer science]]. 
+
+This point of view is expressed for instance in ([Toronto-McCarthy 10, p. 24](#TorontoMcCarthy10)).
+
+In [Verdier 14](#Verdier14) it says:
+
+> The intuition behind the Reader monad, for a mathematician, is perhaps stochastic variables. A stochastic variable is a function from a probability space to some other space. So we see a stochastic variable as a monadic value.
 
 ## Related concepts
 
@@ -49,5 +60,11 @@ Surveys and lecture notes include
 * {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
 
 * Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_.
+
+Discussion from a point of view of [[type theory]]/[[computer science]] includes
+
+* {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+
+* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
 [[!redirects random variables]]
