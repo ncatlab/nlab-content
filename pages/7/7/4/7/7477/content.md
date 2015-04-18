@@ -29,6 +29,35 @@ The category of [[Alexandroff locales]] is equivalent to that of completely dist
 
 This appears as remark 4.3 in ([Caramello 2011](#Caramello11)).
 
+### Completely distributive Boolean algebras 
+
++-- {: .num_prop} 
+###### Proposition 
+A complete Boolean algebra $B$ is completely distributive iff it is atomic (a [[CABA]]), i.e., is a [[power set]] as a Boolean algebra. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For a complete atomic Boolean algebra $B$, it is classical that the canonical map $B \to P(atoms(B))$, sending each $b \in B$ to the set of atoms below it, is an isomorphism. Such power sets are products of copies of $\mathbf{2} = \{0 \leq 1\}$, which is completely distributive (as is any complete [[total order|totally ordered]] set), and products of completely distributive lattices are completely distributive. 
+
+In the other direction, if $B$ is completely distributive, then we may write 
+
+$$1 = \bigwedge_{b \in B} (b \vee \neg b) = \bigvee_{f: B \to \mathbf{2}} \bigwedge_{b \in B} \alpha(f(b), b)$$ 
+
+where we define $\alpha(0, b) \coloneqq \neg b$ and $\alpha(1, b) \coloneqq b$. Write $a(f)$ as an abbreviation of $\bigwedge_{b \in B} \alpha(f(b), b)$. We have 
+
+$$b = b \wedge 1 = b \wedge \bigvee_{f: B \to \mathbf{2}} a(f) = \bigvee_{f: B \to \mathbf{2}} b \wedge a(f)$$ 
+
+so $b \wedge a(f) \neq 0$ for some $f$ if $b \neq 0$. Notice that $b \wedge a(f) \neq 0$ implies $f(b) = 1$, from which we infer two things: 
+
+* Whenever $b \leq a(f)$ with $b \neq 0$, then $a(f) \leq \alpha(f(b), b) = \alpha(1, b) = b$; therefore $a(f)$ is an [[atom]] whenever $a(f) \neq 0$; 
+
+* Provided that $b \wedge a(f) \neq 0$, the preceding point gives that $a(f)$ is an atom below $b \wedge a(f) \leq b$. 
+
+The last point shows every element $b$ has an atom $a(f)$ below it, so that $B$ is atomic, as was to be shown. 
+=-- 
+
+
 ### Constructive complete distributivity
 
 A complete lattice $A$ is called **constructively completely distributive** (CCD) if the join-assigning morphism $D A \to A$ has a left adjoint, with $D A$ the poset of [[downsets]]. 
