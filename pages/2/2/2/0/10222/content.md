@@ -95,3 +95,6 @@ In the last few examples, each part of a partition is an [[inhabited set]].  In 
 
 [[!redirects partition]]
 [[!redirects partitions]]
+
+[[!redirects tagged partition]]
+[[!redirects tagged partitions]]
