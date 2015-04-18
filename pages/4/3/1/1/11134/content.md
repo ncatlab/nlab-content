@@ -18,7 +18,41 @@
 
 The _state monad_ is a [[monad (in computer science)]] used to implement computational side-effects in [[functional programming]].
 
-A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _state monad_ for mutable states of type S.
+A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state type $W$ is a [[function]] ([[morphism]]) of [[type]] $X \times W \longrightarrow Y \times W$. 
+
+Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type 
+
+$$
+  X \longrightarrow [W, W \times Y ]
+ \,.
+$$
+
+Here the operation $[W, W\times (-)]$ is the [[monad]] on the type system which is induced by the above adjunction; and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. 
+
+In the context of [[monad (in computer science)|monads in computer science]], this monad $[W, W\times (-)] \colon \mathbf{H} \to \mathbf{H}$ is called the _state monad_ for mutable states of type $W$.
+
+## Properties
+
+### Realization in dependent type theory
+
+In a [[locally Cartesian closed category]]/[[dependent type theory]] $\mathbf{H}$, then to every type $W$ is associated its [[base change]] [[adjoint triple]]
+
+$$
+  \mathbf{H}_{/W}
+   \stackrel{\overset{\sum_W}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_S}{\longrightarrow}}}
+  \mathbf{H}
+  \,.
+$$
+
+In terms of this the state monad is the composite
+
+$$
+  State = \prod_W W^\ast \sum_W W^\ast
+$$
+
+of [[context extension]] followed by [[dependent sum]], followed by [[context extension]], followed by [[dependent product]].
+
+Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_.
 
 
 ## Related concepts
