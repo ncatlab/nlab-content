@@ -33,6 +33,13 @@ In the context of [[monads in computer science]] this monad is called the _reade
 
 ## Properties
 
+### Relation to the writer comonad and state monad
+
+In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$,
+the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] to the [[writer comonad]] $W\times (-)$.
+
+The composite of writer comonad followed by [[reader monad]] is the [[state monad]].
+
 ### In terms of dependent type theory
 
 If the type system is even a [[locally Cartesian closed category]]/[[dependent type theory]] then for each type $W$ there is the [[base change]] [[adjoint triple]]
@@ -72,7 +79,7 @@ In [[Haskell]], the traditional way to model that a program may depend on random
 
 * [[continuation monad]]
 
-* [[state monad]]
+* [[writer comonad]], [[state monad]]
 
 ## References
 
