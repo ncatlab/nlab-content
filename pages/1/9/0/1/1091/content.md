@@ -179,6 +179,9 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
   * [[dependent sum type]], [[dependent product type]]
 
+  * [[necessity]], [[possibility]], [[reader monad]], [[writer comonad]]
+
+
 * [[proper base change theorem]]
 
 ## References
