@@ -3365,6 +3365,7 @@ Our **paragraph numbering** is as follows:
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
+| Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
 | das Aeussere | the ambient category of being $\mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
 | das Innere | the internal [[type universe]] $Type \in \mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
 | das Absolute, absolute Wirklichkeit | [[univalence]], unity of inner and outer type universe $(A \stackrel{\simeq}{\to} B)\simeq (A = B)$ | [&#167;1149](#1149), [&#167;1159](#1159), [&#167;1163c](#1163c), [&#167;1187](#1187) |
@@ -3497,7 +3498,7 @@ $$
     && && && && & Reflexion
     \\
     \\
-    &&&& &&  &\stackrel{}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{}{}
+    &&&& Schein &&  &\stackrel{}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{}{}
     \\
     \\
     && && && && & Erscheinung
@@ -5058,7 +5059,7 @@ See the [Proce&#223;](#Process).
 
 With the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to:
 
-> The ambient category appears within itslef
+> The ambient category appears within itself
 
 See also [&#167;834](#834), [&#167;1036](#1036), [&#167;1037](#1037) below.
 
@@ -5122,12 +5123,26 @@ This fits well also with [Phen&#167;760](#Phen760): "der Begriff des Wesens ist 
 
 #### Der Schein / Illusory Being
 
+> {#818} &#167;818 Das Wesen aus dem Sein herkommend scheint demselben gegenueber zu stehen; dies unmittelbare Sein ist zunaechst das Unwesentliche. Allein es ist zweitens mehr als nur unwesentliches, es ist wesenloses Sein, es ist Schein. Drittens, dieser Schein ist nicht ein aeusserliches, dem Wesen anderes, sondern er ist sein eigner Schein. Das Erscheinen des Wesens in ihm selbst ist die Reflexion.
+
+> &#167;818 Essence that issues from being seems to confront it as an opposite; this immediate being is, in the first instance, the unessential. But secondly, it is more than merely unessential being, it is essenceless being, it is illusory being.
+Thirdly, this illusory being is not something external to or other than essence; on the contrary, it is essence's own illusory being. The showing of this illusory being within essence itself is reflection.
+
+[[type universe]] $Type \in \mathbf{H}$.
+
 ##### A Das Wesentliche und das Unwesentliche / The essential and the unessential
 
 
 ##### B Der Schein / Illusory being
 
+
 ##### C Die Reflexion / Reflection
+
+> {#833} &#167;833 Der Schein ist dasselbe was die Reflexion ist, aber er ist die Reflexion als unmittlebare. 
+
+> &#167;833 Illusory being is the same thing as reflection; but it is reflection as immediate.
+
+[[type universe]]/[[object classifier]]
 
 
 > {#834} &#167;834 Das Wesen ist Reflexion;
@@ -5632,6 +5647,12 @@ It is maybe noteworthy that some physics appears here in the Wesenslogik, even t
 > Die Existenz hat in diesem Dinge ihre Vollst&#228;ndigkeit erreicht, n&#228;mlich in Einem an sich seyendes Seyn oder selbstst&#228;ndiges Bestehen, und unwesentliche Existenz zu seyn; die Wahrheit der Existenz ist daher, ihr Ansichseyn in der Unwesentlichkeit, oder ihr Bestehen in einem Andern und zwar dem absolut Andern, oder zu ihrer Grundlage ihre Nichtigkeit zu haben. Sie ist daher Erscheinung.
 
 #### Die Erscheinung
+
+> {#1084} &#167;1084 Die Erscheinung ist daher Einheit des Scheins und der Existenz
+
+> &#167;1084 Appearance is accordingly the unity of illusory being and Existence.
+
+(Here the English translation does not really seem to work...)
 
 #### Das wesentliche Verh&#228;ltnis
 
