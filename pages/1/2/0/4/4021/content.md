@@ -120,6 +120,13 @@ Lecture notes include
 
 * {#Grigoryan08} Alexander Grigoryan, _Measure theory and probability_, 2008 [pdf](https://www.math.uni-bielefeld.de/~grigor/mwlect.pdf)
 
+* {#Tao10} [[Terence Tao]], _A review of probabiltiy theory_, 2010 ([web](https://terrytao.wordpress.com/2010/01/01/254a-notes-0-a-review-of-probability-theory/))
+
+> just as the natural numbers can be defined abstractly without reference to any numeral system (e.g. by the Peano axioms), core concepts of probability theory, such as random variables, can also be defined abstractly, without explicit mention of a measure space; we will return to this point when we discuss free probability later in this course. 
+
+* [[Terence Tao]], _Free probability_, 2010 ([web](https://terrytao.wordpress.com/2010/02/10/245a-notes-5-free-probability/))
+
+
 * {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
 
 
@@ -134,9 +141,6 @@ Tom Leinster at nCafe [here](http://golem.ph.utexas.edu/category/2010/03/a_persp
 
 * Klain, [[Gian-Carlo Rota]], _Introduction to geometric probability_
 
-* [[Terence Tao]], Blog notes: [a review of probability theory](http://terrytao.wordpress.com/2010/01/01/254a-notes-0-a-review-of-probability-theory)
-
-> just as the natural numbers can be defined abstractly without reference to any numeral system (e.g. by the Peano axioms), core concepts of probability theory, such as random variables, can also be defined abstractly, without explicit mention of a measure space; we will return to this point when we discuss free probability later in this course. 
 
 * John C. Baez, Jacob D. Biamonte, _A course on
 quantum techniques for stochastic mechanics_, [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
