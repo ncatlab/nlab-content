@@ -234,6 +234,11 @@ and is reviewed in
 
 * [[Glenn Barnich]], [[Marc Henneaux]],  section 3 of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_, Journal of Mathematical Physics 37, 5273-5296 (1996) ([arXiv:hep-th/9601124](http://arxiv.org/abs/hep-th/9601124), [DOI 10.1063/1.531726](http://dx.doi.org/10.1063/1.531726))
 
+A lift of the Dickey bracket on equivalence classe of currents to an [[L-infinity algebra|L-infinity bracket]] on actual currents is proposed and constructed in
+
+* {#BarnichFulpLadaStasheff97} [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]], _The sh Lie structure of Poisson brackets in field theory_ ([arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176))
+
+
 ### In variational calculus
 
 A general discussion as above is around definition 9 of
