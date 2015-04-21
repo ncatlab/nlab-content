@@ -26,15 +26,25 @@ Agda can be compiled to Haskell, Epic or Javascript.
 * [[Coq]]
 
 ## References
+ {#References}
 
 General information on Agda is at
 
 * [Agda Wiki](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 
+* _['Hello World!' in Adga](http://progopedia.com/example/hello-world/251/)_
+
+* _[learn-you-an-agda (and achieve enlightment)](https://github.com/liamoc/learn-you-an-agda)_
+
+* Ulf Norell, James Chapman, _Dependently Typed Programming in Agda_ ([pdf](http://www.cse.chalmers.se/~ulfn/darcs/AFP08/LectureNotes/AgdaIntro.pdf))
+
+* [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_
+
+
 A tutorial for use of Agda as an implementation of [[homotopy type theory]] is at
 
-* [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
- {#Brunerie}
+* {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
+ 
 
 * Guillaume Brunerie, _The Agda proof assistant_, slides,  [pdf](http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
 
