@@ -162,6 +162,8 @@ For each $n$, we define a function $A_n: \mathbb{N} \to \mathbb{N}$ by
 where $f^m$ denotes the composition of $m$ copies of $f$. The **Ackermann function** $A: \mathbb{N} \to \mathbb{N}$ is defined by $A(m) = A_m(m)$. 
 =-- 
 
+(named after [[Wilhelm Ackermann]])
+
 We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. 
 
 By property 1 above, $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, $\phi = A_{n+1}$ is also primitive recursive because it satisfies the recursion $\phi(0) = 1$, $\phi(m+1) = A_n (\phi(m))$. 
@@ -312,3 +314,8 @@ Of course, there is always good old Wikipedia:
 [[!redirects partial recursive functions]]
 [[!redirects recursive partial function]]
 [[!redirects recursive partial functions]]
+
+[[!redirects Ackermann function]]
+[[!redirects Ackermann functions]]
+
+
