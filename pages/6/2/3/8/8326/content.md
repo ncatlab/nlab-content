@@ -2645,8 +2645,6 @@ The model in def. \ref{SupergeometricModel} verifies the required determinate ne
 
 The first three items follow with the discussion at [[nLab:∞-cohesive site]].
 
-For identifying $loc_{\mathbb{R}^{0|1}}$ observe that on representables $Hom(-,\mathbb{R}^{0|1})$ gives the odd part of the function algebra, so that the local representable objects are precisely those without odd part, hence the even ones. Since the localization (and $\rightrightarrows$) preserves [[nLab:(∞,1)-colimits]] the statement follows.
-
 =--
 
 +-- {: .num_prop #SublationsRealized}
