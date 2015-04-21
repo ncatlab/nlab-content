@@ -499,7 +499,7 @@ The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, anot
    which we denote by
 
    $$
-     \bigcirc \dashv \Box
+     \Box \dashv \bigcirc
    $$
 
 1. or [[nLab:right adjoint]] to it with 
@@ -513,7 +513,7 @@ The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, anot
    which we denote by
 
    $$
-     \Box \dashv \bigcirc
+     \bigcirc \dashv \Box
      \,.
    $$
 
@@ -522,7 +522,7 @@ The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, anot
 We say that the [[nLab:adjunction]] itself is the _[[nLab:unity of opposites]]_, and we indicate this by labels as in
 
 $$
-  \stackrel{moment}{} \Box \stackrel{unity \atop {of\,opposites}}{\dashv} \bigcirc \stackrel{oppsoite\;moment}{}
+  \stackrel{moment}{} \Box \stackrel{unity \atop {of\,opposites}}{\dashv} \bigcirc \stackrel{opposite\;moment}{}
   \,.
 $$
 
@@ -5331,6 +5331,7 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 
 
 > {#944} &#167;944 Zun&#228;chst geht also der selbstst&#228;ndige Gegensatz durch seinen Widerspruch in den Grund zur&#252;ck; jener ist das Erste, Unmittelbare, von dem angefangen wird, und der aufgehobene Gegensatz oder das aufgehobene Gesetztseyn ist selbst ein Gesetztseyn. Somit ist das Wesen als Grund ein Gesetztseyn, ein Gewordenes. Aber umgekehrt hat sich nur die&#223; gesetzt, da&#223; der Gegensatz oder das Gesetztseyn ein Aufgehobenes, nur als Gesetztseyn ist. Das Wesen ist also als Grund so ausschlie&#223;ende Reflexion, da&#223; es sich selbst zum Gesetztseyn macht, da&#223; der Gegensatz, von dem vorhin der Anfang gemacht wurde und der das Unmittelbare war, die nur gesetzte, bestimmte Selbstst&#228;ndigkeit des Wesens ist, und da&#223; er nur das sich an ihm selbst Aufhebende, das Wesen aber das in seiner Bestimmtheit in sich Reflektirte ist. Das Wesen schlie&#223;t als Grund sich von sich selbst aus, es setzt sich; sein Gesetztseyn,&#8212;welches das Ausgeschlossene ist,&#8212;ist nur als Gesetztseyn, als Identit&#228;t des Negativen mit sich selbst. Die&#223; Selbstst&#228;ndige ist das Negative, gesetzt als Negatives; ein sich selbst Widersprechendes, das daher unmittelbar im Wesen als seinem Grunde bleibt.
+
 
 
 > &#167;944 In the first place, therefore, the self-subsistent opposition through its contradiction withdraws into ground; this opposition is the prius, the immediate, that forms the starting point, and the sublated opposition or the sublated positedness is itself a positedness. Thus essence as ground is a positedness, something that has become. But conversely, what has been posited is only this, that opposition or positedness is a sublated positedness, only is as positedness. Therefore essence as ground is the excluding reflection in such wise that it makes its own self into a positedness, that the opposition from which we started and which was the immediate, is the merely posited, determinate self-subsistence of essence, and that opposition is merely that which sublates itself within itself, whereas essence is that which, in its determinateness, is reflected into itself. Essence as ground excludes itself from itself, it posf its elf; its positedness &#8212; which is what is excluded &#8212; is only as positedness, as identity, of the negative with itself. This self-subsistent is the negative posited as negative; it is self-contradictory and therefore remains immediately in essence as-init ground.
