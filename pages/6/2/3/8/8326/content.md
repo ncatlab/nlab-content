@@ -3361,6 +3361,7 @@ Our **paragraph numbering** is as follows:
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
+| essence opposing itself  | $id \dashv id$ | [&#167;813](#813) | 
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
 | Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
@@ -4328,6 +4329,7 @@ to be quality, then we get from the [[adjoint triple]]
 
 
 
+
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 the duality of dualities
@@ -5050,7 +5052,14 @@ $$
 
 See the [Proce&#223;](#Process).
 
+> {#813} &#167;813 weil es Absto&#223;en seiner von sich oder Gleichg&#252;ltigkeit gegen sich, negative Beziehung auf sich ist, setzt es sich somit sich selbst gegen&#252;ber und ist nur insofern unendliches F&#252;rsichsein, als es die Einheit mit sich in diesem seinem Unterschiede von sich ist.
 
+> &#167;813 Because it is self-repelling or indifferent to itself, negative self-relation, it sets itself over against itself and is infinite being-for-self only in so far is as it is at one with itself in this its own difference from itself.
+
+"die Einheit mit sich in diesem seinem Unterschiede von sich"
+
+So indeed the Essence is in opposition to itself, which is what the trivial [[unity of opposites]] $id \dashv id$ expresses
+  
 > {#816} &#167;816 Das Wesen scheint zuerst in sich selbst, oder ist Reflexion
 
 > &#167;816 At first, essence shines or shows within itself, or is reflection
