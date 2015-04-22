@@ -118,7 +118,7 @@ In [[enriched category theory]] there can be more types of absolute colimits.  F
 
 * in [[SupLat]]-enriched categories, arbitrary small biproducts are absolute, and together with splitting of idempotents these generate all absolute colimits.
 
-* in [[dg-categories]] (or more generally, categories enriched over [[graded set|graded sets]]), *shifts/suspensions* are absolute.
+* in [[dg-categories]] (or more generally, categories enriched over [[graded set|graded sets]]), *shifts/suspensions* and [[mapping cones]] are absolute.
 
 * in Lawvere [[metric spaces]], limits of Cauchy sequences are absolute.  This is the origin of the name "Cauchy colimit."
 
