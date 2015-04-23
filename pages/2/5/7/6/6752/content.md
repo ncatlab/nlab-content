@@ -92,6 +92,10 @@ Introductions and expository surveys include
 
 * Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
 
+* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from
+Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
+
+
 * {#MK14} [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, 2014 ([pdf](http://people.maths.ox.ac.uk/vonk/automorphic/functoriality.pdf))
  
 Discussion with an eye towards [[geometric class field theory]] and [[geometric Langlands duality]] and [[quantum field theory]] is in 
