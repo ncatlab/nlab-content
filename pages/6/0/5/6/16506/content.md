@@ -41,6 +41,7 @@ the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] 
 The composite of writer comonad followed by [[reader monad]] is the [[state monad]].
 
 ### In terms of dependent type theory
+ {#InTermsOfDependentTypeTheory}
 
 If the type system is even a [[locally Cartesian closed category]]/[[dependent type theory]] then for each type $W$ there is the [[base change]] [[adjoint triple]]
 
@@ -57,6 +58,8 @@ $$
 $$
 
 of [[context extension]] followed by [[dependent product]].
+
+(Notice that the [[comonad]] obtained by composing the other way around, $W^\ast \prod_W$, is the [[modal operator]] usually called _[[necessity]]_.)
 
 
 ### Relation to random variables in probability theory
