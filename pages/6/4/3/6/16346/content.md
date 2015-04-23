@@ -380,7 +380,7 @@ which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \t
 
 
 $$
-  (C^\infty(\mathbb{R}^n)\otimes_{\mathbb{R}} \wedge^\bullet \langle \epsilon\rangle
+  (C^\infty(\mathbb{R}^n) \oplus \epsilon C^\infty(\mathbb{R}^n))
   \longleftarrow
   C^\infty(\mathbb{R}^n)
 $$
