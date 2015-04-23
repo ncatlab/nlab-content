@@ -1,0 +1,44 @@
+
+> this entry contains one chapter of _[[geometry of physics]]_
+
+> previous chapter: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifolds]]_
+
+> next chapter: _[physics](geometry%20of%20physics#PHYSICS)_
+
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## **Supergeometry**
+
+### Model Layer
+
+
+* [[supermanifold]]
+
+#### Fermion
+
+* [[fermion]]
+
+
+### Semantic Layer
+
+#### Super cohesion
+
+* [[super infinity-groupoid]]
+
+* [[smooth super infinity-groupoid]]
+
+* [[super smooth infinity-groupoid]]
+
+* [[super-Cartan geometry]]
+
+
+### Syntactic Layer
+
+(...)
