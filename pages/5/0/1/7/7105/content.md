@@ -489,7 +489,7 @@ $$
      \\
      \downarrow && \downarrow^{\mathrlap{\phi}}
      \\
-     G \times G &\stackrel{(-)\cdots (-)^{-1}}{\longrightarrow}& G
+     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
   }
   \,.
 $$
@@ -501,7 +501,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By [this discussion](locally+cartesian+closed+(infinity,1)-category#InternalLogic) we may use [[homotopy type theory]] reasoning. Starting out with the discussion at [homotopy pullback -- In homotopy type theory](homotopy+pullback#InHomotopyTypeTheory) we obtain
+By [this discussion](locally+cartesian+closed+infinity,1-category#InternalLogic) we may use [[homotopy type theory]] reasoning. Starting out with the discussion at _[homotopy pullback -- In homotopy type theory](homotopy+pullback#InHomotopyTypeTheory)_ we obtain
 
 $$ 
 \begin{aligned}
@@ -551,7 +551,7 @@ $$
      \\
      \downarrow^{\mathrlap{\Delta}} && \downarrow^{\mathrlap{e}}
      \\
-     G \times G &\stackrel{(-)\cdots (-)^{-1}}{\longrightarrow}& G
+     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
   }
   \,.
 $$
