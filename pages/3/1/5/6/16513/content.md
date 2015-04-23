@@ -7,14 +7,16 @@ A very tentative plan:
 
 ***
 
-*26.04: Chenchang on Cattaneo-Felder's approach to Kontsevich's quantization formula, reference  arXiv:math/9902090.
+*27.04: Chenchang on Cattaneo-Felder's approach to Kontsevich's quantization formula, reference  arXiv:math/9902090.
 
 *04.05: Chenchang on Kontsevich's quantization, reference  arXiv:q-alg/9709040
 
 *11.05: Malte on Algebraic/topological profile of deformation quantization, e.g. Deligne conjecture, reference 
 
-*18.05: Xiaoyi on homotopy BV algebra and formality conjecture, reference 
+*18.05: Xiaoyi on homotopy BV algebra and formality conjecture, reference 	[arXiv:math/0002116](http://lanl.arxiv.org/abs/math/0002116)
 
-*25.05: David on Etingof-Kazhdan theory on deformation quantization on Lie bialgebras, reference
+*25.05: (Whit Monday)
 
-*01.05: Dennis on arithmetric topology. 
+*01.06: David on Etingof-Kazhdan theory on deformation quantization on Lie bialgebras, reference
+
+*08.06: Dennis on arithmetric topology. 
