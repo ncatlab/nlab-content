@@ -141,7 +141,7 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #RepsFromGeometricQuantization}
 ###### Proposition
 
 The [[irreducible representation|irreducible]] [[projective representation|projective]] [[positive energy representations]] of $L G$ correspond precisley to the possible [[geometric quantizations]] of $L G / T$ (as in the [[orbit method]]). 
