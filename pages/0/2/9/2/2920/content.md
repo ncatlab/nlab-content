@@ -1007,12 +1007,12 @@ $$
      &
      PSh_{(\infty,1)}(K) 
      &&&
-     abstract\;nonsense\;def
+     abstract\;higher\;categorical\;def
      \\
      \uparrow^{\simeq}
      &&
      \uparrow^{\simeq}
-     &&& Lurie's theorem
+     &&& Lurie's \;theorem
      \\
      ([K^{op},SSet]_{inj}^{loc})^\circ
      &\stackrel{\stackrel{Bousfield\;loc.}{\leftarrow}}
@@ -1039,6 +1039,8 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 
 ## Related entries
+
+* [[localization]], [[colocalization]]
 
 * [[right Bousfield delocalization]]
 
