@@ -62,7 +62,7 @@ Careful discussion of observables in [[gravity]]/[[general relativity]] is in
 
 
 * {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
-Levico Terme, Italy, September 2014 ([pdf](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf))
+Levico Terme, Italy, September 2014 ([pdf](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf)), preprint [arXiv:1503.03754](https://arxiv.org/abs/1503.03754)
 
 Careful discussion of observables in [[gauge theory]] is in 
 
