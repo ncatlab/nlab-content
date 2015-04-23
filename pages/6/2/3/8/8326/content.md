@@ -3357,8 +3357,8 @@ Our **paragraph numbering** is as follows:
 | unity of ideality and reality | [[differential cohesion]] [[adjoint triple]] [[adjoint modality]] $\left( \array{ \Re &\dashv& \Im \\ \bot&\stackrel{}{}& \bot && \\  \Im &\dashv&  \& } \right)$ | [&#167;304](#304), [&#167;324](#324), [EL&#167;214](#EL214), [&#167;1636](#1636) |
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
-| Wesen, essence | the ambient [[category]]  | [&#167;803](#803), [&#167;812](#812)  |
-| essence opposing itself  | $id \dashv id$ | [&#167;813](#813) | 
+| Wesen, essence | the ambient [[(∞,1)-category]], ambient [[(∞,1)-topos]] | [&#167;803](#803), [&#167;812](#812), [&#167;828](#828) |
+| essence opposing itself, Bewegung von Nichts zu Nichts  | $id \dashv id$ | [&#167;813](#813), [&#167;823](#823), [&#167;835](#835), [&#167;839](#839) | 
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
 | Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
@@ -3753,6 +3753,7 @@ Alles Vern&#252;nftige ist somit zugleich als mystisch zu bezeichnen, womit jedo
 > &#167;126 At this stage, this division is, as was remarked of these divisions generally in the Introduction, a preliminary statement; its determinations have first to arise from the movement of being itself and in so doing define and justify themselves. As regards the divergence of this classification from the usual presentation of the categories, namely, as quantity, quality, relation and modality &#8212; these moreover with Kant are supposed to be only titles for his categories though they are, in fact, themselves categories, only more general ones &#8212; this calls for no special comment here, as the entire exposition will show a complete divergence from the usual arrangement and significance of the categories.
 
 [[category (philosophy)]]
+
 
 > {#127} &#167;127 Nur die&#223; kann etwa bemerkt werden, da&#223; sonst die Bestimmung der Quantit&#228;t von der Qualit&#228;t aufgef&#252;hrt wird,&#8212;und die&#223;&#8212;wie das Meiste&#8212;ohne weiteren Grund. Es ist bereits gezeigt worden, da&#223; der Anfang sich mit dem Seyn als solchem macht, daher mit dem qualitativen Seyn. Aus der Vergleichung der Qualit&#228;t mit der Quantit&#228;t erhellt leicht, da&#223; jene die der Natur nach erste ist. Denn die Quantit&#228;t ist die schon negativ gewordenen Qualit&#228;t; die Gr&#246;&#223;e ist die Bestimmtheit, die nicht mehr mit dem Seyn Eins, sondern schon von ihm unterschieden, die aufgehobene, gleichg&#252;ltig gewordenen Qualit&#228;t ist. Sie schlie&#223;t die Ver&#228;nderlichkeit des Seyns ein, ohne da&#223; die Sache selbst, das Seyn, dessen Bestimmung sie ist, durch sie ver&#228;ndert werde; da hingegen die qualitative Bestimmtheit mit ihrem Seyn Eins ist, nicht dar&#252;ber hinausgeht, noch innerhalb desselben steht, sondern dessen unmittelbare Beschr&#228;nktheit ist. Die Qualit&#228;t ist daher, als die unmittelbare Bestimmtheit die erste und mit ihr der Anfang zu machen.
 
@@ -5056,7 +5057,7 @@ See the [Proce&#223;](#Process).
 
 "die Einheit mit sich in diesem seinem Unterschiede von sich"
 
-So indeed the Essence is in opposition to itself, which is what the trivial [[unity of opposites]] $id \dashv id$ expresses
+So indeed the Essence is in opposition to itself, which is what the trivial [[unity of opposites]] $id \dashv id$ expresses See also [&#167;839](#839)
 
 > {#815} &#167;815 Das Wesen steht zwischen Sein und Begriff und macht die Mitte derselben und seine Bewegung den &#220;bergang vom Sein in den Begriff aus. Das Wesen ist das Anundf&#252;rsichsein, aber dasselbe in der Bestimmung des Ansichseins; denn seine allgemeine Bestimmung ist, aus dem Sein herzukommen oder die erste Negation des Seins zu sein. Seine Bewegung besteht darin, die Negation oder Bestimmung an ihm zu setzen, dadurch sich Dasein zu geben und das als unendliches F&#252;rsichsein zu werden, was es an sich ist. So gibt es sich sein Dasein, das seinem Ansichsein gleich ist, und wird der Begriff. 
  
@@ -5135,12 +5136,13 @@ This fits well also with [Phen&#167;760](#Phen760): "der Begriff des Wesens ist 
 
 #### Der Schein / Illusory Being
 
+
 > {#818} &#167;818 Das Wesen aus dem Sein herkommend scheint demselben gegenueber zu stehen; dies unmittelbare Sein ist zunaechst das Unwesentliche. Allein es ist zweitens mehr als nur unwesentliches, es ist wesenloses Sein, es ist Schein. Drittens, dieser Schein ist nicht ein aeusserliches, dem Wesen anderes, sondern er ist sein eigner Schein. Das Erscheinen des Wesens in ihm selbst ist die Reflexion.
 
 > &#167;818 Essence that issues from being seems to confront it as an opposite; this immediate being is, in the first instance, the unessential. But secondly, it is more than merely unessential being, it is essenceless being, it is illusory being.
 Thirdly, this illusory being is not something external to or other than essence; on the contrary, it is essence's own illusory being. The showing of this illusory being within essence itself is reflection.
 
-[[type universe]] $Type \in \mathbf{H}$.
+[[type universe]] $Type \in \mathbf{H}$., see also [&#167;833](#833)
 
 > {#827} &#167;827 Es ist die Unmittelbarkeit des Nichtseins, welche den Schein ausmacht; dies Nichtsein aber ist nichts anderes als die Negativit&#228;t des Wesens an ihm selbst. Das Sein ist Nichtsein in dem Wesen. Seine Nichtigkeit an sich ist die negative Natur des Wesens selbst.  Die Unmittelbarkeit oder Gleichg&#252;ltigkeit aber, welche dies Nichtsein enth&#228;lt, ist das eigene absolute Ansichsein des Wesens.  Die Negativit&#228;t des Wesens ist seine Gleichheit mit sich selbst oder seine einfache Unmittelbarkeit und Gleichg&#252;ltigkeit.  Das Sein hat sich im Wesen erhalten, insofern dieses an seiner unendlichen Negativit&#228;t diese Gleichheit mit sich selbst hat;  hierdurch ist das Wesen selbst das Sein. Die Unmittelbarkeit, welche die Bestimmtheit am Scheine gegen das Wesen hat,  ist daher nichts anderes als die eigene Unmittelbarkeit des Wesens; aber nicht die seiende Unmittelbarkeit, sondern die schlechthin vermittelte oder reflektierte Unmittelbarkeit, welche der Schein ist, - das Sein nicht als Sein, sondern nur als die Bestimmtheit des Seins, gegen die Vermittlung; das Sein als Moment.
 
@@ -5151,6 +5153,30 @@ Thirdly, this illusory being is not something external to or other than essence;
 
 ##### B Der Schein / Illusory being
 
+> {#823} &#167;823 1. Das Sein ist Schein. Das Sein des Scheins besteht allein in dem Aufgehobensein des Seins, in seiner Nichtigkeit;  diese Nichtigkeit hat es im Wesen, und au&#223;er seiner Nichtigkeit, au&#223;er dem Wesen ist er nicht.  Er ist das Negative gesetzt als Negatives.
+
+> &#167;823 1. Being is illusory being. The being of illusory being consists solely in the sublatedness of being, in its nothingness; this nothingness it has in essence and apart from its nothingness, apart from essence, illusory being is not. It is the negative posited as negative.
+
+Notice that here the text begins to say _Nichtigkeit_ ($\sim$" nothingness" for the result of Aufhebung of all determinations. According to [&#167;803](#803) this ultimate Aufhebung is the trivial unity of opposites $id \dashb id$. The $id$-[[modal operator]] encodes _no determination_ and hence encodes "nothing", but this is rather different from the sense of _Nichts_, _Nichtsein_ (again $\sim$ nothing) that is at the beginning of the Seinslogik.
+
+We will read _Nichtigkeit_ ($\sim $"nothing") here in the Wesenslogik in this sense of [&#167;823](#823). This seems to match well with its use here, in particular with the repeated statemens [&#167;835](#835) that movement of the essence is not like that of being from something (some determination, really) to something else (some other determination, oppose of sublated), but _moves from nothing to nothing_. This is hence speaking of $id \dashv id$. See also [&#167;827](#827)
+
+
+> {#827} &#167;827 Es ist die Unmittelbarkeit des Nichtseins, welche den Schein ausmacht; dies Nichtsein aber ist nichts anderes als die Negativit&#228;t des Wesens an ihm selbst. Das Sein ist Nichtsein in dem Wesen. Seine Nichtigkeit an sich ist die negative Natur des Wesens selbst.  Die Unmittelbarkeit oder Gleichg&#252;ltigkeit aber, welche dies Nichtsein enth&#228;lt, ist das eigene absolute Ansichsein des Wesens. Die Negativit&#228;t des Wesens ist seine Gleichheit mit sich selbst oder seine einfache Unmittelbarkeit und Gleichg&#252;ltigkeit.  Das Sein hat sich im Wesen erhalten, insofern dieses an seiner unendlichen Negativit&#228;t diese Gleichheit mit sich selbst hat;  hierdurch ist das Wesen selbst das Sein. Die Unmittelbarkeit, welche die Bestimmtheit am Scheine gegen das Wesen hat,  ist daher nichts anderes als die eigene Unmittelbarkeit des Wesens; aber nicht die seiende Unmittelbarkeit, sondern die schlechthin vermittelte oder reflektierte Unmittelbarkeit, welche der Schein ist, - das Sein nicht als Sein, sondern nur als die Bestimmtheit des Seins, gegen die Vermittlung; das Sein als Moment.
+
+> &#167;827 It is the immediacy of non-being that constitutes illusory being; but this non-being is nothing else but the negativity of essence present within it. In essence, being is non-being. Its intrinsic nothingness is the negative nature of essence itself. But the immediacy or indifference which this non-being contains is essence's own absolute being-in-itself. The negativity of essence is its equality with itself or its simple immediacy and indifference. Being has preserved itself in essence in so far as the latter in its infinite negativity has this equality with itself; it is through this that essence itself is being. The immediacy of the determinateness in illusory being over against essence is consequently nothing other than essence's own immediacy; but the immediacy is not simply affirmative [seiend], but is the purely mediated or reflected immediacy that is illusory being-being, not as being, but only as the determinateness of being as opposed to mediation; being as a moment.
+
+> {#828} &#167;828 Diese beiden Momente, die Nichtigkeit, aber als Bestehen, und das Sein, aber als Moment, oder die an sich seiende Negativit&#228;t und die reflektierte Unmittelbarkeit, welche die Momente des Scheins ausmachen, sind somit die Momente des Wesens selbst: es ist nicht ein Schein des Seins am Wesen oder ein Schein des Wesens am Sein vorhanden; der Schein im Wesen ist nicht der Schein eines Anderen, sondern er ist der Schein an sich, der Schein des Wesens selbst.
+
+> &#167;828 These two moments, namely the nothingness which yet is and the being which is only a moment, or the implicit negativity and the reflected immediacy that constitute the moments of illusory being, are thus the moments of essence itself. What we have here is not an illusory show of being in essence, or an illusory show of essence in being; the illusory being in essence is not the illusory being of an other, but is illusory being per se, the illusory being of essence itself. What we have here is not an illusory show of being in essence, or an illusory show of essence in being; the illusory being in essence is not the illusory being of an other, but is illusory being per se, the illusory being of essence itself.
+
+Reading _Nichtigkeit_ here via [&#167;823](#823) is $id \dashv id$ and _reflektierte Unmittelbarkeit_ as the self-reflection of the $\infty$-topos in its [[type universe]] via [&#167;833](#833), then [&#167;828](#828) says that the two moments of the Essence are
+
+$$
+  (id \dashv id) \;\;\;\;, \;\;\;\; Type
+$$
+
+which in turn is the ambient category and its type universe. Hence this gives again that Essence is the ambient $\infty$-topos.
 
 ##### C Die Reflexion / Reflection
 
@@ -5161,21 +5187,43 @@ Thirdly, this illusory being is not something external to or other than essence;
 [[type universe]]/[[object classifier]]
 
 
-> {#834} &#167;834 Das Wesen ist Reflexion;
+> {#834} &#167;834 Das Wesen ist Reflexion;...
 
-> &#167;834 Essence is reflection
+> &#167;834 Essence is reflection...
 
 See discussion at _[Wesen als Reflexion in Ihm Selbst](#WesenAlsReflexionInIhmSelbst)_
+
+>  &#167;834 Das Wesen ist Reflexion; die Bewegung des Werdens und &#220;bergehens, das in sich selbst bleibt, worin das Unterschiedene schlechthin nur als das an sich Negative, als Schein bestimmt ist.  - In dem Werden des Seins liegt der Bestimmtheit das Sein zugrunde, und sie ist Beziehung auf Anderes.  Die reflektierende Bewegung hingegen ist das Andere als die Negation an sich, die nur als sich auf sich beziehende Negation ein Sein hat.  Oder indem diese Beziehung auf sich eben dies Negieren der Negation ist, so ist die Negation als Negation vorhanden, als ein solches, das sein Sein in seinem Negiertsein hat, als Schein.  Das Andere ist hier also nicht das Sein mit der Negation oder Grenze, sondern die Negation mit der Negation.  Das Erste aber gegen dies Andere, das Umittelbare oder Sein, ist nur diese Gleichheit selbst der Negation mit sich,  die negierte Negation, die absolute Negativit&#228;t. Diese Gleichheit mit sich oder Unmittelbarkeit ist daher nicht ein Erstes,  von dem angefangen wird und das in seine Negation &#252;berginge, noch ist es ein seiendes Substrat,  das sich durch die Reflexion hindurch bewegte; sondern die Unmittelbarkeit ist nur diese Bewegung selbst.
+
+> &#167;834 Essence is reflection, the movement of becoming and transition that remains internal to it, in which the differentiated moment is determined simply as that which in itself is only negative, as illusory being. At the base of becoming in the sphere of being, there lies the determinateness of being, and this is relation to other. The movement of reflection, on the other hand, is the other as the negation in itself, which has a being only as self-related negation. Or, since the self-relation is precisely this negating of negation, the negation as negation is present in such wise that it has its being in its negatedness, as illusory being. Here, therefore, the other is not being with a negation, or limit, but negation with the negation. But the first, over against this other, the immediate or being, is only this very equality of the negation with itself, the negated negation, absolute negativity. This equality with itself, or immediacy, is consequently not a first from which the beginning was made and which passed over into its negation; nor is it an affirmatively present substrate that moves through reflection; on the contrary, immediacy is only this movement itself.
 
 > {#835} &#167;835 Das Werden im Wesen, seine reflektierende Bewegung, ist daher die Bewegung von Nichts zu Nichts und dadurch zu sich selbst zur&#252;ck.
 
 > &#167;835 Consequently, becoming is essence, its reflective movement, is the movement of nothing to nothing, and so back to itself.
 
+in view of [&#167;823](#823) we read this as the ultimate opposition
+
 $id \dashv id$
 
-(1) Die setzende Reflexion
+see also [&#167;839](#839)
 
-(2) Die &#228;u&#223;ere Reflexion
+###### (1) Die setzende Reflexion
+
+> {#839} &#167;839 Zun&#228;chst ist die Reflexion die Bewegung des Nichts zu Nichts, somit die mit sich selbst zusammengehende Negation. Dieses Zusammengehen mit sich ist &#252;berhaupt einfache Gleichheit mit sich, die Unmittelbarkeit. Aber dies Zusammenfallen ist nicht &#220;bergehen der Negation in die Gleichheit mit sich als in ihr Anderssein, sondern die Reflexion ist &#220;bergehen als Aufheben des &#220;bergehens; denn sie ist unmittelbares Zusammenfallen des Negativen mit sich selbst; so ist dies Zusammengehen erstlich Gleichheit mit sich oder Unmittelbarkeit; aber zweitens ist diese Unmittelbarkeit die Gleichheit des Negativen mit sich, somit die sich selbst negierende Gleichheit; die Unmittelbarkeit, die an sich das Negative, das Negative ihrer selbst ist, dies zu sein, was sie nicht ist.
+
+> &#167;839 In the first place, reflection is the movement of nothing to nothing and is the negation that coincides with itself. This coincidence with itself is, in general, simple equality-with-self, immediacy. But this coincidence is not a transition of the negation into equality-with-self as into its otherness: on the contrary, reflection is transition as sublating of the transition; for reflection is immediate coincidence of the negative with itself. This coincidence is thus first, equality-with-self or immediacy; but secondly, this immediacy is the equality of the negative with itself, hence self-negating equality, the immediacy that is in itself the negative, the negative of itself, that consists in being that which it is not.
+
+This amplifies nicely on [&#167;835](#835)
+
+"die Bewegung des Nichts zu Nichts ... ist unmittelbares Zusammenfallen des Negativen mit sich selbst"
+
+hence coincidence of the opposite with itself hence the trivial [[unity of opposites]]
+
+$id \dashv id$
+
+see also [&#167;813](#813)
+
+###### (2) Die &#228;u&#223;ere Reflexion
 
 Anmerkung
 
