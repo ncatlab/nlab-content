@@ -958,11 +958,13 @@ $$
   \overline{id} = \ast
 $$
 
+Also on [[pointed objects]], where the negative of $\ast$ is defined, it is $id$
+
 So that we find
 
 $$
   \array{
-    id &\dashv& id
+    id &\dashv& id & = \overline{\ast}
     \\
     \vee && \vee
     \\
@@ -971,7 +973,7 @@ $$
   \,.
 $$
 
-From this perspective it seems as if alternatively $(\id \dashv \id)$ could be referred to as the initial opposition.
+See also at _[Setzende Reflexion](#SetzendeReflexion)_
 
 Notice for completeness that the negative \ref{#NegativeMoment} of $\emptyset$ is the [[nLab:maybe monad]]. (This is however not a moment in the sense of def. \ref{Moments} since it is not [[nLab:idempotent monad|idempotent]].)
 
@@ -5207,7 +5209,8 @@ $id \dashv id$
 
 see also [&#167;839](#839)
 
-###### (1) Die setzende Reflexion
+###### (1) Die setzende Reflexion / Positing reflection
+ {#SetzendeReflexion}
 
 > {#839} &#167;839 Zun&#228;chst ist die Reflexion die Bewegung des Nichts zu Nichts, somit die mit sich selbst zusammengehende Negation. Dieses Zusammengehen mit sich ist &#252;berhaupt einfache Gleichheit mit sich, die Unmittelbarkeit. Aber dies Zusammenfallen ist nicht &#220;bergehen der Negation in die Gleichheit mit sich als in ihr Anderssein, sondern die Reflexion ist &#220;bergehen als Aufheben des &#220;bergehens; denn sie ist unmittelbares Zusammenfallen des Negativen mit sich selbst; so ist dies Zusammengehen erstlich Gleichheit mit sich oder Unmittelbarkeit; aber zweitens ist diese Unmittelbarkeit die Gleichheit des Negativen mit sich, somit die sich selbst negierende Gleichheit; die Unmittelbarkeit, die an sich das Negative, das Negative ihrer selbst ist, dies zu sein, was sie nicht ist.
 
@@ -5222,6 +5225,45 @@ hence coincidence of the opposite with itself hence the trivial [[unity of oppos
 $id \dashv id$
 
 see also [&#167;813](#813)
+
+For the following paragraphs it may be helpful to keep in mind the outer part of the movement, remark \ref{AspectsOfTheInitialOpposition}:
+
+$$
+  \array{
+    id &\dashv& id & = \overline{\ast}
+    \\
+    \vee && \vee
+    \\
+    \vdots && \vdots
+    \\
+    \vee && \vee
+    \\
+    \emptyset &\dashv& \ast & = \overline{id}
+  }
+$$
+
+with its interpretation as the initial opposition of [[being]] $\ast$ and [[nothing]] $\emptyset$ in [[becoming]], finding its ultimate [[Aufhebung]] in the self-opposition of identity, which is at the same time the negation of pure being, and vice versa.
+
+> {#840} &#167;840 Die Beziehung des Negativen auf sich selbst ist also seine R&#252;ckkehr in sich; sie ist Unmittelbarkeit als das Aufheben des Negativen; aber Unmittelbarkeit schlechthin nur als diese Beziehung oder als R&#252;ckkehr aus einem, somit sich selbst aufhebende Unmittelbarkeit.  - Dies ist das Gesetztsein, die Unmittelbarkeit rein nur als Bestimmtheit oder als sich reflektierend. Diese Unmittelbarkeit, die nur als R&#252;ckkehr des Negativen in sich ist, ist jene Unmittelbarkeit, welche die Bestimmtheit des Scheins ausmacht und von der vorhin die reflektierende Bewegung anzufangen schien. Statt von dieser Unmittelbarkeit anfangen zu k&#246;nnen, ist diese vielmehr erst als die R&#252;ckkehr oder als die Reflexion selbst. Die Reflexion ist also die Bewegung, die, indem sie die R&#252;ckkehr ist, erst darin das ist, das anf&#228;ngt oder das zur&#252;ckkehrt.
+
+> &#167;840 The self-relation of the negative is, therefore, its return into itself; it is immediacy as the sublating of the negative; but immediacy simply and solely as this relation or as return from a negative, and hence a self-sublating immediacy. This is posited being or positedness, immediacy purely and simply as determinateness or as self-reflecting. This immediacy which is only as return of the negative into itself, is that immediacy which constitutes the determinateness of illusory being and which previously seemed to be the starting point of the reflective moment. But this immediacy, instead of being able to form the starting point is, on the contrary, immediacy only as the return or as reflection itself. Reflection therefore is the movement that starts or returns only in so far as the negative has already returned into itself.
+
+> {#841} &#167;841 Sie ist Setzen, insofern sie die Unmittelbarkeit als ein R&#252;ckkehren ist; es ist n&#228;mlich nicht ein Anderes vorhanden, weder ein solches, aus dem sie, noch in das sie zur&#252;ckkehrte; sie ist also nur als R&#252;ckkehren oder als das Negative ihrer selbst.  Aber ferner ist diese Unmittelbarkeit die aufgehobene Negation und die aufgehobene R&#252;ckkehr in sich.  Die Reflexion ist als Aufheben des Negativen Aufheben ihres Anderen, der Unmittelbarkeit. Indem sie also die Unmittelbarkeit als ein R&#252;ckkehren, Zusammengehen des Negativen mit sich selbst ist, so ist sie ebenso Negation des Negativen als des Negativen.  So ist sie Voraussetzen.  - Oder die Unmittelbarkeit ist als R&#252;ckkehren nur das Negative ihrer selbst, nur dies, nicht Unmittelbarkeit zu sein; aber die Reflexion ist das Aufheben des Negativen seiner selbst, sie ist Zusammengehen mit sich; sie hebt also ihr Setzen auf, und indem sie das Aufheben des Setzens in ihrem Setzen ist, ist sie Voraussetzen.  - In dem Voraussetzen bestimmt die Reflexion die R&#252;ckkehr in sich als das Negative ihrer selbst, als dasjenige, dessen Aufheben das Wesen ist. Es ist sein Verhalten zu sich selbst, aber zu sich als dem Negativen seiner;  nur so ist es die insichbleibende, sich auf sich beziehende Negativit&#228;t.  Die Unmittelbarkeit kommt &#252;berhaupt nur als R&#252;ckkehr hervor und ist dasjenige Negative, welches der Schein des Anfangs ist,  der durch die R&#252;ckkehr negiert wird. Die R&#252;ckkehr des Wesens ist somit sein Sich-Absto&#223;en von sich selbst.  Oder die Reflexion-in-sich ist wesentlich das Voraussetzen dessen, aus dem sie die R&#252;ckkehr ist.
+
+> &#167;841 It is a positing in so far as it is immediacy as a returning movement; for there is no other on hand, either an other from which or into which immediacy returns; it is, therefore, only as a returning movement, or as the negative of itself. Furthermore, this immediacy is the sublated negation and the sublated return-into-self. Reflection, as sublating the negative, is a sublating of its other, of immediacy. Since, therefore, it is immediacy as a returning movement, as a coincidence of the negative with itself, it is equally a negative of the negative as negative. Thus it is a presupposing. Or immediacy, as a returning movement, is only the negative of itself, only this, to be not immediacy; but reflection is the sublating of the negative of itself, it is a coincidence with itself; it therefore sublates its positing, and since in its positing it sublates its positing, it is a presupposing. Reflection, in its presupposing, determines the return-into-self as the negative of itself, as that, the sublating of which is essence. The presupposing is the manner in which it relates itself to itself, but to itself as the negative of itself; only thus is it the self-relating negativity that remains internal to itself. Immediacy presents itself simply and solely as a return and is that negative which is the illusory being of the beginning, the illusory being which is negated by the return. Accordingly, the return of essence is its self-repulsion. In other words, reflection-into-self is essentially the presupposing of that from which it is the return.
+
+> {#842} &#167;842 Es ist das Aufheben seiner Gleichheit mit sich, wodurch das Wesen erst die Gleichheit mit sich ist.  Es setzt sich selbst voraus, und das Aufheben dieser Voraussetzung ist es selbst; umgekehrt ist dies Aufheben seiner Voraussetzung die Voraussetzung selbst.  - Die Reflexion also findet ein Unmittelbares vor, &#252;ber das sie hinausgeht und aus dem sie die R&#252;ckkehr ist.  Aber diese R&#252;ckkehr ist erst das Voraussetzen des Vorgefundenen. Dies Vorgefundene wird nur darin, da&#223; es verlassen wird; seine Unmittelbarkeit ist die aufgehobene Unmittelbarkeit.  - Die aufgehobene Unmittelbarkeit umgekehrt ist die R&#252;ckkehr in sich, das Ankommen des Wesens bei sich, das einfache sich selbst gleiche Sein. Damit ist dieses Ankommen bei sich das Aufheben seiner und die von sich selbst absto&#223;ende, voraussetzende Reflexion, und ihr Absto&#223;en von sich ist das Ankommen bei sich selbst.
+
+> &#167;842 It is only when essence has sublated its equality-with-self that it is equality-with-self. It presupposes itself and the sublating of this presupposition is essence itself; conversely, this sublating of its presupposition is the presupposition itself. Reflection therefore finds before it an immediate which it transcends and from which it is the return. But this return is only the presupposing of what reflection finds before it. What is thus found only comes to be through being left behind; its immediacy is sublated immediacy. Conversely, the sublated immediacy is the return-into-self, the coming-to-itself of essence, simple, self-equal being. Hence this coming-to-itself is the sublating of itself and is the self-repelling, presupposing reflection, and its self-repelling is the coming-to-itself of reflection.
+
+> {#843} &#167;843 Die reflektierende Bewegung ist somit nach dem Betrachteten als absoluter Gegensto&#223; in sich selbst zu nehmen.  Denn die Voraussetzung der R&#252;ckkehr in sich - das, woraus das Wesen herkommt und erst als dieses Zur&#252;ckkommen ist -, ist nur in der R&#252;ckkehr selbst. Das Hinausgehen &#252;ber das Unmittelbare, von dem die Reflexion anf&#228;ngt, ist vielmehr erst durch dies Hinausgehen; und das Hinausgehen &#252;ber das Unmittelbare ist das Ankommen bei demselben. Die Bewegung wendet sich als Fortgehen unmittelbar in ihr selbst um und ist nur so Selbstbewegung - Bewegung, die aus sich kommt, insofern die setzende Reflexion voraussetzende, aber als voraussetzende Reflexion schlechthin setzende ist.
+
+> &#167;843 It follows, therefore, from the foregoing considerations that the reflective movement is to be taken as an absolute recoil upon itself. For the presupposition of the return-into-self-that from which essence comes, and is only as this return-is only in the return itself. The transcending of the immediate from which reflection starts is rather the outcome of this transcending; and the transcending of the immediate is the arrival at it. The movement, as an advance, immediately turns round upon itself and only so is self-movement &#8212; a movement which comes from itself in so far as positing reflection is presupposing, but, as presupposing reflection, is simply positing reflection.
+ 
+> {#844} &#167;844 So ist die Reflexion sie selbst und ihr Nichtsein, und ist nur sie selbst, indem sie das Negative ihrer ist, denn nur so ist das aufheben des Negativen zugleich als ein  Zusammengehen mit sich.
+
+> &#167;844 Thus reflection is itself and its non-being, and is only itself, in that it is the negative of itself, for only thus is the sublating of the negative at the same time a coincidence with itself.
+
 
 ###### (2) Die &#228;u&#223;ere Reflexion
 
