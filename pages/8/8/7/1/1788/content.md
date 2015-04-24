@@ -1,15 +1,7 @@
 $$
-  \rightsquigarrow( 
-    \stackrel{\rightsquigarrow}{X} 
-    \stackrel{\eta_{\stackrel{\rightsquigarrow}{X}}}{\longrightarrow} 
-   \Im \stackrel{\rightsquigarrow}{X}
-   )
-  \;\;\;
-  \simeq
-  \;\;\;
-  (
-     \stackrel{\rightsquigarrow}{X}  
-     \stackrel{\eta_{\stackrel{\rightsquigarrow}{X}}}{\longrightarrow} 
-     \Im \stackrel{\rightsquigarrow}{X}
-  )
+  \array{
+   Fr(X) 
+   \underset{}{\times} \mathbb{D}^V 
+  }
+  \,.
 $$
