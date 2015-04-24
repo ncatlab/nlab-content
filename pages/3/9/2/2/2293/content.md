@@ -117,6 +117,10 @@ The following notes deal with the theory modelled on coconnective [[commutative 
 
 * [[Dennis Gaitsgory]], _Notes on geometric Langlands: stacks_, [pdf](http://www.math.harvard.edu/~gaitsgde/GL/Stackstext.pdf).
 
+The following notes deal with the theory modelled on [[E-infinity ring spectra]] ([[E-infinity geometry]]):
+
+* [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://dl.dropboxusercontent.com/u/1741495/papers/salamanca.pdf).
+
 See also the surveys
 
 * [[Bertrand Toën]], _Higher and derived stacks: a global overview_, lecture notes, 2006, [arXiv:math/0604504](http://arxiv.org/abs/math/0604504).
