@@ -958,6 +958,25 @@ with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphi
 #### Frame bundles
  {#FrameBundles}
 
+
++-- {: .num_defn #InfinitesimalDisk}
+###### Definition
+
+For $X \in \mathbf{H}$ an object and $x \colon \ast \to X$ a point, then we say that the _[[infinitesimal neighbourhood]] of_, or the _[[infinitesimal disk]] at_ $x$ in $X$ is the [[homotopy fiber]] $\mathbb{D}^X_x$ of the [[unit of a monad|unit]] of the [[infinitesimal shape modality]] at $x$:
+
+$$
+  \array{
+    \mathbb{D}^X_x &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\stackrel{x}{\longrightarrow}& \im X
+  }
+  \,.
+$$ 
+
+=--
+
 +-- {: .num_defn #FormalDiskBundle}
 ###### Definition
 
@@ -975,6 +994,13 @@ $$
 $$
 
 of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the [[pasting law]], the [[homotopy fiber]] of the infinitesimal disk bundle, def. \ref{FormalDiskBundle},  over any point $x \in X$ is the infinitesimal disk $\mathbb{D}^X_x$ in $X$ at that point, def.\ref{InfinitesimalDisk}. Nevertheless, for general $X$ the infinitesimal disk bundle need not be an [[fiber ∞-bundle]] with typical fiber (the infinitesimal disks at different points need not be equivalent, and even if they are, the bundle need not be locally trivial). Below in prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} we see that for $X$ a $V$-manifold modeled on a group object $V$, then its infinitesimal disk bundle is indeed an [[fiber ∞-bundle]], and hence is the [[associated ∞-bundle]] to some [[principal ∞-bundle]]. That principal bundle is the [[frame bundle]] of $X$.
 
 =--
 
@@ -1029,7 +1055,7 @@ $$
 +-- {: .num_defn #Framing}
 ###### Definition
 
-For $V$ an object, a **[[framing]]** on $V$ is a trivialization of its infinitesimal disk bundle, def. \ref{FormalDiskBundle}, i.e. an object $\mathbb{D}^V$ -- the typical [[infinitesimal disk]] or [[formal disk]] -- and a (chosen) [[equivalence]]
+For $V$ an object, a **[[framing]]** on $V$ is a trivialization of its infinitesimal disk bundle, def. \ref{FormalDiskBundle}, i.e. an object $\mathbb{D}^V$ -- the typical [[infinitesimal disk]] or [[formal disk]], def. \ref{InfinitesimalDisk}, -- and a (chosen) [[equivalence]]
 
 $$
   \array{
@@ -1132,14 +1158,41 @@ This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^V$-[[fiber ∞-bundle]].
 +-- {: .num_prop #ModulatingMapOfFormalDiskBundle}
 ###### Remark
 
-By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniquely determined $\mathbf{Aut}(\mathbb{D}^V)$-[[principal ∞-bundle]].
+By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniquely determined $\mathbf{Aut}(\mathbb{D}^V)$-[[principal ∞-bundle]] $Fr(X)$, i.e. there exists a [[homotopy pullback]] diagram of the form
+
+$$
+  \array{
+     T_{inf} X \simeq 
+     & 
+   Fr(X) \underset{\mathbf{Aut}(\mathbb{D}^V)}{\times} \mathbb{D}^V 
+     &\longrightarrow&
+     V//\mathbf{Aut}(\mathbb{D}^V)
+     \\
+     & \downarrow && \downarrow
+     \\
+     & X &\stackrel{}{\longrightarrow}& \mathbf{B}\mathbf{Aut}(\mathbb{D}^V)
+  }
+  \,.
+$$
 
 =--
 
 +-- {: .num_defn #FrameBundleMap}
 ###### Definition
 
-Given a $V$-manifold $X$, def. \ref{VManifold}, for framed $V$, def. \ref{Framing}, then its _[[frame bundle]]_ $Fr(X)$ is the $GL(V)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
+Given a $V$-manifold $X$, def. \ref{VManifold}, for framed $V$, def. \ref{Framing}, then its _[[frame bundle]]_ 
+
+$$
+  \array{
+     Fr(X)
+     \\
+     \downarrow
+     \\
+     X 
+  }
+$$
+
+is the $GL(V)$-[[principal ∞-bundle]] given by prop. \ref{FormalDiskBundleOfRegularManifoldsTrivializesOverCover} via remark \ref{ModulatingMapOfFormalDiskBundle}.
 
 =--
 
