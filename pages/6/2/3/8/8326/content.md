@@ -3361,8 +3361,9 @@ Our **paragraph numbering** is as follows:
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[(∞,1)-category]], ambient [[(∞,1)-topos]] | [&#167;803](#803), [&#167;812](#812), [&#167;828](#828) |
 | essence opposing itself, Bewegung von Nichts zu Nichts  | $id \dashv id$ | [&#167;813](#813), [&#167;823](#823), [&#167;835](#835), [&#167;839](#839) | 
+|  | $ \array{ id &\dashv& id & = \overline{\ast} \\ \vee && \vee \\ \vdots && \vdots \\ \vee && \vee \\  \emptyset &\dashv& \ast & = \overline{id} } $ |  [Setzende Reflexion](#SetzendeReflexion), [&#167;853b](#853b) |
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
-| essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860](#860) |
+| essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860b](#860b) |
 | Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
 | das Aeussere | the ambient category of being $\mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
 | das Innere | the internal [[type universe]] $Type \in \mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
@@ -3487,11 +3488,15 @@ $$
     \\
     && &&&&\stackrel{}{}&\stackrel{falsch}{}& '\emptyset' &\stackrel{abs.\,Widerspruch}{\dashv}& '\ast' & \stackrel{wahr}{}
     \\
+    &&
+    \\
+    &&
     \\
     &&  && && && (A \stackrel{\simeq}{\to} B) & \stackrel{abs.\,Wirklichkeit}{\simeq} & ('A' = 'B') & 
     \\
     &&  && && &\stackrel{das\;Aeussere}{}& \mathbf{H} &  & Type & \stackrel{das\;Innere}{}
     \\
+    && \stackrel{Reflexionsbestimmungen}{}
     \\
     && && && && & Reflexion
     \\
@@ -3501,7 +3506,7 @@ $$
     \\
     && && && && & Erscheinung
     \\
-    && \stackrel{Reflexionsbestimmungen}{}
+    && 
     \\
     && && Wesen && & \stackrel{}{} & \sum_W W^\ast & \stackrel{}{\dashv} & \prod_W W^\ast & \stackrel{Zufaelligkeit}{}
     \\
@@ -5087,7 +5092,7 @@ $$
   Type_1 \subset Type_2 \subset Type_3 \subset Type_4 \subset \cdots
 $$
 
-By the above this should correspond to an infinite Reflexion of the Wesen inside itself, and sure enough, this is what [&#167;860](#860) below says.
+By the above this should correspond to an infinite Reflexion of the Wesen inside itself, and sure enough, this is what [&#167;860b](#860b) below says.
 
 
 
@@ -5267,24 +5272,66 @@ with its interpretation as the initial opposition of [[being]] $\ast$ and [[noth
 
 ###### (2) Die &#228;u&#223;ere Reflexion
 
+> {#848} &#167;848 Diese &#228;u&#223;ere Reflexion ist der Schlu&#223;, in welchem die beiden Extreme, das Unmittelbare und die Reflexion-in-sich, sind; die Mitte desselben ist die Beziehung beider, das bestimmte Unmittelbare, so da&#223; der eine Teil derselben, die Unmittelbarkeit, nur dem einen Extreme, die andere, die Bestimmtheit oder Negation, nur dem anderen Extreme zukommt.
+
+> &#167;848 This external reflection is the syllogism in which are the two extremes, the immediate and reflection-into-self; the middle term of the syllogism is the connection of the two, the determinate immediate, so that one part of the middle term, immediacy, belongs only to one of the extremes, the other, determinateness or negation, belongs only to the other extreme.
+
 Anmerkung
 
 > {#850} &#167;850 Es ist aber hier nicht, weder von der Reflexion des Bewu&#223;tseyns, noch von der bestimmteren Reflexion des Verstandes, die das Besondere und Allgemeine zu ihren Bestimmungen hat, sondern von der Reflexion &#252;berhaupt die Rede. Jene Reflexion, der Kant das Aufsuchen des Allgemeinen zum gegebenen Besondern zuschreibt, ist, wie erhellt, gleichfalls nur die &#228;u&#223;ere Reflexion, die sich auf das Unmittelbare als auf ein gegebenes bezieht.
 
 > Reflection is usually taken in a subjective sense as the movement of the faculty of judgement that goes beyond a given immediate conception and seeks universal determinations for it or compares such determinations with it. Kant opposes reflective judgement to determining judgement. He defines the faculty of judgement in general as the ability to think the particular as subsumed under the universal.
 
-(3) Bestimmende Reflexion
+###### (3) Bestimmende Reflexion
 
 
-> {#845} &#167;853 Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten. Die &#228;u&#223;ere Reflexion f&#228;ngt vom unmittelbaren Seyn all, die setzende vom Nichts.
+> {#853a} &#167;853a Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten. 
 
-> &#167;853 Determining reflection is in general the unity of positing and external reflection. This is to be considered in more detail. 1. External reflection starts from immediate being, positing reflection from nothing.
+> &#167;853a Determining reflection is in general the unity of positing and external reflection. This is to be considered in more detail. 
+
+
+> {#853b} &#167;853b 1. Die &#228;u&#223;ere Reflexion f&#228;ngt vom unmittelbaren Seyn an, die setzende vom Nichts. Die &#228;u&#223;ere Reflexion, die bestimmend wird, setzt ein Anderes, aber das Wesen, an die Stelle des aufgehobenen Seins;
+
+> &#167;853b 1. External reflection starts from immediate being, positing reflection from nothing. External reflection, when it determines, posits an other-but this is essence-in the place of the sublated being;
+
+$$
+  \array{
+    id &\dashv& id & = \overline{\ast}
+    \\
+    \vee && \vee
+    \\
+    \vdots &\uparrow& \vdots 
+    \\
+    \vee && \vee
+    \\
+    \emptyset &\dashv& \ast & = \overline{id}
+  }
+$$
+
+> {#854a} &#167;854a Das Gesetzte ist daher ein Anderes, aber so, da&#223; die Gleichheit der Reflexion mit sich schlechthin erhalten ist; denn das Gesetzte ist nur als Aufgehobenes, als Beziehung auf die R&#252;ckkehr in sich selbst.  - In der Sph&#228;re des Seins war das Dasein das Sein, das die Negation an ihm hatte, und das Sein der unmittelbare Boden und Element dieser Negation, die daher selbst die unmittelbare war.  Dem Dasein entspricht in der Sph&#228;re des Wesens das Gesetztsein. Es ist gleichfalls ein Dasein, aber sein Boden ist das Sein als Wesen oder als reine Negativit&#228;t; es ist eine Bestimmtheit oder Negation nicht als seiend, sondern unmittelbar als aufgehoben. 
+
+> &#167;854a What is posited is consequently an other, but in such a manner that the equality of reflection with itself is completely preserved; for what is posited is only as sublated, as a relation to the returninto-self. In the sphere of being, determinate being was the being in which negation was present, and being was the immediate base and element of this negation, which consequently was itself immediate. In the sphere of essence, positedness corresponds to determinate being. It is likewise a determinate being but its base is being as essence or as pure negativity; it is a determinateness or negation, not as affirmatively present but immediately as sublated. 
+
+> {#854b} &#167;854b Das Dasein ist nur Gesetztsein; dies ist der Satz des Wesens vom Dasein. 
+
+> &#167;854b Determinate being is merely posited being or positedness; this is the proposition of essence about determinate being. 
+
+
+> {#854c} &#167;854c Das Gesetztsein steht einerseits dem Dasein, andererseits dem Wesen gegen&#252;ber und ist als die Mitte zu betrachten, welche das Dasein mit dem Wesen und umgekehrt das Wesen mit dem Dasein zusammenschlie&#223;t. - Wenn man sagt, eine Bestimmung ist nur ein Gesetztsein, so kann dies daher den doppelten Sinn haben; sie ist dies im Gegensatze gegen das Dasein oder gegen das Wesen. In jenem Sinne wird das Dasein f&#252;r etwas H&#246;heres genommen als das Gesetztsein und dieses der &#228;u&#223;eren Reflexion, dem Subjektiven zugeschrieben. In der Tat aber ist das Gesetztsein das H&#246;here; denn als Gesetztsein ist das Dasein als das, was es an sich ist, als Negatives, ein schlechthin nur auf die R&#252;ckkehr in sich bezogenes. Deswegen ist das Gesetztsein nur ein Gesetztsein in R&#252;cksicht auf das Wesen, als die Negation des Zur&#252;ckgekehrtseins in sich selbst.
+
+> &#167;854c Positedness stands opposed, on the one hand, to determinate being, and on the other, to essence, and is to be considered as the middle term which unites determinate being with essence, and conversely, essence with determinate being. Accordingly, when it is said that a determination is only a positedness, this can have a twofold meaning; it is a positedness as opposed to determinate being or as opposed to essence. In the former meaning, determinate being is taken to be superior to positedness and the latter is ascribed to external reflection, to the subjective side. But in fact positedness is the superior; for as positedness, determinate being is that which it is in itself, a negative, something that is simply and solely related to the return-into-self. It is for this reason that positedness is only a positedness with respect to essence, as the negation of the accomplished return-into-self.
+
+
 
 #### Chapter 2. Die Wesenheiten oder die Reflexions-Bestimmungen / The Essentialities or Determination of Reflection
 
-> {#860} &#167;860 Die Reflexion ist das Scheinen des Wesens in sich selbst. Das Wesen als unendliche R&#252;ckkehr in sich ist nicht unmittelbare, sondern negative Einfachheit; es ist eine Bewegung durch unterschiedene Momente, absolute Vermittelung mit sich. Aber es scheint in diese seine Momente; sie sind daher selbst in sich reflektirte Bestimmungen.
+> {#860a} &#167;860a Die Reflexion ist bestimmte Reflexion; somit ist das Wesen bestimmtes Wesen, oder es ist Wesenheit.
 
-> &#167;860 Reflection is the showing of the illusory being of essence within essence itself. Essence, as infinite return-into-self, is not immediate but negative simplicity; it is a movement through distinct moments, absolute self-mediation. But it reflects itself into these its moments which consequently are themselves determinations reflected into themselves.
+> &#167;860a Reflection is determinate reflection; hence essence is determinate essence, or it is an essentiality.
+
+> {#860b} &#167;860b Die Reflexion ist das Scheinen des Wesens in sich selbst. Das Wesen als unendliche R&#252;ckkehr in sich ist nicht unmittelbare, sondern negative Einfachheit; es ist eine Bewegung durch unterschiedene Momente, absolute Vermittelung mit sich. Aber es scheint in diese seine Momente; sie sind daher selbst in sich reflektirte Bestimmungen.
+
+> &#167;860b Reflection is the showing of the illusory being of essence within essence itself. Essence, as infinite return-into-self, is not immediate but negative simplicity; it is a movement through distinct moments, absolute self-mediation. But it reflects itself into these its moments which consequently are themselves determinations reflected into themselves.
 
 $$
   Type_1 \subset Type_2 \subset Type_3 \subset Type_4 \subset \cdots
@@ -5292,11 +5339,13 @@ $$
 
 See above at [&#167;816](#816)
 
-##### $\;\;$ Remark $A = A$
+> {#863} &#167;863 So wird die wesentliche Bestimmung der Identit&#228;t in dem Satze ausgesprochen: Alles ist sich selbst gleich; $A = A$. 
 
-> {#863} &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
+> &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, $A = A$.
 
-The reflector(!) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
+The reflector (sic) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
+
+
 
 > {#864} &#167;864 Die Kategorie ist ihrer Etymologie und der Definition des Aristoteles nach, dasjenige, was von dem Seyenden gesagt, behauptet wird.
 
@@ -5818,6 +5867,7 @@ This we come to in more detail below.
 > &#167;1163b {#1163b} die Beziehung von Seyn und Wesen hat sich bis zum Verh&#228;ltnisse des Innern und Aeu&#223;ern fortgebildet.  Das Innere ist das Wesen aber als die Totalit&#228;t, welche wesentlich die Bestimmung hat, auf das Seyn bezogen und unmittelbar Seyn zu seyn.  Das Aeu&#223;ere ist das Seyn, aber mit der wesentlichen Bestimmung, auf die Reflexion bezogen unmittelbar ebenso verh&#228;ltni&#223;lose Identit&#228;t mit dem Wesen zu seyn. 
 
 > &#167;1163b the connection between being and essence has progressed to the relation of inner and outer. The inner is essence, but as totality, which essentially has the determination of connection with being and immediately to be being. The outer is being, but with the essential determination of being connected with reflection, and equally to be immediately a relationless identity with essence.
+
 
 We found that being, the [[category of being]], is the full ambient $\infty$-topos $\mathbf{H}$, while essence, in its appearence in itself, is the internal [[type universe]] $Type \in \mathbf{H}$. Hence _the outer_ is the "outer type universe", the $\infty$-topos $\mathbf{H}$, regarded as the full category of being, and the inner is its essence, hence by the above its internal reflection, hence is its inner [[type universe]] $Type \in \mathbf{H}$.
 
