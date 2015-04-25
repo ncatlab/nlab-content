@@ -2497,6 +2497,7 @@ for that of [[nLab:super formal smooth ∞-groupoids]].
 The [[nLab:sites]] in question are alternatingly (co-)[[nLab:reflective subcategories]] of each other (we always display [[nLab:left adjoints]] above their right adjoints)
 
 $$
+
   \ast
   \stackrel{\longleftarrow}{\hookrightarrow}
   CartSp
@@ -2806,10 +2807,11 @@ There are no non-trivial judgements with (a delooping of) $\mathbb{R}$ as the su
 By example \ref{PrincipalBundlesAsJudgements} this leads to the deduction of the object which is the homotopy fibers of the corresponding maps. From these one obtains further judgements, then further objects, and so forth. This way a "bouquet" of objects is induced from the initial ones. 
 
 
-We now discuss how this bouquet first of all yields [[nLab:super Minkowski spacetime]] and then further the [[nLab:extended super Minkowski spacetimes]] arising from [[nLab:super p-brane]] condensates ([FSS](#FSS)).
+We now discuss how this bouquet first of all yields [[nLab:super Minkowski spacetime]] as an extension of the superpoint [PN&#167;256b](#PN256b) and then further the [[nLab:extended super Minkowski spacetimes]] arising from [[nLab:super p-brane]] condensates ([FSS](#FSS)).
 
 
 ###### Minkowski spacetime
+ {#FormalizationNatureSpacetime}
 
 Consider first the [[nLab:superpoint]] $\mathbb{R}^{0|1}$.
 
@@ -3153,6 +3155,7 @@ $$
 This means that $\mathbb{R}^{2,1|2}$-manifolds $X$ equipped with the 3-cocycle as a [[nLab:definite form]] such that the resulting [[nLab:G-structure]] according to prop. \ref{DefiniteGlobalizationsToGStructure} also preserves the the group structure on $\mathbb{R}^{2,1|2}$, then this is equivalent to equipping $X$ with Lorentzian [[nLab:orthogonal structure]], hence with super-[[nLab:pseudo-Riemannian metric]], hence with a [[nLab:field (physics)|field]]-configuration for [[nLab:3d supergravity]].
 
 ###### Fundamental branes
+ {#FundamentalBranes}
 
 [[schreiber:The brane bouquet]] that we find...
 
@@ -6659,14 +6662,13 @@ see also [PN&#167;193b](#PN193b)
 > {#PN256b} PN&#167;256b $\beta$) Die Negation ist aber Negation des Raumes, d. i. sie ist selbst r&#228;umlich; der Punkt als wesentlich diese Beziehung, d.i. als sich aufhebend, ist die Line, das erste anders-, d.i. R&#228;umlich-sein des Punktes. $\gamma$) Die Wahrheit des Andersseins ist aber die Negation der Negation. Die Linie geht daher in die Fl&#228;che &#252;ber, welche einerseits eine Bestimmtheit gegen Linie und Punkt, und so Fl&#228;che &#252;berhaupt, andererseits aber die aufgehobene Negation des Raumes ist, somit Wiederherstellung der  r&#228;umlichen Totalit&#228;t, welche nunmehr das negative Moment an ihr hat; -- umschlie&#223;ende Oberfl&#228;che, die einen einzelnen ganzen Raum absondert.
 
 Hence out of the point there emanates the line, out of the line the plane, etc. Such a hierarchy of extensions by which spacetime emanates out of the point appears in the 
-
-[[schreiber:The brane bouquet|the brane bouquet]]: from the (super-)point $\mathbb{R}^{0|N}$ emanate the [[super Minkowsi spacetimes]] $\mathbb{R}^{d-1,1|N}$ by central extension via the $(-\Gamma-)$.
+[[schreiber:The brane bouquet|the brane bouquet]] discuss above in _[Formalization -- Nature -- Spacetime](#FormalizationNatureSpacetime)_: from the (super-)point $\mathbb{R}^{0|N}$ emanate the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1|N}$ by central extension via the $(-\Gamma-)$, prop. \ref{3dSuperMinkowskiSpacetime}.
 
 > {#PN256b} PN&#167;256b Da&#223; die Linie nicht aus Punkten, die Fl&#228;che nicht aus Linien besteht, geht aus ihrem Begriffe hervor, da die Linie vielmehr der Punkt als au&#223;er sich seiend, n&#228;mlich sich auf den Raum beziehend und sich aufhebend, die Fl&#228;che ebenso die aufgehobene, au&#223;er sich seiende Linie ist. &#8211;
 
 > PN&#167;256b That the line does not consist of points, nor the plane of lines, follows from their concepts
 
-[[synthetic geometry]], see also [PN&#167;254b](#PN254b)
+This is essentially the motto of _[[synthetic geometry]]_, see also [PN&#167;254b](#PN254b).
 
 ##### Die Zeit
 
