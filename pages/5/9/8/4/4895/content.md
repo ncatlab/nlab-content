@@ -156,7 +156,7 @@ The class of examples of "Chern-Simons-type holography" we mention now has fairl
 
 For more see at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
-Given any [[modular tensor category]] $C$ the [[Reshetikhin-Turaev construction]] procides a 3-dimensional [[TQFT]] $Z_C$. It space of states over a 2-dimensional surface can be identified (after some work) with a space of [[conformal block]]s for a [[WZW-model]]-liked $2d$ CFT. The [[FRS formalism]] provides a way to show that the states of $Z_C$ provides [[correlators]] that solve the [[sewing constraints]].
+Given any [[modular tensor category]] $C$ the [[Reshetikhin-Turaev construction]] produces a 3-dimensional [[TQFT]] $Z_C$. Its space of states over a 2-dimensional surface can be identified (after some work) with a space of [[conformal block]]s for a [[WZW-model]]-liked $2d$ CFT. The [[FRS formalism]] provides a way to show that the states of $Z_C$ provides [[correlators]] that solve the [[sewing constraints]].
 
 
 
