@@ -25,6 +25,7 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 * [[Pierre Cartier]], _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
 * Ralf Kr&#246;mer, _Tool and object: A history and philosophy of category theory_, Birkh&#228;user 2007
 * [[John Bell]], _The development of categorical logic_ ([pdf](http://publish.uwo.ca/~jbell/catlogprime.pdf))
+* Jean-Pierre Marquis, Gonzalo E. Reyes, _The history of categorical logic 1963&#8211;1977_, 111 pp. [pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf)
 
 ## General history of mathematics
 
