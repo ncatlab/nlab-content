@@ -2473,6 +2473,7 @@ $$
   FormalSmooth\infty Grpd \coloneqq Sh_\infty(CartSp \rtimes InfPoint)
 $$
 
+
 for the collection of [[nLab:formal smooth ∞-groupoids]] (see there) and finally
 
 $$
@@ -3334,8 +3335,8 @@ Our **paragraph numbering** is as follows:
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
 | quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;369](#369), [&#167;370](#370), [&#167;342](#342) |
 | $\to$ Etwas  |   |  [&#167;1056](#1056)  |
-| moment of discreteness | [[flat modality]] $\flat$ |  |
-| moment of continuity | [[sharp modality]] $\sharp$ |  |
+| moment of continuity | [[sharp modality]] $\sharp$ | [&#167;396](#396) |
+| moment of discreteness | [[flat modality]] $\flat$ | [&#167;397a](#397a) |
 | quantity | [[adjoint modality]] (discreteness $\dashv$ continuity)  = ($\flat \dashv \sharp$) | [&#167;398](#398), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | extensive quantity | $\sharp$-[[anti-modal types]] |  |
 | intensive quantity | $\sharp$-[[separated objects]] |  |
@@ -4653,13 +4654,41 @@ But later when _Nature_ has appeared, the unity of attraction and repulsion inde
 ##### A. Die reine Quantit&#228;t / Pure quantity
  {#PureQuantity}
 
+> {#395a} &#167;395a Die Quantit&#228;t ist das aufgehobene F&#252;rsichsein; das repellierende Eins, das sich gegen das ausgeschlossene Eins nur negativ verhielt, in die Beziehung mit demselben &#252;bergegangen, verh&#228;lt sich identisch zu dem Anderen und hat damit seine Bestimmung verloren; das F&#252;rsichsein ist in Attraktion &#252;bergegangen. Die absolute Spr&#246;digkeit des repellierenden Eins ist in diese Einheit zerflossen, welche aber, als dies Eins enthaltend, durch die inwohnende Repulsion zugleich bestimmt, als Einheit des Au&#223;ersichseins Einheit mit sich selbst ist. 
+
+> &#167;395a Quantity is sublated being-for-self; the repelling one which related itself only negatively to the excluded one, having passed over into relation to it, treats the other as identical with itself, and in doing so has lost its determination: being-for-self has passed over into attraction. The absolute brittleness of the repelling one has melted away into this unity which, however, as containing this one, is at the same time determined by the immanent repulsion, and as unity of the self-externality is unity with itself. 
+
+
+> {#395b} &#167;395b Die Attraktion ist auf diese Weise als das Moment der Kontinuit&#228;t in der Quantit&#228;t.
+
+> &#167;395b Attraction is in this way the moment of continuity in quantity.
+
+
+> &#167;396 Die Kontinuit&#228;t ist also einfache, sich selbst gleiche Beziehung auf sich, die durch keine Grenze und Ausschlie&#223;ung unterbrochen ist, aber nicht unmittelbare Einheit, sondern Einheit der f&#252;rsichseienden Eins. Es ist darin das Au&#223;ereinander der Vielheit noch enthalten, aber zugleich als ein nicht Unterschiedenes, Ununterbrochenes. Die Vielheit ist in der Kontinuit&#228;t so gesetzt, wie sie an sich ist; die Vielen sind eins was andere, jedes dem anderen gleich, und die Vielheit daher einfache, unterschiedslose Gleichheit. Die Kontinuit&#228;t ist dieses Moment der Sichselbstgleichheit des Au&#223;ereinanderseins, das Sichfortsetzen der unterschiedenen Eins in ihre von ihnen Unterschiedenen.
+
 > &#167;396 Continuity is, therefore, simple, self-same self-relation, which is not interrupted by any limit or exclusion; it is not, however, an immediate unity, but a unity of ones which possess being-for-self. The asunderness of the plurality is still contained in this unity, but at the same time as not differentiating or interrupting it. In continuity, the plurality is posited as it is in itself; the many are all alike, each is the same as the other and the plurality is, consequently, a simple, undifferentiated sameness. Continuity is this moment of self-sameness of the asunderness, the self-continuation of the different ones into those from which they are distinguished.
 
 This kind of continuity is expressed by the [[sharp modality]] $\sharp$.
 
-> &#167;397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. Continuity is self-sameness, but of the Many which, however, do not become exclusive; it is repulsion which expands the selfsameness to continuity. Hence discreteness, on its side, is a coalescent discreteness, where the ones are not connected by the void, by the negative, but by their own continuity and do not interrupt this self-sameness in the many.
+> {#397a} &#167;397a Unmittelbar hat daher die Gr&#246;&#223;e in der Kontinuit&#228;t das Moment der Diskretion, - die Repulsion, wie sie nun Moment in der Quantit&#228;t ist. 
 
-An opposite, and so this is the [[flat modality]] in which all points lose their cohesive attraction and repel each other to isolated point.s
+
+> &#167;397a In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
+
+So by [&#167;395b](#395b) and [&#167;397a](#397a):
+
+| unmittelbar |  as moment of quantity |
+|--|------------------------|
+| attraction | continuity |
+| repulsion  | discreteness |
+
+
+> {#397b} &#167;397b Die Stetigkeit ist Sichselbstgleichheit, aber des Vielen, das jedoch nicht zum Ausschlie&#223;enden wird; die Repulsion dehnt erst die Sichselbstgleichheit zur Kontinuit&#228;t aus. Die Diskretion ist daher ihrerseits zusammenflie&#223;ende Diskretion, deren Eins nicht das Leere, das Negative, zu ihrer Beziehung haben, sondern ihre eigene Stetigkeit, und diese Gleichheit mit sich selbst im Vielen nicht unterbrechen.
+
+
+> &#167;397b Continuity is self-sameness, but of the Many which, however, do not become exclusive; it is repulsion which expands the selfsameness to continuity. Hence discreteness, on its side, is a coalescent discreteness, where the ones are not connected by the void, by the negative, but by their own continuity and do not interrupt this self-sameness in the many.
+
+An opposite to continuity, and so this is the [[flat modality]] $\flat$ in which all points lose their cohesive attraction and repel each other to isolated pointss
 
 > [&#167;398](#398) Die Quantit&#228;t ist die Einheit dieser Momente, der Kontinuit&#228;t und Diskretion
 
@@ -4770,6 +4799,7 @@ The [[continuum]].
 > &#167;437 Quantum, which to begin with is quantity with a determinateness or limit in general is, in its complete determinateness, number. Quantum differentiates itself secondly, into (a) extensive quantum, in which the limit is a limitation of the determinately existent plurality; and (b) intensive quantum or degree, the determinate being having made the transition into being-for-self. Intensive quantum as both for itself and at the same time immediately outside itself &#8212; since it is an indifferent limit &#8212; has its determinateness in an other. As this manifest contradiction of being determined simply within itself yet having its determinateness outside it, pointing outside itself for it, quantum posited as being in its own self external to itself, passes over thirdly, into quantitative infinity.
 
 [[extensive and intensive quantity]]
+
 
 ##### A. Die Zahl
 
