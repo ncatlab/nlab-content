@@ -10,4 +10,6 @@
 
 * [[Berezinian]]
 
+* [[supermanifold]]
+
 category: people
