@@ -36,3 +36,11 @@ and section 4 of
 A [[motivic homotopy theory|motivic]] reinterpretation is discussed in
 
 * [[Alena Pirutka]], [[Nobuaki Yagita]], _Note on the counterexamples for the integral Tate conjecture over finite  fields_, [arXiv:1401.1620](http://arxiv.org/abs/1401.1620).
+
+The ideas of Atiyah-Hirzebruch and Totaro are shown to extend to [[positive characteristic]], using [[etale cohomology]] and [[etale homotopy theory]], in
+
+* [[Gereon Quick]], _Torsion algebraic cycles and etale cobordism_, [arXiv:0911.0584](http://arxiv.org/abs/0911.0584v3).
+
+New examples are in
+
+* [[Benjamin Antieau]], _On the integral Tate conjecture for finite fields and representation  theory_, [arXiv:1504.04879](http://arxiv.org/abs/1504.04879).
