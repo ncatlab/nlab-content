@@ -2243,7 +2243,7 @@ This was highlighted by [[John Huerta]].
 +-- {: .proof}
 ###### Proof
 
-It is clear that the [[spin group]] fixes the cocycle, and by the discussion at [[spin representation]] it preserves the bracket. Therefore it remains to be seen that the Spin group already exhausts the stabiizer group of bracket and cocycle. For that observe that the 3-cocycle is
+It is clear that the [[spin group]] fixes the cocycle, and by the discussion at [[spin representation]] it preserves the bracket. Therefore it remains to be seen that the Spin group already exhausts the stabilizer group of bracket and cocycle. For that observe that the 3-cocycle is
 
 $$
   (\psi,\phi, v) \mapsto \eta( [\psi,\phi], v )
