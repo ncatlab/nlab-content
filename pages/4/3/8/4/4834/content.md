@@ -90,7 +90,7 @@ The [[natural deduction]] rules are defined to be the following, for all $s \in 
 
 name          | rule                                                                                                                      | condition                         |
 --------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-(axioms)      | $\Gamma \vdash c : s$                                                                                                     | if $(c : s)$ is an axiom;         |
+(axioms)      | $\vdash c : s$                                                                                                     | if $(c : s)$ is an axiom;         |
 (start)       | $\frac{\Gamma \vdash A:s}{\Gamma, x : A \vdash x : A}$                                                             | if $x \notin \Gamma$              |
 (weakening)   | $\frac{\Gamma \vdash A:B; \quad \Gamma \vdash C:s}{\Gamma, x : C \vdash A : B}$                                           | if $x \notin \Gamma$              |
 (product)     | $\frac{\Gamma \vdash A : s_{1}; \quad \Gamma x:A \vdash B : s_{2}}{\Gamma \vdash (\prod x:A . B) : s_{3}}$                | if $(s_{1}, s_{2}. s_{3}) \in R$; |
