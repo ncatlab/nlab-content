@@ -287,6 +287,11 @@ $$
 
 This is discussed in detail at [[Smooth∞Grpd]] and proven at [[SynthDiff∞Grpd]].
 
+### Relation to Lie algebra cohomology
+
+The content of a [[van Est isomorphism]] is that the canonical comparison map from Lie group cohomology to [[Lie algebra cohomology]] (by [[differentiation]]) is an [[isomorphism]] whenever the Lie group is sufficiently connected.
+
+
 
 ## Related entries
 
