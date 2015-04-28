@@ -8,11 +8,11 @@ The journal he founded and edited, [[Cahiers de Topologie et Géométrie Différ
 
 1. "The mathematical legacy of Charles Ehresmann", conference "Geometry and Topology of Manifolds" Bedlewo 2005, Editors: Jan Kubarski, Jean Pradines, Tomasz Rybicki and Robert Wolak, INSTITUTE OF MATHEMATICS &#183; POLISH ACADEMY OF SCIENCES, BANACH CENTER PUBLICATIONS 76 (2007). 
 
-2. C. Ehresmann, &#338;uvres compl&#232;tes et comment&#233;es. I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by W. T. van Est,
-              Michel Zisman, Georges Reeb,
-              Paulette Libermann, Ren&#233; Thom, Jean Pradines, Robert
-              Hermann, Anders Kock, Andr&#233; Haefliger, Jean B&#233;nabou,
-              Ren&#233; Guitart, and Andr&#233;e Charles Ehresmann,
+2. C. Ehresmann, &#338;uvres compl&#232;tes et comment&#233;es. I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by [[Willem van Est]],
+              [[Michel Zisman]], Georges Reeb,
+              Paulette Libermann, [[René Thom]], [[Jean Pradines]], Robert
+              Hermann, [[Anders Kock]], [[André Haefliger]], [[Jean Bénabou]],
+              Ren&#233; Guitart, and [[Andrée Charles Ehresmann]],
               Edited by Andr&#233;e Charles Ehresmann,  Cahiers Topologie G&#233;om&#233;trie Diff&#233;rentielle, 24,
   (1983) suppll. 1.
 
