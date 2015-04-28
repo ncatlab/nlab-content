@@ -158,6 +158,6 @@ Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 
 
 ## Copyright statement ##
 
-My contributions to the [[HomePage|nLab]] are released under a [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. Indeed, when I can (for instance, all those of which I am solo author) I post my papers on the arXiv under a CC-BY license.
+My contributions to the [[HomePage|nLab]] are released under a [CC0](http://creativecommons.org/publicdomain/zero/1.0/) license. This is essentially public domain, but works in jurisdictions where such matters are difficult. Normal academic standards do apply, so attribution of ideas where they are clearly mine would be nice.
 
 category: people
