@@ -26,7 +26,7 @@ Where generally a [[symmetry]] is an invariance under a [[group]] [[action]] (af
 
 By [[Deligne's theorem on tensor categories]] it is precisely the context of supersymmetry in which [[tensor categories]] over the [[complex numbers]] exhibit full [[Tannaka duality]].
 
-In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to supergeometric extensions of the [[isometry group]] (or its Lie alhgebra)  of the local model of [[spacetime]]. For [[Minkowski spacetime]] this is the [[Poincaré group]] with its [[Poincaré Lie algebra]] and their super-extensions are accordingly known as the [[super Poincaré group]]  and [[super Poincaré Lie algebra]]. In physics the latter are often referred to simply as  **the supersymmetry algebra**. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator** and its [[Hamiltonian]] is called a _[[supercharge]]_. More generally,if spacetime geometry taken to be [[conformal geometry]] or [[de Sitter spacetime]]/[[anti-de Sitter spacetime]], then one considers supergeometric extensions of the [[conformal group]], [[de Sitter group]] and [[anti de Sitter group]], respectively, and then these are the relevant "supersymmetries".
+In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to supergeometric extensions of the [[isometry group]] (or its Lie algebra)  of the local model of [[spacetime]]. For [[Minkowski spacetime]] this is the [[Poincaré group]] with its [[Poincaré Lie algebra]] and their super-extensions are accordingly known as the [[super Poincaré group]]  and [[super Poincaré Lie algebra]]. In physics the latter are often referred to simply as  **the supersymmetry algebra**. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator** and its [[Hamiltonian]] is called a _[[supercharge]]_. More generally, if spacetime geometry is taken to be [[conformal geometry]] or [[de Sitter spacetime]]/[[anti-de Sitter spacetime]], then one considers supergeometric extensions of the [[conformal group]], [[de Sitter group]] and [[anti de Sitter group]], respectively, and then these are the relevant "supersymmetries".
 
 With the focus on spacetime symmetry groups implicitly understood, this implies that supersymmetry is the group theory relevant for [[super Cartan geometry]] locally modeled on [[super Minkowski spacetime]] or [[super anti de Sitter spacetime]], etc. In terms of physics and in view of the [[first order formulation of gravity]], this means that "locally gauged" supersymmetry is the super-geometric generalization from [[Einstein gravity]] to [[supergravity]] or, respectively, from [[conformal field theory]] to [[superconformal field theory]], etc.
 
@@ -42,7 +42,7 @@ By [[Wigner-Weyl theory]] we have in ordinary [[quantum field theory]] that [[un
 
 ### Local supersymmetry: supergravity
 
-To be distinguished from this _global supersymmetry_ is _local supersymmetry_ (see at _[[gauge group]]_ and at _[[Cartan connection]]_):  given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]] -- a supersymmetric extension_ is similarly a [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
+To be distinguished from this _global supersymmetry_ is _local supersymmetry_ (see at _[[gauge group]]_ and at _[[Cartan connection]]_):  given a [[gauge theory]] whose fields are [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- the theory of [[gravity]] in its [[first order formulation of gravity|first order formulation]] -- a supersymmetric extension is similarly a [[gauge theory]] with fields being connections in the [[super Poincaré Lie algebra]] -- a theory of [[supergravity]]. A [[gauge transformation]] in such a theory is called a **local supersymmetry transformation**.
 
 ### The relation between local and global supersymmetry
 
@@ -68,7 +68,7 @@ One finds that this condition is solved precisely by $Y^6$ being a [[Calabi-Yau 
 
 But notice that nothing in the theory of 10-dimensional [[supergravity]] _demands_ that its solutions have a global supersymmetry left (generically they will not) nor that they factor locally as $M^4 \times Y^6$. All this is an _ansatz_ a _phenomenological model_ . It only says that _if_ we make this ansatz, then $Y^6$ needs to be a Calabi-Yau space. In fact, it turns out to be nontrivial to check that with all the other fields taken into account, such a factor ansatz is indeed consistent. (This problem of "moduli stabilization" is discussed a little bit at [[landscape of string theory vacua]].)
 
-Latest experimental results strongly suggest that this model of global $(N = 1)$-supersymmetry at observable energies is not a desription of our phenomenological reality. Still, it could well be that the underlying theory of the world is nevertheless not plain [[general relativity]] but [[supergravity]].
+Latest experimental results strongly suggest that this model of global $(N = 1)$-supersymmetry at observable energies is not a description of our phenomenological reality. Still, it could well be that the underlying theory of the world is nevertheless not plain [[general relativity]] but [[supergravity]].
 
 ### Observed supersymmetry: on the worldline
 
@@ -90,9 +90,9 @@ This means that the assumption of [[spinning string]] [[sigma-models]] automatic
 
 Over the decades it has often been suggested that therefore the assumption of [[spinning string]]s "suggests" or "favours" the observation of superpartner particles in accelerators. However, this is not so:
 
-in thes constructions the [[particle]] species seen in accelerators are [[Kaluza-Klein mechanism|KK-modes]] and/or brane-brane open string modes of the compactified locally supersymmetric theory. This means that they are determined by the compactification geometry. Only if that has a global [[Killing spinor]] is the effective 4-dimensional theory globally supersymmetric and exhibits superpartners. As was mentioned above, for spacetimes of the form $M^4 \times Y^6$ this is the case precisely if $Y^6$ is a [[Calabi-Yau manifold]].
+in these constructions the [[particle]] species seen in accelerators are [[Kaluza-Klein mechanism|KK-modes]] and/or brane-brane open string modes of the compactified locally supersymmetric theory. This means that they are determined by the compactification geometry. Only if that has a global [[Killing spinor]] is the effective 4-dimensional theory globally supersymmetric and exhibits superpartners. As was mentioned above, for spacetimes of the form $M^4 \times Y^6$ this is the case precisely if $Y^6$ is a [[Calabi-Yau manifold]].
 
-But this is far from being the generic situation. This is clearl qualitatively (a generic solution to the super-[[Einstein equations]] will not have a [[Killing spinor]]). A mor sophisticated and quantitative argument to the same extend is for instance given in ([DLSW08](#DLSW)).
+But this is far from being the generic situation. This is clear qualitatively (a generic solution to the super-[[Einstein equations]] will not have a [[Killing spinor]]). A more sophisticated and quantitative argument to the same effect is given, for instance, in ([DLSW08](#DLSW)).
 
 
 
