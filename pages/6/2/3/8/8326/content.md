@@ -2792,7 +2792,7 @@ The progressive system of moments above, yields, by prop. \ref{DeterminateNegati
 | [[nLab:real line]] | [[nLab:superpoint]] |
 |---|---|
 | $\mathbb{R} = \mathbb{R}^{1\vert 0}$ | $\mathbb{R}^{0\vert 1}$ |
-| $&#643; \simeq loc_{\mathbb{R}}$ |  |
+| $&#643; \simeq loc_{\mathbb{R}}$ | $\R \simeq loc_{\mathbb{R}^{0\vert 1}}$ |
 
 
 Both have familiar structure of an [[nLab:abelian group]] object, $\mathbb{R}$ being the [[nLab:additive group]], hence there are arbitrary [[nLab:deloopings]] $\mathbf{B}^n \mathbb{R}^{0|1}$ and $\mathbf{B}^{n}\mathbb{R}$.
