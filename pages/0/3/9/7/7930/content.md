@@ -448,7 +448,7 @@ Some notation:
 * say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\magthbb{K})$ is a [[hermitian matrix]] if the [[transpose matrix]] equals the conjugated matrix: $A^t = A^\ast$. Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ this is $A = A^\dagger$, as usual;
 
 
-* write $\tilde A \coloneqq A - (tr A) \mathbb{1}_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix.
+* write $\tilde A \coloneqq A - (tr A) \mathbb{1}_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
 
 
 #### In dimensions 3,4,6,10
@@ -481,17 +481,23 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_prop #DeterminantGivesMinkowskiMetric}
+###### Proposition
 
 The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} equipped with the [[inner product]] $\eta(-,-)$ given by the [[determinant]] (which on hermitian $\mathbb{K}$-matrices is necessarily [[real part|real]]):
 
 $$
-  \eta(A,A) \coloneq det(A) \in \mathbb{R}
-  \,.
+  \eta(A,A) \coloneqq det(A) \in \mathbb{R}
 $$
 
-is [[Minkowski spacetime]]
+and whose mixed components are
+
+$$
+  \eta(A,B) = \tfrac{1}{2}Re(tr(A \tilde B)) = \tfrac{1}{2} Re(tr(\tilde A B))
+$$
+
+
+is [[Minkowski spacetime]]:
 
 1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
 
@@ -503,6 +509,9 @@ is [[Minkowski spacetime]]
 
 
 =--
+
+(e.g. [Baez-Huerta 09, prop. 5](#BaezHuerta09))
+
 
 +-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
 ###### Proposition
@@ -689,6 +698,22 @@ $$
   \right\}
 $$
 
+Hence the Minowski metric of prop. \ref{DeterminantGivesMinkowskiMetric} in this basis has the components
+
+$$
+  \eta 
+     = 
+  \left(
+    \array{
+      0 & -1 & 0
+      \\
+      -1 & 0 & 0
+      \\
+      0 & 0 & 2
+    }
+  \right)
+  \,.
+$$
 
 As vector spaces $S_{\pm} = \mathbb{R}^2$.
 
@@ -706,11 +731,11 @@ $$
 
 The spinor pairing $S_+ \otimes S_+ \otimes V^\ast \to \mathbb{R}$
 from prop. \ref{RealSpinorPairingsViaDivisionAlg} is given on an $A = A_+ v^+ + A_- v^- + A_y v^y $ ($A_+, A_-, A_y \in \mathbb{R}$) 
-by
+by the components
 
 $$
   \begin{aligned}
-    \eta(\overline{\psi}\Gamma\phi,v)
+    \eta(\overline{\psi}\Gamma\phi,A)
     &=
     \psi^t \cdot A \cdot \phi
     \\
@@ -723,7 +748,7 @@ $$
   \end{aligned}
 $$
 
-and $S_- \otimes S_- \otimes V^\ast \to \mathbb{R}$ is given by
+and $S_- \otimes S_- \otimes V^\ast \to \mathbb{R}$ is given by the components
 
 $$
   \begin{aligned}
@@ -739,6 +764,16 @@ $$
     (\psi_1 \phi_2 + \psi_2 \phi_1) A_y    
   \end{aligned}
   \,.
+$$
+
+and so, in view of the above metric components, in terms of dual bases $\{\psi^i\}$ this is
+
+$$
+  \mu = 
+  - \psi^1 \otimes \psi^1 \otimes A_-
+  - \psi^2 \otimes \psi^2 \otimes A_+
+  +
+  \frac{1}{2} (\psi^1 \otimes \psi^2 \oplus \psi^2 \otimes\psi^1) \otimes A_y
 $$
 
 
