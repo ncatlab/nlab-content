@@ -85,9 +85,13 @@ This way we recover the above definition of Lie algebra cohomology (with coeffic
 
 ## Properties
 
+### Whitehead's lemma
+
 The following lemma asserts that for semisimple Lie algebras $\mathfrak{g}$ only the cohomology $\mathfrak{g} \to b^{n-1} \mathbb{R}$ with coefficients in the trivial module is nontrivial.
 
-**Whiteheads lemma**
++-- {: .num_prop}
+###### Proposition
+**(Whitehead's lemma)**
 
 For $\mathfrak{g}$ a finite dimensional [[semisimple Lie algebra]] over a [[field]] of [[characteristic]] 0, and for $V$ a non-trivial finite-dimensional [[irreducible representation]], we have
 
@@ -95,6 +99,12 @@ $$
   H^p(\mathfrak{g}, V) = 0 \;\;\; for\;p \gt 0
   \,.
 $$
+
+=--
+
+### Van Est isomorphism
+
+The content of a [[van Est isomorphism]] is that the canonical comparison map from [[Lie group cohomology]] to Lie algebra cohomology (by [[differentiation]]) is an [[isomorphism]] whenever the Lie group is sufficiently connected.
 
 ## Examples
 
