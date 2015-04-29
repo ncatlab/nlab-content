@@ -33,6 +33,10 @@ Notably the [[supergravity Lie 3-algebra]] is the extended Minkowski spacetime o
 
 * [[extended supersymmetry]]
 
+* [[M-theory supersymmetry algebra]]
+
+* [[type II supersymmetry algebra]]
+
 [[!include local and global geometry - table]]
 
 ## References
