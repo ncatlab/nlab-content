@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The __electromagnetic radiation__ of some localized body is an [[electromagnetic field]] caused by (the dynamics of) that body in the limit of a large distance from that body. See also [[radiation]].
 
 Sometimes one refers to electromagnetic radiation through some medium as simply the presence of an externally caused electromagnetic waves passing through
@@ -5,6 +12,12 @@ that medium, not specifying any particular source. Sometimes the source of a rad
 occurs within the medium containing the matter in equilibrium. 
 
 Theoretical treatment of a radiation caused by a moving charged and or magnetized body at large distances from the sources involves theoretical issues like multipole expansions, asymptotics of expressions for fields, retarded potentials and so on. 
+
+## related concepts
+
+* [[black body radiation]]
+
+## References
 
 * wikipedia [Electromagnetic radiation](http://en.wikipedia.org/wiki/Electromagnetic_radiation)
 
