@@ -240,6 +240,10 @@ Further constraints follow from requiring unitary representations ([Minwalla 98,
 * [[BPS state]]
 
 
+### Extensions
+
+In special dimensions supersymmetry super Lie algebras have [polyvector extensions](super%20Poincare%20Lie%20algebra#PolyvectorExtensions) by [[brane]] [[charges]], called for instance the _[[type II supersymmetry algebra]]_ for the case of [[type II supergravity]] or the _[[M-theory supersymmetry algebra]]_ for the case of [[11-dimensional supergravity]]. These in turn are the truncations of [[super L-infinity algebra]] extensions, related to the [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]] etc. See also at _[[extended supersymmetry]]_ and _[[extended super Minkowski spacetime]]_.
+
 
 ## Examples
 
