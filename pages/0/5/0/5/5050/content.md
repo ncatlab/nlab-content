@@ -32,6 +32,11 @@ For details see [[manifold]].
 
 * [[Dominic Joyce]], _On manifolds with corners_ ([arXiv:0910.3518](http://arxiv.org/abs/0910.3518))
 
+Discussion in the context of [[synthetic differential geometry]] realized in the [[Cahiers topos]] is in
+
+* {#Schlegel15} [[Vincent Schlegel]], _Gluing Manifolds in the Cahiers Topos_ ([arXiv:1503.07408](http://arxiv.org/abs/1503.07408))
+
+
 [[!redirects manifolds with boundary]]
 
 [[!redirects manifold with corners]]
