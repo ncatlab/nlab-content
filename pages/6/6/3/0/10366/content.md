@@ -26,6 +26,7 @@ The super-Poincar&#233; Lie algebra has certain exceptional super [[Lie algebra 
 
 The "[[M-theory Lie algebra]]" is a polyvector extension of the super Poincar&#233; Lie algebra $\mathfrak{siso}_{N=1}(10,1)$ by polyvectors of rank $p = 2$ and $p=5$ (the [[M2-brane]] and the [[M5-brane]] in the [[brane scan]]), see below [Polyvector extensions as automorphism Lie algebras](#PolyvectorExtensionsAsAutomorphismLieAlgebras).
 
+Similarly the _[[type II supersymmetry algebra]]_ in [[type II supergravity]].
 
 ## Properties
 
