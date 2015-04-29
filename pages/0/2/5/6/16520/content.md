@@ -1,0 +1,9 @@
+
+## Idea
+
+The [[electromagnetic radiation]] emitted by an ideal non-reflecting ("black") piece of [[matter]] in [[thermal equilibrium]] with the [[electromagnetic field]] around it, at any given [[temperature]].
+
+## References
+
+* Wikipedia, _[Black body radiation](http://en.wikipedia.org/wiki/Black-body_radiation)_
+
