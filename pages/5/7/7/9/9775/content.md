@@ -45,6 +45,8 @@ The [[cocycles]] of the exceptional [[∞-Lie algebra cohomology]] of $\mathfrak
 
 [[supergravity Lie 6-algebra]] $\to$ [[supergravity Lie 3-algebra]] $\to$ [[super Poincaré Lie algebra]]
 
+* [[type II supersymmetry algebra]]
+
 ## References
 
 The [[type IIA supergravity]] Lie 2-algebra and its [[D-brane]]-[[Green-Schwarz action functional]]-type cocycles are discussed in section 6 of
