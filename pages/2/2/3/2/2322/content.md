@@ -48,24 +48,31 @@ An [[object classifier]] is a (small) _self-reflections_ of the $\infty$-topos i
 =--
 
 ## Definition
+ {#Definition}
 
-For simplicity, the following is phrased in classical categorical terms. Of course, it can be translated into "$\infty$"-language by prefixing every word by "$\infty$-". We leave this translation to the reader.
 
-Let $C$ be a category, and let $S$ be a class of morphisms of $C$ which is stable under pullback. Then an **$S$-classifier** is a terminal object in the category of arrows of $S$ are objects and pullback squares in $C$ are morphisms.
+Let $\mathcal{C}$ be a [[(∞,1)-category]], and let $S$ be a class of [[1-morphisms]] of $\mathcal{C}$ which is stable under [[(∞,1)-pullback]]. Then an **$S$-classifier** is a [[terminal object in an (∞,1)-category|terminal object]] in the sub-category of arrows $\mathcal{C}^{\Delta^1}$ of $S$ whose morphisms are [[(∞,1)-pullback]] squares in $\mathcal{C}$.
 
 Explicitly, an $S$-classifier consists of 
 
-* An arrow $\Sigma: \Sigma_0 \to \Sigma_1$ in $S$ such that
+* a morphism $\widehat {S Type} \longrightarrow S Type$ in $S$ 
 
-* For each $f: X \to Y$ in $S$, there exists a unique pullback square
-$$
-\begin{matrix}
-  X & \overset{f}{\to} & Y \\
-  \downarrow& &\, \downarrow \\
-  \Sigma_0 &\overset{\Sigma}{\to} & \Sigma_1
-\end{matrix}
-$$
-in $C$.
+* such that for each $X \stackrel{p}{\to} B$ in $S$, there exists an essentially unique [[(∞,1)-pullback]] square of the form
+
+  $$
+    \array{
+       X &\longrightarrow& \widehat {S Type}
+       \\
+       \downarrow^{\mathrlap{p}} && \downarrow
+       \\
+       B &\stackrel{'X'}{\longrightarrow}& S Type
+    }
+    \,.
+  $$
+
+  in $\mathcal{C}$
+
+Here $'X'$ may be called the _name_, or the _[[classifying morphism]]_, or the _[[modulating morphism]]_ or the _internal reflection_ of $X$ over $B$, 
 
 For example,
 
@@ -75,7 +82,7 @@ For example,
 
 * When $S$ is the class of **all relatively $\kappa$-compact morphisms** (for some regular cardinal $\kappa$--see below for the definition), an $S$-classifier is called a **$\kappa$-compact-object classifier**.
 
-**Note on terminology:** In all cases, the "things" classified by an "(adjectives) object classifier" are _arrows_ -- this is no different from the most famous case of _subobject classifiers_, which classify _monos_. For each object $X$, a _subobject classifier_ classifies the _subobjects of $X$_. For each object $X$, an _object classifier_ classifies the _objects over $X$_.
+**Note on terminology:** In all cases, the "things" classified by an "(adjectives) object classifier" are _arrows_ -- this is no different from the most famous case of _[[subobject classifiers]]_, which classify _monos_. For each object $X$, a _subobject classifier_ classifies the _subobjects of $X$_. For each object $X$, an _object classifier_ classifies the _objects over $X$_.
 
 ## Details
 
