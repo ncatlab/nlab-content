@@ -18,7 +18,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea 
@@ -183,6 +183,11 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 [[Mike Shulman|Mike]]: I haven't actually checked anything in this section, but it seems probable.
 =--
 
+## Related concepts
+
+* [[type universe]]
+
+* [[object classifier in an (infinity,1)-topos]]
 
 ## References 
 
