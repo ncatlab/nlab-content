@@ -20,7 +20,7 @@ A [[cardinal number]] $\kappa$ is **measurable** if some (hence any) set of card
 
 ## Properties
 
-Any measurable cardinal is necessarily [[inaccessible cardinal|inaccessible]], and in fact much larger than the smallest inaccessible.  In fact, if $\kappa$ is measurable, then there is a $\kappa$-complete ultrafilter $\mathcal{U}$ on $\{\lambda | \lambda \lt \kappa\}$ which contains the set $\{\lambda | \lambda \lt \kappa$ and $\lambda$ is inaccessible $\}$.  In particular, there are $\kappa$ inaccessible cardinals smaller than $\kappa$.
+Any measurable cardinal is, in [[ZFC]], necessarily [[inaccessible cardinal|inaccessible]], and in fact much larger than the smallest inaccessible.  In fact, if $\kappa$ is measurable, then there is a $\kappa$-complete ultrafilter $\mathcal{U}$ on $\{\lambda | \lambda \lt \kappa\}$ which contains the set $\{\lambda | \lambda \lt \kappa$ and $\lambda$ is inaccessible $\}$.  In particular, there are $\kappa$ inaccessible cardinals smaller than $\kappa$. Note that in [[ZF]] it is consistent that $\omega_1$, a successor cardinal, is measurable.
 
 It follows from this that the existence of any measurable cardinals cannot be proven in [[ZFC]], since the existence of inaccessible cardinals cannot be so proven.  Thus measurable cardinals are a kind of [[large cardinal]].  They play an especially important role in large cardinal theory, since any measurable cardinal gives rise to an [[elementary embedding]] of the universe $V$ into some submodel $M$ (such as an [[ultrapower]] by a countably-complete ultrafilter), while the "critical point" of any such embedding is necessarily measurable.
 
