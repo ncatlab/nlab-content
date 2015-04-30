@@ -31,6 +31,7 @@ BPS states play a central role in the investigation of [[moduli spaces]] of clas
 
 Several mathematical theories in [[geometry]] are interpreted as counting BPS-states in the sense of integration on appropriate compactification of the moduli space of BPS-states in a related physical model attached to the underlying geometry: most notably the [[Gromov-Witten invariants]], [[Donaldson-Thomas invariants]] and the [[Thomas-Pandharipande invariants]]; all the three seem to be deeply interrelated though they are defined in rather very different terms. The compactification of the moduli space involves various stability conditions. 
 
+
 ### In supergravity
 
 In the context of [[supergravity]] BPS states correspond to [[super spacetimes]] admitting [[Killing vectors]]. These notably include extremal [[black brane]] solutions.
@@ -209,6 +210,13 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 * Andrew Callister, _Topological BPS charges in 10- and 11-dimensional supergravity_, thesis 2010 ([spire](http://inspirehep.net/record/1221591?ln=en))
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
+
+Discussion for [[4d supergravity]], hence in [[KK-compactification]] of [[type II supergravity]] on a [[Calabi-Yau manifold]] is due to
+
+* {#Denef00} [[Frederik Denef]], _Supergravity flows and D-brane stability_, JHEP 0008:050,2000 ([arXiv:hep-th/0005049](http://arxiv.org/abs/hep-th/0005049))
+
+* [[Frederik Denef]], _Quantum Quivers and Hall/Hole Halos_, JHEP 0210:023,2002 ([arXiv:hep-th/0206072](http://arxiv.org/abs/hep-th/0206072))
+
 
 Discussion of more general classification of solutions to [[supergravity]] preserving some [[supersymmetry]], i.e. admitting some [[Killing spinors]] includes
  
