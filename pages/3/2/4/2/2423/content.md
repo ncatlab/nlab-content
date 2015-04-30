@@ -52,7 +52,7 @@ see also
 
 #Idea {#Idea}
 
-The goal here is to befine a category of [[cobordism]]s that carry the structure of [[Riemannian manifold]]s. Where a functor on an ordinary [[cobordism category]] defines a [[TQFT]], the assignments of a functor on a category of [[Riemannian cobordism]]s do not only depend on the topology of a given cobordism, but also on its Riemannian structure. In physics terms such a functor is a _Euclidean quantum field theory_ . 
+The goal here is to define a category of [[cobordism]]s that carry the structure of [[Riemannian manifold]]s. Where a functor on an ordinary [[cobordism category]] defines a [[TQFT]], the assignments of a functor on a category of [[Riemannian cobordism]]s do not only depend on the topology of a given cobordism, but also on its Riemannian structure. In physics terms such a functor is a _Euclidean quantum field theory_ . 
 
 
 >Notice however that the physicist's use of the word "Euclidean" is different from the way Stolz-Teichner use it: for a physicist it means that the Riemannian structure is not _pseudo_-Riemannian. For Stolz-Teichner it means (later on) that the Riemannian metric is _flat_ .
