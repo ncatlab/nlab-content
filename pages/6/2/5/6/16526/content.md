@@ -1,0 +1,6 @@
+
+[[supergravity]] in [[dimension]] 10. 
+
+* [[type II supergravity]]
+
+* [[heterotic supergravity]]
