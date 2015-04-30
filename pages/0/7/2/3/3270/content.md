@@ -73,7 +73,7 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * [pdf](http://string.lpthe.jussieu.fr/QKPHYS2010/Manschot.pdf)
 
-* {#Dimofte10} [[Tudor Dimofte]], _Refined wall crossing_ ([pdf](http://thesis.library.caltech.edu/5808/4/TD_part1.pdf)), part I of _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([web](http://thesis.library.caltech.edu/5808/))
+* {#Dimofte10} [[Tudor Dimofte]], _Refined wall crossing_ ([pdf](http://thesis.library.caltech.edu/5808/4/TD_part1.pdf)), part I of _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([pdf](http://thesis.library.caltech.edu/5808/1/DimofteTDofficial.pdf), [web](http://thesis.library.caltech.edu/5808/))
 
 * [[Daniel Jafferis]], [[Gregory Moore]], _Wall crossing in local Calabi Yau manifolds_ ([arXiv:0810.4909](http://arxiv.org/abs/0810.4909))
 
