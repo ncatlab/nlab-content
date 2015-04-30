@@ -13,7 +13,7 @@ An __affine scheme__ is a [[scheme]] that as a [[sheaf]] on the [[opposite categ
 The correspondence $Y\mapsto Spec(\Gamma_Y \mathcal{O}_Y)$ extends to a functor $Scheme\to Aff$. The __fundamental theorem on morphisms of schemes__ says that there is a bijection  
 
 $$
-CRing(\Gamma_Y\mathcal{O}_Y, R) \cong Scheme(Spec R, Y).
+CRing(R, \Gamma_Y\mathcal{O}_Y) \cong Scheme(Y, Spec R).
 $$
 
 In other words, for fixed $Y$, and for varying $R$ there is a restricted functor  
