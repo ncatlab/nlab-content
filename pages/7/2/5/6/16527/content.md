@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.gran.name)
+
+## related $n$Lab entries
+
+* [[supergravity]]
+
+* [[supergravity torsion constraints]]
+
+category: people
