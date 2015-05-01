@@ -48,7 +48,8 @@ $$
 The **horizontal filtration** on $Tot C$ is the [[filtered object|filtration]] $F_\bullet Tot C$ given in degree $n$ by the [[direct sum]] expression
 
 $$
-  F^{hor}_p (Tot C)_n \coloneqq  \underset{{n_1+n_2 = n}{\oplus} \atop {n_1 \leq p} } C_{n_1,n_2}
+  F^{hor}_p (Tot C)_n \coloneqq
+  \oplus_{{n_1+n_2 = n} \atop {n_1 \leq p} } C_{n_1,n_2}
   \,.
 $$
 
