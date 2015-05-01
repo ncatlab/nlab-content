@@ -1814,6 +1814,7 @@ with 0-truncated extensive $\mathbf{\Omega}^{2}_{cl}$.
 +-- {: .num_defn #BGconn}
 ###### Definition
 
+
 Given a [[nLab:Hodge filtration]], write $\mathbf{B}\mathbb{G}_{conn}$ for the homotopy fiber product
 
 $$
@@ -3378,7 +3379,7 @@ Our **paragraph numbering** is as follows:
 | Wesen, essence | the ambient [[(∞,1)-category]], ambient [[(∞,1)-topos]] | [&#167;803](#803), [&#167;812](#812), [&#167;828](#828) |
 | essence opposing itself, Bewegung von Nichts zu Nichts  | $id \dashv id$ | [&#167;813](#813), [&#167;823](#823), [&#167;835](#835), [&#167;839](#839) | 
 |  | $ \array{ id &\dashv& id & = \overline{\ast} \\ \vee && \vee \\ \vdots && \vdots \\ \vee && \vee \\  \emptyset &\dashv& \ast & = \overline{id} } $ |  [Setzende Reflexion](#SetzendeReflexion), [&#167;853b](#853b) |
-| essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037) |
+| essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037), [Luo11,2.5](type+of+types#Luo11),  [Pal](type+of+types#Palmgren), [Rat](type+of+types#Rathjen) |
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860b](#860b) |
 | Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
 | das Aeussere | the ambient category of being $\mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
@@ -5122,11 +5123,18 @@ Der Begriff ist das daseiende Wesen.
 
 > &#167;816 At first, essence shines or shows within itself, or is reflection
 
-With the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to:
+Notice first that with the translation from [&#167;803](#803),[&#167;812](#812) of "Das Wesen" = terminal [[Aufhebung]] = "the ambient category", the original German here translates really to:
 
 > The ambient category appears within itself
 
 See also [&#167;834](#834), [&#167;1036](#1036), [&#167;1037](#1037) below.
+
+
+In ([[homotopy type theory|homotopy]]) [[type theory]] the appearance of a _reflection_ of the type system in itself is a _[[type universe]]_ $Type \in \mathbf{H}$., (see there references listed [here](type+of+types#TypeUniverseAsReflection)) see also [&#167;833](#833). 
+
+> Adding a universe is a reflection process ([Stanf. Enc. Phil. Extensions of Type System](http://plato.stanford.edu/entries/type-theory/#6))
+
+> Introducing universes can be considered as a [[reflection principle]]: such a universe reflects those types whose names are its objects. [Luo 11, section 2.5](type+of+types#Luo11)
 
 The [Rezk-Lurie theorem](infinity-topos#CharacterizationByObjectClassifier) states that the very characterization of an [[(infinity,1)-topos|infinity-topos]] is that it (is presentable with universal colimits and) has a [[type of types]] = [[object classifier]] = [[universe]] (in the mathematical sense!). This [[type of types]] is indeed nothing but the small reflection of the full $\infty$-topos inside it self.
 
@@ -5195,7 +5203,12 @@ This fits well also with [Phen&#167;760](#Phen760): "der Begriff des Wesens ist 
 > &#167;818 Essence that issues from being seems to confront it as an opposite; this immediate being is, in the first instance, the unessential. But secondly, it is more than merely unessential being, it is essenceless being, it is illusory being.
 Thirdly, this illusory being is not something external to or other than essence; on the contrary, it is essence's own illusory being. The showing of this illusory being within essence itself is reflection.
 
-[[type universe]] $Type \in \mathbf{H}$., see also [&#167;833](#833)
+In ([[homotopy type theory|homotopy]]) [[type theory]] the appearance of a _reflection_ of the type system in itself is a _[[type universe]]_ $Type \in \mathbf{H}$., (see there references listed [here](type+of+types#TypeUniverseAsReflection)) see also [&#167;833](#833)
+
+> Adding a universe is a reflection process ([Stanf. Enc. Phil. Extensions of Type System](http://plato.stanford.edu/entries/type-theory/#6))
+
+> Introducing universes can be considered as a [[reflection principle]]: such a universe reflects those types whose names are its objects. [Luo 11, section 2.5](type+of+types#Luo11)
+
 
 > {#827} &#167;827 Es ist die Unmittelbarkeit des Nichtseins, welche den Schein ausmacht; dies Nichtsein aber ist nichts anderes als die Negativit&#228;t des Wesens an ihm selbst. Das Sein ist Nichtsein in dem Wesen. Seine Nichtigkeit an sich ist die negative Natur des Wesens selbst.  Die Unmittelbarkeit oder Gleichg&#252;ltigkeit aber, welche dies Nichtsein enth&#228;lt, ist das eigene absolute Ansichsein des Wesens.  Die Negativit&#228;t des Wesens ist seine Gleichheit mit sich selbst oder seine einfache Unmittelbarkeit und Gleichg&#252;ltigkeit.  Das Sein hat sich im Wesen erhalten, insofern dieses an seiner unendlichen Negativit&#228;t diese Gleichheit mit sich selbst hat;  hierdurch ist das Wesen selbst das Sein. Die Unmittelbarkeit, welche die Bestimmtheit am Scheine gegen das Wesen hat,  ist daher nichts anderes als die eigene Unmittelbarkeit des Wesens; aber nicht die seiende Unmittelbarkeit, sondern die schlechthin vermittelte oder reflektierte Unmittelbarkeit, welche der Schein ist, - das Sein nicht als Sein, sondern nur als die Bestimmtheit des Seins, gegen die Vermittlung; das Sein als Moment.
 
@@ -5229,7 +5242,7 @@ $$
   (id \dashv id) \;\;\;\;, \;\;\;\; Type
 $$
 
-which in turn is the ambient category and its type universe. Hence this gives again that Essence is the ambient $\infty$-topos.
+which in turn is the ambient category and its [[type universe]]. Hence this gives again that Essence is the ambient $\infty$-topos.
 
 ##### C Die Reflexion / Reflection
 
@@ -5237,7 +5250,7 @@ which in turn is the ambient category and its type universe. Hence this gives ag
 
 > &#167;833 Illusory being is the same thing as reflection; but it is reflection as immediate.
 
-[[type universe]]/[[object classifier]]
+In ([[homotopy type theory|homotopy]]) [[type theory]]/[[(infinity,1)-topos theory]] the appearance of a _reflection_ of the type system in itself is called [[type universe]]/[[object classifier]] (see there references listed [here](type+of+types#TypeUniverseAsReflection)).
 
 
 > {#834} &#167;834 Das Wesen ist Reflexion;...
