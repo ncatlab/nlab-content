@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A principle in [[set theory]] that states that it is possible to find [[sets]] that resemble the [[class]] of all sets (that are constructed in some ways).
+
+## Related concepts
+
+* [[universe]]
+
+* [[type of types]]
+
+## References
+
+* Wikipedia, _[Reflection principle](http://en.wikipedia.org/wiki/Reflection_principle)_
