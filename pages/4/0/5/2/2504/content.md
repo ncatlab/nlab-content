@@ -183,8 +183,11 @@ The [[Chevalley-Eilenberg algebra]] of $\mathfrak{sugra}(10,1)$ first appears in
 
 and later in the textbook
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
-{#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+
+Further discussion includes
+
+* [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv;hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
 
 The manifest interpretation of this as a [[Lie 3-algebra]] and the supergravity field content as [[∞-Lie algebra valued forms]] with values in this is mentioned in 
 
