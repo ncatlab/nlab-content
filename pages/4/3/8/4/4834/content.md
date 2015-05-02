@@ -45,21 +45,21 @@ A _pure type system_ is defined by
 
 * a set $S$ of _sorts_, all of which are constants,
 * a set $A$ of _axioms_ of the form $c : s$ with $c$ a constant and $s$ a sort,
-* a set $R \hookrightarrow S \times S \times S$ of _[[relations]]_: triples $(s_{1}, s_{2}, s_{3}) $ of sorts.
+* a set $R \hookrightarrow S \times S \times S$ of _rules_: triples $(s_{1}, s_{2}, s_{3}) $ of sorts.
 
-  Relations $(s_{1}, s_{2}, s_{2})$ are abbreviated as $(s_{1}, s_{2})$.
+  Rules $(s_{1}, s_{2}, s_{2})$ are abbreviated as $(s_{1}, s_{2})$.
 
 +-- {: .num_remark }
 ###### Remark
 
-These relations will appear in the [[type formation]] rule for [[dependent product types]] below. They will say that for a type of sort $s_2$ [[dependent type|depending]] on a type of sort $s_1$ its dependent product is a type of sort $s_3$.
+These _rules_ will appear in the [[type formation]] rule for [[dependent product types]] below. They will say that for a type of sort $s_2$ [[dependent type|depending]] on a type of sort $s_1$ its dependent product is a type of sort $s_3$.
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-In fact _all_ such triples appearing in the following have $s_2 = s_3$. So we can just as well regard them as binary relations $R \hookrightarrow S\times S$ (rather than ternary ones).
+In fact all rules $(s_{1}, s_{2}, s_{2})$ appearing in the following have $s_2 = s_3$. So we can just as well regard $R$ as a binary relation $R \hookrightarrow S\times S$ (rather than a ternary one).
 
 =--
 
@@ -107,7 +107,7 @@ name          | rule                                                            
 
 #### Lambda cube #### 
 
-The _lambda cube_ ([Barendregt 91](#Barendregt91)) consists of eight systems arranged in a cube. The most expressive is given by the following choice of sorts, axioms and relations:
+The _lambda cube_ ([Barendregt 91](#Barendregt91)) consists of eight systems arranged in a cube. The most expressive is given by the following choice of sorts, axioms and rules:
 
 | symbol | actual value
 |--------|-------------
@@ -117,7 +117,7 @@ The _lambda cube_ ([Barendregt 91](#Barendregt91)) consists of eight systems arr
 
 (Here $\{\ast, \Box\}$ denotes the 2-element set, see [Barendregt 91, 2.1](#Barendregt91))
 
-The other systems omit some of the last three relations.
+The other systems omit some of the last three rules.
 Some specific systems are the following:
 
 name | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \square)$ |
@@ -138,11 +138,11 @@ For instance for the [[calculus of constructions]] we have
 
 The single axiom $* \colon \Box$ hence says that $Prop \colon Type$, hence that [[Prop]] is a [[type]]. 
 
-The relations express the usual rule for [[dependent product type]]: 
+The rules express the usual rule for [[dependent product type]]: 
 
 * a dependent product over a generic [[dependent type]] is itself some type;
 
-* but if the dependent product is over a [[proposition]] then it is in fact itself a proposition, namely the [[universal quantifier|universal quantification]] of the given definition.
+* but the dependent product of a dependent [[proposition]] is itself a proposition, namely the [[universal quantifier|universal quantification]].
  
 
 ### Inconsistent systems ### 
