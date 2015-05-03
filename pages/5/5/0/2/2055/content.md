@@ -173,8 +173,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
-* [Intuistic Mathematics](http://jmrresearch.wordpress.com/) (Julian Rachman: Topology and Higher Mathematics Insights) 
-
 * [Isomorphismes](http://isomorphismes.tumblr.com/tagged/mathematics) (maths about human beings)
 
 * [Joel David Hamkins](http://jdh.hamkins.org) "mathematics and philosophy of the infinite", foundations
