@@ -3,4 +3,5 @@
 category:people 
 
 [[!redirects J-P. Serre]]
+[[!redirects J.-P. Serre]]
 [[!redirects Serre]]
