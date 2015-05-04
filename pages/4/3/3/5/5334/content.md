@@ -13,7 +13,7 @@ While [[Brouwer]] had insisted that mathematics was primary to [[logic]], the [[
 
 Bishop\'s important works in constructive mathematics include:
 
-*  _[[Foundations of Constructive Analysis]]_ (1967), the work which made him famous;
+*  _[[Foundations of Constructive Analysis]]_ (1967), the work which made him famous in the foundations of mathematics circles;
 *  "Schizophrenia in contemporary mathematics" (1973), a philosophical attack on nonconstructive mathematics;
 *  _Constructive Measure Theory_ (1972, with [[Henry Cheng]]), featuring a better [[measure theory]] than in _FCA_;
 *  _Constructive Analysis_ (1985, with [[Douglas Bridges]]), a revised version of _FCA_, incorporating the measure theory of _CMT_.
