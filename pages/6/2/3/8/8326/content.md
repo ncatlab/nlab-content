@@ -6174,6 +6174,7 @@ Where for instance the [[shape modality]] $&#643;$ determines a category of bein
 
 ## **Die Lehre vom Begriff** / **The doctrine of the notion**
 
+> [LectHistPhi-Anaxagoras](#Lectures+on+the+History+of+Philosophy#DiesAllgemeineSoFuerSichSeiende) ...den Begriff selbst zu begreifen. Den sich zu einem System realisierenden, als Universum organisierten Verstand, diesen reinen Begriff...
 
 ### Vom Begriff im Allgemeinen
 
