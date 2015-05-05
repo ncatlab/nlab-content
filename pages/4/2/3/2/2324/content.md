@@ -24,6 +24,12 @@ and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [
 
 There is an analogue of this theorem for relative [[noncommutative scheme]]s in the sense of Rosenberg. 
 
++-- {: .num_remark}
+###### Remark
+There is no similar equation the other way round, that is "$Ring(\Gamma_Y\mathcal{O}_Y, R) \cong Scheme(Spec R, Y)$". As a mnemonic, note that with ordinary Galois connections between power sets, one is always [[Galois connection#properties|homming into (not out of)]] the functorial construction. More geometrically, consider the example $Y = \mathbb{P}^n$ and $R = \mathbb{Z}$. Then the left hand side consists of all the $\mathbb{Z}$-valued points of $\mathbb{P}^n$ (of which there are many). On the other hand, the right hand side only contains the unique ring homomorphism $\mathbb{Z} \to \mathbb{Z}$, since $\mathcal{O}_{\mathbb{P}^n}(\mathbb{P}^n) \cong \mathbb{Z}$.
+
+=--
+
 ### Relative affine schemes
 
 A __relative affine scheme__ over a scheme $Y$ is a [[relative scheme]]  $f:X\to Y$ isomorphic to the spectrum of a (commutative unital) algebra $A$ in the category of quasicoherent $\mathcal{O}_Y$-modules; such a "relative" spectrum has been introduced by Grothendieck. It is characterized by the property that for every open $V\subset Y$ the inverse image $f^{-1}V\subset X$ is an open affine subscheme of $X$ isomorphic to $Spec(A(V))$ and such open affines glue in such a way that $f^{-1}V\hookrightarrow f^{-1}W$ corresponds to the restriction morphism $A(W)\to A(V)$ of algebras. 
@@ -49,5 +55,4 @@ ${}_R Mod\to Qcoh(Spec R)$ between the category of $R$-modules and the category 
 * Demazure, Gabriel, _Algebraic groups_
 
 category: algebraic geometry
-
 
