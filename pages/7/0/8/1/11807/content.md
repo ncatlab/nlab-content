@@ -39,5 +39,6 @@ In general $\Pi_{pro}$ sends the [[terminal object]] to the [[shape of an (∞,1
 ## References
 
 * {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
+* E. Giuli, Pro-reflective subcategories, J. Pure Appl. Algebra 33 (1984) 19&#8211;29.
 
 [[!redirects pro-left adjoints]]
