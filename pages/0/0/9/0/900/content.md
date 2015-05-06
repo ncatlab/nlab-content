@@ -48,7 +48,8 @@ This definition is perhaps more intuitive in the dual case of [[ind-object|ind-o
 
 #### Definition of $\mathrm{pro}C$ as a subcategory of functors
 
-Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
+Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
+[[pro-representable functor]].
 
 ## Examples
 
@@ -77,11 +78,13 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * **pro-object** / [[pro-object in an (∞,1)-category]]
 
+* [[pro-representable functor]]
+
 * [[ind-pro-object]]
 
 * [[pro-left adjoint]]
 
-* [[pro-homotopy theory]]
+* [[pro-homotopy theory]], [[profinite completion of a group]]
 
 * [[ind-pro-object]]
 
@@ -99,6 +102,14 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
 
 * [[S. Marde?i?]], J. Segal, _Shape theory_, North Holland 1982
+
+* J.-L. Verdier, _Equivalence essentielle des syst&#232;mes projectifs_, C. R.A.S. Paris261 (1965), 4950 - 4953.
+
+* J. Duskin, _Pro-objects (after Verdier)_, S&#233;m. Heidelberg- Strasbourg1966 -67, Expos&#233; 6, I.R.M.A.Strasbourg. 
+
+* A. Deleanu, P. Hilton, Borsuk shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc.79-3 (1976), 473-482 [MR400220](http://www.ams.org/mathscinet-getitem?mr=400220)
+
+* Tholen
 
 [[!redirects pro-objects]]
 [[!redirects pro object]]
