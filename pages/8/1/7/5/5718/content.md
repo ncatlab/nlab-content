@@ -195,8 +195,11 @@ Standard textbook references include
 
 A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them is in chapter 1, section A of
 
-* Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
-{#Anderson}
+* {#Anderson} Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
+
+The [[de Rham cohomology]] of jet bundles is discussed in
+
+* G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Cohomology of the variational bicomplex on the infinite order jet space_ ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
 
 Discussion of jet-restriction of the [[Haefliger groupoid]] is in 
 
