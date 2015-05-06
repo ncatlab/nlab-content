@@ -63,6 +63,9 @@ Lecture notes include
 
 * Dan Petersen, _Leray spectral sequence_, November 2010  ([pdf](http://staff.science.uva.nl/~heinloth/StacksSeminar/DanLeray.pdf))
 
+* [[Greg Friedman]], _Some extremely brief notes on the Leray spectral sequence_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/Gregspecseq.pdf))
+
+
 
 Textbook accounts with an eye specifically towards [[étale cohomology]] 
 
