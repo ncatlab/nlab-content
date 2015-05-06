@@ -82,6 +82,8 @@ An introduction to projective spaces over the theory of ordinary commutative rin
 
 * Miles Reid, _Graded rings and varieties in weighted projective space_ ([pdf](http://www.warwick.ac.uk/~masda/surf/more/grad.pdf))
 
+* [[Aurelio Carboni]], [[Marco Grandis]] , _Categories of projective spaces_ , JPAA **110** (1996) pp.241-258. 
+
 [[!redirects projective spaces]]
 
 [[!redirects complex projective space]]
