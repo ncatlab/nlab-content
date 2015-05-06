@@ -82,8 +82,8 @@ Its [[direct image]] may be called the _jet bundle [[(∞,1)-functor]]_ . Or rat
 
 =--
 
-In the context of [[D-schemes]] this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). The abstract formulation as used here appears in ([Lurie, prop. 0.9](#Lurie)). See also ([Paugam, section 2.3](#Paugam)) for a review.
-There this is expressed dually in terms of algebras in [[D-modules]]. We indicate how the translation works
+{#InTheContextOf} In the context of [[D-schemes]] this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). The abstract formulation as used here appears in ([Lurie, prop. 0.9](#Lurie)). See also ([Paugam, section 2.3](#Paugam)) for a review.
+There this is expressed dually in terms of algebras in [[D-modules]]. We now indicate how the translation works.
 
 +-- {: .num_remark}
 ###### Remark
