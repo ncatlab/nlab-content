@@ -331,7 +331,7 @@ $$
   C_\bullet(X) \otimes C_\bullet(Y)
 $$
 
-between the [[singular chain complex]] of the [[product space]] and the [[tensor product of chain complexes]] of the separate singular chain complexes. Hence in particular there are isomorphisms in [[singular cohomology]]
+between the [[singular chain complex]] of the [[product space]] and the [[tensor product of chain complexes]] of the separate singular chain complexes. Hence in particular there are isomorphisms of [[singular homology]]
 
 $$
   H_n(X \times Y) \simeq 
