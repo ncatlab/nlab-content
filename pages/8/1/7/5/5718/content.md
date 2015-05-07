@@ -40,10 +40,10 @@ Let
 * equipped with [[differential cohesion]] 
 
   $$
-    \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Pi_{inf}}{\leftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
+    \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Im}{\leftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
   $$ 
 
-  with [[infinitesimal shape modality]] $\Pi_{inf}$
+  with [[infinitesimal shape modality]] $\Im$
 
 * and equipped with an [[(∞,2)-sheaf]] 
 
@@ -52,12 +52,12 @@ Let
   of [[quasicoherent (∞,1)-sheaves]].
 
 
-For $X \in \mathbf{H}$, write $\mathbf{\Pi}_{inf}(X)$ for the corresponding [[de Rham space]] object.
+For $X \in \mathbf{H}$, write $\Im(X)$ for the corresponding [[de Rham space]] object.
 
 Notice that we have the canonical morphism
 
 $$
-  i : X \to \mathbf{\Pi}_{inf}(X)
+  i : X \to \Im(X)
 $$
 
 ("inclusion of constant paths into all infinitesimal paths").
@@ -73,7 +73,7 @@ $$
    \;\colon\;
   \mathbf{H}_{/X}
    \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
-  \mathbf{H}_{/\mathbf{\Pi}_{inf}(X)}
+  \mathbf{H}_{/\Im(X)}
 $$
 
 for the corresponding [[base change geometric morphism]].
@@ -93,7 +93,7 @@ forming "jet types" of [[dependent types]] over $X$ is the
 [[dependent product]] operation along the unit of the [[infinitesimal shape modality]] 
 
 $$
-  jet(E) \coloneqq \underset{X \to \Pi_{inf}X}{\prod} E
+  jet(E) \coloneqq \underset{X \to \Im X}{\prod} E
   \,.
 $$
 
@@ -122,14 +122,14 @@ for the [[stable (∞,1)-category]] of [[quasicoherent (∞,1)-sheaves]].
 A _[[D-module]]_ on $X$ is a morphism of [[(∞,2)-sheaves]]
 
 $$
-  \mathbf{\Pi}_{inf}(X) \to Mod
+  \Im (X) \to Mod
   \,.
 $$
 
 We write 
 
 $$
-  DQC(X) := Hom(\mathbf{\Pi}_{inf}(X), Mod)
+  DQC(X) := Hom(\Im (X), Mod)
 $$
 
 for the [[stable (∞,1)-category]] of D-modules.
