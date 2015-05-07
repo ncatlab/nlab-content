@@ -89,11 +89,15 @@ The original article with application to [[K-theory]] is
 * {#Rosenberg82} [[Jonathan Rosenberg]], _Homological Invariants of Extensions of $C^\ast$-algebras_, Proc. Symp. Pure Math 38 (1982) 35.
 
 
-Application to [[D-brane charges]] in [[string theory]] is discussed in
+Application for the case of [[K-theory]] to [[D-brane charges]] in [[string theory]] is discussed in
 
 * {#MaldacenaMooreSeiberg01} [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], _D-Brane Instantons and K-Theory Charges_, JHEP 0111:062,2001 ([arXiv:hep-th/0108100](http://arxiv.org/abs/hep-th/0108100))
 
 * {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]], _Can D-Branes Wrap Nonrepresentable Cycles?_, JHEP0610:050,2006 ([arXiv:hep-th/0607045](http://arxiv.org/abs/hep-th/0607045))
+
+Discussion for the case of [[Morava K-theory]] and [[Morava E-theory]] with comments on application to charges of [[M-branes]] is in 
+
+* {#SatiWesterland11} [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
 
 Application to [[motivic homotopy theory|motivic]] [[cobordism cohomology theory]] is discussed in
 
