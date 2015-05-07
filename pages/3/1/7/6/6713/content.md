@@ -324,6 +324,10 @@ Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectra
 
 * {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]], _Can D-Branes Wrap Nonrepresentable Cycles?_, JHEP0610:050,2006 ([arXiv:hep-th/0607045](http://arxiv.org/abs/hep-th/0607045))
 
+Detailed review of this is in 
+
+* [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
+
 
 
 ### For rational CFT
