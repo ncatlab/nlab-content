@@ -236,6 +236,37 @@ Here the inclusion sign $\subset$ is to mean that the [[modal types]] of the mod
 
 Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
 
++-- {: .num_remark #SequenceOfOrdersOfInfinitesimals}
+###### Remark
+
+More generally we may ask for a sequence of differential inclusions of $\infty$-toposes as above, reflecting ever higher orders of infinitesimals, hence notably a progression 
+
+$$
+  &#643; 
+  \lt
+  \Im
+  = 
+  \Im_{(0)}
+  \lt 
+  \Im_{(1)}
+  \lt
+  \Im_{(2)}
+  \lt 
+  \Im_{(3)}
+  \lt 
+  \cdots
+  \lt 
+  id
+$$
+
+of [[infinitesimal shape modalities]] of various order, yielding a further factorization of the shape unit as
+
+$$
+  X \to \cdots \to \Im_{(3)}X \to \Im_{(2)}X \to \Im_{(1)}X \to \Im X \to &#643; X
+  \,.
+$$
+
+=--
 
 
 ### Properties
@@ -1965,9 +1996,64 @@ $$
 
 of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
 
+More generally, given a filtration of differential cohesion by orders of infinitesimals, remark \ref{SequenceOfOrdersOfInfinitesimals}, then the order-$k$ infinitesimal disk bundle is the homotopy pullback in
+
+$$
+  \array{
+    T_{inf} X &\stackrel{ev}{\longrightarrow}& \Im_{(k)}X
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow
+    \\
+    X &\longrightarrow& \Im X
+  }
+  \,.
+$$
+
+
 =--
 
-(The [[Atiyah groupoid]] of $T_{inf} X$ is the [[jet groupoid]] of $X$.)
++-- {: .num_remark}
+###### Remark
+
+The [[Atiyah groupoid]] of $T_{inf} X$ is the [[jet groupoid]] of $X$
+
+=--
+
++-- {: .num_remark #RelationOfInfinitesimalDiskBundleToJetBundle}
+###### Remark
+
+With respect to the [[base change]] [[geometric morphism]]
+
+$$
+  \mathbf{H}_{/X}
+    \stackrel{\overset{p_!}{\longrightarrow}}{\stackrel{\overset{p^\ast}{\longleftarrow}}{\underset{p_\ast}{\longrightarrow}}}
+  \mathbf{H}_{/\Im X}
+$$
+
+then then infinitesimal disk bundle of $X$ is
+
+$$
+  T_{inf} X \simeq p^\ast p_! X
+  \,,
+$$
+
+where on the right $X$ is regarded as sitting by the identity morphism over itself.
+
+Written in this form it follows from the [[adjoint triple]] above that bundle morphisms 
+
+$$
+  \array{
+    T_{inf}X && \longrightarrow && E
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+$$
+
+are equivalently [[sections]] of $p^\ast p_\ast E$. But such bundle morphisms are equivalently [[jets]] of $E$ and hence $p^\ast p_\ast E$ is the [[jet bundle]] of $E$. See there for more.
+
+=--
 
 +-- {: .num_lemma #EtalePullbackOfFormalDiskBundleIsFormalDiskBundle}
 ###### Lemma
@@ -2454,6 +2540,7 @@ For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempot
 
 +-- {: .num_prop}
 ###### Proposition
+
 
 The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#InfinitesimalObject) $\mathfrak{g}$ is an [[formal cohesive ∞-groupoid]] over the point.
 
