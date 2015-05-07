@@ -37,6 +37,7 @@ $$
   \,.
 $$
 
+The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
 ## References
 
