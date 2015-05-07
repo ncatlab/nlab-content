@@ -223,7 +223,7 @@ $$
 By prop. \ref{Cohesion} $\mathbb{C}Analytic \infty Grpd$ is [[cohesive (infinity,1)-topos|cohesive]] and hence by the discussion at
 _[[differential cohomology hexagon]]_ the objects  $\hat E \in Stab(\mathbb{C}Analytic \infty Grpd)$ (hence the [[sheaves of spectra]] on $\mathbb{C}Mfd$ ) qualify as [[differential cohomology]] refinements of the  [[cohomology theories]] [[Brown representability theorem|represented]] by the [[shape modality|shapes]] $E\coloneqq \Pi \hat E \in $ [[Spectra]].
 
-Discussion of such complex analytic differential generalized cohomology isn in ([Hopkins-Quick 12, section 4](#HopkinsQuick12)),.
+Discussion of such complex analytic differential generalized cohomology is in ([Hopkins-Quick 12, section 4](#HopkinsQuick12)),.
 
 ## Examples
 
