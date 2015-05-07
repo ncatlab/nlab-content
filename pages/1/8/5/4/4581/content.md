@@ -28,6 +28,8 @@ $$
 
 where $\mathbf{d}$ is the [[de Rham differential]] on $j_\infty E$, $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
 
+Vector fields on $J^\infty E$ also split into a direct sum of **vertical** and **horizontal** ones, respectively being annihilated by contraction with any horizontal $1$-forms or with any vertical $1$-forms, $\mathfrak{X}(J^\infty E) = \mathfrak{X}_H(J^\infty E) \oplus \mathfrak{X}_V(J^\infty E)$. A special kind of vertical vector field $v \in \mathfrak{X}_V(J^\infty E)$ is called **evolutionary** provided it satisfies $\mathcal{L}_v d = d \mathcal{L}_v$ and $\mathcal{L}_v = \iota_v \delta + \delta \iota_v$, we denote the subspace of evolutionary vector fields as $\mathfrak{X}_{ev}(J^\infty E) \subset \mathfrak{X}_V(J^\infty E)$.
+
 Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formalized in terms of the variational bicomplex. For instance 
 
 * a field configuration is a [[section]] of $E$;
@@ -67,7 +69,7 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
     d \eta = 0 \mod E(L)
   $$
 
-* a [[symmetry]] is a vertical vector field $v$ such that
+* a [[symmetry]] is an evolutionary vector field $v$ such that
   
   $$
     v(L) = 0 \mod im d
@@ -346,7 +348,7 @@ Let $L \in \Omega^{n,0}_{loc}$.
 +-- {: .num_defn }
 ###### Definition
 
-A vertical vector fields $v \in T_v E \subset T_v j_\infty E$ is a **[[symmetry]]** if
+An evolutionary vertical vector field $v \in \mathfrak{X}_{ev}(J^\infty E)$ is a **[[symmetry]]** if
 
 $$
   v(L) = 0 \mod im d
@@ -358,7 +360,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is degenerate on symmetries.
+The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is annihilated by the Lie derivative of the vector field on $\Gamma(E)$ induced by a symmetry.
 
 =--
 
