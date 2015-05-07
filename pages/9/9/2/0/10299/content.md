@@ -7,8 +7,25 @@
 
 The _Cayley plane_ is the [[projective plane]] over the [[octonions]].
 
+## Definition
+
+It can't be constructed using homogeneous coordinates the way we do for projective planes over [[division rings]], since multiplication of octonions is not associative.  However, it can be constructed in several other ways that generalize the approach for division rings:
+
+* One can start with $\mathbb{O}^2$ and give it the structure of an [[affine plane]] in the obvious way, and then add "points at infinity" in the usual way to obtain a projective plane.  This is the most straightforward approach, but as always it has the defect that it makes the line at infinity appear special.
+
+* One can consider the space of $3\times 3$ matrices over $\mathbb{O}$ that are "Hermitian" and idempotent, hence can be imagined as "projections onto dimension-1 subspaces of $\mathbb{O}^3$".
+
+* Writing out the components of such a matrix explicitly, one obtains a *Veronese vector* $(x_1,x_2,x_3;\xi_1,\xi_2,\xi_3)$ where $x_i\in \mathbb{O}$ and $\xi_i\in \mathbb{R}$, such that $\xi_i \overline{x_i} = x_j x_k$ and $\Vert x_i\Vert^2 = \xi_j \xi_k$ for all cyclic permutations $(i,j,k)$ of $(1,2,3)$.  The Cayley plane can be identified with the space of nonzero such vectors modulo the scalar action of $\mathbb{R}$.
+
+
 ## References
 
 * Wikipedia, _[Cayley plane](http://en.wikipedia.org/wiki/Cayley_plane)_
 
+* Salzmann et. al., *Compact Projective Planes, with an introduction to Octonion Geometry*
+
 [[!redirects Cayley planes]]
+[[!redirects octonion projective plane]]
+[[!redirects octonion projective planes]]
+[[!redirects octonionic projective plane]]
+[[!redirects octonionic projective planes]]
