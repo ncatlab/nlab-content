@@ -19,6 +19,8 @@
 
 * if quarks themselves were bound states (which they are not according to the [[standard model of particle physics]]) then one would call them bound states of _[[preons]]_
 
+* [[D1-D5 brane bound states]]
+
 ## References
 
 * Wikipedia, _[Bound state](http://en.wikipedia.org/wiki/Bound_state)_
