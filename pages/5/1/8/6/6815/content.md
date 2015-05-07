@@ -41,7 +41,9 @@ Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 an
 
 ## References
 
-See the references at _[[M-theory]]_ and those at the separate M-brane entries.
+See also the references at _[[M-theory]]_ and those at the separate M-brane entries.
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, 2010
 
 Further references include
 
