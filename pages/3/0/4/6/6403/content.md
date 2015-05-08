@@ -47,7 +47,10 @@ In [[supergravity]], [[super spacetimes]] which solves the [[equations of motion
 
 * [[Killing-Yano tensor]]
 
+* [[superisometry]]
+
 * [[supersymmetry and Calabi-Yau manifolds]]
+
 
 ## References
 
@@ -55,7 +58,7 @@ Lecture notes include
 
 * _Parallel and Killing spinor fields_ ([[KillingSpinors.pdf:file]])
 
-Discussion relating to [[Killing vectors]] in [[supergeometry]] originates around
+Discussion relating to [[Killing vectors]] in [[supergeometry]] ([[superisometries]]) originates around
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
