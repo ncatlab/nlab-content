@@ -118,6 +118,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of Banach spaces]]
 
+* [[tensor product of functors]]
+
 * [[Deligne tensor product of abelian categories]]
 
 * [[tensor product of presentable (infinity,1)-categories]]
