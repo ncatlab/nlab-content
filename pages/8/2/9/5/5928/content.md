@@ -29,11 +29,9 @@ for the dual of the canonical ring homomorphism $R \to R[S^{-1}]$.
 +-- {: .num_remark}
 ###### Remark
 
-The maps as in def. \ref{StandardOpenImmersion} are [[open immersion of schemes|open immersion]], called the _standard opens_ of $Spec(R)$.
+The maps as in def. \ref{StandardOpenImmersion} are not [[open immersion of schemes|open immersions]] for arbitrary multiplicative subsets $S$ (see [a MathOverflow discussion](http://mathoverflow.net/questions/20782/ring-theoretic-characterization-of-open-affines)). They are for subsets of the form $S = \{ f^0, f^1, f^2, \ldots \}$, in which case they are called the _standard opens_ of $Spec(R)$.
 
 =--
-
-(e.g. [[The Stacks Project|Stack Project, lemma 10.9.17]]).
 
 +-- {: .num_defn}
 ###### Definition
