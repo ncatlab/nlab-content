@@ -13,6 +13,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 
 A kind of [[spacetime]].
@@ -35,6 +40,10 @@ Then the [[pseudo-Riemannian metric]] defining the Taub-NUT geometry is
 $$
   (d s)^2 = \frac{1}{4} \frac{r+n}{r-n} (d r)^2 + \frac{r-n}{r+n} n^2 {\sigma_3}^2 + \frac{1}{4}(r^2 - n^2)({\sigma_1}^2 + {\sigma_2}^2)
 $$
+
+## Related concepts
+
+* [[KK monopole]]
 
 ## References
 
