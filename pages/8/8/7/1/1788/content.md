@@ -2,3 +2,6 @@
 |---|---|
 | $\mathbb{R} = \mathbb{R}^{1\vert 0}$ | $\mathbb{R}^{0\vert 1}$ |
 | $&#643; \simeq loc_{\mathbb{R}}$ | $\R \simeq loc_{\mathbb{R}^{0\vert 1}}$ |
+
+
+$\Rrightarrow$ 
