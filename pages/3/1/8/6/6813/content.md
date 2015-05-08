@@ -63,11 +63,14 @@ Original articles include
 
 * [[Michael Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
 
-The [[M5 brane]] was maybe first found as a black brane of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
+The [[M5-brane]] was maybe first found as a black brane of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
 * R. Gueven, _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49.
 
 Review includes,
+
+* {#Stelle98} [[Kellogg Stelle]], around section 3.3. of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
