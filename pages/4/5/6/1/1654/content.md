@@ -93,7 +93,7 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 
 ## Examples ##
 
-To be filled in. 
+To be filled in. The [[tensor product of functors]] is a general example.
 
 
 #References#
