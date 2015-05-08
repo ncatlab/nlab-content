@@ -146,4 +146,3 @@ Exposition of the tensor product of $R$-[[modules]] is for instance in
 
 
 [[!redirects tensor products]]
-[[!redirects tensor product of functors]]
