@@ -45,7 +45,7 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
 1. $A^+:U\mapsto colim_{(R\to U)\in J(U)}A(R)$ where $J(U)$ denotes the poset of $J$-covering [[sieve|sieves]] on $U$.
 
 
-1. Let $A:C^{op}\to Set$ be a functor. Then for $U\in C^{op}$we define $A^+(U)$ to be an [[equivalence class]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R^\prime,s^\prime)$ iff there is a $J$-covering sieve $\R^{\prime \prime}\subseteq R\cap R^\prime$ on which the restrictions of $s$ and $s^\prime$ agree.
+1. Let $A:C^{op}\to Set$ be a functor. Then for $U\in C^{op}$ we define $A^+(U)$ to be an [[equivalence class]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R^\prime,s^\prime)$ iff there is a $J$-covering sieve $\R^{\prime \prime}\subseteq R\cap R^\prime$ on which the restrictions of $s$ and $s^\prime$ agree.
 
 1. $A^+:U\mapsto colim_{(V\hookrightarrow U)\in W}A(V)$ where $W$ denotes the class $W:=(f^*)^{-1}Core(Sh(C)_1)$ of those morphisms in $PSh(C)$ which are sent to isomorphisms by the sheafification functor $f^*$ and the colimit is taken over all [[dense monomorphism|dense monomorphisms]] only. 
 
@@ -58,7 +58,7 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
 +-- {: .num_remark}
 ###### Remark
 
-1. $+:A\mapsto A^+$ is a functor.
+1. $(-)^+:A\mapsto A^+$ is a functor.
 
 1. $A^+$ is a functor.
 
@@ -67,6 +67,8 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
 1. If $A$ is separated then $A^+$ is a sheaf.
 
 =--
+
+Note that $(-)^+ : PSh(C) \to SepPSh(C)$ is not left adjoint to the inclusion $\iota : SepPSh(C) \hookrightarrow PSh(C)$ of the full subcategory of separated presheaves. If it were, it would be a [[reflector]] and therefore satisfy $(-)^+ \circ \iota \cong Id$. But this is false, since the plus construction applied to separated presheaves yields their sheafification. See [this MathOverflow question](http://mathoverflow.net/questions/49486/the-single-plus-construction-is-not-the-left-adjoint-of-the-inclusion-of-separat) for details.
 
 ## Related concepts
 
