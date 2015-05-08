@@ -270,7 +270,7 @@ Reviews and general accounts include
 
 * [[Dmitri Sorokin]], _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
-A compariso of the different actions here is in 
+A comparison of the different actions here is in 
 
 * [[Igor Bandos]], Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
