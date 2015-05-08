@@ -45,7 +45,7 @@ called the [[Yoneda extension]],
 meaning that $\hat{F} y_S \cong F$ and $\hat{F}$ preserves small colimits. Indeed, the desired $\hat{F}$ is [[adjoint functor|left adjoint]] to the functor 
 $$D \to Set^{S^{op}}: d \mapsto \hom_D(F-, d)$$ 
 
-An explicit formula for the left adjoint is given by the [[weighted colimit]] or [[end|coend]] formula 
+An explicit formula for the left adjoint is given by the [[weighted colimit]], [[end|coend]], or [[tensor product of functors]] formula 
 $$\hat{F}(X) = X \otimes_S F = \int^{s: S} X(s) \cdot F(s)$$ 
 where $S \cdot d$ is notation for [[power|copowering]] (or tensoring) an object $d$ of $D$ by a set $S$ (in this case, a coproduct of an $S$-indexed set of copies of $D$). This formula recurs frequently throughout this wiki; see also [[nerve]], [[Day convolution]]. 
 
