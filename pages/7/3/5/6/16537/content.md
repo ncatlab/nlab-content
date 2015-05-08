@@ -1,0 +1,9 @@
+
+
+* [webpage](http://en.wikipedia.org/wiki/Rafael_Sorkin)
+
+## related $n$Lab entries
+
+* [[causal set]]
+
+category: people
