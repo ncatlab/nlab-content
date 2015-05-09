@@ -92,7 +92,7 @@ Here we write "$X$" also for the morphism $X \to *$.
 
 Under the [[relation between category theory and type theory]] the dependent is the [[categorical semantics]] of [[dependent sum types]] .
 
-Notce that under the identification of [[propositions as types]],  [[dependent sum types]] (or rather their [[bracket types]]) correspond to  [[existential quantification]] $\exists x\colon X, P x$.  
+Notice that under the identification of [[propositions as types]],  [[dependent sum types]] (or rather their [[bracket types]]) correspond to  [[existential quantification]] $\exists x\colon X, P x$.  
 
 The following table shows how the [[natural deduction]] rules for dependent sum types correspond to their [[categorical semantics]] given by the dependent sum universal construction.
 
