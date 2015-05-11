@@ -96,7 +96,7 @@ Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** i
     P(d_{1,1}, \cdots, d_{n,k_n}, c)
   $$
 
-  the _compoosition_ operation;
+  the _composition_ operation;
 
 * for all $n$, all tuples, and each [[permutation]] $\sigma$ in the [[symmetric group]] $\Sigma_n$ a morphism
 
