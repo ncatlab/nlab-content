@@ -61,7 +61,7 @@ Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-is
 
 Any ordinary type of limit can be "2-ified" by boosting its ordinary universal property up to a 2-categorical one.  In the following examples we work in a 2-category $K$.
 
-* A **[[terminal object]]** in $K$ is an object 1 such that $K(X,1)$ is equivalent to the [[terminal category]] for any object $X$.  This means that for any $X$ there is a morphism $X\to 1$ and for any two morphisms $f,g:X\to 1$ there is a unique isomorphism $f\cong g$.
+* A **[[terminal object]]** in $K$ is an object 1 such that $K(X,1)$ is equivalent to the [[terminal category]] for any object $X$.  This means that for any $X$ there is a morphism $X\to 1$ and for any two morphisms $f,g:X\to 1$ there is a unique morphism $f\to g$, and this morphism is an isomorphism.
 
 * A **[[product]]** of two objects $A,B$ in $K$ is an object $A\times B$ together with a natural equivalence of categories $K(X,A\times B) \simeq K(X,A)\times K(X,B)$.  This means that we have projections $p:A\times B\to A$ and $q:A\times B\to B$ such that (1) for any $f:X\to A$  and $g:X\to B$, there exists an $h:X\to A\times B$ and isomorphisms $p h\cong f$ and $q h\cong g$, and (2) for any $h,k:X\to A\times B$ and 2-cells $\alpha:p h \to p k$ and $\beta: q h \to q k$, there exists a unique $\gamma:h \to k$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
 
