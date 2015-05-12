@@ -43,7 +43,7 @@ In a [[locally Cartesian closed category]]/[[dependent type theory]] $\mathbf{H}
 
 $$
   \mathbf{H}_{/W}
-   \stackrel{\overset{\sum_W}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_S}{\longrightarrow}}}
+   \stackrel{\overset{\sum_W}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_W}{\longrightarrow}}}
   \mathbf{H}
   \,.
 $$
