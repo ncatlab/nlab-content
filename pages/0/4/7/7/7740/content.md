@@ -16,6 +16,9 @@
 ## Definition
  {#Definition}
 
++-- {: .num_defn #DifferebtialOperatorVia}
+###### Definition/Proposition
+
 For $X$ a [[smooth manifold]] and $(E\to X)$ a smooth [[bundle]] over $X$, write $(Jet(E)\to X)$ for its [[jet bundle]].
 
 For $(E_1 \to X)$, $(E_2 \to X)$
@@ -25,7 +28,7 @@ $$
   D \colon \Gamma_X(E_1) \to \Gamma_X(E_2)
 $$ 
 
-between their [[spaces of sections]] is a map of the form
+between their [[spaces of sections]] is equivalently a map of the form
 
 $$
   \phi \mapsto \tilde D \circ j_\infty(\phi)
@@ -39,7 +42,10 @@ $$
 
 is a bundle morphism from the [[jet bundle]] of $E_1$ to the bundle $E_2$.
 
-(e.g. [Saunders 89, def. 6.2.22](#Saunders89), [Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98)).
+=--
+
+In this form this appears for instance as ([Saunders 89, def. 6.2.22](#Saunders89)).  Discussion showing the equivalence of this definition with the maybe more traditional definition is in ([Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98)).
+
 
 Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$ is a [[comonad]] on the category of bundles over $X$. In terms of this the above says that a differential operators from a bundle $E_1$ to a bundle $E_2$ is a morphism from $E_1$ to $E_2$ in the [[co-Kleisli category]] of the jet comonad.
 
