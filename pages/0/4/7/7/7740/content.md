@@ -13,6 +13,36 @@
 * table of contents
 {:toc}
 
+## Definition
+ {#Definition}
+
+For $X$ a [[smooth manifold]] and $(E\to X)$ a smooth [[bundle]] over $X$, write $(Jet(E)\to X)$ for its [[jet bundle]].
+
+For $(E_1 \to X)$, $(E_2 \to X)$
+two [[bundles]] over $X$, then a _differential operator_ 
+
+$$
+  D \colon \Gamma_X(E_1) \to \Gamma_X(E_2)
+$$ 
+
+between their [[spaces of sections]] is a map of the form
+
+$$
+  \phi \mapsto \tilde D \circ j_\infty(\phi)
+$$
+
+where $j_\infty(\phi) \in \Gamma_X(Jet(E_1))$ is the jet prolongation of the section $\phi \in \Gamma_X(E_1)$, and where
+
+$$
+  \tilde D \colon Jet(E_1) \to E_2
+$$
+
+is a bundle morphism from the [[jet bundle]] of $E_1$ to the bundle $E_2$.
+
+(e.g. [Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98))
+
+Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$ is a [[comonad]] on the category of bundles over $X$. In terms of this the above says that a differential operators from a bundle $E_1$ to a bundle $E_2$ is a morphism from $E_1$ to $E_2$ in the [[co-Kleisli category]] of the jet comonad.
+
 ## Entries
 
 * [[elliptic differential operator]]
@@ -35,5 +65,10 @@
 * [[D-module]]
 
 * [[Spencer cohomology]]
+
+## References
+
+* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
+
 
 [[!redirects differential operators]]
