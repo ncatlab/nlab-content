@@ -152,10 +152,10 @@ the corresponding [[variational bicomplex]] with $\delta$ being the vertical and
 For $L \in \Omega^{n,0}(j_\infty E)$ a [[Lagrangian]] we have that 
 
 $$
-  \delta L = E(L) + d \Theta
+  \delta L = E(L) - d \Theta
 $$
 
-for $E$ the [[Euler-Lagrange equations|Euler-Lagrange operator]].
+for $E$ the [[Euler-Lagrange equations|Euler-Lagrange operator]] and some $\Theta \in \Omega^{n-1,0}(j_\infty E)$.
 
 =--
 
