@@ -205,6 +205,11 @@ Standard textbook references include
 
 * {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
 
+Early accounts include
+
+* Hubert Goldschmidt, _Integrability criteria for systems of nonlinear partial differential equations_, J. Differential Geom. Volume 1, Number 3-4 (1967), 269-307 ([Euclid](http://projecteuclid.org/euclid.jdg/1214428094))
+
+
 See also
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
