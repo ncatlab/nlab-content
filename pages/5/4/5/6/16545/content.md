@@ -1,19 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-An evolutionary vector field is a particular class of vertical vector field on the infinite [[jet bundle]] $J^\infty E$ of a [[fiber]] [[bundle]] $\pi: E \to M$, which can be interpreted as the generator of a transformation of the space $\Gamma(E)$ of sections of $E$. There are basically two different ways to define an evolutionary vector field, both of which serve the same purpose.
+An _evolutionary vector_ field is a particular class of vertical [[vector field]] on the infinite [[jet bundle]] $J^\infty E$ of a [[fiber bundle]] $\pi: E \to M$, which can be interpreted as the generator of a transformation of the space $\Gamma(E)$ of sections of $E$. There are basically two different ways to define an evolutionary vector field, both of which serve the same purpose.
 
-Evolutionary vector fields describe symmetries of Lagrangian systems in the formulation of the [[variational bicomplex]], and as such form an ingredient of [[Noether's theorem]].
+Evolutionary vector fields describe [[symmetries]] of [[Lagrangian field theory|Lagrangian systems]] in the formulation of the [[variational bicomplex]], and as such form an ingredient of [[Noether's theorem]].
 
 ## Definition as a vector field on $J^\infty E$
 
 +-- {: .num_defn}
 ###### Definition
 
-An **evolutionary vector field** is a vector field $v$ on the infinite [[jet bundle]] which is vertical with respect to the projection $\pi_\infty: J^\infty E \to M$ and for which $\mathcal{L}_v d = d \mathcal{L}_v$ and $\mathcal{L}_v = \iota_v \delta + \delta \iota_v$. Here $d$ is the horizontal derivative on forms on $J^\infty E$, while $\delta$ is the vertical derivative. We denote the subspace of evolutionary vector fields as $\mathfrak{X}_{ev}(J^\infty E) \subset \mathfrak{X}_V(J^\infty E)$.
+An **evolutionary vector field** is a [[vector field]] $v$ on the infinite [[jet bundle]] which is vertical with respect to the projection $\pi_\infty: J^\infty E \to M$ and for which $\mathcal{L}_v d = d \mathcal{L}_v$ and $\mathcal{L}_v = \iota_v \delta + \delta \iota_v$. Here $d$ is the horizontal derivative on forms on $J^\infty E$, while $\delta$ is the vertical derivative. We denote the subspace of evolutionary vector fields as $\mathfrak{X}_{ev}(J^\infty E) \subset \mathfrak{X}_V(J^\infty E)$.
 
 =--
 
@@ -24,18 +35,18 @@ Note that every evolutionary vector field is uniquely defined by its action on t
 +-- {: .num_defn}
 ###### Definition
 
-Let $v \in \mathfrak{X}_{ev}(J^\infty E)$ be an evolutionary vector field. Its **characteristic** is the map $\pi_{\infty,0*} \circ v: J^\infty E \to VE$.
+Let $v \in \mathfrak{X}_{ev}(J^\infty E)$ be an evolutionary vector field. Its **characteristic** is the map $\pi_{\infty,0*} \circ v: J^\infty E \to V E$.
 
 =--
 
 ## Definition as a generalized vector field on $E$
 
-A generalized vector field on $E$ can be seen as a vector field on $E$ whose coefficients are functions on $J^\infty E$. More formally, it is a particular map from $J^\infty E$ to $TE$. Here we are interested only in a particular class of vertical vector fields.
+A generalized vector field on $E$ can be seen as a vector field on $E$ whose coefficients are functions on $J^\infty E$. More formally, it is a particular map from $J^\infty E$ to $T E$. Here we are interested only in a particular class of vertical vector fields.
 
 +-- {: .num_defn}
 ###### Definition
 
-An **evolutionary vector field** is a map $w: J^\infty E \to VE$ from the infinite [[jet bundle]] $J^\infty E$ to the vertical [[tangent bundle]] $VE$ of the total space $E$, such that $\nu \circ w = \pi_{\infty,0}$, where $\nu: VE \to E$ is the bundle map of $VE$ and $\pi_{\infty,0}: J^\infty E \to E$ is the target map of the jet bundle.
+An **evolutionary vector field** is a map $w: J^\infty E \to V E$ from the infinite [[jet bundle]] $J^\infty E$ to the [[vertical tangent bundle]] $V E$ of the total space $E$, such that $\nu \circ w = \pi_{\infty,0}$, where $\nu: V E \to E$ is the bundle map of $V E$ and $\pi_{\infty,0}: J^\infty E \to E$ is the target map of the jet bundle.
 
 =--
 
