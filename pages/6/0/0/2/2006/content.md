@@ -130,6 +130,8 @@ In [[type theory|typed]] [[functional programming]] Kleisli composition is used 
 
 * [[monad (in computer science)]]
 
+* [[co-Kleisli category]]
+
 ## References
 
 * Jen&#246; Szigeti, _On limits and colimits in the Kleisli category_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 24 no. 4 (1983), p. 381-391 ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1983__24_4_381_0))
