@@ -135,8 +135,9 @@ $$
 
 
 ### The formal context
+ {#LagrangianVersionFormalContext}
 
-Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
+Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[field bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
 
 $$
   \Omega^{\bullet,\bullet}(j_\infty E), (D = \delta + d)
@@ -158,7 +159,11 @@ for $E$ the [[Euler-Lagrange equations|Euler-Lagrange operator]].
 
 =--
 
-The [[covariant phase space]] of the Lagrangian is the locus
++-- {: .num_defn}
+###### Definition
+
+
+The [[covariant phase space]] of the Lagrangian is the [[zero locus]]
 
 $$ 
   \{\phi \in \Gamma(E) | E(L)(j_\infty \phi) = 0\}  
@@ -173,6 +178,9 @@ $$
 $$
 
 is the [[presymplectic structure]] on [[covariant phase space]].
+
+=--
+
 
 +-- {: .num_defn #Symmetry}
 ###### Definition
@@ -216,7 +224,7 @@ $$
 which is horizontally closed on [[covariant phase space]]
 
 $$
-  d j|_{E(L) = 0} = 0
+  d\, j|_{E(L) = 0} = 0
   \,.
 $$
 
@@ -232,7 +240,7 @@ With the above notions and notation, **Noether's theorem** states:
 If $v \in T_v(j_\infty E)$ is a [[symmetry]], def. \ref{Symmetry}, then 
 
 $$
-  j_v := \sigma_v - \iota_v \theta
+  j_v := \sigma_v - \iota_v \Theta
 $$
 
 is a [[conserved current]], def. \ref{ConservedCurrent}.
@@ -246,9 +254,9 @@ By prop. \ref{VariationOfTheLagrangian} and def. \ref{Symmetry} we have
 
 $$
   \begin{aligned}
-    d (\sigma_v - \iota_v \theta)
+    d (\sigma_v - \iota_v \Theta)
     & =
-    \iota_v \delta L + \iota_v d \theta
+    \iota_v \delta L + \iota_v d \Theta
     \\
     & = \iota_v E(L)
   \end{aligned}
