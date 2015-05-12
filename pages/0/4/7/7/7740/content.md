@@ -55,7 +55,7 @@ The [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$
 
 =--
 
-Indeed, also the composition of differential operators is the composition in this [[co-Kleisli category]]:
+Indeed, also the composition of differential operators is the composition in this [[co-Kleisli category]] (e.g. [Marvan 93, section 1.1](#Marvan93)):
 
 +-- {: .num_prop #CompositionOfDifferentialOperatorsViaCoKleisli}
 ###### Proposition
@@ -128,6 +128,8 @@ With this, the morphism that our proposition claims is the correct composite is 
 
 =--
 
+
+
 ## Entries
 
 * [[elliptic differential operator]]
@@ -154,6 +156,9 @@ With this, the morphism that our proposition claims is the correct composite is 
 ## References
 
 * {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+
+* {#Marvan93} [[Michal Marvan]], _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
+
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
