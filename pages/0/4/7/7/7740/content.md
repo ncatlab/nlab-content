@@ -39,7 +39,7 @@ $$
 
 is a bundle morphism from the [[jet bundle]] of $E_1$ to the bundle $E_2$.
 
-(e.g. [Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98))
+(e.g. [Saunders 89, def. 6.2.22](#Saunders89), [Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98)).
 
 Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$ is a [[comonad]] on the category of bundles over $X$. In terms of this the above says that a differential operators from a bundle $E_1$ to a bundle $E_2$ is a morphism from $E_1$ to $E_2$ in the [[co-Kleisli category]] of the jet comonad.
 
@@ -67,6 +67,8 @@ Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colo
 * [[Spencer cohomology]]
 
 ## References
+
+* {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
