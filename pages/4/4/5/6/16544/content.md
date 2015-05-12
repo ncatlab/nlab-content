@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+[[formal dual|Formally dually]] to how a [[monad]] has a [[Kleisli category]] so a [[comonad]] $P \colon \mathcal{C}\to\mathcal{C}$ has a co-Kleisli category: its [[objects]] are the objects of $\mathcal{C}$, a [[morphism]] $f \colon c_1 \to c_2$ in the co-Kleisli category is a morphism
+
+$$
+  \tilde f \colon P(c_1) \longrightarrow c_2
+$$
+
+in $\mathcal{C}$, and the composition of two such in the co-Kleisli category is represented by the morphism in $\mathcal{C}$ given by
+
+$$
+  \widetilde{f_2 \circ f_1}
+  \colon
+  P(c_1) \longrightarrow P(P(c_1)) \stackrel{P(\tilde f_1)}{\longrightarrow}
+  P(c_2) \stackrel{\tilde f_2}{\longrightarrow}
+  c_3
+ \,.
+$$
+
+## Examples
+
+* For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
+
+* For $P= Jet$ the [[jet bundle]] construction then morphisms in its coKleisli category are [[differential operators]].
+
+[[!redirects co-Kleisli categories]]
+[[!redirects coKleisli category]]
+[[!redirects coKleisli categories]]
