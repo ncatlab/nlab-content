@@ -128,7 +128,7 @@ $$
 for the [[cochain complex]] of smooth differential forms on the [[product]] $X \times \Gamma(E)$, bigraded with respect to the differentials on the two factors
 
 $$
-  \mathbf{d} {{:}=} d + \delta
+  \mathbf{d} \coloneqq d + \delta
   \,,
 $$
 
@@ -150,7 +150,7 @@ We write
 
 $$
   \Omega^{\bullet, \bullet}_{loc}
-  :=
+  \coloneqq
   im (e_\infty^*)
 $$
 
@@ -159,6 +159,42 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 =--
 
 The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens](#Takens)). The above formulation as the image of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman, p. 5](#Zuckerman)).
+
++-- {: .num_remark #CharacterizationOfHorizontalDifferential}
+###### Remark
+
+In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(j_\infty E)$ is given by the formula for the total derivative operation, but with concrete differentials substituted by the respective jet coordinates:
+
+$$
+  d f = 
+  \sum_i
+  \left(
+    \frac{\partial f}{\partial x^i}
+    + 
+    \frac{\partial f}{\partial u^\alpha}u^\alpha_i
+    +
+    \sum_j \frac{\partial f}{\partial u^\alpha_j} u^\alpha_{j i}
+    +
+    \cdots
+  \right)
+  d x^i
+  \,.
+$$
+
+(For instance ([Anderson 89, p. 10](#Anderson89)).)
+
+More abstractly, the horizontal differential is characterized by the fact that it takes horizontal forms to horizontal forms, and that for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(j_\infty E)$
+
+$$
+  (j_\infty \phi)^\ast \circ d = d \circ (j_\infty \phi)^\ast
+$$
+
+(where on the right we have the ordinary de Rham differential on the base space).
+
+
+
+=--
+
 
 ## Properties
 
