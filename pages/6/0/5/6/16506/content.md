@@ -59,6 +59,13 @@ $$
 
 of [[context extension]] followed by [[dependent product]].
 
+One may also think of this as being the [[polynomial functor]] associated with the span
+
+$$
+  \ast \leftarrow W \rightarrow \ast \rightarrow \ast
+  \,.
+$$
+
 (Notice that the [[comonad]] obtained by composing the other way around, $W^\ast \prod_W$, is the [[modal operator]] usually called _[[necessity]]_.)
 
 
