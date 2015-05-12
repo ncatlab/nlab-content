@@ -143,3 +143,6 @@ Invent. Math. 121 (1995), 147-209.
 
 [[!redirects contactomorphism]]
 [[!redirects contactomorphisms]]
+
+[[!redirects contact form]]
+[[!redirects contact forms]]
