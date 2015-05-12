@@ -1,7 +1,29 @@
-| [[nLab:real line]] | [[nLab:superpoint]] |
-|---|---|
-| $\mathbb{R} = \mathbb{R}^{1\vert 0}$ | $\mathbb{R}^{0\vert 1}$ |
-| $&#643; \simeq loc_{\mathbb{R}}$ | $\R \simeq loc_{\mathbb{R}^{0\vert 1}}$ |
 
 
-$\Rrightarrow$ 
+$$
+  \array{
+    P_1 &\stackrel{id}{\longrightarrow}& P_1 &\stackrel{\Delta_1}{\longrightarrow}& P_2 &\stackrel{\Delta_2}{\longrightarrow}& P_3
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{j_\infty}} && \downarrow^{\mathrlap{id}} && \downarrow
+    \\
+    P_1 
+     &\stackrel{j_\infty}{\longrightarrow}& 
+    J^\infty(P_1)
+    \\
+    \downarrow^{\mathrlap{j_\infty}} 
+      && 
+    \downarrow^{\mathrlap{j_\infty}}
+      &&
+    \downarrow^{\mathrlap{j_\infty}}
+      &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    J^\infty (P_1) 
+      &\stackrel{c^{\infty,\infty}}{\longrightarrow}& 
+    J^\infty(J^\infty(P_1))
+     &\stackrel{\psi^{\Delta_1}_\infty}{\longrightarrow}&
+    J^\infty(P_2)
+     &\stackrel{\psi^{\Delta_2}}{\longrightarrow}&
+    P_3
+  }
+$$
