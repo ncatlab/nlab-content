@@ -21,7 +21,7 @@ $$
 
 in the [[homotopy theory]] of [[smooth homotopy types]].
 
-This immediately raises the question for natural classes of examples of such prequantizations. One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on [[smooth infinity group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
+This immediately raises the question for natural classes of examples of such prequantizations. One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on [[smooth infinity-group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
 
 In low degree of traditional [[Lie theory]] this appears as follows: An important class of examples of closed differential forms,  first of all, are closed [[left invariant forms]] on [[Lie groups]]. Via the general theory of [[Chevalley-Eilenberg algebras]] these may be identified with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via a [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+1}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
 
