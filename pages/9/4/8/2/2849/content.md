@@ -1,3 +1,19 @@
+author: AnonymousCoward
+company: 
+title: pseudo-Riemannian manifold
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+pseudo-Riemannian manifold
+==============
+
+My First Slide
+-----------------
+
 
 
 +-- {: .rightHandSide}
@@ -21,6 +37,6 @@
 
 
 
-Like a [[Riemannian manifold]] is a smooth [[manifold]] equipped with a [[Riemannian metric]], a pseudo-Riemannian manifold is a maniold equipped with a [[pseudo-Riemannian metric]].
+Like a [[Riemannian manifold]] is a smooth [[manifold]] equipped with a [[Riemannian metric]], a pseudo-Riemannian manifold is a [[manifold]] equipped with a [[pseudo-Riemannian metric]].
 
 [[!redirects pseudo-Riemannian manifolds]]
