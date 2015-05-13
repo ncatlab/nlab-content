@@ -198,15 +198,18 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## References
 
-Standard textbook references include
-
-* G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
-
-* Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
+Textbook accounts and lecture notes include
 
 * [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
-* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_, 1998 ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+
+* Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
+
+* G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
+
+* [[Peter Olver]], _Lectures on Lie groups and differential equation_,  chapter 3, _Jets and differential invariants_, 2012 ([pdf](http://www.math.umn.edu/~olver/sm_/j.pdf))
+
 
 Early accounts include
 
