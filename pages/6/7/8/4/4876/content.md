@@ -324,13 +324,13 @@ on [[quantization]] of the WZW model, see at
 
 The Wess-Zumino gauge-coupling term goes back to
 
-* [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous ward identities_. Phys. Lett. 37B, 95 (1971)
+* {#WessZumino71} [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous ward identities_. Phys. Lett. 37B, 95 (1971)
 
 and was understood as yielding a 2-dimensional [[conformal field theory]] in 
 
-* [[Edward Witten]], _Non-Abelian bosonization in two dimensions_ Commun. Math. Phys. 92, 455 (1984)
+* {#Witten84} [[Edward Witten]], _Non-Abelian bosonization in two dimensions_ Commun. Math. Phys. 92, 455 (1984)
 
-* [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess-Zumino model in two dimensions_, Nucl. Phys. B 247, 83-103 (1984)
+* {#KnizhnikZamolodchikov85} [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess-Zumino model in two dimensions_, Nucl. Phys. B 247, 83-103 (1984)
 
 and hence (a possible part of) a [[string theory]] [[vacuum]]/[[target space]] in
 
