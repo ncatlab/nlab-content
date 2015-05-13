@@ -1,8 +1,9 @@
 
 > This entry contains one chapter of _[[geometry of physics]]_.
 
-> previous chapter: _[de Rham coefficients](geometry+of+physics#deRhamCoefficients)_
+> previous chapters:  _[[geometry of physics -- flat connections|flat connections]]_, _[[geometry of physics -- de Rham coefficients|de Rham coefficients]]_
 
+> next chapters: _[[geometry of physics -- WZW terms|WZW terms]]_
 
 ***
 
@@ -1864,6 +1865,7 @@ where $L DK$ denotes the [[Dold-Kan correspondence]] followed by [[∞-stackific
 
 
 ### Syntactic Layer
+
 
 > under construction
 
