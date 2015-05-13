@@ -43,6 +43,7 @@ $\mathbf{H}$.
 
 
 +-- {: .num_defn #InfinitesimalCohesiveInfTopos}
+
 ###### Definition
 
 Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that
@@ -1982,7 +1983,7 @@ We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifo
 ###### Definition
 
 
-For $X$ any object in differential cohesion, its _infinitesimal disk bundle_ $T_{inf} X \to X$ is the [[homotopy pullback]]
+For $X$ any object in differential cohesion, its _[[infinitesimal disk bundle]]_ $T_{inf} X \to X$ is the [[homotopy pullback]]
 
 $$
   \array{
@@ -1996,7 +1997,7 @@ $$
 
 of the [[unit of a monad|unit]] of its [[infinitesimal shape modality]] along itself.
 
-More generally, given a filtration of differential cohesion by orders of infinitesimals, remark \ref{SequenceOfOrdersOfInfinitesimals}, then the order-$k$ infinitesimal disk bundle is the homotopy pullback in
+More generally, given a filtration of differential cohesion by orders of infinitesimals, remark \ref{SequenceOfOrdersOfInfinitesimals}, then the order-$k$ [[infinitesimal disk bundle]] is the [[homotopy pullback]] in
 
 $$
   \array{
@@ -2030,7 +2031,7 @@ $$
   \mathbf{H}_{/\Im X}
 $$
 
-then then infinitesimal disk bundle of $X$ is
+then then [[infinitesimal disk bundle]] of $X$ is
 
 $$
   T_{inf} X \simeq p^\ast p_! X
