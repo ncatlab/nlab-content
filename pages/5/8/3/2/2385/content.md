@@ -28,7 +28,7 @@ It is the [[coreduced object|coreduced reflection]] of $X$.
 
 ### On $Rings^{op}$
 
-Let [[CRing]] be the [[category]] of [[commutative rings]]. For $R \in CRing$, write $I \in R$ for the [[nilradical]] of $R$, the [[ideal]] consisting of the nilpotent elements. The canonical [[projection]] $R \to R/I$ to the [[quotient]] y the ideal corresponds in the [[opposite category]] $Ring^{op}$ to the inclusion
+Let [[CRing]] be the [[category]] of [[commutative rings]]. For $R \in CRing$, write $I \in R$ for the [[nilradical]] of $R$, the [[ideal]] consisting of the nilpotent elements. The canonical [[projection]] $R \to R/I$ to the [[quotient]] by the ideal corresponds in the [[opposite category]] $Ring^{op}$ to the inclusion
 
 $$
   Spec (R/I) \to Spec R
