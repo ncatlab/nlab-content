@@ -1,29 +1,70 @@
 
 
+I have a suspicion: 
+
+a flow
+
+$$
+  Jet(F) \stackrel{\phi}{\longrightarrow} Jet(F)
+$$
+
+being evolutionary is to mean that it preserves the Cartan distribution, and by what I just said in #5, but dualizing back through the $(T_{inf} \dashv Jet)$-adjunction, I am guessing now that this means that its image under $i_\ast$ stabilizes the universal differential operator, i.e. that we have
+
 $$
   \array{
-    P_1 &\stackrel{id}{\longrightarrow}& P_1 &\stackrel{\Delta_1}{\longrightarrow}& P_2 &\stackrel{\Delta_2}{\longrightarrow}& P_3
+    && Jet( F)
     \\
-    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{j_\infty}} && \downarrow^{\mathrlap{id}} && \downarrow
+    & {}^{\mathllap{}}\swarrow &\swArrow_{\mathrlap{\simeq}}& \searrow^{\mathrlap{}}
     \\
-    P_1 
-     &\stackrel{j_\infty}{\longrightarrow}& 
-    J^\infty(P_1)
-    \\
-    \downarrow^{\mathrlap{j_\infty}} 
-      && 
-    \downarrow^{\mathrlap{j_\infty}}
-      &&
-    \downarrow^{\mathrlap{j_\infty}}
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    J^\infty (P_1) 
-      &\stackrel{c^{\infty,\infty}}{\longrightarrow}& 
-    J^\infty(J^\infty(P_1))
-     &\stackrel{\psi^{\Delta_1}_\infty}{\longrightarrow}&
-    J^\infty(P_2)
-     &\stackrel{\psi^{\Delta_2}}{\longrightarrow}&
-    P_3
+    Jet(Jet(F))
+    && \underset{Jet(\phi)}{\longrightarrow}&&
+    Jet(Jet(F))
   }
+  \,.
+$$
+
+If that is true, then my second order conjecture is that the horizontal $\eta$ are those killed by this precomposition, i.e. that for a quantomorphism
+
+$$
+  \array{
+       Jet(F) && \stackrel{\phi}{\longrightarrow} && Jet(F)
+       \\
+       & {}_{\mathllap{\mathbf{L}}}\searrow &\swArrow_{\mathrlap{\eta}}& \swarrow_{\mathrlap{\mathbf{L}}}
+       \\
+       && \mathbf{B}^{p+1}U(1)_{conn}
+   }
+$$
+
+to be admissible, we need
+
+$$
+  \left(
+  \array{
+    && Jet( F)
+    \\
+    & {}^{\mathllap{}}\swarrow &\swArrow& \searrow^{\mathrlap{}}
+    \\       
+       Jet(Jet(F))  && \stackrel{Jet(\phi)}{\longrightarrow} && Jet(Jet(F))
+       \\
+       & {}_{\mathllap{Jet \mathbf{L}}}\searrow &\swArrow_{\mathrlap{Jet(\eta)}}& \swarrow_{ \mathrlap{Jet\mathbf{L}}}
+       \\
+       && Jet \mathbf{B}^{p+1}U(1)_{conn}
+   }
+   \right)
+   \;\;\;\;
+    \simeq
+   \;\;\;\;
+  \left(
+  \array{
+    && Jet F
+    \\
+    & {}^{\mathllap{}}\swarrow && \searrow^{\mathrlap{}}
+    \\       
+       Jet(Jet(F))  && = && Jet(Jet(F))
+       \\
+       & {}_{\mathllap{Jet \mathbf{L}}}\searrow && \swarrow_{\mathrlap{Jet \mathbf{L}}}
+       \\
+       && Jet \mathbf{B}^{p+1}U(1)_{conn}
+   }
+  \right)
 $$
