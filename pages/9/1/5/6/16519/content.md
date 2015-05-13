@@ -41,3 +41,6 @@ The generalizations to [[Lie groupoids]] and [[Lie algebroids]] is considered in
 * [[Marius Crainic]], _Differentiable and algebroid cohomology, van Est isomorphisms, and characteristic classes_ ([arXiv:0008064](http://arxiv.org/abs/math/0008064))
 
 [[!redirects van Est isomorphisms]]
+
+[[!redirects van Est map]]
+[[!redirects van Est maps]]
