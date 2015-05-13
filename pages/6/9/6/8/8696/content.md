@@ -22,20 +22,20 @@ $$
   (\mathbf{H}_{th} \coloneqq InfThickenedCohesiveType)
 $$
 
-define the [[monad]]/[[comonad]] [[adjunction]]
+define the [[reduction modality]]/[[infinitesimal shape modality]] [[adjunction]]
 
 $$
-  (Red \dashv \Pi_{inf})
+  (\Re \dashv \Im)
   \colon
   \mathbf{H}_{th}
-  \stackrel{\overset{i_*}{\leftarrow}}{\underset{i^*}{\to}}
+  \stackrel{\overset{i_!}{\leftarrow}}{\underset{i^\ast}{\to}}
   \mathbf{H}
-  \stackrel{\overset{i_!}{\leftarrow}}{\underset{i_*}{\to}}
+  \stackrel{\overset{i^\ast}{\leftarrow}}{\underset{i_\ast}{\to}}
   \mathbf{H}
   \,.
 $$
 
-We call $\Pi_{inf}(X)$ the **infinitesimal path ∞-groupoid** of $X$ and  $Red(X)$ the **[[reduced type]]** of $X$. 
+We call $\Pi_{inf}(X) \coloneqq \Im(X)$ the **infinitesimal path ∞-groupoid** of $X$ and  $\Re(X)$ the **[[reduced type]]** of $X$. 
 
 
 For the $(i_* \dashv i^*)$-[[unit of an adjunction|unit]] we write
