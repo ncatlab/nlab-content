@@ -60,7 +60,7 @@ $$(1 \times X \stackrel{[f] \times 1_X}{\to} Y^X \times X \stackrel{ev_{X, Y}}{\
 
 The following lemma says that the internal evaluation map $ev_{X, Y}$ indeed behaves as an evaluation map at the level of underlying sets. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ######Lemma
 Given a map $f: X \to Y$ and a point $x: 1 \to X$, the composite 
 $$1 \stackrel{\langle [f], x \rangle}{\to} Y^X \times X \stackrel{ev_{X, Y}}{\to} Y$$ 
@@ -80,7 +80,7 @@ $$\array{
 where the penultimate equation uses naturality of the projection map $\pi_2$. 
 =-- 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ######Definition 
 **Internal composition** $c_{X, Y, Z}: Z^Y \times Y^X \to Z^X$ is the unique map such that 
 $$(Z^Y \times Y^X \times X \stackrel{c \times 1_X}{\to} Z^X \times X \stackrel{ev_{X, Z}}{\to} Z) = (Z^Y \times Y^X \times X \stackrel{1 \times ev_{X, Y}}{\to} Z^Y \times Y \stackrel{ev_{Y, Z}}{\to} Z)$$ 
@@ -100,7 +100,7 @@ $$(1 \stackrel{\langle [g], [f] \rangle}{\to} Z^Y \times Y^X \stackrel{c_{X, Y, 
 
 In showing that a given category is cartesian closed, the following theorem is often useful (cf. A4.3.1 in the [[Elephant]]):
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If $C$ is cartesian closed, and $D\subseteq C$ is a [[reflective subcategory]], then the reflector $L\colon C\to D$ preserves finite [[products]] if and only if $D$ is an [[exponential ideal]] (i.e. $Y\in D$ implies $Y^X\in D$ for any $X\in C$).  In particular, if $L$ preserves finite products, then $D$ is cartesian closed.
 =--
@@ -140,15 +140,23 @@ and is reproduced in the setting of closed monoidal categories at [[closed monoi
 
 ### Functional completeness theorem 
 
-+-- {: .un_thm}
-###### Theorem 1 
-Let $C$ be a cartesian closed category, and $c$ an object of $C$. Then the [[Kleisli category]] of the [[comonad]] $c \times - \colon C \to C$, denoted $C[c]$, is also a cartesian closed category. 
++-- {: .num_theorem #coKleisliOfComonadIsCartesianClosed}
+###### Theorem 
+Let $C$ be a [[cartesian closed category]], and $c$ an object of $C$. Then the [[Kleisli category]] of the [[comonad]] $c \times - \colon C \to C$, denoted $C[c]$, is also a cartesian closed category. 
 =-- 
 
-**Remark:** The Kleisli category of the comonad $c \times -$ on $C$ is canonically equivalent to the Kleisli category of the [[monad]] $(-)^c$ on $C$. 
++-- {: .num_remark}
+###### Remark
+
+The [[Kleisli category of a comonad|Kleisli category of the comonad]] $c \times -$ on $C$ is canonically [[equivalence of categories|equivalent]] to the [[Kleisli category]] of the [[monad]] $(-)^c$ on $C$. 
+
+=--
 
 +-- {: .proof} 
-###### Proof of Theorem 1
+###### Proof 
+
+of Theorem \ref{coKleisliOfComonadIsCartesianClosed}
+
 Let $a$ and $b$ be objects of $C[c]$. Claim: the product $a \times b$ in $C$, considered as an object of $C[c]$, is the product of $a$ and $b$ in $C[c]$, according to the following series of natural bijections: 
 
 $$\array{
@@ -172,8 +180,10 @@ where in the last step, we used the prior claim that the product of objects in $
 
 Observe that the object $c$ in $C[c]$ has an element $e \colon 1 \to c$, corresponding to the canonical isomorphism $c \times 1 \cong c$ in $C$. We call this element the "generic element" of $c$ in $C[c]$, according to the following theorem. This theorem can be viewed as saying that in the [[doctrine]] of cartesian closed categories, $C[c]$ is the result of freely adjoining an arrow $1\to c$ to $C$.  
 
-+-- {: .un_thm} 
-###### Theorem (Functional completeness) 
++-- {: .num_theorem} 
+###### Theorem 
+**(Functional completeness)**
+
 Let $C$ and $D$ be cartesian closed categories, and let $F \colon C \to D$ be a cartesian closed functor. Let $c$ be an object of $C$, and let $t: F(1) \to F(c)$ be an element in $D$. Then there exists an extension of $F$ to a cartesian closed functor $\tilde{F} \colon C[c] \to D$ that takes the generic element $e \colon 1 \to c$ in $C[c]$ to the element $t$, and this extension is unique up to isomorphism. 
 =-- 
 
