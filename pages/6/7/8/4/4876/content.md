@@ -315,6 +315,8 @@ on [[quantization]] of the WZW model, see at
 
 ## Related concepts
 
+* [[geometry of physics -- WZW terms]]
+
 * [[current algebra]], [[affine Lie algebra]]
 
 * [[Knizhnik-Zamolodchikov equation]]
