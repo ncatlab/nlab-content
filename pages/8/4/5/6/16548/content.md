@@ -51,7 +51,7 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
 
-  (notice that prop. 1.3 there is wrong, the correct version is in the thesis of the author)
+  (notice that prop. 1.3 there holds only if the equalizer exists in the first place)
 
 * {#Marvan89} [[Michal Marvan]] section 1.1 of _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
 
