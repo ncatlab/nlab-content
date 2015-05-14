@@ -27,6 +27,8 @@ Generalising this, given an [[internal category]] $C$ with object of objects $C_
 
 * [[simplicial identities]]
 
-[[!redirects codomain]]
-[[!redirects target object]]
 [[!redirects targets]]
+
+[[!redirects codomain]]
+[[!redirects codomains]]
+[[!redirects target object]]
