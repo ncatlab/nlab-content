@@ -125,7 +125,10 @@ Lecture notes with more details are in the section _[Lagrangians and Action func
 [[!redirects pre-quantum bundles]]
 
 [[!redirects prequantization]]
+[[!redirects prequantizations]]
+
 [[!redirects pre-quantization]]
+[[!redirects pre-quantizations]]
 
 [[!redirects prequantum connection]]
 [[!redirects prequantum connections]]
