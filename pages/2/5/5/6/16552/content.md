@@ -3,9 +3,13 @@
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- principal connections|principal connections]]_
 
-## WZW terms
+#Contents#
+* table of contents
+{:toc}
 
-We had seen that in [[higher differential geometry]], then given any closed [[differential n-form|differential (p+2)-form]] $\omega \in \Omega^{p+2}_{cl}(X)$, it is natural to ask for a [[prequantization]] of it, namely for a [[circle n-bundle with connection|circle (p+1)-bundle with connection]] or [[cocycle]] in degree-$(p+2)$-[[Deligne cohomology]] $\nabla$ on $X$ whose [[curvature]] is $F_\nabla = \omega$. In terms of [[moduli stacks]] this means equivalently asking for lifts of the form
+## **WZW terms**
+
+We had seen that in [[higher differential geometry]], then given any closed [[differential n-form|differential (p+2)-form]] $\omega \in \Omega^{p+2}_{cl}(X)$, it is natural to ask for a [[prequantization]] of it, namely for a [[circle n-bundle with connection|circle (p+1)-bundle with connection]] $\nabla$ (equivalently: [[cocycle]] in degree-$(p+2)$-[[Deligne cohomology]]) on $X$ whose [[curvature]] is $F_\nabla = \omega$. In terms of [[moduli stacks]] this means asking for lifts of the form
 
 $$
   \array{
@@ -21,13 +25,15 @@ $$
 
 in the [[homotopy theory]] of [[smooth homotopy types]].
 
-This immediately raises the question for natural classes of examples of such prequantizations. One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on [[smooth infinity-group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
+This immediately raises the question for natural classes of examples of such prequantizations. 
 
-In low degree of traditional [[Lie theory]] this appears as follows: An important class of examples of closed differential forms,  first of all, are closed [[left invariant forms]] on [[Lie groups]]. Via the general theory of [[Chevalley-Eilenberg algebras]] these may be identified with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via a [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+1}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
+One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on a [[smooth infinity-group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
 
-This is the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangla$ is the 3-cocycle in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$, in which case $\hat G$ is the [[string 2-group]].
+In low degree of traditional [[Lie theory]] this appears as follows: On [[Lie groups]] $G$, those closed $(p+2)$-forms $\omega$ which are [[left invariant forms]] may be identified, via the general theory of [[Chevalley-Eilenberg algebras]], with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
 
-Then, by the discussion at [[geometry of physics -- principal bundles]], the cocycle [[modulating morphism|modulates]] a [[circle n-group|circle p-group]]-[[principal infinity-bundle]] 
+This happens to be the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangle$ is the [[Lie algebra cohomology|Lie algebra 3-cocycle]] in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. This is, up to normalization, a representative of the de Rham image of a generator $\mathbf{c}$ of $H^3(\mathbf{B}G, U(1)) \simeq H^4(B G, \mathbb{Z}) \simeq \mathbb{Z}$. 
+
+Generally, by the discussion at _[[geometry of physics -- principal bundles]]_, the cocycle $\mathbf{c}$ [[modulating morphism|modulates]] an [[infinity-group extension]] which is a [[circle n-group|circle p-group]]-[[principal infinity-bundle]] 
 
 $$
   \array{
@@ -35,40 +41,374 @@ $$
      \\
      && \downarrow
      \\
-     && G &\stackrel{\Omega\mathbf{c}}{\longrightarrow}& \mathbf{B}^{p+2}U(1)
+     && G &\stackrel{\Omega\mathbf{c}}{\longrightarrow}& \mathbf{B}^{p+1}U(1)
   }
 $$
 
-whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an integral lift of the real cohomology class encoded by $\omega$ under the [[de Rham isomorphism]].
+whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an integral lift of the real cohomology class encoded by $\omega$ under the [[de Rham isomorphism]]. In the example of [[spin group|Spin]] and $p = 1$ this extension is the [[string 2-group]].
 
-Diagrammatically, this natural [[Lie theory|Lie theoretic]] data give a diagram of [[smooth homotopy types]] of the form
+Such a [[Lie theory|Lie theoretic]] situation is concisely expressed by a diagram of [[smooth homotopy types]] of the form
 
 $$
   \array{
      && &\longrightarrow& \mathbf{B}^{p+1}U(1)
      \\
-     &{}^{\mathllap{\Omega \mathbf{c}}}\nearrow& &\swArrow\simeq& \downarrow
+     &{}^{\mathllap{\Omega \mathbf{c}}}\nearrow& &\swArrow_\simeq& \downarrow^{\mathrlap{\theta_{\mathbf{B}^p U(1)}}}
      \\
      G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
   }
-  \,.
+  \,,
 $$
 
-Now, by the very [[homotopy pullback]]-characterization of the [[Deligne complex]] $\mathbf{B}^{p+1}U(1)_{conn}$, such a diagram is equivalently a [[prequantization]] of $\omega$:
+where $\flat_{dR}\mathbf{B}^{p+2}\mathbb{R} \simeq \flat_{dR}\mathbf{B}^{p+2}U(1)$ is the [de Rham coefficients](cohesive+infinity-topos+--+structures#deRhamCohomology) (see also at _[[geometry of physics -- de Rham coefficients]]_) and where the homotopy filling the diagram is what exhibits $\omega$ as a de Rham representative of $\Omega \mathbf{c}$.
+
+Now, by the very [[homotopy pullback]]-characterization of the [[Deligne complex]] $\mathbf{B}^{p+1}U(1)_{conn}$ ([here](Deligne+cohomology#TheExactDifferentialCohomologyHexagon)), such a diagram is equivalently a [[prequantization]] of $\omega$:
 
 $$
   \array{
      && \mathbf{B}^{p+1}U(1)_{conn} &\longrightarrow& \mathbf{B}^{p+1}U(1)
      \\
-     &{}^\mathllap{\nabla_\mu}\nearrow& \downarrow &\swArrow\simeq& \downarrow
+     &{}^\mathllap{\nabla}\nearrow& \downarrow &\swArrow_\simeq& \downarrow^{\mathrlap{\theta_{\mathbf{B}^p U(1)}}}
      \\
      G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
   }
   \,.
 $$
 
-For $\mu = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla_\mu$ here is a [[circle n-bundle with connection|circle 2-bundle with connection]], often referred to as a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]]. As such, this is also known as the _WZW gerbe_ or similar.
+For $\omega = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla$ here is a [[circle n-bundle with connection|circle 2-bundle with connection]], often referred to as a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]]. As such, this is also known as the _WZW gerbe_ or similar.
 
-This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] on $G$. 
+This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In terms of [[string theory]] it describes the propagation of the [[string]] on the group $G$ subject to a [[force]] of [[gravity]] given by the [[Killing form]] [[Riemannian metric]] and subject to a [[B-field]] [[higher gauge field|higher gauge force]] whose [[field strength]] is $\omega$.  In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this WZW term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] $\nabla$ on $G$. This is equivalently the $\nabla$ that we just motivated above.
+
+Later WZW terms, or at least their curvature forms $\omega$, were recognized all over the place in [[quantum field theory]]. For instance the [[Green-Schwarz sigma-models for super p-branes]] each have an [[action functional]] that is the sum of the standard [[kinetic action]] plus a WZW term of degree $p+2$. 
+
+In general WZW terms are "[[gauged WZW model|gauged]]" which means, as we will see, that they are not defined on the give [[smooth infinity-group]] $G$ itself, but on a bundle $\tilde G$ of differential moduli stacks over that group, such that a map $\Sigma \to \tilde G$ is a pair consisting of a map $\Sigma \to G$ and of a [[higher gauge field]] on $\Sigma$ (a "tensor multiplet" of fields).
+
+Here we discuss the general construction and theory of such higher WZW terms.
+
+### Model layer
+
+We discuss how every [[cocycle]] $\mu \colon \mathfrak{g} \to b^{p+1} \mathbb{R}$ in [[L-∞ algebra cohomology]] has a [[Lie integration]] to a higher WZW term of the form
+
+$$
+  \mathbf{L}_\mu \colon \tilde G \longrightarrow \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+$$
+
+where $\tilde G$ is a differential extension of the smooth $p+1$-group that is the universal [[Lie integration]] of $\mathfrak{g}$, and where $\Gamma \hookrightarrow \mathbb{R}$ is the group of [[periods]] of $\mu$ on that group.
+
+This construction is a differential refinement of [[Lie integration]], so we start with recalling the relevant constructions and facts of Lie integration.
+
+#### Lie integration
+
+So let $\mathfrak{g}$ be an [[L-∞ algebra]]. 
+
+Write 
+
+* $CE(\mathfrak{g})$ for the [[Chevalley-Eilenberg algebra]] of an [[L-∞ algebra]] $\mathfrak{g}$;
+
+* $\Delta^\bullet_{smth} \colon \Delta \to SmoothMfd$ for the [[cosimplicial object|cosimplicial]] [[smooth manifold]] [[manifold with corners|with corners]] which is in degree $k$ the standard $k$-simpliex $\Delta^k \hookrightarrow \mathbb{R}^{k+1}$;
+
+* $\Omega^\bullet_{si}(\Delta_{smth}^k)$ for the [[de Rham complex]] of those [[differential forms]] on $\Delta_{smth}^k$ which have [[sitting instants]], in that in an [[open neighbourhood]] of the [[boundary]] they are constant perpendicular to any face on their value at that face;
+
+* $\Omega^\bullet_{si}(U \times \Delta_{smth}^k)$ for $U \in SmoothMfd$ for the [[de Rham complex]] of differential forms on $U \times \Delta^k$ which when restricted to each point of $U$ have sitting instants on $\Delta^k$;
+
+* $\Omega^\bullet_{vert,si}(U \times \Delta_{smth}^k)$ for the subcomplex of forms that in addition are [[vertical differential forms]] with respect to the projection $U \times \Delta^k \to U$.
 
 
+
++-- {: .num_defn #SimplicialLieIntegrationOfLinfinityAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ an [[L-∞ algebra]], write
+
+* $\exp(\mathfrak{g})_\bullet \in PreSmoothTypes = PSh(CartSp,sSet)$
+
+  for the [[simplicial presheaf]]
+
+  $$
+    \exp(\mathfrak{g}) 
+    \colon 
+    (U \times k) \mapsto Hom_{dgAlg}( CE(\mathfrak{g}), \Omega^\bullet_{vert,si}(U \times \Delta_{smth}^k) )
+    \,.
+  $$
+
+  which is the universal _[[Lie integration]]_ of $\mathfrak{g}$;
+
+* $\flat_{dR}\exp(\mathfrak{g})_\bullet \in PreSmoothTypes = PSh(CartSp,sSet)$
+
+  for the [[simplicial presheaf]]
+
+  $$
+    \flat_{dR}\exp(\mathfrak{g})_\bullet
+    \;\colon\;
+    (U \times k) \mapsto 
+    Hom_{dgAlg}( CE(\mathfrak{g}), \Omega^{\bullet\geq 1, \bullet}_{si}(U \times \Delta^k_{smth}) )
+  $$
+
+  of those differential forms on $U \times \Delta^\bullet$ with at least one leg along $U$;
+
+* $\Omega^1_{flat}(-,\mathfrak{g}) 
+   \coloneqq 
+   \flat_{dR}\exp(\mathfrak{g})_0
+  \longrightarrow \flat_{dR}\exp(\mathfrak{g})_\bullet$
+
+  for the canonical inclusion of the degree-0 piece, regarded as a simplicial constant simplicial presheaf.
+
+=--
+
++-- {: .num_example #ExamplesOfLieIntegration}
+###### Example
+
+From the discussion at _[[Lie integration]]_:
+
+1. $\Omega^1_{flat}(-,b^{p+1}\mathbb{R}) = \mathbf{\Omega}^{p+2}_{cl}$;
+
+1. for $\mathfrak{g}$ an ordinary [[Lie algebra]], then for the [[simplicial skeleton|2-coskeleton]]
+
+   $$
+     cosk_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
+   $$
+
+   for $G$ the simply connected [[Lie group]] associated to $\mathfrak{g}$ by traditional [[Lie theory]]. If $\mathfrak{g}$ is furthermore a [[semisimple Lie algebra]], then also
+
+   $$
+     cosk_k \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
+   $$
+
+1. for $\mathfrak{g} = b^{p}\mathbb{R}$ the [[line Lie n-algebra|line Lie p+1]]-algebra, then 
+
+   $$
+     \exp(b^p \mathbb{R}) \simeq \mathbf{B}^{p+1}\mathbb{R}
+     \,.
+   $$
+
+
+=--
+
++-- {: .num_remark #LieIntegrationIsFunctorial}
+###### Remark
+
+The constructions in def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} are clearly [[functor|functorial]]: given a [[homomorphism]] of [[L-∞ algebras]]
+
+$$
+  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathfrak{h}
+$$
+
+it prolongs to a homomorphism of presheaves
+
+$$
+  \mu \colon \Omega^1_{flat}(-,\mathfrak{g})
+  \longrightarrow \Omega^1(-,mathfrak{h})
+$$
+
+and of [[simplicial presheaves]]
+
+$$
+  \exp(\mu)
+  \;\colon\;
+  \exp(\mathfrak{g})
+  \longrightarrow
+  \exp(\mathfrak{h})
+$$
+
+etc.
+
+
+=--
+
+
++-- {: .num_prop #TruncatedLieIntegrationOfCocycle}
+###### Proposition
+
+For $\mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}$ a homomorphism to the 
+[[line Lie n-algebra|line Lie p+1]], hence a degree-$(p+2)$ [[cocycle]] in the [[L-∞ algebra cohomology]] of $\mathfrak{g}$, then the universal Lie integration of $\mu$ descends to the $(p+2)$-coskeleton 
+
+$$
+  \mathbf{B}G_\bullet \coloneqq cosk_{p+2}\exp(\mathfrak{g})
+$$
+
+up to quotienting the coefficients $\mathbb{R}$ by the subgroup $\Gamma \hookrightarrow \mathbb{R}$ of [[periods]] of $\mu$ to yield the bottom morphism in
+
+$$
+  \array{
+     \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\longrightarrow}&
+     \mathbf{B}^{p+2}\mathbb{R}
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{B}G_\bullet
+     &\stackrel{\mathbf{c}}{\longrightarrow}&
+     \mathbf{B}^{p+2} (\mathbb{R}/\Gamma)_\bulllet
+  }
+  \,.
+$$
+
+=--
+
+This is discussed in ([FSS 12](Lie+integration#FSS12)).
+
+#### The WZW terms
+
++-- {: .num_prop }
+###### Proposition
+
+Given an $L_\infty$-cocycle $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$ for $\mathfrak{g}$ concentrated in degrees $\leq p+1$, then the canonical [[commuting diagram]] of [[simplicial presheaves]]
+
+$$
+  \array{
+    \Omega^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\exp(\mathfrak{g})_\bullet
+    &
+    \stackrel{\flat_{dR}\exp(\mu)_\bullet}{\longrightarrow}
+    &
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}_\bullet
+  }
+$$
+
+given by def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, 
+example \ref{ExamplesOfLieIntegration},
+remark \ref{LieIntegrationIsFunctorial}, presents a 
+refinement of the canonical [[Hodge filtration]] on $\mathbf{B}^{p}(\mathbb{R}/\Gamma)$, def. \ref{RefinementOfHodgeFiltration}, 
+along the cocycle $\athbf{c}$ which Lie integrates $\mu$
+via prop. \ref{TruncatedLieIntegrationOfCocycle}.
+
+=--
+
+This way every such cocycle $\mu$ induces a WZW term by prop. \ref{WZWTermByUniversality}.
+
+### Semantic layer
+
+We discuss the general abstract formulation of WZW terms in a [[cohesive (infinity,1)-topos]].
+
+Throughout, let 
+
+* $\mathbf{H}$ an [[cohesive (∞,1)-topos]];
+
+* $\mathbb{G} \in \mathbf{H}$ be an object equipped with the structure of a [[braided ∞-group]], i.e. with specified double [[delooping]] $\mathbf{B}^2 \mathbb{G}$.
+
+* $\Omega^2_{cl}(-,\mathbb{G}) \to \cdots \to \flat_{dR}\mathbf{B}\mathbb{G}$ a chosen [[Hodge filtration]];
+
+* $G \in \mathbf{H}$ be any object equipped with [[∞-group]] structure, i.e. with specified [[delooping]] $\mathbf{B}G$;
+
+* $\mathbf{c} \;\colon\; \mathbf{B}G \longrightarrow \mathbf{B}^2 \mathbb{G}$ a morphism, hence a [[cocycle]] in the [[group cohomology]] of $G$ with [[coefficients]] in $\mathbb{G}$.
+
+Write
+
+* $\mathbf{B}\mathbb{G}_{conn} \coloneqq \mathbf{B}\mathbb{G} \underset{\flat_{dR}\mathbf{B}^2 \mathbb{G}}{\times} \Omega^2_{cl}(-,\mathbb{G})$
+
+  for the induced [[coefficients]] for $\mathbb{G}$-[[differential cohomology]], as discussed at _[[geometry of physics -- principal connections]]_;
+
+* $\hat G \to G$ for the [[infinity-group extension]] classified by $\mathbf{c}$.
+
++-- {: .num_defn #RefinementOfHodgeFiltration}
+###### Definition
+
+A _refinement of the [[Hodge filtration]]_ of $\mathbb{G}$ along the cocycle $\mathbf{c}$ is a choice of [[0-truncated]] object $\Omega^1_{flat}(-,G) \in \mathbf{H}$ and a completion to a diagram
+
+$$
+  \array{
+    \Omega^1_{flat}(-,G)
+    &\stackrel{\mu}{\longrightarrow}&
+    \Omega^2_{cl}(-,\mathbb{G})
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\mathbf{B}G
+    &\stackrel{\Omega \mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^2 \mathbb{G}
+  }
+$$
+
+We write $\tilde G$ for the [[homotopy pullback]] of this refinement along the [[Maurer-Cartan form]] $\theta_G$ of $G$
+
+$$
+  \array{
+    \tilde G &\stackrel{\theta_{\tilde G}}{\longrightarrow}& \mathbf{\Omega}^1_{flat}(-,G)
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\theta_G}{\longrightarrow}& \flat_{dR}\mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $\mathbf{H} = $ [[Smooth∞Grpd]] and $\mathbb{G} = \mathbf{B}^p U(1)$ the [[circle n-group|circle (p+1)-group]].
+
+For $G$ an ordinary [[Lie group]], then $\mu$ may be taken to be the [[Lie algebra cohomology|Lie algebra cocycle]] corresponding to $\mathbf{c}$ and then $\tilde G \simeq G$.
+
+On the opposite extreme, for $G = \mathbf{B}^p U(1)$ itself with $\mathbf{c}$ the identity, then $\tilde G = \mathbf{B}^pU (1)_{conn}$ is the [[coefficients]] for [[ordinary differential cohomology]] (the [[Deligne complex]] under [[Dold-Kan correspondence]] and [[infinity-stackification]]).
+
+Hence a more general case is a fibered product of these two, where $\tilde G$ is such that a map $\Sigma \longrightarrow \tilde G$ is equivalently a pair consisting of a map $\Sigma \to G$ and of differential $p$-form data on $\Sigma$. This is the case of relevance for WZW models of [[super p-branes]] with "tensor multiplet" fields on them, such as the [[D-branes]] and the [[M5-brane]].
+
+=--
+
++-- {: .num_prop #WZWTermByUniversality}
+###### Proposition
+
+In the situation of def. \ref{RefinementOfHodgeFiltration} there is an essentially unique [[prequantum n-bundle|prequantization]] 
+
+$$
+  \mathbf{L}_{WZW}
+  \colon
+  \tilde G
+  \longrightarrow 
+  \mathbf{B}^2 \mathbb{G}_{conn}
+$$ 
+
+of the closed differential form 
+
+$$
+  \mu(\theta_{\tilde G})
+  \colon
+  \tilde G
+  \stackrel{\theta_{\tilde G}}{\longrightarrow}
+  \mathbf{\Omega}^1_{flat}(-,G)
+  \stackrel{\mu}{\longrightarrow}
+  \mathbf{\Omega}^2_{cl}(-,\mathbb{G})
+$$
+
+whose underlying $\mathbb{G}$-[[principal ∞-bundle]] is [[modulating morphism|modulated]] by the [[looping and delooping|looping]] $\Omega \mathbf{c}$ of the original cocycle.
+
+This we call the _WZW term_ of $\mathbf{c}$ with respect to the chosen refinement of the Hodge structure.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The morphism in question is the image under forming [[homotopy limits]] of the morphism of [[cospan]] diagrams
+
+$$
+  \array{
+     \Omega^1_{flat}(-,G) &\stackrel{\mu}{\longrightarrow}& \Omega^2_{cl}(-,\mathbb{G})
+     \\
+     \downarrow && \downarrow
+     \\
+     \flat_{dR}\mathbf{B}G
+     &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+     \flat_{dR}\mathbf{B}^2 \mathbb{G}
+     \\
+     \uparrow^{\mathrlap{\theta_G}} &&  \uparrow^{\mathrlap{\theta_{\mathbf{B}\mathbb{G}}}}
+     \\
+     G &\stackrel{\Omega \mathbf{c}}{\longrightarrow}& \mathbf{B}\mathbb{G}
+  }
+  \,.
+$$ 
+
+=--
+
+
+### Syntax layer
+
+## References
+
+* [[schreiber:differential cohomology in a cohesive topos]]
