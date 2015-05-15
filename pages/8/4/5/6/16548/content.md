@@ -61,7 +61,7 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
 
-* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+* {#Lurie} [[Jacob Lurie]], above prop. 0.9 in _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)), 2009
 
 For more references see at _[[jet bundle]]_.
 
