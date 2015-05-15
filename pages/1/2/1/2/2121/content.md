@@ -20,7 +20,7 @@
 
 ## Idea
 
-A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear [[differential equations]], the __diffieties__. Closely related notions in various flavours of geometry are the [[crystal]]s of schemes (Grothendieck), D-varieties (Malgrange), [[D-schemes]] ([[Chiral Algebras|Beilinson, Drinfeld]]) and differential algebras (Ritt, Kolchin). 
+A [[zero locus]] of a set of [[polynomials]] is an affine [[algebraic variety]]; mimicking this situation [[Alexandre Vinogradov]] has introduced a geometric object related to systems of nonlinear [[differential equations]], the __diffieties__. Closely related notions in various flavours of geometry are the [[crystal]]s of schemes (Grothendieck), D-varieties (Malgrange), [[D-schemes]] ([[Chiral Algebras|Beilinson, Drinfeld]]) and differential algebras (Ritt, Kolchin). 
 
 ## References
 
