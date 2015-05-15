@@ -475,7 +475,7 @@ This takes values in Wirthm&#252;ller morphisms. ([Shulman 12, example 2.2, 2.17
 
 ### Bundles of $\infty$-modules
 
-for [[(infinity,1)-module bundles]]: ([[schreiber:master thesis Nuiten|Nuiten 13]], [Hopkins-Lurie](#HopkinsLurie), [[schreiber:type-semantics for quantization|Schreiber 14]])
+for [[(infinity,1)-module bundles]]: ([[schreiber:master thesis Nuiten|Nuiten 13]], [Hopkins-Lurie](#HopkinsLurie), [[schreiber:Homotopy-type semantics for quantization|Schreiber 14]])
  
 ### Becker-Gottlieb transfer
 
