@@ -31,9 +31,9 @@ This immediately raises the question for natural classes of examples of such pre
 
 One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on a [[smooth infinity-group]] given by a [[cocycle]] in [[L-∞ algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
 
-In low degree of traditional [[Lie theory]] this appears as follows: On [[Lie groups]] $G$, those closed $(p+2)$-forms $\omega$ which are [[left invariant forms]] may be identified, via the general theory of [[Chevalley-Eilenberg algebras]], with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
+In low degree of traditional [[Lie theory]] this appears as follows: On [[Lie groups]] $G$, those closed $(p+2)$-forms $\omega$ which are [[left invariant forms]] may be identified, via the general theory of [[Chevalley-Eilenberg algebras]], with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. We have  $\omega = \mu(\theta)$where $\theta$ is the [[Maurer-Cartan form]] on $G$. These cocycles $\mu $ in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
 
-This happens to be the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangle$ is the [[Lie algebra cohomology|Lie algebra 3-cocycle]] in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. This is, up to normalization, a representative of the de Rham image of a generator $\mathbf{c}$ of $H^3(\mathbf{B}G, U(1)) \simeq H^4(B G, \mathbb{Z}) \simeq \mathbb{Z}$. 
+This happens to be the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangle$, hence $\omega = \langle \theta , [\theta,\theta]\rangle$, is the [[Lie algebra cohomology|Lie algebra 3-cocycle]] in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. This is, up to normalization, a representative of the de Rham image of a generator $\mathbf{c}$ of $H^3(\mathbf{B}G, U(1)) \simeq H^4(B G, \mathbb{Z}) \simeq \mathbb{Z}$. 
 
 Generally, by the discussion at _[[geometry of physics -- principal bundles]]_, the cocycle $\mathbf{c}$ [[modulating morphism|modulates]] an [[infinity-group extension]] which is a [[circle n-group|circle p-group]]-[[principal infinity-bundle]] 
 
@@ -457,6 +457,31 @@ This we call the _WZW term_ obtained by universal Lie integration from $\mu$.
 =--
 
 Essentially this construction originates in ([[schreiber:The brane bouquet|FSS 13]]).
+
++-- {: .num_remark}
+###### Remark
+
+The WZW term of def. \ref{WZWTermFromLieIntegration} is a [[prequantization]] of 
+
+$$
+  \omega = \mu(\theta_{\tilde G})
+$$
+
+$$
+  \array{
+     && \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+     \\
+     & \nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+     \\
+     \tilde G
+     &\stackrel{\mu(\theta_{\tilde G})}{\longrightarrow}& \mathbf{\Omega}^{p+2}
+  }
+  \,.
+$$
+
+
+=--
+
 
 #### Consecutive WZW terms and twists
  {#ConsecutiveWZWTermsAndTwists}
