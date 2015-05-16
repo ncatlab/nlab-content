@@ -41,7 +41,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * The [[Sierpinski topos]] $\mathcal{S}^{\cdot\rightarrow\cdot}$, as the sheaf topos on the [[Sierpinski space]], is an &#233;tendue.
 
-* The topos  $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ of _irreflexive [[graphs]]_ is an &#233;tendue, as it is locally equivalent to the sheaf topos on a three point space  (Lawvere 1986). The contrast between $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ and the topos  $\mathcal{S}^{\Delta_1^{op}}$ of _reflexive graphs_ is a paradigmatic example of the distinction between a _petit_ and a _gros_ topos.
+* The topos  $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ of _directed [[graphs]]_ (or [[quivers]]) is an &#233;tendue, as it is locally equivalent to the sheaf topos on a three point space  (Lawvere 1986). The contrast between $\mathcal{S}^{\cdot\rightrightarrows\cdot}$ and the topos  $\mathcal{S}^{\Delta_1^{op}}$ of _reflexive graphs_ is a paradigmatic example of the distinction between a _petit_ and a _gros_ topos.
 
 * The [[Jónsson-Tarski topos]] $\mathcal{J}_2$ is an &#233;tendue, as it is locally equivalent to the sheaf topos on the [[Cantor space]]. It is discussed as a petit topos for _labeled graphs_ in (Lawvere 1989).
  
