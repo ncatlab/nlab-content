@@ -188,7 +188,14 @@ $$
 
 (For instance ([Anderson 89, p. 10](#Anderson89)).)
 
-More abstractly, the horizontal differential is characterized by the fact that it takes horizontal forms to horizontal forms, and that for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
+=--
+
+More abstractly, the horizontal differential is characterized as follows:
+
++-- {: .num_prop #HorizontalDifferentialCompatibleWithPullbackAlongJetProlongations}
+###### Proposition
+
+The horzontal differential takes horizontal forms to horizontal forms, and for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
 
 $$
   (j_\infty \phi)^\ast \circ d = d \circ (j^\infty \phi)^\ast
@@ -479,33 +486,46 @@ The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is annihila
 This appears as ([Zuckerman, theorem 13](#Zuckerman)).0
 
 ## Elementary formalization in differential cohesion
+ {#FormalizationInDifferentialCohesion}
 
 We discuss aspects of an [[elementary (infinity,1)-topos|elementary]] 
 formalization in [[differential cohesion]] of the concept of the variational bicomplex .
 
 > under construction
 
-So let $\mathbf{H}$ be a context of [[cohesion]] and [[differential cohesion]], with   [[infinitesimal shape modality]] denoted $\Im$. 
+Let $\mathbf{H}$ be a context of [[cohesion]] and [[differential cohesion]], with  
+
+* [[flat modality]] denoted $\flat$;
+
+* [[infinitesimal shape modality]] denoted $\Im$. 
 
 Choose 
 
-1. an object $\Sigma \in \mathbf{H}$, the _base space_ (or [[spacetime]] or [[worldvolume]]);
+1. an [[object]] $\Sigma \in \mathbf{H}$, the _base space_ (or _[[spacetime]]_ or _[[worldvolume]]_);
 
 1. an object $E \in \mathbf{H}_{/\Sigma}$, the _[[field bundle]]_,
 
-1. an object $\mathbf{A} \in Stab(\mathbf{H}) \stackrel{\Omega}{\to} \mathbf{H}$, the _differential coefficients_.
+1. an object $\mathbf{A} \in Stab(\mathbf{H}) \stackrel{\Omega}{\to} \mathbf{H}$, the _[[differential cohomology|differential]] [[coefficients]]_.
 
 Write 
+
+* $\mathbf{H}_{/\Sigma}
+    \stackrel{\overset{\sum_\Sigma}{\longrightarrow}}{\stackrel{\overset{\Sigma^\ast}{\longleftarrow}}{\underset{\prod_\Sigma}{\longrightarrow}}}
+    \mathbf{H}$ 
+  for the [[base change]] [[adjoint triple]] over $\Sigma$, the [[étale geometric morphism]] of the [[slice (infinity,1)-topos]] $\mathbf{H}_{/\Sigma}$; 
+
+* $\Gamma_X \coloneqq \flat \circ \prod_\Sigma \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}$ for the external [[space of sections]] functor;
+
+* $Et \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}_{/\Sigma}$ for the coprojection onto the [[etale topos]] $\mathbf{Sh}(\Sigma) \hookrightarrow \mathbf{H}_{/\Sigma}$, see at [differential cohesion -- structure sheaves](differential+cohesive+%28infinity%2C1%29-topos#StructureSheaves);
 
 * $i \colon \Sigma \longrightarrow \Im(\Sigma)$ for the $\Sigma$-component of the [[unit of a monad|unit]] of $\Im$;
 
 * $Jet_\Sigma \coloneqq i^\ast i_\ast$ for the induced [[jet comonad]];
 
-* $Et \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}_{/\Sigma}$ for the coprojection onto the [[etale topos]] $\mathbf{Sh}(\Sigma) \hookrightarrow \mathbf{H}_{/\Sigma}$, see at [differential cohesion -- structure sheaves]().
 
-* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{f}{\longleftarrow}}{\longrightarrow}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
+* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{free}{\longleftarrow}}{\longrightarrow}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
 
-  the (non-full) inverse image of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon f(E) \to f(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{\Sigma}$;
+  the (non-full) [[inverse image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{\Sigma}$;
 
 * $\iota$ generically for all the composite functors
 
@@ -514,14 +534,14 @@ Write
        &&
         &&
        \mathbf{H}_{/\Sigma} 
-          &\stackrel{f}{\longrightarrow}& 
+          &\stackrel{free}{\longrightarrow}& 
        PDE(\mathbf{H})_\Sigma
        \\
        &&
        \mathbf{H}_{/\Sigma} 
           &\stackrel{Et}{\longrightarrow}&
        \mathbf{H}_{/\Sigma} 
-          &\stackrel{f}{\longrightarrow}& 
+          &\stackrel{free}{\longrightarrow}& 
        PDE(\mathbf{H})_\Sigma
        \\
        \mathbf{H} 
@@ -529,12 +549,29 @@ Write
        \mathbf{H}_{/\Sigma} 
           &\stackrel{Et}{\longrightarrow}&
        \mathbf{H}_{/\Sigma} 
-          &\stackrel{f}{\longrightarrow}& 
+          &\stackrel{free}{\longrightarrow}& 
        PDE(\mathbf{H})_\Sigma
     }
   $$ 
 
 Moreover we will usually abbreviate $\iota \Sigma$ as just $\Sigma$.
+
+We record the following simple fact,
+which holds generally since the [[jet comonad]] $Jet_\Sigma$ is a [[right adjoint]] 
+(to the [[infinitesimal disk bundle]] functor), hence preserves [[terminal objects]], and $\Sigma \in \mathbf{H}_{/\Sigma}$ is the [[terminal object]]:
+
++-- {: .num_prop #JetSigmaPreservesSigma}
+###### Proposition
+
+The essentially unique mophism 
+
+$$
+  Jet(\Sigma) \stackrel{\simeq}{\longrightarrow} \Sigma
+$$
+
+in $\mathbf{H}_{/\Sigma}$ in an [[equivalence]].
+
+=--
 
 +-- {: .num_defn #JetProlongationInDifferentialCohesion}
 ###### Definition
@@ -545,7 +582,9 @@ $$
   j \colon \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(Jet(E))
 $$
 
-is the the Jet-functor itself, regarded as taking sections to sections via
+is the the Jet functor itself, regarded,
+in view of prop. \ref{JetSigmaPreservesSigma}, 
+as taking [[sections]] to sections via
 
 $$
   (\Sigma \stackrel{\sigma}{\to} E)
@@ -567,21 +606,29 @@ $$
 
 For $E \in \mathbf{H}_{\Sigma}$ a [[bundle]] over $\Sigma$, 
 then a _horizontal $\mathbf{A}$-form_ on the [[jet bundle]]
-$Jet(E)$ is a morphism
+$Jet(E)$ is a morphism in $PDE(\mathbf{H})_{\Sigma}$ of the form
 
 $$
-  \alpha \colon \iota(E) \to \iota \mathbf{A}
+  \alpha \colon \iota E \to \iota \mathbf{A}
+  \,.
 $$
 
-in $PDE(\mathbf{H})_{\Sigma}$.
+For $d \colon \iota \mathbf{A}\to \mathbf{A}$ a morphism in $\mathbf{PDE}(\mathbf{H})_{\Sigma}$, then 
+the induced _horizontal differential_ is the operation of horizontal forms sending $\alpha$ to the composite
+
+$$
+  d \alpha \colon \iota E \stackrel{\alpha}{\longrightarrow} \iota \mathbf{A} \stackrel{d}{\longrightarrow} \iota \mathbf{A}'
+  \,.
+$$
+
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-Since both objects in def. \ref{HorizontalFormInDifferentialCohesion}
-are in the image of $\iota$, hence in the [[co-Kleisli category]] of the Jet comonad, the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
+Since all objects in def. \ref{HorizontalFormInDifferentialCohesion}
+are in the image of $\iota$, hence in the [[co-Kleisli category]] of the [[jet comonad]], the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
 
 $$
   \tilde \alpha \colon Jet(E) \longrightarrow Et(\Sigma^\ast \mathbf{A})
@@ -595,11 +642,11 @@ For the special case that $E = \Sigma$ in def. \ref{HorizontalFormInDifferential
 +-- {: .num_prop}
 ###### Proposition
 
-For 
+The horizontal differential of def. \ref{HorizontalFormInDifferentialCohesion} commutes with pullback of horizontal differential forms $\alpha$ along the jet prolongation, def. \ref{JetProlongationInDifferentialCohesion}, of any field section $\sigma \in \Gamma_X(E)$.
 
-* $d \colon \iota \mathbf{A} \longrightarrow \iota \mathbf{A}'$
+In detail: for 
 
-  a morphism (hence a [[differential operator]] on differential coefficient bundles over $\Sigma$), 
+* $d \colon \iota \mathbf{A} \longrightarrow \iota \mathbf{A}'$ a morphism (hence a [[differential operator]] on differential coefficient bundles over $\Sigma$), 
 
 * $\alpha \colon F \to \iota \mathbf{A}$ a horizontal $\mathbf{A}$-form on $Jet(F)$, def. \ref{HorizontalFormInDifferentialCohesion};
 
@@ -622,7 +669,7 @@ $$
 
 This is essentially just [[associativity]] of [[composition]]. In detail:
 
-Since all objects are in the [[inverse image]] $f\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
+Since all objects are in the [[inverse image]] $free\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
 
 As such, the left hand side of the equality is given in $\mathbf{H}$ by the composite morphism
 
@@ -667,6 +714,8 @@ $$
 which is the right hand side of the equivalence to be proven.
 
 =--
+
+
 
 ## References
 
