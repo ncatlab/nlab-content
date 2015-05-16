@@ -476,7 +476,179 @@ The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is annihila
 
 =--
 
-This appears as ([Zuckerman, theorem 13](#Zuckerman)).
+This appears as ([Zuckerman, theorem 13](#Zuckerman)).0
+
+## Elementary formalization in differential cohesion
+
+We discuss aspects of an [[elementary (infinity,1)-topos|elementary]] 
+formalization in [[differential cohesion]] of the concept of the variational bicomplex .
+
+> under construction
+
+So let $\mathbf{H}$ be a context of [[cohesion]] and [[differential cohesion]], with   [[infinitesimal shape modality]] denoted $\Im$. 
+
+Choose 
+
+1. an object $\Sigma \in \mathbf{H}$, the _base space_ (or [[spacetime]] or [[worldvolume]]);
+
+1. an object $E \in \mathbf{H}_{/\Sigma}$, the _[[field bundle]]_,
+
+1. an object $\mathbf{A} \in Stab(\mathbf{H}) \stackrel{\Omega}{\to} \mathbf{H}$, the _differential coefficients_.
+
+Write 
+
+* $i \colon \Sigma \longrightarrow \Im(\Sigma)$ for the $\Sigma$-component of the [[unit of a monad|unit]] of $\Im$;
+
+* $Jet_\Sigma \coloneqq i^\ast i_\ast$ for the induced [[jet comonad]];
+
+* $Et \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}_{/\Sigma}$ for the coprojection onto the [[etale topos]] $\mathbf{Sh}(\Sigma) \hookrightarrow \mathbf{H}_{/\Sigma}$, see at [differential cohesion -- structure sheaves]().
+
+* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{f}{\longleftarrow}}{\longrightarrow}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
+
+  the (non-full) inverse image of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon f(E) \to f(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{\Sigma}$;
+
+* $\iota$ generically for all the composite functors
+
+  $$
+    \array{
+       &&
+        &&
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{f}{\longrightarrow}& 
+       PDE(\mathbf{H})_\Sigma
+       \\
+       &&
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{Et}{\longrightarrow}&
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{f}{\longrightarrow}& 
+       PDE(\mathbf{H})_\Sigma
+       \\
+       \mathbf{H} 
+          &\stackrel{\Sigma^\ast}{\longrightarrow}& 
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{Et}{\longrightarrow}&
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{f}{\longrightarrow}& 
+       PDE(\mathbf{H})_\Sigma
+    }
+  $$ 
+
+Moreover we will usually abbreviate $\iota \Sigma$ as just $\Sigma$.
+
++-- {: .num_defn #JetProlongationInDifferentialCohesion}
+###### Definition
+
+The _jet prolongation_ map
+
+$$
+  j \colon \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(Jet(E))
+$$
+
+is the the Jet-functor itself, regarded as taking sections to sections via
+
+$$
+  (\Sigma \stackrel{\sigma}{\to} E)
+  \;\;\mapsto
+  \;\;
+  \left(
+  \Sigma \stackrel{\simeq}{\to} Jet(\Sigma)
+  \stackrel{Jet(\sigma)}{\longrightarrow}
+  Jet\left(F\right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #HorizontalFormInDifferentialCohesion}
+###### Definition
+
+
+For $E \in \mathbf{H}_{\Sigma}$ a [[bundle]] over $\Sigma$, 
+then a _horizontal $\mathbf{A}$-form_ on the [[jet bundle]]
+$Jet(E)$ is a morphism
+
+$$
+  \alpha \colon \iota(E) \to \iota \mathbf{A}
+$$
+
+in $PDE(\mathbf{H})_{\Sigma}$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Since both objects in def. \ref{HorizontalFormInDifferentialCohesion}
+are in the image of $\iota$, hence in the [[co-Kleisli category]] of the Jet comonad, the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
+
+$$
+  \tilde \alpha \colon Jet(E) \longrightarrow Et(\Sigma^\ast \mathbf{A})
+  \,.
+$$
+
+For the special case that $E = \Sigma$ in def. \ref{HorizontalFormInDifferentialCohesion}, then $Jet_{\Sigma}(\Sigma)\simeq\Sigma$ and so a horizontal $\mathbf{A}$-form on $\Sigma$ we call just a an $\mathbf{A}$-form.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For 
+
+* $d \colon \iota \mathbf{A} \longrightarrow \iota \mathbf{A}'$
+
+  a morphism (hence a [[differential operator]] on differential coefficient bundles over $\Sigma$), 
+
+* $\alpha \colon F \to \iota \mathbf{A}$ a horizontal $\mathbf{A}$-form on $Jet(F)$, def. \ref{HorizontalFormInDifferentialCohesion};
+
+* $\sigma \in \Gamma_\Sigma(F)$ a [[field (physics)|field]] [[section]],
+
+then there is a [[natural equivalence]]
+
+$$
+  j(\sigma)^\ast (d \alpha)
+   \simeq
+  d (j(\sigma)^\ast \alpha)  
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+This is essentially just [[associativity]] of [[composition]]. In detail:
+
+Since all objects are in the [[inverse image]] $f\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
+
+As such, the left hand side of the equality is given in $\mathbf{H}$ by the composite morphism
+
+$$
+  Jet(\Sigma) \stackrel{\simeq}{\to} Jet(Jet(\Sigma))
+  \stackrel{Jet(Jet(\sigma))}{\longrightarrow}
+  Jet(Jet(F))
+  \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
+  Jet(\iota \mathbf{A})
+  \stackrel{\tilde d}{\longrightarrow}
+  \iota \mathbf{A}'
+  \,,
+$$
+
+thought of as bracketed to the right. By functorality of $Jet(-)$ this is equivalent to
+
+$$
+  Jet(\Sigma) \stackrel{Jet ( \alpha \circ Jet(\sigma) )}{\longrightarrow}
+  Jet(\iota \mathbf{A})
+  \stackrel{d}{\to}
+  \iota \mathbf{A}'
+$$ 
+
+which is the right hand side of the equivalence to be proven.
+
+=--
 
 ## References
 
