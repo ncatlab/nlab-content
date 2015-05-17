@@ -142,7 +142,12 @@ In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] c
 
 A detailed components proof of the first part is in [Borceux, theorem I2.13.4](#Borceux).
 
-For more on this see also [[limits and colimits by example]].
+For more on this see also [[limits and colimits by example]]. 
+
++-- {: .num_warning} 
+###### Warning 
+It is not true that filtered colimits and finite limits commute in *any* category $C$ which has them. A simple example is where $C$ is the [[poset]] of [[closed subspaces]] of the [[one-point compactification]] $\mathbb{N} \cup \{\infty\}$ of the [[discrete space]] of [[natural numbers]]. If $A = \{\infty\}$ and $B_i$ ranges over finite subsets of $\mathbb{N}$, then $A \times colim_i B_i = \{\infty\} \cap (\mathbb{N} \cup \{\infty\}) = \{\infty\}$, but $colim_i A \times B_i = colim_i \{\infty\} \cap B_i = colim_i \emptyset = \emptyset$. 
+=--  
 
 
 According to 1.5 and 1.21 in [[LPAC]], a category has $\kappa$-[[directed colimits]] precisely if it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones. A proof of this result, following Adamek & Rosicky, may be found [[theorem:directed colimits imply filtered colimits|here]]. 
