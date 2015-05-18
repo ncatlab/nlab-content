@@ -54,6 +54,8 @@ Moreover, [[differential cohesion]] induces [[de Rham spaces]] and hence the geo
 
 * [[noncommutative differential calculus]]
 
+* [[secondary calculus]]
+
 ## References
 
 Discussion of differential calculus in terms of [[coinduction]] is in 
