@@ -163,7 +163,8 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens](#Takens)). The above formulation as the image of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman, p. 5](#Zuckerman)).
 
-### More on the horizontal differential
+### More on the horizontal differential complex
+ {#MoreOntheHorizontalComplex}
 
 +-- {: .num_remark #CharacterizationOfHorizontalDifferential}
 ###### Remark
@@ -208,7 +209,7 @@ $$
 
 More abstractly, the horizontal complex may be understood in terms of [[differential operators]] and the [[jet comonad]] as follows.
 
-+-- {: .num_remark }
++-- {: .num_remark #HorizontalComplexViaDifferentialOperators}
 ###### Remark
 
 A horizontal differential $n$-form $\alpha$ on $Jet(E) \to X$ is equivalently a homomorphism of [[bundles]] over $X$ 
@@ -217,7 +218,7 @@ $$
   \alpha \colon Jet(E) \longrightarrow \wedge^n T^\ast X
 $$
 
-from the [[jet bundle]] $Jet(E)$ to the [[exterior bundle]] $\wedge^n T^\ast X$. This in turn is, by the discussion there, equivalently a [[differential operator]] $\alpha \colon E \to \wedge^n T^\ast X$.
+from the [[jet bundle]] $Jet(E)$ to the [[exterior bundle]] $\wedge^n T^\ast X$. This in turn is, by the discussion there, equivalently a [[differential operator]] $\alpha \colon E \to \wedge^n T^\ast X$ (e.g. [Krasil'shchik-Vinogradov 99, ch 4, 1.6](#KrasilshchikVinogradov99)).
 
 Now of course also the [[de Rham differential]] $d_X$ on $X$ is a differential operator $\wedge^n T^\ast X \to \wedge^n T^\ast X$. In view of this, the horizontal differential of the variational bicomplex is just the [[composition]] operation of differential operators, with horizontal forms regarded as differential operators as above.
 
@@ -235,6 +236,8 @@ $$
   \wedge^n T^\ast X
   \,.
 $$
+
+(e.g. [Krasil'shchik-Vinogradov 99, ch 4, def. 1.8](#KrasilshchikVinogradov99))
 
 =--
 
@@ -527,6 +530,24 @@ Write
 
   the (non-full) [[inverse image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{\Sigma}$;
 
+* $\kappa$ generically for all the composite functors
+
+  $$
+    \array{
+       &&
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{free}{\longrightarrow}& 
+       PDE(\mathbf{H})_\Sigma
+       \\
+       \mathbf{H} 
+          &\stackrel{\Sigma^\ast}{\longrightarrow}& 
+       \mathbf{H}_{/\Sigma} 
+          &\stackrel{free}{\longrightarrow}& 
+       PDE(\mathbf{H})_\Sigma
+    }
+  $$ 
+
+
 * $\iota$ generically for all the composite functors
 
   $$
@@ -613,7 +634,7 @@ $$
   \,.
 $$
 
-For $d \colon \iota \mathbf{A}\to \mathbf{A}$ a morphism in $\mathbf{PDE}(\mathbf{H})_{\Sigma}$, then 
+For $d \colon \iota \mathbf{A}\to \iota \mathbf{A}'$ a morphism in $\mathbf{PDE}(\mathbf{H})_{\Sigma}$, then 
 the induced _horizontal differential_ is the operation of horizontal forms sending $\alpha$ to the composite
 
 $$
@@ -705,9 +726,11 @@ $$
 By functorality of $Jet(-)$ this is equivalent to
 
 $$
-  Jet(\Sigma) \stackrel{Jet ( \alpha \circ Jet(\sigma) )}{\longrightarrow}
+  Jet(\Sigma) 
+  \stackrel{\simeq}{\to}
+  Jet(Jet(\Sigma)) \stackrel{Jet ( \tilde \alpha \circ Jet(\sigma) )}{\longrightarrow}
   Jet(\iota \mathbf{A})
-  \stackrel{d}{\to}
+  \stackrel{\tilde d}{\to}
   \iota \mathbf{A}'
 $$ 
 
@@ -715,7 +738,37 @@ which is the right hand side of the equivalence to be proven.
 
 =--
 
+Given a horizontal $n$-form 
 
+$$
+  \mathbf{L} 
+  \colon
+  \iota F \longrightarrow \iota \mathbf{A}
+$$
+
+we call
+
+$$
+  \delta \mathbf{L}
+  \colon
+  \iota F
+  \stackrel{\mathbf{L}}{\longrightarrow}
+  \iota \mathbf{A}
+  \to
+  \kappa \mathbf{A}
+  \stackrel{\kappa \theta_{\mathbf{A}}}{\longrightarrow}
+  \kappa \flat_{dR}\mathbf{A}
+$$
+
+its variational derivative, where $\theta_{\mathbf{A}}\colon \mathbf{A}\to \flat_{dR} \mathbf{A}$ is the [[Maurer-Cartan form]] on $\mathbf{A}$. 
+
+## Related concepts
+
+* [[variational calculus]]
+
+* [[secondary differential calculus]]
+
+* [[BV-BRST complex]]
 
 ## References
 
@@ -742,6 +795,8 @@ Textbook accounts include
 
 * {#Anderson89} Ian Anderson, _The variational bicomplex_, Utah State University 1989 ([pdf]( http://math.uni.lu/~jubin/seminar/bicomplex.pdf)) 
  
+* {#KrasilshchikVinogradov99} [[Joseph Krasil'shchik]],  [[Alexandre Vinogradov]] et al. (eds.) _Symmetries and  Conservation Laws for Differential Equations of Mathematical Physics_, AMS 1999
+
 
 An early discussion with application to [[covariant phase spaces]] and their [[presymplectic structure]] is in
 
