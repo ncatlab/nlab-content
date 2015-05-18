@@ -192,7 +192,7 @@ For example, consider the sequence of spaces
 \]
 where the [[open sets]] are of the form 
 \[
- [n, \infty]\cup [m,\infty) \times \{1\}
+ [n, \infty] \times \{0\} \cup [m,\infty) \times \{1\}
 \]
 (where $m \geq n$), plus the empty set. Define $X_n \rightarrow X_{n+1}$ so that it sends a pair $(k, \epsilon)$ to itself if $k \gt n$, and $(n,\epsilon)$ to $(n+1,\epsilon)$. This defines a functor 
 \[
