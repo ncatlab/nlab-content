@@ -35,4 +35,4 @@ A [[model structure on spectra]] for [[orthogonal spectra]].
 
 ## References
 
-* [[Michael Mandell]], _Equivariant orthogonal spectra and S-modules_ ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
+* [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_ ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
