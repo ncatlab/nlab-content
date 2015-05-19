@@ -597,7 +597,7 @@ $$
 and if the truncated [[Lie integrations]] of these cocycles via prop. \ref{TruncatedLieIntegrationOfCocycle} preserves the extension property in that also
 
 $$
-  G_2 \to G_2 \stackrel{\Omega \mathbf{c}_2}{\longrightarrow} \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)
+  \hat G \to G \stackrel{\Omega \mathbf{c}_1}{\longrightarrow} \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)
 $$
 
 is a [[homotopy fiber sequence]] of [[smooth homotopy types]].
