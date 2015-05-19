@@ -525,9 +525,9 @@ Write
 * $Jet_\Sigma \coloneqq i^\ast i_\ast$ for the induced [[jet comonad]];
 
 
-* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{free}{\longleftarrow}}{\longrightarrow} \mathbf{H}_{/\Sigma}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
+* $\mathbf{H}_{/\Sigma} \stackrel{\overset{}{\longleftarrow}}{\underset{free}{\longrightarrow}} PDE(\mathbf{H})_{\Sigma}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
 
-  the (non-full) [[inverse image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{/\Sigma}$;
+  the (non-full) [[direct image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{/\Sigma}$;
 
 * $\kappa$ generically for all the composite functors
 
@@ -689,7 +689,7 @@ $$
 
 This is essentially just [[associativity]] of [[composition]]. In detail:
 
-Since all objects are in the [[inverse image]] $free\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
+Since all objects are in the [[direct image]] $free\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
 
 As such, the left hand side of the equality is given in $\mathbf{H}$ by the composite morphism
 
@@ -793,7 +793,7 @@ Textbook accounts and surveys include
 
 * {#Anderson89} Ian Anderson, _The variational bicomplex_, Utah State University 1989 ([pdf]( http://math.uni.lu/~jubin/seminar/bicomplex.pdf)) 
 
-* {#KrasilshchikVerbovertsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovertsky]], _Homological methods in equations of mathematical physics_
+* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
  
 * {#KrasilshchikVinogradov99} [[Joseph Krasil'shchik]],  [[Alexandre Vinogradov]] et al. (eds.) _Symmetries and  Conservation Laws for Differential Equations of Mathematical Physics_, AMS 1999
 
