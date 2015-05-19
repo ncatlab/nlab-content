@@ -525,56 +525,10 @@ Write
 * $Jet_\Sigma \coloneqq i^\ast i_\ast$ for the induced [[jet comonad]];
 
 
-* $\mathbf{H}_{/\Sigma} \stackrel{\overset{}{\longleftarrow}}{\underset{free}{\longrightarrow}} PDE(\mathbf{H})_{\Sigma}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
+* $\mathbf{H}_{/\Sigma} \stackrel{\overset{}{\longleftarrow}}{\underset{\iota}{\longrightarrow}} PDE(\mathbf{H})_{\Sigma}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
 
   the (non-full) [[direct image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{/\Sigma}$;
 
-* $\kappa$ generically for all the composite functors
-
-  $$
-    \array{
-       &&
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{free}{\longrightarrow}& 
-       PDE(\mathbf{H})_\Sigma
-       \\
-       \mathbf{H} 
-          &\stackrel{\Sigma^\ast}{\longrightarrow}& 
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{free}{\longrightarrow}& 
-       PDE(\mathbf{H})_\Sigma
-    }
-  $$ 
-
-
-* $\iota$ generically for all the composite functors
-
-  $$
-    \array{
-       &&
-        &&
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{free}{\longrightarrow}& 
-       PDE(\mathbf{H})_\Sigma
-       \\
-       &&
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{Et}{\longrightarrow}&
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{free}{\longrightarrow}& 
-       PDE(\mathbf{H})_\Sigma
-       \\
-       \mathbf{H} 
-          &\stackrel{\Sigma^\ast}{\longrightarrow}& 
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{Et}{\longrightarrow}&
-       \mathbf{H}_{/\Sigma} 
-          &\stackrel{free}{\longrightarrow}& 
-       PDE(\mathbf{H})_\Sigma
-    }
-  $$ 
-
-Moreover we will usually abbreviate $\iota \Sigma$ as just $\Sigma$.
 
 We record the following simple fact,
 which holds generally since the [[jet comonad]] $Jet_\Sigma$ is a [[right adjoint]] 
@@ -629,15 +583,18 @@ then a _horizontal $\mathbf{A}$-form_ on the [[jet bundle]]
 $Jet(E)$ is a morphism in $PDE(\mathbf{H})_{\Sigma}$ of the form
 
 $$
-  \alpha \colon \iota E \to \iota \mathbf{A}
+  \alpha \colon \iota E \to \iota Et_\Sigma\Sigma^\ast \mathbf{A}
   \,.
 $$
 
-For $d \colon \iota \mathbf{A}\to \iota \mathbf{A}'$ a morphism in $\mathbf{PDE}(\mathbf{H})_{\Sigma}$, then 
+For $d \colon \iota Et_\Sigma\Sigma^\ast \mathbf{A}\to \iota Et_\Sigma\Sigma^\ast \mathbf{A}'$ a morphism in $\mathbf{PDE}(\mathbf{H})_{\Sigma}$, then 
 the induced _horizontal differential_ is the operation of horizontal forms sending $\alpha$ to the composite
 
 $$
-  d \alpha \colon \iota E \stackrel{\alpha}{\longrightarrow} \iota \mathbf{A} \stackrel{d}{\longrightarrow} \iota \mathbf{A}'
+  d \alpha \colon \iota E 
+     \stackrel{\alpha}{\longrightarrow} 
+  \iota Et_\Sigma\Sigma^\ast\mathbf{A} 
+   \stackrel{d}{\longrightarrow} \iota Et_\Sigma\Sigma^\ast \mathbf{A}'
   \,.
 $$
 
@@ -648,10 +605,10 @@ $$
 ###### Remark
 
 Since all objects in def. \ref{HorizontalFormInDifferentialCohesion}
-are in the image of $\iota$, hence in the [[co-Kleisli category]] of the [[jet comonad]], the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
+are in the [[co-Kleisli category]] of the [[jet comonad]], the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
 
 $$
-  \tilde \alpha \colon Jet(E) \longrightarrow Et(\Sigma^\ast \mathbf{A})
+  \tilde \alpha \colon Jet(E) \longrightarrow Et_\Sigma \Sigma^\ast \mathbf{A}
   \,.
 $$
 
@@ -666,11 +623,11 @@ The horizontal differential of def. \ref{HorizontalFormInDifferentialCohesion} c
 
 In detail: for 
 
-* $d \colon \iota \mathbf{A} \longrightarrow \iota \mathbf{A}'$ a morphism (hence a [[differential operator]] on differential coefficient bundles over $\Sigma$), 
+* $d \colon \iota Et_\Sigma\Sigma^\ast \mathbf{A} \longrightarrow \iota Et_\Sigma\Sigma^\ast \mathbf{A}'$ a morphism, 
 
-* $\alpha \colon F \to \iota \mathbf{A}$ a horizontal $\mathbf{A}$-form on $Jet(F)$, def. \ref{HorizontalFormInDifferentialCohesion};
+* $\alpha \colon \iota E \to \iota Et_\Sigma\Sigma^\ast \mathbf{A}$ a horizontal $\mathbf{A}$-form on $Jet(E)$, def. \ref{HorizontalFormInDifferentialCohesion};
 
-* $\sigma \in \Gamma_\Sigma(F)$ a [[field (physics)|field]] [[section]],
+* $\sigma \in \Gamma_\Sigma(E)$ a [[field (physics)|field]] [[section]],
 
 then there is a [[natural equivalence]]
 
@@ -687,8 +644,6 @@ $$
 ###### Proof
 
 
-This is essentially just [[associativity]] of [[composition]]. In detail:
-
 Since all objects are in the [[direct image]] $free\colon \mathbf{H} \to PDE(\mathbf{H})_\Sigma$, this is an equivalence of morphisms in the [[co-Kleisli category]] of the [[jet comonad]], hence is equivalently an equivalence of co-Kleisli composites of morphisms in $\mathbf{H}$.
 
 As such, the left hand side of the equality is given in $\mathbf{H}$ by the composite morphism
@@ -698,13 +653,13 @@ $$
   \stackrel{\simeq}{\to}
   Jet(\Sigma)
    \stackrel{Jet(\sigma)}{\longrightarrow}
-  Jet(F)
+  Jet(E)
   \stackrel{}{\to}
-  Jet(Jet(F))
+  Jet(Jet(E))
   \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
-  Jet(\iota \mathbf{A})
+  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
   \stackrel{\tilde d}{\longrightarrow}
-  \iota \mathbf{A}'
+  Et_\Sigma\Sigma^\ast \mathbf{A}'
   \,,
 $$
 
@@ -713,11 +668,11 @@ thought of as bracketed to the right. By [[natural transformation|naturality]] o
 $$
   Jet(\Sigma) \stackrel{\simeq}{\to} Jet(Jet(\Sigma))
   \stackrel{Jet(Jet(\sigma))}{\longrightarrow}
-  Jet(Jet(F))
+  Jet(Jet(E))
   \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
-  Jet(\iota \mathbf{A})
+  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
   \stackrel{\tilde d}{\longrightarrow}
-  \iota \mathbf{A}'
+  Et_\Sigma\Sigma^\ast \mathbf{A}'
   \,,
 $$
 
@@ -728,9 +683,9 @@ $$
   Jet(\Sigma) 
   \stackrel{\simeq}{\to}
   Jet(Jet(\Sigma)) \stackrel{Jet ( \tilde \alpha \circ Jet(\sigma) )}{\longrightarrow}
-  Jet(\iota \mathbf{A})
+  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
   \stackrel{\tilde d}{\to}
-  \iota \mathbf{A}'
+  Et_\Sigma\Sigma^\ast \mathbf{A}'
 $$ 
 
 which is the right hand side of the equivalence to be proven.
@@ -742,7 +697,7 @@ Given a horizontal $n$-form
 $$
   \mathbf{L} 
   \colon
-  \iota F \longrightarrow \iota \mathbf{A}
+  \iota E \longrightarrow \iota Et_\Sigma\Sigma^\ast \mathbf{A}
 $$
 
 we call
@@ -750,13 +705,13 @@ we call
 $$
   \delta \mathbf{L}
   \colon
-  \iota F
+  \iota E
   \stackrel{\mathbf{L}}{\longrightarrow}
-  \iota \mathbf{A}
+  \iota Et_\Sigma\Sigma^\ast \mathbf{A}
   \to
-  \kappa \mathbf{A}
+  \iota \Sigma^\ast \mathbf{A}
   \stackrel{\kappa \theta_{\mathbf{A}}}{\longrightarrow}
-  \kappa \flat_{dR}\mathbf{A}
+  \iota \Sigma^\ast \flat_{dR}\mathbf{A}
 $$
 
 its variational derivative, where $\theta_{\mathbf{A}}\colon \mathbf{A}\to \flat_{dR} \mathbf{A}$ is the [[Maurer-Cartan form]] on $\mathbf{A}$. 
