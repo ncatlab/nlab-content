@@ -43,6 +43,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 * [[number theory and physics]]
 
+* [[arithmetic pretopos]]
+
 ## References
 
 * [[Carl Gauss]], _[[Disquisitiones Arithmeticae]]_, 1801
