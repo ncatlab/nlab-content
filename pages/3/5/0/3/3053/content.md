@@ -58,6 +58,8 @@ A bifibration $F:E\to B$ such that $F^{op}:E^{op}\to B$ is a bifibration as well
 
 * [[Beck-Chevalley condition]]
 
+* [[hyperdoctrine]]
+
 ## References
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations, [arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1) (2013).
