@@ -65,6 +65,8 @@ See also [[topology]].
 * [[space and quantity]]
 * [[Euclidean geometry]]
 
+* [[D-brane geometry]]
+
 There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos]] theory including
 
 * [[germ]], [[etale space]], [[soft sheaf]], [[flabby sheaf]], [[fine sheaf]], [[Grothendieck topos]], [[Grothendieck topology]], [[(infinity,1)-topos]], [[smooth topos]], [[(infinity,1)-category of (infinity,1)-sheaves]], [[cover]], [[hypercover]], [[local object]], [[local isomorphism]], [[coverage]], [[local epimorphism]], [[hypercompletion]], [[sieve]], [[Verdier site]], [[Grothendieck fibration]], [[Pierce spectrum]], [[Stone duality]], [[point of a topos]], [[geometric morphism]]... 
