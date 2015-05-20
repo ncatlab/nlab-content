@@ -738,10 +738,66 @@ Taken together this means that [[invariants]] of group actions are equivalently 
 
 =--
 
+###### Stabilizer groups
+
+Given an ordinary [[discrete group]] $G$ and an [[action]] $\rho \colob G \times V \longrightarrow V$ of the group on some [[set]] $V$, then for $x \in V$ any element, the [[stabilizer group]] 
+
+$$
+  Stab_x(V) \hookrightarrow G
+$$
+
+is the [[subgroup]] of $G$ consisting of those group elements under whose action the element $v$ does not change (is "stable"):
+
+$$
+  Stab_G(x) 
+  =
+  \left\{
+    g \in G
+    \;|\;    
+    \rho(g)(v) = v
+  \}
+  \,.
+$$
+
+We observe that this has the following intrinsic reformulation.  Write again
+
+$$
+  \array{
+     V &\stackrel{i}{\longrightarrow}& V//G
+     \\
+     && \downarrow^{\mathrlap{p_\rho}}
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+for the [[action groupoid]] [[homotopy fiber sequence]] that corresponds to $\rho$
+via prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice}.
+
++-- {: .num_prop #OrdinaryStabilizer}
+###### Proposition
+
+The stabilizer group of $x$ under $G$ acting on $V$ is equivalently the [[looping]] of the [[action groupoid]] at the point $i(x)$:
+
+$$
+  Stab_G(x)
+  \simeq
+  \Omega_{i(x)} (V//G)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $V//G$ is a [[1-groupoid]], the [[loop space object]] $\Omega_{i(x)} (V//G)$ is simply the [[automorphism group]] of $x$ regarded as an object in the action groupoid, hence the group of [[morphisms]] in $(V//G)_\bullet$ from $x$ to $x$. Comparison with def. \ref{Action1Groupoid} shows that these morphisms are precisely those labeled by elements $g \in G$ for which $\rho(g)(x) = x$.
+
+=--
 
 #### $\infty$-Representations of 1-groups
 
 The [above](#1RepresentationsOf1Groups) perspective on ordinary representations of ordinary groups on sets via their [[action groupoid]] projection has the advantage that it immediately generalizes to a definition where 1-groups act on more general [[homotopy types]] up to [[coherence|coherent]] [[homotopy]], hence to _[[infinity-representations]]_ or _[[infinity-actions]]_.
+
 
 +-- {: .num_defn }
 ###### Definition
@@ -815,6 +871,83 @@ $$
     && \mathbf{B}G
   }
 $$
+
+#### Stabilizer $\infty$-Groups
+
+
+We had seen above in prop. \ref{OrdinaryStabilizer} that the traditional concept of stabilizer groups of group actions is equivalent to groups of loops in the [[action groupoid]] of the given action. This equivalent reformulation has an immediate generalization to [[∞-actions]].
+
+For $\mathbf{H}$ an [[(∞,1)-topos]],  $G\in \mathbf{H}$ an object equipped with [[∞-group]] structure, hence with a [[delooping]] $\mathbf{B}$G, and for $\rho$ an [[∞-action]] of $G$ on some $V$, exhibited by a [[homotopy fiber sequence]] of the form
+
+$$
+  \array{
+    V &\stackrel{i}{\longrightarrow}& V/G
+    \\
+    && \downarrow^{\mathrlap{p_\rho}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+
+
++-- {: .num_defn #StabilizerInInfinityTopos}
+###### Definition
+
+Given a [[global element]] of $V$
+
+$$
+  x \colon \ast \to X 
+$$
+
+then the **stabilizer $\infty$-group** $Stab_\rho(x)$ of the $G$-action at $x$ is the [[loop space object]]
+
+$$
+  Stab_\rho(x) \coloneqq \Omega_{i(x)} (X/G)
+ \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Remark
+
+Equivalently, def. \ref{StabilizerInInfinityTopos}, gives the [[loop space object]] of the [[1-image]] $\mathbf{B}Stab_\rho(x)$ of the morphism
+
+$$
+  \ast \stackrel{x}{\to} X \to X/G
+  \,.
+$$
+
+As such the [[delooping]] of the stabilizer $\infty$-group sits in a [[1-epimorphism]]/[[1-monomorphism]] factorization $\ast \to \mathbf{B}Stab_\rho(x) \hookrightarrow X/G$ which combines with the homotopy fiber sequence of prop. \ref{InfinityAction} to a diagram of the form
+
+$$
+  \array{
+    \ast &\stackrel{x}{\longrightarrow}& X &\stackrel{}{\longrightarrow}& X/G
+    \\
+    \downarrow^{\mathrlap{epi}} && & \nearrow_{\mathrlap{mono}} & \downarrow
+    \\
+    \mathbf{B} Stab_\rho(x)
+    &=&
+    \mathbf{B} Stab_\rho(x)
+    &\longrightarrow&
+    \mathbf{B}G
+  }
+ \,.
+$$
+
+In particular there is hence a canonical homomorphism of $\infty$-groups
+
+$$
+  Stab_\rho(x) \longrightarrow G
+  \,.
+$$
+
+However, in contrast to the classical situation, this morphism is not in general a monomorphism anymore, hence the stabilizer $Stab_\rho(x)$ is not a _sub_-group of $G$ in general.
+
+=--
+
 
 
 ### Syntactic Layer
