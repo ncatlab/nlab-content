@@ -43,6 +43,8 @@ There is at least evidence that there is a continuous path in the space of 2-spe
 
 * [[spectral action]]
 
+* [[D-brane geometry]]
+
 ## References
 
 An early observation that the 0-mode sector of a [[2d SCFT]] is a [[spectral triple]], demonstrated in a series of concrete examples, is
