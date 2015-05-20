@@ -378,13 +378,16 @@ The [[equivalence of categories]] between [[first order logic|first order theori
  
 
 
-A lecture reviewing aspects involved in this equivalence is (see the discussion building up to the theorem on  [slide 96](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
+Surveys inclue 
 
-* [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf))
+* [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf)) 
 
-See also 
+  (see the discussion building up to the theorem on  [slide 96](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
 
 * Roy Crole, _Deriving category theory from type theory_, Theory and Formal Methods 1993 Workshops in Computing 1993, pp 15-26
+
+* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science archive Volume 15 Issue 6, December 2005  Pages 1089 - 1149 ([pdf](https://www.mittag-leffler.se/preprints/files/IML-0001-44.pdf))
+
 
 The equivalence between [[linear logic]] and [[star-autonomous categories]] is due to
 
