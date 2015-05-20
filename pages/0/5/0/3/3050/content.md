@@ -44,7 +44,7 @@ The archetypical and motivating example is that of the bifibration $Mod \to Ring
 ## Definition
  {#Definition}
 
-Let $\mathcal{C}$ be a [[category]] and $\mathcal{C}_{(-)}$ a [[bifibration]] over it. For $f \colon X \longrightarrow Y$ a [[morphism]] in $\matcal{C}$ write
+Let $\mathcal{C}$ be a [[category]] and $\mathcal{C}_{(-)}$ a [[bifibration]] over it. For $f \colon X \longrightarrow Y$ a [[morphism]] in $\mathcal{C}$ write
 
 $$
   (f_! \dashv f^\ast \dashv f_\ast)
@@ -57,7 +57,7 @@ $$
 for the corresponding [[base change]] [[adjoint triple]], and write
 
 $$
-  (T_f \dashv J_f) \coloneqq (f^\ast f_! \dashv f^\ast f_!) 
+  (T_f \dashv J_f) \coloneqq (f^\ast f_! \dashv f^\ast f_\ast) 
 $$
 
 for the induced [[adjoint pair]] of a [[monad]] $T$ and a [[comonad]] $J$.
@@ -115,7 +115,7 @@ $$
   (f_! \dashv f^\ast \dashv f_\ast) \colon \mathcal{C}_{/X} \longrightarrow \mathcal{C}_{/Y}
 $$
 
-the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg-Moore category]] of algebras over $f^\ast f_1$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an effective epimorphism.
+the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg-Moore category]] of algebras over $f^\ast f_!$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an effective epimorphism.
 
 
 
