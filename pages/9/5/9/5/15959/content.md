@@ -315,7 +315,7 @@ This establishes that $\pi_1$ is alspo an equivalence on all [[hom-groupoids]].
 
 This proof also shows that $\mathbf{B}(-)$ is in fact the inverse equivalence:
 
-+-- {: .num_cor}
++-- {: .num_cor #1GroupsEquivalentToPointedConnected1Types}
 ###### Corollary
 
 There is an [[equivalence of (2,1)-categories]] between pointed connected groupoids and plain groups
@@ -875,20 +875,46 @@ $$
 
 
 ### Semantic Layer
+ {#SemanticLayer}
 
-(...)
+Above in corollary \ref{1GroupsEquivalentToPointedConnected1Types} we had seen that ordinary groups $G$ are equivalent to pointed connected [[homotopy 1-types]], their [[deloopings]] $\ast \to \mathbf{B}G$. 
 
-#### $A_\infty$-types
+This statement has an immediate generalization to any [[(∞,1)-topos]] $\mathbf{H}$: while one may define [[∞-group]] algebraically as follows, it is most convenient to define them via looping, as below.
 
-* [[A-infinity space]]
++-- {: .num_defn #InfinityGroupAsAInfinityObject}
+###### Definition
 
-#### $\infty$-Groups
+Given an [[(∞,1)-topos]] $\mathbf{H}$, then [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$ (an [[∞-group]]) is an object $G \in \mathbf{H}$ equipped with the structure of an [[A-∞ algebra]] (i.e. a product operation which satisfies [[associativity]] up to higher [[coherence|coherent]] [[homotopy]]), such that the [[n-truncated object in an (∞,1)-category|0-truncation]] $\tau_0 G$ is an ordinary [[group object]].
 
-* [[infinity-group]]
+=--
 
-* [[looping and delooping]]
++-- {: .num_example #LoopSpaceObjectAsGroupObject}
+###### Example
+
+Given any object $X$ with a base point $x \colon \ast \to X$, then the [[loop space object]] $\Omega_x X$ canonically has the structure of an [[∞-group]], def. \ref{InfinityGroupAsAInfinityObject}, where the product operation is given by concatenation of loops.
+
+=--
 
 
+
++-- {: .num_remark}
+###### Theorem
+
+The [[looping]] operation of example \ref{LoopSpaceObjectAsGroupObject} constitutes an [[equivalence of (∞,1)-categories]]
+
+$$
+  Grp(\mathbf{H})
+  \stackrel{\overset{\Omega}{\longleftarrow}}{\underoverset{\mathbf{B}}{\simeq}{\longrightarrow}}
+  \mathbf{H}_{\geq 1}^{\ast /}
+$$
+
+between [[pointed object|pointed]] [[n-connected object in an (∞,1)-topos|connected objects]] in $\mathbf{H}$ and [[∞-group]] objects in $\mathbf{H}$.
+
+The inverse equivalence $\mathbf{B}$ we call the _[[delooping]]_ operation.
+
+=--
+
+For $\mathbf{H} = $ [[∞Grpd]] this is the [[May recognition theorem]]. For general $\mathbf{H}$  this is [[Higher Algebra|Lurie, "Higher Algebra", theorem 5.1.3.6]].
 
 ### Syntactic Layer
 
