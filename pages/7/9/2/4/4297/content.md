@@ -42,6 +42,7 @@ See at _[[Ricci flow]]_ for more.
 
 * {#Perelman02} [[Grigori Perelman]], _The entropy formula for the Ricci flow and its geometric applications_ ([arXiv:math/0211159](http://arxiv.org/abs/math/0211159))
 
+* {#BessiersEtAl} Laurent Bessieres, Gerard Besson, Michel Boileau, Sylvain Maillot, Joan Porti, _Geometrisation of 3-manifolds_ ([pdf](http://www-fourier.ujf-grenoble.fr/~besson/book.pdf))
 
 Notes from a survey talk: 
 
