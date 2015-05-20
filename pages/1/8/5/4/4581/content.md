@@ -507,7 +507,7 @@ Choose
 
 1. an object $E \in \mathbf{H}_{/\Sigma}$, the _[[field bundle]]_,
 
-1. an object $\mathbf{A} \in Stab(\mathbf{H}) \stackrel{\Omega}{\to} \mathbf{H}$, the _[[differential cohomology|differential]] [[coefficients]]_.
+1. an object $\mathbf{A} \in Stab(\mathbf{H}_{/\Sigma}) \stackrel{\Omega}{\to} \mathbf{H}_{/\Sigma}$, the _[[differential cohomology|differential]] [[coefficients]]_.
 
 Write 
 
@@ -518,7 +518,6 @@ Write
 
 * $\Gamma_X \coloneqq \flat \circ \prod_\Sigma \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}$ for the external [[space of sections]] functor;
 
-* $Et \colon \mathbf{H}_{/\Sigma} \to \mathbf{H}_{/\Sigma}$ for the coprojection onto the [[etale topos]] $\mathbf{Sh}(\Sigma) \hookrightarrow \mathbf{H}_{/\Sigma}$, see at [differential cohesion -- structure sheaves](differential+cohesive+%28infinity%2C1%29-topos#StructureSheaves);
 
 * $i \colon \Sigma \longrightarrow \Im(\Sigma)$ for the $\Sigma$-component of the [[unit of a monad|unit]] of $\Im$;
 
@@ -583,7 +582,7 @@ then a _horizontal $\mathbf{A}$-form_ on the [[jet bundle]]
 $Jet(E)$ is a morphism in $PDE(\mathbf{H})_{\Sigma}$ of the form
 
 $$
-  \alpha \colon \iota E \to \iota Et_\Sigma\Sigma^\ast \mathbf{A}
+  \alpha \colon \iota E \to \iota  \mathbf{A}
   \,.
 $$
 
@@ -593,8 +592,8 @@ the induced _horizontal differential_ is the operation of horizontal forms sendi
 $$
   d \alpha \colon \iota E 
      \stackrel{\alpha}{\longrightarrow} 
-  \iota Et_\Sigma\Sigma^\ast\mathbf{A} 
-   \stackrel{d}{\longrightarrow} \iota Et_\Sigma\Sigma^\ast \mathbf{A}'
+  \iota \mathbf{A} 
+   \stackrel{d}{\longrightarrow} \iota \mathbf{A}'
   \,.
 $$
 
@@ -608,7 +607,7 @@ Since all objects in def. \ref{HorizontalFormInDifferentialCohesion}
 are in the [[co-Kleisli category]] of the [[jet comonad]], the morphism $\alpha$ there is equivalently a morphism in $\mathbf{H}_{/\Sigma}$ of the form
 
 $$
-  \tilde \alpha \colon Jet(E) \longrightarrow Et_\Sigma \Sigma^\ast \mathbf{A}
+  \tilde \alpha \colon Jet(E) \longrightarrow \mathbf{A}
   \,.
 $$
 
@@ -657,9 +656,9 @@ $$
   \stackrel{}{\to}
   Jet(Jet(E))
   \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
-  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
+  Jet(\mathbf{A})
   \stackrel{\tilde d}{\longrightarrow}
-  Et_\Sigma\Sigma^\ast \mathbf{A}'
+  \mathbf{A}'
   \,,
 $$
 
@@ -670,9 +669,9 @@ $$
   \stackrel{Jet(Jet(\sigma))}{\longrightarrow}
   Jet(Jet(E))
   \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
-  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
+  Jet(\mathbf{A})
   \stackrel{\tilde d}{\longrightarrow}
-  Et_\Sigma\Sigma^\ast \mathbf{A}'
+  \mathbf{A}'
   \,,
 $$
 
@@ -683,38 +682,15 @@ $$
   Jet(\Sigma) 
   \stackrel{\simeq}{\to}
   Jet(Jet(\Sigma)) \stackrel{Jet ( \tilde \alpha \circ Jet(\sigma) )}{\longrightarrow}
-  Jet(Et_\Sigma\Sigma^\ast \mathbf{A})
+  Jet(\mathbf{A})
   \stackrel{\tilde d}{\to}
-  Et_\Sigma\Sigma^\ast \mathbf{A}'
+  \mathbf{A}'
 $$ 
 
 which is the right hand side of the equivalence to be proven.
 
 =--
 
-Given a horizontal $n$-form 
-
-$$
-  \mathbf{L} 
-  \colon
-  \iota E \longrightarrow \iota Et_\Sigma\Sigma^\ast \mathbf{A}
-$$
-
-we call
-
-$$
-  \delta \mathbf{L}
-  \colon
-  \iota E
-  \stackrel{\mathbf{L}}{\longrightarrow}
-  \iota Et_\Sigma\Sigma^\ast \mathbf{A}
-  \to
-  \iota \Sigma^\ast \mathbf{A}
-  \stackrel{\kappa \theta_{\mathbf{A}}}{\longrightarrow}
-  \iota \Sigma^\ast \flat_{dR}\mathbf{A}
-$$
-
-its variational derivative, where $\theta_{\mathbf{A}}\colon \mathbf{A}\to \flat_{dR} \mathbf{A}$ is the [[Maurer-Cartan form]] on $\mathbf{A}$. 
 
 ## Related concepts
 
