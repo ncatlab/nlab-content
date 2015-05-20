@@ -120,6 +120,8 @@ This is discussed and realized in section 1.2. The tensor product is defined in 
 
 Section 2.5 gives a proof of a generalization of the [[Deligne conjecture]].
 
-[[!redirects E-k-Algebras]]
 
 category: reference
+
+[[!redirects E-k-Algebras]]
+[[!redirects May recognition theorem]]
