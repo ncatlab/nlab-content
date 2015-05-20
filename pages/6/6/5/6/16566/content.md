@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _arithmetic pretopos_ is a [[pretopos]] with a _parameterized [[natural numbers object]]_. A _list-arithmetic pretopos_ is a pretopos with _parameterized list objects_. (...) ([Maietti 10, 2.6](#Maiett10)).
+
+Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maiett10)).
+
+## Related concepts
+
+
+* [[incompleteness theorem]]
+
+## References
+
+* {#Maietti10} [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, Theory and Applications of Categories, Vol. 24, 2010, No. 3, pp 39-83. ([TAC](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
+
+* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science archive Volume 15 Issue 6, December 2005  Pages 1089 - 1149 ([pdf](https://www.mittag-leffler.se/preprints/files/IML-0001-44.pdf))
+
+[[!redirects arithmetic pretoposes]]
+
+[[!redirects list-arithmetic pretopos]]
+[[!redirects list-arithmetic pretoposes]]
