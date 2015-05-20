@@ -1,0 +1,13 @@
+
+
+* [webpage](http://www.math.unipd.it/~maietti/)
+
+## related $n$Lab entries
+
+* [[list-arithmetic pretopos]], [[incompleteness theorem]]
+
+* [[relation between category theory and type theory]]
+
+category: people
+
+[[!redirects Maria Emilia Maietti]]
