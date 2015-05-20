@@ -224,6 +224,10 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[local topos]], [[locally connected topos]], [[connected topos]], [[cohesive topos]]
 
+  [[predicative topos]]
+
+  [[pretopos]], [[Π-pretopos]], [[ΠW-pretopos]], [[list-arithmetic pretopos]]
+
   [[smooth structure on a topos]]
 
   [[monoidal topos]]
