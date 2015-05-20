@@ -381,7 +381,7 @@ By prop. \ref{IntertwinersOfPermutationActionAsSliceHoms} it is [[fully faithful
 
 =--
 
-####### Examples of actions
+**Examples of actions**
 
 One remarkable consequence of prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice} is that it says that categories of actions are [[slice (infinity,1)-category|slices]] of [[(2,1)-toposes]], hence are [[slice (infinity,1)-topos|slice (2,1)-toposes]] hence in particular are themselves [[(2,1)-topos]]. In particular there is an [[internal hom]] of actions. This is the [[conjugation action]] construction.
 
@@ -827,20 +827,40 @@ Being a [[mapping space]], this naturally carries a precomposition action by the
 
 ### Semantic Layer
 
+We now consider any [[(∞,1)-topos]] $\mathbf{H}$ and formulate the group actions and their associated bundles in [[general abstract|general abstractly]] here.
+
+By the discussion at _[[geometry of physics -- groups]]_, [[group objects in an (∞,1)-category]] are equivalently pointed connected objects which we write $(\ast\to\mathbf{B}G)\in \mathbf{H}^{\ast/}$, the group itself being the [[loop space object]]
+
+$$
+  G \simeq \Omega \mathbf{B}G
+$$
+
+formed at the given base point.
 
 #### $\infty$-Actions
 
-[[∞-action]]
+In view of this, the characterization of ordinary group action according to prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice}
+has an immediate generalization to [[∞-groups]] in any [[(∞,1)-topos]]
+
++-- {: .num_defn #InfinityAction}
+###### Definition
+
+Given an [[∞-group]] $G \in \mathbf{H}$ and any object $V \in \mathbf{H}$, then an _[[∞-action]]_ $\rho$ of $G$ on $V$ is a [[homotopy fiber sequence]] in $\mathbf{H}$ of the form
 
   $$
     \array{
       V &\to& V\sslash G
       \\
-      && \downarrow
+      && \downarrow^{\mathrlap{p_\rho}}
       \\
       && \mathbf{B}G
     }
+    \,.
   $$
+
+The object $V/G$ defined thereby we call the [[homotopy quotient]] of $V$ by $G$ via this action.
+
+=--
 
 #### Associated $\infty$-bundles
 
@@ -875,7 +895,7 @@ $$
 #### Stabilizer $\infty$-Groups
 
 
-We had seen above in prop. \ref{OrdinaryStabilizer} that the traditional concept of stabilizer groups of group actions is equivalent to groups of loops in the [[action groupoid]] of the given action. This equivalent reformulation has an immediate generalization to [[∞-actions]].
+We had seen above in prop. \ref{OrdinaryStabilizer} that the traditional concept of stabilizer groups of group actions is equivalent to groups of loops in the [[action groupoid]] of the given action. This equivalent reformulation has an immediate generalization to [[∞-actions]], def. \ref{InfinityAction}.
 
 For $\mathbf{H}$ an [[(∞,1)-topos]],  $G\in \mathbf{H}$ an object equipped with [[∞-group]] structure, hence with a [[delooping]] $\mathbf{B}$G, and for $\rho$ an [[∞-action]] of $G$ on some $V$, exhibited by a [[homotopy fiber sequence]] of the form
 
