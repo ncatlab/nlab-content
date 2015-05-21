@@ -21,12 +21,6 @@ The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) 
 
 The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) for discussion about the $n$Lab that doesn\'t fit well here.
 
-##Technology behind the $n$Lab##
-
-The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
-
-The site is served using [apache](http://www.apache.org/) and [Phusion Passenger](http://www.modrails.com/). It is hosted on a [1Gb Virtual Private Server](http://railsplayground.com/plans-products/vps/), running [Ubuntu Linux](http://www.ubuntu.com/), from [Rails Playground](http://railsplayground.com/).
-
 #What the $n$Lab is#
 
 The most apt analogy for the $n$Lab is of a **group lab book**.  A lab book for a research scientist is a place where they write down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
@@ -107,5 +101,12 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 * see [[organization of the nLab]]
 
+# Technology and support
+
+The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
+
+The site is served using [apache](http://www.apache.org/) and [Phusion Passenger](http://www.modrails.com/). It is hosted on a [1Gb Virtual Private Server](http://railsplayground.com/plans-products/vps/), running [Ubuntu Linux](http://www.ubuntu.com/), from [Rails Playground](http://railsplayground.com/).
+
+The physical server running the nLab lives at [Carnegie Mellon University](http://www.cmu.edu), and is supported by the [[homotopy type theory]] MURI award FA9550-15-1-0053 from the United States Air Force Office of Scientific Research.
 
 category: meta
