@@ -23,10 +23,8 @@ An _arithmetic pretopos_ is a [[pretopos]] with a _parameterized [[natural numbe
 
 Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maiett10)).
 
-## Related concepts
+Maietti proposed that arithmetic pretoposes serve as the _arithmetic universes_ that [[André Joyal]] once suggested to use for discussion of [[incompleteness theorems]].
 
-
-* [[incompleteness theorem]]
 
 ## References
 
@@ -38,3 +36,6 @@ Discussion via its [[internal language]], which is a [[dependent type theory]]..
 
 [[!redirects list-arithmetic pretopos]]
 [[!redirects list-arithmetic pretoposes]]
+
+[[!redirects arithmetic universe]]
+[[!redirects arithmetic universes]]
