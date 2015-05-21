@@ -150,6 +150,9 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 * [[positive energy theorem]]
 
+* [[geometry of physics -- BPS charges]]
+
+
 ## References
 
 ### General
