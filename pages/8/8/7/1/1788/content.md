@@ -1,70 +1,12 @@
 
+1. The **[[quantomorphism ∞-group]]**is the [[stabilizer ∞-group]] of $\nabla \in \mathbb{G}\mathbf{Conn}(X)$, def. \ref{DifferentialConcretification}, under the $\mathbf{Aut}(X)$-action of \ref{PrecompositionActionOnGConn};
 
-I have a suspicion: 
+   $$
+     \mathbf{QuantMorph}(X,\nabla)
+     \coloneqq
+     \mathbf{Stab}_{\mathbf{Aut}(X)}(conc(\nabla))
+     \,.
+   $$
 
-a flow
+1. The **[[Hamiltonian symplectomorphism ∞-group]]** $\mathbf{HamSymp}(X,\nabla)$ is the [[1-image]] of the canonical morphism $\mathbf{QuantMorph}(X,\nabla) \longrightarrow \mathbf{Aut}(X)$ from remark \ref{StabilizerGroupAsFactorization}
 
-$$
-  Jet(F) \stackrel{\phi}{\longrightarrow} Jet(F)
-$$
-
-being evolutionary is to mean that it preserves the Cartan distribution, and by what I just said in #5, but dualizing back through the $(T_{inf} \dashv Jet)$-adjunction, I am guessing now that this means that its image under $i_\ast$ stabilizes the universal differential operator, i.e. that we have
-
-$$
-  \array{
-    && Jet( F)
-    \\
-    & {}^{\mathllap{}}\swarrow &\swArrow_{\mathrlap{\simeq}}& \searrow^{\mathrlap{}}
-    \\
-    Jet(Jet(F))
-    && \underset{Jet(\phi)}{\longrightarrow}&&
-    Jet(Jet(F))
-  }
-  \,.
-$$
-
-If that is true, then my second order conjecture is that the horizontal $\eta$ are those killed by this precomposition, i.e. that for a quantomorphism
-
-$$
-  \array{
-       Jet(F) && \stackrel{\phi}{\longrightarrow} && Jet(F)
-       \\
-       & {}_{\mathllap{\mathbf{L}}}\searrow &\swArrow_{\mathrlap{\eta}}& \swarrow_{\mathrlap{\mathbf{L}}}
-       \\
-       && \mathbf{B}^{p+1}U(1)_{conn}
-   }
-$$
-
-to be admissible, we need
-
-$$
-  \left(
-  \array{
-    && Jet( F)
-    \\
-    & {}^{\mathllap{}}\swarrow &\swArrow& \searrow^{\mathrlap{}}
-    \\       
-       Jet(Jet(F))  && \stackrel{Jet(\phi)}{\longrightarrow} && Jet(Jet(F))
-       \\
-       & {}_{\mathllap{Jet \mathbf{L}}}\searrow &\swArrow_{\mathrlap{Jet(\eta)}}& \swarrow_{ \mathrlap{Jet\mathbf{L}}}
-       \\
-       && Jet \mathbf{B}^{p+1}U(1)_{conn}
-   }
-   \right)
-   \;\;\;\;
-    \simeq
-   \;\;\;\;
-  \left(
-  \array{
-    && Jet F
-    \\
-    & {}^{\mathllap{}}\swarrow && \searrow^{\mathrlap{}}
-    \\       
-       Jet(Jet(F))  && = && Jet(Jet(F))
-       \\
-       & {}_{\mathllap{Jet \mathbf{L}}}\searrow && \swarrow_{\mathrlap{Jet \mathbf{L}}}
-       \\
-       && Jet \mathbf{B}^{p+1}U(1)_{conn}
-   }
-  \right)
-$$
