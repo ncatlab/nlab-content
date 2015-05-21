@@ -433,7 +433,7 @@ Discussion of extensions of [[super L-∞ algebras]] based on the [[super Poinca
 [[!redirects ∞-Lie algebroid cohomology]]
 [[!redirects infinity-Lie algebroid cohomology]]
 
-
-
+[[!redirects L-∞ algebra extension]]
+[[!redirects L-∞ algebra extensions]]
 
 
