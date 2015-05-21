@@ -19,7 +19,10 @@
 
 ## Idea
 
-An _arithmetic pretopos_ is a [[pretopos]] with a _parameterized [[natural numbers object]]_. A _list-arithmetic pretopos_ is a pretopos with _parameterized list objects_. (...) ([Maietti 10, 2.6](#Maiett10)).
+An _arithmetic pretopos_ is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A _list-arithmetic pretopos_ is a pretopos with all _parameterized list objects_. ([Maietti 10, 2.6](#Maiett10)).
+
+Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **parameterised list object** is a [[W-type]] for the [[polynomial functor]] $B+ A\times(-)\colon C\to C$. This definition makes sense since a pretopos has finite products and disjoint coproducts (here denoted "$+$").
+
 
 Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maiett10)).
 
@@ -27,6 +30,8 @@ Maietti proposed that arithmetic pretoposes serve as the _arithmetic universes_ 
 
 
 ## References
+
+* {#Cockett90} [[Robin Cockett]], _List-arithmetic distributive categories: Locoi_, Journal of Pure and Applied Algebra, Vol.66(1) (1990) 1-29, doi:[10.1016/0022-4049(90)90121-W](http://dx.doi.org/10.1016/0022-4049(90)90121-W)
 
 * {#Maietti10} [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, Theory and Applications of Categories, Vol. 24, 2010, No. 3, pp 39-83. ([TAC](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
 
