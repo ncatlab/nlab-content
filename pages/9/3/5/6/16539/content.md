@@ -45,5 +45,6 @@ Discussion in the context of [[superconformal group|superconformal symmetry]] is
 [[!redirects super-isometry]]
 [[!redirects super-isometries]]
 
-
+[[!redirects super-isometry group]]
+[[!redirects super-isometry groups]]
 
