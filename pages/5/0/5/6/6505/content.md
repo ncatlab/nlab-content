@@ -257,7 +257,7 @@ Further developments are in
 * M. Spera, _On a generalized uncertainty principle, [[coherent state]]s and the moment map_, J. of Geometry and Physics __12__ (1993) 165-182, [MR94m:58097](http://www.ams.org/mathscinet-getitem?mr=1237511), <a href="http://dx.doi.org/10.1016/0393-0440(93)90032-A">doi</a>
 
 
-* Ctirad Klim&#269;&#237;k, [[Pavol Ševera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
+* Ctirad Klim&#269;&#237;k, [[Pavol ?evera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
 
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, ([pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf))
 
@@ -296,11 +296,18 @@ Relation to [[equivariant cohomology]]:
 * [[Eckhard Meinrenken]], _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
 
 The relation between moment maps and [[conserved currents]]/[[Noether's theorem]] is amplied for instance in
-
-* Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
- {#Fan}
+ 
+* {#Fan} Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
+ 
 
 [[!redirects moment maps]]
 
 [[!redirects momentum map]]
 [[!redirects momentum maps]]
+
+[[!redirects ∞-moment map]]
+[[!redirects ∞-moment maps]]
+
+[[!redirects infinity-moment map]]
+[[!redirects infinity-moment maps]]
+
