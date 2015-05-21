@@ -78,6 +78,8 @@ Divided into two parts:
 
 **Transition to part II**
 
+1. [Prequantum geometry](#PrequantumGeometry)
+
 1. [WZW terms](#WZWTerms)
 
 1. [BPS charges](#BPSCharges)
@@ -481,6 +483,8 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
+1. [Prequantum geometry](#PrequantumGeometry)
+
 1. [WZW terms](#WZWTerms)
 
 1. [BPS charges](#BPSCharges)
@@ -590,12 +594,17 @@ this chapter is at _[[geometry of physics -- integration]]_
 
 this chapter is at _[[geometry of physics -- supergeometry]]_
 
-## WZW terms
+## **Prequantum geometry**
+ {#PrequantumGeometry}
+
+this chapter is at _[[geometry of physics -- prequantum geometry]]_
+
+## **WZW terms**
  {#WZWTerms}
 
 this chapter is at _[[geometry of physics -- WZW terms]]_
 
-## BPS charges
+## **BPS charges**
  {#BPSCharges}
 
 this chapter is at _[[geometry of physics -- BPS charges]]_
