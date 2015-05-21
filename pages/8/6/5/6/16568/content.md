@@ -34,6 +34,8 @@ $$
   conc \colon [X,\mathbf{B}\mathbb{G}_{conn}] \longrightarrow \mathbb{G}\mathbf{Conn}(X)
 $$
 
+
+
 for the [[differential concretification]] of the [[internal hom]].
 
 =--
@@ -50,7 +52,7 @@ For $\mathbf{H} = $[[Smooth∞Grpd]] or =[[FormalSmooth∞Grpd]], for $\mathbb{G
 +-- {: .num_defn }
 ###### Proposition
 
-For $\mathbb{G}$ not [[0-truncated]] then the [[loop space object]] of the moduli stack of $\mathbb{G}$-principal $\infty$-connections on $X$ is the moduli stack of [[flat ∞-connections]] with gauge group $\Omega \mathbb{G}$
+For $\mathbb{G} \simeq \mathbf{B}\mathbb{G}'$ then the [[loop space object]] of the moduli stack of $\mathbb{G}$-principal $\infty$-connections on $X$ is the moduli stack of [[flat ∞-connections]] with gauge group $\Omega \mathbb{G}$
 
 $$
   \Omega_0 (\mathbb{G}\mathbf{Conn}(X))
@@ -96,7 +98,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 1. A **[[Hamiltonian action]]** of an [[∞-group]] $G$ on $(X,\nabla)$ is an [[∞-group]] homomorphism 
 
    $$
-     \rho \colon G \longrightarrow \mathbf{HamSymp}(X)
+     \rho \colon G \longrightarrow \mathbf{HamSymp}(X,\nabla)
       \;
    $$
 
@@ -129,31 +131,72 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mat
 
 Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
 
+
 =--
 
 The following is the refinement of the [[Kostant-Souriau extension]] to [[higher differential geometry]]
 
-+-- {: .num_prop }
++-- {: .num_prop #TheQuantomorphismGroupExtension}
 ###### Proposition
 
-Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, there is a [[homotopy fiber sequence]] of the form
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, the there is a [[homotopy fiber sequence]] of the form
 
-$$
-  \array{
-     (\Omega \mathbb{G})\mathbf{FlatConn}(X)
-     &\longrightarrow&
-     \mathbf{QuantMorph}(X,\nabla)
-     \\
-     && \downarrow
-     \\
-     && \mathbf{HamSymp}(X,\nabla)
-     &\stackrel{\mathbf{KS}}{\longrightarrow}&
-     \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
-  }
-$$
+1. if $\mathbb{G}$ is [[0-truncated]] then
+
+   $$
+     \array{
+        \mathbb{G}\mathbf{ConstFunct}(X)
+        &\longrightarrow&
+        \mathbf{QuantMorph}(X,\nabla)
+        \\
+        && \downarrow
+        \\
+        && \mathbf{HamSymp}(X,\nabla)
+        &\stackrel{\mathbf{KS}}{\longrightarrow}&
+        \mathbf{B} (\mathbb{G}\mathbf{ConstFunct}(X))
+    }
+   $$
+
+
+1. if $\mathbb{G} \simeq \mathbf{B}\mathbb{G}'$ then
+
+   $$
+     \array{
+        (\Omega \mathbb{G})\mathbf{FlatConn}(X)
+        &\longrightarrow&
+        \mathbf{QuantMorph}(X,\nabla)
+        \\
+        && \downarrow
+        \\
+        && \mathbf{HamSymp}(X,\nabla)
+        &\stackrel{\mathbf{KS}}{\longrightarrow}&
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+    }
+   $$
 
 exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the [[Hamiltonian symplectomorphism ∞-group]] by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}$.
 
+=--
+
++-- {: .num_example }
+###### Example
+
+In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be the [[circle n-group|circle (p+2)-group]] and let $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ be [[n-connected topological space|(p+1)-connected]], then $(\mathbf{B}^p U(1))\mathbf{FlatConn}(X)\simeq \mathbf{B}^{p+1}U(1)$. Hence here prop. \ref{TheQuantomorphismGroupExtension} gives
+
+   $$
+     \array{
+        \mathbf{B}^{p}U(1)
+        &\longrightarrow&
+        \mathbf{QuantMorph}(X,\nabla)
+        \\
+        && \downarrow
+        \\
+        && \mathbf{HamSymp}(X,\nabla)
+        &\stackrel{\mathbf{KS}}{\longrightarrow}&
+        \mathbf{B}^{p+1}U(1)
+    }
+  $$
+ 
 =--
 
 
@@ -162,24 +205,43 @@ exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the
 
 Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
 
-$$
-  \array{
-     (\Omega \mathbb{G})\mathbf{FlatConn}(X)
-     &\longrightarrow&
-     \mathbf{Heis}_G(X,\nabla)
-     \\
-     && \downarrow
-     \\
-     && G
-     &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
-     \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
-  }
-$$
+1. if $\mathbb{G}$ is [[0-truncated]] then
+
+   $$
+     \array{
+        \mathbb{G}\mathbf{ConstFunct}(X)
+        &\longrightarrow&
+        \mathbf{Heis}_G(X,\nabla)
+        \\
+        && \downarrow
+        \\
+        && \mathbf{HamSymp}(X,\nabla)
+        &\stackrel{\mathbf{KS}(\rhp)}{\longrightarrow}&
+        \mathbf{B} (\mathbb{G}\mathbf{ConstFunct}(X))
+    }
+   $$
+
+
+1. if $\mathbb{G} \simeq \mathbf{B}\mathbb{G}'$ then
+
+   $$
+     \array{
+        (\Omega \mathbb{G})\mathbf{FlatConn}(X)
+        &\longrightarrow&
+        \mathbf{Heis}_G(X,\nabla)
+        \\
+        && \downarrow
+        \\
+        && \mathbf{HamSymp}(X,\nabla)
+        &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+    }
+   $$
 
 exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the [[Hamiltonian symplectomorphism ∞-group]] by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
 
 
-The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$, ); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
+The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
 
 =--
 
