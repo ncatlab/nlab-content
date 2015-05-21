@@ -3,7 +3,7 @@
 
 > previous chapters:  _[[geometry of physics -- flat connections|flat connections]]_, _[[geometry of physics -- de Rham coefficients|de Rham coefficients]]_
 
-> next chapters: _[[geometry of physics -- WZW terms|WZW terms]]_
+> next chapters: _[[geometry of physics -- prequantum geometry|prequantum geometry]]_, _[[geometry of physics -- WZW terms|WZW terms]]_
 
 ***
 
