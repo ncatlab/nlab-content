@@ -23,6 +23,7 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]] we have $\mathbb{G} = \mathbf{B}^p (\mathb
 
 =--
 
+
 +-- {: .num_defn #DifferentialConcretification}
 ###### Definition
 
@@ -67,7 +68,7 @@ The canonical [[precomposition action|precomposition]] [[∞-action]] of the [[a
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #QuantomorphismGroup}
 ###### Definition
 
 
@@ -85,6 +86,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 
 1. The **[[Hamiltonian symplectomorphism ∞-group]]** 
 
+
    $$
      \mathbf{HamSymp}(X,\nabla) \longrightarrow \mathbf{Aut}(X)
    $$ 
@@ -94,7 +96,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 1. A **[[Hamiltonian action]]** of an [[∞-group]] $G$ on $(X,\nabla)$ is an [[∞-group]] homomorphism 
 
    $$
-     \rho \colon G \longrightarrow \mathbf{HamSymp}(X,\nabla)
+     \rho \colon G \longrightarrow \mathbf{HamSymp}(X)
       \;
    $$
 
@@ -114,10 +116,18 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 
 =--
 
++-- {: .num_example }
+###### Example
+
+For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]] and for $\nabla$ a [[prequantum line bundle]] on $X$, then $\mathbf{QuantMorph}(X,\nabla)$ is Soriau's [[quantomorphism group]] covering the [[Hamiltonian diffeomorphism]] group. In the case that $(X, F_\nabla)$ is a [[symplectic vector space]] regarded as a linear symplectic manifold with Hamiltonian action on itself by translation, then $\mathbf{Heis}_{V}(X,\nabla)$ is the traditional [[Heisenberg group]].
+
+=--
+
+
 +-- {: .num_remark }
 ###### Remark
 
-Since $\mathbf{HamSymp}(\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(\nabla)$ in this case.
+Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
 
 =--
 
@@ -126,7 +136,7 @@ The following is the refinement of the [[Kostant-Souriau extension]] to [[higher
 +-- {: .num_prop }
 ###### Proposition
 
-Given $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, there is a [[homotopy fiber sequence]] of the form
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, there is a [[homotopy fiber sequence]] of the form
 
 $$
   \array{
@@ -146,10 +156,11 @@ exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the
 
 =--
 
-+-- {: .num_cor }
+
++-- {: .num_cor #KSExtensionForHeis}
 ###### Corollary
 
-For $\rho \colon G \longrightarrow$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
 
 $$
   \array{
@@ -171,6 +182,7 @@ exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the [[H
 The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$, ); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
 
 =--
+
 
 ## References
 
