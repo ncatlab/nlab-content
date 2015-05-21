@@ -12,7 +12,7 @@
 
 ### Motivation and results
 
-Consider $(X,g)$ a [[super-spacetime]] and $\omega$ a degree $(p+2)$-differential form on $X$ which is a [[geometry of physics -- WZW terms|WZW]] [[curvature form]]  [[definite form|definite]] on the [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] 
+Consider $(X,g)$ a [[super-spacetime]] and $\omega$ a degree-$(p+2)$ [[differential form]] on $X$ which is a [[geometry of physics -- WZW terms|WZW]] [[curvature form]]  [[definite form|definite]] on the [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] 
 
 $$
   \overline \psi \wedge \Gamma^{a_1 \cdots a_p} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
