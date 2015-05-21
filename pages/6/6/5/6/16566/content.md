@@ -21,7 +21,7 @@
 
 An _arithmetic pretopos_ is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A _list-arithmetic pretopos_ is a pretopos with all _parameterized list objects_. ([Maietti 10, 2.6](#Maiett10)).
 
-Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **parameterised list object** is a [[W-type]] for the [[polynomial functor]] $B+ A\times(-)\colon C\to C$. This definition makes sense since a pretopos has finite products and disjoint coproducts (here denoted "$+$").
+Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **parameterised list object** is a [[W-type]] for the [[polynomial functor]] $B+ A\times(-)\colon C\to C$. This definition makes sense since a pretopos has [[finite products]] and [[disjoint coproducts]] (here denoted "$+$").
 
 
 Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maiett10)).
