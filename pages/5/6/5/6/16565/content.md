@@ -1,7 +1,7 @@
 
 > this page is one chapter of _[[geometry of physics]]_
 
-> previous chapters: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifolds]]_, _[[geometry of physics -- WZW terms|WZW terms]]_
+> previous chapters: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifolds]]_, _[[geometry of physics -- WZW terms|WZW terms]]_, _[[geometry of physics -- supergeometry|supergeometry]]_
 
 ***
 
@@ -323,6 +323,7 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mat
 ###### Remark
 
 Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
+
 
 =--
 
