@@ -128,6 +128,10 @@ See also
 
 * Jakob Stix, section 3 of _Projective Anabelian Curves in Positive Characteristic and Descent Theory for Log-Etale Covers_, 2002 ([pdf](https://www.mathi.uni-heidelberg.de/~stix/preprints/STIXdissB.pdf))
 
+The role of log geometry in [[motivic integration]] is studied in
+
+* Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](http://arxiv.org/abs/1505.05688)
+
 Discussion in the context of [[higher algebra]] ([[brave new algebra]]) is in
 
 * [[John Rognes]], _Topological logarithmic structures_ 2009 ([pdf](http://folk.uio.no/rognes/papers/oslo09.pdf))
