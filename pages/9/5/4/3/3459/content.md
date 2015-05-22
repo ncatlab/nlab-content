@@ -3,14 +3,15 @@ The initials 'SGA I' (or in more modern times 'SGA1') refer to the seminar notes
 * [[A. Grothendieck]], M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ (SGA I), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
 
 
-These notes contain the theory of
+These notes contain
 
 * [[Grothendieck's Galois theory|Galois categories]]
 
 * [[Galois theory|étale fundamental group]]
 
-* [[Grothendieck's section conjecture]].
+* [[Grothendieck's section conjecture]]
 
+* [[descent theory]].
 
 
 [[!redirects SGA I]]
