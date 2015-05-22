@@ -59,6 +59,8 @@ Int. J. Mod. Phys. B7, 4227 (1993).
 
 ### Other articles
 
+* Davide Gaiotto, Anton Kapustin, _Spin TQFTs and fermionic phases of matter_, [arxiv/1505.05856](http://arxiv.org/abs/1505.05856)
+
 * N. Read and Subir Sachdev, _Large-N expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991) (on $Z_2$ topological order)
 
 * [[Xiao-Gang Wen]], _Mean Field Theory of Spin Liquid States with Finite Energy Gap and Topological orders_, Phys. Rev. B 44 2664 (1991). (on $Z_2$ topological order)
