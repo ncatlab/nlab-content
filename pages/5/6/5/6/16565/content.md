@@ -52,6 +52,7 @@ We formulate the theory general abstractly in  the context of [[higher different
 
 ### Prerequisites
 
+
 For ease of reference, we recall here some definitions and propositions form previous chapters of _[[geometry of physics]]_ which we need for the discussion of BPS charge groups below.
 
 #### $\infty$-Representations and associated $\infty$-bundles
@@ -875,7 +876,7 @@ The first item here is the evident [[sigma model]] field, the second 2-form fiel
 
 Now to consider the BPS charge group of $\mathbf{L}^X_{M5}$, def. \ref{BPSGroupForConsecutiveWZWTerms}. By corollary \ref{KSExtensionForHeis} this is an [[∞-group extension]] of the [[super-isometry group]] of the 11-dimensional [[super spacetime]] by the moduli stack $(\mathbf{B}^5 U(1))\mathbf{FlatConn}(\widetilde{\hat X})$ of flat 5-form connection on the extended spacetime.
 
-This receives a map $(\mathbf{B}^5 U(1))\mathbf{FlatConn}(\hat X) \longrightarrow (\mathbf{B}^5 U(1))\mathbf{FlatConn}(\widetilde{\hat X})$ from the moduli of 5-form connections of the extended spacetime $\hat X$ (which is $\widetilde{\hat X}$. This consists of the cohomological data without the _differential_ cohomologica data in $\mathbf{L}_{M2}^X$): it is the $\mathbf{B}^2 (\mathbb{R}/\Gamma)_1$-[[principal ∞-bundle]] which sits in the [[homotopy fiber sequence]] of the form
+This receives a map $(\mathbf{B}^5 U(1))\mathbf{FlatConn}(\hat X) \longrightarrow (\mathbf{B}^5 U(1))\mathbf{FlatConn}(\widetilde{\hat X})$ from the moduli of 5-form connections of the extended spacetime $\hat X$ (which is $\widetilde{\hat X}$. This consists of the cohomological data without the _differential_ cohomologica data in $\mathbf{L}_{M2}^X$): it is the $\mathbf{B}^2 (\mathbb{R}/\Gamma_1)$-[[principal ∞-bundle]] which sits in the [[homotopy fiber sequence]] of the form
 
 $$
   \array{
@@ -894,7 +895,7 @@ $$
 
 
 Under [[Lie differentiation]] as in prop. \ref{0TruncationOfHigherPoissonBracket} $(\mathbf{B}^5 U(1))\mathbf{FlatConn}(\widetilde{\hat X})$ turns into
-$(\mathbf{B}^5 \mathbb{R})\mathbf{FlatConn}(\widetilde{\hat X})$ hence into $\mathbf{H}(\hat X, \flat \mathbf{B}^5 \mathbb{R})$. Under the [[adjunction]] between [[shape modality]] $\int$ and [[flat modality]] $\flat$, this is the degree-5 real cohomology of the [[geometric realization]] of $\hat X$. This in turns is a [[Eilenberg-MacLane space|K(Z,3)]]-fibration $\int \hat X \to \int X$ over the underlying bare [[homotopy type]] of spacetime $X$ which is classified by the integral degree-4 class which is the higher [[Dixmier-Douady class]] $DD(\mathbf{L}_{M5}^X) $ of $\mathbf{L}_{M2}^{X}$ (the integral class of the [[supergravity C-field]], necessarily a [[torsion]] class as far as our discussion here presently goes).
+$(\mathbf{B}^5 \mathbb{R})\mathbf{FlatConn}(\widetilde{\hat X})$ hence into $\mathbf{H}(\hat X, \flat \mathbf{B}^5 \mathbb{R})$. Under the [[adjunction]] between [[shape modality]] $\int$ and [[flat modality]] $\flat$, this is the degree-5 real cohomology of the [[geometric realization]] of $\hat X$. This in turns is a [[Eilenberg-MacLane space|K(Z,3)]]-fibration $\int \hat X \to \int X$ over the underlying bare [[homotopy type]] of spacetime $X$ which is classified by the integral degree-4 class which is the higher [[Dixmier-Douady class]] $DD(\mathbf{L}_{M5}^X) $ of $\mathbf{L}_{M2}^{X}$.
 
 The degree-5 real cohomology of such a fibration is computed by a
 [[Serre spectral sequence]]. By the discussion at _[Eilenberg-MacLane space -- cohomology of EM spaces](Eilenberg-Mac+Lane+space#CohomologyOfEMSpaces)_ only very few entries in this spectral sequence contribute, and the result is the middle cohomology of this sequence
