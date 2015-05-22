@@ -59,6 +59,11 @@ Blog discussion of this is at
 
 * John Baez, [The algebra of grand unified theories III](http://golem.ph.utexas.edu/category/2009/03/the_algebra_of_grand_unified_t_2.html)
 
+Realization of GUTs in the context of [[M-theory on G2-manifolds]] is discussed in
+
+* [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
+
+
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
 [[!redirects grand unified theories]]
