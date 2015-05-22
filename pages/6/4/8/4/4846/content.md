@@ -40,17 +40,25 @@ The [[supergravity Lie 3-algebra]] $\mathfrak{sugra}_3(10,1)$ carries an [[L-∞
 
 $$
   \mu_7
-   := 
-  - \frac{1}{2} \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
-  -
-  \frac{13}{2} \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2} \wedge c_3
-  \,.
+   \coloneqq
+   \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
+   +
+  13 \mu_4 \wedge c_3
+  \,,
 $$
+
+where
+
+$$
+  \mu_4 = \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+$$
+
+is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$m and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
 
 =--
 
-This appears in ([DAuriaFre, page 18](#DAuriaFre)) and 
-[CastellaniDAuriaFre, III.8.3](#CastellaniDAuriaFre).
+This appears in ([DAuria-Fre, page 18](#DAuriaFre)) and 
+[Castellani-DAuria-Fre, III.8.3](#CastellaniDAuriaFre).
 
 +-- {: .proof}
 ###### Proof
@@ -59,7 +67,8 @@ One computes
 
 $$
   \begin{aligned}
-    d \mu_7 &= 
+    d_{CE} \mu_7 = 
+    & 
      - \frac{5}{4} \bar \psi \wedge \Gamma^{a_1 \cdots a_4 b} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4} \wedge \bar \psi \wedge \Gamma_b \psi
   \\
   & - i 15 \wedge \Gamma^{a b} e_a \wedge \bar \psi \wedge \Gamma_b \psi \wedge c_3
@@ -87,6 +96,35 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Hence if we write
+
+$$
+  g_4 \coloneqq \mu_4 = \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+$$
+
+and
+
+$$
+  g_7 
+  \coloneqq
+  \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
+$$
+
+then 
+
+$$
+  d g_7 \propto g_4 \wedge g_4
+  \,.
+$$
+
+This is the structure of the [[equations of motion]] of the [[field strength]] $G_4$ of the [[supergravity C-field]] and its [[Hodge dual]] $G_7 = \ast G_4$ in [[11-dimensional supergravity]].
+
+=--
+
+
 
 +-- {: .num_def #TheDefinition}
 ###### Definition
@@ -103,9 +141,8 @@ $$
 =--
 
 
-+-- {: .num_note #InTermsOfGenerators}
-###### Note
-
++-- {: .num_remark #InTermsOfGenerators}
+###### Remark
 
 This means that the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}_6)$ is generated from 
 
@@ -139,7 +176,7 @@ $$
 
 $$
   d_{CE} 
-   : 
+   \colon
   c_6 
   \mapsto
   - \frac{1}{2} \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
@@ -151,14 +188,16 @@ $$
 
 =--
 
-This appears as ([CastellaniDAuriaFre, (III.8.18)](#CastellaniDAuriaFre)).
+This appears as ([Castellani-DAuria-Fre, (III.8.18)](#CastellaniDAuriaFre)).
 
-+-- {: .num_note #MaximalExtension}
-###### Note
++-- {: .num_remark}
+###### Remark
 
-According to ([CastellaniDAuriaFre, comment below (III.8.18)](#CastellaniDAuriaFre)): "no further extension is possible".
+According to ([Castellani-DAuria-Fre, comment below (III.8.18)](#CastellaniDAuriaFre)): "no further extension is possible".
 
 =--
+
+
 
 ## Relation to $D = 11$ supergravity
   {#RelationToSupergravity}
