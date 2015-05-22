@@ -1,9 +1,21 @@
+## Idea and definition
 
-A version of [[jet space]] in [[algebraic geometry]].
+For finite $m$ this is a version of $m$-[[jet space]] in [[algebraic geometry]].
 
-See also [[jet space]], [[arc space]].
+Let $k$ be the algebraically closed field, $Sch/k$ the category of schemes over $k$ and $X$ an object in $Sch/k$. The presheaf
+$$
+(Sch/k)^{op}\to Set\,\,\,\,\,\,\,\,\,\,
+ Y\mapsto (Sch/k) (Y\times_k k[t]/t^{m+1},X)
+$$
+is representable by a $k$-scheme of finite type $X_m$ the $m$-jet scheme.
+
+An analogue of the $\infty$-jet space is the [[arc space]].
 
 ## References
+
+Readable introduction is in 
+
+* M. Popa, 571 Ch. 5. _Jet schemes and arc spaces_, [pdf](http://homepages.math.uic.edu/~mpopa/571/chapter5.pdf)
 
 * [[A. Beilinson]], [[V. Drinfeld]], [[Chiral Algebras]]
 
