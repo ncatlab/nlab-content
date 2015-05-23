@@ -179,6 +179,8 @@ This is discussed in a bit of detail for instance in
 
   * [[domain wall]], [[cosmic string]], [[monopole]]
 
+* [[enhanced gauge symmetry]]
+
 ## References
 
 In 
@@ -189,11 +191,11 @@ sponaneously broken [[global gauge group]] symmetry is discssued in vol I, secti
 
 Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in the context of the [[Kaluza-Klein mechanism]] is in
 
-* [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
+* {#Strominger} [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
 
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
- {#Strominger}
+ 
 
 Discussion of spontaneous [[supersymmetry breaking]] is in 
 
