@@ -29,6 +29,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 * certain [[6d (2,0)-supersymmetric QFT|6d CFTs]]
 
+* intersection diagrams of vanishing 2-cycles in [[K3]]s (e.g. [BBS 07, p.423](#BBS07))
+
 and many more. 
 
 The obvious question for what might be the conceptual origin of this joint classification is attributed to ([Arnold 76](#Arnold76)). 
@@ -77,12 +79,22 @@ Surveys include
 
 * MO discussion, _[ADE classification from string theory](http://mathoverflow.net/a/34680/381)_
 
+
 * [[José Figueroa-O'Farrill]], _Supersymmetric M2-branes and ADE_, 2010 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+
+
 
 Specifically the ADE classfication involved in the [[6d (2,0)-supersymmetric QFT]] on the [[M5-brane]] is discussed in 
 
 * {#Witten95} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
 * {#HeckmannMorrisonVafa13} [[Jonathan Heckman]], [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
+
+Discussion in the context of [[M-theory on G2-manifolds]] includes
+
+* {#Acharya02} [[Bobby Acharya]], section 3.1.1 of _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+
+* {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 423 of _String Theory and M-Theory: A Modern Introduction_, 2007
+
 
 [[!redirects A-D-E classification]]
