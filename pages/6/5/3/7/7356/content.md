@@ -134,6 +134,11 @@ Lecture notes include
 
 * [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
 
+Textbook accounts include
+
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String Theory and M-Theory: A Modern Introduction_, 2007
+
+
 Related conferences include
 
 * _[Physics and Geometry of F-theory 2014](http://www.match.uni-heidelberg.de/GPF/)_
