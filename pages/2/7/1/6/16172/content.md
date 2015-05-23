@@ -7,7 +7,7 @@
 
 ## Idea
 
-In ([[pseudo-Riemannian geometry|pseudo-]])[[Riemannian geometry]], a _cone_ is a part of a  (pseudo-)[[Riemannian manifold]] where the metric  [[metric tensor]] is locally of the form $d s^2 = d r^2 + r^2 d s^2_1$. The point that would correspond to $r = 0$ is the "conical singularity". 
+In ([[pseudo-Riemannian geometry|pseudo-]])[[Riemannian geometry]], a _cone_ is a part of a  (pseudo-)[[Riemannian manifold]] where the [[metric tensor]] is locally of the form $d s^2 = d r^2 + r^2 d s^2_1$. The point that would correspond to $r = 0$ is the "conical singularity". 
 
 ## Examples
 
@@ -20,6 +20,8 @@ Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be kn
 
 * [[conifold]]
 
+* [[M-theory on G2-manifolds]]
+
 ## References
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
@@ -28,3 +30,5 @@ Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be kn
 
 [[!redirects conical singularity]] 
 [[!redirects conical singularities]] 
+
+[[!redirects conifold singularity]]
