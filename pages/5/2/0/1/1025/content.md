@@ -34,7 +34,7 @@ Introductions and further pointers are at
 
 An introduction is in 
 
-* [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([pdf])
+* [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([pdf](http://caae.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf))
 
 A standard textbook is
 
