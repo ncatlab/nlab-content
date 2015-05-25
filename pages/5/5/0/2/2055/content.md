@@ -238,6 +238,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [NUMBERPLAY](http://wordplay.blogs.nytimes.com/category/numberplay/) A New York Times blog on math/numeric puzzles by Pradeep Mutalik
 
+* [Opus Mens](http://whzecomjm.com/en/) A math blog by whzecomjm covering Algebra, Number Theory etc. (Alternative language: [Chinese version](http://whzecomjm.com/cn/)).
+
 * [Paramanand's Math Notes] (http://paramanands.blogspot.com/) A math blog by Paramanand Singh covering Algebra, Number Theory, Mathematical Analysis, Geometry among other topics
 
 * [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
