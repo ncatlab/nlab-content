@@ -372,6 +372,7 @@ category: algebraic geometry
 [[!redirects motive]]
 [[!redirects motives]]
 [[!redirects category of motives]]
+[[!redirects categories of motives]]
 [[!redirects derived category of motives]]
 [[!redirects derived category of mixed motives]]
 [[!redirects motivic]]
