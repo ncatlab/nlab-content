@@ -1,7 +1,8 @@
-(Higher) Chow groups with modulus are supposed to be a relative version of [[motivic cohomology]] (with respect to some divisor).
-Hence they are supposed to play the role of [[motivic cohomology]] for [[relative K-theory]] of smooth schemes.
+## Idea
 
-They do not satisfy $\mathbf{A}^1$-homotopy invariance, but rather the weaker condition of [[reciprocity sheaf|reciprocity]] in the sense of Kahn-Saito-Yamakazi.  It is expected that the various [[motives|motivic categories]] should embed into larger categories of non-homotopy invariant motives.  In these latter categories there should be a relative version of the motivic [[Eilenberg-Mac Lane spectrum]], representing [[motivic cohomology]] with modulus (= higher Chow groups with modulus).
+In the theory of [[motives]] one studies [[affine line|A^1]]-[[homotopy invariant]] phenomena, like [[higher Chow groups]]/[[motivic cohomology]] and homotopy invariant [[algebraic K-theory]].
+It is expected that the various [[categories of motives]] can be embedded into larger ones which also contain non-homotopy invariant phenomena, like (honest) [[algebraic K-theory]].
+(Higher) Chow groups with modulus are expected to play the role of [[higher Chow groups]] in these larger categories.
 
 ## See also
 
@@ -9,6 +10,8 @@ They do not satisfy $\mathbf{A}^1$-homotopy invariance, but rather the weaker co
 * [[higher Chow groups]]
 
 ## References
+
+* [[Kay Rülling]], [[Takao Yamazaki]], _Suslin homology of relative curves with modulus_, [arXiv:1505.05922](http://arxiv.org/abs/1505.05922).
 
 * Federico Binda, [[Shuji Saito]], _Relative cycles with moduli and regulator maps_, [arXiv:1212.0385](http://arxiv.org/abs/1412.0385v2).
 
