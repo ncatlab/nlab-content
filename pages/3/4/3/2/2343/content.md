@@ -35,7 +35,8 @@ At the [[infinitesimal object|infinitesimal]] level [[automorphism]]s correspond
 
 ## Model category presentation {#ModCat}
 
-### Quillen's definition: left derived functor of K&#228;hler differentials
+### Quillen's definition: left derived functor of K&#228;hler differentials 
+ {#LeftDerivedFunctorOfKaehlerDifferentials}
 
 The **cotangent complex** functor is effectively the left [[derived functor]] of the [[Kähler differential]]s assignment.
 
