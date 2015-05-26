@@ -1,0 +1,5 @@
+Related entries: [[regular summation methods]]
+
+* wikipedia [Borel summation](http://en.wikipedia.org/wiki/Borel_summation)
+
+category: analysis
