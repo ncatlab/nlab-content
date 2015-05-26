@@ -13,7 +13,7 @@ Where an [[affine variety]] is the formal dual to a [[commutative ring]] $(R,\ti
 
 1. a [[monoid]] $K$ and a [[monoid]] [[homomorphism]] $\alpha \colon K \longrightarrow (R, \times)$;
 
-1. such that $\alpha^{-1}(R^\times) \simeq R^\times$;
+1. such that $\alpha^{-1}(R^\times) \simeq K^\times$;
 
 where $R^\times$ is the [[group of units]] of $R$. These two items together are called a _log-structure_ on $R$ (or a _pre-log structure_ if the condition in the second item does not necessarily hold).
 
