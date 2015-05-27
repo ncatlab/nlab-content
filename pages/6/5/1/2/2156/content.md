@@ -41,10 +41,10 @@ We define a function ${\|{-}\|^2}\colon V \to k$ by ${\|x\|^2} = \langle x, x \r
 ## Definiteness
    {#definite}
 
-Notice that, by (1), $\langle{0, y} = 0$ for all $y$.  In fact, the [[subset]] $\{ x \;|\; \forall y,\; \langle{x, y} = 0 \}$ is a [[linear subspace]] of $V$.  Of course, we also have ${\|0\|^2} = 0$, but $\{ x \;|\; {\|x\|^2} = 0 \}$ may not be a subspace.  These observations motivate some possible conditions on the inner product:
+Notice that, by (1), $\langle 0, y \rangle = 0$ for all $y$.  In fact, the [[subset]] $\{ x \;|\; \forall y,\; \langle x, y \rangle = 0 \}$ is a [[linear subspace]] of $V$.  Of course, we also have ${\|0\|^2} = 0$, but $\{ x \;|\; {\|x\|^2} = 0 \}$ may not be a subspace.  These observations motivate some possible conditions on the inner product:
 
 *  The inner product is __semidefinite__ if $\{ x \;|\; {\|x\|^2} = 0 \}$ *is* closed under addition (and hence is a subspace); it\'s __indefinite__ if there are $x$ and $y$ with ${\|x\|^2} = 0$ and ${\|y\|^2} = 0$ but ${\|x + y\|^2} \ne 0$.
-*  The inner product is __nondegenerate__ if $x = 0$ whenever $\langle{x, y} = 0$ for all $y$; it\'s __degenerate__ if there is $x$ with $x \ne 0$ but $\langle{x, y} = 0$ for all $y$.
+*  The inner product is __nondegenerate__ if $x = 0$ whenever $\langle x, y \rangle = 0$ for all $y$; it\'s __degenerate__ if there is $x$ with $x \ne 0$ but $\langle x, y \rangle = 0$ for all $y$.
 *  The inner product is __definite__ if $x = 0$ whenever ${\|x\|^2} = 0$; there ought to be a term for the condition that there is some $x \ne 0$ with ${\|x\|^2} = 0$, so let\'s call it __nondefinite__.
 
 (In [[constructive mathematics]], we usually want an [[inequality relation]] relative to which the vector-space operations and the inner product are [[strongly extensional function|strongly extensional]], to make sense of the conditions with $\ne$ in them.  We can also use [[contrapositives]] to put $\ne$ in the other conditions, which makes them stronger if the inequality relation is [[tight relation|tight]].)
