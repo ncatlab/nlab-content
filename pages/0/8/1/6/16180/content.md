@@ -50,7 +50,7 @@ $$
 $$
 
 $$
-  \flat^{rel} X \coloneqq (\flat X) \underset{\Im}{\times} X
+  \flat^{rel} X \coloneqq (\flat X) \underset{\Im X}{\times} X
   \,.
 $$
 
