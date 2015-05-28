@@ -148,6 +148,7 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * M. G. Katz, Thomas Mormann, _Infinitesimals as an issue in neo-Kantian philosophy of science_, [arxiv/1304.1027](http://arxiv.org/abs/1304.1027)
 * [[Mikhail Gromov]], _Ergostructures, Ergologic and the Universal Learning Problem: Chapters 1, 2._, <a href="http://www.ihes.fr/~gromov/PDF/ergologic3%27(1).pdf">pdf</a>; _Structures, Learning and Ergosystems: Chapters 1-4, 6_ (2011) [pdf](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
+* Jeremy Avigad, _Mathematics and language_, [arxiv/1505.07238](http://arxiv.org/abs/1505.07238)
 
 ### Blog and forum discussions, conferences
 
