@@ -84,7 +84,7 @@ with the Hamiltonian pairs, def. \ref{HamiltonianFormsAndVectorFields}, in degre
 
 Let $\overline{A}$ be any [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]]-[[cocycle]] relative to an [[open cover]] $\mathcal{U}$ of $X$, which gives a [[prequantum n-bundle]] for $\omega$. The [[L-∞ algebra]] $dgLie_{Qu}(X,\overline{A})$ is the [[dg-Lie algebra]] (regarded as an $L_\infty$-algebra) whose underlying [[chain complex]] is 
 
-$dgLie_{Qu}(X,\overline{A})^0 = \{v+ \overline{\theta}  \in Vect(X)\oplus Tot^{n-1}(\mathcal{U}, \Omega^\bullet) \;\vert\; \mathcal{L}_v \overline{A} = \mathbf{d}_{Tot}\overline{theta}\}$;
+$dgLie_{Qu}(X,\overline{A})^0 = \{v+ \overline{\theta}  \in Vect(X)\oplus Tot^{n-1}(\mathcal{U}, \Omega^\bullet) \;\vert\; \mathcal{L}_v \overline{A} = \mathbf{d}_{Tot}\overline{\theta}\}$;
 
 $dgLie_{Qu}(X,\overline{A})^{i \gt 0} = Tot^{n-1-i}(\mathcal{U},\Omega^\bullet)$
 
@@ -92,7 +92,7 @@ with [[differential]] given by $\mathbf{d}_{Tot}$ (where $Tot$ refers to [[total
 
 The non-vanishing dg-Lie bracket on this complex are defined to be
 
-* $[v_1 + \overline{\theta}_1, v_2 + \overline{\theta}_2] = [v_1, v_2] + \mathcal{L}_{v_1} - \mathcal{L}_{v_2}\overline{\theta}_2$
+* $[v_1 + \overline{\theta}_1, v_2 + \overline{\theta}_2] = [v_1, v_2] + \mathcal{L}_{v_1}\overline{\theta}_2 - \mathcal{L}_{v_2}\overline{\theta}_1$;
 
 * $[v+ \overline{\theta}, \overline{\eta}] = - [\eta, v + \overline{\theta}] = \mathcal{L}_v \overline{\eta}$.
 
@@ -173,6 +173,8 @@ These kinds of extensions are known traditionally form [[current algebras]].
 * [[Poisson n-algebra]]
 
 * [[current algebra]]
+
+* [[geometry of physics -- prequantum geometry]]
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
