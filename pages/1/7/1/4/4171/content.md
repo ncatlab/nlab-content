@@ -231,7 +231,7 @@ where
 
 This is the **[[Poisson bracket Lie n-algebra]]**.
 
-This appears as ([Rogers, theorem 3.14](#Rogers)).
+This appears as ([Rogers 11, theorem 3.14](#Rogers11)).
 
 
 For $n = 1$ this recovers the definition of the [[Lie algebra]] underlying a [[Poisson algebra]].
@@ -380,6 +380,10 @@ $$
 
 given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
+## Related entries
+
+* [[geometry of physics -- prequantum geometry]]
+
 ## Properties
 
 ### Central extensions under geometric quantization
@@ -405,12 +409,14 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 ### General
  {#ReferencesGeneral}
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
- {#Rogers}
+The observation that the would-be Poisson bracket induced by a higher degree closed form extends to the [[Poisson bracket Lie n-algebra]] is due to
 
-
-* [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
+* {#Rogers10} [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
 Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
+
+* {#Rogers11} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ 
+with first discussion of application to [[prequantization]] in
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_ ,  [arXiv:1009.2975](http://arxiv.org/abs/1009.2975).
 
