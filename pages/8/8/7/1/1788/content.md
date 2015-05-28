@@ -1,30 +1,7 @@
-+-- {: .num_example }
-###### Example
-
-In lowest degrees the generalized Jacobi identity says that
-
-1. for $n = 1$: the unary map $\partial \coloneqq l_1$ squares to 0:
+1. each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ and homogeneously graded elements $v_i \in V_{\vert v_i \vert}$ then
 
    $$
-     \partial (\partial(v_1)) = 0
+     l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)}) 
+     = 
+     \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
    $$
-
-1: for $n = 2$: the unary map $\partial$ is a graded [[derivation]] of the binary map
-
-   $$
-     [\partial v_1, v_2] + (-1)^{(\vert v_1\vert +1)(\vert v_2 \vert +1 ) } [\partial v_2, v_1]
-     +
-     \partial [v_1, v_2]
-     =
-     0
-   $$
-
-   hence
- 
-   $$
-     \partial [v_1, v_2] =  [\partial v_1, v_2] + (-1)^{\vert v_1 \vert}[v_1, v_2]
-     \,.
-   $$
-
-
-=--
