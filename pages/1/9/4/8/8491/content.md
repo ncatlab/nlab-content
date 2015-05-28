@@ -217,3 +217,6 @@ Discussion in the broader context of [[higher differential geometry]] and [[high
 
 [[!redirects L-∞ algebra of local observables]]
 [[!redirects L-∞ algebras of local observables]]
+
+[[!redirects Poisson bracket Lie (p+1)-algebra]]
+[[!redirects Poisson bracket Lie (p+1)-algebras]]
