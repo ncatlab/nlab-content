@@ -1,5 +1,30 @@
++-- {: .num_example }
+###### Example
+
+In lowest degrees the generalized Jacobi identity says that
+
+1. for $n = 1$: the unary map $\partial \coloneqq l_1$ squares to 0:
+
+   $$
+     \partial (\partial(v_1)) = 0
+   $$
+
+1: for $n = 2$: the unary map $\partial$ is a graded [[derivation]] of the binary map
+
+   $$
+     [\partial v_1, v_2] + (-1)^{(\vert v_1\vert +1)(\vert v_2 \vert +1 ) } [\partial v_2, v_1]
+     +
+     \partial [v_1, v_2]
+     =
+     0
+   $$
+
+   hence
+ 
+   $$
+     \partial [v_1, v_2] =  [\partial v_1, v_2] + (-1)^{\vert v_1 \vert}[v_1, v_2]
+     \,.
+   $$
 
 
-
-
-$\bigoplus$
+=--
