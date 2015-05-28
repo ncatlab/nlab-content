@@ -156,7 +156,7 @@ $$
 by
 
 $$
- ((v_1,H_1), (v_2,H_2)) \coloneqq ([v_1,v_2], \iota_{v_2}\iota_{v_1} \omega)
+ [(v_1,H_1), (v_2,H_2)] \coloneqq ([v_1,v_2], \iota_{v_2}\iota_{v_1} \omega)
  \,,
 $$
 
