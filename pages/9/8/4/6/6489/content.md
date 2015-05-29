@@ -43,7 +43,7 @@ A **stability condition** on $\mathcal{D}$ is a pair $\sigma = (Z, \mathcal{P})$
 
 Bridgeland proves that an equivalent way to give a stability is to specify a heart of a bounded $t$-structure on $\mathcal{D}$ and give a stability function the heart that satisfies the Harder-Narasimhan property.
 
-Under reasonable hypotheses, one can put a natural topology on the space of stability conditions, $Stab(\mathcal{D})$, under which the space becomes a [[complex manifold]]. Most work using this fact has been done where $\mathcal{D}=D^b(Coh(X))$ where $X$ is a smooth, projective [[algebraic variety|variety]] over $\mathbb{C}$ so that $\mathcal{D}$ is $\mathbb{C}$-linear and $K(\mathbb{D})$ is finitely generated.
+Under reasonable hypotheses, one can put a natural topology on the space of stability conditions, $Stab(\mathcal{D})$, under which the space becomes a [[complex manifold]]. Most work using this fact has been done where $\mathcal{D}=D^b(Coh(X))$ where $X$ is a smooth, projective [[algebraic variety|variety]] over $\mathbb{C}$ so that $\mathcal{D}$ is $\mathbb{C}$-linear and $K(\mathcal{D})$ is finitely generated.
 
 $Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is that if one fixes a numerical condition $v$ and considers the [[moduli space]] of $\sigma$-stable sheaves as $\sigma$ varies through $Stab(X)$, then the moduli spaces $M_\sigma(v)\simeq M_{\sigma '}(v)$ should be isomorphic if $\sigma$ and $\sigma'$ are in the same chamber. Bayer and Macri have shown this is true for K3 surfaces, and upon crossing a wall the moduli spaces are related by a [[birational map]].
 
