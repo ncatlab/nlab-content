@@ -13,7 +13,9 @@
 =--
 =--
 
-
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea
@@ -29,5 +31,10 @@ In the context of [[cosmology]], higher curvature corrections are a candidate fo
 Discussion in the context of corrections to [[black hole entropy]] include
 
 * [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+
+Discussion of quadratic curvature currections includes (see also at _[[Starobinsky model of cosmic inflation]]_)
+
+* [[Luis Alvarez-Gaume]], [[Alex Kehagias]], [[Costas Kounnas]], [[Dieter Luest]], Antonio Riotto, _Aspects of Quadratic Gravity_ ([arXiv:1505.07657](http://arxiv.org/abs/1505.07657))
+
 
 [[!redirects higher order curvature corrections]]
