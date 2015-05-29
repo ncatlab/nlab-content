@@ -574,7 +574,7 @@ A [[model category]] presentation of the Grothendieck construction is given in
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, [arXiv](http://arxiv.org/abs/1404.1852).
 
-Discussion of the Grothendieck construciton as a lax colimit includes (see also at [[(infinity,1)-Grothendieck construction]])
+Discussion of the Grothendieck construction as a lax colimit includes (see also at [[(infinity,1)-Grothendieck construction]])
 
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
