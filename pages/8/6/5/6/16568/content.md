@@ -272,7 +272,7 @@ More generally, the [[Hamiltonian vector fields]] corresponding to [[quadratic H
 
 =--
 
-#### Infinitsimal quantomorphisms
+#### Infinitesimal quantomorphisms
 
 Example \ref{HeisenbergAlgebraOfSymplecticVectorSpace} serves to motivate a more conceptual origin of the definition of the Poisson bracket in def. \ref{PoissonBracket}.
 
@@ -401,6 +401,8 @@ $$
 
 =--
 
+
+
 +-- {: .num_cor #EquivalenceBetweenPoissonBracketAndInfinQuantomorphism}
 ###### Corollary
 
@@ -468,7 +470,7 @@ such that
 
 1. $g_{i j} g_{j k} = g_{i k}$ on all $U_{i j k}$.
 
-The _quantomorphism Lie algebra_ of this is 
+The _quantomorphism Lie algebra_ of $\overline{\theta}$ is 
 
 $$
   \mathfrak{quantmorph}(X,\overline{\theta})
@@ -522,7 +524,7 @@ between the [[Poisson bracket]] algebra of def. \ref{PoissonBracket} and that of
 ###### Proof
 
 The condition $\mathcal{L}_v log g_{i j} = \alpha_j - \alpha_i$
-on the infinitesimal quantomorphisms, togther with the Cech-Deligne cocycle condition $d log g_{i j} = \theta_j - \theta_i$ says that on $U_{i j}$
+on the infinitesimal quantomorphisms, together with the Cech-Deligne cocycle condition $d log g_{i j} = \theta_j - \theta_i$ says that on $U_{i j}$
 
 $$
   \iota_v \theta_j - \alpha_j = \iota_v \theta_i - \alpha_i
@@ -679,6 +681,7 @@ such that
      l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)}) 
      = 
      \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
+
    $$
 
 1. the _generalized [[Jacobi identity]]_ holds:
@@ -870,7 +873,7 @@ with the Hamiltonian pairs, def. \ref{HamiltonianFormsAndVectorFields}, in degre
 
 The non-vanishing $L_\infty$-brackets are defined to be the following
 
-* $l_1(J) = dJ$
+* $l_1(J) = d J$
 
 * $l_{k \geq 2}(v_1 + J_1, \cdots, v_k + J_k) 
   \coloneqq 
@@ -1106,7 +1109,7 @@ where vertically we have the [[de Rham differential]] and horizontally the Cech 
 The corresponding [[total complex]] has in degree $n$ the [[direct sum]] of the entries in this double complex which are on the $n$th nw-se off-diagonal and has the total differential
 
 $$
-  D = d + (-1)^{deg} \del
+  d_{tot} = d + (-1)^{deg} \delta
 $$
 
 with $deg$ denoting form degree.
@@ -1155,7 +1158,7 @@ $$
   \overline{\theta} = (B_{i}, \cdots, g_{i_1 \cdots i_{p+2}})
 $$ 
 
-is the uniquely defined $(p+2)$-form $F_{\overline{\theta}}$ such that
+is the uniquely defined $(p+2)$-form $F_{\overline{\theta}} \in \Omega^{p+2}(X)$ such that
 
 $$
   F_{\overline{\theta}}|_{U_i} = d B_i
@@ -1167,12 +1170,14 @@ $$
 
 #### Higher infinitesimal quantomorphisms and conserved currents
 
-+-- {: .num_defn }
+There is an evident generalization of the [[prequantization]], def. \ref{CechDelignePrequantizationAnditsInfinitesimalAutomorpisms}, of closed 2-forms by [[circle bundles with connection]], hence by degree-2 cocycles in [[Deligne cohomology]], to the prequantization of closed $(p+2)$-forms by degree-$(p+2)$-cocycles in Deligne cohomology.
+
++-- {: .num_defn #HigherPrequantizationByDeligneCocycles}
 ###### Definition
 
 Given a [[n-plectic manifold|pre-(p+1)-plectic manifold]] $(X,\omega)$, then 
 a _[[prequantization]]_ is a Cech-Deligne cocycle
-$\overline{\theta}$, the _[[prequantum n-bundle|prequantum (p+1)-bundle]]_ whose [[curvature]], def. \ref{CurvatureOfDeligneCocycle} is $\omega$:
+$\overline{\theta}$,  the _[[prequantum n-bundle|prequantum (p+1)-bundle]]_, whose [[curvature]], def. \ref{CurvatureOfDeligneCocycle}, equals $\omega$:
 
 $$
   F_{\overline{\theta}} = \omega
@@ -1182,20 +1187,44 @@ $$
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+In terms of [[diagrams]] in the [[homotopy theory]] $\mathbf{H}$ of [[smooth homotopy types]], def. \ref{HigherPrequantizationByDeligneCocycles} describes lifts of the form
+
+
+$$
+  \array{
+    && \mathbf{B}^{p+1}U(1)_{conn}
+    \\
+    & {}^{\mathllap{\overline{\theta}}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    X &\stackrel{\omega}{\longrightarrow} &
+    \mathbf{\Omega}^{p+2}_{cl}
+  }
+  \,.
+$$
+
+=--
+
+This way there is an immediate generalization of def. \ref{CechDelignePrequantizationAnditsInfinitesimalAutomorpisms} to forms and cocycles of higher degree:
+
 
 +-- {: .num_defn #PoissondgAlgebra}
 ###### Definition
 
 Let $\overline{\theta}$ be any [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]]-[[cocycle]] relative to an [[open cover]] $\mathcal{U}$ of $X$, which gives a [[prequantum n-bundle]] for $\omega$. The [[L-∞ algebra]] 
-$\mathfrak{quantmorph}(X,\overline{\theta})$ is the [[dg-Lie algebra]] (regarded as an $L_\infty$-algebra) whose underlying [[chain complex]] is 
+$\mathfrak{quantmorph}(X,\overline{\theta})$ is the [[dg-Lie algebra]] (regarded as an $L_\infty$-algebra) whose underlying [[chain complex]] is the [[Cech cohomology|Cech]] [[total complex]] made to end in _Hamiltonian Cech cocycles_
 
-$\mathfrak{quantmorph}(X,\overline{\theta})^0 = \{v+ \overline{\alpha}  \in Vect(X)\oplus Tot^{n-1}(\mathcal{U}, \Omega^\bullet) \;\vert\; \mathcal{L}_v \overline{\theta} = \mathbf{d}_{Tot}\overline{\alpha}\}$;
+* $\mathfrak{quantmorph}(X,\overline{\theta})^0 \coloneqq \{v+ \overline{\alpha}  \in Vect(X)\oplus Tot^{n-1}(\mathcal{U}, \Omega^\bullet) \;\vert\; \mathcal{L}_v \overline{\theta} = \mathbf{d}_{Tot}\overline{\alpha}\}$;
 
-$\mathfrak{quantmorph}(X,\overline{\theta})^{i \gt 0} = Tot^{n-1-i}(\mathcal{U},\Omega^\bullet)$
 
-with [[differential]] given by $d_{Tot}$ (where $Tot$ refers to [[total complex]] of the Cech-de Rham [[double complex]]).
+* $\mathfrak{quantmorph}(X,\overline{\theta})^{i \gt 0} \coloneqq C^{n-1-i}(\mathcal{U},\Omega^\bullet)$
 
-The non-vanishing dg-Lie brackets on this complex are defined to be
+
+with [[differential]] given by $d_{tot} = d + (-1)^{deg} \delta$.
+
+The non-vanishing dg-Lie brackets on this complex are given by the evident [[action]] of [[vector fields]] on all the components of the Cech cochains by [[Lie derivative]]:
 
 * $[v_1 + \overline{\alpha}_1, v_2 + \overline{\alpha}_2] \coloneqq [v_1, v_2] + \mathcal{L}_{v_1}\overline{\alpha}_2 - \mathcal{L}_{v_2}\overline{\alpha}_1$
 
@@ -1205,7 +1234,7 @@ The non-vanishing dg-Lie brackets on this complex are defined to be
 
 ([FRS 13b, def./prop. 4.2.1](#FRS13b))
 
-
+One then finds a direct higher analog of corollary \ref{EquivalenceBetweenPoissonBracketAndInfinQuantomorphism} (its proof however is requires a bit more work):
 
 +-- {: .num_prop #ComparisonTheorem}
 ###### Proposition
@@ -1222,29 +1251,23 @@ $$
 
 between the $L_\infty$-algebras of def. \ref{PoissonBracketLienAlgebra} and def. \ref{PoissondgAlgebra} (in particular def. \ref{PoissondgAlgebra} does not depend on the choice of $\overline{A}$) whose underlying [[chain map]] satisfies
 
+
 * $f(v + J) = (v,\; \sum_{i = 0}^n (-1)^i \iota_v \theta^{n-i} - J|_{\mathcal{U}})$.
 
 =--
 
 ([FRS 13b, theorem 4.2.2](#FRS13b))
 
-#### Conserved current algebras and BPS charges
- {#BPSCharges}
++-- {: .num_prop #ComparisonTheorem}
+###### Proposition
 
-By the discussion at _[[geometry of physics -- WZW terms]]_,  [[prequantization]] $\mathbf{L} \colon X \to \mathbf{B}^{p+1}U(1)_{conn}$ of $\omega \in \Omega^{p+2}(X)$ may be thought of as a [[parameterized WZW term]] for a [[sigma model]] field theory decribing the propagation of a [[p-brane]] on $X$.
+Proposition \ref{ComparisonTheorem} says that all the higher Poisson $L_\infty$-algebras are $L_\infty$-algebras of symmetries of [[Deligne cohomology|Deligen cocycles]] [[prequantization|prequantizing]] the give pre-$(p+1)$-plectic form, higher "[[quantomorphisms]]".
 
-Under this perspective, a [[Hamiltonian vector field]] $v$ on $X$ is a [[point symmetry]] of this sigma-model field theory and a [[Hamiltonian form]] $J$ for $v$ is is the [[conserved current]] corresponding to this via [[Noether's theorem]]. Inspection then shows that the bracket in def. \ref{PoissondgAlgebra} is the [[Dickey bracket]] of [[conserved currents]], while the [[differential]] in def. \ref{PoissondgAlgebra} expresses the shift of currents by trivial currents ([KS](#KS)).
- 
-Hence under this perspective, def. \ref{PoissondgAlgebra} gives a [[dg-Lie algebra]] enhancement of the algebra of conserved Noether currents for [[point symmetries]] of [[geometry of physics -- WZW terms|higher WZW sigma-models]]. 
+In fact the [[dg-algebra]] $\mathfrak{quantmorph}(X,\overline{\theta})$ makes yet another equivalent interpretation of $\mathfrak{poiss}(X,\omega)$ manifest: it is also a resolution of the [[Dickey bracket]] of [[conserved currents]] for [[geometry of physics -- WZW terms|WZW]] [[sigma-models]]. This we come to [below](#BPSCharges).
 
-For the case that $X$ is a [[super spacetimes]] and $\omega$ is a [[definite form]] on a super cocycle in the [[brane scan]] then this is the algebra of [[BPS charges]] of $X$. Therefore we also write
+=--
 
-$$
-  \mathfrak{bps}(X,\mathbf{L}_{WZW})
-  \coloneqq
-  \mathfrak{quantmorph}(X,\mathbf{L})
-  \,
-$$
+
 
 
 #### Higher Kostant-Souriau extension
@@ -1298,8 +1321,7 @@ $$
 To better see what this means, we may truncate this down to a statement about ordinary Lie algebras.
 
 
-
-+-- {: .num_prop}
++-- {: .num_prop #HpExtensionFromTruncatedHigherPoissonBracket}
 ###### Proposition
 
 Given a [[n-plectic manifold|pre-(p+1)-plectic manifold]] $(X,\omega)$,
@@ -1315,10 +1337,33 @@ $$
 
 =--
 
-+-- {: .num_cor}
+#### Applications 
+
+##### Higher conserved current algebras and BPS charge extensions
+ {#BPSCharges}
+
+By the discussion at _[[geometry of physics -- WZW terms]]_,  [[prequantization]] $\mathbf{L} \colon X \to \mathbf{B}^{p+1}U(1)_{conn}$ of $\omega \in \Omega^{p+2}(X)$ may be thought of as a [[parameterized WZW term]] for a [[sigma model]] field theory decribing the propagation of a [[p-brane]] on $X$.
+
+Under this perspective, a [[Hamiltonian vector field]] $v$ on $X$ is a [[point symmetry]] of this sigma-model field theory and a [[Hamiltonian form]] $J$ for $v$ is is the [[conserved current]] corresponding to this via [[Noether's theorem]]. Inspection then shows that the bracket in def. \ref{PoissondgAlgebra} is the [[Dickey bracket]] of [[conserved currents]], while the [[differential]] in def. \ref{PoissondgAlgebra} expresses the shift of currents by trivial currents ([KS](#KS)).
+ 
+Hence under this perspective, def. \ref{PoissondgAlgebra} gives a [[dg-Lie algebra]] resolution of the [[Dickey bracket]] Lie algebra of conserved Noether currents for [[point symmetries]] of [[geometry of physics -- WZW terms|higher WZW sigma-models]] from gauge equivalence classes of conrved currents to the currents themselves.
+
+For the case that $X$ is a [[super spacetimes]] and $\omega$ is a [[definite form]] on a super cocycle in the [[brane scan]] then this is known as the algebra of [[supergravity]] [[BPS charges]] of $X$. Therefore we also write
+
+$$
+  \mathfrak{bps}(X,\mathbf{L})
+  \coloneqq
+  \mathfrak{quantmorph}(X,\mathbf{L})
+  \,.
+$$
+
+From this perspective the higher Kostant-Soriau extesion as in 
+prop. \ref{HpExtensionFromTruncatedHigherPoissonBracket} says the following:
+
++-- {: .num_cor #BPSChargeExtension}
 ###### Corollary
 
-For $\omega \in \Omega^{p+2}(X)$ the [[curvature]] of a [[geometry of physics -- WZW terms|WZW term]] on the smooth manifold $X$, then the Lie algebra of [[conserved currents]] covering [[target space]] symmetries of the corresponding $p$-brane [[sigma-model]] ([above](#BPSCharges)) is an extension
+For $\omega \in \Omega^{p+2}(X)$ the [[curvature]] of a [[geometry of physics -- WZW terms|WZW term]] on the smooth manifold $X$, then the Lie algebra of [[conserved currents]] covering [[target space]] [[point symmetries]] of the corresponding $p$-brane [[sigma-model]] is a  [[Lie algebra extension]] of the taget space symmetry by the $p$th de Rham cohomology group
 
 $$
   0 
@@ -1333,6 +1378,15 @@ $$
 
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+For $X$ a [[superspacetime]] and $\omega$ a [[definite form]], definite on a super-cocycle in the [[brane scan]], then corollary \ref{BPSChargeExtension} is folklore in the [[string theory]] literature, due to ([AGIT 89](#AGIT89)).
+
+=--
+
+This is discussed further in _[[geometry of physics -- BPS charges]]_.
 
 
 
@@ -1351,6 +1405,7 @@ Throughout, let $\mathbb{G} \in Grp(\mathbf{H})$ be a [[braided ∞-group]] equi
 For $\mathbf{H} = $ [[Smooth∞Grpd]] we have $\mathbb{G} = \mathbf{B}^p (\mathbb{R}/\Gamma)$ for $\Gamma = \mathbb{Z}$ is the [[circle n-group|circle (p+1)-group]]. Equipped with its standard Hodge filtration this gives $\mathbf{B}\mathbb{G}_{conn} = \mathbf{B}^p U(1)_{conn}$ presented via the [[Dold-Kan correspondence]] by the [[Deligne complex]] in degree $(p+2)$.
 
 =--
+
 
 
 +-- {: .num_defn #DifferentialConcretification}
@@ -1424,7 +1479,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
      \mathbf{HamSymp}(X,\nabla) \longrightarrow \mathbf{Aut}(X)
    $$ 
 
-   is the [[1-image]] of the canonical morphism $\mathbf{QuantMorph}(X,\nabla) \longrightarrow \mathbf{Aut}(X)$ from remark \ref{StabilizerGroupAsFactorization}.
+   is the [[1-image]] of the canonical morphism $\mathbf{QuantMorph}(X,\nabla) \longrightarrow \mathbf{Aut}(X)$. 
 
 1. A **[[Hamiltonian action]]** of an [[∞-group]] $G$ on $(X,\nabla)$ is an [[∞-group]] homomorphism 
 
@@ -1460,6 +1515,7 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mat
 
 +-- {: .num_remark }
 ###### Remark
+
 
 Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
 
@@ -1575,12 +1631,16 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the [[Hamiltonian symplectomorphism ∞-group]] by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
 
 
+
 The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
 
 =--
 
 
 ## References
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+
 
 * {#Rogers10} [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
 Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
