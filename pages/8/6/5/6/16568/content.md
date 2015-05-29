@@ -865,6 +865,7 @@ $$
   Ham^{p}(X)
 $$
 
+
 with the Hamiltonian pairs, def. \ref{HamiltonianFormsAndVectorFields}, in degree 0 and with the 0-forms ([[smooth functions]]) in degree $p$. 
 
 The non-vanishing $L_\infty$-brackets are defined to be the following
@@ -946,7 +947,7 @@ With this, the statement follows straightforwardly.
 
 #### Interlude: Cech-Deligne complexes
 
-Recall the [[Cech cohomology|Cech]] complex
+Recall the [[Cech cohomology|Cech]] complex.
 
 +-- {: .num_defn #CechComplex}
 ###### Definition
@@ -1017,8 +1018,170 @@ $$
 
 =--
 
+Recall the [[Deligne complex]].
+
++-- {: .num_defn #CechComplex}
+###### Definition
+
+The _[[Deligne complex]]_ for [[Deligne cohomology]] of degree $(p+2)$ is the [[chain complex]] of [[abelian sheaves]] given by
+
+$$
+  (\mathbf{B}^{p+1}U(1)_{conn})_{\bullet}
+  = 
+  \left[
+    C^\infty(-,U(1))
+    \stackrel{d log}{\longrightarrow}
+    \Omega^1(-)
+    \stackrel{d}{\to}
+    \Omega^2(-)
+    \stackrel{d}{\to}
+    \cdots
+    \stackrel{d}{\to}
+    \Omega^{p+1}(-)
+  \right]
+  \in
+  Ch_{\bullet \geq 0}(Sh(X))
+  \,.
+$$
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+So for $\{U_i\to X\}$ an [[open cover]], then we have the Cech-Deligne [[double complex]]
+
+$$
+  \array{
+    0 &\longrightarrow& 0 &\longrightarrow& 0 &\longrightarrow & \cdots
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    \Omega^{p+1}(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^{p+1}(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^{p+1}(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots    
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \vdots && \vdots && \vdots
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \Omega^2(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^2(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^2(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots    
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \Omega^1(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^1(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^1(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots
+    \\
+    \uparrow^{\mathrlap{d log}} && \uparrow^{\mathrlap{d log}} && \uparrow^{\mathrlap{d log}} &&
+    \\
+    C^\infty(\coprod_i U_i, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    C^\infty(\coprod_{i,j} U_{i j}, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    C^\infty(\coprod_{i,j,k} U_{i j k}, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots
+  }
+$$
+where vertically we have the [[de Rham differential]] and horizontally the Cech differential given by alternating sums of [[pullback of differential forms]].
+
+The corresponding [[total complex]] has in degree $n$ the [[direct sum]] of the entries in this double complex which are on the $n$th nw-se off-diagonal and has the total differential
+
+$$
+  D = d + (-1)^{deg} \del
+$$
+
+with $deg$ denoting form degree.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A Cech-Deligne cocycle in degree $3$ (a "[[bundle gerbe with connection]]") is data $(\{B_{i}\}, \{A_{i j}\}, \{g_{i j k}\})$ such that
+ 
+$$
+  \array{
+    \{B_i\}
+    &\stackrel{\delta}{\longrightarrow}&
+    {{\{B_j - B_i\}} = {d A_{i j}}}
+    &&
+    &&
+    \\
+    && \uparrow^{\mathrlap{d}} &&  &&
+    \\
+    &&
+    \{A_{i j}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{-A_{ j k} + A_{i k} - A_{i j}\} = \{d log g_{i j k}\}
+    &&
+    \\
+     &&  && \uparrow^{\mathrlap{d log}} &&
+    \\
+    &&
+    &&
+    \{g_{i j k}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{g_{j k l} g_{i k l}^{-1} g_{i j l} g_{i j k}^{-1} \} = 1
+  }
+$$
+
+=--
+
++-- {: .num_defn #CurvatureOfDeligneCocycle}
+###### Definition
+
+The _[[curvature]]_ of a Cech-Deligne cocycle 
+
+$$
+  \overline{\theta} = (B_{i}, \cdots, g_{i_1 \cdots i_{p+2}})
+$$ 
+
+is the uniquely defined $(p+2)$-form $F_{\overline{\theta}}$ such that
+
+$$
+  F_{\overline{\theta}}|_{U_i} = d B_i
+  \,.
+$$
+
+=--
+
 
 #### Higher infinitesimal quantomorphisms and conserved currents
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[n-plectic manifold|pre-(p+1)-plectic manifold]] $(X,\omega)$, then 
+a _[[prequantization]]_ is a Cech-Deligne cocycle
+$\overline{\theta}$, the _[[prequantum n-bundle|prequantum (p+1)-bundle]]_ whose [[curvature]], def. \ref{CurvatureOfDeligneCocycle} is $\omega$:
+
+$$
+  F_{\overline{\theta}} = \omega
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_defn #PoissondgAlgebra}
 ###### Definition
@@ -1072,7 +1235,7 @@ By the discussion at _[[geometry of physics -- WZW terms]]_,  [[prequantization]
 
 Under this perspective, a [[Hamiltonian vector field]] $v$ on $X$ is a [[point symmetry]] of this sigma-model field theory and a [[Hamiltonian form]] $J$ for $v$ is is the [[conserved current]] corresponding to this via [[Noether's theorem]]. Inspection then shows that the bracket in def. \ref{PoissondgAlgebra} is the [[Dickey bracket]] of [[conserved currents]], while the [[differential]] in def. \ref{PoissondgAlgebra} expresses the shift of currents by trivial currents ([KS](#KS)).
  
-Hence under this perspective, def. \ref{PoissondgAlgebra} gives a [[dg-Lie algebra]] enhancement of the algebra of conserved Noether currents for [[point symmetries]] of [[geometry of physics -- WZW models|higher WZW sigma-models]]. 
+Hence under this perspective, def. \ref{PoissondgAlgebra} gives a [[dg-Lie algebra]] enhancement of the algebra of conserved Noether currents for [[point symmetries]] of [[geometry of physics -- WZW terms|higher WZW sigma-models]]. 
 
 For the case that $X$ is a [[super spacetimes]] and $\omega$ is a [[definite form]] on a super cocycle in the [[brane scan]] then this is the algebra of [[BPS charges]] of $X$. Therefore we also write
 
@@ -1155,7 +1318,7 @@ $$
 +-- {: .num_cor}
 ###### Corollary
 
-For $\omega \in \Omega^{p+2}(X)$ the [[curvature]] of a [[geometry of physics -- WZW term|WZW term]] on the smooth manifold $X$, then the Lie algebra of [[conserved currents]] covering [[target space]] symmetries of the corresponding $p$-brane [[sigma-model]] ([above](#BPSCharges)) is an extension
+For $\omega \in \Omega^{p+2}(X)$ the [[curvature]] of a [[geometry of physics -- WZW terms|WZW term]] on the smooth manifold $X$, then the Lie algebra of [[conserved currents]] covering [[target space]] symmetries of the corresponding $p$-brane [[sigma-model]] ([above](#BPSCharges)) is an extension
 
 $$
   0 
