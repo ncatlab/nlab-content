@@ -159,6 +159,8 @@ $$x:G,y:G,z:G | \top \vdash m(m(x,y),z) = m(x,m(y,z))$$
 
 As described above, a model of a given theory $T$ in a category $C$ consists of an assignment
 
+| | | |
+|---------------- |-| ---------------------|
 |types of $T$|$\to$|objects of $C$|
 |function symbols of $T$|$\to$|morphisms of $C$|
 |relation symbols of $T$|$\to$|subobjects in $C$|
