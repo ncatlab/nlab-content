@@ -1,7 +1,26 @@
-1. each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ and homogeneously graded elements $v_i \in V_{\vert v_i \vert}$ then
-
-   $$
-     l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)}) 
-     = 
-     \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
-   $$
+$$
+  \array{
+    \{B_i\}
+    &\stackrel{\delta}{\longrightarrow}&
+    {{\{B_j - B_i\}} = {d A_{i j}}}
+    &&
+    &&
+    \\
+    && \uparrow^{\mathrlap{d}} &&  &&
+    \\
+    &&
+    \{A_{i j}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{A_{ j k} - A_{i k} + A_{i j}\} = \{d log g_{i j k}\}
+    &&
+    \cdots
+    \\
+     &&  && \uparrow^{\mathrlap{d log}} &&
+    \\
+    &&
+    &&
+    \{g_{i j k}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{g_{j k l} g_{i k l}^{-1} g_{i j l} g_{i j k}^{-1} \} = 1
+  }
+$$
