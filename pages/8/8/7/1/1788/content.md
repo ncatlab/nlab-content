@@ -1,26 +1,6 @@
-$$
-  \array{
-    \{B_i\}
-    &\stackrel{\delta}{\longrightarrow}&
-    {{\{B_j - B_i\}} = {d A_{i j}}}
-    &&
-    &&
-    \\
-    && \uparrow^{\mathrlap{d}} &&  &&
-    \\
-    &&
-    \{A_{i j}\}
-    &\stackrel{\delta}{\longrightarrow}&
-    \{A_{ j k} - A_{i k} + A_{i j}\} = \{d log g_{i j k}\}
-    &&
-    \cdots
-    \\
-     &&  && \uparrow^{\mathrlap{d log}} &&
-    \\
-    &&
-    &&
-    \{g_{i j k}\}
-    &\stackrel{\delta}{\longrightarrow}&
-    \{g_{j k l} g_{i k l}^{-1} g_{i j l} g_{i j k}^{-1} \} = 1
-  }
-$$
+| | | |
+|---------------- |-| ---------------------|
+|types of $T$|$\to$|objects of $C$|
+|function symbols of $T$|$\to$|morphisms of $C$|
+|relation symbols of $T$|$\to$|subobjects in $C$|
+|axioms of $T$|$\to$|containments in $C$|
