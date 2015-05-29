@@ -19,7 +19,9 @@ An _evolutionary vector_ field is a particular class of vertical [[vector field]
 
 Evolutionary vector fields describe [[symmetries]] of [[Lagrangian field theory|Lagrangian systems]] in the formulation of the [[variational bicomplex]], and as such form an ingredient of [[Noether's theorem]].
 
-## Definition as a vector field on $J^\infty E$
+## Definition
+
+## As a vector field on $J^\infty E$
 
 +-- {: .num_defn}
 ###### Definition
@@ -39,7 +41,7 @@ Let $v \in \mathfrak{X}_{ev}(J^\infty E)$ be an evolutionary vector field. Its *
 
 =--
 
-## Definition as a generalized vector field on $E$
+### As a generalized vector field on $E$
 
 A generalized vector field on $E$ can be seen as a vector field on $E$ whose coefficients are functions on $J^\infty E$. More formally, it is a particular map from $J^\infty E$ to $T E$. Here we are interested only in a particular class of vertical vector fields.
 
@@ -59,6 +61,14 @@ Let $w$ be an evolutionary vector field. Its **prolongation** to $J^\infty E$ is
 
 =--
 
-## Relation between both definitions
+### Relation between both definitions
 
 If $v$ is an evolutionary vector field in the sense of the first defintion, then its characteristic $\pi_{\infty,0*} \circ v$ is an evolutionary vector field in the sense of the second definition. Conversely, if $w$ is an evolutionary vector field in the sense of the second defintion, then its prolongation $pr w$ is an evolutionary vector field in the sense of the first definition. Further, $pr (\pi_{\infty,0*} \circ v) = v$ and $\pi_{\infty,0*} \circ (pr w) = w$, so that there is a one-to-one correspondence between both definitions.
+
+## Related concepts
+
+* [[point symmetry]]
+
+* [[conserved current]]
+
+
