@@ -65,19 +65,19 @@ $$
      & {}_{\mathllap{\tau_X}}
        \searrow 
      &\swArrow_{\mathrlap{\mathbf{g}_1}}& 
-     \swarrow_{\mathrlap{G}\mathbf{Struc}} 
+     \swarrow_{\mathrlap{G\mathbf{Struc}}} 
      &\swArrow_{\simeq}& 
       \searrow^{\mathrlap{G\mathbf{Struc}}}
      \\
      && \mathbf{B}GL(V) && =& \mathbf{B}GL(V)
   }
-  \;\;\;
+  \;\;\;\;\;\;
    \stackrel{\simeq}{\Rightarrow}
-  \;\;\;
+  \;\;\;\;\;\;
   \array{
      X && \longrightarrow && \mathbf{B}G
      \\
-     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\mathbf{g}_2}}& \swarrow_{\mathrlap{G}\mathbf{Struc}} 
+     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\mathbf{g}_2}}& \swarrow_{\mathrlap{G\mathbf{Struc}}} 
      \\
      && \mathbf{B}GL(V) 
   }
