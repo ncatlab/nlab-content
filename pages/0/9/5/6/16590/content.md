@@ -1,0 +1,16 @@
+author: AnonymousCoward
+company: 
+title: G.822025
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+G.822025
+==============
+
+My First Slide
+-----------------
+
