@@ -25,13 +25,13 @@ In a [[monoidal category]] a _self-duality_ on a [[dualizable object]] $X$ is a 
 ### Relation to $\dagger$-compact structure
  {#RelationToDaggerCompactStructure}
 
-If each object $X$ of a [[compact closed category]] is equipped with a self-duality structure $X \simeq X^\ast$, then sending morphisms to their [[dual morphisms]] but with these identifications pre- and postcomposed
+If each object $X$ of a [[compact closed category]] is equipped with a self-duality structure $h_X : X \simeq X^\ast$, then sending morphisms to their [[dual morphisms]] but with these identifications pre- and postcomposed
 
 $$
   (-)^\dagger \;\colon\; 
   (X \stackrel{f}{\longrightarrow} Y)
   \mapsto
-  (Y \stackrel{\simeq}{\to} Y^\ast \stackrel{f^\ast}{\longrightarrow} X^\ast \stackrel{\simeq}{\to} X)
+  (Y \stackrel{h_Y}{\to} Y^\ast \stackrel{f^\ast}{\longrightarrow} X^\ast \stackrel{h_X^{-1}}{\to} X)
 $$
 
 constitutes a [[dagger-compact category]] structure.
@@ -39,6 +39,17 @@ constitutes a [[dagger-compact category]] structure.
 See for instance ([Selinger, remark 4.5](#Selinger)).
 
 Applied for instance to the category of finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
+
+## Graphical language
+
+In terms of [[string diagrams]] (following Joyal and Street's conventions for [[braided monoidal categories]]), [Selinger](#Selinger) argues that the isomorphism $h_X : X \simeq X^\ast$ should be depicted as a half-twist.  In particular, for a [[tortile category]] equipped with a self-duality structure, the coherence condition
+
+$$
+(X^\ast \stackrel{h_{X^\ast}}{\to} X^{\ast\ast} \stackrel{h_X^\ast}{\to} X^\ast) \; =\; 
+(X^\ast \stackrel{\theta_{X^\ast}}{\longrightarrow} X^\ast)
+$$
+
+decomposes a full [[twist]] into a pair of half-twists.
 
 ## Related concepts
 
