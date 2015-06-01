@@ -60,13 +60,21 @@ Some such restrictions are generally accepted. If, for example, all I know of an
 
 Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution over $\{1, 2, 3, 4, 5, 6\}$ should be chosen which maximizes [[entropy]], subject to the constraint that the mean is 4. Many familiar distributions are maximum entropy distributions, subject to moment constraints. For instance, the Normal distribution, $N(\mu, \sigma^2)$, is the distribution over the reals which maximises entropy subject to having mean $\mu$ and variance $\sigma^2$.
 
-##De Finetti Representation Theorem
+##Exchangeability
 
 Frequentist statistics makes much use of independent and identically distributed (iid) random variables, for example in sampling situations. If, say, we were to toss a coin repeatedly and record the outcomes, the frequentist would typically understand this as sampling from a Bernoulli distribution for some fixed value $p$ of the coin showing heads. From the sample one could then calculate an estimate and confidence interval for the true value of $p$.
 
-Many Bayesians, in particular [[Bruno de Finetti]], argue that this makes no sense since probability is not in the world, but rather it represents the strengths of our beliefs in different outcomes. Their formulation in such repeated sampling cases is to say that if our degrees of belief are such that the probability we assign to any finite sequence of tosses is invariant under any permutation, then we can represent our degrees of belief for sequences as arising from a mixture of Bernoulli distributions for some prior distribution over the value of $p$. This result has a generalization for multivariate distributions.
+Many Bayesians, in particular [[Bruno de Finetti]], argue that this makes no sense since probability is not in the world, but rather it represents the strengths of our beliefs in different outcomes. Their formulation in such repeated sampling cases is to say that if our degrees of belief are such that, for all $n$, the probability we assign to any sequence of $n$ tosses is invariant under any permutation of $n$ elements, then we can represent our degrees of belief for all sequences as arising from a mixture of Bernoulli distributions for some prior distribution over the value of $p$. 
 
-Often, for ease of calculation, Dirichlet priors are chosen. In the Bernouilli case, these can be taken as representing one's confidence as though one had already seen a certain number of heads and tails. Bayesians are sometimes criticized for the subjectivity inherent in the choice of a prior, but in many cases prior distributions will be 'washed out' by the weight of the evidence.
+More formally, given a sequence of random variables $\{X_i\}^\infty_{i = 1}$ each taking the values $0$ and $1$, de Finetti's Representation Theorem says that the sequence is exchangeable if and only if there is a random variable $\Theta: \Omega \to [0, 1]$, with distribution $\mu_{\Theta}$, such that
+
+$$
+P\{X_1=x_1,\ldots,X_n=x_n\}=\int_{[0,1]} \theta^s (1 - \theta)^{n - s} d \mu_{\Theta}(\theta),
+$$
+
+in which $s = \sum^n_{i=1} x_i$. 
+
+Often, for ease of calculation, Beta distributions are chosen as priors on $p$, which can be taken as representing one's confidence as though one had already seen a certain number of heads and tails. Bayesians are sometimes criticized for the subjectivity inherent in the choice of a prior, but in many cases, such as this one, prior distributions will eventually be 'washed out' by the weight of the evidence.  The de Finetti theorem has a generalization for multivariate distributions ([BBF](#BBF)).
 
 Of course, exchangeability may not represent the strength of one's prior beliefs accurately. For example, in the case of coin tossing, I may have a suspicion of there being something in the tossing mechanism which would make the result of one toss depend on its predecessor. Then it would be quite reasonable for me, say, to have accorded a higher prior probability to the sequence of one hundred heads followed by one hundred tails than to some of its permutations. There are, however, generalizations of de Finetti's representation theorem to Markov chain situations ([Diaconis and Freedman](#DF80})).
 
@@ -79,6 +87,8 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 * {#Polya} [[George Polya]], _Mathematics and Plausible Reasoning: Vol. II: Patterns of Plausible Inference_, Princeton University Press, 1954.
 
 * {#DF80} [[Persi Diaconis]] and David Freedman, "De Finetti's theorem for Markov chains." Annals of Probability, 8(1), 115-130, 1980.
+
+* {#BBF} A. Bach, H. Blank, H. Francke, _Bose-Einstein statistics derived from the statistics of classical particles_, Lettere Al Nuovo Cimento Series 2, Volume 43, Issue 4, pp 195-198.
 
 Discussion of applications in [[astronomy]] and [[cosmology]] includes
 
