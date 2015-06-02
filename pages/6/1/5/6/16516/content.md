@@ -62,7 +62,7 @@ $$
 +-- {: .num_defn #LineLienAlgebra}
 ###### Definition
 
-For $p \in \mathbb{R}$ write $b^{p+1}\mathbb{R}$ for the [[Line Lie n-algebra|Liune Lie (p+2)-algebra]], given by the [[Chevalley-Eilenberg algebra]] of the form
+For $p \in \mathbb{R}$ write $b^{p+1}\mathbb{R}$ for the [[line Lie n-algebra|Line Lie (p+2)-algebra]], given by the [[Chevalley-Eilenberg algebra]] of the form
 
 $$
   CE(b^{p+1}\mathbb{R})
@@ -142,7 +142,7 @@ $$
   }
 $$
 
-where on [[formal dual]] [[Chevalley-Eilenberg algebras]] in our defining generating elements, the horizontal map is given by $g_{p+4}\mapsto g_{p+4}$ and the vertical map by $g_{p+4}\mapsto 0$ and $g_{2p+3}\mapsto g_{2p+2}$.
+where on [[formal dual]] [[Chevalley-Eilenberg algebras]] in our defining generating elements, the horizontal map is given by $g_{p+4}\mapsto g_{p+4}$ and the vertical map by $g_{p+4}\mapsto 0$ and $g_{2p+3}\mapsto g_{2p+3}$.
 
 By the discussion at _[[∞-action]]_ this exhibits a $b^{p}\mathbb{R}$-action on $b^{2p+2}\mathbb{R}$, for which $b^{2p+3} \mathbb{R}/b^{p}\mathbb{R}$ is the [[homotopy quotient]], whence the notation.
 
@@ -201,7 +201,7 @@ $$
 and specifically for the representive of this homotopy fiber which, by the [recognition theorem for L-∞ extensions](model+structure+for+L-infinity+algebras#HomotopyFiberProducts), is given by having the [[Chevalley-Eilenberg algebra]] 
 
 $$
-  CE(\mathfrak{m}2\mathfrak{brane}) = (CE(\mathbb{R}^{10,1\vert \mathbf{32}})\otimes \langle c_3\rangle, d c_3 = \mu_4)
+  CE(\mathfrak{m}2\mathfrak{brane}) = (CE(\mathbb{R}^{10,1\vert \mathbf{32}})\otimes \langle c_3\rangle, d c_3 = -\mu_4)
   \,.
 $$
 
@@ -210,21 +210,98 @@ $$
 In terms of def. \ref{m2braneLie3Algebra}, the second item in prop. \ref{CocyclesOn11dSuperMinkowski} reads as follows:
 
 
-+-- {: .num_cor}
++-- {: .num_cor #The7CocycleOnm2brane}
 ###### Corollary
 
-There is a super $L_\infty$-cocycle
+There is a super $L_\infty$-cocycle of the form
 
 $$
   \mathfrak{m}2\mathfrak{brane}
-  \stackrel{c_3 \wedge \mu_4 - \frac{1}{15} \mu_7}{\longrightarrow}
+  \stackrel{c_3 \wedge \mu_4 + \frac{1}{15} \mu_7}{\longrightarrow}
   b^7 \mathbb{R}
   \,.
 $$
 
 =--
 
-But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $c_3 \wedge \mu_4 - \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[L-∞ action]] on $b^6 \mathbb{R}$.
+But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $c_3 \wedge \mu_4 - \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[∞-action]] on $b^6 \mathbb{R}$. Such a natural action is given by prop. \ref{b2RactionOnb2p2R}. To exhibit in components the equivariance of the 7-cocycle in corollary \ref{The7CocycleOnm2brane} with respect to this action we need a [[resolution]] of [[super Minkowski spacetime]]:
+
++-- {: .num_defn}
+###### Definition
+
+Write $\tilde \mathbb{R}^{10,1\vert \mathbf{32}}$ for the [[super L-∞ algebra]] whose [[Chevalley-Eilenberg algebra]] is obtained from that of [[super Minkowski spacetime]] by
+
+
+$$
+  CE\left(
+   \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
+  \right)
+  \coloneqq
+  \left(
+   CE\left(
+     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle c_3, g_4\right\rangle ,
+     {{d c_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
+  \right)
+  \,.
+$$
+
+The canonical morphism
+
+$$
+  \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{10,1\vert \mathbf{32}}
+$$
+
+given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, $c_3 \mapsto 0$, $g_4 \mapsto 0$, is clearly an equivalence.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[diagram]] of [[L-∞ algebras]] of the form
+
+$$
+  \array{
+    \mathfrak{m}2\mathfrak{brane} 
+    &&
+      \stackrel{c_3 \wedge \mu_4  + \frac{1}{15}\mu_7 }{\longrightarrow}
+    &&
+    b^6 \mathbb{R}
+    \\
+    \downarrow && && \downarrow
+    \\
+    \mathbb{R}^{10,1\vert\mathbf{32}} 
+    && 
+      \stackrel{c_3 \wedge (d c_3 + 2 \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
+    && 
+    b^6 \mathbb{R}/b^2 \mathbb{R}
+    \\
+    & \searrow && \swarrow
+    \\
+    && b^3 \mathbb{R}
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$$
+  \begin{aligned}
+    d(c_3 \wedge (d c_3 + 2\mu_4) + \frac{1}{15}\mu_7)
+    &=
+    d c_3 \wedge d c_3 + 2 d c_3 \wedge \mu_4 + \mu_4 \wedge \mu_4
+    \\
+    & = (d c_3 + \mu_4) \wedge (d c_3 + \mu_4)
+    \\
+    & = g_4 \wedge g_4
+  \end{aligned}
+$$
+
+=--
 
 
 ##### The D-branes
