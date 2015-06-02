@@ -61,6 +61,8 @@ If one drops condition (3) in the definition of combinatorial map (i.e., the req
 
 * A. Jacques (1970), Constellations et graphes topologiques, _Colloque Math. Soc. Janos Bolyai_, 657-672.
 
+* W. T. Tutte. What is a map? In _New Directions in Graph Theory_ (ed. F. Harary), Academic Press, New York, 309-325, 1973.
+
 * [[Gareth A. Jones]] and [[David Singerman]], Theory of Maps on Orientable Surfaces. Proceedings of the London Mathematical Society, 37:273-307, 1978.
 
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
