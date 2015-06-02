@@ -4,3 +4,17 @@
 |function symbols of $T$|$\to$|morphisms of $C$|
 |relation symbols of $T$|$\to$|subobjects in $C$|
 |axioms of $T$|$\to$|containments in $C$|
+
+
+$$
+  CE\left(
+   \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
+  \right)
+  \coloneqq
+  \left(
+   CE\left(
+     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle c_3, g_4\right\rangle ,
+     {{d c_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
+  \right)
+  \,.
+$$
