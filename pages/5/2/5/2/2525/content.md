@@ -1,3 +1,4 @@
+[[!redirects Euler-Lagrange equation]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -80,3 +81,4 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 [[!redirects laws of motion]]
 
 
+hollymolly 
