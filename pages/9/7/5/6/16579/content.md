@@ -1,1 +1,3 @@
 [webpage](http://www.southampton.ac.uk/maths/about/staff/gaj2.page)
+
+[[!redirects Gareth A. Jones]]
