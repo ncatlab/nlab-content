@@ -8,7 +8,7 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-Note that the last condition (which can also be described as requiring that $\theta$ be a **cellular embedding** or **2-cell embedding**) implies that $G$ must be a _connected_ graph (i.e., that there is a path between any pair of vertices).
+These conditions can be summarized by saying that $\theta$ is a ''cellular embedding'' (or "2-cell embedding").
 
 Topological maps are always considered up to homeomorphism, and the **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
 
@@ -25,6 +25,8 @@ The conditions on the surface $X$ are standard, and lead to an elegant, purely c
 * [[branched cover of the Riemann sphere]]
 
 ## References
+
+* [[Gareth A. Jones]] and [[David Singerman]], Theory of Maps on Orientable Surfaces. Proceedings of the London Mathematical Society, 37:273-307, 1978.
 
 Fairly elementary sources for background material include:
  
