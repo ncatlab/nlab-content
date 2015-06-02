@@ -1,0 +1,9 @@
+
+
+* [cv pdf](http://persone.csia.unipd.it/persone/curriculum/75E8A2ADC5E3DD4BF7D8D80816D2568E.pdf)
+
+## related $n$Lab entries
+
+* [[M5-brane]]
+
+category: people
