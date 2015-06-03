@@ -21,7 +21,22 @@ A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called 
 
 ##Example
 
-* The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $\mathcal{S}^{\Delta_1^{op}}$ is the topos of reflexive **graphs**.
+The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $\mathcal{S}^{\Delta_1^{op}}$ is the topos of reflexive graphs.
+
+To see this, recall that a **reflexive graph** consists of a set of vertices $V$, a set of edges $E$, source and target maps $s, t : E \to V$, and a map $i : V \to E$ assigning to each vertex an 'identity edge' from that vertex to itself, so that $s(i(v)) = t(i(v)) = v$.  
+
+We can describe a reflexive graph without ever mentioning its vertices by using the identity edge $i(v)$ as a stand-in for $v$.  To do this, we 
+define operations $\delta_1, \delta_2 : E \to E$ by 
+
+$$  \delta_1(e) = i(s(e)), \qquad \delta_2(e) = i(t(e)) $$
+
+and note that
+
+$$ \delta_1(\delta_1(e)) = \delta_2(\delta_1(e)) = \delta_1(e) $$
+
+$$ \delta_1(\delta_2(e)) = \delta_2(\delta_2(e)) = \delta_2(e) $$
+
+Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, where we think of the monoid $\Delta_1$ as a one-object category.  In other words, it gives a presheaf on $\Delta_1$.  Conversely, any presheaf on $\Delta_1$ determines a reflexive graph.
 
 ##Properties
 
