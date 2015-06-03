@@ -149,7 +149,7 @@ $$
     \\
     && \bot && \bot
     \\
-    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& \Re & \stackrel{rheonomic}{}
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
     \\
     && \vee && \vee
     \\
