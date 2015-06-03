@@ -1,1 +1,33 @@
-[Lean](http://leanprover.net/) is a proof assistant based on dependent type theory.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[Lean](http://leanprover.net/) is a [[proof assistant]] based on [[dependent type theory]]. Like [[Coq]] and [[Agda]], it may be used to implement [[homotopy type theory]].
+
+## References
+
+* Lean website ([leanprover.github.io](https://leanprover.github.io))
+
+* [[Leonardo de Moura]], Soonho Kong, [[Jeremy Avigad]], [[Floris van Doorn]], Jakob von Raumer, _The Lean Theorem Prover (system description)_ ([pdf](http://www.andrew.cmu.edu/user/avigad/Papers/lean_system.pdf))
+
+* [[Jeremy Avigad]],  [[Leonardo de Moura]],  Soonho Kong, _Theorem Proving in Lean_ ([pdf](https://leanprover.github.io/tutorial/tutorial.pdf))
+
+
+* _The Lean Homotopy Type Theory Library_ ([GitHUb](https://github.com/leanprover/lean/blob/master/hott/hott.md))
