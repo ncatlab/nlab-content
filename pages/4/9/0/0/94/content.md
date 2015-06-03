@@ -337,6 +337,7 @@ $$
     d d t^a 
       &= 
     d (-1)\sum_{k = 1}^\infty 
+    \frac{1}{k!}
     [t_{a_1}, \cdots, t_{a_k}]^a_k
    \,
    t^{a_1} \wedge \cdots \wedge t^{a_k}
@@ -389,7 +390,7 @@ $$
 Therefore the condition $d^2 = 0$ is equivalent to the condition 
 
 $$
-    \sum_{k+l = n+1}
+    \sum_{k+l = n-1}
     \sum_{\sigma \in Unsh(l,k-1)}
     (-1)^{sgn(\sigma)}
     [[t_{a_1}, \cdots, t_{a_l}], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}]
