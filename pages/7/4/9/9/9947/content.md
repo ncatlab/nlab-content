@@ -32,7 +32,7 @@ Similar to Mizar is is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have
 
 * [[Mizar]], [[NuPRL]], [[Isabelle]], [[HOL]]
 
-* [[Coq]], [[Agda]]
+* [[Coq]], [[Agda]], [[Lean]]
 
 Projects for formalization of mathematics
 
