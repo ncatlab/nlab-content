@@ -28,11 +28,11 @@ In a context of [[synthetic differential geometry]]/[[differential cohesion]] th
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  \Re \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $\Re$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
 
 Here $\Re$ is the **reduction modality**. The [[reflective subcategory]] that it defines is that of [[reduced objects]].
 
