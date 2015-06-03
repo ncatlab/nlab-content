@@ -865,7 +865,7 @@ where vertically we have the [[de Rham differential]] and horizontally the Cech 
 The corresponding [[total complex]] has in degree $n$ the [[direct sum]] of the entries in this double complex which are on the $n$th nw-se off-diagonal and has the total differential
 
 $$
-  D = d + (-1)^{deg} \del
+  D = d + (-1)^{deg} \delta
 $$
 
 with $deg$ denoting form degree.
