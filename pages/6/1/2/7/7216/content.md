@@ -160,3 +160,6 @@ See [[Riesz representation theorem]] for examples from [[functional analysis]].
 [[!redirects topological dual spaces]]
 [[!redirects topological dual]]
 [[!redirects topological duals]]
+
+[[!redirects linear dual]]
+
