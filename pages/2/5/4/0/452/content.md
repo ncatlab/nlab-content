@@ -96,7 +96,7 @@ This equation is known as the **Peiffer rule** in the literature.
 
 ### Morphisms {#Morphisms} 
 
-For $G$ and $H$ two [[strict 2-group]]s coming from crossed modules $[G]$ and $H$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to H$ is a [[2-functor]]
+For $G$ and $H$ two [[strict 2-group]]s coming from crossed modules $[G]$ and $[H]$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to [H]$ is a [[2-functor]]
 
 $$
   \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
