@@ -69,41 +69,43 @@ $$(c \triangleright b) \triangleleft a = (c \triangleleft a)\triangleright (b \t
 
 which are consequences of the definition(s) given earlier.
 
-Even simpler than a rack is a 'shelf'.  A set with a binary operation $\triangleright$ obeying the left self-distributive law
+Even simpler than a rack is a **shelf**.  A set with a binary operation $\triangleright$ obeying the left self-distributive law
 
 $$ a \triangleright (b \triangleright c) = (a \triangleright b)\triangleright (a \triangleright  c)   $$
 
 is called a **left shelf**, and similarly a set with a binary operation $\triangleleft$ obeying the right self-distributive law is called a **right shelf**.
 
+A unital left shelf is the same as a graphic monoid: for a proof see [[graphic category]].
+
 ## References
 
-* (popular) Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
+* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
-* [Wikipedia page](http://en.wikipedia.org/wiki/Racks_and_quandles)
+* Wikipedia, [Racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles)
 
 * Colin Rourke, Roger Fenn, (1992). _Racks and links in codimension 2_. J. Knot Theory and Its Ramifications 1 (4): 343&#8211;406. 
+
 * Roger Fenn, Colin Rourke, Brian Sanderson, _Trunks and classifying spaces_, Appl. Categ. Structures __3__ (1995), no. 4, 321&#8211;356 [MR1364012](http://www.ams.org/mathscinet-getitem?mr=1364012)[doi](http://dx.doi.org/10.1007/BF00872903); _The rack space_, Trans. Amer. Math. Soc. __359__ (2007), no. 2, 701&#8211;740 [MR2255194](http://www.ams.org/mathscinet-getitem?mr=2255194)
 
-* Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html). link not working!
+* Sam Nelson, [Quandle theory](http://www.esotericka.org/cmc/quandles.html).
 
-* J. Scott Carter, _A survey of quandle ideas_, [arxiv](http://arxiv.org/abs/1002.4429).
+* J. Scott Carter, _A survey of quandle ideas_, [arXiv](http://arxiv.org/abs/1002.4429).
 
-* Seiichi Kamada, _Knot invariants derived from quandles and racks_, [arxiv](http://arxiv.org/abs/math/0211096).
+* Seiichi Kamada, _Knot invariants derived from quandles and racks_, [arXiv](http://arxiv.org/abs/math/0211096).
 
-* Alissa Crans, _Shelves, racks, spindles and quandles_ [arxiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
+* Alissa Crans, _Shelves, racks, spindles and quandles_, [arXiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_, p. 56.
 
 The last reference makes it clear that racks are algebras of a [[Lawvere theory]], so that racks may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).
 
-* Nicol&#225;s Andruskiewitsch, Mati&#225;s Gra&#241;ab, _From racks to pointed Hopf algebras_, Adv. Math. __178__(2):177--243 (2003) [math.QA/0202084](http://arxiv.org/abs/math/0202084) (<a href="http://dx.doi.org/10.1016/S0001-8708(02)00071-3">doi</a>)
+* Nicol&#225;s Andruskiewitsch, Mati&#225;s Gra&#241;ab, _From racks to pointed Hopf algebras_, Adv. Math. __178__(2):177--243 (2003, [arxiv](http://arxiv.org/abs/math/0202084) (<a href="http://dx.doi.org/10.1016/S0001-8708(02)00071-3">doi</a>)
 
 A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie racks has been proposed in
 
-* Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
-_L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
+* Simon Covez, _The local integration of Leibniz algebras_, [arXiv](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv](http://arxiv.org/abs/1202.2269); _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
 
 There are also crossed modules for racks:
 
-* Alissa S. Crans, Friedrich Wagemann, _Crossed modules of racks_, [arxiv/1310.4705](http://arxiv.org/abs/1310.4705)
+* Alissa S. Crans, Friedrich Wagemann, _Crossed modules of racks_, [arXiv](http://arxiv.org/abs/1310.4705)
 
 [[!redirects rack]]
 [[!redirects racks]]
