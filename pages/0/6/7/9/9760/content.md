@@ -3,7 +3,7 @@ The **[[brane]] scan**.
 
 The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]] (see at _[[table of branes]]_ for further links and see at _[[schreiber:The brane bouquet]]_ for the full classification):
 
-| $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
+| $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
 |--|--------|---|---|---|---|---|---|---|----|----|
 | 11 | |  |  [[M2-brane|M2]] |  |   | [[M5-brane|M5]] |   |   |   |   | 
 | 10 | [[D0-brane|D0]]  | [[F1-brane|F1]], [[D1-brane|D1]]  | [[D2-brane|D2]]  | [[D3-brane|D3]] | [[D4-brane|D4]]  | [[NS5-brane|NS5]], [[D5-brane|D5]] |  [[D6-brane|D6]]  | [[D7-brane|D7]]  | [[D8-brane|D8]]  | [[D9-brane|D9]]  | 
@@ -12,14 +12,14 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 | 7 | |   | [[topological M2-brane|M2]]${}_{top}$  |  |   |  |   |   |   |   |    
 | 6 | |  [[little string|F1]]${}_{little}$, [[self-dual string|S1]]${}_{sd}$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   | 
 | 5 | |  | $\ast$   | |   |  |   |   |   |   | 
-| 4 | | [[super 2-brane in 4d|*]]  | $\ast$   | |   |  |   |   |   |   |   
+| 4 | | $\ast$  | [[super 2-brane in 4d|*]]   | |   |  |   |   |   |   |   
 | 3 | | [[super 1-brane in 3d|*]]  |  | |   |  |   |   |   |   |
 
 (The first colums follow the [[exceptional spinors table]].)
 
 The corresponding exceptional [[super L-∞ algebra]] [[∞-Lie algebra cohomology|cocycles]] (schematically, without prefactors):
 
-| $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
+| $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
 |--|--------|---|---|---|---|---|---|---|----|----|
 | 11 | |  |  $\Psi^2 E^2$ on [[super Poincare Lie algebra|sIso]](10,1) |  |   | $\Psi^2 E^5 + \Psi^2 E^2 C_3$ on [[m2brane]]  |   |   |   |   | 
 | 10 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](9,1) |  $B_2^2 + B_2 \Psi^2 + \Psi^2 E^2$ on [[type II supergravity Lie 2-algebra|StringIIA]] | $\cdots$ on [[type II supergravity Lie 2-algebra|StringIIB]]  | $B_2^3 + B_2^2 \Psi^2 + B_2 \Psi^2 E^2 + \Psi^2 E^4$  on [[type II supergravity Lie 2-algebra|StringIIA]] | $\Psi^2 E^5$ on [[super Poincare Lie algebra|sIso]](9,1) |  $B_2^4 + \cdots + \Psi^2 E^6$ on [[type II supergravity Lie 2-algebra|StringIIA]]  | $\cdots$ on [[type II supergravity Lie 2-algebra|StringIIB]]  | $B_2^5 + \cdots + \Psi^2 E^8$ in [[type II supergravity Lie 2-algebra|StringIIA]]  | $\cdots$ on [[type II supergravity Lie 2-algebra|StringIIB]]  | 
