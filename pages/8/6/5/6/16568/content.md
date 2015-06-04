@@ -1296,7 +1296,7 @@ for the truncated [[de Rham complex]] regarded as an abelian [[L-∞ algebra]].
 ###### Proposition
 
 Given a [[n-plectic manifold|pre-(p+1)-plectic manifold]] $(X,\omega)$,
-the [[Poisson bracket Lie n-algebra|Poisson bracket Lie $(p+1)$-algebra]]
+the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]]
 $\mathfrak{poiss}(X,\omega)$, def. \ref{PoissonBracketLienAlgebra}, is an [[L-∞ extension]] of the [[Hamiltonian vector fields]] by the truncated de Rham complex,
 def. \ref{TruncatedDeRhamComplexAsLInfinity}, there is a [[homotopy fiber sequence]] of $L_\infty$-algebras of the form
 
