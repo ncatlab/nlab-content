@@ -267,6 +267,13 @@ Then the left square and  the outer rectangle are pullbacks but the right square
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a sort of "partial converse"; see [[homotopy pullback#HomotopyFiberCharacterization]].
+
+=--
+
 ### Saturation
 
 The [[saturated class of limits|saturation]] of the class of pullbacks is the class of limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial and such that $C$ is [[L-finite category|L-finite]].
