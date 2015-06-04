@@ -31,7 +31,7 @@ F. William Lawvere
 
 * ([web site](http://www.acsu.buffalo.edu/~wlawvere/), [Wikipedia entry](http://en.wikipedia.org/wiki/William_Lawvere))
 
-is an influential pure [[category theory|category theorist]].
+is an influential [[category theory|category theorist]].
 
 See 
 
@@ -185,6 +185,14 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].
 
+* _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_, Proceedings of the first international Conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City pp. 51-74 
+
+  (contains the most explicit expression of Hegelian concepts in the context of the presheaf topos on $\Delta _1$ and a footnote on Lawvere's relation to Hegelian idealism)
+
+* _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+
+  (on [[graphic category|graphic categories]] and their presheaf categories)
+
 * _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
 
   (on -- implicitly -- [[cohesive topos]]es);
@@ -202,6 +210,13 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 pages 43-56, 1994.
 
   on formalizing [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]].  
+
+
+* {#Lawvere95} [[William Lawvere]], _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
+
+  (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
+
+* _Grassmann's Dialectics and Category Theory_, in _Hermann G&#252;nther Gra&#223;mann (1809&#8211;1877): Visionary Mathematician, Scientist and Neohumanist Scholar_, Boston Studies in the Philosophy of Science Volume 187, 1996, pp 255-264 ([publisher](http://link.springer.com/chapter/10.1007%2F978-94-015-8753-2_21))
 
 * _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
 
@@ -221,6 +236,11 @@ pages 43-56, 1994.
 
   (on [[Cauchy complete categories]])
 
+* _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf))
+
+* _Categorical algebra for continuum micro physics_, JPAA **175** (2002) pp. 267-287.  ([pdf](http://www.sciencedirect.com/science/article/pii/S002240490200138X/pdfft?md5=ebd435105778d597f25141bf065978e3&pid=1-s2.0-S002240490200138X-main.pdf))
+
+
 * {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
   (on [[set theory]] from a practical [[category theory|theoretic]] point of view (informal [[ETCS]]))
@@ -228,21 +248,11 @@ pages 43-56, 1994.
 * _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
   (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
-
-* _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_, Proceedings of the first international Conference on algebraic methodology and software technology University of Iowa, may 22-24 1989, Iowa City pp.51-74 
-
-  (contains the most explicit expression of Hegelian concepts in the context of the presheaf topos on $\Delta _1$ and a footnote on Lawvere's relation to Hegelian idealism)
+&#8206;
 
 * _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 
   (on the notion of [[gros topos]]es)
-
-
-* {#Lawvere95} [[William Lawvere]], _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
-
-  (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
-
-* _Grassmann's Dialectics and Category Theory_, in _Hermann G&#252;nther Gra&#223;mann (1809&#8211;1877): Visionary Mathematician, Scientist and Neohumanist Scholar_, Boston Studies in the Philosophy of Science Volume 187, 1996, pp 255-264 ([publisher](http://link.springer.com/chapter/10.1007%2F978-94-015-8753-2_21))
 
 
 * _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
@@ -252,7 +262,6 @@ pages 43-56, 1994.
 * _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ , lecture in Como (2008)  
 
   (on [[cohesive topos]]es)
-
 
 * _Open problems in topos theory_, April 2009 ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
 
