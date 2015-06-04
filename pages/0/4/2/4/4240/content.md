@@ -88,7 +88,7 @@ He attributes this result to:
 
 ## References ##
 
-* wikipedia: [racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles)
+* Wikipedia: [Racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles)
 * David Joyce, _A classifying invariant of knots; the knot quandle_, J. Pure Appl. Alg. __23__ (1982), 37-65, <a href="http://dx.doi.org/10.1016/0022-4049(82)90077-9">doi</a>, [MR83m:57007](http://www.ams.org/mathscinet-getitem?mr=638121); _Simple quandles_,  J. Algebra __79__ (1982), no. 2, 307&#8211;318, <a href="http://dx.doi.org/10.1016/0021-8693(82)90305-2">doi</a>, [MR84d:20078](http://www.ams.org/mathscinet-getitem?mr=682881)
 
 * Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
