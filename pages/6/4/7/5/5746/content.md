@@ -18,7 +18,7 @@
 For $\mathfrak{g}=\bigoplus_{i}\mathfrak{g}^i$ a [[differential graded Lie algebra]], let $MC(\mathfrak{g})$ be the set of [[Maurer-Cartan element]]s, i.e.,
 
 $$
-MC(\mathfrak{g})=\{x\in \mathfrak{g}^1 such that dx+\frac{1}{2}[x,x]=0\}
+MC(\mathfrak{g})=\{x\in \mathfrak{g}^1 \;|\; dx+\frac{1}{2}[x,x]=0\}
 $$
 
 One thinks of element in this set as _flat $\mathfrak{g}$-[[connection on a bundle|connection]]s: indeed
