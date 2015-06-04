@@ -46,7 +46,38 @@ Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, whe
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* A graphic monoid is the same as a **unital [[left shelf]]**, meaning a set equipped with a binary operation that distributes over itself and has an element $1$ serving as a left and right unit.  For a proof see the [n-Cafe](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149)
+**Theorem.**  A graphic monoid is the same as a **unital [[left shelf]]**, meaning a set equipped with a binary operation that obeys the left self-distributive law
+
+$$  a (b c) = (a b)(a c) $$
+
+and has an element $1$ serving as a left and right unit:
+
+$$  1 a = a = a 1$$
+
+**Proof.** First start with a unital left shelf.  Note that
+
+$$ a  b = a  (1  b) = (a  1)  (a  b) = a  (a  b) $$
+
+and similarly
+
+$$ a  b = (a  b)  a $$
+
+We can thus deduce the associative law as follows:
+
+$$\begin{aligned}
+a  (b  c) &= (a  b)  (a  c) \\
+&= ((a  b)  a)  ((a  b)  c) \\
+&= (a  b)  ((a  b)  c) \\
+&= (a  b)  c
+\end{aligned}$$
+
+Conversely, suppose we have a graphic monoid.  Then we can prove the left self-distributive law as follows:
+
+$$ a (b c) = (a b) c = (a b a) c = (a b)(a c) \qquad \qed $$
+
+For more background see the comments on:
+
+* [The origin of the word "quandle"](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149), $n$-Category Caf&#233;.
 
 
 ##Related Pages
@@ -66,7 +97,7 @@ Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1
 
 * F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* F. W. Lawvere, _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* F. W. Lawvere, _More on Graphic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
 * F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
 
