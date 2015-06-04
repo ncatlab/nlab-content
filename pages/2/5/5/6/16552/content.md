@@ -189,7 +189,6 @@ From the discussion at _[[Lie integration]]_:
 =--
 
 +-- {: .num_remark #LieIntegrationIsFunctorial}
-
 ###### Remark
 
 The constructions in def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} are clearly [[functor|functorial]]: given a [[homomorphism]] of [[L-∞ algebras]]
@@ -237,9 +236,9 @@ $$
   CE(\mathfrak{g}) \longleftarrow CE(b^{p+1}\mathbb{R}) \colon \mu^\ast
 $$
 
-which manifestly picks a $d_{CE(\mathfrak{g})}$-closed elements in $CE^{p+2}(\mathfrak{g})$.
+which manifestly picks a $d_{CE(\mathfrak{g})}$-closed element in $CE^{p+2}(\mathfrak{g})$.
 
-Precomposition this $\mu^\ast$ with a flat [[L-∞ algebra valued differential form]]
+Precomposing this $\mu^\ast$ with a flat [[L-∞ algebra valued differential form]]
 
 $$
   A \in \Omega^1_{flat}(X,\mathfrak{g}) = Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(X))
@@ -268,7 +267,7 @@ as in example \ref{LInfinityCocyclesAsMorphisms},
 then its _group of [[periods]]_ is the [[discrete group|discrete]] additive [[subgroup]] $\Gamma \hookrightarrow \mathbb{R}$ of those [[real numbers]] which are [[integration of differential forms|integrations]]
 
 $$
-  \int_{\partial \Delta^{p+2}_{smth}} \mu^\ast A \in \mathbb{R}
+  \int_{\partial \Delta^{p+3}_{smth}} \mu^\ast A \in \mathbb{R}
 $$
 
 of the value of $\mu$, as in example \ref{LInfinityCocyclesAsMorphisms}, 
@@ -279,7 +278,7 @@ $$
   \,,
 $$
 
-over the [[boundary of a simplex|boundary of the (p+3)-simplex]] (which are forms with sitting instants on the $(p+2)$-dimensional faces that glue together; without restriction of generality may simply consider forms on the $(p+2)$-[[sphere]] $S^{p+2}$).
+over the [[boundary of a simplex|boundary of the (p+3)-simplex]] (which are forms with sitting instants on the $(p+2)$-dimensional faces that glue together; without restriction of generality we may simply consider forms on the $(p+2)$-[[sphere]] $S^{p+2}$).
 
 =--
 
@@ -410,7 +409,7 @@ $$
 
 For the special case that $G$ is an ordinary [[Lie group]], then $\flat_{dR}\mathbf{B}G \simeq \Omega^{1}_{flat}(-,\mathfrak{g})$, hence in this case the morphism being pulled back in def. \ref{DifferentiallyTiwstedGroup} is an [[equivalence]], and so in this case nothing new happens, we get $\tilde G \simeq G$.
 
-On the other extreme, when $G = \mathbf{B}^{p}U(1)$ is the [[circle n-group|circle (p+1)-group]], then def. \ref{DifferentiallyTiwstedGroup} produces reduces to the [[homotopy pullback]] that characterizes the [[Deligne complex]] and hence yields
+On the other extreme, when $G = \mathbf{B}^{p}U(1)$ is the [[circle n-group|circle (p+1)-group]], then def. \ref{DifferentiallyTiwstedGroup} reduces to the [[homotopy pullback]] that characterizes the [[Deligne complex]] and hence yields
 
 $$
   \widetilde{\mathbf{B}^p U(1)}
@@ -434,7 +433,7 @@ one see the conceptial meaning of def. \ref{DifferentiallyTiwstedGroup}:
 
 For $G$ a [[Lie group]], then the de Rham coefficients are just globally defined differential forms, $\flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})$ (by the discussion [here](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)), and in particular therefore the [[Maurer-Cartan form]] $\theta_G \colon G \to \flat_{dR}\mathbf{B}G$ is a globally defined differential form. This is no longer the case for general [[smooth ∞-groups]] $G$. In general, the [[Maurer-Cartan forms]] here is a [[cocycle]] in [[hypercohomology]], given only locally by differential forms, that are glued nontrivially, in general, via [[gauge transformations]] and [[higher gauge transformations]] given by lower degree forms.
 
-But the WZW terms that we are after are supposed to the [[prequantizations]] globally defined Maurer-Cartan forms. The homotopy pullback in def. \ref{DifferentiallyTiwstedGroup} is precisely the [[universal construction]] that enforces the existence of a globally defined Maurer-Cartan form for $G$, namely  $\theta_{\tilde G} \colon \tilde G \to \Omega^1_{flat}(-,\mathfrak{g})$.
+But the WZW terms that we are after are supposed to be [[prequantizations]] of globally defined Maurer-Cartan forms. The homotopy pullback in def. \ref{DifferentiallyTiwstedGroup} is precisely the [[universal construction]] that enforces the existence of a globally defined Maurer-Cartan form for $G$, namely  $\theta_{\tilde G} \colon \tilde G \to \Omega^1_{flat}(-,\mathfrak{g})$.
 
 =--
 
@@ -442,10 +441,32 @@ But the WZW terms that we are after are supposed to the [[prequantizations]] glo
 +-- {: .num_defn #WZWTermFromLieIntegration}
 ###### Definition
 
-Given an [[L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then via prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles} and forming [[homotopy limits]] this Lie integrates to (prop. \ref{WZWTermByUniversality}) a morphism of the form
+Given an [[nLab:L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then via prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles}, prop. \ref{TruncatedLieIntegrationOfCocycle} and using the [[nLab:natural transformation|naturality]] of the [[nLab:Maurer-Cartan form]], we have a morphism of [[nLab:cospan]] [[nLab:diagrams]] of the form
 
 $$
-  \mathbf{L}_{WZW}
+  \array{
+    \Omega^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR} \mathbf{B}G
+    &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+    \\
+    \uparrow^{\mathrlap{\theta_G}} && \uparrow^{\mathrlap{\theta_{\mathbf{B}^{p+1}(\mathbb{R}/\Gamma)}}}
+    \\
+    G &\stackrel{\Omega \mathbf{c}}{\longrightarrow}&
+    \mathbf{B}^{p+1} (\mathbb{R}/\Gamma)
+  }
+  \,.
+$$
+
+By the homotopy fiber product characterization of the [[nLab:Deligne complex]] this yields a morphism of the form
+
+$$
+  \mathbf{L}_{WZW}^{\mu}
    \;\colon\;
    \tilde G
    \longrightarrow
@@ -453,7 +474,7 @@ $$
   \,.
 $$
 
-which [[modulating morphisms|modulates]] a [[circle n-bundle with connection|p+1-connection]]/[[Deligne cohomology|Deligne cocycle]] on the differentially extended smooth $\infty$-group $\tilde G$ from def. \ref{DifferentiallyTiwstedGroup}.
+which [[nLab:modulating morphisms|modulates]] a [[nLab:circle n-bundle with connection|p+1-connection]]/[[nLab:Deligne cohomology|Deligne cocycle]] on the differentially extended smooth $\infty$-group $\tilde G$ from def. \ref{DifferentiallyTiwstedGroup}.
 
 This we call the _WZW term_ obtained by universal Lie integration from $\mu$.
 
@@ -467,14 +488,14 @@ Essentially this construction originates in ([[schreiber:The brane bouquet|FSS 1
 The WZW term of def. \ref{WZWTermFromLieIntegration} is a [[prequantization]] of 
 
 $$
-  \omega = \mu(\theta_{\tilde G})
+  \omega \coloneqq \mu(\theta_{\tilde G})
 $$
 
 $$
   \array{
      && \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
      \\
-     & \nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+     & {}^{\mathllap{\mathbf{L}_{WZW}^\mu}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
      \\
      \tilde G
      &\stackrel{\mu(\theta_{\tilde G})}{\longrightarrow}& \mathbf{\Omega}^{p+2}
@@ -522,7 +543,7 @@ $$
 $$ 
 
 where $e b^{p_1}\mathbb{R}$ is defined by its [[Chevalley-Eilenberg algebra]] 
-$CE(e b^{p_1}\mathbb{R})$ being the [[Weil algebra]] of $b^{p_1}$, which is the [[free construction|free]] differential graded algebra on a generator in degree $p_1$, and where the right vertical map takes that generator to 0 and takes its free image under the differential to the generator of $CE(b^{p_1+1}\mathbb{R})$.
+$CE(e b^{p_1}\mathbb{R})$ being the [[Weil algebra]] of $b^{p_1}\mathbb{R}$, which is the [[free construction|free]] differential graded algebra on a generator in degree $p_1$, and where the right vertical map takes that generator to 0 and takes its free image under the differential to the generator of $CE(b^{p_1+1}\mathbb{R})$.
 
 =--
 
@@ -791,7 +812,7 @@ $$
   \Sigma \longrightarrow \widetilde{\hat G}
 $$
 
-(which are the [[field (physics)|fields]] of the higher [[WZW model]] with WZW term $\mathbf{L}_2$) are pairs of plain maps $\phi \colon \Sigma \to \tilde G$ together with a differential cocycle on $\Sigma$, i.e. a $p_1$-form connection on $\Sigma$, which is twisted by $\phi$ in some way.
+(which are the [[field (physics)|fields]] of the higher [[WZW model]] with WZW term $\mathbf{L}_2$) are pairs of plain maps $\phi \colon \Sigma \to \tilde G$ together with a differential cocycle on $\Sigma$, i.e. a $p_1$-form connection on $\Sigma$, which is twisted by $\phi$ in a certain way.
 
 This oocurs for the (properly globalized) [[Green-Schwarz super p-brane sigma models]] of all the [[D-branes]] and of the [[M5-brane]]. For the D-branes $p_1 = 1$ and so there is a 1-form connection on their [[worldvolume]], the [[Chan-Paton gauge field]]. For the [[M5-brane]] $p_1 = 2$ and so there is a 2-form connection on its worldvolume, the [[self-dual higher gauge field]] in 6d.
 
