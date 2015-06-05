@@ -610,6 +610,7 @@ $$
   k \oplus \mathfrak{g}^* \oplus (\mathfrak{g}^* \wedge \mathfrak{g}^* ) \oplus \cdots
 $$ 
 
+
 (with the $n$th skew-symmetrized power in degree $n$)
 
 and whose [[differential]] $d$ (of degree +1) is on $\mathfrak{g}^*$ the dual of the Lie bracket
@@ -1549,7 +1550,7 @@ $$
 and specifically for the representive of this homotopy fiber which, by the [recognition theorem for L-∞ extensions](model+structure+for+L-infinity+algebras#HomotopyFiberProducts), is given by having the [[Chevalley-Eilenberg algebra]] 
 
 $$
-  CE(\mathfrak{m}2\mathfrak{brane}) = (CE(\mathbb{R}^{10,1\vert \mathbf{32}})\otimes \langle c_3\rangle, d c_3 = -\mu_4)
+  CE(\mathfrak{m}2\mathfrak{brane}) = (CE(\mathbb{R}^{10,1\vert \mathbf{32}})\otimes \langle h_3\rangle, d h_3 = -\mu_4)
   \,.
 $$
 
@@ -1565,14 +1566,14 @@ There is a super $L_\infty$-cocycle of the form
 
 $$
   \mathfrak{m}2\mathfrak{brane}
-  \stackrel{c_3 \wedge \mu_4 + \frac{1}{15} \mu_7}{\longrightarrow}
+  \stackrel{h_3 \wedge \mu_4 + \frac{1}{15} \mu_7}{\longrightarrow}
   b^6 \mathbb{R}
   \,.
 $$
 
 =--
 
-But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $c_3 \wedge \mu_4 - \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[∞-action]] on $b^6 \mathbb{R}$. Such a natural action is given by prop. \ref{b2RactionOnb2p2R}. To exhibit in components the equivariance of the 7-cocycle in corollary \ref{The7CocycleOnm2brane} with respect to this action we need a [[resolution]] of [[super Minkowski spacetime]]:
+But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $h_3 \wedge \mu_4 + \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[∞-action]] on $b^6 \mathbb{R}$. Such a natural action is given by prop. \ref{b2RactionOnb2p2R}. To exhibit in components the equivariance of the 7-cocycle in corollary \ref{The7CocycleOnm2brane} with respect to this action we need a [[resolution]] of [[super Minkowski spacetime]]:
 
 +-- {: .num_defn}
 ###### Definition
@@ -1587,8 +1588,8 @@ $$
   \coloneqq
   \left(
    CE\left(
-     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle c_3, g_4\right\rangle ,
-     {{d c_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
+     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle h_3, g_4\right\rangle ,
+     {{d h_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
   \right)
   \,.
 $$
@@ -1607,7 +1608,7 @@ $$
   \mathbb{R}^{10,1\vert \mathbf{32}}
 $$
 
-given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, $c_3 \mapsto 0$, $g_4 \mapsto 0$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $g_4 \mapsto 0$ and by being the identity on all other generators.
+given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, $h_3 \mapsto 0$, $g_4 \mapsto 0$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $g_4 \mapsto 0$ and by being the identity on all other generators.
 
 
 =--
@@ -1619,10 +1620,14 @@ There is a [[diagram]] of [[L-∞ algebras]] of the form
 
 $$
   \array{
+    && \vdots && \vdots
+    \\
+    && \downarrow \downarrow && \downarrow \downarrow
+    \\
     &&
     \mathfrak{m}2\mathfrak{brane} 
     &&
-      \stackrel{c_3 \wedge \mu_4  + \frac{1}{15}\mu_7 }{\longrightarrow}
+      \stackrel{h_3 \wedge \mu_4  + \frac{1}{15}\mu_7 }{\longrightarrow}
     &&
     b^6 \mathbb{R}
     \\
@@ -1633,12 +1638,12 @@ $$
     &\stackrel{\simeq}{\longleftarrow}&
     \mathbb{R}_{res}^{10,1\vert\mathbf{32}} 
     && 
-      \stackrel{c_3 \wedge (d c_3 + 2 \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
+      \stackrel{h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
     && 
     b^6 \mathbb{R}/b^2 \mathbb{R}
     \\
     &&
-    & \searrow && \swarrow
+    & {}_{\mathllap{\mu_4}}\searrow && \swarrow
     \\
     &&
     && b^3 \mathbb{R}
@@ -1650,25 +1655,31 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the diagram exists and commutes at the level of the underlying graded algebras of the [[formal dual]] CE-algebras is immediate in terms of the defining generators: each generator is mapped to the generator of the same name, if present, in the codomain, or to zero otherwise, except for $g_7 \in CE(b^6 \mathbb{R})$ which is sent to $c_3 \wedge \mu_4  + \frac{1}{15}\mu_7$ and $g_7 \in CE(b^6 \mathbb{R}/b^2 \mathbb{R})$, which is sent to $c_3 \wedge (d c_3 + 2 \mu_4) + \frac{1}{15}\mu_7 $, as indicated.  
+That the diagram exists and commutes at the level of the underlying graded algebras of the [[formal dual]] CE-algebras is immediate in terms of the defining generators: each generator is mapped to the generator of the same name, if present, in the codomain, or to zero otherwise, except for $g_7 \in CE(b^6 \mathbb{R})$ which is sent to $h_3 \wedge \mu_4  + \frac{1}{15}\mu_7$ and $g_7 \in CE(b^6 \mathbb{R}/b^2 \mathbb{R})$, which is sent to $h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 $, as indicated.  
 
 It remains to check that the middle horizontal map respects the CE-differentials: by prop. \ref{CocyclesOn11dSuperMinkowski} we have
 
 $$
   \begin{aligned}
-    d(c_3 \wedge (d c_3 + 2\mu_4) + \frac{1}{15}\mu_7)
+    d(h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7)
     &=
-    d c_3 \wedge d c_3 + 2 d c_3 \wedge \mu_4 + \mu_4 \wedge \mu_4
-    \\
-    & = (d c_3 + \mu_4) \wedge (d c_3 + \mu_4)
+    (g_4 - \mu_4) \wedge (g_4 + \mu_4) + \mu_4 \wedge \mu_4
     \\
     & = g_4 \wedge g_4
   \end{aligned}
 $$
 
-and by def. \ref{RationalSphereAlgebra} this says indeed that $g_7 \mapsto c_3 \wedge (d c_3 + 2\mu_4) + \frac{1}{15}\mu_7$ respects the CE-differentials.
+and by def. \ref{RationalSphereAlgebra} this says indeed that $g_7 \mapsto h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7$ respects the CE-differentials.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The form of the equivariant cocycle in prop. \ref{7CocycleOnM2BraneDescends} is that of the [[curvature]] of the [[geometry of physics -- WZW terms|WZW term]] of the [[sigma model]] describing the [[M5-brane]] as considered in ([BLNPST 97, (6),(8)](#BLNPST97)).
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
