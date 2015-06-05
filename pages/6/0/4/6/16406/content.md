@@ -1210,7 +1210,7 @@ By prop. \ref{EtalePullbackOfFormalDiskBundleIsFormalDiskBundle} the constructio
 
 =--
 
-This provides all the necessary structure to now set upan axiomatic theory of [[G-structure]] and [[higher Cartan geometry]]. This is discussed further at _[[geometry of physics -- G-structure and Cartan geometry]]_.
+This provides all the necessary structure to now set up an axiomatic theory of [[G-structure]] and [[higher Cartan geometry]]. This is discussed further at _[[geometry of physics -- G-structure and Cartan geometry]]_.
 
 ### Syntax Layer 
 
