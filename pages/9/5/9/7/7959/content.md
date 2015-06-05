@@ -126,13 +126,13 @@ Technical surveys on particle physics string phenomenology include
 
 * {#DouglasEtAl07} [[Michael Douglas]] et. al. (eds.), _[[String theory and the real world]]_, Les Houches  Session LXXXVII 2007
 
-* Hans Peter Nilles, _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
+* [[Hans-Peter Nilles]], _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
 
 * Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
 
 * [[Washington Taylor]], _TASI Lectures on Supergravity and String Vacua in Various Dimensions_ ([arXiv:1104.2051](http://arxiv.org/abs/1104.2051))
 
-* {#AKK12} Bobby Samir Acharya, [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+* {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
  
 * {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
@@ -144,16 +144,19 @@ Technical surveys on cosmological string phenomenology include
 
 The "bottom-up approach" to string model building is attributed to
 
-* G. Aldazabal, L. E. Ibanez, F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
- {#AIQU00}
+* {#AIQU00} G. Aldazabal, L. E. Ibanez, F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
+ 
+See also
+
+* [[Hans-Peter Nilles]], Patrick K.S. Vaudrevange, _Geography of Fields in Extra Dimensions: String Theory Lessons for Particle Physics_, Perspectives on String Phenomenology" (World Scientific) ([arXiv:1403.1597](http://arxiv.org/abs/1403.1597))
 
 ### Original articles
 
-* [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
- {#CHSW85}
+* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
  
-* [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
- {#AW01}
+ 
+* {#AW01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+ 
 
 * [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hep-th/0509212](http://arxiv.org/abs/hep-th/0509212))
 
@@ -237,9 +240,9 @@ Discussion of [[GUT]] models via [[F-theory]] is in
 
 A comprehensive account on the [[G2-MSSM]] is in 
 
-* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
+* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
-* [[Bobby Acharya]], [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+* [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
 with comments on comparison to more recent experiments in 
 
@@ -247,9 +250,9 @@ with comments on comparison to more recent experiments in
 
 Original articles include
 
-* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_ ([arXiv:hep-th/0701034](http://xxx.lanl.gov/abs/hep-th/0701034)) 
+* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_ ([arXiv:hep-th/0701034](http://xxx.lanl.gov/abs/hep-th/0701034)) 
 
-* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Diana Vaman, _An M theory Solution to the Hierarchy Problem_ ([arXiv:hep-th/0606262](http://arxiv.org/abs/hepth/0606262))
+* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Diana Vaman, _An M theory Solution to the Hierarchy Problem_ ([arXiv:hep-th/0606262](http://arxiv.org/abs/hepth/0606262))
 
 * [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the $G_2$-MSSM_, JHEP ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
 
