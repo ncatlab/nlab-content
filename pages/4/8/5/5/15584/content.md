@@ -31,7 +31,7 @@ The terminology originates with Lawvere ([1989b](#Law89b)) where graphic monoids
 
 _Graphic toposes_ were defined then as $FinSet^{\mathcal{G}^{op}}$ resulting in  presheaf categories of finite graph-like 'displays' that come with a well-behaved lattice of subtoposes permitting the kind of 'Hegelian analysis' that were a primary concern for [[Lawvere]] in ([Law89b](#Law89b), [Law91](#Law91), [Law02](#Law02)).[^hegel]
 
-[^hegel]: In particular, the graphics like the $\Delta_1$ in the [example](#ex) or the eight element _Hegelian taco_ monoid of (Lawvere [1989b](#Law89b)), express diagrammatically configurations of [[level|essential subtoposes]] occuring in Lawvere's mathematical rendering of basic concepts of Hegel's dialectic logic. For more on Lawvere's approach to Hegelian dialectics see at [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
+[^hegel]: In particular, the graphic monoid $\Delta_1$ in the [example](#ex) and the eight element _Hegelian taco_ monoid of (Lawvere [1989b](#Law89b)), express diagrammatically configurations of [[essential subtopos|essential subtoposes]] occuring in Lawvere's mathematical rendering of basic concepts of Hegel's dialectic logic. For more on Lawvere's approach to Hegelian dialectics see [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
 
 ##Example{#ex}
 
@@ -52,7 +52,7 @@ $$ \delta_1(\delta_2(e)) = \delta_2(\delta_2(e)) = \delta_2(e) $$
 
 Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, where we think of the monoid $\Delta_1$ as a one-object category.  In other words, it gives a presheaf on $\Delta_1$.  Conversely, any presheaf on $\Delta_1$ determines a reflexive graph.
 
-The more familiar two-sorted 'signature' for reflexive graphs, obtains from the [[Cauchy completion]] $\overline\Delta_1$ by identification of the isomorphic descendents of $\delta_1,\delta_2$: the resulting $\tilde\Delta_1$ has two objects and is basically an augmentation with reflexivity data of the familiar diagram $V\rightrightarrows E$ that underlies the topos of ("irreflexive") directed graphs, or [[quiver|quivers]]. All three of $\Delta_1,\overline\Delta_1,\tilde\Delta_1$ are graphic categories and the resulting presheaf toposes are, of course, equivalent.
+The more familiar two-sorted 'signature' for reflexive graphs can be obtained from the [[Cauchy completion]] $\overline\Delta_1$ by identifying the isomorphic descendents of $\delta_1,\delta_2$: the resulting $\tilde\Delta_1$ has two objects and is basically an augmentation with reflexivity data of the familiar diagram $V\rightrightarrows E$ that underlies the topos of ("irreflexive") directed graphs, or [[quiver|quivers]]. All three of $\Delta_1,\overline\Delta_1,\tilde\Delta_1$ are graphic categories and the resulting presheaf toposes are, of course, equivalent.
 
 ##Properties
 
