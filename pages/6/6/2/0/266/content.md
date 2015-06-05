@@ -541,11 +541,15 @@ functors in terms of left/right adjoints to pullbacks may be interpreted essenti
 See at _[[(∞,1)-Kan extension]]_.
 
 ### In a general 2-category
+  {#In2cat}
 
-The Kan extension of a functor may be regarded more abstractly as an extension-problem in the [[2-category]] [[Cat]] of categories. The same extension problem can be stated verbatim in any [[2-category]] and hence there is a corresponding more general notion of Kan extensions of [[1-morphisms]] in [[2-categories]].
+The Kan extension of a functor may be regarded more abstractly as an extension-problem in the [[2-category]] [[Cat]] of categories. The same extension problem can be stated verbatim in any [[2-category]] and hence there is a corresponding more general notion of Kan extensions of [[1-morphisms]] in [[2-categories]].  This is discussed in ([Lack 09, section 2.2](#Lack09)).
 
-This is discussed in ([Lack 09, section 2.2](#Lack09)).
+The question of defining a *pointwise* Kan extension in a general 2-category is more subtle, and there are at least two distinct approaches.  If the 2-category has [[comma objects]], then we can define a Kan extension to be pointwise if it remains a Kan extension upon pasting with any comma object; this is an "internalization" of the above definition in terms of *conical* colimits.  On the other hand, in a [[2-category equipped with proarrows]] we can define pointwise Kan extensions as particular weighted (co)limits using a representable weight; this generalizes the above definition as a weighted (co)limit.
 
+In some 2-categories such as $Cat$, both definitions agree; but in others they do not, and in general in this case it is the equipment-theoretic version that is "correct".  For instance, in $V Cat$ the equipment-theoretic version gives the right notion of pointwise Kan extension, whereas the comma-object one is too strong.
+
+As a concrete example, let $V=Cat$, so that $V Cat = 2 Cat$; then comma objects are not informative enough because they "don't see the 2-cells".  In even more specificity, let $B$ be the [[walking]] 2-cell and $M$ the walking pair of parallel 1-morphisms, with $f:1\to B$ and $g:1\to M$ the inclusions of the common domain of the parallel 1-morphisms; then the equipment-theoretic-pointwise $Lan_f g$ is constant at the domain object, whereas the comma-object-pointwise $Lan_f g$ does not exist.  See [(Roald, Example 2.24)](#Roald13) for details.
 
 
 ## Properties
@@ -856,6 +860,9 @@ The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discu
 
 * [[Steve Lack]], _A 2-categories companion_, in [[John Baez]], [[Peter May]], _[[Towards Higher Categories]]_, Springer, (2009) ([arXiv:math/0702535](http://arxiv.org/abs/math/0702535))
  {#Lack09}
+
+* Seerp Roald Koudenburg, *Algebraic weighted colimits*, [arXiv](http://arxiv.org/abs/1304.4079)
+ {#Roald13}
 
 [[!redirects Kan extension]]
 [[!redirects Kan extensions]]
