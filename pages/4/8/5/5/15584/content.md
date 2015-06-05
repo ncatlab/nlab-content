@@ -9,20 +9,33 @@
 =--
 =--
 
+# Contents
+* table of contents
+{:toc}
+
 [[!redirects graphic monoid]]
 [[!redirects graphics]]
 
 ##Idea
-A simple class of finite [[monoids]] and [[categories]] that permit an effective graphic display via their [[presheaf]] categories.
+
+A simple class of (finite) [[monoids]] and [[categories]] that permit an effective graphic display via their [[presheaf]] categories.
 
 
-##Definition
+## Definition
 
-A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called _graphic identity_ $x y x=x y$. A finite category $\mathcal{G}$ is called _graphic_ if the endomorphism monoid $End(x)$ is a graphic monoid for all objects $x$.
+A monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called _graphic identity_ $x y x=x y$ . A category $\mathcal{G}$ is called _graphic_ if the endomorphism monoid $End(x)$ is a graphic monoid for each object $x$.
 
-##Example
+### Remark
 
-The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $\mathcal{S}^{\Delta_1^{op}}$ is the topos of [[reflexive graphs]].
+The terminology originates with Lawvere ([1989b](#Law89b)) where graphic monoids and categories $\mathcal{G}$ are demanded to be _finite_.
+
+_Graphic toposes_ were defined then as $FinSet^{\mathcal{G}^{op}}$ resulting in  presheaf categories of finite graph-like 'displays' that come with a well-behaved lattice of subtoposes permitting the kind of 'Hegelian analysis' that were a primary concern for [[Lawvere]] in ([Law89b](#Law89b), [Law91](#Law91), [Law02](#Law02)).[^hegel]
+
+[^hegel]: In particular, the graphics like the $\Delta_1$ in the [example](#ex) or the eight element _Hegelian taco_ monoid of (Lawvere [1989b](#Law89b)), express diagrammatically configurations of [[level|essential subtoposes]] occuring in Lawvere's mathematical rendering of basic concepts of Hegel's dialectic logic. For more on Lawvere's approach to Hegelian dialectics see at [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
+
+##Example{#ex}
+
+The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $Set^{\Delta_1^{op}}$ is the topos of [[reflexive graphs]].
 
 To see this, recall that a _reflexive graph_ consists of a set of vertices $V$, a set of edges $E$, source and target maps $s, t : E \to V$, and a map $i : V \to E$ assigning to each vertex an 'identity edge' from that vertex to itself, so that $s(i(v)) = t(i(v)) = v$.  
 
@@ -41,13 +54,13 @@ Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, whe
 
 ##Properties
 
-* Lawvere (1989b, p.53) calls the graphic identity _'the least common generalization of constant (x=c) and identity (x=1)_'.
+* Lawvere calls the graphic identity _'the least common generalization of constant (x=c) and identity (x=1)_' ([1989b](#Law89b), p.53). By a _constant_ $c$ is meant here a $c\in M$ such that $cy=c$ for all $y\in M$.
 
 * In a graphic monoid every element is [[idempotent]] as can be directly seen from the graphic identity with $y=1$.
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* The free graphic monoid on a set $X$ is the set of totally ordered finite subsets of $S$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusions $S \hookrightarrow X$, $T \hookrightarrow X$ are order-preserving and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
+* The _free graphic monoid_ on a set $X$ is the set of totally ordered finite subsets of $X$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusions $S \hookrightarrow S\cup T$, $T \hookrightarrow S\cup T$ are order-preserving and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
 
   1 (corresponding to the empty subset of $X$), 
 
@@ -61,9 +74,18 @@ Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, whe
 
   and nothing else, since for example $a b b = a b$ and $b a b = b a$ (since the union of ordered subsets $\{a,b\} \cup \{b\} = \{a, b\}$ inherits the same ordering that $\{a,b\}$ had).
 
-* There is a relation between graphic monoids and [[shelf|shelves]]:
+* In particular, for a finite set of generators the free graphic monoid is finite and consists of all words without repetitions.[^schuetz]
 
-**Theorem.**  A graphic monoid is the same as a _unital [[left shelf]]_, meaning a set equipped with a binary operation that obeys the left self-distributive law
+[^schuetz]: The finiteness was basically already observed in Sch&#252;tzenberger ([1947](#Sch&#252;tz47)). See also Lawvere ([1989b](#Law89b)).
+
+### Graphic monoids as shelves
+
+There is a relation between graphic monoids and [[shelf|shelves]]:
+
++-- {: .num_prop #GraphicsAsShelves}
+###### Theorem
+
+A graphic monoid is the same as a _unital [[left shelf]]_, meaning a set equipped with a binary operation that obeys the left self-distributive law
 
 $$  a (b c) = (a b)(a c) $$
 
@@ -71,7 +93,12 @@ and has an element $1$ serving as a left and right unit:
 
 $$  1 a = a = a 1$$
 
-**Proof.** First start with a unital left shelf.  Note that the graphic identity
+=--
+
++-- {: .proof}
+###### Proof
+
+First start with a unital left shelf.  Note that the graphic identity
 holds:
 
    $$ a  b = a (b 1) = (a b) (a 1) = (a  b)  a $$
@@ -93,32 +120,36 @@ a  (b  c) &= (a  b)  (a  c) \\
 
    Conversely, suppose we start with a graphic monoid.  Then we can prove the left self-distributive law as follows:
 
-   $$ a (b c) = (a b) c = (a b a) c = (a b)(a c) \qquad \qed $$
+   $$ a (b c) = (a b) c = (a b a) c = (a b)(a c)  $$
 
-   For more background see the comments on:
+=--
+
+Note in particular that, somewhat surprisingly, the **associativity** in a unital left shelf comes for free! For more background see the comments on:
 
    * [The origin of the word "quandle"](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149), $n$-Category Caf&#233;.
 
 
-##Related Pages
+## Related Pages
 
 * [[graphic topos]]
+
+* [[shelf]]
 
 * [[Aufhebung]]
 
 * [[graph]]
 
-##References
+## References
 
 * N. Kimura, _The structure of idempotent semigroups I_ , Pacific
 Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
 
 * F. W. Lawvere, _Qualitative distinctions between some toposes of generalized graphs_, Contemp. Math. **92** (1989) pp. 261-299.
 
-* F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. 
+* F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. {#Law89b}
 
-* F. W. Lawvere, _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* F. W. Lawvere, _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf)) {#Law91}
 &#8206;
-* F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf))
+* F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf)) {#Law02}
 
-* M. P. Sch&#252;tzenberger, _Sur certains treillis gauches_, C. R. Acad. Sci. Paris, **225** pp.277&#8211;278, 1947. ([pdf](http://igm.univ-mlv.fr/~berstel/Mps/Travaux/A/1947TreillisGauchesCras.pdf))
+* M. P. Sch&#252;tzenberger, _Sur certains treillis gauches_, C. R. Acad. Sci. Paris **225** (1947) pp.277&#8211;278. ([pdf](http://igm.univ-mlv.fr/~berstel/Mps/Travaux/A/1947TreillisGauchesCras.pdf)) {#Sch&#252;tz47}
