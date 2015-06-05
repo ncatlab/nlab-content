@@ -1569,6 +1569,8 @@ exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the
 
 =--
 
+([FRS 13a](#FRS13a))
+
 +-- {: .num_example }
 ###### Example
 
@@ -1607,7 +1609,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         && \downarrow
         \\
         && \mathbf{HamSymp}(X,\nabla)
-        &\stackrel{\mathbf{KS}(\rhp)}{\longrightarrow}&
+        &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
         \mathbf{B} (\mathbb{G}\mathbf{ConstFunct}(X))
     }
    $$
