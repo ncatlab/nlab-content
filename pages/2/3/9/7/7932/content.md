@@ -1467,7 +1467,7 @@ Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] ar
 
 Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[associated ∞-bundles]] are discussed in section I 4.1 of 
 
-* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures 2013
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
  
 
 ### For discrete geometry
@@ -1475,9 +1475,9 @@ Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[ass
 
 For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are equivalently $G$-[[infinity-actions]] is (via the [[Borel model structure]]) due to 
 
-*  {#DDK80} E. Dror, [[William Dwyer]], and [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([JSTOR](http://www.jstor.org/stable/2043448))
+*  {#DDK80} E. Dror, [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([JSTOR](http://www.jstor.org/stable/2043448))
 
-This is mentioned for instance as exercise 4.2in 
+This is mentioned for instance as exercise 4.2 in 
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) [pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)
 
