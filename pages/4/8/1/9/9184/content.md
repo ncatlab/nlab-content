@@ -16,7 +16,7 @@
 
 ## Idea
 
-A hypothetical type of [[field (physics)|field]]/[[fundamental particle]].
+A hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
 
 ## Related concepts
 
