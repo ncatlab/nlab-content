@@ -25,5 +25,8 @@
 
 * [Manifold Atlas](http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](http://www.map.mpim-bonn.mpg.de/String_bordism)_
 
+Discussion of relation to the [[Witten genus]] includes
+
+* [[Carl McTague]], _The Cayley plane and String bordism_, Geom. Topol. 18 (2014) 2045-2078 ([arXiv:1111.4520](http://arxiv.org/abs/1111.4520))
 
 [[!redirects string bordism]]
