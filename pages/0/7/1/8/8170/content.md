@@ -11,9 +11,13 @@ Kane has been arguing that [[string phenomenology]] models of the kind of [[M-th
 
 a few months before the actual detection of the Higgs (and its mass of $\sim 125 GeV$) at the [[LHC]], and with more details in 
 
-* [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
+* [[Gordon Kane]], [[Piyush Kumar]], Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
 
 a few days before the result was officially announced (a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525)).
+
+See also
+
+* [[Gordon Kane]], _From Planck-scale M-theory to predictions for superpartners at LHC, soon_, June 2015 ([web](http://agenda.albanova.se/getFile.py/access?contribId=278&resId=250&materialId=slides&confId=4682))
 
 * [[string phenomenology]]
 
