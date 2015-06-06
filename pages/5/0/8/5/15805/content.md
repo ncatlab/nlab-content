@@ -23,4 +23,10 @@
 
 * Wikipedia, _[CP violation](http://en.wikipedia.org/wiki/CP_violation)_
 
+* [[Roberto Peccei]], _The Strong CP Problem and Axions_, Lect.Notes Phys.741:3-17,2008 ([arXiv:hep-ph/0607268](http://arxiv.org/abs/hep-ph/0607268))
 
+Discussion in the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]]:
+
+* [[Bobby Acharya]], Konstantin Bobkov, [[Piyush Kumar]], _An M Theory Solution to the Strong CP Problem and Constraints on the Axiverse_, JHEP 1011:105,2010 ([arXiv:1004.5138](http://arxiv.org/abs/1004.5138))
+
+[[!redirects strong CP problem]]
