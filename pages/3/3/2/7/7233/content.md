@@ -392,9 +392,9 @@ The sufficiency of spin structure for $G_2$-structure is due to
 
 Surveys include
 
-* Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
+* [[Spiro Karigiannis]], _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
-* Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
+* [[Spiro Karigiannis]], _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
 * {#Hitchin} [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
@@ -410,6 +410,16 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 (but beware of some mistakes in that article...)
 
 For more see the references at _[[exceptional geometry]]_.
+
+### Moduli
+
+Discussion of the [[moduli space]] of $G_2$-structures includes
+
+
+* {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
+
+* [[Spiro Karigiannis]], [[Naichung Conan Leung]]_, _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
+
 
 ### Variants and generalizations
 
