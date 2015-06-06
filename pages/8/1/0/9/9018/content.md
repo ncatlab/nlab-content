@@ -192,7 +192,11 @@ the [[moduli space]] and [[moduli stabilization]] is discussed in
 
 the [[strong CP problem]] is discussed in
 
+* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], section 6 of _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
+
+
 * [[Bobby Acharya]], Konstantin Bobkov, [[Piyush Kumar]], _An M Theory Solution to the Strong CP Problem and Constraints on the Axiverse_, JHEP 1011:105,2010 ([arXiv:1004.5138](http://arxiv.org/abs/1004.5138))
+
 and realization of [[GUTs]] in
 
 * {#Witten02} [[Edward Witten]], _Deconstruction, $G_2$ Holonomy, and Doublet-Triplet Splitting_, ([arXiv:hep-ph/0201018](http://arxiv.org/abs/hep-ph/0201018))
