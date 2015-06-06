@@ -282,6 +282,10 @@ The [[double dimensional reduction]] of the M5-brane to the [[D4-brane]] in [[ty
 
 * Eric Bergshoeff, Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
 
+### Anomaly cancellation
+
+* Samuel Monnier, _global gravitational anomaly cancellation for five-branes_, 2013 ([pdf](http://media.scgp.stonybrook.edu/presentations/20130618_monnier.pdf))
+
 ### Worldvolume theory
 
 The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]] is
