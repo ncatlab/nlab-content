@@ -71,10 +71,14 @@ Review includes,
 
 * {#Stelle98} [[Kellogg Stelle]], around section 3.3. of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
-
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 * {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
+
+and in the context of multiple [[M2-branes]] in the  [[BLG model]]:
+
+* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
 
 Further developments include
 
