@@ -184,6 +184,9 @@ the [[hierarchy problem]] is discussed in
 
 the [[moduli space]] and [[moduli stabilization]] is discussed in
 
+
+* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_, Phys.Rev.D76:126010,2007 ([arXiv:hep-th/0701034](http://arxiv.org/abs/hep-th/0701034))
+
 * {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
 
 * {#AcharyaBobkov08} [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the G2-MSSM_, HEP 1009:001,2010 ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
