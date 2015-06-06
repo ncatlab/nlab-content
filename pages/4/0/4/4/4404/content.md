@@ -43,6 +43,8 @@ The fractional first [[Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \ma
 
 ## References
 
+* Wikipedia, _[Exotic sphere](http://en.wikipedia.org/wiki/Exotic_sphere)_
+
 ### For the mathematical theory
 
 The first construction of exotic smooth structures was on the 7-[[sphere]] in 
@@ -52,50 +54,49 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 
 (...)
 
-* Smale, Stephen (1962), "On the structure of manifolds" , Amer. J. of Math. 84 : 387-399
-(#Smale)
+* {#Smale} [[Stephen Smale]],  (1962), "On the structure of manifolds" , Amer. J. of Math. 84 : 387-399
 
-* [[John Milnor]] (1965), _Lectures on the h-cobordism theorem_ (Princeton Univ. Press, Princeton)
-{#Milnor1965a}
+* {#Milnor1965a} [[John Milnor]] (1965), _Lectures on the h-cobordism theorem_ (Princeton Univ. Press, Princeton)
 
-* Kervaire, Michel; Milnor, John W. (1963) "Groups of homotopy spheres: I", Ann. Math. 77, pp. 504 - 537.
-{#KervMil}
 
-* Kirby, R.; Siebenmann, L. (1977) _Foundational essays on topological manifolds, smoothings, and triangulations_, Ann. Math. Studies (Princeton University Press, Princeton).
-{#KirbSieb}
+* {#KervMil} [[Michel Kervaire]], ; [[John Milnor]],  (1963) "Groups of homotopy spheres: I", Ann. Math. 77, pp. 504 - 537.
 
-* Stallings, John R.; Zeeman, E. C. (1962), "The piecewise-linear structure of Euclidean space", Proceedings of the Cambridge Philosophical Society 58: 481&#8211;488
-{#StallZee}
 
-* Moise, Edwin E. (1952) "Affine structures on 3-manifolds", Ann. Math. 56, pp. 96-114
-{#Moise}
+* {#KirbSieb} Kirby, R.; Siebenmann, L. (1977) _Foundational essays on topological manifolds, smoothings, and triangulations_, Ann. Math. Studies (Princeton University Press, Princeton).
 
-* Freedman, Michael H.; Taylor, Laurence (1986) "A universal smoothing of four-space", J. Diff. Geom. 24, pp. 69-78
-{#FreedTay}
 
-* De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
-{#DeMFreed} 
+* {#StallZee} Stallings, John R.; Zeeman, E. C. (1962), "The piecewise-linear structure of Euclidean space", Proceedings of the Cambridge Philosophical Society 58: 481&#8211;488
 
-* Donaldson, Simon (1987) "Irrationality and the h-cobordism conjecture", J. Diff. Geom. 26, pp. 141-168.
-{#Donaldson1}
 
-* Donaldson, Simon (1990) "Polynomial invariants for smooth four manifolds", Topology 29, pp. 257-315.
-{#Donaldson2} 
+* {#Moise} Moise, Edwin E. (1952) "Affine structures on 3-manifolds", Ann. Math. 56, pp. 96-114
 
-* Gompf, Robert (1985) "An infinite set of exotic $\mathbb{R}^4$'s", J. Diff. Geom. 21, pp. 283-300.
-{#Gompf}
 
-* Taubes, Clifford H. (1987) "Gauge theory on asymptotically periodic 4-manifolds", J. Diff. Geom. 25, pp. 363-430
-{#Taubes} 
+* {#FreedTay} Freedman, Michael H.; Taylor, Laurence (1986) "A universal smoothing of four-space", J. Diff. Geom. 24, pp. 69-78
 
-* Bizaca, Z.; Gompf, Robert (1996) "Elliptic surfaces and some simple exotic $\mathbb{R}^4$'s", J. Diff. Geom. 43, pp. 458-504.
-{#BizGompf}
 
-* Rado, T. (1925) "&#220;ber den Begriff der Riemannschen Fl&#228;che" , Acta Litt. Scient. Univ. Szegd 2, pp. 101-121
-{#Rad}
+* {#DeMFreed} De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
+ 
 
-* Milnor, John W. (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
-{#Milnor1965b}
+* {#Donaldson1} Donaldson, Simon (1987) "Irrationality and the h-cobordism conjecture", J. Diff. Geom. 26, pp. 141-168.
+
+
+* {#Donaldson2} [[Simon Donaldson]],  (1990) "Polynomial invariants for smooth four manifolds", Topology 29, pp. 257-315.
+ 
+
+* {#Gompf} Gompf, Robert (1985) "An infinite set of exotic $\mathbb{R}^4$'s", J. Diff. Geom. 21, pp. 283-300.
+
+
+* {#Taubes} Taubes, Clifford H. (1987) "Gauge theory on asymptotically periodic 4-manifolds", J. Diff. Geom. 25, pp. 363-430
+ 
+
+* {#BizGompf} Bizaca, Z.; Gompf, Robert (1996) "Elliptic surfaces and some simple exotic $\mathbb{R}^4$'s", J. Diff. Geom. 43, pp. 458-504.
+
+
+* {#Rad} Rado, T. (1925) "&#220;ber den Begriff der Riemannschen Fl&#228;che" , Acta Litt. Scient. Univ. Szegd 2, pp. 101-121
+
+
+* {#Milnor1965b} Milnor, John W. (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
+
 
 (see Wikipedia ([spheres](http://en.wikipedia.org/wiki/Exotic_sphere#References), [$R^4$](http://en.wikipedia.org/wiki/Exotic_R4#References)) for more for now)
 
