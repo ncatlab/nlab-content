@@ -224,6 +224,9 @@ By [[supersymmetry]] and by the same argument that controls the expression of th
 
 Therefore the Witten genus may also be used as a generating function for BPS state counting. As such it has for instance been used in the microscopic explanation of [[Bekenstein-Hawking entropy]] of [[black holes]], see at _[[black holes in string theory]]_.
 
+### Relation to Cayley plane bundles
+
+The rational Witten genus vanishes on total spaces of [[Cayley plane]]-[[fiber bundles]], and is indeed chcracterized by this property ([McTague 10](#McTague10), [McTague 11](#McTague11)).
 
 
 ## Related concepts
@@ -294,6 +297,11 @@ Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohom
 
 * [[Haynes Miller]], _The elliptic character and the Witten genus_, Contemporary mathematics, volume 96, 1989 ([pdf](http://dedekind.mit.edu/~hrm/papers/ell-char.pdf))
 
+Relation to [[Cayley plane]]-[[fiber bundles]] is discussed in
+
+* {#McTague10} [[Carl McTague]], _The Cayley Plane and the Witten Genus_ ([arXiv:1006.0728](http://arxiv.org/abs/1006.0728))
+
+* {#McTague11} [[Carl McTague]], _The Cayley plane and String bordism_ ([arXiv:1111.4520](http://arxiv.org/abs/1111.4520))
 
 ### Relation to Kac-Weyl characters of loop group representations
  {#ReferencesRelationToKacWeylCharacters}
@@ -421,7 +429,7 @@ For the moment see the references at _[[string^c structure]]_ for more on this.
 A geometric interpretation of this in terms of [[parameterized WZW models]] is suggested in
 
 * {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
-  {#DistlerSharpe10}
+  
 
 and with more emphasis on [[equivariant elliptic cohomology]] in 
 
