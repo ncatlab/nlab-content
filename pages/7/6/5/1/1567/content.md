@@ -58,6 +58,36 @@ An [[integral domain]] is a [[Prüfer domain]] iff its lattice of [[ideals]] is 
 
 ## Properties
 
+### Finite distributive lattices
+ {#OppositeCategory}
+
+Let $FinDistLat$ be the category of finite distributive lattices and lattice homomorphisms, and let $FinPoset$ be the category of finite [[posets]] and order-preserving functions.  These are contravariantly equivalent, thanks to the presence of an [[ambimorphic object]]:
+
+**Proposition.** The [[opposite category]] of $FinDistLat$ is [[equivalence of categories|equivalent]] to $FinPoset$:
+
+$$
+  FinDistLat^{op} \simeq FinPoset
+  \,.
+$$
+
+This equivalence is given by the functor
+
+$$
+  [-,2] \;\colon\; FinDistLat^{op} \stackrel{\simeq}{\to} FinPoset
+$$
+
+where $2$ is the 2-element distributive lattice, and
+
+$$
+  [-,2] \;\colon\; FinPoset^{op} \stackrel{\simeq}{\to} FinDistLat
+$$
+
+where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$.
+
+This is mentioned in 
+
+* [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+
 ### Categorification
 
 Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), is a _[[coherent category]]_.
