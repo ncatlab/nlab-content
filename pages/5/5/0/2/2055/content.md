@@ -45,6 +45,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
 
+* [Complexity Zoo](https://complexityzoo.uwaterloo.ca/Complexity_Zoo)
+
 * [Deferential Geometry](http://deferentialgeometry.org) -- wiki started by Garrett Lisi
 
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page) -- wiki on local and global well-posedness problems for nonlinear dispersive and wave equations
@@ -59,8 +61,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
 
-* [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
-* [mathematical structures wiki](http://math.chapman.edu/cgi-bin/structures.pl?HomePage)
+* [Manifold Atlas Project](http://www.map.mpim-bonn.mpg.de/Main_Page)
+* [mathematical structures wiki](http://www.math.chapman.edu/~jipsen/structures/doku.php/)
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [Mathematics Literature Project](http://tqft.net/mlp/wiki/The_Mathematics_Literature_Project), listing recent journals with freely available alternatives for papers, as well as hosting a copy of mathematics journals in Elsevier's Open Archives (torrents of complete journals up to and including 2009 issues)
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
