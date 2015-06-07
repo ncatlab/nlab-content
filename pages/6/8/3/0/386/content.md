@@ -259,8 +259,7 @@ $$Int(-, \mathbf{2})^{op} \dashv Ord(-, \mathbf{2})$$
 
 inducing the first equivalence $Ord(-, \mathbf{2}): \Delta_a^{op} \to \nabla_a$, and the second equivalence by restriction. 
 
-This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his [[Theta category|category]] $\Theta$ as dual to a category of disks. See also at _[Interval -- Relation to simplices](interval#RelationToSimplices)_.
-
+This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his [[Theta category|category]] $\Theta$ as dual to a category of disks. See also _[Interval -- Relation to simplices](interval#RelationToSimplices)_, and the section on dualities in ([Wraith](#Wraith)).
 
 ## Related constructions ##
 
@@ -337,6 +336,10 @@ The relation to [[intervals]] and the generalization to the [[cell category]] is
 * [[André Joyal]], _Disks, duality and $\Theta$-categories_, preprint, 1997 ([pdf](http://ncatlab.org/nlab/files/JoyalThetaCategories.pdf))
  {#Joyal}
 
+A discussion of the opposite categories of $\Delta, \Delta_a$ and related categories can be found here:
+
+* [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+  {#Wraith}
 
 [[!redirects augmented simplex category]]
 
