@@ -75,7 +75,7 @@ The associativity condition will be left for others to fill in.
 
 ### Coloured operads {#PedestrianDefColouredOperad}
 
-There is an evident generalization of the above where we allow the operad to have several [[object]]s -- called _colours_ is operad theory. This models algebraic structures where elements of different _types_ may be fed into $n$-ary operations.
+There is an evident generalization of the above where we allow the operad to have several [[object]]s -- called _colours_ in operad theory. This models algebraic structures where elements of different _types_ may be fed into $n$-ary operations.
 
 Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** is 
 
