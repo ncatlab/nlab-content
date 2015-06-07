@@ -69,6 +69,12 @@ A review specifically in [[type II string theory]] is in
 
 * Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
 
+The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
+
+* K. Becker, M. Becker and [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+
+
+
 [[!redirects non-perturbative effects]]
 
 [[!redirects nonperturbative effect]]
