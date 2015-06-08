@@ -160,6 +160,10 @@ Right, I agree. The Chu construction applied to a complete Heyting algebra is me
 
 One of the simplest occurrences of Chu space constructions, and the one explored in Pratt's notes (see below), leads to examples that although extremely simple have a well developed theory with connections to areas of logic and to [[formal concept analysis]]. This will be explored in a separate entry, [[Chu spaces, simple examples]].
 
+## Properties ##
+
+* Chu spaces give fairly easy to construct examples of closed monoidal categories in which [[coproduct]] injections are not necessarily monic; see [this MO answer](http://mathoverflow.net/a/208643/49).
+
 ## References ##
 
 * A nice post by Todd Trimble on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
