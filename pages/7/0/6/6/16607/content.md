@@ -44,7 +44,7 @@ Coprojections are also sometimes called *coproduct injections* or *inclusions*, 
 
 In general, the coprojections of a coproduct need not be [[monomorphisms]].  However, they are in certain common situations, such as:
 
-* In a [[distributive category]]; see [[toddtrimble:distributivity implies monicity of coproduct inclusions]].
+* In a [[distributive category]]; see [there](http://ncatlab.org/nlab/show/distributive+category#monic) for a proof.  
 
 * In a category with [[zero morphisms]], since then they are [[split monomorphisms]].
 
