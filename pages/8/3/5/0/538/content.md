@@ -62,7 +62,7 @@ $$
   \,.
 $$
 
-This morphism $(f,g)$ is called the __[[copairing]]__  of $f$ and $g$.
+This morphism $(f,g)$ is called the __[[copairing]]__  of $f$ and $g$.  The morphisms $x\to x\coprod y$ and $y\to x\coprod y$ are called [[coprojections]] or sometimes "injections" or "inclusions", although in general they may not be [[monomorphisms]].
 
 
 **Notation.** The coproduct is also denoted $a+b$ or $a\amalg b$, especially when it is [[disjoint coproduct|disjoint]] (or $a \sqcup b$ if your fonts don\'t include '$\amalg$'). The copairing is also denoted $[f,g]$ or (when possible) given vertically: $\left\{{f \atop g}\right\}$.
