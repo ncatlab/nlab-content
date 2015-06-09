@@ -104,6 +104,7 @@ Notice that the relation between group objects and deloopable objects becomes mo
 ### Weakened axioms
 
 Following the practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
+
 * remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
 * or remove associativity to get [[loop (algebra)|loops]], then remove the identity to get [[quasigroups]];
 * or remove all of the above to get [[magma|magmas]];
