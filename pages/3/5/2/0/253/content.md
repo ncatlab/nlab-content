@@ -34,6 +34,7 @@ A **bicategory** $B$ consists of
 *  For each pair of $0$-cells $x,y$, [[natural isomorphisms]] called __[[unitors]]__: $id_{B(x,y)} \circ const_{1_x} \cong id_{B(x,y)} \cong const_{1_y} \circ id_{B(x,y)}\colon B(x,y) \to B(x,y)$; and
 *  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
 *  Such that the [[pentagon identity]] is satisfied by the [[associators]].
+*  And such that the triangle identity is satisfied by the [[unitors]].
 
 If there is exactly one $0$-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
 
