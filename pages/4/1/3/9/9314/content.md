@@ -51,7 +51,7 @@ We now discuss that this is equivalently the [[associated bundle]] which is asso
 +-- {: .num_prop}
 ###### Proposition
 
-For $G$ a [[smooth group]] (e.g. a [[Lie group]]), $X$ a [[smooth manifold]], $P \to X$ a smooth $G$-[[principal bundle]] over $X$ and $\rho$ a smooth [[action]] of $G$ on some [[smooth manifold]] $V$, then the [[associated bundle|associated]] $V$-[[fiber bundle]] $P \times_G V\to X$ is equivalently (regarded as a [[smooth groupoid]]) the [[homotopy pullback]] of the [[action groupoid]]-projection $p_\rho \colon V//G \to \mathbf{B}G$ along a morphism $g \colon X\to\mathgbf{B}G$ which [[modulating morphism|modulates]] $P$
+For $G$ a [[smooth group]] (e.g. a [[Lie group]]), $X$ a [[smooth manifold]], $P \to X$ a smooth $G$-[[principal bundle]] over $X$ and $\rho$ a smooth [[action]] of $G$ on some [[smooth manifold]] $V$, then the [[associated bundle|associated]] $V$-[[fiber bundle]] $P \times_G V\to X$ is equivalently (regarded as a [[smooth groupoid]]) the [[homotopy pullback]] of the [[action groupoid]]-projection $p_\rho \colon V//G \to \mathbf{B}G$ along a morphism $g \colon X\to\mathbf{B}G$ which [[modulating morphism|modulates]] $P$
 
 $$
   \array{
