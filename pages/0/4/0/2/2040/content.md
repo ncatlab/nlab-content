@@ -24,7 +24,7 @@ Quite generally, the term _Mackey functor_ refers to an [[additive functor]] fro
 
 Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
 
-The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). In that context it first received its full [[(∞,1)-category]]-theoretic forumation and discussion ([Barwick 14](#Barwick14)).
+The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). In that context it first received its full [[(∞,1)-category]]-theoretic formulation and discussion ([Barwick 14](#Barwick14)).
 
 ## Definition
 
@@ -82,6 +82,9 @@ where on the right we have the $G$-equivariant [[mapping spectrum]] from the (eq
 
 (...)
 
+##Related concepts
+
+* [[Tambara functor]]
 
 ## References
 
