@@ -183,6 +183,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Konrad Voelkel](http://blog.konradvoelkel.de) (motivic homotopy theory, arithmetic geometry, expository articles)
 
+* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
+
 * [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]] 
 
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
@@ -334,8 +336,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Geometric Group Theory](http://392c.wordpress.com) (structured text with theorems, proofs and exercises in GGT) -- last updated August 2009
 
 * Konrad [Volkel](http://blog.konradvoelkel.de) blog (cohomology, geometry, topology); has also nice [math resource list](http://blog.konradvoelkel.de/2012/05/mathematics-resources)
-
-* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math-- last updated August 2010)
 
 * [Mathematics and Physics](http://borcherds.wordpress.com) (Richard Borcherds -- last update January 2008)
 
