@@ -31,7 +31,7 @@ The terminology originates with Lawvere ([1989b](#Law89b)) where graphic monoids
 
 _Graphic toposes_ were defined then as $FinSet^{\mathcal{G}^{op}}$ resulting in  presheaf categories of finite graph-like 'displays' that come with a well-behaved lattice of subtoposes permitting the kind of 'Hegelian analysis' that were a primary concern for [[Lawvere]] in ([Law89b](#Law89b), [Law91](#Law91), [Law02](#Law02)).[^hegel]
 
-[^hegel]: In particular, the graphic monoid $\Delta_1$ in the [example](#ex) and the eight element _Hegelian taco_ monoid of (Lawvere [1989b](#Law89b)), express diagrammatically configurations of [[level|essential subtoposes]] occuring in Lawvere's mathematical rendering of basic concepts of Hegel's dialectic logic. For more on Lawvere's approach to Hegelian dialectics see [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
+[^hegel]: In particular, the graphic monoid $\Delta_1$ in the [example](#ex) and the eight element _Hegelian taco_ monoid of (Lawvere [1989b](#Law89b)) express diagrammatically configurations of [[level|essential subtoposes]] occuring in Lawvere's mathematical rendering of basic concepts of Hegel's dialectic logic. For more on Lawvere's approach to Hegelian dialectics see [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
 
 ##Example{#ex}
 
