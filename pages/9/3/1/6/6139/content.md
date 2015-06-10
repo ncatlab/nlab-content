@@ -372,7 +372,7 @@ A groupal $E_1$-algebra -- hence an groupal [[A-∞ algebra]] object in $\mathbf
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #LoopingDeloopingForHigherStacks}
 ###### Theorem (k-tuply monoidal $\infty$-stacks)
 
 Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
