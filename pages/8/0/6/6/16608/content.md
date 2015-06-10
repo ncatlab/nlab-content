@@ -8,7 +8,7 @@
 
 Burnside rings, representation rings, homotopy groups of equivariant $E_{\infty}$-ring spectra in stable homotopy theory.
 
-Some other examples are related to [[Witt rings]] in the sense of Dress and Siebeneicher.
+Some other examples are related to [[Witt-Burnside functors]], Witt rings in the sense of Dress and Siebeneicher.
 
 ## Related concepts
 
