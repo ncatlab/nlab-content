@@ -42,7 +42,7 @@ $$
   }
 $$
 
-for $0 \lt i \lt n$ there exists a left
+for $0 \lt i \lt n$ there exists a lift
 
 $$
   \array{
