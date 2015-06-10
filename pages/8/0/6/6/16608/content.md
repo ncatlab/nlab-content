@@ -1,5 +1,7 @@
 ## Idea
 
+**Tambara functors** are algebraic structures similar to [[Mackey functors]], but with multiplicative norm maps as well as additive transfer maps, and a rule governing their interaction. They were introduced by Tambara, as TNR-functors, to encode the relationship between restriction maps, transfers and norm maps in the homotopy groups of strictly commutative equivariant ring spectra ([Tam93](#Tam93)).
+
 ## Examples
 
 Burnside rings, representation rings, homotopy groups of equivariant $E_{\infty}$-ring spectra in stable homotopy theory.
@@ -14,4 +16,6 @@ Some other examples are related to [[Witt rings]] in the sense of Dress and Sieb
 
 ##References
 
-[[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
+* [[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
+* [[Morten Brun]], _Witt vectors and Tambara functors_, [arXiv:math/0304495](http://arxiv.org/abs/math/0304495)
+* {#Tam93} D. Tambara, _On multiplicative transfer_, Comm. Algebra 21 (1993), no. 4, 1393&#8211;1420.
