@@ -26,6 +26,8 @@ Moreover $W(-)$ is [[representable functor|representable]] by [[symmetric functi
 The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of [[prime]] [[characteristic]] $p$ to a commutative ring $W(A)$ of [[characteristic]] 0. Since this construction is functorial, it can be applied to the [[structure sheaf]] of an [[algebraic variety]].
 In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] then $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of [[power series]] and a ring of power series over a field is always a discrete valuation ring.
 
+There is a generalization, $W_G$, to any profinite group, $G$, due to Dress and Siebeneicher ([DS88](#DS88)), known as [[Witt-Burnside functors|Witt-Burnside functor]].
+
 There is a generalization to [[non-commutative Witt vectors]], however these only carry a group- but no ring structure.
 
 The [[Lubin-Tate ring]] in [[Lubin-Tate theory]] is a [[polynomial ring]] on a ring of Witt vectors and this way Witt vectors control much of [[chromatic homotopy theory]].
@@ -410,6 +412,10 @@ Review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in
 
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
+* {#DS88} A. Dress, C. Siebeneicher, _The Burnside ring of profinite groups and
+the Witt vector construction_, Adv. Math., 70, (1988), 87&#8211;132.
+
+
 In the context of [[Borger's absolute geometry]]:
 
 * {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
@@ -419,6 +425,7 @@ In the context of [[Borger's absolute geometry]]:
 
 [[!redirects rings of Witt vectors]]
 [[!redirects rings of Witt-vectors]]
+
 
 
 [[!redirects Witt ring]]
