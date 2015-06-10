@@ -48,18 +48,18 @@ Any [[extensive category]] is distributive, but the converse is not true.
 
 +-- {: .num_prop #monic} 
 ###### Proposition 
-In a distributive category, [[coproduct]] [[coprojection|inclusions]] are [[monomorphism|monic]]. 
+In a distributive category, [[coproduct]] [[coprojections]] are [[monomorphism|monic]]. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Let $i_B: B \to B + C$ be a coproduct inclusion, and suppose given maps $f, g: A \to B$ such that $i_B f = i_B g$. We observe that the coproduct inclusion 
+Let $i_B: B \to B + C$ be a coproduct coprojection, and suppose given maps $f, g: A \to B$ such that $i_B f = i_B g$. We observe that the coprojection 
 
 $$i: A \times B \to A \times B + A \times C$$ 
 
 is monic because it has a [[retraction]] $(1_{A \times B}, \phi): A \times B + A \times C \to A \times B$. (All we need here is the existence of a map $\phi: A \times C \to A \times B$, for example the composite $A \times C \stackrel{\pi_A}{\to} A \stackrel{\langle 1_A, f \rangle}{\to} A \times B$.)  
 
-The composite of the coproduct inclusion $i$ with the canonical isomorphism $A \times B + A \times C \cong A \times (B + C)$, namely $1_A \times i_B: A \times B \to A \times (B + C)$, is therefore also monic. Given that $\langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle: A \to A \times (B + C)$, we conclude 
+The composite of the coprojection $i$ with the canonical isomorphism $A \times B + A \times C \cong A \times (B + C)$, namely $1_A \times i_B: A \times B \to A \times (B + C)$, is therefore also monic. Given that $\langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle: A \to A \times (B + C)$, we conclude 
 
 $$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle = (1_A \times i_B)\langle 1, g \rangle,$$ 
 
@@ -73,7 +73,7 @@ In a distributive category, the [[initial object]] is [[strict initial object|st
 
 +-- {: .proof} 
 ###### Proof 
-The coproduct inclusion $0 \to 0 + 1 \cong 1$ is monic. Given $f, g: A \to 0$, their compositions with $i: 0 \to 1$ are equal since $1$ is [[terminal object|terminal]]. Since $i$ is monic, we conclude $f = g$. 
+The coprojection $0 \to 0 + 1 \cong 1$ is monic. Given $f, g: A \to 0$, their compositions with $i: 0 \to 1$ are equal since $1$ is [[terminal object|terminal]]. Since $i$ is monic, we conclude $f = g$. 
 =-- 
 
 ## Related concepts
