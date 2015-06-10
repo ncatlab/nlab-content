@@ -8,6 +8,14 @@ $$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho
 
 as the **oriented cartographic group**.  [[transitive action|Transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may be non-orientable or with boundary.
 
+## Higher dimensions
+
+The $n$-dimensional analogue of the cartographic group is the [[Coxeter group]]
+
+$$\mathcal{C}_n = \langle\sigma_0,\dots,\sigma_n \mid \sigma_i^2 = (\sigma_i\sigma_j)^2 = 1, (|i-j|\gt 1)\rangle.$$
+
+For related references, see the last section of [Jones and Singerman](#JonesSingerman94).
+
 ## Related concepts
 
 * [[combinatorial map]]
@@ -16,4 +24,4 @@ as the **oriented cartographic group**.  [[transitive action|Transitive]] [[perm
 ## References
 
 * [[Alexander Grothendieck]]. [[Esquisse d'un programme]] (section 3)
-* [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
+* {#JonesSingerman94} [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
