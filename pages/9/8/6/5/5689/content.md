@@ -43,7 +43,7 @@ The case $K = G$ gives the [[Borel-Weil theorem|Borel-Weil]] description of irre
 Zbl 0699.22022, [MR910203](http://www.ams.org/mathscinet-getitem?mr=910203), _II: Applications_, 
 
 * Hendrik Orem, Lecture notes: The Beilinson-Bernstein Localization
-Theorem, [pdf](www.ma.utexas.edu/users/horem/bb-notes.pdf&#8206;)
+Theorem, [pdf](http://www.ma.utexas.edu/users/horem/bb-notes.pdf)
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322)))
  {#BenZviNadler07}
