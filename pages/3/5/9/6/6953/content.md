@@ -60,7 +60,7 @@ As type and cotype are isomorphism invariants, they can be used to distinguish b
 
 ## Generalisations ##
 
-In the inequalities for type $2$ and cotype $2$ it is possible to replace the $2$ by a natural number $p$ and define the notions of *type $p$* and *cotype $p$*.  Taken as a whole, these provide more information and thus give a finer classification of Banach spaces.  In particular:
+In the inequalities for type $2$ and cotype $2$ it is possible to replace the $2$ by a real number $p$ and define the notions of *type $p$* and *cotype $p$*.  Taken as a whole, these provide more information and thus give a finer classification of Banach spaces.  In particular:
 
 1. For $1 \le p \le 2$, the [[Lebesgue space]], $L_p$, has type $p$ and cotype $2$.
 1. For $2 \le p \lt \infty$, the [[Lebesgue space]], $L_p$, has type $2$ and cotype $p$.
