@@ -36,6 +36,16 @@ A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]
 
 Many of these extend to [[link invariant|link invariants]] or have variants that depend on the knot being oriented.
 
+## References
+
+Discussion of knot invariants in terms of [[BPS states]] in [[string theory]] includes
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+
+* [[Sergei Gukov]], Marko Sto&#353;i&#263;, _Homological algebra of knots and BPS states_ ([arXiv:1112.0030](http://arxiv.org/abs/1112.0030))
+
+* Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
+
 category: knot theory
 
 [[!redirects knot invariants]]
