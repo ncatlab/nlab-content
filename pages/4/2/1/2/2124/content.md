@@ -283,6 +283,15 @@ Discussion of the relation of that to the traditional discussion of current alge
 
 * {#classicalinhigher} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
 
+Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] includes
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+
+* [[Sergei Gukov]], Marko Sto&#353;i&#263;, _Homological algebra of knots and BPS states_ ([arXiv:1112.0030](http://arxiv.org/abs/1112.0030))
+
+
+* Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
+
 
 ### Spectral networks
  {#SpectralNetworksReferences}
