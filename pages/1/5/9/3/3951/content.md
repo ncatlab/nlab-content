@@ -30,7 +30,7 @@ And precisely if the inner fibration/cograph of an $(\infty,1)$-profunctor $K  \
 
 ## Definition
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is an **inner fibration** or **[[inner Kan fibration]]** if its has the [[right lifting property]] with respect to all inner [[horn]] inclusions, i.e. if for all [[commuting diagram]]s
+A [[morphism]] of [[simplicial set]]s $F : X \to Y$ is an **inner fibration** or **[[inner Kan fibration]]** if its has the [[right lifting property]] with respect to all inner [[horn]] inclusions, i.e. if for all [[commuting diagram]]s
 
 $$
   \array{
