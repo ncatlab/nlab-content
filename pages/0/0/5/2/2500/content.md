@@ -379,7 +379,9 @@ The original article that introduced the [[D'Auria-Fre formulation of supergravi
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
  
+### Renormalization
 
+* S. Deser, J.H. Kay, K.S. Stelle, _Renormalizability Properties of Supergravity_, Phys Rev Lett 38, 527 (1977) (reproduced as [arXiv:1506.03757](http://arxiv.org/abs/1506.03757))
 
 
 ### U-duality
