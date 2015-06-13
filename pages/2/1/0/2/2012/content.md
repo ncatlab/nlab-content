@@ -45,6 +45,10 @@ Related entries include [[quasitriangular bialgebra]], [[Dunkl operator]], [[Yan
 * Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](http://www.ams.org/mathscinet-getitem?mr=533894), [doi](http://dx.doi.org/10.1007/BF02392090)
 * B. A. Dubrovin, _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
 
+Discussion in the context of [[harmonic maps]] is in 
+
+* [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ ([arXiv:1209.1383](http://arxiv.org/abs/1209.1383))
+
 [[!redirects integrable systems]]
 [[!redirects integrable model]]
 [[!redirects integrable systems]]
