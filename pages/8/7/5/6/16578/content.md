@@ -10,11 +10,11 @@ as the **oriented cartographic group**.  [[transitive action|Transitive]] [[perm
 
 ## Higher dimensions
 
-The $n$-dimensional analogue of the cartographic group is the [[Coxeter group]]
+The $n$-dimensional analogue of the cartographic group is
 
-$$\mathcal{C}_n = \langle\sigma_0,\dots,\sigma_n \mid \sigma_i^2 = (\sigma_i\sigma_j)^2 = 1, (|i-j|\gt 1)\rangle.$$
+$$\mathcal{C}_n = \langle\sigma_0,\dots,\sigma_n \mid \sigma_i^2 = (\sigma_i\sigma_j)^2 = 1, (|i-j|\gt 1)\rangle,$$
 
-For related references, see the last section of [Jones and Singerman](#JonesSingerman94).
+which is a [[Coxeter group]].  For related references, see the last section of [Jones and Singerman](#JonesSingerman94).
 
 ## Related concepts
 
