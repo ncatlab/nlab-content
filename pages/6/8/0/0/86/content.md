@@ -853,13 +853,13 @@ A systematic/axiomatic account from the point of view of [[higher geometry]] is 
 
 The original articles are
 
-* I. Batalin, G. Vilkovisky,  _Gauge Algebra and Quantization_ . Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
-{#BV81}
+* {#BV81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_ . Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
 
-* I. Batalin,G. Vilkovisky,  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
-{#BV83}
 
-* I.A. Batalin and G.A. Vilkovisky, _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
+* {#BV83} [[Igor Batalin]], [[Grigori Vilkovisky]],  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
+
+
+* [[Igor Batalin]], [[Grigori Vilkovisky]], _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
 
 Reviews are in
 
@@ -879,8 +879,8 @@ A systematic account of the classical master equation is also in
 
 * [[David Kazhdan]], _The classical master equation in the finite-dimensional case_ ([pdf](http://math.berkeley.edu/~theojf/KazhdanNotes.pdf))
 
-* [[Giovanni Felder]], [[David Kazhdan]], _The classical master equation_ ([arXiv:1212.1631](http://arxiv.org/abs/1212.1631)) 
- {#FelderKazhdan}
+* {#FelderKazhdan} [[Giovanni Felder]], [[David Kazhdan]], _The classical master equation_ ([arXiv:1212.1631](http://arxiv.org/abs/1212.1631)) 
+ 
 
 
 Other discussions include
@@ -895,6 +895,12 @@ deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch
 * Carlo Albert, Bea Bleile, [[Jürg Fröhlich]], _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
 
 * Qiu and Zabzine, Introduction to Graded Geometry, Batalin-Vilkovisky Formalism and their Applications, [arXiv/1105.2680](http://arxiv.org/pdf/1105.2680v2).
+
+Discussion for field theories with [[boundary conditions]] and going in the direction of [[extended TFT|extended field theory]] is in 
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
 
 
 A discussion of BV-BRST formalism in the general context of [[perturbative quantum field theory]] is in
