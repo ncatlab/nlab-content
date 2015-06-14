@@ -478,7 +478,7 @@ For $V = Set$ this reproduces of course the ordinary [[functor category]].
 If the $V$-[[enriched category]] $D$ is [[copower|tensor]]ed over $V$, then the (left) [[Kan extension]] of a [[functor]] $F : C \to D$ along a functor $p : C \to B$ is given by the coend
 
 $$
-  Lan F : b \mapsto  \int_{c \in C} hom(p(c),b) \cdot F(c)
+  Lan F : b \mapsto  \int^{c \in C} hom(p(c),b) \cdot F(c)
   \,.
 $$
 
