@@ -28,7 +28,7 @@ This is a standard [[kinetic action]] [[action functional]] for [[sigma models]]
 
 ## References
 
-* Wiki&#252;edia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
+* Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
 
 Discussion in the context of [[integrable systems]] includes
 
