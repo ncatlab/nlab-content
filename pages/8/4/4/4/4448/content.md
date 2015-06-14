@@ -114,7 +114,7 @@ Some of the above material is taken from
 
 * [[Tom Leinster]], [reply at MathOverflow](http://mathoverflow.net/questions/12136/freyd-cover-of-a-category)
 
-The following two n-caf&#233; blog posts provide a nice discussion of the scone construction from a geometric and a logical perspective:
+The following two n-caf&#233; blog posts provide an introductory discussion of the scone construction from a geometric and a logical perspective:
 
 * [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ , November 2011. ([link](https://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
 
@@ -122,11 +122,11 @@ The following two n-caf&#233; blog posts provide a nice discussion of the scone 
 
 You can find more on [[Artin gluing]] in this important (and nice) paper:
 
-* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science **5** (1995) pp.441-459.
 
 plus
 
-* [[Aurelio Carboni]], [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science **14** (2004) pp.185-187.
 
 See also section C3.6 of 
 
@@ -135,7 +135,11 @@ See also section C3.6 of
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_ , Elsevier Amsterdam 1999. {#Jacobs}
 
-The argument given above for properties of the free topos is an amplification of
+The following paper studies logical properties of the Freyd cover:
+
+* [[Ieke Moerdijk]], _On the Freyd Cover of a Topos_ , Notre Dame J. Formal Logic **24** no.4 (1983) pp.517-526. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.ndjfl/1093870454))
+
+The argument given above for the properties of the free topos is an amplification of
 
 * [[Peter Freyd|P. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.  (1.(10)31, p.192)
 
