@@ -1,0 +1,66 @@
+# Extension systems
+
+* table of contents
+{: toc}
+
+## Idea
+
+An *extension system* is a way of presenting a [[monad]] that doesn't involve iteration of the underlying endofunctor.  This is simpler for certain purposes, and the operations involved are more basic to some applications such as [[monads in computer science]].
+
+## Definition
+
+An **extension system** on a category $C$ consists of
+
+* For every object $A\in C$, an object $T A\in C$ and a morphism $\eta_A : A\to T A$, and
+
+* For every morphism $f:B\to T A$ in $C$, a morphism $f^T:T B \to T A$, satisfying the axioms
+
+* For every $A$ we have $(\eta_A)^T = 1_{T A}$,
+
+* For every $f:B\to T A$, we have $f^T \circ \eta_B = f$, and
+
+* For every $f:B\to T A$ and $g:C \to T B$, we have $f^T \circ g^T = (f^T \circ g)^T$.
+
+Given these data, we make $T$ a functor by $T f = (\eta_A \circ f)^T$, we define multiplication maps $\mu_A:T T A \to T A$ as $(1_{T A})^T$, and we verify that the result is a [[monad]].  Conversely, given a monad $(T,\eta,\mu)$, we define $f^T = \mu_A \circ T f$ and check the above axioms.  Thus, extension systems are equivalent to monads.
+
+### The Kleisli category
+
+This presentation of a monad is especially convenient for defining the [[Kleisli category]] $C_T$: its objects are those of $C$, its morphisms $B\to A$ are the morphisms $B\to T A$ in $C$, and the composite of $f:B\to T A$ with $g:C \to T B$ is $f^T \circ g$.
+
+### The category of algebras
+
+It is also possible to define [[algebras over a monad]] using this presentation.  A $T$-algebra consists of
+
+* An object $B$, and
+
+* For every morphism $h:X\to B$, a morphism $h^B : T X \to B$, such that
+
+* For every $h:X\to B$ we have $h^B \circ \eta_X = h$, and
+
+* For every $h:X\to B$ and $y:Y\to T X$ we have $h^B \circ y^T = (h^B \circ y)^B$.
+
+### Strong monads
+
+When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we simply have to enhance the extension operation $(-)^T$ to an internal morphism $(T A)^B \to (T A)^{T B}$, or equivalently $T B \times (T A)^B \to T A$.  This morphism is known as "bind" in use of [[monads in computer science]].
+
+## References
+
+The above definitions are from
+
+* F. Marmolejo and R. J. Wood, *Monads as extension systems -- no iteration is necessary*, [TAC](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html) 2010.
+
+but the definition of monad as extension system appeared in 
+
+* E. G. Manes. *Algebraic Theories*. Springer-Verlag, 1976.
+
+and this definition and also the definition of algebras by an extension operation appeared in 
+
+* R.F.C. Walters, *A categorical approach to universal algebra*, Ph.D. Thesis, 1970.
+
+See also
+
+* F. Marmolejo and R. J. Wood, *Kan extensions and lax idempotent pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 2012
+
+* F. Marmolejo and R. J. Wood, *No-iteration pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html) 2013
+
+[[!redirects extension systems]]
