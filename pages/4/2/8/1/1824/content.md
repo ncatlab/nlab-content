@@ -26,7 +26,7 @@ A real __microbundle of dimension $n$__ is a 4-tuple $\xi = (E,p,B,i)$ where
 
 * $E$ is a [[topological space]] (the _total space_ of $\xi$),
 
-* $B$ is a topological space (the _base space_ of $xi$), 
+* $B$ is a topological space (the _base space_ of $\xi$, 
 
 * and $p:E\to B$ a continuous map (projection), 
 
