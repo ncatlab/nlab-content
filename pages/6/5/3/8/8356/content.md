@@ -37,16 +37,28 @@ The name "Brouwer-Heyting-Kolmogorov" is due to Troelstra, and it is a matter of
 
 * Wikipedia, _[BHK interpretation](http://en.wikipedia.org/wiki/BHK_interpretation)_
 
-* A. Kolmogoroff, _Zur Deutung der intuitionistischen Logik_ , Math. Z. **35** 1932 pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
+* L. E. J. Brouwer, _Points and Spaces_ , CJM **6** (1954) pp.1-17. ([pdf](http://cms.math.ca/openaccess/cjm/v6/cjm1954v06.0001-0017.pdf))
 
-* [[Jean-Yves Girard]], _Proofs and Types_ 
+* H. Freudenthal , _Zur intuitionistischen Deutung logischer Formeln_ , Comp. Math. **4** (1937) pp.112-116. ([pdf](http://archive.numdam.org/article/CM_1937__4__112_0.pdf))
+
+* A. Heyting , _Die intuitionistische Grundlegung der Mathematik_ , Erkenntnis **2** (1931) pp.106-115.
+
+* A. Heyting , _Bemerkungen zu dem Aufsatz von Herrn Freudenthal "Zur intuitionistischen Deutung logischer Formeln"_ , Comp. Math. **4** (1937) pp.117-118. ([pdf](http://archive.numdam.org/article/CM_1937__4__117_0.pdf))
+
+* A. Kolmogoroff, _Zur Deutung der intuitionistischen Logik_ , Math. Z. **35** (1932) pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
+
+* G. Kreisel, _Mathematical Logic_ , pp.95-195 in Saaty (ed.), _Lectures on Modern Mathematics III_ , Wiley New York 1965.
+
+* [[Jean-Yves Girard]] et al., _Proofs and Types_ , CUP 1989.
+
+* [[Anne Sjerp Troelstra]], _Principles of Intuitionism_ , Springer Heidelberg 1969. (&#167;2) {#Troelstra69}
 
 * [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
  {#Troelstra91}
 
-* Wouter Pieter Stekelenburg, _Realizability Categories_ ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
+* Wouter Pieter Stekelenburg, _Realizability Categories_ , ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134)).
 
-* [[Martin Escardo]] and Chuangjie Xu, *The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation* [PDF](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf)
+* [[Martin Escardo]] and Chuangjie Xu, _The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation_ . ([pdf](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf))
 
 
 Links to many papers on realizability and related topics may be found [here](http://www.staff.science.uu.nl/~ooste110/realizability.html).
