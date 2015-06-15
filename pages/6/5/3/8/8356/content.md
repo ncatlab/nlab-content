@@ -23,7 +23,9 @@
 
 The _Brouwer-Heyting-Kolmogorov_ interpretation of [[intuitionistic logic]] is a description of [[proofs]] of [[propositions]] in [[intuitionistic logic]] as [[functions]], often [[computable functions]], where it is also called the _[[realizability]] interpretation_. 
 
-This is otherwise known as the paradigm of _[[propositions as types]]_ and _[[proofs as programs]]_. See there for more
+This is otherwise known as the paradigm of _[[propositions as types]]_ and _[[proofs as programs]]_, and in a precise form as the [[Curry-Howard correspondence]]. See there for more.
+
+The name "Brouwer-Heyting-Kolmogorov" is due to Troelstra, and it is a matter of some dispute whether Brouwer's name should be included.  Brouwer never explicitly formulated any interpretation of this sort, and remained against all formalism his entire life.  Moreover, [Escardo-Xu](#EscardoXu) have shown that Brouwer's famous intuitionistic theorem "all functions $\mathbb{N}^{\mathbb{N}} \to \mathbb{N}$ are continuous" is actually inconsistent under a literal version of this interpretation (i.e. without including [[propositional truncation]]).  Thus, perhaps it should only be called the "Heyting-Kolmogorov" interpretation.
 
 ## Related concepts
 
@@ -43,6 +45,8 @@ This is otherwise known as the paradigm of _[[propositions as types]]_ and _[[pr
  {#Troelstra91}
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_ ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
+
+* [[Martin Escardo]] and Chuangjie Xu, *The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation* [PDF](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf)
 
 
 Links to many papers on realizability and related topics may be found [here](http://www.staff.science.uu.nl/~ooste110/realizability.html).
