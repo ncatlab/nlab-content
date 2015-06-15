@@ -178,7 +178,7 @@ The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ 
 
 This appears as ([Losik 94, theorem 3.1.1](#Losik)), as variant of the analogous statement for [[Banach manifolds]] in ([Hain](#Hain)). The fact that maps between Fr&#233;chet spaces are smooth if and only if they send smooth curves to smooth curves was proved earlier in ([Fr&#246;licher 81, th&#233;or&#232;me 1](#Frolicher))
 
-The statement is also implied by ([Kriegl-Michor 97, cor. 3.14](#KrieglMichor)) which states that functions between [[locally convex vector spaces]] are smooth precisely if they send smooth [[curves]] to smooth curves. Notice that the choice of topology in this book is such that this statement reduces to the above just for Fr&#233;chet manifolds.
+The statement is also implied by ([Kriegl-Michor 97, cor. 3.14](#KrieglMichor)) which states that functions between [[locally convex vector spaces]] are diffeologically smooth precisely if they send smooth [[curves]] to smooth curves. This is not true if one uses [[Michal-Bastiani smooth map|Michal-Bastiani smoothness]] ([Gl&#246;ckner 06](#Glockner06)), in which case one merely has a [[faithful functor]] $lctvs \to DiffeologicalSpaces$. Notice that the choice of topology in ([Kriegl-Michor 97](#KrieglMichor))is such that this equivalence of notions reduces to the above just for Fr&#233;chet manifolds.
 
 
 +-- {: .num_prop }
@@ -527,10 +527,13 @@ The embedding of [[Banach manifolds]] into the category of diffeological spaces 
 * [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
  {#Hain}
 
-The embedding of [[locally convex vector spaces]] into diffeological spaces is discussed around corollary 3.14 in 
+The (non-full) embedding of [[locally convex vector spaces]] and [[Michal-Bastiani smooth maps]] into diffeological spaces is discussed around corollary 3.14 in 
 
 * {#KrieglMichor} [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
- 
+
+That there are diffeologically-smooth maps between locally convex vector spaces that are not continuous, and a fortiori not smooth in the sense of Michal-Bastiani is given, for instance, in
+
+* {#Glockner06} Helge Gl&#246;ckner, _Discontinuous non-linear mappings on locally convex direct limits_, Publ. Math. Debrecen 68 (2006) 1-13, [arXiv:math/0503387](http://arxiv.org/abs/math/0503387).
 
 The embedding of [[Fréchet manifolds]] into diffeological spaces is discussed in 
 
