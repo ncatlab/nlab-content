@@ -138,7 +138,7 @@ Another generalization is
 
 The original reference for monads as 'notions of computation' is
 
-* [[Eugenio Moggi]], _Notions of computation and monads_ Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+* [[Eugenio Moggi]], _Notions of computation and monads_, Information and Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
 Expositions include
  
