@@ -65,6 +65,10 @@ Realization of GUTs in the context of [[M-theory on G2-manifolds]] is discussed 
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
+Discussion of experimental bounds on [[proton]] instability in GUTs includes
+
+* Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
+
 
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
