@@ -32,7 +32,7 @@ stable [URL](http://www.numdam.org/item?id=CM_1979__39_3_263_0)
 * [[V.  Voevodsky]], _Motives over simplicial schemes_, Journal of K-Theory, Volume 5, Issue 01 , pp 1 - 38, 
 (preliminary version in K-theory preprint archive: [here](http://www.math.uiuc.edu/K-theory/0638/))
 
-* Carlo Mazza, [[V. Voevodsky|Vladimir Voevodsky]], Charles Weibel, Lecture Notes on Motivic Cohomology,
+* Carlo Mazza, [[V. Voevodsky|Vladimir Voevodsky]], Charles Weibel, Lecture Notes on Motivic Cohomology, http://www.claymath.org/library/monographs/cmim02.pdf
 
 [[!redirects simplicial schemes]]
 
