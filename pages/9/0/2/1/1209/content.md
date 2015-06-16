@@ -21,7 +21,16 @@ compatibility is easy to formulate in symmetric monoidal categories and much har
 
 ## Definition in symmetric monoidal categories
 
-In a [[symmetric monoidal category]], a __bimonoid__ (or __bimonoid object__) is an object $B$ equipped with a structure of a [[monoid]] and a [[comonoid]] which are compatible in one of two equivalent ways: the comultiplication and the counit are morphisms of monoids or the multiplication and the unit are morphisms of comonoids.  The symmetry of the monoidal structure is involved in the definition of the tensor product $B\otimes B$ as monoids and as comonoids.
+In a [[symmetric monoidal category]], a __bimonoid__ (or __bimonoid object__) is an object $B$ equipped with a structure of a [[monoid]] and a [[comonoid]] which are compatible in one of two equivalent ways: the comultiplication and the counit are morphisms of monoids or the multiplication and the unit are morphisms of comonoids.  The symmetry of the monoidal structure is involved in the definition of the tensor product $B\otimes B$ as monoids and as comonoids.  In terms of [[string diagrams]], the equations expressing the compatibility of the monoidal and comonoidal structures on $B$ may be represented as follows:
+
+<center>
+<img src="/nlab/files/bimonoid-eq1.png" height="100" align="middle"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/nlab/files/bimonoid-eq2.png" height="60" align="middle">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/nlab/files/bimonoid-eq3.png" height="60" align="middle">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/nlab/files/bimonoid-eq4.png" height="50" align="middle">
+</center>
 
 A bimonoid which additionally has an [[antipode]] (a map $s:B\to B$ satisfying an axiom that makes it act like "inverses" in a group) is called a [[Hopf monoid]]; a Hopf monoid in [[Vect]] is a [[Hopf algebra]].
 
@@ -29,7 +38,7 @@ A bimonoid which additionally has an [[antipode]] (a map $s:B\to B$ satisfying a
 
 * A bimonoid in [[Vect]] (with its usual [[tensor product]]) is generally called a __[[bialgebra]]__.
 
-* In a category with [[biproducts]], with the biproduct as the monoidal product, every object is a bimonoid in a unique way ([Caf&#233; post](http://golem.ph.utexas.edu/category/2010/09/bimonoids_from_biproducts.html).
+* In a category with [[biproducts]], with the biproduct as the monoidal product, every object is a bimonoid in a unique way ([Caf&#233; post](http://golem.ph.utexas.edu/category/2010/09/bimonoids_from_biproducts.html)).
 
 * More generally, in a [[cartesian monoidal category]], every monoid object is a bimonoid in a unique way, with comultiplication being the diagonal map.  Dually, every comonoid object in a cocartesian monoidal category is a bimonoid in a unique way.
 
