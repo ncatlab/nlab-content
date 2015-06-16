@@ -231,7 +231,7 @@ The original article which proposes the [[topos]] over [[Lambda-rings]] as a rea
 
 * {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
 
-This is based on technical details laid out un
+This is based on technical details laid out in
 
 * {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
 
