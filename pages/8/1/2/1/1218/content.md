@@ -178,7 +178,7 @@ The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ 
 
 This appears as ([Losik 94, theorem 3.1.1](#Losik)), as variant of the analogous statement for [[Banach manifolds]] in ([Hain](#Hain)). The fact that maps between Fr&#233;chet spaces are smooth if and only if they send smooth curves to smooth curves was proved earlier in ([Fr&#246;licher 81, th&#233;or&#232;me 1](#Frolicher))
 
-The statement is also implied by ([Kriegl-Michor 97, cor. 3.14](#KrieglMichor)) which states that functions between [[locally convex vector spaces]] are diffeologically smooth precisely if they send smooth [[curves]] to smooth curves. This is not true if one uses [[Michal-Bastiani smooth map|Michal-Bastiani smoothness]] ([Gl&#246;ckner 06](#Glockner06)), in which case one merely has a [[faithful functor]] $lctvs \to DiffeologicalSpaces$. Notice that the choice of topology in ([Kriegl-Michor 97](#KrieglMichor))is such that this equivalence of notions reduces to the above just for Fr&#233;chet manifolds.
+The statement is also implied by ([Kriegl-Michor 97, cor. 3.14](#KrieglMichor)) which states that functions between [[locally convex vector spaces]] are diffeologically smooth precisely if they send smooth [[curves]] to smooth curves. This is not true if one uses [[Michal-Bastiani smooth map|Michal-Bastiani smoothness]] ([Gl&#246;ckner 06](#Glockner06)), in which case one merely has a [[faithful functor]] $lctvs \to DiffeologicalSpaces$. Notice that the choice of topology in ([Kriegl-Michor 97](#KrieglMichor)) is such that this equivalence of notions reduces to the above just for Fr&#233;chet manifolds.
 
 
 +-- {: .num_prop }
@@ -463,7 +463,7 @@ $$
   Smooth \infty Grpd \coloneqq Sh_\infty(CartSp) 
 $$
 
-into the [[(∞,1)-topos]] [{[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[smooth ∞-groupoids]] -- as precisely the [[truncated object in an (∞,1)-category|0-truncated objects]].
+into the [[(∞,1)-topos]] [[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[smooth ∞-groupoids]] -- as precisely the [[truncated object in an (∞,1)-category|0-truncated objects]].
 
 
 ## Related concepts
