@@ -456,13 +456,15 @@ For references on curved backgrounds see [below](#ReferencesSupergravityBackgrou
  {#ReferencesWZWTerm}
 
 The WZW nature of the second term in the GS action, recognized in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) is 
-discussed with its [[infinity-Lie theory|Lie theoretic]] meaning
-made fully explicit (in "FDA" language) in chater 8 of
+discussed in 
 
 * {#Rabin87} [[Jeffrey Rabin]], _Supermanifold Cohomology and the Wess-Zumino Term
 of the Covariant Superstring Action_, Cornmun. Math. Phys. 108, 375-389 (1987) ([Euclid](https://projecteuclid.org/euclid.cmp/1104116532))
 
-* {#AzcarragaIzqierdo} [[José de Azcárraga]], Izqierdo, chater 8 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
+an with its [[infinity-Lie theory|Lie theoretic]] meaning
+made fully explicit (in "FDA" language) in 
+
+* {#AzcarragaIzqierdo} [[José de Azcárraga]], Jos&#233; Izqierdo, chapter 8 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
  
 
 The original "brane scan" classification of GS action functionals by WZW terms is due to
@@ -562,6 +564,7 @@ Discussion of Green-Schwarz strings on [[super anti de Sitter spacetimes]] inclu
 
 #### $AdS_5$
  {#ReferencesAdS5Background}
+
 
 For the [[superstring]]:
 
