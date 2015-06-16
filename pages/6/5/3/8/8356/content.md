@@ -49,17 +49,20 @@ The name "Brouwer-Heyting-Kolmogorov" is due to Troelstra, and it is a matter of
 
 * G. Kreisel, _Mathematical Logic_ , pp.95-195 in Saaty (ed.), _Lectures on Modern Mathematics III_ , Wiley New York 1965.
 
+* E. G. F. D&#237;ez, _Five observations concerning the intended meaning of the intuitionistic logical constants_ , J. Phil. Logic **29** no. 4 (2000) pp.409&#8211;424 . ([preprint](https://webs.um.es/picazo/miwiki/lib/exe/fetch.php?id=inicio&cache=cache&media=five_observations_2000_jour_of_phil_logic_29_4_pp409_424.pdf))
+
 * [[Jean-Yves Girard]] et al., _Proofs and Types_ , CUP 1989.
 
 * [[Anne Sjerp Troelstra]], _Principles of Intuitionism_ , Springer Heidelberg 1969. (&#167;2) {#Troelstra69}
 
-* [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
+* [[Anne Sjerp Troelstra]], _Aspects of Constructive Mathematics_ , pp.973-1052 in Barwise (ed.), _Handbook of Mathematical Logic_ , Elsevier Amsterdam 1977. {#Troelstra77}
+
+* [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf)) 
  {#Troelstra91}
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_ , ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134)).
 
 * [[Martin Escardo]] and Chuangjie Xu, _The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation_ . ([pdf](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf))
-
 
 Links to many papers on realizability and related topics may be found [here](http://www.staff.science.uu.nl/~ooste110/realizability.html).
 
