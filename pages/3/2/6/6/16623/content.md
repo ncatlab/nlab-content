@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[instantons]] constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] [[cycles]]
+
+## related concepts
+
+* [[non-perturbative effect]]
+
+## References
+
+* [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+
+* [[Jeff Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
+
+Discussion specifically for [[M-theory on G2-manifolds]] includes
+
+* [[Gottfried Curio]], _Superpotentials for M-theory on a $G_2$ holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
+
+[[!redirects membrane instantons]]
