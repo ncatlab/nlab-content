@@ -9,7 +9,7 @@
 The _abc conjecture_ (or _ABC conjecture_) is a [[number theory|number theoretic]] conjecture due to ([Oesterl&#233;-Masser 1985](#Oesterl&#233;Masser)), which says that there are only [[finite set|finitely many]] integer solutions to the [[equation]] 
 
 $$
-  a + b = c   \;\;\; for a,b,c \geq 1 \in \mathbb{N}
+  a + b = c   \;\;\; for   a,b,c \geq 1 \in \mathbb{N}
 $$
 
 (or instead $a+b+c= 0$)
