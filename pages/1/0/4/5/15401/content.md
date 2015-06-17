@@ -16,14 +16,16 @@
 
 ## Idea
 
-A [[discrete group|discrete]] [[subgroup]] of the [[projective linear group]] $PSL(2,\mathbb{R})$.
+A [[discrete group|discrete]] [[subgroup]] of the [[real numbers|real]] [[projective linear group]] $PSL(2,\mathbb{R})$.
 
 ## Related concepts
 
 * [[Riemann surface]]
 
+* [[Kleinian group]]
+
 ## References
 
 * Wikipedia, _[Fuchsian group](http://en.wikipedia.org/wiki/Fuchsian_group)_
 
-[[!redirects Fuchsian group]]
+[[!redirects Fuchsian groups]]
