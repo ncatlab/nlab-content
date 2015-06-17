@@ -1,1 +1,1 @@
-Let (X,U) be a topological space. We say that a point x&#8712;X has a neighborhood base at x if there is a collection {Uxj}∞j=1 of open subsets of X such that every neighborhood W of x contains some Uxj.
+Let (X,U) be a topological space. We say that a point x&#8712;X has a neighborhood base at x if there is a collection {Uj} of open subsets of X such that every neighborhood W of x contains some Uj.
