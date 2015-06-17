@@ -16,7 +16,7 @@
 
 ## Idea
 
-One can ask whether a nonlinear map between locally convex topological vector spaces is smooth according to various definitions. The definition due to Michal, developed by Bastiani, is a very general notion.
+One can ask whether a nonlinear map between locally convex topological vector spaces is smooth according to various definitions. The definition due to Michal, developed by [[Andree Ehresmann|Bastiani]], is a very general such notion.
 
 
 ## Definition
@@ -43,7 +43,18 @@ MB-smooth maps have the following properties.
 
 * Maps between [[Fréchet spaces]] are MB-smooth if and only if they are conveniently smooth.
 
-Note that a map that is smooth in the sense of a convenient vector space (equivalently, a smooth map between the corresponding [[diffeological spaces]]) is not necessarily continuous, so not all diffeologically smooth maps between lctvs are MB-smooth. Explicit examples have been given in ([Gl&#246;ckner 06](#Glockner06)).
+Note that a map that is smooth in the sense of a convenient vector space (equivalently, a smooth map between the corresponding [[diffeological spaces]]) is not necessarily continuous, so not all convenient smooth maps between lctvs are MB-smooth. Explicit examples have been given in ([Gl&#246;ckner 06](#Glockner06)). It is even the case that one can have a convenient _isomorphism_ that is not MB-smooth, so the faithful and non-full functor
+$$
+lctvs_{MB} \to lctvs_{convenient} \hookrightarrow DiffeologicalSpace
+$$
+is not even injective on isomorphism classes. The following example was supplied in ([TaQ 15](#TaQ15)):
+
+Let $E$ be the vector space of all real (two-sided) sequences $x=\langle\sp x_i\mid i\in\mathbb{Z}\rangle$ for which $x_i=0$ for $i\ll 0$, topologized so that we get a linear homeomorphism $E\to\mathbb{R}^\mathbb{N}\times\mathbb{R}^{(\mathbb{N})}$ defined by $x\mapsto(u,v)$ where $u_i=x_{i-1}$ and $v_i=x_{-i}$ for $i\gt 0}$. 
+
+Then define the bijection $f:E\to E$ by $x\mapsto y$ where $y_i=x_i$ for $i\neq 0$ and $y_0=x_0+\sum_{i\in\mathbb{N}}(x_i\cdot x_{-i})$. 
+The inverse is given by $y\mapsto x$ where $y_i=x_i$ for $i\neq 0$ and $x_0=y_0-\sum_{i\in\mathbb{N}}(y_i\cdot y_{-i})$. 
+The duality map $\mathbb{R}^\mathbb{N}\times\mathbb{R}^{(\mathbb{N})}\to\mathbb{R}$, $x\mapsto \sum_{i\in\mathbb{N}}(x_i\cdot x_{-i})$, is discontinuous but bornological, and hence a conveniently smooth bilinear map. Thus $f$ is discontinuous and so not MB-smooth.
+
 
 
 ## References
@@ -63,6 +74,12 @@ Note that a map that is smooth in the sense of a convenient vector space (equiva
 * {#Keller} Keller, H. H., _Differential Calculus in Locally Convex Spaces_, Lecture Notes in Mathematics 417, Springer-Verlag, 1974 ([Springerlink](http://dx.doi.org/10.1007/BFb0070564), paywalled)
 
 * {#Glockner06} [[Helge Glöckner]], _Discontinuous non-linear mappings on locally convex direct limits_, Publ. Math. Debrecen 68 (2006) 1-13, [arXiv:math/0503387](http://arxiv.org/abs/math/0503387).
+
+
+* {#TaQ15} TaQ ([user 12643](http://mathoverflow.net/users/12643/taq)), Answer to _Do locally convex topological vector spaces embed into diffeological spaces?_, MathOverflow, &lt;http://mathoverflow.net/q/209470> (version: 2015-06-16)
+
+
+
 
 [[!redirects Michal-Bastiani smooth maps]]
 [[!redirects MB-smooth maps]]
