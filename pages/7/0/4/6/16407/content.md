@@ -1,6 +1,6 @@
 ## Definition
 
-A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[oriented]], [[compact space|compact]] without [[boundary]]) [[surface]] $X$ in such a way that:
+A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a [[surface]] $X$ in such a way that:
 
 1. vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
 
@@ -8,11 +8,18 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-These conditions can be summarized by saying that $\theta$ is a ''cellular embedding'' (or "2-cell embedding").
+These conditions can be summarized by saying that $\theta$ is a _cellular embedding_ (or "2-cell embedding").  Additionally, one may place several conditions on the underlying surface:
 
-Topological maps are always considered up to homeomorphism, and the **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
+* $X$ is [[compact space|compact]]
+* $X$ is [[connected space|connected]]
+* $X$ is [[oriented]]
+* $X$ is without [[boundary]]
 
-The conditions on the surface $X$ are standard, and lead to an elegant, purely combinatorial representation of topological maps up to homeomorphism as a list of permutations satisfying a few properties, known as [[combinatorial maps]].  On the other hand, it is also possible to consider more general forms of topological maps on other kinds of surfaces (e.g., non-orientable ones), leading to different variations on the concept of combinatorial map.
+Topological maps are always considered up to the appropriate notion of homeomorphism, and they inherit various properties of the underlying surface.  For example, a graph embedded in a connected surface is itself necessarily a connected graph, and one speaks of the _genus_ of a map as the [[genus of a surface|genus]] of the underlying surface $X$.
+
+## Permutation representations
+
+One of the remarkable properties of topological maps is that they can be given a purely algebraic representation as a collection of permutations satisfying a few properties.  For now, see the articles ([[cartographic group]]) and ([[combinatorial map]]).
 
 ## Related concepts
 
