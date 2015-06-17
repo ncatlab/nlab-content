@@ -42,7 +42,7 @@ $$
 
 is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restricted to $G$-[[flat connections]], or equivalently is the action functional of $\flat G$-[[Dijkgraaf-Witten theory]].
 
-Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]], it turns out that this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
+Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
 
 For $n = 2$ this is well understood conceptually. For $n \geq 3$ it has been checked by the [[computer algebra]] system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)), but the conceptual reason remains unclear.
 
@@ -75,7 +75,7 @@ See also
 
 The relation of volumes of hyperbolic 3-manifolds to [[analytically continued Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
 
-* {#Zickert 07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
+* {#Zickert07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
  
 
 [[!redirects hyperbolic manifolds]]
