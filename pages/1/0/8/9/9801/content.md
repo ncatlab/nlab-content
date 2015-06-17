@@ -29,6 +29,7 @@ given a ([[simple Lie group|simple]]) [[Lie group]] $G$ and a [[subgroup]] $H \h
 Where the [[Lagrangian]]/[[action functional]] of the ordinary [[WZW model]] is the sum/product of a standard [[kinetic action]] and the [[surface holonomy]] of a [[circle 2-bundle with connection]] whose [[curvature]] 3-form is the canonical 3-form $\langle \theta \wedge [\theta \wedge \theta]\rangle \in \Omega^3(G)^G$, so the action functional of the gauged WZW model is that obtained by refining this circle 2-bundle to the $H$-[[equivariant cohomology|equivariant]] [[differential cohomology]] of $G$, with [[curvature]] 3-form in [[equivariant de Rham cohomology]].
 
 ## Definition
+ {#Definition}
 
 The [[Chevalley-Eilenberg algebra]] of the [[Lie algebra]] $\mathfrak{g}$ is naturally identified with the sub-algebra of [[left invariant differential forms]] on $G$:
 
@@ -70,8 +71,9 @@ $$
 
 in this [[equivariant de Rham cohomology]] which lifts $H \coloneqq \langle \theta \wedge [\theta \wedge \theta]\rangle$ through this projection.
 
-One finds ([Witten 92, appendix](#Witten92)) that in terms of the degree-2 generators $\{F^a\}$ of the [[Cartan model]] (see there) with respect to some [[basis]] $\{t_a\}$ of $\mathfrak{g}$, these lifts are of the form ([Witten 92, (A.14)](#Witten92))
+ One finds ([Witten 92, appendix](#Witten92)) that in terms of the degree-2 generators $\{F^a\}$ of the [[Cartan model]] (see there) with respect to some [[basis]] $\{t_a\}$ of $\mathfrak{g}$, these lifts are of the form ([Witten 92, (A.14)](#Witten92))
 
+{#WZWCurvatureInCartanModel}
 $$
   \tilde H = H + \lambda_a \wedge F^a
 $$
