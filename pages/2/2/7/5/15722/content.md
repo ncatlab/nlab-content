@@ -88,13 +88,13 @@ $$
 ### Analogy with Artin L-function
  {#AnalogyWithArtinLFunction}
 
-That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77) [Fried 86, prop. 5](#Fried86)).
+That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77), [Fried 86, prop. 5](#Fried86)).
 
-That it is in particular the Euler product of characteristic polynomials of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. (Or rather, the [[Ruelle zeta function]] ([Bunke-Olbrich 94a, def. 5.1](#BunkeOlbrich94a))).
+That it is in particular the Euler product of [[characteristic polynomials]] of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. (Or rather, the [[Ruelle zeta function]] ([Bunke-Olbrich 94a, def. 5.1](#BunkeOlbrich94a))).
 
-This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
+This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the [[arithmetic fundamental group]] of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
-So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
+So under this analogy the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
 
 See at _[Artin L-function -- Analogy with Selberg zeta function](Artin%20L-function#AnalogyWithSelbergZeta)_ for more. This analogy has been highlighted in ([Brown 09](#Brown09), [Morishita 12, remark 12.7](#Morishita12)).
 
