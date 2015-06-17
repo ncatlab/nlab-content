@@ -49,6 +49,8 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "ma
 
 * [[instanton]], [[brane]], [[renormalon]]
 
+  * [[membrane instanton]]
+
 * [[lattice gauge theory]]
 
 * [perturbation theory -- convergence/divergence](perturbation+theory#DivergenceConvergence)
@@ -71,7 +73,7 @@ A review specifically in [[type II string theory]] is in
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
 
-* K. Becker, M. Becker and [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+* [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
 
 
