@@ -30,6 +30,10 @@ This is a standard [[kinetic action]] [[action functional]] for [[sigma models]]
 
 * Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
 
+Discussion in the context of [[action functionals]] for [[theory (physics)|theories of physics]] includes
+
+* [[Charles Misner]], _Harmonic maps as models for physical theories_, Phys. Rev. D 18, 4510 (1978) ([spire](http://inspirehep.net/record/137431/))
+
 Discussion in the context of [[integrable systems]] includes
 
 * [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ ([arXiv:1209.1383](http://arxiv.org/abs/1209.1383))
