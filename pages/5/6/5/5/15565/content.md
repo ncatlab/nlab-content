@@ -43,25 +43,24 @@ Moreover the map that sends an commutative ring, hence an [[arithmetic variety]]
 
 The following definition says essentially this, but further sends the resulting space to [[F1]]-geometry in the sense of [[Borger's absolute geometry]]:
  
-For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is $(W_n)_\ast$ applied to the $p$-adic completion of $X$.
+For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is $(W_n)_\ast$ applied to the $p$-adic completion of $X$, where $(W_n)_\ast$ is the [[ring of Witt vectors]]-construction, the [[direct image]] of [[Borger's absolute geometry]] $Et(Spec(\mathbb{Z})) \to Et(Spec(\mathbb{F}_1))$.
 
-
-where $(W_n)_\ast$ is the [[ring of Witt vectors]]-construction, the [[direct image]] of [[Borger's absolute geometry]] $Et(Spec(\mathbb{Z})) \to Et(Spec(\mathbb{F}_1))$.
-
-The definition is originally due to ([Buium 96, section 2](#Buium96), [Buium 05](#Buium05)). The above formulation is in ([Borger 10, (12.8.2)](#Borger10)).
+The definition is originally due to ([Buium 96, section 2](#Buium96), [Buium 05, section 3.1](#Buium05)), reviewed in ([Buium 13, 1.2.3](#Buium13)). The above formulation is in ([Borger 10, (12.8.2)](#Borger10)).
 
 
 ## References
 
 The original articles are
 
-* {#Buium96} [[Alexandru Buium]], _Geometry of $p$-jets. Duke Math. J., 82(2):349&#8211;367, 1996.
+* {#Buium96} [[Alexandru Buium]], _Geometry of $p$-jets. Duke Math. J., 82(2):349&#8211;367, 1996. ([Euclid](http://projecteuclid.org/euclid.dmj/1077245037))
 
-* {#Buium05} [[Alexandru Buium]], _Arithmetic differential equations_, volume 118 of Mathematical Surveys and Monographs. American Mathematical Society, Providence, RI, 2005.
+* {#Buium05} [[Alexandru Buium]], _Arithmetic differential equations_, volume 118 of Mathematical Surveys and Monographs. American Mathematical Society, Providence, RI, 2005. ([pdf](http://www.math.unm.edu/~buium/prebook.pdf))
 
 Introduction and survey is in 
 
 * {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slightly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
+
+* [[Alexandru Buium]], _Lectures on arithmetic differential equations_ ([pdf](http://www.lorentzcenter.nl/lc/web/2009/342/presentations/lectures%20A.%20Buium.pdf))
 
 Discussion in the context of the [[function field analogy]] is in 
 
@@ -71,6 +70,10 @@ Discussion in the context of [[Borger's absolute geometry]] over [[F1]] is in
 
 * {#Borger10} [[James Borger]],  _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
 
+See also
+
+* [[Alexandru Buium]], Taylor Dupuy, _Arithmetic differential equations on $GL_n$, I: differential cocycles_ ([arXiv:1308.0748](http://arxiv.org/abs/1308.0748))
+ 
 
 
 [[!redirects arithmetic jet spaces]]
