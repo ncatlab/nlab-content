@@ -204,7 +204,7 @@ See at _[[Becker-Gottlieb transfer]]_.
 
 > under construction
 
-There is some relation betwee the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07)).
+There is some relation betwee the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Suslin 90](#Suslin90), [Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07), [Zickert 09](#Zickert09)).
 
 For $k$ an [[algebraic number field]] and $\sigma_1, \cdots, \sigma_{r_2}\colon k \to \mathbb{C}$ its complex embeddings up to [[conjugation]], then write
 
@@ -294,13 +294,16 @@ See also
 
 Formore references see also at _[[Beilinson conjecture]]_.
 
-Relation of the Borel regulator to [[complex volumes]] of [[hyperbolic manifolds]] is discussed in
+Relation of the Borel regulator to the [[Bloch group]], the [[Cheeger-Simons class]]/[[complex volumes]] of [[hyperbolic manifolds]] is discussed in
 
-
+* {#Suslin90} [[Andrei Suslin]]. _$K_3$ of a field, and the Bloch group_. Trudy Mat. Inst. Steklov., 183:180&#8211;199, 229, 1990. Translated in Proc. Steklov Inst. Math. 1991, no. 4, 217&#8211;239, Galois theory, rings, algebraic groups and their applications (Russian).
 
 * {#NeumannYang97} [[Walter Neumann]], Jun Yang, _Bloch invariants of hyperbolic 3-manifolds_, Duke Math. J. Volume 96, Number 1 (1999), 29-59. ([arXiv:math/9712224](http://arxiv.org/abs/math/9712224), [Euclid](http://projecteuclid.org/euclid.dmj/1077228942))
 
 * {#Zickert07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
+
+* {#Zickert09} [[Christian Zickert]], _The extended Bloch group and algebraic K-theory_ ([arXiv:0910.4005](http://arxiv.org/abs/0910.4005))
+
 
 * {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
