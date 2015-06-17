@@ -44,6 +44,8 @@ _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_. ([Maldacena 97, section 3.2](#Maldacena
 
 ## Related concepts
 
+* [[membrane instanton]]
+
 * [[BLG model]], [[ABJM model]], [[membrane matrix model]]
 
 * [[string theory]]
