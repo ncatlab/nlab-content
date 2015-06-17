@@ -28,7 +28,7 @@ Examples:
 ## Axiomatization in homotopy theory
  {#AxiomatizazionInHomotopyTheory}
 
-Here are some notes on a proposal for how to usefully formalize bivariant cohomology theory in [[stable homotopy theory|stable]] [[homotopy theory]]. (Aspects of this appear in ([Nuiten 13](#Nuiten13)).
+Here are some notes on a proposal for how to usefully formalize bivariant cohomology theory in [[stable homotopy theory|stable]] [[homotopy theory]]. (This is in generalization of the structure of [[KK-theory]], while the original axioms of ([Fulton-MacPherson 81](#FultonMacPherson81)) are a little different[^footnote].  Aspects of the following appear in ([Nuiten 13](#Nuiten13), [Schreiber 14](#Schreiber14)). See also at _[[dependent linear type theory]]_ the section on _[secondary integral transforms](dependent+linear+type+theory#SecondaryIntegralTransforms)_).
 
 $\,$
 
@@ -159,7 +159,7 @@ This is how (equivariant) [[bivariant K-theory]] is presented, at least over man
 
 A general introduction to bivariant cohomology theories is in 
 
-* [[William Fulton]], [[Robert MacPherson]], _Categorical framework for the study of singular spaces_, Memoirs of the AMS, 243, 1981
+* {#FultonMacPherson81} [[William Fulton]], [[Robert MacPherson]], _Categorical framework for the study of singular spaces_, Memoirs of the AMS, 243, 1981
 
 A general construction of bivariant theories on [[smooth manifolds]] from [[cohomology theories]] by geometric cycles, generalizing the construction of [[K-homology]] by [[Baum-Douglas geometric cycles]], is in 
 
@@ -171,17 +171,20 @@ A similar construction for PL manifolds is in
 
 References related to the discusison in _[Axiomatization in homotopy theory](#AxiomatizazionInHomotopyTheory)_ above include the following
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG}
+* {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
-* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
- {#TuXuLG03}
+* {#TuXuLG03} [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ 
 
-* [[Michael Joachim]], [[Stephan Stolz]], _An enrichment of $KK$-theory over the category of symmetric spectra_ M&#252;nster J. of Math. 2 (2009), 143&#8211;182 ([pdf](http://www3.nd.edu/~stolz/KKenrich.pdf))
- {#JoachimStolz09}
+* {#JoachimStolz09} [[Michael Joachim]], [[Stephan Stolz]], _An enrichment of $KK$-theory over the category of symmetric spectra_ M&#252;nster J. of Math. 2 (2009), 143&#8211;182 ([pdf](http://www3.nd.edu/~stolz/KKenrich.pdf))
+ 
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
- {#Nuiten13}
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
+ 
+* {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
+
+[^footnote]: Thanks to [[Thomas Nikolaus]] for patiently emphasizing this.
 
 [[!redirects bivariant cohomology theories]]
 
