@@ -124,6 +124,9 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## Related concepts
 
+
+* [[odd Chern character]]
+
 * for [[algebraic K-theory]]:
 
   * [[cyclotomic trace]]
