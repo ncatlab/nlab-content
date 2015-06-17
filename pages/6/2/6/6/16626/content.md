@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.math.indiana.edu/people/profile.phtml?id=dpthurst)
+
+## related $n$Lab entries
+
+* [[complex volume]]
+
+category: people
