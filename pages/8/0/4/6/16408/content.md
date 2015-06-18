@@ -24,13 +24,15 @@ In the literature, oriented combinatorial maps are often simply referred to as "
 
 Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$ into a [[surface]] $X$, and assume moreover that $X$ is [[compact]], [[connected]], [[oriented]], and without [[boundary]].  We can represent $M$ by a unique oriented combinatorial map, defined as follows (letting $E$ and $V$ stand for the set of edges and vertices, respectively, of the graph $G$):
 
-* $D$ is defined as a set with $2n$ elements, where $n = |E|$.
+* $D$ is defined as a set containing $2n$ elements, where $n = |E|$, with a pair of distinct darts $e^+,e^- \in D$ for each $e \in E$.  These darts may be visualized as oriented edges, or alternatively as half-edges, or in a number of different ways.
 
-* each edge $e \in E$ is associated with a pair of darts $e^+,e^- \in D$, which may be visualized either as oriented edges, or alternatively as half-edges (or in a number of different ways).  By this association, the collection of edges $E$ induces a fixed point-free involution $\alpha$ on $D$, which swaps $e^+$ with $e^-$ for each edge $e \in E$.
+* the collection of edges $E$ induces a fixed point-free involution $\alpha$ on $D$, by swapping $e^+$ with $e^-$ for each edge $e \in E$.
 
-* suppose darts are visualized as oriented edges: we will say that a dart is _incident_ to a vertex if it has that vertex as source.  Then every vertex $x\in V$ determines a cyclic ordering of the darts incident to $x$, by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
+* suppose darts are visualized as oriented edges: we will say that a dart $d$ is _incident_ to a vertex $x$ if $x$ is the unique vertex located at the source of $d$.  Then every vertex $x\in V$ determines a cyclic ordering of the darts incident to $x$, by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
 
-* the cycles of the permutation $\phi = \sigma^{-1}\alpha^{-1}$ give, for each face $f$ of $M$, an ordering of darts on the boundary of that face.  With the above convention for vertices, it is easy to check that $\phi$ computes the counterclockwise cycle of darts having $f$ to the _left_.
+* similarly, we say that a dart $d$ is incident to a face $f$ (i.e., a connected component of $X \setminus \theta(G)$) if $f$ is the unique face appearing to the left of $d$.  Then each face $f$ determines a cyclic ordering of darts incident to $f$ (corresponding to a clockwise traversal along the perimeter of $f$), and we can combine these disjoint cycles into a single permutation $\phi$.
+
+* by a simple visual argument, it is easy to check that if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
 
 (Note bene: the choice of Greek letters for the three permutations comes from the French words _sommet_ (vertex), _ar&#234;te_ (edge), _face_.)
 
