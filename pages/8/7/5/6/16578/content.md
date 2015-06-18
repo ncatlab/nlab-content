@@ -18,6 +18,7 @@ which is a [[Coxeter group]].  For related references, see the last section of [
 
 ## Related concepts
 
+* [[topological map]]
 * [[combinatorial map]]
 * [[child's drawing]]
 
