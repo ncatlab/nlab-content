@@ -47,36 +47,49 @@ and in [Toronto-McCarthy 10b, slide 35](#TorontoMcCarthy10b):
 
 See also ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). [Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a), [Toronto 14](#Toronto14) call the [[function monad]] the _random variable idiom_.
 
+### Random variables and Dedekind reals
 
+Given a measure space $(X,\Sigma,\mu)$ a _random variable_ is standardly defined as a measurable _real_-valued function on $X$. It has been observed by [[Pierre Deligne|P. Deligne]][^Del] that the po-set of measurable subsets $\Sigma$ can be equipped with a suitable [[Grothendieck topology]] in this context.
+
+[^Del]:  [[SGA4]].I, p.412.
+
+In the resulting [[Grothendieck topos]] $Meas(X,\Sigma,\mu)$ the object of [[Dedekind real numbers]] $R_D$ corresponds to the sheaf of random variables on $X$.
+
+The details of this observation, due to [[Dana Scott|D. Scott]], are described in ([Johnstone 1977](#Johnstone77), p.213).
 
 ## Related concepts
 
 * [[probability theory]]
 
+* [[Giry monad]]
+
 ## References
-
-The modern formal concept originates around
-
-* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg, 1933
-
-Surveys and lecture notes include
-
-* {#Grigoryan08} Alexander Grigoryan, _Measure theory and probability_, 2008 [pdf](https://www.math.uni-bielefeld.de/~grigor/mwlect.pdf)
-
-* {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
 
 * Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_.
 
+The modern formal concept originates around
+
+* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg (1933).
+
+Surveys and lecture notes include
+
+* {#Grigoryan08} Alexander Grigoryan, _Measure theory and probability_, 2008. ([pdf](https://www.math.uni-bielefeld.de/~grigor/mwlect.pdf))
+
+* {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012. ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
+
+For more information on the above topos-theoretic example consult
+
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014)
+
 Discussion from a point of view of [[type theory]]/[[computer science]] includes
 
-* {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_, in _Implementation and Application of Functional Languages_, 2010 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
+* {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_, in _Implementation and Application of Functional Languages_, 2010. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
 
-* {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+* {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010. ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
-* {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014 ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
+* {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014. ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
 
-
-* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
+* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014.
 
 [[!redirects random variables]]
 
