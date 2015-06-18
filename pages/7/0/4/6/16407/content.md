@@ -29,6 +29,8 @@ One of the remarkable properties of topological maps is that they can be given a
 
 * [[child's drawing]]
 
+* [[cartographic group]]
+
 * [[branched cover of the Riemann sphere]]
 
 ## References
