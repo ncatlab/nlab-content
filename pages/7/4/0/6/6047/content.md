@@ -38,6 +38,8 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 
 * [[particle]], [[string]], [[membrane]]
 
+* [[membrane instanton]]
+
 ## References
 
 The Nambu-Goto action functional is named after [[Yoichiro Nambu]].
