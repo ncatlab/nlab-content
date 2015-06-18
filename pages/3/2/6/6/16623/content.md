@@ -16,7 +16,18 @@
 
 ## Idea
 
-[[instantons]] constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] [[cycles]]
+Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] [[cycles]].
+
+Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Curio 02, (2.15)](#Curio02))
+
+$$
+  \exp(i \int_{\Sigma} (\phi^\ast C + i \ell^{-3} vol(\phi^\ast g)))
+  \,,
+$$
+
+where $C$ is the background [[supergravity C-field]], $g$ the background [[metric]] and $vol$ its [[volume form]], $\ell$ is the [[Planck length]] of [[11-dimensional supergravity]].  
+
+When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast C = CS(\omega)$ is the [[Chern-Simons form|Chern-Simons invariant]] then this is the exponentiated "[[complex volume]]" of $\Sigma$[^footnote].
 
 ## related concepts
 
@@ -28,10 +39,12 @@
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
-* [[Jeff Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
+* {#HarveyMoore99} [[Jeff Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
 
 Discussion specifically for [[M-theory on G2-manifolds]] includes
 
-* [[Gottfried Curio]], _Superpotentials for M-theory on a $G_2$ holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
+* {#Curio02} [[Gottfried Curio]], _Superpotentials for M-theory on a $G_2$ holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
+
+[^footnote]: This relation was pointed out by [[Hisham Sati]].
 
 [[!redirects membrane instantons]]
