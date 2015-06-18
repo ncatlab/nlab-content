@@ -83,6 +83,8 @@ See at _[[Deligne complex]]_
 
 * [[equivariant de Rham cohomology]]
 
+* [[de Rham-Witt complex]]
+
 * [[twisted de Rham cohomology]]
 
 * [[Deligne cohomology]]
