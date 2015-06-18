@@ -107,6 +107,7 @@ The following table lists some [[Lie groups]] and their maximal compact Lie subg
 | [[real numbers|real]] [[general linear group]] $GL(n, \mathbb{R})$  | [[orthogonal group]] $O(n)$    |
 | its connected component $GL(n,\mathbb{R})_0$ | [[special orthogonal group]] $SO(n)$ |
 | [[complex numbers|complex]] [[general linear group]] $GL(n, \mathbb{C})$  | [[unitary group]] $U(n)$        |
+| [[complex numbers|complex]] [[special linear group]] $SL(n, \mathbb{C})$  | [[special unitary group]] $SU(n)$        |
 | [[symplectic group]] $Sp(2n,\mathbb{R})$                | [[unitary group]] $U(n)$        |
 | [[complex symplectic group]] $Sp(2n,\mathbb{C})$ | [[compact symplectic group]] $Sp(n)$ |
 | [[Narain group]] $O(n,n)$ | two copies of the [[orthogonal group]] $O(n) \times O(n)$ |
