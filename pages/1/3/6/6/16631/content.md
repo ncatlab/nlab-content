@@ -1,0 +1,11 @@
+
+
+## Related concepts
+
+* [[de Rham complex]], [[de Rham space]]
+
+* [[Witt vector]], [[arithmetic jet space]]
+
+## References
+
+* [[Mark Behrens]] notes on the de Rham Witt complex ([pdf](http://www3.nd.edu/~mbehren1/TAGS/Davis_notes.pdf))
