@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associtative_ if the canonical 3-form $\phi$ of the $G_2$-amnifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
+
+## Related concepts
+
+* [[membrane instanton]]
+
+## References
+
+* Ian Weiner, _Assoctiative 3-manifolds in $\mathbb{R}^7$_, 2001 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2001/iweiner/iweiner-2001-thesis.pdf))
+
+* Selman Akbulut, Sema Salur, _Associative submanifolds of a $G_2$-manifold_ ([pdf](http://users.math.msu.edu/users/akbulut/papers/associativeG2.pdf))
+
+* Damien Gayet, _Smooth moduli spaces of associative submanifolds_ ([arXiv:1011.1744](http://arxiv.org/abs/1011.1744))
+
+
+Discussion of [[wrapped branes]] on associative 3-cycles is in
+
+
+* [[Katrin Becker]], [[Melanie Becker]], D.R.Morrison, [[Hirosi Ooguri]], Y.Oz, Z.Yin, _Supersymmetric Cycles in Exceptional Holonomy Manifolds and Calabi-Yau 4-Folds_, Nucl.Phys.B480:225-238,1996 ([arXiv:hep-th/9608116](http://arxiv.org/abs/hep-th/9608116))
+
+
+Further discussion specfically of [[M5-branes]] [[wrapped brane|wrapped]] on associative 3-cycle which are either the [[3-sphere]] or a [[hyperbolic 3-manifold]] is in
+
+* [[Bobby Acharya]], [[Jerome Gauntlett]], Nakwoo Kim, _Fivebranes Wrapped On Associative Three-Cycles_, Phys.Rev. D63 (2001) 106003 ([arXiv:hep-th/0011190](http://arxiv.org/abs/hep-th/0011190))
+
+[[!redirects associative submanifolds]]
+
+[[!redirects associative 3-manifold]]
+[[!redirects associative 3-manifolds]]
+
+[[!redirects associative 3-cycle]]
+[[!redirects associative 3-cycles]]
