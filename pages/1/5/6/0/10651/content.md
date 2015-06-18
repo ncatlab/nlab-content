@@ -230,8 +230,11 @@ For the moment, see at _[[Bloch group]]_ for more details.
 
 The Borel regulator is due to 
 
+* {#Borel71} [[Armand Borel]], _Cohomologie de $SL_n$ et valeurs de fonctions de zeta_, Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4) 417 (1971), 613&#8211;636.  
+
 * {#Borel74} [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
-  
+
+
 The Beilinson regulator with values in [[Deligne cohomology]] is due to 
 
 * {#Bloch78} [[Spencer Bloch]], _Applications of the dilogarithm function in algebraic Ktheory and algebraic geometry_, in: Proc. of the International Symp. on Alg. Geometry, Kinokuniya, Tokyo, 1978
