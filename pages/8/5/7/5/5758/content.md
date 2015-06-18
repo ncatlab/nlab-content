@@ -63,14 +63,18 @@ A general account is around section 11.2.5 of
 
 and in section 3 of
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-{#Hinich}
+* {#Hinich}[[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+
 
 
 The [[homotopy category]] and [[triangulated category]] of dg-modules is discussed for instance also in
 
-* Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
-{#Bernstein}
+* {#Bernstein} Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
+
+
+See also
+
+* {#BarthelMayRiehl14} Tobias Barthel, [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](http://www.math.harvard.edu/~eriehl/six.pdf))
 
 [[!redirects model structures on dg-modules]]
 
