@@ -851,7 +851,7 @@ $$
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
-    && \flat_{\mathfrak{a}} A && \longrightarrow && \Pi_{\mathfrak{a}} A
+    && \flat_{\mathfrak{a}} X && \longrightarrow && \Pi_{\mathfrak{a}} X
   }
   \,,
 $$
