@@ -40,6 +40,8 @@ The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ whi
 
 [[!include special holonomy table]]
 
+* [[associative submanifold]]
+
 * [[octonions]]
 
 * [[Hitchin functional]]
