@@ -630,7 +630,7 @@ $$
 By going back and forth, the [[adjoint quadruple]] on the left induces a further [[adjoint triple]] of [[adjoint modalities]] which we write
 
 $$
-  (\Re \dashv \Pi_{inf} \dashv \flat_{inf})
+  (\Re \dashv \Im \dashv \&)
 
   \colon 
   \mathbf{H} \to \mathbf{H}
@@ -651,17 +651,17 @@ Moreover, $\mathbf{H}_{infinitesimal}$ satisfies _[[infinitesimal cohesion]]_ in
 +-- {: .num_prop #PiInf}
 ###### Claim
 
-The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as producing [[de Rham space]] objects. In particular: 
+The [[infinitesimal shape modality]] $\Im$ is naturally thought of as producing [[de Rham space]] objects. In particular: 
 
 1. for $G \in Grp(\mathbf{H})$ an [[∞-group]] object then the [[mapping stack]]
 
    $$
-     Loc_\Sigma(G) \coloneqq [\Pi_{inf} \Sigma, \mathbf{B}G]
+     Loc_\Sigma(G) \coloneqq [\Im \Sigma, \mathbf{B}G]
    $$
 
    is the [[moduli ∞-stack]] of $G$-[[local systems]] on any $\Sigma \in \mathbf{H}$;
 
-1. [[quasicoherent sheaves]] on $\Pi_{inf} X$ are [[D-modules]] on $X$.
+1. [[quasicoherent sheaves]] on $\Im X$ are [[D-modules]] on $X$.
 
 =--
 
@@ -670,7 +670,7 @@ The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as prod
 ###### Remark
 
 In terms of claim \ref{PiInf} then the statement of the [[geometric Langlands correspondence]] is that there is a natural [[correspondence]] between
-$\Pi_{inf}[\Sigma, \mathbf{B}G]$ and $[\Pi_{inf}\Sigma, \mathbf{B}{}^L G]$.
+$\Im[\Sigma, \mathbf{B}G]$ and $[\Im\Sigma, \mathbf{B}{}^L G]$.
 
 
 =--
@@ -737,9 +737,9 @@ In summary, the [[differential cohesion|differential cohesive]] structure is ref
 
    * [[reduction modality]] $\Re$ removes infinitesimal dimensions;
 
-   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+   * [[infinitesimal shape modality]] $\Im$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
 
-   * [[infinitesimal flat modality]] $\flat_{inf}$ 
+   * [[infinitesimal flat modality]] $\&$ 
 
 =--
 
