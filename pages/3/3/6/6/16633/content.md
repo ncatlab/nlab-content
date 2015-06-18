@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associtative_ if the canonical 3-form $\phi$ of the $G_2$-amnifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
+A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associative_ if the canonical 3-form $\phi$ of the $G_2$-manifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
 
 ## Related concepts
 
@@ -24,7 +24,7 @@ A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of
 
 ## References
 
-* Ian Weiner, _Assoctiative 3-manifolds in $\mathbb{R}^7$_, 2001 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2001/iweiner/iweiner-2001-thesis.pdf))
+* Ian Weiner, _Associative 3-manifolds in $\mathbb{R}^7$_, 2001 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2001/iweiner/iweiner-2001-thesis.pdf))
 
 * Selman Akbulut, Sema Salur, _Associative submanifolds of a $G_2$-manifold_ ([pdf](http://users.math.msu.edu/users/akbulut/papers/associativeG2.pdf))
 
@@ -37,7 +37,7 @@ Discussion of [[wrapped branes]] on associative 3-cycles is in
 * [[Katrin Becker]], [[Melanie Becker]], D.R.Morrison, [[Hirosi Ooguri]], Y.Oz, Z.Yin, _Supersymmetric Cycles in Exceptional Holonomy Manifolds and Calabi-Yau 4-Folds_, Nucl.Phys.B480:225-238,1996 ([arXiv:hep-th/9608116](http://arxiv.org/abs/hep-th/9608116))
 
 
-Further discussion specfically of [[M5-branes]] [[wrapped brane|wrapped]] on associative 3-cycle which are either the [[3-sphere]] or a [[hyperbolic 3-manifold]] is in
+Further discussion specifically of [[M5-branes]] [[wrapped brane|wrapped]] on associative 3-cycle which are either the [[3-sphere]] or a [[hyperbolic 3-manifold]] is in
 
 * [[Bobby Acharya]], [[Jerome Gauntlett]], Nakwoo Kim, _Fivebranes Wrapped On Associative Three-Cycles_, Phys.Rev. D63 (2001) 106003 ([arXiv:hep-th/0011190](http://arxiv.org/abs/hep-th/0011190))
 
