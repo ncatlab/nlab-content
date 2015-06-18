@@ -48,7 +48,10 @@ $$
   \tau \coloneqq C_3 + i \phi_3
 $$
 
-of the (flat) supergravity $C$-field $C_3$ and the the 3-form $\phi_3$ of the $G_2$-structure is the natural [[holomorphic function|holomorphic coordinate]] on the [[moduli space]] of the [[KK-compactification]] of a $G_2$-manifold, in M-theoretic higher analogy of the complexified K&#228;hler classes of CY compactifications of 10d string theory ([Harvey-Moore 99, (2.7)](#HarveyMoore99), [Acharya 02, (32) (59) (74)](#Acharya02), [Grigorian-Yau 08, (4.57)](#GrigorianYau08), [Acharya-Bobkov 08, (4)](#AcharyaBobkov08))
+of the (flat) supergravity $C$-field $C_3$ and the the 3-form $\phi_3$ of the $G_2$-structure is the natural [[holomorphic function|holomorphic coordinate]] on the [[moduli space]] of the [[KK-compactification]] of a $G_2$-manifold, in M-theoretic higher analogy of the complexified K&#228;hler classes of CY compactifications of 10d string theory ([Harvey-Moore 99, (2.7)](#HarveyMoore99), [Acharya 02, (32) (59) (74)](#Acharya02), [Grigorian-Yau 08, (4.57)](#GrigorianYau08), [Acharya-Bobkov 08, (4)](#AcharyaBobkov08)).
+
+Notice that restricted to [[associative submanifolds]] this combination becomes $C_3 + i vol$, which also governs the [[membrane instanton]]-contributions ("[[complex volume]]").
+
 
 ### Nonabelian gauge groups and chiral fermions at orbifold singularities
  {#EnhancedGaugeGroups}
