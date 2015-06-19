@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **combinatorial map** (or **algebraic map**) is a representation of a [[topological map]] (i.e., a graph embedded in a surface) as a finite set and a list of permutations acting on that set, such that topological maps which are [[homeomorphic]] are represented by lists of permutations which are equivalent up to [[conjugacy class|conjugation]]. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
+A **combinatorial map** (or **algebraic map**) is a representation of a [[topological map]] (i.e., a graph embedded in a surface) as a finite set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugacy class|conjugation]] if and only if the corresponding topological maps are [[homeomorphic]]. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
 
 ## Oriented maps
 
@@ -22,7 +22,7 @@ In the literature, oriented combinatorial maps are often simply referred to as "
 
 ### Representation of an oriented topological map
 
-Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$ into a [[surface]] $X$, and assume moreover that $X$ is [[compact]], [[connected]], [[oriented]], and without [[boundary]].  We can represent $M$ by a unique oriented combinatorial map, defined as follows (letting $E$ and $V$ stand for the set of edges and vertices, respectively, of the graph $G$):
+Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G = (V,E)$ into a [[surface]] $X$, and assume moreover that $X$ is [[compact]], [[connected]], [[oriented]], and without [[boundary]].  We can represent $M$ by a unique oriented combinatorial map defined as follows:
 
 * $D$ is defined as a set containing $2n$ elements, where $n = |E|$, with a pair of distinct darts $e^+,e^- \in D$ for each $e \in E$.  These darts may be visualized as oriented edges, or alternatively as half-edges, or in a number of different ways.
 
@@ -33,8 +33,6 @@ Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$
 * similarly, we say that a dart $d$ is incident to a face $f$ (i.e., a connected component of $X \setminus \theta(G)$) if $f$ is the unique face appearing to the left of $d$.  Then each face $f$ determines a cyclic ordering of darts incident to $f$ (corresponding to a clockwise traversal along the perimeter of $f$), and we can combine these disjoint cycles into a single permutation $\phi$.
 
 * by a simple visual argument, it is easy to check that if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
-
-(Note bene: the choice of Greek letters for the three permutations comes from the French words _sommet_ (vertex), _ar&#234;te_ (edge), _face_.)
 
 ### Genus
 
