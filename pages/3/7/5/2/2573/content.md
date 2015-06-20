@@ -10,9 +10,11 @@
 
 The **axiom of replacement** is an axiom scheme of [[Zermelo-Fraenkel set theory]] that was suggested by A. Fraenkel and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
 
-Such processes of collection and the resulting axioms of replacement are part of the 'strong' axioms of [[set theory]]. The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefor a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs].  Axioms of collection are necessary, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before.
+Similar processes of collection and the resulting axioms of replacement occur elsewhere in [[set theory]] where they are seen as a part of the 'strong' axioms. The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefore a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs]. Even in the context of a ZF-equivalent material set theory the axiom of replacement can be treated in for a [[reflection principle]] (cf. [Bell-Machover 1977](#BellMach77), p.495).
 
 [^etcs]: It is possible, however, to augment an ETCS-like categorical set theory with a version of replacement if necessary as shown in ([Osius 1974](#Osius74), section 9) resulting in a system with the full strength of ZF.
+
+Axioms of replacement and collection become useful, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before e.g. for the construction of [[large cardinal|large cardinals]]. 
 
 There are many variations on these axiom schemata, but any given system should only need one.
 
@@ -40,6 +42,8 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 ## References
 
 * MO-discussion: _Who needs Replacement anyway ?_ . ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
+
+* {#BellMach77}[[John Bell|J. L. Bell]], M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (ch. 10,&#167;5)
 
 * {#Cantor99}[[Georg Cantor]], _Brief an Dedekind vom 22. Juli 1899_ , pp.443-447 in Cantor, _Gesammelte Abhandlungen_ , Springer Berlin 1932.  English transl. pp.113-117 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
