@@ -272,36 +272,32 @@ This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also p
 
 Original references include
 
-* [[Maxim Kontsevich]], _Intersection theory on the moduli space of curves and the matrix Airy function_ , Commun.
+* {#Kontsevich92}[[Maxim Kontsevich]], _Intersection theory on the moduli space of curves and the matrix Airy function_ , Commun.
 Math. Phys. (1992), no. 147, 1-23.
- {#Kontsevich92}
  
-* [[Kiyoshi Igusa]], _Higher Franz Reidemeister torsion_ , IP Studies in Advanced Mathematics, American Mathematical
+* {#Igusa02}[[Kiyoshi Igusa]], _Higher Franz Reidemeister torsion_ , IP Studies in Advanced Mathematics, American Mathematical
 Society, 2002.
- {#Igusa02}
 
-* [[Kiyoshi Igusa]], _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
- {#Igusa04}
+* {#Igusa04}[[Kiyoshi Igusa]], _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
 
-* K. Strebel, _Quadratic Differentials_, Springer, Berlin, 1984, [MR86a:30072](http://www.ams.org/mathscinet-getitem?mr=86a:30072)
 
-* R. C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044)
+* {#Strebel}K. Strebel, _Quadratic Differentials_, Springer, Berlin, 1984, [MR86a:30072](http://www.ams.org/mathscinet-getitem?mr=86a:30072)
+
+* {#Penner}R. C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044)
 
 * John Harer, _The cohomology of the moduli space of curves_, Lec. Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
 
-* M. Mulase, M. Penkava, _Ribbon graphs, quadratic differentials on Riemann surfaces, and algebraic curves defined over_ $\overline{\mathbb{Q}}$. Mikio Sato: a great Japanese mathematician of the twentieth century.  Asian J. Math. __2__ (1998),  no. 4, 875--919. ([pdf](http://arxiv.org/pdf/math-ph/9811024v2.pdf)) 
-{#MulPen}
+* {#MulPen}M. Mulase, M. Penkava, _Ribbon graphs, quadratic differentials on Riemann surfaces, and algebraic curves defined over_ $\overline{\mathbb{Q}}$. Mikio Sato: a great Japanese mathematician of the twentieth century.  Asian J. Math. __2__ (1998),  no. 4, 875--919. ([pdf](http://arxiv.org/pdf/math-ph/9811024v2.pdf)) 
 
-* [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://193.51.104.7/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
+* [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
 
 * Ib Madsen, Michael Weiss, _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843)
 
 * J. Conant, K. Vogtmann, _On a theorem of Kontsevich_, [math.QA/0208169](http://arxiv.org/abs/math/0208169)
 
-* Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, [pdf](http://www.mat.uniroma1.it/~mondello/me/papers/ober-definitive.pdf)
+* Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, [pdf](http://www1.mat.uniroma1.it/people/mondello/ricerca/papers/ober-definitive.pdf) [arxiv](http://arxiv.org/abs/0705.1792)
 
-* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
- {#Godin}
+* {#Godin}[[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
 
 A survey is in chapter 3 of 
 
