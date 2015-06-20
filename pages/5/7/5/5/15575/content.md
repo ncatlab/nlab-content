@@ -9,7 +9,7 @@ Let $M$ be a [[category]] with two [[model structures]] $(C_1,F_1,W)$ and $(C_2,
 
 The following theorem is essentially due to [Jardine](#Jardine).
 
-+-- {: .un_theorem}
++-- {: .num_theorem #IMS}
 ###### Theorem
 There is a (necessarily unique) **intermediate model structure** $(L,F_i,W)$ with the same weak equivalences and $L$ as the cofibrations.
 =--
@@ -24,6 +24,17 @@ Define $F_i$ to be the class of morphisms having the right lifting property with
 Now one of the weak factorization systems in the desired model structure is just $(L,R)$.  The other will be $(L\cap W, F_i)$, for which it suffices to verify the existence of factorizations.  Given $f$, we first factor it as $p i$ with $p\in F_2$ (hence also $p\in F_i$) and $i\in C_2\cap W$.  Now factor $i$ as $q j$ with $j\in L$ and $q\in R$, hence also $q\in F_i \cap W$.  Thus, by the 2-out-of-3 property, $j\in W$, so we have $f = (p q) j$ with $j\in L\cap W$ and $p q\in F_i$.
 
 It remains only to show that $F_i \cap W \subseteq R$, and this follows by a standard retract argument.  Given $f\in F_i \cap W$, factor it as $p i$ with $p\in R$ and $i\in L$.  Then $p\in W$, so by 2-out-of-3 $i\in L\cap W$ as well.  Hence $f$ has the right lifting property with respect to $i$, so it is a retract of $p$, hence lies in $R$.
+=--
+
+We also have:
+
++-- {: .num_theorem #CofGen}
+###### Theorem
+If in the above situation $M$ is a [[locally presentable category]] and either $(C_1,F_1,W)$ or $(C_2,F_2,W)$ is [[cofibrantly generated model category|cofibrantly generated]] (hence [[combinatorial model category|combinatorial]]), and $(L,R)$ is cofibrantly generated, then $(L,F_i,W)$ is also combinatorial.
+=--
++-- {: .proof}
+###### Proof
+The assumption about $(C_1,F_1,W)$ or $(C_2,F_2,W)$ ensures that $Arr_W(C)$ is an accessibly embedded accessible full subcategory of $Arr(C)$.  The rest of the hypotheses of Smith's theorem about [[combinatorial model categories]] are automatically satisfied because we already know that $(L,F_i,W)$ is a model category.
 =--
 
 ## Examples
