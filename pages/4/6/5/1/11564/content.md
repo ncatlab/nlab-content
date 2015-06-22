@@ -824,8 +824,7 @@ $$
 
 (with the last term being in chain degrees $-n$ to 0 (hence homotopy group degrees $n$ to 0)).
 
-We have a pasting diagram of [[homotopy pullbacks]]
-
+{#PastingForDeligneTower} We have a pasting diagram of [[homotopy pullbacks]]
 $$
   \array{
     B^n U(1)_{conn} &\to& \Omega^{n+1}_{cl}
@@ -1148,6 +1147,7 @@ $$
 $$
 
 =--
+
 
 
 +-- {: .num_prop}
