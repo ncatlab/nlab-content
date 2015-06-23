@@ -46,6 +46,6 @@ Technically, this works for any four-vector comparison between Minkowski space a
 
 See also at _[[Osterwalder-Schrader theorem]]_.
 
-* [[Graeme Segal]], ([video](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
+* [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_ ([video](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
 
-* [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
+* {#Witten13} [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
