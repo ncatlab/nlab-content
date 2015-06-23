@@ -10,7 +10,7 @@
 
 The **axiom of replacement** is an axiom scheme of [[Zermelo-Fraenkel set theory]] that was suggested by A. Fraenkel and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
 
-Similar processes of collection and the resulting axioms of replacement occur elsewhere in [[set theory]] where they are seen as a part of the 'strong' axioms. The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefore a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs]. Even in the context of a ZF-equivalent material set theory the axiom of replacement can be treated in for a [[reflection principle]] (cf. [Bell-Machover 1977](#BellMach77), p.495).
+Similar processes of collection and the resulting axioms of replacement occur elsewhere in [[set theory]] where they are seen as a part of the 'strong' axioms. The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefore a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs]. Even in the context of a ZF-equivalent material set theory the axiom of replacement can be traded in for a [[reflection principle]] (cf. [Bell-Machover 1977](#BellMach77), p.495).
 
 [^etcs]: It is possible, however, to augment an ETCS-like categorical set theory with a version of replacement if necessary as shown in ([Osius 1974](#Osius74), section 9) resulting in a system with the full strength of ZF.
 
