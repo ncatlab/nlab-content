@@ -83,6 +83,8 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 Note that this violates the convention that a $1$-foo is a foo; instead the ruling convention being used is that an $n$-foo has dimension $n$.  One could follow both by saying '$n$-circle' instead, although this might get confused with the $n$-[[torus]].
 
+* The [[7-sphere]] is interesting, too.
+
 ## Related concepts
 
 * [[homotopy groups of spheres]]
