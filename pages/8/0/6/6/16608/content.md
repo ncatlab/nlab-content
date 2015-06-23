@@ -6,7 +6,9 @@
 
 ## Examples
 
-Burnside rings, representation rings, homotopy groups of equivariant $E_{\infty}$-ring spectra in stable homotopy theory.
+Burnside rings, representation rings, zeroth stable homotopy group of a genuine equivariant $E_{\infty}$-ring.
+
+>the homotopy category of Eilenberg MacLane commutative ring spectra is equivalent to the category of Tambara functors. ([Ull13](#Ull13))
 
 Some other examples are related to [[Witt-Burnside functors]], Witt rings in the sense of Dress and Siebeneicher.
 
@@ -23,3 +25,4 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 * {#Tam93} Daisuke Tambara, _On multiplicative transfer_, Comm. Algebra 21 (1993), no. 4, 1393&#8211;1420 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/tambara.pdf)).
 * {#AB15} Vigleik Angeltveit and Anna Marie Bohmann, _Graded Tambara Functors_, ([arXiv:1504.00668](http://arxiv.org/abs/1504.00668))
 [[!redirects Tambara functors]]
+* {#Ull13} John Ullman, _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
