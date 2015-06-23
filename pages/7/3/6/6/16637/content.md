@@ -1,0 +1,38 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[sphere]] of [[dimension]] 7.
+
+This is one of the [[parallelizable manifold|parallelizable]] spheres, as such corresponds to the [[octonions]] among the [[division algebras]], being the manifold of unit octonions, and is the only one of these which does not carry ([[Lie group|Lie]]) [[group]] structure but just [[Moufang loop]] structure.
+
+
+## Properties
+
+
+
+### Hopf fibration
+
+The [[Hopf fibration]]
+
+$$
+  \array{
+    S^3 &\hookrightarrow& S^7
+    \\
+    && \downarrow
+    \\
+    && S^4 &\stackrel{}{\longrightarrow}& \mathbf{B} SU(2)
+  }
+$$
+
+## References
+
+* [[Martin Cederwall]], Christian R. Preitschopf, _The Seven-sphere and its Kac-Moody Algebra_, Commun. Math. Phys. 167 (1995) 373-394 ([arXiv:hep-th/9309030](http://arxiv.org/abs/hep-th/9309030))
+
+[[!redirects 7-spheres]]
+
+[[!redirects seven sphere]]
+[[!redirects seven spheres]]
