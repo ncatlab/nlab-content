@@ -42,7 +42,7 @@ We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ 
 
 The [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [[Sylow group|Sylow 2-group]] of $G$, then the [[fixed field]] of $G(2)$ is an odd degree extension of $F$, given by adjoining a root of an odd degree irreducible polynomial $q$ over $F$. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, the degree must be $1$, so that in fact $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
 
-So $G$ is a $2$-[[primary group]]. But for any [[prime number]] $p$, a nontrivial finite $p$-group has nontrivial [[center]], and is therefore [[solvable group|solvable]] by an inductive argument. Therefore the extension $L/F$ arises from a tower of non-trivial [[quadratic extension]]s 
+So $G$ is a $2$-[[primary group]]. But for any [[prime number]] $p$, a nontrivial finite $p$-group has nontrivial [[center]] (see [here](/nlab/show/p-primary+group#center)), and is therefore [[solvable group|solvable]] by an inductive argument. Therefore the extension $L/F$ arises from a tower of non-trivial [[quadratic extension]]s 
 
 $$F \subseteq L_1 \subseteq \ldots \subseteq L_n = L$$ 
 
@@ -102,7 +102,7 @@ which yields the desired contradiction.
 
 Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]].  (Some general results on splitting fields are problematic in constructive algebra, as is the intermediate value theorem in constructive analysis, but their usage in this proof is fine.)
 
-In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
+In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
 
 Most varieties of [[constructive mathematics]] (including that in [[Errett Bishop]]\'s book) nevertheless accept the FTA, because the needed square roots follow from [[weak countable choice]] ($WCC$, which is a consequence of either excluded middle or [[countable choice]]).  A fully choice-free constructive proof also exists for the [[Cauchy real number|Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by $WCC$).
 
