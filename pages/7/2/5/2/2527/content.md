@@ -21,7 +21,7 @@ If we use [[set theory|set-theoretic]] [[foundations]] for category theory, then
 
 If we additionally assume the (possibly global) [[axiom of choice]], then not only is any category [[equivalence of categories|equivalent]] to a canonical strict category, but every (ana-)functor is [[naturally isomorphic functors|naturally isomorphic]] to a strict functor, so the notions have little to no mathematical content.  But in other foundations, these facts may not be true.
 
-Moreover, even in set-theoretic foundations with global $AC$, the notion of strict category is not meaningless: calling a category strict signals that we intend to *make use of* the equality relation on its objects.  When taking the [[nPOV]], we often adopt the [[philosophy|philosophical]] position that [[category theory]] is fundamentally about weak categories; see the discussion at [[evil]].  However, strict categories still do occasionally arise in mathematical practice; see the examples below.
+Moreover, even in set-theoretic foundations with global $AC$, the notion of strict category is not meaningless: calling a category strict signals that we intend to *make use of* the equality relation on its objects.  When taking the [[nPOV]], we often adopt the [[philosophy|philosophical]] position that [[category theory]] is fundamentally about weak categories; see the discussion at [[principle of equivalence]].  However, strict categories still do occasionally arise in mathematical practice; see the examples below.
 
 
 ## Definition
