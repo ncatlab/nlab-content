@@ -112,7 +112,7 @@ For each of the [[normed division algebra|normed division algebras]] over $\math
 
 $$A = \mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O},$$ 
 
-there is a corresponding Hopf fibration of [[Hopf invariant one]]. The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. These gives spheres of dimension 1, 3, 7, and 15 respectively. The base space of the fibration is [[projective space|projective]] 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is a map 
+there is a corresponding Hopf fibration of [[Hopf invariant one]]. The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. These gives spheres of dimension 1, 3, [[7-sphere|7]], and 15 respectively. The base space of the fibration is [[projective space|projective]] 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is a map 
 
 $$S^{2^n - 1} \to S^{2^{n-1}}$$ 
 
