@@ -1,5 +1,5 @@
 
-* [website](http://math.uchicago.edu/~bohmann/)
+* [website](http://math.northwestern.edu/~bohmann/)
 
 ## related $n$Lab entries
 
