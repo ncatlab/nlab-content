@@ -45,7 +45,7 @@ The **fpqc-site** (over $S$) is the [[site]]
   
 =--
 
-This appears as ([de Jong, def. 27.8.1](#deJong)).
+This appears as ([Stacks Project, def. 27.8.1](#Stacks)). ([[David Roberts|DR]]: this reference is now incorrect! It should be tag number, but I can't find it)
 
 +-- {: .un_remark}
 ###### Remark
@@ -66,7 +66,7 @@ The abbreviation "fpqc" is for _fid&#232;lement plat quasi-compacte_ : faithfull
 ###### Remark
 
 
-Because the collection of fpqc covers of a scheme does not have a small collection of refinements, working with the fpqc topology can be set-theoretically tricky.  Indeed, in 1975, Waterhouse gave an example of a functor on schemes that admits no fpqc sheafification.  This contradicts many claims in the literature that fpqc sheafification and stackification is functorial (and such claims continue to be made).
+Because the collection of fpqc covers of a scheme does not have a small collection of refinements (Stacks project, [Tag 0BBK](http://stacks.math.columbia.edu/tag/0BBK)), working with the fpqc topology can be set-theoretically tricky.  Indeed, in 1975, Waterhouse gave an example of a functor on schemes that admits no fpqc sheafification.  This contradicts many claims in the literature that fpqc sheafification and stackification is functorial (and such claims continue to be made).
 
 =--
 
@@ -79,8 +79,8 @@ Because the collection of fpqc covers of a scheme does not have a small collecti
 
 Chaper 27.8 in 
 
-* [[Aise Johan de Jong]], _[[The Stacks Project]]_
-{#deJong}
+* _[[The Stacks Project]]_
+{#Stacks}
 
 * W. C. Waterhouse, _Basically bounded functors and flat sheaves_, Pacific Journal of Mathematics __57__ (1975), no. 2, 597--610 [MR396578](http://www.ams.org/mathscinet-getitem?mr=396578), [euclid](http://projecteuclid.org/euclid.pjm/1102906018)
 
