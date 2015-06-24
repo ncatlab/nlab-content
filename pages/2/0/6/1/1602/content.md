@@ -442,11 +442,16 @@ The nature of the field configuration obtained this way -- spin connection with 
 
 ## References
 
-A clear and precise account of what anomalies are and what the Green-Schwarz mechanism is to cancel them is given in
+A clear and precise account of what the relevant anomalies are and what the Green-Schwarz mechanism is to cancel them is given in (see also the relevant bits at _[[eta invariant]]_)
+
+* {#Witten99} [[Edward Witten]], section 2.2 of _World-Sheet Corrections Via D-Instantons_, JHEP 0002:030,2000 ([arXiv:9907041](http://arxiv.org/abs/hep-th/9907041))
+
+Review, broader context and further discussion is given in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
-For the moment, see there for further references.
+
+
 
 
 ### For $10 D$ supergravity
