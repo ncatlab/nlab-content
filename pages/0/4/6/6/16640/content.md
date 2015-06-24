@@ -1,0 +1,148 @@
+# Contents #
+* table of contents 
+{: toc}
+
+
+## Idea 
+
+The term "class equation" (or class formula, or orbit decomposition formula) refers to a basic type of counting argument that comes about by decomposing a finite $G$-[[permutation representation|set]] as a sum of its orbits. It has a number of fundamental applications in group theory. 
+
+## Statement 
+
+Let $G$ be a group and let $A$ be a $G$-set (given by a homomorphism $G \to \hom_{Set}(A, A)$ of [[monoids]], with which is associated an [[action]] $\alpha: G \times A \to A$). Recall that $A$ is [[connected object|connected]] in the category of $G$-sets if $A$ is [[inhabited set|inhabited]] and the action is [[transitive action|transitive]]; in this case, choosing an element $a \in A$, there is a surjection of $G$-sets $G \to A$ sending $1 \mapsto a$, and this induces an isomorphism $G/Stab(a) \cong A$ where $Stab(a)$ is the [[stabilizer]] of $a$ and $G/Stab(a)$ is the $G$-set consisting of left [[cosets]] of $Stab(a)$. 
+
+More generally, each $G$-set $A$ admits a canonical decomposition as a coproduct of its connected components; the components are usually called the [[orbits]] of the action. Choosing a representative element $a_x$ in each orbit $x$, this means we have an isomorphism of $G$-sets 
+
+$$A \cong \sum_{orbits x} G/Stab(a_x).$$ 
+
+By taking $G$ and $A$ to be [[finite set|finite]] and counting elements, we get an equation of the form 
+
+$${|A|} = \sum_{orbits x} \frac{{|G|}}{{|Stab(a_x)|}}.$$ 
+
+We call an instance of this equation a *class equation*. By judicious choice of groups $G$ and $G$-sets $A$, often in combination with number-theoretic arguments, one can derive many useful consequences; some sample applications are given below. 
+
+## Applications 
+
+### Centers of $p$-groups 
+
+Let $p$ be a [[prime number|prime]]; recall that a $p$-[[p-primary group|group]] is a finite group whose order is a power of $p$. A basic structural result is the following. 
+
++-- {: .num_prop #pgroup} 
+###### Proposition 
+A non-trivial $p$-group $G$ has a nontrivial [[center]] $Z(G)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $G$ act on itself by the conjugation action $G \times G \to G$, $(g, h) \mapsto g h g^{-1}$. In this case an orbit $Orb(h)$ is usually called the [[conjugacy class]] of $h$, and $Orb(h)$ is trivial (consists of exactly one element $h$) iff $h$ belongs to $Z(G)$. In any case ${|Orb(h)|} = \frac{{|G|}}{{|Stab(h)|}}$ divides ${|G|} = p^n$, and therefore $p$ divides ${|Orb(h)|}$ if $h$ is noncentral. In this case the class equation takes the form  
+
+$${|G|} = {|Z(G)|} \; + \sum_{nontrivial\; orbits x} \frac{{|G|}}{{|Stab(a_x)|}}$$ 
+
+and now since $p$ divides ${|G|}$ as well as each term in the sum over nontrivial orbits, it must also divide ${|Z(G)|}$. In particular, $Z(G)$ has more than one element. 
+=-- 
+
+It follows by induction that $p$-groups are [[solvable group|solvable]], since the center is a [[normal subgroup]] and the quotient $G/Z(G)$ is also a $p$-group. 
+
+### Number of fixed points 
+
+An elementary observation that is frequently useful is that the number of [[fixed points]] of an [[involution]] on a finite set $S$ has the same parity as $S$. This is a statement about $\mathbb{Z}/(2)$-sets; we generalize this to a statement about $G$-sets for general $p$-groups $G$. (Again, a fixed point of a $G$-set is an element whose orbit is a singleton.) 
+
++-- {: .num_prop #pparity} 
+###### Proposition 
+If $G$ is a $p$-group acting on a set $A$, then 
+
+* ${|A|} \equiv {|Fix(A)|} \; mod p$. 
+
+As special cases, if there is just one fixed point, then ${|A|} \equiv 1 \; mod p$, and if $p$ divides ${|A|}$, then $p$ divides ${|Fix(A)|}$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The class equation takes the form 
+
+$${|A|} = {|Fix(A)|} \; + \sum_{nontrivial\; orbits x} \frac{{|G|}}{{|Stab(a_x)|}}$$ 
+
+where $p$ divides each summand over nontrivial orbits on the right, since $G$ is a $p$-group. Now reduce mod $p$. 
+=-- 
+
+### Wedderburn's theorem 
+
+In the theory of finite [[projective plane]]s, an important result is that a projective plane is Pappian if it is Desarguesian. The purely algebraic version of this is Wedderburn's theorem: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A finite [[division ring]] $D$ is commutative. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+**(Witt)** 
+The center of $D$ is a [[field]]; if $D$ is of characteristic $p \gt 0$, then the center $F$ has $q = p^f$ elements for some $f$. We may regard $D$ as an $F$-vector space of dimension $n$, whence the number of elements of its multiplicative group $D^\times$ is $q^n-1$. 
+
+The conjugation action of $D^\times$ on itself yields a decomposition 
+
+$$D^\times \cong F^\times \; + \sum_{nontrivial\; orbits x} \frac{{|D^\times|}}{{|Stab(a_x)|}}$$ 
+
+where again the elements of the center $F^\times = Z(D^\times)$ correspond to the trivial orbits. The stabilizer of any $a_x$, together with $0$, forms a division ring (strictly) intermediate between $F$ and $D$; usually this is called the [[centralizer]] $C(a_x)$ of $a_x$. Putting $d_x = dim_F(C(a_x)$, the division ring $C(a_x)$ has $q^{d_x}$ elements, and notice $d_x$ divides $n$ because $n/d_x$ is just the dimension of $D$ seen as a vector space (module) over $C(a_x)$. Thus $Stab(a_x) = q^{d_x} - 1$, and we have a class equation 
+
+$$q^n - 1 = q - 1 + \sum_x \frac{q^n - 1}{q^{d_x} - 1}.$$ 
+
+If $T_n(z)$ is the cyclotomic polynomial given by the product of linear factors $z - \zeta$ where $\zeta$ ranges over *primitive* complex $n^{th}$ [[root of unity|roots of unity]], then $T_n(z)$ has integer coefficients (as it is invariant under the action of the [[Galois group]] $Gal(\mathbb{Q}(e^{2\pi i/n})/\mathbb{Q})$). By definition the integer $T_n(q)$ divides each of the terms of the class equation besides $q-1$, so it must divide $q-1$ as well, so ${|T_n(q)|} \leq {|q-1|}$. But we also have ${|q - \zeta|} \geq {|q-1|}$ for any root of unity $\zeta$, and we are now forced to conclude ${|q - \zeta|} = {|q-1|}$ and $n = 1$, i.e., $F = Z(D)$ is all of $D$ as was to be shown. 
+=-- 
+
+### Sylow theorems 
+
+Let $G$ be a finite group of order $n$, and suppose that $p$ is a prime that divides $n$; say $n = p^f u$ where $p$ does not divide $u$. Recall that a *Sylow $p$-group* is a $p$-subgroup of maximal order $p^f$. 
+
+A fundamental fact of group theory is that Sylow $p$-subgroups exist and they are all conjugate to one another; also the number of Sylow $p$-subgroups is $\equiv 1 \; mod p$. Existence of Sylow $p$-subgroups can be proven by exploiting the same type of argument as in the proof of Proposition \ref{pgroup}; here we prove a stronger statement: 
+
++-- {: .num_theorem} 
+###### Theorem 
+If $G$ has order $n$ and $p^k$ is a prime power dividing $n$, then there is a subgroup of $G$ of order $p^k$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+(We adapt the proof from [Wikipedia](https://en.wikipedia.org/wiki/Sylow_theorems#Proof_of_the_Sylow_theorems).) Let $P_k = \binom{G}{p^k}$ be the collection of subsets $S$ of $G$ of cardinality $p^k$, and let $G$ act on $P_k$ by taking images of left translations, $S \mapsto g S$. For $S \in P_k$, any $h \in S$ yields a monomorphism 
+
+$$Stab(S) \hookrightarrow G \stackrel{g \mapsto g h}{\to} G$$ 
+
+that (by definition of $Stab(S)$) factors through $S \hookrightarrow G$; this gives a monomorphism $Stab(S) \to S$, and so ${|Stab(S)|} \leq p^k$. 
+
+Now we prove the reverse inequality. Writing $n = p^k m$, we have 
+
+$${|P_k|} = \binom{p^k m}{p^k} = m \prod_{j = 0}^{p^k - 1} \frac{p^k m - j}{p^k - j}$$ 
+
+where the product after $m$ on the right is easily seen to be prime to $p$ (any power of $p$ that divides one of the numerators $p^k m - j$ also divides the denominator $p^k - j$, so that powers of $p$ in the product are canceled). Therefore $ord_p({|P_k|}) = ord_p(m)$; let $r$ be this number. Writing out the class equation 
+
+$${|P_k|} = \sum_{orbits x} \frac{{|G|}}{{|Stab(S_x)|}},$$ 
+
+not every term on the right can have $p$-order greater than $r$, so there is at least one orbit $x$ where 
+
+$$ord_p(\frac{{|G|}}{{|Stab(S_x)|}}) = ord_p({|G|}) - ord_p({|Stab(S_x)|}) \leq r = ord_p(m).$$ 
+
+We may rearrange this inequality to say $ord_p({|G|}/m) \leq ord_p({|Stab(S_x)|})$; in other words $p^k = {|G|}/m$ divides ${|Stab(S_x)|}$. Therefore $Stab(S_x)$ has order $p^k$, which is what we wanted. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+If $H$ is a $p$-subgroup of $G$ and $P$ is a Sylow $p$-subgroup, then $g^{-1} H g \subseteq P$ for some $g \in G$. In particular, all Sylow $p$-subgroups are conjugate to one another. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+$G$ acts on the set of cosets $G/P$ as usual by left translation, and we may restrict the action to the $p$-subgroup $H$. By maximality of $P$, we see ${|G/P|}$ is prime to $p$, and so by Proposition \ref{pparity}, ${|Fix_H(G/P)|}$ is also prime to $p$. In particular, it has at least one element, say $g P$. We infer that 
+$h g P = g P$ for all $h \in H$, or that $g^{-1} h g P = P$ for all $h \in H$, and this implies that $g^{-1} H g \subseteq P$. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+The number of Sylow $p$-subgroups of $G$ is $\equiv 1 \; mod p$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $Y$ be the set of Sylow $p$-subgroups; $G$ acts on $Y$ by conjugation. As all Sylow $p$-subgroups are conjugate, there is just one orbit of the action, and the stabilizer of an element $P \in Y$ is just the [[normalizer]] $N_G(P)$ (by definition of normalizer). Thus $Y \cong G/N_G(P)$ as $G$-sets. 
+
+Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fixed point of this restricted action, and if $Q$ is any other fixed point, it means $x Q x^{-1} = Q$ for all $x \in P$, whence $P \subseteq N_G(Q)$. Now: $P, Q$ are both Sylow $p$-subgroups of $N_G(Q)$ and are therefore conjugate to each other (as seen within the group $N_G(Q)$). But $Q$ is already fixed by the conjugation action in its stabilizer $N_G(Q)$, so we conclude $P = Q$. We conclude $Fix_P(Y)$ has exactly one element. From ${|Y|} \equiv {|Fix_P(Y)|} \; mod p$, the theorem follows. 
+=-- 
