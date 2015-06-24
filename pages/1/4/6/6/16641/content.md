@@ -1,0 +1,8 @@
+
+* [webpage](https://physics.stanford.edu/people/faculty/stephen-shenker)
+
+## related $n$Lab entries
+
+* [[nonperturbative effect]]
+
+category: people
