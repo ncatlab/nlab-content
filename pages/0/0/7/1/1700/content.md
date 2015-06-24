@@ -400,7 +400,7 @@ where $\mathbf{H}^{lc}\subset\mathbf{H}$ is the subcategory of locally constant 
 
 =--
 
-This generalization of Galois theory is discussed in [Hoyois 13](#Hoyois13). For further discussion in the case $n=\infty$, see
+This generalization of Galois theory is discussed in ([Hoyois 13](#Hoyois13),[Hoyois 15](#Hoyois15)). For further discussion in the case $n=\infty$, see
 
 * [[cohesive (infinity,1)-topos -- structures]] -- [Galois theory](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#GaloisTheory)
 
@@ -473,6 +473,7 @@ See also
 
 * {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
 
+* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
 
 category:Galois theory
 [[!redirects Galois theories]]
