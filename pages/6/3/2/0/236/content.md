@@ -245,6 +245,9 @@ $$
 
 The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $C$, which is $V$ itself, as indicated.
 
+## Related concepts
+
+* the [[groupoid cardinality]] of action groupoids is given by the [[class formula]]
 
 ## References
 
