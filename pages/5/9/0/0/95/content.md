@@ -80,6 +80,8 @@ This corresponds to what is referred to as the *total homotopy order of a space*
     |\mathbf{B}G| = \frac{1}{k}
   $$
 
+* More generally, for an [[action]] of $G$ on a [[set]] $X$, then the cardinality of the [[action groupoid]] $X//G$ is $\frac{\vert X\vert} {\vert G \vert}$. This is traditionally sometimes called the _[[class formula]]_.
+
 * Let $A$ be an [[abelian group]] with $k$ elements. Then we can [[delooping|deloop]] arbitrarily often and obtain the [[Eilenberg?Mac Lane objects]] $\mathbf{B}^n A$ for all $n \in \mathbb{N}$. (Under the [[Dold?Kan correspondence]] $\mathbf{B}^n A$ is the [[chain complex]] $A[n]$ (or $A[-n]$ depending on notational convention) that is concentrated in degree $n$, where it is the group $A$). Then
 
   $$
@@ -101,7 +103,9 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
 * for $G$ a suitable [[algebraic group]], for $\Sigma$ a suitable [[algebraic curve]], and for $q$ a [[prime number]], then the groupoid cardinality of the $\mathbb{F}_q$-points of the [[moduli stack of G-principal bundles]] over $X$, $Bun_G(X)$ is the subject of the [[Weil conjectures on Tamagawa numbers]].
 
+## Related concepts
 
+* [[class formula]]
 
 ## References
 
