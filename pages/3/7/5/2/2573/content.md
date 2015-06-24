@@ -8,13 +8,23 @@
 
 [^Cant]: _'Two equivalent multiplicities either are both "sets" or are both inconsistent'_, letter to Dedekind from 28th July 1899 ([Cantor 1932](#Cantor99), p.444). This is suggested as an early formulation of the axiom of replacement by van Heijenoort (1967, p.113).
 
-The **axiom of replacement** is an axiom scheme of [[Zermelo-Fraenkel set theory]] that was suggested by A. Fraenkel and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
+**Axioms of collection** and replacement are axiom schemata in [[set theory]] that permit to construct new sets from other already given sets thereby contributing substantially to the size of the set-theoretic universe and hence are seen as 'strong' axioms.
 
-Similar processes of collection and the resulting axioms of replacement occur elsewhere in [[set theory]] where they are seen as a part of the 'strong' axioms. The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefore a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs]. Even in the context of a ZF-equivalent material set theory the axiom of replacement can be traded in for a [[reflection principle]] (cf. [Bell-Machover 1977](#BellMach77), p.495).
+The most famous of these schemata is the **axiom of replacement**[^name] of [[Zermelo-Fraenkel set theory]] that was suggested by A. Fraenkel and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
+
+[^name]: The term 'replacement', or 'Ersetzungsaxiom' in German, is apparently due to [Fraenkel (1922)](#Fraenkel22) and was intended as a provisory terminology until the final formalization of Zermelo's notion of a 'definite property' which was identified with a first-order formula in the language of set theory by Skolem in the same year.
+
+The resulting expansiveness of the set-theoretic universe is somewhat peripheral to the practice of 'ordinary' mathematics and therefore a [[structural set theory]] like [[ETCS]] can omit replacement without incurring a great loss[^etcs]. Even in the context of a ZF-equivalent material set theory the axiom of replacement can be traded in for a [[reflection principle]][^bellmach].
+
+[^bellmach]: See [Bell-Machover 1977](#BellMach77), p.495.
 
 [^etcs]: It is possible, however, to augment an ETCS-like categorical set theory with a version of replacement if necessary as shown in ([Osius 1974](#Osius74), section 9) resulting in a system with the full strength of ZF.
 
-Axioms of replacement and collection become useful, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before e.g. for the construction of [[large cardinal|large cardinals]]. 
+Axioms of replacement and collection become useful, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before:
+
+>what the axiom of replacement is mainly needed for in mathematical practice is to define families of sets indexed by some set I carrying some inductive structure as, typically, the set $N$ of natural numbers.[^streicher]
+
+[^streicher]: T. Streicher ([2005, p.79](#Streicher05)). See there for further discussion of the role of replacement for _mathematics beyond $V_{\omega +\omega}$_ and the handling of similar iterated collection processes in toposes by universes.
 
 There are many variations on these axiom schemata, but any given system should only need one.
 
@@ -47,13 +57,15 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 * {#Cantor99}[[Georg Cantor]], _Brief an Dedekind vom 22. Juli 1899_ , pp.443-447 in Cantor, _Gesammelte Abhandlungen_ , Springer Berlin 1932.  English transl. pp.113-117 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
-* A. Fraenkel, _Zu den Grundlagen der Cantor-Zermeloschen Mengenlehre_ , Math. Ann. **86** (1922) pp.230-237. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002268760))
+* {#Fraenkel22}A. Fraenkel, _Zu den Grundlagen der Cantor-Zermeloschen Mengenlehre_ , Math. Ann. **86** (1922) pp.230-237. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002268760))
 
 * [[André Joyal]], [[Ieke Moerdijk]], _A categorical theory of cumulative hierarchies of sets_, C. R. Math. Rep. Acad. Sci. Canada **13** (1991) pp.55-58.
 
 * {#Osius74}[[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ , JPAA **4** (1974) pp.79-119.
 
 * [[Thoralf Skolem]], _Einige Bemerkungen zur axiomatischen Begr&#252;ndung der Mengenlehre_ , Mathematikerkongressen i Helsingfor 4-7 Juli 1922. English transl. pp.290-301 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
+
+* [[Thomas Streicher]], _Universes in Toposes_, pp.78-90 in Crosilla, Schuster (eds.), _From Sets and Types to Topology and Analysis_ , Oxford UP 2005. ([preprint](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
 
 * George Tourlakis, _Lectures in Logic and Set Theory, Volume 2: Set Theory_, Cambridge University Press (2003). (section III.8)
 
