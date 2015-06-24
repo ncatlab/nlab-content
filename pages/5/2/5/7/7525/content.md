@@ -3,6 +3,7 @@ Joachim Lambek, (1922-2014), usually called Jim, was a mathematician, logician, 
 
 * [wikipedia page](http://en.wikipedia.org/wiki/Joachim_Lambek)
 
+* [index of his writing since 2000](http://www.math.mcgill.ca/barr/lambek/pdffiles/)
 
 ## Related entries
 
