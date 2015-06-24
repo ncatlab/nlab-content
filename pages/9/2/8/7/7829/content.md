@@ -188,28 +188,36 @@ $$
   \,.
 $$
 
-(It is maybe noteworthy that, by the [above](#OnOddDimensionalManifolds), $\zeta_S = \exp(i \pi\, \eta_X(0))$ is the [[Selberg zeta function]].)
+(Here it is maybe noteworthy that, by the [above](#OnOddDimensionalManifolds), $\zeta_S = \exp(i \pi\, \eta_X(0))$ is the [[Selberg zeta function]].)
 
 In fact this is a smooth [[section]] of the [[determinant line bundle]] as $X$ varies. 
 
-+-- {: .num_prop}
++-- {: .num_prop #ExponentiatedEtaSatisfiesSewing}
 ###### Proposition
 
-These sections given by the exponentiated eta invriant satisfy the [[sewing law]].
+These sections given by the exponentiated eta invariant satisfy the [[sewing law]].
 
 =--
 
-Due to ([Dai-Freed 94](#DaiFreed94)). Reviewed in ([Freed 95a](#Freed95a)).
+This is due to ([Dai-Freed 94](#DaiFreed94)), reviewed in ([Freed 95a](#Freed95a)). See also ([Witten 15](#Witten15)) for discussion in relation to [[anomaly cancellation]] of [[fermions]] (specifically for the eta invariant in the [[Green-Schwarz mechanism]] see [Witten 99, section 2.2](Green-Schwarz+mechanism#Witten99)).
 
-This means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a metric), a point of view highlighted in ([Bunke 94](#Bunke94)). 
++-- {: .num_remark}
+###### Remark
 
+Prop. \ref{ExponentiatedEtaSatisfiesSewing} means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a [[Riemannian metric|metric]]), a point of view highlighted in ([Bunke 94](#Bunke94)).  
 Indeed, this exponentiated eta invariant is one factor (together with [[analytic torsion]] and the classical CS invariant) of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 
 Also the [[theta function]] is a section of, up to [[isomorphism]], this determinant line bundle (or maybe its inverse) ([Freed 95b, p. 31](#Freed95b)).
 
 > (and hopefully it coincides with the section given by the exponentiated $\eta$ under suitable conditions?)
 
-
+=--
 
 ## Examples
 
@@ -294,6 +302,8 @@ Discussion of the eta-invariant on manifolds with boundary is in
 * {#M&#252;ller94} Werner M&#252;ller, _Eta invariants and manifolds with boundary_, J. Diff. Geom. 40 (1994) 311-377 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mueller.pdf))
 
 * {#Bunke94} [[Ulrich Bunke]], _The $\eta$-Invariant as a Lagrangian of a Topological Quantum Field Theory_ ([arXiv:hep-th/9408162](http://arxiv.org/abs/hep-th/9408162))
+
+* {#Witten15} [[Edward Witten]], _Anomalies revisited_, talk at [Strings2015](https://strings2015.icts.res.in) ([pdf slides](https://strings2015.icts.res.in/talkDocuments/6-2.00-2.30-Edward-Witten.pdf))
 
 and regarding the result as taking values in the determinant line over the boundary is due to
 
