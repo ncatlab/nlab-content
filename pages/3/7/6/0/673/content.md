@@ -36,7 +36,7 @@ You may also find me on
 
 * _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
-*  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [DSpace](http://digital.library.adelaide.edu.au/dspace/handle/2440/62680)
+*  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [DSpace@Adelaide](http://digital.library.adelaide.edu.au/dspace/handle/2440/62680)
 
 * _The inner automorphism 3-group of a strict 2-group_, [Journal of Homotopy and Related Structures](http://tcms.org.ge/Journals/JHRS/), vol. 3(1), 2008, pp.193&#8211;245, [journal version](http://tcms.org.ge/Journals/JHRS/volumes/2008/volume3-1.htm), [arXiv:0708.1741](http://arxiv.org/abs/0708.1741). Joint with [[nLab:Urs Schreiber|Urs Schreiber]].
 
