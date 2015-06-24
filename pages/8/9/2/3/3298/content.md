@@ -100,7 +100,7 @@ We discuss Hochschild homology of commutative algebras for the case that these a
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] that admits [[function algebras on ∞-stacks]] (see there for details)
 
 $$
-  Alg^{op} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{}{\to}}
+  Alg^{op} \stackrel{\overset{\mathcal{O}}{\longleftarrow}}{\underset{}{\longrightarrow}}
   \mathbf{H}
   \,.
 $$
@@ -665,7 +665,7 @@ $$
 The two face maps from degree 1 to degree 0 both come from mapping two points to a single point, so they are both the product on $A$.
 
 $$
-  A \otimes_k A \stackrel{\overset{\mu}{\to}}{\underset{\mu}{\to}} A
+  A \otimes_k A \stackrel{\overset{\mu}{\longrightarrow}}{\underset{\mu}{\longrightarrow}} A
   \,.
 $$
 
@@ -774,8 +774,8 @@ $$
   \left(
      \cdots 
     A\otimes_k A \otimes_k A
-      \stackrel{\overset{\mu \otimes_k Id \sigma_{2,3,1}}{\to}}{\stackrel{\overset{Id \otimes_k \mu}{\to}}{\underset{\mu \otimes_k Id}{\to}}} A \otimes_k A
-    \stackrel{\overset{\mu}{\to}}{\underset{\mu}{\to}}A 
+      \stackrel{\overset{\mu \otimes_k Id \sigma_{2,3,1}}{\to}}{\stackrel{\overset{Id \otimes_k \mu}{\longrightarrow}}{\underset{\mu \otimes_k Id}{\longrightarrow}}} A \otimes_k A
+    \stackrel{\overset{\mu}{\longrightarrow}}{\underset{\mu}{\longrightarrow}}A 
   \right)
   \,.
 $$
@@ -1150,8 +1150,8 @@ $$
 =--
 
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 At the level of the underlying $k$-[[module]]s we have natural isomorphisms
 
@@ -1370,10 +1370,10 @@ $$
      \cdots 
     \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k
      \mathcal{O}(X) \otimes_k \mathcal{O}(X)
-     \stackrel{\overset{\mu \otimes Id \otimes Id}{\to}}{\stackrel{\overset{Id \otimes \mu Id}{\to}}{\underset{Id \otimes Id \otimes \mu}{\to}}}
+     \stackrel{\overset{\mu \otimes Id \otimes Id}{\longrightarrow}}{\stackrel{\overset{Id \otimes \mu Id}{\longrightarrow}}{\underset{Id \otimes Id \otimes \mu}{\longrightarrow}}}
     \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k
      \mathcal{O}(X) 
-     \stackrel{\overset{\mu \otimes Id}{\to}}{\underset{Id \otimes \mu}{\to}} 
+     \stackrel{\overset{\mu \otimes Id}{\longrightarrow}}{\underset{Id \otimes \mu}{\longrightarrow}} 
      \mathcal{O}(X) \otimes_k \mathcal{O}(X)
   \right)
   \in 
@@ -1389,7 +1389,7 @@ $$
   \mathcal{O}(X)
   \otimes_k 
   \mathcal{O}(X)
-  \stackrel{Id \otimes e \otimes e \otimes \cdots \otimes e \otimes Id}{\to}
+  \stackrel{Id \otimes e \otimes e \otimes \cdots \otimes e \otimes Id}{\longrightarrow}
   \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k \cdots 
   \otimes_k \mathcal{O}(X)
   \,,
@@ -1430,7 +1430,7 @@ Fix a [[field]] $k$ of [[characteristic]] 0. We consider now the context of [[dg
 $$
   (\mathcal{O} \dashv Spec) : 
    (cdgAlg_k^{op})^\circ
-   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\longrightarrow}}
    \mathbf{H} := Sh_\infty((cdgAlg_k^-)^{op})
    \,.
 $$
@@ -1726,8 +1726,11 @@ This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginz
 
 #### $E_n$-algebra structure: Deligne-Kontsevich conjecture/theorem {#EnAlgebraStructure}
 
-+-- {: .num_lemma }
-###### Observation
+The next statement is known as the [[Deligne conjecture]].
+
+
++-- {: .num_prop #DeligneConjectureViaDerivedMappingSpaces}
+###### Proposition
 
 The [higher order Hochschild homology](PirashviliHigherOrder) $\mathcal{O} (X^{S^d})$ of an object $X$ with respect to the $d$-[[sphere]] $S^d$ and with coefficients in a [[integral transforms on sheaves|geometric function object]] is naturally an [[Ek-Algebras|E(d+1)-algebra)]]: an [[algebra over an operad]] over the [[little k-cubes operad]] for $k = d+1$ .
 
@@ -1769,7 +1772,6 @@ induced by these spans constitute the $E_n$-action on the function objects on $X
 
 This was observed in ([Ben-ZviFrancisNadler, corollary 6.8](#Ben-ZviFrancisNadler)).
 
-The next statement is known as the [[Deligne conjecture]].
 
 
 +-- {: .num_remark }
@@ -1800,9 +1802,9 @@ Let $T$ be the [[algebraic theory]] of ordinary [[associative algebra]]s over a 
 Under the [[inverse image]] of the [[global section]] [[(∞,1)-geometric morphism]] and the [[homotopy hypothesis]]-equivalence
 
 $$
-  \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \mathbf{H} \stackrel{\overset{LConst}{\longleftarrow}}{\underset{\Gamma}{\longrightarrow}}
   \infty Grpd
-  \stackrel{\overset{\Pi}{\leftarrow}}{\underset{|-|}{\to}}
+  \stackrel{\overset{\Pi}{\longleftarrow}}{\underset{|-|}{\longrightarrow}}
   Top
 $$
 
