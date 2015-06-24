@@ -137,6 +137,11 @@ Discussion in [[positive characteristic]] is in
 
 * Paola Frediani, Frank Neumann, _&#201;tale homotopy types of moduli stacks of algebraic curves with symmetries_, K-Theory 30: 315-340, 2003 ([arXiv:math/0404387](http://arxiv.org/abs/math/0404387))
 
+See also
+
+* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
+
+
 [[!redirects étale homotopy theory]]
 
 [[!redirects etale homotopy]]
