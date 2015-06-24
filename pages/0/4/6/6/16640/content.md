@@ -42,7 +42,7 @@ it expresses the [[groupoid cardinality]] of the [[action groupoid]] of $G$ acti
 
 ### Centers of $p$-groups 
 
-Let $p$ be a [[prime number|prime]]; recall that a $p$-[[p-primary group|group]] is a finite group whose order is a power of $p$. A basic structural result is the following. 
+Let $p$ be a [[prime number|prime]]; recall that a $p$-[[p-primary group|group]] is a [[finite group]] whose [[order of a group|order]] is a power of $p$. A basic structural result is the following. 
 
 +-- {: .num_prop #pgroup} 
 ###### Proposition 
@@ -51,18 +51,18 @@ A non-trivial $p$-group $G$ has a nontrivial [[center]] $Z(G)$.
 
 +-- {: .proof} 
 ###### Proof 
-Let $G$ act on itself by the conjugation action $G \times G \to G$, $(g, h) \mapsto g h g^{-1}$. In this case an orbit $Orb(h)$ is usually called the [[conjugacy class]] of $h$, and $Orb(h)$ is trivial (consists of exactly one element $h$) iff $h$ belongs to $Z(G)$. In any case ${|Orb(h)|} = \frac{{|G|}}{{|Stab(h)|}}$ divides ${|G|} = p^n$, and therefore $p$ divides ${|Orb(h)|}$ if $h$ is noncentral. In this case the class equation takes the form  
+Let $G$ act on itself by the [[conjugation action]] $G \times G \to G$, $(g, h) \mapsto g h g^{-1}$. In this case an orbit $Orb(h)$ is usually called the [[conjugacy class]] of $h$, and $Orb(h)$ is trivial (consists of exactly one element $h$) iff $h$ belongs to $Z(G)$. In any case ${|Orb(h)|} = \frac{{|G|}}{{|Stab(h)|}}$ divides ${|G|} = p^n$, and therefore $p$ divides ${|Orb(h)|}$ if $h$ is noncentral. In this case the class equation takes the form  
 
 $${|G|} = {|Z(G)|} \; + \sum_{nontrivial\; orbits x} \frac{{|G|}}{{|Stab(a_x)|}}$$ 
 
 and now since $p$ divides ${|G|}$ as well as each term in the sum over nontrivial orbits, it must also divide ${|Z(G)|}$. In particular, $Z(G)$ has more than one element. 
 =-- 
 
-It follows by induction that $p$-groups are [[solvable group|solvable]], since the center is a [[normal subgroup]] and the quotient $G/Z(G)$ is also a $p$-group. 
+It follows by [[induction]] that $p$-groups are [[solvable group|solvable]], since the center is a [[normal subgroup]] and the quotient $G/Z(G)$ is also a $p$-group. 
 
 ### Number of fixed points 
 
-An elementary observation that is frequently useful is that the number of [[fixed points]] of an [[involution]] on a finite set $S$ has the same parity as $S$. This is a statement about $\mathbb{Z}/(2)$-sets; we generalize this to a statement about $G$-sets for general $p$-groups $G$. (Again, a fixed point of a $G$-set is an element whose orbit is a singleton.) 
+An elementary observation that is frequently useful is that the number of [[fixed points]] of an [[involution]] on a [[finite set]] $S$ has the same parity as $S$. This is a statement about $\mathbb{Z}/(2)$-sets; we generalize this to a statement about $G$-sets for general $p$-groups $G$. (Again, a fixed point of a $G$-set is an element whose orbit is a singleton.) 
 
 +-- {: .num_prop #pparity} 
 ###### Proposition 
@@ -84,7 +84,7 @@ where $p$ divides each summand over nontrivial orbits on the right, since $G$ is
 
 ### Wedderburn's theorem 
 
-In the theory of finite [[projective plane]]s, an important result is that a projective plane is Pappian if it is Desarguesian. The purely algebraic version of this is Wedderburn's theorem: 
+In the theory of finite [[projective planes]], an important result is that a projective plane is Pappian if it is Desarguesian. The purely algebraic version of this is Wedderburn's theorem: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
