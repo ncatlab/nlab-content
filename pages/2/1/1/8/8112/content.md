@@ -19,7 +19,7 @@ Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on 
 
 [[Henri Poincaré]] considered [[analytic functions]] invariant under a discrete infinite group of [[fractional linear transformations]] and called them _[[Fuchsian functions]]_ (after his advisor [[Lazarus Fuchs]]). 
 
-More generally, automorphic forms in the modern sense are suitable functions on a [[coset spaces]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of the [[subgroup]] $K \hookrightarrow G$. The archetypical example here are [[modular forms]] regarded as functions on $K\backslash PSL(2,\mathbb{R})$ where $K$ is a [[congruence subgroup]], and for some time the terms "modular form" and "automorphic form" were used essentially synonymously, see [below](#ModularForms). Based on the fact that a [[modular form]] is a [[section]] of some line bundle on the [[moduli stack of elliptic curves]], [[Pierre Deligne]] defined an automorphic form to be a section of a line bundle on a [[Shimura variety]].
+More generally, automorphic forms in the modern sense are suitable functions on a [[coset space]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of the [[subgroup]] $K \hookrightarrow G$. The archetypical example here are [[modular forms]] regarded as functions on $K\backslash PSL(2,\mathbb{R})$ where $K$ is a [[congruence subgroup]], and for some time the terms "modular form" and "automorphic form" were used essentially synonymously, see [below](#ModularForms). Based on the fact that a [[modular form]] is a [[section]] of some line bundle on the [[moduli stack of elliptic curves]], [[Pierre Deligne]] defined an automorphic form to be a section of a line bundle on a [[Shimura variety]].
 
 By pullback of functions the linear space of such functions hence constitutes a [[representation]] of $G$ and such representations are then called _automorphic representations_ (e.g. [Martin 13, p. 9](#Martin13)) , specifically so if $G = GL_n(\mathbb{A}_K)$ is the [[general linear group]] with [[coefficients]] in a [[ring of adeles]] of some [[global field]] and $K = GL_n(K)$. This is the subject of the _[[Langlands program]]_. There one also considers [[unramified]] such representations, which are constituted by functions that in addition are invariant under the action of $GL_n$ with coefficients in the [[integral adeles]], see [below](#InNumberTheory). 
 
@@ -28,7 +28,7 @@ By pullback of functions the linear space of such functions hence constitutes a 
 ### Modular forms as classical automorphic forms on $PSL(2,\mathbb{R})$
  {#ModularForms}
 
-By a standard definition,a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13), [Litt, def. 1](#Litt)).
+By a standard definition, a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13), [Litt, def. 1](#Litt)).
 
 But the [[upper half plane]] is itself the [[coset]] of the [[projective linear group]] $G = PSL(\mathbb{R})$ by the subgroup $K = Stab_G(\{i\}) \simeq SO(2)/\{\pm I\}$
 
