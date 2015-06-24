@@ -100,7 +100,7 @@ The conjugation action of $D^\times$ on itself yields a decomposition
 
 $$D^\times \cong F^\times \; + \sum_{nontrivial\; orbits x} \frac{{|D^\times|}}{{|Stab(a_x)|}}$$ 
 
-where again the elements of the center $F^\times = Z(D^\times)$ correspond to the trivial orbits. The stabilizer of any $a_x$, together with $0$, forms a division ring (strictly) intermediate between $F$ and $D$; usually this is called the [[centralizer]] $C(a_x)$ of $a_x$. Putting $d_x = dim_F(C(a_x)$, the division ring $C(a_x)$ has $q^{d_x}$ elements, and notice $d_x$ divides $n$ because $n/d_x$ is just the dimension of $D$ seen as a vector space (module) over $C(a_x)$. Thus $Stab(a_x) = q^{d_x} - 1$, and we have a class equation 
+where again the elements of the center $F^\times = Z(D^\times)$ correspond to the trivial orbits. The stabilizer of any $a_x$, together with $0$, forms a division ring (strictly) intermediate between $F$ and $D$; usually this is called the [[centralizer]] $C(a_x)$ of $a_x$. Putting $d_x = dim_F(C(a_x)$, the division ring $C(a_x)$ has $q^{d_x}$ elements, and notice $d_x$ divides $n$ because $n/d_x$ is just the dimension of $D$ seen as a vector space (module) over $C(a_x)$. Thus ${|Stab(a_x)|} = q^{d_x} - 1$, and we have a class equation 
 
 $$q^n - 1 = q - 1 + \sum_x \frac{q^n - 1}{q^{d_x} - 1}.$$ 
 
@@ -148,8 +148,7 @@ If $H$ is a $p$-subgroup of $G$ and $P$ is a Sylow $p$-subgroup, then $g^{-1} H 
 
 +-- {: .proof} 
 ###### Proof 
-$G$ acts on the set of cosets $G/P$ as usual by left translation, and we may restrict the action to the $p$-subgroup $H$. By maximality of $P$, we see ${|G/P|}$ is prime to $p$, and so by Proposition \ref{pparity}, ${|Fix_H(G/P)|}$ is also prime to $p$. In particular, it has at least one element, say $g P$. We infer that 
-$h g P = g P$ for all $h \in H$, or that $g^{-1} h g P = P$ for all $h \in H$, and this implies that $g^{-1} H g \subseteq P$. 
+$G$ acts on the set of cosets $G/P$ as usual by left translation, and we may restrict the action to the $p$-subgroup $H$. By maximality of $P$, we see ${|G/P|}$ is prime to $p$, and so by Proposition \ref{pparity}, ${|Fix_H(G/P)|}$ is also prime to $p$. In particular, $Fix_H(G/P)$ has at least one element, say $g P$. We infer that $h g P = g P$ for all $h \in H$, or that $g^{-1} h g P = P$ for all $h \in H$, and this implies that $g^{-1} H g \subseteq P$. 
 =-- 
 
 +-- {: .num_theorem} 
