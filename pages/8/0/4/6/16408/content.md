@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **combinatorial map** (or **algebraic map**) is a representation of a [[topological map]] (i.e., a graph embedded in a surface) as a finite set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugacy class|conjugation]] if and only if the corresponding topological maps are [[homeomorphic]]. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
+A **combinatorial map** (or **algebraic map**) is a representation of a [[topological map]] (i.e., a graph embedded in a surface) as a finite set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugation action|conjugation]] if and only if the corresponding topological maps are [[homeomorphic]]. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
 
 ## Oriented maps
 
