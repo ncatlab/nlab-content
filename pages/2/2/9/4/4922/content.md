@@ -104,6 +104,8 @@ $$
 
 * [[index of a subgroup]]
 
+* [[class equation]]
+
 * [[flag variety]]
 
 * [[Klein geometry]]
