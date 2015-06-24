@@ -1,3 +1,14 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Contents #
 * table of contents 
 {: toc}
@@ -9,9 +20,9 @@ The term "class equation" (or class formula, or orbit decomposition formula) ref
 
 ## Statement 
 
-Let $G$ be a group and let $A$ be a $G$-set (given by a homomorphism $G \to \hom_{Set}(A, A)$ of [[monoids]], with which is associated an [[action]] $\alpha: G \times A \to A$). Recall that $A$ is [[connected object|connected]] in the category of $G$-sets if $A$ is [[inhabited set|inhabited]] and the action is [[transitive action|transitive]]; in this case, choosing an element $a \in A$, there is a surjection of $G$-sets $G \to A$ sending $1 \mapsto a$, and this induces an isomorphism $G/Stab(a) \cong A$ where $Stab(a)$ is the [[stabilizer]] of $a$ and $G/Stab(a)$ is the $G$-set consisting of left [[cosets]] of $Stab(a)$. 
+Let $G$ be a [[group]] and let $A$ be a $G$-set (given by a [[homomorphism]] $G \to \hom_{Set}(A, A)$ of [[monoids]], with which is associated an [[action]] $\alpha: G \times A \to A$). Recall that $A$ is [[connected object|connected]] in the [[category]] of $G$-sets if $A$ is [[inhabited set|inhabited]] and the action is [[transitive action|transitive]]; in this case, choosing an element $a \in A$, there is a [[surjection]] of $G$-sets $G \to A$ sending $1 \mapsto a$, and this induces an [[isomorphism]] $G/Stab(a) \cong A$ where $Stab(a)$ is the [[stabilizer]] of $a$ and $G/Stab(a)$ is the $G$-set consisting of left [[cosets]] of $Stab(a)$. 
 
-More generally, each $G$-set $A$ admits a canonical decomposition as a coproduct of its connected components; the components are usually called the [[orbits]] of the action. Choosing a representative element $a_x$ in each orbit $x$, this means we have an isomorphism of $G$-sets 
+More generally, each $G$-set $A$ admits a canonical decomposition as a [[coproduct]] of its connected components; the components are usually called the [[orbits]] of the action. Choosing a representative element $a_x$ in each orbit $x$, this means we have an isomorphism of $G$-sets 
 
 $$A \cong \sum_{orbits x} G/Stab(a_x).$$ 
 
@@ -19,7 +30,13 @@ By taking $G$ and $A$ to be [[finite set|finite]] and counting elements, we get 
 
 $${|A|} = \sum_{orbits x} \frac{{|G|}}{{|Stab(a_x)|}}.$$ 
 
-We call an instance of this equation a *class equation*. By judicious choice of groups $G$ and $G$-sets $A$, often in combination with number-theoretic arguments, one can derive many useful consequences; some sample applications are given below. 
+We call an instance of this equation a *class equation*. By judicious choice of groups $G$ and $G$-sets $A$, often in combination with [[number theory|number-theoretic]] arguments, one can derive many useful consequences; some sample applications are given below. 
+
+Notice that reading the class equation equivalently as 
+
+$$\sum_{orbits x} \frac{{1}}{{|Stab(a_x)|}} = \frac{|A|}{|G|} $$
+
+it expresses the [[groupoid cardinality]] of the [[action groupoid]] of $G$ acting on $A$.
 
 ## Applications 
 
@@ -146,3 +163,14 @@ Let $Y$ be the set of Sylow $p$-subgroups; $G$ acts on $Y$ by conjugation. As al
 
 Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fixed point of this restricted action, and if $Q$ is any other fixed point, it means $x Q x^{-1} = Q$ for all $x \in P$, whence $P \subseteq N_G(Q)$. Now: $P, Q$ are both Sylow $p$-subgroups of $N_G(Q)$ and are therefore conjugate to each other (as seen within the group $N_G(Q)$). But $Q$ is already fixed by the conjugation action in its stabilizer $N_G(Q)$, so we conclude $P = Q$. We conclude $Fix_P(Y)$ has exactly one element. From ${|Y|} \equiv {|Fix_P(Y)|} \; mod p$, the theorem follows. 
 =-- 
+
+## Related concepts
+
+* [[class function]]
+
+* [[Klein geometry]]
+
+[[!redirects class equations]]
+
+[[!redirects class formula]]
+[[!redirects class formulas]]
