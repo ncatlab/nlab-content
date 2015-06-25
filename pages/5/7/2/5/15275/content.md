@@ -45,3 +45,8 @@ Review includes
 * Wikipedia, _[Volume conjecture](http://en.wikipedia.org/wiki/Volume_conjecture)
 
 * H. Murakami, Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot, Internat. J. Math. 15 (2004) 547-555.
+
+Discussion in [[string theory]] includes
+
+* [[Robbert Dijkgraaf]], Hiroyuki Fuji, _The Volume Conjecture and Topological Strings_ ([arXiv:0903.2084](http://arxiv.org/abs/0903.2084))
+
