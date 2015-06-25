@@ -15,7 +15,7 @@ Let $G$ be a commutative affine $k$-group. Then for the [[Cartier duality|Cartie
 
 $$D(G^{(p)})=D(G)^{(p)}$$
 
-By Cartier duality we obtain the Verschiebung morphism $V_G:G^{(p)}\to G$ for which holds $\hat D(V_G)=F_{\hat D(G)}$. We abbreviate $V_G^n:G^{(p^n)}\to G$.
+By Cartier duality we obtain the [[Verschiebung morphism]] $V_G:G^{(p)}\to G$ for which holds $\hat D(V_G)=F_{\hat D(G)}$. We abbreviate $V_G^n:G^{(p^n)}\to G$.
 
 Let $f:G\to H$ be a morphism of commutative affine $k$-groups. The the following diagram is commutative
 
