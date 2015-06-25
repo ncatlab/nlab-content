@@ -93,15 +93,13 @@ A standard account for [[intuitionistic type theory]] is
 
 Discussion in [[homotopy type theory]] is in section 1.11 of
 
-* [[UF-IAS-2012|Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
- {#HoTTBook}
+* {#HoTTBook} [[UF-IAS-2012|Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
+ 
 
 Exposition is in 
 
-* [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_ ([blog](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
- {#Harper}
-
-
+* {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_ ([blog](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
+ 
 ### History
  {#ReferencesHistory}
 
@@ -134,8 +132,8 @@ A historical account is in the section on types in
 
 and in section 5 of 
 
-* [[Anne Sjerp Troelstra]]], _History of Constructivism in the 20th Century_ ,(1991).  ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
- {#Troelstra91}
+* {#Troelstra91} [[Anne Sjerp Troelstra]]], _History of Constructivism in the 20th Century_ ,(1991).  ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
+ 
 
 Philip Wadler is currently in the process of writing another history:
 
