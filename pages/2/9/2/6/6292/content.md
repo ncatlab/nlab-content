@@ -37,6 +37,6 @@ and
 * W. M&#252;ller, _Analytic torsion and R-torsion of Riemannian manifolds_, Adv. in Math.
 28 (1978), 233&#8211;305.
 
-proved that on compact [[Riemann manifolds]] it coincides with [[analytic torsion]].
+proved that on compact [[Riemannian manifolds]] it coincides with [[analytic torsion]].
 
 
