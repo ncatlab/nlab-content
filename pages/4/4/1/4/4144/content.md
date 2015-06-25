@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a a [[scheme]].
+_Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a [[scheme]].
 
 It is closely related to the [[crystalline cohomology]] of that scheme. It may be regarded as an example of an [[absolute cohomology]] theory.
 
