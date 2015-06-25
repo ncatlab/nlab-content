@@ -400,7 +400,7 @@ where $\mathbf{H}^{lc}\subset\mathbf{H}$ is the subcategory of locally constant 
 
 =--
 
-This generalization of Galois theory is discussed in ([Hoyois 13](#Hoyois13),[Hoyois 15](#Hoyois15)). For further discussion in the case $n=\infty$, see
+This generalization of Galois theory is discussed in ([Grothendieck 75](#Grothendieck75), [Hoyois 13](#Hoyois13), [Hoyois 15](#Hoyois15)). For further discussion in the case $n=\infty$, see
 
 * [[cohesive (infinity,1)-topos -- structures]] -- [Galois theory](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#GaloisTheory)
 
@@ -470,6 +470,8 @@ See also
 * [Wikipedia: Galois theory](http://en.wikipedia.org/wiki/Galois_theory)
 
 * Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
+
+* {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 12/2/1975 ([web](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/breen1.html))
 
 * {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
 
