@@ -57,12 +57,15 @@ Review of the role played in the perturbative [[quantization of Chern-Simons the
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
-Discussion for [[hyperbolic manifolds]] in terms of the [[Selberg zeta function]] is due to 
+Discussion for [[hyperbolic manifolds]] in terms of the [[Selberg zeta function]]/[[Ruelle zeta function]] is due to 
 
 * {#Fried86} [[David Fried]], _Analytic torsion and closed geodesics on hyperbolic manifolds_, Invent. math. 84, 523-540 (1986) ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0084&divID=LOG_0026&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0084%7C&targetFileName=PPN356556735_0084_LOG_0026.pdf&))
 
 with further developments including
 
 * {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
+
+* {#Park09} Jinsung Park, _Analytic torsion and Ruelle zeta functions for hyperbolic manifolds with cusps_, Journal of Functional Analysis Volume 257, Issue 6, 15 September 2009, Pages 1713&#8211;1758
+
 
 [[!redirects Ray-Singer torsion]]
