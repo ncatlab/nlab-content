@@ -67,6 +67,14 @@ For more on this see
 
 * [[classification of finite simple groups]].
 
+#### "Most finite groups are nilpotent" 
+
+The meaning of the title is this curious fact (based on empirical evidence, anyway): if we are counting isomorphism classes of groups up to a given order, then most of them are $2$-[[p-primary group|primary]] groups (and therefore [[nilpotent group|nilpotent]]; see [[class equation]]). For example, it is reported that "out of the 49,910,529,484 groups of order at most 2000, a staggering 49,487,365,422 of them have order 1024". 
+
+(It has also been suggested that a more meaningful weighting would divide each isomorphism class representative by the order of its [[automorphism group]]; as of this writing the nLab authors don't know how much this would affect the strength of the assertion "most finite groups are nilpotent".) 
+
+Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here](https://golem.ph.utexas.edu/category/2012/11/almost_all_of_the_first_50_bil.html).  
+
 
 ## Examples
 
