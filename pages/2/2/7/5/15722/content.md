@@ -17,7 +17,7 @@
 
 ## Idea
 
-Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)). There is also a Selberg zeta function for odd-dimensional manifolds "of odd type" ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a)).
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)). There is also a Selberg zeta function "of odd type" for odd-dimensional manifolds  ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a)).
 
 ## Definition
 
@@ -64,7 +64,7 @@ for the [[subset]] of elements $[g]$ for which $n_\Gamma(g) = 1$. Regarded as el
 
 **Definition**
 
-The _Selberg zeta function_ $\zeta_\chi$ of this data is defined for $Re(s)\gt (n-1)/2$ to be the [[infinite product]]
+The _Selberg zeta function_ $\zeta_\chi$ of this data is defined for $Re(s)\gt \rho \coloneqq (n-1)/2$ to be the [[infinite product]]
 
 $$
   \zeta_\chi(s) =
@@ -88,9 +88,9 @@ $$
 ### Analogy with Artin L-function
  {#AnalogyWithArtinLFunction}
 
-That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77), [Fried 86, prop. 5](#Fried86)).
+That the Selberg zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77), [Fried 86, prop. 5](#Fried86)).
 
-That it is in particular the Euler product of [[characteristic polynomials]] of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. (Or rather, the [[Ruelle zeta function]] ([Bunke-Olbrich 94a, def. 5.1](#BunkeOlbrich94a))).
+That it is in particular the Euler product of [[characteristic polynomials]] of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] (similar to the [[Ruelle zeta function]]) is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. (Or rather, the [[Ruelle zeta function]] ([Bunke-Olbrich 94a, def. 5.1](#BunkeOlbrich94a))).
 
 This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the [[arithmetic fundamental group]] of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
