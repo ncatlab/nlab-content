@@ -25,7 +25,9 @@
 
 ## Idea
 
-Dependent linear type theory is the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types. An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)). What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). Proposal for an actual [[syntax]] for dependent linear type theory appears in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
+Dependent linear type theory is, or should be, the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types. 
+
+Details are still somewhat in the making: An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)). What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). Proposals for an actual [[syntax]] for dependent linear type theory appear in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
 
 
  
@@ -275,6 +277,7 @@ A _semantics for linear homotopy type theory_ is
 1. an [[(∞,1)-category]] $\mathcal{C}$ with [[finite (∞,1)-limits]];
 
 1. an [[(∞,1)-functor]] $Mod \colon \mathcal{C}^{op} \to MonCat_\infty$ to [[monoidal (∞,1)-categories]];
+
 
 
 such that 
