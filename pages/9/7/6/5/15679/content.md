@@ -25,7 +25,7 @@ For instance some of special values of the [[Riemann zeta function]] found (for 
 |---|----|----|----|----|---|---|---|---|
 | $\zeta(n)$ | $-\frac{1}{252}$ |  $\frac{1}{120}$ | $-\frac{1}{12}$ | $-\frac{1}{2}$ | $\frac{\pi^2}{6}$ | $\frac{\pi^4}{90}$ | $\frac{\pi^6}{945}$ | $\frac{\pi^8}{9450}$
 
-where notably the value $\zeta(-1) = -\frac{1}{12}$ turns out to be the [Euler characteristic of the moduli stack of complex elliptic curves](moduli+stack+of+elliptic+curves#EulerCharacteristic) and as such controls much of [[string theory]] (notably the critical dimension).
+where for instance the value $\zeta(-1) = -\frac{1}{12}$ turns out to be the [Euler characteristic of the moduli stack of complex elliptic curves](moduli+stack+of+elliptic+curves#EulerCharacteristic) and as such controls much of [[string theory]] (notably the critical dimension).
 
 ### Periods and Deligne's conjecture
 
