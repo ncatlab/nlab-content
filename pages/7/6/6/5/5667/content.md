@@ -79,9 +79,9 @@ for the [[category]] whose [[objects]] are separable $C^\ast$-algebras and whose
 
 We write
 
-* $\mathcal{B} \coloneqq \mathcal{B}(\mathcal{H})$ for the $C^\ast$-algebra of [[bounded operators]] on a complex, infinite-dimensional separable [[Hilbert space]]; 
+* $\mathcal{B} \coloneqq \mathcal{B}(H)$ for the $C^\ast$-algebra of [[bounded operators]] on a complex, infinite-dimensional separable [[Hilbert space]]; 
 
-* $\mathcal{K} \coloneqq \mathcal{K}(\mathcal{H}) \hookrightarrow \mathcal{B}(\mathcal{H})$ for the [[compact operators]].
+* $\mathcal{K} \coloneqq \mathcal{K}(H) \hookrightarrow \mathcal{B}(H)$ for the [[compact operators]].
 
 =--
 
@@ -90,14 +90,14 @@ We write
 
 For $B \in $ [[C*Alg]], a [[Hilbert C*-module]] over $B$ is 
 
-1. a [[complex numbers|complex]] [[vector space]] $H$;
+1. a [[complex numbers|complex]] [[vector space]] $\mathcal{H}$;
 
 1. equipped with a [[C*-representation]] of $B$ from the right;
 
 1. equipped with a [[sesquilinear map]] (linear in the second argument)
 
    $$
-     \langle -,-\rangle \colon H \times H \to B
+     \langle -,-\rangle \colon \mathcal{H} \times \mathcal{H} \to B
    $$
 
    (the $B$-valued [[inner product]])
@@ -123,7 +123,7 @@ such that
 +-- {: .num_defn #HilbertBimodule}
 ###### Definition
 
-For $A,B \in C^\ast Alg$ an $(A,B)$-[[Hilbert C*-bimodule]] is an $B$-[[Hilbert C*-module]], def. \ref{HilbertCStarModule} $(H, \langle \rangle)$ equipped with a [[C-star representation]] of $A$ from the left such that all $a \in A$ are "adjointable" in the $B$-valued inner product, meaning that
+For $A,B \in C^\ast Alg$ an $(A,B)$-[[Hilbert C*-bimodule]] is an $B$-[[Hilbert C*-module]], def. \ref{HilbertCStarModule} $(\mathcal{H}, \langle \rangle)$ equipped with a [[C-star representation]] of $A$ from the left such that all $a \in A$ are "adjointable" in the $B$-valued inner product, meaning that
 
 $$
   \langle a^\ast \cdot x,y\rangle = \langle x, a y\rangle
@@ -140,11 +140,11 @@ $$
 For $A, B \in $ [[C*Alg]], **Kasparov $(A,B)$-bimodule**
 is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}, \langle -,-\rangle$, def. \ref{HilbertBimodule}, equipped with an adjointable odd-graded [[bounded operator]] $F \in \mathcal{B}_A(\mathcal{H})$ such that 
 
-1. $(F^2 - 1)\pi(a) \in \mathcal{K}_A(\mathcal{H})$ 
+1. $(F^2 - 1)\pi(a) \in \mathcal{K}_B(\mathcal{H})$ 
 
-1. $[F, \pi(a)] \in \mathcal{K}_A(\mathcal{H})$ 
+1. $[F, \pi(a)] \in \mathcal{K}_B(\mathcal{H})$ 
 
-1. $(F - F^\ast) \pi(a)\in \mathcal{K}_A(\mathcal{H})$
+1. $(F - F^\ast) \pi(a)\in \mathcal{K}_B(\mathcal{H})$
 
 for all $a \in A$,
 
