@@ -205,7 +205,7 @@ This is due to ([Dai-Freed 94](#DaiFreed94)), reviewed in ([Freed 95a](#Freed95a
 ###### Remark
 
 Prop. \ref{ExponentiatedEtaSatisfiesSewing} means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a [[Riemannian metric|metric]]), a point of view highlighted in ([Bunke 94](#Bunke94)).  
-Indeed, this exponentiated eta invariant is one factor (together with [[analytic torsion]] and the classical CS invariant) of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)).
+Indeed, this exponentiated eta invariant is one factor (together with [[analytic torsion]] and the classical CS invariant) of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)), see at _[Chern-Simons theory -- Perturbative path integral quantization](Chern-Simons+theory#PerturbativePathIntegralQuantization)_.
 
 =--
 
