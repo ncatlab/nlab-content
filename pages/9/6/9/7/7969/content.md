@@ -46,7 +46,7 @@ $$
   \,.
 $$
 
-See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94)).
+See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
