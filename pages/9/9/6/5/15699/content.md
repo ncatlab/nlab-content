@@ -28,7 +28,7 @@ More generally, the Mellin transform appears as a stage in the expression of [[z
 
 [[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
-$$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr \exp(- t H) \, d t \,. $$ 
+$$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr\, \exp(- t H) \, d t \,. $$ 
 
 ## Examples
 
