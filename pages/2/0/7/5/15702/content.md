@@ -28,7 +28,7 @@ $$
   \underset{\mathfrak{p}}{\prod}
   det
   \left(   
-    id - N \mathfrak{p}^{-1}
+    id - N \mathfrak{p}^{-s}
     \sigma(Frob_{\mathfrak{p}})
   \right)^{-1}
   \,
