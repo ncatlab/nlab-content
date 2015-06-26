@@ -65,10 +65,16 @@ The [[special values of L-functions|special value]] of $R_\rho$ at the origin en
 
 ## References
 
+Original articles include
+
 * {#Fried86} [[David Fried]], _Analytic torsion and closed geodesics on hyperbolic manifolds_, Invent. math. 84, 523-540 (1986) ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0084&divID=LOG_0026&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0084%7C&targetFileName=PPN356556735_0084_LOG_0026.pdf&))
 
 
 * {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
+
+Seminar notes include
+
+* _Selberg and Ruelle zeta functions for compact hyperbolic manifolds_ ([pdf](http://www.math.uni-bonn.de/people/xenia/Oberseminar%202014/Oberseminar%202014.pdf))
 
 Relation to the [[volume]] of hyperbolic manifolds is discussed in
 
@@ -82,4 +88,3 @@ The [[analogy]] with the [[Artin L-function]] is discussed in
 * {#Brown09} Darin Brown, _Lifting properties of prime geodesics_, Rocky Mountain J. Math. Volume 39, Number 2 (2009), 437-454 ([euclid](http://projecteuclid.org/euclid.rmjm/1239113439))
 
 * {#Morishita12} [[Masanori Morishita]], section 12.1 of _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
-
