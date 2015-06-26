@@ -4,7 +4,7 @@
 
 ## Statement 
 
-For $k$ a [[natural number]] and $r$ a [[complex number]], define the _falling factorial_ by 
+For $k$ a [[natural number]] and $r$ a [[complex number]], define the [[falling factorial]] by 
 
 $$r^{\underline{k}} = r(r-1)\ldots (r-k+1),$$ 
 
@@ -34,7 +34,7 @@ The special finitary case in which $i, j, n$ are positive integers,
 
 $$(i + j)^n = \sum_{0 \leq k \leq n} \binom{n}{k} i^k j^{n-k}$$ 
 
-may be established combinatorially (or in "bijective fashion") as follows. Start by interpreting $(i + j)^n$ as the number of functions $f: N \to I \sqcup J$ from an $n$-element set, where $I, J$ have cardinalities $i, j$ respectively. By pulling back $f$ along each the inclusions of $I, J$ into $I \sqcup J$, we get functions $f_I: f^{-1}(I) \to I$, $f_J: f^{-1}(J) \to J$. Here $f^{-1}(I)$ and $f^{-1}(J)$ are complementary subsets of $N$, say of cardinalities $k$ and $n-k$ respectively. (In effect, we are using the fact that the category of finite sets is an [[extensive category]].) Thus, $f$ determines and is uniquely determined by the following data 
+may be established combinatorially (or in "bijective fashion") as follows. Start by interpreting $(i + j)^n$ as the number of functions $f: N \to I \sqcup J$ from an $n$-element set, where $I, J$ have cardinalities $i, j$ respectively. By pulling back $f$ along each of the inclusions of $I, J$ into $I \sqcup J$, we get functions $f_I: f^{-1}(I) \to I$, $f_J: f^{-1}(J) \to J$. Here $f^{-1}(I)$ and $f^{-1}(J)$ are complementary subsets of $N$, say of cardinalities $k$ and $n-k$ respectively. (In effect, we are using the fact that the category of finite sets is an [[extensive category]].) Thus, $f$ determines and is uniquely determined by the following data 
 
 * A subset $K (= f^{-1}(I))$ of $N$, 
 * A function $g (= f_I)$ of the form $K \to I$, 
