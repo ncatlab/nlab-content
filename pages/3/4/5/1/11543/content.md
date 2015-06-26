@@ -54,7 +54,7 @@ The binomial coefficient polynomials $\binom{x}{k}$ (here $x$ is an indeterminat
 
 $$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \equiv 1, \binom{0}{k} = 0\; (k \neq 0).$$ 
 
-(Note this means we should define $\binom{x}{k} \equiv 0$ for _negative_ integers $k$.) The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
+The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
 
 $$\frac{d}{d x} \frac{x^k}{k!} = \frac{x^{k-1}}{(k-1)!}.$$ 
 
