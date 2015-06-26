@@ -48,7 +48,7 @@ This appears for instance as ([Polishuk, (10.1.11)](#Polishchuk)).
 +-- {: .num_prop}
 ###### Proposition
 
-Cartier duality is indeed a duality in that for any $G$ as above there is an [[isomorphism]]
+Cartier duality is indeed a duality in that for any finite commutative group scheme $G$ there is an [[isomorphism]]
 
 $$
   \widehat{\widehat{G}} \simeq G
