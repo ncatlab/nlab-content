@@ -72,6 +72,9 @@ Original articles include
 
 * {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
 
+* [[David Ruelle]], _Dynamical zeta functions and transfer operators_, Notices
+Amer. Math. Soc. 49 (2002), no. 8, 887895.
+
 Seminar notes include
 
 * _Selberg and Ruelle zeta functions for compact hyperbolic manifolds_ ([pdf](http://www.math.uni-bonn.de/people/xenia/Oberseminar%202014/Oberseminar%202014.pdf))
