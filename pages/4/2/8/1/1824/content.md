@@ -60,7 +60,7 @@ The main example is the __tangent microbundle__ $(M\times M,p_1,M,i)$ of a topol
 
 ## References
 
-Microbundles were defined by [[John Milnor]].
+Microbundles were defined by [[John Milnor]].  The original paper can be found [here](http://www.maths.ed.ac.uk/~aar/papers/micro001.pdf).
 
 Useful references are for instance
 
