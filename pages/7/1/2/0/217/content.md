@@ -19,12 +19,17 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
+The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical[^cantor] [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
+
+The theory intends to capture the notion of a (constant) 'abstract set' whose elements lack internal structure and whose only external property is cardinality with further external relations arising from mappings. The avoidance of the membership relation as a primitive results in an isomorphism invariant notion of set.
+
+[^cantor]: It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94).
 
 [^Law]: For a careful comparative discussion of its virtues as foundation see [[foundations of mathematics]] or the [texts by Todd Trimble](#ExpositionByTrimble) referred to below.
 
+More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The theory omits the [[axiom of replacement]], however.
 
-More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
+The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
 
 ## Definition
 
@@ -47,17 +52,18 @@ For more details see
 
 * [[fully formal ETCS]].
 
-## A contemporary perspective
-
-Modern mathematics with its emphasis on concepts from [[homotopy theory]] would more directly be founded in a similar spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
-
-Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETCC]]).
-
 ## A Constructive View
 
 [[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as:
 
 $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied). Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+
+## A contemporary perspective
+
+Modern mathematics with its emphasis on concepts from [[homotopy theory]] would more directly be founded in a similar spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
+
+Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. 
+The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETCC]]).
 
 
 ## Todd Trimble's exposition of ETCS
@@ -77,13 +83,15 @@ $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] wi
 * [[fully formal ETCS]]
 * [[structural set theory]]
 * [[ZFC|Zermelo Fraenkel set theory]]
+* [[Cohesive Toposes and Cantor's "lauter Einsen"]]
+* [[axiom of replacement]]
 * [[ETCC]]
 * [[practical foundations of mathematics]]
 * [[foundations of mathematics]]
 
 ## References
 
-ETCS grew out of Lawvere's experiences of teaching undergraduate set theoretic foundations at Reed college in 1963 and was originally published in 
+ETCS grew out of Lawvere's experiences of teaching undergraduate foundations of analysis at Reed college in 1963 and was originally published in 
 
 * {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
@@ -99,17 +107,25 @@ An undergraduate set-theory textbook using it is
 
 * {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , CUP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
-A short overview article:
+Lawvere explains in detail his views on constant and variable 'abstract sets' on pp.118-128 of 
+
+* {#Lawvere76} [[William Lawvere]], _Variable Quantities and Variable Structures in Topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory: a Collection of Papers in Honor of Samuel Eilenberg_ , Academic Press New York 1976.
+
+See also ch. 2,3 of 
+
+* [[William Lawvere]], _Variable Sets Entendu and Variable Structure in Topoi_ , lecture notes University of Chicago 1975.
+
+On the anticipation of 'abstract sets' in [[Georg Cantor|Cantor]]:
+
+* {#Lawvere94}[[William Lawvere]],  _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica **2** no.3 (1994) pp.5-15. ([[LawvereCohesiveToposes.pdf:file]]) {#law94}
+
+A short overview article on ETCS:
 
 * Tom Leinster, _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543)
 
-On the anticipation of 'structural sets' in [[Georg Cantor|Cantor]]:
-
-* [[William Lawvere]],  _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica **2** no.3 (1994) pp.5-15. ([[LawvereCohesiveToposes.pdf:file]]) {#law94}
-
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
-* [[Jean-Pierre Marquis]], _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf-slides](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
+* [[Jean-Pierre Marquis]], _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ . ([pdf-slides](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
 
 Palmgren's ideas can be found here:
 
