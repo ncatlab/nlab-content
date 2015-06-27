@@ -19,11 +19,11 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical[^cantor] [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
+The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
-The theory intends to capture the notion of a (constant) 'abstract set' whose elements lack internal structure and whose only external property is cardinality with further external relations arising from mappings. The avoidance of the membership relation as a primitive results in an isomorphism invariant notion of set.
+The theory intends to capture in an isomorphism invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set.[^cantor]
 
-[^cantor]: It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94).
+[^cantor]: See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'. It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94).
 
 [^Law]: For a careful comparative discussion of its virtues as foundation see [[foundations of mathematics]] or the [texts by Todd Trimble](#ExpositionByTrimble) referred to below.
 
