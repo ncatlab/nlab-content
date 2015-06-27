@@ -136,13 +136,15 @@ Since [[filtered colimits]] commute even with all [[finite limits]], they in par
 
 ## References
 
-*  P. Gabriel and F. Ulmer, _Lokal pr&#228;sentierbare Kategorien_ , Springer LNM
-221, Springer-Verlag 1971
+*  [[Pierre Gabriel]], Fritz Ulmer, _Lokal pr&#228;sentierbare Kategorien_ , LNM
+**221**, Springer Heidelberg 1971.
 {#GabrielUlmer}
 
-*  [[Jiri Adamek]], [[Jiri Rosicky]], _On sifted colimits and generalized varieties_, TAC ([pdf](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/8/n3/n3.pdf))
+*  [[Jiri Adamek]], [[Jiri Rosicky]], _On sifted colimits and generalized varieties_, TAC **8** (2001) pp.33-53. ([tac](http://www.tac.mta.ca/tac/volumes/8/n3/8-03abs.html))
 
-*  [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC __23__ (2010) pp. 251--260.  ([tac](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html))
+*  [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC __23__ (2010) pp. 251--260. ([tac](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html))
+
+* [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _Algebraic Theories - a Categorical Introduction to General Algebra_ , Cambrige UP 2010. (ch. 2) ([draft](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf)) 
 
 
 [[!redirects sifted categories]]
