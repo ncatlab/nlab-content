@@ -116,7 +116,7 @@ General abstract discussion is in
 
 * [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
 
-An approach to six functor formalism as a bifiberes multicategory over correspondences is in 
+An approach to six functor formalism as a bifibered multicategory (multiderivator, when appropriate) over correspondences is in 
 
 * Fritz H&#246;rmann, _Fibered derivators, (co)homological descent, and Grothendieck's six functors_ [pdf](http://home.mathematik.uni-freiburg.de/hoermann/overview6fu.pdf); _Fibered Multiderivators and (co)homological descent_, [arxiv./1505.00974](http://arxiv.org/abs/1505.00974)
 
