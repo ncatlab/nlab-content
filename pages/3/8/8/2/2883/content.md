@@ -50,7 +50,7 @@ The following are some basic properties of &#233;tale [[cohomology groups]] for 
 +-- {: .num_remark }
 ###### Remark
 
-A [[cover]] in the [[Zariski topology]] on [[schemes]] is an [[open immersion of schemes]] and hence is in particular an [[étale morphism of schemes]]. Hence the [[étale site]] is finer than the [[Zariski site]] and so every &#233;tale [[sheaf]] is a Zarsiki sheaf, but not necessarily conversely. 
+A [[cover]] in the [[Zariski topology]] on [[schemes]] is an [[open immersion of schemes]] and hence is in particular an [[étale morphism of schemes]]. Hence the [[étale site]] is finer than the [[Zariski site]] and so every &#233;tale [[sheaf]] is a Zariski sheaf, but not necessarily conversely. 
 
 =--
 
@@ -65,7 +65,7 @@ $$
   \epsilon \;\colon\; X_{Zar} \longrightarrow X_{et}
 $$
 
-of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
+of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zariski cohomology 
 
 $$
   E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{F})
@@ -230,7 +230,7 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 
 * $H^0_{et}(-, \mathbb{G}_m)$: [[group of units]];
 
-* $H^1_{et}(-, \mathbb{G}_m)$: [[Picard group]] ([[Hilbert's theorem 90], [Tamme, II 4.3.1](#Tamme));
+* $H^1_{et}(-, \mathbb{G}_m)$: [[Picard group]] ([[Hilbert's theorem 90]], [Tamme, II 4.3.1](#Tamme));
 
 * $H^2_{et}(-, \mathbb{G}_m)$: [[Brauer group]];
 
