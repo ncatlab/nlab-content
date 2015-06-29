@@ -73,6 +73,10 @@ Discussion of the [[fundamental category]] of a (Whitney&#8209;)stratified space
 
 * M. Banagl, _Topological invariants of stratified spaces_, Springer Monographs in Math. 2000.
 
+A [[homotopy hypothesis]] for stratified spaces is discussed in
+
+* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+
 
 [[!redirects stratified space]]
 [[!redirects stratified spaces]]
