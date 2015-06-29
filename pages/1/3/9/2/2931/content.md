@@ -28,15 +28,6 @@ For example, for any quantale $V$, the sub-2-category of $V Cat$ consisting of t
 In general, we can think of a relation equipment as generalizing some of the properties of $\underline{Rel}$.  For instance, internal relations in any [[regular category]] also form a relation equipment.
 
 
-## See also ##
-
-Other attempted axiomatizations of the same idea "something that acts like the category of relations in a regular category" include:
-
-* [[allegory]]
-
-* [[bicategory of relations]]
-
-
 ## Cartesian 1-categories equipped with relations ##
 
 It is proven in
@@ -117,6 +108,20 @@ If $\underline{K}$ is a relation equipment satisfying the hypotheses of the theo
 ###### Proof
 It is shown [here](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) that any bicategory of relations is an allegory.
 =--
+
+## See also ##
+
+Other attempted axiomatizations of the same idea "something that acts like the category of relations in a regular category" include:
+
+* [[allegory]]
+
+* [[bicategory of relations]]
+
+## References
+
+A comparison of "regular proarrow equipments" with "regular [[fibrations]] of [[subobjects]]" is in
+
+* [[Finn Lawler]], *Fibrations of predicates and bicategories of relations*, [arXiv](http://arxiv.org/abs/1502.08017)
 
 
 [[!redirects (1,2)-category equipment]]
