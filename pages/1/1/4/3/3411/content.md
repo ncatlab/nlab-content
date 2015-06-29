@@ -114,4 +114,7 @@ An application:
 
 * [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]], Bisimulation from [[open map|open maps]], [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)
 
+[[!redirects open map]] 
 [[!redirects open maps]]
+[[!redirects open mapping]] 
+[[!redirects open mappings]] 
