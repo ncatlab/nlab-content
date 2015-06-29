@@ -25,7 +25,7 @@ If a [[prime number]] $p$ divides ${\vert G\vert}$, then equivalently
 
 * $G$ has an element of [[order of an element|order]] $p$;
 
-* $G$ has a [[subgroup]] of [[order of a group]] $p$.
+* $G$ has a [[subgroup]] of [[order of a group|order]] $p$.
 
 =--
 
