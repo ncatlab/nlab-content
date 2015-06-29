@@ -19,6 +19,9 @@ You may also find me on
 
 ## Papers ##
 
+* _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
+Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]].
+
 * _A topological fibrewise fundamental groupoid_, [arXiv:1411.5779](http://arxiv.org/abs/1411.5779). Accepted for publication, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html) (April 2015)
 
 * _On certain 2-categories admitting localisation by bicategories of
@@ -55,8 +58,6 @@ You may also find me on
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, joint with Raymond Vozzo.
 
-* _Equivariant bundle gerbes_, joint with Michael Murray, Raymond Vozzo and Danny Stevenson
-
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
 ## Review ##
@@ -64,7 +65,7 @@ You may also find me on
 * Contribution to _The "Bounded Gaps between 
 Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
 
-* _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21.
+* _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
 Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 ## Talks ##
