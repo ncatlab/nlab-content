@@ -51,5 +51,13 @@ In [[type theory]] one uses the partiality [monad](monad+%28in+computer+science)
 It is clear that this idea can be generalized to other classes of propositions.
 =--
 
+## References {#References}
+
+Section 1.2 of
+
+* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
+
+A2.4 of the [[Elephant]]
+
 [[!redirects partial map classifier]]
 [[!redirects partial map classifiers]]
