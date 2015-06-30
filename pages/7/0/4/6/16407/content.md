@@ -1,3 +1,7 @@
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a [[surface]] $X$ in such a way that:
@@ -16,6 +20,15 @@ These conditions can be summarized by saying that $\theta$ is a _cellular embedd
 * $X$ is without [[boundary]]
 
 Topological maps are always considered up to the appropriate notion of homeomorphism, and they inherit various properties of the underlying surface.  For example, a graph embedded in a connected surface is itself necessarily a connected graph, and one speaks of the _genus_ of a map as the [[genus of a surface|genus]] of the underlying surface $X$.
+
+## Embedded graphs versus abstract graphs
+
+It is important to distinguish topological maps, which are graphs equipped with an embedding, from graphs which may happen to have the property of being embeddable in different surfaces.  For example, a **planar map** is a graph equipped with a cellular embedding into the [[sphere]], while a **planar graph** is a graph which is _graph isomorphic_ to the underlying graph of a planar map.  Two planar graphs are considered equivalent if they are isomorphic as graphs $G_1 \cong G_2$, but two planar maps are only considered equivalent if this isomorphism of graphs can be realized on their embeddings $\theta_1(G_1) \cong \theta_2(G_2)$ by a homeomorphism of the sphere.  In particular, one planar graph might have multiple, inequivalent embeddings into the sphere.
+
+To emphasize the distinction between embedded graphs and graphs which may happen to be embeddable, one sometimes refers to the latter as **abstract graphs**.[^Bartlett]
+
+[^Bartlett]: For more on the distinction between embedded graphs and abstract graphs, see [[Bruce Bartlett]]'s n-Category Caf&#233; post on  [Feynman's Fabulous Formula](https://golem.ph.utexas.edu/category/2015/06/feynmans_fabulous_formula.html).
+
 
 ## Permutation representations
 
