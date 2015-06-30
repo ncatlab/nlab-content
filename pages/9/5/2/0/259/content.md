@@ -42,7 +42,7 @@ A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ sat
 
 =--
 
-The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
+The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].  Quasi-categories are the [[fibrant objects]] in the [[model structure for quasi-categories]].
 
 +-- {: .num_remark}
 ###### Remark
