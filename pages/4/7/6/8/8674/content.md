@@ -29,10 +29,20 @@ If a [[prime number]] $p$ divides ${\vert G\vert}$, then equivalently
 
 =--
 
+This result is not completely trivial. One route to this would go as follows: knowing that Sylow $p$-subgroups $H$ of $G$ exist (see [[class equation]] for a proof), any nontrivial element $h$ of $H$ would be of order $p^r$ for some $r \gt 0$, and then $h^{p^{r-1}}$ would be the desired element. Come to think of it, it's actually an immediate consequence of the theorem [here](/nlab/show/class+equation#ppower). But see [McKay](#McKay) for a snappier proof. 
+
++-- {: .num_remark} 
+###### Remark 
+Cauchy had claimed a proof of his eponymous theorem in 1845, but in fact his proof had a gap. See [Meo](#Meo) for a historical discussion. 
+=-- 
 
 ## References
 
-* James McKay, _Another proof of Cauchy's group theorem_, American Math. Monthly, 66 (1959), p. 119.
+* James McKay, _Another proof of Cauchy's group theorem_, American Math. Monthly, 66 (1959), p. 119. 
+ {#McKay} 
+
+* M. Meo, _The mathematical life of Cauchy's group theorem_, Historia Mathematica Volume 31, Issue 2 (May 2004), 196&#8211;221. ([web](http://www.sciencedirect.com/science/article/pii/S031508600300003X)) 
+ {#Meo} 
 
 
 [[!redirects Cauchy theorem]]
