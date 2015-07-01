@@ -137,9 +137,9 @@ In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is t
 
 In the case where $R = k$ is a [[field]], the polynomial ring $k[x]$ has a number of useful properties. One is that it is a [[Euclidean domain]], where the degree serves as the Euclidean function: 
 
-+-- {: .num_prop} 
-###### Proposition 
-Given $f, g \in k[x]$, there are unique $q, r \in k[x]$ such that $f = q \cdot g + r$ and $\deg(r) \lt \deg(g)$. 
++-- {: .num_lemma} 
+###### Lemma 
+Let $R$ be a commutative ring. Given $f, g \in R[x]$ where the leading coefficient of $g$ is a unit (e.g., if $g$ is a [[monic polynomial]]), there are unique $q, r \in k[x]$ such that $f = q \cdot g + r$ and $\deg(r) \lt \deg(g)$. 
 =-- 
 
 +-- {: .proof} 
@@ -149,14 +149,14 @@ If $\deg(f) \lt \deg(g)$, then $q = 0$ and $r = f$ will serve. Otherwise we may 
 
 +-- {: .num_cor} 
 ###### Corollary 
-$k[x]$ is a [[principal ideal domain]], and therefore a [[unique factorization domain]]. 
+If $k$ is field, then $k[x]$ is a [[Euclidean domain]]. As a result, $k[x]$ is a [[principal ideal domain]], and therefore a [[unique factorization domain]]. 
 =-- 
 
 See [[Euclidean domain]] for a proof. 
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $a \in k$ is a [[root]] of $p(x) \in k[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$. 
+If $a \in R$ is a [[root]] of $p(x) \in R[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$. 
 =-- 
 
 +-- {: .proof} 
@@ -164,7 +164,7 @@ If $a \in k$ is a [[root]] of $p(x) \in k[x]$, i.e., if the value of the polynom
 Since we may write $p(x) = (x - a)q(x) + r$ where $\deg(r) \lt 1$, whence $r$ is a constant. By evaluating the polynomial function at $x = a$, the term $r$ is $0$. 
 =-- 
 
-This observation may be exploited in various neat ways. One is that if $p(x)$ is a polynomial, then $p(y) = p(x) + (y - x)q(x, y)$ for some unique $q(x, y) \in k[x, y]$ (work in the Euclidean domain $K[y]$ where $K$ is the field of [[rational functions]] $k(x)$, and then argue that the $K$-coefficients of $q$ are polynomial). A consequence is that the Lawvere theory of commutative $k$-algebras is a [[Fermat theory]]. The [[derivative]] of $p$ may be defined to be $q(x, x) \in k[x]$. 
+This observation may be exploited in various neat ways. One is that if $p(x)$ is a polynomial, then $p(y) = p(x) + (y - x)q(x, y)$ for some unique $q(x, y) \in k[x, y]$. A consequence is that the Lawvere theory of commutative $k$-algebras is a [[Fermat theory]]. The [[derivative]] of $p$ may be defined to be $q(x, x) \in k[x]$. 
 
 ## Related concepts
 
