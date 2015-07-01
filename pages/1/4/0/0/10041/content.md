@@ -96,4 +96,11 @@ Formulation in terms of an equivalence between sheaves and cosheaves is in
 
 * [[Jacob Lurie]], section 5.3.5 of _[[Higher Algebra]]_
 
+Discussion in the context of prestacks and diagrams of schemes
+
+* [[Dennis Gaitsgory]], _The Atiyah-Bott formula for the cohomology of the moduli space of bundles on a  curve_ ([arXiv:1505.02331](http://arxiv.org/abs/1505.02331))
+
+* Alexey Kalugin, _On categorical approach to Verdier Duality_ ([arXiv:1505.06922](http://arxiv.org/abs/1505.06922))
+
+
 [[!redirects Verdier dualities]]
