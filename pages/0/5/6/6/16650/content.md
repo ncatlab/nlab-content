@@ -1,0 +1,1 @@
+A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ there exists unique $q, r \in A$ such that $f = q \cdot g + r$ and $d(r) \lt d(g)$. (To be continued later.) 
