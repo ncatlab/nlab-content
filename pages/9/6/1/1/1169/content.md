@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _Reedy category_ is a [[category]] $R$ equipped with a structure enabling the inductive construction of [[diagrams]] and [[natural transformations]] of shape $R$.  
+A _Reedy category_ is a [[category]] $R$ equipped with a structure enabling the inductive construction of [[diagrams]] and [[natural transformations]] of shape $R$. It is named after [[Christopher Reedy]].  
 
 The most important consequence of a Reedy structure on $R$ is the existence of a certain [[model category|model structure]] on the [[functor category]] $M^R$ whenever $M$ is a [[model category]] (no extra hypotheses on $M$ are required): the _[[Reedy model structure]]_.
 
