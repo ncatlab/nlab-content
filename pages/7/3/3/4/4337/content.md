@@ -1,3 +1,15 @@
-A **plethory** is a [[monoid object]] in the [[monoidal category]] of [[biring|birings]].  The most famous example of such a creature is $\Lambda$, the ring of [[symmetric polynomials]].  See:
+For any (commutative) ring $k$, a $k$-**plethory** is a [[monoid object]] in the [[monoidal category]] of $k$-$k$-[[biring|birings]], that is, it is a biring $P$
+equipped with an associative map of birings $\circ: P \otimes_k P \to P$ and unit $k \langle e \rangle \to P$.  
 
-* J. Borger, B. Wieland,  Plethystic algebra, _Advances in Mathematics_ **194** (2005), 246--283.  ([web](http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html))
+
+In other words, 
+
+>a $k$-plethory is a commutative k-algebra together with a comonad structure on the covariant functor it represents, much as a k-algebra is the same as a $k$-module that represents a comonad. So, just as a $k$-algebra is exactly the structure that knows how to act on a $k$-module, a $k$-plethory is the structure that knows how to act on a commutative $k$-algebra. ([BB05](#BB05))
+
+The most famous example of such an object is $\Lambda$, the ring of [[symmetric polynomials]] in countably many variables, which is a $\mathbb{Z}$-plethory.  
+
+
+
+##References
+
+* {#BB05} [[James Borger]], [[Ben Wieland]],  Plethystic algebra, _Advances in Mathematics_ **194** (2005), 246--283.  ([web](http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html))
