@@ -43,6 +43,10 @@ where $\mathcal{F}$ satisfies the [[axiom of choice]].
 
 =--
 
+## Remark
+
+[[Deligne completeness theorem|Deligne's completeness theorem]] says that a coherent Grothendieck topos has enough points in $Set$ and this corresponds to the G&#246;del-Henkin completeness theorem for first-order theories. Similarly, Barr's theorem can interpreted as saying that a Grothendieck topos has sufficient _Boolean-valued_ points and is in turn closely related to Mansfield's **Boolean-valued completeness theorem** for infinitary first-order theories.
+
 ## Related entries
 
 * [[Deligne completeness theorem]]
@@ -66,5 +70,13 @@ For proof-theoretic approaches to Barr's theorem see
 
 * Sara Negri, _Contraction-free sequent calculi for geometric theories with an
 application to Barr's theorem_ , Archive for Mathematical Logic **42** (2003) pp.389&#8211;401.
+
+For the connection with the Boolean-valued completeness theorem see
+
+* R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , North-Holland 1982&#178;. (Dover reprint)
+
+* R. Mansfield, _The Completeness Theorem for Infinitary Logic_ , JSL **37** no.1 (1972) pp.31-34.
+
+* [[Michael Makkai]], [[Gonzalo E. Reyes]], _First-order Categorical Logic_ , LNM **611** Springer Heidelberg 1977.
 
 See also the following MO discussion: ([link](http://mathoverflow.net/questions/98729/topos-without-point-from-the-point-of-view-of-logic))
