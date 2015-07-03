@@ -21,10 +21,10 @@ Historically, there were several formalisms of various schools including the Ita
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either quasiprojective variety or abstract variety (in the sense of Serre). Quasiprojective unify affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either a quasiprojective variety or an abstract variety (in the sense of Serre). 'Quasiprojective' unifies affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
 
 
-* an embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
+* An embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
   Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
 
