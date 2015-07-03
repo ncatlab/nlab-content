@@ -184,6 +184,8 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 ## Related concepts
 
+* [[representable functor theorem]]
+
 * [[Yoneda lemma]]
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
