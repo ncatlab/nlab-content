@@ -1,1 +1,7 @@
-A Purdue math graduate student interested in mirror symmetry.
+Postdoc
+
+Center for Applications of Mathematical Principles
+
+National Institute for Mathematical Sciences
+
+Daejeon, South Korea
