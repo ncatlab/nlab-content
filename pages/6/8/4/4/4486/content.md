@@ -30,7 +30,7 @@ Let $f:U\to \mathbb{R}$ be a function, where $U\subseteq \mathbb{R}^n$ is an [[o
 
 $$ \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0. $$
 
-We say that $f$ is __differentiable on__ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in U$, and __differentiable__ (tout court) if $f$ is differentiable on all of $U$.
+We say that $f$ is __differentiable on__ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in I$, and __differentiable__ (tout court) if $f$ is differentiable on all of $U$.
 
 The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.  If $n=1$, as in classical one-variable calculus, then $d f_x$ can be identified with a number, and that number is also called the derivative of $f$ at $x$ and often written $f'(x)$.  (In that case, the notation $d f$ is generally still reserved for the corresponding linear map, with its input denoted by $d x$, so that we have $d f = f'(x) d x$.)
 
