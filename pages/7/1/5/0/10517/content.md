@@ -15,7 +15,7 @@
 
 ## Idea
 
-A partial function $f:A\rightharpoonup B$ between two sets can be turned into a total function $\overline{f}:A\to B_\bot$ by adding a new element $\bot$ to $B$ and sending all $a\in A$ that are not in the domain of definition of $f$ to this new value $\bot$ = "undefined" and the rest just to their value under $f$. This works obviously for all partial functions into $B$ whence $B_\bot$ is a 'classifying object' for these.
+A partial function $f:A\rightharpoonup B$ between two sets can be turned into a total function $\overline{f}:A\to B_\bot$ by adding a new element $\bot$ to $B$ and sending all $a\in A$ that are not in the domain of definition of $f$ to this new value $\bot$ = "undefined" and the rest just to their value under $f$. Conversely, every function with codomain $B_\bot$ corresponds to a unique partial function to $B$ whence $B_\bot$ is a 'classifying object' for these.
 
 More generally, a **partial map classifier** of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
 
@@ -29,10 +29,11 @@ A **partial map classifier** for $B$ is an object $B_\bot$ together with an isom
 $$ \mathcal{C}(A,B_\bot) \cong Par_{\mathcal{C}}(A,B) $$
 natural in $A$.  By the [[Yoneda lemma]] this means there is a universal partial map $B_\bot \rightharpoonup B$.
 
+The existence of partial map classifiers $B_\bot$ for all objects $B$ in $\mathcal{C}$ amounts to the existence of a right adjoint for the inclusion $\mathcal{C}\hookrightarrow Par(\mathcal{C})$ where the latter is the usual category of partial maps of $\mathcal{C}$.
 
 ## Constructions
 
-In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]], we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.  Note that $B\mapsto B+1$ is also known as the [[maybe monad]].
+In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]]), we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.  Note that $B\mapsto B+1$ is also known as the [[maybe monad]].
 
 Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined in two ways:
 
@@ -56,7 +57,7 @@ It is clear that this idea can be generalized to other classes of propositions.
 
 * In a topos, the partial map classifier $B_\bot$ of $B$ is [[injective object|injective]]. The canonical embedding $B\rightarrowtail B_\bot$ shows accordingly that a topos _has enough injectives_!
 
-* In a topos, the [[subobject classifier]] $true:1\rightarrow\Omega$ coincides with the monomorphism $\eta:1\rightarrowtail 1_\bot$.
+* In a topos, the [[subobject classifier]] $true:1\rightarrow\Omega$ coincides with the monomorphism $\eta_1:1\rightarrowtail 1_\bot$.
 
 * In a topos, the assignment of $B_\bot$ to $B$ is functorial.
 
