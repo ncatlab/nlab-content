@@ -115,6 +115,15 @@ The structural set theory **[[ETCS]]** is equivalent to $BZC$ in that the [[cate
 
 Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, which lacks the axiom of choice, is equivalent to $ZF^{\circlearrowleft}$, which is $ZF$ without (10), in a weaker sense.
 
+## References
+
+Zermelo's axiomatisation grew out of his reflections on his proofs of the well-ordering theorem (1904/08) and was published in
+
+* [[Ernst Zermelo]], _Untersuchungen &#252;ber die Grundlagen der Mengenlehre I_ , Math. Ann. **65** (1908) pp.261-81. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002262002))
+
+English versions of the early key texts on set theory by Zermelo, Fraenkel, Skolem, von Neumann et al. can be found in
+
+* J. van Heijenoort, _From Frege to G&#246;del - A Sourcebook in Mathematical Logic 1879-1931_ , Harvard UP 1967.
 
 [[!redirects ZF]]
 [[!redirects ZFC]]
