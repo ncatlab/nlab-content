@@ -20,7 +20,7 @@ Let $G$ be a [[finite group|finite]] [[subgroup]] of the [[multiplicative group]
 
 +-- {: .proof} 
 ###### Proof 
-Let $e$ be the _exponent_ of $G$, i.e., the smallest $n \gt 0$ such that $g^n = 1$ for all $g \in G$, and let $m = order(G)$. Then each element of $G$ is a root of $x^e - 1$, so that $\prod_{g \in G} (x - g)$ divides $x^e - 1$, i.e., $m \leq e$. But of course $g^m = 1$ for all $g \in G$, so $e \leq m$, and thus $e = m$. 
+Let $e$ be the _[[exponent of a group|exponent]]_ of $G$, i.e., the smallest $n \gt 0$ such that $g^n = 1$ for all $g \in G$, and let $m = order(G)$. Then each element of $G$ is a root of $x^e - 1$, so that $\prod_{g \in G} (x - g)$ divides $x^e - 1$, i.e., $m \leq e$. But of course $g^m = 1$ for all $g \in G$, so $e \leq m$, and thus $e = m$. 
 
 This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2} \ldots p_k^{r_k}$. Since $e$ is the least common multiple of the orders of elements, the exponent $r_i$ is the maximum multiplicity of $p_i$ occurring in orders of elements; any element realizing this maximum will have order divisible by $p_i^{r_i}$, and some power $y_i$ of that element will have order exactly $p_i^{r_i}$. Then $y = \prod_i y_i$ will have order $e = m$ by the following lemma and induction, so that powers of $y$ exhaust all $m$ elements of $G$, i.e., $y$ generates $G$ as desired. 
 =-- 
