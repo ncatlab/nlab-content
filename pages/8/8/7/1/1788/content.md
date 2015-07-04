@@ -18,3 +18,8 @@ $$
   \right)
   \,.
 $$
+
+*****
+
+$$ colim\limits_\to $$
+... let that be a warning to you.
