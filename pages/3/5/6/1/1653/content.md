@@ -134,7 +134,7 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 
 A discussion of the abstract properties of the category of localizable measurable spaces and its relation to [[von Neumann algebras]] is in 
 
-* Alain Guichardet, _Sur la cat&#233;gorie des alg&#232;bres de von Neumann_  (French) Bull. Sci. Math. (2) 90 1966 41&#8211;64. ([MSN](http://ams.org/mathscinet-getitem?mr=201989))
+* Alain Guichardet, _Sur la cat&#233;gorie des alg&#232;bres de von Neumann_  (French) Bull. Sci. Math. (2) 90 1966 41&#8211;64. ([MSN](http://ams.org/mathscinet-getitem?mr=201989)) ([scan](http://dmitripavlov.org/scans/guichardet.pdf))
 
 A useful series of expositions along these lines is in
 
