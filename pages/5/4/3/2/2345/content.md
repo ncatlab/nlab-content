@@ -20,6 +20,7 @@ A __$2$-functor__ is a [[functor]] between $2$-[[2-category|categories]].
 Of course, any sort of morphism between $2$-categories, if it deserves to be called anything like 'functor', will be a $2$-functor, so the prefix is not really necessary.  (For discussion of this issue in general, see [[higher functor]].)  On the other hand, sometimes the more precise terminology helps to clarify that one really is thinking of $2$-categories rather than an underlying $1$-[[1-category|category]]; for instance, not every $1$-functor $Cat \to Cat$ extends to a $2$-functor.
 
 In any case, one does need to take care to write the definition correctly.  There are actually (at least) two ways to do this, corresponding to the two kinds of $2$-categories: [[strict 2-category|strict]] and [[bicategory|weak]].  So for the definitions, see:
+
 *  [[strict 2-functor]]
 *  [[pseudo functor]]
 
