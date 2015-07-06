@@ -18,7 +18,7 @@
 
 _Opetopes_ are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]] put forward in ([Baez-Dolan 97](#BaezDolan97)) and developed by ([Makkai](#Makkai)) and others: _[[opetopic ∞-categories]]_.
 
-A [[syntax|syntactic]] formalizing [[opetopic ∞-categories]] in the [variant by Palm](#opetopic+omega-category#DefinitionByPalm) is _[[opetopic type theory]]_ ([Finster 12](#Finster12)).
+A [[syntax|syntactic]] formalization of [[opetopic ∞-categories]] in the [variant by Palm](#opetopic+omega-category#DefinitionByPalm) is _[[opetopic type theory]]_ ([Finster 12](#Finster12)).
  
 ## References ##
 
