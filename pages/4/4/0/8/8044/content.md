@@ -17,9 +17,19 @@
 * table of contents
 {: toc}
 
-## Summary
+## Idea
 
-**Russell's paradox** is a [[paradox]] of naive [[material set theory|material]] [[set theory]] that was first observed by [[Ernst Zermelo]] and then, indepedently, shortly afterwards by the logician [[Bertrand Russell]].  If one assumes a naive, full [[axiom of comprehension]], one can form the [[set]]
+**Russell's paradox** is a famous [[paradox]] of [[set theory]][^material] that was first observed in 1902 by [[Ernst Zermelo]] and then, independently, shortly afterwards by the logician [[Bertrand Russell]]. The paradox received instantly wide attention as it lead to a contradiction in Frege's monumental "[Foundations of Arithmetic](#Frege03)" (1893/1903) whose final second volume was just about to go to print when Frege was informed about the inconsistency by Russell.
+
+The paradox entangles a concept with its own extension in a **vicious circle**. The attempt to overcome this _circularity in set formation_ had a huge impact on subsequent forms of axiomatic set theory and in the aftermath mathematical logic became heavily focussed on consistency proofs for fully specified formal theories: the paradoxes triggered a shift in the foundation of mathematics away from the mathematics to the foundation itself.
+
+[^material]: naive [[material set theory]] that is!
+
+## Statement
+
+>Doch zur Sache selbst! Herr Russell hat einen Widerspruch aufgefunden, der nun dargelegt werden mag. Frege ([1903](#Frege03), p.253)
+
+If one assumes a naive, full [[axiom of comprehension]], one can form the [[set]]
 
 $$ R = \{ x | x \notin x \}. $$
 
@@ -28,7 +38,7 @@ One then asks: is $R\in R$?  If so, then $R\notin R$ by definition, whereas if n
 
 ## Related ideas
 
-Russell's paradox is closely related to the [[liar paradox]] ("this sentence is false"), to G&#246;del's [[incompleteness theorem]], and to the [[halting problem]] --- all use [[diagonalization]] to produce an object which talks about itself in a contradictory or close-to-contradictory way.
+Russell's paradox is closely related to the classical [[liar paradox]] ("this sentence is false"), to G&#246;del's [[incompleteness theorem]], and to the [[halting problem]] --- all use [[diagonalization]] to produce an object which talks about itself in a contradictory or close-to-contradictory way.
 
 On the other hand, [[Cantor's paradox]] can be said to "[[beta-reduction|beta-reduce]]" to Russell's paradox when we apply [[Cantor's theorem]] to the supposed set of all sets. See [[Cantor's paradox]] for explanation.
 
@@ -42,7 +52,7 @@ Also related:
 
 There are a number of possible resolutions of Russell's paradox.
 
-* Russell himself (1903,1908,1910) proposed the introduction of [[type theory]] as a solution e.g. in _[[Principia Mathematica]]_ (1910) an intricate system of [[ramified types]] tracks the variables of propositional functions in order to prevent circular propositions. This is inspired by Poincar&#233;'s ideas on [[impredicativity]] and can be viewed as a radical generalisation of Frege's distinction between an argument as a satured object and a function or concept as an unsaturated object.
+* Russell himself (1903,1908,1910) proposed the introduction of [[type theory]] as a solution e.g. in _[[Principia Mathematica]]_ (1910) an intricate system of [[ramified types]] tracks the variables of propositional functions in order to prevent circular propositions. This is inspired by Poincar&#233;'s ideas on [[predicative mathematics|impredicativity]] and can be viewed as a radical generalisation of Frege's ontological distinction between an argument as a satured object and a function or concept as an unsaturated object.
 
 * The "[[classical mathematics|classical]]" solution, adopted in [[ZFC]] and thus by the mathematical "mainstream", is to restrict the axiom of [[comprehension]] so as to disallow the formation of the set $R$: one requires that the set being constructed be a subset of some already existing set.  The restricted axiom is usually given a different name such as the [[axiom of separation]].
 
@@ -68,7 +78,11 @@ Russell indicated the contradiction leading to the inconsistency of G. Frege's s
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
 
-The first published account is presumably chapter X in
+The first published account is presumably in the appendix of
+
+* {#Frege03}G. Frege, _Grundgesetze der Arithmetik II_ , Pohle Jena 1903.
+
+Russell discusses the paradox extensively in chapter X of
 
 * B. Russell, _The Principles of Mathematics_ , Cambridge UP 1903.
 
