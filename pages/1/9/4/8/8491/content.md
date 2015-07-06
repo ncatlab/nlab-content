@@ -195,6 +195,10 @@ Discussion in the broader context of [[higher differential geometry]] and [[high
 
 * {#FRS13b} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107 &#8211; 142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
+See also
+
+* {#RitterSaemann15} [[Patricia Ritter]], [[Christian Sämann]], _Automorphisms of Strong Homotopy Lie Algebras of Local Observables_ ([arXiv:1507.00972](http://arxiv.org/abs/1507.00972))
+
 [[!redirects Poisson bracket Lie n-algebras]]
 
 [[!redirects Poisson-bracket Lie n-algebra]]
