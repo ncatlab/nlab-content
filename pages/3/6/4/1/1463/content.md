@@ -24,27 +24,29 @@ Given a proper filter $F$ on $X$, consider the [[partial order|poset]] of proper
 
 Although this proof uses Zorn's lemma, the statement itself is weaker.  In particular, it is weaker than the [[axiom of choice]] (even assuming the principle of [[excluded middle]]).
 
-## Strength and weakness 
+## Strength and weakness as a "choice principle" 
 
-Although the ultrafilter theorem is weaker than the axiom of choice, it can be used to prove quite a few results that are traditionally proved using [[Zorn's lemma]] (or some other equivalent to the axiom of choice). For example, it can be used to prove 
+Although the ultrafilter theorem is weaker than the axiom of choice, it can be used to prove quite a few results that are traditionally proved using [[Zorn's lemma]] (or some other thing equivalent to the axiom of choice). For example, it can be used to prove 
 
 * [[Hahn-Banach theorem]] (which in turn implies existence of Lebesgue non-measurable sets), 
 
+* [[Banach-Tarski paradox]], 
+
 * [[prime ideal theorem]] for [[rigs]], [[rings]], and [[Boolean algebras]], 
 
-* every formally real field can be totally ordered, 
+* every [[formally real field]] can be [[total order|totally ordered]], 
 
-* existence and uniqueness of algebraic closures; see [[splitting field]], 
+* existence and uniqueness of [[algebraic closure]]s; see [[splitting field]], 
 
 * existence of non-trivial [[ultraproducts]], 
 
-* Compactness theorem and completeness theorem for first-order logic (see below) 
+* Compactness theorem and completeness theorem for [[first-order logic]] (see below) 
 
 as a partial list. An enlightening discussion of the things one might expect to be able to prove using the ultrafilter theorem is given [here at MO](http://mathoverflow.net/questions/202458/how-do-i-apply-the-boolean-prime-ideal-theorem). 
 
-However, in other respects, the ultrafilter theorem is very weak as a "choice principle". For example, it is too weak to prove the axiom of [[countable choice]] (it cannot prove that a countable union of countable sets is countable), a fact exhibited in Cohen's first model for the failure of the axiom of choice (where even countable choice fails but the ultrafilter theorem holds). It therefore cannot prove the [[axiom of dependent choice]] either. 
+However, in other respects, the ultrafilter theorem is very weak as a "choice principle". For example, it is too weak to prove the axiom of [[countable choice]] (so for example, it cannot prove that a countable union of countable sets is countable), a fact exhibited in Cohen's first model for the failure of the axiom of choice (where even countable choice fails but the ultrafilter theorem holds). It therefore cannot prove the [[axiom of dependent choice]] either. 
 
-It can prove a tiny fragment of such traditional applications of [[axiom of countable choice|countable choice]]. For example, it can be used to [[linear order|linearly order]] a countable disjoint union of nonempty finite sets. It can therefore be used to prove that a countable union of nonempty finite sets is countable (given a [[surjection]] $F \to \mathbb{N}$ all of whose fibers are finite, a linear ordering on $F$ would well-order each fiber, and one can then enumerate $F$ by a [[lexicographic order|lexicographic]] reordering. 
+It can prove a tiny fragment of such traditional applications of [[axiom of countable choice|countable choice]]. For example, it can be used to [[linear order|linearly order]] a countable disjoint union of nonempty finite sets. It can therefore be used to prove that a countable union of nonempty finite sets is countable (given a [[surjection]] $F \to \mathbb{N}$ all of whose fibers are finite, a linear ordering on $F$ would well-order each fiber, and one can then enumerate $F$ by a [[lexicographic order|lexicographic]] reordering). See this [post](http://math.stackexchange.com/a/211621/43208) by Asaf Karagila. 
 
 ## Other formulations
 
