@@ -196,15 +196,27 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 
 * [[homotopy]]
 
-* **transfor**
+* functors
+
+  * [[functor]]
+
+  * [[2-functor]]
+
+  * [[(∞,1)-functor]]
+
+* transformations
 
   * [[natural transformation]]
 
-  * [[pseudonatural transformation]]
+  * [[pseudonatural transformation]] / [[lax natural transformation]]
 
-  * [[lax natural transformation]]
+  * [[(∞,1)-natural transformation]]
 
+  * [[(∞,n)-natural transformation]]
 
+* modifications
+
+  * [[modification]]
 
 [[!redirects (n,j)-transformation]]
 [[!redirects j-transformation]]
