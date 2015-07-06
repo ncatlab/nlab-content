@@ -5,8 +5,9 @@
 
 ## Definition
 
-A [[field]] (in the sense of [[commutative algebra]]) $F$ is **perfect** if every [[algebraic extension]] of $F$ is [[separable extension|separable]]. 
+A [[field]] (in the sense of [[commutative algebra]]) $F$ is **perfect** if every [[algebraic extension]] of $F$ is [[separable extension|separable]]. In that case, every [[splitting field|splitting field extension]] of $F$ is a [[Galois extension]]. 
 
+An extension $E/F$ is separable iff every element $\alpha \in E$ is separable, meaning that its irreducible polynomial $f \in F[x]$ (a monic generator of the kernel of $F[x] \to E: x \mapsto \alpha$) has no multiple roots. Of course $f$ has a multiple root only if its [[derivative]] satisfies $f'(\alpha) = 0$, which means $f' \in (f)$: by degree considerations this can happen only if $f'$ is the zero polynomial. Notice this cannot happen in characteristic zero. 
 
 ## Examples 
 
