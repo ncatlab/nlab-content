@@ -41,7 +41,7 @@ An early textbook account of this work is in
 
 Lecture notes include
 
-* Bertrand Guillo, _The Bousfield-Kan spectral sequence_ [pdf](http://www.ms.uky.edu/~guillou/BKss.pdf)
+* Bertrand Guillou, _The Bousfield-Kan spectral sequence_ [pdf](http://www.ms.uky.edu/~guillou/BKss.pdf)
 
 Discussion of computations using [[effective homology]] includes
 
