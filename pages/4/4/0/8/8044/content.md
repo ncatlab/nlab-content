@@ -19,7 +19,7 @@
 
 ## Summary
 
-**Russell's paradox** is a [[paradox]] of naive [[material set theory|material]] [[set theory]] that was first observed by the logician [[Bertrand Russell]].  If one assumes a naive, full [[axiom of comprehension]], one can form the [[set]]
+**Russell's paradox** is a [[paradox]] of naive [[material set theory|material]] [[set theory]] that was first observed by [[Ernst Zermelo]] and then, indepedently, shortly afterwards by the logician [[Bertrand Russell]].  If one assumes a naive, full [[axiom of comprehension]], one can form the [[set]]
 
 $$ R = \{ x | x \notin x \}. $$
 
@@ -57,6 +57,18 @@ There are a number of possible resolutions of Russell's paradox.
 * Finally, and perhaps most radically, one can decide to *allow* contradictions, choosing to use a [[paraconsistent logic]].  There exist nontrivial paraconsistent set theories with full comprehension in which the set $R$ exists, being both a member of itself and not a member of itself.
 
 ## References
+
+Zermelo's observation which is mentioned in a footnote of his 1908 paper on the well-ordering theorem is analyzed in
+
+* B. Rang, W. Thomas, _Zermelo's Discovery of the "Russell Paradox"_ , Hist. Math. **9** no.1 (1981) pp.15-22.
+
+Russell indicated the contradiction leading to the inconsistency of G. Frege's system of "Grundgesetze der Arithmetik" in a famous letter to the latter on June 16th 1902 which together with Frege's reply is reprinted pp.124-128 in
+
+* J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
+
+The first published account is presumably chapter X in
+
+* B. Russell, _The Principles of Mathematics_ , Cambridge UP 1903.
 
 Discussion of a paradox similar to Russell's in [[type theory]] with [[W-types]] is in 
 
