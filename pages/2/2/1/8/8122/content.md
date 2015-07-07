@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
 +-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 =--
@@ -148,7 +148,7 @@ We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\s
 
 ## References
 
-* M. Nielsen and I. Chuang.  /Quantum Computation and Quantum Information/.  Cambridge University Press.  2000.  {#NielsenChuang}
+* M. Nielsen and I. Chuang.  _Quantum Computation and Quantum Information_.  Cambridge University Press.  2000.  {#NielsenChuang}
 
 Many facts taken from Wikipedia:
 
