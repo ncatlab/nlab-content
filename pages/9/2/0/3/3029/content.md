@@ -1636,17 +1636,20 @@ Lecture notes and similar include
 
 * Raphael Ho, _Classifications of group extensions and $H^2$_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Ho.pdf))
 
+See also:
 
-See also
+* [[R. Brown]], [[T. Porter]], _On the Schreier theory of non-abelian extensions: generalisations and computations_, Proc. Roy. Irish Acad. Sect. A, 96 (1996), 213 &#8211; 227.
 
-* [[R. Brown]], [[T. Porter]], _On the Schreier theory of non-abelian extensions: generalisations 
-and computations_, Proc. Roy. Irish Acad. Sect. A, 96, (1996), 213 &#8211; 227.
-
-* [[Manuel Bullejos]], [[Antonio M. Cegarra]],  A 3-dimensional non-abelian cohomology of groups with applications to homotopy classification of continuous maps Canad. J. Math., vol. 43, (2), 1991, p. 1-32.
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]],  A 3-dimensional non-abelian cohomology of groups with applications to homotopy classification of continuous maps Canad. J. Math., vol. 43, (2), 1991, 1-32.
 
 * [[Antonio M. Cegarra]], [[Antonio R. Garzón]], A long exact sequence in non-abelian cohomology, Proc. Int. Conf. Como 1990., Lec. Notes in Math. 1488, Springer 1991.
 
-See also references of Dedecker listed [[zoranskoda:Paul Dedecker|here]]. 
+A theory for central 2-group extensions is here:
+
+* [[Antonio R. Garzón]] and E.M. Vitale, On the second cohomology categorical group and a Hochschild-Serre 2-exact sequence, Theory and Applications of Categories, Vol. 30 (2015), 933-984.  ([pdf](http://www.tac.mta.ca/tac/volumes/30/27/30-27.pdf))
+
+
+See also references to Dedecker listed [[zoranskoda:Paul Dedecker|here]]. 
 
 ### Applications
 
