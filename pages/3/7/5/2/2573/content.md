@@ -43,6 +43,8 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 >A question that has been much of a "foundational" interest, though of hardly any significance for the practice of algebra, topology, functional analysis, etc. is whether, for a given $T$, all imaginable families of sets parametrized by $T$ can be represented by $E\to T$ for some $E$ and some mapping; if "imaginable" is interpreted to mean "definable", an affirmative answer to this question is essentially equivalent (for abstract, constant sets) to the postulation of the so-called "replacement schema", whereas if $\mathcal{S}$ is considered as an object in some larger realm, an affirmative answer means that $\mathcal{S}$ itself has "inaccessible cardinality". However, in view of practice and in view of the role of $\mathcal{S}$ as a limiting case of the general notion of continuously variable sets, it seems appropriate to simply define "an internal-to-$\mathcal{S}$ $T$-parametrized family of objects of $\mathcal{S}$" to mean just a morphism of $\mathcal{S}$ with domain $T$.  [Lawvere (1976, p.121)](#Lawvere76)
 
+See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
+
 ## Related entries
 
 * [[Zermelo-Fraenkel set theory]]
@@ -63,11 +65,17 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 * {#Fraenkel22}A. Fraenkel, _Zu den Grundlagen der Cantor-Zermeloschen Mengenlehre_ , Math. Ann. **86** (1922) pp.230-237. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002268760))
 
+* [[Harvey Friedman|H. J. Friedman]], _Higher Set Theory and Mathematical Practice_ , Ann. Math. Logic **2** (1971) pp.326-357.
+
 * [[André Joyal]], [[Ieke Moerdijk]], _A categorical theory of cumulative hierarchies of sets_, C. R. Math. Rep. Acad. Sci. Canada **13** (1991) pp.55-58.
 
 * {#Lawvere76}[[F. William Lawvere]], _Variable Quantities and Variable Structures in Topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory: a Collection of Papers in Honor of Samuel Eilenberg_ , Academic Press New York 1976.
 
+* {#Lawvere00}[[F. William Lawvere]], _Comments on the development of topos theory_ , pp.715-734 in Pier (ed.),  _Development of Mathematics 1950 - 2000_ , Birkh&#228;user Basel 2000. ([tac reprint](http://www.tac.mta.ca/tac/reprints/articles/24/tr24abs.html))
+
 * {#Osius74}[[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ , JPAA **4** (1974) pp.79-119.
+
+* D. A. Martin, _Borel determinacy_ , Ann. Math. **102** (1975) pp.363-371.
 
 * [[Thoralf Skolem]], _Einige Bemerkungen zur axiomatischen Begr&#252;ndung der Mengenlehre_ , Mathematikerkongressen i Helsingfor 4-7 Juli 1922. English transl. pp.290-301 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
