@@ -36,7 +36,7 @@ If, as before, you take the domains of quantification to be subsingletons, you g
 Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.  Note that $LLPO_A$ follows from $LPO_A$, but not conversely.
 
 
-## Analytic versions
+## Analytic versions {#analytic}
 
 Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
 
@@ -49,9 +49,10 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other radix), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
+
 ## Models
 
-* The LPO (for natural numbers) holds in any [[presheaf topos]], and indeed in any [[locally connected topos]] (over a classical base $Set$), essentially since then $2^N$ is a constant object.
+* Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
 * The LPO for natural numbers fails in the [[topological topos]], due to its internal continuity principle.
 
@@ -60,12 +61,9 @@ There are various other results that are equivalent to or related to the princip
 
 * {#Bauer}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
 
-
 *  {#Bishop} [[Errett Bishop]] (1967), _[[Foundations of Constructive Analysis]]_ (in the introduction or chapter 1, I forget)
 
-
 *  {#Escardo} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
-
 
 * {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
