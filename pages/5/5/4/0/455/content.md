@@ -90,9 +90,23 @@ Parallel to the way free commutative rings are polynomial rings, which are free 
 
 The theory of Boolean algebras is equivalent to the theory of Boolean rings in the sense that their categories of models are equivalent. Given a Boolean ring, we define the operation $\wedge$ to be multiplication, and the operation $\vee$ by $x \vee y = x + y + x y$, and the operation $\neg$ by $\neg x = 1 + x$. The relation $x \leq y$ may be defined by the condition $x y = x$. In the other direction, given a Boolean algebra, we may define addition by [[symmetric difference]]: $x + y = (x \vee y) \wedge \neg(x \wedge y)$. According to this equivalence, the free Boolean ring on $n$ generators may be identified with the Boolean algebra $P(2^n)$, the power set on a set with $2^n$ elements. 
 
+### Elements of Stone duality 
+
 The equivalence of Boolean rings and Boolean algebras was exploited by [[Marshall Stone]] to give his theory of [[Stone duality]], in which every Boolean algebra $B$ is a Boolean algebra of sets; more particularly the Boolean algebra of clopen (closed and open) sets of a topological space $Spec(B)$, the **Stone space** of $B$. The notation intentionally suggests that the Stone space is the underlying space of the [[spectrum (geometry)|spectrum]] of $B$ as Boolean ring, taking "spectrum" in the sense of algebraic geometry. 
 
-A Stone space may be characterized abstractly as a [[topological space]] that is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[totally disconnected space|totally disconnected]]. Stone duality asserts among other things that every such space is the spectrum of the Boolean algebra of its clopen subsets. 
+A Stone space may be characterized abstractly as a [[topological space]] that is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[totally disconnected space|totally disconnected]]. Stone duality asserts among other things that every such space is the [[prime spectrum]] of the Boolean algebra of its clopen subsets. 
+
++-- {: .num_lemma #aremax} 
+###### Lemma 
+All prime ideals in $B$ are kernels $\phi^{-1}(0)$ of homomorphisms $\phi: B \to \mathbf{2}$ (and thus are maximal ideals, in bijective correspondence with [[ultrafilters]] $\phi^{-1}(1)$ in $B$). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+If $p$ is a prime ideal in a Boolean ring, then $B/p$ is an integral domain in which every element $x$ is idempotent: $x(x-1) = 0$. Hence $B/p = \{0, 1\}$. 
+=-- 
+
+(To be continued at some point.) 
 
 ## Homomorphisms
 
