@@ -10,4 +10,6 @@ Derived analytic geometry is the study of derived analogs of analytic spaces in 
 
 * [[derived complex analytic space]]
 
+* [[derived global analytic geometry]]
+
 * [[overconvergent global analytic geometry]]
