@@ -23,7 +23,7 @@ the results of classical (complex analytic) [[Hodge theory]] and of
 
 A first (non-archimedean) step in this direction was given by Bhatt in his
 paper on the derived appraoch to p-adic Hodge theory, where he proposed a Hodge theory for (say semi-stable) varieties over $\mathbb{Z}$, using [[derived de Rham cohomology]] to define a convenient [[period ring]]. From the point of view of global analytic geometry, this gives a Hodge theory for strict analytic spaces over $\mathbb{Z}$, equipped with its trivial norm. One may adapt these ideas to extend
-them to a Hodge theory for strict analytic spaces over $\Z$, equipped with
+them to a Hodge theory for strict analytic spaces over $\mathbb{Z}$, equipped with
 its archimedean norm. Remark that the treatment of quasi-projective varieties should certainly involve a [[global mixed Hodge theory]] for pre-proper [[logarithmic geometry|logarithmic analytic varieties]].
 
 The advantage of including the archimedean norm
@@ -36,7 +36,7 @@ paper on p-adic Hodge theory (i.e., with the `de Rham` period ring).
 It remains a challenging problem to combine the non-archimedean and archimedean
 information on Hodge theory without forgetting to take care of torsion phenomena in
 cohomology, that are very important for the study of special values of L-functions. This may be doable if one follows the line
-of ideas used in Arakelov geometry, but formulated in a global analytic way. A very natural setting for this seems to be global [[strict analytic geometry]] over $\Z$ equipped with its archimedean norm.
+of ideas used in Arakelov geometry, but formulated in a global analytic way. A very natural setting for this seems to be global [[strict analytic geometry]] over $\mathbb{Z}$ equipped with its archimedean norm.
 
 ## Related concepts
 
