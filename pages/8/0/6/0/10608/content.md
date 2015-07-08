@@ -67,6 +67,8 @@ This view was severely criticized by [[Gottlob Frege]] in _'Die Grundlagen der A
 
 * [[ETCS]]
 
+* [[material-structural adjunction]]
+
 ## Links
 
 * ncaf&#233; discussion: Rethinking Set Theory ? ([link](https://golem.ph.utexas.edu/category/2012/12/rethinking_set_theory.html))
@@ -75,7 +77,17 @@ This view was severely criticized by [[Gottlob Frege]] in _'Die Grundlagen der A
 
 ## References
 
-The text Lawvere refers to is
+Lawvere takes this interpretation of Cantor up again in
+
+* [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
+
+Judging from the preface to [[Sets for Mathematics|(Lawvere-Rosebrugh 2003)]] Myhill made his observation presumably in Lawvere's 1985 course. C. McLarty interprets Cantor's cardinals as abstract sets in a [[well-pointed topos]] in
+
+* [[Colin McLarty]], _Defining Sets as Sets of Points of Spaces_ , JPL **17** (1988) pp.75-90.
+
+* [[Colin McLarty]], _Elementary Categories, Elementary Toposes_ , Oxford UP 1992.
+
+The Cantor text Lawvere refers to is
 
 * {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. **46** (1895) pp.481-512. ([German original](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN00225557X); [online English translation](https://archive.org/details/contributionstof00cant))
 
