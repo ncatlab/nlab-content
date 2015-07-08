@@ -39,6 +39,62 @@ Despite the intuitive appeal, this approach obliges one to establish the complet
 
 The motivation for the terminology stems from the observation that the compactness theorem literally expresses the compactness of a suitable topology on first-order structures.
 
+## Illustrations 
+
+As the compactness theorem is arguably the most fundamental result of model theory, there are too many examples of its use for us to do it much justice here. But perhaps a few examples here will help illustrate some typical uses. 
+
+### Total orders 
+
++-- {: .num_prop #total} 
+###### Proposition 
+Every set $X$ can be totally ordered. 
+=-- 
+
+Of course this trivially follows from the stronger result that every set can be [[well-ordered set|well-ordered]], if we permit the [[axiom of choice]]. But part of our point here is that we don't need the full strength of the axiom of choice: the result can be derived from the weaker "choice principle" called the [[ultrafilter theorem]], on which the compactness theorem depends. 
+
++-- {: .proof} 
+###### Proof 
+Introduce a [[language]] (i.e., [[signature (in logic)|signature]]) with a constant symbol $c_p$ for each $p \in X$ and a binary relation symbol $L$, and for a [[theory]] take axioms $\neg (c_p = c_q)$ whenever $p \neq q$ in $X$ and the usual axioms to make $L$ a [[total order]] (reflexivity, transitivity, antisymmetry, and connectedness). This theory is finitely satisfiable: any finite subset $\Sigma$ of the axioms has a model, by interpreting each $c_x$ occurring in an inequality axiom belonging to $\Sigma$ simply as $x$, and totally ordering those finitely many $x$ in some way to interpret $L$; the remaining $c_x$ can be interpreted as the bottom element of that total order without any harm. By the compactness theorem, this theory has a model $Y$, and the restriction of the total order on $Y$ to the set of all constants $c_x$ in $Y$ is used to totally order all the $x \in X$. 
+=-- 
+
+With slightly more effort, a similarly argument can be given to show that every [[partial order]] can be extended to a total order. We just proved the case where the partial order is discrete. 
+
+#### Choice-like consequences 
+
+Again, we assume the ultrafilter principle but do not assume the [[axiom of choice]]. 
+
++-- {: .num_cor} 
+###### Corollary 
+If $p: F \to \mathbb{N}$ is [[surjection|surjective]] and every [[fiber]] is finite, then $p$ has a section $s$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Using Proposition \ref{total} to totally order $F$, each fiber inherits a total order that is a well-order by finiteness, and we can choose $s(n)$ to be the least element in the fiber $F_n$ by nonemptiness. 
+=-- 
+
++-- {: .num_prop #countable} 
+###### Proposition 
+A countable disjoint union of finite sets is again countable. 
+=-- 
+
++--{: .proof} 
+###### Proof 
+Let $F_n$ be the countable family and let $F$ be the union; again we have a fibering $F \to \mathbb{N}$ with fiber $F_n$ over $n$. Totally order $F$; each $F_n$ inherits an order from $F$, and since total orders on finite sets are well-orders, we have chosen a countable family of well-orders. Now put the lexicographic order on the set of pairs $F' = \{(n, x): n \in \mathbb{N}, x \in F_n\}$. This is a well-ordering, and clearly the projection $F' \to F$ is a bijection, so we obtain a well-ordering of $F$ by transport of structure (differing, probably, from the original total ordering of $F$ which has done its job but is of no further use). Then we can define a partial map $\phi: \mathbb{N} \to F$ by induction: $\phi(0)$ is the bottom of $F$, and $\phi(n+1)$ is (if it exists) the bottom of the complement of $\phi([0, n])$. This defines a bijection from an initial segment of $\mathbb{N}$ onto $F$, which is what we wanted. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+**(Weak K&#246;nig's lemma)** 
+Every infinite [[tree]] for which there is finite nonempty branching at each node has an infinite branch. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A tree is by definition a [[presheaf]] $F: \mathbb{N}^{op} \to Set$ where $\mathbb{N}$ has its usual order and $F(0)$ is terminal. By the branching hypothesis, each set $F(n)$ (which we may identify with finite branches of height $n$, which are [[partial map|partial]] [[sections]] of $F$) is finite. By Proposition \ref{countable}, the set of nodes or elements $E = \sum_n F(n)$ is countable, i.e., acquires a well-ordering from $\mathbb{N}$ by transport across some bijection $\mathbb{N} \to E$. An infinite branch is given by a section $s: \mathbb{N} \to E$ (of the fibering by height) as follows: $s(0)$ is the root, and given $s(n) \in F(n)$, let $s(n+1)$ be the least element $x$ in $E$ such that $F(n+1 \to n)(x) = s(n)$ (such elements exist by nonemptiness of the branching). 
+=-- 
+
+
 ## Related concepts
 
 * [[Löwenheim-Skolem theorem]]
