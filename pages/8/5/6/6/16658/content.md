@@ -1,0 +1,13 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Derived analytic geometry is the study of derived analogs of analytic spaces in various context, such as [[complex analytic geometry]], [[non-archimedean analytic geometry]] and [[global analytic geometry]].
+
+## Related concepts
+
+* [[derived complex analytic space]]
+
+* [[overconvergent global analytic geometry]]
