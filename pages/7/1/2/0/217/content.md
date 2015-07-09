@@ -21,15 +21,17 @@
 
 The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
-The theory intends to capture in an isomorphism invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set.[^cantor]
+The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.)[^cantor] [^dedekind]
 
-[^cantor]: See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'. It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94).
+[^cantor]: It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94). 
+
+[^dedekind]: [[Richard Dedekind| R. Dedekind's]] views are also anticipating 'abstract sets' e.g. Bernstein reports in Dedekind's works vol.3 (1932, p.449) that Dedekind gave as his intuition of a set: "a closed bag, containing determinate things that one can not see and of which one knows nothing beyond their existence and determinateness".
 
 [^Law]: For a careful comparative discussion of its virtues as foundation see [[foundations of mathematics]] or the [texts by Todd Trimble](#ExpositionByTrimble) referred to below.
 
 More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The theory omits the [[axiom of replacement]], however.
 
-The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
+The idea is, first of all, that much of traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos of _constant_ sets, and second that this perspective generalizes beyond ETCS proper to toposes of _variable_ and _cohesive_ sets by varying the axioms: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
 
 ## Definition
 
