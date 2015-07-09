@@ -208,7 +208,7 @@ See for instance
 * [[Samuel Eilenberg]] and Tadasi Nakayama (1955), _On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings_, _Nagoya Math. J._ **9**, 1--16. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
 {#Eilenberg1955}
 
-* Marcelo Aguiar (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+* [[Marcelo Aguiar]] (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf))
 {#Aguiar2000}
 
 * [[Andrew Baker]], _Frobenius algebras_ 2010 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/Frobenius-talk.pdf))
