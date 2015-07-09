@@ -62,7 +62,9 @@ As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ com
 
 ## References
 
-The concept proper for co-Heyting algebras seems to stem from Lawvere ([1986](#Law86), [1991](#Law91a)) although the 1927 [article of M. Zarycki](#Zar27) already studies properties and axiomatic potential of the boundary operator in topology. [La Palme Reyes, Reyes&Zolfaghari (2004)](#RRZ04) has an introductory exposition in the context of bi-Heyting algebras. For boundaries of geometric theories [Caramello (2009)](#Cara09) is essential reading although they don't appear there explicitly. For mereological applications of the concept see [Lawvere (1986)](#Law86), [Stell&Worboys (1997)](#SW97), [Pagliani (2009)](#Pagl09) and [Mormann (2013)](#Mor13).
+Boundaries of subtoposes are defined in an exercise of [SGA4](#SGA4). The concept for co-Heyting algebras seems to stem from Lawvere ([1976](#Law76),[1986](#Law86), [1991](#Law91a)) although the 1927 [article of M. Zarycki](#Zar27) already studies properties and axiomatic potential of the boundary operator in topology. [La Palme Reyes, Reyes&Zolfaghari (2004)](#RRZ04) has an introductory exposition in the context of bi-Heyting algebras. For boundaries of geometric theories [Caramello (2009)](#Cara09) is essential reading although they don't appear there explicitly. For mereological applications of the concept see [Lawvere (1986)](#Law86), [Stell&Worboys (1997)](#SW97), [Pagliani (2009)](#Pagl09) and [Mormann (2013)](#Mor13).
+
+* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, exercise 9.4.8, pp.461-462) {#SGA4}
 
 * {#Cara09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
 
@@ -71,6 +73,8 @@ The concept proper for co-Heyting algebras seems to stem from Lawvere ([1986](#L
 * {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+
+* {#Law76} [[William Lawvere]], _Variable Quantities and Variable Structures in Topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory: a Collection of Papers in Honor of Samuel Eilenberg_ , Academic Press New York 1976.
 
 * {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
 
