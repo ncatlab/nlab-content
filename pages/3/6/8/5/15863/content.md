@@ -61,7 +61,7 @@ Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting alg
 
 * $\sim$ in turn can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and points to the utility of co-Heyting algebras for [[paraconsistent logic]].
 
-* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
+* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure ([Lawvere](#Law91a), [Reyes](#Reyes)), the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
 
 ##Related entries
 
@@ -93,7 +93,7 @@ Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting alg
 
 * T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
 
-* [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
+* {#Reyes}[[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
 
 * C. Rauszer, _Semi-Boolean algebras and their applications to intuitionistic logic with dual operations_ , Fund. Math. **83** no.3 (1974) pp.219-249. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm83/fm83120.pdf))
 
