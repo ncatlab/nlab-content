@@ -185,3 +185,7 @@ Application to stratified spaces with tangential structures is discussed in
 A [[duality]] theorem for factorization homology, generalizing [[Poincare duality]] for [[manifolds]] and [[Koszul duality]] for [[E-n algebras]].
 
 * [[David Ayala]], [[John Francis]], _Poincar&#233;/Koszul duality_, [arXiv:1409.2478](http://arxiv.org/abs/1409.2478).
+
+Discussion in the context of [[extended TQFT]] appears in 
+
+* [[Claudia Scheimbauer]], _Factorization homology as a fully extended topological field theory_ ([pdf](http://guests.mpim-bonn.mpg.de/scheimbauer/ScheimbauerThesisJan23.pdf))
