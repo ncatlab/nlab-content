@@ -1,0 +1,9 @@
+
+
+* [webpage](http://guests.mpim-bonn.mpg.de/scheimbauer/)
+
+## related $n$Lab entries
+
+* [[factorization homology]]
+
+category: people
