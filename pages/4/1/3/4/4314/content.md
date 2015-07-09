@@ -219,6 +219,7 @@ category: foundational axiom
 [[!redirects Vopenka's principle]]
 [[!redirects Vop?nka s principle]]
 [[!redirects Vopenka s principle]]
+[[!redirects Vop?nka principle]]
 
 [[!redirects Vop?nka's axiom]]
 [[!redirects Vopenka's axiom]]
