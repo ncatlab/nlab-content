@@ -39,7 +39,7 @@ In [[string diagrams]], the trace $Tr(f) : A \to B$ of a morphism $f : A \otimes
 
 ## Properties
 
-### Relation to compact closed catgeories
+### Relation to compact closed categories
  {#RelationToCompactClosedCategories}
 
 Given a traced monoidal category $\mathcal{C}$, there is a [[free construction]] completion of it to a [[compact closed category]] $Int(\mathcal{C})$ ([Joyal-Street-Verity 96](#JoyalStreetVerity96)):
