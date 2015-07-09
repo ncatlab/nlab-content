@@ -43,7 +43,7 @@ The construction is a special case of [[Artin gluing]]: i.e.  $\overline{\mathca
 
 ### Relation to the initial topos
 
-One of the first applications of the Freyd cover was to deduce facts about the [[initial topos]] (initial with respect to [[logical morphism|logical morphisms]] --- also called the *free topos*). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
+One of the first applications of the Freyd cover was to deduce facts about the initial topos (initial with respect to [[logical morphism|logical morphisms]] --- also called the [[free topos]]). They were originally proved by syntactic means; the conceptual proofs of the lemma and theorem below are due to Freyd. 
 
 +-- {: .num_lemma}
 ###### Lemma 
