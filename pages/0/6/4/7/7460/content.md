@@ -17,6 +17,8 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--
  A CatLab entry is [here](http://ncatlab.org/joyalscatlab/published/Thomason%2C+Robert)
 category:people
 
+* [Digitization of Robert Wayne Thomason's notebooks](http://www.math-info-paris.cnrs.fr/bibli/digitization-of-robert-wayne-thomasons-notebooks/)
+
 [[!redirects Thomason]]
 [[!redirects R. Thomason]]
 [[!redirects R. W. Thomason]]
