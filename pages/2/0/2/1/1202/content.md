@@ -16,13 +16,17 @@
 
 ## Idea
 
-The _well-ordering theorem_ states that every [[set]] may be [[well-order|well-ordered]].  It is a theorem in the sense that it can be proved assuming the [[axiom of choice]].  On the other hand, the axiom of choice can instead be proved using the well-ordering theorem and the principle of [[excluded middle]].
+The **well-ordering theorem** is a famous result in [[set theory]] stating that every [[set]] may be [[well-order|well-ordered]].
+
+Fundamental for [[Georg Cantor| G. Cantor's]] approach to transfinite arithmetic it was an open problem until [[Ernst Zermelo|E. Zermelo]] gave a proof in 1904 using the [[axiom of choice]] to which it is in fact equivalent if one admits the principle of [[excluded middle]].
+
+Hence, classically, it is one of the many equivalent formulations of the axiom of choice like e.g. [[Zorn's lemma]].
 
 ## Statement and proof 
 
 Given any [[set]] $S$, there exists a [[well-order]] $\prec$ on $S$.
 
-The proof was given in ([Zermelo 1904](#Zermelo)).
+The first proof was given in ([Zermelo 1904](#Zermelo04)).
 
 
 ## Consequences 
@@ -35,14 +39,16 @@ To get the large (or "global") axiom of choice (that any surjection between prop
 
 ## History 
 
-Georg Cantor first developed [[set theory]] in the context of studying well-ordered sets of [[real number]]s and considered the well-ordering theorem a 'law of thought' ('Denkgesetz') without need of proof.
+**Georg Cantor** first developed [[set theory]] in the context of studying well-ordered sets of [[real number]]s whence the validity of the well-ordering principle became fundamental for his theory of [[ordinal numbers]]. In his 1883 paper he calls it a _'fundamental and consequential law of thought that is remarkable for his generality'_ and promised to come back to it later ([Cantor 1932](#Cantor32), p.169).
 
-Ernst Zermelo gave a proof in 1904, but many mathematicians were concerned about the proof\'s validity.  Analysis of Zermelo\'s proof isolated the [[axiom of choice]] and led to that axiom\'s first explicit formulation (also by Zermelo).
+But as Cantor's proof attempts never succeeded the principle ended as 'a very strange claim' second on the list of [[Hilbert's problems|Hilbert's millenium problems]] in mathematics in 1900. In 1904 the Hungarian mathematician J. K&#246;nig announced a proof that the [[continuum]] could not be well-ordered but had to retract the proof.
+
+Soon afterwards in 1904, [[Ernst Zermelo]] gave a proof using the [[axiom of choice]] following a suggestion by E. Schmidt. The proof was met with heavy criticism by prominent mathematicians so that Zermelo published a new proof and a defense of the contested axiom of choice in 1908. The attempt to make explicit the set-theoretic assumptions in the proof led him to publish his axioms for set theory in the same year which became later a part of [[Zermelo-Fraenkel set theory]].
 
 That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
 >The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about [[Zorn's lemma]]?
 
-Ironically, in [[constructive mathematics]], the well-ordering principle is (seemingly) actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  It does, however, imply the full axiom of choice (and hence excluded middle) if by 'well-order' we mean a _classical_ [[well-order]], in the sense that every inhabited subset has a least element, rather than the constructively sensible notion of well-order that merely permits inductive proofs.  [[Zorn's lemma]] is likewise constructively weaker than the axiom of choice, although it is not particularly useful without excluded middle.
+Ironically, in [[constructive mathematics]], the well-ordering principle is (seemingly) actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  It does, however, imply the full axiom of choice (and hence excluded middle) if by 'well-order' we mean a _classical_ [[well-order]], in the sense that every inhabited subset has a least element, rather than the constructively sensible notion of well-order that merely permits inductive proofs. [[Zorn's lemma]] is likewise constructively weaker than the axiom of choice, although it is not particularly useful without excluded middle.
 
 +--{: .query}
 At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamathematical result proving this, however.
@@ -67,9 +73,21 @@ _Toby_:  Well, constructivists are used to being isolated.  At least we give the
 
 ## References
 
-* [[Ernst Zermelo]], _Beweis, da&#223; jede Menge wohlgeordnet werden kann_, Mathematische Annalen 59 (1904) ([GDZ](http://gdz.sub.uni-goettingen.de/no_cache/en/dms/load/img/?IDDOC=28526))
- {#Zermelo}
+The original proof is in
 
+* [[Ernst Zermelo]], _Beweis, da&#223; jede Menge wohlgeordnet werden kann_ , Mathematische Annalen **59** (1904) pp.514-516. ([gdz](http://gdz.sub.uni-goettingen.de/no_cache/en/dms/load/img/?IDDOC=28526))
+ {#Zermelo04}
 
+The second proof together with an eloquent defense of the axiom of choice can be found in
+
+* [[Ernst Zermelo]], _Neuer Beweis f&#252;r die M&#246;glichkeit einer Wohlordnung_ , Mathematische Annalen **65** (1908) pp.107-128. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002261952)) {#Zermel08}
+
+Cantor's text are collected together with comments by Zermelo in
+
+* [[Ernst Zermelo]] (ed.), _Georg Cantor - Gesammelte Abhandlungen Mathematischen und Philosophischen Inhalts_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PPN=PPN237853094)) {#Cantor32}
+
+English versions of Zermelo's papers are in
+
+* J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
 
 [[!redirects well-ordering principle]]
