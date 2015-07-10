@@ -20,7 +20,7 @@ A _partition of unity_ is a [[partition]] of the unit function on a [[topologica
 
 ## Definition
 
-Let $X$ be a [[topological space]]. A (locally finite) **partition of unity** on $X$ is a collection $\{u_j\}_J$ of [[continuous function]]s $u_j:X \to [0,1]$, $j\in J$ such that
+Let $X$ be a [[topological space]]. A (point finite) **partition of unity** on $X$ is a collection $\{u_j\}_J$ of [[continuous function]]s $u_j:X \to [0,1]$, $j\in J$ such that
 
  1. $\sum_J u_j(x) = 1$ for all $x\in X$
  2. For each $x\in X$, there is only a finite number of $j\in J$ such that $u_j(x) \neq 0$ (point finiteness condition).
