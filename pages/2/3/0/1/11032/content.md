@@ -29,7 +29,7 @@ $$Tr_{A,B}^X : C(A \otimes X, B\otimes X) \to C(A,B)$$
 
 satisfying three axioms:
 
-* **Vanishing:** $Tr_{A,B}^1(f) = f$ (for all $f : A \to B$) and $Tr_{A,B}^{X\otimes Y} = Tr_{A,B}^X(Tr_{A\otimes X,B\otimes X}^Y(f))$ (for all $f : A \otimes X \otimes Y \to B \otimes X \otimes Y$)
+* **Vanishing:** $Tr_{A,B}^1(f) = f$ (for all $f : A \to B$) and $Tr_{A,B}^{X\otimes Y}(f) = Tr_{A,B}^X(Tr_{A\otimes X,B\otimes X}^Y(f))$ (for all $f : A \otimes X \otimes Y \to B \otimes X \otimes Y$)
 
 * **Superposing:** $Tr_{C\otimes A,C\otimes B}^X(id_C \otimes f) = id_C \otimes Tr_{A,B}^X(f)$ (for all $f : A \otimes X \to B \otimes X$)
 
