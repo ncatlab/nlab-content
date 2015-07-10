@@ -269,5 +269,5 @@ The categorical semantics of [[higher inductive types]] can be described using c
 
 ## References
 
-* [[Max Kelly]], "A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on."  Bull. Austral. Math. Soc. 22 (1980), 1--83.
+* [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
  {#Kelly}
