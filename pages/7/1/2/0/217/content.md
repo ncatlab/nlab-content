@@ -27,7 +27,7 @@ The theory intends to capture in an invariant way the notion of a (constant) _'a
 
 [^dedekind]: [[Richard Dedekind| R. Dedekind's]] views are also anticipating 'abstract sets' e.g. Bernstein reports in Dedekind's works vol.3 (1932, p.449) that Dedekind gave as his intuition of a set: "a closed bag, containing determinate things that one can not see and of which one knows nothing beyond their existence and determinateness".
 
-[^Law]: For a careful comparative discussion of its virtues as foundation see [[foundations of mathematics]] or the [texts by Todd Trimble](#ExpositionByTrimble) referred to below.
+[^Law]: For a comparative discussion of its virtues as foundation see [[foundations of mathematics]] , the [texts by Todd Trimble](#ExpositionByTrimble) or the informative paper by [McLarty (2004)](#McLarty04).
 
 More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The theory omits the [[axiom of replacement]], however.
 
@@ -97,7 +97,7 @@ The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETC
 
 ETCS grew out of Lawvere's experiences of teaching undergraduate foundations of analysis at Reed college in 1963 and was originally published in 
 
-* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
+* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_ , Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
 A more or less contemporary review is
 
@@ -105,7 +105,7 @@ A more or less contemporary review is
 
 A longer version of Lawvere's 1965 paper appears in
 
-* [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories **11** (2005) pp. 1-35. ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
+* [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_ , Reprints in Theory and Applications of Categories **11** (2005) pp. 1-35. ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
 An undergraduate set-theory textbook using it is
 
@@ -125,11 +125,11 @@ On the anticipation of 'abstract sets' in [[Georg Cantor|Cantor]]:
 
 A short overview article on ETCS:
 
-* Tom Leinster, _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543)
+* Tom Leinster, _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543).
 
 An extended discussion from a philosophical perspective is in
 
-* [[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) pp.37-53.
+* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) pp.37-53.
 
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
@@ -143,9 +143,9 @@ For the relation between the theory of well-pointed toposes and **weak Zermelo s
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (sections 9.2-3)
 
-* [[Barry Mitchell]], _Boolean Topoi and the Theory of Sets_ , JPAA **2** (1972) pp.261-274.
+* [[Barry Mitchell]], _Boolean Topoi and the Theory of Sets_ ,  JPAA **2** (1972) pp.261-274.
 
-* [[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ , JPAA **4** (1974) pp.79-119.
+* [[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ ,  JPAA **4** (1974) pp.79-119.
 
 
 [[!redirects ETCS]]
