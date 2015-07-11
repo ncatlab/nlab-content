@@ -29,7 +29,9 @@ and since the basic opens $\mathcal{V}_A = \{U' \in \beta X: A \in U'\}$ with $A
 
 $$colim_{A \in U} \prod_{x \in A} Y_x$$ 
 
-and this is the *ultraproduct*, often written as $\prod_{x \in X} Y_x/U$. When all the fibers $Y_x$ are the same set $Z$, this is written as $Z^X/U$ and called an *ultrapower* of $Z$. 
+and this is the *ultraproduct*, often written as $\prod_{x \in X} Y_x/U$.[^note] When all the fibers $Y_x$ are the same set $Z$, this is written as $Z^X/U$ and called an *ultrapower* of $Z$. 
+
+[^note]: The quotient notation is traditional but (ever so slightly) misleading. If all the $Y_x$ are [[inhabited sets]], then all the maps $\prod_{x \in A} Y_x \to \prod_{x \in B} Y_x$ ($B \subseteq A$) are quotient maps and the ultraproduct is a quotient of the full product $\prod_{x \in X} Y_x$; there the notation is apt. If one of the $Y_x$ is empty, then the full product is empty and thus the ultraproduct is not such a quotient. But it is useful to allow for empty models (when they exist)! The correct definition which works for all cases is as we have it: a filtered colimit over restricted products. 
 
 ### Ultraproducts of structures 
 
