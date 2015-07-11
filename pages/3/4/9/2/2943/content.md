@@ -48,10 +48,12 @@ as well as in
 See also
 
 * wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
+
 * Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
+
 * A. Bravetti, C. S. Lopez-Monsalvo, F. Nettel, _Contact symmetries and Hamiltonian thermodynamics_, [arxiv/1409.7340](http://arxiv.org/abs/1409.7340)
 
-For an elementary but thorough introduction, focussed on avoiding common misconceptions:
+For an thorough introduction to common misconceptions at an elementary level:
 
 * John Denker. _Modern Thermodynamics_. [web](http://www.av8n.com/physics/thermo), [pdf](http://www.av8n.com/physics/thermo-laws.pdf).
 
@@ -60,6 +62,7 @@ A survey of [[irreversible thermodynamics]] is in
 * Ivan Vavruch, _Conceptual problems of modern irreversible thermodynamics_, Chem. Listy 96 (2002) ([pdf](http://www.chemicke-listy.cz/docs/full/2002_05_01.pdf))
 
 For more on this see also _[[rational thermodynamics]]_.
+
 
 ### Generalizations 
 
