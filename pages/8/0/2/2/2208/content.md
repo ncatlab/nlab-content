@@ -1,12 +1,16 @@
 ## Idea 
 
-An ultraproduct is a set-theoretic construction, used especially in [[model theory]], to produce a new structure from an infinite family of structures. It is used especially to witness the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by some member of the family. Then an ultraproduct of those structures may be used to model the entire set $S$. 
+An ultraproduct is a set-theoretic construction, used especially in [[model theory]], to produce a new structure from an infinite family of structures. It is used especially to witness the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$. 
 
-In slightly greater detail, given a family of [[structures]] of the same signature in the sense of [[model theory]] (or more specially, [[universal algebra]]), one can (assuming the [[ultrafilter principle]], a weak form of the [[axiom of choice]]) use [[ultrafilters]] to form a certain [[congruence]] on the [[direct product]] and construct a [[quotient object]], a new structure of the same signature, called an __ultraproduct__. An ultraproduct of some number of copies of the same structure may be called an __ultrapower__.
+In slightly greater detail, given a family of [[structures]] of the same signature in the sense of [[model theory]] (or more specially, [[universal algebra]]), one can (assuming the [[ultrafilter principle]], a weak form of the [[axiom of choice]]) use [[ultrafilters]] to form a certain [[congruence]] on the [[direct product]] and construct a [[quotient object]], a new structure of the same signature, called an __ultraproduct__. As long as the ultrafilter is [[free ultrafilter|free]] (contains the filter of cofinite subsets), the last sentence of the preceding paragraph is validated. 
+
+An ultraproduct of some number of copies of the same structure may be called an __ultrapower__.
 
 ## Definition 
 
 First we present the bare-bones set-theoretic construction; then we discuss structures and models. 
+
+### Set-theoretic 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -27,11 +31,21 @@ $$colim_{A \in U} \prod_{x \in A} Y_x$$
 
 and this is the *ultraproduct*, often written as $\prod_{x \in X} Y_x/U$. When all the fibers $Y_x$ are the same set $Z$, this is written as $Z^X/U$ and called an *ultrapower* of $Z$. 
 
-Now suppose each $Y_x$ carries a structure specified by a [[signature (in logic)|signature]]; in other words, for each function symbol $f$ and predicate symbol $R$ there are specified operations and subsets 
+### Ultraproducts of structures 
+
+Now suppose each $Y_x$ carries a structure specified by a [[signature (in logic)|signature]]; in other words, for each function symbol $f$ and predicate symbol $R$ of the signature there are specified operations and subsets 
 
 $$\omega_f: Y_x^{ar(f)} \to Y_x, \qquad \rho_R \rightarrowtail Y_x^{ar(R)}$$ 
 
-where $ar$ denotes arity (constants being considered function symbols of arity zero). Then of course the products $\prod_{a \in A} Y_x$ carry structures canonically induced from those on the $Y_x$. As all of the function symbols $f$ and predicate symbols $R$ have finite arity, and since the taking of filtered colimits commutes with finite limits in $Set$, we get a canonically induced structure on the ultraproduct $\prod_{x \in X} Y_x/U$. More briefly: since $U^\ast i_\ast$ preserves finite limits, it takes finitary structures $Y_x$ in $Set/X$ to a finitary structure of the same type in $Set$. 
+where $ar$ denotes arity (constants being considered function symbols of arity zero). Then of course the products $\prod_{a \in A} Y_x$ carry structures canonically induced from those on the $Y_x$. As all of the function symbols $f$ and predicate symbols $R$ have finite arity, and since the taking of filtered colimits commutes with finite limits in $Set$, we get a canonically induced structure on the ultraproduct $\prod_{x \in X} Y_x/U$. More briefly: since $U^\ast i_\ast$ preserves finite limits, it takes an $X$-indexed finitary structure $Y_x$ in $Set/X$ to a finitary structure of the same type in $Set$. 
+
+Intuitively (and adopting language used by Lawvere), what is going on is that we have a variable structure varying over some domain $X$, and we consider a point $U$ of its compactification $\beta X$ as some kind of "ideal point at infinity", and then we "freeze" (or localize) the variation by passing to germs of the variation at that point $U$. 
+
+Notice that if we replace the word "ultrafilter" by the word "filter", the general structural facts mentioned here would remain true. That is to say: if $F$ is a filter consisting of subsets of $X$, then the colimit $colim_{A \in F} \prod_{x \in A}$ (with such $A$ ordered by reverse inclusion) is still directed or filtered, and we would still get a structure of given finitary type by passing to the colimit. Here, instead of ultrapowers and ultraproducts, one speaks of *reduced powers* and *reduced products*. 
+
+### Ultraproducts of models 
+
+To be written. 
 
 ## Examples 
 
@@ -47,3 +61,7 @@ From Michael Barr's [Models of Sketches](http://archive.numdam.org/ARCHIVE/CTGDC
 [[!redirects ultraproducts]]
 [[!redirects ultrapower]]
 [[!redirects ultrapowers]]
+[[!redirects reduced product]] 
+[[!redirects reduced power]] 
+[[!redirects reduced products]] 
+[[!redirects reduced powers]] 
