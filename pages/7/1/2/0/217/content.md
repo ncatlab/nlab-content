@@ -33,6 +33,8 @@ More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary topos
 
 The idea is, first of all, that much of traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos of _constant_ sets, and second that this perspective generalizes beyond ETCS proper to toposes of _variable_ and _cohesive_ sets by varying the axioms: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
 
+That is, ETCS locates the category of sets by the well-pointedness axiom as the discrete zero point on a 'continuous' range of toposes eligible for foundations. In particular, whereas ZF mainly provides 'substance' for mathematics, ETCS lives as a special type of form within the continuum of mathematical form itself.
+
 ## Definition
 
 The axioms of ETCS can be summed up in one sentence as:
@@ -124,6 +126,10 @@ On the anticipation of 'abstract sets' in [[Georg Cantor|Cantor]]:
 A short overview article on ETCS:
 
 * Tom Leinster, _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543)
+
+An extended discussion from a philosophical perspective is in
+
+* [[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) pp.37-53.
 
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
