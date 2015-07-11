@@ -47,3 +47,9 @@ The decision to freely adjoin a _bottom_ element $e$ is of course purely a conve
 if $L$ is linearly ordered and the underlying set $C = L^\mathbb{N}$ is regarded as the [[terminal coalgebra]] for the functor $L \times - \colon Set \to Set$, with coalgebra structure $\langle h, t \rangle \colon C \to L \times C$, then the lexicographic order on $C$ may be defined [[corecursion|corecursively]]: 
 
 * $c \lt c'$ if $h(c) \lt h(c')$ or ($h(c) = h(c')$ and $t(c) \lt t(c')$). 
+
+For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathbb{N}$ with this lexicographic order is order-isomorphic to the real interval $[0, \infty)$. This isomorphism is described more precisely [here](/nlab/show/continued+fraction#PavPratt). 
+
+[[!redirects lexicographic ordering]] 
+[[!redirects dictionary order]] 
+[[!redirects dictionary ordering]] 
