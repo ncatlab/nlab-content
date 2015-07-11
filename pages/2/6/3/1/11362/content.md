@@ -240,7 +240,7 @@ $$\xi: \mathbb{R}_{\geq 1} \to \mathbb{N}_{\geq 2} \times \mathbb{R}_{\geq 1}$$
 
 where $\xi(x) = (\beta(x), -\frac1{x - \beta(x)})$. 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #PavPratt} 
 ###### Theorem 
 **([Pavlovic-Pratt](#PP))** 
 The map $\xi$ defines a $G$-coalgebra structure $\xi: \mathbb{R}_{\geq 1} \to G(\mathbb{R}_{\geq 1})$, making $\mathbb{R}_{\geq 1}$ the terminal $G$-coalgebra. 
