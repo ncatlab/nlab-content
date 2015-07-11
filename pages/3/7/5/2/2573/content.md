@@ -6,7 +6,7 @@
 
 >_Zwei &#228;quivalente Vielheiten sind entweder beide 'Mengen' oder beide inkonsistent._ [[Georg Cantor]] (1899)[^Cant]
 
-[^Cant]: _'Two equivalent multiplicities either are both "sets" or are both inconsistent'_, letter to Dedekind from 28th July 1899 ([Cantor 1932](#Cantor99), p.444). This is suggested as an early formulation of the axiom of replacement by van Heijenoort (1967, p.113).
+[^Cant]: _'Two equivalent multiplicities either are both "sets" or are both inconsistent'_, letter to Dedekind from 28th July 1899 ([Cantor 1932](#Cantor99), p.444). This is suggested as an early formulation of the axiom of replacement by van Heijenoort (1967, p.113). A categorical formalization of Cantor's idea as an extension for [[ETCS]] is given in [McLarty (2004)](#McLarty).
 
 **Axioms of collection** and replacement are axiom schemata in [[set theory]] that permit to construct new sets from other already given sets thereby contributing substantially to the size of the set-theoretic universe and hence are seen as 'strong' axioms.
 
@@ -18,7 +18,7 @@ The resulting expansiveness of the set-theoretic universe is somewhat peripheral
 
 [^bellmach]: See [Bell-Machover 1977](#BellMach77), p.495.
 
-[^etcs]: It is possible, however, to augment a categorical set theory with a version of replacement if necessary as shown in ([Osius 1974](#Osius74), section 9) resulting in a system with the full strength of ZF.
+[^etcs]: It is possible, however, to augment a categorical set theory with a version of replacement if necessary as shown in ([Osius 1974](#Osius74), section 9) resulting in a system with the full strength of ZF. According to [McLarty (2004)](#McLarty04), Osius' ideas go back to discussions between Lawvere and the Berkeley logicians on reflection principles in 1963. McLarty's paper proposes another equivalent way to flesh out replacement categorically!
 
 Axioms of replacement and collection become useful, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before:
 
@@ -57,7 +57,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 ## References
 
-* MO-discussion: _Who needs Replacement anyway ?_ . ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
+* MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
 
 * {#BellMach77}[[John Bell|J. L. Bell]], M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (ch. 10,&#167;5)
 
@@ -72,6 +72,8 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 * {#Lawvere76}[[F. William Lawvere]], _Variable Quantities and Variable Structures in Topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory: a Collection of Papers in Honor of Samuel Eilenberg_ , Academic Press New York 1976.
 
 * {#Lawvere00}[[F. William Lawvere]], _Comments on the development of topos theory_ , pp.715-734 in Pier (ed.),  _Development of Mathematics 1950 - 2000_ , Birkh&#228;user Basel 2000. ([tac reprint](http://www.tac.mta.ca/tac/reprints/articles/24/tr24abs.html))
+
+* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations , Phil. Math. **12** no.3 (2004) pp.37-53.
 
 * {#Osius74}[[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ , JPAA **4** (1974) pp.79-119.
 
