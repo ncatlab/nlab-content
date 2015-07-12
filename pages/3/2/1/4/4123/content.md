@@ -66,10 +66,25 @@ This statement implies that in the [[cohesive (∞,1)-topos]] [[ETop∞Grpd]] th
 
 ## References
 
-The nerve theorem is usually attributed to
+Some earlier references on the nerve theorem include
 
-* [[K. Borsuk]], _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math 35, (1948) 217-234
+* [[K. Borsuk]], _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math. 35, (1948) 217&#8211;234
 {#Borsuk}
+
+* [[Jean Leray]], _L'anneau spectral et l'anneau filtr&#233; d'homologie d'un espace localement compact et d'une application continue_, J. Math. Pures Appl. (9) 29 (1950), 1&#8211;139.
+
+* [[André Weil]], _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145.
+(See &#167;6.)
+
+* [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708.
+
+* [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112.  (See &#167;4.)
+
+A version for hypercovers is discussed in
+
+* [[Daniel Dugger]], [[Daniel C. Isaksen]],
+_Topological hypercovers and A^1-realizations_,
+Math. Z. 246 (2004), no. 4, 667&#8211;689.
 
 A review appears as corollary 4G.3 in the textbook
 
@@ -81,4 +96,3 @@ Some slightly stronger statements are discussed in
 * Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_ , Journal of combinatorial theory, series A, 102 (2003), 88-93
 
 * Andrzej Nag&#243;rko, _Carrier and nerve theorems in the extension theory_ Proc. Amer. Math. Soc.  135  (2007), 551-558.  ([web](http://www.ams.org/journals/proc/2007-135-02/S0002-9939-06-08477-2/home.html))
-
