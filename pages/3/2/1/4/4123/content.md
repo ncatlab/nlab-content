@@ -83,7 +83,7 @@ Some earlier references on the nerve theorem include
 A version for hypercovers is discussed in
 
 * [[Daniel Dugger]], [[Daniel C. Isaksen]],
-_Topological hypercovers and A^1-realizations_,
+_Topological hypercovers and $\mathbb{A}^1$-realizations_,
 Math. Z. 246 (2004), no. 4, 667&#8211;689.
 
 A review appears as corollary 4G.3 in the textbook
