@@ -90,7 +90,9 @@ The notion was introduced in
 
 The relation to [[canonical extension]] is made explicit in 
 
-* Dion Coumans, _Generalizing canonical extensions to the categorical setting_, [pdf](http://www.math.ru.nl/~coumans/Generalisingcanonicalextensiontothecategoricalsetting-DionCoumans-vs2.pdf), to appear in Annals of Pure and Applied Logic  {#Coumans}
+* Dion Coumans, _Generalizing canonical extensions to the categorical setting_, Annals of Pure and Applied Logic
+December 2012, Vol.163(12):1940&#8211;1961  doi:[10.1016/j.apal.2012.07.002](http://dx.doi.org/10.1016/j.apal.2012.07.002), [pdf](http://www.math.ru.nl/~coumans/Generalisingcanonicalextensiontothecategoricalsetting-DionCoumans-vs2.pdf)
+{#Coumans}
 
 [[!redirects toposes of types]]
 [[!redirects topoi of types]]
