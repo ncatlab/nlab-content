@@ -57,7 +57,45 @@ From Michael Barr's [Models of Sketches](http://archive.numdam.org/ARCHIVE/CTGDC
 
 >Unlike [[limits]] and [[colimits]], an ultraproduct is not defined by any [[universal mapping property]]. Of course, if the category has limits and ([[filtered colimit|filtered]]) colimits, then it has ultraproducts constructed as colimits of [[products]] ... But usually the category of models of a [[coherent theory]] (such as the theory of [[discrete field|fields]]) lacks products and  hence does not have categorical ultraproducts.
 
-* [[M. Makkai]], _Ultraproducts and categorical logic_, Lectures Notes in Math. __1130__, Springer 1985, pp. 222&#8211;309
+## Related entries
+
+* [[model theory]]
+
+* [[ultrafilter monad]]
+
+## References
+
+Standard references in model theory for ultra products are
+
+* [[John Bell|J. L. Bell]], A. B. Slomson, _Models and Ultraproducts: An Introduction_ , North-Holland Amsterdam 1969. (Dover reprint)
+
+* P. C. Eklof, _Ultraproducts for Algebraists_ , pp.105-137 in Barwise (ed.), _Handbook of Mathematical Logic_ , Elsevier Amsterdam 1977.
+
+The categorical perspective on ultraproducts goes back to
+
+* T. Okhuma, _Ultrapowers in categories_ , Yokohama Math. J. **14** (1966) pp.17-37.
+
+* S. Fakir, L. Haddad, _Objets coh&#233;rents et ultraproduits dans les cat&#233;gories_  , Journal
+of Algebra **21** (1972) pp.410&#8211;421.
+
+For the vacuum engineering point of view of 'freezing variation' [^cont] in the context of non-standard analysis see
+
+* [[F. William Lawvere]], _Variable sets etendu and variable structure in topoi_ , Lecture notes University of Chicago 1975.
+
+[^cont]: This perspective was apparently inspired by joined work with [[Miles Tierney]] on the use of [[forcing]] in the context of the [[continuum hypothesis]] in early tops theory.
+
+The following papers are relevant for understanding the ultraproduct construction via  [[codensity monad|codensity monads]]:
+
+* D. P. Ellerman, _Sheaves of structures and generalized ultraproducts_ , Annals of
+Mathematical Logic **7** (1974) pp.163&#8211;195.
+
+* J. F. Kennison, _Triples and compact sheaf representation_ ,  JPAA **20** (1981) pp.13-38.
+
+* [[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **28** no. 13 (2013) pp.332-370. ([tac](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html))
+
+See also
+
+* [[M. Makkai]], _Ultraproducts and categorical logic_ , Lectures Notes in Math. __1130__, Springer 1985, pp. 222&#8211;309
 
 [[!redirects ultraproduct]]
 [[!redirects ultraproducts]]
