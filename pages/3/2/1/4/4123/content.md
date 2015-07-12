@@ -80,6 +80,11 @@ Some earlier references on the nerve theorem include
 
 * [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112.  (See &#167;4.)
 
+* [[Armand Borel]] and [[Jean-Pierre Serre]],
+_Corners and arithmetic groups_,
+Comment. Math. Helv. 48 (1973), 436&#8211;491.
+(See Theorem&#160;8.2.1.)
+
 A version for hypercovers is discussed in
 
 * [[Daniel Dugger]], [[Daniel C. Isaksen]],
