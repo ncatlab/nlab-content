@@ -1,10 +1,16 @@
 ## Idea 
 
-An ultraproduct is a set-theoretic construction, used especially in [[model theory]], to produce a new structure from an infinite family of structures. It is used especially to witness the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$. 
+The **ultraproduct** construction is an important tool in [[model theory]] that permits to produce a new structure from an infinite family of structures. The construction has a decidedly 'algebraic' flavor and hence occurs naturally in applications of model theory to [[algebra]].
+
+It is closely related via the [[?o? ultraproduct theorem]] to the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$.[^compact] 
+
+[^compact]: Due to the outstanding importance of the compactness theorem, it is possible to prove 'almost all' results in model theory by the use of ultra products. This approach to model theory is pursued in [Bell-Slomson (1969)](#BellSlomson). For contrast, compare with the more sober view of [Hodges (1993)](#Hodges93).
 
 In slightly greater detail, given a family of [[structures]] of the same signature in the sense of [[model theory]] (or more specially, [[universal algebra]]), one can (assuming the [[ultrafilter principle]], a weak form of the [[axiom of choice]]) use [[ultrafilters]] to form a certain [[congruence]] on the [[direct product]] and construct a [[quotient object]], a new structure of the same signature, called an __ultraproduct__. As long as the ultrafilter is [[free ultrafilter|free]] (contains the filter of cofinite subsets), the last sentence of the preceding paragraph is validated. 
 
-An ultraproduct of some number of copies of the same structure may be called an __ultrapower__.
+An ultraproduct of some number of copies of the same structure is called an __ultrapower__.
+
+Another important facet, somewhat reminiscent of [[Morita equivalence]], is the [[Keisler-Shelah theorem]]: Two structures are elementary equivalent $\mathfrak{A}\equiv\mathfrak{B}$ iff they have isomorphic ultrapowers: $\mathfrak{A}^I / \mathcal{U} \cong \mathfrak{B}^I / \mathcal{U}$ for some set $I$ and ultrafilter $\mathcal{U}$.
 
 ## Definition 
 
@@ -63,13 +69,19 @@ From Michael Barr's [Models of Sketches](http://archive.numdam.org/ARCHIVE/CTGDC
 
 * [[ultrafilter monad]]
 
+* [[large cardinal]]
+
 ## References
 
 Standard references in model theory for ultra products are
 
-* [[John Bell|J. L. Bell]], A. B. Slomson, _Models and Ultraproducts: An Introduction_ , North-Holland Amsterdam 1969. (Dover reprint)
+* {#BellSlomson}[[John Bell|J. L. Bell]], A. B. Slomson, _Models and Ultraproducts: An Introduction_ , North-Holland Amsterdam 1969. (Dover reprint)
 
 * P. C. Eklof, _Ultraproducts for Algebraists_ , pp.105-137 in Barwise (ed.), _Handbook of Mathematical Logic_ , Elsevier Amsterdam 1977.
+
+For a more recent textbook treatment:
+
+* {#Hodges93} [[Wilfrid Hodges]], _Model Theory_ , Cambridge University Press 1993. (sec. 9.5)
 
 The categorical perspective on ultraproducts goes back to
 
@@ -82,7 +94,7 @@ For the vacuum engineering point of view of 'freezing variation' [^cont] in the 
 
 * [[F. William Lawvere]], _Variable sets etendu and variable structure in topoi_ , Lecture notes University of Chicago 1975.
 
-[^cont]: This perspective was apparently inspired by joined work with [[Miles Tierney]] on the use of [[forcing]] in the context of the [[continuum hypothesis]] in early tops theory.
+[^cont]: This perspective was apparently inspired by joined work with [[Miles Tierney]] on the use of [[forcing]] in the context of the [[continuum hypothesis]] in early topos theory.
 
 The following papers are relevant for understanding the ultraproduct construction via  [[codensity monad|codensity monads]]:
 
