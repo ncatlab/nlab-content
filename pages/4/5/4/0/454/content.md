@@ -24,6 +24,7 @@
 A **lattice** is a [[partial order|poset]] which admits all finite [[meets]] and finite [[joins]] (or all finite [[products]] and finite [[coproducts]], regarding a poset as a [[category]] (a [[(0,1)-category]])).
 
 A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the constants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', '[[top]]', and '[[bottom]]'.) Here are the axioms for these operations:
+
 * $\wedge$ and $\vee$ are each idempotent, commutative, and associative, with respective [[identity element|identities]] $\top$ and $\bot$;
 * the _absorption laws_: $a \vee (a \wedge b) = a$, and $a \wedge (a \vee b) = a$.
 
