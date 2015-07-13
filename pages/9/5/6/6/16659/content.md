@@ -21,11 +21,13 @@
 
 Given a [[higher-order logic|higher-order]] [[intuitionistic type theory]] $\mathfrak{L}$, it is possible to construct a [[topos]] $T(\mathfrak{L})$ out of the [[syntax]] of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1, $N$, and $\Omega$ lacking relations beyond the bare necessities.
 
-As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the category of toposes and [[logical morphisms]] and is, therefore, also known as the **initial topos**.
+As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the category of toposes and [[logical morphisms]] and is, therefore, also known as the **initial topos**[^sga4].
+
+[^sga4]: This is not to be confounded with the gadget of the same name in [[SGA4]] (1972, p.313) i.e. the topos $sh(\emptyset)$ of sheaves on the empty topological space aka the one point category, also called the _empty topos_ there. In this context the appropriate maps are [[geometric morphisms]].
 
 ## Properties
  
-The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by [[proof theory|proof-theoretic]] means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits to give conceptual proofs of their findings. The following lemma and proposition is an amplification of his ideas.
+The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by [[proof theory|proof-theoretic]] means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits to give conceptual proofs of their findings. The following lemma and proposition is a replication of his ideas.
 
 +-- {: .num_lemma}
 ###### Lemma 
@@ -118,3 +120,5 @@ For J. Lambek's views on the role of the free topos in [[foundations of mathemat
 * {#LambekWorld}[[Jim Lambek]], _What is the world of mathematics?_ , APAL **126** (2004) pp.149-158. ([draft](http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf))
 
 * {#LS11} [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) 
+
+[[!redirects initial topos]]
