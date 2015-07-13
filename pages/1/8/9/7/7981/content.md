@@ -18,10 +18,10 @@ The state $\rho$ is __pure__ if, whenever (eq:combo) holds for $\sigma \neq \tau
 
 Really, this definition makes sense as long as the states form a [[convex space]].
 
-To define when one state gives at least as much information as another (the [[partial order]] from the Idea section), let $\rho \leq \sigma$ mean that the [[mutual information]] $I(\rho,\sigma)$ equals the [[entropy]] $H(\rho)$, or equivalently that the conditional entropy $H(\rho|\sigma)$ is zero.  (In the classical case, this partial order is attributed to [Shannon (1953)](#Shannon1953), which I have not read, by [Li & Chong (2011)](#LiChong2011), which I have only skimmed.)  The [[maximal elements]] under this partial order should be precisely the pure states, but the direct definition of pure states is much simpler.
+To define when one state gives at least as much information as another (the [[partial order]] from the Idea section), let $\rho \leq \sigma$ mean that the [[mutual information]] $I(\rho,\sigma)$ equals the [[entropy]] $H(\rho)$, or equivalently that the [[conditional entropy]] $H(\rho|\sigma)$ is zero.  (In the classical case, this partial order is attributed to [Shannon (1953)](#Shannon1953), which I have not read, by [Li & Chong (2011)](#LiChong2011), which I have only skimmed.)  The [[maximal elements]] under this partial order should be precisely the pure states, but the direct definition of pure states is much simpler.
 
 +-- {: .query}
-I need to check this claim.  &#8212;Toby
+I need to check whether these are equivalent on any $C^*$-algebra.  &#8212;Toby
 =--
 
 
@@ -51,5 +51,6 @@ Not really references on this subject, but ones referred to in the text:
 
 [[!redirects pure state]]
 [[!redirects pure states]]
+
 [[!redirects mixed state]]
 [[!redirects mixed states]]
