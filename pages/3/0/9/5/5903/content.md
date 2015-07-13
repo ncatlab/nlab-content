@@ -234,6 +234,8 @@ In each of these cases, the [[category of sheaves]] on the syntactic site is the
 
 * More or less the same concept is that of _[[term model]]_.
 
+* [[free topos]]
+
 ## References
 
 Sections D4.1 and D4.4 of 
