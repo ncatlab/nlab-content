@@ -78,13 +78,13 @@ The group of units of the [[ring of adeles]] $\mathbb{A}$ is the [[group of idel
 
 +-- {: .num_example} 
 ###### Example 
-The group of units of the $p$-adic integers $\mathbb{Z}_p$ fits in an exact sequence 
+The group of units of the $p$-adic integers $\mathbb{Z}_p$ fits in an [[exact sequence]] 
 
 $$1 \to 1 + p \mathbb{Z}_p \hookrightarrow \mathbb{Z}_p^\times \to (\mathbb{Z}/(p))^\times \to 1$$ 
 
-where the quotient is isomorphic to the cyclic group $\mathbb{Z}/(p-1)$ and the kernel is, at least when $p \gt 2$, isomorphic to the *additive group* $\mathbb{Z}_p$. Explicitly, for such $p$ the formal [[exponential map]] $\exp(x) = \sum_{n \geq 0} \frac{x^n}{n!}$ converges when $x \in p \mathbb{Z}_p$ and maps $p \mathbb{Z}_p$ isomorphically onto the multiplicative group $1 + p \mathbb{Z}_p$. The formal logarithm $\log(x) = \sum_{n \geq 0} \frac{(-1)^n (x - 1)^n}{n}$ is also convergent for $x \in 1 + p \mathbb{Z}_p$ and provides the inverse. 
+where the [[quotient]] is isomorphic to the [[cyclic group]] $\mathbb{Z}/(p-1)$ (see [[root of unity]]) and the [[kernel]] is, at least when $p \gt 2$, isomorphic to the *additive group* $\mathbb{Z}_p$. Explicitly, for such $p$ the formal [[exponential map]] $\exp(x) = \sum_{n \geq 0} \frac{x^n}{n!}$ converges when $x \in p \mathbb{Z}_p$ and maps $p \mathbb{Z}_p$ isomorphically onto the multiplicative group $1 + p \mathbb{Z}_p$. The formal logarithm $\log(x) = \sum_{n \geq 1} \frac{(-1)^{n-1} (x - 1)^n}{n}$ is also [[convergence|convergent]] for $x \in 1 + p \mathbb{Z}_p$ and provides the [[inverse]]. 
 
-By [[Henselian ring|Hensel's lemma]], the group of units $\mathbb{Z}_p^\times$ has $(p-1)^{th}$ [[roots of unity]] and therefore the exact sequence above splits. This splitting descends to the quotient ring $\mathbb{Z}/(p^n)$ and its group of units, giving an isomorphism $GL_1(\mathbb{Z}/(p^n)) \cong \mathbb{Z}/(p^{n-1}) \oplus \mathbb{Z}/(p-1)$. 
+By [[Henselian ring|Hensel's lemma]], the group of units $\mathbb{Z}_p^\times$ has $(p-1)^{th}$ [[roots of unity]] and therefore the exact sequence above [[split exact sequence|splits]]. This splitting descends to the quotient ring $\mathbb{Z}/(p^n)$ and its group of units, giving an isomorphism $GL_1(\mathbb{Z}/(p^n)) \cong \mathbb{Z}/(p^{n-1}) \oplus \mathbb{Z}/(p-1)$. 
 =-- 
 
 
