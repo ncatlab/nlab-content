@@ -87,11 +87,11 @@ For the first direction, Theorem \ref{Presentations} says in particular that eve
 
 This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]], which should in addition possess [[univalence|univalent universes]]. See also _[[internal logic of an (∞,1)-topos]]_.
 
-An explicit statement in the second direction was conjectured in ([Joyal 2011](#Joyal11)), and established in [[Chris Kapulkin]]'s PhD thesis (see [Kapulkin 14](#Kapulkin14)): 
+An explicit statement in the second direction was conjectured in ([Joyal 2011](#Joyal11)), and established in [[Chris Kapulkin]]'s PhD thesis (see [Kapulkin 14](#Kapulkin14), [Kapulkin 15](#Kapulkin15)): 
 
 +-- {: .num_theorem }
 ###### Theorem
-**(Kapulkin)** If **T** is any dependent type theory with (at least) $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types, then the simplicial localisation of its classifying category $\mathrm{Cl}(\mathbf{T})$ is a locally cartesian closed $(\infty,1)$-category.
+**(Kapulkin)** If **T** is any dependent type theory with (at least) $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types, then the simplicial localisation of its [[syntactic category|classifying category]] $\mathrm{Cl}(\mathbf{T})$ is a locally cartesian closed $(\infty,1)$-category.
 
 =--
 
@@ -132,6 +132,8 @@ For more on this see also the relevant sections at _[[relation between type theo
 Discussion of the converse direction, obtaining locally cartesian closed $(\infty,1)$-categories as [[syntactic categories]] of [[homotopy type theory|homotopy type theories]] is in 
 
 * {#Kapulkin14} [[Chris Kapulkin]], _Type theory and locally cartesian closed quasicategories_, Oxford 2014 ([video](https://www.youtube.com/watch?v=g87bZJ2bvYk))
+
+* {#Kapulkin15} [[Chris Kapulkin]], _Locally Cartesian Closed Quasicategories from Type Theory_ ([arXiv:1507.02648](http://arxiv.org/abs/1507.02648))
 
 A discussion of object classifiers, univalent families, and model category presentations is the context of $(\infty,1)$-categories (and hence in categorical semantics for what should be homotopy type theory with univalent universes "weakly a la Tarski") appeared also in
 
