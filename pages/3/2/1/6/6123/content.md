@@ -24,6 +24,7 @@
 
 For $R$ a [[ring]], its _group of units_, denoted $R^\times$ or $GL_1(R)$, is the [[group]] whose elements are the elements of $R$ that are invertible under the product, and whose group operation is the multiplication in $R$.
 
+In a general category with [[finite limits]], with $R$ a ring object therein, the group of units is correctly defined as the [[equalizer]] of the two maps $m, c_1: R \times R \to R$, where $m$ is the ring multiplication and $c_1$ is the [[constant map]] with value the multiplicative identity. Cf. Example \ref{idele} below. 
 =--
 
 ## Properties
@@ -63,12 +64,24 @@ between the [[category]] of [[associative algebras]] over $R$ and that of [[grou
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #idele}
 ###### Example
 
-The group of units of the [[ring of adeles]] is the [[group of ideles]].
+The group of units of the [[ring of adeles]] is the [[group of ideles]]. (Although the topology on the idele group $\mathbb{I}$ is not the subspace topology induced from the ring of adeles $\mathbb{A}$. The correct topology is by identifying $\mathbb{I}$ with the subspace $\{(x, y) \in \mathbb{A}^2: x y = 1\}$.) 
 
 =--
+
++-- {: .num_example} 
+###### Example 
+The group of units of the $p$-adic integers $\mathbb{Z}_p$ fits in an exact sequence 
+
+$$1 \to 1 + p \mathbb{Z}_p \hookrightarrow \mathbb{Z}_p^\times \to (\mathbb{Z}/(p))^\times \to 1$$ 
+
+where the quotient is isomorphic to the cyclic group $\mathbb{Z}/(p-1)$ and the kernel is, at least when $p \gt 2$, isomorphic to the *additive group* $\mathbb{Z}_p$. Explicitly, for such $p$ the formal [[exponential map]] $\exp(x) = \sum_{n \geq 0} \frac{x^n}{n!}$ converges when $x \in p \mathbb{Z}_p$ and maps $p \mathbb{Z}_p$ isomorphically onto the multiplicative group $1 + p \mathbb{Z}_p$. The formal logarithm $\log(x) = \sum_{n \geq 0} \frac{(-1)^n (x - 1)^n}{n}$ is also convergent for $x \in 1 + p \mathbb{Z}_p$ and provides the inverse. 
+
+By [[Henselian ring|Hensel's lemma]], the group of units $\mathbb{Z}_p^\times$ has $(p-1)^{th}$ [[roots of unity]] and therefore the exact sequence above splits. This splitting descends to the quotient ring $\mathbb{Z}/(p^n)$ and its group of units, giving an isomorphism $GL_1(\mathbb{Z}/(p^n)) \cong \mathbb{Z}/(p^{n-1}) \oplus \mathbb{Z}/(p-1)$. 
+=-- 
+
 
 
 ## Related concepts
