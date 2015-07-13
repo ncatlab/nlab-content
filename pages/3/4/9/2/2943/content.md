@@ -71,7 +71,7 @@ Some formal generalizations of thermodynamical formalism include mixing time and
 Mathematical analogies and generalizations include also 
 
 * [[John Baez]], Mike Stay, _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
-* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
+* [[M. Marcolli]], Ryan Thorngren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
 * M. Zinsmeister, _Thermodynamic formalism and holomorphic dynamical systems_, Amer. Math. Soc. 2000.
 * I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
 
