@@ -128,7 +128,7 @@ Early discussion in the context of [[homotopy type theory]] is in
  
 proposing [[homotopy type theory]] as an internal language for locally cartesian closed $\infty$-categories.
 
-[[Denis-Charles Cisinski]]'s argument in Theorem \ref{Presentations} above, that every locally presentable locally cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]], originally appeared [on the Caf&#233;](this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306)) and is mentioned in print in Examples 2.16 of 
+[[Denis-Charles Cisinski]]'s argument in Theorem \ref{Presentations} above, that every locally presentable locally cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]], originally appeared on the Caf&#233; ([this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306)) and is mentioned in print in Examples 2.16 of 
 
 * {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
