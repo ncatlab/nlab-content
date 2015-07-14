@@ -131,6 +131,10 @@ An extended discussion from a philosophical perspective is in
 
 * {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) pp.37-53.
 
+For a more recent review from a critical perspective containing additional recent references see
+
+* [[Solomon Feferman]], _Foundations of Unlimited Category Theory: What Remains to be Done_ , Review of Symbolic Logic **6** no.1 (2013) pp.6-15. ([pdf](http://math.stanford.edu/~feferman/papers/FCT-RSL-2013.pdf))
+
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
 * [[Jean-Pierre Marquis]], _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ . ([pdf-slides](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
@@ -150,5 +154,4 @@ For the relation between the theory of well-pointed toposes and **weak Zermelo s
 
 [[!redirects ETCS]]
 [[!redirects etcs]]
-
 [[!redirects elementary theory of the category of sets]]
