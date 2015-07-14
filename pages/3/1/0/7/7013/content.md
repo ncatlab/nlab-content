@@ -91,11 +91,12 @@ An explicit statement in the second direction was conjectured in ([Joyal 2011](#
 
 +-- {: .num_theorem }
 ###### Theorem
-**(Kapulkin)** If **T** is any dependent type theory with (at least) $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types, then the simplicial localisation of its [[syntactic category|classifying category]] $\mathrm{Cl}(\mathbf{T})$ is a locally cartesian closed $(\infty,1)$-category.
+**(Kapulkin)** If **T** is any [[dependent type theory]] with (at least) $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types, then the [[simplicial localisation]] of its [[syntactic category|classifying category]] $\mathrm{Cl}(\mathbf{T})$ is a locally cartesian closed $(\infty,1)$-category.
 
 =--
 
 However, this "syntactic $(\infty,1)$-category" will not in general be locally presentable, lacking appropriate colimits.  There is thus a mismatch between the two best statements we have at present, for the two directions of the internal language correspondence.  Furthermore, nothing is yet known about the *initiality* of the syntactic $(\infty,1)$-category, which is a central aspect of what it means to have an internal language.
+
 
 
 ## Related concepts
