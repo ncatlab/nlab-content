@@ -15,7 +15,7 @@
 
 ## Idea
 
-> Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del (1947, p.515)
+> Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del ([1947](#Goedel47), p.515)
 
 The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's millenium list]] of open problems in mathematics in 1900.
 
@@ -25,9 +25,9 @@ The *generalized continuum hypothesis* ($GCH$) states more generally: $\quad 2^{
 
 The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|K. Gödel]] and [[Paul J. Cohen|P. J. Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
 
-The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for further axioms of set theory.
+The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for _new axioms_ of set theory. This position has been voiced famously in [G&#246;del (1947)](#Goedel47) from a [[platonism|platonist perspective]].
 
-[[William Lawvere|W. Lawvere]] in 2003 interpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of Woodin, $CH$ is actually conjectured to be false.
+[[William Lawvere|W. Lawvere]] in 2003 interpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of _Woodin_, $CH$ is actually conjectured to be false. [[Solomon Feferman|S. Feferman]] has argued more recently that $CH$ is essentially _mathematically indefinite_ and has made notions of 'indefiniteness' explicit that indeed enable to back this point of view with technical results (cf. [Feferman (2011)](#Feferman11)).
 
 The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], Lawvere and later Scedrov. The following exposition follows this categorical  approach.
 
@@ -153,27 +153,35 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 
 * Stanford Encyclopedia of Philosophy, _[The Continuum Hypothesis](http://plato.stanford.edu/entries/continuum-hypothesis/)_
 
+* MO _Solutions to the Continuum Hypothesis_ . ([link](http://mathoverflow.net/questions/23829/solutions-to-the-continuum-hypothesis))
+
 ## References
 
 * [[John Bell|J. L. Bell]], _Set Theory - Boolean-Valued Models and Independence Proofs_ , Oxford Logic Guides **47** 3rd ed. Oxford UP 2005.
 
 * [[Alonzo Church|A. Church]], _Paul J. Cohen and the Continuum Problem_, pp.15-20 in Proceedings ICM Moscow 1966. ([pdf](http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0015.0020.ocr.pdf))
 
-* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis I_, Proc.Nat.Acad.Sci. **50** (1963) pp.1143-1148. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC221287/pdf/pnas00240-0135.pdf))
+* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis I_, Proc. Nat. Acad. Sci. **50** (1963) pp.1143-1148. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC221287/pdf/pnas00240-0135.pdf))
 
-* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis II_, Proc.Nat.Acad.Sci. **51** (1963) pp.105-110. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/pdf/pnas00175-0117.pdf))
+* [[Paul J. Cohen|P. J. Cohen]], _The independence of the continuum hypothesis II_, Proc. Nat. Acad. Sci. **51** (1963) pp.105-110. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/pdf/pnas00175-0117.pdf))
 
 * [[Paul J. Cohen|P. J. Cohen]], _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
 
 * [[Patrick Dehornoy|P. Dehornoy]], _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](http://www.math.unicaen.fr/~dehornoy/Surveys/DgtUS.pdf))
 
+* {#Feferman11}[[Solomon Feferman]], _The Continuum Hypothesis is neither a definite mathematical problem nor a definite logical problem_ , Harvard lectures 2011. ([pdf](http://math.stanford.edu/~feferman/papers/CH_is_Indefinite.pdf))
+
 * M.C. Fitting, _Intuitionistic Logic, Model Theory and Forcing_, North-Holland Amsterdam 1969. 
 
-* [[K. Gödel]], _What is Cantor's continuum problem?_ , Am. Math. Monthly **54** no. 9 (1947) pp.515-25. ([pdf](http://www.personal.psu.edu/ecb5/Courses/M475W/Readings/Week06-Sep30-IntoTheTwentiethCentury/01-WhatisCantorsContinuumProblembyKurtGodel.pdf))
+* {#Goedel47}[[K. Gödel]], _What is Cantor's continuum problem?_ , Am. Math. Monthly **54** no. 9 (1947) pp.515-25. ([pdf](http://www.personal.psu.edu/ecb5/Courses/M475W/Readings/Week06-Sep30-IntoTheTwentiethCentury/01-WhatisCantorsContinuumProblembyKurtGodel.pdf))
 
 * [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (sections VI.2, VI.3)
+
+* [[W. Hugh Woodin]], _The Continuum Hypothesis, Part I_ , Notices AMS **48** no.6 (2001) pp.567-576. ([pdf](http://www.ams.org/notices/200106/fea-woodin.pdf))
+
+* [[W. Hugh Woodin]], _The Continuum Hypothesis, Part II_ , Notices AMS **48** no.7 (2001) pp.681-690. ([pdf](http://www.ams.org/notices/200107/fea-woodin.pdf))
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
