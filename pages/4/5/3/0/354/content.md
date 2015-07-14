@@ -603,7 +603,7 @@ $$
 is the [[simplicial set]] given by 
 
 $$
-  Maps(X_\bullet,Y_\bullet) \colon [k] \mapsto Hom_{sSet}(X_\bullet \times \Delta^n_\bullet, Y_\bullet)
+  Maps(X_\bullet,Y_\bullet) \colon [n] \mapsto Hom_{sSet}(X_\bullet \times \Delta^n_\bullet, Y_\bullet)
   \,.
 $$
 
