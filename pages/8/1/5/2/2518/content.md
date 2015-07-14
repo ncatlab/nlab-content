@@ -62,5 +62,9 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 * Peter Aczel, _Local Constructive Set Theory and Inductive Definitions_, [PDF](http://www.cs.man.ac.uk/~petera/sommaruga-book-paper.pdf)
 
+* [[Mike Shulman]], *Syntax, Semantics, and Structuralism II* [blog](https://golem.ph.utexas.edu/category/2009/12/syntax_semantics_and_structura_1.html)
+
+* [[Tom Leinster]], *Rethinking set theory* [blog](https://golem.ph.utexas.edu/category/2012/12/rethinking_set_theory.html), [arXiv](http://arxiv.org/abs/1212.6543)
+
 [[!redirects structural set theory]]
 [[!redirects structural set theories]]
