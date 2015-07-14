@@ -73,29 +73,35 @@ notice that the projective and the injective [[model structure on simplicial pre
 ### Internal logic and homotopy type theory
  {#InternalLogic}
 
-It is expected that the [[internal logic]] of locally cartesian closed $(\infty,1)$-categories should be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]), in higher analogy with the [[relation between type theory and category theory]].
+It is expected that the [[internal logic]] of locally cartesian closed $(\infty,1)$-categories should be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]), in higher analogy with the [[relation between type theory and category theory]].  More specifically, the following are hoped to be true:
 
-Ideally, this should involve two directions: interpretation of type theory in such $(\infty,1)$-categories, and construction of such $(\infty,1)$-categories from syntax.
+* From any type theory, its [[syntactic category]] is (or gives rise to) an $(\infty,1)$-category, which is the [[initial object]] in an appropriate $(\infty,1)$-category (or perhaps $(\infty,2)$-category) of locally cartesian closed $(\infty,1)$-categories (perhaps with additional structure corresponding to additional axioms or rules in the type theory).  Thus, type theory can be "interpreted" in any lcc $(\infty,1)$-category by way of the universal morphism from this initial object.
 
-For the first direction, Theorem \ref{Presentations} says in particular that every locally presentable and locally cartesian closed $(\infinity,1)$-category has a presentation by a [[type-theoretic model category]]. As discussed there, this provides the [[categorical semantics]] for [[homotopy type theory]] (without in general the [[univalence]] [[axiom]]).  Together, this yields:
+* From any locally cartesian closed $(\infty,1)$-category $C$, one can construct a type theory with rules or axioms corresponding to its objects and morphisms, which has a canonical interpretation in $C$ itself.  This would be the "internal language" of $C$.
+
+* These construction should set up some sort of adjunction, or perhaps equivalence, between some $(\infty,1)$- or $(\infty,2)$-category of type theories and that of lcc $(\infty,1)$-categories.
+
+Some partial results in these directions are known.  For instance, Theorem \ref{Presentations} says in particular that every *locally presentable* and locally cartesian closed $(\infty,1)$-category has a presentation by a [[type-theoretic model category]].  As discussed there, this provides [[categorical semantics]] for [[homotopy type theory]] (without in general the [[univalence]] [[axiom]]), at least if we assume the initiality of the syntactic 1-category (which is known in a special case and expected to be true in all cases).  Together, this yields:
 
 +-- {: .num_theorem }
 ###### Theorem
-**(Cisinski, Shulman)** Every locally presentable locally cartesian closed $(\infinity,1)$-category admits an interpretation of type theory with $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types.
-
+**(Cisinski, Shulman)** Assuming the initiality of the syntactic 1-category, every locally presentable locally cartesian closed $(\infty,1)$-category admits an interpretation of type theory with $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types.
 =--
 
-This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]], which should in addition possess [[univalence|univalent universes]]. See also _[[internal logic of an (∞,1)-topos]]_.
+This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]].  The latter should in addition possess [[univalence|univalent universes]], but that is at present known only weakly except for a restricted class.  See also _[[internal logic of an (∞,1)-topos]]_.
 
-An explicit statement in the second direction was conjectured in ([Joyal 2011](#Joyal11)), and established in [[Chris Kapulkin]]'s PhD thesis (see [Kapulkin 14](#Kapulkin14), [Kapulkin 15](#Kapulkin15)): 
+This statement is not fully satisfactory for several reasons.  Firstly, it assumes local presentability.  Secondly, rather than staying in the world of $(\infty,1)$-categories, it goes by way of a strict presentation.  Thus, the existence and behavior of a "universal model" is unclear.
+
+A step in the latter direction was conjectured in ([Joyal 2011](#Joyal11)), and established in [[Chris Kapulkin]]'s PhD thesis (see [Kapulkin 14](#Kapulkin14), [Kapulkin 15](#Kapulkin15)): 
 
 +-- {: .num_theorem }
 ###### Theorem
 **(Kapulkin)** If **T** is any [[dependent type theory]] with (at least) $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types, then the [[simplicial localisation]] of its [[syntactic category|classifying category]] $\mathrm{Cl}(\mathbf{T})$ is a locally cartesian closed $(\infty,1)$-category.
-
 =--
 
-However, this "syntactic $(\infty,1)$-category" will not in general be locally presentable, lacking appropriate colimits.  There is thus a mismatch between the two best statements we have at present, for the two directions of the internal language correspondence.  Furthermore, nothing is yet known about the *initiality* of the syntactic $(\infty,1)$-category, which is a central aspect of what it means to have an internal language.
+However, this "syntactic $(\infty,1)$-category" will not in general be locally presentable, lacking appropriate colimits.  There is thus a mismatch between the two best statements we have at present, for the two directions of the internal language correspondence.
+
+Furthermore, nothing is yet known about the *initiality* of this syntactic $(\infty,1)$-category, which is a central aspect of what it means to have an internal language.  Finally, no one has yet explicitly constructed an "internal language" type theory from an $(\infty,1)$-category, and so of course the desired adjunction/equivalence cannot yet even be stated as a precise conjecture.
 
 
 
