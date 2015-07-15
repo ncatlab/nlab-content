@@ -28,6 +28,10 @@
 
 The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-fold]] hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
 
+## Related concepts
+
+* [[exceptional field theory]]
+
 ## References
 
 * [[Chris Hull]], [[Barton Zwiebach]], _Double Field Theory_, JHEP 0909:099,2009 ([arXiv:0904.4664](http://arxiv.org/abs/0904.4664))
