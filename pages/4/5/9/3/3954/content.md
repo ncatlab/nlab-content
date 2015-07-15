@@ -54,14 +54,18 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 ### General
 
-* P. J. Cohen, _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
-* G. E. Reyes, _Typical and generic in a Baire space for relations_, thesis 1967
+* [[Paul Cohen]], _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
+
+* [[Gonzalo Reyes]], _Typical and generic in a Baire space for relations_, thesis 1967
 
 * [[Abraham Robinson]], _Infinite forcing in model theory_,  in Proc. 2nd Scand. Logic Synp. pp. 317-340, ed. J. E. Fenstad
 
 * Jon Barwise ed. _Handbook of mathematical logic_, 1977, in chapters by Macintyre, Burgess and Keisler
 
 * J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
+
+* [[Paul Cohen]], _The Discovery of Forcing_, Rocky Mountain J. Math.
+Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid.rmjm/1181070010))
 
 * math overflow, what is the generic poset used in forcing really?, [web](http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really)
 
