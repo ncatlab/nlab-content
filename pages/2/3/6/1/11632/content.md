@@ -1,4 +1,10 @@
 
 * [webpage](http://www.theorie.physik.uni-muenchen.de/cosmology/members/former_mem/hohm/index.html)
 
+## related $n$Lab entries
+
+* [[exceptional generalized geometry]]
+
+* [[exceptional field theory]]
+
 category: people
