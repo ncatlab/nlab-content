@@ -26,6 +26,10 @@ A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesia
 
 ## References
 
+Precursors include
+
+* [[Olaf Hohm]], [[Henning Samtleben]], _U-duality covariant gravity_ ([arXiv:1307.0509](http://arxiv.org/abs/1307.0509))
+
 The original articles are
 
 * [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
