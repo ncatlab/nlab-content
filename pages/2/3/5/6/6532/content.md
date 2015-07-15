@@ -1,4 +1,10 @@
 
 * [website](http://perso.ens-lyon.fr/henning.samtleben/henning_samtleben/home.html)
 
+## related $n$Lab entries
+
+* [[supergravity]]
+
+* [[exceptional field theory]]
+
 category: people
