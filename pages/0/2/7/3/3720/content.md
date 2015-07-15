@@ -1,5 +1,10 @@
 **Pierre Deligne** is a Belgian mathematician who was a student of [[Grothendieck]], then worked at [l'IH&#201;S](http://www.ihes.fr) and now is emeritus at [IAS](http://www.ihes.fr). His main interests include algebraic geometry especially cohomology of algebraic varieties, Hodge theory, L-functions and automorphic forms, [[Tannaka duality|Tannakian theory]], representations of algebraic groups, and [[motives]], where he extended the conjectural picture from pure to mixed motives (Grothendieck was much earlier aware and pushing toward that extension, though not publishing about it, according to Serre and others). Deligne has obtained the Fields medal in 1978 for a famous 1973 proof of [[Weil conjecture]]s. For the sake of preparatory/foundational steps he wrote a quick amendement for the unfinished volumes of [[SGA]] in a form of practical and short (but controversial to Grothendieck) SGA $4\frac{1}{2}$. This work uses a powerful and deep yoga of Hodge filtrations discovered also by Deligne. 
 
+* [[Luc Illusie]], _From Pierre Deligne's secret garden :
+looking back at some of his letters_ ([pdf](http://www.math.u-psud.fr/~illusie/Illusie-Deligne-NYC.pdf))
+
+## Writings
+
 Deligne lead a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
 
 * _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
