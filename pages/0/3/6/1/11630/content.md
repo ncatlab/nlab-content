@@ -111,6 +111,8 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 ## Related concepts
 
+* [[exceptional field theory]]
+
 * [[duality in string theory]]
 
   * [[T-duality]]
