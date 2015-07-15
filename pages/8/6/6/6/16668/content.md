@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[supergravity]] and [[string theory]], the term _exceptional field theory_ has come to be used for formulations of [[11-dimensional supergravity]] which make the ([[exceptional Lie group|exceptional]], whence the name) [[U-duality]] [[symmetry group]] structure manifest. This is in generalization of the "[[double field theory]]" formulation of 10d [[type II supergravity]] which makes (only) the [[T-duality]] symmetry manifest. 
+
+Accordingly, exceptional field theory is related to [[exceptional generalized geometry]] as [[double field theory]] is related to [[generalized complex geometry]].
+
+A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] of a $d$-dimensional [[Cartesian space]] with a [[linear representation]] space of a form of the [[exceptional Lie group]] $E_{11-d}$. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
+
+## References
+
+Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
+
+* {#BaguetHohmSamtleben15} Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _$E_{6(6)}$ Exceptional Field Theory: Review and Embedding of Type IIB_ ([arXiv:1506.01065](http://arxiv.org/abs/1506.01065))
+ 
+
+[[!redirects exceptional field theories]]
