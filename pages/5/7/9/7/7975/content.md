@@ -58,6 +58,8 @@ See also
 * R. Blumenhagen, B. K&#246;rs, [[Dieter Lüst]], S. Stieberger, _Four-dimensional string compactifications with D-Branes, orientifolds and fluxes_, Phys. Rept. __445__ (2007) 1&#8211;193, [hepth/0610327](http://arxiv.org/abs/hep-th/0610327).
 * [[Mariana Graña]], _Flux compactifications in string theory: a comprehensive review_, [hep-th/0509003](http://arxiv.org/abs/hep-th/0509003)
 
+* [[Jock McOrist]], [[Savdeep Sethi]], _M-theory and Type IIA Flux Compactifications_ ([arXiv:1208.0261](http://arxiv.org/abs/1208.0261))
+
 
 ### Non-geometric flux compactifications
 
