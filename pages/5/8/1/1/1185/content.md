@@ -25,6 +25,7 @@ The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[
 ## Definition 
 
 Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[sets]], and the **cardinality** of a set $S$ would be its isomorphism class.  That is:
+
 1. every set has a unique cardinal number as its cardinality;
 2. every cardinal number is the cardinality of some set;
 3. two sets have the same cardinality if and only if they are isomorphic as sets.
@@ -41,7 +42,7 @@ Taking this definition literally in material [[set theory]], each cardinal is th
 
 * Alternatively, we can define the __cardinality__ of a set $X$ to be the set of all well-founded [[pure sets]] that are isomorphic as sets to $X$ and such that no pure set of smaller hereditary rank (that is, which occurs earlier in the [[von Neumann hierarchy]]) is isomorphic to $X$.
 
-  * On those sets that are isomorphic to some well-founded set, this cardinality function satisfies (1--3), but one needs some assumption to prove that every set is isomorphic to a well-founded set.  (This will follow directly from the [[axiom of foundation]]; it will also follow from the [[axiom of choice]], since then every set is isomoprhic to a von Neumann ordinal.)
+  * On those sets that are isomorphic to some well-founded set, this cardinality function satisfies (1--3), but one needs some assumption to prove that every set is isomorphic to a well-founded set.  (This will follow directly from the [[axiom of foundation]]; it will also follow from the [[axiom of choice]], since then every set is isomorphic to a von Neumann ordinal.)
 
 In the absence of the appropriate axioms, the definitions above can still be used to define __well-ordered cardinals__ and __well-founded cardinals__, respectively.
 
