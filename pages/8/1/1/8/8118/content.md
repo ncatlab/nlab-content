@@ -23,6 +23,10 @@ _&#1071;&#1085;&#1075;&#1080;&#1072;&#1085;&#1099; &#1080; &#1082;&#1083;&#1072;
 * A. N. Kirillov, N. Y. Reshetikhin, _The Yangians, Bethe Ansatz and combinatorics_, Lett. Math. Phys. __12__, 199 (1986)
 * Sachin Gautam, Valerio Toledano-Laredo, _Yangians and quantum loop algebras_, Selecta Mathematica __19__ (2013), 271-336  [arxiv/1012.3687](http://arxiv.org/abs/1012.3687); _II. Equivalence of categories via abelian difference equations_ [arxiv/1310.7318](http://arxiv.org/abs/1310.7318); _III. Meromorphic equivalence of tensor structures_ [arxiv/1403.5251](http://arxiv.org/abs/1403.5251)
 
+Review in the context of [[AdS-CFT]] includes
+
+* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+
 In
 
 * [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](http://arxiv.org/abs/1303.2632))
