@@ -1,0 +1,6 @@
+
+Alessandro Torrielli works on [[integrable systems]], especially in the context of [[AdS-CFT]] and [[Yangian]] symmetry, at Surrey University.
+
+* [webpage](http://www.surrey.ac.uk/maths/people/torrielli_alessandro/index.htm)
+
+category: people
