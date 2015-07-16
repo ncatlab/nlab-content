@@ -1,0 +1,8 @@
+
+
+Jan Gutowski is working on [[black hole]] solutions in [[supergravity]] at Surrey University.
+
+* [webpage](http://www.surrey.ac.uk/maths/people/jan_gutowski/) 
+
+
+category: people
