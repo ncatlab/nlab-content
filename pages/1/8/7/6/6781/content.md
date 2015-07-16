@@ -23,7 +23,7 @@ In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras b
 
 ### Motivation from quantum field theory
 
-Drinfel'd was motivated by study of [[monoidal categories]] in [[rational CFT|rational]] 2d [[conformal field theory]] (RCFT) as well as by an idaa from [[Grothendieck]]'s _Esquisse_ namely the [[Grothendieck-Teichmüller tower]] and its modular properties. In RCFT, the [[monoidal categories]] appearing can be, by [[Tannaka duality|Tannaka reconstruction]] considered as [[categories of modules]] of [[Hopf algebra]]-like objects where the flexibility of associativity coherence in building a theory were natural thus leading to quasi-Hopf algebras. 
+Drinfel'd was motivated by study of [[monoidal categories]] in [[rational CFT|rational]] 2d [[conformal field theory]] (RCFT) as well as by an idea from [[Grothendieck]]'s _[[Esquisse d'un programme|Esquisse]]_ namely the [[Grothendieck-Teichmüller tower]] and its modular properties. In RCFT, the [[monoidal categories]] appearing can be, by [[Tannaka duality|Tannaka reconstruction]] considered as [[categories of modules]] of [[Hopf algebra]]-like objects where the flexibility of associativity coherence in building a theory were natural thus leading to quasi-Hopf algebras. 
 
 A special case of the motivation in RCFT has a toy example of [[Dijkgraaf-Witten theory]] which can be quite geometrically
 explained. Namely, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
