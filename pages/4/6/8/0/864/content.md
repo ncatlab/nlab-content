@@ -6,6 +6,7 @@
 ## Definitions
 
 A **quasiorder** on a set $S$ is a (binary) [[relation]] $\lt$ on $S$ that is both [[irreflexive relation|irreflexive]] and [[transitive relation|transitive]].  That is:
+
 * $x \nless x$ always;
 * If $x \lt y \lt z$, then $x \lt z$.
 
