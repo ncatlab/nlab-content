@@ -185,7 +185,11 @@ The content of this section is at
 
   * [[genus]]
 
+* [[gauged linear sigma-model]]
+
 * [[supersymmetric sigma-model]]
+
+  * [[2d (2,0)-supersymmetric sigma-model]]
 
 * [[brane]]
 
@@ -268,4 +272,3 @@ Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on sta
 [[!redirects sigma models]]
 [[!redirects ∞-model]]
 [[!redirects ∞-models]]
-
