@@ -4,8 +4,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-An _automorphic L-function_  $L_\pi$ is an [[L-function]] built from an [[automorphic representation]] $\pi$, in nonabelian generalization of how a [[Dirichlet L-function]] $L_\chi$ is associated to a [[Dirichlet character]] $\chi$ (which is an automorphic form on the (abelian) [[idele group]]).
+An _automorphic L-function_  $L_\pi$ is an [[L-function]] built from an [[automorphic representation]] $\pi$, generalizing
+
+1. how the [[Mellin transform]] takes an [[automorphic form]] to a [[zeta function]];
+
+1. (nonabelian generalization) how a [[Dirichlet L-function]] $L_\chi$ is associated to a [[Dirichlet character]] $\chi$ (which is an automorphic form on the (abelian) [[idele group]]).
 
 In analogy to how [[Artin reciprocity]] implies that to every 1-dimensional [[Galois representation]] $\sigma$ there is a [[Dirichlet character]] $\chi$ such that the [[Artin L-function]] $L_\sigma$ equals the [[Dirichlet L-function]] $L_\chi$, so the [[conjecture|conjectured]] [[Langlands correspondence]] says that to every $n$-dimensional [[Galois representation]] $\sigma$ there is an [[automorphic representation]] $\pi$ such that the automorphic L-function $L_\pi$ equals the [[Artin L-function]] $L_\sigma$.
 
