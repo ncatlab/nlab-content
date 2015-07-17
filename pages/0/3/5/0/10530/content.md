@@ -46,7 +46,9 @@ The enhanced [[supersymmetry]] of the $2d$ $(2,0)$-models allows to consider the
 
 * [[6d (2,0)-superconformal QFT]]
 
-## Refeferences
+* [[gauged linear sigma model]]
+
+## References
 
 The relevance of 2d $(2,0)$-superconformal worldsheet theories for [[string phenonemology]] (see also at _[[supersymmetry and Calabi-Yau manifolds]]_) was first highligted in 
 
@@ -57,6 +59,8 @@ Further discussion of 2d $(2,0)$-superconformal QFTs in the contest of [[heterot
 * [[Jacques Distler]], [[Brian Greene]], _Aspects Of $(2,0)$ String Compactifications_, Nucl. Phys. B304 (1988) 
 
 * [[Eva Silverstein]], [[Edward Witten]], _Criteria for Conformal Invariance of (0,2) Models_, Nucl.Phys.B444:161-190,1995 ([arXiv:hep-th/9503212](http://arxiv.org/abs/hep-th/9503212))
+
+* [[Jock McOrist]], _The Revival of $(0,2)$ Linear Sigma Models_, Int.J.Mod.Phys.A26:1-41,2011 ([arXiv:1010.4667](http://arxiv.org/abs/1010.4667))
 
 The topological twist leading to the [[half-twisted model]] is due to
 
@@ -86,3 +90,6 @@ A quick review with emphasis on the [[Stolz conjecture]] is in
 [[!redirects 2d (2,0)-supersymmetric QFT]]
 
 [[!redirects 2d (2,0)-CFT]]
+
+[[!redirects 2d (2,0)-supersymmetric sigma-model]]
+[[!redirects 2d (2,0)-supersymmetric sigma-models]]
