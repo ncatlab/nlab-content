@@ -16,15 +16,17 @@
 
 ## Idea
 
-The _Ruelle zeta function_ is defined for a function $f : M \to M$ on a compact
-manifold $M$. Assume that the set $Fix(f^m)$ is finite for all $m \geq 1$. Suppose
+### For dynamical systems
+
+The _Ruelle zeta function_ is defined for a function $f : M \to M$ on a [[compact
+manifold]] $M$. Assume that the set $Fix(f^m)$ is finite for all $m \geq 1$. Suppose
 that $\phi: M \to \mathbb{C}^{d \times d}$ is a matrix-valued function. The first type of Ruelle zeta function is defined by
 
 $$
 \zeta(z) = exp \Bigg\{ \sum_{m \geq 1} \frac{z^m}{m} \sum_{x \in Fix(f^m)} Tr \bigg(\prod^{m-1}_{k=0} \phi(f^k(x)) \bigg) \Bigg\}.
 $$
 
-##Odd dimensional hyperbolic manifold
+## For compact hyperbolic manifolds
 
 For $X_\Gamma$ a [[hyperbolic manifold]] of odd [[dimension]], and given a [[flat connection|flat]] $GL$-[[principal connection]] $\rho$ on $X_\Gamma$, the _Ruelle zeta function_ is the [[meromorphic function]] $R_\rho$
 given for $Re(s)  \gt (dim(X_\gamma)-1)/2 $ by the [[infinite product]] ([[Euler product]]) over the [[characteristic polynomials]] of the [[monodromy]]/[[holonomy]] of the flat connection along [[prime geodesics]]
@@ -32,7 +34,7 @@ given for $Re(s)  \gt (dim(X_\gamma)-1)/2 $ by the [[infinite product]] ([[Euler
 $$
   R_\rho(s) 
    = 
-  \underset{\gamma}{\prod} \det 
+  \underset{\gamma \neq e}{\prod} \det 
   \left( 
     Id - hol_\rho(\gamma) e^{-s l(\gamma)} 
   \right)
