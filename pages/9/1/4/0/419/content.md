@@ -114,8 +114,11 @@ A general standard reference is
 
 The monoidal model structure on $\mathcal{E}^{\mathbf{B}G}$ is discussed for insztance in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
-{#BergerMoerdijkResolution}
+* {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
+
+Relation to [[symmetric monoidal (infinity,1)-categories]] is discussed in 
+
+* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_ ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
 [[!redirects monoidal model categories]]
 [[!redirects monoidal model structure]]
