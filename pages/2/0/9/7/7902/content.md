@@ -70,6 +70,18 @@ In $SU(3)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jon
 
 * Amit Sever, Pedro Vieira, Luis F. Alday, Juan Maldacena, [[Davide Gaiotto]], _An Operator product expansion for polygonal null Wilson loops_, [arxiv.org/abs/1006.2788](http://arxiv.org/abs/1006.2788)
 
+### In Chern-Simons theory
+
+The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]] was obtained in 
+
+* W. Goldman, _Invariant functions on Lie groups and Hamiltonian flow of surface
+group representations_, Inventiones Math., 85 (1986), 263&#8211;302.
+
+For more see 
+
+* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
+
+
 ### In QFT with defects
 
 Relation to [[QFT with defects]] is discussed in
