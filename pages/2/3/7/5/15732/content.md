@@ -5,8 +5,14 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
 =--
 =--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
