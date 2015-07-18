@@ -231,6 +231,8 @@ For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
 We discuss Aufhebung of [[becoming]] in the above sense in [[cohesive toposes]] ([[cohesive (∞,1)-toposes]]) with a [[cohesive site]] ([[∞-cohesive site]]) of definition.
 
+(More general discussion is now also in [Lawvere-Menni 15, lemma 4.1, 4.2](#LawvereMenni15), see at [pieces-to-points-transform -- Relation to Aufhebung](points-to-pieces+transform#RelationToAufhebung)).
+
 +-- {: .num_prop #AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}
 ###### Proposition
 
@@ -494,3 +496,5 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
 * {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
