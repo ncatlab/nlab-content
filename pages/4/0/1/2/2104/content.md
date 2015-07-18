@@ -239,6 +239,8 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
     * [[geometric quantization by push-forward]]
 
+  * [[Weyl quantization]]
+
   * [[path integral quantization]]
 
   * [[semiclassical approximation]]
