@@ -210,6 +210,19 @@ Detailed review in the case of abelian Chern-Simons theory includes
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_ ([arXiv:http://arxiv.org/abs/0807.2857v1](http://arxiv.org/abs/0807.2857))
 
+Discussion in terms of [[Weyl quantization]] of [[Wilson lines]] and details on the role of [[theta functions]] is in
+
+Discussion of [[quantization of Chern-Simons theory]] in terms of Weyl quantization is in
+
+* [[Jørgen Andersen]], _Deformation quantization and geometric quantization of abelian moduli spaces_, Commun. Math. Phys., 255 (2005), 727&#8211;745
+
+* {#GelcaUribe02} [[Razvan Gelca]], [[Alejandro Uribe]], _The Weyl quantization and the quantum group quantization of the moduli space of flat SU(2)-connections on the torus are the same_, 	Commun.Math.Phys. 233 (2003) 493-512 ([arXiv:math-ph/0201059](http://arxiv.org/abs/math-ph/0201059))
+
+* {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+
+* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
+
+
 Another approach is
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], _[TQFT from compact Lie groups -- 3d Chern-Simons as a fully extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)_.
