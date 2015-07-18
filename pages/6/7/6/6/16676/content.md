@@ -1,6 +1,6 @@
 
 
-**[[theta function]]**, **[[automorphic form]]**, **[[automorphic representation]]**
+**[[theta function]]**, **[[modular form]]**, **[[automorphic form]]**, **[[automorphic representation]]**
 
 * [[Jacobi theta function]]
 
