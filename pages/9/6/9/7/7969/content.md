@@ -38,6 +38,7 @@ Certain integrals of theta functions yield [[zeta functions]], see also at _[[fu
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ### In quantization
+ {#IdeaInQuantization}
 
 Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
 
@@ -50,7 +51,7 @@ $$
   \,.
 $$
 
-See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b), [Gelca-Hamilton 12](#GelcaHamilton12)).
+See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b), [Gelca-Hamilton 12](#GelcaHamilton12), [Gelca-Hamilton 14](#GelcaHamilton14)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
@@ -145,6 +146,8 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
 * {#GelcaHamilton12} [[Razvan Gelca]], [[Alastair Hamilton]], _Classical theta functions from a quantum group perspective_ ([arXiv:1209.1135](http://arxiv.org/abs/1209.1135))
+
+* {#GelcaHamilton14} [[Razvan Gelca]], [[Alastair Hamilton]], _The topological quantum field theory of Riemann's theta functions_ ([arXiv:1406.4269](http://arxiv.org/abs/1406.4269))
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
