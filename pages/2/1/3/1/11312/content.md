@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Elliptic cohomology
 +-- {: .hide}
 [[!include elliptic cohomology -- contents]]
@@ -12,6 +16,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
