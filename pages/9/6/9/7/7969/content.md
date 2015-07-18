@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b)).
+See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b), [Gelca-Hamilton 12](#GelcaHamilton12)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
@@ -143,6 +143,8 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 * {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
+
+* {#GelcaHamilton12} [[Razvan Gelca]], [[Alastair Hamilton]], _Classical theta functions from a quantum group perspective_ ([arXiv:1209.1135](http://arxiv.org/abs/1209.1135))
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
