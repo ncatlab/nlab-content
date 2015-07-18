@@ -4,12 +4,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Riemannian geometry
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 =--
 =--
+
+
+
 #Contents#
 * table of contents
 {:toc}
