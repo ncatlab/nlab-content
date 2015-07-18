@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94)).
+See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
@@ -101,6 +101,8 @@ e.g. ([Beauville, above prop. 2.2](#Beauville)), also ([Beauville, section 3.4](
 
 ## Related concepts
 
+* the [[Verlinde formula]] computes the [[dimension]] of spaces of non-abelian theta functions
+
 * [[special functions]]
 
 * [[cubical structure on a line bundle]]
@@ -127,7 +129,7 @@ Modern textbook accounts include
 * {#Polishchuk03} [[Alexander Polishchuk]], section 17 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
 
 
-Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] is in 
+Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] of [[Chern-Simons theory]] is in 
 
 * {#Beauville} [[Arnaud Beauville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
 
@@ -136,9 +138,11 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 * {#Nohara} Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  
 
-* Gerard Lion, Michele Vergne, _The Weil representation, Maslov index and theta series_
+* Gerard Lion, Michele Vergne, _The Wei representation, Maslov index and theta series_
 
-* Razvan Gelca, [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+* {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+
+* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
@@ -158,6 +162,10 @@ and more generally the [[partition functions]] of connection-twisted Dirac opera
 Generalization of this from abelian to non-abelian [[conformal blocks]] to "generalized theta functions" appears in
 
 * {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_, Comm. Math. Phys. __164__ (1994), 385 - 419, [euclid](http://projecteuclid.org/euclid.cmp/1104270837), [alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003), [MR1289330](http://www.ams.org/mathscinet-getitem?mr=1289330)
+
+brief review is in 
+
+* {#Gawedzki99} [[Krzysztof Gawedzki]], section 5 of _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
 
 That the Riemann zeta functions are the local coordinate expressions of the covariantly constant sections of the [[Hitchin connection]] is due to 
