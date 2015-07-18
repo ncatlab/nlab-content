@@ -194,6 +194,10 @@ Comments on this point are also in
 
 * [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_
 
+See also
+
+* [[Alastair Hamilton]], _On two constructions of an effective field theory_ ([arXiv:1502.05790](http://arxiv.org/abs/1502.05790))
+
 [[!redirects effective quantum field theories]]
 
 [[!redirects effective QFT]]
