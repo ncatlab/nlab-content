@@ -3,4 +3,7 @@ Alessandro Torrielli works on [[integrable systems]], especially in the context 
 
 * [webpage](http://www.surrey.ac.uk/maths/people/torrielli_alessandro/index.htm)
 
+* Alessandro Torrielli, _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+
+
 category: people
