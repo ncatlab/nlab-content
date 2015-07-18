@@ -2,12 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Arithmetic geometry
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
 =--
 =--
+
+
+
 #Contents#
 * table of contents
 {:toc}
