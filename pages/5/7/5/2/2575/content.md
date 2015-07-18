@@ -21,7 +21,7 @@
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -893,6 +893,13 @@ The role of the [[metaplectic correction]] is studied in some detail in
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
  
 Also, from p. 154 (11 of 76) on, this article carefully discusses what is really the non-abelian version of the Griffiths [[intermediate Jacobian]] structure (see there) for $k = 0$.
+
+Detailed discussion with emphasis on [[theta functions]] is in
+
+* [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+
+* [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
+
 
 Decent expositions are for instance in 
 
