@@ -189,6 +189,9 @@ which has around p. 8:
 
 Here the "Hegelian fashion" refers to what is discussed in detail at _[[Aufhebung]]_.
 
+More detailed discussion of this is in 
+
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 [[!redirects double negation]]
 [[!redirects double negations]]
