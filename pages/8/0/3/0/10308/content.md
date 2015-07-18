@@ -212,7 +212,7 @@ Detailed review in the case of abelian Chern-Simons theory includes
 
 Discussion in terms of [[Weyl quantization]] of [[Wilson lines]] and details on the role of [[theta functions]] is in
 
-Discussion of [[quantization of Chern-Simons theory]] in terms of Weyl quantization is in
+Discussion of [[quantization of Chern-Simons theory]] in terms of [[Weyl quantization]] and [[skein relations]] is in
 
 * [[Jørgen Andersen]], _Deformation quantization and geometric quantization of abelian moduli spaces_, Commun. Math. Phys., 255 (2005), 727&#8211;745
 
