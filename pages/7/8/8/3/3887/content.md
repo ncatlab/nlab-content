@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 =--
 =--
 
