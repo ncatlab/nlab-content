@@ -1,9 +1,14 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
+=--
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
 =--
 #### Complex geometry
 +--{: .hide}
