@@ -193,6 +193,8 @@ The [[automorphism group]] of the Heisenberg group is the [[symplectic group]].
 
 ## References
 
+### General
+
 An original account is in 
 
 * [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_. Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
@@ -209,6 +211,15 @@ Discussion in the context of [[geometric quantization]] is in
 Discussion of the [[representation theory]] of the infinite-dimensional Heisenberg group is in
 
 * G&#252;nther H&#246;rmann, _Representations of the infinite dimensional Heisenberg group_, PhD thesis, Vienna 1993 ([pdf](http://www.mat.univie.ac.at/~michor/hoermann_diss.pdf))
+
+### For Chern-Simons theory
+
+The Heisenberg group for the [[phase space]] $U(1)$-[[Chern-Simons theory]] on an arbitrary [[Riemann surface]] (and its relation to [[skein relations]] and [[theta functions]]) is discussed in
+
+* {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+
+* {#GelcaHamilton12} [[Razvan Gelca]], [[Alastair Hamilton]], _Classical theta functions from a quantum group perspective_ ([arXiv:1209.1135](http://arxiv.org/abs/1209.1135))
+
 
 [[!redirects Heisenberg groups]]
 
