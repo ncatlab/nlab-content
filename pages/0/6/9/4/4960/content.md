@@ -421,6 +421,7 @@ For a long list of further structures that are canonically present in a cohesive
 
 For more structure available with a few more axioms see at 
 
+
 * [[differential cohesion]]
 
 * [[tangent cohesion]].
@@ -1530,6 +1531,11 @@ Discussion of "sufficient cohesion" is in
 * {#Menni14} [[Matías Menni]], _Continuous Cohesion over sets_, Theory and Applications of Categories, Vol. 29, 2014, No. 20, pp 542-568.  ([TAC](http://www.tac.mta.ca/tac/volumes/29/20/29-20abs.html), [pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
 * [[Matías Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah. Top.G&#233;om. Diff. Cat. **LV** (2014) ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
+
+Discussion of relation to [[double negation topology]] is in
+
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
 
 A good deal of the structure of cohesive toposes is also considered in 
 
