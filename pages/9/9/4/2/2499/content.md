@@ -789,6 +789,8 @@ The standard textbook monograph on [[supergravity]] in general and this formalis
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* [[Pietro Fré]], _Gravity, a Geometrical Course: Volume 2: Black Holes, Cosmology and Introduction to Supergravity_, Springer 2012
+
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
