@@ -112,6 +112,10 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli space of Riemannian metrics]]
 
+* [[moduli stack of elliptic curves]]
+
+* [[moduli space of Calabi-Yau spaces]]
+
 * [[moduli space of connections]], [[moduli space of flat connections]]
 
 * [[moduli space of framed manifolds]]
@@ -131,8 +135,8 @@ Notice well the two assumptions that were made to make this argument work:
 * [[representable functor]]
 * [[classifying space]], [[classifying stack]], [[classifying topos]]
 * [[moduli stack]], [[derived moduli space]], [[Deligne-Mumford stack]]
-* [[geometric invariant theory]], [[Moduli Problems and DG-Lie Algebras]], [[moduli stack of elliptic curves]]
-* [[universal principal bundle]], [[universal principal infinity-bundle]], * [[moduli space of curves]], [[moduli space of bundles]], [[moduli stack of elliptic curves]]
+* [[geometric invariant theory]], [[Moduli Problems and DG-Lie Algebras]], 
+* [[universal principal bundle]], [[universal principal infinity-bundle]], * [[moduli space of curves]], 
 * [[Hilbert scheme]], [[Quot scheme]], [[Picard scheme]], [[moduli stabilization]]
 
 ## References
@@ -154,7 +158,6 @@ A bit of elementary exposition of these ideas is at
 
 [[!redirects fine moduli spaces]]
 [[!redirects coarse moduli spaces]]
-
 
 
 
