@@ -34,12 +34,19 @@ Since no GUT has been fully validated yet, GUTs are [[model (physics)|models]] "
 * [[supersymmetry]]
 
 ## References 
+ {#References}
 
 An original article with an eye towards [[supergravity]] unification is
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
 
-A survey of arguments for the hypothesis of grand unification with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) is given in 
+Survey of arguments for the hypothesis of grand unification includes
+
+* [[Michael Peskin]], _Beyond the Standard Model_ ([arXiv:hep-ph/9705479](http://arxiv.org/abs/hep-ph/9705479))
+
+* [[Jogesh Pati]], _Discovery of Proton Decay: A Must for Theory, a Challenge for Experiment_ ([arXiv:hep-ph/0005095](http://arxiv.org/abs/hep-ph/0005095))
+
+and with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) in
 
 * {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
  
@@ -49,25 +56,32 @@ A good introduction to GUTs for mathematicians is
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
 
+Discussion of comparison to [[experiment]] and [[phenomenology]] includes
 
-Blog discussion of this is at
+for non-superymmetric [[model (physics)|models]]:
+
+* Alexander Dueck, Werner Rodejohann, _Fits to $SO(10)$ Grand Unified Models_ ([arXiv:1306.4468](http://arxiv.org/abs/1306.4468))
+
+* Chee Sheng Fong, Davide Meloni, Aurora Meroni, Enrico Nardi, _Leptogenesis in $SO(10)$_ ([arXiv:1412.4776](http://arxiv.org/abs/1412.4776))
 
 
-* John Baez, [The algebra of grand unified theories I](http://golem.ph.utexas.edu/category/2009/02/the_algebra_of_grand_unified_t.html)
+for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
-* John Baez, [The algebra of grand unified theories II](http://golem.ph.utexas.edu/category/2009/03/the_algebra_of_grand_unified_t_1.html)
+* Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
 
-* John Baez, [The algebra of grand unified theories III](http://golem.ph.utexas.edu/category/2009/03/the_algebra_of_grand_unified_t_2.html)
+* Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
 
-Realization of GUTs in the context of [[M-theory on G2-manifolds]] is discussed in
+Specifically discussion of experimental bounds on [[proton]] instability in GUTs includes
+
+* Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
+
+
+Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible resolution of the [[doublet-triplet splitting problem]] is discussed in
 
 * {#Witten02} [[Edward Witten]], _Deconstruction, $G_2$ Holonomy, and Doublet-Triplet Splitting_, ([arXiv:hep-ph/0201018](http://arxiv.org/abs/hep-ph/0201018))
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
-Discussion of experimental bounds on [[proton]] instability in GUTs includes
-
-* Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
 
 
 [[!redirects GUTs]]
