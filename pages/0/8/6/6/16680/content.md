@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Michael_Peskin)
+
+## related $n$Lab entries
+
+* [[quantum field theory]]
+
+* [[GUT]]
+
+category: people
