@@ -359,7 +359,7 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 2-groups were introduced, under the name _gr_-categories, in 
 
-* [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973) ([web](http://www.math.rwth-aachen.de/~kuenzer/sinh.html)),
+* [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973) ([web](http://www.math.rwth-aachen.de/~kuenzer/sinh.html)), ([web alternate pdf] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html))
 
 supervised by [[Grothendieck]].
 
