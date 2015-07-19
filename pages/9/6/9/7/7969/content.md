@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-See e.g. ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b), [Gelca-Hamilton 12](#GelcaHamilton12), [Gelca-Hamilton 14](#GelcaHamilton14)).
+See ([AlvaresGaum&#233;-Moore-Vafa 86, p. 4](#AlvaresGaumeMooreVafa86), [Freed 87, section 4](#Freed87), [Falceto-Gawedzki 94](#FalcetoGawedzki94), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94), [Gelca-Uribe 10a](#GelcaUribe10a), [Gelca-Uribe 10b](#GelcaUribe10b), [Gelca-Hamilton 12](#GelcaHamilton12), [Gelca-Hamilton 14](#GelcaHamilton14), [Gelca 14](#Gelca14)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
@@ -139,7 +139,23 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 * {#Nohara} Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  
 
-* Gerard Lion, Michele Vergne, _The Wei representation, Maslov index and theta series_
+* Gerard Lion, [[Michele Vergne]], _The Weil representation, Maslov index and theta series_
+
+
+Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as spaces of sections of [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
+
+* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
+
+* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
+
+* {#Freed87} [[Daniel Freed]], around p. 30-31 of _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
+* {#FalcetoGawedzki94} Fernando Falceto, [[Krzysztof Gawędzki]], _Chern-Simons states at genus one_, Comm. Math. Phys. Volume 159, Number 3 (1994), 549-579. ([Euclid](https://projecteuclid.org/euclid.cmp/1104254732))
+
+
+* Kazuhiro Hikami, _Mock (False) Theta Functions as Quantum Invariants_ ([arXiv:math-ph/0506073](http://arxiv.org/abs/math-ph/0506073))
+
+* Kazuhiro Hikami, _Quantum Invariants, Modular Forms, and Lattice Points II_, J. Math. Phys. 47, 102301-32pages (2006) ([arXiv:math/0604091](http://arxiv.org/abs/math/0604091))
 
 * {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
 
@@ -149,13 +165,7 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 
 * {#GelcaHamilton14} [[Razvan Gelca]], [[Alastair Hamilton]], _The topological quantum field theory of Riemann's theta functions_ ([arXiv:1406.4269](http://arxiv.org/abs/1406.4269))
 
-Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
-
-* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
-
-* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
-
-* {#Freed87} [[Daniel Freed]], around p. 30-31 of _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+* {#Gelca14} [[Razvan Gelca]], _Theta Functions and Knots_,  World Scientific 2014 ([prologue pdf](http://www.worldscientific.com/doi/suppl/10.1142/8872/suppl_file/8872_chap01.pdf), [publisher page](http://www.worldscientific.com/worldscibooks/10.1142/8872))
 
 
 * {#Andersen11} Johan Martens [[Jørgen Andersen]], notes by S&#248;ren J&#248;rgensen, p. 53 of _Topological quantum field theories and moduli spaces_, 2011 ([pdf](http://maths.fuglede.dk/noter/tqftms.pdf))
