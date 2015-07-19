@@ -27,6 +27,10 @@ As special cases this includes:
 
 [[!include moduli of higher lines -- table]]
 
+## Related concepts
+
+* [[moduli space of Calabi-Yau spaces]]
+
 ## References
 
 The general idea of [[Calabi-Yau cohomology]] apparently appears in 
