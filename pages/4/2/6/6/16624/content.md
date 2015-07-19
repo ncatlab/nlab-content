@@ -1,6 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A [[brane]] [[worldvolume]] $\phi \colon \Sigma \longrightarrow X$ is said to _wrap_ a [[cycle]] $c \in H_{\dim(\Sigma)}(X)$ in [[spacetime]] $X$ when the pushforward $\phi_\ast [\Sigma] \in H_\bullet(X)$ of the [[fundamental class]] of $\Sigma$ is the class of the given cycle in $X$.
+
+## Examples
+
+* [[membrane instanton]]
+
+* [[M5-brane instanton]]
 
 [[!redirects wrapped branes]]
 
