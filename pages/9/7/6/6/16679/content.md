@@ -30,7 +30,10 @@ equipped with a [[model structure]] that turns
 it into a [[model category]] that is Quillen equivalent
 to the standard [[Kan?Quillen model structure]] on [[simplicial sets]].
 
-An important operation on multisimplicial sets is the _exterior product_ $$Fun((\Delta^m)^{op},Set)\times Fun((\Delta^n)^{op},Set)\to Fun((\Delta^{m+n})^{op},Set)$$ defined as the [[left Kan extension]] of the tautological functor $$\Delta^m\times\Delta^n\to\Delta^{m+n}.$$
+An important operation on multisimplicial sets is the _exterior product_
+$$Fun((\Delta^m)^{op},Set)\times Fun((\Delta^n)^{op},Set)\to Fun((\Delta^{m+n})^{op},Set)$$
+defined as the [[left Kan extension]] of the tautological functor
+$$\Delta^m\times\Delta^n\to\Delta^{m+n}.$$
 
 The exterior product is a [[left Quillen bifunctor]]
 whose [[left derived bifunctor]] model the cartesian
