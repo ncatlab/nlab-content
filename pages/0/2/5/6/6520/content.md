@@ -38,6 +38,8 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[membrane instanton]]
 
+* [[M5-brane instanton]]
+
 ## Related concepts
 
 * [[instanton sector]]
