@@ -60,7 +60,9 @@ Although the non-Calabi-Yau case may be of lesser interest to physics, one can s
 
 ## Related concepts
 
-[[duality in physics]], [[duality in string theory]]
+* [[moduli space of Calabi-Yau spaces]]
+
+* [[duality in physics]], [[duality in string theory]]
 
 
 ## References
@@ -70,6 +72,11 @@ Although the non-Calabi-Yau case may be of lesser interest to physics, one can s
 The original statement of the homological mirror symmetry conjecture is in
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, Proc. ICM Z&#252;rich 1994, [alg-geom/9411018](http://arxiv.org/abs/alg-geom/9411018)
+
+See also
+
+* [[Paul Aspinwall]], [[Brian Greene]], [[David Morrison]], _Calabi-Yau Moduli Space, Mirror Manifolds and Spacetime Topology Change in String Theory_, Nucl.Phys. B416 (1994) 414-480 ([arXiv:hep-th/9309097](http://arxiv.org/abs/hep-th/9309097))
+
 
 A review and status report is in
 
