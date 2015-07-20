@@ -1,0 +1,8 @@
+
+## Related concepts
+
+* [[baryogenesis]]
+
+## References
+
+* Wikipedia, _[Leptogenesis](https://en.wikipedia.org/wiki/Leptogenesis_(physics)_
