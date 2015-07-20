@@ -74,6 +74,7 @@ Discussion for [[M-theory]]/[[11-dimensional supergravity]] includes
 
 * [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002,1997 ([arXiv:hep-th/9711053](http://arxiv.org/abs/hep-th/9711053))
 
+* [[Davide Gaiotto]], [[Andrew Strominger]], Xi Yin, _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070,2007 ([arXiv:hep-th/0607010](http://arxiv.org/abs/hep-th/0607010))
 
 Reviews include
 
