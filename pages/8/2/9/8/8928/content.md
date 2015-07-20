@@ -70,7 +70,14 @@ and a particularly clear account is in
 
 * [[Juan Maldacena]], [[Gregory Moore]], [[Andrew Strominger]], _Counting BPS Blackholes in Toroidal Type II String Theory_ ([arXiv:hep-th/9903163](http://arxiv.org/abs/hep-th/9903163))
 
+Discussion for [[M-theory]]/[[11-dimensional supergravity]] includes
+
+* [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002,1997 ([arXiv:hep-th/9711053](http://arxiv.org/abs/hep-th/9711053))
+
+
 Reviews include
+
+* [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
 
 * Sumit R. Das, [[Samir Mathur]], _The Quantum Physics of Black Holes: Results from String Theory_ ([arXiv:gr-qc/0105063](http://arxiv.org/abs/gr-qc/0105063))
 
