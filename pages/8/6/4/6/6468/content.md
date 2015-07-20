@@ -18,6 +18,10 @@
 
 A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$ (a Calabi-Yau [[algebraic surface]]). This means that the [[canonical bundle]] $\omega_X=\wedge^2\Omega_X\simeq \mathcal{O}_X$ is trivial and $H^1(X, \mathcal{O}_X)=0$.
 
+The term "K3" is ([Weil 79, p. 546](#Weil79))
+
+> in honor of Kummer, K&#228;hler, Kodaira, and the beautiful K2 mountain in Kashmir
+
 ## Examples
 
 * A cyclic cover $\mathbb{P}^2$ branched over a curve of degree $6$
@@ -66,7 +70,13 @@ The [[formal Brauer group]] is
 
 Original sources include
 
+
+
 * {#Artin74} [[Michael Artin]], _Supersingular K3 Surfaces_, Annal. Sc. d, l'&#201;c Norm. Sup.  4e  s&#233;ries, T. 7, fasc.  4, 1974, pp. 543-568
+
+* {#Weil79} [[Andre Weil]], Final report on contract AF 18 (603)-57. In Scientic works. Collected papers. Vol. II (1951-1964). 1979.
+
+Lecture notes include
 
 * [[Daniel Huybrechts]], _Lectures on K3-surfaces_ ([pdf](http://www.math.uni-bonn.de/people/huybrech/K3Global.pdf))
 
