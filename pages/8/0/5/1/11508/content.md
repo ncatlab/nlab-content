@@ -223,7 +223,7 @@ The following proposition gives one way how the modular equivariance of [[tmf]] 
 First observe (see also ([Mahowald-Rezk 09, section 2](#MahowaldRezk09))) that for [[elliptic curve with level structure|level 3 structure]] we have [[congruence subgroups]]
 
 $$
-  \Gamma_1(3) \hookrightarrow \Gamma_0(3) \hookrightarrow GL(2,\matzhbb{Z}/3\mathbb{Z})
+  \Gamma_1(3) \hookrightarrow \Gamma_0(3) \hookrightarrow GL(2,\mathbb{Z}/3\mathbb{Z})
 $$
 
 where the first inclusion is a [[normal subgroup]] of [[index of a subgroup|index]] 2.
