@@ -106,6 +106,8 @@ Similarly, the brackets on elements all in degree 0 is given by contraction of $
 
 ## Related concepts
 
+* the [[universal enveloping E-n algebra]] of a Heisenberg Lie n-algebra deserves to be called a _[[Weyl n-algebra]]_
+
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
 
@@ -118,8 +120,14 @@ The topological part of the Heisenberg Lie 2-algebra of the [[string]] [[sigma-m
 
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
-
 and shown to be the [[string Lie 2-algebra]].
+
+General discussion in the broader context of [[higher differential geometry]] and [[higher prequantum geometry]] is in 
+
+* {#FRS13a} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+
+* {#FRS13b} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107 &#8211; 142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+
 
 [[!redirects Heisenberg Lie n-algebras]]
 
