@@ -37,6 +37,8 @@ When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast 
 
 * [[associative submanifold]]
 
+* [[D3-brane instanton]]
+
 * [[M5-brane instanton]]
 
 ## References
