@@ -55,9 +55,17 @@ On page 11, Lawvere discusses categories intermediate between the original cohes
 
 It is noteworthy that Cantor's conception of cardinal number is a mildly disguised form of the definition of number as _'a multitude made up of units'_ in [[Euclid]], book VII, def.2. This was until the end of the 19th century a standard definition of the _finite_ cardinals and in Cantor's time was e.g. used by the highly influential Karl Weierstrass in his lectures[^weierstrass] and defended by Weierstrass' student Edmund Husserl in his 'Philosophie der Arithmetik' (1891).
 
+Cantor comments on Euclid in '_Mitteilungen zur Lehre vom Transfiniten_' (1887-88, [Cantor (1932)](#Cantor32) pp.378-438)). His comment (p.380f.) makes it clear that he views cardinals actually as the cohesive 'united' objects whereas he _stresses the discreteness_ of the concrete elements in the 'Mengen'. He criticizes Euclid for not emphasizing that numbers are actually more unified objects than the material sets they are abstracted from. Another key passage in this direction reads: 
+
+>'_Die Elemente der uns gegen&#252;berstehenden Menge $M$ sind getrennt vorzustellen; in dem intellektualem Gebilde $\overline{M}$, welches ich ihren Ordnungstypus nenne, sind dagegen die Einsen zu einem Organismus vereinigt. In gewissem Sinne l&#228;sst sich jeder Ordnungstypus als ein Kompositum aus Materie und Form ansehen; die darin enthaltenen begrifflich unterschiedenen Einsen liefern die Materie, w&#228;hrend die unter diese bestehende Ordnung das der Form entsprechende ist._' (p.380)
+
+What underlies the contrast between Mengen and Kardinalen, is a platonist conception of mathematics. By abstracting from the contingencies of the material sets one reaches a realm of ideas of higher reality as they achieve a better unification of the many into unity; in particular, the introduction of the units acts as a uniformisation and homogenisation of the diversity-matter of the concrete sets which are then able to participate in the idea of the cardinal number. The pertinent contrast in Cantor is between concrete-particular vs. abstract-general. Furthermore, it seems, that though cardinals are indeed (related to) 'abstract sets', a general concept of 'abstract set' is in fact absent here, as on Cantor's view there can only be one abstract set of a given cardinality i.e. according to Cantor there is something like THE number 2.
+
+The views advanced in R. Dedekind's '_Was sind und was sollen die Zahlen?_' (1887) appear to be a more decisive step towards the modern structural approach to set theory and mathematics. Though he similarly defines THE natural numbers in &#167;6.73 by abstraction as a certain 'simple infinite set' he clearly has a concept of such a system 'up to isomorphism': he has also a general concept of 'abstract set' (see also the quote in the footnote at [[ETCS]]). Furthermore, he generally stresses the importance of maps between sets as basic concepts in general.
+
 [^weierstrass]: It seems somewhat ironical that Weierstrass whose quest for arithmetical foundations of analysis was one of the main driving forces behind 19th mathematics' move towards set-theoretic foundations actually held views on his fundamental concept 'number' that are closely related to a structural view!
 
-This view was severely criticized by [[Gottlob Frege]] in _'Die Grundlagen der Arithmetik'_ (1884) and his reviews of Cantor and Husserl (1892,1894). Frege rejected the process of _'abstraction'_ involved in such accounts and held views on identity that made the 'distinct yet indistinguishable units' an inconsistent concept and spoke therefore sarcastically of _'ungl&#252;ckliche Einsen'_ - 'unfortunate units': the adjective has stuck in this context as we find it repeated in Zermelo's and Tait's discussion of Cantor's conception. (For more on the Frege-Cantor debate on the concept of cardinal number, which touches upon the status of structural mathematics more generally, see [Tait (1996)](#Tait96)).
+The abstractionist view was severely criticized by [[Gottlob Frege]] in _'Die Grundlagen der Arithmetik'_ (1884) and his reviews of Cantor and Husserl (1892,1894). Frege rejected the process of _'abstraction'_ involved in such accounts and held views on identity that made the 'distinct yet indistinguishable units' an inconsistent concept and spoke therefore sarcastically of _'ungl&#252;ckliche Einsen'_ - 'unfortunate units': the adjective has stuck in this context as we find it repeated in Zermelo's and Tait's discussion of Cantor's conception. 
 
 ## Related entries
 
@@ -93,12 +101,29 @@ The Cantor text Lawvere refers to is
 
 The text is reprinted on pp.282-351 of Cantor's collected works and the revelant comment by Zermelo is in the second annotation on p.351: 
 
-* [[Ernst Zermelo]] (ed.), _Georg Cantor - Gesammelte Abhandlungen Mathematischen und Philosophischen Inhalts_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PPN=PPN237853094))
+* {#Cantor32}[[Ernst Zermelo]] (ed.), _Georg Cantor - Gesammelte Abhandlungen Mathematischen und Philosophischen Inhalts_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PPN=PPN237853094))
+
+An English version of Cantor's 1885 review of Frege appears as
+
+* P. A. Ebert, M. Rossberg, _Cantor on Frege's Foundations of Arthmetic_ , Hist. Phil. Logic **30** no.4 (2010) pp.341-348. ([draft](http://www.philipebert.info/resources/Cantorreview_Final.pdf))
+
+For an extensive discussion and relevant quotes of Cantor's platonism and abstractionism see
+
+* C. O. Hill, _Abstraction and Idealization in Edmund Husserl and Georg Cantor prior to 1895_ , in Hill, Haddock (eds.), _Husserl or Frege, Meaning, Objectivity and Mathematics_ , Open Court Chicago 2000.
+
+The key concepts of 'one' and 'many' taken from Plato's 'Philebus' dialogue reappear in Hegel's "set theory":
 
 * Alan L. T. Paterson, _Frege and Hegel on concepts and number_, ms. n.d. University of Colorado Boulder. ([pdf](https://sites.google.com/site/apat1erson/nnfregh.pdf?attredirects=0))
 
+For more on the Frege-Cantor debate on the concept of cardinal number, which touches upon the status of structural mathematics more generally, see
+
 * {#Tait96}William W. Tait, _Frege versus Cantor and Dedekind:
 On the Concept of Number_ , pp.213-248 in Tait (ed.),  _Frege, Russell, Wittgenstein: Essays in Early Analytic Philosophy_ , Lasalle Open Court Press 1996. ([preprint](http://home.uchicago.edu/%7Ewwtx/frege.cantor.dedekind.pdf))
+
+For a proposal that contrasts Cantorian set theory with Zermelo-Fraenkel set theory (though leaving out the question of abstract sets) see
+
+* J. Lake, _The Approaches to Set Theory_ , Notre Dame J. Formal Logic
+**20** no.2 (1979) pp.415-437. ([pdf](https://projecteuclid.org/download/pdf_1/euclid.ndjfl/1093882550))
 
 category: reference
 
