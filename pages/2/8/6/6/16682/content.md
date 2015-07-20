@@ -4,6 +4,10 @@
 
 One of the technical issues in the [[phenomenology|phenomenological]] viability of [[grand unified theories]].
 
+## Related concepts
+
+* [[proton decay]]
+
 ## References
 
 * Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet&#8211;triplet_splitting_problem)_
