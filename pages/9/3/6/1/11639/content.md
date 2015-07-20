@@ -58,6 +58,10 @@ A further discussion of K3-cohomology appears in Chapter 10 of
 
 * [[Charles Thomas]], _Elliptic Cohomology_.
 
+Lecture notes include
+
+* [[Paul VanKoughnett]], _K3 cohomology theories_, 2014 ([pdf](http://math.northwestern.edu/~dwilson/k3notes/Lecture1-K3Spectra.pdf))
+
 The suggestion that from the point of view of [[string theory]]/[[F-theory]] K3-cohomology and further Calabi-Yau cohomology this is the required generalization of [[elliptic cohomology]] appears in 
 
 * {#Sati05} [[Hisham Sati]], p. 18 of _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
