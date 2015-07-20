@@ -22,6 +22,8 @@ M5-brane [[instantons]] are constituted by [[M5-branes]] [[wrapped brane|wrapped
 
 * [[membrane instanton]]
 
+* [[M5-brane instanton]]
+
 ## References
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
