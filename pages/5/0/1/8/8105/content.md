@@ -30,7 +30,7 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 
 The definition is due to
 
-* {#BehrensLawson07} [[Mark Behrens]], [[Tyler Lawson]], _Topological automorphic forms_, Mem. Amer. Math. Soc. ([arXiv:math/0702719](http://arxiv.org/abs/math/0702719))
+* {#BehrensLawson07} [[Mark Behrens]], [[Tyler Lawson]], _Topological automorphic forms_, Mem. Amer. Math. Soc., 204 (2010), no. 958 ([arXiv:math/0702719](http://arxiv.org/abs/math/0702719))
 
 An introductory survey is in 
 
@@ -42,6 +42,10 @@ Lecture notes include
 * [[Mark Behrens]], _Topological Automorphic Forms_, Lecture series (2011) ([lecture notes](http://www.math.ist.utl.pt/~ggranja/SummerLect11_files/abstractmark.html))
 
 * [[Doug Ravenel]], _Seminar on topological automorphic forms_ (2009-11) ([web](http://www.math.rochester.edu/u/faculty/doug/taf.html))
+
+* [[Dylan Wilson]] and [[Paul VanKoughnett]], _TAF reading course_, 2013 ([web](http://math.northwestern.edu/~pvankoug/taf/taf.html))
+
+* [[Chermaine Sia]], _Topological automorphic forms_, talk at [Talbot Workshop 2013](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks) ([pdf](http://www.math.harvard.edu/~sia/notes/talbot_taf.pdf))
 
 [[!redirects topological automorphic forms]]
 [[!redirects taf]]
