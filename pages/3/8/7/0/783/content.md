@@ -65,6 +65,9 @@ The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/noti
 * [[Marcus Wanderley]]
 * [[Carlos Contou-Carrère]]
 
+See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.php?id=31245)_
+
+
 category: people
 
 [[!redirects Grothendieck]]
