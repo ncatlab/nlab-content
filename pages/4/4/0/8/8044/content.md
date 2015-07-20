@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Russell's paradox** is a famous [[paradox]] of [[set theory]][^material] that was first observed in 1902 by [[Ernst Zermelo]] and then, independently, shortly afterwards by the logician [[Bertrand Russell]]. The paradox received instantly wide attention as it lead to a contradiction in Frege's monumental "[Foundations of Arithmetic](#Frege03)" (1893/1903) whose final second volume was just about to go to print when Frege was informed about the inconsistency by Russell.
+**Russell's paradox** is a famous [[paradox]] of [[set theory]][^material] that was first observed in 1902 by [[Ernst Zermelo]] and then, independently, shortly afterwards by the logician [[Bertrand Russell]]. The paradox received instantly wide attention as it lead to a contradiction in Frege's monumental "[Foundations of Arithmetic](#Frege03)" (1893/1903) whose second volume was just about to go to print when Frege was informed about the inconsistency by Russell.
 
 The paradox entangles a concept with its own extension in a **vicious circle**. The attempt to overcome this _circularity in set formation_ had a huge impact on subsequent forms of axiomatic set theory and in the aftermath mathematical logic became heavily focussed on consistency proofs for fully specified formal theories: the paradoxes triggered a shift in the foundation of mathematics away from the mathematics to the foundation itself.
 
@@ -58,7 +58,7 @@ There are a number of possible resolutions of Russell's paradox.
 
 * Another solution is to distinguish between sets and proper [[class|classes]] (= collections that are "too big" to be sets) as e.g. in [[NBG]] "set" theory.[^Cantor]  Here we may write down the definition of $R$, but from $R \notin R$ we may conclude $R \in R$ only if we already know that $R$ is a set; the $x$ in the definition must be a set.  So we have no contradiction, but only a proof that $R$ is a [[proper class]].
 
-[^Cantor]: This solution proposed by J. von Neumann in the 1920s can be viewed as a formalisation of ideas of G. Cantor. The latter knew about similar phenomena concerning "the set of all sets" (in fact, Russell hit upon the paradox in a reflection on Cantor's proof of the inexistence of a largest cardinal number), and had already pointed out in 1885 in a review of Frege's "Grundlagen der Arithmetik" that not every concept has an extension. Therefore Cantor proposed in letters to Dedekind and Jourdain to differentiate between _'consistent multiplicities'_ ("compossible" multiplicities one could say) where things can coexist or compose to a consistent whole - 'ensemble' (fr.) which correspond to sets in the usual sense and, as completed collections, can in turn be elements in other sets, from _'inconsistent multiplicities'_ whose elements cannot consistently completed to a whole and cannot be member of other collections due to this lack of 'unity'.  
+[^Cantor]: This solution proposed by J. von Neumann in the 1920s can be viewed as related to ideas of G. Cantor. The latter knew about similar phenomena concerning "the set of all sets" (in fact, Russell hit upon the paradox in a reflection on Cantor's proof of the inexistence of a largest cardinal number), and had already pointed out in 1885 in a review of Frege's "Grundlagen der Arithmetik" that not every concept has an extension. Therefore Cantor proposed in letters to Dedekind and Jourdain to differentiate between _'consistent multiplicities'_ ("compossible" multiplicities one could say) where things can coexist or compose to a consistent whole - 'ensemble' (fr.) which correspond to sets in the usual sense and, as completed collections, can in turn be elements in other sets, from _'inconsistent multiplicities'_ whose elements cannot consistently completed to a whole and cannot be member of other collections due to this lack of 'unity'.  
 
 * In the set theory called [[New Foundations]], the axiom of comprehension is restricted in a rather different way, by requiring the set-defining formula to be "stratifiable".  Since the formula $x\notin x$ is not stratifiable, the set $R$ cannot be formed.  This related to Russell's ideas on [[ramified types]].
 
@@ -70,13 +70,17 @@ There are a number of possible resolutions of Russell's paradox.
 
 ## References
 
-Zermelo's observation which is mentioned in a footnote of his 1908 paper on the well-ordering theorem is analyzed in
+Zermelo's observation which is mentioned in a footnote of his 1908 paper on the [[well-ordering theorem]] is analyzed in
 
 * B. Rang, W. Thomas, _Zermelo's Discovery of the "Russell Paradox"_ , Hist. Math. **9** no.1 (1981) pp.15-22.
 
 Russell indicated the contradiction leading to the inconsistency of G. Frege's system of "Grundgesetze der Arithmetik" in a famous letter to the latter on June 16th 1902 which together with Frege's reply is reprinted pp.124-128 in
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
+
+For an account of Russell's encounter with the paradox:
+
+* I. Grattan-Guinness, _How Russell Discovered his Paradox_ , Hist. Math. **5** no.2 (1978) pp.127-137.
 
 The first published account is presumably in the appendix of
 
