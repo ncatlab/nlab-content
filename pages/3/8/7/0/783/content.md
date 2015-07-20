@@ -43,7 +43,13 @@ The Life of Alexandre Grothendieck, Part 1,[Notices AMS](http://www.ams.org/noti
 * Allyn Jackson, _Comme Appel&#233; du N&#233;ant_, As If Summoned from the Void:
 The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf)
 
+## Students
 
+* [[Pierre Deligne]]
+* [[Luc Illusie]]
+* [[Verdier]]
+* [[Hoàng Xuân Sính]]
+* etc
 
 category: people
 
