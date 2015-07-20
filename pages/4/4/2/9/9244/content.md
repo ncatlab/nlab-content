@@ -30,6 +30,10 @@ between [[E-n algebras]] and [[L-∞ algebras]], suitably factoring through [[Po
 
 The [[left adjoint]] $\mathcal{U}_n$ sends an [[L-∞ algebra]] to its _universal enveloping $E_n$-algebra_ in that for $n = 1$ and for $\mathfrak{g}$ an ordinary [[Lie algebra]], $\mathcal{U}_1(\mathfrak{g})$ is the [[associative algebra]] (an $E_1$=[[A-∞ algebra|A-∞]] algebra) which is the ordinary [[universal enveloping algebra]] of $\mathfrak{g}$.
 
+## Examples and applications
+
+* [[Weyl n-algebra]]
+
 ## References
  {#References}
 
