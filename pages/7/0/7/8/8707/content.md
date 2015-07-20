@@ -149,6 +149,21 @@ Modal type theory with an eye towards [[homotopy type theory]] is discussed in
 
 * [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
 
+Formalization of modalities in [[homotopy type theory]] is discussed 
+
+
+* {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
+
+* {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+* [[Mike Shulman]], _[http://homotopytypetheory.org/2015/07/05/modules-for-modalities/](http://homotopytypetheory.org/2015/07/05/modules-for-modalities/)_  (2015)
+
+
+* [[Egbert Rijke]], [[Bas Spitters]], around def. 1.11 of _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
+* Kevin Quirin, _Lawvere-Tierney Sheafification in Homotopy Type Theory_, [Workshop](http://hott-uf.gforge.inria.fr) talk 2015 ([pdf](http://hott-uf.gforge.inria.fr/HoTTUF_kevin.pdf))
+
+
 Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
 * [[Andrzej Filinski]], _Representing Layered Monads_, POPL 1999. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.2016))
@@ -159,15 +174,6 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 
 * Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
 
-* {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
-
-* {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
-
-* [[Mike Shulman]], _[http://homotopytypetheory.org/2015/07/05/modules-for-modalities/](http://homotopytypetheory.org/2015/07/05/modules-for-modalities/)_  (2015)
-
-Formalization of modalities in [[homotopy type theory]] is discussed also around def. 1.11 of
-
-* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
 
 See also
