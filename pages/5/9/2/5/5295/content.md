@@ -64,7 +64,7 @@ Although it\'s not enough to derive all of the above, much of the essence of int
 
 In intuitionistic mathematics, already [[set theory]] behaves a lot like [[topology]], a point stressed by [[Frank Waaldijk]] ([web](http://www.fwaaldijk.nl/mathematics.html)). He uses the [[Kleene-Vesley]] system.  Fourman's [[Continuous truth]] makes this remark precise using [[topos theory]].
 
-Although intuitionstic mathematics does not accept all [[function sets]] (much less [[power sets]]), it seems to allow for both [[induction|inductive]] and [[coinduction|coinductive]] structures; see [a Caf&#233; comment](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020731).
+Although intuitionistic mathematics does not accept all [[function sets]] (much less [[power sets]]), it seems to allow for both [[induction|inductive]] and [[coinduction|coinductive]] structures; see [a Caf&#233; comment](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020731).
 
 
 ## Related concepts
@@ -101,7 +101,7 @@ Reviews with further developments include for instance
 
 For more see also the references at _[[constructive mathematics]]_.
 
-That [[computable mathematics]] is an incarnation of intuitionistic mathematics is spelled out in the lecture notes
+That [[computable mathematics]] is an incarnation of intuitionistic mathematics is spelled out in the lecture notes below:
 
 * {#Bauer05} [[Andrej Bauer]], around section 4,3.1 in _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
