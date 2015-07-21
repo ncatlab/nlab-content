@@ -234,4 +234,9 @@ A detailed description of a subset of the HITs is in:
 * Kristina Sojakova, _Higher Inductive Types as Homotopy-Initial Algebras_
 [arXiv](http://arxiv.org/abs/1402.0761)
 
+See also
+
+* [[Michael Rathjen]], _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ on [[higher inductive types]]
+
+
 [[!redirects higher inductive types]]
