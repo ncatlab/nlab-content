@@ -1,4 +1,8 @@
 
+Michael Green is professor for theoretical [[physics]] at Cambridge.
+
+* [webpage](http://www.damtp.cam.ac.uk/people/m.b.green/)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Green_%28physicist%29)
 
 ## related entries
