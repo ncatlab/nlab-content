@@ -71,7 +71,7 @@ SVC was introduced in the paper
 
 where most of the above results were proven.  Some others can be found in
 
-* Rathjen and Lubarsky, "Choice principles in constructive and classical set theories".
+* [[Michael Rathjen]] and Lubarsky, "Choice principles in constructive and classical set theories".
 
 
 category: foundational axiom
