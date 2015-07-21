@@ -104,10 +104,12 @@ He attributes this result to:
 
 * Alissa Crans, _Shelves, racks, spindles and quandles_, ([arXiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_).
 
-* Michael Eisermann, _Quandle coverings and their Galois correspondence_, ([pdf](http://www.igt.uni-stuttgart.de/eiserm/publications/qcovering.pdf)).
-
 The paper by Crans makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
 
+* Michael Eisermann, _Quandle coverings and their Galois correspondence_, ([pdf](http://www.igt.uni-stuttgart.de/eiserm/publications/qcovering.pdf)).
 
+* Aaron Kaestner, Sam Nelson, Leo Selker, _Parity biquandle invariants of virtual knots_,  [arxiv/1507.05583](http://arxiv.org/abs/1507.05583)
+
+* Dominique Bourn, _Partial Mal'tsevness and category of quandles_, Talk at CT2015, [abstract](http://ct2015.web.ua.pt/abstracts/bourn_d.pdf), [slides pdf](http://ct2015.web.ua.pt/slides/Bourn.pdf)
 [[!redirects quandle]]
 [[!redirects quandles]]
