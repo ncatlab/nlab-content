@@ -1,0 +1,10 @@
+
+Lional Mason is professor for [[mathematics]] at Oxford.
+
+* [webpage](https://people.maths.ox.ac.uk/lmason/)
+
+## related $n$Lab entries
+
+* [[twistor string theory]]
+
+category: people
