@@ -1,4 +1,11 @@
 
+Andrew Wiles is professor for pure [[mathematics]] at Oxford.
+
+* [webpage](https://www.maths.ox.ac.uk/people/andrew.wiles)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Andrew_Wiles)
+
+
+Wiles is famous for havin proved the [[Taniyama-Shimura conjecture]], also known as the [[modularity theorem]]
 
 category: people
