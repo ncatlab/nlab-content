@@ -55,13 +55,20 @@ On page 11, Lawvere discusses categories intermediate between the original cohes
 
 It is noteworthy that Cantor's conception of cardinal number is a mildly disguised form of the definition of number as _'a multitude made up of units'_ in [[Euclid]], book VII, def.2. This was until the end of the 19th century a standard definition of the _finite_ cardinals and in Cantor's time was e.g. used by the highly influential Karl Weierstrass in his lectures[^weierstrass] and defended by Weierstrass' student Edmund Husserl in his 'Philosophie der Arithmetik' (1891).
 
-Cantor comments on Euclid in '_Mitteilungen zur Lehre vom Transfiniten_' (1887-88, [Cantor (1932)](#Cantor32) pp.378-438)). His comment (p.380f.) makes it clear that he views cardinals actually as the cohesive 'united' objects whereas he _stresses the discreteness_ of the concrete elements in the 'Mengen'. He criticizes Euclid for not emphasizing that numbers are actually more unified objects than the material sets they are abstracted from. Another key passage in this direction reads: 
+Cantor comments on Euclid in '_Mitteilungen zur Lehre vom Transfiniten_' (1887-88, [Cantor (1932)](#Cantor32) pp.378-438)). His comment (p.380f.) makes it clear that he views cardinals actually as the cohesive 'united' objects whereas he _stresses the discreteness_ of the concrete elements in the 'Mengen'. He criticizes Euclid for not emphasizing that numbers are actually more unified objects than the material sets they are abstracted from. Another key passage (with unmistakingly Aristotelian overtones) in this direction reads: 
 
 >'_Die Elemente der uns gegen&#252;berstehenden Menge $M$ sind getrennt vorzustellen; in dem intellektualem Gebilde $\overline{M}$, welches ich ihren Ordnungstypus nenne, sind dagegen die Einsen zu einem Organismus vereinigt. In gewissem Sinne l&#228;sst sich jeder Ordnungstypus als ein Kompositum aus Materie und Form ansehen; die darin enthaltenen begrifflich unterschiedenen Einsen liefern die Materie, w&#228;hrend die unter diese bestehende Ordnung das der Form entsprechende ist._' (p.380)
 
-What underlies the contrast between Mengen and Kardinalen, is a platonist conception of mathematics. By abstracting from the contingencies of the material sets one reaches a realm of ideas of higher reality as they achieve a better unification of the many into unity; in particular, the introduction of the units acts as a uniformisation and homogenisation of the diversity-matter of the concrete sets which are then able to participate in the idea of the cardinal number. The pertinent contrast in Cantor is between concrete-particular vs. abstract-general. Furthermore, it seems, that though cardinals are indeed (related to) 'abstract sets', a general concept of 'abstract set' is in fact absent here, as on Cantor's view there can only be one abstract set of a given cardinality i.e. according to Cantor there is something like THE number 2.
+In a letter to Peano he writes:
 
-The views advanced in R. Dedekind's '_Was sind und was sollen die Zahlen?_' (1887) appear to be a more decisive step towards the modern structural approach to set theory and mathematics. Though he similarly defines THE natural numbers in &#167;6.73 by abstraction as a certain 'simple infinite set' he clearly has a concept of such a system 'up to isomorphism': he has also a general concept of 'abstract set' (see also the quote in the footnote at [[ETCS]]). Furthermore, he generally stresses the importance of maps between sets as basic concepts in general.
+> '_I conceive of numbers as 'forms' or
+'species' (general concepts) of sets. In essentials this is the
+conception of the ancient geometry of Plato, Aristotle, Euclid
+etc.'_ (Cantor, _Briefe_, 1991, p.365; quoted after [Hill (2000)](#Hill00))
+
+What underlies the contrast between Mengen and Kardinalen, is a platonist conception of mathematics. By abstracting from the contingencies of the material sets one reaches a realm of ideas of higher reality as they achieve a better unification of the many into unity; in particular, the introduction of the units acts as a uniformisation and homogenisation of the diversity-matter of the concrete sets which are then able to participate in the idea of the cardinal number. The pertinent contrast in Cantor is between concrete-particular vs. abstract-general. Moreover, it seems, that though cardinals are indeed (related to) 'abstract sets', a general concept of 'abstract set' is absent here, as on Cantor's view there can only be one abstract set of a given cardinality i.e. according to Cantor there is something like THE number 2. It seems also somewhat paradoxically to come up with rudimentary structural set theory in order _to do transfinite arithmetic_ !
+
+The views advanced in R. Dedekind's '_Was sind und was sollen die Zahlen?_' (1887) appear to be a more decisive step towards the modern structural approach to set theory and mathematics. Though he similarly defines the natural numbers in &#167;6.73 by abstraction as a certain 'simple infinite set', he clearly has a concept of such a system up to isomorphism: he has also a more general view  of 'abstract set' (see also the quote in the footnote at [[ETCS]]) and of the importance of mathematics 'up to isomorphism'. Furthermore, he stresses the fundamental importance of maps between sets as basic concept in general.
 
 [^weierstrass]: It seems somewhat ironical that Weierstrass whose quest for arithmetical foundations of analysis was one of the main driving forces behind 19th mathematics' move towards set-theoretic foundations actually held views on his fundamental concept 'number' that are closely related to a structural view!
 
@@ -109,7 +116,7 @@ An English version of Cantor's 1885 review of Frege appears as
 
 For an extensive discussion and relevant quotes of Cantor's platonism and abstractionism see
 
-* C. O. Hill, _Abstraction and Idealization in Edmund Husserl and Georg Cantor prior to 1895_ , in Hill, Haddock (eds.), _Husserl or Frege, Meaning, Objectivity and Mathematics_ , Open Court Chicago 2000.
+* {#Hill00}C. O. Hill, _Abstraction and Idealization in Edmund Husserl and Georg Cantor prior to 1895_ , in Hill, Haddock (eds.), _Husserl or Frege, Meaning, Objectivity and Mathematics_ , Open Court Chicago 2000.
 
 The key concepts of 'one' and 'many' taken from Plato's 'Philebus' dialogue reappear in Hegel's "set theory":
 
