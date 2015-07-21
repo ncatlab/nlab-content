@@ -164,13 +164,14 @@ A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]]
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed ∞-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
 [[!redirects types of types]]
+
 [[!redirects universe of types]]
 [[!redirects universes of types]]
 
 
 See also
 
-* {#Rathjen} Michael Rathjen, _The strength of Martin-L&#246;f type theory with superuniverse. Part I_ [pdf](https://www1.maths.leeds.ac.uk/~rathjen/Super.pdf)
+* {#Rathjen} [[Michael Rathjen]], _The strength of Martin-L&#246;f type theory with superuniverse. Part I_ [pdf](https://www1.maths.leeds.ac.uk/~rathjen/Super.pdf)
 
 * {#SEP} Stanford Encyclopedia of Philosophy,  _[Type theory -- Extensions of type systems, Polymorphism, Paradoxes](http://plato.stanford.edu/entries/type-theory/#6)_
 
