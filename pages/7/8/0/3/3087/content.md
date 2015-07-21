@@ -1,7 +1,11 @@
 
+Behrang Noohi is reader in [[mathematics]] at Queen Mary, London.
+
 * [website](http://www.mth.kcl.ac.uk/~noohi/)
 
 ## Related $n$Lab entries
+
+* [[geometric stack]]
 
 * [[butterfly]]
 
