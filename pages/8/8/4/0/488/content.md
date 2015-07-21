@@ -66,6 +66,14 @@ Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$
 
 [(Johnstone 2002, p.220)](#Johnstone)
 
++--{: .num_prop}
+###### Proposition
+$\mathcal{E}$ is Boolean iff the only dense subtopos of $\mathcal{E}$ is $\mathcal{E}$ itself.
+=-- 
+
+**Proof**.  Suppose $\mathcal{E}$ is Boolean. Then $\mathcal{E}_{\neg\neg}=\mathcal{E}$ is the only dense Boolean subtopos (cf. [[double negation]]{#boolean_subtopos}).
+Conservely, suppose $\mathcal{E}$ is not Boolean then $\mathcal{E}_{\neg\neg}$ is a second dense subtopos.
+
 +-- {: .num_prop}
 ###### Proposition
 
