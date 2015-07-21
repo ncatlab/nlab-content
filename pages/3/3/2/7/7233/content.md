@@ -401,6 +401,7 @@ Surveys include
 * {#Hitchin} [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
 
+
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
 
@@ -448,7 +449,7 @@ A survey of the corresponding [[string phenomenology]] for [[M-theory on G2-mani
 
 See also
 
-* {#BGGG01} Andreas Brandhuber, Jaume Gomis, Steven S. Gubser, [[Sergei Gukov]], _Gauge Theory at Large N and New G_2 Holonomy Metrics_, Nucl.Phys. B611 (2001) 179-204 ([arXiv:hep-th/0106034](http://arxiv.org/abs/hep-th/0106034))
+* {#BGGG01} [[Andreas Brandhuber]], [[Jaume Gomis]], [[Steven Gubser]], [[Sergei Gukov]], _Gauge Theory at Large N and New $G_2$ Holonomy Metrics_, Nucl.Phys. B611 (2001) 179-204 ([arXiv:hep-th/0106034](http://arxiv.org/abs/hep-th/0106034))
 
 Weak $G_2$-holonomy is discussed in
 
