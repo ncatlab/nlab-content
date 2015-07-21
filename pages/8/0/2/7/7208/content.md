@@ -80,9 +80,10 @@ See $n$Lab entry [[affine Lie algebra]] and
 
 The following references discuss aspects of the Kac-Moody [[exceptional geometry]] of [[supergravity]] theories.
 
-Lecture notes:
 
 * [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
+
+* [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
  
 
 [[!redirects Kac-Moody algebras]]
