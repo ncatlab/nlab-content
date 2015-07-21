@@ -1,5 +1,14 @@
 
+Daniel Waldram is professor for theoretical physics at Imperial College London.
+
 * [webpage](http://www3.imperial.ac.uk/people/d.waldram)
+
+## related $n$Lab entries
+
+* [[exceptional generalized geometry]]
 
 category: people
 
+
+
+[[!redirects Dan Waldram]]
