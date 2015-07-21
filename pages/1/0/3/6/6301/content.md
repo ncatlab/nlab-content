@@ -84,6 +84,12 @@ It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolutio
 
 * [pdf](http://ptp.oxfordjournals.org/content/52/1/335.full.pdf)
 
+Discussion in theories with [[higher curvature corrections]] of the gravitational background and in [[string theory]] includes
+
+* Xian O. Camanho, Jose D. Edelstein, [[Juan Maldacena]], Alexander Zhiboedov, _Causality Constraints on Corrections to the Graviton Three-Point Coupling_ ([arXiv:](http://arxiv.org/abs/1407.5597))
+
+* Giuseppe D'Appollonio, [[Paolo Di Vecchia]], [[Rodolfo Russo]], [[Gabriele Veneziano]], _Regge behavior saves String Theory from causality violations_ ([arXiv:1502.01254](http://arxiv.org/abs/1502.01254))
+
 
 [[!redirects causal locality]]
 
