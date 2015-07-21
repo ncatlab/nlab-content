@@ -1,0 +1,12 @@
+
+Bernd Schroers is professor of [[mathematics]] at Heriot-Watt in Edinburgh.
+
+* [webpage](http://www.hw.ac.uk/schools/mathematical-computer-sciences/staff-directory/bernd-schroers.htm)
+
+## related $n$Lab entries
+
+* [[Chern-Simons theory]]
+
+* [[Kaluza-Klein compactification]]
+
+category: people
