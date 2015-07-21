@@ -1,4 +1,14 @@
 
+David Berman is reader in theoretical [[physics]] at Queen Mary College, London.
+
 * [webpage](http://www.strings.ph.qmul.ac.uk/~dsb/)
+
+## related $n$Lab entries
+
+* [[exceptional generalized geometry]]
+
+* [[M-brane]]
+
+* [[confinitement]] in [[AdS-CFT]] ([[string theory results applied elsewhere]])
 
 category: people
