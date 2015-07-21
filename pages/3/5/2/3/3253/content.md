@@ -1,4 +1,6 @@
 
+John Greenlees is professor for [[mathematics]] in Sheffield.
+
 * [website](http://www.greenlees.staff.shef.ac.uk/)
 
 ## related $n$Lab entries
