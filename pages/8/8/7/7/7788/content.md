@@ -55,6 +55,9 @@ Reviews include
 
 * [[Fabio Riccioni]], _The $E_{11}$ origin of gauge maximal supergravities_ ([pdf](http://ggi-www.fi.infn.it/talks/talk71.pdf))
 
+* [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+
 Original articles include
 
 * {#West01} [[Peter West]], _E(11) and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001.
