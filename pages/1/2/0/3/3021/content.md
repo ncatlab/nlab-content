@@ -1,4 +1,6 @@
 
+Nicola Gambino is associate professor of [[mathematics]] at Leeds.
+
 * [website](http://www.math.unipa.it/~ngambino/)
 
 # related $n$Lab entries #
@@ -6,6 +8,10 @@
 * [[homotopy limit]]
 
 * [[monad]]
+
+* [[type theory]], [[homotopy type theory]]
+
+* [[higher inductive type]], [[initial algebra over an endofunctor]], [[W-types]]
 
 category: people
 [[!redirects N. Gambino]]
