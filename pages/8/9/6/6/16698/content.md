@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[elliptic curve]], [[modular curve]], [[modular form]]
+
+## References
+
+* Wikipedia, _[Modularity theorem](https://en.wikipedia.org/wiki/Modularity_theorem)_
+
+[[!redirects modularity theorem]]
