@@ -87,7 +87,7 @@ A review and status report is in
 
 Other reviews include
 
-* [[Paul Aspinwall]], [[Tom Bridgeland]], Alastair Craw, [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], [[Balázs Szendr?i]], P. Wilson,
+* [[Paul Aspinwall]], [[Tom Bridgeland]], [[Alastair Craw]], [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], [[Balázs Szendr?i]], P. Wilson,
 
   _Dirichlet branes and mirror symmetry_, 
 
