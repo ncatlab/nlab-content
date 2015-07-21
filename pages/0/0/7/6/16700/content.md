@@ -1,0 +1,15 @@
+
+Paul Cook is lecturer of [[mathematics]] at King's College London.
+
+## selected writings
+
+* Paul Cook, _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+
+## related $n$Lab entries
+
+* [[Kac-Moody algebra]], [[E11]]
+
+* [[M-theory]]
+
+category: people
