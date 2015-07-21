@@ -29,7 +29,7 @@ The *axiom of multiple choice* states one of two things:
 1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ such that $X\cong D_c$ for some $c$, or
 1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ and a family of surjections $\{D_c \to X\}_{c\in C}$.
 
-The second formulation seems to be the one originally given by M&P, below, while the first is that given by Rathjen and attributed to Aczel and Simpson.
+The second formulation seems to be the one originally given by M&P, below, while the first is that given by [[Michael Rathjen]] and attributed to [[Peter Aczel]] and Simpson.
 
 +--{: .query}
 [[Mike Shulman]]: Are these the same?  If not, why are they given the same name?
