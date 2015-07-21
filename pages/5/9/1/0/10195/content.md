@@ -245,4 +245,4 @@ An application of coalgebra theory to ordinal notation systems is described here
 
 Ordinal analysis as measuring consistency strengths of theories is well-described in this paper: 
 
-* Michael Rathjen, The art of ordinal analysis, International Congress of Mathematicians, II, Eur. Math. Soc., Zurich, pp. 45&#8211;69. ([pdf](http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf)) 
+* [[Michael Rathjen]], The art of ordinal analysis, International Congress of Mathematicians, II, Eur. Math. Soc., Zurich, pp. 45&#8211;69. ([pdf](http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf)) 
