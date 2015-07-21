@@ -196,13 +196,17 @@ A textbook account of the basic theory is in [chapter 10](http://www.andrew.cmu.
 
 A brief review of some basics with an eye towards [[inductive types]] is in section 2 of
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
- {#AwodeyGambinoSojakova}
+* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
+ 
+
+Discussion for [[homotopy type theory]] is in
+
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
 
 The relation to [[free monads]] is discussed in 
 
-* [Maciej](http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
- {#Maciej}
+* {#Maciej} [Maciej](http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
+ 
 
 
 [[!redirects initial algebras of an endofunctor]]
