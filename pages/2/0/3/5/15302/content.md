@@ -1,5 +1,12 @@
 
+Kevin Buzzard is professor for pure [[mathematics]] at Imperial College London.
 
-* [wbpage](http://www2.imperial.ac.uk/~buzzard/)
+* [institute webpage](http://www2.imperial.ac.uk/~buzzard/)
+
+* [personal webpage](http://wwwf.imperial.ac.uk/~buzzard/)
+
+## related $n$Lab entries
+
+* [[Langlands correspondence]]
 
 category: people
