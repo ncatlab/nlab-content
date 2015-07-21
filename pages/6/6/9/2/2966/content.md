@@ -1,9 +1,19 @@
 
+Nigel Hitchin is professor of pure [[mathematics]] at Oxford.
+
 * [website](http://people.maths.ox.ac.uk/~hitchin/)
 
 #related $n$Lab entries#
 
+* [[Hitchin connection]]
+
+* [[Hitchin fibration]]
+
+* [[Hitchin functional]]
+
 * [[generalized complex geometry]]
+
+* [[Kobayashi-Hitchin correspondence]]
 
 category: people
 
