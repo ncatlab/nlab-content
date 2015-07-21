@@ -15,6 +15,6 @@ Some more information can be found at [[ZFC]]. Perhaps this should be moved here
 
 ## References
 
-* Peter Aczel and Michael Rathjen, _Notes on Constructive Set theory_, [PDF](http://www.ml.kva.se/preprints/meta/AczelMon_Sep_24_09_16_56.rdf.html)
+* [[Peter Aczel]], [[Michael Rathjen]], _Notes on Constructive Set theory_, [PDF](http://www.ml.kva.se/preprints/meta/AczelMon_Sep_24_09_16_56.rdf.html)
 
 * Wikipedia, _[Constructive set theory](http://en.wikipedia.org/wiki/Constructive_set_theory)_
