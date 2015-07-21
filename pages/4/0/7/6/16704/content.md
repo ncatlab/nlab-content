@@ -5,7 +5,7 @@ Michael Rathjen is professor for [[mathematical logic]] at Leeds.
 
 * Research grant _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ on [[higher inductive types]]
 
-## related $n$Lan entries
+## related $n$Lab entries
 
 * [[constructive set theory]]
 
