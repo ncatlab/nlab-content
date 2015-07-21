@@ -1,6 +1,11 @@
 
+George Papadopoulos is professor for mathematics at King's College London.
 
 * [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/papadopoulosg.aspx)
 
+
+## related $n$Lab entries
+
+* [[exceptional holonomy]]
 
 category: people
