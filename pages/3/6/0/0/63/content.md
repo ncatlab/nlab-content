@@ -278,6 +278,13 @@ and expanded on in
 
 * Wheeler-Festschrift, Klauder (ed.): _Magic without Magic_ . (1972)
 
+The BRST formalism originates around
+
+* [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], (1976). Renormalization of gauge theories. Ann. Phys. 98: 287,
+
+see also the references at _[[BRST]]_.
+
+
 A canonical textbook reference on the BRST complex is (chapter 8 of) 
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_
