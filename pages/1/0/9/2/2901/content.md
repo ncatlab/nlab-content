@@ -139,6 +139,14 @@ The significance of this result is that EPG is a complete and decidable theory, 
 
 * {#TG}  [[Alfred Tarski]] and Steven Givant, _Tarski's system of geometry_, Bull. Symb. Logic, Vol. 5 No. 2 (1999), 175&#8211;214. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9012)) 
  
+A textbook account of the axiomatization of Euclidean geometry is
 
+* [[Wolfram Schwabhäuser]], [[Wanda Szmielew]], [[Alfred Tarski]], _Mathematische Methoden in der Geometrie_, Springer 1983
+
+Full formalization of this book in [[Coq]] (as [[synthetic geometry]] but following Tarski's work) is discussed at 
+
+* [[Gabriel Brau]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
+
+ 
 [[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
