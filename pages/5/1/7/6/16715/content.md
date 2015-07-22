@@ -1,0 +1,9 @@
+
+
+* website?
+
+## related $n$Lab entries
+
+* [[Euclidean geometry]], [[synthetic geometry]]
+
+* [[formal proof]], [[Coq]]
