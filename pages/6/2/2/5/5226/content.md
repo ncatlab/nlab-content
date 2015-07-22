@@ -16,13 +16,13 @@ See also scholarpedia: [Becchi-Rouet-Stora-Tyutin_symmetry](http://www.scholarpe
  
 ## Historical references
   
- * C. Becchi, A. Rouet, R. Stora, _The Abelian Higgs-Kibble Model_, Commun. math. Phys. __42__, 127&#8212;162 (1975) [euclid](http://projecteuclid.org/euclid.cmp/1103899003)
+ * [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], _The Abelian Higgs-Kibble Model_, Commun. math. Phys. __42__, 127&#8212;162 (1975) [euclid](http://projecteuclid.org/euclid.cmp/1103899003)
 
- * C. Becchi, A. Rouet, R. Stora, (1974) _The Abelian Higgs-Kibble Model_, Unitarity of the S Operator. Phys. Lett. B52: 344.
+ * [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], (1974) _The Abelian Higgs-Kibble Model_, Unitarity of the S Operator. Phys. Lett. B52: 344.
 
- * C. Becchi, A. Rouet, R. Stora, (1976). Renormalization of gauge theories. Ann. Phys. 98: 287.
+ * [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], (1976). Renormalization of gauge theories. Ann. Phys. 98: 287.
 
- * C. Becchi, A. Rouet, R. Stora, Lectures given at the International School on Elementary Particle Physics. Ba&#353;ko-Polje (September 1974)
+ * [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], Lectures given at the International School on Elementary Particle Physics. Ba&#353;ko-Polje (September 1974)
 
 [[!redirects Becchi-Rouet-Stora-Tyutin]]
 
