@@ -1,7 +1,7 @@
 [[Alexander Grothendieck]] wrote in 1955 a revolutionary article on [[homological algebra]], which was, after almost 3 years in redaction, published in 1957 in T&#244;hoku Mathematical Journal:
 
 * A. GROTHENDIECK, Sur quelques points d'alg&#232;bre homologique, T&#244;hoku Math. J. vol 9, n.2, 3, 1957, The [Tohoku university](http://www.tohoku.ac.jp/english/), Sendai, Japan; [MR21&#9839;1328](http://www.ams.org/mathscinet-getitem?mr=0102537). Project Euclid open access pdf scans of the French original: [part 1](http://projecteuclid.org/euclid.tmj/1178244839),
-[part 2](http://projecteuclid.org/euclid.tmj/1178244774). Russian translation as a separate booklet (Izdatel'stvo inostrannoj literatury, Biblioteka Sbornika Matematika, Moskva 1961): [free djvu scan](http://ncatlab.org/nlab/files/GrotendikTohoku.djvu). Michael Barr's English translation: [pdf](http://www.math.mcgill.ca/barr/papers/gk.pdf)
+[part 2](http://projecteuclid.org/euclid.tmj/1178244774). Russian translation as a separate booklet (Izdatel'stvo inostrannoj literatury, Biblioteka Sbornika Matematika, Moskva 1961): [free djvu scan](http://ncatlab.org/nlab/files/GrotendikTohoku.djvu). Michael Barr's English translation: [pdf](http://www.math.mcgill.ca/barr/papers/gk.pdf) ([review](http://inference-review.com/article/tohoku) by [[Rick Jardine]])
 
 In _Tohoku_, as it is nowadays called, Grothendieck observes that [[modules]] over [[rings]], and [[sheaves]] of [[abelian groups]] have similar behaviour and that one can develop their [[homological algebra]] in a unified way; this includes the axiomatics of what is for the first time called [[abelian category|abelian categories]]. Essentially, they were defined in an earlier paper by Buchsbaum as "exact categories", with different motivation
 
