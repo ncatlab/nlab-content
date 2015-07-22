@@ -1,0 +1,10 @@
+
+
+## References
+
+* Wikipedia, _[Four color theorem](https://en.wikipedia.org/wiki/Four_color_theorem)_
+
+[[!redirects four-color theorem]]
+
+[[!redirects four colour theorem]]
+[[!redirects four color theorem]]
