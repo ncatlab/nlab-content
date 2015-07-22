@@ -16,13 +16,26 @@
 
 ## Idea
 
-A certification of a computer program is a formalized guarantee -- a [[proof]] -- that the program has given specified properties.  For instance, it could be guaranteed to compute a given output based on a given input, or to always terminate, or to not include a certain kind of security hole.
+A _certification_ or _formal verification_ of a computer program is a formalized guarantee -- a [[proof]] -- that the program has given specified properties.  For instance, it could be guaranteed to compute a given output based on a given input, or to always terminate, or to not include a certain kind of security hole.
 
 Certifications often take the form of a [[proof]] that a program, regarded as a [[term]] of some sort (under _[[programs as proofs]]_), has a specified [[type]].  Thus, [[programming languages]] based on highly expressive [[type theories]] (including [[dependent types]]) are a natural place to do certified programming "natively".  Examples are _[[Coq]]_ and _[[Agda]]_. In this case, the program is written at the same time as a proof of its certification.  One often then wants to "extract" the executable code or "ignore" the proof part of the terms when actually running the code, for performance reasons; Coq and Agda include mechanisms designed for this.
 
 It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like Coq and Agda are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
 
 So far, fully certified programming in the type-theoretic sense is largely an academic endeavor, see for instance ([SpittersKrebbersvdWeegen](#SpittersKrebbersvdWeegen)); the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
+
+From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Programming and Verification](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M016951/1)_ of [[Neil Ghani]], [[Thorsten Altenkirch]], [[Nicola Gambino]] et al.:
+
+> The cost of software failure is truly staggering. Well known individual cases include the Mars Climate Orbiter failure (&#163;80 million), Ariane Rocket disaster (&#163;350 million), Pentium Chip Division failure (&#163;300 million), and more recently the heartbleed bug (est. &#163;400 million). There are many, many more examples. Even worse,  failures such as one in the Patriot Missile System and another  in the Therac-25 radiation system have cost lives. More generally, a  2008 study by the US government estimated that faulty software costs the US economy &#163;100 billion annually. 
+
+> There are many successful approaches to software verification (testing, model checking etc). One approach is to find mathematical [[proofs]] that guarantees of software correctness. However, the complexity of modern software means that hand-written mathematical proofs can be untrustworthy and this has led to a growing desire for computer-checked proofs of software correctness.  Programming languages and interactive proof systems like [[Coq]], [[Agda]], [[NuPRL]] and Idris have been developed based on a formal system called [[Martin-Löf type theory]]. In these systems, we can not only write programs, but we can also express properties of programs using [[types]], and write programs to express proofs that our programs are correct.
+
+> In this way, both large mathematical [[theorems]] such as the [[four color theorem|Four Colour Theorem]], and large software systems such as the CompCert C compiler have been formally verified. However, in such large projects, the issue of scalability arises: how can we use these systems to build large libraries of verified software in an effective way?
+
+> This is related to the problem of reusability and modularity: a component in a software system should be replaceable by another which behaves the same way even though it may be constructed in a completely different way. That is, we need an "[[identity type|extensional equality]]" which is computationally well behaved (that is, we want to run programs using this equality). Finding such an equality is a fundamental and difficult problem which has remained unresolved for over 40 years.
+
+> But now it looks like we might have a solution! Fields medallist [[Vladimir Voevodsky]] has come up with a completely different take on the problem by thinking of equalities as paths such as those which occur in one of the most abstract branches of mathematics, namely [[homotopy theory]], leading to [[homotopy type theory|Homotopy Type Theory]] (HoTT). In HoTT, two objects are completely interchangeable if they behave the same way. However, most presentations of HoTT involve [[axioms]] which lack computational justification and, as a result, we do not have programming languages or verification systems based upon HoTT. The goal of our project is to fix that, thereby develop the first of a new breed of HoTT-based programming languages and verification systems, and develop case studies which demonstrate the power of HoTT to programmers and those interested in formal verification.
+
 
 ## Examples
 
@@ -39,3 +52,5 @@ Discussion of the need for certified programming in scientific computation is in
 * [[Bas Spitters]], Robberts Krebbers, Eelis van der Weegen, _From computational analysis to thoughts about analysis in HoTT_, MAP International spring school on formalization of Mathematics (2012) ([pdf](http://www.cs.ru.nl/~spitters/MapSpringSchool.pdf))
  {#SpittersKrebbersvdWeegen}
  
+[[!redirects verified software]]
+[[!redirects software verification]]
