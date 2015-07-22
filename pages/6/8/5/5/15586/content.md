@@ -104,6 +104,10 @@ A more recent view of Lawvere exposing in particular his 'M&#252;nchhausen' appr
 
 * [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
 
+An insightful and non-partisan view of ETCC can be found in a section of:
+
+* [[Andreas Blass]], Yuri Gurevich, _Why Sets ?_ , Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) pp.139-156.  ([draft](http://www.math.lsa.umich.edu/~ablass/set.pdf))
+
 Alternative or complementary approaches are
 
 * [[J. Bénabou]], _Fibered Categories and the foundations of naive category theory_ , JSL **50** (1985) pp.10-37. ([preprint](http://www.cwru.edu/artsci/phil/Benabou%20Fibered.pdf))
