@@ -208,6 +208,14 @@ According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton
 
 * {#Atiyah77} [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
 
+Discussion of the duality for abelian gauge theory ([[electromagnetism]]) is is
+
+* [[Edward Witten]], _On S-duality in abelian gauge theory_ Selecta Mathematica, (2):383-410, 1995 ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
+
+* Jose Barbon. &#10068;Generalized abelian s-duality and coset constructions_, Nuclear Physics B, 452(1):313-330, 1995
+
+* Gerald Kelnhofer, _Functional integration and gauge ambiguities in generalized abelian gauge theories_ J. Geom. Physics, 59:1017-1035, 200
+
 See also the references at _[[electro-magnetic duality]]_.
 
 The insight that the Montonen-Olive duality works more naturally in [[super Yang-Mills theory]] is due to
