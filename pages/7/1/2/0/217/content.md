@@ -21,11 +21,15 @@
 
 The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
-The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.)[^cantor] [^dedekind]
+The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.)[^cantor] [^dedekind] [^schoenflies]
 
 [^cantor]: It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94). 
 
 [^dedekind]: [[Richard Dedekind| R. Dedekind's]] views are also anticipating 'abstract sets' e.g. Bernstein reports in Dedekind's works vol.3 (1932, p.449) that Dedekind gave as his intuition of a set: "a closed bag, containing determinate things that one can not see and of which one knows nothing beyond their existence and determinateness".
+
+[^schoenflies]: The first axiomatic set theory without primitive membership relation $\in$ was presumably proposed by A. Schoenflies in 1920: he modeled elements of sets as indecomposable subsets. See A. Schoenflies, _Zur Axiomatik der Mengenlehre_ , Math. Ann. **83** (1921) pp.173-200; and _Bemerkung zur Axiomatik der Gr&#246;ssen und Mengen_ , Math. Ann. **85** (1922) pp.60-64.
+
+[^vonneumann] The first axiomatic set theory based on the notion of function was [[John von Neumann|von Neumann]]'s 1925 version of what later became the set based [[NBG]] theory of classes.
 
 [^Law]: For a comparative discussion of its virtues as foundation see [[foundations of mathematics]] , the [texts by Todd Trimble](#ExpositionByTrimble) or the informative paper by [McLarty (2004)](#McLarty04).
 
@@ -125,7 +129,11 @@ On the anticipation of 'abstract sets' in [[Georg Cantor|Cantor]]:
 
 A short overview article on ETCS:
 
-* Tom Leinster, _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543).
+* [[Tom Leinster]], _Rethinking set theory_ [arXiv](http://arxiv.org/abs/1212.6543).
+
+An insightful and non-partisan view of ETCS can be found in a section of:
+
+* [[Andreas Blass]], Yuri Gurevich, _Why Sets ?_ , Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) pp.139-156.  ([draft](http://www.math.lsa.umich.edu/~ablass/set.pdf))
 
 An extended discussion from a philosophical perspective is in
 
