@@ -1,11 +1,15 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Yoichiro_Nambu)
 
+* [obituary by Madhusree Mukerjee](http://www.huffingtonpost.com/madhusree-mukerjee/the-passing-of-a-gentle-g_b_7827966.html)
+
+
 ## Related $n$Lab entries
 
 * [[Nambu-Goto action]]
 
 * [[Nambu bracket]], [[Nambu mechanics]]
+
 
 
 category: people
