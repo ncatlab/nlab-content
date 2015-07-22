@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Raymond_Stora)
+
+## related $n$Lab entries
+
+* [[BRST complex]], [[BV-BRST formalism]]
+
+category: people
