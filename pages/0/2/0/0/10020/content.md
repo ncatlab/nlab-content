@@ -45,6 +45,8 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 ## References
 
+### CS/WZW
+
 The original article on the CS/WZW correspondence is
 
 * {#Witten89} [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
@@ -71,5 +73,10 @@ A general argument about the relation between AdS/CFT duality and [[schreiber:in
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
 
 * {#CoussaertHenneauxvanDriel95} O. Coussaert, [[Marc Henneaux]], P. van Driel, _The asymptotic dynamics of three-dimensional Einstein gravity with a negative cosmological constant_, Class. Quant. Grav. 12 (1995) 2961-2966 ([arXiv:gr-qc/9506019](http://arxiv.org/abs/gr-qc/9506019))
+
+### $AdS_3$/$CFT_2$
+
+* [[Andrea Prinsloo]], [[Vidas Regelskis]], [[Alessandro Torrielli]], _Integrable open spin-chains in AdS3/CFT2_ ([arXiv:1505.06767](http://arxiv.org/abs/1505.06767))
+
 
 [[!redirects CS-WZW correspondence]]
