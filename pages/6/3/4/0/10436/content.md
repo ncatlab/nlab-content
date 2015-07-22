@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Blakers-Massey theorem_ in the [[homotopy theory]] of spaces is concerned with describing algebraically the first obstruction to [[excision]] for relative [[homotopy groups]]. 
+The _Blakers-Massey theorem_ in the [[homotopy theory]] of pointed spaces is concerned with describing algebraically the first obstruction to [[excision]] for relative [[homotopy groups]]. There is also a weaker version just describing vanishing conditions which should be called the _Blakers-Massey connectivity theorem_. 
 
 ## Statement
 
@@ -92,7 +92,7 @@ Thus one of the intuitions is that the Blakers-Massey Theorem, and hence also th
 +-- {: .num_prop}
 ###### Proposition
 
-The Blakers-Massey theorem in the form of remark \ref{InTermsOfPushouts} holds in every [[(∞,1)-topos]] of [[(∞,1)-sheaves]].
+The Blakers-Massey connectivity theorem in the form of remark \ref{InTermsOfPushouts} holds in every [[(∞,1)-topos]] of [[(∞,1)-sheaves]].
 
 =--
 
@@ -178,7 +178,7 @@ Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[al
 ### In $\infty$-topos theory and homotopy type theory
  {#ReferencesInHoTT}
 
-A proof of Blakers Massey in general [[∞-stack]] [[(∞,1)-toposes]] is in prop. 8.16 of
+A proof of Blakers-Massey connectivity in general [[∞-stack]] [[(∞,1)-toposes]] is in prop. 8.16 of
 
 * {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_ (2010) ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
@@ -200,7 +200,7 @@ An announcement was given in
 * {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
 )):
 
-> One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
+ One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
 
 Unwinding to ordinary mathematical language of the computer-checked formal proof of Blakers-Massey (or, for the moment, of the special case that is the Freudenthal suspension theorem) is in 
 
