@@ -63,6 +63,6 @@ A textbook account of the axiomatization of [[Euclidean geometry]] is
 
 * [[Wolfram Schwabhäuser]], [[Wanda Szmielew]], [[Alfred Tarski]], _Mathematische Methoden in der Geometrie_, Springer 1983
 
-Full formalization of this book in [[Coq]] (as synthetic geometry but following Tarski's work) is discussed at 
+Full formalization of the first part of this book in [[Coq]] (as synthetic geometry but following Tarski's work) is discussed at 
 
 *  [[Gabriel Brau]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
