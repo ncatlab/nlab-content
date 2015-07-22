@@ -104,18 +104,21 @@ Yet properly learning Coq can be quite daunting, luckily the right material can 
  
 ### Applications to formal mathematics
 
-* [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
-  {#ForMath}
+* {#ForMath} [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
+  
 
-* Eelis van der Weegen, [[Bas Spitters]], Robbert Krebbers, Matthieu Sozeau, Tom Prince, [[Jelle Herold]], 
+* {#MathClasses} Eelis van der Weegen, [[Bas Spitters]], Robbert Krebbers, Matthieu Sozeau, Tom Prince, [[Jelle Herold]], 
 
   _Math Classes_, Coq Library for basic mathematical structures ([web](http://math-classes.org/))
- {#MathClasses}
+ 
+Formalization of [[synthetic geometry|syntheti]] [[Euclidean geometry]]:
+
+* [[Gabriel Brau]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
 
 For applications to [[homotopy type theory]] see the references listed there. Especially
 
-* [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
-  {#UnivalentFoundations}
+* {#UnivalentFoundations} [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
+  
 
 category: software
 
