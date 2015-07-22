@@ -1,4 +1,14 @@
 
+Chris Heunen is EPSRC research fellow in [[computer science]] at Oxford.
+
 * [website](http://www.comlab.ox.ac.uk/people/chris.heunen/about.html)
+
+## related $n$Lab entries
+
+* [[quantum logic]]
+
+* [[quantum operation]]
+
+* [[finite quantum mechanics in terms of dagger-compact categories]]
 
 category: people
