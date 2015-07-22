@@ -18,4 +18,6 @@
 
 * [[correspondence theory of truth]]
 
+* [[Euclidean geometry]]
+
 category: people
