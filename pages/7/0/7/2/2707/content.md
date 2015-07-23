@@ -167,32 +167,6 @@ Spitweck defined such an $E_\infty$-algebra $M_{\mathbb{Z}}$ such that
 
 The stable $(\infty,1)$-category of $M_S$-modules is thus a well-behaved candidate for a derived category of integral motives, but it is only known to agree with Voevodsky's definition when $S$ is a field of characteristic zero (by [Rondigs-Ostvaer, Theorem 5.5](#RO08)).
 
-### References
-
-The definition of Voevodsky motives can be found in
-
-* [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.claymath.org/library/monographs/cmim02.pdf))
-{#MaVoWe}
-
-and the definition of Ayoub motives in
-
-* [[Joseph Ayoub]], _La r&#233;alisation &#233;tale et les op&#233;rations de Grothendieck_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/Realisation-Etale.pdf))
-
-For the definition of Beilinson and Morel motives, the equivalences of the various definitions, and the formalism of six operations, see
-
-* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], _Triangulated categories of mixed motives_ ([arXiv](http://arxiv.org/abs/0912.2110))
-{#CD12}
-
-The fact that $DM(k)$ is equivalent to the category of $H(\mathbb{Z})$-modules if $\mathrm{char}(k)=0$ is proved in
-
-* [[Oliver Röndigs]], [[Paul Arne Østvær]], _Modules over motivic cohomology_ ([pdf](http://www.math.uni-bielefeld.de/~oroendig/MZfinal.pdf))
-{#RO08}
-
-Spitzweck's definition of a motivic cohomology spectrum over $Spec \mathbb{Z}$ is in
-
-* [[Markus Spitzweck]], _A commutative P^1-spectrum representing motivic cohomology over Dedekind domains I_ ([arXiv](http://arxiv.org/abs/1207.4078))
-
-
 ## Variations and extensions
 
 Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by Connes, Marcolli and others. 
@@ -258,10 +232,14 @@ A review is also in chapter I of
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
-
 Lectures include
 
 * {#Levine06} [[Marc Levine]], _Six lectures on motives_, lectures at _ICTP Workshop on K-theory and Motives_ 2006 ([[LevineMotiveLecture.pdf:file]])
+
+The definition of Voevodsky motives can be found in
+
+* [[Carlo Mazza]], [[Vladimir Voevodsky]], [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.claymath.org/library/monographs/cmim02.pdf))
+{#MaVoWe}
 
 Voevodsky's formalization of motives was sketched in 
 
@@ -275,6 +253,24 @@ and worked out in detail in
 
   _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique (II)_, Ast&#233;risque, vol. 315, Soc. Math. France, 2007.
  {#Ayoub}
+
+the definition of Ayoub motives in
+
+* [[Joseph Ayoub]], _La r&#233;alisation &#233;tale et les op&#233;rations de Grothendieck_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/Realisation-Etale.pdf))
+
+For the definition of Beilinson and Morel motives, the equivalences of the various definitions, and the formalism of six operations, see
+
+* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], _Triangulated categories of mixed motives_ ([arXiv](http://arxiv.org/abs/0912.2110))
+{#CD12}
+
+The fact that $DM(k)$ is equivalent to the category of $H(\mathbb{Z})$-modules if $\mathrm{char}(k)=0$ is proved in
+
+* [[Oliver Röndigs]], [[Paul Arne Østvær]], _Modules over motivic cohomology_ ([pdf](http://www.math.uni-bielefeld.de/~oroendig/MZfinal.pdf))
+{#RO08}
+
+Spitzweck's definition of a motivic cohomology spectrum over $Spec \mathbb{Z}$ is in
+
+* [[Markus Spitzweck]], _A commutative P^1-spectrum representing motivic cohomology over Dedekind domains I_ ([arXiv](http://arxiv.org/abs/1207.4078))
 
 A summary of the axioms and of the main theorems is in the introduction of
 
@@ -307,7 +303,7 @@ There is also
 
 * Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_, [arxiv:0911.5611](http://de.arxiv.org/abs/0911.5611)
 
-* [[Marc Levine]], _Smooth motives_, ([arxiv:0807.2265](http://arxiv.org/abs/0807.2265))
+* [[Marc Levine]], _Smooth motives_, [arxiv:0807.2265](http://arxiv.org/abs/0807.2265)
 
 * [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
 
@@ -318,13 +314,17 @@ Some other aspects
 * M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
 * [[Yuri Manin]], _Motives and quantum cohomology_, talk at Colloque Grothendieck, [video](http://www.dailymotion.com/video/x8juco_colloque-grothendieck-yuri-manin_tech)
 
+Motives from the point of view of Grothendieck topoi are studied in 
+
+* [[Olivia Caramello]], _Motivic toposes, [arxiv/1507.06271](http://arxiv.org/abs/1507.06271)
+
 ### Relation to Hodge theory
 
 Explicit discussion of the relation to [[Hodge theory]] is in 
 
 * [[Chris Peters]], _Tata Lectures on Motivic Aspects of Hodge Theory_ ([pdf](http://www-fourier.ujf-grenoble.fr/~peters/motivic.f/Tatalects.pdf))
 
-### Relation to KK-theory / bivariant K-theory
+### Relation KK-theory and bivariant K-theory, K-motives
  {#RelationToKKTheory}
 
 Relation of [[motivic cohomology]] to [[bivariant algebraic K-theory]] (see also at _[[KK-theory]]_) is discussed in 
