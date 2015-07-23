@@ -24,6 +24,7 @@
 ## Definition
 
 If $x$ and $y$ are elements of a [[partial order|poset]], then their **join**, or **supremum**, is an element $x \vee y$ of the poset such that:
+
 * $x \leq x \vee y$ and $y \leq x \vee y$;
 * if $x \leq a$ and $y \leq a$, then $x \vee y \leq a$.
 Such a join may not exist; if it does, then it is unique.
