@@ -248,7 +248,7 @@ $$
     \\
     & {}_{\mathllap{o_X}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{SpinStruc}_n}}
     \\
-    && \mathbf{B}O(n)
+    && \mathbf{B}SO(n)
   }
 $$ 
 
