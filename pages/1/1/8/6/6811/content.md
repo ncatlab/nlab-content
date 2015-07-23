@@ -1,4 +1,8 @@
 
 * [webpage](http://www.het.brown.edu/~nastase/)
 
+## related $n$Lab entries
+
+* [[Chern-Simons gravity]]
+
 category: people
