@@ -48,7 +48,7 @@ Hilbert's [[theory]] has
 
 * Three sorts: points, line, planes (or if you like: tables, chairs, and beer mugs[^1]); 
 
-[^1]: After a famous saying attributed to Hilbert which in some sense heralds the axiomatic spirit: '_Man mu&#223; jederzeit an Stelle von "Punkte, Geraden, Ebenen" "Tische, St&#252;hle, Bierseidel" sagen k&#246;nnen_'. The 1891 anecdote is reported by O. Blumenthal in Hilbert, _Gesammelte Abhandlungen III. Band_ , Springer Berlin 1935, p.403.
+[^1]: After a famous saying attributed to Hilbert which in some sense heralds the axiomatic spirit: '_Man mu&#223; jederzeit an Stelle von "Punkte, Geraden, Ebenen" "Tische, St&#252;hle, Bierseidel" sagen k&#246;nnen_'. The 1891 anecdote is reported by O. Blumenthal in Hilbert, _Gesammelte Abhandlungen III. Band_ , Springer Berlin 1935, p.403. The three classes became '_Liebe, Gesetz, Schornsteinfeger_' (love, law, chimney-sweep) in Hilbert's letter to [[Gottlob Frege|Frege]] (Dec. 29th 1899). The question raised in Frege's rejoinder (Jan. 6th 1900) whether his pocket watch is a point is still an open problem.
 
 * Six relations: betweenness (a ternary relation on points), three incidence relations (one for points and lines, one for points and planes, one for lines and planes), and two congruence relations (a relation $L(a, b, c, d)$ on points whose intuitive meaning is that the the line segment $a b$ is congruent to the line segment $c d$, and a relation $A(a, b, c, d, e, f)$ on points whose intuitive meaning is that the angle $a b c$ is congruent to the angle $d e f$); 
 
