@@ -145,7 +145,7 @@ A textbook account of the axiomatization of Euclidean geometry is
 
 Full formalization of this book in [[Coq]] (as [[synthetic geometry]] but following Tarski's work) is discussed at 
 
-* [[Gabriel Brau]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
+* [[Gabriel Braun]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
 
  
 [[!redirects Euclidean geometry]]
