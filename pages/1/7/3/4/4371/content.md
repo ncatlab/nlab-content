@@ -83,7 +83,7 @@ The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ correspond
 
 This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
 
-+-- {: .num_prop }
++-- {: .num_prop #smallest_dense_subtopos}
 ###### Proposition
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
@@ -97,7 +97,14 @@ $\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarr
 
 For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
 
-Both of the preceding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
++-- {: .num_prop #smallest_j-dense}
+###### Proposition
+$\not \not$ is the least topology $j$ in $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
+=--
+
+This theorem 1.4. in [Caramello (2009)](#Caramello09).
+
+The preceding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
 
 +-- {: .num_prop #boolean_subtopos}
 ###### Proposition
@@ -192,6 +199,8 @@ Here the "Hegelian fashion" refers to what is discussed in detail at _[[Aufhebun
 More detailed discussion of this is in 
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
+* {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Advances in Mathematics **222** no.6 (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
 
 [[!redirects double negation]]
 [[!redirects double negations]]
