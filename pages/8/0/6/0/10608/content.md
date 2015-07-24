@@ -118,7 +118,13 @@ For an extensive discussion and relevant quotes of Cantor's platonism and abstra
 
 * {#Hill00}C. O. Hill, _Abstraction and Idealization in Edmund Husserl and Georg Cantor prior to 1895_ , in Hill, Haddock (eds.), _Husserl or Frege, Meaning, Objectivity and Mathematics_ , Open Court Chicago 2000.
 
-The key concepts of 'one' and 'many' taken from Plato's 'Philebus' dialogue reappear in Hegel's "set theory":
+For a recent controversial discussion of Cantorian abstraction, the second article using MLTT:
+
+* K. Fine, _Cantorian abstraction: A reconstruction and defense_ , J. Phil. **95** no.12 (1998) pp.599-634.
+
+* W. Hinzen, _Constructive versus Ontological Construals of Cantorian Ordinals_ , Hist. Phil. Logic **24** no.1 (2003) pp.45-63.
+
+The key concepts of 'one' and 'many' taken from Plato's '_Philebus_' dialogue reappear in Hegel's "set theory":
 
 * Alan L. T. Paterson, _Frege and Hegel on concepts and number_, ms. n.d. University of Colorado Boulder. ([pdf](https://sites.google.com/site/apat1erson/nnfregh.pdf?attredirects=0))
 
