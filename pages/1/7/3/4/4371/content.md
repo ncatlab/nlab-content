@@ -28,7 +28,7 @@ In [[intuitionistic logic]], double negation is weaker than the identity.  That 
 In [[linear logic]], double negation is the identity again, although linear logic also has notions of intuitionistic negation and paraconsistent negation which act as above.
 
 
-## In locale theory
+## In locale theory{#double_negation_locale}
 
 Even in [[classical mathematics]], a [[frame]] is a Heyting algebra but not a boolean algebra.  Accordingly, double negation is usually not the identity on a frame.  However, the operation of double negation is a [[nucleus]] on any frame.
 
@@ -102,7 +102,7 @@ For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
 $\not \not$ is the least topology $j$ in $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
 =--
 
-This theorem 1.4. in [Caramello (2009)](#Caramello09).
+This is theorem 1.4. in [Caramello (2009)](#Caramello09).
 
 The preceding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
 
