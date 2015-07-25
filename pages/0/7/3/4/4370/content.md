@@ -20,10 +20,13 @@ Given a [[topological space]] (or [[locale]]) $X$, a [[subspace]] of $X$ is __de
 
 ## Properties
 
-In [[locale]] theory, we have the curious property that any [[intersection]] of dense subspaces is still dense.  (This of course fails rather badly for [[topological spaces]], where the intersection of all dense topological subspaces is the space of [[isolated point]]s.)  One consequence is that every locale has a smallest dense sublocale, the [[double negation sublocale]].
+* If $X\subseteq A$ is a dense subset of topological space $A$, then $X\cap Y\neq\emptyset$ for all non-empty open sets $Y$.
 
+* If $X\subseteq A$ is a dense subset of topological space $A$ and is $X$ is connected, so is $A$.
 
-In point-set topology, a space is [[separable space|separable]] if and only if it has a dense subspace with [[countable set|countably]] many points.
+* In point-set topology, a space is [[separable space|separable]] if and only if it has a dense subspace with [[countable set|countably]] many points.
+
+* In [[locale]] theory, we have the curious property that any [[intersection]] of dense subspaces is still dense.  (This of course fails rather badly for [[topological spaces]], where the intersection of all dense topological subspaces is the space of [[isolated point]]s.)  One consequence is that every locale has a smallest dense sublocale, the [[double negation sublocale]].
 
 
 ## Related concepts
