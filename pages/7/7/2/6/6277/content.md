@@ -60,7 +60,7 @@ $x+\frac{x}{e^x-1}=\frac{x e^x}{e^x -1}=\frac{-x}{e^{-x}-1}$ this only changes t
 * Wolfram MathWorld:  [Bernoulli number](http://mathworld.wolfram.com/BernoulliNumber.html)
 * [[John C. Baez]], _The Bernoulli numbers_, 2003 expository notes, [pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf)
 * Bernoulli numbers page [bernoulli.org](http://bernoulli.org)
-* chapter 3 in [[Pierre Cartier]], _Mathematigics_, [pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf)
+* chapter 3 in [[Pierre Cartier]], _Mathemagics_, [pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf)
 
 ### Lie theory, deformation theory, knot theory, geometry
 
@@ -84,7 +84,7 @@ the unknot_, [q-alg/9703025](http://arxiv.org/abs/q-alg/9703025)
 
 ## References
 
-In the context of the [[A-hat genus]] the Benoulli numbers are discussed in section 10.2 of 
+In the context of the [[A-hat genus]] the Bernoulli numbers are discussed in section 10.2 of 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 
