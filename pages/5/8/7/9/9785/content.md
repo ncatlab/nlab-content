@@ -40,6 +40,32 @@ By the discussion at [conserved current -- In higher prequantum geometry](conser
 In ([Castellani 05](#Castellani05)) it is 
 implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
+### As an 11-dimensional boundary condition for the M2-brane
+
+The original construction in ([D'Auria-Fre 82](#DAuriaFre82)) asks for a [[super Lie algebra]] [[Lie algebra extension|extension]] $\mathbb{R}^{10,1\vert 32} \rtimes \mathfrak{g}$ of [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert 32}$ such that the 4-[[cocycle]] $\mu_4 = \overline{\psi} \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b$ for the M2-brane trivializes when pulled back to this:
+
+$$
+  \array{
+    & & \mathbb{R}^{10,1\vert 32} \rtimes \mathfrak{g}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\simeq} && \mathbb{R}^{10,1\vert 32}
+    \\
+    & \searrow && \swarrow_{\mathrlap{\mu_4}}
+    \\
+    && B^{3}\mathbb{R}
+  }
+  \,.
+$$
+
+(In the language of [[local prequantum field theory]] this identifies a [[boundary condition]] for the WZW term of the M2-brane.)
+
+They find, see also ([Bandos-Azcarraga-Izquierdo-PiconVarela 04](#BandosAzcarragaIzquierdoPiconVarela04)) that a solution for $\mathfrak{g}$ includes a fermionic extension of the M-theory super Lie algebra.
+
+
+
+
 ## Related concepts
 
 * [[type II super Lie algebra]]
@@ -73,6 +99,8 @@ reviewed in section 8.8. of
 
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
+
 The generalization of this including also the contribution of the [[M5-brane]] was considered in
 
 * {#SorokinTownsend97} [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys.Lett. B412 (1997) 265-273 ([arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003))
@@ -94,12 +122,16 @@ with amplification in
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
 
-* [[nLab:Hisham Sati]], [[Urs Schreiber]], _[[Lie n-algebras of BPS charges]]_
+* [[nLab:Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_
 
   
 Discussion of a formulation in terms of [[octonions]] (see also at _[[division algebra and supersymmetry]]_) includes
 
 * A. Anastasiou, L. Borsten, [[Michael Duff]], L. J. Hughes, S. Nagy, _An octonionic formulation of the M-theory algebra_ ([arXiv:1402.4649](http://arxiv.org/abs/1402.4649))
+
+Arguments that the charges of the M-theory super Lie algebra may be identified inside [[E11]] are given in 
+
+* [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
 
 [[!redirects M-theory Lie algebra]]
 
