@@ -66,7 +66,13 @@ Original articles include
 
 * [[Fabio Riccioni]], [[Peter West]], _The $E_{11}$ origin of all maximal supergravities_, JHEP 0707:063,2007 ([arXiv:0705.0752](http://arxiv.org/abs/0705.0752))
 
+* [[Fabio Riccioni]], [[Peter West]], _E(11)-extended spacetime and gauged supergravities_, JHEP 0802:039,2008 ([arXiv:0712.1795](http://arxiv.org/abs/0712.1795))
 
 * [[Fabio Riccioni]], Duncan Steele, [[Peter West]], _The E(11) origin of all maximal supergravities - the hierarchy of field-strengths_, 	JHEP 0909:095 (2009) ([arXiv:0906.1177](http://arxiv.org/abs/0906.1177))
 
 * E. Bergshoeff, I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
+
+Arguments that the charges of the [[M-theory super Lie algebra]] may be identified inside $E_{11}$ are in
+
+* [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
+
