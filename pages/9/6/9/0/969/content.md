@@ -183,9 +183,15 @@ The classical reference to localization for categories is the book by Gabriel an
 
 * P. Gabriel, M. Zisman, _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
  
-A more modern account of localization with a [[calculus of fractions]] is section 7 of
+A more recent account of localization with a [[calculus of fractions]] is section 7 of
 
 * [[M. Kashiwara]], [[P. Schapira]], _[[Categories and Sheaves]]_, Springer 2000. 
+
+An excellent account emphasizing the interplay of the different notions (reflective subcategory, calculus of fractions, closure operator) can be found in ch. V of
+
+* [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra vol. 1_ , Cambridge UP 1994.[^borceux]
+
+[^borceux]: See also vols.2,3 for examples of the theory in action in abelian categories, sheaf theory etc.
 
 The pioneering work on abelian categories, with a large part on the localization in abelian categories is
 
