@@ -21,7 +21,7 @@
 
 The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
-The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.)[^cantor] [^dedekind] [^schoenflies]
+The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.[^cantor] [^dedekind] [^schoenflies] [^vonneumann])
 
 [^cantor]: It has been pointed out by John Myhill that Cantor's concept of 'cardinal' as a set of abstract units should be viewed as a structural set theory and a precursor to Lawvere's concept of an 'abstract set'. This view is endorsed and expanded in [Lawvere 1994](#Lawvere94). 
 
@@ -29,7 +29,7 @@ The theory intends to capture in an invariant way the notion of a (constant) _'a
 
 [^schoenflies]: The first axiomatic set theory without primitive membership relation $\in$ was presumably proposed by A. Schoenflies in 1920: he modeled elements of sets as indecomposable subsets. See A. Schoenflies, _Zur Axiomatik der Mengenlehre_ , Math. Ann. **83** (1921) pp.173-200; and _Bemerkung zur Axiomatik der Gr&#246;ssen und Mengen_ , Math. Ann. **85** (1922) pp.60-64.
 
-[^vonneumann] The first axiomatic set theory based on the notion of function was [[John von Neumann|von Neumann]]'s 1925 version of what later became the set based [[NBG]] theory of classes.
+[^vonneumann]: The first axiomatic set theory based on the notion of function was [[John von Neumann|von Neumann]]'s 1925 version of what later became the set based [[NBG]] theory of classes.
 
 [^Law]: For a comparative discussion of its virtues as foundation see [[foundations of mathematics]] , the [texts by Todd Trimble](#ExpositionByTrimble) or the informative paper by [McLarty (2004)](#McLarty04).
 
