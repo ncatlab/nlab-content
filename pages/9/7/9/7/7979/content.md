@@ -42,7 +42,7 @@ where $\Sigma$ is any closed surface.
 
 __Faraday's law of induction__
 $$
-\oint_{\partial \Sigma} B\cdot d s = - \frac{d}{d t} \int_\Sigma B\cdot d A
+\oint_{\partial \Sigma} E\cdot d s = - \frac{d}{d t} \int_\Sigma B\cdot d A
 $$
 
 The line element $d s$ is the differential (or 1-d measure on the boundary) of the length times the unit vector in counter-circle direction (or parametrize the curve with $s$ being a vector in 3d space, express magnetic field in the same parameter and calculate the
