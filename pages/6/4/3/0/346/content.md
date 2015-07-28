@@ -117,6 +117,7 @@ The closed structure on a category $\mathcal{V}_0$ is an enrichment context $\ma
 
 * [[Kelly–Mac Lane graph]]
 
+* [[locally cartesian closed category]]
 
 ## References 
 
@@ -145,5 +146,4 @@ The alternative embedding of closed categories based on promonoidal Day convolut
 
 * {#DayLaPlaza78} B. J. Day and M. L. Laplaza, On Embedding Closed Categories, _Bull. Austral. Math. Soc._ 18 (1978), 357-371.
 
-[[!redirects closed category]]
 [[!redirects closed categories]]
