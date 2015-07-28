@@ -5,10 +5,12 @@
 
 ## Idea
 
-NBG or von Neumann--Bernays--G&#246;del set theory is a [[material set theory]]. It is conservative extension of the [[ZFC]] and its ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
+NBG or von Neumann--Bernays--G&#246;del set theory is a [[material set theory]]. It is a conservative extension of [[ZFC]] and its ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
 
 
 ## History
+
+[[Georg Cantor]] was well acquainted with the phenomenon that some collections are 'too big' to be sets and in his late years made a distinction between _consistent_ and _inconsistent multitudes_, the former comprising sets, but his ideas were confined to private letters to (Jourdain and) Dedekind that were not published until 1932.
 
 [[John von Neumann]] began $NBG$ in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates G&#246;del\'s theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
 
@@ -27,7 +29,7 @@ NBG is a [[material set theory]], based on a global binary membership [[predicat
 
 5. Limitation of Size: A class $A$ is a set if and only if there is no bijection between $A$ and the class $V$ of all sets.
 
-From the axiom of Limitation of Size, it turn out that $V$ is not a set but a proper class, avoiding [[Russell's paradox]]. Moreover, since one can prove that the [[ordinal numbers|ordinal number]] form a proper class, there is a bijection beetween $V$ and $\mathrm{Ord}$, i.e., the class of all sets can be well-ordered which implies the [[axiom of global choice]].
+From the axiom of Limitation of Size, it turn out that $V$ is not a set but a proper class, avoiding [[Russell's paradox]]. Moreover, since one can prove that the [[ordinal number|ordinal numbers]] form a proper class, there is a bijection beetween $V$ and $\mathrm{Ord}$, i.e., the class of all sets can be well-ordered which implies the [[axiom of global choice]].
 
 
 ## Finite axiomatization
@@ -42,7 +44,7 @@ Every instance of class comprehension can be built out of a few, based on the lo
 * [[John von Neumann]], "Die Axiomatisierung der Mengenlehre", Mathematische Zeitschrift 27 (1928) 669&#8211;752, doi:[10.1007/bf01171122](http://dx.doi.org/10.1007/bf01171122), [GDZ](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN266833020_0027&DMDID=DMDLOG_0042)
 {#vN1928}
 
-
+* [[Gerhard Osius]], _Kategorielle Mengenlehre: Eine Charakterisierung der Kategorie der Klassen und Abbildungen_ , Math. Ann. **210** (1974) pp.171-196. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002309939))
 
 [[!redirects NBG]]
 [[!redirects Neumann-Bernays-Gödel set theory]]
