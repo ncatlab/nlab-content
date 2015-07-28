@@ -80,6 +80,8 @@ Koszul duality is also discussed in
 * MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality), [what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality](http://mathoverflow.net/questions/67909/what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality)
 * David Eisenbud, Gunnar Fl&#248;ystad, Frank-Olaf Schreyer, _Sheaf cohomology and free resolutions over 
 exterior algebras_,  Trans. Amer. Math. Soc. 355 (2003), 4397-4426 [MR1990756](http://www.ams.org/mathscinet-getitem?mr=1990756) [doi](http://dx.doi.org/10.1090/S0002-9947-03-03291-4)
+* Tyler Foster, Po Hu, Igor Kriz, _D-structures and derived Koszul duality for unital operad algebras_, [arxiv./1507.07151](http://arxiv.org/abs/1507.07151)
+
 
 A "curved" generalization is discussed in
 
