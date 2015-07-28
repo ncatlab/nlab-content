@@ -10,7 +10,7 @@ NBG or von Neumann--Bernays--G&#246;del set theory is a [[material set theory]].
 
 ## History
 
-[[John von Neumann]] began $NBG$ in the 1920s, but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates G&#246;del\'s theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
+[[John von Neumann]] began $NBG$ in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates G&#246;del\'s theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
 
 
 ## Axioms
@@ -33,6 +33,15 @@ From the axiom of Limitation of Size, it turn out that $V$ is not a set but a pr
 ## Finite axiomatization
 
 Every instance of class comprehension can be built out of a few, based on the logical connnectives.  This is similar to the finite axiomatization of [[bounded separation|bounded]] $ZFC$ (or, in other language, [[ETCS]]); indeed, $NBG$ is essentially bounded [[MK]].
+
+## References
+
+* [[John von Neumann]], "Eine Axiomatisierung der Mengenlehre", Journal f&#252;r die Reine und Angewandte Mathematik 154 (1925) 219&#8211;240, doi:[10.1515/crll.1925.154.219](http://dx.doi.org/10.1515/crll.1925.154.219), [GDZ](http://gdz.sub.uni-goettingen.de/index.php?id=resolveppn&PPN=GDZPPN002169606)
+{#vN1925}
+
+* [[John von Neumann]], "Die Axiomatisierung der Mengenlehre", Mathematische Zeitschrift 27 (1928) 669&#8211;752, doi:[10.1007/bf01171122](http://dx.doi.org/10.1007/bf01171122), [GDZ](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN266833020_0027&DMDID=DMDLOG_0042)
+{#vN1928}
+
 
 
 [[!redirects NBG]]
