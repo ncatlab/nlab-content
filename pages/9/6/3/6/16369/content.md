@@ -15,7 +15,7 @@
 
 ## Idea
 
-A **dense subtopos** is a generalisation to toposes of the concept of a [[dense subspace]] in topology. A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
+The concept of **dense subtopos** generalizes to toposes the concept of a [[dense subspace]] in topology. A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
 
 ## Definition
 
@@ -75,12 +75,13 @@ $$
   \bar j \coloneqq c(ext(j))
 $$ 
 
-the corresponding [[closure operator]].
+the [[closed subtopos|closed topology]] corresponding to the [[subterminal object]] $ext(j)$.
 
 Here the first inclusion exhibits a dense subtopos and the second a [[closed subtopos]].
 
 This is the _[[(dense,closed)-factorization]]_.
 
+The above terminology suggests to view a _dense subtopos_ as one with an _empty exterior_.
 
 ### Relation to Aufhebung
 
