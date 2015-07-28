@@ -98,6 +98,8 @@ Original articles include
 
 [[E6]],[[E7]], [[E8]]-geometry is discussed in 
 
+* Christian Hillmann, _Generalized E(7(7)) coset dynamics and D=11 supergravity_, JHEP 0903 (2009) 135 ([arXiv:0901.1581](http://arxiv.org/abs/0901.1581))
+
 * {#GodazgarGodazgarNicolao13} Hadi Godazgar, Mahdi Godazgar, Hermann Nicolai, _Generalised geometry from the ground up_ ([arXiv:1307.8295](http://arxiv.org/abs/1307.8295))
 
 * {#HohmSamtleben13} [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
