@@ -85,9 +85,9 @@ Usually strong monads are described explicitly in terms of the components of the
 
 Some more direct definitions are given by Moggi:
 
-* [Eugenio Moggi]. Notions Of Computation And Monads. Information And Computation. 1991;93:55&#8211;92. 
-* [Eugenio Moggi]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
+* [[Eugenio Moggi]]. Notions Of Computation And Monads. Information And Computation. 1991;93:55&#8211;92. 
+* [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
 
-
+Moggi's definition is equivalent to a [[monad]] (on a [[monoidal category]]) that is a [[strong monoidal functor]].
 
 [[!redirects strong monads]]
