@@ -1331,112 +1331,115 @@ $$
 
 ## References
 
-* [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
-  {#DAuriaFre80}
+* {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
+  
 
-* [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
- {#AzcarragaIzqierdo95}
+* {#AzcarragaIzqierdo95} [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
+ 
 
 
 
-* [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_ ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134))
-  {#CarchediRoytenberg12}
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_ ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134))
+  
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](http://arxiv.org/abs/1212.3745))
 
-* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_ ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
- {#CareyJohnsonMurray02}
+* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_ ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
+ 
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-  {#CastellaniDAuriaFre91}
-
-
-* C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
- {#CAIB99}
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+  
 
 
-* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
+* {#CAIB99} C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+ 
+
+
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
 
   in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
-  {#DeligneFreed99}
+  
 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
-  {#FiorenzaSchreiberStasheff12}
+* {#FiorenzaSchreiberStasheff12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+  
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
-  {#FSS13a}
+* {#FSS13a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
+  
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
- {#FSS13b}
-
-
-* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, American Mathematical Society (1999)
-  {#Freed99}
+* {#FSS13b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+ 
 
 
-* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math.3:819,1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
-  {#FreedWitten99}
+* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, American Mathematical Society (1999)
+  
 
 
+* {#FreedWitten99} [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math.3:819,1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+  
 
-* [[Krzysztof Gaw?dzki]], _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
-  {#Gawedzki87}
 
-* [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/Survey-Journal.pdf))
-  {#HohnholdSolzTeichner11}
+* {#Gawedzki87} [[Krzysztof Gaw?dzki]], _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
+  
 
-* Anatoly Konechny and [[Albert Schwarz]], 
+* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/Survey-Journal.pdf))
+  
+
+* {#KonechnySchwarz98} Anatoly Konechny and [[Albert Schwarz]], 
 
   _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998 ,
 Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
-  {#KonechnySchwarz98}
+  
 
 
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
-  {#LawsonMichelsohn89}
+* {#LawsonMichelsohn89} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+  
 
 
-* [[Peter van Nieuwenhuizen]], _Free graded differential superalgebras_, in Lect. Notes in Phys. 180, 228-245, Springer-Verlag (1983) ([pdf](http://cds.cern.ch/record/142062/files/198302065.pdf))
-  {#Nieuwenhuizen83}
+* {#Nieuwenhuizen83} [[Peter van Nieuwenhuizen]], _Free graded differential superalgebras_, in Lect. Notes in Phys. 180, 228-245, Springer-Verlag (1983) ([pdf](http://cds.cern.ch/record/142062/files/198302065.pdf))
+  
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles]]_ 
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles]]_ 
 
   _Part I -- General theory_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
   _Part II -- Presentations_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
-  {#NSS12}
+  
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, Thesis 2013
-  {#Nuiten13}
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, Thesis 2013
+  
 
-* [[Joseph Polchinski]], _[[String theory|String theory volume II: Superstring theory and beyond]]_, Cambridge Monographs on Mathematical Physics (2001)
-  {#Polchinski01}
+* {#Polchinski01} [[Joseph Polchinski]], _[[String theory|String theory volume II: Superstring theory and beyond]]_, Cambridge Monographs on Mathematical Physics (2001)
+  
 
-* [[Hisham Sati]], _Corners in M-theory_, J. Phys. A44:255402, 2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
-  {#Sati11}
+* {#Sati11} [[Hisham Sati]], _Corners in M-theory_, J. Phys. A44:255402, 2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
+  
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections|L ∞-algebra connections and applications to String- and Chern-Simons n-transport]]_, in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480)) 
- {#SSS09}
+* {#SSS09} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections|L ∞-algebra connections and applications to String- and Chern-Simons n-transport]]_, in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480)) 
+ 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
-  {#S}
+* {#S} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+  
 
-* [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
-  {#SchreiberClassical}
+* {#SchreiberClassical} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+  
 
-* [[Urs Schreiber]] et al. _[[schreiber:Local prequantum field theory]]_
-  {#lpqft}
+* {#lpqft} [[Urs Schreiber]] et al. _[[schreiber:Local prequantum field theory]]_
+  
 
-* [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
-  {#SchweigertWaldorf07}
+* {#SchweigertWaldorf07}[[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
+  
 
-* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
- {#Varadarajan04}
+* {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+ 
 
 
-* [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
- {#Witten12}
+* {#Witten12} [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
+ 
+
+For more see also
+
+* [[Urs Schreiber]], _[[schreiber:Structure Theory for Higher WZW Terms]]_
