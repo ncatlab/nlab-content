@@ -24,7 +24,7 @@ Let $U$ be a [[subterminal object]] of a [[topos]].  Then $o_U(V)\coloneqq (U\Ri
 
 The reflector into the topos of sheaves can be constructed explicitly as $O_U(X) = X^U$.
 
-A topology that is of this form for some subterminal object $U$ is called _open_.
+A _topology_ that is of this form for some subterminal object $U$ is called _open_.
 
 ## Example
 
@@ -49,11 +49,11 @@ See Johnstone ([2002, pp.609-610](#Johnstone02); [1977, pp.90,96](#Johnstone77))
 Let $U$ a [[subterminal object]] and $\mathcal{E}_{c(U)}$ and $\mathcal{E}_{o(U)}$ the corresponding closed, resp. open subtoposes. Then $\mathcal{E}_{c(U)}$ and $\mathcal{E}_{o(U)}$ are [[complement|complements]] for each other in the [[lattice of subtoposes]].
 =--
 
-For the proof see ([Johnstone (2002)](#Johnstone), pp.212,215).
+See Johnstone [(2002, pp.212,215)](#Johnstone).
 
 ### Remark
 
-Let $j$ be a [[Lawvere-Tierney topology]] on a topos $\mathcal{E}$ with corresponding subtopos $\mathcal{E}_j\hookrightarrow\mathcal{E}$. Then the $j$-closure of $O\rightarrowtail 1$ defines a [[subterminal object]] $ext(j)$ and the corresponding open subtopos $\mathcal{E}_{o(ext(j))}$ provides an '_exterior_' (cf. [[SGA4]], p.461) for $\mathcal{E}_j$.
+Let $j$ be a [[Lawvere-Tierney topology]] on a topos $\mathcal{E}$ with corresponding subtopos $\mathcal{E}_j\hookrightarrow\mathcal{E}$. Then the $j$-closure of $O\rightarrowtail 1$ defines a [[subterminal object]] $ext(j)$ and the corresponding open subtopos $\mathcal{E}_{o(ext(j))}$ provides an '_exterior_' (cf. [SGA4](#SGA4), p.461) for $\mathcal{E}_j$.
 
 ## Related pages
 
@@ -75,4 +75,4 @@ Let $j$ be a [[Lawvere-Tierney topology]] on a topos $\mathcal{E}$ with correspo
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (A4.5., pp.204-220; C3.1.5-7, pp.609f)
 
 [[!redirects open subtoposes]]
-
+[[!redirects open topology]]
