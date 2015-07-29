@@ -72,7 +72,7 @@ There is a [[Quillen model category]] structure on [[Top]] where fibrations are 
 ## Abstract Hurewicz fibrations
  {#Abstractly}
 
-The concept of Hurewicz fibrations makes sense also more generally in the presence of an [[interval object]], see for instance ([Williamson 13](#Williamson13)) for review and further developments. Discussion with a view towards [[homotopy type theory]] is in ([Warren 08](#Warren08)).
+The concept of Hurewicz fibrations makes sense also more generally in the presence of a (well behaved) [[interval object]], see for instance the early example of such in ([Kamps](#Kamps))([Williamson 13](#Williamson13)) for review and further developments. Discussion with a view towards [[homotopy type theory]] is in ([Warren 08](#Warren08)).
 
 
 ## References
@@ -91,9 +91,19 @@ A textbook account of the [[homotopy lifting property]] is for instance in
 
 See also 
 
-* Schw&#228;nzl and Vogt, _Strong cofibrations and fibrations in enriched categories_, 2002.
+* [[R. Schwänzl]] and [[R. Vogt]], _Strong cofibrations and fibrations in enriched categories_, 2002.
 
 * the textbooks on algebraic topology by Whitehead and Spanier.
+
+Abstract analogues of Hurewicz fibrations can be found in 
+
+* {#Kamps}[[K.H.Kamps]],_Kan-Bedingungen und abstrakte Homotopietheorie_, Math. Z. 124,1972, 215 -236
+
+summarised in 
+
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
+and further developed in 
 
 * {#Williamson13} [[Richard Williamson]], _Cylindrical model structures_ ([arXiv:1304.0867](http://arxiv.org/abs/1304.0867), [web](http://rwilliamson-mathematics.info/cylindrical_model_structures.html))
 
