@@ -157,7 +157,7 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * **monoidal functor**
 
-* [[strong monoidal functor]]
+* **strong monoidal functor**
 
 * [[monoidal adjunction]]
 
@@ -165,7 +165,7 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[cartesian functor]]
 
-* [[lax monoidal functor]]
+* **lax monoidal functor**
 
 * [[oplax monoidal functor]]
 
@@ -190,3 +190,4 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 [[!redirects strict monoidal functors]]
 [[!redirects strong monoidal functors]]
 [[!redirects weak monoidal functors]]
+[[!redirects strength]]
