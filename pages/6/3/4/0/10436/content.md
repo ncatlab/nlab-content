@@ -132,7 +132,7 @@ The algebraic statement and proof is in
 
 * [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
 
-The Blakers-Massey's Theorem was shown to be a consequense of Farjoun's "cellular inequalities" 
+The Blakers-Massey's Connectivity Theorem was shown to be a consequence of Farjoun's "cellular inequalities" 
 
 * Farjoun, _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
 
@@ -167,6 +167,10 @@ The following paper  applies the methods of the above two Brown-Loday papers to 
 The methods work because of their equivalence between cat$^n$-groups and crossed $n$-cubes of groups. This can be explained by saying that wee need two kinds of algebraic categories for calculations with $(n+1)$-types: _broad_ categories for conjecturing and proving theorems, and _narrow_ algebraic categories for calculations and relations with classical ideas. In this case the broad category is that of cat$^n$-groups, and the narrow category is that of crossed $n$-cubes of groups, which are related geometrically to the homotopy groups of $r$-ads and to generalised Whitehead products. The tricky equivalence between the two kinds of categories is one of the engines behind the results, since it enables the use of whichever category is most convenient at any given time. Note also these two categories model weak, pointed, homotopy $(n+1)$-types, as shown by Loday in his paper
 
 * [[Jean-Louis Loday]],  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
+
+Further background to these ideas is in 
+
+* [[Ronnie Brown| R. Brown]] "A philosophy of modelling and computing homotopy types" Presentation to CT2015, Aveiro, Portugal, June 14-19. [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf) 
 
 
 
