@@ -71,6 +71,8 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 ## Related concepts
 
+* [[tensorial strength]]
+
 * [[monoidal monad]]
 
 * [[commutative monad]]
@@ -83,11 +85,9 @@ Usually strong monads are described explicitly in terms of the components of the
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
 
-Some more direct definitions are given by Moggi:
+Strong monads are important in Moggi's theory of notions of computation (see [[monad (in computer science)]]):
 
 * [[Eugenio Moggi]]. Notions Of Computation And Monads. Information And Computation. 1991;93:55&#8211;92. 
 * [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
-
-Moggi's definition is equivalent to a [[monad]] (on a [[monoidal category]]) that is a [[strong monoidal functor]].
 
 [[!redirects strong monads]]
