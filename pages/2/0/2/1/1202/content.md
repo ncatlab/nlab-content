@@ -76,6 +76,11 @@ But I think that 'classically well-ordered' should be all right.  By default, 'w
 _Toby_:  Well, constructivists are used to being isolated.  At least we give the good definitions *first*, so that\'s a big improvement!  (^_^)
 =--
 
+## Related entries
+
+* [[Zorn's lemma]]
+* [[axiom of choice]]
+
 
 ## References
 
@@ -88,12 +93,16 @@ The second proof together with an eloquent defense of the axiom of choice can be
 
 * [[Ernst Zermelo]], _Neuer Beweis f&#252;r die M&#246;glichkeit einer Wohlordnung_ , Mathematische Annalen **65** (1908) pp.107-128. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002261952)) {#Zermel08}
 
-Cantor's text are collected together with comments by Zermelo in
+Cantor's texts are collected together with comments by Zermelo in
 
 * [[Ernst Zermelo]] (ed.), _Georg Cantor - Gesammelte Abhandlungen Mathematischen und Philosophischen Inhalts_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PPN=PPN237853094)) {#Cantor32}
 
 English versions of Zermelo's papers are in
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
+
+On the relation between AC and the well-ordering principle in general toposes see
+
+* M.-M. Mawanda, _Well-ordering and Choice in Toposes_ , JPAA **50** (1988) pp.171-184.
 
 [[!redirects well-ordering principle]]
