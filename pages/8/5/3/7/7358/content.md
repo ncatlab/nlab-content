@@ -66,7 +66,7 @@ The [[model category]] structure on $\Gamma$-spaces (a [[generalized Reedy model
 
 See also
 
-*  C. Balteanu, Z. Fiedorowicz, R. Schwanzl and [[R. Vogt]], _Iterated
+*  C. Balteanu, Z. Fiedorowicz, [[R. Schwanzl]] and [[R. Vogt]], _Iterated
 Monoidal Categories_, Advances in Mathematics (2003).
 
 * B. Badzioch, _Algebraic Theories in Homotopy Theory_, Annals of Mathematics, 155, 895--913 (2002).
