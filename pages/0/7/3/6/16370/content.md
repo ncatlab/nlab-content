@@ -23,6 +23,8 @@ Let $U$ be a [[subterminal object]] of a [[topos]] $\mathcal{E}$.  Then $c_U(V) 
 
 The reflector into the sheaves can be constructed explicitly as the [[join]] with $U$, i.e. $C_U(X)$ is the [[pushout]] of $X$ and $U$ under $X\times U$.
 
+A _topology_ $j$ that is of this form for some [[subterminal object]] $U$ is called _closed_.
+
 ## Example
 
 In case $\mathcal{E}=Sh(X)$ is the topos of sheaves on a topological space $X$, a subterminal object is just an open subset $U$ of $X$ and the closed subtopos corresponding to it is equivalent to $Sh(X\setminus U)$.
@@ -70,3 +72,4 @@ Let $j$ be a [[Lawvere-Tierney topology]] on a topos $\mathcal{E}$ with correspo
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_, Oxford UP 2002. (A4.5., pp.204-220)
 
 [[!redirects closed subtoposes]]
+[[!redirects closed topology]]
