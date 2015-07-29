@@ -19,9 +19,9 @@
 
 A **Boolean topos** is a [[topos]] that is also a [[Boolean category]].
 
-There are several conditions on a topos that are necessary and sufficient to be boolean:
+There are several conditions on a topos that are necessary and sufficient to be Boolean:
 
-* Every [[subobject]] has a complement (the general definition of boolean category).
+* Every [[subobject]] has a complement (the general definition of Boolean category).
 * Every [[subobject poset|subobject lattice]] is a [[Boolean algebra]].
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
 * The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, but this alone is not sufficient).
@@ -31,15 +31,11 @@ There are several conditions on a topos that are necessary and sufficient to be 
 
 ### As a context for foundations
 
-The [[internal logic]] of a boolean topos with [[natural numbers object]] can serve as [[foundations]] for "ordinary" mathematics, except for that which relies on the [[axiom of choice]].  If you add the axiom of choice, then you get (an internal version of) [[ETCS]]; conversely, if you use an arbitrary topos, then you get [[constructive mathematics]].  (For some high-powered work, you may also need to add a version of the [[axiom of replacement]] or an axiom of [[Grothendieck universe]]s.)
+The [[internal logic]] of a Boolean topos with [[natural numbers object]] can serve as [[foundations]] for "ordinary" mathematics, except for that which relies on the [[axiom of choice]].  If you add the axiom of choice, then you get (an internal version of) [[ETCS]]; conversely, if you use an arbitrary topos, then you get [[constructive mathematics]].  (For some high-powered work, you may also need to add a version of the [[axiom of replacement]] or an axiom of [[Grothendieck universe]]s.)
 
-Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in fact a topos.  This is why 'generalised [[predicative mathematics|predicativism]]' (with function types but not power types) is necessarily a feature of [[constructive mathematics]] only.
+Every [[cartesian closed category|cartesian closed]] Boolean [[pretopos]] is in fact a topos.  This is why 'generalised [[predicative mathematics|predicativism]]' (with function types but not power types) is necessarily a feature of [[constructive mathematics]] only.
 
-### Relation to measure theory
-
-Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
-
-### As atoms in the subtopos lattice
+### Some characterisations
 
 +-- {: .num_prop}
 ###### Proposition
@@ -61,7 +57,7 @@ For $\mathcal{E}$ a [[topos]], then the following are equivalent:
 
 +--{: .num_prop}
 ###### Proposition
-Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is closed.
+Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is $j$-closed.
 =--
 
 [(Johnstone 2002, p.220)](#Johnstone)
@@ -83,6 +79,15 @@ In a [[lattice of subtoposes]] the 2-valued Boolean toposes are the [[atoms]].
 
 See [this proposition](subtopos#BooleantoposesAreAtoms).
 
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}$ be a topos. Then automorphisms of $\Omega$ correspond bijectively to [[closed subtopos|closed]] Boolean subtoposes. The group operation on $Aut(\Omega)$ corresponds to symmetric difference of subtoposes.
+
+=--
+
+This result appears in [Johnstone (1979)](#Johnstone79). (See also [Johnstone (2002)](#Johnstone), A1.6.11 pp.66-67.)
+
 ## Examples
 
 With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]]. 
@@ -95,13 +100,28 @@ Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R
 
 [[Barr's theorem]] implies that any topos $\mathcal{E}$ can be covered by a Boolean topos $\mathcal{F}$, in the sense of there being a [[surjective geometric morphism]] $f \colon \mathcal{F} \to \mathcal{E}$. 
 
+## Relation to measure theory
+
+Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
+
+## Related entries
+
+* [[Boolean category]]
+* [[axiom of choice]]
+* [[double negation]]
+* [[de Morgan topos]]
+
 ## References
 
-* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
-* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+* {#Johnstone79}[[Peter Johnstone]], _Automorphisms of $\Omega$_ , Algebra Universalis **9** (1979) pp.1-7.
 
-* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (A4.5.22, D3.4, D4.5)
+ 
+* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+
+* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014.  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
 
 
 [[!redirects Boolean topos]]
