@@ -39,7 +39,7 @@ $j\circ\bot$ classifies the $j$-closure $\bar{\emptyset}$ of $\emptyset$ whence 
 
 The last two conditions make sense not only for embeddings $i$: general [[geometric morphisms]] fulfilling them are called [[dominant geometric morphism|dominant]]. So another way to express that $i:\mathcal{E}_j\hookrightarrow\mathcal{E}$ is a dense subtopos is to say that the inclusion $i$ is **dominant**.
 
-Note that there is also a certain [[Grothendieck topology]] on small categories $\mathcal{C}$ called _the_ [[dense topology]] whose corresponding [[Lawvere-Tierney topology]] on $Set^{\mathcal{C}^{op}}$ is dense in the above sense, and coincides with the [[double negation|double-negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
+Notice that there is also a certain [[Grothendieck topology]] on small categories $\mathcal{C}$ called _the_ [[dense topology]] whose corresponding [[Lawvere-Tierney topology]] on $Set^{\mathcal{C}^{op}}$ is dense in the above sense, and coincides with the [[double negation|double-negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
 
 ## Properties
 
@@ -55,9 +55,9 @@ $Sh_{\not\not}(\mathcal{E}) \hookrightarrow \mathcal{E}$ is the smallest dense s
 
 In fact, dense topologies are characterized by their relation to $\neg\neg$:
 
-+-- {: .num_prop}
++-- {: .num_prop #negdense}
 ###### Proposition
-Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$ , i.e. $j$ is dense, iff $(\mathcal{E}_j)_{\not\not}\cong\mathcal{E}_{\not\not}$.
+Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$ , i.e. $j$ is dense, iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
 =--
 
 ([Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9)
@@ -69,7 +69,7 @@ From this and the fact that $\mathcal{E}$ is trivially dense, follows:
 A topos $\mathcal{E}$ is [[Boolean topos|Boolean]] iff $\mathcal{E}$ has exactly one dense subtopos, namely $\mathcal{E}_{\neg\neg}=\mathcal{E}$.
 =--
 
-Note that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]].
+Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ won't do.
 
 ### (Dense,Closed)-Factorization
 
