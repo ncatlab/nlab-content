@@ -27,9 +27,21 @@ Registration: Jan. 3
 [Weiping Zhang](http://www.nim.nankai.edu.cn/nim_e/members/weiping.htm) (Chern Institute, Nankai University)
 
 ***
-####Speakers####
+####Speakers (TBA)####
+
+***
+
+####Participants####
 
 Anton Alexseev (University of Geneva)
+
+Chengming Bai (Chern Institute, Nankai University)
+
+Yanhui Bi (Nanchang Hangkong University)
+
+Francesco Bonechi (INFN Sezione di Firenze)
+
+Zhuo Chen (Tshinghua University)
 
 Nicola Ciccoli* (University of Perugia)
 
@@ -39,7 +51,13 @@ Huiju Fan (Peking University)
 
 Anna Fino* (Universita di Torino)
 
+Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
+
+Wei Hong (Wuhan University)
+
 Yvette Kosmann-Schwarzbach (Centre de Math&#180;ematiques, UMR)
+
+Honglei Lang (Peking University)
 
 Camille Laurent-Gengoux (The University of Poitiers)
 
@@ -47,15 +65,29 @@ Si Li (Boston University)
 
 Hui Li (Suzhou University)
 
+Qingping Liu* (China University of Mining and Technology)
+
+Zhangju Liu (Peking University)
+
 Jianghua Lu  (The University of Hong Kong)
 
 Kirill C.H. Mackenzie* (University of Sheffield)
+
+Guowu Meng* (Hong Kong University of Science and Technology)
 
 Kentaro Mikami (Akita University)
 
 Jae-Suk Park (Pohang University of Science and Technology)
 
 Yat Sun Poon  (University of California at Riverside)
+
+Yu Qiao (Shannxi Normal University)
+
+Changzheng Qu*  (Ningbo University)
+
+Hajime Sato (Nagoya University)
+
+Yunhe Sheng (Jilin University)
 
 Reyer Sjamaar  (Cornell University)
 
@@ -68,38 +100,6 @@ Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisi
 Aissa Wade (Penn State University)
 
 Hong Wang (Nankai University)
-
-***
-
-####Participants####
-
-Chengming Bai (Chern Institute, Nankai University)
-
-Yanhui Bi (Nanchang Hangkong University)
-
-Francesco Bonechi (INFN Sezione di Firenze)
-
-Zhuo Chen (Tshinghua University)
-
-Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
-
-Wei Hong (Wuhan University,)
-
-Honglei Lang (Peking University)
-
-Qingping Liu* (China University of Mining and Technology)
-
-Zhangju Liu (Peking University)
-
-Guowu Meng* (Hong Kong University of Science and Technology)
-
-Yu Qiao (Shannxi Normal University)
-
-Changzheng Qu*  (Ningbo University)
-
-Hajime Sato (Nagoya University)
-
-Yunhe Sheng (Jilin University)
 
 Ping Xu (Penn State University)
 
