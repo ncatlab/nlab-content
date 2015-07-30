@@ -17,24 +17,27 @@ You may also find me on
 
 * [Google+](https://plus.google.com/+DavidRoberts/)
 
-## Papers ##
+## Preprints
 
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
-Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]].
+Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
+
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication.
+
+* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
+
+
+## Papers
+
+* _On certain 2-categories admitting localisation by bicategories of
+  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
 * _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17 (2015)
 Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
 
-* _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) (yet to appear) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). 
-
 * _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) (2015) doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication.
-
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
-
-* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication 6 November 2012, rejected 14 November 2012. Resubmitted for publication 15 November 2012, rejected 16 February 2014.
 
 * _On the existence of bibundles_, [Proc. London Math. Soc.](http://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, doi:[10.1112/plms/pds028](http://dx.doi.org/10.1112/plms/pds028), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
@@ -47,7 +50,7 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 * _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](http://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](http://dx.doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](http://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
-## In preparation ##
+## In preparation
 
 * _Strict 2-sites, $J$-spans and localisations_.
 
@@ -61,7 +64,7 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
-## Review ##
+## Review
 
 * Contribution to _The "Bounded Gaps between 
 Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
