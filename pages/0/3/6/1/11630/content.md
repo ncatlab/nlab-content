@@ -126,9 +126,13 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 ### General
 
-The hidden [[E7]]-symmetry in compactification of 11d sugra on a 7-torus was first noticed in
+The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to [[4d supergravity]] was first noticed in
 
-* E. Cremmer, [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141.
+* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
+
+and more generally in 
+
+* [[Bernard de Wit]], [[Hermann Nicolai]], _D = 11 Supergravity With Local SU(8) Invariance_, Nucl. Phys. B 274, 363 (1986) ([spire](http://inspirehep.net/record/227409?ln=en)),  _Local SU(8) invariance in $d = 11$ supergravity_ ([spire](http://inspirehep.net/record/218601?ln=en))
 
 The concept and terminology of U-duality as such originates in 
 
@@ -165,7 +169,7 @@ Discussion in line with the [[F-theory]] perspective on the $SL(2,\mathbb{Z})$-[
 
 Discussion of [[11-dimensional supergravity]] in a form that exhibits the higher U-duality groups already before [[KK-compactification]], via a kind of [[exceptional generalized geometry]],is in 
 
-* {#HohmSamtleben13} Olaf Hohm, [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
+* {#HohmSamtleben13} [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
 
 
 ### In various dimensions
