@@ -12,6 +12,8 @@ This semester, we are holding (again) a [[seminar on Grothendieck-Teichmuller th
 Seminars: Fall 2014 [[seminar on factorization algebras]]. 
 
 ***
+04.01.2016--08.01.2016, [[Poisson Geometry and Physics]] in [Chern Institute](http://www.nim.nankai.edu.cn/nim_e/) Tianjin, China
+
 3 April -- 4 April, a [[mini-workshop on Poisson geometry]] in [Huazhong University of Science and Technology](http://english.hust.edu.cn/) Wuhan, China
 
 28 Feb--5 March, going to Berkeley :). 
