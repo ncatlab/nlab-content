@@ -23,6 +23,8 @@ The final property can be stated less [[constructive mathematics|constructively]
 
 Note that this definition matches the definition of [[pseudotopological space]] except for the restriction to sequences instead of general [[net]]s.  Accordingly, one may call a subsequential space a __sequential pseudotopological space__.
 
+Subsequential spaces are also known as Kuratowski _limit spaces_, or _L-spaces_; see [Menni](#Menni).
+
 A subsequential space is said to be **sequentially [[Hausdorff space|Hausdorff]]** if each sequence converges to at most one limit.
 
 
@@ -47,7 +49,13 @@ These properties of subsequential spaces should be compared with analogous ones 
 
 * P. T. Johnstone, _On a topological topos_.  Proc. London Math. Soc. (3) 38 (1979) 237--271
 
+* Matias Menni and Alex Simpson, _Topological and Limit-space Subcategories of
+Countably-based Equilogical Spaces_, 2001. [PDF](http://homepages.inf.ed.ac.uk/als/Research/Sources/subcats.pdf)
 
+[[!redirects L-space]]
+[[!redirects L-spaces]]
+[[!redirects limit space]]
+[[!redirects limit spaces]]
 [[!redirects subsequential space]]
 [[!redirects subsequential spaces]]
 [[!redirects sequential pseudotopological space]]
