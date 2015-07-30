@@ -1,9 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* tabel of contents
+{:toc}
+
 ## Idea
 
 A _filter space_ is a generalisation of a [[topological space]] based on the concept of [[convergence]] of [[filters]] (or [[nets]]) as fundamental.  The [[category]] of filter spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]]. Filter spaces include [[convergence spaces]] and [[limit spaces]] as a full sub ccc.
 
 ## References
 
-[[Martin Hyland]], _Filter spaces and continuous functionals_, 1979 [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/filter79.pdf)
+* [[Martin Hyland]], _Filter spaces and continuous functionals_, 1979 [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/filter79.pdf)
 
-[[!redirects filter space]]
+[[!redirects filter spaces]]
