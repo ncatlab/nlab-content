@@ -1,7 +1,7 @@
 [[!redirects K. H. Kamps]]
 Heiner Kamps is a German mathematician who worked in Abstract Homotopy Theory.
 
-He is the joint author with [[T. Porter]],of the book [[Abstract Homotopy and Simple Homotopy Theory]].
+He is the joint author, with [[T. Porter]], of the book [[Abstract Homotopy and Simple Homotopy Theory]].
 
 ##Books
 
@@ -9,7 +9,7 @@ He is the joint author with [[T. Porter]],of the book [[Abstract Homotopy and Si
 
 ##Articles
 
-* [[K.H.Kamps]],_Kan-Bedingungen und abstrakte Homotopietheorie_, Math. Z. 124,1972, 215 -236
+* [[K.H.Kamps]], _Kan-Bedingungen und abstrakte Homotopietheorie_, Math. Z. 124,1972, 215 -236
 
 category:people
 [[!redirects K.H.Kamps]]
