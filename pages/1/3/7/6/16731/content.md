@@ -18,36 +18,104 @@ Registration: Jan. 3
 
 #### Scientific Committee ####
 
-[Zhangju Liu](http://www.math.pku.edu.cn/static/interface/people.htm?uid=liuzj)(Peking University)
+[Zhangju Liu](http://www.math.pku.edu.cn/static/interface/people.htm?uid=liuzj) (Peking University)
 
-[Jianghua Lu](http://hkumath.hku.hk/~jhlu/)(The University of Hong Kong)
+[Jianghua Lu](http://hkumath.hku.hk/~jhlu/) (The University of Hong Kong)
 
-[Ping Xu](https://www.math.psu.edu/ping/)(Penn State University)
+[Ping Xu](https://www.math.psu.edu/ping/) (Penn State University)
 
-[Weiping Zhang](http://www.nim.nankai.edu.cn/nim_e/members/weiping.htm)(Chern Institute, Nankai University)
+[Weiping Zhang](http://www.nim.nankai.edu.cn/nim_e/members/weiping.htm) (Chern Institute, Nankai University)
 
 ***
 ####Speakers####
 
-[Jianghua Lu](http://hkumath.hku.hk/~jhlu/)(The University of Hong Kong)
+Anton Alexseev (University of Geneva)
+
+Nicola Ciccoli* (University of Perugia)
+
+Joana Margarida Nunes da Costa (University of Coimbra)
+
+Huiju Fan (Peking University)
+
+Anna Fino* (Universita di Torino)
+
+Yvette Kosmann-Schwarzbach (Centre de Math&#180;ematiques, UMR)
+
+Camille Laurent-Gengoux (The University of Poitiers)
+
+Si Li (Boston University)
+
+Hui Li (Suzhou University)
+
+Jianghua Lu  (The University of Hong Kong)
+
+Kirill C.H. Mackenzie* (University of Sheffield)
+
+Kentaro Mikami (Akita University)
+
+Jae-Suk Park (Pohang University of Science and Technology)
+
+Yat Sun Poon  (University of California at Riverside)
+
+Reyer Sjamaar  (Cornell University)
+
+Mathieu Stienon (Penn State University)
+
+Xiang Tang (Washington University in St. Louis)
+
+Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
+
+Aissa Wade (Penn State University)
+
+Hong Wang (Nankai University)
 
 ***
 
 ####Participants####
 
-Zhangju Liu (Beijing University)
-
 Chengming Bai (Chern Institute, Nankai University)
 
-Zhujun Zheng (South China University of Technology)
+Yanhui Bi (Nanchang Hangkong University)
 
-Yanhui Bi (Nanchang University)
+Francesco Bonechi (INFN Sezione di Firenze)
+
+Zhuo Chen (Tshinghua University)
+
+Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
+
+Wei Hong (Wuhan University,)
+
+Honglei Lang (Peking University)
+
+Qingping Liu* (China University of Mining and Technology)
+
+Zhangju Liu (Peking University)
+
+Guowu Meng* (Hong Kong University of Science and Technology)
+
+Yu Qiao (Shannxi Normal University)
+
+Changzheng Qu*  (Ningbo University)
+
+Hajime Sato (Nagoya University)
 
 Yunhe Sheng (Jilin University)
 
+Ping Xu (Penn State University)
+
+Xiaomeng Xu (University of Geneva)
+
+Yanbin Yin (Henan University)
+
+Bin Zhang* (Sichuan University)
+
 Tao Zhang (Henan Normal University)
 
+Zhujun Zheng* (South China University of Technology)
+
 Deshou Zhong (China Youth University of Political Studies)
+
+Chenchang Zhu  (Gottingen University)
 
 \*-to be confirmed
 
