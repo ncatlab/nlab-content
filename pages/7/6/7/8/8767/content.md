@@ -53,6 +53,13 @@ For more on this see also the collection
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
+and
+
+* [[William Lawvere]], _Variable sets, topoi and etendu_ Notices Amer. Math. Soc.
+22 (1975) A675.
+
+* W. Noll, _The foundations of mechanics and thermodynamics_ Springer, 1974.
+
 ### History
 
 Early precursor of continuum mechanics has been argued to be recognizable in [[Descartes]]'s mechanism ([Dusek 99, p.23](#Dusek99)).
