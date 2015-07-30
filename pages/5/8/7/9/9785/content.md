@@ -87,12 +87,20 @@ The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ were first c
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], last pages of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
+with more comprehensive analysis in 
+
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
+
+where (a further fermionic extension of it) is derived as a [[super Lie algebra]] [[Lie algebra extension|extension]] of 11d [[super Minkowski spacetime]] on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes.
+
+From a different perspective perspective the extensions were (independently?) introduced in
+
  * [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d=2,3,4 \,mod\, 8$_ J.Phys. A15, 3763 (1982).
 
  * [[Paul Townsend]], _p-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
 
 
-They were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
+In their global form, where differential forms are replaced by their de Rham cohomology classes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
 * {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
@@ -100,7 +108,6 @@ reviewed in section 8.8. of
 
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
 
-* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
 
 The generalization of this including also the contribution of the [[M5-brane]] was considered in
 
