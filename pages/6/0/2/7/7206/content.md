@@ -103,6 +103,14 @@ Survey includes
 * Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
 
 
+### Gauging
+
+Discussion of [[gauged supergravity]] in 4d includes
+
+* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
+
+(where the [[E7]]-[[U-duality]] group was first seen)
+
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
