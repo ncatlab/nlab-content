@@ -25,15 +25,15 @@ Keeping in mind that already [[string theory]] itself and in fact already [[quan
 
 $$
   \array{
-      ??? &\stackrel{effective QFT}{\to}& 11d Supergravity
+      ??? &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
       \\
-      \downarrow && \downarrow^{\mathrlap{dimensional reduction}}
+      \downarrow && \downarrow^{\mathrlap{dimensional\;reduction}}
       \\
-      StringTheory &\stackrel{effective QFT}{\to}& 10d Supergravity
+      StringTheory &\stackrel{low\;energy\;effective\;QFT}{\to}& 10d Supergravity
   }
 $$
 
-in some sense. The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
+in some sense (see also e.g. ([Obers-Pioline 98, p. 12](#ObersPioline98))). The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
 
 ## Hints
 
@@ -160,6 +160,10 @@ Discussion of the history includes
 An early popular account for a general audience is
 
 * [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.sns.ias.edu/~witten/papers/mmm.pdf))
+
+More recent review includes
+
+* {#ObersPioline98} N.A. Obers, B. Pioline, _U-duality and M-Theory_, Phys.Rept.318:113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
 
 Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]] include
 
