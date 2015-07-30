@@ -1,5 +1,5 @@
 
-Thorsten Altenkirch ist associate professor for [[computer science]] at University of Nottingham.
+Thorsten Altenkirch is an associate professor for [[computer science]] at University of Nottingham.
 
 * [webpage](http://www.cs.nott.ac.uk/~txa/)
 
@@ -12,5 +12,7 @@ Thorsten Altenkirch ist associate professor for [[computer science]] at Universi
 * [[type theory]], [[homotopy type theory]]
 
 * [[verified software]]
+
+* [[categorical model of dependent types]]
 
 category: people
