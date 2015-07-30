@@ -28,7 +28,7 @@ One of the [[exceptional Lie groups]].
 #### $\mathbf{56}$ -- The smallest fundamental representation
  {#SmallestFundamentalRepresentation}
 
-The smallest [[fundamental representation]] of $E_7$ is of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10))
+The smallest [[fundamental representation]] of $E_7$ is of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10), also [Pacheco-Waldram 08, appendix B](#PachecoWaldram08))
 
 $$
   \mathbf{56} \simeq \mathbf{28} \oplus \mathbf{28}^\ast \simeq \wedge^2 \mathbb{R}^8 \oplus \wedge^2 (\mathbb{R}^8)^\ast
@@ -50,7 +50,7 @@ $$
 
 $E_{7(7)}$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] on a 7-dimensional fiber to [[4-dimensional supergravity]] (e.g. [[M-theory on G2-manifolds]]).
 
-Specifically, ([Hull 07, section 4.4](#Hull07)) identifies the [[vector space]] underlying the $SL(7,\mathbb{R})$-decomposition of the [smallest fundamental representation](#SmallestFundamentalRepresentation) 
+Specifically, ([Hull 07, section 4.4](#Hull07), [Pacheco-Waldram 08, section 2.2](#PachecoWaldram08)) identifies the [[vector space]] underlying the $SL(7,\mathbb{R})$-decomposition of the [smallest fundamental representation](#SmallestFundamentalRepresentation) 
 
 $$
   \mathbf{56}
@@ -79,8 +79,9 @@ as the [[generalized tangent bundle]]-structure to the 7-dimensional fiber space
 * {#CacciatoriEtAl10} Sergio L. Cacciatori, Francesco Dalla Piazza, Antonio Scotti, _E7 groups from octonionic magic square_ ([arXiv:1007.4758](http://arxiv.org/abs/1007.4758))
 
 * {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
- 
+
+* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], appendix B of _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+   
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
  
-
