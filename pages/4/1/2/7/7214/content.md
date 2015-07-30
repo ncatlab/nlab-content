@@ -27,6 +27,8 @@ $\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a nice c
 
 * [[Lisbeth Fajstrup]] and [[Ji?í Rosický]], *A convenient category for directed homotopy*, TAC 21 no. 1, [online](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html)
 
+See also at _[[directed homotopy theory]]_.
+
 Other references include:
 
 * [[Daniel Dugger]], [Notes on Delta-generated spaces](http://math.uoregon.edu/~ddugger/delta.dvi)
