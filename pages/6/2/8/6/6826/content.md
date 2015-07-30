@@ -36,6 +36,8 @@ Some examples are discussed at
 
 * [[7-dimensional supergravity]]
 
+* [[4-dimensional supergravity]]
+
 * [[3-dimensional supergravity]]
 
 ## References
