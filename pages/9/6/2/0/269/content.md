@@ -253,7 +253,7 @@ Nonetheless, the advantages of cubes are:
 
 * Al-Agl, F. A., [[Ronnie Brown]],  and Steiner, R. Multiple categories: the equivalence of a globular and a   cubical approach. _Adv. Math._ 170~(1) (2002) 71--118.
 
-which gives a monoidal closed structure on cubical $\omega$-categories with connections, allowing the transfer of this to globular $\omega$-categories. The tensor product here generalises the [[Gray  tensor product]] of 2-categories. 
+which gives a monoidal closed structure on cubical $\omega$-categories with connections, allowing the transfer of this to globular $\omega$-categories. The tensor product here generalises the [[Gray  tensor product]] of 2-categories. This is also convenient in the [[homotopical structure on C*-algebras]].
 
 Cubical methods are a key feature in using higher homotopy groupoids to prove homotopy classification results.  
 
@@ -288,7 +288,7 @@ Math. **54** no.3 (1951), pp.425-505. ([pdf](http://www.college-de-france.fr/med
 
 General introductions of the cube category and of cubical sets are in 
 
-* {#JardineLecture} [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) 
+* {#JardineLecture} [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) [PDF](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
  
 
 * [[Sjoerd Crans]], section 2 of _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
