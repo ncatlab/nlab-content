@@ -72,6 +72,7 @@ A convergence space $S$ is __[[compact space|compact]]__ if every proper filter 
 
 The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can (assuming the ultrafilter theorem) think of a topological space as a "[[generalized multicategory]]" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed object|pointed]] [[endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces (the [[compacta]]) are precisely the [[algebra for a monad|algebras]] for $\mathcal{U}$ considered as a [[monad]].  If we treat $\mathcal{U}$ as a monad on [[Rel]], then the [[lax algebra]]s are the topological spaces in their guise as [[relational beta-modules]].
 
+Convergence spaces form a full sub-ccc of [[filter spaces]].
 
 ## Topological structure
 
