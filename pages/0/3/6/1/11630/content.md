@@ -126,11 +126,13 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 ### General
 
-The concept originates in 
+The hidden [[E7]]-symmetry in compactification of 11d sugra on a 7-torus was first noticed in
+
+* E. Cremmer, [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141.
+
+The concept and terminology of U-duality as such originates in 
 
 * {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
-
-which also introduced the term "U-duality".
 
 A textbook account is in 
 
