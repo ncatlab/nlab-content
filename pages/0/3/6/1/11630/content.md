@@ -134,7 +134,15 @@ and more generally in
 
 * [[Bernard de Wit]], [[Hermann Nicolai]], _D = 11 Supergravity With Local SU(8) Invariance_, Nucl. Phys. B 274, 363 (1986) ([spire](http://inspirehep.net/record/227409?ln=en)),  _Local SU(8) invariance in $d = 11$ supergravity_ ([spire](http://inspirehep.net/record/218601?ln=en))
 
-The concept and terminology of U-duality as such originates in 
+The further U-duality groups for compactifications of 11d SuGra including [[E6]], [[E7]], [[E8]] were identified in
+
+* [[Eugene Cremmer]], _Supergravities in 5 dimensions_, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press 1981
+
+* [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press 1981
+
+Review of this includes ([Obers-Pioline 98, section 4.2](#ObersPioline98))
+
+The concept and terminology of U-duality in string theory/M-theory originates in 
 
 * {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
 
@@ -157,7 +165,7 @@ with slides in
 
 Reviews with more [[M-theory]] lore include
 
-* N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+* {#ObersPioline98} N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
 
 * Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
 
