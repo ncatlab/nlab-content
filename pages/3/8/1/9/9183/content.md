@@ -41,11 +41,15 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 ## References
 
+Review includes
+
 * Wikipedia, _[Dark matter](http://en.wikipedia.org/wiki/Dark_matter)_
 
 * [[Matthew Strassler]], _[Current hints of dark matter](http://profmattstrassler.com/articles-and-posts/relativity-space-astronomy-and-cosmology/dark-matter/current-hints-of-dark-matter-413/)_
 
 * {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
+
+* [[Ethan Siegel]], _[Seven independent pieces of evidence for dark matter](https://medium.com/starts-with-a-bang/7-independent-pieces-of-evidence-for-dark-matter-3692126a2283)_, _[Ten things everyone should know about dark matter](https://medium.com/starts-with-a-bang/10-facts-everyone-should-know-about-dark-matter-1ce2b222cf08)_ 2015
  
 The observation that the lightest supersymmetric particle is a natural dark matter candidate goes back to 
 
