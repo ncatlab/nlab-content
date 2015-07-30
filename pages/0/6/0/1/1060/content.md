@@ -111,7 +111,7 @@ $$
   \,.
 $$
 
-Here the notatioon on the right is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
+Here the notation on the right is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
 
 =--
 
