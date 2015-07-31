@@ -135,7 +135,7 @@ such that
 
 1. $f_!$ satsifies [[Frobenius reciprocity]].
 
-If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\ast)$, then we speak of _linear homotopy-type theory with Beck-Chevalley condition_.
+If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\ast)$, then we speak of _linear type theory with Beck-Chevalley condition_.
 
 =--
 
