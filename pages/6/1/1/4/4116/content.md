@@ -27,7 +27,7 @@ is [[faithful functor|faithful]] and factors through $Sh_J(\Sigma)$, and its res
 
 The category of [[subsequential spaces]] can also be found as a full subcategory of this topos (in fact, it consists of the separated objects for a [[Lawvere-Tierney topology]]).  A general object of the topos can be thought of as like a subsequential space, but such that a given sequence can converge to a given point in "more than one way."
 
-Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_J(\Sigma)$ allows one to represent the [[geometric realization]] functor as the inverse image of a [[geometric morphism]] from $\mathcal{E}$ to the topos of [[simplicial set]]s. As Johnstone points out, this approach fails for the [[big topos]] on $Top$ and also for Lawvere's topos for [[continuum mechanics]].
+Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_J(\Sigma)$ allows one to represent the [[geometric realization]] functor $sSet \to \mathcal{E}$ as the inverse image of a [[geometric morphism]] from $\mathcal{E}$ to the topos of [[simplicial set]]s. As Johnstone points out, this approach fails for the [[big topos]] on $Top$ and also for Lawvere's topos for [[continuum mechanics]].
 
 
 ## Reference 
