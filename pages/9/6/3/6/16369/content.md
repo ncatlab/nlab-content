@@ -35,11 +35,12 @@ A topology $j$ satisfying these conditions is also called _dense_.
 
 ### Remark
 
-$j\circ\bot$ classifies the $j$-closure $\bar{\emptyset}$ of $\emptyset$ whence $j\circ\bot = \bot$ iff $\bar{\emptyset}=\emptyset$ i.e. $\emptyset\rightarrowtail 1$ is $j$-closed. Since $1$ is a $j$-sheaf for any topology $j$ and subobjects of $j$-sheaves in general are $j$-closed precisely when they are $j$-sheaves, this is equivalent to $\emptyset$ being a $j$-sheaf. Another way to say this is that $\emptyset$ is preserved by $i_\ast$. The equivalence between the last two formulations follows from the adjunction $i^\ast\dashv i_\ast$ and the [[strict initial object|strictness]] of $\emptyset$ in a topos. In [[SGA4]] (p.430) still another equivalent formulation is on offer, namely it suffices to check the last condition on [[subterminal object|subterminal objects]] $Z$.
+$j\circ\bot$ classifies the $j$-closure $\bar{\emptyset}$ of $\emptyset$ whence $j\circ\bot = \bot$ iff $\bar{\emptyset}=\emptyset$ i.e. $\emptyset\rightarrowtail 1$ is $j$-closed. Since $1$ is a $j$-sheaf for any topology $j$ and subobjects of $j$-sheaves in general are $j$-closed precisely when they are $j$-sheaves, this is equivalent to $\emptyset$ being a $j$-sheaf. Another way to say this is that $\emptyset$ is preserved by $i_\ast$. The equivalence between the last two formulations follows from the adjunction $i^\ast\dashv i_\ast$ and the [[strict initial object|strictness]] of $\emptyset$ in a topos. In [[SGA4]] (p.430) another equivalent formulation is on offer, namely it suffices to check the last condition on [[subterminal object|subterminal objects]] $Z$. An even more comprehensive list can be found in ([Caramello 2012](#Caramello12), p.9).
 
-The last two conditions make sense not only for embeddings $i$: general [[geometric morphisms]] fulfilling them are called [[dominant geometric morphism|dominant]]. So another way to express that $i:\mathcal{E}_j\hookrightarrow\mathcal{E}$ is a dense subtopos is to say that the inclusion $i$ is **dominant**.
 
-Notice that there is also a certain [[Grothendieck topology]] on small categories $\mathcal{C}$ called _the_ [[dense topology]] whose corresponding [[Lawvere-Tierney topology]] on $Set^{\mathcal{C}^{op}}$ is dense in the above sense, and coincides with the [[double negation|double-negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
+The last two conditions make sense not only for embeddings: general [[geometric morphisms]] fulfilling them are called [[dominant geometric morphism|dominant]]. So another way to express that $i:\mathcal{E}_j\hookrightarrow\mathcal{E}$ is a dense subtopos is to say that the inclusion $i$ is **dominant**.
+
+Notice that there is also a certain [[Grothendieck topology]] on small categories $\mathcal{C}$ called the [[dense topology]] whose corresponding [[Lawvere-Tierney topology]] on $Set^{\mathcal{C}^{op}}$ is dense in the above sense, and coincides with the [[double negation|double-negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
 
 ## Properties
 
@@ -60,7 +61,7 @@ In fact, dense topologies are characterized by their relation to $\neg\neg$:
 Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$ , i.e. $j$ is dense, iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
 =--
 
-([Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9)
+([Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9, see also at [double negation](#boolean_subtopos)).
 
 From this and the fact that $\mathcal{E}$ is trivially dense, follows:
 
@@ -69,7 +70,7 @@ From this and the fact that $\mathcal{E}$ is trivially dense, follows:
 A topos $\mathcal{E}$ is [[Boolean topos|Boolean]] iff $\mathcal{E}$ has exactly one dense subtopos, namely $\mathcal{E}_{\neg\neg}=\mathcal{E}$.
 =--
 
-Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ won't do.
+Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ wouldn't do.
 
 ### (Dense,Closed)-Factorization
 
@@ -85,7 +86,7 @@ factors as
 $$
   Sh_j(\mathcal{E}) 
     \hookrightarrow
-  Sh_{c(ext(j))} 
+  Sh_{c(ext(j))}(\mathcal{E})
     \hookrightarrow
   \mathcal{E}
 $$
@@ -102,9 +103,17 @@ Here the first inclusion exhibits a dense subtopos and the second a [[closed sub
 
 This is the _[[(dense,closed)-factorization]]_.
 
-#### Remark
+### Some parallels to topology
 
-The above terminology suggests to view a _dense subtopos_ as one with an _empty exterior_. This analogy to topology is pursued further in ([SGA4](#SGA4), p.462) where a dense subtopos is characterized as a subtopos $\mathcal{E}_j$ whose 'exterior' i.e. the [[open subtopos]] that corresponds to the [[subterminal object]] $ext(j)$ is trivial and whose 'closure' i.e. the [[closed subtopos]] corresponding to $ext(j)$ coincides with the 'whole space' $\mathcal{E}$.
+The above terminology suggests to view a _dense subtopos_ as one with an _empty exterior_.
+
+This analogy to topology is pursued further in ([SGA4](#SGA4), p.462) where a dense subtopos is characterized as a subtopos $Sh_j(\mathcal{E})$ whose 'exterior' $Ext(Sh_j(\mathcal{E}))$ i.e. the [[open subtopos]] that corresponds to the [[subterminal object]] $ext(j)$ is trivial and whose 'closure' $Cl(Sh_j(\mathcal{E})):=Sh_{c(ext(j))}(\mathcal{E})$ (i.e. the [[closed subtopos]] corresponding to $ext(j)$) coincides with the 'whole space' $\mathcal{E}$.
+
+Let's have a look at some of the details: 
+
+Due to the construction of [[open subtopos|open subtoposes]] we know that the objects of $Ext(Sh_j(\mathcal{E}))$ have the form $X^{ext(j)}$ for some $X\in\mathcal{E}$. Hence the exterior is trivial, i.e. $X^{ext(j)}=1$ for all $X\in\mathcal{E}$, precisely when $\bar\emptyset =ext(j)\simeq \emptyset$ which means that $Sh_j(\mathcal{E})$ is dense. By construction $Cl(Sh_j(\mathcal{E}))$ is the [[complement]] of $Ext(Sh_j(\mathcal{E}))$ in the lattice of subtoposes hence $Cl(Sh_j(\mathcal{E}))=\mathcal{E}$ in case the latter is trivial. This follows also directly from the description of objects in $Cl(Sh_j(\mathcal{E}))$ as those objects $X\in\mathcal{E}$ with $X\times ext(j)\cong ext(j)$.
+
+E.g. let $Sh_k(\mathcal{E})$ be a subtopos that has a trivial intersection with a non-trivial open subtopos $Sh_o(\mathcal{E})$. Then $Sh_k(\mathcal{E})$ is contained in the (closed) complement of $Sh_o(\mathcal{E})$ hence $Cl(Sh_k(\mathcal{E}))\neq \mathcal{E}$ and we see that $Sh_k(\mathcal{E})$ cannot be dense: we have recuperated the familiar fact from point-set topology that a [[dense subspace|dense subset]] intersects all non-trivial open sets non-trivially.
 
 ### Relation to Aufhebung
 
