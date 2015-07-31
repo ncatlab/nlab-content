@@ -13,35 +13,28 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 ## my position {#myposition}
 
-Presently I am visiting professsor at the _[Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz)_ in Prague, in Prof. [Vladim&#237;r Sou&#269;ek](http://www.karlin.mff.cuni.cz/~soucek/)'s group 
+I am researcher in the department _[Algebra, Geometry and Mathematical Physics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0)_
+of the [Institute of Mathematics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0) at the [Czech Academy of the Sciences](http://www.cas.cz/index.html) (CAS) in [Prague](https://en.wikipedia.org/wiki/Prague).
 
-I have my PhD in theoretical [[physics]] but have worked in math departments ever since. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Had then a few months of guest researcher position at [HIM](http://www.hausdorff-research-institute.uni-bonn.de) and then at [MPI](http://www.mpim-bonn.mpg.de/) in Bonn. From 2009 to 2014 I had a postdoc position in Prof. [[Ieke Moerdijk]]'s group, first in Utrecht and then the group moved to Nijmegen in 2012. The end of 2014 I was a guest researcher at Paris-Diderot visiting [Gabriel Catren's group](http://www.sphere.univ-paris-diderot.fr/spip.php?article675) in a program on homotopy type theory and the foundations of physics.
 
-
-## my research {#myresearch}
+## my research {#myresearch}.
 
 My research is about mathematical theory building in theoretical fundamental physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
 * _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
 
-Concretely the questions that I am thinking about myself are laid out a bit in my
-
-* _[Research Statement (pdf)](https://dl.dropboxusercontent.com/u/12630719/SchreiberStatement.pdf)_
-
-I am writing a technical book about this question:
+I am writing a monograph about this subject:
 
 * _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
 
 
-This is the kind of stuff that I am working on.
-
 ## teaching 
 
-This spring I am teaching a seminar on 
+In spring 2015 I was teaching a seminar on 
 
 * _[[schreiber:Higher Cartan Geometry]]_
 
-A list of notes prepared with seminars that I taught in the past is at this link:
+A list of notes prepared for seminars that I taught in the past is here
 
 * _[teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching)_;
 
