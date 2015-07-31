@@ -76,15 +76,14 @@ Original articles include
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class.Quant.Grav.17:3689-3702,2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
-* [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
- {#Hull}
+* {#Hull} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+ 
 
+* {#PachecoWaldram} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123,2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+  
 
-* Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
-  {#PachecoWaldram}
-
-* [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
- {#GLSW}
+* {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
+ 
 
 * G. Aldazabala,, E. Andr&#233;sb, P. C&#225;marac, [[Mariana Graña]], _U-dual fluxes and generalized geometry_, JHEP 1011:083,2010 ([arXiv:1007.5509](http://arxiv.org/abs/1007.5509))
 
