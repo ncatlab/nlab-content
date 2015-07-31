@@ -25,7 +25,9 @@ There is also a closely related but slightly more general concept of a _dense_ [
 
 ## Definition
 
-......
+Let $\mathcal{C}$ be a category. The _dense topology_ $J_d$ is the [[Grothendieck topology]] with collections of [[sieves]] $J_d(Y)$ of the form:
+
+A sieve $S$ is in $J_d(Y)$ iff for all $f:X\to Y$ there exists a $g:Z\to X$ such that $f\circ g:Z\to Y$ is in $S$.
 
 ## Properties
 
