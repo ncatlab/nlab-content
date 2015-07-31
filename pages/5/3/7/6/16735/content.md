@@ -1,0 +1,8 @@
+
+* [webpage](http://www.phys.psu.edu/people/rsr10)
+
+## related $n$Lab entries
+
+* [[4-dimensional supergravity]]
+
+category: people
