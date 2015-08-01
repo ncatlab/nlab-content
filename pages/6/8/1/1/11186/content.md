@@ -2,4 +2,12 @@
 
 * [webpage](http://people.mpim-bonn.mpg.de/haugseng/)
 
+## Related $n$Lab entries
+
+* [[(infinity,n)-category of correspondences]]
+
+* [[(infinity,1)-Grothendieck construction]]
+
+* [[(infinity,1)-module]], [[Brauer group]]
+
 category: people
