@@ -28,7 +28,7 @@ There are various different notions of $n$-vector spaces.
 
 One notion is: an $n$-vector space is a [[chain complex]] of [[vector space]]s in degrees 0 to $n$. For $n=2$ this is a [[Baez-Crans 2-vector space]]. This is useful for lots of things, but tends to be too restrictive in other contexts.
 
-Another is, recursively: an $(n-1)$-algebra object (or its $(n-1)$-category of modules) in the $n$-category of $(n-1)$-bimodules. For higher $n$ this is in ([FHLT, section 7](FHLT)). It includes the previous concept as a special case.
+Another is, recursively: an $(n-1)$-algebra object (or its $(n-1)$-category of modules) in the $n$-category of $(n-1)$-bimodules. For higher $n$ this is envisioned in ([FHLT, section 7](FHLT)), details are in spring. It includes the previous concept as a special case.
 
 For $n=2$ this subsumes various other definitions of [[2-vector space]] that are in the literature, such as notably the notion of [[Kapranov-Voevodsky 2-vector space]].
 
@@ -212,18 +212,22 @@ The notion of $n$-vector spaces is (defined for $n = 2$ and sketched recursively
 
 appendix A of
 
-* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_  Communications in Mathematical Physics, Volume 291, Issue 2, pp.357-401 (2008) ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
- {#Schreiber}
-
+* {#Schreiber} [[Urs Schreiber]], _AQFT from $n$-functorial QFT_  Communications in Mathematical Physics, Volume 291, Issue 2, pp.357-401 (2008) ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
+ 
 section 7 of 
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2009)
- {#FHLT}
+* {#FHLT} [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2009)
+
+Full details are in 
+
+* {#Haugseng14} [[Rune Huagseng]], _The higher Morita category of $E_n$-algebras_ ([arXiv:1412.8459](http://arxiv.org/abs/1412.8459))
 
 Review of work on 4-modules (implicitly) as [[trialgebras]]/[[Hopf monoidal categories]] is around p. 98 of 
 
-* [[John Baez]], [[Aaron Lauda]], _A prehistory of $n$-categorical physics_, in _Deep beauty_, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
- {#BaezLauda}
+* {#BaezLauda} [[John Baez]], [[Aaron Lauda]], _A prehistory of $n$-categorical physics_, in _Deep beauty_, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
+
+
+ 
 
 [[!redirects n-vector spaces]]
 [[!redirects n-vector spaces]]
