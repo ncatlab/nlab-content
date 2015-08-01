@@ -125,7 +125,7 @@ It is therefore natural to regard all of $H^2_{et}(R, \mathbb{G}_m)$ as the "act
  {#RelationToDerivedEtaleCohomology}
 
 More generally, this works for $R$ a (connective) [[E-infinity ring]] 
-(the following is due to [Antieau-Gepner 12](#AntieauGepner12)). 
+(the following is due to [Antieau-Gepner 12](#AntieauGepner12), see [Haugseng 14](#Haugseng14) for more). 
 
 Let $GL_1(R)$ be its [[infinity-group of units]]. 
 If $R$ is [[connective spectrum|connective]], then the first [[Postnikov tower|Postnikov stage]] of the [[Picard group|Picard]] [[infinity-groupoid]]
@@ -345,6 +345,9 @@ Refinement to [[stable homotopy theory]] and [[Brauer ∞-groups]] is discussed 
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
 
+Unification of all this in a theory of [[(infinity,n)-modules]] is in
+
+* {#Haugseng14} [[Rune Haugseng]], _The higher Morita category of $E_n$-algebras_ ([arXiv:1412.8459](http://arxiv.org/abs/1412.8459))
 
 The "bigger Brauer group" is discussed in 
 
