@@ -1,0 +1,62 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects de Morgan algebra]]
+[[!redirects de morgan algebra]]
+[[!redirects De Morgan algebras]]
+[[!redirects Stone lattice]]
+[[!redirects Stone algebra]]
+
+## Idea
+
+A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies as  weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
+
+[^stone]: Called a **Stone lattice** as well in the literature on lattice theory.
+
+## Definition
+
+A [[Heyting algebra]] $M$ that satifies the following equivalent conditions is called a _De Morgan algebra_:
+
+* For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **De Morgan law**)
+
+* For all $a\in M$: $\not a\vee\not\not a=\top$.
+
+* For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
+
+### Remark
+
+The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in every Heyting algebra.
+
+## Properties
+
+* Every [[Boolean algebra]] is a De Morgan algebra.
+
+## Related entries
+
+* [[De Morgan topos]]
+* [[De Morganization]]
+* [[Ore condition]]
+* [[Heyting algebra]]
+* [[co-Heyting algebra]]
+* [[Boolean algebra]]
+
+## References
+
+* [[Francis Borceux]], _Handbook of Categorical Algebra vol.3_ , Cambridge UP 1994. (sections 1.2, 7.3)
+
