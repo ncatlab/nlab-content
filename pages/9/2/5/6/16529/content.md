@@ -34,17 +34,21 @@ The first reflection principles go back to [[Richard Montague|R. Montague]] and 
 
 In [[type theory]] this principle is embodied by a [[type of types]] ([Martin-L&#246;f 74, p. 6](#MartinLoef74)).
 
-## Related concepts
+## Related entries
 
 * [[universe]]
 
 * [[type of types]]
 
+* [[cumulative hierarchy]]
+
 * [[continuous truth]]
 
-## References
+## Related page
 
-* Wikipedia, _[Reflection principle](http://en.wikipedia.org/wiki/Reflection_principle)_
+* Wikipedia, _[Reflection principle](http://en.wikipedia.org/wiki/Reflection_principle)_ .
+
+## References
 
 * {#BellMach77}J. L. Bell, M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (ch. 10,&#167;5)
 
