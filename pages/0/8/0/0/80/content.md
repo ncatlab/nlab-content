@@ -56,6 +56,20 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 To [[vertical categorification|categorify]] mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
+## Philosophical sentiments
+
+* [[Platonism]]
+
+* [[idealism]]
+
+  * [[objective idealism]]
+
+  * [[subjective idealism]]
+
+* [[positivism]]
+
+* [[universal exceptionalism]]
+
 ## Related entries
 
 * [[category (philosophy)]], [[modality]]
@@ -76,15 +90,6 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
     * [[becoming]] $\colon$ [[nothing]] $\dashv$ [[being]]
    
-* [[Platonism]]
-
-* [[idealism]]
-
-  * [[objective idealism]]
-
-  * [[subjective idealism]]
-
-* [[positivism]]
 
 * [[analytic philosophy]]
 
