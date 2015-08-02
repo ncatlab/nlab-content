@@ -24,6 +24,16 @@ Accordingly, exceptional field theory is related to [[exceptional generalized ge
 
 A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] of a $d$-dimensional [[Cartesian space]] with the [[fundamental representation]] [[vector space]] of a form of the [[exceptional Lie group]] $E_{11-d}$. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
 
+## Related concdepts
+
+* [[exceptional Lie group]]
+
+* [[exceptional geometry]]
+
+* [[exceptional generalized geometry]]
+
+* [[universal exceptionalism]]
+
 ## References
 
 Precursors include
