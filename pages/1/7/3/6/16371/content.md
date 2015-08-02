@@ -30,15 +30,21 @@ A _topology_ that is of this form for some subterminal object $U$ is called _ope
 
 In case $\mathcal{E}=Sh(X)$ is the topos of sheaves on a topological space $X$, a subterminal object is just an open subset $U$ of $X$ and the open subtopos corresponding to it is equivalent to $Sh(U)$.
 
+### Remark
+
+The [[subterminal object]] $U$ in $\mathcal{E}$ is associated with a [[closed subtopos]] $Sh_{c(U)}(\mathcal{E})$ as well e.g. in the case of $\mathcal{E}=Sh(X)$ on a space $X$ this yields $Sh(X\setminus U)$.
+
+Moreover, given a [[Lawvere-Tierney topology]] $j$ on a topos $\mathcal{E}$ with corresponding subtopos $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$, we a get a canonical [[subterminal object]] $ext(j)$  associated to $j$ by taking the $j$-closure of $O\rightarrowtail 1$. The corresponding closed and open subtoposes associated to $ext(j)$ provide a '_closure_' $Sh_{c(ext(j))}(\mathcal{E})$, respectively, an '_exterior_' $Sh_{o(ext(j))}(\mathcal{E})$ for $Sh_j(\mathcal{E})$ (cf. [SGA4](#SGA4), p.461).
+
 ## Properties
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{E}_j\hookrightarrow\mathcal{E}$ be a subtopos with corresponding topology $j$. The following are equivalent:
+Let $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a subtopos with corresponding topology $j$. The following are equivalent:
 
 * $j$ is open.
-* The [[associated sheaf functor]] $L:\mathcal{E}\to\mathcal{E}_j$ is [[logical functor|logical]].
-* $\mathcal{E}_j\hookrightarrow\mathcal{E}$ is an [[open geometric morphism]].
+* The [[associated sheaf functor]] $L:\mathcal{E}\to Sh_j(\mathcal{E})$ is [[logical functor|logical]].
+* $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ is an [[open geometric morphism]].
 
 =--
 
@@ -46,14 +52,10 @@ See Johnstone ([1980](#Johnstone80), pp.219-220; [2002](#Johnstone02), pp.609-61
 
 +-- {: .num_prop}
 ###### Proposition
-Let $U$ a [[subterminal object]] and $\mathcal{E}_{c(U)}$ and $\mathcal{E}_{o(U)}$ the corresponding closed, resp. open subtoposes. Then $\mathcal{E}_{c(U)}$ and $\mathcal{E}_{o(U)}$ are [[complement|complements]] for each other in the [[lattice of subtoposes]].
+Let $U$ a [[subterminal object]] and $Sh_{c(U)}(\mathcal{E})$ and $Sh_{o(U)}(\mathcal{E})$ the corresponding closed, resp. open subtoposes. Then $Sh_{c(U)}(\mathcal{E})$ and $Sh_{o(U)}(\mathcal{E})$ are [[complement|complements]] for each other in the [[lattice of subtoposes]].
 =--
 
 See Johnstone [(2002, pp.212,215)](#Johnstone).
-
-### Remark
-
-Let $j$ be a [[Lawvere-Tierney topology]] on a topos $\mathcal{E}$ with corresponding subtopos $\mathcal{E}_j\hookrightarrow\mathcal{E}$. Then the $j$-closure of $O\rightarrowtail 1$ defines a [[subterminal object]] $ext(j)$ and the corresponding open subtopos $\mathcal{E}_{o(ext(j))}$ provides an '_exterior_' (cf. [SGA4](#SGA4), p.461) for $\mathcal{E}_j$.
 
 ## Related pages
 
