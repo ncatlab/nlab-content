@@ -48,6 +48,9 @@ Survey of arguments for the hypothesis of grand unification includes
 
 and with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) in
 
+* [[Edward Witten]], section 1 and 2 of _Physics and geometry_, Proceedings of the international congress of mathematicians, 1986 ([pdf](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0267.0306.ocr.pdf)) 
+
+
 * {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
  
 
