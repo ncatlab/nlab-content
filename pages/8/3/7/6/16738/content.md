@@ -1,0 +1,64 @@
+# Contents # 
+* table of contents 
+{:toc} 
+
+## Idea 
+
+In [[material set theory]], especially versions of set theory that accept the [[axiom of foundation]] that the membership relation $\in$ is an extensional (but not necessarily [[transitive relation|transitive]]) [[well-founded relation]], there is a picture of sets as forming a _cumulative hierarchy_, hierarchically ordered by a rank function valued in the ordinals. The idea is that on Day 0 the empty set is born; on Day $n+1$ is born the power set of Day $n$. On limit Days all the sets born earlier are collected together into a single set which is their union. The cumulative hierarchy picture amounts to the assertion that every set belongs to some set produced by this iterative procedure. 
+
+## In ZFC 
+
+Suppose $V$ is a [[model]] of [[ZFC]]. Recall that in the theory ZFC, a set $x$ is defined to be *transitive* if $b \in x$ implies $b \subset x$; this is the same as saying that if $a \in b \in x$ then $a \in x$. Note this doesn't mean that the relation $\in$ on the set consisting of $x$ and its elements is itself [[transitive relation|transitive]]: the condition is only on those chains $a \in b \in c$ where $c = x$. However, if that relation *is* transitive, then it is transitive, and extensional (by the extensionality axiom), and well-founded (by the axiom of foundation), and therefore a well-ordered set according to the argument [here](/nlab/show/well-order#wellorders_are_linear). In this case, $x$ is by definition an [[ordinal number]] (in the sense of von Neumann). 
+
+Letting $On(V)$ be the class of ordinals (= ordinal numbers), one may define with the help of the replacement axiom a function 
+
+$$R: On(V) \to V$$ 
+
+by transfinite induction as follows: $R(0) = 0$, while 
+
+* $R(\alpha + 1) = P(R(\alpha))$ (where $P$ denotes power set), 
+
+* $R(\beta) = \bigcup_{\alpha \lt \beta} R(\alpha)$ when $\beta$ is a limit ordinal. 
+
++-- {: .num_prop} 
+###### Proposition 
+Each of the $R(\alpha)$ is transitive, and $\alpha \leq \beta$ implies $R(\alpha) \subseteq R(\beta)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+First, if $X$ is a transitive set, then so is $P(X)$. For suppose $A \in P(X)$. Then $A \subseteq X$, and so if $x \in A$, we have $x \in X$ and thus $x \subset X$ since $X$ is transitive, so that $x \in P(X)$. We have thus shown $A \subset P(X)$. 
+
+That each $R(\alpha)$ is transitive now follows by an easy induction. 
+
+And so $R(\alpha) \subset R(\alpha + 1) = P(R(\alpha))$ since $R(\alpha) \in P(R(\alpha))$, and now $\alpha \leq \beta \Rightarrow R(\alpha) \subseteq R(\beta)$ follows by an easy induction. 
+=-- 
+
+If $x \in R(\gamma)$, then there is a least $\beta$ such that $x \in R(\beta)$, and this $\beta$ must be a successor ordinal, $\beta = \alpha + 1$. We define the _rank_ of $x$ to be that $\alpha$. Thus 
+
+* $\emptyset$ has rank $0$, 
+
+* $1 \coloneqq \{\emptyset\}$ has rank $1$, 
+
+* $\{1\}$ and $2 \coloneqq \{0, 1\}$ have rank $2$, 
+
+and so on. Each ordinal $\alpha$ has rank $\alpha$. 
+
++-- {: .num_theorem} 
+###### Theorem 
+For every element $x$ of $V$, there is some $\alpha \in On(V)$ such that $x \in R(\alpha)$. Thus every set $x$ appears as an element somewhere within the cumulative hierarchy 
+
+$$R(0) \subset R(1) \subset \ldots \subset R(\omega) \subset R(\omega + 1) \subset \ldots \subset R(\omega + \omega) \subset \ldots$$ 
+=-- 
+
+The proof is essentially that $\bigcup_{\alpha \in On(V)} R(\alpha)$ is an $\in$-[[well-founded relation|inductive set]] of $V$, and so must be all of $V$ since $(V, \in)$ is well-founded (by the axiom of foundation). Details may be found in [Kunen](#Kunen). 
+
++-- {: .num_remark} 
+###### Remark 
+The notation $V$ so widely seen in set theory texts and articles is a kind of visual pun that refers to the cumulative hierarchy: one imagines the V as outlining an angle, with a horizontal cross-section of the space inside the angle at height $\alpha$ suggesting a set $R(\alpha)$, which grows ever wider as $\alpha$ increases; the ordinals $\alpha$ themselves may be pictured as vertebrae of a spine or line therein. All sets in the cumulative hierarchy lie somewhere within the V. 
+=-- 
+
+## References 
+
+* Kenneth Kunen, _Set Theory: An Introduction to Independence Proofs_, Studies in Logic and the Foundations of Mathematics Vol. 102 (2006), Elsevier. 
+ {#Kunen} 
