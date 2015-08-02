@@ -101,7 +101,6 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 
 [[!include U-duality -- table]]
 
-([Hull-Townsend 94, table 1, table 2](#HullTownsend94))
 
 ## Properties
 
