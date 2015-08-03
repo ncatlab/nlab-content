@@ -30,6 +30,14 @@ Prominent sources where this sentiment has been expressed include the following.
 
 > one may argue that the theory of our universe must be incredibly special, since out of all the theories we can write down, just this one describes the universe that actually exists. All sorts of simpler universes apparently don't exist. So maybe the theory of the universe needs to use special, "exceptional" mathematics for some reason, even though it's complicated
 
+[Ramond 01](#Ramond01) writes, in a context of [[heterotic string theory]] and [[M-theory]]:
+
+> Nature relishes unique mathematical structures. 
+
+and
+
+> The Exceptional Algebras are most unique and beautiful among Lie Algebras, and no one should be surprised if Nature uses them.
+
 [Witten 02a](#Witten02a), in the context of [[M-theory on G2-manifolds]] says:
 
 > arise in compactifying from eleven to four dimensions on a compact seven-manifold $X$ of $G_2$-holonomy. This seems like an interesting starting point for making a model of the real world, which is certainly exceptional
@@ -37,6 +45,10 @@ Prominent sources where this sentiment has been expressed include the following.
 [Witten 02b](#Witten02b), in the context of [[grand unified theory]] and [[heterotic string theory]] says:
 
 > Describing nature by a group taken from an infinite family does raise an obvious question &#8211; why this group and not another? In addition to the three infinite families, there are five [[exceptional Lie groups]], namely [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]]. Since nature is so exceptional, why not describe it using an exceptional Lie group? 
+
+[Ramond 03](#Ramond03) wites in a context of [[grand unification]]:
+
+> In the Lie garden, one also finds five rare flowers, the exceptional algebras: [[G2]], [[F4]], [[E6]], [[E7]] and [[E8]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
 
 ## Related entries
 
@@ -51,6 +63,10 @@ Prominent sources where this sentiment has been expressed include the following.
 
 * {#Baez95} [[John Baez]], _[This Week's Finds in Mathematical Physics (Week 66)](http://math.ucr.edu/home/baez/week66.html)_, October 10, 1995
 
+* {#Ramond01} [[Pierre Ramond]], _Algebraic Dreams_ ([arXiv:hep-th/0112261](http://arxiv.org/abs/hep-th/0112261))
+
 * {#Witten02a} [[Edward Witten]], _Deconstruction, $G_2$ Holonomy, and Doublet-Triplet Splitting_, ([arXiv:hep-ph/0201018](http://arxiv.org/abs/hep-ph/0201018))
 
 * {#Witten02b} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+
+* {#Ramond03} [[Pierre Ramond]], _Exceptional Groups and Physics_ ([hep-th/0301050](http://arxiv.org/abs/hep-th/0301050))
