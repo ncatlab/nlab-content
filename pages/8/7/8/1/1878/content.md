@@ -131,8 +131,7 @@ The following theorem allows one to recognize cofibrantly generated model catego
 +-- {: .num_theorem}
 ###### Theorem 
 
-Let $C$ be a [[category]] with all small [[limit]]s and [[colimit]]s and  $W$ a class of maps satisfying [[category with weak equivalences|2-out-of-3]] 
-and closed under [[retract]]s (in the [[arrow category]]).
+Let $C$ be a [[category]] with all small [[limit]]s and [[colimit]]s and  $W$ a class of maps satisfying [[category with weak equivalences|2-out-of-3]].
 
 If $I$ and $J$ are sets of maps in $C$ such that
 
@@ -169,8 +168,7 @@ We have to show that with weak equivalences $W$
 setting $cof_C := cof(I)$ and $fib_C := inj(J)$ defines a model category
 structure.
 
-The existence of [[limit]]s, [[colimit]]s and the [[category with weak equivalences|2-out-of-3 property]] holds by assumption, as does closure under [[retract]]s of $W$.
-
+The existence of [[limit]]s, [[colimit]]s and the [[category with weak equivalences|2-out-of-3 property]] holds by assumption. Closure under retracts of the weak equivalences will hold automatically if we check the rest of the axioms without using it, by an argument of A. Joyal.
 Closure under retracts of $fib$ and $cof$ follows by the general statement that
 classes of morphisms defined by a left or right lifting property are closed under
 retracts (e.g. 7.2.8 in _ModLoc_ ).
