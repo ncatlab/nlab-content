@@ -31,7 +31,7 @@ with or even without summation sign. Surely in either case we need to remember t
 
 It gets more useful, when we take into account coassociativity to justify extending the notation to write
 
-$$ \array{\sum c_{(1)}\otimes c_{(2)} \otimes c_{(3)} := \sum c_{(1)(1)}\otimes c_{(1)(2)}\otimes c_{(3)} \\
+$$ \array{\sum c_{(1)}\otimes c_{(2)} \otimes c_{(3)} := \sum c_{(1)(1)}\otimes c_{(1)(2)}\otimes c_{(2)} \\
 = \sum c_{(1)}\otimes c_{(2)(1)}\otimes c_{(2)(2)}.}$$
 
 Furthermore, we can extend it to [[coactions]], e.g. $\rho:V\to V\otimes C$, by $\rho(v) = \sum v_{(0)}\otimes v_{(1)}$. Then we can use the coaction axiom $(id_V\otimes \Delta)\circ\rho = (\rho\otimes id_C)\circ \rho$ to write
