@@ -76,3 +76,7 @@ Arguments that the charges of the [[M-theory super Lie algebra]] may be identifi
 
 * [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
 
+Relation to [[exceotional field theory]] is discussed in
+
+* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
+
