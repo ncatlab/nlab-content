@@ -75,7 +75,7 @@ Original articles include
 Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representation]], and arguments that the [[charges]] of the [[M-theory super Lie algebra]] and in fact further brane charges may be identified inside $l_1$ originate in
 
 * {#West04} [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-
-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
+342,2003 ([arXiv:hep-th/0307098](http://arxiv.org/abs/hep-th/0307098))
 
 and was further explored in 
 
