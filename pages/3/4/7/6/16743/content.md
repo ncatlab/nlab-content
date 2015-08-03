@@ -41,12 +41,21 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 ## Properties
 
-+-- {: .num_prop}
++-- {: .num_prop #presheaf-deMorgan}
 ###### Proposition
-Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ is De Morgan precisely if $\mathcal{C}^{op}$ satifies the [[Ore condition]].
+Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ is De Morgan precisely if $\mathcal{C}$ satifies the [[Ore condition]].
 =--
 
-This result due to [[Peter Johnstone]] appears e.g. as an exercise in [Johnstone (1977, p.162)](#Johnstone77), or with a proof in [Johnstone (1979)](#Johnstone79). Compare also the generalizations to other intermediate logics in [Caramello (2012)](#Caramello12).
+This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations to other intermediate logics in [Caramello (2012)](#Caramello12).
+
+### Relation to cohesion
+
++-- {: .num_prop #omega_connected}
+###### Proposition
+Let $Set^{\mathcal{C}^{op}}$ be a [[presheaf topos]]. Then its [[subobject classifier]] is connected iff $1\in Set^{\mathcal{C}^{op}}$ is a [[connected]] object and $Set^{\mathcal{C}^{op}}$ is not de Morgan iff there is a connected object $X\in Set^{\mathcal{C}^{op}}$ such that $1+1\hookrightarrow X$ .
+=--
+
+This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) where it is attributed to [[Lawvere]].
 
 ## Related entries
 
@@ -58,6 +67,10 @@ This result due to [[Peter Johnstone]] appears e.g. as an exercise in [Johnstone
 
 ## References
 
+* A. Bagchi, _De Morgan's law and related identities in classifying topoi_ , Proc. CT91 pp.1-32, American Mathematical Society 1992.
+
+* A. Bagchi, _Lee Identities in Topoi I_ , JPAA **120** (1997) pp.143-159.
+
 * [[Francis Borceux]], _Handbook of Categorical Algebra vol.3_ , Cambridge UP 1994. (sections 1.2, 7.3)
 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Adv. in Math. **222** (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
@@ -66,7 +79,9 @@ This result due to [[Peter Johnstone]] appears e.g. as an exercise in [Johnstone
 
 * {#CJ09}[[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the Theory of Fields_ , Adv. in Math. **222** (2009) pp.2145-2152. ([arXiv:0808.1572](http://arxiv.org/abs/0808.1572))
 
-* {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint New York 2014)
+* R. Harun, _Applications of De Morgan toposes and the Gleason cover_ , PhD Montr&#233;al 1996. ([pdf 4.6MB](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp04/mq29711.pdf))
+
+* {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint New York 2014, exercise 5.5.3 p.162)
 
 * {#Johnstone79}[[Peter Johnstone]], _Conditions Related to De Morgan's Law_ , pp.479-491 in LNM **753** (1979).
 
@@ -83,6 +98,8 @@ This result due to [[Peter Johnstone]] appears e.g. as an exercise in [Johnstone
 * [[Anders Kock]], [[Gonzalo E. Reyes]], _Relatively Boolean and De Morgan Toposes and Locales_ , Cah. Top. G&#233;om. Diff. Cat. **35** no.3 (1994) pp.249-261. ([numdam](http://www.numdam.org/numdam-bin/item?id=CTGDC_1994__35_3_249_0))
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_ , TAC **30** no.26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
+* K. B. Lee, _Equational Classes of Distributed Pseudo-Complemented Lattices_ , Can. J. Math. **22** (1970) pp.881-891. ([pdf](http://cms.math.ca/openaccess/cjm/v22/cjm1970v22.0881-0891.pdf))
 
 * {#Mielke84} M. V. Mielke, _Homotopically Trivial Toposes_ , Pacific J. Math. **110** no.1 (1984) pp.171-182. ([euclid](https://projecteuclid.org/euclid.pjm/1102711108))
 
