@@ -123,6 +123,10 @@ For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is d
 
 * Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
+Relation to [[Borcherds superalgebras]] is surveyed and discussed in 
+
+* Jakob Palmkvist, _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
+
 [[!redirects exceptional generalized geometry]]
 
 [[!redirects exceptional generalized geometries]]
