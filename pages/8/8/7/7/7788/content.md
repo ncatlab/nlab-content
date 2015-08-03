@@ -72,11 +72,19 @@ Original articles include
 
 * E. Bergshoeff, I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
 
-Arguments that the charges of the [[M-theory super Lie algebra]] may be identified inside $E_{11}$ are in
+Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representation]], and arguments that the [[charges]] of the [[M-theory super Lie algebra]] and in fact further brane charges may be identified inside $l_1$ originate in
 
-* [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
+* [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-
+342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
 
-Relation to [[exceotional field theory]] is discussed in
+and was further explored in 
+
+* [[Axel Kleinschmidt]], [[Peter West]], _Representations of $G+++$ and the role of space-time_, JHEP 0402 (2004) 033 ([arXiv:hep-th/0312247](http://arxiv.org/abs/hep-th/0312247))
+
+* [[Paul Cook]], [[Peter West]], _Charge multiplets and masses for $E(11)$_, JHEP 11 (2008) 091 ([arXiv:0805.4451](http://arxiv.org/abs/0805.4451))
+
+* [[Peter West]], _$E_{11}$ origin of Brane charges and U-duality multiplets_, JHEP 0408 (2004) 052 ([arXiv:hep-th/0406150](http://arxiv.org/abs/hep-th/0406150))
+
+Relation to [[exceptional field theory]] is discussed in
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
-
