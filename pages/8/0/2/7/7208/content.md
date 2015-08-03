@@ -35,6 +35,8 @@ The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimp
 
 * [[Kac-Moody group]]
 
+* [[Borcherds algebra]]
+
 ## References
 
 ### General
