@@ -29,6 +29,8 @@ These affine Lie algebras appear in [[quantum field theory]] as the [[current al
 
 * [[quantum affine algebra]]
 
+* [[Borcherds algebra]]
+
 ## References
 
 The standard textbook is 
@@ -65,7 +67,7 @@ The famous quote by Kac is in
 
 > It is a well kept secret that the theory of Kac-Moody algebras has been a disaster. True, it is a generalization of a very important object, the simple finite-dimensional Lie algebras, but a generalization too straightforward to expect anything interesting from it. True, it is remarkable how far one can go with all these ei's, fi's and hi's. Practically all, even most difficult results of finite-dimensional theory, such as the theory of characters, Schubert calculus and cohomology theory, have been extended to the general set-up of Kac-Moody algebras. But the answer to the most important question is missing: what are these algebras good for? Even the most sophisticated results, like the connections to the theory of quivers, seem to be just scratching the surface. 
 
-> However, there are two notable exceptions. The best known one is, of course, the theory of affine Kac-Moody algebras. This part of the Kac-Moody theory has deeply penetrated many branches of mathematics and physics. The most important single reason for this success is undoubtedly the isomorphism of affine algebras and central extensions of loop algebras, often called current algebras. The second notable exception is provided by Borcherds' algebras which are roughly speaking the spaces of physical states of certain chiral algebras.
+> However, there are two notable exceptions. The best known one is, of course, the theory of affine Kac-Moody algebras. This part of the Kac-Moody theory has deeply penetrated many branches of mathematics and physics. The most important single reason for this success is undoubtedly the isomorphism of affine algebras and central extensions of loop algebras, often called current algebras. The second notable exception is provided by [[Borcherds' algebras]] which are roughly speaking the spaces of physical states of certain chiral algebras.
 
 
 [[!redirects affine Lie algebras]]
