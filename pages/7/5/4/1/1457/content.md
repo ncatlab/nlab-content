@@ -23,9 +23,13 @@ A **metric space** is a [[set]] which comes equipped with a [[function]] which m
 Traditionally, a __metric space__ is defined to be a [[set]] $X$ equipped with a __distance__ function 
 $$ d\colon X \times X \to [0, \infty) $$ 
 (valued in nonnegative [[real numbers]]) satisfying the following axioms: 
+
 * [[triangle inequality|Triangle inequality]]: $d(x, y) + d(y, z) \geq d(x, z)$;
+
 * Point inequality: $0 \geq d(x, x)$ (so $0 = d(x,x)$);
+
 * Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
+
 * Symmetry: $d(x, y) = d(y, x)$.
 
 Given a metric space $(X, d)$ and a point $x \in X$, the __[[open ball]]__ centered at $x$ of radius $r$ is  
@@ -63,7 +67,8 @@ Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|c
 
 (The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
-The category of metric spaces and categories of random maps as generalised metric spaces were studied by Lawvere's student [[Xiao-qing Meng]] in [[#Meng_phd]]
+The category of metric spaces and categories of random maps as generalised metric spaces were studied in the [thesis](#Meng) of Lawvere's student Xiao-qing Meng. 
+
 
 ## Motivation for the axioms 
 
@@ -117,7 +122,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 ## References
 
-[[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]])
+[[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+ {#Meng}
 
 
 [[!redirects metric space]]
