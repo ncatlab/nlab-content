@@ -37,7 +37,7 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 The first [[fundamental representation]] of $E_{11}$, usually denoted $l_1$, is argued, since ([West 04](#West04)), to contain in its decomposition into [[representations]] of $GL(11)$ the representations in which the [[charges]] of the [[M-branes]] and other [[BPS states]] transform.
 
-According to ([West 04](#West04), [Kleinschmidt-West 04](#KleinschmidtWest04)) and concisely stated for instance in ([Wess 11, (2.17)](#Wess11)), the level decomposition of $l_1$ under $GL(11)$ starts out as so:
+According to ([Nicolai-Fischbacher 03, first three rows of table 2 on p. 72](#NicolaiFischbacher03), [West 04](#West04), [Kleinschmidt-West 04](#KleinschmidtWest04)) and concisely stated for instance in ([Wess 11, (2.17)](#Wess11)), the level decomposition of $l_1$ under $GL(11)$ starts out as so:
 
 $$
   l_1 
@@ -85,7 +85,7 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 * [[Peter West]], section 16.7 of _[[Introduction to Strings and Branes]]_
 
-* [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
+* {#NicolaiFischbacher03} [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
 
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
@@ -104,9 +104,19 @@ Reviews include
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
 
-Original articles include
+Original articles include the following:
 
-* {#West01} [[Peter West]], _E(11) and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001.
+The observation that $E_{11}$ seems to neatly organite the structures in [[11-dimensional supergravity]]/[[M-theory]] is due to
+
+* {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001.
+
+A precursor to [West 01](#West01) is 
+
+* [[Bernard Julia]], _Dualities in the classical supergravity limits_ ([arXiv:hep-th/9805083](http://arxiv.org/abs/hep-th/9805083))
+
+as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
+
+Further developments include
 
 * [[Peter West]], _$E_{11}$, ten forms and supergravity_, JHEP0603:072,2006 ([arXiv:hep-th/0511153](http://arxiv.org/abs/hep-th/0511153))
 
@@ -125,7 +135,7 @@ Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representa
 
 and was further explored in 
 
-* {#KleinschmidtWest04} [[Axel Kleinschmidt]], [[Peter West]], _Representations of $G+++$ and the role of space-time_, JHEP 0402 (2004) 033 ([arXiv:hep-th/0312247](http://arxiv.org/abs/hep-th/0312247))
+* {#KleinschmidtWest04} [[Axel Kleinschmidt]], [[Peter West]], _Representations of $G^{+++}$ and the role of space-time_, JHEP 0402 (2004) 033 ([arXiv:hep-th/0312247](http://arxiv.org/abs/hep-th/0312247))
 
 * [[Paul Cook]], [[Peter West]], _Charge multiplets and masses for $E(11)$_, JHEP 11 (2008) 091 ([arXiv:0805.4451](http://arxiv.org/abs/0805.4451))
 
@@ -136,3 +146,9 @@ and was further explored in
 Relation to [[exceptional field theory]] is discussed in
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
+
+Relation to [[Borcherds superalgebras]] is discussed in
+
+* Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, JHEP 0204 (2002) 049 ([arXiv:hep-th/0203070](http://arxiv.org/abs/hep-th/0203070))
+
+* {#HenneauxJuliaLevie10} [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie, _$E_{11}$, Borcherds algebras and maximal supergravity_ ([arxiv:1007.5241](http://arxiv.org/abs/1007.5241))
