@@ -32,6 +32,52 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 [[!include U-duality -- table]]
 
+### Fundamental representation and brane charges
+ {#FundamentalRepresentationAndBraneCharges}
+
+The first [[fundamental representation]] of $E_{11}$, usually denoted $l_1$, is argued, since ([West 04](#West04)), to contain in its decomposition into [[representations]] of $GL(11)$ the representations in which the [[charges]] of the [[M-branes]] and other [[BPS states]] transform.
+
+According to ([West 04](#West04), [Kleinschmidt-West 04](#KleinschmidtWest04)) and concisely stated for instance in ([Wess 11, (2.17)](#Wess11)), the level decomposition of $l_1$ under $GL(11)$ starts out as so:
+
+$$
+  l_1 
+  \simeq
+  \underset{level\,0}{
+  \underbrace{
+    \mathbb{R}^{10,1}
+  }}
+  \oplus
+  \underset{level\,1}{
+  \underbrace{
+    \wedge^2 (\mathbb{R}^{10,1})^\ast
+  }}
+  \oplus
+  \underset{level\,2}{
+  \underbrace{
+    \wedge^5 (\mathbb{R}^{10,1})^\ast
+  }}
+  \oplus
+  \underset{level\,3}{\underbrace{
+    \wedge^7 (\mathbb{R}^{10,1})^\ast \otimes_s (\mathbb{R}^{10,1})^\ast
+    \oplus
+    \wedge^8 (\mathbb{R}^{10,1})^\ast
+  }}
+  \oplus 
+  \cdots
+$$
+
+Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]] underlying the [[M-theory super Lie algebra]] and via the relation of that to [[BPS charges]] in [[11-dimensional supergravity]]/[[M-theory]], the [[direct sums|direct summands]] here have been argued to naturally correspond to 
+
+* leve 0: [[momentum]]
+
+* level 1: [[M2-brane]] charge
+
+* level 2: [[M5-brane]] charge
+
+* level 3: [[dual graviton]] charge ([Wess 11, section N](#Wess11)) (has two components [^ThanksToKleinschmidt])
+
+[^ThanksToKleinschmidt]: private communication with [[Axel Kleinschmidt]] 
+
 
 ## References
 
@@ -79,7 +125,7 @@ Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representa
 
 and was further explored in 
 
-* [[Axel Kleinschmidt]], [[Peter West]], _Representations of $G+++$ and the role of space-time_, JHEP 0402 (2004) 033 ([arXiv:hep-th/0312247](http://arxiv.org/abs/hep-th/0312247))
+* {#KleinschmidtWest04} [[Axel Kleinschmidt]], [[Peter West]], _Representations of $G+++$ and the role of space-time_, JHEP 0402 (2004) 033 ([arXiv:hep-th/0312247](http://arxiv.org/abs/hep-th/0312247))
 
 * [[Paul Cook]], [[Peter West]], _Charge multiplets and masses for $E(11)$_, JHEP 11 (2008) 091 ([arXiv:0805.4451](http://arxiv.org/abs/0805.4451))
 
