@@ -41,21 +41,39 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 ## Properties
 
+The following shows that 'being De Morgan' is a _local property_ i.e. stable under slicing. This is immediate from the fact that the functor $\mathcal{E}\to\mathcal{E}/A$ sending $X$ to the projection $p_A: X\times A\to A$ is [[logical functor|logical]] hence preserves the various equivalent formulations of De Morgan's law.
+
++-- {: .num_prop #local_property}
+###### Proposition
+Let $A$ be an object of the De Morgan topos $\mathcal{E}$. Then the [[slice topos]] $\mathcal{E}/A$ is De Morgan as well.
+=--
+
 +-- {: .num_prop #presheaf-deMorgan}
 ###### Proposition
 Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ is De Morgan precisely if $\mathcal{C}$ satifies the [[Ore condition]].
 =--
 
-This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations to other intermediate logics in [Caramello (2012)](#Caramello12).
+This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
 ### Relation to cohesion
 
 +-- {: .num_prop #omega_connected}
 ###### Proposition
-Let $Set^{\mathcal{C}^{op}}$ be a [[presheaf topos]]. Then its [[subobject classifier]] is connected iff $1\in Set^{\mathcal{C}^{op}}$ is a [[connected]] object and $Set^{\mathcal{C}^{op}}$ is not de Morgan iff there is a connected object $X\in Set^{\mathcal{C}^{op}}$ such that $1+1\hookrightarrow X$ .
+Let $Set^{\mathcal{C}^{op}}$ be a [[presheaf topos]]. Then its [[subobject classifier]] is connected iff $1\in Set^{\mathcal{C}^{op}}$ is a [[connected]] object and $Set^{\mathcal{C}^{op}}$ is not de Morgan iff there exists a connected object $X\in Set^{\mathcal{C}^{op}}$ such that $1\coprod 1\hookrightarrow X$ .
 =--
 
 This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) where it is attributed to [[Lawvere]].
+
+### Relation to model theory
+
+....
+
++-- {: .num_prop #model_companion}
+###### Proposition
+Let $\mathcal{T}$ be a coherent theory. Then $\mathcal{T}$ admits a model companion and $Mod(\mathcal{T})$ has the amalgamation property iff for each $B\in\mathcal{T}$ , the lattice of subobjects of $B$ admits a negation satisfying $\neg A\vee\neg\neg A = B$.
+=--
+
+This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is attributed to a preprint of [[André Joyal]] and [[Gonzalo E. Reyes]].
 
 ## Related entries
 
@@ -79,7 +97,7 @@ This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) 
 
 * {#CJ09}[[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the Theory of Fields_ , Adv. in Math. **222** (2009) pp.2145-2152. ([arXiv:0808.1572](http://arxiv.org/abs/0808.1572))
 
-* R. Harun, _Applications of De Morgan toposes and the Gleason cover_ , PhD Montr&#233;al 1996. ([pdf 4.6MB](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp04/mq29711.pdf))
+* {#Harun76}R. Harun, _Applications of De Morgan toposes and the Gleason cover_ , PhD Montr&#233;al 1996. ([pdf 4.6MB](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp04/mq29711.pdf))
 
 * {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint New York 2014, exercise 5.5.3 p.162)
 
@@ -95,7 +113,7 @@ This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) 
 
 * {#Johnstone13}[[Peter Johnstone]], _The Gleason Cover of a Realizability Topos_ , TAC **28** no.32 (2013) pp.1139-1152. ([abstract](http://www.tac.mta.ca/tac/volumes/28/32/28-32abs.html))
 
-* [[Anders Kock]], [[Gonzalo E. Reyes]], _Relatively Boolean and De Morgan Toposes and Locales_ , Cah. Top. G&#233;om. Diff. Cat. **35** no.3 (1994) pp.249-261. ([numdam](http://www.numdam.org/numdam-bin/item?id=CTGDC_1994__35_3_249_0))
+* {#KR94}[[Anders Kock]], [[Gonzalo E. Reyes]], _Relatively Boolean and De Morgan Toposes and Locales_ , Cah. Top. G&#233;om. Diff. Cat. **35** no.3 (1994) pp.249-261. ([numdam](http://www.numdam.org/numdam-bin/item?id=CTGDC_1994__35_3_249_0))
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_ , TAC **30** no.26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
