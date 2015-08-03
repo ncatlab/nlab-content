@@ -152,3 +152,6 @@ Relation to [[Borcherds superalgebras]] is discussed in
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, JHEP 0204 (2002) 049 ([arXiv:hep-th/0203070](http://arxiv.org/abs/hep-th/0203070))
 
 * {#HenneauxJuliaLevie10} [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie, _$E_{11}$, Borcherds algebras and maximal supergravity_ ([arxiv:1007.5241](http://arxiv.org/abs/1007.5241))
+
+* {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
+
