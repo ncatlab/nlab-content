@@ -51,19 +51,41 @@ For every element $x$ of $V$, there is some $\alpha \in On(V)$ such that $x \in 
 $$R(0) \subset R(1) \subset \ldots \subset R(\omega) \subset R(\omega + 1) \subset \ldots \subset R(\omega + \omega) \subset \ldots$$ 
 =-- 
 
-The proof is essentially that $\bigcup_{\alpha \in On(V)} R(\alpha)$ is an $\in$-[[well-founded relation|inductive set]] of $V$, and so must be all of $V$ since $(V, \in)$ is well-founded (by the axiom of foundation). Details may be found in [Kunen](#Kunen). 
+The proof is essentially that $\bigcup_{\alpha \in On(V)} R(\alpha)$ is an $\in$-[[well-founded relation|inductive set]] of $V$, and so must be all of $V$ since $(V, \in)$ is well-founded (by the axiom of foundation). Details may be found in any reasonable text on ZFC set theory, for example [Kunen](#Kunen). 
 
 +-- {: .num_remark} 
 ###### Remark 
-The notation $V$ so widely seen in set theory texts and articles is a kind of visual pun that refers to the cumulative hierarchy: one imagines the V as outlining an angle, with a horizontal cross-section of the space inside the angle at height $\alpha$ suggesting a set $R(\alpha)$, which grows ever wider as $\alpha$ increases; the ordinals $\alpha$ themselves may be pictured as vertebrae of a spine or line therein. All sets in the cumulative hierarchy lie somewhere within the V. 
+The notation $V$ so widely seen in set theory texts and articles is a kind of visual pun that refers to the cumulative hierarchy: one imagines the V as outlining an angle, with a horizontal cross-section of the space inside the angle at height $\alpha$ suggesting a set $R(\alpha)$, which expands as $\alpha$ increases; the ordinals $\alpha$ themselves may be pictured as vertebrae of a spine or line therein. All sets in the cumulative hierarchy lie somewhere within the V. 
 =-- 
+
+## In algebraic set theory 
+
+The idea of the cumulative hierarchy is realized in [[algebraic set theory]] via the construction of an initial "ZF-algebra". In broad-brush terms, there is a general connection between well-foundedness and initial algebras, as in Paul Taylor's theory of recursion where an initial $T$-algebra (for a [[taut functor]] $T$) is seen as a [[well-founded coalgebra]] $(X, \theta: X \to T X)$ for which $\theta$ is an isomorphism (i.e., a maximal well-founded coalgebra). Algebraic set theory can be seen as exploiting this connection and working out the details in cases specific to operations on "small sets", eventually enabling one to get at the cumulative hierarchy *per se*, i.e., the universe of *well-founded sets* (as well as the universe of ordinals, etc.). 
+
+This deserves to be discussed at length, but let us try to give a few hints for now. One starts with a [[pretopos]] $\mathcal{C}$ (whose objects are regarded as "classes") equipped with a suitable notion of "smallness": to say a map $f: E \to X$ in the pretopos is "small" means intuitively that all its [[fibers]] are "small" (i.e., sets). Thus one assumes some reasonable axioms on the class of small maps in $\mathcal{C}$, including the existence of a universal small map "$el$": $E \to U$, with the elements $u$ of $U$ naming small sets and the fiber over $u$ the actual (small) set of its elements. The smallness axioms allow one to construct a small-[[power set]] functor $P_s: \mathcal{C} \to \mathcal{C}$; intuitively this sends a class $C$ to the class of small subsets of $C$. This carries a [[monad]] structure whose algebras $(X, \sup: P_s X \to X)$ are "small-complete" posets in $\mathcal{C}$. 
+
+To get at the actual cumulative hierarchy (with attendant global membership relation $\in$), one defines a *ZF-algebra* to be a small-complete poset $(V, \leq)$ in $\mathcal{C}$, equipped with a function $s: V \to V$ satisfying suitable conditions; here one is to think of $\leq$ as "inclusion" and $s(x)$ as a singleton $\{x\}$. The relation $x \in y$ can then be interpreted as $s(x) \leq y$. The initial object in the category of ZF-algebras then captures the desired universe of well-founded sets. 
+
++-- {: .num_remark} 
+###### Remark 
+The details of the construction of the initial ZF-algebra should be examined with attention to connections with Taylor's theory of well-founded coalgebras; for example, systematic use is made of bisimulations which has a general meaning in coalgebra theory. 
+=-- 
+
+This program, initiated by [[André Joyal]] and [[Ieke Moerdijk]], permits a fine-grained analysis of *intuitionistic* ZF-set theory and intuitionistic ordinals. The reader is referred to their [monograph](#JM) for details, and to the [Algebraic Set Theory](http://www.phil.cmu.edu/projects/ast/) page for further pointers to the literature. 
+
 
 ## Related entries
 
 * [[constructible universe]]
+
 * [[reflection principle]]
+
+* [[algebraic set theory]] 
 
 ## References 
 
 * Kenneth Kunen, _Set Theory: An Introduction to Independence Proofs_, Studies in Logic and the Foundations of Mathematics Vol. 102 (2006), Elsevier. 
  {#Kunen} 
+
+* Andr&#233; Joyal and Ieke Moerdijk, _Algebraic Set Theory_, London Math. Soc. Lecture Series Notes 220 (1995), Cambridge University Press. 
+ {#JM} 
