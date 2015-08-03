@@ -436,6 +436,7 @@ $$
     \mapsto
   (s x , t y, \frac{1}{2}((s x)^2 + (t y)^2)z)
     \mapsto
+
   \tau(s x, s y, z)
   \,.
 $$
@@ -668,24 +669,27 @@ The description of parallel $n$-transport in terms of $n$-functors on the [[path
 
 The description of [[connections on a 2-bundle]] in terms of such parallel 2-transport 
 
-* U.S. [[Konrad Waldorf]] _Nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
-{#SWIII}
+* [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXi:hep-th/0412325hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
+
+* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]] _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
+
 
 Parallel transport for [[circle n-bundles with connection]] is discussed generally in 
 
 * [[Kiyonori Gomi]] and Yuji Terashima, _Higher dimensional parallel transport_ Mathematical Research Letters 8, 25&#8211;33 (2001) ([pdf](http://mrlonline.org/mrl/2001-008-001/2001-008-001-004.pdf))
 
-and
-
 * David Lipsky, _Cocycle constructions for topological field theories_ (2010) ([[LipskyThesis.pdf:file]])
 
 see also the discussion at _[[fiber integration in ordinary differential cohomology]]_.
 
+Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infinity-groupoids]] is discussed in 
+
+* {#Kapranov15} [[Mikhail Kapranov]], _Membranes and higher groupoids_ ([arXiv:1502.06166](http://arxiv.org/abs/1502.06166))
 
 The integration of flat differential forms with values in chain complexes toflat $\infty$-parallel transport on $\infty$-vector bundles is in 
 
-* [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
-{#AbadSchaetz}
+* {#AbadSchaetz} [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
+
 
 
 based on
@@ -716,5 +720,4 @@ Remarks on $\infty$-parallel transport in [[Top]] are in
 
 [[!redirects higher volume holonomy]]
 [[!redirects higher volume holonomies]]
-
 
