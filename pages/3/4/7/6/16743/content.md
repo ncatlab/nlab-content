@@ -105,6 +105,12 @@ For a proof see [Caramello (2009)](#Caramello09). The $m$ that occurs here, refe
 
 As $Sh_{\neg\neg}(\mathcal{E})$, the sheaf subtopos for the [[double negation|double negation topology]] $\neg\neg$ , is the _smallest_ dense De Morgan subtopos, we see that all dense De Morgan subtoposes lie in the interval between $Sh_{\neg\neg}(\mathcal{E})$ and $Sh_{m}(\mathcal{E})$.
 
+### The Gleason cover
+
+Another way to associate a De Morgan topos to an arbitrary topos $\mathcal{E}$ was proposed by [[Peter Johnstone]] in the late 70s (Johnstone [1979b](#Johnstone79b), [1980](#J80)). The so called _Gleason cover_ $\gamma\mathcal{E}$ of $\mathcal{E}$ generalizes a construction in [[topology]] that covers an arbitrary [[space]] by an extremally disconnected topological space.
+
+......
+
 ### Relation to cohesion
 
 Given that the [above conditions](#deMorgan_equivalents) concern $1\coprod 1$ and the contractability of $\Omega_{\neg\neg}$ it comes as no surprise that the De Morgan property interacts interestingly with [[Lawvere|Lawvere's]] axiomatic approach to [[cohesion]] and, in particular, with the part of it that concerns the connectedness of the subobject classifier in a cohesive topos of spaces. A first indication of this is the following:
@@ -118,7 +124,7 @@ This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) 
 
 The following result due to [Mielke (1984)](#Mielke84) shows that the De Morgan property coincides with the (local) absence of a non-trivial [[interval object|interval objects]] in a topos.
 
-Here by an interval object we mean an internal linearly ordered object $I$ with least and greatest elements $m:1\to I$ and $M:1\to I$, respectively, i.e. the sort of thing that is classified by [[sSet]].
+Here by an interval object we mean an internal linearly ordered object $I$ with disjoint least and greatest elements $m:1\to I$ and $M:1\to I$, respectively, i.e. roughly the sort of thing that is classified by [[sSet]].
 
 An interval object is _trivial_ if $I\simeq I_1\coprod I_2$ and $m,M$ factor through $I_1,I_2$, respectively. A topos $\mathcal{E}$ is said to be **homotopically trivial** if every interval object in $\mathcal{E}$ is trivial, $\mathcal{E}$ is said to _locally homotopically trivial_ if the [[slice topos]] $\mathcal{E}/X$ is homotopically trivial for all $X\in\mathcal{E}$.
 
@@ -167,7 +173,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint New York 2014, exercise 5.5.3 p.162)
 
-* {#Johnstone79}[[Peter Johnstone]], _Conditions Related to De Morgan's Law_ , pp.479-491 in LNM **753** (1979).
+* {#Johnstone79}[[Peter Johnstone]], _Conditions Related to De Morgan's Law_ , pp.479-491 in LNM **753** Springer Heidelberg 1979.
 
 * {#Johnstone79b}[[Peter Johnstone]], _Another Condition Equivalent to De Morgan's Law_ , Comm. Alg. **7** (1979) pp.1309-1312.
 
