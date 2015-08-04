@@ -61,7 +61,7 @@ Sticking to imagery from [[solid state physics]], these modalities are reminisce
 #### Rubber-sheet geometry
  {#RubberSheetGeometry}
 
-These modalities [above](#InCategoricalLogic) induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]]], namely [[infinitesimal shape modality|infinitesimal shape]].
+These modalities [above](#InCategoricalLogic) induce an axiomatization of _[manifolds and &#233;tale groupoids](differential+cohesive+%28infinity%2C1%29-topos#EtaleObjects)_ ("[[derived schemes]]") for which a common imagery in mathematics is given by elastic rubber sheets, reflecting the fact that these spaces on top of their [[cohesion]] have a more rigid [[shape modality|shape]], namely [[infinitesimal shape modality|infinitesimal shape]].
 
 In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton)).
 
