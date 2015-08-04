@@ -29,7 +29,9 @@ Instead, at least certain "3-Lie algebras" can be understood as encoding structu
 
 ## Related concepts
 
-* [[Nambu bracket]]
+* [[higher Poisson bracket]]
+
+  * [[Nambu bracket]]
 
 * [[membrane matrix model]]
 
