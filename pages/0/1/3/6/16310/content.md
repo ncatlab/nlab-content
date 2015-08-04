@@ -34,6 +34,7 @@ One distinguishes different types of elasticity:
 ...
 
 ### Analogy with a quality of space
+ {#AnalogyWithAQualityOfSpace}
 
 Elasticity is commonly used as an illustration via [[analogy]] of the nature of [[space]] in [[physics]], specifically that of [[manifolds]] and [[spacetimes]].
 
