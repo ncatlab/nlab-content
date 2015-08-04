@@ -101,7 +101,7 @@ Here is one application in dimension 2 not easily obtainable by traditional [[al
 
 Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. Let $X$  be the [[mapping cone]] of the induced map $K(P,1) \to K(Q,1)$ of [[Eilenberg-Mac Lane space]]s. Then a [[crossed module]] representing the [[homotopy 2-type]] of $X$ is $\mu: C \to Q$ where $C$ is abelian and is the direct sum $\oplus_{r \in R} P^r$  of copies of $P$ one for each $r \in R$ and the action of $Q$ is via $R$ and permutes the copies by $(p,r)^s=(p,r+s)$. Similar examples for $P,Q,R$ nonabelian are do-able,   more complicated, and certainly **not** obtainable by traditional methods.
 
-See also the CT2015 presentation [Brown]{#RBrown) given below. . 
+See also the CT2015 presentation ([Brown 2015](#RBrown))
 
 
 
