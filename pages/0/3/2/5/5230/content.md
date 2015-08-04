@@ -29,6 +29,12 @@ One example that naturally gives rise to Nambu mechanics is the relativistic [[m
 
 ## Related concepts
 
+* [[higher Poisson structure]]
+
+  * [[Poisson n-algebra]]
+
+  * [[Poisson bracket Lie n-algebra]]
+
 * [[membrane]]
 
 ## References
