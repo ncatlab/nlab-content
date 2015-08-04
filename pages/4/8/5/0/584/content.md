@@ -113,7 +113,96 @@ Some comments on 2-[[framed manifold|framed]] 2-cobordisms.
 
 Consider the pictures in ([Schommer-Pries 13, figure 5](#SchommerPries13)).
 
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" se:nonce="7480">
+ <g>
+  <title>Layer 1</title>
+  <use id="svg_7480_62" xlink:href="#svg_7480_61" transform="matrix(0.930341, 0, 0, 1.0136, -84.7055, -144.561)" y="0" x="0"/>
+  <g id="svg_7480_63"/>
+ </g>
+ <defs>
+  <symbol xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg_7480_61">
+   <defs>
+    <marker orient="auto" refY="0" refX="0" id="svg_7480_46">
+     <path id="svg_7480_60" d="m0,0l5,-5l-17.5,5l17.5,5l-5,-5z" transform="scale(0.2) rotate(180) translate(6,0)" stroke-width="1.0pt" stroke="#000000" fill-rule="evenodd"/>
+    </marker>
+    <marker orient="auto" refY="0" refX="0" id="svg_7480_47">
+     <path id="svg_7480_59" d="m-2.5,-1c0,2.76 -2.24,5 -5,5c-2.76,0 -5,-2.24 -5,-5c0,-2.76 2.24,-5 5,-5c2.76,0 5,2.24 5,5z" transform="scale(0.4) translate(7.4, 1)" stroke-width="1.0pt" stroke="#000000" fill-rule="evenodd"/>
+    </marker>
+   </defs>
+   <metadata id="svg_7480_54">image/svg+xml</metadata>
+   <g id="svg_7480_3">
+    <g id="svg_7480_50" transform="translate(-12,101)">
+     <path d="m199.964645,94.862167a24.964653,23.464651 0 1 1 -49.929306,0a24.964653,23.464651 0 1 1 49.929306,0z" id="svg_7480_53" stroke-dashoffset="0" stroke-dasharray="1.868, 1.868" stroke-miterlimit="4" stroke-width="0.934" stroke="#000000" fill-opacity="0" fill="#ffffff"/>
+     <rect y="94.81481" x="175.18947" height="23.08421" width="8.23158" id="svg_7480_52" stroke-dashoffset="0" stroke-opacity="0" stroke-miterlimit="4" stroke="#000000" fill="#808080"/>
+     <path id="svg_7480_51" d="m175,94.362183l0,22" marker-end="url(#svg_7480_46)" marker-mid="none" marker-start="url(#svg_7480_47)" stroke-miterlimit="4" stroke-width="2" stroke="#000000" fill="none"/>
+    </g>
+    <g id="svg_7480_44" transform="matrix(-1,0,0,1,435.2421,100.07368)">
+     <path id="svg_7480_49" d="m199.964645,94.862167c0,12.959183 -11.177048,23.464653 -24.964645,23.464653c-13.787598,0 -24.964661,-10.50547 -24.964661,-23.464653c0,-12.959167 11.177063,-23.464653 24.964661,-23.464653c13.787598,0 24.964645,10.505486 24.964645,23.464653z" stroke-dashoffset="0" stroke-dasharray="1.868, 1.868" stroke-miterlimit="4" stroke-width="0.934" stroke="#000000" fill-opacity="0" fill="#ffffff"/>
+     <rect id="svg_7480_48" width="8.23158" height="23.08421" x="175.18947" y="94.81481" stroke-dashoffset="0" stroke-opacity="0" stroke-miterlimit="4" stroke="#000000" fill="#808080"/>
+     <path d="m175,94.362183l0,22" id="svg_7480_45" marker-end="url(#svg_7480_46)" marker-mid="none" marker-start="url(#svg_7480_47)" stroke-miterlimit="4" stroke-width="2" stroke="#000000" fill="none"/>
+    </g>
+    <g id="svg_7480_41" transform="translate(-14,63)">
+     <path d="m365,129.290497a39,-39 0 0 1 78,0" id="svg_7480_43" marker-mid="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#000000" fill="#808080"/>
+     <path d="m370.690063,129.258896a33.369053,-33.569511 0 0 1 66.738129,0" id="svg_7480_42" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+    </g>
+    <g id="svg_7480_38" transform="translate(-31,59)">
+     <path id="svg_7480_40" d="m498,162.290482a39,39 0 0 1 78,0" marker-mid="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#808080" fill="#808080"/>
+     <path id="svg_7480_39" d="m503.690094,162.322098a33.369053,33.569511 0 0 1 66.738068,0" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.4998" stroke="#000000" fill="#ffffff"/>
+    </g>
+    <g id="svg_7480_35" transform="translate(27,5)">
+     <path id="svg_7480_37" d="m86,358.290497a39,39 0 0 1 78,0" marker-mid="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#000000" fill="#808080"/>
+     <path id="svg_7480_36" d="m91.690086,358.322083a33.369053,33.569511 0 0 1 66.738106,0" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+    </g>
+    <g id="svg_7480_32" transform="translate(-9,4)">
+     <path d="m328,354.362183a36,36 0 1 1 -72,0a36,36 0 1 1 72,0z" id="svg_7480_34" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.414" stroke="#000000" fill="#808080"/>
+     <path d="m323,354.862183a31.5,31.5 0 1 1 -63,0a31.5,31.5 0 1 1 63,0z" id="svg_7480_33" stroke-dashoffset="0" stroke-opacity="0" stroke-miterlimit="4" stroke-width="1.414" stroke="#000000" fill="#c0c0c0"/>
+    </g>
+    <g id="svg_7480_25">
+     <rect y="309.36218" x="372.52603" height="105" width="78.78863" id="svg_7480_31" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.44958" stroke="#000000" fill="#808080"/>
+     <rect y="313.36218" x="377.32037" height="101" width="69.67963" id="svg_7480_30" stroke-dashoffset="0" stroke-opacity="0" stroke-miterlimit="4" stroke-width="1.51841" stroke="#000000" fill="#c0c0c0"/>
+     <path id="svg_7480_29" d="m373,305.290497a39,-39 0 0 1 78,0" marker-mid="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#000000" fill="#808080"/>
+     <path id="svg_7480_28" d="m378.690063,305.258881a33.369053,-33.569511 0 0 1 66.738129,0" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+     <path d="m373,414.290497a39,39 0 0 1 78,0" id="svg_7480_27" marker-mid="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#000000" fill="#808080"/>
+     <path d="m378.525238,415.168091a33.369053,33.569511 0 0 1 66.738098,0" id="svg_7480_26" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+    </g>
+    <g id="svg_7480_22" transform="translate(-75,21)">
+     <path d="m582.086975,292.202759c0,56.055511 24.304321,26.768127 24.304321,58.768127c0,32 42.562134,26.206329 43.217407,6.072449c0.132996,-4.085205 0.519775,-19.290985 0.681152,-30.927521c0.463806,-33.434784 -42.666626,-28.594208 -43.666626,-6.594208c-0.048645,32.260468 -27.985168,19.793762 -26,54.072449c0.463745,17.608704 -0.231934,18.536255 -0.231934,18.536255" id="svg_7480_24" stroke-miterlimit="4" stroke-width="3" stroke="#808080" fill="none"/>
+     <path id="svg_7480_23" d="m580,293.362183c0.231873,54.432312 25.231873,27.695648 25,59c-0.237,31.999115 45.911865,24.546478 46,7c0.045715,-9.102478 0.681152,-20.217407 0.913025,-31.855072c0.776978,-38.992249 -45.913025,-31.144928 -46.913025,-9.144928c-0.048584,32.260468 -27.985168,20.721313 -26,55c0,19 0,19 0,19" stroke-width="1px" stroke="#000000" fill="none"/>
+    </g>
+    <text xml:space="preserve" x="126" y="236.36218" id="svg_7480_20" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_21" x="126" y="236.36218">positive point</tspan>
+    </text>
+    <text xml:space="preserve" x="186" y="271.36218" id="svg_7480_18" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_19" x="186" y="271.36218">negative point</tspan>
+    </text>
+    <text xml:space="preserve" x="352" y="270.36218" id="svg_7480_16" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan x="352" y="270.36218" id="svg_7480_17">ev: pt+ u pt- -> 0</tspan>
+    </text>
+    <text xml:space="preserve" x="569" y="248.36218" id="svg_7480_14" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_15" x="569" y="248.36218">coev</tspan>
+    </text>
+    <text xml:space="preserve" x="131" y="406.36218" id="svg_7480_12" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_13" x="131" y="406.36218">ev^R</tspan>
+    </text>
+    <text xml:space="preserve" x="269" y="440.36218" id="svg_7480_9" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_11" x="269" y="440.36218">&#949;</tspan>
+     <tspan x="269" y="460.36218" id="svg_7480_10"/>
+    </text>
+    <text xml:space="preserve" x="405" y="441.36218" id="svg_7480_6" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan id="svg_7480_8" x="405" y="441.36218">&#951;</tspan>
+     <tspan x="405" y="461.36218" id="svg_7480_7"/>
+    </text>
+    <text xml:space="preserve" x="482" y="433.36218" id="svg_7480_4" font-family="Bitstream Vera Sans" fill="#000000" font-weight="normal" font-style="normal" font-size="16px">
+     <tspan x="482" y="433.36218" id="svg_7480_5">Serre automorphism</tspan>
+    </text>
+   </g>
+   <g id="svg_7480_2"/>
+  </symbol>
+ </defs>
+</svg>
+
 > Somebody should produce pictures like this here...
+>> Well, it worked in the preview; a little help?
 
 Let $\gamma$ be a 1-dimensional manifold of the form of the interval $[0,1]$. A 2-[[framing]] of $\gamma$ is a trivialization of $T\gamma \oplus \mathbb{R}$. Let $\{1\} \subset \mathbb{R}$ be the canonical [[basis]] of $\mathbb{R}$. If we think of the plane $\mathbb{R}^2$ as equipped with its canonical 2-framing, then a 2-framing of $\gamma$ is induced by embedding $\gamma$ into the plane and shading one of its two sides. This identifies at each point  $x \in \gamma$ the tangent space to $\gamma$ at that point with the tangent vector to the embedding of $\gamma$ as a vector in $\mathbb{R}^2$ and identifies $1\in \mathbb{R}$ with the vector in $\mathbb{R}^2$ orthogonal to this tangent vector and pointing into the shaded region.
 
