@@ -1,0 +1,76 @@
+# Contents # 
+* table of contents 
+{:toc} 
+
+## Idea 
+
+The countable chain condition, appearing in various guises (for [[topological spaces]], for [[posets]], for [[Boolean algebras]]), frequently recurs in discussions on [[forcing]] in [[set theory]]. 
+
+It is something of a misnomer because it is really a condition about [[antichains]]. But in the topological context it is equivalent to a condition on chains, and the name has stuck. 
+
+## Definitions 
+
+
+
+## Products of separable spaces 
+
+We show in this section that arbitrary products of separable spaces satisfy the countable chain condition. 
+
++-- {: .num_prop} 
+###### Proposition 
+A [[separable space]] satisfies the countable chain condition. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $D$ be a countable dense set, and suppose given a collection of pairwise disjoint inhabited open sets $\{U_\alpha: \alpha \in A\}$. Each $U_\alpha$ contains at least one $d \in D$. Thus the map $D \to A$ sending $d \in D$ to the unique $\alpha \in A$ such that $d \in U_\alpha$ is surjective, and so $A$ is at most countable. 
+=-- 
+
+Next we will need a result in combinatorial set theory. A *$\Delta$-system*, also called a *sunflower*, is a collection of finite sets $A_i$ such that any two intersect in the same set: there is some "common core" $S$ such that $A_i \cap A_j = S$ when $i \neq j$. 
+
++-- {: .num_lemma} 
+###### Lemma 
+**(Sunflower lemma)** 
+Let $\mathcal{A}$ be an *uncountable* collection of finite sets. Then there is some uncountable subset $\mathcal{B} \subseteq \mathcal{A}$ that is a sunflower. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Without loss of generality, we may suppose all $A \in \mathcal{A}$ have the same cardinality $n$. We argue by induction on $n$. The case $n = 0$ is trivial. Assume the result holds for $n$, and suppose ${|A|} = n + 1$ for all $A \in \mathcal{A}$. If some $a \in X = \bigcup \mathcal{A}$ belongs to uncountably many $A \in \mathcal{A}$, then these $A$ form a collection $\mathcal{A}'$, and by inductive hypothesis the collection $\{A \setminus \{a\}: A \in \mathcal{A}'\}$ has a sunflower $\mathcal{B}'$. Then induction goes through by forming the sunflower $\{B + \{a\}: B \in \mathcal{B}'\}$. 
+
+Otherwise, each $a \in X$ belongs to at most countably many $A \in \mathcal{A}$. In this case we may form an uncountable pairwise disjoint sequence $\{A_\alpha \in \mathcal{A}: \alpha \in \omega_1\}$ by transfinite induction: if $A_\alpha$ have been chosen for all $\alpha: \alpha \lt \beta \lt \omega_1$, then only countably many $A$ have an inhabited intersection with $\bigcup_{\alpha \lt \beta} A_\alpha$, and we simply choose an $A_\beta$ belonging to the uncountable collection that remains after removing such $A$. (So here the common core $S$ of the sunflower is the empty set.) 
+=-- 
+
++-- {: .num_prop #prod} 
+###### Proposition 
+If $\{X_i\}_{i \in I}$ is an arbitrary family of spaces such that any finite product of the $X_i$ satisfies the countable chain condition, then the full product $X = \prod_{i \in I} X_i$ also satisfies the countable chain condition. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose otherwise, that $\{U_\alpha\}_{\alpha \in A}$ is an uncountable collection of pairwise disjoint inhabited open sets of $X$. Shrinking them if necessary, we may suppose each $U_\alpha$ is a basic open of the form $\prod_{i \in F_\alpha} U_{\alpha, i} \times \prod_{i \notin F_\alpha} X_i$, where $F_\alpha \subseteq I$ is a finite set. The collection $\{F_\alpha\}$ has a sunflower by the Sunflower Lemma, say with common core $S$, and without loss of generality we may suppose $\{F_\alpha\}$ *is* that sunflower (i.e., that the $\alpha$'s used to index the sunflower are just the $\alpha \in A$: throw away any other $\alpha \in A$). Let $\pi_S: X \to \prod_{i \in S} X_i$ be the obvious projection map. We first claim that the sets $\pi_S(U_\alpha)$ are pairwise disjoint, a purely set-theoretic matter. 
+
+Suppose instead $u \in \pi_S(U_\alpha) \cap \pi_S(U_{\alpha'})$. Regard $u \in \prod_{i \in S} X_i$ as a section of the canonical projection $\sum_{i \in S} X_i \to S$. That it belongs to $\pi_S(U_\alpha)$ simply means it extends to some section $\sigma$ of the canonical map $\sum_{i \in A} X_i \to A$ such that the restriction of $\sigma$ to $F_\alpha$ factors through the inclusion $\sum_{i \in F_\alpha} U_{\alpha, i} \hookrightarrow \sum_{i \in A} X_i$, as on the left half of the following diagram: 
+
+$$\array{
+\sum_{i \in F_\alpha} U_{\alpha, i} & \hookrightarrow & \sum_{i \in A} X_i & \hookleftarrow & \sum_{i \in F_{\alpha'}} U_{\alpha', i} \\ 
+\mathllap{\exists v} \uparrow & & \mathllap{\sigma} \uparrow \uparrow \mathrlap{\sigma'} & & \uparrow \mathrlap{\exists w} \\ 
+F_\alpha & \hookrightarrow & A & \hookleftarrow & F_{\alpha'}\\ 
+ & \nwarrow & & \nearrow & \\ 
+ & & S & & 
+}$$ 
+
+Similarly there is a section $\sigma': A \to \sum_{i \in A} X_i$ and a partial section $w$, as shown on the right half. With the partial sections $v$ and $w$ in hand, amalgamate them to a partial section over the union $F_\alpha \cup F_{\alpha'}$ (we can do this, as $v: F_\alpha \to \sum_{i \in A}$ and $w: F_{\alpha'} \to \sum_{i \in A} X_i$ both restrict to the same map $u$ on the intersection $S = F_\alpha \cap F_{\alpha'}$). Then extend the amalgamation $v \cup w$ however you please to a full section $\sigma'': A \to \sum_{i \in A} X_i$. This $\sigma''$ belongs to both $U_\alpha$ and $U_{\alpha'}$, contradicting their disjointness, and proving the claim. 
+
+Thus the $\pi_S(U_\alpha)$ form an uncountable collection of open, inhabited, pairwise disjoint sets, contradicting the countable chain condition hypothesis on finite products. With this the proof is complete. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+An arbitrary product of separable spaces $X_i$ satisfies the countable chain condition. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Any finite product of separable spaces $X_i$ is separable and thus satisfies the countable chain condition, so the full product does as well by Proposition \ref{prod}. 
+=-- 
