@@ -23,7 +23,7 @@ The terminology "grand unified" here refers to the fact that such a single simpl
 
 Historically, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
 
-It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]], [[spin group|Spin(10)]], [[E6]] naturally continues (each step by consecutively adding a node to the [[Dynkin diagrams]]) with the [[exceptional Lie groups]] [[E7]], [[E8]] that naturally appear in [[heterotic string theory|heterotic]] [[string phenomenology]] (exposition is in [Witten 02a](#Witten02a)) and conjecturally further via the [[U-duality]] [[Kac-Moody groups]] [[E9]], [[E10]], [[E11]] that are being argued to underly [[M-theory]].
+It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]], [[spin group|Spin(10)]], [[E6]] naturally continues (each step by consecutively adding a node to the [[Dynkin diagrams]]) with the [[exceptional Lie groups]] [[E7]], [[E8]] that naturally appear in [[heterotic string theory|heterotic]] [[string phenomenology]] (exposition is in [Witten 02a](#Witten02a)) and conjecturally further via the [[U-duality]] [[Kac-Moody groups]] [[E9]], [[E10]], [[E11]] that are being argued to underly [[M-theory]]. In the context of [[F-theory]] model building, also properties of the observes [[Yukawa couplings]] may point to exceptional GUT groups ([Zoccarato 14, slide 11](#Zoccarato14), [Vafa 15, slide 11](#Vafa15)).
 
 Since no GUT model has been fully validated yet (but see for instance [Fong-Meloni 14](#FongMeloni14)), GUTs are [[model (physics)|models]] "beyond the [[standard model of particle physics|standard model]]". Often quantum physics "beyond the standard model" is expected to also say something sensible about [[quantum gravity]] and hence unify not just the three gauge forces but also the fourth known fundamental force, which is [[gravity]]. Models that aim to do all of this would then "unify" the entire content of the [[standard model of particle physics]] plus the [[standard model of cosmology]], hence "everything that is known about fundamental physics" to date. Therefore such theories are then sometimes called a _[[theory of everything]]_. 
 
@@ -87,7 +87,18 @@ Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible 
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
+Discussion of GUTs in [[F-theory]] includes
 
+* [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
+
+
+* [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_, JHEP 0901:058,2009 ([arXiv:0802.3391](http://arxiv.org/abs/0802.3391))
+
+
+* {#Zoccarato14} Gianluca Zoccarato, _Yukawa couplings at the point
+of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
+
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
 
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
