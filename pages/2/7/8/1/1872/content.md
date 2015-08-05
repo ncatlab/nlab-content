@@ -25,7 +25,7 @@
 
 The _Yang--Mills [[field (physics)|field]]_ is the [[gauge theory|gauge field]] of [[Yang-Mills theory]]. 
 
-It is modeled by a cocycle $\hat F \in \mathbf{H}(X, \mathbf{B}U(n)_{conn})$ in differential [[nonabelian cohomology]]. Here $\mathbf{B} U(n)_{conn}$ is the [[moduli stack]] of $U(n)$-[[principal connections]], the [[stackification]] pf the [[groupoid of Lie-algebra valued forms]], regarded as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
+It is modeled by a cocycle $\hat F \in \mathbf{H}(X, \mathbf{B}U(n)_{conn})$ in differential [[nonabelian cohomology]]. Here $\mathbf{B} U(n)_{conn}$ is the [[moduli stack]] of $U(n)$-[[principal connections]], the [[stackification]] of the [[groupoid of Lie-algebra valued forms]], regarded as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
 
 This is usually represented by a [[vector bundle]] [[connection on a bundle|with connection]]. 
 
