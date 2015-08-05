@@ -130,6 +130,8 @@ Technical surveys on particle physics string phenomenology include
 
 * Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
 
+* [[Ralph Blumenhagen]], Boris Kors, [[Dieter Lüst]], Stephan Stieberger, _Four-dimensional String Compactifications with D-Branes, Orientifolds and Fluxes_, Phys.Rept.445:1-193,2007 ([arXiv:hep-th/0610327](http://arxiv.org/abs/hep-th/0610327))
+
 * [[Washington Taylor]], _TASI Lectures on Supergravity and String Vacua in Various Dimensions_ ([arXiv:1104.2051](http://arxiv.org/abs/1104.2051))
 
 * {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
