@@ -318,7 +318,21 @@ See ([MacLaneMoerdijk, p. 377](#MacLaneMoerdijk)).
 
 ## Properties
 
-Let $T$ be a [[geometric theory]] over a signature $\Sigma$ and $f:\mathcal{E}\to Set[T]$ a geometric morphism to its [[classifying topos]]. Then $f$ corresponds to a $T$-model $M$ in $\mathcal{E}$. The **theory of M** $Th(M)$ consists of all geometric sequents $\sigma$ over $\Sigma$ such that $M\models \sigma$. Then the following holds ([Caramello 2009](#Caramello09), p.57):
+### As idempotent approximation
+
+A geometric morphism $f:\mathcal{F}\to\mathcal{E}$ induces via the adjunction $f^\ast\vdash f_\ast$ a [[monad]] on $\mathcal{E}$. Due to a general result by S. Fakir this induces an associated [[idempotent monad]] on $\mathcal{E}$ and this idempotent approximation coincides with the monad induced by $i^\ast\vdash i_\ast$ given by the inclusion $i$ from the factorization $f=i\circ q$. 
+
+For references and further details on the idempotent approximation see at [[idempotent monad]].
+
+### A logical description
+
+Let $T$ be a [[geometric theory]] over a signature $\Sigma$ and $f:\mathcal{E}\to Set[T]$ a geometric morphism to its [[classifying topos]]. Then by the general properties of a classifying topos, $f$ corresponds to a certain $T$-model $M$ in $\mathcal{E}$. 
+
+Notice that every geometric morphism $f$ between [[Grothendieck toposes]] is of this form for some geometric theory $T$ and hence corresponds to some model $M$ ! This models permits to attach a geometric theory to $f$ as well:
+
+The **theory of M** $Th(M)$ consists of all geometric sequents $\sigma$ over $\Sigma$ such that $M\models \sigma$.
+
+Then the following holds ([Caramello 2009](#Caramello09), p.57):
 
 +-- {: .num_prop}
 ###### Proposition
@@ -327,7 +341,20 @@ The topos occurring in the middle of the surjection-embedding factorization of $
 
 =--
 
+
+## Related entries
+
+* [[open subtopos]]
+
+* [[(dense,closed)-factorization]]
+
+
+
 ## References
+
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (section 4.1, pp.103-107) 
+
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_, Oxford UP 2002. (section A4.2, pp.172ff)
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section VII.4)
  {#MacLaneMoerdijk}
