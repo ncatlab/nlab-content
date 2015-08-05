@@ -47,7 +47,7 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 (Note that we need not accept $WCC$ to see that an analytic result implies the (L)LPO and so cannot be constructively valid.)
 
-There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other radix), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other [[radix notation|radix]]), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
 
 ## Models
