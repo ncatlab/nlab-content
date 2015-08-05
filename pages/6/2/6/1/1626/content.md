@@ -165,6 +165,8 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 In other words, a space is totally disconnected if its coreflection into $LocConn$ is discrete. Such spaces recur in the study of [[Stone spaces]]. 
 
+The category of totally disconnected spaces is a reflective subcategory of $Top$. The reflector sends a space $X$ to the space $X/\sim$ whose points are the connected components of $X$, endowed with the quotient topology induced by the projection $q: X \to X/\sim$. 
+
 ### Quotients of locally connected spaces 
 
 For future reference, we record the following result. 
