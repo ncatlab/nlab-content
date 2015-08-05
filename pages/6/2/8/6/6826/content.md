@@ -22,7 +22,7 @@
 
 ## Idea
 
-Theories of [[supergravity]] always contain a global [[symmetry]] called [[R-symmetry]]. In some cases this is promoted to a local symmetry, such that there is a [[gauge field]] ([[connection on a bundle]]) with coefficients in that group. These are called _gauged supergravity_ theories.
+Theories of [[supergravity]] in [[dimension]] $l \lt 11$ always contain a global [[symmetry]] called [[R-symmetry]] (a remnant of the full [[11-dimensional supergravity]] $Spin(10,1)$-symmetry after  [[KK-compactification]]). In some cases this is promoted to a local symmetry, such that there is a [[gauge field]] ([[connection on a bundle]]) with coefficients in that group. These are called _gauged supergravity_ theories. 
 
 ## Properties
 
@@ -42,12 +42,27 @@ Some examples are discussed at
 
 ## References
 
+Reviews include
+
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
 * {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
+Maximally gauged [[4d supergravity]] was first discussed in
+
+* [[Bernard  de Wit]], [[Hermann Nicolai]], _$N = 8$ supergravity_, Nucl. Phys. B208 (1982) 323
+
+Discussion in the context of [[flux compactification]] of [[type II superstring theory]] includes
+
+* [[Mariana Graña]], section 5.3 of _Flux compactifications in string theory: a comprehensive review_, Phys.Rept. 423 (2006) 91-158 ([arXiv:hep-th/0509003](http://arxiv.org/abs/hep-th/0509003))
+
+
 Discussion in the context of the [[D'Auria-Fré formulation of supergravity]] is in 
 
 * {#Fre05} [[Pietro Fré]], _M-theory FDA, Twisted Tori and Chevalley Cohomology_, Nucl.Phys.B742:86-123, 2006 ([arXiv:hep-th/0510068](http://arxiv.org/abs/hep-th/0510068))
+
+Discussion related to [[orbifold]] singularities includes
+
+* Richard Corrado, Murat Gunaydin, Nicholas P. Warner, Marco Zagermann, _Orbifolds and Flows from Gauged Supergravity_, Phys.Rev.D65:125024,2002 ([arXoiv:hep-th/0203057](http://arxiv.org/abs/hep-th/0203057))
 
 [[!redirects gauged supergravities]]
