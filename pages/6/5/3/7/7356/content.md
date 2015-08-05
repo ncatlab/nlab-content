@@ -136,7 +136,12 @@ Lecture notes include
 
 Textbook accounts include
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String Theory and M-Theory: A Modern Introduction_, 2007
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String 
+Theory and M-Theory: A Modern Introduction_, 2007
+
+Further survey includes
+
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
 
 
 Related conferences include
@@ -183,14 +188,22 @@ Realization to the [[6d (2,0)-supersymmetric QFT]] is discussed in
 
 ### Phenomenology and model building
 
-A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory.
+A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory, in particular [[GUTs]]:
 
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
+* [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_, JHEP 0901:058,2009 ([arXiv:0802.3391](http://arxiv.org/abs/0802.3391))
 
-* [[Chris Beasley]], Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
+
+* [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
 * {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
+
+* {#Zoccarato14} Gianluca Zoccarato, _Yukawa couplings at the point
+of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
+
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
+
 
 ### 4-Form flux and instantons
  {#FluxAndInstantons}
