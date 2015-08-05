@@ -16,7 +16,7 @@
 
 ## Idea
 
-Every [[geometric morphism]] factors as surjective morphism followed by an inclusion. The **(dense-closed)-factorization** can be viewed as a refinement of this factorization for [[geometric embeddings]] where the surjectivity of the first morphisms is weakened to [[dominant geometric morphism|dominance]] or 'density' and the inclusion is strengthened to a [[closed subtopos|closed inclusion]] in return.
+Every [[geometric morphism]] factors as surjective morphism followed by an inclusion. The **(dense-closed)-factorization** can be viewed as a refinement of [[(geometric surjection, embedding) factorization system|this factorization]] for [[geometric embeddings]] where the surjectivity of the first morphisms is weakened to [[dominant geometric morphism|dominance]] or 'density' and the inclusion is strengthened to a [[closed subtopos|closed inclusion]] in return.
 
 So from a topological perspective, what one does, is by taking the closure of the image in which the image is merely dense, one approximates the image inclusion by a closed-subspace inclusion.
 
@@ -39,7 +39,7 @@ $$
   \mathcal{E}
 $$
 
-where $ext(j)$ (the "exterior" of $j$) denotes the $j$-closure of $\emptyset \hookrightarrow \ast$ and 
+where $ext(j)$ (the "exterior" of $j$) denotes the $j$-closure of $\emptyset \rightarrowtail 1$ and 
 
 $$
   \bar j \coloneqq c(ext(j))
