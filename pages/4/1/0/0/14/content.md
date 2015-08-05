@@ -105,6 +105,6 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 The site is running a [fork](https://github.com/ncatlab/nlab) of [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage).
 
-The physical server running the nLab lives at [Carnegie Mellon University](http://www.cmu.edu), and is supported by the [[homotopy type theory]] MURI award FA9550-15-1-0053 from the United States Air Force Office of Scientific Research.
+The physical server running the nLab lives at [Carnegie Mellon University](http://www.cmu.edu), and is supported by the [[homotopy type theory]] MURI award FA9550-15-1-0053 from the United States Air Force Office of Scientific Research.  Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
 category: meta
