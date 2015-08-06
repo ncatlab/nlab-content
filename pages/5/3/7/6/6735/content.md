@@ -93,13 +93,16 @@ and concerning the "3-algebra"-structure also
 A comprehensive review and survey is in 
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
+Discussion in [[Horava-Witten theory]] reducing M2-branes to [[heterotic strings]] is in
+
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
  
 
 The interpretation of at least most of the "3-algebra" appearing in the membrane literature in terms of plain [[Lie algebras]] is due to
 
 * {#MFMR} Paul de Medeiros, [[José Figueroa-O'Farrill]], Elena M&#233;ndez-Escobar, Patricia Ritter, _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
  
-
 The suggestion that BGL "3-algebras" are to be interpreted in [[2-plectic geometry]] appears in
 
 * {#SaemannSzabo} [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
