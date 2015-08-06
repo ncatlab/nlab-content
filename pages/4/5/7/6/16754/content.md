@@ -1,0 +1,11 @@
+
+
+* Wikipedia, _[Johannes Kepler](https://en.wikipedia.org/wiki/Johannes_Kepler)_
+
+## related $n$Lab entries
+
+* [[Platonic solid]]
+
+category: people
+
+[[!redirects Kepler]]
