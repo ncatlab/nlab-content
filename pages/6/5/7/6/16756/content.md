@@ -1,0 +1,4 @@
+
+* [webpage](http://ncatlab.org/nlab/new/Olaf+Lechtenfeld)
+
+category: people
