@@ -93,6 +93,11 @@ with more comprehensive analysis in
 
 where (a further fermionic extension of it) is derived as a [[super Lie algebra]] [[Lie algebra extension|extension]] of 11d [[super Minkowski spacetime]] on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes.
 
+That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$ is due to
+
+* {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_,Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
+
+
 That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in the review 
 
 * [[Silvia Vaula]], _On the underlying $E_{11}$ symmetry of the $D= 11$ Free Differential Algebra_, JHEP 0703:010,2007 ([arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130))
