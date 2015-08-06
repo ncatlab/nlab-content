@@ -42,6 +42,8 @@ Further developments are in
 
 * Aaron Bergman, Daniel Robbins, _Ramond-Ramond Fields, Cohomology and Non-Geometric Fluxes_ ([arXiv:0710.5158](http://arxiv.org/abs/0710.5158))
 
+* [[Dieter Lüst]], Stefano Massai, Valent&#237; Vall Camell, _The monodromy of T-folds and T-fects_ ([arXiv:1508.01193](http://arxiv.org/abs/1508.01193))
+
 A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] described in the nLab entry _[[T-Duality and Differential K-Theory]]_ is given in 
 
 * [[Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
