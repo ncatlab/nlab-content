@@ -1,0 +1,26 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{C}^2/\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
+
+
+## Related concepts
+
+* [[singularity]]
+
+* [[quiver gauge theory]]
+
+* [[M-theory on G2-manifolds]]
+
+## References
+
+* _[Classification of singularities](http://www.mathematik.uni-kl.de/~zca/Reports_on_ca/29/paper_html/node10.html)_
+
+[[!redirects ADE singularities]]
+
+[[!redirects ADE-singularity]]
+[[!redirects ADE-singularities]]
