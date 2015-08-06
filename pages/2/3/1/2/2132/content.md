@@ -153,6 +153,8 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * [[Hodge manifold]]
 
+* [[Sasakian manifold]]
+
 [[!include special holonomy table]]
 
 
