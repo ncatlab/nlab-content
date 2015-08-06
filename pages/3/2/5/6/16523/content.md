@@ -49,6 +49,11 @@ Detailed derivation from [[conserved currents]] of the [[Green-Schwarz super p-b
 
 * Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
 
+Relation to the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$ is discussed in
+
+* {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261))
+
+
 See also
 
 * Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006,2000 ([arXiv:hep-th/9909007](http://arxiv.org/abs/hep-th/9909007))
