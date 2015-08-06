@@ -32,7 +32,7 @@ The [[representation theory|representation theoretic]] aspects of the [[gauge th
 
 ### Relation to Seiberg duality
 
-Under [[geometric engineering of quantum field theory]] via [[D-branes]] situatted at [[ADE-singularities]] in non-compact [[Calabi-Yau varieties]] as above, for instance [[Seiberg duality]] of the corresponding quiver gauge field theories may be understood in terms of [[equivalences of categories]] of derived quiver representations corresponding to [[mutations of exceptional collections]] etc. ([Robles-Llana & Rocek 04](#RoblesLlanaRocek04)).
+Under [[geometric engineering of quantum field theory]] via [[D-branes]] situated at [[ADE-singularities]] in non-compact [[Calabi-Yau varieties]] as above, for instance [[Seiberg duality]] of the corresponding quiver gauge field theories may be understood in terms of [[equivalences of categories]] of derived quiver representations corresponding to [[mutations of exceptional collections]] etc. ([Robles-Llana & Rocek 04](#RoblesLlanaRocek04)).
 
 
 ## References
@@ -61,6 +61,11 @@ Discussion from the point of view of [[worldsheet]] [[2d CFT]] is in
 
 * [[Wolfgang Lerche]], A. Lutken, [[Christoph Schweigert]], _D-Branes on ALE Spaces and the ADE Classification of Conformal Field Theories_, Nucl.Phys. B622 (2002) 269-278 ([arXiv:hep-th/0006247](http://arxiv.org/abs/hep-th/0006247))
 
+Discussion for [[Sasakian manifolds]] includes
+
+* [[Olaf Lechtenfeld]], Alexander Popov, [[Richard Szabo]], _Sasakian quiver gauge theories and instantons on Calabi-Yau cones_ ([arXiv:1412.4409](http://arxiv.org/abs/1412.4409))
+
+
 ### Seiberg duality
 
 * David Berenstein, [[Michael Douglas]], _Seiberg Duality for Quiver Gauge Theories_ ([arXiv:hep-th/0207027](http://arxiv.org/abs/hep-th/0207027))
@@ -68,3 +73,7 @@ Discussion from the point of view of [[worldsheet]] [[2d CFT]] is in
 * Subir Mukhopadhyay, Koushik Ray, _Seiberg duality as derived equivalence for some quiver gauge theories_ ([arXiv:hep-th/0309191](http://arxiv.org/abs/hep-th/0309191))
 
 * {#RoblesLlanaRocek04} Daniel Robles-Llana, Martin Rocek, _Quivers, Quotients, and Duality_ ([arXiv:hep-th/0405230](http://arxiv.org/abs/hep-th/0405230))
+
+
+
+[[!redirects quiver gauge theories]]
