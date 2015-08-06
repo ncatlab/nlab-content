@@ -98,6 +98,9 @@ the [[Riemann sphere]].
 
 * [[twistor space]]
 
+## References
+
+* Blagoje Oblak, _From the Lorentz Group to the Celestial Sphere_ ([arXiv:1508.00920](http://arxiv.org/abs/1508.00920))
 
 [[!redirects celestial sphere]]
 [[!redirects celestial spheres]]
