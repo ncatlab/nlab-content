@@ -343,10 +343,10 @@ $$
     {\lim_\leftarrow}_i D(L x, y_i)
     \\
     & \simeq
-    {\lim_\leftarrow}_i D( x, R y_i)
+    {\lim_\leftarrow}_i C( x, R y_i)
     \\  
     & \simeq
-    D( x, {\lim_\leftarrow}_i R y_i)
+    C( x, {\lim_\leftarrow}_i R y_i)
     \,,
   \end{aligned}
 $$
