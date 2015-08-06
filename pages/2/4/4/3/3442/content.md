@@ -150,6 +150,8 @@ In this diagram now
 
 * [[Green's function]]
 
+* [[Sturm-Liouville theory]]
+
 * [[initial value problem]]
 
 * [[differential Galois theory]]
