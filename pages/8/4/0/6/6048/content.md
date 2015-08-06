@@ -145,6 +145,11 @@ Formulations of multiple M2-branes on top of each other are given by the _[[BLG 
 
 * [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
 
+Specifically, discussion of these in [[Hoarava-Witten theory]] and reducing to [[heterotic strings]] is in
+
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+
+
 Discussion of general phenomena of M-branes in [[higher geometry]] and [[generalized cohomology]] is in 
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
