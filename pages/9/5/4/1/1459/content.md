@@ -7,8 +7,8 @@
 
 A _pseudotopological space_ or _Choquet space_ is a generalisation of a [[topological space]] based on the concept of convergent [[ultrafilter]] as fundamental.  This view relies on the [[ultrafilter theorem]] to guarantee enough ultrafilters; however, we can also describe a pseudotopological structure in terms of convergence of arbitrary [[filters]] satisfying certain properties.  In this respect, a pseudotopological space is a special kind of [[convergence space]].
 
-The [[category]] $Ps Top$ of pseudotopological spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]].
-
+The [[category]] $Ps Top$ of pseudotopological spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]]. It is the minimal quasitopos containing the [[sequential spaces]] ([[Johnstone's topological topos]] Thm 10.2).
+It is also a reflective subcategory of [[filter spaces]] (Thm 10.3).
 
 ## Definitions
 
