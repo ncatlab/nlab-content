@@ -33,7 +33,7 @@ $$
 
 of [[topos]]es is called a **direct image**.
 
-Moe generally, pairs of [[adjoint functor]]s between the [[categories of sheaves]] appear in various other setups apart from [[geometric morphism]]s of [[topoi]], for instance on [[abelian categories]] of [[quasicoherent sheaves]], bounded [[derived categories]] of [[coherent sheaves]] and the term _direct image_ is used for the right adjoint part of these, too.
+More generally, pairs of [[adjoint functor]]s between the [[categories of sheaves]] appear in various other setups apart from [[geometric morphism]]s of [[topoi]], for instance on [[abelian categories]] of [[quasicoherent sheaves]], bounded [[derived categories]] of [[coherent sheaves]] and the term _direct image_ is used for the right adjoint part of these, too.
 
 
 Specifically for [[Grothendieck topos]]es:
