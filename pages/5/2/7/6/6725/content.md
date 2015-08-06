@@ -87,10 +87,12 @@ Reviews are in
 
 * [[Burt Ovrut]], _Lectures on Heterotic M-Theory_ ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032))
 
-Section 3 of
+* {#Falkowski} [[Adam Falkowski]], section 3 of _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
 
-* {#Falkowski} [[Adam Falkowski]], _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
-  
+Explicit discussion of [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] there is discussed, via the [[BLG model]], in 
+
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+ 
 
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
