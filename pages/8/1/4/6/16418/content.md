@@ -25,6 +25,9 @@ The _orthosymplectic supergroup_ $Osp(N|2p)$ is the sub-[[supergroup]] of the [[
 The corresponding [[super Lie algebras]] are called the _orthosymplectic Lie algebras_ $\mathfrak{osp}(N|2p)$. Over a [[field]] of [[characteristic zero]] these constitute the infinite $B$- and $D$-series in the [classification of simple super Lie algebras](super%20Lie%20algebra#Classification). 
 They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
 
+## Examples
+
+* $\mathfrak{osp}(1\vert 32)$ is a limiting case of the [[M-theory super Lie algebra]] ([Fernandez-Izquierdo-Olmo 15](#FernandezIzquierdoOlmo15)). Further relation also to the [[type II supersymmetry algebra]] had been discussed in ([Bergshoess-Proeyen 00](#BergshoessProeyen00)).
 
 ## Related concepts
 
@@ -51,7 +54,9 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 ### In superstring theory
 
-* [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([pdf](http://ctn.eldoc.ub.rug.nl/FILES/root/2000/ClassQuGrBergshoeff/2000ClassQuantGravBergshoeff.pdf))
+* {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261))
+
+* {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_,Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
 
 
 [[!redirects orthosymplectic supergroup]]
