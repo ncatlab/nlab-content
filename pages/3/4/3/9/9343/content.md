@@ -12,6 +12,8 @@
 
 * [[conical singularity]]
 
+* [[ADE singularity]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
