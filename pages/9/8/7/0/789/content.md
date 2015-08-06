@@ -187,7 +187,8 @@ A standard reference is the PhD thesis
 
 A survey set of slides with an eye towards  the description of the [[Kalb-Ramond field]] and [[bundle gerbe]]s is
 
-* [[Nigel Hitchin]], _B-Fields, gerbes and generalized geometry_ ([pdf](http://www.maths.dur.ac.uk/events/Meetings/LMS/2005/GCFTST/Talks/hitchin1.pdf)) 
+* [[Nigel Hitchin]], _B-Fields, gerbes and generalized geometry_ Oxford Durham Symposium 2005 ([pdf](http://www.maths.dur.ac.uk/events/Meetings/LMS/2005/GCFTST/Talks/hitchin1.pdf)) 
+
 * [[Nigel Hitchin]], _Lectures on generalized geometry_ ([arxiv/1008.0988](http://arxiv.org/abs/1008.0988))
 
 #### As targets for $\sigma$-models
