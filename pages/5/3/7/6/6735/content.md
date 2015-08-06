@@ -15,7 +15,7 @@
 
 ## Idea
 
-The BLG model is a 3-dimensional [[SCFT]] involving a [[Chern-Simons theory]] coupled to matter. It is argued to be the [[worldvolume]] theory of 2 coincident [[M2-brane]]s with 16 manifest [[supersymmetries]]. The generalization to an arbitrary number of M5-branes is supposed to be given by the [[ABJM model]].
+The BLG model is a 3-dimensional [[SCFT]] involving a [[Chern-Simons theory]] coupled to matter. It is argued to be the [[worldvolume]] theory of 2 coincident [[M2-brane]]s with 16 manifest [[supersymmetries]]. The generalization to an arbitrary number of M2-branes is supposed to be given by the [[ABJM model]].
 
 ## Properties
 
