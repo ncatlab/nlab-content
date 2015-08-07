@@ -23,13 +23,16 @@
 
 A _topological ring_ is a [[ring]] [[internalization|internal to]] [[Top]], a [[ring object]] in [[Top]]:
 
-a [[topological space]] $R$ equipped with the structure of a [[ring]] on its underlying [[set]], such that addition and multiplication are [[continuous functions]].
+a [[topological space]] $R$ equipped with the structure of a [[ring]] on its underlying [[set]], such that addition and multiplication are [[continuous functions]]. Of course this makes $R$ a [[uniform space]]. 
 
-Similarly a _topological field_ is a topological ring whose underlying ring is in fact a [[field]] and a [[topological algebra]] is a topological ring under a base topological ring (a topological [[associative algebra]]). 
+A _topological field_ is a topological ring $K$ whose underlying ring is in fact a [[field]] and such that reciprocation $(-)^{-1}: K \setminus \{0\} \to K \setminus \{0\}$ is continuous. This latter condition is the same as demanding that the subspace topology on $K \setminus \{0\}$ induced by the embedding $K \setminus \{0\} \hookrightarrow K$ coincide with the subspace topology induced by the embedding $K \setminus \{0\} \to K \times K: x \mapsto (x, x^{-1})$. 
 
-+-- {: .query} 
-Shouldn't we demand that reciprocation be continuous in a topological field? Or does this somehow follow automatically? -Sridhar Ramesh
++-- {: .num_remark} 
+###### Remark 
+In a topological ring, the closure of $\{0\}$ is an [[ideal]]. It follows that for a topological field $F$, either $0$ is a closed point (so that $F$ is $T_1$ and therefore [[Tychonoff space|completely regular Hausdorff]], by standard arguments in the theory of uniform spaces), or is a [[codiscrete space]]. 
 =-- 
+
+A [[topological algebra]] over a topological ring $R$ is a topological ring $S$ together with a topological ring map $R \to S$ that makes $S$ an $R$-algebra at the underlying set level (a topological [[associative algebra]]). 
 
 
 ## Examples
