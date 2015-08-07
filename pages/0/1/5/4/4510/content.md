@@ -440,6 +440,16 @@ exhibiting $Ext^1(X,A)$ as the [[cokernel]] of $Hom(i,A)$.
 
 =--
 
+### Yoneda product
+
+The [[Yoneda product]] is a pairing
+
+$$
+  Ext^n(A,M) \otimes Ext^m(A,N) \to Ext^{n+m}(A,M\otimes_A N).
+$$
+
+
+=--
 
 ## Applications in cohomology
 
