@@ -57,12 +57,76 @@ Let $U$ a [[subterminal object]] and $Sh_{c(U)}(\mathcal{E})$ and $Sh_{o(U)}(\ma
 
 See Johnstone [(2002, pp.212,215)](#Johnstone).
 
+### Remark
+
+Whereas, general [[open geometric morphisms|open morphisms]] are only bound to preserve [[first order logic]], open _inclusions_ preserve also [[higher order logic]] since their [[inverse image|inverse images]] are logical.
+
+That the inverse image is logical is a special case of the general fact that the pullback functor $\mathcal{E}\to\mathcal{E}/X$ along $X\to 1$ is logical for arbitrary objects $X$. In particular, $Sh_{o(U)}(\mathcal{E})\cong\mathcal{E}/U$.
+
+## Open localizations
+
+Subtoposes of a topos $\mathcal{E}$ correspond to [[localization|localizations]] of $\mathcal{E}$ i.e. replete, reflective subcategories whose reflector preserves finite limits. Just as this notion makes sense more generally for categories with finite limits, the notion of open localization makes sense more generally for [[locally presentable category|locally presentable categories]]:
+
+Given a locally $\alpha$-presentable category $\mathcal{C}$ with subcategory of $\alpha$-presentable objects $\mathcal{P}$, the subobject $\Omega_\mathcal{C}$ of the subobject classifier of $Set^{\mathcal{P}^{op}}$ given by $\Omega_\mathcal{C}(P):=$ set of $\alpha$-exact subpresheaves of $\mathcal{P}(\text{_},P)$, classifies subobjects of $\mathcal{C}$. Furthermore, localizations of $\mathcal{C}$ correspond to topologies $j:\Omega_\mathcal{C}\to\Omega_\mathcal{C}$.
+
+At this level of generality, an open subtopos of a Grothendieck topos corresponds to the notion of an **open localization** of a [[locally presentable category]] that is studied in [Borceux-Korotenski (1991)](#BK91). The main result in their paper is the following
+
++-- {: .num_prop}
+###### Proposition
+Let $l\dashv i: \mathcal{D}\hookrightarrow\mathcal{C}$ be a localization of a [[locally presentable category]] $\mathcal{C}$. The localization is called _open_ if the following equivalent conditions are satisfied:
+
+* The corresponding [[closure operator]] admits a universal dense interior operator.
+
+* The associated [[Lawvere-Tierney topology|topology]] $j_\mathcal{D}:\Omega_\mathcal{C}\to\Omega_\mathcal{C}$ has a left adjoint.
+
+* The localization is [[essential geometric morphism|essential]] with $k\dashv l$ and, additionally, the first of the following diagrams[^adj] being a pullback implies the second being a pullback, too:
+
+$$\array{
+D&\overset{d}{\to}&D'\\
+f\downarrow&p.b.&\downarrow g\\
+lC&\underset{lc}{\to}&lC'
+}
+
+\qquad\Rightarrow
+\qquad
+
+\array{
+kD&\overset{kd}{\to}&kD'\\
+\bar{f}\downarrow&p.b.&\downarrow \bar{g}\\
+C&\underset{c}{\to}&C'
+}\quad .$$ 
+=--
+
+[^adj]: Here $f$ corresponds to $\bar{f}$, resp. $g$ to $\bar{g}$, under the adjunction $k\dashv l$.
+
+In case $\mathcal{C}$ is a topos, $i:\mathcal{D}\hookrightarrow\mathcal{C}$ is an open subtopos.
+
+Open localizations are special cases of **essential localizations**, and are in general better behaved than the latter. For example, the meet of two essential localizations in the lattice of essential localizations does not coincide with their meet in the lattice of localizations. Compare this with the following 
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{C}$ a [[locally presentable category]]. The meet of two open localizations in the lattice of localizations is an open localization.
+=--
+
+cf. [Borceux-Korotenski (1991, p.235)](#BK91).
+
+The following proposition closes the circle and recovers the primordial example of sheaf subtoposes $Sh(U)$ on open subsets $U$ as a special case:
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{C}$ a [[locally presentable category]] in which colimits are [[universal colimit|universal]]. Then the open localizations of $\mathcal{C}$ constitutes a [[locale]] that is isomorphic to the locale of [[subterminal object|subterminal objects]] of $\mathcal{C}$.
+=--
+
+cf. [Borceux-Korotenski (1991, p.238)](#BK91).
+
 ## Related pages
 
 * [[open geometric morphism]]
 * [[locally closed subtopos]]
 * [[closed subtopos]]
 * [[dense subtopos]]
+* [[localization]]
+* [[level]]
 * [[Artin gluing]]
 * [[co-Heyting boundary]]
 
@@ -70,7 +134,7 @@ See Johnstone [(2002, pp.212,215)](#Johnstone).
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (Expos&#233; IV 9.2, 9.3.4-9.4., pp.451ff)
 
-* [[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
 * {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.93-95)
 
@@ -80,3 +144,5 @@ See Johnstone [(2002, pp.212,215)](#Johnstone).
 
 [[!redirects open subtoposes]]
 [[!redirects open topology]]
+[[!redirects open localization]]
+[[!redirects open localisation]]
