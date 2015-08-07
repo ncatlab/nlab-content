@@ -107,12 +107,14 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 ## References
 
-* [[André Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__, Issue 1, 18 November 1994, p. 51-86, [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
+* [[Peter Johnstone]],  _Complemented sublocales and open maps_ , Annals of Pure and Applied Logic **137** (2006) pp.240&#8211;255.
+
+* [[André Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__ no.1 (1994) pp.51-86. [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
 {#JoyalMoerdijk}
 
 An application:
 
-* [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]], Bisimulation from [[open map|open maps]], [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)
+* [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]], Bisimulation from [[open map|open maps]], [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf).
 
 [[!redirects open map]] 
 [[!redirects open maps]]
