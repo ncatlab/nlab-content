@@ -6,7 +6,7 @@ as the **cartographic group** (of dimension 2), and to its [[index of a subgroup
 
 $$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho_2 = 1\rangle$$
 
-as the **oriented cartographic group**.  [[transitive action|Transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may be non-orientable or with boundary.
+as the **oriented cartographic group**.  [[transitive action|Transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may or may not be orientable.  Dropping the condition that the permutations act transitively allows for the representation of maps on non-connected surfaces, while adding the requirement that certain permutations ($\rho_1$ in the case of oriented maps, or the three permutations $\sigma_0$, $\sigma_1$, and $\sigma_2$ in the case of unoriented maps) be [[fixed point]]-free corresponds to the condition that the underlying surfaces are without boundary.
 
 ## Higher dimensions
 
