@@ -95,9 +95,9 @@ Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386?ln=en
 
 and its [[quantization]] was first explored in 
 
-* B. de Wit, [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545.
+* [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf))
 
-* B. de Wit, W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
+* [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
 
 The interpretation of the membrane as as an object related to [[string theory]], hence as the _M2-brane_ was proposed in 
 
@@ -145,7 +145,7 @@ Formulations of multiple M2-branes on top of each other are given by the _[[BLG 
 
 * [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
 
-Specifically, discussion of these in [[Hoarava-Witten theory]] and reducing to [[heterotic strings]] is in
+Specifically, discussion of these in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
 
 * {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
