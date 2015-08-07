@@ -46,6 +46,13 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the canonical
 
 (cf. [Mac Lane-Moerdijk (1994)](#MM94), p.502)
 
++-- {: .num_prop}
+###### Proposition
+A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback of any [[bounded geometric morphism]] with codomain $\mathcal{E}$ is [[skeletal geometric morphism|skeletal]] iff the pullback of any [[localic geometric morphism]] with codomain $\mathcal{E}$ is [[skeletal geometric morphism|skeletal]].
+=--
+
+This result appears as corollary 4.9 in [Johnstone (2006)](#J06). 
+
 ## Related entries
 
 * [[open morphism]]
@@ -57,6 +64,8 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the canonical
 * [[Peter Johnstone]], _Open maps of toposes_, Manuscripta Math. **31** no.1-3 (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002222744))
 
 * {#J02}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol.II_ , Oxford UP 2002. (section C3.1, pp.606-625)
+
+* {#J06}[[Peter Johnstone]], _Complemented sublocales and open maps_ , Annals of Pure and Applied Logic **137** (2006) pp.240&#8211;255.
 
 * [[André Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. **309**
 (1984).
