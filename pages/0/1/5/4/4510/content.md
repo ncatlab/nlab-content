@@ -449,8 +449,6 @@ $$
 $$
 
 
-=--
-
 ## Applications in cohomology
 
 [[derived hom-space|Derived hom-functors]]such as the $Ext$ on chain compelxes compute general notions of _[[cohomology]]_ (see the discussion there). Here we list some specific incarnations of the $Ext$-construction in the context of cohomology.
