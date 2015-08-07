@@ -1,12 +1,12 @@
-In [[Esquisse d'un programme]], [[Grothendieck]] refers to the [[group]]
+The [[group]]
 
 $$\mathcal{C}_2 = \langle\sigma_0,\sigma_1,\sigma_2 \mid \sigma_0^2 = \sigma_1^2 = \sigma_2^2 = (\sigma_0\sigma_2)^2 = 1\rangle$$
 
-as the **cartographic group** (of dimension 2), and to its [[index of a subgroup|index]] 2 [[subgroup]]
+is called the **cartographic group** (of dimension 2), while its [[index of a subgroup|index]] 2 [[subgroup]]
 
 $$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho_2 = 1\rangle$$
 
-as the **oriented cartographic group**.  [[transitive action|Transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may or may not be orientable.  Dropping the condition that the permutations act transitively allows for the representation of maps on non-connected surfaces, while adding the requirement that certain permutations ($\rho_1$ in the case of oriented maps, or the three permutations $\sigma_0$, $\sigma_1$, and $\sigma_2$ in the case of unoriented maps) be [[fixed point]]-free corresponds to the condition that the underlying surfaces are without boundary.
+is called the **oriented cartographic group**.  Specifically, this terminology comes from [[Grothendieck]]'s [[Esquisse d'un programme]], and is motivated by the fact that [[transitive action|transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may or may not be orientable or have a boundary.
 
 ## Higher dimensions
 
@@ -25,6 +25,8 @@ which is a [[Coxeter group]].  For related references, see the last section of [
 ## References
 
 * [[Alexander Grothendieck]]. [[Esquisse d'un programme]] (section 3)
-* [[Christine Voisin]], [[Jean Malgoire]], Cartes cellulaires, Cahiers Math&#233;matiques, 12, Montpellier, 1977.
+* [[Christine Voisin]] and [[Jean Malgoire]]. Cartes cellulaires, Cahiers Math&#233;matiques, 12, Montpellier, 1977.
+* [[Gareth A. Jones]] and [[David Singerman]]. Theory of Maps on Orientable Surfaces. Proceedings of the London Mathematical Society, 37:273-307, 1978.
+* Robin P. Bryant and [[David Singerman]]. Foundation of the Theory of Maps on Surfaces With Boundary. Quarterly Journal of Mathematics, 2(36):17-41, 1985.
 * {#JonesSingerman94} [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
 * See also the Wikipedia page on [generalized maps](https://en.wikipedia.org/wiki/Generalized_map), which correspond to permutation representations of $\mathcal{C}_n$.
