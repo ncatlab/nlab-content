@@ -154,6 +154,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * [[double negation]]
 * [[Boolean topos]]
 * [[law of excluded middle]]
+* [[skeletal geometric morphism]]
 
 ## References
 
@@ -181,7 +182,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * {#Johnstone81}[[Peter Johnstone]], _The Gleason Cover of a Topos II_ , JPAA **22** (1981) pp.229-247. 
 
-* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_, Oxford UP 2002. (section D4.6, pp.498ff)
+* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_, Oxford UP 2002. (section D4.6, pp.998ff)
 
 * {#Johnstone13}[[Peter Johnstone]], _The Gleason Cover of a Realizability Topos_ , TAC **28** no.32 (2013) pp.1139-1152. ([abstract](http://www.tac.mta.ca/tac/volumes/28/32/28-32abs.html))
 
