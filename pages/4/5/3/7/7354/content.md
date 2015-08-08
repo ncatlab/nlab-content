@@ -66,7 +66,8 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 ### Surveys and lecture notes
 
-A general survey is 
+* [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999
+
 
 * {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
