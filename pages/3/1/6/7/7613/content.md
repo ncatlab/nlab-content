@@ -137,9 +137,9 @@ Seet also at _[[cubical structure in M-theory]]_.
 
 First indications for M-theory came from the [[supermembrane]] [[Green-Schwarz sigma-model]] now called the [[M2-brane]]. A comprehensive collection of early articles is in 
 
-* [[Mike Duff]], _The World in Eleven Dimensions: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+* {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
-For some time though the success of [[string theory]] in 10-dimensions caused resistence to the idea of a theory of [[membranes]] in 11-dimensions, an account is on the first pages of
+For some time though the success of [[string theory]] in 10-dimensions caused resistence to the idea of a theory of [[membranes]] in 11-dimensions, an account is in ([Duff 99](#Duff99)) and in brevity on the first pages of
 
 * [[Mike Duff]], _M-history without the M_ ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
 
