@@ -90,8 +90,7 @@ The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in t
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
   
 
-* [[Mike Duff]], K. S. Stelle, _Multimembrane solutions of $D = 11$ supergravity_,
-Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386?ln=en))
+* [[Mike Duff]], [[Kellogg Stelle]], _Multimembrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386?ln=en))
 
 and its [[quantization]] was first explored in 
 
@@ -103,7 +102,7 @@ The interpretation of the membrane as as an object related to [[string theory]],
 
 * [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_ ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
-around the time when [[M-theory]] was envisioned in
+around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
@@ -122,6 +121,11 @@ Meanwhile [[AdS-CFT duality]] was recognized in
 where a dual description of the [[worldvolume]] theory of M2-brane appears in seciton 3.2.  More on this is in 
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
+
+An account of the history as of 1999 is in
+
+* {#Duff99} [[Mike Duff]], chapter II of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
  
 A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
 
