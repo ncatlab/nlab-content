@@ -79,6 +79,12 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ### General
 
+The 5-brane in [[heterotic string theory]] was found as a [[black brane]] in
+
+* {#Strominger91} [[Andrew Strominger]], _Heterotic solitons_, Nucl.Phys. B343 (1990) 167-184 Nucl.Phys. B353 (1991) 565 ([spire](http://inspirehep.net/record/27900))
+
+See also at _[[dual heterotic string theory]]_.
+
 The [[Green-Schwarz action functionals]] for the NS5-brane are discussed in
 
 * [[Igor Bandos]], Alexei Nurmagambetov, [[Dmitri Sorokin]], _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
