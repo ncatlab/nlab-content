@@ -103,7 +103,7 @@ Here the first inclusion exhibits a dense subtopos and the second a [[closed sub
 
 This is the _[[(dense,closed)-factorization]]_.
 
-### Some parallels to topology
+### Some parallels to topology{#parallels_topology}
 
 The above terminology suggests to view a _dense subtopos_ as one with an _empty exterior_.
 
@@ -155,6 +155,7 @@ Compare this with the case of a _Boolean topos_!
 * [[dense subspace]]
 * [[(dense,closed)-factorization]]
 * [[dominant geometric morphism]]
+* [[skeletal geometric morphism]]
 * [[dense topology]]
 * [[double negation]]
 
