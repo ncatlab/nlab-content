@@ -153,15 +153,34 @@ A public talk announcing the conjecture that the [[non-perturbative field theory
 
    19:33: "Ten years ago we had the embarrassment that there were five consistent string theories plus a close cousin, which was 11-dimensional supergravity." (19:40): "I promise you that by the end of the talk we have just one big theory."
 
+The term "M-theory" seems to originate in 
 
-The term "M-theory" occurs somewhere around
+* {#HoravaWitten95} [[Petr Ho?ava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+
+as a "non-committed" shorthand for "membrane theory"
+
+> As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation,1 we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95, p. 2](#HoravaWitten95))
+
+and
+
+* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl.Phys.B463:383-397,1996 ([arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219))
+
+which coined the association
+
+> the eleven-dimensional "M-theory" (where M stands for magic, mystery, or membrane, according to taste) ([Witten 95, p. 1](#Witten95))
+
+that later gained much publicity
+
+* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
+
+The term became fully established with surveys including
 
 * [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
+Despite the magic and mystery, the relation to the original abbreviation for _membrabe-theory_ was highlighted again for instance in 
 
-An early popular account for a general audience is
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
-* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
 
 More recent review includes
 
@@ -173,9 +192,7 @@ Early articles clarifying the relation to [[type II string theory]] now known as
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
-The relation also to the [[heterotic string]] was understood (see at _[[Ho?ava-Witten theory]]_) in
-
-* {#HoravaWitten95} [[Petr Ho?ava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+The relation also to the [[heterotic string]] was understood in ([Ho&#345;ava-Witten 95](#HoravaWitten95))&#10075; see at _[[Ho?ava-Witten theory]]_.
 
 More technical surveys include
 
