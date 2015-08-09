@@ -103,6 +103,33 @@ Local rings are often more useful than fields when doing mathematics [[internali
 
 In [[constructive mathematics]], one could do the same thing, but it\'s more common to use the notion of [[Heyting field]]. This is closely related, however; the quotients of local rings are precisely the Heyting fields (which are themselves local rings). In fact, one can define an [[apartness relation]] (like that on a Heyting field) in any local ring: $x \# y$ iff $x - y$ is invertible. Then the local ring is a Heyting field if and only if this apartness relation is [[tight relation|tight]].
 
++-- {: .num_prop #internal} 
+###### Proposition 
+The addition and multiplication operations on a local ring $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is invertible. In this way a local ring becomes an internal ring object in the category $Apart$, consisting of sets with apartness relations and maps (strongly extensional functions) between them. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Recall that products $X \times Y$ in the category of sets with apartness relations is the cartesian product of the underlying sets equipped with the apartness relation defined by $(x, y) \# (x', y')$ iff $x \# x'$ in $X$ *or* $y \# y'$ in $Y$. Recall also that a function $f: X \to Y$ between sets with apartness relations is *strongly extensional* if $f(x) \# f(y)$ implies $x \# y$. 
+
+For addition, if $(x + y) \# (x' + y')$, then $x + y - (x' + y') = (x - x') + (y - y')$ is invertible, so $x - x'$ or $y - y'$ is invertible since $R$ is local, whence $(x, y) # (x', y')$. Thus addition is strongly extensional. 
+
+For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x y - x' y' = (x - x')y + x'(y - y')$. Since $R$ is local, either $(x - x')y$ is a unit or $x'(y - y')$ is a unit. From this we easily conclude $x - x'$ is a unit or $y - y'$ is, whence $(x, y) # (x', y')$. So multiplication is also strongly extensional. 
+=-- 
+
+
+## Local homomorphisms 
+
+Classically, if $R$ and $S$ are local rings with maximal ideals $m$ and $n$ respectively, then a ring [[homomorphism]] $f: R \to S$ is said to be *local* if $f(m) = \exists_f (m) \subseteq n$. Equivalently, $m \subseteq f^{-1}(n)$. Taking [[complements]] and using the fact that taking [[inverse images]] preserve complements, this is equivalent to $f^{-1}(S^\times) \subseteq R^\times$ where $R^\times$ is the [[group of units]]. Of course we also have $R^\times \subseteq f^{-1}(S^\times)$ (equivalently $f(R^\times) \subseteq S^\times$) just from the fact that $f$ is a ring homomorphism, so in brief $f$ is local if $R^\times = f^{-1}(S^\times)$: an element $f(r)$ is invertible (if and) only if $r$ is. 
+
+In constructive settings it makes sense to take this last formulation as our notion of local homomorphism. In view of Proposition \ref{internal}, it makes sense to say it like this: 
+
++-- {: .num_defn} 
+###### Definition 
+A *local homomorphism* between local rings is an internal ring homomorphism between their associated internal rings in the category $Apart$. 
+=-- 
+
+Possible to-dos: say something about $m$-adic topology, completion, Zariski topos as classifying topos... 
 
 ## Related concepts
 
@@ -112,6 +139,7 @@ In [[constructive mathematics]], one could do the same thing, but it\'s more com
 
 * [[valuation ring]] 
 
+* [[Zariski topos]] 
 
 [[!redirects local ring]]
 [[!redirects local rings]]
