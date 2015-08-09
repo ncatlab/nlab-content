@@ -31,9 +31,9 @@ A [[geometric morphism]] $f :  \mathcal{F} \to \mathcal{E}$ is called _skeletal_
 
 ## Example
 
-* Inverse images of [[open geometric morphism|open geometric morphisms]] are [[Heyting functors]], hence commute with $\neg$ and, therefore, are skeletal.
+* Inverse images of [[open geometric morphism|open geometric morphisms]] are [[Heyting functors]], hence commute with $\neg$ and, therefore, _open geometric morphisms are skeletal_. In particular, geometric morphisms with [[Boolean topos|Boolean]] codomain are open ([Johnstone 2002, p.612](#J02)), hence skeletal. 
 
-* [[dense subtopos|Dense subtoposes]] $i:Sh_j(\mathcal{E})\hookrightarrow \mathcal{E}$ are precisely those subtoposes with $Sh_{\neg\neg}(Sh_j(\mathcal{E}))=Sh_{\neg\neg}(\mathcal{E})$ (cf. [this proposition](dense+subtopos#negdense)) and, therefore are skeletal.
+* [[dense subtopos|Dense subtoposes]] $i:Sh_j(\mathcal{E})\hookrightarrow \mathcal{E}$ are precisely those subtoposes with $Sh_{\neg\neg}(Sh_j(\mathcal{E}))=Sh_{\neg\neg}(\mathcal{E})$ (cf. [this proposition](dense+subtopos#negdense)) and, therefore, are skeletal.
 
 ## Properties
 
@@ -70,13 +70,14 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback 
 
 ## References
 
-* {#Johnstone80}[[Peter Johnstone]], _The Gleason Cover of a Topos I_ , JPAA **19** (1980) pp.171-192. 
-
-* {#Johnstone81}[[Peter Johnstone]], _The Gleason Cover of a Topos II_ , JPAA **22** (1981) pp.229-247. 
+* [[Peter Johnstone]], _Factorization theorems for geometric morphisms II_ , pp.216-233 in LNM **915** Springer Heidelberg 1982.
 
 * {#J02}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol.II_ , Oxford UP 2002. (section D4.6, pp.1006-1010)
 
 * {#J06}[[Peter Johnstone]], _Complemented sublocales and open maps_ , Annals of Pure and Applied Logic **137** (2006) pp.240&#8211;255.
+
+* {#Johnstone13}[[Peter Johnstone]], _The Gleason Cover of a Realizability Topos_ , TAC **28** no.32 (2013) pp.1139-1152. ([abstract](http://www.tac.mta.ca/tac/volumes/28/32/28-32abs.html))
+
 
 [[!redirects skeletal geometric morphisms]]
 [[!redirects skeletal morphism]]
