@@ -45,11 +45,13 @@ The [[Lie bracket]] on the sections of $at(P)$ is that inherited from the tangen
 
 A splitting $\nabla_{flat} : T X \to at(P)$ of the Atiyah Lie algebroid sequence in the category of [[Lie algebroid]]s is precisely a flat [[connection on a bundle|connection on]] $P$.
 
-To get non-flat connections in the literature one often sees discussed splittings of the Atiyah Lie algebroid sequence in the category just of [[vector bundle]]s. In that case one finds the curvature of the connection precisely as the obstruction to having a splitting even in Lie algebroids.
+To get non-flat connections in the literature one often sees discussed splittings of the Atiyah Lie algebroid sequence in the category just of [[vector bundle]]s. In that case one finds the curvature of the connection precisely as the [[obstruction]] to having a splitting even in Lie algebroids.
 
 One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely $L_\infty$-[[L-infinity-algebroid|algebroids]], in terms of an [[horizontal categorification]] of [[nonabelian Lie algebra cohomology]]:
 
-...
+## Atiyah class
+
+The $Ext^1$-cohomology class corresponding to the Atiyah exact sequence (usually in a version for vector bundles/coherent sheaves) is the __Atiyah class__. 
 
 ## Related concepts
 
@@ -58,10 +60,29 @@ One can describe non-flat connections without leaving the context of Lie algebro
 ## References
 
 * [[Michael Atiyah]], _Complex analytic connections in fibre bundles_, Trans. Amer. Math. Soc. 85 (1957), 181--207, [doi](http://dx.doi.org/10.2307/1992969),[MR0086359](http://www.ams.org/mathscinet-getitem?mr=0086359) 
+* Pietro Tortella, _Representations of Atiyah algebroids and logarithmic connections_, [arxiv/1505.04763](http://arxiv.org/abs/1505.04763)
 
 A discussion with an emphasis on the relation to [[connection on a bundle|connections]] and [[Lie 2-algebra]]s is on the first pages of
 
 * {#Stevenson06} [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
 
+For Atiyah classes see
+
+
+	
+* L. Illusie, _Complexe cotangent et d&#233;formations_ (vol. 1) IV.2.3
+* [MO:atiyah-class-for-non-locally-free-sheaf](http://mathoverflow.net/questions/56405/atiyah-class-for-non-locally-free-sheaf)
+* [[M. Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_, Compositio Math.
+115 (1999), 71&#8211;113.
+* U. Bruzzo, I. Mencattini, V. Rubtsov, P. Tortella, _Nonabelian Lie algebroid extensions_, arXiv:1305.2377.
+* Zhuo Chen, Mathieu Sti&#233;non, Ping Xu, _From Atiyah classes to homotopy Leibniz algebras_, [arXiv/1204.1075](http://arxiv.org/abs/1204.1075); _A Hopf algebra associated to a Lie pair_, [arxiv/1409.6803](http://arxiv.org/abs/1409.6803)
+* R. A. Mehta, M. Sti&#233;non, P. Xu, _The Atiyah class of a dg-vector bundle_, [arxiv/1502.03119](http://arxiv.org/abs/1502.03119)
+* [[Nikita Markarian]], _The Atiyah class, Hochschild cohomology and the Riemann-Roch theorem_, J. Lond. Math. Soc. (2) 79 (2009), no. 1, 129&#8211;143
+* F. Bottacin, _Atiyah classes for Lie algebroids_, [pdf](http://www.math.unipd.it/~bottacin/papers/liealgebroids.pdf)
+* Ajay C. Ramadoss, The big Chern classes and the Chern character, Internat. J. Math. 19 (2008), no. 6, 699&#8211;746.
 
 [[!redirects Atiyah Lie algebroids]]
+[[!redirects Atiyah algebroid]]
+[[!redirects Atiyah algebroids]]
+[[!redirects Atiyah class]]
+[[!redirects Atiyah sequence]]
