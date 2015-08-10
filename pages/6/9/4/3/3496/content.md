@@ -258,6 +258,8 @@ The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essenti
 
 * **essential geometric morphism**
 
+* [[level]]
+
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
@@ -271,9 +273,21 @@ The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essenti
 
 ## References
 
+As many other things, it all started as an exercise in
+
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, ex.7.6, pp.414-417)
+
+Speaking of exercises, consider the results of Roos reported in exercise 7.3 of
+
+* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.254f)
+
+The case of sheaves valued in [[FinSet]] is considered in
+
+* J. Haigh, _Essential geometric morphisms between toposes of finite sets_ , Math. Proc. Phil. Soc. **87** (1980) pp.21-24.
+
 The definition of geometric morphism appears before Lemma A.4.1.5 in
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
 
 Connected surjective and local geometric morphisms are discussed in 
 
