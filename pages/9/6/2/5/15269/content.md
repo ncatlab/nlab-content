@@ -9,6 +9,24 @@
 =--
 =--
 
+## Classical McKay correspondence
+
+The classical McKay correspondence, named after John McKay, is a one-to-one correspondence between the [[McKay graphs]] of finite subgroups $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
+
+### Construction
+
+Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ denote the irreducible representations of $G$, with $\rho_0$ being the trivial representation. Then, set $\langle \rho_i \otimes \mathbb{C}^2, \rho_j \rangle = m_{ij}$. Since $\mathbb{C}^2$ is self-dual, as it admits an invariant non-degenerate skew-symmetric bilinear form, $m_{ij} = m_{ji}$. Finally, consider the vertices $v_0, ..., v_n$ with $m_{ij}$ vertices between each $v_i$ and $v_j$. Furthermore, for $m_{ij} = 1$, we do not need to write the weight of the corresponding arrow. The resulting graph is the [[McKay graph]] of $G$.
+
+
+(...)
+
+## Derived McKay correspondence
+
+Due to T. Bridgeland, A. King, and M. Reid.
+
+(...)
+
+
 
 ## Related concepts
 
@@ -19,4 +37,8 @@
 Introductions and surveys include
 
 * Graham Leuschke, _The McKay correspondence_ ([pdf](http://www.leuschke.org/uploads/McKay-total.pdf))
+
+For the 2001 publication on the derived McKay correspondence, see:
+
+* _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
