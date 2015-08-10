@@ -84,8 +84,20 @@ This program, initiated by [[André Joyal]] and [[Ieke Moerdijk]], permits a fin
 
 ## References 
 
+The cumulative hierarchy made its first appearance in
+
+* D. Mirimanoff, _Les antinomies de Russell et de Burali-Forti et le probl&#232;me fondamental de la th&#233;orie des ensembles_ , L'enseignement Math&#233;matique **19** (1917) pp.37-52. ([pdf](http://retro.seals.ch/cntmng?pid=ensmat-001:1917:19::9); 19,4MB)
+
+Another historically important contribution is
+
+* Dana Scott, _Axiomatizing Set Theory_ , pp.207-214 in _Axiomatic Set Theory_ - Proc. Symp. Pure Math. **13**, AMS Providence 1974.
+
+A modern textbook account can be found e.g. in
+
 * Kenneth Kunen, _Set Theory: An Introduction to Independence Proofs_, Studies in Logic and the Foundations of Mathematics Vol. 102 (2006), Elsevier. 
  {#Kunen} 
+
+For algebraic set theory consult the following monograph
 
 * Andr&#233; Joyal and Ieke Moerdijk, _Algebraic Set Theory_, London Math. Soc. Lecture Series Notes 220 (1995), Cambridge University Press. 
  {#JM} 
