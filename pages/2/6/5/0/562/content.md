@@ -277,6 +277,12 @@ For the use of fibrations in homotopy see e.g.
 
 * [[Ronnie Brown|R. Brown]], R. Sivera, _Algebraic colimit calculations in homotopy theory using fibred and cofibred categories_, TAC **22** (2009) pp.222-251. ([pdf](http://www.tac.mta.ca/tac/volumes/22/8/22-08.pdf))
 
+For _Conduch&#233; fibrations_ consult the following two
+
+* F. Conduch&#233;, _Au sujet de 'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
+
+* [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
+
 [[André Joyal]]'s take on fibrations can be found here:
 
 * _[[joyalscatlab:Grothendieck fibrations]]_ 
