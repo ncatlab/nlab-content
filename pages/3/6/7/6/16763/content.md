@@ -1,0 +1,9 @@
+
+
+* [webpage](http://homepages.warwick.ac.uk/staff/Miles.Reid/)
+
+## related $n$Lab entries
+
+* [[ADE singularity]]
+
+category: people
