@@ -7,6 +7,11 @@
 
 An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{C}^2/\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
 
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
+ 
+These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes, whose exceptional fiber is a [[union]] of [[Riemann spheres]] that are connected in the shape of the corresponding [[Dynkin diagram]].
+
+> (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
 
 ## Related concepts
 
@@ -18,7 +23,22 @@ An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{
 
 ## References
 
+### General
+
 * _[Classification of singularities](http://www.mathematik.uni-kl.de/~zca/Reports_on_ca/29/paper_html/node10.html)_
+
+* [[Miles Reid]], _The Du Val Singularities $A_n$, $D_n$, $E_6$, $E_7$, $E_8$_ ([pdf](http://homepages.warwick.ac.uk/~masda/surf/more/DuVal.pdf))
+
+* MathOverflow, _[Resolving ADE singularities by blowing up](http://mathoverflow.net/q/186368/381)_
+
+### In the context of string compactifications
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
+
+* M. Wijnholt, slides 6-10 of  _String compactification_, PITP 2014 ([pdf](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
+
+
 
 [[!redirects ADE singularities]]
 
