@@ -14,6 +14,8 @@
 
 * [[ADE singularity]]
 
+* [[resolution of singularities]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
