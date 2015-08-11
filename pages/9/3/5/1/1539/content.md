@@ -210,7 +210,7 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 Original articles include
 
-* J. Penon, _Quasi-topos_ , C.R. Acad. Sci. Paris, S&#233;r. A 276 (1973), 237&#8211;240.
+* J. Penon, _Quasi-topos_ , C.R. Acad. Sci. Paris **276** S&#233;rie A (1973) pp.237&#8211;240. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6217213f/f251.image))
 
 * J. Penon, _Sur le quasi-topos_ , Cahiers Top. G&#233;om. Diff. 18 (1977), 181&#8211;218.
 
@@ -219,7 +219,7 @@ Standard textbook references are
 *  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_, World Scientific, 1991. 
 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_, 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
 {#Elephant}
 
 Here quasitoposes are introduced in A2.6.
