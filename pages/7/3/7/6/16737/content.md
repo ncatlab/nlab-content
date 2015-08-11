@@ -46,9 +46,14 @@ and
 
 > Describing nature by a group taken from an infinite family does raise an obvious question &#8211; why this group and not another? In addition to the three infinite families, there are five [[exceptional Lie groups]], namely [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]]. Since nature is so exceptional, why not describe it using an exceptional Lie group? 
 
-[Ramond 03](#Ramond03) wites in a context of [[grand unification]]:
+[Ramond 03](#Ramond03) writes in a context of [[grand unification]]:
 
 > In the Lie garden, one also finds five rare flowers, the exceptional algebras: [[G2]], [[F4]], [[E6]], [[E7]] and [[E8]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
+
+[Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental high energy physics ("Physical Mathematics"):
+
+> it must be said that much of Physical Mathematics has a predilection
+for special, sporadic, and exceptional structures. $[$...$]$ I cannot forecast what stormy weather our field is destined to endure, but I can confidently forecast abundant [[moonshine]] in the years ahead. (section 11 "Exceptional structures")
 
 A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] is in ([Vafa 15, slide 11](#Vafa15)).
 
@@ -72,5 +77,7 @@ A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] is in
 * {#Witten02b} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
 
 * {#Ramond03} [[Pierre Ramond]], _Exceptional Groups and Physics_ ([hep-th/0301050](http://arxiv.org/abs/hep-th/0301050))
+
+* {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
