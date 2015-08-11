@@ -139,10 +139,10 @@ Technical surveys on particle physics string phenomenology include
 * {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795]
 (http://arxiv.org/abs/1204.2795))
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
 
  
-* {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
+* {#Wijnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
 * E. Palti _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
 
