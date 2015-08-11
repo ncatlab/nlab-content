@@ -58,9 +58,10 @@ Notice that restricted to [[associative submanifolds]] this combination becomes 
 
 The [[KK-compactification]] of vacuum [[11-dimensional supergravity]] on a _[[smooth manifold|smooth]]_ [[G2-manifold]] $Y$ results in a [[effective field theory|effective]] [[N=1 D=4 super Yang-Mills theory]] with [[abelian group|abelian]] [[gauge group]] $U(1)^{b_2(Y)}$ and with $b_3(Y)$ [[complex scalar fields]] which are neutral (not charged) under this gauge group (with $b_\bullet(Y)$ the [[Betti numbers]] of $Y$) (e.g. [Acharya 02, section 2.3](#Acharya02)). This is of course unsuitable for [[phenomenology]].
 
-But when $Y$ is a $G_2$-[[orbifold]] then:
 
-1. at an [[ADE singularity]] the [[gauge group]] becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07));
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> But when $Y$ is a $G_2$-[[orbifold]] then: 
+
+1. at an [[ADE singularity]] the [[gauge group]] becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics is grabbed));
 
 1. at a [[conifold singularity]] [[chiral fermions]] appear ([Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
