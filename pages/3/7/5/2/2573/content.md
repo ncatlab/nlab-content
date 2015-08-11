@@ -45,6 +45,12 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
+## Related pages
+
+* Streicher, Lawvere, McLarty et al, _Categorical formulations of replacement_ , 2008. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/4304))
+
+* MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
+
 ## Related entries
 
 * [[Zermelo-Fraenkel set theory]]
@@ -56,8 +62,6 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 * [[ETCS]]
 
 ## References
-
-* MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
 
 * {#BellMach77}[[John Bell|J. L. Bell]], M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (ch. 10,&#167;5)
 
