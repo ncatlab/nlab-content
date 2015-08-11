@@ -44,6 +44,8 @@ This is the origin of the [[D6-brane]] under the duality between [[M-theory]] an
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
 [[!redirects Kaluza-Klein monopoles]]
 
 [[!redirects KK monopole]]
