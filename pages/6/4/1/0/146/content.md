@@ -167,7 +167,7 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
   Let's spell this out in more detail: given a mophism $\phi : V \to U$ 
   in $C$, we can take any morphism $f : i(U) \to X$ in $Hom_{D}(U,X)$ 
-  and turn it into a morphism $V \stackrel{f}{\to} U \stackrel{\phi}{\to} X$ 
+  and turn it into a morphism $V \stackrel{\phi}{\to} U \stackrel{f}{\to} X$ 
   in $Hom_{D}(i(V),X)$. This determines a map of set
 
   $$
