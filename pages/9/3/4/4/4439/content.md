@@ -70,7 +70,7 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 * [[Joseph Polchinski]], _[[String theory]]_, 2 vols. 
 
-* [[Joseph Polchinski]], _Joe's Little Book of String_, class notes, UCSB Phys 230A, String Theory, Winter 2010, [pdf](http://www.itp.ucsb.edu/~joep/JLBS.pdf)
+* [[Joseph Polchinski]], _Joe's Little Book of String_, class notes, UCSB Phys 230A, String Theory, Winter 2010, [pdf](http://www.kitp.ucsb.edu/sites/default/files/users/joep/JLBS.pdf)
 
 
 * {#West12} [[Peter West]], _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
