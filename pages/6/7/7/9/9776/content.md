@@ -1,9 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea
 
 The [[D-brane]] of [[dimension]] 6+1 in [[type II string theory]].
+
+Its lift to [[M-theory]] is the [[Kaluza-Klein monopole]] there.
 
 ## Related concept
 
