@@ -73,7 +73,7 @@ which assigns to $U \in CartSp$ the following 2-groupoid:
   such that
 
   $$
-    A' = g^{-1} A g + g^{-1} d g + g^{-1} \delta_* a g
+    A' = Ad_{g^{-1}}\left( A + \delta_* a \right) + g^{-1} d g
   $$
 
   and
@@ -99,7 +99,7 @@ which assigns to $U \in CartSp$ the following 2-groupoid:
     \,.
   $$
 
-* a [[2-morphism]] $f : (g,a) \to (g', a')$ is a function
+* a [[2-morphism]] $f : (g,a) \Rightarrow (g', a'):(A,B)\to (A',B')$ is a function
 
   $$
     f \in C^\infty(U,G_2)
@@ -114,12 +114,12 @@ which assigns to $U \in CartSp$ the following 2-groupoid:
   and
 
   $$
-    a' = f^{-1} d f + f^{-1} a f + f^{-1}(r_f^{-1} \circ \alpha_f)_*(a)f
+    a' = Ad_{f^{-1}} \left(a  + (r_f^{-1} \circ \alpha_f)_*(A)\right) + f^{-1} d f
   $$
 
-and composition is defined as follows
 
-(...)
+and composition is defined as follows: vertical composition is given by pointwise multiplication ([[David Roberts|DR]]: the order still needs sorting out!) and horizontal composition is given as horizontal composition in the one-object 2-groupoid $\mathbf{B}G)$.
+
 
 =--
 
@@ -191,7 +191,7 @@ The [[curvature]] of this is $(\beta, H)$, where the 2-form component ("fake cur
 
 $$
   \beta^a = d_{dR} A^a + \frac{1}{2}C^a{}_{b c} A^b \wedge A^c
-  + r^a{}i B^i
+  + r^a{}_i B^i
 $$
 
 and whose 3-form component is 
@@ -304,7 +304,7 @@ where $P_2(C(\{\U_i\}) \in 2LieGrpd$ is a resolution of the [[path 2-groupoid]] 
 
 The 2-groupoid of Lie 2-algebra valued forms described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of 
 
-* Schreiber, Waldorf, _Smooth functors versus differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWII">web</a>). 
+* Schreiber, Waldorf, _Smooth functors versus differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWII">web</a>). {#SchWalII}
 
 There are many possible conventions. The one reproduced above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
 
