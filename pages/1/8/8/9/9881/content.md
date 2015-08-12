@@ -184,6 +184,10 @@ Discussion of 2-loop amplitudes from holomorphy arguments is in
 
 * [[Edward Witten]], _Notes On Holomorphic String And Superstring Theory Measures Of Low Genus_ ([arXiv:1306.3621](http://arxiv.org/abs/1306.3621))
 
+See also
+
+* [[Ashoke Sen]], _Supersymmetry Restoration in Superstring Perturbation Theory_ ([arXiv:1508.02481](http://arxiv.org/abs/1508.02481))
+
 ### General
 
 For more references see, for the moment, at _[[string theory results applied elsewhere]]_.
