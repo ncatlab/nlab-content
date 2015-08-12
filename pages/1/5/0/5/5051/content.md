@@ -1,7 +1,7 @@
 
 
 
-John Roberts is a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
+John Roberts was a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
 
 #Contents#
 * table of contents
@@ -9,7 +9,7 @@ John Roberts is a [[mathematical physicist]] who works on the mathematical found
 
 ## Life
 
-John Roberts was born in England, but his father came from the Ll&#375;n Peninsula. He has worked in Rome at Tor Vergata for a long time.
+John Roberts was born in England, but his father came from the Ll&#375;n Peninsula. He worked in Rome at Tor Vergata for a long time, before living his last few years in Goettingen.
 
 ## Academic life
 
