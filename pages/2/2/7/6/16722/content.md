@@ -54,7 +54,7 @@ Conversely, suppose $f:\mathcal{F}\to\mathcal{E}$ is dominant and $i^\ast(Z)\con
 
 ## Remark
 
-The concept can be generalized to morphisms _in_ a topos $\mathcal{E}$ by calling $f:X\to Y$ dominant iff the induced functor $(\mathcal{E}/Y)/f\to\mathcal{E}/Y$ is dominant, here $f$ is viewed as an object in $\mathcal{E}/Y$.
+The concept can be generalized to morphisms _in_ a topos $\mathcal{E}$ by calling $f:X\to Y$ _dominant_ if the induced geometric morphism $f^\ast\dashv\prod_f:\mathcal{E}/X\to\mathcal{E}/Y$ is dominant, where $f^\ast$ denotes the pullback functor.
 
 ## Related entries
 
