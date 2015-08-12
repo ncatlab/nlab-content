@@ -133,8 +133,11 @@ The bicategory of relations in a [[topos]] is a power allegory; conversely, the 
 Let $T$ be a [[regular theory]].  There is then an allegory $\mathcal{A}_T$ given as follows:
 
 * the objects are finite strings of [[sorts]] of $T$;
+
 * a morphism $\vec X \to \vec Y$ is a predicate $P(\vec x, \vec y)$ of sort $\vec X, \vec Y$ (or rather a provable-equivalence class of such predicates);
+
 * the identity $\vec X \to \vec X$ is (named by) $x_1 = x_1 \wedge x_2 = x_2 \wedge \cdots \wedge x_n = x_n$;
+
 * the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \wedge S(\vec y, \vec z)$.
 
 That $\mathcal{A}_T$ is an allegory is B.311 in [Freyd--Scedrov](#FreydScedrov); that it is in fact unitary and pre-tabular is B.312.
@@ -146,9 +149,13 @@ Every pre-tabular allegory has a tabular completion, given by splitting its core
 ### The existential quantifier
 
 There are two possible ways to interpret a regular formula of the form $\exists y. R(x,y) \wedge S(y,z)$ in a unitary pre-tabular allegory, if $R$ and $S$ are interpreted as $r \colon X \to Y$ and $s \colon Y \to Z$ respectively:  as the composite $s \cdot r$, or more 'literally' by:
+
 * pulling $r$ and $s^o$ back to the same hom set and taking their intersection: $(p_1^o r p_1) \cap (p_2^o s^o p_2) \colon X \times Z \to Y \times Y$;
+
 * then forcing the two $Y$s to be equal by post-composing with $\Delta_Y^o \colon Y \times Y \to Y$, applying the existential quantifier by post-composing with the unique map $!_Y$ to the unit, and post-composing with $!_Z^o$ to get a morphism into $Z$;
+
 * then forcing the $Z$ in the domain to be equal to the $Z$ in the codomain by taking the meet with $p_2 \colon X \times Z \to Z$;
+
 * and finally pulling back along (precomposing with the right adjoint of) $p_1 \colon X \times Z \to X$ to get a morphism $X \to Z$.
 
 We would like to know that these morphisms are equal, so that an existential formula will have a unique interpretation:
