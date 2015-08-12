@@ -19,11 +19,22 @@
 
 ## Idea
 
-The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]].
+The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-4,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
-In ([Hull 97](#Hull97)) it was argued to be the object which carries the 6-form charge [[Hodge duality|Hodge dual]] to the 5-form charge of the [[M5-brane]].
+Under the relation between [[M-theory]] and [[type IIA superstring theory]] the KK-monopole corresponds to the [[D6-brane]].
 
-This is the origin of the [[D6-brane]] under the duality between [[M-theory]] and [[type IIA superstring theory]].
+
+In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Hodge duality|Hodge dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
+
+$$
+  \wedge^5 (\mathbb{R}^{10,1})^\ast
+  \simeq
+  \wedge^5 (\mathbb{R}^{10})^\ast \oplus \wedge^6 \mathbb{R}^{10}
+  \,.
+$$
+
+(The same kind of relation identifies the time-component of the [[M2-brane]] charge with the charge of the [[M9-brane]], see there.)
+
 
 ## Related concepts
 
@@ -33,7 +44,7 @@ This is the origin of the [[D6-brane]] under the duality between [[M-theory]] an
 
 ## References
 
-* [[Rafael Sorkin]], Phys. Rev. Lett. 51 (1983) 87 ; 
+* [[Rafael Sorkin]], _Kaluza-Klein monopole_ Phys. Rev. Lett. 51 (1983) 87 ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.87))
 
 * [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
 
@@ -43,6 +54,7 @@ This is the origin of the [[D6-brane]] under the duality between [[M-theory]] an
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
+* Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
 
@@ -50,3 +62,6 @@ This is the origin of the [[D6-brane]] under the duality between [[M-theory]] an
 
 [[!redirects KK monopole]]
 [[!redirects KK monopoles]]
+
+[[!redirects KK-monopole]]
+[[!redirects KK-monopoles]]
