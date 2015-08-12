@@ -198,7 +198,7 @@ $$
   \delta_G \;\colon\; G Top \longrightarrow PSh_\infty(Glo)
 $$
 
-sending a [[topological space]] with $G$-[[action]] $X$ to the [[geometric realization]] of the presheaf which sends a group $H$ to the topoligical groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
+sending a [[topological space]] with $G$-[[action]] $X$ to the [[geometric realization]] of the presheaf which sends a group $H$ to the topological groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
 
 $$
   \delta_G(X)\;\colon\; H \mapsto \Pi( [\mathbf{B}H, X//G] )  
@@ -239,7 +239,7 @@ On a $G$-space $X \in G Top$ include via def. \ref{InclusionOfGSpacesInTheGlobal
 
 ([Rezk 14, 5.1](#Rezk14))
 
-+-- {: .num_prop }
++-- {: .num_prop #CohesionOnLocalSlice}
 ###### Proposition
 
 For $G$ any [[compact Lie group]], the [[cohesion]] of the global equivariant homotopy theory, prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, descends to the [[slice (∞,1)-toposes]]
