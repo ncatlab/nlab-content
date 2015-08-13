@@ -15,26 +15,40 @@
 
 ## Definition
 
-A **groupoid** $G$ is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]].  Often the requirement is made that $G$ is [[small category|small]]. More precisely, a groupoid $G$ consists of a set of arrows $G_1$ and a set of objects $G_0$ together with the following structure maps:
 
-1. A pair of maps $s, t: G_1 \rightrightarrows G_0$ called source and target maps. An element $g\in G_1$ is thought of as an arrow from $x=s(g)$ to $y=t(g)$.
++-- {: .num_defn #ExplicitDefinition}
+###### Definition
 
-2. A multiplication map $m: G_1 \times_{s, G_0, t} G_1 \to G_1$, which satisfies 
+A _small groupoid_ $G$ consists of a 
 
-2.1 $s(gh)=s(h)$, $t(gh)=t(g)$, and
+1. a [[set]] $G_0$ called its _set of objects_;
 
-2.2 associativity, $(gh)k=g(hk)$,
-here we usually write $gh$ for $m(g,h)$.
+1. a [[set]] $G_1$ called its _set of [[morphisms]]_ or _set of arrows_ 
 
-3. Identity section: $e: G_0\to G_1$, such that $e(t(g)g)=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
+equipped with the following structure maps:
 
-4. Inverse: $i: G_1 \to G_1$, also denoted by $i(g)=g^{-1}$, such that for all $g\in G$, 
+1. A pair of maps $s, t \colon G_1 \rightrightarrows G_0$ called _[[source]]_ and _[[target]]_ or _[[domain]]_ and _[[codomain]]_. An element $g\in G_1$ is thought of as an arrow from $x=s(g)$ to $y=t(g)$.
 
-$ g^{-1} g = e(s(g)), \quad gg^{-1} = e(t(g)). $
+1. A multiplication or _[[composition]]_ map $m \colon G_1 \times_{s, G_0, t} G_1 \to G_1$, which satisfies 
 
-A groupoid is **tame** if its [[groupoid cardinality|cardinality]] is finite.
+   1. $s(g h)=s(h)$, $t(g h)=t(g)$, and
 
-Groupoids form a $2$-[[2-category|category]] (in fact a $(2,1)$-[[(2,1)-category|category]]) [[Grpd]].
+   1. [[associativity]]: $(g h)k=g(h k)$, here one usually writes $g h$ for $m(g,h)$.
+
+   1. identity section: $e: G_0\to G_1$, such that $e(t(g)g)=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
+
+   1. [[inverse]], $i: G_1 \to G_1$, also denoted by $i(g)=g^{-1}$, such that for all $g\in G$, 
+
+      $ g^{-1} g = e(s(g)), \quad g g^{-1} = e(t(g)). $
+
+=--
+
+Hence a small groupoid is a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].  
+
+
+A groupoid is called **tame** if its [[groupoid cardinality|cardinality]] is finite.
+
+Groupoids naturally form a $2$-[[2-category|category]] (in fact a $(2,1)$-[[(2,1)-category|category]]) [[Grpd]]. For more on this see also the lecture notes at _[[geometry of physics -- homotopy types]]_.
 
 
 ## Notation
@@ -189,8 +203,8 @@ Categories, 7 (2005) pp 1--195. ([download] (http://www.tac.mta.ca/tac/reprints/
 
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge, 2006. ([description] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
-* Rade T. &#381;ivaljevi&#263;,  Groupoids in combinatorics---applications of a theory of local symmetries. _Algebraic and geometric combinatorics_, 305--324, Contemp. Math., 423, Amer. Math. Soc., Providence, RI, 2006.
-  {#Zivaljevic}
+* {#Zivaljevic} Rade T. &#381;ivaljevi&#263;,  Groupoids in combinatorics---applications of a theory of local symmetries. _Algebraic and geometric combinatorics_, 305--324, Contemp. Math., 423, Amer. Math. Soc., Providence, RI, 2006.
+  
 
 
 [[!redirects groupoid]]
