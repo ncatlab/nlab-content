@@ -24,7 +24,7 @@ The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] the KK-monopole corresponds to the [[D6-brane]].
 
 
-In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Hodge duality|Hodge dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
+In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Poincaré duality|Poincaré dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
 
 $$
   \wedge^5 (\mathbb{R}^{10,1})^\ast
