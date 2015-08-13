@@ -63,7 +63,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 ## Formalization in higher differential geometry
  {#InTermsOfHigherDifferentialGeometry}
 
-> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]]. More details are in [classicalinhigher, section 3.3](#classicalinhigher) and [[schreiber:differential cohomology in a cohesive topos|dcct, section 1.2.15.3.3]]. See also _[current algebra --  As a homotopy Lie algebra](current%20algebra#AsAHomotopyLieAlgebra)_.
+> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]], following ([Sati-Schreiber 15](#SatiSchreiber15)).
 
 Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
 
@@ -223,7 +223,6 @@ A survey of progress on the most general picture is in
 
 Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [[11-dimensional supergravity]] and 10d [[type II supergravity]]) includes
 
-
 * {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
@@ -270,21 +269,17 @@ The generalization oft this perspective to the [[M5-brane]] is discussed in
 
 * {#SorokinTownsend97} [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys.Lett. B412 (1997) 265-273 ([arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003))
 
-and the generalizatin to [[D-branes]] is discussed in
+and the generalization to [[D-branes]] is discussed in
 
 * {#Hammer97} Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
 
-The structure found in that article matches the general extension structure discussed in 
+Detailed discussion of examples for various backgrounds is in 
 
-* {#hgpII} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107 &#8211; 142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+* Takeshi Sato, _Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl.Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](http://arxiv.org/abs/hep-th/9812014))
 
-in view of
+Discussion of this in [[higher differential geometry]] via the [[Poisson bracket Lie n-algebra]] is in 
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
-
-Discussion of the relation of that to the traditional discussion of current algebras is in 
-
-* {#classicalinhigher} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+* {#SatiSchreiber15} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_ ([arXiv:1507.08692](http://arxiv.org/abs/1507.08692))
 
 Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] includes
 
