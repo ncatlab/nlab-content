@@ -331,6 +331,8 @@ on [[quantization]] of the WZW model, see at
 
 * [[Green-Schwarz action functional]]
 
+* [[analytically continued Wess-Zumino-Witten theory]]
+
 ## References
  {#References}
 
