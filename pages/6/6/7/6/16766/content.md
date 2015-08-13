@@ -1,0 +1,108 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A degree-$p$ _calibration_ of an oriented [[Riemannian manifold]] $(X,g)$ is a [[differential p-form]] $\omega \in \Omega^p(X)$ with the property that 
+
+1. it is closed $d \omega = 0$;
+
+1. evaluated on any oriented $p$-dimensional subspace of any [[tangent space]] of $X$, it is less than or equal to the induced degree-$p$ [[volume form]], with equality for at least one choice of subspace.
+
+
+A _calibrated submanifold_ of a manifold with calibration is an oriented [[submanifold]] such that restricted to each of its tangent spaces $\omega$ _equals_ the induced volume form of the submanifold there.
+
+## Properties
+
+### Minimal volume submanifolds
+
+Any calibrated submanifold $\Sigma \hookrightarrow X$ minimizes [[volume]] in its [[homology]] class.
+
+For Let $\tilde \Sigma \hookrightarrow X$ be a homologous [[submanifold]]. Then [[Stokes theorem]] together with the condition that $d \phi = 0$ implies that the [[integration of differential forms]] of $\phi$ over $\Sigma$ equals that over $\tilde \Sigma$. The defining conditions on calibrations and on calibrated submanifolds then imply the [[inequality]]
+
+$$
+  vol(\Sigma)
+  \stackrel{cal\,subm}{=}
+  \int_\Sigma \phi
+  \stackrel{Stokes}{=} 
+  \int_{\tilde \Sigma} \phi
+  \stackrel{calib}{\leq}
+  \int_{\tilde \Sigma} d vol
+  =
+  vol(\tilde \Sigma)
+  \,.
+$$
+
+## Examples
+
+* The globalization of the [[associative 3-form]] of a [[G2-manifold]] is a calibration. A calibrated submanifold in this case is alse called an [[associative submanifold]].
+
+## References
+
+### General
+
+The original articles are
+
+
+* [[Reese Harvey]], [[H. Blaine Lawson]], _Calibrated geometries_, Acta Mathematica
+July 1982, Volume 148, Issue 1, pp 47-157
+
+* [[Reese Harvey]], _Calibrated geometries_, Proceeding of the ICM 1983 ([pdf](http://www.mathunion.org/ICM/ICM1983.1/Main/icm1983.1.0797.0808.ocr.pdf))
+
+The relation to [[Killing spinors]] goes back to
+
+* [[Reese Harvey]], _Spinors and Calibrations_, Academic Press, 1990 ([publisher](http://www.elsevier.com/books/spinors-and-calibrations/harvey/978-0-12-329650-4))
+
+* [[Jiri Dadok]], [[Reese Harvey]], _Calibrations and spinors_, Acta Mathematica
+1993, Volume 170, Issue 1, pp 83-120
+
+See also
+
+* Wikipedia, _[Calibrated geometry](https://en.wikipedia.org/wiki/Calibrated_geometry)_
+
+### Application in string theory
+
+Discussion in [[string theory]]/[[M-theory]] includes the following.
+
+
+* [[Gary Gibbons]], [[George Papadopoulos]], _Calibrations and Intersecting Branes_ ([arXiv:hep-th/9803163](http://arxiv.org/abs/hep-th/9803163))
+
+* [[Jerome Gauntlett]], [[Neil Lambert]], [[Peter West]], _Branes and Calibrated Geometries_, Commun.Math.Phys. 202 (1999) 571-592 ([arXiv:hep-th/9803216](http://arxiv.org/abs/hep-th/9803216))
+
+* [[Jan Gutowski]], [[George Papadopoulos]], [[Paul Townsend]], _Supersymmetry and generalized calibrations_, Phys.Rev.D60:106006, 1999 ([arXiv:hep-th/9905156](http://arxiv.org/abs/hep-th/9905156))
+
+[[!redirects calibrations]]
+
+[[!redirects calibrated geometry]]
+[[!redirects calibrated geometries]]
+
+[[!redirects calibrated manifold]]
+[[!redirects calibrated manifolds]]
+
+[[!redirects calibrated submanifold]]
+[[!redirects calibrated submanifolds]]
+
+[[!redirects manifold with calibration]]
+[[!redirects manifolds with calibration]]
+[[!redirects manifold with calibrations]]
+[[!redirects manifolds with calibrations]]
+
+
