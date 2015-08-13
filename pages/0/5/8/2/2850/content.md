@@ -38,6 +38,8 @@ Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions
 
 * [[harmonic map]]
 
+* [[calibrated manifold]]
+
 [[!include local and global geometry - table]]
 
 In [[index theory]]:
