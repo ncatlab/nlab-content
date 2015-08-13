@@ -15,7 +15,22 @@
 
 ## Definition
 
-A **groupoid** $G$ is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]].  Often the requirement is made that $G$ is [[small category|small]].
+A **groupoid** $G$ is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]].  Often the requirement is made that $G$ is [[small category|small]]. More precisely, a groupoid $G$ consists of a set of arrows $G_1$ and a set of objects $G_0$ together with the following structure maps:
+
+1. A pair of maps $s, t: G_1 \rightrightarrows G_0$ called source and target maps. An element $g\in G_1$ is thought of as an arrow from $x=s(g)$ to $y=t(g)$.
+
+2. A multiplication map $m: G_1 \times_{s, G_0, t} G_1 \to G_1$, which satisfies 
+
+2.1 $s(gh)=s(h)$, $t(gh)=t(g)$, and
+
+2.2 associativity, $(gh)k=g(hk)$,
+here we usually write $gh$ for $m(g,h)$.
+
+3. Identity section: $e: G_0\to G_1$, such that $e(t(g)g)=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
+
+4. Inverse: $i: G_1 \to G_1$, also denoted by $i(g)=g^{-1}$, such that for all $g\in G$, 
+
+$ g^{-1} g = e(s(g)), \quad gg^{-1} = e(t(g)). $
 
 A groupoid is **tame** if its [[groupoid cardinality|cardinality]] is finite.
 
