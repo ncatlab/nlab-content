@@ -51,6 +51,14 @@ Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism and $i\circ s$ its [[(
 
 Conversely, suppose $f:\mathcal{F}\to\mathcal{E}$ is dominant and $i^\ast(Z)\cong \emptyset_{Im(f)}$. Since $s^\ast$ preserves colimits, $\emptyset_\mathcal{F}\cong s^\ast (\emptyset_{Im(f)})\cong s^\ast\circ i^\ast (Z)=f^\ast(Z)$ but $f$ is dominant by assumption, therefore $Z\cong \emptyset_\mathcal{E}$, hence $i$ is dense. $\qed$
 
+The following is a slight generalization of the [[(dense,closed)-factorization]] employing dominant geometric morphisms:
+
++-- {: .num_prop #dominant-closed}
+###### Proposition
+Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism. Then $f$ factors as a [[dominant geometric morphism]] $d$ followed by a [[closed subtopos|closed inclusion]] $c$.
+=--
+
+**Proof**: Let $i\circ d_1$ be the [[(geometric surjection, embedding) factorization system|surjection-inclusion factorization]] of $f$. Since $d_1$ is surjective, it is dominant (cf. [above](#dominant_surjection)). Then we use the [[(dense,closed)-factorization]] to factor $i$ into $c\circ d_2$. Since both $d_i$ are dominant, so is $d:=d_2\circ d_1$ and $c\circ d$ yields the demanded factorization of $f$. $\qed$
 
 ## Remark
 
