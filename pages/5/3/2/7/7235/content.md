@@ -21,6 +21,40 @@
 
 One of the [[exceptional Lie groups]].
 
+## Definition
+
+Consider the [[vector space]]
+
+$$
+   W \coloneqq \wedge^2 \mathbb{R}^8 \oplus \wedge^2 (\mathbb{R}^8)^\ast
+$$
+
+of [[dimension]] $56$. This is naturally a [[symplectic vector space]] with [[symplectic form]] $\omega$ given by the natural pairing between [[linear 2-forms]] and [[bivectors]].
+
+In addition, consider on this space the quartic form $q \colon W \to \mathbb{R}$ which sends an element $v = (\{v^{a b}, w_{a b}\}) \in W$ to 
+
+$$
+  q(v) 
+   \coloneqq 
+   v^{a b } w_{b c} v^{c d} w_{d a}
+   - 
+   \tfrac{1}{4} v^{a b} w_{a b} v^{c d} w_{c d}
+   + 
+   \tfrac{1}{96}
+   \left(
+     \epsilon_{a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8} 
+     v^{a_1 a_2}  v^{a_3 a_4}  v^{a_5 a_6}  v^{a_7 a_8} 
+     +
+     \epsilon^{a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8} 
+     w_{a_1 a_2}  w_{a_3 a_4}  w_{a_5 a_6}  w_{a_7 a_8} 
+   \right)
+  \,.
+$$
+
+Now $E_{7(7)} \subset GL(56,\mathbb{R})$ is the [[subgroup]] of the [[general linear group]] acting on $W$ which preserves both the symplectic form $\omega$ as well as the quartic form $q$.
+
+(e.g. [Pacheco-Waldram 08, B.1](#PachecoWaldram08))
+
 ## Properties
 
 ### Representation
@@ -28,10 +62,14 @@ One of the [[exceptional Lie groups]].
 #### $\mathbf{56}$ -- The smallest fundamental representation
  {#SmallestFundamentalRepresentation}
 
-The smallest [[fundamental representation]] of $E_7$ is of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10), also [Pacheco-Waldram 08, appendix B](#PachecoWaldram08))
+The smallest [[fundamental representation]] of $E_7$ is the defining one, of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10), also [Pacheco-Waldram 08, appendix B](#PachecoWaldram08))
 
 $$
-  \mathbf{56} \simeq \mathbf{28} \oplus \mathbf{28}^\ast \simeq \wedge^2 \mathbb{R}^8 \oplus \wedge^2 (\mathbb{R}^8)^\ast
+  \mathbf{56} 
+    \simeq 
+  \mathbf{28} \oplus \mathbf{28}^\ast 
+    \simeq 
+   \wedge^2 \mathbb{R}^8 \oplus \wedge^2 (\mathbb{R}^8)^\ast
   \,.
 $$
 
@@ -39,10 +77,14 @@ Under the further subgroup inclusion $SL(7,\mathbb{R}) \hookrightarrow SL(8,\mat
 
 $$
   \mathbf{56}
-  \simeq
-  \mathbb{R}^7 \oplus \wedge^2 (\mathbb{R}^7)^\ast \oplus \wedge^5 (\mathbb{R}^7)^\ast \oplus \wedge^6 \mathbb{R}^7
-  \,.
+    \simeq
+  \underset{\simeq \wedge^2 \mathbb{R}^8}{\underbrace{\mathbb{R}^7 \oplus \wedge^2 (\mathbb{R}^7)^\ast}} 
+   \oplus 
+  \underset{\simeq \wedge^2 (\mathbb{R}^8)^\ast}{\underbrace{\wedge^5 (\mathbb{R}^7)^\ast \oplus \wedge^6 \mathbb{R}^7}}
+  \,,
 $$
+
+where $\wedge^2 (\mathbb{R}^7) \subset \wedge^2 (\mathbb{R}^8)^\ast$ is regarded as the subspace of 2-forms with vanishing 8-components, and where  $\wedge^6 \mathbb{R}^7$ is the [[Poincaré duality|Poincaré dual]] to the complementary subspace of $\wedge^2 (\mathbb{R}^8^\ast)$ of 2-forms with non-trivial 8-component.
 
 
 ### As U-Duality group of 4d SuGra
