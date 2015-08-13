@@ -153,7 +153,19 @@ $$
   \,.
 $$
 
-Considering this [[restricted product]] not just in bare [[commutative rings]] but in [[topological rings]] yields the right structure of a topological ring on $\mathbb{A}_{\mathbb{Q}}$.
+Considering this [[restricted product]] not just in bare [[commutative rings]] but in [[topological rings]] yields the right structure of a topological ring on $\mathbb{A}_{\mathbb{Q}}$. This is the content of the following proposition. 
+
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+$\mathbb{A}_\mathbb{Q}$ is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] commutative ring. In particular, it is complete with respect to its [[uniform space]] structure. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The restricted product is a filtered colimit of a system of *open* inclusions between locally compact Hausdorff rings, and is therefore itself locally compact Hausdorff. If $x_\alpha$ is a Cauchy net, then for all sufficiently large $\alpha, \beta$ the differences $x_\alpha - x_\beta$ lie in a compact neighborhood of the identity. Holding $\beta$ fixed, the limit $\lim_\alpha x_\alpha - x_\beta$ exists by compactness; if $x$ is this limit, then $x + x_\beta$ is the limit of the Cauchy net. 
+=-- 
 
 If one omits the factor of $\mathbb{R} = \mathbb{Q}_\infty$, then one speaks of the _ring of finite adeles_.
 
@@ -162,7 +174,6 @@ $$
   \,.
 $$
 
-=--
 
 All of this generalizes to any [[number field]] $k$. 
 
