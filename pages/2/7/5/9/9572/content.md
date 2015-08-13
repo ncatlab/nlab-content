@@ -137,7 +137,7 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
   $$
     \Phi_{Y \otimes Z}
     =
-    (\Phi_Y \otimes id) \circ (id \otimes \Phi_Z)
+    (id \otimes \Phi_Z) \circ (\Phi_Y \otimes id) 
   $$
 
 * [[morphisms]] are given by
@@ -148,9 +148,9 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
    \left\{
      f \in Hom_{\mathcal{C}}(X,Y)
      \;|\;
-     (f \otimes id) \circ \Phi_Z
+     (id \otimes f) \circ \Phi_Z
      = 
-     \Psi_Z \circ (id \otimes f), \; \forall Z \in \mathcal{C}
+     \Psi_Z \circ (f \otimes id), \; \forall Z \in \mathcal{C}
    \right\}
    \,.
   $$
