@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associative_ if the canonical 3-form $\phi$ of the $G_2$-manifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
+A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associative_ if it is a [[calibrated submanifold]], hence if the canonical 3-form $\phi$ of the $G_2$-manifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
 
 ## Related concepts
 
