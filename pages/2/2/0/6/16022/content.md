@@ -57,6 +57,26 @@ $Sh_{c(ext(j))}(\mathcal{E})$ can be viewed as the 'best approximation' of $Sh_j
 
 Its complement, the [[open subtopos]] $Ext(Sh_j(\mathcal{E}))$ corresponding to the [[subterminal object]] $ext(j)$ deserves in turn to be called the _exterior_ of $Sh_j(\mathcal{E})$.
 
+## The (dominant,closed)-factorization
+
+The (dense,closed)-factorization is a special case for inclusions of a slightly more general factorization.
+
+Recall that an inclusion is [[dense subtopos|dense]] precisely if it is a [[dominant geometric morphism]], hence the following is pertinent for the (dense,closed)-factorization as well.
+
++-- {: .num_prop #dense-closed}
+###### Proposition
+Let $i:Sh_{c(U)}(\mathcal{E})\hookrightarrow\mathcal{E}$ be dominant and a [[closed subtopos|closed inclusion]] at the same time. Then $i$ is an isomorphism.
+=--
+
+**Proof**: Recall that $X\in\mathcal{E}$ are in the [[closed subtopos]] precisely when they satisfy $X\times U\cong U$ with $U$ the [[subterminal object]] associated to $i$. But $i$ is dominant, or what comes to the same for inclusions: dense, hence $\emptyset$ is in $Sh_{c(U)}(\mathcal{E})$ and therefore $\emptyset\times U\cong U$ . From this follows $U\cong\emptyset$, which in turn implies that all $X\in\mathcal{E}$ are in $Sh_{c(U)}(\mathcal{E})$ . $\qed$
+
++-- {: .num_prop #dominant-closed}
+###### Proposition
+Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism. Then $f$ factors as a [[dominant geometric morphism]] $d$ followed by a [[closed subtopos|closed inclusion]] $c$.
+=--
+
+**Proof**: Let $i\circ d_1$ be the [[(geometric surjection, embedding) factorization system|surjection-inclusion factorization]] of $f$. Since $d_1$ is surjective, it is dominant (cf. [this proposition](dominant+geometric+morphism#dominant_surjection)). Then we use the (dense,closed)-factorization to factor $i$ into $c\circ d_2$. Since both $d_i$ are dominant, so is $d:=d_2\circ d_1$ and $c\circ d$ yields the demanded factorization of $f$. $\qed$
+
 ## Related entries
 
 * [[dense subtopos]]
