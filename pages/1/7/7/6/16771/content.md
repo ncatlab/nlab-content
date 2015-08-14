@@ -1,0 +1,10 @@
+
+**[[ADE classification]]**
+
+| [[Dynkin diagram]]  | [[Platonic solid]] | [[finite group|finite]] [[subgroup]] of $SO(3)$ | [[simple Lie group]] |
+|---------------------|---|--------------------|----------------------|
+|  $A_l$  |                   |  |  [[special unitary group]] |
+|  $D_l$  | [[dihedron]]/[[hosohedron]] | [[dihedral group]] | [[special orthogonal group]] |
+|  $E_6$  | [[tetrahedron]] | [[tetrahedral group]]  | [[E6]] |
+|  $E_7$  | [[cube]]/[[octahedron]] | [[octahedral group]] | [[E7]] |
+|  $E_8$  | [[dodecahedron]]/[[icosahedron]] | [[icosahedral group]]  | [[E8]] |
