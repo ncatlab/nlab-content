@@ -57,6 +57,11 @@ Now $E_{7(7)} \subset GL(56,\mathbb{R})$ is the [[subgroup]] of the [[general li
 
 ## Properties
 
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
+
 ### Representation
 
 #### $\mathbf{56}$ -- The smallest fundamental representation
