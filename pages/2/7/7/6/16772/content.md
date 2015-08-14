@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+## Properties
+
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Dihedral group](https://en.wikipedia.org/wiki/Dihedral_group)_
+
