@@ -149,6 +149,8 @@ More discussion of the non-abelian gauge group enhancement at [[orbifold]] singu
 
 * {#HalversonMorrison15} [[James Halverson]], [[David Morrison]], _On Gauge Enhancement and Singular Limits in $G_2$ Compactifications of M-theory_ ([arXiv:1507.05965](http://arxiv.org/abs/1507.05965))
 
+* [[Antonella Grassi]], [[James Halverson]], Julius L. Shaneson, _Matter From Geometry Without Resolution_, Journal of High Energy Physics
+October 2013, 2013:205 ([arXiv:1306.1832](http://arxiv.org/abs/1306.1832))
 
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
 
@@ -175,10 +177,8 @@ Survey and further discussion includes
 * Adil Belhaj, _M-theory on G2 manifolds and the method of (p, q) brane webs_ (2004) ([web](http://iopscience.iop.org/0305-4470/37/18/011))
 
 * Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_ ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
-
  
-
- * [[James Halverson]], David Morrison, _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
+* [[James Halverson]], [[David Morrison]], _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
 
 The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
 
