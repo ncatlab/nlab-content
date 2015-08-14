@@ -63,7 +63,7 @@ An alternative, more category-theoretic, way to state the second and third condi
 
 In [[classical mathematics]], these examples in fact exhaust *all* arity classes.  Classically, if $\lambda$ is any cardinal number strictly greater than $1$, then for any cardinal numbers $\mu\le \nu$, we can write $\nu$ as a $\lambda$-indexed sum containing $\mu$.  Hence, if an arity class contains any cardinality $\gt 1$, it must be down-closed, and a down-closed arity class must arise from a regular cardinal.
 
-In [[constructive mathematics]], however, not every arity class may arise from a regular cardinal.  Arguably, however, in constructive mathematics one should consider arity classes instead of regular cardinals.
+In [[constructive mathematics]], however, not every arity class besides $\{1\}$ must be downward-closed, and not every downward-closed arity class must arise from a regular cardinal.  Arguably, however, in constructive mathematics one should consider downward-closed arity classes instead of regular cardinals.
 
 
 ## Related pages
