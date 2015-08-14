@@ -94,14 +94,14 @@ Giraud characterized Grothendieck toposes as categories satisfying certain [[exa
 
 [[Giraud's theorem]] characterises a Grothendieck topos as follows:
 
-1. a [[locally small category]] with a small [[generating set]],
+1. a [[category]] with a small [[generating set]],
 2. with all finite [[limits]],
 3. with all small [[coproducts]], which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
 4. where all [[congruences]] have effective [[quotient objects]], which are also pullback-stable.
 
 These conditions are equivalent to
 
-* a locally small [[infinitary pretopos]] with a small generating set.
+* an [[infinitary pretopos]] with a small generating set.
 
 See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
 
