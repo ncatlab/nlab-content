@@ -31,6 +31,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 * intersection diagrams of vanishing 2-cycles in [[K3]]s (e.g. [BBS 07, p.423](#BBS07))
 
+* [[finite group|finite]] [[subgroups]] of $SO(8)$ [[free action|acting freely]] on the [[7-sphere]], such that the [[quotient]] has [[spin structure]] and more than 3 linearly independent [[Killing spinors]] ([MFFGME 09](#MFFGME09))
+
 and many more. 
 
 [[!include ADE -- table]]
@@ -87,9 +89,9 @@ Surveys include
 
 * MO discussion, _[ADE classification from string theory](http://mathoverflow.net/a/34680/381)_
 
+Discussion of an ADE-classification of BPS [[Freund-Rubin compactifications]] is in 
 
-* [[José Figueroa-O'Farrill]], _Supersymmetric M2-branes and ADE_, 2010 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
-
+* {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 
 Specifically the ADE classfication involved in the [[6d (2,0)-supersymmetric QFT]] on the [[M5-brane]] is discussed in 
