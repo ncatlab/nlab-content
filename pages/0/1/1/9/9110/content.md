@@ -50,10 +50,12 @@ Discussion of the case that $X_7$ is an [[orbifold]] or has other [[singularitie
 * [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
 
 
-
 Discussion of [[weak G2 holonomy]] on $X_7$ is in 
 
 * [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
 
+Discussion of an [[ADE classification]] of 1/2 [[BPS state|]]-compactifications on $S^7/\Gamma$ for a [[finite group]] $\Gamma$ is in 
+
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163))
 
 [[!redirects Freund-Rubin compactifications]]
