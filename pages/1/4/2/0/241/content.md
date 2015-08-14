@@ -119,7 +119,7 @@ The theorem that these are equivalent can be proved in quite weak foundations, w
 
 In predicative mathematics, however, we cannot prove that every Grothendieck topos is in fact a [[topos]]!  In fact, it is immediate that [[the category of sets]] is a Grothendieck topos, but $Set$ is an elementary topos if and only if [[power sets]] are small, which is precisely what predicativists doubt.  One can use the term __Grothendieck pretopos__ to avoid implying that we have an elementary topos.  On the other hand, since Grothendeick toposes came first, perhaps it is the definition of 'elementary topos' that is too strong.
 
-Similarly, in finitist mathematics, we cannot prove that every Grothendieck topos has a [[natural numbers object]]; while in weakly predicative constructive mathematics, we cannot prove that every Grothendieck topos is [[cartesian closed category|cartesian closed]].  In each case, once a property is accepted of $Set$ (the [[axiom of infinity]] and small [[function sets]], in these examples), it can be proved for all Grothendieck toposes.
+Similarly, in finitist mathematics, we cannot prove that every Grothendieck topos has a [[natural numbers object]]; while in strongly predicative mathematics, we cannot prove that every Grothendieck topos is [[cartesian closed category|cartesian closed]].  In each case, once a property is accepted of $Set$ (the [[axiom of infinity]] and small [[function sets]], in these examples), it can be proved for all Grothendieck toposes.
 
 Constructivism as such is irrelevant; even in [[classical mathematics]], most Grothendieck toposes are not [[boolean topos|boolean]].  However, for an analogous result, try the theorem that the [[category of presheaves]] on a [[groupoid]] is boolean.
 
