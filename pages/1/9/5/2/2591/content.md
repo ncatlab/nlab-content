@@ -41,6 +41,11 @@ In [[physics]] the rotation group is related to [[angular momentum]].
 
 ## Properties
 
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
+
 ### Relation to orientation of manifolds
 
 For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classifying map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] $T X$ is [[associated bundle|associated]] is the same as a choice of [[orientation]] of $X$.
