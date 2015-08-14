@@ -16,9 +16,9 @@
 
 ## Idea
 
-Every [[geometric morphism]] factors as surjective morphism followed by an inclusion. The **(dense-closed)-factorization** can be viewed as a refinement of [[(geometric surjection, embedding) factorization system|this factorization]] for [[geometric embeddings]] where the surjectivity of the first morphisms is weakened to [[dominant geometric morphism|dominance]] or 'density' and the inclusion is strengthened to a [[closed subtopos|closed inclusion]] in return.
+In [[topology|point set topology]], every subspace $X$ of a space $A$ has a unique largest subspace in which $X$ is [[dense subspace|dense]], namely simply the closure $\overline{X}$. Using maps, this amounts to say that $X\hookrightarrow A$ factors as $X\hookrightarrow\overline{X}$ followed by $\overline{X}\hookrightarrow A$.
 
-So from a topological perspective, what one does, is by taking the closure of the image in which the image is merely dense, one approximates the image inclusion by a closed-subspace inclusion.
+The **(dense,closed)-factorization** generalizes this idea from topology to [[topos theory]]. It can be viewed as a way to associate to every [[subtopos]] $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ a closure $\overline{Sh_{j}(\mathcal{E})}$.
 
 ## Statement
 
@@ -59,7 +59,7 @@ Its complement, the [[open subtopos]] $Ext(Sh_j(\mathcal{E}))$ corresponding to 
 
 ## The (dominant,closed)-factorization
 
-The (dense,closed)-factorization is a special case for inclusions of a slightly more general factorization.
+The (dense,closed)-factorization is a special case for inclusions of a slightly more general factorization which attaches to a general [[geometric morphism]] the closure of its image.
 
 Recall that an inclusion is [[dense subtopos|dense]] precisely if it is a [[dominant geometric morphism]], hence the following is pertinent for the (dense,closed)-factorization as well.
 
@@ -85,7 +85,7 @@ Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism. Then $f$ factors as a
 
 ## References
 
-* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (Expos&#233; IV 9.3.4-9.4.,pp.456ff)
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (Expos&#233; IV 9.3.4-9.4., pp.456ff)
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol.I_ , Oxford UP 2002. (around Lemma A 4.5.19, p. 219)
 
