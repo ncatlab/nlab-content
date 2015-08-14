@@ -1,4 +1,3 @@
-I am a graduate student in the Logic program at Berkeley, broadly interested in categorical logic and foundations of mathematics, as well as in applications of category theory to the semantics of programming languages.
-
+I was a graduate student in the Logic program at Berkeley, broadly interested in categorical logic and foundations of mathematics, as well as in applications of category theory to the semantics of programming languages. I am no longer a graduate student, having run off to Google, but I do still have many of the same interests. Perhaps someday I will finish my PhD and return to academia...
 
 category: people
