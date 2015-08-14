@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,7 +32,7 @@ This is one of the [[parallelizable manifold|parallelizable]] spheres, as such c
 
 ### Hopf fibration
 
-The 7-sphere participats in the [[quaternionic Hopf fibration]], the analog of the complex [[Hopf fibration]] with [[complex numbers]] replaced by [[quaternions]].
+The 7-sphere participates in the [[quaternionic Hopf fibration]], the analog of the complex [[Hopf fibration]] with [[complex numbers]] replaced by [[quaternions]].
 
 $$
   \array{
@@ -32,10 +48,15 @@ $$
 
 * [[Martin Cederwall]], Christian R. Preitschopf, _The Seven-sphere and its Kac-Moody Algebra_, Commun. Math. Phys. 167 (1995) 373-394 ([arXiv:hep-th/9309030](http://arxiv.org/abs/hep-th/9309030))
 
+* Takeshi &#212;no, _On the Hopf fibration $S^7 \to S^4$ over $Z$_, Nagoya Math. J.
+Volume 59 (1975), 59-64. ([Euclid](http://projecteuclid.org/euclid.nmj/1118795554))
+
 An [[ADE classification]] of finite subgroups of groups $SO(8)$ [[free action|acting freely]] on $S^7$ such that the quotient is spin and has at least four [[Killing spinors]]
 
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_ ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761))
 
 [[!redirects 7-spheres]]
 
