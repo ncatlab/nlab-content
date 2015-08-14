@@ -1,7 +1,9 @@
 
 ## Related concepts
 
-* [[ADE classification]]
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
 
 * [[Johannes Kepler]]
 
