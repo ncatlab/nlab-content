@@ -49,33 +49,48 @@ are all that we need.
 
 There is a potential confusion of terminology, because these *LF-types* in a logical framework (being itself a [[type theory]]) are distinct from the objects that may be called "types" in any particular logic we might be talking about *inside* the logical framework.  Thus, for instance, when formalizing [[Martin-Lof type theory]] in a logical framework, there is an "LF-type" which is the type of objects of the syntactic category of MLTT-types.  This is furthermore distinct from a [[type of types]], which is itself an object of the syntactic category of MLTT-types, i.e. a term belonging to the LF-type of such.
 
-Once we have set up the logical framework as a language, there are then two ways to describe a given logic inside of it.  See ([Harper](#Harper)), and the other [references](#References), for more details.
+The type theory of a logical framework often includes a second layer called *LF-kinds*, which enables us to classify families of LF-types.  For instance, the universe $Type$ of all LF-types is an LF-kind, as is the collection $A\to\Type$ of all families of LF-types dependent on some LF-type $A$.  The LF-types and LF-kinds together are very similar to a [[pure type system]] with two sorts $Type$ and $Kind$, with axiom $Type:Kind$ and rules $(Type,Kind)$ and $(Type,Type)$, although there are some minor technical differences such as the treatment of definitional equality (PTS's generally use untyped conversion, whereas logical frameworks are often formulated in a way so that only canonical forms exist).
+
+Thus, we might have the following hierarchy of "universes", which we summarize to fix the notation:
+
+* $Kind$, the sort of LF-kinds
+* $Type$, the LF-kind of LF-types, i.e. $Type:Kind$.
+* $tp$ or $type$, the LF-type of *all* types in some object theory being discussed in LF, i.e. $tp : Type$.
+* $\mathcal{U}_i$, a type-of-types in such an object-theory, i.e. $\mathcal{U}_i:tp$.
+
+Once we have set up the logical framework as a language, there are then two approaches to describing a given logic inside of it.  See ([Harper](#Harper)), and the other [references](#References), for more details.
 
 ### Synthetic presentations
 
-In a synthetic presentation, there is an LF-type for every judgment of the [[object theory]].  Thus, if the object theory is a type theory, then in LF we have things like:
+In a synthetic presentation, we use LF-types to represent the syntactic objects and judgments of the [[object theory]].  Thus, if the object theory is a type theory, then in LF we have things like:
 
 * an LF-type $tp$ of object-theory types
 * an LF-type $tm$ of object-theory terms
-* a dependent LF-type $of : tm \to tp \to Type$, where Type denotes the LF-kind of LF-types.  That is, for each object-theory type $a$ and each object-theory type $A$, we have an LF-type $of(a,A)$ expressing the judgment "$a:A$" that $a$ is of type $A$.
+* a dependent LF-type $of : tm \to tp \to Type$ expressing the object-theory typing judgment.  That is, for each object-theory term $a:tm$ and each object-theory type $A:tp$, we have an LF-type $of(a,A)$ expressing the object-theory judgment "$a:A$" that $a$ is of type $A$.  According to [[propositions as types]] (at the level of the metatheory, sometimes called "judgments as types"), the elements of $of(a,A)$ are "proofs" that $a:A$.
 
-Note that we do not have to explicitly carry around an ambient context, as we sometimes do when presenting type theories in a more explicit style of a [[deductive system]].  This is because the notions of hypothetical and generic judgments are built into the logical framework and handled automatically by *its* contexts.
+Note that we do not have to explicitly carry around an ambient context, as we sometimes do when presenting type theories in a more explicit style of a [[deductive system]].  This is because the notions of hypothetical and generic judgments are built into the logical framework and handled automatically by *its* contexts.  We will discuss this further [below](#HOAS).
 
-Synthetic presentations are very flexible, but do not make maximal use of the framework in the case when the object-theory is also a type theory whose judgments are "analytic".
+Synthetic presentations are preferred by the school of [Harper-Honsell-Plotkin](#HHP) and are generally used with implementations such as [[Twelf]].  They are very flexible and can be used to represent many different object-theories.  Moreover, they generally support an **adequacy theorem**, that there is a compositional bijection between the syntactic objects of the object-theory, as usually presented, and the canonical forms of appropriate LF-type in its LF-presentation.  Here "compositional" means that the bijection respects substitution.
+
+Note that the adequacy theorem is a correspondence at the level of *syntax*; it does not even incorporate the object-theory notion of definitional equality!  Two object-theory terms such as $(\lambda x.x)y$ and $y$ that are definitionally equal (by [[beta-reduction]]) are syntactically distinct, and hence also correspond to distinct syntactic entities in the LF-encoding.  The definitional equality that relates them is represented by an element of the LF-type $defeq(\dots)$ encoding the definitional-equality judgment of the object-theory.  This is appropriate because such LF-encodings are used, among other things, for the *study of the syntax* of the object-theory, e.g. for proving properties of its definitional equality.
+
+However, synthetic presentations do not make maximal use of the framework in the case when the object-theory is also a type theory whose judgments are "analytic".  Here "synthetic" means roughly "requires evidence" whereas "analytic" means roughly "obvious".
 
 ### Analytic presentation
 
-An analytic presentation is only possible for certain kinds of object-theories, generally those which are type theories similar to LF itself.  In this case, we represent object-theory types by LF-types themselves.  Thus instead of the LF-type $tm$ of terms and the dependent LF-type $of$ above, we have
+An analytic presentation is only possible for certain kinds of object-theories, generally those which are type theories similar to LF itself.  In this case, we represent object-theory types by LF-types themselves.  Thus we still have the LF-type $tp$ of object-theory types, but instead of the LF-type $tm$ of terms and the dependent LF-type $of$ representing the object-theory typing judgment, we have
 
 * a dependent LF-type $el : tp \to Type$
 
-which assigns to each object-theory type, the LF-type of its elements.
+which assigns to each object-theory type, the LF-type of its elements.  In other words, the typing judgment of the object-theory is encoded *by the typing judgment* of the meta-theory.
 
-In an analytic presentation of a logic, in addition to merely giving "axioms" such as $tp$ and $el$, we must give *equations* representing the rules of the object-theory as [[equalities]] in the logical framework.  For instance, we must have a [[beta-reduction]] rule such as
+Now we have to make a choice about how to represent the definitional equality of the object-theory.  A consistent choice is to also represent it by the definitional equality of the meta-theory.  That is, in addition to merely giving "axioms" such as $tp$ and $el$, we must give *equations* representing the rules of the object-theory as [[equalities]] in the logical framework.  For instance, we must have a [[beta-reduction]] rule such as
 
     app A B (lam A B F) M = F M
 
-From a practical point-of-view, rather than extending the logical framework with ad hoc definitional equalities to represent a particular object-theory, often what is actually done is that equality is defined as another type family with explicitly-introduced constructors.  For example, in [[Twelf]], the above equation could be represented by first introducing the type family
+If the object-theory is itself a dependent type theory whose only definitional equalities are beta-reductions like this, then if we make the coercion $el$ implicit, we can think of the resulting encoding as analogous to a [[pure type system]] with *three* sorts, $tp$, $Type$, and $Kind$, with $tp:Type$ and $Type:Kind$.
+
+However, from a practical point-of-view, rather than extending the logical framework with ad hoc definitional equalities to represent a particular object-theory, often what is actually done is that equality is defined as another type family with explicitly-introduced constructors.  In other words, we use the analytic representation of types, but the synthetic representation of definitional equality.  For example, in [[Twelf]], the above equation could be represented by first assuming an LF-type family
 
     eq : {A:tp} el A -> el A -> type
 
@@ -85,7 +100,11 @@ From a practical point-of-view, rather than extending the logical framework with
 
 in addition to the other axioms of equality.
 
+The analytic encoding is associated with [Martin-Lof](#ML).  While convenient for the description of rules in type theories, it is often less appropriate for the purposes of metatheoretic analysis.  For instance, in the hybrid style with the LF-type family $eq$, the terms in $el(A)$ will involve explicit coercions along equalities in $eq$.  This destroys the adequacy theorem, since coercions along definitional equalities are generally silent in the usual presentation of a theory.
+
+
 ### Higher-order abstract syntax
+ {#HOAS}
 
 In both synthetic and analytic presentations, we use [[higher-order abstract syntax]] (HOAS).  Roughly, this means that *variables* in the object-theory are not terms of some LF-type, but are represented by actual LF-variables.  For instance, when describing a type theory containing [[function types]] synthetically, we would have
 
@@ -131,11 +150,23 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 ## References
  {#References}
 
+The original logical framework using a synthetic approach was introduced in
+
+* [[Bob Harper]], Furio Honsell, and Gordon Plotkin, _A framework for defining logics_
+ {#HHP}
+
+while the analytic version was proposed by
+
+* [[Per Martin-Lof]], _On the meanings of the logical constants and the justifications of the logical laws_
+ {#ML}
+
+General overviews include:
+
 * [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
 
 * [[Frank Pfenning]], _Logical frameworks_ In Alan Robinson and Andrei Voronkov (eds.) _Handbook of Automated Reasoning_, chapter 17, pages 1063&#8211;1147. Elsevier Science Publishers, 1999. ([ps](http://www-2.cs.cmu.edu/twelf/notes/handbook00.ps)).
 
-* [[Frank Pfenning]], _Logical frameworks_ ([web](http://www.cs.cmu.edu/~fp/lfs.html))
+* [[Frank Pfenning]], _Logical frameworks web site_ ([web](http://www.cs.cmu.edu/~fp/lfs.html)), including an extensive bibliography and a list of implementations
 
 * Randy Pollack, _Some recent logical frameworks_ (2010) ([pdf](http://homepages.inf.ed.ac.uk/rpollack/export/canonicalLF_talk.pdf))
 
@@ -143,5 +174,9 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 
 * [[Bob Harper]], _[Notes on logical frameworks](http://uf-ias-2012.wikispaces.com/file/view/lf.pdf)_
  {#Harper}
+
+A number of examples of encoding object-theories into LF can be found in
+
+* Arnon Avron, Furio Honsell, Ian A. Mason, and Robert Pollack, _Using typed lambda calculus to implement formal systems on a machine_
 
 [[!redirects logical frameworks]]
