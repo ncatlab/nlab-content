@@ -51,9 +51,11 @@ The [[adjoint lifting theorem]] is a corollary.
 
 ## References ##
 
-* [[Eduardo Dubuc]], "Adjoint triangles", *Lecture Notes in Mathematics* 61
+* [[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968.
 
-* [[Ross Street]] and [[Dominic Verity]], "The comprehensive factorization and torsors", 2010 [TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html).
+* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item?id=CTGDC_1988_29_1_67_0))
+
+* [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_ , TAC **23** no.3 (2010) pp.42-75. ([abstract](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
 {#StreetVerity}
 
 [[!redirects adjoint triangle]]
