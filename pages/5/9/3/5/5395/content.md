@@ -263,14 +263,13 @@ is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 * The adjoint lifting theorem is a corollary of the [[adjoint triangle theorem]].
 
 ## References ##
-Section 4.5 of volume 2 of 
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_ , in 3 vols. 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] II_ , Cambridge UP 1994. (section 4.5, pp.221ff) 
 {#Borceux}
 
-* [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc., 7 (1975), 294-297.
+* [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc. **7** (1975) pp.294-297.
 
-Section A1.1 of 
+* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item?id=CTGDC_1988_29_1_67_0)) 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002. (section A1.1)
 
