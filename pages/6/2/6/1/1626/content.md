@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A [[space]] is __connected__ if it can\'t be split up into two independent parts.  On this page we focus on connectedness for [[topological spaces]].
+A [[space]] is __connected__ if it can not be split up into two independent parts.  On this page we focus on connectedness for [[topological spaces]].
 
 Every topological space can be decomposed into disjoint maximal connected subspaces, called its __connected components__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
 
@@ -31,7 +31,9 @@ $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
 
 Here are some equivalent ways to say that $X$ is connected in more elementary terms:
+
 * Whenever $X \cong Y + Z$, where the right side is the coproduct of spaces $Y, Z$ (so that $Y, Z$ are identified with disjoint open subspaces of $X$), then exactly one of $Y, Z$ is [[inhabited set|inhabited]] (so the other is [[empty set|empty]], making the inhabited one homeomorphic to $X$).
+
 * If $K \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $K = X$ if and only if $K$ is inhabited.
 
 Many authors allow the [[empty space]] to be connected.  You can get this concept from the elementary definitions above by changing 'exactly one' to 'at most one' and changing 'if and only if' to 'if'.  Categorially, this version of connectedness requires only that the maps
