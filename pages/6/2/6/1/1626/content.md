@@ -181,7 +181,7 @@ A quotient space of a locally connected space $X$ is also locally connected.
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and the subset $q(U_x) \subseteq V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $y$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
+Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and the subset $q(U_x) \subseteq V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $q(x)$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
 =-- 
 
 The conclusion does not follow if $q: X \to Y$ is merely surjective. For example, there is a surjective (continuous) map from $\mathbb{R}$ to the [[Warsaw circle]], but the latter is not locally connected. 
