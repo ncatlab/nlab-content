@@ -264,12 +264,15 @@ is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 
 ## References ##
 
+* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 3.7, pp.131ff) 
+
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] II_ , Cambridge UP 1994. (section 4.5, pp.221ff) 
 {#Borceux}
 
 * [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc. **7** (1975) pp.294-297.
 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002. (section A1.1, p.5)
+
 * [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item?id=CTGDC_1988_29_1_67_0)) 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002. (section A1.1)
 
