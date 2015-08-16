@@ -314,25 +314,42 @@ $$
 
 ## References
 
+The classical adjoint functor theorems originate in the exercise section of ch.3 (pp.84ff) in
+
+* [[Peter Freyd]], _Abelian Categories_ , Harper&Row New York 1964. (Reprinted with author's comment as [[TAC reprints no. 3 (2003)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html))
+
+A more recent exposition is in
+
+* [[Peter Freyd]], Andre Scedrov, _Categories, Allegories_ , North-Holland 1990. (Also Dover reprint New York 2014, pp.144-148)
+
+Careful discussions can be found in
+
+* [[Francis Borceux]], _Handbook of Categorical Algebra I_ , Cambridge UP 1994. (sections 3.3, 6.6)
+
+* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (sections V.6, V.8)
+
 A brief introductory discussion is around [theorem 5.4](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf#page=54) of
 
-* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+* [[Jaap van Oosten]], _Basic category theory_ , ms. ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
 A detailed expository survey is
 
-* Oliver Kullmann, _The adjoint functor theorem_ ([pdf slides](http://www.cs.swan.ac.uk/~csoliver/Hauptseminar/Quellen/200702Swansea_b.pdf))
+* Oliver Kullmann, _The adjoint functor theorem_ , ms. ([pdf slides](http://www.cs.swan.ac.uk/~csoliver/Hauptseminar/Quellen/200702Swansea_b.pdf))
 
 The adjoint functor theorem in context with [[Yoneda embedding]] is discussed in 
 
-* Friedrich Ulmer, _The adjoint functor theorem and the Yoneda embedding_  Illinois J. Math. Volume 15, Issue 3 (1971), 355-361. ([web](http://projecteuclid.org/euclid.ijm/1256052605))
+* Friedrich Ulmer, _The adjoint functor theorem and the Yoneda embedding_ , Illinois J. Math. **15**  no.3 (1971) pp.355-361. ([euclid](http://projecteuclid.org/euclid.ijm/1256052605))
 
 The case for [[locally presentable categories]] is discussed in
 
-* [[Ji?í Adámek]], [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_ Cambridge University Press (1994)
+* [[Ji?í Adámek]], [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_ , Cambridge UP 1994.
   {#AdamekRosicky}
 
-
-* [[Ji?í Adámek]], V. Koubek and V. Trnkov&#225;, _How large are left exact functors?_ , Theory and Applications of Categories 8 (2001) 377-390 ([TAC](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
+* [[Ji?í Adámek]], V. Koubek and V. Trnkov&#225;, _How large are left exact functors?_ , Theory and Applications of Categories **8** (2001) pp.377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
  {#AdamekKoubekTrnkova}
+
+A relative version of Freyd's classical results is in
+
+* [[Brian Day]], _An adjoint-functor theorem over topoi_ , Bull. Austral. Math. Soc. **15** (1976) pp.381-394.
 
 [[!redirects adjoint functor theorem]]
