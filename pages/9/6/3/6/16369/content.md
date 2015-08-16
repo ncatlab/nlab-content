@@ -146,9 +146,7 @@ In other words, for an [[level| essential subtopos]] _being dense is equivalent 
 
 #### Example
 
-[Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
-
-Compare this with the case of a _Boolean topos_! 
+[Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] essential subtoposes correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ all essential subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
 
 ## Related pages
 
