@@ -7,10 +7,12 @@ Paul Townsend is professor for theoretical [[physics]] at Cambridge.
 
 ## related $n$Lab entries
 
-* [[string theory]]
+* [[string theory]], [[M-theory]]
 
 * [[Green-Schwarz super p-brane]]
 
 * [[super 1-brane in 3d]], [[super 2-brane in 4d]]
+
+* [[M-theory super Lie algebra]]
 
 category: people
