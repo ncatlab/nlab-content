@@ -92,15 +92,28 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 
 ## Related concepts
 
-* [[open subset]], [[clopen subset]]
+* [[open subset]]
 
-* [[limit point]]
+* [[clopen subset]]
 
 * [[locally closed set]]
+
+* [[dense subspace]]
+
+* [[limit point]]
 
 * [[closed cover]]
 
 * [[Moore closure]]
+
+* [[closed subtopos]]
+
+* [[co-Heyting boundary]]
+
+## References
+
+* C. Kuratowski, _Sur l'op&#233;ration $\bar{A}$ de l'analysis situs_ , Fund. Math. **III** (1922) pp.192-195. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm3/fm3121.pdf))
+
 
 
 [[!redirects closed subspace]]
