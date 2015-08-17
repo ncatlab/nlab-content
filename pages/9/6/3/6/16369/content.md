@@ -151,11 +151,18 @@ In other words, for an [[level| essential subtopos]] _being dense is equivalent 
 ## Related pages
 
 * [[dense subspace]]
+
 * [[(dense,closed)-factorization]]
+
 * [[dominant geometric morphism]]
+
 * [[skeletal geometric morphism]]
+
 * [[dense topology]]
+
 * [[double negation]]
+
+* [[dense subcategory]]
 
 ## References
 
