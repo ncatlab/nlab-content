@@ -37,13 +37,40 @@ There are two different notions of _dense [[subcategory]]_ $D$ of a given [[cate
 
 ## Related concepts
 
+There is also the notion of "[[dense subsite]]", but this is _not_ a special case of a dense subcategory. 
+
+## Related entries
+
 * [[dense functor]]
 
-* there is also the notion of "[[dense subsite]]", but this is _not_ a special case of a dense subcategory. 
+* [[codensity monad]]
+
+* [[space and quantity]]
+
+* [[measurable cardinal]]
+
+## Related pages
+
+* [[William Lawvere]], _John Isbell's Adequate Subcategories_ , TopCom **11** no.1 (2006). ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
+
 
 ## References
 
-See the relevant section of MacLane's [[Categories for the Working Mathematician]]. 
+* {: #MR0175954 } [[John Isbell]], _Adequate subcategories_ , Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). 
+([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
+ 
+* [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e))
+
+* [[John Isbell]], _Small adequate subcategories_ , J. London Math. Soc. **43** (1968) pp.242-246.
+
+* [[John Isbell]], _Locally finite small adequate subcategories_ , JPAA **36** (1985) pp.219-220.
+
+* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
+
+* Horst Schubert, _Kategorien II_ , Springer Heidelberg 1970. (section 17.2, pp.29ff)
+
+* [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_ , J. of Algebra **8** (1968) pp.77-95.
+
 
 [[!redirects dense subcategories]]
 
