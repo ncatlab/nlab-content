@@ -223,7 +223,7 @@ Let $i \colon M \hookrightarrow N$ be a [[monomorphism]] in $R Mod$, and let $f 
 
 The set $\{r \in R: r x \in M'\}$ is an ideal $I$ of $R$, and we have a module [[homomorphism]] $g \colon I \to Q$ defined by $g(r) = f'(r x)$. By [[hypothesis]], we may extend $g$ to a module map $k \colon R \to Q$. Writing a general element of $M''$ as $r x + y$ where $y \in M'$, it may be shown that 
 
-$$f''(r x + y) = k(r) + g(y)$$ 
+$$f''(r x + y) = k(r) + f'(y)$$ 
 
 is well-defined and extends $f'$, as desired. 
 =-- 
