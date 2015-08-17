@@ -17,15 +17,21 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The concept of a **dense subcategory** generalizes the concept of a [[dense subspace]] from [[topology]] to [[categories]]. Roughly speaking, a dense subcategory 'sees' enough of the ambient category to control the behavior and properties of the latter.
+
+The concept forms part of a related family of concepts concerned with 'generating objects' and has some interesting interaction with [[set theory]] and [[measurable cardinals]].
+
 ## Definition
 
-There are two different notions of _dense [[subcategory]]_ $D$ of a given [[category]] $C$:
+There are actually two different notions of _dense [[subcategory]]_ $D$ of a given [[category]] $C$:
 
 1. A subcategory $D\subset C$ is __dense__ if every [[object]] in $C$ is canonically a [[colimit]] of objects in $D$.  
 
-   This is equivalent to saying that the inclusion [[functor]] $D\hookrightarrow C$ is a [[dense functor]].  
+This is equivalent to saying that the inclusion [[functor]] $D\hookrightarrow C$ is a [[dense functor]].  
 
-   An older name for a dense subcategory in this sense is an **adequate subcategory**.
+An older name for a dense subcategory in this sense is an **adequate subcategory**.
 
 2. A subcategory $D\subset C$ is __dense__ if every object $c$ of $C$ has a $D$-expansion, that is a [[morphism]] $c\to\bar{c}$ of [[pro-objects]] in $D$ which is [[universal property|universal]] ([[initial object|initial]]) among all morphisms of pro-objects in $D$ with [[domain]] $c$. 
 
@@ -49,6 +55,8 @@ There is also the notion of "[[dense subsite]]", but this is _not_ a special cas
 
 * [[measurable cardinal]]
 
+* [[dense subtopos]]
+
 ## Related pages
 
 * [[William Lawvere]], _John Isbell's Adequate Subcategories_ , TopCom **11** no.1 (2006). ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
@@ -64,6 +72,8 @@ There is also the notion of "[[dense subsite]]", but this is _not_ a special cas
 * [[John Isbell]], _Small adequate subcategories_ , J. London Math. Soc. **43** (1968) pp.242-246.
 
 * [[John Isbell]], _Locally finite small adequate subcategories_ , JPAA **36** (1985) pp.219-220.
+
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ , Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
 
