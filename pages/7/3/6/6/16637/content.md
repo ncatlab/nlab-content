@@ -52,9 +52,9 @@ A celebrated result of Milnor is that $S^7$ admits exotic smooth structures (exo
 
 One explicit construction of the smooth structures is given as follows (see [Milnor 1968](#Mil2)). Let $W_k$ be the algebraic variety in $\mathbb{C}^5$ defined by the equation 
 
-$$z_1^{6 k - 1} + z_2^3 + z_3^2 + z^4^2 + z_5^2 = 0$$ 
+$$z_1^{6 k - 1} + z_2^3 + z_3^2 + z_4^2 + z_5^2 = 0$$ 
 
-and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ centered at the origin. Then each of the $28$ smooth structures on $S^7$ is represented by an intersection $W_k \cap S_\epsilon$, as $k$ ranges from $1$ to $28$. 
+and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ centered at the origin. Then each of the $28$ smooth structures on $S^7$ is represented by an intersection $W_k \cap S_\epsilon$, as $k$ ranges from $1$ to $28$. These manifolds sometimes go by the name _Brieskorn manifolds_ or [[Brieskorn sphere]]s.
 
 ## References
 
