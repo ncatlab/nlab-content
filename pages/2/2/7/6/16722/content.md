@@ -67,9 +67,14 @@ The concept can be generalized to morphisms _in_ a topos $\mathcal{E}$ by callin
 ## Related entries
 
 * [[dense subtopos]]
+
 * [[skeletal geometric morphism]]
+
 * [[open geometric morphism]]
+
 * [[(dense,closed)-factorization]]
+
+* [[dense functor]]
 
 ## References
 
