@@ -35,6 +35,23 @@ For instance, the category $Set^{op}$ has a [[small category|small]] [[dense sub
 
 This is theorem A.5 of [[LPAC]].
 
+## Related entries
+
+* [[large cardinal]]
+
+## References
+
+* M. Adelman, [[Andreas Blass|A. Blass]], _Exact functors, local connectedness and measurable cardinals_ , Rend. Sem. Mat. Fis. Milano **54** (1984) pp.9-28.
+
+* [[Andreas Blass]], _Exact Functors and Measurable Cardinals_ , Pacific J. Math. **63** (1976) pp.335-346. ([euclid](http://www.google.de/url?q=https://projecteuclid.org/euclid.pjm/1102867389))
+
+* [[Andreas Blass]], _Corrections to: 'Exact Functors and Measurable Cardinals'_ , Pacific J. Math. **73** (1977) p.540. ([euclid](https://projecteuclid.org/euclid.pjm/1102810622))
+
+* {: #MR0175954 } [[John Isbell]], _Adequate subcategories_ , Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). 
+([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
+ 
+* [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e))
+
 
 [[!redirects measurable cardinal]]
 [[!redirects measurable cardinals]]
