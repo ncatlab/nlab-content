@@ -21,7 +21,7 @@
 
 A [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]].
 
-The __closure__ of any subspace $A$ is the smallset closed subspace that contains $A$, that is the [[intersection]] of all open subspaces of $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc.
+The __closure__ of any subspace $A$ is the smallest closed subspace that contains $A$, that is the [[intersection]] of all open subspaces of $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. Since closed subsets are closed with respect to finite unions, we in fact have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
 
 
 (There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
@@ -33,7 +33,9 @@ For a point-based notion of space such as a [[topological space]], a closed subs
 
 A subset is closed precisely if
 
-* it contains all its [[limit points]] (in either sense).
+* it contains all its [[limit points]] (in either sense). 
+
+A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is east to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
 
 #### Kuratowski's closure-complement problem 
 
