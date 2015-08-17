@@ -110,7 +110,9 @@ From a different perspective the M-theory algebra extensions were (apparently in
 
 with further amplification including
 
-* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+* {#Townsend97a} [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+
+* {#Townsend97b} [[Paul Townsend]], _M-theory from its superalgebra_, Cargese lectures 1997 ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
 In their global form, where differential forms are replaced by their de Rham cohomology classes on curved superspacetimes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
