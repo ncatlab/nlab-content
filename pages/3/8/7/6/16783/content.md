@@ -1,0 +1,6 @@
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Icosahedron](https://en.wikipedia.org/wiki/Icosahedron)_
