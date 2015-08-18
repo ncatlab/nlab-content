@@ -13,6 +13,11 @@
 * automatic table of contents
 {: toc}
 
+## Idea
+
+The **adjoint triangle theorem** is a useful item in the categorist's toolbox as it gives conditions under which, given a pair of functors and an adjoint, further adjoints exist.
+
+Depending on the specific assumptions, the theorem has several variants. The following gives the most common formulation going back to [Dubuc (1968)](#dubuc68).
 
 ## Statement ##
 
@@ -45,15 +50,21 @@ The hypotheses on $U$ are satisfied whenever it is [[monadic functor|monadic]].
 In fact, it suffices to assume that each counit $\epsilon : F U b \to b$ is a [[regular epimorphism]], rather than it is the coequalizer of a specific given pair of maps.  See [(Street-Verity), Lemma 2.1](#StreetVerity).
 =--
 
-## Applications
+## Ramifications
 
-The [[adjoint lifting theorem]] is a corollary.
+Similarly, the [[adjoint lifting theorem]] states conditions on a square of functors in order to ensure the existence of certain adjoints. Since a triangle can be viewed as a square with 'two sides composed', it is possible to deduce the adjoint lifting theorem from the adjoint triangle theorem as a corollary.
+
+## Related entries
+
+* [[adjoint functor theorem]]
+
+* [[adjoint lifting theorem]]
 
 ## References ##
 
 * [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 3.7, pp.131ff) 
 
-* [[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968.
+* {#dubuc68}[[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968.
 
 * I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_ , Bull. Austral. Math. Soc. **36** (1987) pp.133-136.
 
