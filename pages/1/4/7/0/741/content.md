@@ -102,6 +102,16 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
 
+Discussion of [[group characters]] and [[group cohomology]] of finite groups includes
+
+* [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+
+Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[[ADE classification]]_) includes
+
+* {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
+
+* {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+
 [[!redirects finite group]]
 [[!redirects finite groups]]
 [[!redirects finit group]]
