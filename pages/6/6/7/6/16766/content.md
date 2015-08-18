@@ -115,7 +115,11 @@ Discussion in [[string theory]]/[[M-theory]] includes the following.
 
 * [[Jerome Gauntlett]], [[Neil Lambert]], [[Peter West]], _Branes and Calibrated Geometries_, Commun.Math.Phys. 202 (1999) 571-592 ([arXiv:hep-th/9803216](http://arxiv.org/abs/hep-th/9803216))
 
+* [[George Papadopoulos]], [[Jan Gutowski]], _AdS Calibrations_, Phys.Lett.B462:81-88,1999 ([arXiv:hep-th/9902034](http://arxiv.org/abs/hep-th/9902034))
+
 * [[Jan Gutowski]], [[George Papadopoulos]], [[Paul Townsend]], _Supersymmetry and generalized calibrations_, Phys.Rev.D60:106006, 1999 ([arXiv:hep-th/9905156](http://arxiv.org/abs/hep-th/9905156))
+
+* [[Jan Gutowski]], S. Ivanov, [[George Papadopoulos]], _Deformations of generalized calibrations and compact non-Kahler manifolds with vanishing first Chern class_, Asian Journal of Mathematics 7 (2003), 39-80 ([arXiv:0205012](http://arxiv.org/abs/math/0205012))
 
 [[!redirects calibrations]]
 
@@ -132,4 +136,3 @@ Discussion in [[string theory]]/[[M-theory]] includes the following.
 [[!redirects manifolds with calibration]]
 [[!redirects manifold with calibrations]]
 [[!redirects manifolds with calibrations]]
-
