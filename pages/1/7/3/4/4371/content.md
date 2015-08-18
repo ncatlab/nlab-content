@@ -133,6 +133,7 @@ For further discussion of this relation see at [[dense subtopos]].
 
 [^law]: [Lawvere (1991)](#Lawvere91) says around p.8: "_The base in fact seems in examples to be determined by the given category of Being itself, either as the latter's QD reflection with the extra localness condition supplying the right adjoint pure Becoming inclusion, or else (for example simplicial sets) as the double-negation sheaves with the extra essentialness condition supplying the left adjoint inclusion (in the latter case it is in [[Aufhebung|Hegelian fashion]] always the smallest level for which both 0,1 are sheaves)"_.
 
+The double negation topology is closely related to the class of [[skeletal geometric morphism|skeletal geometric morphims]] i.e. $f:\mathcal{F}\to\mathcal {E}$ that restrict to a geometric morphism $\mathcal{F}_{\neg\neg}\to\mathcal{E}_{\neg\neg}$ e.g. skeletal geometric morphisms are the 1-cells in 2-category of toposes in which Boolean toposes are co-reflective (cf. Johnstone (2002, p.1008)).
 
 The next two propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
 
@@ -153,6 +154,7 @@ satisfies the [[axiom of choice]].
 
 This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models). For such a use of double negation in the so called **Cohen topos** see at [[continuum hypothesis]].
 
+Finally, let us remark that the booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
 
 ## In higher topos theory
  {#InHigherToposTheory}
@@ -178,6 +180,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[dense subtopos]]
 
+* [[skeletal geometric morphism]]
+
 * [[de Morganization]]
 
 ## References
@@ -186,7 +190,7 @@ In [[topos theory]]:
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) 
 
-* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] I_, Oxford UP 2002. (pp.211,219-220)
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (pp.211,219-220,1008)
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
 
