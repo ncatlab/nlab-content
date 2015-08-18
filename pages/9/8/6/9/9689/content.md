@@ -9,6 +9,10 @@ A 3-[[simplex]].
 
 ## Related concepts
 
+[[!include ADE -- table]]
+
+## Related concepts
+
 * [[triangle]]
 
 [[!redirects tetrahedra]]
