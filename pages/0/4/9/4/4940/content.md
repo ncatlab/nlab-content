@@ -13,6 +13,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Loosely speaking, the **boundary** of a subset $S$ of topological space $X$ consists of those points in $X$ that are neither 'fully in' $S$ nor are 'fully not in' $S$.
+
 ## Definition
 
 ### Of a subset of a topological space
@@ -33,7 +37,7 @@ In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collect
 
 One reason behind the notation $\partial$ may be this (cf. [[co-Heyting algebra]]): 
 
-+-- {: .num_prop} 
++-- {: .num_prop #Leibniz} 
 ###### Proposition 
 Let $X, Y$ be topological spaces. Then for closed subsets $A \subseteq X$ and $B \subseteq Y$, the [[Leibniz rule]] $\partial (A \times B) = (\partial A \times B) \cup (A \times \partial B)$ holds. 
 =-- 
@@ -59,14 +63,36 @@ $$B \subseteq \neg \partial B = \neg \partial A = A^\circ \cup (\neg A)^\circ,$$
 where the right side is a disjoint union of open sets. $B$ is connected, so $B \subseteq A^\circ$ or $B \subseteq (\neg A)^\circ \subseteq \neg A$. The latter cannot occur since $A \cap B$ is inhabited. So $B \subseteq A^\circ \subseteq A$; by symmetry $A \subseteq B$. 
 =-- 
 
-## Related concepts
+## Some ramifications
+
+The [Leibniz rule](#Leibniz) shows that the boundary operator is better behaved when restricted to the lattice of [[closed subspace|closed subsets]]. Since this lattice forms a [[co-Heyting algebra]], one is led to study algebraic operators axiomatizing properties of $\partial$ ([Zarycki 1927](#Zar27)) on these, the so called [[co-Heyting boundary]] operators.
+
+As the [[lattice of subtoposes]] of a given [[topos]] carries a co-Heyting algebra structure it becomes possible to define (co-Heyting) boundaries of subtoposes and thereby even boundaries of the [[geometric theory|geometric theories]] that the subtoposes correspond to!
+
+The boundary of a [[Grothendieck topos]] is defined in an exercise of [SGA4](#SGA4). The co-Heyting algebra approach was proposed by [[William Lawvere]]. See the references at [[co-Heyting boundary]] for further pointers!
+
+## Squaring things with algebraic topology
+
+[[!include chains and cochains - table]]
+
+## Related entries
+
+* [[interior]]
+
+* [[co-Heyting boundary]]
+
+* [[mereology]]
 
 * [[boundary of a simplex]]
 
 * [[corner]]
 
-[[!include chains and cochains - table]]
 
+## References
+
+* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, exercise 9.4.8, pp.461-462) {#SGA4}
+
+* {#Zar27} M. Zarycki, _Quelque notions fondamentales de l'Analysis Situs au point de vue de l'Alg&#232;bre de la Logique_ , Fund. Math. **IX** (1927) pp.3-15. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm9/fm912.pdf))
 
 [[!redirects boundary]]
 [[!redirects boundaries]]
