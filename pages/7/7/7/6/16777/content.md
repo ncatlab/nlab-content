@@ -1,0 +1,8 @@
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Hosohedron](https://en.wikipedia.org/wiki/Hosohedron)_
+
+[[!redirects hosohedra]]
