@@ -90,7 +90,7 @@ We had some blog discussion about this at
 
 The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
 
-The canonnical model structure for 1-groupoids is briefly described in section 5 of
+The canonical model structure for 1-groupoids is briefly described in section 5 of
 
 * {#Anderson78} D.W. Anderson, _Fibrations and Geometric Relations_, Bulletin of the AMS, Vol. 84: 765-788, 1978.
 
