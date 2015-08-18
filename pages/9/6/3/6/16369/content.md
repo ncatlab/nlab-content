@@ -52,7 +52,7 @@ This follows from the general fact that $Sh_{j_1\vee j_2}(\mathcal{E})$ correspo
 
 In other words, the intersection of two dense subtoposes is still dense!
 
-Somewhat surprisingly, this still holds if one takes the intersection of _all_ dense subtoposes, as the following section shows.
+Somewhat surprisingly, this still holds if one takes the intersection of _all_ dense subtoposes, as the next section details.
 
 ### Relation to double-negation topology
 
@@ -163,11 +163,11 @@ In view of this, the subtopos being dense says that not only $\ast$, but this wh
 
 In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
 
-#### Example
+#### Example: essential subtoposes of the topos of globular sets
 
 [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] essential subtoposes correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ all essential subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
 
-## Related pages
+## Related entries
 
 * [[dense subspace]]
 
