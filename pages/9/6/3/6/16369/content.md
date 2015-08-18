@@ -48,7 +48,7 @@ Notice that there is also a certain [[Grothendieck topology]] on small categorie
 
 Given two dense topologies $j_1$, $j_2$ on a topos $\mathcal{E}$, their join $j_1\vee j_2$ is again dense.
 
-This follows from the general fact that $Sh_{j_1\vee j_2}(\mathcal{E})$ corresponds to the meet, i.e. the intersection of the corresponding subtoposes $Sh_{j_1}(\mathcal{E})\cap Sh_{j_2}(\mathcal{E})$ in the [[lattice of subtoposes]], and this obviously contains $\emptyset_\mathcal{E}$.
+This follows from the general fact that $Sh_{j_1\vee j_2}(\mathcal{E})$ corresponds to the meet, i.e. the intersection of the corresponding subtoposes $Sh_{j_1}(\mathcal{E})\cap Sh_{j_2}(\mathcal{E})$ in the [[lattice of subtoposes]], and this obviously contains $\emptyset_\mathcal{E}$ for $j_1$, $j_2$ dense.
 
 In other words, the intersection of two dense subtoposes is still dense!
 
@@ -82,7 +82,7 @@ A topos $\mathcal{E}$ is [[Boolean topos|Boolean]] iff $\mathcal{E}$ has exactly
 
 Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ wouldn't do.
 
-### (Dense,Closed)-Factorization
+### The (dense,closed)-factorization
 
 A [[geometric embedding]] of [[elementary toposes]]
 
@@ -111,7 +111,9 @@ the [[closed subtopos|closed topology]] corresponding to the [[subterminal objec
 
 Here the first inclusion exhibits a dense subtopos and the second a [[closed subtopos]].
 
-This is the so called _[[(dense,closed)-factorization]]_ and implies e.g. that proper dense subtoposes aren't closed.
+This is the so called _[[(dense,closed)-factorization]]_ and implies e.g. that _proper_ dense subtoposes aren't closed.
+
+Dense inclusions participate also in the description of [[skeletal geometric morphism|skeletal inclusions]] as the closure of [[open subtopos|open inclusions]] under composition with dense inclusions.
 
 ### Some parallels to topology{#parallels_topology}
 
