@@ -59,13 +59,17 @@ Notice that restricted to [[associative submanifolds]] this combination becomes 
 The [[KK-compactification]] of vacuum [[11-dimensional supergravity]] on a _[[smooth manifold|smooth]]_ [[G2-manifold]] $Y$ results in a [[effective field theory|effective]] [[N=1 D=4 super Yang-Mills theory]] with [[abelian group|abelian]] [[gauge group]] $U(1)^{b_2(Y)}$ and with $b_3(Y)$ [[complex scalar fields]] which are neutral (not charged) under this gauge group (with $b_\bullet(Y)$ the [[Betti numbers]] of $Y$) (e.g. [Acharya 02, section 2.3](#Acharya02)). This is of course unsuitable for [[phenomenology]].
 
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> But when $Y$ is a $G_2$-[[orbifold]] then: 
+But when $Y$ is a $G_2$-[[orbifold]] then: 
 
-1. at an [[ADE singularity]] the [[gauge group]] becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics is grabbed));
+1. at an [[ADE singularity]] there is _[[enhanced gauge symmetry]] in that the [[gauge group]] (which a priori is copies of the [[abelian group]] $U(1)$ of the [[supergravity C-field]]) becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics below is grabbed));
 
 1. at a [[conifold singularity]] [[chiral fermions]] appear ([Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
-The first point is argued from the [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus. Here it is fairly well understood that at the degenertion points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears. The degeneration points correspond to vanishing 2-[[cycles]] and the ideas is that therefore the [[M2-brane]] [[BPS charges]] corresponding to these cycles become massless and hence contribute further states of the 4d effective field theory. See at _[[enhanced gauge symmetry]]_.
+In the absence of a proper microscopic definition of M-theory, the first point is argued for indirectly in two ways: 
+
+1. The expected [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus. Here it is fairly well understood that at the degenertion points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears. 
+
+1. <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> The [[blow-up]] of an [[ADE-singularity]] happens to be a union of [[2-spheres]] touching pairwise in one point, such as to form the [[Dynkin diagram]] of the [[simple Lie group]] which under the [[ADE classification]] corresponds to the given [[orbifold]] isotropy group. [[M2-branes]] may [[wrapped brane|wrap]] these 2-cycles and since before blow-up they are of vanishing size, this corresponds to [[double dimensional reduction]] under which the M2-branes become [[strings]] stretching between coincident [[D-branes]]. These are well-known to contain be the quanta of nonabelian gauge [[Chan-Paton gauge fields]] located on the D-branes, and hence these same nonabelian degrees of freedom have had to be present already at the level of the M2-branes.  
 
 
 
@@ -195,6 +199,8 @@ the [[hierarchy problem]] is discussed in
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
 
 the [[moduli space]] and [[moduli stabilization]] is discussed in
+
+* {#Acharya02} [[Bobby Acharya]], _A Moduli Fixing Mechanism in M theory_ ([arXiv:hep-th/0212294](http://arxiv.org/abs/hep-th/0212294))
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_, Phys.Rev.D76:126010,2007 ([arXiv:hep-th/0701034](http://arxiv.org/abs/hep-th/0701034))
 
