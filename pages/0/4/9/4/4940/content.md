@@ -23,9 +23,41 @@ $$
   \partial S = \bar S \backslash S^\circ
 $$
 
+Letting $\neg$ denote set-theoretic complementation, $\partial S = \neg (S^\circ \cup (\neg S)^\circ)$. It is a closed set. 
+
 ### Of a manifold
 
 In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collection of points which do not have a [[neighborhood]] diffeomorphic to an [[open n-ball]], but do have a neighborhood homeomorphic to a half-ball, that is, an open ball intersected with closed half-space.
+
+## Properties 
+
+One reason behind the notation $\partial$ may be this: 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $X, Y$ be topological spaces. Then for closed subsets $A \subseteq X$ and $B \subseteq Y$, the [[Leibniz identity]] $\partial (A \times B) = (\partial A \times B) \cup (A \times \partial B)$ holds. 
+=-- 
+
+Notice the conclusion *must* fail if $A$, $B$ are *not* closed, since in this case $(\partial A \times B) \cup (A \times \partial B)$ is not closed (it doesn't include $\partial A \times \partial B$). 
+
++-- {: .proof} 
+###### Proof 
+The interior operation preserves intersections, so $(A \times B)^\circ = ((A \times Y) \cap (X \times B))^\circ = (A^\circ \times Y) \cap (X \times B^\circ)$. Its complement is $(\neg A^\circ \times Y) \cup (X \times \neg B^\circ)$, whose intersection with $\widebar{A \times B} = A \times B$ is $(\partial A \times B) \cup (A \times \partial B)$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+If $A, B$ are [[connected space|connected]] open subsets of $X$ and $A \cap B$ is [[inhabited set|inhabited]], then $\partial A = \partial B$ implies $A = B$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since $B$ is open, we have 
+
+$$B \subseteq \neg \partial B = \neg \partial A = A^\circ \cup (\neg A)^\circ,$$ 
+
+where the right side is a disjoint union of open sets. $B$ is connected, so $B \subseteq A^\circ$ or $B \subseteq (\neg A)^\circ \subseteq \neg A$. The latter cannot occur since $A \cap B$ is inhabited. So $B \subseteq A^\circ \subseteq A$; by symmetry $A \subseteq B$. 
+=-- 
 
 ## Related concepts
 
