@@ -19,3 +19,5 @@ the equation $g x = x$ implies $g=1_G$.
 * [[transitive action]]
 * [[torsor]]
 * [[universal principal bundle]]
+
+[[!redirects free actions]]
