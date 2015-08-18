@@ -57,7 +57,7 @@ The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a 
 
 +-- {: .num_remark #5} 
 ###### Result
-If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a dense connected subspace $S$, then $T$ is connected. 
+If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a [[dense subspace|dense]] connected subspace $S$, then $T$ is connected. 
 =--
 
 +-- {: .num_remark #3} 
