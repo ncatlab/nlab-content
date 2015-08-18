@@ -21,9 +21,18 @@ In general, we have $S^\circ \subseteq S$.  $S$ is [[open subset|open]] if and o
 
 Compare the [[topological closure]] $\bar{S}$ and [[frontier]] $\partial S = \bar{S} \setminus S^\circ$.
 
+## Remark
+
+The _interior of a subtopos_ $\mathcal{E}_j$ of a [[Grothendieck topos]] $\mathcal{E}$, as well as the [[dense subtopos|exterior]], were defined in an exercise in [SGA4](#SGA4): $Int(\mathcal{E}_j)$ as the smallest [[open subtopos]] contained in $\mathcal{E}_j$. The boundary of a subtopos is then naturally defined as the subtopos complementary to the (open) join of the exterior and interior subtoposes in the [[lattice of subtoposes]].
+
 ## Related entries 
 
 * [[ionad]]
+
+## Reference
+
+* [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, exercise 9.4.8, pp.461-462) {#SGA4}
+
 
 [[!redirects interior]]
 [[!redirects interiors]]
