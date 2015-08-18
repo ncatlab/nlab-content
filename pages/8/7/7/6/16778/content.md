@@ -1,0 +1,8 @@
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Octahedron](https://en.wikipedia.org/wiki/Octahedron)_
+
+[[!redirects octahedra]]
