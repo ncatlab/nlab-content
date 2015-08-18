@@ -1,0 +1,10 @@
+
+
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Octagedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
+
+[[!redirects octahedral groups]]
