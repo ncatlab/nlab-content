@@ -100,7 +100,13 @@ However, from a practical point-of-view, rather than extending the logical frame
 
 in addition to the other axioms of equality.
 
-The analytic encoding is associated with [Martin-Lof](#ML).  While convenient for the description of rules in type theories, it is often less appropriate for the purposes of metatheoretic analysis.  For instance, in the hybrid style with the LF-type family $eq$, the terms in $el(A)$ will involve explicit coercions along equalities in $eq$.  This destroys the adequacy theorem, since coercions along definitional equalities are generally silent in the usual presentation of a theory.
+The analytic encoding is associated with [Martin-Lof](#ML).  While convenient for the description of rules in type theories, it is often less appropriate for the purposes of metatheoretic analysis.
+
+For instance, in the hybrid style with the LF-type family $eq$, the terms in $el(A)$ will involve explicit coercions along equalities in $eq$.  This destroys the adequacy theorem, since coercions along definitional equalities are generally silent in the usual presentation of a theory.  Moreover, one must assert explicitly that dependent types respect definitional equalities, and for multiply-dependent types this requires [[dependent products]] in the object-theory.
+
+On the other hand, the "fully analytic" version where definitional equalities in the object-theory are also definitional equalities in the meta-theory involves adding additional equations to the meta-theory, which in general can make it impossible to reason about.  One needs a decision procedure for these equalities even to be able to check proofs.
+
+Thus, analytic approaches are less general and flexible; they are best adapted to *describing* the rules and semantics of a dependent type theory, whereas synthetic approaches are better for reasoning about syntax and for studying more general object-theories.
 
 
 ### Higher-order abstract syntax
