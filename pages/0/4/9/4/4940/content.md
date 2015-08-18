@@ -35,7 +35,7 @@ In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collect
 
 ## Properties 
 
-One reason behind the notation $\partial$ may be this (cf. [[co-Heyting algebra]]): 
+One reason behind the notation $\partial$ may be this (cf. [[co-Heyting boundary]]): 
 
 +-- {: .num_prop #Leibniz} 
 ###### Proposition 
