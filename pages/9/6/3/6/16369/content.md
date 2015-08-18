@@ -44,6 +44,16 @@ Notice that there is also a certain [[Grothendieck topology]] on small categorie
 
 ## Properties
 
+### A basic observation
+
+Given two dense topologies $j_1$, $j_2$ on a topos $\mathcal{E}$, their join $j_1\vee j_2$ is again dense.
+
+This follows from the general fact that $Sh_{j_1\vee j_2}(\mathcal{E})$ corresponds to the meet, i.e. the intersection of the corresponding subtoposes $Sh_{j_1}(\mathcal{E})\cap Sh_{j_2}(\mathcal{E})$ in the [[lattice of subtoposes]], and this obviously contains $\emptyset_\mathcal{E}$.
+
+In other words, the intersection of two dense subtoposes is still dense!
+
+Somewhat surprisingly, this still holds if one takes the intersection of _all_ dense subtoposes, as the following section shows.
+
 ### Relation to double-negation topology
 
 For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the _smallest_ dense subtopos. This agrees with the [situation for locales](double+negation#double_negation_locale) but contrasts with the [[dense subspace|situation for topological spaces]] where, in general, smallest dense subspaces do not exist.
@@ -101,7 +111,7 @@ the [[closed subtopos|closed topology]] corresponding to the [[subterminal objec
 
 Here the first inclusion exhibits a dense subtopos and the second a [[closed subtopos]].
 
-This is the _[[(dense,closed)-factorization]]_.
+This is the so called _[[(dense,closed)-factorization]]_ and implies e.g. that proper dense subtoposes aren't closed.
 
 ### Some parallels to topology{#parallels_topology}
 
@@ -124,6 +134,13 @@ Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is 
 
 **Proof**: Let $X\coprod Y = 1$ be a decomposition of $1$ in $\mathcal{E}$. Since $i^\ast$ is a left exact left adjoint, it preserves coproducts and the terminal object and $i^\ast(X)\coprod i^\ast (Y)$ is therefore a decomposition of $1$ in $Sh_j(\mathcal{E})$ hence trivial by assumption. Let's say $i^\ast(X)\simeq\emptyset$ but $Sh_j(\mathcal{E})$ is dense and therefore we can conclude $X\simeq\emptyset$ hence $X\coprod Y = 1$ is trivial as well. $\qed$
 
+### An example: persistent localizations
+
+Recall that a [[persistent localization]] is given by a [[Lawvere-Tierney topology]] $j$ with the property that every $j$-separated object is a $j$-sheaf. But separated objects are closed under taking subobjects and therefore in the case of persistent $j$, subobjects of $j$-sheaves are themselves $j$-sheaves.
+
+In particular, this applies to $\emptyset\rightarrowtail 1$, since $1$ is always a sheaf. Whence $\emptyset$ is a $j$-sheaf and we see that **persistent localizations are dense**. This includes e.g. 'quintessential localizations' aka [[quality type|quality types]].
+
+This observation is due to [Johnstone (1996)](#Johnstone96).
 
 ### Relation to Aufhebung
 
@@ -173,6 +190,8 @@ In other words, for an [[level| essential subtopos]] _being dense is equivalent 
 * {#Cara09} [[Olivia Caramello]], _Lattices of theories_ , arXiv:0905.0299 (2009). ([abstract](http://arxiv.org/abs/0905.0299))
 
 * {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([abstract](http://arxiv.org/abs/1205.2547))
+
+* {#Johnstone96}[[Peter Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 * {#Johnstone02} [[Peter Johnstone]], _[[Sketches of an Elephant]] I_, Oxford UP 2002. (pp.211,219-220)
 
