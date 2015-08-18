@@ -67,9 +67,11 @@ where the right side is a disjoint union of open sets. $B$ is connected, so $B \
 
 The [Leibniz rule](#Leibniz) shows that the boundary operator is better behaved when restricted to the lattice of [[closed subspace|closed subsets]]. Since this lattice forms a [[co-Heyting algebra]], one is led to study algebraic operators axiomatizing properties of $\partial$ ([Zarycki 1927](#Zar27)) on these, the so called [[co-Heyting boundary]] operators.
 
-As the [[lattice of subtoposes]] of a given [[topos]] carries a co-Heyting algebra structure it becomes possible to define (co-Heyting) boundaries of subtoposes and thereby even boundaries of the [[geometric theory|geometric theories]] that the subtoposes correspond to!
+Since the [[lattice of subtoposes]] of a given [[topos]] carries a co-Heyting algebra structure, it becomes possible to define (co-Heyting) boundaries of subtoposes and thereby even boundaries of the [[geometric theory|geometric theories]] that the subtoposes correspond to! Intuitively, such a boundary $\partial T$ of a theory $T$ consists of those geometric sequents that neither 'fully follow' from $T$ nor 'fully contradict' $T$.
 
-The boundary of a [[Grothendieck topos]] is defined in an exercise of [SGA4](#SGA4). The co-Heyting algebra approach was proposed by [[William Lawvere]]. See the references at [[co-Heyting boundary]] for further pointers!
+The interior $Int(\mathcal{E}_j)$ of a subtopos $\mathcal{E}_j$ of a [[Grothendieck topos]] is defined in an exercise of [SGA4](#SGA4) as the smallest [[open subtopos]] contained in $\mathcal{E}_j$. The boundary $\partial\mathcal{E}_j$ is then defined as the subtopos complementary to the (open) join of the [[dense subtopos|exterior subtopos]] $Ext(\mathcal{E}_j)$ and $Int(\mathcal{E}_j)$ in the [[lattice of subtoposes]].
+
+The co-Heyting algebra perspective and the accompanying _mereo-logic of theories_ was proposed by [[William Lawvere]]. See the references at [[co-Heyting boundary]] for further pointers!
 
 ## Squaring things with algebraic topology
 
