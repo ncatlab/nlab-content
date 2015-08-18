@@ -21,6 +21,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[Platonic solids]]
 
+* [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ ([Milnor 57](#Milnor57), see e.g. [Keenan 03, theorem 4](#Keenan03))
+
 * [[quiver representations]]
 
 * [[simple singularities]] (see [[ADE singularity]])
@@ -64,6 +66,15 @@ which in turn is summarized in
 See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
+
+Discusion of tthe free finite group actions on spheres goes back to
+
+* {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
+
+Review inclues
+
+* {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+
 
 Related stuff includes...
 
