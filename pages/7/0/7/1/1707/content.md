@@ -870,11 +870,20 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 Standard textbook references on group cohomology include
 
-* Adem, Milgram, _Cohomology of finite groups_ 
+* [[Kenneth Brown]],  _Cohomology of Groups_ , Graduate Texts in Mathematics, 87 (1972)
+
+and specifically with an eye towards cohomology of [[finite groups]]
+
+* [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+
+*  Alejandro Adem, R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
+
+Exposition includes
 
 * Alejandro Adem, _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
 
-* [[Kenneth Brown]],  _Cohomology of Groups_ , Graduate Texts in Mathematics, 87 (1972)
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
 
 An introduction to group cohomology of a group $G$ as the cohomology of the [[classifying space]] $B G$ is for instance in 
 
