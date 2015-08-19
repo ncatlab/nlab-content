@@ -45,7 +45,13 @@ Further developments include for instance
 
 ### Relation to other systems
 
-* [[Marc Henneaux]], Axel Kleinschmidt, [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
+Relation to [[Kac-Moody algebras]] is discussed in
+
+* [[Marc Henneaux]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
+
+Expression in terms of [[AKSZ sigma-models]] is discussed in
+
+* {#AlkalevGrigorievSkvortsov14} K.B. Alkalaev, Maxim Grigoriev, E.D. Skvortsov, _Uniformizing higher-spin equations_ ([arXiv:1409.6507](http://arxiv.org/abs/1409.6507))
 
 ### Higher spin Chern-Simons theory
 
