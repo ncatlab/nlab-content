@@ -75,7 +75,7 @@ Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$ , i.e. $j$
 
 From this and the fact that $\mathcal{E}$ is trivially dense, follows:
 
-+-- {: .num_prop}
++-- {: .num_prop #prop_boolean}
 ###### Proposition
 A topos $\mathcal{E}$ is [[Boolean topos|Boolean]] iff $\mathcal{E}$ has exactly one dense subtopos, namely $\mathcal{E}_{\neg\neg}=\mathcal{E}$.
 =--
@@ -131,10 +131,19 @@ Another easy result in this vein is
 
 +-- {: .num_prop}
 ###### Proposition
-Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is connected in the sense that $1$ is indecomposable: if $W\coprod Z=1$ then $W=\emptyset$ or $Z=\emptyset$. Then $\mathcal{E}$ is connected as well.
+Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is [[connected object|connected]] in the sense that $1$ is indecomposable: if $W\coprod Z=1$ then $W=\emptyset$ or $Z=\emptyset$. Then $\mathcal{E}$ is connected as well.
 =--
 
 **Proof**: Let $X\coprod Y = 1$ be a decomposition of $1$ in $\mathcal{E}$. Since $i^\ast$ is a left exact left adjoint, it preserves coproducts and the terminal object and $i^\ast(X)\coprod i^\ast (Y)$ is therefore a decomposition of $1$ in $Sh_j(\mathcal{E})$ hence trivial by assumption. Let's say $i^\ast(X)\simeq\emptyset$ but $Sh_j(\mathcal{E})$ is dense and therefore we can conclude $X\simeq\emptyset$ hence $X\coprod Y = 1$ is trivial as well. $\qed$
+
+Finally, let us record the following observation that applies e.g. to presheaf toposes $Set^{M^{op}}$ on monoids:
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{E}$ be a [[two-valued topos]]. Then every non-trivial subtopos $Sh_j(\mathcal{E})$ is dense.
+=--
+
+**Proof**: Truth values $1\to\Omega$ correspond precisely to subobjects of $1$. Hence the $j$-closure $ext(j)$ of $\emptyset\rightarrowtail 1$ is either $\emptyset$ or $1$. In the first case, $Sh_j(\mathcal{E})$ is dense, in the second, from $X\times 1=1$ for $X\in Cl(Sh_j(\mathcal{E}))$ follows triviality. $\qed$
 
 ### An example: persistent localizations
 
@@ -143,6 +152,8 @@ Recall that a [[persistent localization]] is given by a [[Lawvere-Tierney topolo
 In particular, this applies to $\emptyset\rightarrowtail 1$, since $1$ is always a sheaf. Whence $\emptyset$ is a $j$-sheaf and we see that **persistent localizations are dense**. This includes e.g. 'quintessential localizations' aka [[quality type|quality types]].
 
 This observation is due to [Johnstone (1996)](#Johnstone96).
+
+By the [above proposition](#prop_boolean) it follows immediately that every persistent localization of a Boolean topos is trivial. 
 
 ### Relation to Aufhebung
 
