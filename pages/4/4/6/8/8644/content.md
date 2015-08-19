@@ -95,10 +95,11 @@ Physics-style  surveys include the introductory lecture notes
 
 * {#Forkel} Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
  
+* [[Edward Shuryak]], _Physics of QCD Instantons_, Proceedings of the International School of Subnuclear Physics Erice, Sicily, Italy, August &#8211; September 2002 ([web](http://www.worldscientific.com/doi/abs/10.1142/9789812796653_0003))
 
 and the fairly detailed account (with lot of pointers to the literature)
 
-* {#SchaeferShuryak98} T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
+* {#SchaeferShuryak98} T. Schaefer, [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
   
 
   {#SchaeferShuryak} section III D: relation to [[confinement]]
