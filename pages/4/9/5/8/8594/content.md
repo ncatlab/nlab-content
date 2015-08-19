@@ -25,7 +25,7 @@ A _topological ring_ is a [[ring]] [[internalization|internal to]] [[Top]], a [[
 
 a [[topological space]] $R$ equipped with the structure of a [[ring]] on its underlying [[set]], such that addition and multiplication are [[continuous functions]]. Of course this makes $R$ a [[uniform space]]. 
 
-A _topological field_ is a topological ring $K$ whose underlying ring is in fact a [[field]] and such that reciprocation $(-)^{-1}: K \setminus \{0\} \to K \setminus \{0\}$ is continuous. This latter condition is the same as demanding that the subspace topology on $K \setminus \{0\}$ induced by the embedding $K \setminus \{0\} \hookrightarrow K$ coincide with the subspace topology induced by the embedding $K \setminus \{0\} \to K \times K: x \mapsto (x, x^{-1})$. 
+A _topological field_ is a topological ring $K$ whose underlying ring is in fact a [[field]] and such that reciprocation $(-)^{-1}: K \setminus \{0\} \to K \setminus \{0\}$ is continuous. This latter condition is the same as demanding that the subspace topology on $K \setminus \{0\}$ induced by the embedding $K \setminus \{0\} \hookrightarrow K$ coincide with the subspace topology induced by the embedding $K \setminus \{0\} \to K \times K: x \mapsto (x, x^{-1})$. More at [[topological field]]. 
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -62,6 +62,4 @@ A [[topological algebra]] over a topological ring $R$ is a topological ring $S$ 
 * [[topological vector space]]
 
 [[!redirects topological rings]]
-[[!redirects topological field]]
-[[!redirects topological fields]]
 
