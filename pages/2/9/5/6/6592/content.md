@@ -176,7 +176,7 @@ This higher Klein geometry is the local model for the [[higher Cartan geometry]]
 
 ## References
 
-That there ought to be a systematic study of [[higher Klein geometry]] and higher Cartan geoemtry has been amplified by [[David Corfield]] since 2006.
+That there ought to be a systematic study of higher Klein geometry and [[higher Cartan geometry]] has been amplified by [[David Corfield]] since 2006.
 
 Such a formalization is offered in 
 
