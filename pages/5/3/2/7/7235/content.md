@@ -22,6 +22,7 @@
 One of the [[exceptional Lie groups]].
 
 ## Definition
+ {#Definition}
 
 Consider the [[vector space]]
 
@@ -67,7 +68,7 @@ Now $E_{7(7)} \subset GL(56,\mathbb{R})$ is the [[subgroup]] of the [[general li
 #### $\mathbf{56}$ -- The smallest fundamental representation
  {#SmallestFundamentalRepresentation}
 
-The smallest [[fundamental representation]] of $E_7$ is the defining one, of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10), also [Pacheco-Waldram 08, appendix B](#PachecoWaldram08))
+The smallest [[fundamental representation]] of $E_7$ is the defining one (from the definition [above](#Definition)), of [[dimension]] $56$. Under the [[special linear group|special linear]] [[subgroup]] $SL(8,\mathbb{R}) \hookrightarrow E_7$ this decomposes as (e.g. [Cacciatori et al. 10, section 4](#CacciatoriEtAl10), also [Pacheco-Waldram 08, appendix B](#PachecoWaldram08))
 
 $$
   \mathbf{56} 
@@ -92,6 +93,87 @@ $$
 where $\wedge^2 (\mathbb{R}^7) \subset \wedge^2 (\mathbb{R}^8)^\ast$ is regarded as the subspace of 2-forms with vanishing 8-components, and where  $\wedge^6 \mathbb{R}^7$ is the [[Poincaré duality|Poincaré dual]] to the complementary subspace of $\wedge^2 (\mathbb{R}^8^\ast)$ of 2-forms with non-trivial 8-component.
 
 The article ([Wilson 2014](#Wilson14)) by [[Robert Wilson]] describes how this $56$-dimensional real representation is closely related to a 28-dimensional _quaternionic_ representation, and this may be used to construct $E_7$ in a more natural way.
+
+#### $\mathbf{133}$ -- The adjoint representation
+ {#AdjointRepresentation}
+
+The [[adjoint representation]] $\mathbf{133}$ of $E_7$ decomposes under $SL(8,\mathbb{R})$ as ([Pacheco-Waldram 08 (B.7)](#PachecoWaldram08))
+
+$$
+  \mathfrak{e}_7
+  =
+  \mathbf{133}
+  \simeq
+  (\mathbb{R}^8 \otimes (\mathbb{R}^8)^\ast)_{traceless}
+  \oplus
+  \wedge^4 (\mathbb{R}^8)^\ast
+  \,.
+$$
+
+In this decomposition the subspace corresponding to the subalgebra $\mathfrak{su}(8) \hookrightarrow \mathfrak{e}_8$ is the vector space
+
+$$
+  \mathfrak{su}(8)
+  \simeq
+  (\mathbb{R}^8 \otimes (\mathbb{R}^8)^\ast)_{skew}
+  \oplus
+  (\wedge^4 (\mathbb{R}^8)^\ast)_-
+  \,,
+$$
+
+where the first summand denotes the skew-symmetric matrices, and the second summand the [[Hodge duality|Hodge anti-self dual]] 4-forms ([Pacheco-Waldram 08 (B.29) (B.30) and below (2.34)](#PachecoWaldram08)).
+
+
+Under $GL(7,\mathbb{R}) \hookrightarrow SL(8,\mathbb{R})$ the full adjoint representation decomposes further into ([Pacheco-Waldram 08 (B.21)](#PachecoWaldram08))
+
+$$
+  \mathbf{133}
+  \simeq
+  \left(\mathbb{R}^7 \oplus (\mathbb{R}^7)^\ast\right)
+  \oplus 
+  \left(\wedge^6 \mathbb{R}^7 \oplus \wedge^6 (\mathbb{R}^7)^\ast\right)
+  \oplus
+  \left(
+     \wedge^3 \mathbb{R}^7 \oplus \wedge^3 (\mathbb{R}^7)^\ast
+  \right)
+  \,.
+$$
+
+Here $\wedge^6 (\mathbb{R}^7)^\ast \simeq \mathbb{R}^7$ is the $(-,8)$-component of $\mathbb{R}^7 \oplus (\mathbb{R}^7)^\ast$ and dually, while the $(8,8)$-component carries no information by tracelessness; and $\wedge^3 (\mathbb{R}^7)^\ast$ is the $(-,-,-,8)$-component of $\wedge^4 (\mathbb{R}^8)^\ast$, while $\wedge^3 \mathbb{R}^7$ is the 7-dimensional [[Poincaré duality|Poincaré dual]] of the complement of the $(-,-,-,8)$-component ([Pacheco-Waldram 08 (B.22)](#PachecoWaldram08)).
+
+
+Taken together this means that under $GL(7,\mathbb{R})$ the subspace $\mathbb{su}(8) \hookrightarrow \mathfrak{e}_8$ is that spanned by
+
+1. $\mathfrak{so}(7)$-elements;
+
+1. sums of a 3-form with its 8d-Hodge+7d-Poincar&#233;-dual 3-vector;
+
+1. sums pf a 6-form with its dual 6-vector
+
+hence is
+
+$$
+  \mathfrak{su}(8) 
+  \simeq
+  \mathfrak{so}(8) \oplus \wedge^3 \mathbb{R}^7 \oplus \wedge^6 \mathbb{R}^7
+  \,.
+$$
+
+Hence the [[tangent space]] to the [[coset]] $E_{7(7)}/(SU(8)/\mathbb{Z}_2)$ may be identified as
+
+$$
+  \mathfrak{e}_7/\mathfrak{su}(8)
+  \simeq
+  (\mathbb{R}^7\otimes (\mathbb{R}^7)^\ast)_{sym-traceless}
+  \oplus
+  \wedge^3 (\mathbb{R}^7)^\ast
+  \oplus
+  \wedge^6 (\mathbb{R}^7)^\ast
+  \,.
+$$
+
+
+
 
 ### As U-Duality group of 4d SuGra
  {#AsUDualityGroup}
