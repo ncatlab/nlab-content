@@ -1,5 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
 
+## Properties
+
+### Group cohomology
+
+The [[group cohomology]] of the octahedral group 
+
+### As part of the ADE pattern
 
 [[!include ADE -- table]]
 
