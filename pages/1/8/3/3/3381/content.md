@@ -22,7 +22,7 @@ A __permutation__ is an [[automorphism]] in [[Set]].  More explicitly, a __permu
 
 The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __symmetric group__ (or __permutation group__) on $X$ (a [[finite group]]).  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
 
-In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ from $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Then an $n$-permutation from $[n]$ is the same as a permutation of $[n]$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
+In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ of $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Note that the number of $r$-permutations of $[n]$ is counted by the [[falling factorial]] $n(n-1)\dots(n-r+1)$.  Then an $n$-permutation of $[n]$ is the same as a permutation of $[n]$, and the total number of such permutations is of course counted by the ordinary factorial $n!$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
 
 
 ## Concrete representations 
