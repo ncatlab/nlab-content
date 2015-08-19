@@ -99,12 +99,15 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 * [[finite group scheme]]
 
 ## References
+ {#References}
 
 * _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
 
 Discussion of [[group characters]] and [[group cohomology]] of finite groups includes
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+
+*  Alejandro Adem, R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
 
 Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[[ADE classification]]_) includes
 
