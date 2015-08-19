@@ -15,7 +15,7 @@
 
 ## Idea
 
-**Skeletal geometric morphisms** are those [[geometric morphisms]] that preserve [[double negation]] $\neg\neg$ and therefore play a role in the descriptions of classes of toposes like e.g. [[Boolean topos|Boolean]] or [[De Morgan toposes]] in whose definitions the negation participates.
+**Skeletal geometric morphisms** are those [[geometric morphisms]] that preserve [[double negation|double negation sheaves]] and therefore play a role in the descriptions of classes of toposes like e.g. [[Boolean topos|Boolean]] or [[De Morgan toposes]] in whose definitions the negation participates.
 
 The notion of a skeletal geometric morphism can be viewed as a common generalization of the notions of [[dominant geometric morphism|dominant]] and [[open geometric morphisms]].
 
@@ -63,9 +63,15 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback 
 ## Related entries
 
 * [[open geometric morphism]]
+
 * [[dominant geometric morphism]]
+
 * [[proper geometric morphism]]
+
 * [[double negation]]
+
+* [[De Morganization]]
+
 * [[De Morgan topos]]
 
 ## References
