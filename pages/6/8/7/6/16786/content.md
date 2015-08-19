@@ -1,0 +1,9 @@
+
+
+* [webpage](http://dau2.physics.sunysb.edu/~shuryak/)
+
+## related $n$Lab entries
+
+* [[instanton in QCD]]
+
+category: people
