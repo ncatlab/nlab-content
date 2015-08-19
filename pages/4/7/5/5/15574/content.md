@@ -80,7 +80,7 @@ So now let's get down to business and do some mathematics!
 
 ### The mathematics of Yin and Yang
 
-In ([Lawvere 2000](#Law00)) a particular simple example of the [[adjoint cylinder]] was suggested that we use in the following as a running thread.
+In ([Lawvere 2000](#Law00)) a particularly simple example of the [[adjoint cylinder]] was suggested that we use in the following as a running thread.
 
 Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
 
