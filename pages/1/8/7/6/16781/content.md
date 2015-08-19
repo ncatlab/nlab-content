@@ -9,11 +9,20 @@
 =--
 =--
 
+## Idea
+
+The full _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
+
+
 ## Properties
+
+### Isomorphisms
+
+The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. (This also happens to be the full [[tetrahedral group]].)
 
 ### Group cohomology
 
-The [[group cohomology]] of the octahedral group 
+The [[group cohomology]] of the orientation-preserbving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
 ### As part of the ADE pattern
 
@@ -22,5 +31,10 @@ The [[group cohomology]] of the octahedral group
 ## References
 
 * Wikipedia, _[Octagedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
+
+* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
+
+* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+
 
 [[!redirects octahedral groups]]
