@@ -219,3 +219,5 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 [[!redirects images]]
 [[!redirects corestriction]]
+[[!redirects regular image]] 
+[[!redirects regular coimage]] 
