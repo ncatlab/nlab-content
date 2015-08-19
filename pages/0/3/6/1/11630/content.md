@@ -129,9 +129,9 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to maximal $N = 8$ [[4d supergravity]] was first noticed in
 
-* [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. 80B (1978) 48
+* {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. 80B (1978) 48
 
-* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
+* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
 
 and more generally in 
 
