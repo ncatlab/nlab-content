@@ -87,7 +87,7 @@ Original articles include
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
  
 
-* G. Aldazabala,, E. Andr&#233;sb, P. C&#225;marac, [[Mariana Graña]], _U-dual fluxes and generalized geometry_, JHEP 1011:083,2010 ([arXiv:1007.5509](http://arxiv.org/abs/1007.5509))
+* G. Aldazabala, E. Andr&#233;sb, P. C&#225;marac, [[Mariana Graña]], _U-dual fluxes and generalized geometry_, JHEP 1011:083,2010 ([arXiv:1007.5509](http://arxiv.org/abs/1007.5509))
 
 * [[Mariana Graña]], Francesco Orsi, _$N=1$ vacua in Exceptional Generalized Geometry_ 
 ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
