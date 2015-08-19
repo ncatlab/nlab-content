@@ -15,9 +15,17 @@
 
 ## Idea
 
-The [[finite group|finite]] [[symmetry group]] of a [[tetrahedron]]. [[isomorphism|Isomorphic]] to the [[symmetric group]] of [[permutations]] of four elements ([Full tetrahedral group is isomorphic to S4](http://groupprops.subwiki.org/wiki/Full_tetrahedral_group_is_isomorphic_to_S4)).
+The _tetrahedral group_ is the [[finite group|finite]] [[symmetry group]] of a [[tetrahedron]]. 
+
 
 ## Properties
+
+### Isomorphisms
+
+The full tetrahedral group is [[isomorphism|Isomorphic]] to the [[symmetric group]] $S_4$ of [[permutations]] of four elements (see _[Full tetrahedral group is isomorphic to S4](http://groupprops.subwiki.org/wiki/Full_tetrahedral_group_is_isomorphic_to_S4)_).
+
+The [[subgroup]] of [[orientation]]-preserving symmetries is isomorphic to the [[alternating group]] $A_4$.
+
 
 ### Group cohomology
 
