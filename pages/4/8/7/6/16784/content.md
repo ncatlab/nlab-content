@@ -1,0 +1,5 @@
+Robert Wilson is a [[finite group]] theorist. He is one of the authors of the [[ATLAS of finite groups]] and particularly works on sporadic and exceptional finite groups.
+
+* [website](http://www.maths.qmul.ac.uk/~raw/)
+
+category: people
