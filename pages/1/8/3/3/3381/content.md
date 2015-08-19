@@ -27,6 +27,9 @@ In [[combinatorics]], one often wants a slight generalisation.  Given a [[natura
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
 
+## Examples
+
+* The symmetric group on 4 elements is [[isomorphism|isomorphic]] to the [[tetrahedral group]].
 
 ## Related entries
 
