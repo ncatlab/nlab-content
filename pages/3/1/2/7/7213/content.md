@@ -30,7 +30,7 @@ Compactification of [[11-dimensional supergravity]] on a [[manifold]] of [[dimen
     SU(7) \hookrightarrow E_{7(7)}
   $$
 
-of the [[special unitary group]] in dimension 7 into the [[split real form]] of [[E7]]. This is shown in ([Pacheco-Waldram](#PachecoWaldram)).
+of the [[special unitary group]] in dimension 7 into the [[split real form]] of [[E7]]. This is shown in ([Pacheco-Waldram 08](#PachecoWaldram08)).
 
 One dimension down, compactification of 10-dimensional 
 [[type II supergravity]] on a 6-manifold $X$ preserves $N = 2$ supersymmetry precisely if the [[generalized tangent bundle]] $T X \otimes T^* X$ in the NS-NS sector admits [[G-structure]] for the inclusion
@@ -78,10 +78,10 @@ Original articles include
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class.Quant.Grav.17:3689-3702,2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
-* {#Hull} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+* {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
  
 
-* {#PachecoWaldram} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123,2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123,2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
   
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
