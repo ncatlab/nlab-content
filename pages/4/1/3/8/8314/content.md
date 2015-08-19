@@ -67,6 +67,13 @@ For $n \gt 0$, the number of ring structures on the cyclic group $\mathbb{Z}/n$,
 
 For a discussion of the [[group cohomology]] of cyclic groups see at _[[projective resolution]]_ in the section _[Cohomology of cyclic groups](http://ncatlab.org/nlab/show/projective+resolution#CohomologyOfCyclicGroups)_.
 
+Relevant for [[Dijkgraaf-Witten theory]] is the fact
+
+$$
+  H^3_{grp}(\mathbb{Z}/n\mathbb{Z}, U(1)) \simeq \mathbb{Z}/n\mathbb{Z}
+  \,.
+$$
+
 ### Relation to finite abelian groups
 
 +-- {: .un_prop}
