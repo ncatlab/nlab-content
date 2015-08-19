@@ -104,7 +104,10 @@ The relation to [[Killing spinors]] goes back to
 
 See also
 
+
 * Wikipedia, _[Calibrated geometry](https://en.wikipedia.org/wiki/Calibrated_geometry)_
+
+* Jason Dean Lotay, _Calibrated submanifolds and the Exceptional geometries_, 2005 ([pdf](https://people.maths.ox.ac.uk/joyce/theses/LotayDPhil.pdf))
 
 ### Application in string theory
 
