@@ -109,6 +109,8 @@ Discussion of [[group characters]] and [[group cohomology]] of finite groups inc
 
 *  Alejandro Adem, R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
 
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
 Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[[ADE classification]]_) includes
 
 * {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
