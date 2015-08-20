@@ -9,6 +9,16 @@ An **involution** is an [[endomorphism]] whose square is the [[identity morphism
 
 Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instead of a [[homomorphism]] (so an antiendomorphism and necessarily an antiautomorphism).
 
+## Properties
+
+Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
+
+$$f g = f (f g f g ) g = (f f) g f (g g) = g f$$
+
+$$(f g)(f g) = f (g f) g = f (f g) g = (f f)(g g)= 1$$
+
+In [[combinatorics]], an important class of involutions are the [[fixed point]] free ones. The number of fixed point free involutions $f : X \to X$ on a [[finite set]] of even cardinality $|X| = 2n$ is counted by the double factorial $(2n-1)!! = (2n-1)\cdot (2n-3)\cdot\dots\cdot 3\cdot 1$, while there are no fixed point free involutions on a finite set of odd cardinality.
+
 ## Related concepts
 
 * [[duality]]
