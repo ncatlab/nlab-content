@@ -94,10 +94,17 @@ $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense su
 
 +-- {: .num_prop #smallest_j-dense}
 ###### Proposition
-$\not \not$ is the smallest topology $j$ in $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
+$\not \not$ is the smallest topology $j$ on $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
 =--
 
 This is theorem 1.4. in [Caramello (2009)](#Caramello09).
+
++--{: .num_prop #Boolean_mono}
+###### Proposition
+$\neg\neg$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $A\vee\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail$ in $\mathcal{E}$ are $j$-dense.
+=--
+
+This appears as proposition 6.2 in [Caramello (2012a)](#Caramello12a).
 
 From the above we have that $\mathcal{E}_{\not\not}$ is a [[Boolean topos|Boolean]] and [[dense subtopos]]. In fact, even better, we have 
 
@@ -211,6 +218,8 @@ Other useful references include
 * {#BlassScedrov83}[[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Advances in Mathematics **222** no.6 (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
+
+* {#Caramello12a}[[Olivia Caramello]], _Universal models and definability_ , Math. Proc. Cam. Phil. Soc. (2012) pp.279-302. ([arXiv:0096.3061](http://arxiv.org/abs/0096.3061))
 
 * {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([abstract](http://arxiv.org/abs/1205.2547))
 
