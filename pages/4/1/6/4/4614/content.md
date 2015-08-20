@@ -314,7 +314,7 @@ $$
 
 =--
 
-This appears as ([Seymour, prop. 3.1](#Seymour)).
+The proof can be found in [[Neil Strickland]]'s answer to this [mathoverflow question](). An incorrect argument appears as ([Seymour, prop. 3.1](#Seymour)) where it is claimed that $\underline{Sing}(X)$ is proper. In fact, the first degeneracy map $X \to [\Delta^1_{Top}, X]$ is not in general a cofibration as explained in the linked question.
 
 
 
@@ -909,7 +909,7 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
 
-* [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
+* [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam]())
 {#Segal68}
 
 but the construction was implicit in earlier discussion of [[classifying space]]s. The observation that this is a [[coend]] was noted in
@@ -931,30 +931,30 @@ An original reference on geometric realization of simplicial topological spaces 
 
 A standard textbook reference is chapter 11 of
 
-* [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* [[Peter May]], _The geometry of iterated loop spaces_ ([pdf]())
 {#May}
 
 A proof that good simplicial spaces are proper is implicit in the proof of lemma A.5 in ([Segal74](#Segal74)). Explicitly it appears in
 
-* L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](http://www.jstor.org/pss/1999197))
+* L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](.org/pss/1999197))
 {#Lewis}
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]] is in 
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460]())
  {#RobertsStevenson}
 
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461]())
  {#Stevenson}
 
 
 Comments on the relation between properness and cofibrancy in the [[Reedy model structure]] on $[\Delta^{op}, Set]$ are made in 
 
-* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
+* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:]()).
 
 The relation between (fat) geometric realization and [[homotopy colimit]]s is considered as prop. 17.5 and example 18.2 of
 
-* [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+* [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf]())
 {#Dugger}
 
 The proof that geometric realization of proper simplicial spaces preserves weak equivalences is from
@@ -968,7 +968,7 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
-* [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
+* [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf]())
 {#GepnerHenriques}
 
 
@@ -976,7 +976,7 @@ The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is 
 Globally Kan simplicial spaces are considered in 
 
 * E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
-type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf]())
 {#BrownSzczarba}
 
 The right adjoint to geometric realization of simplicial topological spaces is discussed in 
@@ -993,12 +993,12 @@ Geometric realization of general [[Cech nerve]]s is discussed in
 The behaviour of fibrations under geometric realization and the preservation of [[homotopy pullback]]s under geometric realization is discussed in
 
 * D. Anderson, _Fibrations and geometric realization_ , 
-Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
+Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid]())
 
 
 ## Refereeing
 
-This entry is under review. See <a href="http://ncatlab.org/nlabreviewed/published/geometric+realization+of+simplicial+topological+spaces">geometric realization of simplicial topological spaces</a> at [[nlabreviewed:HomePage|nLab (reviewed)]].
+This entry is under review. See <a href="">geometric realization of simplicial topological spaces</a> at [[nlabreviewed:HomePage|nLab (reviewed)]].
 
 
 [[!redirects geometric realization of a simplicial space]]
