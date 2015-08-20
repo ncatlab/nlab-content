@@ -1,0 +1,9 @@
+
+
+* [webpage](http://bilimakademisi.org/bilim-akademisi/kurucu-kisa-ozgecmisleri/prof-dr-rahmi-guven/)
+
+## related $n$Lab entries
+
+* [[M5-brane]], [[black brane]]
+
+category: people
