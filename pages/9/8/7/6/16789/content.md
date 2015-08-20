@@ -24,6 +24,14 @@ The [[sphere]] of [[dimension]] 4.
 
 ## Properties
 
+### Homotopy groups
+
+The [[homotopy groups]] of the 4-sphere in low degree are
+
+| $k$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11  | 12 |
+|-----|---|---|---|---|---|---|---|---|---|---|----|-----|----|
+| $\pi_k(S^4)$ | $\ast$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z} \times \mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_{24} \times \mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | 
+
 ### As part of the quaternionic Hopf fibration
 
 The 4-sphere participates in the [[quaternionic Hopf fibration]], the analog of the complex [[Hopf fibration]] with the field of [[complex numbers]] replaced by the division ring of [[quaternions]] or Hamiltonian numbers $\mathbb{H}$.
