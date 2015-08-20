@@ -52,9 +52,11 @@ $$
   \,.
 $$
 
-Now $E_{7(7)} \subset GL(56,\mathbb{R})$ is the [[subgroup]] of the [[general linear group]] acting on $W$ which preserves both the symplectic form $\omega$ as well as the quartic form $q$.
+Now $E_{7(7)} \subset GL(56,\mathbb{R})$ is the [[subgroup]] of the [[general linear group]] acting on $W$ which preserves both the symplectic form $\omega$ as well as the quartic form $q$. See also [below](#SmallestFundamentalRepresentation).
 
-(e.g. [Pacheco-Waldram 08, B.1](#PachecoWaldram08))
+This presentation is due to [Cartan](#Cartan), for review see [Cremmer-Julia 79, appendix B](#CremmerJulia79), [Pacheco-Waldram 08, B.1](#PachecoWaldram08). A construction via [[octonions]] is due to ([Freudenthal 54](#Freudenthal54)),  one via [[quaternions]] is due to ([Wilson 2014](#Wilson14)).
+
+
 
 ## Properties
 
@@ -92,7 +94,8 @@ $$
 
 where $\wedge^2 (\mathbb{R}^7) \subset \wedge^2 (\mathbb{R}^8)^\ast$ is regarded as the subspace of 2-forms with vanishing 8-components, and where  $\wedge^6 \mathbb{R}^7$ is the [[Poincaré duality|Poincaré dual]] to the complementary subspace of $\wedge^2 (\mathbb{R}^8^\ast)$ of 2-forms with non-trivial 8-component.
 
-The article ([Wilson 2014](#Wilson14)) by [[Robert Wilson]] describes how this $56$-dimensional real representation is closely related to a 28-dimensional _quaternionic_ representation, and this may be used to construct $E_7$ in a more natural way.
+This is due to [Cartan](#Cartan), for review see [Cremmer-Julia 79, appendix B](#CremmerJulia79) [Pacheco-Waldram 08, B.1](#PachecoWaldram08).
+
 
 #### $\mathbf{133}$ -- The adjoint representation
  {#AdjointRepresentation}
@@ -206,20 +209,39 @@ as the [[exceptional tangent bundle]]-structure to the 7-dimensional fiber space
 
 ### General
 
-* wikipedia, _[E7](http://en.wikipedia.org/wiki/E%E2%82%87)_
+The description of the defining fundamental $\mathbf{56}$-representation of $E_{7(7)}$ is due to
+
+* {#Cartan} [[Eli Cartan]], Thesis, in Oeuvres compl&#232;tes T1, Part I, Gauthier-Villars, Paris 1952
+
+and recalled for instance in 
+
+* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], appendix B of _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
+
+A construction via the [[octonions]] is due to
+
+* {#Freudenthal54} Hans Freudenthal, _Beziehungen der e7 und e8 zur Oktavenebene_, I, II, Indag. Math. 16 (1954), 218&#8211;230, 363&#8211;368. III, IV, Indag. Math. 17 (1955), 151&#8211;157, 277&#8211;285. V &#8212; IX, Indag. Math. 21 (1959), 165&#8211;201, 447&#8211;474. X, XI, Indag. Math. 25 (1963) 457&#8211;487
+
+reviewed in 
+
+* [[John Baez]], section 4.5 of _The Octonions_ ([arXiv:math/0105155](http://arxiv.org/abs/math/0105155))
 
 * {#CacciatoriEtAl10} Sergio L. Cacciatori, Francesco Dalla Piazza, Antonio Scotti, _E7 groups from octonionic magic square_ ([arXiv:1007.4758](http://arxiv.org/abs/1007.4758))
+
+A [[quaternion|quaternionic]] construction is given in 
 
 * {#Wilson14} [[Robert Wilson]], _A quaternionic approach to $E_7$_, Proc. Amer. Math. Soc. 142 (2014), 867-880. doi:[10.1090/S0002-9939-2013-11838-1](http://dx.doi.org/10.1090/S0002-9939-2013-11838-1), ([pre-publication version](http://www.maths.qmul.ac.uk/~raw/pubs_files/E7quat2.pdf)), ([talk notes](http://www.maths.qmul.ac.uk/~raw/talks_files/E7quattalk2.pdf)).
 
 
+See also
+
+* wikipedia, _[E7](http://en.wikipedia.org/wiki/E%E2%82%87)_
+
+
+
+
 ### In view of U-duality
 
-The hidden [[E7]]-[[U-duality]] symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to [[4d supergravity]] was first noticed in
-
-* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
-
-and more generally in 
+The hidden [[E7]]-[[U-duality]] symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to [[4d supergravity]] was first noticed in ([Cremmer-Julia 79](#CremmerJulia79)) and then expanded on in
 
 * [[Bernard de Wit]], [[Hermann Nicolai]], _D = 11 Supergravity With Local SU(8) Invariance_, Nucl. Phys. B 274, 363 (1986) ([spire](http://inspirehep.net/record/227409?ln=en)),  _Local SU(8) invariance in $d = 11$ supergravity_ ([spire](http://inspirehep.net/record/218601?ln=en))
 
