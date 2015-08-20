@@ -118,7 +118,7 @@ In this decomposition the subspace corresponding to the subalgebra $\mathfrak{su
 $$
   \mathfrak{su}(8)
   \simeq
-  (\mathbb{R}^8 \otimes (\mathbb{R}^8)^\ast)_{skew}
+  \mathfrak{so}(8)
   \oplus
   (\wedge^4 (\mathbb{R}^8)^\ast)_-
   \,,
@@ -132,7 +132,7 @@ Under $GL(7,\mathbb{R}) \hookrightarrow SL(8,\mathbb{R})$ the full adjoint repre
 $$
   \mathbf{133}
   \simeq
-  \left(\mathbb{R}^7 \oplus (\mathbb{R}^7)^\ast\right)
+  \left(\mathbb{R}^7 \otimes (\mathbb{R}^7)^\ast\right)
   \oplus 
   \left(\wedge^6 \mathbb{R}^7 \oplus \wedge^6 (\mathbb{R}^7)^\ast\right)
   \oplus
@@ -151,7 +151,7 @@ Taken together this means that under $GL(7,\mathbb{R})$ the subspace $\mathbb{su
 
 1. sums of a 3-form with its 8d-Hodge+7d-Poincar&#233;-dual 3-vector;
 
-1. sums pf a 6-form with its dual 6-vector
+1. sums of a 6-form with its dual 6-vector
 
 hence is
 
@@ -167,7 +167,7 @@ Hence the [[tangent space]] to the [[coset]] $E_{7(7)}/(SU(8)/\mathbb{Z}_2)$ may
 $$
   \mathfrak{e}_7/\mathfrak{su}(8)
   \simeq
-  \mathbb{R}^7\odot (\mathbb{R}^7)^\ast
+  \odot^2 (\mathbb{R}^7)^\ast  
   \oplus
   \wedge^3 (\mathbb{R}^7)^\ast
   \oplus
