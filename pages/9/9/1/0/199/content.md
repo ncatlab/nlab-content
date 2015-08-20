@@ -20,7 +20,7 @@
 
 ## Definition
 
-Given a [[field]] $k$, the [[category]] **$Vect_k$** is [[category]] whose [[object|objects]] are [[vector space]]s and whose [[morphism]]s are [[linear map]].   
+Given a [[field]] $k$, the [[category]] **$Vect_k$** is [[category]] whose [[object|objects]] are [[vector space]]s and whose [[morphism]]s are [[linear map]]s.   
 
 If the field $k$ is understood, one often just writes $Vect$.
 
