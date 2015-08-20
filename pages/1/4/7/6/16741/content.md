@@ -76,9 +76,9 @@ Let $\mathcal{E}$ be a [[topos]] and $m$ be the De Morgan topology on it.
 * For any [[dense subtopos|dense topology]] $j$ on $\mathcal{E}$ , $Sh_m(Sh_j(\mathcal{E}))=Sh_{m\vee j}(\mathcal{E})$.
 =--
 
-[Caramello (2009)](#Caramello09), prop.1.5.
+[Caramello (2009)](#Caramello09), prop.1.5. In fact, in the second statement it suffices to demand that $j$ is a [[weakly open topology]] i.e. the [[associated sheaf functor]] $a_j:\mathcal{E}\to Sh_j(\mathcal{E})$ preserves the pseudo-complementation operator in the lattices of subobjects (cf. [Caramello (2012, prop.4.5)](#Caramello12)).
 
-Notice that $Sh_{m\vee j}(\mathcal{E})=Sh_{m}(\mathcal{E})\cap Sh_{ j}(\mathcal{E})$ and, accordingly, for a dense subtopos De Morganization simply amounts to intersection with $Sh_m(\mathcal{E})$.
+Notice that $Sh_{m\vee j}(\mathcal{E})=Sh_{m}(\mathcal{E})\cap Sh_{ j}(\mathcal{E})$ and, accordingly, for a dense or, more generally a weakly open subtopos De Morganization simply amounts to intersection with $Sh_m(\mathcal{E})$.
 
 ## Geometric morphisms preserving De Morganizations
 
