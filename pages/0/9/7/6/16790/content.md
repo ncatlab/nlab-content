@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [[horizon]].
+
+## Related concepts
+
+* [[anti-de Sitter spacetime]]
+
+## References
+
+* Wikipedia, _[Near-horizon metric](https://en.wikipedia.org/wiki/Near-horizon_metric)_
+
+* Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
+
+
+[[!redirects near-horizon geometries]]
+
+[[!redirects near horizon geometry]]
+[[!redirects near horizon geometries]]
+
+
+[[!redirects near-horizon limit]]
+[[!redirects near-horizon limits]]
+
+[[!redirects near-horizon metric]]
+[[!redirects near-horizon metrices]]
+
