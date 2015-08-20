@@ -89,11 +89,15 @@ Examples of regular categories include the following:
 
 * The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
 
-* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. 
+* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. 
 
 * Any [[abelian category]] is regular. 
 
 * If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
+
+* If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Elephant]]. 
+
+* [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
 
 
 Examples of categories which are **not regular** include 
