@@ -145,7 +145,7 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 See also
 
-* [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and C.N. Pope, _Supersymmetric M3-branes and G2 Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
+* [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and [[Christopher Pope]], _Supersymmetric M3-branes and G2 Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
 
 * {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
 
