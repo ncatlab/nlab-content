@@ -24,7 +24,7 @@ The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] soluti
 
 Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
 
-The near-horizon geometry of these black branes is generically that of [[anti de Sitter spacetime]]. To the extent that the [[worldvolume]] theory of the branes is a [[superconformal QFT]], this is the origin of the [[AdS-CFT correspondence]].
+The [[near-horizon geometry]] of these black branes is generically that of [[anti de Sitter spacetime]] times a [[sphere]]. To the extent that the [[worldvolume]] theory of the branes is a [[superconformal QFT]], this is the origin of the [[AdS-CFT correspondence]].
 
 ## Properties
 
