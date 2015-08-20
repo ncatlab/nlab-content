@@ -125,8 +125,10 @@ Another, slightly more general, way to state this is is the following (cf. [Blas
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}\cong\mathcal{E}_{\not\not}$.
+Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
 =--
+
+Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ wouldn't do.
 
 As the smallest dense subtopos, $\mathcal{E}_{\not\not}$ becomes important for Lawvere's calculus of [[Aufhebung]]:
 
