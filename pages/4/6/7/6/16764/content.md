@@ -1,1 +1,1 @@
-[[!redirects metavariable]]
+category: empty
