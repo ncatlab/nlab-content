@@ -136,7 +136,7 @@ Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is 
 
 **Proof**: Let $X\coprod Y = 1$ be a decomposition of $1$ in $\mathcal{E}$. Since $i^\ast$ is a left exact left adjoint, it preserves coproducts and the terminal object and $i^\ast(X)\coprod i^\ast (Y)$ is therefore a decomposition of $1$ in $Sh_j(\mathcal{E})$ hence trivial by assumption. Let's say $i^\ast(X)\simeq\emptyset$ but $Sh_j(\mathcal{E})$ is dense and therefore we can conclude $X\simeq\emptyset$ hence $X\coprod Y = 1$ is trivial as well. $\qed$
 
-Finally, let us record the following observation that applies e.g. to presheaf toposes $Set^{M^{op}}$ on monoids:
+Next, let us record the following observation that applies e.g. to presheaf toposes $Set^{M^{op}}$ on monoids:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -144,6 +144,15 @@ Let $\mathcal{E}$ be a [[two-valued topos]]. Then every non-trivial subtopos $Sh
 =--
 
 **Proof**: Truth values $1\to\Omega$ correspond precisely to subobjects of $1$. Hence the $j$-closure $ext(j)$ of $\emptyset\rightarrowtail 1$ is either $\emptyset$ or $1$. In the first case, $Sh_j(\mathcal{E})$ is dense, in the second, from $X\times 1=1$ for $X\in Cl(Sh_j(\mathcal{E}))$ follows triviality. $\qed$
+
+Combining this with the [above](#prop_boolean) shows that _two-valued and Boolean toposes are opposite extremes_ when it comes to dense subtoposes and the following observation (cf. [Caramello (2009)](#Caramello09); prop. 10.1) follows immediately:
+
++-- {: .num_prop}
+###### Proposition
+A topos $\mathcal{E}$ that is two-valued and Boolean has no non-trivial subtoposes. $\qed$
+=--
+
+In other words, two-valued Boolean toposes are atoms in the lattice of subtoposes. Notice that this applies e.g. to well-pointed toposes.
 
 ### An example: persistent localizations
 
