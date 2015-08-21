@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -26,11 +25,7 @@ A [[coherent functor]] serves as a morphism between coherent categories.
 
 The [[internal logic]] of a coherent category is [[coherent logic]].
 
-An **infinitary coherent category** is a [[well-powered category|well-powered]] [[regular category]] in which the subobject posets $Sub(X)$ have all _[[small set|small]]_ unions which are [[pullback stability|stable under pullback]].  Infinitary coherent categories are also called __[[geometric category|geometric categories]]__.
-
-+--{: .query}
-[[Mike Shulman]]: I'm starting to feel that well-poweredness shouldn't be included here.  Any thoughts?
-=--
+An **infinitary coherent category** is a [[regular category]] in which the subobject posets $Sub(X)$ have all _[[small set|small]]_ unions which are [[pullback stability|stable under pullback]].  Infinitary coherent categories are also called __[[geometric category|geometric categories]]__.  (These are sometimes also required to be [[well-powered category|well-powered]]; see their page for details.)
 
 See [[familial regularity and exactness]] for a general description of the spectrum from regular categories through finitary and infinitary coherent categories.
 
@@ -42,8 +37,6 @@ See [[familial regularity and exactness]] for a general description of the spect
 Any coherent category automatically has a strict [[initial object]].  Moreover, if an object $X$ is the [[union]] of two subobjects $A\hookrightarrow X$ and $B\hookrightarrow X$ such that $A\cap B = 0$, then $X = A\amalg B$ is their [[coproduct]].  Thus, if every pair of objects can be embedded [[disjoint coproduct|disjointly]] in some third object, then a coherent category has disjoint finite coproducts and is [[extensive category|extensive]] (or "positive").
 
 Extensivity is the analogue for coherent categories of [[exact category|exactness]] for regular categories.  A coherent category which is both extensive and exact is called a [[pretopos]].
-
-
 
 
 ### The coherent topology
@@ -67,6 +60,7 @@ Just like the [[reg/lex completion]], there is a "coh/lex completion" which make
 
 Similarly, there are "[[pretopos completion]]s" analogous to the [[ex/reg completion]] and the [[ex/lex completion]].
 
+
 ### Subobjects, slices and internal logic
  {#SlicesAndInternalLogic}
 
@@ -80,10 +74,10 @@ $$
 
 to the category of [[distributive lattices]] is the _[[coherent hyperdoctrine]]_ of the coherent category $\mathcal{C}$.
 
+
 ### Topos of types
 
 See _[[topos of types]]_.
-
 
 
 ## Related concepts
@@ -99,13 +93,14 @@ See _[[topos of types]]_.
 * [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
 
 
-
 ## References
 
 Section A1.4 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+
+[[!redirects coherent category]]
 [[!redirects coherent categories]]
 
 [[!redirects pre-logos]]
