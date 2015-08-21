@@ -27,11 +27,11 @@ If this is an [[open geometric morphism]] (or an [[essential geometric morphism]
 
 ### Sheaves, localization, closure and reflection
 
-If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
+If $\mathcal{E}$ is an [[elementary topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
 
 ### For classifying toposes
 
-$\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to **deductively closed quotient theories** of $T$ ([Caramello (2009), thm. 3.6 p.15](#Caramello09)) i.e. passage to a subtopos corresponds to adding further geometric [[axioms]] to $T$ - localizing geometrically amounts to theory refinement logically.
+Every Grothendieck topos $\mathcal{E}$ over $Set$ is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to **deductively closed quotient theories** of $T$ ([Caramello (2009)](#Caramello09); thm. 3.6) i.e. passage to a subtopos corresponds to adding further geometric [[axioms]] to $T$ - localizing geometrically amounts to theory refinement logically.
 
 
 ### The lattice of subtoposes
@@ -42,29 +42,37 @@ The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes 
 +-- {: .num_prop #BooleantoposesAreAtoms}
 ###### Proposition
 
-The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the 2-valued [[Boolean topos|Boolean]]  subtoposes_ of $\mathcal{E}$.
+The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the two-valued [[Boolean topos|Boolean]]  subtoposes_ of $\mathcal{E}$.
 
 =--
 
-([Caramello (2009), prop. 10.1 p.58](#Caramello09)).
+([Caramello (2009)](#Caramello09); prop. 10.1). This follows from the fact that two-valued and Boolean toposes are opposite extremes when it comes to dense subtoposes: in a two-valued topos every non-trivial subtopos is dense, whereas a Boolean topos has no non-trivial dense subtopos (cf. at [[dense subtopos]] for further details).
 
 ## Related pages
 
 * [[open subtopos]]
+
 * [[closed subtopos]]
+
+* [[locally closed subtopos]]
+
 * [[dense subtopos]]
+
+* [[level]]
+
+* [[co-Heyting boundary]]
 
 ##References
 
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
-* {#Caramello09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ ,  (2009) ([arXiv:0905.0299](http://arxiv.org/abs/0905.0299))
+* {#Caramello09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299 (2009). ([abstract](http://arxiv.org/abs/0905.0299), pp.15,58)
 
 * H. Forssell, _Subgroupoids and quotient theories_ , TAC **28** no.18 (2013) pp.541-551. ([pdf](http://www.emis.de/journals/TAC/volumes/28/18/28-18.pdf))
 
-* [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. pp.195-223.
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. (pp.195-223)
 
-* {#KL89}[[G. M. Kelly]], [[William Lawvere|F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], [[William Lawvere|F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.261-299.
 
 
 [[!redirects Subtopos]]
