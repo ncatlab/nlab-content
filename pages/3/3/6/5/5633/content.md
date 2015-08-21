@@ -1,6 +1,26 @@
 
 * [website](http://www.phys.vt.edu/~ersharpe/)
 
-Eric Sharpe works on [[theoretical physics]] related to [[string theory]] with an emphasis on structural aspects and mathematical formalization. He has early on realized the role of [[stack]]s and [[gerbe]]s in string theory (see his work on "[[discrete torsion]]"). More recently he has been investigating [[quantum sheaf cohomology]]. He got his Phd under [[Edward Witten]].
+Eric Sharpe works on [[theoretical physics]] related to [[string theory]] with an emphasis on structural aspects and mathematical formalization. He got his Phd under [[Edward Witten]].
 
+Sharpe has early on realized the role of [[higher differential geometry]] in the form of [[stacks]] and [[gerbes]] in [[string theory]]. He identified string theorists's  "[[discrete torsion]]" with the [[equivariant cohomology]] of [[bundle gerbes]] on [[orbifolds]] ([Sharpe 99](#Sharpe99), [Sharpe 01](#Sharpe01)) and he was the first to consider the possibility that  [[target spaces]] for [[string]] [[sigma-models]] may themselves be [[stacks]]/[[gerbes]] ([Pantev-Sharpe 05a](#PantevSharpe05a), [Pantev-Sharpe 05b](#PantevSharpe05b), [Hellerman-Sharpe 10](#HellermanSharpe10)).
+
+More recently he has been investigating [[quantum sheaf cohomology]].
+
+In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2-group]] and generally [[n-group]] ([[infinity-group]]) global [[higher gauge symmetry]] in [[quantum field theory]] and [[string theory]].
+
+* {#Sharpe99} [[Eric Sharpe]], _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
+
+  _Discrete Torsion and Gerbes II_ ([arXiv:hep-th/9909120](http://arxiv.org/abs/hep-th/9909120))
+
+* {#Sharpe01} [[Eric Sharpe]],  _Discrete Torsion, Quotient Stacks, and String Orbifolds_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
+
+* {#PantevSharpe05a} [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
+
+* {#PantevSharpe05b} [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+ 
+* {#HellermanSharpe10} S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
+
+* {#Sharpe15} Eric Sharpe, _Notes on generalized global symmetries in QFT_ ([arXiv:1508.04770](http://arxiv.org/abs/1508.04770))
+ 
 category: people
