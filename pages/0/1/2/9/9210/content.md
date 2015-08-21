@@ -44,7 +44,7 @@ This unique differential 1-form $\theta \in \Omega^1(T^* X)$ is called the **Lio
 
 ### General abstract
 
-The notion of the Liouville-Poincar&#233; 1-form can be axiomatized in [[differential cohesion]].
+The notion of the Liouville-Poincar&#233; 1-form has an axiomatization in [[differential cohesion]], see there the section _[Poincar&#233; cocycle](differential+cohesive+%28infinity%2C1%29-topos#PoincareCocycle)_.
  
 
 ## Related concepts
@@ -60,5 +60,4 @@ The notion of the Liouville-Poincar&#233; 1-form can be axiomatized in [[differe
 
 
 [[!redirects Liouville-Poincare 1-form]]
-
 
