@@ -33,6 +33,7 @@ Here are a few equivalent ways to phrase the combined condition:
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an [[anti-ideal]].)
 
+
 ## Results 
 
 ### Kaplansky's theorem 
@@ -99,7 +100,7 @@ Local rings are also important in [[deformation theory]]. One might define an in
 
 ## In weak foundations
 
-Local rings are often more useful than fields when doing mathematics [[internalization|internally]]. For one thing, the definition make sense in any [[coherent category]]. But unlike the definition of [[discrete field]], which is also coherent, it is satisfied by rings such as the ring of (located Dedekind) [[real numbers]]. Rather than mod out by the ideal of non-invertible elements, you take care to use only properties that are invariant under multiplication by an invertible element.
+Local rings are often more useful than fields when doing mathematics [[internalization|internally]]. For one thing, the definition make sense in any [[coherent category]]. But unlike the definition of [[discrete field]] (which is also coherent), it is satisfied by a [[real-numbers object]]. Rather than mod out by the ideal of non-invertible elements, you take care to use only properties that are invariant under multiplication by an invertible element.
 
 In [[constructive mathematics]], one could do the same thing, but it\'s more common to use the notion of [[Heyting field]]. This is closely related, however; the quotients of local rings are precisely the Heyting fields (which are themselves local rings). In fact, one can define an [[apartness relation]] (like that on a Heyting field) in any local ring: $x \# y$ iff $x - y$ is invertible. Then the local ring is a Heyting field if and only if this apartness relation is [[tight relation|tight]].
 
@@ -131,6 +132,7 @@ A *local homomorphism* between local rings is an internal ring homomorphism betw
 
 Possible to-dos: say something about $m$-adic topology, completion, Zariski topos as classifying topos... 
 
+
 ## Related concepts
 
 * [[localization of a commutative ring]]
@@ -140,6 +142,7 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 * [[valuation ring]] 
 
 * [[Zariski topos]] 
+
 
 [[!redirects local ring]]
 [[!redirects local rings]]
