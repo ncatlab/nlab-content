@@ -1,1 +1,13 @@
-The __zero ideal__ of a [[ring]] $R$ is the two-sided [[ideal]] that consists entirely of the zero element.  It may be denoted $\{0\}$, $\mathbf{0}$, or simply $0$.
+
+The __zero ideal__ or __trivial ideal__ of a [[ring]] $R$ is the two-sided [[ideal]] that consists entirely of the [[zero]] element.  It may be denoted $\{0\}$, $\mathbf{0}$, or simply $0$ (since it is the zero element of the [[rig of ideals]]).
+
+We may generalize to a [[rig]], including the special case of a [[distributive lattice]] (in which the zero element is the [[bottom element]]), then generalize further to any [[poset]] with a bottom element.
+
+The trivial ideal of $R$ is the [[intersection]] of all of the ideals of $R$.  (If $R$ is a poset without a bottom element, then we may still consider the intersection of all of its ideals, but I\'m not sure if this deserves the name.)
+
+
+[[!redirects zero ideal]]
+[[!redirects zero ideals]]
+
+[[!redirects trivial ideal]]
+[[!redirects trivial ideals]]
