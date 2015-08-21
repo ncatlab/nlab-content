@@ -272,6 +272,11 @@ Textbook accounts include
 
 * [[Joseph Polchinski]], _[[String theory]]_, part I, appendix A
 
+Discussion in [[constructive quantum field theory]] includes
+
+* [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
+
+
 The [[worldline]] path integral as a way to compute [[scattering amplitudes]] in [[QFT]] was understood in 
 
 * [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
