@@ -237,7 +237,7 @@ The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine 
 The Green-Schwarz action functional of a $p$-brane propagating on an $d$-dimensional target spacetimes makes sense only for special combinations of $(p,d)$, for which there are suitanble [[Lie algebra cohomology|super Lie algebra cocycles]] on the super translation Lie algebra
 (see [above](#DefinitionWZWTerm)).
 
-The corresponding table has been called the **brane scan** in the literature, now often called the "old brane scan", since it has meanwhile been further completed (see below). In ([Duff 87](#Duff)) the "old brane scan" is displayed as follows.
+The corresponding table has been called the **brane scan** in the literature, now often called the "old brane scan", since it has meanwhile been further completed (see below). In ([Duff 87](#Duff87)) the "old brane scan" is displayed as follows.
 
 [[branescan.gif:pic]]
 
@@ -479,7 +479,7 @@ For $d = 11$ the relevant [[super Lie algebra]] [[Lie algebra cohomology|cocycle
 
 A review is in 
 
-* {#Duff} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+* {#Duff87} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([spire](https://inspirehep.net/record/248034?ln=de))
 
 
 from which the above table is taken.
