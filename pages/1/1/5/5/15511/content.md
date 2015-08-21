@@ -1,2 +1,2 @@
 [[!redirects empty 99]]
-category:empty
+category: empty
