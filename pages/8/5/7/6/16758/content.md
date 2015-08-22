@@ -60,6 +60,12 @@ A pullback characterisation of [[open geometric morphisms]] from Johnstone ([200
 A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback of any [[bounded geometric morphism]] with codomain $\mathcal{E}$ is skeletal.
 =--
 
+## Remark
+
+Skeletal morphisms between [[frame|frames]] are studied in [Banaschewski-Pultr (1996)](#Banaschewski_Pultr96), called _weakly open_ there.
+
+The equivalent concept for topological spaces is discussed in [Mioduszewski-Rudolf (1969)](#Mioduszewski_Rudolf69).
+
 ## Related entries
 
 * [[open geometric morphism]]
@@ -76,6 +82,8 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback 
 
 ## References
 
+* {#Banaschewski_Pultr96}B. Banaschewski, A. Pultr, _Booleanization_ , Cah. Top. G&#233;om. Diff. Cat. **XXXVII** no.1 (1996) pp.41-60. ([numdam](http://numdam.mathdoc.fr/numdam-bin/fitem?id=CTGDC_1996__37_1_41_0))
+
 * [[Peter Johnstone]], _Factorization theorems for geometric morphisms II_ , pp.216-233 in LNM **915** Springer Heidelberg 1982.
 
 * {#J02}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol.II_ , Oxford UP 2002. (section D4.6, pp.1006-1010)
@@ -84,6 +92,7 @@ A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback 
 
 * {#Johnstone13}[[Peter Johnstone]], _The Gleason Cover of a Realizability Topos_ , TAC **28** no.32 (2013) pp.1139-1152. ([abstract](http://www.tac.mta.ca/tac/volumes/28/32/28-32abs.html))
 
+* {#Mioduszewski_Rudolf69}J. Mioduszewski, L. Rudolf, _H-closed and extremally disconnected Hausdorff spaces_ , Dissertationes Math. **66** 1969. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-99c47193-1b38-4485-9b3f-62fc71f8f83b))
 
 [[!redirects skeletal geometric morphisms]]
 [[!redirects skeletal morphism]]
