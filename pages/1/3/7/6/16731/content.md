@@ -39,6 +39,8 @@ Chengming Bai (Chern Institute, Nankai University)
 
 Yanhui Bi (Nanchang Hangkong University)
 
+Christian Blohmann (Max Planck Institute for Mathematics)
+
 Francesco Bonechi (INFN Sezione di Firenze)
 
 Liqiang Cai (Jilin University)
@@ -51,17 +53,21 @@ Lu Ding* (Chinese Academy of Science)
 
 Xiangmao Ding* (Chinese Academy of Science)
 
+Samuel Evens (University of Notre Dame)
+
 Huiju Fan (Peking University)
 
 Anna Fino* (Universita di Torino)
 
+Janusz Grabowski (Polish Academy of Sciences)
+
 Jinsong He* (Ningbo University)
+
+Wei Hong (Wuhan University)
 
 Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
 
 Jianxun Hu* (Sun Yat-Sen University)
-
-Wei Hong (Wuhan University)
 
 Yvette Kosmann-Schwarzbach (Centre de Math&#180;ematiques, UMR)
 
@@ -73,13 +79,13 @@ Si Li (Boston University)
 
 Hui Li (Suzhou University)
 
-Qingping Liu* (China University of Mining and Technology)
+Jiefeng Liu (Jilin University)
 
-Zhangju Liu (Peking University)
+Qingping Liu* (China University of Mining and Technology)
 
 Siqi Liu* (Tshinghua University)
 
-Jiefeng Liu (Jilin University)
+Zhangju Liu (Peking University)
 
 Jianghua Lu  (The University of Hong Kong)
 
@@ -109,17 +115,19 @@ Mathieu Stienon (Penn State University)
 
 Bingjun Su (Jilin University)
 
+Shanzhong Sun (Capital Normal University)
+
 Xiang Tang (Washington University in St. Louis)
 
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
 Aissa Wade (Penn State University)
 
-Shikun Wang* (Chinese Academy of Science)
-
 Hong Wang (Nankai University)
 
 Qi Wang (Jilin University)
+
+Shikun Wang* (Chinese Academy of Science)
 
 Ke Wu* (Capital Normal University)
 
@@ -129,17 +137,19 @@ Xiaomeng Xu (University of Geneva)
 
 Yanbin Yin (Henan University)
 
-Youjin Zhang* (Tshinghua University)
-
 Bin Zhang* (Sichuan University)
 
 Tao Zhang (Henan Normal University)
+
+Youjin Zhang* (Tshinghua University)
 
 Zhujun Zheng* (South China University of Technology)
 
 Deshou Zhong (China Youth University of Political Studies)
 
 Chenchang Zhu  (Gottingen University)
+
+Nguyen Tien Zung* (Institut de Mathematiques de Toulouse)
 
 \*-to be confirmed
 
