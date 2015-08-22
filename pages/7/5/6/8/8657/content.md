@@ -73,5 +73,7 @@ Similarly, the [[adjoint lifting theorem]] states conditions on a square of func
 * [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_ , TAC **23** no.3 (2010) pp.42-75. ([abstract](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
 {#StreetVerity}
 
+* [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_ , Math. Ann. **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
+
 [[!redirects adjoint triangle]]
 [[!redirects adjoint triangles]]
