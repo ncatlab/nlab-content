@@ -71,6 +71,7 @@ In the absence of a proper microscopic definition of M-theory, the first point i
 
 1. <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> The [[blow-up]] of an [[ADE-singularity]] happens to be a union of [[2-spheres]] touching pairwise in one point, such as to form the [[Dynkin diagram]] of the [[simple Lie group]] which under the [[ADE classification]] corresponds to the given [[orbifold]] isotropy group. [[M2-branes]] may [[wrapped brane|wrap]] these 2-cycles and since before blow-up they are of vanishing size, this corresponds to [[double dimensional reduction]] under which the M2-branes become [[strings]] stretching between coincident [[D-branes]]. These are well-understood to be the quanta of nonabelian gauge [[Chan-Paton gauge fields]] located on the D-branes, and hence these same nonabelian degrees of freedom have had to be present already at the level of the M2-branes.  
 
+But notice that at least the $SU(N)$-enhancement of the [[effective field theory]] at $\mathbb{Z}_k$-singularities matches the $SU(N)$-enhancement of the [[worldvolume]] theory of $N$-coincident [[M2-branes]] sitting at the orbifold singularity: this is the statement of the [[ABJM model]].
 
 
 
@@ -209,7 +210,6 @@ the [[moduli space]] and [[moduli stabilization]] is discussed in
 * {#AcharyaBobkov08} [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the G2-MSSM_, HEP 1009:001,2010 ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
 
 * [[Spiro Karigiannis]], [[Naichung Conan Leung]]_, _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
-
 
 the [[strong CP problem]] is discussed in
 
