@@ -276,6 +276,14 @@ Discussion in [[constructive quantum field theory]] includes
 
 * [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
 
+* Simon, _Functional Integration in Quantum Physics_ (AMS, 2005)
+
+* [[Sergio Albeverio]], Raphael H&#248;egh-Krohn, Sonia Mazzucchi. _Mathematical theory of Feynman path integrals - An Introduction_, 2 nd corrected and enlarged edition,
+Lecture Notes in Mathematics, Vol. 523. Springer, Berlin, 2008 ([ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete))
+
+* Sonia Mazzucchi, _Mathematical Feynman Path Integrals and Their Applications_,
+World Scientific, Singapore, 2009.
+
 
 The [[worldline]] path integral as a way to compute [[scattering amplitudes]] in [[QFT]] was understood in 
 
@@ -325,8 +333,6 @@ following [Norris 92, theorem (34)](#Norris92).
 
 Other references on mathematical aspects of path integrals include
 
-* Sergio Albeverio, Raphael Hoegh-Krohn, Sonia Mazzucchi,
-_Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
 
 * [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
 ormat=complete))
