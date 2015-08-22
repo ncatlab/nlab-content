@@ -1,20 +1,46 @@
-# Definition #
 
-An **extremal epimorphism** (also called a **cover**) in a [[category]] $C$ is an [[epimorphism]] $e$ such that if $e = m g$ where $m$ is a [[monomorphism]], then $m$ is an isomorphism.
+# Extremal morphisms
+* table of contents
+{: toc}
 
-The dual notion is an **extremal monomorphism**.
+## Definition
 
-# Remarks #
+An __extremal epimorphism__ (also sometimes called a _[[cover]]_) in a [[category]] $C$ is a [[morphism]] $e$ such that if $e = m \circ g$ where $m$ is a [[monomorphism]], then $m$ is an [[isomorphism]].
 
-* If $C$ has [[equalizer]]s, then any morphism with the property above must automatically be an epimorphism.
+The dual notion is an __extremal monomorphism__: a morphism $m$ such that if $m = g \circ e$ where $e$ is an [[epimorphism]], then $e$ is an isomorphism.
 
-* Any [[strong epimorphism]] is extremal.  The converse is true if $C$ has [[pullback]]s.
+Despite the terminology, it is not necessarily true that an extremal epimorphism is in fact an [[epimorphism]], so sometimes this is required as well (and dually for extremal monomorphisms).  On the other, this does often follow, as in the first remark below.
+
+
+## Remarks
+
+* If $C$ has all [[equalizers]], then any extremal epimorphism must actually be an [[epimorphism]].
+
+* Any [[strong epimorphism]] is extremal.  The converse is true if $C$ has all [[pullbacks]].
 
 * Any [[regular epimorphism]] is strong, and hence extremal.  The converse is true if $C$ is [[regular category|regular]].
 
-* An [[image|image factorization]] of a morphism $f$ is, by definition, a factorization $f= m e$ where $m$ is a monomorphism and $e$ is an extremal epimorphism.
+* An [[image|image factorization]] of a morphism $f$ is, by definition, a factorization $f = m \circ e$ where $m$ is a [[monomorphism]] and $e$ is an extremal epimorphism.
+
+Of course, the dual properties are all true of extremal monomorphisms.  (See [[coequalizer]], [[monomorphism]], [[strong monomorphism]], [[pushout]], [[regular monomorphism]], [[coregular category]], [[coimage factorization]], [[epimorphism]].)
 
 
+## Related concepts
+
+* [[monomorphism]], [[epimorphism]]
+* __extremal monomorphism__, __extremal epimorphism__
+* [[strong monomorphism]], [[strong epimorphism]]
+* [[strict monomorphism]], [[strict epimorphism]]
+* [[regular monomorphism]], [[regular epimorphism]]
+* [[normal monomorphism]], [[normal epimorphism]]
+* [[effective monomorphism]], [[effective epimorphism]]
+* [[split monomorphism]], [[split epimorphism]]
+
+
+[[!redirects extremal morphism]]
+[[!redirects extremal morphisms]]
+
+[[!redirects extremal epimorphism]]
 [[!redirects extremal epimorphisms]]
 [[!redirects extremal epi]]
 [[!redirects extremal epis]]
