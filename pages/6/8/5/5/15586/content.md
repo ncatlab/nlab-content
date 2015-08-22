@@ -116,6 +116,8 @@ Alternative or complementary approaches are
 
 * G. Blanc, M. R. Donnadieu, _Axiomatisation de la cat&#233;gorie des cat&#233;gories_ , Cah.Top.G&#233;om.Diff.Cat. **XVII** no. 2 (1976) pp.1-35. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_2/CTGDC_1976__17_2_135_0/CTGDC_1976__17_2_135_0.pdf))
 
+* M. W. Bunder, _Category Theory Based on Combinatory Logic_ , Arch. Math. Logik **24** (1984) pp.1-15. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002045680))
+
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
 
 * H. Tsukuda, _Category theory not based upon set theory_ , Sci. Papers
