@@ -65,12 +65,13 @@ and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ center
 * Takeshi &#212;no, _On the Hopf fibration $S^7 \to S^4$ over $Z$_, Nagoya Math. J.
 Volume 59 (1975), 59-64. ([Euclid](http://projecteuclid.org/euclid.nmj/1118795554))
 
-An [[ADE classification]] of finite subgroups of groups $SO(8)$ [[free action|acting freely]] on $S^7$ such that the quotient is spin and has at least four [[Killing spinors]]
-
+An [[ADE classification]] of finite subgroups of groups $SO(8)$ [[free action|acting freely]] on $S^7$ such that the quotient is spin and has at least four [[Killing spinors]] (see also at [[ABJM model]]) is in
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_ ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761))
+
+Discussion of [[exotic smooth structures]] on 7-spheres includes
 
 * Wikipedia, _Exotic sphere_, [link](https://en.wikipedia.org/wiki/Exotic_sphere). 
 
