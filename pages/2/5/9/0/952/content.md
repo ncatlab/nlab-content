@@ -38,6 +38,8 @@ use both expressions in my writings and every day usage.
 * Marco Grandis, _Finite sets and symmetric simplicial sets_ [PDF](http://www.tac.mta.ca/tac/volumes/8/n8/n8.pdf)
 
 * Marco Grandis, _Higher fundamental functors for simplicial sets_ [arXiv](http://arxiv.org/abs/math/0009004)
+
+* J. Rosick&#253; and W. Tholen, Left-determined model categories and universal homotopy theories, Trans. Amer. Math. Soc. 355 (2003), 3611-3623.
 [[!redirects symmetric simplicial set]]
 [[!redirects symmetric simplicial sets]]
 [[!redirects symmetric sets]]
