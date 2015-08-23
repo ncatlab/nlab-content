@@ -388,9 +388,13 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
 
-* [[Bill Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
+* [[William Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
-Still worthwhile reading are the following early papers:
+The concept was then streamlined in
+
+* [[Samuel Eilenberg]], J. B. Wright, _Automata in General Algebras_ , Information and Control **11** (1967) pp.452-470.
+
+Also still worthwhile reading are the following early papers:
 
 * [[Gavin Wraith]], _Algebraic Theories_ , Aarhus Lecture Notes Series no.22 (1969). ([pdf, 3,7MB](http://homepages.inf.ed.ac.uk/s0894694/scans/wraith-algebraic-theories.pdf))
 
@@ -421,6 +425,8 @@ For a comparison with the concept of monads see
 * [[Eugenia Cheng]], _Distributive laws for Lawvere theories_ , arXiv:1112.3076 (2011). ([abstract](http://arxiv.org/abs/1112.3076))
 
 Other references are
+
+* M. Jibladze, T. Pirashvili, _Cohomolgy of Algebraic Theories_ , J. Algebra **137** no.2 (1991) pp.253&#8211;296.
 
 * [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ , arXiv:0810.2578. ([abstract](http://arxiv.org/abs/0810.2578))
 
