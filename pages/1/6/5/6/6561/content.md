@@ -50,7 +50,7 @@ The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann su
 
 The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
 
-More generally, this kind of construction allows todescrive the 6d (2,0)-theory as a "[[2d SCFT]] with values in [[super Yang-Mills theory|4d SYM]]". See at _[[AGT correspondence]]_ for more on this.
+More generally, this kind of construction allows to describe the 6d (2,0)-theory as a "[[2d SCFT]] with values in [[super Yang-Mills theory|4d SYM]]". See at _[[AGT correspondence]]_ for more on this.
 
 
 ### Twistor space description
