@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Archive
++-- {: .hide}
 [[!include all changes]]
-</div>
+=--
+=--
+=--
 
 Archive of changes made during September 2009.
 The substantive content of this page should **not** be altered.
@@ -20,7 +26,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
 * [[Jon Awbrey]]:
 
-   * Added a &rsquo;blink (= stub-link) at [[higher order proposition]].
+   * Added a 'blink (= stub-link) at [[higher order proposition]].
 
    * Added a quote to [[precursors]] in which Hilbert borrows an idea from Kant.
 
@@ -229,11 +235,11 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
   * some content fed into [[supermanifold]] -- alse created [[SDiff]], [[SVect]], [[super vector space]], [[super algebra]], [[Grassmann algebra]], [[super Lie algebra]]
 
-* [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#x232D;}$ (unicode &amp;#x232D;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
+* [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
    * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
 
-   * Yes, there's a Z-notation semicolon &#x2A3E; (unicode &amp;#x2A3E;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
+   * Yes, there's a Z-notation semicolon &#10814; (unicode &#10814;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
 
 
 ## 2009-09-22
@@ -467,13 +473,13 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
   * [[David Corfield]]: Seeing "comparative $\infty$-categoriology" there, does anyone have thoughts on Borisov's [work](http://uk.arxiv.org/abs/0909.2534)? Perhaps we need to wait for the sequel.
 
-* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &hellip; elsewhen.
+* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &#8230; elsewhen.
 
 *  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
-   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&sup3;, is there such a thing as mnepic?
+   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
@@ -632,7 +638,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
    *  Generalised [[internal relation]] somewhat.
 
 * [[Jon Awbrey]]:
-   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as &ldquo;$\:\text{:=}\:$&rdquo; in a math context.
+   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
    * Replies to a query at [[relation theory]].
 
 *  [[Toby Bartels]]:
@@ -785,7 +791,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
 *  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
-   * [[Jon Awbrey]]:  I wouldn't _count_ on it &mdash; cuz, y'know, that might be _evil_.
+   * [[Jon Awbrey]]:  I wouldn't _count_ on it &#8212; cuz, y'know, that might be _evil_.
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
 
