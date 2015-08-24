@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Archive
++-- {: .hide}
 [[!include all changes]]
-</div>
+=--
+=--
+=--
 
 Archive of changes made during April 2009.
 The substantive content of this page should **not** be altered.
@@ -480,7 +486,7 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
 
   * created [[sigma-model]]
 
-  * created an entry [[geometric infinity-function theory]] to go along with the $n$Caf&eacute; entry [Journal Club -- Geometric Infinity-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
+  * created an entry [[geometric infinity-function theory]] to go along with the $n$Caf&#233; entry [Journal Club -- Geometric Infinity-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
 
   * created [[natural numbers object]] just to saturate links (and it should indeed be "natural numbers object", not "natural number object", agreed?)
 
