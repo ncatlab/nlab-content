@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Archive
++-- {: .hide}
 [[!include all changes]]
-</div>
+=--
+=--
+=--
 
 Archive of changes made during February 2009.
 The substantive content of this page should **not** be altered.
@@ -31,7 +37,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
 * [[Andrew Stacey|Andrew]]
 
-  * Created a [[request for help]] page.  There are query boxes scattered all over the lab and I think that it ought to be a priority to answer these.  A query on a page might be answerable by someone not an expert in what's on that page (or even not interested in what's on that page) - in fact, that's highly likely.  Flagging questions on this page (i.e., Latest Changes) is also less than optimal as it's not clear who might be able to answer them (and probably not everyone checks this page).    I freely admit that I'm doing this because no-one seems bothered in my questions on [[Froelicher space]]s which are, in fact, more general category theory than specifics to Fr&ouml;licher spaces.
+  * Created a [[request for help]] page.  There are query boxes scattered all over the lab and I think that it ought to be a priority to answer these.  A query on a page might be answerable by someone not an expert in what's on that page (or even not interested in what's on that page) - in fact, that's highly likely.  Flagging questions on this page (i.e., Latest Changes) is also less than optimal as it's not clear who might be able to answer them (and probably not everyone checks this page).    I freely admit that I'm doing this because no-one seems bothered in my questions on [[Froelicher space]]s which are, in fact, more general category theory than specifics to Fr&#246;licher spaces.
 
     I've added it to the sidebar (and taken off [[General Discussion]]).
 
@@ -122,7 +128,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
 * [[Urs Schreiber|Urs]]
 
-  * added To&euml;n-Vezzosi proposal $2Vect := Ch(Vect)-Mod$ to [[2-vector space]] and created [[dg-category]] accompanying this
+  * added To&#235;n-Vezzosi proposal $2Vect := Ch(Vect)-Mod$ to [[2-vector space]] and created [[dg-category]] accompanying this
 
 # 2009-02-13
 
