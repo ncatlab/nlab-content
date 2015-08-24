@@ -37,7 +37,7 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 The first [[fundamental representation]] of $E_{11}$, usually denoted $l_1$, is argued, since ([West 04](#West04)), to contain in its decomposition into [[representations]] of $GL(11)$ the representations in which the [[charges]] of the [[M-branes]] and other [[BPS states]] transform.
 
-According to ([Nicolai-Fischbacher 03, first three rows of table 2 on p. 72](#NicolaiFischbacher03), [West 04](#West04), [Kleinschmidt-West 04](#KleinschmidtWest04)) and concisely stated for instance in ([Wess 11, (2.17)](#Wess11)), the level decomposition of $l_1$ under $GL(11)$ starts out as so:
+According to ([Nicolai-Fischbacher 03, first three rows of table 2 on p. 72](#NicolaiFischbacher03), [West 04](#West04), [Kleinschmidt-West 04](#KleinschmidtWest04)) and concisely stated for instance in ([West 11, (2.17)](#West11)), the level decomposition of $l_1$ under $GL(11)$ starts out as so:
 
 $$
   l_1 
@@ -74,7 +74,7 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 * level 2: [[M5-brane]] charge
 
-* level 3: [[dual graviton]] charge ([Wess 11, section N](#Wess11)) (has two components [^ThanksToKleinschmidt])
+* level 3: [[dual graviton]] charge ([West 11, section N](#West11)) (has two components [^ThanksToKleinschmidt])
 
 [^ThanksToKleinschmidt]: private communication with [[Axel Kleinschmidt]] 
 
@@ -141,7 +141,7 @@ and was further explored in
 
 * [[Peter West]], _$E_{11}$ origin of Brane charges and U-duality multiplets_, JHEP 0408 (2004) 052 ([arXiv:hep-th/0406150](http://arxiv.org/abs/hep-th/0406150))
 
-* {#Wess11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
 Relation to [[exceptional field theory]] is discussed in
 
