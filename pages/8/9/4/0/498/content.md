@@ -31,7 +31,7 @@ Here are a few equivalent ways to phrase the combined condition:
 
 * The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent; otherwise, it\'s too weak.)
 
-The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one anti-mods out by the [[anti-ideal]] of invertible elements.)
+The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
 
 
 ## Results 
