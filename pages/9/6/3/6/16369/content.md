@@ -138,7 +138,7 @@ Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is 
 
 ###Example I: two-valued toposes
 
-Presheaf toposes $Set^{M^{op}}$ of actions of a (non-trivial) monoid $M$ are classical examples of toposes whose truth value objects $\Omega$ have exactly two global points $1\to\Omega$ without the toposes being necessarily Boolean. In fact they are Boolean precisely when $M$ is a group.
+Presheaf toposes $Set^{M^{op}}$ of actions of a monoid $M$ are classical examples of toposes whose truth value objects $\Omega$ have exactly two global points $1\to\Omega$ without the toposes being necessarily Boolean. In fact they are Boolean precisely when $M$ is a group.
 
 As the next proposition shows, they are also instances of toposes in which only the degenerate subtopos fails to be dense:
 
