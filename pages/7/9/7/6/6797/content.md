@@ -19,7 +19,7 @@
 
 ## Idea
 
-The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale, notably for compactifications on [[anti de Sitter space]]s of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particle]]s for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are described by what [Vasiliev](Vasiliev) termed **higher spin gauge theory**.
+The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- notably for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are described by what [Vasiliev](Vasiliev) termed **higher spin gauge theory**.
 
 
 ## References
@@ -42,6 +42,28 @@ Reviews and lecture notes include
 Further developments include for instance
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
+
+### Relation to string theory
+ {#ReferencesRelationToStringTheory}
+
+The idea that higher spin gauge theory appears as the limiting case of [[string field theory]] where the string tension vanishes goes back to 
+
+* [[David Gross]], _High-Energy Symmetries Of String Theory_, Phys. Rev. Lett.
+60 (1988) 1229.
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], section 2 of _First And Second Quantized Point Particles Of Any Spin_, in [[Claudio Teitelboim]]. [[Jorge Zanelli]] (eds.) _Santiago 1987, Proceedings, Quantum mechanics of
+fundamental systems 2_, pp. 113-152. Plenum Press.
+
+and is further developed for instance in
+
+* [[Auguste Sagnotti]], M. Tsulaia, _On higher spins and the tensionless limit of String Theory_, Nucl.Phys.B682:83-116,2004 ([arXiv:hep-th/0311257](http://arxiv.org/abs/hep-th/0311257))
+
+* G. Bonelli, _On the Tensionless Limit of Bosonic Strings, Infinite Symmetries and Higher Spins_, Nucl.Phys. B669 (2003) 159-172 ([arXiv:hep-th/0305155](http://arxiv.org/abs/hep-th/0305155))
+
+* [[Auguste Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl.Phys.B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
+
+
+* {#Sagnotti11} [[Auguste Sagnotti]], _Notes on Strings and Higher Spins_ ([arXiv:1112.4285](http://arxiv.org/abs/1112.4285)) 
 
 ### Relation to other systems
 
