@@ -107,6 +107,13 @@ For a proof see [Caramello (2009)](#Caramello09). The $m$ that occurs here, refe
 
 As $Sh_{\neg\neg}(\mathcal{E})$, the sheaf subtopos for the [[double negation|double negation topology]] $\neg\neg$ , is the _smallest_ dense De Morgan subtopos, we see that all dense De Morgan subtoposes lie in the interval between $Sh_{\neg\neg}(\mathcal{E})$ and $Sh_{m}(\mathcal{E})$.
 
+In analogy with [[skeletal geometric morphism|skeletal geometric morphisms]] that preserve $\neg\neg$-sheaves, geometric morphisms $\mathcal{F}\to\mathcal{E}$ that map $m$-sheaves in $\mathcal{F}$ to $m$-sheaves in $\mathcal{E}$ are called $m$_-skeletal_. They occur in the following characterization of De Morgan toposes (cf. [[De Morganization]]):
+
++--{: .num_prop #deMorgan_m-skeletal}
+###### Proposition
+A topos $\mathcal{E}$ is De Morgan iff every geometric morphism $\mathcal{F}\to\mathcal{E}$ is $m$-skeletal. $\qed$
+=--
+
 ### The Gleason cover
 
 Another way to associate a De Morgan topos to an arbitrary topos $\mathcal{E}$ was proposed by [[Peter Johnstone]] in the late 70s (Johnstone [1979b](#Johnstone79b), [1980](#J80)). The so called _Gleason cover_ $\gamma\mathcal{E}$ of $\mathcal{E}$ generalizes a construction in [[topology]] that covers an arbitrary [[space]] by an extremally disconnected topological space.
