@@ -18,7 +18,7 @@ A _simplicial sheaf_ $A$ is equivalently
 * a [[simplicial presheaf]] 
 
   $$
-    A \in SPSh(C) := [\Delta^{op}, PSh(C)] \simeq [\Delta^{op}, [C^{op}, C]]
+    A \in SPSh(C) := [\Delta^{op}, PSh(C)] \simeq [\Delta^{op}, [C^{op}, Set]]
   $$
 
   that satisfies degreewise the [[sheaf]] condition;
