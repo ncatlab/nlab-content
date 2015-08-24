@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Archive
++-- {: .hide}
 [[!include all changes]]
-</div>
+=--
+=--
+=--
 
 Archive of changes made during July 2009.
 The substantive content of this page should **not** be altered.
@@ -243,7 +249,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
     * created [[simplicial resolution]]
 
-* [[Andrew Stacey]] parried the latest Baezian riposte, and whinged about the lack of a &lt;sarcasm> tag in XHTML.
+* [[Andrew Stacey]] parried the latest Baezian riposte, and whinged about the lack of a <sarcasm> tag in XHTML.
 
   PS Welcome back, Bruce.
 
