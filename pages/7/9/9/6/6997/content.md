@@ -35,12 +35,42 @@ Given any subset $B$ of $X$, the antisubalgebra __generated__ by $B$ is the [[un
 [[!redirects anti-subalgebra]]
 [[!redirects anti-subalgebras]]
 
+[[!redirects trivial antisubalgebra]]
+[[!redirects trivial antisubalgebras]]
+[[!redirects trivial anti-subalgebra]]
+[[!redirects trivial anti-subalgebras]]
+
 [[!redirects antisubgroup]]
 [[!redirects antisubgroups]]
 [[!redirects anti-subgroup]]
 [[!redirects anti-subgroups]]
 
+[[!redirects normal antisubgroup]]
+[[!redirects normal antisubgroups]]
+[[!redirects normal anti-subgroup]]
+[[!redirects normal anti-subgroups]]
+
+[[!redirects trivial antisubgroup]]
+[[!redirects trivial antisubgroups]]
+[[!redirects trivial anti-subgroup]]
+[[!redirects trivial anti-subgroups]]
+
 [[!redirects antiideal]]
 [[!redirects antiideals]]
 [[!redirects anti-ideal]]
 [[!redirects anti-ideals]]
+
+[[!redirects prime antiideal]]
+[[!redirects prime antiideals]]
+[[!redirects prime anti-ideal]]
+[[!redirects prime anti-ideals]]
+
+[[!redirects minimal antiideal]]
+[[!redirects minimal antiideals]]
+[[!redirects minimal anti-ideal]]
+[[!redirects minimal anti-ideals]]
+
+[[!redirects trivial antiideal]]
+[[!redirects trivial antiideals]]
+[[!redirects trivial anti-ideal]]
+[[!redirects trivial anti-ideals]]
