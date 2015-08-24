@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Archive
++-- {: .hide}
 [[!include all changes]]
-</div>
+=--
+=--
+=--
 
 Archive of changes made during August 2009.
 The substantive content of this page should **not** be altered.
@@ -151,7 +157,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Zoran ?koda]] created [[nonstandard analysis]] containing basically an (incomplete) introduction to basic terms in the [[ultrafilter]] model of the nonstandard extension of real numbers. One of the reasons to create this right now is that Urs is talking about [[infinitesimal object]] in synthetic differential geometry, and it could be a moment to (hopefully usefully) compare with the notions of nonstandard analysis. Created [[Rouqier's cocovering]] (in subject of [[triangulated category]]).  
 
-* [[Jon Awbrey]] noticed that [[graph]] was unsaturated, so he whetted it.  There are many definitions of _graph_ and many dialects of graph theory.  I added one of my first and favorite.  Read my &hellip;
+* [[Jon Awbrey]] noticed that [[graph]] was unsaturated, so he whetted it.  There are many definitions of _graph_ and many dialects of graph theory.  I added one of my first and favorite.  Read my &#8230;
 
 *  [[Tim Porter]]:  I forgot.. I created [[braid group]] yesterday, as I needed them for examples and [[Toby]] already has improved the presentation!  Thanks.
 
