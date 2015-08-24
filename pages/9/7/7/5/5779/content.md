@@ -13,9 +13,9 @@
 =--
 
 
-__Gel'fand-Fuks__ cohomology is the cohomology of contionuous alternating chains on the topological algebra of smooth vector fields on smooth manifold, equipped; where the topology on the algebra is given by uniform convergence of all (higher) partial derivative on compacts (sometimes called $C^\infty$-topology on that algebra). 
+__Gel'fand-Fuks__ cohomology is the cohomology of continuous alternating chains on the topological algebra of smooth vector fields on smooth manifold, where the topology on the algebra is given by uniform convergence of all (higher) partial derivative on compacts (sometimes called $C^\infty$-topology on that algebra). 
 
-* [[I. M. Gel'fand]], D. B. Fuks, _The cohomology of the Lie algebra of vectro fields on a smooth manifold_, J. Funct. Analysis __33__, 1969, 194--210, II, J. Funct. Anal. __4__ (1970) 110-116; _The cohomology of the Lie algebra of formal vector fields_, Izv. AN SSR 34 (1970), 110-116
+* [[I. M. Gel'fand]], D. B. Fuks, _The cohomology of the Lie algebra of vector fields on a smooth manifold_, J. Funct. Analysis __33__, 1969, 194--210, II, J. Funct. Anal. __4__ (1970) 110-116; _The cohomology of the Lie algebra of formal vector fields_, Izv. AN SSR 34 (1970), 110-116
 * Shigeyuki Morita, _Geometry of characteristic classes_, Transl. Math. Monographs 199, AMS 2001
 
 [[!redirects Gel'fand-Fuks cohomology]]
