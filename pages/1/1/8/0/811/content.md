@@ -90,7 +90,7 @@ is a morphism of $(n-1)$-fibrations.
 * Likewise, when $n=2$ this is a weakened version of Hermida's definition of 2-fibration.
 
 
-## From fibrations to functors
+## Fibrations versus functors
 
 If $p:E\to B$ is an $n$-fibration, we define a functor (or '$n$-pseudofunctor') from $B$ to $n Cat$ as follows.  (Like the above definition, this is only a schematic sketch.)
 
@@ -98,13 +98,23 @@ If $p:E\to B$ is an $n$-fibration, we define a functor (or '$n$-pseudofunctor') 
 
 * For a morphism $f:y\to x$ in $B$, define $f^*:E_x\to E_y$ by choosing, for each $a\in E_x$, a cartesian $\phi:b\to a$ over $f$ and defining $f^*(a)=b$.  The universal property of cartesian arrows makes $f^*$ a functor.
 
-* For a 2-cell $\alpha:f\to g:y\to x$ in $B$, define a transformation $\alpha^*:g^*\to f^*$ as follows.  Given $a\in E_x$, we have a cartesian arrow $\phi:g^*a\to a$ over $f$.  Now choose a cartesian 2-cell $\mu:\psi\to \phi$ over $\alpha$ in $E(g^*a,a)$.  Since $p \psi = f$, $\psi$ factors essentially uniquely through the cartesian arrow $\chi:f^*a\to a$, giving a morphism $g^*a \to f^*a$; we define this to be the component of the transformation $\alpha^*$ at $a$.
+* For a 2-cell $\alpha:f\to g:y\to x$ in $B$, define a transformation $\alpha^*:g^*\to f^*$ as follows.  Given $a\in E_x$, we have a cartesian arrow $\phi:g^*a\to a$ over $g$.  Now choose a cartesian 2-cell $\mu:\psi\to \phi$ over $\alpha$ in $E(g^*a,a)$.  Since $p \psi = f$, $\psi$ factors essentially uniquely through the cartesian arrow $\chi:f^*a\to a$, giving a morphism $g^*a \to f^*a$; we define this to be the component of the transformation $\alpha^*$ at $a$.
 
 * and so on...
 
 Note that the functor we obtain is "totally contravariant:" it is contravariant on $k$-cells for all $1\le k\le n$.
 
-One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  The inverse should be a generalization of the [[Grothendieck construction]], which is known only for $n=2$.
+Conversely, if we have a totally contravariant '$n$-pseudofunctor' from $B$ to $n Cat$, we define $p:E\to B$ by a generalization of the [[Grothendieck construction]] as follows:
+
+* The objects of $E$ over $x\in B$ are those of $F x \in n Cat$.
+
+* The morphisms of $E$ over $f:y\to x$ in $B$ from $b\in F y$ to $a\in F x$ are the morphisms from $b$ to $F_f(a)$ in $F y$.
+
+* The 2-cells of $E$ over $\alpha:f\to g:y\to x$ in $B$ from $\psi : b \to F_f(a)$ to $\phi : b \to F_g(a)$ are the 2-cells in $F y$ from $\psi$ to the composite $b \xrightarrow{\phi} F_g(a) \xrightarrow{F_\alpha(a)} F_f(a)$.
+
+* and so on...
+
+One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  These constructions are known precisely only for $n=2$.
 
 ## Related concepts
 
@@ -175,3 +185,6 @@ I wasn't really serious about "strictly fibered strict $n$-category;" I think [[
 [[!redirects fibered n-category]]
 [[!redirects strict fibered n-category]]
 [[!redirects fibered strict n-category]]
+
+[[!redirects 2-fibration]]
+[[!redirects fibered 2-category]]
