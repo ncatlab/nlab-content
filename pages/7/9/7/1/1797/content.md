@@ -29,7 +29,7 @@ An adjoint equivalence is a more "coherent" or "structured" notion of [[equivale
 
 ## Definition
 
-An **adjoint equivalence** between [[categories]] is an [[adjunction]] $f\dashv g$ in which the unit $\eta$ and counit $\varepsilon$ are [[natural isomorphisms]].  It follows that it is an [[equivalence of categories]].
+An **adjoint equivalence** between [[categories]] is an [[adjunction]] $f\dashv g$ in which the [[unit of an adjunction|unit]] $\eta$ and [[unit of an adjunction|counit]] $\varepsilon$ are [[natural isomorphisms]].  It follows that it is an [[equivalence of categories]].
 
 There is an identical definition internal to any [[2-category]], which reproduces the above notion when applied in [[Cat]].
 
