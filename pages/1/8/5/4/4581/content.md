@@ -698,6 +698,8 @@ which is the right hand side of the equivalence to be proven.
 
 * [[secondary differential calculus]]
 
+* [[variational sequence]]
+
 * [[BV-BRST complex]]
 
 ## References
@@ -706,9 +708,9 @@ The variational bicomplex was introduced independently in
 
 * W.M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
 
-* A.M. Vinogradov, _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_ , Sov. Math. Dokl. 19 (1978) 144&#8211;148.
+* [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_ , Sov. Math. Dokl. 19 (1978) 144&#8211;148.
 
-* A.M. Vinogradov, _The $C$-spectral sequence, Lagrangian formalism and conservation laws_ I, II, J. Math. Anal. Appl. 100 (1984) 1&#8211;129.
+* [[Alexandre Vinogradov]], _The $C$-spectral sequence, Lagrangian formalism and conservation laws_ I, II, J. Math. Anal. Appl. 100 (1984) 1&#8211;129.
 
 Also 
 
