@@ -1,7 +1,10 @@
 [[!redirects Alexander Vinogradov]]
-Alexander M. Vinogradov is working in the geometric theory of differential equations, the theory of [[diffieties]].
+Alexander M. Vinogradov is working in the geometric theory of [[differential equations]], the theory of [[diffieties]] with applications to [[variational calculus]].
 
 * [webpage](http://diffiety.ac.ru/curvita/amv.htm)
+
+## some publications
+
 * A. M. Vinogradov, _Cohomological analysis of partial differential equations and secondary calculus_, [bookpage](http://diffiety.ac.ru/books/mmono204.htm) Translations of Mathematical Monographs __204__, Amer. Math. Soc. 2001, 247 p.
 
 * A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21, [MR85m:58192](http://www.ams.org/mathscinet-getitem?mr=736872), [doi](http://dx.doi.org/10.1007/BF01405491)
