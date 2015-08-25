@@ -74,6 +74,7 @@ Exposition with an eye towards [[quantum gravity]] is
 
 * {#Witten11} [[Edward Witten]], from 30:40 on in _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
+* {#Witten15} [[Edward Witten]], _What every physicist should know about string theory_, talk at [Strings2015](https://strings2015.icts.res.in)  ([pdf](https://strings2015.icts.res.in/talkDocuments/26-06-2015-Edward-Witten.pdf), [video recording](https://www.youtube.com/watch?v=H0jLD0PphTY))
 
 Discussion specifically for [[fermions]] is in 
 
