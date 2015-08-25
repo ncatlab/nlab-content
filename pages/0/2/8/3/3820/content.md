@@ -194,7 +194,7 @@ $$
 we conclude that the [[Euler-Lagrange equation]]s of $L(\phi)$ are satisfied on solutions of $P(\phi)=0$, since $EL(\phi)\delta\phi = P(\phi)\lambda''(\phi)$.
 
 ### (P) Via Poisson structures
- {#ViiaPoissonStructure}
+ {#ViaPoissonStructure}
  
 The covariant phase space can be embedded into the 
 [[space of field configurations]] as a subspace of the set of solutions that transversely intersects [[gauge orbit]]s. This embedding is characterized as the [[zero locus]] of the [[equations of motion]] and some [[gauge fixing]] conditions. The non-degenerate [[Poisson structure]] on the algebra of functions on the covariant phase space is given by the [[Peierls bracket]]. 
@@ -390,8 +390,8 @@ A standard textbook reference is chapter 17.1 of
 
 Reviews of covariant phase space theory include:
 
-* L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
- {#Vitagliano}
+* {#Vitagliano} L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
+ 
 
 * M. J. Gotay, J. Isenberg, R. Montgomery, J. E. Marsden, _Momentum Maps and Classical Fields, Part I: Covariant Field Theory_ [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.6137&rep=rep1&type=pdf)
 
@@ -401,18 +401,18 @@ A discussion in the context of the [[variational bicomplex]] with further pointe
 
 A discussion in the language of [[D-module]]s, following the book [[Chiral Algebras]] and leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
 
-* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
-{#Paugam}
+* {#Paugam} [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
+
 
 The relation between covariant phase space methods and [[multisymplectic geometry]] is discussed in
 
-* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_, in  Roger Bielawski, Kevin Houston, Martin Speight, J. Martin Speight (eds.) _Variational problems in differential geometry_, London Mathematical Society Lecture Note Series (2012) ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
-  {#Helein}
+* {#Helein} [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_, in  Roger B ielawski, Kevin Houston, Martin Speight, J. Martin Speight (eds.) _Variational problems in differential geometry_, London Mathematical Society Lecture Note Series (2012) ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
+  
 
-* Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson,
+* {#BridgesHydonLawson} Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson,
 _Multisymplectic structures and the variational bicomplex_
 [doi](http://dx.doi.org/10.1017/S0305004109990259)
- {#BridgesHydonLawson}
+ 
 
 * Forger, M. and Romero, S. V. _Covariant poisson brackets in geometric field theory._ Communications in Mathematical Physics  256, 375-410. ([doi](http://dx.doi.org/10.1007/s00220-005-1287-8))
 
@@ -535,14 +535,14 @@ variationally closed.
   Result: Explicit formula for the symplectic form of full, nonlinear
 [[general relativity]] as an integral of a conserved form-current over an arbitrary Cauchy surface. Discussion of conversion of symmetries into conserved quantities using this form. Some of the aspects related to the construction of such conserved have apparently been treated in earlier works by Friedman, Sachs and possibly some others.
 
-* [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259-284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259-284. ([[ZuckermanVariation.pdf:file]])
 
   (S)
 
   Influence: Appears to be self-motivated. Possible motivation is a more general construction of conserved currents in variational problems, a la Noether. Acknowledges that he reproduces parallel, but applied to specific theories, work of Crnkovic-Witten and Ashtekar-Bombelli-Koul.
 
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
- {#Zuckerman}
+ 
 
 * C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
 University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
