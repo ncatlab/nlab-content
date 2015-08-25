@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-What is commonly called _Noether's theorem_ or _Noether's first theorem_ is a [[theorem]] due to [[Emmy Noether]] ([Noether 1918](#Noether1918)) which makes precise and asserts that to every continuous [[symmetry]] of a [[Lagrangian]] [[physical system]] ([[prequantum field theory]]) corresponds equivalently a [[conservation law]] stating the conservation of a [[charge]] ([[conserved current]]) when the [[equations of motion]] hold. 
+What is commonly called _Noether's theorem_ or _Noether's first theorem_ is a [[theorem]] due to [[Emmy Noether]] ([Noether 1918](#Noether1918)) which makes precise and asserts that to every continuous [[symmetry]] of a [[Lagrangian]] [[physical system]] ([[prequantum field theory]]) there is naturally associated a [[conservation law]] stating the conservation of a [[charge]] ([[conserved current]]) when the [[equations of motion]] hold. 
 
 For instance the [[time]]-translation invariance of a [[physical system]] equivalently means that the quantity of [[energy]] is conserved, and the [[spacetime|space]]-[[translation group|translation]] invariant of a physical system means that [[momentum]] is preserved.
 
