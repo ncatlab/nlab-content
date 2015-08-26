@@ -409,22 +409,34 @@ y_1 y_2 \dots y_{n-1} y_n^2 y_{n-1}\dots y_2 y_1
 $$
 
 
-## Related concepts
+## Related entries
 
 * [[braid group statistics]]
 
 * [[braid category]]
+
+## Related pages
+
+* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
 ## References
 
 Classical references are
 
 * [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
-* [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) 119-126, [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
 
-and in addition see
+* [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) pp.119-126. [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
 
-* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+A recent monograph is
+
+* C. Kassel, V. Turaev, _Braid Groups_ , GTM **247** Springer Heidelberg 2008.
+
+For orderings of the braid group see
+
+* [[Patrick Dehornoy]], _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
+
+* H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener
+Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 
 
 category : knot theory
