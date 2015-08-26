@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[smooth function|smooth]] [[bundle]] $E \to \Sigma$, then a [[differential form]] on its [[jet bundle]] $Jet(E)$ is called a _source form_ if it is of vertical degree 1 (with respect to the [[variational bicomplex]]) and its evaluation on a [[vector field]] depends only on the projection of that vector field to a vector field on $E$ itself (e.g. [Zuckerman 87, p. 6](#Zuckerman87)).
+
+## In variational calculus
+
+Given a [[local Lagrangian]] $\mathbf{L}$, i.e. a horizontal form on $Jet(E)$ of maximal horizontal degree, then there is a unique source form $\mathbf{E}$ such that 
+
+$$
+  d \mathbf{L} = \mathbf{E} - d_H \theta
+$$
+
+for some form $\theta$. This $\mathbf{E}$ is the [[Euler-Lagrange form]] of $\mathbf{L}$. 
+
+The sum
+
+$$
+  \rho \coloneqq \mathbf{L} + \theta
+$$
+
+is the corresponding [[Lepage form]].
+
+## Related concepts
+
+* [[variational bicomplex]]
+
+## References
+
+* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]]) 
+
+[[!redirects source forms]]
