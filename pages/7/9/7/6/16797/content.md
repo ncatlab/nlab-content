@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Lepage forms are certain [[differential forms]] on [[jet bundles]]. When of maximal horizontal degree then they may be identified with sums $\mathbf{L} + \theta$ of a [[local Lagrangian]] $\mathbf{L}$ with its induced presymplectic potential current $\theta$ (as discussed at [[covariant phase space]]).
+
+Lepage forms play a central role in the theory of [[variational sequences]].
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[smooth function|smooth]] [[bundle]] $E \to \Sigma$, then a [[differential n-form]] $\rho$ on its [[jet bundle]] $Jet(E)$ is called a _Lepage form_ if for every [[vector field]] $v$ on the jet bundle, the horizontal part $h(\iota_v \mathbf{d}\rho)$ (with respect to the [[variational bicomplex]]) of the contraction of $v$ into the [[de Rham differential]] of $\rho$ depends only on the projection of $v$ to a vector field on $E$ itself.
+
+=--
+
+e.g. [GMS 09, 2.1.2](#GMS09)
+
+## In variational calculus
+
+Let $\Sigma$ be of [[dimension]] $n$. Then a horizontal $n$-form $\mathbf{L} \in \Omega^{n,0}(Jet(E))$, may be regarded a [[local Lagrangian]]. Its de Rham differential has a unique decomposition
+
+$$
+  d \mathbf{L} = \mathbf{E} - d_H \theta
+$$
+
+where $E$ is a [[source form]], the [[Euler-Lagrange form]] of $\mathbf{L}$, and $\theta$, the induced presymplectic potential current, is defined up to addition of a horizontally exact form (e.g. [Zuckerman 87, section 2](#Zuckerman87)).
+
+Then the combination
+
+$$
+  \rho \coloneqq \mathbf{L} + \theta
+$$
+
+is a Lepage form, and in fact such a form being Lepage is equivalent to $d \mathbf{L} + d_h \theta$ being a [[source form]].
+
+The differential 
+
+$$
+  d \rho = \mathbf{E} + \omega
+$$
+
+is the sum of the [[Euler-Lagrange form]] and the presymplectic current density $\omega = d_V \theta$.
+
+## Related concepts
+
+* [[variational sequence]]
+
+* [[multisymplectic geometry]]
+
+* [[n-plectic geometry]]
+
+## References
+
+* {#GMS09} Giovanni Giachetta, Luigi Mangiarotti, Gennadi Sardanashvily, _Advanced classical field theory_, World Scientific, 2009
+
+
+* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]]) 
