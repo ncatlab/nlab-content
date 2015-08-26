@@ -1,3 +1,3 @@
 [[!redirects empty 03]]
 [[!redirects empty 3]]
-category:empty
+category: empty
