@@ -16,7 +16,6 @@
 
 ## Definition
 
-### For cotangent bundles 
 
 For $X$ a [[smooth manifold]] and $T^* X \to X$ its [[cotangent bundle]], there is a unique [[differential 1-form]] on $T^* X$ itself, 
 
@@ -42,9 +41,6 @@ between the [[pullback of a differential form|pullback]] of $\theta$ along $\sig
 
 This unique differential 1-form $\theta \in \Omega^1(T^* X)$ is called the **Liouville form** or **Poincar&#233; 1-form** or **canonical form** or **tautological form** on the cotangent bundle.
 
-### General abstract
-
-The notion of the Liouville-Poincar&#233; 1-form has an axiomatization in [[differential cohesion]], see there the section _[Poincar&#233; cocycle](differential+cohesive+%28infinity%2C1%29-topos#PoincareCocycle)_.
  
 
 ## Related concepts
