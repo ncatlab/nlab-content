@@ -136,6 +136,8 @@ cf. [Borceux-Korotenski (1991, p.238)](#BK91).
 
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
+* C. Getz, M. Korostenski, _Open Localizations and Factorization Systems_ , Quest. Math. **17** no.2 (1994) pp.225-230.
+
 * {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.93-95)
 
 * {#Johnstone80}[[Peter Johnstone]], _Open maps of toposes_ , Manuscripta Math. **31** (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002222744))
