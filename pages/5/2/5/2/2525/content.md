@@ -49,6 +49,8 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 
 ## Related concepts
 
+* [[Euler-Lagrange form]]
+
 * [[equations of motion]]
 
   * [[Newton's laws of motion]]
