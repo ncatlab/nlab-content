@@ -7,4 +7,6 @@
 
 * [[jet group]], [[higher order frame bundle]]
 
+* [[variational sequence]], [[Lepage form]]
+
 category: people
