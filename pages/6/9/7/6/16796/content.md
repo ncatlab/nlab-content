@@ -22,7 +22,13 @@
 
 The theory of _variational sequences_ is an approach to [[variational calculus]], a variant of approach of the _[[variational bicomplex]]_.
 
+## Related concepts
+
+* [[Lepage form]]
+
 ## References
+
+* [[Demeter Krupka]], _Introduction to Global Variational Geometry_
 
 * M. Palese, O. Rossi, E. Winterroth, J. Musilova, _Variational sequences, representation sequences and applications in physics_ ([arXiv:1508.01752](http://arxiv.org/abs/1508.01752))
 
