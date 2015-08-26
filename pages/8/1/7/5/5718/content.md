@@ -187,6 +187,10 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 * [[variational bicomplex]]
 
+  * [[local Lagrangian]]
+
+  * [[source form]], [[Lepage form]]
+
 * [[metric jet]]
 
 * [[h-principle]]
