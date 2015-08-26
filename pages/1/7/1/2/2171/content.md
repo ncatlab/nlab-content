@@ -400,6 +400,15 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
  *  $r_w \equiv  u v u v^{-1} u^{-1} v^{-1}$.
 =--
 
+## Surface braid groups
+
+In terms of the geometric definition above, it is possible to consider configurations of points on surfaces other than the plane, which gives rise to the more general notion of a _surface braid group_.  For example, the **Hurwitz braid group** (or **sphere braid group**) comes from considering configurations of points on the [[2-sphere]] $S^2$.  Algebraically, the Hurwitz braid group $H_{n+1}$ has all of the generators and relations of the Artin braid group $Br_{n+1}$, plus one additional relation:
+
+$$ 
+y_1 y_2 \dots y_{n-1} y_n^2 y_{n-1}\dots y_2 y_1
+$$
+
+
 ## Related concepts
 
 * [[braid group statistics]]
@@ -420,3 +429,5 @@ and in addition see
 
 category : knot theory
 [[!redirects Artin braid group]]
+[[!redirects Hurwitz braid group]]
+[[!redirects surface braid group]]
