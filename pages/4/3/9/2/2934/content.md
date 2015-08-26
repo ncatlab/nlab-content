@@ -1,4 +1,4 @@
 [[!redirects empty 01]]
 [[!redirects empty 1]]
 [[!redirects almost but not entirely empty]]
-category:empty
+category: empty
