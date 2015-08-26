@@ -13,12 +13,9 @@
 =--
 =--
 
-
-
 # Congruences
 * table of contents
 {: toc}
-
 
 ## Definitions
 
@@ -131,6 +128,7 @@ A special case of this is that of a _[[quotient module]]_.
 
 =--
 
+
 ## Related pages
 
 * The notions of [[regular category]] and [[exact category]] can naturally be formulated in terms of congruences.  A "higher arity" version, corresponding to [[coherent categories]] and [[pretoposes]] is discussed at [[familial regularity and exactness]].
@@ -140,5 +138,9 @@ A special case of this is that of a _[[quotient module]]_.
 * [[higher category theory|Higher-categorical]] generalizations are that of a [[2-congruence]] and of a [[groupoid object in an (∞,1)-category]]. See also [[(n,r)-congruence]].
 
 
+[[!redirects congruence]]
 [[!redirects congruences]]
+[[!redirects congruence relation]]
+[[!redirects congruence relations]]
 [[!redirects internal equivalence relation]]
+[[!redirects internal equivalence relations]]
