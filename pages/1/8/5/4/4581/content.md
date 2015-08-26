@@ -85,15 +85,15 @@ Let $X$ be a [[smooth manifold]] and $p : E \to X$ some smooth [[bundle]] over $
 
 ### The bicomplex
 
-The spaces of [[sections]] $\Gamma(E)$ and $\Gamma(Jet(E))$ canonically inherit a generalized smooth structure that makes them [[diffeological space]]s: we have a [[pullback]] [[diagram]] of diffeological spaces
+The spaces of [[sections]] $\Gamma(E)$ and $\Gamma(Jet(E))$ canonically inherit a generalized smooth structure that makes them [[diffeological spaces]]: we have a [[pullback]] [[diagram]] of diffeological spaces
 
 $$
   \array{
-     \Gamma(E) &\to& *
+     \Gamma(E) & \longrightarrow & *
      \\
      \downarrow && \downarrow^{id}
      \\
-     [X,E] &\stackrel{p_*}{\to}& [X,X]
+     [X,E] &\stackrel{p_*}{\longrightarrow}& [X,X]
   }
   \,.
 $$
@@ -111,7 +111,7 @@ $$
   j^\infty : \Gamma(E)  \to \Gamma(Jet(E))
 $$
 
-it yields a smooth map ([[homomorphism]] of [[diffeological space]]s) 
+it yields a smooth map ([[homomorphism]] of [[diffeological spaces]]) 
 
 \[
   \label{EProlongation}
@@ -135,7 +135,7 @@ $$
   \,,
 $$
 
-where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differential]]s of $X\times\Gamma(E)$, $X$ and $\Gamma(E)$, respectively.
+where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differentials]] of $X\times\Gamma(E)$, $X$ and $\Gamma(E)$, respectively.
 
 
 +-- {: .num_defn }
@@ -161,7 +161,7 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 =--
 
-The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens](#Takens)). The above formulation as the image of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman, p. 5](#Zuckerman)).
+The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens 79](#Takens79)). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman 87, p. 5](#Zuckerman87)).
 
 ### More on the horizontal differential complex
  {#MoreOntheHorizontalComplex}
@@ -196,7 +196,7 @@ More abstractly, the horizontal differential is characterized as follows:
 +-- {: .num_prop #HorizontalDifferentialCompatibleWithPullbackAlongJetProlongations}
 ###### Proposition
 
-The horzontal differential takes horizontal forms to horizontal forms, and for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
+The horizontal differential takes horizontal forms to horizontal forms, and for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
 
 $$
   (j_\infty \phi)^\ast \circ d = d \circ (j^\infty \phi)^\ast
@@ -365,7 +365,7 @@ Moreover
 
 =--
 
-This is ([Zuckerman, theorem 3](#Zuckerman)).
+This is ([Zuckerman 87, theorem 3](#Zuckerman87)).
 
 Here $E$ is the _[[Euler-Lagrange equations|Euler-Lagrange operator]]_ .
 
@@ -405,7 +405,7 @@ $$
 
 =--
 
-This is ([Zuckerman, lemma 8]{#Zuckerman}).
+This is ([Zuckerman 87, lemma 8]{#Zuckerman87}).
 
 ### Presymplectic covariant phase space
 
@@ -485,7 +485,7 @@ The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is annihila
 
 =--
 
-This appears as ([Zuckerman, theorem 13](#Zuckerman)).0
+This appears as ([Zuckerman 87, theorem 13](#Zuckerman87)).0
 
 ## Elementary formalization in differential cohesion
  {#FormalizationInDifferentialCohesion}
@@ -714,7 +714,7 @@ The variational bicomplex was introduced independently in
 
 Also 
 
-* {#Takens} F. Takens, _A global version of the inverse problem of the calculus of variations_ J. Diff. Geom. 14 (1979) 543-562
+* {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_ J. Diff. Geom. 14 (1979) 543-562
 
 An introduction is in 
 
@@ -733,7 +733,7 @@ Textbook accounts and surveys include
 
 An early discussion with application to [[covariant phase spaces]] and their [[presymplectic structure]] is in
 
-* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
 
 
 An invariant version (under group action) is in
