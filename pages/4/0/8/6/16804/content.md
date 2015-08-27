@@ -1,6 +1,6 @@
 # Idea
 
-A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle.  "Cutting" the circle at some point (distinct from the $2n$ marked points) yields up to $2n$ different **arc diagrams**.  An arc diagram of order $n$ may be visualized as $n$ (possibly crossing) arches drawn on top of a line segment, and is entirely determined by specifying a [[fixed point]] free [[involution]] on the set $[2n]$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
+A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle.  "Cutting" the circle anywhere (distinct from the $2n$ marked points) yields up to $2n$ different **arc diagrams**.  An arc diagram of order $n$ may be visualized as a straight line marked with $2n$ distinct, linearly-ordered points, and $n$ (possibly crossing) arches joining those points: such a diagram is entirely determined by specifying a [[fixed point]] free [[involution]] on the set $\{ 1,\dots, 2n \}$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
 
 ## Related concepts
 
