@@ -262,7 +262,8 @@ See also
 * [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
 
 (TO ADD: stuff from this [MO post](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras))
-(TO DO: $\epsilon$ is used for the comultiplication in the beginning, then for the linear form, and in the definition of symmetry for the bilinear pairing on a Frobenius algebra.  Use three different letters for these) 
+
+(TO DO: $\epsilon$ is used for the comultiplication in the beginning, then for the linear form, and in the definition of symmetry for the bilinear pairing on a Frobenius algebra.  Use three different letters for these) (NO: all three are conceptually the same thing!  In the beginning it's not $\epsilon$ but $\delta$ that denotes the comultiplication - $\delta$ means 'duplication' or 'diagonal'.  $\epsilon$ is the counit, which is the same as the 'linear form' in the later example, and also appears in the definition of symmetric Frobenius algebra later.  So: this stuff is all okay.)
 
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
