@@ -101,6 +101,22 @@ They paramatrize the essential localizations of the associated presheaf topos $S
 
 This motivates also the culinary allusion in the name, where the essential localization corresponding to $\mathcal{B}$ is seen as providing the two-dimensional 'sides' via its reflective and coreflective inclusions around the three-dimensional 'filling' $\mathcal{A}$. Of course, the one-dimensional pieces $l,q,r$ corresponding to $\mathcal{C}$ find their place on the sandwich as well. For a picture of the taco and further details see [Lawvere (1989)](#Law89b).
 
+Let us point out that $M$ can be viewed as 'cubical generalization' of the three-element graphic monoid $\Delta_1$ that underlies the (one-dimensional) presheaf topos of [[reflexive graph|reflexive graphs]] (for a detailed description of $\Delta_1$ and its topos see at [[graphic category]]). $\Delta_1$ encapsulates the diagram
+
+$$
+\mathcal{A}\overset{\hookleftarrow}{\underset{\hookleftarrow}{\to}} \mathcal{B}
+$$
+
+that expresses abstractly a [[adjoint cylinder|cylinder configuration]] corresponding to 'opposition' or 'conflict' from the dialogical point of view.[^Law] 
+
+[^Law]: Lawvere expands a bit on the diagrammatic perspective on $\Delta_1$ in [Lawvere (1996)](#Law96).
+
+## Remarks
+
+* If one takes into account also the natural transformations arising from the adjunctions one can turn $M$ into a finite [[monoidal category]].
+
+* The main reference for the taco is [Lawvere (1989, pp.70-73)](#Law89b). It is mentioned in Lawvere ([1991](#Law91),[2003](#Law02)) as well.
+
 ## Related entries
 
 * [[graphic category]]
@@ -113,11 +129,9 @@ This motivates also the culinary allusion in the name, where the essential local
 
 * [[graph]]
 
-## Remarks
+* [[Science of Logic]]
 
-* If one takes into account also the natural transformations arising from the adjunctions one can turn $M$ into a finite [[monoidal category]].
-
-* The main reference for the taco is [Lawvere (1989, pp.70-73)](#Law89b). It is mentioned in Lawvere ([1991](#Law91),[2003](#Law02)) as well.
+* [[adjoint cylinder]]
 
 ## References
 
@@ -127,6 +141,8 @@ This motivates also the culinary allusion in the name, where the essential local
 
 * [[F. W. Lawvere]], _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf)) {#Law91}
 &#8206;
+* {#Law96}[[F. W. Lawvere]], _[[Unity and Identity of Opposites in Calculus and Physics]]_ , App. Cat. Struc **4** (1996) pp.167-174.
+
 * [[F. W. Lawvere]], _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf)) {#Law02}
 
 
