@@ -108,16 +108,23 @@ This is all yet different from the category of pointed sets.
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
 
+
+## Algebras of partial functions
+
+The functions of high-school mathematics, consisting of real (or complex)-valued functions of one (or two or three) real (or complex) variables, are by default partial functions.  As they take values in a [[field]], one may consider adding or multiplying them.  The usual rule is that $\dom(f + g) = \dom f + \dom g$, etc, but this leads to an unusual algebra: a commutative [[semiring]] in which addition has an identity element (the always-defined constant [[zero function]]) and multiplication has an absorbing element (the never-defined [[empty function]]), but it fails to be a [[rig]] because these two elements are not the same.  It has many other interesting properties, such as simultaneous additive and multiplicative [[idempotent element|idempotents]] (the zero functions with arbitrary domains).
+
+An axiomatic treatment of such semirings may be found at the end of [Richman 2010](#Richman2010).
+
+
 ## Related concepts
 
-* [[entire function]]
+* [[total function]]
 
 
 ## References 
  {#References}
 
 * {#Carb87} [[Aurelio Carboni]], Bicategories of partial maps, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 28 no. 2 (1987), p. 111-126 ([web](http://www.numdam.org/item?id=CTGDC_1987__28_2_111_0))
- 
 
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories I: categories of partial maps_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS_06/RestrictionsI.pdf))
 
@@ -125,6 +132,7 @@ For a more sophisticated analysis of computation, $Set_\bot$ can be replaced wit
 
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories III: colimits, partial limits, and extensivity_ ([arXiv:math/0610500](http://arxiv.org/abs/math/0610500))
 
+* {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/HTML/DOCS.HTM).
 
 
 [[!redirects partial function]]
