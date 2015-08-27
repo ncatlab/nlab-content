@@ -173,11 +173,11 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "[[extensive]] quantities" and [[cohomology]]-like "[[intensive]] quantities")
 
-* _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/86s.pdf))
+* _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/86s.pdf))
 
-* _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/87s.pdf))
+* _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/87s.pdf))
 
-* _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_4/CTGDC_1980__21_4_377_0/CTGDC_1980__21_4_377_0.pdf))
+* _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
 
    (contains a section with some remarks on Lagrangian mechanics)
 
@@ -189,7 +189,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   (contains the most explicit expression of Hegelian concepts in the context of the presheaf topos on $\Delta _1$ and a footnote on Lawvere's relation to Hegelian idealism)
 
-* _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([Numdam](http://www.numdam.org/item?id=CTGDC_1991__32_1_5_0))
 
   (on [[graphic category|graphic categories]] and their presheaf categories)
 
