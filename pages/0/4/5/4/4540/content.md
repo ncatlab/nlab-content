@@ -37,9 +37,9 @@ $$
   \mathbf{H}
 $$
 
-obtained as the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induces [[isomorphism]]s in [[cohomology]] with coefficients in the canonical [[line object]] $\mathbb{A}$, where the small objects in $\mathbf{L}$ are modeled by dualy of [[cosimplicial algebra]]s.
+obtained as the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induces [[isomorphism]]s in [[cohomology]] with coefficients in the canonical [[line object]] $\mathbb{A}$, where the small objects in $\mathbf{L}$ are modeled by duals of [[cosimplicial algebra]]s.
 
-We may think of $\mathbf{L}$ as the [[(∞,1)-category]] of all [[∞-Lie algebroid]]s inside the [[∞-Lie groupoid]]s wich are the objects of $\mathbf{H}$. For instance for $T$ the theory of commutative [[associative algebra]]s over a field, the [[monoidal Dold-Kan correspondence]] identified cosimplicial algebras with [[dg-algebra]]s, which we may think of as the [[Chevalley-Eilenberg algebra]]s of the [[∞-Lie algebroid]]s.
+We may think of $\mathbf{L}$ as the [[(∞,1)-category]] of all [[∞-Lie algebroid]]s inside the [[∞-Lie groupoid]]s which are the objects of $\mathbf{H}$. For instance for $T$ the theory of commutative [[associative algebra]]s over a field, the [[monoidal Dold-Kan correspondence]] identified cosimplicial algebras with [[dg-algebra]]s, which we may think of as the [[Chevalley-Eilenberg algebra]]s of the [[∞-Lie algebroid]]s.
 
 An [[∞-Lie algebra]] $\mathfrak{g}$ is a [[connected]] object in $\mathbf{L}$ and **$\infty$-Lie algebra cohomology** is the [[cohomology|intrinsic cohomology]] of $\mathbf{H}$ restricted to $\mathbf{L}$.
 
@@ -166,7 +166,7 @@ $$
   \,.
 $$
 
-Such cocycles are modeled by morphisms in $dgAlg^{op}$ from a cofibrant representative of $\mathfrak{g}$ to a fibrant representative of $\mathfrak{h}$. Since in $dgAlg$ all objects are fibrantm, in $dgAlg^{op}$ all objects are cofibrant. The cofibrant objects in the [[model structure on dg-algebras]] are the [[Sullivan algebra]]s $CE(\mathfrak{h})$. In particular for $\mathfrak{h} = b^{n-1}\mathbb{R}$ we have that $CE(b^{n-1}\mathbb{R})$ is a Sullivan algebra, so $b^{n-1} \mathbb{R}$ is fibrant in $dgAlg^{op}$. 
+Such cocycles are modeled by morphisms in $dgAlg^{op}$ from a cofibrant representative of $\mathfrak{g}$ to a fibrant representative of $\mathfrak{h}$. Since in $dgAlg$ all objects are fibrant, in $dgAlg^{op}$ all objects are cofibrant. The cofibrant objects in the [[model structure on dg-algebras]] are the [[Sullivan algebra]]s $CE(\mathfrak{h})$. In particular for $\mathfrak{h} = b^{n-1}\mathbb{R}$ we have that $CE(b^{n-1}\mathbb{R})$ is a Sullivan algebra, so $b^{n-1} \mathbb{R}$ is fibrant in $dgAlg^{op}$. 
 
 In summary, this says that morphisms
 
@@ -310,7 +310,7 @@ $$
   }
 $$
 
-maps under $R$ to a pullback diagram of simplicial presheaves which exhibits $R(\hat \mathfrak{g})$ as isomorhic to the [[homotopy pullback]] in the [[homotopy category]].
+maps under $R$ to a pullback diagram of simplicial presheaves which exhibits $R(\hat \mathfrak{g})$ as isomorphic to the [[homotopy pullback]] in the [[homotopy category]].
 
 Here the right morphism denotes the dual of the generating cofibration in $dgAlg$, which models the $b^n \mathfrak{R}$-[[universal principal ∞-bundle]].
 
