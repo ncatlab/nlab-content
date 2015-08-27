@@ -512,7 +512,7 @@ This means that the intrinsic cohomology of [[compact topological space|compact]
 ###### Proposition
 
 Let $\mathfrak{a} \in L_\infty \mathrm{Algd}$ be an [[L-∞ algebroid]]. 
-Then its intrinsic real cohomoloogy in $\mathrm{FormalSmooth}\infty \mathrm{Grpd}$
+Then its intrinsic real cohomology in $\mathrm{FormalSmooth}\infty \mathrm{Grpd}$
 
 $$
   H^n(\mathfrak{a}, \mathbb{R})
@@ -570,8 +570,7 @@ hence is a surjection, hence a fibration in
 $\mathrm{SmoothAlg}^\Delta_{\mathrm{proj}}$ and therefore indeed a cofibration in 
 $(\mathrm{SmoothAlg}^\Delta_{\mathrm{proj}})^{\mathrm{op}}$.
 
-Therefore using the Quillen bifunctor property of the coend over the tensoring in reverse to 
-lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} the above is equivalent to
+Therefore using the Quillen bifunctor property of the coend over the tensoring in reverse to [this lemma](http://ncatlab.org/nlab/source/Lie+infinity-algebroid#CofibrantResolutionOfLinfinityAlgebroid), the above is equivalent to
 $$
   \cdots 
   \simeq
