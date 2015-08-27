@@ -85,6 +85,7 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
     * [[simplicial Lie algebra]]
 
+
   * [[∞-Lie algebroid]]
 
 ## Properties
@@ -146,6 +147,8 @@ See
   * [[Lie-Poisson structure]]
 
   * [[Lie algebra extension]]
+
+    * [[semidirect product Lie algebra]]
 
   * [[Lie algebra contraction]]
 
