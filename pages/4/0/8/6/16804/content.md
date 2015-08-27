@@ -18,9 +18,11 @@ as well as Definition 1.5 of
 
 For chord diagrams from the perspective of [[combinatorics]], see
 
-* Philippe Flajolet and Marc Noy. "Analytic combinatorics of chord diagrams". INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
+* Jacques Touchard. Sur un probl&#232;me de configurations et sur les fractions continues. Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
 
-* A. Khruzin. "Enumeration of chord diagrams". arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
+* Philippe Flajolet and Marc Noy. Analytic combinatorics of chord diagrams. INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
+
+* A. Khruzin. Enumeration of chord diagrams. arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
 
 [[!redirects arch diagram]]
 [[!redirects arc diagram]]
