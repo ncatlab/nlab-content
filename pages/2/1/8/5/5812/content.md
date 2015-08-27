@@ -13,7 +13,9 @@
 =--
 =--
 
-A **singular knot** is a smooth map $S^1 \to \mathbb{R}^3$ which is not an embedding.  That is, it is not a [[knot]].  Singular knots come in various flavours according to the ways in which it is possible to fail to be an embedding.  One of the simplest type of singular knot is where the only failures allowed are _simple double points_.  That is, places where the curve intersects itself transversally, and at the intersection only two threads intersect.
+## Idea
+
+A **singular knot** is a [[smooth map]] (or [[isotopy]] class of smooth maps) $S^1 \to \mathbb{R}^3$ which may fail to be an [[embedding]].  That is, a singular knot is not necessarily a [[knot]] in the classical sense.  Singular knots come in various flavours according to the ways in which it is possible to fail to be an embedding.  One of the simplest type of singular knot is where the only failures allowed are _simple double points_.  That is, places where the curve intersects itself transversally, and at the intersection only two threads intersect.
 
 Formally, $f \colon S^1 \to \mathbb{R}^3$ has a **(simple) double point** at $x \in \mathbb{R}^3$ if $f^{-1}(x) = \{t_1, t_2\}$ with $t_1 \ne t_2$ and $\{f'(t_1), f'(t_2)\}$ are linearly independent.
 
