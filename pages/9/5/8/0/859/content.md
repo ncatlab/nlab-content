@@ -129,6 +129,9 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* [[semidirect product Lie algebra]]
 
 
 ## References
@@ -151,10 +154,5 @@ Relevant textbooks include
   962  (1982) 115--122.
 
 
-
-[[!redirects semidirect product]]
-[[!redirects semidirect products]]
-[[!redirects semi-direct product]]
-[[!redirects semi-direct products]]
 
 [[!redirects semidirect product groups]]
