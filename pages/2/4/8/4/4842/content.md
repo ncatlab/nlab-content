@@ -38,6 +38,21 @@ As is standard, it is of degree $n$ if it is of degree $\le n$ but not $\le n - 
 
 The degree of Vassiliev invariants defines a filtration on the space of knots (and more particularly, on the [[algebra of knots]]).  Two knots are $n$-equivalent if all the Vassiliev invariants of degree $\le n$ agree on them.  In particular, a knot that is $n$-equivalent to the unknot is said to be $n$-trivial.
 
+## Properties ##
+
+A function which is constant on nonsingular knots may be extended to a Vassiliev invariant of degree 0 by applying the [[Vassiliev skein relations]], and conversely, any Vassiliev invariant of degree 0 must be constant on nonsingular knots.  Likewise, any Vassiliev invariant of degree 1 must be constant on nonsingular knots.
+
+## Chord diagram of a singular knot ##
+
+Any singular knot $f : S^1 \to \mathbb{R}^3$ with $n$ distinct double points $x_1,\dots,x_n \in \mathbb{R}^3$ gives rise to a [[chord diagram]] of order $n$, consisting of the circle $S^1$ with a chord connecting each pair of points $f^{-1}(x_1), \dots, f^{-1}(x_n)$.
+
+The importance of this construction for singular knots comes from the fact that any finite type invariant determines a function on chord diagrams:
+
++-- {: .un_thm}
+######Theorem 
+Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the chord diagram of the knot, and not on the knot itself.
+=-- 
+
 ## Examples ##
 
 1. The $n$th coefficient of the Conway polynomial is a Vassiliev invariant of order $\le n$.
