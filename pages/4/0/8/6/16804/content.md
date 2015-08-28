@@ -8,15 +8,17 @@ A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ di
 
 ## References
 
-See Chapter 6 of
+For more on chord diagrams emphasizing their connection to [[Vassiliev invariants]] of [[singular knots]], see Chapter 6 of
 
-* Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
+* [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-as well as Definition 1.5 of
+as well as
 
 * [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
 
-For chord diagrams from the perspective of [[combinatorics]], see
+* [[Simon Willerton]], Vassiliev invariants and the [[Hopf algebra]] of chord diagrams, Math. Proc. Camb. Phil. Soc. (1996), 119, 55.
+
+For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see
 
 * Jacques Touchard. Sur un probl&#232;me de configurations et sur les fractions continues. Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
 
