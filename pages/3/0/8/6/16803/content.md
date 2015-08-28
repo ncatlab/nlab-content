@@ -74,16 +74,16 @@ The _Hegelian taco_ is the monoid on the set $\{id,0,1,l,r,L,R,q\}$ with the fol
 
 $$
 \array{
-  && 0 & 1 & l & r & L & R & q & id \\
+  && 0 & 1 & l & q & r & L & R & id \\
   &&&&&&&&&\\
 0 && 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0  \\
 1 && 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1  \\
 l && 0 & 1 & l & l & l & l & l & l  \\
-r && 0 & 1 & r & r & r & r & r & r  \\
-L && 0 & 1 & l & q & L & L & q & L  \\
-R && 0 & 1 & l & r & R & R & r & R  \\
 q && 0 & 1 & q & q & q & q & q & q  \\
-id&& 0 & 1 & l & r & L & R & q & id
+r && 0 & 1 & r & r & r & r & r & r  \\
+L && 0 & 1 & l & q & q & L & L & L  \\
+R && 0 & 1 & l & r & r & R & R & R  \\ 
+id&& 0 & 1 & l & q & r & L & R & id
 }
 $$
 
