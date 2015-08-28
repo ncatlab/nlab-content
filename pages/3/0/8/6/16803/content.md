@@ -18,7 +18,7 @@
 
 ## Idea
 
-The **Hegelian taco** is food for thought from [[William Lawvere| William Lawvere's]] kitchen. More concretely, it is an eight-element [[graphic category|graphic monoid]] that intends to capture diagrammatically the essence of a certain configuration of stacking subcategories of a given category that occurs in Lawvere's mathematical rendering of [[Georg Hegel|Hegel's]] dialetical logic.
+The **Hegelian taco** is food for thought from [[William Lawvere| William Lawvere's]] kitchen. More concretely, it is an eight-element [[graphic category|graphic monoid]] that intends to capture diagrammatically the essence of a certain configuration of stacking subcategories of a given category that occurs in Lawvere's mathematical rendering of [[Georg Hegel|Hegel's]] dialectical logic.
 
 ## Construction
 
@@ -89,7 +89,7 @@ $$
 
 ## Properties
 
-$M$ is a [[graphic category|graphic monoid]] i.e. for all $x,y\in M$ we have $xyx=xy$, in particular all elements are [[idempotent]].
+$M$ is a [[graphic category|graphic monoid]] i.e. for all $x,y\in M$ we have $x y x=x y$, in particular all elements are [[idempotent]].
 
 The poset of left ideals in $M$ is:
 
