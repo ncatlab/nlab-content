@@ -7,7 +7,7 @@
 
 ## References
 
-* Comparaison de deux diagonales pour un ensemble bisimplicial JHRS, Dec 2014,[pdf (paywall)](http://link.springer.com/article/10.1007/s40062-014-0095-2)
+* Comparaison de deux diagonales pour un ensemble bisimplicial, [JHRS, Dec 2014, pdf (paywall)](http://link.springer.com/article/10.1007/s40062-014-0095-2)
 
 [[!redirects M. Zisman]]
 category: people
