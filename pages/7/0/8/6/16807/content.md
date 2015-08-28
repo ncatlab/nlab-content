@@ -1,0 +1,5 @@
+The Journal of Homotopy and Related Structures is a journal specialising in homotopy theory. 
+
+
+
+* [list of articles](http://tcms.org.ge/Journals/JHRS/public.htm)
