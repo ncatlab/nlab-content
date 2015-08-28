@@ -15,9 +15,9 @@
 
 ## Idea
 
-A space (in the sense of [[topology]]) is _complete_ (or _Cauchy complete_) if every [[sequence]]/net/[[filter]] that should converge really does [[convergence|converge]].  We identify those that should converge as the [[Cauchy sequence|_Cauchy_ sequences]]/nets/filters.
+A space (in the sense of [[topology]]) is _complete_ (or _Cauchy complete_) if every [[sequence]], [[net]], or [[filter]] that should converge really does [[convergence|converge]].  We identify the sequences, nets, or filters that "should" converge as the _[[Cauchy sequence|Cauchy]]_ ones.
 
-A space that is not complete has gaps that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense.
+A space that is not complete has "gaps" that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense.
 
 
 ## Definitions
