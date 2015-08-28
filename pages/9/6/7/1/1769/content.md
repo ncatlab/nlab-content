@@ -53,6 +53,8 @@ X &                 &              &                 & \mathcal{H}\overline{X} \
 } $$
 (Here the arrows are drawn horizontally to put styles on them; they should all be diagonal in the only possible way.)
 
+If $X$ is a [[metric space]], then we can also construct its completion as a [[locale]], the [[localic completion]], whose spatial part is the above space, but which in [[constructive mathematics]] may not be spatial.
+
 
 ## Generalisation
 
