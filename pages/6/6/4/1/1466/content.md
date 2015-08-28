@@ -209,6 +209,8 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * [[equicontinuous family of functions]]
 
+* [[complete uniform space]] and uniform completion
+
 [[!include generalized uniform structures - table]]
 
 
