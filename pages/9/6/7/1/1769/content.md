@@ -1,15 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
-
-
 
 # Complete spaces
 * table of contents
@@ -17,14 +15,16 @@
 
 ## Idea
 
-A [[topological space]] is _complete_ (or _Cauchy complete_) if every [[sequence]]/net/[[filter]] that should converge really does [[convergence|converge]].  We identify those that should converge as the [[Cauchy sequence|_Cauchy_ sequences]]/nets/filters.  A space that is not complete has gaps that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.
+A space (in the sense of [[topology]]) is _complete_ (or _Cauchy complete_) if every [[sequence]]/net/[[filter]] that should converge really does [[convergence|converge]].  We identify those that should converge as the [[Cauchy sequence|_Cauchy_ sequences]]/nets/filters.
 
-Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense.
+A space that is not complete has gaps that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense.
 
 
-## Definition
+## Definitions
 
 A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy complete__ if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __sequentially complete__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete, but this does not hold for more general spaces.
+
+A __complete topological space__ is completely metrizable [[topological space]], that is a topological space with the [[property]] of having some compatible complete metric on it.  In other words, the [[category]] of complete topological spaces is (up to [[equivalence of categories|equivalence]]) the category whose objects are complete metric spaces and whose morphisms are [[continuous functions]].  This is, of course, a terrible name, since there are (for example) completely uniformizable topological spaces that do not count as complete in this sense, but it is traditional, and there are many results associated with it.
 
 
 ## Properties
@@ -61,11 +61,8 @@ If $X$ is a [[metric space]], then we can also construct its completion as a [[l
 When [[Bill Lawvere]] interpreted (in [tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html), 1986) [[metric space]]s as certain [[enriched categories]], he found that a metric space was complete if and only if every [[adjunction]] of [[bimodule]]s over the enriched category is induced by an [[enriched functor]].  Accordingly, this becomes the notion of [[Cauchy complete category]].  (Note that one *must* say 'Cauchy' here, since this is *weaker* than being a [[complete category]], which is based on an incompatible analogy.)
 
 
-[[!redirects complete topological spaces]]
-
 [[!redirects complete space]]
 [[!redirects complete spaces]]
-
 
 [[!redirects Cauchy complete space]]
 [[!redirects Cauchy complete spaces]]
@@ -123,3 +120,6 @@ When [[Bill Lawvere]] interpreted (in [tac](http://www.tac.mta.ca/tac/reprints/a
 [[!redirects Cauchy-completion of a Cauchy space]]
 [[!redirects Cauchy-completion of Cauchy spaces]]
 [[!redirects Cauchy-completions of Cauchy spaces]]
+
+[[!redirects complete topological space]]
+[[!redirects complete topological spaces]]
