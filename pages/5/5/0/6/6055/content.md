@@ -1,3 +1,4 @@
+[[!redirects topos of algebras over a monad]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
