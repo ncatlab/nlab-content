@@ -170,6 +170,7 @@ in positive degree.
 
 * [[Hodge theorem]]
 
+* [[variational sequence]]
 
 
 ## References
