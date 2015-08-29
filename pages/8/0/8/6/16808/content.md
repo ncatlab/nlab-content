@@ -1,21 +1,24 @@
-# Localic completion
 
+# Localic completion
 * contents
-{:toc}
+{: toc}
 
 ## Idea
 
 If $X$ is a [[metric space]], we can construct a version of its [[Cauchy completion]] as a [[locale]], by taking as basic opens formal symbols $B_\delta(x)$ representing [[open balls]], and imposing relations ensuring that the points are [[Cauchy filters]].  (We can equivalently regard $X$ as a [[Lawvere metric space]] and build a locale whose points are "Cauchy [[profunctors]]".)  This is the **localic completion** of $X$.
 
+
 ## Examples
 
-* When $X$ is the rational numbers $\mathbb{Q}$, this yields the [[locale of real numbers]], which is in many respects better-behaved constructively than either its space of points (the [[Dedekind real numbers]]) or the completion of $\mathbb{Q}$ by Cauchy sequences.  Thus, the localic completion provides a "good" notion of completion for arbitrary metric spaces which generalizes the good localic real numbers.
+* When $X$ is the rational numbers $\mathbb{Q}$, this yields the [[locale of real numbers]], which is in many respects better-behaved constructively than either its space of points (the [[Dedekind real numbers]]) or the completion of $\mathbb{Q}$ by Cauchy sequences (the [[Cauchy real numbers]]).  Thus, the localic completion provides a "good" notion of completion for arbitrary metric spaces which generalizes the good localic real numbers.
 
 * By localically completing $\mathbb{Q}$ under a different metric, we obtain a "locale of [[p-adic numbers]]"; see [this MO question](http://mathoverflow.net/questions/214677/the-formal-p-adic-numbers).
 
+
 ## Generalizations
 
-We can allow $X$ to be a pesudometric space, a Lawvere metric space, or even a "metric locale".  See the references.
+We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or even a "[[metric locale]]".  See the references.
+
 
 ## References
 
