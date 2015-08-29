@@ -50,9 +50,9 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 
 * Arend Bayer, [[Yuri Manin|Yuri I. Manin]], _Stability conditions, wall-crossing and weighted Gromov-Witten invariants_, [math.AG/0607580](http://arxiv.org/abs/math.AG/0607580), Mosc. Math. J. __9__ (1), 2009.
 
-* Mina Aganagic, Hirosi Ooguri, Cumrun Vafa, Masahito Yamazaki, _Wall crossing and M-theory_, [arxiv/0908.1194](http://arxiv.org/abs/0908.1194)
+* [[Mina Aganagic]], Hirosi Ooguri, [[Cumrun Vafa]], Masahito Yamazaki, _Wall crossing and M-theory_, [arxiv/0908.1194](http://arxiv.org/abs/0908.1194)
 
-* M. Aganagic, _Wall crossing, quivers and crystals_, [arxiv/1006.2113](http://arxiv.org/abs/1006.2113)
+* [[Mina Aganagic]], _Wall crossing, quivers and crystals_, [arxiv/1006.2113](http://arxiv.org/abs/1006.2113)
 
 * S. Cecotti, [[Cumrun Vafa]], _BPS wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
