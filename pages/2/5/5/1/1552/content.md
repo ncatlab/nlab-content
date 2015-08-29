@@ -94,5 +94,10 @@ Many of these full subcategories of $Gau$ and $QGau$ are [[reflective subcategor
 
 [[!redirects gauge space]]
 [[!redirects gauge spaces]]
+
 [[!redirects quasigauge space]]
 [[!redirects quasigauge spaces]]
+
+[[!redirects Gau]]
+
+[[!redirects QGau]]
