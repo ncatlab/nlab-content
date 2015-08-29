@@ -53,7 +53,7 @@ Partition function for the [[superparticle]]: [[K-theory]] [[index]].
 
 Partition function for the [[type II superstring]]: [[elliptic genus]].
 
-Parition function for the [[heterotic string]]: [[Witten genus]].
+Partition function for the [[heterotic string]]: [[Witten genus]].
 
 
 For some discussion of partition functions of 1-dimensional QFTs see [[(1,1)-dimensional Euclidean field theories and K-theory]].
