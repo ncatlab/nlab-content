@@ -42,7 +42,7 @@ In some [[constructive mathematics|constructive]] approaches to analysis (partic
 
 Every complete metric space is a [[Baire space]].  Since being a Baire space is a topological property, it follows that every topologically complete space is a Baire space.
 
-+-- {: query}
++-- {: .query}
 Are there (necessarily nonmetrizable) complete spaces that are not Baire spaces?
 =--
 
@@ -55,7 +55,7 @@ The general idea is this: every point in $X$ generates a principal [[ultrafilter
 
 There is a problem that $\mathcal{C}X$ is rather larger than necessary; for example, all of the filters that converge to a given point in $X$ (not just the free ultrafilter at that point) exist in $\mathcal{C}X$ and converge to one another.  But you can take a [[quotient space|quotient]] of $\mathcal{C}X$ to make it Hausdorff, obtaining the __Hausdorff completion__ of $X$.  In case $X$ was not Hausdorff to begin with, one can sometimes also force the quotient to leave in just as much redundancy as $X$ has but no more, obtain a straight __completion__ of $X$.  But really, it\'s most natural to make the space Hausdorff at the same time.
 
-+-- {: standout}
++-- {: .standout}
 Details to come, if I get around to it.
 =--
 
@@ -81,7 +81,7 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 
 A list of classical concepts of completeness in topology (including some not listed here) is at
 
-*  A.V. Arkhangel'skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space).
+*  A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space).
 
 *  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
    {#Lawvere1973}
