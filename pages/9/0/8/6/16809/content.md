@@ -1,0 +1,79 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a smooth [[bundle]] $E \to \Sigma$ over a [[smooth manifold]] $\Sigma$, then its _Euler-Lagrange complex_ is a [[resolution]] of the [[constant sheaf]] of [[locally constant functions]] on the [[jet bundle]] $J^\infty E$ by a [[chain complex]] of sheaves of certain [[differential forms]]. The Euler-Lagrange complex starts out as the complex of [[horizontal differential forms]] up to degree $n \coloneqq dim(\Sigma)$ the [[dimension]] of $\Sigma$, the following [[differential]] is the [[Euler-Lagrange operator]], followed by the [[Helmholtz operator]].
+
+$$
+ 0 \to \mathbb{R}
+ \to
+  \Omega^{0,0}(J^\infty E)
+  \stackrel{d_H}{\to}
+  \Omega^{1,0}(J^\infty E)
+  \stackrel{d_H}{\to}
+  \cdots 
+  \stackrel{d_H}{\to}
+  \Omega^{n,0}(J^\infty E)
+  \stackrel{E}{\to}
+  \mathcal{F}^1(J^\infty E)
+  \stackrel{\delta_V}{\to}
+  \mathcal{F}^2(J^\infty E)
+  \stackrel{\delta_V}{\to}
+  \cdots
+$$
+
+Hence the elements in the Euler-Lagrange complex have the following interpretation
+
+* in degree $dim(\Sigma)$: [[local Lagrangians]];
+
+* in degree $dim(\Sigma)+1$: [[Euler-Lagrange equations of motion]];
+
+* in degree $dim(\Sigma)-1$: trivial local Lagragians;
+
+* in degree $dim(\Sigma)+2$: [[obstructions]] for [[equations of motion]] to be variational, i.e. to be the Euler-Lagrange equations of a local Lagrangian.
+
+## Properties
+
++-- {: .num_prop #ELComplexHasSameCohomologyAsDeRhamComplex}
+###### Proposition
+
+The [[cochain cohomology]] of the [[Euler-Lagrange complex]]
+
+$$
+ 0 \to \mathbb{R}
+ \to
+  \Omega^{0,0}(J^\infty E)
+  \stackrel{d_H}{\to}
+  \Omega^{1,0}(J^\infty E)
+  \stackrel{d_H}{\to}
+  \cdots 
+  \stackrel{d_H}{\to}
+  \Omega^{n,0}(J^\infty E)
+  \stackrel{E}{\to}
+  \mathcal{F}^1(J^\infty E)
+  \stackrel{\delta_V}{\to}
+  \mathcal{F}^2(J^\infty E)
+  \stackrel{\delta_V}{\to}
+  \cdots
+$$
+
+is [[isomorphism|isomorphic]] to the [[de Rham cohomology]] of the total space $E$ of the given fiber bundle.
+
+=--
+
+([Anderson 89, theorem 5.9](#Anderson89)).
+
+## Related concepts
+
+* [[variational sequence]]
+
+## References
+
+* {#Anderson89} Ian Anderson, _The variational bicomplex_, Utah State University 1989 ([pdf]( http://math.uni.lu/~jubin/seminar/bicomplex.pdf)) 
+
+
+[[!redirects Euler complex]]
+[[!redirects Euler complexes]]
