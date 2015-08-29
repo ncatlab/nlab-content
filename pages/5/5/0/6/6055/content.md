@@ -82,7 +82,7 @@ $$
   f^* f_* : \mathcal{E} \to \mathcal{E}
 $$
 
-is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coalgebras.
+is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coalgebras. See also at _[[monadic descent]]_.
 
 =--
 
@@ -94,15 +94,16 @@ The so-called "[[over-topos|fundamental theorem of topos theory]]", that an [[ov
 
 ## Related concepts
 
-* Also a category of [[algebra over an algebraic theory|algebras over]] a *commutative* [[finitary algebraic theory]] in [[Set]] has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoid]]s of [[Nikolai Durov]].
+* Also a category of [[algebra over an algebraic theory|algebras over]] a *commutative* [[finitary algebraic theory]] in [[Set]] has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoids]] of [[Nikolai Durov]].
 
 
 ## References
 
-Section V 8. of
 
-* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], section V 8. of _[[Sheaves in Geometry and Logic]]_
  
+* [[Peter Johnstone]], _When is a variety a topos?_, Algebra Universalis, 21 (1985) 198-212
 
 
 [[!redirects topos of coalgebras over a comonad]]
