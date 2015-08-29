@@ -359,14 +359,15 @@ Princeton university, 1963
 1971.
 
 
-* [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
-  {#Dirac78}
+* {#Dirac78} [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
+  
 
 
-
-A list of scripts and lecture notes is at
+Lecture notes include
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
+
+* [[Valter Moretti]], _Mathematical Foundations of Quantum Mechanics: An Advanced Short Course_ ([arXiv:1508.06951](http://arxiv.org/abs/1508.06951))
 
 Some standard references include
 
