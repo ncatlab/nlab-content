@@ -88,22 +88,22 @@ and counit
 $$C \otimes D \stackrel{\varepsilon_C \otimes \varepsilon_D}{\to} I \otimes I \cong I.$$ 
 
 +-- {: .un_prop} 
-######Proposition 
+###### Proposition 
 $C \otimes D$ is the cartesian product of $C$ and $D$ in $CocommCoalg(M)$. 
 =-- 
 
-+-- {: .un_thm}
-######Theorem 
++-- {: .un_theorem}
+###### Theorem 
 The forgetful 2-functor 
 
 $$U: CartMonCat \to SymMonCat,$$ 
 
-from cartesian monoidal categories and product-preserving functors to symmetric monoidal categories and strong symmetric monoidal functors, is coreflective. That is to say, it has a right 2-adjoint which sends $M$ to $CocommCoalg(M)$, and the unit of the 2-adjunction is an equivalence. 
+from cartesian monoidal categories and product-preserving functors to symmetric monoidal categories and strong symmetric monoidal functors, is coreflective. That is to say, it has a right [[biadjunction|bi-adjoint]] which sends $M$ to $CocommCoalg(M)$, and the unit of the 2-adjunction is an equivalence. 
 =-- 
 
 +-- {: .un_cor}
-######Corollary 
-The 2-category of cartesian monoidal categories is comonadic over the 2-category of symmetric monoidal categories. 
+###### Corollary 
+The 2-category of cartesian monoidal categories is comonadic (in the bicategorical sense) over the 2-category of symmetric monoidal categories. 
 =-- 
 
 ## Related concepts
