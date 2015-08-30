@@ -1,3 +1,7 @@
+# Contents # 
+* table of contents 
+{:toc}
+
 This page describes some nice properties of the [[category]] $R Cocomm Coalg$ of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] over a [[ground ring]] $R$, in particular details of the proof that it is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[lextensive category|lextensive]], [[cartesian closed category]] with a [[generating set]]. 
 
 In the sequel, we will simply say "coalgebra", although we really mean *cocommutative* (coassociative, counital) coalgebra. 
@@ -51,7 +55,7 @@ $$E = \{c \in C: c_{(1)} \otimes f(c_{(2)}) \otimes c_{(3)} = c_{(1)} \otimes g(
 
 with the unique structure of coalgebra that makes it a subcoalgebra of $C$. 
 
-Assuming the construction of [[cofree cocommutative coalgebra]]s, viz. the right adjoint $K: R Mod \to R Cocomm Coalg$ to the forgetful functor $U: R Cocomm Coalg \to R Mod$ (which we also touch on below), the product of a family of coalgebras $C_i$ can be described as follows. Consider the product $\prod_i C_i$ taken in $R Mod$, and let $p: U K(\prod_i C_i) \to \prod_i C_i$ be the component of the counit of the adjunction $U \dashv K$ at that product. Then the product $C$ of the $C_i$ taken in $R Cocomm Coalg$ is the largest subcoalgebra $j: C \hookrightarrow K(\prod_i C_i)$ such that each composite $\pi_i p j: C \to C_i$ is a coalgebra map. For a proof, see the [article](#Agore) by Agore. 
+Assuming the construction of [[cofree coalgebra|cofree cocommutative coalgebra]]s, viz. the right adjoint $K: R Mod \to R Cocomm Coalg$ to the forgetful functor $U: R Cocomm Coalg \to R Mod$ (which we also touch on below), the [[product]] of a family of coalgebras $C_i$ can be described as follows. Consider the product $\prod_i C_i$ taken in $R Mod$, and let $p: U K(\prod_i C_i) \to \prod_i C_i$ be the component of the counit of the adjunction $U \dashv K$ at that product. Then the product $C$ of the $C_i$ taken in $R Cocomm Coalg$ is the largest subcoalgebra $j: C \hookrightarrow K(\prod_i C_i)$ such that each composite $\pi_i p j: C \to C_i$ is a coalgebra map. For a proof, see the [article](#Agore) by Agore. 
 
 ## Cartesian closure 
 
@@ -61,7 +65,9 @@ For locally presentable or more generally total categories $\mathbf{C}$, coconti
 
 ## Comonadicity over $R Mod$ 
 
-Again, since $U: R Cocomm Coalg \to R Mod$ is cocontinuous and $R Cocomm Coalg$ is locally presentable, $U$ has a right adjoint $K$. This is described more explicitly at [[cofree cocommutative coalgebra]]. 
+Again, since $U: R Cocomm Coalg \to R Mod$ is cocontinuous and $R Cocomm Coalg$ is locally presentable, $U$ has a right adjoint $K$. This is described more explicitly at [[cofree coalgebra|cofree cocommutative coalgebra]]. 
+
+The comonadicity of $U$ is proven in the [article](#Barr) by Barr, section 4. 
 
 ## Lextensivity 
 
@@ -70,6 +76,7 @@ To be investigated...
 ## References 
 
 * Michael Barr, [Coalgebras over a commutative ring](http://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), J. Alg. 32 (1974), 600--610. 
+ {#Barr}
 
 * Hans-Eberhard Porst, [On corings and comodules](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf), Archivum Mathematicum (2006), No. 4, 419-425. 
  {#Porst} 
