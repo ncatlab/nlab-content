@@ -1,10 +1,9 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -53,6 +52,9 @@ Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of 
 
 
 The set of [[Cauchy filters]] on a Cauchy space has a natural Cauchy structure which is complete and (as a convergence space) [[preregular space|preregular]]; we identify the indistinguishable Cauchy filters to get a [[Hausdorff space]], the Hausdorff __[[Cauchy completion of a Cauchy space|completion]]__ of the original Cauchy space.  The complete Hausdorff Cauchy spaces thus form a [[reflective subcategory]] of $Cau$.  This completion agrees with the completion of a metric or uniform space; that is, Cauchy completion, even of a metric space, is an operation on its Cauchy structure only.
+
+
+Conversely, every Hausdorff convergence space becomes a complete Hausdorff Cauchy space upon declaring that the Cauchy filters are precisely the convergent proper filters.  The convergence structure on this Cauchy space matches the original convergence structure.
 
 
 A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bounded__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter principle]]), $S$ is precompact iff every [[ultrafilter]] is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) iff it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
