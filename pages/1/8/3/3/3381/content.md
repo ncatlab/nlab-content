@@ -33,11 +33,11 @@ In [[combinatorics]], one often wants a slight generalisation.  Given a [[natura
 
 Every permutation $\pi : X \to X$ generates a [[cyclic group|cyclic]] [[subgroup]] $\langle \pi \rangle$ of the symmetric group $S_X$, and hence inherits a [[group action]] on $X$.  The [[orbits]] of this action partition the set $X$ into a disjoint union of cycles, called the **cyclic decomposition** of the permutation $\pi$.
 
-For example, let $\pi$ be the permutation on $[6]$ defined by
+For example, let $\pi$ be the permutation on $[6] = \{0,\dots,5\}$ defined by
 
 $$\pi = \array{0 \mapsto 0 \\ 1 \mapsto 3 \\ 2 \mapsto 4 \\ 3 \mapsto 5 \\ 4 \mapsto 2 \\ 5 \mapsto 1}$$
 
-The set $[6] = \{0,\dots,5\}$ is partitioned into three $\langle\pi\rangle$-orbits 
+The domain of the permutation is partitioned into three $\langle\pi\rangle$-orbits 
 
 $$[6] = \{0\} \cup \{1,3,5\} \cup \{2,4\}$$
 
