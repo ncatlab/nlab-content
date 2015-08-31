@@ -21,7 +21,15 @@ An **oriented combinatorial map** is a set $D$ (whose elements are called _darts
 1. $\alpha$ is a [[fixed point]]-free [[involution]].
 =--
 
-Two oriented combinatorial maps $M = (D,(\sigma,\alpha,\phi))$ and $M' = (D',(\sigma',\alpha',\phi'))$ are equivalent $M \equiv M'$ if there is a bijection $h : D \cong D'$ such that $\sigma = h^{-1}\sigma' h$, $\alpha = h^{-1}\alpha' h$, $\phi = h^{-1}\phi' h$.
+A [[homomorphism]] of oriented combinatorial maps
+
+$$M = (D,(\sigma,\alpha,\phi)) \longrightarrow M' = (D',(\sigma',\alpha',\phi'))$$
+
+is a function $h : D \to D'$ which commutes with the three permutations,
+
+$$h\sigma = \sigma'h \qquad h\alpha = \alpha'h \qquad h\phi = \phi' h.$$
+
+Hence, $M$ and $M'$ are [[isomorphic]] if and only there is a bijection $h : D \cong D'$ between the underlying sets of darts, such that the triple of permutations $(\sigma,\alpha,\phi)$ is mapped by the [[conjugation action]] of $h$ to the triple of permutations $(\sigma',\alpha',\phi')$.
 
 In the literature, oriented combinatorial maps are often simply referred to as "combinatorial maps".  Also, many authors equivalently define an oriented combinatorial map by a pair $(\sigma,\alpha)$ of permutations, since by condition (2) above, the third permutation $\phi$ can always be recovered uniquely as $\phi = \sigma^{-1}\alpha^{-1}$.
 
