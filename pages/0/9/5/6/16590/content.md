@@ -22,28 +22,47 @@ One can vary this by considering some other kind of underlying space (besides th
 
 ## Definitions
 
-Suppose $\mathcal{S}$ is some category of "spaces" with a notion of "[[completion|completeness]]", together with an [[underlying topology|underlying functor]] $U: \mathcal{S} \to Top$. In fact, let us take as a running example the case where $\mathcal{S} = Met$ with the usual meaning of completeness and the usual underlying functor to $Top$. Then one may say that a metric space $X$ is __topologically complete__[^1] if the underlying [[topological space]] $U X$ is completely [[metric space|metrizable]]; that is with the [[property]] of having some complete metric on its [[underlying set]] that is compatible with the underlying topology. 
+### General
 
-More generally, one could say that a "space" (an object $X$ of $\mathcal{S}$) is *topologically* ($\mathcal{S}$-)complete if there is an $\mathcal{S}$-complete space $Y$ for which $U(Y) = U(X)$ (or if this is considered too "[[principle of equivalence|evil]]", then we could appeal to an isomorphism $U(Y) \cong U(X)$ instead, preferably under the assumption that $U$ is an [[isofibration]]). For instance, if $\mathcal{S}$ is the category of [[uniform spaces]], we could refer to a uniform space as topologically (uniformly) complete; this would be synonymous with (topologically) "completely [[uniform space|uniformizable]]", analogous to being completely metrizable; another synonym for this, still in the uniform space context, is *Dieudonn&#233;-complete*. 
+Let $C$, $M$, $S$, and $T$ be [[categories]], and suppose that we have [[functors]] $U\colon C \to M$, $V\colon M \to S$, and $W\colon S \to T$.  We will think of the [[objects]] of these categories as [[spaces]], and we\'ll think of these functors and their [[composites]] as [[forgetful functors]].  Also, we\'ll think of $C$ as a [[subcategory]] of $M$, and we\'ll think of the objects of $C$ as the _complete_ spaces in $M$.
 
-+-- {: .num_remark} 
-###### Remark 
-According to Wikipedia, the term 'topologically complete' is sometimes used to mean "completely metrizable", other times it refers to Dieudonn&#233;-completeness.  Obviously this makes "topologically complete" a terribly confusing name, just asking for trouble, but it is traditional, and there are many results associated with it.
-=-- 
+The basic example to keep in mind is the case where $T$ is the category [[Top]] of [[topological spaces]] and [[continuous functions]], $M$ is the category [[Met]] of [[metric spaces]] and [[short functions]], and $C$ is the [[full subcategory]] of $Met$ consisting of the [[complete metric spaces]].  In the motivating example, $S$ is also $Met$, but this can remain flexible.  In any case, $U, V, W$ should all be standard forgetful functors.
 
-[^1]: This terminology, despite its flaws, really does appear in the literature. See for instance [Arkhangel&#8242;skii 1977](#Ark1977). 
+Even in other situations, it should be that once you specify $M, S, T$, then $C, U, V, W$ should all be obvious.  Typically, $C, M, S, T$ will be [[concrete categories]], $U, V, W$ will be [[faithful functor|faithful]] [[isofibrations]], and $U$ will additionally be [[full functor|full]], but this doesn\'t really affect anything.
 
-So in other words (again appealing to the running example), the [[groupoid]] of topologically complete spaces is (up to [[equivalence of categories|equivalence]]) the groupoid of completely metrizable topological spaces, or equivalently the category whose [[objects]] are complete metric spaces and whose [[morphisms]] are [[homeomorphisms]].  
+An object $X$ of $S$ is __$M$-izable__ if there is an object $Y$ of $M$ and an [[isomorphism]] in $S$ between $X$ and $V(Y)$.  $X$ is __completely $M$-izable__ if there is an object $Z$ of $C$ and an isomorphism in $S$ between $X$ and $V(U(Z)$.  $X$ is __$T$-ly $M$-izable__ if there is an object $Y$ of $M$ and an isomorphism in $T$ between $W(X)$ and $W(V(Y))$.  Finally, $X$ is __$T$-ly completely $M$-izable__ if there is an object $Z$ of $C$ and an isomorphism in $T$ between $W(X)$ and $W(V(U(Z)))$.  (If all functors are isofibrations, then we may without loss of generality require these $T$-isomorphisms to be [[equalities]], which is typically what is done in topology books.)
 
-All this can be generalized further. If $\mathcal{S}$ and $\mathcal{T}$ are two notions of space, with a notion of $\mathcal{S}$-completeness and a forgetful functor $U: \mathcal{S} \to \mathcal{T}$, then analogously we can refer to an object $X$ of $\mathcal{S}$ as being "$\mathcal{T}$-ly $\mathcal{S}$-complete". For example, there is a forgetful functor $U: Met \to Unif$, and then we can make sense of an utterance that a metric space is "uniformly completely metrizable", etc.
+The actual terminology used will be based on terms for the objects of $M$ and $T$ rather than terms for $M$ and $T$ themselves; for example, when $M$ is $Met$ and $T$ is $Top$, then we say 'topologically completely metrizable' rather than '$Top$-ly completely $Met$-izable'.  $C, U, V, W$ are suppressed in the terminology because they are supposed to be obvious; $S$ is suppressed because you are supposed to know what it is when you first mention $X$.
+
+
+### Special cases
+
+A space $X$ (an object of $S$) is $M$-izable if and only if $X$ is $S$-ly $M$-izable; $X$ is completely $M$-izable iff $X$ is $S$-ly completely $M$-izable.  $X$ is [[complete space|complete]] iff $X$ is $S$-ly completely $S$-izable; $X$ is always $S$-ly $S$-izable.  Finally, $X$ is $T$-ly completely $M$-izable iff $X$ is $T$-ly $C$-izable.
+
+A space is __topologically complete__ if it is topologically completely metrizable; this is the standard example above.  At least one reference ([Schechter 1997](#Schechter1997)) uses this term for a space that is topologically completely pseudometrizable (that is, $M$ is the category of [[pseudometric spaces]]).  According to Wikipedia, at least one reference ([Kelley 1955](#Kelley1955)) uses this term for a space that is topologically completely uniformizable (that is, $M$ is the category of [[uniform spaces]]).
+
+A space is __Dieudonn&#233;-complete__ if it is topologically completely uniformizable.  At least one reference ([Arkhangel&#8242;skii 1977](#Ark1977)) uses this term for a space that is topologically completely Hausdorff-uniformizable (that is, $M$ is the category of of [[Hausdorff space|Hausdorff]] uniform spaces).
+
+
+## Categories of complete spaces
+
+If we consider the entire category of complete spaces in some sense, then $S$ must be specified explicitly; that is, we speak of the category of $T$-ly $M$-izable $S$-spaces or the category of $T$-ly completely $M$-izable $S$-spaces.  However, if $S$ is not specified, then we take it to be $T$ by default.  We consider these categories to be [[full subcategories]] of $S$.
+
+Up to [[equivalence of categories|equivalence]] of categories, the category of $T$-ly $M$-izable $T$-spaces (or simply $T$-ly $M$-izable spaces) is the category whose [[objects]] are taken from $M$ and whose [[morphisms]] are taken from $T$; similarly, the category of $T$-ly completely $M$-izable spaces has objects taken from $C$ and morphisms taken from $T$.
+
+In particular, the category of topologically complete spaces may be taken to have complete metric spaces are objects and continuous functions as morphisms.
 
 
 ## References
 
-A list of classical concepts of completeness in topology (including some not listed here) is at
-
 *  A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
    {#Ark1977}
+
+*  [[John Kelley]] (1955).  _General Topology_, 1975.
+   {#Kelley1955}
+
+*  Eric Schechter (1997).  _[[Handbook of Analysis and its Foundations]]_, Section 20.12.
+   {#Schechter1997}
 
 
 [[!redirects topologically complete space]]
