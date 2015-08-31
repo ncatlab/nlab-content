@@ -15,51 +15,21 @@
 
 ## Idea
 
-A space (with "space" taken in a sense neighboring on [[topology]]) is _complete_ (or _Cauchy complete_) if every [[sequence]], [[net]], or [[filter]] that should converge really does [[convergence|converge]].  We identify the sequences, nets, or filters that "should" converge as the _[[Cauchy sequence|Cauchy]]_ ones.
+A [[space]] (with "space" taken in a sense relevant to the field of [[topology]]) is _complete_ (or _Cauchy-complete_) if every [[sequence]], [[net]], or [[filter]] that should converge really does [[convergence|converge]].  We identify the sequences, nets, or filters that "should" converge as the _[[Cauchy sequence|Cauchy]]_ ones.
 
-A space that is not complete has "gaps" that may be filled to form its _completion_; it is rather natural to make the space (or its underlying topological space) [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense. 
+A space that is not complete has "gaps" that may be filled to form its _completion_; it is rather natural to make the space (or equivalently its underlying topological space) [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general abstract sense. 
 
 
 ## Definitions
 
-A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy complete__ if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __sequentially complete__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete, but this does not hold for more general spaces.
+A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy-complete__, or simply __complete__, if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __sequentially complete__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete (in [[classical mathematics]]), but this does not hold for more general spaces (nor even for metric spaces in [[constructive mathematics]]).
 
-There is also a notion of being "topologically complete". Suppose $\mathcal{S}$ is some category of "spaces" with a notion of "[[completion|completeness]]", together with an [[underlying topology|underlying functor]] $U: \mathcal{S} \to Top$. In fact, let us take as a running example the case where $\mathcal{S} = Met$ with the usual meaning of completeness and the usual underlying functor to $Top$. Then one may say that a metric space $X$ is __topologically complete__[^1] if the underlying [[topological space]] $U X$ is completely [[metric space|metrizable]]; that is with the [[property]] of having some complete metric on its [[underlying set]] that is compatible with the underlying topology. 
-
-More generally, one could say that a "space" (an object $X$ of $\mathcal{S}$) is *topologically* ($\mathcal{S}$-)complete if there is an $\mathcal{S}$-complete space $Y$ for which $U(Y) = U(X)$ (or if this is considered too "[[principle of equivalence|evil]]", then we could appeal to an isomorphism $U(Y) \cong U(X)$ instead, preferably under the assumption that $U$ is an [[isofibration]]). For instance, if $\mathcal{S}$ is the category of [[uniform spaces]], we could refer to a uniform space as topologically (uniformly) complete; this would be synonymous with (topologically) "completely [[uniform space|uniformizable]]", analogous to being completely metrizable; another synonym for this, still in the uniform space context, is *Dieudonn&#233;-complete*. 
-
-+-- {: .num_remark} 
-###### Remark 
-According to Wikipedia, the term 'topologically complete' is sometimes used to mean "completely metrizable", other times it refers to Dieudonn&#233;-completeness.  Obviously this makes "topologically complete" a terribly confusing name, just asking for trouble, but it is traditional, and there are many results associated with it.
-=-- 
-
-[^1]: This terminology, despite its flaws, really does appear in the literature. See for instance the [reference](#Ark) by Arkhangel&#8242;skii. 
-
-So in other words (again appealing to the running example), the [[groupoid]] of topologically complete spaces is (up to [[equivalence of categories|equivalence]]) the groupoid of completely metrizable topological spaces, or equivalently the category whose [[objects]] are complete metric spaces and whose [[morphisms]] are [[homeomorphisms]].  
-
-All this can be generalized further. If $\mathcal{S}$ and $\mathcal{T}$ are two notions of space, with a notion of $\mathcal{S}$-completeness and a forgetful functor $U: \mathcal{S} \to \mathcal{T}$, then analogously we can refer to an object $X$ of $\mathcal{S}$ as being "$\mathcal{T}$-ly $\mathcal{S}$-complete". For example, there is a forgetful functor $U: Met \to Unif$, and then we can make sense of an utterance that a metric space is "uniformly completely metrizable", etc. 
-
-## Properties
-
-### Relation to compact spaces
-
-A [[compact space]] is necessarily complete.  A space is called __precompact__ if its completion (see below) is compact.  For metric spaces (or even [[uniform spaces]]), there is a natural notion of a [[totally bounded space]]; in [[classical mathematics]], we have the theorem that a space is totally bounded if and only if it is precompact.  Similarly, a space is compact if and only if it is both complete and totally bounded (or more generally, both complete and precompact).  Thus the purely topological property of compactness is the conjunction of the nontopological properties of completeness and total boundedness.
-
-In some [[constructive mathematics|constructive]] approaches to analysis (particularly Bishop\'s school), this is taken as the *definition* of compactness, because it holds of examples such as the [[unit interval]] that fail to be compact (in the usual sense) without the [[fan theorem]].  However, in this case, compactness is no longer a [[topological property]].  This is reconciled somewhat with the theory of [[localic completion]], in which a uniform space is totally bounded if and only if its localic completion is compact (in the usual sense).
-
-
-### Relation to Baire spaces
-
-Every complete metric space is a [[Baire space]].  Since being a Baire space is a topological property, it follows that every topologically complete space is a Baire space.
-
-+-- {: .query}
-Are there (necessarily nonmetrizable) complete spaces that are not Baire spaces?
-=--
+A space is __topologically complete__ if its [[underlying topological space]] is completely [[metrizable space|metrizable]].  There are various other notions related to this.  See [[topologically complete space]].
 
 
 ## Completion
 
-The set $\mathcal{C}X$ of Cauchy filters on a space $X$ may naturally be given the same sort of structure as $X$ itself has, and this space will be complete.  Exactly how to do this depends on what structure $X$ is supposed to have, of course, and one can make the general statement false by requiring something artificial as the structure in question, most extremely the structure of being a specific non-complete space.  But it works for most natural categories of spaces.
+The set $\mathcal{C}X$ of Cauchy filters on a space $X$ may generally be given the same sort of structure as $X$ itself has, and this space will be complete.  Exactly how to do this depends on what structure $X$ is supposed to have, of course, and one can make the general statement false by requiring something artificial as the structure in question, most extremely the structure of being a specific non-complete space.  But it works for most natural categories of spaces.
 
 The general idea is this: every point in $X$ generates a principal [[ultrafilter]] (consisting of those sets to which the point belongs), so there is a natural map from $X$ to $\mathcal{C}X$.  Furthermore, this map is a morphism of the appropriate structure, which in particular makes it [[Cauchy-continuous map|Cauchy-continuous]] (preserving Cauchy filters) and continuous (preserving limits).  So all of the limits in $X$ still exist in $\mathcal{C}X$, but now each Cauchy filter in $X$ (having become both a Cauchy filter in $\mathcal{C}$ and a point in $\mathcal{C}$) has a limit as well.  The additional Cauchy filters based on the additional points in $\mathcal{C}X$ will also have a limit in $\mathcal{C}X$, essentially because $\mathcal{C}$ is a [[monad]] (so a Cauchy filter of Cauchy filters folds into a single Cauchy filter).
 
@@ -82,17 +52,35 @@ X &                 &              &                 & \mathcal{H}\overline{X} \
 At least if $X$ is a [[metric space]], then we can also construct its completion as a [[locale]], the [[localic completion]], whose spatial part is the above space, but which in [[constructive mathematics]] may not be spatial.  This is useful to have even if $X$ is already complete.
 
 
+## Properties
+
+### Relation to compact spaces
+
+A [[compact space]] is necessarily complete.  A space is called __precompact__ if its completion is compact.  For metric spaces (or even [[uniform spaces]]), there is a natural notion of a [[totally bounded space]]; in [[classical mathematics]], we have the theorem that a space is totally bounded if and only if it is precompact.  Similarly, a space is compact if and only if it is both complete and totally bounded (or in [[constructive mathematics]], both complete and precompact).  Thus the purely topological property of compactness is the conjunction of the nontopological properties of completeness and total boundedness.
+
+In some [[constructive analysis|constructive approaches to analysis]] (including most of Brouwer\'s school and some of Bishop\'s school), 'complete and totally bounded' is taken as the *definition* of 'compact', because it holds of examples such as the [[unit interval]] that fail to be compact (in the usual sense) without the [[fan theorem]].  However, in this case, compactness is no longer a [[topological property]].  This is reconciled somewhat with the theory of [[localic completion]], in which a uniform space is totally bounded if and only if its localic completion is compact (in the usual sense).
+
+
+### Relation to Baire spaces
+
+Every complete metric space is a [[Baire space]].  Since being a Baire space is a [[topological property]], it follows that every [[topologically complete space]] is a Baire space.
+
++-- {: .query}
+Are there (necessarily nonmetrizable) complete uniform spaces that are not Baire spaces?
+=--
+
+There is also a topological property of [[Cech-complete space|Čech-completeness]] that is related  to this; in particular, a metric space is &#268;ech-complete if and only if it is complete, and every &#268;ech-complete space is a Baire space.  In general, we have these proper implications: topologically complete &#8594; &#268;ech-complete &#8594; Baire.
+
+
 ## Generalization
 
-When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spaces]] as certain [[enriched categories]], he found that a metric space was complete if and only if every [[adjunction]] of [[bimodule]]s over the enriched category is induced by an [[enriched functor]].  Accordingly, this becomes the notion of [[Cauchy complete category]].  (Note that one *must* say 'Cauchy' here, since this is *weaker* than being a [[complete category]], which is based on an incompatible analogy.)
+When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spaces]] as certain [[enriched categories]], he found that a metric space was complete if and only if every [[adjunction]] of [[bimodules]] over the enriched category is induced by an [[enriched functor]].  Accordingly, this becomes the notion of [[Cauchy-complete category]].  (Note that one *must* say 'Cauchy' here, since this is *weaker* than being a [[complete category]], which is based on an incompatible analogy.)
 
 
 ## References
 
-A list of classical concepts of completeness in topology (including some not listed here) is at
-
 *  A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
- {#Ark}
+   {#Ark1977}
 
 *  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
    {#Lawvere1973}
@@ -105,6 +93,14 @@ A list of classical concepts of completeness in topology (including some not lis
 [[!redirects Cauchy complete spaces]]
 [[!redirects Cauchy-complete space]]
 [[!redirects Cauchy-complete spaces]]
+
+[[!redirects completion of a space]]
+[[!redirects completion of spaces]]
+[[!redirects completions of spaces]]
+[[!redirects Cauchy completion]]
+[[!redirects Cauchy completions]]
+[[!redirects Cauchy-completion]]
+[[!redirects Cauchy-completions]]
 
 [[!redirects complete metric space]]
 [[!redirects complete metric spaces]]
@@ -157,18 +153,3 @@ A list of classical concepts of completeness in topology (including some not lis
 [[!redirects Cauchy-completion of a Cauchy space]]
 [[!redirects Cauchy-completion of Cauchy spaces]]
 [[!redirects Cauchy-completions of Cauchy spaces]]
-
-[[!redirects topologically complete space]]
-[[!redirects topologically complete spaces]]
-
-[[!redirects Dieudonne complete space]]
-[[!redirects Dieudonne complete spaces]]
-[[!redirects Dieudonné complete space]]
-[[!redirects Dieudonné complete spaces]]
-[[!redirects Dieudonne-complete space]]
-[[!redirects Dieudonne-complete spaces]]
-[[!redirects Dieudonné-complete space]]
-[[!redirects Dieudonné-complete spaces]]
-
-[[!redirects complete topological space]]
-[[!redirects complete topological spaces]]
