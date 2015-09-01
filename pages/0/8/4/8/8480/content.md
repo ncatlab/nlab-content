@@ -54,7 +54,7 @@ If $L$ is a [[complete lattice]], then every monotone (i.e., order-preserving) m
 
 +-- {: .proof} 
 ###### Proof 
-The [[algebra of an endofunctor|algebras]] for the functor $f \colon L \to L$ are elements $x$ such that $f(x) \leq x$. Limits in $Alg(L)$ are preserved an reflected by the forgetful functor or inclusion $Alg(L) \to L$, hence $Alg(L)$ is complete if $L$ is. In particular, $Alg(L)$ has an initial object, and initial algebras are fixed points. 
+The [[algebra of an endofunctor|algebras]] for the functor $f \colon L \to L$ are elements $x$ such that $f(x) \leq x$. Limits in $Alg(L)$ are preserved and reflected by the forgetful functor or inclusion $Alg(L) \to L$, hence $Alg(L)$ is complete if $L$ is. In particular, $Alg(L)$ has an initial object, and initial algebras are fixed points. 
 
 (In more down-to-earth terms, let $t$ be the infimum of $A = \{x: f(x) \leq x\}$. Then for every $x \in A$, we have $f(t) \leq f(x) \leq x$, hence $f(t) \leq t$. We therefore also have $f(f(t)) \leq f(t)$, so that $f(t) \in A$. But then it follows that $t \leq f(t)$, whence $t = f(t)$. Clearly this $t$ is a least fixed point of $f$.) 
 
@@ -110,7 +110,7 @@ Regarding $\kappa$ as an ordinal $\{\alpha \lt \kappa\}$ (hence a poset, hence a
 
 * For $\beta$ a limit ordinal, $G(\alpha \lt \beta)$ is a component of the cocone diagram that defines $G(\beta)$ as a colimit; 
 
-* G(\alpha + 1 \lt \beta + 1) = F(G(\alpha \lt \beta))$; 
+* $G(\alpha + 1 \lt \beta + 1) = F(G(\alpha \lt \beta))$; 
 
 * For $\alpha$ a limit ordinal, $G(\alpha \lt \beta + 1)$ is the unique map $colim_{\gamma \lt \alpha} G(\gamma) \to G(\beta +1$ corresponding to the cocone from the diagram $G| \colon \alpha \to C$ to $G(\beta+1)$. 
 
