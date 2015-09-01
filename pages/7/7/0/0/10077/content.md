@@ -143,9 +143,10 @@ In a braided monoidal category regarded as a normal duoidal one, this reduces to
 
 * [[Richard Garner]], _Understanding the small object argument_, [arXiv](http://arxiv.org/abs/0712.0724).
 
-* Ignacio L&#243;pez Franco, _Commutativity and tensor products of theories, monads, and operads_, talk at CT2013, [slides](https://www.dpmms.cam.ac.uk/~ill20/ct2013-talk.pdf) 
+* [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_, [arXiv](http://arxiv.org/abs/1507.08710).  See also _Commutativity and tensor products of theories, monads, and operads_, talk at CT2013, [slides](https://www.dpmms.cam.ac.uk/~ill20/ct2013-talk.pdf)
 
 * Zoran Petri&#263; and [[Todd Trimble]], _Symmetric bimonoidal intermuting categories and $\omega \times \omega$ reduced bar constructions_. To appear in Applied Categorical Structures. 
+
 
 [[!redirects duoidal categories]]
 [[!redirects 2-monoidal category]]
