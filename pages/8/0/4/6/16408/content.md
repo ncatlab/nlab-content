@@ -103,7 +103,7 @@ to the definition of oriented combinatorial map, then the resulting class of per
 
 gives a way of representing arbitrary [[triangulations]] of oriented surfaces.  Analogous to what we saw above in the case of the edge involution $\alpha$, dropping the condition that $\sigma$ or $\phi$ be fixed point free also allows for the possibility of degenerate vertices/faces of degree 1.
 
-More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if $p$, $q$, and $r$ are the [[least common multiple]]s of the degrees of the hypervertices, hyperedges, and hyperfaces, respectively.  This topological condition translates to the algebraic condition that $p,q,r$ are the smallest natural numbers such that $\sigma^p = \alpha^q = \phi^r = 1$.
+More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if $p$, $q$, and $r$ are the [[least common multiple]]s of the degrees of the hypervertices, hyperedges, and hyperfaces, respectively.  This topological condition translates to the algebraic condition that the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.
 
 ## Related concepts
 
