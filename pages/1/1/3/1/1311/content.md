@@ -11,6 +11,7 @@ An $n$-[[n-category|category]] is __$k$-simply connected__ (or just __$k$-connec
 ## Special cases
 
 Thus:
+
 *  A $(-2)$-simply connected $n$-category is simply an $n$-category;
 *  A $(-1)$-simply connected $n$-category is an [[inhabited set|inhabited]] $n$-category.
 *  A $0$-simply connected $n$-category is a [[connected category|connected]] $n$-category: an inhabited $n$-category in which all objects are equivalent;
