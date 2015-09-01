@@ -379,7 +379,7 @@ The Western Ontario Series in Philosophy of Science Volume 72, 2006, pp 43-100(2
 Textbook accounts include
 
 * [[Yvette Kosmann-Schwarzbach]], _Les th&#233;or&#232;mes de Noether:
-invariance et lois de conservation au XXe si&#232;cle : avec une traduction de l'article original, "Invariante Variationsprobleme"_, Editions Ecole Polytechnique, 2004
+invariance et lois de conservation au XXe si&#232;cle : avec une traduction de l'article original, "Invariante Variationsprobleme"_, Editions Ecole Polytechnique, 2004 ([pdf](http://www.math.cornell.edu/~templier/junior/The-Noether-theorems.pdf))
 
 * [[Alexandre Vinogradov]], I. S. Krasilshchik (eds.) _Symmetries and Conservation Laws for Differential Equations of Mathematical Physics_ ([pdf](ftp://softbank.iust.ac.ir/MathBooks/V/Vinogradov%20-%20Symmetries%20and%20Conservation%20Laws%20for%20Differential%20equations%20of%20mathematical%20physics.pdf))
 
@@ -418,6 +418,8 @@ A formalization of Noether's theorem in [[cohesive homotopy type theory]] is dis
 A formalization of invariance of Lagrangians in [[parametricity|parametric]] [[dependent type theory]] is discussed in
 
 * [[Robert Atkey]], _From Parametricity to Conservation Laws, via Noether's Theorem_, talk at _[Principles of Programming Languages (POPL) 2014](http://popl.mpi-sws.org/2014/index.html)_  ([pdf article](http://bentnib.org/conservation-laws.pdf), [web slides](http://bentnib.org/posts/2014-01-29-popl-slides.html), [pdf slides](http://bentnib.org/docs/conservation-laws-20140124.pdf))
+
+
 
 
 
