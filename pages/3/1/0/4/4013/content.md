@@ -23,9 +23,11 @@
 
 ## Idea
 
-In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a sharp description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". Thus abelian categories and pretoposes are examples of AT categories; underscoring how much these structures have in common, the theory of AT categories hews so closely to both of these two basic examples that in fact every AT category splits cleanly as a [[product]] of a pretopos part and an abelian part. 
+In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a sharp and clever description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". Thus abelian categories and pretoposes are examples of AT categories; underscoring how much these structures have in common, Freyd's theory hews so closely to both of these two basic examples that in fact every AT category splits cleanly as a [[product]] of a pretopos part and an abelian part. 
 
 Here, the properties held in common between abelian categories and pretoposes are all exactness conditions; in the AT set-up, the decisive difference between abelian categories and pretoposes is concentrated solely in the behavior of the [[initial object]] with respect to [[cartesian product]] (being in one case the cartesian monoidal unit, i.e. an element that is universally absorbed into any other, and in the other an absorbing element, i.e. an element that absorbs any other element into itself, aka a zero element or annihilating element). 
+
+There is no research we know of on AT categories. One might say that they were invented by Freyd really for the sole theoretical purpose of demonstrating the commonalities and differences between abelian categories and pretopos categories, not because AT categories are found in nature. Indeed, a "typical" AT category is something of a mythological creature with the head of an abelian lion and the body of a pretopos dragon, and serves no purpose as such, even though pure lions and pure dragons themselves serve a purpose. Some of the axioms, particular axiom "AE" below, seem expressly designed to fuse them together in ad hoc fashion. 
 
 ## Definition
 
@@ -50,7 +52,7 @@ This might look like a side comment for logicians, but it might also signal that
 Furthermore, by choosing a *specific* initial object, a specific pullback for each pair of arrows with common target, etc., an AT category can be cast as a model for a certain [[essentially algebraic theory]]. In other words, such "algebraic AT categories" can be internalized in any finitely complete category. 
 =-- 
 
-The sharp dichotomy which separates "abelianness" from "toposness" is concentrated in the following definition: 
+The crucial difference between "abelianness" and "toposness" is concentrated in the following definition: 
 
 +-- {: .num_defn}
 ###### Definition
@@ -59,7 +61,7 @@ Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \tim
 
 A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
 
-Here then are the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and according to Freyd's thesis, any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks in his original posting are included in parentheses. 
+Here then are the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and according to Freyd's thesis, any exactness condition satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks in his original posting are included in parentheses. 
 
 +-- {: .num_defn}
 ###### Definition
@@ -272,7 +274,7 @@ The full subcategory of objects of type T is a pretopos.
 
 +-- {: .proof}
 ###### Proof
-Corollary \ref{closed} gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that in the full subcategory of $T$ objects, pushouts along monos are stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict by Corollary \ref{strict}. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
+Corollary \ref{closed} gives finite completeness, coproducts, and quotients of kernel pairs. Axiom 6 gives that in the full subcategory of $T$ objects, pushouts along monos are stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict by Corollary \ref{strict}. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
 
 
