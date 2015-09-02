@@ -59,7 +59,7 @@ where $c(\pi)$ counts the number of cycles in the [[permutation#via_cycle_decomp
 
 ### Hypermaps and constellations
 
-The classical definition given above of combinatorial map may be generalized in several directions.  A small generalization is to drop the requirement that $\alpha$ be [[fixed point]] free, while keeping the requirement that it be an [[involution]] (i.e., that $\alpha^2 = id$).  This can be seen as allowing the possibility for the graph to include "dangling edges".  In particular, every $\alpha$-[[orbit]] has length 2 or 1, with orbits of length 2 representing complete edges and orbits of length 1 representing dangling edges.  Although it might seem like a very small step, this generalization turns out to be useful for defining the category of combinatorial maps (see below).
+The classical definition given above of combinatorial map may be generalized in several directions.  A small but useful generalization is to drop the requirement that $\alpha$ be [[fixed point]] free, while keeping the requirement that it be an [[involution]] (i.e., that $\alpha^2 = id$).  This can be seen as allowing the possibility for the graph to include "dangling edges".  In particular, every $\alpha$-[[orbit]] has length 2 or 1, with orbits of length 2 representing complete edges and orbits of length 1 representing dangling edges.
 
 As a bigger step, it is possible to drop condition (3) altogether:
 
@@ -126,7 +126,7 @@ The category $CM$ was defined by [Jones and Singerman 78](#JonesSingerman78) ess
 
 +-- {: .num_thm}
 ###### Proposition
-$CM$ is a [[concrete category]], with a faithful functor $|{-}| : CM \to Set$ which sends any combinatorial map $(D,(\sigma,\alpha,\phi))$ to its underlying set of darts $D$, and any homomorphism of maps $h : M \to M'$ to a function $|h| : |M| \to |M'|$ between the underlying sets of darts.
+$CM$ is a [[concrete category]], with a faithful functor $U : CM \to Set$ which sends any combinatorial map $(D,(\sigma,\alpha,\phi))$ to its underlying set of darts $D$, and any homomorphism of maps $h : M \to M'$ to a function $h : D \to D'$ between the underlying sets of darts.
 =--
 
 ### Monodromy group
@@ -143,23 +143,23 @@ The fact that $Mon(M)$ acts transitively on the set of darts $D$ corresponds to 
 
 +-- {: .num_thm}
 ###### Proposition
-A morphism $h : M \to M'$ of combinatorial maps is entirely determined by the choice of a dart $d_1 \in |M|$ and its image $h(d_1) \in |M'|$.  
+A morphism $h : M \to M'$ of combinatorial maps is entirely determined by the choice of a dart $d_1 \in D$ and its image $h(d_1) \in D'$.
 =--
 
 +-- {: .proof} 
 ###### Proof 
 
-Let $d_2 \in |M|$.  By assumption of transitivity, there exists a word $w \in \langle \sigma,\alpha,\phi \rangle$ such that $d_2 = w * d_1$.  Hence $h(d_2) = h(w * d_1) = w' * h(d_1)$.
+Let $d_2 \in D$.  By assumption of transitivity, there exists a word $w \in \langle \sigma,\alpha,\phi \rangle$ such that $d_2 = w * d_1$.  Hence $h(d_2) = h(w * d_1) = w' * h(d_1)$.
 =--
 
 +-- {: .num_thm}
 ###### Proposition
-If $h : M \to M'$ is a morphism of combinatorial maps and $|M|$ is [[inhabited]], then the underlying function $|h| : |M| \to |M'|$ is a [[surjection]] from the underlying set of darts of $M$ to the underlying set of darts of $M'$.
+If $h : M \to M'$ is a morphism of combinatorial maps and $D$ is [[inhabited]], then the underlying function $h : D \to D'$ is a [[surjection]] from the underlying set of darts of $M$ to the underlying set of darts of $M'$.
 =--
 
 +-- {: .proof} 
 ###### Proof 
-Let $d' \in |M'|$.  By assumption that $|M|$ is inhabited there exists $d \in |M|$, and by assumption of transitivity there exists $w' \in Mon(M')$ such that $d' = w' * h(d)$.  Note that the homomorphism $(-)' : Mon(M) \to Mon(M')$ is an [[epimorphism]] of groups, since it takes generators to generators, implying that there exists $w \in Mon(M)$ such that $w' * h(d) = h(w * d)$.  So $w*d$ is in the inverse image of $d'$.
+Let $d' \in D'$.  By assumption that $D$ is inhabited there exists a $d \in D$, and by assumption of transitivity there exists $w' \in Mon(M')$ such that $d' = w' * h(d)$.  Note that the homomorphism $(-)' : Mon(M) \to Mon(M')$ is an [[epimorphism]] of groups, since it takes generators to generators, implying that there exists $w \in Mon(M)$ such that $w' * h(d) = h(w * d)$.  So $w*d$ is in the inverse image of $d'$.
 =--
 
 ### Terminal object
@@ -169,6 +169,42 @@ We note that the following property of $CM$ relies crucially on allowing maps wi
 +-- {: .num_thm}
 ###### Proposition
 The set $1 = \{ * \}$ equipped with the triple of identity permutations $\sigma = \alpha = \phi = id_1$ is a map, and is a [[terminal object]] in $CM$.
+=--
+
+### Rooted maps
+
+Enumeration of maps is an active branch of [[combinatorics]], going back to the work of [[W. T. Tutte]] in the 1960s.  One of the difficulties with trying to count (combinatorial or topological) maps directly, though, is that they can have non-trivial symmetries (which would need to be accounted for to avoid double-counting).  This is why combinatorists typically study _rooted maps_, as suggested in this autobiographical account by Tutte:
+
+> Having made no progress with the enumeration of these diagrams [(strict triangulations of the plane)] I bethought myself of Cayley's work on the enumeration of trees. His first successes had been with the rooted trees, in which one vertex is distinguished as the "root". Perhaps I should root the strict triangulations in some way and try to enumerate the rooted ones. Eventually I decided that the rooting should consist of the choice of a face, edge and vertex, mutually incident....
+
+> I am not sure what I would have replied at this stage if I had been asked why I preferred these rooted triangulations to the unrooted ones.... Later I realized that the distinguishing feature and the great advantage of rooted maps is that they have no symmetry. Automorphisms seem to complicate enumerative problems.
+
+> (From Chapter 10 of W. T. Tutte, _Graph Theory As I Have Known It_, Oxford, 1998.)
+
+For a combinatorial map $(D,(\sigma,\alpha,\phi))$, choosing "a face, edge and vertex, mutually incident" is equivalent to choosing a dart $r \in D$: the root vertex, edge, and face can then be computed as the orbits of $r$ under the three permutations.  Rooted combinatorial maps may be organized into another category:
+
++-- {: .num_definition #vinv}
+###### Definition
+The **category of rooted combinatorial maps** $CM_\bullet$ is defined as follows:
+
+* objects are pairs of a map $M = (D,(\sigma,\alpha,\phi))$ together with a distinguished dart $r \in D$ called the _root_.
+
+* morphisms $(M,r) \to (M',r')$ are map morphisms $h : M \to M'$ in $CM$ which preserve the root $h(r) = r'$.
+=--
+
+Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ of the singleton set 1 with the forgetful functor $U : CM \to Set$.  In particular, $CM_\bullet$ is _not_ the [[coslice category]] $1/CM$ of the terminal object $1 \in CM$, which is actually a trivial category (compare: [[pointed object]]).
+
+Tutte's observation that rooted maps have no symmetries can be formulated as follows:
+
++-- {: .num_thm}
+###### Proposition
+Let $h : (M,r) \to (M,r)$ be an endomorphism of $(M,d)$ in the category of rooted maps $CM_\bullet$.  Then $h$ is the identity morphism.
+=--
+
++-- {: .proof} 
+###### Proof 
+
+Let $d \in D$ be any dart of $M$.  By transitivity of $Mon(M)$, there is some word $w \in Mon(M)$ such that $d = w * r$, and therefore $h(d) = w * h(r)$. But since $h$ fixes $r$ this implies $h(r) = w * r = d$.
 =--
 
 ## Related concepts
