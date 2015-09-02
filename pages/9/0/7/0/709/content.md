@@ -49,3 +49,10 @@ Here "groupal" means "monoidal and such that all objects have inverses."  (This 
 When $n=\infty$ the groupoidal delooping hypothesis can be interpreted (via the [[homotopy hypothesis]]) as a standard result of classical [[homotopy theory]]: "grouplike $E_k$-spaces" can be delooped $k$ times.  In particular, grouplike $A_\infty$-[[A-infinity-space|spaces]] can be delooped once, and grouplike $E_\infty$-[[E-infinity-space|spaces]] can be delooped infinitely many times (producing a [[spectrum]]).
 
 Non-grouplike $A_\infty$-spaces can also be "delooped" in classical homotopy theory, but can only be recovered from their delooping up to [[group completion]].  This is because classical homotopy theory only works with $(\infty,0)$-categories, while the higher-categorical delooping of a non-grouplike $A_\infty$-space (that is, a monoidal $(\infty,0)$-category) should be an $(\infty,1)$-category, not an $(\infty,0)$-category.
+
+## For $(\infty,n)$-categories
+
+The delooping hypothesis also makes sense for $(\infty,n)$-categories rather than $n$-categories.  In this case a proof (using iterated $(\infty,1)$-categorical enrichment to define $(\infty,n)$-categories) is in
+
+* [[David Gepner]], [[Rune Haugseng]], *Enriched ∞-categories via non-symmetric ∞-operads*, [arXiv](http://arxiv.org/abs/1312.3178)
+
