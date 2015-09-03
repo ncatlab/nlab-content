@@ -251,21 +251,24 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 General texts on modal logics include
 
-* [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
- {#BlackburnDeRijkeVenema}
+* {#BlackburnDeRijkeVenema} [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+ 
 
 * [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
 
-* Stanford Encyclopedia of Philosophy, _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_
- {#SEPModernOrigins}
+* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy, _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_
+ 
 
-* Stanford Encyclopedia of Philosophy, _[modal logic](http://plato.stanford.edu/entries/logic-modal/)_ 
- {#SEPModalLogic}
+* {#SEPModalLogic} Stanford Encyclopedia of Philosophy, _[modal logic](http://plato.stanford.edu/entries/logic-modal/)_ 
+ 
+* {#Scott70} [[Dana Scott]], _Advice on Modal Logic_, in [[Karel Lambert]] (ed.) _Philosophical problems in Logic -- Some recent developments_, Reidel 1970
+
+  > Here is what I consider one of the biggest mistakes in all of modal logic: concentration on a system with just _one_ modal operator. (p. 161)
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
-* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
- {#Pfenning-Davies}
+* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+ 
 
 
 
