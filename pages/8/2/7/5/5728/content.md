@@ -45,5 +45,6 @@ Local Artin $\infty$-algebras are discussed in
 
 [[!redirects Artin algebra]]
 [[!redirects Artin algebras]]
+
 [[!redirects local Artin algebra]]
 [[!redirects local Artin algebras]]
