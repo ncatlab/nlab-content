@@ -1,0 +1,11 @@
+
+
+## Idea
+
+For lack of time, for the moment I essentially just [quote](http://math.stackexchange.com/a/438697/58526) [[Martin Brandenburg]]:
+
+[[adjunction|Adjunctions]] often "prepare" [[equivalence of categories|equivalences]]. More precisely, if $F : D \to C $ is [[left adjoint]] to $G : C \to D$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $C$ where the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and analogously the fixed points of $G F$ as those objects of $D$ where the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] imply that $F$ and $G$ induce an [[equivalence of categories]] between the fixed points of $F G$ and the fixed points of $G F$. 
+
+Lots of equivalences of categories can be seen that way, for example the Main Theorem of [[Galois theory]], [[Pontrjagin duality]], [[Gelfand duality]], [[Stone duality]], the [[Isbell duality]] between [[commutative rings]] and [[affine schemes]], the classification of coherent sheaves on projective spaces, the (weak) equivalence between CW complexes and Kan simplicial sets, and so on.
+
+[[!redirects fixed points of an equivalence]]
