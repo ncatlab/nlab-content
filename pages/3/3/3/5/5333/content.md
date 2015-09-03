@@ -27,7 +27,7 @@ In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vacuum]]
 
 An effective [[target space]] [[quantum field theory]] induced from a given heterotic 2d [[CFT]] [[sigma model]] that has a [[spacetime]] of the form $M^4 \times Y^6$ for $M^4$ the 4-dimensional [[Minkowski space]] that is experimentally observed locally (say on the scale of a particle accelerator) has $N= 1$ global [[supersymmetry]] precisely if the remaining 6-dimensional [[Riemannian manifold]] $Y^6$ is a [[Calabi-Yau manifold]]. See the [references below](#ReferencesNEqOne). 
 
-Since global $N=1$ supersymmetry for a long time has been considered a promising phenomenological model in high energy physics, this fact has induced a lot of interest in heterotic string background with a Yalabi-Yau factor.
+Since global $N=1$ supersymmetry for a long time has been considered a promising phenomenological model in high energy physics, this fact has induced a lot of interest in heterotic string background with a Calabi-Yau factor.
 
 ### Enhanced supersymmetry
 
