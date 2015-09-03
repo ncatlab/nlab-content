@@ -648,6 +648,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[adjoint monad]]
 
+  * [[fixed point of an adjunction]]
+
 * [[proadjoint]], [[Hopf adjunction]]
 
 * [[2-adjunction]]
@@ -690,4 +692,5 @@ For more on this see at _[[adjoint modality]]_.
 [[!redirects adjoint functors]]
 [[!redirects adjoint pair of functors]]
 [[!redirects universal arrow]]
+
 [[!redirects universal arrows]]
