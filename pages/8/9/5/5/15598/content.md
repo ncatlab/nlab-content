@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -16,7 +28,7 @@ The **nucleus** of $F$ is the [[center of an adjunction|center]] of this adjunct
 
 ##Examples with $F = Hom$##
 
-* $V = Ab$, the category of abelian groups. Let $k$ be a field, viewed as a one-object $Ab$-category. Both $[k^{op},Ab]$ and $[k,Ab]$ are the category of $k$-vector spaces, and both adjoints are the dual vector space construction. The nucleus of the profunctor, or reflexive completion $R(k)$ of $k$, is the category of $k$-vector spaces $V$ for which the canonical map $V \to V^{\ast \ast}$ is an isomorphism &#8212; in other words, the finite-dimensional vector spaces.
+* $V = Ab$, the category of abelian groups. Let $k$ be a field, viewed as a one-object $Ab$-category. Both $[k^{op},Ab]$ and $[k,Ab]$ are the category of $k$-vector spaces, and both adjoints are the dual vector space construction. The nucleus of the profunctor, or reflexive completion $R(k)$ of $k$, is the category of $k$-vector spaces $V$ for which the canonical map $V \to V^{\ast \ast}$ is an isomorphism &#8212; in other words, the [[finite-dimensional vector spaces]].
 
 
 ##Examples with other profunctors##
