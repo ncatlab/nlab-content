@@ -61,3 +61,7 @@ It is not at all clear that the following propositions will be conformal to the 
 A starting point for crash-testing the compatibility of higher dimensional arithmetic cryptography with the [KISS principle](http://en.wikipedia.org/wiki/KISS_principle) may be to test it in the finite characteristic case (with p-adic methods, say derived analytic spaces over $\mathbb{Z}_p$, for computational purposes). First remark that the discrete logarithm problem for an elliptic curve over $\mathbb{F}_p$ may be understood as a discrete logarithm problem in the first (&#233;tale torsion) cohomology group of the curve, given by torsion points. One may try to generalize this problem to the higher dimensional situation by giving an algebraic cohomology class $[c]$, and computing $[d]=n.[c]$. The public key is given by the pair $([c],[d])$ and the message is the number $n$. As pointed out by Edixhoven in a preprint, computing a cohomology class may be a very hard computational task, so that this idea may not be conformal to the KISS principle.
 
 One may also devise another "product type" approach to the definition of a public key: given two prime cohomology classes $[c]$ and $[d]$ (classes of irreductible subvarieties of a given codimension), compute their product class $[e]=[c].[d]$ in the cohomology ring. One may try, given $[e]$, to find back $[c]$ and $[d]$, and this may be a very hard problem.
+
+## Related references
+
+Computing zeta functions of arithmetic schemes, David Harvey, [arXiv](http://arxiv.org/abs/1402.3439)
