@@ -26,11 +26,13 @@
 
 
 ##Idea
-When the lattice of open subsets of a topological space is the primordial example of a [[Heyting algebra]] then its dual _lattice of closed subsets_ is the primordial example of a **co-Heyting algebra**.
 
-In general, co-Heyting algebras are dual to Heyting algebras and like them come equipped with non-Boolean logical operators that make them interesting players in [[modal logic|modal]], [[paraconsistent logic|paraconsistent]], and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]], [[quantum theory]] and in [[mereology]].
+Where the [[lattice of open subsets]] of a [[topological space]] is the primordial example of a [[Heyting algebra]] then its dual _lattice of [[closed subsets]]_ is the primordial example of a **co-Heyting algebra**.
+
+In general, co-Heyting algebras are [[duality|dual]] to Heyting algebras and like them come equipped with non-Boolean logical operators that make them interesting players in [[modal logic|modal]], [[paraconsistent logic|paraconsistent]], and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]], [[quantum theory]] and in [[mereology]].
 
 ##Definition
+
 A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
 
 [^Dist]: Existence of $\backslash$ amounts to an [[adjunction]] \_$\backslash y\dashv y\vee$\_ and the existence of a left adjoint implies that $y\vee$\_ preserves limits $\wedge$ hence the assumption of distributivity in the definition is redundant and has been put in for emphasis only.
@@ -61,7 +63,7 @@ Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting alg
 
 * $\sim$ in turn can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and points to the utility of co-Heyting algebras for [[paraconsistent logic]].
 
-* In toposes like e.g. essential subtoposes of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure ([Lawvere](#Law91a), [Reyes](#Reyes)), the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
+* In [[toposes]] like e.g. [[essential subtoposes]] of presheaf toposes, where the lattices of subobjects carry a bi-Heyting structure ([Lawvere](#Law91a), [Reyes](#Reyes)), the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _[[de re and de dicto]]_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
 
 ##Related entries
 
@@ -89,7 +91,7 @@ Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting alg
 
 * {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in Lawvere, Schanuel (eds.), _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
 
-* {#Law91a} F. W. Lawvere, _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in Carboni, Pedicchio, Rosolini (eds.) , _Category Theory Como Conference_, Springer LNM **1488** (1991).
+* {#Law91a} [[William Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini, _Category theory_ , [[Como|Proceedings of the International Conference held in Como 1990]], 213&#8211;236, Lecture Notes in Math. __1488__, Springer (1991)
 
 * T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
 
