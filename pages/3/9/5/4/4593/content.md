@@ -98,6 +98,8 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 ## Related concepts
 
+* [[de dicto and de re]]
+
 * [[Lévy hierarchy]]
 
 ## References
