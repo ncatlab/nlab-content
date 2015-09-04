@@ -129,20 +129,23 @@ nontrivial $P(X)$, but a syntactically presented one".
 
 The notion was introduced in 
 
-* [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
- {#Lawvere69}
+* {#Lawvere69} [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+ 
 
-and developed in 
+
+and further developed in 
 
 * [[Bill Lawvere]], _Equality in hyperdoctrines and
 comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
-* [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r math. Logik und Grundlagen der Math., Band 29, 505-542 (1983). ([pdf](http://www.math.mcgill.ca/~rags/ZML/ZML.PDF))
- {#SeelyA}
+* {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r math. Logik und Grundlagen der Math., Band 29, 505-542 (1983). ([pdf](http://www.math.mcgill.ca/~rags/ZML/ZML.PDF))
+ 
 
 Surveys and reviews include
 
-* Peter Dybjer, _(What I know about) the history of the identity type_ (2006) ([pdf slides](http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf))
+* [[Anders Kock]], [[Gonzalo Reyes]], _Doctrines in categorical logic_, in J. Barwise (ed.) _Handbook of Mathematical Logic_ (North Holland, Amsterdam, 1977) 283-313
+
+* [[Peter Dybjer]], _(What I know about) the history of the identity type_ (2006) ([pdf slides](http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf))
 
 A [[string diagram]] calculus for monoidal hyperdoctrines is discussed in
 
