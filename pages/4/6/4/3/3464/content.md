@@ -23,7 +23,7 @@ The preface is
 
   (on [[cohesive toposes]]).
 
-*Some* of the articles from Como mentioned in the lab or relevant
+*Some* of the articles include the following.
 
 * [[André Joyal|A. Joyal]], [[Myles Tierney|M. Tierney]], _Strong stacks and classifying spaces_, 213&#8211;236 ([pdf](http://www.pps.jussieu.fr/~mellies/semantics-operads-categories/joyal-tierney-strong-stacks.pdf))
 
@@ -34,6 +34,8 @@ The preface is
 * [[Anders Kock|A. Kock]], _Algebras for the partial map classifier monad_,  262--278
 
 * [[Bill Lawvere|F. W. Lawvere]], _Intrinsic co-Heyting boundaries and the Leibniz rule in certain toposes_,  279--281
+
+  (see also at _[[co-Heyting algebra]]_)
 
 * [[Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: important clarification of the subject from logics point of view).
 
