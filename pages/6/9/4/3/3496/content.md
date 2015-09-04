@@ -239,7 +239,7 @@ A [[locally connected topos]] $E$ is one where the [[global section]] [[geometri
 $$
   (f_! \dashv f^* \dashv f_*) \;\;\; : \;\;\;
   E
-    \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
+    \stackrel{\overset{\Pi_0}{\longrightarrow}}{\stackrel{\overset{LConst}{\longleftarrow}}{\underset{\Gamma}{\longrightarrow}}}
   Set
   \,.
 $$
@@ -258,7 +258,7 @@ The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essenti
 
 * **essential geometric morphism**
 
-* [[level]]
+* [[essential subtopos]], [[level]]
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
@@ -286,6 +286,7 @@ The case of sheaves valued in [[FinSet]] is considered in
 * J. Haigh, _Essential geometric morphisms between toposes of finite sets_ , Math. Proc. Phil. Soc. **87** (1980) pp.21-24.
 
 The standard reference for _essential localizations_ [^further], aka [[level|levels]], is
+
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.261-299.
 
