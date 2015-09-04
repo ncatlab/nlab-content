@@ -69,9 +69,49 @@ Again, since $U: R Cocomm Coalg \to R Mod$ is cocontinuous and $R Cocomm Coalg$ 
 
 The comonadicity of $U$ is proven in the [article](#Barr) by Barr, section 4. 
 
-## Lextensivity 
+## Extensivity 
 
-To be investigated... 
+We will show that $k Cocomm Coalg$ is a [[lextensive category]]. 
+
++-- {: .num_prop} 
+###### Proposition 
+Coproducts of coalgebras are disjoint. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The coproduct of coalgebras $C, D$ is $C \oplus D$, and the pullback of the two coalgebra inclusions $i_C: C \to C \oplus D, i_D: D \to C \oplus D$ is the coalgebra equalizer of the two maps  
+
+$$\array{
+ & & C & &  \\ 
+ & _\mathllap{\pi_C} \nearrow & & \searrow _\mathrlap{i_C} \\ 
+C \otimes D & & & & C \oplus D \\
+ & _\mathllap{\pi_D} \searrow & & \nearrow _\mathrlap{i_D} \\ 
+ & & D & &
+}$$ 
+
+This coalgebra equalizer is constructed as the largest subcoalgebra of $C \otimes D$ contained in the $k Vect$ equalizer. But the $k Vect$ equalizer is easily seen to be $0$ (cf. the fact that $k Vect$ coproducts are themselves disjoint), and so the coalgebra equalizer must be $0$ as well, concluding the proof. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Coproducts of coalgebras are stable under pullback. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Consider the following diagram: 
+
+$$\array{
+& & F & & \\ 
+& & \downarrow j & & \\
+& & X & & \\ 
+& & \downarrow f & & \\ 
+C & \underset{i_C}{\to} & C \oplus D & \underset{i_D}{\leftarrow} & D
+}$$ 
+
+where $f$ is an arbitrary coalgebra map and $j: F \hookrightarrow X$ is a finite-dimensional subcoalgebra inclusion. We will show that the pullback of the coproduct diagram along $f \circ j$ is a coproduct decomposition of $F$. 
+=--
 
 ## References 
 
