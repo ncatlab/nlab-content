@@ -5,7 +5,7 @@
 
 ## Idea
 
-The **de re/ de dicto** distinction has different meanings, as explained in ([SEP](#SEP)), but it typically concerns the two readings that are possible in sentences where a modal operator or propositional attitude verb is applied to a claim about some subject. For example, consider
+The **de re/ de dicto** distinction has different meanings, as explained in ([SEP](#SEP)), but it typically concerns the two readings that are possible in sentences where a [[modal operator]] or propositional attitude verb is applied to a claim about some subject. For example, consider
 
 * I believe that the person downstairs is my mother
 
@@ -17,7 +17,9 @@ Similarly in the case of [[modal logic]], we could consider a statement such as
 
 _De dicto_ this means that it has to be the case at this time that there be a monarch (as soon as one monarch dies, their successor becomes monarch). On the other hand, _de re_ this means that some specific individual has to be monarch. This reading leads to a false claim since that person might in fact not have been monarch. They might, say, have abdicated earlier or have been killed by their uncle when a child.
 
-Formally, a proposition involving the consecutive application of a [[modal operator]] and an [[existential quantifier]] is called 
+## Formalization in modal logic
+
+In [[modal logic]] a [[proposition]] involving the consecutive application of a [[modal operator]] and an [[existential quantifier]] is called 
 
 * _de dicto_ if the modal operator is applied after the quantifier
 
@@ -39,9 +41,14 @@ Hence a difference between de dicto and de re statements is related to the failu
 
 * Wikipedia, _[De dicto and de re](https://en.wikipedia.org/wiki/De_dicto_and_de_re)_
 
-* {#Law91a} [[William Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini, _Category theory_ , [[Como|Proceedings of the International Conference held in Como 1990]], 213&#8211;236, Lecture Notes in Math. __1488__, Springer (1991)
+
+Detailed discussion of compatibility of [[modal operators]] with [[base change]] in a [[hyperdoctrine]] is in
 
 * {#MakkaiReyes95} [[Michael Makkai]], [[Gonzalo Reyes]], section 4 of _Completeness results for intuitionistic and modal logic in a categorical setting_, Annals of Pure and Applied Logic 72 (1995) 25-101
+
+Related comments are in 
+
+* {#Law91a} [[William Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini, _Category theory_ , [[Como|Proceedings of the International Conference held in Como 1990]], 213&#8211;236, Lecture Notes in Math. __1488__, Springer (1991)
 
 
 
