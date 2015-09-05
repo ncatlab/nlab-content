@@ -17,11 +17,15 @@ $$f g = f (f g f g ) g = (f f) g f (g g) = g f$$
 
 $$(f g)(f g) = f (g f) g = f (f g) g = (f f)(g g)= 1$$
 
-In [[combinatorics]], an important class of involutions are the [[fixed point]] free ones. The number of fixed point free involutions on a [[finite set]] of even cardinality $2n$ is counted by the double factorial $(2n-1)!! = (2n-1)\cdot (2n-3)\cdot\dots\cdot 3\cdot 1 = \frac{(2n)!}{2^n n!}$.  An arbitrary involution on a finite set of cardinality $n$ may be specified by the choice of $k$ elements which are fixed together with a fixed point free involution on the remaining $(n-k)$.  Arbitrary involutions on a set of cardinality $n$ are counted by OEIS sequence [A000085](https://oeis.org/A000085), which also counts the number of [[Young tableau]] with $n$ cells.
+In [[combinatorics]], an important class of involutions are the [[fixed point]] free ones: an arbitrary involution on a [[finite set]] of cardinality $n$ may be specified by the choice of $k$ elements which are fixed together with a fixed point free involution on the remaining $(n-k)$.  The number of fixed point free involutions on a set of even cardinality $2n$ is counted by the double factorial $(2n-1)!! = (2n-1)\cdot (2n-3)\cdot\dots\cdot 3\cdot 1 = \frac{(2n)!}{2^n n!}$, while arbitrary involutions on a set of cardinality $n$ are counted by OEIS sequence [A000085](https://oeis.org/A000085), which also counts the number of [[Young tableau]] with $n$ cells.
 
 ## Related concepts
 
 * [[duality]]
+
+## References
+
+* Philippe Flajolet and Robert Sedgewick, _Analytic Combinatorics_, CUP, 2009. ([author pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
 
 [[!redirects involution]]
 [[!redirects involutions]]
