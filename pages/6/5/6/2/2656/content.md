@@ -158,7 +158,9 @@ A generalization of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be tw
 * A skew diagram is called a **vertical strip** if every row contains at most one box.
 * conjugation, weight, length extend to skew diagrams accordingly.
 
+## Young tableau
 
+...
 
 ## References ##
 
@@ -185,3 +187,5 @@ category: combinatorics
 [[!redirects Young diagrams]]
 [[!redirects Ferrers diagram]]
 [[!redirects Ferrers diagrams]]
+[[!redirects Young tableau]]
+[[!redirects Young tableaux]]
