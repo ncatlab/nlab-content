@@ -282,7 +282,7 @@ different morphisms $\mathbf{2} \to \mathbf{1}$, corresponding to the four funct
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
-As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n$ elements (OEIS sequences [A001700](https://oeis.org/A001700) and [A088218](https://oeis.org/A088218)), while taking $m=3$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
+As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n+1$ elements (OEIS sequences [A001700](https://oeis.org/A001700) and [A088218](https://oeis.org/A088218)), while taking $m=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
 ## Related constructions ##
 
