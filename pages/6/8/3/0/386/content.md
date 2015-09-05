@@ -263,26 +263,26 @@ This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his
 
 ### Combinatorics
 
-As an order-preserving function between finite ordinals, any morphism $f : [n] \to [m]$ in $\Delta$ is completely specified by fixing $k$ elements of $[m]$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of $n+1$ into $k$ parts, each part denoting a non-empty subset of elements of $[n]$ sharing their value of $f$.  Hence, there are a total of
+As an order-preserving function between finite ordinals, any morphism $f : \mathbf{n} \to \mathbf{m}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{m}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of $\mathbf{n}$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{n}$ sharing their value of $f$.  Hence, there are a total of
 
 $$
-\sum_k \binom{m+1}{k} \binom{n}{k-1}
+\sum_k \binom{m}{k} \binom{n-1}{k-1} = \binom{m+n-1}{m-1}
 $$
 
-different morphisms of type $[n] \to [m]$ in $\Delta$.  For example, there are 
+different morphisms of type $\mathbf{n} \to \mathbf{m}$ in $\Delta_a$, where we obtain the expression on the right by applying the Chu&#8211;Vandermonde identity.  For example, there are 
 
 $$
-\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4
+\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4 = \binom{4}{1}
 $$
 
-different morphisms $[2] \to [1]$, corresponding to the four functions
+different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four functions
 
 1. $f(0) = f(1) = 0, f(2) = 1$
 1. $f(0) = 0, f(1) = f(2) = 1$
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
-Taking $m=n$, the formula for the number of monotone maps $[n] \to [n]$ simplifies to $\binom{2n+1}{n+1}$, which is also OEIS sequence [A001700](https://oeis.org/A001700).
+As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n$ elements (OEIS sequences [A001700](https://oeis.org/A001700) and [A088218](https://oeis.org/A088218)), while taking $m=3$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
 ## Related constructions ##
 
