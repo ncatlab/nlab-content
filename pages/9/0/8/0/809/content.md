@@ -135,6 +135,16 @@ The statement that cubical groups with connections are Kan complexes is due to
 
 * A. Tonks,  "Cubical groups which are Kan", _J. Pure Appl. Algebra_, 81 (1992) 83--87.
 
+Cubical sets with connection are used in the following paper:
+
+* I. Patchkoria "Cubical approach to derived functors" Homology Homotopy Appl.
+Volume 14, Number 1 (2012), 133-158.
+
+and in the following in preference to simplicial methods:
+
+* A Vezzani - "A motivic version of the theorem of Fontaine and Wintenberger"  arXiv:1405.4548, 
+
+
 The statement that cubes with connection form a [[strict test category]] is due to 
 
 * [[Georges Maltsiniotis]], _La cat&#233;gorie cubique avec connections est une cat&#233;gorie test stricte_, preprint, 2009, 1--16. ([web](http://www.intlpress.com/HHA/v11/n2/a15/))
